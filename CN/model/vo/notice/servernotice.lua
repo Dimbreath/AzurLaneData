@@ -1,6 +1,6 @@
 slot0 = class("ServerNotice", import(".Notice"))
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 
 	slot0.version = slot1.version
@@ -17,7 +17,7 @@ slot0.Ctor = function (slot0, slot1)
 	end
 end
 
-slot0.prefKey = function (slot0)
+function slot0.prefKey(slot0)
 	return "ServerNotice" .. slot0.id
 end
 

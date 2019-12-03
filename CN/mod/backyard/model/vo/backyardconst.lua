@@ -24,7 +24,7 @@ slot1 = {
 	Vector2(154, -365)
 }
 
-slot0.level2WarnPos = function (slot0)
+function slot0.level2WarnPos(slot0)
 	return slot0[slot0]
 end
 

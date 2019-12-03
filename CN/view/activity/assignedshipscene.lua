@@ -26,11 +26,11 @@ slot0.titleFromID = {
 	[59906.0] = "second"
 }
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "AssignedShipUI"
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.backBtn = slot0:findTF("layer/back", slot0._tf)
 	slot0.confirmBtn = slot0:findTF("layer/confirm", slot0._tf)
 	slot0.print = slot0:findTF("layer/print", slot0._tf)
@@ -44,7 +44,7 @@ slot0.init = function (slot0)
 	slot0.afterAnima = {}
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		slot0:emit(slot1.ON_BACK)
 	end, SOUND_BACK)
@@ -74,7 +74,7 @@ slot0.didEnter = function (slot0)
 	triggerToggle(slot0.selectPanel:GetChild(0), true)
 end
 
-slot0.checkAndSetSprite = function (slot0, slot1, slot2)
+function slot0.checkAndSetSprite(slot0, slot1, slot2)
 	if slot0.spList[slot1] and slot0.afterAnima[slot1] then
 		setImageSprite(slot2, slot0.spList[slot1], true)
 
@@ -86,7 +86,7 @@ slot0.checkAndSetSprite = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.changeShowCharacter = function (slot0, slot1, slot2, slot3)
+function slot0.changeShowCharacter(slot0, slot1, slot2, slot3)
 	if slot3 then
 		LeanTween.alpha(rtf(slot2), 0, 0.3):setOnComplete(System.Action(function ()
 			slot0:GetComponent(typeof(Image)).enabled = false
@@ -106,7 +106,7 @@ slot0.changeShowCharacter = function (slot0, slot1, slot2, slot3)
 	end)
 end
 
-slot0.setSelectTarget = function (slot0, slot1)
+function slot0.setSelectTarget(slot0, slot1)
 	slot0:changeShowCharacter(slot0.list[slot1] .. "P", slot0.print, slot0.selectTarget)
 	slot0:changeShowCharacter(slot0.list[slot1] .. "N", slot0.name, slot0.selectTarget)
 
@@ -115,11 +115,11 @@ slot0.setSelectTarget = function (slot0, slot1)
 	slot0.selectedShipNumber = slot0.shiplist[slot1]
 end
 
-slot0.setItemVO = function (slot0, slot1)
+function slot0.setItemVO(slot0, slot1)
 	slot0.itemVO = slot1
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	return
 end
 

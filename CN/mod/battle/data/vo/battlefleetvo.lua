@@ -9,7 +9,7 @@ slot7 = class("BattleFleetVO")
 ys.Battle.BattleFleetVO = slot7
 slot7.__name = "BattleFleetVO"
 
-slot7.Ctor = function (slot0, slot1)
+function slot7.Ctor(slot0, slot1)
 	slot0.EventDispatcher.AttachEventDispatcher(slot0)
 	slot0.EventListener.AttachEventListener(slot0)
 
@@ -19,7 +19,7 @@ slot7.Ctor = function (slot0, slot1)
 	slot0:init()
 end
 
-slot7.UpdateMotion = function (slot0)
+function slot7.UpdateMotion(slot0)
 	if slot0._motionReferenceUnit then
 		slot0._motionVO:UpdatePos(slot0._motionReferenceUnit)
 		slot0._motionVO:UpdateVelocityAndDirection(slot0:GetFleetVelocity(), slot0._motionSourceFunc())
@@ -34,7 +34,7 @@ slot7.UpdateMotion = function (slot0)
 	end
 end
 
-slot7.UpdateAutoComponent = function (slot0, slot1)
+function slot7.UpdateAutoComponent(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0._scoutList) do
 		slot6:UpdateWeapon(slot1)
 	end
@@ -62,7 +62,7 @@ slot7.UpdateAutoComponent = function (slot0, slot1)
 	end
 end
 
-slot7.UpdateManualWeaponVO = function (slot0, slot1)
+function slot7.UpdateManualWeaponVO(slot0, slot1)
 	slot0._chargeWeaponVO:Update(slot1)
 	slot0._torpedoWeaponVO:Update(slot1)
 	slot0._airAssistVO:Update(slot1)
@@ -72,29 +72,29 @@ slot7.UpdateManualWeaponVO = function (slot0, slot1)
 	slot0._submarineShiftVO:Update(slot1)
 end
 
-slot7.UpdateFleetDamage = function (slot0, slot1)
+function slot7.UpdateFleetDamage(slot0, slot1)
 	slot0._currentDMGRatio = slot0._currentDMGRatio + slot0.CalculateFleetDamage(slot1)
 
 	slot0:DispatchFleetDamageChange()
 end
 
-slot7.UpdateFleetOverDamage = function (slot0, slot1)
+function slot7.UpdateFleetOverDamage(slot0, slot1)
 	slot0._currentDMGRatio = slot0._currentDMGRatio - slot0:CalculateFleetOverDamage(slot1)
 
 	slot0:DispatchFleetDamageChange()
 end
 
-slot7.DispatchFleetDamageChange = function (slot0)
+function slot7.DispatchFleetDamageChange(slot0)
 	slot0:DispatchEvent(slot0.Event.New(slot1.FLEET_DMG_CHANGE, {}))
 end
 
-slot7.DispatchSonarScan = function (slot0, slot1)
+function slot7.DispatchSonarScan(slot0, slot1)
 	slot0:DispatchEvent(slot0.Event.New(slot1.SONAR_SCAN, {
 		indieSonar = slot1
 	}))
 end
 
-slot7.FreeMainUnit = function (slot0, slot1)
+function slot7.FreeMainUnit(slot0, slot1)
 	if slot0._mainUnitFree then
 		return
 	end
@@ -107,9 +107,9 @@ slot7.FreeMainUnit = function (slot0, slot1)
 	end
 end
 
-slot7.SetMotionSource = function (slot0, slot1)
+function slot7.SetMotionSource(slot0, slot1)
 	if slot1 == nil then
-		slot0._motionSourceFunc = function ()
+		function slot0._motionSourceFunc()
 			return pg.UIMgr.GetInstance().hrz, pg.UIMgr.GetInstance().vtc
 		end
 	else
@@ -117,7 +117,7 @@ slot7.SetMotionSource = function (slot0, slot1)
 	end
 end
 
-slot7.SetSubAidData = function (slot0, slot1, slot2)
+function slot7.SetSubAidData(slot0, slot1, slot2)
 	slot0._submarineVO = slot0.Battle.BattleSubmarineAidVO.New()
 
 	if slot2 == slot1.SubAidFlag.AID_EMPTY or slot2 == slot1.SubAidFlag.OIL_EMPTY then
@@ -129,21 +129,21 @@ slot7.SetSubAidData = function (slot0, slot1, slot2)
 	end
 end
 
-slot7.SetBound = function (slot0, slot1, slot2, slot3, slot4)
+function slot7.SetBound(slot0, slot1, slot2, slot3, slot4)
 	slot0._upperBound = slot1
 	slot0._lowerBound = slot2
 	slot0._leftBound = slot3
 	slot0._rightBound = slot4
 end
 
-slot7.SetTotalBound = function (slot0, slot1, slot2, slot3, slot4)
+function slot7.SetTotalBound(slot0, slot1, slot2, slot3, slot4)
 	slot0._totalUpperBound = slot1
 	slot0._totalLowerBound = slot2
 	slot0._totalLeftBound = slot3
 	slot0._totalRightBound = slot4
 end
 
-slot7.CalcSubmarineBaseLine = function (slot0, slot1)
+function slot7.CalcSubmarineBaseLine(slot0, slot1)
 	slot2 = (slot0._totalRightBound + slot0._totalLeftBound) * 0.5
 
 	if slot0._IFF == slot0.FRIENDLY_CODE then
@@ -160,7 +160,7 @@ slot7.CalcSubmarineBaseLine = function (slot0, slot1)
 	end
 end
 
-slot7.AppendPlayerUnit = function (slot0, slot1)
+function slot7.AppendPlayerUnit(slot0, slot1)
 	slot0._unitList[#slot0._unitList + 1] = slot1
 	slot0._maxCount = slot0._maxCount + 1
 
@@ -176,7 +176,7 @@ slot7.AppendPlayerUnit = function (slot0, slot1)
 	slot1:RegisterEventListener(slot0, slot0.UPDATE_HP, slot0.onUnitUpdateHP)
 end
 
-slot7.RemovePlayerUnit = function (slot0, slot1)
+function slot7.RemovePlayerUnit(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot0._unitList) do
@@ -250,126 +250,126 @@ slot7.RemovePlayerUnit = function (slot0, slot1)
 	end
 end
 
-slot7.OverrideJoyStickAutoBot = function (slot0, slot1)
+function slot7.OverrideJoyStickAutoBot(slot0, slot1)
 	slot0._autoBotAIID = slot1
 
 	slot0:DispatchEvent(slot0.Event.New(slot0.Battle.BattleEvent.OVERRIDE_AUTO_BOT))
 end
 
-slot7.SnapShot = function (slot0)
+function slot7.SnapShot(slot0)
 	slot0._totalDMGRatio = slot0:GetFleetTotalHP()
 	slot0._currentDMGRatio = slot0._totalDMGRatio
 end
 
-slot7.GetIFF = function (slot0)
+function slot7.GetIFF(slot0)
 	return slot0._IFF
 end
 
-slot7.GetMaxCount = function (slot0)
+function slot7.GetMaxCount(slot0)
 	return slot0._maxCount
 end
 
-slot7.GetFlagShip = function (slot0)
+function slot7.GetFlagShip(slot0)
 	return slot0._flagShip
 end
 
-slot7.GetUnitList = function (slot0)
+function slot7.GetUnitList(slot0)
 	return slot0._unitList
 end
 
-slot7.GetMainList = function (slot0)
+function slot7.GetMainList(slot0)
 	return slot0._mainList
 end
 
-slot7.GetScoutList = function (slot0)
+function slot7.GetScoutList(slot0)
 	return slot0._scoutList
 end
 
-slot7.GetSubBench = function (slot0)
+function slot7.GetSubBench(slot0)
 	return slot0._manualSubBench
 end
 
-slot7.GetMotion = function (slot0)
+function slot7.GetMotion(slot0)
 	return slot0._motionVO
 end
 
-slot7.GetMotionReferenceUnit = function (slot0)
+function slot7.GetMotionReferenceUnit(slot0)
 	return slot0._motionReferenceUnit
 end
 
-slot7.GetAutoBotAIID = function (slot0)
+function slot7.GetAutoBotAIID(slot0)
 	return slot0._autoBotAIID
 end
 
-slot7.GetChargeWeaponVO = function (slot0)
+function slot7.GetChargeWeaponVO(slot0)
 	return slot0._chargeWeaponVO
 end
 
-slot7.GetTorpedoWeaponVO = function (slot0)
+function slot7.GetTorpedoWeaponVO(slot0)
 	return slot0._torpedoWeaponVO
 end
 
-slot7.GetAirAssistVO = function (slot0)
+function slot7.GetAirAssistVO(slot0)
 	return slot0._airAssistVO
 end
 
-slot7.GetSubAidVO = function (slot0)
+function slot7.GetSubAidVO(slot0)
 	return slot0._submarineVO
 end
 
-slot7.GetSubFreeDiveVO = function (slot0)
+function slot7.GetSubFreeDiveVO(slot0)
 	return slot0._submarineDiveVO
 end
 
-slot7.GetSubFreeFloatVO = function (slot0)
+function slot7.GetSubFreeFloatVO(slot0)
 	return slot0._submarineFloatVO
 end
 
-slot7.GetSubBoostVO = function (slot0)
+function slot7.GetSubBoostVO(slot0)
 	return slot0._submarineBoostVO
 end
 
-slot7.GetSubSpecialVO = function (slot0)
+function slot7.GetSubSpecialVO(slot0)
 	return slot0._submarineSpecialVO
 end
 
-slot7.GetSubShiftVO = function (slot0)
+function slot7.GetSubShiftVO(slot0)
 	return slot0._submarineShiftVO
 end
 
-slot7.GetFleetAntiAirWeapon = function (slot0)
+function slot7.GetFleetAntiAirWeapon(slot0)
 	return slot0._fleetAntiAir
 end
 
-slot7.GetFleetVelocity = function (slot0)
+function slot7.GetFleetVelocity(slot0)
 	return slot0.GetFleetVelocity(slot0._scoutList)
 end
 
-slot7.GetFleetBound = function (slot0)
+function slot7.GetFleetBound(slot0)
 	return slot0._upperBound, slot0._lowerBound, slot0._leftBound, slot0._rightBound
 end
 
-slot7.GetLeaderPersonality = function (slot0)
+function slot7.GetLeaderPersonality(slot0)
 	return slot0._motionReferenceUnit:GetAutoPilotPreference()
 end
 
-slot7.GetDamageRatioResult = function (slot0)
+function slot7.GetDamageRatioResult(slot0)
 	return string.format("%0.2f", slot0._currentDMGRatio / slot0._totalDMGRatio * 100), slot0._totalDMGRatio
 end
 
-slot7.GetDamageRatio = function (slot0)
+function slot7.GetDamageRatio(slot0)
 	return slot0._currentDMGRatio / slot0._totalDMGRatio
 end
 
-slot7.GetSubmarineBaseLine = function (slot0)
+function slot7.GetSubmarineBaseLine(slot0)
 	return slot0._subAttackBaseLine, slot0._subRetreatBaseLine
 end
 
-slot7.GetFleetSonar = function (slot0)
+function slot7.GetFleetSonar(slot0)
 	return slot0._fleetSonar
 end
 
-slot7.Dispose = function (slot0)
+function slot7.Dispose(slot0)
 	slot0.EventDispatcher.DetachEventDispatcher(slot0)
 	slot0.EventListener.DetachEventListener(slot0)
 
@@ -382,7 +382,7 @@ slot7.Dispose = function (slot0)
 	slot0._indieSonarList = nil
 end
 
-slot7.refreshFleetFormation = function (slot0, slot1)
+function slot7.refreshFleetFormation(slot0, slot1)
 	slot2 = slot0.GetFormationTmpDataFromID(slot1.FORMATION_ID).pos_offset
 	slot0._unitList = slot0.SortFleetList(slot1, slot0._unitList)
 	slot3 = slot1.BornOffset
@@ -428,7 +428,7 @@ slot7.refreshFleetFormation = function (slot0, slot1)
 	slot0:DispatchEvent(slot2.Event.New(slot2.Battle.BattleEvent.REFRESH_FLEET_FORMATION))
 end
 
-slot7.init = function (slot0)
+function slot7.init(slot0)
 	slot0._chargeWeaponVO = slot0.Battle.BattleChargeWeaponVO.New()
 	slot0._torpedoWeaponVO = slot0.Battle.BattleTorpedoWeaponVO.New()
 	slot0._airAssistVO = slot0.Battle.BattleAllInStrikeVO.New()
@@ -461,7 +461,7 @@ slot7.init = function (slot0)
 	slot0:SetMotionSource()
 end
 
-slot7.appendScoutUnit = function (slot0, slot1)
+function slot7.appendScoutUnit(slot0, slot1)
 	slot0._scoutList[#slot0._scoutList + 1] = slot1
 
 	for slot6, slot7 in ipairs(slot2) do
@@ -493,7 +493,7 @@ slot7.appendScoutUnit = function (slot0, slot1)
 	slot0:refreshFleetFormation(slot6)
 end
 
-slot7.appendMainUnit = function (slot0, slot1)
+function slot7.appendMainUnit(slot0, slot1)
 	if #slot0._mainList == 0 then
 		slot0._flagShip = slot1
 	end
@@ -523,13 +523,13 @@ slot7.appendMainUnit = function (slot0, slot1)
 	slot0:refreshFleetFormation(slot4)
 end
 
-slot7.appendSubUnit = function (slot0, slot1)
+function slot7.appendSubUnit(slot0, slot1)
 	slot0._subList[#slot0._subList + 1] = slot1
 
 	slot1:SetMainUnitIndex(#slot0._subList)
 end
 
-slot7.FleetWarcry = function (slot0)
+function slot7.FleetWarcry(slot0)
 	slot1 = nil
 	slot2 = math.random(0, 1)
 	slot3 = slot0:GetScoutList()[1]
@@ -544,20 +544,20 @@ slot7.FleetWarcry = function (slot0)
 	slot1:DispatchChat(slot0.Battle.BattleDataFunction.GetWords(slot1:GetSkinID(), slot5, slot1:GetDefaultSkinID()), 2.5, "battle")
 end
 
-slot7.SubWarcry = function (slot0)
+function slot7.SubWarcry(slot0)
 	slot0:GetSubList()[1].DispatchVoice(slot1, slot2)
 	slot0.GetSubList()[1]:DispatchChat(slot0.Battle.BattleDataFunction.GetWords(slot0.GetSubList()[1].GetSkinID(slot1), slot2, slot0.GetSubList()[1].GetDefaultSkinID(slot1)), 2.5, "battle")
 end
 
-slot7.SetWeaponBlock = function (slot0, slot1)
+function slot7.SetWeaponBlock(slot0, slot1)
 	slot0._blockCast = slot0._blockCast + slot1
 end
 
-slot7.GetWeaponBlock = function (slot0)
+function slot7.GetWeaponBlock(slot0)
 	return slot0._blockCast > 0
 end
 
-slot7.CastChargeWeapon = function (slot0)
+function slot7.CastChargeWeapon(slot0)
 	if slot0:GetWeaponBlock() then
 		return
 	end
@@ -568,14 +568,14 @@ slot7.CastChargeWeapon = function (slot0)
 	end
 end
 
-slot7.CancelChargeWeapon = function (slot0)
+function slot7.CancelChargeWeapon(slot0)
 	if slot0._chargeWeaponVO:GetCurrentWeapon() ~= nil and slot1:GetCurrentState() == slot1.STATE_PRECAST then
 		slot0:DispatchEvent(slot0.Event.New(slot0.Battle.BattleUnitEvent.POINT_HIT_CANCEL, slot2))
 		slot1:CancelCharge()
 	end
 end
 
-slot7.UnleashChrageWeapon = function (slot0)
+function slot7.UnleashChrageWeapon(slot0)
 	if slot0:GetWeaponBlock() then
 		slot0:CancelChargeWeapon()
 
@@ -593,7 +593,7 @@ slot7.UnleashChrageWeapon = function (slot0)
 	end
 end
 
-slot7.QuickTagChrageWeapon = function (slot0, slot1)
+function slot7.QuickTagChrageWeapon(slot0, slot1)
 	if slot0:GetWeaponBlock() then
 		return
 	end
@@ -610,7 +610,7 @@ slot7.QuickTagChrageWeapon = function (slot0, slot1)
 	end
 end
 
-slot7.fireChargeWeapon = function (slot0, slot1, slot2, slot3)
+function slot7.fireChargeWeapon(slot0, slot1, slot2, slot3)
 	slot4 = slot1:GetHost()
 
 	function slot5()
@@ -634,7 +634,7 @@ slot7.fireChargeWeapon = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-slot7.UnleashAllInStrike = function (slot0)
+function slot7.UnleashAllInStrike(slot0)
 	if slot0:GetWeaponBlock() then
 		return
 	end
@@ -652,7 +652,7 @@ slot7.UnleashAllInStrike = function (slot0)
 	end
 end
 
-slot7.CastTorpedo = function (slot0)
+function slot7.CastTorpedo(slot0)
 	if slot0:GetWeaponBlock() then
 		return
 	end
@@ -662,13 +662,13 @@ slot7.CastTorpedo = function (slot0)
 	end
 end
 
-slot7.CancelTorpedo = function (slot0)
+function slot7.CancelTorpedo(slot0)
 	if slot0._torpedoWeaponVO:GetCurrentWeapon() ~= nil and slot1:GetCurrentState() == slot1.STATE_PRECAST then
 		slot1:Cancel()
 	end
 end
 
-slot7.UnleashTorpedo = function (slot0)
+function slot7.UnleashTorpedo(slot0)
 	if slot0:GetWeaponBlock() then
 		slot0:CancelTorpedo()
 
@@ -680,7 +680,7 @@ slot7.UnleashTorpedo = function (slot0)
 	end
 end
 
-slot7.QuickCastTorpedo = function (slot0)
+function slot7.QuickCastTorpedo(slot0)
 	if slot0:GetWeaponBlock() then
 		return
 	end
@@ -690,7 +690,7 @@ slot7.QuickCastTorpedo = function (slot0)
 	end
 end
 
-slot7.Jamming = function (slot0, slot1)
+function slot7.Jamming(slot0, slot1)
 	if slot1 then
 		slot0._chargeWeaponVO:StartJamming()
 		slot0._torpedoWeaponVO:StartJamming()
@@ -702,7 +702,7 @@ slot7.Jamming = function (slot0, slot1)
 	end
 end
 
-slot7.CoupleEncourage = function (slot0)
+function slot7.CoupleEncourage(slot0)
 	slot1 = {}
 	slot2 = {}
 	slot3 = {}
@@ -764,7 +764,7 @@ slot7.CoupleEncourage = function (slot0)
 	end
 end
 
-slot7.onUnitUpdateHP = function (slot0, slot1)
+function slot7.onUnitUpdateHP(slot0, slot1)
 	slot2 = slot1.Dispatcher
 	slot3 = slot1.Data.dHP
 
@@ -783,15 +783,15 @@ slot7.onUnitUpdateHP = function (slot0, slot1)
 	end
 end
 
-slot7.SetSubUnitData = function (slot0, slot1)
+function slot7.SetSubUnitData(slot0, slot1)
 	slot0._subUntiDataList = slot1
 end
 
-slot7.GetSubUnitData = function (slot0)
+function slot7.GetSubUnitData(slot0)
 	return slot0._subUntiDataList
 end
 
-slot7.AddSubMarine = function (slot0, slot1)
+function slot7.AddSubMarine(slot0, slot1)
 	slot1:InitOxygen()
 	slot0.Battle.BattleUnitPhaseSwitcher.New(slot1).SetTemplateData(slot3, slot1.GeneratePlayerSubmarinPhase(slot0._subAttackBaseLine, slot0._subRetreatBaseLine, slot1:GetAttrByName("raidDist"), function ()
 		return slot0:GetRaidDuration()
@@ -804,7 +804,7 @@ slot7.AddSubMarine = function (slot0, slot1)
 	slot1:RegisterEventListener(slot0, slot2.UPDATE_HP, slot0.onUnitUpdateHP)
 end
 
-slot7.AddManualSubmarine = function (slot0, slot1)
+function slot7.AddManualSubmarine(slot0, slot1)
 	slot0._unitList[#slot0._unitList + 1] = slot1
 	slot0._manualSubList[#slot0._manualSubList + 1] = slot1
 	slot0._manualSubBench[#slot0._manualSubBench + 1] = slot1
@@ -816,11 +816,11 @@ slot7.AddManualSubmarine = function (slot0, slot1)
 	slot1:RegisterEventListener(slot0, slot0.UPDATE_HP, slot0.onUnitUpdateHP)
 end
 
-slot7.GetSubList = function (slot0)
+function slot7.GetSubList(slot0)
 	return slot0._subList
 end
 
-slot7.ShiftManualSub = function (slot0)
+function slot7.ShiftManualSub(slot0)
 	slot1 = nil
 
 	if slot0._manualSubUnit then
@@ -906,7 +906,7 @@ slot7.ShiftManualSub = function (slot0)
 	end
 end
 
-slot7.ChangeSubmarineState = function (slot0, slot1, slot2)
+function slot7.ChangeSubmarineState(slot0, slot1, slot2)
 	slot0._manualSubUnit:ChangeOxygenState(slot1)
 
 	if slot2 then
@@ -928,12 +928,12 @@ slot7.ChangeSubmarineState = function (slot0, slot1, slot2)
 	}))
 end
 
-slot7.SubmarinBoost = function (slot0)
+function slot7.SubmarinBoost(slot0)
 	slot0._manualSubUnit:Boost(Vector3.right, slot0.SR_CONFIG.BOOST_SPEED, slot0.SR_CONFIG.BOOST_DECAY, slot0.SR_CONFIG.BOOST_DURATION, slot0.SR_CONFIG.BOOST_DECAY_STAMP)
 	slot0._submarineBoostVO:ResetCurrent()
 end
 
-slot7.UnleashSubmarineSpecial = function (slot0)
+function slot7.UnleashSubmarineSpecial(slot0)
 	if slot0:GetWeaponBlock() then
 		return
 	end
@@ -942,7 +942,7 @@ slot7.UnleashSubmarineSpecial = function (slot0)
 	slot0._manualSubUnit:TriggerBuff(slot0.BuffEffectType.ON_SUBMARINE_FREE_SPECIAL)
 end
 
-slot7.AppendIndieSonar = function (slot0, slot1, slot2)
+function slot7.AppendIndieSonar(slot0, slot1, slot2)
 	slot3 = slot0.Battle.BattleIndieSonar.New(slot0, slot1, slot2)
 
 	slot3:SwitchHost(slot0._motionReferenceUnit)
@@ -952,7 +952,7 @@ slot7.AppendIndieSonar = function (slot0, slot1, slot2)
 	slot3:Detect()
 end
 
-slot7.RemoveIndieSonar = function (slot0, slot1)
+function slot7.RemoveIndieSonar(slot0, slot1)
 	for slot5, slot6 in pairs(slot0._indieSonarList) do
 		if slot1 == slot5 then
 			slot0._indieSonarList[slot5] = nil

@@ -9,7 +9,7 @@ ys.Battle.BattleVigilantBar.STATE_SUSPICIOUS = 1
 ys.Battle.BattleVigilantBar.STATE_VIGILANT = 2
 ys.Battle.BattleVigilantBar.STATE_ENGAGE = 3
 
-ys.Battle.BattleVigilantBar.Ctor = function (slot0, slot1)
+function ys.Battle.BattleVigilantBar.Ctor(slot0, slot1)
 	slot0._vigilantBar = slot1
 	slot0._vigilantBarGO = slot0._vigilantBar.gameObject
 	slot0._progress = slot0._vigilantBar:Find("progress"):GetComponent(typeof(Image))
@@ -21,15 +21,15 @@ ys.Battle.BattleVigilantBar.Ctor = function (slot0, slot1)
 	}
 end
 
-ys.Battle.BattleVigilantBar.ConfigVigilant = function (slot0, slot1)
+function ys.Battle.BattleVigilantBar.ConfigVigilant(slot0, slot1)
 	slot0._vigilantState = slot1
 end
 
-ys.Battle.BattleVigilantBar.UpdateVigilantProgress = function (slot0)
+function ys.Battle.BattleVigilantBar.UpdateVigilantProgress(slot0)
 	slot0._progress.fillAmount = slot0.meterConvert(slot0._vigilantState:GetVigilantRate())
 end
 
-ys.Battle.BattleVigilantBar.UpdateVigilantMark = function (slot0)
+function ys.Battle.BattleVigilantBar.UpdateVigilantMark(slot0)
 	slot1 = slot0._vigilantState:GetVigilantMark()
 
 	for slot5, slot6 in ipairs(slot0._markList) do
@@ -37,15 +37,15 @@ ys.Battle.BattleVigilantBar.UpdateVigilantMark = function (slot0)
 	end
 end
 
-ys.Battle.BattleVigilantBar.UpdateVigilantBarPosition = function (slot0, slot1)
+function ys.Battle.BattleVigilantBar.UpdateVigilantBarPosition(slot0, slot1)
 	slot0._vigilantBar.position = slot1
 end
 
-ys.Battle.BattleVigilantBar.meterConvert = function (slot0)
+function ys.Battle.BattleVigilantBar.meterConvert(slot0)
 	return slot0.METER_LENGTH * slot0 + slot0.MIN
 end
 
-ys.Battle.BattleVigilantBar.Dispose = function (slot0)
+function ys.Battle.BattleVigilantBar.Dispose(slot0)
 	slot0._vigilantState = nil
 
 	Object.Destroy(slot0._vigilantBarGO)

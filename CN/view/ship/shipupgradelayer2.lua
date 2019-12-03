@@ -1,23 +1,23 @@
 slot0 = class("ShipUpgradeLayer2", import("..base.BaseUI"))
 slot1 = 3
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "ShipBreakOutUI"
 end
 
-slot0.setShips = function (slot0, slot1)
+function slot0.setShips(slot0, slot1)
 	slot0.shipVOs = slot1
 end
 
-slot0.setItems = function (slot0, slot1)
+function slot0.setItems(slot0, slot1)
 	slot0.items = slot1
 end
 
-slot0.setPlayer = function (slot0, slot1)
+function slot0.setPlayer(slot0, slot1)
 	slot0.player = slot1
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.leftPanel = slot0:findTF("blur_panel/left_panel")
 	slot0.stages = slot0:findTF("stageScrollRect/stages", slot0.leftPanel)
 	slot0.stagesSnap = slot0:findTF("stageScrollRect", slot0.leftPanel):GetComponent("HorizontalScrollSnap")
@@ -53,7 +53,7 @@ slot0.init = function (slot0)
 	slot0:playLoadingAni()
 end
 
-slot0.loadChar = function (slot0)
+function slot0.loadChar(slot0)
 	if not slot0.shipPrefab then
 		pg.UIMgr.GetInstance():LoadingOn()
 		PoolMgr.GetInstance():GetSpineChar(slot0.shipVO:getPrefab(), true, function (slot0)
@@ -69,7 +69,7 @@ slot0.loadChar = function (slot0)
 	end
 end
 
-slot0.recycleSpineChar = function (slot0)
+function slot0.recycleSpineChar(slot0)
 	if slot0.shipPrefab and slot0.shipModel then
 		PoolMgr.GetInstance():ReturnSpineChar(slot0.shipPrefab, slot0.shipModel)
 
@@ -78,13 +78,13 @@ slot0.recycleSpineChar = function (slot0)
 	end
 end
 
-slot0.enabledToggles = function (slot0, slot1)
+function slot0.enabledToggles(slot0, slot1)
 	eachChild(slot0.toggles, function (slot0)
 		slot0:GetComponent("Toggle").enabled = slot0
 	end)
 end
 
-slot0.addDragListenter = function (slot0)
+function slot0.addDragListenter(slot0)
 	slot1 = GetOrAddComponent(slot0._tf, "EventTriggerListener")
 	slot0.dragTrigger = slot1
 	slot2 = nil
@@ -112,7 +112,7 @@ slot0.addDragListenter = function (slot0)
 	end)
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	slot0.UIMgr = pg.UIMgr.GetInstance()
 
 	slot0.UIMgr:BlurPanel(slot0._tf, false, {
@@ -138,7 +138,7 @@ slot0.didEnter = function (slot0)
 	slot0:initMaterialShips()
 end
 
-slot0.getSameGroupShips = function (slot0)
+function slot0.getSameGroupShips(slot0)
 	slot1 = {}
 	slot2 = slot0.shipVO:getRarity()
 
@@ -161,7 +161,7 @@ slot0.getSameGroupShips = function (slot0)
 	return slot1
 end
 
-slot0.getMaterialShip = function (slot0, slot1)
+function slot0.getMaterialShip(slot0, slot1)
 	slot2 = nil
 
 	for slot6 = #slot1, 1, -1 do
@@ -175,7 +175,7 @@ slot0.getMaterialShip = function (slot0, slot1)
 	return slot2 or #slot1
 end
 
-slot0.setShip = function (slot0, slot1)
+function slot0.setShip(slot0, slot1)
 	slot0.shipVO = slot1
 	slot0.shipTempCfg = pg.ship_data_template
 	slot0.shipBreakOutCfg = pg.ship_data_breakout
@@ -194,7 +194,7 @@ slot0.setShip = function (slot0, slot1)
 	slot0:loadChar()
 end
 
-slot0.getStages = function (slot0)
+function slot0.getStages(slot0)
 	slot1 = {}
 	slot2 = math.floor(slot0.shipVO.configId / 10)
 
@@ -205,13 +205,13 @@ slot0.getStages = function (slot0)
 	return slot1
 end
 
-slot0.updateStagesScrollView = function (slot0)
+function slot0.updateStagesScrollView(slot0)
 	if table.indexof(slot0.breakIds, slot0.shipVO.configId) and slot1 >= 1 and slot1 <= slot0 then
 		slot0:findTF("stage" .. slot1, slot0.stages).GetComponent(slot2, typeof(Toggle)).isOn = true
 	end
 end
 
-slot0.updateBattleView = function (slot0)
+function slot0.updateBattleView(slot0)
 	if #slot0.breakIds < slot0 then
 		return
 	end
@@ -243,7 +243,7 @@ slot2 = {
 	"antisub"
 }
 
-slot0.showBarrage = function (slot0)
+function slot0.showBarrage(slot0)
 	slot0.previewer = WeaponPreviewer.New(slot0.rawImage)
 
 	slot0.previewer:configUI(slot0.healTF)
@@ -253,11 +253,11 @@ slot0.showBarrage = function (slot0)
 	end)
 end
 
-slot0.getWaponIdsById = function (slot0, slot1)
+function slot0.getWaponIdsById(slot0, slot1)
 	return slot0.shipBreakOutCfg[slot1].weapon_ids
 end
 
-slot0.switchStage = function (slot0, slot1)
+function slot0.switchStage(slot0, slot1)
 	if slot0.breakOutId == slot1 then
 		return
 	end
@@ -269,7 +269,7 @@ slot0.switchStage = function (slot0, slot1)
 	end
 end
 
-slot0.getAllWeaponIds = function (slot0)
+function slot0.getAllWeaponIds(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.breakIds) do
@@ -291,7 +291,7 @@ slot0.getAllWeaponIds = function (slot0)
 	return slot1
 end
 
-slot0.updateBreakOutView = function (slot0, slot1)
+function slot0.updateBreakOutView(slot0, slot1)
 	slot0.breakCfg = slot0.shipBreakOutCfg[slot1.configId]
 
 	for slot5, slot6 in ipairs(slot0.itemTFs) do
@@ -390,7 +390,7 @@ slot0.updateBreakOutView = function (slot0, slot1)
 	slot0:initMaterialShips()
 end
 
-slot0.initMaterialShips = function (slot0)
+function slot0.initMaterialShips(slot0)
 	slot1 = slot0.breakCfg.use_char_num
 
 	for slot5 = 1, 3, 1 do
@@ -415,7 +415,7 @@ slot0.initMaterialShips = function (slot0)
 	end
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	slot0.UIMgr:UnblurPanel(slot0._tf, slot0.UIMain)
 	slot0:recycleSpineChar()
 
@@ -432,15 +432,15 @@ slot0.willExit = function (slot0)
 	end
 end
 
-slot0.playLoadingAni = function (slot0)
+function slot0.playLoadingAni(slot0)
 	setActive(slot0.seaLoading, true)
 end
 
-slot0.stopLoadingAni = function (slot0)
+function slot0.stopLoadingAni(slot0)
 	setActive(slot0.seaLoading, false)
 end
 
-slot0.onBackPressed = function (slot0)
+function slot0.onBackPressed(slot0)
 	slot0:emit(BaseUI.ON_BACK_PRESSED, true)
 end
 

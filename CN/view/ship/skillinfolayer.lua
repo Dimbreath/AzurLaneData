@@ -1,10 +1,10 @@
 slot0 = class("SkillInfoLayer", import("..base.BaseUI"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "SkillInfoUI"
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
 	slot2 = slot0.contextData.skillOnShip
@@ -52,7 +52,7 @@ slot0.init = function (slot0)
 	end
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	onButton(slot0, slot0._tf, function ()
 		slot0:emit(slot1.ON_CLOSE)
 	end, SFX_CANCEL)
@@ -67,11 +67,11 @@ slot0.didEnter = function (slot0)
 	end, SFX_UI_CLICK)
 end
 
-slot0.close = function (slot0)
+function slot0.close(slot0)
 	slot0:emit(slot0.ON_CLOSE)
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 
 	if slot0.contextData.onExit then

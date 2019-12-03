@@ -1,7 +1,7 @@
 slot0 = class("ShipDetailCard")
 slot1 = 0.5
 
-slot0.Ctor = function (slot0, slot1, slot2)
+function slot0.Ctor(slot0, slot1, slot2)
 	slot0.go = slot1
 	slot0.showTagNoBlock = slot2 or false
 	slot0.tr = slot1.transform
@@ -30,7 +30,7 @@ slot0.Ctor = function (slot0, slot1, slot2)
 	slot0.hpBar = findTF(slot0.tr, "content/dockyard/blood")
 end
 
-slot0.update = function (slot0, slot1)
+function slot0.update(slot0, slot1)
 	if slot0.shipVO ~= slot1 then
 		slot0.shipVO = slot1
 
@@ -38,7 +38,7 @@ slot0.update = function (slot0, slot1)
 	end
 end
 
-slot0.updateSelected = function (slot0, slot1)
+function slot0.updateSelected(slot0, slot1)
 	slot0.selected = slot1
 
 	slot0.selectedGo:SetActive(slot0.selected)
@@ -54,7 +54,7 @@ slot0.updateSelected = function (slot0, slot1)
 	end
 end
 
-slot0.flush = function (slot0)
+function slot0.flush(slot0)
 	if tobool(slot0.shipVO) then
 		if not slot1:getConfigTable() then
 			return
@@ -137,7 +137,7 @@ slot0.flush = function (slot0)
 	slot0.content:SetActive(slot2)
 end
 
-slot0.clear = function (slot0)
+function slot0.clear(slot0)
 	if slot0.selectedTw then
 		LeanTween.cancel(slot0.selectedTw.uniqueId)
 

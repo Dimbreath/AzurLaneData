@@ -2,22 +2,22 @@ slot0 = class("ExchangeShipLayer", import("..base.BaseUI"))
 slot0.PAGE_SHIP = 1
 slot0.PAGE_ITEM = 2
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "exchangeShipUI"
 end
 
-slot0.setExchangeList = function (slot0, slot1, slot2, slot3)
+function slot0.setExchangeList(slot0, slot1, slot2, slot3)
 	slot0.exchangeList = slot1
 	slot0.flashTime = slot2
 	slot0.flagShipTime = slot3
 end
 
-slot0.setExchangeItemList = function (slot0, slot1, slot2)
+function slot0.setExchangeItemList(slot0, slot1, slot2)
 	slot0.exchangeItemList = slot2
 	slot0.refreshItemTime = slot1
 end
 
-slot0.setItemVOs = function (slot0, slot1)
+function slot0.setItemVOs(slot0, slot1)
 	slot0.itemVO = slot1 or Item.New({
 		count = 0,
 		id = ITEM_ID_SILVER_HOOK
@@ -26,7 +26,7 @@ slot0.setItemVOs = function (slot0, slot1)
 	setText(slot0.quickCountTF, slot0.itemVO.count)
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.paintingTF = slot0:findTF("painting")
 	slot0.rarityTF = slot0:findTF("painting/rarity"):GetComponent(typeof(Image))
 	slot0.exchangeBtn = slot0:findTF("painting/exchange_btn")
@@ -46,7 +46,7 @@ slot0.init = function (slot0)
 	slot0.itemExchangeCfg = pg.item_medal_fetch
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	slot0.toggles = {
 		[slot0.PAGE_SHIP] = slot0.bottomTF:Find("ship_btn"),
 		[slot0.PAGE_ITEM] = slot0.bottomTF:Find("item_btn")
@@ -69,11 +69,11 @@ slot0.didEnter = function (slot0)
 	triggerToggle(slot0.toggles[slot0.contextData.page or slot0.PAGE_SHIP], true)
 end
 
-slot0.onBackPressed = function (slot0)
+function slot0.onBackPressed(slot0)
 	slot0:emit(slot0.ON_BACK_PRESSED, true)
 end
 
-slot0.switchPage = function (slot0, slot1)
+function slot0.switchPage(slot0, slot1)
 	if slot1 == slot0.PAGE_SHIP then
 		if slot0.exchangeList and not slot0.isInitExchangeShip then
 			slot0.isInitExchangeShip = true
@@ -93,7 +93,7 @@ slot0.switchPage = function (slot0, slot1)
 	end
 end
 
-slot0.updateExchangeItems = function (slot0, slot1, slot2)
+function slot0.updateExchangeItems(slot0, slot1, slot2)
 	slot0.exchangeItemList = slot2
 	slot0.refreshItemTime = slot1
 
@@ -104,7 +104,7 @@ slot0.updateExchangeItems = function (slot0, slot1, slot2)
 	slot0:addItemTimer(slot0.refreshItemTime)
 end
 
-slot0.addItemTimer = function (slot0, slot1)
+function slot0.addItemTimer(slot0, slot1)
 	slot2 = slot0:findTF("title/item_timer"):GetComponent(typeof(Text))
 
 	if slot0.itemRefreshTimer then
@@ -129,7 +129,7 @@ slot0.addItemTimer = function (slot0, slot1)
 	slot0.itemRefreshTimer.func()
 end
 
-slot0.updateItem = function (slot0, slot1, slot2)
+function slot0.updateItem(slot0, slot1, slot2)
 	updateDrop(slot0.itemContainer:GetChild(slot1 - 1).Find(slot4, "icon"), {
 		type = DROP_TYPE_ITEM,
 		id = slot0.itemExchangeCfg[slot2.id].itemid,
@@ -168,11 +168,11 @@ slot0.updateItem = function (slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-slot0.activeItem = function (slot0, slot1, slot2)
+function slot0.activeItem(slot0, slot1, slot2)
 	setActive(slot0.itemContainer:GetChild(slot1 - 1).Find(slot3, "mask"), slot2)
 end
 
-slot0.updateExchangeShips = function (slot0, slot1, slot2, slot3)
+function slot0.updateExchangeShips(slot0, slot1, slot2, slot3)
 	slot0:setExchangeList(slot1, slot2, slot3)
 
 	for slot7, slot8 in ipairs(slot1) do
@@ -213,7 +213,7 @@ slot0.updateExchangeShips = function (slot0, slot1, slot2, slot3)
 	slot0:updateFlagShipChangeTime()
 end
 
-slot0.updateFlagShipChangeTime = function (slot0)
+function slot0.updateFlagShipChangeTime(slot0)
 	slot2 = slot0.flagShipTime - pg.TimeMgr.GetInstance():GetServerTime()
 	slot3 = ""
 
@@ -245,7 +245,7 @@ slot0.updateFlagShipChangeTime = function (slot0)
 	end
 end
 
-slot0.updateMainShip = function (slot0, slot1, slot2)
+function slot0.updateMainShip(slot0, slot1, slot2)
 	slot3 = Ship.New({
 		configId = slot2.id
 	})
@@ -286,7 +286,7 @@ slot0.updateMainShip = function (slot0, slot1, slot2)
 	slot0.resCountTF.text = slot4
 end
 
-slot0.updateShips = function (slot0, slot1, slot2)
+function slot0.updateShips(slot0, slot1, slot2)
 	slot3 = Ship.New({
 		configId = slot2.id
 	})
@@ -336,13 +336,13 @@ slot0.updateShips = function (slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-slot0.closeMsgBox = function (slot0)
+function slot0.closeMsgBox(slot0)
 	if pg.MsgboxMgr.GetInstance()._go.activeSelf then
 		slot1:hide()
 	end
 end
 
-slot0.activeExchangeShip = function (slot0, slot1, slot2)
+function slot0.activeExchangeShip(slot0, slot1, slot2)
 	if slot1 == 1 then
 		setButtonEnabled(slot0.exchangeBtn, not slot2)
 		setGray(slot0.exchangeBtn, slot2)
@@ -353,7 +353,7 @@ slot0.activeExchangeShip = function (slot0, slot1, slot2)
 	slot0.exchangeList[slot1].isFetched = slot2
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	if slot0.itemScrolltxt then
 		for slot4, slot5 in pairs(slot0.itemScrolltxt) do
 			slot5:destroy()

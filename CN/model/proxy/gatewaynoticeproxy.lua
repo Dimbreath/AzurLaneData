@@ -1,10 +1,10 @@
 slot0 = class("GatewayNoticeProxy", import(".NetProxy"))
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.data = {}
 end
 
-slot0.getGatewayNotices = function (slot0, slot1)
+function slot0.getGatewayNotices(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot0.data) do
@@ -16,7 +16,7 @@ slot0.getGatewayNotices = function (slot0, slot1)
 	return slot2
 end
 
-slot0.setGatewayNotices = function (slot0, slot1)
+function slot0.setGatewayNotices(slot0, slot1)
 	slot0.data = {}
 
 	for slot5, slot6 in ipairs(slot1) do

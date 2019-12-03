@@ -1,6 +1,6 @@
 slot0 = class("ShipProfileMediator", import("..base.ContextMediator"))
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.showTrans = slot0.contextData.showTrans
 	slot0.groupId = slot0.contextData.groupId
 
@@ -33,7 +33,7 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.FETCH_EVALUATION_DONE,
 		CollectionProxy.GROUP_INFO_UPDATE,
@@ -41,7 +41,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.FETCH_EVALUATION_DONE then

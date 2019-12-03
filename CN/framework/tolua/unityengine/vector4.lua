@@ -5,11 +5,11 @@ slot3 = Mathf.Max
 slot5 = rawget
 slot7 = tolua.initget(slot6)
 
-slot7.zero = function ()
+function slot7.zero()
 	return slot0.New(0, 0, 0, 0)
 end
 
-slot7.one = function ()
+function slot7.one()
 	return slot0.New(1, 1, 1, 1)
 end
 

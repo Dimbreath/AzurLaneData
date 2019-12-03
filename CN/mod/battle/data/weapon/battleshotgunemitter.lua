@@ -5,19 +5,19 @@ slot3 = class("BattleShotgunEmitter", ys.Battle.BattleBulletEmitter)
 ys.Battle.BattleShotgunEmitter = slot3
 slot3.__name = "BattleShotgunEmitter"
 
-slot3.Ctor = function (slot0, slot1, slot2, slot3)
+function slot3.Ctor(slot0, slot1, slot2, slot3)
 	slot0.Battle.BattleShotgunEmitter.super.Ctor(slot0, slot1, slot2, slot3)
 
 	slot0.PrimalIteration = slot0._nonDelayPrimalIteration
 end
 
-slot3.Fire = function (slot0, slot1, slot2, slot3)
+function slot3.Fire(slot0, slot1, slot2, slot3)
 	slot0._angleRange = slot3
 
 	slot0.Battle.BattleShotgunEmitter.super.Fire(slot0, slot1, slot2)
 end
 
-slot3.GenerateBullet = function (slot0)
+function slot3.GenerateBullet(slot0)
 	slot0._delay = slot0._convertedDirBarrage[slot0._primalCounter].Delay
 	slot3 = nil
 

@@ -2,12 +2,12 @@ pg = pg or {}
 pg.Packer = singletonClass("Packer")
 pg.Packer.ps = nil
 
-pg.Packer.Ctor = function (slot0)
+function pg.Packer.Ctor(slot0)
 	slot0._protocols = {}
 	slot0.ps = PackStream.New()
 end
 
-pg.Packer.Pack = function (slot0, slot1, slot2, slot3)
+function pg.Packer.Pack(slot0, slot1, slot2, slot3)
 	slot4 = slot3:SerializeToString()
 	slot5 = ""
 
@@ -29,7 +29,7 @@ pg.Packer.Pack = function (slot0, slot1, slot2, slot3)
 	return slot6:ToArray()
 end
 
-pg.Packer.Unpack = function (slot0, slot1, slot2)
+function pg.Packer.Unpack(slot0, slot1, slot2)
 	if slot0.GetInstance():GetProtocolWithName("sc_" .. slot1) ~= nil then
 		slot4 = slot3._object[slot3._name]()
 
@@ -39,7 +39,7 @@ pg.Packer.Unpack = function (slot0, slot1, slot2)
 	end
 end
 
-pg.Packer.GetProtocolWithName = function (slot0, slot1)
+function pg.Packer.GetProtocolWithName(slot0, slot1)
 	if slot0._protocols[slot1] ~= nil then
 		return slot0._protocols[slot1]
 	end

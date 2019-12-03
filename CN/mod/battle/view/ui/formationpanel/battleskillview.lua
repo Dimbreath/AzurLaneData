@@ -3,7 +3,7 @@ slot1 = ys.Battle.BattleConfig
 ys.Battle.BattleSkillView = class("BattleSkillView")
 ys.Battle.BattleSkillView.__name = "BattleSkillView"
 
-ys.Battle.BattleSkillView.Ctor = function (slot0, slot1)
+function ys.Battle.BattleSkillView.Ctor(slot0, slot1)
 	slot0.EventListener.AttachEventListener(slot0)
 
 	slot0._mediator = slot1
@@ -13,19 +13,19 @@ ys.Battle.BattleSkillView.Ctor = function (slot0, slot1)
 	slot0:EnableWeaponButton(false)
 end
 
-ys.Battle.BattleSkillView.EnableWeaponButton = function (slot0, slot1)
+function ys.Battle.BattleSkillView.EnableWeaponButton(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0._skillBtnList) do
 		slot6:Enabled(slot1)
 	end
 end
 
-ys.Battle.BattleSkillView.DisableWeapnButton = function (slot0)
+function ys.Battle.BattleSkillView.DisableWeapnButton(slot0)
 	for slot4, slot5 in ipairs(slot0._skillBtnList) do
 		slot5:Disable()
 	end
 end
 
-ys.Battle.BattleSkillView.ShiftSubmarineManualButton = function (slot0, slot1)
+function ys.Battle.BattleSkillView.ShiftSubmarineManualButton(slot0, slot1)
 	if slot1 == slot0.Battle.OxyState.STATE_FREE_FLOAT then
 		slot0._diveBtn:SetActive(true)
 		slot0._floatBtn:SetActive(false)
@@ -35,7 +35,7 @@ ys.Battle.BattleSkillView.ShiftSubmarineManualButton = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattleSkillView.InitBtns = function (slot0)
+function ys.Battle.BattleSkillView.InitBtns(slot0)
 	slot0._skillBtnList = {}
 	slot0._fleetVO = slot0._mediator._dataProxy:GetFleetByIFF(slot0.Battle.BattleConfig.FRIENDLY_CODE)
 	slot0._chargeBtn = slot0.Battle.BattleWeaponButton.New()
@@ -135,13 +135,13 @@ ys.Battle.BattleSkillView.InitBtns = function (slot0)
 	slot0._shiftBtn:SetActive(false)
 end
 
-ys.Battle.BattleSkillView.CustomButton = function (slot0, slot1)
+function ys.Battle.BattleSkillView.CustomButton(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		slot0._skillBtnList[slot6]:SetActive(false)
 	end
 end
 
-ys.Battle.BattleSkillView.NormalButton = function (slot0)
+function ys.Battle.BattleSkillView.NormalButton(slot0)
 	slot0._chargeBtn:SetActive(true)
 	slot0._torpedoBtn:SetActive(true)
 	slot0._airStrikeBtn:SetActive(true)
@@ -152,7 +152,7 @@ ys.Battle.BattleSkillView.NormalButton = function (slot0)
 	slot0._shiftBtn:SetActive(false)
 end
 
-ys.Battle.BattleSkillView.SubmarineButton = function (slot0)
+function ys.Battle.BattleSkillView.SubmarineButton(slot0)
 	slot0._chargeBtn:SetActive(false)
 	slot0._torpedoBtn:SetActive(true)
 	slot0._airStrikeBtn:SetActive(false)
@@ -164,7 +164,7 @@ ys.Battle.BattleSkillView.SubmarineButton = function (slot0)
 	slot0._torpedoBtn.GetSkin().transform.anchorMax = Vector2(slot0.SKILL_BUTTON_DEFAULT_PREFERENCE[2].x, slot0.SKILL_BUTTON_DEFAULT_PREFERENCE[2].y)
 end
 
-ys.Battle.BattleSkillView.SubRoutineButton = function (slot0)
+function ys.Battle.BattleSkillView.SubRoutineButton(slot0)
 	slot0._chargeBtn:SetActive(false)
 	slot0._torpedoBtn:SetActive(true)
 	slot0._airStrikeBtn:SetActive(false)
@@ -180,7 +180,7 @@ ys.Battle.BattleSkillView.SubRoutineButton = function (slot0)
 	slot0:setSkillButtonPreferences(slot0._specialBtn:GetSkin(), 4)
 end
 
-ys.Battle.BattleSkillView.OnSkillCd = function (slot0, slot1)
+function ys.Battle.BattleSkillView.OnSkillCd(slot0, slot1)
 	slot2 = slot1.Data.skillID
 
 	if slot1.Data.coolDownTime < pg.TimeMgr.GetInstance():GetCombatTime() then
@@ -190,7 +190,7 @@ ys.Battle.BattleSkillView.OnSkillCd = function (slot0, slot1)
 	slot0._skillCd[slot2] = slot3
 end
 
-ys.Battle.BattleSkillView.Dispose = function (slot0)
+function ys.Battle.BattleSkillView.Dispose(slot0)
 	for slot4, slot5 in ipairs(slot0._skillBtnList) do
 		slot5:Dispose()
 	end
@@ -206,13 +206,13 @@ ys.Battle.BattleSkillView.Dispose = function (slot0)
 	slot0.EventListener.DetachEventListener(slot0)
 end
 
-ys.Battle.BattleSkillView.Update = function (slot0)
+function ys.Battle.BattleSkillView.Update(slot0)
 	for slot4, slot5 in ipairs(slot0._skillBtnList) do
 		slot5:Update()
 	end
 end
 
-ys.Battle.BattleSkillView.setSkillButtonPreferences = function (slot0, slot1, slot2)
+function ys.Battle.BattleSkillView.setSkillButtonPreferences(slot0, slot1, slot2)
 	slot1.transform.localScale = Vector3(slot4, slot4, 0)
 	slot1.transform.anchorMin = Vector2(slot5, slot6)
 	slot1.transform.anchorMax = Vector2(PlayerPrefs.GetFloat("skill_" .. slot2 .. "_anchorX", slot0.SKILL_BUTTON_DEFAULT_PREFERENCE[slot2].x), PlayerPrefs.GetFloat("skill_" .. slot2 .. "_anchorY", slot0.SKILL_BUTTON_DEFAULT_PREFERENCE[slot2].y))

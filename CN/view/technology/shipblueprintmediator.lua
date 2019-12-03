@@ -10,7 +10,7 @@ slot0.SHOW_SKILL_INFO = "ShipBluePrintMediator:SHOW_SKILL_INFO"
 slot0.SET_TECHNOLOGY_VERSION = "ShipBluePrintMediator:SET_TECHNOLOGY_VERSION"
 slot0.SIMULATION_BATTLE = "ShipBluePrintMediator:SIMULATION_BATTLE"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot1 = getProxy(TechnologyProxy)
 
 	if slot0.contextData.shipId then
@@ -115,7 +115,7 @@ slot0.register = function (slot0)
 	slot0.viewComponent:setTaskVOs(getProxy(TaskProxy):getTasksForBluePrint())
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.BUILD_SHIP_BLUEPRINT_DONE,
 		TechnologyProxy.BLUEPRINT_UPDATED,
@@ -135,7 +135,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == TechnologyProxy.BLUEPRINT_UPDATED then

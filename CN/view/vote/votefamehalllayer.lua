@@ -14,11 +14,11 @@ slot0.configs = {
 	}
 }
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "VoteFameHallUI"
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.btns = {
 		slot0:findTF("bg/qy"),
 		slot0:findTF("bg/befst"),
@@ -33,7 +33,7 @@ slot0.init = function (slot0)
 	slot0.backBtn = slot0:findTF("back")
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	for slot4, slot5 in ipairs(slot0.btns) do
 		slot6 = slot0.configs[slot4][1]
 		slot7 = slot0.configs[slot4][2]
@@ -49,7 +49,7 @@ slot0.didEnter = function (slot0)
 	end, SFX_PANEL)
 end
 
-slot0.updateTips = function (slot0)
+function slot0.updateTips(slot0)
 	slot1 = getProxy(AttireProxy)
 	slot2 = {
 		false,
@@ -71,7 +71,7 @@ slot0.updateTips = function (slot0)
 	slot0.tip.text = i18n("vote_fame_tip", slot3[1], slot3[2], slot3[3])
 end
 
-slot0.GetAward = function (slot0, slot1, slot2)
+function slot0.GetAward(slot0, slot1, slot2)
 	seriesAsync({
 		function (slot0)
 			pg.StoryMgr.GetInstance():Play(slot0, slot0, true)
@@ -86,7 +86,7 @@ slot0.GetAward = function (slot0, slot1, slot2)
 	})
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	return
 end
 

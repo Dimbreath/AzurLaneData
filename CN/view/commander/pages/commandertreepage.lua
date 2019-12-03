@@ -1,10 +1,10 @@
 slot0 = class("CommanderTreePage", import("...base.BaseSubView"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "CommanderTreeUI"
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.treePanel = slot0._tf
 	slot0.treeList = UIItemList.New(slot0:findTF("bg/frame/bg/talents", slot0.treePanel), slot0:findTF("bg/frame/bg/talents/telent", slot0.treePanel))
 	slot0.treeTalentDesTxt = slot0.treePanel:Find("bg/frame/bg/desc/Text"):GetComponent(typeof(Text))
@@ -19,7 +19,7 @@ slot0.OnInit = function (slot0)
 	end, SFX_PANEL)
 end
 
-slot0.openTreePanel = function (slot0, slot1)
+function slot0.openTreePanel(slot0, slot1)
 	setActive(slot0.treePanel, true)
 	slot0.treePanel:SetAsLastSibling()
 
@@ -49,11 +49,11 @@ slot0.openTreePanel = function (slot0, slot1)
 	slot0.treeList:align(#slot1:getTalentList())
 end
 
-slot0.closeTreePanel = function (slot0)
+function slot0.closeTreePanel(slot0)
 	setActive(slot0.treePanel, false)
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	return
 end
 

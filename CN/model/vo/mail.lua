@@ -3,7 +3,7 @@ slot0.ATTACHMENT_NONE = 0
 slot0.ATTACHMENT_EXIST = 1
 slot0.ATTACHMENT_TAKEN = 2
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.date = slot1.date
 	slot0.title = string.split(HXSet.hxLan(slot1.title), "||")[1]
@@ -20,12 +20,12 @@ slot0.Ctor = function (slot0, slot1)
 	slot0.openned = false
 end
 
-slot0.extend = function (slot0, slot1)
+function slot0.extend(slot0, slot1)
 	slot0.content = string.gsub(HXSet.hxLan(slot1.content), "\\n", "\n")
 	slot0.openned = true
 end
 
-slot0.hasAttachmentsType = function (slot0, slot1)
+function slot0.hasAttachmentsType(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.attachments) do
 		if slot1 == slot6.type then
 			return true, slot6.id
@@ -33,7 +33,7 @@ slot0.hasAttachmentsType = function (slot0, slot1)
 	end
 end
 
-slot0.getAttatchmentsCount = function (slot0, slot1, slot2)
+function slot0.getAttatchmentsCount(slot0, slot1, slot2)
 	slot3 = 0
 
 	for slot7, slot8 in pairs(slot0.attachments) do
@@ -45,7 +45,7 @@ slot0.getAttatchmentsCount = function (slot0, slot1, slot2)
 	return slot3
 end
 
-slot0.sortByTime = function (slot0, slot1)
+function slot0.sortByTime(slot0, slot1)
 	if slot0.readFlag == slot1.readFlag then
 		if ((slot0.attachFlag == slot0.ATTACHMENT_EXIST and 1) or 0) == ((slot1.attachFlag == slot0.ATTACHMENT_EXIST and 1) or 0) then
 			if slot0.date == slot1.date then
@@ -61,11 +61,11 @@ slot0.sortByTime = function (slot0, slot1)
 	end
 end
 
-slot0.setReadFlag = function (slot0, slot1)
+function slot0.setReadFlag(slot0, slot1)
 	slot0.readFlag = slot1
 end
 
-slot0.setImportantFlag = function (slot0, slot1)
+function slot0.setImportantFlag(slot0, slot1)
 	slot0.importantFlag = slot1
 end
 

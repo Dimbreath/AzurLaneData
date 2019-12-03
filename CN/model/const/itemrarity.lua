@@ -5,7 +5,7 @@ slot0.Purple = 3
 slot0.Gold = 4
 slot0.SSR = 5
 
-slot0.Rarity2Print = function (slot0)
+function slot0.Rarity2Print(slot0)
 	if not slot0.prints then
 		slot0.prints = {
 			"1",
@@ -23,7 +23,7 @@ slot0.Rarity2Print = function (slot0)
 	return slot0.prints[slot0]
 end
 
-slot0.Rarity2HexColor = function (slot0)
+function slot0.Rarity2HexColor(slot0)
 	if not slot0.colors then
 		slot0.colors = {
 			"FFFFFFFF",

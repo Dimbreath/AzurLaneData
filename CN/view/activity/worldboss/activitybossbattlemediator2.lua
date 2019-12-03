@@ -15,7 +15,7 @@ slot0.ON_COMMIT_FLEET = "ActivityBossBattleMediator2:ON_COMMIT_FLEET"
 slot0.ON_FLEET_RECOMMEND = "ActivityBossBattleMediator2:ON_FLEET_RECOMMEND"
 slot0.ON_FLEET_CLEAR = "ActivityBossBattleMediator2:ON_FLEET_CLEAR"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.activityProxy = getProxy(ActivityProxy)
 	slot1 = getProxy(FleetProxy)
 	slot2 = slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2)
@@ -236,7 +236,7 @@ slot0.register = function (slot0)
 	slot0.viewComponent:initMsg(getProxy(ChatProxy).actBossMsg)
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.SUBMIT_TASK_DONE,
 		PlayerProxy.UPDATED,
@@ -247,7 +247,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.SUBMIT_TASK_DONE then
@@ -274,7 +274,7 @@ slot0.handleNotification = function (slot0, slot1)
 	end
 end
 
-slot0.tryBattle = function (slot0)
+function slot0.tryBattle(slot0)
 	if getProxy(FleetProxy):checkActivityFleet(slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2).id) ~= true then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("elite_disable_no_fleet"))
 
@@ -292,7 +292,7 @@ slot0.tryBattle = function (slot0)
 	end
 end
 
-slot0.getDockCallbackFuncs = function (slot0, slot1, slot2, slot3, slot4)
+function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3, slot4)
 	slot5 = getProxy(BayProxy)
 	slot6 = getProxy(FleetProxy)
 

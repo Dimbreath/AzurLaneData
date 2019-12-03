@@ -9,7 +9,7 @@ slot0.CHANGE_FLEET_SHIPS_ORDER = "PreCombatMediator:CHANGE_FLEET_SHIPS_ORDER"
 slot0.CHANGE_FLEET_SHIP = "PreCombatMediator:CHANGE_FLEET_SHIP"
 slot0.ON_AUTO = "PreCombatMediator:ON_AUTO"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot1 = getProxy(BayProxy)
 
 	slot1:setSelectShipId(nil)
@@ -216,7 +216,7 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.changeFleet = function (slot0, slot1)
+function slot0.changeFleet(slot0, slot1)
 	if slot0.contextData.system ~= SYSTEM_SUB_ROUTINE then
 		getProxy(PlayerProxy).combatFleetId = slot1
 	end
@@ -226,7 +226,7 @@ slot0.changeFleet = function (slot0, slot1)
 	slot0.viewComponent:SetFleetStepper()
 end
 
-slot0.refreshEdit = function (slot0, slot1)
+function slot0.refreshEdit(slot0, slot1)
 	getProxy(FleetProxy).EdittingFleet = slot1
 
 	if slot0.contextData.system ~= SYSTEM_SUB_ROUTINE then
@@ -239,7 +239,7 @@ slot0.refreshEdit = function (slot0, slot1)
 	slot0.viewComponent:UpdateFleetView(false)
 end
 
-slot0.commitEdit = function (slot0, slot1)
+function slot0.commitEdit(slot0, slot1)
 	if getProxy(FleetProxy).EdittingFleet == nil or slot3:isFirstFleet() or slot3:isLegalToFight() == true then
 		if slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS or slot0.contextData.system == SYSTEM_ACT_BOSS or slot0.contextData.system == SYSTEM_BOSS_EXPERIMENT then
 			slot2:commitActivityFleet(slot0.contextData.actID)
@@ -281,14 +281,14 @@ slot0.commitEdit = function (slot0, slot1)
 	end
 end
 
-slot0.onAutoBtn = function (slot0, slot1)
+function slot0.onAutoBtn(slot0, slot1)
 	slot0:sendNotification(GAME.AUTO_BOT, {
 		isActiveBot = slot1.isOn,
 		toggle = slot1.toggle
 	})
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.BEGIN_STAGE_DONE,
 		PlayerProxy.UPDATED,
@@ -296,7 +296,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.BEGIN_STAGE_DONE then

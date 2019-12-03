@@ -8,15 +8,15 @@ slot6 = class("BattleUIMediator", ys.MVC.Mediator)
 ys.Battle.BattleUIMediator = slot6
 slot6.__name = "BattleUIMediator"
 
-slot6.Ctor = function (slot0)
+function slot6.Ctor(slot0)
 	slot0.super.Ctor(slot0)
 end
 
-slot6.SetBattleUI = function (slot0)
+function slot6.SetBattleUI(slot0)
 	slot0._ui = slot0._state:GetUI()
 end
 
-slot6.Initialize = function (slot0)
+function slot6.Initialize(slot0)
 	slot0.super.Initialize(slot0)
 
 	slot0._dataProxy = slot0._state:GetProxyByName(slot1.Battle.BattleDataProxy.__name)
@@ -28,35 +28,35 @@ slot6.Initialize = function (slot0)
 	slot0:InitGuide()
 end
 
-slot6.Reinitialize = function (slot0)
+function slot6.Reinitialize(slot0)
 	slot0._skillView:Dispose()
 end
 
-slot6.EnableComponent = function (slot0, slot1)
+function slot6.EnableComponent(slot0, slot1)
 	slot0._ui:findTF("PauseBtn"):GetComponent(typeof(Button)).enabled = slot1
 
 	slot0._skillView:EnableWeaponButton(slot1)
 end
 
-slot6.EnableJoystick = function (slot0, slot1)
+function slot6.EnableJoystick(slot0, slot1)
 	slot0._stickController.enabled = slot1
 
 	setActive(slot0._joystick, slot1)
 end
 
-slot6.EnableWeaponButton = function (slot0, slot1)
+function slot6.EnableWeaponButton(slot0, slot1)
 	slot0._skillView:EnableWeaponButton(slot1)
 end
 
-slot6.EnableSkillFloat = function (slot0, slot1)
+function slot6.EnableSkillFloat(slot0, slot1)
 	slot0._ui:EnableSkillFloat(slot1)
 end
 
-slot6.GetAppearFX = function (slot0)
+function slot6.GetAppearFX(slot0)
 	return slot0._appearEffect
 end
 
-slot6.DisableComponent = function (slot0)
+function slot6.DisableComponent(slot0)
 	slot0._ui:findTF("PauseBtn"):GetComponent(typeof(Button)).enabled = false
 
 	slot0._skillView:DisableWeapnButton()
@@ -68,11 +68,11 @@ slot6.DisableComponent = function (slot0)
 	end
 end
 
-slot6.ActiveDebugConsole = function (slot0)
+function slot6.ActiveDebugConsole(slot0)
 	slot0._debugConsoleView:SetActive(true)
 end
 
-slot6.OpeningEffect = function (slot0, slot1, slot2)
+function slot6.OpeningEffect(slot0, slot1, slot2)
 	slot0._uiMGR:SetActive(false)
 
 	if slot2 == SYSTEM_SUBMARINE_RUN then
@@ -101,12 +101,12 @@ slot6.OpeningEffect = function (slot0, slot1, slot2)
 	SetActive(slot0._ui._go, true)
 end
 
-slot6.InitScene = function (slot0)
+function slot6.InitScene(slot0)
 	slot0._mapId = slot0._dataProxy._mapId
 	slot0._seaView = slot0.Battle.BattleMap.New(slot0._mapId)
 end
 
-slot6.InitJoystick = function (slot0)
+function slot6.InitJoystick(slot0)
 	slot0._joystick = slot0._ui:findTF("Stick")
 	slot1 = slot0.JOY_STICK_DEFAULT_PREFERENCE
 	slot2 = slot0._joystick
@@ -124,7 +124,7 @@ slot6.InitJoystick = function (slot0)
 	slot0._uiMGR:AttachStickOb(slot0._joystick)
 end
 
-slot6.InitTimer = function (slot0)
+function slot6.InitTimer(slot0)
 	if slot0._dataProxy:GetInitData().battleType == SYSTEM_DUEL then
 		slot0._timerView = slot0.Battle.BattleTimerView.New(slot0._ui:findTF("DuelTimer"))
 	else
@@ -132,23 +132,23 @@ slot6.InitTimer = function (slot0)
 	end
 end
 
-slot6.InitEnemyHpBar = function (slot0)
+function slot6.InitEnemyHpBar(slot0)
 	slot0._enemyHpBar = slot0.Battle.BattleEnmeyHpBarView.New(slot0._ui:findTF("EnemyHPBar"))
 end
 
-slot6.InitAirStrikeIcon = function (slot0)
+function slot6.InitAirStrikeIcon(slot0)
 	slot0._airStrikeView = slot0.Battle.BattleAirStrikeIconView.New(slot0._ui:findTF("AirFighterContainer/AirStrikeIcon"))
 end
 
-slot6.InitSubmarineWarning = function (slot0)
+function slot6.InitSubmarineWarning(slot0)
 	slot0._submarineView = slot0.Battle.BattleSubmarineView.New(slot0._ui:findTF("Submarine"))
 end
 
-slot6.InitScoreBar = function (slot0)
+function slot6.InitScoreBar(slot0)
 	slot0._scoreBarView = slot0.Battle.BattleScoreBarView.New(slot0._ui:findTF("DodgemCountBar"))
 end
 
-slot6.InitKizunaJamming = function (slot0)
+function slot6.InitKizunaJamming(slot0)
 	setParent(slot2, slot0._ui.uiCanvas, false)
 
 	slot0._jammingView = slot0.Battle.BattleKizunaJammingView.New(slot2)
@@ -160,45 +160,45 @@ slot6.InitKizunaJamming = function (slot0)
 	slot0._jammingView:Active()
 end
 
-slot6.InitAutoBtn = function (slot0)
+function slot6.InitAutoBtn(slot0)
 	slot0._autoBtn = slot0._ui:findTF("AutoBtn")
 	slot0._autoBtn.localScale = Vector3(slot2, slot2, 1)
 	slot0._autoBtn.anchorMin = Vector2(slot3, slot4)
 	slot0._autoBtn.anchorMax = Vector2(PlayerPrefs.GetFloat("auto_anchorX", slot0.AUTO_DEFAULT_PREFERENCE.x), PlayerPrefs.GetFloat("auto_anchorY", slot0.AUTO_DEFAULT_PREFERENCE.y))
 end
 
-slot6.InitDuelRateBar = function (slot0)
+function slot6.InitDuelRateBar(slot0)
 	slot0._duelRateBar = slot0.Battle.BattleDuelDamageRateView.New(slot0._ui:findTF("DuelDamageRate"))
 
 	return slot0._duelRateBar
 end
 
-slot6.InitSimulationBuffCounting = function (slot0)
+function slot6.InitSimulationBuffCounting(slot0)
 	slot0._simulationBuffCountView = slot0.Battle.BattleSimulationBuffCountView.New(slot0._ui:findTF("SimulationWarning"))
 
 	return slot0._simulationBuffCountView
 end
 
-slot6.InitMainDamagedView = function (slot0)
+function slot6.InitMainDamagedView(slot0)
 	slot0._mainDamagedView = slot0.Battle.BattleMainDamagedView.New(slot0._ui:findTF("HPWarning"))
 end
 
-slot6.InitDebugConsole = function (slot0)
+function slot6.InitDebugConsole(slot0)
 	slot0._debugConsoleView = slot0._debugConsoleView or slot0.Battle.BattleDebugConsole.New(slot0._ui:findTF("Debug_Console"), slot0._state)
 end
 
-slot6.InitCameraGestureSlider = function (slot0)
+function slot6.InitCameraGestureSlider(slot0)
 	slot0._gesture = slot0.Battle.BattleCameraSlider.New(slot0._ui:findTF("CameraController"))
 
 	slot0.Battle.BattleCameraUtil.GetInstance():SetCameraSilder(slot0._gesture)
 	slot0._cameraUtil:SwitchCameraPos("FOLLOW_GESTURE")
 end
 
-slot6.InitGuide = function (slot0)
+function slot6.InitGuide(slot0)
 	return
 end
 
-slot6.InitCamera = function (slot0)
+function slot6.InitCamera(slot0)
 	slot0._camera = GameObject.Find("MainCamera"):GetComponent(typeof(Camera))
 	slot0._uiCamera = GameObject.Find("UICamera"):GetComponent(typeof(Camera))
 	slot0._cameraUtil = slot0.Battle.BattleCameraUtil.GetInstance()
@@ -208,12 +208,12 @@ slot6.InitCamera = function (slot0)
 	slot0._cameraUtil:RegisterEventListener(slot0, slot1.BULLET_TIME, slot0.onBulletTime)
 end
 
-slot6.Update = function (slot0)
+function slot6.Update(slot0)
 	slot0._skillView:Update()
 	slot0._sightView:Update()
 end
 
-slot6.AddUIEvent = function (slot0)
+function slot6.AddUIEvent(slot0)
 	slot0._dataProxy:RegisterEventListener(slot0, slot0.STAGE_DATA_INIT_FINISH, slot0.onStageInit)
 	slot0._dataProxy:RegisterEventListener(slot0, slot0.COMMON_DATA_INIT_FINISH, slot0.onCommonInit)
 	slot0._dataProxy:RegisterEventListener(slot0, slot0.ADD_UNIT, slot0.onAddUnit)
@@ -227,7 +227,7 @@ slot6.AddUIEvent = function (slot0)
 	slot0._dataProxy:RegisterEventListener(slot0, slot0.KIZUNA_JAMMING, slot0.onJamming)
 end
 
-slot6.RemoveUIEvent = function (slot0)
+function slot6.RemoveUIEvent(slot0)
 	slot0._dataProxy:UnregisterEventListener(slot0, slot0.COMMON_DATA_INIT_FINISH)
 	slot0._dataProxy:UnregisterEventListener(slot0, slot0.STAGE_DATA_INIT_FINISH)
 	slot0._dataProxy:UnregisterEventListener(slot0, slot0.ADD_UNIT)
@@ -247,40 +247,40 @@ slot6.RemoveUIEvent = function (slot0)
 	slot0._userFleet:UnregisterEventListener(slot0, slot1.POINT_HIT_CANCEL)
 end
 
-slot6.ShowSkillPainting = function (slot0, slot1, slot2, slot3)
+function slot6.ShowSkillPainting(slot0, slot1, slot2, slot3)
 	slot0._ui:painting(slot1:GetTemplate(), slot3 or 1, slot1:GetIFF())
 end
 
-slot6.ShowSkillFloat = function (slot0, slot1, slot2, slot3)
+function slot6.ShowSkillFloat(slot0, slot1, slot2, slot3)
 	slot0._ui:appendSkill(slot2, slot1, slot3)
 end
 
-slot6.ShowSkillFloatCover = function (slot0, slot1, slot2, slot3)
+function slot6.ShowSkillFloatCover(slot0, slot1, slot2, slot3)
 	slot0._ui:appendSkillCover(slot2, slot1, slot3)
 end
 
-slot6.SeaSurfaceShift = function (slot0, slot1, slot2, slot3, slot4)
+function slot6.SeaSurfaceShift(slot0, slot1, slot2, slot3, slot4)
 	slot0._seaView:ShiftSurface(slot1, slot2, slot3 or slot0.Battle.BattleConfig.calcInterval, slot4)
 end
 
-slot6.ShowAutoBtn = function (slot0)
+function slot6.ShowAutoBtn(slot0)
 	SetActive(slot0._autoBtn.transform, true)
 	triggerToggle(slot0._autoBtn, slot0.Battle.BattleState.IsAutoBotActive())
 end
 
-slot6.ShowTimer = function (slot0)
+function slot6.ShowTimer(slot0)
 	slot0._timerView:SetActive(true)
 end
 
-slot6.ShowDuelBar = function (slot0)
+function slot6.ShowDuelBar(slot0)
 	slot0._duelRateBar:SetActive(true)
 end
 
-slot6.ShowSimulationView = function (slot0)
+function slot6.ShowSimulationView(slot0)
 	slot0._simulationBuffCountView:SetActive(true)
 end
 
-slot6.ShowDodgemScoreBar = function (slot0)
+function slot6.ShowDodgemScoreBar(slot0)
 	slot0:InitScoreBar()
 	slot0._dataProxy:RegisterEventListener(slot0, slot0.UPDATE_DODGEM_SCORE, slot0.onUpdateDodgemScore)
 	slot0._dataProxy:RegisterEventListener(slot0, slot0.UPDATE_DODGEM_COMBO, slot0.onUpdateDodgemCombo)
@@ -288,7 +288,7 @@ slot6.ShowDodgemScoreBar = function (slot0)
 	slot0._scoreBarView:SetActive(true)
 end
 
-slot6.onStageInit = function (slot0, slot1)
+function slot6.onStageInit(slot0, slot1)
 	slot0:InitJoystick()
 	slot0:InitScene()
 	slot0:InitTimer()
@@ -299,7 +299,7 @@ slot6.onStageInit = function (slot0, slot1)
 	slot0:InitMainDamagedView()
 end
 
-slot6.onEnemyHit = function (slot0, slot1)
+function slot6.onEnemyHit(slot0, slot1)
 	if slot1.Data:GetDiveInvisible() and not slot2:GetDiveDetected() then
 		return
 	end
@@ -313,19 +313,19 @@ slot6.onEnemyHit = function (slot0, slot1)
 	end
 end
 
-slot6.onEnemyHpUpdate = function (slot0, slot1)
+function slot6.onEnemyHpUpdate(slot0, slot1)
 	if slot1.Dispatcher == slot0._enemyHpBar:GetCurrentTarget() and (not slot2:GetDiveInvisible() or slot2:GetDiveDetected()) then
 		slot0._enemyHpBar:UpdateHpBar()
 	end
 end
 
-slot6.onPlayerMainUnitHpUpdate = function (slot0, slot1)
+function slot6.onPlayerMainUnitHpUpdate(slot0, slot1)
 	if slot1.Data.dHP < 0 then
 		slot0._mainDamagedView:Play()
 	end
 end
 
-slot6.onCastSkill = function (slot0, slot1)
+function slot6.onCastSkill(slot0, slot1)
 	slot4 = slot1.Data.caster
 
 	if slot0.Battle.BattleDataFunction.GetSkillTemplate(slot3).uiEffect ~= "" then
@@ -337,7 +337,7 @@ slot6.onCastSkill = function (slot0, slot1)
 	end
 end
 
-slot6.onCommonInit = function (slot0, slot1)
+function slot6.onCommonInit(slot0, slot1)
 	slot0._skillView = slot0.Battle.BattleSkillView.New(slot0, slot1.Data)
 	slot0._userFleet = slot0._dataProxy:GetFleetByIFF(slot1.FRIENDLY_CODE)
 
@@ -355,7 +355,7 @@ slot6.onCommonInit = function (slot0, slot1)
 	slot0._sightView:SetAreaBound(slot4, slot5)
 end
 
-slot6.onAddUnit = function (slot0, slot1)
+function slot6.onAddUnit(slot0, slot1)
 	slot2 = slot1.Data.type
 
 	if slot1.Data.unit.IsBoss and slot3:IsBoss() then
@@ -402,7 +402,7 @@ slot6.onAddUnit = function (slot0, slot1)
 	end
 end
 
-slot6.onSubmarineDetected = function (slot0, slot1)
+function slot6.onSubmarineDetected(slot0, slot1)
 	slot2 = slot1.Dispatcher
 
 	if slot0._enemyHpBar:GetCurrentTarget() and slot0._enemyHpBar:GetCurrentTarget() == slot2 and slot2:GetDiveDetected() == false then
@@ -410,7 +410,7 @@ slot6.onSubmarineDetected = function (slot0, slot1)
 	end
 end
 
-slot6.onRemoveUnit = function (slot0, slot1)
+function slot6.onRemoveUnit(slot0, slot1)
 	slot2 = slot1.Data.unit
 
 	if slot1.Data.type == slot0.UnitType.ENEMY_UNIT and not slot2:IsBoss() then
@@ -424,35 +424,35 @@ slot6.onRemoveUnit = function (slot0, slot1)
 	end
 end
 
-slot6.onUpdateCountDown = function (slot0, slot1)
+function slot6.onUpdateCountDown(slot0, slot1)
 	slot0._timerView:SetCountDownText(slot0._dataProxy:GetCountDown())
 end
 
-slot6.onJamming = function (slot0, slot1)
+function slot6.onJamming(slot0, slot1)
 	slot0:InitKizunaJamming()
 end
 
-slot6.onUpdateDodgemScore = function (slot0, slot1)
+function slot6.onUpdateDodgemScore(slot0, slot1)
 	slot0._scoreBarView:UpdateScore(slot1.Data.totalScore)
 end
 
-slot6.onUpdateDodgemCombo = function (slot0, slot1)
+function slot6.onUpdateDodgemCombo(slot0, slot1)
 	slot0._scoreBarView:UpdateCombo(slot1.Data.combo)
 end
 
-slot6.onAddAirStrike = function (slot0, slot1)
+function slot6.onAddAirStrike(slot0, slot1)
 	slot0._airStrikeView:AppendIcon(slot1.Data.index, slot0._dataProxy:GetAirFighterInfo(slot2))
 end
 
-slot6.onRemoveAirStrike = function (slot0, slot1)
+function slot6.onRemoveAirStrike(slot0, slot1)
 	slot0._airStrikeView:RemoveIcon(slot1.Data.index, slot0._dataProxy:GetAirFighterInfo(slot2))
 end
 
-slot6.onUpdateHostileSubmarine = function (slot0, slot1)
+function slot6.onUpdateHostileSubmarine(slot0, slot1)
 	slot0._submarineView:UpdateHostileSubmarineCount(slot1.Data.count)
 end
 
-slot6.onCameraFocus = function (slot0, slot1)
+function slot6.onCameraFocus(slot0, slot1)
 	if slot1.Data.unit ~= nil then
 		slot0:EnableComponent(false)
 		slot0:EnableSkillFloat(slot2.skill or false)
@@ -464,11 +464,11 @@ slot6.onCameraFocus = function (slot0, slot1)
 	end
 end
 
-slot6.onShowPainting = function (slot0, slot1)
+function slot6.onShowPainting(slot0, slot1)
 	slot0:ShowSkillPainting(slot1.Data.caster, slot1.Data.skill, slot1.Data.speed)
 end
 
-slot6.onBulletTime = function (slot0, slot1)
+function slot6.onBulletTime(slot0, slot1)
 	slot3 = slot1.Data.key
 
 	if slot1.Data.rate then
@@ -480,15 +480,15 @@ slot6.onBulletTime = function (slot0, slot1)
 	slot0._seaView:UpdateSpeedScaler()
 end
 
-slot6.onShowBuffer = function (slot0, slot1)
+function slot6.onShowBuffer(slot0, slot1)
 	slot0._seaView:UpdateBufferAlpha(slot1.Data.dist)
 end
 
-slot6.onManualSubShift = function (slot0, slot1)
+function slot6.onManualSubShift(slot0, slot1)
 	slot0._skillView:ShiftSubmarineManualButton(slot1.Data.state)
 end
 
-slot6.onPointHitSight = function (slot0, slot1)
+function slot6.onPointHitSight(slot0, slot1)
 	if slot1.ID == slot0.POINT_HIT_CHARGE then
 		slot0._sightView:SetActive(true)
 	elseif slot2 == slot0.POINT_HIT_CANCEL then
@@ -496,7 +496,7 @@ slot6.onPointHitSight = function (slot0, slot1)
 	end
 end
 
-slot6.registerUnitEvent = function (slot0, slot1)
+function slot6.registerUnitEvent(slot0, slot1)
 	slot1:RegisterEventListener(slot0, slot0.UPDATE_HP, slot0.onEnemyHpUpdate)
 
 	if table.contains(TeamType.SubShipType, slot1:GetTemplate().type) then
@@ -504,11 +504,11 @@ slot6.registerUnitEvent = function (slot0, slot1)
 	end
 end
 
-slot6.registerPlayerMainUnitEvent = function (slot0, slot1)
+function slot6.registerPlayerMainUnitEvent(slot0, slot1)
 	slot1:RegisterEventListener(slot0, slot0.UPDATE_HP, slot0.onPlayerMainUnitHpUpdate)
 end
 
-slot6.unregisterUnitEvent = function (slot0, slot1)
+function slot6.unregisterUnitEvent(slot0, slot1)
 	slot1:UnregisterEventListener(slot0, slot0.UPDATE_HP)
 
 	if table.contains(TeamType.SubShipType, slot1:GetTemplate().type) then
@@ -516,11 +516,11 @@ slot6.unregisterUnitEvent = function (slot0, slot1)
 	end
 end
 
-slot6.unregisterPlayerMainUnitEvent = function (slot0, slot1)
+function slot6.unregisterPlayerMainUnitEvent(slot0, slot1)
 	slot1:UnregisterEventListener(slot0, slot0.UPDATE_HP)
 end
 
-slot6.Dispose = function (slot0)
+function slot6.Dispose(slot0)
 	LeanTween.cancel(slot0._ui._go)
 	slot0._uiMGR:ClearStick()
 

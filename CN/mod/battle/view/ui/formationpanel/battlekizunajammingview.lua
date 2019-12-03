@@ -6,19 +6,19 @@ slot2.__name = "BattleKizunaJammingView"
 slot2.COUNT = 3
 slot2.EXPAND_DURATION = 5
 
-slot2.Ctor = function (slot0, slot1)
+function slot2.Ctor(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0._hitCount = 0
 end
 
-slot2.ConfigCallback = function (slot0, slot1)
+function slot2.ConfigCallback(slot0, slot1)
 	slot0._callback = slot1
 
 	slot0:init()
 end
 
-slot2.init = function (slot0)
+function slot2.init(slot0)
 	slot0.eventTriggers = {}
 	slot0._blocker = slot0._tf:Find("KizunaAiBlocker")
 	slot1 = GetOrAddComponent(slot0._blocker, "EventTriggerListener")
@@ -44,21 +44,21 @@ slot2.init = function (slot0)
 	end)
 end
 
-slot2.Active = function (slot0)
+function slot2.Active(slot0)
 	LeanTween.scale(slot0._blocker, Vector3(1, 1, 0), (1 - slot0._blocker.localScale.x) * slot0.EXPAND_DURATION)
 end
 
-slot2.Puase = function (slot0)
+function slot2.Puase(slot0)
 	LeanTween.cancel(go(slot0._blocker))
 end
 
-slot2.ClickEase = function (slot0)
+function slot2.ClickEase(slot0)
 	LeanTween.scale(slot0._blocker, Vector3(slot2, slot0._blocker.localScale.x - 0.05, 0), 0.03):setOnComplete(System.Action(function ()
 		slot0:Active()
 	end))
 end
 
-slot2.Eliminate = function (slot0, slot1)
+function slot2.Eliminate(slot0, slot1)
 	LeanTween.cancel(go(slot0._blocker))
 	setActive(slot0._blocker:Find("normal"), not slot1)
 	setActive(slot0._blocker:Find("hitted"), slot1)
@@ -67,7 +67,7 @@ slot2.Eliminate = function (slot0, slot1)
 	end))
 end
 
-slot2.Dispose = function (slot0)
+function slot2.Dispose(slot0)
 	if slot0.eventTriggers then
 		for slot4, slot5 in pairs(slot0.eventTriggers) do
 			ClearEventTrigger(slot4)

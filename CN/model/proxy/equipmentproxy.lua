@@ -4,7 +4,7 @@ slot0.EQUIPMENT_UPDATED = "equipment updated"
 slot0.EQUIPMENT_REMOVED = "equipment removed"
 slot0.EQUIPMENT_SKIN_UPDATED = "equipment skin updated"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.data = {}
 	slot0.equipmentSkinIds = {}
 
@@ -34,7 +34,7 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.netBuildSirenEquipment = function (slot0, slot1)
+function slot0.netBuildSirenEquipment(slot0, slot1)
 	return Equipment.New({
 		id = slot1.id,
 		config_id = slot1.template_id,
@@ -47,11 +47,11 @@ slot0.netBuildSirenEquipment = function (slot0, slot1)
 	})
 end
 
-slot0.getEquipmentSkins = function (slot0)
+function slot0.getEquipmentSkins(slot0)
 	return slot0.equipmentSkinIds or {}
 end
 
-slot0.getSkinsByType = function (slot0, slot1)
+function slot0.getSkinsByType(slot0, slot1)
 	slot2 = {}
 	slot3 = pg.equip_skin_template
 
@@ -64,11 +64,11 @@ slot0.getSkinsByType = function (slot0, slot1)
 	return slot2
 end
 
-slot0.getEquipmnentSkinById = function (slot0, slot1)
+function slot0.getEquipmnentSkinById(slot0, slot1)
 	return slot0.equipmentSkinIds[slot1]
 end
 
-slot0.addEquipmentSkin = function (slot0, slot1, slot2)
+function slot0.addEquipmentSkin(slot0, slot1, slot2)
 	if slot0.equipmentSkinIds[slot1] then
 		slot0.equipmentSkinIds[slot1].count = slot0.equipmentSkinIds[slot1].count + 1
 	else
@@ -84,7 +84,7 @@ slot0.addEquipmentSkin = function (slot0, slot1, slot2)
 	})
 end
 
-slot0.useageEquipmnentSkin = function (slot0, slot1)
+function slot0.useageEquipmnentSkin(slot0, slot1)
 	slot0.equipmentSkinIds[slot1].count = slot0.equipmentSkinIds[slot1].count - 1
 
 	slot0:sendNotification(slot0.EQUIPMENT_SKIN_UPDATED, {
@@ -93,7 +93,7 @@ slot0.useageEquipmnentSkin = function (slot0, slot1)
 	})
 end
 
-slot0.addEquipment = function (slot0, slot1)
+function slot0.addEquipment(slot0, slot1)
 	if slot0.data.equipments[slot1.id] == nil then
 		slot0.data.equipments[slot1.id] = slot1:clone()
 
@@ -107,7 +107,7 @@ slot0.addEquipment = function (slot0, slot1)
 	end
 end
 
-slot0.addEquipmentById = function (slot0, slot1, slot2, slot3)
+function slot0.addEquipmentById(slot0, slot1, slot2, slot3)
 	slot0:addEquipment(Equipment.New({
 		id = slot1,
 		count = slot2,
@@ -115,14 +115,14 @@ slot0.addEquipmentById = function (slot0, slot1, slot2, slot3)
 	}))
 end
 
-slot0.updateEquipment = function (slot0, slot1)
+function slot0.updateEquipment(slot0, slot1)
 	slot0.data.equipments[slot1.id] = slot1:clone()
 
 	slot0.data.equipments[slot1.id]:display("updated")
 	slot0.facade:sendNotification(slot0.EQUIPMENT_UPDATED, slot1:clone())
 end
 
-slot0.removeEquipmentById = function (slot0, slot1, slot2)
+function slot0.removeEquipmentById(slot0, slot1, slot2)
 	if slot0.data.equipments[slot1].GetCategory(slot3) == EquipCategory.Siren then
 		slot0.data.equipments[slot3.id] = nil
 
@@ -134,7 +134,7 @@ slot0.removeEquipmentById = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.getEquipments = function (slot0, slot1)
+function slot0.getEquipments(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0.data.equipments) do
@@ -150,7 +150,7 @@ slot0.getEquipments = function (slot0, slot1)
 	return slot2
 end
 
-slot0.getEquipmentById = function (slot0, slot1)
+function slot0.getEquipmentById(slot0, slot1)
 	if slot0.data.equipments[slot1] ~= nil then
 		return slot0.data.equipments[slot1]:clone()
 	end
@@ -158,7 +158,7 @@ slot0.getEquipmentById = function (slot0, slot1)
 	return nil
 end
 
-slot0.getSameTypeEquipmentId = function (slot0, slot1)
+function slot0.getSameTypeEquipmentId(slot0, slot1)
 	slot2 = Equipment.New({
 		id = slot1.config.id
 	})
@@ -197,7 +197,7 @@ slot0.getSameTypeEquipmentId = function (slot0, slot1)
 	end
 end
 
-slot0.getEquipCount = function (slot0)
+function slot0.getEquipCount(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0.data.equipments) do
@@ -207,7 +207,7 @@ slot0.getEquipCount = function (slot0)
 	return slot1
 end
 
-slot0.getEquipmentSkinCount = function (slot0)
+function slot0.getEquipmentSkinCount(slot0)
 	slot2 = 0
 
 	for slot6, slot7 in pairs(slot1) do
@@ -217,7 +217,7 @@ slot0.getEquipmentSkinCount = function (slot0)
 	return slot2
 end
 
-slot0.getCapacity = function (slot0)
+function slot0.getCapacity(slot0)
 	return slot0:getEquipCount()
 end
 

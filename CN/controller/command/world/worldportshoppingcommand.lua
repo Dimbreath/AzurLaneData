@@ -1,6 +1,6 @@
 slot0 = class("WorldPortShoppingCommand", pm.SimpleCommand)
 
-slot0.execute = function (slot0, slot1)
+function slot0.execute(slot0, slot1)
 	if slot1:getBody().goods.count <= 0 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
 
@@ -47,7 +47,7 @@ slot0.execute = function (slot0, slot1)
 	end)
 end
 
-slot0.BuildDrop = function (slot0, slot1)
+function slot0.BuildDrop(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot1.drop_list) do

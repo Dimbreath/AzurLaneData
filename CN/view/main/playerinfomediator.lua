@@ -10,7 +10,7 @@ slot0.ON_CHANGE_PLAYER_NAME = "PlayerInfoMediator:ON_CHANGE_PLAYER_NAME"
 slot0.ON_CHANGE_MEDAL_DISPLAY = "PlayerInfoMediator:ON_CHANGE_MEDAL_DISPLAY"
 slot0.ON_ATTIRE = "PlayerInfoMediator:ON_ATTIRE"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0:bind(slot0.ON_CHANGE_PLAYER_NAME, function (slot0, slot1)
 		slot0:sendNotification(GAME.CHANGE_PLAYER_NAME, {
 			name = slot1
@@ -125,7 +125,7 @@ slot0.register = function (slot0)
 	end
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		SetShipSkinCommand.SKIN_UPDATED,
 		PlayerProxy.UPDATED,
@@ -138,7 +138,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == PlayerProxy.UPDATED then

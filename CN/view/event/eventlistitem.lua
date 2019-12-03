@@ -1,7 +1,7 @@
 EventConst = require("view/event/EventConst")
 slot0 = class("EventListItem")
 
-slot0.Ctor = function (slot0, slot1, slot2)
+function slot0.Ctor(slot0, slot1, slot2)
 	slot0.go = slot1
 	slot0.tr = slot1.transform
 	slot0.dispatch = slot2
@@ -23,14 +23,14 @@ slot0.Ctor = function (slot0, slot1, slot2)
 	SetActive(slot0.mark, false)
 end
 
-slot0.Update = function (slot0, slot1, slot2)
+function slot0.Update(slot0, slot1, slot2)
 	slot0.index = slot1
 	slot0.event = slot2
 
 	slot0:Flush()
 end
 
-slot0.UpdateTime = function (slot0)
+function slot0.UpdateTime(slot0)
 	if not slot0.event then
 		return
 	end
@@ -64,7 +64,7 @@ slot0.UpdateTime = function (slot0)
 	SetActive(slot0.mark, slot0.event.state == EventInfo.StateFinish)
 end
 
-slot0.Flush = function (slot0)
+function slot0.Flush(slot0)
 	slot0.bgNormal:SetActive(slot0.event.template.type ~= 2)
 	slot0.bgEmergence:SetActive(slot0.event.template.type == 2)
 
@@ -111,11 +111,11 @@ slot0.Flush = function (slot0)
 	end
 end
 
-slot0.Clear = function (slot0)
+function slot0.Clear(slot0)
 	return
 end
 
-slot0.findTF = function (slot0, slot1)
+function slot0.findTF(slot0, slot1)
 	return findTF(slot0.tr, slot1)
 end
 

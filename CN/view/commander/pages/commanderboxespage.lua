@@ -1,10 +1,10 @@
 slot0 = class("CommanderBoxesPage", import("...base.BaseSubView"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "CommanderBoxesUI"
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.boxCards = {}
 	slot0.startBtn = slot0._tf:Find("frame/boxes/start_btn")
 	slot0.finishBtn = slot0._tf:Find("frame/boxes/finish_btn")
@@ -49,7 +49,7 @@ slot0.OnInit = function (slot0)
 	setActive(slot0._tf:Find("frame"), true)
 end
 
-slot0.Update = function (slot0, slot1, slot2)
+function slot0.Update(slot0, slot1, slot2)
 	slot0.boxes = slot1
 	slot0.pools = slot2
 
@@ -86,7 +86,7 @@ slot0.Update = function (slot0, slot1, slot2)
 	slot0:updateCntLabel()
 end
 
-slot0.updateCntLabel = function (slot0)
+function slot0.updateCntLabel(slot0)
 	_.each(slot0.boxes, function (slot0)
 		slot0.state = slot0:getState()
 
@@ -101,13 +101,13 @@ slot0.updateCntLabel = function (slot0)
 	slot0.waitCnt.text = slot2 .. "/" .. CommanderProxy.MAX_SLOT - CommanderProxy.MAX_WORK_COUNT
 end
 
-slot0.Show = function (slot0)
+function slot0.Show(slot0)
 	slot0.activation = true
 
 	setActive(slot0._go, true)
 end
 
-slot0.Hide = function (slot0)
+function slot0.Hide(slot0)
 	slot0.buildPoolPanel:Hide()
 
 	slot0.activation = false
@@ -115,11 +115,11 @@ slot0.Hide = function (slot0)
 	setActive(slot0._go, false)
 end
 
-slot0.isShow = function (slot0)
+function slot0.isShow(slot0)
 	return slot0.activation
 end
 
-slot0.playFinshedAnim = function (slot0, slot1, slot2)
+function slot0.playFinshedAnim(slot0, slot1, slot2)
 	slot3 = nil
 
 	for slot7, slot8 in pairs(slot0.boxCards) do
@@ -137,7 +137,7 @@ slot0.playFinshedAnim = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.onBackPressed = function (slot0)
+function slot0.onBackPressed(slot0)
 	if slot0.buildPoolPanel and slot0.buildPoolPanel.isShow then
 		slot0.buildPoolPanel:Hide()
 
@@ -147,7 +147,7 @@ slot0.onBackPressed = function (slot0)
 	end
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	slot0:Hide()
 
 	slot1 = pairs

@@ -6,7 +6,7 @@ slot0.OPEN_CHUANWU = "BackYardShipInfoMediator:OPEN_CHUANWU"
 slot0.BUY_QUICKITEM = "BackYardShipInfoMediator:BUY_QUICKITEM"
 slot0.OPEN_NOFOOD = "BackYardShipInfoMediator:OPEN_NOFOOD"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.contextData.type = slot0.contextData.type or BackYardShipInfoLayer.SHIP_TRAIN_TYPE
 	slot0.dormProxy = getProxy(DormProxy)
 
@@ -43,7 +43,7 @@ slot0.register = function (slot0)
 	slot0.viewComponent:setClassShipVOs({})
 end
 
-slot0.onSelecte = function (slot0, slot1, slot2, slot3)
+function slot0.onSelecte(slot0, slot1, slot2, slot3)
 	slot4 = 0
 
 	if slot1 == BackYardShipInfoLayer.SHIP_TRAIN_TYPE or slot1 == BackYardShipInfoLayer.SHIP_REST_TYPE then
@@ -256,7 +256,7 @@ slot0.onSelecte = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.EXTEND_BACKYARD_DONE,
 		DormProxy.DORM_UPDATEED,
@@ -267,7 +267,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.EXTEND_BACKYARD_DONE then

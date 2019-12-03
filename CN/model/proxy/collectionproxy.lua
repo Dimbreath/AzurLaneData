@@ -6,7 +6,7 @@ slot0.TROPHY_UPDATE = "trophy update"
 slot0.MAX_DAILY_EVA_COUNT = 1
 slot0.KEY_17001_TIME_STAMP = "KEY_17001_TIME_STAMP"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.shipGroups = {}
 	slot0.awards = {}
 	slot0.trophy = {}
@@ -80,7 +80,7 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.resetEvaCount = function (slot0)
+function slot0.resetEvaCount(slot0)
 	for slot4, slot5 in pairs(slot0.shipGroups) do
 		if slot5.evaluation then
 			slot6.ievaCount = 0
@@ -88,33 +88,33 @@ slot0.resetEvaCount = function (slot0)
 	end
 end
 
-slot0.updateDailyEvaCount = function (slot0, slot1)
+function slot0.updateDailyEvaCount(slot0, slot1)
 	slot0.dailyEvaCount = slot1
 end
 
-slot0.updateAward = function (slot0, slot1, slot2)
+function slot0.updateAward(slot0, slot1, slot2)
 	slot0.awards[slot1] = slot2
 
 	slot0:sendNotification(slot0.AWARDS_UPDATE, Clone(slot0.awards))
 end
 
-slot0.getShipGroup = function (slot0, slot1)
+function slot0.getShipGroup(slot0, slot1)
 	return Clone(slot0.shipGroups[slot1])
 end
 
-slot0.updateShipGroup = function (slot0, slot1)
+function slot0.updateShipGroup(slot0, slot1)
 	slot0.shipGroups[slot1.id] = Clone(slot1)
 end
 
-slot0.getGroups = function (slot0)
+function slot0.getGroups(slot0)
 	return Clone(slot0.shipGroups)
 end
 
-slot0.getAwards = function (slot0)
+function slot0.getAwards(slot0)
 	return Clone(slot0.awards)
 end
 
-slot0.hasFinish = function (slot0)
+function slot0.hasFinish(slot0)
 	for slot5, slot6 in ipairs(pg.storeup_data_template.all) do
 		if Favorite.New({
 			id = slot6
@@ -126,29 +126,29 @@ slot0.hasFinish = function (slot0)
 	return false
 end
 
-slot0.getCollectionRate = function (slot0)
+function slot0.getCollectionRate(slot0)
 	return string.format("%0.3f", slot0:getCollectionCount() / slot0:getCollectionTotal()), slot0.getCollectionCount(), slot0.getCollectionTotal()
 end
 
-slot0.getCollectionCount = function (slot0)
+function slot0.getCollectionCount(slot0)
 	return _.reduce(_.values(slot0.shipGroups), 0, function (slot0, slot1)
 		return slot0 + ((Nation.IsLinkType(slot1:getNation()) and 0) or (slot1.trans and 2) or 1)
 	end)
 end
 
-slot0.getCollectionTotal = function (slot0)
+function slot0.getCollectionTotal(slot0)
 	return _.reduce(pg.ship_data_group.all, 0, function (slot0, slot1)
 		return slot0 + ((Nation.IsLinkType(ShipGroup.getDefaultShipConfig(slot2).nationality) and 0) or 1)
 	end) + #pg.ship_data_trans.all
 end
 
-slot0.getLinkCollectionCount = function (slot0)
+function slot0.getLinkCollectionCount(slot0)
 	return _.reduce(_.values(slot0.shipGroups), 0, function (slot0, slot1)
 		return slot0 + ((Nation.IsLinkType(slot1:getNation()) and 1) or 0)
 	end)
 end
 
-slot0.flushCollection = function (slot0, slot1)
+function slot0.flushCollection(slot0, slot1)
 	slot3 = nil
 
 	if not slot0:getShipGroup(slot1.groupId) then
@@ -200,11 +200,11 @@ slot0.flushCollection = function (slot0, slot1)
 	end
 end
 
-slot0.updateTrophyClaim = function (slot0, slot1, slot2)
+function slot0.updateTrophyClaim(slot0, slot1, slot2)
 	slot0.trophy[slot1]:updateTimeStamp(slot2)
 end
 
-slot0.unlockNewTrophy = function (slot0, slot1)
+function slot0.unlockNewTrophy(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		slot0.trophy[slot6.id] = slot6
 	end
@@ -214,11 +214,11 @@ slot0.unlockNewTrophy = function (slot0, slot1)
 	slot0:hiddenTrophyAutoClaim()
 end
 
-slot0.getTrophyGroup = function (slot0)
+function slot0.getTrophyGroup(slot0)
 	return Clone(slot0.trophyGroup)
 end
 
-slot0.getTrophys = function (slot0)
+function slot0.getTrophys(slot0)
 	slot1 = Clone(slot0.trophy)
 
 	for slot5, slot6 in pairs(slot0.trophy) do
@@ -228,7 +228,7 @@ slot0.getTrophys = function (slot0)
 	return slot1
 end
 
-slot0.hiddenTrophyAutoClaim = function (slot0)
+function slot0.hiddenTrophyAutoClaim(slot0)
 	for slot4, slot5 in pairs(slot0.trophy) do
 		if slot5:getHideType() ~= Trophy.ALWAYS_SHOW and slot5:getHideType() ~= Trophy.COMING_SOON and slot5:canClaimed() and not slot5:isClaimed() then
 			slot0:sendNotification(GAME.TROPHY_CLAIM, {
@@ -238,7 +238,7 @@ slot0.hiddenTrophyAutoClaim = function (slot0)
 	end
 end
 
-slot0.unclaimTrophyCount = function (slot0)
+function slot0.unclaimTrophyCount(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0.trophy) do
@@ -250,17 +250,17 @@ slot0.unclaimTrophyCount = function (slot0)
 	return slot1
 end
 
-slot0.updateTrophy = function (slot0)
+function slot0.updateTrophy(slot0)
 	slot0:sendNotification(slot0.TROPHY_UPDATE, Clone(slot0.trophy))
 end
 
-slot0.dispatchClaimRemind = function (slot0, slot1)
+function slot0.dispatchClaimRemind(slot0, slot1)
 	pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_TROPHY, {
 		id = slot1
 	})
 end
 
-slot0.bindComplexTrophy = function (slot0)
+function slot0.bindComplexTrophy(slot0)
 	for slot4, slot5 in pairs(slot0.trophyGroup) do
 		for slot10, slot11 in pairs(slot6) do
 			if slot11:isComplexTrophy() then
@@ -272,7 +272,7 @@ slot0.bindComplexTrophy = function (slot0)
 	end
 end
 
-slot0.bindTrophyGroup = function (slot0)
+function slot0.bindTrophyGroup(slot0)
 	for slot5, slot6 in ipairs(pg.medal_template.all) do
 		if slot1[slot6].hide == Trophy.ALWAYS_SHOW then
 			if not slot0.trophyGroup[math.floor(slot6 / 10)] then

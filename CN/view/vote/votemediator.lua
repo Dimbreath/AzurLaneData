@@ -3,7 +3,7 @@ slot0.ON_VOTE = "VoteMediator:ON_VOTE"
 slot0.ON_FILTER = "VoteMediator:ON_FILTER"
 slot0.ON_WEB = "VoteMediator:ON_WEB"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0:bind(slot0.ON_VOTE, function (slot0, slot1, slot2, slot3)
 		slot0:sendNotification(GAME.ON_NEW_VOTE, {
 			voteId = slot1,
@@ -40,20 +40,20 @@ slot0.register = function (slot0)
 	slot0:setShareData()
 end
 
-slot0.setShareData = function (slot0)
+function slot0.setShareData(slot0)
 	slot1 = getProxy(VoteProxy)
 
 	slot0.viewComponent:setVotes(slot1:getVoteGroup(), slot1.votes)
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.ON_NEW_VOTE_DONE,
 		VoteProxy.VOTEGROUP_UPDATE
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.ON_NEW_VOTE_DONE then

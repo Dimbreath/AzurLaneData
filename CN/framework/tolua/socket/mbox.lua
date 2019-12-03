@@ -4,7 +4,7 @@ if module then
 	mbox = slot0
 end
 
-slot0.split_message = function (slot0)
+function slot0.split_message(slot0)
 	string.gsub(slot0, "^(.-\n)\n", function (slot0)
 		slot0.headers = slot0
 	end)
@@ -25,7 +25,7 @@ slot0.split_message = function (slot0)
 	return slot1.headers or "", slot1.body or ""
 end
 
-slot0.split_headers = function (slot0)
+function slot0.split_headers(slot0)
 	string.gsub("\n" .. slot0, "\n([^\n]+)", function (slot0)
 		table.insert(slot0, slot0)
 	end)
@@ -33,13 +33,13 @@ slot0.split_headers = function (slot0)
 	return {}
 end
 
-slot0.parse_header = function (slot0)
+function slot0.parse_header(slot0)
 	slot1, slot2, slot5, slot6 = string.find(slot0, "([^%s:]-):%s*(.*)")
 
 	return slot3, slot4
 end
 
-slot0.parse_headers = function (slot0)
+function slot0.parse_headers(slot0)
 	slot2 = {}
 
 	for slot6 = 1, #slot0:split_headers(), 1 do
@@ -57,7 +57,7 @@ slot0.parse_headers = function (slot0)
 	return slot2
 end
 
-slot0.parse_from = function (slot0)
+function slot0.parse_from(slot0)
 	slot1, slot2, slot3, slot4 = string.find(slot0, "^%s*(.-)%s*%<(.-)%>")
 
 	if not slot4 then
@@ -74,7 +74,7 @@ slot0.parse_from = function (slot0)
 	return string.gsub(slot3, "\"", ""), slot4
 end
 
-slot0.split_mbox = function (slot0)
+function slot0.split_mbox(slot0)
 	slot1 = {}
 	slot0 = string.gsub(slot0, "\r\n", "\n") .. [[
 
@@ -104,7 +104,7 @@ From .-
 	return slot1
 end
 
-slot0.parse = function (slot0)
+function slot0.parse(slot0)
 	for slot5 = 1, #slot0:split_mbox(), 1 do
 		slot1[slot5] = slot0.parse_message(slot1[slot5])
 	end
@@ -112,7 +112,7 @@ slot0.parse = function (slot0)
 	return slot1
 end
 
-slot0.parse_message = function (slot0)
+function slot0.parse_message(slot0)
 	slot1.headers, slot1.body = slot0:split_message()
 
 	return {

@@ -1,10 +1,10 @@
 slot0 = class("VoteGroupRaceRankPage", import("....base.BaseSubView"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "GroupRaceRank"
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.title1 = slot0:findTF("stages/title1")
 	slot0.title2 = slot0:findTF("stages/title2")
 	slot0.uilist = UIItemList.New(slot0:findTF("scrollrect/content"), slot0:findTF("scrollrect/content/tpl"))
@@ -20,7 +20,7 @@ slot0.OnInit = function (slot0)
 	setActive(slot0._tf, true)
 end
 
-slot0.Update = function (slot0, slot1)
+function slot0.Update(slot0, slot1)
 	slot0.voteGroup = slot1
 	slot0.phase = slot1:GetStage()
 
@@ -29,7 +29,7 @@ slot0.Update = function (slot0, slot1)
 	slot0:UpdateList()
 end
 
-slot0.UpdateList = function (slot0)
+function slot0.UpdateList(slot0)
 	slot0.uilist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			setText(slot2:Find("number"), slot1 + 1)
@@ -40,7 +40,7 @@ slot0.UpdateList = function (slot0)
 	slot0.uilist:align(#slot0.voteGroup:getList())
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	return
 end
 

@@ -4,7 +4,7 @@ slot2 = class("BattleLastingAOEData", ys.Battle.BattleAOEData)
 ys.Battle.BattleLastingAOEData = slot2
 slot2.__name = "BattleLastingAOEData"
 
-slot2.Ctor = function (slot0, slot1, slot2, slot3, slot4, slot5)
+function slot2.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0.super.Ctor(slot0, slot1, slot2, slot3, slot5)
 
 	slot0._exitCldFunc = slot4
@@ -16,7 +16,7 @@ slot2.Ctor = function (slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._handledList = {}
 end
 
-slot2.Dispose = function (slot0)
+function slot2.Dispose(slot0)
 	for slot4, slot5 in pairs(slot0._handledList) do
 		slot0._exitCldFunc(slot4)
 
@@ -29,11 +29,11 @@ slot2.Dispose = function (slot0)
 	slot0.super.Dispose(slot0)
 end
 
-slot2.AppendCldObj = function (slot0, slot1)
+function slot2.AppendCldObj(slot0, slot1)
 	slot0._cldObjList[#slot0._cldObjList + 1] = slot1
 end
 
-slot2.Settle = function (slot0)
+function slot2.Settle(slot0)
 	slot1 = {}
 	slot2 = {}
 
@@ -58,12 +58,12 @@ slot2.Settle = function (slot0)
 	end
 end
 
-slot2.frequentlySettle = function (slot0)
+function slot2.frequentlySettle(slot0)
 	slot0.SortCldObjList(slot0._cldObjList)
 	slot0._cldComponent:GetCldData().func(slot0._cldObjList)
 end
 
-slot2.frequentlySettle = function (slot0)
+function slot2.frequentlySettle(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0._cldObjList) do

@@ -3,7 +3,7 @@ slot0.SINGLE = 1
 slot0.BATCH = 2
 slot0.INFO = 3
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
 
 	slot0._go = slot1
@@ -40,7 +40,7 @@ slot0.Ctor = function (slot0, slot1)
 	end, SFX_PANEL)
 end
 
-slot0.Open = function (slot0, slot1)
+function slot0.Open(slot0, slot1)
 	slot0.settings = slot1 or {}
 
 	slot0:Update(slot1 or )
@@ -48,7 +48,7 @@ slot0.Open = function (slot0, slot1)
 	setActive(slot0._go, true)
 end
 
-slot0.Close = function (slot0)
+function slot0.Close(slot0)
 	slot0.settings = nil
 
 	setActive(slot0._go, false)
@@ -58,7 +58,7 @@ slot0.Close = function (slot0)
 	removeOnButton(slot0.confirmBtn)
 end
 
-slot0.Update = function (slot0, slot1)
+function slot0.Update(slot0, slot1)
 	updateDrop(slot0.itemTF, {
 		type = DROP_TYPE_WORLD_ITEM,
 		id = slot1.id,
@@ -68,7 +68,7 @@ slot0.Update = function (slot0, slot1)
 	setText(slot0.itemName, slot1:getConfig("name"))
 end
 
-slot0.UpdateAction = function (slot0, slot1)
+function slot0.UpdateAction(slot0, slot1)
 	slot2 = slot0.settings
 
 	setActive(slot0.useBtn, (slot0.settings.mode or slot0.SINGLE) == slot0.SINGLE)
@@ -126,7 +126,7 @@ slot0.UpdateAction = function (slot0, slot1)
 	end
 end
 
-slot0.Dispose = function (slot0)
+function slot0.Dispose(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 	slot0:Close()
 end

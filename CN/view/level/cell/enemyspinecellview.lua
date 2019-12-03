@@ -1,12 +1,12 @@
 slot0 = class("EnemySpineCellView", import("view.level.cell.EnemyEggCellView"))
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 end
 
 slot0.buffheight = 220
 
-slot0.Update = function (slot0)
+function slot0.Update(slot0)
 	slot2 = slot0.config
 	slot3 = slot0.info.row
 	slot4 = slot0.info.column
@@ -53,7 +53,7 @@ slot0.Update = function (slot0)
 	end
 end
 
-slot0.ReturnSpine = function (slot0)
+function slot0.ReturnSpine(slot0)
 	if slot0._loadedSpineName and slot0._returnRequest["spine/" .. slot0._loadedSpineName] then
 		slot0._returnRequest["spine/" .. slot0._loadedSpineName]:Start()
 
@@ -63,12 +63,12 @@ slot0.ReturnSpine = function (slot0)
 	slot0._loadedSpineName = nil
 end
 
-slot0.DestroyGO = function (slot0)
+function slot0.DestroyGO(slot0)
 	slot0:ReturnSpine()
 	slot0.super.DestroyGO(slot0)
 end
 
-slot0.Clear = function (slot0)
+function slot0.Clear(slot0)
 	if not IsNil(findTF(slot0.tf, "titleContain/bg_boss")) then
 		slot1.localScale = Vector3.one
 		slot1.anchoredPosition = Vector2(39.5, -23.2)
