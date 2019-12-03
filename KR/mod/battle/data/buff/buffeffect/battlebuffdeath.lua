@@ -2,11 +2,11 @@ ys = ys or {}
 ys.Battle.BattleBuffDeath = class("BattleBuffDeath", ys.Battle.BattleBuffEffect)
 ys.Battle.BattleBuffDeath.__name = "BattleBuffDeath"
 
-ys.Battle.BattleBuffDeath.Ctor = function (slot0, slot1)
+function ys.Battle.BattleBuffDeath.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 end
 
-ys.Battle.BattleBuffDeath.SetArgs = function (slot0, slot1, slot2)
+function ys.Battle.BattleBuffDeath.SetArgs(slot0, slot1, slot2)
 	if slot0._tempData.arg_list.time then
 		slot0._time = slot3.time + pg.TimeMgr.GetInstance():GetCombatTime()
 	end
@@ -18,7 +18,7 @@ ys.Battle.BattleBuffDeath.SetArgs = function (slot0, slot1, slot2)
 	slot0._countType = slot3.countType
 end
 
-ys.Battle.BattleBuffDeath.onUpdate = function (slot0, slot1, slot2, slot3)
+function ys.Battle.BattleBuffDeath.onUpdate(slot0, slot1, slot2, slot3)
 	if slot0._time and slot0._time < slot3 then
 		slot0:DoDead(slot1)
 	else
@@ -36,13 +36,13 @@ ys.Battle.BattleBuffDeath.onUpdate = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-ys.Battle.BattleBuffDeath.onBattleBuffCount = function (slot0, slot1, slot2, slot3)
+function ys.Battle.BattleBuffDeath.onBattleBuffCount(slot0, slot1, slot2, slot3)
 	if slot3.countType == slot0._countType then
 		slot0:DoDead(slot1)
 	end
 end
 
-ys.Battle.BattleBuffDeath.DoDead = function (slot0, slot1)
+function ys.Battle.BattleBuffDeath.DoDead(slot0, slot1)
 	slot1:SetDeathReason(slot0.Battle.BattleConst.UnitDeathReason.LEAVE)
 	slot1:DeadAction()
 end

@@ -9,7 +9,7 @@ ys.Battle.BattleWaveInfo.STATE_ACTIVE = "STATE_ACTIVE"
 ys.Battle.BattleWaveInfo.STATE_PASS = "STATE_PASS"
 ys.Battle.BattleWaveInfo.STATE_FAIL = "STATE_FAIL"
 
-ys.Battle.BattleWaveInfo.Ctor = function (slot0)
+function ys.Battle.BattleWaveInfo.Ctor(slot0)
 	slot0.EventDispatcher.AttachEventDispatcher(slot0)
 
 	slot0._preWaves = {}
@@ -17,7 +17,7 @@ ys.Battle.BattleWaveInfo.Ctor = function (slot0)
 	slot0._branchWaves = {}
 end
 
-ys.Battle.BattleWaveInfo.IsReady = function (slot0)
+function ys.Battle.BattleWaveInfo.IsReady(slot0)
 	slot1 = #slot0._preWaves
 	slot2 = nil
 
@@ -48,11 +48,11 @@ ys.Battle.BattleWaveInfo.IsReady = function (slot0)
 	return slot2
 end
 
-ys.Battle.BattleWaveInfo.IsFinish = function (slot0)
+function ys.Battle.BattleWaveInfo.IsFinish(slot0)
 	return slot0:GetState() == slot0.STATE_PASS or slot0:GetState() == slot0.STATE_FAIL
 end
 
-ys.Battle.BattleWaveInfo.DoBranch = function (slot0)
+function ys.Battle.BattleWaveInfo.DoBranch(slot0)
 	slot1 = false
 
 	for slot5, slot6 in ipairs(slot0._branchWaves) do
@@ -69,19 +69,19 @@ ys.Battle.BattleWaveInfo.DoBranch = function (slot0)
 	slot0:DoWave()
 end
 
-ys.Battle.BattleWaveInfo.DoWave = function (slot0)
+function ys.Battle.BattleWaveInfo.DoWave(slot0)
 	slot0._state = slot0.STATE_ACTIVE
 end
 
-ys.Battle.BattleWaveInfo.AddMonster = function (slot0)
+function ys.Battle.BattleWaveInfo.AddMonster(slot0)
 	return
 end
 
-ys.Battle.BattleWaveInfo.RemoveMonster = function (slot0)
+function ys.Battle.BattleWaveInfo.RemoveMonster(slot0)
 	return
 end
 
-ys.Battle.BattleWaveInfo.SetWaveData = function (slot0, slot1)
+function ys.Battle.BattleWaveInfo.SetWaveData(slot0, slot1)
 	slot0._index = slot1.waveIndex
 	slot0._isKeyWave = slot1.key
 	slot0._logicType = slot1.conditionType or slot0.LOGIC_AND
@@ -91,56 +91,56 @@ ys.Battle.BattleWaveInfo.SetWaveData = function (slot0, slot1)
 	slot0._state = slot0.STATE_DEACTIVE
 end
 
-ys.Battle.BattleWaveInfo.SetCallback = function (slot0, slot1, slot2)
+function ys.Battle.BattleWaveInfo.SetCallback(slot0, slot1, slot2)
 	slot0._spawnFunc = slot1
 	slot0._airFunc = slot2
 end
 
-ys.Battle.BattleWaveInfo.AppendBranchWave = function (slot0, slot1)
+function ys.Battle.BattleWaveInfo.AppendBranchWave(slot0, slot1)
 	slot0._branchWaves[#slot0._branchWaves + 1] = slot1
 end
 
-ys.Battle.BattleWaveInfo.AppendPreWave = function (slot0, slot1)
+function ys.Battle.BattleWaveInfo.AppendPreWave(slot0, slot1)
 	slot0._preWaves[#slot0._preWaves + 1] = slot1
 end
 
-ys.Battle.BattleWaveInfo.AppendPostWave = function (slot0, slot1)
+function ys.Battle.BattleWaveInfo.AppendPostWave(slot0, slot1)
 	slot0._postWaves[#slot0._postWaves + 1] = slot1
 end
 
-ys.Battle.BattleWaveInfo.IsKeyWave = function (slot0)
+function ys.Battle.BattleWaveInfo.IsKeyWave(slot0)
 	return slot0._isKeyWave
 end
 
-ys.Battle.BattleWaveInfo.GetPostWaves = function (slot0)
+function ys.Battle.BattleWaveInfo.GetPostWaves(slot0)
 	return slot0._postWaves
 end
 
-ys.Battle.BattleWaveInfo.GetIndex = function (slot0)
+function ys.Battle.BattleWaveInfo.GetIndex(slot0)
 	return slot0._index
 end
 
-ys.Battle.BattleWaveInfo.GetType = function (slot0)
+function ys.Battle.BattleWaveInfo.GetType(slot0)
 	return slot0._type
 end
 
-ys.Battle.BattleWaveInfo.GetState = function (slot0)
+function ys.Battle.BattleWaveInfo.GetState(slot0)
 	return slot0._state
 end
 
-ys.Battle.BattleWaveInfo.GetPreWaveIDs = function (slot0)
+function ys.Battle.BattleWaveInfo.GetPreWaveIDs(slot0)
 	return slot0._preWaveIDs
 end
 
-ys.Battle.BattleWaveInfo.GetBranchWaveIDs = function (slot0)
+function ys.Battle.BattleWaveInfo.GetBranchWaveIDs(slot0)
 	return slot0._branchWaveIDs
 end
 
-ys.Battle.BattleWaveInfo.Dispose = function (slot0)
+function ys.Battle.BattleWaveInfo.Dispose(slot0)
 	slot0.EventDispatcher.DetachEventDispatcher(slot0)
 end
 
-ys.Battle.BattleWaveInfo.doPass = function (slot0)
+function ys.Battle.BattleWaveInfo.doPass(slot0)
 	if not slot0:IsFinish() then
 		slot0._state = slot0.STATE_PASS
 
@@ -148,7 +148,7 @@ ys.Battle.BattleWaveInfo.doPass = function (slot0)
 	end
 end
 
-ys.Battle.BattleWaveInfo.doFail = function (slot0)
+function ys.Battle.BattleWaveInfo.doFail(slot0)
 	if not slot0:IsFinish() then
 		slot0._state = slot0.STATE_FAIL
 

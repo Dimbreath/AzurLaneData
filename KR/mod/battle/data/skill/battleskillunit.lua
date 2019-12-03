@@ -4,7 +4,7 @@ slot2 = ys.Battle.BattleVariable
 ys.Battle.BattleSkillUnit = class("BattleSkillUnit")
 ys.Battle.BattleSkillUnit.__name = "BattleSkillUnit"
 
-ys.Battle.BattleSkillUnit.Ctor = function (slot0, slot1, slot2)
+function ys.Battle.BattleSkillUnit.Ctor(slot0, slot1, slot2)
 	slot0.EventDispatcher.AttachEventDispatcher(slot0)
 
 	slot0._id = slot1
@@ -21,17 +21,17 @@ ys.Battle.BattleSkillUnit.Ctor = function (slot0, slot1, slot2)
 	slot0._dataProxy = slot0.Battle.BattleDataProxy.GetInstance()
 end
 
-ys.Battle.BattleSkillUnit.GenerateSpell = function (slot0, slot1, slot2, slot3)
+function ys.Battle.BattleSkillUnit.GenerateSpell(slot0, slot1, slot2, slot3)
 	slot0.Battle.BattleSkillUnit.New(slot0, slot1)._attachData = slot3
 
 	return slot0.Battle.BattleSkillUnit.New(slot0, slot1)
 end
 
-ys.Battle.BattleSkillUnit.GetSkillEffectList = function (slot0)
+function ys.Battle.BattleSkillUnit.GetSkillEffectList(slot0)
 	return slot0._effectList
 end
 
-ys.Battle.BattleSkillUnit.Cast = function (slot0, slot1, slot2)
+function ys.Battle.BattleSkillUnit.Cast(slot0, slot1, slot2)
 	slot4 = slot0.Battle.BattleState.GetInstance().GetUIMediator(slot3)
 
 	if slot0._tempData.focus_duration then
@@ -78,17 +78,17 @@ ys.Battle.BattleSkillUnit.Cast = function (slot0, slot1, slot2)
 	}))
 end
 
-ys.Battle.BattleSkillUnit.SetTarget = function (slot0, slot1)
+function ys.Battle.BattleSkillUnit.SetTarget(slot0, slot1)
 	slot0._lastEffectTarget = slot1
 end
 
-ys.Battle.BattleSkillUnit.Clear = function (slot0)
+function ys.Battle.BattleSkillUnit.Clear(slot0)
 	for slot4, slot5 in ipairs(slot0._effectList) do
 		slot5:Clear()
 	end
 end
 
-ys.Battle.BattleSkillUnit.Dispose = function (slot0)
+function ys.Battle.BattleSkillUnit.Dispose(slot0)
 	slot0.EventDispatcher.DetachEventDispatcher(slot0)
 end
 

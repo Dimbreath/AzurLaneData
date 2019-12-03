@@ -6,7 +6,7 @@ slot4 = ys.Battle.BattleAttr
 slot5 = ys.Battle.BattleUnitEvent
 ys.Battle.BattleNPCUnit = class("BattleNPCUnit", ys.Battle.BattleEnemyUnit)
 
-ys.Battle.BattleNPCUnit.SetTemplate = function (slot0, slot1, slot2)
+function ys.Battle.BattleNPCUnit.SetTemplate(slot0, slot1, slot2)
 	slot0.super.SetTemplate(slot0, slot1)
 
 	slot0._tmpData = setmetatable({}, {

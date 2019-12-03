@@ -3,7 +3,7 @@ slot0.USE_ITEM = "ItemInfoMediator:USE_ITEM"
 slot0.COMPOSE_ITEM = "ItemInfoMediator:COMPOSE_ITEM"
 slot0.ON_BLUEPRINT_SCENE = "ItemInfoMediator:ON_BLUEPRINT_SCENE"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0:bind(slot0.ON_BLUEPRINT_SCENE, function ()
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHIPBLUEPRINT)
 	end)
@@ -53,7 +53,7 @@ slot0.register = function (slot0)
 	end
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		BagProxy.ITEM_UPDATED,
 		GAME.USE_ITEM_DONE,
@@ -61,7 +61,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == BagProxy.ITEM_UPDATED then
@@ -79,7 +79,7 @@ slot0.handleNotification = function (slot0, slot1)
 	end
 end
 
-slot0.updateItem = function (slot0)
+function slot0.updateItem(slot0)
 	slot1 = slot0.contextData.info
 	slot3 = getProxy(BagProxy)
 	slot4 = nil

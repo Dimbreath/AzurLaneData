@@ -2,21 +2,21 @@ ys = ys or {}
 ys.Battle.BattleDamageRateView = class("BattleDamageRateView")
 ys.Battle.BattleDamageRateView.__name = "BattleDamageRateView"
 
-ys.Battle.BattleDamageRateView.Ctor = function (slot0, slot1)
+function ys.Battle.BattleDamageRateView.Ctor(slot0, slot1)
 	slot0._go = slot1
 	slot0.tick_bar = slot1.transform:Find("tick_bar"):GetComponent(typeof(Image))
 	slot0.tickBarOb = slot0.tick_bar.gameObject
 	slot0.tick_bar.fillAmount = 0
 end
 
-ys.Battle.BattleDamageRateView.UpdateScore = function (slot0, slot1, slot2)
+function ys.Battle.BattleDamageRateView.UpdateScore(slot0, slot1, slot2)
 	LeanTween.cancel(slot0.tickBarOb)
 	LeanTween.value(slot0.tickBarOb, slot0.tick_bar.fillAmount, slot3, 0.5):setOnUpdate(System.Action_float(function (slot0)
 		slot0.tick_bar.fillAmount = slot0
 	end))
 end
 
-ys.Battle.BattleDamageRateView.CalScore = function (slot0, slot1, slot2)
+function ys.Battle.BattleDamageRateView.CalScore(slot0, slot1, slot2)
 	slot3 = pg.expedition_data_template[slot2]
 	slot5 = {
 		0,
@@ -50,7 +50,7 @@ ys.Battle.BattleDamageRateView.CalScore = function (slot0, slot1, slot2)
 	return slot7
 end
 
-ys.Battle.BattleDamageRateView.Dispose = function (slot0)
+function ys.Battle.BattleDamageRateView.Dispose(slot0)
 	LeanTween.cancel(slot0.tickBarOb)
 end
 

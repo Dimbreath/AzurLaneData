@@ -2,7 +2,7 @@ slot0 = class("ProposeMediator", import("..base.ContextMediator"))
 slot0.ON_PROPOSE = "ProposeMediator:ON_PROPOSE"
 slot0.RENAME_SHIP = "ShipMainMediator:RENAME_SHIP"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot1 = getProxy(BayProxy)
 
 	if slot0.contextData.shipId then
@@ -27,14 +27,14 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.PROPOSE_SHIP_DONE,
 		GAME.RENAME_SHIP_DONE
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.PROPOSE_SHIP_DONE then

@@ -1,6 +1,6 @@
 slot0 = class("ShamFleetConfirmPanel", import("..base.BasePanel"))
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.super.init(slot0)
 
 	slot0.item = slot0:findTF("panel/item")
@@ -34,7 +34,7 @@ slot0.init = function (slot0)
 	slot0.onLongPressed = nil
 end
 
-slot0.set = function (slot0, slot1)
+function slot0.set(slot0, slot1)
 	setText(slot0.txNumbers, #slot1 .. "/" .. ChapterConst.ShamShipLimit)
 
 	slot0.mains = {}
@@ -81,7 +81,7 @@ slot0.set = function (slot0, slot1)
 	end, SFX_CONFIRM)
 end
 
-slot0.updateShip = function (slot0, slot1, slot2, slot3)
+function slot0.updateShip(slot0, slot1, slot2, slot3)
 	slot4 = slot1:Find("ship")
 	slot5 = slot1:Find("empty")
 	slot6 = slot4:Find("bg")

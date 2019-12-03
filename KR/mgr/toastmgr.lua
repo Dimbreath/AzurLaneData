@@ -17,7 +17,7 @@ pg.ToastMgr.ToastInfo = {
 	}
 }
 
-pg.ToastMgr.Init = function (slot0, slot1)
+function pg.ToastMgr.Init(slot0, slot1)
 	PoolMgr.GetInstance():GetUI("ToastUI", true, function (slot0)
 		slot0._go = slot0
 
@@ -51,13 +51,13 @@ pg.ToastMgr.Init = function (slot0, slot1)
 	end)
 end
 
-pg.ToastMgr.ResetUIDandHistory = function (slot0)
+function pg.ToastMgr.ResetUIDandHistory(slot0)
 	slot0.completedJob = 0
 	slot0.actionJob = 0
 	slot0.buffer = {}
 end
 
-pg.ToastMgr.ShowToast = function (slot0, slot1, slot2)
+function pg.ToastMgr.ShowToast(slot0, slot1, slot2)
 	slot3 = #slot0.buffer
 
 	table.insert(slot0.buffer, {
@@ -72,7 +72,7 @@ pg.ToastMgr.ShowToast = function (slot0, slot1, slot2)
 	end
 end
 
-pg.ToastMgr.Toast = function (slot0)
+function pg.ToastMgr.Toast(slot0)
 	if slot0.actionJob >= #slot0.buffer then
 		return
 	end
@@ -111,7 +111,7 @@ pg.ToastMgr.Toast = function (slot0)
 	end)
 end
 
-pg.ToastMgr.GetAndSet = function (slot0, slot1, slot2)
+function pg.ToastMgr.GetAndSet(slot0, slot1, slot2)
 	slot3 = slot0.pools[slot1 .. "Tpl"]:Dequeue()
 
 	setActive(slot3, true)
@@ -121,7 +121,7 @@ pg.ToastMgr.GetAndSet = function (slot0, slot1, slot2)
 	return slot3
 end
 
-pg.ToastMgr.UpdateAttire = function (slot0, slot1, slot2, slot3)
+function pg.ToastMgr.UpdateAttire(slot0, slot1, slot2, slot3)
 	slot4 = slot0:GetAndSet(slot1.type, slot0.container)
 	slot5 = slot4:GetComponent(typeof(DftAniEvent))
 
@@ -152,7 +152,7 @@ pg.ToastMgr.FADE_OUT_TIME = 1
 pg.ToastMgr.SHOW_TIME = 1.5
 pg.ToastMgr.DELAY_TIME = 0.3
 
-pg.ToastMgr.UpdateTecpoint = function (slot0, slot1, slot2, slot3)
+function pg.ToastMgr.UpdateTecpoint(slot0, slot1, slot2, slot3)
 	slot7 = slot1.info.attr
 	slot8 = slot1.info.value
 	GetComponent(slot0:GetAndSet("Point", slot0.container).transform, "CanvasGroup").alpha = 0
@@ -229,7 +229,7 @@ pg.ToastMgr.UpdateTecpoint = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-pg.ToastMgr.UpdateTrophy = function (slot0, slot1, slot2, slot3)
+function pg.ToastMgr.UpdateTrophy(slot0, slot1, slot2, slot3)
 	playSoundEffect(slot1.info.sound or SFX_UI_TIP)
 
 	slot4 = slot0:GetAndSet(slot1.type, slot0.container)
@@ -256,7 +256,7 @@ pg.ToastMgr.UpdateTrophy = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-pg.ToastMgr.Dispose = function (slot0)
+function pg.ToastMgr.Dispose(slot0)
 	setActive(slot0._tf, false)
 	slot0:ResetUIDandHistory()
 

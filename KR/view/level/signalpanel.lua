@@ -1,6 +1,6 @@
 slot0 = class("SignalPanel", import("..base.BasePanel"))
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.super.init(slot0)
 
 	slot0.btnBack = slot0:findTF("panel/btnBack")
@@ -20,7 +20,7 @@ slot0.init = function (slot0)
 	slot0.onCancel = nil
 end
 
-slot0.set = function (slot0, slot1, slot2, slot3)
+function slot0.set(slot0, slot1, slot2, slot3)
 	slot0.maps = slot1
 	slot0.subRefreshCount = slot2
 	slot0.subProgress = slot3
@@ -48,7 +48,7 @@ slot0.set = function (slot0, slot1, slot2, slot3)
 	end, SFX_CONFIRM)
 end
 
-slot0.flush = function (slot0)
+function slot0.flush(slot0)
 	setText(slot0.signals, slot0.subRefreshCount)
 	setText(slot0.area, i18n("levelScene_search_area", math.min(slot0.subProgress, #_.filter(pg.expedition_data_by_map.all, function (slot0)
 		return type(pg.expedition_data_by_map[slot0].drop_by_map_display) == "table" and #slot1 > 0
@@ -95,7 +95,7 @@ slot0.flush = function (slot0)
 	slot5:align(#slot3)
 end
 
-slot0.clear = function (slot0)
+function slot0.clear(slot0)
 	if slot0.timers then
 		_.each(slot0.timers, function (slot0)
 			slot0:Stop()

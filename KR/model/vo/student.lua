@@ -4,7 +4,7 @@ slot0.ATTEND = 2
 slot0.CANCEL_TYPE_AUTO = 0
 slot0.CANCEL_TYPE_MANUAL = 1
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id or slot1.room_id
 	slot0.skillId = slot1.skill_pos
 	slot0.skillIdIndex = nil
@@ -17,15 +17,15 @@ slot0.Ctor = function (slot0, slot1)
 	slot0.state = slot1.state or slot0.ATTEND
 end
 
-slot0.updateSkillId = function (slot0, slot1)
+function slot0.updateSkillId(slot0, slot1)
 	slot0.skillId = slot1
 end
 
-slot0.setSkillIndex = function (slot0, slot1)
+function slot0.setSkillIndex(slot0, slot1)
 	slot0.skillIdIndex = slot1
 end
 
-slot0.getSkillId = function (slot0, slot1)
+function slot0.getSkillId(slot0, slot1)
 	if slot0.skillId then
 		return slot0.skillId
 	else
@@ -33,39 +33,39 @@ slot0.getSkillId = function (slot0, slot1)
 	end
 end
 
-slot0.setLesson = function (slot0, slot1)
+function slot0.setLesson(slot0, slot1)
 	slot0.lessonId = slot1
 end
 
-slot0.setFinishTime = function (slot0, slot1)
+function slot0.setFinishTime(slot0, slot1)
 	slot0.finishTime = slot1
 end
 
-slot0.setTime = function (slot0, slot1)
+function slot0.setTime(slot0, slot1)
 	slot0.time = slot1
 end
 
-slot0.getTime = function (slot0)
+function slot0.getTime(slot0)
 	return slot0.time or slot0.finishTime - slot0.startTime
 end
 
-slot0.getFinishTime = function (slot0)
+function slot0.getFinishTime(slot0)
 	return slot0.finishTime
 end
 
-slot0.getState = function (slot0)
+function slot0.getState(slot0)
 	return slot0.state
 end
 
-slot0.getSkillDesc = function (slot0, slot1)
+function slot0.getSkillDesc(slot0, slot1)
 	return getSkillDescLearn(slot0, slot1)
 end
 
-slot0.getSkillName = function (slot0)
+function slot0.getSkillName(slot0)
 	return getSkillName(slot0:getSkillId(getProxy(BayProxy):getShipById(slot0.shipId)))
 end
 
-slot0.getShipVO = function (slot0)
+function slot0.getShipVO(slot0)
 	return getProxy(BayProxy):getShipById(slot0.shipId)
 end
 

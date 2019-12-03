@@ -34,11 +34,11 @@ slot0.INTERACTION_TRANSPORT = "BackyardMainMediator:INTERACTION_TRANSPORT"
 slot0.INTERACTION_TRANSPORT_AGAIN = "BackyardMainMediator:INTERACTION_TRANSPORT_AGAIN"
 slot0.INTERACTION_TRANSPORT_END = "BackyardMainMediator:INTERACTION_TRANSPORT_END"
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, nil, slot1)
 end
 
-slot0.onRegister = function (slot0)
+function slot0.onRegister(slot0)
 	slot0.event = {}
 
 	slot0.viewComponent:setHouse(getBackYardProxy(BackYardHouseProxy).getData(slot1))
@@ -237,7 +237,7 @@ slot0.onRegister = function (slot0)
 	slot0.bgmName = slot0.viewComponent.bgm
 end
 
-slot0.bind = function (slot0, slot1, slot2)
+function slot0.bind(slot0, slot1, slot2)
 	slot0.viewComponent.event:connect(slot1, slot2)
 	table.insert(slot0.event, {
 		event = slot1,
@@ -245,7 +245,7 @@ slot0.bind = function (slot0, slot1, slot2)
 	})
 end
 
-slot0.onRemove = function (slot0)
+function slot0.onRemove(slot0)
 	for slot4, slot5 in ipairs(slot0.event) do
 		slot0.viewComponent.event:disconnect(slot5.event, slot5.callback)
 	end
@@ -253,7 +253,7 @@ slot0.onRemove = function (slot0)
 	slot0.viewComponent:willExit()
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		BackYardHouseProxy.BACKYARD_SHIP_MOVE,
 		BackYardHouseProxy.HOUSE_UPDATE,
@@ -298,7 +298,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == BackYardHouseProxy.BACKYARD_SHIP_MOVE then

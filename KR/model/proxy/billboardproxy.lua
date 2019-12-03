@@ -2,7 +2,7 @@ slot0 = class("BillboardProxy", import(".NetProxy"))
 slot0.FETCH_LIST_DONE = "BillboardProxy:FETCH_LIST_DONE"
 slot0.NONTIMER = {}
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.NONTIMER = {
 		PowerRank.TYPE_MILITARY_RANK
 	}
@@ -13,7 +13,7 @@ slot0.register = function (slot0)
 	slot0.hashCount = 0
 end
 
-slot0.setPlayerRankData = function (slot0, slot1, slot2, slot3)
+function slot0.setPlayerRankData(slot0, slot1, slot2, slot3)
 	slot4 = slot0:getHashId(slot1, slot2)
 
 	if table.contains(slot0.NONTIMER, slot1) then
@@ -23,11 +23,11 @@ slot0.setPlayerRankData = function (slot0, slot1, slot2, slot3)
 	slot0.playerData[slot4] = slot3
 end
 
-slot0.getPlayerRankData = function (slot0, slot1, slot2)
+function slot0.getPlayerRankData(slot0, slot1, slot2)
 	return slot0.playerData[slot0:getHashId(slot1, slot2)]
 end
 
-slot0.setRankList = function (slot0, slot1, slot2, slot3)
+function slot0.setRankList(slot0, slot1, slot2, slot3)
 	slot4 = slot0:getHashId(slot1, slot2)
 
 	if table.contains(slot0.NONTIMER, slot1) then
@@ -41,11 +41,11 @@ slot0.setRankList = function (slot0, slot1, slot2, slot3)
 	slot0.data[slot4] = slot3
 end
 
-slot0.getRankList = function (slot0, slot1, slot2)
+function slot0.getRankList(slot0, slot1, slot2)
 	return slot0.data[slot0:getHashId(slot1, slot2)]
 end
 
-slot0.addTimer = function (slot0, slot1, slot2, slot3)
+function slot0.addTimer(slot0, slot1, slot2, slot3)
 	if slot0.timers[slot0:getHashId(slot1, slot2)] then
 		slot0.timers[slot4]:Stop()
 
@@ -67,7 +67,7 @@ slot0.addTimer = function (slot0, slot1, slot2, slot3)
 	slot0.timers[slot4]:Start()
 end
 
-slot0.remove = function (slot0)
+function slot0.remove(slot0)
 	for slot4, slot5 in pairs(slot0.timers) do
 		slot5:Stop()
 	end
@@ -75,11 +75,11 @@ slot0.remove = function (slot0)
 	slot0.timers = nil
 end
 
-slot0.canFetch = function (slot0, slot1, slot2)
+function slot0.canFetch(slot0, slot1, slot2)
 	return table.contains(slot0.NONTIMER, slot1) or slot0.timers[slot0:getHashId(slot1, slot2)] == nil
 end
 
-slot0.getHashId = function (slot0, slot1, slot2)
+function slot0.getHashId(slot0, slot1, slot2)
 	slot3 = nil
 
 	if slot2 then

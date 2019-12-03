@@ -1,13 +1,13 @@
 slot0 = class("ItemCard")
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.go = slot1
 	slot0.bg = findTF(slot1, "bg")
 	slot0.countTF = findTF(slot1, "bg/icon_bg/count"):GetComponent(typeof(Text))
 	slot0.nameTF = findTF(slot1, "bg/name"):GetComponent(typeof(Text))
 end
 
-slot0.update = function (slot0, slot1)
+function slot0.update(slot0, slot1)
 	slot0.itemVO = slot1
 
 	updateItem(rtf(slot0.bg), slot1)
@@ -17,7 +17,7 @@ slot0.update = function (slot0, slot1)
 	slot0.nameTF.text = shortenString(HXSet.hxLan(slot1:getConfig("name")), 5)
 end
 
-slot0.dispose = function (slot0)
+function slot0.dispose(slot0)
 	return
 end
 

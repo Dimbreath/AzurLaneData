@@ -50,7 +50,7 @@ slot0.TECH_NATION_ATTRS = {
 	AttributeType.AntiSub
 }
 
-slot0.GetNationSpriteByIndex = function (slot0)
+function slot0.GetNationSpriteByIndex(slot0)
 	return GetSpriteFromAtlas(slot0.AtlasName, slot0.NationResName[slot0] .. "01", true), GetSpriteFromAtlas(slot0.AtlasName, slot0.NationResName[slot0] .. "02", true)
 end
 
@@ -93,11 +93,11 @@ slot0.TypeResName = {
 	"type_all_"
 }
 
-slot0.GetTypeSpriteByIndex = function (slot0)
+function slot0.GetTypeSpriteByIndex(slot0)
 	return GetSpriteFromAtlas(slot0.AtlasName, slot0.TypeResName[slot0] .. "01", true), GetSpriteFromAtlas(slot0.AtlasName, slot0.TypeResName[slot0] .. "02", true)
 end
 
-slot0.ClassToGroupIDList = function ()
+function slot0.ClassToGroupIDList()
 	slot0 = {}
 
 	for slot4, slot5 in ipairs(pg.fleet_tech_ship_template.all) do
@@ -113,7 +113,7 @@ slot0.ClassToGroupIDList = function ()
 	return slot0
 end
 
-slot0.GetOrderClassList = function ()
+function slot0.GetOrderClassList()
 	slot0 = {}
 
 	for slot4, slot5 in ipairs(pg.fleet_tech_ship_class.all) do

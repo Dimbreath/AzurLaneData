@@ -1,6 +1,6 @@
 slot0 = class("VoteShip", import("..BaseVO"))
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.group = slot1.key
 	slot0.totalVotes = slot1.value1
 	slot0.votes = slot1.value2
@@ -20,24 +20,24 @@ slot0.Ctor = function (slot0, slot1)
 	})
 end
 
-slot0.bindConfigTable = function (slot0)
+function slot0.bindConfigTable(slot0)
 	return pg.ship_data_statistics
 end
 
-slot0.UpdateVoteCnt = function (slot0, slot1)
+function slot0.UpdateVoteCnt(slot0, slot1)
 	slot0.votes = slot0.votes + slot1
 	slot0.totalVotes = slot0.totalVotes + slot1
 end
 
-slot0.getDockSortValue = function (slot0)
+function slot0.getDockSortValue(slot0)
 	return 0
 end
 
-slot0.getRarity = function (slot0)
+function slot0.getRarity(slot0)
 	return slot0.shipVO:getRarity()
 end
 
-slot0.getShipName = function (slot0)
+function slot0.getShipName(slot0)
 	if slot0.group == 30507 then
 		slot1, slot2 = HXSet.hxLan(i18n("name_zhanliejahe"))
 
@@ -47,39 +47,39 @@ slot0.getShipName = function (slot0)
 	return slot0.shipVO:getName()
 end
 
-slot0.getEnName = function (slot0)
+function slot0.getEnName(slot0)
 	return slot0.shipVO:getConfig("english_name")
 end
 
-slot0.getPainting = function (slot0)
+function slot0.getPainting(slot0)
 	return slot0.shipVO:getPainting()
 end
 
-slot0.GetDesc = function (slot0)
+function slot0.GetDesc(slot0)
 	return Ship.getShipWords(slot0.shipVO:getConfig("skin_id")).profile
 end
 
-slot0.getScore = function (slot0)
+function slot0.getScore(slot0)
 	return slot0.votes
 end
 
-slot0.getShipType = function (slot0)
+function slot0.getShipType(slot0)
 	return pg.ship_data_by_type[slot0.shipVO:getConfig("type")].type_name
 end
 
-slot0.getNationality = function (slot0)
+function slot0.getNationality(slot0)
 	return slot0.shipVO:getConfig("nationality")
 end
 
-slot0.isSamaGroup = function (slot0, slot1)
+function slot0.isSamaGroup(slot0, slot1)
 	return slot0.group == slot1
 end
 
-slot0.getSkinId = function (slot0)
+function slot0.getSkinId(slot0)
 	return slot0.group * 10
 end
 
-slot0.getNetVotes = function (slot0)
+function slot0.getNetVotes(slot0)
 	if slot0.netVotes >= 100000 then
 		return math.floor(slot0.netVotes / 1000) .. "K"
 	else
@@ -87,7 +87,7 @@ slot0.getNetVotes = function (slot0)
 	end
 end
 
-slot0.GetGameVotes = function (slot0)
+function slot0.GetGameVotes(slot0)
 	if slot0.votes >= 100000 then
 		return math.floor(slot0.votes / 1000) .. "K"
 	else
@@ -95,7 +95,7 @@ slot0.GetGameVotes = function (slot0)
 	end
 end
 
-slot0.getTotalVotes = function (slot0)
+function slot0.getTotalVotes(slot0)
 	if slot0.totalVotes >= 100000 then
 		return math.floor(slot0.totalVotes / 1000) .. "K"
 	else

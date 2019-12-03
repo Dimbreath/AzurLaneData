@@ -3,11 +3,11 @@ slot0.PAINT_DURATION = 0.35
 slot0.STAR_DURATION = 0.5
 slot1 = 19
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "NewSkinUI"
 end
 
-slot0.preload = function (slot0, slot1)
+function slot0.preload(slot0, slot1)
 	slot6 = pg.ship_data_statistics[pg.ship_skin_template[slot0.contextData.skinId].ship_group * 10 + 1]
 	slot7 = nil
 	slot7 = (not pg.ship_skin_template[slot0.contextData.skinId].bg_sp or slot3.bg_sp == "" or slot3.bg_sp) and ((slot3.bg and #slot3.bg > 0 and slot3.bg) or (slot3.rarity_bg and #slot3.rarity_bg > 0 and slot3.rarity_bg))
@@ -19,12 +19,12 @@ slot0.preload = function (slot0, slot1)
 	GetSpriteFromAtlasAsync(slot7, "", slot1)
 end
 
-slot0.setShipVOs = function (slot0, slot1)
+function slot0.setShipVOs(slot0, slot1)
 	slot0.shipVOs = slot1
 	slot0.sameShipVOs = slot0:getSameGroupShips()
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0._shake = slot0:findTF("shake_panel")
 	slot0._shade = slot0:findTF("shade")
 	slot0._bg = slot0._shake:Find("bg")
@@ -59,7 +59,7 @@ slot0.init = function (slot0)
 	slot0.isLoadBg = false
 end
 
-slot0.voice = function (slot0, slot1)
+function slot0.voice(slot0, slot1)
 	if not slot1 then
 		return
 	end
@@ -93,7 +93,7 @@ slot0.voice = function (slot0, slot1)
 	end
 end
 
-slot0.setSkin = function (slot0, slot1)
+function slot0.setSkin(slot0, slot1)
 	slot0:recyclePainting()
 
 	slot0._skinConfig = pg.ship_skin_template[slot1]
@@ -144,7 +144,7 @@ slot0.setSkin = function (slot0, slot1)
 	end))
 end
 
-slot0.showExitTip = function (slot0)
+function slot0.showExitTip(slot0)
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		content = i18n("give_up_cloth_change"),
 		onYes = function ()
@@ -153,7 +153,7 @@ slot0.showExitTip = function (slot0)
 	})
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	slot0.shipName = HXSet.hxLan(pg.ship_skin_template[Ship.getOriginalSkinId(slot0.contextData.skinId)].name)
 
 	onButton(slot0, slot0._viewBtn, function ()
@@ -189,7 +189,7 @@ slot0.didEnter = function (slot0)
 	playSoundEffect(SFX_UI_DOCKYARD_CHARGET)
 end
 
-slot0.onBackPressed = function (slot0)
+function slot0.onBackPressed(slot0)
 	playSoundEffect(SFX_CANCEL)
 
 	if slot0.isInView then
@@ -209,7 +209,7 @@ slot0.onBackPressed = function (slot0)
 	end
 end
 
-slot0.onSwitch = function (slot0, slot1, slot2)
+function slot0.onSwitch(slot0, slot1, slot2)
 	onButton(slot0, slot1, function ()
 		if slot0 then
 			slot1:openSelectPanel()
@@ -219,7 +219,7 @@ slot0.onSwitch = function (slot0, slot1, slot2)
 	end)
 end
 
-slot0.getSameGroupShips = function (slot0)
+function slot0.getSameGroupShips(slot0)
 	slot1 = {}
 	slot3 = pg.ship_skin_template[slot0.contextData.skinId].ship_group
 
@@ -232,7 +232,7 @@ slot0.getSameGroupShips = function (slot0)
 	return slot1
 end
 
-slot0.paintView = function (slot0)
+function slot0.paintView(slot0)
 	slot1 = {}
 	slot2 = slot0._shake.childCount
 	slot3 = 0
@@ -298,7 +298,7 @@ slot0.paintView = function (slot0)
 		slot0:hidePaintView()
 	end, SFX_CANCEL)
 
-	slot0.hidePaintView = function (slot0, slot1)
+	function slot0.hidePaintView(slot0, slot1)
 		if not slot1 and not slot0 then
 			return
 		end
@@ -328,13 +328,13 @@ slot0.paintView = function (slot0)
 	end
 end
 
-slot0.recyclePainting = function (slot0)
+function slot0.recyclePainting(slot0)
 	if slot0._shipVO then
 		retPaintingPrefab(slot0._paintingTF, slot0._shipVO:getPainting())
 	end
 end
 
-slot0.openSelectPanel = function (slot0)
+function slot0.openSelectPanel(slot0)
 	removeAllChildren(slot0.shipContent)
 
 	slot0.isOpenSelPanel = true
@@ -409,7 +409,7 @@ slot0.openSelectPanel = function (slot0)
 	end)
 end
 
-slot0.updateShipCards = function (slot0)
+function slot0.updateShipCards(slot0)
 	slot1 = pairs
 	slot2 = slot0.shipCards or {}
 
@@ -420,7 +420,7 @@ slot0.updateShipCards = function (slot0)
 	end
 end
 
-slot0.closeSelectPanel = function (slot0)
+function slot0.closeSelectPanel(slot0)
 	if slot0.isOpenSelPanel then
 		slot0.isOpenSelPanel = nil
 
@@ -429,7 +429,7 @@ slot0.closeSelectPanel = function (slot0)
 	end
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	pg.TipsMgr.GetInstance():ShowTips(i18n("ship_newSkinLayer_get", pg.ship_data_statistics[slot0._skinConfig.ship_group * 10 + 1].name, HXSet.hxLan(slot0._skinConfig.name)), COLOR_GREEN)
 	slot0:recyclePainting()
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)

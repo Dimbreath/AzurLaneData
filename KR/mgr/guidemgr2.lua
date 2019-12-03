@@ -28,7 +28,7 @@ slot15 = 0.5
 slot16 = require("GameCfg.guide.style")
 slot17 = require("GameCfg.guide.commonEvent")
 
-pg.GuideMgr2.Init = function (slot0, slot1)
+function pg.GuideMgr2.Init(slot0, slot1)
 	print("initializing guide2 manager...")
 	PoolMgr.GetInstance():GetUI("GuideUI", true, function (slot0)
 		slot0._go = slot0
@@ -66,7 +66,7 @@ pg.GuideMgr2.Init = function (slot0, slot1)
 	slot0.managerState = slot0.MANAGER_STATE.LOADING
 end
 
-pg.GuideMgr2.updateCurrentGuideStep = function (slot0, slot1)
+function pg.GuideMgr2.updateCurrentGuideStep(slot0, slot1)
 	slot0("current guide index--->" .. slot1)
 
 	if not slot1.ENABLE_GUIDE or GUIDE_FINALE <= slot1 then
@@ -105,7 +105,7 @@ pg.GuideMgr2.updateCurrentGuideStep = function (slot0, slot1)
 	slot0.curEvents = Clone(slot0.currentGuide.events)
 end
 
-pg.GuideMgr2.passGuider = function (slot0, slot1)
+function pg.GuideMgr2.passGuider(slot0, slot1)
 	if getProxy(slot1[1]) and not slot0:Match(slot1[3], slot2[slot1[2]](slot2, slot1[5]), slot1[4]) then
 		return false
 	end
@@ -115,7 +115,7 @@ end
 
 slot18 = 807
 
-pg.GuideMgr2.updateSystemGuideStep = function (slot0, slot1)
+function pg.GuideMgr2.updateSystemGuideStep(slot0, slot1)
 	slot0("load System Guider id =======" .. slot1)
 
 	slot0.currentGuide = require("GameCfg.guide.G" .. slot1)
@@ -133,7 +133,7 @@ pg.GuideMgr2.updateSystemGuideStep = function (slot0, slot1)
 	slot0.curEvents = Clone(slot0.currentGuide.events)
 end
 
-pg.GuideMgr2.dispatch = function (slot0, slot1)
+function pg.GuideMgr2.dispatch(slot0, slot1)
 	slot2 = slot1.func
 
 	if not slot0.curEvents then
@@ -238,7 +238,7 @@ pg.GuideMgr2.dispatch = function (slot0, slot1)
 	slot0:startGuide(slot3, slot1, slot2)
 end
 
-pg.GuideMgr2.startGuide = function (slot0, slot1, slot2, slot3)
+function pg.GuideMgr2.startGuide(slot0, slot1, slot2, slot3)
 	pg.DelegateInfo.New(slot0)
 
 	slot0.waitProcess = coroutine.wrap(function ()
@@ -269,7 +269,7 @@ pg.GuideMgr2.startGuide = function (slot0, slot1, slot2, slot3)
 	slot0.waitProcess()
 end
 
-pg.GuideMgr2.dispatchLoaded = function (slot0, slot1)
+function pg.GuideMgr2.dispatchLoaded(slot0, slot1)
 	if slot0.checkViewHandle and slot1.viewComponent == slot0.checkViewHandle and slot0.waitProcess then
 		Canvas.ForceUpdateCanvases()
 		slot0.waitProcess()
@@ -278,7 +278,7 @@ pg.GuideMgr2.dispatchLoaded = function (slot0, slot1)
 	end
 end
 
-pg.GuideMgr2.condition = function (slot0, slot1, slot2)
+function pg.GuideMgr2.condition(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot2.condition) do
 		slot8 = nil
 
@@ -304,7 +304,7 @@ pg.GuideMgr2.condition = function (slot0, slot1, slot2)
 	return true
 end
 
-pg.GuideMgr2.verify = function (slot0, slot1)
+function pg.GuideMgr2.verify(slot0, slot1)
 	if not slot0:Match(slot0.currentGuide.verify.condition[3], getProxy(slot0.currentGuide.verify.condition[1])[slot0.currentGuide.verify.condition[2]](slot3), slot0.currentGuide.verify.condition[4]) then
 		slot0("verify failed.......")
 
@@ -332,7 +332,7 @@ pg.GuideMgr2.verify = function (slot0, slot1)
 	return true
 end
 
-pg.GuideMgr2.doCurrEvent = function (slot0, slot1, slot2)
+function pg.GuideMgr2.doCurrEvent(slot0, slot1, slot2)
 	if table.getCount(slot1.action or {}) == 0 or (slot3 == 1 and slot1.action.newEvent) then
 		slot0:finishCurrEvent(slot1, slot2)
 		slot0:dispatchNewEvent(slot1)
@@ -382,7 +382,7 @@ pg.GuideMgr2.doCurrEvent = function (slot0, slot1, slot2)
 	end
 end
 
-pg.GuideMgr2.finishCurrEvent = function (slot0, slot1, slot2)
+function pg.GuideMgr2.finishCurrEvent(slot0, slot1, slot2)
 	if not slot1.openUI then
 		slot0._go:SetActive(false)
 	end
@@ -483,7 +483,7 @@ pg.GuideMgr2.finishCurrEvent = function (slot0, slot1, slot2)
 	end
 end
 
-pg.GuideMgr2.updateContent = function (slot0, slot1, slot2)
+function pg.GuideMgr2.updateContent(slot0, slot1, slot2)
 	slot3 = {}
 
 	if slot1.style then
@@ -526,7 +526,7 @@ pg.GuideMgr2.updateContent = function (slot0, slot1, slot2)
 	setAnchoredPosition(slot0.guiderTF, Vector3(slot6, slot7, 0))
 end
 
-pg.GuideMgr2.checkTextAlign = function (slot0, slot1)
+function pg.GuideMgr2.checkTextAlign(slot0, slot1)
 	slot3 = slot1:GetComponent(typeof(Text))
 
 	if slot0:getTextRowNum(slot1) > 1 then
@@ -536,7 +536,7 @@ pg.GuideMgr2.checkTextAlign = function (slot0, slot1)
 	end
 end
 
-pg.GuideMgr2.getTextRowNum = function (slot0, slot1)
+function pg.GuideMgr2.getTextRowNum(slot0, slot1)
 	slot2 = slot1:GetComponent(typeof(Text))
 	slot2.text = ""
 	slot2.text = slot2.text
@@ -544,7 +544,7 @@ pg.GuideMgr2.getTextRowNum = function (slot0, slot1)
 	return math.floor(slot2.preferredHeight / slot2.preferredHeight)
 end
 
-pg.GuideMgr2.updateUI = function (slot0, slot1, slot2)
+function pg.GuideMgr2.updateUI(slot0, slot1, slot2)
 	slot3 = slot1.action.ui
 	slot4 = slot1.action.ui.triggerType
 
@@ -563,7 +563,7 @@ pg.GuideMgr2.updateUI = function (slot0, slot1, slot2)
 	end
 end
 
-pg.GuideMgr2.cloneGO = function (slot0, slot1, slot2, slot3)
+function pg.GuideMgr2.cloneGO(slot0, slot1, slot2, slot3)
 	slot4 = tf(Instantiate(slot1))
 	slot4.sizeDelta = tf(slot1).sizeDelta
 
@@ -605,7 +605,7 @@ pg.GuideMgr2.cloneGO = function (slot0, slot1, slot2, slot3)
 	return slot4
 end
 
-pg.GuideMgr2.StartSearch = function (slot0, slot1, slot2)
+function pg.GuideMgr2.StartSearch(slot0, slot1, slot2)
 	slot4 = slot1.action.ui.path
 
 	if slot1.action.ui.condition and slot0:Match(slot3.condition[3], getProxy(slot3.condition[1])[slot3.condition[2]](slot5), slot3.condition[4]) then
@@ -641,7 +641,7 @@ pg.GuideMgr2.StartSearch = function (slot0, slot1, slot2)
 	end
 end
 
-pg.GuideMgr2.SearchTarget = function (slot0, slot1, slot2, slot3)
+function pg.GuideMgr2.SearchTarget(slot0, slot1, slot2, slot3)
 	slot1 = tf(slot1)
 
 	if slot2.action.ui.childIndex then
@@ -707,7 +707,7 @@ pg.GuideMgr2.SearchTarget = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-pg.GuideMgr2.ReSearchTarget = function (slot0, slot1, slot2, slot3, slot4, slot5)
+function pg.GuideMgr2.ReSearchTarget(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = 0
 	slot7 = Time.realtimeSinceStartup
 
@@ -742,7 +742,7 @@ pg.GuideMgr2.ReSearchTarget = function (slot0, slot1, slot2, slot3, slot4, slot5
 	slot0.searchTimer:Start()
 end
 
-pg.GuideMgr2.addTimer = function (slot0, slot1, slot2)
+function pg.GuideMgr2.addTimer(slot0, slot1, slot2)
 	if slot0.cloneTimer then
 		slot0.cloneTimer:Stop()
 
@@ -762,7 +762,7 @@ pg.GuideMgr2.addTimer = function (slot0, slot1, slot2)
 	slot0.cloneTimer:Start()
 end
 
-pg.GuideMgr2.setFinger = function (slot0, slot1, slot2, slot3)
+function pg.GuideMgr2.setFinger(slot0, slot1, slot2, slot3)
 	SetActive(slot0.fingerTF, true)
 
 	slot4 = slot1.sizeDelta.x / 2
@@ -783,7 +783,7 @@ pg.GuideMgr2.setFinger = function (slot0, slot1, slot2, slot3)
 	LeanTween.play(slot0.fingerTF, slot0.fingerSprites):setLoopPingPong()
 end
 
-pg.GuideMgr2.addTargetListener = function (slot0, slot1, slot2)
+function pg.GuideMgr2.addTargetListener(slot0, slot1, slot2)
 	slot4 = nil
 	slot4 = (not slot2.action.ui.childPath or findTF(slot1, slot3.childPath)) and (not slot3.eventPath or findTF(slot1, slot3.eventPath)) and slot1
 	slot0.lastTriggleType = (slot3.triggerType and slot3.triggerType[1]) or slot0
@@ -885,7 +885,7 @@ pg.GuideMgr2.addTargetListener = function (slot0, slot1, slot2)
 	end
 end
 
-pg.GuideMgr2.dispatchNewEvent = function (slot0, slot1)
+function pg.GuideMgr2.dispatchNewEvent(slot0, slot1)
 	slot0("newEvent ready.....")
 
 	if slot0.managerState == slot1.MANAGER_STATE.IDLE then
@@ -912,7 +912,7 @@ pg.GuideMgr2.dispatchNewEvent = function (slot0, slot1)
 	end
 end
 
-pg.GuideMgr2.Match = function (slot0, slot1, slot2, slot3)
+function pg.GuideMgr2.Match(slot0, slot1, slot2, slot3)
 	if slot1 == "=" then
 		return slot2 == slot3
 	elseif slot1 == "<" then
@@ -930,7 +930,7 @@ pg.GuideMgr2.Match = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-pg.GuideMgr2.GetFlagShipId = function (slot0)
+function pg.GuideMgr2.GetFlagShipId(slot0)
 	if not slot0.shipId then
 		slot0.shipId = getProxy(SettingsProxy):GetSelectedShipId()
 	end
@@ -938,7 +938,7 @@ pg.GuideMgr2.GetFlagShipId = function (slot0)
 	return slot0.shipId
 end
 
-pg.GuideMgr2.getDailyId = function (slot0)
+function pg.GuideMgr2.getDailyId(slot0)
 	slot1 = pg.TimeMgr.GetInstance():GetServerWeek()
 
 	for slot6, slot7 in pairs(pg.expedition_daily_template.all) do
@@ -950,7 +950,7 @@ pg.GuideMgr2.getDailyId = function (slot0)
 	end
 end
 
-pg.GuideMgr2.onDisconnected = function (slot0)
+function pg.GuideMgr2.onDisconnected(slot0)
 	if slot0._go and slot0.MANAGER_STATE.BUSY == slot0.managerState then
 		slot0.isBreak = true
 
@@ -962,7 +962,7 @@ pg.GuideMgr2.onDisconnected = function (slot0)
 	end
 end
 
-pg.GuideMgr2.onReconneceted = function (slot0)
+function pg.GuideMgr2.onReconneceted(slot0)
 	if slot0._go and slot0.isBreak then
 		SetActive(slot0._go, true)
 
@@ -974,7 +974,7 @@ pg.GuideMgr2.onReconneceted = function (slot0)
 	end
 end
 
-pg.GuideMgr2.ClearGuide = function (slot0)
+function pg.GuideMgr2.ClearGuide(slot0)
 	if slot0.cloneTimer then
 		slot0.cloneTimer:Stop()
 
@@ -1013,7 +1013,7 @@ pg.GuideMgr2.ClearGuide = function (slot0)
 	end
 end
 
-pg.GuideMgr2.Reset = function (slot0)
+function pg.GuideMgr2.Reset(slot0)
 	slot0("RESET..................")
 
 	if slot0.ENABLE_GUIDE == false then
@@ -1023,7 +1023,7 @@ pg.GuideMgr2.Reset = function (slot0)
 	slot0.managerState = slot1.MANAGER_STATE.IDLE
 end
 
-pg.GuideMgr2.AbortGuide = function (slot0, slot1, slot2, slot3)
+function pg.GuideMgr2.AbortGuide(slot0, slot1, slot2, slot3)
 	slot0("Guide Abort............" .. slot1)
 	slot0:ClearGuide()
 
@@ -1038,7 +1038,7 @@ pg.GuideMgr2.AbortGuide = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-pg.GuideMgr2.QuitGuide = function (slot0)
+function pg.GuideMgr2.QuitGuide(slot0)
 	slot0("Guide qiut............")
 	slot0:ClearGuide()
 

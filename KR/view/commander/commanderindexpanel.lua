@@ -39,7 +39,7 @@ slot1 = {
 	}
 }
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.inited = false
 
 	slot0:resetData()
@@ -55,23 +55,23 @@ slot0.init = function (slot0)
 	slot0.closeBtn = slot0:findTF("frame/close_btn")
 end
 
-slot0.setOverlay = function (slot0)
+function slot0.setOverlay(slot0)
 	setParent(slot0._tf, pg.UIMgr.GetInstance().OverlayMain, true)
 
 	slot0._tf.localPosition = Vector3(slot0._tf.localPosition.x, slot0._tf.localPosition.y, 0)
 end
 
-slot0.setMainLay = function (slot0)
+function slot0.setMainLay(slot0)
 	setParent(slot0._tf, slot0.parent._tf, true)
 end
 
-slot0.initToggle = function (slot0)
+function slot0.initToggle(slot0)
 	slot0:initSort()
 	slot0:initNation()
 	slot0:initRarity()
 end
 
-slot0.initSort = function (slot0)
+function slot0.initSort(slot0)
 	slot0.sortToggles = {}
 
 	for slot4, slot5 in ipairs(slot0.sort) do
@@ -88,7 +88,7 @@ slot0.initSort = function (slot0)
 	end
 end
 
-slot0.initNation = function (slot0)
+function slot0.initNation(slot0)
 	slot0.nationToggles = {}
 
 	onToggle(slot0, slot0.nationAllBtn, function (slot0)
@@ -131,7 +131,7 @@ slot0.initNation = function (slot0)
 	end
 end
 
-slot0.initRarity = function (slot0)
+function slot0.initRarity(slot0)
 	slot0.rarityToggles = {}
 
 	onToggle(slot0, slot0.rarityAllBtn, function (slot0)
@@ -174,7 +174,7 @@ slot0.initRarity = function (slot0)
 	end
 end
 
-slot0.show = function (slot0, slot1)
+function slot0.show(slot0, slot1)
 	setActive(slot0._tf, true)
 
 	if not slot0.inited then
@@ -186,7 +186,7 @@ slot0.show = function (slot0, slot1)
 	slot0:updateSelected(slot1)
 end
 
-slot0.updateSelected = function (slot0, slot1)
+function slot0.updateSelected(slot0, slot1)
 	triggerToggle(slot0.sortToggles[slot1.sortData or "id"], true)
 
 	if #(slot1.nationData or {}) > 0 then
@@ -206,7 +206,7 @@ slot0.updateSelected = function (slot0, slot1)
 	end
 end
 
-slot0.resetData = function (slot0)
+function slot0.resetData(slot0)
 	slot0.data = {
 		sortData = "id",
 		nationData = {},
@@ -214,12 +214,12 @@ slot0.resetData = function (slot0)
 	}
 end
 
-slot0.hide = function (slot0)
+function slot0.hide(slot0)
 	setActive(slot0._tf, false)
 	slot0:resetData()
 end
 
-slot0.clear = function (slot0)
+function slot0.clear(slot0)
 	return
 end
 

@@ -1,7 +1,7 @@
 slot0 = class("PlayerProxy", import(".NetProxy"))
 slot0.UPDATED = "player updated"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0._flags = {}
 	slot0._fishCfg = {}
 	slot0.combatFleetId = 1
@@ -73,15 +73,15 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.getSummaryInfo = function (slot0)
+function slot0.getSummaryInfo(slot0)
 	return slot0.summaryInfo
 end
 
-slot0.setSummaryInfo = function (slot0, slot1)
+function slot0.setSummaryInfo(slot0, slot1)
 	slot0.summaryInfo = slot1
 end
 
-slot0.flushTimesListener = function (slot0)
+function slot0.flushTimesListener(slot0)
 	if slot0.clockId then
 		slot0:remove()
 	end
@@ -92,7 +92,7 @@ slot0.flushTimesListener = function (slot0)
 	end)
 end
 
-slot0.remove = function (slot0)
+function slot0.remove(slot0)
 	if slot0.clockId then
 		pg.TimeMgr.GetInstance():RemoveTimer(slot0.clockId)
 
@@ -100,7 +100,7 @@ slot0.remove = function (slot0)
 	end
 end
 
-slot0.updatePlayer = function (slot0, slot1)
+function slot0.updatePlayer(slot0, slot1)
 	if slot0.data then
 		slot0:updatePt(slot0.data, slot1)
 	end
@@ -111,7 +111,7 @@ slot0.updatePlayer = function (slot0, slot1)
 	slot0:sendNotification(slot0.UPDATED, slot1:clone())
 end
 
-slot0.updatePt = function (slot0, slot1, slot2)
+function slot0.updatePt(slot0, slot1, slot2)
 	print(slot1)
 
 	slot0.activityProxy = slot0.activityProxy or getProxy(ActivityProxy)
@@ -145,39 +145,39 @@ slot0.updatePt = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.updatePlayerMedalDisplay = function (slot0, slot1)
+function slot0.updatePlayerMedalDisplay(slot0, slot1)
 	slot0.data.displayTrophyList = slot1
 end
 
-slot0.SetFishRes = function (slot0, slot1)
+function slot0.SetFishRes(slot0, slot1)
 	slot0._fishCfg = slot1
 end
 
-slot0.GetFishRes = function (slot0)
+function slot0.GetFishRes(slot0)
 	return slot0._fishCfg
 end
 
-slot0.getPlayerId = function (slot0)
+function slot0.getPlayerId(slot0)
 	return slot0.data.id
 end
 
-slot0.setFlag = function (slot0, slot1, slot2)
+function slot0.setFlag(slot0, slot1, slot2)
 	slot0._flags[slot1] = slot2
 end
 
-slot0.getFlag = function (slot0, slot1)
+function slot0.getFlag(slot0, slot1)
 	return slot0._flags[slot1]
 end
 
-slot0.isSelf = function (slot0, slot1)
+function slot0.isSelf(slot0, slot1)
 	return slot0.data.id == slot1
 end
 
-slot0.setInited = function (slot0, slot1)
+function slot0.setInited(slot0, slot1)
 	slot0.inited = slot1
 end
 
-slot0.getInited = function (slot0)
+function slot0.getInited(slot0)
 	return slot0.inited
 end
 

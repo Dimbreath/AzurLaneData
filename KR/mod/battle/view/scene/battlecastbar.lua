@@ -3,7 +3,7 @@ ys.Battle.BattleCastBar = class("BattleCastBar")
 ys.Battle.BattleCastBar.__name = "BattleCastBar"
 ys.Battle.BattleCastBar.OFFSET = Vector3(1.8, 2.3, 0)
 
-ys.Battle.BattleCastBar.Ctor = function (slot0, slot1)
+function ys.Battle.BattleCastBar.Ctor(slot0, slot1)
 	slot0._castClockTF = slot1
 	slot0._castClockGO = slot0._castClockTF.gameObject
 	slot0._castProgress = slot0._castClockTF:Find("cast_progress"):GetComponent(typeof(Image))
@@ -13,7 +13,7 @@ ys.Battle.BattleCastBar.Ctor = function (slot0, slot1)
 	slot0._clockCG = slot0._castClockTF:GetComponent(typeof(CanvasGroup))
 end
 
-ys.Battle.BattleCastBar.Casting = function (slot0, slot1, slot2)
+function ys.Battle.BattleCastBar.Casting(slot0, slot1, slot2)
 	LeanTween.cancel(slot0._castClockGO)
 
 	slot0._castClockTF.localScale = Vector3(0.1, 0.1, 1)
@@ -31,7 +31,7 @@ ys.Battle.BattleCastBar.Casting = function (slot0, slot1, slot2)
 	slot0._weapon = slot2
 end
 
-ys.Battle.BattleCastBar.Interrupt = function (slot0, slot1)
+function ys.Battle.BattleCastBar.Interrupt(slot0, slot1)
 	slot0._weapon = nil
 
 	if slot1 then
@@ -51,19 +51,19 @@ ys.Battle.BattleCastBar.Interrupt = function (slot0, slot1)
 	end))
 end
 
-ys.Battle.BattleCastBar.GetCastingWeapon = function (slot0)
+function ys.Battle.BattleCastBar.GetCastingWeapon(slot0)
 	return slot0._weapon
 end
 
-ys.Battle.BattleCastBar.UpdateCastClockPosition = function (slot0, slot1)
+function ys.Battle.BattleCastBar.UpdateCastClockPosition(slot0, slot1)
 	slot0._castClockTF.position = slot1 + slot0.OFFSET
 end
 
-ys.Battle.BattleCastBar.UpdateCastClock = function (slot0)
+function ys.Battle.BattleCastBar.UpdateCastClock(slot0)
 	slot0._castProgress.fillAmount = 1 - (slot0._castFinishTime - pg.TimeMgr.GetInstance():GetCombatTime()) / slot0._castDuration
 end
 
-ys.Battle.BattleCastBar.Dispose = function (slot0)
+function ys.Battle.BattleCastBar.Dispose(slot0)
 	slot0._weapon = nil
 
 	Object.Destroy(slot0._castClockGO)

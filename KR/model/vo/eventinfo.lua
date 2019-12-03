@@ -3,7 +3,7 @@ slot0.StateNone = 0
 slot0.StateActive = 1
 slot0.StateFinish = 2
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.template = pg.collection_template[slot0.id]
 	slot0.finishTime = slot1.finish_time
@@ -21,17 +21,17 @@ slot0.Ctor = function (slot0, slot1)
 	end
 end
 
-slot0.reachNum = function (slot0)
+function slot0.reachNum(slot0)
 	return slot0.template.ship_num <= #slot0.ships
 end
 
-slot0.reachLevel = function (slot0)
+function slot0.reachLevel(slot0)
 	return #slot0.ships > 0 and _.any(slot0.ships, function (slot0)
 		return slot0.template.ship_lv <= slot0.level
 	end)
 end
 
-slot0.reachTypes = function (slot0)
+function slot0.reachTypes(slot0)
 	if table.getCount(slot0.ships) == 0 then
 		return false
 	end
@@ -49,11 +49,11 @@ slot0.reachTypes = function (slot0)
 	return slot1
 end
 
-slot0.getOilConsume = function (slot0)
+function slot0.getOilConsume(slot0)
 	return slot0.template.oil or 0
 end
 
-slot0.updateTime = function (slot0)
+function slot0.updateTime(slot0)
 	slot1 = false
 
 	if slot0.state == slot0.StateActive and slot0.finishTime < pg.TimeMgr.GetInstance():GetServerTime() then
@@ -64,7 +64,7 @@ slot0.updateTime = function (slot0)
 	return slot1
 end
 
-slot0.getTypesStr = function (slot0)
+function slot0.getTypesStr(slot0)
 	slot3 = false
 
 	if #slot0.template.ship_type == #pg.ship_data_by_type.all then

@@ -12,7 +12,7 @@ slot0.VISIT_BACKYARD = "FriendMediator:VISIT_BACKYRAD"
 slot0.RELIEVE_BLACKLIST = "FriendMediator:RELIEVE_BLACKLIST"
 slot0.GET_BLACK_LIST = "FriendMediator:GET_BLACK_LIST"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot1 = getProxy(FriendProxy)
 
 	slot0.viewComponent:setFriendVOs(slot2)
@@ -77,11 +77,11 @@ slot0.register = function (slot0)
 	slot0:updateChatNotification()
 end
 
-slot0.updateChatNotification = function (slot0)
+function slot0.updateChatNotification(slot0)
 	slot0.viewComponent:updateChatNotification(getProxy(FriendProxy).getNewMsgCount(slot1))
 end
 
-slot0.openResume = function (slot0, slot1)
+function slot0.openResume(slot0, slot1)
 	slot0:addSubLayers(Context.New({
 		mediator = resumeMediator,
 		viewComponent = resumeLayer,
@@ -91,7 +91,7 @@ slot0.openResume = function (slot0, slot1)
 	}))
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.FRIEND_SEARCH_DONE,
 		GAME.FRIEND_SEND_REQUEST_DONE,
@@ -108,7 +108,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.FRIEND_SEARCH_DONE then

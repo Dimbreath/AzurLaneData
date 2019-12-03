@@ -1,10 +1,10 @@
 slot0 = class("FriendListPage", import("...base.BaseSubView"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "FriendListUI"
 end
 
-slot0.OnLoaded = function (slot0)
+function slot0.OnLoaded(slot0)
 	slot0.friendPanel = slot0:findTF("friend_panel")
 	slot0.friendTopTF = slot0:findTF("friend_view_top")
 	slot0.friendCountTF = slot0:findTF("friend_count/Text", slot0.friendTopTF)
@@ -15,7 +15,7 @@ slot0.OnLoaded = function (slot0)
 	slot0.sortPanel = slot0:findTF("friend_sort_panel")
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.dec = false
 	slot0.sortdata = {}
 
@@ -33,7 +33,7 @@ slot0.OnInit = function (slot0)
 	end, SFX_PANEL)
 end
 
-slot0.UpdateData = function (slot0, slot1)
+function slot0.UpdateData(slot0, slot1)
 	slot0.friendVOs = slot1.friendVOs or {}
 
 	if not slot0.isInit then
@@ -52,20 +52,20 @@ slot0.UpdateData = function (slot0, slot1)
 	end
 end
 
-slot0.initFriendsPage = function (slot0)
+function slot0.initFriendsPage(slot0)
 	slot0.friendItems = {}
 	slot0.friendRect = slot0.friendPanel:Find("mask/view"):GetComponent("LScrollRect")
 
-	slot0.friendRect.onInitItem = function (slot0)
+	function slot0.friendRect.onInitItem(slot0)
 		slot0:onInitItem(slot0)
 	end
 
-	slot0.friendRect.onUpdateItem = function (slot0, slot1)
+	function slot0.friendRect.onUpdateItem(slot0, slot1)
 		slot0:onUpdateItem(slot0, slot1)
 	end
 end
 
-slot0.onInitItem = function (slot0, slot1)
+function slot0.onInitItem(slot0, slot1)
 	slot2 = FriendListCard.New(slot1)
 
 	onButton(slot0, slot2.occuptBtn, function ()
@@ -89,7 +89,7 @@ slot0.onInitItem = function (slot0, slot1)
 	slot0.friendItems[slot1] = slot2
 end
 
-slot0.onUpdateItem = function (slot0, slot1, slot2)
+function slot0.onUpdateItem(slot0, slot1, slot2)
 	if not slot0.friendItems[slot2] then
 		slot0:onInitItem(slot2)
 
@@ -99,7 +99,7 @@ slot0.onUpdateItem = function (slot0, slot1, slot2)
 	slot3:update(slot0.friendVOs[slot1 + 1])
 end
 
-slot0.sortFriends = function (slot0)
+function slot0.sortFriends(slot0)
 	if slot0.contextData.sortData then
 		slot0.contextData.sortData.data.func(slot0.friendVOs, slot0.dec)
 		setImageSprite(slot0:findTF("icon", slot0.friendIndexBtn), GetSpriteFromAtlas("ui/friendsui_atlas", slot0.contextData.sortData.data.spr), true)
@@ -110,11 +110,11 @@ slot0.sortFriends = function (slot0)
 	slot0.friendRect:SetTotalCount(#slot0.friendVOs, -1)
 end
 
-slot0.updateFriendCount = function (slot0)
+function slot0.updateFriendCount(slot0)
 	setText(slot0.friendCountTF, #slot0.friendVOs .. "/" .. MAX_FRIEND_COUNT)
 end
 
-slot0.initFriendsSortPanel = function (slot0)
+function slot0.initFriendsSortPanel(slot0)
 	slot2 = slot0:getTpl("tpl", slot1)
 	slot0.friendSortCfg = require("view.friend.FriendSortCfg")
 
@@ -146,7 +146,7 @@ slot0.initFriendsSortPanel = function (slot0)
 	end, SFX_PANEL)
 end
 
-slot0.openFriendsSortPanel = function (slot0)
+function slot0.openFriendsSortPanel(slot0)
 	if slot0.contextData.sortData then
 		setImageSprite(slot0:findTF("index_button/icon", slot0.sortPanel), GetSpriteFromAtlas("ui/friendsui_atlas", slot0.contextData.sortData.data.spr), true)
 	end
@@ -154,11 +154,11 @@ slot0.openFriendsSortPanel = function (slot0)
 	setActive(slot0.sortPanel, true)
 end
 
-slot0.closeFriendsSortPanel = function (slot0)
+function slot0.closeFriendsSortPanel(slot0)
 	setActive(slot0.sortPanel, false)
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	slot1 = pairs
 	slot2 = slot0.friendItems or {}
 

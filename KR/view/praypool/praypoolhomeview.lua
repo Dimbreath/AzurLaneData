@@ -1,28 +1,28 @@
 slot0 = class("PrayPoolHomeView", import("..base.BaseSubView"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "PrayPoolHomeView"
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0:initData()
 	slot0:initUI()
 	slot0:Show()
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	return
 end
 
-slot0.OnBackPress = function (slot0)
+function slot0.OnBackPress(slot0)
 	return
 end
 
-slot0.initData = function (slot0)
+function slot0.initData(slot0)
 	slot0.prayProxy = getProxy(PrayProxy)
 end
 
-slot0.initUI = function (slot0)
+function slot0.initUI(slot0)
 	slot0.startBtn = slot0:findTF("StartBtn")
 
 	onButton(slot0, slot0.startBtn, function ()

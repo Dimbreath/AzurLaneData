@@ -4,7 +4,7 @@ ys.Battle.BattleBossCharacterFactory = slot1
 slot1.__name = "BattleBossCharacterFactory"
 slot1.BOMB_FX_NAME = "Bossbomb"
 
-slot1.Ctor = function (slot0)
+function slot1.Ctor(slot0)
 	slot0.super.Ctor(slot0)
 
 	slot0.HP_BAR_NAME = "BossBarContainer/heroBlood"
@@ -14,7 +14,7 @@ slot1.Ctor = function (slot0)
 	}
 end
 
-slot1.CreateCharacter = function (slot0, slot1)
+function slot1.CreateCharacter(slot0, slot1)
 	slot3 = slot0:MakeCharacter()
 
 	slot3:SetFactory(slot0)
@@ -26,11 +26,11 @@ slot1.CreateCharacter = function (slot0, slot1)
 	return slot3
 end
 
-slot1.MakeCharacter = function (slot0)
+function slot1.MakeCharacter(slot0)
 	return slot0.Battle.BattleBossCharacter:New()
 end
 
-slot1.MakeBloodBar = function (slot0, slot1)
+function slot1.MakeBloodBar(slot0, slot1)
 	slot2 = slot0:GetSceneMediator()
 
 	if slot1:GetBossIndex() then
@@ -40,7 +40,7 @@ slot1.MakeBloodBar = function (slot0, slot1)
 	end
 end
 
-slot1.RemoveCharacter = function (slot0, slot1)
+function slot1.RemoveCharacter(slot0, slot1)
 	slot0.super.RemoveCharacter(slot0, slot1)
 end
 

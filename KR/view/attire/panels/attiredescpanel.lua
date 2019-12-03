@@ -1,6 +1,6 @@
 slot0 = class("AttireDescPanel")
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
 	slot0.icon = findTF(slot0._tf, "icon")
@@ -16,7 +16,7 @@ slot0.Ctor = function (slot0, slot1)
 	slot0.getBtn = findTF(slot0._tf, "get_btn")
 end
 
-slot0.Update = function (slot0, slot1, slot2)
+function slot0.Update(slot0, slot1, slot2)
 	slot0:UpdateIconDesc(slot1, slot2)
 
 	slot0.nameTxt.text = slot1:getConfig("name")
@@ -41,7 +41,7 @@ slot0.Update = function (slot0, slot1, slot2)
 	setActive(slot0.getBtn, slot6 == AttireFrame.STATE_LOCK)
 end
 
-slot0.UpdateIconDesc = function (slot0, slot1, slot2)
+function slot0.UpdateIconDesc(slot0, slot1, slot2)
 	slot3 = slot1:getType() == AttireConst.TYPE_ICON_FRAME
 	slot4 = slot1:getType() == AttireConst.TYPE_CHAT_FRAME
 
@@ -92,7 +92,7 @@ slot0.UpdateIconDesc = function (slot0, slot1, slot2)
 	setActive(slot0.conditionTF, not slot4)
 end
 
-slot0.AddTimer = function (slot0, slot1, slot2)
+function slot0.AddTimer(slot0, slot1, slot2)
 	slot3 = slot1:getExpiredTime()
 	slot0.timer = Timer.New(function ()
 		if slot0 - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
@@ -107,7 +107,7 @@ slot0.AddTimer = function (slot0, slot1, slot2)
 	slot0.timer.func()
 end
 
-slot0.RemoveTimer = function (slot0)
+function slot0.RemoveTimer(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -115,7 +115,7 @@ slot0.RemoveTimer = function (slot0)
 	end
 end
 
-slot0.Dispose = function (slot0)
+function slot0.Dispose(slot0)
 	slot0:RemoveTimer()
 end
 

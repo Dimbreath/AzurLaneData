@@ -11,7 +11,7 @@ slot6.STATE_ATTACK = "Attack"
 slot6.STATE_DESTORY = "Destory"
 slot6.HEIGHT = ys.Battle.BattleConfig.AircraftHeight + 5
 
-slot6.Ctor = function (slot0, slot1)
+function slot6.Ctor(slot0, slot1)
 	slot0.EventDispatcher.AttachEventDispatcher(slot0)
 
 	slot0._uniqueID = slot1
@@ -27,7 +27,7 @@ slot6.Ctor = function (slot0, slot1)
 	slot0:Init()
 end
 
-slot6.SetBound = function (slot0, slot1, slot2)
+function slot6.SetBound(slot0, slot1, slot2)
 	slot0._top = slot1
 	slot0._bottom = slot2
 	slot0._speedZ = (math.random() - 0.5) * 0.5
@@ -35,27 +35,27 @@ slot6.SetBound = function (slot0, slot1, slot2)
 	slot0:SetTargetZ()
 end
 
-slot6.Update = function (slot0, slot1)
+function slot6.Update(slot0, slot1)
 	slot0._pos:Add(slot0._speed)
 	slot0:UpdateSpeed()
 	slot0:UpdateWeapon()
 end
 
-slot6.ActiveCldBox = function (slot0)
+function slot6.ActiveCldBox(slot0)
 	slot0._cldComponent:SetActive(true)
 end
 
-slot6.DeactiveCldBox = function (slot0)
+function slot6.DeactiveCldBox(slot0)
 	slot0._cldComponent:SetActive(false)
 end
 
-slot6.Init = function (slot0)
+function slot6.Init(slot0)
 	slot0._aliveState = true
 	slot0._speed = Vector3.zero
 	slot0._undefeated = false
 end
 
-slot6.Clear = function (slot0)
+function slot6.Clear(slot0)
 	if slot0._createTimer then
 		pg.TimeMgr.GetInstance():RemoveBattleTimer(slot0._createTimer)
 
@@ -67,15 +67,15 @@ slot6.Clear = function (slot0)
 	slot0._distanceBackup = {}
 end
 
-slot6.SetWeaponPreCastBound = function (slot0)
+function slot6.SetWeaponPreCastBound(slot0)
 	return
 end
 
-slot6.EnterGCD = function (slot0)
+function slot6.EnterGCD(slot0)
 	return
 end
 
-slot6.CreateWeapon = function (slot0)
+function slot6.CreateWeapon(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0._tmpData.weapon_ID) do
@@ -85,13 +85,13 @@ slot6.CreateWeapon = function (slot0)
 	return slot1
 end
 
-slot6.ShutdownWeapon = function (slot0)
+function slot6.ShutdownWeapon(slot0)
 	for slot4, slot5 in ipairs(slot0:GetWeapon()) do
 		slot5:Clear()
 	end
 end
 
-slot6.UpdateWeapon = function (slot0)
+function slot6.UpdateWeapon(slot0)
 	if slot0._currentState == slot0.STATE_ATTACK then
 		for slot4, slot5 in ipairs(slot0:GetWeapon()) do
 			slot5:Update()
@@ -99,31 +99,31 @@ slot6.UpdateWeapon = function (slot0)
 	end
 end
 
-slot6.GetWeapon = function (slot0)
+function slot6.GetWeapon(slot0)
 	return slot0._weapon
 end
 
-slot6.GetCurrentHP = function (slot0)
+function slot6.GetCurrentHP(slot0)
 	return slot0._currentHP
 end
 
-slot6.GetMaxHP = function (slot0)
+function slot6.GetMaxHP(slot0)
 	return slot0.Battle.BattleAttr.GetCurrent(slot0, "maxHP")
 end
 
-slot6.IsUndefeated = function (slot0)
+function slot6.IsUndefeated(slot0)
 	return slot0._undefeated
 end
 
-slot6.IsAlive = function (slot0)
+function slot6.IsAlive(slot0)
 	return slot0._aliveState
 end
 
-slot6.GetOxyState = function (slot0)
+function slot6.GetOxyState(slot0)
 	return nil
 end
 
-slot6.HandleDamageToDeath = function (slot0)
+function slot6.HandleDamageToDeath(slot0)
 	slot0:UpdateHP(-slot0._currentHP, {
 		isMiss = false,
 		isCri = false,
@@ -131,7 +131,7 @@ slot6.HandleDamageToDeath = function (slot0)
 	})
 end
 
-slot6.UpdateHP = function (slot0, slot1, slot2)
+function slot6.UpdateHP(slot0, slot1, slot2)
 	slot3 = slot2.isMiss
 	slot4 = slot2.isCri
 	slot5 = slot2.isHeal
@@ -157,12 +157,12 @@ slot6.UpdateHP = function (slot0, slot1, slot2)
 	end
 end
 
-slot6.onDead = function (slot0)
+function slot6.onDead(slot0)
 	slot0._currentState = slot0.STATE_DESTORY
 	slot0._aliveState = false
 end
 
-slot6.UpdateSpeed = function (slot0)
+function slot6.UpdateSpeed(slot0)
 	slot0._speed:Copy(slot1)
 	slot0._speed:Mul(slot2)
 
@@ -181,13 +181,13 @@ slot6.UpdateSpeed = function (slot0)
 	end
 end
 
-slot6.OutBound = function (slot0)
+function slot6.OutBound(slot0)
 	slot0._undefeated = true
 
 	slot0:onDead()
 end
 
-slot6.GetSize = function (slot0)
+function slot6.GetSize(slot0)
 	if slot0._currentState == slot0.STATE_CREATE then
 		return Mathf.Clamp(slot0:GetPosition().y / slot0.HEIGHT, 0.1, slot0._scale)
 	else
@@ -195,7 +195,7 @@ slot6.GetSize = function (slot0)
 	end
 end
 
-slot6.SetTemplate = function (slot0, slot1)
+function slot6.SetTemplate(slot0, slot1)
 	slot0._tmpData = slot1
 
 	slot0:InitCldComponent()
@@ -208,15 +208,15 @@ slot6.SetTemplate = function (slot0, slot1)
 	slot0._scale = slot1.scale or 1
 end
 
-slot6.SetWeanponPotential = function (slot0, slot1)
+function slot6.SetWeanponPotential(slot0, slot1)
 	slot0._weaponPotential = slot1
 end
 
-slot6.SetTargetZ = function (slot0)
+function slot6.SetTargetZ(slot0)
 	slot0._targetZ = (slot0._bottom + slot0._top) * 0.5 + (slot0._top - slot0._bottom) * (math.random() - 0.5) * 0.6
 end
 
-slot6.SetMotherUnit = function (slot0, slot1)
+function slot6.SetMotherUnit(slot0, slot1)
 	slot0._motherUnit = slot1
 
 	slot0:SetIFF(slot2)
@@ -239,15 +239,15 @@ slot6.SetMotherUnit = function (slot0, slot1)
 	end
 end
 
-slot6.SetIFF = function (slot0, slot1)
+function slot6.SetIFF(slot0, slot1)
 	slot0._IFF = slot1
 end
 
-slot6.SetPosition = function (slot0, slot1)
+function slot6.SetPosition(slot0, slot1)
 	slot0._pos = Clone(slot1)
 end
 
-slot6.GetDistance = function (slot0, slot1)
+function slot6.GetDistance(slot0, slot1)
 	if slot0._frame ~= slot0._battleProxy.FrameIndex then
 		slot0._distanceBackup = {}
 		slot0._frame = slot2
@@ -262,7 +262,7 @@ slot6.GetDistance = function (slot0, slot1)
 	return slot3
 end
 
-slot6.backupDistance = function (slot0, slot1, slot2)
+function slot6.backupDistance(slot0, slot1, slot2)
 	if slot0._frame ~= slot0._battleProxy.FrameIndex then
 		slot0._distanceBackup = {}
 		slot0._frame = slot3
@@ -271,11 +271,11 @@ slot6.backupDistance = function (slot0, slot1, slot2)
 	slot0._distanceBackup[slot1] = slot2
 end
 
-slot6.GetSkinID = function (slot0)
+function slot6.GetSkinID(slot0)
 	return slot0._modelID
 end
 
-slot6.SetSkinID = function (slot0, slot1)
+function slot6.SetSkinID(slot0, slot1)
 	slot0._skinID = slot1
 	slot0._modelID = slot0.GetEquipSkin(slot0._skinID)
 
@@ -284,111 +284,111 @@ slot6.SetSkinID = function (slot0, slot1)
 	end
 end
 
-slot6.SetSkinData = function (slot0, slot1)
+function slot6.SetSkinData(slot0, slot1)
 	return
 end
 
-slot6.SetAttr = function (slot0, slot1)
+function slot6.SetAttr(slot0, slot1)
 	slot0.Battle.BattleAttr.SetAircraftAttFromMother(slot0, slot1)
 end
 
-slot6.GetAttr = function (slot0)
+function slot6.GetAttr(slot0)
 	return slot0.Battle.BattleAttr.GetAttr(slot0)
 end
 
-slot6.GetAttrByName = function (slot0, slot1)
+function slot6.GetAttrByName(slot0, slot1)
 	return slot0.Battle.BattleAttr.GetCurrent(slot0, slot1)
 end
 
-slot6.GetMotherUnit = function (slot0)
+function slot6.GetMotherUnit(slot0)
 	return slot0._motherUnit
 end
 
-slot6.GetUniqueID = function (slot0)
+function slot6.GetUniqueID(slot0)
 	return slot0._uniqueID
 end
 
-slot6.GetIFF = function (slot0)
+function slot6.GetIFF(slot0)
 	return slot0._IFF
 end
 
-slot6.GetCurrentState = function (slot0)
+function slot6.GetCurrentState(slot0)
 	return slot0._currentState
 end
 
-slot6.GetSpeed = function (slot0)
+function slot6.GetSpeed(slot0)
 	return slot0._speed
 end
 
-slot6.GetPosition = function (slot0)
+function slot6.GetPosition(slot0)
 	return slot0._pos
 end
 
-slot6.GetCLDCenterPosition = function (slot0)
+function slot6.GetCLDCenterPosition(slot0)
 	return Vector3(slot0._pos.x + slot0:GetBoxSize().x, slot0._pos.y, slot0._pos.z + slot0.GetBoxSize().z)
 end
 
-slot6.GetCLDZCenterPosition = function (slot0)
+function slot6.GetCLDZCenterPosition(slot0)
 	return Vector3(slot0._pos.x, slot0._pos.y, slot0._pos.z + slot0:GetBoxSize().z)
 end
 
-slot6.GetDirection = function (slot0)
+function slot6.GetDirection(slot0)
 	return slot0._dir
 end
 
-slot6.GetTemplate = function (slot0)
+function slot6.GetTemplate(slot0)
 	return slot0._tmpData
 end
 
-slot6.GetTemplateID = function (slot0)
+function slot6.GetTemplateID(slot0)
 	return slot0._tmpData.id
 end
 
-slot6.GetUnitType = function (slot0)
+function slot6.GetUnitType(slot0)
 	return slot0._type
 end
 
-slot6.GetHPRate = function (slot0)
+function slot6.GetHPRate(slot0)
 	return slot0._currentHP / slot0:GetMaxHP()
 end
 
-slot6.GetBoxSize = function (slot0)
+function slot6.GetBoxSize(slot0)
 	return slot0._cldComponent:GetCldBoxSize()
 end
 
-slot6.GetSpeedRatio = function (slot0)
+function slot6.GetSpeedRatio(slot0)
 	return slot0.GetSpeedRatio(slot0:GetSpeedExemptKey(), slot0._IFF)
 end
 
-slot6.GetSpeedExemptKey = function (slot0)
+function slot6.GetSpeedExemptKey(slot0)
 	return slot0._speedExemptKey
 end
 
-slot6.IsPlayerAircraft = function (slot0)
+function slot6.IsPlayerAircraft(slot0)
 	return slot0._isPlayerAircraft
 end
 
-slot6.IsShowHPBar = function (slot0)
+function slot6.IsShowHPBar(slot0)
 	return false
 end
 
-slot6.SetUnVisitable = function (slot0)
+function slot6.SetUnVisitable(slot0)
 	slot0.Battle.BattleAttr.UnVisitable(slot0)
 end
 
-slot6.SetVisitable = function (slot0)
+function slot6.SetVisitable(slot0)
 	slot0.Battle.BattleAttr.Visitable(slot0)
 end
 
-slot6.IsVisitable = function (slot0)
+function slot6.IsVisitable(slot0)
 	return slot0.Battle.BattleAttr.IsVisitable(slot0)
 end
 
-slot6.TriggerBuff = function (slot0, slot1, slot2)
+function slot6.TriggerBuff(slot0, slot1, slot2)
 	return
 end
 
-slot6.AddCreateTimer = function (slot0, slot1, slot2)
+function slot6.AddCreateTimer(slot0, slot1, slot2)
 	slot0._currentState = slot0.STATE_CREATE
 	slot0._speedDir = slot1
 	slot0._createTimer = pg.TimeMgr.GetInstance():AddBattleTimer("AddCreateTimer", 0, slot2 or 1.5, function ()
@@ -401,11 +401,11 @@ slot6.AddCreateTimer = function (slot0, slot1, slot2)
 	end)
 end
 
-slot6.Dispose = function (slot0)
+function slot6.Dispose(slot0)
 	slot0.EventDispatcher.DetachEventDispatcher(slot0)
 end
 
-slot6.InitCldComponent = function (slot0)
+function slot6.InitCldComponent(slot0)
 	slot1 = slot0:GetTemplate().cld_box
 	slot3 = slot0:GetTemplate().cld_offset[1]
 
@@ -422,35 +422,35 @@ slot6.InitCldComponent = function (slot0)
 	})
 end
 
-slot6.GetCldBox = function (slot0)
+function slot6.GetCldBox(slot0)
 	return slot0._cldComponent:GetCldBox(slot0:GetPosition())
 end
 
-slot6.GetCldData = function (slot0)
+function slot6.GetCldData(slot0)
 	return slot0._cldComponent:GetCldData()
 end
 
-slot6.AddBuff = function (slot0)
+function slot6.AddBuff(slot0)
 	return
 end
 
-slot6.SetBuffStack = function (slot0)
+function slot6.SetBuffStack(slot0)
 	return
 end
 
-slot6.RemoveBuff = function (slot0)
+function slot6.RemoveBuff(slot0)
 	return
 end
 
-slot6.TriggerBuff = function (slot0)
+function slot6.TriggerBuff(slot0)
 	return
 end
 
-slot6.GetLabelTag = function (slot0)
+function slot6.GetLabelTag(slot0)
 	return {}
 end
 
-slot6.GetCurrentOxyState = function (slot0)
+function slot6.GetCurrentOxyState(slot0)
 	return nil
 end
 

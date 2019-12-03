@@ -7,7 +7,7 @@ slot0.CMD_TYPE_GET_SHIP = 5
 slot0.CMD_TYPE_FACILITY_CONTRIBUTION = 6
 slot0.CMD_TYPE_FACILITY_CONSUME = 7
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.cmd = slot1.cmd
 	slot0.time = slot1.time
 	slot0.userId = slot1.user_id
@@ -23,7 +23,7 @@ slot0.Ctor = function (slot0, slot1)
 	slot0.arg1 = slot1.arg1
 end
 
-slot0.getConent = function (slot0)
+function slot0.getConent(slot0)
 	slot1 = getOfflineTimeStamp(slot0.time)
 	slot2 = pg.TimeMgr.GetInstance():STimeDescC(slot0.time, "[%m-%d %H:%M]")
 
@@ -72,7 +72,7 @@ slot0.getConent = function (slot0)
 	end
 end
 
-slot0.getDuty = function (slot0)
+function slot0.getDuty(slot0)
 	slot1 = ""
 
 	if slot0.arg1 then

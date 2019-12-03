@@ -1,16 +1,16 @@
 slot0 = class("LevelSignalView", import("..base.BaseSubView"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "LevelSignalView"
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0:InitUI()
 	setActive(slot0._tf, true)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	if slot0.timers then
 		_.each(slot0.timers, function (slot0)
 			slot0:Stop()
@@ -26,13 +26,13 @@ slot0.OnDestroy = function (slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTF)
 end
 
-slot0.setCBFunc = function (slot0, slot1, slot2, slot3)
+function slot0.setCBFunc(slot0, slot1, slot2, slot3)
 	slot0.onSearch = slot1
 	slot0.onGo = slot2
 	slot0.onCancel = slot3
 end
 
-slot0.InitUI = function (slot0)
+function slot0.InitUI(slot0)
 	slot0.btnBack = slot0:findTF("panel/btnBack")
 	slot0.intensity = slot0:findTF("panel/intensity/nums")
 	slot0.area = slot0:findTF("panel/area")
@@ -46,7 +46,7 @@ slot0.InitUI = function (slot0)
 	setActive(slot0.item, false)
 end
 
-slot0.set = function (slot0, slot1, slot2, slot3)
+function slot0.set(slot0, slot1, slot2, slot3)
 	slot0.maps = slot1
 	slot0.subRefreshCount = slot2
 	slot0.subProgress = slot3
@@ -74,7 +74,7 @@ slot0.set = function (slot0, slot1, slot2, slot3)
 	end, SFX_CONFIRM)
 end
 
-slot0.flush = function (slot0)
+function slot0.flush(slot0)
 	setText(slot0.signals, slot0.subRefreshCount)
 	setText(slot0.area, i18n("levelScene_search_area", math.min(slot0.subProgress, #_.filter(pg.expedition_data_by_map.all, function (slot0)
 		return type(pg.expedition_data_by_map[slot0].drop_by_map_display) == "table" and #slot1 > 0

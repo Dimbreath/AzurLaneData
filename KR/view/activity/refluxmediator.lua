@@ -3,7 +3,7 @@ slot0.OnTaskSubmit = "RefluxMediator.OnTaskSubmit"
 slot0.OnTaskGo = "RefluxMediator.OnTaskGo"
 slot0.OnBattlePhaseForward = "RefluxMediator.OnBattlePhaseForward"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot2 = getProxy(ActivityProxy).getActivityByType(slot1, ActivityConst.ACTIVITY_TYPE_REFLUX)
 
 	getProxy(TaskProxy).pushAutoSubmitTask(slot3)
@@ -37,7 +37,7 @@ slot0.register = function (slot0)
 	end
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.SUBMIT_TASK_DONE,
 		TaskProxy.TASK_UPDATED,
@@ -47,7 +47,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.SUBMIT_TASK_DONE then
@@ -66,7 +66,7 @@ slot0.handleNotification = function (slot0, slot1)
 	end
 end
 
-slot0.DispatchAutoOpertation = function (slot0)
+function slot0.DispatchAutoOpertation(slot0)
 	if getProxy(ActivityProxy):findRefluxAutoActivity() == 1 then
 		slot0:sendNotification(GAME.ACTIVITY_OPERATION, {
 			cmd = 1,

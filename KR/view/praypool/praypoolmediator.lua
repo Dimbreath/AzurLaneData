@@ -1,6 +1,6 @@
 slot0 = class("PrayPoolMediator", import("..base.ContextMediator"))
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0:bind(PrayPoolConst.CLICK_INDEX_BTN, function (slot0, slot1)
 		slot0:addSubLayers(Context.New({
 			mediator = IndexMediator,
@@ -33,13 +33,13 @@ slot0.register = function (slot0)
 	end
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		PrayPoolConst.BUILD_PRAY_POOL_SUCCESS
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == PrayPoolConst.BUILD_PRAY_POOL_SUCCESS then

@@ -1,16 +1,16 @@
 slot0 = class("PreviewTemplatePage", import("....base.BaseActivityPage"))
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.btnList = slot0:findTF("btn_list", slot0.bg)
 end
 
-slot0.OnFirstFlush = function (slot0)
+function slot0.OnFirstFlush(slot0)
 	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 	slot0:initBtn()
 end
 
-slot0.initBtn = function (slot0)
+function slot0.initBtn(slot0)
 	slot1 = {
 		task = function (slot0)
 			onButton(slot0, slot0, function ()

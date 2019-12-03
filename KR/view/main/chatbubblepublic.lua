@@ -1,6 +1,6 @@
 slot0 = class("ChatBubblePublic")
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.tf = tf(slot1)
 	slot0.richText = findTF(slot0.tf, "text"):GetComponent("RichText")
 
@@ -9,7 +9,7 @@ slot0.Ctor = function (slot0, slot1)
 	end
 end
 
-slot0.update = function (slot0, slot1)
+function slot0.update(slot0, slot1)
 	if slot0.data == slot1 then
 		return
 	end
@@ -29,7 +29,7 @@ slot0.update = function (slot0, slot1)
 	end
 end
 
-slot0.clickItem = function (slot0, slot1, slot2)
+function slot0.clickItem(slot0, slot1, slot2)
 	if slot1 == "clickPlayer" then
 		print("click player : " .. slot2.string)
 	elseif slot1 == "clickShip" then
@@ -37,7 +37,7 @@ slot0.clickItem = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.dispose = function (slot0)
+function slot0.dispose(slot0)
 	slot0.richText:RemoveAllListeners()
 end
 

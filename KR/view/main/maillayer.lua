@@ -1,10 +1,10 @@
 slot0 = class("MailLayer", import("..base.BaseUI"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "MailBoxUI2"
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.closeButton = slot0:findTF("main/top/btnBack")
 	slot0.takeAllButton = slot0:findTF("main/get_all_button")
 	slot0.deleteAllButton = slot0:findTF("main/delete_all_button")
@@ -52,19 +52,19 @@ slot0.init = function (slot0)
 	slot0.msgContentTF = slot0:findTF("window/items/content/Text", slot0.msgBoxTF):GetComponent(typeof(Text))
 end
 
-slot0.setMailData = function (slot0, slot1)
+function slot0.setMailData(slot0, slot1)
 	slot0.mailVOs = slot1
 end
 
-slot0.setUnreadMailCount = function (slot0, slot1)
+function slot0.setUnreadMailCount(slot0, slot1)
 	slot0.unreadCount = slot1
 end
 
-slot0.setMailCount = function (slot0, slot1)
+function slot0.setMailCount(slot0, slot1)
 	slot0.totalCount = slot1
 end
 
-slot0.setOrMovePanelState = function (slot0, slot1, slot2)
+function slot0.setOrMovePanelState(slot0, slot1, slot2)
 	if slot2 then
 		setAnchoredPosition(slot0.mainPanel, Vector2.zero)
 		SetActive(slot0.mainPanel, true)
@@ -96,7 +96,7 @@ slot0.setOrMovePanelState = function (slot0, slot1, slot2)
 	slot0.panelState = slot1
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	slot0:setOrMovePanelState(slot0.panelState, true)
 	onButton(slot0, slot0._tf, function ()
 		slot0:emit(slot1.ON_CLOSE)
@@ -171,11 +171,11 @@ slot0.didEnter = function (slot0)
 	end)
 end
 
-slot0.UnblurMailBox = function (slot0)
+function slot0.UnblurMailBox(slot0)
 	slot0.UIMgr:UnblurPanel(slot0._tf, slot0.UIMgr._normalUIMain)
 end
 
-slot0.updateMailList = function (slot0)
+function slot0.updateMailList(slot0)
 	table.sort(slot0.mailVOs, Mail.sortByTime)
 
 	slot3 = not getToggleState(slot0.toggleNormal) and not getToggleState(slot0.toggleMatter)
@@ -211,12 +211,12 @@ slot0.updateMailList = function (slot0)
 	slot0:updateMailCount()
 end
 
-slot0.updateMailCount = function (slot0)
+function slot0.updateMailCount(slot0)
 	setText(slot0.mailCount, slot0.totalCount .. "<color=#B1BAC9FF>/1000</color>")
 	slot0:showMailTip(#slot0.mailVOs ~= slot0.totalCount)
 end
 
-slot0.showMailTip = function (slot0, slot1)
+function slot0.showMailTip(slot0, slot1)
 	setActive(slot0.mailTip, slot1)
 
 	if slot1 then
@@ -229,12 +229,12 @@ slot0.showMailTip = function (slot0, slot1)
 	end
 end
 
-slot0.addMail = function (slot0, slot1)
+function slot0.addMail(slot0, slot1)
 	table.insert(slot0.mailVOs, slot1)
 	slot0:updateMailList()
 end
 
-slot0.setLetterContent = function (slot0, slot1)
+function slot0.setLetterContent(slot0, slot1)
 	setActive(slot0.wordText, slot1)
 	setActive(slot0.lineTpl, slot1)
 
@@ -247,7 +247,7 @@ slot0.setLetterContent = function (slot0, slot1)
 	slot0.wordList:align(math.floor(slot0.wordText.rect.height / slot0.lineTpl.rect.height) + 1 + 1)
 end
 
-slot0.openMail = function (slot0, slot1)
+function slot0.openMail(slot0, slot1)
 	setActive(slot0.mailTFsById[slot1.id]:Find("check_mark"), true)
 
 	if slot0.preCheckMark and slot0.preCheckMark ~= slot2 then
@@ -308,7 +308,7 @@ slot0.openMail = function (slot0, slot1)
 	slot0.lastOpenMailId = slot1.id
 end
 
-slot0.setAttachment = function (slot0, slot1, slot2, slot3)
+function slot0.setAttachment(slot0, slot1, slot2, slot3)
 	setActive(slot1:Find("mask"), slot3)
 	updateDrop(slot1, {
 		type = slot2.dropType,
@@ -345,7 +345,7 @@ slot0.setAttachment = function (slot0, slot1, slot2, slot3)
 	end)
 end
 
-slot0.updateMail = function (slot0, slot1)
+function slot0.updateMail(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.mailVOs) do
 		if slot6.id == slot1.id then
 			slot0.mailVOs[slot5] = slot1
@@ -394,7 +394,7 @@ slot0.updateMail = function (slot0, slot1)
 	end
 end
 
-slot0.removeMail = function (slot0, slot1)
+function slot0.removeMail(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.mailVOs) do
 		if slot6.id == slot1.id then
 			table.remove(slot0.mailVOs, slot5)
@@ -422,7 +422,7 @@ slot0.removeMail = function (slot0, slot1)
 	slot0:updateMailCount()
 end
 
-slot0.onDelete = function (slot0, slot1)
+function slot0.onDelete(slot0, slot1)
 	if slot1.attachFlag == slot1.ATTACHMENT_EXIST then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("main_mailLayer_quest_deleteNotTakeAttach"),
@@ -442,7 +442,7 @@ slot0.onDelete = function (slot0, slot1)
 	end
 end
 
-slot0.showMsgBox = function (slot0, slot1)
+function slot0.showMsgBox(slot0, slot1)
 	slot0.isShowMsgBox = true
 
 	setActive(slot0.msgBoxTF, true)
@@ -473,7 +473,7 @@ slot0.showMsgBox = function (slot0, slot1)
 	slot0.msgContentTF.text = i18n2(slot1.content) or ""
 end
 
-slot0.closeMsgBox = function (slot0)
+function slot0.closeMsgBox(slot0)
 	if slot0.isShowMsgBox then
 		slot0.isShowMsgBox = nil
 
@@ -481,7 +481,7 @@ slot0.closeMsgBox = function (slot0)
 	end
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	slot0:UnblurMailBox()
 	slot0:closeMsgBox()
 end

@@ -1,6 +1,6 @@
 slot0 = class("InstagramComment", import("..BaseVO"))
 
-slot0.Ctor = function (slot0, slot1, slot2, slot3)
+function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.time = slot1.time
 	slot0.text = slot1.text
 	slot0.instagram = slot2
@@ -16,7 +16,7 @@ slot0.Ctor = function (slot0, slot1, slot2, slot3)
 	slot0.replyList = {}
 end
 
-slot0.GetLasterUpdateTime = function (slot0)
+function slot0.GetLasterUpdateTime(slot0)
 	slot1 = {}
 
 	slot2(slot0.time)
@@ -32,19 +32,19 @@ slot0.GetLasterUpdateTime = function (slot0)
 	return slot1[1] or 0
 end
 
-slot0.GetName = function (slot0)
+function slot0.GetName(slot0)
 	return
 end
 
-slot0.GetPainting = function (slot0)
+function slot0.GetPainting(slot0)
 	return
 end
 
-slot0.GetType = function (slot0)
+function slot0.GetType(slot0)
 	return
 end
 
-slot0.GetFasterRefreshTime = function (slot0)
+function slot0.GetFasterRefreshTime(slot0)
 	slot1 = {}
 
 	if slot0:ShouldWaitForShow() then
@@ -66,29 +66,29 @@ slot0.GetFasterRefreshTime = function (slot0)
 	end
 end
 
-slot0.AnyReplyTimeOut = function (slot0)
+function slot0.AnyReplyTimeOut(slot0)
 	return _.any(slot0.replyList, function (slot0)
 		return slot0:TimeOutAndTxtIsEmpty()
 	end) or slot0:TimeOutAndTxtIsEmpty()
 end
 
-slot0.TimeOutAndTxtIsEmpty = function (slot0)
+function slot0.TimeOutAndTxtIsEmpty(slot0)
 	return slot0.time <= pg.TimeMgr.GetInstance():GetServerTime() and slot0.text == ""
 end
 
-slot0.ShouldWaitForShow = function (slot0)
+function slot0.ShouldWaitForShow(slot0)
 	return pg.TimeMgr.GetInstance():GetServerTime() < slot0.time or slot0:TimeOutAndTxtIsEmpty()
 end
 
-slot0.GetReplyTimeOffset = function (slot0)
+function slot0.GetReplyTimeOffset(slot0)
 	return slot0.time - pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-slot0.GetReplyList = function (slot0)
+function slot0.GetReplyList(slot0)
 	return slot0.replyList
 end
 
-slot0.GetCanDisplayReply = function (slot0)
+function slot0.GetCanDisplayReply(slot0)
 	slot1 = {}
 	slot2 = 0
 
@@ -103,17 +103,17 @@ slot0.GetCanDisplayReply = function (slot0)
 	return slot1, slot2
 end
 
-slot0.GetParentCommentName = function (slot0)
+function slot0.GetParentCommentName(slot0)
 	return slot0.parentComment:GetName()
 end
 
-slot0.HasReply = function (slot0)
+function slot0.HasReply(slot0)
 	return _.any(slot0.replyList, function (slot0)
 		return not slot0:ShouldWaitForShow()
 	end) and #slot0.replyList > 0
 end
 
-slot0.GetContent = function (slot0)
+function slot0.GetContent(slot0)
 	slot1 = slot0:GetName()
 
 	if slot0.isRoot then
@@ -125,7 +125,7 @@ slot0.GetContent = function (slot0)
 	end
 end
 
-slot0.GetReplyCnt = function (slot0)
+function slot0.GetReplyCnt(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in ipairs(slot0.replyList) do
@@ -137,15 +137,15 @@ slot0.GetReplyCnt = function (slot0)
 	return slot1
 end
 
-slot0.GetTime = function (slot0)
+function slot0.GetTime(slot0)
 	return InstagramReplyTimeStamp(slot0.time) .. " reply"
 end
 
-slot0.GetIcon = function (slot0)
+function slot0.GetIcon(slot0)
 	return slot0:GetPainting()
 end
 
-slot0.GetReplyBtnTxt = function (slot0)
+function slot0.GetReplyBtnTxt(slot0)
 	return "reply"
 end
 

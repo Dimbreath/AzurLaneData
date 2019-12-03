@@ -18,11 +18,11 @@ slot0.YuLeiTing = 14
 slot0.JinBi = 15
 slot0.ZiBao = 16
 
-slot0.Type2Name = function (slot0)
+function slot0.Type2Name(slot0)
 	return pg.ship_data_by_type[slot0].type_name
 end
 
-slot0.Type2Print = function (slot0)
+function slot0.Type2Print(slot0)
 	if not slot0.prints then
 		slot0.prints = {
 			"quzhu",
@@ -49,7 +49,7 @@ slot0.Type2Print = function (slot0)
 	return slot0.prints[slot0]
 end
 
-slot0.Type2BattlePrint = function (slot0)
+function slot0.Type2BattlePrint(slot0)
 	if not slot0.bprints then
 		slot0.bprints = {
 			"battle_quzhu",
@@ -76,7 +76,7 @@ slot0.Type2BattlePrint = function (slot0)
 	return slot0.bprints[slot0]
 end
 
-slot0.Type2CNLabel = function (slot0)
+function slot0.Type2CNLabel(slot0)
 	if not slot0.cnLabel then
 		slot0.cnLabel = {
 			"label_1",
@@ -126,7 +126,7 @@ slot0.BundleList = {
 	}
 }
 
-slot0.BundleType2CNLabel = function (slot0)
+function slot0.BundleType2CNLabel(slot0)
 	if not slot0.bundleLabel then
 		slot0.bundleLabel = {
 			qian = "label_8",

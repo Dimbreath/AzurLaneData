@@ -1,6 +1,6 @@
 slot0 = class("TechnologyNationProxy", import(".NetProxy"))
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.typeAttrTable = {}
 	slot0.typeOrder = {}
 	slot0.typeAttrOrderTable = {}
@@ -25,14 +25,14 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.flushData = function (slot0)
+function slot0.flushData(slot0)
 	slot0:shipGroupFilter()
 	slot0:nationPointFilter()
 	slot0:calculateTecBuff()
 	slot0:refreshRedPoint()
 end
 
-slot0.updateTecItem = function (slot0, slot1, slot2, slot3, slot4)
+function slot0.updateTecItem(slot0, slot1, slot2, slot3, slot4)
 	if not slot0.techList[slot1] then
 		slot0.techList[slot1] = {
 			completeID = 0,
@@ -50,7 +50,7 @@ slot0.updateTecItem = function (slot0, slot1, slot2, slot3, slot4)
 	}
 end
 
-slot0.shipGroupFilter = function (slot0)
+function slot0.shipGroupFilter(slot0)
 	slot0.groupListInCount = {}
 
 	for slot5, slot6 in pairs(slot1) do
@@ -60,7 +60,7 @@ slot0.shipGroupFilter = function (slot0)
 	end
 end
 
-slot0.nationPointFilter = function (slot0)
+function slot0.nationPointFilter(slot0)
 	slot0.nationToPoint = {
 		0,
 		0,
@@ -95,7 +95,7 @@ slot0.nationPointFilter = function (slot0)
 	end
 end
 
-slot0.calculateTecBuff = function (slot0)
+function slot0.calculateTecBuff(slot0)
 	slot0.typeBuffList = {}
 	slot0.typeOrder = {}
 
@@ -201,7 +201,7 @@ slot0.calculateTecBuff = function (slot0)
 	end
 end
 
-slot0.setTimer = function (slot0)
+function slot0.setTimer(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -245,7 +245,7 @@ slot0.setTimer = function (slot0)
 	end
 end
 
-slot0.refreshRedPoint = function (slot0)
+function slot0.refreshRedPoint(slot0)
 	slot0.ifShowRedPoint = false
 
 	for slot4, slot5 in pairs(slot0.techList) do
@@ -269,25 +269,25 @@ slot0.refreshRedPoint = function (slot0)
 	end
 end
 
-slot0.GetTecList = function (slot0)
+function slot0.GetTecList(slot0)
 	return slot0.techList
 end
 
-slot0.getLevelByTecID = function (slot0, slot1)
+function slot0.getLevelByTecID(slot0, slot1)
 	slot2 = nil
 
 	return (not slot0.techList[slot1] and 0) or table.indexof(pg.fleet_tech_group[slot1].techs, slot0.techList[slot1].completeID, 1) or 0
 end
 
-slot0.getGroupListInCount = function (slot0)
+function slot0.getGroupListInCount(slot0)
 	return slot0.groupListInCount
 end
 
-slot0.getShowRedPointTag = function (slot0)
+function slot0.getShowRedPointTag(slot0)
 	return slot0.ifShowRedPoint
 end
 
-slot0.getStudyingTecItem = function (slot0)
+function slot0.getStudyingTecItem(slot0)
 	for slot4, slot5 in pairs(slot0.techList) do
 		if slot5.studyID ~= 0 then
 			return slot4
@@ -297,29 +297,29 @@ slot0.getStudyingTecItem = function (slot0)
 	return nil
 end
 
-slot0.getPoint = function (slot0)
+function slot0.getPoint(slot0)
 	return slot0.point
 end
 
-slot0.getNationPointList = function (slot0)
+function slot0.getNationPointList(slot0)
 	return slot0.nationToPoint
 end
 
-slot0.getNationPoint = function (slot0, slot1)
+function slot0.getNationPoint(slot0, slot1)
 	return slot0.nationToPoint[slot1]
 end
 
-slot0.getLeftTime = function (slot0)
+function slot0.getLeftTime(slot0)
 	return slot0.leftTime
 end
 
-slot0.getTecBuff = function (slot0)
+function slot0.getTecBuff(slot0)
 	if OPEN_TEC_TREE_SYSTEM then
 		return slot0.typeAttrTable, slot0.typeOrder, slot0.typeAttrOrderTable
 	end
 end
 
-slot0.getShipAddition = function (slot0, slot1, slot2)
+function slot0.getShipAddition(slot0, slot1, slot2)
 	slot3 = table.indexof(TechnologyConst.TECH_NATION_ATTRS, slot2)
 	slot4 = 0
 	slot5 = slot0:getTecBuff() or {}

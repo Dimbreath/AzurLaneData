@@ -1,7 +1,7 @@
 slot0 = class("CommanderBuildPoolPanel")
 slot1 = 10
 
-slot0.Ctor = function (slot0, slot1, slot2)
+function slot0.Ctor(slot0, slot1, slot2)
 	slot0._tf = slot1
 	slot0.parent = slot2
 	slot0.buildPoolList = UIItemList.New(slot0._tf:Find("frame/bg/content/list"), slot0._tf:Find("frame/bg/content/list/1"))
@@ -47,7 +47,7 @@ slot0.Ctor = function (slot0, slot1, slot2)
 	}
 end
 
-slot0.AutoSelect = function (slot0)
+function slot0.AutoSelect(slot0)
 	slot1 = slot0.pools
 
 	function slot2()
@@ -67,7 +67,7 @@ slot0.AutoSelect = function (slot0)
 	end
 end
 
-slot0.Show = function (slot0, slot1, slot2)
+function slot0.Show(slot0, slot1, slot2)
 	slot2.selected = {}
 	slot2.pools = slot1
 	slot3 = slot2.pools
@@ -99,7 +99,7 @@ slot0.Show = function (slot0, slot1, slot2)
 	slot0.isShow = true
 end
 
-slot0.ReduceCount = function (slot0, slot1, slot2, slot3)
+function slot0.ReduceCount(slot0, slot1, slot2, slot3)
 	slot0.counts[slot1] = slot0.counts[slot1] + slot2
 
 	setText(slot0.boxesTxt[slot1], slot0.counts[slot1] + slot2)
@@ -113,11 +113,11 @@ slot0.ReduceCount = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-slot0.poolId2Sprite = function (slot0, slot1)
+function slot0.poolId2Sprite(slot0, slot1)
 	return slot0.sprites[slot1]
 end
 
-slot0.UpdatePos = function (slot0)
+function slot0.UpdatePos(slot0)
 	function slot1(slot0, slot1)
 		slot3 = slot1:Find("icon")
 
@@ -151,7 +151,7 @@ slot0.UpdatePos = function (slot0)
 	slot0.selectedTxt.text = #slot0.selected .. "/" .. slot0
 end
 
-slot0.Hide = function (slot0)
+function slot0.Hide(slot0)
 	setActive(slot0._tf, false)
 
 	slot0.isShow = false

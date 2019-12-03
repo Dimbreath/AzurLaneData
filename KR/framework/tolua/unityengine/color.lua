@@ -27,55 +27,55 @@ function slot6(slot0, slot1, slot2, slot3)
 	return 0, 0, slot4
 end
 
-slot5.red = function ()
+function slot5.red()
 	return slot0.New(1, 0, 0, 1)
 end
 
-slot5.green = function ()
+function slot5.green()
 	return slot0.New(0, 1, 0, 1)
 end
 
-slot5.blue = function ()
+function slot5.blue()
 	return slot0.New(0, 0, 1, 1)
 end
 
-slot5.white = function ()
+function slot5.white()
 	return slot0.New(1, 1, 1, 1)
 end
 
-slot5.black = function ()
+function slot5.black()
 	return slot0.New(0, 0, 0, 1)
 end
 
-slot5.yellow = function ()
+function slot5.yellow()
 	return slot0.New(1, 0.9215686, 0.01568628, 1)
 end
 
-slot5.cyan = function ()
+function slot5.cyan()
 	return slot0.New(0, 1, 1, 1)
 end
 
-slot5.magenta = function ()
+function slot5.magenta()
 	return slot0.New(1, 0, 1, 1)
 end
 
-slot5.gray = function ()
+function slot5.gray()
 	return slot0.New(0.5, 0.5, 0.5, 1)
 end
 
-slot5.clear = function ()
+function slot5.clear()
 	return slot0.New(0, 0, 0, 0)
 end
 
-slot5.gamma = function (slot0)
+function slot5.gamma(slot0)
 	return slot0.New(slot1.LinearToGammaSpace(slot0.r), slot1.LinearToGammaSpace(slot0.g), slot1.LinearToGammaSpace(slot0.b), slot0.a)
 end
 
-slot5.linear = function (slot0)
+function slot5.linear(slot0)
 	return slot0.New(slot1.GammaToLinearSpace(slot0.r), slot1.GammaToLinearSpace(slot0.g), slot1.GammaToLinearSpace(slot0.b), slot0.a)
 end
 
-slot5.maxColorComponent = function (slot0)
+function slot5.maxColorComponent(slot0)
 	return slot0.Max(slot0.Max(slot0.r, slot0.g), slot0.b)
 end
 
@@ -149,7 +149,7 @@ slot5.grayscale = ({
 		slot4.b = 0
 		slot10 = slot2 * (1 - slot1)
 		slot11 = slot2 * (1 - slot1 * (slot0 * 6 - slot1.Floor(slot7)))
-		slot12 = slot2 * (1 - slot1 * (1 - slot0 * 6 - slot1.Floor(slot7)))
+		slot12 = slot2 * (1 - slot1 * (1 - (slot0 * 6 - slot1.Floor(slot7))))
 
 		if slot1.Floor(slot7) + 1 == 0 then
 			slot4.r = slot6

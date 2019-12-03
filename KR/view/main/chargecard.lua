@@ -1,6 +1,6 @@
 slot0 = class("ChargeCard")
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.go = slot1
 	slot0.tr = tf(slot1)
 	slot0.icon = slot0.tr:Find("item_icon")
@@ -38,7 +38,7 @@ slot0.Ctor = function (slot0, slot1)
 	setActive(slot0.countDown, false)
 end
 
-slot0.update = function (slot0, slot1, slot2, slot3)
+function slot0.update(slot0, slot1, slot2, slot3)
 	slot0.goods = slot1
 
 	setActive(slot0.desc, true)
@@ -58,7 +58,7 @@ slot0.update = function (slot0, slot1, slot2, slot3)
 	slot0:destoryTimer()
 end
 
-slot0.updateCharge = function (slot0, slot1, slot2, slot3)
+function slot0.updateCharge(slot0, slot1, slot2, slot3)
 	setActive(slot0.tag, true)
 	setActive(slot0.mask, false)
 	setActive(slot0.maskState, false)
@@ -128,7 +128,7 @@ slot0.updateCharge = function (slot0, slot1, slot2, slot3)
 	setButtonEnabled(slot0.tr, not isActive(slot0.mask))
 end
 
-slot0.updateGemItem = function (slot0, slot1, slot2)
+function slot0.updateGemItem(slot0, slot1, slot2)
 	setActive(slot0.mask, false)
 	setActive(slot0.maskState, false)
 	setText(slot0.limitText, "")
@@ -184,7 +184,7 @@ slot0.updateGemItem = function (slot0, slot1, slot2)
 	setButtonEnabled(slot0.tr, not isActive(slot0.mask))
 end
 
-slot0.updateImport = function (slot0, slot1, slot2)
+function slot0.updateImport(slot0, slot1, slot2)
 	setActive(slot0.important, true)
 
 	slot3 = {}
@@ -211,7 +211,7 @@ slot0.updateImport = function (slot0, slot1, slot2)
 	setText(slot0.importantTip, string.gsub(slot2, "$1", #slot3))
 end
 
-slot0.updateCountdown = function (slot0, slot1)
+function slot0.updateCountdown(slot0, slot1)
 	slot2 = false
 	slot3 = pg.TimeMgr:GetInstance()
 
@@ -247,7 +247,7 @@ slot0.updateCountdown = function (slot0, slot1)
 	end
 end
 
-slot0.destoryTimer = function (slot0)
+function slot0.destoryTimer(slot0)
 	if slot0.updateTimer then
 		slot0.updateTimer:Stop()
 

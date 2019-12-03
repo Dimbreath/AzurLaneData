@@ -1,6 +1,6 @@
 slot0 = class("SetShipsFlagCommand", pm.SimpleCommand)
 
-slot0.execute = function (slot0, slot1)
+function slot0.execute(slot0, slot1)
 	slot0.shipsById = slot1:getBody().shipsById
 	slot0.flags = slot1.getBody().flags or {}
 	slot3 = slot2.blackBlockShipIds or {}
@@ -112,19 +112,19 @@ slot0.execute = function (slot0, slot1)
 	})
 end
 
-slot0.setShipBlackBlock = function (slot0, slot1)
+function slot0.setShipBlackBlock(slot0, slot1)
 	if slot0.shipsById[slot1] then
 		slot2.blackBlock = true
 	end
 end
 
-slot0.setShipFlag = function (slot0, slot1, slot2, slot3)
+function slot0.setShipFlag(slot0, slot1, slot2, slot3)
 	if slot0.shipsById[slot1] then
 		slot4[slot2] = slot3
 	end
 end
 
-slot0.clearShipAllFlag = function (slot0, slot1)
+function slot0.clearShipAllFlag(slot0, slot1)
 	if slot0.shipsById[slot1] then
 		slot2.inFleet = nil
 		slot2.inChapter = nil

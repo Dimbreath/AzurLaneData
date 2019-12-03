@@ -4,7 +4,7 @@ slot0.FETCH_FRIEND_MSG = "ChatRoomMediator:FETCH_FRIEND_MSG"
 slot0.CLEAR_UNREADCOUNT = "ChatRoomMediator:CLEAR_UNREADCOUNT"
 slot0.OPEN_EMOJI = "ChatRoomMediator:OPEN_EMOJI"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.viewComponent:setPlayer(slot2)
 	slot0.viewComponent:setFriendVO(slot3)
 
@@ -40,14 +40,14 @@ slot0.register = function (slot0)
 	slot0.viewComponent:setCacheMsgs(slot0.friendProxy:getAllCacheMsg())
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		FriendProxy.FRIEND_NEW_MSG,
 		FriendProxy.FRIEND_UPDATED
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == FriendProxy.FRIEND_NEW_MSG then

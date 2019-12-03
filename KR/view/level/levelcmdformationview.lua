@@ -1,21 +1,21 @@
 slot0 = class("LevelCMDFormationView", import("..base.BaseSubView"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "LevelCommanderView"
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0:InitUI()
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	slot0.onConfirm = nil
 	slot0.onCancel = nil
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTF)
 end
 
-slot0.InitUI = function (slot0)
+function slot0.InitUI(slot0)
 	slot0.descPanel = slot0:findTF("desc")
 	slot0.descFrameTF = slot0:findTF("desc/frame")
 	slot0.descPos1 = slot0:findTF("commander1/frame/info", slot0.descFrameTF)
@@ -60,32 +60,32 @@ slot0.InitUI = function (slot0)
 	end, SFX_PANEL)
 end
 
-slot0.hidePrefabButtons = function (slot0)
+function slot0.hidePrefabButtons(slot0)
 	setActive(slot0.restAllBtn, false)
 	setActive(slot0.quickBtn, false)
 end
 
-slot0.update = function (slot0, slot1, slot2, slot3)
+function slot0.update(slot0, slot1, slot2, slot3)
 	slot0.callback = slot3
 
 	slot0:updateFleet(slot1)
 	slot0:updatePrefabs(slot2)
 end
 
-slot0.updateFleet = function (slot0, slot1)
+function slot0.updateFleet(slot0, slot1)
 	slot0.fleet = slot1
 
 	slot0:updateDesc()
 	slot0:updateRecordFleet()
 end
 
-slot0.updatePrefabs = function (slot0, slot1)
+function slot0.updatePrefabs(slot0, slot1)
 	slot0.prefabFleets = slot1
 
 	slot0:updateRecordPanel()
 end
 
-slot0.updateRecordFleet = function (slot0)
+function slot0.updateRecordFleet(slot0)
 	slot1 = slot0.fleet:getCommanders()
 
 	for slot5, slot6 in ipairs(slot0.recordCommanders) do
@@ -94,7 +94,7 @@ slot0.updateRecordFleet = function (slot0)
 	end
 end
 
-slot0.updateRecordPanel = function (slot0)
+function slot0.updateRecordPanel(slot0)
 	slot1 = slot0.fleet:getCommanders()
 
 	slot0.recordList:make(function (slot0, slot1, slot2)
@@ -105,7 +105,7 @@ slot0.updateRecordPanel = function (slot0)
 	slot0.recordList:align(#slot0.prefabFleets)
 end
 
-slot0.UpdatePrefabFleet = function (slot0, slot1, slot2, slot3)
+function slot0.UpdatePrefabFleet(slot0, slot1, slot2, slot3)
 	onInputEndEdit(slot0, slot4, function ()
 		slot0 = getInputText(getInputText)
 
@@ -150,23 +150,23 @@ slot0.UpdatePrefabFleet = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-slot0.playAnim = function (slot0, slot1, slot2)
+function slot0.playAnim(slot0, slot1, slot2)
 	slot0.animtion:Play(slot1)
 end
 
-slot0.open = function (slot0)
+function slot0.open(slot0)
 	slot0:playAnim("cmdopen", callback)
 	setActive(slot0._go, true)
 	setParent(slot0._go, pg.UIMgr.GetInstance().OverlayMain)
 	slot0._tf:SetAsLastSibling()
 end
 
-slot0.close = function (slot0)
+function slot0.close(slot0)
 	slot0:playAnim("cmdclose", callback)
 	slot0:Destroy()
 end
 
-slot0.updateDesc = function (slot0)
+function slot0.updateDesc(slot0)
 	slot1 = slot0.fleet:getCommanders()
 
 	for slot5 = 1, CommanderConst.MAX_FORMATION_POS, 1 do
@@ -177,7 +177,7 @@ slot0.updateDesc = function (slot0)
 	slot0:updateAdditions()
 end
 
-slot0.updateAdditions = function (slot0)
+function slot0.updateAdditions(slot0)
 	slot3, slot4 = slot0.fleet.getCommandersAddition(slot1)
 
 	slot0.abilitysTF:make(function (slot0, slot1, slot2)
@@ -207,7 +207,7 @@ slot0.updateAdditions = function (slot0)
 	setActive(slot0.talentsArr, #_.values(slot0.fleet.getCommandersTalentDesc(slot1)) > 4)
 end
 
-slot0.updateSkillTF = function (slot0, slot1, slot2)
+function slot0.updateSkillTF(slot0, slot1, slot2)
 	setActive(slot2, slot1)
 
 	if slot1 then
@@ -216,7 +216,7 @@ slot0.updateSkillTF = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.updateCommander = function (slot0, slot1, slot2, slot3)
+function slot0.updateCommander(slot0, slot1, slot2, slot3)
 	slot4 = slot1:Find("add")
 	slot5 = slot1:Find("info")
 
@@ -252,21 +252,21 @@ slot0.updateCommander = function (slot0, slot1, slot2, slot3)
 	setActive(slot5, slot3)
 end
 
-slot0.OpenRecordPanel = function (slot0)
+function slot0.OpenRecordPanel(slot0)
 	setActive(slot0.descFrameTF, false)
 	setActive(slot0.recordPanel, true)
 end
 
-slot0.CloseRecordPanel = function (slot0)
+function slot0.CloseRecordPanel(slot0)
 	setActive(slot0.descFrameTF, true)
 	setActive(slot0.recordPanel, false)
 end
 
-slot0.enable = function (slot0, slot1)
+function slot0.enable(slot0, slot1)
 	setActive(slot0._go, slot1)
 end
 
-slot0.clear = function (slot0)
+function slot0.clear(slot0)
 	setActive(slot0._go, false)
 	setParent(slot0._go, slot0.parent.topPanel)
 end

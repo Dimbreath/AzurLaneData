@@ -1,11 +1,11 @@
 slot0 = class("EscortShop", import(".BaseVO"))
 
-slot0.Ctor = function (slot0)
+function slot0.Ctor(slot0)
 	slot0.goods = {}
 	slot0.type = ShopArgs.ShopEscort
 end
 
-slot0.update = function (slot0, slot1, slot2)
+function slot0.update(slot0, slot1, slot2)
 	slot0.id = slot1
 	slot0.configId = slot0.id
 	slot3 = {}
@@ -26,7 +26,7 @@ slot0.update = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.isOpen = function (slot0)
+function slot0.isOpen(slot0)
 	slot1 = false
 
 	if slot0:bindConfigTable()[slot0.id] and TimeMgr:STimeDescS(pg.TimeMgr.GetInstance().GetServerTime(slot3), "*t").month == slot0.id then
@@ -34,7 +34,7 @@ slot0.isOpen = function (slot0)
 	end
 end
 
-slot0.getRestDays = function (slot0)
+function slot0.getRestDays(slot0)
 	slot1 = 0
 
 	if slot0:bindConfigTable()[slot0.id] then
@@ -44,7 +44,7 @@ slot0.getRestDays = function (slot0)
 	return math.max(slot1, 1)
 end
 
-slot0.getSortGoods = function (slot0)
+function slot0.getSortGoods(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.goods) do
@@ -66,15 +66,15 @@ slot0.getSortGoods = function (slot0)
 	return slot1
 end
 
-slot0.bindConfigTable = function (slot0)
+function slot0.bindConfigTable(slot0)
 	return pg.escort_shop_template
 end
 
-slot0.getGoodsCfg = function (slot0, slot1)
+function slot0.getGoodsCfg(slot0, slot1)
 	return pg.activity_shop_template[slot1]
 end
 
-slot0.getGoodsById = function (slot0, slot1)
+function slot0.getGoodsById(slot0, slot1)
 	return slot0.goods[slot1]
 end
 

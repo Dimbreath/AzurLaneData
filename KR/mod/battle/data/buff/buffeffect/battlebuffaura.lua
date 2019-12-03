@@ -4,11 +4,11 @@ ys.Battle.BattleBuffAura = slot1
 slot1.__name = "BattleBuffAura"
 slot2 = ys.Battle.BattleConst
 
-slot1.Ctor = function (slot0, slot1)
+function slot1.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 end
 
-slot1.SetArgs = function (slot0, slot1, slot2)
+function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._level = slot2:GetLv()
 	slot0._caster = slot2:GetCaster()
 	slot0._auraBuffID = slot0._tempData.arg_list.buff_id
@@ -49,7 +49,7 @@ slot1.SetArgs = function (slot0, slot1, slot2)
 	end, slot4)
 end
 
-slot1.Clear = function (slot0)
+function slot1.Clear(slot0)
 	slot0._aura:SetActiveFlag(false)
 
 	slot0._aura = nil

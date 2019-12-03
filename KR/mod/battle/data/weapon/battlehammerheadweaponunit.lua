@@ -4,11 +4,11 @@ slot2 = ys.Battle.BattleConst
 ys.Battle.BattleHammerHeadWeaponUnit = class("BattleHammerHeadWeaponUnit", ys.Battle.BattleWeaponUnit)
 ys.Battle.BattleHammerHeadWeaponUnit.__name = "BattleHammerHeadWeaponUnit"
 
-ys.Battle.BattleHammerHeadWeaponUnit.Ctor = function (slot0)
+function ys.Battle.BattleHammerHeadWeaponUnit.Ctor(slot0)
 	slot0.super.Ctor(slot0)
 end
 
-ys.Battle.BattleHammerHeadWeaponUnit.DoAttack = function (slot0, slot1)
+function ys.Battle.BattleHammerHeadWeaponUnit.DoAttack(slot0, slot1)
 	if slot0._tmpData.bullet_ID[1] then
 		if slot0.GetBulletTmpDataFromID(slot0._tmpData.bullet_ID[1]).type == slot1.BulletType.DIRECT or slot2 == slot1.BulletType.ANTI_AIR or slot2 == slot1.BulletType.ANTI_SEA then
 			slot3 = slot0:Spawn(slot0._tmpData.bullet_ID[1], slot1)

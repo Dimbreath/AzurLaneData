@@ -1,6 +1,6 @@
 slot0 = class("CollectionMediator", import("..base.ContextMediator"))
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.collectionProxy = getProxy(CollectionProxy)
 
 	slot0.viewComponent:setShipGroups(slot0.collectionProxy:getGroups())
@@ -62,7 +62,7 @@ slot0.register = function (slot0)
 	slot0.viewComponent:updateCollectNotices(slot0.collectionProxy:hasFinish())
 end
 
-slot0.GoLevelScene = function (slot0, slot1)
+function slot0.GoLevelScene(slot0, slot1)
 	if getProxy(ChapterProxy):getChapterById(slot1) then
 		slot4 = {
 			mapIdx = slot3:getConfig("map")
@@ -78,7 +78,7 @@ slot0.GoLevelScene = function (slot0, slot1)
 	end
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		CollectionProxy.AWARDS_UPDATE,
 		GAME.COLLECT_GET_AWARD_DONE,
@@ -88,7 +88,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == CollectionProxy.AWARDS_UPDATE then

@@ -3,7 +3,7 @@ slot0.TypeCard = 1
 slot0.TypeTrans = 2
 slot1 = pg.ship_data_group
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.go = slot1
 	slot0.tr = slot1.transform
 	slot0.btn = GetOrAddComponent(slot1, "Button")
@@ -26,7 +26,7 @@ slot0.Ctor = function (slot0, slot1)
 	slot0.imageUnknown = findTF(slot0.tr, "unknown"):GetComponent(typeof(Image))
 end
 
-slot0.update = function (slot0, slot1, slot2, slot3, slot4, slot5)
+function slot0.update(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = ShipGroup.getState(slot5, slot2, slot3)
 
 	if slot0.code ~= slot1 or slot0.shipGroup ~= slot2 or slot0.showTrans ~= slot3 or slot0.propose ~= slot4 or slot0.state ~= slot6 then
@@ -43,7 +43,7 @@ slot0.update = function (slot0, slot1, slot2, slot3, slot4, slot5)
 	TweenItemAlphaAndWhite(slot0.go)
 end
 
-slot0.flush = function (slot0)
+function slot0.flush(slot0)
 	slot1 = slot0.shipGroup
 
 	setActive(slot0.heart, slot0.state == ShipGroup.STATE_UNLOCK)
@@ -73,7 +73,7 @@ slot0.flush = function (slot0)
 	setActive(slot0.ringTF, slot0.propose)
 end
 
-slot0.loadImage = function (slot0, slot1)
+function slot0.loadImage(slot0, slot1)
 	slot0.imageBg.sprite = GetSpriteFromAtlas("bg/star_level_card_" .. ((slot1:isBluePrintGroup() and "0") or ""), "")
 	slot0.iconShip.sprite = GetSpriteFromAtlas("shipYardIcon/unknown", "")
 
@@ -89,7 +89,7 @@ slot0.loadImage = function (slot0, slot1)
 	setShipCardFrame(slot0.shipFrameImg, ((slot1.isBluePrintGroup() and "0") or "") .. shipRarity2bgPrint(slot1:getRarity(slot0.showTrans)))
 end
 
-slot0.clear = function (slot0)
+function slot0.clear(slot0)
 	slot0.labelName:clear()
 
 	slot0.shipGroup = nil

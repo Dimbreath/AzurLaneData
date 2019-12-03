@@ -5,7 +5,7 @@ slot0.MOD_SHIP = "ShipModMediator:MOD_SHIP"
 slot0.ON_SKILL = "ShipModMediator:ON_SKILL"
 slot0.LOADEND = "ShipModMediator:LOADEND"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot1 = getProxy(BayProxy)
 
 	slot0.viewComponent:setShipVOs(slot2)
@@ -65,7 +65,7 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.autoSelectShip = function (slot0)
+function slot0.autoSelectShip(slot0)
 	slot1 = slot0.viewComponent.shipVO
 	slot2 = slot0.contextData.materialShipIds or {}
 	slot3 = getProxy(BayProxy):fileterShips(ShipStatus.FILTER_SHIPS_FLAGS_2)
@@ -130,14 +130,14 @@ slot0.autoSelectShip = function (slot0)
 	end)
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.MOD_SHIP_DONE,
 		ShipMainMediator.NEXTSHIP
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.MOD_SHIP_DONE then

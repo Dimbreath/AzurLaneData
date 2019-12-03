@@ -2,7 +2,7 @@ slot0 = class("Friend", import(".Player"))
 slot0.ONLINE = 1
 slot0.OFFLINE = 0
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 
 	slot0.shipCount = slot1.ship_count or 0
@@ -14,19 +14,19 @@ slot0.Ctor = function (slot0, slot1)
 	slot0.unreadCount = 0
 end
 
-slot0.increaseUnreadCount = function (slot0)
+function slot0.increaseUnreadCount(slot0)
 	slot0.unreadCount = slot0.unreadCount + 1
 end
 
-slot0.resetUnreadCount = function (slot0)
+function slot0.resetUnreadCount(slot0)
 	slot0.unreadCount = 0
 end
 
-slot0.isOnline = function (slot0)
+function slot0.isOnline(slot0)
 	return slot0.online == slot0.ONLINE
 end
 
-slot0.hasUnreadMsg = function (slot0)
+function slot0.hasUnreadMsg(slot0)
 	return slot0.unreadCount > 0
 end
 

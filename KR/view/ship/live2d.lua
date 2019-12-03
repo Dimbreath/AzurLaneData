@@ -3,7 +3,7 @@ slot0.STATE_LOADING = 0
 slot0.STATE_INITED = 1
 slot0.STATE_DISPOSE = 2
 
-slot0.live2dData = function (slot0)
+function slot0.live2dData(slot0)
 	{
 		SetData = function (slot0, slot1)
 			slot0.ship = slot1.ship
@@ -85,7 +85,7 @@ function slot6(slot0, slot1)
 	slot0.liveCom:SetReactMotions(slot0.idleActions)
 	slot0.liveCom:SetAction(slot2)
 
-	slot0.liveCom.FinishAction = function (slot0)
+	function slot0.liveCom.FinishAction(slot0)
 		slot0.live2dAction = nil
 
 		if slot0.finishActionCB then
@@ -109,7 +109,7 @@ function slot6(slot0, slot1)
 	slot0.state = slot4.STATE_INITED
 end
 
-slot0.Ctor = function (slot0, slot1, slot2)
+function slot0.Ctor(slot0, slot1, slot2)
 	slot0.state = slot0.STATE_LOADING
 	slot0.live2dData = slot1
 	slot1 = pg.AssistantInfo
@@ -130,11 +130,11 @@ slot0.Ctor = function (slot0, slot1, slot2)
 	end)
 end
 
-slot0.GetTouchPart = function (slot0)
+function slot0.GetTouchPart(slot0)
 	return slot0.liveCom:GetTouchPart()
 end
 
-slot0.TriggerAction = function (slot0, slot1, slot2, slot3)
+function slot0.TriggerAction(slot0, slot1, slot2, slot3)
 	if slot2 then
 		slot0.finishActionCB = slot2
 	else
@@ -144,7 +144,7 @@ slot0.TriggerAction = function (slot0, slot1, slot2, slot3)
 	slot0(slot0, slot1, slot3)
 end
 
-slot0.Dispose = function (slot0)
+function slot0.Dispose(slot0)
 	if slot0.state == slot0.STATE_INITED then
 		Destroy(slot0._go)
 

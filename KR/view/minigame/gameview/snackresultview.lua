@@ -6,24 +6,24 @@ slot0.EXTable = {
 	5
 }
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "SnackResult"
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0:initUI()
 	slot0:updateView()
 	slot0:Show()
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	slot0.lockBackPress = false
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
-slot0.initUI = function (slot0)
+function slot0.initUI(slot0)
 	slot1 = slot0:findTF("Content")
 	slot0.timeText = slot0:findTF("Tip/Time/TimeText", slot1)
 	slot0.scoreText = slot0:findTF("Tip/Score/ScoreText", slot1)
@@ -47,7 +47,7 @@ slot0.initUI = function (slot0)
 	end)
 end
 
-slot0.updateView = function (slot0)
+function slot0.updateView(slot0)
 	slot1 = slot0:calculateEXValue()
 
 	if slot0.contextData.countTime > 0 then
@@ -80,7 +80,7 @@ slot0.updateView = function (slot0)
 	slot0.contextData.score = slot0.contextData.score + slot1
 end
 
-slot0.calculateEXValue = function (slot0)
+function slot0.calculateEXValue(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in ipairs(slot0.contextData.selectedIDList) do
@@ -92,7 +92,7 @@ slot0.calculateEXValue = function (slot0)
 	return slot0.contextData.correctNumToEXValue[slot1]
 end
 
-slot0.calculateLevel = function (slot0)
+function slot0.calculateLevel(slot0)
 	if slot0.contextData.scoreLevel[4] <= slot0.contextData.score then
 		return 1
 	elseif slot0.contextData.scoreLevel[3] <= slot0.contextData.score then

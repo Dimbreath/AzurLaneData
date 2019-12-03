@@ -2,7 +2,7 @@ slot0 = class("SelectTechnologyMediator", import("..base.ContextMediator"))
 slot0.ON_BLUEPRINT = "SelectTechnologyMediator:ON_BLUEPRINT"
 slot0.ON_TECHNOLOGY = "SelectTechnologyMediator:ON_TECHNOLOGY"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0:bind(slot0.ON_TECHNOLOGY, function ()
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.TECHNOLOGY)
 	end)
@@ -18,7 +18,7 @@ slot0.register = function (slot0)
 	slot0.viewComponent:notifyFleet(getProxy(TechnologyNationProxy):getShowRedPointTag())
 end
 
-slot0.onTechnologyNotify = function ()
+function slot0.onTechnologyNotify()
 	slot2 = true
 
 	if getProxy(TechnologyProxy).getActiveTechnology(slot0) then
@@ -28,7 +28,7 @@ slot0.onTechnologyNotify = function ()
 	return slot2
 end
 
-slot0.onBlueprintNotify = function ()
+function slot0.onBlueprintNotify()
 	slot0 = getProxy(TechnologyProxy)
 	slot1 = slot0:getBluePrints()
 
@@ -51,13 +51,13 @@ slot0.onBlueprintNotify = function ()
 	return false
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		PlayerProxy.UPDATED
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == PlayerProxy.UPDATED then

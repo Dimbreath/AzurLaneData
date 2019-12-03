@@ -29,7 +29,7 @@ slot0.FETCH_INSTARGRAM = "fetch instagram"
 slot0.MUSIC_GAME_OPERATOR = "get music game final prize"
 slot0.SHOW_NEXT_ACTIVITY = "show next activity"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.UIAvalibleCallbacks = {}
 
 	slot0:bind(slot0.OPEN_VOTEBOOK, function (slot0)
@@ -246,7 +246,7 @@ slot0.register = function (slot0)
 	slot0.viewComponent:setFlagShip(getProxy(BayProxy).getShipById(slot5, getProxy(PlayerProxy).getRawData(slot3).character))
 end
 
-slot0.onUIAvalible = function (slot0)
+function slot0.onUIAvalible(slot0)
 	slot0.UIAvalible = true
 
 	_.each(slot0.UIAvalibleCallbacks, function (slot0)
@@ -254,7 +254,7 @@ slot0.onUIAvalible = function (slot0)
 	end)
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		ActivityProxy.ACTIVITY_ADDED,
 		ActivityProxy.ACTIVITY_UPDATED,
@@ -274,7 +274,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == ActivityProxy.ACTIVITY_ADDED or slot2 == ActivityProxy.ACTIVITY_UPDATED then
@@ -347,7 +347,7 @@ slot0.handleNotification = function (slot0, slot1)
 	end
 end
 
-slot0.showNextActivity = function (slot0)
+function slot0.showNextActivity(slot0)
 	if not getProxy(ActivityProxy) then
 		return
 	end

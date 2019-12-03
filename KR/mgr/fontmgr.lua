@@ -2,7 +2,7 @@ pg = pg or {}
 pg.FontMgr = singletonClass("FontMgr")
 slot1 = pg.FontMgr
 
-pg.FontMgr.Init = function (slot0, slot1)
+function pg.FontMgr.Init(slot0, slot1)
 	print("initializing font manager...")
 
 	slot0.fonts = {}

@@ -4,15 +4,15 @@ ys.Battle.BattleBuffAddAttr = slot1
 slot1.__name = "BattleBuffAddAttr"
 slot1.FX_TYPE = ys.Battle.BattleBuffEffect.FX_TYPE_MOD_ATTR
 
-slot1.Ctor = function (slot0, slot1)
+function slot1.Ctor(slot0, slot1)
 	slot0.Battle.BattleBuffAddAttr.super.Ctor(slot0, slot1)
 end
 
-slot1.GetEffectType = function (slot0)
+function slot1.GetEffectType(slot0)
 	return slot0.FX_TYPE
 end
 
-slot1.SetArgs = function (slot0, slot1, slot2)
+function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._group = slot0._tempData.arg_list.group or slot2:GetID()
 
 	if slot0._tempData.arg_list.comboDamage then
@@ -25,27 +25,27 @@ slot1.SetArgs = function (slot0, slot1, slot2)
 	slot0._numberBase = slot0._number
 end
 
-slot1.onAttach = function (slot0, slot1, slot2)
+function slot1.onAttach(slot0, slot1, slot2)
 	slot0:UpdateAttr(slot1)
 end
 
-slot1.onStack = function (slot0, slot1, slot2)
+function slot1.onStack(slot0, slot1, slot2)
 	slot0._number = slot0._numberBase * slot2._stack
 
 	slot0:UpdateAttr(slot1)
 end
 
-slot1.onRemove = function (slot0, slot1, slot2)
+function slot1.onRemove(slot0, slot1, slot2)
 	slot0._number = 0
 
 	slot0:UpdateAttr(slot1)
 end
 
-slot1.IsSameAttr = function (slot0, slot1)
+function slot1.IsSameAttr(slot0, slot1)
 	return slot0._attr == slot1
 end
 
-slot1.UpdateAttr = function (slot0, slot1)
+function slot1.UpdateAttr(slot0, slot1)
 	if slot0._attr == "injureRatio" then
 		slot0:UpdateAttrMul(slot1)
 	else
@@ -53,7 +53,7 @@ slot1.UpdateAttr = function (slot0, slot1)
 	end
 end
 
-slot1.CheckWeapon = function (slot0)
+function slot1.CheckWeapon(slot0)
 	if slot0._attr == "loadSpeed" then
 		return true
 	else
@@ -61,7 +61,7 @@ slot1.CheckWeapon = function (slot0)
 	end
 end
 
-slot1.UpdateAttrMul = function (slot0, slot1)
+function slot1.UpdateAttrMul(slot0, slot1)
 	slot2 = 1
 	slot3 = 1
 	slot4 = {}
@@ -97,7 +97,7 @@ slot1.UpdateAttrMul = function (slot0, slot1)
 	end
 end
 
-slot1.UpdateAttrAdd = function (slot0, slot1)
+function slot1.UpdateAttrAdd(slot0, slot1)
 	slot2, slot3 = slot1:GetHP()
 	slot5 = 0
 	slot6 = 0

@@ -6,7 +6,7 @@ slot0.ON_SELECT_ELITE_COMMANDER = "ChallengeMainMediator:ON_SELECT_ELITE_COMMAND
 slot0.ON_OPEN_RANK = "ChallengeMainMediator:ON_OPEN_RANK"
 slot0.COMMANDER_FORMATION_OP = "ChallengeMainMediator:COMMANDER_FORMATION_OP"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot3 = getProxy(ChallengeProxy)
 
 	slot0:bind(slot0.ON_OPEN_RANK, function ()
@@ -198,7 +198,7 @@ slot0.register = function (slot0)
 	slot0.viewComponent:setCommanderPrefabs(getProxy(CommanderProxy):getPrefabFleet())
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.CHALLENGE2_INITIAL_DONE,
 		GAME.CHALLENGE2_RESET_DONE,
@@ -208,7 +208,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 	slot4 = getProxy(ChallengeProxy)
 
@@ -267,7 +267,7 @@ slot0.handleNotification = function (slot0, slot1)
 	end
 end
 
-slot0.getDockCallbackFuncs = function (slot0, slot1, slot2, slot3, slot4)
+function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3, slot4)
 	slot5 = getProxy(BayProxy)
 	slot6 = getProxy(FleetProxy)
 	slot10 = getProxy(ActivityProxy).getActivityByType(slot7, ActivityConst.ACTIVITY_TYPE_CHALLENGE)

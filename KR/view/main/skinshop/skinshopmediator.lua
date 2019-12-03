@@ -4,7 +4,7 @@ slot0.GO_SHOPS_LAYER = "SkinShopMediator:GO_SHOPS_LAYER"
 slot0.OPEN_SCENE = "SkinShopMediator:OPEN_SCENE"
 slot0.OPEN_ACTIVITY = "SkinShopMediator:OPEN_ACTIVITY"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0:bind(slot0.OPEN_ACTIVITY, function (slot0, slot1)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
 			id = slot1
@@ -41,14 +41,14 @@ slot0.register = function (slot0)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.SHOPPING_DONE,
 		PlayerProxy.UPDATED
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.SHOPPING_DONE then

@@ -35,7 +35,7 @@ function slot12(slot0, slot1)
 		end
 	end
 
-	slot0.__index = function (slot0, slot1)
+	function slot0.__index(slot0, slot1)
 		if slot0(slot1, slot1) ~= nil then
 			return slot2
 		end

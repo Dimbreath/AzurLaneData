@@ -3,11 +3,11 @@ slot1 = pg.effect_offset
 ys.Battle.BattleBuffShieldWall = class("BattleBuffShieldWall", ys.Battle.BattleBuffEffect)
 ys.Battle.BattleBuffShieldWall.__name = "BattleBuffShieldWall"
 
-ys.Battle.BattleBuffShieldWall.Ctor = function (slot0, slot1)
+function ys.Battle.BattleBuffShieldWall.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 end
 
-ys.Battle.BattleBuffShieldWall.SetArgs = function (slot0, slot1, slot2)
+function ys.Battle.BattleBuffShieldWall.SetArgs(slot0, slot1, slot2)
 	slot0._dir = slot1:GetDirection()
 	slot0._count = slot0._tempData.arg_list.count
 	slot0._bulletType = slot0._tempData.arg_list.bulletType or slot0.Battle.BattleConst.BulletType.CANNON
@@ -51,7 +51,7 @@ ys.Battle.BattleBuffShieldWall.SetArgs = function (slot0, slot1, slot2)
 	end
 
 	if slot9 then
-		slot0._centerPosFun = function (slot0)
+		function slot0._centerPosFun(slot0)
 			slot2 = slot0:centerPosFun()
 			slot2:Add(nil).x = slot2.Add(nil).x * slot2._dir
 
@@ -80,13 +80,13 @@ ys.Battle.BattleBuffShieldWall.SetArgs = function (slot0, slot1, slot2)
 	end
 end
 
-ys.Battle.BattleBuffShieldWall.onStack = function (slot0, slot1, slot2)
+function ys.Battle.BattleBuffShieldWall.onStack(slot0, slot1, slot2)
 	slot0._count = slot0._tempData.arg_list.count
 
 	slot0._unit:DispatchEvent(slot0.Event.New(slot0.Battle.BattleUnitEvent.ADD_EFFECT, slot0._evtData))
 end
 
-ys.Battle.BattleBuffShieldWall.onUpdate = function (slot0, slot1, slot2, slot3)
+function ys.Battle.BattleBuffShieldWall.onUpdate(slot0, slot1, slot2, slot3)
 	slot4 = slot1:GetPosition()
 	slot5 = slot1:GetTemplate().scale * 0.02
 
@@ -98,19 +98,19 @@ ys.Battle.BattleBuffShieldWall.onUpdate = function (slot0, slot1, slot2, slot3)
 	slot0._centerPos = slot4
 end
 
-ys.Battle.BattleBuffShieldWall.GetIFF = function (slot0)
+function ys.Battle.BattleBuffShieldWall.GetIFF(slot0)
 	return slot0._unit:GetIFF()
 end
 
-ys.Battle.BattleBuffShieldWall.GetPosition = function (slot0)
+function ys.Battle.BattleBuffShieldWall.GetPosition(slot0)
 	return slot0._centerPos
 end
 
-ys.Battle.BattleBuffShieldWall.IsWallActive = function (slot0)
+function ys.Battle.BattleBuffShieldWall.IsWallActive(slot0)
 	return slot0._count > 0
 end
 
-ys.Battle.BattleBuffShieldWall.DoWhenHit = function (slot0, slot1)
+function ys.Battle.BattleBuffShieldWall.DoWhenHit(slot0, slot1)
 	if slot0._doWhenHit == "intercept" then
 		slot1:Intercepted()
 		slot0.Battle.BattleDataProxy.GetInstance():RemoveBulletUnit(slot1:GetUniqueID())
@@ -123,7 +123,7 @@ ys.Battle.BattleBuffShieldWall.DoWhenHit = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattleBuffShieldWall.Deactive = function (slot0)
+function ys.Battle.BattleBuffShieldWall.Deactive(slot0)
 	if slot0._effectIndex then
 		slot0._unit:DispatchEvent(slot0.Event.New(slot0.Battle.BattleUnitEvent.DEACTIVE_EFFECT, {
 			index = slot0._effectIndex
@@ -133,7 +133,7 @@ ys.Battle.BattleBuffShieldWall.Deactive = function (slot0)
 	slot0._unit:TriggerBuff(slot0.Battle.BattleConst.BuffEffectType.ON_SHIELD_BROKEN, {})
 end
 
-ys.Battle.BattleBuffShieldWall.Clear = function (slot0)
+function ys.Battle.BattleBuffShieldWall.Clear(slot0)
 	if slot0._effectIndex then
 		slot0._unit:DispatchEvent(slot0.Event.New(slot0.Battle.BattleUnitEvent.CANCEL_EFFECT, {
 			index = slot0._effectIndex

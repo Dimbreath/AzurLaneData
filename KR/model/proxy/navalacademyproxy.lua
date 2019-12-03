@@ -9,7 +9,7 @@ slot0.START_LEARN_TACTICS = "NavalAcademyProxy:START_LEARN_TACTICS"
 slot0.CANCEL_LEARN_TACTICS = "NavalAcademyProxy:CANCEL_LEARN_TACTICS"
 slot0.SKILL_CLASS_POS_UPDATED = "NavalAcademyProxy:SKILL_CLASS_POS_UPDATED"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.students = {}
 	slot0.course = AcademyCourse.New()
 
@@ -51,19 +51,19 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.getSkillClassNum = function (slot0)
+function slot0.getSkillClassNum(slot0)
 	return slot0.skillClassNum
 end
 
 slot0.MAX_SKILL_CLASS_NUM = 3
 
-slot0.inCreaseKillClassNum = function (slot0)
+function slot0.inCreaseKillClassNum(slot0)
 	slot0.skillClassNum = math.min(slot0.skillClassNum + 1, slot0.MAX_SKILL_CLASS_NUM)
 
 	slot0:sendNotification(slot0.SKILL_CLASS_POS_UPDATED, slot0.skillClassNum)
 end
 
-slot0.notification = function (slot0)
+function slot0.notification(slot0)
 	if getProxy(PlayerProxy) and not slot1:getFlag("blockResourceUpgrade") and slot1:getData() and slot0:isResourceFieldUpgradeConditionSatisfy() then
 		slot0.facade:sendNotification(slot0.BUILDING_FINISH)
 
@@ -93,7 +93,7 @@ slot0.notification = function (slot0)
 	end
 end
 
-slot0.onRemove = function (slot0)
+function slot0.onRemove(slot0)
 	if slot0._mainUITimer then
 		pg.TimeMgr.GetInstance():RemoveTimer(slot0._mainUITimer)
 	end
@@ -101,11 +101,11 @@ slot0.onRemove = function (slot0)
 	slot0.super.onRemove(slot0)
 end
 
-slot0.getStudentById = function (slot0, slot1)
+function slot0.getStudentById(slot0, slot1)
 	return slot0.students[slot1]:clone()
 end
 
-slot0.getStudentIdByShipId = function (slot0, slot1)
+function slot0.getStudentIdByShipId(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.students) do
 		if slot6.shipId == slot1 then
 			return slot6.id
@@ -113,7 +113,7 @@ slot0.getStudentIdByShipId = function (slot0, slot1)
 	end
 end
 
-slot0.getStudentByShipId = function (slot0, slot1)
+function slot0.getStudentByShipId(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.students) do
 		if slot6.shipId == slot1 then
 			return slot6
@@ -121,51 +121,51 @@ slot0.getStudentByShipId = function (slot0, slot1)
 	end
 end
 
-slot0.setStudents = function (slot0, slot1)
+function slot0.setStudents(slot0, slot1)
 	slot0.students = slot1
 end
 
-slot0.getStudents = function (slot0)
+function slot0.getStudents(slot0)
 	return Clone(slot0.students)
 end
 
-slot0.addStudent = function (slot0, slot1)
+function slot0.addStudent(slot0, slot1)
 	slot0.students[slot1.id] = slot1
 
 	slot0:sendNotification(slot0.START_LEARN_TACTICS, Clone(slot1))
 end
 
-slot0.updateStudent = function (slot0, slot1)
+function slot0.updateStudent(slot0, slot1)
 	slot0.students[slot1.id] = slot1
 end
 
-slot0.deleteStudent = function (slot0, slot1)
+function slot0.deleteStudent(slot0, slot1)
 	slot0.students[slot1] = nil
 
 	slot0:sendNotification(slot0.CANCEL_LEARN_TACTICS, slot1)
 end
 
-slot0.GetOilVO = function (slot0)
+function slot0.GetOilVO(slot0)
 	return slot0._oilVO
 end
 
-slot0.GetGoldVO = function (slot0)
+function slot0.GetGoldVO(slot0)
 	return slot0._goldVO
 end
 
-slot0.GetClassVO = function (slot0)
+function slot0.GetClassVO(slot0)
 	return slot0._classVO
 end
 
-slot0.getCourse = function (slot0)
+function slot0.getCourse(slot0)
 	return Clone(slot0.course)
 end
 
-slot0.setCourse = function (slot0, slot1)
+function slot0.setCourse(slot0, slot1)
 	slot0.course = slot1
 end
 
-slot0.GetShipIDs = function (slot0)
+function slot0.GetShipIDs(slot0)
 	slot1 = {}
 
 	if slot0.course:inClass() then
@@ -175,14 +175,14 @@ slot0.GetShipIDs = function (slot0)
 	return slot1
 end
 
-slot0.StartUpGradeSuccess = function (slot0, slot1)
+function slot0.StartUpGradeSuccess(slot0, slot1)
 	slot1:SetUpgradeTimeStamp(pg.TimeMgr.GetInstance():GetServerTime() + slot1:bindConfigTable()[slot1:GetLevel()].time)
 	slot0.facade:sendNotification(slot0.RESOURCE_UPGRADE, {
 		resVO = slot1
 	})
 end
 
-slot0.UpgradeFinish = function (slot0)
+function slot0.UpgradeFinish(slot0)
 	if slot0._goldVO:GetDuration() and slot0._goldVO:GetDuration() <= 0 then
 		slot0._goldVO:SetLevel(slot0._goldVO:GetLevel() + 1)
 		slot0._goldVO:SetUpgradeTimeStamp(0)
@@ -202,14 +202,14 @@ slot0.UpgradeFinish = function (slot0)
 	end
 end
 
-slot0.isResourceFieldUpgradeConditionSatisfy = function (slot0)
+function slot0.isResourceFieldUpgradeConditionSatisfy(slot0)
 	if not slot0:GetOilVO():CanUpgrade(getProxy(PlayerProxy).getData(slot1).level, getProxy(PlayerProxy).getData(slot1).gold) and slot0:GetGoldVO():CanUpgrade(slot2.level, slot2.gold) then
 	end
 
 	return false
 end
 
-slot0.fillStudens = function (slot0, slot1)
+function slot0.fillStudens(slot0, slot1)
 	slot2 = pg.gameset.academy_random_ship_count.key_value
 	slot3 = {}
 

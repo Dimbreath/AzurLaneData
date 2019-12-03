@@ -2,7 +2,7 @@ pg = pg or {}
 pg.SystemGuideMgr = singletonClass("SystemGuideMgr")
 slot1 = nil
 
-pg.SystemGuideMgr.Init = function (slot0, slot1)
+function pg.SystemGuideMgr.Init(slot0, slot1)
 	slot0 = require("GameCfg.guide.newguide.SSG001")
 
 	slot1()
@@ -55,7 +55,7 @@ function slot4(slot0, slot1, slot2)
 	pg.GuideMgr.GetInstance():play(slot0, slot1, slot2)
 end
 
-pg.SystemGuideMgr.Play = function (slot0, slot1, slot2)
+function pg.SystemGuideMgr.Play(slot0, slot1, slot2)
 	if Application.isEditor and not ENABLE_GUIDE then
 		if slot2 then
 			slot2()
@@ -81,7 +81,7 @@ pg.SystemGuideMgr.Play = function (slot0, slot1, slot2)
 	slot3(slot4.id, slot6(slot1), slot2)
 end
 
-pg.SystemGuideMgr.PlayChapter = function (slot0, slot1)
+function pg.SystemGuideMgr.PlayChapter(slot0, slot1)
 	if slot1:getPlayType() == ChapterConst.TypeMainSub then
 		slot0:PlayByGuideId("NG003")
 	elseif slot1.id == 1160002 then
@@ -91,18 +91,18 @@ pg.SystemGuideMgr.PlayChapter = function (slot0, slot1)
 	end
 end
 
-pg.SystemGuideMgr.PlayByGuideId = function (slot0, slot1, slot2, slot3)
+function pg.SystemGuideMgr.PlayByGuideId(slot0, slot1, slot2, slot3)
 	slot0(slot1, slot2, slot3)
 end
 
-pg.SystemGuideMgr.FixGuide = function (slot0, slot1)
+function pg.SystemGuideMgr.FixGuide(slot0, slot1)
 	if not slot0("FixGuide") then
 		slot1("FixGuide")
 		slot1()
 	end
 end
 
-pg.SystemGuideMgr.PlayDailyLevel = function (slot0, slot1)
+function pg.SystemGuideMgr.PlayDailyLevel(slot0, slot1)
 	if not slot0("NG0015") then
 		pg.m02:sendNotification(GAME.STORY_UPDATE, {
 			storyId = "NG0015"
@@ -111,7 +111,7 @@ pg.SystemGuideMgr.PlayDailyLevel = function (slot0, slot1)
 	end
 end
 
-pg.SystemGuideMgr.PlayCommander = function (slot0)
+function pg.SystemGuideMgr.PlayCommander(slot0)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot2) do

@@ -4,7 +4,7 @@ slot0.KEY_NEWLY_ID = "server_notice.newly_id"
 slot0.KEY_STOP_REMIND = "server_notice.stop_remind"
 slot0.KEY_STOP_TIP = "server_notice.stop_tip"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.data = {}
 
 	slot0:on(11300, function (slot0)
@@ -18,7 +18,7 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.getServerNotices = function (slot0, slot1)
+function slot0.getServerNotices(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot0.data) do
@@ -30,7 +30,7 @@ slot0.getServerNotices = function (slot0, slot1)
 	return slot2
 end
 
-slot0.getStopRemind = function (slot0)
+function slot0.getStopRemind(slot0)
 	slot1 = false
 
 	if PlayerPrefs.HasKey(slot0.KEY_STOP_REMIND) then
@@ -45,7 +45,7 @@ slot0.getStopRemind = function (slot0)
 	return slot1
 end
 
-slot0.setStopRemind = function (slot0, slot1)
+function slot0.setStopRemind(slot0, slot1)
 	if slot1 then
 		PlayerPrefs.SetInt(slot0.KEY_NEWLY_ID, slot0:getUniqueCode())
 		PlayerPrefs.SetInt(slot0.KEY_STOP_REMIND, pg.TimeMgr.GetInstance():GetServerTime())
@@ -56,12 +56,12 @@ slot0.setStopRemind = function (slot0, slot1)
 	PlayerPrefs.Save()
 end
 
-slot0.setStopMainTip = function (slot0)
+function slot0.setStopMainTip(slot0)
 	PlayerPrefs.SetInt(slot0.KEY_STOP_TIP, slot0:getUniqueCode())
 	PlayerPrefs.Save()
 end
 
-slot0.isStopMainTip = function (slot0)
+function slot0.isStopMainTip(slot0)
 	if PlayerPrefs.HasKey(slot0.KEY_STOP_TIP) and PlayerPrefs.GetInt(slot0.KEY_STOP_TIP) == slot0:getUniqueCode() then
 		return true
 	end
@@ -69,7 +69,7 @@ slot0.isStopMainTip = function (slot0)
 	return false
 end
 
-slot0.getUniqueCode = function (slot0)
+function slot0.getUniqueCode(slot0)
 	return _.reduce(slot0.data, 0, function (slot0, slot1)
 		return slot0 + slot1:getUniqueCode()
 	end)
