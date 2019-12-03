@@ -1,6 +1,6 @@
 slot0 = class("VoteOrderBookPage", import(".TemplatePage.PtTemplatePage"))
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.super.OnInit(slot0)
 
 	slot0.honorBtn = slot0:findTF("honor_btn")
@@ -70,7 +70,7 @@ slot0.OnInit = function (slot0)
 	slot0:UpdateOrderBookBtn(getProxy(VoteProxy):GetOrderBook())
 end
 
-slot0.OnUpdateFlush = function (slot0)
+function slot0.OnUpdateFlush(slot0)
 	slot0.super.OnUpdateFlush(slot0)
 
 	slot1, slot2, slot3 = slot0.ptData:GetResProgress()
@@ -78,7 +78,7 @@ slot0.OnUpdateFlush = function (slot0)
 	setText(slot0.progress, ((slot3 >= 1 and setColorStr(slot1, "#1E55E3")) or slot1) .. "/" .. slot2)
 end
 
-slot0.UpdateOrderBookBtn = function (slot0, slot1)
+function slot0.UpdateOrderBookBtn(slot0, slot1)
 	if not slot0.isInit then
 		return
 	end
@@ -93,7 +93,7 @@ slot0.UpdateOrderBookBtn = function (slot0, slot1)
 	end
 end
 
-slot0.OnFirstFlush = function (slot0)
+function slot0.OnFirstFlush(slot0)
 	slot0.super.OnFirstFlush(slot0)
 	onButton(slot0, slot0.getBtn, function ()
 		if not getProxy(ActivityProxy):GetVoteActivity() or slot0:isEnd() then
@@ -112,7 +112,7 @@ slot0.OnFirstFlush = function (slot0)
 	end, SFX_PANEL)
 end
 
-slot0.AddOrderBookTimer = function (slot0, slot1)
+function slot0.AddOrderBookTimer(slot0, slot1)
 	slot0.timer = Timer.New(function ()
 		slot0.timerTxt.text = slot1:GetCDTime("#054DFE")
 	end, 1, -1)
@@ -121,7 +121,7 @@ slot0.AddOrderBookTimer = function (slot0, slot1)
 	slot0.timer.func()
 end
 
-slot0.RemoveOrderBookTimer = function (slot0)
+function slot0.RemoveOrderBookTimer(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -129,7 +129,7 @@ slot0.RemoveOrderBookTimer = function (slot0)
 	end
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	slot0.super.OnDestroy(slot0)
 	slot0:RemoveOrderBookTimer()
 end

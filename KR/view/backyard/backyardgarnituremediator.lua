@@ -7,7 +7,7 @@ slot0.REMOVE_PAPER = "BackYardGarnitureMediator:REMOVE_PAPER"
 slot0.SAVE_THEME = "BackYardGarnitureMediator:SAVE_THEME"
 slot0.DELETE_THEME = "BackYardGarnitureMediator:DELETE_THEME"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0:bind(slot0.ADD_FURNITURE, function (slot0, slot1, slot2)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_FURNITURE, {
 			name = BACKYARD.FURNITURE_ADD,
@@ -62,7 +62,7 @@ slot0.register = function (slot0)
 	end
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		BackyardMainMediator.USED_FURNITURE,
 		BackyardMainMediator.NONUSED_FURNITURE,
@@ -73,7 +73,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == BackyardMainMediator.USED_FURNITURE or slot2 == BackyardMainMediator.NONUSED_FURNITURE then
@@ -102,7 +102,7 @@ slot0.handleNotification = function (slot0, slot1)
 	end
 end
 
-slot0.packHouse = function (slot0, slot1)
+function slot0.packHouse(slot0, slot1)
 	slot2 = Clone(slot1)
 	slot3 = getProxy(DormProxy)
 

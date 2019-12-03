@@ -5,15 +5,15 @@ ys.Battle.CounterMainRandomStrategy = class("CounterMainRandomStrategy", ys.Batt
 ys.Battle.CounterMainRandomStrategy.__name = "CounterMainRandomStrategy"
 ys.Battle.CounterMainRandomStrategy.FIX_FRONT = 0.5
 
-ys.Battle.CounterMainRandomStrategy.Ctor = function (slot0, slot1)
+function ys.Battle.CounterMainRandomStrategy.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 end
 
-ys.Battle.CounterMainRandomStrategy.GetStrategyType = function (slot0)
+function ys.Battle.CounterMainRandomStrategy.GetStrategyType(slot0)
 	return slot0.Battle.BattleJoyStickAutoBot.COUNTER_MAIN
 end
 
-ys.Battle.CounterMainRandomStrategy.generateTargetPoint = function (slot0)
+function ys.Battle.CounterMainRandomStrategy.generateTargetPoint(slot0)
 	slot1 = slot0._upperBound
 	slot2 = slot0._lowerBound
 

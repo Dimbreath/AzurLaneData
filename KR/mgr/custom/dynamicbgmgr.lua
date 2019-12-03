@@ -2,11 +2,11 @@ pg = pg or {}
 pg.DynamicBgMgr = singletonClass("DynamicBgMgr")
 this = pg.DynamicBgMgr
 
-this.Ctor = function (slot0)
+function this.Ctor(slot0)
 	slot0.cache = {}
 end
 
-this.LoadBg = function (slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+function this.LoadBg(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot7 = "bg/star_level_bg_" .. slot2
 
 	if PathMgr.FileExists(PathMgr.getAssetBundle("ui/star_level_bg_" .. slot2)) then
@@ -43,7 +43,7 @@ this.LoadBg = function (slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	end
 end
 
-this.ClearBg = function (slot0, slot1)
+function this.ClearBg(slot0, slot1)
 	for slot5 = #slot0.cache, 1, -1 do
 		if slot0.cache[slot5].uiName == slot1 then
 			slot6.dyBg.GetComponent(slot8, typeof(CriManaEffectUI)):Pause(true)
@@ -58,7 +58,7 @@ this.ClearBg = function (slot0, slot1)
 	end
 end
 
-this.InsertCache = function (slot0, slot1, slot2, slot3)
+function this.InsertCache(slot0, slot1, slot2, slot3)
 	for slot7, slot8 in ipairs(slot0.cache) do
 		if slot8.uiName == slot1 and slot8.bgName == slot2 then
 			slot8.dyBg = slot3

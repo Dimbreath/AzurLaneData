@@ -1,14 +1,14 @@
 slot0 = class("ShipFashionView", import("...base.BaseSubView"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "ShipFashionView"
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0:InitFashion()
 end
 
-slot0.InitFashion = function (slot0)
+function slot0.InitFashion(slot0)
 	slot0.mainPanel = slot0._parentTf.parent
 	slot0.stylePanel = slot0._tf
 	slot0.styleScroll = slot0:findTF("style_scroll", slot0.stylePanel)
@@ -31,11 +31,11 @@ slot0.InitFashion = function (slot0)
 	slot0.onSelected = false
 end
 
-slot0.SetShareData = function (slot0, slot1)
+function slot0.SetShareData(slot0, slot1)
 	slot0.shareData = slot1
 end
 
-slot0.GetShipVO = function (slot0)
+function slot0.GetShipVO(slot0)
 	if slot0.shareData and slot0.shareData.shipVO then
 		return slot0.shareData.shipVO
 	end
@@ -43,15 +43,15 @@ slot0.GetShipVO = function (slot0)
 	return nil
 end
 
-slot0.SetSkinList = function (slot0, slot1)
+function slot0.SetSkinList(slot0, slot1)
 	slot0.skinList = slot1
 end
 
-slot0.UpdateUI = function (slot0)
+function slot0.UpdateUI(slot0)
 	slot0:UpdateFashion()
 end
 
-slot0.OnSelected = function (slot0, slot1)
+function slot0.OnSelected(slot0, slot1)
 	slot2 = pg.UIMgr.GetInstance()
 
 	if slot1 then
@@ -70,7 +70,7 @@ slot0.OnSelected = function (slot0, slot1)
 	slot0.onSelected = slot1
 end
 
-slot0.UpdateFashion = function (slot0, slot1)
+function slot0.UpdateFashion(slot0, slot1)
 	slot0.fashionSkins = slot0.shareData:GetGroupSkinList(slot0:GetShipVO().groupId)
 
 	if ShipViewConst.currentPage ~= ShipViewConst.PAGE.FASHION or #slot0.fashionSkins <= 1 then
@@ -157,11 +157,11 @@ slot0.UpdateFashion = function (slot0, slot1)
 	triggerButton(slot3)
 end
 
-slot0.ResetFashion = function (slot0)
+function slot0.ResetFashion(slot0)
 	slot0.fashionSkinId = 0
 end
 
-slot0.UpdateFashionDetail = function (slot0, slot1)
+function slot0.UpdateFashionDetail(slot0, slot1)
 	if not slot0.fashionDetailWrapper then
 		slot0.fashionDetailWrapper = {
 			name = findTF(slot0.stylePanel, "style_desc/name_bg/name"),
@@ -277,7 +277,7 @@ slot0.UpdateFashionDetail = function (slot0, slot1)
 	end)
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	if slot0.fashionDetailWrapper and not IsNil(slot0.fashionDetailWrapper.character:Find(slot0.fashionDetailWrapper.prefab)) then
 		PoolMgr.GetInstance():ReturnSpineChar(slot1.prefab, slot2.gameObject)
 	end

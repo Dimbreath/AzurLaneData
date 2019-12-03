@@ -1,7 +1,7 @@
 slot0 = class("LevelDifficultySelMediator", import("..base.ContextMediator"))
 slot0.GO_LEVEL_SENCE = "LevelDifficultySelMediator:GO_LEVEL_SENCE"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.viewComponent:setMaps(getProxy(ChapterProxy).getMaps(slot1))
 	slot0.viewComponent:setPlayerVO(slot3)
 
@@ -23,19 +23,19 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.removeContext = function (slot0)
+function slot0.removeContext(slot0)
 	if getProxy(ContextProxy):getContextByMediator(ActivityMediator) or slot1:getContextByMediator(MainUIMediator) then
 		slot2:removeChild(slot1:getContextByMediator(LevelDifficultySelMediator))
 	end
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		ActivityProxy.ACTIVITY_OPERATION_DONE
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == ActivityProxy.ACTIVITY_OPERATION_DONE then

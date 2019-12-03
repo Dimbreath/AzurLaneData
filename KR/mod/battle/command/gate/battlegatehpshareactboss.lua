@@ -2,7 +2,7 @@ slot0 = class("BattleGateHPShareActBoss")
 ys.Battle.BattleGateHPShareActBoss = slot0
 slot0.__name = "BattleGateHPShareActBoss"
 
-slot0.Entrance = function (slot0, slot1)
+function slot0.Entrance(slot0, slot1)
 	if BeginStageCommand.DockOverload() then
 		return
 	end
@@ -80,7 +80,7 @@ slot0.Entrance = function (slot0, slot1)
 	end)
 end
 
-slot0.Exit = function (slot0, slot1)
+function slot0.Exit(slot0, slot1)
 	slot2 = pg.battle_cost_template[SYSTEM_HP_SHARE_ACT_BOSS]
 	slot4 = getProxy(BayProxy)
 	slot8 = 0

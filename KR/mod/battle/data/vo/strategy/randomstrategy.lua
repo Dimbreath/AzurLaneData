@@ -8,7 +8,7 @@ ys.Battle.RandomStrategy.STOP_DURATION_MIN = 10
 ys.Battle.RandomStrategy.MOVE_DURATION_MAX = 60
 ys.Battle.RandomStrategy.MOVE_DURATION_MIN = 20
 
-ys.Battle.RandomStrategy.Ctor = function (slot0, slot1)
+function ys.Battle.RandomStrategy.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 
 	slot0._stopCount = 0
@@ -17,18 +17,18 @@ ys.Battle.RandomStrategy.Ctor = function (slot0, slot1)
 	slot0._speedCross = Vector3.zero
 end
 
-ys.Battle.RandomStrategy.GetStrategyType = function (slot0)
+function ys.Battle.RandomStrategy.GetStrategyType(slot0)
 	return slot0.Battle.BattleJoyStickAutoBot.RANDOM
 end
 
-ys.Battle.RandomStrategy.Input = function (slot0, slot1, slot2)
+function ys.Battle.RandomStrategy.Input(slot0, slot1, slot2)
 	slot0.super.Input(slot0, slot1, slot2)
 	slot0:shiftTick(0, 10)
 end
 
 slot4 = Vector3.up
 
-ys.Battle.RandomStrategy._moveTick = function (slot0)
+function ys.Battle.RandomStrategy._moveTick(slot0)
 	if slot0._moveCount <= 0 then
 		slot0:shiftTick(-1)
 	else
@@ -40,7 +40,7 @@ ys.Battle.RandomStrategy._moveTick = function (slot0)
 	end
 end
 
-ys.Battle.RandomStrategy._stopTick = function (slot0)
+function ys.Battle.RandomStrategy._stopTick(slot0)
 	if slot0._stopCount <= 0 then
 		slot0:shiftTick(0, 10)
 	else
@@ -48,7 +48,7 @@ ys.Battle.RandomStrategy._stopTick = function (slot0)
 	end
 end
 
-ys.Battle.RandomStrategy.shiftTick = function (slot0, slot1, slot2)
+function ys.Battle.RandomStrategy.shiftTick(slot0, slot1, slot2)
 	slot0._stopWeight = slot1 or slot0._stopWeight
 	slot0._moveWeight = slot2 or slot0._moveWeight
 
@@ -67,7 +67,7 @@ ys.Battle.RandomStrategy.shiftTick = function (slot0, slot1, slot2)
 	end
 end
 
-ys.Battle.RandomStrategy.generateTargetPoint = function (slot0)
+function ys.Battle.RandomStrategy.generateTargetPoint(slot0)
 	slot2 = slot0._fleetVO:GetLeaderPersonality().front_rate
 	slot3 = slot0._fleetVO.GetLeaderPersonality().rear_rate
 

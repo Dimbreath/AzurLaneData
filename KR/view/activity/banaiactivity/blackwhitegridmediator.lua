@@ -2,7 +2,7 @@ slot0 = class("BlackWhiteGridMediator", import("...base.ContextMediator"))
 slot0.ON_FINISH = "VirtualSpaceMediator:ON_FINISH"
 slot0.ON_UPDATE_SCORE = "VirtualSpaceMediator:ON_UPDATE_SCORE"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.viewComponent:setActivity(slot2)
 	slot0:bind(slot0.ON_FINISH, function (slot0, slot1, slot2)
 		slot0:sendNotification(GAME.BLACK_WHITE_GRID_OP, {
@@ -24,14 +24,14 @@ slot0.register = function (slot0)
 	slot0.viewComponent:setMaps(getProxy(ChapterProxy):getMaps())
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.BLACK_WHITE_GRID_OP_DONE,
 		ActivityProxy.ACTIVITY_UPDATED
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.BLACK_WHITE_GRID_OP_DONE then

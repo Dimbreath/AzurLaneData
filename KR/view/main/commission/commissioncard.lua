@@ -3,7 +3,7 @@ slot0.TYPE_EVENT = 1
 slot0.TYPE_CLASS = 2
 slot0.TYPE_TECHNOLOGY = 3
 
-slot0.Ctor = function (slot0, slot1, slot2)
+function slot0.Ctor(slot0, slot1, slot2)
 	slot0._go = slot2[2]
 	slot0._type = slot2[1]
 	slot0._proxy = slot2[3]
@@ -33,11 +33,11 @@ slot0.Ctor = function (slot0, slot1, slot2)
 	pg.DelegateInfo.New(slot0)
 end
 
-slot0.updateTips = function (slot0, slot1)
+function slot0.updateTips(slot0, slot1)
 	slot0.tip.localScale = Vector3(1, (slot1 and -1) or 1, 1)
 end
 
-slot0.update = function (slot0)
+function slot0.update(slot0)
 	if slot0._type == slot0.TYPE_EVENT then
 		slot0:updateForEvent()
 	elseif slot0._type == slot0.TYPE_CLASS then
@@ -47,7 +47,7 @@ slot0.update = function (slot0)
 	end
 end
 
-slot0.updateForEvent = function (slot0)
+function slot0.updateForEvent(slot0)
 	slot1 = nil
 
 	setActive(slot0.lockTF, not (getProxy(PlayerProxy):getData().level >= 12))
@@ -98,7 +98,7 @@ slot0.updateForEvent = function (slot0)
 	end, SFX_PANEL)
 end
 
-slot0.updateForClass = function (slot0)
+function slot0.updateForClass(slot0)
 	_.each(_.values(slot1), function (slot0)
 		if slot0:getFinishTime() <= pg.TimeMgr.GetInstance():GetServerTime() then
 			slot0 = slot0 + 1
@@ -128,7 +128,7 @@ slot0.updateForClass = function (slot0)
 	end, SFX_PANEL)
 end
 
-slot0.updateForTechnology = function (slot0)
+function slot0.updateForTechnology(slot0)
 	slot1 = nil
 
 	if LOCK_TECHNOLOGY then
@@ -196,7 +196,7 @@ slot0.updateForTechnology = function (slot0)
 	end
 end
 
-slot0.dispose = function (slot0)
+function slot0.dispose(slot0)
 	slot0.itemsPanel:clear()
 	pg.DelegateInfo.Dispose(slot0)
 end

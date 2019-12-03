@@ -16,7 +16,7 @@ slot0.CHALLENGE_OP_RESET = 0
 slot0.CHALLENGE_OP_STRATEGY = 1
 slot0.FETCH_CHALLENGE = 2
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.fleet = ChallengeFleet.New()
 	slot0.fleets = {
 		slot0.fleet
@@ -37,7 +37,7 @@ slot0.Ctor = function (slot0, slot1)
 	slot0:setGSRateID(slot1.multiple_list[3])
 end
 
-slot0.updateBattleScore = function (slot0, slot1)
+function slot0.updateBattleScore(slot0, slot1)
 	slot0.battleScore = slot1.score
 	slot0.currentScore = slot0.currentScore + slot0.battleScore
 
@@ -46,7 +46,7 @@ slot0.updateBattleScore = function (slot0, slot1)
 	end
 end
 
-slot0.updateShipHp = function (slot0, slot1, slot2)
+function slot0.updateShipHp(slot0, slot1, slot2)
 	if slot0.ships[slot1] then
 		slot0.ships[slot1].hp_rant = slot2
 	end
@@ -54,15 +54,15 @@ slot0.updateShipHp = function (slot0, slot1, slot2)
 	slot0.fleet:updateShipHp(slot1, slot2)
 end
 
-slot0.isActive = function (slot0)
+function slot0.isActive(slot0)
 	return slot0.damageFactor ~= nil and slot0.gsFactor ~= nil
 end
 
-slot0.clearFleet = function (slot0)
+function slot0.clearFleet(slot0)
 	slot0.ships = {}
 end
 
-slot0.update = function (slot0, slot1)
+function slot0.update(slot0, slot1)
 	slot2 = {}
 
 	_.each(slot1.ship_list, function (slot0)
@@ -92,7 +92,7 @@ slot0.update = function (slot0, slot1)
 	slot0:updateFleetShips(slot2)
 end
 
-slot0.updateFleetShips = function (slot0, slot1)
+function slot0.updateFleetShips(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot1) do
@@ -108,7 +108,7 @@ slot0.updateFleetShips = function (slot0, slot1)
 	slot0.fleet:updateShips(slot2)
 end
 
-slot0.updateShipStg = function (slot0, slot1, slot2, slot3)
+function slot0.updateShipStg(slot0, slot1, slot2, slot3)
 	slot4 = {}
 
 	if slot0.ships[slot1] then
@@ -123,7 +123,7 @@ slot0.updateShipStg = function (slot0, slot1, slot2, slot3)
 	slot0.fleet:updateShipStg(slot1, slot2, slot3)
 end
 
-slot0.setDamageRateID = function (slot0, slot1)
+function slot0.setDamageRateID(slot0, slot1)
 	slot0.damageRateID = slot1
 	slot0.damageFactor = nil
 
@@ -132,7 +132,7 @@ slot0.setDamageRateID = function (slot0, slot1)
 	end
 end
 
-slot0.setLevelRateID = function (slot0, slot1)
+function slot0.setLevelRateID(slot0, slot1)
 	slot0.levelRateID = slot1
 	slot0.levelFactor = nil
 
@@ -141,7 +141,7 @@ slot0.setLevelRateID = function (slot0, slot1)
 	end
 end
 
-slot0.setGSRateID = function (slot0, slot1)
+function slot0.setGSRateID(slot0, slot1)
 	slot0.gsRateID = slot1
 	slot0.gsFactor = nil
 
@@ -150,31 +150,31 @@ slot0.setGSRateID = function (slot0, slot1)
 	end
 end
 
-slot0.getDamageRateID = function (slot0)
+function slot0.getDamageRateID(slot0)
 	return slot0.damageRateID
 end
 
-slot0.getLevelRateID = function (slot0)
+function slot0.getLevelRateID(slot0)
 	return slot0.levelRateID
 end
 
-slot0.getDamageRate = function (slot0)
+function slot0.getDamageRate(slot0)
 	return slot0.damageFactor
 end
 
-slot0.getLevelRate = function (slot0)
+function slot0.getLevelRate(slot0)
 	return slot0.levelFactor
 end
 
-slot0.getDifficultyRate = function (slot0)
+function slot0.getDifficultyRate(slot0)
 	return (slot0:getDamageRate() + slot0:getLevelRate()) - 1
 end
 
-slot0.getScoreRate = function (slot0)
+function slot0.getScoreRate(slot0)
 	return slot0:getDifficultyRate() + slot0.gsFactor
 end
 
-slot0.getFleetGS = function (slot0)
+function slot0.getFleetGS(slot0)
 	slot2 = 0
 
 	for slot6, slot7 in ipairs(slot1) do
@@ -184,7 +184,7 @@ slot0.getFleetGS = function (slot0)
 	return slot2
 end
 
-slot0.getGSRateID = function (slot0)
+function slot0.getGSRateID(slot0)
 	slot1 = slot0:getFleetGS()
 	slot3 = 1
 	slot4 = #ChallengeProxy.rateConfigData[ChallengeProxy.RATE_FACTOR_GEAR_SCORE]
@@ -196,7 +196,7 @@ slot0.getGSRateID = function (slot0)
 	return slot2[slot3].id, slot2[slot3].rate
 end
 
-slot0.getChallengeShipList = function (slot0)
+function slot0.getChallengeShipList(slot0)
 	slot1 = getProxy(BayProxy):getRawData()
 	slot2 = {}
 
@@ -207,7 +207,7 @@ slot0.getChallengeShipList = function (slot0)
 	return slot2
 end
 
-slot0.getCurrentChallengeTemplate = function (slot0)
+function slot0.getCurrentChallengeTemplate(slot0)
 	slot1 = slot0.challengeLevel or 1
 
 	for slot5, slot6 in pairs(pg.expedition_challenge_template) do
@@ -217,15 +217,15 @@ slot0.getCurrentChallengeTemplate = function (slot0)
 	end
 end
 
-slot0.getChallengeStageID = function (slot0)
+function slot0.getChallengeStageID(slot0)
 	return slot0:getCurrentChallengeTemplate().dungeon_id
 end
 
-slot0.getShips = function (slot0)
+function slot0.getShips(slot0)
 	return slot0.ships
 end
 
-slot0.getFleetStgIds = function (slot0, slot1)
+function slot0.getFleetStgIds(slot0, slot1)
 	slot2 = {}
 
 	if slot1.stgId > 0 then
@@ -235,11 +235,11 @@ slot0.getFleetStgIds = function (slot0, slot1)
 	return slot2
 end
 
-slot0.isClear = function (slot0)
+function slot0.isClear(slot0)
 	return slot0.getMaxLevel(10000) <= slot0.challengeLevel
 end
 
-slot0.getMaxLevel = function (slot0)
+function slot0.getMaxLevel(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in pairs(pg.expedition_challenge_template) do
@@ -251,7 +251,7 @@ slot0.getMaxLevel = function (slot0)
 	return slot1
 end
 
-slot0.getFleetStgs = function (slot0)
+function slot0.getFleetStgs(slot0)
 	slot1 = {}
 
 	_.each(slot2, function (slot0)
@@ -285,7 +285,7 @@ slot0.getFleetStgs = function (slot0)
 	end)
 end
 
-slot0.shipTypeFixer = function (slot0)
+function slot0.shipTypeFixer(slot0)
 	if slot0 == ShipType.ZhanXun then
 		slot0 = ShipType.ZhanLie
 	elseif slot0 == ShipType.QingHang then

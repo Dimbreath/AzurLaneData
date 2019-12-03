@@ -3,7 +3,7 @@ slot0.ON_QUICK = "BuildShipDetailMediator:ON_QUICK"
 slot0.LAUNCH_ALL = "BuildShipDetailMediator:LAUNCH_ALL"
 slot0.ON_LAUNCHED = "BuildShipDetailMediator:ON_LAUNCHED"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.viewComponent:updatePlayer(getProxy(PlayerProxy).getData(slot1))
 
 	slot0.bagProxy = getProxy(BagProxy)
@@ -50,7 +50,7 @@ slot0.register = function (slot0)
 	slot0.viewComponent:setBuildSpeedUpRemind(getProxy(SettingsProxy).getStopBuildSpeedupRemind(slot3))
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		BagProxy.ITEM_UPDATED,
 		BagProxy.ITEM_ADDED,
@@ -63,7 +63,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == BagProxy.ITEM_UPDATED or slot2 == BagProxy.ITEM_ADDED then

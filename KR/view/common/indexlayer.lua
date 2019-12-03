@@ -1,10 +1,10 @@
 slot0 = class("IndexLayer", import("..base.BaseUI"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "IndexUI"
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.panel = slot0:findTF("index_panel")
 	slot0.displayTFs = {
 		slot0:findTF("layout/sort", slot0.panel),
@@ -26,7 +26,7 @@ slot0.init = function (slot0)
 	slot0.yellowSprite = slot0:findTF("resource/yellow", slot0.panel):GetComponent(typeof(Image)).sprite
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	onButton(slot0, slot0.btnConfirm, function ()
 		if slot0.contextData.callback then
 			slot0.contextData.callback({
@@ -52,7 +52,7 @@ slot0.didEnter = function (slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-slot0.initDisplays = function (slot0)
+function slot0.initDisplays(slot0)
 	slot1 = {
 		"sort",
 		"index",
@@ -81,7 +81,7 @@ slot0.initDisplays = function (slot0)
 	end
 end
 
-slot0.initSort = function (slot0)
+function slot0.initSort(slot0)
 	_.each(IndexConst.SortTypes, function (slot0)
 		if bit.band(slot0.contextData.display.sort, bit.lshift(1, slot0)) > 0 then
 			table.insert(slot1, slot0)
@@ -108,7 +108,7 @@ slot0.initSort = function (slot0)
 	slot0.displayList[IndexConst.DisplaySort] = slot3
 end
 
-slot0.updateSort = function (slot0)
+function slot0.updateSort(slot0)
 	slot2 = slot0.typeList[IndexConst.DisplaySort]
 
 	slot0.displayList[IndexConst.DisplaySort]:each(function (slot0, slot1)
@@ -118,7 +118,7 @@ slot0.updateSort = function (slot0)
 	end)
 end
 
-slot0.initIndex = function (slot0)
+function slot0.initIndex(slot0)
 	_.each(IndexConst.IndexTypes, function (slot0)
 		if bit.band(slot0.contextData.display.index, bit.lshift(1, slot0)) > 0 then
 			table.insert(slot1, slot0)
@@ -145,7 +145,7 @@ slot0.initIndex = function (slot0)
 	slot0.displayList[IndexConst.DisplayIndex] = slot3
 end
 
-slot0.updateIndex = function (slot0)
+function slot0.updateIndex(slot0)
 	slot2 = slot0.typeList[IndexConst.DisplayIndex]
 
 	slot0.displayList[IndexConst.DisplayIndex]:each(function (slot0, slot1)
@@ -155,7 +155,7 @@ slot0.updateIndex = function (slot0)
 	end)
 end
 
-slot0.initCamp = function (slot0)
+function slot0.initCamp(slot0)
 	_.each(IndexConst.CampTypes, function (slot0)
 		if bit.band(slot0.contextData.display.camp, bit.lshift(1, slot0)) > 0 then
 			table.insert(slot1, slot0)
@@ -182,7 +182,7 @@ slot0.initCamp = function (slot0)
 	slot0.displayList[IndexConst.DisplayCamp] = slot3
 end
 
-slot0.updateCamp = function (slot0)
+function slot0.updateCamp(slot0)
 	slot2 = slot0.typeList[IndexConst.DisplayCamp]
 
 	slot0.displayList[IndexConst.DisplayCamp]:each(function (slot0, slot1)
@@ -192,7 +192,7 @@ slot0.updateCamp = function (slot0)
 	end)
 end
 
-slot0.initRarity = function (slot0)
+function slot0.initRarity(slot0)
 	_.each(IndexConst.RarityTypes, function (slot0)
 		if bit.band(slot0.contextData.display.rarity, bit.lshift(1, slot0)) > 0 then
 			table.insert(slot1, slot0)
@@ -219,7 +219,7 @@ slot0.initRarity = function (slot0)
 	slot0.displayList[IndexConst.DisplayRarity] = slot3
 end
 
-slot0.updateRarity = function (slot0)
+function slot0.updateRarity(slot0)
 	slot2 = slot0.typeList[IndexConst.DisplayRarity]
 
 	slot0.displayList[IndexConst.DisplayRarity]:each(function (slot0, slot1)
@@ -229,7 +229,7 @@ slot0.updateRarity = function (slot0)
 	end)
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	LeanTween.cancel(go(slot0.panel))
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end

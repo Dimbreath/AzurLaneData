@@ -1,12 +1,12 @@
 slot0 = class("Chuixue7daySkinPage", import(".TemplatePage.SkinTemplatePage"))
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.super.OnInit(slot0)
 
 	slot0.step_txt = slot0:findTF("step_text", slot0.bg)
 end
 
-slot0.OnFirstFlush = function (slot0)
+function slot0.OnFirstFlush(slot0)
 	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 	slot0.uilist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -30,7 +30,7 @@ slot0.OnFirstFlush = function (slot0)
 	end)
 end
 
-slot0.OnUpdateFlush = function (slot0)
+function slot0.OnUpdateFlush(slot0)
 	slot0.super.OnUpdateFlush(slot0)
 	setText(slot0.step_txt, setColorStr(slot0.nday, "#89FF59FF") .. "/" .. #slot0.taskGroup)
 end

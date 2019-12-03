@@ -1,15 +1,15 @@
 slot0 = class("ActivityBossBattleScene3", import("view.base.BaseUI"))
 slot1 = import("view.activity.worldboss.ActivityBossPtAwardSubPanel")
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "ActivityBossUI"
 end
 
-slot0.getBGM = function (slot0)
+function slot0.getBGM(slot0)
 	return "cw-level"
 end
 
-slot0.preload = function (slot0, slot1)
+function slot0.preload(slot0, slot1)
 	LoadAndInstantiateAsync("ui", "cysx", function (slot0)
 		slot0.effect = slot0
 
@@ -18,7 +18,7 @@ slot0.preload = function (slot0, slot1)
 	end)
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot0.mainTF = slot0:findTF("adapt")
 	slot0.bg = slot0:findTF("bg")
@@ -97,13 +97,13 @@ slot0.init = function (slot0)
 	setActive(slot0.left, false)
 end
 
-slot0.EnterAnim = function (slot0)
+function slot0.EnterAnim(slot0)
 	setActive(slot0.top, true)
 	setActive(slot0.left, true)
 	slot0.enterAnim:Play("Enter_Animation")
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	onButton(slot0, slot0.awardBtn, function ()
 		slot0:ShowAwards()
 	end, SFX_PANEL)
@@ -150,12 +150,12 @@ slot0.didEnter = function (slot0)
 	slot0:EnterAnim()
 end
 
-slot0.UpdateView = function (slot0)
+function slot0.UpdateView(slot0)
 	slot0:UpdatePage()
 	slot0:CheckStory()
 end
 
-slot0.CheckStory = function (slot0)
+function slot0.CheckStory(slot0)
 	slot1 = pg.StoryMgr.GetInstance()
 
 	table.eachAsync(slot0.contextData.activity:getConfig("config_client").story, function (slot0, slot1, slot2)
@@ -167,7 +167,7 @@ slot0.CheckStory = function (slot0)
 	end)
 end
 
-slot0.UpdatePage = function (slot0)
+function slot0.UpdatePage(slot0)
 	setText(slot0.digitbig, math.floor(slot0.contextData.bossHP / 100))
 	setText(slot0.digitsmall, string.format("%02d", slot0.contextData.bossHP % 100))
 
@@ -207,11 +207,11 @@ slot0.UpdatePage = function (slot0)
 	setText(slot0.ticketNum, slot0:GetEXTicket())
 end
 
-slot0.GetEXTicket = function (slot0)
+function slot0.GetEXTicket(slot0)
 	return getProxy(PlayerProxy):getRawData():getResource(slot0.contextData.TicketID)
 end
 
-slot0.ShowNormalFleet = function (slot0, slot1)
+function slot0.ShowNormalFleet(slot0, slot1)
 	if not slot0.contextData.actFleets[slot1] then
 		slot0.contextData.actFleets[slot1] = slot0:CreateNewFleet(slot1)
 	end
@@ -248,7 +248,7 @@ slot0.ShowNormalFleet = function (slot0, slot1)
 	slot0.fleetEditPanel.buffer:Show()
 end
 
-slot0.ShowEXFleet = function (slot0)
+function slot0.ShowEXFleet(slot0)
 	if not slot0.contextData.actFleets[#slot0.contextData.normalStageIDs + 1] then
 		slot0.contextData.actFleets[slot1] = slot0:CreateNewFleet(slot1)
 	end
@@ -269,11 +269,11 @@ slot0.ShowEXFleet = function (slot0)
 	slot0.fleetEditPanel.buffer:Show()
 end
 
-slot0.commitEdit = function (slot0)
+function slot0.commitEdit(slot0)
 	slot0:emit(ActivityBossBattleMediator3.ON_COMMIT_FLEET)
 end
 
-slot0.commitCombat = function (slot0)
+function slot0.commitCombat(slot0)
 	if slot0.contextData.editFleet > #slot0.contextData.normalStageIDs then
 		slot0:emit(ActivityBossBattleMediator3.ON_EX_PRECOMBAT, slot0.contextData.editFleet, false)
 	else
@@ -281,22 +281,22 @@ slot0.commitCombat = function (slot0)
 	end
 end
 
-slot0.commitTrybat = function (slot0)
+function slot0.commitTrybat(slot0)
 	slot0:emit(ActivityBossBattleMediator3.ON_EX_PRECOMBAT, slot0.contextData.editFleet, true)
 end
 
-slot0.updateEditPanel = function (slot0)
+function slot0.updateEditPanel(slot0)
 	slot0.fleetEditPanel:UpdateView()
 end
 
-slot0.hideFleetEdit = function (slot0)
+function slot0.hideFleetEdit(slot0)
 	slot0.fleetEditPanel.buffer:Hide()
 	slot0.commanderFormationPanel.buffer:Close()
 
 	slot0.contextData.editFleet = nil
 end
 
-slot0.openShipInfo = function (slot0, slot1, slot2)
+function slot0.openShipInfo(slot0, slot1, slot2)
 	slot4 = {}
 	slot5 = getProxy(BayProxy)
 	slot6 = ipairs
@@ -312,27 +312,27 @@ slot0.openShipInfo = function (slot0, slot1, slot2)
 	})
 end
 
-slot0.openCommanderPanel = function (slot0, slot1)
+function slot0.openCommanderPanel(slot0, slot1)
 	slot0.commanderFormationPanel.buffer:Open()
 	slot0.commanderFormationPanel.buffer:Update(slot1)
 end
 
-slot0.SelectCMD = function (slot0, slot1, slot2)
+function slot0.SelectCMD(slot0, slot1, slot2)
 	slot0:emit(ActivityBossBattleMediator3.ON_SELECT_COMMANDER, slot1, slot2)
 end
 
-slot0.ShowAwards = function (slot0)
+function slot0.ShowAwards(slot0)
 	slot0.bonusWindow.buffer:UpdateView(slot0.contextData.ptData)
 	slot0.bonusWindow.buffer:Show()
 end
 
-slot0.initMsg = function (slot0, slot1)
+function slot0.initMsg(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		slot0:addMsg(slot6)
 	end
 end
 
-slot0.addMsg = function (slot0, slot1)
+function slot0.addMsg(slot0, slot1)
 	table.insert(slot0.msgs, slot1)
 
 	if #slot0.msgs > 3 then
@@ -349,7 +349,7 @@ slot0.addMsg = function (slot0, slot1)
 	end
 end
 
-slot0.CreateNewFleet = function (slot0, slot1)
+function slot0.CreateNewFleet(slot0, slot1)
 	return Fleet.New({
 		id = slot1,
 		ship_list = {},
@@ -357,7 +357,7 @@ slot0.CreateNewFleet = function (slot0, slot1)
 	})
 end
 
-slot0.UpdateRank = function (slot0, slot1)
+function slot0.UpdateRank(slot0, slot1)
 	slot1 = slot1 or {}
 
 	for slot5 = 1, #slot0.rankList, 1 do
@@ -370,7 +370,7 @@ slot0.UpdateRank = function (slot0, slot1)
 	end
 end
 
-slot0.Clone2Full = function (slot0, slot1, slot2)
+function slot0.Clone2Full(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = slot1:GetChild(0)
 
@@ -385,7 +385,7 @@ slot0.Clone2Full = function (slot0, slot1, slot2)
 	return slot3
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	slot0.fleetEditPanel:Destroy()
 	slot0.commanderFormationPanel:Destroy()
 	slot0.bonusWindow:Destroy()

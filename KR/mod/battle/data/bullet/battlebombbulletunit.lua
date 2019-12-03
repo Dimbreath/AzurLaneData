@@ -4,27 +4,27 @@ slot2 = ys.Battle.BattleConfig
 ys.Battle.BattleBombBulletUnit = class("BattleBombBulletUnit", ys.Battle.BattleBulletUnit)
 ys.Battle.BattleBombBulletUnit.__name = "BattleBombBulletUnit"
 
-ys.Battle.BattleBombBulletUnit.Ctor = function (slot0, slot1, slot2)
+function ys.Battle.BattleBombBulletUnit.Ctor(slot0, slot1, slot2)
 	slot0.super.Ctor(slot0, slot1, slot2)
 
 	slot0._randomOffset = Vector3.zero
 end
 
-ys.Battle.BattleBombBulletUnit.InitSpeed = function (slot0)
+function ys.Battle.BattleBombBulletUnit.InitSpeed(slot0)
 	slot0.super.InitSpeed(slot0, math.rad2Deg * math.atan2(slot0._explodePos.z - slot0._spawnPos.z, slot0._explodePos.x - slot0._spawnPos.x))
 end
 
-ys.Battle.BattleBombBulletUnit.Update = function (slot0)
+function ys.Battle.BattleBombBulletUnit.Update(slot0)
 	if slot0._exist then
 		slot0.super.Update(slot0)
 	end
 end
 
-ys.Battle.BattleBombBulletUnit.GetPierceCount = function (slot0)
+function ys.Battle.BattleBombBulletUnit.GetPierceCount(slot0)
 	return 1
 end
 
-ys.Battle.BattleBombBulletUnit.IsOutRange = function (slot0, slot1)
+function ys.Battle.BattleBombBulletUnit.IsOutRange(slot0, slot1)
 	if not slot0._exist then
 		return false
 	end
@@ -40,14 +40,14 @@ ys.Battle.BattleBombBulletUnit.IsOutRange = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattleBombBulletUnit.OutRange = function (slot0)
+function ys.Battle.BattleBombBulletUnit.OutRange(slot0)
 	slot0:DispatchEvent(slot0.Event.New(slot1.EXPLODE, {
 		UID = unitUniqueID
 	}))
 	slot0.DispatchEvent.super.OutRange(slot0)
 end
 
-ys.Battle.BattleBombBulletUnit.SetSpawnPosition = function (slot0, slot1)
+function ys.Battle.BattleBombBulletUnit.SetSpawnPosition(slot0, slot1)
 	slot0.super.SetSpawnPosition(slot0, slot1)
 
 	if slot0._barragePriority then
@@ -56,11 +56,11 @@ ys.Battle.BattleBombBulletUnit.SetSpawnPosition = function (slot0, slot1)
 	end
 
 	if slot0._convertedVelocity ~= 0 then
-		slot0._verticalSpeed = slot0:GetTemplate().extra_param.launchVrtSpeed or (slot0._explodePos.y - slot0._spawnPos.y) / Vector3.Distance(slot2, slot0._explodePos) / slot0._convertedVelocity - 0.5 * slot0._gravity * Vector3.Distance(slot2, slot0._explodePos) / slot0._convertedVelocity
+		slot0._verticalSpeed = slot0:GetTemplate().extra_param.launchVrtSpeed or (slot0._explodePos.y - slot0._spawnPos.y) / (Vector3.Distance(slot2, slot0._explodePos) / slot0._convertedVelocity) - 0.5 * slot0._gravity * Vector3.Distance(slot2, slot0._explodePos) / slot0._convertedVelocity
 	end
 end
 
-ys.Battle.BattleBombBulletUnit.SetExplodePosition = function (slot0, slot1)
+function ys.Battle.BattleBombBulletUnit.SetExplodePosition(slot0, slot1)
 	slot0._explodePos = slot1:Clone()
 
 	if not slot0._barragePriority then
@@ -70,7 +70,7 @@ ys.Battle.BattleBombBulletUnit.SetExplodePosition = function (slot0, slot1)
 	slot0._explodePos.y = slot0.BombDetonateHeight
 end
 
-ys.Battle.BattleBombBulletUnit.SetTemplateData = function (slot0, slot1)
+function ys.Battle.BattleBombBulletUnit.SetTemplateData(slot0, slot1)
 	slot0.super.SetTemplateData(slot0, slot1)
 
 	slot0._barragePriority = slot0:GetTemplate().extra_param.barragePriority
@@ -109,7 +109,7 @@ ys.Battle.BattleBombBulletUnit.SetTemplateData = function (slot0, slot1)
 	slot0._gravity = slot2.gravity or slot0.Battle.BattleConfig.GRAVITY
 end
 
-ys.Battle.BattleBombBulletUnit.GetExplodePostion = function (slot0)
+function ys.Battle.BattleBombBulletUnit.GetExplodePostion(slot0)
 	return slot0._explodePos
 end
 

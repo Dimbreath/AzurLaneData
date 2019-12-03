@@ -1,6 +1,6 @@
 slot0 = class("Rival", import(".PlayerAttire"))
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 
 	slot0.id = slot1.id
@@ -34,7 +34,7 @@ slot0.Ctor = function (slot0, slot1)
 	slot0.score = slot0.score + SeasonInfo.INIT_POINT
 end
 
-slot0.getPainting = function (slot0)
+function slot0.getPainting(slot0)
 	slot2 = nil
 
 	if pg.ship_skin_template[slot0.skinId] then
@@ -42,7 +42,7 @@ slot0.getPainting = function (slot0)
 	end
 end
 
-slot0.getShips = function (slot0)
+function slot0.getShips(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.vanguardShips) do
@@ -56,7 +56,7 @@ slot0.getShips = function (slot0)
 	return slot1
 end
 
-slot0.GetGearScoreSum = function (slot0, slot1)
+function slot0.GetGearScoreSum(slot0, slot1)
 	slot2 = nil
 
 	if slot1 == "main" then

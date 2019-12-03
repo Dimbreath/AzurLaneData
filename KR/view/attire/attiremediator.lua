@@ -3,7 +3,7 @@ slot0.ON_APPLY = "AttireMediator:ON_APPLY"
 slot0.ON_UNLOCK = "AttireMediator:ON_UNLOCK"
 slot0.ON_CHANGE_MEDAL_DISPLAY = "AttireMediator:ON_CHANGE_MEDAL_DISPLAY"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0:bind(slot0.ON_APPLY, function (slot0, slot1, slot2)
 		slot0:sendNotification(GAME.ATTIRE_APPLY, {
 			id = slot2,
@@ -25,12 +25,12 @@ slot0.register = function (slot0)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 end
 
-slot0.updateCurrPage = function (slot0)
+function slot0.updateCurrPage(slot0)
 	slot0.viewComponent:setAttires(getProxy(AttireProxy):getDataAndTrophys())
 	slot0.viewComponent:updateCurrPage()
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		AttireProxy.ATTIREFRAME_EXPIRED,
 		GAME.ATTIRE_APPLY_DONE,
@@ -40,7 +40,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == AttireProxy.ATTIREFRAME_EXPIRED then

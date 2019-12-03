@@ -5,7 +5,7 @@ slot0.FONT_SIZE_MIN = 55
 slot0.FONT_SIZE_MID = 44
 slot0.FONT_SIZE_MAX = 34
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "PrayPoolSelectShipView"
 end
 
@@ -26,22 +26,22 @@ slot0.ShipIndex = {
 	})
 }
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0:initData()
 	slot0:initUI()
 	slot0:updateUI()
 	slot0:Show()
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	return
 end
 
-slot0.OnBackPress = function (slot0)
+function slot0.OnBackPress(slot0)
 	return
 end
 
-slot0.initData = function (slot0)
+function slot0.initData(slot0)
 	slot0.prayProxy = getProxy(PrayProxy)
 	slot0.poolType = slot0.prayProxy:getSelectedPoolType()
 	slot0.selectedCount = slot0.prayProxy:getSelectedShipCount()
@@ -53,7 +53,7 @@ slot0.initData = function (slot0)
 	slot0.orderFullList = Clone(slot0.fliteList)
 end
 
-slot0.initUI = function (slot0)
+function slot0.initUI(slot0)
 	slot0.poolNameImg = slot0:findTF("PoolNameImg")
 	slot0.shipCardTpl = slot0:findTF("ShipCardTpl")
 	slot0.selectedShipContainer = slot0:findTF("SelectedShipArea")
@@ -110,13 +110,13 @@ slot0.initUI = function (slot0)
 	end)
 end
 
-slot0.updateUI = function (slot0)
+function slot0.updateUI(slot0)
 	setImageSprite(slot0.poolNameImg, GetSpriteFromAtlas("ui/prayselectshippage_atlas", "pool_name_" .. slot0.poolType, true), true)
 	slot0:updateSelectedShipList()
 	slot0:updateShipList(slot0.fliteList)
 end
 
-slot0.updateSelectedShipList = function (slot0)
+function slot0.updateSelectedShipList(slot0)
 	slot1 = slot0.prayProxy:getSelectedShipIDList()
 
 	for slot5 = 1, 2, 1 do
@@ -192,10 +192,10 @@ slot0.updateSelectedShipList = function (slot0)
 	end
 end
 
-slot0.updateShipList = function (slot0, slot1)
+function slot0.updateShipList(slot0, slot1)
 	slot2 = slot0.prayProxy:getSelectedShipIDList()
 
-	slot0.shipListSC.onUpdateItem = function (slot0, slot1)
+	function slot0.shipListSC.onUpdateItem(slot0, slot1)
 		GetImageSpriteFromAtlasAsync("SquareIcon/" .. Ship.getPaintingName(slot2), "", slot3)
 		setFrame(slot4, slot6)
 		setImageSprite(slot7, GetSpriteFromAtlas("weaponframes", "bg" .. slot6))
@@ -241,14 +241,14 @@ slot0.updateShipList = function (slot0, slot1)
 		end, SFX_PANEL)
 	end
 
-	slot0.shipListSC.onReturnItem = function (slot0, slot1)
+	function slot0.shipListSC.onReturnItem(slot0, slot1)
 		return
 	end
 
 	slot0.shipListSC:SetTotalCount(#slot1)
 end
 
-slot0.orderIDListByRarity = function (slot0, slot1)
+function slot0.orderIDListByRarity(slot0, slot1)
 	table.sort(slot1, function (slot0, slot1)
 		print("ID1 " .. slot0)
 		print("ID2 " .. slot1)
@@ -257,7 +257,7 @@ slot0.orderIDListByRarity = function (slot0, slot1)
 	end)
 end
 
-slot0.fliteShipIDList = function (slot0)
+function slot0.fliteShipIDList(slot0)
 	slot1 = {}
 
 	if slot0.prayProxy:getSelectedShipIDList() and #slot2 > 0 then

@@ -39,17 +39,17 @@ slot0.ORDER_MODE_DASC = 2
 slot0.TYPE_SHOP = "SortForShop"
 slot0.TYPE_DECORATION = "SortForDecorate"
 
-slot0.getBackyardThemeConfig = function (slot0)
+function slot0.getBackyardThemeConfig(slot0)
 	return pg.backyard_theme_template
 end
 
-slot0.Ctor = function (slot0, slot1, slot2)
+function slot0.Ctor(slot0, slot1, slot2)
 	slot0.super.Ctor(slot0, slot1)
 
 	slot0.type = slot2
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot1 = slot0._go
 	slot0.sortTpl = slot0:findTF("bg/sort_tpl")
 	slot0.filterTpl = slot0:findTF("bg/filter_tpl")
@@ -68,15 +68,15 @@ slot0.init = function (slot0)
 	slot0.onHideFunc = nil
 end
 
-slot0.setFilterData = function (slot0, slot1)
+function slot0.setFilterData(slot0, slot1)
 	slot0.furnitures = slot1 or {}
 end
 
-slot0.updateOrderMode = function (slot0, slot1)
+function slot0.updateOrderMode(slot0, slot1)
 	slot0.orderMode = slot1
 end
 
-slot0.attach = function (slot0, slot1)
+function slot0.attach(slot0, slot1)
 	slot0.super.attach(slot0, slot1)
 	onButton(slot0, slot0:findTF("bg/frame/confirm_btn"), function ()
 		slot0:filter()
@@ -95,7 +95,7 @@ slot0.attach = function (slot0, slot1)
 	triggerToggle(slot0.sortBtns[1], true)
 end
 
-slot0.initSortPanel = function (slot0)
+function slot0.initSortPanel(slot0)
 	slot0.sortBtns = {}
 
 	for slot4, slot5 in pairs(slot0.SORT_TAG) do
@@ -114,14 +114,14 @@ slot0.initSortPanel = function (slot0)
 	end
 end
 
-slot0.onSwitch = function (slot0, slot1, slot2)
+function slot0.onSwitch(slot0, slot1, slot2)
 	onToggle(slot0, slot1, function (slot0)
 		setActive(slot0:Find("mark"), not slot0)
 		setActive(slot0)
 	end, SFX_PANEL)
 end
 
-slot0.initFilterPanel = function (slot0)
+function slot0.initFilterPanel(slot0)
 	slot0.filterBtns = {}
 
 	for slot4, slot5 in ipairs(slot0.filterConfig.all) do
@@ -188,7 +188,7 @@ slot0.initFilterPanel = function (slot0)
 	end, SFX_PANEL)
 end
 
-slot0.isSelectedAll = function (slot0)
+function slot0.isSelectedAll(slot0)
 	return (_.all(_.select(slot0.filterConfig.all, function (slot0)
 		return slot0.filterConfig[slot0].is_view == 1
 	end), function (slot0)
@@ -196,11 +196,11 @@ slot0.isSelectedAll = function (slot0)
 	end) and slot0.otherTFToggle.isOn == true) or slot0:isSelectedNone()
 end
 
-slot0.isSelectedNone = function (slot0)
+function slot0.isSelectedNone(slot0)
 	return #slot0.filterData == 0 and slot0.otherTFToggle.isOn == false
 end
 
-slot0.getFurnituresByThemeId = function (slot0, slot1)
+function slot0.getFurnituresByThemeId(slot0, slot1)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(pg.furniture_data_template.all) do
@@ -214,7 +214,7 @@ slot0.getFurnituresByThemeId = function (slot0, slot1)
 	return slot3
 end
 
-slot0.filter = function (slot0)
+function slot0.filter(slot0)
 	if table.getCount(slot0.furnitures) == 0 then
 		return
 	end
@@ -251,7 +251,7 @@ slot0.filter = function (slot0)
 	slot0:sort(slot0.furnitures)
 end
 
-slot0.SORT_BY_FUNC = function (slot0, slot1, slot2, slot3, slot4)
+function slot0.SORT_BY_FUNC(slot0, slot1, slot2, slot3, slot4)
 	if slot0[slot2](slot0) == slot1[slot2](slot1) then
 		return slot4()
 	elseif slot3 == slot0.ORDER_MODE_ASC then
@@ -261,7 +261,7 @@ slot0.SORT_BY_FUNC = function (slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-slot0.SORT_BY_CONFIG = function (slot0, slot1, slot2, slot3, slot4)
+function slot0.SORT_BY_CONFIG(slot0, slot1, slot2, slot3, slot4)
 	if slot0:getConfig(slot2) == slot1:getConfig(slot2) then
 		return slot4()
 	elseif slot3 == slot0.ORDER_MODE_ASC then
@@ -271,7 +271,7 @@ slot0.SORT_BY_CONFIG = function (slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-slot0.SortForShop = function (slot0, slot1, slot2)
+function slot0.SortForShop(slot0, slot1, slot2)
 	slot3 = slot2[1]
 	slot4 = slot2[2]
 	slot6 = slot2[4]
@@ -300,7 +300,7 @@ slot0.SortForShop = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.SortForDecorate = function (slot0, slot1, slot2)
+function slot0.SortForDecorate(slot0, slot1, slot2)
 	slot3 = slot2[1]
 	slot4 = slot2[2]
 	slot6 = slot2[4]
@@ -328,7 +328,7 @@ slot0.SortForDecorate = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.sort = function (slot0, slot1)
+function slot0.sort(slot0, slot1)
 	table.sort(slot1, function (slot0, slot1)
 		return slot0[slot1.type](slot0, slot1, {
 			slot1.sortData[1],
@@ -341,7 +341,7 @@ slot0.sort = function (slot0, slot1)
 	slot0.furnitures = slot1
 end
 
-slot0.filterFurnitures = function (slot0, slot1, slot2)
+function slot0.filterFurnitures(slot0, slot1, slot2)
 	if slot2 then
 		slot0:updateOrderMode(slot2)
 	end
@@ -350,11 +350,11 @@ slot0.filterFurnitures = function (slot0, slot1, slot2)
 	slot0:filter()
 end
 
-slot0.show = function (slot0)
+function slot0.show(slot0)
 	setActive(slot0._go, true)
 end
 
-slot0.hide = function (slot0)
+function slot0.hide(slot0)
 	setActive(slot0._go, false)
 
 	if slot0.onHideFunc then

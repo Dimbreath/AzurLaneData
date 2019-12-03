@@ -2,7 +2,7 @@ slot0 = class("GuildFacilityMediator", import("..base.ContextMediator"))
 slot0.ON_UPGRADE = "GuildFacilityMediator:ON_UPGRADE"
 slot0.ON_CONTRIBUTE = "GuildFacilityMediator:ON_CONTRIBUTE"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0:bind(slot0.ON_UPGRADE, function (slot0, slot1)
 		slot0:sendNotification(GAME.GUILD_FACILITY_UPGRADE, slot1)
 	end)
@@ -15,7 +15,7 @@ slot0.register = function (slot0)
 	slot0.viewComponent:setGuildVO(getProxy(GuildProxy):getData())
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GuildProxy.GUILD_UPDATED,
 		PlayerProxy.UPDATED,
@@ -24,7 +24,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if GuildProxy.GUILD_UPDATED == slot1:getName() then

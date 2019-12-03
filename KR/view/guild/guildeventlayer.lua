@@ -1,6 +1,6 @@
 slot0 = class("GuildEventLayer", import("..base.BaseUI"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	if GuildEventLayer.UI_TYPE == Guild.FACTION_TYPE_BLHX then
 		return "GuildEventBlueUI"
 	elseif GuildEventLayer.UI_TYPE == Guild.FACTION_TYPE_CSZZ then
@@ -8,15 +8,15 @@ slot0.getUIName = function (slot0)
 	end
 end
 
-slot0.setPlayerVO = function (slot0, slot1)
+function slot0.setPlayerVO(slot0, slot1)
 	slot0.playerVO = slot1
 end
 
-slot0.setEvent = function (slot0, slot1)
+function slot0.setEvent(slot0, slot1)
 	slot0.guildEvent = slot1
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.mainPanel = slot0:findTF("main")
 	slot0.leftPanel = slot0:findTF("left", slot0.mainPanel)
 	slot0.paintTF = slot0:findTF("painting", slot0.leftPanel)
@@ -43,7 +43,7 @@ slot0.init = function (slot0)
 	slot0.timeTxt = slot0:findTF("time_container/Text", slot0.rightTopPanel):GetComponent(typeof(Text))
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	onButton(slot0, slot0.awardBtn, function ()
 		slot0:emit(GuildEventMediator.OPEN_TASK)
 	end, SFX_PANEL)
@@ -66,11 +66,11 @@ slot0.didEnter = function (slot0)
 	slot0:updateRankList()
 end
 
-slot0.getBossMaxHp = function (slot0, slot1, slot2)
+function slot0.getBossMaxHp(slot0, slot1, slot2)
 	return slot2.durability + slot2.durability_growth * (slot1 - 1) / 1000
 end
 
-slot0.updateEvent = function (slot0)
+function slot0.updateEvent(slot0)
 	if slot0.guildEvent then
 		slot0.levelTxt.text = slot0.guildEvent.bossLevel
 		slot0.shiptypeImg.sprite = GetSpriteFromAtlas("shiptype", pg.enemy_data_statistics[pg.guild_boss_template[slot0.guildEvent.bossId].enemy_id].type)
@@ -90,7 +90,7 @@ slot0.updateEvent = function (slot0)
 	end
 end
 
-slot0.updateRankList = function (slot0)
+function slot0.updateRankList(slot0)
 	if slot0.guildEvent and not slot0.guildEvent:isEnd() then
 		if not slot0.guildEvent:getMemberRankList() or #slot1 <= 0 then
 			slot0:emit(GuildEventMediator.GET_RANK_LIST)
@@ -112,18 +112,18 @@ slot0.updateRankList = function (slot0)
 	end
 end
 
-slot0.updateRank = function (slot0, slot1, slot2)
+function slot0.updateRank(slot0, slot1, slot2)
 	setText(slot1:Find("rank"), "No." .. slot2)
 	setText(slot1:Find("name"), slot0.guildEvent:getMemberRankList()[slot2].name)
 	setText(slot1:Find("value"), slot0.guildEvent.getMemberRankList()[slot2].getDamage(slot4))
 	setActive(slot1:Find("arr"), slot0.guildEvent:getMemberRankList()[slot2].id == slot0.playerVO.id)
 end
 
-slot0.showAdditions = function (slot0)
+function slot0.showAdditions(slot0)
 	return
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	return
 end
 

@@ -3,7 +3,7 @@ slot0.DEV_TOKEN = "2KtJzaeLzGnPUhtOY4-LYw"
 slot0.ANDROID_LINK_ID = "DE31AE06D3CE21EE3A9E1A1BCEB506E1"
 slot0.IOS_LINK_ID = "F7FE029D3F957A107D358D2BB93CA7E2"
 
-slot0.Ctor = function (slot0)
+function slot0.Ctor(slot0)
 	slot0.mapping = {
 		[TRACKING_ROLE_CREATE] = "role_create",
 		[TRACKING_ROLE_LOGIN] = "role_login",
@@ -24,7 +24,7 @@ slot0.Ctor = function (slot0)
 	}
 end
 
-slot0.Tracking = function (slot0, slot1, slot2, slot3)
+function slot0.Tracking(slot0, slot1, slot2, slot3)
 	if slot0.mapping[slot1] == nil then
 		return
 	end
@@ -89,7 +89,7 @@ slot0.Tracking = function (slot0, slot1, slot2, slot3)
 	print("track done.")
 end
 
-slot0.YS_S2S = function (slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
+function slot0.YS_S2S(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	slot8 = pg.SdkMgr.GetInstance():GetChannelUID() == "0"
 	slot9 = "https://www.googleadservices.com/pagead/conversion/app/1.0?"
 	slot10 = {
@@ -129,7 +129,7 @@ slot0.YS_S2S = function (slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	end)
 end
 
-slot0.transMoney = function (slot0, slot1)
+function slot0.transMoney(slot0, slot1)
 	return string.format("%.2f", slot1 / 100)
 end
 

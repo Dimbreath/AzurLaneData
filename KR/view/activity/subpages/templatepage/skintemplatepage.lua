@@ -1,6 +1,6 @@
 slot0 = class("SkinTemplatePage", import("....base.BaseActivityPage"))
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.dayTF = slot0:findTF("day", slot0.bg)
 	slot0.item = slot0:findTF("item", slot0.bg)
@@ -10,7 +10,7 @@ slot0.OnInit = function (slot0)
 	setActive(slot0.item, false)
 end
 
-slot0.OnDataSetting = function (slot0)
+function slot0.OnDataSetting(slot0)
 	slot0.nday = 0
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot0.taskGroup = slot0.activity:getConfig("config_data")
@@ -18,7 +18,7 @@ slot0.OnDataSetting = function (slot0)
 	return updateActivityTaskStatus(slot0.activity)
 end
 
-slot0.OnFirstFlush = function (slot0)
+function slot0.OnFirstFlush(slot0)
 	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 	slot0.uilist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -42,7 +42,7 @@ slot0.OnFirstFlush = function (slot0)
 	end)
 end
 
-slot0.OnUpdateFlush = function (slot0)
+function slot0.OnUpdateFlush(slot0)
 	slot0.nday = slot0.activity.data3
 
 	if checkExist(slot0.activity:getConfig("config_client").story, {
@@ -60,7 +60,7 @@ slot0.OnUpdateFlush = function (slot0)
 	slot0.uilist:align(#slot0.taskGroup[slot0.nday])
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	eachChild(slot0.items, function (slot0)
 		Destroy(slot0)
 	end)

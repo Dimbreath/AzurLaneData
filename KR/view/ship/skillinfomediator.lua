@@ -2,7 +2,7 @@ slot0 = class("SkillInfoMediator", import("..base.ContextMediator"))
 slot0.WARP_TO_TACTIC = "SkillInfoMediator:WARP_TO_TACTIC"
 slot1 = 10
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0:bind(slot0.WARP_TO_TACTIC, function (slot0)
 		slot1 = getProxy(NavalAcademyProxy)
 		slot2 = slot1:getStudents()
@@ -55,11 +55,11 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot2 = slot1:getName()
 	slot3 = slot1:getBody()
 end

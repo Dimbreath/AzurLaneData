@@ -3,11 +3,11 @@ slot1 = class("AutoPilotBrownian", ys.Battle.IPilot)
 ys.Battle.AutoPilotBrownian = slot1
 slot1.__name = "AutoPilotBrownian"
 
-slot1.Ctor = function (slot0, ...)
+function slot1.Ctor(slot0, ...)
 	slot0.super.Ctor(slot0, ...)
 end
 
-slot1.SetParameter = function (slot0, slot1, slot2)
+function slot1.SetParameter(slot0, slot1, slot2)
 	slot0.super.SetParameter(slot0, slot1, slot2)
 
 	slot0._randomPoint = {
@@ -22,7 +22,7 @@ slot1.SetParameter = function (slot0, slot1, slot2)
 	slot0._duration = slot1.duration
 end
 
-slot1.Active = function (slot0, slot1)
+function slot1.Active(slot0, slot1)
 	slot0._stopCount = slot0._stop
 	slot0._moveCount = 0
 	slot0._randomCount = 0
@@ -31,7 +31,7 @@ slot1.Active = function (slot0, slot1)
 	slot1.super.Active(slot0, slot1)
 end
 
-slot1.GetDirection = function (slot0, slot1)
+function slot1.GetDirection(slot0, slot1)
 	if slot0._duration > 0 and slot0._duration < pg.TimeMgr.GetInstance():GetCombatTime() - slot0._startTime then
 		slot0:Finish()
 

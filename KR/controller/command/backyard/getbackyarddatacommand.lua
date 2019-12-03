@@ -1,6 +1,6 @@
 slot0 = class("GetBackYardDataCommand", pm.SimpleCommand)
 
-slot0.execute = function (slot0, slot1)
+function slot0.execute(slot0, slot1)
 	slot4 = slot1:getBody().isMine
 	slot5 = Dorm.New(slot3)
 	slot6 = {}
@@ -26,7 +26,7 @@ slot0.execute = function (slot0, slot1)
 	slot0:sendNotification(GAME.GET_BACKYARD_DATA_DONE, slot5)
 end
 
-slot0.initFurnitures = function (slot0)
+function slot0.initFurnitures(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.furniture_id_list) do
@@ -47,7 +47,7 @@ slot0.initFurnitures = function (slot0)
 	return slot1
 end
 
-slot0.allocFurnituresId = function (slot0, slot1)
+function slot0.allocFurnituresId(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot0.furniture_put_list) do
@@ -94,7 +94,7 @@ slot0.allocFurnituresId = function (slot0, slot1)
 	slot0.checkFurnitures(slot2, slot1, slot0.lv)
 end
 
-slot0.checkFurnitures = function (slot0, slot1, slot2)
+function slot0.checkFurnitures(slot0, slot1, slot2)
 	for slot6, slot7 in pairs(slot0) do
 		for slot11, slot12 in pairs(slot7) do
 			if slot12.position then
@@ -125,7 +125,7 @@ slot0.checkFurnitures = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.allocFurnitureIdByChild = function (slot0, slot1, slot2)
+function slot0.allocFurnitureIdByChild(slot0, slot1, slot2)
 	if slot2[tonumber(slot0.child[1].id)] then
 		function slot6(slot0)
 			if not slot0[tonumber(slot0.parent)] then
@@ -164,7 +164,7 @@ slot0.allocFurnitureIdByChild = function (slot0, slot1, slot2)
 	return tonumber(slot0.id)
 end
 
-slot0.allocFurnitureIdByParent = function (slot0, slot1, slot2)
+function slot0.allocFurnitureIdByParent(slot0, slot1, slot2)
 	slot3 = tonumber(slot0.id)
 
 	if slot2[slot1] then
@@ -200,7 +200,7 @@ slot0.allocFurnitureIdByParent = function (slot0, slot1, slot2)
 	return slot3
 end
 
-slot0.allocSameFurnitureId = function (slot0, slot1)
+function slot0.allocSameFurnitureId(slot0, slot1)
 	slot2 = tonumber(slot0.id)
 
 	for slot6 = 1, slot0.count - 1, 1 do

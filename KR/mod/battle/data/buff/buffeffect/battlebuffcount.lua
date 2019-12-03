@@ -3,11 +3,11 @@ slot1 = class("BattleBuffCount", ys.Battle.BattleBuffEffect)
 ys.Battle.BattleBuffCount = slot1
 slot1.__name = "BattleBuffCount"
 
-slot1.Ctor = function (slot0, slot1)
+function slot1.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 end
 
-slot1.SetArgs = function (slot0, slot1, slot2)
+function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._countTarget = slot0._tempData.arg_list.countTarget or 1
 	slot0._countType = slot0._tempData.arg_list.countType
 	slot0._weaponType = slot0._tempData.arg_list.weaponType
@@ -16,7 +16,7 @@ slot1.SetArgs = function (slot0, slot1, slot2)
 	slot0:ResetCount()
 end
 
-slot1.onTrigger = function (slot0, slot1, slot2)
+function slot1.onTrigger(slot0, slot1, slot2)
 	slot0.super.onTrigger(slot0, slot1, slot2)
 
 	slot0._count = slot0._count + 1
@@ -28,7 +28,7 @@ slot1.onTrigger = function (slot0, slot1, slot2)
 	end
 end
 
-slot1.onTakeDamage = function (slot0, slot1, slot2, slot3)
+function slot1.onTakeDamage(slot0, slot1, slot2, slot3)
 	slot0._count = slot0._count + slot3.damage
 
 	if slot0._countTarget <= slot0._count then
@@ -38,7 +38,7 @@ slot1.onTakeDamage = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-slot1.onTakeHealing = function (slot0, slot1, slot2, slot3)
+function slot1.onTakeHealing(slot0, slot1, slot2, slot3)
 	slot0._count = slot0._count + slot3.damage
 
 	if slot0._countTarget <= slot0._count then
@@ -48,7 +48,7 @@ slot1.onTakeHealing = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-slot1.onBulletHit = function (slot0, slot1, slot2, slot3)
+function slot1.onBulletHit(slot0, slot1, slot2, slot3)
 	if not slot0:equipIndexRequire(slot3.equipIndex) then
 		return
 	end
@@ -62,11 +62,11 @@ slot1.onBulletHit = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-slot1.GetCountType = function (slot0)
+function slot1.GetCountType(slot0)
 	return slot0._countType
 end
 
-slot1.ResetCount = function (slot0)
+function slot1.ResetCount(slot0)
 	slot0._count = 0
 end
 

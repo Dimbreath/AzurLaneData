@@ -3,37 +3,37 @@ slot1 = ys.Battle.BattleConst
 ys.Battle.FreeDiveOxyState = class("FreeDiveOxyState", ys.Battle.IOxyState)
 ys.Battle.FreeDiveOxyState.__name = "FreeDiveOxyState"
 
-ys.Battle.FreeDiveOxyState.Ctor = function (slot0)
+function ys.Battle.FreeDiveOxyState.Ctor(slot0)
 	slot0.super.Ctor(slot0)
 end
 
-ys.Battle.FreeDiveOxyState.GetWeaponUseableList = function (slot0)
+function ys.Battle.FreeDiveOxyState.GetWeaponUseableList(slot0)
 	return {
 		slot0.OXY_STATE.DIVE
 	}
 end
 
-ys.Battle.FreeDiveOxyState.GetDiveState = function (slot0)
+function ys.Battle.FreeDiveOxyState.GetDiveState(slot0)
 	return slot0.OXY_STATE.DIVE
 end
 
-ys.Battle.FreeDiveOxyState.GetBubbleFlag = function (slot0)
+function ys.Battle.FreeDiveOxyState.GetBubbleFlag(slot0)
 	return true
 end
 
-ys.Battle.FreeDiveOxyState.DoUpdateOxy = function (slot0, slot1)
+function ys.Battle.FreeDiveOxyState.DoUpdateOxy(slot0, slot1)
 	slot1:OxyConsume()
 end
 
-ys.Battle.FreeDiveOxyState.IsVisible = function (slot0)
+function ys.Battle.FreeDiveOxyState.IsVisible(slot0)
 	return false
 end
 
-ys.Battle.FreeDiveOxyState.GetBarVisible = function (slot0)
+function ys.Battle.FreeDiveOxyState.GetBarVisible(slot0)
 	return true
 end
 
-ys.Battle.FreeDiveOxyState.RunMode = function (slot0)
+function ys.Battle.FreeDiveOxyState.RunMode(slot0)
 	return true
 end
 

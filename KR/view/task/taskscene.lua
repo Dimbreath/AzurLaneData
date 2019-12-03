@@ -2,15 +2,15 @@ slot0 = class("TaskScene", import("..base.BaseUI"))
 slot0.CHAT_SHOW_TIME = 2
 slot0.CHAT_ANIMATION_TIME = 0.3
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "TaskScene"
 end
 
-slot0.setTaskVOs = function (slot0, slot1)
+function slot0.setTaskVOs(slot0, slot1)
 	slot0.taskVOsById = slot1
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	require("ShareCfg.task_ui_config")
 
 	slot0._topPanel = slot0:findTF("blur_panel/adapt/top")
@@ -30,13 +30,13 @@ slot0.init = function (slot0)
 	setText(slot0.listEmptyTxt, i18n("list_empty_tip_taskscene"))
 end
 
-slot0.setTaskStoryIconRes = function (slot0, slot1, slot2)
+function slot0.setTaskStoryIconRes(slot0, slot1, slot2)
 	slot3 = slot0:findTF("taskTagOb/" .. slot2) or cloneTplTo(slot0.taskIconTpl, slot0:findTF("taskTagOb"))
 
 	slot0:setSpriteTo("taskTagOb/" .. slot2, slot1, true)
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	onButton(slot0, slot0._backBtn, function ()
 		slot0:emit(slot1.ON_BACK)
 	end, SFX_CANCEL)
@@ -59,23 +59,23 @@ slot0.didEnter = function (slot0)
 	end
 end
 
-slot0.createTasks = function (slot0)
+function slot0.createTasks(slot0)
 	slot0.taskCards = {}
 
-	slot0._scrollView.onInitItem = function (slot0)
+	function slot0._scrollView.onInitItem(slot0)
 		slot0:onInitTask(slot0)
 	end
 
-	slot0._scrollView.onUpdateItem = function (slot0, slot1)
+	function slot0._scrollView.onUpdateItem(slot0, slot1)
 		slot0:onUpdateTask(slot0, slot1)
 	end
 end
 
-slot0.onInitTask = function (slot0, slot1)
+function slot0.onInitTask(slot0, slot1)
 	slot0.taskCards[slot1] = TaskCard.New(slot1, slot0)
 end
 
-slot0.onUpdateTask = function (slot0, slot1, slot2)
+function slot0.onUpdateTask(slot0, slot1, slot2)
 	if not slot0.taskCards[slot2] then
 		slot0:onInitTask(slot2)
 
@@ -85,7 +85,7 @@ slot0.onUpdateTask = function (slot0, slot1, slot2)
 	slot3:update(slot0.taskVOs[slot1 + 1])
 end
 
-slot0.filterTasks = function (slot0, slot1)
+function slot0.filterTasks(slot0, slot1)
 	slot0.taskVOs = {}
 	slot0._currentToggleType = slot1
 	slot2 = pg.taskUIConfig.filter[slot0._currentToggleType]
@@ -102,7 +102,7 @@ slot0.filterTasks = function (slot0, slot1)
 	slot0:updateOneStepBtn()
 end
 
-slot0.sortTasks = function (slot0)
+function slot0.sortTasks(slot0)
 	function slot1(slot0, slot1, slot2)
 		return slot3(slot0) < slot3(slot1)
 	end
@@ -148,7 +148,7 @@ slot0.sortTasks = function (slot0)
 	end)
 end
 
-slot0.initTypeTag = function (slot0)
+function slot0.initTypeTag(slot0)
 	slot0.toggles = {}
 
 	for slot5, slot6 in pairs(slot1) do
@@ -162,7 +162,7 @@ slot0.initTypeTag = function (slot0)
 	end
 end
 
-slot0.addTask = function (slot0, slot1)
+function slot0.addTask(slot0, slot1)
 	print("add tgsk " .. slot1.id)
 
 	slot0.taskVOsById[slot1.id] = slot1
@@ -170,7 +170,7 @@ slot0.addTask = function (slot0, slot1)
 	slot0:filterTasks(slot0._currentToggleType)
 end
 
-slot0.removeTask = function (slot0, slot1)
+function slot0.removeTask(slot0, slot1)
 	print("revemo tgsk " .. slot1.id)
 
 	slot0.taskVOsById[slot1.id] = nil
@@ -178,15 +178,15 @@ slot0.removeTask = function (slot0, slot1)
 	slot0:filterTasks(slot0._currentToggleType)
 end
 
-slot0.updateTask = function (slot0, slot1)
+function slot0.updateTask(slot0, slot1)
 	slot0:addTask(slot1)
 end
 
-slot0.GoToFilter = function (slot0, slot1)
+function slot0.GoToFilter(slot0, slot1)
 	triggerToggle(slot0:findTF(slot1, slot0._tagRoot), true)
 end
 
-slot0.onSubmit = function (slot0, slot1)
+function slot0.onSubmit(slot0, slot1)
 	if slot0.onShowAwards then
 		return
 	end
@@ -194,7 +194,7 @@ slot0.onSubmit = function (slot0, slot1)
 	slot0:emit(TaskMediator.ON_TASK_SUBMIT, slot1)
 end
 
-slot0.onGo = function (slot0, slot1)
+function slot0.onGo(slot0, slot1)
 	if slot0.onShowAwards then
 		return
 	end
@@ -202,7 +202,7 @@ slot0.onGo = function (slot0, slot1)
 	slot0:emit(TaskMediator.ON_TASK_GO, slot1)
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	for slot4, slot5 in pairs(slot0.taskCards) do
 		slot5:dispose()
 	end
@@ -214,7 +214,7 @@ slot0.willExit = function (slot0)
 	slot1 = pg.taskUIConfig
 end
 
-slot0.updateOneStepBtn = function (slot0)
+function slot0.updateOneStepBtn(slot0)
 	slot1 = {}
 	slot2 = {}
 

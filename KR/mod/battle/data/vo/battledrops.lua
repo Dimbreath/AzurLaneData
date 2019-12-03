@@ -3,7 +3,7 @@ slot1 = class("BattleDrops")
 ys.Battle.BattleDrops = slot1
 slot1.__name = "BattleDrops"
 
-slot1.Ctor = function (slot0, slot1)
+function slot1.Ctor(slot0, slot1)
 	slot0.EventDispatcher.AttachEventDispatcher(slot0)
 
 	slot0._dropList = slot1
@@ -11,7 +11,7 @@ slot1.Ctor = function (slot0, slot1)
 	slot0._itemCount = 0
 end
 
-slot1.CreateDrops = function (slot0, slot1)
+function slot1.CreateDrops(slot0, slot1)
 	slot2 = {}
 
 	if slot0._dropList[slot1] ~= nil and #slot3 > 0 then
@@ -30,11 +30,11 @@ slot1.CreateDrops = function (slot0, slot1)
 	return slot2
 end
 
-slot1.GetDropped = function (slot0)
+function slot1.GetDropped(slot0)
 	return slot0._resourceCount, slot0._itemCount
 end
 
-slot1.Dispose = function (slot0)
+function slot1.Dispose(slot0)
 	slot0.EventDispatcher.DetachEventDispatcher(slot0)
 end
 

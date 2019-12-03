@@ -3,7 +3,7 @@ slot0.APPLY = "JoinGuildMediator:APPLY"
 slot0.REFRESH = "JoinGuildMediator:REFRESH"
 slot0.SEARCH = "JoinGuildMediator:SEARCH"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0:sendNotification(GAME.GUILD_LIST_REFRESH)
 	slot0.viewComponent:setPlayerVO(slot2)
 	slot0:bind(slot0.APPLY, function (slot0, slot1, slot2)
@@ -20,7 +20,7 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.GUILD_LIST_REFRESH_DONE,
 		GAME.GUILD_SEARCH_DONE,
@@ -29,7 +29,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.GUILD_LIST_REFRESH_DONE or slot2 == GAME.GUILD_SEARCH_DONE then

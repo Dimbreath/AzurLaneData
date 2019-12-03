@@ -3,11 +3,11 @@ slot1 = class("BattleSpecialWeapon", ys.Battle.BattleWeaponUnit)
 ys.Battle.BattleSpecialWeapon = slot1
 slot1.__name = "BattleSpecialWeapon"
 
-slot1.Ctor = function (slot0)
+function slot1.Ctor(slot0)
 	slot0.super.Ctor(slot0)
 end
 
-slot1.CheckPreCast = function (slot0)
+function slot1.CheckPreCast(slot0)
 	slot1 = slot0._dataProxy:GetSeqCenter()
 
 	if not slot0._tmpData.bullet_ID[1] then
@@ -33,7 +33,7 @@ slot1.CheckPreCast = function (slot0)
 	return true
 end
 
-slot1.Fire = function (slot0)
+function slot1.Fire(slot0)
 	slot2 = slot0._tmpData.bullet_ID[1]
 	slot4 = slot0._dataProxy:GetSeqCenter().NewSeq(slot1, "cast")
 	slot5 = slot0.Battle.NodeData.New(slot0._host, slot3, slot4)

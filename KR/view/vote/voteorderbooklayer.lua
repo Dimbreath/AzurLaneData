@@ -1,10 +1,10 @@
 slot0 = class("VoteOrderBookLayer", import("..base.BaseUI"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "VoteOrderBookUI"
 end
 
-slot0.setOrderBook = function (slot0, slot1)
+function slot0.setOrderBook(slot0, slot1)
 	slot0.orderBook = slot1
 	slot0.targetDir = slot0.orderBook:GetDir()
 	slot0.dirs = slot0.orderBook:GetBitEncode()
@@ -21,7 +21,7 @@ slot0.setOrderBook = function (slot0, slot1)
 	}
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.backBtn = slot0._tf
 	slot0.timeTF = slot0:findTF("window/main/time"):GetComponent(typeof(Text))
 	slot0.submitBtn = slot0:findTF("window/main/sbumit")
@@ -70,7 +70,7 @@ slot0.init = function (slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	slot0.dirTF.localScale = Vector3((slot0.targetDir == VoteOrderBook.TYPE_POSITIVE and -1) or 1, 1, 1)
 
 	slot0:LoadChars()
@@ -89,7 +89,7 @@ slot0.didEnter = function (slot0)
 	slot0.awardCntTF.text = slot0.awardCnt
 end
 
-slot0.LoadChars = function (slot0)
+function slot0.LoadChars(slot0)
 	function slot1(slot0, slot1, slot2)
 		if slot2 then
 			rtf(slot3).pivot = getSpritePivot(slot2)
@@ -122,7 +122,7 @@ slot0.LoadChars = function (slot0)
 	end)
 end
 
-slot0.AddOverTimer = function (slot0)
+function slot0.AddOverTimer(slot0)
 	slot1 = slot0.orderBook:GetEndTime()
 	slot0.timer = Timer.New(function ()
 		if slot0 - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
@@ -138,7 +138,7 @@ slot0.AddOverTimer = function (slot0)
 	slot0.timer.func()
 end
 
-slot0.RemoveOverTimer = function (slot0)
+function slot0.RemoveOverTimer(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -146,7 +146,7 @@ slot0.RemoveOverTimer = function (slot0)
 	end
 end
 
-slot0.PlayAnim = function (slot0, slot1, slot2)
+function slot0.PlayAnim(slot0, slot1, slot2)
 	if slot1 then
 		setActive(slot0.sucess, true)
 		slot0.sucessAnim:Play("blink")
@@ -166,7 +166,7 @@ slot0.PlayAnim = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	slot0.failedDftAniEvent:SetEndEvent(nil)
 	slot0.sucessDftAniEvent:SetEndEvent(nil)
 	slot0:RemoveOverTimer()

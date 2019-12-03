@@ -6,11 +6,11 @@ slot4 = class("BattleSubCharacter", ys.Battle.BattlePlayerCharacter)
 ys.Battle.BattleSubCharacter = slot4
 slot4.__name = "BattleSubCharacter"
 
-slot4.Ctor = function (slot0)
+function slot4.Ctor(slot0)
 	slot0.super.Ctor(slot0)
 end
 
-slot4.AddArrowBar = function (slot0, slot1)
+function slot4.AddArrowBar(slot0, slot1)
 	slot0.super.AddArrowBar(slot0, slot1)
 
 	slot0._vectorOxygenSlider = slot0._arrowBarTf:Find("submarine/oxygenBar/oxygen"):GetComponent(typeof(Slider))
@@ -19,7 +19,7 @@ slot4.AddArrowBar = function (slot0, slot1)
 	slot0._vectorAmmoCount.text = slot2 .. "/" .. #slot0._unitData:GetTorpedoList()
 end
 
-slot4.Update = function (slot0)
+function slot4.Update(slot0)
 	slot0.super.Update(slot0)
 
 	if not slot0._inViewArea then
@@ -27,11 +27,11 @@ slot4.Update = function (slot0)
 	end
 end
 
-slot4.updateOxygenVector = function (slot0)
+function slot4.updateOxygenVector(slot0)
 	slot0._vectorOxygenSlider.value = slot0._unitData:GetOxygenProgress()
 end
 
-slot4.onTorpedoWeaponFire = function (slot0, slot1)
+function slot4.onTorpedoWeaponFire(slot0, slot1)
 	slot0.super.onTorpedoWeaponFire(slot0, slot1)
 
 	slot2 = 0

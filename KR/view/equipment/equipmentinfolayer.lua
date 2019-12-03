@@ -1,6 +1,6 @@
 slot0 = class("EquipmentInfoLayer", import("..base.BaseUI"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "EquipmentInfoUI"
 end
 
@@ -27,7 +27,7 @@ slot0.pos = {
 	}
 }
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.toggles = {}
 
 	for slot5, slot6 in ipairs(slot1) do
@@ -44,27 +44,27 @@ slot0.init = function (slot0)
 	setActive(slot0.sample, false)
 end
 
-slot0.setEquipment = function (slot0, slot1)
+function slot0.setEquipment(slot0, slot1)
 	slot0.equipmentVO = slot1
 end
 
-slot0.setShip = function (slot0, slot1, slot2)
+function slot0.setShip(slot0, slot1, slot2)
 	slot0.shipVO = slot1
 	slot0.oldShipVO = slot2
 end
 
-slot0.setPlayer = function (slot0, slot1)
+function slot0.setPlayer(slot0, slot1)
 	slot0.player = slot1
 end
 
-slot0.setRevertItem = function (slot0, slot1)
+function slot0.setRevertItem(slot0, slot1)
 	slot0.revertItemVO = slot1 or Item.New({
 		count = 0,
 		id = Item.REVERT_EQUIPMENT_ID
 	})
 end
 
-slot0.checkOverGold = function (slot0, slot1)
+function slot0.checkOverGold(slot0, slot1)
 	if slot0.player:GoldMax(_.detect(slot1, function (slot0)
 		return slot0.type == DROP_TYPE_RESOURCE and slot0.id == 1
 	end).count or 0) then
@@ -76,7 +76,7 @@ slot0.checkOverGold = function (slot0, slot1)
 	return true
 end
 
-slot0.setDestroyCount = function (slot0, slot1)
+function slot0.setDestroyCount(slot0, slot1)
 	if slot0.destroyCount ~= math.clamp(slot1, 1, slot0.equipmentVO.count) then
 		slot0.destroyCount = slot1
 
@@ -84,7 +84,7 @@ slot0.setDestroyCount = function (slot0, slot1)
 	end
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	slot1 = defaultValue(slot0.contextData.type, EquipmentInfoMediator.TYPE_DEFAULT)
 	slot0.isShowUnique = table.contains(EquipmentInfoMediator.SHOW_UNIQUE, slot1)
 
@@ -114,7 +114,7 @@ slot0.didEnter = function (slot0)
 	})
 end
 
-slot0.initAndSetBtn = function (slot0, slot1)
+function slot0.initAndSetBtn(slot0, slot1)
 	if slot1 == EquipmentInfoMediator.TYPE_DEFAULT or slot1 == EquipmentInfoMediator.TYPE_SHIP then
 		slot0.defaultEquipTF = slot0:findTF("equipment", slot0.defaultPanel) or slot0:cloneSampleTo(slot0.defaultPanel, slot0.Middle, "equipment")
 		slot0.defaultReplaceBtn = slot0:findTF("actions/action_button_3", slot0.defaultPanel)
@@ -269,7 +269,7 @@ slot0.initAndSetBtn = function (slot0, slot1)
 	end
 end
 
-slot0.updateOperation1 = function (slot0)
+function slot0.updateOperation1(slot0)
 	triggerToggle(slot0.toggles.defaultPanel, true)
 	slot0:updateEquipmentPanel(slot0.defaultEquipTF, slot0.equipmentVO)
 	setActive(slot0.defaultRevertBtn, slot0.fromEquipmentView and slot0.equipmentVO.config.level > 1 and slot0.revertItemVO.count > 0)
@@ -278,7 +278,7 @@ slot0.updateOperation1 = function (slot0)
 	setActive(slot0.defaultDestroyBtn, slot0.contextData.destroy and slot0.equipmentVO.count > 0)
 end
 
-slot0.updateOperation2 = function (slot0)
+function slot0.updateOperation2(slot0)
 	triggerToggle(slot0.toggles.defaultPanel, true)
 	slot0:updateEquipmentPanel(slot0.defaultEquipTF, slot0.shipVO:getEquip(slot0.contextData.pos))
 	setActive(slot0.defaultDestroyBtn, false)
@@ -292,7 +292,7 @@ slot0.updateOperation2 = function (slot0)
 	end
 end
 
-slot0.updateOperation3 = function (slot0)
+function slot0.updateOperation3(slot0)
 	triggerToggle(slot0.toggles.replacePanel, true)
 	slot0:updateEquipmentPanel(slot0.replaceSrcEquipTF, slot1)
 	slot0:updateEquipmentPanel(slot0.replaceDstEquipTF, slot2, slot0.shipVO:getEquip(slot0.contextData.pos))
@@ -303,7 +303,7 @@ slot0.updateOperation3 = function (slot0)
 	end
 end
 
-slot0.updateOperation4 = function (slot0)
+function slot0.updateOperation4(slot0)
 	triggerToggle(slot0.toggles.displayPanel, true)
 	slot0:updateEquipmentPanel(slot0.displayEquipTF, slot0.equipmentVO)
 	setActive(slot0.displayMoveBtn, slot0.shipVO)
@@ -314,12 +314,12 @@ slot0.updateOperation4 = function (slot0)
 	end
 end
 
-slot0.updateRevertPanel = function (slot0)
+function slot0.updateRevertPanel(slot0)
 	slot0:updateEquipmentPanel(slot0.revertEquipTF, slot2, slot1, true)
 	slot0:updateOperationAward(slot0.revertAwardContainer, slot0.itemTpl, slot0.equipmentVO:getRevertAwards())
 end
 
-slot0.updateDestroyCount = function (slot0)
+function slot0.updateDestroyCount(slot0)
 	setText(slot0.destroyValue, slot1)
 
 	slot2 = {}
@@ -347,7 +347,7 @@ slot0.updateDestroyCount = function (slot0)
 	slot0:updateOperationAward(slot0.destroyBonusList, slot0.destroyBonusItem, slot2)
 end
 
-slot0.updateOperationAward = function (slot0, slot1, slot2, slot3)
+function slot0.updateOperationAward(slot0, slot1, slot2, slot3)
 	slot0.awards = slot3
 
 	if slot1.childCount == 0 then
@@ -369,7 +369,7 @@ slot0.updateOperationAward = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-slot0.updateEquipmentPanel = function (slot0, slot1, slot2, slot3, slot4)
+function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3, slot4)
 	slot5 = (slot3 and slot3:GetProperties(true)) or nil
 
 	setActive(slot6, slot2)
@@ -632,7 +632,7 @@ slot0.updateEquipmentPanel = function (slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-slot0.showDestoryMsgbox = function (slot0, slot1)
+function slot0.showDestoryMsgbox(slot0, slot1)
 	slot0.isOpenDestoryMsgbox = true
 
 	setActive(slot0.destroyMsgBox, true)
@@ -677,13 +677,13 @@ slot0.showDestoryMsgbox = function (slot0, slot1)
 	end, SFX_PANEL)
 end
 
-slot0.closeDestoryMsgbox = function (slot0)
+function slot0.closeDestoryMsgbox(slot0)
 	slot0.isOpenDestoryMsgbox = nil
 
 	setActive(slot0.destroyMsgBox, false)
 end
 
-slot0.cloneSampleTo = function (slot0, slot1, slot2, slot3, slot4)
+function slot0.cloneSampleTo(slot0, slot1, slot2, slot3, slot4)
 	cloneTplTo(slot0.sample, slot1, slot3).localPosition = Vector3.New(slot0.pos[slot2][1], slot0.pos[slot2][2], slot0.pos[slot2][3])
 
 	if slot4 then
@@ -693,11 +693,11 @@ slot0.cloneSampleTo = function (slot0, slot1, slot2, slot3, slot4)
 	return slot5
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
-slot0.onBackPressed = function (slot0)
+function slot0.onBackPressed(slot0)
 	if slot0.isOpenDestoryMsgbox then
 		slot0:closeDestoryMsgbox()
 

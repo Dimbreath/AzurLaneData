@@ -3,11 +3,11 @@ slot1 = class("BattleBuffAddBuff", ys.Battle.BattleBuffEffect)
 ys.Battle.BattleBuffAddBuff = slot1
 slot1.__name = "BattleBuffAddBuff"
 
-slot1.Ctor = function (slot0, slot1)
+function slot1.Ctor(slot0, slot1)
 	slot0.Battle.BattleBuffAddBuff.super.Ctor(slot0, slot1)
 end
 
-slot1.SetArgs = function (slot0, slot1, slot2)
+function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._level = slot2:GetLv()
 	slot0._buff_id = slot0._tempData.arg_list.buff_id
 	slot0._target = slot0._tempData.arg_list.target or "TargetSelf"
@@ -22,7 +22,7 @@ slot1.SetArgs = function (slot0, slot1, slot2)
 	slot0._weaponType = slot0._tempData.arg_list.weaponType
 end
 
-slot1.onUpdate = function (slot0, slot1, slot2, slot3)
+function slot1.onUpdate(slot0, slot1, slot2, slot3)
 	if slot0._nextEffectTime <= slot3 then
 		slot4 = slot0.Battle.BattleBuffUnit.New(slot0._buff_id, slot0._level, slot0._caster)
 
@@ -33,7 +33,7 @@ slot1.onUpdate = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-slot1.onBulletHit = function (slot0, slot1, slot2, slot3)
+function slot1.onBulletHit(slot0, slot1, slot2, slot3)
 	if not slot0:equipIndexRequire(slot3.equipIndex) then
 		return
 	end
@@ -48,7 +48,7 @@ slot1.onBulletHit = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-slot1.onBulletCreate = function (slot0, slot1, slot2, slot3)
+function slot1.onBulletCreate(slot0, slot1, slot2, slot3)
 	if not slot0:equipIndexRequire(slot3.equipIndex) then
 		return
 	end
@@ -64,12 +64,12 @@ slot1.onBulletCreate = function (slot0, slot1, slot2, slot3)
 	end)
 end
 
-slot1.onTrigger = function (slot0, slot1, slot2, slot3)
+function slot1.onTrigger(slot0, slot1, slot2, slot3)
 	slot0.super.onTrigger(slot0, slot1, slot2, slot3)
 	slot0:AddBuff(slot1)
 end
 
-slot1.AddBuff = function (slot0, slot1)
+function slot1.AddBuff(slot0, slot1)
 	if not slot0:ammoRequire(slot1) then
 		return
 	end
@@ -97,7 +97,7 @@ slot1.AddBuff = function (slot0, slot1)
 	end
 end
 
-slot1.Dispose = function (slot0)
+function slot1.Dispose(slot0)
 	slot0.Battle.BattleBuffAddBuff.super:Dispose()
 	pg.TimeMgr.GetInstance():RemoveBattleTimer(slot0._timer)
 

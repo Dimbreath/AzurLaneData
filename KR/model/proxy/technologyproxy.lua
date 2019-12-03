@@ -5,7 +5,7 @@ slot0.BLUEPRINT_ADDED = "TechnologyProxy:BLUEPRINT_ADDED"
 slot0.BLUEPRINT_UPDATED = "TechnologyProxy:BLUEPRINT_UPDATED"
 slot0.REFRESH_UPDATED = "TechnologyProxy:REFRESH_UPDATED"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.tendency = {}
 
 	slot0:on(63000, function (slot0)
@@ -31,12 +31,12 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.setVersion = function (slot0, slot1)
+function slot0.setVersion(slot0, slot1)
 	PlayerPrefs.SetInt("technology_version", slot1)
 	PlayerPrefs.Save()
 end
 
-slot0.getVersion = function (slot0)
+function slot0.getVersion(slot0)
 	if not PlayerPrefs.HasKey("technology_version") then
 		slot0:setVersion(1)
 
@@ -46,15 +46,15 @@ slot0.getVersion = function (slot0)
 	end
 end
 
-slot0.setTendency = function (slot0, slot1, slot2)
+function slot0.setTendency(slot0, slot1, slot2)
 	slot0.tendency[slot1] = slot2
 end
 
-slot0.getTendency = function (slot0, slot1)
+function slot0.getTendency(slot0, slot1)
 	return slot0.tendency[slot1]
 end
 
-slot0.updateBlueprintStates = function (slot0)
+function slot0.updateBlueprintStates(slot0)
 	slot1 = pairs
 	slot2 = slot0.bluePrintData or {}
 
@@ -63,21 +63,21 @@ slot0.updateBlueprintStates = function (slot0)
 	end
 end
 
-slot0.getColdTime = function (slot0)
+function slot0.getColdTime(slot0)
 	return slot0.coldTime
 end
 
-slot0.updateColdTime = function (slot0)
+function slot0.updateColdTime(slot0)
 	slot0.coldTime = pg.TimeMgr.GetInstance():GetServerTime() + 86400
 end
 
-slot0.updateRefreshFlag = function (slot0, slot1)
+function slot0.updateRefreshFlag(slot0, slot1)
 	slot0.refreshTechnologysFlag = slot1
 
 	slot0:sendNotification(slot0.REFRESH_UPDATED, slot0.refreshTechnologysFlag)
 end
 
-slot0.updateTechnologys = function (slot0, slot1)
+function slot0.updateTechnologys(slot0, slot1)
 	slot0.data = {}
 
 	for slot5, slot6 in ipairs(slot1.refresh_list) do
@@ -93,7 +93,7 @@ slot0.updateTechnologys = function (slot0, slot1)
 	end
 end
 
-slot0.getActiveTechnologyCount = function (slot0)
+function slot0.getActiveTechnologyCount(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0.data) do
@@ -105,7 +105,7 @@ slot0.getActiveTechnologyCount = function (slot0)
 	return slot1
 end
 
-slot0.getActiveTechnology = function (slot0)
+function slot0.getActiveTechnology(slot0)
 	slot1 = pairs
 	slot2 = slot0.data or {}
 
@@ -116,23 +116,23 @@ slot0.getActiveTechnology = function (slot0)
 	end
 end
 
-slot0.getTechnologyById = function (slot0, slot1)
+function slot0.getTechnologyById(slot0, slot1)
 	return slot0.data[slot1]:clone()
 end
 
-slot0.addTechnology = function (slot0, slot1)
+function slot0.addTechnology(slot0, slot1)
 	slot0.data[slot1.id] = slot1
 
 	slot0:sendNotification(slot0.TECHNOLOGY_ADDED, slot1:clone())
 end
 
-slot0.updateTechnology = function (slot0, slot1)
+function slot0.updateTechnology(slot0, slot1)
 	slot0.data[slot1.id] = slot1
 
 	slot0:sendNotification(slot0.TECHNOLOGY_UPDATED, slot1:clone())
 end
 
-slot0.getTechnologys = function (slot0)
+function slot0.getTechnologys(slot0)
 	slot1 = {}
 	slot2 = pairs
 	slot3 = slot0.data or {}
@@ -144,31 +144,31 @@ slot0.getTechnologys = function (slot0)
 	return slot1
 end
 
-slot0.getBluePrints = function (slot0)
+function slot0.getBluePrints(slot0)
 	return Clone(slot0.bluePrintData)
 end
 
-slot0.getBluePrintById = function (slot0, slot1)
+function slot0.getBluePrintById(slot0, slot1)
 	return Clone(slot0.bluePrintData[slot1])
 end
 
-slot0.getRawBluePrintById = function (slot0, slot1)
+function slot0.getRawBluePrintById(slot0, slot1)
 	return slot0.bluePrintData[slot1]
 end
 
-slot0.addBluePrint = function (slot0, slot1)
+function slot0.addBluePrint(slot0, slot1)
 	slot0.bluePrintData[slot1.id] = slot1
 
 	slot0:sendNotification(slot0.BLUEPRINT_ADDED, slot1:clone())
 end
 
-slot0.updateBluePrint = function (slot0, slot1)
+function slot0.updateBluePrint(slot0, slot1)
 	slot0.bluePrintData[slot1.id] = slot1
 
 	slot0:sendNotification(slot0.BLUEPRINT_UPDATED, slot1:clone())
 end
 
-slot0.getBuildingBluePrint = function (slot0)
+function slot0.getBuildingBluePrint(slot0)
 	for slot4, slot5 in pairs(slot0.bluePrintData) do
 		if slot5:isDeving() or slot5:isFinished() then
 			return slot5

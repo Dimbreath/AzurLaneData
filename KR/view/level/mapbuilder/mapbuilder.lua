@@ -9,7 +9,7 @@ slot0.StateShow = 4
 slot0.StateBlocked = 5
 slot0.StateDestroy = 6
 
-slot0.Ctor = function (slot0, slot1, slot2)
+function slot0.Ctor(slot0, slot1, slot2)
 	slot0.tfParent = slot1
 	slot0.sceneParent = slot2
 	slot0.map = slot1:Find("map")
@@ -20,21 +20,21 @@ slot0.Ctor = function (slot0, slot1, slot2)
 	slot0.mapHeight = 1440
 end
 
-slot0.InvokeParent = function (slot0, slot1, ...)
+function slot0.InvokeParent(slot0, slot1, ...)
 	if slot0.sceneParent[slot1] then
 		return slot2(slot0.sceneParent, ...)
 	end
 end
 
-slot0.GetUIName = function (slot0)
+function slot0.GetUIName(slot0)
 	return ""
 end
 
-slot0.GetType = function (slot0)
+function slot0.GetType(slot0)
 	return
 end
 
-slot0.Load = function (slot0, slot1)
+function slot0.Load(slot0, slot1)
 	PoolMgr.GetInstance():GetUI(slot0:GetUIName(), true, function (slot0)
 		slot0.name = slot0:GetUIName()
 		slot0.tf = tf(slot0)
@@ -52,7 +52,7 @@ slot0.Load = function (slot0, slot1)
 	slot0.state = slot0.StateLoading
 end
 
-slot0.Init = function (slot0)
+function slot0.Init(slot0)
 	if slot0.StateDestroy <= slot0.state then
 		return
 	end
@@ -63,11 +63,11 @@ slot0.Init = function (slot0)
 	slot0.state = slot0.StateInit
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	return
 end
 
-slot0.Destroy = function (slot0)
+function slot0.Destroy(slot0)
 	if slot0.StateDestroy <= slot0.state then
 		return
 	end
@@ -84,11 +84,11 @@ slot0.Destroy = function (slot0)
 	slot0.state = slot0.StateDestroy
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	return
 end
 
-slot0.Show = function (slot0)
+function slot0.Show(slot0)
 	if slot0.StateDestroy <= slot0.state then
 		return
 	end
@@ -101,11 +101,11 @@ slot0.Show = function (slot0)
 	slot0.state = slot0.StateShow
 end
 
-slot0.OnShow = function (slot0)
+function slot0.OnShow(slot0)
 	return
 end
 
-slot0.Hide = function (slot0)
+function slot0.Hide(slot0)
 	if slot0.StateDestroy <= slot0.state then
 		return
 	end
@@ -125,23 +125,23 @@ slot0.Hide = function (slot0)
 	slot0.state = slot0.StateBlocked
 end
 
-slot0.OnHide = function (slot0)
+function slot0.OnHide(slot0)
 	return
 end
 
-slot0.Update = function (slot0, slot1)
+function slot0.Update(slot0, slot1)
 	slot0.data = slot1
 end
 
-slot0.UpdateMapItems = function (slot0)
+function slot0.UpdateMapItems(slot0)
 	slot0:Show()
 end
 
-slot0.RecordTween = function (slot0, slot1, slot2)
+function slot0.RecordTween(slot0, slot1, slot2)
 	slot0.tweens[slot1] = slot2
 end
 
-slot0.DeleteTween = function (slot0, slot1)
+function slot0.DeleteTween(slot0, slot1)
 	if slot0.tweens[slot1] then
 		LeanTween.cancel(slot2)
 
