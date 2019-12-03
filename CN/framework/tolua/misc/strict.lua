@@ -9,7 +9,7 @@ end
 
 slot4.__declared = {}
 
-slot4.__newindex = function (slot0, slot1, slot2)
+function slot4.__newindex(slot0, slot1, slot2)
 	if not slot0.__declared[slot1] then
 		if slot1(2, "S") and slot3.linedefined > 0 then
 			slot2("assign to undeclared variable '" .. slot1 .. "'", 2)
@@ -21,7 +21,7 @@ slot4.__newindex = function (slot0, slot1, slot2)
 	slot3(slot0, slot1, slot2)
 end
 
-slot4.__index = function (slot0, slot1)
+function slot4.__index(slot0, slot1)
 	if not slot0.__declared[slot1] and slot1(2, "S") and slot2.linedefined > 0 then
 		slot2("variable '" .. slot1 .. "' is not declared", 2)
 	end

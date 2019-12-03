@@ -2,17 +2,17 @@ ys = ys or {}
 ys.Battle.BattleMainFleetCharacterFactory = singletonClass("BattleMainFleetCharacterFactory", ys.Battle.BattlePlayerCharacterFactory)
 ys.Battle.BattleMainFleetCharacterFactory.__name = "BattleMainFleetCharacterFactory"
 
-ys.Battle.BattleMainFleetCharacterFactory.Ctor = function (slot0)
+function ys.Battle.BattleMainFleetCharacterFactory.Ctor(slot0)
 	slot0.super.Ctor(slot0)
 
 	slot0.ARROW_BAR_NAME = "EnemyArrowContainer/MainArrow"
 end
 
-ys.Battle.BattleMainFleetCharacterFactory.MakeCharacter = function (slot0)
+function ys.Battle.BattleMainFleetCharacterFactory.MakeCharacter(slot0)
 	return slot0.Battle.BattleMainFleetCharacter.New()
 end
 
-ys.Battle.BattleMainFleetCharacterFactory.MakeModel = function (slot0, slot1, slot2)
+function ys.Battle.BattleMainFleetCharacterFactory.MakeModel(slot0, slot1, slot2)
 	function slot3(slot0)
 		slot0:AddModel(slot0)
 

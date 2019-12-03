@@ -2,7 +2,7 @@ slot0 = class("MiniGameDataCreator")
 slot0.ShrineGameID = 3
 slot0.FireWorkGameID = 4
 
-slot0.DataCreateFunc = function (slot0, slot1, slot2)
+function slot0.DataCreateFunc(slot0, slot1, slot2)
 	if slot0 == MiniGameOPCommand.CMD_SPECIAL_GAME then
 		slot4 = slot1[2]
 		slot6 = getProxy(MiniGameProxy).GetMiniGameData(slot5, slot3)

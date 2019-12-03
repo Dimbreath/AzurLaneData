@@ -5,7 +5,7 @@ slot0.ON_CANCEL = "NavalTacticsMediator:ON_CANCEL"
 slot0.ON_SHOPPING = "NavalTacticsMediator:ON_SHOPPING"
 slot1 = 10
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.viewComponent:setShips(slot2)
 
 	slot0.bagProxy = getProxy(BagProxy)
@@ -103,7 +103,7 @@ slot0.register = function (slot0)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		NavalAcademyProxy.START_LEARN_TACTICS,
 		GAME.CANCEL_LEARN_TACTICS_DONE,
@@ -112,7 +112,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == NavalAcademyProxy.START_LEARN_TACTICS then

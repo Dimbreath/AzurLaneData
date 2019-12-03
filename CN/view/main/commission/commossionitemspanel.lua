@@ -4,7 +4,7 @@ slot0.STATE_EMPTY = 1
 slot0.STATE_ACTIVE = 2
 slot0.STATE_FINISHED = 3
 
-slot0.Ctor = function (slot0, slot1, slot2)
+function slot0.Ctor(slot0, slot1, slot2)
 	slot0._go = slot1
 	slot0._parent = slot2
 	slot0._viewComponent = slot2._viewComponent
@@ -14,7 +14,7 @@ slot0.Ctor = function (slot0, slot1, slot2)
 	pg.DelegateInfo.New(slot0)
 end
 
-slot0.updateEventItems = function (slot0, slot1, slot2)
+function slot0.updateEventItems(slot0, slot1, slot2)
 	slot3 = pairs
 	slot4 = slot0.timers or {}
 
@@ -92,7 +92,7 @@ slot0.updateEventItems = function (slot0, slot1, slot2)
 	slot0.uilist:align(4)
 end
 
-slot0.getChapterByCount = function (slot0, slot1)
+function slot0.getChapterByCount(slot0, slot1)
 	for slot6, slot7 in pairs(pg.chapter_template.all) do
 		if slot2[slot7].collection_team == slot1 then
 			return slot2[slot7]
@@ -100,7 +100,7 @@ slot0.getChapterByCount = function (slot0, slot1)
 	end
 end
 
-slot0.updateClassItems = function (slot0, slot1, slot2)
+function slot0.updateClassItems(slot0, slot1, slot2)
 	slot3 = pairs
 	slot4 = slot0.timers or {}
 
@@ -171,7 +171,7 @@ slot0.updateClassItems = function (slot0, slot1, slot2)
 	slot0.uilist:align(slot2)
 end
 
-slot0.updateTechItems = function (slot0, slot1, slot2)
+function slot0.updateTechItems(slot0, slot1, slot2)
 	slot3 = pairs
 	slot4 = slot0.timers or {}
 
@@ -246,7 +246,7 @@ slot0.updateTechItems = function (slot0, slot1, slot2)
 	slot0.uilist:align(slot2)
 end
 
-slot0.clear = function (slot0)
+function slot0.clear(slot0)
 	slot1 = pairs
 	slot2 = slot0.timers or {}
 

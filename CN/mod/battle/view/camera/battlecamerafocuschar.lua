@@ -4,15 +4,15 @@ slot2 = ys.Battle.BattleVariable
 ys.Battle.BattleCameraFocusChar = class("BattleCameraFocusChar")
 ys.Battle.BattleCameraFocusChar.__name = "BattleCameraFocusChar"
 
-ys.Battle.BattleCameraFocusChar.Ctor = function (slot0)
+function ys.Battle.BattleCameraFocusChar.Ctor(slot0)
 	slot0._point = Vector3.zero
 end
 
-ys.Battle.BattleCameraFocusChar.SetUnit = function (slot0, slot1)
+function ys.Battle.BattleCameraFocusChar.SetUnit(slot0, slot1)
 	slot0._unit = slot1
 end
 
-ys.Battle.BattleCameraFocusChar.GetCameraPos = function (slot0)
+function ys.Battle.BattleCameraFocusChar.GetCameraPos(slot0)
 	slot1 = slot0._unit:GetPosition()
 
 	slot0._point:Set(slot1.x, slot1.y, slot1.z)
@@ -29,7 +29,7 @@ ys.Battle.BattleCameraFocusChar.GetCameraPos = function (slot0)
 	return slot0._point
 end
 
-ys.Battle.BattleCameraFocusChar.Dispose = function (slot0)
+function ys.Battle.BattleCameraFocusChar.Dispose(slot0)
 	slot0._unit = nil
 end
 

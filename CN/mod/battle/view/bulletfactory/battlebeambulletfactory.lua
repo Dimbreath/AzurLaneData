@@ -2,11 +2,11 @@ ys = ys or {}
 ys.Battle.BattleBeamBulletFactory = singletonClass("BattleBeamBulletFactory", ys.Battle.BattleBulletFactory)
 ys.Battle.BattleBeamBulletFactory.__name = "BattleBeamBulletFactory"
 
-ys.Battle.BattleBeamBulletFactory.Ctor = function (slot0)
+function ys.Battle.BattleBeamBulletFactory.Ctor(slot0)
 	slot0.super.Ctor(slot0)
 end
 
-ys.Battle.BattleBeamBulletFactory.CreateBullet = function (slot0, slot1, slot2, slot3, slot4, slot5)
+function ys.Battle.BattleBeamBulletFactory.CreateBullet(slot0, slot1, slot2, slot3, slot4, slot5)
 	if slot2:GetDirectHitUnit() == nil then
 		return
 	end

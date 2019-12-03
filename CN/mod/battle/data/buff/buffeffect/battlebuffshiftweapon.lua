@@ -2,20 +2,20 @@ ys = ys or {}
 ys.Battle.BattleBuffShiftWeapon = class("BattleBuffShiftWeapon", ys.Battle.BattleBuffEffect)
 ys.Battle.BattleBuffShiftWeapon.__name = "BattleBuffShiftWeapon"
 
-ys.Battle.BattleBuffShiftWeapon.Ctor = function (slot0, slot1)
+function ys.Battle.BattleBuffShiftWeapon.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 end
 
-ys.Battle.BattleBuffShiftWeapon.SetArgs = function (slot0, slot1, slot2)
+function ys.Battle.BattleBuffShiftWeapon.SetArgs(slot0, slot1, slot2)
 	slot0._detachID = slot0._tempData.arg_list.detach_id
 	slot0._attachID = slot0._tempData.arg_list.attach_id
 end
 
-ys.Battle.BattleBuffShiftWeapon.onAttach = function (slot0, slot1, slot2)
+function ys.Battle.BattleBuffShiftWeapon.onAttach(slot0, slot1, slot2)
 	slot0:shiftWeapon(slot1)
 end
 
-ys.Battle.BattleBuffShiftWeapon.shiftWeapon = function (slot0, slot1)
+function ys.Battle.BattleBuffShiftWeapon.shiftWeapon(slot0, slot1)
 	if not slot1:RemoveWeapon(slot0._detachID) then
 		return
 	end

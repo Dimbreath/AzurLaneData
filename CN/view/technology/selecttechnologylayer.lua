@@ -1,10 +1,10 @@
 slot0 = class("SelectTechnologyLayer", import("..base.BaseUI"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "SelectTechnologyUI"
 end
 
-slot0.setPlayer = function (slot0, slot1)
+function slot0.setPlayer(slot0, slot1)
 	slot0.playerVO = slot1
 
 	if slot0._resPanel then
@@ -12,7 +12,7 @@ slot0.setPlayer = function (slot0, slot1)
 	end
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
 		weight = LayerWeightConst.LOWER_LAYER
 	})
@@ -51,7 +51,7 @@ slot0.init = function (slot0)
 	end
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	slot0:checkSystemOpen("ShipBluePrintMediator", slot0.bluePrintBtn)
 	slot0:checkSystemOpen("TechnologyMediator", slot0.technologyBtn)
 	onButton(slot0, slot0.bluePrintBtn, function ()
@@ -74,7 +74,7 @@ slot0.didEnter = function (slot0)
 	end, SFX_PANEL)
 end
 
-slot0.checkSystemOpen = function (slot0, slot1, slot2)
+function slot0.checkSystemOpen(slot0, slot1, slot2)
 	slot3 = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.playerVO.level, slot1)
 
 	setActive(slot0:findTF("word", slot2), slot3)
@@ -97,19 +97,19 @@ slot0.checkSystemOpen = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.notifyTechnology = function (slot0, slot1)
+function slot0.notifyTechnology(slot0, slot1)
 	setActive(slot0.technologyBtnTip, slot1)
 end
 
-slot0.notifyBlueprint = function (slot0, slot1)
+function slot0.notifyBlueprint(slot0, slot1)
 	setActive(slot0.bluePrintBtnTip, slot1)
 end
 
-slot0.notifyFleet = function (slot0, slot1)
+function slot0.notifyFleet(slot0, slot1)
 	setActive(slot0.fleetBtnTip, slot1)
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	if slot0._resPanel then
 		slot0._resPanel:exit()
 

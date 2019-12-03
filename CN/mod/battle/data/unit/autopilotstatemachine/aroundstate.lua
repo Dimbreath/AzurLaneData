@@ -3,13 +3,13 @@ ys.Battle.AroundState = class("AroundState", ys.Battle.IPilotState)
 ys.Battle.AroundState.__name = "AroundState"
 ys.Battle.AroundState.AROUND_TYPE_STAY = "stay"
 
-ys.Battle.AroundState.Ctor = function (slot0, slot1)
+function ys.Battle.AroundState.Ctor(slot0, slot1)
 	slot0._stateName = slot0.Battle.IPilotState.STATE_AROUND
 
 	slot0.Battle.AroundState.super.Ctor(slot0, slot1)
 end
 
-ys.Battle.AroundState.CalculateDirection = function (slot0, slot1, slot2)
+function ys.Battle.AroundState.CalculateDirection(slot0, slot1, slot2)
 	slot3 = nil
 	slot3 = (slot0._referenceTarget == nil or slot0._referenceTarget:GetPosition()) and (slot0._referencePoint == nil or slot0._referencePoint) and slot1
 	slot4 = Vector3.zero
@@ -25,19 +25,19 @@ ys.Battle.AroundState.CalculateDirection = function (slot0, slot1, slot2)
 	return slot4
 end
 
-ys.Battle.AroundState.ParseTransitionParam = function (slot0)
+function ys.Battle.AroundState.ParseTransitionParam(slot0)
 	slot0._trailParam = slot0._transParam.trail
 
 	return slot0.Battle.AroundState.super.ParseTransitionParam(slot0)
 end
 
-ys.Battle.AroundState.Stay = function (slot0, slot1, slot2)
+function ys.Battle.AroundState.Stay(slot0, slot1, slot2)
 	slot5 = nil
 
 	return (Vector3.SqrDistance(slot0, slot1) >= slot2.distance * slot2.distance or slot0.Battle.AroundState.KeepHorizontal(slot0, slot1)) and (slot1 - slot0) / math.sqrt(slot3)
 end
 
-ys.Battle.AroundState.Circle = function (slot0, slot1, slot2, slot3)
+function ys.Battle.AroundState.Circle(slot0, slot1, slot2, slot3)
 	slot4 = slot3.radius
 	slot5 = Vector3.Distance(slot1, slot0)
 	slot6 = 0.05
@@ -54,7 +54,7 @@ ys.Battle.AroundState.Circle = function (slot0, slot1, slot2, slot3)
 	return Vector3(Vector3((slot1 - slot0) / slot5.z, 0, -(slot1 - slot0) / slot5.x).x + Vector3((slot1 - slot0) / slot5.z, 0, -(slot1 - slot0) / slot5.x).z * slot6 + (slot1.x - slot0.x) / distance * slot7, 0, Vector3((slot1 - slot0) / slot5.z, 0, -(slot1 - slot0) / slot5.x).z - Vector3((slot1 - slot0) / slot5.z, 0, -(slot1 - slot0) / slot5.x).x * slot6 + (slot1.z - slot0.z) / distance * slot7).normalized
 end
 
-ys.Battle.AroundState.Random = function (slot0, slot1, slot2, slot3)
+function ys.Battle.AroundState.Random(slot0, slot1, slot2, slot3)
 	slot0._moveCount = slot0._moveCount or 0
 
 	if slot3.stopCount and slot0._stopCount and slot0._stopCount < slot3.stopCount then
@@ -90,7 +90,7 @@ ys.Battle.AroundState.Random = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-ys.Battle.AroundState.KeepHorizontal = function (slot0, slot1)
+function ys.Battle.AroundState.KeepHorizontal(slot0, slot1)
 	if slot1.z - slot0.z > 1 then
 		return Vector3(0, 0, 1)
 	elseif slot0.z - slot1.z > 1 then
@@ -100,7 +100,7 @@ ys.Battle.AroundState.KeepHorizontal = function (slot0, slot1)
 	end
 end
 
-ys.Battle.AroundState.FaceTo = function (slot0, slot1)
+function ys.Battle.AroundState.FaceTo(slot0, slot1)
 	if slot0.x < slot1.x then
 		return Vector3(1e-06, 0, 0)
 	elseif slot1.x < slot0.x then

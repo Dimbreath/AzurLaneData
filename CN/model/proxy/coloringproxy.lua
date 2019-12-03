@@ -1,11 +1,11 @@
 slot0 = class("ColoringProxy", import(".NetProxy"))
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.colorGroups = {}
 	slot0.colorItems = {}
 end
 
-slot0.netUpdateData = function (slot0, slot1)
+function slot0.netUpdateData(slot0, slot1)
 	slot0.startTime = slot1.start_time
 	slot2 = {}
 
@@ -80,21 +80,21 @@ slot0.netUpdateData = function (slot0, slot1)
 	end
 end
 
-slot0.getColorItems = function (slot0)
+function slot0.getColorItems(slot0)
 	return slot0.colorItems
 end
 
-slot0.getColorGroups = function (slot0)
+function slot0.getColorGroups(slot0)
 	return slot0.colorGroups
 end
 
-slot0.getColorGroup = function (slot0, slot1)
+function slot0.getColorGroup(slot0, slot1)
 	return _.detect(slot0.colorGroups, function (slot0)
 		return slot0.id == slot0
 	end)
 end
 
-slot0.checkState = function (slot0)
+function slot0.checkState(slot0)
 	slot1 = false
 
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLORING_ALPHA) and not slot3:isEnd() then
@@ -121,7 +121,7 @@ slot0.checkState = function (slot0)
 	return slot1
 end
 
-slot0.CheckTodayTip = function (slot0)
+function slot0.CheckTodayTip(slot0)
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLORING_ALPHA) and not slot2:isEnd() and slot0.startTime then
 		slot3 = pg.TimeMgr.GetInstance()
 

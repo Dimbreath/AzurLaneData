@@ -6,7 +6,7 @@ slot5 = ys.Battle.BattleDataFunction
 slot6 = ys.Battle.BattleAttr
 slot7 = ys.Battle.BattleVariable
 
-ys.Battle.BattleDataProxy.__debug__BlockCldUpdate__ = function (slot0, slot1)
+function ys.Battle.BattleDataProxy.__debug__BlockCldUpdate__(slot0, slot1)
 	slot0:UpdateCountDown(slot1)
 
 	for slot5, slot6 in pairs(slot0._fleetList) do

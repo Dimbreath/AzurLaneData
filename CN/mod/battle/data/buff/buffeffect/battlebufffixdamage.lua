@@ -2,16 +2,16 @@ ys = ys or {}
 ys.Battle.BattleBuffFixDamage = class("BattleBuffFixDamage", ys.Battle.BattleBuffEffect)
 ys.Battle.BattleBuffFixDamage.__name = "BattleBuffFixDamage"
 
-ys.Battle.BattleBuffFixDamage.Ctor = function (slot0, slot1)
+function ys.Battle.BattleBuffFixDamage.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 end
 
-ys.Battle.BattleBuffFixDamage.SetArgs = function (slot0, slot1, slot2)
+function ys.Battle.BattleBuffFixDamage.SetArgs(slot0, slot1, slot2)
 	slot0._rant = slot0._tempData.arg_list.rant or 10000
 	slot0._value = slot0._tempData.arg_list.value
 end
 
-ys.Battle.BattleBuffFixDamage.onTrigger = function (slot0, slot1, slot2, slot3)
+function ys.Battle.BattleBuffFixDamage.onTrigger(slot0, slot1, slot2, slot3)
 	if not slot0.Battle.BattleFormulas.IsHappen(slot0._rant) then
 		return "chance"
 	end

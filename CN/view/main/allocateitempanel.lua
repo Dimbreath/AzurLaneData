@@ -4,7 +4,7 @@ slot0.Listeners = {
 	UpdateShipBuff = "UpdateShipBuff"
 }
 
-slot0.Ctor = function (slot0, slot1, slot2)
+function slot0.Ctor(slot0, slot1, slot2)
 	for slot6, slot7 in pairs(slot0.Listeners) do
 		slot0[slot6] = function (...)
 			slot0[slot1](slot2, ...)
@@ -24,11 +24,11 @@ slot0.Ctor = function (slot0, slot1, slot2)
 	slot0._shipTFList = {}
 end
 
-slot0.findTF = function (slot0, slot1)
+function slot0.findTF(slot0, slot1)
 	return findTF(slot0._tf, slot1)
 end
 
-slot0.getTpl = function (slot0, slot1)
+function slot0.getTpl(slot0, slot1)
 	slot2 = slot0:findTF(slot1)
 
 	slot2:SetParent(slot0._tf, false)
@@ -37,12 +37,12 @@ slot0.getTpl = function (slot0, slot1)
 	return slot2
 end
 
-slot0.show = function (slot0)
+function slot0.show(slot0)
 	setActive(slot0._tf, true)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-slot0.hide = function (slot0)
+function slot0.hide(slot0)
 	setActive(slot0._tf, false)
 
 	slot0.selectedVO = nil
@@ -52,11 +52,11 @@ slot0.hide = function (slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0.view._tf)
 end
 
-slot0.isActive = function (slot0)
+function slot0.isActive(slot0)
 	return slot0._tf.gameObject.activeSelf
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.isInited = true
 	slot0.cancelBtn = slot0:findTF("actions/cancel_button")
 	slot0.confirmBtn = slot0:findTF("actions/compose_button")
@@ -89,7 +89,7 @@ slot0.init = function (slot0)
 	end, SFX_PANEL)
 end
 
-slot0.updateValue = function (slot0)
+function slot0.updateValue(slot0)
 	setText(slot0.valueText, slot0.count)
 
 	for slot5 = 1, slot0.itemContainer.childCount, 1 do
@@ -97,7 +97,7 @@ slot0.updateValue = function (slot0)
 	end
 end
 
-slot0.update = function (slot0, slot1)
+function slot0.update(slot0, slot1)
 	slot0.itemVO = slot1
 
 	if not slot0.isInited then
@@ -117,12 +117,12 @@ slot0.update = function (slot0, slot1)
 	slot0:updateQuota()
 end
 
-slot0.updateQuota = function (slot0)
+function slot0.updateQuota(slot0)
 	setText(slot0.quotaTxt, #slot0._selectedShipList .. "/" .. slot0.quota)
 	setActive(slot0.countLabel, true)
 end
 
-slot0.setFleets = function (slot0, slot1, slot2)
+function slot0.setFleets(slot0, slot1, slot2)
 	slot0.fleetList = slot1
 
 	print(slot0.fleetList)
@@ -148,7 +148,7 @@ slot0.setFleets = function (slot0, slot1, slot2)
 	triggerToggle(slot0.fleetsToggle:Find("fleet_" .. slot0.currentFleetIndex), true)
 end
 
-slot0.setFleet = function (slot0, slot1)
+function slot0.setFleet(slot0, slot1)
 	slot0.currentFleetIndex = slot1
 	slot2 = slot0.itemVO:getWorldItemType()
 
@@ -204,7 +204,7 @@ slot0.setFleet = function (slot0, slot1)
 	end
 end
 
-slot0.UpdateShipBuff = function (slot0, slot1, slot2)
+function slot0.UpdateShipBuff(slot0, slot1, slot2)
 	slot5 = slot0.fleetList[slot0.currentFleetIndex].GetTeamShips(slot3, TeamType.Vanguard, false)
 	slot8 = WorldBuff.GetTemplate(slot6).buff_maxfloor
 
@@ -224,7 +224,7 @@ slot0.UpdateShipBuff = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.UpdateShipHP = function (slot0, slot1, slot2)
+function slot0.UpdateShipHP(slot0, slot1, slot2)
 	slot5 = slot0.fleetList[slot0.currentFleetIndex].GetTeamShips(slot3, TeamType.Vanguard, false)
 	slot8 = WorldBuff.GetTemplate(slot6).buff_maxfloor
 
@@ -251,7 +251,7 @@ slot0.UpdateShipHP = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.initHP = function (slot0, slot1, slot2)
+function slot0.initHP(slot0, slot1, slot2)
 	slot3 = slot1:Find("hp")
 	slot4 = slot3:Find("hp_normal")
 	slot5 = slot3:Find("hp_emergency")
@@ -311,7 +311,7 @@ slot0.initHP = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.initBuff = function (slot0, slot1, slot2, slot3)
+function slot0.initBuff(slot0, slot1, slot2, slot3)
 	slot4 = slot1:Find("selected")
 	slot5 = slot1:Find("buff")
 	slot7 = slot5:Find("value")
@@ -360,7 +360,7 @@ slot0.initBuff = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-slot0.flush = function (slot0, slot1)
+function slot0.flush(slot0, slot1)
 	if slot1.id ~= slot0.itemVO.id then
 		return
 	end
@@ -370,7 +370,7 @@ slot0.flush = function (slot0, slot1)
 	slot0:update(slot1)
 end
 
-slot0.updateFleetBuff = function (slot0)
+function slot0.updateFleetBuff(slot0)
 	slot1 = slot0.fleetList[slot0.currentFleetIndex]
 	slot2 = WorldItem.getItemBuffID(slot0.itemVO.id)
 
@@ -397,7 +397,7 @@ slot0.updateFleetBuff = function (slot0)
 	slot0._preSelectedList = nil
 end
 
-slot0.updateFleetHP = function (slot0)
+function slot0.updateFleetHP(slot0)
 	slot1 = slot0.fleetList[slot0.currentFleetIndex]
 	slot2 = WorldItem.getItemBuffID(slot0.itemVO.id)
 
@@ -433,11 +433,11 @@ slot0.updateFleetHP = function (slot0)
 	slot0._preSelectedList = nil
 end
 
-slot0.configCallback = function (slot0, slot1)
+function slot0.configCallback(slot0, slot1)
 	slot0._confirmCallback = slot1
 end
 
-slot0.dispose = function (slot0)
+function slot0.dispose(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 
 	if slot0.scrollTxts and #slot0.scrollTxts > 0 then

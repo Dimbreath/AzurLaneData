@@ -9,17 +9,17 @@ slot7 = class("BattleBossUnit", ys.Battle.BattleEnemyUnit)
 ys.Battle.BattleBossUnit = slot7
 slot7.__name = "BattleBossUnit"
 
-slot7.Ctor = function (slot0, slot1, slot2)
+function slot7.Ctor(slot0, slot1, slot2)
 	slot0.super.Ctor(slot0, slot1, slot2)
 
 	slot0._isBoss = true
 end
 
-slot7.IsBoss = function (slot0)
+function slot7.IsBoss(slot0)
 	return true
 end
 
-slot7.UpdateHP = function (slot0, slot1, slot2, slot3, slot4)
+function slot7.UpdateHP(slot0, slot1, slot2, slot3, slot4)
 	slot0.super.UpdateHP(slot0, slot1, slot2, slot3, slot4)
 
 	if slot1 < 0 then

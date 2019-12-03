@@ -80,7 +80,7 @@ function slot11(slot0)
 	end
 end
 
-ys.Battle.BattleBulletUnit.Ctor = function (slot0, slot1, slot2)
+function ys.Battle.BattleBulletUnit.Ctor(slot0, slot1, slot2)
 	slot0.EventDispatcher.AttachEventDispatcher(slot0)
 
 	slot0._battleProxy = slot0.Battle.BattleDataProxy.GetInstance()
@@ -98,7 +98,7 @@ ys.Battle.BattleBulletUnit.Ctor = function (slot0, slot1, slot2)
 	slot0._damageList = {}
 end
 
-ys.Battle.BattleBulletUnit.Update = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.Update(slot0, slot1)
 	slot2 = slot0:GetSpeedRatio()
 
 	slot0:updateSpeed(slot1)
@@ -118,19 +118,19 @@ ys.Battle.BattleBulletUnit.Update = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattleBulletUnit.ActiveCldBox = function (slot0)
+function ys.Battle.BattleBulletUnit.ActiveCldBox(slot0)
 	slot0._cldComponent:SetActive(true)
 end
 
-ys.Battle.BattleBulletUnit.DeactiveCldBox = function (slot0)
+function ys.Battle.BattleBulletUnit.DeactiveCldBox(slot0)
 	slot0._cldComponent:SetActive(false)
 end
 
-ys.Battle.BattleBulletUnit.SetStartTimeStamp = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.SetStartTimeStamp(slot0, slot1)
 	slot0._timeStamp = slot1
 end
 
-ys.Battle.BattleBulletUnit.Hit = function (slot0, slot1, slot2)
+function ys.Battle.BattleBulletUnit.Hit(slot0, slot1, slot2)
 	slot0._collidedList[slot1] = true
 
 	slot0:DispatchEvent(slot0.Event.New(slot1.HIT, {
@@ -139,15 +139,15 @@ ys.Battle.BattleBulletUnit.Hit = function (slot0, slot1, slot2)
 	}))
 end
 
-ys.Battle.BattleBulletUnit.Intercepted = function (slot0)
+function ys.Battle.BattleBulletUnit.Intercepted(slot0)
 	slot0:DispatchEvent(slot0.Event.New(slot1.INTERCEPTED, {}))
 end
 
-ys.Battle.BattleBulletUnit.Reflected = function (slot0)
+function ys.Battle.BattleBulletUnit.Reflected(slot0)
 	slot0._speed.x = -slot0._speed.x
 end
 
-ys.Battle.BattleBulletUnit.SetTemplateData = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.SetTemplateData(slot0, slot1)
 	slot0._tempData = setmetatable({}, {
 		__index = slot1
 	})
@@ -184,20 +184,20 @@ ys.Battle.BattleBulletUnit.SetTemplateData = function (slot0, slot1)
 	slot0:SetDiverFilter()
 end
 
-ys.Battle.BattleBulletUnit.GetModleID = function (slot0)
+function ys.Battle.BattleBulletUnit.GetModleID(slot0)
 	return slot0._modleID
 end
 
-ys.Battle.BattleBulletUnit.SetModleID = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.SetModleID(slot0, slot1)
 	slot0._modleID = slot1
 end
 
-ys.Battle.BattleBulletUnit.SetShiftInfo = function (slot0, slot1, slot2)
+function ys.Battle.BattleBulletUnit.SetShiftInfo(slot0, slot1, slot2)
 	slot0._offsetX = slot1
 	slot0._offsetZ = slot2
 end
 
-ys.Battle.BattleBulletUnit.SetRotateInfo = function (slot0, slot1, slot2, slot3)
+function ys.Battle.BattleBulletUnit.SetRotateInfo(slot0, slot1, slot2, slot3)
 	slot0._targetPos = slot1
 	slot0._baseAngle = slot2
 	slot0._barrageAngle = slot3
@@ -211,51 +211,51 @@ ys.Battle.BattleBulletUnit.SetRotateInfo = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-ys.Battle.BattleBulletUnit.SetBarrageTransformTempate = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.SetBarrageTransformTempate(slot0, slot1)
 	if #slot1 > 0 then
 		slot0._barrageTransData = slot1
 	end
 end
 
-ys.Battle.BattleBulletUnit.SetAttr = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.SetAttr(slot0, slot1)
 	slot0.Battle.BattleAttr.SetAttr(slot0, slot1)
 end
 
-ys.Battle.BattleBulletUnit.GetAttr = function (slot0)
+function ys.Battle.BattleBulletUnit.GetAttr(slot0)
 	return slot0.Battle.BattleAttr.GetAttr(slot0)
 end
 
-ys.Battle.BattleBulletUnit.SetDamageEnhance = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.SetDamageEnhance(slot0, slot1)
 	slot0._dmgEnhanceRate = slot1
 end
 
-ys.Battle.BattleBulletUnit.GetDamageEnhance = function (slot0)
+function ys.Battle.BattleBulletUnit.GetDamageEnhance(slot0)
 	return slot0._dmgEnhanceRate
 end
 
-ys.Battle.BattleBulletUnit.GetAttrByName = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.GetAttrByName(slot0, slot1)
 	return slot0.Battle.BattleAttr.GetCurrent(slot0, slot1)
 end
 
-ys.Battle.BattleBulletUnit.GetVerticalSpeed = function (slot0)
+function ys.Battle.BattleBulletUnit.GetVerticalSpeed(slot0)
 	return slot0._verticalSpeed
 end
 
-ys.Battle.BattleBulletUnit.IsGravitate = function (slot0)
+function ys.Battle.BattleBulletUnit.IsGravitate(slot0)
 	return slot0._gravity ~= 0
 end
 
-ys.Battle.BattleBulletUnit.SetBuffTrigger = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.SetBuffTrigger(slot0, slot1)
 	slot0._host = slot1
 	slot0._buffTriggerFun = {}
 end
 
-ys.Battle.BattleBulletUnit.SetBuffFun = function (slot0, slot1, slot2)
+function ys.Battle.BattleBulletUnit.SetBuffFun(slot0, slot1, slot2)
 	slot0._buffTriggerFun[slot1] or {}[#(slot0._buffTriggerFun[slot1] or ) + 1] = slot2
 	slot0._buffTriggerFun[slot1] = slot0._buffTriggerFun[slot1] or 
 end
 
-ys.Battle.BattleBulletUnit.BuffTrigger = function (slot0, slot1, slot2)
+function ys.Battle.BattleBulletUnit.BuffTrigger(slot0, slot1, slot2)
 	if slot0._host and slot3:IsAlive() then
 		slot0._host:TriggerBuff(slot1, slot2)
 
@@ -267,35 +267,35 @@ ys.Battle.BattleBulletUnit.BuffTrigger = function (slot0, slot1, slot2)
 	end
 end
 
-ys.Battle.BattleBulletUnit.SetIsCld = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.SetIsCld(slot0, slot1)
 	slot0._needCld = slot1
 end
 
-ys.Battle.BattleBulletUnit.GetIsCld = function (slot0)
+function ys.Battle.BattleBulletUnit.GetIsCld(slot0)
 	return slot0._needCld
 end
 
-ys.Battle.BattleBulletUnit.AppendDamageUnit = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.AppendDamageUnit(slot0, slot1)
 	slot0._damageList[#slot0._damageList + 1] = slot1
 end
 
-ys.Battle.BattleBulletUnit.DamageUnitListWriteback = function (slot0)
+function ys.Battle.BattleBulletUnit.DamageUnitListWriteback(slot0)
 	slot0._weapon:UpdateCombo(slot0._damageList)
 end
 
-ys.Battle.BattleBulletUnit.HasAcceleration = function (slot0)
+function ys.Battle.BattleBulletUnit.HasAcceleration(slot0)
 	return #slot0._accTable ~= 0
 end
 
-ys.Battle.BattleBulletUnit.IsTracker = function (slot0)
+function ys.Battle.BattleBulletUnit.IsTracker(slot0)
 	return slot0._accTable.tracker
 end
 
-ys.Battle.BattleBulletUnit.IsOrbit = function (slot0)
+function ys.Battle.BattleBulletUnit.IsOrbit(slot0)
 	return slot0._accTable.orbit
 end
 
-ys.Battle.BattleBulletUnit.GetAcceleration = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.GetAcceleration(slot0, slot1)
 	slot0._lastAccTime = slot0._lastAccTime or slot0._timeStamp
 	slot0._lastAccTime = slot0._lastAccTime + slot0.ACC_INTERVAL * math.modf((slot1 - slot0._lastAccTime) / slot0.ACC_INTERVAL)
 	slot3 = slot1 - slot0._timeStamp
@@ -312,13 +312,13 @@ ys.Battle.BattleBulletUnit.GetAcceleration = function (slot0, slot1)
 	return 0, 0
 end
 
-ys.Battle.BattleBulletUnit.reverseAcceleration = function (slot0)
+function ys.Battle.BattleBulletUnit.reverseAcceleration(slot0)
 	for slot4, slot5 in ipairs(slot0._accTable) do
 		slot5.u = slot5.u * -1
 	end
 end
 
-ys.Battle.BattleBulletUnit.GetDistance = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.GetDistance(slot0, slot1)
 	if slot0._frame ~= slot0._battleProxy.FrameIndex then
 		slot0._distanceBackup = {}
 		slot0._frame = slot2
@@ -333,7 +333,7 @@ ys.Battle.BattleBulletUnit.GetDistance = function (slot0, slot1)
 	return slot3
 end
 
-ys.Battle.BattleBulletUnit.backupDistance = function (slot0, slot1, slot2)
+function ys.Battle.BattleBulletUnit.backupDistance(slot0, slot1, slot2)
 	if slot0._frame ~= slot0._battleProxy.FrameIndex then
 		slot0._distanceBackup = {}
 		slot0._frame = slot3
@@ -342,15 +342,15 @@ ys.Battle.BattleBulletUnit.backupDistance = function (slot0, slot1, slot2)
 	slot0._distanceBackup[slot1] = slot2
 end
 
-ys.Battle.BattleBulletUnit.getTrackingTarget = function (slot0)
+function ys.Battle.BattleBulletUnit.getTrackingTarget(slot0)
 	return slot0._tarckingTarget
 end
 
-ys.Battle.BattleBulletUnit.setTrackingTarget = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.setTrackingTarget(slot0, slot1)
 	slot0._tarckingTarget = slot1
 end
 
-ys.Battle.BattleBulletUnit.SetWeapon = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.SetWeapon(slot0, slot1)
 	slot0._weapon = slot1
 
 	if slot1 then
@@ -358,27 +358,27 @@ ys.Battle.BattleBulletUnit.SetWeapon = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattleBulletUnit.GetWeapon = function (slot0)
+function ys.Battle.BattleBulletUnit.GetWeapon(slot0)
 	return slot0._weapon
 end
 
-ys.Battle.BattleBulletUnit.GetCorrectedDMG = function (slot0)
+function ys.Battle.BattleBulletUnit.GetCorrectedDMG(slot0)
 	return slot0._correctedDMG
 end
 
-ys.Battle.BattleBulletUnit.OverrideCorrectedDMG = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.OverrideCorrectedDMG(slot0, slot1)
 	slot0._correctedDMG = slot0.WeaponDamagePreCorrection(slot0._weapon, slot1)
 end
 
-ys.Battle.BattleBulletUnit.GetWeaponTempData = function (slot0)
+function ys.Battle.BattleBulletUnit.GetWeaponTempData(slot0)
 	return slot0._weapon:GetTemplateData()
 end
 
-ys.Battle.BattleBulletUnit.GetPosition = function (slot0)
+function ys.Battle.BattleBulletUnit.GetPosition(slot0)
 	return slot0._position or Vector3.zero
 end
 
-ys.Battle.BattleBulletUnit.SetSpawnPosition = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.SetSpawnPosition(slot0, slot1)
 	slot0._spawnPos = slot1
 	slot0._position = slot1:Clone()
 
@@ -392,77 +392,77 @@ ys.Battle.BattleBulletUnit.SetSpawnPosition = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattleBulletUnit.GetTemplate = function (slot0)
+function ys.Battle.BattleBulletUnit.GetTemplate(slot0)
 	return slot0._tempData
 end
 
-ys.Battle.BattleBulletUnit.GetType = function (slot0)
+function ys.Battle.BattleBulletUnit.GetType(slot0)
 	return slot0._tempData.type
 end
 
-ys.Battle.BattleBulletUnit.GetOutBound = function (slot0)
+function ys.Battle.BattleBulletUnit.GetOutBound(slot0)
 	return slot0._tempData.out_bound == 0
 end
 
-ys.Battle.BattleBulletUnit.GetUniqueID = function (slot0)
+function ys.Battle.BattleBulletUnit.GetUniqueID(slot0)
 	return slot0._uniqueID
 end
 
-ys.Battle.BattleBulletUnit.GetOffset = function (slot0)
+function ys.Battle.BattleBulletUnit.GetOffset(slot0)
 	return slot0._offsetX, slot0._offsetZ, slot0._isOffsetPriority
 end
 
-ys.Battle.BattleBulletUnit.GetRotateInfo = function (slot0)
+function ys.Battle.BattleBulletUnit.GetRotateInfo(slot0)
 	return slot0._targetPos, slot0._baseAngle, slot0._barrageAngle
 end
 
-ys.Battle.BattleBulletUnit.IsOutRange = function (slot0)
+function ys.Battle.BattleBulletUnit.IsOutRange(slot0)
 	return slot0._reachDestFlag
 end
 
-ys.Battle.BattleBulletUnit.SetYAngle = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.SetYAngle(slot0, slot1)
 	slot0._yAngle = slot1
 end
 
-ys.Battle.BattleBulletUnit.SetOffsetPriority = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.SetOffsetPriority(slot0, slot1)
 	slot0._isOffsetPriority = slot1 or false
 end
 
-ys.Battle.BattleBulletUnit.GetOffsetPriority = function (slot0)
+function ys.Battle.BattleBulletUnit.GetOffsetPriority(slot0)
 	return slot0._isOffsetPriority
 end
 
-ys.Battle.BattleBulletUnit.GetYAngle = function (slot0)
+function ys.Battle.BattleBulletUnit.GetYAngle(slot0)
 	return slot0._yAngle
 end
 
-ys.Battle.BattleBulletUnit.GetIFF = function (slot0)
+function ys.Battle.BattleBulletUnit.GetIFF(slot0)
 	return slot0._IFF
 end
 
-ys.Battle.BattleBulletUnit.GetHost = function (slot0)
+function ys.Battle.BattleBulletUnit.GetHost(slot0)
 	return slot0._host
 end
 
-ys.Battle.BattleBulletUnit.GetPierceCount = function (slot0)
+function ys.Battle.BattleBulletUnit.GetPierceCount(slot0)
 	return slot0._pierceCount
 end
 
-ys.Battle.BattleBulletUnit.AppendAttachBuff = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.AppendAttachBuff(slot0, slot1)
 	slot2 = Clone(slot0:GetTemplate().attach_buff)
 	slot2[#slot2 + 1] = slot1
 	slot0._attachBuffList = slot2
 end
 
-ys.Battle.BattleBulletUnit.GetAttachBuff = function (slot0)
+function ys.Battle.BattleBulletUnit.GetAttachBuff(slot0)
 	return slot0._attachBuffList or slot0:GetTemplate().attach_buff or {}
 end
 
-ys.Battle.BattleBulletUnit.GetEffectField = function (slot0)
+function ys.Battle.BattleBulletUnit.GetEffectField(slot0)
 	return slot0._field
 end
 
-ys.Battle.BattleBulletUnit.GetPushPower = function (slot0)
+function ys.Battle.BattleBulletUnit.GetPushPower(slot0)
 	if slot0:GetTemplate().push_power == "" then
 		return nil
 	else
@@ -470,7 +470,7 @@ ys.Battle.BattleBulletUnit.GetPushPower = function (slot0)
 	end
 end
 
-ys.Battle.BattleBulletUnit.SetDiverFilter = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.SetDiverFilter(slot0, slot1)
 	if slot1 == nil then
 		slot0._diveFilter = slot0._tempData.extra_param.diveFilter or {
 			2
@@ -480,41 +480,41 @@ ys.Battle.BattleBulletUnit.SetDiverFilter = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattleBulletUnit.GetDiveFilter = function (slot0)
+function ys.Battle.BattleBulletUnit.GetDiveFilter(slot0)
 	return slot0._diveFilter
 end
 
-ys.Battle.BattleBulletUnit.GetVelocity = function (slot0)
+function ys.Battle.BattleBulletUnit.GetVelocity(slot0)
 	return slot0._velocity
 end
 
-ys.Battle.BattleBulletUnit.GetConvertedVelocity = function (slot0)
+function ys.Battle.BattleBulletUnit.GetConvertedVelocity(slot0)
 	return slot0._convertedVelocity
 end
 
-ys.Battle.BattleBulletUnit.GetSpeedExemptKey = function (slot0)
+function ys.Battle.BattleBulletUnit.GetSpeedExemptKey(slot0)
 	return slot0._speedExemptKey
 end
 
-ys.Battle.BattleBulletUnit.IsCollided = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.IsCollided(slot0, slot1)
 	return slot0._collidedList[slot1]
 end
 
-ys.Battle.BattleBulletUnit.GetExist = function (slot0)
+function ys.Battle.BattleBulletUnit.GetExist(slot0)
 	return slot0._exist
 end
 
-ys.Battle.BattleBulletUnit.SetExist = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.SetExist(slot0, slot1)
 	slot0._exist = slot1
 end
 
-ys.Battle.BattleBulletUnit.Dispose = function (slot0)
+function ys.Battle.BattleBulletUnit.Dispose(slot0)
 	slot0._dataProxy = nil
 
 	slot0.EventDispatcher.DetachEventDispatcher(slot0)
 end
 
-ys.Battle.BattleBulletUnit.InitCldComponent = function (slot0)
+function ys.Battle.BattleBulletUnit.InitCldComponent(slot0)
 	slot1 = slot0:GetTemplate().cld_box
 	slot3 = slot0:GetTemplate().cld_offset[1]
 
@@ -531,7 +531,7 @@ ys.Battle.BattleBulletUnit.InitCldComponent = function (slot0)
 	})
 end
 
-ys.Battle.BattleBulletUnit.ResetCldSurface = function (slot0)
+function ys.Battle.BattleBulletUnit.ResetCldSurface(slot0)
 	if slot0:GetDiveFilter() and #slot1 == 0 then
 		slot0:GetCldData().Surface = slot0.Battle.BattleConst.OXY_STATE.DIVE
 	else
@@ -539,27 +539,27 @@ ys.Battle.BattleBulletUnit.ResetCldSurface = function (slot0)
 	end
 end
 
-ys.Battle.BattleBulletUnit.GetBoxSize = function (slot0)
+function ys.Battle.BattleBulletUnit.GetBoxSize(slot0)
 	return slot0._cldComponent:GetCldBoxSize()
 end
 
-ys.Battle.BattleBulletUnit.GetCldBox = function (slot0)
+function ys.Battle.BattleBulletUnit.GetCldBox(slot0)
 	return slot0._cldComponent:GetCldBox(slot0:GetPosition())
 end
 
-ys.Battle.BattleBulletUnit.GetCldData = function (slot0)
+function ys.Battle.BattleBulletUnit.GetCldData(slot0)
 	return slot0._cldComponent:GetCldData()
 end
 
-ys.Battle.BattleBulletUnit.GetSpeed = function (slot0)
+function ys.Battle.BattleBulletUnit.GetSpeed(slot0)
 	return slot0._speed
 end
 
-ys.Battle.BattleBulletUnit.GetSpeedRatio = function (slot0)
+function ys.Battle.BattleBulletUnit.GetSpeedRatio(slot0)
 	return slot0.GetSpeedRatio(slot0._speedExemptKey, slot0._IFF)
 end
 
-ys.Battle.BattleBulletUnit.InitSpeed = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.InitSpeed(slot0, slot1)
 	if slot0._yAngle == nil then
 		if slot0._targetPos ~= nil then
 			slot0._yAngle = slot1 + slot0._barrageAngle
@@ -587,11 +587,11 @@ ys.Battle.BattleBulletUnit.InitSpeed = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattleBulletUnit.calcSpeed = function (slot0)
+function ys.Battle.BattleBulletUnit.calcSpeed(slot0)
 	slot0._speed = Vector3(slot1.ConvertBulletSpeed(slot0._velocity * (1 + slot0.Battle.BattleAttr.GetCurrent(slot0, "bulletSpeedRatio"))) * math.cos(slot3), 0, slot1.ConvertBulletSpeed(slot0._velocity * (1 + slot0.Battle.BattleAttr.GetCurrent(slot0, "bulletSpeedRatio"))) * math.sin(math.deg2Rad * slot0._yAngle))
 end
 
-ys.Battle.BattleBulletUnit.updateBarrageTransform = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.updateBarrageTransform(slot0, slot1)
 	if not slot0._barrageTransData or #slot0._barrageTransData == 0 then
 		return
 	end
@@ -612,20 +612,20 @@ ys.Battle.BattleBulletUnit.updateBarrageTransform = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattleBulletUnit.GetCurrentDistance = function (slot0)
+function ys.Battle.BattleBulletUnit.GetCurrentDistance(slot0)
 	return Vector3.Distance(slot0._spawnPos, slot0._position)
 end
 
-ys.Battle.BattleBulletUnit.SetOutRangeCallback = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.SetOutRangeCallback(slot0, slot1)
 	slot0._outRangeFunc = slot1
 end
 
-ys.Battle.BattleBulletUnit.OutRange = function (slot0)
+function ys.Battle.BattleBulletUnit.OutRange(slot0)
 	slot0:DispatchEvent(slot0.Event.New(slot1.OUT_RANGE, {}))
 	slot0:_outRangeFunc()
 end
 
-ys.Battle.BattleBulletUnit.FixRange = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.FixRange(slot0, slot1)
 	slot1 = slot1 or slot0._tempData.range
 
 	if slot0._tempData.range_offset == 0 then
@@ -637,11 +637,11 @@ ys.Battle.BattleBulletUnit.FixRange = function (slot0, slot1)
 	slot0._sqrRange = slot0._range * slot0._range
 end
 
-ys.Battle.BattleBulletUnit.ImmuneCLS = function (slot0)
+function ys.Battle.BattleBulletUnit.ImmuneCLS(slot0)
 	return slot0._immuneCLS
 end
 
-ys.Battle.BattleBulletUnit.SetImmuneCLS = function (slot0, slot1)
+function ys.Battle.BattleBulletUnit.SetImmuneCLS(slot0, slot1)
 	slot0._immuneCLS = slot1
 end
 

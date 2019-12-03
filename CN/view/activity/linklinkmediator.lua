@@ -1,7 +1,7 @@
 slot0 = class("LinkLinkMediator", import("..base.ContextMediator"))
 slot0.EVENT_OPERATION = "event operation"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0:bind(slot0.EVENT_OPERATION, function (slot0, slot1)
 		slot0:sendNotification(GAME.ACTIVITY_OPERATION, slot1)
 	end)
@@ -9,7 +9,7 @@ slot0.register = function (slot0)
 	slot0:SetPlayerData()
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		ActivityProxy.ACTIVITY_UPDATED,
 		PlayerProxy.UPDATED,
@@ -18,7 +18,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == PlayerProxy.UPDATED then
@@ -30,11 +30,11 @@ slot0.handleNotification = function (slot0, slot1)
 	end
 end
 
-slot0.SetPlayerData = function (slot0)
+function slot0.SetPlayerData(slot0)
 	slot0.viewComponent:SetPlayer(getProxy(PlayerProxy).getRawData(slot1))
 end
 
-slot0.SetActivityData = function (slot0)
+function slot0.SetActivityData(slot0)
 	slot0.viewComponent:SetActivity(getProxy(ActivityProxy).getActivityByType(slot1, ActivityConst.ACTIVITY_TYPE_LINK_LINK))
 end
 

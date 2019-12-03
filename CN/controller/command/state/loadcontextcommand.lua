@@ -1,11 +1,11 @@
 slot0 = class("LoadContextCommand", pm.SimpleCommand)
 slot0.queue = {}
 
-slot0.execute = function (slot0, slot1)
+function slot0.execute(slot0, slot1)
 	slot0:load(slot1:getBody())
 end
 
-slot0.load = function (slot0, slot1)
+function slot0.load(slot0, slot1)
 	table.insert(slot0.queue, slot1)
 
 	if #slot0.queue == 1 then
@@ -13,7 +13,7 @@ slot0.load = function (slot0, slot1)
 	end
 end
 
-slot0.loadNext = function (slot0)
+function slot0.loadNext(slot0)
 	if #slot0.queue > 0 then
 		function slot2()
 			if slot0.callback then
@@ -32,7 +32,7 @@ slot0.loadNext = function (slot0)
 	end
 end
 
-slot0.loadScene = function (slot0, slot1, slot2, slot3)
+function slot0.loadScene(slot0, slot1, slot2, slot3)
 	slot5 = pg.SceneMgr.GetInstance()
 	slot6, slot7 = nil
 	slot8 = {}
@@ -105,7 +105,7 @@ slot0.loadScene = function (slot0, slot1, slot2, slot3)
 	})
 end
 
-slot0.loadLayer = function (slot0, slot1, slot2, slot3)
+function slot0.loadLayer(slot0, slot1, slot2, slot3)
 	slot4 = pg.SceneMgr.GetInstance()
 	slot5 = {}
 

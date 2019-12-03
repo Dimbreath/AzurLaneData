@@ -1,23 +1,23 @@
 slot0 = class("AssignedItemView", import("..base.BaseSubView"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "StoreHouseItemAssignedView"
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0:InitData()
 	slot0:InitUI()
 	setActive(slot0._tf, true)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-slot0.InitData = function (slot0)
+function slot0.InitData(slot0)
 	slot0.selectedVO = nil
 	slot0.count = 1
 	slot0.scrollTxts = {}
 end
 
-slot0.InitUI = function (slot0)
+function slot0.InitUI(slot0)
 	slot0.ulist = UIItemList.New(slot0:findTF("got/bottom/scroll/list"), slot0:findTF("got/bottom/scroll/list/tpl"))
 	slot0.confirmBtn = slot0:findTF("calc/confirm")
 	slot0.rightArr = slot0:findTF("calc/value_bg/add")
@@ -68,14 +68,14 @@ slot0.InitUI = function (slot0)
 	end, SFX_PANEL)
 end
 
-slot0.updateValue = function (slot0)
+function slot0.updateValue(slot0)
 	setText(slot0.valueText, slot0.count)
 	slot0.ulist:each(function (slot0, slot1)
 		setText(slot1:Find("item/bg/icon_bg/count"), slot0.count)
 	end)
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	slot0.selectedVO = nil
 	slot0.itemVO = nil
 	slot0.count = 1
@@ -95,7 +95,7 @@ slot0.OnDestroy = function (slot0)
 	end
 end
 
-slot0.update = function (slot0, slot1)
+function slot0.update(slot0, slot1)
 	slot0.itemVO = slot1
 	slot0.selectedItem = nil
 

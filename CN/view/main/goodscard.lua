@@ -1,6 +1,6 @@
 slot0 = class("GoodsCard")
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
 
 	slot0.go = slot1
@@ -25,7 +25,7 @@ slot0.Ctor = function (slot0, slot1)
 	end, SFX_PANEL)
 end
 
-slot0.setGroupMask = function (slot0, slot1)
+function slot0.setGroupMask(slot0, slot1)
 	slot3 = slot0.goodsVO:getConfig("group_limit") > 0 and slot2 <= slot1
 
 	if isActive(slot0.mask) then
@@ -40,7 +40,7 @@ slot0.setGroupMask = function (slot0, slot1)
 	end
 end
 
-slot0.setLevelMask = function (slot0, slot1)
+function slot0.setLevelMask(slot0, slot1)
 	slot2 = slot0.goodsVO:getLevelLimit(slot1)
 	slot3 = slot0.goodsVO:isLevelLimit(slot1)
 
@@ -59,7 +59,7 @@ slot0.setLevelMask = function (slot0, slot1)
 	end
 end
 
-slot0.update = function (slot0, slot1)
+function slot0.update(slot0, slot1)
 	slot0.goodsVO = slot1
 	slot2, slot3 = slot0.goodsVO:canPurchase()
 
@@ -125,7 +125,7 @@ slot0.update = function (slot0, slot1)
 	GetImageSpriteFromAtlasAsync(pg.item_data_statistics[id2ItemId(slot1:getConfig("resource_type"))].icon, "", tf(slot0.resIconTF))
 end
 
-slot0.dispose = function (slot0)
+function slot0.dispose(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 end
 

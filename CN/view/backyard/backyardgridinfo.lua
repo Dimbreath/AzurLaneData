@@ -4,7 +4,7 @@ slot2 = Vector2(0, -563.4)
 slot3 = class("BackYardGridInfo")
 pg.BackYardGridInfo = slot3
 
-slot3.Ctor = function (slot0, slot1)
+function slot3.Ctor(slot0, slot1)
 	slot0.start_x = slot1.startX
 	slot0.start_y = slot1.startY
 	slot0.end_x = slot1.endX
@@ -12,7 +12,7 @@ slot3.Ctor = function (slot0, slot1)
 	slot0.map = slot1.map
 end
 
-slot3.createMapGrids = function (slot0)
+function slot3.createMapGrids(slot0)
 	slot1 = GameObject.Find("UICamera/Canvas/UIMain/BackYardUI(Clone)/main")
 	slot0.mapGrids = {}
 
@@ -28,11 +28,11 @@ slot3.createMapGrids = function (slot0)
 	end
 end
 
-slot3.getMapGrid = function (slot0, slot1, slot2)
+function slot3.getMapGrid(slot0, slot1, slot2)
 	return slot0.mapGrids[slot1][slot2]
 end
 
-slot3.hasGrid = function (slot0, slot1, slot2)
+function slot3.hasGrid(slot0, slot1, slot2)
 	if slot0.mapGrids[slot1] and slot3[slot2] then
 		return true
 	end
@@ -40,7 +40,7 @@ slot3.hasGrid = function (slot0, slot1, slot2)
 	return false
 end
 
-slot3.setAllGridText = function (slot0)
+function slot3.setAllGridText(slot0)
 	for slot4 = 1, 24, 1 do
 		for slot8 = 1, 24, 1 do
 			slot9 = slot0.map.depths[slot0.map:GetIndex(slot4, slot8)]

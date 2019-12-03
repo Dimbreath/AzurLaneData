@@ -1,6 +1,6 @@
 slot0 = class("BackYardMsgBox")
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
 
 	slot0._go = slot1
@@ -17,7 +17,7 @@ slot0.Ctor = function (slot0, slot1)
 	slot0.cancelBtn = findTF(slot0.msgBoxPanel, "frame/cancel_btn")
 end
 
-slot0.Show = function (slot0, slot1, slot2, slot3)
+function slot0.Show(slot0, slot1, slot2, slot3)
 	setActive(slot0.msgBoxPanel, true)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.msgBoxPanel)
 	setText(slot0.text1, slot1.text1)
@@ -40,16 +40,16 @@ slot0.Show = function (slot0, slot1, slot2, slot3)
 	end, SFX_CANCEL)
 end
 
-slot0.updateItemCount = function (slot0, slot1)
+function slot0.updateItemCount(slot0, slot1)
 	setText(slot0.valueTxt, (tonumber(slot1) <= 0 and setColorStr(slot1, COLOR_RED)) or setColorStr(slot1, COLOR_GREEN))
 end
 
-slot0.Close = function (slot0)
+function slot0.Close(slot0)
 	setActive(slot0.msgBoxPanel, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.msgBoxPanel, slot0.parent)
 end
 
-slot0.Destroy = function (slot0)
+function slot0.Destroy(slot0)
 	slot0:Close()
 	pg.DelegateInfo.Dispose(slot0)
 end

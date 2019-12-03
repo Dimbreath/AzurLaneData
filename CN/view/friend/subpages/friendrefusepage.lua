@@ -1,14 +1,14 @@
 slot0 = class("FriendRefusePage", import("...base.BaseSubView"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "FriendRefuseUI"
 end
 
-slot0.OnLoaded = function (slot0)
+function slot0.OnLoaded(slot0)
 	return
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.parent = parent
 	slot0.context = slot0._tf:Find("window/frame/Text"):GetComponent(typeof(Text))
 	slot0.remind = slot0._tf:Find("window/remind")
@@ -41,7 +41,7 @@ slot0.OnInit = function (slot0)
 	end, SFX_PANEL)
 end
 
-slot0.Show = function (slot0, slot1, slot2, slot3)
+function slot0.Show(slot0, slot1, slot2, slot3)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
 	slot0.func = slot3
@@ -55,7 +55,7 @@ slot0.Show = function (slot0, slot1, slot2, slot3)
 	slot0._tf:SetAsLastSibling()
 end
 
-slot0.Hide = function (slot0)
+function slot0.Hide(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0.parent)
 	setActive(slot0._tf, false)
 
@@ -64,7 +64,7 @@ slot0.Hide = function (slot0)
 	slot0.checkLabel.text = ""
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	slot0:Hide()
 	removeOnButton(slot0._tf)
 	removeOnButton(slot0.cancelBtn)

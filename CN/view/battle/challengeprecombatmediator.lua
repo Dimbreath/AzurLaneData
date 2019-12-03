@@ -4,7 +4,7 @@ slot0.ON_SWITCH_SHIP = "ChallengePreCombatMediator:ON_SWITCH_SHIP"
 slot0.ON_AUTO = "ChallengePreCombatMediator:ON_AUTO"
 slot0.ON_SUB_AUTO = "ChallengePreCombatMediator:ON_SUB_AUTO"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0:bind(slot0.ON_AUTO, function (slot0, slot1)
 		slot0:onAutoBtn(slot1)
 	end)
@@ -22,7 +22,7 @@ slot0.register = function (slot0)
 	slot0.viewComponent:updateChallenge(slot3, reload)
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		PlayerProxy.UPDATED,
 		GAME.BEGIN_STAGE_ERRO,
@@ -31,7 +31,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == PlayerProxy.UPDATED then
@@ -53,18 +53,18 @@ slot0.handleNotification = function (slot0, slot1)
 	end
 end
 
-slot0.display = function (slot0, slot1)
+function slot0.display(slot0, slot1)
 	slot0.viewComponent:updateChallenge(challenge, slot1)
 end
 
-slot0.onAutoBtn = function (slot0, slot1)
+function slot0.onAutoBtn(slot0, slot1)
 	slot0:sendNotification(GAME.AUTO_BOT, {
 		isActiveBot = slot1.isOn,
 		toggle = slot1.toggle
 	})
 end
 
-slot0.onAutoSubBtn = function (slot0, slot1)
+function slot0.onAutoSubBtn(slot0, slot1)
 	slot0:sendNotification(GAME.AUTO_SUB, {
 		isActiveSub = slot1.isOn,
 		toggle = slot1.toggle

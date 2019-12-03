@@ -5,7 +5,7 @@ slot0.Purple = 4
 slot0.Gold = 5
 slot0.SSR = 6
 
-slot0.Rarity2Print = function (slot0)
+function slot0.Rarity2Print(slot0)
 	if not slot0.prints then
 		slot0.prints = {
 			"1",

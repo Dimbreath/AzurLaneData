@@ -1,6 +1,6 @@
 slot0 = class("BattleDodgemResultLayer", import(".BattleResultLayer"))
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	setText(slot0._levelText, pg.expedition_data_template[slot0.contextData.stageId].name)
 
 	slot0._gradeUpperLeftPos = rtf(slot0._grade).localPosition
@@ -23,7 +23,7 @@ slot0.didEnter = function (slot0)
 	end, SFX_CONFIRM)
 end
 
-slot0.rankAnimaFinish = function (slot0)
+function slot0.rankAnimaFinish(slot0)
 	SetActive(slot1, true)
 	SetActive(slot0._conditionBGNormal, false)
 	SetActive(slot0._conditionBGContribute, true)
@@ -38,7 +38,7 @@ slot0.rankAnimaFinish = function (slot0)
 	slot0._stateFlag = slot0.STATE_REPORT
 end
 
-slot0.displayBG = function (slot0)
+function slot0.displayBG(slot0)
 	LeanTween.moveX(rtf(slot0._conditions), 1300, slot0.DURATION_MOVE)
 	LeanTween.scale(slot0._grade, Vector3(0.6, 0.6, 0), slot0.DURATION_MOVE)
 	LeanTween.moveLocal(go(slot1), slot0._gradeUpperLeftPos, slot0.DURATION_MOVE):setOnComplete(System.Action(function ()
@@ -47,7 +47,7 @@ slot0.displayBG = function (slot0)
 	setActive(slot0:findTF("jieuan01/Bomb", slot0._bg), false)
 end
 
-slot0.setCondition = function (slot0, slot1, slot2, slot3)
+function slot0.setCondition(slot0, slot1, slot2, slot3)
 	slot4 = cloneTplTo(slot0._conditionContributeTpl, slot0._conditionContainer)
 
 	setActive(slot4, false)
@@ -65,7 +65,7 @@ slot0.setCondition = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-slot0.showPainting = function (slot0)
+function slot0.showPainting(slot0)
 	slot1, slot2 = nil
 
 	SetActive(slot0._painting, true)
@@ -104,7 +104,7 @@ slot0.showPainting = function (slot0)
 	slot0._stateFlag = BattleResultLayer.STATE_DISPLAYED
 end
 
-slot0.skip = function (slot0)
+function slot0.skip(slot0)
 	if slot0._stateFlag == BattleResultLayer.STATE_REPORTED then
 		slot0:displayBG()
 	elseif slot0._stateFlag == BattleResultLayer.STATE_DISPLAYED then
@@ -112,11 +112,11 @@ slot0.skip = function (slot0)
 	end
 end
 
-slot0.onBackPressed = function (slot0)
+function slot0.onBackPressed(slot0)
 	triggerButton(slot0._skipBtn)
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	LeanTween.cancel(go(slot0._tf))
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end

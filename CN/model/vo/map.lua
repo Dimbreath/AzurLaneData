@@ -22,18 +22,18 @@ slot0.NORMAL_MAP = {
 	slot0.ACT_EXTRA
 }
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.configId = slot1.id
 	slot0.id = slot0.configId
 	slot0.chapters = slot1.chapters or {}
 	slot0.unlock = false
 end
 
-slot0.bindConfigTable = function (slot0)
+function slot0.bindConfigTable(slot0)
 	return pg.expedition_data_by_map
 end
 
-slot0.isInValidMap = function (slot0)
+function slot0.isInValidMap(slot0)
 	slot1 = slot0:getMapType()
 
 	if not slot0:isRemaster() and (slot1 == slot0.ACTIVITY_EASY or slot1 == slot0.ACTIVITY_HARD or slot0.ACT_EXTRA == slot1) then
@@ -47,55 +47,55 @@ slot0.isInValidMap = function (slot0)
 	end
 end
 
-slot0.setUnlock = function (slot0, slot1)
+function slot0.setUnlock(slot0, slot1)
 	slot0.unlock = slot1
 end
 
-slot0.isUnlock = function (slot0)
+function slot0.isUnlock(slot0)
 	return slot0.unlock
 end
 
-slot0.setRemaster = function (slot0, slot1)
+function slot0.setRemaster(slot0, slot1)
 	slot0.remasterId = slot1
 end
 
-slot0.isRemaster = function (slot0)
+function slot0.isRemaster(slot0)
 	return slot0.remasterId ~= nil
 end
 
-slot0.getMapType = function (slot0)
+function slot0.getMapType(slot0)
 	return slot0:getConfig("type")
 end
 
-slot0.getMapTitleNumber = function (slot0)
+function slot0.getMapTitleNumber(slot0)
 	return slot0:getConfig("title")
 end
 
-slot0.setBindMapVO = function (slot0, slot1)
+function slot0.setBindMapVO(slot0, slot1)
 	slot0.bindingMap = slot1
 end
 
-slot0.getBindMap = function (slot0)
+function slot0.getBindMap(slot0)
 	return slot0:getConfig("bind_map")
 end
 
-slot0.updateChapter = function (slot0, slot1)
+function slot0.updateChapter(slot0, slot1)
 	slot0.chapters[slot1.id] = slot1
 end
 
-slot0.removeChapter = function (slot0, slot1)
+function slot0.removeChapter(slot0, slot1)
 	slot0.chapters[slot1] = nil
 end
 
-slot0.getChapters = function (slot0)
+function slot0.getChapters(slot0)
 	return slot0.chapters
 end
 
-slot0.getChapter = function (slot0, slot1)
+function slot0.getChapter(slot0, slot1)
 	return slot0.chapters[slot1]
 end
 
-slot0.getActiveChapter = function (slot0)
+function slot0.getActiveChapter(slot0)
 	for slot4, slot5 in pairs(slot0.chapters) do
 		if slot5.active then
 			return slot5
@@ -103,7 +103,7 @@ slot0.getActiveChapter = function (slot0)
 	end
 end
 
-slot0.updateChapters = function (slot0, slot1)
+function slot0.updateChapters(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.chapters) do
 		if slot6:getConfig("pre_chapter") == 0 then
 			slot6:setUnlock(true)
@@ -121,7 +121,7 @@ slot0.updateChapters = function (slot0, slot1)
 	end
 end
 
-slot0.isClear = function (slot0)
+function slot0.isClear(slot0)
 	if slot0:getMapType() == slot0.SCENARIO or slot1 == slot0.ACTIVITY_EASY then
 		for slot5, slot6 in pairs(slot0.chapters) do
 			if not slot6:isClear() then
@@ -133,7 +133,7 @@ slot0.isClear = function (slot0)
 	return true
 end
 
-slot0.isEliteEnabled = function (slot0)
+function slot0.isEliteEnabled(slot0)
 	slot1 = nil
 
 	if slot0:getMapType() == slot0.ELITE then
@@ -159,17 +159,17 @@ slot0.isEliteEnabled = function (slot0)
 	return true
 end
 
-slot0.isAnyChapterUnlocked = function (slot0)
+function slot0.isAnyChapterUnlocked(slot0)
 	return _.any(_.values(slot0.chapters), function (slot0)
 		return slot0:isUnlock()
 	end)
 end
 
-slot0.isActivity = function (slot0)
+function slot0.isActivity(slot0)
 	return slot0:getConfig("type") == Map.EVENT or slot1 == Map.ACTIVITY_HARD or slot1 == Map.ACTIVITY_EASY or slot1 == Map.ACT_EXTRA
 end
 
-slot0.isClearForActivity = function (slot0)
+function slot0.isClearForActivity(slot0)
 	for slot4, slot5 in pairs(slot0.chapters) do
 		if not slot5:isClear() then
 			return false
@@ -179,41 +179,41 @@ slot0.isClearForActivity = function (slot0)
 	return true
 end
 
-slot0.isActExtra = function (slot0)
+function slot0.isActExtra(slot0)
 	return slot0:getConfig("type") == slot0.ACT_EXTRA
 end
 
-slot0.isGuildBoss = function (slot0)
+function slot0.isGuildBoss(slot0)
 	return slot0:getConfig("type") == Map.GUILD_BOSS
 end
 
-slot0.isSham = function (slot0)
+function slot0.isSham(slot0)
 	return slot0:getConfig("type") == Map.SHAM
 end
 
-slot0.isEscort = function (slot0)
+function slot0.isEscort(slot0)
 	return slot0:getConfig("type") == Map.ESCORT
 end
 
-slot0.isSkirmish = function (slot0)
+function slot0.isSkirmish(slot0)
 	return slot0:getConfig("type") == Map.SKIRMISH
 end
 
-slot0.isNormalMap = function (slot0)
+function slot0.isNormalMap(slot0)
 	return table.contains(Map.NORMAL_MAP, slot0:getConfig("type"))
 end
 
-slot0.IsType = function (slot0, slot1)
+function slot0.IsType(slot0, slot1)
 	if Map.bindConfigTable()[slot0] then
 		return slot3.type == slot1
 	end
 end
 
-slot0.NeedRecordMap = function (slot0)
+function slot0.NeedRecordMap(slot0)
 	return slot0:getConfig("type") == slot0.INVALID or slot1 == slot0.SCENARIO or slot1 == slot0.ELITE
 end
 
-slot0.existHardMap = function (slot0)
+function slot0.existHardMap(slot0)
 	slot1 = 10
 	slot2 = slot0:getConfigTable()
 

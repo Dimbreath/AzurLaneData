@@ -4,17 +4,17 @@ slot0.STATE_WAIT = 2
 slot0.STATE_LOCK = 3
 slot0.STATE_FETCHED = 4
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.configId = slot1.id
 	slot0.id = slot0.configId
 	slot0.star = slot1.star
 end
 
-slot0.bindConfigTable = function (slot0)
+function slot0.bindConfigTable(slot0)
 	return pg.storeup_data_template
 end
 
-slot0.getStarCount = function (slot0, slot1)
+function slot0.getStarCount(slot0, slot1)
 	slot2 = 0
 
 	for slot6, slot7 in pairs(slot0:getConfig("char_list")) do
@@ -26,7 +26,7 @@ slot0.getStarCount = function (slot0, slot1)
 	return slot2
 end
 
-slot0.getNextAwardIndex = function (slot0, slot1)
+function slot0.getNextAwardIndex(slot0, slot1)
 	slot2 = 1
 
 	if slot1[slot0.id] then
@@ -36,11 +36,11 @@ slot0.getNextAwardIndex = function (slot0, slot1)
 	return slot2
 end
 
-slot0.isFetchAll = function (slot0, slot1)
+function slot0.isFetchAll(slot0, slot1)
 	return (slot1[slot0.id] or 0) >= #slot0:getConfig("level")
 end
 
-slot0.canGetRes = function (slot0, slot1, slot2)
+function slot0.canGetRes(slot0, slot1, slot2)
 	slot5 = slot0:getStarCount(slot1)
 	slot6 = false
 
@@ -55,7 +55,7 @@ slot0.canGetRes = function (slot0, slot1, slot2)
 	return false, slot6
 end
 
-slot0.getState = function (slot0, slot1, slot2)
+function slot0.getState(slot0, slot1, slot2)
 	slot3 = slot2[slot0.id]
 	slot4, slot5 = slot0:canGetRes(slot1, slot2)
 	slot6 = slot0:isFetchAll(slot2)
@@ -69,7 +69,7 @@ slot0.getState = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.getAwardState = function (slot0, slot1, slot2, slot3)
+function slot0.getAwardState(slot0, slot1, slot2, slot3)
 	slot4 = slot2[slot0.id] or 0
 	slot6 = slot0:getConfig("award_display")
 
@@ -80,7 +80,7 @@ slot0.getAwardState = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-slot0.containShipGroup = function (slot0, slot1)
+function slot0.containShipGroup(slot0, slot1)
 	return _.any(slot0:getConfig("award_display"), function (slot0)
 		if slot0[1] == DROP_TYPE_SHIP and Ship.New({
 			configId = slot0[2]

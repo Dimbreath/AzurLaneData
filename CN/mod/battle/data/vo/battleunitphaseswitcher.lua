@@ -4,13 +4,13 @@ slot2 = ys.Battle.BattleConst
 ys.Battle.BattleUnitPhaseSwitcher = class("BattleUnitPhaseSwitcher")
 ys.Battle.BattleUnitPhaseSwitcher.__name = "BattleUnitPhaseSwitcher"
 
-ys.Battle.BattleUnitPhaseSwitcher.Ctor = function (slot0, slot1)
+function ys.Battle.BattleUnitPhaseSwitcher.Ctor(slot0, slot1)
 	slot0._client = slot1
 
 	slot0._client:AddPhaseSwitcher(slot0)
 end
 
-ys.Battle.BattleUnitPhaseSwitcher.Update = function (slot0)
+function ys.Battle.BattleUnitPhaseSwitcher.Update(slot0)
 	if slot0._currentPhase.switchType == slot0.DURATION then
 		if slot0._currentPhase.switchParam < pg.TimeMgr.GetInstance():GetCombatTime() - slot0._phaseStartTime then
 			slot0:switch(slot0._currentPhase.switchTo)
@@ -24,7 +24,7 @@ ys.Battle.BattleUnitPhaseSwitcher.Update = function (slot0)
 	end
 end
 
-ys.Battle.BattleUnitPhaseSwitcher.GetPhaseProgress = function (slot0)
+function ys.Battle.BattleUnitPhaseSwitcher.GetPhaseProgress(slot0)
 	if slot0._currentPhase.switchType == slot0.DURATION then
 		return (pg.TimeMgr.GetInstance():GetCombatTime() - slot0._phaseStartTime) / slot0._currentPhase.switchParam
 	else
@@ -32,13 +32,13 @@ ys.Battle.BattleUnitPhaseSwitcher.GetPhaseProgress = function (slot0)
 	end
 end
 
-ys.Battle.BattleUnitPhaseSwitcher.UpdateHP = function (slot0, slot1)
+function ys.Battle.BattleUnitPhaseSwitcher.UpdateHP(slot0, slot1)
 	if slot0._currentPhase.switchType == slot0.HP and slot1 < slot0._currentPhase.switchParam then
 		slot0:switch(slot0._currentPhase.switchTo)
 	end
 end
 
-ys.Battle.BattleUnitPhaseSwitcher.SetTemplateData = function (slot0, slot1)
+function ys.Battle.BattleUnitPhaseSwitcher.SetTemplateData(slot0, slot1)
 	slot0._phaseList = {}
 
 	for slot5, slot6 in ipairs(slot1) do
@@ -48,7 +48,7 @@ ys.Battle.BattleUnitPhaseSwitcher.SetTemplateData = function (slot0, slot1)
 	slot0:switch(0)
 end
 
-ys.Battle.BattleUnitPhaseSwitcher.switch = function (slot0, slot1)
+function ys.Battle.BattleUnitPhaseSwitcher.switch(slot0, slot1)
 	if slot1 == -1 or slot0._phaseList[slot1] == nil then
 		return
 	end
