@@ -3,7 +3,7 @@ slot0.UPGRADE_SHIP = "ShipUpgradeMediator2:UPGRADE_SHIP"
 slot0.ON_SELECT_SHIP = "ShipUpgradeMediator2:ON_SELECT_SHIP"
 slot0.NEXTSHIP = "ShipUpgradeMediator2:NEXTSHIP"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.bayProxy = getProxy(BayProxy)
 
 	slot0.viewComponent:setPlayer(slot2)
@@ -66,7 +66,7 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.UPGRADE_STAR_DONE,
 		BagProxy.ITEM_UPDATED,
@@ -76,7 +76,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.SET_SHIP_FLAG_DONE then

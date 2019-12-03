@@ -3,7 +3,7 @@ slot0.ON_LAUNCH = "LotteryMediator:ON_LAUNCH"
 slot0.ON_SWITCH = "LotteryMediator:ON_SWITCH"
 slot0.OPEN = "LotteryMediator:OPEN"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0:bind(slot0.ON_LAUNCH, function (slot0, slot1, slot2, slot3, slot4)
 		if not slot0:getActivityById(slot1) or slot5:isEnd() then
 			return
@@ -34,7 +34,7 @@ slot0.register = function (slot0)
 	slot0:sendNotification(slot0.OPEN)
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		ActivityProxy.ACTIVITY_UPDATED,
 		PlayerProxy.UPDATED,
@@ -42,7 +42,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == ActivityProxy.ACTIVITY_UPDATED then

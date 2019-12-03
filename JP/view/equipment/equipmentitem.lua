@@ -1,7 +1,7 @@
 slot0 = class("EquipmentItem")
 slot1 = 0.5
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.go = slot1
 	slot0.bg = findTF(slot1, "frame/bg")
 	slot0.mask = findTF(slot1, "frame/bg/mask")
@@ -20,7 +20,7 @@ slot0.Ctor = function (slot0, slot1)
 	setActive(slot0.equiped, false)
 end
 
-slot0.update = function (slot0, slot1, slot2)
+function slot0.update(slot0, slot1, slot2)
 	setActive(slot0.equiped, false)
 	setActive(slot0.unloadBtn, not slot1)
 	setActive(slot0.bg, slot1)
@@ -54,7 +54,7 @@ slot0.update = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.updateSkin = function (slot0)
+function slot0.updateSkin(slot0)
 	setActive(slot0.equiped, slot0.equipmentVO.shipId)
 
 	if slot0.equipmentVO.shipId then
@@ -70,11 +70,11 @@ slot0.updateSkin = function (slot0)
 	slot0.nameTF.text = shortenString(getText(slot0.nameTF), 5)
 end
 
-slot0.dispose = function (slot0)
+function slot0.dispose(slot0)
 	return
 end
 
-slot0.updateSelected = function (slot0, slot1, slot2)
+function slot0.updateSelected(slot0, slot1, slot2)
 	setText(slot0.selectCount, slot2)
 
 	slot0.selected = slot1

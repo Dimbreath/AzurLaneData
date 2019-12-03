@@ -1,35 +1,35 @@
 slot0 = class("NewShipDocumentView", import("..base.BaseSubView"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "NewShipDocumentView"
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0:InitUI()
 	slot0:AddListener()
 	setActive(slot0._tf, true)
 	LeanTween.move(rtf(slot0._tf), Vector3(-30, 0, 0), 0.3)
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	slot0._shipVO = nil
 	slot0.confirmFunc = nil
 end
 
-slot0.InitUI = function (slot0)
+function slot0.InitUI(slot0)
 	slot0.skillContainer = slot0:findTF("bg/skill_panel/frame/skill_list/viewport")
 	slot0.skillTpl = slot0:getTpl("bg/skill_panel/frame/skilltpl", slot0._tf)
 	slot0.emptyTpl = slot0:getTpl("bg/skill_panel/frame/emptytpl", slot0._tf)
 	slot0.addTpl = slot0:getTpl("bg/skill_panel/frame/addtpl", slot0._tf)
 end
 
-slot0.AddListener = function (slot0)
+function slot0.AddListener(slot0)
 	onButton(slot0, slot0:findTF("qr_btn"), function ()
 		slot0.confirmFunc()
 	end, SFX_CONFIRM)
 end
 
-slot0.initSkills = function (slot0)
+function slot0.initSkills(slot0)
 	slot3 = 1
 
 	for slot7, slot8 in ipairs(pg.ship_data_template[slot0._shipVO:getMaxConfigId()].buff_list_display) do
@@ -57,13 +57,13 @@ slot0.initSkills = function (slot0)
 	end
 end
 
-slot0.UpdatePropertyPanel = function (slot0)
+function slot0.UpdatePropertyPanel(slot0)
 	slot0.propertyPanel = PropertyPanel.New(slot0:findTF("bg/property_panel/frame"))
 
 	slot0.propertyPanel:initProperty(slot0._shipVO.configId)
 end
 
-slot0.getTpl = function (slot0, slot1, slot2)
+function slot0.getTpl(slot0, slot1, slot2)
 	slot3 = slot0:findTF(slot1, slot2)
 
 	slot3:SetParent(slot0._tf, false)
@@ -72,12 +72,12 @@ slot0.getTpl = function (slot0, slot1, slot2)
 	return slot3
 end
 
-slot0.SetParams = function (slot0, slot1, slot2)
+function slot0.SetParams(slot0, slot1, slot2)
 	slot0._shipVO = slot1
 	slot0.confirmFunc = slot2
 end
 
-slot0.RefreshUI = function (slot0)
+function slot0.RefreshUI(slot0)
 	slot0:initSkills()
 	slot0:UpdatePropertyPanel()
 end

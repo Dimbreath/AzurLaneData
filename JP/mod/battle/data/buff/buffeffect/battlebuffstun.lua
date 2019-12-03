@@ -2,16 +2,16 @@ ys = ys or {}
 ys.Battle.BattleBuffStun = class("BattleBuffStun", ys.Battle.BattleBuffEffect)
 ys.Battle.BattleBuffStun.__name = "BattleBuffStun"
 
-ys.Battle.BattleBuffStun.Ctor = function (slot0, slot1)
+function ys.Battle.BattleBuffStun.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 end
 
-ys.Battle.BattleBuffStun.SetArgs = function (slot0, slot1, slot2)
+function ys.Battle.BattleBuffStun.SetArgs(slot0, slot1, slot2)
 	slot0._maxDistance = slot0._tempData.arg_list.max_distance
 	slot0._check_target = slot0._tempData.arg_list.check_target or "TargetNull"
 end
 
-ys.Battle.BattleBuffStun.onAttach = function (slot0, slot1, slot2)
+function ys.Battle.BattleBuffStun.onAttach(slot0, slot1, slot2)
 	if slot0.Battle.BattleAttr.IsStun(slot1) then
 		return
 	end
@@ -25,7 +25,7 @@ ys.Battle.BattleBuffStun.onAttach = function (slot0, slot1, slot2)
 	end
 end
 
-ys.Battle.BattleBuffStun.onUpdate = function (slot0, slot1, slot2)
+function ys.Battle.BattleBuffStun.onUpdate(slot0, slot1, slot2)
 	if slot0.Battle.BattleAttr.IsStun(slot1) then
 		return
 	end
@@ -39,13 +39,13 @@ ys.Battle.BattleBuffStun.onUpdate = function (slot0, slot1, slot2)
 	end
 end
 
-ys.Battle.BattleBuffStun.onTrigger = function (slot0, slot1, slot2)
+function ys.Battle.BattleBuffStun.onTrigger(slot0, slot1, slot2)
 	slot0.super.onTrigger(slot0, slot1, slot2)
 	slot1.Battle.BattleAttr.Stun(slot1)
 	slot1:UpdateMoveLimit()
 end
 
-ys.Battle.BattleBuffStun.targetInBounds = function (slot0, slot1, slot2)
+function ys.Battle.BattleBuffStun.targetInBounds(slot0, slot1, slot2)
 	if slot0._maxDistance then
 		return slot1:GetDistance(slot2) <= slot0._maxDistance
 	else
@@ -53,7 +53,7 @@ ys.Battle.BattleBuffStun.targetInBounds = function (slot0, slot1, slot2)
 	end
 end
 
-ys.Battle.BattleBuffStun.onRemove = function (slot0, slot1, slot2)
+function ys.Battle.BattleBuffStun.onRemove(slot0, slot1, slot2)
 	slot0.Battle.BattleAttr.CancelStun(slot1)
 	slot1:UpdateMoveLimit()
 end

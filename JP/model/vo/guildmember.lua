@@ -10,30 +10,30 @@ slot1 = {
 	i18n("guild_word_ordinary")
 }
 
-slot0.dutyId2Name = function (slot0)
+function slot0.dutyId2Name(slot0)
 	return slot0[slot0]
 end
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 
 	slot0.liveness = slot1.liveness or 0
 	slot0.duty = slot1.duty or slot0.DUTY_ORDINARY
 end
 
-slot0.setDuty = function (slot0, slot1)
+function slot0.setDuty(slot0, slot1)
 	slot0.duty = slot1
 end
 
-slot0.isLongOffLine = function (slot0)
+function slot0.isLongOffLine(slot0)
 	return pg.TimeMgr.GetInstance():GetServerTime() - slot0.preOnLineTime > 864000
 end
 
-slot0.setDamage = function (slot0, slot1)
+function slot0.setDamage(slot0, slot1)
 	slot0.damage = slot1
 end
 
-slot0.getDamage = function (slot0)
+function slot0.getDamage(slot0)
 	if slot0.damage then
 		return slot0.damage
 	end

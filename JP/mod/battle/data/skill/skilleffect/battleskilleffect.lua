@@ -3,7 +3,7 @@ slot1 = ys.Battle.BattleUnitEvent
 ys.Battle.BattleSkillEffect = class("BattleSkillEffect")
 ys.Battle.BattleSkillEffect.__name = "BattleSkillEffect"
 
-ys.Battle.BattleSkillEffect.Ctor = function (slot0, slot1, slot2)
+function ys.Battle.BattleSkillEffect.Ctor(slot0, slot1, slot2)
 	slot0.EventDispatcher.AttachEventDispatcher(slot0)
 
 	slot0._tempData = slot1
@@ -18,11 +18,11 @@ ys.Battle.BattleSkillEffect.Ctor = function (slot0, slot1, slot2)
 	slot0._level = slot2
 end
 
-ys.Battle.BattleSkillEffect.SetCommander = function (slot0, slot1)
+function ys.Battle.BattleSkillEffect.SetCommander(slot0, slot1)
 	slot0._commander = slot1
 end
 
-ys.Battle.BattleSkillEffect.Effect = function (slot0, slot1, slot2, slot3)
+function ys.Battle.BattleSkillEffect.Effect(slot0, slot1, slot2, slot3)
 	if slot2 and #slot2 > 0 then
 		for slot7, slot8 in ipairs(slot2) do
 			slot0:AniEffect(slot1, slot8)
@@ -33,7 +33,7 @@ ys.Battle.BattleSkillEffect.Effect = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-ys.Battle.BattleSkillEffect.AniEffect = function (slot0, slot1, slot2)
+function ys.Battle.BattleSkillEffect.AniEffect(slot0, slot1, slot2)
 	slot3 = slot2:GetPosition()
 	slot4 = slot1:GetPosition()
 
@@ -70,7 +70,7 @@ ys.Battle.BattleSkillEffect.AniEffect = function (slot0, slot1, slot2)
 	end
 end
 
-ys.Battle.BattleSkillEffect.DataEffect = function (slot0, slot1, slot2, slot3)
+function ys.Battle.BattleSkillEffect.DataEffect(slot0, slot1, slot2, slot3)
 	if slot0._delay > 0 then
 		slot4 = nil
 		slot0._timerIndex = slot0._timerIndex + 1
@@ -90,11 +90,11 @@ ys.Battle.BattleSkillEffect.DataEffect = function (slot0, slot1, slot2, slot3)
 	slot0:DoDataEffect(slot1, slot2, slot3)
 end
 
-ys.Battle.BattleSkillEffect.DoDataEffect = function (slot0, slot1, slot2, slot3)
+function ys.Battle.BattleSkillEffect.DoDataEffect(slot0, slot1, slot2, slot3)
 	return
 end
 
-ys.Battle.BattleSkillEffect.DataEffectWithoutTarget = function (slot0, slot1, slot2)
+function ys.Battle.BattleSkillEffect.DataEffectWithoutTarget(slot0, slot1, slot2)
 	if slot0._delay > 0 then
 		slot3 = nil
 		slot0._timerIndex = slot0._timerIndex + 1
@@ -114,11 +114,11 @@ ys.Battle.BattleSkillEffect.DataEffectWithoutTarget = function (slot0, slot1, sl
 	slot0:DoDataEffectWithoutTarget(slot1, slot2)
 end
 
-ys.Battle.BattleSkillEffect.DoDataEffectWithoutTarget = function (slot0, slot1, slot2)
+function ys.Battle.BattleSkillEffect.DoDataEffectWithoutTarget(slot0, slot1, slot2)
 	return
 end
 
-ys.Battle.BattleSkillEffect.IsFilterTarget = function (slot0, slot1, slot2)
+function ys.Battle.BattleSkillEffect.IsFilterTarget(slot0, slot1, slot2)
 	slot3 = slot0._tempData.arg_list.effectFilter or {}
 	slot4 = true
 
@@ -145,7 +145,7 @@ ys.Battle.BattleSkillEffect.IsFilterTarget = function (slot0, slot1, slot2)
 	return slot4
 end
 
-ys.Battle.BattleSkillEffect.GetTarget = function (slot0, slot1, slot2)
+function ys.Battle.BattleSkillEffect.GetTarget(slot0, slot1, slot2)
 	if type(slot0._targetChoise) == "string" then
 		if slot0._targetChoise == "TargetSameToLastEffect" then
 			return slot2._lastEffectTarget
@@ -163,7 +163,7 @@ ys.Battle.BattleSkillEffect.GetTarget = function (slot0, slot1, slot2)
 	end
 end
 
-ys.Battle.BattleSkillEffect.Clear = function (slot0)
+function ys.Battle.BattleSkillEffect.Clear(slot0)
 	for slot4, slot5 in pairs(slot0._timerList) do
 		pg.TimeMgr.GetInstance():RemoveBattleTimer(slot5)
 
@@ -173,7 +173,7 @@ ys.Battle.BattleSkillEffect.Clear = function (slot0)
 	slot0._commander = nil
 end
 
-ys.Battle.BattleSkillEffect.Dispose = function (slot0)
+function ys.Battle.BattleSkillEffect.Dispose(slot0)
 	slot0.EventDispatcher.DetachEventDispatcher(slot0)
 end
 

@@ -2,7 +2,7 @@ slot0 = class("SpineAnimationGroup")
 slot1 = import("view.util.ReturnSpineRequestPackage")
 slot2 = import("view.util.GetSpineRequestPackage")
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.name = nil
 	slot0.model = nil
 	slot0.anim = nil
@@ -16,7 +16,7 @@ slot0.Ctor = function (slot0, slot1)
 	slot0.scale = Vector3(0.4, 0.4, 0.4)
 end
 
-slot0.Set = function (slot0, slot1)
+function slot0.Set(slot0, slot1)
 	if slot0.name == slot1 then
 		return
 	end
@@ -53,7 +53,7 @@ slot0.Set = function (slot0, slot1)
 	slot0.lastLoadRequest()
 end
 
-slot0.SetRoutine = function (slot0, slot1)
+function slot0.SetRoutine(slot0, slot1)
 	table.clear(slot0.group)
 
 	slot2 = ipairs
@@ -73,7 +73,7 @@ slot0.SetRoutine = function (slot0, slot1)
 	slot0:PlayAction(math.min(#slot0.group, 1))
 end
 
-slot0.PlayAction = function (slot0, slot1)
+function slot0.PlayAction(slot0, slot1)
 	if not slot1 or slot1 <= 0 or slot1 > #slot0.group or slot0.AnimIndexPlaying == slot1 then
 		return
 	end
@@ -100,7 +100,7 @@ slot0.PlayAction = function (slot0, slot1)
 	slot0.AnimIndexPlaying = slot1
 end
 
-slot0.ClearModel = function (slot0)
+function slot0.ClearModel(slot0)
 	if slot0.model and not slot0.lastClearRequest then
 		slot0.lastClearRequest = slot0.New(slot0.name, slot0.model, function ()
 			slot0.model = nil
@@ -109,7 +109,7 @@ slot0.ClearModel = function (slot0)
 	end
 end
 
-slot0.ClearTimer = function (slot0)
+function slot0.ClearTimer(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -117,7 +117,7 @@ slot0.ClearTimer = function (slot0)
 	end
 end
 
-slot0.ClearAll = function (slot0)
+function slot0.ClearAll(slot0)
 	slot0:ClearTimer()
 	slot0:ClearModel()
 

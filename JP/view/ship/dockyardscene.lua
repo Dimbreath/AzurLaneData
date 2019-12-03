@@ -117,11 +117,11 @@ slot12 = {
 	main = 2
 }
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "DockyardUI"
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.UIMgr = pg.UIMgr.GetInstance()
 
 	slot0._tf:SetAsLastSibling()
@@ -207,19 +207,19 @@ slot0.init = function (slot0)
 
 	setActive(slot0:findTF("main/ship_container"), not slot0.contextData.selectFriend)
 
-	slot0.shipContainer.onInitItem = function (slot0)
+	function slot0.shipContainer.onInitItem(slot0)
 		slot0:onInitItem(slot0)
 	end
 
-	slot0.shipContainer.onUpdateItem = function (slot0, slot1)
+	function slot0.shipContainer.onUpdateItem(slot0, slot1)
 		slot0:onUpdateItem(slot0, slot1)
 	end
 
-	slot0.shipContainer.onReturnItem = function (slot0, slot1)
+	function slot0.shipContainer.onReturnItem(slot0, slot1)
 		slot0:onReturnItem(slot0, slot1)
 	end
 
-	slot0.shipContainer.onStart = function ()
+	function slot0.shipContainer.onStart()
 		slot0:updateSelected()
 	end
 
@@ -284,11 +284,11 @@ slot0.init = function (slot0)
 	setText(slot0.listEmptyTxt, i18n("list_empty_tip_dockyardui"))
 end
 
-slot0.setShipsCount = function (slot0, slot1)
+function slot0.setShipsCount(slot0, slot1)
 	slot0.shipsCount = slot1
 end
 
-slot0.onInitItem = function (slot0, slot1)
+function slot0.onInitItem(slot0, slot1)
 	slot2 = nil
 
 	(slot0.contextData.selectFriend or DockyardShipItem.New(slot1, slot0.contextData.showTagNoBlock)) and DockyardFriend.New(slot1, slot0.contextData.showTagNoBlock):updateDetail(slot0.itemDetailType)
@@ -324,7 +324,7 @@ slot0.onInitItem = function (slot0, slot1)
 	slot0.scrollItems[slot1] = (slot0.contextData.selectFriend or DockyardShipItem.New(slot1, slot0.contextData.showTagNoBlock)) and DockyardFriend.New(slot1, slot0.contextData.showTagNoBlock)
 end
 
-slot0.showEnergyDesc = function (slot0, slot1, slot2)
+function slot0.showEnergyDesc(slot0, slot1, slot2)
 	if LeanTween.isTweening(go(slot0.energyDescTF)) then
 		LeanTween.cancel(go(slot0.energyDescTF))
 
@@ -343,7 +343,7 @@ slot0.showEnergyDesc = function (slot0, slot1, slot2)
 	end))
 end
 
-slot0.onUpdateItem = function (slot0, slot1, slot2)
+function slot0.onUpdateItem(slot0, slot1, slot2)
 	if not slot0.scrollItems[slot2] then
 		slot0:onInitItem(slot2)
 
@@ -375,7 +375,7 @@ slot0.onUpdateItem = function (slot0, slot1, slot2)
 	slot3.isLoading = false
 end
 
-slot0.onReturnItem = function (slot0, slot1, slot2)
+function slot0.onReturnItem(slot0, slot1, slot2)
 	if slot0.exited then
 		return
 	end
@@ -385,7 +385,7 @@ slot0.onReturnItem = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.initIndexPanel = function (slot0)
+function slot0.initIndexPanel(slot0)
 	onButton(slot0, slot0.indexBtn, function ()
 		if not slot0.indexPanel then
 			slot0.indexPanel = findTF(slot0._tf, "index_panel")
@@ -473,7 +473,7 @@ slot0.initIndexPanel = function (slot0)
 	end)
 end
 
-slot0.updateIndex = function (slot0)
+function slot0.updateIndex(slot0)
 	for slot4, slot5 in ipairs(slot0.indexTFs) do
 		triggerToggle(slot0.indexTFs[slot4], slot0.indexFlag[slot4])
 	end
@@ -501,7 +501,7 @@ slot0.updateIndex = function (slot0)
 	triggerToggle(slot0.sortTFs[slot0.selectedSort], true)
 end
 
-slot0.initIndex = function (slot0)
+function slot0.initIndex(slot0)
 	slot0.indexs = findTF(slot0.indexPanel, "layout/index/panel")
 	slot0.indexTpl = slot0:findTF("tpl", slot0.indexs)
 
@@ -632,7 +632,7 @@ slot0.initIndex = function (slot0)
 	end
 end
 
-slot0.initSort = function (slot0)
+function slot0.initSort(slot0)
 	slot0.sorts = findTF(slot0.indexPanel, "layout/sort/panel")
 	slot0.sortTpl = slot0:findTF("tpl", slot0.sorts)
 
@@ -660,17 +660,17 @@ slot0.initSort = function (slot0)
 	end
 end
 
-slot0.setShips = function (slot0, slot1)
+function slot0.setShips(slot0, slot1)
 	slot0.shipVOsById = slot1
 end
 
-slot0.setPlayer = function (slot0, slot1)
+function slot0.setPlayer(slot0, slot1)
 	slot0.player = slot1
 
 	slot0:updateBarInfo()
 end
 
-slot0.setFriends = function (slot0, slot1)
+function slot0.setFriends(slot0, slot1)
 	slot0.friends = {}
 
 	for slot5, slot6 in pairs(slot1) do
@@ -678,11 +678,11 @@ slot0.setFriends = function (slot0, slot1)
 	end
 end
 
-slot0.setWorld = function (slot0, slot1)
+function slot0.setWorld(slot0, slot1)
 	slot0.world = slot1
 end
 
-slot0.updateBarInfo = function (slot0)
+function slot0.updateBarInfo(slot0)
 	if slot0.contextData.mode == slot0.MODE_WORLD then
 		setActive(slot0.leftTipsText, false)
 	elseif slot0.contextData.leftTopInfo then
@@ -696,7 +696,7 @@ slot0.updateBarInfo = function (slot0)
 	end
 end
 
-slot0.initWorldPanel = function (slot0)
+function slot0.initWorldPanel(slot0)
 	onButton(slot0, slot0.worldPanel:Find("repair_all_button"), function ()
 		slot1 = 0
 
@@ -735,7 +735,7 @@ slot0.initWorldPanel = function (slot0)
 	triggerToggle(slot0.worldPanel:Find("toggle_list/repair_toggle"), true)
 end
 
-slot0.repairWorldShip = function (slot0, slot1)
+function slot0.repairWorldShip(slot0, slot1)
 	slot3 = slot0.world:CalcRepairCost(slot2)
 
 	if slot1.bindingData:IsBroken() then
@@ -761,7 +761,7 @@ slot0.repairWorldShip = function (slot0, slot1)
 	end
 end
 
-slot0.selectNone = function (slot0, slot1, slot2)
+function slot0.selectNone(slot0, slot1, slot2)
 	for slot6 = 1, slot2, 1 do
 		if slot1[slot6] then
 			return false
@@ -771,7 +771,7 @@ slot0.selectNone = function (slot0, slot1, slot2)
 	return true
 end
 
-slot0.selectAll = function (slot0, slot1, slot2)
+function slot0.selectAll(slot0, slot1, slot2)
 	for slot6 = 1, slot2, 1 do
 		if not slot1[slot6] then
 			return false
@@ -781,7 +781,7 @@ slot0.selectAll = function (slot0, slot1, slot2)
 	return true
 end
 
-slot0.filter = function (slot0)
+function slot0.filter(slot0)
 	if slot0.isRemouldOrUpgradeMode then
 		slot0:filterForRemouldAndUpgrade()
 	else
@@ -789,7 +789,7 @@ slot0.filter = function (slot0)
 	end
 end
 
-slot0.filterForRemouldAndUpgrade = function (slot0)
+function slot0.filterForRemouldAndUpgrade(slot0)
 	slot0.shipVOs = {}
 
 	for slot4, slot5 in pairs(slot0.shipVOsById) do
@@ -809,7 +809,7 @@ slot0.filterForRemouldAndUpgrade = function (slot0)
 	slot0:updateShipCount(0)
 end
 
-slot0.filterCommon = function (slot0)
+function slot0.filterCommon(slot0)
 	slot0.shipVOs = {}
 	slot1 = slot0.selectedSort
 
@@ -882,7 +882,7 @@ slot0.filterCommon = function (slot0)
 	setText(slot0:findTF("Image", slot0.sortBtn), slot8[slot1])
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	setActive(go(slot0.shipContainer).transform:Find("ships"), true)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel)
 	setActive(slot0:findTF("stamp", slot0.topPanel), getProxy(TaskProxy):mingshiTouchFlagEnabled())
@@ -1038,7 +1038,7 @@ slot0.didEnter = function (slot0)
 	end
 end
 
-slot0.onBackPressed = function (slot0)
+function slot0.onBackPressed(slot0)
 	if slot0.indexPanel and LeanTween.isTweening(go(slot0.indexPanel)) then
 		return
 	end
@@ -1058,7 +1058,7 @@ slot0.onBackPressed = function (slot0)
 	end
 end
 
-slot0.hasEliteShips = function (slot0, slot1, slot2)
+function slot0.hasEliteShips(slot0, slot1, slot2)
 	function slot4(slot0, slot1)
 		if not _.include(slot0, slot0) then
 			slot0[slot1] = slot0
@@ -1081,7 +1081,7 @@ slot0.hasEliteShips = function (slot0, slot1, slot2)
 	}
 end
 
-slot0.updateShipStatusById = function (slot0, slot1)
+function slot0.updateShipStatusById(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.scrollItems) do
 		if slot6.shipVO and slot6.shipVO.id == slot1 then
 			slot6:flush()
@@ -1089,7 +1089,7 @@ slot0.updateShipStatusById = function (slot0, slot1)
 	end
 end
 
-slot0.checkDestroyGold = function (slot0, slot1)
+function slot0.checkDestroyGold(slot0, slot1)
 	slot2 = 0
 	slot3 = 0
 
@@ -1116,7 +1116,7 @@ slot0.checkDestroyGold = function (slot0, slot1)
 	return true, not slot4
 end
 
-slot0.selectShip = function (slot0, slot1)
+function slot0.selectShip(slot0, slot1)
 	function slot2()
 		slot1 = nil
 
@@ -1212,7 +1212,7 @@ slot0.selectShip = function (slot0, slot1)
 	slot3()
 end
 
-slot0.updateBlackBlocks = function (slot0, slot1)
+function slot0.updateBlackBlocks(slot0, slot1)
 	if not slot1 or #slot1 < 0 then
 		return
 	end
@@ -1231,19 +1231,19 @@ slot0.updateBlackBlocks = function (slot0, slot1)
 	end
 end
 
-slot0.unselecteAllShips = function (slot0)
+function slot0.unselecteAllShips(slot0)
 	slot0.selectedIds = {}
 
 	slot0:updateSelected()
 end
 
-slot0.initBlackBlocks = function (slot0)
+function slot0.initBlackBlocks(slot0)
 	for slot4, slot5 in ipairs(slot0.selectedIds) do
 		slot0:updateBlackBlocks(slot0.onPassShip(slot0.shipVOsById[slot5], slot0.shipVOsById))
 	end
 end
 
-slot0.updateSelected = function (slot0)
+function slot0.updateSelected(slot0)
 	for slot4, slot5 in pairs(slot0.scrollItems) do
 		if slot5.shipVO then
 			slot6 = false
@@ -1283,7 +1283,7 @@ slot0.updateSelected = function (slot0)
 	end
 end
 
-slot0.updateItemDetailType = function (slot0)
+function slot0.updateItemDetailType(slot0)
 	for slot4, slot5 in pairs(slot0.scrollItems) do
 		slot5:updateDetail(slot0.itemDetailType)
 	end
@@ -1291,12 +1291,12 @@ slot0.updateItemDetailType = function (slot0)
 	slot0.shipLayout.anchoredPosition = slot0.shipLayout.anchoredPosition + Vector3(0, 0.001, 0)
 end
 
-slot0.closeDestroyMode = function (slot0)
+function slot0.closeDestroyMode(slot0)
 	setActive(slot0.awardTF, false)
 	setActive(slot0.bottomTipsText, true)
 end
 
-slot0.updateDestroyRes = function (slot0, slot1)
+function slot0.updateDestroyRes(slot0, slot1)
 	if table.getCount(slot0.selectedIds) == 0 then
 		slot0:closeDestroyMode()
 	else
@@ -1326,11 +1326,11 @@ slot0.updateDestroyRes = function (slot0, slot1)
 	end
 end
 
-slot0.setModShip = function (slot0, slot1)
+function slot0.setModShip(slot0, slot1)
 	slot0.modShip = slot1
 end
 
-slot0.updateModAttr = function (slot0)
+function slot0.updateModAttr(slot0)
 	if table.getCount(slot0.selectedIds) == 0 then
 		slot0:closeModAttr()
 	else
@@ -1357,12 +1357,12 @@ slot0.updateModAttr = function (slot0)
 	end
 end
 
-slot0.closeModAttr = function (slot0)
+function slot0.closeModAttr(slot0)
 	setActive(slot0.modAttrsTF, false)
 	setActive(slot0.bottomTipsText, true)
 end
 
-slot0.removeShip = function (slot0, slot1)
+function slot0.removeShip(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.selectedIds) do
 		if slot6 == slot1 then
 			table.remove(slot0.selectedIds, slot5)
@@ -1382,16 +1382,16 @@ slot0.removeShip = function (slot0, slot1)
 	slot0.shipVOsById[slot1] = nil
 end
 
-slot0.updateShipCount = function (slot0, slot1)
+function slot0.updateShipCount(slot0, slot1)
 	slot0.shipContainer:SetTotalCount(#slot0.shipVOs, defaultValue(slot1, -1))
 	setActive(slot0.listEmptyTF, #slot0.shipVOs <= 0)
 end
 
-slot0.unPartialBlur = function (slot0)
+function slot0.unPartialBlur(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
 end
 
-slot0.ClearShipsBlackBlock = function (slot0)
+function slot0.ClearShipsBlackBlock(slot0)
 	if not slot0.shipVOsById then
 		return
 	end
@@ -1401,7 +1401,7 @@ slot0.ClearShipsBlackBlock = function (slot0)
 	end
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	slot0:closeDestroyMode()
 	slot0:closeDestroyPanel()
 	slot0:closeModAttr()
@@ -1438,7 +1438,7 @@ slot0.willExit = function (slot0)
 	slot0:cancelAnimating()
 end
 
-slot0.animationOut = function (slot0)
+function slot0.animationOut(slot0)
 	if slot0.onSelect then
 		shiftPanel(slot0.selectPanel, nil, -1 * slot0.selectPanel.rect.height, 0.3, 0, true, true)
 	end
@@ -1446,7 +1446,7 @@ slot0.animationOut = function (slot0)
 	shiftPanel(slot0.topPanel, nil, slot0.topPanel.rect.height, 0.3, 0, true, true)
 end
 
-slot0.animationIn = function (slot0)
+function slot0.animationIn(slot0)
 	if slot0.onSelect then
 		shiftPanel(slot0.selectPanel, nil, 0, 0.3, 0, true, true)
 	end
@@ -1454,7 +1454,7 @@ slot0.animationIn = function (slot0)
 	shiftPanel(slot0.topPanel, nil, 0, 0.3, 0, true, true)
 end
 
-slot0.uiStartAnimating = function (slot0)
+function slot0.uiStartAnimating(slot0)
 	slot1 = slot0:findTF("back", slot0.topPanel)
 	slot2 = 0
 	slot3 = 0.3
@@ -1479,14 +1479,14 @@ slot0.uiStartAnimating = function (slot0)
 	end
 end
 
-slot0.uiExitAnimating = function (slot0)
+function slot0.uiExitAnimating(slot0)
 	if slot0.mode == slot0.MODE_OVERVIEW then
 	else
 		shiftPanel(slot0.selectPanel, nil, -1 * slot0.selectPanel.rect.height, 0.3, 0, true, true)
 	end
 end
 
-slot0.back = function (slot0)
+function slot0.back(slot0)
 	if slot0.exited then
 		return
 	end
@@ -1494,7 +1494,7 @@ slot0.back = function (slot0)
 	slot0:closeView()
 end
 
-slot0.cancelAnimating = function (slot0)
+function slot0.cancelAnimating(slot0)
 	if LeanTween.isTweening(go(slot0.topPanel)) then
 		LeanTween.cancel(go(slot0.topPanel))
 	end
@@ -1508,7 +1508,7 @@ slot0.cancelAnimating = function (slot0)
 	end
 end
 
-slot0.displayDestroyPanel = function (slot0)
+function slot0.displayDestroyPanel(slot0)
 	if not slot0.destoryPanel then
 		slot0.destoryPanel = slot0:findTF("DestoryInfoUI")
 
@@ -1560,7 +1560,7 @@ slot0.displayDestroyPanel = function (slot0)
 	slot0:updateDestroyRes(true)
 end
 
-slot0.initDestoryShips = function (slot0)
+function slot0.initDestoryShips(slot0)
 	if not slot0.selectedIds or table.getCount(slot0.selectedIds) == 0 then
 		return
 	end
@@ -1600,7 +1600,7 @@ slot0.initDestoryShips = function (slot0)
 	end
 end
 
-slot0.closeDestroyPanel = function (slot0)
+function slot0.closeDestroyPanel(slot0)
 	if slot0.isOpenDestory then
 		pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel)
 		pg.UIMgr.GetInstance():UnblurPanel(tf(slot0.destoryPanel), slot0._tf)

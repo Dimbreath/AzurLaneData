@@ -2,7 +2,7 @@ slot0 = class("PlayerResource", import("..base.BaseUI"))
 slot1 = 12
 slot0.GO_MALL = "PlayerResource:GO_MALL"
 
-slot0.Ctor = function (slot0)
+function slot0.Ctor(slot0)
 	slot0.super.Ctor(slot0)
 	PoolMgr.GetInstance():GetUI("ResPanel", false, function (slot0)
 		slot0.transform:SetParent(pg.UIMgr.GetInstance().UIMain.transform, false)
@@ -10,7 +10,7 @@ slot0.Ctor = function (slot0)
 	end)
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.oilAddBtn = slot0:findTF("oil")
 	slot0.goldAddBtn = slot0:findTF("gold")
 	slot0.gemAddBtn = slot0:findTF("gem")
@@ -98,11 +98,11 @@ slot0.init = function (slot0)
 	end, SFX_PANEL)
 end
 
-slot0.setParent = function (slot0, slot1, slot2)
+function slot0.setParent(slot0, slot1, slot2)
 	setParent(slot0._go, slot1, slot2)
 end
 
-slot0.setResources = function (slot0, slot1, slot2)
+function slot0.setResources(slot0, slot1, slot2)
 	slot0.player = slot1
 
 	setText(slot0.goldMax, "MAX: " .. slot4)
@@ -119,7 +119,7 @@ slot0.setResources = function (slot0, slot1, slot2)
 	setActive(slot0.gemAddBtn, slot2 or [3])
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	if pg.goldExchangeMgr then
 		pg.goldExchangeMgr:exit()
 

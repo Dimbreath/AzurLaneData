@@ -16,17 +16,17 @@ slot0.ShipIndex = {
 	})
 }
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "VoteUI"
 end
 
-slot0.setVotes = function (slot0, slot1, slot2)
+function slot0.setVotes(slot0, slot1, slot2)
 	slot0.count = slot2
 	slot0.voteGroup = slot1
 	slot0.voteShips = slot0.voteGroup:getList()
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.title = slot0:findTF("main/right_panel/title/main"):GetComponent(typeof(Text))
 	slot0.titleBg1 = slot0:findTF("main/right_panel/title/title_bg1")
 	slot0.titleBg2 = slot0:findTF("main/right_panel/title/title_bg2")
@@ -40,7 +40,7 @@ slot0.init = function (slot0)
 	slot0.numberTxt = slot0:findTF("main/right_panel/filter_bg/Text"):GetComponent(typeof(Text))
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	slot0.PAGES = {
 		[5] = {
 			VotePreRaceShipPage,
@@ -121,7 +121,7 @@ slot0.didEnter = function (slot0)
 	slot0:UpdateMode()
 end
 
-slot0.UpdateMode = function (slot0)
+function slot0.UpdateMode(slot0)
 	slot1 = slot0.voteGroup:isResurrectionRace()
 
 	setActive(slot0.filterBtn, not slot1)
@@ -131,7 +131,7 @@ slot0.UpdateMode = function (slot0)
 	setActive(slot0.titleBg3, slot0.voteGroup.isFinalsRace())
 end
 
-slot0.OnVote = function (slot0, slot1, slot2)
+function slot0.OnVote(slot0, slot1, slot2)
 	slot0.voteMsgBox:ExecuteAction("Open", slot1.voteShip, slot0.voteGroup:GetRank(slot3), slot0.count, defaultValue(slot2, false), function (slot0)
 		if slot0.voteGroup:GetStage() ~= VoteGroup.VOTE_STAGE then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
@@ -147,17 +147,17 @@ slot0.OnVote = function (slot0, slot1, slot2)
 	end)
 end
 
-slot0.updateMainview = function (slot0)
+function slot0.updateMainview(slot0)
 	slot0:initShips()
 	slot0:initRanks()
 	slot0:updateNumber()
 end
 
-slot0.initRanks = function (slot0)
+function slot0.initRanks(slot0)
 	slot0.rankPage:ExecuteAction("Update", slot0.voteGroup)
 end
 
-slot0.initShips = function (slot0)
+function slot0.initShips(slot0)
 	slot0.displays = {}
 
 	for slot4, slot5 in ipairs(slot0.voteShips) do
@@ -171,7 +171,7 @@ slot0.initShips = function (slot0)
 	slot0.shipsPage:ExecuteAction("Update", slot0.voteGroup, slot0.displays, slot0.count)
 end
 
-slot0.initTitles = function (slot0)
+function slot0.initTitles(slot0)
 	slot1 = slot0.voteGroup:getConfig("time_vote")
 	slot0.tagtimeTF.text = slot0.voteGroup:getTimeDesc()
 
@@ -182,11 +182,11 @@ slot0.initTitles = function (slot0)
 	slot0.subTitle.text = slot0.voteGroup:getConfig("desc")
 end
 
-slot0.updateNumber = function (slot0)
+function slot0.updateNumber(slot0)
 	slot0.numberTxt.text = "X" .. slot0.count
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	slot0.rankPage:Destroy()
 	slot0.shipsPage:Destroy()
 	slot0.voteMsgBox:Destroy()

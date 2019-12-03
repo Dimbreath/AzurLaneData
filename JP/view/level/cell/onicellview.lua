@@ -1,40 +1,40 @@
 slot0 = class("OniCellView", import(".SpineCellView"))
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 
 	slot0.tfShadow = slot0.tf:Find("shadow")
 	slot0.tfIcon = slot0.tf:Find("ship/icon")
 end
 
-slot0.getOrder = function (slot0)
+function slot0.getOrder(slot0)
 	return 1
 end
 
-slot0.getModel = function (slot0)
+function slot0.getModel(slot0)
 	return slot0.tfIcon.gameObject
 end
 
-slot0.setModel = function (slot0, slot1)
+function slot0.setModel(slot0, slot1)
 	return
 end
 
-slot0.SetActive = function (slot0, slot1)
+function slot0.SetActive(slot0, slot1)
 	slot0.showFlag = slot1
 
 	slot0:SetActiveModel(slot1)
 	setActive(slot0.tfShadow, slot1)
 end
 
-slot0.SetActiveModel = function (slot0, slot1)
+function slot0.SetActiveModel(slot0, slot1)
 	slot0:SetSpineVisible(slot1 and slot0.showFlag)
 end
 
-slot0.setAttachment = function (slot0, slot1)
+function slot0.setAttachment(slot0, slot1)
 	slot0._attachmentInfo = slot1
 end
 
-slot0.loadSpine = function (slot0, slot1)
+function slot0.loadSpine(slot0, slot1)
 	if slot1 then
 		slot1()
 	end
@@ -57,7 +57,7 @@ slot0.loadSpine = function (slot0, slot1)
 	end
 end
 
-slot0.unloadSpine = function (slot0)
+function slot0.unloadSpine(slot0)
 	return
 end
 

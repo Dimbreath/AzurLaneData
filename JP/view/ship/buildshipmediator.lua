@@ -14,7 +14,7 @@ slot0.SIMULATION_BATTLE = "BuildShipMediator SIMULATION_BATTLE"
 slot0.OPEN_PRAY_PAGE = "BuildShipMediator OPEN_PRAY_PAGE"
 slot0.CLOSE_PRAY_PAGE = "BuildShipMediator CLOSE_PRAY_PAGE"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.viewComponent:setPlayer(slot2)
 
 	slot0.useItem = pg.ship_data_create_material[1].use_item
@@ -127,7 +127,7 @@ slot0.register = function (slot0)
 	end
 end
 
-slot0.checkActivityBuild = function (slot0)
+function slot0.checkActivityBuild(slot0)
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1) and not slot2:isEnd() then
 		slot0.viewComponent:setActivity(slot2)
 	elseif slot0.contextData.projectName == BuildShipScene.PROJECTS.ACTIVITY then
@@ -135,7 +135,7 @@ slot0.checkActivityBuild = function (slot0)
 	end
 end
 
-slot0.buildFinishComeback = function (slot0)
+function slot0.buildFinishComeback(slot0)
 	if table.getCount(getProxy(BuildShipProxy):getData()) == 0 and slot0.viewComponent then
 		if (BuildShip.getPageFromPoolType(slot1:getLastBuildShipPoolType()) or BuildShipScene.PAGE_BUILD) == BuildShipScene.PAGE_PRAY and (not getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_PRAY_POOL) or slot3:isEnd()) then
 			slot2 = BuildShipScene.PAGE_BUILD
@@ -145,7 +145,7 @@ slot0.buildFinishComeback = function (slot0)
 	end
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.BUILD_SHIP_DONE,
 		BagProxy.ITEM_UPDATED,
@@ -162,7 +162,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == PlayerProxy.UPDATED then

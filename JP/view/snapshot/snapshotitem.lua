@@ -4,7 +4,7 @@ slot0.NAME_COLOR = {
 	"#5A9BFFFF"
 }
 
-slot0.Ctor = function (slot0, slot1, slot2)
+function slot0.Ctor(slot0, slot1, slot2)
 	slot0.go = slot1
 	slot0.selected = slot2
 	slot0.tr = slot1.transform
@@ -19,14 +19,14 @@ slot0.Ctor = function (slot0, slot1, slot2)
 	slot0.selectedGo:SetActive(false)
 end
 
-slot0.Update = function (slot0, slot1)
+function slot0.Update(slot0, slot1)
 	slot0.info = slot1
 	slot0.id = slot1.id
 
 	slot0:flush()
 end
 
-slot0.UpdateSelected = function (slot0, slot1)
+function slot0.UpdateSelected(slot0, slot1)
 	slot0.selected = slot1
 
 	slot0.unselectGo:SetActive(not slot0.selected)
@@ -39,24 +39,24 @@ slot0.UpdateSelected = function (slot0, slot1)
 	end
 end
 
-slot0.HasInfo = function (slot0)
+function slot0.HasInfo(slot0)
 	return slot0.info ~= nil
 end
 
-slot0.GetID = function (slot0)
+function slot0.GetID(slot0)
 	return slot0.id
 end
 
-slot0.flush = function (slot0)
+function slot0.flush(slot0)
 	slot0.nameTxt.text = slot0.info.name
 end
 
-slot0.SetEulerAngle = function (slot0, slot1)
+function slot0.SetEulerAngle(slot0, slot1)
 	slot2 = rtf(slot0.nameTF).eulerAngles
 	rtf(slot0.nameTF).eulerAngles = Vector3(0, 0, slot1)
 end
 
-slot0.RotateUI = function (slot0, slot1, slot2)
+function slot0.RotateUI(slot0, slot1, slot2)
 	LeanTween.rotateZ(go(slot0.nameTF), slot1, slot2)
 end
 

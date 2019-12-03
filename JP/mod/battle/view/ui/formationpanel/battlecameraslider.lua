@@ -5,13 +5,13 @@ slot2 = class("BattleCameraSlider")
 ys.Battle.BattleCameraSlider = slot2
 slot2.__name = "BattleCameraSlider"
 
-slot2.Ctor = function (slot0, slot1)
+function slot2.Ctor(slot0, slot1)
 	slot0._go = slot1
 
 	slot0:Init()
 end
 
-slot2.Init = function (slot0)
+function slot2.Init(slot0)
 	SetActive(slot0._go, true)
 
 	slot0._distY = 0
@@ -27,7 +27,7 @@ slot2.Init = function (slot0)
 	end)
 end
 
-slot2.updateStick = function (slot0, slot1, slot2)
+function slot2.updateStick(slot0, slot1, slot2)
 	slot0._initX = false
 	slot0._initY = false
 
@@ -73,15 +73,15 @@ slot2.updateStick = function (slot0, slot1, slot2)
 	slot0._lastPosY = slot1.y
 end
 
-slot2.GetDistance = function (slot0)
+function slot2.GetDistance(slot0)
 	return slot0._distX, slot0._distY
 end
 
-slot2.IsFirstPress = function (slot0)
+function slot2.IsFirstPress(slot0)
 	return slot0._initX, slot0._initY
 end
 
-slot2.IsPress = function (slot0)
+function slot2.IsPress(slot0)
 	return slot0._isPress
 end
 

@@ -1,15 +1,15 @@
 slot0 = class("EquipUpgradeLayer", import("..base.BaseUI"))
 slot0.CHAT_DURATION_TIME = 0.3
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "EquipUpgradeUI"
 end
 
-slot0.setItems = function (slot0, slot1)
+function slot0.setItems(slot0, slot1)
 	slot0.itemVOs = slot1
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		weight = LayerWeightConst.SECOND_LAYER
 	})
@@ -38,18 +38,18 @@ slot0.init = function (slot0)
 	slot0.Overlay = pg.UIMgr.GetInstance().OverlayMain
 end
 
-slot0.updateRes = function (slot0, slot1)
+function slot0.updateRes(slot0, slot1)
 	slot0.playerVO = slot1
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	onButton(slot0, slot0._tf, function ()
 		slot0:emit(slot1.ON_CLOSE)
 	end, SFX_CANCEL)
 	slot0:updateAll()
 end
 
-slot0.updateAll = function (slot0)
+function slot0.updateAll(slot0)
 	setActive(slot0.equipmentList, slot0.contextData.shipVO)
 
 	if slot0.contextData.shipVO then
@@ -61,7 +61,7 @@ slot0.updateAll = function (slot0)
 	end
 end
 
-slot0.displayEquipments = function (slot0)
+function slot0.displayEquipments(slot0)
 	slot0.equipmentTFs = {}
 
 	removeAllChildren(slot0.equipmentContain)
@@ -97,7 +97,7 @@ slot0.displayEquipments = function (slot0)
 	end
 end
 
-slot0.isMaterialEnough = function (slot0, slot1)
+function slot0.isMaterialEnough(slot0, slot1)
 	slot2 = true
 
 	if not slot1.config.trans_use_item then
@@ -115,7 +115,7 @@ slot0.isMaterialEnough = function (slot0, slot1)
 	return slot2
 end
 
-slot0.updateEquipment = function (slot0)
+function slot0.updateEquipment(slot0)
 	slot0.contextData.equipmentId = slot0.contextData.equipmentVO.id
 
 	slot0:updateAttrs(slot0:findTF("attrs", slot0.equipmentPanel), slot2, (slot0.contextData.equipmentVO.config.next > 0 and slot2:MigrateTo(slot2.config.next)) or nil)
@@ -124,7 +124,7 @@ slot0.updateEquipment = function (slot0)
 	updateEquipment(slot0:findTF("equiptpl", slot0.equipmentPanel), slot2)
 end
 
-slot0.updateAttrs = function (slot0, slot1, slot2, slot3)
+function slot0.updateAttrs(slot0, slot1, slot2, slot3)
 	slot4 = slot2:GetProperties()
 	slot5 = (slot3 and slot3:GetProperties()) or nil
 	slot6 = 0
@@ -213,7 +213,7 @@ slot0.updateAttrs = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-slot0.updateMaterials = function (slot0)
+function slot0.updateMaterials(slot0)
 	slot1 = true
 	slot4 = slot0.contextData.equipmentVO.config.trans_use_gold
 	slot3 = defaultValue(slot0.contextData.equipmentVO.config.trans_use_item, {})
@@ -275,7 +275,7 @@ slot0.updateMaterials = function (slot0)
 	setButtonEnabled(slot0.startBtn, slot5)
 end
 
-slot0.upgradeFinish = function (slot0, slot1, slot2)
+function slot0.upgradeFinish(slot0, slot1, slot2)
 	setActive(slot0.mainPanel, false)
 	setActive(slot0.finishPanel, true)
 	onButton(slot0, slot0.finishPanel, function ()
@@ -288,7 +288,7 @@ slot0.upgradeFinish = function (slot0, slot1, slot2)
 	slot0:updateAttrs(slot0:findTF("frame/equipment_panel/attrs", slot0.finishPanel), slot1, slot2)
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 

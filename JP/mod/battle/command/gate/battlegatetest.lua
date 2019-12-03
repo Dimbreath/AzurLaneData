@@ -2,7 +2,7 @@ slot0 = class("BattleGateTest")
 ys.Battle.BattleGateTest = slot0
 slot0.__name = "BattleGateTest"
 
-slot0.Entrance = function (slot0, slot1)
+function slot0.Entrance(slot0, slot1)
 	if not slot1.LegalFleet(slot0.mainFleetId) then
 		return
 	end
@@ -31,7 +31,7 @@ slot0.Entrance = function (slot0, slot1)
 	end)
 end
 
-slot0.Exit = function (slot0, slot1)
+function slot0.Exit(slot0, slot1)
 	slot2 = pg.battle_cost_template[SYSTEM_TEST]
 	slot5 = slot0.statistics._battleScore
 	slot6 = 0

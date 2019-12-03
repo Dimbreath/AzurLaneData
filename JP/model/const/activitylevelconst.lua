@@ -1,6 +1,6 @@
 slot0 = class("ActivityLevelConst")
 
-slot0.hasExtraMap = function (slot0)
+function slot0.hasExtraMap(slot0)
 	for slot4, slot5 in pairs(slot0) do
 		if slot5:isActExtra() then
 			return slot5
@@ -10,7 +10,7 @@ slot0.hasExtraMap = function (slot0)
 	return nil
 end
 
-slot0.isClearMaps = function (slot0, slot1)
+function slot0.isClearMaps(slot0, slot1)
 	for slot5, slot6 in pairs(slot0) do
 		if slot6:getConfig("type") == slot1 and not slot6:isClearForActivity() then
 			return false
@@ -20,7 +20,7 @@ slot0.isClearMaps = function (slot0, slot1)
 	return true
 end
 
-slot0.canSwitchToEx = function (slot0, slot1)
+function slot0.canSwitchToEx(slot0, slot1)
 	function slot2(slot0)
 		if slot0[pg.chapter_template[slot0].map] then
 			return slot2:getChapter(slot0):isClear()
@@ -40,7 +40,7 @@ slot0.canSwitchToEx = function (slot0, slot1)
 	return slot3
 end
 
-slot0.getMapsByType = function (slot0, slot1, slot2)
+function slot0.getMapsByType(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot7, slot8 in pairs(slot0) do
@@ -56,7 +56,7 @@ slot0.getMapsByType = function (slot0, slot1, slot2)
 	return slot3
 end
 
-slot0.getMapsByActivityType = function (slot0, slot1)
+function slot0.getMapsByActivityType(slot0, slot1)
 	slot2 = getProxy(ActivityProxy):getActivitiesByType(slot1)
 	slot3 = {}
 
@@ -77,11 +77,11 @@ slot0.getMapsByActivityType = function (slot0, slot1)
 	return slot3
 end
 
-slot0.isExtraBossChapter = function (slot0, slot1)
+function slot0.isExtraBossChapter(slot0, slot1)
 	return slot0:getConfig("config_data")[1] == slot1
 end
 
-slot0.getExtraChapterSocre = function (slot0, slot1, slot2, slot3)
+function slot0.getExtraChapterSocre(slot0, slot1, slot2, slot3)
 	if not slot3 or slot3:isEnd() then
 		return 0, 0
 	end
@@ -96,7 +96,7 @@ slot0.getExtraChapterSocre = function (slot0, slot1, slot2, slot3)
 	return math.floor(slot5), math.floor(slot3:getData1() or 0)
 end
 
-slot0.getShipsPower = function (slot0)
+function slot0.getShipsPower(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0) do

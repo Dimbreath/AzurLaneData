@@ -1,6 +1,6 @@
 slot0 = class("UserProxy", import(".NetProxy"))
 
-slot0.setLastLogin = function (slot0, slot1)
+function slot0.setLastLogin(slot0, slot1)
 	if slot1.type == 1 then
 		PlayerPrefs.SetString("user.type", "1")
 		PlayerPrefs.SetString("user.arg1", slot1.arg1)
@@ -27,7 +27,7 @@ slot0.setLastLogin = function (slot0, slot1)
 	slot0:clearTranscode()
 end
 
-slot0.getLastLoginUser = function (slot0)
+function slot0.getLastLoginUser(slot0)
 	slot3 = PlayerPrefs.GetString("user.arg2")
 	slot4 = PlayerPrefs.GetString("user.arg3")
 
@@ -45,12 +45,12 @@ slot0.getLastLoginUser = function (slot0)
 	return nil
 end
 
-slot0.saveTranscode = function (slot0, slot1)
+function slot0.saveTranscode(slot0, slot1)
 	PlayerPrefs.SetString("transcode", slot1)
 	PlayerPrefs.Save()
 end
 
-slot0.getTranscode = function (slot0)
+function slot0.getTranscode(slot0)
 	if PlayerPrefs.GetString("transcode") then
 		return slot1
 	end
@@ -58,7 +58,7 @@ slot0.getTranscode = function (slot0)
 	return ""
 end
 
-slot0.clearTranscode = function (slot0)
+function slot0.clearTranscode(slot0)
 	PlayerPrefs.DeleteKey("transcode")
 end
 

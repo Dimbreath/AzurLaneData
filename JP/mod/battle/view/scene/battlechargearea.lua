@@ -2,14 +2,14 @@ ys = ys or {}
 ys.Battle.BattleChargeArea = class("BattleChargeArea")
 ys.Battle.BattleChargeArea.__name = "BattleChargeArea"
 
-ys.Battle.BattleChargeArea.Ctor = function (slot0, slot1)
+function ys.Battle.BattleChargeArea.Ctor(slot0, slot1)
 	slot1.gameObject:SetActive(false)
 
 	slot0._areaTf = slot1.transform
 	slot0._areaGO = slot1
 end
 
-ys.Battle.BattleChargeArea.InitArea = function (slot0)
+function ys.Battle.BattleChargeArea.InitArea(slot0)
 	slot0._controller = slot0._areaTf.GetComponent(slot1, "ChargeArea")
 	slot0._areaTf.localScale.x = slot0._chargeWeapon:GetTemplateData().range / 5.5
 	slot0._areaTf.localScale.y = slot0._chargeWeapon.GetTemplateData().range / 5.5
@@ -21,25 +21,25 @@ ys.Battle.BattleChargeArea.InitArea = function (slot0)
 	slot0._controller.rate = 0.5
 end
 
-ys.Battle.BattleChargeArea.Update = function (slot0, slot1)
+function ys.Battle.BattleChargeArea.Update(slot0, slot1)
 	slot0._areaTf.position = slot1
 end
 
-ys.Battle.BattleChargeArea.SetWeapon = function (slot0, slot1)
+function ys.Battle.BattleChargeArea.SetWeapon(slot0, slot1)
 	slot0._chargeWeapon = slot1
 
 	slot0:InitArea()
 end
 
-ys.Battle.BattleChargeArea.SetActive = function (slot0, slot1)
+function ys.Battle.BattleChargeArea.SetActive(slot0, slot1)
 	slot0._areaGO:SetActive(slot1)
 end
 
-ys.Battle.BattleChargeArea.GetActive = function (slot0)
+function ys.Battle.BattleChargeArea.GetActive(slot0)
 	return slot0._areaGO:GetActive()
 end
 
-ys.Battle.BattleChargeArea.Reset = function (slot0)
+function ys.Battle.BattleChargeArea.Reset(slot0)
 	slot0._controller.rate = 1
 end
 

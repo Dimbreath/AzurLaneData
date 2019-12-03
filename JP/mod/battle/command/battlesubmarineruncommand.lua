@@ -6,16 +6,16 @@ slot4 = class("BattleSubmarineRunCommand", ys.Battle.BattleSingleDungeonCommand)
 ys.Battle.BattleSubmarineRunCommand = slot4
 slot4.__name = "BattleSubmarineRunCommand"
 
-slot4.Ctor = function (slot0)
+function slot4.Ctor(slot0)
 	slot0.super.Ctor(slot0)
 end
 
-slot4.Initialize = function (slot0)
+function slot4.Initialize(slot0)
 	slot0.super.Initialize(slot0)
 	slot0._dataProxy:SubmarineRunInit()
 end
 
-slot4.DoPrologue = function (slot0)
+function slot4.DoPrologue(slot0)
 	pg.UIMgr.GetInstance():Marching()
 
 	function slot1()
@@ -41,12 +41,12 @@ slot4.DoPrologue = function (slot0)
 	slot0._uiMediator:SeaSurfaceShift(45, 0, nil, slot1)
 end
 
-slot4.onInitBattle = function (slot0)
+function slot4.onInitBattle(slot0)
 	slot0.super.onInitBattle(slot0)
 	slot0._userFleet:RegisterEventListener(slot0, slot1.MANUAL_SUBMARINE_SHIFT, slot0.onSubmarineShift)
 end
 
-slot4.initWaveModule = function (slot0)
+function slot4.initWaveModule(slot0)
 	slot0._waveUpdater = slot0.Battle.BattleWaveUpdater.New(function (slot0, slot1, slot2)
 		slot0._dataProxy:SpawnMonster(slot0, slot1, slot2, slot1.Battle.BattleConfig.FOE_CODE)
 	end, nil, function ()
@@ -63,7 +63,7 @@ slot4.initWaveModule = function (slot0)
 	end, nil)
 end
 
-slot4.onUpdateCountDown = function (slot0, slot1)
+function slot4.onUpdateCountDown(slot0, slot1)
 	if slot0._dataProxy:GetCountDown() <= 0 then
 		slot0._dataProxy:EnemyEscape()
 		slot0._dataProxy:CalcSubRunTimeUp()
@@ -71,17 +71,17 @@ slot4.onUpdateCountDown = function (slot0, slot1)
 	end
 end
 
-slot4.RemoveEvent = function (slot0)
+function slot4.RemoveEvent(slot0)
 	slot0._userFleet:UnregisterEventListener(slot0, slot0.MANUAL_SUBMARINE_SHIFT)
 	slot0._userFleet.UnregisterEventListener.super.RemoveEvent(slot0)
 end
 
-slot4.UnregisterUnitEvent = function (slot0, slot1)
+function slot4.UnregisterUnitEvent(slot0, slot1)
 	slot0.super.UnregisterUnitEvent(slot0, slot1)
 	slot1:UnregisterEventListener(slot0, slot1.ANTI_SUB_VIGILANCE_HATE_CHAIN)
 end
 
-slot4.onAddUnit = function (slot0, slot1)
+function slot4.onAddUnit(slot0, slot1)
 	slot0.super.onAddUnit(slot0, slot1)
 
 	slot3 = slot1.Data.unit
@@ -91,13 +91,13 @@ slot4.onAddUnit = function (slot0, slot1)
 	end
 end
 
-slot4.onHateChain = function (slot0, slot1)
+function slot4.onHateChain(slot0, slot1)
 	for slot5, slot6 in pairs(slot0._unitDataList) do
 		slot6:TriggerBuff(slot0.Battle.BattleConst.BuffEffectType.ON_ANTI_SUB_HATE_CHAIN)
 	end
 end
 
-slot4.onWillDie = function (slot0, slot1)
+function slot4.onWillDie(slot0, slot1)
 	slot3 = slot1.Dispatcher.GetDeathReason(slot2)
 
 	if slot1.Dispatcher.GetIFF(slot2) == slot0.Battle.BattleConfig.FRIENDLY_CODE then
@@ -127,7 +127,7 @@ slot4.onWillDie = function (slot0, slot1)
 	end
 end
 
-slot4.onSubmarineShift = function (slot0, slot1)
+function slot4.onSubmarineShift(slot0, slot1)
 	slot3 = nil
 
 	if slot1.Data.state == slot0.Battle.OxyState.STATE_FREE_DIVE then
@@ -141,7 +141,7 @@ slot4.onSubmarineShift = function (slot0, slot1)
 	end
 end
 
-slot4.onShutDownPlayer = function (slot0)
+function slot4.onShutDownPlayer(slot0)
 	slot0._dataProxy:CalcSubRunDead()
 	slot0._state:BattleEnd()
 end

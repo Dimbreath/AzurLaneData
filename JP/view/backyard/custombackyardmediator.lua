@@ -1,6 +1,6 @@
 slot0 = class("CustomBackyardMediator", import("..base.ContextMediator"))
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot1 = {}
 	slot5 = {}
 	slot6, slot7 = nil
@@ -71,7 +71,7 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		BackYardHouseProxy.BACKYARD_SHIP_MOVE,
 		BackYardHouseProxy.BACKYARD_EXIT_SHIP,
@@ -82,7 +82,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == BackYardHouseProxy.BACKYARD_SHIP_MOVE then
@@ -100,7 +100,7 @@ slot0.handleNotification = function (slot0, slot1)
 	end
 end
 
-slot0.remove = function (slot0)
+function slot0.remove(slot0)
 	slot1 = slot0:getFacade()
 
 	slot1:removeProxy(BackYardHouseProxy.__cname)

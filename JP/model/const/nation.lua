@@ -11,11 +11,11 @@ slot0.FF = 8
 slot0.MNF = 9
 slot0.LINK = 100
 
-slot0.IsLinkType = function (slot0)
+function slot0.IsLinkType(slot0)
 	return slot0.LINK < slot0
 end
 
-slot0.Nation2Print = function (slot0)
+function slot0.Nation2Print(slot0)
 	if not slot0.prints then
 		slot0.prints = {
 			[0] = "cm",
@@ -39,7 +39,7 @@ slot0.Nation2Print = function (slot0)
 	return slot0.prints[slot0]
 end
 
-slot0.Nation2Side = function (slot0)
+function slot0.Nation2Side(slot0)
 	if not slot0.side then
 		slot0.side = {
 			[0] = "West",
@@ -63,7 +63,7 @@ slot0.Nation2Side = function (slot0)
 	return slot0.side[slot0]
 end
 
-slot0.Nation2BG = function (slot0)
+function slot0.Nation2BG(slot0)
 	if not slot0.bg then
 		slot0.bg = {
 			[0] = "bg/bg_church",
@@ -87,7 +87,7 @@ slot0.Nation2BG = function (slot0)
 	return slot0.bg[slot0]
 end
 
-slot0.Nation2Name = function (slot0)
+function slot0.Nation2Name(slot0)
 	if not slot0.nationName then
 		slot0.nationName = {
 			[0] = i18n("word_shipNation_other"),
@@ -111,7 +111,7 @@ slot0.Nation2Name = function (slot0)
 	return slot0.nationName[slot0]
 end
 
-slot0.Nation2facionName = function (slot0)
+function slot0.Nation2facionName(slot0)
 	if not slot0.facionName then
 		slot0.facionName = {
 			[0] = i18n("guild_faction_unknown"),

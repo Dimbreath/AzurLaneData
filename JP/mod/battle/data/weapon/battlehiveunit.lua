@@ -3,11 +3,11 @@ slot1 = ys.Battle.BattleConst
 ys.Battle.BattleHiveUnit = class("BattleHiveUnit", ys.Battle.BattleWeaponUnit)
 ys.Battle.BattleHiveUnit.__name = "BattleHiveUnit"
 
-ys.Battle.BattleHiveUnit.Ctor = function (slot0)
+function ys.Battle.BattleHiveUnit.Ctor(slot0)
 	slot0.super.Ctor(slot0)
 end
 
-ys.Battle.BattleHiveUnit.Update = function (slot0)
+function ys.Battle.BattleHiveUnit.Update(slot0)
 	slot0:UpdateReload()
 	slot0:updateMovementInfo()
 
@@ -29,13 +29,13 @@ ys.Battle.BattleHiveUnit.Update = function (slot0)
 	end
 end
 
-ys.Battle.BattleHiveUnit.SetTemplateData = function (slot0, slot1)
+function ys.Battle.BattleHiveUnit.SetTemplateData(slot0, slot1)
 	slot0.super.SetTemplateData(slot0, slot1)
 
 	slot0._antiSub = table.contains(slot1.search_condition, slot1.OXY_STATE.DIVE)
 end
 
-ys.Battle.BattleHiveUnit.Fire = function (slot0)
+function ys.Battle.BattleHiveUnit.Fire(slot0)
 	slot0:DispatchGCD()
 
 	slot0._currentState = slot0.STATE_ATTACK
@@ -49,13 +49,13 @@ ys.Battle.BattleHiveUnit.Fire = function (slot0)
 	return true
 end
 
-ys.Battle.BattleHiveUnit.createMajorEmitter = function (slot0, slot1, slot2, slot3, slot4, slot5)
+function ys.Battle.BattleHiveUnit.createMajorEmitter(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0.super.createMajorEmitter(slot0, slot1, slot2, nil, function (slot0, slot1, slot2, slot3, slot4)
 		slot0._dataProxy:CreateAircraft(slot0._host, slot0._tmpData.id, slot0:GetPotential(), slot0._skinID):AddCreateTimer(Vector3(math.cos(slot7), 0, math.sin(slot7)), 1.5)
 	end, nil)
 end
 
-ys.Battle.BattleHiveUnit.SingleFire = function (slot0, slot1, slot2)
+function ys.Battle.BattleHiveUnit.SingleFire(slot0, slot1, slot2)
 	slot0._tempEmitterList = {}
 
 	function slot3(slot0, slot1, slot2, slot3, slot4)

@@ -4,7 +4,7 @@ slot0.STAGE_UPDATED = "stage updated"
 slot0.RANDOM_STAGE_DELETE = "random stage deleted"
 slot0.RANDOM_STAGE_ADDED = "stage added"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0:on(13001, function (slot0)
 		slot0.data.satges = {}
 
@@ -35,33 +35,33 @@ slot0.register = function (slot0)
 	slot0:listenerRandomStage()
 end
 
-slot0.remove = function (slot0)
+function slot0.remove(slot0)
 	pg.TimeMgr.GetInstance():RemoveTimer(slot0.timerId)
 
 	slot0.timerId = nil
 end
 
-slot0.addStage = function (slot0, slot1)
+function slot0.addStage(slot0, slot1)
 	slot0.data.satges[slot1.id] = slot1:clone()
 
 	slot0.data.satges[slot1.id]:display("added")
 	slot0.facade:sendNotification(slot0.STAGE_ADDED, slot1:clone())
 end
 
-slot0.getStageById = function (slot0, slot1)
+function slot0.getStageById(slot0, slot1)
 	if slot0.data.satges[slot1] ~= nil then
 		return slot0.data.satges[slot1]:clone()
 	end
 end
 
-slot0.updateStage = function (slot0, slot1)
+function slot0.updateStage(slot0, slot1)
 	slot0.data.satges[slot1.id] = slot1:clone()
 
 	slot0.data.satges[slot1.id]:display("updated")
 	slot0.facade:sendNotification(slot0.STAGE_UPDATED, slot1:clone())
 end
 
-slot0.getMaps = function (slot0)
+function slot0.getMaps(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.data.satges) do
@@ -85,17 +85,17 @@ slot0.getMaps = function (slot0)
 	return slot1
 end
 
-slot0.getRandomStages = function (slot0)
+function slot0.getRandomStages(slot0)
 	return Clone(slot0.data.randomexpeditions) or {}
 end
 
-slot0.addRandomStage = function (slot0, slot1)
+function slot0.addRandomStage(slot0, slot1)
 	slot0.data.randomexpeditions[slot1.id] = slot1
 
 	slot0.facade:sendNotification(slot0.RANDOM_STAGE_ADDED, slot1:clone())
 end
 
-slot0.listenerRandomStage = function (slot0)
+function slot0.listenerRandomStage(slot0)
 	slot0.timerId = pg.TimeMgr.GetInstance():AddTimer("listenerRandomStage", 0, 1, function ()
 		if slot0.data.randomexpeditions and table.getCount(slot0.data.randomexpeditions) > 0 then
 			for slot4, slot5 in pairs(slot0.data.randomexpeditions) do
@@ -107,7 +107,7 @@ slot0.listenerRandomStage = function (slot0)
 	end)
 end
 
-slot0.removeRandomStageById = function (slot0, slot1)
+function slot0.removeRandomStageById(slot0, slot1)
 	slot0.data.randomexpeditions[slot1] = nil
 
 	slot0.facade:sendNotification(slot0.RANDOM_STAGE_DELETE, slot1)

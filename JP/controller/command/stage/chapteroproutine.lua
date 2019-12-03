@@ -1,10 +1,10 @@
 slot0 = class("ChapterOpRoutine", pm.SimpleCommand)
 
-slot0.execute = function (slot0, slot1)
+function slot0.execute(slot0, slot1)
 	return
 end
 
-slot0.initData = function (slot0, slot1, slot2, slot3)
+function slot0.initData(slot0, slot1, slot2, slot3)
 	slot0.op = slot1
 	slot0.data = slot2
 	slot0.chapter = slot3
@@ -13,7 +13,7 @@ slot0.initData = function (slot0, slot1, slot2, slot3)
 	slot0.flag = 0
 end
 
-slot0.doDropUpdate = function (slot0)
+function slot0.doDropUpdate(slot0)
 	slot2 = slot0.items
 
 	for slot6, slot7 in ipairs(slot0.data.drop_list) do
@@ -22,7 +22,7 @@ slot0.doDropUpdate = function (slot0)
 	end
 end
 
-slot0.doMapUpdate = function (slot0)
+function slot0.doMapUpdate(slot0)
 	slot1 = slot0.data
 	slot2 = slot0.flag
 	slot3 = slot0.extraFlag or 0
@@ -64,7 +64,7 @@ slot0.doMapUpdate = function (slot0)
 	slot0.extraFlag = slot3
 end
 
-slot0.doCellFlagUpdate = function (slot0)
+function slot0.doCellFlagUpdate(slot0)
 	slot2 = slot0.flag
 	slot3 = slot0.chapter
 
@@ -85,7 +85,7 @@ slot0.doCellFlagUpdate = function (slot0)
 	slot0.flag = slot2
 end
 
-slot0.doAIUpdate = function (slot0)
+function slot0.doAIUpdate(slot0)
 	slot1 = slot0.data
 	slot2 = slot0.flag
 	slot3 = slot0.extraFlag or 0
@@ -104,7 +104,7 @@ slot0.doAIUpdate = function (slot0)
 	slot0.extraFlag = slot3
 end
 
-slot0.doShipUpdate = function (slot0)
+function slot0.doShipUpdate(slot0)
 	slot2 = slot0.flag
 	slot4 = slot0.chapter.fleet
 
@@ -123,7 +123,7 @@ slot0.doShipUpdate = function (slot0)
 	slot0.flag = slot2
 end
 
-slot0.doBuffUpdate = function (slot0)
+function slot0.doBuffUpdate(slot0)
 	slot2 = slot0.chapter
 
 	if slot0.data.buff_list then
@@ -135,7 +135,7 @@ slot0.doBuffUpdate = function (slot0)
 	end
 end
 
-slot0.doExtraFlagUpdate = function (slot0)
+function slot0.doExtraFlagUpdate(slot0)
 	slot2 = slot0.chapter
 	slot3 = getProxy(ChapterProxy)
 
@@ -145,7 +145,7 @@ slot0.doExtraFlagUpdate = function (slot0)
 	end
 end
 
-slot0.doRetreat = function (slot0)
+function slot0.doRetreat(slot0)
 	slot2 = slot0.data
 	slot3 = slot0.flag
 	slot4 = slot0.chapter
@@ -171,7 +171,7 @@ slot0.doRetreat = function (slot0)
 	slot0.flag = slot3
 end
 
-slot0.doMove = function (slot0)
+function slot0.doMove(slot0)
 	slot1 = slot0.op
 	slot4 = slot0.chapter.fleet
 	slot5 = nil
@@ -200,7 +200,7 @@ slot0.doMove = function (slot0)
 	slot0.flag = 0
 end
 
-slot0.doOpenBox = function (slot0)
+function slot0.doOpenBox(slot0)
 	slot1 = slot0.items
 	slot6 = slot0.chapter.getChapterCell(slot3, slot0.chapter.fleet.line.row, slot0.chapter.fleet.line.column)
 	slot6.flag = 1
@@ -229,7 +229,7 @@ slot0.doOpenBox = function (slot0)
 	slot0.flag = slot2
 end
 
-slot0.doPlayStory = function (slot0)
+function slot0.doPlayStory(slot0)
 	slot0.chapter.getChapterCell(slot2, slot0.chapter.fleet.line.row, slot0.chapter.fleet.line.column).flag = 1
 
 	slot0.chapter.updateChapterCell(slot2, slot5)
@@ -237,7 +237,7 @@ slot0.doPlayStory = function (slot0)
 	slot0.flag = bit.bor(slot0.flag, ChapterConst.DirtyAttachment)
 end
 
-slot0.doAmbush = function (slot0)
+function slot0.doAmbush(slot0)
 	slot3 = slot0.chapter.fleet
 
 	if slot0.op.arg1 == 1 then
@@ -249,7 +249,7 @@ slot0.doAmbush = function (slot0)
 	end
 end
 
-slot0.doStrategy = function (slot0)
+function slot0.doStrategy(slot0)
 	slot1 = slot0.flag
 	slot4 = slot0.chapter.fleet
 
@@ -276,7 +276,7 @@ slot0.doStrategy = function (slot0)
 	slot0.flag = bit.bor(slot1, ChapterConst.DirtyStrategy)
 end
 
-slot0.doRepair = function (slot0)
+function slot0.doRepair(slot0)
 	slot1 = getProxy(ChapterProxy)
 	slot1.repairTimes = slot1.repairTimes + 1
 	slot2, slot3, slot4 = ChapterConst.GetRepairParams()
@@ -292,7 +292,7 @@ slot0.doRepair = function (slot0)
 	end
 end
 
-slot0.doSupply = function (slot0)
+function slot0.doSupply(slot0)
 	slot1 = slot0.flag
 	slot4, slot5 = slot0.chapter.getFleetAmmo(slot2, slot3)
 	slot7 = slot0.chapter.getChapterCell(slot2, slot0.chapter.fleet.line.row, slot0.chapter.fleet.line.column)
@@ -312,12 +312,12 @@ slot0.doSupply = function (slot0)
 	slot0.flag = bit.bor(slot1, ChapterConst.DirtyAttachment, ChapterConst.DirtyFleet)
 end
 
-slot0.doSubState = function (slot0)
+function slot0.doSubState(slot0)
 	slot0.chapter.subAutoAttack = slot0.op.arg1
 	slot0.flag = bit.bor(slot0.flag, ChapterConst.DirtyStrategy)
 end
 
-slot0.doCollectAI = function (slot0)
+function slot0.doCollectAI(slot0)
 	slot2 = slot0.flag
 	slot3 = slot0.chapter
 	slot0.aiActs = {}
@@ -342,7 +342,7 @@ slot0.doCollectAI = function (slot0)
 	end)
 end
 
-slot0.doBarrier = function (slot0)
+function slot0.doBarrier(slot0)
 	slot1 = slot0.flag
 	slot6 = _.detect(pg.box_data_template.all, function (slot0)
 		return pg.box_data_template[slot0].type == ChapterConst.BoxBarrier
@@ -362,7 +362,7 @@ slot0.doBarrier = function (slot0)
 	slot0.flag = bit.bor(slot1, ChapterConst.DirtyAttachment, ChapterConst.DirtyStrategy)
 end
 
-slot0.doRequest = function (slot0)
+function slot0.doRequest(slot0)
 	slot2 = slot0.flag
 	slot4 = slot0.chapter.fleet
 
@@ -377,11 +377,11 @@ slot0.doRequest = function (slot0)
 	slot0.flag = slot2
 end
 
-slot0.doSkipBattle = function (slot0)
+function slot0.doSkipBattle(slot0)
 	slot0.flag = bit.bor(slot0.flag, ChapterConst.DirtyAttachment, ChapterConst.DirtyAchieve, ChapterConst.DirtyFleet, ChapterConst.DirtyChampion)
 end
 
-slot0.doTeleportSub = function (slot0)
+function slot0.doTeleportSub(slot0)
 	slot3 = _.detect(slot0.chapter.fleets, function (slot0)
 		return slot0:getFleetType() == FleetType.Submarine and slot0:isValid()
 	end)
@@ -399,7 +399,7 @@ slot0.doTeleportSub = function (slot0)
 	}
 end
 
-slot0.doEnemyRound = function (slot0)
+function slot0.doEnemyRound(slot0)
 	slot0.chapter.IncreaseRound(slot1)
 
 	if slot0.chapter.getPlayType(slot1) == ChapterConst.TypeDefence then

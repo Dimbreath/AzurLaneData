@@ -5,7 +5,7 @@ slot0.Purple = 4
 slot0.Gold = 5
 slot0.SSR = 6
 
-slot0.Rarity2Print = function (slot0)
+function slot0.Rarity2Print(slot0)
 	if not slot0.prints then
 		slot0.prints = {
 			nil,
@@ -20,7 +20,7 @@ slot0.Rarity2Print = function (slot0)
 	return slot0.prints[slot0]
 end
 
-slot0.Rarity2HexColor = function (slot0)
+function slot0.Rarity2HexColor(slot0)
 	if not slot0.colors then
 		slot0.colors = {
 			"FFFFFFFF",
@@ -35,7 +35,7 @@ slot0.Rarity2HexColor = function (slot0)
 	return slot0.colors[slot0]
 end
 
-slot0.Rarity2FrameColor = function (slot0)
+function slot0.Rarity2FrameColor(slot0)
 	if not slot0.frameColors then
 		slot0.frameColors = {
 			Color(0.7411764705882353, 0.7411764705882353, 0.7411764705882353, 1),
@@ -50,7 +50,7 @@ slot0.Rarity2FrameColor = function (slot0)
 	return slot0.frameColors[slot0]
 end
 
-slot0.SSRGradient = function (slot0)
+function slot0.SSRGradient(slot0)
 	return "<material=outline c=#00000040 x=1 y=1><material=gradient from=#FF0000 to=#00FF00 x=1 y=1>" .. slot0 .. "</material></material>"
 end
 

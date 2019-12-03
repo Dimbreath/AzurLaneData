@@ -4,7 +4,7 @@ slot0.PAPER_TYPE_WALL = 1
 slot0.PAPER_TYPE_FLOOR = 2
 slot0.PAPER_TYPE_BASEWALL = 3
 
-slot0.getFloorScale = function (slot0)
+function slot0.getFloorScale(slot0)
 	if not slot0.sizes then
 		slot0.sizes = {
 			0.5,
@@ -17,7 +17,7 @@ slot0.getFloorScale = function (slot0)
 	return slot0.sizes[slot0]
 end
 
-slot0.Ctor = function (slot0, slot1, slot2)
+function slot0.Ctor(slot0, slot1, slot2)
 	slot0.type = slot2
 	slot0._tf = slot1
 	slot0.img = slot0._tf:GetComponent(typeof(Image))
@@ -28,7 +28,7 @@ slot0.Ctor = function (slot0, slot1, slot2)
 	slot0.spineModel = nil
 end
 
-slot0.update = function (slot0, slot1, slot2)
+function slot0.update(slot0, slot1, slot2)
 	slot0.level = slot2
 
 	if slot1 then
@@ -52,7 +52,7 @@ slot0.update = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.loadSpine = function (slot0, slot1, slot2)
+function slot0.loadSpine(slot0, slot1, slot2)
 	setActive(slot0.img, false)
 
 	slot3 = nil
@@ -95,7 +95,7 @@ slot0.loadSpine = function (slot0, slot1, slot2)
 	end)
 end
 
-slot0.loadImage = function (slot0, slot1)
+function slot0.loadImage(slot0, slot1)
 	if slot0.type == slot0.PAPER_TYPE_FLOOR then
 		slot0.img.sprite = GetSpriteFromAtlas("furniture/" .. slot1, "")
 		rtf(go(slot0.img)).sizeDelta = Vector2(1877, 934)
@@ -110,7 +110,7 @@ slot0.loadImage = function (slot0, slot1)
 	setActive(slot0._tf, true)
 end
 
-slot0.clear = function (slot0)
+function slot0.clear(slot0)
 	if slot0.isSpine and slot0.spineModel then
 		Destroy(slot0.spineModel)
 
@@ -121,7 +121,7 @@ slot0.clear = function (slot0)
 	end
 end
 
-slot0.dispose = function (slot0)
+function slot0.dispose(slot0)
 	slot0:clear()
 	UIUtil.ClearImageSprite(go(slot0._tf))
 end

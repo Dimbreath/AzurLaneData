@@ -1,15 +1,15 @@
 slot0 = class("LoginScene", import("..base.BaseUI"))
 slot1 = 1
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "LoginUI2"
 end
 
-slot0.getBGM = function (slot0)
+function slot0.getBGM(slot0)
 	return "holo-sss"
 end
 
-slot0.preload = function (slot0, slot1)
+function slot0.preload(slot0, slot1)
 	slot0.iconSpries = {}
 
 	ResourceMgr.Inst:loadAssetBundleAsync("ui/LoginUI2_atlas", function (slot0)
@@ -24,7 +24,7 @@ slot0.preload = function (slot0, slot1)
 	end)
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.version = slot0:findTF("version")
 	slot0.version:GetComponent("Text").text = "ver " .. UpdateMgr.Inst.currentVersion:ToString()
 	slot0.bgLay = slot0:findTF("bg_lay")
@@ -115,7 +115,7 @@ slot0.init = function (slot0)
 	slot0:initEvents()
 end
 
-slot0.initEvents = function (slot0)
+function slot0.initEvents(slot0)
 	slot0:bind(LoginSceneConst.SWITCH_SUB_VIEW, function (slot0, slot1)
 		slot0:switchSubView(slot1)
 	end)
@@ -124,7 +124,7 @@ slot0.initEvents = function (slot0)
 	end)
 end
 
-slot0.switchSubView = function (slot0, slot1)
+function slot0.switchSubView(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.subViewList) do
 		if isa(slot6, BaseSubView) then
 			if table.contains(slot1, slot5) then
@@ -153,7 +153,7 @@ slot0.switchSubView = function (slot0, slot1)
 	slot0.repairBtn:SetAsLastSibling()
 end
 
-slot0.onBackPressed = function (slot0)
+function slot0.onBackPressed(slot0)
 	playSoundEffect(SFX_CANCEL)
 
 	if isActive(slot0.serversPanel) then
@@ -173,12 +173,12 @@ slot0.onBackPressed = function (slot0)
 	pg.SdkMgr.GetInstance():OnAndoridBackPress()
 end
 
-slot0.setUserData = function (slot0, slot1)
+function slot0.setUserData(slot0, slot1)
 	setActive(slot0.airiUidTxt, true)
 	setText(slot0.airiUidTxt, "uid: " .. slot1.arg2)
 end
 
-slot0.showUserAgreement = function (slot0, slot1)
+function slot0.showUserAgreement(slot0, slot1)
 	slot2 = nil
 
 	if PLATFORM_CODE == PLATFORM_CH then
@@ -215,7 +215,7 @@ slot0.showUserAgreement = function (slot0, slot1)
 	end)
 end
 
-slot0.setBg = function (slot0)
+function slot0.setBg(slot0)
 	slot1 = "login"
 	slot2 = pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y%m%d")
 
@@ -228,7 +228,7 @@ slot0.setBg = function (slot0)
 	setImageSprite(slot0.bgImg, LoadSprite("loadingbg/" .. slot1))
 end
 
-slot0.setCriBg = function (slot0)
+function slot0.setCriBg(slot0)
 	LoadAndInstantiateAsync("effect", "loginbg", function (slot0)
 		if slot0 then
 			slot0.transform.SetParent(slot1, slot0.bgImg.transform, false)
@@ -237,15 +237,15 @@ slot0.setCriBg = function (slot0)
 	end)
 end
 
-slot0.setLastLogin = function (slot0, slot1)
+function slot0.setLastLogin(slot0, slot1)
 	slot0.shareData.lastLoginUser = slot1
 end
 
-slot0.setAutoLogin = function (slot0)
+function slot0.setAutoLogin(slot0)
 	slot0.shareData.autoLoginEnabled = true
 end
 
-slot0.setLastLoginServer = function (slot0, slot1)
+function slot0.setLastLoginServer(slot0, slot1)
 	if not slot1 then
 		return
 	end
@@ -255,7 +255,7 @@ slot0.setLastLoginServer = function (slot0, slot1)
 	slot0.shareData.lastLoginServer = slot1
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	onButton(slot0, slot0.closeUserAgreenTF, function ()
 		if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
 			setActive(slot0.userAgreenTF, false)
@@ -395,7 +395,7 @@ slot0.didEnter = function (slot0)
 	slot0.initFinished = true
 end
 
-slot0.checkVersion = function (slot0)
+function slot0.checkVersion(slot0)
 	if PathMgr.FileExists(PathMgr.getStreamAssetsPath() .. "/" .. "version.txt") and PathMgr.FileExists(PathMgr.getStreamAssetsPath() .. "/" .. "hashes.csv") and System.Version.New(PathMgr.ReadAllText(PathMgr.getStreamingAsset("version.txt"))).CompareTo(slot1, UpdateMgr.Inst.serverVersion) < 0 then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = "当前游戏不是最新版本，请重启游戏进行更新",
@@ -406,7 +406,7 @@ slot0.checkVersion = function (slot0)
 	end
 end
 
-slot0.playExtraVoice = function (slot0)
+function slot0.playExtraVoice(slot0)
 	if pg.gameset.login_extra_voice.description and #slot1 > 0 then
 		pg.CriMgr.GetInstance():LoadCueSheet("cv-" .. slot3, function ()
 			if slot0.exited then
@@ -422,7 +422,7 @@ slot0.playExtraVoice = function (slot0)
 	end
 end
 
-slot0.unloadExtraVoice = function (slot0)
+function slot0.unloadExtraVoice(slot0)
 	if slot0.loginCueSheet then
 		pg.CriMgr.GetInstance():UnloadCueSheet(slot0.loginCueSheet)
 
@@ -430,7 +430,7 @@ slot0.unloadExtraVoice = function (slot0)
 	end
 end
 
-slot0.autoLogin = function (slot0)
+function slot0.autoLogin(slot0)
 	if slot0.shareData.lastLoginUser then
 		if slot0.shareData.autoLoginEnabled then
 			slot0.event:emit(LoginMediator.ON_LOGIN, slot0.shareData.lastLoginUser)
@@ -473,7 +473,7 @@ slot2 = {
 	}
 }
 
-slot0.updateServerTF = function (slot0, slot1, slot2)
+function slot0.updateServerTF(slot0, slot1, slot2)
 	setText(findTF(slot1, "name"), "-  " .. slot2.name .. "  -")
 	setImageSprite(findTF(slot1, "statu"), slot0.iconSpries[slot2.status + 1], true)
 
@@ -501,7 +501,7 @@ slot0.updateServerTF = function (slot0, slot1, slot2)
 	end, SFX_CONFIRM)
 end
 
-slot0.updateAdviceServer = function (slot0)
+function slot0.updateAdviceServer(slot0)
 	if not slot0.recentTF or not slot0.adviceTF then
 		return
 	end
@@ -519,7 +519,7 @@ slot0.updateAdviceServer = function (slot0)
 	end
 end
 
-slot0.updateServerList = function (slot0, slot1)
+function slot0.updateServerList(slot0, slot1)
 	slot0.serverList = slot1
 
 	removeAllChildren(slot0.servers)
@@ -529,32 +529,32 @@ slot0.updateServerList = function (slot0, slot1)
 	end
 end
 
-slot0.switchToTencentLogin = function (slot0)
+function slot0.switchToTencentLogin(slot0)
 	slot0:switchSubView({
 		LoginSceneConst.DEFINE.TENCENT_LOGIN_VIEW
 	})
 end
 
-slot0.switchToAiriLogin = function (slot0)
+function slot0.switchToAiriLogin(slot0)
 	slot0:switchSubView({
 		LoginSceneConst.DEFINE.AIRI_LOGIN_PANEL_VIEW,
 		LoginSceneConst.DEFINE.PRESS_TO_LOGIN
 	})
 end
 
-slot0.switchToLogin = function (slot0)
+function slot0.switchToLogin(slot0)
 	slot0:switchSubView({
 		LoginSceneConst.DEFINE.LOGIN_PANEL_VIEW
 	})
 end
 
-slot0.switchToRegister = function (slot0)
+function slot0.switchToRegister(slot0)
 	slot0:switchSubView({
 		LoginSceneConst.DEFINE.REGISTER_PANEL_VIEW
 	})
 end
 
-slot0.switchToServer = function (slot0)
+function slot0.switchToServer(slot0)
 	slot0:updateAdviceServer()
 
 	if pg.SdkMgr.GetInstance():GetLoginType() ~= LoginType.PLATFORM_INNER and PLATFORM_CODE ~= PLATFORM_KR then
@@ -573,7 +573,7 @@ slot0.switchToServer = function (slot0)
 	end
 end
 
-slot0.SwitchToWaitPanel = function (slot0, slot1)
+function slot0.SwitchToWaitPanel(slot0, slot1)
 	slot3 = slot0:findTF("window/content", slot2)
 	slot0.waitTimer = nil
 	slot4 = 0
@@ -600,7 +600,7 @@ slot0.SwitchToWaitPanel = function (slot0, slot1)
 	setActive(slot0:findTF("Msgbox"), true)
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	if slot0.waitTimer then
 		slot0.waitTimer:Stop()
 
@@ -619,7 +619,7 @@ slot0.willExit = function (slot0)
 	slot0.yostarAlertView:Destroy()
 end
 
-slot0.playOpening = function (slot0, slot1, slot2, slot3)
+function slot0.playOpening(slot0, slot1, slot2, slot3)
 	slot0.onPlayingOP = true
 
 	function slot4()

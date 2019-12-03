@@ -4,15 +4,15 @@ slot2 = ys.Battle.BattleVariable
 ys.Battle.BattleCameraFollowGesture = class("BattleCameraFollowGesture")
 ys.Battle.BattleCameraFollowGesture.__name = "BattleCameraFollowGesture"
 
-ys.Battle.BattleCameraFollowGesture.Ctor = function (slot0)
+function ys.Battle.BattleCameraFollowGesture.Ctor(slot0)
 	slot0._point = Vector3.zero
 end
 
-ys.Battle.BattleCameraFollowGesture.SetGestureComponent = function (slot0, slot1)
+function ys.Battle.BattleCameraFollowGesture.SetGestureComponent(slot0, slot1)
 	slot0._slider = slot1
 end
 
-ys.Battle.BattleCameraFollowGesture.GetCameraPos = function (slot0, slot1)
+function ys.Battle.BattleCameraFollowGesture.GetCameraPos(slot0, slot1)
 	if slot0._slider:IsPress() then
 		slot0._pressPoint = slot0._pressPoint or slot1
 		slot2, slot3 = slot0._slider:IsFirstPress()
@@ -40,7 +40,7 @@ ys.Battle.BattleCameraFollowGesture.GetCameraPos = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattleCameraFollowGesture.Dispose = function (slot0)
+function ys.Battle.BattleCameraFollowGesture.Dispose(slot0)
 	slot0._slider = nil
 end
 

@@ -30,15 +30,15 @@ function slot2(slot0)
 	})
 end
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "AttireChatFrameUI"
 end
 
-slot0.GetData = function (slot0)
+function slot0.GetData(slot0)
 	return slot0.rawAttireVOs.chatFrames
 end
 
-slot0.OnInitItem = function (slot0, slot1)
+function slot0.OnInitItem(slot0, slot1)
 	slot0.cards[slot1] = slot0(slot1)
 
 	onButton(slot0, slot0(slot1)._go, function ()
@@ -59,11 +59,11 @@ slot0.OnInitItem = function (slot0, slot1)
 	end, SFX_PANEL)
 end
 
-slot0.GetColumn = function (slot0)
+function slot0.GetColumn(slot0)
 	return 3
 end
 
-slot0.OnUpdateItem = function (slot0, slot1, slot2)
+function slot0.OnUpdateItem(slot0, slot1, slot2)
 	slot0.super.OnUpdateItem(slot0, slot1, slot2)
 
 	if slot0.cards[slot2].attireFrame.id == (slot0.contextData.chatFrameIndex or slot0.displayVOs[1].id) then

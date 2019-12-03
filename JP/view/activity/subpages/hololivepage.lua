@@ -1,6 +1,6 @@
 slot0 = class("HoloLivePage", import("view.base.BaseActivityPage"))
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.listbtn = slot0:findTF("list", slot0.bg)
 	slot0.btnFubuki = slot0:findTF("1", slot0.listbtn)
@@ -13,7 +13,7 @@ slot0.OnInit = function (slot0)
 	slot0.btnMatsuri = slot0:findTF("8", slot0.listbtn)
 end
 
-slot0.OnFirstFlush = function (slot0)
+function slot0.OnFirstFlush(slot0)
 	onButton(slot0, slot0.btnFubuki, function ()
 		slot0:emit(ActivityMediator.BATTLE_OPERA)
 	end)

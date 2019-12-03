@@ -4,14 +4,14 @@ slot2 = class("BattleBombWeaponUnit", ys.Battle.BattleWeaponUnit)
 ys.Battle.BattleBombWeaponUnit = slot2
 slot2.__name = "BattleBombWeaponUnit"
 
-slot2.Ctor = function (slot0)
+function slot2.Ctor(slot0)
 	slot0.super.Ctor(slot0)
 
 	slot0._alertCache = {}
 	slot0._cacheList = {}
 end
 
-slot2.Clear = function (slot0)
+function slot2.Clear(slot0)
 	if slot0._alertTimer then
 		pg.TimeMgr.GetInstance():RemoveBattleTimer(slot0._alertTimer)
 	end
@@ -27,7 +27,7 @@ slot2.Clear = function (slot0)
 	slot0.super.Clear(slot0)
 end
 
-slot2.HostOnEnemy = function (slot0)
+function slot2.HostOnEnemy(slot0)
 	slot0.super.HostOnEnemy(slot0)
 
 	if slot0._preCastInfo.alertTime ~= nil then
@@ -39,7 +39,7 @@ slot2.HostOnEnemy = function (slot0)
 	end
 end
 
-slot2.Update = function (slot0, slot1)
+function slot2.Update(slot0, slot1)
 	slot0:UpdateReload()
 
 	if slot0._currentState == slot0.STATE_READY then
@@ -73,7 +73,7 @@ slot2.Update = function (slot0, slot1)
 	end
 end
 
-slot2.PreCast = function (slot0, slot1)
+function slot2.PreCast(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0._majorEmitterList) do
 		slot6:Ready()
 	end
@@ -86,7 +86,7 @@ slot2.PreCast = function (slot0, slot1)
 	slot0._alertTimer:Start()
 end
 
-slot2.AddPreCastTimer = function (slot0)
+function slot2.AddPreCastTimer(slot0)
 	slot0._precastTimer = pg.TimeMgr.GetInstance():AddBattleTimer("weaponPrecastTimer", 0, slot0._preCastInfo.time, function ()
 		slot0._currentState = slot0.STATE_OVER_HEAT
 
@@ -96,7 +96,7 @@ slot2.AddPreCastTimer = function (slot0)
 	end, true)
 end
 
-slot2.createMajorEmitter = function (slot0, slot1, slot2, slot3, slot4, slot5)
+function slot2.createMajorEmitter(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = {}
 	slot7 = nil
 	slot9 = nil
@@ -121,7 +121,7 @@ slot2.createMajorEmitter = function (slot0, slot1, slot2, slot3, slot4, slot5)
 	end)
 end
 
-slot2.DoAttack = function (slot0)
+function slot2.DoAttack(slot0)
 	slot0:TriggerBuffOnSteday()
 
 	for slot4, slot5 in pairs(slot0._cacheList) do
@@ -137,7 +137,7 @@ slot2.DoAttack = function (slot0)
 	slot0:CheckAndShake()
 end
 
-slot2.showBombAlert = function (slot0, slot1)
+function slot2.showBombAlert(slot0, slot1)
 	slot1:SetExist(false)
 
 	if slot1:GetTemplate().alert_fx ~= "" then

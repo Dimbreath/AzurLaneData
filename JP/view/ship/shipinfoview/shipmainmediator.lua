@@ -27,7 +27,7 @@ slot0.ON_TECHNOLOGY = "ShipMainMediator:ON_TECHNOLOGY"
 slot0.OPEN_SHIPPROFILE = "ShipMainMediator:OPEN_SHIPPROFILE"
 slot0.ON_SEL_COMMANDER = "ShipMainMediator:ON_SEL_COMMANDER"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.bayProxy = getProxy(BayProxy)
 
 	if not slot0.contextData.shipVOs then
@@ -269,7 +269,7 @@ slot0.register = function (slot0)
 	slot0.viewComponent:setMaxLevelHelpFlag(getProxy(SettingsProxy):getMaxLevelHelp())
 end
 
-slot0.getEquipmentSkins = function (slot0, slot1, slot2)
+function slot0.getEquipmentSkins(slot0, slot1, slot2)
 	if not slot1 then
 		return {}
 	end
@@ -303,7 +303,7 @@ slot0.getEquipmentSkins = function (slot0, slot1, slot2)
 	return slot7
 end
 
-slot0.nextPage = function (slot0, slot1, slot2)
+function slot0.nextPage(slot0, slot1, slot2)
 	if #slot0.contextData.shipVOs == 0 then
 		return
 	end
@@ -367,7 +367,7 @@ slot0.nextPage = function (slot0, slot1, slot2)
 	return slot6
 end
 
-slot0.openRemould = function (slot0)
+function slot0.openRemould(slot0)
 	if getProxy(ContextProxy).getCurrentContext(slot1):getContextByMediator(ShipRemouldMediator) then
 		return
 	end
@@ -382,7 +382,7 @@ slot0.openRemould = function (slot0)
 	}))
 end
 
-slot0.closeRemould = function (slot0)
+function slot0.closeRemould(slot0)
 	if getProxy(ContextProxy).getCurrentContext(slot1):getContextByMediator(ShipRemouldMediator) then
 		slot0:sendNotification(GAME.REMOVE_LAYERS, {
 			context = slot3
@@ -390,7 +390,7 @@ slot0.closeRemould = function (slot0)
 	end
 end
 
-slot0.openUpgrade = function (slot0)
+function slot0.openUpgrade(slot0)
 	if getProxy(ContextProxy):getCurrentContext():getContextByMediator(ShipUpgradeMediator2) then
 		return
 	end
@@ -407,7 +407,7 @@ slot0.openUpgrade = function (slot0)
 	}))
 end
 
-slot0.closeUpgrade = function (slot0)
+function slot0.closeUpgrade(slot0)
 	if getProxy(ContextProxy):getCurrentContext():getContextByMediator(ShipUpgradeMediator2) then
 		slot0:sendNotification(GAME.REMOVE_LAYERS, {
 			context = slot2
@@ -415,7 +415,7 @@ slot0.closeUpgrade = function (slot0)
 	end
 end
 
-slot0.openIntensify = function (slot0)
+function slot0.openIntensify(slot0)
 	if slot0.intensifyContext ~= nil then
 		slot0.intensifyContext.data.shipId = slot0.contextData.shipId
 
@@ -440,7 +440,7 @@ slot0.openIntensify = function (slot0)
 	end)
 end
 
-slot0.closeIntensify = function (slot0)
+function slot0.closeIntensify(slot0)
 	if getProxy(ContextProxy).getCurrentContext(slot1):getContextByMediator(ShipModMediator) then
 		slot0:sendNotification(GAME.REMOVE_LAYERS, {
 			context = slot3
@@ -448,7 +448,7 @@ slot0.closeIntensify = function (slot0)
 	end
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.DESTROY_SHIP_DONE,
 		BayProxy.SHIP_UPDATED,
@@ -468,7 +468,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == BayProxy.SHIP_UPDATED then

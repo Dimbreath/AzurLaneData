@@ -11,7 +11,7 @@ slot0.ON_SELECT_COMMANDER = "FormationMediator:ON_SELECT_COMMANDER"
 slot0.ON_CMD_SKILL = "FormationMediator:ON_CMD_SKILL"
 slot0.COMMANDER_FORMATION_OP = "FormationMediator:COMMANDER_FORMATION_OP"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot1 = getProxy(BayProxy)
 
 	slot1:setSelectShipId(nil)
@@ -176,7 +176,7 @@ slot0.register = function (slot0)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 end
 
-slot0.onSelectCommander = function (slot0, slot1)
+function slot0.onSelectCommander(slot0, slot1)
 	slot2 = getProxy(FleetProxy)
 	slot4 = getProxy(FleetProxy):getFleetById(slot1).getCommanderByPos(slot3, slot0)
 
@@ -227,7 +227,7 @@ slot0.onSelectCommander = function (slot0, slot1)
 	})
 end
 
-slot0.refreshEdit = function (slot0, slot1)
+function slot0.refreshEdit(slot0, slot1)
 	slot2 = getProxy(FleetProxy)
 	slot2.EdittingFleet = slot1
 	slot2:getData()[slot1.id] = slot1
@@ -236,7 +236,7 @@ slot0.refreshEdit = function (slot0, slot1)
 	slot0.viewComponent:UpdateFleetView(false)
 end
 
-slot0.commitEdit = function (slot0)
+function slot0.commitEdit(slot0)
 	if getProxy(FleetProxy).EdittingFleet == nil or slot2:isFirstFleet() or slot2:isLegalToFight() == true or #slot2.ships == 0 then
 		slot1:commitEdittingFleet(slot0)
 	else
@@ -262,7 +262,7 @@ slot0.commitEdit = function (slot0)
 	end
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		FleetProxy.FLEET_UPDATED,
 		FleetProxy.FLEET_RENAMED,
@@ -274,7 +274,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == FleetProxy.FLEET_UPDATED then
@@ -292,7 +292,7 @@ slot0.handleNotification = function (slot0, slot1)
 	end
 end
 
-slot0.checkChangeShip = function (slot0, slot1, slot2)
+function slot0.checkChangeShip(slot0, slot1, slot2)
 	slot5 = getProxy(BayProxy).getRawData(slot3)
 	slot6 = slot2.configId
 	slot8 = getProxy(FleetProxy):getFleetByShip(slot2) and slot7.id == slot0.id
@@ -308,7 +308,7 @@ slot0.checkChangeShip = function (slot0, slot1, slot2)
 	return true
 end
 
-slot0.checkChangeShipForExercise = function (slot0, slot1, slot2)
+function slot0.checkChangeShipForExercise(slot0, slot1, slot2)
 	slot5 = getProxy(BayProxy).getRawData(slot3)
 	slot6 = slot2.configId
 	slot7 = nil
@@ -330,7 +330,7 @@ slot0.checkChangeShipForExercise = function (slot0, slot1, slot2)
 	return true
 end
 
-slot0.removeShipFromFleet = function (slot0, slot1)
+function slot0.removeShipFromFleet(slot0, slot1)
 	if not slot0:canRemove(slot1) then
 		slot2, slot3 = slot0:getShipPos(slot1)
 
@@ -346,11 +346,11 @@ slot0.removeShipFromFleet = function (slot0, slot1)
 	return true
 end
 
-slot0.saveEdit = function ()
+function slot0.saveEdit()
 	getProxy(FleetProxy):saveEdittingFleet()
 end
 
-slot0.getDockCallbackFuncs = function (slot0, slot1, slot2, slot3)
+function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3)
 	slot4 = getProxy(FleetProxy)
 	slot5 = getProxy(BayProxy)
 
@@ -502,7 +502,7 @@ slot0.getDockCallbackFuncs = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-slot0.getDockCallbackFuncsForExercise = function (slot0, slot1, slot2, slot3)
+function slot0.getDockCallbackFuncsForExercise(slot0, slot1, slot2, slot3)
 	slot4 = getProxy(FleetProxy)
 	slot5 = getProxy(BayProxy)
 

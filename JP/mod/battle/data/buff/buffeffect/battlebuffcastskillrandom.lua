@@ -2,14 +2,14 @@ ys = ys or {}
 ys.Battle.BattleBuffCastSkillRandom = class("BattleBuffCastSkillRandom", ys.Battle.BattleBuffCastSkill)
 ys.Battle.BattleBuffCastSkillRandom.__name = "BattleBuffCastSkillRandom"
 
-ys.Battle.BattleBuffCastSkillRandom.Ctor = function (slot0, slot1)
+function ys.Battle.BattleBuffCastSkillRandom.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 
 	slot0._skillIDList = {}
 	slot0._skillList = {}
 end
 
-ys.Battle.BattleBuffCastSkillRandom.SetArgs = function (slot0, slot1, slot2)
+function ys.Battle.BattleBuffCastSkillRandom.SetArgs(slot0, slot1, slot2)
 	slot0.super.SetArgs(slot0, slot1, slot2)
 
 	slot4 = slot0._tempData.arg_list.skill_id_list
@@ -20,7 +20,7 @@ ys.Battle.BattleBuffCastSkillRandom.SetArgs = function (slot0, slot1, slot2)
 	end
 end
 
-ys.Battle.BattleBuffCastSkillRandom.spell = function (slot0, slot1)
+function ys.Battle.BattleBuffCastSkillRandom.spell(slot0, slot1)
 	slot2 = math.random()
 
 	for slot6, slot7 in pairs(slot0._skillIDList) do
@@ -41,7 +41,7 @@ ys.Battle.BattleBuffCastSkillRandom.spell = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattleBuffCastSkillRandom.Clear = function (slot0)
+function ys.Battle.BattleBuffCastSkillRandom.Clear(slot0)
 	slot0.super.Clear(slot0)
 
 	for slot4, slot5 in pairs(slot0._skillList) do

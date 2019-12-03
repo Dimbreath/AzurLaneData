@@ -1,10 +1,10 @@
 slot0 = class("VoteDiaplayPage", import("...base.BaseSubView"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "VoteDisplay"
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.paitingTF = findTF(slot0._tf, "painting")
 	slot0.numberTxt = findTF(slot0._tf, "filter_bg/Text"):GetComponent(typeof(Text))
 	slot0.nameTxt = findTF(slot0._tf, "frame/bg/name"):GetComponent(typeof(Text))
@@ -23,7 +23,7 @@ slot0.OnInit = function (slot0)
 	slot0.bg2 = findTF(slot0._tf, "frame/bg/bg2")
 end
 
-slot0.Open = function (slot0, slot1, slot2, slot3, slot4, slot5)
+function slot0.Open(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0.callback = slot5
 	slot0.maxValue = slot3
 	slot0.rank = slot2
@@ -58,11 +58,11 @@ slot0.Open = function (slot0, slot1, slot2, slot3, slot4, slot5)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-slot0.UpdateCnt = function (slot0)
+function slot0.UpdateCnt(slot0)
 	slot0.valueInput.text = slot0.value
 end
 
-slot0.Update = function (slot0, slot1)
+function slot0.Update(slot0, slot1)
 	slot0.nameTxt.text = slot1:getShipName()
 	slot0.enNameTxt.text = slot1:getEnName()
 	slot0.descTxt.text = slot1:GetDesc()
@@ -112,7 +112,7 @@ slot0.Update = function (slot0, slot1)
 	setPaintingPrefab(slot0.paitingTF, slot1:getPainting(), "jiesuan")
 end
 
-slot0.Close = function (slot0)
+function slot0.Close(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parent)
 	setActive(slot0._tf, false)
 	retPaintingPrefab(slot0.paitingTF, slot0.paintingName)
@@ -124,7 +124,7 @@ slot0.Close = function (slot0)
 	slot0.voteShip = nil
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	slot0:Close()
 end
 

@@ -16,7 +16,7 @@ slot0.TransformType = {
 	[TASK_SUB_TYPE_COLLECT_FURNITURE] = DROP_TYPE_FURNITURE
 }
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.items = {
 		slot0:findTF("AD/Item1"),
@@ -35,7 +35,7 @@ slot0.OnInit = function (slot0)
 	slot0.tabType = 0
 end
 
-slot0.OnFirstFlush = function (slot0)
+function slot0.OnFirstFlush(slot0)
 	slot0.finalTasks = Clone(slot0.activity:getConfig("config_client"))
 
 	_.each(slot1, function (slot0)
@@ -49,7 +49,7 @@ slot0.OnFirstFlush = function (slot0)
 	slot0:InitInteractable()
 end
 
-slot0.InitInteractable = function (slot0)
+function slot0.InitInteractable(slot0)
 	slot1 = getProxy(TaskProxy)
 
 	for slot5, slot6 in ipairs(slot0.finalTasks) do
@@ -84,12 +84,12 @@ slot0.InitInteractable = function (slot0)
 	end)
 end
 
-slot0.OnUpdateFlush = function (slot0)
+function slot0.OnUpdateFlush(slot0)
 	slot0:UpdateView()
 	slot0:UpdateTab()
 end
 
-slot0.UpdateView = function (slot0)
+function slot0.UpdateView(slot0)
 	slot1 = getProxy(TaskProxy)
 
 	for slot5 = 1, #slot0.finalTasks, 1 do
@@ -110,7 +110,7 @@ slot0.UpdateView = function (slot0)
 	end
 end
 
-slot0.UpdateTab = function (slot0)
+function slot0.UpdateTab(slot0)
 	if slot0.tabType == 0 then
 		setActive(slot0.tab, false)
 
@@ -151,17 +151,17 @@ slot0.UpdateTab = function (slot0)
 	setActive(slot0.tab, true)
 end
 
-slot0.UpdateIcon = function (slot0, slot1, slot2, slot3)
+function slot0.UpdateIcon(slot0, slot1, slot2, slot3)
 	if slot0.IconShowFunc[slot2] then
 		slot0.IconShowFunc[slot2](slot1, slot3)
 	end
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	return
 end
 
-slot0.SubimtCompletedMission = function (slot0)
+function slot0.SubimtCompletedMission(slot0)
 	slot1 = getProxy(TaskProxy)
 
 	for slot5, slot6 in pairs(slot0.subtasks) do

@@ -1,11 +1,11 @@
 slot0 = class("SitanliLoginPage", import(".TemplatePage.LoginTemplatePage"))
 
-slot0.OnDataSetting = function (slot0)
+function slot0.OnDataSetting(slot0)
 	slot0.config = pg.activity_7_day_sign[slot0.activity:getConfig("config_id")]
 	slot0.Day = 14
 end
 
-slot0.OnFirstFlush = function (slot0)
+function slot0.OnFirstFlush(slot0)
 	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 	setActive(slot0.item, false)
 	slot0.itemList:make(function (slot0, slot1, slot2)

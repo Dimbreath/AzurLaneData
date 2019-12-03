@@ -12,7 +12,7 @@ slot0.DefaultColor = {
 	1
 }
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
 
 	slot0.go = slot1
@@ -31,7 +31,7 @@ slot0.Ctor = function (slot0, slot1)
 	slot0.limitCountLabelTF = findTF(slot0.tr, "item/count_contain/label"):GetComponent(typeof(Text))
 end
 
-slot0.update = function (slot0, slot1, slot2, slot3)
+function slot0.update(slot0, slot1, slot2, slot3)
 	slot0.goodsVO = slot1
 	slot4, slot5 = slot0.goodsVO:canPurchase()
 
@@ -83,11 +83,11 @@ slot0.update = function (slot0, slot1, slot2, slot3)
 	slot0.limitCountLabelTF.color = slot3 or Color.New(slot0.Color[slot2] or slot0.DefaultColor[1], slot0.Color[slot2] or slot0.DefaultColor[2], slot0.Color[slot2] or slot0.DefaultColor[3], 1)
 end
 
-slot0.setAsLastSibling = function (slot0)
+function slot0.setAsLastSibling(slot0)
 	slot0.tr:SetAsLastSibling()
 end
 
-slot0.dispose = function (slot0)
+function slot0.dispose(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 end
 

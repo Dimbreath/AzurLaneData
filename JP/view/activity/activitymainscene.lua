@@ -337,19 +337,19 @@ slot2 = {
 	[ActivityConst.POCKY_SKIN_FINAL] = ActivityConst.POCKY_SKIN_LOGIN
 }
 
-slot0.preload = function (slot0, slot1)
+function slot0.preload(slot0, slot1)
 	slot1()
 end
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "ActivityMainUI"
 end
 
-slot0.getBGM = function (slot0)
+function slot0.getBGM(slot0)
 	return "holo-sss-inst"
 end
 
-slot0.onBackPressed = function (slot0)
+function slot0.onBackPressed(slot0)
 	for slot4, slot5 in pairs(slot0.windowList) do
 		if isActive(slot5._tf) then
 			slot0:HideWindow(slot5.class)
@@ -363,7 +363,7 @@ end
 
 slot3 = nil
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.btnBack = slot0:findTF("blur_panel/adapt/top/back_btn")
 	slot0.pageContainer = slot0:findTF("pages")
 	slot0.tabs = slot0:findTF("scroll/viewport/content")
@@ -395,7 +395,7 @@ slot0.init = function (slot0)
 	end
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	onButton(slot0, slot0.btnBack, function ()
 		slot0:emit(slot1.ON_BACK)
 	end, SOUND_BACK)
@@ -403,19 +403,19 @@ slot0.didEnter = function (slot0)
 	slot0:emit(ActivityMediator.SHOW_NEXT_ACTIVITY)
 end
 
-slot0.setPlayer = function (slot0, slot1)
+function slot0.setPlayer(slot0, slot1)
 	slot0.shareData:SetPlayer(slot1)
 end
 
-slot0.setFlagShip = function (slot0, slot1)
+function slot0.setFlagShip(slot0, slot1)
 	slot0.shareData:SetFlagShip(slot1)
 end
 
-slot0.setAllActivity = function (slot0, slot1)
+function slot0.setAllActivity(slot0, slot1)
 	slot0.allActivity = slot1
 end
 
-slot0.updateTaskLayers = function (slot0)
+function slot0.updateTaskLayers(slot0)
 	if not slot0.activity then
 		return
 	end
@@ -423,7 +423,7 @@ slot0.updateTaskLayers = function (slot0)
 	slot0:updateActivity(slot0.activity)
 end
 
-slot0.setActivities = function (slot0, slot1)
+function slot0.setActivities(slot0, slot1)
 	slot0.activities = slot1 or {}
 	slot0.activity = nil
 
@@ -437,7 +437,7 @@ slot0.setActivities = function (slot0, slot1)
 	slot0:flushTabs()
 end
 
-slot0.updateActivity = function (slot0, slot1)
+function slot0.updateActivity(slot0, slot1)
 	slot0.allActivity[slot1.id] = slot1
 
 	if not slot1:isShow() then
@@ -459,7 +459,7 @@ slot0.updateActivity = function (slot0, slot1)
 	end
 end
 
-slot0.updateEntrances = function (slot0)
+function slot0.updateEntrances(slot0)
 	slot0.entranceList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot4 = "empty"
@@ -489,7 +489,7 @@ slot0.updateEntrances = function (slot0)
 	end), 5))
 end
 
-slot0.flushTabs = function (slot0)
+function slot0.flushTabs(slot0)
 	if not slot0.tabsList then
 		slot0.tabsList = UIItemList.New(slot0.tabs, slot0.tab)
 
@@ -518,7 +518,7 @@ slot0.flushTabs = function (slot0)
 	slot0.tabsList:align(#slot0.activities)
 end
 
-slot0.selectActivity = function (slot0, slot1)
+function slot0.selectActivity(slot0, slot1)
 	if slot1 and (not slot0.activity or slot0.activity.id ~= slot1.id) then
 		slot0.pageDic[slot1.id].Load(slot2)
 		slot0.pageDic[slot1.id].ActionInvoke(slot2, "Flush", slot1)
@@ -533,7 +533,7 @@ slot0.selectActivity = function (slot0, slot1)
 	end
 end
 
-slot0.verifyTabs = function (slot0, slot1)
+function slot0.verifyTabs(slot0, slot1)
 	slot2 = 1
 
 	for slot6, slot7 in ipairs(slot0.activities) do
@@ -547,7 +547,7 @@ slot0.verifyTabs = function (slot0, slot1)
 	triggerToggle(slot0.tabs:GetChild(slot2 - 1), true)
 end
 
-slot0.loadActivityPanel = function (slot0, slot1, slot2)
+function slot0.loadActivityPanel(slot0, slot1, slot2)
 	slot4 = nil
 
 	if slot2:getConfig("type") == ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN then
@@ -566,7 +566,7 @@ slot0.loadActivityPanel = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.getBonusWindow = function (slot0, slot1, slot2)
+function slot0.getBonusWindow(slot0, slot1, slot2)
 	if not slot0:findTF(slot1) then
 		PoolMgr.GetInstance():GetUI("ActivitybonusWindow", true, function (slot0)
 			SetParent(slot0, slot0._tf, false)
@@ -580,7 +580,7 @@ slot0.getBonusWindow = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.ShowWindow = function (slot0, slot1, slot2)
+function slot0.ShowWindow(slot0, slot1, slot2)
 	if not slot0.windowList[slot1.__cname] then
 		slot0:getBonusWindow(slot3, function (slot0)
 			slot0.windowList[] = slot2.New(tf(slot0), slot0)
@@ -592,7 +592,7 @@ slot0.ShowWindow = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.HideWindow = function (slot0, slot1)
+function slot0.HideWindow(slot0, slot1)
 	if not slot0.windowList[slot1.__cname] then
 		return
 	end
@@ -600,7 +600,7 @@ slot0.HideWindow = function (slot0, slot1)
 	slot0.windowList[slot2]:Hide()
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	slot0.shareData = nil
 
 	for slot4, slot5 in pairs(slot0.pageDic) do

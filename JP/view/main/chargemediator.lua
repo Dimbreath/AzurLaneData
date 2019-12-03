@@ -9,7 +9,7 @@ slot0.OPEN_ACTIVITY = "ChargeMediator:OPEN_ACTIVITY"
 slot0.OPEN_SCENE = "ChargeMediator:OPEN_SCENE"
 slot0.ON_SKIN_SHOP = "ChargeMediator:ON_SKIN_SHOP"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0:bind(slot0.ON_SKIN_SHOP, function ()
 		slot0.contextData.wrap = ChargeScene.TYPE_MENU
 
@@ -97,7 +97,7 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		PlayerProxy.UPDATED,
 		ShopsProxy.FIRST_CHARGE_IDS_UPDATED,
@@ -113,7 +113,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == PlayerProxy.UPDATED then

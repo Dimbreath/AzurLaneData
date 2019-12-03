@@ -3,7 +3,7 @@ slot0.TYPE_SYSTEM = 1
 slot0.TYPE_USER = 2
 slot0.MAX_USER_THEME = 5
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot1.id
 	slot0.name = slot1.name or ""
@@ -20,7 +20,7 @@ slot0.Ctor = function (slot0, slot1)
 	end
 end
 
-slot0.isSameConfigId = function (slot0, slot1)
+function slot0.isSameConfigId(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		for slot10, slot11 in ipairs(slot1) do
 			if slot5 ~= slot10 and slot6.id == slot11.id then
@@ -32,7 +32,7 @@ slot0.isSameConfigId = function (slot0, slot1)
 	return false
 end
 
-slot0.checkSystemTheme = function (slot0)
+function slot0.checkSystemTheme(slot0)
 	slot1 = getProxy(DormProxy)
 	slot2 = {}
 	slot3 = {}
@@ -71,7 +71,7 @@ slot0.checkSystemTheme = function (slot0)
 	end
 end
 
-slot0.initTheme = function (slot0, slot1)
+function slot0.initTheme(slot0, slot1)
 	slot2 = getProxy(DormProxy).floor
 	slot0.furnitures = {}
 
@@ -101,7 +101,7 @@ slot0.initTheme = function (slot0, slot1)
 	slot0.furnitruesByIds = slot0:getThemeFurnitures(slot1)
 end
 
-slot0.getThemeFurnitures = function (slot0, slot1)
+function slot0.getThemeFurnitures(slot0, slot1)
 	slot2 = getProxy(DormProxy):getData().level
 	slot3 = {}
 	slot4 = {}
@@ -129,15 +129,15 @@ slot0.getThemeFurnitures = function (slot0, slot1)
 	})
 end
 
-slot0.bindConfigTable = function (slot0)
+function slot0.bindConfigTable(slot0)
 	return pg.backyard_theme_template
 end
 
-slot0.isUnLock = function (slot0, slot1)
+function slot0.isUnLock(slot0, slot1)
 	return slot0:getConfig("deblocking") <= slot1.level
 end
 
-slot0.isBought = function (slot0, slot1)
+function slot0.isBought(slot0, slot1)
 	if slot0.type == slot0.TYPE_SYSTEM then
 		for slot5, slot6 in pairs(slot0:getConfig("ids")) do
 			if not slot1[slot6] then
@@ -149,7 +149,7 @@ slot0.isBought = function (slot0, slot1)
 	return true
 end
 
-slot0.getRemainFurIds = function (slot0, slot1)
+function slot0.getRemainFurIds(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0:getConfig("ids")) do
@@ -166,7 +166,7 @@ slot0.getRemainFurIds = function (slot0, slot1)
 	return slot2
 end
 
-slot0.getSystemThemeFurnitures = function (slot0, slot1)
+function slot0.getSystemThemeFurnitures(slot0, slot1)
 	pcall(function ()
 		slot0 = require("GameCfg.backyardTheme.theme_" .. slot1.id)
 	end)
@@ -176,7 +176,7 @@ slot0.getSystemThemeFurnitures = function (slot0, slot1)
 	end)
 end
 
-slot0.isOccupyed = function (slot0, slot1, slot2)
+function slot0.isOccupyed(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = slot1.furnitures
 
@@ -189,7 +189,7 @@ slot0.isOccupyed = function (slot0, slot1, slot2)
 	return false
 end
 
-slot0.getUsableFurnituresForFloor = function (slot0, slot1, slot2)
+function slot0.getUsableFurnituresForFloor(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = {}
 
@@ -231,7 +231,7 @@ slot0.getUsableFurnituresForFloor = function (slot0, slot1, slot2)
 	return slot3
 end
 
-slot0.isUsing = function (slot0, slot1)
+function slot0.isUsing(slot0, slot1)
 	slot2 = Clone(slot1.furnitures)
 
 	if slot1.wallPaper then
@@ -273,7 +273,7 @@ slot0.isUsing = function (slot0, slot1)
 	return true
 end
 
-slot0.getName = function (slot0)
+function slot0.getName(slot0)
 	if slot0.type == slot0.TYPE_SYSTEM then
 		return slot0:getConfig("name")
 	end
@@ -281,7 +281,7 @@ slot0.getName = function (slot0)
 	return slot0.name
 end
 
-slot0.getIcon = function (slot0)
+function slot0.getIcon(slot0)
 	if slot0.type == slot0.TYPE_SYSTEM then
 		return slot0:getConfig("icon")
 	else
@@ -289,7 +289,7 @@ slot0.getIcon = function (slot0)
 	end
 end
 
-slot0.isOverTime = function (slot0)
+function slot0.isOverTime(slot0)
 	if slot0.type == slot0.TYPE_SYSTEM then
 		return _.all(slot0:getConfig("ids"), function (slot0)
 			return not Furniture.New({
@@ -299,7 +299,7 @@ slot0.isOverTime = function (slot0)
 	end
 end
 
-slot0.getDesc = function (slot0)
+function slot0.getDesc(slot0)
 	if slot0.type == slot0.TYPE_SYSTEM then
 		return slot0:getConfig("desc")
 	elseif slot0.type == slot0.TYPE_USER then
@@ -307,7 +307,7 @@ slot0.getDesc = function (slot0)
 	end
 end
 
-slot0.isMatchSearchKey = function (slot0, slot1)
+function slot0.isMatchSearchKey(slot0, slot1)
 	if not slot1 or slot1 == "" then
 		return true
 	end

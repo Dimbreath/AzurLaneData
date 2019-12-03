@@ -1,10 +1,10 @@
 slot0 = class("ActivityBossBattleCMDForamtionSubPanel", import("view.base.BaseSubPanel"))
 
-slot0.GetUIName = function (slot0)
+function slot0.GetUIName(slot0)
 	return "LevelCommanderView"
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.descPanel = slot0:findTF("desc")
 	slot0.descFrameTF = slot0:findTF("desc/frame")
 	slot0.descPos1 = slot0:findTF("commander1/frame/info", slot0.descFrameTF)
@@ -41,14 +41,14 @@ slot0.OnInit = function (slot0)
 	end, SFX_PANEL)
 end
 
-slot0.Update = function (slot0, slot1)
+function slot0.Update(slot0, slot1)
 	slot0.fleet = slot1
 
 	slot0:UpdateDesc()
 	slot0:UpdateRecordFleet()
 end
 
-slot0.UpdateDesc = function (slot0)
+function slot0.UpdateDesc(slot0)
 	slot1 = slot0.fleet:getCommanders()
 
 	for slot5 = 1, CommanderConst.MAX_FORMATION_POS, 1 do
@@ -59,7 +59,7 @@ slot0.UpdateDesc = function (slot0)
 	slot0:UpdateAdditions()
 end
 
-slot0.UpdateRecordFleet = function (slot0)
+function slot0.UpdateRecordFleet(slot0)
 	slot1 = slot0.fleet:getCommanders()
 
 	for slot5, slot6 in ipairs(slot0.recordCommanders) do
@@ -68,7 +68,7 @@ slot0.UpdateRecordFleet = function (slot0)
 	end
 end
 
-slot0.UpdateAdditions = function (slot0)
+function slot0.UpdateAdditions(slot0)
 	slot3, slot4 = slot0.fleet.getCommandersAddition(slot1)
 
 	slot0.abilitysTF:make(function (slot0, slot1, slot2)
@@ -98,7 +98,7 @@ slot0.UpdateAdditions = function (slot0)
 	setActive(slot0.talentsArr, #_.values(slot0.fleet.getCommandersTalentDesc(slot1)) > 4)
 end
 
-slot0.UpdateSkillTF = function (slot0, slot1, slot2)
+function slot0.UpdateSkillTF(slot0, slot1, slot2)
 	setActive(slot2, slot1)
 
 	if slot1 then
@@ -107,7 +107,7 @@ slot0.UpdateSkillTF = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.UpdateCommander = function (slot0, slot1, slot2, slot3)
+function slot0.UpdateCommander(slot0, slot1, slot2, slot3)
 	slot4 = slot1:Find("add")
 	slot5 = slot1:Find("info")
 
@@ -133,7 +133,7 @@ slot0.UpdateCommander = function (slot0, slot1, slot2, slot3)
 	setActive(slot5, slot3)
 end
 
-slot0.PlayAnim = function (slot0, slot1, slot2)
+function slot0.PlayAnim(slot0, slot1, slot2)
 	slot0.animtionEvent:SetEndEvent(slot2)
 
 	if not slot0.animtion:Play(slot1) and slot2 then
@@ -141,25 +141,25 @@ slot0.PlayAnim = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.Open = function (slot0)
+function slot0.Open(slot0)
 	slot0:Show()
 	slot0:PlayAnim("cmdopen")
 	slot0._tf:SetAsLastSibling()
 end
 
-slot0.OnShow = function (slot0)
+function slot0.OnShow(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
 		groupName = LayerWeightConst.GROUP_FORMATION_PAGE
 	})
 end
 
-slot0.Close = function (slot0)
+function slot0.Close(slot0)
 	slot0:PlayAnim("cmdclose", function ()
 		slot0:Hide()
 	end)
 end
 
-slot0.OnHide = function (slot0)
+function slot0.OnHide(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0.viewParent._tf)
 end
 
