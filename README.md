@@ -1,6 +1,5 @@
 # AzurLaneScripts
-Repository that holds the lua scripts for every server in Azur Lane and that is automatically updated.
 
-It holds the lua for every available Azur Lane client. 
+This repository holds the lua scripts of every Azur Lane client.
 
-In the case it missed an update let me know so I can get to fix it as soon as possible.
+Updates should be pushed here within a few minutes. If it missed an update please let me know so I can fix it. ~~Which will probably happen since ugly code.~~
