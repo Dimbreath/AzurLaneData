@@ -90,7 +90,7 @@ slot0.typeInfo = {
 	}
 }
 
-slot0.Ctor = function (slot0, slot1, slot2)
+function slot0.Ctor(slot0, slot1, slot2)
 	slot0.super.Ctor(slot0, slot1)
 
 	slot0.id = slot1.user_id or slot1.id
@@ -102,19 +102,19 @@ slot0.Ctor = function (slot0, slot1, slot2)
 	slot0.type = slot2
 end
 
-slot0.getPainting = function (slot0)
+function slot0.getPainting(slot0)
 	return (pg.ship_skin_template[slot0.skinId] and slot1.painting) or "unknown"
 end
 
-slot0.setRank = function (slot0, slot1)
+function slot0.setRank(slot0, slot1)
 	slot0.rank = slot1
 end
 
-slot0.setArenaRank = function (slot0, slot1)
+function slot0.setArenaRank(slot0, slot1)
 	slot0.arenaRank = slot1
 end
 
-slot0.getPowerTxt = function (slot0)
+function slot0.getPowerTxt(slot0)
 	if slot0.type == slot0.TYPE_POWER then
 		return math.floor(slot0.power^0.667)
 	elseif slot0.type == slot0.TYPE_COLLECTION then
@@ -126,7 +126,7 @@ slot0.getPowerTxt = function (slot0)
 	end
 end
 
-slot0.getTitleWord = function (slot0, slot1, slot2)
+function slot0.getTitleWord(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot7 = 1, 4, 1 do
@@ -140,11 +140,11 @@ slot0.getTitleWord = function (slot0, slot1, slot2)
 	return slot3
 end
 
-slot0.getScoreIcon = function (slot0, slot1)
+function slot0.getScoreIcon(slot0, slot1)
 	return slot0.typeInfo[slot1].score_icon
 end
 
-slot0.getActivityByRankType = function (slot0, slot1)
+function slot0.getActivityByRankType(slot0, slot1)
 	if not slot0.typeInfo[slot1].act_type then
 		return nil
 	end

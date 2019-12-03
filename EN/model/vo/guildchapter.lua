@@ -1,36 +1,36 @@
 slot0 = class("GuildChapter", import(".ShamChapter"))
 slot0.SAVE_TAG = "guild_all_ships_"
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 
 	slot0.bossId = nil
 	slot0.id = 80000
 end
 
-slot0.getDataType = function (slot0)
+function slot0.getDataType(slot0)
 	return ChapterConst.TypeGuild
 end
 
-slot0.update = function (slot0, slot1)
+function slot0.update(slot0, slot1)
 	slot0.super.update(slot0, slot1)
 
 	slot0.bossId = slot1.boss_id
 end
 
-slot0.isOpen = function (slot0)
+function slot0.isOpen(slot0)
 	return
 end
 
-slot0.isFirstDay = function (slot0)
+function slot0.isFirstDay(slot0)
 	return
 end
 
-slot0.getRestDays = function (slot0)
+function slot0.getRestDays(slot0)
 	return
 end
 
-slot0.writeBack = function (slot0, slot1, slot2)
+function slot0.writeBack(slot0, slot1, slot2)
 	function slot4(slot0)
 		if slot0.statistics[slot0.id] then
 			slot1:updateShipHp(slot0.id, slot1.bp)

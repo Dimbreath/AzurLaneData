@@ -1,6 +1,6 @@
 slot0 = class("InstagramCard")
 
-slot0.Ctor = function (slot0, slot1, slot2)
+function slot0.Ctor(slot0, slot1, slot2)
 	slot0.view = slot2
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
@@ -12,7 +12,7 @@ slot0.Ctor = function (slot0, slot1, slot2)
 	slot0.image = slot0._tf:Find("image")
 end
 
-slot0.Update = function (slot0, slot1, slot2)
+function slot0.Update(slot0, slot1, slot2)
 	slot0.instagram = slot1
 
 	setImageSprite(slot0.iconTF, LoadSprite("qicon/" .. slot1:GetIcon()), false)
@@ -29,7 +29,7 @@ slot0.Update = function (slot0, slot1, slot2)
 	setActive(slot0.tip, slot1:ShouldShowTip())
 end
 
-slot0.AddCommentTimer = function (slot0, slot1)
+function slot0.AddCommentTimer(slot0, slot1)
 	if slot1:GetFastestRefreshTime() then
 		if slot2 - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
 			slot0.view:emit(InstagramMediator.ON_COMMENT_LIST_UPDATE, slot1.id)
@@ -43,7 +43,7 @@ slot0.AddCommentTimer = function (slot0, slot1)
 	end
 end
 
-slot0.RemoveTimer = function (slot0)
+function slot0.RemoveTimer(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -51,7 +51,7 @@ slot0.RemoveTimer = function (slot0)
 	end
 end
 
-slot0.Dispose = function (slot0)
+function slot0.Dispose(slot0)
 	slot0:RemoveTimer()
 end
 

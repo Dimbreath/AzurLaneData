@@ -2,11 +2,11 @@ ys = ys or {}
 ys.Battle.BattleControllerCommand = class("BattleControllerCommand", ys.MVC.Command)
 ys.Battle.BattleControllerCommand.__name = "BattleControllerCommand"
 
-ys.Battle.BattleControllerCommand.Ctor = function (slot0)
+function ys.Battle.BattleControllerCommand.Ctor(slot0)
 	slot0.Battle.BattleControllerCommand.super.Ctor(slot0)
 end
 
-ys.Battle.BattleControllerCommand.Initialize = function (slot0)
+function ys.Battle.BattleControllerCommand.Initialize(slot0)
 	slot0.Battle.BattleControllerCommand.super.Initialize(slot0)
 
 	slot0._dataProxy = slot0._state:GetProxyByName(slot0.Battle.BattleDataProxy.__name)
@@ -14,7 +14,7 @@ ys.Battle.BattleControllerCommand.Initialize = function (slot0)
 	slot0:InitBattleEvent()
 end
 
-ys.Battle.BattleControllerCommand.CheckDebugCombinedKey = function (slot0)
+function ys.Battle.BattleControllerCommand.CheckDebugCombinedKey(slot0)
 	if Input.GetKey(KeyCode.LeftControl) then
 		if Input.GetKeyUp(KeyCode.Keypad0) then
 			if slot0._state:GetMediatorByName(slot0.Battle.BattleReferenceBoxMediator.__name) == nil then
@@ -59,25 +59,25 @@ ys.Battle.BattleControllerCommand.CheckDebugCombinedKey = function (slot0)
 	end
 end
 
-ys.Battle.BattleControllerCommand.InitBattleEvent = function (slot0)
+function ys.Battle.BattleControllerCommand.InitBattleEvent(slot0)
 	return
 end
 
-ys.Battle.BattleControllerCommand.addSpeed = function (slot0)
+function ys.Battle.BattleControllerCommand.addSpeed(slot0)
 	slot0.Battle.BattleConfig.BASIC_TIME_SCALE = slot0.Battle.BattleConfig.BASIC_TIME_SCALE * slot0
 
 	slot0.Battle.BattleVariable.AppendIFFFactor(slot0.Battle.BattleConfig.FOE_CODE, "cheat_speed_up_" .. slot0.Battle.BattleConfig.BASIC_TIME_SCALE, slot0)
 	slot0.Battle.BattleVariable.AppendIFFFactor(slot0.Battle.BattleConfig.FRIENDLY_CODE, "cheat_speed_up_" .. slot0.Battle.BattleConfig.BASIC_TIME_SCALE, slot0)
 end
 
-ys.Battle.BattleControllerCommand.removeSpeed = function (slot0)
+function ys.Battle.BattleControllerCommand.removeSpeed(slot0)
 	slot0.Battle.BattleVariable.RemoveIFFFactor(slot0.Battle.BattleConfig.FOE_CODE, "cheat_speed_up_" .. slot0.Battle.BattleConfig.BASIC_TIME_SCALE)
 	slot0.Battle.BattleVariable.RemoveIFFFactor(slot0.Battle.BattleConfig.FRIENDLY_CODE, "cheat_speed_up_" .. slot0.Battle.BattleConfig.BASIC_TIME_SCALE)
 
 	slot0.Battle.BattleConfig.BASIC_TIME_SCALE = slot0.Battle.BattleConfig.BASIC_TIME_SCALE * slot0
 end
 
-ys.Battle.BattleControllerCommand.scaleTime = function (slot0)
+function ys.Battle.BattleControllerCommand.scaleTime(slot0)
 	pg.TipsMgr.GetInstance():ShowTips("┏━━━━━━━━━━━━┓")
 	pg.TipsMgr.GetInstance():ShowTips("┃ヽ(•̀ω•́ )ゝ嗑药 X" .. slot0.Battle.BattleConfig.BASIC_TIME_SCALE .. " ！(ง •̀_•́)ง┃")
 	pg.TipsMgr.GetInstance():ShowTips("┗━━━━━━━━━━━━┛")

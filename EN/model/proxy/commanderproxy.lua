@@ -9,7 +9,7 @@ slot0.MAX_WORK_COUNT = 4
 slot0.MAX_SLOT = 10
 slot0.MAX_PREFAB_FLEET = 3
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.data = {}
 	slot0.boxes = {}
 	slot0.prefabFleet = {}
@@ -69,64 +69,64 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.getPrefabFleetById = function (slot0, slot1)
+function slot0.getPrefabFleetById(slot0, slot1)
 	return slot0.prefabFleet[slot1]
 end
 
-slot0.getPrefabFleet = function (slot0)
+function slot0.getPrefabFleet(slot0)
 	return Clone(slot0.prefabFleet)
 end
 
-slot0.updatePrefabFleet = function (slot0, slot1)
+function slot0.updatePrefabFleet(slot0, slot1)
 	slot0.prefabFleet[slot1.id] = slot1
 
 	slot0:sendNotification(slot0.PREFAB_FLEET_UPDATE)
 end
 
-slot0.updatePrefabFleetName = function (slot0, slot1, slot2)
+function slot0.updatePrefabFleetName(slot0, slot1, slot2)
 	slot0.prefabFleet[slot1].updateName(slot3, slot2)
 	slot0:sendNotification(slot0.PREFAB_FLEET_UPDATE)
 end
 
-slot0.getCommanderCnt = function (slot0)
+function slot0.getCommanderCnt(slot0)
 	return table.getCount(slot0.data)
 end
 
-slot0.getPoolById = function (slot0, slot1)
+function slot0.getPoolById(slot0, slot1)
 	return _.detect(slot0:getPools(), function (slot0)
 		return slot0.id == slot0
 	end)
 end
 
-slot0.getPools = function (slot0)
+function slot0.getPools(slot0)
 	return slot0.pools
 end
 
-slot0.getBoxUseCnt = function (slot0)
+function slot0.getBoxUseCnt(slot0)
 	return slot0.boxUsageCount
 end
 
-slot0.updateBoxUseCnt = function (slot0, slot1)
+function slot0.updateBoxUseCnt(slot0, slot1)
 	slot0.boxUsageCount = slot0.boxUsageCount + slot1
 
 	slot0:sendNotification(slot0.RESERVE_CNT_UPDATED, slot0.boxUsageCount)
 end
 
-slot0.resetBoxUseCnt = function (slot0)
+function slot0.resetBoxUseCnt(slot0)
 	slot0.boxUsageCount = 0
 
 	slot0:sendNotification(slot0.RESERVE_CNT_UPDATED, 0)
 end
 
-slot0.updateBox = function (slot0, slot1)
+function slot0.updateBox(slot0, slot1)
 	slot0.boxes[slot1.id] = slot1
 end
 
-slot0.addBox = function (slot0, slot1)
+function slot0.addBox(slot0, slot1)
 	slot0.boxes[slot1.id] = slot1
 end
 
-slot0.getBoxes = function (slot0)
+function slot0.getBoxes(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.boxes) do
@@ -136,29 +136,29 @@ slot0.getBoxes = function (slot0)
 	return slot1
 end
 
-slot0.getBoxById = function (slot0, slot1)
+function slot0.getBoxById(slot0, slot1)
 	return slot0.boxes[slot1]
 end
 
-slot0.getCommanderById = function (slot0, slot1)
+function slot0.getCommanderById(slot0, slot1)
 	if slot0.data[slot1] then
 		return slot2:clone()
 	end
 end
 
-slot0.addCommander = function (slot0, slot1)
+function slot0.addCommander(slot0, slot1)
 	slot0.data[slot1.id] = slot1
 
 	slot0:sendNotification(slot0.COMMANDER_ADDED, slot1:clone())
 end
 
-slot0.updateCommander = function (slot0, slot1)
+function slot0.updateCommander(slot0, slot1)
 	slot0.data[slot1.id] = slot1
 
 	slot0:sendNotification(slot0.COMMANDER_UPDATED, slot1:clone())
 end
 
-slot0.removeCommanderById = function (slot0, slot1)
+function slot0.removeCommanderById(slot0, slot1)
 	slot0:checkPrefabFleet(slot1)
 
 	slot0.data[slot1] = nil
@@ -166,7 +166,7 @@ slot0.removeCommanderById = function (slot0, slot1)
 	slot0:sendNotification(slot0.COMMANDER_DELETED, slot1)
 end
 
-slot0.checkPrefabFleet = function (slot0, slot1)
+function slot0.checkPrefabFleet(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.prefabFleet) do
 		if slot6:contains(slot1) then
 			slot6:removeCommander(slot1)
@@ -174,13 +174,13 @@ slot0.checkPrefabFleet = function (slot0, slot1)
 	end
 end
 
-slot0.notification = function (slot0)
+function slot0.notification(slot0)
 	if slot0:haveFinishedBox() then
 		slot0:sendNotification(slot0.COMMANDER_BOX_FINISHED)
 	end
 end
 
-slot0.haveFinishedBox = function (slot0)
+function slot0.haveFinishedBox(slot0)
 	for slot4, slot5 in pairs(slot0.boxes) do
 		if slot5:getState() == CommanderBox.STATE_FINISHED then
 			return true
@@ -190,7 +190,7 @@ slot0.haveFinishedBox = function (slot0)
 	return false
 end
 
-slot0.onRemove = function (slot0)
+function slot0.onRemove(slot0)
 	if slot0._mainUITimer then
 		pg.TimeMgr.GetInstance():RemoveTimer(slot0._mainUITimer)
 	end

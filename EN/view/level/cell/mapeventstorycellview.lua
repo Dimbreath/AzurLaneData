@@ -1,12 +1,12 @@
 slot0 = class("MapEventStoryCellView", import("view.level.cell.StaticCellView"))
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 
 	slot0.attachTw = nil
 end
 
-slot0.Update = function (slot0)
+function slot0.Update(slot0)
 	slot4 = slot0.info.data
 	slot6 = pg.map_event_template[slot0.info.attachmentId].icon
 	slot7 = "story_" .. slot2 .. "_" .. slot0.info.column .. "_" .. slot0.info.attachmentId
@@ -37,7 +37,7 @@ slot0.Update = function (slot0)
 	setActive(slot0.tf, slot1.flag == 0)
 end
 
-slot0.DestroyGO = function (slot0)
+function slot0.DestroyGO(slot0)
 	if slot0.attachTw then
 		LeanTween.cancel(slot0.attachTw.uniqueId)
 

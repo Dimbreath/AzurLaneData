@@ -35,7 +35,7 @@ slot0.SonarInterval = "sonarInterval"
 slot0.SonarDuration = "sonarDuration"
 slot0.Tactics = "tactics"
 
-slot0.Type2Name = function (slot0)
+function slot0.Type2Name(slot0)
 	return i18n("attribute_" .. slot0)
 end
 
@@ -56,7 +56,7 @@ slot0.eliteConditionCompare = {
 	[-1] = i18n("common_compare_smaller")
 }
 
-slot0.EliteCondition2Name = function (slot0)
+function slot0.EliteCondition2Name(slot0)
 	return slot0.eliteCondition[slot0]
 end
 

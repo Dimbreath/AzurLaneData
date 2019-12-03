@@ -6,18 +6,18 @@ slot0.StateActive = 1
 slot0.StateWorking = 2
 slot0.StateClear = 3
 
-slot0.bindConfigTable = function (slot0)
+function slot0.bindConfigTable(slot0)
 	return pg.activity_skirmish_event
 end
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1
 	slot0.configId = slot1
 	slot0.state = nil
 	slot0.flagNew = nil
 end
 
-slot0.SetState = function (slot0, slot1)
+function slot0.SetState(slot0, slot1)
 	if (slot1 or 0) == slot0.state then
 		return
 	end
@@ -29,15 +29,15 @@ slot0.SetState = function (slot0, slot1)
 	slot0.state = slot1
 end
 
-slot0.GetState = function (slot0)
+function slot0.GetState(slot0)
 	return slot0.state
 end
 
-slot0.GetType = function (slot0)
+function slot0.GetType(slot0)
 	return slot0:getConfig("type")
 end
 
-slot0.GetEvent = function (slot0)
+function slot0.GetEvent(slot0)
 	return slot0:getConfig("event")
 end
 

@@ -2,17 +2,17 @@ pg = pg or {}
 slot0 = singletonClass("NodeMgr")
 pg.NodeMgr = slot0
 
-slot0.Ctor = function (slot0)
+function slot0.Ctor(slot0)
 	return
 end
 
 slot0.NodeBase = {}
 
-slot0.RigisterNode = function (slot0, slot1)
+function slot0.RigisterNode(slot0, slot1)
 	slot0.NodeBase[slot0] = slot1
 end
 
-slot0.Ctor = function (slot0)
+function slot0.Ctor(slot0)
 	return
 end
 
@@ -48,7 +48,7 @@ function slot2(slot0, slot1, slot2, slot3)
 	end
 end
 
-slot0.GenNode = function (slot0, slot1, slot2, slot3)
+function slot0.GenNode(slot0, slot1, slot2, slot3)
 	slot0(slot0, slot1, slot2, slot3)
 
 	for slot7, slot8 in ipairs(slot1:GetAllSeq()) do

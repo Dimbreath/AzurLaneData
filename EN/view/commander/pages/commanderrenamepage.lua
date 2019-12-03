@@ -1,10 +1,10 @@
 slot0 = class("CommanderRenamePage", import("...base.BaseSubView"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "CommandeRenameUI"
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	onButton(slot0, slot0._tf:Find("frame/close_btn"), function ()
 		slot0:Hide()
 	end, SFX_PANEL)
@@ -19,7 +19,7 @@ slot0.OnInit = function (slot0)
 	slot0.confirmBtn = slot0._tf:Find("frame/confirm_btn")
 end
 
-slot0.Show = function (slot0, slot1, slot2)
+function slot0.Show(slot0, slot1, slot2)
 	slot0.isShowMsgBox = true
 
 	setActive(slot0._tf, true)
@@ -38,13 +38,13 @@ slot0.Show = function (slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-slot0.Hide = function (slot0)
+function slot0.Hide(slot0)
 	slot0.isShowMsgBox = nil
 
 	setActive(slot0._tf, false)
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	slot0:Hide()
 end
 

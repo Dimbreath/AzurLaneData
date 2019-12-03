@@ -1,6 +1,6 @@
 slot0 = class("FriendListCard", import(".FriendCard"))
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 
 	slot0.occuptBtn = slot0.tf:Find("frame/btns/occupy_btn")
@@ -12,7 +12,7 @@ slot0.Ctor = function (slot0, slot1)
 	slot0.levelTF = slot0.tf:Find("frame/request_info/lv_bg/Text"):GetComponent(typeof(Text))
 end
 
-slot0.update = function (slot0, slot1)
+function slot0.update(slot0, slot1)
 	slot0.super.update(slot0, slot1)
 	setActive(slot0.chatTip, slot1.unreadCount > 0)
 

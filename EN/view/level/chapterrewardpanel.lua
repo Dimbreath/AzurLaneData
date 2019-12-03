@@ -1,10 +1,10 @@
 slot0 = class("ChapterRewardPanel", BaseSubView)
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "ChapterRewardPanel"
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	setText(slot0:findTF("window/bg/text"), i18n("desc_defense_reward"))
 
 	slot0.UIlist = UIItemList.New(slot0._tf:Find("window/bg/panel/list"), slot0._tf:Find("window/bg/panel/list/item"))
@@ -53,17 +53,17 @@ function slot2(slot0, slot1, slot2, slot3)
 	slot0.UIlist:align(#slot3)
 end
 
-slot0.Show = function (slot0)
+function slot0.Show(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	slot0.super.Show(slot0)
 end
 
-slot0.Hide = function (slot0)
+function slot0.Hide(slot0)
 	slot0.super.Hide(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
-slot0.Enter = function (slot0, slot1)
+function slot0.Enter(slot0, slot1)
 	table.insert(slot4, 1, pg.chapter_defense[slot1.id].port_hp + 1)
 
 	slot5 = {}
@@ -83,7 +83,7 @@ slot0.Enter = function (slot0, slot1)
 	Canvas.ForceUpdateCanvases()
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 

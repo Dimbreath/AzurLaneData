@@ -9,28 +9,28 @@ slot0.STATE_CLEAR = "state_clear"
 slot0.STATE_CONTINUE = "state_continue"
 slot0.STATE_QUIT = "state_quit"
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "BattleResultUI"
 end
 
-slot0.setChallengeInfo = function (slot0, slot1, slot2)
+function slot0.setChallengeInfo(slot0, slot1, slot2)
 	slot0.challenge = slot1
 	slot0.challengeExpire = slot2
 end
 
-slot0.setShips = function (slot0, slot1)
+function slot0.setShips(slot0, slot1)
 	slot0.shipVOs = slot1
 end
 
-slot0.isTotalClear = function (slot0)
+function slot0.isTotalClear(slot0)
 	return (slot0.challenge:getMode() == ChallengeProxy.MODE_CASUAL and slot0.challenge:IsFinish()) or slot0:isFail()
 end
 
-slot0.isFail = function (slot0)
+function slot0.isFail(slot0)
 	return slot0.contextData.score < ys.Battle.BattleConst.BattleScore.S
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.super.init(slot0)
 
 	slot0._challengeBottomPanel = slot0:findTF("challenge_confirm", slot0._blurConatiner)
@@ -41,14 +41,14 @@ slot0.init = function (slot0)
 	slot0._expireTxt = slot0:findTF("text", slot0._expire)
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	slot0.super.didEnter(slot0)
 	onButton(slot0, slot0._skipBtn, function ()
 		slot0:skip()
 	end, SFX_CONFIRM)
 end
 
-slot0.setStageName = function (slot0)
+function slot0.setStageName(slot0)
 	if slot0.contextData.system and slot0.contextData.system == SYSTEM_DUEL then
 		setText(slot0._levelText, slot0.rivalVO.name)
 	else
@@ -62,7 +62,7 @@ slot0.setStageName = function (slot0)
 	end
 end
 
-slot0.rankAnimaFinish = function (slot0)
+function slot0.rankAnimaFinish(slot0)
 	slot1 = slot0:findTF("main/conditions")
 
 	if slot0.challenge:getMode() == ChallengeProxy.MODE_INFINITE then
@@ -83,7 +83,7 @@ slot0.rankAnimaFinish = function (slot0)
 	end
 end
 
-slot0.displayDefeat = function (slot0)
+function slot0.displayDefeat(slot0)
 	function slot1()
 		slot0:skip()
 	end
@@ -99,7 +99,7 @@ slot0.displayDefeat = function (slot0)
 	end
 end
 
-slot0.showRightBottomPanel = function (slot0)
+function slot0.showRightBottomPanel(slot0)
 	SetActive(slot0._expire, slot0.challengeExpire)
 	setText(slot0._expireTxt, i18n("challenge_expire_warn"))
 	SetActive(slot0._skipBtn, false)
@@ -141,11 +141,11 @@ slot0.showRightBottomPanel = function (slot0)
 	slot0._stateFlag = slot0.STATE_DEFEAT
 end
 
-slot0.onBackPressed = function (slot0)
+function slot0.onBackPressed(slot0)
 	slot0:skip()
 end
 
-slot0.skip = function (slot0)
+function slot0.skip(slot0)
 	for slot4, slot5 in ipairs(slot0._delayLeanList) do
 		LeanTween.cancel(slot5)
 	end
@@ -184,7 +184,7 @@ slot0.skip = function (slot0)
 	end
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	LeanTween.cancel(go(slot0._tf))
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end

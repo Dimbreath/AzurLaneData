@@ -2,7 +2,7 @@ slot0 = class("GuildRequestMediator", import("..base.ContextMediator"))
 slot0.ACCPET = "GuildRequestMediator:ACCPET"
 slot0.REJECT = "GuildRequestMediator:REJECT"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot1 = getProxy(GuildProxy)
 	slot0.guild = slot1:getData()
 
@@ -23,7 +23,7 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GuildProxy.REQUEST_DELETED,
 		GAME.GUILD_GET_REQUEST_LIST_DONE,
@@ -31,7 +31,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GuildProxy.REQUEST_DELETED then

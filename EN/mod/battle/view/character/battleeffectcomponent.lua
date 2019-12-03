@@ -5,7 +5,7 @@ slot3 = ys.Battle.BattleResourceManager
 ys.Battle.BattleEffectComponent = class("BattleEffectComponent")
 ys.Battle.BattleEffectComponent.__name = "BattleEffectComponent"
 
-ys.Battle.BattleEffectComponent.Ctor = function (slot0, slot1)
+function ys.Battle.BattleEffectComponent.Ctor(slot0, slot1)
 	slot0.EventListener.AttachEventListener(slot0)
 
 	slot0._owner = slot1
@@ -15,7 +15,7 @@ ys.Battle.BattleEffectComponent.Ctor = function (slot0, slot1)
 	slot0._effectList = {}
 end
 
-ys.Battle.BattleEffectComponent.Dispose = function (slot0)
+function ys.Battle.BattleEffectComponent.Dispose(slot0)
 	for slot4, slot5 in pairs(slot0._blinkIDList) do
 		slot0._owner:RemoveBlink(slot5)
 	end
@@ -23,11 +23,11 @@ ys.Battle.BattleEffectComponent.Dispose = function (slot0)
 	slot0.EventListener.DetachEventListener(slot0)
 end
 
-ys.Battle.BattleEffectComponent.GetFXPool = function (slot0)
+function ys.Battle.BattleEffectComponent.GetFXPool(slot0)
 	return slot0.Battle.BattleFXPool.GetInstance()
 end
 
-ys.Battle.BattleEffectComponent.SetUnitDataEvent = function (slot0, slot1)
+function ys.Battle.BattleEffectComponent.SetUnitDataEvent(slot0, slot1)
 	slot1:RegisterEventListener(slot0, slot0.BUFF_ATTACH, slot0.onBuffAdd)
 	slot1:RegisterEventListener(slot0, slot0.BUFF_STACK, slot0.onBuffStack)
 	slot1:RegisterEventListener(slot0, slot0.BUFF_REMOVE, slot0.onBuffRemove)
@@ -36,7 +36,7 @@ ys.Battle.BattleEffectComponent.SetUnitDataEvent = function (slot0, slot1)
 	slot1:RegisterEventListener(slot0, slot1.DEACTIVE_EFFECT, slot0.onDeactiveEffect)
 end
 
-ys.Battle.BattleEffectComponent.RemoveUnitEvent = function (slot0, slot1)
+function ys.Battle.BattleEffectComponent.RemoveUnitEvent(slot0, slot1)
 	slot1:UnregisterEventListener(slot0, slot0.BUFF_ATTACH)
 	slot1:UnregisterEventListener(slot0, slot0.BUFF_STACK)
 	slot1:UnregisterEventListener(slot0, slot0.BUFF_REMOVE)
@@ -45,7 +45,7 @@ ys.Battle.BattleEffectComponent.RemoveUnitEvent = function (slot0, slot1)
 	slot1:UnregisterEventListener(slot0, slot1.DEACTIVE_EFFECT)
 end
 
-ys.Battle.BattleEffectComponent.Update = function (slot0, slot1)
+function ys.Battle.BattleEffectComponent.Update(slot0, slot1)
 	slot0._dir = slot0._owner:GetUnitData():GetDirection()
 
 	for slot5, slot6 in pairs(slot0._effectList) do
@@ -55,27 +55,27 @@ ys.Battle.BattleEffectComponent.Update = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattleEffectComponent.onAddEffect = function (slot0, slot1)
+function ys.Battle.BattleEffectComponent.onAddEffect(slot0, slot1)
 	slot0:DoAddEffect(slot1)
 end
 
-ys.Battle.BattleEffectComponent.DoAddEffect = function (slot0, slot1)
+function ys.Battle.BattleEffectComponent.DoAddEffect(slot0, slot1)
 	slot0:_AddEffect(slot1.Data)
 end
 
-ys.Battle.BattleEffectComponent.onCancelEffect = function (slot0, slot1)
+function ys.Battle.BattleEffectComponent.onCancelEffect(slot0, slot1)
 	slot0:_CancelEffect(slot1.Data)
 end
 
-ys.Battle.BattleEffectComponent.onDeactiveEffect = function (slot0, slot1)
+function ys.Battle.BattleEffectComponent.onDeactiveEffect(slot0, slot1)
 	slot0:_DeactiveEffect(slot1.Data)
 end
 
-ys.Battle.BattleEffectComponent.onBuffAdd = function (slot0, slot1)
+function ys.Battle.BattleEffectComponent.onBuffAdd(slot0, slot1)
 	slot0:DoWhenAddBuff(slot1)
 end
 
-ys.Battle.BattleEffectComponent.DoWhenAddBuff = function (slot0, slot1)
+function ys.Battle.BattleEffectComponent.DoWhenAddBuff(slot0, slot1)
 	if slot0.Battle.BattleDataFunction.GetBuffTemplate(slot2).init_effect and slot3.init_effect ~= "" then
 		slot0._owner:AddFX(slot3.init_effect)
 	end
@@ -92,17 +92,17 @@ ys.Battle.BattleEffectComponent.DoWhenAddBuff = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattleEffectComponent.onBuffStack = function (slot0, slot1)
+function ys.Battle.BattleEffectComponent.onBuffStack(slot0, slot1)
 	slot0:DoWhenStackBuff(slot1)
 end
 
-ys.Battle.BattleEffectComponent.DoWhenStackBuff = function (slot0, slot1)
+function ys.Battle.BattleEffectComponent.DoWhenStackBuff(slot0, slot1)
 	if slot0.Battle.BattleDataFunction.GetBuffTemplate(slot2).init_effect ~= nil and slot3.init_effect ~= "" then
 		slot0._owner:AddFX(slot3.init_effect)
 	end
 end
 
-ys.Battle.BattleEffectComponent.onBuffRemove = function (slot0, slot1)
+function ys.Battle.BattleEffectComponent.onBuffRemove(slot0, slot1)
 	if slot0._buffLastEffects[slot1.Data.buff_id] ~= nil then
 		slot0._buffLastEffects[slot2] = nil
 
@@ -116,7 +116,7 @@ ys.Battle.BattleEffectComponent.onBuffRemove = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattleEffectComponent._AddEffect = function (slot0, slot1)
+function ys.Battle.BattleEffectComponent._AddEffect(slot0, slot1)
 	if slot0._effectList[slot1.index or slot0:_GetIndex()] then
 		slot3.effect_go:SetActive(true)
 
@@ -146,7 +146,7 @@ ys.Battle.BattleEffectComponent._AddEffect = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattleEffectComponent._CancelEffect = function (slot0, slot1)
+function ys.Battle.BattleEffectComponent._CancelEffect(slot0, slot1)
 	if slot0._effectList[slot1.index] then
 		slot0._owner:RemoveFX(slot3.effect_go)
 
@@ -154,19 +154,19 @@ ys.Battle.BattleEffectComponent._CancelEffect = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattleEffectComponent._DeactiveEffect = function (slot0, slot1)
+function ys.Battle.BattleEffectComponent._DeactiveEffect(slot0, slot1)
 	if slot0._effectList[slot1.index] then
 		slot3.effect_go:SetActive(false)
 	end
 end
 
-ys.Battle.BattleEffectComponent._GetIndex = function (slot0)
+function ys.Battle.BattleEffectComponent._GetIndex(slot0)
 	slot0._effectIndex = slot0._effectIndex + 1
 
 	return slot0._effectIndex + 1
 end
 
-ys.Battle.BattleEffectComponent._UpdateEffect = function (slot0, slot1)
+function ys.Battle.BattleEffectComponent._UpdateEffect(slot0, slot1)
 	if slot1.posFun then
 		slot1.effect_tf.localPosition = slot1.posFun(slot1.currentTime)
 	end

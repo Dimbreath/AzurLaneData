@@ -1,10 +1,10 @@
 slot0 = class("SummerFeastScene", import("..base.BaseUI"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "SummerFeastUI"
 end
 
-slot0.getBGM = function (slot0)
+function slot0.getBGM(slot0)
 	return "main"
 end
 
@@ -40,11 +40,11 @@ slot1 = {
 	}
 }
 
-slot0.GetCurrentDay = function ()
+function slot0.GetCurrentDay()
 	return pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t").yday
 end
 
-slot0.GetTheDay = function ()
+function slot0.GetTheDay()
 	return os.date("*t", os.time({
 		hour = 0,
 		month = 8,
@@ -56,11 +56,11 @@ slot0.GetTheDay = function ()
 	})).yday
 end
 
-slot0.TransformColor = function (slot0)
+function slot0.TransformColor(slot0)
 	return Color.New(tonumber(string.sub(slot0, 1, 2), 16) / 255, tonumber(string.sub(slot0, 3, 4), 16) / 255, tonumber(string.sub(slot0, 5, 6), 16) / 255)
 end
 
-slot0.GenerateRandomFanPosition = function (slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+function slot0.GenerateRandomFanPosition(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot7 = {}
 
 	for slot11 = 1, slot6, 1 do
@@ -79,7 +79,7 @@ slot0.GenerateRandomFanPosition = function (slot0, slot1, slot2, slot3, slot4, s
 	return slot12
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.top = slot0:findTF("top")
 	slot0._closeBtn = slot0:findTF("top/back")
 	slot0._homeBtn = slot0:findTF("top/home")
@@ -119,7 +119,7 @@ slot0.init = function (slot0)
 	slot0.workingEffect = {}
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	slot1 = getProxy(MiniGameProxy)
 
 	onButton(slot0, slot0._closeBtn, function ()
@@ -186,7 +186,7 @@ slot0.didEnter = function (slot0)
 	slot0:UpdateView()
 end
 
-slot0.UpdateView = function (slot0)
+function slot0.UpdateView(slot0)
 	setText(slot0.ticketTimes, getProxy(MiniGameProxy).GetHubByHubId(slot1, slot0.HUB_ID).count)
 	setText(slot0.yinhuaceTimes, slot3)
 
@@ -205,12 +205,12 @@ slot0.UpdateView = function (slot0)
 	setActive(slot0.btn_fire, slot1:GetMiniGameData(FireworkFactoryView.MINIGAME_ID):GetRuntimeData("elements") and #slot6 >= 4 and slot6[4] == slot0.GetCurrentDay())
 end
 
-slot0.InitFacility = function (slot0, slot1, slot2)
+function slot0.InitFacility(slot0, slot1, slot2)
 	onButton(slot0, slot1, slot2)
 	onButton(slot0, slot1:Find("button"), slot2)
 end
 
-slot0.PlayFirework = function (slot0, slot1)
+function slot0.PlayFirework(slot0, slot1)
 	if #slot0.workingEffect > 0 then
 		return
 	end
@@ -239,7 +239,7 @@ slot0.PlayFirework = function (slot0, slot1)
 	slot0:PlaySE()
 end
 
-slot0.ClearEffectFirework = function (slot0)
+function slot0.ClearEffectFirework(slot0)
 	slot0:StopSE()
 
 	slot1 = pg.PoolMgr.GetInstance()
@@ -253,7 +253,7 @@ slot0.ClearEffectFirework = function (slot0)
 	slot0.workingEffect = {}
 end
 
-slot0.PlaySE = function (slot0)
+function slot0.PlaySE(slot0)
 	if slot0.SETimer then
 		return
 	end
@@ -272,7 +272,7 @@ slot0.PlaySE = function (slot0)
 	slot0.SETimer:Start()
 end
 
-slot0.StopSE = function (slot0)
+function slot0.StopSE(slot0)
 	if slot0.SETimer then
 		pg.CriMgr.GetInstance():StopSEBattle()
 		slot0.SETimer:Stop()
@@ -281,7 +281,7 @@ slot0.StopSE = function (slot0)
 	end
 end
 
-slot0.getStudents = function (slot0)
+function slot0.getStudents(slot0)
 	slot1 = {}
 
 	if not getProxy(ActivityProxy):getActivityById(ActivityConst.SUMMER_FEAST_ID) then
@@ -304,7 +304,7 @@ slot0.getStudents = function (slot0)
 	return slot1
 end
 
-slot0.InitAreaTransFunc = function (slot0)
+function slot0.InitAreaTransFunc(slot0)
 	slot0.edge2area = {
 		1_4 = slot0.bottom,
 		1_5 = slot0.bottom,
@@ -314,7 +314,7 @@ slot0.InitAreaTransFunc = function (slot0)
 	slot0.graphPath.points[5].isBan = true
 end
 
-slot0.updateStudents = function (slot0)
+function slot0.updateStudents(slot0)
 	for slot5, slot6 in pairs(slot1) do
 		if not slot0.academyStudents[slot5] then
 			cloneTplTo(slot0._shipTpl, slot0._map).gameObject.name = slot5
@@ -341,7 +341,7 @@ slot0.updateStudents = function (slot0)
 	end
 end
 
-slot0.sortStudents = function (slot0)
+function slot0.sortStudents(slot0)
 	for slot5, slot6 in pairs(slot1) do
 		if slot6.childCount > 1 then
 			slot7 = {}
@@ -368,7 +368,7 @@ slot0.sortStudents = function (slot0)
 	end
 end
 
-slot0.clearStudents = function (slot0)
+function slot0.clearStudents(slot0)
 	if slot0.sortTimer then
 		slot0.sortTimer:Stop()
 
@@ -383,7 +383,7 @@ slot0.clearStudents = function (slot0)
 	slot0.academyStudents = {}
 end
 
-slot0.Clone2Full = function (slot0, slot1, slot2)
+function slot0.Clone2Full(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = slot1:GetChild(0)
 
@@ -398,13 +398,13 @@ slot0.Clone2Full = function (slot0, slot1, slot2)
 	return slot3
 end
 
-slot0.TryPlayStory = function (slot0)
+function slot0.TryPlayStory(slot0)
 	if "TIANHOUYUYI2" then
 		pg.StoryMgr.GetInstance():Play(slot1)
 	end
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.top, slot0._tf)
 	slot0:clearStudents()
 	slot0:ClearEffectFirework()

@@ -1,6 +1,6 @@
 slot0 = class("ShipStatus")
 
-slot0.ShipStatu2Bg = function (slot0)
+function slot0.ShipStatu2Bg(slot0)
 	if slot0.inChapter or slot0.inElite or slot0.shamInFleet or slot0.inSham or slot0.inFleet or slot0.inWorld or slot0.inActivity or slot0.inChallenge then
 		return "red"
 	elseif slot0.inEvent then
@@ -12,7 +12,7 @@ slot0.ShipStatu2Bg = function (slot0)
 	end
 end
 
-slot0.ShipStatu2Name = function (slot0)
+function slot0.ShipStatu2Name(slot0)
 	slot1 = ""
 
 	if slot0.inChapter then

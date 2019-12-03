@@ -2,11 +2,11 @@ ys = ys or {}
 ys.Battle.BattleDirectBulletFactory = singletonClass("BattleDirectBulletFactory", ys.Battle.BattleBulletFactory)
 ys.Battle.BattleDirectBulletFactory.__name = "BattleDirectBulletFactory"
 
-ys.Battle.BattleDirectBulletFactory.Ctor = function (slot0)
+function ys.Battle.BattleDirectBulletFactory.Ctor(slot0)
 	slot0.super.Ctor(slot0)
 end
 
-ys.Battle.BattleDirectBulletFactory.CreateBullet = function (slot0, slot1, slot2, slot3, slot4, slot5)
+function ys.Battle.BattleDirectBulletFactory.CreateBullet(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0:PlayFireFX(slot1, slot2, slot3, slot4, slot5, nil)
 
 	if slot2:GetDirectHitUnit() == nil then

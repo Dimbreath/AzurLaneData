@@ -6,17 +6,17 @@ slot4 = class("BattleSingleChallengeCommand", ys.Battle.BattleSingleDungeonComma
 ys.Battle.BattleSingleChallengeCommand = slot4
 slot4.__name = "BattleSingleChallengeCommand"
 
-slot4.Ctor = function (slot0)
+function slot4.Ctor(slot0)
 	slot0.super.Ctor(slot0)
 
 	slot0._challengeConst = slot0.super.Ctor.Battle.BattleConfig.CHALLENGE_ENHANCE
 end
 
-slot4.ConfigBattleData = function (slot0, slot1)
+function slot4.ConfigBattleData(slot0, slot1)
 	slot0._challengeInfo = slot1.ChallengeInfo
 end
 
-slot4.onInitBattle = function (slot0)
+function slot4.onInitBattle(slot0)
 	slot0.super.onInitBattle(slot0)
 
 	slot0._enhancemntP = math.max(slot0._dataProxy:GetInitData().ChallengeInfo:getRound() - slot0._challengeConst.K, 0)
@@ -30,7 +30,7 @@ slot4.onInitBattle = function (slot0)
 	slot0._enahanceLUKAttr = slot0._challengeConst.Y2 * slot0._enhancemntP
 end
 
-slot4.initWaveModule = function (slot0)
+function slot4.initWaveModule(slot0)
 	slot0._waveUpdater = slot0.Battle.BattleWaveUpdater.New(function (slot0, slot1, slot2)
 		slot3 = slot0._dataProxy:SpawnMonster(slot0, slot1, slot2, slot1.Battle.BattleConfig.FOE_CODE, function (slot0)
 			slot0:monsterEnhance(slot0)
@@ -53,7 +53,7 @@ slot4.initWaveModule = function (slot0)
 	end)
 end
 
-slot4.DoPrologue = function (slot0)
+function slot4.DoPrologue(slot0)
 	pg.UIMgr.GetInstance():Marching()
 	slot0._uiMediator:SeaSurfaceShift(45, 0, nil, function ()
 		slot0._uiMediator:OpeningEffect(function ()
@@ -76,7 +76,7 @@ slot4.DoPrologue = function (slot0)
 	end)
 end
 
-slot4.onPlayerShutDown = function (slot0, slot1)
+function slot4.onPlayerShutDown(slot0, slot1)
 	if slot0._state:GetState() ~= slot0._state.BATTLE_STATE_FIGHT then
 		return
 	end
@@ -94,14 +94,14 @@ slot4.onPlayerShutDown = function (slot0, slot1)
 	end
 end
 
-slot4.onUpdateCountDown = function (slot0, slot1)
+function slot4.onUpdateCountDown(slot0, slot1)
 	if slot0._dataProxy:GetCountDown() <= 0 then
 		slot0._dataProxy:CalcChallengeScore(false)
 		slot0._state:BattleEnd()
 	end
 end
 
-slot4.monsterEnhance = function (slot0, slot1)
+function slot4.monsterEnhance(slot0, slot1)
 	slot0.Battle.BattleAttr.FlashByBuff(slot1, "maxHP", slot0._enahanceDURAttr)
 	slot0.Battle.BattleAttr.FlashByBuff(slot1, "cannonPower", slot0._enahanceATKAttr)
 	slot0.Battle.BattleAttr.FlashByBuff(slot1, "torpedoPower", slot0._enahanceATKAttr)

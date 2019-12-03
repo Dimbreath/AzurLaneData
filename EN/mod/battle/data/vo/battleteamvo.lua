@@ -8,24 +8,24 @@ slot6 = class("BattleTeamVO")
 ys.Battle.BattleTeamVO = slot6
 slot6.__name = "BattleTeamVO"
 
-slot6.Ctor = function (slot0, slot1)
+function slot6.Ctor(slot0, slot1)
 	slot0._teamID = slot1
 
 	slot0:init()
 end
 
-slot6.UpdateMotion = function (slot0)
+function slot6.UpdateMotion(slot0)
 	if slot0._motionReferenceUnit then
 		slot0._motionVO:UpdatePos(slot0._motionReferenceUnit)
 		slot0._motionVO:UpdateSpeed(slot0._motionReferenceUnit:GetSpeed())
 	end
 end
 
-slot6.IsFatalDamage = function (slot0)
+function slot6.IsFatalDamage(slot0)
 	return slot0._count == 0
 end
 
-slot6.AppendUnit = function (slot0, slot1)
+function slot6.AppendUnit(slot0, slot1)
 	slot1:SetMotion(slot0._motionVO)
 
 	slot0._enemyList[#slot0._enemyList + 1] = slot1
@@ -35,7 +35,7 @@ slot6.AppendUnit = function (slot0, slot1)
 	slot1:SetTeamVO(slot0)
 end
 
-slot6.RemoveUnit = function (slot0, slot1)
+function slot6.RemoveUnit(slot0, slot1)
 	slot2 = 0
 
 	for slot6, slot7 in ipairs(slot0._enemyList) do
@@ -54,13 +54,13 @@ slot6.RemoveUnit = function (slot0, slot1)
 	slot0:refreshTeamFormation()
 end
 
-slot6.init = function (slot0)
+function slot6.init(slot0)
 	slot0._enemyList = {}
 	slot0._motionVO = slot0.Battle.BattleFleetMotionVO.New()
 	slot0._count = 0
 end
 
-slot6.refreshTeamFormation = function (slot0)
+function slot6.refreshTeamFormation(slot0)
 	slot1 = 1
 	slot2 = #slot0._enemyList
 	slot3 = {}
@@ -85,7 +85,7 @@ slot6.refreshTeamFormation = function (slot0)
 	end
 end
 
-slot6.Dispose = function (slot0)
+function slot6.Dispose(slot0)
 	slot0._enemyList = nil
 	slot0._motionReferenceUnit = nil
 	slot0._motionVO = nil

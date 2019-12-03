@@ -6,7 +6,7 @@ slot0.CLASS_UPGRADE = "ClassMediator:CLASS_UPGRADE"
 slot0.CLASS_UPGRADE_TIMES_UP = "ClassMediator:CLASS_UPGRADE_TIMES_UP"
 slot0.CLASS_CLEAR_STUDENT = "ClassMediator:CLASS_CLEAR_STUDENT"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot1 = getProxy(NavalAcademyProxy)
 	slot2 = getProxy(BayProxy)
 	slot3 = slot1:getCourse()
@@ -76,7 +76,7 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.CLASS_FORCE_UPDATE,
 		GAME.CLASS_START_COURSE_DONE,
@@ -85,7 +85,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == NavalAcademyProxy.RESOURCE_UPGRADE then
@@ -116,7 +116,7 @@ slot0.handleNotification = function (slot0, slot1)
 	end
 end
 
-slot0.updateClassView = function (slot0)
+function slot0.updateClassView(slot0)
 	slot1 = getProxy(NavalAcademyProxy)
 	slot2 = slot1:getCourse()
 
@@ -126,12 +126,12 @@ slot0.updateClassView = function (slot0)
 	slot0.viewComponent:updateMainView()
 end
 
-slot0.updateResourcePanel = function (slot0)
+function slot0.updateResourcePanel(slot0)
 	slot0.viewComponent:setResClass(getProxy(NavalAcademyProxy).GetClassVO(slot1))
 	slot0.viewComponent:updateResourcePanel()
 end
 
-slot0.verifyCourseData = function (slot0, slot1)
+function slot0.verifyCourseData(slot0, slot1)
 	if not slot1:inClass() and slot1:existCourse() then
 		slot2 = getProxy(BayProxy)
 		slot3 = slot1:getConfig("type")

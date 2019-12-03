@@ -4,7 +4,7 @@ slot0.OPEN_TASK = "GuildEventMediator:OPEN_TASK"
 slot0.OPEN_RANK = "GuildEventMediator:OPEN_RANK"
 slot0.ON_PRE_COMBAT = "GuildEventMediator:ON_PRE_COMBAT"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot1 = getProxy(GuildProxy)
 	slot1.eventTip = nil
 
@@ -48,13 +48,13 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GuildProxy.UPDATED_EVENT
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GuildProxy.UPDATED_EVENT then

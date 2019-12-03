@@ -6,7 +6,7 @@ slot0.ON_REFRESH = "TechnologyMediator:ON_REFRESH"
 slot0.ON_STOP = "TechnologyMediator:ON_STOP"
 slot0.CHANGE_TENDENCY = "TechnologyMediator:CHANGE_TENDENCY"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0:bind(slot0.ON_START, function (slot0, slot1)
 		slot0:sendNotification(GAME.START_TECHNOLOGY, {
 			id = slot1.id,
@@ -49,7 +49,7 @@ slot0.register = function (slot0)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		TechnologyProxy.TECHNOLOGY_UPDATED,
 		GAME.FINISH_TECHNOLOGY_DONE,
@@ -60,7 +60,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot2 = slot1:getBody()
 
 	if slot1:getName() == TechnologyProxy.TECHNOLOGY_UPDATED then
@@ -99,7 +99,7 @@ slot0.handleNotification = function (slot0, slot1)
 	end
 end
 
-slot0.onRefresh = function (slot0)
+function slot0.onRefresh(slot0)
 	slot0.viewComponent:clearTimer()
 	slot0.viewComponent:cancelSelected()
 	slot0.viewComponent:setTechnologys(getProxy(TechnologyProxy):getTechnologys())

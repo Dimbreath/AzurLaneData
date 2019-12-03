@@ -7,7 +7,7 @@ slot0.STATES = {
 	NONE = 1
 }
 
-slot0.Ctor = function (slot0, slot1, slot2, slot3)
+function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.super.Ctor(slot0, slot2)
 
 	slot0.contextData = slot3
@@ -20,7 +20,7 @@ slot0.Ctor = function (slot0, slot1, slot2, slot3)
 	slot0._loadedQueue = {}
 end
 
-slot0.Load = function (slot0)
+function slot0.Load(slot0)
 	if slot0._state ~= slot0.STATES.NONE then
 		return
 	end
@@ -34,7 +34,7 @@ slot0.Load = function (slot0)
 	end)
 end
 
-slot0.Loaded = function (slot0, slot1)
+function slot0.Loaded(slot0, slot1)
 	pg.UIMgr.GetInstance():LoadingOff()
 
 	if slot0._state == slot0.STATES.DESTROY then
@@ -56,7 +56,7 @@ slot0.Loaded = function (slot0, slot1)
 	slot0:OnLoaded()
 end
 
-slot0.Init = function (slot0)
+function slot0.Init(slot0)
 	if slot0._state ~= slot0.STATES.LOADED then
 		return
 	end
@@ -68,7 +68,7 @@ slot0.Init = function (slot0)
 	slot0:HandleLoadedQueue()
 end
 
-slot0.HandleFuncQueue = function (slot0)
+function slot0.HandleFuncQueue(slot0)
 	if slot0._state == slot0.STATES.INITED then
 		while #slot0._funcQueue > 0 do
 			slot0[slot0._funcQueue[1].funcName](slot0, unpack(slot0._funcQueue[1].params))
@@ -77,7 +77,7 @@ slot0.HandleFuncQueue = function (slot0)
 	end
 end
 
-slot0.HandleLoadedQueue = function (slot0)
+function slot0.HandleLoadedQueue(slot0)
 	if slot0._state == slot0.STATES.INITED then
 		while #slot0._loadedQueue > 0 do
 			slot0._loadedQueue[1].funcBody(unpack(slot0._loadedQueue[1].params))
@@ -86,11 +86,11 @@ slot0.HandleLoadedQueue = function (slot0)
 	end
 end
 
-slot0.Reset = function (slot0)
+function slot0.Reset(slot0)
 	slot0._state = slot0.STATES.NONE
 end
 
-slot0.ActionInvoke = function (slot0, slot1, ...)
+function slot0.ActionInvoke(slot0, slot1, ...)
 	slot0._funcQueue[#slot0._funcQueue + 1] = {
 		funcName = slot1,
 		params = {
@@ -101,7 +101,7 @@ slot0.ActionInvoke = function (slot0, slot1, ...)
 	slot0:HandleFuncQueue()
 end
 
-slot0.ExecuteAction = function (slot0, slot1, ...)
+function slot0.ExecuteAction(slot0, slot1, ...)
 	slot2 = {
 		...
 	}
@@ -118,15 +118,15 @@ slot0.ExecuteAction = function (slot0, slot1, ...)
 	end
 end
 
-slot0.GetLoaded = function (slot0)
+function slot0.GetLoaded(slot0)
 	return slot0.STATES.LOADED <= slot0._state
 end
 
-slot0.CheckState = function (slot0, slot1)
+function slot0.CheckState(slot0, slot1)
 	return slot0._state == slot1
 end
 
-slot0.AddLoadedCallback = function (slot0, slot1, ...)
+function slot0.AddLoadedCallback(slot0, slot1, ...)
 	slot0._loadedQueue[#slot0._loadedQueue + 1] = {
 		funcBody = slot1,
 		params = {
@@ -137,19 +137,19 @@ slot0.AddLoadedCallback = function (slot0, slot1, ...)
 	slot0:HandleLoadedQueue()
 end
 
-slot0.Hide = function (slot0)
+function slot0.Hide(slot0)
 	setActive(slot0._tf, false)
 end
 
-slot0.Show = function (slot0)
+function slot0.Show(slot0)
 	setActive(slot0._tf, true)
 end
 
-slot0.isShowing = function (slot0)
+function slot0.isShowing(slot0)
 	return isActive(slot0._tf)
 end
 
-slot0.Destroy = function (slot0)
+function slot0.Destroy(slot0)
 	if slot0._state == slot0.STATES.DESTROY then
 		return
 	end
@@ -172,7 +172,7 @@ slot0.Destroy = function (slot0)
 	slot0._state = slot0.STATES.DESTROY
 end
 
-slot0.DisposeGO = function (slot0, slot1, slot2)
+function slot0.DisposeGO(slot0, slot1, slot2)
 	PoolMgr.GetInstance():DelTempCache(slot1)
 
 	if slot2 ~= nil and slot1 then
@@ -180,11 +180,11 @@ slot0.DisposeGO = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.findTF = function (slot0, slot1, slot2)
+function slot0.findTF(slot0, slot1, slot2)
 	return findTF(slot2 or slot0._tf, slot1)
 end
 
-slot0.getTpl = function (slot0, slot1, slot2)
+function slot0.getTpl(slot0, slot1, slot2)
 	slot3 = slot0:findTF(slot1, slot2)
 
 	slot3:SetParent(slot0._tf, false)
@@ -193,19 +193,19 @@ slot0.getTpl = function (slot0, slot1, slot2)
 	return slot3
 end
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return nil
 end
 
-slot0.OnLoaded = function (slot0)
+function slot0.OnLoaded(slot0)
 	return
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	return
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	return
 end
 

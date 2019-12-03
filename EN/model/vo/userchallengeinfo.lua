@@ -1,10 +1,10 @@
 slot0 = class("UserChallengeInfo", import(".BaseVO"))
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0:UpdateChallengeInfo(slot1)
 end
 
-slot0.UpdateChallengeInfo = function (slot0, slot1)
+function slot0.UpdateChallengeInfo(slot0, slot1)
 	slot0._score = slot1.current_score
 	slot0._level = slot1.level
 	slot0._mode = slot1.mode
@@ -37,7 +37,7 @@ slot0.UpdateChallengeInfo = function (slot0, slot1)
 	slot0._lastScore = 0
 end
 
-slot0.updateChallengeFleet = function (slot0, slot1)
+function slot0.updateChallengeFleet(slot0, slot1)
 	if Challenge2Fleet.New(slot1):isSubmarineFleet() then
 		slot0._submarineFleet = slot2
 	else
@@ -45,29 +45,29 @@ slot0.updateChallengeFleet = function (slot0, slot1)
 	end
 end
 
-slot0.updateCombatScore = function (slot0, slot1)
+function slot0.updateCombatScore(slot0, slot1)
 	slot0._lastScore = slot1
 	slot0._score = slot0._score + slot1
 end
 
-slot0.updateLevelForward = function (slot0)
+function slot0.updateLevelForward(slot0)
 	slot0._level = slot0._level + 1
 end
 
-slot0.updateShipHP = function (slot0, slot1, slot2)
+function slot0.updateShipHP(slot0, slot1, slot2)
 	if not (slot0._fleet:updateShipsHP(slot1, slot2) or slot0._submarineFleet:updateShipsHP(slot1, slot2)) then
 	end
 end
 
-slot0.getRegularFleet = function (slot0)
+function slot0.getRegularFleet(slot0)
 	return slot0._fleet
 end
 
-slot0.getSubmarineFleet = function (slot0)
+function slot0.getSubmarineFleet(slot0)
 	return slot0._submarineFleet
 end
 
-slot0.getShipUIDList = function (slot0)
+function slot0.getShipUIDList(slot0)
 	slot1 = {}
 
 	for slot6, slot7 in ipairs(slot2) do
@@ -81,43 +81,43 @@ slot0.getShipUIDList = function (slot0)
 	return slot1
 end
 
-slot0.getLevel = function (slot0)
+function slot0.getLevel(slot0)
 	return slot0._level
 end
 
-slot0.getRound = function (slot0)
+function slot0.getRound(slot0)
 	return math.ceil(slot0._level / #slot0._dungeonIDList)
 end
 
-slot0.getMode = function (slot0)
+function slot0.getMode(slot0)
 	return slot0._mode
 end
 
-slot0.getDungeonIDList = function (slot0)
+function slot0.getDungeonIDList(slot0)
 	return Clone(slot0._dungeonIDList)
 end
 
-slot0.getSeasonID = function (slot0)
+function slot0.getSeasonID(slot0)
 	return slot0._seasonIndex
 end
 
-slot0.getResetFlag = function (slot0)
+function slot0.getResetFlag(slot0)
 	return slot0._resetflag
 end
 
-slot0.getScore = function (slot0)
+function slot0.getScore(slot0)
 	return slot0._score
 end
 
-slot0.getLastScore = function (slot0)
+function slot0.getLastScore(slot0)
 	return slot0._lastScore
 end
 
-slot0.getActivityIndex = function (slot0)
+function slot0.getActivityIndex(slot0)
 	return slot0._activityIndex
 end
 
-slot0.getNextExpedition = function (slot0)
+function slot0.getNextExpedition(slot0)
 	if slot0._level % ChallengeConst.BOSS_NUM == 0 then
 		slot1 = ChallengeConst.BOSS_NUM
 	end
@@ -125,7 +125,7 @@ slot0.getNextExpedition = function (slot0)
 	return pg.expedition_challenge_template[slot0._dungeonIDList[slot1]]
 end
 
-slot0.setInfiniteDungeonIDListByLevel = function (slot0)
+function slot0.setInfiniteDungeonIDListByLevel(slot0)
 	if (math.modf((slot0._level - 1) / ChallengeConst.BOSS_NUM) + 1) % #pg.activity_event_challenge[slot0._activityIndex].infinite_stage[slot0._seasonIndex] == 0 then
 		slot4 = slot3
 	end
@@ -133,15 +133,15 @@ slot0.setInfiniteDungeonIDListByLevel = function (slot0)
 	slot0._dungeonIDList = pg.activity_event_challenge[slot0._activityIndex].infinite_stage[slot0._seasonIndex][slot4]
 end
 
-slot0.getNextInfiniteDungeonIDList = function (slot0)
+function slot0.getNextInfiniteDungeonIDList(slot0)
 	return pg.activity_event_challenge[slot0._activityIndex].infinite_stage[slot0._seasonIndex][(math.modf((slot0._level - 1) / ChallengeConst.BOSS_NUM) + 1) % #pg.activity_event_challenge[slot0._activityIndex].infinite_stage[slot0._seasonIndex] + 1]
 end
 
-slot0.getNextStageID = function (slot0)
+function slot0.getNextStageID(slot0)
 	return slot0:getNextExpedition().dungeon_id
 end
 
-slot0.IsFinish = function (slot0)
+function slot0.IsFinish(slot0)
 	if slot0._level % #slot0._dungeonIDList == 0 then
 		return true
 	else

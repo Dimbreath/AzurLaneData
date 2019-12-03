@@ -4,7 +4,7 @@ slot0.ON_TASK_GO = "TaskMediator:ON_TASK_GO"
 slot0.TASK_FILTER = "TaskMediator:TASK_FILTER"
 slot0.CLICK_GET_ALL = "TaskMediator:CLICK_GET_ALL"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0:bind(slot0.ON_TASK_SUBMIT, function (slot0, slot1)
 		if getProxy(ActivityProxy):getActivityById(ActivityConst.JYHZ_ACTIVITY_ID) and slot1.id == _.flatten(slot4)[#_.flatten(slot4)] then
 			pg.StoryMgr.GetInstance():Play("YIXIAN8", function ()
@@ -53,11 +53,11 @@ slot0.register = function (slot0)
 		end
 
 		function slot5(slot0, slot1, slot2)
-			slot1.overFlow.onYes = function ()
+			function slot1.overFlow.onYes()
 				slot0(slot1, slot2)
 			end
 
-			slot1.overFlow.onNo = function ()
+			function slot1.overFlow.onNo()
 				slot0()
 			end
 
@@ -65,7 +65,7 @@ slot0.register = function (slot0)
 		end
 
 		function slot6(slot0, slot1, slot2)
-			slot1.choice.onYes = function ()
+			function slot1.choice.onYes()
 				if not taskVO.index then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("no_item_selected_tip"))
 					pg.TipsMgr.GetInstance().ShowTips()
@@ -80,7 +80,7 @@ slot0.register = function (slot0)
 				end
 			end
 
-			slot1.choice.onNo = function ()
+			function slot1.choice.onNo()
 				slot0()
 			end
 
@@ -88,7 +88,7 @@ slot0.register = function (slot0)
 		end
 
 		function slot7(slot0, slot1, slot2)
-			slot1.sub.onYes = function ()
+			function slot1.sub.onYes()
 				if slot0.choice then
 					slot1()
 				elseif slot0.overFlow then
@@ -98,7 +98,7 @@ slot0.register = function (slot0)
 				end
 			end
 
-			slot1.sub.onNo = function ()
+			function slot1.sub.onNo()
 				slot0()
 			end
 
@@ -143,7 +143,7 @@ slot0.register = function (slot0)
 	slot0.viewComponent:setTaskVOs(slot2)
 end
 
-slot0.enterLevel = function (slot0, slot1)
+function slot0.enterLevel(slot0, slot1)
 	if getProxy(ChapterProxy):getChapterById(slot1) then
 		slot4 = {
 			mapIdx = slot3:getConfig("map")
@@ -159,11 +159,11 @@ slot0.enterLevel = function (slot0, slot1)
 	end
 end
 
-slot0.remove = function (slot0)
+function slot0.remove(slot0)
 	return
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		TaskProxy.TASK_ADDED,
 		TaskProxy.TASK_UPDATED,
@@ -175,7 +175,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == TaskProxy.TASK_ADDED then
@@ -219,7 +219,7 @@ slot0.handleNotification = function (slot0, slot1)
 	end
 end
 
-slot0.accepetActivityTask = function (slot0)
+function slot0.accepetActivityTask(slot0)
 	slot0:sendNotification(GAME.ACCEPT_ACTIVITY_TASK)
 end
 

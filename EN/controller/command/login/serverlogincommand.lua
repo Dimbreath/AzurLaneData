@@ -2,7 +2,7 @@ slot0 = class("ServerLoginCommand", pm.SimpleCommand)
 slot0.LoginLastTime = 0
 slot0.LoginSafeLock = 0
 
-slot0.execute = function (slot0, slot1)
+function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 
 	print("connect to game server - " .. slot3 .. ":" .. slot2:getPort())

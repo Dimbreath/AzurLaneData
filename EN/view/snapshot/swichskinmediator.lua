@@ -3,7 +3,7 @@ slot0.CHANGE_SKIN = "SwichSkinMediator:CHANGE_SKIN"
 slot0.BUY_ITEM = "SwichSkinMediator:BUY_ITEM"
 slot0.UPDATE_SKINCONFIG = "SwichSkinMediator:UPDATE_SKINCONFIG"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.shipVO = slot0.contextData.shipVO
 
 	if slot0.shipVO then
@@ -30,7 +30,7 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		ShipSkinProxy.SHIP_SKINS_UPDATE,
 		GAME.SHOPPING_DONE,
@@ -38,7 +38,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.SHOPPING_DONE then

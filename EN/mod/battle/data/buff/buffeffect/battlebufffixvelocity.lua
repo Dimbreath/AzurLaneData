@@ -4,15 +4,15 @@ ys.Battle.BattleBuffFixVelocity = slot1
 slot1.__name = "BattleBuffFixVelocity"
 slot1.FX_TYPE = ys.Battle.BattleBuffEffect.FX_TYPE_MOD_VELOCTIY
 
-slot1.Ctor = function (slot0, slot1)
+function slot1.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 end
 
-slot1.GetEffectType = function (slot0)
+function slot1.GetEffectType(slot0)
 	return slot0.Battle.BattleBuffEffect.FX_TYPE_MOD_VELOCTIY
 end
 
-slot1.SetArgs = function (slot0, slot1, slot2)
+function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._group = slot0._tempData.arg_list.group or slot2:GetID()
 	slot0._baseAdd = slot0.Battle.BattleFormulas.ConvertShipSpeed(slot0._tempData.arg_list.add or 0)
 	slot0._addValue = slot0._baseAdd
@@ -20,25 +20,25 @@ slot1.SetArgs = function (slot0, slot1, slot2)
 	slot0._mulValue = slot0._baseMul
 end
 
-slot1.onStack = function (slot0, slot1, slot2)
+function slot1.onStack(slot0, slot1, slot2)
 	slot0._addValue = slot0._baseAdd * slot2._stack
 	slot0._mulValue = slot0._baseMul * slot2._stack
 
 	slot0:UpdateAttr(slot1)
 end
 
-slot1.onRemove = function (slot0, slot1, slot2)
+function slot1.onRemove(slot0, slot1, slot2)
 	slot0._addValue = 0
 	slot0._mulValue = 0
 
 	slot0:UpdateAttr(slot1)
 end
 
-slot1.UpdateAttr = function (slot0, slot1)
+function slot1.UpdateAttr(slot0, slot1)
 	slot0.Battle.BattleAttr.FlashVelocity(slot1, slot0:calcMulValue(slot1), slot0:calcAddValue(slot1))
 end
 
-slot1.calcMulValue = function (slot0, slot1)
+function slot1.calcMulValue(slot0, slot1)
 	slot2 = 1
 	slot3 = 1
 	slot4 = {}
@@ -70,7 +70,7 @@ slot1.calcMulValue = function (slot0, slot1)
 	return slot2 * slot3
 end
 
-slot1.calcAddValue = function (slot0, slot1)
+function slot1.calcAddValue(slot0, slot1)
 	slot3 = 0
 	slot4 = 0
 	slot5 = {}

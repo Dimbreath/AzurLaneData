@@ -9,7 +9,7 @@ slot0.ON_CHALLENGE_RANK = "BattleResultMediator:ON_CHALLENGE_RANK"
 slot0.ON_CHALLENGE_SHARE = "BattleResultMediator:ON_CHALLENGE_SHARE"
 slot0.ON_CHALLENGE_DEFEAT_SCENE = "BattleResultMediator:ON_CHALLENGE_DEFEAT_SCENE"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot1 = PlayerPrefs.GetInt(AUTO_BATTLE_LABEL, 0) > 0
 
 	if ys.Battle.BattleState.IsAutoBotActive() and slot1 then
@@ -230,7 +230,7 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.showExtraChapterActSocre = function (slot0)
+function slot0.showExtraChapterActSocre(slot0)
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_EXTRA_CHAPTER_RANK) and not slot2:isEnd() and getProxy(ChapterProxy):getActiveChapter() then
 		slot6 = slot0.contextData.stageId
 		slot7 = slot2:getConfig("config_data")
@@ -257,13 +257,13 @@ slot0.showExtraChapterActSocre = function (slot0)
 	end
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.BEGIN_STAGE_DONE
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.BEGIN_STAGE_DONE then
@@ -271,7 +271,7 @@ slot0.handleNotification = function (slot0, slot1)
 	end
 end
 
-slot0.GetResultView = function (slot0)
+function slot0.GetResultView(slot0)
 	slot0.RESULT_VIEW_TRANSFORM = slot0.RESULT_VIEW_TRANSFORM or {
 		[SYSTEM_CHALLENGE] = BattleChallengeResultLayer,
 		[SYSTEM_DODGEM] = BattleDodgemResultLayer,

@@ -24,41 +24,41 @@ slot0.ShipIndex = {
 	})
 }
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "collectionui"
 end
 
-slot0.getBGM = function (slot0)
+function slot0.getBGM(slot0)
 	return "holo-fbk"
 end
 
-slot0.setShipGroups = function (slot0, slot1)
+function slot0.setShipGroups(slot0, slot1)
 	slot0.shipGroups = slot1
 end
 
-slot0.setAwards = function (slot0, slot1)
+function slot0.setAwards(slot0, slot1)
 	slot0.awards = slot1
 end
 
-slot0.setCollectionRate = function (slot0, slot1, slot2, slot3)
+function slot0.setCollectionRate(slot0, slot1, slot2, slot3)
 	slot0.rate = slot1
 	slot0.count = slot2
 	slot0.totalCount = slot3
 end
 
-slot0.setLinkCollectionCount = function (slot0, slot1)
+function slot0.setLinkCollectionCount(slot0, slot1)
 	slot0.linkCount = slot1
 end
 
-slot0.setPlayer = function (slot0, slot1)
+function slot0.setPlayer(slot0, slot1)
 	slot0.player = slot1
 end
 
-slot0.setProposeList = function (slot0, slot1)
+function slot0.setProposeList(slot0, slot1)
 	slot0.proposeList = slot1
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.blurPanel = slot0:findTF("blur_panel")
 	slot0.top = slot0:findTF("blur_panel/adapt/top")
 	slot0.leftPanel = slot0:findTF("blur_panel/adapt/left_length")
@@ -80,15 +80,15 @@ slot0.init = function (slot0)
 	}
 	slot0.cardList = slot0:findTF("main/list_card/scroll"):GetComponent("LScrollRect")
 
-	slot0.cardList.onInitItem = function (slot0)
+	function slot0.cardList.onInitItem(slot0)
 		slot0:onInitCard(slot0)
 	end
 
-	slot0.cardList.onUpdateItem = function (slot0, slot1)
+	function slot0.cardList.onUpdateItem(slot0, slot1)
 		slot0:onUpdateCard(slot0, slot1)
 	end
 
-	slot0.cardList.onReturnItem = function (slot0, slot1)
+	function slot0.cardList.onReturnItem(slot0, slot1)
 		slot0:onReturnCard(slot0, slot1)
 	end
 
@@ -119,15 +119,15 @@ slot0.init = function (slot0)
 	slot0.memories = nil
 	slot0.memoryList = slot0:findTF("main/list_memory"):GetComponent("LScrollRect")
 
-	slot0.memoryList.onInitItem = function (slot0)
+	function slot0.memoryList.onInitItem(slot0)
 		slot0:onInitMemory(slot0)
 	end
 
-	slot0.memoryList.onUpdateItem = function (slot0, slot1)
+	function slot0.memoryList.onUpdateItem(slot0, slot1)
 		slot0:onUpdateMemory(slot0, slot1)
 	end
 
-	slot0.memoryList.onReturnItem = function (slot0, slot1)
+	function slot0.memoryList.onReturnItem(slot0, slot1)
 		slot0:onReturnMemory(slot0, slot1)
 	end
 
@@ -156,7 +156,7 @@ slot0.init = function (slot0)
 	}
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		slot0.contextData.cardScrollValue = 0
 
@@ -247,11 +247,11 @@ slot0.didEnter = function (slot0)
 	end, SFX_PANEL)
 end
 
-slot0.updateCollectNotices = function (slot0, slot1)
+function slot0.updateCollectNotices(slot0, slot1)
 	setActive(slot0.tip, slot1)
 end
 
-slot0.calFavoriteRate = function (slot0)
+function slot0.calFavoriteRate(slot0)
 	setActive(slot0:findTF("total/char", slot0.top), not (slot0.contextData.toggle == 1 and slot0.contextData.cardToggle == 2))
 	setActive(slot0:findTF("total/link", slot0.top), slot0.contextData.toggle == 1 and slot0.contextData.cardToggle == 2)
 	setText(slot0:findTF("total/char/rate/Text", slot0.top), slot0.rate * 100 .. "%")
@@ -259,7 +259,7 @@ slot0.calFavoriteRate = function (slot0)
 	setText(slot0:findTF("total/link/count/Text", slot0.top), slot0.linkCount)
 end
 
-slot0.initCardPanel = function (slot0)
+function slot0.initCardPanel(slot0)
 	if slot0.contextData.toggle == 1 then
 		setActive(slot0.cardToggleGroup, true)
 		slot0:cardFilter()
@@ -276,7 +276,7 @@ slot0.initCardPanel = function (slot0)
 	slot0.cardList:ScrollTo(slot0.contextData.cardScrollValue or 0)
 end
 
-slot0.initIndexPanel = function (slot0)
+function slot0.initIndexPanel(slot0)
 	slot0.indexBtn = slot0:findTF("index_button", slot0.top)
 
 	onButton(slot0, slot0.indexBtn, function ()
@@ -306,7 +306,7 @@ slot0.initIndexPanel = function (slot0)
 	end, SFX_PANEL)
 end
 
-slot0.onInitCard = function (slot0, slot1)
+function slot0.onInitCard(slot0, slot1)
 	if slot0.exited then
 		return
 	end
@@ -326,7 +326,7 @@ slot0.onInitCard = function (slot0, slot1)
 	slot0.cardItems[slot1] = CollectionShipCard.New(slot1)
 end
 
-slot0.showSkipableMsgBox = function (slot0, slot1, slot2)
+function slot0.showSkipableMsgBox(slot0, slot1, slot2)
 	if slot0.isShowSkipableMsg then
 		return
 	end
@@ -402,7 +402,7 @@ slot0.showSkipableMsgBox = function (slot0, slot1, slot2)
 	slot0.skipableList:align(#slot1)
 end
 
-slot0.closeSkipableMsgBox = function (slot0)
+function slot0.closeSkipableMsgBox(slot0)
 	if slot0.isShowSkipableMsg then
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.skipableMsgBoxTF, slot0._tf)
 
@@ -412,7 +412,7 @@ slot0.closeSkipableMsgBox = function (slot0)
 	end
 end
 
-slot0.onUpdateCard = function (slot0, slot1, slot2)
+function slot0.onUpdateCard(slot0, slot1, slot2)
 	if slot0.exited then
 		return
 	end
@@ -432,7 +432,7 @@ slot0.onUpdateCard = function (slot0, slot1, slot2)
 	slot3:update(slot5.code, slot5.group, slot5.showTrans, slot6, slot5.id)
 end
 
-slot0.onReturnCard = function (slot0, slot1, slot2)
+function slot0.onReturnCard(slot0, slot1, slot2)
 	if slot0.exited then
 		return
 	end
@@ -442,7 +442,7 @@ slot0.onReturnCard = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.cardFilter = function (slot0)
+function slot0.cardFilter(slot0)
 	slot0.codeShips = {}
 	slot2 = _.min(slot1)
 	slot3 = _.max(slot1)
@@ -525,7 +525,7 @@ slot0.cardFilter = function (slot0)
 	end
 end
 
-slot0.transFilter = function (slot0)
+function slot0.transFilter(slot0)
 	slot0.codeShips = {}
 	slot2 = _.min(slot1)
 	slot3 = _.max(slot1)
@@ -563,7 +563,7 @@ slot0.transFilter = function (slot0)
 	end
 end
 
-slot0.sortDisplay = function (slot0)
+function slot0.sortDisplay(slot0)
 	table.sort(slot0.favoriteVOs, function (slot0, slot1)
 		if slot0:getState(slot0.shipGroups, slot0.awards) == slot1:getState(slot0.shipGroups, slot0.awards) then
 			return slot0.id < slot1.id
@@ -574,17 +574,17 @@ slot0.sortDisplay = function (slot0)
 	slot0.displayRect:SetTotalCount(#slot0.favoriteVOs, (slot0.contextData.displayPos and slot0.contextData.displayPos) or 0)
 end
 
-slot0.initDisplayPanel = function (slot0)
+function slot0.initDisplayPanel(slot0)
 	if not slot0.isInitDisplay then
 		slot0.isInitDisplay = true
 		slot0.displayRect = slot0:findTF("main/list_display"):GetComponent("LScrollRect")
 		slot0.displayRect.decelerationRate = 0.07
 
-		slot0.displayRect.onInitItem = function (slot0)
+		function slot0.displayRect.onInitItem(slot0)
 			slot0:initFavoriteCard(slot0)
 		end
 
-		slot0.displayRect.onUpdateItem = function (slot0, slot1)
+		function slot0.displayRect.onUpdateItem(slot0, slot1)
 			slot0:updateFavoriteCard(slot0, slot1)
 		end
 
@@ -594,7 +594,7 @@ slot0.initDisplayPanel = function (slot0)
 	slot0:sortDisplay()
 end
 
-slot0.initFavoriteCard = function (slot0, slot1)
+function slot0.initFavoriteCard(slot0, slot1)
 	if slot0.exited then
 		return
 	end
@@ -619,7 +619,7 @@ slot0.initFavoriteCard = function (slot0, slot1)
 	slot0.favoriteCards[slot1] = slot2
 end
 
-slot0.updateFavoriteCard = function (slot0, slot1, slot2)
+function slot0.updateFavoriteCard(slot0, slot1, slot2)
 	if slot0.exited then
 		return
 	end
@@ -633,7 +633,7 @@ slot0.updateFavoriteCard = function (slot0, slot1, slot2)
 	slot3:update(slot0.favoriteVOs[slot1 + 1], slot0.shipGroups, slot0.awards)
 end
 
-slot0.openBonus = function (slot0, slot1)
+function slot0.openBonus(slot0, slot1)
 	if not slot0.isInitBound then
 		slot0.isInitBound = true
 		slot0.boundName = findTF(slot0.bonusPanel, "frame/name/Text"):GetComponent(typeof(Text))
@@ -709,12 +709,12 @@ slot0.openBonus = function (slot0, slot1)
 	slot0.progressSlider.value = slot1:getStarCount(slot0.shipGroups) / slot3[#slot3]
 end
 
-slot0.closeBonus = function (slot0)
+function slot0.closeBonus(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.bonusPanel, slot0._tf)
 	setActive(slot0.bonusPanel, false)
 end
 
-slot0.showSubMemories = function (slot0, slot1)
+function slot0.showSubMemories(slot0, slot1)
 	slot0.contextData.memoryGroup = slot1.id
 	slot0.memories = _.map(slot1.memories, function (slot0)
 		return pg.memory_template[slot0]
@@ -728,7 +728,7 @@ slot0.showSubMemories = function (slot0, slot1)
 	setActive(slot0:findTF("memory", slot0.top), false)
 end
 
-slot0.return2MemoryGroup = function (slot0)
+function slot0.return2MemoryGroup(slot0)
 	slot0.contextData.memoryGroup = nil
 	slot0.memories = nil
 
@@ -736,7 +736,7 @@ slot0.return2MemoryGroup = function (slot0)
 	setActive(slot0:findTF("memory", slot0.top), true)
 end
 
-slot0.initMemoryPanel = function (slot0)
+function slot0.initMemoryPanel(slot0)
 	if getProxy(ActivityProxy):getActivityById(ActivityConst.QIXI_ACTIVITY_ID) and not slot2:isEnd() and getProxy(TaskProxy):getTaskById(_.flatten(slot3)[#_.flatten(slot3)]) and not slot7:isFinish() then
 		pg.StoryMgr.GetInstance():Play("HOSHO8", function ()
 			slot0:emit(CollectionScene.ACTIVITY_OP, {
@@ -749,7 +749,7 @@ slot0.initMemoryPanel = function (slot0)
 	slot0:memoryFilter()
 end
 
-slot0.onInitMemory = function (slot0, slot1)
+function slot0.onInitMemory(slot0, slot1)
 	if slot0.exited then
 		return
 	end
@@ -767,7 +767,7 @@ slot0.onInitMemory = function (slot0, slot1)
 	slot0.memoryItems[slot1] = MemoryCard.New(slot1)
 end
 
-slot0.onUpdateMemory = function (slot0, slot1, slot2)
+function slot0.onUpdateMemory(slot0, slot1, slot2)
 	if slot0.exited then
 		return
 	end
@@ -797,7 +797,7 @@ slot0.onUpdateMemory = function (slot0, slot1, slot2)
 	end)
 end
 
-slot0.onReturnMemory = function (slot0, slot1, slot2)
+function slot0.onReturnMemory(slot0, slot1, slot2)
 	if slot0.exited then
 		return
 	end
@@ -807,7 +807,7 @@ slot0.onReturnMemory = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.playMemory = function (slot0, slot1)
+function slot0.playMemory(slot0, slot1)
 	if slot1.type == 1 then
 		slot2 = findTF(slot0.memoryMask, "pic")
 
@@ -842,7 +842,7 @@ slot0.playMemory = function (slot0, slot1)
 	end
 end
 
-slot0.memoryFilter = function (slot0)
+function slot0.memoryFilter(slot0)
 	slot0.memoryGroups = {}
 
 	for slot4, slot5 in pairs(pg.memory_group) do
@@ -857,7 +857,7 @@ slot0.memoryFilter = function (slot0)
 	slot0.memoryList:SetTotalCount(#slot0.memoryGroups, 0)
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	if slot0.tweens then
 		cancelTweens(slot0.tweens)
 	end
@@ -883,7 +883,7 @@ slot0.willExit = function (slot0)
 	end
 end
 
-slot0.onBackPressed = function (slot0)
+function slot0.onBackPressed(slot0)
 	playSoundEffect(SFX_CANCEL)
 
 	if slot0.bonusPanel.gameObject.activeSelf then

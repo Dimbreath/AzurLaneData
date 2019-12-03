@@ -1,6 +1,6 @@
 slot0 = class("ActivityShop", import(".BaseVO"))
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.activityId = slot1.id
 	slot2 = {}
 
@@ -23,7 +23,7 @@ slot0.Ctor = function (slot0, slot1)
 	slot0.config = pg.activity_template[slot0.activityId]
 end
 
-slot0.getSortGoods = function (slot0)
+function slot0.getSortGoods(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.goods) do
@@ -45,23 +45,23 @@ slot0.getSortGoods = function (slot0)
 	return slot1
 end
 
-slot0.bindConfigTable = function (slot0)
+function slot0.bindConfigTable(slot0)
 	return pg.activity_shop_template
 end
 
-slot0.getGoodsById = function (slot0, slot1)
+function slot0.getGoodsById(slot0, slot1)
 	return slot0.goods[slot1]
 end
 
-slot0.isEnd = function (slot0)
+function slot0.isEnd(slot0)
 	return not getProxy(ActivityProxy):getActivityById(slot0.activityId) or slot1:isEnd()
 end
 
-slot0.getOpenTime = function (slot0)
+function slot0.getOpenTime(slot0)
 	return string.format("%d/%d/%d - %d/%d/%d", pg.activity_template[slot0.activityId].time[2][1][2], pg.activity_template[slot0.activityId].time[2][1][3], pg.activity_template[slot0.activityId].time[2][1][1], pg.activity_template[slot0.activityId].time[3][1][2], pg.activity_template[slot0.activityId].time[3][1][3], pg.activity_template[slot0.activityId].time[3][1][1])
 end
 
-slot0.getStartTime = function (slot0)
+function slot0.getStartTime(slot0)
 	if slot0:isEnd() then
 		return 0
 	end
@@ -69,7 +69,7 @@ slot0.getStartTime = function (slot0)
 	return getProxy(ActivityProxy):getActivityById(slot0.activityId):getStartTime()
 end
 
-slot0.getBgPath = function (slot0)
+function slot0.getBgPath(slot0)
 	return slot1.config_client[1], Color.New(pg.activity_template[slot0.activityId].config_client[2] or {
 		255,
 		255,
@@ -78,11 +78,11 @@ slot0.getBgPath = function (slot0)
 	}[1], pg.activity_template[slot0.activityId].config_client[2] or [2], pg.activity_template[slot0.activityId].config_client[2] or [3], pg.activity_template[slot0.activityId].config_client[2] or [4])
 end
 
-slot0.getToggleImage = function (slot0)
+function slot0.getToggleImage(slot0)
 	return pg.activity_template[slot0.activityId].config_client.toggle or "huodongdduihuan_butten"
 end
 
-slot0.getResId = function (slot0)
+function slot0.getResId(slot0)
 	slot1 = nil
 
 	for slot5, slot6 in pairs(slot0.goods) do
@@ -94,13 +94,13 @@ slot0.getResId = function (slot0)
 	return slot1:getConfig("resource_type")
 end
 
-slot0.GetEnterVoice = function (slot0)
+function slot0.GetEnterVoice(slot0)
 	if slot0.config.config_client.enter then
 		return slot1[1], slot1[2]
 	end
 end
 
-slot0.GetPurchaseVoice = function (slot0)
+function slot0.GetPurchaseVoice(slot0)
 	if slot0.config.config_client.purchase then
 		return slot1[1], slot1[2]
 	end

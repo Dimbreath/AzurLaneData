@@ -1,10 +1,10 @@
 slot0 = class("KwxyKrTracker")
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	return
 end
 
-slot0.Tracking = function (slot0, slot1, slot2, slot3, slot4)
+function slot0.Tracking(slot0, slot1, slot2, slot3, slot4)
 	if slot1 == TRACKING_TUTORIAL_COMPLETE_1 then
 		pg.SdkMgr.GetInstance():CompletedTutorial()
 		pg.SdkMgr.GetInstance():UnlockAchievement()

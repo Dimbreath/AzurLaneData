@@ -1,6 +1,6 @@
 slot0 = class("FurnitureCard")
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.go = slot1
 	slot0.tr = slot1.transform
 	slot0.dormMoneytxt = findTF(slot0.tr, "price/content/dorm_money/Text")
@@ -18,7 +18,7 @@ slot0.Ctor = function (slot0, slot1)
 	slot0.tags = findTF(slot1, "tags")
 end
 
-slot0.update = function (slot0, slot1, slot2)
+function slot0.update(slot0, slot1, slot2)
 	slot0.furnitureVO = slot1
 
 	if slot1 then
@@ -62,7 +62,7 @@ slot0.update = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.updateCountdown = function (slot0, slot1)
+function slot0.updateCountdown(slot0, slot1)
 	slot0:destoryTimer()
 
 	slot3 = pg.TimeMgr.GetInstance().Table2ServerTime(slot2, slot1)
@@ -94,7 +94,7 @@ slot0.updateCountdown = function (slot0, slot1)
 	slot0.updateTimer.func()
 end
 
-slot0.destoryTimer = function (slot0)
+function slot0.destoryTimer(slot0)
 	if slot0.updateTimer then
 		slot0.updateTimer:Stop()
 
@@ -102,7 +102,7 @@ slot0.destoryTimer = function (slot0)
 	end
 end
 
-slot0.dispose = function (slot0)
+function slot0.dispose(slot0)
 	slot0:destoryTimer()
 end
 

@@ -1,6 +1,6 @@
 slot0 = class("SummaryPage4", import(".SummaryAnimationPage"))
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot2 = slot0.summaryInfoVO.furnitures
 	slot3 = {}
 
@@ -20,7 +20,7 @@ slot0.OnInit = function (slot0)
 	setActive(slot0._go, false)
 end
 
-slot0.Clear = function (slot0)
+function slot0.Clear(slot0)
 	return
 end
 

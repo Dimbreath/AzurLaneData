@@ -1,6 +1,6 @@
 slot0 = class("AutoBotCommand", pm.SimpleCommand)
 
-slot0.execute = function (slot0, slot1)
+function slot0.execute(slot0, slot1)
 	slot3 = slot1:getBody().isActiveBot
 	slot4 = slot1.getBody().toggle
 
@@ -27,11 +27,11 @@ slot0.execute = function (slot0, slot1)
 	end
 end
 
-slot0.autoBotSatisfied = function ()
+function slot0.autoBotSatisfied()
 	return getProxy(ChapterProxy) and slot0:getChapterById(AUTO_ENABLE_CHAPTER):isClear()
 end
 
-slot0.activeBotHelp = function (slot0)
+function slot0.activeBotHelp(slot0)
 	slot1 = getProxy(PlayerProxy)
 
 	if not slot0 then

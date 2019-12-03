@@ -1,6 +1,6 @@
 slot0 = class("CommanderBoxCard")
 
-slot0.Ctor = function (slot0, slot1, slot2)
+function slot0.Ctor(slot0, slot1, slot2)
 	slot0._parent = slot1
 	slot0._tf = slot2
 	slot0._go = go(slot2)
@@ -14,7 +14,7 @@ slot0.Ctor = function (slot0, slot1, slot2)
 	slot0.titleFinish = slot0.startingTF:Find("title_finish")
 end
 
-slot0.Update = function (slot0, slot1)
+function slot0.Update(slot0, slot1)
 	slot0.boxVO = slot1
 
 	slot0:removeTimer()
@@ -70,7 +70,7 @@ end
 
 slot1 = true
 
-slot0.playAnim = function (slot0, slot1)
+function slot0.playAnim(slot0, slot1)
 	slot0:loadBox(slot0.boxVO:getFetchPrefab(), slot0.boxParent, function (slot0)
 		slot0.spineAnimUI = slot0
 
@@ -83,7 +83,7 @@ slot0.playAnim = function (slot0, slot1)
 	end)
 end
 
-slot0.loadBox = function (slot0, slot1, slot2, slot3)
+function slot0.loadBox(slot0, slot1, slot2, slot3)
 	if not slot1 then
 		slot0:returnChar()
 	else
@@ -117,7 +117,7 @@ slot0.loadBox = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-slot0.removeTimer = function (slot0)
+function slot0.removeTimer(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -125,7 +125,7 @@ slot0.removeTimer = function (slot0)
 	end
 end
 
-slot0.removeWaitingTimer = function (slot0)
+function slot0.removeWaitingTimer(slot0)
 	if slot0.waitTimer then
 		slot0.waitTimer:Stop()
 
@@ -133,7 +133,7 @@ slot0.removeWaitingTimer = function (slot0)
 	end
 end
 
-slot0.returnChar = function (slot0)
+function slot0.returnChar(slot0)
 	if slot0.modelTf and slot0.prefabName then
 		PoolMgr.GetInstance():ReturnSpineChar(slot0.prefabName, slot0.modelTf.gameObject)
 
@@ -142,7 +142,7 @@ slot0.returnChar = function (slot0)
 	end
 end
 
-slot0.Clear = function (slot0)
+function slot0.Clear(slot0)
 	slot0:removeTimer()
 	slot0:removeWaitingTimer()
 	removeOnButton(slot0._tf)
@@ -150,7 +150,7 @@ slot0.Clear = function (slot0)
 	slot0.boxVO = nil
 end
 
-slot0.Destroy = function (slot0)
+function slot0.Destroy(slot0)
 	slot0:Clear()
 	slot0:returnChar()
 

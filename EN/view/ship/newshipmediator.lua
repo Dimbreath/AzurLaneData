@@ -6,7 +6,7 @@ slot0.ON_EVALIATION = "NewShipMediator:ON_EVALIATION"
 slot0.ON_SKIP_BATCH = "NewShipMediator:ON_SKIP_BATCH"
 slot0.OPEN = "NewShipMediator:OPEN"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.fromRemould = slot0.contextData.fromRemould
 	slot0.showTrans = slot0.contextData.ship.isRemoulded(slot1)
 
@@ -46,14 +46,14 @@ slot0.register = function (slot0)
 	slot0:sendNotification(slot0.OPEN, {})
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.UPDATE_LOCK_DONE,
 		GAME.FETCH_EVALUATION_DONE
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.UPDATE_LOCK_DONE then
@@ -75,7 +75,7 @@ slot0.handleNotification = function (slot0, slot1)
 	end
 end
 
-slot0.remove = function (slot0)
+function slot0.remove(slot0)
 	if slot0.contextData.quitCallBack then
 		slot0.contextData.quitCallBack(slot0.contextData.ship)
 	end
