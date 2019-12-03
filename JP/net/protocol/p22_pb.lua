@@ -1,0 +1,721 @@
+slot0 = require("protobuf")
+
+module("p22_pb")
+
+SC_22001 = slot0.Descriptor()
+slot1 = slot0.FieldDescriptor()
+slot2 = slot0.FieldDescriptor()
+slot3 = slot0.FieldDescriptor()
+slot4 = slot0.FieldDescriptor()
+slot5 = slot0.FieldDescriptor()
+slot6 = slot0.FieldDescriptor()
+slot7 = slot0.FieldDescriptor()
+slot8 = slot0.FieldDescriptor()
+slot9 = slot0.FieldDescriptor()
+CS_22002 = slot0.Descriptor()
+slot10 = slot0.FieldDescriptor()
+SC_22003 = slot0.Descriptor()
+slot11 = slot0.FieldDescriptor()
+CS_22004 = slot0.Descriptor()
+slot12 = slot0.FieldDescriptor()
+SC_22005 = slot0.Descriptor()
+slot13 = slot0.FieldDescriptor()
+slot14 = slot0.FieldDescriptor()
+slot15 = slot0.FieldDescriptor()
+CS_22101 = slot0.Descriptor()
+slot16 = slot0.FieldDescriptor()
+SC_22102 = slot0.Descriptor()
+slot17 = slot0.FieldDescriptor()
+CS_22201 = slot0.Descriptor()
+slot18 = slot0.FieldDescriptor()
+slot19 = slot0.FieldDescriptor()
+slot20 = slot0.FieldDescriptor()
+slot21 = slot0.FieldDescriptor()
+SC_22202 = slot0.Descriptor()
+slot22 = slot0.FieldDescriptor()
+slot23 = slot0.FieldDescriptor()
+CS_22203 = slot0.Descriptor()
+slot24 = slot0.FieldDescriptor()
+slot25 = slot0.FieldDescriptor()
+SC_22204 = slot0.Descriptor()
+slot26 = slot0.FieldDescriptor()
+slot27 = slot0.FieldDescriptor()
+NAVALACADEMY_CLASS = slot0.Descriptor()
+slot28 = slot0.FieldDescriptor()
+slot29 = slot0.FieldDescriptor()
+slot30 = slot0.FieldDescriptor()
+NAVALACADEMY_STUDENT = slot0.Descriptor()
+slot31 = slot0.FieldDescriptor()
+slot32 = slot0.FieldDescriptor()
+CLASS_EXP_REWARD = slot0.Descriptor()
+slot33 = slot0.FieldDescriptor()
+slot34 = slot0.FieldDescriptor()
+slot35 = slot0.FieldDescriptor()
+SHOPPINGSTREET = slot0.Descriptor()
+slot36 = slot0.FieldDescriptor()
+slot37 = slot0.FieldDescriptor()
+slot38 = slot0.FieldDescriptor()
+slot39 = slot0.FieldDescriptor()
+slot40 = slot0.FieldDescriptor()
+STREETGOODS = slot0.Descriptor()
+slot41 = slot0.FieldDescriptor()
+slot42 = slot0.FieldDescriptor()
+slot43 = slot0.FieldDescriptor()
+SKILL_CLASS = slot0.Descriptor()
+slot44 = slot0.FieldDescriptor()
+slot45 = slot0.FieldDescriptor()
+slot46 = slot0.FieldDescriptor()
+slot47 = slot0.FieldDescriptor()
+slot48 = slot0.FieldDescriptor()
+slot49 = slot0.FieldDescriptor()
+slot1.name = "oil_well_level"
+slot1.full_name = ".p22.sc_22001.oil_well_level"
+slot1.number = 1
+slot1.index = 0
+slot1.label = 2
+slot1.has_default_value = false
+slot1.default_value = 0
+slot1.type = 13
+slot1.cpp_type = 3
+slot2.name = "oil_well_lv_up_time"
+slot2.full_name = ".p22.sc_22001.oil_well_lv_up_time"
+slot2.number = 2
+slot2.index = 1
+slot2.label = 2
+slot2.has_default_value = false
+slot2.default_value = 0
+slot2.type = 13
+slot2.cpp_type = 3
+slot3.name = "gold_well_level"
+slot3.full_name = ".p22.sc_22001.gold_well_level"
+slot3.number = 3
+slot3.index = 2
+slot3.label = 2
+slot3.has_default_value = false
+slot3.default_value = 0
+slot3.type = 13
+slot3.cpp_type = 3
+slot4.name = "gold_well_lv_up_time"
+slot4.full_name = ".p22.sc_22001.gold_well_lv_up_time"
+slot4.number = 4
+slot4.index = 3
+slot4.label = 2
+slot4.has_default_value = false
+slot4.default_value = 0
+slot4.type = 13
+slot4.cpp_type = 3
+slot5.name = "class_lv"
+slot5.full_name = ".p22.sc_22001.class_lv"
+slot5.number = 5
+slot5.index = 4
+slot5.label = 2
+slot5.has_default_value = false
+slot5.default_value = 0
+slot5.type = 13
+slot5.cpp_type = 3
+slot6.name = "class_lv_up_time"
+slot6.full_name = ".p22.sc_22001.class_lv_up_time"
+slot6.number = 6
+slot6.index = 5
+slot6.label = 2
+slot6.has_default_value = false
+slot6.default_value = 0
+slot6.type = 13
+slot6.cpp_type = 3
+slot7.name = "class"
+slot7.full_name = ".p22.sc_22001.class"
+slot7.number = 7
+slot7.index = 6
+slot7.label = 2
+slot7.has_default_value = false
+slot7.default_value = nil
+slot7.message_type = NAVALACADEMY_CLASS
+slot7.type = 11
+slot7.cpp_type = 10
+slot8.name = "skill_class_list"
+slot8.full_name = ".p22.sc_22001.skill_class_list"
+slot8.number = 8
+slot8.index = 7
+slot8.label = 3
+slot8.has_default_value = false
+slot8.default_value = {}
+slot8.message_type = SKILL_CLASS
+slot8.type = 11
+slot8.cpp_type = 10
+slot9.name = "skill_class_num"
+slot9.full_name = ".p22.sc_22001.skill_class_num"
+slot9.number = 9
+slot9.index = 8
+slot9.label = 2
+slot9.has_default_value = false
+slot9.default_value = 0
+slot9.type = 13
+slot9.cpp_type = 3
+SC_22001.name = "sc_22001"
+SC_22001.full_name = ".p22.sc_22001"
+SC_22001.nested_types = {}
+SC_22001.enum_types = {}
+SC_22001.fields = {
+	slot1,
+	slot2,
+	slot3,
+	slot4,
+	slot5,
+	slot6,
+	slot7,
+	slot8,
+	slot9
+}
+SC_22001.is_extendable = false
+SC_22001.extensions = {}
+slot10.name = "students"
+slot10.full_name = ".p22.cs_22002.students"
+slot10.number = 1
+slot10.index = 0
+slot10.label = 3
+slot10.has_default_value = false
+slot10.default_value = {}
+slot10.type = 13
+slot10.cpp_type = 3
+CS_22002.name = "cs_22002"
+CS_22002.full_name = ".p22.cs_22002"
+CS_22002.nested_types = {}
+CS_22002.enum_types = {}
+CS_22002.fields = {
+	slot10
+}
+CS_22002.is_extendable = false
+CS_22002.extensions = {}
+slot11.name = "result"
+slot11.full_name = ".p22.sc_22003.result"
+slot11.number = 1
+slot11.index = 0
+slot11.label = 2
+slot11.has_default_value = false
+slot11.default_value = 0
+slot11.type = 13
+slot11.cpp_type = 3
+SC_22003.name = "sc_22003"
+SC_22003.full_name = ".p22.sc_22003"
+SC_22003.nested_types = {}
+SC_22003.enum_types = {}
+SC_22003.fields = {
+	slot11
+}
+SC_22003.is_extendable = false
+SC_22003.extensions = {}
+slot12.name = "type"
+slot12.full_name = ".p22.cs_22004.type"
+slot12.number = 1
+slot12.index = 0
+slot12.label = 2
+slot12.has_default_value = false
+slot12.default_value = 0
+slot12.type = 13
+slot12.cpp_type = 3
+CS_22004.name = "cs_22004"
+CS_22004.full_name = ".p22.cs_22004"
+CS_22004.nested_types = {}
+CS_22004.enum_types = {}
+CS_22004.fields = {
+	slot12
+}
+CS_22004.is_extendable = false
+CS_22004.extensions = {}
+slot13.name = "result"
+slot13.full_name = ".p22.sc_22005.result"
+slot13.number = 1
+slot13.index = 0
+slot13.label = 2
+slot13.has_default_value = false
+slot13.default_value = 0
+slot13.type = 13
+slot13.cpp_type = 3
+slot14.name = "proficiency"
+slot14.full_name = ".p22.sc_22005.proficiency"
+slot14.number = 2
+slot14.index = 1
+slot14.label = 2
+slot14.has_default_value = false
+slot14.default_value = 0
+slot14.type = 13
+slot14.cpp_type = 3
+slot15.name = "awards"
+slot15.full_name = ".p22.sc_22005.awards"
+slot15.number = 3
+slot15.index = 2
+slot15.label = 3
+slot15.has_default_value = false
+slot15.default_value = {}
+slot15.message_type = CLASS_EXP_REWARD
+slot15.type = 11
+slot15.cpp_type = 10
+SC_22005.name = "sc_22005"
+SC_22005.full_name = ".p22.sc_22005"
+SC_22005.nested_types = {}
+SC_22005.enum_types = {}
+SC_22005.fields = {
+	slot13,
+	slot14,
+	slot15
+}
+SC_22005.is_extendable = false
+SC_22005.extensions = {}
+slot16.name = "type"
+slot16.full_name = ".p22.cs_22101.type"
+slot16.number = 1
+slot16.index = 0
+slot16.label = 2
+slot16.has_default_value = false
+slot16.default_value = 0
+slot16.type = 13
+slot16.cpp_type = 3
+CS_22101.name = "cs_22101"
+CS_22101.full_name = ".p22.cs_22101"
+CS_22101.nested_types = {}
+CS_22101.enum_types = {}
+CS_22101.fields = {
+	slot16
+}
+CS_22101.is_extendable = false
+CS_22101.extensions = {}
+slot17.name = "street"
+slot17.full_name = ".p22.sc_22102.street"
+slot17.number = 1
+slot17.index = 0
+slot17.label = 2
+slot17.has_default_value = false
+slot17.default_value = nil
+slot17.message_type = SHOPPINGSTREET
+slot17.type = 11
+slot17.cpp_type = 10
+SC_22102.name = "sc_22102"
+SC_22102.full_name = ".p22.sc_22102"
+SC_22102.nested_types = {}
+SC_22102.enum_types = {}
+SC_22102.fields = {
+	slot17
+}
+SC_22102.is_extendable = false
+SC_22102.extensions = {}
+slot18.name = "room_id"
+slot18.full_name = ".p22.cs_22201.room_id"
+slot18.number = 1
+slot18.index = 0
+slot18.label = 2
+slot18.has_default_value = false
+slot18.default_value = 0
+slot18.type = 13
+slot18.cpp_type = 3
+slot19.name = "ship_id"
+slot19.full_name = ".p22.cs_22201.ship_id"
+slot19.number = 2
+slot19.index = 1
+slot19.label = 2
+slot19.has_default_value = false
+slot19.default_value = 0
+slot19.type = 13
+slot19.cpp_type = 3
+slot20.name = "skill_pos"
+slot20.full_name = ".p22.cs_22201.skill_pos"
+slot20.number = 3
+slot20.index = 2
+slot20.label = 2
+slot20.has_default_value = false
+slot20.default_value = 0
+slot20.type = 13
+slot20.cpp_type = 3
+slot21.name = "item_id"
+slot21.full_name = ".p22.cs_22201.item_id"
+slot21.number = 4
+slot21.index = 3
+slot21.label = 2
+slot21.has_default_value = false
+slot21.default_value = 0
+slot21.type = 13
+slot21.cpp_type = 3
+CS_22201.name = "cs_22201"
+CS_22201.full_name = ".p22.cs_22201"
+CS_22201.nested_types = {}
+CS_22201.enum_types = {}
+CS_22201.fields = {
+	slot18,
+	slot19,
+	slot20,
+	slot21
+}
+CS_22201.is_extendable = false
+CS_22201.extensions = {}
+slot22.name = "result"
+slot22.full_name = ".p22.sc_22202.result"
+slot22.number = 1
+slot22.index = 0
+slot22.label = 2
+slot22.has_default_value = false
+slot22.default_value = 0
+slot22.type = 13
+slot22.cpp_type = 3
+slot23.name = "class_info"
+slot23.full_name = ".p22.sc_22202.class_info"
+slot23.number = 2
+slot23.index = 1
+slot23.label = 1
+slot23.has_default_value = false
+slot23.default_value = nil
+slot23.message_type = SKILL_CLASS
+slot23.type = 11
+slot23.cpp_type = 10
+SC_22202.name = "sc_22202"
+SC_22202.full_name = ".p22.sc_22202"
+SC_22202.nested_types = {}
+SC_22202.enum_types = {}
+SC_22202.fields = {
+	slot22,
+	slot23
+}
+SC_22202.is_extendable = false
+SC_22202.extensions = {}
+slot24.name = "room_id"
+slot24.full_name = ".p22.cs_22203.room_id"
+slot24.number = 1
+slot24.index = 0
+slot24.label = 2
+slot24.has_default_value = false
+slot24.default_value = 0
+slot24.type = 13
+slot24.cpp_type = 3
+slot25.name = "type"
+slot25.full_name = ".p22.cs_22203.type"
+slot25.number = 2
+slot25.index = 1
+slot25.label = 2
+slot25.has_default_value = false
+slot25.default_value = 0
+slot25.type = 13
+slot25.cpp_type = 3
+CS_22203.name = "cs_22203"
+CS_22203.full_name = ".p22.cs_22203"
+CS_22203.nested_types = {}
+CS_22203.enum_types = {}
+CS_22203.fields = {
+	slot24,
+	slot25
+}
+CS_22203.is_extendable = false
+CS_22203.extensions = {}
+slot26.name = "result"
+slot26.full_name = ".p22.sc_22204.result"
+slot26.number = 1
+slot26.index = 0
+slot26.label = 2
+slot26.has_default_value = false
+slot26.default_value = 0
+slot26.type = 13
+slot26.cpp_type = 3
+slot27.name = "exp"
+slot27.full_name = ".p22.sc_22204.exp"
+slot27.number = 2
+slot27.index = 1
+slot27.label = 1
+slot27.has_default_value = false
+slot27.default_value = 0
+slot27.type = 13
+slot27.cpp_type = 3
+SC_22204.name = "sc_22204"
+SC_22204.full_name = ".p22.sc_22204"
+SC_22204.nested_types = {}
+SC_22204.enum_types = {}
+SC_22204.fields = {
+	slot26,
+	slot27
+}
+SC_22204.is_extendable = false
+SC_22204.extensions = {}
+slot28.name = "proficiency"
+slot28.full_name = ".p22.navalacademy_class.proficiency"
+slot28.number = 1
+slot28.index = 0
+slot28.label = 2
+slot28.has_default_value = false
+slot28.default_value = 0
+slot28.type = 13
+slot28.cpp_type = 3
+slot29.name = "students"
+slot29.full_name = ".p22.navalacademy_class.students"
+slot29.number = 2
+slot29.index = 1
+slot29.label = 3
+slot29.has_default_value = false
+slot29.default_value = {}
+slot29.type = 13
+slot29.cpp_type = 3
+slot30.name = "timestamp"
+slot30.full_name = ".p22.navalacademy_class.timestamp"
+slot30.number = 3
+slot30.index = 2
+slot30.label = 2
+slot30.has_default_value = false
+slot30.default_value = 0
+slot30.type = 13
+slot30.cpp_type = 3
+NAVALACADEMY_CLASS.name = "navalacademy_class"
+NAVALACADEMY_CLASS.full_name = ".p22.navalacademy_class"
+NAVALACADEMY_CLASS.nested_types = {}
+NAVALACADEMY_CLASS.enum_types = {}
+NAVALACADEMY_CLASS.fields = {
+	slot28,
+	slot29,
+	slot30
+}
+NAVALACADEMY_CLASS.is_extendable = false
+NAVALACADEMY_CLASS.extensions = {}
+slot31.name = "ship_id"
+slot31.full_name = ".p22.navalacademy_student.ship_id"
+slot31.number = 1
+slot31.index = 0
+slot31.label = 2
+slot31.has_default_value = false
+slot31.default_value = 0
+slot31.type = 13
+slot31.cpp_type = 3
+slot32.name = "energy"
+slot32.full_name = ".p22.navalacademy_student.energy"
+slot32.number = 2
+slot32.index = 1
+slot32.label = 2
+slot32.has_default_value = false
+slot32.default_value = 0
+slot32.type = 13
+slot32.cpp_type = 3
+NAVALACADEMY_STUDENT.name = "navalacademy_student"
+NAVALACADEMY_STUDENT.full_name = ".p22.navalacademy_student"
+NAVALACADEMY_STUDENT.nested_types = {}
+NAVALACADEMY_STUDENT.enum_types = {}
+NAVALACADEMY_STUDENT.fields = {
+	slot31,
+	slot32
+}
+NAVALACADEMY_STUDENT.is_extendable = false
+NAVALACADEMY_STUDENT.extensions = {}
+slot33.name = "ship_id"
+slot33.full_name = ".p22.class_exp_reward.ship_id"
+slot33.number = 1
+slot33.index = 0
+slot33.label = 2
+slot33.has_default_value = false
+slot33.default_value = 0
+slot33.type = 13
+slot33.cpp_type = 3
+slot34.name = "exp"
+slot34.full_name = ".p22.class_exp_reward.exp"
+slot34.number = 2
+slot34.index = 1
+slot34.label = 2
+slot34.has_default_value = false
+slot34.default_value = 0
+slot34.type = 13
+slot34.cpp_type = 3
+slot35.name = "energy"
+slot35.full_name = ".p22.class_exp_reward.energy"
+slot35.number = 3
+slot35.index = 2
+slot35.label = 2
+slot35.has_default_value = false
+slot35.default_value = 0
+slot35.type = 13
+slot35.cpp_type = 3
+CLASS_EXP_REWARD.name = "class_exp_reward"
+CLASS_EXP_REWARD.full_name = ".p22.class_exp_reward"
+CLASS_EXP_REWARD.nested_types = {}
+CLASS_EXP_REWARD.enum_types = {}
+CLASS_EXP_REWARD.fields = {
+	slot33,
+	slot34,
+	slot35
+}
+CLASS_EXP_REWARD.is_extendable = false
+CLASS_EXP_REWARD.extensions = {}
+slot36.name = "lv"
+slot36.full_name = ".p22.shoppingstreet.lv"
+slot36.number = 1
+slot36.index = 0
+slot36.label = 2
+slot36.has_default_value = false
+slot36.default_value = 0
+slot36.type = 13
+slot36.cpp_type = 3
+slot37.name = "next_flash_time"
+slot37.full_name = ".p22.shoppingstreet.next_flash_time"
+slot37.number = 2
+slot37.index = 1
+slot37.label = 2
+slot37.has_default_value = false
+slot37.default_value = 0
+slot37.type = 13
+slot37.cpp_type = 3
+slot38.name = "lv_up_time"
+slot38.full_name = ".p22.shoppingstreet.lv_up_time"
+slot38.number = 3
+slot38.index = 2
+slot38.label = 2
+slot38.has_default_value = false
+slot38.default_value = 0
+slot38.type = 13
+slot38.cpp_type = 3
+slot39.name = "goods_list"
+slot39.full_name = ".p22.shoppingstreet.goods_list"
+slot39.number = 4
+slot39.index = 3
+slot39.label = 3
+slot39.has_default_value = false
+slot39.default_value = {}
+slot39.message_type = STREETGOODS
+slot39.type = 11
+slot39.cpp_type = 10
+slot40.name = "flash_count"
+slot40.full_name = ".p22.shoppingstreet.flash_count"
+slot40.number = 5
+slot40.index = 4
+slot40.label = 2
+slot40.has_default_value = false
+slot40.default_value = 0
+slot40.type = 13
+slot40.cpp_type = 3
+SHOPPINGSTREET.name = "shoppingstreet"
+SHOPPINGSTREET.full_name = ".p22.shoppingstreet"
+SHOPPINGSTREET.nested_types = {}
+SHOPPINGSTREET.enum_types = {}
+SHOPPINGSTREET.fields = {
+	slot36,
+	slot37,
+	slot38,
+	slot39,
+	slot40
+}
+SHOPPINGSTREET.is_extendable = false
+SHOPPINGSTREET.extensions = {}
+slot41.name = "goods_id"
+slot41.full_name = ".p22.streetgoods.goods_id"
+slot41.number = 1
+slot41.index = 0
+slot41.label = 2
+slot41.has_default_value = false
+slot41.default_value = 0
+slot41.type = 13
+slot41.cpp_type = 3
+slot42.name = "discount"
+slot42.full_name = ".p22.streetgoods.discount"
+slot42.number = 2
+slot42.index = 1
+slot42.label = 2
+slot42.has_default_value = false
+slot42.default_value = 0
+slot42.type = 13
+slot42.cpp_type = 3
+slot43.name = "buy_count"
+slot43.full_name = ".p22.streetgoods.buy_count"
+slot43.number = 3
+slot43.index = 2
+slot43.label = 2
+slot43.has_default_value = false
+slot43.default_value = 0
+slot43.type = 13
+slot43.cpp_type = 3
+STREETGOODS.name = "streetgoods"
+STREETGOODS.full_name = ".p22.streetgoods"
+STREETGOODS.nested_types = {}
+STREETGOODS.enum_types = {}
+STREETGOODS.fields = {
+	slot41,
+	slot42,
+	slot43
+}
+STREETGOODS.is_extendable = false
+STREETGOODS.extensions = {}
+slot44.name = "room_id"
+slot44.full_name = ".p22.skill_class.room_id"
+slot44.number = 1
+slot44.index = 0
+slot44.label = 2
+slot44.has_default_value = false
+slot44.default_value = 0
+slot44.type = 13
+slot44.cpp_type = 3
+slot45.name = "ship_id"
+slot45.full_name = ".p22.skill_class.ship_id"
+slot45.number = 2
+slot45.index = 1
+slot45.label = 2
+slot45.has_default_value = false
+slot45.default_value = 0
+slot45.type = 13
+slot45.cpp_type = 3
+slot46.name = "start_time"
+slot46.full_name = ".p22.skill_class.start_time"
+slot46.number = 3
+slot46.index = 2
+slot46.label = 2
+slot46.has_default_value = false
+slot46.default_value = 0
+slot46.type = 13
+slot46.cpp_type = 3
+slot47.name = "finish_time"
+slot47.full_name = ".p22.skill_class.finish_time"
+slot47.number = 4
+slot47.index = 3
+slot47.label = 2
+slot47.has_default_value = false
+slot47.default_value = 0
+slot47.type = 13
+slot47.cpp_type = 3
+slot48.name = "skill_pos"
+slot48.full_name = ".p22.skill_class.skill_pos"
+slot48.number = 5
+slot48.index = 4
+slot48.label = 2
+slot48.has_default_value = false
+slot48.default_value = 0
+slot48.type = 13
+slot48.cpp_type = 3
+slot49.name = "exp"
+slot49.full_name = ".p22.skill_class.exp"
+slot49.number = 6
+slot49.index = 5
+slot49.label = 2
+slot49.has_default_value = false
+slot49.default_value = 0
+slot49.type = 13
+slot49.cpp_type = 3
+SKILL_CLASS.name = "skill_class"
+SKILL_CLASS.full_name = ".p22.skill_class"
+SKILL_CLASS.nested_types = {}
+SKILL_CLASS.enum_types = {}
+SKILL_CLASS.fields = {
+	slot44,
+	slot45,
+	slot46,
+	slot47,
+	slot48,
+	slot49
+}
+SKILL_CLASS.is_extendable = false
+SKILL_CLASS.extensions = {}
+class_exp_reward = slot0.Message(CLASS_EXP_REWARD)
+cs_22002 = slot0.Message(CS_22002)
+cs_22004 = slot0.Message(CS_22004)
+cs_22101 = slot0.Message(CS_22101)
+cs_22201 = slot0.Message(CS_22201)
+cs_22203 = slot0.Message(CS_22203)
+navalacademy_class = slot0.Message(NAVALACADEMY_CLASS)
+navalacademy_student = slot0.Message(NAVALACADEMY_STUDENT)
+sc_22001 = slot0.Message(SC_22001)
+sc_22003 = slot0.Message(SC_22003)
+sc_22005 = slot0.Message(SC_22005)
+sc_22102 = slot0.Message(SC_22102)
+sc_22202 = slot0.Message(SC_22202)
+sc_22204 = slot0.Message(SC_22204)
+shoppingstreet = slot0.Message(SHOPPINGSTREET)
+skill_class = slot0.Message(SKILL_CLASS)
+streetgoods = slot0.Message(STREETGOODS)
+
+return
