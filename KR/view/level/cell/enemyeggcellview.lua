@@ -25,11 +25,6 @@ slot0.Update = function (slot0)
 			slot0.tf.anchoredPosition = Vector2(0, 0)
 
 			slot0:LoadSprite("enemies/" .. slot2.icon, nil, slot0.tf:Find("icon"))
-			setText(findTF(slot0.tf, "lv/Text"), slot2.level)
-			setActive(findTF(slot0.tf, "titleContain/bg_s"), ChapterConst.EnemySize[slot2.type] == 1 or not ChapterConst.EnemySize[slot2.type])
-			setActive(findTF(slot0.tf, "titleContain/bg_m"), ChapterConst.EnemySize[slot2.type] == 2)
-			setActive(findTF(slot0.tf, "titleContain/bg_h"), ChapterConst.EnemySize[slot2.type] == 3)
-			setActive(findTF(slot0.tf, "titleContain/bg_boss"), ChapterConst.EnemySize[slot2.type] == 99)
 			slot0:ExtraUpdate(slot2)
 		end
 
@@ -90,6 +85,12 @@ end
 slot0.buffheight = 100
 
 slot0.ExtraUpdate = function (slot0, slot1)
+	setText(findTF(slot0.tf, "lv/Text"), slot1.level)
+	setActive(findTF(slot0.tf, "titleContain/bg_s"), ChapterConst.EnemySize[slot1.type] == 1 or not ChapterConst.EnemySize[slot1.type])
+	setActive(findTF(slot0.tf, "titleContain/bg_m"), ChapterConst.EnemySize[slot1.type] == 2)
+	setActive(findTF(slot0.tf, "titleContain/bg_h"), ChapterConst.EnemySize[slot1.type] == 3)
+	setActive(findTF(slot0.tf, "titleContain/bg_boss"), ChapterConst.EnemySize[slot1.type] == 99)
+
 	if slot1.effect_prefab and #slot2 > 0 then
 		slot0:LoadPrefab("effect/" .. slot2, slot2, function (slot0)
 			slot0.transform:SetParent(slot0.tf, false)

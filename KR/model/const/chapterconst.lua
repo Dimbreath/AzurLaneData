@@ -16,6 +16,7 @@ slot0.SubjectPlayer = 1
 slot0.SubjectChampion = 2
 slot0.MaxRow = 10
 slot0.MaxColumn = 20
+slot0.MaxStep = 10000
 slot0.AttachNone = 0
 slot0.AttachBorn = 1
 slot0.AttachBox = 2

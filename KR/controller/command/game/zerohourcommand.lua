@@ -64,7 +64,7 @@ class("ZeroHourCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end
 
 	if slot14:getActivityByType(ActivityConst.ACTIVITY_TYPE_TURNTABLE) and not slot16:isEnd() then
-		if slot16.data3 == pg.activity_event_turning[slot16:getConfig("config_id")].total_num then
+		if pg.activity_event_turning[slot16:getConfig("config_id")].total_num <= slot16.data3 then
 			return
 		end
 
@@ -78,7 +78,7 @@ class("ZeroHourCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 		slot0:sendNotification(GAME.ACTIVITY_OPERATION, {
 			cmd = 2,
-			activity_id = ActivityConst.ACTIVITY_TYPE_TURNTABLE
+			activity_id = slot16.id
 		})
 	end
 

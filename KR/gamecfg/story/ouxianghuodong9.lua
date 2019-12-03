@@ -245,7 +245,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 905030,
-			say = "是的",
+			say = "그렇다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

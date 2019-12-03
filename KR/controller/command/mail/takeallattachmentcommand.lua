@@ -33,13 +33,16 @@ class("TakeAllAttachmentCommand", pm.SimpleCommand).execute = function (slot0, s
 			end
 		end
 
-		for slot5, slot6 in ipairs(slot0.attachment_list) do
-			slot1:sendNotification(GAME.ADD_ITEM, MailAttachment.New(slot6))
+		slot2 = {}
+
+		for slot6, slot7 in ipairs(slot0.attachment_list) do
+			table.insert(slot2, Item.New(slot7))
+			slot1:sendNotification(GAME.ADD_ITEM, MailAttachment.New(slot7))
 		end
 
-		slot0:unpdateExistAttachment(slot2)
+		slot0:unpdateExistAttachment(slot3)
 		slot1:sendNotification(GAME.OPEN_MAIL_ATTACHMENT, {
-			items = slot0.attachment_list
+			items = slot2
 		})
 		slot1:sendNotification(GAME.TAKE_ALL_ATTACHMENT_DONE)
 	end)

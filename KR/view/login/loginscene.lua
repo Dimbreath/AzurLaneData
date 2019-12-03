@@ -375,7 +375,7 @@ slot0.didEnter = function (slot0)
 			end
 		end)
 
-		if PlayerPrefs.GetString("op_ver", "") ~= OP_VERSION then
+		if PLATFORM_CODE ~= PLATFORM_JP and PlayerPrefs.GetString("op_ver", "") ~= OP_VERSION then
 			slot0:playOpening(true, function ()
 				PlayerPrefs.SetString("op_ver", OP_VERSION)
 				PlayerPrefs.SetString:playExtraVoice()

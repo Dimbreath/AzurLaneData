@@ -2618,7 +2618,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[325] = {
 		effect_breakout = 0,
-		effect_desc = "내구도+603|대공+26|회피+10|도감 개방 : 터치2, HP 경고",
+		effect_desc = "내구도+603|대공+26|기동+10|도감 개방 : 터치2, HP 경고",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -4571,7 +4571,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[525] = {
 		effect_breakout = 0,
-		effect_desc = "내구도+761|대공+32|회피+10|도감 개방 : 터치2, HP 경고",
+		effect_desc = "내구도+761|대공+32|기동+10|도감 개방 : 터치2, HP 경고",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -5550,7 +5550,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[625] = {
 		effect_breakout = 0,
-		effect_desc = "내구도+690|대공+34|회피+10|도감 개방 : 터치2, HP 경고",
+		effect_desc = "내구도+690|대공+34|기동+10|도감 개방 : 터치2, HP 경고",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -8991,7 +8991,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1025] = {
 		effect_breakout = 0,
-		effect_desc = "내구+945|대공+31|회피+5|주포 효율+5%|도감 개방 :  터치2, HP 경고",
+		effect_desc = "내구+945|대공+31|기동+5|주포 효율+5%|도감 개방 :  터치2, HP 경고",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
