@@ -129,38 +129,7 @@ slot0.handleNotification = function (slot0, slot1)
 	elseif slot2 == GAME.DELETE_ALL_MAIL_DONE then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("main_mailMediator_mailDelete"))
 	elseif slot2 == GAME.OPEN_MAIL_ATTACHMENT_DONE then
-		if DROP_TYPE_SHIP == slot3.type then
-			slot4 = {}
-
-			for slot9 = 1, #getProxy(BayProxy):getNewShip(true), 1 do
-				table.insert(slot4, function (slot0)
-					slot0:addSubLayers(Context.New({
-						mediator = NewShipMediator,
-						viewComponent = NewShipLayer,
-						data = {
-							ship = slot1[slot0]
-						},
-						onRemoved = slot0
-					}))
-				end)
-			end
-
-			seriesAsync(slot4, function ()
-				if slot0.callback then
-					slot0.callback()
-				end
-			end)
-
-			return
-		end
-
-		if DROP_TYPE_ITEM == slot3.type and slot3.items and #slot4 > 0 then
-			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot4, function ()
-				if slot0.callback then
-					slot0.callback()
-				end
-			end)
-		end
+		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.items, slot3.callback)
 	elseif slot2 == GAME.TAKE_ATTACHMENT_FULL_EQUIP then
 		slot0.viewComponent:UnblurMailBox()
 		NoPosMsgBox(i18n("switch_to_shop_tip_noPos"), openDestroyEquip, gotoChargeScene)

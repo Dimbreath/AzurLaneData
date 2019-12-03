@@ -248,44 +248,52 @@ slot0.setLetterContent = function (slot0, slot1)
 end
 
 slot0.openMail = function (slot0, slot1)
+	setActive(slot0.mailTFsById[slot1.id]:Find("check_mark"), true)
+
+	if slot0.preCheckMark and slot0.preCheckMark ~= slot2 then
+		setActive(slot0.preCheckMark, false)
+	end
+
+	slot0.preCheckMark = slot2
+
 	slot0:setOrMovePanelState("openMail")
-	setText(findTF(slot2, "panel/main/contant/title"), slot1.title)
-	setText(findTF(slot2, "panel/main/contant/title"), i18n2(slot1.title))
-	setText(findTF(slot2, "panel/main/contant/date/date_bg/text"), os.date("%Y-%m-%d", slot1.date))
-	setText(findTF(slot2, "from/text"), slot1.sender)
+	setText(findTF(slot3, "panel/main/contant/title"), slot1.title)
+	setText(findTF(slot3, "panel/main/contant/title"), i18n2(slot1.title))
+	setText(findTF(slot3, "panel/main/contant/date/date_bg/text"), os.date("%Y-%m-%d", slot1.date))
+	setText(findTF(slot3, "from/text"), slot1.sender)
 	slot0:setLetterContent(slot1.content)
-	onButton(slot0, slot3, function ()
+	onButton(slot0, slot4, function ()
 		slot0:emit(MailMediator.ON_TAKE, slot1.id)
 	end, SFX_PANEL)
 
-	slot4 = 0
+	slot5 = 0
 
 	if slot1.attachFlag == slot1.ATTACHMENT_EXIST then
-		setButtonEnabled(slot3, true)
+		setButtonEnabled(slot4, true)
 
-		slot4 = 1
+		slot5 = 1
 	else
-		slot4 = (slot1.attachFlag == slot1.ATTACHMENT_NONE and 2) or 3
+		slot5 = (slot1.attachFlag == slot1.ATTACHMENT_NONE and 2) or 3
 
-		setButtonEnabled(slot3, false)
+		setButtonEnabled(slot4, false)
 	end
 
-	setActive(findTF(slot3, "get"), slot4 == 1)
-	setActive(findTF(slot3, "none"), slot4 == 2)
-	setActive(findTF(slot3, "got"), slot4 == 3)
-	setActive(findTF(slot3, "mask"), slot4 ~= 1)
+	setActive(findTF(slot4, "get"), slot5 == 1)
+	setActive(findTF(slot4, "none"), slot5 == 2)
+	setActive(findTF(slot4, "got"), slot5 == 3)
+	setActive(findTF(slot4, "mask"), slot5 ~= 1)
 	setActive(slot0.letterContant, true)
 	removeAllChildren(setActive)
 
-	slot6 = false
+	slot7 = false
 
-	for slot10, slot11 in ipairs(slot1.attachments) do
-		slot0:setAttachment(cloneTplTo(slot0.attachmentTpl, slot5), slot11, slot1.readFlag == 2 and slot1.attachFlag == slot1.ATTACHMENT_TAKEN)
+	for slot11, slot12 in ipairs(slot1.attachments) do
+		slot0:setAttachment(cloneTplTo(slot0.attachmentTpl, slot6), slot12, slot1.readFlag == 2 and slot1.attachFlag == slot1.ATTACHMENT_TAKEN)
 
-		slot6 = true
+		slot7 = true
 	end
 
-	setActive(slot5, slot6)
+	setActive(slot6, slot7)
 	setActive(slot0.radioImp:Find("on"), slot1.importantFlag == 1)
 	setActive(slot0.radioImp:Find("off"), slot1.importantFlag == 0)
 	onButton(slot0, slot0.radioImp, function ()
@@ -346,25 +354,17 @@ slot0.updateMail = function (slot0, slot1)
 
 	if slot0.mailTFsById[slot1.id] then
 		onButton(slot0, slot2, function ()
-			setActive(findTF(findTF, "check_mark"), true)
+			slot0:emit(MailMediator.ON_OPEN, slot1.id)
+		end, SFX_PANEL)
+		setActive(slot3, false)
+		onButton(slot0, slot3, function ()
+			setActive(setActive, false)
+			setActive:setOrMovePanelState("initial")
 
-			if setActive.preCheckMark and slot1.preCheckMark ~= slot0 then
-				setActive(slot1.preCheckMark, false)
-			end
-
-			slot1.preCheckMark = findTF(slot0, "check_mark")
-
-			slot1:emit(MailMediator.ON_OPEN, slot2.id)
-			onButton(onButton, slot1.preCheckMark, function ()
-				slot0:setOrMovePanelState("initial")
-
-				slot0.setOrMovePanelState.lastOpenMailId = nil
-
-				setActive(slot0.preCheckMark, false)
-			end, SFX_PANEL)
+			setActive.lastOpenMailId = nil
 		end, SFX_PANEL)
 
-		slot3 = slot0:findTF("mask", slot2)
+		slot4 = slot0:findTF("mask", slot2)
 
 		setActive(findTF(slot2, "tip_bg"), slot1.attachFlag ~= slot1.ATTACHMENT_NONE)
 		setActive(findTF(slot2, "tip_bg"), not (slot1.attachFlag ~= slot1.ATTACHMENT_NONE))
@@ -372,20 +372,20 @@ slot0.updateMail = function (slot0, slot1)
 
 		if slot1.attachFlag ~= slot1.ATTACHMENT_NONE then
 			setText(findTF(slot2, "tip_bg/Text"), #slot1.attachments)
-			slot0:setAttachment(slot6, slot1.attachments[1], slot1.attachFlag == 2)
-			setActive(slot3, slot1.readFlag == 2 and slot1.attachFlag == slot1.ATTACHMENT_TAKEN)
+			slot0:setAttachment(slot7, slot1.attachments[1], slot1.attachFlag == 2)
+			setActive(slot4, slot1.readFlag == 2 and slot1.attachFlag == slot1.ATTACHMENT_TAKEN)
 		else
 			if slot1.readFlag == 2 then
-				slot0:setSpriteTo("resources/mail_read", slot5, true)
+				slot0:setSpriteTo("resources/mail_read", slot6, true)
 			else
-				slot0:setSpriteTo("resources/mail_unread", slot5, true)
+				slot0:setSpriteTo("resources/mail_unread", slot6, true)
 			end
 
-			setActive(slot3, slot1.readFlag == 2)
+			setActive(slot4, slot1.readFlag == 2)
 		end
 
-		setText(slot7, shortenString(slot1.title, 15))
-		setText(slot8, os.date("%Y-%m-%d %H:%M:%S", slot1.date))
+		setText(slot8, shortenString(slot1.title, 15))
+		setText(slot9, os.date("%Y-%m-%d %H:%M:%S", slot1.date))
 		setActive(slot2:Find("star"), slot1.importantFlag == 1)
 
 		if slot0.lastOpenMailId == slot1.id then

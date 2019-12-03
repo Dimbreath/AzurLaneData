@@ -33,16 +33,6 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffAddReloadRequirement",
-			trigger = {
-				"onAttach"
-			},
-			arg_list = {
-				number = 1,
-				type = "airAssist"
-			}
-		},
-		{
 			type = "BattleBuffCastSkill",
 			trigger = {
 				"onUpdate"

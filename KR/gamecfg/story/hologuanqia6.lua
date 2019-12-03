@@ -284,7 +284,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 900215,
-			say = "我也是hololive旗下，hologames的大神澪，叫我澪就好，请多指教。",
+			say = "我也是hololive旗下，hologamers的大神澪，叫我澪就好，请多指教。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

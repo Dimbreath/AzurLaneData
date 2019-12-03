@@ -27,7 +27,6 @@ slot0.willExit = function (slot0)
 	pg.DelegateInfo.Dispose(slot0)
 	slot0.factory:Destroy()
 
-	slot0.backyardPoolMgr = nil
 	slot0.isExist = true
 end
 

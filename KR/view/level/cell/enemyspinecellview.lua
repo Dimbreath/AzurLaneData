@@ -17,8 +17,10 @@ slot0.Update = function (slot0)
 			slot0.tf.anchoredPosition = Vector2(0, 0)
 
 			SetActive(findTF(slot0.tf, "icon"), false)
-			setActive(findTF(slot0.tf, "lv"), false)
-			setActive(findTF(slot0.tf, "titleContain"), false)
+
+			findTF(slot0.tf, "titleContain/bg_boss").localScale = Vector3(0.5, 0.5, 1)
+			findTF(slot0.tf, "titleContain/bg_boss").anchoredPosition = Vector2(61.1, -30.6)
+
 			slot0:GetSpine(slot2.icon, function (slot0)
 				slot0:ReturnSpine()
 
@@ -64,6 +66,15 @@ end
 slot0.DestroyGO = function (slot0)
 	slot0:ReturnSpine()
 	slot0.super.DestroyGO(slot0)
+end
+
+slot0.Clear = function (slot0)
+	if not IsNil(findTF(slot0.tf, "titleContain/bg_boss")) then
+		slot1.localScale = Vector3.one
+		slot1.anchoredPosition = Vector2(39.5, -23.2)
+	end
+
+	slot0.super.Clear(slot0)
 end
 
 return slot0

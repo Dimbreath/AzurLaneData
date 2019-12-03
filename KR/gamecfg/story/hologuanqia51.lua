@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "关于这一点，我想过了。指挥官和明石都有处理过类似事件的经验，一定能帮到你们的！",
+			say = "关于这一点，我想过了。指挥官和{namecode:98}都有处理过类似事件的经验，一定能帮到你们的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
