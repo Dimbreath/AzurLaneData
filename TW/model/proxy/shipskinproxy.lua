@@ -2,7 +2,7 @@ slot0 = class("ShipSkinProxy", import(".NetProxy"))
 slot0.SHIP_SKINS_UPDATE = "ship skins update"
 slot0.SHIP_SKIN_EXPIRED = "ship skin expired"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.skins = {}
 	slot0.oldSkins = {}
 	slot0.cacheSkins = {}
@@ -17,7 +17,7 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.getOverDueSkins = function (slot0)
+function slot0.getOverDueSkins(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.cacheSkins) do
@@ -29,23 +29,23 @@ slot0.getOverDueSkins = function (slot0)
 	return slot1
 end
 
-slot0.getRawData = function (slot0)
+function slot0.getRawData(slot0)
 	return slot0.skins
 end
 
-slot0.getSkinList = function (slot0)
+function slot0.getSkinList(slot0)
 	return _.map(_.values(slot0.skins), function (slot0)
 		return slot0.id
 	end)
 end
 
-slot0.getOldSkinList = function (slot0)
+function slot0.getOldSkinList(slot0)
 	return _.map(_.values(slot0.oldSkins), function (slot0)
 		return slot0.id
 	end)
 end
 
-slot0.addSkin = function (slot0, slot1)
+function slot0.addSkin(slot0, slot1)
 	slot0.oldSkins = Clone(slot0.skins)
 	slot0.skins[slot1.id] = slot1
 
@@ -53,11 +53,11 @@ slot0.addSkin = function (slot0, slot1)
 	slot0.facade:sendNotification(slot0.SHIP_SKINS_UPDATE)
 end
 
-slot0.getSkinById = function (slot0, slot1)
+function slot0.getSkinById(slot0, slot1)
 	return slot0.skins[slot1]
 end
 
-slot0.addExpireTimer = function (slot0, slot1)
+function slot0.addExpireTimer(slot0, slot1)
 	if not slot1:isExpireType() then
 		return
 	end
@@ -89,7 +89,7 @@ slot0.addExpireTimer = function (slot0, slot1)
 	end
 end
 
-slot0.removeExpireTimer = function (slot0, slot1)
+function slot0.removeExpireTimer(slot0, slot1)
 	if slot0.timers[slot1] then
 		slot0.timers[slot1]:Stop()
 
@@ -97,34 +97,34 @@ slot0.removeExpireTimer = function (slot0, slot1)
 	end
 end
 
-slot0.removeSkinById = function (slot0, slot1)
+function slot0.removeSkinById(slot0, slot1)
 	slot0.skins[slot1] = nil
 
 	slot0:removeExpireTimer(slot1)
 	slot0.facade:sendNotification(slot0.SHIP_SKINS_UPDATE)
 end
 
-slot0.hasSkin = function (slot0, slot1)
+function slot0.hasSkin(slot0, slot1)
 	return slot0.skins[slot1] ~= nil
 end
 
-slot0.hasNonLimitSkin = function (slot0, slot1)
+function slot0.hasNonLimitSkin(slot0, slot1)
 	return slot0.skins[slot1] ~= nil and not slot2:isExpireType()
 end
 
-slot0.hasOldSkin = function (slot0, slot1)
+function slot0.hasOldSkin(slot0, slot1)
 	return slot0.oldSkins[slot1] ~= nil
 end
 
-slot0.hasOldNonLimitSkin = function (slot0, slot1)
+function slot0.hasOldNonLimitSkin(slot0, slot1)
 	return slot0.oldSkins[slot1] and not slot2:isExpireType()
 end
 
-slot0.getSkinCountById = function (slot0, slot1)
+function slot0.getSkinCountById(slot0, slot1)
 	return (slot0:hasSkin(slot1) and 1) or 0
 end
 
-slot0.remove = function (slot0)
+function slot0.remove(slot0)
 	for slot4, slot5 in pairs(slot0.timers) do
 		slot5:Stop()
 	end
@@ -132,7 +132,7 @@ slot0.remove = function (slot0)
 	slot0.timers = nil
 end
 
-slot0.GetAllSkins = function (slot0)
+function slot0.GetAllSkins(slot0)
 	slot1 = {}
 
 	function slot2(slot0)
@@ -178,7 +178,7 @@ slot0.GetAllSkins = function (slot0)
 	return slot1
 end
 
-slot0.GetAllSkinForShip = function (slot0, slot1)
+function slot0.GetAllSkinForShip(slot0, slot1)
 	for slot7 = #ShipGroup.getSkinList(slot2), 1, -1 do
 		if slot3[slot7].skin_type == ShipSkin.SKIN_TYPE_NOT_HAVE_HIDE and not slot0:hasSkin(slot8.id) then
 			table.remove(slot3, slot7)
@@ -222,7 +222,7 @@ slot0.GetAllSkinForShip = function (slot0, slot1)
 	return slot3
 end
 
-slot0.GetAllSkinForARCamera = function (slot0, slot1)
+function slot0.GetAllSkinForARCamera(slot0, slot1)
 	for slot6 = #ShipGroup.getSkinList(slot1), 1, -1 do
 		if slot2[slot6].skin_type == ShipSkin.SKIN_TYPE_OLD then
 			table.remove(slot2, slot6)

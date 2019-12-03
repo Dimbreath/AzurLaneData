@@ -2,7 +2,7 @@ pg = pg or {}
 pg.SDKMgr = singletonClass("SDKMgr")
 slot2 = nil
 
-pg.SDKMgr.Init = function (slot0, slot1)
+function pg.SDKMgr.Init(slot0, slot1)
 	print("initializing sdk manager...")
 
 	slot0 = BilibiliSdkMgr.inst
@@ -16,7 +16,7 @@ pg.SDKMgr.Init = function (slot0, slot1)
 	slot1()
 end
 
-pg.SDKMgr.GetChannelUID = function (slot0)
+function pg.SDKMgr.GetChannelUID(slot0)
 	if CHANNEL_NAME == "komoe_cht" then
 		return PLATFORM_CHT_IOS
 	elseif CHANNEL_NAME == "komoe_cht_mycard" then
@@ -28,53 +28,53 @@ pg.SDKMgr.GetChannelUID = function (slot0)
 	end
 end
 
-pg.SDKMgr.isPlatform = function (slot0)
+function pg.SDKMgr.isPlatform(slot0)
 	return slot0.isPlatform
 end
 
-pg.SDKMgr.isTenc = function (slot0)
+function pg.SDKMgr.isTenc(slot0)
 	return slot0.isTenc
 end
 
-pg.SDKMgr.isAiriJP = function (slot0)
+function pg.SDKMgr.isAiriJP(slot0)
 	return slot0.isAiriJP
 end
 
-pg.SDKMgr.localLogin = function (slot0)
+function pg.SDKMgr.localLogin(slot0)
 	slot0:localLogin()
 end
 
-pg.SDKMgr.login = function (slot0, slot1)
+function pg.SDKMgr.login(slot0, slot1)
 	slot0:login(slot1)
 end
 
-pg.SDKMgr.localLogout = function (slot0)
+function pg.SDKMgr.localLogout(slot0)
 	slot0:localLogout()
 end
 
-pg.SDKMgr.tryTencLogin = function (slot0)
+function pg.SDKMgr.tryTencLogin(slot0)
 	slot0:tryTencLogin()
 end
 
-pg.SDKMgr.getDeviceModel = function (slot0)
+function pg.SDKMgr.getDeviceModel(slot0)
 	if CHANNEL_NAME == "txwy_kr" then
 		return slot0:getDeviceModel()
 	end
 end
 
-pg.SDKMgr.createRole = function (slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+function pg.SDKMgr.createRole(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot0:createRole(id, slot2, slot3, slot4, slot5, slot6)
 end
 
-pg.SDKMgr.enterServer = function (slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8)
+function pg.SDKMgr.enterServer(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8)
 	slot0:enterServer(tostring(slot1), slot2, playerId, slot4, slot5, slot6, slot7, slot8)
 end
 
-pg.SDKMgr.chooseServer = function (slot0, slot1, slot2)
+function pg.SDKMgr.chooseServer(slot0, slot1, slot2)
 	slot0:chooseServer(tostring(slot1), slot2)
 end
 
-pg.SDKMgr.levelUp = function (slot0, slot1)
+function pg.SDKMgr.levelUp(slot0, slot1)
 	slot5 = getProxy(ServerProxy).getLastServer(slot4, getProxy(UserProxy).getData(slot2).uid)
 
 	if CHANNEL_NAME == "txwy_kr" then
@@ -84,19 +84,19 @@ pg.SDKMgr.levelUp = function (slot0, slot1)
 	end
 end
 
-pg.SDKMgr.completedTutorial = function (slot0)
+function pg.SDKMgr.completedTutorial(slot0)
 	if CHANNEL_NAME == "txwy_kr" then
 		slot0:completedTutorial()
 	end
 end
 
-pg.SDKMgr.unlockAchievement = function (slot0)
+function pg.SDKMgr.unlockAchievement(slot0)
 	if CHANNEL_NAME == "txwy_kr" then
 		slot0:unlockAchievement()
 	end
 end
 
-pg.SDKMgr.queryWithProduct = function (slot0)
+function pg.SDKMgr.queryWithProduct(slot0)
 	slot0:queryWithProduct(slot0:GetProductCode(), function (slot0)
 		for slot5, slot6 in ipairs(slot1) do
 			slot0:CheckProductPrice(string.split(slot6, "|")[1], string.split(slot6, "|")[2])
@@ -104,7 +104,7 @@ pg.SDKMgr.queryWithProduct = function (slot0)
 	end)
 end
 
-pg.SDKMgr.GetProductCode = function (slot0)
+function pg.SDKMgr.GetProductCode(slot0)
 	slot1 = ""
 
 	for slot5, slot6 in ipairs(slot0.pay_data_display.all) do
@@ -114,7 +114,7 @@ pg.SDKMgr.GetProductCode = function (slot0)
 	return slot1
 end
 
-pg.SDKMgr.CheckProductPrice = function (slot0, slot1, slot2)
+function pg.SDKMgr.CheckProductPrice(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot0.pay_data_display.all) do
 		if slot0.pay_data_display[slot7].id_str == slot1 and slot8.money ~= slot2 then
 			print(string.format("<color=#ff0000>%s的商品价格和本地的价格不同</color> 本地价格：%s, 服务器价格：%s", slot8.name, slot8.money, slot2))
@@ -122,7 +122,7 @@ pg.SDKMgr.CheckProductPrice = function (slot0, slot1, slot2)
 	end
 end
 
-pg.SDKMgr.payKR = function (slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9)
+function pg.SDKMgr.payKR(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9)
 	if CHANNEL_NAME == "txwy_kr" then
 		slot0:pay(slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9)
 	else
@@ -130,23 +130,23 @@ pg.SDKMgr.payKR = function (slot0, slot1, slot2, slot3, slot4, slot5, slot6, slo
 	end
 end
 
-pg.SDKMgr.pay = function (slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10)
+function pg.SDKMgr.pay(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10)
 	slot0:pay(slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10)
 end
 
-pg.SDKMgr.GetSdkServerID = function (slot0)
+function pg.SDKMgr.GetSdkServerID(slot0)
 	return slot0:getServerID()
 end
 
-pg.SDKMgr.callSdkApi = function (slot0, slot1, slot2)
+function pg.SDKMgr.callSdkApi(slot0, slot1, slot2)
 	slot0:callSdkApi(slot1, slot2)
 end
 
-pg.SDKMgr.onBackPressed = function (slot0)
+function pg.SDKMgr.onBackPressed(slot0)
 	slot0:onBackPressed()
 end
 
-pg.SDKMgr.userCenter = function (slot0)
+function pg.SDKMgr.userCenter(slot0)
 	if CHANNEL_NAME == "txwy_kr" then
 		slot2 = "未登入"
 
@@ -164,7 +164,7 @@ pg.SDKMgr.userCenter = function (slot0)
 	end
 end
 
-pg.SDKMgr.bugReport = function (slot0)
+function pg.SDKMgr.bugReport(slot0)
 	slot4 = getProxy(ServerProxy).getLastServer(slot3, getProxy(UserProxy).getData(slot1).uid)
 
 	if CHANNEL_NAME == "txwy_kr" then
@@ -184,19 +184,19 @@ pg.SDKMgr.bugReport = function (slot0)
 	end
 end
 
-pg.SDKMgr.storeReview = function (slot0)
+function pg.SDKMgr.storeReview(slot0)
 	if CHANNEL_NAME == "txwy_kr" then
 		slot0:storeReview()
 	end
 end
 
-pg.SDKMgr.shareImg = function (slot0, slot1, slot2)
+function pg.SDKMgr.shareImg(slot0, slot1, slot2)
 	if CHANNEL_NAME == "txwy_kr" then
 		slot0:shareImg(slot1, slot2)
 	end
 end
 
-pg.SDKMgr.SetIsLogin = function (slot0, slot1)
+function pg.SDKMgr.SetIsLogin(slot0, slot1)
 	slot0.isLoging = slot1
 end
 

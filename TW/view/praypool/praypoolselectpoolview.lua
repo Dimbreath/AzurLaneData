@@ -1,30 +1,30 @@
 slot0 = class("PrayPoolSelectPoolView", import("..base.BaseSubView"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "PrayPoolSelectPoolView"
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0:initData()
 	slot0:initUI()
 	slot0:updateUI()
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	return
 end
 
-slot0.OnBackPress = function (slot0)
+function slot0.OnBackPress(slot0)
 	return
 end
 
-slot0.initData = function (slot0)
+function slot0.initData(slot0)
 	slot0.prayProxy = getProxy(PrayProxy)
 	slot0.poolToggleList = {}
 	slot0.selectedPoolType = nil
 end
 
-slot0.initUI = function (slot0)
+function slot0.initUI(slot0)
 	slot0.poolListContainer = slot0:findTF("PoolList")
 	slot0.poolTpl = slot0:findTF("PoolTpl")
 	slot0.preBtn = slot0:findTF("PreBtn")
@@ -68,7 +68,7 @@ slot0.initUI = function (slot0)
 	slot0:Show()
 end
 
-slot0.updateUI = function (slot0)
+function slot0.updateUI(slot0)
 	if slot0.prayProxy:getSelectedPoolType() then
 		triggerToggle(slot0.poolToggleList[slot1], true)
 	else

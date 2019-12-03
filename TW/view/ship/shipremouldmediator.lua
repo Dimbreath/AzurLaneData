@@ -2,7 +2,7 @@ slot0 = class("ShipRemouldMediator", import("..base.ContextMediator"))
 slot0.REMOULD_SHIP = "ShipRemouldMediator:REMOULD_SHIP"
 slot0.ON_SELECTE_SHIP = "ShipRemouldMediator:ON_SELECTE_SHIP"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot1 = getProxy(BayProxy)
 
 	slot0.viewComponent:setShipVO(slot2)
@@ -67,7 +67,7 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.REMOULD_SHIP_DONE,
 		PlayerProxy.UPDATED,
@@ -75,7 +75,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.REMOULD_SHIP_DONE then

@@ -4,7 +4,7 @@ slot0.FIRE = "GuildMemberMediator:FIRE"
 slot0.SET_DUTY = "GuildMemberMediator:SET_DUTY"
 slot0.IMPEACH = "GuildMemberMediator:IMPEACH"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.viewComponent:setPlayerVO(slot2)
 	slot0.viewComponent:setGuildVO(getProxy(GuildProxy).getData(slot3))
 	slot0:bind(slot0.OPEN_DESC_INFO, function (slot0, slot1)
@@ -27,7 +27,7 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GuildProxy.GUILD_UPDATED,
 		GAME.SET_GUILD_DUTY_DONE,
@@ -36,7 +36,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GuildProxy.GUILD_UPDATED then

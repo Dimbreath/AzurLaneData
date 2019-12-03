@@ -3,13 +3,13 @@ slot1 = singletonClass("BattleNPCCharacterFactory", ys.Battle.BattleEnemyCharact
 ys.Battle.BattleNPCCharacterFactory = slot1
 slot1.__name = "BattleNPCCharacterFactory"
 
-slot1.Ctor = function (slot0)
+function slot1.Ctor(slot0)
 	slot0.super.Ctor(slot0)
 
 	slot0.HP_BAR_NAME = slot0.super.Ctor.Battle.BattleHPBarManager.HP_BAR_FOE
 end
 
-slot1.CreateCharacter = function (slot0, slot1)
+function slot1.CreateCharacter(slot0, slot1)
 	slot4 = slot0:MakeCharacter()
 
 	slot4:SetFactory(slot0)
@@ -32,7 +32,7 @@ slot1.CreateCharacter = function (slot0, slot1)
 	return slot4
 end
 
-slot1.MakeModel = function (slot0, slot1)
+function slot1.MakeModel(slot0, slot1)
 	slot2 = slot1:GetUnitData()
 
 	function slot3(slot0)
@@ -62,11 +62,11 @@ slot1.MakeModel = function (slot0, slot1)
 	end)
 end
 
-slot1.MakeCharacter = function (slot0)
+function slot1.MakeCharacter(slot0)
 	return slot0.Battle.BattleNPCCharacter.New()
 end
 
-slot1.MakeBloodBar = function (slot0, slot1)
+function slot1.MakeBloodBar(slot0, slot1)
 	slot3 = slot0:GetHPBarPool():GetHPBar(slot0.HP_BAR_NAME).transform
 
 	if slot1:GetHPColor() then

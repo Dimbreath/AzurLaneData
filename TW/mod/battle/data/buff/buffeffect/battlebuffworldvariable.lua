@@ -2,11 +2,11 @@ ys = ys or {}
 ys.Battle.BattleBuffWorldVariable = class("BattleBuffWorldVariable", ys.Battle.BattleBuffEffect)
 ys.Battle.BattleBuffWorldVariable.__name = "BattleBuffWorldVariable"
 
-ys.Battle.BattleBuffWorldVariable.Ctor = function (slot0, slot1)
+function ys.Battle.BattleBuffWorldVariable.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 end
 
-ys.Battle.BattleBuffWorldVariable.SetArgs = function (slot0, slot1, slot2)
+function ys.Battle.BattleBuffWorldVariable.SetArgs(slot0, slot1, slot2)
 	slot0._variable = slot0._tempData.arg_list.variable
 	slot0._key = slot0._tempData.arg_list.key
 	slot0._number = slot0._tempData.arg_list.number
@@ -14,7 +14,7 @@ ys.Battle.BattleBuffWorldVariable.SetArgs = function (slot0, slot1, slot2)
 	slot0._speedFactorName = "buff_" .. slot0._tempData.id
 end
 
-ys.Battle.BattleBuffWorldVariable.onAttach = function (slot0, slot1, slot2)
+function ys.Battle.BattleBuffWorldVariable.onAttach(slot0, slot1, slot2)
 	slot3 = slot0.Battle.BattleVariable
 
 	if slot0._key then
@@ -24,7 +24,7 @@ ys.Battle.BattleBuffWorldVariable.onAttach = function (slot0, slot1, slot2)
 	end
 end
 
-ys.Battle.BattleBuffWorldVariable.onRemove = function (slot0, slot1, slot2)
+function ys.Battle.BattleBuffWorldVariable.onRemove(slot0, slot1, slot2)
 	slot3 = slot0.Battle.BattleVariable
 
 	if slot0._key then

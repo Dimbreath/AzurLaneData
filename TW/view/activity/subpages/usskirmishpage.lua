@@ -1,16 +1,16 @@
 slot0 = class("USSkirmishPage", import("...base.BaseActivityPage"))
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0:initUI()
 	slot0:initData()
 	slot0:addListener()
 end
 
-slot0.OnFirstFlush = function (slot0)
+function slot0.OnFirstFlush(slot0)
 	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 end
 
-slot0.OnUpdateFlush = function (slot0)
+function slot0.OnUpdateFlush(slot0)
 	for slot4, slot5 in ipairs(slot0.taskVOList) do
 		slot8 = slot0:findTF("Empty", slot7)
 		slot9 = slot0:findTF("Full", slot0.progress:GetChild(slot4 - 1))
@@ -25,14 +25,14 @@ slot0.OnUpdateFlush = function (slot0)
 	end
 end
 
-slot0.initUI = function (slot0)
+function slot0.initUI(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.progress = slot0:findTF("Progress")
 	slot0.helpBtn = slot0:findTF("HelpBtn")
 	slot0.battleBtn = slot0:findTF("BattleBtn")
 end
 
-slot0.initData = function (slot0)
+function slot0.initData(slot0)
 	slot0.taskGroup = Clone(pg.activity_template[ActivityConst.ACTIVITY_ID_US_SKIRMISH].config_data)
 	slot0.taskCount = #slot0.taskGroup
 	slot0.skirmishProxy = getProxy(SkirmishProxy)
@@ -42,7 +42,7 @@ slot0.initData = function (slot0)
 	slot0.taskVOList = Clone(slot0.skirmishProxy.data)
 end
 
-slot0.addListener = function (slot0)
+function slot0.addListener(slot0)
 	onButton(slot0, slot0.helpBtn, function ()
 		if pg.gametip.help_tempesteve then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({

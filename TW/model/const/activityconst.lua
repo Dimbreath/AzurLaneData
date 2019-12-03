@@ -272,7 +272,7 @@ slot0.INSTAGRAM_OP_LIKE = 3
 slot0.INSTAGRAM_OP_SHARE = 4
 slot0.INSTAGRAM_OP_MARK_READ = 5
 
-slot0.BBRule = function (slot0)
+function slot0.BBRule(slot0)
 	_.each(slot0, function (slot0)
 		slot0[slot0] = slot0[slot0] + 1
 	end)

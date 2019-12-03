@@ -1,7 +1,7 @@
 slot0 = class("ChatProxy", import(".NetProxy"))
 slot0.NEW_MSG = "ChatProxy public msg"
 
-slot0.InjectPublic = function (slot0, slot1)
+function slot0.InjectPublic(slot0, slot1)
 	if slot1.id == 0 then
 		slot0.text = (slot1.args[1] and slot1.args[1].string) or ""
 
@@ -32,7 +32,7 @@ slot0.InjectPublic = function (slot0, slot1)
 	slot0.text = slot2
 end
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0:on(50101, function (slot0)
 		if slot0.type == ChatConst.CODE_BANED then
 			pg.TipsMgr.GetInstance():ShowTips(slot0.content)
@@ -91,7 +91,7 @@ slot0.register = function (slot0)
 	slot0.actBossMsg = {}
 end
 
-slot0.addNewMsg = function (slot0, slot1)
+function slot0.addNewMsg(slot0, slot1)
 	if slot1.id == 0 then
 		slot0.top = slot1
 
@@ -111,11 +111,11 @@ slot0.addNewMsg = function (slot0, slot1)
 	slot0:sendNotification(slot0.NEW_MSG, slot1)
 end
 
-slot0.clearMsg = function (slot0)
+function slot0.clearMsg(slot0)
 	slot0.data = {}
 end
 
-slot0.loadUsedEmoji = function (slot0)
+function slot0.loadUsedEmoji(slot0)
 	slot0.usedEmoji = {}
 
 	if #string.split(PlayerPrefs.GetString(ChatConst.EMOJI_SAVE_TAG .. getProxy(PlayerProxy):getRawData().id) or "", ":") > 0 then
@@ -127,7 +127,7 @@ slot0.loadUsedEmoji = function (slot0)
 	end
 end
 
-slot0.saveUsedEmoji = function (slot0)
+function slot0.saveUsedEmoji(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.usedEmoji) do
@@ -137,7 +137,7 @@ slot0.saveUsedEmoji = function (slot0)
 	PlayerPrefs.SetString(ChatConst.EMOJI_SAVE_TAG .. slot2, table.concat(slot1, ":"))
 end
 
-slot0.getUsedEmoji = function (slot0)
+function slot0.getUsedEmoji(slot0)
 	if not slot0.usedEmoji then
 		slot0:loadUsedEmoji()
 	end
@@ -145,7 +145,7 @@ slot0.getUsedEmoji = function (slot0)
 	return slot0.usedEmoji
 end
 
-slot0.addUsedEmoji = function (slot0, slot1)
+function slot0.addUsedEmoji(slot0, slot1)
 	slot2[slot1] = (slot0:getUsedEmoji()[slot1] or 0) + 1
 
 	slot0:saveUsedEmoji()

@@ -3,7 +3,7 @@ slot1 = 0
 slot2 = 1
 slot3 = 2
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.go = slot1
 	slot0.tr = slot1.transform
 	slot0.content = slot0.tr:Find("content")
@@ -24,7 +24,7 @@ slot0.Ctor = function (slot0, slot1)
 	setActive(slot0.shipState, false)
 end
 
-slot0.update = function (slot0, slot1)
+function slot0.update(slot0, slot1)
 	if slot1 then
 		setActive(slot0.content, true)
 
@@ -36,7 +36,7 @@ slot0.update = function (slot0, slot1)
 	end
 end
 
-slot0.flush = function (slot0)
+function slot0.flush(slot0)
 	setAnchoredPosition(slot0.lvTxt.gameObject, {
 		x = (slot0.shipVO:isBluePrintShip() and -18) or -7.5
 	})
@@ -86,7 +86,7 @@ slot0.flush = function (slot0)
 	setActive(slot0.otherBg, slot6)
 end
 
-slot0.updateProps = function (slot0, slot1)
+function slot0.updateProps(slot0, slot1)
 	for slot5 = 0, 2, 1 do
 		slot6 = slot0.propsTr:GetChild(slot5)
 
@@ -101,7 +101,7 @@ slot0.updateProps = function (slot0, slot1)
 	end
 end
 
-slot0.updateProps1 = function (slot0, slot1)
+function slot0.updateProps1(slot0, slot1)
 	for slot5 = 0, 2, 1 do
 		slot6 = slot0.propsTr1:GetChild(slot5)
 
@@ -116,7 +116,7 @@ slot0.updateProps1 = function (slot0, slot1)
 	end
 end
 
-slot0.clear = function (slot0)
+function slot0.clear(slot0)
 	if slot0.shipVO then
 		retPaintingPrefab(slot0.paintingTr, slot1:getPainting())
 	end

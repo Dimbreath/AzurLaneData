@@ -2,51 +2,51 @@ ys = ys or {}
 ys.Battle.IAntiSubState = class("IAntiSubState")
 ys.Battle.IAntiSubState.__name = "IAntiSubState"
 
-ys.Battle.IAntiSubState.Ctor = function (slot0)
+function ys.Battle.IAntiSubState.Ctor(slot0)
 	return
 end
 
-ys.Battle.IAntiSubState.OnVigilantEngage = function (slot0)
+function ys.Battle.IAntiSubState.OnVigilantEngage(slot0)
 	return
 end
 
-ys.Battle.IAntiSubState.OnMineExplode = function (slot0)
+function ys.Battle.IAntiSubState.OnMineExplode(slot0)
 	return
 end
 
-ys.Battle.IAntiSubState.OnSubmarinFloat = function (slot0)
+function ys.Battle.IAntiSubState.OnSubmarinFloat(slot0)
 	return
 end
 
-ys.Battle.IAntiSubState.OnSonarDetect = function (slot0)
+function ys.Battle.IAntiSubState.OnSonarDetect(slot0)
 	return
 end
 
-ys.Battle.IAntiSubState.ToPreLevel = function (slot0)
+function ys.Battle.IAntiSubState.ToPreLevel(slot0)
 	return
 end
 
-ys.Battle.IAntiSubState.OnHateChain = function (slot0)
+function ys.Battle.IAntiSubState.OnHateChain(slot0)
 	return
 end
 
-ys.Battle.IAntiSubState.CanDecay = function (slot0)
+function ys.Battle.IAntiSubState.CanDecay(slot0)
 	return nil
 end
 
-ys.Battle.IAntiSubState.GetWeaponUseable = function (slot0)
+function ys.Battle.IAntiSubState.GetWeaponUseable(slot0)
 	return nil
 end
 
-ys.Battle.IAntiSubState.GetWarnMark = function (slot0)
+function ys.Battle.IAntiSubState.GetWarnMark(slot0)
 	return nil
 end
 
-ys.Battle.IAntiSubState.GetMeterSpeed = function (slot0)
+function ys.Battle.IAntiSubState.GetMeterSpeed(slot0)
 	return nil
 end
 
-ys.Battle.IAntiSubState.DecayDuration = function (slot0)
+function ys.Battle.IAntiSubState.DecayDuration(slot0)
 	return nil
 end
 

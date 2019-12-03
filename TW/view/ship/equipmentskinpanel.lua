@@ -1,7 +1,7 @@
 slot0 = class("EquipmentSkinPanel", import("..base.BasePanel"))
 slot1 = 0.2
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.equipmentTFs = {
 		slot0:findTF("equipment_r/skin/equipment_r1"),
 		slot0:findTF("equipment_r/skin/equipment_r2"),
@@ -28,11 +28,11 @@ slot0.init = function (slot0)
 	slot0.inSkinPage = true
 end
 
-slot0.setLabelResource = function (slot0, slot1)
+function slot0.setLabelResource(slot0, slot1)
 	slot0.resource = slot1
 end
 
-slot0.doSwitchAnim = function (slot0, slot1)
+function slot0.doSwitchAnim(slot0, slot1)
 	if slot0:isTweening() then
 		return
 	end
@@ -43,7 +43,7 @@ slot0.doSwitchAnim = function (slot0, slot1)
 	slot0:doAnim(slot0.equipmentL, slot0.skinL)
 end
 
-slot0.isTweening = function (slot0)
+function slot0.isTweening(slot0)
 	if LeanTween.isTweening(go(slot0.equipmentR)) or LeanTween.isTweening(go(slot0.skinR)) or LeanTween.isTweening(go(slot0.equipmentL)) or LeanTween.isTweening(go(slot0.skinL)) then
 		return true
 	end
@@ -51,7 +51,7 @@ slot0.isTweening = function (slot0)
 	return false
 end
 
-slot0.doAnim = function (slot0, slot1, slot2)
+function slot0.doAnim(slot0, slot1, slot2)
 	slot5 = slot1:GetComponent(typeof(CanvasGroup))
 	slot6 = slot2:GetComponent(typeof(CanvasGroup))
 
@@ -77,7 +77,7 @@ slot0.doAnim = function (slot0, slot1, slot2)
 	(not slot0.inSkinPage and slot2) or slot1:SetAsLastSibling()
 end
 
-slot0.updateAll = function (slot0, slot1)
+function slot0.updateAll(slot0, slot1)
 	if slot1 then
 		for slot5, slot6 in ipairs(slot0.equipmentTFs) do
 			if not not table.contains(ShipEquipView.UNLOCK_EQUPMENT_SKIN_POS, slot5) then
@@ -97,7 +97,7 @@ slot0.updateAll = function (slot0, slot1)
 	end
 end
 
-slot0.updateEquipmentTF = function (slot0, slot1, slot2)
+function slot0.updateEquipmentTF(slot0, slot1, slot2)
 	slot0.shipVO = slot1
 
 	if slot1 then
@@ -129,7 +129,7 @@ slot0.updateEquipmentTF = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.updateEquipmentPanel = function (slot0, slot1, slot2)
+function slot0.updateEquipmentPanel(slot0, slot1, slot2)
 	slot3 = slot0.shipVO:getEquip(slot2)
 	slot4 = slot3.skinId
 	slot5 = slot3:hasSkin()
@@ -149,7 +149,7 @@ slot0.updateEquipmentPanel = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.updateSkinInfo = function (slot0, slot1, slot2)
+function slot0.updateSkinInfo(slot0, slot1, slot2)
 	setText(slot1:Find("desc"), pg.equip_skin_template[slot2].desc)
 	setText(slot1:Find("cont/name_mask/name"), pg.equip_skin_template[slot2].name)
 	updateDrop(slot1:Find("IconTpl"), {

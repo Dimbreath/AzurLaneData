@@ -11,7 +11,7 @@ slot0.PROPERTY = {
 	AttributeType.Ammo
 }
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot1.config_id or slot0.id
 
@@ -36,11 +36,11 @@ slot0.Ctor = function (slot0, slot1)
 	end)
 end
 
-slot0.GetCategory = function (slot0)
+function slot0.GetCategory(slot0)
 	return slot0.config.is_siren
 end
 
-slot0.BuildConfig = function (slot0)
+function slot0.BuildConfig(slot0)
 	slot1 = pg.equip_data_statistics[slot0.configId]
 	slot2 = pg.equip_data_template[slot0.configId]
 	slot0.config = setmetatable({}, {
@@ -54,7 +54,7 @@ slot0.BuildConfig = function (slot0)
 	end
 end
 
-slot0.GetAttributes = function (slot0)
+function slot0.GetAttributes(slot0)
 	slot1 = {}
 	slot2 = slot0.config
 
@@ -74,7 +74,7 @@ slot0.GetAttributes = function (slot0)
 	return slot1
 end
 
-slot0.GetAdditionalAttributes = function (slot0)
+function slot0.GetAdditionalAttributes(slot0)
 	_.each(slot0:GetAffixList(), function (slot0)
 		slot0[pg.equip_siren_ability[slot0.id].attr_1] = (slot0[pg.equip_siren_ability[slot0.id].attr_1] or 0) + slot0.value
 		slot0[slot1.attr_2] = (slot0[slot1.attr_2] or 0) + slot0.value
@@ -88,7 +88,7 @@ slot0.GetAdditionalAttributes = function (slot0)
 	end)
 end
 
-slot0.GetAffixBuffList = function (slot0)
+function slot0.GetAffixBuffList(slot0)
 	slot1 = {}
 
 	if slot0:GetCategory() == EquipCategory.Siren then
@@ -102,11 +102,11 @@ slot0.GetAffixBuffList = function (slot0)
 	return slot1
 end
 
-slot0.GetPropertyRate = function (slot0)
+function slot0.GetPropertyRate(slot0)
 	return slot0.config.property_rate
 end
 
-slot0.vertify = function (slot0)
+function slot0.vertify(slot0)
 	slot2 = pg.equip_data_template[slot0.configId]
 
 	if slot0.config.value_1 ~= pg.equip_data_statistics[slot0.configId].value_1 or slot0.config.value_2 ~= slot1.value_2 then
@@ -116,7 +116,7 @@ slot0.vertify = function (slot0)
 	return true
 end
 
-slot0.GetProperties = function (slot0, slot1)
+function slot0.GetProperties(slot0, slot1)
 	slot2 = slot0:GetAttributes()
 	slot3 = 3
 	slot4 = slot0.config
@@ -155,11 +155,11 @@ slot0.GetProperties = function (slot0, slot1)
 	return slot2
 end
 
-slot0.GetGearScore = function (slot0)
+function slot0.GetGearScore(slot0)
 	return pg.equip_data_by_quality[slot0.config.rarity].gear_score + slot0.config.level * pg.equip_data_by_quality[slot0.config.rarity].gear_score_addition
 end
 
-slot0.GetSkill = function (slot0)
+function slot0.GetSkill(slot0)
 	slot1 = nil
 
 	if slot0.config.skill_id[1] then
@@ -169,11 +169,11 @@ slot0.GetSkill = function (slot0)
 	return slot1
 end
 
-slot0.GetWeaponID = function (slot0)
+function slot0.GetWeaponID(slot0)
 	return config.weapon_id
 end
 
-slot0.GetSonarProperty = function (slot0)
+function slot0.GetSonarProperty(slot0)
 	slot3 = slot0.config.equip_parameters.interval
 	slot4 = slot0.config.equip_parameters.duration
 
@@ -188,19 +188,19 @@ slot0.GetSonarProperty = function (slot0)
 	end
 end
 
-slot0.getWeaponCD = function (slot0)
+function slot0.getWeaponCD(slot0)
 	return string.format("%0.2f", ys.Battle.BattleFormulas.CalculateReloadTime(slot0.config[AttributeType.Reload], 100))
 end
 
-slot0.canUpgrade = function (slot0)
+function slot0.canUpgrade(slot0)
 	return pg.equip_data_template[slot0].next ~= 0
 end
 
-slot0.hasPrevLevel = function (slot0)
+function slot0.hasPrevLevel(slot0)
 	return pg.equip_data_template[slot0.configId].prev ~= 0
 end
 
-slot0.getRevertAwards = function (slot0)
+function slot0.getRevertAwards(slot0)
 	slot1 = {}
 	slot2 = 0
 	slot4 = pg.equip_data_template[slot0.configId]
@@ -240,39 +240,39 @@ slot0.getRevertAwards = function (slot0)
 	return slot5
 end
 
-slot0.canEquipSkin = function (slot0)
+function slot0.canEquipSkin(slot0)
 	return pg.equip_data_by_type[slot0.config.type].equip_skin == 1
 end
 
-slot0.hasSkin = function (slot0)
+function slot0.hasSkin(slot0)
 	return slot0.skinId and slot0.skinId ~= 0
 end
 
-slot0.setSkinId = function (slot0, slot1)
+function slot0.setSkinId(slot0, slot1)
 	slot0.skinId = slot1
 end
 
-slot0.getSkinId = function (slot0)
+function slot0.getSkinId(slot0)
 	return slot0.skinId
 end
 
-slot0.isImportance = function (slot0)
+function slot0.isImportance(slot0)
 	return slot0.config.important == slot0.EQUIPMENT_IMPORTANCE
 end
 
-slot0.isUnique = function (slot0)
+function slot0.isUnique(slot0)
 	return slot0.config.equip_limit ~= 0
 end
 
-slot0.GetAffixSlot = function (slot0)
+function slot0.GetAffixSlot(slot0)
 	return math.clamp(slot0.config.rarity - 2, 1, 3)
 end
 
-slot0.GetAffix = function (slot0, slot1)
+function slot0.GetAffix(slot0, slot1)
 	return slot0.affixList[slot1]
 end
 
-slot0.GetAffixDesc = function (slot0, slot1)
+function slot0.GetAffixDesc(slot0, slot1)
 	slot4 = {}
 
 	if #pg.equip_siren_ability[slot0:GetAffix(slot1).id].attr_1 > 0 then
@@ -292,11 +292,11 @@ slot0.GetAffixDesc = function (slot0, slot1)
 	return slot5
 end
 
-slot0.GetAffixList = function (slot0)
+function slot0.GetAffixList(slot0)
 	return slot0.affixList
 end
 
-slot0.MigrateTo = function (slot0, slot1)
+function slot0.MigrateTo(slot0, slot1)
 	if slot0:GetCategory() == EquipCategory.Siren then
 		return Equipment.New({
 			id = slot0.id,
@@ -312,7 +312,7 @@ slot0.MigrateTo = function (slot0, slot1)
 	end
 end
 
-slot0.GetRootEquipment = function (slot0)
+function slot0.GetRootEquipment(slot0)
 	slot1 = slot0.configId
 	slot2 = pg.equip_data_template[slot0.config.prev]
 

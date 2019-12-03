@@ -1,28 +1,28 @@
 slot0 = class("PlayerSummaryInfoScene", import("...base.BaseUI"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "PlayerSummaryUI"
 end
 
-slot0.setActivity = function (slot0, slot1)
+function slot0.setActivity(slot0, slot1)
 	slot0.activityVO = slot1
 end
 
-slot0.setPlayer = function (slot0, slot1)
+function slot0.setPlayer(slot0, slot1)
 	slot0.palyerVO = slot1
 end
 
-slot0.setSummaryInfo = function (slot0, slot1)
+function slot0.setSummaryInfo(slot0, slot1)
 	slot0.summaryInfoVO = slot1
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.backBtn = slot0:findTF("bg/back_btn")
 	slot0.pageContainer = slot0:findTF("bg/main/pages")
 	slot0.pageFootContainer = slot0:findTF("bg/main/page_foot")
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	if slot0.summaryInfoVO then
 		slot0:initSummaryInfo()
 	else
@@ -38,7 +38,7 @@ slot0.didEnter = function (slot0)
 	end, SFX_CANCEL)
 end
 
-slot0.inAnim = function (slot0)
+function slot0.inAnim(slot0)
 	if _.any(slot0.pages or {}, function (slot0)
 		return slot0:inAnim()
 	end) then
@@ -48,7 +48,7 @@ slot0.inAnim = function (slot0)
 	return false
 end
 
-slot0.initSummaryInfo = function (slot0)
+function slot0.initSummaryInfo(slot0)
 	slot0.loadingPage = SummaryPageLoading.New(slot0.pageContainer:Find("loading"))
 	slot0.pages = {
 		SummaryPage1.New(slot0:findTF("page1", slot0.pageContainer)),
@@ -96,7 +96,7 @@ slot0.initSummaryInfo = function (slot0)
 	end)
 end
 
-slot0.registerFootEvent = function (slot0)
+function slot0.registerFootEvent(slot0)
 	slot0.footTFs = {}
 
 	for slot4 = 1, #slot0.pages, 1 do
@@ -113,7 +113,7 @@ slot0.registerFootEvent = function (slot0)
 	end
 end
 
-slot0.registerDrag = function (slot0)
+function slot0.registerDrag(slot0)
 	slot0:addVerticalDrag(slot0:findTF("bg"), function ()
 		slot0:updatePageFoot(slot0.currPage + 1)
 	end, function ()
@@ -121,7 +121,7 @@ slot0.registerDrag = function (slot0)
 	end)
 end
 
-slot0.updatePageFoot = function (slot0, slot1)
+function slot0.updatePageFoot(slot0, slot1)
 	if slot0:inAnim() then
 		return
 	end
@@ -133,7 +133,7 @@ slot0.updatePageFoot = function (slot0, slot1)
 	triggerToggle(slot0.footTFs[slot1], true)
 end
 
-slot0.addVerticalDrag = function (slot0, slot1, slot2, slot3)
+function slot0.addVerticalDrag(slot0, slot1, slot2, slot3)
 	slot4 = GetOrAddComponent(slot1, "EventTriggerListener")
 	slot5 = nil
 	slot6 = 0
@@ -163,7 +163,7 @@ slot0.addVerticalDrag = function (slot0, slot1, slot2, slot3)
 	end)
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	for slot4, slot5 in pairs(slot0.pages) do
 		slot5:Dispose()
 	end

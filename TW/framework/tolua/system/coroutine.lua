@@ -13,7 +13,7 @@ setmetatable(slot9, {
 	__mode = "kv"
 })
 
-coroutine.start = function (slot0, ...)
+function coroutine.start(slot0, ...)
 	if slot1() == nil then
 		slot2, slot3 = slot2(slot1, ...)
 
@@ -53,7 +53,7 @@ coroutine.start = function (slot0, ...)
 	return slot1
 end
 
-coroutine.wait = function (slot0, slot1, ...)
+function coroutine.wait(slot0, slot1, ...)
 	slot2 = {
 		...
 	}
@@ -65,7 +65,7 @@ coroutine.wait = function (slot0, slot1, ...)
 	return slot0()
 end
 
-coroutine.step = function (slot0, slot1, ...)
+function coroutine.step(slot0, slot1, ...)
 	slot2 = {
 		...
 	}
@@ -85,7 +85,7 @@ coroutine.step = function (slot0, slot1, ...)
 	return slot8()
 end
 
-coroutine.www = function (slot0, slot1)
+function coroutine.www(slot0, slot1)
 	slot1 = slot1 or slot0()
 	slot2 = nil
 
@@ -102,7 +102,7 @@ coroutine.www = function (slot0, slot1)
 	return slot7()
 end
 
-coroutine.stop = function (slot0)
+function coroutine.stop(slot0)
 	if slot0[slot0] ~= nil then
 		slot0[slot0] = nil
 

@@ -7,25 +7,25 @@ ys.Battle.BattelUAVUnit.__name = "BattelUAVUnit"
 ys.Battle.BattelUAVUnit.MOVE_STATE = "MOVE_STATE"
 ys.Battle.BattelUAVUnit.HOVER_STATE = "HOVER_STATE"
 
-ys.Battle.BattelUAVUnit.Ctor = function (slot0, slot1)
+function ys.Battle.BattelUAVUnit.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 
 	slot0._dir = slot1.Battle.BattleConst.UnitDir.LEFT
 	slot0._type = slot1.Battle.BattleConst.UnitType.UAV_UNIT
 end
 
-ys.Battle.BattelUAVUnit.Update = function (slot0, slot1)
+function ys.Battle.BattelUAVUnit.Update(slot0, slot1)
 	slot0:updatePatrol(slot1)
 end
 
-ys.Battle.BattelUAVUnit.SetTemplate = function (slot0, slot1)
+function ys.Battle.BattelUAVUnit.SetTemplate(slot0, slot1)
 	slot0.super.SetTemplate(slot0, slot1)
 
 	slot0._centerPos = BuildVector3(slot4) + Vector3(slot1.funnel_behavior.offsetX * slot0:GetIFF(), 0, slot1.funnel_behavior.offsetZ)
 	slot0._range = slot1.funnel_behavior.hover_range
 end
 
-ys.Battle.BattelUAVUnit.changePartolState = function (slot0, slot1)
+function ys.Battle.BattelUAVUnit.changePartolState(slot0, slot1)
 	if slot1 == slot0.MOVE_STATE then
 		slot0:changeToMoveState()
 	elseif slot1 == slot0.HOVER_STATE then
@@ -35,7 +35,7 @@ ys.Battle.BattelUAVUnit.changePartolState = function (slot0, slot1)
 	slot0._portalState = slot1
 end
 
-ys.Battle.BattelUAVUnit.AddCreateTimer = function (slot0, slot1, slot2)
+function ys.Battle.BattelUAVUnit.AddCreateTimer(slot0, slot1, slot2)
 	slot0._currentState = slot0.STATE_CREATE
 	slot0._speedDir = slot1
 	slot0._velocity = slot0.Battle.BattleFormulas.ConvertAircraftSpeed(20)
@@ -51,18 +51,18 @@ ys.Battle.BattelUAVUnit.AddCreateTimer = function (slot0, slot1, slot2)
 	end)
 end
 
-ys.Battle.BattelUAVUnit._updateCreate = function (slot0)
+function ys.Battle.BattelUAVUnit._updateCreate(slot0)
 	slot0:UpdateSpeed()
 
 	slot0._pos = slot0._pos + slot0._speed
 end
 
-ys.Battle.BattelUAVUnit.changeToMoveState = function (slot0)
+function ys.Battle.BattelUAVUnit.changeToMoveState(slot0)
 	slot0._cruiseLimit = slot0._centerPos.x
 	slot0.updatePatrol = slot0._updateMove
 end
 
-ys.Battle.BattelUAVUnit._updateMove = function (slot0, slot1)
+function ys.Battle.BattelUAVUnit._updateMove(slot0, slot1)
 	slot0:UpdateSpeed()
 
 	slot0._pos = slot0._pos + slot0._speed
@@ -76,16 +76,16 @@ ys.Battle.BattelUAVUnit._updateMove = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattelUAVUnit.changeToHoverState = function (slot0)
+function ys.Battle.BattelUAVUnit.changeToHoverState(slot0)
 	slot0._hoverStartTime = pg.TimeMgr.GetInstance():GetCombatTime()
 	slot0.updatePatrol = slot0._updateHover
 end
 
-ys.Battle.BattelUAVUnit._updateHover = function (slot0, slot1)
+function ys.Battle.BattelUAVUnit._updateHover(slot0, slot1)
 	slot0._pos = Vector3(math.sin(slot2) * slot0._range, 15, math.cos(slot2) * slot0._range):Add(slot0._centerPos)
 end
 
-ys.Battle.BattelUAVUnit.GetSize = function (slot0)
+function ys.Battle.BattelUAVUnit.GetSize(slot0)
 	if slot0._portalState == slot0.HOVER_STATE then
 		if math.cos(slot1) > 0 and slot2 < 0.2 then
 			slot2 = 0.2

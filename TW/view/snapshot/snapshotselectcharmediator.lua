@@ -1,7 +1,7 @@
 slot0 = class("SnapshotSelectCharMediator", import("..base.ContextMediator"))
 slot0.SELECT_CHAR = "SnapshotSelectCharMediator.SELECT_CHAR"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.viewComponent:setShipGroups(getProxy(CollectionProxy).getGroups(slot1))
 	slot0.viewComponent:setProposeList(getProxy(BayProxy).getProposeGroupList(slot2))
 	slot0:bind(SnapshotSelectCharLayer.ON_INDEX, function (slot0, slot1)

@@ -3,7 +3,7 @@ slot0.ON_STAGE = "ActivityBossBattleMediator:ON_STAGE"
 slot0.ON_GET = "ActivityBossBattleMediator:ON_GET"
 slot0.ON_RANK = "ActivityBossBattleMediator:ON_RANK"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0:bind(slot0.ON_RANK, function (slot0)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.BILLBOARD, {
 			index = PowerRank.TYPE_ACT_BOSS_BATTLE
@@ -48,7 +48,7 @@ slot0.register = function (slot0)
 	})
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		ActivityProxy.ACTIVITY_OPERATION_DONE,
 		GAME.SUBMIT_TASK_DONE,
@@ -57,7 +57,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == ActivityProxy.ACTIVITY_OPERATION_DONE then
@@ -81,7 +81,7 @@ slot0.handleNotification = function (slot0, slot1)
 	end
 end
 
-slot0.playStroys = function (slot0, slot1, slot2)
+function slot0.playStroys(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = pg.expedition_data_template
 

@@ -4,7 +4,7 @@ slot0.STATE_SELECT_POOL = 2
 slot0.STAGE_SELECT_SHIP = 3
 slot0.STAGE_BUILD_SUCCESS = 4
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.selectedPoolType = nil
 	slot0.selectedShipCount = 0
 	slot0.needSelectShipCount = nil
@@ -13,29 +13,29 @@ slot0.register = function (slot0)
 	slot0.tagConstructed = false
 end
 
-slot0.setSelectedPoolNum = function (slot0, slot1)
+function slot0.setSelectedPoolNum(slot0, slot1)
 	slot0.selectedPoolType = slot1
 end
 
-slot0.setSelectedShipList = function (slot0, slot1)
+function slot0.setSelectedShipList(slot0, slot1)
 	slot0.selectedShipIDList = slot1
 end
 
-slot0.updateSelectedPool = function (slot0, slot1)
+function slot0.updateSelectedPool(slot0, slot1)
 	slot0.selectedPoolType = slot1
 	slot0.needSelectShipCount = pg.activity_ship_create[slot1].pickup_num
 	slot0.selectedShipCount = 0
 	slot0.selectedShipIDList = {}
 end
 
-slot0.updatePageState = function (slot0, slot1)
+function slot0.updatePageState(slot0, slot1)
 	if slot1 ~= slot0.STATE_HOME and slot1 ~= slot0.STATE_SELECT_POOL and slot1 ~= slot0.STAGE_SELECT_SHIP and slot1 ~= slot0.STAGE_BUILD_SUCCESS then
 	end
 
 	slot0.pageState = slot1
 end
 
-slot0.insertSelectedShipIDList = function (slot0, slot1)
+function slot0.insertSelectedShipIDList(slot0, slot1)
 	if slot0.selectedShipCount == slot0.needSelectShipCount then
 	end
 
@@ -43,7 +43,7 @@ slot0.insertSelectedShipIDList = function (slot0, slot1)
 	slot0.selectedShipCount = slot0.selectedShipCount + 1
 end
 
-slot0.removeSelectedShipIDList = function (slot0, slot1)
+function slot0.removeSelectedShipIDList(slot0, slot1)
 	if slot0.selectedShipCount == 0 then
 	end
 
@@ -63,19 +63,19 @@ slot0.removeSelectedShipIDList = function (slot0, slot1)
 	end
 end
 
-slot0.getPageState = function (slot0)
+function slot0.getPageState(slot0)
 	return slot0.pageState
 end
 
-slot0.getSelectedPoolType = function (slot0)
+function slot0.getSelectedPoolType(slot0)
 	return slot0.selectedPoolType
 end
 
-slot0.getSelectedShipIDList = function (slot0)
+function slot0.getSelectedShipIDList(slot0)
 	return slot0.selectedShipIDList
 end
 
-slot0.getSelectedShipCount = function (slot0)
+function slot0.getSelectedShipCount(slot0)
 	return slot0.selectedShipCount
 end
 

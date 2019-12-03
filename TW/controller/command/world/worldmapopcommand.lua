@@ -1,6 +1,6 @@
 slot0 = class("WorldMapOpCommand", pm.SimpleCommand)
 
-slot0.execute = function (slot0, slot1)
+function slot0.execute(slot0, slot1)
 	pg.ConnectionMgr.GetInstance():Send(33103, {
 		act = slot1:getBody().op,
 		group_id = slot1.getBody().id or 0,
@@ -52,7 +52,7 @@ slot0.execute = function (slot0, slot1)
 	end)
 end
 
-slot0.BuildDrop = function (slot0, slot1)
+function slot0.BuildDrop(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot1) do
@@ -63,12 +63,12 @@ slot0.BuildDrop = function (slot0, slot1)
 	return slot2
 end
 
-slot0.BuildTransfer = function (slot0, slot1, slot2)
+function slot0.BuildTransfer(slot0, slot1, slot2)
 	slot2.destMapId, slot2.destGridId = WorldMap.ParseMapGridId(slot1.id)
 	slot2.updateFleets = getProxy(WorldProxy):NetBuildMapFleets(slot1.item_list)
 end
 
-slot0.BuildFleetMove = function (slot0, slot1, slot2)
+function slot0.BuildFleetMove(slot0, slot1, slot2)
 	slot3 = nil
 	slot6 = getProxy(WorldProxy).GetWorld(slot4).GetActiveMap(slot5)
 	slot8 = {
@@ -121,7 +121,7 @@ slot0.BuildFleetMove = function (slot0, slot1, slot2)
 	slot2.path = _.rest(slot1, 1)
 end
 
-slot0.BuildFleetPath = function (slot0, slot1, slot2, slot3, slot4)
+function slot0.BuildFleetPath(slot0, slot1, slot2, slot3, slot4)
 	slot8 = getProxy(WorldProxy).GetWorld(slot5).GetActiveMap(slot6).GetFleet(slot7)
 	slot9 = {}
 
@@ -230,7 +230,7 @@ slot0.BuildFleetPath = function (slot0, slot1, slot2, slot3, slot4)
 	slot3.locations = slot12
 end
 
-slot0.BuildFleetAction = function (slot0, slot1)
+function slot0.BuildFleetAction(slot0, slot1)
 	slot4 = getProxy(WorldProxy).GetWorld(slot2).GetActiveMap(slot3)
 
 	_.each(slot1, function (slot0)
@@ -282,7 +282,7 @@ slot0.BuildFleetAction = function (slot0, slot1)
 	return {}
 end
 
-slot0.BuildAttachmentPath = function (slot0, slot1, slot2)
+function slot0.BuildAttachmentPath(slot0, slot1, slot2)
 	slot5 = getProxy(WorldProxy).GetWorld(slot3).GetActiveMap(slot4)
 
 	table.insert(slot7, 1, {
@@ -294,7 +294,7 @@ slot0.BuildAttachmentPath = function (slot0, slot1, slot2)
 	slot2.fullPath = _.rest(slot1, 1)
 end
 
-slot0.BuildAttachmentAction = function (slot0, slot1)
+function slot0.BuildAttachmentAction(slot0, slot1)
 	slot4 = getProxy(WorldProxy).GetWorld(slot2).GetActiveMap(slot3)
 
 	_.each(slot1, function (slot0)
@@ -314,7 +314,7 @@ slot0.BuildAttachmentAction = function (slot0, slot1)
 	return {}
 end
 
-slot0.BuildBlinkAction = function (slot0, slot1, slot2)
+function slot0.BuildBlinkAction(slot0, slot1, slot2)
 	slot3 = nil
 	slot4 = _.detect(slot2, function (slot0)
 		return slot0.type == slot0.type and slot0.id == slot0.id

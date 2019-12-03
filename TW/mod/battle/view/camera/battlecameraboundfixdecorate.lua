@@ -4,11 +4,11 @@ slot2 = ys.Battle.BattleVariable
 ys.Battle.BattleCameraBoundFixDecorate = class("BattleCameraBoundFixDecorate")
 ys.Battle.BattleCameraBoundFixDecorate.__name = "BattleCameraBoundFixDecorate"
 
-ys.Battle.BattleCameraBoundFixDecorate.Ctor = function (slot0)
+function ys.Battle.BattleCameraBoundFixDecorate.Ctor(slot0)
 	return
 end
 
-ys.Battle.BattleCameraBoundFixDecorate.SetMapData = function (slot0, slot1, slot2, slot3, slot4)
+function ys.Battle.BattleCameraBoundFixDecorate.SetMapData(slot0, slot1, slot2, slot3, slot4)
 	slot0._cameraUpperBound = slot1 + 30
 	slot0._cameraLowerBound = slot2 - 5
 	slot0._cameraLeftBound = slot3 - 3
@@ -19,7 +19,7 @@ ys.Battle.BattleCameraBoundFixDecorate.SetMapData = function (slot0, slot1, slot
 	slot0._projectionConst = slot0.CAMERA_SIZE / slot1._camera_radian_x_sin
 end
 
-ys.Battle.BattleCameraBoundFixDecorate.GetCameraPos = function (slot0, slot1)
+function ys.Battle.BattleCameraBoundFixDecorate.GetCameraPos(slot0, slot1)
 	slot2 = slot1.y / slot0._camera_radian_x_tan + slot0._projectionConst
 
 	if slot1.z < slot0._cameraLowerBound then
@@ -37,7 +37,7 @@ ys.Battle.BattleCameraBoundFixDecorate.GetCameraPos = function (slot0, slot1)
 	return slot1
 end
 
-ys.Battle.BattleCameraBoundFixDecorate.Dispose = function (slot0)
+function ys.Battle.BattleCameraBoundFixDecorate.Dispose(slot0)
 	slot0._cameraUpperBound = nil
 	slot0._cameraLowerBound = nil
 	slot0._cameraLeftBound = nil

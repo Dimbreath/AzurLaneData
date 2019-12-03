@@ -13,7 +13,7 @@ slot0.GUILD_EVENT_END = "GuildProxy:GUILD_EVENT_END"
 slot0.UPDATE_FACILITYLOG = "GuildProxy:UPDATE_FACILITYLOG"
 slot0.FACILITY_ADDITION_UPDATED = "GuildProxy:FACILITY_ADDITION_UPDATED"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.data = nil
 	slot0.chatMsgs = {}
 	slot0.eventTip = false
@@ -114,7 +114,7 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.updateFaclityLogs = function (slot0, slot1)
+function slot0.updateFaclityLogs(slot0, slot1)
 	if not slot0.data then
 		return
 	end
@@ -129,7 +129,7 @@ slot0.updateFaclityLogs = function (slot0, slot1)
 	slot0:sendNotification(slot0.UPDATE_FACILITYLOG, slot2)
 end
 
-slot0.updateFacilityAddition = function (slot0, slot1)
+function slot0.updateFacilityAddition(slot0, slot1)
 	if not slot0.data then
 		return
 	end
@@ -150,46 +150,46 @@ slot0.updateFacilityAddition = function (slot0, slot1)
 	slot0:sendNotification(slot0.FACILITY_ADDITION_UPDATED)
 end
 
-slot0.getGuildEvent = function (slot0)
+function slot0.getGuildEvent(slot0)
 	return slot0.guildEvent
 end
 
-slot0.addGuildEvent = function (slot0, slot1)
+function slot0.addGuildEvent(slot0, slot1)
 	slot0.guildEvent = slot1
 
 	slot0:sendNotification(slot0.ADDED_EVENT, slot1)
 end
 
-slot0.updateGuildEvent = function (slot0, slot1)
+function slot0.updateGuildEvent(slot0, slot1)
 	slot0.guildEvent = slot1
 
 	slot0:sendNotification(slot0.UPDATED_EVENT, slot1)
 end
 
-slot0.setRequestList = function (slot0, slot1)
+function slot0.setRequestList(slot0, slot1)
 	slot0.requests = slot1
 end
 
-slot0.addGuild = function (slot0, slot1)
+function slot0.addGuild(slot0, slot1)
 	slot0.data = slot1
 
 	slot0:sendNotification(slot0.NEW_GUILD_ADDED, Clone(slot1))
 end
 
-slot0.updateGuild = function (slot0, slot1)
+function slot0.updateGuild(slot0, slot1)
 	slot0.data = slot1
 
 	slot0:sendNotification(slot0.GUILD_UPDATED, Clone(slot1))
 end
 
-slot0.exitGuild = function (slot0)
+function slot0.exitGuild(slot0)
 	slot0.data = nil
 
 	slot0:clearEvent()
 	slot0:sendNotification(slot0.EXIT_GUILD)
 end
 
-slot0.clearEvent = function (slot0)
+function slot0.clearEvent(slot0)
 	if slot0.guildEvent then
 		slot0.guildEvent = nil
 
@@ -197,7 +197,7 @@ slot0.clearEvent = function (slot0)
 	end
 end
 
-slot0.isNoticesApply = function (slot0)
+function slot0.isNoticesApply(slot0)
 	if not slot0.requests then
 		return false
 	end
@@ -205,11 +205,11 @@ slot0.isNoticesApply = function (slot0)
 	return table.getCount(slot0.requests) + slot0.requestCount > 0
 end
 
-slot0.getRequests = function (slot0)
+function slot0.getRequests(slot0)
 	return slot0.requests
 end
 
-slot0.getSortRequest = function (slot0)
+function slot0.getSortRequest(slot0)
 	if not slot0.requests then
 		return nil
 	end
@@ -223,7 +223,7 @@ slot0.getSortRequest = function (slot0)
 	return slot1
 end
 
-slot0.deleteRequest = function (slot0, slot1)
+function slot0.deleteRequest(slot0, slot1)
 	if not slot0.requests then
 		return
 	end
@@ -233,7 +233,7 @@ slot0.deleteRequest = function (slot0, slot1)
 	slot0:sendNotification(slot0.REQUEST_DELETED, slot1)
 end
 
-slot0.addMsg = function (slot0, slot1)
+function slot0.addMsg(slot0, slot1)
 	table.insert(slot0.chatMsgs, slot1)
 
 	if Guild.CHAT_LOG_MAX_COUNT < #slot0.chatMsgs then
@@ -241,7 +241,7 @@ slot0.addMsg = function (slot0, slot1)
 	end
 end
 
-slot0.getChatMsgs = function (slot0)
+function slot0.getChatMsgs(slot0)
 	return slot0.chatMsgs
 end
 

@@ -1,6 +1,6 @@
 slot0 = class("SipeiTaskPage", import("...base.BaseActivityPage"))
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.slider = slot0:findTF("slider", slot0.bg):GetComponent(typeof(Slider))
 	slot0.step = slot0:findTF("step", slot0.bg):GetComponent(typeof(Text))
@@ -12,7 +12,7 @@ slot0.OnInit = function (slot0)
 	slot0.gotBtn = slot0:findTF("got_btn", slot0.bg)
 end
 
-slot0.OnDataSetting = function (slot0)
+function slot0.OnDataSetting(slot0)
 	slot1 = getProxy(TaskProxy)
 	slot0.taskList = slot0.taskList or slot0.activity:getConfig("config_data")
 
@@ -26,7 +26,7 @@ slot0.OnDataSetting = function (slot0)
 	end
 end
 
-slot0.OnFirstFlush = function (slot0)
+function slot0.OnFirstFlush(slot0)
 	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 	onButton(slot0, slot0.battleBtn, function ()
 		slot0:emit(ActivityMediator.BATTLE_OPERA)
@@ -36,7 +36,7 @@ slot0.OnFirstFlush = function (slot0)
 	end, SFX_PANEL)
 end
 
-slot0.OnUpdateFlush = function (slot0)
+function slot0.OnUpdateFlush(slot0)
 	updateDrop(slot0.awardTF, slot2)
 	onButton(slot0, slot0.awardTF, function ()
 		slot0:emit(BaseUI.ON_DROP, slot0)
@@ -54,7 +54,7 @@ slot0.OnUpdateFlush = function (slot0)
 	setActive(slot0.gotBtn, slot5 == 2)
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	return
 end
 

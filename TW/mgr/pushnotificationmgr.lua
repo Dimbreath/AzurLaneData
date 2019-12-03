@@ -12,7 +12,7 @@ pg.PushNotificationMgr.PUSH_TYPE_COMMANDER = 9
 slot2 = {}
 slot3 = false
 
-pg.PushNotificationMgr.Init = function (slot0)
+function pg.PushNotificationMgr.Init(slot0)
 	slot0 = {}
 
 	for slot4, slot5 in ipairs(slot1.push_data_template) do
@@ -22,7 +22,7 @@ pg.PushNotificationMgr.Init = function (slot0)
 	slot2 = PlayerPrefs.GetInt("setting_ship_name") == 1
 end
 
-pg.PushNotificationMgr.Reset = function (slot0)
+function pg.PushNotificationMgr.Reset(slot0)
 	slot0 = {}
 
 	for slot4, slot5 in ipairs(slot1.push_data_template) do
@@ -36,7 +36,7 @@ pg.PushNotificationMgr.Reset = function (slot0)
 	slot2 = false
 end
 
-pg.PushNotificationMgr.setSwitch = function (slot0, slot1, slot2)
+function pg.PushNotificationMgr.setSwitch(slot0, slot1, slot2)
 	if not slot0.push_data_template[slot1] then
 		return
 	end
@@ -46,30 +46,30 @@ pg.PushNotificationMgr.setSwitch = function (slot0, slot1, slot2)
 	PlayerPrefs.SetInt("push_setting_" .. slot1, (slot2 and 0) or 1)
 end
 
-pg.PushNotificationMgr.setSwitchShipName = function (slot0, slot1)
+function pg.PushNotificationMgr.setSwitchShipName(slot0, slot1)
 	slot0 = slot1
 
 	PlayerPrefs.SetInt("setting_ship_name", (slot1 and 1) or 0)
 end
 
-pg.PushNotificationMgr.isEnabled = function (slot0, slot1)
+function pg.PushNotificationMgr.isEnabled(slot0, slot1)
 	return slot0[slot1]
 end
 
-pg.PushNotificationMgr.isEnableShipName = function (slot0)
+function pg.PushNotificationMgr.isEnableShipName(slot0)
 	return slot0
 end
 
-pg.PushNotificationMgr.Push = function (slot0, slot1, slot2, slot3)
+function pg.PushNotificationMgr.Push(slot0, slot1, slot2, slot3)
 	NotificationMgr.Inst:ScheduleLocalNotification(slot1, slot2, slot5)
 	slot0:log(slot1, slot2, os.time() + slot3 - slot0.TimeMgr.GetInstance():GetServerTime())
 end
 
-pg.PushNotificationMgr.cancelAll = function (slot0)
+function pg.PushNotificationMgr.cancelAll(slot0)
 	NotificationMgr.Inst:CancelAllLocalNotifications()
 end
 
-pg.PushNotificationMgr.PushAll = function (slot0)
+function pg.PushNotificationMgr.PushAll(slot0)
 	if getProxy(PlayerProxy) and slot1:getInited() then
 		slot0:cancelAll()
 
@@ -111,7 +111,7 @@ pg.PushNotificationMgr.PushAll = function (slot0)
 	end
 end
 
-pg.PushNotificationMgr.PushEvent = function (slot0)
+function pg.PushNotificationMgr.PushEvent(slot0)
 	slot2 = slot0.push_data_template[slot0.PUSH_TYPE_EVENT]
 
 	for slot6, slot7 in ipairs(slot1) do
@@ -119,7 +119,7 @@ pg.PushNotificationMgr.PushEvent = function (slot0)
 	end
 end
 
-pg.PushNotificationMgr.PushGold = function (slot0)
+function pg.PushNotificationMgr.PushGold(slot0)
 	slot1 = getProxy(NavalAcademyProxy):GetGoldVO()
 	slot2 = slot1:bindConfigTable()
 	slot3 = slot1:GetLevel()
@@ -132,7 +132,7 @@ pg.PushNotificationMgr.PushGold = function (slot0)
 	end
 end
 
-pg.PushNotificationMgr.PushOil = function (slot0)
+function pg.PushNotificationMgr.PushOil(slot0)
 	slot1 = getProxy(NavalAcademyProxy):GetOilVO()
 	slot2 = slot1:bindConfigTable()
 	slot3 = slot1:GetLevel()
@@ -145,13 +145,13 @@ pg.PushNotificationMgr.PushOil = function (slot0)
 	end
 end
 
-pg.PushNotificationMgr.PushBackyard = function (slot0)
+function pg.PushNotificationMgr.PushBackyard(slot0)
 	if slot0.TimeMgr.GetInstance():GetServerTime() < getProxy(DormProxy):getData().getFoodLeftTime(slot1) then
 		slot0:Push(slot0.push_data_template[slot0.PUSH_TYPE_BACKYARD].title, slot0.push_data_template[slot0.PUSH_TYPE_BACKYARD].content, slot2)
 	end
 end
 
-pg.PushNotificationMgr.PushSchool = function (slot0)
+function pg.PushNotificationMgr.PushSchool(slot0)
 	slot2 = slot0.push_data_template[slot0.PUSH_TYPE_SCHOOL]
 	slot4 = getProxy(BayProxy).getData(slot3)
 
@@ -164,7 +164,7 @@ pg.PushNotificationMgr.PushSchool = function (slot0)
 	end
 end
 
-pg.PushNotificationMgr.PushClass = function (slot0)
+function pg.PushNotificationMgr.PushClass(slot0)
 	slot1 = slot0.push_data_template[slot0.PUSH_TYPE_CLASS]
 
 	if getProxy(NavalAcademyProxy):getCourse():inClass() and slot0.TimeMgr.GetInstance():GetServerTime() < slot2.timestamp + AcademyCourse.MaxStudyTime then
@@ -172,7 +172,7 @@ pg.PushNotificationMgr.PushClass = function (slot0)
 	end
 end
 
-pg.PushNotificationMgr.PushTechnlogy = function (slot0)
+function pg.PushNotificationMgr.PushTechnlogy(slot0)
 	slot2 = getProxy(TechnologyProxy)
 
 	if slot0.push_data_template[slot1.PUSH_TYPE_TECHNOLOGY] and slot2 then
@@ -186,7 +186,7 @@ pg.PushNotificationMgr.PushTechnlogy = function (slot0)
 	end
 end
 
-pg.PushNotificationMgr.PushBluePrint = function (slot0)
+function pg.PushNotificationMgr.PushBluePrint(slot0)
 	slot2 = getProxy(TechnologyProxy)
 	slot3 = getProxy(TaskProxy)
 
@@ -203,7 +203,7 @@ pg.PushNotificationMgr.PushBluePrint = function (slot0)
 	end
 end
 
-pg.PushNotificationMgr.PushCommander = function (slot0)
+function pg.PushNotificationMgr.PushCommander(slot0)
 	slot2 = getProxy(CommanderProxy)
 
 	if slot0.push_data_template[slot1.PUSH_TYPE_COMMANDER] and slot2 then
@@ -217,7 +217,7 @@ pg.PushNotificationMgr.PushCommander = function (slot0)
 	end
 end
 
-pg.PushNotificationMgr.log = function (slot0, slot1, slot2, slot3)
+function pg.PushNotificationMgr.log(slot0, slot1, slot2, slot3)
 	print(slot1, " - ", slot2, " - ", slot3 - os.time(), "s后推送")
 end
 

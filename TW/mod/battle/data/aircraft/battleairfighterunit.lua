@@ -18,7 +18,7 @@ ys.Battle.BattleAirFighterUnit.STRIKE_STATE_ATTACK = 3
 ys.Battle.BattleAirFighterUnit.STRIKE_STATE_UP = 4
 ys.Battle.BattleAirFighterUnit.STRIKE_STATE_FREE = 5
 
-ys.Battle.BattleAirFighterUnit.Ctor = function (slot0, slot1)
+function ys.Battle.BattleAirFighterUnit.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 
 	slot0._dir = slot1.Battle.BattleConst.UnitDir.LEFT
@@ -31,18 +31,18 @@ ys.Battle.BattleAirFighterUnit.Ctor = function (slot0, slot1)
 	slot0._speedDir = Vector3(1, 0, 0)
 end
 
-ys.Battle.BattleAirFighterUnit.Update = function (slot0, slot1)
+function ys.Battle.BattleAirFighterUnit.Update(slot0, slot1)
 	slot0:UpdateSpeed()
 	slot0:updateStrike()
 end
 
-ys.Battle.BattleAirFighterUnit.UpdateWeapon = function (slot0)
+function ys.Battle.BattleAirFighterUnit.UpdateWeapon(slot0)
 	for slot4, slot5 in ipairs(slot0:GetWeapon()) do
 		slot5:Update()
 	end
 end
 
-ys.Battle.BattleAirFighterUnit.CreateWeapon = function (slot0)
+function ys.Battle.BattleAirFighterUnit.CreateWeapon(slot0)
 	slot1 = {}
 
 	if type(slot0._weaponTemplateID) == "table" then
@@ -56,26 +56,26 @@ ys.Battle.BattleAirFighterUnit.CreateWeapon = function (slot0)
 	return slot1
 end
 
-ys.Battle.BattleAirFighterUnit.SetWeaponTemplateID = function (slot0, slot1)
+function ys.Battle.BattleAirFighterUnit.SetWeaponTemplateID(slot0, slot1)
 	slot0._weaponTemplateID = slot1
 end
 
-ys.Battle.BattleAirFighterUnit.SetTemplate = function (slot0, slot1)
+function ys.Battle.BattleAirFighterUnit.SetTemplate(slot0, slot1)
 	slot0:SetAttr(slot1)
 	slot0.super.SetTemplate(slot0, slot1)
 end
 
-ys.Battle.BattleAirFighterUnit.SetAttr = function (slot0, slot1)
+function ys.Battle.BattleAirFighterUnit.SetAttr(slot0, slot1)
 	slot0.Battle.BattleAttr.SetAirFighterAttr(slot0, slot1)
 	slot0:SetIFF(-1)
 end
 
-ys.Battle.BattleAirFighterUnit.UpdateSpeed = function (slot0)
+function ys.Battle.BattleAirFighterUnit.UpdateSpeed(slot0)
 	slot0._speed:Copy(slot0._speedDir)
 	slot0._speed:Mul(slot0._velocity * slot0:GetSpeedRatio())
 end
 
-ys.Battle.BattleAirFighterUnit.Free = function (slot0)
+function ys.Battle.BattleAirFighterUnit.Free(slot0)
 	slot0._undefeated = true
 
 	slot0:LiveCallBack()
@@ -83,7 +83,7 @@ ys.Battle.BattleAirFighterUnit.Free = function (slot0)
 	slot0._aliveState = false
 end
 
-ys.Battle.BattleAirFighterUnit.onDead = function (slot0)
+function ys.Battle.BattleAirFighterUnit.onDead(slot0)
 	slot0._currentState = slot0.STATE_DESTORY
 
 	slot0:DeadCallBack()
@@ -91,43 +91,43 @@ ys.Battle.BattleAirFighterUnit.onDead = function (slot0)
 	slot0._aliveState = false
 end
 
-ys.Battle.BattleAirFighterUnit.GetPosition = function (slot0)
+function ys.Battle.BattleAirFighterUnit.GetPosition(slot0)
 	return slot0._viewPos
 end
 
-ys.Battle.BattleAirFighterUnit.SetFormationIndex = function (slot0, slot1)
+function ys.Battle.BattleAirFighterUnit.SetFormationIndex(slot0, slot1)
 	slot0._formationIndex = slot1
 	slot0._flyStateScale = 12 / (slot1 + 3) + 1
 
 	slot0:DispatchStrikeStateChange()
 end
 
-ys.Battle.BattleAirFighterUnit.GetFormationIndex = function (slot0)
+function ys.Battle.BattleAirFighterUnit.GetFormationIndex(slot0)
 	return slot0._formationIndex
 end
 
-ys.Battle.BattleAirFighterUnit.SetFormationOffset = function (slot0, slot1)
+function ys.Battle.BattleAirFighterUnit.SetFormationOffset(slot0, slot1)
 	slot0._formationOffset = Vector3(slot1.x, slot1.y, slot1.z)
 	slot0._formationOffsetOppo = Vector3(slot1.x * -1, slot1.y, slot1.z)
 end
 
-ys.Battle.BattleAirFighterUnit.SetDeadCallBack = function (slot0, slot1)
+function ys.Battle.BattleAirFighterUnit.SetDeadCallBack(slot0, slot1)
 	slot0._deadCallBack = slot1
 end
 
-ys.Battle.BattleAirFighterUnit.DeadCallBack = function (slot0)
+function ys.Battle.BattleAirFighterUnit.DeadCallBack(slot0)
 	slot0._deadCallBack()
 end
 
-ys.Battle.BattleAirFighterUnit.SetLiveCallBack = function (slot0, slot1)
+function ys.Battle.BattleAirFighterUnit.SetLiveCallBack(slot0, slot1)
 	slot0._liveCallBack = slot1
 end
 
-ys.Battle.BattleAirFighterUnit.LiveCallBack = function (slot0)
+function ys.Battle.BattleAirFighterUnit.LiveCallBack(slot0)
 	slot0._liveCallBack()
 end
 
-ys.Battle.BattleAirFighterUnit.getYShake = function (slot0)
+function ys.Battle.BattleAirFighterUnit.getYShake(slot0)
 	slot1 = slot0._YShakeCurrent or 0
 	slot0._YShakeDir = slot0._YShakeDir or 1
 
@@ -146,27 +146,27 @@ ys.Battle.BattleAirFighterUnit.getYShake = function (slot0)
 	return slot1
 end
 
-ys.Battle.BattleAirFighterUnit.calcYShakeMin = function (slot0)
+function ys.Battle.BattleAirFighterUnit.calcYShakeMin(slot0)
 	slot0._YShakeMin = -0.5 - math.random()
 end
 
-ys.Battle.BattleAirFighterUnit.calcYShakeMax = function (slot0)
+function ys.Battle.BattleAirFighterUnit.calcYShakeMax(slot0)
 	slot0._YShakeMax = 0.5 + math.random()
 end
 
-ys.Battle.BattleAirFighterUnit.DispatchStrikeStateChange = function (slot0)
+function ys.Battle.BattleAirFighterUnit.DispatchStrikeStateChange(slot0)
 	slot0:DispatchEvent(slot0.Event.New(slot1.AIR_STRIKE_STATE_CHANGE, {}))
 end
 
-ys.Battle.BattleAirFighterUnit.GetStrikeState = function (slot0)
+function ys.Battle.BattleAirFighterUnit.GetStrikeState(slot0)
 	return slot0._strikeState
 end
 
-ys.Battle.BattleAirFighterUnit.GetSize = function (slot0)
+function ys.Battle.BattleAirFighterUnit.GetSize(slot0)
 	return slot0._scale
 end
 
-ys.Battle.BattleAirFighterUnit.changeState = function (slot0, slot1)
+function ys.Battle.BattleAirFighterUnit.changeState(slot0, slot1)
 	if slot0._strikeState == slot1 then
 		return
 	end
@@ -200,14 +200,14 @@ ys.Battle.BattleAirFighterUnit.changeState = function (slot0, slot1)
 	slot0:DispatchStrikeStateChange()
 end
 
-ys.Battle.BattleAirFighterUnit.changeToFlyState = function (slot0)
+function ys.Battle.BattleAirFighterUnit.changeToFlyState(slot0)
 	slot0._pos = slot0.Battle.BattleCameraUtil.GetInstance():GetS2WPoint(slot1.AIRFIGHTER_ENTER_POINT)
 	slot0._viewPos = slot0._pos
 
 	slot0.Battle.PlayBattleSFX("battle/plane")
 end
 
-ys.Battle.BattleAirFighterUnit._updatePosFly = function (slot0)
+function ys.Battle.BattleAirFighterUnit._updatePosFly(slot0)
 	slot0._pos:Add(slot0.SPEED_FLY)
 
 	slot0._viewPos = Vector3(slot0._formationOffset.x * slot0._flyStateScale, (slot0._formationOffset.z / 1.7 + slot0:getYShake()) * slot0._flyStateScale, 0).Add(slot1, slot0._pos)
@@ -217,11 +217,11 @@ ys.Battle.BattleAirFighterUnit._updatePosFly = function (slot0)
 	end
 end
 
-ys.Battle.BattleAirFighterUnit.changeToBackState = function (slot0)
+function ys.Battle.BattleAirFighterUnit.changeToBackState(slot0)
 	slot0._pos = Vector3(slot0._pos.x, 15, (not slot0.Battle.BattleDataProxy.GetInstance():GetFleetByIFF(slot1.FRIENDLY_CODE):GetMotion() or slot2:GetPos().z) and 45)
 end
 
-ys.Battle.BattleAirFighterUnit._updatePosBack = function (slot0)
+function ys.Battle.BattleAirFighterUnit._updatePosBack(slot0)
 	slot0._pos:Sub(slot0._speed)
 	slot0._viewPos:Copy(slot0._pos)
 	slot0._viewPos:Sub(slot0._formationOffset)
@@ -231,13 +231,13 @@ ys.Battle.BattleAirFighterUnit._updatePosBack = function (slot0)
 	end
 end
 
-ys.Battle.BattleAirFighterUnit.changeToDownState = function (slot0)
+function ys.Battle.BattleAirFighterUnit.changeToDownState(slot0)
 	slot0._ySpeed = 0.5
 
 	slot0:SetVisitable()
 end
 
-ys.Battle.BattleAirFighterUnit._updatePosDown = function (slot0)
+function ys.Battle.BattleAirFighterUnit._updatePosDown(slot0)
 	slot0._pos:Sub(slot0._speed)
 
 	slot0._pos.y = math.max(slot0.HEIGHT, slot0._pos.y - slot0._ySpeed)
@@ -249,11 +249,11 @@ ys.Battle.BattleAirFighterUnit._updatePosDown = function (slot0)
 	end
 end
 
-ys.Battle.BattleAirFighterUnit.changeToAttackState = function (slot0)
+function ys.Battle.BattleAirFighterUnit.changeToAttackState(slot0)
 	slot0.Battle.PlayBattleSFX("battle/air-atk")
 end
 
-ys.Battle.BattleAirFighterUnit._updatePosAttack = function (slot0)
+function ys.Battle.BattleAirFighterUnit._updatePosAttack(slot0)
 	slot0._pos:Sub(slot0._speed)
 
 	slot0._pos.y = math.max(slot0.HEIGHT, slot0._pos.y - 0.04)
@@ -267,11 +267,11 @@ ys.Battle.BattleAirFighterUnit._updatePosAttack = function (slot0)
 	end
 end
 
-ys.Battle.BattleAirFighterUnit.changeToUpState = function (slot0)
+function ys.Battle.BattleAirFighterUnit.changeToUpState(slot0)
 	slot0._ySpeed = 0.1
 end
 
-ys.Battle.BattleAirFighterUnit._updatePosUp = function (slot0)
+function ys.Battle.BattleAirFighterUnit._updatePosUp(slot0)
 	slot0._pos:Sub(slot0._speed)
 
 	slot0._pos.y = slot0._pos.y + slot0._ySpeed
@@ -283,7 +283,7 @@ ys.Battle.BattleAirFighterUnit._updatePosUp = function (slot0)
 	end
 end
 
-ys.Battle.BattleAirFighterUnit._updateFree = function (slot0)
+function ys.Battle.BattleAirFighterUnit._updateFree(slot0)
 	slot0:Free()
 end
 

@@ -1,6 +1,6 @@
 slot0 = class("SecondAnniversaryCollectPage", import("...base.BaseActivityPage"))
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.btnContainer = slot0:findTF("BtnList")
 	slot0.btn1 = slot0:findTF("1", slot0.btnContainer)
@@ -11,7 +11,7 @@ slot0.OnInit = function (slot0)
 	slot0.btn6 = slot0:findTF("6", slot0.btnContainer)
 end
 
-slot0.OnFirstFlush = function (slot0)
+function slot0.OnFirstFlush(slot0)
 	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 	onButton(slot0, slot0.btn1, function ()
 		slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SKINSHOP)

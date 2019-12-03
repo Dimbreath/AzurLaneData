@@ -5,19 +5,19 @@ slot0.UNLOCK_EQUPMENT_SKIN_POS = {
 	3
 }
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "ShipEquipView"
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0:InitEquipment()
 end
 
-slot0.SetShareData = function (slot0, slot1)
+function slot0.SetShareData(slot0, slot1)
 	slot0.shareData = slot1
 end
 
-slot0.GetShipVO = function (slot0)
+function slot0.GetShipVO(slot0)
 	if slot0.shareData and slot0.shareData.shipVO then
 		return slot0.shareData.shipVO
 	end
@@ -25,11 +25,11 @@ slot0.GetShipVO = function (slot0)
 	return nil
 end
 
-slot0.UpdateUI = function (slot0)
+function slot0.UpdateUI(slot0)
 	slot0:UpdateEquipments(slot0:GetShipVO())
 end
 
-slot0.InitEquipment = function (slot0)
+function slot0.InitEquipment(slot0)
 	slot0.mainPanel = slot0._parentTf.parent
 	slot0.equipRCon = slot0._parentTf:Find("equipment_r_container")
 	slot0.equipLCon = slot0._parentTf:Find("equipment_l_container")
@@ -75,7 +75,7 @@ slot0.InitEquipment = function (slot0)
 	slot0.onSelected = false
 end
 
-slot0.InitEvent = function (slot0)
+function slot0.InitEvent(slot0)
 	onButton(slot0, slot0.equipSkinBtn, function ()
 		slot0, slot1 = Ship.canModifyShip(slot0:GetShipVO())
 
@@ -105,7 +105,7 @@ slot0.InitEvent = function (slot0)
 	end
 end
 
-slot0.OnSelected = function (slot0, slot1)
+function slot0.OnSelected(slot0, slot1)
 	slot2 = pg.UIMgr.GetInstance()
 
 	if slot1 then
@@ -134,7 +134,7 @@ slot0.OnSelected = function (slot0, slot1)
 	slot0.onSelected = slot1
 end
 
-slot0.UpdateEquipments = function (slot0, slot1)
+function slot0.UpdateEquipments(slot0, slot1)
 	slot2 = slot1:getActiveEquipments()
 
 	for slot6, slot7 in ipairs(slot1.equipments) do
@@ -146,7 +146,7 @@ slot0.UpdateEquipments = function (slot0, slot1)
 	end
 end
 
-slot0.UpdateEquipmentPanel = function (slot0, slot1, slot2, slot3)
+function slot0.UpdateEquipmentPanel(slot0, slot1, slot2, slot3)
 	slot7 = findTF(slot5, "efficiency")
 
 	setActive(slot5, slot2)
@@ -288,7 +288,7 @@ slot0.UpdateEquipmentPanel = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-slot0.equipmentCheck = function (slot0, slot1)
+function slot0.equipmentCheck(slot0, slot1)
 	if not slot0:GetShipVO() then
 		return false
 	end
@@ -330,7 +330,7 @@ slot0.equipmentCheck = function (slot0, slot1)
 	return #slot6 > 0
 end
 
-slot0.equipmentEnhance = function (slot0, slot1)
+function slot0.equipmentEnhance(slot0, slot1)
 	slot2 = 1
 	slot3 = slot1.config.label
 
@@ -349,7 +349,7 @@ slot0.equipmentEnhance = function (slot0, slot1)
 	return slot2 == 1
 end
 
-slot0.switch2EquipmentSkinPage = function (slot0)
+function slot0.switch2EquipmentSkinPage(slot0)
 	if slot0.equipSkinLogicPanel:isTweening() then
 		return
 	end
@@ -363,7 +363,7 @@ slot0.switch2EquipmentSkinPage = function (slot0)
 	slot0.equipSkinLogicPanel:updateAll(slot0:GetShipVO())
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	for slot4, slot5 in ipairs(slot0.equipmentNames) do
 		slot5:destroy()
 	end

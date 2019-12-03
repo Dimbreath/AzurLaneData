@@ -1,12 +1,12 @@
 slot0 = class("MonthSignPage", import("...base.BaseActivityPage"))
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.bg = slot0:findTF("bg")
 	slot0.items = slot0:findTF("items")
 	slot0.item = slot0:findTF("item", slot0.items)
 end
 
-slot0.OnDataSetting = function (slot0)
+function slot0.OnDataSetting(slot0)
 	slot0.config = pg.activity_month_sign[slot0.activity.data2]
 
 	if not slot0.config then
@@ -21,7 +21,7 @@ slot0.OnDataSetting = function (slot0)
 	end
 end
 
-slot0.OnFirstFlush = function (slot0)
+function slot0.OnFirstFlush(slot0)
 	slot1 = pg.TimeMgr.GetInstance():GetServerTime()
 
 	if slot0.specialTag then
@@ -62,7 +62,7 @@ slot0.OnFirstFlush = function (slot0)
 	end)
 end
 
-slot0.OnUpdateFlush = function (slot0)
+function slot0.OnUpdateFlush(slot0)
 	if pg.TimeMgr.GetInstance():GetServerTime() < 1572537600 then
 		slot0.monthDays = 28
 	end
@@ -82,7 +82,7 @@ slot0.OnUpdateFlush = function (slot0)
 	end
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	removeAllChildren(slot0.items)
 end
 

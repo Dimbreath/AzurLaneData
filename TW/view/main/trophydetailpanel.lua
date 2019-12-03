@@ -1,6 +1,6 @@
 slot0 = class("TrophyDetailPanel")
 
-slot0.Ctor = function (slot0, slot1, slot2)
+function slot0.Ctor(slot0, slot1, slot2)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0._parent = slot2
@@ -37,11 +37,11 @@ slot0.Ctor = function (slot0, slot1, slot2)
 	slot0._active = false
 end
 
-slot0.SetTrophyGroup = function (slot0, slot1)
+function slot0.SetTrophyGroup(slot0, slot1)
 	slot0._trophyGroup = slot1
 end
 
-slot0.UpdateTrophy = function (slot0, slot1)
+function slot0.UpdateTrophy(slot0, slot1)
 	if slot1 == nil then
 		return
 	end
@@ -87,11 +87,11 @@ slot0.UpdateTrophy = function (slot0, slot1)
 	slot0:updateStepper(slot1)
 end
 
-slot0.updateStepper = function (slot0, slot1)
+function slot0.updateStepper(slot0, slot1)
 	setText(slot0._pageText, slot2 .. "/" .. slot0._trophyGroup:getTrophyCount())
 end
 
-slot0.SetActive = function (slot0, slot1)
+function slot0.SetActive(slot0, slot1)
 	SetActive(slot0._go, slot1)
 
 	slot0._active = slot1
@@ -103,11 +103,11 @@ slot0.SetActive = function (slot0, slot1)
 	end
 end
 
-slot0.IsActive = function (slot0)
+function slot0.IsActive(slot0)
 	return slot0._active
 end
 
-slot0.Dispose = function (slot0)
+function slot0.Dispose(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 end
 

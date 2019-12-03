@@ -1,6 +1,6 @@
 slot0 = class("CygentSwimsuitPage", import(".TemplatePage.SkinTemplatePage"))
 
-slot0.OnFirstFlush = function (slot0)
+function slot0.OnFirstFlush(slot0)
 	slot0.super.OnFirstFlush(slot0)
 	PoolMgr.GetInstance():GetSpineChar("xiaotiane_2", false, function (slot0)
 		slot0.transform.localScale = Vector3(0.7, 0.7, 1)
@@ -12,13 +12,13 @@ slot0.OnFirstFlush = function (slot0)
 	end)
 end
 
-slot0.OnUpdateFlush = function (slot0)
+function slot0.OnUpdateFlush(slot0)
 	slot0.super.OnUpdateFlush(slot0)
 	GetImageSpriteFromAtlasAsync("numbericon/t1/" .. slot0.nday, "", slot0:findTF("day1", slot0.bg))
 	setText(slot0:findTF("progress", slot0.bg), "進度:" .. slot0.nday .. "/10")
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	slot0.super.OnDestroy(slot0)
 
 	if slot0.model then

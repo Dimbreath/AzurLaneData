@@ -13,7 +13,7 @@ slot0.BUY_SHAM_ITEM = "ShopsMediator:BUY_SHAM_ITEM"
 slot0.BUY_ESCORT_ITEM = "ShopsMediator:BUY_ESCORT_ITEM"
 slot0.ON_SKIN_SHOP = "ChargeMediator:ON_SKIN_SHOP"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0:bind(slot0.ON_SKIN_SHOP, function (slot0, slot1)
 		if getProxy(ContextProxy):getCurrentContext() and slot3.scene == SCENE.NAVALACADEMYSCENE then
 		elseif slot3 and slot3.scene == SCENE.CHARGE then
@@ -106,7 +106,7 @@ slot0.register = function (slot0)
 	slot0:sendNotification(slot0.OPEN)
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.SHOPPING_DONE,
 		PlayerProxy.UPDATED,
@@ -128,7 +128,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.REFRESH_MILITARY_SHOP_DONE then

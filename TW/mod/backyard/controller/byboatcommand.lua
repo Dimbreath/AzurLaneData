@@ -1,6 +1,6 @@
 slot0 = class("BYBoatCommand", pm.SimpleCommand)
 
-slot0.execute = function (slot0, slot1)
+function slot0.execute(slot0, slot1)
 	if not slot1:getBody() then
 		return
 	end
@@ -85,7 +85,7 @@ slot0.execute = function (slot0, slot1)
 	end
 end
 
-slot0.checkStageInterActionPos = function (slot0, slot1)
+function slot0.checkStageInterActionPos(slot0, slot1)
 	if slot0.house:canMoveBoatOnFurniture(slot1.id, slot1:getStageId(), slot1:getPosition()) then
 		slot0.backYardHouseProxy:changeShipPos(slot2, slot4)
 		slot0.backYardHouseProxy:addMoveOnFurnitrue(slot2, slot3)
@@ -98,7 +98,7 @@ slot0.checkStageInterActionPos = function (slot0, slot1)
 	end
 end
 
-slot0.checkShipPos = function (slot0, slot1)
+function slot0.checkShipPos(slot0, slot1)
 	slot2 = slot1.id
 	slot3 = slot1:getPosition()
 	slot4 = false
@@ -117,7 +117,7 @@ slot0.checkShipPos = function (slot0, slot1)
 	end
 end
 
-slot0.setPositionForShip = function (slot0, slot1)
+function slot0.setPositionForShip(slot0, slot1)
 	if slot0.house:getSingleByRamdom() then
 		slot0.backYardHouseProxy:changeShipPos(slot1, slot2)
 		slot0.backYardHouseProxy:addShipMove(slot1)

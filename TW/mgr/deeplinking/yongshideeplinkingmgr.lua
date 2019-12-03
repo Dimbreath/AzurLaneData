@@ -8,7 +8,7 @@ function slot3(slot0)
 	end
 end
 
-pg.YongshiDeepLinkingMgr.SetData = function (slot0, slot1)
+function pg.YongshiDeepLinkingMgr.SetData(slot0, slot1)
 	slot0("SetData......")
 
 	slot0.deepLinking = slot1
@@ -16,7 +16,7 @@ pg.YongshiDeepLinkingMgr.SetData = function (slot0, slot1)
 	slot0:SwitchScene()
 end
 
-pg.YongshiDeepLinkingMgr.ShouldSwitchScene = function (slot0)
+function pg.YongshiDeepLinkingMgr.ShouldSwitchScene(slot0)
 	if slot0.deepLinking == nil or slot0.deepLinking:IsEmpty() then
 		slot0("deepLinking is empty")
 
@@ -59,7 +59,7 @@ function slot4(slot0, slot1)
 	end
 end
 
-pg.YongshiDeepLinkingMgr.SwitchScene = function (slot0)
+function pg.YongshiDeepLinkingMgr.SwitchScene(slot0)
 	slot0("SwitchScene......")
 
 	if slot0:ShouldSwitchScene() then
@@ -68,7 +68,7 @@ pg.YongshiDeepLinkingMgr.SwitchScene = function (slot0)
 	end
 end
 
-pg.YongshiDeepLinkingMgr.Clear = function (slot0)
+function pg.YongshiDeepLinkingMgr.Clear(slot0)
 	slot0("Clear......")
 	slot0.deepLinking:Clear()
 

@@ -1,6 +1,6 @@
 slot0 = class("FurnitureDescWindow")
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
 
 	slot0._go = slot1
@@ -21,7 +21,7 @@ slot0.Ctor = function (slot0, slot1)
 	slot0:Init()
 end
 
-slot0.Init = function (slot0)
+function slot0.Init(slot0)
 	onButton(slot0, slot0.descPanel, function ()
 		slot0:Close()
 	end, SFX_PANEL)
@@ -33,7 +33,7 @@ slot0.Init = function (slot0)
 	end, SFX_PANEL)
 end
 
-slot0.Show = function (slot0, slot1, slot2)
+function slot0.Show(slot0, slot1, slot2)
 	slot0.furnitureVO = slot1
 
 	setActive(slot0.descPanelVoiceBtn, slot1:existVoice() and slot1:descVoiceType() == BackYardConst.SOUND_TYPE_EFFECT)
@@ -76,13 +76,13 @@ slot0.Show = function (slot0, slot1, slot2)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.maxFrame)
 end
 
-slot0.Close = function (slot0)
+function slot0.Close(slot0)
 	slot0:stopCV()
 	setActive(slot0.descPanel, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.maxFrame, slot0.descPanel)
 end
 
-slot0.playFurnitureVoice = function (slot0)
+function slot0.playFurnitureVoice(slot0)
 	slot2 = slot0.furnitureVO.getVoice(slot1)
 
 	function slot3()
@@ -110,7 +110,7 @@ slot0.playFurnitureVoice = function (slot0)
 	end
 end
 
-slot0.stopCV = function (slot0)
+function slot0.stopCV(slot0)
 	if slot0.currVoice then
 		slot0.currVoice:Stop(true)
 	end
@@ -118,7 +118,7 @@ slot0.stopCV = function (slot0)
 	slot0.currVoice = nil
 end
 
-slot0.Destroy = function (slot0)
+function slot0.Destroy(slot0)
 	slot0.exited = true
 
 	slot0:Close()

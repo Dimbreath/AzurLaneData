@@ -1,10 +1,10 @@
 slot0 = class("ChallengeShareLayer", import("..base.BaseUI"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "ChallengeShareUI"
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.painting = slot0:findTF("main/Painting")
 	slot0.shipList = slot0:findTF("main/ship_list")
 	slot0.cardTF = slot0:findTF("ship_card", slot0.shipList)
@@ -15,19 +15,19 @@ slot0.init = function (slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 end
 
-slot0.setLevel = function (slot0, slot1)
+function slot0.setLevel(slot0, slot1)
 	slot0.level = slot1
 end
 
-slot0.setShipPaintList = function (slot0, slot1)
+function slot0.setShipPaintList(slot0, slot1)
 	slot0.shipPaintList = slot1
 end
 
-slot0.setFlagShipPaint = function (slot0, slot1)
+function slot0.setFlagShipPaint(slot0, slot1)
 	slot0.flagShipPaint = slot1
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	onButton(slot0, slot0.touchBtn, function ()
 		if slot0.isLoading then
 			return
@@ -51,7 +51,7 @@ slot0.didEnter = function (slot0)
 	slot0:flush()
 end
 
-slot0.flush = function (slot0)
+function slot0.flush(slot0)
 	slot0.funcs = {}
 
 	slot0.itemList:align(#slot0.shipPaintList)
@@ -71,7 +71,7 @@ slot0.flush = function (slot0)
 	setText(slot0.wordTF:Find("Text2"), i18n("challenge_share"))
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 

@@ -1,10 +1,10 @@
 slot0 = class("CommanderReservePage", import("...base.BaseSubView"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "CommanderReserveUI"
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.bg1 = slot0._tf:Find("frame/bg1")
 
 	setActive(slot0.bg1, true)
@@ -78,11 +78,11 @@ slot0.OnInit = function (slot0)
 	setText(slot0._tf:Find("frame/bg1/tip"), i18n("commander_build_rate_tip"))
 end
 
-slot0.setBlock = function (slot0, slot1)
+function slot0.setBlock(slot0, slot1)
 	slot0.block = slot1
 end
 
-slot0.updateValue = function (slot0)
+function slot0.updateValue(slot0)
 	slot0.countTxt.text = slot0.currCnt
 	slot0.consumeTxt.text = CommanderConst.getBoxComsume(slot1)
 	slot0.total = 0
@@ -94,7 +94,7 @@ slot0.updateValue = function (slot0)
 	slot0.totalTxt.text = (slot0.player.gold < slot0.total and "<color=" .. COLOR_RED .. ">" .. slot0.total .. "</color>") or slot0.total
 end
 
-slot0.Update = function (slot0, slot1, slot2)
+function slot0.Update(slot0, slot1, slot2)
 	slot0.count = slot1
 	slot0.currCnt = 1
 	slot0.total = 0
@@ -105,7 +105,7 @@ slot0.Update = function (slot0, slot1, slot2)
 	slot0:Show()
 end
 
-slot0.endAnim = function (slot0)
+function slot0.endAnim(slot0)
 	setActive(slot0.bg1, true)
 	setActive(slot0.bg2, false)
 
@@ -129,7 +129,7 @@ slot0.endAnim = function (slot0)
 	end
 end
 
-slot0.playAnim = function (slot0, slot1, slot2)
+function slot0.playAnim(slot0, slot1, slot2)
 	slot0.callback = slot2
 
 	setActive(slot0.bg1, false)
@@ -169,7 +169,7 @@ slot0.playAnim = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.Show = function (slot0)
+function slot0.Show(slot0)
 	setActive(slot0._tf, true)
 	setActive(slot0.bg1, true)
 	setActive(slot0.bg2, false)
@@ -177,7 +177,7 @@ slot0.Show = function (slot0)
 	slot0.skip = false
 end
 
-slot0.playBoxMove = function (slot0, slot1)
+function slot0.playBoxMove(slot0, slot1)
 	slot2 = cloneTplTo(slot0.boxTF, slot0.boxMove)
 
 	if slot1.id == 20011 then
@@ -193,7 +193,7 @@ slot0.playBoxMove = function (slot0, slot1)
 	end)
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	return
 end
 

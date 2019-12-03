@@ -1,7 +1,7 @@
 slot0 = class("ServerProxy", import(".NetProxy"))
 slot0.SERVERS_UPDATED = "ServerProxy:SERVERS_UPDATED"
 
-slot0.setServers = function (slot0, slot1, slot2)
+function slot0.setServers(slot0, slot1, slot2)
 	slot0.data = {}
 	slot0.lastServer = nil
 	slot0.firstServer = nil
@@ -31,15 +31,15 @@ slot0.setServers = function (slot0, slot1, slot2)
 	slot0.facade:sendNotification(slot0.SERVERS_UPDATED, slot0:getData())
 end
 
-slot0.setLastServer = function (slot0, slot1, slot2)
+function slot0.setLastServer(slot0, slot1, slot2)
 	PlayerPrefs.SetInt("server.id" .. slot2, slot1)
 end
 
-slot0.getLastServer = function (slot0, slot1)
+function slot0.getLastServer(slot0, slot1)
 	return slot0.data[PlayerPrefs.GetInt("server.id" .. slot1)] or slot0.firstServer or slot0.lastServer
 end
 
-slot0.recordLoginedServer = function (slot0, slot1, slot2)
+function slot0.recordLoginedServer(slot0, slot1, slot2)
 	if not table.contains(slot0:getLoginedServer(slot1), tostring(slot2)) then
 		slot0.data[slot2].isLogined = true
 
@@ -49,7 +49,7 @@ slot0.recordLoginedServer = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.getLoginedServer = function (slot0, slot1)
+function slot0.getLoginedServer(slot0, slot1)
 	if not slot0.loginedServerIds or (slot0.recordUid and slot0.recordUid ~= slot1) then
 		slot0.recordUid = slot1
 		slot0.loginedServerIds = string.split(PlayerPrefs.GetString("loginedServer_" .. slot1), ":")

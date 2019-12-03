@@ -9,15 +9,15 @@ slot2 = 4
 slot3 = 100
 slot4 = 0.15
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "AwardInfoUI"
 end
 
-slot0.setAwards = function (slot0, slot1)
+function slot0.setAwards(slot0, slot1)
 	return
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		weight = LayerWeightConst.THIRD_LAYER
 	})
@@ -78,7 +78,7 @@ slot0.init = function (slot0)
 	slot0._tf:SetAsLastSibling()
 end
 
-slot0.doAnim = function (slot0, slot1)
+function slot0.doAnim(slot0, slot1)
 	LeanTween.scale(rtf(slot0._itemsWindow), Vector3(1, 1, 1), 0.15):setEase(LeanTweenType.linear):setOnComplete(System.Action(function ()
 		if slot0 then
 			slot0()
@@ -92,7 +92,7 @@ slot0.doAnim = function (slot0, slot1)
 	end))
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	onButton(slot0, slot0._tf, function ()
 		if not slot0.inited then
 			return
@@ -128,7 +128,7 @@ slot0.didEnter = function (slot0)
 	playSoundEffect(SFX_UI_GETITEM)
 end
 
-slot0.onUIAnimEnd = function (slot0, slot1)
+function slot0.onUIAnimEnd(slot0, slot1)
 	if slot0.contextData.animation then
 		slot0.inAniming = true
 		slot0.containerCG.alpha = 0
@@ -143,7 +143,7 @@ slot0.onUIAnimEnd = function (slot0, slot1)
 	end
 end
 
-slot0.onBackPressed = function (slot0)
+function slot0.onBackPressed(slot0)
 	if LeanTween.isTweening(go(slot0._itemsWindow)) then
 		return
 	end
@@ -164,7 +164,7 @@ function slot5(slot0, slot1)
 	setActive(findTF(slot0, "content/front/new"), slot1.virgin)
 end
 
-slot0.displayAwards = function (slot0)
+function slot0.displayAwards(slot0)
 	slot0.inited = false
 
 	for slot4 = #slot0.awards, slot0.container.childCount - 1, 1 do
@@ -219,7 +219,7 @@ slot0.displayAwards = function (slot0)
 	slot0.inited = true
 end
 
-slot0.playAnim = function (slot0, slot1)
+function slot0.playAnim(slot0, slot1)
 	slot2 = {}
 
 	for slot6 = 1, #slot0.awards, 1 do
@@ -257,7 +257,7 @@ slot0.playAnim = function (slot0, slot1)
 	end)
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	if slot0.title ~= slot0.TITLE.SHIP then
 		for slot4 = 0, slot0.container.childCount - 1, 1 do
 			clearDrop(slot0.container:GetChild(slot4):Find("bg"))

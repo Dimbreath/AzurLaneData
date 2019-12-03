@@ -2,11 +2,11 @@ ys = ys or {}
 ys.Battle.BattleClearWave = class("BattleClearWave", ys.Battle.BattleWaveInfo)
 ys.Battle.BattleClearWave.__name = "BattleClearWave"
 
-ys.Battle.BattleClearWave.Ctor = function (slot0)
+function ys.Battle.BattleClearWave.Ctor(slot0)
 	slot0.super.Ctor(slot0)
 end
 
-ys.Battle.BattleClearWave.DoWave = function (slot0)
+function ys.Battle.BattleClearWave.DoWave(slot0)
 	slot0.super.DoWave(slot0)
 
 	slot1 = slot0.super.DoWave.Battle.BattleState.GetInstance()

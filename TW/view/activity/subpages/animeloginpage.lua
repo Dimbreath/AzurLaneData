@@ -1,6 +1,6 @@
 slot0 = class("AnimeLoginPage", import(".TemplatePage.LoginTemplatePage"))
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.dayProgressImg = slot0:findTF("DayProgress")
 	slot0.awardImg = slot0:findTF("Award")
 	slot0.maskImg = slot0:findTF("Mask", slot0.awardImg)
@@ -48,29 +48,29 @@ slot0.OnInit = function (slot0)
 	end)
 end
 
-slot0.OnDataSetting = function (slot0)
+function slot0.OnDataSetting(slot0)
 	slot0.config = pg.activity_7_day_sign[slot0.activity:getConfig("config_id")]
 	slot0.allDaycount = #slot0.config.front_drops
 	slot0.nday = slot0.activity.data1
 	slot0.curShowDay = slot0.nday
 end
 
-slot0.OnFirstFlush = function (slot0)
+function slot0.OnFirstFlush(slot0)
 	return
 end
 
-slot0.OnUpdateFlush = function (slot0)
+function slot0.OnUpdateFlush(slot0)
 	slot0.nday = slot0.activity.data1
 	slot0.curShowDay = slot0.nday
 
 	slot0:updateAwardInfo(slot0.curShowDay)
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	return
 end
 
-slot0.updateAwardInfo = function (slot0, slot1)
+function slot0.updateAwardInfo(slot0, slot1)
 	setImageSprite(slot0.dayProgressImg, GetSpriteFromAtlas("ui/activityuipage/animelogin_atlas", "tianshu_" .. slot1), true)
 	setImageSprite(slot0.awardImg, GetSpriteFromAtlas("ui/activityuipage/animelogin_atlas", "icon_" .. slot1), true)
 	setActive(slot0.maskImg, slot1 <= slot0.nday)

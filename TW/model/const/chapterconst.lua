@@ -124,7 +124,7 @@ slot0.CellTargetColor = Color.green
 slot0.ChildItem = "item"
 slot0.ChildAttachment = "attachment"
 
-slot0.NeedSelectTarget = function (slot0)
+function slot0.NeedSelectTarget(slot0)
 	return pg.strategy_data_template[slot0].arg[1] == slot0.StgDtAirStrike or slot1.arg[1] == slot0.StgDtCannon
 end
 
@@ -132,7 +132,7 @@ slot0.TraitNone = 0
 slot0.TraitLurk = 1
 slot0.TraitVirgin = 2
 
-slot0.NeedMarkAsLurk = function (slot0)
+function slot0.NeedMarkAsLurk(slot0)
 	if slot0.attachment == slot0.AttachBox then
 		return slot0.flag == 0 and (pg.box_data_template[slot0.attachmentId].type == slot0.BoxDrop or pg.box_data_template[slot0.attachmentId].type == slot0.BoxStrategy or pg.box_data_template[slot0.attachmentId].type == slot0.BoxSupply or pg.box_data_template[slot0.attachmentId].type == slot0.BoxEnemy)
 	else
@@ -140,7 +140,7 @@ slot0.NeedMarkAsLurk = function (slot0)
 	end
 end
 
-slot0.NeedEasePathCell = function (slot0)
+function slot0.NeedEasePathCell(slot0)
 	if slot0.attachment == slot0.AttachNone then
 		return true
 	elseif slot0.attachment == slot0.AttachAmbush then
@@ -170,7 +170,7 @@ slot0.NeedEasePathCell = function (slot0)
 	return false
 end
 
-slot0.NeedClearStep = function (slot0)
+function slot0.NeedClearStep(slot0)
 	if slot0.attachment == slot0.AttachAmbush and slot0.flag == 2 then
 		return true
 	end
@@ -189,7 +189,7 @@ slot0.AchieveType4 = 4
 slot0.AchieveType5 = 5
 slot0.AchieveType6 = 6
 
-slot0.IsAchieved = function (slot0)
+function slot0.IsAchieved(slot0)
 	slot1 = false
 
 	if slot0.type == slot0.AchieveType4 or slot0.type == slot0.AchieveType5 then
@@ -199,7 +199,7 @@ slot0.IsAchieved = function (slot0)
 	end
 end
 
-slot0.GetAchieveDesc = function (slot0, slot1)
+function slot0.GetAchieveDesc(slot0, slot1)
 	slot2 = false
 
 	if _.detect(slot1.achieves, function (slot0)
@@ -251,7 +251,7 @@ slot0.StatusDay = 3
 slot0.StatusNight = 4
 slot0.HpGreen = 3000
 
-slot0.GetAmbushDisplay = function (slot0)
+function slot0.GetAmbushDisplay(slot0)
 	slot1, slot2 = nil
 
 	if not slot0 then
@@ -288,11 +288,11 @@ slot0.ShipStepDuration = 0.5
 slot0.ShipStepQuickPlayScale = 0.5
 slot0.ShipMoveTailLength = 2
 
-slot0.GetRepairParams = function ()
+function slot0.GetRepairParams()
 	return 1, 3, 100
 end
 
-slot0.GetShamRepairParams = function ()
+function slot0.GetShamRepairParams()
 	return 1, 3, 100
 end
 

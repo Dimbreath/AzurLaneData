@@ -20,7 +20,7 @@ function slot2()
 	return slot0
 end
 
-pg.SecondaryPWDMgr.Init = function (slot0, slot1)
+function pg.SecondaryPWDMgr.Init(slot0, slot1)
 	slot0.LIMITED_OPERATION = slot1()
 
 	if slot1 then
@@ -28,7 +28,7 @@ pg.SecondaryPWDMgr.Init = function (slot0, slot1)
 	end
 end
 
-pg.SecondaryPWDMgr.LimitedOperation = function (slot0, slot1, slot2, slot3)
+function pg.SecondaryPWDMgr.LimitedOperation(slot0, slot1, slot2, slot3)
 	if not table.contains(getProxy(SecondaryPWDProxy).getRawData(slot4).system_list, slot1) then
 		if slot3 then
 			slot3()
@@ -73,7 +73,7 @@ pg.SecondaryPWDMgr.LimitedOperation = function (slot0, slot1, slot2, slot3)
 	}))
 end
 
-pg.SecondaryPWDMgr.ChangeSetting = function (slot0, slot1, slot2)
+function pg.SecondaryPWDMgr.ChangeSetting(slot0, slot1, slot2)
 	if table.equal(slot1, getProxy(SecondaryPWDProxy).getRawData(slot3).system_list) then
 		return
 	end
@@ -98,7 +98,7 @@ pg.SecondaryPWDMgr.ChangeSetting = function (slot0, slot1, slot2)
 	}))
 end
 
-pg.SecondaryPWDMgr.SetPassword = function (slot0, slot1)
+function pg.SecondaryPWDMgr.SetPassword(slot0, slot1)
 	if getProxy(SecondaryPWDProxy).getRawData(slot2).state > 0 then
 		return
 	end
@@ -115,7 +115,7 @@ pg.SecondaryPWDMgr.SetPassword = function (slot0, slot1)
 	}))
 end
 
-pg.SecondaryPWDMgr.LoadLayer = function (slot0, slot1)
+function pg.SecondaryPWDMgr.LoadLayer(slot0, slot1)
 	slot3 = getProxy(ContextProxy).getCurrentContext(slot2)
 	slot3 = slot3:getContextByMediator(slot3.mediator)
 
@@ -129,7 +129,7 @@ pg.SecondaryPWDMgr.LoadLayer = function (slot0, slot1)
 	})
 end
 
-pg.SecondaryPWDMgr.ShowWarningWindow = function (slot0)
+function pg.SecondaryPWDMgr.ShowWarningWindow(slot0)
 	slot0.MsgboxMgr.GetInstance():ShowMsgBox({
 		mode = "showresttime",
 		title = "warning",
@@ -138,11 +138,11 @@ pg.SecondaryPWDMgr.ShowWarningWindow = function (slot0)
 	})
 end
 
-pg.SecondaryPWDMgr.FetchData = function (slot0)
+function pg.SecondaryPWDMgr.FetchData(slot0)
 	slot0.m02:sendNotification(GAME.FETCH_PASSWORD_STATE)
 end
 
-pg.SecondaryPWDMgr.IsNormalOp = function (slot0, slot1)
+function pg.SecondaryPWDMgr.IsNormalOp(slot0, slot1)
 	if not slot1 then
 		return false
 	end
@@ -150,7 +150,7 @@ pg.SecondaryPWDMgr.IsNormalOp = function (slot0, slot1)
 	return table.contains(slot0.LIMITED_OPERATION, slot1)
 end
 
-pg.SecondaryPWDMgr.Dispose = function (slot0)
+function pg.SecondaryPWDMgr.Dispose(slot0)
 	return
 end
 
