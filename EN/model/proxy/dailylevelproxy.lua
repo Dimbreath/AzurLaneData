@@ -1,7 +1,7 @@
 slot0 = class("DailyLevelProxy", import(".NetProxy"))
 slot0.ELITE_QUOTA_UPDATE = "DailyLevelProxy:ELITE_QUOTA_UPDATE"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.data = {}
 	slot0.eliteCount = 0
 	slot0.chapterCountList = {}
@@ -25,17 +25,17 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.clearChaptersDefeatCount = function (slot0)
+function slot0.clearChaptersDefeatCount(slot0)
 	slot0.chapterCountList = {}
 end
 
-slot0.getChapterDefeatCount = function (slot0, slot1)
+function slot0.getChapterDefeatCount(slot0, slot1)
 	return (_.detect(slot0.chapterCountList, function (slot0)
 		return slot0.id == slot0
 	end) and slot2.count) or 0
 end
 
-slot0.updateChapterDefeatCount = function (slot0, slot1)
+function slot0.updateChapterDefeatCount(slot0, slot1)
 	slot2 = slot0:getChapterDefeatCount(slot1) + 1
 
 	if _.detect(slot0.chapterCountList, function (slot0)
@@ -50,7 +50,7 @@ slot0.updateChapterDefeatCount = function (slot0, slot1)
 	end
 end
 
-slot0.resetDailyCount = function (slot0)
+function slot0.resetDailyCount(slot0)
 	slot1 = pg.expedition_daily_template
 	slot2 = pg.TimeMgr.GetInstance():GetServerWeek() == 1
 
@@ -65,11 +65,11 @@ slot0.resetDailyCount = function (slot0)
 	slot0:sendNotification(slot0.ELITE_QUOTA_UPDATE)
 end
 
-slot0.IsEliteEnabled = function (slot0)
+function slot0.IsEliteEnabled(slot0)
 	return slot0.eliteCount < pg.gameset.elite_quota.key_value
 end
 
-slot0.EliteCountPlus = function (slot0)
+function slot0.EliteCountPlus(slot0)
 	slot0.eliteCount = math.min(slot0.eliteCount + 1, pg.gameset.elite_quota.key_value)
 
 	slot0:sendNotification(slot0.ELITE_QUOTA_UPDATE)

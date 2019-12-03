@@ -1,7 +1,7 @@
 slot0 = class("TrophyGalleryMediator", import("..base.ContextMediator"))
 slot0.ON_TROPHY_CLAIM = "TrophyGalleryMediator:ON_TROPHY_CLAIM"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot1 = getProxy(CollectionProxy)
 
 	slot0:bind(slot0.ON_TROPHY_CLAIM, function (slot0, slot1)
@@ -13,14 +13,14 @@ slot0.register = function (slot0)
 	slot0.viewComponent:setTrophyList(slot1:getTrophys())
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		CollectionProxy.TROPHY_UPDATE,
 		GAME.TROPHY_CLAIM_DONE
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == CollectionProxy.TROPHY_UPDATE then

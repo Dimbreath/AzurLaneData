@@ -11,7 +11,7 @@ slot1.LAYERS = {
 	"sea"
 }
 
-slot1.Ctor = function (slot0, slot1)
+function slot1.Ctor(slot0, slot1)
 	slot0._go = GameObject.New("scenes")
 	slot0.mapLayerCtrls = {}
 	slot0.materialList = {}
@@ -60,7 +60,7 @@ slot1.Ctor = function (slot0, slot1)
 	return slot0._go
 end
 
-slot1.ShiftSurface = function (slot0, slot1, slot2, slot3, slot4)
+function slot1.ShiftSurface(slot0, slot1, slot2, slot3, slot4)
 	if slot0._shiftTimer then
 		return
 	end
@@ -95,21 +95,21 @@ slot1.ShiftSurface = function (slot0, slot1, slot2, slot3, slot4)
 	end, true)
 end
 
-slot1.UpdateSpeedScaler = function (slot0)
+function slot1.UpdateSpeedScaler(slot0)
 	slot0:setSpeedScaler(slot0.Battle.BattleVariable.MapSpeedRatio)
 end
 
-slot1.UpdateBufferAlpha = function (slot0, slot1)
+function slot1.UpdateBufferAlpha(slot0, slot1)
 	slot0._bufferRenderer.color = Color.New(1, 1, 1, slot1 * 0.1)
 end
 
-slot1.setSpeedScaler = function (slot0, slot1)
+function slot1.setSpeedScaler(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.mapLayerCtrls) do
 		slot6.speedScaler = slot1
 	end
 end
 
-slot1.UpdateMapOffset = function (slot0)
+function slot1.UpdateMapOffset(slot0)
 	slot2 = -0.0005 * slot0.Battle.BattleVariable.MapSpeedRatio
 
 	for slot6, slot7 in ipairs(slot0.materialList) do
@@ -119,7 +119,7 @@ slot1.UpdateMapOffset = function (slot0)
 	end
 end
 
-slot1.Dispose = function (slot0)
+function slot1.Dispose(slot0)
 	if slot0._shiftTimer then
 		pg.TimeMgr.GetInstance():RemoveBattleTimer(slot0._shiftTimer)
 	end
@@ -133,11 +133,11 @@ slot1.Dispose = function (slot0)
 	end
 end
 
-slot1.GetMapResNames = function (slot0, slot1)
+function slot1.GetMapResNames(slot0, slot1)
 	return string.split(pg.map_data[slot0][slot1 .. "_shot"], ";")
 end
 
-slot1.setActive = function (slot0, slot1)
+function slot1.setActive(slot0, slot1)
 	SetActive(slot0._go, slot1)
 end
 

@@ -2,7 +2,7 @@ ys = ys or {}
 ys.Battle.BattleSpawnWave = class("BattleSpawnWave", ys.Battle.BattleWaveInfo)
 ys.Battle.BattleSpawnWave.__name = "BattleSpawnWave"
 
-ys.Battle.BattleSpawnWave.Ctor = function (slot0)
+function ys.Battle.BattleSpawnWave.Ctor(slot0)
 	slot0.super.Ctor(slot0)
 
 	slot0._spawnUnitList = {}
@@ -13,7 +13,7 @@ ys.Battle.BattleSpawnWave.Ctor = function (slot0)
 	slot0._spawnTimerList = {}
 end
 
-ys.Battle.BattleSpawnWave.SetWaveData = function (slot0, slot1)
+function ys.Battle.BattleSpawnWave.SetWaveData(slot0, slot1)
 	slot0.super.SetWaveData(slot0, slot1)
 
 	slot0._sapwnData = slot1.spawn or {}
@@ -24,7 +24,7 @@ ys.Battle.BattleSpawnWave.SetWaveData = function (slot0, slot1)
 	slot0._round = slot0._param.round
 end
 
-ys.Battle.BattleSpawnWave.DoWave = function (slot0)
+function ys.Battle.BattleSpawnWave.DoWave(slot0)
 	slot0.super.DoWave(slot0)
 
 	if slot0._round then
@@ -102,7 +102,7 @@ ys.Battle.BattleSpawnWave.DoWave = function (slot0)
 	end
 end
 
-ys.Battle.BattleSpawnWave.AddMonster = function (slot0, slot1)
+function ys.Battle.BattleSpawnWave.AddMonster(slot0, slot1)
 	if slot1:GetWaveIndex() ~= slot0._index then
 		return
 	end
@@ -110,11 +110,11 @@ ys.Battle.BattleSpawnWave.AddMonster = function (slot0, slot1)
 	slot0._monsterList[slot1:GetUniqueID()] = slot1
 end
 
-ys.Battle.BattleSpawnWave.RemoveMonster = function (slot0, slot1)
+function ys.Battle.BattleSpawnWave.RemoveMonster(slot0, slot1)
 	slot0:onWaveUnitDie(slot1)
 end
 
-ys.Battle.BattleSpawnWave.doSpawn = function (slot0, slot1)
+function ys.Battle.BattleSpawnWave.doSpawn(slot0, slot1)
 	slot2 = slot0.Battle.BattleConst.UnitType.ENEMY_UNIT
 
 	if slot1.bossData then
@@ -124,7 +124,7 @@ ys.Battle.BattleSpawnWave.doSpawn = function (slot0, slot1)
 	slot0._spawnFunc(slot1, slot0._index, slot2)
 end
 
-ys.Battle.BattleSpawnWave.spawnTimer = function (slot0, slot1, slot2)
+function ys.Battle.BattleSpawnWave.spawnTimer(slot0, slot1, slot2)
 	slot3 = nil
 	slot0._spawnTimerList[pg.TimeMgr.GetInstance():AddBattleTimer("", 1, slot2, function ()
 		slot0._spawnTimerList[slot1] = nil
@@ -134,11 +134,11 @@ ys.Battle.BattleSpawnWave.spawnTimer = function (slot0, slot1, slot2)
 	end, true)] = true
 end
 
-ys.Battle.BattleSpawnWave.doAirStrike = function (slot0, slot1)
+function ys.Battle.BattleSpawnWave.doAirStrike(slot0, slot1)
 	slot0._airFunc(slot1)
 end
 
-ys.Battle.BattleSpawnWave.airStrikeTimer = function (slot0, slot1, slot2)
+function ys.Battle.BattleSpawnWave.airStrikeTimer(slot0, slot1, slot2)
 	slot3 = nil
 	slot0._airStrikeTimerList[pg.TimeMgr.GetInstance():AddBattleTimer("", 1, slot2, function ()
 		slot0._airStrikeTimerList[slot1] = nil
@@ -148,7 +148,7 @@ ys.Battle.BattleSpawnWave.airStrikeTimer = function (slot0, slot1, slot2)
 	end, true)] = true
 end
 
-ys.Battle.BattleSpawnWave.doReinforce = function (slot0)
+function ys.Battle.BattleSpawnWave.doReinforce(slot0)
 	slot0._reinforceKillCount = 0
 
 	for slot4, slot5 in ipairs(slot0._reinforce) do
@@ -162,7 +162,7 @@ ys.Battle.BattleSpawnWave.doReinforce = function (slot0)
 	end
 end
 
-ys.Battle.BattleSpawnWave.reinforceTimer = function (slot0, slot1)
+function ys.Battle.BattleSpawnWave.reinforceTimer(slot0, slot1)
 	slot0:clearReinforceTimer()
 
 	slot0._reinforceTimer = pg.TimeMgr.GetInstance():AddBattleTimer("", 1, slot1, function ()
@@ -171,13 +171,13 @@ ys.Battle.BattleSpawnWave.reinforceTimer = function (slot0, slot1)
 	end, true)
 end
 
-ys.Battle.BattleSpawnWave.clearReinforceTimer = function (slot0)
+function ys.Battle.BattleSpawnWave.clearReinforceTimer(slot0)
 	pg.TimeMgr.GetInstance():RemoveBattleTimer(slot0._reinforceTimer)
 
 	slot0._reinforceTimer = nil
 end
 
-ys.Battle.BattleSpawnWave.onWaveUnitDie = function (slot0, slot1)
+function ys.Battle.BattleSpawnWave.onWaveUnitDie(slot0, slot1)
 	if slot0._monsterList[slot1] == nil then
 		return
 	end
@@ -222,19 +222,19 @@ ys.Battle.BattleSpawnWave.onWaveUnitDie = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattleSpawnWave.doPass = function (slot0)
+function ys.Battle.BattleSpawnWave.doPass(slot0)
 	slot0.clearTimerList(slot0._spawnTimerList)
 	slot0:clearReinforceTimer()
 	slot0.super.doPass(slot0)
 end
 
-ys.Battle.BattleSpawnWave.clearTimerList = function (slot0)
+function ys.Battle.BattleSpawnWave.clearTimerList(slot0)
 	for slot4, slot5 in pairs(slot0) do
 		pg.TimeMgr.GetInstance():RemoveBattleTimer(slot4)
 	end
 end
 
-ys.Battle.BattleSpawnWave.Dispose = function (slot0)
+function ys.Battle.BattleSpawnWave.Dispose(slot0)
 	slot0.clearTimerList(slot0._airStrikeTimerList)
 
 	slot0._airStrikeTimerList = nil

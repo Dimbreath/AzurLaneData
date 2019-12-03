@@ -3,7 +3,7 @@ slot0.EVENT_GO_SCENE = "event go scene"
 slot0.EVENT_COLORING_CELL = "event coloring cell"
 slot0.EVENT_COLORING_CLEAR = "event coloring clear"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0:bind(slot0.EVENT_GO_SCENE, function (slot0, slot1, slot2)
 		slot0:sendNotification(GAME.GO_SCENE, slot1, slot2)
 	end)
@@ -22,7 +22,7 @@ slot0.register = function (slot0)
 	slot0:tryColoringAchieve()
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.COLORING_CELL_DONE,
 		GAME.COLORING_CLEAR_DONE,
@@ -30,7 +30,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.COLORING_CELL_DONE then
@@ -52,7 +52,7 @@ slot0.handleNotification = function (slot0, slot1)
 	end
 end
 
-slot0.tryColoringAchieve = function (slot0)
+function slot0.tryColoringAchieve(slot0)
 	for slot6, slot7 in ipairs(slot2) do
 		if slot7:getState() == ColorGroup.StateFinish and slot7:getHasAward() then
 			slot0:sendNotification(GAME.COLORING_ACHIEVE, {

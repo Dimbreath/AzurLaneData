@@ -14,23 +14,23 @@ slot2 = 467
 slot3 = 812.5
 slot4 = 1200
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "ColoringUI"
 end
 
-slot0.setActivity = function (slot0, slot1)
+function slot0.setActivity(slot0, slot1)
 	slot0.activity = slot1
 end
 
-slot0.setColorItems = function (slot0, slot1)
+function slot0.setColorItems(slot0, slot1)
 	slot0.colorItems = slot1
 end
 
-slot0.setColorGroups = function (slot0, slot1)
+function slot0.setColorGroups(slot0, slot1)
 	slot0.colorGroups = slot1
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.topPanel = slot0:findTF("top")
 	slot0.btnBack = slot0:findTF("top/btnBack")
 	slot0.title = slot0:findTF("center/title_bar/text")
@@ -69,7 +69,7 @@ slot0.init = function (slot0)
 	setActive(slot0.barExtra, false)
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	onButton(slot0, slot0.btnBack, function ()
 		if slot0.exited then
 			return
@@ -98,17 +98,17 @@ slot0.didEnter = function (slot0)
 	slot0:updatePage()
 end
 
-slot0.uiStartAnimating = function (slot0)
+function slot0.uiStartAnimating(slot0)
 	slot0.topPanel.anchoredPosition = Vector2(0, slot0.topPanel.rect.height)
 
 	shiftPanel(slot0.topPanel, nil, 0, 0.3, 0, true, true, nil)
 end
 
-slot0.uiExitAnimating = function (slot0)
+function slot0.uiExitAnimating(slot0)
 	shiftPanel(slot0.topPanel, nil, slot0.topPanel.rect.height, 0.3, 0, true, true, nil)
 end
 
-slot0.initColoring = function (slot0)
+function slot0.initColoring(slot0)
 	onButton(slot0, slot0.btnEraserAll, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("coloring_erase_all_warning"),
@@ -147,7 +147,7 @@ slot0.initColoring = function (slot0)
 	triggerToggle(slot0.groupColor:GetChild(0), true)
 end
 
-slot0.initInteractive = function (slot0)
+function slot0.initInteractive(slot0)
 	for slot4, slot5 in pairs(slot0.paintsgroup) do
 		slot7 = slot0.colorGroups[slot4]
 
@@ -197,7 +197,7 @@ slot0.initInteractive = function (slot0)
 	end, SFX_PANEL)
 end
 
-slot0.updatePage = function (slot0)
+function slot0.updatePage(slot0)
 	for slot4, slot5 in pairs(slot0.paintsgroup) do
 		setActive(slot5:Find("lock"), slot0.colorGroups[slot4].getState(slot7) == ColorGroup.StateLock)
 		setActive(slot5:Find("get"), slot8 == ColorGroup.StateAchieved)
@@ -214,7 +214,7 @@ slot0.updatePage = function (slot0)
 	end
 end
 
-slot0.updateSelectedColoring = function (slot0)
+function slot0.updateSelectedColoring(slot0)
 	slot2 = slot0.colorGroups[slot0.selectedIndex].getConfig(slot1, "color_id_list")
 	slot3 = slot0.colorGroups[slot0.selectedIndex].colors
 
@@ -239,7 +239,7 @@ slot0.updateSelectedColoring = function (slot0)
 	slot0:updateLines()
 end
 
-slot0.updateCells = function (slot0)
+function slot0.updateCells(slot0)
 	slot5, slot3 = unpack(slot0.colorGroups[slot0.selectedIndex].getConfig(slot1, "theme"))
 
 	for slot7 = 0, slot2, 1 do
@@ -323,7 +323,7 @@ slot0.updateCells = function (slot0)
 	end)
 end
 
-slot0.updateCell = function (slot0, slot1, slot2)
+function slot0.updateCell(slot0, slot1, slot2)
 	slot4 = slot0.colorGroups[slot0.selectedIndex].getCell(slot3, slot1, slot2)
 	slot5 = slot0.colorGroups[slot0.selectedIndex].getFill(slot3, slot1, slot2)
 
@@ -353,13 +353,13 @@ slot0.updateCell = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.calcCellSize = function (slot0)
+function slot0.calcCellSize(slot0)
 	slot2, slot3 = unpack(slot0.colorGroups[slot0.selectedIndex].getConfig(slot1, "theme"))
 
 	return Vector2.New(slot0.bg.rect.width / slot3, slot0.bg.rect.height / slot2)
 end
 
-slot0.updateLines = function (slot0)
+function slot0.updateLines(slot0)
 	slot2, slot3 = unpack(slot0.colorGroups[slot0.selectedIndex].getConfig(slot1, "theme"))
 
 	for slot7 = 1, slot3 - 1, 1 do
@@ -373,7 +373,7 @@ slot0.updateLines = function (slot0)
 	end
 end
 
-slot0.searchColoringCells = function (slot0, slot1, slot2, slot3, slot4)
+function slot0.searchColoringCells(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {
 		row = slot2,
 		column = slot3,
@@ -454,13 +454,13 @@ slot0.searchColoringCells = function (slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-slot0.tryPlayStory = function (slot0)
+function slot0.tryPlayStory(slot0)
 	if nil then
 		pg.StoryMgr.GetInstance():Play(slot1)
 	end
 end
 
-slot0.onBackPressed = function (slot0)
+function slot0.onBackPressed(slot0)
 	playSoundEffect(SFX_CANCEL)
 	triggerButton(slot0.btnBack)
 end

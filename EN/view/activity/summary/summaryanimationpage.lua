@@ -1,10 +1,10 @@
 slot0 = class("SummaryAnimationPage", import(".SummaryPage"))
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	return
 end
 
-slot0.Show = function (slot0, slot1)
+function slot0.Show(slot0, slot1)
 	setActive(slot0._tf, true)
 
 	slot0.inAniming = true
@@ -18,7 +18,7 @@ slot0.Show = function (slot0, slot1)
 	end)
 end
 
-slot0.inAnim = function (slot0)
+function slot0.inAnim(slot0)
 	return slot0.inAniming
 end
 

@@ -1,6 +1,6 @@
 slot0 = class("SpecialActivityCommand", pm.SimpleCommand)
 
-slot0.execute = function (slot0, slot1)
+function slot0.execute(slot0, slot1)
 	slot2 = getProxy(ActivityProxy):getActivityById(ActivityConst.ACT_NPC_SHIP_ID)
 
 	if not getProxy(BayProxy).isClearNpc and (not slot2 or slot2:isEnd()) then
@@ -18,7 +18,7 @@ slot0.execute = function (slot0, slot1)
 	end
 end
 
-slot0.unloadEquipments = function (slot0, slot1)
+function slot0.unloadEquipments(slot0, slot1)
 	slot2 = getProxy(EquipmentProxy)
 
 	for slot7, slot8 in pairs(slot3) do
@@ -34,7 +34,7 @@ slot0.unloadEquipments = function (slot0, slot1)
 	end
 end
 
-slot0.checkChapters = function (slot0, slot1)
+function slot0.checkChapters(slot0, slot1)
 	if getProxy(ChapterProxy):getActiveChapter() then
 		for slot8, slot9 in pairs(slot4) do
 			if slot9:containsShip(slot1.id) then
@@ -56,7 +56,7 @@ slot0.checkChapters = function (slot0, slot1)
 	end
 end
 
-slot0.checkFormations = function (slot0, slot1)
+function slot0.checkFormations(slot0, slot1)
 	for slot7, slot8 in pairs(slot3) do
 		if slot8:containShip(slot1) then
 			slot8:removeShip(slot1)
@@ -65,7 +65,7 @@ slot0.checkFormations = function (slot0, slot1)
 	end
 end
 
-slot0.checkNavTactics = function (slot0, slot1)
+function slot0.checkNavTactics(slot0, slot1)
 	for slot7, slot8 in ipairs(slot3) do
 		if slot8.shipId == slot1.id then
 			slot2:deleteStudent(slot8.id)

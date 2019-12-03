@@ -66,15 +66,15 @@ slot2 = {
 	"equipment"
 }
 
-slot0.Type2Name = function (slot0)
+function slot0.Type2Name(slot0)
 	return pg.equip_data_by_type[slot0].type_name
 end
 
-slot0.Type2Name2 = function (slot0)
+function slot0.Type2Name2(slot0)
 	return pg.equip_data_by_type[slot0].type_name2
 end
 
-slot0.type2Tag = function (slot0)
+function slot0.type2Tag(slot0)
 	if not slot0.tagPrints then
 		slot0.tagPrints = {
 			"4",
@@ -100,15 +100,15 @@ slot0.type2Tag = function (slot0)
 	return slot0.tagPrints[slot0]
 end
 
-slot0.isAircraft = function (slot0)
+function slot0.isAircraft(slot0)
 	return pg.equip_data_template[slot0].type == slot0.FighterAircraft or slot1 == slot0.TorpedoAircraft or slot1 == slot0.BomberAircraft or slot1 == slot0.SeaPlane or slot1 == slot0.AntiSubAircraft
 end
 
-slot0.isDevice = function (slot0)
+function slot0.isDevice(slot0)
 	return pg.equip_data_template[slot0].type == slot0.Equipment or slot1 == slot0.Sonar or slot1 == slot0.Helicopter
 end
 
-slot0.type2Title = function (slot0, slot1)
+function slot0.type2Title(slot0, slot1)
 	if slot1 <= 4 then
 		return slot0[slot0]
 	elseif slot1 == slot1.Torpedo then
@@ -205,7 +205,7 @@ function slot8(slot0)
 	return ""
 end
 
-slot0.Types2Title = function (slot0, slot1)
+function slot0.Types2Title(slot0, slot1)
 	slot3 = pg.ship_data_template[slot1]["equip_" .. slot0]
 
 	if slot0 == 1 then
@@ -219,7 +219,7 @@ slot0.Types2Title = function (slot0, slot1)
 	end
 end
 
-slot0.LabelToName = function (slot0)
+function slot0.LabelToName(slot0)
 	if slot0 == "antiair" then
 		slot0 = "air_defense_artillery"
 	elseif slot0 == "equipment" then

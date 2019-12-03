@@ -273,7 +273,7 @@ slot0.LIMIT_SKIN_SHOP_TIME = {
 	}
 }
 
-slot0.BBRule = function (slot0)
+function slot0.BBRule(slot0)
 	_.each(slot0, function (slot0)
 		slot0[slot0] = slot0[slot0] + 1
 	end)

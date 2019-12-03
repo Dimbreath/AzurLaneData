@@ -1,6 +1,6 @@
 slot0 = class("SecondAnniversaryPage", import("...base.BaseActivityPage"))
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.btnShop = slot0:findTF("BtnShop")
 	slot0.btnContainer = slot0:findTF("BtnList/Viewport/Content")
@@ -46,7 +46,7 @@ slot0.OnInit = function (slot0)
 	}
 end
 
-slot0.OnFirstFlush = function (slot0)
+function slot0.OnFirstFlush(slot0)
 	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 	onButton(slot0, slot0.btnShop, function ()
 		slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SKINSHOP)
@@ -55,7 +55,7 @@ slot0.OnFirstFlush = function (slot0)
 	slot0:initBtn(slot0.btnList2)
 end
 
-slot0.initBtn = function (slot0, slot1)
+function slot0.initBtn(slot0, slot1)
 	onButton(slot0, slot1[1], function ()
 		slot0:emit(ActivityMediator.GO_PRAY_POOL)
 	end, SFX_PANEL)
@@ -89,7 +89,7 @@ slot0.initBtn = function (slot0, slot1)
 	end, SFX_PANEL)
 end
 
-slot0.srollAnimation = function (slot0)
+function slot0.srollAnimation(slot0)
 	slot1 = slot0.Content.localPosition.x
 	slot2 = slot0.Content.localPosition.y
 	slot3 = slot0.Content.localPosition.z

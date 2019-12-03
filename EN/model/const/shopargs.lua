@@ -34,7 +34,7 @@ slot0.ShopShamBattle = 5
 slot0.ShopEscort = 6
 slot0.DORM_FLOOR_ID = 19
 
-slot0.getOilByLevel = function (slot0)
+function slot0.getOilByLevel(slot0)
 	return 500 + slot0 * 3
 end
 

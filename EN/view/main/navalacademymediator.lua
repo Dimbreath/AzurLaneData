@@ -20,7 +20,7 @@ slot0.OPEN_SCROLL = "NavalAcademyMediator:OPEN_SCROLL"
 slot0.OPEN_COMMANDER = "NavalAcademyMediator:OPEN_COMMANDER"
 slot0.OPEN_TROPHY_GALLERY = "NavalAcademyMediator:OPEN_TROPHY_GALLERY"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot1 = getProxy(NavalAcademyProxy)
 
 	slot0.viewComponent:SetCourseInfo(slot2)
@@ -148,7 +148,7 @@ slot0.register = function (slot0)
 	slot6:setFlag("blockResourceUpgrade", true)
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		NavalAcademyProxy.RESOURCE_UPGRADE,
 		NavalAcademyProxy.START_LEARN_TACTICS,
@@ -163,7 +163,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.HARVEST_RES_DONE then

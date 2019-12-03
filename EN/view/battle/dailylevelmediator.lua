@@ -10,7 +10,7 @@ slot0.ON_CHALLENGE_FLEET_RECOMMEND = "DailyLevelMediator.ON_CHALLENGE_FLEET_RECO
 slot0.ON_CHALLENGE_OPEN_DOCK = "DailyLevelMediator:ON_CHALLENGE_OPEN_DOCK"
 slot0.ON_CHALLENGE_OPEN_RANK = "DailyLevelMediator:ON_CHALLENGE_OPEN_RANK"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.viewComponent:setDailyCounts(getProxy(DailyLevelProxy).getRawData(slot1))
 
 	slot2 = getProxy(BayProxy)
@@ -150,7 +150,7 @@ slot0.register = function (slot0)
 	end
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		PlayerProxy.UPDATED,
 		ChallengeProxy.PRECOMBAT,
@@ -160,7 +160,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == PlayerProxy.UPDATED then
@@ -189,7 +189,7 @@ slot0.handleNotification = function (slot0, slot1)
 	end
 end
 
-slot0.getDockCallbackFuncs = function (slot0, slot1, slot2)
+function slot0.getDockCallbackFuncs(slot0, slot1, slot2)
 	slot3 = getProxy(BayProxy)
 	slot6 = getProxy(ChallengeProxy).getCurrentChallengeInfo(slot4).getShips(slot5)
 

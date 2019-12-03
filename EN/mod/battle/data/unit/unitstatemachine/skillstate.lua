@@ -2,75 +2,75 @@ ys = ys or {}
 ys.Battle.SkillState = class("SkillState", ys.Battle.IUnitState)
 ys.Battle.SkillState.__name = "SkillState"
 
-ys.Battle.SkillState.Ctor = function (slot0)
+function ys.Battle.SkillState.Ctor(slot0)
 	slot0.super.Ctor()
 end
 
-ys.Battle.SkillState.AddIdleState = function (slot0, slot1, slot2)
+function ys.Battle.SkillState.AddIdleState(slot0, slot1, slot2)
 	return
 end
 
-ys.Battle.SkillState.AddMoveState = function (slot0, slot1, slot2)
+function ys.Battle.SkillState.AddMoveState(slot0, slot1, slot2)
 	return
 end
 
-ys.Battle.SkillState.AddMoveLeftState = function (slot0, slot1, slot2)
+function ys.Battle.SkillState.AddMoveLeftState(slot0, slot1, slot2)
 	return
 end
 
-ys.Battle.SkillState.AddAttackState = function (slot0, slot1, slot2)
+function ys.Battle.SkillState.AddAttackState(slot0, slot1, slot2)
 	slot1:OnAttackState(slot2)
 end
 
-ys.Battle.SkillState.AddDeadState = function (slot0, slot1, slot2)
+function ys.Battle.SkillState.AddDeadState(slot0, slot1, slot2)
 	slot1:OnDeadState()
 end
 
-ys.Battle.SkillState.AddSpellState = function (slot0, slot1, slot2)
+function ys.Battle.SkillState.AddSpellState(slot0, slot1, slot2)
 	slot1:OnSpellState()
 end
 
-ys.Battle.SkillState.AddSkillState = function (slot0, slot1, slot2)
+function ys.Battle.SkillState.AddSkillState(slot0, slot1, slot2)
 	return
 end
 
-ys.Battle.SkillState.AddVictoryState = function (slot0, slot1, slot2)
+function ys.Battle.SkillState.AddVictoryState(slot0, slot1, slot2)
 	slot1:OnVictoryState()
 end
 
-ys.Battle.SkillState.AddVictorySwimState = function (slot0, slot1, slot2)
+function ys.Battle.SkillState.AddVictorySwimState(slot0, slot1, slot2)
 	slot1:OnVictorySwimState()
 end
 
-ys.Battle.SkillState.AddStandState = function (slot0, slot1, slot2)
+function ys.Battle.SkillState.AddStandState(slot0, slot1, slot2)
 	return
 end
 
-ys.Battle.SkillState.AddDiveState = function (slot0, slot1, slot2)
+function ys.Battle.SkillState.AddDiveState(slot0, slot1, slot2)
 	return
 end
 
-ys.Battle.SkillState.AddDiveLeftState = function (slot0, slot1, slot2)
+function ys.Battle.SkillState.AddDiveLeftState(slot0, slot1, slot2)
 	return
 end
 
-ys.Battle.SkillState.AddInterruptState = function (slot0, slot1, slot2)
+function ys.Battle.SkillState.AddInterruptState(slot0, slot1, slot2)
 	slot1:OnInterruptState()
 end
 
-ys.Battle.SkillState.AddDivingState = function (slot0, slot1, slot2)
+function ys.Battle.SkillState.AddDivingState(slot0, slot1, slot2)
 	return
 end
 
-ys.Battle.SkillState.OnTrigger = function (slot0, slot1)
+function ys.Battle.SkillState.OnTrigger(slot0, slot1)
 	return
 end
 
-ys.Battle.SkillState.OnStart = function (slot0, slot1)
+function ys.Battle.SkillState.OnStart(slot0, slot1)
 	return
 end
 
-ys.Battle.SkillState.OnEnd = function (slot0, slot1)
+function ys.Battle.SkillState.OnEnd(slot0, slot1)
 	if slot1:GetTarget():IsMoving() then
 		slot1:OnMoveState()
 	else
@@ -78,7 +78,7 @@ ys.Battle.SkillState.OnEnd = function (slot0, slot1)
 	end
 end
 
-ys.Battle.SkillState.CacheWeapon = function (slot0)
+function ys.Battle.SkillState.CacheWeapon(slot0)
 	return true
 end
 

@@ -3,18 +3,18 @@ slot1 = ys.Battle.BattleResourceManager
 ys.Battle.BattleCharacterFXContainersPool = singletonClass("BattleCharacterFXContainersPool")
 ys.Battle.BattleCharacterFXContainersPool.__name = "BattleCharacterFXContainersPool"
 
-ys.Battle.BattleCharacterFXContainersPool.Ctor = function (slot0)
+function ys.Battle.BattleCharacterFXContainersPool.Ctor(slot0)
 	return
 end
 
-ys.Battle.BattleCharacterFXContainersPool.Init = function (slot0)
+function ys.Battle.BattleCharacterFXContainersPool.Init(slot0)
 	slot0._pool = {}
 	slot0._templateContainer = GameObject("characterFXContainerPoolParent")
 	slot0._templateContainerTf = slot0._templateContainer.transform
 	slot0._templateContainerTf.position = Vector3(-10000, -10000, 0)
 end
 
-ys.Battle.BattleCharacterFXContainersPool.Pop = function (slot0, slot1, slot2)
+function ys.Battle.BattleCharacterFXContainersPool.Pop(slot0, slot1, slot2)
 	slot3 = slot1.localEulerAngles
 	slot2 = slot2 or {
 		{
@@ -67,7 +67,7 @@ ys.Battle.BattleCharacterFXContainersPool.Pop = function (slot0, slot1, slot2)
 	return slot4
 end
 
-ys.Battle.BattleCharacterFXContainersPool.Push = function (slot0, slot1)
+function ys.Battle.BattleCharacterFXContainersPool.Push(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		slot6.transform.SetParent(slot7, slot0._templateContainerTf, false)
 
@@ -79,7 +79,7 @@ ys.Battle.BattleCharacterFXContainersPool.Push = function (slot0, slot1)
 	slot0._pool[#slot0._pool + 1] = slot1
 end
 
-ys.Battle.BattleCharacterFXContainersPool.Clear = function (slot0)
+function ys.Battle.BattleCharacterFXContainersPool.Clear(slot0)
 	for slot4, slot5 in ipairs(slot0._pool) do
 		for slot9, slot10 in ipairs(slot5) do
 			Object.Destroy(slot10)

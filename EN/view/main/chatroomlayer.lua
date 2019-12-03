@@ -1,26 +1,26 @@
 slot0 = class("ChatRoomLayer", import("..base.BaseUI"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "ChatRoomUI"
 end
 
-slot0.setFriendVO = function (slot0, slot1)
+function slot0.setFriendVO(slot0, slot1)
 	slot0.friendVO = slot1
 end
 
-slot0.setFriends = function (slot0, slot1)
+function slot0.setFriends(slot0, slot1)
 	slot0.friendVOs = slot1
 end
 
-slot0.setPlayer = function (slot0, slot1)
+function slot0.setPlayer(slot0, slot1)
 	slot0.playerVO = slot1
 end
 
-slot0.setCacheMsgs = function (slot0, slot1)
+function slot0.setCacheMsgs(slot0, slot1)
 	slot0.cacheMsgsVOs = slot1
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.frame = slot0:findTF("frame")
 	slot0.friendView = slot0:findTF("left_length/scrollView", slot0.frame)
 	slot0.chatPanel = slot0:findTF("notification_panel", slot0.frame)
@@ -40,7 +40,7 @@ slot0.init = function (slot0)
 	slot0.mainPanel = pg.UIMgr.GetInstance().UIMain
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	onButton(slot0, slot1, function ()
 		slot1:emit(ChatRoomMediator.OPEN_EMOJI, Vector3(slot0.position.x, slot0.position.y, 0), function (slot0)
 			slot0:sendMessage(string.gsub(ChatConst.EmojiCode, "code", slot0))
@@ -55,22 +55,22 @@ slot0.didEnter = function (slot0)
 	slot0:initFriends()
 end
 
-slot0.initFriends = function (slot0)
+function slot0.initFriends(slot0)
 	slot0.friendItems = {}
 	slot0.friendRect = slot0.friendView:GetComponent("LScrollRect")
 
-	slot0.friendRect.onInitItem = function (slot0)
+	function slot0.friendRect.onInitItem(slot0)
 		slot0:initFriend(slot0)
 	end
 
-	slot0.friendRect.onUpdateItem = function (slot0, slot1)
+	function slot0.friendRect.onUpdateItem(slot0, slot1)
 		slot0:updateFriend(slot0, slot1)
 	end
 
 	slot0:sortFriend()
 end
 
-slot0.createFriendItem = function (slot0, slot1)
+function slot0.createFriendItem(slot0, slot1)
 	slot3 = slot0.friendVO
 
 	return {
@@ -133,7 +133,7 @@ slot0.createFriendItem = function (slot0, slot1)
 	}
 end
 
-slot0.updateFriend = function (slot0, slot1, slot2)
+function slot0.updateFriend(slot0, slot1, slot2)
 	if not slot0.friendItems[slot2] then
 		slot0:initFriend(slot2)
 
@@ -143,7 +143,7 @@ slot0.updateFriend = function (slot0, slot1, slot2)
 	slot3:update(slot0.friendVOs[slot1 + 1])
 end
 
-slot0.initFriend = function (slot0, slot1)
+function slot0.initFriend(slot0, slot1)
 	onToggle(slot0, slot0:createFriendItem(slot1).tf, function (slot0)
 		if slot0 and slot0.friendVO then
 			slot1:openChatPanel(slot0.friendVO)
@@ -158,7 +158,7 @@ slot0.initFriend = function (slot0, slot1)
 	slot0.friendItems[slot1] = slot0.createFriendItem(slot1)
 end
 
-slot0.updateFriendVO = function (slot0, slot1)
+function slot0.updateFriendVO(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.friendVOs) do
 		if slot6.id == slot1.id then
 			slot0.friendVOs[slot5] = slot1
@@ -174,7 +174,7 @@ slot0.updateFriendVO = function (slot0, slot1)
 	slot0:sortFriend()
 end
 
-slot0.sortFriend = function (slot0)
+function slot0.sortFriend(slot0)
 	table.sort(slot0.friendVOs, function (slot0, slot1)
 		if ((slot0.id == slot0.friendVO.id and 1) or 0) == ((slot1.id == slot0.friendVO.id and 1) or 0) then
 			if slot0.online == slot1.online then
@@ -193,7 +193,7 @@ slot0.sortFriend = function (slot0)
 	slot0.friendRect:SetTotalCount(#slot0.friendVOs, -1)
 end
 
-slot0.openChatPanel = function (slot0, slot1)
+function slot0.openChatPanel(slot0, slot1)
 	slot0.friendVO = slot1
 
 	removeAllChildren(slot0.chatsContainer)
@@ -215,7 +215,7 @@ slot0.openChatPanel = function (slot0, slot1)
 	end)
 end
 
-slot0.sendMessage = function (slot0, slot1)
+function slot0.sendMessage(slot0, slot1)
 	if slot1 == "" then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("friend_send_msg_null_tip"))
 
@@ -225,7 +225,7 @@ slot0.sendMessage = function (slot0, slot1)
 	slot0:emit(ChatRoomMediator.SEND_FRIEND_MSG, slot0.friendVO.id, slot1)
 end
 
-slot0.getPlayer = function (slot0, slot1)
+function slot0.getPlayer(slot0, slot1)
 	if slot1 == slot0.playerVO.id then
 		return slot0.playerVO
 	end
@@ -237,7 +237,7 @@ slot0.getPlayer = function (slot0, slot1)
 	end
 end
 
-slot0.appendMsg = function (slot0, slot1)
+function slot0.appendMsg(slot0, slot1)
 	if slot1.playerId ~= slot0.playerVO.id and slot1.playerId ~= slot0.friendVO.id then
 		return
 	end
@@ -259,11 +259,11 @@ slot0.appendMsg = function (slot0, slot1)
 	scrollToBottom(slot0.chatsRect)
 end
 
-slot0.closeChatPanel = function (slot0)
+function slot0.closeChatPanel(slot0)
 	setActive(slot0.chatPanel, false)
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.frame, slot0._tf)
 	eachChild(slot0.chatsContainer, function (slot0)
 		if slot0:findTF("face", slot0).childCount > 0 then

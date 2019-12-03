@@ -1,6 +1,6 @@
 slot0 = class("SandiegoReformPage", import("...base.BaseActivityPage"))
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.progress = slot0:findTF("progress/left", slot0.bg)
 	slot0.gameBtn = slot0:findTF("start", slot0.bg)
@@ -10,13 +10,13 @@ slot0.OnInit = function (slot0)
 	slot0.nums = slot0:findTF("count", slot0.bg)
 end
 
-slot0.OnDataSetting = function (slot0)
+function slot0.OnDataSetting(slot0)
 	if slot0.activity:getConfig("config_client")[1][1] ~= nil and not pg.StoryMgr.GetInstance():IsPlayed(slot1) then
 		pg.StoryMgr.GetInstance():Play(slot1)
 	end
 end
 
-slot0.OnFirstFlush = function (slot0)
+function slot0.OnFirstFlush(slot0)
 	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 	setText(slot0.nums, _.reduce(_.slice(slot2, 1, slot0.activity.data2), 0, function (slot0, slot1)
 		return slot0 + slot1
@@ -43,11 +43,11 @@ slot0.OnFirstFlush = function (slot0)
 	end, SFX_PANEL)
 end
 
-slot0.OnUpdateFlush = function (slot0)
+function slot0.OnUpdateFlush(slot0)
 	return
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	return
 end
 

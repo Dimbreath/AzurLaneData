@@ -5,16 +5,16 @@ slot3 = class("BattleDodgemCommand", ys.Battle.BattleSingleDungeonCommand)
 ys.Battle.BattleDodgemCommand = slot3
 slot3.__name = "BattleDodgemCommand"
 
-slot3.Ctor = function (slot0)
+function slot3.Ctor(slot0)
 	slot0.super.Ctor(slot0)
 end
 
-slot3.Initialize = function (slot0)
+function slot3.Initialize(slot0)
 	slot0.super.Initialize(slot0)
 	slot0._dataProxy:DodgemCountInit()
 end
 
-slot3.DoPrologue = function (slot0)
+function slot3.DoPrologue(slot0)
 	pg.UIMgr.GetInstance():Marching()
 	slot0._uiMediator:SeaSurfaceShift(45, 0, nil, function ()
 		slot0._uiMediator:OpeningEffect(function ()
@@ -35,7 +35,7 @@ slot3.DoPrologue = function (slot0)
 	slot0._uiMediator:ShowDodgemScoreBar()
 end
 
-slot3.initWaveModule = function (slot0)
+function slot3.initWaveModule(slot0)
 	slot0._waveUpdater = slot0.Battle.BattleWaveUpdater.New(function (slot0, slot1, slot2)
 		slot0._dataProxy:SpawnMonster(slot0, slot1, slot2, slot1.Battle.BattleConfig.FOE_CODE)
 	end, nil, function ()
@@ -52,7 +52,7 @@ slot3.initWaveModule = function (slot0)
 	end, nil)
 end
 
-slot3.onWillDie = function (slot0, slot1)
+function slot3.onWillDie(slot0, slot1)
 	slot0._dataProxy:CalcDodgemCount(slot2)
 
 	slot3 = slot1.Dispatcher.GetDeathReason(slot2)

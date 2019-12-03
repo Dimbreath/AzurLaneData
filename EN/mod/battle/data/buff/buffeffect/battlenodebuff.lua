@@ -3,15 +3,15 @@ slot0 = class("BattleNodeBuff", ys.Battle.BattleBuffEffect)
 ys.Battle.BattleNodeBuff = slot0
 slot0.__name = "BattleNodeBuff"
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 end
 
-slot0.SetArgs = function (slot0, slot1, slot2)
+function slot0.SetArgs(slot0, slot1, slot2)
 	slot0._rate = slot0._tempData.arg_list.rate
 end
 
-slot0.onFire = function (slot0, slot1, slot2)
+function slot0.onFire(slot0, slot1, slot2)
 	if not ys.Battle.BattleFormulas.IsHappen(slot0._rate) then
 		return
 	end

@@ -4,15 +4,15 @@ slot2 = pg.effect_offset
 ys.Battle.BattleShelterData = class("BattleShelterData")
 ys.Battle.BattleShelterData.__name = "BattleShelterData"
 
-ys.Battle.BattleShelterData.Ctor = function (slot0, slot1)
+function ys.Battle.BattleShelterData.Ctor(slot0, slot1)
 	slot0._id = slot1
 end
 
-ys.Battle.BattleShelterData.SetIFF = function (slot0, slot1)
+function ys.Battle.BattleShelterData.SetIFF(slot0, slot1)
 	slot0._IFF = slot1
 end
 
-ys.Battle.BattleShelterData.SetArgs = function (slot0, slot1, slot2, slot3, slot4, slot5)
+function ys.Battle.BattleShelterData.SetArgs(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._duration = slot2
 	slot0._bulletType = slot0.Battle.BattleConst.BulletType.CANNON
 	slot0._count = slot1
@@ -32,17 +32,17 @@ ys.Battle.BattleShelterData.SetArgs = function (slot0, slot1, slot2, slot3, slot
 	slot0._centerPos = slot4
 end
 
-ys.Battle.BattleShelterData.SetStartTimeStamp = function (slot0, slot1)
+function ys.Battle.BattleShelterData.SetStartTimeStamp(slot0, slot1)
 	slot0._startTimeStamp = slot1
 end
 
-ys.Battle.BattleShelterData.Update = function (slot0, slot1)
+function ys.Battle.BattleShelterData.Update(slot0, slot1)
 	if slot0._duration < slot1 - slot0._startTimeStamp then
 		slot0._startTimeStamp = nil
 	end
 end
 
-ys.Battle.BattleShelterData.DoWhenHit = function (slot0, slot1)
+function ys.Battle.BattleShelterData.DoWhenHit(slot0, slot1)
 	if slot0._doWhenHit == "intercept" then
 		slot1:Intercepted()
 		slot0.Battle.BattleDataProxy.GetInstance():RemoveBulletUnit(slot1:GetUniqueID())
@@ -55,27 +55,27 @@ ys.Battle.BattleShelterData.DoWhenHit = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattleShelterData.GetUniqueID = function (slot0)
+function ys.Battle.BattleShelterData.GetUniqueID(slot0)
 	return slot0._id
 end
 
-ys.Battle.BattleShelterData.GetIFF = function (slot0)
+function ys.Battle.BattleShelterData.GetIFF(slot0)
 	return slot0._IFF
 end
 
-ys.Battle.BattleShelterData.GetFXID = function (slot0)
+function ys.Battle.BattleShelterData.GetFXID(slot0)
 	return slot0._effect
 end
 
-ys.Battle.BattleShelterData.GetPosition = function (slot0)
+function ys.Battle.BattleShelterData.GetPosition(slot0)
 	return slot0._centerPos
 end
 
-ys.Battle.BattleShelterData.Deactive = function (slot0)
+function ys.Battle.BattleShelterData.Deactive(slot0)
 	slot0.Battle.BattleDataProxy.GetInstance():RemoveWall(slot0._wall:GetUniqueID())
 end
 
-ys.Battle.BattleShelterData.IsWallActive = function (slot0)
+function ys.Battle.BattleShelterData.IsWallActive(slot0)
 	return slot0._count > 0 and slot0._startTimeStamp
 end
 

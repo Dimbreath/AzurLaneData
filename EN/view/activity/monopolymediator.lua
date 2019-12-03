@@ -4,7 +4,7 @@ slot0.ON_MOVE = "MonopolyMediator:ON_MOVE"
 slot0.ON_TRIGGER = "MonopolyMediator:ON_TRIGGER"
 slot0.ON_AWARD = "MonopolyMediator:ON_AWARD"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0:bind(slot0.ON_START, function (slot0, slot1, slot2)
 		slot0:sendNotification(GAME.MONOPOLY_OP, {
 			activity_id = slot1,
@@ -35,14 +35,14 @@ slot0.register = function (slot0)
 	slot0.viewComponent:setActivity(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MONOPOLY))
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		ActivityProxy.ACTIVITY_UPDATED,
 		GAME.MONOPOLY_AWARD_DONE
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == ActivityProxy.ACTIVITY_UPDATED then

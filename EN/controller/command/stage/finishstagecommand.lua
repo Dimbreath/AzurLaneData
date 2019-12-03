@@ -1,6 +1,6 @@
 slot0 = class("FinishStageCommand", pm.SimpleCommand)
 
-slot0.execute = function (slot0, slot1)
+function slot0.execute(slot0, slot1)
 	slot3 = slot1:getBody().system
 
 	if slot0.CheaterVertify() then
@@ -10,7 +10,7 @@ slot0.execute = function (slot0, slot1)
 	ys.Battle.BattleGate.Gates[slot3].Exit(slot2, slot0)
 end
 
-slot0.CheaterVertify = function ()
+function slot0.CheaterVertify()
 	ys.Battle.BattleState.GenerateVertifyData()
 
 	slot0, slot1 = ys.Battle.BattleState.Vertify()
@@ -24,7 +24,7 @@ slot0.CheaterVertify = function ()
 	return not slot0
 end
 
-slot0.GeneralPackage = function (slot0, slot1)
+function slot0.GeneralPackage(slot0, slot1)
 	slot2 = 0
 	slot3 = {}
 	slot5 = nil
@@ -62,7 +62,7 @@ slot0.GeneralPackage = function (slot0, slot1)
 	}
 end
 
-slot0.SendRequest = function (slot0, slot1, slot2)
+function slot0.SendRequest(slot0, slot1, slot2)
 	pg.ConnectionMgr.GetInstance():Send(40003, slot1, 40004, function (slot0)
 		if slot0.result == 0 or slot0.result == 1030 then
 			slot0(slot0)
@@ -72,7 +72,7 @@ slot0.SendRequest = function (slot0, slot1, slot2)
 	end)
 end
 
-slot0.RequestFailStandardProcess = function (slot0, slot1)
+function slot0.RequestFailStandardProcess(slot0, slot1)
 	if slot1.result == 2 then
 		print("stage_finishStage error--" .. slot1.result)
 		pg.TipsMgr.GetInstance():ShowTips(errorTip("stage_finishStage", slot1.result))
@@ -83,7 +83,7 @@ slot0.RequestFailStandardProcess = function (slot0, slot1)
 	end
 end
 
-slot0.addShipsExp = function (slot0, slot1, slot2)
+function slot0.addShipsExp(slot0, slot1, slot2)
 	slot3 = getProxy(BayProxy)
 	slot4 = {}
 	slot5 = {}
@@ -105,7 +105,7 @@ slot0.addShipsExp = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.DeadShipEnergyCosume = function (slot0, slot1)
+function slot0.DeadShipEnergyCosume(slot0, slot1)
 	slot2 = pg.gameset.battle_dead_energy.key_value
 	slot3 = getProxy(BayProxy)
 
@@ -119,7 +119,7 @@ slot0.DeadShipEnergyCosume = function (slot0, slot1)
 	end
 end
 
-slot0.GeneralPlayerCosume = function (slot0, slot1, slot2, slot3, slot4)
+function slot0.GeneralPlayerCosume(slot0, slot1, slot2, slot3, slot4)
 	getProxy(PlayerProxy).getData(slot5).addExp(slot6, slot3)
 
 	if pg.battle_cost_template[slot0].oil_cost > 0 and slot1 then
@@ -148,7 +148,7 @@ slot0.GeneralPlayerCosume = function (slot0, slot1, slot2, slot3, slot4)
 	slot5:updatePlayer(slot6)
 end
 
-slot0.GeneralLoot = function (slot0, slot1)
+function slot0.GeneralLoot(slot0, slot1)
 	slot2 = {}
 	slot3 = {}
 
@@ -170,7 +170,7 @@ slot0.GeneralLoot = function (slot0, slot1)
 	return slot2, slot3
 end
 
-slot0.GenerateCommanderExp = function (slot0, slot1)
+function slot0.GenerateCommanderExp(slot0, slot1)
 	slot3 = getProxy(CommanderProxy)
 	slot4 = slot1:getCommanders()
 	slot5 = {}

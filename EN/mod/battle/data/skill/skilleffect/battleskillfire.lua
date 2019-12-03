@@ -4,7 +4,7 @@ slot2 = class("BattleSkillFire", ys.Battle.BattleSkillEffect)
 ys.Battle.BattleSkillFire = slot2
 slot2.__name = "BattleSkillFire"
 
-slot2.Ctor = function (slot0, slot1)
+function slot2.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1, lv)
 
 	slot0._weaponID = slot0._tempData.arg_list.weapon_id
@@ -14,11 +14,11 @@ slot2.Ctor = function (slot0, slot1)
 	slot0._useSkin = slot0._tempData.arg_list.useSkin
 end
 
-slot2.SetWeaponSkin = function (slot0, slot1)
+function slot2.SetWeaponSkin(slot0, slot1)
 	slot0._modelID = slot1
 end
 
-slot2.DoDataEffect = function (slot0, slot1, slot2)
+function slot2.DoDataEffect(slot0, slot1, slot2)
 	if slot0._weapon == nil then
 		slot0._weapon = slot0.Battle.BattleDataFunction.CreateWeaponUnit(slot0._weaponID, slot1)
 
@@ -35,11 +35,11 @@ slot2.DoDataEffect = function (slot0, slot1, slot2)
 	slot0._weapon:SingleFire(slot2, slot0._emitter)
 end
 
-slot2.DoDataEffectWithoutTarget = function (slot0, slot1)
+function slot2.DoDataEffectWithoutTarget(slot0, slot1)
 	slot0:DoDataEffect(slot1)
 end
 
-slot2.Clear = function (slot0)
+function slot2.Clear(slot0)
 	slot0.super.Clear(slot0)
 
 	if slot0._weapon then
@@ -47,7 +47,7 @@ slot2.Clear = function (slot0)
 	end
 end
 
-slot2.Dispose = function (slot0)
+function slot2.Dispose(slot0)
 	slot0.super.Dispose(slot0)
 end
 

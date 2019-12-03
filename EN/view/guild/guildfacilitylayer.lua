@@ -1,23 +1,23 @@
 slot0 = class("GuildFacilityLayer", import("..base.BaseUI"))
 slot1 = 0.3
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	if getProxy(GuildProxy):getData() then
 		return slot1:getFacilityUIName()
 	end
 end
 
-slot0.setPlayerVO = function (slot0, slot1)
+function slot0.setPlayerVO(slot0, slot1)
 	slot0.playerVO = slot1
 
 	slot0.resPanel:setResources(slot1)
 end
 
-slot0.getPlayerJurisdiction = function (slot0)
+function slot0.getPlayerJurisdiction(slot0)
 	return slot0.guildVO:getDutyByMemberId(slot0.playerVO.id) == GuildMember.DUTY_COMMANDER or slot1 == GuildMember.DUTY_DEPUTY_COMMANDE
 end
 
-slot0.setGuildVO = function (slot0, slot1)
+function slot0.setGuildVO(slot0, slot1)
 	slot0.guildVO = slot1
 
 	slot0:updateGuildResources()
@@ -25,25 +25,25 @@ slot0.setGuildVO = function (slot0, slot1)
 	slot0:setFacilityLogs(slot1.facilityLogs or {})
 end
 
-slot0.setFacilityLogs = function (slot0, slot1)
+function slot0.setFacilityLogs(slot0, slot1)
 	slot0.facilityLogs = slot1
 end
 
-slot0.addFacilityLogs = function (slot0, slot1)
+function slot0.addFacilityLogs(slot0, slot1)
 	_.each(slot1, function (slot0)
 		table.insert(slot0.facilityLogs, slot0)
 	end)
 end
 
-slot0.setFacilityVOs = function (slot0, slot1)
+function slot0.setFacilityVOs(slot0, slot1)
 	slot0.facilityVOs = slot1 or {}
 end
 
-slot0.getContributeProjectConfig = function (slot0)
+function slot0.getContributeProjectConfig(slot0)
 	return pg.guild_contribution_template
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.scrollTxts = {}
 	slot0.projectToggles = {}
 	slot0.oilTotalTxt = slot0:findTF("top_panel/res/Text"):GetComponent(typeof(Text))
@@ -74,7 +74,7 @@ slot0.init = function (slot0)
 	slot0.contributionConfig = slot0:getContributeProjectConfig()
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	slot0.isCommander = slot0:getPlayerJurisdiction()
 
 	slot0:initFacilitys()
@@ -95,7 +95,7 @@ slot0.didEnter = function (slot0)
 	end, SFX_PANEL)
 end
 
-slot0.initFacilitys = function (slot0)
+function slot0.initFacilitys(slot0)
 	slot0.facilityTFs = {}
 
 	for slot4, slot5 in pairs(slot0.facilityVOs) do
@@ -105,19 +105,19 @@ slot0.initFacilitys = function (slot0)
 	slot0:updateFacilitys()
 end
 
-slot0.updateFacilitys = function (slot0)
+function slot0.updateFacilitys(slot0)
 	for slot4, slot5 in pairs(slot0.facilityVOs) do
 		slot0:updateFacilityTF(slot5)
 	end
 end
 
-slot0.updateFacilityTF = function (slot0, slot1)
+function slot0.updateFacilityTF(slot0, slot1)
 	if slot0.facilityTFs[slot1.id] then
 		slot0:updateFacility(slot2, slot1)
 	end
 end
 
-slot0.updateFacility = function (slot0, slot1, slot2)
+function slot0.updateFacility(slot0, slot1, slot2)
 	setText(slot0:findTF("name_container/name", slot1), slot2:getConfig("name"))
 	setText(slot0:findTF("name_container/Text", slot1), "Lv." .. slot2.level)
 	setText(slot0:findTF("desc", slot1, slot1), slot2:getAdditionDesc())
@@ -163,13 +163,13 @@ slot0.updateFacility = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.updateGuildResources = function (slot0)
+function slot0.updateGuildResources(slot0)
 	if slot0.guildVO then
 		slot0.oilTotalTxt.text = slot0.guildVO.resource
 	end
 end
 
-slot0.openContributeProject = function (slot0)
+function slot0.openContributeProject(slot0)
 	setActive(slot0.contributionPanel, true)
 
 	if not slot0.isinitContributeProject then
@@ -181,7 +181,7 @@ slot0.openContributeProject = function (slot0)
 	end
 end
 
-slot0.closeContributeProject = function (slot0)
+function slot0.closeContributeProject(slot0)
 	setActive(slot0.contributionPanel, false)
 
 	if slot0.selectedProjectId then
@@ -189,7 +189,7 @@ slot0.closeContributeProject = function (slot0)
 	end
 end
 
-slot0.initContributeProject = function (slot0)
+function slot0.initContributeProject(slot0)
 	slot0.contributeResContainer = slot0:findTF("frame/res_container/content", slot0.contributionPanel)
 	slot0.resTpl = slot0:getTpl("item", slot0.contributeResContainer)
 	slot0.projectContainer = slot0:findTF("frame/main/content", slot0.contributionPanel)
@@ -214,7 +214,7 @@ slot0.initContributeProject = function (slot0)
 	slot0:initContributeResType()
 end
 
-slot0.initContributeResType = function (slot0)
+function slot0.initContributeResType(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.contributionConfig.all) do
@@ -245,7 +245,7 @@ slot0.initContributeResType = function (slot0)
 	triggerToggle(slot0.contributeResTFs[2], true)
 end
 
-slot0.filterContributeProject = function (slot0, slot1)
+function slot0.filterContributeProject(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot0.contributionConfig.all) do
@@ -259,7 +259,7 @@ slot0.filterContributeProject = function (slot0, slot1)
 	slot0:updateContributeProjects(slot2)
 end
 
-slot0.updateContributeProjects = function (slot0, slot1)
+function slot0.updateContributeProjects(slot0, slot1)
 	for slot6 = slot0.projectContainer.childCount, #slot1 - 1, 1 do
 		cloneTplTo(slot0.projectTpl, slot0.projectContainer)
 	end
@@ -273,7 +273,7 @@ slot0.updateContributeProjects = function (slot0, slot1)
 	end
 end
 
-slot0.updateContributeProject = function (slot0, slot1, slot2)
+function slot0.updateContributeProject(slot0, slot1, slot2)
 	slot0.projectToggles[slot2] = slot1
 
 	setText(slot0:findTF("title", slot1), slot0.contributionConfig[slot2].name)
@@ -300,7 +300,7 @@ slot0.updateContributeProject = function (slot0, slot1, slot2)
 	end)
 end
 
-slot0.openContributionLog = function (slot0)
+function slot0.openContributionLog(slot0)
 	setActive(slot0.contributtionLogPanel, true)
 	slot0:tweeningLogPanel(slot0.logPanelHeight, function ()
 		return
@@ -321,7 +321,7 @@ slot0.LOG_PAGE = {
 	USAGE = 3
 }
 
-slot0.initLogPanel = function (slot0)
+function slot0.initLogPanel(slot0)
 	slot0.filterToggles = {
 		slot0:findTF("frame/filter/recent", slot0.contributtionLogPanel),
 		slot0:findTF("frame/filter/contribution", slot0.contributtionLogPanel),
@@ -345,7 +345,7 @@ end
 
 slot2 = 50
 
-slot0.filterLogs = function (slot0, slot1)
+function slot0.filterLogs(slot0, slot1)
 	slot0.contextData.page = slot1 or slot0.contextData.page or slot0.LOG_PAGE.RECENT
 	slot2 = {}
 
@@ -372,13 +372,13 @@ slot0.filterLogs = function (slot0, slot1)
 	slot0:updateLogsPanel(slot2)
 end
 
-slot0.closeContributionLog = function (slot0)
+function slot0.closeContributionLog(slot0)
 	slot0:tweeningLogPanel(0, function ()
 		setActive(slot0.contributtionLogPanel, false)
 	end)
 end
 
-slot0.tweeningLogPanel = function (slot0, slot1, slot2)
+function slot0.tweeningLogPanel(slot0, slot1, slot2)
 	if LeanTween.isTweening(go(slot0.contributtionLogFrame)) then
 		LeanTween.cancel(go(slot0.contributtionLogFrame))
 	end
@@ -390,7 +390,7 @@ slot0.tweeningLogPanel = function (slot0, slot1, slot2)
 	end))
 end
 
-slot0.updateLogsPanel = function (slot0, slot1)
+function slot0.updateLogsPanel(slot0, slot1)
 	if not slot0.logContainer then
 		return
 	end
@@ -408,7 +408,7 @@ slot0.updateLogsPanel = function (slot0, slot1)
 	end
 end
 
-slot0.updateLogTF = function (slot0, slot1, slot2)
+function slot0.updateLogTF(slot0, slot1, slot2)
 	slot11, slot10, slot11, slot11, slot12 = slot2:getConent()
 
 	setText(slot0:findTF("date", slot1), slot4)
@@ -426,7 +426,7 @@ slot0.updateLogTF = function (slot0, slot1, slot2)
 	slot9:setText(slot7)
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	if slot0.resPanel then
 		slot0.resPanel:exit()
 

@@ -3,11 +3,11 @@ slot1 = class("BattleEffectBulletUnit", ys.Battle.BattleBulletUnit)
 ys.Battle.BattleEffectBulletUnit = slot1
 slot1.__name = "BattleEffectBulletUnit"
 
-slot1.Ctor = function (slot0, slot1, slot2)
+function slot1.Ctor(slot0, slot1, slot2)
 	slot0.super.Ctor(slot0, slot1, slot2)
 end
 
-slot1.Update = function (slot0, slot1)
+function slot1.Update(slot0, slot1)
 	slot0.super.Update(slot0, slot1)
 
 	if slot0._flare then
@@ -15,11 +15,11 @@ slot1.Update = function (slot0, slot1)
 	end
 end
 
-slot1.IsFlare = function (slot0)
+function slot1.IsFlare(slot0)
 	return slot0:GetTemplate().attach_buff[1].flare
 end
 
-slot1.OutRange = function (slot0)
+function slot1.OutRange(slot0)
 	slot0.super.OutRange(slot0)
 
 	if slot0._flare then
@@ -29,7 +29,7 @@ slot1.OutRange = function (slot0)
 	end
 end
 
-slot1.spawnArea = function (slot0, slot1)
+function slot1.spawnArea(slot0, slot1)
 	slot5 = slot0:GetTemplate().attach_buff[1].buff_id
 	time = slot0.GetTemplate().hit_type.time
 	slot8 = slot0._battleProxy:SpawnLastingColumnArea(slot0:GetEffectField(), slot0:GetIFF(), pg.Tool.FilterY(slot0:GetPosition():Clone()), slot0.GetTemplate().hit_type.range, time, function (slot0)
@@ -51,11 +51,11 @@ slot1.spawnArea = function (slot0, slot1)
 	return slot8
 end
 
-slot1.GetExplodePostion = function (slot0)
+function slot1.GetExplodePostion(slot0)
 	return slot0._explodePos
 end
 
-slot1.SetExplodePosition = function (slot0, slot1)
+function slot1.SetExplodePosition(slot0, slot1)
 	slot0._explodePos = slot1
 end
 

@@ -1,10 +1,10 @@
 slot0 = class("MusicGameSelectView", import("...base.BaseSubView"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "MusicGameSelectUI"
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.music_amount = 5
 	slot0.music_amount_middle = 3
 	slot0.configList = {
@@ -16,15 +16,15 @@ slot0.OnInit = function (slot0)
 	slot0:initUI()
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	return
 end
 
-slot0.initData = function (slot0)
+function slot0.initData(slot0)
 	return
 end
 
-slot0.initUI = function (slot0)
+function slot0.initUI(slot0)
 	slot0.main = slot0:findTF("Main")
 	slot0.start_btn = slot0.main:Find("Start_btn")
 	slot0.speed_list = slot0.main:Find("Speedlist")
@@ -64,7 +64,7 @@ slot0.initUI = function (slot0)
 	slot0:initSongUI()
 end
 
-slot0.initSongUI = function (slot0)
+function slot0.initSongUI(slot0)
 	slot0.song_btn = slot0.musiclist:Find("song")
 
 	setActive(slot0.song_btn, false)
@@ -89,7 +89,7 @@ slot0.initSongUI = function (slot0)
 	end
 end
 
-slot0.changeLocalpos = function (slot0, slot1)
+function slot0.changeLocalpos(slot0, slot1)
 	slot3 = slot0.music_amount_middle - slot1
 
 	for slot7 = 1, slot0.music_amount, 1 do

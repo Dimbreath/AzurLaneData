@@ -3,26 +3,26 @@ slot1 = class("BattleBuffAddProficiency", ys.Battle.BattleBuffEffect)
 ys.Battle.BattleBuffAddProficiency = slot1
 slot1.__name = "BattleBuffAddProficiency"
 
-slot1.Ctor = function (slot0, slot1)
+function slot1.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 end
 
-slot1.SetArgs = function (slot0, slot1, slot2)
+function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._group = slot0._tempData.arg_list.group or slot2:GetID()
 	slot0._weaponLabelList = slot0._tempData.arg_list.label
 	slot0._weaponIndexList = slot0._tempData.arg_list.index
 	slot0._number = slot0._tempData.arg_list.number
 end
 
-slot1.onAttach = function (slot0, slot1, slot2)
+function slot1.onAttach(slot0, slot1, slot2)
 	slot0:calcEnhancement(slot1:GetAllWeapon(), true)
 end
 
-slot1.onRemove = function (slot0, slot1, slot2)
+function slot1.onRemove(slot0, slot1, slot2)
 	slot0:calcEnhancement(slot1:GetAllWeapon(), false)
 end
 
-slot1.calcEnhancement = function (slot0, slot1, slot2)
+function slot1.calcEnhancement(slot0, slot1, slot2)
 	slot3 = slot0._number
 
 	if not slot2 then

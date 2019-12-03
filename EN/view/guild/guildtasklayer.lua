@@ -1,14 +1,14 @@
 slot0 = class("GuildTaskLayer", import("..base.BaseUI"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "GuildTaskUI"
 end
 
-slot0.setTaskList = function (slot0, slot1)
+function slot0.setTaskList(slot0, slot1)
 	slot0.taskList = slot1
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.taskTpl = slot0:getTpl("bg/frame/content/task_tpl")
 	slot0.awardModel = slot0:getTpl("frame/right_panel/rewards_panel/itemtpl", slot0.taskTpl)
 	slot0.taskContainer = slot0:findTF("bg/frame/content")
@@ -17,7 +17,7 @@ slot0.init = function (slot0)
 	slot0.mainLayer = pg.UIMgr.GetInstance().UIMain
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	slot0:displayTasks()
 	onButton(slot0, slot0:findTF("btnBack", slot0.topPanel), function ()
@@ -28,7 +28,7 @@ slot0.didEnter = function (slot0)
 	end, SOUND_BACK)
 end
 
-slot0.displayTasks = function (slot0)
+function slot0.displayTasks(slot0)
 	slot0.taskTFs = {}
 
 	for slot4, slot5 in pairs(slot0.taskList) do
@@ -38,7 +38,7 @@ slot0.displayTasks = function (slot0)
 	end
 end
 
-slot0.updateTask = function (slot0, slot1)
+function slot0.updateTask(slot0, slot1)
 	slot4 = 0
 	slot0.taskList[slot1.id] = slot1
 	slot5 = slot0.taskTFs[slot1.id].transform:Find("frame/left_panel")
@@ -98,7 +98,7 @@ slot0.updateTask = function (slot0, slot1)
 	SetActive(slot3:Find("frame/isGet_panel"), slot4 == 3)
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0.mainLayer)
 end
 

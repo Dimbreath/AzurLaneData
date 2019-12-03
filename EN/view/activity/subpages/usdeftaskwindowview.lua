@@ -1,10 +1,10 @@
 slot0 = class("USDefTaskWindowView", import("...base.BaseSubView"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "USDefTaskWindow"
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0:initData()
 	slot0:initUI()
 	slot0:updateProgress()
@@ -12,15 +12,15 @@ slot0.OnInit = function (slot0)
 	slot0:Show()
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	return
 end
 
-slot0.OnBackPress = function (slot0)
+function slot0.OnBackPress(slot0)
 	return
 end
 
-slot0.initData = function (slot0)
+function slot0.initData(slot0)
 	slot0.taskIDList = Clone(pg.task_data_template[slot0.contextData:getConfig("config_client")[1]].target_id)
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot0.taskVOList = {}
@@ -30,7 +30,7 @@ slot0.initData = function (slot0)
 	end
 end
 
-slot0.initUI = function (slot0)
+function slot0.initUI(slot0)
 	slot0.bg = slot0:findTF("BG")
 	slot0.curNumTextTF = slot0:findTF("ProgressPanel/CurNumText")
 	slot0.totalNumText = slot0:findTF("ProgressPanel/TotalNumText")
@@ -43,7 +43,7 @@ slot0.initUI = function (slot0)
 	end, SFX_CANCEL)
 end
 
-slot0.updateProgress = function (slot0)
+function slot0.updateProgress(slot0)
 	slot1 = #slot0.taskIDList
 	slot2 = 0
 
@@ -57,7 +57,7 @@ slot0.updateProgress = function (slot0)
 	setText(slot0.totalNumText, string.format("%2d", slot1))
 end
 
-slot0.updateTaskList = function (slot0)
+function slot0.updateTaskList(slot0)
 	slot0.taskList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot7 = slot0:findTF("ItemBG/Icon", slot2)

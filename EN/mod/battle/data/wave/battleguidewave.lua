@@ -2,11 +2,11 @@ ys = ys or {}
 ys.Battle.BattleGuideWave = class("BattleGuideWave", ys.Battle.BattleWaveInfo)
 ys.Battle.BattleGuideWave.__name = "BattleGuideWave"
 
-ys.Battle.BattleGuideWave.Ctor = function (slot0)
+function ys.Battle.BattleGuideWave.Ctor(slot0)
 	slot0.super.Ctor(slot0)
 end
 
-ys.Battle.BattleGuideWave.SetWaveData = function (slot0, slot1)
+function ys.Battle.BattleGuideWave.SetWaveData(slot0, slot1)
 	slot0.super.SetWaveData(slot0, slot1)
 
 	slot0._guideType = slot0._param.type or 0
@@ -14,7 +14,7 @@ ys.Battle.BattleGuideWave.SetWaveData = function (slot0, slot1)
 	slot0._event = slot0._param.event
 end
 
-ys.Battle.BattleGuideWave.DoWave = function (slot0)
+function ys.Battle.BattleGuideWave.DoWave(slot0)
 	slot0.super.DoWave(slot0)
 
 	if not pg.GuideMgr.ENABLE_GUIDE then

@@ -1,27 +1,27 @@
 slot0 = class("ShrineBuffView", import("...base.BaseSubView"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "ShrineBuff"
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0:Show()
 	slot0:initData()
 	slot0:initUI()
 	slot0:updateView()
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	slot0.contextData.onClose()
 
 	slot0.lockBackPress = false
 end
 
-slot0.initData = function (slot0)
+function slot0.initData(slot0)
 	slot0.lockBackPress = true
 end
 
-slot0.initUI = function (slot0)
+function slot0.initUI(slot0)
 	slot0.bg = slot0:findTF("BG")
 	slot0.buffListTF = slot0:findTF("Main/BuffList")
 
@@ -37,7 +37,7 @@ slot0.initUI = function (slot0)
 	end, SFX_CANCEL)
 end
 
-slot0.updateView = function (slot0)
+function slot0.updateView(slot0)
 	return
 end
 

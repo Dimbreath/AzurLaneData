@@ -1,18 +1,18 @@
 slot0 = class("RegisterPanelView", import("...base.BaseSubView"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "RegisterPanelView"
 end
 
-slot0.OnLoaded = function (slot0)
+function slot0.OnLoaded(slot0)
 	return
 end
 
-slot0.SetShareData = function (slot0, slot1)
+function slot0.SetShareData(slot0, slot1)
 	slot0.shareData = slot1
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.registerPanel = slot0._tf
 	slot0.registerUsername = slot0:findTF("username", slot0.registerPanel)
 	slot0.registerPassword = slot0:findTF("password", slot0.registerPanel)
@@ -24,7 +24,7 @@ slot0.OnInit = function (slot0)
 	slot0:InitEvent()
 end
 
-slot0.InitEvent = function (slot0)
+function slot0.InitEvent(slot0)
 	onButton(slot0, slot0.confirmButton, function ()
 		if getInputText(slot0.registerUsername) == "" then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("login_loginScene_error_noUserName"))
@@ -70,12 +70,12 @@ slot0.InitEvent = function (slot0)
 	end, SFX_CANCEL)
 end
 
-slot0.Clear = function (slot0)
+function slot0.Clear(slot0)
 	setInputText(slot0.registerPassword, "")
 	setInputText(slot0.registerPassword2, "")
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	return
 end
 

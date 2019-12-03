@@ -1,6 +1,6 @@
 slot0 = class("StoryAwardPage", import("...base.BaseActivityPage"))
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.bg = slot0:findTF("bg")
 	slot0.itemTpl = slot0:findTF("Item")
 	slot0.taskItemTpl = slot0:findTF("TaskItem")
@@ -9,12 +9,12 @@ slot0.OnInit = function (slot0)
 	slot0.arrow = slot0:findTF("Mask/Arrow")
 end
 
-slot0.OnDataSetting = function (slot0)
+function slot0.OnDataSetting(slot0)
 	slot0.config = pg.activity_event_chapter_award[slot0.activity:getConfig("config_id")]
 	slot0.chapterIDList = slot0.config.chapter
 end
 
-slot0.OnFirstFlush = function (slot0)
+function slot0.OnFirstFlush(slot0)
 	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 
 	for slot4 = 1, #slot0.chapterIDList, 1 do
@@ -46,7 +46,7 @@ slot0.OnFirstFlush = function (slot0)
 	end)
 end
 
-slot0.OnUpdateFlush = function (slot0)
+function slot0.OnUpdateFlush(slot0)
 	for slot4 = 1, #slot0.chapterIDList, 1 do
 		slot7 = slot0:findTF("GotTag", slot6)
 		slot8 = slot0:findTF("GetBtn", slot6)
@@ -62,7 +62,7 @@ slot0.OnUpdateFlush = function (slot0)
 	end
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	return
 end
 

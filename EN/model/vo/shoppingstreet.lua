@@ -1,6 +1,6 @@
 slot0 = class("ShoppingStreet", import(".BaseVO"))
 
-slot0.getRiseShopId = function (slot0, slot1)
+function slot0.getRiseShopId(slot0, slot1)
 	for slot5, slot6 in ipairs(pg.shop_template.all) do
 		if pg.shop_template[slot6].genre == slot0 and slot7.limit_args[2] <= slot1 and slot1 <= slot7.limit_args[3] then
 			return slot6
@@ -8,7 +8,7 @@ slot0.getRiseShopId = function (slot0, slot1)
 	end
 end
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.level = slot1.lv
 	slot0.configId = slot0.level
 	slot0.nextFlashTime = slot1.next_flash_time
@@ -23,19 +23,19 @@ slot0.Ctor = function (slot0, slot1)
 	slot0.type = ShopArgs.ShopStreet
 end
 
-slot0.bindConfigTable = function (slot0)
+function slot0.bindConfigTable(slot0)
 	return pg.navalacademy_shoppingstreet_template
 end
 
-slot0.resetflashCount = function (slot0)
+function slot0.resetflashCount(slot0)
 	slot0.flashCount = 0
 end
 
-slot0.increaseFlashCount = function (slot0)
+function slot0.increaseFlashCount(slot0)
 	slot0.flashCount = slot0.flashCount + 1
 end
 
-slot0.isUpdateGoods = function (slot0)
+function slot0.isUpdateGoods(slot0)
 	if slot0.nextFlashTime <= pg.TimeMgr.GetInstance():GetServerTime() then
 		return true
 	end
@@ -43,19 +43,19 @@ slot0.isUpdateGoods = function (slot0)
 	return false
 end
 
-slot0.getMaxLevel = function (slot0)
+function slot0.getMaxLevel(slot0)
 	return slot0:bindConfigTable().all[#slot0.bindConfigTable().all]
 end
 
-slot0.isMaxLevel = function (slot0)
+function slot0.isMaxLevel(slot0)
 	return slot0:getMaxLevel() <= slot0.level
 end
 
-slot0.isUpgradeProcess = function (slot0)
+function slot0.isUpgradeProcess(slot0)
 	return pg.TimeMgr.GetInstance():GetServerTime() < slot0.levelUpTime
 end
 
-slot0.isFinishUpgrade = function (slot0)
+function slot0.isFinishUpgrade(slot0)
 	if slot0.levelUpTime <= pg.TimeMgr.GetInstance():GetServerTime() then
 		return true
 	end
@@ -63,15 +63,15 @@ slot0.isFinishUpgrade = function (slot0)
 	return false
 end
 
-slot0.getLevelUpTime = function (slot0)
+function slot0.getLevelUpTime(slot0)
 	return slot0.levelUpTime
 end
 
-slot0.updateLeftTime = function (slot0)
+function slot0.updateLeftTime(slot0)
 	return slot0.levelUpTime - pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-slot0.levelUp = function (slot0)
+function slot0.levelUp(slot0)
 	slot0.levelUpTime = 0
 	slot0.level = math.min(slot0.level + 1, #slot0:bindConfigTable().all)
 
@@ -82,11 +82,11 @@ slot0.levelUp = function (slot0)
 	slot0.configId = slot0.level
 end
 
-slot0.setLevelUpTime = function (slot0)
+function slot0.setLevelUpTime(slot0)
 	slot0.levelUpTime = getConfigFromLevel1(pg.navalacademy_shoppingstreet_template, slot0.level).levelUpTime + pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-slot0.getGoodsById = function (slot0, slot1)
+function slot0.getGoodsById(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.goods) do
 		if slot1 == slot6.id then
 			return slot6

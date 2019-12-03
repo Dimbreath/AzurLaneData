@@ -35,7 +35,7 @@ slot0.TeamPos = {
 	SUB_CONSORT = "SubConsort"
 }
 
-slot0.TeamToTypeList = function (slot0)
+function slot0.TeamToTypeList(slot0)
 	if slot0 == slot0.Vanguard then
 		return slot0.VanguardShipType
 	elseif slot0 == slot0.Main then

@@ -1,18 +1,18 @@
 slot0 = class("LoginPanelView", import("...base.BaseSubView"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "LoginPanelView"
 end
 
-slot0.OnLoaded = function (slot0)
+function slot0.OnLoaded(slot0)
 	return
 end
 
-slot0.SetShareData = function (slot0, slot1)
+function slot0.SetShareData(slot0, slot1)
 	slot0.shareData = slot1
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.loginPanel = slot0._tf
 	slot0.loginUsername = slot0:findTF("username", slot0.loginPanel)
 	slot0.loginPassword = slot0:findTF("password", slot0.loginPanel)
@@ -23,7 +23,7 @@ slot0.OnInit = function (slot0)
 	slot0:InitEvent()
 end
 
-slot0.InitEvent = function (slot0)
+function slot0.InitEvent(slot0)
 	onButton(slot0, slot0.loginButton, function ()
 		if slot0.shareData.autoLoginEnabled and slot0.shareData.lastLoginUser then
 			slot0.event:emit(LoginMediator.ON_LOGIN, slot0.shareData.lastLoginUser)
@@ -70,12 +70,12 @@ slot0.InitEvent = function (slot0)
 	end)
 end
 
-slot0.SetContent = function (slot0, slot1, slot2)
+function slot0.SetContent(slot0, slot1, slot2)
 	setInputText(slot0.loginUsername, slot1)
 	setInputText(slot0.loginPassword, slot2)
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	return
 end
 

@@ -10,21 +10,21 @@ slot8 = class("BattleEnemyUnit", ys.Battle.BattleUnit)
 ys.Battle.BattleEnemyUnit = slot8
 slot8.__name = "BattleEnemyUnit"
 
-slot8.Ctor = function (slot0, slot1, slot2)
+function slot8.Ctor(slot0, slot1, slot2)
 	slot0.super.Ctor(slot0, slot1, slot2)
 
 	slot0._type = slot1.UnitType.ENEMY_UNIT
 	slot0._level = slot0._battleProxy:GetDungeonLevel()
 end
 
-slot8.SetBound = function (slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+function slot8.SetBound(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot0.super.SetBound(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 
 	slot0._weaponRightBound = slot4
 	slot0._weaponLowerBound = slot2
 end
 
-slot8.UpdateAction = function (slot0)
+function slot8.UpdateAction(slot0)
 	if slot0._oxyState and slot0._oxyState:GetCurrentDiveState() == slot0.OXY_STATE.DIVE then
 		if slot0:GetSpeed().x > 0 then
 			slot0._unitState:ChangeState(slot1.STATE_DIVELEFT)
@@ -38,7 +38,7 @@ slot8.UpdateAction = function (slot0)
 	end
 end
 
-slot8.UpdateHP = function (slot0, slot1, slot2, slot3, slot4)
+function slot8.UpdateHP(slot0, slot1, slot2, slot3, slot4)
 	slot0.super.UpdateHP(slot0, slot1, slot2, slot3, slot4)
 
 	if slot0._phaseSwitcher then
@@ -46,7 +46,7 @@ slot8.UpdateHP = function (slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-slot8.SetTemplate = function (slot0, slot1, slot2)
+function slot8.SetTemplate(slot0, slot1, slot2)
 	slot0.super.SetTemplate(slot0, slot1)
 
 	slot0._tmpData = slot1.GetMonsterTmpDataFromID(slot0._tmpID)
@@ -65,19 +65,19 @@ slot8.SetTemplate = function (slot0, slot1, slot2)
 	slot0:setStandardLabelTag()
 end
 
-slot8.SetTeamVO = function (slot0, slot1)
+function slot8.SetTeamVO(slot0, slot1)
 	slot0._team = slot1
 end
 
-slot8.SetFormationIndex = function (slot0, slot1)
+function slot8.SetFormationIndex(slot0, slot1)
 	slot0._formationIndex = slot1
 end
 
-slot8.SetWaveIndex = function (slot0, slot1)
+function slot8.SetWaveIndex(slot0, slot1)
 	slot0._waveIndex = slot1
 end
 
-slot8.SetAttr = function (slot0)
+function slot8.SetAttr(slot0)
 	slot1 = nil
 
 	if slot0:GetRepress() then
@@ -89,31 +89,31 @@ slot8.SetAttr = function (slot0)
 	slot0:SetCurrent("srcShipType", slot0._tmpData.type)
 end
 
-slot8.GetTemplate = function (slot0)
+function slot8.GetTemplate(slot0)
 	return slot0._tmpData
 end
 
-slot8.GetRarity = function (slot0)
+function slot8.GetRarity(slot0)
 	return slot0._tmpData.rarity
 end
 
-slot8.GetLevel = function (slot0)
+function slot8.GetLevel(slot0)
 	return slot0._level or 1
 end
 
-slot8.GetTeam = function (slot0)
+function slot8.GetTeam(slot0)
 	return slot0._team
 end
 
-slot8.GetWaveIndex = function (slot0)
+function slot8.GetWaveIndex(slot0)
 	return slot0._waveIndex
 end
 
-slot8.IsShowHPBar = function (slot0)
+function slot8.IsShowHPBar(slot0)
 	return slot0._IFF ~= slot0.FRIENDLY_CODE
 end
 
-slot8.InitCldComponent = function (slot0)
+function slot8.InitCldComponent(slot0)
 	slot0.super.InitCldComponent(slot0)
 	slot0._cldComponent:SetCldData({
 		type = slot1.CldType.SHIP,
@@ -128,7 +128,7 @@ slot8.InitCldComponent = function (slot0)
 	end
 end
 
-slot8.ConfigBubbleFX = function (slot0)
+function slot8.ConfigBubbleFX(slot0)
 	slot0._bubbleFX = slot0._tmpData.bubble_fx
 
 	slot0._oxyState:SetBubbleTemplate(slot0._tmpData.bubble_initial, slot0._tmpData.bubble_interval)

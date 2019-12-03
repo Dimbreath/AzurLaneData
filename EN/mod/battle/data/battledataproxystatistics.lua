@@ -6,7 +6,7 @@ slot5 = ys.Battle.BattleDataFunction
 slot6 = ys.Battle.BattleAttr
 slot7 = ys.Battle.BattleVariable
 
-ys.Battle.BattleDataProxy.StatisticsInit = function (slot0, slot1)
+function ys.Battle.BattleDataProxy.StatisticsInit(slot0, slot1)
 	slot0._statistics = {
 		_battleScore = slot0.BattleScore.D,
 		kill_id_list = {},
@@ -31,7 +31,7 @@ ys.Battle.BattleDataProxy.StatisticsInit = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattleDataProxy.InitAidUnitStatistics = function (slot0, slot1)
+function ys.Battle.BattleDataProxy.InitAidUnitStatistics(slot0, slot1)
 	slot0._statistics[({
 		id = slot1:GetAttrByName("id"),
 		damage = 0,
@@ -45,7 +45,7 @@ ys.Battle.BattleDataProxy.InitAidUnitStatistics = function (slot0, slot1)
 	slot0._statistics.submarineAid = true
 end
 
-ys.Battle.BattleDataProxy.InitSpecificEnemyStatistics = function (slot0, slot1)
+function ys.Battle.BattleDataProxy.InitSpecificEnemyStatistics(slot0, slot1)
 	slot0._statistics[({
 		id = slot1:GetAttrByName("id"),
 		damage = 0,
@@ -58,7 +58,7 @@ ys.Battle.BattleDataProxy.InitSpecificEnemyStatistics = function (slot0, slot1)
 	})["id"]] = 
 end
 
-ys.Battle.BattleDataProxy.RivalInit = function (slot0, slot1)
+function ys.Battle.BattleDataProxy.RivalInit(slot0, slot1)
 	slot0._statistics._rivalInfo = {}
 
 	for slot5, slot6 in ipairs(slot1) do
@@ -69,7 +69,7 @@ ys.Battle.BattleDataProxy.RivalInit = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattleDataProxy.DodgemCountInit = function (slot0)
+function ys.Battle.BattleDataProxy.DodgemCountInit(slot0)
 	slot0._dodgemStatistics = {
 		kill = 0,
 		combo = 0,
@@ -80,19 +80,19 @@ ys.Battle.BattleDataProxy.DodgemCountInit = function (slot0)
 	}
 end
 
-ys.Battle.BattleDataProxy.SubmarineRunInit = function (slot0)
+function ys.Battle.BattleDataProxy.SubmarineRunInit(slot0)
 	slot0._subRunStatistics = {
 		score = 0
 	}
 end
 
-ys.Battle.BattleDataProxy.SetFlagShipID = function (slot0, slot1)
+function ys.Battle.BattleDataProxy.SetFlagShipID(slot0, slot1)
 	if slot1 then
 		slot0._statistics._flagShipID = slot1:GetAttrByName("id")
 	end
 end
 
-ys.Battle.BattleDataProxy.DamageStatistics = function (slot0, slot1, slot2, slot3)
+function ys.Battle.BattleDataProxy.DamageStatistics(slot0, slot1, slot2, slot3)
 	if slot0._statistics[slot1] then
 		slot0._statistics[slot1].output = slot0._statistics[slot1].output + slot3
 		slot0._statistics[slot1].maxDamageOnce = math.max(slot0._statistics[slot1].maxDamageOnce, slot3)
@@ -103,23 +103,23 @@ ys.Battle.BattleDataProxy.DamageStatistics = function (slot0, slot1, slot2, slot
 	end
 end
 
-ys.Battle.BattleDataProxy.KillCountStatistics = function (slot0, slot1, slot2)
+function ys.Battle.BattleDataProxy.KillCountStatistics(slot0, slot1, slot2)
 	if slot0._statistics[slot1] then
 		slot0._statistics[slot1].kill_count = slot0._statistics[slot1].kill_count + 1
 	end
 end
 
-ys.Battle.BattleDataProxy.HPRatioStatistics = function (slot0)
+function ys.Battle.BattleDataProxy.HPRatioStatistics(slot0)
 	for slot5, slot6 in ipairs(slot1) do
 		slot0._statistics[slot6:GetAttrByName("id")].bp = math.ceil(slot6:GetHPRate() * 10000)
 	end
 end
 
-ys.Battle.BattleDataProxy.BotPercentage = function (slot0, slot1)
+function ys.Battle.BattleDataProxy.BotPercentage(slot0, slot1)
 	slot0._statistics._botPercentage = math.min(100, math.floor(slot1 / (slot0._currentStageData.timeCount - slot0._countDown) * 100))
 end
 
-ys.Battle.BattleDataProxy.CalcBattleScoreWhenDead = function (slot0, slot1)
+function ys.Battle.BattleDataProxy.CalcBattleScoreWhenDead(slot0, slot1)
 	if slot1:GetIFF() == slot0.FRIENDLY_CODE then
 		if not table.contains(TeamType.SubShipType, slot1:GetTemplate().type) then
 			slot0:DelScoreWhenPlayerDead(slot1)
@@ -129,29 +129,29 @@ ys.Battle.BattleDataProxy.CalcBattleScoreWhenDead = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattleDataProxy.AddScoreWhenBossDestruct = function (slot0)
+function ys.Battle.BattleDataProxy.AddScoreWhenBossDestruct(slot0)
 	slot0._statistics._boss_destruct = slot0._statistics._boss_destruct + 1
 end
 
-ys.Battle.BattleDataProxy.AddScoreWhenEnemyDead = function (slot0, slot1)
+function ys.Battle.BattleDataProxy.AddScoreWhenEnemyDead(slot0, slot1)
 	if slot1:GetDeathReason() == slot0.UnitDeathReason.KILLED then
 		slot0._statistics.kill_id_list[#slot0._statistics.kill_id_list + 1] = slot1:GetTemplateID()
 	end
 end
 
-ys.Battle.BattleDataProxy.DelScoreWhenPlayerDead = function (slot0, slot1)
+function ys.Battle.BattleDataProxy.DelScoreWhenPlayerDead(slot0, slot1)
 	slot0._statistics._deadCount = slot0._statistics._deadCount + 1
 end
 
-ys.Battle.BattleDataProxy.CalcBPWhenPlayerLeave = function (slot0, slot1)
+function ys.Battle.BattleDataProxy.CalcBPWhenPlayerLeave(slot0, slot1)
 	slot0._statistics[slot1:GetAttrByName("id")].bp = math.ceil(slot1:GetHPRate() * 10000)
 end
 
-ys.Battle.BattleDataProxy.isTimeOut = function (slot0)
+function ys.Battle.BattleDataProxy.isTimeOut(slot0)
 	return slot0._currentStageData.timeCount - slot0._countDown >= 180
 end
 
-ys.Battle.BattleDataProxy.CalcSingleDungeonScoreAtEnd = function (slot0, slot1)
+function ys.Battle.BattleDataProxy.CalcSingleDungeonScoreAtEnd(slot0, slot1)
 	slot0._statistics._deadUnit = true
 	slot0._statistics._badTime = true
 	slot0._statistics._totalTime = slot0._currentStageData.timeCount - slot0._countDown
@@ -211,7 +211,7 @@ ys.Battle.BattleDataProxy.CalcSingleDungeonScoreAtEnd = function (slot0, slot1)
 	slot0._statistics._timeout = slot0:isTimeOut()
 end
 
-ys.Battle.BattleDataProxy.CalcDuelScoreAtTimesUp = function (slot0, slot1, slot2, slot3, slot4)
+function ys.Battle.BattleDataProxy.CalcDuelScoreAtTimesUp(slot0, slot1, slot2, slot3, slot4)
 	slot0._statistics._deadUnit = true
 	slot0._statistics._badTime = true
 	slot0._statistics._timeout = false
@@ -232,7 +232,7 @@ ys.Battle.BattleDataProxy.CalcDuelScoreAtTimesUp = function (slot0, slot1, slot2
 	end
 end
 
-ys.Battle.BattleDataProxy.CalcDuelScoreAtEnd = function (slot0, slot1, slot2)
+function ys.Battle.BattleDataProxy.CalcDuelScoreAtEnd(slot0, slot1, slot2)
 	slot0._statistics._deadUnit = true
 	slot0._statistics._badTime = true
 	slot0._statistics._totalTime = slot0._currentStageData.timeCount - slot0._countDown
@@ -253,7 +253,7 @@ ys.Battle.BattleDataProxy.CalcDuelScoreAtEnd = function (slot0, slot1, slot2)
 	slot0._statistics._timeout = slot0:isTimeOut()
 end
 
-ys.Battle.BattleDataProxy.CalcSimulationScoreAtEnd = function (slot0, slot1, slot2)
+function ys.Battle.BattleDataProxy.CalcSimulationScoreAtEnd(slot0, slot1, slot2)
 	slot0._statistics._deadUnit = true
 	slot0._statistics._badTime = true
 	slot0._statistics._totalTime = slot0._currentStageData.timeCount - slot0._countDown
@@ -282,7 +282,7 @@ ys.Battle.BattleDataProxy.CalcSimulationScoreAtEnd = function (slot0, slot1, slo
 	slot0:overwriteRivalStatistics(slot2)
 end
 
-ys.Battle.BattleDataProxy.CalcSimulationScoreAtTimesUp = function (slot0, slot1, slot2, slot3, slot4, slot5)
+function ys.Battle.BattleDataProxy.CalcSimulationScoreAtTimesUp(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._statistics._deadUnit = true
 	slot0._statistics._badTime = true
 	slot0._statistics._timeout = false
@@ -297,7 +297,7 @@ ys.Battle.BattleDataProxy.CalcSimulationScoreAtTimesUp = function (slot0, slot1,
 	slot0:overwriteRivalStatistics(slot5)
 end
 
-ys.Battle.BattleDataProxy.overwriteRivalStatistics = function (slot0, slot1)
+function ys.Battle.BattleDataProxy.overwriteRivalStatistics(slot0, slot1)
 	for slot5, slot6 in pairs(slot0._statistics._rivalInfo) do
 		slot7 = false
 
@@ -316,7 +316,7 @@ ys.Battle.BattleDataProxy.overwriteRivalStatistics = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattleDataProxy.CalcChallengeScore = function (slot0, slot1)
+function ys.Battle.BattleDataProxy.CalcChallengeScore(slot0, slot1)
 	if slot1 then
 		slot0._statistics._battleScore = slot0.BattleScore.S
 	else
@@ -326,7 +326,7 @@ ys.Battle.BattleDataProxy.CalcChallengeScore = function (slot0, slot1)
 	slot0._statistics._totalTime = slot0._totalTime
 end
 
-ys.Battle.BattleDataProxy.CalcDodgemCount = function (slot0, slot1)
+function ys.Battle.BattleDataProxy.CalcDodgemCount(slot0, slot1)
 	slot3 = slot1:GetTemplate().type
 
 	if slot1:GetDeathReason() == ys.Battle.BattleConst.UnitDeathReason.CRUSH then
@@ -353,7 +353,7 @@ ys.Battle.BattleDataProxy.CalcDodgemCount = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattleDataProxy.GetScorePoint = function (slot0)
+function ys.Battle.BattleDataProxy.GetScorePoint(slot0)
 	slot1 = nil
 
 	if slot0._dodgemStatistics.combo == 1 then
@@ -367,7 +367,7 @@ ys.Battle.BattleDataProxy.GetScorePoint = function (slot0)
 	return slot1
 end
 
-ys.Battle.BattleDataProxy.CalcDodgemScore = function (slot0)
+function ys.Battle.BattleDataProxy.CalcDodgemScore(slot0)
 	if slot0.BATTLE_DODGEM_PASS_SCORE <= slot0._dodgemStatistics.score then
 		slot0._statistics._battleScore = slot1.BattleScore.S
 	else
@@ -377,7 +377,7 @@ ys.Battle.BattleDataProxy.CalcDodgemScore = function (slot0)
 	slot0._statistics.dodgemResult = slot0._dodgemStatistics
 end
 
-ys.Battle.BattleDataProxy.CalcSpecificEnemyInfo = function (slot0, slot1)
+function ys.Battle.BattleDataProxy.CalcSpecificEnemyInfo(slot0, slot1)
 	slot0._statistics.specificDamage = 0
 	slot3 = {}
 
@@ -392,30 +392,30 @@ ys.Battle.BattleDataProxy.CalcSpecificEnemyInfo = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattleDataProxy.CalcKillingSupplyShip = function (slot0)
+function ys.Battle.BattleDataProxy.CalcKillingSupplyShip(slot0)
 	slot0._subRunStatistics.score = slot0._subRunStatistics.score + 1
 end
 
-ys.Battle.BattleDataProxy.CalcSubRunTimeUp = function (slot0)
+function ys.Battle.BattleDataProxy.CalcSubRunTimeUp(slot0)
 	slot0._statistics._battleScore = slot0.BattleScore.B
 	slot0._statistics.subRunResult = slot0._subRunStatistics
 end
 
-ys.Battle.BattleDataProxy.CalcSubRunScore = function (slot0)
+function ys.Battle.BattleDataProxy.CalcSubRunScore(slot0)
 	slot0._statistics._battleScore = slot0.BattleScore.S
 	slot0._statistics.subRunResult = slot0._subRunStatistics
 end
 
-ys.Battle.BattleDataProxy.CalcSubRunDead = function (slot0)
+function ys.Battle.BattleDataProxy.CalcSubRunDead(slot0)
 	slot0._statistics._battleScore = slot0.BattleScore.D
 	slot0._statistics.subRunResult = slot0._subRunStatistics
 end
 
-ys.Battle.BattleDataProxy.CalcKillingSupplyShip = function (slot0)
+function ys.Battle.BattleDataProxy.CalcKillingSupplyShip(slot0)
 	slot0._subRunStatistics.score = slot0._subRunStatistics.score + 1
 end
 
-ys.Battle.BattleDataProxy.CalcSubRountineTimeUp = function (slot0)
+function ys.Battle.BattleDataProxy.CalcSubRountineTimeUp(slot0)
 	slot0._statistics._badTime = true
 
 	slot0:CalcSubRoutineScore()
@@ -423,7 +423,7 @@ ys.Battle.BattleDataProxy.CalcSubRountineTimeUp = function (slot0)
 	slot0._statistics._battleScore = slot0.BattleScore.C
 end
 
-ys.Battle.BattleDataProxy.CalcSubRountineElimate = function (slot0)
+function ys.Battle.BattleDataProxy.CalcSubRountineElimate(slot0)
 	slot0._statistics._elimated = true
 
 	slot0:CalcSubRoutineScore()
@@ -431,7 +431,7 @@ ys.Battle.BattleDataProxy.CalcSubRountineElimate = function (slot0)
 	slot0._statistics._battleScore = slot0.BattleScore.D
 end
 
-ys.Battle.BattleDataProxy.CalcSubRoutineScore = function (slot0)
+function ys.Battle.BattleDataProxy.CalcSubRoutineScore(slot0)
 	if ((((slot0._statistics._badTime or slot0._statistics._elimated) and 0) or slot0.SR_CONFIG.BASE_POINT) + slot0._subRunStatistics.score * slot0.SR_CONFIG.POINT) - slot0._statistics._deadCount * slot0.SR_CONFIG.DEAD_POINT >= slot0.SR_CONFIG.BASE_POINT + slot0.SR_CONFIG.M * slot0.SR_CONFIG.POINT then
 		slot0._statistics._battleScore = slot1.BattleScore.S
 	elseif slot0.SR_CONFIG.BASE_POINT <= slot4 then

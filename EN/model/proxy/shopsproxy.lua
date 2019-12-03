@@ -10,7 +10,7 @@ slot0.GUILD_SHOP_ADDED = "ShopsProxy:GUILD_SHOP_ADDED"
 slot0.GUILD_SHOP_UPDATED = "ShopsProxy:GUILD_SHOP_UPDATED"
 slot0.ACTIVITY_SHOPS_UPDATED = "ShopsProxy:ACTIVITY_SHOPS_UPDATED"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.shopStreet = nil
 	slot0.meritorousShop = nil
 	slot0.guildShop = nil
@@ -31,7 +31,7 @@ slot0.register = function (slot0)
 	slot0.timers = {}
 end
 
-slot0.setShopStreet = function (slot0, slot1, slot2)
+function slot0.setShopStreet(slot0, slot1, slot2)
 	slot0.shopStreet = slot1
 
 	slot0:sendNotification(slot0.SHOPPINGSTREET_UPDATE, {
@@ -40,33 +40,33 @@ slot0.setShopStreet = function (slot0, slot1, slot2)
 	})
 end
 
-slot0.getShopStreet = function (slot0)
+function slot0.getShopStreet(slot0)
 	return Clone(slot0.shopStreet)
 end
 
-slot0.getMeritorousShop = function (slot0)
+function slot0.getMeritorousShop(slot0)
 	return Clone(slot0.meritorousShop)
 end
 
-slot0.addMeritorousShop = function (slot0, slot1)
+function slot0.addMeritorousShop(slot0, slot1)
 	slot0.meritorousShop = slot1
 end
 
-slot0.updateMeritorousShop = function (slot0, slot1)
+function slot0.updateMeritorousShop(slot0, slot1)
 	slot0.meritorousShop = slot1
 
 	slot0:sendNotification(slot0.MERITOROUS_SHOP_UPDATED, Clone(slot1))
 end
 
-slot0.setNormalList = function (slot0, slot1)
+function slot0.setNormalList(slot0, slot1)
 	slot0.normalList = slot1 or {}
 end
 
-slot0.GetNormalList = function (slot0)
+function slot0.GetNormalList(slot0)
 	return Clone(slot0.normalList)
 end
 
-slot0.GetNormalByID = function (slot0, slot1)
+function slot0.GetNormalByID(slot0, slot1)
 	if not slot0.normalList then
 		slot0.normalList = {}
 	end
@@ -79,19 +79,19 @@ slot0.GetNormalByID = function (slot0, slot1)
 	return slot0.normalList[slot1]
 end
 
-slot0.updateNormalByID = function (slot0, slot1)
+function slot0.updateNormalByID(slot0, slot1)
 	slot0.normalList[slot1.id] = slot1
 end
 
-slot0.setNormalGroupList = function (slot0, slot1)
+function slot0.setNormalGroupList(slot0, slot1)
 	slot0.normalGroupList = slot1
 end
 
-slot0.GetNormalGroupList = function (slot0)
+function slot0.GetNormalGroupList(slot0)
 	return slot0.normalGroupList
 end
 
-slot0.updateNormalGroupList = function (slot0, slot1, slot2)
+function slot0.updateNormalGroupList(slot0, slot1, slot2)
 	if slot1 <= 0 then
 		return
 	end
@@ -110,17 +110,17 @@ slot0.updateNormalGroupList = function (slot0, slot1, slot2)
 	})
 end
 
-slot0.addActivityShops = function (slot0, slot1)
+function slot0.addActivityShops(slot0, slot1)
 	slot0.activityShops = slot1
 
 	slot0:sendNotification(slot0.ACTIVITY_SHOPS_UPDATED)
 end
 
-slot0.getActivityShopById = function (slot0, slot1)
+function slot0.getActivityShopById(slot0, slot1)
 	return slot0.activityShops[slot1]
 end
 
-slot0.updateActivityShop = function (slot0, slot1, slot2)
+function slot0.updateActivityShop(slot0, slot1, slot2)
 	slot0.activityShops[slot1] = slot2
 
 	slot0:sendNotification(slot0.ACTIVITY_SHOP_UPDATED, {
@@ -129,34 +129,34 @@ slot0.updateActivityShop = function (slot0, slot1, slot2)
 	})
 end
 
-slot0.getActivityShops = function (slot0)
+function slot0.getActivityShops(slot0)
 	return slot0.activityShops
 end
 
-slot0.setFirstChargeList = function (slot0, slot1)
+function slot0.setFirstChargeList(slot0, slot1)
 	slot0.firstChargeList = slot1
 
 	slot0:sendNotification(slot0.FIRST_CHARGE_IDS_UPDATED, Clone(slot1))
 end
 
-slot0.getFirstChargeList = function (slot0)
+function slot0.getFirstChargeList(slot0)
 	return Clone(slot0.firstChargeList)
 end
 
-slot0.setChargedList = function (slot0, slot1)
+function slot0.setChargedList(slot0, slot1)
 	slot0.chargeList = slot1
 
 	slot0:sendNotification(slot0.CHARGED_LIST_UPDATED, Clone(slot1))
 end
 
-slot0.getChargedList = function (slot0)
+function slot0.getChargedList(slot0)
 	return Clone(slot0.chargeList)
 end
 
 slot1 = 3
 slot2 = 10
 
-slot0.chargeFailed = function (slot0, slot1, slot2)
+function slot0.chargeFailed(slot0, slot1, slot2)
 	if not slot0.timers[slot1] then
 		pg.UIMgr.GetInstance():LoadingOn()
 
@@ -172,7 +172,7 @@ slot0.chargeFailed = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.removeChargeTimer = function (slot0, slot1)
+function slot0.removeChargeTimer(slot0, slot1)
 	if slot0.timers[slot1] then
 		pg.UIMgr.GetInstance():LoadingOff()
 		slot0.timers[slot1]:Stop()
@@ -181,7 +181,7 @@ slot0.removeChargeTimer = function (slot0, slot1)
 	end
 end
 
-slot0.addWaitTimer = function (slot0)
+function slot0.addWaitTimer(slot0)
 	pg.UIMgr.GetInstance():LoadingOn()
 
 	slot0.waitBiliTimer = Timer.New(function ()
@@ -195,7 +195,7 @@ slot0.addWaitTimer = function (slot0)
 	slot0.waitBiliTimer:Start()
 end
 
-slot0.removeWaitTimer = function (slot0)
+function slot0.removeWaitTimer(slot0)
 	if slot0.waitBiliTimer then
 		pg.UIMgr.GetInstance():LoadingOff()
 		slot0.waitBiliTimer:Stop()
@@ -204,14 +204,14 @@ slot0.removeWaitTimer = function (slot0)
 	end
 end
 
-slot0.setGuildShop = function (slot0, slot1)
+function slot0.setGuildShop(slot0, slot1)
 	slot0.guildShop = slot1
 
 	slot0:addGuildShopRefreshTimer()
 	slot0:sendNotification(slot0.GUILD_SHOP_ADDED, slot0.guildShop)
 end
 
-slot0.addGuildShopRefreshTimer = function (slot0)
+function slot0.addGuildShopRefreshTimer(slot0)
 	if slot0.guildShopTimer then
 		slot0.guildShopTimer:Stop()
 
@@ -237,11 +237,11 @@ slot0.addGuildShopRefreshTimer = function (slot0)
 	slot0.guildShopTimer:Start()
 end
 
-slot0.getGuildShop = function (slot0)
+function slot0.getGuildShop(slot0)
 	return slot0.guildShop
 end
 
-slot0.updateGuildShop = function (slot0, slot1, slot2)
+function slot0.updateGuildShop(slot0, slot1, slot2)
 	slot0.guildShop = slot1
 
 	slot0:sendNotification(slot0.GUILD_SHOP_UPDATED, {
@@ -250,7 +250,7 @@ slot0.updateGuildShop = function (slot0, slot1, slot2)
 	})
 end
 
-slot0.remove = function (slot0)
+function slot0.remove(slot0)
 	for slot4, slot5 in pairs(slot0.timers) do
 		slot5:Stop()
 	end

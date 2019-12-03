@@ -1,6 +1,6 @@
 slot0 = class("SirenEquipment", import(".Equipment"))
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot1.config_id
 	slot0.count = 1
@@ -16,7 +16,7 @@ slot0.Ctor = function (slot0, slot1)
 	slot0:BuildConfig()
 end
 
-slot0.GetCategory = function (slot0)
+function slot0.GetCategory(slot0)
 	return EquipCategory.Siren
 end
 

@@ -1,7 +1,7 @@
 slot0 = class("BackYardFurnitureModel")
 slot1 = require("Mod/BackYard/view/BackYardTool")
 
-slot0.Ctor = function (slot0, slot1, slot2, slot3)
+function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
 	slot0.poolmgr = slot3
@@ -41,13 +41,13 @@ slot0.Ctor = function (slot0, slot1, slot2, slot3)
 	slot0.effects = {}
 end
 
-slot0.PlayAnim = function (slot0, slot1)
+function slot0.PlayAnim(slot0, slot1)
 	if slot0.furnitureVO:isSpine() then
 		slot0.spineAnimUI:SetAction(slot1, 0)
 	end
 end
 
-slot0.PlayEffect = function (slot0, slot1)
+function slot0.PlayEffect(slot0, slot1)
 	if slot1 == slot0.loading then
 		return
 	end
@@ -72,7 +72,7 @@ slot0.PlayEffect = function (slot0, slot1)
 	end
 end
 
-slot0.StopEffect = function (slot0, slot1)
+function slot0.StopEffect(slot0, slot1)
 	if slot0.loading == slot1 then
 		slot0.loading = nil
 	end
@@ -82,7 +82,7 @@ slot0.StopEffect = function (slot0, slot1)
 	end
 end
 
-slot0.UpdateScale = function (slot0, slot1)
+function slot0.UpdateScale(slot0, slot1)
 	slot2 = 1
 
 	if slot0.furnitureVO:isFloor() then
@@ -94,15 +94,15 @@ slot0.UpdateScale = function (slot0, slot1)
 	slot0._tf.localScale = Vector3(slot2, 1, 1)
 end
 
-slot0.UpdateFurnitureVO = function (slot0, slot1)
+function slot0.UpdateFurnitureVO(slot0, slot1)
 	slot0.furnitureVO = slot1
 end
 
-slot0.SetParent = function (slot0, slot1, slot2)
+function slot0.SetParent(slot0, slot1, slot2)
 	slot0._tf:SetParent(slot1, slot2)
 end
 
-slot0.SetPosition = function (slot0, slot1)
+function slot0.SetPosition(slot0, slot1)
 	slot2 = slot0.furnitureVO
 	slot0._tf.localPosition = slot0.getLocalPos(slot0.furnitureVO:getPosition())
 
@@ -115,7 +115,7 @@ slot0.SetPosition = function (slot0, slot1)
 	end
 end
 
-slot0.SetTargetPosition = function (slot0, slot1, slot2)
+function slot0.SetTargetPosition(slot0, slot1, slot2)
 	slot3 = slot0.getLocalPos(slot2)
 
 	if slot1 then
@@ -125,7 +125,7 @@ slot0.SetTargetPosition = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.FallBackAnim = function (slot0, slot1, slot2)
+function slot0.FallBackAnim(slot0, slot1, slot2)
 	LeanTween.moveLocal(go(slot0._tf), Vector3(slot0.getLocalPos(slot3).x, slot0.getLocalPos(slot3).y, 0), 0.1):setOnComplete(System.Action(function ()
 		if slot0 then
 			slot1._tf.localPosition = Vector2(slot0._tf.localPosition.x + slot0:getConfig("offset")[1], slot0._tf.localPosition.y + slot0.getConfig("offset")[2])
@@ -135,7 +135,7 @@ slot0.FallBackAnim = function (slot0, slot1, slot2)
 	end))
 end
 
-slot0.initGrids = function (slot0)
+function slot0.initGrids(slot0)
 	slot3 = slot0.gridsTF
 	slot4 = slot0.furnitureVO.isFloor(slot1)
 
@@ -156,7 +156,7 @@ slot0.initGrids = function (slot0)
 	end
 end
 
-slot0.changeGridColor = function (slot0, slot1, slot2)
+function slot0.changeGridColor(slot0, slot1, slot2)
 	for slot7, slot8 in pairs(slot3) do
 		slot0.changeGridColor(slot8, BackYardConst.BACKYARD_GREEN)
 	end
@@ -172,27 +172,27 @@ slot0.changeGridColor = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.SetAsLastSibling = function (slot0)
+function slot0.SetAsLastSibling(slot0)
 	slot0._tf:SetAsLastSibling()
 end
 
-slot0.SetAsFirstSibling = function (slot0)
+function slot0.SetAsFirstSibling(slot0)
 	slot0._tf:SetAsFirstSibling()
 end
 
-slot0.SetSiblingIndex = function (slot0, slot1)
+function slot0.SetSiblingIndex(slot0, slot1)
 	slot0._tf:SetSiblingIndex(slot1)
 end
 
-slot0.ReserseDir = function (slot0)
+function slot0.ReserseDir(slot0)
 	slot0._tf.localScale = Vector3(-slot0._tf.localScale.x, slot0._tf.localScale.y, slot0._tf.localScale.z)
 end
 
-slot0.EnableTouch = function (slot0, slot1)
+function slot0.EnableTouch(slot0, slot1)
 	slot0.iconImg.raycastTarget = slot1
 end
 
-slot0.TouchAnim = function (slot0)
+function slot0.TouchAnim(slot0)
 	if not LeanTween.isTweening(go(slot0._tf)) then
 		LeanTween.scale(slot0._tf, Vector3(slot0._tf.localScale.x - 0.05, slot0._tf.localScale.y - 0.05, slot0._tf.localScale.z - 0.05), 0.01):setOnComplete(System.Action(function ()
 			LeanTween.scale(slot0._tf, , 0.1)
@@ -200,13 +200,13 @@ slot0.TouchAnim = function (slot0)
 	end
 end
 
-slot0.LoadingAnim = function (slot0, slot1)
+function slot0.LoadingAnim(slot0, slot1)
 	LeanTween.scale(rtf(slot0._tf), Vector3(slot0._tf.localScale.x + 0.2, slot0._tf.localScale.y + 0.2, 1), 0.2):setFrom(0):setOnComplete(System.Action(function ()
 		LeanTween.scale(rtf(slot0._tf), Vector3(slot1, Vector3, 1), 0.1):setOnComplete(System.Action(0.1))
 	end))
 end
 
-slot0.TouchSpineAnim = function (slot0, slot1, slot2)
+function slot0.TouchSpineAnim(slot0, slot1, slot2)
 	slot4 = slot0.spineAnimUI
 	slot5, slot6, slot7 = slot0.furnitureVO.getTouchSpineConfig(slot3)
 
@@ -255,7 +255,7 @@ slot0.TouchSpineAnim = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.playFurnitureVoice = function (slot0, slot1)
+function slot0.playFurnitureVoice(slot0, slot1)
 	function slot2()
 		slot0:stopCV()
 
@@ -281,7 +281,7 @@ slot0.playFurnitureVoice = function (slot0, slot1)
 	end
 end
 
-slot0.stopCV = function (slot0)
+function slot0.stopCV(slot0)
 	if slot0.currVoice then
 		slot0.currVoice:Stop(true)
 	end
@@ -289,7 +289,7 @@ slot0.stopCV = function (slot0)
 	slot0.currVoice = nil
 end
 
-slot0.MoveToTarget = function (slot0, slot1, slot2)
+function slot0.MoveToTarget(slot0, slot1, slot2)
 	function slot3(slot0, slot1)
 		return slot0 - slot1.normalized * Vector2.Distance(slot1, slot0) * 0.5 + slot1
 	end
@@ -306,7 +306,7 @@ slot0.MoveToTarget = function (slot0, slot1, slot2)
 	end))
 end
 
-slot0.AddItem = function (slot0, slot1)
+function slot0.AddItem(slot0, slot1)
 	if not slot0.furnitureVO:isMapItem() then
 		return
 	end
@@ -321,7 +321,7 @@ slot0.AddItem = function (slot0, slot1)
 	slot0.item = slot1.CreateItem(slot4, slot5, )
 end
 
-slot0.RemoveItem = function (slot0, slot1)
+function slot0.RemoveItem(slot0, slot1)
 	if not slot0.furnitureVO:isMapItem() then
 		return
 	end
@@ -335,7 +335,7 @@ slot0.RemoveItem = function (slot0, slot1)
 	slot0.item = nil
 end
 
-slot0.Clear = function (slot0)
+function slot0.Clear(slot0)
 	for slot4, slot5 in pairs(slot0.effects) do
 		PoolMgr.GetInstance():ReturnUI(slot4, slot5)
 	end

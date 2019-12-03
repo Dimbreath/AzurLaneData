@@ -1,19 +1,19 @@
 slot0 = class("BackYardSettlementLayer", import("..base.BaseUI"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "BackYardStatisticsUI"
 end
 
-slot0.setShipVOs = function (slot0, slot1, slot2)
+function slot0.setShipVOs(slot0, slot1, slot2)
 	slot0.oldShipVOs = slot1
 	slot0.newShipVOs = slot2
 end
 
-slot0.setDormVO = function (slot0, slot1)
+function slot0.setDormVO(slot0, slot1)
 	slot0.dormVO = slot1
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.UIMgr = pg.UIMgr.GetInstance()
 
 	slot0.UIMgr:BlurPanel(slot0._tf)
@@ -23,7 +23,7 @@ slot0.init = function (slot0)
 	slot0.confirmBtn = slot0:findTF("painting/confirm_btn")
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	slot0.tweens = {}
 
 	onButton(slot0, slot0.confirmBtn, function ()
@@ -37,7 +37,7 @@ slot0.didEnter = function (slot0)
 	slot0:initAddExpInfo()
 end
 
-slot0.initPainting = function (slot0)
+function slot0.initPainting(slot0)
 	slot1 = nil
 
 	for slot5, slot6 in pairs(slot0.newShipVOs) do
@@ -49,7 +49,7 @@ slot0.initPainting = function (slot0)
 	setPaintingPrefabAsync(slot0.painting, slot1:getPainting(), "jiesuan")
 end
 
-slot0.initAddExpInfo = function (slot0)
+function slot0.initAddExpInfo(slot0)
 	setActive(slot0:findTF("ship_word/text_contain1"), slot0.dormVO.food ~= 0)
 	setActive(slot0:findTF("ship_word/text_contain2"), slot0.dormVO.food ~= 0)
 	setActive(slot0:findTF("ship_word/Text"), slot0.dormVO.food == 0)
@@ -97,7 +97,7 @@ end
 
 slot1 = 0.3
 
-slot0.updateShip = function (slot0, slot1)
+function slot0.updateShip(slot0, slot1)
 	slot5 = findTF(slot2, "exp/level"):GetComponent(typeof(Text))
 	slot6 = findTF(slot2, "addition_bg/Text").GetComponent(slot4, typeof(Text))
 	slot7 = slot0.dormVO.load_exp
@@ -158,7 +158,7 @@ slot0.updateShip = function (slot0, slot1)
 	setText(slot0:findTF("name_bg/Text", slot2), slot1:getName())
 end
 
-slot0.setSliderValue = function (slot0, slot1, slot2)
+function slot0.setSliderValue(slot0, slot1, slot2)
 	if slot2 ~= 0 and slot2 < 0.03 then
 		slot2 = 0.03
 	end
@@ -166,7 +166,7 @@ slot0.setSliderValue = function (slot0, slot1, slot2)
 	slot1.value = slot2
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	slot0.UIMgr:UnblurPanel(slot0._tf, slot0.UIMgr.UIMain)
 
 	slot1 = ipairs

@@ -1,12 +1,12 @@
 slot0 = class("FriendBlackListCard", import(".FriendCard"))
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 
 	slot0.btn = slot0.tf:Find("frame/occupy_btn")
 end
 
-slot0.update = function (slot0, slot1)
+function slot0.update(slot0, slot1)
 	slot0.super.update(slot0, slot1)
 end
 
