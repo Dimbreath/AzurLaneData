@@ -1,6 +1,6 @@
 slot0 = class("HoloLivePtPage", import(".TemplatePage.PtTemplatePage"))
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.super.OnInit(slot0)
 
 	slot0.charImg = slot0:findTF("charImg", slot0.bg)
@@ -12,7 +12,7 @@ slot0.OnInit = function (slot0)
 	slot0.scrollTextTpl = slot0:findTF("TextTpl", slot0.bg)
 end
 
-slot0.OnDataSetting = function (slot0)
+function slot0.OnDataSetting(slot0)
 	slot0.super.OnDataSetting(slot0)
 
 	slot0.ptCount = slot0.ptData:GetResProgress()
@@ -20,7 +20,7 @@ slot0.OnDataSetting = function (slot0)
 	slot0.picNameList = pg.activity_event_pt[slot0.activity.id].pic_list
 end
 
-slot0.OnFirstFlush = function (slot0)
+function slot0.OnFirstFlush(slot0)
 	slot0.super.OnFirstFlush(slot0)
 	slot0:initScrollTextList()
 
@@ -50,7 +50,7 @@ slot0.OnFirstFlush = function (slot0)
 	end)
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	if slot0.scrollTextTimer then
 		slot0.scrollTextTimer:Stop()
 
@@ -65,7 +65,7 @@ slot0.OnDestroy = function (slot0)
 	end
 end
 
-slot0.initScrollTextList = function (slot0)
+function slot0.initScrollTextList(slot0)
 	setText(slot0.scrollTextTpl, slot0.activity:getConfig("config_client").scrollStr)
 
 	slot6 = slot0.scrollTextContainer.localPosition.x - (GetComponent(slot0.scrollTextTpl, "Text").preferredWidth + slot0.scrollTextMask.rect.width + 50)

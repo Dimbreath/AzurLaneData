@@ -4,19 +4,19 @@ slot1.ACTION = slot1.NAME .. "/notes/action"
 slot1.CHANGED = slot1.NAME .. "/notes/changed"
 slot1.CANCEL = slot1.NAME .. "/notes/cancel"
 
-slot1.Ctor = function (slot0)
+function slot1.Ctor(slot0)
 	slot0.super.Ctor(slot0, slot0.NAME, null)
 
 	slot0.states = {}
 end
 
-slot1.onRegister = function (slot0)
+function slot1.onRegister(slot0)
 	if slot0.initial ~= nil then
 		slot0:transitionTo(slot0.initial, null)
 	end
 end
 
-slot1.registerState = function (slot0, slot1, slot2)
+function slot1.registerState(slot0, slot1, slot2)
 	if slot1 == nil or slot0.states[slot1.name] ~= nil then
 		return
 	end
@@ -28,11 +28,11 @@ slot1.registerState = function (slot0, slot1, slot2)
 	end
 end
 
-slot1.retrieveState = function (slot0, slot1)
+function slot1.retrieveState(slot0, slot1)
 	return slot0.states[slot1]
 end
 
-slot1.removeState = function (slot0, slot1)
+function slot1.removeState(slot0, slot1)
 	if slot0.states[slot1] == nil then
 		return
 	end
@@ -40,7 +40,7 @@ slot1.removeState = function (slot0, slot1)
 	slot0.states[slot1] = nil
 end
 
-slot1.transitionTo = function (slot0, slot1, slot2)
+function slot1.transitionTo(slot0, slot1, slot2)
 	if slot1 == nil then
 		return
 	end
@@ -76,14 +76,14 @@ slot1.transitionTo = function (slot0, slot1, slot2)
 	slot0:sendNotification(slot0.CHANGED, slot2, slot1.name)
 end
 
-slot1.listNotificationInterests = function (slot0)
+function slot1.listNotificationInterests(slot0)
 	return {
 		slot0.ACTION,
 		slot0.CANCEL
 	}
 end
 
-slot1.handleNotification = function (slot0, slot1)
+function slot1.handleNotification(slot0, slot1)
 	if slot1:getName() == slot0.ACTION then
 		if slot0:getCurrentState():getTarget(slot1:getType()) ~= nil then
 			if slot0.states[slot4] ~= nil then
@@ -99,11 +99,11 @@ slot1.handleNotification = function (slot0, slot1)
 	end
 end
 
-slot1.getCurrentState = function (slot0)
+function slot1.getCurrentState(slot0)
 	return slot0.viewComponent
 end
 
-slot1.setCurrentState = function (slot0, slot1)
+function slot1.setCurrentState(slot0, slot1)
 	slot0.viewComponent = slot1
 end
 

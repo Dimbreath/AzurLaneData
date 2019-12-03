@@ -1,7 +1,7 @@
 slot0 = class("EventProxy", import(".NetProxy"))
 slot0.EVENT_FLUSHTIMES_UPDATED = "EventProxy:EVENT_FLUSHTIMES_UPDATED"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.flushTimes = 0
 	slot0.eventList = {}
 
@@ -36,7 +36,7 @@ slot0.register = function (slot0)
 	slot0.timer:Start()
 end
 
-slot0.remove = function (slot0)
+function slot0.remove(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -44,7 +44,7 @@ slot0.remove = function (slot0)
 	end
 end
 
-slot0.updateInfo = function (slot0, slot1)
+function slot0.updateInfo(slot0, slot1)
 	slot0.eventList = {}
 
 	if slot1.result == nil or slot1.result == 0 then
@@ -58,13 +58,13 @@ slot0.updateInfo = function (slot0, slot1)
 	end
 end
 
-slot0.resetFlushTimes = function (slot0)
+function slot0.resetFlushTimes(slot0)
 	slot0.flushTimes = 0
 
 	slot0.facade:sendNotification(slot0.EVENT_FLUSHTIMES_UPDATED)
 end
 
-slot0.getActiveShipIds = function (slot0)
+function slot0.getActiveShipIds(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.eventList) do
@@ -78,7 +78,7 @@ slot0.getActiveShipIds = function (slot0)
 	return slot1
 end
 
-slot0.findInfoById = function (slot0, slot1)
+function slot0.findInfoById(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.eventList) do
 		if slot6.id == slot1 then
 			return slot6, slot5
@@ -88,7 +88,7 @@ slot0.findInfoById = function (slot0, slot1)
 	return nil, -1
 end
 
-slot0.countByState = function (slot0, slot1)
+function slot0.countByState(slot0, slot1)
 	slot2 = 0
 
 	for slot6, slot7 in ipairs(slot0.eventList) do
@@ -100,13 +100,13 @@ slot0.countByState = function (slot0, slot1)
 	return slot2
 end
 
-slot0.hasFinishState = function (slot0)
+function slot0.hasFinishState(slot0)
 	if slot0:countByState(EventInfo.StateFinish) > 0 then
 		return true
 	end
 end
 
-slot0.countBusyFleetNums = function (slot0)
+function slot0.countBusyFleetNums(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in ipairs(slot0.eventList) do
@@ -118,7 +118,7 @@ slot0.countBusyFleetNums = function (slot0)
 	return slot1
 end
 
-slot0.updateTime = function (slot0)
+function slot0.updateTime(slot0)
 	slot1 = false
 
 	for slot5, slot6 in pairs(slot0.eventList) do
@@ -132,11 +132,11 @@ slot0.updateTime = function (slot0)
 	end
 end
 
-slot0.getEventList = function (slot0)
+function slot0.getEventList(slot0)
 	return Clone(slot0.eventList)
 end
 
-slot0.getActiveEvents = function (slot0)
+function slot0.getActiveEvents(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.eventList) do
@@ -148,7 +148,7 @@ slot0.getActiveEvents = function (slot0)
 	return slot1
 end
 
-slot0.fillRecommendShip = function (slot0, slot1)
+function slot0.fillRecommendShip(slot0, slot1)
 	for slot7, slot8 in ipairs(slot3) do
 		table.insert(slot1.shipIds, slot8)
 	end

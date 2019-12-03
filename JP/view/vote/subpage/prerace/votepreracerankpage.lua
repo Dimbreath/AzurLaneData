@@ -1,11 +1,11 @@
 slot0 = class("VotePreRaceRankPage", import("....base.BaseSubView"))
 slot0.RANK_DISPLAY_COUNT = 15
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "PreRaceRank"
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.uiitemlist = UIItemList.New(slot0:findTF("content"), slot0:findTF("content/tpl"))
 	slot0.prevBtn = slot0:findTF("prev")
 	slot0.nextBtn = slot0:findTF("next")
@@ -36,7 +36,7 @@ slot0.OnInit = function (slot0)
 	setActive(slot0._tf, true)
 end
 
-slot0.initRank = function (slot0, slot1)
+function slot0.initRank(slot0, slot1)
 	slot2 = (slot1 - 1) * slot0.RANK_DISPLAY_COUNT
 	slot3 = slot0.voteShips
 
@@ -54,13 +54,13 @@ slot0.initRank = function (slot0, slot1)
 	slot0:UpdateTitle()
 end
 
-slot0.UpdateTitle = function (slot0)
+function slot0.UpdateTitle(slot0)
 	setActive(slot0.unrise, slot0.phase == VoteGroup.DISPLAY_STAGE and slot0.page >= 11)
 	setActive(slot0.rise, slot0.phase == VoteGroup.DISPLAY_STAGE and slot0.page < 11)
 	setActive(slot0.rankTitle, slot0.phase == VoteGroup.VOTE_STAGE or slot0.phase == VoteGroup.STTLEMENT_STAGE)
 end
 
-slot0.Update = function (slot0, slot1)
+function slot0.Update(slot0, slot1)
 	slot0.voteShips = slot1:getList()
 	slot0.page = 1
 	slot0.maxPage = math.ceil(#slot0.voteShips / slot0.RANK_DISPLAY_COUNT)
@@ -72,7 +72,7 @@ slot0.Update = function (slot0, slot1)
 	slot0:initRank(slot0.page)
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	return
 end
 

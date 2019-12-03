@@ -3,7 +3,7 @@ slot0.MINI_GAME_SUCCESS = "BaseMiniGameMediator:MINI_GAME_SUCCESS"
 slot0.MINI_GAME_FAILURE = "BaseMiniGameMediator:MINI_GAME_FAILURE"
 slot0.MINI_GAME_OPERATOR = "BaseMiniGameMediator:MINI_GAME_OPERATOR"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.miniGameId = slot0.contextData.miniGameId
 	slot0.miniGameProxy = getProxy(MiniGameProxy)
 
@@ -21,19 +21,19 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.OnMiniGameOPeration = function (slot0, ...)
+function slot0.OnMiniGameOPeration(slot0, ...)
 	return
 end
 
-slot0.OnMiniGameSuccess = function (slot0, ...)
+function slot0.OnMiniGameSuccess(slot0, ...)
 	return
 end
 
-slot0.OnMiniGameFailure = function (slot0, ...)
+function slot0.OnMiniGameFailure(slot0, ...)
 	return
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		MiniGameProxy.ON_HUB_DATA_UPDATE,
 		GAME.SEND_MINI_GAME_OP_DONE,
@@ -42,7 +42,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == MiniGameProxy.ON_HUB_DATA_UPDATE then

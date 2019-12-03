@@ -9,7 +9,7 @@ ys.Battle.BattleDebugConsole.UPDATE_PLAYER_WEAPON = "updatePlayerWeapon"
 ys.Battle.BattleDebugConsole.UPDATE_MONSTER_WEAPON = "updateMonsterWeapon"
 ys.Battle.BattleDebugConsole.UPDATE_MONSTER_AI = "updateMonsterAI"
 
-ys.Battle.BattleDebugConsole.Ctor = function (slot0, slot1, slot2)
+function ys.Battle.BattleDebugConsole.Ctor(slot0, slot1, slot2)
 	slot0._go = slot1
 	slot0._state = slot2
 	slot0._dataProxy = slot0._state:GetProxyByName(slot0.Battle.BattleDataProxy.__name)
@@ -24,7 +24,7 @@ ys.Battle.BattleDebugConsole.Ctor = function (slot0, slot1, slot2)
 	end
 end
 
-ys.Battle.BattleDebugConsole.initDebug = function (slot0)
+function ys.Battle.BattleDebugConsole.initDebug(slot0)
 	slot0._randomEngage = slot0._debug:Find("spawn_enemy")
 
 	onButton(nil, slot0._randomEngage, function ()
@@ -119,7 +119,7 @@ ys.Battle.BattleDebugConsole.initDebug = function (slot0)
 	end, SFX_PANEL)
 end
 
-ys.Battle.BattleDebugConsole.initData = function (slot0)
+function ys.Battle.BattleDebugConsole.initData(slot0)
 	slot0._fleetList = slot0._dataProxy:GetFleetList()
 	slot0._freeShipList = slot0._dataProxy:GetFreeShipList()
 	slot0._monsterArray = {}
@@ -130,19 +130,19 @@ ys.Battle.BattleDebugConsole.initData = function (slot0)
 		end
 	end
 
-	slot0._updatePlayerWeapon = function (slot0)
+	function slot0._updatePlayerWeapon(slot0)
 		for slot4, slot5 in pairs(slot0._fleetList) do
 			slot5:UpdateAutoComponent(slot0)
 		end
 	end
 
-	slot0._updateMonsterWeapon = function (slot0)
+	function slot0._updateMonsterWeapon(slot0)
 		for slot4, slot5 in pairs(slot0._freeShipList) do
 			slot5:UpdateWeapon(slot0)
 		end
 	end
 
-	slot0._updateMonsterAI = function (slot0)
+	function slot0._updateMonsterAI(slot0)
 		for slot4, slot5 in pairs(slot0._dataProxy._teamList) do
 			if slot5:IsFatalDamage() then
 				slot0._dataProxy:KillNPCTeam(slot4)
@@ -158,14 +158,14 @@ ys.Battle.BattleDebugConsole.initData = function (slot0)
 		updateMonsterAI = slot0._updateMonsterAI
 	}
 
-	slot0._dataProxy.UpdateAutoComponent = function (slot0, slot1)
+	function slot0._dataProxy.UpdateAutoComponent(slot0, slot1)
 		for slot5, slot6 in pairs(slot0._autoComponentFuncList) do
 			slot6(slot1)
 		end
 	end
 end
 
-ys.Battle.BattleDebugConsole.initComponent = function (slot0)
+function ys.Battle.BattleDebugConsole.initComponent(slot0)
 	slot0._base = slot0._go:Find("bg")
 	slot0._common = slot0._base:Find("common")
 	slot0._debug = slot0._base:Find("debug")
@@ -221,11 +221,11 @@ ys.Battle.BattleDebugConsole.initComponent = function (slot0)
 	SetActive(slot0._white, true)
 end
 
-ys.Battle.BattleDebugConsole.SetActive = function (slot0, slot1)
+function ys.Battle.BattleDebugConsole.SetActive(slot0, slot1)
 	SetActive(slot0._go, slot1)
 end
 
-ys.Battle.BattleDebugConsole.spawnEnemy = function (slot0, slot1, slot2, slot3, slot4, slot5)
+function ys.Battle.BattleDebugConsole.spawnEnemy(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._dataProxy:SpawnMonster({
 		monsterTemplateID = slot1,
 		corrdinate = {
@@ -242,7 +242,7 @@ ys.Battle.BattleDebugConsole.spawnEnemy = function (slot0, slot1, slot2, slot3, 
 	}, 1, slot0.UnitType.ENEMY_UNIT, slot1.FOE_CODE)
 end
 
-ys.Battle.BattleDebugConsole.spawnStrike = function (slot0, slot1, slot2, slot3, slot4)
+function ys.Battle.BattleDebugConsole.spawnStrike(slot0, slot1, slot2, slot3, slot4)
 	slot0._dataProxy:SpawnAirFighter({
 		templateID = slot1,
 		weaponID = {},
@@ -256,7 +256,7 @@ ys.Battle.BattleDebugConsole.spawnStrike = function (slot0, slot1, slot2, slot3,
 	})
 end
 
-ys.Battle.BattleDebugConsole.activeReference = function (slot0)
+function ys.Battle.BattleDebugConsole.activeReference(slot0)
 	slot0._state:ActiveReference()
 	slot0._state:AddMediator(slot0.Battle.BattleReferenceBoxMediator.New())
 	pg.TipsMgr.GetInstance():ShowTips("┏━━━━━━━━━━━━━━━━━━━┓")
@@ -312,7 +312,7 @@ ys.Battle.BattleDebugConsole.activeReference = function (slot0)
 	end, SFX_PANEL)
 end
 
-ys.Battle.BattleDebugConsole.forceTrigger = function (slot0, slot1)
+function ys.Battle.BattleDebugConsole.forceTrigger(slot0, slot1)
 	if slot0._state:GetCommandByName("BattleSingleDungeonCommand")._waveUpdater._waveInfoList[slot1] == nil then
 		pg.TipsMgr.GetInstance():ShowTips("查无次波")
 	elseif slot3:GetState() ~= slot3.STATE_DEACTIVE then

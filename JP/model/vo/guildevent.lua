@@ -1,7 +1,7 @@
 slot0 = class("GuildEvent", import(".BaseVO"))
 slot0.TASK_UPDATED = "GuildEvent:TASK_UPDATED"
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.bossId = slot1.boss_id
 	slot0.bossLevel = slot1.level
 	slot0.bossHp = slot1.hp
@@ -14,7 +14,7 @@ slot0.Ctor = function (slot0, slot1)
 	slot0:initTasks(slot1.got_award_list)
 end
 
-slot0.initTasks = function (slot0, slot1)
+function slot0.initTasks(slot0, slot1)
 	for slot6, slot7 in pairs(pg.guild_boss_award.all) do
 		slot11 = getProxy(GuildProxy):getData()
 
@@ -31,25 +31,25 @@ slot0.initTasks = function (slot0, slot1)
 	end
 end
 
-slot0.reduceCount = function (slot0)
+function slot0.reduceCount(slot0)
 	slot0.count = slot0.count - 1
 end
 
-slot0.getTasks = function (slot0)
+function slot0.getTasks(slot0)
 	return slot0.taskList
 end
 
-slot0.getTaskById = function (slot0, slot1)
+function slot0.getTaskById(slot0, slot1)
 	return slot0.taskList[slot1]
 end
 
-slot0.updateTask = function (slot0, slot1)
+function slot0.updateTask(slot0, slot1)
 	slot0.taskList[slot1.id] = slot1
 
 	pg.m02:sendNotification(slot0.TASK_UPDATED, slot1)
 end
 
-slot0.isEnd = function (slot0)
+function slot0.isEnd(slot0)
 	slot1 = pg.TimeMgr.GetInstance():GetServerTime()
 
 	if slot0.endTime > 0 and slot0.endTime < slot1 then
@@ -59,11 +59,11 @@ slot0.isEnd = function (slot0)
 	return false
 end
 
-slot0.setMemberRankList = function (slot0, slot1)
+function slot0.setMemberRankList(slot0, slot1)
 	slot0.memberRankList = slot1
 end
 
-slot0.getMemberRankList = function (slot0)
+function slot0.getMemberRankList(slot0)
 	if slot0.memberRankList then
 		return slot0.memberRankList
 	end
@@ -71,11 +71,11 @@ slot0.getMemberRankList = function (slot0)
 	return {}
 end
 
-slot0.setMemberRank = function (slot0, slot1)
+function slot0.setMemberRank(slot0, slot1)
 	slot0.memberRank = slot1
 end
 
-slot0.getMemberRank = function (slot0)
+function slot0.getMemberRank(slot0)
 	if slot0.memberRank then
 		return slot0.memberRank
 	end
@@ -83,11 +83,11 @@ slot0.getMemberRank = function (slot0)
 	return 0
 end
 
-slot0.setRankList = function (slot0, slot1)
+function slot0.setRankList(slot0, slot1)
 	slot0.guildRankList = slot1
 end
 
-slot0.getRankList = function (slot0)
+function slot0.getRankList(slot0)
 	if slot0.guildRankList then
 		return slot0.guildRankList
 	end
@@ -95,11 +95,11 @@ slot0.getRankList = function (slot0)
 	return {}
 end
 
-slot0.setRank = function (slot0, slot1)
+function slot0.setRank(slot0, slot1)
 	slot0.rank = slot1
 end
 
-slot0.getRank = function (slot0)
+function slot0.getRank(slot0)
 	if slot0.rank then
 		return slot0.rank
 	end
@@ -107,7 +107,7 @@ slot0.getRank = function (slot0)
 	return 0
 end
 
-slot0.inGuildRank = function (slot0, slot1)
+function slot0.inGuildRank(slot0, slot1)
 	if not slot0.guildRankList then
 		return false
 	end

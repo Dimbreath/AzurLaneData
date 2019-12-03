@@ -3,7 +3,7 @@ slot0.ON_SUBMIT = "VoteOrderBookMediator:ON_SUBMIT"
 slot0.SUCCESS_SOUND = "event:/ui/right"
 slot0.FAILED_SOUND = "event:/ui/wrong"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0:bind(slot0.ON_SUBMIT, function (slot0, slot1)
 		slot4 = getProxy(VoteProxy).GetOrderBook(slot2).IsResult(slot3, slot1)
 
@@ -37,14 +37,14 @@ slot0.register = function (slot0)
 	slot0.viewComponent:setOrderBook(getProxy(VoteProxy).GetOrderBook(slot1))
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		VoteProxy.VOTE_ORDER_BOOK_DELETE,
 		GAME.SUBMIT_VOTE_BOOK_DONE
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if VoteProxy.VOTE_ORDER_BOOK_DELETE == slot1:getName() then

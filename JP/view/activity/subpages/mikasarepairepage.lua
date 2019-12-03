@@ -1,18 +1,18 @@
 slot0 = class("MikasaRepairePage", import("...base.BaseActivityPage"))
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.layer = slot0:findTF("layer")
 end
 
-slot0.OnFirstFlush = function (slot0)
+function slot0.OnFirstFlush(slot0)
 	return
 end
 
-slot0.OnUpdateFlush = function (slot0)
+function slot0.OnUpdateFlush(slot0)
 	slot0:update_task_list_mikasa_museum(slot0.activity, slot0.layer, 1)
 end
 
-slot0.update_task_list_mikasa_museum = function (slot0, slot1, slot2, slot3)
+function slot0.update_task_list_mikasa_museum(slot0, slot1, slot2, slot3)
 	slot4 = getProxy(TaskProxy)
 	slot5 = slot1:getConfig("config_data")
 	slot6 = getProxy(ActivityProxy)
@@ -106,7 +106,7 @@ slot0.update_task_list_mikasa_museum = function (slot0, slot1, slot2, slot3)
 	setText(slot8:Find("repair_phase/Text"), slot15:getProgress() .. "/4")
 end
 
-slot0.set_mikasa_btn = function (slot0, slot1, slot2, slot3, slot4, slot5)
+function slot0.set_mikasa_btn(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot7 = getProxy(TaskProxy):getTaskById(slot1) or slot6:getFinishTaskById(slot1)
 	slot8 = slot2:Find("award")
 	slot9 = slot2:Find("face")

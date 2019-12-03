@@ -3,11 +3,11 @@ slot1 = ys.Battle.BattleResourceManager
 ys.Battle.BattleStrayBullet = class("BattleStrayBullet", ys.Battle.BattleBullet)
 ys.Battle.BattleStrayBullet.__name = "BattleStrayBullet"
 
-ys.Battle.BattleStrayBullet.Ctor = function (slot0, slot1, slot2)
+function ys.Battle.BattleStrayBullet.Ctor(slot0, slot1, slot2)
 	slot0.super.Ctor(slot0, slot1, slot2)
 end
 
-ys.Battle.BattleStrayBullet.SetSpawn = function (slot0, slot1)
+function ys.Battle.BattleStrayBullet.SetSpawn(slot0, slot1)
 	slot0.super.SetSpawn(slot0, slot1)
 
 	slot0._targetPos = Clone(slot0._bulletData:GetExplodePostion())
@@ -19,7 +19,7 @@ ys.Battle.BattleStrayBullet.SetSpawn = function (slot0, slot1)
 	slot0.updateSpeed = slot0._doStray
 end
 
-ys.Battle.BattleStrayBullet._doStray = function (slot0)
+function ys.Battle.BattleStrayBullet._doStray(slot0)
 	slot1 = slot0._targetPos
 
 	if slot0._step > 0 and slot1 and not slot1:EqualZero() then

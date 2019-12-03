@@ -2,7 +2,7 @@ slot0 = class("MemoryBookMediator", import("...base.ContextMediator"))
 slot0.ON_UNLOCK = "MemoryBookMediator:ON_UNLOCK"
 slot0.EVENT_OPERATION = "MemoryBookMediator:EVENT_OPERATION"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0:bind(slot0.ON_UNLOCK, function (slot0, slot1, slot2)
 		slot0:sendNotification(GAME.MEMORYBOOK_UNLOCK, {
 			id = slot1,
@@ -15,7 +15,7 @@ slot0.register = function (slot0)
 	slot0.viewComponent:setActivity(getProxy(ActivityProxy).getActivityByType(slot1, ActivityConst.ACTIVITY_TYPE_PUZZLA))
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.MEMORYBOOK_UNLOCK_DONE,
 		ActivityProxy.ACTIVITY_UPDATED,
@@ -23,7 +23,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.MEMORYBOOK_UNLOCK_DONE then

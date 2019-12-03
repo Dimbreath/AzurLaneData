@@ -2,7 +2,7 @@ slot0 = class("NotificationProxy", import(".NetProxy"))
 slot0.FRIEND_REQUEST_ADDED = "note friend request added"
 slot0.FRIEND_REQUEST_REMOVED = "note friend request removed"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0:on(50000, function (slot0)
 		slot0.data = {
 			requests = {}
@@ -37,7 +37,7 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.getRequests = function (slot0)
+function slot0.getRequests(slot0)
 	slot1 = {}
 	slot2 = getProxy(FriendProxy)
 	slot3 = pairs
@@ -52,7 +52,7 @@ slot0.getRequests = function (slot0)
 	return slot1
 end
 
-slot0.removeRequest = function (slot0, slot1)
+function slot0.removeRequest(slot0, slot1)
 	if slot0.data.requests[slot1] then
 		slot0.data.requests[slot1].display(slot2, "removed")
 
@@ -62,17 +62,17 @@ slot0.removeRequest = function (slot0, slot1)
 	end
 end
 
-slot0.removeAllRequest = function (slot0)
+function slot0.removeAllRequest(slot0)
 	for slot4, slot5 in pairs(slot0.data.requests) do
 		slot0:removeRequest(slot4)
 	end
 end
 
-slot0.getRequestCount = function (slot0)
+function slot0.getRequestCount(slot0)
 	return #slot0:getRequests()
 end
 
-slot0.getUnreadCount = function (slot0)
+function slot0.getUnreadCount(slot0)
 	slot1 = 0
 	slot2 = pairs
 	slot3 = slot0.data.requests or {}

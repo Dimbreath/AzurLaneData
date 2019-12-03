@@ -1,6 +1,6 @@
 slot0 = class("CmdLevelFormationPanel", import("..base.BasePanel"))
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.descPanel = slot0:findTF("desc")
 	slot0.descFrameTF = slot0:findTF("desc/frame")
 	slot0.descPos1 = slot0:findTF("commander1/frame/info", slot0.descFrameTF)
@@ -16,14 +16,14 @@ slot0.init = function (slot0)
 	slot0.animtionEvent = slot0:findTF("desc"):GetComponent(typeof(DftAniEvent))
 end
 
-slot0.update = function (slot0, slot1, slot2)
+function slot0.update(slot0, slot1, slot2)
 	slot0.callback = slot2
 	slot0.fleet = slot1
 
 	slot0:updateDesc()
 end
 
-slot0.attach = function (slot0, slot1)
+function slot0.attach(slot0, slot1)
 	slot0.super.attach(slot0, slot1)
 	setActive(slot0._go, false)
 	onButton(slot0, slot0._tf, function ()
@@ -31,23 +31,23 @@ slot0.attach = function (slot0, slot1)
 	end, SFX_PANEL)
 end
 
-slot0.playAnim = function (slot0, slot1, slot2)
+function slot0.playAnim(slot0, slot1, slot2)
 	slot0.animtion:Play(slot1)
 end
 
-slot0.open = function (slot0)
+function slot0.open(slot0)
 	slot0:playAnim("cmdopen", callback)
 	setActive(slot0._go, true)
 	setParent(slot0._go, pg.UIMgr.GetInstance().OverlayMain)
 	slot0._tf:SetAsLastSibling()
 end
 
-slot0.close = function (slot0)
+function slot0.close(slot0)
 	slot0:playAnim("cmdclose", callback)
 	setActive(slot0._go, false)
 end
 
-slot0.updateDesc = function (slot0)
+function slot0.updateDesc(slot0)
 	slot1 = slot0.fleet:getCommanders()
 
 	for slot5 = 1, CommanderConst.MAX_FORMATION_POS, 1 do
@@ -58,7 +58,7 @@ slot0.updateDesc = function (slot0)
 	slot0:updateAdditions()
 end
 
-slot0.updateAdditions = function (slot0)
+function slot0.updateAdditions(slot0)
 	slot3, slot4 = slot0.fleet.getCommandersAddition(slot1)
 
 	slot0.abilitysTF:make(function (slot0, slot1, slot2)
@@ -88,7 +88,7 @@ slot0.updateAdditions = function (slot0)
 	setActive(slot0.talentsArr, #_.values(slot0.fleet.getCommandersTalentDesc(slot1)) > 4)
 end
 
-slot0.updateSkillTF = function (slot0, slot1, slot2)
+function slot0.updateSkillTF(slot0, slot1, slot2)
 	setActive(slot2, slot1)
 
 	if slot1 then
@@ -97,7 +97,7 @@ slot0.updateSkillTF = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.updateCommander = function (slot0, slot1, slot2, slot3)
+function slot0.updateCommander(slot0, slot1, slot2, slot3)
 	slot4 = slot1:Find("add")
 	slot5 = slot1:Find("info")
 
@@ -127,11 +127,11 @@ slot0.updateCommander = function (slot0, slot1, slot2, slot3)
 	setActive(slot5, slot3)
 end
 
-slot0.enable = function (slot0, slot1)
+function slot0.enable(slot0, slot1)
 	setActive(slot0._go, slot1)
 end
 
-slot0.clear = function (slot0)
+function slot0.clear(slot0)
 	setActive(slot0._go, false)
 	setParent(slot0._go, slot0.parent.topPanel)
 end

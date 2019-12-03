@@ -1,6 +1,6 @@
 slot0 = class("User", import(".BaseVO"))
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.type = slot1.type
 	slot0.arg1 = slot1.arg1
 	slot0.arg2 = slot1.arg2
@@ -12,11 +12,11 @@ slot0.Ctor = function (slot0, slot1)
 	slot0.server = slot1.server
 end
 
-slot0.isLogin = function (slot0)
+function slot0.isLogin(slot0)
 	return tobool(slot0.uid and slot0.server and slot0.token)
 end
 
-slot0.clear = function (slot0)
+function slot0.clear(slot0)
 	slot0.id = nil
 	slot0.uid = nil
 	slot0.token = nil

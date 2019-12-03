@@ -1,15 +1,15 @@
 slot0 = class("TechnologyTreeScene", import("..base.BaseUI"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "TechnologyTreeUI"
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0:initData()
 	slot0:findUI()
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	slot0:updateNationItemList()
 	slot0:updateTypeItemList()
 	slot0:updateTecItemList()
@@ -24,17 +24,17 @@ slot0.didEnter = function (slot0)
 	end
 end
 
-slot0.refreshRedPoint = function (slot0, slot1)
+function slot0.refreshRedPoint(slot0, slot1)
 	setActive(slot0.redPointImg, slot1)
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
 
 	slot0.rightLSC.onReturnItem = nil
 end
 
-slot0.initData = function (slot0)
+function slot0.initData(slot0)
 	slot0.nationToggleList = {}
 	slot0.typeToggleList = {}
 	slot0.nationSelectedList = {}
@@ -52,7 +52,7 @@ slot0.initData = function (slot0)
 	slot0.point = getProxy(TechnologyNationProxy):getPoint()
 end
 
-slot0.findUI = function (slot0)
+function slot0.findUI(slot0)
 	slot0.blurPanel = slot0:findTF("blur_panel")
 	slot0.adapt = slot0:findTF("adapt", slot0.blurPanel)
 	slot0.backBtn = slot0:findTF("top/back", slot0.adapt)
@@ -74,11 +74,11 @@ slot0.findUI = function (slot0)
 	slot0.maxRowHeight = 853.5
 end
 
-slot0.onBackPressed = function (slot0)
+function slot0.onBackPressed(slot0)
 	triggerButton(slot0.backBtn)
 end
 
-slot0.addBtnListener = function (slot0)
+function slot0.addBtnListener(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		slot0:emit(slot1.ON_BACK)
 	end, SFX_CANCEL)
@@ -216,7 +216,7 @@ slot0.addBtnListener = function (slot0)
 	end, SFX_PANEL)
 end
 
-slot0.updateNationItemList = function (slot0)
+function slot0.updateNationItemList(slot0)
 	slot1 = UIItemList.New(slot0.leftContainer, slot0.selectNationItem)
 
 	slot1:make(function (slot0, slot1, slot2)
@@ -244,7 +244,7 @@ slot0.updateNationItemList = function (slot0)
 	slot1:align(#TechnologyConst.NationResName)
 end
 
-slot0.updateTypeItemList = function (slot0)
+function slot0.updateTypeItemList(slot0)
 	slot1 = UIItemList.New(slot0.bottomContainer, slot0.selectTypeItem)
 
 	slot1:make(function (slot0, slot1, slot2)
@@ -270,7 +270,7 @@ slot0.updateTypeItemList = function (slot0)
 	slot1:align(#TechnologyConst.TypeResName)
 end
 
-slot0.updateTecItemList = function (slot0)
+function slot0.updateTecItemList(slot0)
 	slot1 = nil
 	slot1 = (#slot0.nationSelectedList ~= 0 or #slot0.typeSelectedList ~= 0 or TechnologyConst.GetOrderClassList()) and _.select(TechnologyConst.GetOrderClassList(), function (slot0)
 		if table.indexof((#slot0.nationSelectedList == 0 and TechnologyConst.NationOrder) or slot0.nationSelectedList, pg.fleet_tech_ship_class[slot0].nation, 1) then
@@ -284,7 +284,7 @@ slot0.updateTecItemList = function (slot0)
 		end
 	end)
 
-	slot0.rightLSC.onUpdateItem = function (slot0, slot1)
+	function slot0.rightLSC.onUpdateItem(slot0, slot1)
 		slot7 = slot0:findTF("ArrowBtn", slot6)
 
 		setText(slot2, slot9)
@@ -335,7 +335,7 @@ slot0.updateTecItemList = function (slot0)
 		slot0:updateShipItemList(slot8, slot0:findTF("ShipScrollView/Viewport/ShipContainer", slot1))
 	end
 
-	slot0.rightLSC.onReturnItem = function (slot0, slot1)
+	function slot0.rightLSC.onReturnItem(slot0, slot1)
 		setLocalRotation(slot2, {
 			z = 180
 		})
@@ -352,7 +352,7 @@ slot0.updateTecItemList = function (slot0)
 	slot0.rightLSC:EndLayout()
 end
 
-slot0.updateShipItemList = function (slot0, slot1, slot2)
+function slot0.updateShipItemList(slot0, slot1, slot2)
 	slot4 = UIItemList.New(slot2, slot0.headItem)
 
 	slot4:make(function (slot0, slot1, slot2)

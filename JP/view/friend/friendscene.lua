@@ -4,33 +4,33 @@ slot0.SEARCH_PAGE = 2
 slot0.REQUEST_PAGE = 3
 slot0.BLACKLIST_PAGE = 4
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "FriendUI"
 end
 
-slot0.setFriendVOs = function (slot0, slot1)
+function slot0.setFriendVOs(slot0, slot1)
 	slot0.friendVOs = slot1
 end
 
-slot0.setPlayer = function (slot0, slot1)
+function slot0.setPlayer(slot0, slot1)
 	slot0.playerVO = slot1
 end
 
-slot0.setRequests = function (slot0, slot1)
+function slot0.setRequests(slot0, slot1)
 	slot0.requestVOs = slot1
 end
 
-slot0.setSearchResult = function (slot0, slot1)
+function slot0.setSearchResult(slot0, slot1)
 	slot0.searchResultVOs = slot1
 end
 
-slot0.removeSearchResult = function (slot0, slot1)
+function slot0.removeSearchResult(slot0, slot1)
 	slot0:setSearchResult(_.select(slot0.searchResultVOs, function (slot0)
 		return slot0.id ~= slot0
 	end))
 end
 
-slot0.setBlackList = function (slot0, slot1)
+function slot0.setBlackList(slot0, slot1)
 	if slot1 then
 		slot0.blackVOs = {}
 		slot2 = pairs
@@ -42,7 +42,7 @@ slot0.setBlackList = function (slot0, slot1)
 	end
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.pages = slot0:findTF("pages")
 	slot0.togglesTF = slot0:findTF("blur_panel/adapt/left_length/frame/tagRoot")
 	slot0.pages = {
@@ -72,7 +72,7 @@ slot0.init = function (slot0)
 	slot0.listEmptyTxt = slot0:findTF("Text", slot0.listEmptyTF)
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	onButton(slot0, slot0:findTF("blur_panel/adapt/top/back_btn"), function ()
 		slot0:emit(slot1.ON_BACK)
 	end, SOUND_BACK)
@@ -80,7 +80,7 @@ slot0.didEnter = function (slot0)
 	slot0:updateRequestTip()
 end
 
-slot0.wrapData = function (slot0)
+function slot0.wrapData(slot0)
 	return {
 		friendVOs = slot0.friendVOs,
 		requestVOs = slot0.requestVOs,
@@ -90,7 +90,7 @@ slot0.wrapData = function (slot0)
 	}
 end
 
-slot0.updateEmpty = function (slot0, slot1, slot2)
+function slot0.updateEmpty(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = ""
 
@@ -112,7 +112,7 @@ slot0.updateEmpty = function (slot0, slot1, slot2)
 	setText(slot0.listEmptyTxt, slot4)
 end
 
-slot0.switchPage = function (slot0, slot1)
+function slot0.switchPage(slot0, slot1)
 	if slot0.page then
 		slot0.page:ExecuteAction("Hide")
 	end
@@ -124,7 +124,7 @@ slot0.switchPage = function (slot0, slot1)
 	slot0:updateEmpty(slot1, slot0:wrapData())
 end
 
-slot0.updatePage = function (slot0, slot1)
+function slot0.updatePage(slot0, slot1)
 	slot2 = slot0.pages[slot1]
 
 	if slot0.page and slot2 == slot0.page then
@@ -133,17 +133,17 @@ slot0.updatePage = function (slot0, slot1)
 	end
 end
 
-slot0.updateChatNotification = function (slot0, slot1)
+function slot0.updateChatNotification(slot0, slot1)
 	setActive(slot0.chatTipContainer, slot1 > 0)
 
 	slot0.chatTip.text = slot1
 end
 
-slot0.updateRequestTip = function (slot0)
+function slot0.updateRequestTip(slot0)
 	setActive(slot0.toggles[3]:Find("tip"), #slot0.requestVOs > 0)
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	for slot4, slot5 in ipairs(slot0.pages) do
 		slot5:Destroy()
 	end

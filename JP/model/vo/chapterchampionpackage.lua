@@ -4,7 +4,7 @@ slot1 = {
 	[ChapterConst.AttachChampion] = ChapterChampionNormal
 }
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.package = slot0:RebuildData(slot1)
 	slot0.idList = {}
 
@@ -19,7 +19,7 @@ slot0.Ctor = function (slot0, slot1)
 	slot0.rotation = Quaternion.identity
 end
 
-slot0.RebuildData = function (slot0, slot1)
+function slot0.RebuildData(slot0, slot1)
 	({
 		pos = {},
 		id = slot1.item_id,
@@ -32,7 +32,7 @@ slot0.RebuildData = function (slot0, slot1)
 	return 
 end
 
-slot0.__index = function (slot0, slot1)
+function slot0.__index(slot0, slot1)
 	value = slot0[slot1]
 
 	if not value and rawget(slot0, "currentChampion") then
@@ -42,7 +42,7 @@ slot0.__index = function (slot0, slot1)
 	return value
 end
 
-slot0.Iter = function (slot0)
+function slot0.Iter(slot0)
 	if #slot0.idList <= 0 then
 		slot0.flag = 1
 
@@ -53,7 +53,7 @@ slot0.Iter = function (slot0)
 	slot0.currentChampion = slot0[slot0.attachment].New(Clone(slot0.package))
 end
 
-slot0.GetLastID = function (slot0)
+function slot0.GetLastID(slot0)
 	if #slot0.idList > 0 then
 		return slot0.idList[#slot0.idList]
 	else

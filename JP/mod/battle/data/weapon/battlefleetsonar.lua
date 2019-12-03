@@ -15,24 +15,24 @@ slot9.STATE_OVER_HEAT = "OVER_HEAT"
 slot9.STATE_READY = "READY"
 slot9.STATE_DETECTING = "DETECTING"
 
-slot9.Ctor = function (slot0, slot1)
+function slot9.Ctor(slot0, slot1)
 	slot0:init()
 
 	slot0._fleetVO = slot1
 end
 
-slot9.Dispose = function (slot0)
+function slot9.Dispose(slot0)
 	slot0._detectedList = nil
 	slot0._crewUnitList = nil
 	slot0._host = nil
 end
 
-slot9.init = function (slot0)
+function slot9.init(slot0)
 	slot0._crewUnitList = {}
 	slot0._detectedList = {}
 end
 
-slot9.AppendCrewUnit = function (slot0, slot1)
+function slot9.AppendCrewUnit(slot0, slot1)
 	slot0._crewUnitList[slot1:GetUniqueID()] = slot1
 
 	slot0:flush()
@@ -40,7 +40,7 @@ slot9.AppendCrewUnit = function (slot0, slot1)
 	slot0._currentState = slot0.STATE_READY
 end
 
-slot9.RemoveCrewUnit = function (slot0, slot1)
+function slot9.RemoveCrewUnit(slot0, slot1)
 	if slot0._crewUnitList[slot1:GetUniqueID()] then
 		slot0._crewUnitList[slot2] = nil
 
@@ -48,15 +48,15 @@ slot9.RemoveCrewUnit = function (slot0, slot1)
 	end
 end
 
-slot9.SwitchHost = function (slot0, slot1)
+function slot9.SwitchHost(slot0, slot1)
 	slot0._host = slot1
 end
 
-slot9.GetRange = function (slot0)
+function slot9.GetRange(slot0)
 	return slot0._range
 end
 
-slot9.flush = function (slot0)
+function slot9.flush(slot0)
 	slot0._duration = 0
 	slot0._interval = 0
 	slot0._range = 0
@@ -85,7 +85,7 @@ slot9.flush = function (slot0)
 	end
 end
 
-slot9.Update = function (slot0, slot1)
+function slot9.Update(slot0, slot1)
 	if slot0._currentState == slot0.STATE_DISABLE then
 	elseif slot0._currentState == slot0.STATE_READY then
 		slot0:Detect()
@@ -102,7 +102,7 @@ slot9.Update = function (slot0, slot1)
 	end
 end
 
-slot9.Detect = function (slot0)
+function slot9.Detect(slot0)
 	slot0._snoarStartTime = pg.TimeMgr.GetInstance():GetCombatTime()
 	slot0._currentState = slot0.STATE_DETECTING
 
@@ -115,7 +115,7 @@ slot9.Detect = function (slot0)
 	slot0._fleetVO:DispatchSonarScan()
 end
 
-slot9.Undetect = function (slot0)
+function slot9.Undetect(slot0)
 	slot0._snoarStartTime = nil
 	slot0._currentState = slot0.STATE_OVER_HEAT
 
@@ -128,7 +128,7 @@ slot9.Undetect = function (slot0)
 	slot0._detectedList = {}
 end
 
-slot9.updateDetectedList = function (slot0)
+function slot9.updateDetectedList(slot0)
 	slot1 = slot0:FilterTarget()
 	slot2 = #slot0._detectedList
 
@@ -144,24 +144,24 @@ slot9.updateDetectedList = function (slot0)
 	end
 end
 
-slot9.Overheat = function (slot0)
+function slot9.Overheat(slot0)
 	slot0:Undetect()
 
 	slot0._overheatStartTime = pg.TimeMgr.GetInstance():GetCombatTime()
 end
 
-slot9.Ready = function (slot0)
+function slot9.Ready(slot0)
 	slot0._overheatStartTime = nil
 	slot0._currentState = slot0.STATE_READY
 end
 
-slot9.FilterTarget = function (slot0)
+function slot9.FilterTarget(slot0)
 	return slot0:FilterRange(slot0.TargetDiveState(slot0._host, {
 		diveState = slot1.OXY_STATE.DIVE
 	}, slot1))
 end
 
-slot9.FilterRange = function (slot0, slot1)
+function slot9.FilterRange(slot0, slot1)
 	for slot5 = #slot1, 1, -1 do
 		if slot0:isOutOfRange(slot1[slot5]) then
 			table.remove(slot1, slot5)
@@ -171,7 +171,7 @@ slot9.FilterRange = function (slot0, slot1)
 	return slot1
 end
 
-slot9.isOutOfRange = function (slot0, slot1)
+function slot9.isOutOfRange(slot0, slot1)
 	return slot0._range < slot0._host:GetDistance(slot1)
 end
 

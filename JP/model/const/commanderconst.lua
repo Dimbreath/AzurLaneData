@@ -25,7 +25,7 @@ slot0.PROPERTIES = {
 }
 slot0.DESTROY_ATTR_ID = 202
 
-slot0.getBoxComsume = function (slot0)
+function slot0.getBoxComsume(slot0)
 	slot1 = nil
 
 	for slot5, slot6 in ipairs(slot0) do

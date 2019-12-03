@@ -29,11 +29,11 @@ slot2.CTFontIndex = {
 	slot2.POP_UNBREAK
 }
 
-slot2.Ctor = function (slot0)
+function slot2.Ctor(slot0)
 	return
 end
 
-slot2.Init = function (slot0, slot1, slot2)
+function slot2.Init(slot0, slot1, slot2)
 	slot0._allPool = {}
 	slot0._activeList = {}
 	slot0._allPool[slot0.POP_COMMON] = slot0:generateTempPool(slot0.POP_COMMON, slot2, slot1, 10)
@@ -49,7 +49,7 @@ slot2.Init = function (slot0, slot1, slot2)
 	slot0._allPool[slot0.POP_SCORE] = slot0:generateTempPool(slot0.POP_SCORE, slot2, slot1, 5)
 end
 
-slot2.InitialPoolRoot = function (slot0, slot1)
+function slot2.InitialPoolRoot(slot0, slot1)
 	slot0:resetPopParent(slot0._allPool[slot0.POP_COMMON], slot1)
 	slot0:resetPopParent(slot0._allPool[slot0.POP_MISS], slot1)
 	slot0:resetPopParent(slot0._allPool[slot0.POP_UNBREAK], slot1)
@@ -62,11 +62,11 @@ slot2.InitialPoolRoot = function (slot0, slot1)
 	slot0:resetPopParent(slot0._allPool[slot0.POP_CT_PIERCE], slot1)
 end
 
-slot2.InitialScorePoolRoot = function (slot0, slot1)
+function slot2.InitialScorePoolRoot(slot0, slot1)
 	slot0:resetPopParent(slot0._allPool[slot0.POP_SCORE], slot1)
 end
 
-slot2.Clear = function (slot0)
+function slot2.Clear(slot0)
 	for slot4, slot5 in pairs(slot0._allPool) do
 		slot5:Dispose()
 	end
@@ -75,17 +75,17 @@ slot2.Clear = function (slot0)
 	slot0._activeList = {}
 end
 
-slot2.Update = function (slot0)
+function slot2.Update(slot0)
 	for slot4, slot5 in pairs(slot0._activeList) do
 		slot4:Update()
 	end
 end
 
-slot2.UnloadPopNum = function (slot0, slot1)
+function slot2.UnloadPopNum(slot0, slot1)
 	slot0._activeList[slot1] = nil
 end
 
-slot2.GetPop = function (slot0, slot1, slot2, slot3, slot4, slot5)
+function slot2.GetPop(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6, slot7 = slot0.getType(slot1, slot2, slot3, slot5)
 	slot9 = slot0._allPool[slot6].GetObject(slot8)
 
@@ -100,7 +100,7 @@ slot2.GetPop = function (slot0, slot1, slot2, slot3, slot4, slot5)
 	return slot9
 end
 
-slot2.GetScorePop = function (slot0, slot1)
+function slot2.GetScorePop(slot0, slot1)
 	slot3 = slot0._allPool[slot0.POP_SCORE].GetObject(slot2)
 
 	slot3:SetText(slot1)
@@ -110,7 +110,7 @@ slot2.GetScorePop = function (slot0, slot1)
 	return slot3
 end
 
-slot2.getType = function (slot0, slot1, slot2, slot3)
+function slot2.getType(slot0, slot1, slot2, slot3)
 	slot4 = 1
 	slot5 = nil
 
@@ -127,7 +127,7 @@ slot2.getType = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-slot2.generatePool = function (slot0, slot1, slot2, slot3, slot4)
+function slot2.generatePool(slot0, slot1, slot2, slot3, slot4)
 	return pg.LuaObPool.New(slot0.Battle.BattlePopNum, {
 		template = slot3:Find(slot1).gameObject,
 		parentTF = slot2,
@@ -135,7 +135,7 @@ slot2.generatePool = function (slot0, slot1, slot2, slot3, slot4)
 	}, slot4)
 end
 
-slot2.generateTempPool = function (slot0, slot1, slot2, slot3, slot4)
+function slot2.generateTempPool(slot0, slot1, slot2, slot3, slot4)
 	return pg.LuaObPool.New(slot0.Battle.BattlePopNum, {
 		template = slot3.transform:Find(slot1).gameObject,
 		parentTF = slot2,
@@ -143,7 +143,7 @@ slot2.generateTempPool = function (slot0, slot1, slot2, slot3, slot4)
 	}, slot4)
 end
 
-slot2.resetPopParent = function (slot0, slot1, slot2)
+function slot2.resetPopParent(slot0, slot1, slot2)
 	slot1:UpdateInfo("parentTF", slot2)
 
 	for slot6, slot7 in ipairs(slot1.list) do

@@ -1,10 +1,10 @@
 slot0 = class("ShipCustomMsgBox", import("...base.BaseSubView"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "ShipCustomMsgBox"
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.customMsgbox = slot0._tf
 	slot0.msgBoxItemPanel = slot0.customMsgbox:Find("frame/bg/item_panel")
 	slot0.msgboxItemContains = slot0.customMsgbox:Find("frame/bg/item_panel/items")
@@ -43,11 +43,11 @@ slot0.OnInit = function (slot0)
 	end, SFX_CANCEL)
 end
 
-slot0.SetShareData = function (slot0, slot1)
+function slot0.SetShareData(slot0, slot1)
 	slot0.shareData = slot1
 end
 
-slot0.showCustomMsgBox = function (slot0, slot1)
+function slot0.showCustomMsgBox(slot0, slot1)
 	slot0.isShowCustomMsgBox = true
 	slot0.settings = slot1
 
@@ -88,13 +88,13 @@ slot0.showCustomMsgBox = function (slot0, slot1)
 	end
 end
 
-slot0.hideCustomMsgBox = function (slot0)
+function slot0.hideCustomMsgBox(slot0)
 	slot0.isShowCustomMsgBox = nil
 
 	SetActive(slot0.customMsgbox, false)
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.customMsgbox, slot0._tf)
 
 	slot0.shareData = nil

@@ -2,7 +2,7 @@ slot0 = class("HitMonsterNianMediator", import("..base.ContextMediator"))
 slot0.ON_HIT = "HitMonsterNianMediator:ON_HIT"
 slot0.ON_FAKE_HIT = "HitMonsterNianMediator:ON_FAKE_HIT"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.viewComponent:setActivity(slot2)
 	slot0:bind(slot0.ON_HIT, function (slot0)
 		if not slot0 or slot0:isEnd() then
@@ -25,7 +25,7 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		ActivityProxy.ACTIVITY_UPDATED,
 		ActivityProxy.ACTIVITY_HITMONSTER_SHOW_AWARDS,
@@ -33,7 +33,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == ActivityProxy.ACTIVITY_UPDATED then
@@ -41,7 +41,7 @@ slot0.handleNotification = function (slot0, slot1)
 			slot0.viewComponent:setActivity(slot3)
 		end
 	elseif slot2 == ActivityProxy.ACTIVITY_HITMONSTER_SHOW_AWARDS then
-		slot0.contextData.onAaward = function ()
+		function slot0.contextData.onAaward()
 			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot1.awards)
 		end
 

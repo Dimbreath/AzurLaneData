@@ -5,7 +5,7 @@ slot3 = class("BattleDuelDamageRateView")
 ys.Battle.BattleDuelDamageRateView = slot3
 slot3.__name = "BattleDuelDamageRateView"
 
-slot3.Ctor = function (slot0, slot1)
+function slot3.Ctor(slot0, slot1)
 	slot0.EventListener.AttachEventListener(slot0)
 
 	slot0._go = slot1
@@ -17,11 +17,11 @@ slot3.Ctor = function (slot0, slot1)
 	slot0._rateBarList[slot1.FOE_CODE] = slot0._tf:Find("rightDamageBar")
 end
 
-slot3.SetActive = function (slot0, slot1)
+function slot3.SetActive(slot0, slot1)
 	setActive(slot0._go, slot1)
 end
 
-slot3.SetFleetVO = function (slot0, slot1, slot2)
+function slot3.SetFleetVO(slot0, slot1, slot2)
 	slot0._fleetList[slot1] = true
 	slot0._rateBarList[slot1:GetIFF()].Find(slot3, "nameText"):GetComponent(typeof(Text)).text = slot2.name
 	slot0._rateBarList[slot1.GetIFF()].Find(slot3, "LVText"):GetComponent(typeof(Text)).text = "Lv." .. slot2.level
@@ -30,11 +30,11 @@ slot3.SetFleetVO = function (slot0, slot1, slot2)
 	slot1:RegisterEventListener(slot0, slot0.FLEET_DMG_CHANGE, slot0.onDMGChange)
 end
 
-slot3.onDMGChange = function (slot0, slot1)
+function slot3.onDMGChange(slot0, slot1)
 	slot0._progressList[slot1.Dispatcher.GetIFF(slot2)].fillAmount = slot1.Dispatcher:GetDamageRatio()
 end
 
-slot3.Dispose = function (slot0)
+function slot3.Dispose(slot0)
 	for slot4, slot5 in pairs(slot0._fleetList) do
 		slot4:UnregisterEventListener(slot0, slot0.FLEET_DMG_CHANGE)
 	end

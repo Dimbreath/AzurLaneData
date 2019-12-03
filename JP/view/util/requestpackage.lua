@@ -1,6 +1,6 @@
 slot0 = class("RequestPackage")
 
-slot0.Start = function (slot0, ...)
+function slot0.Start(slot0, ...)
 	if slot0.__call then
 		slot0:__call(...)
 	end
@@ -8,7 +8,7 @@ slot0.Start = function (slot0, ...)
 	return slot0
 end
 
-slot0.Stop = function (slot0)
+function slot0.Stop(slot0)
 	setmetatable(slot0, nil)
 	table.clear(slot0)
 

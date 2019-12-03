@@ -2,11 +2,11 @@ slot0 = class("CombatLoadUI", import("..base.BaseUI"))
 slot0._loadObs = nil
 slot0.LOADING_ANIMA_DISTANCE = 1820
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "CombatLoadUI"
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot1 = slot0:findTF("loading")
 	slot0._loadingProgress = slot1:Find("loading_bar"):GetComponent(typeof(Slider))
 	slot0._loadingProgress.value = 0
@@ -27,15 +27,15 @@ slot0.init = function (slot0)
 	slot0._tipsText = slot1:Find("tipsText"):GetComponent(typeof(Text))
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	slot0:Preload()
 end
 
-slot0.onBackPressed = function (slot0)
+function slot0.onBackPressed(slot0)
 	return
 end
 
-slot0.Preload = function (slot0)
+function slot0.Preload(slot0)
 	PoolMgr.GetInstance():DestroyAllSprite()
 
 	slot0._loadObs = {}
@@ -292,7 +292,7 @@ slot0.Preload = function (slot0)
 	slot0._tipsText.text = pg.server_language[math.random(#pg.server_language)].content
 end
 
-slot0.addCommanderBuffRes = function (slot0)
+function slot0.addCommanderBuffRes(slot0)
 	slot1 = ys.Battle.BattleResourceManager.GetInstance()
 
 	for slot5, slot6 in ipairs(slot0) do
@@ -302,7 +302,7 @@ slot0.addCommanderBuffRes = function (slot0)
 	end
 end
 
-slot0.addChapterBuffRes = function (slot0)
+function slot0.addChapterBuffRes(slot0)
 	slot1 = ys.Battle.BattleResourceManager.GetInstance()
 
 	for slot5, slot6 in ipairs(slot0) do
@@ -312,7 +312,7 @@ slot0.addChapterBuffRes = function (slot0)
 	end
 end
 
-slot0.StartLoad = function (slot0, slot1, slot2, slot3)
+function slot0.StartLoad(slot0, slot1, slot2, slot3)
 	slot0._toLoad[slot3] = 1
 
 	LoadAndInstantiateAsync(slot1, slot2, function (slot0)
@@ -320,7 +320,7 @@ slot0.StartLoad = function (slot0, slot1, slot2, slot3)
 	end)
 end
 
-slot0.LoadFinish = function (slot0, slot1, slot2)
+function slot0.LoadFinish(slot0, slot1, slot2)
 	slot0._loadObs.map = slot1
 	slot0._toLoad.map = nil
 

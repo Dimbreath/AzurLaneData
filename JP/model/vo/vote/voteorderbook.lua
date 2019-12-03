@@ -4,7 +4,7 @@ slot0.TYPE_NEGATIVE = 2
 slot1 = pg.ship_data_group
 slot2 = pg.ship_skin_template
 
-slot0.Ctor = function (slot0, slot1, slot2, slot3)
+function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.activityId = slot1.id
 	slot0.durTime = slot1.data2
 	slot0.endTime = slot0.durTime
@@ -33,19 +33,19 @@ slot0.Ctor = function (slot0, slot1, slot2, slot3)
 	end)
 end
 
-slot0.GetAwardCnt = function (slot0)
+function slot0.GetAwardCnt(slot0)
 	return slot0.awardCnt
 end
 
-slot0.SetIsNew = function (slot0, slot1)
+function slot0.SetIsNew(slot0, slot1)
 	slot0.isNew = slot1
 end
 
-slot0.GetShips = function (slot0)
+function slot0.GetShips(slot0)
 	return slot0.ships
 end
 
-slot0.ToBitCode = function (slot0, slot1)
+function slot0.ToBitCode(slot0, slot1)
 	slot4 = ""
 
 	for slot8 = 1, 7 - string.len(slot2), 1 do
@@ -55,31 +55,31 @@ slot0.ToBitCode = function (slot0, slot1)
 	return String2Table(slot4 .. slot2)
 end
 
-slot0.GetBitEncode = function (slot0)
+function slot0.GetBitEncode(slot0)
 	return slot0.encode
 end
 
-slot0.GetBitDecode = function (slot0)
+function slot0.GetBitDecode(slot0)
 	return slot0.decode
 end
 
-slot0.GetIntByBit = function (slot0, slot1)
+function slot0.GetIntByBit(slot0, slot1)
 	return ConvertStr2Dec(slot1, 2)
 end
 
-slot0.IsExpired = function (slot0)
+function slot0.IsExpired(slot0)
 	slot1 = getProxy(ActivityProxy):getActivityById(slot0.activityId)
 
 	return slot0.endTime <= pg.TimeMgr.GetInstance():GetServerTime() or not slot1 or slot1:isEnd()
 end
 
-slot0.GetDir = function (slot0)
+function slot0.GetDir(slot0)
 	return (_.any(slot0:GetBitDecode(), function (slot0)
 		return slot0 == "1"
 	end) and slot0.TYPE_NEGATIVE) or slot0.TYPE_POSITIVE
 end
 
-slot0.GetResult = function (slot0)
+function slot0.GetResult(slot0)
 	slot1 = slot0:GetBitEncode()
 	slot2 = ""
 
@@ -98,23 +98,23 @@ slot0.GetResult = function (slot0)
 	return slot2
 end
 
-slot0.IsResult = function (slot0, slot1)
+function slot0.IsResult(slot0, slot1)
 	return slot0:GetResult() == slot1
 end
 
-slot0.GetEndTime = function (slot0)
+function slot0.GetEndTime(slot0)
 	return slot0.endTime
 end
 
-slot0.Submit = function (slot0)
+function slot0.Submit(slot0)
 	slot0.isSubmit = true
 end
 
-slot0.canSubmit = function (slot0)
+function slot0.canSubmit(slot0)
 	return slot0.isSubmit == false
 end
 
-slot0.GetCDTime = function (slot0, slot1)
+function slot0.GetCDTime(slot0, slot1)
 	if slot0.endTime - pg.TimeMgr.GetInstance():GetServerTime() >= 0 then
 		slot7 = string.split(slot5, ":")[2] .. ":" .. string.split(slot5, ":")[3]
 

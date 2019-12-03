@@ -1,21 +1,21 @@
 slot1 = class("MapBuilderEscort", import(".MapBuilder"))
 
-slot1.Ctor = function (slot0, ...)
+function slot1.Ctor(slot0, ...)
 	slot0.super.Ctor(slot0, ...)
 
 	slot0.itemList = nil
 end
 
-slot1.GetType = function (slot0)
+function slot1.GetType(slot0)
 	return slot0.TYPEESCORT
 end
 
-slot1.OnInit = function (slot0)
+function slot1.OnInit(slot0)
 	slot0.tpl = slot0.tf:Find("level_tpl")
 	slot0.itemHolder = slot0.tf:Find("items")
 end
 
-slot1.Update = function (slot0)
+function slot1.Update(slot0)
 	slot0.map.pivot = Vector2(0.5, 0.5)
 	slot0.float.pivot = Vector2(0.5, 0.5)
 	slot3 = 1
@@ -27,7 +27,7 @@ slot1.Update = function (slot0)
 	end
 end
 
-slot1.UpdateEscortInfo = function (slot0)
+function slot1.UpdateEscortInfo(slot0)
 	slot1 = slot0.data
 	slot2 = getProxy(ChapterProxy)
 
@@ -40,7 +40,7 @@ slot1.UpdateEscortInfo = function (slot0)
 	end, SFX_PANEL)
 end
 
-slot1.UpdateMapItems = function (slot0)
+function slot1.UpdateMapItems(slot0)
 	slot0.super.UpdateMapItems(slot0)
 	slot0:UpdateEscortInfo()
 	setActive(slot0.sceneParent.escortBar, true)
@@ -63,7 +63,7 @@ slot1.UpdateMapItems = function (slot0)
 	slot4:align(#slot3)
 end
 
-slot1.UpdateEscortItem = function (slot0, slot1, slot2, slot3)
+function slot1.UpdateEscortItem(slot0, slot1, slot2, slot3)
 	slot1.name = "chapter_" .. slot3.id
 	slot1.anchoredPosition = Vector2(GetComponent(slot0.map, "Image").preferredWidth * (tonumber(pg.escort_template[slot2].pos_x) - 0.5), GetComponent(slot0.map, "Image").preferredHeight * (tonumber(pg.escort_template[slot2].pos_y) - 0.5))
 
@@ -94,12 +94,12 @@ slot1.UpdateEscortItem = function (slot0, slot1, slot2, slot3)
 	end, SFX_PANEL)
 end
 
-slot1.OnHide = function (slot0)
+function slot1.OnHide(slot0)
 	setActive(slot0.sceneParent.escortBar, false)
 	setActive(slot0.sceneParent.mapHelpBtn, false)
 end
 
-slot1.OnDestroy = function (slot0)
+function slot1.OnDestroy(slot0)
 	slot0.itemList = nil
 end
 

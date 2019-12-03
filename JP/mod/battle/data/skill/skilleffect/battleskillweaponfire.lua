@@ -3,23 +3,23 @@ slot1 = class("BattleSkillWeaponFire", ys.Battle.BattleSkillEffect)
 ys.Battle.BattleSkillWeaponFire = slot1
 slot1.__name = "BattleSkillWeaponFire"
 
-slot1.Ctor = function (slot0, slot1)
+function slot1.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1, lv)
 
 	slot0._weaponType = slot0._tempData.arg_list.weaponType
 end
 
-slot1.DoDataEffect = function (slot0, slot1, slot2)
+function slot1.DoDataEffect(slot0, slot1, slot2)
 	for slot7, slot8 in ipairs(slot3) do
 		slot8:SingleFire(slot2)
 	end
 end
 
-slot1.DoDataEffectWithoutTarget = function (slot0, slot1)
+function slot1.DoDataEffectWithoutTarget(slot0, slot1)
 	slot0:DoDataEffect(slot1, nil)
 end
 
-slot1._GetWeapon = function (slot0, slot1)
+function slot1._GetWeapon(slot0, slot1)
 	slot2 = {}
 
 	if slot0._weaponType == "ChargeWeapon" then

@@ -1,6 +1,6 @@
 slot0 = class("PtAwardWindow")
 
-slot0.Ctor = function (slot0, slot1, slot2)
+function slot0.Ctor(slot0, slot1, slot2)
 	slot0._tf = slot1
 	slot0.binder = slot2
 	slot0.UIlist = UIItemList.New(slot0._tf:Find("window/panel/list"), slot0._tf:Find("window/panel/list/item"))
@@ -35,7 +35,7 @@ function slot1(slot0, slot1, slot2, slot3)
 	slot0.UIlist:align(#slot1)
 end
 
-slot0.Show = function (slot0, slot1)
+function slot0.Show(slot0, slot1)
 	slot2 = slot1.dropList
 	slot3 = slot1.targets
 	slot4 = slot1.level
@@ -62,11 +62,11 @@ slot0.Show = function (slot0, slot1)
 	setActive(slot0._tf, true)
 end
 
-slot0.Hide = function (slot0)
+function slot0.Hide(slot0)
 	setActive(slot0._tf, false)
 end
 
-slot0.Dispose = function (slot0)
+function slot0.Dispose(slot0)
 	slot0:Hide()
 	removeOnButton(slot0._tf)
 	removeOnButton(slot0.closeBtn)

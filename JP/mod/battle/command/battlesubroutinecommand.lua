@@ -6,16 +6,16 @@ slot4 = class("BattleSubRoutineCommand", ys.Battle.BattleSubmarineRunCommand)
 ys.Battle.BattleSubRoutineCommand = slot4
 slot4.__name = "BattleSubRoutineCommand"
 
-slot4.Ctor = function (slot0)
+function slot4.Ctor(slot0)
 	slot0.super.Ctor(slot0)
 end
 
-slot4.Initialize = function (slot0)
+function slot4.Initialize(slot0)
 	slot0.super.Initialize(slot0)
 	slot0._dataProxy:SubmarineRunInit()
 end
 
-slot4.DoPrologue = function (slot0)
+function slot4.DoPrologue(slot0)
 	pg.UIMgr.GetInstance():Marching()
 
 	function slot1()
@@ -42,7 +42,7 @@ slot4.DoPrologue = function (slot0)
 	slot0._uiMediator:SeaSurfaceShift(45, 0, nil, slot1)
 end
 
-slot4.initWaveModule = function (slot0)
+function slot4.initWaveModule(slot0)
 	slot0._waveUpdater = slot0.Battle.BattleWaveUpdater.New(function (slot0, slot1, slot2)
 		slot0._dataProxy:SpawnMonster(slot0, slot1, slot2, slot1.Battle.BattleConfig.FOE_CODE)
 	end, nil, function ()
@@ -59,7 +59,7 @@ slot4.initWaveModule = function (slot0)
 	end, nil)
 end
 
-slot4.onUpdateCountDown = function (slot0, slot1)
+function slot4.onUpdateCountDown(slot0, slot1)
 	if slot0._dataProxy:GetCountDown() <= 0 then
 		slot0._dataProxy:EnemyEscape()
 		slot0._dataProxy:CalcSubRountineTimeUp()
@@ -67,11 +67,11 @@ slot4.onUpdateCountDown = function (slot0, slot1)
 	end
 end
 
-slot4.onShutDownPlayer = function (slot0, slot1)
+function slot4.onShutDownPlayer(slot0, slot1)
 	slot0._dataProxy:ShutdownPlayerUnit(slot1.Dispatcher.GetUniqueID(slot2))
 end
 
-slot4.onPlayerShutDown = function (slot0, slot1)
+function slot4.onPlayerShutDown(slot0, slot1)
 	if slot0._state:GetState() ~= slot0._state.BATTLE_STATE_FIGHT then
 		return
 	end

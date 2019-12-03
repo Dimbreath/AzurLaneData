@@ -8,7 +8,7 @@ slot0.ON_CHAT = "BattleMediator:ON_CHAT"
 slot0.CLOSE_CHAT = "BattleMediator:CLOSE_CHAT"
 slot0.ON_AUTO = "BattleMediator:ON_AUTO"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	Screen.sleepTimeout = SleepTimeout.NeverSleep
 
 	slot0:GenBattleData()
@@ -93,14 +93,14 @@ slot0.register = function (slot0)
 	end
 end
 
-slot0.onAutoBtn = function (slot0, slot1)
+function slot0.onAutoBtn(slot0, slot1)
 	slot0:sendNotification(GAME.AUTO_BOT, {
 		isActiveBot = slot1.isOn,
 		toggle = slot1.toggle
 	})
 end
 
-slot0.onPauseBtn = function (slot0)
+function slot0.onPauseBtn(slot0)
 	slot1 = ys.Battle.BattleState.GetInstance()
 
 	if slot0.contextData.system == SYSTEM_PROLOGUE or slot0.contextData.system == SYSTEM_PERFORM then
@@ -186,7 +186,7 @@ slot0.onPauseBtn = function (slot0)
 	end
 end
 
-slot0.warnFunc = function (slot0, slot1)
+function slot0.warnFunc(slot0, slot1)
 	slot2 = ys.Battle.BattleState.GetInstance()
 	slot4, slot5 = nil
 
@@ -214,7 +214,7 @@ slot0.warnFunc = function (slot0, slot1)
 	})
 end
 
-slot0.guideDispatch = function (slot0)
+function slot0.guideDispatch(slot0)
 	return
 end
 
@@ -270,7 +270,7 @@ function slot1(slot0, slot1, slot2, slot3)
 	}
 end
 
-slot0.GenBattleData = function (slot0)
+function slot0.GenBattleData(slot0)
 	slot0._battleData = {
 		battleType = slot0.contextData.system,
 		StageTmpId = slot0.contextData.stageId,
@@ -687,7 +687,7 @@ slot0.GenBattleData = function (slot0)
 	end
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.FINISH_STAGE_DONE,
 		GAME.FINISH_STAGE_ERROR,
@@ -700,7 +700,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 	slot4 = ys.Battle.BattleState.GetInstance()
 
@@ -798,7 +798,7 @@ slot0.handleNotification = function (slot0, slot1)
 	end
 end
 
-slot0.remove = function (slot0)
+function slot0.remove(slot0)
 	Screen.sleepTimeout = SleepTimeout.SystemSetting
 end
 

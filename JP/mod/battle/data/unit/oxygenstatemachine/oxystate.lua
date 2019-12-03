@@ -14,7 +14,7 @@ ys.Battle.OxyState.STATE_FREE_FLOAT = "STATE_FREE_FLOAT"
 ys.Battle.OxyState.STATE_FREE_BENCH = "STATE_FREE_BENCH"
 ys.Battle.OxyState.STATE_DEEP_MINE = "STATE_DEEP_MINE"
 
-ys.Battle.OxyState.Ctor = function (slot0, slot1)
+function ys.Battle.OxyState.Ctor(slot0, slot1)
 	slot0._target = slot1
 	slot0._idleState = slot0.Battle.IdleOxyState.New()
 	slot0._diveState = slot0.Battle.DiveOxyState.New()
@@ -31,21 +31,21 @@ ys.Battle.OxyState.Ctor = function (slot0, slot1)
 	slot0:OnIdleState()
 end
 
-ys.Battle.OxyState.SetRecycle = function (slot0, slot1)
+function ys.Battle.OxyState.SetRecycle(slot0, slot1)
 	slot0._recycle = slot1
 end
 
-ys.Battle.OxyState.SetBubbleTemplate = function (slot0, slot1, slot2)
+function ys.Battle.OxyState.SetBubbleTemplate(slot0, slot1, slot2)
 	slot0._bubbleInitial = slot1
 	slot0._bubbleInterval = slot2
 	slot0._bubbleTimpStamp = nil
 end
 
-ys.Battle.OxyState.UpdateOxygen = function (slot0)
+function ys.Battle.OxyState.UpdateOxygen(slot0)
 	slot0._currentState:DoUpdateOxy(slot0)
 end
 
-ys.Battle.OxyState.GetNextBubbleStamp = function (slot0)
+function ys.Battle.OxyState.GetNextBubbleStamp(slot0)
 	if slot0._currentState:GetBubbleFlag() then
 		if slot0._target:GetPosition().x < slot0._bubbleInitial and slot0._bubbleTimpStamp == nil then
 			slot0._bubbleTimpStamp = 0
@@ -57,11 +57,11 @@ ys.Battle.OxyState.GetNextBubbleStamp = function (slot0)
 	end
 end
 
-ys.Battle.OxyState.FlashBubbleStamp = function (slot0, slot1)
+function ys.Battle.OxyState.FlashBubbleStamp(slot0, slot1)
 	slot0._bubbleTimpStamp = slot1 + slot0._bubbleInterval
 end
 
-ys.Battle.OxyState.ChangeState = function (slot0, slot1, slot2)
+function ys.Battle.OxyState.ChangeState(slot0, slot1, slot2)
 	if slot1 == slot0.STATE_IDLE then
 		slot0:OnIdleState()
 	elseif slot1 == slot0.STATE_DIVE then
@@ -87,19 +87,19 @@ ys.Battle.OxyState.ChangeState = function (slot0, slot1, slot2)
 	slot0._target:GetCldData().Surface = slot0._currentState:GetDiveState()
 end
 
-ys.Battle.OxyState.OxyConsume = function (slot0)
+function ys.Battle.OxyState.OxyConsume(slot0)
 	slot0._target:OxyConsume()
 end
 
-ys.Battle.OxyState.OxyRecover = function (slot0, slot1)
+function ys.Battle.OxyState.OxyRecover(slot0, slot1)
 	slot0._target:OxyRecover(slot1)
 end
 
-ys.Battle.OxyState.OnIdleState = function (slot0)
+function ys.Battle.OxyState.OnIdleState(slot0)
 	slot0._currentState = slot0._idleState
 end
 
-ys.Battle.OxyState.OnDivingState = function (slot0)
+function ys.Battle.OxyState.OnDivingState(slot0)
 	slot0._currentState = slot0._divingState
 	slot0._target:GetCldData().Surface = slot0._currentState:GetDiveState()
 
@@ -112,7 +112,7 @@ ys.Battle.OxyState.OnDivingState = function (slot0)
 	slot0._target:AddBuff(slot1.Battle.BattleBuffUnit.New(slot0.SUB_DIVE_IMMUNE_IGNITE_BUFF))
 end
 
-ys.Battle.OxyState.OnDiveState = function (slot0)
+function ys.Battle.OxyState.OnDiveState(slot0)
 	slot0._currentState = slot0._diveState
 	slot0._target:GetCldData().Surface = slot0._currentState:GetDiveState()
 
@@ -126,7 +126,7 @@ ys.Battle.OxyState.OnDiveState = function (slot0)
 	slot0._target:AddBuff(slot1.Battle.BattleBuffUnit.New(slot0.SUB_DIVE_IMMUNE_IGNITE_BUFF))
 end
 
-ys.Battle.OxyState.OnFloatState = function (slot0)
+function ys.Battle.OxyState.OnFloatState(slot0)
 	slot0._currentState = slot0._floatState
 	slot0._target:GetCldData().Surface = slot0._currentState:GetDiveState()
 
@@ -139,7 +139,7 @@ ys.Battle.OxyState.OnFloatState = function (slot0)
 	slot0._target:AddBuff(slot0.Battle.BattleBuffUnit.New(slot2.SUB_FLOAT_DISIMMUNE_IGNITE_BUFF))
 end
 
-ys.Battle.OxyState.OnRaidState = function (slot0)
+function ys.Battle.OxyState.OnRaidState(slot0)
 	slot0._currentState = slot0._raidState
 	slot0._target:GetCldData().Surface = slot0._currentState:GetDiveState()
 
@@ -151,7 +151,7 @@ ys.Battle.OxyState.OnRaidState = function (slot0)
 	slot0._target:AddBuff(slot2.Battle.BattleBuffUnit.New(slot0.SUB_DIVE_IMMUNE_IGNITE_BUFF))
 end
 
-ys.Battle.OxyState.OnRetreatState = function (slot0)
+function ys.Battle.OxyState.OnRetreatState(slot0)
 	slot0._currentState = slot0._retreatState
 	slot0._target:GetCldData().Surface = slot0._currentState:GetDiveState()
 
@@ -163,7 +163,7 @@ ys.Battle.OxyState.OnRetreatState = function (slot0)
 	slot0._target:AddBuff(slot2.Battle.BattleBuffUnit.New(slot0.SUB_FLOAT_DISIMMUNE_IGNITE_BUFF))
 end
 
-ys.Battle.OxyState.OnFreeDiveState = function (slot0)
+function ys.Battle.OxyState.OnFreeDiveState(slot0)
 	slot0._currentState = slot0._freeDiveState
 	slot0._target:GetCldData().Surface = slot0._currentState:GetDiveState()
 
@@ -177,7 +177,7 @@ ys.Battle.OxyState.OnFreeDiveState = function (slot0)
 	slot0._target:AddBuff(slot0.Battle.BattleBuffUnit.New(slot2.SUB_DIVE_IMMUNE_IGNITE_BUFF))
 end
 
-ys.Battle.OxyState.OnFreeFloatState = function (slot0)
+function ys.Battle.OxyState.OnFreeFloatState(slot0)
 	slot0._currentState = slot0._freeFloatState
 	slot0._target:GetCldData().Surface = slot0._currentState:GetDiveState()
 
@@ -190,7 +190,7 @@ ys.Battle.OxyState.OnFreeFloatState = function (slot0)
 	slot0._target:AddBuff(slot0.Battle.BattleBuffUnit.New(slot2.SUB_FLOAT_DISIMMUNE_IGNITE_BUFF))
 end
 
-ys.Battle.OxyState.OnFreeBenchState = function (slot0)
+function ys.Battle.OxyState.OnFreeBenchState(slot0)
 	slot0._currentState = slot0._freeBenchState
 	slot0._target:GetCldData().Surface = slot0._currentState:GetDiveState()
 
@@ -202,7 +202,7 @@ ys.Battle.OxyState.OnFreeBenchState = function (slot0)
 	slot0._target:AddBuff(slot0.Battle.BattleBuffUnit.New(slot1.SUB_FLOAT_DISIMMUNE_IGNITE_BUFF))
 end
 
-ys.Battle.OxyState.OnDeepMineState = function (slot0)
+function ys.Battle.OxyState.OnDeepMineState(slot0)
 	slot0._currentState = slot0._deepMineState
 	slot0._target:GetCldData().Surface = slot0._currentState:GetDiveState()
 
@@ -211,31 +211,31 @@ ys.Battle.OxyState.OnDeepMineState = function (slot0)
 	slot0._target:SetAI(20005)
 end
 
-ys.Battle.OxyState.GetRecycle = function (slot0)
+function ys.Battle.OxyState.GetRecycle(slot0)
 	return false
 end
 
-ys.Battle.OxyState.GetTarget = function (slot0)
+function ys.Battle.OxyState.GetTarget(slot0)
 	return slot0._target
 end
 
-ys.Battle.OxyState.GetCurrentStateName = function (slot0)
+function ys.Battle.OxyState.GetCurrentStateName(slot0)
 	return slot0._currentState.__name
 end
 
-ys.Battle.OxyState.GetWeaponType = function (slot0)
+function ys.Battle.OxyState.GetWeaponType(slot0)
 	return slot0._currentState:GetWeaponUseableList()
 end
 
-ys.Battle.OxyState.GetBarVisible = function (slot0)
+function ys.Battle.OxyState.GetBarVisible(slot0)
 	return slot0._currentState:GetBarVisible()
 end
 
-ys.Battle.OxyState.GetRundMode = function (slot0)
+function ys.Battle.OxyState.GetRundMode(slot0)
 	return slot0._currentState:RunMode()
 end
 
-ys.Battle.OxyState.GetCurrentDiveState = function (slot0)
+function ys.Battle.OxyState.GetCurrentDiveState(slot0)
 	return slot0._currentState:GetDiveState()
 end
 

@@ -1,6 +1,6 @@
 slot0 = class("ActivityBossPtAwardSubPanel", import("view.activity.Panels.PtAwardSubPanel"))
 
-slot0.UpdateView = function (slot0, slot1)
+function slot0.UpdateView(slot0, slot1)
 	slot0.ptData = slot1
 	slot2 = slot1.dropList
 	slot3 = slot1.targets
@@ -22,7 +22,7 @@ slot0.UpdateView = function (slot0, slot1)
 	Canvas.ForceUpdateCanvases()
 end
 
-slot0.UpdateList = function (slot0, slot1, slot2, slot3, slot4)
+function slot0.UpdateList(slot0, slot1, slot2, slot3, slot4)
 	slot0.UIlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			setText(slot2:Find("title/Text"), "PHASE " .. slot1 + 1)

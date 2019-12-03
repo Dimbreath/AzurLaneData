@@ -1,6 +1,6 @@
 slot0 = class("StrategyPanel", import("..base.BasePanel"))
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.super.init(slot0)
 
 	slot0.icon = slot0:findTF("window/panel/item/icon_bg/icon")
@@ -17,7 +17,7 @@ slot0.init = function (slot0)
 	slot0.onCancel = nil
 end
 
-slot0.set = function (slot0, slot1)
+function slot0.set(slot0, slot1)
 	slot0.strategy = slot1
 
 	GetImageSpriteFromAtlasAsync("strategyicon/" .. pg.strategy_data_template[slot1.id].icon, "", slot0.icon)

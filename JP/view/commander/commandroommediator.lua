@@ -14,7 +14,7 @@ slot0.ON_DETAIL = "CommandRoomMediator:ON_DETAIL"
 slot0.OPEN_RENAME_PANEL = "CommandRoomMediator:OPEN_RENAME_PANEL"
 slot0.ON_LOCK = "CommandRoomMediator:ON_LOCK"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot2 = getProxy(CommanderProxy)
 
 	slot0:bind(slot0.ON_LOCK, function (slot0, slot1, slot2)
@@ -126,7 +126,7 @@ slot0.register = function (slot0)
 	slot0.viewComponent:setPools(slot2:getPools())
 end
 
-slot0.markFleet = function (slot0)
+function slot0.markFleet(slot0)
 	slot2 = getProxy(CommanderProxy).getData(slot1)
 
 	for slot8, slot9 in pairs(slot4) do
@@ -155,7 +155,7 @@ slot0.markFleet = function (slot0)
 	return slot2
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		CommanderProxy.COMMANDER_ADDED,
 		CommanderProxy.COMMANDER_UPDATED,
@@ -171,7 +171,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.COMMANDER_ON_BUILD_DONE then

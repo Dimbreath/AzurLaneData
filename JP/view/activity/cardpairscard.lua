@@ -4,7 +4,7 @@ slot0.CARD_STATE_FRONT = 1
 slot0.CARD_STATE_HIDE = 2
 slot0.ANI_TIME = 0.5
 
-slot0.Ctor = function (slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	pg.DelegateInfo.New(slot0)
 
 	slot0.cardTf = slot1
@@ -29,26 +29,26 @@ slot0.Ctor = function (slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	end)
 end
 
-slot0.getCardIndex = function (slot0)
+function slot0.getCardIndex(slot0)
 	return slot0.cardIndex
 end
 
-slot0.setEnable = function (slot0, slot1)
+function slot0.setEnable(slot0, slot1)
 	slot0.enable = slot1
 end
 
-slot0.setClear = function (slot0)
+function slot0.setClear(slot0)
 	setActive(slot0.clearSign, true)
 	slot0:setOutline(false)
 
 	slot0.canClick = false
 end
 
-slot0.setOutline = function (slot0, slot1)
+function slot0.setOutline(slot0, slot1)
 	slot0.outline.enabled = slot1
 end
 
-slot0.initCard = function (slot0, slot1)
+function slot0.initCard(slot0, slot1)
 	slot0.cardIndex = slot1
 
 	slot0:setSpriteTo(findTF(slot0.pics, "pic" .. slot1), slot0.img, false)
@@ -58,7 +58,7 @@ slot0.initCard = function (slot0, slot1)
 	slot0.canClick = true
 end
 
-slot0.showBack = function (slot0)
+function slot0.showBack(slot0)
 	setActive(slot0.back, true)
 	setActive(slot0.front, false)
 	setActive(slot0.img, false)
@@ -68,7 +68,7 @@ slot0.showBack = function (slot0)
 	slot0:setOutline(false)
 end
 
-slot0.showFront = function (slot0)
+function slot0.showFront(slot0)
 	setActive(slot0.back, false)
 	setActive(slot0.front, true)
 	setActive(slot0.img, true)
@@ -76,7 +76,7 @@ slot0.showFront = function (slot0)
 	slot0.cardState = slot0.CARD_STATE_FRONT
 end
 
-slot0.aniShowBack = function (slot0, slot1, slot2, slot3)
+function slot0.aniShowBack(slot0, slot1, slot2, slot3)
 	slot0.canClick = false
 
 	if slot1 then
@@ -108,7 +108,7 @@ slot0.aniShowBack = function (slot0, slot1, slot2, slot3)
 	end))
 end
 
-slot0.setSpriteTo = function (slot0, slot1, slot2, slot3)
+function slot0.setSpriteTo(slot0, slot1, slot2, slot3)
 	slot2:GetComponent(typeof(Image)).sprite = slot1:GetComponent(typeof(Image)).sprite
 
 	if slot3 then
@@ -116,11 +116,11 @@ slot0.setSpriteTo = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-slot0.clear = function (slot0)
+function slot0.clear(slot0)
 	LeanTween.cancel(go(slot0.cardTf))
 end
 
-slot0.destroy = function (slot0)
+function slot0.destroy(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 	LeanTween.cancel(go(slot0.cardTf))
 end

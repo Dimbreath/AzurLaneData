@@ -5,7 +5,7 @@ ys.Battle.BattleDropsView = slot2
 slot2.__name = "BattleDropsView"
 slot2.FLOAT_DURATION = 0.4
 
-slot2.Ctor = function (slot0, slot1, slot2)
+function slot2.Ctor(slot0, slot1, slot2)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0._container = slot2
@@ -14,11 +14,11 @@ slot2.Ctor = function (slot0, slot1, slot2)
 	slot0:init()
 end
 
-slot2.SetActive = function (slot0, slot1)
+function slot2.SetActive(slot0, slot1)
 	setActive(slot0._go, slot1)
 end
 
-slot2.AddCamera = function (slot0, slot1, slot2)
+function slot2.AddCamera(slot0, slot1, slot2)
 	slot0._camera = slot1
 	slot0._uiCamera = slot2
 	slot0._cameraTF = slot0._camera.transform
@@ -27,12 +27,12 @@ slot2.AddCamera = function (slot0, slot1, slot2)
 	slot0._cameraXRotate = slot0._cameraTF.localEulerAngles.x
 end
 
-slot2.RefreshScaleRate = function (slot0)
+function slot2.RefreshScaleRate(slot0)
 	slot0._xScale = UnityEngine.Screen.width / slot0._camera:ScreenToWorldPoint(Vector3(UnityEngine.Screen.width, UnityEngine.Screen.height, 0)).x
 	slot0._yScale = UnityEngine.Screen.height / slot0._camera.ScreenToWorldPoint(Vector3(UnityEngine.Screen.width, UnityEngine.Screen.height, 0)).y
 end
 
-slot2.Update = function (slot0)
+function slot2.Update(slot0)
 	if #slot0._resourceList == #slot0._resourcePool then
 		return
 	end
@@ -40,7 +40,7 @@ slot2.Update = function (slot0)
 	slot0:updateContainerPosition()
 end
 
-slot2.init = function (slot0)
+function slot2.init(slot0)
 	slot0._resourceIcon = slot0._tf:Find("resourceIcon")
 	slot0._resourceText = slot0._tf:Find("resourceText"):GetComponent(typeof(Text))
 	slot0._resourceGO = slot0._containerTF:Find("spin_gold")
@@ -68,7 +68,7 @@ slot2.init = function (slot0)
 	slot3 = nil
 end
 
-slot2.pop = function (slot0, slot1)
+function slot2.pop(slot0, slot1)
 	slot2 = nil
 
 	if #slot1 == 0 then
@@ -85,7 +85,7 @@ slot2.pop = function (slot0, slot1)
 	return slot2
 end
 
-slot2.push = function (slot0, slot1, slot2)
+function slot2.push(slot0, slot1, slot2)
 	slot1.transform.localScale = Vector3(0.35, 0.35, 0.35)
 	slot1:GetComponent(typeof(Animator)).enabled = false
 
@@ -94,7 +94,7 @@ slot2.push = function (slot0, slot1, slot2)
 	slot2[#slot2 + 1] = slot1
 end
 
-slot2.updateCountText = function (slot0, slot1)
+function slot2.updateCountText(slot0, slot1)
 	slot2 = nil
 
 	if slot1 == slot0._resourceText then
@@ -108,7 +108,7 @@ slot2.updateCountText = function (slot0, slot1)
 	end
 end
 
-slot2.ShowDrop = function (slot0, slot1)
+function slot2.ShowDrop(slot0, slot1)
 	if #slot0._resourceList == #slot0._resourcePool then
 		slot0:updateContainerPosition()
 	end
@@ -127,11 +127,11 @@ slot2.ShowDrop = function (slot0, slot1)
 	end
 end
 
-slot2.updateContainerPosition = function (slot0)
+function slot2.updateContainerPosition(slot0)
 	slot0._containerTF.localPosition = Vector3(slot0._xScale * (slot0._cameraSrcX - slot0._cameraTF.localPosition.x), slot0._yScale * (slot0._cameraSrcZ - slot0._cameraTF.localPosition.z), 0)
 end
 
-slot2.makeFloatAnima = function (slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9)
+function slot2.makeFloatAnima(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9)
 	slot10 = slot0:pop(slot2)
 
 	SetActive(slot10, true)
@@ -166,7 +166,7 @@ slot2.makeFloatAnima = function (slot0, slot1, slot2, slot3, slot4, slot5, slot6
 	end))
 end
 
-slot2.Dispose = function (slot0)
+function slot2.Dispose(slot0)
 	for slot4, slot5 in pairs(slot0._timerList) do
 		if slot5 then
 			pg.TimeMgr.GetInstance():RemoveBattleTimer(slot4)

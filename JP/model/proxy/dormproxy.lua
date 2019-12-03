@@ -10,7 +10,7 @@ slot0.SHIPS_EXP_ADDED = "DormProxy SHIPS_EXP_ADDED"
 slot0.THEME_ADDED = "DormProxy THEME_ADDED"
 slot0.THEME_DELETED = "DormProxy THEME_DELETED"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.friendData = nil
 
 	slot0:on(19001, function (slot0)
@@ -37,7 +37,7 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.getBackYardShips = function (slot0)
+function slot0.getBackYardShips(slot0)
 	slot1 = {}
 	slot2 = getProxy(BayProxy)
 
@@ -52,25 +52,25 @@ slot0.getBackYardShips = function (slot0)
 	return slot1
 end
 
-slot0.addShip = function (slot0, slot1)
+function slot0.addShip(slot0, slot1)
 	slot0.data:addShip(slot1)
 	slot0:sendNotification(slot0.SHIP_ADDED, slot0:getShipById(slot1):clone())
 	slot0:updateDrom(slot0.data)
 end
 
-slot0.exitYardById = function (slot0, slot1)
+function slot0.exitYardById(slot0, slot1)
 	slot0.data:deleteShip(slot1)
 	slot0:sendNotification(slot0.SHIP_EXIT, slot0:getShipById(slot1))
 	slot0:updateDrom(slot0.data)
 end
 
-slot0.getShipById = function (slot0, slot1)
+function slot0.getShipById(slot0, slot1)
 	if slot0:getBackYardShips()[slot1] then
 		return slot2[slot1]
 	end
 end
 
-slot0.getShipsByState = function (slot0, slot1)
+function slot0.getShipsByState(slot0, slot1)
 	slot3 = {}
 
 	for slot7, slot8 in pairs(slot2) do
@@ -82,19 +82,19 @@ slot0.getShipsByState = function (slot0, slot1)
 	return slot3
 end
 
-slot0.getTrainShipIds = function (slot0)
+function slot0.getTrainShipIds(slot0)
 	return _.keys(slot0:getShipsByState(Ship.STATE_TRAIN) or {})
 end
 
-slot0.getRestShipIds = function (slot0)
+function slot0.getRestShipIds(slot0)
 	return _.keys(slot0:getShipsByState(Ship.STATE_REST) or {})
 end
 
-slot0.getTrainShipCount = function (slot0)
+function slot0.getTrainShipCount(slot0)
 	return #slot0:getTrainShipIds()
 end
 
-slot0.addInimacyAndMoney = function (slot0, slot1, slot2, slot3)
+function slot0.addInimacyAndMoney(slot0, slot1, slot2, slot3)
 	if not getProxy(BayProxy):getShipById(slot1) then
 		return
 	end
@@ -111,7 +111,7 @@ slot0.addInimacyAndMoney = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-slot0.isLackOfFood = function (slot0)
+function slot0.isLackOfFood(slot0)
 	if slot0:getTrainShipCount() == 0 then
 		return false
 	end
@@ -125,7 +125,7 @@ slot0.isLackOfFood = function (slot0)
 	return slot2 <= 0
 end
 
-slot0.havePopEvent = function (slot0)
+function slot0.havePopEvent(slot0)
 	for slot5, slot6 in pairs(slot1) do
 		if slot6:hasStateInfo3Or4() then
 			return true
@@ -135,11 +135,11 @@ slot0.havePopEvent = function (slot0)
 	return false
 end
 
-slot0.getFurnitrues = function (slot0)
+function slot0.getFurnitrues(slot0)
 	return Clone(slot0.data.furnitures)
 end
 
-slot0.getFurnitrueCount = function (slot0, slot1)
+function slot0.getFurnitrueCount(slot0, slot1)
 	slot3 = 0
 
 	for slot7, slot8 in pairs(slot2) do
@@ -151,7 +151,7 @@ slot0.getFurnitrueCount = function (slot0, slot1)
 	return slot3
 end
 
-slot0.getTempFurnitrues = function (slot0)
+function slot0.getTempFurnitrues(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.data.furnitures) do
@@ -163,7 +163,7 @@ slot0.getTempFurnitrues = function (slot0)
 	return slot1
 end
 
-slot0.getFurnitureCountByType = function (slot0, slot1)
+function slot0.getFurnitureCountByType(slot0, slot1)
 	slot2 = 0
 
 	for slot6, slot7 in pairs(slot0:getFurnitrues()) do
@@ -175,7 +175,7 @@ slot0.getFurnitureCountByType = function (slot0, slot1)
 	return slot2
 end
 
-slot0.addFurniture = function (slot0, slot1)
+function slot0.addFurniture(slot0, slot1)
 	slot3 = slot1.count
 
 	if not slot0:getFurniById(slot1.id) then
@@ -211,20 +211,20 @@ slot0.addFurniture = function (slot0, slot1)
 	slot0:updateDrom(slot0.data)
 end
 
-slot0.updateFurniture = function (slot0, slot1)
+function slot0.updateFurniture(slot0, slot1)
 	slot0.data:updateFurniture(slot1)
 	slot0:sendNotification(slot0.FURNITURE_UPDATED, slot1:clone())
 end
 
-slot0.getFurniById = function (slot0, slot1)
+function slot0.getFurniById(slot0, slot1)
 	return Clone(slot0.data:getFurnitrueById(slot1))
 end
 
-slot0.getPutFurnis = function (slot0)
+function slot0.getPutFurnis(slot0)
 	return Clone(slot0.data:getPutFurnis())
 end
 
-slot0.getWallPaper = function (slot0, slot1)
+function slot0.getWallPaper(slot0, slot1)
 	for slot5, slot6 in pairs(slot0:getFurnitrues()) do
 		slot7 = slot6:getConfig("type")
 
@@ -234,7 +234,7 @@ slot0.getWallPaper = function (slot0, slot1)
 	end
 end
 
-slot0.getFurnitrueCount = function (slot0, slot1)
+function slot0.getFurnitrueCount(slot0, slot1)
 	slot3 = 0
 
 	for slot7, slot8 in pairs(slot2) do
@@ -246,37 +246,37 @@ slot0.getFurnitrueCount = function (slot0, slot1)
 	return slot3
 end
 
-slot0.addDorm = function (slot0, slot1)
+function slot0.addDorm(slot0, slot1)
 	slot0.data = slot1
 end
 
-slot0.updateDrom = function (slot0, slot1)
+function slot0.updateDrom(slot0, slot1)
 	slot0.data = slot1
 
 	slot0.facade:sendNotification(slot0.DORM_UPDATEED, slot1:clone())
 end
 
-slot0.getData = function (slot0)
+function slot0.getData(slot0)
 	return slot0.data or Dorm.New({
 		id = 1
 	}):clone()
 end
 
-slot0.updateFood = function (slot0, slot1)
+function slot0.updateFood(slot0, slot1)
 	slot0.data:consumeFood(slot1)
 	slot0.data:restNextTime()
 	slot0:updateDrom(slot0.data)
 end
 
-slot0.getRestFood = function (slot0)
+function slot0.getRestFood(slot0)
 	return slot0.data.food
 end
 
-slot0.hasFood = function (slot0)
+function slot0.hasFood(slot0)
 	return slot0.data:isMaxFood() == false and getProxy(BagProxy):getItemCountById(50001) > 0
 end
 
-slot0.initThemes = function (slot0, slot1)
+function slot0.initThemes(slot0, slot1)
 	slot0.userThemes = {}
 
 	for slot5, slot6 in ipairs(slot1) do
@@ -286,7 +286,7 @@ slot0.initThemes = function (slot0, slot1)
 	slot0.themeInited = true
 end
 
-slot0.AddTheme = function (slot0, slot1)
+function slot0.AddTheme(slot0, slot1)
 	slot0.userThemes[slot1.id] = BackYardTheme.New({
 		id = slot1.id,
 		name = slot1.name,
@@ -297,17 +297,17 @@ slot0.AddTheme = function (slot0, slot1)
 	slot0.facade:sendNotification(slot0.THEME_ADDED, Clone(BackYardTheme.New()))
 end
 
-slot0.deleteTheme = function (slot0, slot1)
+function slot0.deleteTheme(slot0, slot1)
 	slot0.userThemes[slot1] = nil
 
 	slot0:sendNotification(slot0.THEME_DELETED, slot1)
 end
 
-slot0.getThemeById = function (slot0, slot1)
+function slot0.getThemeById(slot0, slot1)
 	return slot0.userThemes[slot1]
 end
 
-slot0.updateTheme = function (slot0, slot1)
+function slot0.updateTheme(slot0, slot1)
 	slot0.userThemes[slot1.id] = BackYardTheme.New({
 		id = slot1.id,
 		name = slot1.name,
@@ -316,7 +316,7 @@ slot0.updateTheme = function (slot0, slot1)
 	})
 end
 
-slot0.getThemes = function (slot0)
+function slot0.getThemes(slot0)
 	if not slot0.themeInited then
 		return nil
 	end
@@ -324,7 +324,7 @@ slot0.getThemes = function (slot0)
 	return Clone(slot0.userThemes)
 end
 
-slot0.getTheme = function (slot0, slot1)
+function slot0.getTheme(slot0, slot1)
 	if not slot0.userThemes then
 		return nil
 	end
@@ -332,7 +332,7 @@ slot0.getTheme = function (slot0, slot1)
 	return slot0.userThemes[slot1]
 end
 
-slot0.getNewID = function (slot0)
+function slot0.getNewID(slot0)
 	for slot4 = 1, 10, 1 do
 		if not slot0.userThemes[slot4] then
 			return slot4

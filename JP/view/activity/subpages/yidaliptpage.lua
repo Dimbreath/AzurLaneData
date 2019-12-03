@@ -1,6 +1,6 @@
 slot0 = class("YidaliPTPage", import(".TemplatePage.PtTemplatePage"))
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.super.OnInit(slot0)
 
 	slot0.progresses = slot0:findTF("progresses", slot0.bg)
@@ -8,7 +8,7 @@ slot0.OnInit = function (slot0)
 	slot0.progress_l = slot0:findTF("progress_l", slot0.progresses)
 end
 
-slot0.OnUpdateFlush = function (slot0)
+function slot0.OnUpdateFlush(slot0)
 	if checkExist(slot0.activity:getConfig("config_client").story, {
 		slot0.ptData:getTargetLevel()
 	}, {

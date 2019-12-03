@@ -1,6 +1,6 @@
 slot0 = class("FleetCellView", import(".SpineCellView"))
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 
 	slot0.tfShadow = slot0.tf:Find("shadow")
@@ -11,11 +11,11 @@ slot0.Ctor = function (slot0, slot1)
 	slot0.onClear = false
 end
 
-slot0.getOrder = function (slot0)
+function slot0.getOrder(slot0)
 	return 3
 end
 
-slot0.showPoisonDamage = function (slot0, slot1)
+function slot0.showPoisonDamage(slot0, slot1)
 	slot3 = slot0.tfShip.localPosition
 
 	PoolMgr.GetInstance():LoadAsset("ui/" .. slot2, "banai_dian01", false, nil, function (slot0)
@@ -44,7 +44,7 @@ slot0.showPoisonDamage = function (slot0, slot1)
 	end, true)
 end
 
-slot0.clear = function (slot0)
+function slot0.clear(slot0)
 	slot0.super.clear(slot0)
 
 	slot0.onClear = true

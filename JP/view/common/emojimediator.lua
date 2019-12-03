@@ -1,18 +1,18 @@
 slot0 = class("EmojiMediator", import("..base.ContextMediator"))
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	if not getProxy(EmojiProxy):getInitedTag() then
 		slot0:sendNotification(GAME.REQUEST_EMOJI_INFO_FROM_SERVER)
 	end
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.REQUEST_EMOJI_INFO_FROM_SERVER_DONE
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	return
 end
 

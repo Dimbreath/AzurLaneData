@@ -8,7 +8,7 @@ slot0.CHANGE_FLEET_FORMATION = "DefenseFormationMedator:CHANGE_FLEET_FORMATION"
 slot0.CHANGE_FLEET_SHIPS_ORDER = "DefenseFormationMedator:CHANGE_FLEET_SHIPS_ORDER"
 slot0.COMMIT_FLEET = "DefenseFormationMedator:COMMIT_FLEET"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot1 = getProxy(BayProxy)
 
 	slot1:setSelectShipId(nil)
@@ -117,11 +117,11 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.refreshView = function (slot0, slot1)
+function slot0.refreshView(slot0, slot1)
 	slot0.viewComponent:UpdateFleetView(slot1)
 end
 
-slot0.save = function (slot0, slot1, slot2)
+function slot0.save(slot0, slot1, slot2)
 	if slot1 then
 		slot0:sendNotification(GAME.UPDATE_EXERCISE_FLEET, {
 			fleet = slot1,
@@ -132,7 +132,7 @@ slot0.save = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.configDockYardFunc = function (slot0, slot1, slot2, slot3, slot4, slot5)
+function slot0.configDockYardFunc(slot0, slot1, slot2, slot3, slot4, slot5)
 	return function (slot0, slot1)
 		slot2 = {}
 
@@ -233,13 +233,13 @@ slot0.configDockYardFunc = function (slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.EXERCISE_FLEET_RESET
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if GAME.EXERCISE_FLEET_RESET == slot1:getName() then

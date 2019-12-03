@@ -7,13 +7,13 @@ slot6 = ys.Battle.BattleConfig
 ys.Battle.BattleSubUnit = class("BattleSubUnit", ys.Battle.BattlePlayerUnit)
 ys.Battle.BattleSubUnit.__name = "BattleSubUnit"
 
-ys.Battle.BattleSubUnit.Ctor = function (slot0, slot1, slot2)
+function ys.Battle.BattleSubUnit.Ctor(slot0, slot1, slot2)
 	slot0.super.Ctor(slot0, slot1, slot2)
 
 	slot0._type = slot1.UnitType.PLAYER_UNIT
 end
 
-ys.Battle.BattleSubUnit.setWeapon = function (slot0, slot1)
+function ys.Battle.BattleSubUnit.setWeapon(slot0, slot1)
 	slot2 = slot0._tmpData.default_equip_list
 	slot3 = slot0._tmpData.base_list
 	slot4 = slot0._proficiencyList
@@ -110,7 +110,7 @@ ys.Battle.BattleSubUnit.setWeapon = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattleSubUnit.AddDisposableTorpedo = function (slot0, slot1, slot2, slot3, slot4, slot5)
+function ys.Battle.BattleSubUnit.AddDisposableTorpedo(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._totalWeapon[#slot0._totalWeapon + 1] = slot0.Battle.BattleDataFunction.CreateWeaponUnit(slot1, slot0, slot4, slot5, slot1.EquipmentType.DISPOSABLE_TORPEDO)
 
 	if slot2 then

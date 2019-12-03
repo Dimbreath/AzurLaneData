@@ -1,11 +1,11 @@
 slot0 = class("EmojiLayer", import("..base.BaseUI"))
 slot0.PageEmojiNums = 8
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "EmojiUI"
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.emojiGroup = slot0:findTF("frame/group")
 	slot0.emojiType = slot0:findTF("type", slot0.emojiGroup)
 	slot0.emojiSnap = slot0:findTF("frame/bg/mask/event"):GetComponent("HScrollSnap")
@@ -28,7 +28,7 @@ slot0.init = function (slot0)
 	slot0.emojiProxy = getProxy(EmojiProxy)
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	onButton(slot0, slot0._tf, function ()
 		slot0:emit(slot1.ON_CLOSE)
 	end, SFX_CANCEL)
@@ -38,7 +38,7 @@ slot0.didEnter = function (slot0)
 	})
 end
 
-slot0.display = function (slot0)
+function slot0.display(slot0)
 	slot1 = UIItemList.New(slot0.emojiGroup, slot0.emojiType)
 
 	slot1:make(function (slot0, slot1, slot2)
@@ -63,7 +63,7 @@ slot0.display = function (slot0)
 	triggerToggle(slot0.emojiGroup:GetChild(0), true)
 end
 
-slot0.filter = function (slot0, slot1)
+function slot0.filter(slot0, slot1)
 	slot0.etype = slot1
 	slot2 = _.map(pg.emoji_template.all, function (slot0)
 		if pg.emoji_template[slot0].achieve == 0 then
@@ -186,12 +186,12 @@ slot0.filter = function (slot0, slot1)
 	end
 end
 
-slot0.onBackPressed = function (slot0)
+function slot0.onBackPressed(slot0)
 	playSoundEffect(SFX_CANCEL)
 	triggerButton(slot0._tf)
 end
 
-slot0.clearItem = function (slot0, slot1)
+function slot0.clearItem(slot0, slot1)
 	eachChild(slot1, function (slot0)
 		if slot0.childCount > 0 then
 			if slot0:Find("newtag") then
@@ -203,7 +203,7 @@ slot0.clearItem = function (slot0, slot1)
 	end)
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	eachChild(slot0.emojiContent, function (slot0)
 		slot0:clearItem(slot0)
 	end)

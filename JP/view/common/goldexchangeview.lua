@@ -11,7 +11,7 @@ slot0.gemNum = {
 	[2.0] = 450
 }
 
-slot0.Ctor = function (slot0)
+function slot0.Ctor(slot0)
 	slot0.super.Ctor(slot0)
 	PoolMgr.GetInstance():GetUI("GoldExchangeWindow", false, function (slot0)
 		slot0.transform:SetParent(pg.UIMgr.GetInstance().UIMain.transform, false)
@@ -19,7 +19,7 @@ slot0.Ctor = function (slot0)
 	end)
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0:initData()
 	slot0:initUI()
 	slot0:addListener()
@@ -27,21 +27,21 @@ slot0.init = function (slot0)
 	slot0:updateView()
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	slot0:overLayMyself(false)
 	PoolMgr.GetInstance():ReturnUI("GoldExchangeWindow", slot0._go)
 
 	pg.goldExchangeMgr = nil
 end
 
-slot0.initData = function (slot0)
+function slot0.initData(slot0)
 	slot0.selectedIndex = 1
 	slot0.selectedNum = 1
 	slot0.selectedMax = 10
 	slot0.player = getProxy(PlayerProxy):getData()
 end
 
-slot0.initUI = function (slot0)
+function slot0.initUI(slot0)
 	slot0.bg = slot0:findTF("BG")
 	slot0.btnBack = slot0:findTF("Window/top/btnBack")
 	slot0.contentTF = slot0:findTF("Window/Content")
@@ -75,7 +75,7 @@ slot0.initUI = function (slot0)
 	slot0.confirmBtn = slot0:findTF("Window/button_container/ConfirmBtn")
 end
 
-slot0.addListener = function (slot0)
+function slot0.addListener(slot0)
 	onButton(slot0, slot0.bg, function ()
 		slot0:exit()
 	end, SFX_CANCEL)
@@ -126,7 +126,7 @@ slot0.addListener = function (slot0)
 	end
 end
 
-slot0.updateView = function (slot0)
+function slot0.updateView(slot0)
 	for slot4 = 1, 2, 1 do
 		setActive(slot0.goldTF[slot4].selectedTF, slot4 == slot0.selectedIndex)
 		setActive(slot0.goldTF[3 - slot4].selectedTF, slot4 ~= slot0.selectedIndex)
@@ -150,7 +150,7 @@ slot0.updateView = function (slot0)
 	setText(slot0.goldCountText, slot2)
 end
 
-slot0.overLayMyself = function (slot0, slot1)
+function slot0.overLayMyself(slot0, slot1)
 	if slot1 == true then
 		pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 			weight = LayerWeightConst.TOP_LAYER
