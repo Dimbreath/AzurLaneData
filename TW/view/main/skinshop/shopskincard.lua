@@ -4,7 +4,7 @@ slot2 = pg.shop_template
 slot3 = pg.skin_page_template
 slot4 = pg.ship_skin_template
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
 	slot0._content = slot0._tf:Find("content")
@@ -30,7 +30,7 @@ slot0.Ctor = function (slot0, slot1)
 	}
 end
 
-slot0.update = function (slot0, slot1)
+function slot0.update(slot0, slot1)
 	slot0.goodsVO = slot1
 	slot0.shipSkinConfig = slot0[slot1:getSkinId()]
 
@@ -78,14 +78,14 @@ slot0.update = function (slot0, slot1)
 	end
 end
 
-slot0.updateSelected = function (slot0, slot1)
+function slot0.updateSelected(slot0, slot1)
 	slot0._content.localPosition = Vector3(0, (slot1 and -26) or -126, 0)
 
 	setActive(slot0._priceTF, slot1 and slot0.goodsVO.type == Goods.TYPE_SKIN)
 	setActive(slot0._mask, not slot1)
 end
 
-slot0.Dispose = function (slot0)
+function slot0.Dispose(slot0)
 	return
 end
 

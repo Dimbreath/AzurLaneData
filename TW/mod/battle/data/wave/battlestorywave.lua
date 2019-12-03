@@ -2,17 +2,17 @@ ys = ys or {}
 ys.Battle.BattleStoryWave = class("BattleStoryWave", ys.Battle.BattleWaveInfo)
 ys.Battle.BattleStoryWave.__name = "BattleStoryWave"
 
-ys.Battle.BattleStoryWave.Ctor = function (slot0)
+function ys.Battle.BattleStoryWave.Ctor(slot0)
 	slot0.super.Ctor(slot0)
 end
 
-ys.Battle.BattleStoryWave.SetWaveData = function (slot0, slot1)
+function ys.Battle.BattleStoryWave.SetWaveData(slot0, slot1)
 	slot0.super.SetWaveData(slot0, slot1)
 
 	slot0._storyID = slot0._param.id
 end
 
-ys.Battle.BattleStoryWave.DoWave = function (slot0)
+function ys.Battle.BattleStoryWave.DoWave(slot0)
 	slot0.super.DoWave(slot0)
 
 	slot1 = true

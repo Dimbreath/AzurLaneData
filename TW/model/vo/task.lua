@@ -16,7 +16,7 @@ slot1 = {
 slot0.TASK_PROGRESS_UPDATE = 0
 slot0.TASK_PROGRESS_APPEND = 1
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot1.id
 	slot0.progress = slot1.progress or 0
@@ -24,19 +24,19 @@ slot0.Ctor = function (slot0, slot1)
 	slot0.submitTime = slot1.submit_time or 0
 end
 
-slot0.isClientTrigger = function (slot0)
+function slot0.isClientTrigger(slot0)
 	return slot0:getConfig("sub_type") > 2000 and slot0:getConfig("sub_type") < 3000
 end
 
-slot0.bindConfigTable = function (slot0)
+function slot0.bindConfigTable(slot0)
 	return pg.task_data_template
 end
 
-slot0.isFinish = function (slot0)
+function slot0.isFinish(slot0)
 	return slot0:getConfig("target_num") <= slot0:getProgress()
 end
 
-slot0.getProgress = function (slot0)
+function slot0.getProgress(slot0)
 	slot1 = slot0.progress
 
 	if slot0:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_ITEM then
@@ -66,11 +66,11 @@ slot0.getProgress = function (slot0)
 	return slot1 or 0
 end
 
-slot0.isReceive = function (slot0)
+function slot0.isReceive(slot0)
 	return slot0.submitTime > 0
 end
 
-slot0.getTaskStatus = function (slot0)
+function slot0.getTaskStatus(slot0)
 	if slot0:isReceive() then
 		return 2
 	end
@@ -82,7 +82,7 @@ slot0.getTaskStatus = function (slot0)
 	return 0
 end
 
-slot0.onAdded = function (slot0)
+function slot0.onAdded(slot0)
 	function slot1()
 		if slot0:getConfig("sub_type") == 29 then
 			if _.any(getProxy(SkirmishProxy):getRawData(), function (slot0)
@@ -121,15 +121,15 @@ slot0.onAdded = function (slot0)
 	end
 end
 
-slot0.updateProgress = function (slot0, slot1)
+function slot0.updateProgress(slot0, slot1)
 	slot0.progress = slot1
 end
 
-slot0.isSelectable = function (slot0)
+function slot0.isSelectable(slot0)
 	return slot0:getConfig("award_choice") ~= nil and type(slot1) == "table" and #slot1 > 0
 end
 
-slot0.confirmForSubmit = function (slot0)
+function slot0.confirmForSubmit(slot0)
 	slot0.confirmSetting = {}
 	slot1 = getProxy(PlayerProxy):getData()
 	slot2 = {}
@@ -221,7 +221,7 @@ slot0.confirmForSubmit = function (slot0)
 	end
 end
 
-slot0.getConfirmSetting = function (slot0)
+function slot0.getConfirmSetting(slot0)
 	return Clone(slot0.confirmSetting)
 end
 

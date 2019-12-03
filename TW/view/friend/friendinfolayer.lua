@@ -1,14 +1,14 @@
 slot0 = class("FriendInfoLayer", import("..base.BaseUI"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "FriendInfoUI"
 end
 
-slot0.setFriend = function (slot0, slot1)
+function slot0.setFriend(slot0, slot1)
 	slot0.friend = slot1
 end
 
-slot0.setFriendProxy = function (slot0, slot1)
+function slot0.setFriendProxy(slot0, slot1)
 	slot0.friendProxy = slot1
 end
 
@@ -20,7 +20,7 @@ slot1 = {
 	"OPEN_INFORM"
 }
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	if slot0.contextData.form == NotificationLayer.FORM_BATTLE then
 		setParent(slot0._tf, slot0.contextData.parent)
 	else
@@ -52,7 +52,7 @@ slot0.init = function (slot0)
 	end
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	slot0:initInfo()
 
 	slot1 = slot0:findTF("frame/right_bg")
@@ -97,7 +97,7 @@ slot0.didEnter = function (slot0)
 	end, SOUND_BACK)
 end
 
-slot0.openInfromPanel = function (slot0)
+function slot0.openInfromPanel(slot0)
 	setActive(slot0.informPanel, true)
 
 	if not slot0.isInitInform then
@@ -107,7 +107,7 @@ slot0.openInfromPanel = function (slot0)
 	end
 end
 
-slot0.initInform = function (slot0)
+function slot0.initInform(slot0)
 	slot0.nameTF.text = i18n("inform_player", slot0.friend.name)
 
 	for slot5, slot6 in ipairs(slot1) do
@@ -144,13 +144,13 @@ slot0.initInform = function (slot0)
 	end)
 end
 
-slot0.closeInfromPanel = function (slot0)
+function slot0.closeInfromPanel(slot0)
 	setActive(slot0.informPanel, false)
 
 	slot0.informInfo = nil
 end
 
-slot0.initInfo = function (slot0)
+function slot0.initInfo(slot0)
 	LoadSpriteAsync("qicon/" .. pg.ship_skin_template[pg.ship_data_statistics[slot0.friend.icon].skin_id].painting, function (slot0)
 		if not IsNil(slot0.iconTF) then
 			if not slot0 then
@@ -176,12 +176,12 @@ slot0.initInfo = function (slot0)
 	LoadImageSpriteAsync("emblem/" .. slot5, slot0.resumeEmblem)
 end
 
-slot0.updateBlack = function (slot0)
+function slot0.updateBlack(slot0)
 	setActive(findTF(slot0.btnTFs[4], "black"), not (slot0.friendProxy:getBlackPlayerById(slot0.friend.id) ~= nil))
 	setActive(findTF(slot0.btnTFs[4], "unblack"), slot0.friendProxy.getBlackPlayerById(slot0.friend.id) ~= nil)
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	return
 end
 

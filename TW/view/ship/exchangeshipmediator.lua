@@ -4,7 +4,7 @@ slot0.SHIP_EXCHANGE = "ExchangeShipMediator SHIP_EXCHANGE"
 slot0.GET_EXCHANGE_ITEMS = "ExchangeShipMediator GET_EXCHANGE_ITEMS"
 slot0.ITEM_EXCHANGE = "ExchangeShipMediator ITEM_EXCHANGE"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot1 = getProxy(BuildShipProxy)
 	slot3 = slot1:getExchangeFlashTime()
 	slot4 = slot1:getFlagShipFlashTime()
@@ -42,7 +42,7 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		BuildShipProxy.EXCHANGE_LIST_UPDATED,
 		BuildShipProxy.EXCHANGE_SHIP_UPDATED,
@@ -52,7 +52,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == BuildShipProxy.EXCHANGE_LIST_UPDATED then

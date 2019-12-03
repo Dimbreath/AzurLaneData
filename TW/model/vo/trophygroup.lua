@@ -1,19 +1,19 @@
 slot0 = class("TrophyGroup")
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0._trophyGroupID = slot1
 	slot0._trophyList = {}
 end
 
-slot0.getGroupID = function (slot0)
+function slot0.getGroupID(slot0)
 	return slot0._trophyGroupID
 end
 
-slot0.getTrophyList = function (slot0)
+function slot0.getTrophyList(slot0)
 	return slot0._trophyList
 end
 
-slot0.getDisplayTrophy = function (slot0)
+function slot0.getDisplayTrophy(slot0)
 	slot1 = #slot0._trophyList
 	slot2 = nil
 
@@ -28,7 +28,7 @@ slot0.getDisplayTrophy = function (slot0)
 	return slot2
 end
 
-slot0.getProgressTrophy = function (slot0)
+function slot0.getProgressTrophy(slot0)
 	slot1 = 1
 	slot2 = #slot0._trophyList
 	slot3 = nil
@@ -44,7 +44,7 @@ slot0.getProgressTrophy = function (slot0)
 	return slot3
 end
 
-slot0.getTrophyIndex = function (slot0, slot1)
+function slot0.getTrophyIndex(slot0, slot1)
 	slot2 = nil
 
 	for slot6, slot7 in ipairs(slot0._trophyList) do
@@ -58,7 +58,7 @@ slot0.getTrophyIndex = function (slot0, slot1)
 	return slot2
 end
 
-slot0.getMaxClaimedTrophy = function (slot0)
+function slot0.getMaxClaimedTrophy(slot0)
 	slot1 = #slot0._trophyList
 
 	while slot1 > 0 do
@@ -70,11 +70,11 @@ slot0.getMaxClaimedTrophy = function (slot0)
 	end
 end
 
-slot0.getTrophyCount = function (slot0)
+function slot0.getTrophyCount(slot0)
 	return #slot0._trophyList
 end
 
-slot0.getPostTrophy = function (slot0, slot1)
+function slot0.getPostTrophy(slot0, slot1)
 	if not slot0:getTrophyIndex(slot1) then
 		return nil
 	end
@@ -86,7 +86,7 @@ slot0.getPostTrophy = function (slot0, slot1)
 	return slot0._trophyList[slot2]
 end
 
-slot0.getPreTrophy = function (slot0, slot1)
+function slot0.getPreTrophy(slot0, slot1)
 	if not slot0:getTrophyIndex(slot1) then
 		return nil
 	end
@@ -98,7 +98,7 @@ slot0.getPreTrophy = function (slot0, slot1)
 	return slot0._trophyList[slot2]
 end
 
-slot0.addTrophy = function (slot0, slot1)
+function slot0.addTrophy(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0._trophyList) do
 		if slot6.id == slot1.id then
 			slot0._trophyList[slot5] = slot1
@@ -110,11 +110,11 @@ slot0.addTrophy = function (slot0, slot1)
 	slot0._trophyList[#slot0._trophyList + 1] = slot1
 end
 
-slot0.addDummyTrophy = function (slot0, slot1)
+function slot0.addDummyTrophy(slot0, slot1)
 	slot0:addTrophy(Trophy.generateDummyTrophy(slot1))
 end
 
-slot0.sortGroup = function (slot0)
+function slot0.sortGroup(slot0)
 	table.sort(slot0._trophyList, function (slot0, slot1)
 		return slot0.id < slot1.id
 	end)

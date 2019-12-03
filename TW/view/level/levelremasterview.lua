@@ -1,28 +1,28 @@
 slot0 = class("LevelRemasterView", import("..base.BaseSubView"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "LevelRemasterView"
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0:InitUI()
 	setActive(slot0._tf, true)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	slot0.onItem = nil
 	slot0.onCancel = nil
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTF)
 end
 
-slot0.setCBFunc = function (slot0, slot1, slot2)
+function slot0.setCBFunc(slot0, slot1, slot2)
 	slot0.onItem = slot1
 	slot0.onCancel = slot2
 end
 
-slot0.InitUI = function (slot0)
+function slot0.InitUI(slot0)
 	slot0.content = slot0:findTF("list/content")
 	slot0.item = slot0.content:Find("item")
 	slot0.numsTxt = slot0:findTF("nums/text")
@@ -36,7 +36,7 @@ slot0.InitUI = function (slot0)
 	slot0.spToggle = slot0:findTF("toggles/SP")
 end
 
-slot0.set = function (slot0, slot1, slot2, slot3)
+function slot0.set(slot0, slot1, slot2, slot3)
 	slot0.templates = slot1
 	slot0.tickets = slot2
 
@@ -47,7 +47,7 @@ slot0.set = function (slot0, slot1, slot2, slot3)
 	slot0:flush(slot3)
 end
 
-slot0.flush = function (slot0, slot1)
+function slot0.flush(slot0, slot1)
 	slot2 = pg.TimeMgr.GetInstance()
 	slot3 = UIItemList.New(slot0.content, slot0.item)
 

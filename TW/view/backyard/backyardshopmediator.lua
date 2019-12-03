@@ -1,7 +1,7 @@
 slot0 = class("BackYardShopMediator", import("..base.ContextMediator"))
 slot0.BUY_FURNITURE = "BackYardShopMediator:BUY_FURNITURE"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.formGarniture = false
 
 	if getProxy(ContextProxy):getContextByMediator(BackYardGarnitureMediator) then
@@ -26,7 +26,7 @@ slot0.register = function (slot0)
 	slot0.viewComponent:setPlayerVO(getProxy(PlayerProxy):getData())
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		DormProxy.FURNITURE_ADDED,
 		DormProxy.FURNITURE_UPDATED,
@@ -36,13 +36,13 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.remove = function (slot0)
+function slot0.remove(slot0)
 	if slot0.formGarniture then
 		slot0:sendNotification(GAME.OPEN_BACKYARD_GARNARY)
 	end
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == DormProxy.FURNITURE_ADDED or slot2 == DormProxy.FURNITURE_UPDATED then

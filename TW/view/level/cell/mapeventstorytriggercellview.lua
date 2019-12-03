@@ -1,6 +1,6 @@
 slot0 = class("MapEventStoryTriggerCellView", import("view.level.cell.StaticCellView"))
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 
 	slot0.chapter = nil
@@ -8,7 +8,7 @@ slot0.Ctor = function (slot0, slot1)
 	slot0.refattachments = nil
 end
 
-slot0.Update = function (slot0)
+function slot0.Update(slot0)
 	slot4 = slot0.info.data
 	slot5 = slot0.chapter
 	slot7 = pg.map_event_template[slot0.info.attachmentId].icon
@@ -64,7 +64,7 @@ slot0.Update = function (slot0)
 	}):Start()
 end
 
-slot0.DestroyGO = function (slot0)
+function slot0.DestroyGO(slot0)
 	if slot0.updateExe then
 		slot0.updateExe:Stop()
 	end

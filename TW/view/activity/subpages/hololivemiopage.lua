@@ -1,6 +1,6 @@
 slot0 = class("HoloLiveMioPage", import(".TemplatePage.PtTemplatePage"))
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.super.OnInit(slot0)
 
 	slot0.heartTpl = slot0:findTF("HeartTpl", slot0.bg)
@@ -23,7 +23,7 @@ slot0.OnInit = function (slot0)
 	end)
 end
 
-slot0.OnUpdateFlush = function (slot0)
+function slot0.OnUpdateFlush(slot0)
 	slot0.super.OnUpdateFlush(slot0)
 
 	slot1, slot5 = slot0.ptData:GetLevelProgress()

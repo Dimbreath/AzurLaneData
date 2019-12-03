@@ -1,6 +1,6 @@
 slot0 = class("EnemyEggCellView", import("view.level.cell.StaticCellView"))
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 
 	slot0.config = nil
@@ -9,12 +9,12 @@ slot0.Ctor = function (slot0, slot1)
 	slot0._loadedSpineName = nil
 end
 
-slot0.SetTpl = function (slot0, slot1, slot2)
+function slot0.SetTpl(slot0, slot1, slot2)
 	slot0._aliveTpl = slot1
 	slot0._deadTpl = slot2
 end
 
-slot0.Update = function (slot0)
+function slot0.Update(slot0)
 	slot2 = slot0.config
 	slot3 = slot0.info.row
 	slot4 = slot0.info.column
@@ -54,7 +54,7 @@ slot0.Update = function (slot0)
 	end
 end
 
-slot0.UpdateGO = function (slot0, slot1)
+function slot0.UpdateGO(slot0, slot1)
 	if slot1 and slot0._currentTpl ~= slot1 then
 		if slot0._currentTpl == slot0._aliveTpl and slot1 == slot0._deadTpl then
 			slot0._live2death = true
@@ -84,7 +84,7 @@ end
 
 slot0.buffheight = 100
 
-slot0.ExtraUpdate = function (slot0, slot1)
+function slot0.ExtraUpdate(slot0, slot1)
 	setText(findTF(slot0.tf, "lv/Text"), slot1.level)
 	setActive(findTF(slot0.tf, "titleContain/bg_s"), ChapterConst.EnemySize[slot1.type] == 1 or not ChapterConst.EnemySize[slot1.type])
 	setActive(findTF(slot0.tf, "titleContain/bg_m"), ChapterConst.EnemySize[slot1.type] == 2)
@@ -118,7 +118,7 @@ slot0.ExtraUpdate = function (slot0, slot1)
 	end
 end
 
-slot0.AlignListContainer = function (slot0, slot1, slot2)
+function slot0.AlignListContainer(slot0, slot1, slot2)
 	for slot7 = slot2, slot1.childCount - 1, 1 do
 		setActive(slot1:GetChild(slot7), false)
 	end
@@ -132,7 +132,7 @@ slot0.AlignListContainer = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.Clear = function (slot0)
+function slot0.Clear(slot0)
 	slot0._aliveTpl = nil
 	slot0._deadTpl = nil
 	slot0._live2death = nil

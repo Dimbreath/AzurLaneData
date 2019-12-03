@@ -1,6 +1,6 @@
 slot0 = class("YongshiTracker")
 
-slot0.Ctor = function (slot0)
+function slot0.Ctor(slot0)
 	slot0.mapping = {
 		[TRACKING_ROLE_CREATE] = "role_create",
 		[TRACKING_ROLE_LOGIN] = "role_login",
@@ -20,7 +20,7 @@ slot0.Ctor = function (slot0)
 	}
 end
 
-slot0.Tracking = function (slot0, slot1, slot2, slot3)
+function slot0.Tracking(slot0, slot1, slot2, slot3)
 	if slot0.mapping[slot1] == nil then
 		return
 	end

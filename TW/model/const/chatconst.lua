@@ -19,11 +19,11 @@ slot0.RecvChannels = {
 	slot0.ChannelGuild
 }
 
-slot0.GetChannelName = function (slot0)
+function slot0.GetChannelName(slot0)
 	return i18n("channel_name_" .. slot0)
 end
 
-slot0.GetChannelSprite = function (slot0)
+function slot0.GetChannelSprite(slot0)
 	if slot0 == slot0.ChannelWorld then
 		return "world"
 	elseif slot0 == slot0.ChannelPublic then
@@ -48,7 +48,7 @@ slot0.EmojiTypes = {
 	slot0.EmojiPixel
 }
 
-slot0.GetEmojiSprite = function (slot0)
+function slot0.GetEmojiSprite(slot0)
 	if slot0 == slot0.EmojiCommon then
 		return "tab_casual"
 	elseif slot0 == slot0.EmojiDefault then

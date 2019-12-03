@@ -1,6 +1,6 @@
 slot0 = class("SubCellView", import(".SpineCellView"))
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, slot1)
 
 	slot0.tfShadow = slot0.tf:Find("shadow")
@@ -11,11 +11,11 @@ slot0.Ctor = function (slot0, slot1)
 	slot0:LoadEffectShuihua()
 end
 
-slot0.getOrder = function (slot0)
+function slot0.getOrder(slot0)
 	return 3
 end
 
-slot0.LoadEffectShuihua = function (slot0)
+function slot0.LoadEffectShuihua(slot0)
 	if slot0.effect_shuihua then
 		return
 	end
@@ -36,7 +36,7 @@ slot0.LoadEffectShuihua = function (slot0)
 	end), true, true)
 end
 
-slot0.PlayShuiHua = function (slot0)
+function slot0.PlayShuiHua(slot0)
 	if not slot0.effect_shuihua then
 		return
 	end
@@ -45,18 +45,18 @@ slot0.PlayShuiHua = function (slot0)
 	setActive(slot0.effect_shuihua, true)
 end
 
-slot0.SetActive = function (slot0, slot1)
+function slot0.SetActive(slot0, slot1)
 	slot0.showFlag = slot1
 
 	slot0:SetActiveModel(slot1)
 end
 
-slot0.SetActiveModel = function (slot0, slot1)
+function slot0.SetActiveModel(slot0, slot1)
 	setActive(slot0.tfShadow, slot1 and slot0.showFlag)
 	slot0:SetSpineVisible(slot1 and slot0.showFlag)
 end
 
-slot0.clear = function (slot0)
+function slot0.clear(slot0)
 	if slot0.effect_shuihua then
 		Destroy(slot0.effect_shuihua)
 

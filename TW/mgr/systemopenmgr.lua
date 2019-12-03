@@ -3,14 +3,14 @@ pg.SystemOpenMgr = singletonClass("SystemOpenMgr")
 slot1 = true
 slot2 = pg.open_systems_limited
 
-pg.SystemOpenMgr.Init = function (slot0, slot1)
+function pg.SystemOpenMgr.Init(slot0, slot1)
 	print("initializing SystemOpenMgr manager...")
 	slot1()
 end
 
 slot3 = pm.Facade.sendNotification
 
-pm.Facade.sendNotification = function (slot0, slot1, slot2, slot3)
+function pm.Facade.sendNotification(slot0, slot1, slot2, slot3)
 	if slot0 and slot1 == GAME.LOAD_SCENE and getProxy(PlayerProxy) then
 		slot6 = slot2.context.mediator.__cname
 
@@ -28,7 +28,7 @@ pm.Facade.sendNotification = function (slot0, slot1, slot2, slot3)
 	slot1(slot0, slot1, slot2, slot3)
 end
 
-pg.SystemOpenMgr.isOpenSystem = function (slot0, slot1, slot2)
+function pg.SystemOpenMgr.isOpenSystem(slot0, slot1, slot2)
 	for slot6, slot7 in pairs(slot0.all) do
 		if slot0[slot7].mediator == slot2 and slot1 < slot0[slot7].level then
 			return false, i18n("no_open_system_tip", slot0[slot7].name, slot0[slot7].level)
@@ -46,7 +46,7 @@ function slot4(slot0, slot1)
 	end
 end
 
-pg.SystemOpenMgr.notification = function (slot0, slot1)
+function pg.SystemOpenMgr.notification(slot0, slot1)
 	if not slot0 then
 		return
 	end
@@ -67,7 +67,7 @@ pg.SystemOpenMgr.notification = function (slot0, slot1)
 	end
 end
 
-pg.SystemOpenMgr.doSystemGuide = function (slot0, slot1)
+function pg.SystemOpenMgr.doSystemGuide(slot0, slot1)
 	if Application.isEditor and not ENABLE_GUIDE then
 		return
 	end

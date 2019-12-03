@@ -1,6 +1,6 @@
 slot0 = class("TWCelebrationPage3", import("...base.BaseActivityPage"))
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.getBtn = slot0:findTF("AD/get_btn")
 	slot0.gotBtn = slot0:findTF("AD/got_btn")
@@ -11,11 +11,11 @@ slot0.OnInit = function (slot0)
 	slot0.progress = slot0:findTF("AD/progress")
 end
 
-slot0.OnFirstFlush = function (slot0)
+function slot0.OnFirstFlush(slot0)
 	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 end
 
-slot0.OnUpdateFlush = function (slot0)
+function slot0.OnUpdateFlush(slot0)
 	slot4 = getProxy(TaskProxy):getTaskById(slot0.activity:getConfig("config_data")[1]) or slot2:getFinishTaskById(slot1) or Task.New({
 		id = slot1
 	}):isFinish()

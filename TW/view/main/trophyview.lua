@@ -1,7 +1,7 @@
 slot0 = class("TrophyView")
 slot0.GRAY_COLOR = Color(0.764, 0.764, 0.764, 0.784)
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0._trophyNamePic = findTF(slot0._tf, "frame/trophyName/Text")
@@ -14,24 +14,24 @@ slot0.Ctor = function (slot0, slot1)
 	slot0._progressBar = findTF(slot0._tf, "frame/trophy_progress/Fill"):GetComponent(typeof(Slider))
 end
 
-slot0.UpdateTrophyGroup = function (slot0, slot1)
+function slot0.UpdateTrophyGroup(slot0, slot1)
 	slot0:updateInfoView(slot2)
 	slot0:updateProgressView(slot1:getProgressTrophy())
 end
 
-slot0.ProgressingForm = function (slot0, slot1)
+function slot0.ProgressingForm(slot0, slot1)
 	slot0:updateInfoView(slot2)
 	slot0:updateProgressView(slot1:getProgressTrophy())
 end
 
-slot0.ClaimForm = function (slot0, slot1)
+function slot0.ClaimForm(slot0, slot1)
 	if slot1:getMaxClaimedTrophy() then
 		slot0:updateInfoView(slot2)
 		slot0:updateProgressView(slot2)
 	end
 end
 
-slot0.updateInfoView = function (slot0, slot1)
+function slot0.updateInfoView(slot0, slot1)
 	slot0._trophy = slot1
 	slot0._trophyCount.text = slot1:getConfig("rank")
 
@@ -50,7 +50,7 @@ slot0.updateInfoView = function (slot0, slot1)
 	slot0._trophyDescLower.text = slot1:getConfig("explain2")
 end
 
-slot0.setGray = function (slot0, slot1, slot2)
+function slot0.setGray(slot0, slot1, slot2)
 	setGray(slot1, slot2, true)
 
 	if slot2 then
@@ -60,16 +60,16 @@ slot0.setGray = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.updateProgressView = function (slot0, slot1)
+function slot0.updateProgressView(slot0, slot1)
 	slot0._progressTrophy = slot1
 	slot0._progressBar.value = slot1:getProgressRate()
 end
 
-slot0.GetTrophyClaimTipsID = function (slot0)
+function slot0.GetTrophyClaimTipsID(slot0)
 	return "reminder_" .. math.floor(slot0._trophy:getConfig("icon") / 10)
 end
 
-slot0.SetTrophyReminder = function (slot0, slot1)
+function slot0.SetTrophyReminder(slot0, slot1)
 	slot0._reminder = tf(slot1)
 
 	slot0._reminder:SetParent(findTF(slot0._tf, "frame"), false)
@@ -79,7 +79,7 @@ slot0.SetTrophyReminder = function (slot0, slot1)
 	setActive(slot0._reminder, slot0._progressTrophy:canClaimed() and not slot0._progressTrophy:isClaimed())
 end
 
-slot0.PlayClaimAnima = function (slot0, slot1, slot2, slot3)
+function slot0.PlayClaimAnima(slot0, slot1, slot2, slot3)
 	slot0._isPlaying = true
 
 	setActive(slot0._reminder, false)
@@ -107,7 +107,7 @@ slot0.PlayClaimAnima = function (slot0, slot1, slot2, slot3)
 	end)
 end
 
-slot0.IsPlaying = function (slot0)
+function slot0.IsPlaying(slot0)
 	return slot0._isPlaying
 end
 

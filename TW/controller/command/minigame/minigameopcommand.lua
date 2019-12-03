@@ -3,7 +3,7 @@ slot0.CMD_COMPLETE = 1
 slot0.CMD_ULTIMATE = 2
 slot0.CMD_SPECIAL_GAME = 3
 
-slot0.execute = function (slot0, slot1)
+function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.hubid
 	slot5 = slot2.args1

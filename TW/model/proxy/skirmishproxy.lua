@@ -1,6 +1,6 @@
 slot0 = class("SkirmishProxy", import(".NetProxy"))
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.data = {}
 
 	slot0:BuildSkirmishData()
@@ -8,19 +8,19 @@ end
 
 slot0.SkirmishMap = 1250022
 
-slot0.BuildSkirmishData = function (slot0)
+function slot0.BuildSkirmishData(slot0)
 	for slot5, slot6 in pairs(SkirmishVO:bindConfigTable().all) do
 		table.insert(slot0.data, SkirmishVO.New(slot1[slot6].id))
 	end
 end
 
-slot0.TryFetchNewTask = function (slot0)
+function slot0.TryFetchNewTask(slot0)
 	if getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_ID_US_SKIRMISH) and not slot2:isEnd() then
 		return updateActivityTaskStatus(slot2)
 	end
 end
 
-slot0.UpdateSkirmishProgress = function (slot0)
+function slot0.UpdateSkirmishProgress(slot0)
 	slot1 = getProxy(TaskProxy)
 	activeAmount = math.min(getProxy(ActivityProxy).getActivityById(slot2, ActivityConst.ACTIVITY_ID_US_SKIRMISH).getDayIndex(slot4), #slot0.data)
 	slot5 = false

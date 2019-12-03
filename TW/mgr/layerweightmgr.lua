@@ -4,7 +4,7 @@ pg.LayerWeightMgr.DEBUG = false
 pg.LayerWeightMgr.ADAPT_TAG = "(Adapt)"
 pg.LayerWeightMgr.RECYCLE_ADAPT_TAG = "recycleAdapt"
 
-pg.LayerWeightMgr.Init = function (slot0, slot1)
+function pg.LayerWeightMgr.Init(slot0, slot1)
 	slot0.baseParent = tf(GameObject.Find("UICamera/Canvas"))
 	slot0.uiOrigin = tf(instantiate(slot2))
 	slot0.uiOrigin.name = "UIOrigin"
@@ -29,7 +29,7 @@ pg.LayerWeightMgr.Init = function (slot0, slot1)
 	end
 end
 
-pg.LayerWeightMgr.Add2Overlay = function (slot0, slot1, slot2, slot3)
+function pg.LayerWeightMgr.Add2Overlay(slot0, slot1, slot2, slot3)
 	slot3.type = slot1
 	slot3.ui = slot2
 	slot3.pbList = slot3.pbList or {}
@@ -48,7 +48,7 @@ pg.LayerWeightMgr.Add2Overlay = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-pg.LayerWeightMgr.DelFromOverlay = function (slot0, slot1, slot2)
+function pg.LayerWeightMgr.DelFromOverlay(slot0, slot1, slot2)
 	if slot1.gameObject.name == "ResPanel(Clone)" then
 		return
 	end
@@ -67,7 +67,7 @@ pg.LayerWeightMgr.DelFromOverlay = function (slot0, slot1, slot2)
 	slot0:LayerSortHandler()
 end
 
-pg.LayerWeightMgr.DelList = function (slot0, slot1)
+function pg.LayerWeightMgr.DelList(slot0, slot1)
 	slot2 = nil
 
 	for slot6 = #slot0.storeUIs, 1, -1 do
@@ -83,7 +83,7 @@ pg.LayerWeightMgr.DelList = function (slot0, slot1)
 	return slot2
 end
 
-pg.LayerWeightMgr.LayerSortHandler = function (slot0)
+function pg.LayerWeightMgr.LayerSortHandler(slot0)
 	slot0:switchOriginParent()
 	slot0:SortStoreUIs()
 
@@ -167,7 +167,7 @@ pg.LayerWeightMgr.LayerSortHandler = function (slot0)
 	end
 end
 
-pg.LayerWeightMgr.SetToOverlayParent = function (slot0, slot1, slot2, slot3)
+function pg.LayerWeightMgr.SetToOverlayParent(slot0, slot1, slot2, slot3)
 	slot4 = nil
 
 	if slot2 == LayerWeightConst.OVERLAY_UI_ADAPT then
@@ -187,7 +187,7 @@ pg.LayerWeightMgr.SetToOverlayParent = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-pg.LayerWeightMgr.SetToOrigin = function (slot0, slot1, slot2)
+function pg.LayerWeightMgr.SetToOrigin(slot0, slot1, slot2)
 	SetParent((slot0:GetAdaptObjFromUI(slot1) == nil or slot1.parent) and slot1, slot0.uiOrigin, false)
 
 	if slot2 ~= nil then
@@ -195,7 +195,7 @@ pg.LayerWeightMgr.SetToOrigin = function (slot0, slot1, slot2)
 	end
 end
 
-pg.LayerWeightMgr.SortStoreUIs = function (slot0)
+function pg.LayerWeightMgr.SortStoreUIs(slot0)
 	slot0:Log("-----------------------------------------")
 
 	slot2 = {}
@@ -214,11 +214,11 @@ pg.LayerWeightMgr.SortStoreUIs = function (slot0)
 	slot0:Log("-----------------------------------------")
 end
 
-pg.LayerWeightMgr.ShowOrHideTF = function (slot0, slot1, slot2)
+function pg.LayerWeightMgr.ShowOrHideTF(slot0, slot1, slot2)
 	GetOrAddComponent(slot1, typeof(CanvasGroup)).alpha = (slot2 and 1) or 0
 end
 
-pg.LayerWeightMgr.switchOriginParent = function (slot0)
+function pg.LayerWeightMgr.switchOriginParent(slot0)
 	if slot0.lvCamera.enabled then
 		slot0.uiOrigin:SetParent(slot0.lvParent, false)
 	else
@@ -226,7 +226,7 @@ pg.LayerWeightMgr.switchOriginParent = function (slot0)
 	end
 end
 
-pg.LayerWeightMgr.GetAdaptObj = function (slot0)
+function pg.LayerWeightMgr.GetAdaptObj(slot0)
 	slot1 = nil
 
 	if #slot0.adaptPool > 0 then
@@ -254,7 +254,7 @@ pg.LayerWeightMgr.GetAdaptObj = function (slot0)
 	return slot1
 end
 
-pg.LayerWeightMgr.CheckRecycleAdaptObj = function (slot0, slot1, slot2)
+function pg.LayerWeightMgr.CheckRecycleAdaptObj(slot0, slot1, slot2)
 	slot3 = slot0:GetAdaptObjFromUI(slot1)
 
 	if slot2 ~= nil then
@@ -275,7 +275,7 @@ pg.LayerWeightMgr.CheckRecycleAdaptObj = function (slot0, slot1, slot2)
 	end
 end
 
-pg.LayerWeightMgr.GetAdaptObjFromUI = function (slot0, slot1)
+function pg.LayerWeightMgr.GetAdaptObjFromUI(slot0, slot1)
 	if slot1.parent ~= nil and slot1.parent.name == slot0:GetAdatpObjName(slot1) then
 		return slot1.parent
 	end
@@ -283,11 +283,11 @@ pg.LayerWeightMgr.GetAdaptObjFromUI = function (slot0, slot1)
 	return nil
 end
 
-pg.LayerWeightMgr.GetAdatpObjName = function (slot0, slot1)
+function pg.LayerWeightMgr.GetAdatpObjName(slot0, slot1)
 	return slot1.name .. slot0.ADAPT_TAG
 end
 
-pg.LayerWeightMgr.Log = function (slot0, slot1)
+function pg.LayerWeightMgr.Log(slot0, slot1)
 	if not slot0.DEBUG then
 		return
 	end

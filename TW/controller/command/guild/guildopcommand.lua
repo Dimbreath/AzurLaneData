@@ -1,6 +1,6 @@
 slot0 = class("GuildOpCommand", import("..stage.ChapterOpRoutine"))
 
-slot0.execute = function (slot0, slot1)
+function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = getProxy(GuildProxy)
 	slot5 = slot3:getGuildEvent()
@@ -70,13 +70,13 @@ slot0.execute = function (slot0, slot1)
 	end)
 end
 
-slot0.doRetreat = function (slot0)
+function slot0.doRetreat(slot0)
 	slot0.chapter:retreat()
 
 	slot0.flag = 0
 end
 
-slot0.doStrategy = function (slot0)
+function slot0.doStrategy(slot0)
 	slot1 = slot0.flag
 	slot4 = slot0.chapter.fleet
 
@@ -100,7 +100,7 @@ slot0.doStrategy = function (slot0)
 	slot0.flag = bit.bor(slot1, ChapterConst.DirtyStrategy)
 end
 
-slot0.doRepair = function (slot0)
+function slot0.doRepair(slot0)
 	slot0.chapter.repairTimes = slot0.chapter.repairTimes + 1
 	slot2, slot3, slot4 = ChapterConst.GetShamRepairParams()
 

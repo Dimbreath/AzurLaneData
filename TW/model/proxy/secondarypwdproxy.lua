@@ -1,6 +1,6 @@
 slot0 = class("SecondaryPWDProxy", import(".NetProxy"))
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot0.data = slot0.data or {}
 	slot0.data.state = 0
 	slot0.data.fail_count = 0
@@ -9,7 +9,7 @@ slot0.register = function (slot0)
 	slot0.data.system_list = {}
 end
 
-slot0.SetData = function (slot0, slot1)
+function slot0.SetData(slot0, slot1)
 	slot0.data = slot0.data or {}
 	slot0.data.state = slot1.state
 	slot0.data.fail_count = slot1.fail_count
@@ -22,7 +22,7 @@ slot0.SetData = function (slot0, slot1)
 	end
 end
 
-slot0.OnFirstSet = function (slot0, slot1)
+function slot0.OnFirstSet(slot0, slot1)
 	slot0.data = slot0.data or {}
 	slot0.data.state = 1
 	slot0.data.system_list = Clone(slot1.settings)
@@ -31,7 +31,7 @@ slot0.OnFirstSet = function (slot0, slot1)
 	slot0.data.notice = Clone(slot1.tip)
 end
 
-slot0.OnSettingsChange = function (slot0, slot1)
+function slot0.OnSettingsChange(slot0, slot1)
 	slot0.data = slot0.data or {}
 	slot0.data.state = (#slot1.settings == 0 and 0) or 2
 	slot0.data.system_list = Clone(slot1.settings)
@@ -39,7 +39,7 @@ slot0.OnSettingsChange = function (slot0, slot1)
 	slot0.data.fail_count = 0
 end
 
-slot0.GetPermissionState = function (slot0)
+function slot0.GetPermissionState(slot0)
 	if slot0.data.state == 0 then
 		return true
 	end

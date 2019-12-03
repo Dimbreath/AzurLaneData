@@ -3,31 +3,31 @@ slot0.MAX_OIL_ADDITION = 1
 slot0.MAX_GOLD_ADDITION = 2
 slot0.BUFF_ADDITION = 3
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot0.id
 	slot0.level = slot1.level
 end
 
-slot0.bindConfigTable = function (slot0)
+function slot0.bindConfigTable(slot0)
 	return pg.guild_facility_template
 end
 
-slot0.isMaxLevel = function (slot0)
+function slot0.isMaxLevel(slot0)
 	return slot0.level > 0 and #slot0:getConfig("levels") <= slot0.level
 end
 
-slot0.getLevelCfg = function (slot0)
+function slot0.getLevelCfg(slot0)
 	return slot0:getConfig("levels")[slot0.level]
 end
 
-slot0.getNextLevelCfg = function (slot0)
+function slot0.getNextLevelCfg(slot0)
 	if slot0.level + 1 <= #slot0:getConfig("levels") then
 		return slot1[slot2]
 	end
 end
 
-slot0.canUpgrade = function (slot0, slot1, slot2)
+function slot0.canUpgrade(slot0, slot1, slot2)
 	if slot0:isMaxLevel() then
 		return false, i18n("guid_facility_level_max")
 	elseif slot1 < slot0:getUpgradeConsume() then
@@ -39,19 +39,19 @@ slot0.canUpgrade = function (slot0, slot1, slot2)
 	return true
 end
 
-slot0.upgrade = function (slot0)
+function slot0.upgrade(slot0)
 	if not slot0:isMaxLevel() then
 		slot0.level = slot0.level + 1
 	end
 end
 
-slot0.getUpgradeConsume = function (slot0)
+function slot0.getUpgradeConsume(slot0)
 	if slot0:getNextLevelCfg() then
 		return slot1[2]
 	end
 end
 
-slot0.getAddition = function (slot0)
+function slot0.getAddition(slot0)
 	if slot0.level == 0 then
 		return 0
 	end
@@ -59,7 +59,7 @@ slot0.getAddition = function (slot0)
 	return slot0:getLevelCfg()[1]
 end
 
-slot0.getAdditionDesc = function (slot0)
+function slot0.getAdditionDesc(slot0)
 	if slot0:getAddition() == 0 then
 		return i18n("guild_facility_no_addition")
 	end

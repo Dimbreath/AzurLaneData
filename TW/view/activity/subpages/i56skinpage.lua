@@ -1,6 +1,6 @@
 slot0 = class("I56SkinPage", import(".TemplatePage.SkinTemplatePage"))
 
-slot0.OnFirstFlush = function (slot0)
+function slot0.OnFirstFlush(slot0)
 	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 	slot0.uilist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -23,7 +23,7 @@ slot0.OnFirstFlush = function (slot0)
 	end)
 end
 
-slot0.OnUpdateFlush = function (slot0)
+function slot0.OnUpdateFlush(slot0)
 	slot0.super.OnUpdateFlush(slot0)
 	setText(slot0.dayTF, slot0.nday .. " " .. #slot0.taskGroup)
 	eachChild(slot0.items, function (slot0)

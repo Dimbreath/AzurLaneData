@@ -8,7 +8,7 @@ slot0.ON_MORE_OLDER = "MailMediator:ON_MORE_OLDER"
 slot0.ON_MORE_NEWER = "MailMediator:ON_MORE_NEWER"
 slot0.ON_CHANGE_IMP = "MailMediator:ON_CHANGE_IMP"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot1 = getProxy(MailProxy)
 
 	slot0:bind(slot0.ON_OPEN, function (slot0, slot1)
@@ -72,7 +72,7 @@ slot0.register = function (slot0)
 	end
 end
 
-slot0.getAllAttachment = function (slot0)
+function slot0.getAllAttachment(slot0)
 	slot1 = {}
 
 	table.sort(_.map(slot2, function (slot0)
@@ -94,7 +94,7 @@ slot0.getAllAttachment = function (slot0)
 	end)
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.OPEN_MAIL_DONE,
 		GAME.DELETE_MAIL_DONE,
@@ -111,7 +111,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == MailProxy.MAIL_ADDED then

@@ -7,13 +7,13 @@ slot6 = ys.Battle.BattleConfig
 ys.Battle.BattlePlayerUnit = class("BattlePlayerUnit", ys.Battle.BattleUnit)
 ys.Battle.BattlePlayerUnit.__name = "BattlePlayerUnit"
 
-ys.Battle.BattlePlayerUnit.Ctor = function (slot0, slot1, slot2)
+function ys.Battle.BattlePlayerUnit.Ctor(slot0, slot1, slot2)
 	slot0.super.Ctor(slot0, slot1, slot2)
 
 	slot0._type = slot1.UnitType.PLAYER_UNIT
 end
 
-ys.Battle.BattlePlayerUnit.Retreat = function (slot0)
+function ys.Battle.BattlePlayerUnit.Retreat(slot0)
 	slot0.super.Retreat(slot0)
 	slot0:SetDeathReason(slot1.UnitDeathReason.LEAVE)
 	slot0:DeadAction()
@@ -21,38 +21,38 @@ ys.Battle.BattlePlayerUnit.Retreat = function (slot0)
 	slot0._battleProxy:KillUnit(slot0:GetUniqueID())
 end
 
-ys.Battle.BattlePlayerUnit.DeadActionEvent = function (slot0)
+function ys.Battle.BattlePlayerUnit.DeadActionEvent(slot0)
 	slot0:DispatchEvent(slot0.Event.New(slot0.Battle.BattleUnitEvent.WILL_DIE, {}))
 	slot0:DispatchEvent(slot0.Event.New(slot0.Battle.BattleUnitEvent.SHUT_DOWN_PLAYER, {}))
 	slot0._unitState:ChangeState(slot0.Battle.UnitState.STATE_DEAD)
 end
 
-ys.Battle.BattlePlayerUnit.InitCurrentHP = function (slot0, slot1)
+function ys.Battle.BattlePlayerUnit.InitCurrentHP(slot0, slot1)
 	slot0:SetCurrentHP(math.ceil(slot0:GetMaxHP() * slot1))
 	slot0:TriggerBuff(slot0.BuffEffectType.ON_HP_RATIO_UPDATE, {})
 end
 
-ys.Battle.BattlePlayerUnit.SetSkinId = function (slot0, slot1)
+function ys.Battle.BattlePlayerUnit.SetSkinId(slot0, slot1)
 	slot0._skinId = slot1
 end
 
-ys.Battle.BattlePlayerUnit.GetSkinID = function (slot0)
+function ys.Battle.BattlePlayerUnit.GetSkinID(slot0)
 	return slot0._skinId
 end
 
-ys.Battle.BattlePlayerUnit.GetDefaultSkinID = function (slot0)
+function ys.Battle.BattlePlayerUnit.GetDefaultSkinID(slot0)
 	return slot0._tmpData.skin_id
 end
 
-ys.Battle.BattlePlayerUnit.GetShipName = function (slot0)
+function ys.Battle.BattlePlayerUnit.GetShipName(slot0)
 	return slot0._shipName or slot0._tmpData.name
 end
 
-ys.Battle.BattlePlayerUnit.SetShipName = function (slot0, slot1)
+function ys.Battle.BattlePlayerUnit.SetShipName(slot0, slot1)
 	slot0._shipName = slot1
 end
 
-ys.Battle.BattlePlayerUnit.SetTemplate = function (slot0, slot1, slot2)
+function ys.Battle.BattlePlayerUnit.SetTemplate(slot0, slot1, slot2)
 	slot0.super.SetTemplate(slot0, slot1)
 
 	slot0._tmpData = slot1.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot0._tmpID)
@@ -77,7 +77,7 @@ ys.Battle.BattlePlayerUnit.SetTemplate = function (slot0, slot1, slot2)
 	slot0:setStandardLabelTag()
 end
 
-ys.Battle.BattlePlayerUnit.overrideSkin = function (slot0, slot1, slot2)
+function ys.Battle.BattlePlayerUnit.overrideSkin(slot0, slot1, slot2)
 	slot0._skinData = slot0.GetPlayerShipSkinDataFromID(slot1)
 	slot3 = {
 		"prefab",
@@ -95,7 +95,7 @@ ys.Battle.BattlePlayerUnit.overrideSkin = function (slot0, slot1, slot2)
 	end)
 end
 
-ys.Battle.BattlePlayerUnit.overrideWeaponInfo = function (slot0, slot1, slot2)
+function ys.Battle.BattlePlayerUnit.overrideWeaponInfo(slot0, slot1, slot2)
 	if slot0._overrideBaseInfo then
 		slot0._tmpData.base_list = slot0._overrideBaseInfo
 	end
@@ -105,16 +105,16 @@ ys.Battle.BattlePlayerUnit.overrideWeaponInfo = function (slot0, slot1, slot2)
 	end
 end
 
-ys.Battle.BattlePlayerUnit.SetWeaponInfo = function (slot0, slot1, slot2)
+function ys.Battle.BattlePlayerUnit.SetWeaponInfo(slot0, slot1, slot2)
 	slot0._overrideBaseInfo = slot1
 	slot0._overridePreloadInfo = slot2
 end
 
-ys.Battle.BattlePlayerUnit.SetRarity = function (slot0, slot1)
+function ys.Battle.BattlePlayerUnit.SetRarity(slot0, slot1)
 	slot0._rarity = slot1
 end
 
-ys.Battle.BattlePlayerUnit.setWeapon = function (slot0, slot1)
+function ys.Battle.BattlePlayerUnit.setWeapon(slot0, slot1)
 	slot2 = slot0._tmpData.default_equip_list
 	slot3 = slot0._tmpData.base_list
 	slot4 = slot0._proficiencyList
@@ -188,17 +188,17 @@ ys.Battle.BattlePlayerUnit.setWeapon = function (slot0, slot1)
 	end
 end
 
-ys.Battle.BattlePlayerUnit.SetPriorityWeaponSkin = function (slot0, slot1)
+function ys.Battle.BattlePlayerUnit.SetPriorityWeaponSkin(slot0, slot1)
 	if not slot0._priorityWeaponSkinID then
 		slot0._priorityWeaponSkinID = slot1
 	end
 end
 
-ys.Battle.BattlePlayerUnit.GetPriorityWeaponSkin = function (slot0)
+function ys.Battle.BattlePlayerUnit.GetPriorityWeaponSkin(slot0)
 	return slot0._priorityWeaponSkinID
 end
 
-ys.Battle.BattlePlayerUnit.AddWeapon = function (slot0, slot1, slot2, slot3, slot4, slot5)
+function ys.Battle.BattlePlayerUnit.AddWeapon(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._totalWeapon[#slot0._totalWeapon + 1] = slot0.Battle.BattleDataFunction.CreateWeaponUnit(slot1, slot0, slot4, slot5)
 
 	if slot2 then
@@ -236,7 +236,7 @@ ys.Battle.BattlePlayerUnit.AddWeapon = function (slot0, slot1, slot2, slot3, slo
 	return slot6
 end
 
-ys.Battle.BattlePlayerUnit.RemoveWeapon = function (slot0, slot1)
+function ys.Battle.BattlePlayerUnit.RemoveWeapon(slot0, slot1)
 	slot3 = nil
 
 	if slot0.GetWeaponPropertyDataFromID(slot1).type == slot1.PASSIVE_SCOUT then
@@ -272,21 +272,21 @@ ys.Battle.BattlePlayerUnit.RemoveWeapon = function (slot0, slot1)
 	return slot3
 end
 
-ys.Battle.BattlePlayerUnit.ShiftWeapon = function (slot0, slot1)
+function ys.Battle.BattlePlayerUnit.ShiftWeapon(slot0, slot1)
 	return
 end
 
-ys.Battle.BattlePlayerUnit.GetManualWeaponParallel = function (slot0)
+function ys.Battle.BattlePlayerUnit.GetManualWeaponParallel(slot0)
 	return slot0._tmpData.parallel_max
 end
 
-ys.Battle.BattlePlayerUnit.LeaderSetting = function (slot0)
+function ys.Battle.BattlePlayerUnit.LeaderSetting(slot0)
 	if slot0.GetWords(slot0:GetSkinID(), "hp_warning", slot0:GetDefaultSkinID()) ~= "" then
 		slot0._warningValue = slot1.WARNING_HP_RATE * slot0:GetMaxHP()
 	end
 end
 
-ys.Battle.BattlePlayerUnit.UpdateHP = function (slot0, slot1, slot2, slot3, slot4)
+function ys.Battle.BattlePlayerUnit.UpdateHP(slot0, slot1, slot2, slot3, slot4)
 	slot0.super.UpdateHP(slot0, slot1, slot2, slot3, slot4)
 
 	if slot0._warningValue and slot0._currentHP < slot0._warningValue and not isHeal then
@@ -303,7 +303,7 @@ ys.Battle.BattlePlayerUnit.UpdateHP = function (slot0, slot1, slot2, slot3, slot
 	end
 end
 
-ys.Battle.BattlePlayerUnit.SetMainFleetUnit = function (slot0)
+function ys.Battle.BattlePlayerUnit.SetMainFleetUnit(slot0)
 	slot0.super.SetMainFleetUnit(slot0)
 
 	if slot0._IFF == slot1.FRIENDLY_CODE then
@@ -311,17 +311,17 @@ ys.Battle.BattlePlayerUnit.SetMainFleetUnit = function (slot0)
 	end
 end
 
-ys.Battle.BattlePlayerUnit.UpdatePrecastMoveLimit = function (slot0)
+function ys.Battle.BattlePlayerUnit.UpdatePrecastMoveLimit(slot0)
 	return
 end
 
-ys.Battle.BattlePlayerUnit.ConfigBubbleFX = function (slot0)
+function ys.Battle.BattlePlayerUnit.ConfigBubbleFX(slot0)
 	slot0._bubbleFX = slot0.PLAYER_SUB_BUBBLE_FX
 
 	slot0._oxyState:SetBubbleTemplate(slot0.PLAYER_SUB_BUBBLE_INIT, slot0.PLAYER_SUB_BUBBLE_INTERVAL)
 end
 
-ys.Battle.BattlePlayerUnit.OxyConsume = function (slot0)
+function ys.Battle.BattlePlayerUnit.OxyConsume(slot0)
 	slot0.super.OxyConsume(slot0)
 
 	if slot0._currentOxy <= 0 then
@@ -329,36 +329,36 @@ ys.Battle.BattlePlayerUnit.OxyConsume = function (slot0)
 	end
 end
 
-ys.Battle.BattlePlayerUnit.SetFormationIndex = function (slot0, slot1)
+function ys.Battle.BattlePlayerUnit.SetFormationIndex(slot0, slot1)
 	slot0._formationIndex = slot1
 end
 
-ys.Battle.BattlePlayerUnit.setAttrFromOutBattle = function (slot0, slot1)
+function ys.Battle.BattlePlayerUnit.setAttrFromOutBattle(slot0, slot1)
 	slot0:SetPlayerAttrFromOutBattle(slot1)
 end
 
-ys.Battle.BattlePlayerUnit.SetFleetVO = function (slot0, slot1)
+function ys.Battle.BattlePlayerUnit.SetFleetVO(slot0, slot1)
 	slot0._fleet = slot1
 	slot0._subRaidLine, slot0._subRetreatLine = slot0._fleet:GetSubmarineBaseLine()
 end
 
-ys.Battle.BattlePlayerUnit.GetTemplate = function (slot0)
+function ys.Battle.BattlePlayerUnit.GetTemplate(slot0)
 	return slot0._tmpData
 end
 
-ys.Battle.BattlePlayerUnit.GetRarity = function (slot0)
+function ys.Battle.BattlePlayerUnit.GetRarity(slot0)
 	return slot0._rarity or slot0._tmpData.rarity
 end
 
-ys.Battle.BattlePlayerUnit.GetAutoPilotPreference = function (slot0)
+function ys.Battle.BattlePlayerUnit.GetAutoPilotPreference(slot0)
 	return slot0._personality
 end
 
-ys.Battle.BattlePlayerUnit.GetFleetVO = function (slot0)
+function ys.Battle.BattlePlayerUnit.GetFleetVO(slot0)
 	return slot0._fleet
 end
 
-ys.Battle.BattlePlayerUnit.InitCldComponent = function (slot0)
+function ys.Battle.BattlePlayerUnit.InitCldComponent(slot0)
 	slot0.super.InitCldComponent(slot0)
 	slot0._cldComponent:SetCldData({
 		type = slot1.CldType.SHIP,

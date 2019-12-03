@@ -16,7 +16,7 @@ slot0.ON_EQUIPMENT = "BaseUI:ON_EQUIPMENT"
 slot0.ON_SHIP_EXP = "BaseUI.ON_SHIP_EXP"
 slot0.ON_BACK_PRESSED = "BaseUI:ON_BACK_PRESS"
 
-slot0.Ctor = function (slot0)
+function slot0.Ctor(slot0)
 	slot0.super.Ctor(slot0)
 
 	slot0._isLoaded = false
@@ -24,33 +24,33 @@ slot0.Ctor = function (slot0)
 	slot0._tf = nil
 end
 
-slot0.setContextData = function (slot0, slot1)
+function slot0.setContextData(slot0, slot1)
 	slot0.contextData = slot1
 end
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return nil
 end
 
-slot0.getGroupName = function (slot0)
+function slot0.getGroupName(slot0)
 	return nil
 end
 
-slot0.getBGM = function (slot0)
+function slot0.getBGM(slot0)
 	return nil
 end
 
-slot0.preload = function (slot0, slot1)
+function slot0.preload(slot0, slot1)
 	slot1()
 end
 
-slot0.loadUISync = function (slot0, slot1)
+function slot0.loadUISync(slot0, slot1)
 	LoadAndInstantiateSync("UI", slot1, true, false).transform:SetParent(pg.UIMgr.GetInstance().UIMain.transform, false)
 
 	return LoadAndInstantiateSync("UI", slot1, true, false)
 end
 
-slot0.load = function (slot0)
+function slot0.load(slot0)
 	slot1 = nil
 	slot2 = Time.realtimeSinceStartup
 
@@ -74,7 +74,7 @@ slot0.load = function (slot0)
 	end)
 end
 
-slot0.PlayBGM = function (slot0)
+function slot0.PlayBGM(slot0)
 	if slot0:getBGM() and slot0.bgm ~= slot1 then
 		playBGM(slot1)
 
@@ -82,17 +82,17 @@ slot0.PlayBGM = function (slot0)
 	end
 end
 
-slot0.isLoaded = function (slot0)
+function slot0.isLoaded(slot0)
 	return slot0._isLoaded
 end
 
-slot0.getGroupNameFromData = function (slot0)
+function slot0.getGroupNameFromData(slot0)
 	slot1 = nil
 
 	return (slot0.contextData == nil or not slot0.contextData.LayerWeightMgr_groupName or slot0.contextData.LayerWeightMgr_groupName) and slot0:getGroupName()
 end
 
-slot0.getWeightFromData = function (slot0)
+function slot0.getWeightFromData(slot0)
 	slot1 = nil
 
 	if slot0.contextData ~= nil and slot0.contextData.LayerWeightMgr_weight then
@@ -102,11 +102,11 @@ slot0.getWeightFromData = function (slot0)
 	return slot1
 end
 
-slot0.isLayer = function (slot0)
+function slot0.isLayer(slot0)
 	return slot0.contextData ~= nil and slot0.contextData.isLayer
 end
 
-slot0.addToLayerMgr = function (slot0)
+function slot0.addToLayerMgr(slot0)
 	pg.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_SYSTEM, slot0._tf, {
 		globalBlur = false,
 		groupName = slot0:getGroupNameFromData(),
@@ -114,7 +114,7 @@ slot0.addToLayerMgr = function (slot0)
 	})
 end
 
-slot0.onUILoaded = function (slot0, slot1)
+function slot0.onUILoaded(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot1 and slot1.transform
 	slot0.animTF = slot0:findTF("blur_panel")
@@ -156,19 +156,19 @@ slot0.onUILoaded = function (slot0, slot1)
 	slot0:emit(slot0.LOADED)
 end
 
-slot0.onUIAnimEnd = function (slot0, slot1)
+function slot0.onUIAnimEnd(slot0, slot1)
 	slot1()
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	return
 end
 
-slot0.quckExitFunc = function (slot0)
+function slot0.quckExitFunc(slot0)
 	slot0:emit(slot0.ON_HOME)
 end
 
-slot0.quickExit = function (slot0)
+function slot0.quickExit(slot0)
 	for slot4, slot5 in pairs(slot0.optionBtns) do
 		if not IsNil(slot5) then
 			onButton(slot0, slot5, function ()
@@ -178,7 +178,7 @@ slot0.quickExit = function (slot0)
 	end
 end
 
-slot0.enter = function (slot0)
+function slot0.enter(slot0)
 	slot0:quickExit()
 	slot0:prepareAnimtion()
 	setActive(slot0._tf, true)
@@ -223,7 +223,7 @@ slot0.enter = function (slot0)
 	end
 end
 
-slot0.prepareAnimtion = function (slot0)
+function slot0.prepareAnimtion(slot0)
 	if slot0.animTF then
 		slot2 = slot0.animTF:Find("top_bg")
 		slot3 = slot0.animTF:Find("adapt/left_length")
@@ -239,11 +239,11 @@ slot0.prepareAnimtion = function (slot0)
 	end
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	return
 end
 
-slot0.closeView = function (slot0)
+function slot0.closeView(slot0)
 	if slot0.contextData.isLayer then
 		slot0:emit(slot0.ON_CLOSE)
 	else
@@ -251,11 +251,11 @@ slot0.closeView = function (slot0)
 	end
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	return
 end
 
-slot0.exit = function (slot0)
+function slot0.exit(slot0)
 	slot0.exited = true
 
 	pg.DelegateInfo.Dispose(slot0)
@@ -274,11 +274,11 @@ slot0.exit = function (slot0)
 	end
 end
 
-slot0.attach = function (slot0, slot1)
+function slot0.attach(slot0, slot1)
 	return
 end
 
-slot0.detach = function (slot0, slot1)
+function slot0.detach(slot0, slot1)
 	slot0._isLoaded = false
 
 	pg.LayerWeightMgr.GetInstance():DelFromOverlay(slot0._tf)
@@ -296,15 +296,15 @@ slot0.detach = function (slot0, slot1)
 	end
 end
 
-slot0.findGO = function (slot0, slot1, slot2)
+function slot0.findGO(slot0, slot1, slot2)
 	return findGO(slot2 or slot0._go, slot1)
 end
 
-slot0.findTF = function (slot0, slot1, slot2)
+function slot0.findTF(slot0, slot1, slot2)
 	return findTF(slot2 or slot0._tf, slot1)
 end
 
-slot0.getTpl = function (slot0, slot1, slot2)
+function slot0.getTpl(slot0, slot1, slot2)
 	slot3 = slot0:findTF(slot1, slot2)
 
 	slot3:SetParent(slot0._tf, false)
@@ -313,7 +313,7 @@ slot0.getTpl = function (slot0, slot1, slot2)
 	return slot3
 end
 
-slot0.setSpriteTo = function (slot0, slot1, slot2, slot3)
+function slot0.setSpriteTo(slot0, slot1, slot2, slot3)
 	slot2:GetComponent(typeof(Image)).sprite = slot0:findTF(slot1):GetComponent(typeof(Image)).sprite
 
 	if slot3 then
@@ -321,11 +321,11 @@ slot0.setSpriteTo = function (slot0, slot1, slot2, slot3)
 	end
 end
 
-slot0.setImageAmount = function (slot0, slot1, slot2)
+function slot0.setImageAmount(slot0, slot1, slot2)
 	slot1:GetComponent(typeof(Image)).fillAmount = slot2
 end
 
-slot0.onBackPressed = function (slot0)
+function slot0.onBackPressed(slot0)
 	slot0:emit(slot0.ON_BACK_PRESSED)
 end
 

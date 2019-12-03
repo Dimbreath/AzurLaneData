@@ -10,7 +10,7 @@ slot0.ON_USE_ITEM = "EquipmentMediator:ON_USE_ITEM"
 slot0.NO_UPDATE = "EquipmentMediator:NO_UPDATE"
 slot0.ITEM_GO_SCENE = "item go scene"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	if not slot0.contextData.warp then
 		slot0.contextData.warp = getProxy(SettingsProxy).getEquipSceneIndex(slot1)
 	end
@@ -118,7 +118,7 @@ slot0.register = function (slot0)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy).getData(slot6))
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		EquipmentProxy.EQUIPMENT_ADDED,
 		EquipmentProxy.EQUIPMENT_UPDATED,
@@ -139,7 +139,7 @@ slot0.listNotificationInterests = function (slot0)
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == EquipmentProxy.EQUIPMENT_ADDED or slot2 == EquipmentProxy.EQUIPMENT_UPDATED then
@@ -195,7 +195,7 @@ slot0.handleNotification = function (slot0, slot1)
 	end
 end
 
-slot0.remove = function (slot0)
+function slot0.remove(slot0)
 	getProxy(SettingsProxy):setEquipSceneIndex(slot0.contextData.warp)
 end
 

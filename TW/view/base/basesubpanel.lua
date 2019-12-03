@@ -8,7 +8,7 @@ slot0.STATES = {
 	NONE = 1
 }
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0._state = slot0.STATES.NONE
 	slot0.buffer = slot1.New()
 
@@ -17,13 +17,13 @@ slot0.Ctor = function (slot0, slot1)
 	end
 end
 
-slot0.emit = function (slot0, slot1, ...)
+function slot0.emit(slot0, slot1, ...)
 	if slot0.viewParent then
 		slot0.viewParent:emit(slot1, ...)
 	end
 end
 
-slot0.Attach = function (slot0, slot1)
+function slot0.Attach(slot0, slot1)
 	slot0.viewParent = slot1
 	slot0.contextData = slot1.contextData
 
@@ -33,7 +33,7 @@ slot0.Attach = function (slot0, slot1)
 	end
 end
 
-slot0.Detach = function (slot0)
+function slot0.Detach(slot0)
 	if slot0._state == slot0.STATES.DESTROY then
 		return
 	end
@@ -47,7 +47,7 @@ slot0.Detach = function (slot0)
 	slot0.viewParent = nil
 end
 
-slot0.Load = function (slot0)
+function slot0.Load(slot0)
 	if slot0._state ~= slot0.STATES.NONE then
 		return
 	end
@@ -61,7 +61,7 @@ slot0.Load = function (slot0)
 	end)
 end
 
-slot0.Loaded = function (slot0, slot1)
+function slot0.Loaded(slot0, slot1)
 	pg.UIMgr.GetInstance():LoadingOff()
 
 	if slot0._state == slot0.STATES.DESTROY then
@@ -83,7 +83,7 @@ slot0.Loaded = function (slot0, slot1)
 	slot0:OnLoaded()
 end
 
-slot0.Init = function (slot0)
+function slot0.Init(slot0)
 	if slot0._state ~= slot0.STATES.LOADED then
 		return
 	end
@@ -95,43 +95,43 @@ slot0.Init = function (slot0)
 	slot0.buffer:ExcuteAll()
 end
 
-slot0.InvokeParent = function (slot0, slot1, ...)
+function slot0.InvokeParent(slot0, slot1, ...)
 	if slot0.viewParent then
 		slot0.viewParent[slot1](slot0.viewParent, ...)
 	end
 end
 
-slot0.GetLoaded = function (slot0)
+function slot0.GetLoaded(slot0)
 	return slot0.STATES.LOADED <= slot0._state
 end
 
-slot0.CheckState = function (slot0, slot1)
+function slot0.CheckState(slot0, slot1)
 	return slot0._state == slot1
 end
 
-slot0.Hide = function (slot0)
+function slot0.Hide(slot0)
 	slot0:OnHide()
 	setActive(slot0._go, false)
 end
 
-slot0.RawHide = function (slot0)
+function slot0.RawHide(slot0)
 	setActive(slot0._go, false)
 end
 
-slot0.Show = function (slot0)
+function slot0.Show(slot0)
 	setActive(slot0._go, true)
 	slot0:OnShow()
 end
 
-slot0.RawShow = function (slot0)
+function slot0.RawShow(slot0)
 	setActive(slot0._go, true)
 end
 
-slot0.IsShowing = function (slot0)
+function slot0.IsShowing(slot0)
 	return isActive(slot0._go)
 end
 
-slot0.Destroy = function (slot0)
+function slot0.Destroy(slot0)
 	if slot0._state == slot0.STATES.DESTROY then
 		return
 	end
@@ -152,7 +152,7 @@ slot0.Destroy = function (slot0)
 	slot0._state = slot0.STATES.DESTROY
 end
 
-slot0.DisposeGO = function (slot0, slot1, slot2)
+function slot0.DisposeGO(slot0, slot1, slot2)
 	slot3 = PoolMgr.GetInstance()
 
 	if not IsNil(slot2) then
@@ -160,11 +160,11 @@ slot0.DisposeGO = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.findTF = function (slot0, slot1, slot2)
+function slot0.findTF(slot0, slot1, slot2)
 	return findTF(slot2 or slot0._tf, slot1)
 end
 
-slot0.getTpl = function (slot0, slot1, slot2)
+function slot0.getTpl(slot0, slot1, slot2)
 	slot3 = slot0:findTF(slot1, slot2)
 
 	slot3:SetParent(slot0._tf, false)
@@ -173,27 +173,27 @@ slot0.getTpl = function (slot0, slot1, slot2)
 	return slot3
 end
 
-slot0.GetUIName = function (slot0)
+function slot0.GetUIName(slot0)
 	return nil
 end
 
-slot0.OnLoaded = function (slot0)
+function slot0.OnLoaded(slot0)
 	return
 end
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	return
 end
 
-slot0.OnShow = function (slot0)
+function slot0.OnShow(slot0)
 	return
 end
 
-slot0.OnHide = function (slot0)
+function slot0.OnHide(slot0)
 	return
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	return
 end
 

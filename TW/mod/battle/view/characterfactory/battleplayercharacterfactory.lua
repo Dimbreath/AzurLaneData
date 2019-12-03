@@ -3,7 +3,7 @@ slot1 = singletonClass("BattlePlayerCharacterFactory", ys.Battle.BattleCharacter
 ys.Battle.BattlePlayerCharacterFactory = slot1
 slot1.__name = "BattlePlayerCharacterFactory"
 
-slot1.Ctor = function (slot0)
+function slot1.Ctor(slot0)
 	slot0.super.Ctor(slot0)
 
 	slot0.HP_BAR_NAME = slot0.super.Ctor.Battle.BattleHPBarManager.HP_BAR_FRIENDLY
@@ -13,11 +13,11 @@ slot1.Ctor = function (slot0)
 	slot0.SUB_ARROW_BAR = "EnemyArrowContainer/SubArrow"
 end
 
-slot1.MakeCharacter = function (slot0)
+function slot1.MakeCharacter(slot0)
 	return slot0.Battle.BattlePlayerCharacter.New()
 end
 
-slot1.MakeModel = function (slot0, slot1, slot2)
+function slot1.MakeModel(slot0, slot1, slot2)
 	function slot3(slot0)
 		slot0:AddModel(slot0)
 
@@ -45,22 +45,22 @@ slot1.MakeModel = function (slot0, slot1, slot2)
 	end)
 end
 
-slot1.MakeBloodBar = function (slot0, slot1)
+function slot1.MakeBloodBar(slot0, slot1)
 	LuaHelper.SetTFChildActive(slot3, "torpedoIcons", true)
 	slot1:AddHPBar(slot0:GetHPBarPool():GetHPBar(slot0.HP_BAR_NAME))
 end
 
-slot1.MakeChargeArea = function (slot0, slot1)
+function slot1.MakeChargeArea(slot0, slot1)
 	slot0:GetSceneMediator():InstantiateCharacterComponent(slot0.CHARGE_AREA_NAME).transform.localEulerAngles = Vector3(60, 0, 0)
 
 	slot1:AddChargeArea(slot0.GetSceneMediator().InstantiateCharacterComponent(slot0.CHARGE_AREA_NAME))
 end
 
-slot1.MakeTorpedoTrack = function (slot0, slot1)
+function slot1.MakeTorpedoTrack(slot0, slot1)
 	slot1:AddTorpedoTrack(slot0:GetFXPool():GetFX("SquareAlert", slot1:GetTf()))
 end
 
-slot1.RemoveCharacter = function (slot0, slot1, slot2)
+function slot1.RemoveCharacter(slot0, slot1, slot2)
 	slot3 = slot0:GetSceneMediator()
 
 	if slot2 and slot2 ~= slot0.Battle.BattleConst.UnitDeathReason.KILLED then

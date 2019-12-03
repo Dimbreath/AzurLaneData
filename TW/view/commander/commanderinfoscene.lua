@@ -3,46 +3,46 @@ slot0.PAGE_PLAY = 1
 slot0.PAGE_TALENT = 2
 slot0.PAGE_DETAIL = 3
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "CommanderInfoUI"
 end
 
-slot0.getBGM = function (slot0)
+function slot0.getBGM(slot0)
 	return "backyard"
 end
 
-slot0.setPlayer = function (slot0, slot1)
+function slot0.setPlayer(slot0, slot1)
 	slot0.playerVO = slot1
 
 	slot0:updateGold()
 end
 
-slot0.updateGold = function (slot0)
+function slot0.updateGold(slot0)
 	if slot0.goldTxt then
 		setText(slot0.goldTxt, slot0.playerVO.gold)
 	end
 end
 
-slot0.setPools = function (slot0, slot1)
+function slot0.setPools(slot0, slot1)
 	slot0.pools = slot1
 
 	slot0:updateRes()
 end
 
-slot0.updateRes = function (slot0)
+function slot0.updateRes(slot0)
 	for slot4, slot5 in pairs(slot0.pools) do
 		setText(slot0.resPanel:Find(slot5.id).Find(slot6, "Text"), slot5:getItemCount())
 	end
 end
 
-slot0.setCommander = function (slot0, slot1)
+function slot0.setCommander(slot0, slot1)
 	slot0.commanderVO = slot1
 	slot0.contextData.commanderVO = slot1
 
 	slot0:updateCommander()
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.bgTF = slot0._tf:Find("bg"):GetComponent(typeof(Image))
 	slot0.backBtn = slot0:findTF("blur_panel/top/back_btn")
 	slot0.mainTF = slot0:findTF("main")
@@ -86,7 +86,7 @@ slot0.init = function (slot0)
 	slot0:enterAnim()
 end
 
-slot0.opeRenamePanel = function (slot0, slot1)
+function slot0.opeRenamePanel(slot0, slot1)
 	function slot2(slot0)
 		slot0:openMsgBox({
 			content = i18n("commander_rename_warning", slot0),
@@ -108,11 +108,11 @@ slot0.opeRenamePanel = function (slot0, slot1)
 	end
 end
 
-slot0.closeRenamePanel = function (slot0)
+function slot0.closeRenamePanel(slot0)
 	slot0.renamePanel:ActionInvoke("Hide")
 end
 
-slot0.openMsgBox = function (slot0, slot1)
+function slot0.openMsgBox(slot0, slot1)
 	function slot2()
 		slot0.msgboxPage:ActionInvoke("OnUpdate", slot0.msgboxPage)
 	end
@@ -127,13 +127,13 @@ slot0.openMsgBox = function (slot0, slot1)
 	end
 end
 
-slot0.closeMsgBox = function (slot0)
+function slot0.closeMsgBox(slot0)
 	slot0.isShowMsgBox = nil
 
 	slot0.msgboxPage:ActionInvoke("Hide")
 end
 
-slot0.updateBg = function (slot0, slot1)
+function slot0.updateBg(slot0, slot1)
 	if slot0.bg ~= slot1:getConfig("bg") then
 		slot0.bg = slot2
 		slot0.bgTF.sprite = LoadSprite("bg/commander_bg_" .. slot2)
@@ -142,17 +142,17 @@ end
 
 slot1 = 0.2
 
-slot0.enterAnim = function (slot0)
+function slot0.enterAnim(slot0)
 	LeanTween.alphaCanvas(slot1, 1, slot0):setFrom(0)
 end
 
-slot0.exitAnim = function (slot0, slot1)
+function slot0.exitAnim(slot0, slot1)
 	if slot1 then
 		slot1()
 	end
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		slot0:exitAnim(function ()
 			slot0:emit(slot1.ON_BACK)
@@ -191,7 +191,7 @@ slot0.didEnter = function (slot0)
 	end)
 end
 
-slot0.checkFirstHelp = function (slot0)
+function slot0.checkFirstHelp(slot0)
 	if slot0.onClose then
 		return
 	end
@@ -203,11 +203,11 @@ slot0.checkFirstHelp = function (slot0)
 	end
 end
 
-slot0.updateLockState = function (slot0)
+function slot0.updateLockState(slot0)
 	return
 end
 
-slot0.initToggles = function (slot0)
+function slot0.initToggles(slot0)
 	for slot4, slot5 in ipairs(slot0.toggleTFs) do
 		onToggle(slot0, slot5, function (slot0)
 			if slot0 then
@@ -217,7 +217,7 @@ slot0.initToggles = function (slot0)
 	end
 end
 
-slot0.switchPage = function (slot0, slot1)
+function slot0.switchPage(slot0, slot1)
 	setActive(slot0.titleTF, slot1 ~= slot0.PAGE_PLAY)
 	setActive(slot0.titlePlayTF, slot1 == slot0.PAGE_PLAY)
 
@@ -245,7 +245,7 @@ slot0.switchPage = function (slot0, slot1)
 	slot0:checkFirstHelp()
 end
 
-slot0.updateCommander = function (slot0)
+function slot0.updateCommander(slot0)
 	slot0:updateLockState()
 	slot0.detailPage:ActionInvoke("Update", slot0.commanderVO)
 
@@ -270,7 +270,7 @@ slot0.updateCommander = function (slot0)
 	setActive(slot0.toggleTFs[2]:Find("tip"), slot3 > 0)
 end
 
-slot0.openTreePanel = function (slot0, slot1)
+function slot0.openTreePanel(slot0, slot1)
 	function slot2()
 		slot0.treePanel:ActionInvoke("openTreePanel", slot0.treePanel)
 	end
@@ -283,11 +283,11 @@ slot0.openTreePanel = function (slot0, slot1)
 	end
 end
 
-slot0.closeTreePanel = function (slot0)
+function slot0.closeTreePanel(slot0)
 	slot0.treePanel:ActionInvoke("closeTreePanel")
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	if slot0.page then
 		slot0.panels[slot0.page]:detach()
 	end

@@ -1,13 +1,13 @@
 slot0 = class("ChatBubble")
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.tf = tf(slot1)
 	slot0.isLoadChatBg = false
 
 	slot0:init()
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.nameTF = findTF(slot0.tf, "desc/name"):GetComponent("Text")
 	slot0.face = findTF(slot0.tf, "face/content")
 	slot0.circle = findTF(slot0.tf, "shipicon/frame")
@@ -20,7 +20,7 @@ slot0.init = function (slot0)
 	slot0.chatBgWidth = 665
 end
 
-slot0.update = function (slot0, slot1)
+function slot0.update(slot0, slot1)
 	if slot0.data == slot1 then
 		return
 	end
@@ -135,7 +135,7 @@ slot0.update = function (slot0, slot1)
 	setActive(slot0.face.parent, slot1.emojiId)
 end
 
-slot0.dispose = function (slot0)
+function slot0.dispose(slot0)
 	if slot0.face.childCount > 0 then
 		PoolMgr.GetInstance():ReturnPrefab("emoji/" .. slot0.face:GetChild(0).gameObject.name, slot0.face.GetChild(0).gameObject.name, slot0.face.GetChild(0).gameObject)
 	end

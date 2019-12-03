@@ -1,18 +1,18 @@
 slot0 = class("NewCommanderScene", import("..base.BaseUI"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "GetCommanderUI"
 end
 
-slot0.getBGM = function (slot0)
+function slot0.getBGM(slot0)
 	return "backyard"
 end
 
-slot0.setCommander = function (slot0, slot1)
+function slot0.setCommander(slot0, slot1)
 	slot0.commanderVO = slot1
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	slot0.bgTF = slot0:findTF("main/bg")
 	slot0.clickTF = slot0:findTF("click")
 	slot0.paintTF = slot0:findTF("main/paint")
@@ -42,7 +42,7 @@ slot0.init = function (slot0)
 	setParent(slot0._tf, pg.UIMgr.GetInstance().OverlayMain)
 end
 
-slot0.openTreePanel = function (slot0, slot1)
+function slot0.openTreePanel(slot0, slot1)
 	function slot2()
 		slot0.treePanel:ActionInvoke("openTreePanel", slot0.treePanel)
 	end
@@ -55,11 +55,11 @@ slot0.openTreePanel = function (slot0, slot1)
 	end
 end
 
-slot0.closeTreePanel = function (slot0)
+function slot0.closeTreePanel(slot0)
 	slot0.treePanel:ActionInvoke("closeTreePanel")
 end
 
-slot0.enterAnim = function (slot0)
+function slot0.enterAnim(slot0)
 	slot0.antor:SetBool("play", true)
 
 	slot0.isAnim = true
@@ -80,7 +80,7 @@ slot0.enterAnim = function (slot0)
 	end)
 end
 
-slot0.playerEffect = function (slot0)
+function slot0.playerEffect(slot0)
 	PoolMgr.GetInstance():GetUI("AL_zhihuimiao_zhipian", true, function (slot0)
 		slot0.effect = slot0
 
@@ -89,7 +89,7 @@ slot0.playerEffect = function (slot0)
 	end)
 end
 
-slot0.openMsgBox = function (slot0, slot1)
+function slot0.openMsgBox(slot0, slot1)
 	slot0.isShowMsgBox = true
 
 	function slot2()
@@ -104,13 +104,13 @@ slot0.openMsgBox = function (slot0, slot1)
 	end
 end
 
-slot0.closeMsgBox = function (slot0)
+function slot0.closeMsgBox(slot0)
 	slot0.isShowMsgBox = nil
 
 	slot0.msgbox:ActionInvoke("Hide")
 end
 
-slot0.didEnter = function (slot0)
+function slot0.didEnter(slot0)
 	slot0:updateInfo(function ()
 		slot0:enterAnim()
 	end)
@@ -148,14 +148,14 @@ slot0.didEnter = function (slot0)
 	end, SFX_CANCEL)
 end
 
-slot0.updateLockState = function (slot0, slot1)
+function slot0.updateLockState(slot0, slot1)
 	setActive(slot0.lockBtn:Find("image"), slot1 == 0)
 	onButton(slot0, slot0.lockBtn, function ()
 		slot1:emit(NewCommanderMediator.ON_LOCK, slot1.commanderVO.id, 1 - slot0)
 	end, SFX_PANEL)
 end
 
-slot0.updateInfo = function (slot0, slot1)
+function slot0.updateInfo(slot0, slot1)
 	slot0:updateLockState(slot0.commanderVO.getLock(slot2))
 
 	slot0.nameTF.text = slot0.commanderVO.getName(slot2)
@@ -176,7 +176,7 @@ slot0.updateInfo = function (slot0, slot1)
 	end
 end
 
-slot0.updateAbilitys = function (slot0)
+function slot0.updateAbilitys(slot0)
 	slot2 = slot0.commanderVO.getAbilitys(slot1)
 
 	eachChild(slot0.abilitysTF, function (slot0)
@@ -186,7 +186,7 @@ slot0.updateAbilitys = function (slot0)
 	end)
 end
 
-slot0.updateTalents = function (slot0)
+function slot0.updateTalents(slot0)
 	slot2 = slot0.commanderVO.getTalents(slot1)
 
 	slot0.talentsList:make(function (slot0, slot1, slot2)
@@ -206,7 +206,7 @@ slot0.updateTalents = function (slot0)
 	slot0.talentsList:align(3)
 end
 
-slot0.onBackPressed = function (slot0)
+function slot0.onBackPressed(slot0)
 	if slot0.isShowMsgBox then
 		slot0:closeMsgBox()
 
@@ -214,7 +214,7 @@ slot0.onBackPressed = function (slot0)
 	end
 end
 
-slot0.willExit = function (slot0)
+function slot0.willExit(slot0)
 	slot0.treePanel:Destroy()
 	slot0.msgbox:Destroy()
 	retPaintingPrefab(slot0.paintTF, slot0.painting:getPainting())

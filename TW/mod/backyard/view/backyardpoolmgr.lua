@@ -19,7 +19,7 @@ slot0.POOL_SIZE = {
 	}
 }
 
-slot0.Ctor = function (slot0)
+function slot0.Ctor(slot0)
 	slot0.root = GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/root")
 	slot0.gridPrefab = GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/resources/emptygrid")
 	slot0.wallPrefab = GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/resources/wallgridtpl")
@@ -29,7 +29,7 @@ slot0.Ctor = function (slot0)
 	slot0:init()
 end
 
-slot0.init = function (slot0)
+function slot0.init(slot0)
 	for slot4, slot5 in pairs(slot0.POOL_NAME) do
 		if not slot0.pools[slot5] then
 			slot0:initPool(slot5)
@@ -37,7 +37,7 @@ slot0.init = function (slot0)
 	end
 end
 
-slot0.initPool = function (slot0, slot1)
+function slot0.initPool(slot0, slot1)
 	slot7, slot8, slot6 = slot0:getPrefab(slot1)
 	slot0.pools[slot1] = BackyardPool.New(slot2, slot3)
 
@@ -47,7 +47,7 @@ slot0.initPool = function (slot0, slot1)
 	end
 end
 
-slot0.Enqueue = function (slot0, slot1, slot2)
+function slot0.Enqueue(slot0, slot1, slot2)
 	if slot0.pools[slot1] then
 		slot0:dealEnqueueItems(slot1, tf(slot2))
 		slot0.pools[slot1]:Enqueue(slot2)
@@ -56,7 +56,7 @@ slot0.Enqueue = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.Dequeue = function (slot0, slot1)
+function slot0.Dequeue(slot0, slot1)
 	slot2 = nil
 
 	if not slot0.pools[slot1] then
@@ -70,11 +70,11 @@ slot0.Dequeue = function (slot0, slot1)
 	return tf(slot2)
 end
 
-slot0.getPrefab = function (slot0, slot1)
+function slot0.getPrefab(slot0, slot1)
 	return slot0[slot1 .. "Prefab"], slot0.POOL_SIZE[slot1][1], slot0.POOL_SIZE[slot1][2]
 end
 
-slot0.dealEnqueueItems = function (slot0, slot1, slot2)
+function slot0.dealEnqueueItems(slot0, slot1, slot2)
 	slot2.localPosition = Vector3(0, 0, 0)
 	slot2.localScale = Vector3(1, 1, 1)
 
@@ -82,19 +82,19 @@ slot0.dealEnqueueItems = function (slot0, slot1, slot2)
 	setParent(slot2, slot0.root)
 end
 
-slot0.gridDeal = function (slot0, slot1)
+function slot0.gridDeal(slot0, slot1)
 	return
 end
 
-slot0.wallDeal = function (slot0, slot1)
+function slot0.wallDeal(slot0, slot1)
 	slot1.localScale = Vector3(-1, 1, 1)
 end
 
-slot0.furnitureDeal = function (slot0, slot1)
+function slot0.furnitureDeal(slot0, slot1)
 	return
 end
 
-slot0.clear = function (slot0)
+function slot0.clear(slot0)
 	for slot4, slot5 in pairs(slot0.pools) do
 		slot5:clear()
 	end

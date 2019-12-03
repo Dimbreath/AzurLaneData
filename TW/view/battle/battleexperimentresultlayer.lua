@@ -1,14 +1,14 @@
 slot0 = class("BattleExperimentResultLayer", import(".BattleContributionResultLayer"))
 
-slot0.getUIName = function (slot0)
+function slot0.getUIName(slot0)
 	return "BattleResultUI"
 end
 
-slot0.setPoint = function (slot0)
+function slot0.setPoint(slot0)
 	slot0._contributionPoint = 0
 end
 
-slot0.skip = function (slot0)
+function slot0.skip(slot0)
 	for slot4, slot5 in ipairs(slot0._delayLeanList) do
 		LeanTween.cancel(slot5)
 	end
@@ -32,7 +32,7 @@ slot0.skip = function (slot0)
 	end
 end
 
-slot0.displayBG = function (slot0)
+function slot0.displayBG(slot0)
 	LeanTween.moveX(rtf(slot0._conditions), 1300, slot0.DURATION_MOVE)
 	LeanTween.scale(slot0._grade, Vector3(0.6, 0.6, 0), slot0.DURATION_MOVE)
 	LeanTween.moveLocal(go(slot1), slot0._gradeUpperLeftPos, slot0.DURATION_MOVE):setOnComplete(System.Action(function ()
@@ -48,11 +48,11 @@ slot0.displayBG = function (slot0)
 	setActive(slot0:findTF("jieuan01/Bomb", slot0._bg), false)
 end
 
-slot0.closeStatistics = function (slot0)
+function slot0.closeStatistics(slot0)
 	return
 end
 
-slot0.displayShips = function (slot0)
+function slot0.displayShips(slot0)
 	slot0._expTFs = {}
 	slot0._nameTxts = {}
 	slot0._initExp = {}

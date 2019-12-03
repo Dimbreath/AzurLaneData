@@ -1,6 +1,6 @@
 slot0 = class("SubAIAction", import(".BaseVO"))
 
-slot0.Ctor = function (slot0, slot1)
+function slot0.Ctor(slot0, slot1)
 	slot0.line = {
 		row = slot1.ai_pos.row,
 		column = slot1.ai_pos.column
@@ -28,7 +28,7 @@ slot0.Ctor = function (slot0, slot1)
 	end)
 end
 
-slot0.applyTo = function (slot0, slot1, slot2)
+function slot0.applyTo(slot0, slot1, slot2)
 	if slot1:getFleet(FleetType.Submarine, slot0.line.row, slot0.line.column) then
 		return slot0:applyToFleet(slot1, slot3, slot2)
 	end
@@ -36,7 +36,7 @@ slot0.applyTo = function (slot0, slot1, slot2)
 	return false, "can not find any submarine at: [" .. slot0.line.row .. ", " .. slot0.line.column .. "]"
 end
 
-slot0.applyToFleet = function (slot0, slot1, slot2, slot3)
+function slot0.applyToFleet(slot0, slot1, slot2, slot3)
 	slot4 = 0
 
 	if not slot2:isValid() then
@@ -89,7 +89,7 @@ slot0.applyToFleet = function (slot0, slot1, slot2, slot3)
 	return true, slot5
 end
 
-slot0.PlayAIAction = function (slot0, slot1, slot2, slot3)
+function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 	if slot1:getFleetIndex(FleetType.Submarine, slot0.line.row, slot0.line.column) then
 		if slot0.target then
 			slot7 = "-" .. _.detect(slot0.cellUpdates, function (slot0)

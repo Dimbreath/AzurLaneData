@@ -2,17 +2,17 @@ ys = ys or {}
 ys.Battle.BattleAirFighterCharacterFactory = singletonClass("BattleAirFighterCharacterFactory", ys.Battle.BattleAircraftCharacterFactory)
 ys.Battle.BattleAirFighterCharacterFactory.__name = "BattleAirFighterCharacterFactory"
 
-ys.Battle.BattleAirFighterCharacterFactory.Ctor = function (slot0)
+function ys.Battle.BattleAirFighterCharacterFactory.Ctor(slot0)
 	slot0.Battle.BattleAirFighterCharacterFactory.super.Ctor(slot0)
 
 	slot0.HP_BAR_NAME = slot0.Battle.BattleHPBarManager.HP_BAR_FOE
 end
 
-ys.Battle.BattleAirFighterCharacterFactory.MakeCharacter = function (slot0)
+function ys.Battle.BattleAirFighterCharacterFactory.MakeCharacter(slot0)
 	return slot0.Battle.BattleAirFighterCharacter.New()
 end
 
-ys.Battle.BattleAirFighterCharacterFactory.MakeModel = function (slot0, slot1)
+function ys.Battle.BattleAirFighterCharacterFactory.MakeModel(slot0, slot1)
 	function slot2(slot0)
 		slot0:AddModel(slot0)
 		slot0:InitWeapon()
@@ -33,7 +33,7 @@ ys.Battle.BattleAirFighterCharacterFactory.MakeModel = function (slot0, slot1)
 	end)
 end
 
-ys.Battle.BattleAirFighterCharacterFactory.MakeBloodBar = function (slot0, slot1)
+function ys.Battle.BattleAirFighterCharacterFactory.MakeBloodBar(slot0, slot1)
 	slot2 = slot0:GetHPBarPool():GetHPBar(slot0.HP_BAR_NAME)
 
 	slot1:AddHPBar(slot2)

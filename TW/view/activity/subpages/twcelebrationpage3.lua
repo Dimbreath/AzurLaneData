@@ -1,6 +1,6 @@
 slot0 = class("TWCelebrationPage3", import("...base.BaseActivityPage"))
 
-slot0.OnInit = function (slot0)
+function slot0.OnInit(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.getBtn = slot0:findTF("AD/get")
 	slot0.gotBtn = slot0:findTF("AD/got")
@@ -10,11 +10,11 @@ slot0.OnInit = function (slot0)
 	slot0.unfinished = slot0:findTF("AD/unfinished")
 end
 
-slot0.OnFirstFlush = function (slot0)
+function slot0.OnFirstFlush(slot0)
 	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 end
 
-slot0.OnUpdateFlush = function (slot0)
+function slot0.OnUpdateFlush(slot0)
 	slot4 = getProxy(TaskProxy):getTaskById(slot0.activity:getConfig("config_data")[1]) or slot2:getFinishTaskById(slot1) or Task.New({
 		id = slot1
 	}):isFinish()
@@ -36,7 +36,7 @@ slot0.OnUpdateFlush = function (slot0)
 	end, SFX_PANEL)
 end
 
-slot0.share = function (slot0, slot1)
+function slot0.share(slot0, slot1)
 	PoolMgr.GetInstance():GetUI("TWCelebrationShare", false, function (slot0)
 		SetParent(slot0, slot2, false)
 
@@ -63,7 +63,7 @@ slot0.share = function (slot0, slot1)
 	end)
 end
 
-slot0.OnDestroy = function (slot0)
+function slot0.OnDestroy(slot0)
 	if slot0.shareGo then
 		PoolMgr.GetInstance():ReturnUI("TWCelebrationShare", slot0.shareGo)
 	end

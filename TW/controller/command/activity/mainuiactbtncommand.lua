@@ -1,6 +1,6 @@
 slot0 = class("MainUIActBtnCommand", pm.SimpleCommand)
 
-slot0.execute = function (slot0, slot1)
+function slot0.execute(slot0, slot1)
 	slot4 = 0
 	slot5 = nil
 
@@ -20,7 +20,7 @@ slot0.execute = function (slot0, slot1)
 	})
 end
 
-slot0.shouldNotify = function (slot0, slot1)
+function slot0.shouldNotify(slot0, slot1)
 	if not slot1:isShow() then
 		return false
 	end

@@ -1,6 +1,6 @@
 slot0 = class("IndexConst")
 
-slot0.Flags2Bits = function (slot0)
+function slot0.Flags2Bits(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in ipairs(slot0) do
@@ -10,7 +10,7 @@ slot0.Flags2Bits = function (slot0)
 	return slot1
 end
 
-slot0.FlagRange2Bits = function (slot0, slot1)
+function slot0.FlagRange2Bits(slot0, slot1)
 	slot2 = 0
 
 	for slot6 = slot0, slot1, 1 do
@@ -20,7 +20,7 @@ slot0.FlagRange2Bits = function (slot0, slot1)
 	return slot2
 end
 
-slot0.ToggleBits = function (slot0, slot1, slot2, slot3)
+function slot0.ToggleBits(slot0, slot1, slot2, slot3)
 	slot4 = slot0
 	slot5 = bit.lshift(1, slot3)
 
@@ -208,7 +208,7 @@ slot0.shipType2Index = {
 	3
 }
 
-slot0.filterByIndex = function (slot0, slot1)
+function slot0.filterByIndex(slot0, slot1)
 	if bit.band(slot1, bit.lshift(1, slot0.IndexAll)) > 0 then
 		return true
 	end
@@ -238,7 +238,7 @@ slot0.Nation2Camp = {
 	7
 }
 
-slot0.filterByCamp = function (slot0, slot1)
+function slot0.filterByCamp(slot0, slot1)
 	if bit.band(slot1, bit.lshift(1, slot0.CampAll)) > 0 then
 		return true
 	end
@@ -260,7 +260,7 @@ slot0.filterByCamp = function (slot0, slot1)
 	return false
 end
 
-slot0.filterByRarity = function (slot0, slot1)
+function slot0.filterByRarity(slot0, slot1)
 	if bit.band(slot1, bit.lshift(1, slot0.RarityAll)) > 0 then
 		return true
 	end
@@ -274,7 +274,7 @@ slot0.filterByRarity = function (slot0, slot1)
 	return false
 end
 
-slot0.sortByOrder = function (slot0, slot1, slot2)
+function slot0.sortByOrder(slot0, slot1, slot2)
 	if slot1 == slot0.SortPower then
 		slot0.combatPowerCaches = {}
 
@@ -303,7 +303,7 @@ end
 
 slot0.combatPowerCaches = {}
 
-slot0.sortByCombatPower = function (slot0, slot1)
+function slot0.sortByCombatPower(slot0, slot1)
 	if not slot0.combatPowerCaches[slot0] then
 		slot0.combatPowerCaches[slot0] = slot0:getShipCombatPower()
 	end
@@ -326,7 +326,7 @@ slot0.sortByCombatPower = function (slot0, slot1)
 	end
 end
 
-slot0.sortByCombatPowerAsc = function (slot0, slot1)
+function slot0.sortByCombatPowerAsc(slot0, slot1)
 	if not slot0.combatPowerCaches[slot0] then
 		slot0.combatPowerCaches[slot0] = slot0:getShipCombatPower()
 	end
@@ -349,7 +349,7 @@ slot0.sortByCombatPowerAsc = function (slot0, slot1)
 	end
 end
 
-slot0.sortByField = function (slot0)
+function slot0.sortByField(slot0)
 	return function (slot0, slot1)
 		slot2 = slot0[slot0]
 		slot3 = slot1[slot0]
@@ -368,7 +368,7 @@ slot0.sortByField = function (slot0)
 	end
 end
 
-slot0.sortByFieldAsc = function (slot0)
+function slot0.sortByFieldAsc(slot0)
 	return function (slot0, slot1)
 		slot2 = slot0[slot0]
 		slot3 = slot1[slot0]
@@ -387,7 +387,7 @@ slot0.sortByFieldAsc = function (slot0)
 	end
 end
 
-slot0.sortByProperty = function (slot0)
+function slot0.sortByProperty(slot0)
 	slot0.propertyCaches = {}
 
 	return function (slot0, slot1)
@@ -414,7 +414,7 @@ slot0.sortByProperty = function (slot0)
 	end
 end
 
-slot0.sortByPropertyAsc = function (slot0)
+function slot0.sortByPropertyAsc(slot0)
 	slot0.propertyCaches = {}
 
 	return function (slot0, slot1)
@@ -441,7 +441,7 @@ slot0.sortByPropertyAsc = function (slot0)
 	end
 end
 
-slot0.sortByCfg = function (slot0)
+function slot0.sortByCfg(slot0)
 	return function (slot0, slot1)
 		slot2 = slot0:getDockSortValue()
 		slot3 = slot1:getDockSortValue()
@@ -465,7 +465,7 @@ slot0.sortByCfg = function (slot0)
 	end
 end
 
-slot0.sortByCfgAsc = function (slot0)
+function slot0.sortByCfgAsc(slot0)
 	return function (slot0, slot1)
 		slot2 = slot0:getDockSortValue()
 		slot3 = slot1:getDockSortValue()
@@ -489,7 +489,7 @@ slot0.sortByCfgAsc = function (slot0)
 	end
 end
 
-slot0.sortByPriorityFullSkill = function (slot0, slot1, slot2)
+function slot0.sortByPriorityFullSkill(slot0, slot1, slot2)
 	if ((slot0:isFullSkillLevel() and 1) or 0) == ((slot1:isFullSkillLevel() and 1) or 0) then
 		return slot2(slot0, slot1)
 	else
@@ -497,7 +497,7 @@ slot0.sortByPriorityFullSkill = function (slot0, slot1, slot2)
 	end
 end
 
-slot0.sortForGuider = function (slot0, slot1)
+function slot0.sortForGuider(slot0, slot1)
 	return ((table.contains({
 		101171,
 		201211,

@@ -1,7 +1,7 @@
 slot0 = class("GuildRankMediator", import("..base.ContextMediator"))
 slot0.GET_RANK = "GuildRankMediator:GET_RANK"
 
-slot0.register = function (slot0)
+function slot0.register(slot0)
 	slot1 = getProxy(GuildProxy)
 
 	slot0.viewComponent:setGuildEvet(slot2)
@@ -11,13 +11,13 @@ slot0.register = function (slot0)
 	end)
 end
 
-slot0.listNotificationInterests = function (slot0)
+function slot0.listNotificationInterests(slot0)
 	return {
 		GuildProxy.UPDATED_EVENT
 	}
 end
 
-slot0.handleNotification = function (slot0, slot1)
+function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GuildProxy.UPDATED_EVENT then
