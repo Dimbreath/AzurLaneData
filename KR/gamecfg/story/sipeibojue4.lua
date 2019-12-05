@@ -11,19 +11,19 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>“有能够理解你全部的人”</size>",
+					"<size=51>“너의 모든 것을 충분히 이해해줄 수 있는 사람이 있다면”</size>",
 					1.5
 				},
 				{
-					"<size=51>“能够倾听你的烦恼”</size>",
+					"<size=51>“너의 고민을 경청해줄 수 있는 사람이 있다면”</size>",
 					3
 				},
 				{
-					"<size=51>“并且发自内心为你着想的人”</size>",
+					"<size=51>“그리고 진심으로 너를 생각하며 위해주는 사람이 있다면”</size>",
 					4.5
 				},
 				{
-					"<size=51>“你就不会再感到自己是孤身一人了吧？呵呵~”</size>",
+					"<size=51>“너는 다시는 자신이 외로운 사람이라고 생각하지 못하겠지?”</size>",
 					6.5
 				}
 			}
@@ -33,7 +33,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港湾\n\n<size=45>四　同伴</size>",
+					"항만\n\n<size=45>4 동료</size>",
 					1
 				}
 			}
@@ -44,7 +44,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区",
+			say = "항구",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "哦？是斯佩啊。",
+			say = "응? 슈피네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			say = "欧根小姐在这里做什么呢？",
+			say = "오이겐 여기서 뭐해?",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "我吗？如你所见，我在一个人休息呢。",
+			say = "나? 네가 보는 것처럼, 혼자 쉬고 있지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "偶尔一个人散散步，看看花草，放松下心情什么的……不是挺好的吗？",
+			say = "가끔은 혼자 걷고, 꽃 구경하면서 심신을 안정시키는 것...... 너무 좋지 않아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			withoutActorName = true,
 			actor = 403050,
 			nameColor = "#92fc63",
-			say = "借着这个机会，问问欧根小姐的想法？",
+			say = "이 기회를 빌어, 오이겐의 생각을 물어볼까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			},
 			options = {
 				{
-					content = "问欧根亲王",
+					content = "프린츠 오이겐에게 묻기",
 					flag = 1
 				}
 			}
@@ -164,7 +164,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "“愿望”？",
+			say = "“소망”?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "呵呵……现在的话，我想是没有的呢。",
+			say = "하하...... 지금은, 내 생각엔 없는데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "没有愿望？",
+			say = "소망이 없어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "现在的状况我已经十分满足了。要不现在找一个？好像这样也不错呢。",
+			say = "현재 상황에 난 이미 완전 만족해. 아니면 지금 찾아볼까? 그것도 괜찮은 것 같네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "那，斯佩的愿望是什么呢？",
+			say = "그럼, 슈피는 소망이 뭔데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "我没有——",
+			say = "난 없어——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			stopbgm = true,
-			say = "“我没有特别想做的事情，只要和大家待在一起我就满足了。”",
+			say = "“난 특별히 하고 싶은게 없어. 그냥 모두와 여기 함께 있으면 만족해.”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			actor = 403050,
 			nameColor = "#92fc63",
-			say = "！！",
+			say = "!!",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -299,7 +299,7 @@ return {
 			withoutActorName = true,
 			actor = 403050,
 			nameColor = "#92fc63",
-			say = "欧根小姐说出了原本我要说的话语。",
+			say = "내가 하려던 말인데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "为什么欧根小姐会……？",
+			say = "왜 오이겐이......?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			bgm = "story-2",
 			actor = 403030,
 			nameColor = "#92fc63",
-			say = "嘻嘻，看你的表情就知道了。",
+			say = "히히, 네 표정 보면 알아",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "表情……",
+			say = "표정......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "像你这样的类型，在舰队里不是第一个，我想，也不会是最后一个哦？",
+			say = "너 같은 유형은, 함대에서 첫 번째가 아니야. 내 생각에 네가 마지막도 아닐껄?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "一旦可以做战斗以外的事，反而不知道该做些什么，该怎么做的类型。",
+			say = "일단 전투 이외의 일을 할 수 있기 시작하면, 오히려 뭘 해야할지 몰라.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			withoutActorName = true,
 			actor = 403050,
 			nameColor = "#92fc63",
-			say = "不知道该做些什么，该怎么做……",
+			say = "뭘 해야할지 모른다, 어떻게 해야......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "……欧根小姐，知道该怎么解决吗？",
+			say = "......오이겐, 어떻게 해결하는지 알아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "谁知道呢，我又不是你，不会知道你想要什么的唷？",
+			say = "누가 알겠어, 난 네가 아니야. 네가 뭘 원하는지 어떻게 알겠어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "是吗……",
+			say = "그렇지......?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			nameColor = "#92fc63",
-			say = "哎呀，这病情看起来可不轻呢。",
+			say = "크흠, 이 병도 보아하니 가볍지만은 않겠는데",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -494,7 +494,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "不过，不只是铁血的我们，指挥官大概也会为你做点什么吧",
+			say = "하지만, 우리 메탈 블러드 뿐만이 아니라, 지휘관도 너를 위해 뭔가 해줄거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			blackBg = true,
 			actor = 403030,
 			nameColor = "#92fc63",
-			say = "毕竟，那家伙可是连我都…对吧？",
+			say = "그 녀석은 나에게 마저... 그렇지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

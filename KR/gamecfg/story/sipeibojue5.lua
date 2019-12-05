@@ -11,23 +11,23 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>一直陪伴身边的人，离开了</size>",
+					"<size=51>줄곧 곁을 지키던 사람이, 떠났다</size>",
 					1.5
 				},
 				{
-					"<size=51>一直并肩战斗的人，离开了</size>",
+					"<size=51>줄곧 함께 전투하던 사람이, 떠났다</size>",
 					3
 				},
 				{
-					"<size=51>一直推心置腹的人，离开了</size>",
+					"<size=51>줄곧 진심을 터놓던 사람이, 떠났다</size>",
 					4.5
 				},
 				{
-					"<size=51>现在，我又变成孤身一人了</size> ",
+					"<size=51>지금, 나는 또 혼자가 되었다</size> ",
 					6
 				},
 				{
-					"<size=51>这些都不属于我，我其实什么都没有——</size>",
+					"<size=51>이것들은 모두 내게 속하지 않는다. 난 사실 아무것도 없다——</size>",
 					8
 				}
 			}
@@ -37,7 +37,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港湾\n\n<size=45>五　孤独</size>",
+					"항만\n\n<size=45>5 고독</size>",
 					1
 				}
 			}
@@ -46,7 +46,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "宿舍",
+			say = "기숙사",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "做了个很不好的梦。",
+			say = "아주 안좋은 꿈을 꿨다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "回望周边，宿舍里只剩下了自己一个人。",
+			say = "주변을 둘러보니, 기숙사에 자기 혼자 밖에 남지 않았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgm = "story-1",
 			actor = 403050,
 			nameColor = "#92fc63",
-			say = "唔…已经快到中午了吗",
+			say = "음... 벌써 점심이 다 되어가는 건가",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,135 +118,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "这个时间，也难怪身边一个人都没有了吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 403050,
-			side = 2,
-			bgName = "bg_story_room",
-			nameColor = "#92fc63",
-			dir = 1,
-			say = "……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "拿出了最近刚学会使用的智能手机",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "有了这个的话，即使不在旁边，也能够和同伴交流。要不先看看大家的动态好了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "“今天标枪也在练习制作便当哦！”",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "标枪小姐……我记得是一位充满活力的人呢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "““炫目的初夏阳光，美好得让人忍不住想看到日蚀……””",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "齐柏林的动态，有些挺普通的，有些比较难懂……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "“希望今天神明大人也能庇佑大家。”",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "{namecode:78}小姐，真是一位温柔的人呢。",
+			say = "이 시간이면, 아무도 없겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +148,105 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "我学会了使用手机，学会了使用社交网络，我能看到大家毫无保留的一面……",
+			say = "최근 막 사용법을 배운 스마트폰을 집어 들었다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			say = "이것만 있으면, 바로 옆에 없어도, 동료들과 얘기할 수 있어. 먼저 근황부터 봐도 되겠다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			say = "“오늘 재블린은 도시락 만들기를 연습했네!”",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			say = "재블린...... 내 기억엔 에너지가 넘치는 사람이었는데",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			say = "““눈부신 초여름 햇살은, 일식을 보고 싶게 할 정도로 아름답다......””",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			say = "그라프 체펠린의 근황은 어떤건 매우 평범하고. 어떤건 이해하기 어렵네......",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			say = "“오늘도 천지신명께서 모두를 보우해 주기를.”",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			say = "{namecode:78} 언니는 정말 따뜻한 사람이구나.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +262,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "我是属于这里的一份子。",
+			say = "……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,21 +276,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "我明明知道这一点。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "但我却还是惴惴不安。",
+			say = "휴대폰 사용법을 배우고, 소셜 네트워크를 배웠다. 모두의 숨김없는 일면을 볼 수 있었다......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +292,35 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "嗯？有新的消息……是指挥官发来的？",
+			say = "난 이 곳의 일부분에 속해",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			say = "이것은 분명한 사실이다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			say = "그렇지만 살짝 불안하다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +336,23 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "要我去办公室，有重要的事情要和我说？",
+			say = "응? 새로운 메세지...... 지휘관이 보낸건가?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 403050,
+			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#92fc63",
+			dir = 1,
+			say = "내가 사무실에 가면, 중요한 할 얘기가 있다고?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "难道是很紧急的任务，赶紧过去看一看吧。",
+			say = "설마 엄청 급한 임무인가. 어서 가보자",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "在想到是任务时，不知为何，我反而感到雀跃起来。",
+			say = "임무가 생각났을 때, 왠지 모르게, 껑충 뛰어오르는 느낌을 받았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "果然，适合我的地方，只有战场吗？",
+			say = "역시, 나에게 어울리는 곳은, 전장 뿐인가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -5994,7 +5994,7 @@ pg.ship_data_group = {
 	[140] = {
 		nationality = 2,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 206019,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 140,
@@ -6002,8 +6002,17 @@ pg.ship_data_group = {
 		index_id = 166,
 		group_type = 20601,
 		trans_type = 6,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"E",
+			"E",
+			"B",
+			"D",
+			"B",
+			"B"
+		},
+		trans_skill = {
+			12110
+		},
 		description = {
 			{
 				"지원 교환 (훈장을 소비하며, 랜덤 출현한다)",

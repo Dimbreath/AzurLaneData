@@ -11,19 +11,19 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>“有人与你一同出航，有人与你并肩战斗”</size>",
+					"<size=51>“너와 함께 출항하고, 너와 함께 전투할거야.”</size>",
 					1.5
 				},
 				{
-					"<size=51>“有人在胜利之后一起庆祝——”</size>",
+					"<size=51>“승리 후에는 함께 축하할거야——”</size>",
 					3
 				},
 				{
-					"<size=51>“即便是失败，只要有能彼此安慰的伙伴”</size>",
+					"<size=51>“지더라도, 서로 위로해줄 동료만 있다면”</size>",
 					4.5
 				},
 				{
-					"<size=51>“你就不会感到那么孤独了吧”</size>",
+					"<size=51>“외로움을 느낄 수 없을거야”</size>",
 					6
 				}
 			}
@@ -33,7 +33,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港湾\n\n<size=45>三　战友</size>",
+					"항만\n\n<size=45>3 전우</size>",
 					1
 				}
 			}
@@ -44,7 +44,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
-			say = "港区·演习海域",
+			say = "항구 · 연습 해역",
 			effects = {
 				{
 					active = false,
@@ -79,7 +79,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "今天就到这里吧。",
+			say = "오늘은 여기까지 하자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "啊？这就结束了？我的主炮还没热起来呢！",
+			say = "엇? 이렇게 끝이야? 주포도 아직 안썼는데!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "有干劲是件好事，但是申请的演习海域使用时间已经到了，还是说你要妨碍指挥官的安排吗？",
+			say = "의욕이 있는 것은 좋은 일이지. 하지만 신청한 연습 해역 사용 시간이 다 되었어. 지휘관의 플랜을 방해할 생각은 아니겠지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "斯佩身为秘书舰，应该是清楚的吧。",
+			say = "슈피는 비서함이니 잘 알겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "嗯。虽然还想和两位继续训练，不过今天就到此为止吧。",
+			say = "네. 두 분이랑 계속 훈련하고 싶긴 하지만, 오늘은 여기까지 해요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "早知道今天干劲这么足就多申请点时间了……",
+			say = "오늘 이렇게 열정이 넘치는 줄 진작 알았다면, 신청 시간을 더 늘리는 건데......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "与沙恩姐妹一同训练已经成为了每周的必修课",
+			say = "샤른 언니와 함께 훈련하는 것은 매주의 필수 과목이 되었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "不只是训练，实战也——",
+			say = "훈련 뿐만이 아니라, 실전도——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "不知道她们两位有没有什么“愿望”？",
+			say = "두 분은 어떤 \"소망\"이 있는지 모르겠네?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "对了，借这个机会，正好问一下她们的想法，作为一个参考——",
+			say = "맞다, 이 기회를 빌어서 그녀들의 생각을 물어보면 되겠다. 참고로 삼는거야——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,11 +240,11 @@ return {
 			},
 			options = {
 				{
-					content = "问沙恩霍斯特",
+					content = "샤른호르스트에게 묻기",
 					flag = 1
 				},
 				{
-					content = "问格奈森瑙",
+					content = "그나이제나우에게 묻기",
 					flag = 2
 				}
 			}
@@ -256,7 +256,7 @@ return {
 			optionFlag = 1,
 			actor = 404010,
 			nameColor = "#92fc63",
-			say = "我的“愿望”？",
+			say = "내 “소망”?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			optionFlag = 1,
 			actor = 404010,
 			nameColor = "#92fc63",
-			say = "当然是变得更强，击败更多的敌人！",
+			say = "당연히 더 강해져서 더 많은 적을 처치하는 것이지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			optionFlag = 1,
 			actor = 404010,
 			nameColor = "#92fc63",
-			say = "不管遇到什么样的敌人，我都不会后退！",
+			say = "어떤 적을 만나던지, 난 후퇴하지 않을거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			optionFlag = 1,
-			say = "得到了很有沙恩霍斯特小姐风格的回答。",
+			say = "정말 샤른 언니다운 대답을 들었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			optionFlag = 2,
 			actor = 404020,
 			nameColor = "#92fc63",
-			say = "我的“愿望”吗……真是个不错的问题呢。",
+			say = "내 “소망”이라...... 괜찮은 질문이네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			optionFlag = 2,
 			actor = 404020,
 			nameColor = "#92fc63",
-			say = "目前的话应该就是更好地辅佐指挥官，以及在关键的时候能够阻止暴走的姐姐吧。",
+			say = "지금이라면 지휘관을 더욱 잘 보좌하는 것, 그리고 중요한 순간에 폭주하는 언니를 잘 저지하는 것이겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			optionFlag = 2,
-			say = "确实像是格奈森瑙小姐会有的想法。",
+			say = "확실히 그나이제나우 언니다운 생각이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "那斯佩你呢？你的“愿望”又是什么呢？",
+			say = "그럼 슈피 너는? 네 \"소망\"은 뭐야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "我吗？",
+			say = "저요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "我…没有什么特别想做的事情，只要待在这里我就很满足了。",
+			say = "저는... 특별히 하고 싶은 일은 없어요. 그냥 여기있는 것만으로 만족해요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "是啊，只要在这里，和大家在一起，不再像那个时候孤身一人，我就……",
+			say = "그래, 그냥 여기서. 모두와 함께. 더 이상 그 때처럼 혼자 외롭지 않게, 나는......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			say = "为什么，我会想起“那个时候”呢？",
+			say = "왜, \"그 때\"를 생각했지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
