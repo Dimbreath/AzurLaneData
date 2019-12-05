@@ -30456,6 +30456,118 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[202261] = {
+		ship_group = 20226,
+		name = "메이드씨는 동급생",
+		id = 202261,
+		desc = "지, 지휘관님이 제가 다른 옷을 입은 모습을 보고 싶다고 하셔서......“Cosplay” 같은건 아니에요! 저도 학교에서 수업듣는다고요...! 그, 그럼 된거죠?",
+		illustrator2 = -1,
+		bullet_skin_main = "",
+		bullet_skin_secondary = "",
+		painting = "gelasige_2",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 4,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "103",
+		isSwimsuit = 0,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "gelasige_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70274,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.35,
+					1.266,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.355,
+					1.32,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.001,
+					0.001,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.343,
+					1.335,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.39,
+							2.376,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[203010] = {
 		ship_group = 20301,
 		name = "런던",
@@ -34670,6 +34782,115 @@ pg.ship_skin_template = {
 				{
 					1.105,
 					1.021,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.22,
+							0.566,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.153,
+							1.018,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[206019] = {
+		ship_group = 20601,
+		name = "허미즈.改",
+		id = 206019,
+		desc = "영광이 모여 하나가 될 때, 새로운 인연이 미래를 비출거야! 극한을 초월한 바람은 밝게 빛나는 길이 될거야! 허미즈, 개조 완료! ",
+		illustrator2 = -1,
+		bullet_skin_main = "",
+		bullet_skin_secondary = "",
+		painting = "jingjishen_g",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		isSwimsuit = 0,
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "jingjishen_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 122,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.96,
+					1.06,
+					0
+				}
+			},
+			plane = {
+				{
+					0.96,
+					1.06,
 					0
 				}
 			}
@@ -91302,6 +91523,7 @@ pg.ship_skin_template = {
 		202241,
 		202250,
 		202260,
+		202261,
 		203010,
 		203019,
 		203020,
@@ -91339,6 +91561,7 @@ pg.ship_skin_template = {
 		205070,
 		205072,
 		206010,
+		206019,
 		206030,
 		206031,
 		206032,

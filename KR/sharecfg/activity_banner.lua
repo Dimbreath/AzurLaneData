@@ -96,48 +96,10 @@ pg.activity_banner = {
 			}
 		}
 	},
-	{
-		type = 2,
-		id = 4,
-		pic = "temp2",
-		param = {
-			"scene get boat",
-			{
-				projectName = "light"
-			}
-		},
-		time = {
-			{
-				{
-					2019,
-					11,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					12,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
 	all = {
 		1,
 		2,
-		3,
-		4
+		3
 	}
 }
 

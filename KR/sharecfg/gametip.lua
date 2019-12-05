@@ -7612,7 +7612,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "twitter_link_title"
 	},
 	battle_result_boss_destruct = {
-		tip = "BOSS의 자폭을 막으며 \n             격파하라!",
+		tip = "BOSS의 자폭을 막으며 격파하라!",
 		key = "battle_result_boss_destruct"
 	},
 	battle_preCombatLayer_boss_destruct = {

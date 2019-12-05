@@ -11,15 +11,15 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>“换句话说，要学会分享！”</size>",
+					"<size=51>“바꿔 말하면, 나눔을 배우는 거야!”</size>",
 					2
 				},
 				{
-					"<size=51>“无论是快乐还是烦恼，全都可以告诉我！”</size>",
+					"<size=51>“즐거움이든 고민이든, 모두 나에게 말해도 돼!”</size>",
 					4
 				},
 				{
-					"<size=51>“不会让你一直孤单一个人的！”</size>",
+					"<size=51>“널 계속 혼자 외롭게 두지 않을거야!”</size>",
 					6
 				}
 			}
@@ -29,7 +29,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港湾\n\n<size=45>二　偶遇</size>",
+					"항만\n\n<size=45>2 우연</size>",
 					1
 				}
 			}
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区",
+			say = "항구",
 			effects = {
 				{
 					active = false,
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "微风舒爽，正是适合散步的天气。",
+			say = "바람이 상쾌하다. 정말 산책하기 딱 좋은 날씨네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "（嚼嚼）",
+			say = "(냠냠)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			actor = 403050,
 			nameColor = "#92fc63",
-			say = "我想做的事情？",
+			say = "내가 하고 싶은 일?",
 			effects = {
 				{
 					active = true,
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "虽然在这里边吃着零食边散步让人非常安心，但是这应该不是我的“愿望”。",
+			say = "여기서 간식을 먹으며 산책하는 것도 매우 편하지만, 이건 결코 내 \"소망\"이 아니야.",
 			effects = {
 				{
 					active = false,
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "嗯？这个新口味的鱼干意外的很好吃……",
+			say = "응? 이 새로운 맛 어포 진짜 맛있네......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "喵~",
+			say = "미요옹~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "（猫？）",
+			say = "(고양이?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "不是指挥喵，而是普通的猫。",
+			say = "지휘냥이 아니면, 그냥 보통 고양이네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "喵——",
+			say = "냥——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "你是想吃这个吗？",
+			say = "너 이거 먹고 싶니?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "喵？",
+			say = "냥?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "给你。",
+			say = "줄게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "喵~喵~",
+			say = "냐~냐~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "猫先生慢慢地走了过来，吃起了我手中的鱼干。它看起来很高兴的样子。",
+			say = "고양이가 천천히 다가와 내 손에 있는 어포를 먹기 시작했다. 아주 즐거워 보인다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "真是个好孩子呢……",
+			say = "착하기도 하지......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "斯佩？你在做什么呢？",
+			say = "슈피? 뭐하고 있어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actorName = "猫",
-			say = "喵！",
+			say = "니양!",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -354,7 +354,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "啊——逃走了。",
+			say = "아——도망갔네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			}
 		},
 		{
-			say = "什么啊，原来是猫吗。",
+			say = "뭐야, 고양이구나.",
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -390,7 +390,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "姐姐，你把她吓跑了。",
+			say = "언니가 놀래켰어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "那种下等生物有什么好在意的。",
+			say = "저런 하등 생물이 뭐 어떻다고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "那姐姐，你要吃这个吗？",
+			say = "그럼 언니, 이거 먹을래?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "这种零食小孩子才——",
+			say = "이런 간식은 어린 애들이나——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "……不需要，谢了。",
+			say = "......아냐 됐어. 고마워.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#92fc63",
-			say = "对了！斯佩，我和你说啊，昨天的演习，皇家的那帮家伙——",
+			say = "맞다! 슈피, 잘 들어, 어제 연습에서, 로열의 그 녀석——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "结果最后一路听着姐姐的抱怨回到了宿舍。",
+			say = "결국 마지막에는 언니의 회포를 들으며 기숙사로 돌아왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "希望猫先生没有被姐姐吓到吧……",
+			say = "고양이가 언니로 인해 너무 놀라지 않았길 바란다......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
