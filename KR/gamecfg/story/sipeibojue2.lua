@@ -202,7 +202,7 @@ return {
 			}
 		},
 		{
-			actorName = "猫",
+			actorName = "고양이",
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
@@ -234,7 +234,7 @@ return {
 			}
 		},
 		{
-			actorName = "猫",
+			actorName = "고양이",
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
@@ -266,7 +266,7 @@ return {
 			}
 		},
 		{
-			actorName = "猫",
+			actorName = "고양이",
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
@@ -332,7 +332,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			actorName = "猫",
+			actorName = "고양이",
 			say = "니양!",
 			dialogShake = {
 				speed = 0.09,
