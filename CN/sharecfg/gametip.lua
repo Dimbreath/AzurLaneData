@@ -5382,6 +5382,7 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 			},
 			disableScroll = true,
 			pageMode = false,
+			buttonsHeight = -130,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
@@ -5391,8 +5392,8 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 				y = 15
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 924
 			}
 		}
 	},
@@ -8839,16 +8840,16 @@ $3]],
 				info = "厌战的特别训练活动说明："
 			},
 			{
-				info = "    1.玩家撞击金币啾可以加分，连续撞击金币啾可以累积\n    COMBO，根据当前COMBO数不同，获得的分数也不同哦；"
+				info = "    1.玩家撞击金币啾可以加分，连续撞击金币啾可以累积\n    COMBO，根据当前COMBO数不同，获得的分数也不同\n    哦；"
 			},
 			{
-				info = "    2.撞击鞭炮啾会打断COMBO，再次撞击金币啾后会重新开始\n    累积；"
+				info = "    2.撞击鞭炮啾会打断COMBO，再次撞击金币啾后会重新\n    开始累积；"
 			},
 			{
-				info = "    3.在关卡中获得10分以上（包括10分）即可获得【历战之证】，\n    另外只要完成关卡还可获得【骰子】，每天均有一次获得机\n    会，可累积。；"
+				info = "    3.在关卡中获得10分以上（包括10分）即可获得\n    【历战之证】，每天有一次获得机会，可累积。；"
 			},
 			{
-				info = "    注：【历战之证】最多可获得7个  【骰子】最多可获得15个 ；"
+				info = "    注：【历战之证】最多可获得7个   ；"
 			},
 			{
 				info = "    4.累积获得7个【历战之证】可以得到厌战改造限定道具\n    【战士的心得】 ；"
@@ -9091,7 +9092,7 @@ $3]],
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "斯坦利、格拉斯哥 建造追加！",
+		tip = "南安普顿、{namecode:174} 建造追加！",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
@@ -12009,6 +12010,38 @@ combo达到10/20/40/60/80/100时，分别为每次有效
 	secretary_pos_save_success = {
 		tip = "保存成功",
 		key = "secretary_pos_save_success"
+	},
+	collection_help = {
+		key = "collection_help",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/collect_help1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/collect_help2"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	},
 	juese_tiyan = {
 		tip = "是否开始角色体验关卡？（体验关卡中我方舰船属性仅供参考，<color=#ff5c5c>实际性能以获得舰船为准</color>） ",

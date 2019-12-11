@@ -293,7 +293,7 @@ function slot0.isOverTime(slot0)
 		return _.all(slot0:getConfig("ids"), function (slot0)
 			return not Furniture.New({
 				id = slot0
-			}):inTime()
+			}):IsShopType() or not slot1:inTime()
 		end)
 	end
 end

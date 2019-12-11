@@ -48523,7 +48523,7 @@ pg.chapter_template = {
 			},
 			{
 				2,
-				54022
+				54023
 			}
 		},
 		grids = {
@@ -49163,7 +49163,7 @@ pg.chapter_template = {
 			},
 			{
 				2,
-				54022
+				54023
 			}
 		},
 		grids = {
@@ -49741,7 +49741,7 @@ pg.chapter_template = {
 			},
 			{
 				2,
-				54022
+				54023
 			}
 		},
 		grids = {
@@ -50289,7 +50289,7 @@ pg.chapter_template = {
 			},
 			{
 				2,
-				54022
+				54023
 			}
 		},
 		grids = {
@@ -120420,8 +120420,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 100,
+		best_air_dominance = 130,
 		count = 0,
 		id = 1120001,
 		icon_outline = 0,
@@ -120970,8 +120970,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 135,
+		best_air_dominance = 175,
 		count = 0,
 		id = 1120002,
 		icon_outline = 0,
@@ -121660,8 +121660,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 170,
+		best_air_dominance = 220,
 		count = 0,
 		id = 1120003,
 		icon_outline = 0,
@@ -122317,8 +122317,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 205,
+		best_air_dominance = 265,
 		count = 0,
 		id = 1120004,
 		icon_outline = 0,
@@ -123092,8 +123092,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 220,
+		best_air_dominance = 285,
 		count = 0,
 		id = 1120005,
 		icon_outline = 0,
@@ -123662,8 +123662,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 320,
+		best_air_dominance = 415,
 		count = 0,
 		id = 1120006,
 		icon_outline = 0,
@@ -124240,8 +124240,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 425,
+		best_air_dominance = 555,
 		count = 0,
 		id = 1120007,
 		icon_outline = 0,
@@ -124873,8 +124873,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 535,
+		best_air_dominance = 695,
 		count = 0,
 		id = 1120008,
 		icon_outline = 0,
@@ -125662,8 +125662,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 355,
+		best_air_dominance = 460,
 		count = 0,
 		id = 1120011,
 		icon_outline = 0,
@@ -126253,8 +126253,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 430,
+		best_air_dominance = 560,
 		count = 0,
 		id = 1120012,
 		icon_outline = 0,
@@ -126986,8 +126986,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 505,
+		best_air_dominance = 655,
 		count = 0,
 		id = 1120013,
 		icon_outline = 0,
@@ -127684,8 +127684,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 580,
+		best_air_dominance = 755,
 		count = 0,
 		id = 1120014,
 		icon_outline = 0,
@@ -128500,8 +128500,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 635,
+		best_air_dominance = 825,
 		count = 0,
 		id = 1120015,
 		icon_outline = 0,
@@ -129111,8 +129111,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 790,
+		best_air_dominance = 1025,
 		count = 0,
 		id = 1120016,
 		icon_outline = 0,
@@ -129730,8 +129730,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 955,
+		best_air_dominance = 1240,
 		count = 0,
 		id = 1120017,
 		icon_outline = 0,
@@ -130404,8 +130404,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 1130,
+		best_air_dominance = 1470,
 		count = 0,
 		id = 1120018,
 		icon_outline = 0,
@@ -131234,8 +131234,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 1485,
+		best_air_dominance = 1935,
 		count = 0,
 		id = 1120021,
 		icon_outline = 0,
@@ -249881,7 +249881,11 @@ pg.chapter_template = {
 				2
 			}
 		},
-		ambush_expedition_list = {},
+		ambush_expedition_list = {
+			1290302,
+			1290305,
+			1290308
+		},
 		guarder_expedition_list = {
 			1290302,
 			1290311,

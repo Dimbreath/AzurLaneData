@@ -162,21 +162,24 @@ function slot0.setShipId(slot0, slot1)
 	setText(slot0.desc, pg.ship_data_statistics[slot1].desc or "")
 	setText(slot0.name, slot2.name)
 	SetActive(slot0.stars, true)
-	setText(slot0.desc, Ship.getWords(slot2.skin_id, "drop_descrip") or i18n("ship_drop_desc_default"))
 
-	slot5 = slot0.itemTF:Find("icon_bg/startpl")
-	slot7 = slot3:getStar()
+	slot4, slot5, slot6 = ShipWordHelper.GetWordAndCV(slot2.skin_id, ShipWordHelper.WORD_TYPE_DROP)
 
-	for slot12 = slot0.stars.childCount, slot3:getMaxStar() - 1, 1 do
-		cloneTplTo(slot5, slot0.stars)
+	setText(slot0.desc, slot6 or i18n("ship_drop_desc_default"))
+
+	slot7 = slot0.itemTF:Find("icon_bg/startpl")
+	slot9 = slot3:getStar()
+
+	for slot14 = slot0.stars.childCount, slot3:getMaxStar() - 1, 1 do
+		cloneTplTo(slot7, slot0.stars)
 	end
 
-	slot9 = slot8 - slot7
+	slot11 = slot10 - slot9
 
-	for slot13 = 0, slot0.stars.childCount - 1, 1 do
-		slot0.stars:GetChild(slot13).gameObject:SetActive(slot13 < slot8)
-		SetActive(slot14:Find("star_tpl"), slot9 <= slot13)
-		SetActive(slot14:Find("star_empty_tpl"), slot13 < slot9)
+	for slot15 = 0, slot0.stars.childCount - 1, 1 do
+		slot0.stars:GetChild(slot15).gameObject:SetActive(slot15 < slot10)
+		SetActive(slot16:Find("star_tpl"), slot11 <= slot15)
+		SetActive(slot16:Find("star_empty_tpl"), slot15 < slot11)
 	end
 
 	slot0.iconType.sprite = GetSpriteFromAtlas("shiptype", shipType2print(slot3:getShipType()))

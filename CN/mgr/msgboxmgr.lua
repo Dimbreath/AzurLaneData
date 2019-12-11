@@ -199,14 +199,17 @@ function slot4(slot0, slot1)
 	setActive(slot0._countDescTxt, SetActive ~= nil)
 	setText(slot0._tf:Find("window/exchange_ship_panel/name_mode/name"), HXSet.hxLan(slot1.name or slot1.drop.cfg.name or ""))
 	setText(slot0._tf:Find("window/exchange_ship_panel/name_mode/name/name"), getText(slot0._tf:Find("window/exchange_ship_panel/name_mode/name")))
-	setText(slot2, Ship.getWords(setText, "drop_descrip") or i18n("ship_drop_desc_default"))
+
+	slot5, slot6, slot7 = ShipWordHelper.GetWordAndCV(setText, ShipWordHelper.WORD_TYPE_DROP)
+
+	setText(slot2, slot7 or i18n("ship_drop_desc_default"))
 
 	if slot1.intro then
 		setText(slot2, slot1.intro)
 	end
 
 	if slot1.enabelYesBtn ~= nil then
-		setButtonEnabled(slot6, slot1.enabelYesBtn)
+		setButtonEnabled(slot8, slot1.enabelYesBtn)
 		eachChild(slot0._btnContainer:GetChild(1), function (slot0)
 			GetOrAddComponent(slot0, typeof(CanvasGroup)).alpha = (slot0.enabelYesBtn and 1) or 0.3
 		end)
@@ -404,7 +407,9 @@ function slot7(slot0, slot1)
 	elseif slot1.drop.type == DROP_TYPE_FURNITURE then
 		setText(slot3, slot1.drop.cfg.describe)
 	elseif slot1.drop.type == DROP_TYPE_SHIP then
-		setText(slot3, Ship.getWords(slot14, "drop_descrip") or i18n("ship_drop_desc_default"))
+		slot15, slot16, slot17 = ShipWordHelper.GetWordAndCV(slot14, ShipWordHelper.WORD_TYPE_DROP)
+
+		setText(slot3, slot17 or i18n("ship_drop_desc_default"))
 	elseif slot1.drop.type == DROP_TYPE_EQUIP then
 		for slot17 = 1, 4, 1 do
 			slot18 = slot2:GetChild(slot17 - 1)
@@ -508,6 +513,13 @@ function slot8(slot0, slot1)
 		setAnchoredPosition(slot0._window, {
 			x = 0,
 			y = 0
+		})
+	end
+
+	if slot1.helps.buttonsHeight then
+		setAnchoredPosition(slot0._btnContainer, {
+			x = 0,
+			y = slot1.helps.buttonsHeight
 		})
 	end
 
@@ -936,6 +948,10 @@ function pg.MsgboxMgr.Clear(slot0)
 	rtf(slot0._helpPanel).sizeDelta = slot0._defaultHelpSize
 
 	setAnchoredPosition(slot0._window, {
+		x = 0,
+		y = 0
+	})
+	setAnchoredPosition(slot0._btnContainer, {
 		x = 0,
 		y = 0
 	})

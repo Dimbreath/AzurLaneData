@@ -321,7 +321,7 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == BackYardHouseProxy.BACKYARD_CANT_PUT then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_backyardScene_error_noPosPutFurniture"))
 	elseif slot2 == BackYardHouseProxy.BACKYARD_ADD_FURNITURE then
-		slot0.viewComponent:loadFurnitureModel(slot3.furniture, slot3.callback)
+		slot0.viewComponent:loadFurnitureModel(slot3.furniture, false, slot3.callback)
 
 		if not slot3.furniture:isFloor() then
 			slot0.viewComponent:sortWallFurns()
@@ -415,9 +415,9 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == BackYardHouseProxy.ON_CLEAR_SPINE_EXTRA_INTERACTION then
 		slot0.viewComponent:clearSpineExtra(slot3.furnitureId, slot3.shipId, slot3.pos)
 	elseif slot2 == BackYardHouseProxy.APPLY_EFFECT then
-		slot0.viewComponent:applyEffect(slot3)
+		slot0.viewComponent:applyEffect(slot3:getEffectName())
 	elseif slot2 == BackYardHouseProxy.DISABLE_EFFECT then
-		slot0.viewComponent:disableEffect(slot3)
+		slot0.viewComponent:disableEffect(slot3:getEffectName())
 	elseif slot2 == BackYardHouseProxy.TRANSPORT_INTERAACTION_START then
 		slot0.viewComponent:InterActionTransport(slot3.shipId, slot3.furnitureId)
 	elseif slot2 == BackYardHouseProxy.TRANSPORT_INTERAACTION_START_AGAIN then

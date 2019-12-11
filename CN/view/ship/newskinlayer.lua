@@ -75,7 +75,7 @@ function slot0.voice(slot0, slot1)
 	if slot0.loadedCVBankName then
 		slot2()
 	else
-		pg.CriMgr:LoadCV(Ship.getCVKeyID(slot0._skinConfig.id), function ()
+		pg.CriMgr:LoadCV(ShipWordHelper.RawGetCVKey(slot0._skinConfig.id), function ()
 			slot0 = pg.CriMgr.GetCVBankName(pg.CriMgr.GetCVBankName)
 
 			if pg.CriMgr.GetCVBankName.exited then
@@ -97,7 +97,6 @@ function slot0.setSkin(slot0, slot1)
 	slot0:recyclePainting()
 
 	slot0._skinConfig = pg.ship_skin_template[slot1]
-	slot0._wordsConfig = Ship.getShipWords(slot1)
 	slot2 = pg.ship_skin_template[slot1].ship_group
 	slot3 = pg.ship_data_statistics[slot0._skinConfig.ship_group * 10 + 1]
 	slot4 = nil
@@ -120,16 +119,17 @@ function slot0.setSkin(slot0, slot1)
 	setPaintingPrefabAsync(slot0._paintingTF, slot0._skinConfig.painting, "huode")
 
 	slot0._skinName.text = i18n("ship_newSkin_name", HXSet.hxLan(slot0._skinConfig.name))
-	slot5 = ""
-	slot6 = nil
+	slot5 = nil
+	slot6 = ""
+	slot7 = nil
 
-	if slot0._wordsConfig.unlock == "" then
-		slot5 = Ship.getWords(slot1, "drop_descrip")
+	if ShipWordHelper.RawGetWord(slot1, ShipWordHelper.WORD_TYPE_UNLOCK) == "" then
+		slot5, slot7, slot6 = ShipWordHelper.GetWordAndCV(slot1, ShipWordHelper.WORD_TYPE_DROP)
 	else
-		slot5, slot6 = Ship.getWords(slot1, "unlock")
+		slot5, slot7, slot6 = ShipWordHelper.GetWordAndCV(slot1, ShipWordHelper.WORD_TYPE_UNLOCK)
 	end
 
-	setWidgetText(slot0._dialogue, slot5, "desc/Text")
+	setWidgetText(slot0._dialogue, slot6, "desc/Text")
 
 	slot0._dialogue.transform.localScale = Vector3(0, 1, 1)
 
@@ -152,7 +152,7 @@ function slot0.showExitTip(slot0)
 end
 
 function slot0.didEnter(slot0)
-	slot0.shipName = HXSet.hxLan(pg.ship_skin_template[Ship.getOriginalSkinId(slot0.contextData.skinId)].name)
+	slot0.shipName = HXSet.hxLan(pg.ship_skin_template[ShipWordHelper.GetDefaultSkin(slot0.contextData.skinId)].name)
 
 	onButton(slot0, slot0._viewBtn, function ()
 		slot0.isInView = true
