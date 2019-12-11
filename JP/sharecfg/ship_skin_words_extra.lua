@@ -360,13 +360,80 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[301090] = {
+		feeling3 = "",
+		upgrade = "",
+		id = 301090,
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = "",
+		detail = "",
+		main = {
+			{
+				100,
+				"nil|響、これぐらいではそれがし、迷子にならないでござるよ！|nil"
+			}
+		},
+		touch = {
+			{
+				100,
+				"響？指揮官殿でござるか……"
+			}
+		}
+	},
+	[301091] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		id = 301091,
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = "",
+		detail = "",
+		main = {
+			{
+				100,
+				"響を見つけるの、大変でござったな……そ、それがしが迷子になったわけじゃないでござる！|nil|nil"
+			}
+		}
+	},
 	all = {
 		999010,
 		801040,
 		108030,
 		999011,
 		207050,
-		905030
+		905030,
+		301090,
+		301091
 	}
 }
 

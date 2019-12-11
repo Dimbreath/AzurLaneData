@@ -37,6 +37,7 @@ end
 function slot7.UpdateAutoComponent(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0._scoutList) do
 		slot6:UpdateWeapon(slot1)
+		slot6:UpdateAirAssist()
 	end
 
 	for slot5, slot6 in ipairs(slot0._mainList) do

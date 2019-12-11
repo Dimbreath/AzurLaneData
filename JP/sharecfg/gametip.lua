@@ -5476,6 +5476,7 @@ pg.gametip = {
 			},
 			disableScroll = true,
 			pageMode = false,
+			buttonsHeight = -130,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
@@ -5485,8 +5486,8 @@ pg.gametip = {
 				y = 15
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 924
 			}
 		}
 	},
@@ -8652,28 +8653,28 @@ pg.gametip = {
 				info = "遊び方："
 			},
 			{
-				info = "    1.コインを持ってる饅頭と接触すると、スコアを入手できます；"
+				info = "    1.コインを持ってる饅頭と接触すると、スコアを入手\nできます；"
 			},
 			{
-				info = "    2.連続でコインを持ってる饅頭と接触すると、COMBO数が増加\nし、接触時の入手スコアが上昇します；"
+				info = "    2.連続でコインを持ってる饅頭と接触すると、\nCOMBO数が増加し、接触時の入手スコアが上昇します；"
 			},
 			{
-				info = "    3.爆竹を持ってる饅頭と接触すると、COMBO数が0にリセット\nされます；"
+				info = "    3.爆竹を持ってる饅頭と接触すると、COMBO数が0\nにリセットされます；"
 			},
 			{
-				info = "    4.スコアを10以上入手すると、【歴戦の証】を1個入手できます。\nまた、ミニゲームをクリアした時に、【サイコロ】を1個入手でき\nます ；"
+				info = "    4.スコアを10以上入手すると、【歴戦の証】を1個入\n手できます。"
 			},
 			{
-				info = "    ※【歴戦の証】の入手可能個数は2/6まで（最大7個）、【サイコ\nロ】の一日の入手可能個数は2/14 メンテナンス時まで1日1個ずつ\n追加される（最大15個） ；"
+				info = "    ※【歴戦の証】の入手可能個数は2/6まで（最大7個）"
 			},
 			{
-				info = "    5.【歴戦の証】を7個入手すると、ウォースパイトの近代化改修\n（改造）素材アイテム【戦士の心得】を入手可能 ；"
+				info = "    5.【歴戦の証】を7個入手すると、ウォースパイトの\n近代化改修（改造）素材アイテム【戦士の心得】を入手\n可能 ；"
 			},
 			{
-				info = "    6.ミニゲームで撤退した場合【歴戦の証】と【サイコロ】を入手で\nきません ；"
+				info = "    6.ミニゲームで撤退した場合【歴戦の証】を入手で\nきません ；"
 			},
 			{
-				info = "    7.残り時間が0になると、ミニゲームが終了になります ；"
+				info = "    7.残り時間が0になると、ミニゲームが終了になりま\nす ；"
 			}
 		}
 	},
@@ -8926,7 +8927,7 @@ pg.gametip = {
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "「スタンリー」、「グラスゴー」常設追加！",
+		tip = "「サウサンプトン」、「清波」常設追加！",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
@@ -12151,6 +12152,38 @@ L2DアニメーションのON・OFFは秘書艦変更画面で
 	secretary_pos_save_success = {
 		tip = "秘書艦の表示設定を保存しました",
 		key = "secretary_pos_save_success"
+	},
+	collection_help = {
+		key = "collection_help",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/collect_help1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/collect_help2"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	},
 	juese_tiyan = {
 		tip = "お試しステージをプレイしますか？",

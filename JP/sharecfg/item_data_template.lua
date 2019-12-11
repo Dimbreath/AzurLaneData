@@ -14194,6 +14194,21 @@ pg.item_data_template = {
 			0
 		}
 	},
+	[59939] = {
+		limit = "[]",
+		display_effect = "",
+		other_resource_cost = "[]",
+		usage = "usage_undefined",
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		id = 59939,
+		compose_number = 0,
+		target_id = 0,
+		open_ui = {
+			0,
+			0
+		}
+	},
 	[60001] = {
 		limit = "[{lv_max,20}]",
 		display_effect = "",
@@ -15205,6 +15220,7 @@ pg.item_data_template = {
 		59922,
 		59923,
 		59924,
+		59939,
 		60001,
 		60002,
 		60003,

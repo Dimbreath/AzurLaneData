@@ -29,7 +29,7 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.getBGM(slot0)
-	return "holo-fbk"
+	return "main"
 end
 
 function slot0.setShipGroups(slot0, slot1)
@@ -166,6 +166,16 @@ function slot0.didEnter(slot0)
 			slot0:emit(slot1.ON_BACK)
 		end
 	end, SFX_CANCEL)
+
+	slot0.helpBtn = slot0:findTF("help_btn", slot0.leftPanel)
+
+	onButton(slot0, slot0.helpBtn, function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.collection_help.tip,
+			weight = LayerWeightConst.THIRD_LAYER
+		})
+	end, SFX_PANEL)
 	setActive(slot1, getProxy(TaskProxy):mingshiTouchFlagEnabled())
 	onButton(slot0, slot1, function ()
 		getProxy(TaskProxy):dealMingshiTouchFlag(8)
@@ -189,6 +199,13 @@ function slot0.didEnter(slot0)
 						slot1[slot1.toggleUpdates[slot0]](slot1[slot1.toggleUpdates[slot0]])
 						slot1[slot1.toggleUpdates[slot0]]:calFavoriteRate()
 					end
+				end
+
+				slot1(slot1.helpBtn, slot0 == 1)
+
+				if slot0 == 1 and not getProxy(SettingsProxy):IsShowCollectionHelp() then
+					triggerButton(slot1.helpBtn)
+					slot1:SetCollectionHelpFlag(true)
 				end
 			end
 		end, SFX_UI_TAG)
