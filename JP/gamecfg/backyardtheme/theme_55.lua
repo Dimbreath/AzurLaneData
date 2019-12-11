@@ -1,5 +1,5 @@
 return {
-	id = 54,
+	id = 55,
 	furnitures_1 = {
 		{
 			dir = 1,

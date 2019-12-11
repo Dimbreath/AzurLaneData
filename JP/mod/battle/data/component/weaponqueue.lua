@@ -153,13 +153,20 @@ function ys.Battle.WeaponQueue.updateWeapon(slot0, slot1, slot2)
 	end
 
 	for slot7, slot8 in ipairs(slot3) do
-		slot9 = slot8:GetCurrentState()
+		slot9 = false
+		slot10 = false
+
+		if slot8:GetCurrentState() == slot8.STATE_PRECAST or slot11 == slot8.STATE_READY or (slot11 == slot8.STATE_OVER_HEAT and slot8:CheckReloadTimeStamp()) then
+			slot9 = true
+		end
 
 		slot8:Update(slot2)
 
-		slot10 = slot8:GetCurrentState()
+		if slot8:GetCurrentState() == slot8.STATE_PRECAST or slot12 == slot8.STATE_READY then
+			slot10 = true
+		end
 
-		if slot1 ~= slot0.NON_QUEUE_WEAPON and ((slot10 ~= slot9 and (slot9 == slot8.STATE_PRECAST or slot9 == slot8.STATE_READY)) or slot8:IsAttacking()) then
+		if slot1 ~= slot0.NON_QUEUE_WEAPON and ((slot9 and not slot10) or slot8:IsAttacking()) then
 			break
 		end
 	end

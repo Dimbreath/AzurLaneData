@@ -101,11 +101,12 @@ function slot0.updateStatistics(slot0)
 		setImageSprite(slot0._tf, slot0, false)
 	end)
 
-	slot20, slot17 = Ship.getWords(slot1.skinId, "upgrade", nil, nil, slot1:getIntimacy() / 100 + ((slot1.propose and 1000) or 0))
+	slot17 = (slot1.propose and 1000) or 0
+	slot17, slot18, slot22 = ShipWordHelper.GetWordAndCV(slot1.skinId, ShipWordHelper.WORD_TYPE_UPGRADE, nil, nil, slot1:getIntimacy() / 100)
 
-	setWidgetText(slot0._chat, Ship.getWords)
+	setWidgetText(slot0._chat, slot19)
 
-	"upgrade".alignment = (CHAT_POP_STR_LEN < #slot0:findTF("Text", slot0._chat):GetComponent(typeof(Text)).text and TextAnchor.MiddleLeft) or TextAnchor.MiddleCenter
+	slot20.alignment = (CHAT_POP_STR_LEN < #slot0:findTF("Text", slot0._chat):GetComponent(typeof(Text)).text and TextAnchor.MiddleLeft) or TextAnchor.MiddleCenter
 	slot0._chat.transform.localScale = Vector3(0, 0, 1)
 	slot0.delayTId = LeanTween.delayedCall(0.6, System.Action(function ()
 		SetActive(slot0._chat, true)
@@ -113,19 +114,19 @@ function slot0.updateStatistics(slot0)
 		LeanTween.scale(rtf(slot0._chat), Vector3.New(1, 1, 1), 0.3).setEase:voice(LeanTween.scale(rtf(slot0._chat), Vector3.New(1, 1, 1), 0.3).setEase)
 	end)).id
 
-	GetSpriteFromAtlasAsync("newshipbg/bg_" .. slot1.rarity2bgPrintForGet(slot20), "", function (slot0)
+	GetSpriteFromAtlasAsync("newshipbg/bg_" .. slot1.rarity2bgPrintForGet(slot22), "", function (slot0)
 		setImageSprite(slot0._bg, slot0)
 	end)
 
-	if slot1.isBluePrintShip(slot20) then
-		if slot0.designBg and slot0.designName ~= "raritydesign" .. slot20:getRarity() then
+	if slot1.isBluePrintShip(slot22) then
+		if slot0.designBg and slot0.designName ~= "raritydesign" .. slot22:getRarity() then
 			PoolMgr.GetInstance():ReturnUI(slot0.designName, slot0.designBg)
 
 			slot0.designBg = nil
 		end
 
 		if not slot0.designBg then
-			PoolMgr.GetInstance():GetUI("raritydesign" .. slot20:getRarity(), true, function (slot0)
+			PoolMgr.GetInstance():GetUI("raritydesign" .. slot22:getRarity(), true, function (slot0)
 				slot0.designBg = slot0
 				slot0.designName = "raritydesign" .. slot1:getRarity()
 
@@ -144,7 +145,7 @@ function slot0.updateStatistics(slot0)
 		setActive(slot0.designBg, false)
 	end
 
-	PoolMgr.GetInstance():GetUI("tupo_" .. slot20:getRarity(), true, function (slot0)
+	PoolMgr.GetInstance():GetUI("tupo_" .. slot22:getRarity(), true, function (slot0)
 		slot0.transform:SetParent(slot0._tf, false)
 
 		slot0.transform.localPosition = Vector3(1, 1, 1)
@@ -180,7 +181,7 @@ function slot0.voice(slot0, slot1)
 	if slot0.loadedCVBankName then
 		slot2()
 	else
-		pg.CriMgr:LoadCV(Ship.getCVKeyID(slot0.contextData.newShip.skinId), function ()
+		pg.CriMgr:LoadCV(ShipWordHelper.RawGetCVKey(slot0.contextData.newShip.skinId), function ()
 			slot0 = pg.CriMgr.GetCVBankName(pg.CriMgr.GetCVBankName)
 
 			if pg.CriMgr.GetCVBankName.exited then
