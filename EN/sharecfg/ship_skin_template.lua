@@ -39984,6 +39984,114 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[301211] = {
+		ship_group = 30121,
+		name = "Snow Day Hatsuharu",
+		bullet_skin_main = "",
+		desc = "Everyone's playing together...? I-I think I'll pass... Y-you want me to join them? Ugh, well, if you say so, then I-I-I'll try to socialize with them...!",
+		illustrator2 = -1,
+		id = 301211,
+		bullet_skin_secondary = "",
+		no_showing = "0",
+		painting = "chuchun_2",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 14,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "chuchun_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70139,
+		voice_actor = 52,
+		air_bomb_skin = "",
+		illustrator = 27,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.9,
+					1.41,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.05,
+					1.32,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.08,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.12,
+					1.13,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.44,
+							2.25,
+							-0.99
+						}
+					}
+				}
+			}
+		}
+	},
 	[301230] = {
 		ship_group = 30123,
 		name = "Wakaba ",
@@ -44920,13 +45028,13 @@ pg.ship_skin_template = {
 	},
 	[301641] = {
 		ship_group = 30164,
-		name = "驯鹿与圣诞礼物",
+		name = "The Reindeer's Present",
 		bullet_skin_main = "",
-		desc = "Merry Christmas ~指挥官，我们一起去给驱逐妹妹们送圣诞礼物吧，指挥官是圣诞老人，而我就是驯鹿，嘻嘻~",
+		desc = "Merry Christmas~ Commander, we gotta go hand out presents to them destroyers~ You be Santa, I'll be yer reindeer~",
 		illustrator2 = -1,
 		id = 301641,
 		bullet_skin_secondary = "",
-		no_showing = "1",
+		no_showing = "0",
 		painting = "dachao_2",
 		air_bullet_skin = "",
 		shop_type_id = 1,
@@ -84909,6 +85017,7 @@ pg.ship_skin_template = {
 		301189,
 		301200,
 		301210,
+		301211,
 		301230,
 		301240,
 		301250,

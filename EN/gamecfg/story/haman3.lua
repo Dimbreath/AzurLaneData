@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"哈曼观察日志\n\n<size=45>三 不高兴的理由·中</size>",
+					"Hammann Observation Diary\n\n<size=45>Chapter 3: Unhappiness, Part 2</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "被哈曼赶出指挥室后过了一会儿……",
+			say = "A while after Hammann chased me out of the office...",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -28,7 +28,7 @@ return {
 			},
 			options = {
 				{
-					content = "吃着外卖继续观察哈曼",
+					content = "Continue observing Hammann while eating your to-go meal",
 					flag = 1
 				}
 			}
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101250,
-			say = "总，总之先打扫一下指挥室吧……",
+			say = "In, in any case, I should clean up the office...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "五分钟后——",
+			say = "Five minutes later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101250,
-			say = "怎，怎么办…要是被指挥官嫌弃了…哈曼就…",
+			say = "Wh-what should I do...? What if Commander ends up hating me...?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不会的，现在还不会，只要去找指挥官道个歉……可我又不知道他现在去哪了……",
+			say = "No, it's not too late. I'll have to properly apologize... But I don't know where Commander is now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "对了，去问问正在用演习海域的列克星敦姐姐…",
+			say = "That's right! I'll go ask Lexington, since she should be using the training area right now...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不行不行不行！我得预习一下要是在路上碰到指挥官了该怎么办…！",
+			say = "No, no, no! I have to practice what to say in case I run into Commander along the way...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哈曼啪啪的拍了拍脸，振作精神。",
+			say = "Hammann gave herself a couple quick pats on the cheeks to cheer up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "指，指指，指挥官！把，把你赶出去对不起啦！",
+			say = "C-C-Commander! S-Sorry for chasing you out of the office!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "别在这里摸鱼了！快回指挥室去！",
+			say = "Stop loafing around and get back to work already!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……",
+			say = "... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊不行！这么说的话指挥官又要消沉了…！",
+			say = "Aaahhh! Wait! If I said it like that, Commander would just get depressed...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哈曼抱着脑袋，十分苦恼的样子。",
+			say = "Hammann hugged her head, apparently agonizing over this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊啊不管了！就用萨拉托加上次告诉我的办法……",
+			say = "Aahh, forget it! I'll just do that method Saratoga told me to try last time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "“不好意思啦指挥官♪哈曼刚才呀，犯了个小错误呢☆”",
+			say = "Sorry, Commander~♪ Hammann made a little oopsies earlier~☆",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "“哈曼会为了指挥官更~努力的，所以你就原谅哈曼嘛(>_<)”",
+			say = "Hammann will be a good girl next time and work harder for Commander's sake, so please forgive her (>_<)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "（开门）",
+			say = "(The door creaks open)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哈曼♪我来找你玩了~",
+			say = "Hammann~♪ Let's play~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "诶？",
+			say = "Eh...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "诶？",
+			say = "Eh...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 101250,
-			say = "啊啊啊啊啊啊啊！！！！",
+			say = "Gyaaaaaaaaaah!!!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

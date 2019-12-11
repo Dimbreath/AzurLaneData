@@ -96,10 +96,12 @@ return {
 			}
 		},
 		{
-			actorName = "Observer",
+			bgmDelay = 1,
 			side = 2,
 			dir = 1,
 			blackBg = true,
+			actorName = "Observer",
+			bgm = "holo-inochi",
 			actor = 900012,
 			nameColor = "#a9f548",
 			say = "\"Purifier. Welcome back♪\"",

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"圣诞礼物大作战！\n\n<size=45>三　圣诞节的阴影（上）</size>",
+					"Operation: Christmas!\n\n<size=45>Chapter 3: The Shadow over Christmas, Pt. 1</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·白鹰生活区",
+			say = "Port - Eagle Union Dormitory",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼，又到圣诞节了啊！唔……突然想起去年扮演圣诞老人的姐姐，总感觉背后有些发凉……",
+			say = "Ah, it's beginning to look a lot like Christmas! Although thinking of Christmas gives me chilling flashbacks to Enty's Santa costume last year...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽说收到礼物很高兴，但是毕竟扮做圣诞老人的是那位企业啊，紧张的不行呢……",
+			say = "I don't mind getting presents, but I'd be anxious about having her as our Santa again...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶嘿，扮做圣诞老人的企业萨拉很喜欢哦！不如今年就由我来……",
+			say = "Heh heh heh! Personally, I quite liked her costume! But I say it's time for Sara to take on the role this year and–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨拉？圣诞节不可以给大家添麻烦哦，这样下去大家要对圣诞节有阴影了。",
+			say = "No, Sara. No mischief during Christmas. We can't have you causing a ruckus on such a beloved holiday, can we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今年企业酱她貌似出港去执行任务了。唔，总感觉有些寂寞……",
+			say = "Enterprise is away from port on a mission at the moment. It's a little lonely here without her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "总……总之，我已经不想像去年那样尴尬的从姐姐那边收礼物了！趁姐姐现在不在港区，我们赶快……",
+			say = "Thank gosh for that! I can't for the life of me keep a straight face and accept a present from Santaprise. Let's pick a new Santa, while she's–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "咚咚咚的敲门声",
+			say = "(Knock knock)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "呜哇！不会是姐姐回来了吧！",
+			say = "Aw, heck! She's not back already, is she?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "白鹰的各位盟友们，好久不见。我们是来找企业询问一些事情的，不知道她现在……",
+			say = "Greetings, my Eagle Union friends! We were hoping to ask Enterprise a question. Do you know where she is?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊呀，是皇家的厌战小姐！有些抱歉，企业酱现在还没有归港呢……",
+			say = "Hello there, Warspite. Sadly, Enterprise isn't here. She's out on a mission and hasn't returned yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们……想问问，白鹰的圣诞老人会选择……什么样的礼物送给大家……",
+			say = "Oh. Well... we wanted to ask her what would make a good present for our friends, since she has experience with being Santa...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦呀？如果是圣诞礼物相关的事情，萨拉小姐知道一个人或许可以帮上你们哦！",
+			say = "Did I hear someone say 'presents'? Sara knows just the girl for you to talk to!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过……她现在不在这里呢！不如，我们去她的房间找她？",
+			say = "She should be in her room right now. I'll take you to her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是你的同伴吗？那么有劳带路了。",
+			say = "She's also from Eagle Union, I take it? Very well, show us the way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			actor = 201100,
 			nameColor = "#a9f548",
-			say = "直……直接去女孩子的房间……真的好嘛……",
+			say = "Is it fine to just ask her directly like that...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			blackBg = true,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "不用那么害羞啦！我们白鹰可是主张OPEN&FREE的啦！跟我来吧！",
+			say = "Of course! The Eagle Union is built on openness and freedom! Come on, follow me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

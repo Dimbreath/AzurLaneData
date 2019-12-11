@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"圣诞礼物大作战！\n\n<size=45>七　礼物大作战，成功！</size>",
+					"Operation: Christmas!\n\n<size=45>Chapter 7: Commence Operation: Christmas!</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "main-christmas",
 			actor = 205021,
 			nameColor = "#a9f548",
-			say = "嗯！这样礼物就全部送回来了。",
+			say = "Marvelous! We've gotten all the presents in one place!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			say = "可真是……累坏了……不过……咱有帮上忙，还是很高兴的。",
+			say = "*Pant*... *Pant*... Now I understand what they mean by holiday fatigue... But I'm glad I was able to help...",
 			side = 1,
 			bgName = "star_level_bg_100",
 			dir = 1,
@@ -78,7 +78,7 @@ return {
 			dir = -1,
 			actor = 205021,
 			nameColor = "#a9f548",
-			say = "在就只剩下把礼物送到大家手中了，现在出发！",
+			say = "All that is left is to hand them out! It's time for the old lady to get to work!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜……咱想……咱想休息一会……",
+			say = "I-I think I need to rest for a bit...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = -1,
 			actor = 205021,
 			nameColor = "#a9f548",
-			say = "呼，好了！大家的礼物都发完了，就差把这个巨大玩偶送给陛下了。",
+			say = "Whew, almost done. Now just to deliver this stuffed toy to Her Majesty...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "什……什么？竟然真的给本王准备了礼物？不……不愧是厌战呢！想……想的很周到嘛……",
+			say = "Warspite...! You've brought me a present?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			say = "陛下，祝您圣诞快乐，这是您之前看了很久的蛮啾玩偶，送给您！",
+			say = "Yes, Your Majesty! Merry Christmas! I sincerely hope this humble gift will be to Your Majesty's liking!",
 			side = 0,
 			bgName = "star_level_bg_100",
 			dir = -1,
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "才……才没有看很久呢！不过，既然是你用心准备的，本王也没有拒绝的理由不是嘛",
+			say = "... N-no, I'm not very fond of it! In fact, it's not to my liking whatsoever!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = -1,
 			actor = 205021,
 			nameColor = "#a9f548",
-			say = "陛下，您千万不要勉强，如果您不喜欢这个玩偶的话，我立马去帮您选择其他的礼物。",
+			say = "If that is so, then I shall see to it that it is immediately disposed of, Your Majesty!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……等等！本王还什么都没说，不要乱猜本王的意思啦！就……就把它放在那边好了。",
+			say = "Halt! Place it over there for the time being. It would be a waste to simply throw it away... Especially after you just gave it to me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哈哈，是，陛下！",
+			say = "As you command, Your Majesty!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			bgName = "star_level_bg_100",
 			actor = 205021,
 			nameColor = "#a9f548",
-			say = "呼，虽然很累，不过只要大家能度过一个快乐的圣诞节，这点辛苦不算什么。",
+			say = "Now all presents have been delivered. I hope everyone's having a merry Christmas...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -299,7 +299,7 @@ return {
 			dir = -1,
 			actor = 205021,
 			nameColor = "#a9f548",
-			say = "嗯？怎么还剩了一个这么大的箱子？？",
+			say = "... Hm? What's with this leftover box...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			dir = -1,
 			actor = 205021,
 			nameColor = "#a9f548",
-			say = "等等？这里面好像有声音传了出来？",
+			say = "What in the–?! It's making noise!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			actor = 101312,
 			nameColor = "#a9f548",
-			say = "呜……天亮了？！啊……啊咧？这里是？",
+			say = "Good morning... Huh...? Where am I...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			}
 		},
 		{
-			say = "尼古拉斯？！怎么会在礼物箱里？",
+			say = "Nicholas?! How did you get in there? Aha, were you... wrapped up in the hustle and bustle of Christmas?",
 			side = 0,
 			bgName = "star_level_bg_100",
 			dir = -1,
@@ -379,7 +379,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个……刚才在雪橇上，觉得……这个盒子里面，很舒服，于是……不知不觉……睡了进去。",
+			say = "No puns first thing after I wake up, please... I think I fell into the box when you got on the sleigh... then fell asleep cause it's so comfy in here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = -1,
 			actor = 205021,
 			nameColor = "#a9f548",
-			say = "诶……诶？原来是……这样吗？",
+			say = "I-I see... Well, this certainly was a surprise for both of us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			dir = -1,
 			actor = 107061,
 			nameColor = "#a9f548",
-			say = "抱歉！厌战，刚刚跟我一起出来的驱逐舰尼古拉斯不见了！你有没有看到她？",
+			say = "Hey, sorry for barging in! Warspite, have you seen Nicholas? She was with me just earlier...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哈哈哈，原来是这么一回事。那么，这孩子就是给你的圣诞礼物，企业。",
+			say = "... Funny you say that, Enterprise! She's right here. Think of her as my present to you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			actor = 101312,
 			nameColor = "#a9f548",
-			say = "我……睡一觉就变成礼物了呢……不过，给企业的话，可以哦~~",
+			say = "Huhhh? I'm a present now...? I guess that's fine... I don't mind being Enterprise's present...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			blackBg = true,
 			actor = 205021,
 			nameColor = "#a9f548",
-			say = "祝你圣诞快乐！",
+			say = "Let's just say you're a... gifted girl, Nicholas. To you, and to all, Merry Christmas!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"我的美好回忆\n\n<size=45>五 可爱的小猪仔</size>",
+					"My Fond Memories\n\n<size=45>Chapter 5: Cute Little Piggy</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "醒来时，发现自己躺在房间的床上。",
+			say = "When I woke up, I was in the bed in the office.",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "真是让人伤脑筋的小猪仔啊…我说过让你好好休息的吧？",
+			say = "What a troublesome little piggy... Didn't I tell you to rest properly?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "都这么照顾你了，再不好好听话之后要给你惩罚了哦？",
+			say = "Since you're already having me nurse you back like this, if you don't follow my every order, you're going to be punished~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "啊~等感冒好了要怎么玩弄你呢…光是想想就很让人兴奋呢~",
+			say = "Hmm... How should I tease you once your cold gets better... I'm getting excited just thinking about it~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,23 +83,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "头很晕。看来是感冒了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202030,
-			nameColor = "#a9f548",
-			bgName = "bg_story_room",
-			side = 2,
-			dir = 1,
-			say = "不过呢，虽说是你在感冒休息，我的工作还是不能不做呢…",
+			say = "My head feels dull and sluggish... It seems like I've caught the cold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +99,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "今天就通宵——边工作边照顾你吧。小・猪・仔♪",
+			say = "But you know, I can't just neglect the work that has been piling up just because you're out with the cold, so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +115,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "为什么要叫你小猪仔？怎么现在才问这种问题？",
+			say = "Tonight, I'm going to stay up all night - I shall take care of work while also taking care of you. lit~tle~ pig~gy~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,21 +131,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "我捉弄起来好玩的都叫小猪仔哦。…不过宠物小猪仔就稍微不一样了呢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "阿贾克斯换下敷在额头的湿毛巾，还端来了粥碗（和勺子）。",
+			say = "Why are you a little piggy, you ask? Why are you only asking this now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +147,83 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "我给你熬了粥，趁热吃吧？",
+			say = "To me, anyone that's worth teasing is a little piggy, you know? ... Well, that said, little pet piggies are special to me.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			say = "After replacing the soaked towel on my forehead, Ajax brought a bowl of chicken noodle soup and a spoon over.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202030,
+			nameColor = "#a9f548",
+			bgName = "bg_story_room",
+			side = 2,
+			dir = 1,
+			say = "I went through the trouble of making some chicken noodle soup. Eat it while it's still hot, got it?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202030,
+			nameColor = "#a9f548",
+			bgName = "bg_story_room",
+			side = 2,
+			dir = 1,
+			say = "options = {{content = \"Ahhhn...\",flag = 1}}",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202030,
+			nameColor = "#a9f548",
+			bgName = "bg_story_room",
+			side = 2,
+			dir = 1,
+			say = "Wait, it's still too hot... Phew~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +239,7 @@ return {
 			dir = 1,
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "来，张嘴吧？啊——。",
+			say = "Alright, once again. Say ahhhn~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +250,7 @@ return {
 			},
 			options = {
 				{
-					content = "张嘴",
+					content = "Ahhhn...",
 					flag = 1
 				}
 			}
@@ -215,59 +261,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "等等，还有点烫。……呼——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			actor = 202030,
-			nameColor = "#a9f548",
-			say = "好了，再来一次，啊～？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			options = {
-				{
-					content = "啊——",
-					flag = 1
-				}
-			}
-		},
-		{
-			actor = 202030,
-			nameColor = "#a9f548",
-			bgName = "bg_story_room",
-			side = 2,
-			dir = 1,
-			say = "乖～刚才说到“宠物”是不一样吧，别看我这样，其实我很喜欢宠物的。",
+			say = "Good piggy~ ...Earlier, I said that pets are different, right? Despite the way I am, I still love pets.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +277,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "不过我养的宠物呢…呵呵，准确来说其实只有“一个”哦。所以呢……",
+			say = "But, the ones I'm raising are... hehe, to be exact, there's only one. So...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +294,7 @@ return {
 			blackBg = true,
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "要快点好起来哦，小猪仔♡",
+			say = "Get well soon, little piggy~♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

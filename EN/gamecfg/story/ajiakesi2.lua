@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"我的美好回忆\n\n<size=45>二 荣耀的意义</size>",
+					"My Fond Memories\n\n<size=45>Chapter 2: The Meaning of Glory</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 203080,
 			nameColor = "#a9f548",
-			say = "阿贾克斯，你这人真是——！",
+			say = "Ajax, you're really...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			say = "我只是有一说一，比起正面对战还是夜战获胜的可能性更大嘛。",
+			say = "I was simply speaking from a logical perspective. After all, we have a higher chance of victory if we face them in a night battle rather than facing them head-on.",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "从根本上说，无视友方求援的行为不是给皇家海军抹黑吗！",
+			say = "Enough already, you're dragging the Royal Navy's Glory through the mud by ignoring the position of allies that have requested for help, are you not?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "埃克塞特前辈才是，太执着于皇家的荣耀了吧？在那种情况下分割己方战力，是打算独自面对敌方主力吗？那样的话我也不拦着你就是了♪",
+			say = "Exeter, aren't you the one getting carried away by putting too much emphasis on \"Glory\"? Splitting our allied forces up like that, are you planning on fighting the enemy's main fleet by yourself? Though, if that's what you were going for, I wouldn't have stopped you~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			}
 		},
 		{
-			say = "埃克塞特和阿贾克斯又开始吵嘴了…",
+			say = "As always, Exeter and Ajax were quarreling with each other.",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -101,7 +101,7 @@ return {
 			}
 		},
 		{
-			say = "阿贾克斯的作战方案十分合理且正确。然而正因为太合理，对一部分重视名誉和身份的人来说似乎非常难以接受",
+			say = "Ajax's battle plans were surprisingly logical and accurate. That said, because she prioritized logic over all else, it appeared that she wasn't able to meet eye-to-eye with girls who prioritized honor or formalities.",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -121,7 +121,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "唔…！再吵下去也没个结果。是非对错就交给指挥官来判断吧！",
+			say = "Grr...! There's no point in arguing about this any further. I'll just follow the Commander's plans when it's time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "认输了？还是该说这是光荣的转进呢？",
+			say = "Are you running away? Or should I say, making an honorable retreat?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			}
 		},
 		{
-			say = "更关键的一点，是对方越是反驳她就越喜欢煽风点火，最后搞得局面更加难以收场…",
+			say = "As one was bound to get more worked up the more the opponent rebutted one's argument, oftentimes the situation would get more and more tangled up...",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "我会向埃克塞特前辈道歉的啦。反正一直都是这样。",
+			say = "I apologized properly to Exeter, since this is just what always happens.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "埃克塞特前辈是那种劝不听的类型，所以反复解释还不如先惹毛她再让她放弃，这样更快吧？",
+			say = "Since Exeter is the kind of person who won’t listen even if you try to persuade her, is it not faster to anger her and then make her cave in, rather than explaining to her for days on end?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "不过这个作战把指挥官来劝架也考虑进去了就是♪",
+			say = "Well, that's also because my plans rely on you to come in there to deal the finishing blow~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			},
 			options = {
 				{
-					content = "就算如此，也没必要这么捉弄前辈吧…",
+					content = "Even if that's the case, you don't have to mess with her so much...",
 					flag = 1
 				}
 			}
@@ -239,7 +239,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "哎呀，居然不站在我这个秘书舰这边。值得表扬哦，指挥官",
+			say = "My, it appears that you do not support my actions, even though I am the secretary ship. Quite commendable, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "平常一副温柔善良的样子，这种时候倒是挺有指挥官的样子呢。",
+			say = "Even though you're usually so gentle, you can act like a proper commander when it counts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			blackBg = true,
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "…就是这样我才喜欢你呀。呵呵♪",
+			say = "... And that's why I like you. Hehe~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

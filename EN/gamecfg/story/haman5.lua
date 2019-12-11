@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"哈曼观察日志\n\n<size=45>五 哈曼和约克城</size>",
+					"Hammann Observation Diary\n\n<size=45>Chapter 5: Hammann and Yorktown</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			actor = 101250,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "——然后呢，哈曼就把指挥官赶出指挥室了……",
+			say = "...And then, I chased Commander out of the office...",
 			dir = 1,
 			bgm = "story-1",
 			typewriter = {
@@ -36,7 +36,7 @@ return {
 			actor = 107050,
 			side = 0,
 			bgName = "bg_story_room",
-			say = "嗯嗯。",
+			say = "Hmm, I see.",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -56,7 +56,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "……想去找指挥官又不知道人在哪……",
+			say = "...And now I don't know where to find Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "嗯嗯。",
+			say = "Mmhmm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "……就算找到了也不知道该怎么道歉……",
+			say = "...But even then, how am I supposed to apologize...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "嗯嗯。哈曼，真辛苦呢……",
+			say = "I see. That is a bit of a tough situation, Hammann...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "呜哇啊啊约克城姐姐～",
+			say = "Waaaaaagh! Yorktown~!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "约克城摸着哈曼的头安慰她，哈曼把脸埋进约克城胸口撒娇。",
+			say = "Yorktown gave Hammann a pat on the head before pulling her into her bosom.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "哈曼想道歉的话，用自己的方式就好了呀。",
+			say = "Hammann, as long as you really are sorry, then you should just be true to yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "只要发自真心，自然能传达你的心意，指挥官也能理解你的",
+			say = "As long as you're genuine about it, Commander will understand your intentions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "说得…是呢…谢谢约克城姐姐…",
+			say = "You have a point... Thanks, Yorktown...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "另一边……",
+			say = "Elsewhere...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "嗯…好像错过了出场的时机？…我没在录像啦！",
+			say = "Ermm... seems like you missed your opportunity to step in? ...Hey, I'm not taking videos anymore!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			},
 			options = {
 				{
-					content = "确实错过了出面的时机呢……",
+					content = "I suppose I did...",
 					flag = 1
 				}
 			}
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "说不定其实她们已经发现了……",
+			say = "Maybe they've already noticed us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "是的。西姆斯？指挥官？我知道你们在那边哦。",
+			say = "Indeed. Sims, Commander, I know you're over there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 101240,
-			say = "诶！？",
+			say = "Geh?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

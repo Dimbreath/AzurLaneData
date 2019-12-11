@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"圣诞礼物大作战！\n\n<size=45>五　厌战的心意！</size>",
+					"Operation: Christmas!\n\n<size=45>Chapter 5: Warspite's Wish</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 205020,
 			nameColor = "#a9f548",
-			say = "刚才……有些言重了。其实，我们是想向有经验的你请教如何帮大家选择礼物。",
+			say = "You see, I'm struggling to come up with good presents for my Royal Navy friends.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "企业身后背着的那一大包礼物，果然问她没错。",
+			say = "(My word, that's a large bag of presents she's got...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "选购了这么多礼物，一定花了很多时间吧，可是，我现在已经没有那么多时间了，究竟该如何是好……",
+			say = "And it takes quite some time to pick out presents for that many people. Unfortunately, time is a luxury we don't have...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			say = "花时间？这是哪里的话。这些礼物都是我刚刚回港路过商店时买的，怎么会花很多时间呢？",
+			say = "That's not an issue. It should hardly take any time to go to the store and purchase things.",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这……这么说，你早就计划好要挑选什么样的礼物了吗？请务必告诉我秘诀！",
+			say = "It takes you hardly any time?! Do you plan out what to buy before you even leave the dorm?! Please, tell me your secret!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "计划？秘诀？哈哈哈，我想你应该是误会了。圣诞礼物是不需要挑选的呀。",
+			say = "Plan out? Secret? Maybe I didn't make myself clear, but I'm not that selective when it comes to buying presents.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不需要挑选？那怎样才能知道什么礼物更合适呢？",
+			say = "Then how do you find the present that's just right for someone?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "只要能够将自己关心伙伴的心意通过礼物传达给对方，无论礼物的种类如何，只要对方感受到了你的心意，都会十分高兴的吧，至少我是这么觉得。",
+			say = "You don't need to fuss over finding the right present. They'll probably be happy just to receive a present in the first place, because it's the thought that counts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			actor = 205020,
 			nameColor = "#a9f548",
-			say = "心意……心意吗……我似乎明白了。重要的送礼物时的心意，而不是礼物的价值！",
+			say = "Ah, the thought behind it... I see now. It's not about the item itself, but the feelings it represents!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "就是这样！那么，接下来你就要去当皇家的圣诞老人了吧？",
+			say = "Exactly. Hey... this conversation gave me an idea. You should be Santa this year, Warspite.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "说起来，你有准备适合圣诞氛围的服装吗？",
+			say = "Do you have a Christmas costume ready?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个嘛……只要能够传达心意，服装什么的应该不大需要吧！",
+			say = "If it's the thought that counts, surely a costume wouldn't be necessary?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那……那个，厌战前辈！咱这里还有一套C级驱逐舰们准备的备用圣诞服装……",
+			say = "W-Warspite, you could... use the Christmas costume my sisters and I made, if you'd like...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			actor = 201100,
 			nameColor = "#a9f548",
-			say = "如果不介意的话，请……请前辈试试看！如果适合前辈的话……咱也……会很高兴的！",
+			say = "It's a spare one, so we would be delighted to see it put to use!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "小天鹅……谢谢你！你满满的心意已经确确实实地传达到了！",
+			say = "I can't turn down an offer like that. Thank you, Cygnet! I feel the thought behind your offer loud and clear!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，我们立刻出发去买礼物吧！",
+			say = "All right, let us head to the store to buy some presents!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜哇……心意……什么的，有些让咱害羞呢……",
+			say = "P-please, don't put it that way... You're making it sound weird...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			blackBg = true,
 			actor = 107061,
 			nameColor = "#a9f548",
-			say = "皇家的圣诞节……想必会很温馨吧，哈哈哈！",
+			say = "The Royal Navy will surely have an interesting Christmas with Santa Clauspite around. Hahahah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

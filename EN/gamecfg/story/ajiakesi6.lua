@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"我的美好回忆\n\n<size=45>六 逞强和真心・上</size>",
+					"My Fond Memories\n\n<size=45>Chapter 6: Stubbornness and Sincerity - Part 1</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-2",
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "阿嚏！……",
+			say = "Achoo...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "盖着被子的阿贾克斯脸上泛红，体温计的温度表明她正在发烧",
+			say = "Ajax was in bed, her face flushed red. The thermometer indicated that she had a high fever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,23 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "虽说身体构造和人类不同，看来还是会感冒的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202030,
-			nameColor = "#a9f548",
-			bgName = "bg_story_room",
-			side = 2,
-			dir = 1,
-			say = "感冒这东西真是伤脑筋…",
+			say = "Though ships were said to be quite different from regular humans, it seems that they can still contract colds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +67,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "秘书舰的工作也落下了，也没法找利安得学做饭…",
+			say = "Good grief, colds truly are troublesome...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +83,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "真是…没半点好处…",
+			say = "The secretary work is at a standstill, I can't learn how to cook from Leander, and...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,21 +99,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "还要让小猪仔看到这副样子……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "看来主动权不在自己手里就不大乐意……",
+			say = "Ugh... There's absolutely nothing good about this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +115,21 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "要是平常…就该是我笑着玩弄病倒的小猪仔才对…",
+			say = "And on top of it all, I have to be seen in this kind of state by my little piggy...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			say = "It seems that she won't be satisfied unless she can be in control of the situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +145,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "现在我反倒成被笑的那个了…今天你就别管我了…嗯，既往不咎…",
+			say = "If I had things my way... I'd be laughing while teasing my little bedridden piggy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +161,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "还是说…你想着看我现在虚了，想要趁机报复我平常对你的欺负？",
+			say = "I guess today is my turn to be laughed at... It's fine to leave me by myself today... I won't punish you for it later, so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +177,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "哼…平时总是欺负你…说白了也是我自作自受。",
+			say = "What is it? After seing me weakened like this, are you thinking something like, \"Today is the day I'll get even with her!\" or something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,21 +193,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "阿嚏！……要杀要剐悉听尊便吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "轻轻给阿贾克斯的额头敷上湿毛巾。",
+			say = "Sigh... Considering how much I tease your normally... to be honest, I'm simply getting my just desserts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +209,37 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "…诶…",
+			say = "Achoo! ...Well, do as you please.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			say = "Gently drape a wet towel on Ajax's forehead.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202030,
+			nameColor = "#a9f548",
+			bgName = "bg_story_room",
+			side = 2,
+			dir = 1,
+			say = "...Huh...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "你…为什么…",
+			say = "You... why...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			},
 			options = {
 				{
-					content = "告诉阿贾克斯这就是报复",
+					content = "And now, we're even.",
 					flag = 1
 				}
 			}
@@ -277,7 +277,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "真是…随便你了啦…呜…呜呜…",
+			say = "Jeez... Anything would have been fine... *sniffle*... *cry*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "阿贾克斯把脸埋进了被子里。",
+			say = "Ajax hid her face in the sheets.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

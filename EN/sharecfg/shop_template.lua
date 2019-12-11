@@ -9807,9 +9807,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 2,
 		time_second = 0,
-		order = 9955,
+		order = 9037,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -9825,8 +9825,8 @@ pg.shop_template = {
 			{
 				{
 					2019,
-					11,
-					21
+					12,
+					11
 				},
 				{
 					0,
@@ -9836,9 +9836,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2019,
-					12,
-					4
+					2020,
+					1,
+					2
 				},
 				{
 					23,
@@ -9856,9 +9856,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 2,
 		time_second = 0,
-		order = 9954,
+		order = 9036,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -9874,8 +9874,8 @@ pg.shop_template = {
 			{
 				{
 					2019,
-					11,
-					21
+					12,
+					11
 				},
 				{
 					0,
@@ -9885,9 +9885,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2019,
-					12,
-					4
+					2020,
+					1,
+					2
 				},
 				{
 					23,
@@ -9905,9 +9905,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 2,
 		time_second = 0,
-		order = 9953,
+		order = 9035,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -9923,8 +9923,8 @@ pg.shop_template = {
 			{
 				{
 					2019,
-					11,
-					21
+					12,
+					11
 				},
 				{
 					0,
@@ -9934,9 +9934,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2019,
-					12,
-					4
+					2020,
+					1,
+					2
 				},
 				{
 					23,
@@ -9954,9 +9954,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 2,
 		time_second = 0,
-		order = 9952,
+		order = 9034,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -9972,8 +9972,8 @@ pg.shop_template = {
 			{
 				{
 					2019,
-					11,
-					21
+					12,
+					11
 				},
 				{
 					0,
@@ -9983,9 +9983,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2019,
-					12,
-					4
+					2020,
+					1,
+					2
 				},
 				{
 					23,
@@ -10385,6 +10385,55 @@ pg.shop_template = {
 					59
 				}
 			}
+		}
+	},
+	[70139] = {
+		group_type = 0,
+		resource_num = 700,
+		desc = "购买皮肤：初春冬装",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		time_second = 0,
+		order = 9033,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 10,
+		resource_type = 14,
+		id = 70139,
+		genre = "skin_shop",
+		discount_time = {
+			{
+				{
+					2019,
+					12,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					12,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		limit_args = {},
+		effect_args = {
+			301211
 		}
 	},
 	[70141] = {
@@ -16701,6 +16750,7 @@ pg.shop_template = {
 		70135,
 		70136,
 		70138,
+		70139,
 		70141,
 		70142,
 		70143,

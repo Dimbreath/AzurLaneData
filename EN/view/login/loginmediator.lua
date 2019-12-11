@@ -196,14 +196,20 @@ function slot0.handleNotification(slot0, slot1)
 			hideNo = true,
 			content = errorTip("login_loginMediator_userLoginFail_error", slot3),
 			onYes = function ()
-				if slot0 == 20 then
+				if pg.SdkMgr.GetInstance():GetLoginType() == 20 then
 					slot1.viewComponent:switchToRegister()
 				elseif slot0 == 3 or slot0 == 6 then
 					slot1.viewComponent:switchToServer()
 				elseif slot0 == 1 or slot0 == 9 or slot0 == 11 or slot0 == 12 then
-					slot1.viewComponent:switchToLogin()
-				elseif pg.SdkMgr.GetInstance():GetLoginType() == LoginType.PLATFORM or slot0 == LoginType.PLATFORM_TENCENT then
+					if slot0 == LoginType.PLATFORM_AIRIJP or slot0 == LoginType.PLATFORM_AIRIUS then
+						slot1.viewComponent:switchToAiriLogin()
+					else
+						slot1.viewComponent:switchToLogin()
+					end
+				elseif slot0 == LoginType.PLATFORM or slot0 == LoginType.PLATFORM_TENCENT then
 					slot1.viewComponent:switchToServer()
+				elseif slot0 == LoginType.PLATFORM_AIRIJP or slot0 == LoginType.PLATFORM_AIRIUS then
+					slot1.viewComponent:switchToAiriLogin()
 				else
 					slot1.viewComponent:switchToLogin()
 				end
@@ -217,6 +223,8 @@ function slot0.handleNotification(slot0, slot1)
 			onYes = function ()
 				if pg.SdkMgr.GetInstance():GetLoginType() == LoginType.PLATFORM or LoginType.PLATFORM_TENCENT then
 					slot0.viewComponent:switchToServer()
+				elseif slot0 == LoginType.PLATFORM_AIRIJP or slot0 == LoginType.PLATFORM_AIRIUS then
+					slot0.viewComponent:switchToAiriLogin()
 				else
 					slot0.viewComponent:switchToLogin()
 				end

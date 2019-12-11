@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"我的美好回忆\n\n<size=45>四 是敌是友？</size>",
+					"My Fond Memories\n\n<size=45>Chapter 4: Friend? Foe?</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·通道",
+			say = "Port - Hallway",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			bgm = "story-1",
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "我经常在想…像这样巡逻的时候，还是要有点“事件”发生才好呢…",
+			say = "I've always thought about this, but... I'd love for an \"incident\" to occur on one of my patrols.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 2,
 			dir = 1,
-			say = "指挥官不觉得吗？比如说…",
+			say = "Don't you think so too, Commander? For example...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "手臂被阿贾克斯挽住了",
+			say = "Ajax entwined her arm around mine.",
 			flashN = {
 				color = {
 					1,
@@ -91,11 +91,11 @@ return {
 			},
 			options = {
 				{
-					content = "…！？",
+					content = "...?!",
 					flag = 1
 				},
 				{
-					content = "！？……！？",
+					content = "?! ...?!",
 					flag = 1
 				}
 			}
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "感觉到柔软中带着坚硬的触感",
+			say = "I felt a soft but slightly firm sensation pressing against my skin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "？在那里的是……",
+			say = "Hm? The person over there is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			actor = 403050,
 			nameColor = "#a9f548",
-			say = "阿贾克斯……",
+			say = "Ajax...",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -168,7 +168,7 @@ return {
 			}
 		},
 		{
-			say = "哎呀，这不是斯佩吗。一个人散步吗？",
+			say = "Oh, if it isn't Spee. Are you taking a walk by your lonesome?",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 1,
 			dir = 1,
-			say = "还是一如既往地坏心眼……指挥官真可怜。",
+			say = "In poor taste, as always. ... I feel bad for the Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 0,
 			dir = 1,
-			say = "是吗。我倒是没看出来指挥官有多困扰啊？还是说斯佩也想像我这样？",
+			say = "I wonder. To me, it doesn't seem like the Commander is bothered at all, isn't that right? Could it be that actually, you want to do something like this as well, Spee?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 1,
 			dir = 1,
-			say = "我才没有…不像你，我是不会捉弄指挥官的。不然铁血之名都要哭泣了。",
+			say = "Not really... Unlike you, I don't have any interest in teasing the Commander. If I did so, I would sully the name of the Iron Blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 0,
 			dir = 1,
-			say = "真敢说啊。明明就是手下败将。还是看到小猪仔这样所以吃醋了？",
+			say = "You're suuure telling me, even though you've already lost once. Or, could it be that looking at this little piggy has made you feel jealous?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "剑拔弩张的两人之间，仿佛空气中都能见到擦出的火花——并没有",
+			say = "The feeling of a heated rivalry between them... was nonexistent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 2,
 			dir = 1,
-			say = "…呼…当我什么都没说吧。上次那家店，东西很好吃。下次也带我去吧？",
+			say = "... Sigh... Never mind what just happened. The restaurant we went to last time was pretty good. Will you take me there again some time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			}
 		},
 		{
-			say = "好啊，那家店我也挺喜欢的。不过男性禁止入内所以……小猪仔是没法进去的呢♪",
+			say = "Sure thing~ I really like that place too. Well, since that store has a strict \"No Pets\" policy... our little piggy won't be able to go~♪",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 1,
 			dir = 1,
-			say = "我知道…还有上次那件换装，传给希佩尔看了之后她不知道为什么很生气…不要紧吧…",
+			say = "Is that so... Also, regarding the outfit you gave me the other day... when Hipper saw it, she got really mad at me for some reason... I wonder if it's fine...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 0,
 			dir = 1,
-			say = "不要紧啦。那套装备对“纯洁的男性”有特别的效果，比看上去更能提高战斗力哟，呵呵呵～",
+			say = "It's perfectly fine. Because those sweaters are especially effective against virgins, it will raise your battle power considerably more than it would otherwise seem.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 1,
 			dir = 1,
-			say = "是、是这样啊…谢谢你了，阿贾克斯。",
+			say = "I-I guess so... Thanks, Ajax.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_story_outdoor",
 			side = 0,
 			dir = 1,
-			say = "呵呵。还得去问问俄克拉荷马，有没有更好的店呢…",
+			say = "Hehe~ I guess I'll have to ask Oklahoma for more good restaurant recommendations...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "不知不觉中被阿贾克斯放置play了……",
+			say = "Before I knew it, Ajax had left me behind, all alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

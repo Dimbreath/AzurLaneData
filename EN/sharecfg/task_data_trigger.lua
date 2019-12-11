@@ -47,7 +47,7 @@ pg.task_data_trigger = {
 	{
 		group_id = 20203,
 		id = 5,
-		activity_id = 2003,
+		activity_id = 30537,
 		args = {
 			{
 				1,
@@ -58,7 +58,7 @@ pg.task_data_trigger = {
 	{
 		group_id = 10125,
 		id = 6,
-		activity_id = 2004,
+		activity_id = 30538,
 		args = {
 			{
 				1,
