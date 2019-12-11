@@ -636,276 +636,6 @@ pg.activity_template = {
 			"clutter/donghua_login"
 		}
 	},
-	[409] = {
-		mark = 20191031,
-		title_res_tag = "ouxiangleiji_pt",
-		type = 54,
-		login_pop = 0,
-		config_id = 409,
-		is_show = 10,
-		config_client = "",
-		id = 409,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					10,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					11,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		bg = {
-			"clutter/activity_bg_ouxiang_pt"
-		}
-	},
-	[410] = {
-		mark = 20191031,
-		title_res_tag = "",
-		type = 14,
-		login_pop = 0,
-		config_id = 0,
-		is_show = 0,
-		bg = "",
-		id = 410,
-		config_data = {
-			972,
-			973,
-			974,
-			975,
-			976,
-			977,
-			978,
-			979,
-			980,
-			981,
-			982,
-			983,
-			984,
-			985,
-			986,
-			987,
-			988,
-			989,
-			990,
-			991,
-			992
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					10,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					11,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		config_client = {
-			"commonbg/bg_pt_ouxiang",
-			{
-				0.176,
-				0.164,
-				0.274,
-				1
-			},
-			pt_id = 137,
-			painting = "jiasikenie_pt"
-		}
-	},
-	[411] = {
-		mark = 20191031,
-		title_res_tag = "",
-		type = 36,
-		login_pop = 0,
-		config_id = 0,
-		is_show = 0,
-		config_client = "",
-		bg = "",
-		id = 411,
-		config_data = {
-			1281301,
-			5000,
-			50,
-			0.36,
-			0.6,
-			10
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					10,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					11,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[412] = {
-		mark = 20191031,
-		title_res_tag = "",
-		type = 16,
-		login_pop = 0,
-		config_id = 137,
-		is_show = 0,
-		config_data = "100",
-		config_client = "",
-		bg = "",
-		id = 412,
-		time = {
-			timer,
-			{
-				{
-					2019,
-					10,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					11,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[413] = {
-		mark = 20191031,
-		title_res_tag = "",
-		type = 21,
-		login_pop = 0,
-		config_id = 91946,
-		is_show = 0,
-		bg = "",
-		id = 413,
-		config_data = {
-			70025,
-			70024,
-			70026,
-			70028,
-			70027,
-			70029,
-			70031,
-			70030,
-			70032,
-			70034,
-			70033,
-			70035,
-			70037,
-			70036,
-			70038
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					10,
-					31
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					11,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		config_client = {
-			unlock_desc = {
-				"通过「收获的InterHalf」",
-				"三星通关SP5",
-				"？？？",
-				"完成「特型偶像」第3日",
-				"三星通关SP1",
-				"？？？",
-				"累计获得激奏徽章10500枚",
-				"三星通关SP2",
-				"？？？",
-				"完成「特型偶像」第5日",
-				"三星通关SP4",
-				"？？？",
-				"进行10次建造",
-				"三星通关SP3",
-				"？？？"
-			}
-		}
-	},
 	[415] = {
 		mark = 20191031,
 		title_res_tag = "",
@@ -979,30 +709,6 @@ pg.activity_template = {
 		},
 		bg = {
 			"clutter/activity_pocky_login"
-		}
-	},
-	[420] = {
-		mark = 20191114,
-		title_res_tag = "",
-		time = "stop",
-		type = 26,
-		login_pop = 0,
-		config_id = 0,
-		is_show = 0,
-		config_data = "activity_drop_420",
-		bg = "",
-		id = 420,
-		config_client = {
-			id = 2,
-			bg = "loadingbg/bg_build_2_act",
-			buildship_tip = "格拉斯哥 建造概率UP！",
-			rate_tip = {
-				"<color=#ffde38>超稀有舰船</color>：7%",
-				"<color=#d797ff>精锐舰船</color>：12%",
-				"<color=#3dc6ff>稀有舰船</color>：26%",
-				"普通舰船：55%",
-				"<color=#3dc6ff>格拉斯哥</color>：5%(<color=#92fc63>up!</color>)"
-			}
 		}
 	},
 	[421] = {
@@ -1259,9 +965,60 @@ pg.activity_template = {
 			}
 		}
 	},
+	[445] = {
+		mark = 20191211,
+		title_res_tag = "tebiexvnlian",
+		type = 50,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		config_data = "",
+		bg = "",
+		id = 445,
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					12,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			{
+				8,
+				59938,
+				1
+			},
+			{
+				2,
+				59762,
+				1
+			}
+		}
+	},
 	[425] = {
 		mark = 20191121,
 		title_res_tag = "zhuyemian",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -1283,33 +1040,6 @@ pg.activity_template = {
 			1290031,
 			1290041
 		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					11,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					12,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/activity_bg_zhuyemian"
 		}
@@ -1317,6 +1047,7 @@ pg.activity_template = {
 	[426] = {
 		mark = 20191121,
 		title_res_tag = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -1341,33 +1072,6 @@ pg.activity_template = {
 			15154,
 			15155,
 			15156
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					11,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					12,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[427] = {
@@ -1458,6 +1162,7 @@ pg.activity_template = {
 	[429] = {
 		mark = 20191121,
 		title_res_tag = "hololive_llk",
+		time = "stop",
 		type = 61,
 		login_pop = 0,
 		config_id = 1,
@@ -1465,34 +1170,7 @@ pg.activity_template = {
 		config_client = "",
 		bg = "",
 		id = 429,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					11,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					12,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[430] = {
 		mark = 20191121,
@@ -1540,6 +1218,7 @@ pg.activity_template = {
 	[431] = {
 		mark = 20191121,
 		title_res_tag = "hololive_llk",
+		time = "stop",
 		type = 57,
 		login_pop = 0,
 		config_id = 3,
@@ -1547,33 +1226,6 @@ pg.activity_template = {
 		config_client = "",
 		id = 431,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					11,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					12,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/activity_bg_hololive_llk"
 		}
@@ -1632,6 +1284,7 @@ pg.activity_template = {
 	[433] = {
 		mark = 20191121,
 		title_res_tag = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -1649,33 +1302,6 @@ pg.activity_template = {
 			15164,
 			15165,
 			15166
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					11,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					12,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[434] = {
@@ -1801,6 +1427,7 @@ pg.activity_template = {
 	[436] = {
 		mark = 20191121,
 		title_res_tag = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -1809,33 +1436,6 @@ pg.activity_template = {
 		id = 436,
 		config_data = {
 			15157
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					11,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					12,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			npc = {
@@ -1847,39 +1447,13 @@ pg.activity_template = {
 	[437] = {
 		mark = 20191121,
 		title_res_tag = "dashenling_pt",
+		time = "stop",
 		type = 54,
 		login_pop = 0,
 		config_id = 437,
 		is_show = 8,
 		id = 437,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					11,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					12,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/activity_bg_dashenling_pt"
 		},
@@ -1904,6 +1478,7 @@ pg.activity_template = {
 	[438] = {
 		mark = 20191121,
 		title_res_tag = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -1911,13 +1486,55 @@ pg.activity_template = {
 		bg = "",
 		id = 438,
 		config_data = {},
+		config_client = {
+			stageid = 9801
+		}
+	},
+	[440] = {
+		mark = 20191211,
+		title_res_tag = "dachaosd_fk",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 8,
+		id = 440,
+		config_data = {
+			{
+				15210,
+				15211
+			},
+			{
+				15212,
+				15213
+			},
+			{
+				15214,
+				15215
+			},
+			{
+				15216,
+				15217
+			},
+			{
+				15218,
+				15219
+			},
+			{
+				15220,
+				15221
+			},
+			{
+				15222,
+				15223
+			}
+		},
 		time = {
 			timer,
 			{
 				{
 					2019,
-					11,
-					27
+					12,
+					11
 				},
 				{
 					0,
@@ -1927,9 +1544,9 @@ pg.activity_template = {
 			},
 			{
 				{
-					2019,
-					12,
-					11
+					2020,
+					1,
+					2
 				},
 				{
 					23,
@@ -1938,8 +1555,33 @@ pg.activity_template = {
 				}
 			}
 		},
+		bg = {
+			"clutter/activity_bg_dachaosd_fk"
+		},
 		config_client = {
-			stageid = 9801
+			story = {
+				{
+					"DACHAOSHENGDAN1"
+				},
+				{
+					"DACHAOSHENGDAN2"
+				},
+				{
+					"DACHAOSHENGDAN3"
+				},
+				{
+					"DACHAOSHENGDAN4"
+				},
+				{
+					"DACHAOSHENGDAN5"
+				},
+				{
+					"DACHAOSHENGDAN6"
+				},
+				{
+					"DACHAOSHENGDAN7"
+				}
+			}
 		}
 	},
 	[2001] = {
@@ -2696,18 +2338,13 @@ pg.activity_template = {
 		392,
 		393,
 		407,
-		409,
-		410,
-		411,
-		412,
-		413,
 		415,
 		419,
-		420,
 		421,
 		422,
 		423,
 		424,
+		445,
 		425,
 		426,
 		427,
@@ -2722,6 +2359,7 @@ pg.activity_template = {
 		436,
 		437,
 		438,
+		440,
 		2001,
 		2002,
 		2003,

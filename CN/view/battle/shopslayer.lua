@@ -1103,8 +1103,10 @@ end
 
 function slot0.OnActivtyShopPurchaseDone(slot0, slot1)
 	slot2 = nil
+	slot3 = pairs
+	slot4 = slot0.activityShops or {}
 
-	for slot6, slot7 in pairs(slot0.activityShops) do
+	for slot6, slot7 in slot3(slot4) do
 		if slot7.activityId == slot1 then
 			shop = slot7
 

@@ -68,6 +68,10 @@ class("ZeroHourCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			return
 		end
 
+		if not slot18.task_table[slot16.data4] then
+			return
+		end
+
 		slot21 = getProxy(TaskProxy)
 
 		for slot25, slot26 in ipairs(slot20) do
