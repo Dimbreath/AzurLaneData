@@ -68,46 +68,9 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
-		id = 3,
-		pic = "temp6",
-		param = {
-			"scene get boat",
-			{
-				projectName = "light"
-			}
-		},
-		time = {
-			{
-				{
-					2019,
-					12,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					12,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
 		param = "30268",
 		type = 3,
-		id = 4,
+		id = 3,
 		pic = "temp13",
 		time = {
 			{
@@ -139,8 +102,7 @@ pg.activity_banner = {
 	all = {
 		1,
 		2,
-		3,
-		4
+		3
 	}
 }
 
