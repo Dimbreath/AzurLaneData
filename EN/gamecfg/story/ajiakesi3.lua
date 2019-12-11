@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"我的美好回忆\n\n<size=45>三 秘书舰的责任</size>",
+					"My Fond Memories\n\n<size=45>Chapter 3: The Secretary Ship's Responsibilities</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "以上就是今天的事务和演习的安排，以及各个警戒海域的情况报告。",
+			say = "Commander. Here are the itinerary and exercise schedules that have been planned for the day, along with the situation reports from each sea zone patrol.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "学院的物资库存统计、商店到货商品的入库申请、接到的军事委托的整理、兵装的制造进度、设计图仓库的清点、",
+			say = "Also, here is the tally of the school's equipment, the inventory of our raw materials, the acquisition requests from the shop, the list of commissions entrusted to us, the progress of uniforms being manufactured, and the inventory of the blueprint storehouse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "塞壬观测数据的提交、心智魔方的维护、最后是伊丽莎白陛下的公务辅助安排……",
+			say = "And submission of the observation data of Sirens to the higher-ups, maintenance of mental cubes, and what’s left is the organization of Her Highness Elizabeth’s public assistance program...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "全都如报告书所述，顺利进行中。",
+			say = "As stated in the report, everything is progressing without any issues.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "好了，今天的秘书舰工作到此结束。指挥官，辛苦啦。",
+			say = "Right, this concludes today's duties as the secretary ship. Commander, thank you for your hard work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			},
 			options = {
 				{
-					content = "向阿贾克斯道谢",
+					content = "Thanks, Ajax.",
 					flag = 1
 				}
 			}
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "呵呵。这就是秘书舰的工作。指挥官只要放心坐在这里就行啦。",
+			say = "Hehe~ I am merely doing the work of a Secretary Ship. Feel free to sit back and relax, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "……晚饭和明天的早饭，你会做的吧？还有房间的打扫",
+			say = "... You'll be making dinner and tomorrow's breakfast, won't you? As well as handling the cleaning?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "明天是休息日，我打算和阿基里斯去买东西呢，麻烦你早一点哦。",
+			say = "Tomorrow I'm off-duty, so I’m going shopping with Achilles. I’d like for it to be earlier than usual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "阿贾克斯完成工作非常出色，但她作为秘书舰最大的特点却是——",
+			say = "Though Ajax was able to perform her duties as a secretary ship flawlessly, there was one glaring characteristic about her work...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "属于“打杂”范围的业务真的一点都不碰。",
+			say = "And that was - she was unable to properly do anything that remotely fell under the category of \"chores.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "有什么不满吗？“秘书舰”份内的工作我可是都有好好完成的呢。",
+			say = "Are you dissatisfied? Even if I'm like this, I believe that I am properly handling my duties as secretary ship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "还是说，指挥官想让我打杂？",
+			say = "Or, could it be that you intend to make me do these chores, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "呵呵，我也不是不能帮你做一点点……不过指挥官的评分会掉哦？",
+			say = "Hehe~ I'm alright with doing just a liiittle bit, but... my evaluation of you will drop, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "再不然，让女仆队她们做也行啊？那样的话…就是不但把杂活推给秘书舰，连女仆队也不放过…了，是吧♪",
+			say = "You're aware that you may ask a member of the maid team for help if needed, right? Of course, only if you're not satisfied with simply pushing chores onto your secretary ship, but also want to make a pass at one of the maids... Oh you~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "这种事呀，应该是满怀喜悦地主动去做的才对吧？小猪仔♪",
+			say = "You'd happily do something like that, wouldn't you? Little piggy~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "阿贾克斯，不擅长家务活。",
+			say = "Ajax was... bad at housework.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

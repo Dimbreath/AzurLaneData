@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"圣诞礼物大作战！\n\n<size=45>二　来自重樱的建议</size>",
+					"Operation: Christmas!\n\n<size=45>Chapter 2: A Gift for Everyone</size>",
 					1
 				}
 			}
@@ -21,12 +21,11 @@ return {
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			actorName = "{namecode:146}",
+			bgName = "star_level_bg_104",
 			bgm = "story-1",
 			actor = 301641,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_104",
-			say = "{namecode:142}酱，不要着急嘛！再等一会，就一会，我马上就选好了啦！",
+			say = "Hold yer horses, Urakaze~! I'm not done yet!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,11 +56,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
+			say = "My patience has run out! How on Earth can you spend over two hours picking out presents?!",
 			dir = -1,
-			say = "等不下去啦！说到底为什么选个礼物要花上两个小时啊！",
 			actor = 301591,
-			actorName = "{namecode:142}",
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -89,11 +87,10 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
 			actor = 301641,
-			actorName = "{namecode:146}",
-			say = "因为人数众多呀，不是{namecode:142}酱提议说要送给每一个人礼物的嘛？",
+			nameColor = "#a9f548",
+			say = "I done told you, I got a lotta people to give to! 'sides, weren't you the one who talked 'bout givin' presents to everyone?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,11 +104,10 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = -1,
 			actor = 301591,
-			actorName = "{namecode:142}",
-			say = "真……真没办法，这里只能发挥一下成熟的风度了，不过，这是最后一个小时哦！",
+			nameColor = "#a9f548",
+			say = "Grrr... F-fine. I'll be generous and give you another hour!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +123,7 @@ return {
 			dir = 1,
 			actor = 205020,
 			nameColor = "#a9f548",
-			say = "嗯？是重樱的驱逐舰们呢，似乎是发生了争吵？",
+			say = "Hm? Good day, Sakura Empire destroyers. What seems to be the matter?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -155,13 +151,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			actor = 301641,
 			side = 2,
 			bgName = "star_level_bg_104",
+			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301641,
-			actorName = "{namecode:146}",
-			say = "啊啦，皇家的可爱战列舰和可爱驱逐舰！你们也是来选礼物的嘛？",
+			say = "Why, if it ain't Warspite 'n Cygnet~ What're y'all here for?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +172,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的，我们正是来为伙伴们购买礼物的，虽然……还没决定要买什么。",
+			say = "To pick out some presents. Although we haven't decided on what to get yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +183,7 @@ return {
 			}
 		},
 		{
-			say = "贵……贵安……",
+			say = "G-greetings...",
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = 1,
@@ -208,13 +203,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			actor = 301641,
 			side = 0,
 			bgName = "star_level_bg_104",
+			nameColor = "#a9f548",
 			dir = 1,
-			actor = 301641,
-			actorName = "{namecode:146}",
-			say = "哦？可爱的女孩子们遇到了烦恼吗？有什么{namecode:146}能够帮忙的地方只管说哦！",
+			say = "Aw heck, we can't have you cute girls in trouble, can we... If there's anythin' we can help ya with, just say the word.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,13 +219,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = -1,
 			actor = 301591,
-			actorName = "{namecode:142}",
-			say = "可真敢说，明明自己还没选好礼物，就要帮起别人来了！",
+			nameColor = "#a9f548",
+			say = "No, please don't say the word! Ooshio's not even done picking presents for her own friends!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +250,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们也不希望耽误了你们的时间。不过，你们的服装，有些令我在意，这就是圣诞节时大家穿的服装吗？",
+			say = "In that case, we'll leave you to it. But if you don't mind my asking... Are those outfits you're wearing this year's Christmas costumes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,11 +264,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = -1,
 			actor = 301591,
-			actorName = "{namecode:142}",
-			say = "这是我自己设计的战国风圣诞华服哦，夸赞之词就免了吧，我都知道。",
+			nameColor = "#a9f548",
+			say = "It is. This is my handmade Warring States-style yuletide uniform. Hohoh, no need to tell me it looks good. I know it does~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,11 +281,10 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
 			actor = 301641,
-			actorName = "{namecode:146}",
-			say = "我的主题是送上礼物的驯鹿哦！有没有感受到，满满的，圣诞节的气息呀？",
+			nameColor = "#a9f548",
+			say = "Mine's handmade too! This here's my reindeer costume for deliverin' Christmas presents~ Ain't it brimmin' with holiday spirit?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +300,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦！原来是亲手制作的服装，的确很有圣诞节的感觉，不过，可能没办法当礼物送给大家。",
+			say = "I see... A handmade costume would be perfect for Christmas. The time required to make it is an issue, though...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +316,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "给……每个人都制作服装，太花时间了呀……",
+			say = "W-we don't have time to make enough Christmas costumes for everybody!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +332,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来在商店街也没法获得灵感啊……",
+			say = "... Gah, we won't get anywhere if we can't even decide what presents to get!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +348,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，还不是放弃的时候，我们干脆直接去问大家想要的礼物吧？",
+			say = "Maybe we should simply ask everyone what they want...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +364,7 @@ return {
 			dir = 1,
 			actor = 201100,
 			nameColor = "#a9f548",
-			say = "前辈……那样……就没有收到礼物时的……惊喜和快乐了。",
+			say = "B-but then it won't be a surprise when they open their present...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +390,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……那可如何是好，我们在这里想破头也不解决问题啊！",
+			say = "Then what do you suggest?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +406,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不如，我们去……问问白鹰的各位吧？她们去年……也准备了很多礼物……",
+			say = "Maybe we could ask somebody from the Eagle Union...? Enterprise might have an idea, since she was Santa last year...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +422,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们的盟友们吗？也好，现在眼下也没有更好的办法了。那么，重樱的二位，我们就先失陪了，圣诞快乐！",
+			say = "Ask someone else, eh? Well, we don't have any better ideas at the moment, so let's try it... Ladies, if you'll excuse us. Have a Merry Christmas!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,14 +433,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			blackBg = true,
 			actor = 301641,
-			actorName = "{namecode:146}",
-			say = "圣诞快乐呀~再见，可爱的战列舰~",
+			nameColor = "#a9f548",
+			say = "You have one, too~ See ya 'round, Warspite~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

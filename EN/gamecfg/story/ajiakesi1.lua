@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"我的美好回忆\n\n<size=45>一 小小的午餐会</size>",
+					"My Fond Memories\n\n<size=45>Chapter 1: A Small Luncheon</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "某日，港区・学园中庭",
+			say = "Port - School Courtyard",
 			bgName = "bg_story_school",
 			bgm = "story-1",
 			typewriter = {
@@ -31,7 +31,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "大家好久没一起吃午饭了呢——",
+			say = "My~ It sure has been a while since we last partook of lunch together~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			}
 		},
 		{
-			say = "利安得做的菜果然还是那么好吃呢。",
+			say = "I must say, Leander's cooking is simply delicious, without fail.",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			actor = 202010,
 			nameColor = "#a9f548",
-			say = "阿贾克斯你也该学学做饭了吧？每次都让指挥官做…",
+			say = "Ajax, isn't it about time you learned how to cook too? Considering how you're still making Commander cook all the time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,11 +79,11 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "乐意之至！Your Highness!"
+					content = "With pleasure, Your Highness!"
 				},
 				{
 					flag = 2,
-					content = "可、可恶！但是不知不觉就…！"
+					content = "Ugh, how mortifying...! But I just can't help it!"
 				}
 			}
 		},
@@ -94,7 +94,7 @@ return {
 			optionFlag = 1,
 			actor = 202020,
 			nameColor = "#a9f548",
-			say = "不过本人也乐在其中，其实也没什么不好的嘛？",
+			say = "Well, the person in question is happy about it, so isn't it fine?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			optionFlag = 1,
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "对吧？别看这样，我家的指挥官可是很能干的呢。",
+			say = "Right? Commander is actually quite a hard worker, though it's not always apparent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			optionFlag = 2,
 			actor = 202020,
 			nameColor = "#a9f548",
-			say = "是、是这样吗…？",
+			say = "I-Is that so...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			optionFlag = 2,
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "呵呵♪究竟是怎么回事呢～？",
+			say = "Hehe~♪ Well then, what's the problem~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "阿贾克斯？不可以再捉弄指挥官了哦？来喝点水吧。",
+			say = "Ajax, you shouldn't bully Commander around too much, all right? Here, have a drink.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "谢谢…呼。啊，指挥官也口渴了吧？要不要喝点水？",
+			say = "Thanks... Phew. Oh my, are you thirsty too, Commander? Would you like some water?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "阿贾克斯说着把刚喝了一口的塑料水瓶递了过来",
+			say = "Ajax held out the water bottle that she had just been drinking from.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "这、这难道是……！间接kiss！？",
+			say = "C-Could this be...! An indirect kiss...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "来喝一口？还是说…想要我喂你喝？",
+			say = "Go on, take a sip. Or... would you prefer it mouth to mouth~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			},
 			options = {
 				{
-					content = "（咽口水）",
+					content = "(Take a sip)",
 					flag = 3
 				}
 			}
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "真是的……虽然不知道你们说的“简洁kiss”是什么…不过阿贾克斯，可不能老为难指挥官哦？",
+			say = "Jeez... I don't know anything about \"indirect kisses\" or whatever, but could you stop bothering the Commander already?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "好像也有点不对…",
+			say = "You might be wrong about that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "好了好了，可不能教坏利安得呢",
+			say = "Okaaay~ It seems like we can't do these kinds of things where Leander can see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "指挥官想喝的话，下次想喝多少我喂你多少～",
+			say = "But, if you do want to do these kinds of things with me later, I'll let you drink as much as you'd like, okay~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			blackBg = true,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "敬请期待吧，呵呵呵♪",
+			say = "Please, do look forward to it. Hehe~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

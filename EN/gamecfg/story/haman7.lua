@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"哈曼观察日志\n\n<size=45>七 坦率只有…一瞬间！</size>",
+					"Hammann Observation Diary\n\n<size=45>Chapter 7: Honest... For Just a Moment!</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			actor = 107050,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "哈曼，指挥官人就在这里，你就为刚才的事诚实道个歉吧？",
+			say = "Hammann, Commander is right here. Why don't you say what you told me and apologize properly?",
 			dir = 1,
 			bgm = "story-1",
 			typewriter = {
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "啊！萨拉托加的那段虽然好玩不过还是别用了哦！",
+			say = "Ah! That thing Saratoga told you do is good fun and all, but let's not do that again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "才不会用啦！……知道啦！不就是道歉吗我道歉总行了吧！",
+			say = "Of course I wouldn't! ...Jeez! All I have to do is apologize, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "你这…不是，指，指挥官！",
+			say = "You id- I mean, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "刚，刚才是我不好…把你赶出指挥室……",
+			say = "S-s-s-s-s-sorry... about chasing you out of the office earlier...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "其实是我没发现指挥官早上有那么多工作！结果就……！",
+			say = "Actually, I didn't know you had so much work in the morning! Because of that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "（小声）……其，其实是想让指挥官能快点夸我……",
+			say = "(whispers) ...I, I just wanted you to praise me for finishing early...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "（小声）……但是你不理我……明明我这么喜欢指挥官……",
+			say = "(whispers) ...But you weren't paying attention to me... even though I like you so much...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "虽然声音非常小，还是能听清哈曼的心声。",
+			say = "Though her voice was but a tiny whisper, I still could hear what she said.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			},
 			options = {
 				{
-					content = "对哈曼道歉说自己也有不对",
+					content = "I owe you an apology as well, Hammann.",
 					flag = 1
 				}
 			}
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "指挥官…呜呜…谢谢……",
+			say = "Commander... Uuu... thank you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "你不理哈曼的话哈曼就会不开心……所以……",
+			say = "I get grumpy if you don't pay attention to me... so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,22 +216,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "能感受到扑过来的哈曼带来的体温。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 101240,
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "“……其，其实是想让指挥官能快点夸我……”",
+			say = "I could feel Hammann's warmth as she threw her arms around me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +231,22 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "哦，录音成功！嘿嘿嘿♪",
+			say = "\"...I, I just wanted you to praise me for finishing early...\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 101240,
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			say = "Aha! Recording successful! Heehee~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "！！！？",
+			say = "? ! ? !",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "西——姆——斯——！！",
+			say = "Siiiiiiiiiiimmmmmmmmssssssssssss!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "哎呀～啊，指挥官，刚才我只答应不录像，没说不录音哦？",
+			say = "Weeell, y'see, Commander, I promised not to film anything. But you never said anything about audio recording!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "哎呀……这还真是……",
+			say = "Oh my... How troublesome...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "西姆斯！快删掉！！",
+			say = "Sims! Delete it!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "今天也是——手忙脚乱的一天。",
+			say = "Today... proved to be another hectic day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

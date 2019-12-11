@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"圣诞礼物大作战！\n\n<size=45>六　圣诞战士，前进！</size>",
+					"Operation: Christmas!\n\n<size=45>Chapter 6: Onwards, To Christmas Day!</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-christmas",
-			say = "夜晚·港区商店",
+			say = "Port - Nighttime",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那么，给大家的礼物差不多都买完了！兵贵神速！",
+			say = "Phew, we've almost finished getting presents for everyone! Saint Nick would tip his fluffy hat to us if he saw how swift we were!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			dir = -1,
 			actor = 205021,
 			nameColor = "#a9f548",
-			say = "接下来就剩下，给陛下的特别礼物了！",
+			say = "Now all that remains is Her Majesty's special present!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			say = "企业刚刚说过“礼物不在乎种类而在乎的是心意”的呢……",
+			say = "Didn't Enterprise say we don't need to fuss over giving people the \"perfect present\"...?",
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "放心吧，我记得前几天跟陛下出来，她曾经盯着那个超大号蛮啾玩偶看了很久。",
+			say = "It's fine, I know exactly what she wants. I noticed how she had her gaze fixated on a particular stuffed animal when I was out shopping earlier.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			actor = 201102,
 			nameColor = "#a9f548",
-			say = "那个的话！咱……咱也觉得女王大人她一定会喜欢的！",
+			say = "Well... then I'm sure Her Majesty will adore it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			dir = -1,
 			actor = 205021,
 			nameColor = "#a9f548",
-			say = "这下可麻烦了……这么多礼物我们两个肯定拿不回去的啊！",
+			say = "This is unfortunate... We purchased too many presents to carry by ourselves...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -178,7 +178,7 @@ return {
 			}
 		},
 		{
-			say = "呜……给大家准备的食物……买太多了……",
+			say = "I'm sorry... I shouldn't have bought so many snacks...",
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -204,7 +204,7 @@ return {
 			dir = -1,
 			actor = 205021,
 			nameColor = "#a9f548",
-			say = "可恶……都已经进行到这一步了，难道真的没办法了吗。",
+			say = "Blast it... Our Christmas is doomed...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当盟友需要帮助，圣诞老人必将竭尽所能！",
+			say = "Ho ho ho, you seem to be in a frozen pickle there! But worry not, Santaprise is here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			dir = -1,
 			actor = 205021,
 			nameColor = "#a9f548",
-			say = "竟然是企业？！她身后的是……尼古拉斯吗？",
+			say = "Enterprise! Thank goodness! Ah, and Nicholas too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "看二位的样子，一定是很困扰如何把这一大堆礼物搬回去吧？如果需要，我可以用这辆“雪橇甲板”来帮助你们。",
+			say = "Looks like you could use some help transporting those presents. If you want, you could place them on my eagle sleigh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "企业的雪橇……好玩~",
+			say = "Hop aboard, it'll be fun... You have Saint Nicholas's word for it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "十分感谢，那么事不宜迟，我们尽快动手。",
+			say = "You're lifesavers! Err, Christmas-savers, rather. You both have my gratitude!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			blackBg = true,
 			actor = 201102,
 			nameColor = "#a9f548",
-			say = "得救了……那么，就这样把礼物山运回生活区吧！",
+			say = "Thank you so much! Please take us to the Royal Navy dormitory!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

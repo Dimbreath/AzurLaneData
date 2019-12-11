@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"哈曼观察日志\n\n<size=45>六 喂喂是海军部吗！？</size>",
+					"Hammann Observation Diary\n\n<size=45>Chapter 6: Hello, Military Police?!</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			actor = 101240,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "嗯…偶然碰到指挥官然后说起哈曼怎么了…然后就…",
+			say = "Um... I just happened to run into the Commander who just happened to tell me about what happened with Hammann... and yeah...",
 			dir = 1,
 			bgm = "story-1",
 			typewriter = {
@@ -33,18 +33,18 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "这样吗…？总觉得你们刚才一直在听呢…",
+			say = "Is that so...? I could've sworn you two were listening in for quite some time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "对不起！不是有意偷听的！",
+					content = "I'm sorry! I promise not to eavesdrop anymore!",
 					flag = 1
 				},
 				{
-					content = "是西姆斯怂恿的！",
+					content = "Sims convinced me to do it!",
 					flag = 2
 				}
 			}
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			optionFlag = 1,
-			say = "没错没错！真的是偶然啊！偶然！",
+			say = "That's right! It was a total coincidence! Coincidence, I tel you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			optionFlag = 2,
-			say = "诶！！？？",
+			say = "Eeeeehhhhhh?!?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "指，指挥，指挥官！？",
+			say = "C-C-Commander?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "这个变态！！跟踪狂！！大笨蛋！！！",
+			say = "You pervert! Stalker! Iiiiidiot!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "哈曼泪目着摸出拨盘电话要打给海军部。",
+			say = "Hammann tearfully reached for the telephone to dial the naval headquarters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "喂，是海军部吗！！是的！这里有个指挥官…指挥官…他……",
+			say = "Hello? Headquarters?! Yes! There's a commander here... and, and...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "没，什么事也没有…嗯……",
+			say = "...the commander is doing a fine job... yes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			},
 			options = {
 				{
-					content = "抱歉，真的只是错过了出面的时机。",
+					content = "I'm truly sorry. I could've timed this much better.",
 					flag = 1
 				}
 			}
@@ -165,7 +165,7 @@ return {
 			actor = 107050,
 			side = 0,
 			bgName = "bg_story_room",
-			say = "…你看，指挥官这不是因为担心哈曼才找过来的吗？",
+			say = "...See? Commander was worried and came looking for you.",
 			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
@@ -185,7 +185,7 @@ return {
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "我知道啦…虽然知道不过…",
+			say = "I know... But even then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "指挥官，真是对不起…哈曼总是给你添麻烦…",
+			say = "Commander, I owe you an apology as well... Sorry for all the trouble Hammann has caused you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "哈曼也老实承认不就好了嘛～",
+			say = "Hammann, this could've all been prevented if you were a bit more honest with yourself~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			hideOther = true,
-			say = "……呜呜……",
+			say = "...Uuu...",
 			action = {
 				{
 					y = 0,

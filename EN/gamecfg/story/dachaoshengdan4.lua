@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"圣诞礼物大作战！\n\n<size=45>四　圣诞节的阴影（下）</size>",
+					"Operation: Christmas!\n\n<size=45>Chapter 4: The Shadow over Christmas, Pt. 2</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "在萨拉托加的带领之下，二人来到了某个房间的门前",
+			say = "Saratoga led the two before the door to a room.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "圣路易斯~萨拉小姐带皇家的客人来了哦！啊……啊嘞？",
+			say = "Louis~! Sara's brought you visitors! They want your advi– Oh, oops...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			actor = 102123,
 			nameColor = "#a9f548",
-			say = "哇！不……不要随便进人家房间啊！",
+			say = "Eeeeek! K-knock before you enter someone else's room!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			}
 		},
 		{
-			say = "这……这难道就是鲁鲁酱要给指挥官的惊喜嘛？！",
+			say = "What are you wearing?! Are you going to offer yourself as a kinky present to the Commander?!",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			actor = 102123,
 			nameColor = "#a9f548",
-			say = "才……才不是！这……这个只是，最近很流行的……那个，COSPLAY！对对，COSPLAY啦！",
+			say = "It's not what you think! Th-this is a... you know, that thing people do... A cosplay! That's the word!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			actor = 102123,
 			nameColor = "#a9f548",
-			say = "变……变装成驯鹿，站在指挥官的指挥室装作玩偶，然后突然对指挥官说“哈！我是圣诞礼物哦！”之类的奇怪的事情完全是萨拉托加你脑补出来的罢了！",
+			say = "You couldn't be more wrong if you think I was going to hide in a box wearing this reindeer outfit then pop out and say \"I'll be your present!\" when the Commander opens it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇，完全把自己的想法说出来了呢……萨拉小姐什么都没有听到哦~真的什么都没听到哦~",
+			say = "Yikes, didn't even need to say it myself... It's okay, Lulu, Sara will just pretend this never even happened!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			actor = 102123,
 			nameColor = "#a9f548",
-			say = "喂！刚才的话绝对不允许告诉任何人啊！",
+			say = "You'd better! And don't speak a word of this to anyone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "还没等火奴鲁鲁说完，萨拉托加便一把拉住旁边僵住的皇家二人逃出了房间。",
+			say = "Saratoga took the Royal Navy girls and quickly left the room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			actor = 205020,
 			nameColor = "#a9f548",
-			say = "嗯……变装成驯鹿，把自己打包成玩偶送给指挥官……吗？也算是比较新奇的点子吧……",
+			say = "Getting in a box and giving yourself as a present to the Commander... That's an interesting, if unusual idea.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -231,7 +231,7 @@ return {
 			}
 		},
 		{
-			say = "前……前辈！请不要做那样奇怪的事情啦！",
+			say = "Warspite, please! It's too bizarre to be worth considering!",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噗噗，萨拉小姐也觉得厌战不太适合那种风格的说。",
+			say = "Personally, I also think it'd be a little... weird if you do that, Warspite.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这……这样吗。那岂不是又一无所获？天色已经不早了啊……",
+			say = "Ah, I see... Then we still don't have any good ideas. Hmm, we're running short on time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "砰地一声，大门打开了。",
+			say = "(Fwoosh)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			actor = 107061,
 			nameColor = "#a9f548",
-			say = "Merry Christmas! 圣诞老人为大家带回了礼物哦！",
+			say = "Merry Christmas! Santa's brought presents for you nice girls!",
 			effects = {
 				{
 					active = true,
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			actor = 107070,
 			nameColor = "#a9f548",
-			say = "出现了！是姐姐！该来的总是要来的！",
+			say = "Enty! You're back!",
 			effects = {
 				{
 					active = false,
@@ -362,7 +362,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业酱！欢迎回来~",
+			say = "Welcome back, Enterprise~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳，现在的我不是企业，是圣诞老人哦！嗯？原来有皇家的客人吗？",
+			say = "No, no. In this moment, I'm not Enterprise, I'm Santa Claus! ... Oh, I see the Royal Navy is paying us a visit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚才让二位看到了些奇怪的事情，有些失礼了。",
+			say = "Sorry, I didn't intend to show myself to you like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			blackBg = true,
 			actor = 205020,
 			nameColor = "#a9f548",
-			say = "在选择的矛盾中出现的救星！企业，我们需要你的帮助！",
+			say = "Not at all, you actually came at the perfect time! We need your help!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

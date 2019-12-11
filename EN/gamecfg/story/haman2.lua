@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"哈曼观察日志\n\n<size=45>二 不高兴的理由·上</size>",
+					"Hammann Observation Diary\n\n<size=45>Chapter 2: Unhappiness, Part 1</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "被哈曼赶出指挥室一分钟后——",
+			say = "A minute after Hammann chased me out of the office...",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -32,7 +32,7 @@ return {
 			},
 			options = {
 				{
-					content = "从窗外看看哈曼怎么样了。",
+					content = "Look through the window to check on Hammann",
 					flag = 1
 				}
 			}
@@ -42,7 +42,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 101250,
-			say = "那个大笨蛋！难得哈曼开口说要帮他，居然说什么“太努力过头了不好啊—”！？",
+			say = "That big idiot! Even though I offered to help, \"it's not good to push yourself too hard\"...? What's with that attitude?!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "工作忙的话让秘书舰帮忙不是再正常不过的吗！？",
+			say = "Isn't it the secretary's job to help out when the work piles up?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……下次演习视察的时间是……下午4点……还有两个小时！？",
+			say = "The next training exercises take place at... 1600...? There's still two more hours to go?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……呜呃……",
+			say = "... Ugh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			},
 			options = {
 				{
-					content = "啊，呆住了",
+					content = "Ah- she stopped moving.",
 					flag = 1
 				}
 			}
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "哼，哼哒！都怪指挥官处理文件太慢了啦！",
+			say = "H-hmph! It's all because Commander was too slow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……今天要处理的是……这堆全是！？",
+			say = "... Let's see, today's work is... this entire mountain of documents?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…文件时间是…一早上就有这么多！？",
+			say = "... And the timestamp on these documents... no way, this entire morning?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "所，所以才说资料明天也行……",
+			say = "S-so this is why I was told to turn the report in tomorrow...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…………呜呃………………",
+			say = "......Ughh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			},
 			options = {
 				{
-					content = "啊，又定住了",
+					content = "Ah- looks like she ran out of steam this time.",
 					flag = 1
 				}
 			}
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "还，还是挺努力的嘛……不愧是哈曼的指挥官……",
+			say = "N-not bad I suppose... I'd expect no less from my Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "虽然有时候会做出下流的举动，但是对大家都很温柔……",
+			say = "And despite being a total pervert around me... Commander treats everyone so nicely...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "而且明明在战场上表现得那么帅气，为什么对哈曼就……",
+			say = "...and is totally dreamy on the battlefield, so why do I get treated like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "啊!",
+			say = "...*Gasp*!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 101250,
-			say = "哈曼为什么把指挥官赶出去了啊！！",
+			say = "Why'd I chase Commander out of the office?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

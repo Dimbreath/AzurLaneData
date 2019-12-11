@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"我的美好回忆\n\n<size=45>七 逞强和真心・下</size>",
+					"My Fond Memories\n\n<size=45>Chapter 7: Stubbornness and Sincerity - Part 2</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "照顾生病的阿贾克斯大约一小时后……",
+			say = "Around one hour after nursing Ajax.",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "呜…呜呜呜…为什么我要被小猪仔这样对待啊……",
+			say = "*Sniffle*... *cry*... Why do I have no choice but to be treated like this by little piggy...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "我……我……真的是……",
+			say = "I... I... Ugh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "呜哇啊啊啊……",
+			say = "Uwaaah...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			},
 			options = {
 				{
-					content = "捉弄一下阿贾克斯",
+					content = "Try teasing Ajax",
 					flag = 1
 				}
 			}
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "呜呜呜呜呜……为什么我要被小猪捉弄啊！……",
+			say = "Waaah... Why am I being teased by my little piggy...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "你这…！小猪仔…！等我好了…！等我好了一定要给你好看……",
+			say = "You little...! Mark my words, when I get better...! When I get better, I'm going to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "阿贾克斯在被窝里耍起了脾气。",
+			say = "It seemed that she was throwing a tantrum in bed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "这样子还怎么惩罚小猪仔啊……",
+			say = "As I am right now, I can't punish you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "呜呜…发生这种事……还怎么可能踩得上去啦……！",
+			say = "Ugh... having this happen to me... There's no other choice... I'll have to step all over you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "被窝里的动作停了下来。",
+			say = "Suddenly, all movement in the bed stopped.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			},
 			options = {
 				{
-					content = "靠近观察阿贾克斯的状况",
+					content = "Get closer to check on Ajax",
 					flag = 2
 				}
 			}
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "靠近阿贾克斯时，突然被拽进了被窝里。",
+			say = "When I got closer to check on how Ajax was doing, she suddenly pulled me under the sheets.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,23 +224,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "阿贾克斯的呼吸近在咫尺…。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202030,
-			nameColor = "#a9f548",
-			bgName = "bg_story_room",
-			side = 2,
-			dir = 1,
-			say = "抱歉啊，我…像这样单方面被温柔对待的话可是会活不下去的呢。",
+			say = "I felt Ajax's breath close to my face...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +240,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "光是让我一个人脸红，让我一个人示弱……太不公平了。",
+			say = "I'm sorry... I, just can't live on being pampered like this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +256,23 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "所以……让我们一起感冒吧？",
+			say = "Having only my face be flushed red, being the only one that has to be seen in this weak state... is absolutely unfair.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202030,
+			nameColor = "#a9f548",
+			bgName = "bg_story_room",
+			side = 2,
+			dir = 1,
+			say = "So this time... shall we both have a cold, together?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			blackBg = true,
 			actor = 202030,
 			nameColor = "#a9f548",
-			say = "我可爱的小猪仔♡",
+			say = "My beloved little piggy~♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

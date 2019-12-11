@@ -129,7 +129,7 @@ end
 
 function slot0.UpdateInstagram(slot0, slot1, slot2)
 	for slot6, slot7 in pairs(slot0.cards) do
-		if slot7.instagram.id == slot1 then
+		if slot7.instagram and slot7.instagram.id == slot1 then
 			slot7:Update(slot0.instagramVOById[slot1], slot2)
 		end
 	end

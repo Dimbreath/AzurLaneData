@@ -1205,6 +1205,36 @@ pg.memory_group = {
 			266
 		}
 	},
+	[505] = {
+		title = "My Fond Memories",
+		type = 3,
+		id = 505,
+		icon = "title_chara_ajiakesi",
+		memories = {
+			267,
+			268,
+			269,
+			270,
+			271,
+			272,
+			273
+		}
+	},
+	[506] = {
+		title = "Hammann Observation Diary",
+		type = 3,
+		id = 506,
+		icon = "title_chara_haman",
+		memories = {
+			274,
+			275,
+			276,
+			277,
+			278,
+			279,
+			280
+		}
+	},
 	[507] = {
 		title = "Red Spider Lily's Love",
 		type = 3,
@@ -1801,6 +1831,8 @@ pg.memory_group = {
 		502,
 		503,
 		504,
+		505,
+		506,
 		507,
 		508,
 		509,

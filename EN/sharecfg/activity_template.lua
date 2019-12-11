@@ -10083,6 +10083,100 @@ pg.activity_template = {
 			"clutter/activity_bg_zhuyemian"
 		}
 	},
+	[30285] = {
+		mark = 20191211,
+		title_res_tag = "dachaosd_fk",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 42,
+		id = 30285,
+		config_data = {
+			{
+				15210,
+				15211
+			},
+			{
+				15212,
+				15213
+			},
+			{
+				15214,
+				15215
+			},
+			{
+				15216,
+				15217
+			},
+			{
+				15218,
+				15219
+			},
+			{
+				15220,
+				15221
+			},
+			{
+				15222,
+				15223
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_dachaosd_fk"
+		},
+		config_client = {
+			story = {
+				{
+					"DACHAOSHENGDAN1"
+				},
+				{
+					"DACHAOSHENGDAN2"
+				},
+				{
+					"DACHAOSHENGDAN3"
+				},
+				{
+					"DACHAOSHENGDAN4"
+				},
+				{
+					"DACHAOSHENGDAN5"
+				},
+				{
+					"DACHAOSHENGDAN6"
+				},
+				{
+					"DACHAOSHENGDAN7"
+				}
+			}
+		}
+	},
 	[30500] = {
 		mark = 20181030,
 		title_res_tag = "",
@@ -10675,6 +10769,38 @@ pg.activity_template = {
 			{}
 		}
 	},
+	[30537] = {
+		mark = 20191211,
+		title_res_tag = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5071,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 30537,
+		config_data = {
+			0,
+			{}
+		}
+	},
+	[30538] = {
+		mark = 20191211,
+		title_res_tag = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5081,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 30538,
+		config_data = {
+			0,
+			{}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -10989,6 +11115,7 @@ pg.activity_template = {
 		30282,
 		30283,
 		30284,
+		30285,
 		30500,
 		30501,
 		30502,
@@ -11025,7 +11152,9 @@ pg.activity_template = {
 		30533,
 		30534,
 		30535,
-		30536
+		30536,
+		30537,
+		30538
 	}
 }
 
