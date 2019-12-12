@@ -4025,7 +4025,7 @@ Current expansions: <color=#92fc63>$3</color>
 		key = "friend_inpout_key_tip"
 	},
 	remove_friend_tip = {
-		tip = "Are you sure you want to delete these friends?",
+		tip = "Are you sure you want to delete this friend? ",
 		key = "remove_friend_tip"
 	},
 	friend_request_msg_placeholder = {

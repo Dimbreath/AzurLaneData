@@ -188,12 +188,12 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
 			actor = 202030,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
-			side = 2,
-			dir = 1,
-			say = "options = {{content = \"Ahhhn...\",flag = 1}}",
+			say = "Okay, open your mouth. Say ahhhn~.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,6 +201,12 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
+			},
+			options = {
+				{
+					content = "Ahhhn...",
+					flag = 1
+				}
 			}
 		},
 		{
