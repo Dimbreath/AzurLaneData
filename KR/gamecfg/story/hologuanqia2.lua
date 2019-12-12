@@ -212,7 +212,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只是가끔은 병참 보조 임무도 괜찮잖아. 기회가 있을 때 쉬어야지~",
+			say = "가끔은 병참 보조 임무도 괜찮잖아. 기회가 있을 때 쉬어야지~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
