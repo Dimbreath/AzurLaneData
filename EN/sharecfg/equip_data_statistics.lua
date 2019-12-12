@@ -3458,7 +3458,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 80,
 		icon = "720",
-		value_1 = "4",
+		value_1 = "12",
 		attribute_2 = "durability",
 		avoid_extra = 0,
 		rarity = 5,
@@ -3488,7 +3488,7 @@ pg.equip_data_statistics = {
 		id = 721,
 		base = 720,
 		value_2 = 85,
-		value_1 = "4",
+		value_1 = "13",
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
@@ -3497,7 +3497,7 @@ pg.equip_data_statistics = {
 		id = 722,
 		base = 720,
 		value_2 = 90,
-		value_1 = "5",
+		value_1 = "13",
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
@@ -3506,7 +3506,7 @@ pg.equip_data_statistics = {
 		id = 723,
 		base = 720,
 		value_2 = 95,
-		value_1 = "5",
+		value_1 = "14",
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
@@ -3515,7 +3515,7 @@ pg.equip_data_statistics = {
 		id = 724,
 		base = 720,
 		value_2 = 100,
-		value_1 = "6",
+		value_1 = "14",
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
@@ -3524,7 +3524,7 @@ pg.equip_data_statistics = {
 		id = 725,
 		base = 720,
 		value_2 = 105,
-		value_1 = "7",
+		value_1 = "15",
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
@@ -3533,7 +3533,7 @@ pg.equip_data_statistics = {
 		id = 726,
 		base = 720,
 		value_2 = 110,
-		value_1 = "8",
+		value_1 = "16",
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
@@ -3542,7 +3542,7 @@ pg.equip_data_statistics = {
 		id = 727,
 		base = 720,
 		value_2 = 120,
-		value_1 = "9",
+		value_1 = "17",
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
@@ -3551,7 +3551,7 @@ pg.equip_data_statistics = {
 		id = 728,
 		base = 720,
 		value_2 = 130,
-		value_1 = "10",
+		value_1 = "18",
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
@@ -3560,7 +3560,7 @@ pg.equip_data_statistics = {
 		id = 729,
 		base = 720,
 		value_2 = 140,
-		value_1 = "11",
+		value_1 = "19",
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
@@ -3569,7 +3569,7 @@ pg.equip_data_statistics = {
 		id = 730,
 		base = 720,
 		value_2 = 150,
-		value_1 = "12",
+		value_1 = "20",
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
@@ -59557,7 +59557,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 0,
 		icon = "1",
-		value_1 = "17 x 4",
+		value_1 = "",
 		avoid_extra = 0,
 		rarity = 1,
 		is_siren = 0,

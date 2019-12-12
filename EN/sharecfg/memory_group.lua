@@ -661,6 +661,21 @@ pg.memory_group = {
 			584
 		}
 	},
+	[146] = {
+		title = "Operation: Christmas! ",
+		type = 2,
+		id = 146,
+		icon = "title_event",
+		memories = {
+			592,
+			593,
+			594,
+			595,
+			596,
+			597,
+			598
+		}
+	},
 	[147] = {
 		title = "Blessed New Year",
 		type = 2,
@@ -1803,6 +1818,7 @@ pg.memory_group = {
 		139,
 		141,
 		145,
+		146,
 		147,
 		148,
 		149,
