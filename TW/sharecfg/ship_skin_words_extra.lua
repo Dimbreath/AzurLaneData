@@ -365,13 +365,80 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[301090] = {
+		feeling3 = "",
+		upgrade = "",
+		id = 301090,
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = "",
+		detail = "",
+		main = {
+			{
+				100,
+				"nil|{namecode:12}，在下不会因为这点程度就迷路的！|nil"
+			}
+		},
+		touch = {
+			{
+				100,
+				"{namecode:12}？啊，是指挥官吗……"
+			}
+		}
+	},
+	[301091] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		id = 301091,
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = "",
+		detail = "",
+		main = {
+			{
+				100,
+				"找{namecode:12}确实费了好大的劲…可、可不是因为在下迷路了哦！|nil|nil"
+			}
+		}
+	},
 	all = {
 		999010,
 		801040,
 		108030,
 		999011,
 		207050,
-		905030
+		905030,
+		301090,
+		301091
 	}
 }
 

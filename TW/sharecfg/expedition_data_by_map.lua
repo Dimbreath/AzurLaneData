@@ -204,7 +204,7 @@ pg.expedition_data_by_map = {
 		bg = "map_5",
 		destory_icon_suffix = "blue",
 		animtor = 0,
-		bind_map = 0,
+		bind_map = 205,
 		clouds_pos = {
 			{
 				332,
@@ -394,6 +394,84 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	{
+		map = 8,
+		name = "科曼多爾海戰",
+		bgm = "level",
+		type = 1,
+		on_activity = 0,
+		title = "8",
+		enter_story = "",
+		level_limit = 35,
+		uifx = "",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "white",
+		bg = "map_8",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		drop_by_map_display = {
+			{
+				{
+					2,
+					53050
+				}
+			},
+			{
+				{
+					2,
+					53051
+				}
+			},
+			{
+				{
+					2,
+					53052
+				}
+			},
+			{
+				{
+					2,
+					53053
+				}
+			},
+			{
+				{
+					2,
+					53054
+				}
+			},
+			{
+				{
+					2,
+					53055
+				}
+			}
+		}
+	},
 	[201] = {
 		map = 201,
 		name = "虎！虎！虎！",
@@ -559,6 +637,47 @@ pg.expedition_data_by_map = {
 			{
 				830,
 				-109
+			}
+		}
+	},
+	[205] = {
+		map = 205,
+		name = "所羅門的噩夢中",
+		bgm = "level",
+		type = 2,
+		on_activity = 0,
+		title = "5",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 20,
+		uifx = "UIhuohua2",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "white",
+		bg = "map_205",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 5,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
 			}
 		}
 	},
@@ -3107,10 +3226,12 @@ pg.expedition_data_by_map = {
 		5,
 		6,
 		7,
+		8,
 		201,
 		202,
 		203,
 		204,
+		205,
 		10000,
 		70000,
 		90000,

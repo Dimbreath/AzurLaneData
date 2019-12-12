@@ -15240,6 +15240,530 @@ pg.ship_data_statistics = {
 			"Cleveland-Class"
 		}
 	},
+	[102111] = {
+		name = "里奇蒙",
+		type = 2,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 1,
+		oxy_recovery = 0,
+		rarity = 2,
+		ammo = 0,
+		id = 102111,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Richmond",
+		skin_id = 102110,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			554,
+			26,
+			38,
+			53,
+			0,
+			67,
+			0,
+			52,
+			30,
+			35,
+			69,
+			22
+		},
+		attrs_growth = {
+			13515,
+			260,
+			378,
+			1032,
+			0,
+			332,
+			0,
+			768,
+			450,
+			0,
+			0,
+			222
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			201
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.45,
+			1.2,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[102112] = {
+		name = "里奇蒙",
+		type = 2,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 2,
+		ammo = 0,
+		id = 102112,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Richmond",
+		skin_id = 102110,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			689,
+			33,
+			47,
+			66,
+			0,
+			67,
+			0,
+			52,
+			30,
+			35,
+			69,
+			28
+		},
+		attrs_growth = {
+			13515,
+			260,
+			378,
+			1032,
+			0,
+			332,
+			0,
+			768,
+			450,
+			0,
+			0,
+			222
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			202
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.12,
+			1.47,
+			1.22,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[102113] = {
+		name = "里奇蒙",
+		type = 2,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 2,
+		ammo = 0,
+		id = 102113,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Richmond",
+		skin_id = 102110,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			959,
+			46,
+			66,
+			92,
+			0,
+			67,
+			0,
+			52,
+			30,
+			35,
+			69,
+			39
+		},
+		attrs_growth = {
+			13515,
+			260,
+			378,
+			1032,
+			0,
+			332,
+			0,
+			768,
+			450,
+			0,
+			0,
+			222
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			203
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.5,
+			1.25,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[102114] = {
+		name = "里奇蒙",
+		type = 2,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 2,
+		ammo = 0,
+		id = 102114,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Richmond",
+		skin_id = 102110,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1365,
+			65,
+			95,
+			130,
+			0,
+			67,
+			0,
+			52,
+			30,
+			35,
+			69,
+			55
+		},
+		attrs_growth = {
+			13515,
+			260,
+			378,
+			1032,
+			0,
+			332,
+			0,
+			768,
+			450,
+			0,
+			0,
+			222
+		},
+		attrs_growth_extra = {
+			4052,
+			610,
+			897,
+			615,
+			0,
+			786,
+			0,
+			0,
+			620,
+			0,
+			0,
+			315
+		},
+		grades = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			204
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.55,
+			1.3,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[103011] = {
 		name = "彭薩科拉",
 		type = 3,
@@ -15660,6 +16184,518 @@ pg.ship_data_statistics = {
 			9,
 			26.2,
 			75,
+			0
+		},
+		attrs_growth = {
+			13735,
+			424,
+			0,
+			724,
+			0,
+			292,
+			0,
+			570,
+			132,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			4118,
+			1001,
+			0,
+			491,
+			0,
+			691,
+			0,
+			255,
+			1378,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"C",
+			"C"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			0.45,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[103021] = {
+		name = "鹽湖城",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 1,
+		oxy_recovery = 0,
+		rarity = 2,
+		ammo = 0,
+		id = 103021,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Salt Lake City",
+		skin_id = 103020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			563,
+			43,
+			0,
+			37,
+			0,
+			59,
+			0,
+			39,
+			9,
+			26.2,
+			71,
+			0
+		},
+		attrs_growth = {
+			13735,
+			424,
+			0,
+			724,
+			0,
+			292,
+			0,
+			570,
+			132,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"C",
+			"C"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.4,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[103022] = {
+		name = "鹽湖城",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 2,
+		ammo = 0,
+		id = 103022,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Salt Lake City",
+		skin_id = 103020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			700,
+			54,
+			0,
+			46,
+			0,
+			59,
+			0,
+			39,
+			9,
+			26.2,
+			71,
+			0
+		},
+		attrs_growth = {
+			13735,
+			424,
+			0,
+			724,
+			0,
+			292,
+			0,
+			570,
+			132,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"C",
+			"C"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.4,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[103023] = {
+		name = "鹽湖城",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 2,
+		ammo = 0,
+		id = 103023,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Salt Lake City",
+		skin_id = 103020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			975,
+			75,
+			0,
+			64,
+			0,
+			59,
+			0,
+			39,
+			9,
+			26.2,
+			71,
+			0
+		},
+		attrs_growth = {
+			13735,
+			424,
+			0,
+			724,
+			0,
+			292,
+			0,
+			570,
+			132,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"C",
+			"C"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			0.4,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[103024] = {
+		name = "鹽湖城",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 2,
+		ammo = 0,
+		id = 103024,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Salt Lake City",
+		skin_id = 103020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1387,
+			107,
+			0,
+			91,
+			0,
+			59,
+			0,
+			39,
+			9,
+			26.2,
+			71,
 			0
 		},
 		attrs_growth = {
@@ -41540,6 +42576,526 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[203091] = {
+		name = "蘇塞克斯",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 203091,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Sussex",
+		skin_id = 203090,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			590,
+			37,
+			40,
+			48,
+			0,
+			59,
+			0,
+			38,
+			9,
+			25.6,
+			68,
+			0
+		},
+		attrs_growth = {
+			14385,
+			370,
+			394,
+			932,
+			0,
+			292,
+			0,
+			564,
+			126,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"B",
+			"C"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			311
+		},
+		default_equip_list = {
+			102,
+			107,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.45,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[203092] = {
+		name = "蘇塞克斯",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 203092,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Sussex",
+		skin_id = 203090,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			734,
+			46,
+			50,
+			60,
+			0,
+			59,
+			0,
+			38,
+			9,
+			25.6,
+			68,
+			0
+		},
+		attrs_growth = {
+			14385,
+			370,
+			394,
+			932,
+			0,
+			292,
+			0,
+			564,
+			126,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"B",
+			"C"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			312
+		},
+		default_equip_list = {
+			102,
+			107,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.45,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[203093] = {
+		name = "蘇塞克斯",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 203093,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Sussex",
+		skin_id = 203090,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1022,
+			65,
+			70,
+			83,
+			0,
+			59,
+			0,
+			38,
+			9,
+			25.6,
+			68,
+			0
+		},
+		attrs_growth = {
+			14385,
+			370,
+			394,
+			932,
+			0,
+			292,
+			0,
+			564,
+			126,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"B",
+			"C"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			313
+		},
+		default_equip_list = {
+			102,
+			107,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.45,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[203094] = {
+		name = "蘇塞克斯",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 203094,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Sussex",
+		skin_id = 203090,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1453,
+			93,
+			99,
+			118,
+			0,
+			59,
+			0,
+			38,
+			9,
+			25.6,
+			68,
+			0
+		},
+		attrs_growth = {
+			14385,
+			370,
+			394,
+			932,
+			0,
+			292,
+			0,
+			564,
+			126,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			5035,
+			875,
+			934,
+			617,
+			0,
+			691,
+			0,
+			251,
+			2179,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"B",
+			"C"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			314
+		},
+		default_equip_list = {
+			102,
+			107,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.6,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[204011] = {
 		name = "聲望",
 		type = 4,
@@ -48700,6 +50256,518 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[213041] = {
+		name = "阿貝克隆比",
+		type = 13,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 213041,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Abercrombie",
+		skin_id = 213040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			609,
+			53,
+			0,
+			34,
+			0,
+			54,
+			0,
+			28,
+			11,
+			12.5,
+			38,
+			0
+		},
+		attrs_growth = {
+			14850,
+			526,
+			0,
+			664,
+			0,
+			270,
+			0,
+			414,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"E",
+			"D",
+			"C"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.9,
+			2.05,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[213042] = {
+		name = "阿貝克隆比",
+		type = 13,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 213042,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Abercrombie",
+		skin_id = 213040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			758,
+			66,
+			0,
+			42,
+			0,
+			54,
+			0,
+			28,
+			11,
+			12.5,
+			38,
+			0
+		},
+		attrs_growth = {
+			14850,
+			526,
+			0,
+			664,
+			0,
+			270,
+			0,
+			414,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"E",
+			"D",
+			"C"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			2.05,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[213043] = {
+		name = "阿貝克隆比",
+		type = 13,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 213043,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Abercrombie",
+		skin_id = 213040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1055,
+			92,
+			0,
+			59,
+			0,
+			54,
+			0,
+			28,
+			11,
+			12.5,
+			38,
+			0
+		},
+		attrs_growth = {
+			14850,
+			526,
+			0,
+			664,
+			0,
+			270,
+			0,
+			414,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"E",
+			"D",
+			"C"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2.05,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[213044] = {
+		name = "阿貝克隆比",
+		type = 13,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 213044,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Abercrombie",
+		skin_id = 213040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1500,
+			132,
+			0,
+			84,
+			0,
+			54,
+			0,
+			28,
+			11,
+			12.5,
+			38,
+			0
+		},
+		attrs_growth = {
+			14850,
+			526,
+			0,
+			664,
+			0,
+			270,
+			0,
+			414,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			14850,
+			1142,
+			0,
+			454,
+			0,
+			638,
+			0,
+			-6,
+			1367,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"E",
+			"D",
+			"C"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			2.05,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[301011] = {
 		name = "吹雪",
 		type = 1,
@@ -50199,6 +52267,1054 @@ pg.ship_data_statistics = {
 			0,
 			0,
 			448
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.5,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Special Type",
+			"Division 6"
+		}
+	},
+	[301111] = {
+		name = "雷",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 301111,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Ikazuchi",
+		skin_id = 301110,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			282,
+			11,
+			95,
+			28,
+			0,
+			77,
+			0,
+			65,
+			72,
+			45.6,
+			52,
+			41
+		},
+		attrs_growth = {
+			6870,
+			110,
+			940,
+			548,
+			0,
+			384,
+			0,
+			966,
+			1068,
+			0,
+			0,
+			410
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.3,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Special Type",
+			"Division 6"
+		}
+	},
+	[301112] = {
+		name = "雷",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 301112,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Ikazuchi",
+		skin_id = 301110,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			351,
+			14,
+			119,
+			35,
+			0,
+			77,
+			0,
+			65,
+			72,
+			45.6,
+			52,
+			51
+		},
+		attrs_growth = {
+			6870,
+			110,
+			940,
+			548,
+			0,
+			384,
+			0,
+			966,
+			1068,
+			0,
+			0,
+			410
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Special Type",
+			"Division 6"
+		}
+	},
+	[301113] = {
+		name = "雷",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 301113,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Ikazuchi",
+		skin_id = 301110,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			488,
+			19,
+			166,
+			49,
+			0,
+			77,
+			0,
+			65,
+			72,
+			45.6,
+			52,
+			72
+		},
+		attrs_growth = {
+			6870,
+			110,
+			940,
+			548,
+			0,
+			384,
+			0,
+			966,
+			1068,
+			0,
+			0,
+			410
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.45,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Special Type",
+			"Division 6"
+		}
+	},
+	[301114] = {
+		name = "雷",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 301114,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Ikazuchi",
+		skin_id = 301110,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			694,
+			28,
+			236,
+			69,
+			0,
+			77,
+			0,
+			65,
+			72,
+			45.6,
+			52,
+			103
+		},
+		attrs_growth = {
+			6870,
+			110,
+			940,
+			548,
+			0,
+			384,
+			0,
+			966,
+			1068,
+			0,
+			0,
+			410
+		},
+		attrs_growth_extra = {
+			6870,
+			258,
+			1175,
+			375,
+			0,
+			914,
+			0,
+			-566,
+			-776,
+			0,
+			0,
+			441
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.5,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Special Type",
+			"Division 6"
+		}
+	},
+	[301121] = {
+		name = "電",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 301121,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Inazuma",
+		skin_id = 301120,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			282,
+			11,
+			95,
+			28,
+			0,
+			77,
+			0,
+			65,
+			72,
+			45.6,
+			57,
+			41
+		},
+		attrs_growth = {
+			6870,
+			110,
+			940,
+			548,
+			0,
+			384,
+			0,
+			966,
+			1068,
+			0,
+			0,
+			410
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.3,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Special Type",
+			"Division 6"
+		}
+	},
+	[301122] = {
+		name = "電",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 301122,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Inazuma",
+		skin_id = 301120,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			351,
+			14,
+			119,
+			35,
+			0,
+			77,
+			0,
+			65,
+			72,
+			45.6,
+			57,
+			51
+		},
+		attrs_growth = {
+			6870,
+			110,
+			940,
+			548,
+			0,
+			384,
+			0,
+			966,
+			1068,
+			0,
+			0,
+			410
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Special Type",
+			"Division 6"
+		}
+	},
+	[301123] = {
+		name = "電",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 301123,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Inazuma",
+		skin_id = 301120,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			488,
+			19,
+			166,
+			49,
+			0,
+			77,
+			0,
+			65,
+			72,
+			45.6,
+			57,
+			72
+		},
+		attrs_growth = {
+			6870,
+			110,
+			940,
+			548,
+			0,
+			384,
+			0,
+			966,
+			1068,
+			0,
+			0,
+			410
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.45,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Special Type",
+			"Division 6"
+		}
+	},
+	[301124] = {
+		name = "電",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 3,
+		ammo = 0,
+		id = 301124,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Inazuma",
+		skin_id = 301120,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			694,
+			28,
+			236,
+			69,
+			0,
+			77,
+			0,
+			65,
+			72,
+			45.6,
+			57,
+			103
+		},
+		attrs_growth = {
+			6870,
+			110,
+			940,
+			548,
+			0,
+			384,
+			0,
+			966,
+			1068,
+			0,
+			0,
+			410
+		},
+		attrs_growth_extra = {
+			6870,
+			258,
+			1175,
+			375,
+			0,
+			914,
+			0,
+			-566,
+			-776,
+			0,
+			0,
+			441
 		},
 		grades = {
 			"D",
@@ -64201,6 +67317,526 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[303131] = {
+		name = "摩耶",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.2",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 303131,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Maya",
+		skin_id = 303130,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			738,
+			50,
+			45,
+			33,
+			0,
+			64,
+			0,
+			46,
+			13,
+			31.95,
+			48,
+			0
+		},
+		attrs_growth = {
+			18010,
+			496,
+			448,
+			652,
+			0,
+			320,
+			0,
+			678,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			321
+		},
+		default_equip_list = {
+			102,
+			107,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.5,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[303132] = {
+		name = "摩耶",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.2",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 303132,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Maya",
+		skin_id = 303130,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			918,
+			62,
+			56,
+			41,
+			0,
+			64,
+			0,
+			46,
+			13,
+			31.95,
+			48,
+			0
+		},
+		attrs_growth = {
+			18010,
+			496,
+			448,
+			652,
+			0,
+			320,
+			0,
+			678,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			322
+		},
+		default_equip_list = {
+			102,
+			107,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.55,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[303133] = {
+		name = "摩耶",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.2",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 303133,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Maya",
+		skin_id = 303130,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1278,
+			87,
+			79,
+			57,
+			0,
+			64,
+			0,
+			46,
+			13,
+			31.95,
+			48,
+			0
+		},
+		attrs_growth = {
+			18010,
+			496,
+			448,
+			652,
+			0,
+			320,
+			0,
+			678,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			323
+		},
+		default_equip_list = {
+			102,
+			107,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.55,
+			1.2,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[303134] = {
+		name = "摩耶",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.2",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 303134,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Maya",
+		skin_id = 303130,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1819,
+			124,
+			112,
+			82,
+			0,
+			64,
+			0,
+			46,
+			13,
+			31.95,
+			48,
+			0
+		},
+		attrs_growth = {
+			18010,
+			496,
+			448,
+			652,
+			0,
+			320,
+			0,
+			678,
+			192,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			4500,
+			1112,
+			1057,
+			443,
+			0,
+			753,
+			0,
+			0,
+			1968,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			324
+		},
+		default_equip_list = {
+			102,
+			107,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.7,
+			1.2,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[304021] = {
 		name = "比叡",
 		type = 4,
@@ -71618,6 +75254,558 @@ pg.ship_data_statistics = {
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[312011] = {
+		name = "明石",
+		type = 12,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.15",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 312011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Akashi",
+		skin_id = 312010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			682,
+			8,
+			0,
+			30,
+			0,
+			66,
+			0,
+			37,
+			8,
+			19.2,
+			53,
+			0
+		},
+		attrs_growth = {
+			16630,
+			82,
+			0,
+			584,
+			0,
+			330,
+			0,
+			540,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"E",
+			"C",
+			"D",
+			"C"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			104,
+			104,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.85,
+			0.85
+		},
+		strategy_list = {
+			{
+				4,
+				1
+			}
+		},
+		strategy_list_ai = {
+			{
+				4,
+				1
+			}
+		},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[312012] = {
+		name = "明石",
+		type = 12,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.15",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 312012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Akashi",
+		skin_id = 312010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			848,
+			10,
+			0,
+			37,
+			0,
+			66,
+			0,
+			37,
+			8,
+			19.2,
+			53,
+			0
+		},
+		attrs_growth = {
+			16630,
+			82,
+			0,
+			584,
+			0,
+			330,
+			0,
+			540,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"E",
+			"C",
+			"D",
+			"C"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			104,
+			104,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.88,
+			0.88
+		},
+		strategy_list = {
+			{
+				4,
+				2
+			}
+		},
+		strategy_list_ai = {
+			{
+				4,
+				2
+			}
+		},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[312013] = {
+		name = "明石",
+		type = 12,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.15",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 1,
+		id = 312013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Akashi",
+		skin_id = 312010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1181,
+			14,
+			0,
+			52,
+			0,
+			66,
+			0,
+			37,
+			8,
+			19.2,
+			53,
+			0
+		},
+		attrs_growth = {
+			16630,
+			82,
+			0,
+			584,
+			0,
+			330,
+			0,
+			540,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"E",
+			"C",
+			"D",
+			"C"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			104,
+			104,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.93,
+			0.93
+		},
+		strategy_list = {
+			{
+				4,
+				2
+			}
+		},
+		strategy_list_ai = {
+			{
+				4,
+				2
+			}
+		},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[312014] = {
+		name = "明石",
+		type = 12,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.15",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 1,
+		id = 312014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Akashi",
+		skin_id = 312010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1680,
+			20,
+			0,
+			74,
+			0,
+			66,
+			0,
+			37,
+			8,
+			19.2,
+			53,
+			0
+		},
+		attrs_growth = {
+			16630,
+			82,
+			0,
+			584,
+			0,
+			330,
+			0,
+			540,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			11641,
+			188,
+			0,
+			399,
+			0,
+			780,
+			0,
+			0,
+			1081,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"E",
+			"C",
+			"D",
+			"C"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			104,
+			104,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1,
+			1
+		},
+		strategy_list = {
+			{
+				4,
+				3
+			}
+		},
+		strategy_list_ai = {
+			{
+				4,
+				3
+			}
+		},
 		hunting_range = {
 			{}
 		},
@@ -99687,10 +103875,18 @@ pg.ship_data_statistics = {
 		102092,
 		102093,
 		102094,
+		102111,
+		102112,
+		102113,
+		102114,
 		103011,
 		103012,
 		103013,
 		103014,
+		103021,
+		103022,
+		103023,
+		103024,
 		103031,
 		103032,
 		103033,
@@ -99891,6 +104087,10 @@ pg.ship_data_statistics = {
 		203082,
 		203083,
 		203084,
+		203091,
+		203092,
+		203093,
+		203094,
 		204011,
 		204012,
 		204013,
@@ -99947,6 +104147,10 @@ pg.ship_data_statistics = {
 		213022,
 		213023,
 		213024,
+		213041,
+		213042,
+		213043,
+		213044,
 		301011,
 		301012,
 		301013,
@@ -99959,6 +104163,14 @@ pg.ship_data_statistics = {
 		301092,
 		301093,
 		301094,
+		301111,
+		301112,
+		301113,
+		301114,
+		301121,
+		301122,
+		301123,
+		301124,
 		301131,
 		301132,
 		301133,
@@ -100067,6 +104279,10 @@ pg.ship_data_statistics = {
 		303122,
 		303123,
 		303124,
+		303131,
+		303132,
+		303133,
+		303134,
 		304021,
 		304022,
 		304023,
@@ -100125,6 +104341,10 @@ pg.ship_data_statistics = {
 		307064,
 		310014,
 		310024,
+		312011,
+		312012,
+		312013,
+		312014,
 		401011,
 		401012,
 		401013,

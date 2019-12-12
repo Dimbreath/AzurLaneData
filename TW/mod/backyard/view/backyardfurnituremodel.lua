@@ -206,52 +206,82 @@ function slot0.LoadingAnim(slot0, slot1)
 	end))
 end
 
-function slot0.TouchSpineAnim(slot0, slot1, slot2)
-	slot4 = slot0.spineAnimUI
-	slot5, slot6, slot7 = slot0.furnitureVO.getTouchSpineConfig(slot3)
-
-	if not slot6 and slot0.touchSwitch then
+function slot0.TouchSpineAnim(slot0, slot1, slot2, slot3)
+	if slot0.inPreAction then
 		return
 	end
 
-	if slot0.touchSwitch and slot6 then
-		slot4:SetAction("normal", 0)
+	slot5 = slot0.spineAnimUI
+	slot6, slot7, slot8, slot9, slot10 = slot0.furnitureVO.getTouchSpineConfig(slot4)
 
-		if slot3:isMoveable() then
-			slot1()
+	function slot11()
+		if not slot0 and slot1.touchSwitch then
+			return
 		end
 
-		slot0.touchSwitch = false
-
-		return
-	end
-
-	slot4:SetActionCallBack(function (slot0)
-		if slot0 == "finish" and not slot0 then
-			slot1:SetAction("normal", 0)
-
-			if slot1:isMoveable() then
-				slot3()
+		if slot1.touchSwitch and slot0 then
+			if slot2 then
+				slot2(false)
 			end
 
-			slot1:SetActionCallBack(nil)
+			slot3:SetAction("normal", 0)
 
-			slot4.touchSwitch = false
+			if slot4:isMoveable() then
+				slot5()
+			end
+
+			slot1.touchSwitch = false
+
+			return
 		end
-	end)
 
-	if slot5 then
-		slot4:SetAction(slot5, 0)
+		slot3:SetActionCallBack(function (slot0)
+			if slot0 == "finish" and not slot0 then
+				slot1:SetAction("normal", 0)
 
-		slot0.touchSwitch = true
+				if slot1:isMoveable() then
+					slot3()
+				end
 
-		if slot3:isMoveable() then
-			slot2()
+				slot1:SetActionCallBack(nil)
+
+				slot4.touchSwitch = false
+			end
+		end)
+
+		if slot6 then
+			if slot2 then
+				slot2(true)
+			end
+
+			slot3:SetAction(slot6, 0)
+
+			slot3.touchSwitch = true
+
+			if slot4:isMoveable() then
+				slot7()
+			end
 		end
 	end
 
-	if slot7 then
-		slot0:playFurnitureVoice(slot7)
+	if slot10 and not slot0.touchSwitch then
+		slot0.inPreAction = true
+
+		slot5:SetActionCallBack(function (slot0)
+			if slot0 == "finish" then
+				slot0.inPreAction = false
+
+				slot0:SetActionCallBack(nil)
+				slot0()
+			end
+		end)
+		slot5:SetAction(slot10, 0)
+	else
+		slot11()
+	end
+
+	if slot8 then
+		slot0:playFurnitureVoice(slot8)
 	end
 end
 

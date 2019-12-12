@@ -332,6 +332,14 @@ slot1 = {
 	[ActivityConst.HOLOLIVE_MIO_ID] = {
 		className = "HoloLiveMioPage",
 		uiName = "HoloLiveMioPage"
+	},
+	[ActivityConst.ZPROJECT_TW] = {
+		className = "ZProjectPage",
+		uiName = "zprojectpage"
+	},
+	[ActivityConst.SHIO_SKIN_RE_ID] = {
+		className = "ShioSkinRePage",
+		uiName = "ShioSkinRePage"
 	}
 }
 slot2 = {

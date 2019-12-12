@@ -804,7 +804,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "画师的爸爸妈妈这样的创作者、制作成员、还有观众们……只有大家一起互动，才有了我们hololive的活动啊！",
+			say = "有画师爸爸妈妈这样的创作者、制作成员、还有观众们……只有大家一起互动，才有了我们hololive的活动啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

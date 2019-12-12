@@ -1,6 +1,17 @@
 pg = pg or {}
 pg.task_data_trigger = {
-	[2] = {
+	{
+		group_id = 0,
+		id = 1,
+		activity_id = 0,
+		args = {
+			{
+				30,
+				5001
+			}
+		}
+	},
+	{
 		group_id = 10601,
 		id = 2,
 		activity_id = 45000,
@@ -11,7 +22,7 @@ pg.task_data_trigger = {
 			}
 		}
 	},
-	[3] = {
+	{
 		group_id = 30706,
 		id = 3,
 		activity_id = 2001,
@@ -22,7 +33,7 @@ pg.task_data_trigger = {
 			}
 		}
 	},
-	[4] = {
+	{
 		group_id = 30116,
 		id = 4,
 		activity_id = 2002,
@@ -33,7 +44,7 @@ pg.task_data_trigger = {
 			}
 		}
 	},
-	[5] = {
+	{
 		group_id = 20203,
 		id = 5,
 		activity_id = 2003,
@@ -44,7 +55,7 @@ pg.task_data_trigger = {
 			}
 		}
 	},
-	[6] = {
+	{
 		group_id = 10125,
 		id = 6,
 		activity_id = 2004,
@@ -419,6 +430,7 @@ pg.task_data_trigger = {
 		}
 	},
 	all = {
+		1,
 		2,
 		3,
 		4,

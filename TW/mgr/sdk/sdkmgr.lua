@@ -323,6 +323,17 @@ function pg.SdkMgr.BindSocial(slot0, slot1)
 	end
 end
 
+function pg.SdkMgr.UnbindSocial(slot0, slot1)
+	if slot1 == 1 then
+		slot0:UnBindFaceBook()
+	elseif slot1 == 2 then
+		slot0:UnBindGoogle()
+	elseif slot1 == 3 then
+		slot0:UnBindPhone()
+	elseif slot1 == 4 then
+	end
+end
+
 function pg.SdkMgr.BindFaceBook(slot0)
 	slot0:Call("BindFaceBook")
 end

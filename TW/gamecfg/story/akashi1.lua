@@ -35,7 +35,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "既然指揮官這麼閑，那就來給{namecode:98}幫忙喵！",
+			say = "既然指揮官這麼閒，那就來給{namecode:98}幫忙喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

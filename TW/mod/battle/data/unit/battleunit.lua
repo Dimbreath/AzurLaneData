@@ -957,20 +957,14 @@ end
 
 function slot9.DispatchChat(slot0, slot1, slot2, slot3)
 	slot0:DispatchEvent(slot0.Event.New(slot1.POP_UP, {
-		content = slot1,
+		content = HXSet.hxLan(slot1),
 		duration = slot2,
 		key = slot3
 	}))
 end
 
 function slot9.DispatchVoice(slot0, slot1)
-	slot2, slot3 = nil
-
-	if string.find(slot1, "link") then
-		slot3 = Ship.getCVPath(slot0:GetSkinID(), slot1)
-	else
-		slot2, slot3 = Ship.getWords(slot0:GetSkinID(), slot1)
-	end
+	slot2, slot3, slot4 = ShipWordHelper.GetWordAndCV(slot0:GetSkinID(), slot1)
 
 	if slot3 then
 		slot0:DispatchEvent(slot0.Event.New(slot1.VOICE, {

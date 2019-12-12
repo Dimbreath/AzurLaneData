@@ -7968,7 +7968,7 @@ $3]],
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
-		tip = "重型艦: 重型艦船的建造，包含重巡、重炮、戰巡、戰列等艦船",
+		tip = "阿貝克隆比、蘇塞克斯建造追加！",
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
@@ -10297,6 +10297,38 @@ combo达到10/20/40/60/80/100时，分别为每次有效
 	secretary_pos_save_success = {
 		tip = "儲存成功",
 		key = "secretary_pos_save_success"
+	},
+	collection_help = {
+		key = "collection_help",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/collect_help1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/collect_help2"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	}
 }
 
