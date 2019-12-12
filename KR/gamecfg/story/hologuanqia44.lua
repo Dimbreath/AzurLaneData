@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "将诗音…移动到反抗军基地，在净化亲身上放一枚嘲讽指示物…结束",
+			say = "시온을… 레지스탕스 기지로, 퓨리를 도발 카운터에… 그리고 종료입니다.",
 			bgm = "holo-control",
 			typewriter = {
 				speed = 0.05,
@@ -26,8 +26,8 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "为什么是我啦？！而且！虽说是一决胜负，对面的名侦探，这么一对多真的没问题么？",
+			actorName = "퓨리",
+			say = "왜 나인데?! 그리고! 승부라고는 하지만 저 명탐정, 정말 문제 없는거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,8 +43,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 10500010,
-			actorName = "名侦探吹雪",
-			say = "没问题没问题~能在这么短时间内上手陪我玩，我就很满意啦。",
+			actorName = "명탐정 후부키",
+			say = "그럼요 그럼요~ 이렇게 짧은 시간 동안 놀아주는 걸로 만족이랍니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,8 +59,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "名侦探吹雪",
-			say = "很遗憾，因为场地【岩浆之海】的效果，【净化亲】本回合无法移动。然后启用装置【塞壬科技·大量生产】！",
+			actorName = "명탐정 후부키",
+			say = "아쉽네요. [용암 바다]의 효과 때문에 [퓨리]는 이번 턴에 움직일 수 없군요. 그렇다면 [세이렌 스킬-대량 생산] 발동!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,8 +76,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 10500010,
-			actorName = "名侦探吹雪",
-			say = "虽然规则上没有写，不过这个装置有着在场外选择最多三名新角色入场的效果哦~",
+			actorName = "명탐정 후부키",
+			say = "규칙에는 적혀있지 않지만, 이 장치는 세 명의 캐릭터를 밖에서 불러올 수 있답니다~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这也太犯规了吧！！",
+			say = "완전히 반칙이잖아요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,8 +117,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "名侦探吹雪",
-			say = "作为这个游戏的创造者，不好意思咯~回来吧，山田·赫敏，燕子花奈切，澪川依代！",
+			actorName = "명탐정 후부키",
+			say = "게임의 설계자라서요. 미안해요~ 돌아와요, 야마다·헤르미온느, 제비붓꽃 나키리, 미오카와 이이요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此…我完全理解了！为【大天使阿库娅】装备【剑圣之剑】，向【名侦探吹雪】发动直接攻击！",
+			say = "그렇구나… 이해했어! [대천사 아쿠아]에게 [검성의 검]을 장비하고, [명탐정 후부키]에게 직접 공격!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500010,
-			say = "阿库娅！……前面的建筑下有陷阱！消耗三点行动力，为【大天使阿库娅】发动【白狐的加护】",
+			say = "아쿠아! …… 앞에 함정이 있어! 행동력 3을 소비해서 [대천사 아쿠아]에게 [흰 여우의 가호] 발동!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "千钧一发…发动事件卡【遭遇伏击】，下一回合…对手无法进行移动",
+			say = "일촉즉발… 사건 카드 [매복 조우]가 발동했네요… 다음 라운드… 상대는 움직일 수 없어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,8 +180,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 10500010,
-			actorName = "名侦探吹雪",
-			say = "拖延战术没用的啦~发动事件【名侦探的谜题】！",
+			actorName = "명탐정 후부키",
+			say = "지연 작전은 소용 없어요~ 사건 발동. [명탐정의 수수께끼]!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,8 +197,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 10500010,
-			actorName = "名侦探吹雪",
-			say = "我选择将山田·赫敏，澪川依代，燕子花奈切，夏 色 祭，抖S空，\n诗 音，名侦探吹雪全部从游戏中排除！并以此为代价召唤新的角色！！",
+			actorName = "명탐정 후부키",
+			say = "야마다 헤르미온느, 미오카와 이이요, 제비붓꽃 나키리, 나 츠 이 로 마 츠 리, 도S 소라, 시 온, 명탐정 후부키를 전부 게임에서 배제하겠어요! 그리고 새로운 캐릭터를 소환!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,8 +214,8 @@ return {
 			nameColor = "#ff5c5c",
 			actor = 10500010,
 			dir = 1,
-			actorName = "名侦探吹雪",
-			say = "降临吧！白上吹雪的究极形态，时间与空间的支配者，DARK FOX BIZZARD！！！",
+			actorName = "명탐정 후부키",
+			say = "오세요! 시라카미 후부키의 궁극 형태, 시간과 공간의 지배자, 다크 폭스 블리자드!!!",
 			effects = {
 				{
 					active = true,
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500040,
-			say = "居……居然拥有3000点攻击力？！",
+			say = "공…… 공격력이 3000이라고?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,8 +253,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 10500010,
-			actorName = "名侦探吹雪",
-			say = "只要击败了大将白上吹雪，游戏就结束了！DARK FOX BIZZARD发动攻击！狐瞬杀！！！",
+			actorName = "명탐정 후부키",
+			say = "대장 시라카미 후부키를 처치하면 게임은 끝이랍니다! 다크 폭스 블리자드, 공격! 순식간에 해치우세요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……这可说不定哦",
+			say = "……그건 아닐걸.",
 			effects = {
 				{
 					active = false,
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎…？吹雪生命值，没有归零？发生什么事了…",
+			say = "에…? 후부키의 HP가 그대로? 무슨 일이죠…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500010,
-			say = "当受到致命伤害时，最后的杀手锏，速攻魔法【连接着的羁绊】效果发动",
+			say = "치명적인 대미지를 입었을 때, 속공 마법 [이어지는 유대] 효과가 발동!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500010,
-			say = "这张卡的效果只能在异世界中发动。直到下次行动前，使用者的生命无法低于1点。同时由对手承受本次的全部溢出伤害！",
+			say = "이 카드의 효과는 이세계에서만 발동 돼. 다음 행동 전까지 사용자의 HP가 1 밑으로 떨어지지 않아. 그리고 이번 턴에 받은 대미지를 전부 상대에게 반사!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,8 +352,8 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900021,
-			actorName = "净化亲",
-			say = "哎？！敌方玩家全灭，到此为止，游戏结束！",
+			actorName = "퓨리",
+			say = "에?! 적 플레이어가 모두 사라졌어. 게임 끝이야!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -374,8 +374,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 10500010,
-			actorName = "名侦探吹雪",
-			say = "怎…怎么可能…这张卡怎么会在你的手上！？（倒",
+			actorName = "명탐정 후부키",
+			say = "어… 어떻게… 이 카드를 전부 가지고 있는거죠?! (털썩)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			actor = 201210,
 			nameColor = "#a9f548",
-			say = "{namecode:158}在游戏结束的同时直接把敌人打倒了？！",
+			say = "게임이 끝나자마자 카와카제가 상대를 쓰러뜨렸어?!",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -429,7 +429,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "敌人在白光中消失了。这样就算是…赢了…对吧？",
+			say = "적이 또 빛으로 사라졌네요. 이것도…… 이긴 셈이죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总感觉，心好累啊…就这样乘胜追击，向着本社大楼进军吧…",
+			say = "뭔가 굉장히 지치네…… 일단 본사 건물로 가보자……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

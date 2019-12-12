@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"虚拟与现实的双向镜-日常篇\n\n<size=45>八 重樱演武</size>",
+					"환상과 진실의 이중주-일상 편\n\n<size=45>8. 사쿠라 엠파이어의 연무</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "nagato-map",
 			actor = 305030,
 			nameColor = "#a9f548",
-			say = "可算来了，远道而来的客人",
+			say = "드디어 왔구나. 멀리서 온 손님.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:74}大人下达了特别吩咐，希望我们能让客人们玩得开心",
+			say = "손님들을 즐겁게 하라고 나가토님이 분부를 내리셨어,",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "这次是{namecode:76}和{namecode:77}啊，也就是说，节目是……",
+			say = "이번에는 이세와 휴가잖아. 그렇다면 주제는……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			actor = 305040,
 			nameColor = "#a9f548",
-			say = "好洞察力！在这里为你们来一场重樱演武。",
+			say = "맞아! 너희를 위해서 사쿠라 엠파이어의 비무를 선보일 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			actor = 900213,
 			nameColor = "#a9f548",
-			say = "哎？为什么都在用微妙的表情看着余……？",
+			say = "에? 왜 그런 미묘한 표정으로 짐을 보는 거지……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算让我和{namecode:77}相互对峙，场面也不会十分有趣，能不能让那边的鬼大人也加入我们呢？",
+			say = "아니, 나와 휴가가 붙어봤자 재미 없잖아? 그러니까 거기 있는 오니님이 도와주면 어때?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			dir = 1,
 			actor = 900213,
 			nameColor = "#a9f548",
-			say = "唔唔唔......没办法了，余作为鬼神的一面，今天就向你们展示一下吧",
+			say = "으으음…… 어쩔 수 없지. 짐이 오니라고 불리는 이유를 오늘 여기서 알 수 있겠구나.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			actor = 10500050,
 			nameColor = "#a9f548",
-			say = "面对真正姿态的余，你们承受得住么！",
+			say = "진정한 모습의 짐을 상대할 수 있을까!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，听起来很有趣啊，看来不是能手下留情的场合了！",
+			say = "아하하. 재밌어 보이는데? 봐줄 수 있는 상대가 아니겠어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "...既然是对客人的话，多少手下留情一些",
+			say = "…손님을 상대하는 거니까 적당히 해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,8 +226,8 @@ return {
 			actor = 305030,
 			dir = 1,
 			hideOther = true,
-			actorName = "伊势&日向",
-			say = "{namecode:76}级战列舰---参上！",
+			actorName = "이세&휴가",
+			say = "이세급 전열함---간다!",
 			subActors = {
 				{
 					actor = 305040,
@@ -252,7 +252,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			actor = 900214,
 			nameColor = "#a9f548",
-			say = "骗人的吧.....绫目酱以前是这样的角色么，竟然能和这两个战斗狂打的有来有回？！",
+			say = "거짓말이지…… 저 두 전투광하고 호각을 다투고 있어? 아야메쨩, 이런 캐릭터였나고.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			actor = 900211,
 			nameColor = "#a9f548",
-			say = "嘶-------以....以后要对绫目酱多客气一点了...！",
+			say = "스------- 앞…… 앞으로 아야메쨩에게 잘해야겠는데……!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			actor = 900212,
 			nameColor = "#a9f548",
-			say = "嘶----哈----嘶----哈----女孩子之间，挥洒汗水的近距离的搏斗.....",
+			say = "습----하----습----하---- 여자애들끼리 벌이는 근거리 결투……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "祭酱！",
+			say = "마츠리쨩!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "这就是重樱的“演武”么..哈哈哈，确实感受到了异世界的文化差异",
+			say = "이게 바로 사쿠라 엠파이어의 ‘연무’구나… 하하하. 이세계의 문화 차이를 확실히 느낄 수 있겠네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			dir = 1,
 			actor = 305030,
 			nameColor = "#a9f548",
-			say = "绫目阁下很能干嘛",
+			say = "아야메 각하, 꽤 하잖아.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且观众们看起来都很开心！",
+			say = "그리고 관중들도 즐거운 것 같아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			actor = 900213,
 			nameColor = "#a9f548",
-			say = "呼、呼……累死了！",
+			say = "후, 후…… 힘들어 죽겠네!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			dir = 1,
 			actor = 900213,
 			nameColor = "#a9f548",
-			say = "余……从地狱……回来了……哦",
+			say = "짐이…… 지옥에서…… 돌아왔다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "设定上来讲，绫目酱原本就是从差不多的地方来的吧。",
+			say = "설정대로라면 아야메쨩도 비슷한 곳에서 왔긴 했으니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			dir = 1,
 			actor = 900213,
 			nameColor = "#a9f548",
-			say = "余的老家……是幽世……啦……",
+			say = "짐의 고향은…… 영혼의 땅……이라고……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦，先不要说话了，来缓一缓。",
+			say = "자, 일단 말은 그만하고 조금 쉬어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			blackBg = true,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "咱有带保温杯来哦，喝些热水休息一下吧~",
+			say = "텀블러를 가져왔으니 따뜻한 물을 마시면서 잠시 쉬도록 해~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"虚拟与现实的双向镜-日常篇\n\n<size=45>三 关于属性上的相似</size>",
+					"환상과 진실의 이중주-일상 편\n\n<size=45>3. 속성의 유사성에 대하여</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "holo-mio",
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "说起来，咱其实也交到了新朋友哦。",
+			say = "그러고 보니 나도 새로운 친구가 생겼어.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "欸欸？澪也找到了么，什么时候的事！",
+			say = "에에? 미오도 찾은거야? 언제?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "反应过头了啦，吹雪。是叫做腓特烈大帝的舰船，咱们挺聊得来的呢。",
+			say = "반응이 너무 과해, 후부키. 프리드리히 데어 그로세라는 함선이야. 말이 꽤 잘 통하더라고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "腓...腓特烈大帝？！！澪和她在哪些话题上聊得来啊？！！",
+			say = "프… 프리드리히 데어 그로세?!! 미오, 대체 어느 포인트에서 말이 잘 통하는 거야?!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "唔...关于如何对待孩子们的话题上？",
+			say = "음… 어떻게 아이들을 다뤄야 한다던가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来是妈妈系角色的共鸣，还好还好…",
+			say = "아, 엄마들의 대화였구나. 다행이다, 다행이야…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "澪要是变成黑暗系角色可就大事不妙了！",
+			say = "미오가 최종 보스가 되어버리면 큰일 난다고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "啊哈哈......腓特烈小姐虽然看起来有些难以接近，实际上内心里也有柔软的部分哦",
+			say = "아하하… 프리드리히는 가만 보면 다가가기 힘들어 보이지만, 따뜻한 마음을 가지고 있거든.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "吹雪也去和她多接触一下的话，印象一定会有改观的",
+			say = "후부키도 대화를 나눠봐. 분명 인상이 달라질 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原...原来是这样啊…？",
+			say = "그… 그런 거야…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			bgm = "holo-sora",
 			actor = 202120,
 			nameColor = "#a9f548",
-			say = "在大家欢谈中，冒昧打扰十分抱歉。",
+			say = "환담 중에 대단히 실례가 많습니다.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			actor = 202120,
 			nameColor = "#a9f548",
-			say = "空小姐，光辉女士让我转告您，茶会的时间要到了。",
+			say = "소라님, 일러스트리어스님께서 티파티 시간이 다 되었다고 전해 달라고 하셨습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，已经这个时间了么！我知道了~谢谢你，贝尔法斯特",
+			say = "어머, 벌써 시간이 그렇게 됐나? 알겠어. 고마워, 벨파스트.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是女仆的职责，空小姐不必道谢",
+			say = "메이드의 본분일 뿐입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			bgmDelay = 3,
 			actor = 900210,
 			nameColor = "#a9f548",
-			say = "各位不好意思，我按照约定要去参加皇家的茶会了，之后再聊喽。",
+			say = "미안, 로열의 티파티에 가기로 했었거든. 나중에 다시 얘기하자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是空前辈，已经是皇家茶会的座上宾了吗……",
+			say = "역시 소라 선배야. 벌써 로열의 티파티에 초대받았구나……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "阿库娅小姐要一起来么？前几天听说您对皇家女仆队很有兴趣，要来现场观看一下么。",
+			say = "아쿠아님도 같이 가시겠습니까? 로열 메이드단에 관심이 있다고 얼마 전에 말씀하셨지요? 직접 보시는 것은 어떠신지요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			actor = 900211,
 			nameColor = "#a9f548",
-			say = "我要去！谢谢，贝尔法斯特前辈！",
+			say = "갈래! 고마워, 벨파스트 선배!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			bgm = "holo-shion",
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "阿库娅酱对皇家女仆队产生兴趣，既在意料之外又在情理之中呢....",
+			say = "아쿠아쨩이 로열 메이드단에 관심을 갖게 되는 건 굉장히 당연한 일이지……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "不过因为女仆属性平时基本没有经营，感觉会吃不少苦头就是了~",
+			say = "하지만 평소에는 별로 메이드 속성이 아니니까 조금 고생은 하겠는걸~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "距离修好服务器里的传送门还有一段时间，大家能顺利融入这边的生活真是太好了",
+			say = "서버의 전송문이 수리되려면 아직 시간이 좀 걸려. 그 사이에 모두가 여기의 생활에 녹아든 건 정말 다행이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯哼，对身为魔法使的诗音来说，反而开始感觉这边的世界更适合我了",
+			say = "으흠, 이쪽 세계가 마법사인 시온에게 오히려 더 잘 어울린다는 생각이 들기 시작했어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诗音酱也交到新朋友了么？",
+			say = "시온쨩도 새로운 친구를 사귄 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？我没有说过吗，诗音和倔强的关系还挺好的哦。",
+			say = "에? 로피니아트르와 사이가 좋다고 내가 말 안 했나?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "倔强是...那个自由鸢尾的自称魔法使驱逐舰？！她的魔法是真的么？！",
+			say = "로피니아트르라면… 아이리스 리브레의 자칭 마법사라는 구축함?! 정말 마법을 쓸 수 있대?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			dir = 1,
 			actor = 900214,
 			nameColor = "#a9f548",
-			say = "哼哼~诗音不知道哦~",
+			say = "흐흥~ 그건 시온도 몰라~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "哎？！从她实装的时候我就一直很在意了，告诉我嘛！",
+			say = "에?! 등장했을 때부터 궁금했다구. 알려줘!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			dir = 1,
 			actor = 900214,
 			nameColor = "#a9f548",
-			say = "不要~这个是魔法使之间的秘密哦",
+			say = "싫어~ 이건 마법사 사이의 비밀이라구!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "诗音酱~~！告诉我嘛！",
+			say = "시온쨩~~! 알려줘어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,7 +627,7 @@ return {
 			blackBg = true,
 			actor = 900214,
 			nameColor = "#a9f548",
-			say = "不·行！略~~~~",
+			say = "안·돼! 메~~~롱~~~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

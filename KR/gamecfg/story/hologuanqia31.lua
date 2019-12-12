@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "「真的好吗？」「已经来不及了哦」「前方可是地狱」一路上的这些牌子……",
+			say = "[정말 괜찮아?] [이미 늦었다구?], [앞은 지옥이야]… 이 표지판들은……",
 			bgm = "holo-inochi-inst",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些牌子究竟是什么意思…？",
+			say = "대체 무슨 뜻이죠…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家一起来的话，果然氛围上完全不一样了呢~",
+			say = "모두 같이 오니까 분위기가 다르네~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 10500040,
-			say = "哎？！不对…祭的三块牌子应该是「真的好吗？」「还来得及」「没有下次了哦」啊",
+			say = "哎？！하지만… 마츠리의 표지판은 [정말 괜찮아?], [아직 늦지 않았어?], [다음은 없다구] 야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 10500010,
-			say = "难道说……",
+			say = "설마……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "？？？",
-			say = "夏色祭，hololive中，你最喜欢的女孩子是谁？",
+			say = "나츠이로 마츠리, hololive에서 가장 좋아하는 사람이 누구지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谁在那边？！",
+			say = "안에 누구지?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 10500040,
-			say = "那是……祭的镜像？！",
+			say = "저건…… 복사된 마츠리?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,8 +136,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 10500040,
-			actorName = "夏 色 祭",
-			say = "镜像？那作为本体的你，来回答我刚才的问题啊。在hololive中，你最喜欢的女孩子是谁？",
+			actorName = "나 츠 이 로 마 츠 리",
+			say = "복사? 그렇다면 본체인 네가 한번 대답해봐. hololive에서 가장 좋아하는 사람이 누구지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 10500040,
-			say = "唔………………………",
+			say = "음…………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,8 +169,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 10500040,
-			actorName = "夏 色 祭",
-			say = "看来回答不出来呢~",
+			actorName = "나 츠 이 로 마 츠 리",
+			say = "대답을 못 하는 모양이네~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼哼，想要尽快解决战斗回到大家的身边，而不是在这里回答问题，这就是祭的答案！",
+			say = "후후후, 그 질문에 답할 게 아니라 전투를 끝내고 모두에게 돌아가고 싶네. 이게 마츠리의 대답이야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,12 +198,12 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			actorName = "夏 色 祭",
+			actorName = "나 츠 이 로 마 츠 리",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 10500040,
 			nameColor = "#ff5c5c",
-			say = "什么？！",
+			say = "뭐?!",
 			flashN = {
 				color = {
 					1,
@@ -255,7 +255,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这一炮漂亮！",
+			say = "클린 히트!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,8 +271,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 10500040,
-			actorName = "夏 色 祭",
-			say = "居然没有被这个问题干扰，怎么可能……",
+			actorName = "나 츠 이 로 마 츠 리",
+			say = "이 질문에 당하지 않다니, 어떻게……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无论是“我全都喜欢”，还是“我选不出来”…区区语言，怎么有陪在对方的身边有说服力！",
+			say = "‘전부 다 좋아’라거나 ‘못 고르겠어’라거나… 라는 말로 어떻게 상대방을 설득하겠어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 10500040,
-			say = "祭已经不想思考为什么要在这里给镜像的名字加空格了…",
+			say = "대체 왜 복사된 내 이름에 띄어쓰기가 되어있는지는 생각하지 않기로 했어…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "打败造成这次事故的罪魁祸首，然后回到hololive的大家身边！阻拦祭的，都是敌人！",
+			say = "원흉을 없애고 hololive의 모두에게로 돌아가겠어! 내 앞을 가로막으면 전부 다 적이야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "内容姑且不论，好像说了很帅气的话啊…",
+			say = "내용은 모르겠지만 방금 엄청 멋있는 말을 한 것 같은데요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳…全员注意，准备战斗！",
+			say = "흠흠… 모두 집중하세요. 전투입니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

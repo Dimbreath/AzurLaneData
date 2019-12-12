@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "我知道你在担心什么…我们都亲手击败过无数同伴的棋子…",
+			say = "네가 무슨 걱정 하는지는 알아. 나도 쇼카쿠 언니의 모습을 한 장기말을 처치해본 적이 있으니까…",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,7 +37,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "她们已经被卷进来了，这是事实。这里是她们的基地，她们有为自己战斗的理由和权利",
+			say = "하지만 이미 일은 벌어졌잖아. 여기는 hololive의 기지야. 그러니 싸워야할 이유와 권리가 있다구.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "我知道，虽然嘴上没说什么，眼神里可以看出明显的动摇呢。所以你故意那样说，是想顺势让她们远离战场吧",
+			say = "나도 알아. 비록 말은 안 했지만 눈빛은 동요하고 있었어. 그러니까 너는 그들을 전장에서 멀리 떨어뜨려 놓기 위해서 일부러 그런 말을 했겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "但现在大家是同伴，你应该对同伴多抱有一些信任。",
+			say = "하지만 동료잖아. 너도 동료를 조금만 더 믿어봐.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "如果担心她们的情况，就亲口向她们好好说出来吧",
+			say = "걱정이 된다면 직접 말하는게 좋지 않겠어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,8 +100,8 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			actorName = "白上吹雪",
-			say = "唔…拉菲酱…{namecode:95}酱…澪酱…",
+			actorName = "시라카미 후부키",
+			say = "으음… 라피쨩… 쇼카쿠쨩… 미오쨩…",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -129,12 +129,12 @@ return {
 			}
 		},
 		{
-			actorName = "白上吹雪",
+			actorName = "시라카미 후부키",
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "大家都要平安无事…zZZZ",
+			say = "모두 무사히… Zzz…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,12 +145,12 @@ return {
 			}
 		},
 		{
-			actorName = "白上吹雪",
+			actorName = "시라카미 후부키",
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "zZZZZZ",
+			say = "Zzzz…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "holo-tokiwa",
-			say = "深夜·反抗军基地外",
+			say = "깊은 밤-레지스탕스 기지",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼…果然出来吹吹海风感觉舒服多了~",
+			say = "후… 바람을 쐬니 조금 편안하네~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			actor = 10500020,
 			nameColor = "#a9f548",
-			say = "那个阿库娅酱…不是真正的阿库娅酱吗…",
+			say = "그 아쿠아쨩은… 진짜 아쿠아쨩이 아닌거지…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			actor = 10500020,
 			nameColor = "#a9f548",
-			say = "是敌人的话…就只能战斗了吧",
+			say = "적이라면… 싸울 수밖에 없어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			actor = 10500020,
 			nameColor = "#a9f548",
-			say = "…真的只能战斗么？下次…我能坦然开火么…？",
+			say = "…정말 싸워야 하는걸까? 다음 번에… 내가 그럴 수 있을까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			actor = 10500020,
 			nameColor = "#a9f548",
-			say = "如果再一次遇到她们，我应该怎么办才好......",
+			say = "다시 만나게 된다면… 나는 어떻게 해야…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			blackBg = true,
 			actor = 10500010,
 			nameColor = "#a9f548",
-			say = "果然空前辈，在哪里都是温柔的空前辈啊。",
+			say = "소라 선배는 어디서든 상냥한 소라 선배구나.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

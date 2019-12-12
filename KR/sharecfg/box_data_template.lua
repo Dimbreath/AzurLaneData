@@ -197,7 +197,7 @@ pg.box_data_template = {
 		effect_id = 5
 	},
 	[6002] = {
-		name = "holo岩浆",
+		name = "holo용암 ",
 		type = 9,
 		id = 6002,
 		icon = "event2",

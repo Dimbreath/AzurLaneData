@@ -13,7 +13,7 @@ return {
 			bgm = "holo-sss-inst",
 			actor = 10500040,
 			nameColor = "#a9f548",
-			say = "队长，就是这个装置了！使用的方法您应该知道。",
+			say = "리더, 바로 이 장치예요! 사용하는 방법은 알고 계실텐데요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500030,
-			say = "哈↑哈哈哈、哈↑哈哈哈！通过千难万险到达此地的指挥官哟。能到达这一步，说明你也是心怀叛逆之人吧。",
+			say = "하↑하하하, 하↑하하하! 숱한 어려움을 뚫고 이곳에 도착한 지휘관이여. 여기까지 올 수 있다니, 반역의 마음을 품고 있는 사람이란 말이겠구나. ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500030,
-			say = "看吧，囤积在此处的TNT之海！只要我们联手，不要说hololive本社，就算指挥室也…",
+			say = "봐라! 이렇게 광활한 TNT의 바다를! 우리가 힘을 합치면 hololive 본사뿐 아니라 지휘실도…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500020,
-			say = "TNT？指挥室？这是在说什么话题？",
+			say = "TNT? 지휘실? 이게 무슨 말이지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			say = "嘶------那个...呃.....时乃空前辈，这...这是......",
+			say = "스------ 그게… 윽…… 토키노 소라 선배… 이… 이건……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500050,
-			say = "好像说了些和火有关的危险话题呢",
+			say = "무언가 불과 관련된 위험한 말을 했던 것 같다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			actor = 10500060,
 			nameColor = "#a9f548",
-			say = "又要来一次？！",
+			say = "한 번 더 하는 거야?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500070,
-			say = "嘛~嘛~既然人找齐了，就快出发吧，全新的冒险正在等着我们呢~吹雪，要出发了哦？",
+			say = "뭐~ 모두가 다 모였으니 어서 출발하자. 새로운 모험이 우리를 기다리고 있어. 후부키, 출발할 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500010,
-			say = "好~~  就是这样，指挥官大人，不论是碧蓝航线还是hololive，从今往后也请多多关照哦~",
+			say = "자~ 이렇게 하자. 지휘관, 벽람항로든 hololive든 앞으로도 잘 부탁해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

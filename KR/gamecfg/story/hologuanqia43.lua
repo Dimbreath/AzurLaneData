@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "在你们聊得火热的时候，冒昧打扰一下",
+			say = "대화 중에 잠시 실례할까요.",
 			actorName = "？？？",
 			side = 2,
 			dir = 1,
@@ -26,7 +26,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谁在那里？！现出身来！",
+			say = "누구지?! 모습을 보여!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 1,
 			dir = -1,
-			actorName = "名侦探吹雪",
-			say = "呼呼呼，我就是塞壬的军师哦。诸位可以称呼我为名侦探吹雪，是将在这里彻底阻止你们的人",
+			actorName = "명탐정 후부키",
+			say = "후후후, 저는 세이렌의 군사랍니다. 명탐정 후부키라고 부르셔도 돼요. 여기서 여러분을 막을 사람이지요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			actor = 10500010,
 			nameColor = "#a9f548",
-			say = "果然塞壬复制出的是这个麻烦的个性啊！！",
+			say = "역시 저 귀찮은 성격을 복사했네!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "名侦探吹雪…你就是一路上一直在阻碍我们的人么？！",
+			say = "명탐정 후부키… 지금까지 우리를 계속 방해한 거야?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,8 +99,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = -1,
 			actor = 10500010,
-			actorName = "名侦探吹雪",
-			say = "差不多就是这回事吧~",
+			actorName = "명탐정 후부키",
+			say = "그렇다고 할 수 있지요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "出现的屏障，假地图，岩浆陷阱，全部都是你做的手脚？",
+			say = "배리어, 가짜 지도, 용암 함정… 전부 당신의 짓인가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,8 +131,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = -1,
 			actor = 10500010,
-			actorName = "名侦探吹雪",
-			say = "差不多是这样吧，虽然有些我只是提供了建议而已。",
+			actorName = "명탐정 후부키",
+			say = "그렇다고 할 수 있지요. 저는 그저 조언을 했을 뿐이랍니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作为军师得你这么大摇大摆的来到最前线，是打算主动投降了么？",
+			say = "군사가 최전선까지 나오다니, 투항을 하려고 하는 건가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,8 +163,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = -1,
 			actor = 10500010,
-			actorName = "名侦探吹雪",
-			say = "怎么可能，{namecode:158}酱说笑了。谜局已经到了最后关头，我也忍不住想来前线观察一下了而已",
+			actorName = "명탐정 후부키",
+			say = "설마요. 카와카제쨩, 농담이 지나치네요. 이미 게임이 마지막 단계에 접어든 만큼 최전선에 한번 나와보고 싶었을 뿐이랍니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 10500010,
-			say = "谜局？",
+			say = "게임?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,8 +196,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = -1,
 			actor = 10500010,
-			actorName = "名侦探吹雪",
-			say = "就是指迄今为止的局势哦。别发呆了，接住",
+			actorName = "명탐정 후부키",
+			say = "지금 이 상태를 말하는 거죠. 넋 놓고 있지 말고 받으세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			actor = 10500010,
 			nameColor = "#a9f548",
-			say = "哎？！这个是…",
+			say = "에?! 이건…",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -243,8 +243,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 1,
 			dir = -1,
-			actorName = "名侦探吹雪",
-			say = "这是经过我研究改造，创造出的名侦探特制黑暗游戏！",
+			actorName = "명탐정 후부키",
+			say = "제가 연구해서 개조한 새로운 게임, 게-임-왕! 이예요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 10500040,
-			say = "黑暗游戏……？",
+			say = "게임왕……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "海面上突然出现了一个巨大的棋盘？！这是什么展开…",
+			say = "바다에 갑자기… 커다란 체스판이?! 무슨 전개인 거야…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,8 +291,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = -1,
 			actor = 10500010,
-			actorName = "名侦探吹雪",
-			say = "像军师一样运用头脑的力量，来用游戏一决胜负吧，白上吹雪！",
+			actorName = "명탐정 후부키",
+			say = "군사라면 지력 싸움이지요. 게임으로 승부를 내요, 시라카미 후부키!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没办法了呢，就接下你的挑战吧，名侦探哦！",
+			say = "어쩔 수 없네. 도전을 받아주지, 명탐정!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,12 +320,12 @@ return {
 		{
 			expression = 2,
 			side = 0,
-			actorName = "白上吹雪&名侦探吹雪",
+			actorName = "시라카미 후부키&명탐정 후부키",
 			actor = 10500010,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "Duel！",
+			say = "듀얼!",
 			effects = {
 				{
 					active = true,

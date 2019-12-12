@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"虚拟与现实的双向镜-日常篇\n\n<size=45>六 Game</size>",
+					"환상과 진실의 이중주-일상 편\n\n<size=45>6. 게임</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "holo-mio",
-			say = "港区·宿舍",
+			say = "모항-기숙사",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，这边的话，我这个存档已经有万能钥匙了，所以可以直接坐升降机下去，出塔之后，再经过峡谷就能到下个地方了……",
+			say = "아, 여기라면 내 세이브에 만능열쇠가 있어. 그러니까 엘리베이터를 타고 내려가서 탑을 나간 뒤에, 다시 협곡을 지나면 다음 지역으로 갈 수 있는데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			actor = 900211,
 			nameColor = "#a9f548",
-			say = "原来如此，我已经完全理解了！",
+			say = "그렇구나. 이해했어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			actor = 900211,
 			nameColor = "#a9f548",
-			say = "之后我可以自己攻略，长岛先去忙也没问题哦",
+			say = "롱 아일랜드, 여기서부터는 직접 해볼 테니 돌아가도 괜찮아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……你确定？这张地图可是很难的。",
+			say = "음… 정말? 이 맵, 어려운데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			actor = 900211,
 			nameColor = "#a9f548",
-			say = "轻而易举~我可是玩过差不多的游戏的！",
+			say = "비슷한 게임을 해본 적 있으니 식은 죽 먹기라구~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那你加油。",
+			say = "그럼 힘내.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			actor = 106010,
 			nameColor = "#a9f548",
-			say = "久等了，我们继续吧！其实这个游戏我还没来得及玩呢，总之，先分头探索吧，我去这边。",
+			say = "오래 기다렸지. 계속하자! 사실 이 게임, 아직 다 하지 못했거든. 그러니까 일단 나눠서 조사를 하자. 내가 이쪽을 갈게.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -206,7 +206,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那这边就交给咱吧。",
+			say = "그럼 이쪽은 나에게 맡겨줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，这条路应该没错。",
+			say = "응, 이 길이 맞을거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咱这边也有些线索哦。",
+			say = "이쪽에도 단서가 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "真是不可思议呢，在这边感觉有很多和咱那边差不多的游戏。",
+			say = "정말 신기하네. 여기에도 우리와 비슷한 게임이 있다니.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，是吗？",
+			say = "엑, 정말?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "嗯，比如说《最终○○》，《勇者○○○》什么的，感觉都能找到相似的游戏。",
+			say = "응. <라스트 ○○> 라던가, <용사 ○○○> 라던가. 비슷한 게임을 찾을 수 있을 것 같아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "毕竟这种展开已经算保留项目了嘛",
+			say = "어쨌든 이런 전개는 나름 스테디셀러니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			actor = 106010,
 			nameColor = "#a9f548",
-			say = "啊，应该是这个道具没错了！你那边应该也有一块，拼一起就对了。",
+			say = "아, 이 아이템이 맞을 거야! 그쪽에도 조각이 있을 테니 맞추면 되겠다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "大概吧？就算是阿库娅酱现在正在玩的游戏，好像也有很像的……",
+			say = "아마도? 아쿠아쨩이 지금 하고 있는 게임도 조금 비슷한 것 같네……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，咱这边也看到道具的位置了，稍等一下哦。",
+			say = "아, 아이템 찾았다. 조금만 기다려.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样啊，我还以为她在吹牛呢……毕竟，那款游戏即便老手要通关过也会死无数次呢……",
+			say = "그렇구나. 큰소리치는 건 줄 알았는데…… 어쨌든 그 게임은 클리어를 해도 계속 죽게 되니까……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			actor = 900211,
 			nameColor = "#a9f548",
-			say = "呜哇啊！！！这里是哪里啊！！！为什么这里会有一个精英怪！！",
+			say = "으아아!! 여기가 어디야!!! 여기에 왜 몬스터가 있는 건데!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			actor = 900211,
 			nameColor = "#a9f548",
-			say = "对不起，对不起，对不起，对不起，对不起,哇啊啊啊啊啊！！",
+			say = "죄송합니다, 죄송합니다, 죄송합니다, 죄송합니다. 으아아아악!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			actor = 900211,
 			nameColor = "#a9f548",
-			say = "Neeeeeeeeeeee！！！！！！要死了啊！！！！！！！",
+			say = "Neeeeeeeeeeee!!!!!! 죽을 거야!!!!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "啊哈哈哈，毕竟是阿库娅酱呢。",
+			say = "아하하하, 역시 아쿠아쨩이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			dir = 1,
 			actor = 900211,
 			nameColor = "#a9f548",
-			say = "再来一局，再来一局吧！",
+			say = "한번 더, 한판만 더!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "等一下，阿库娅，今天的游戏时间就到此为止吧？已经很晚了哦",
+			say = "잠시만, 아쿠아. 오늘의 게임 시간이 끝났잖아? 벌써 시간이 늦었어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			dir = 1,
 			actor = 900211,
 			nameColor = "#a9f548",
-			say = "欸？不是在日期变化之后才是夜晚的开始么？",
+			say = "에? 밤이라는 건 날짜가 바뀌고 나서야 시작하는 거 아니야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错，夜晚从现在才开始呢！",
+			say = "맞아. 밤은 지금부터지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +586,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？不可以哦，晚睡可是对身体很不好的。",
+			say = "에? 안 돼. 잠을 자지 않으면 건강에 좋지 않아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "游戏虽然很重要，但是身体更加重要，只有保持好身体，才能更好地玩游戏哦。",
+			say = "게임도 중요하지만 건강이 더 중요해. 건강해야 게임도 할 수 있잖아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……太过正确以至于无法反驳。",
+			say = "……너무 맞는 말이라 반박을 할 수가 없어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……好吧。不知道为什么，感觉会自然而然的同意澪说的话呢。",
+			say = "……응. 왠지 모르겠지만 자연스럽게 미오의 말을 듣게 되네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			dir = 1,
 			actor = 900211,
 			nameColor = "#a9f548",
-			say = "毕竟是在hololive“想当妈妈排行榜”中获得第一名的澪妈妈呢！",
+			say = "역시 hololive ‘엄마 삼고 싶은 랭킹’에서 1위를 차지한 미오 엄마야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -669,7 +669,7 @@ return {
 			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "怎么连阿库娅酱也这么叫了！",
+			say = "아쿠아쨩마저 그렇게 부르는 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,7 +686,7 @@ return {
 			dir = 1,
 			actor = 900211,
 			nameColor = "#a9f548",
-			say = "澪妈妈，明天我要吃便当！",
+			say = "미오 엄마, 내일 도시락 먹을래!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,7 +712,7 @@ return {
 			dir = 1,
 			actor = 106010,
 			nameColor = "#a9f548",
-			say = "澪妈妈，我也要~",
+			say = "미오 엄마, 나도~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -739,7 +739,7 @@ return {
 			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "……要是你们今晚上床的话，咱就帮你们做。",
+			say = "……암전히 자러 가면 해줄게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,8 +756,8 @@ return {
 			actor = 900211,
 			dir = 1,
 			hideOther = true,
-			actorName = "湊阿库娅&长岛",
-			say = "好~~！",
+			actorName = "미나토 아쿠아&롱 아일랜드",
+			say = "좋아~~!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -788,7 +788,7 @@ return {
 			blackBg = true,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "真是的……咱才不想这么早就当妈妈啦！",
+			say = "정말이지…… 이렇게 일찍 엄마가 되고 싶은 건 아니었다고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"虚拟与现实的双向镜-日常篇\n\n<size=45>四 和平的世界</size>",
+					"환상과 진실의 이중주-일상 편\n\n<size=45>4. 평화로운 세계</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "holo-fbk",
 			actor = 900214,
 			nameColor = "#a9f548",
-			say = "疼疼疼……",
+			say = "아파라……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "忍一忍，马上就包扎好了哦。",
+			say = "조금만 참아요. 곧 끝나니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太莽撞了，诗音。如果我没有及时赶到，受的伤可就不止这么点了。",
+			say = "너무 무모했다, 시온. 만약 내가 제때 도착하지 않았더라면 이걸로 끝나지 않을 수도 있었어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			actor = 900214,
 			nameColor = "#a9f548",
-			say = "但是敌人只有那么一点了，我以为没关系的……",
+			say = "하지만 그 정도의 적이라 괜찮을 줄 알았지……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战场上没有但是和以为。",
+			say = "전쟁터에 하지만이라는 말은 없다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			actor = 900214,
 			nameColor = "#a9f548",
-			say = "对不起……",
+			say = "죄송합니다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦，{namecode:158}，hololive的各位是客人，不能说的太过分哦？",
+			say = "자, 카와카제. hololive의 모두는 손님이예요. 너무 그러지 말아요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			say = "啊哈哈，果然适应新的环境还需要不少时间啊",
+			say = "아하하, 새로운 환경에 적응하는 데는 역시 시간이 많이 걸리네.",
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之前在镜面海域里没有时间细问。你们所处的世界，究竟是一个什么样的世界？",
+			say = "거울 해역에서는 질문할 시간이 없었지. 너희가 속한 세계는 대체 어떤 세계지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来的世界？还算一个挺普通的世界吧。虽然偶尔也会发生奇怪的事，但是远远没有这里危险哦！",
+			say = "원래의 세계? 평범한 세계라고 할 수 있지. 종종 이상한 일이 생기곤 하지만, 여기만큼 위험하지는 않아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有大规模的阵营冲突，也没有塞壬的入侵，总而言之是一个和平的世界",
+			say = "대규모의 진영 충돌도 없고, 세이렌의 침입도 없어. 어떻게 보면 평화로운 세계야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "所以从这样的世界而来的我们，就算突然进入前线，也很难在短时间内产生实感啦……",
+			say = "이런 세계에서 온 우리들이기 때문에 갑자기 전선에 투입된다는 건 역시 실감이 잘 나지 않네……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战斗可不是游戏",
+			say = "전투는 게임이 아니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "对不起……虽然我们都知道眼前的是敌人，要像{namecode:158}那样毫不犹疑的攻击还是很难",
+			say = "미안…… 눈앞에 있는 것이 적이라는 건 머리로는 알고 있지만, 카와카제처럼 망설임 없이 공격하는 것은 아직 어려워.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………这样啊",
+			say = "…………그런가.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "关于你们的世界，可以再告诉我一些情报么？",
+			say = "너희의 세계에 대해 좀 더 알려줄 수 있나?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "欸？",
+			say = "에?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我只是有些好奇，能让你们这样不懂得战斗的人都能活下去的「普通的世界」，是什么样的世界。",
+			say = "너희처럼 전투를 모르는 사람들이 살아갈 수 있는 [평범한 세계]가 어떤 세계인지 궁금해지기 시작했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其实就和在港区的日常生活差不多啦，大家做着自己想做的事，过着自己喜欢的生活，为自己的目标拼尽全力……",
+			say = "사실 모항의 일상 생활과 크게 다르지 않아. 모두 자기가 하고 싶은 일을 하고, 좋아하는 일을 하고, 목표를 위해서 노력하는……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然其实也不是完全彻底和平的世界……不过，至少我们hololive的所有人，在原来的世界是不用去考虑战斗的。",
+			say = "솔직히 완벽하게 평화로운 세계라고는 할 수 없지만…… 그래도 우리 hololive의 모두는 원래 세계에서 전투 같은 건 생각하지 않아도 됐었어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从和平的世界而来的人，是你们这个样子么…",
+			say = "평화로운 세계에서 온 사람, 너희는 그런가…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……倒是很像那家伙梦想的世界。",
+			say = "……그 녀석이 꿈꾸는 세계와 같군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那家伙，是指指挥官吗？",
+			say = "그 녀석은, 설마 지휘관을 말하는 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说不定，就这样让那家伙跟你回去也是个不错的选择",
+			say = "어쩌면 그 녀석이 너희와 함께 돌아가는 것도 나쁘지 않은 선택 같군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "呼呼呼，虽然看起来那么冷漠，{namecode:158}果然还是很关心指挥官的嘛。",
+			say = "후후후, 냉정해 보이지만 사실 카와카제는 지휘관을 굉장히 많이 신경 쓰고 있구나.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……别说蠢话。",
+			say = "……바보 같은 소리 마라.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是是是~",
+			say = "네에~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			dir = 1,
 			actor = 900214,
 			nameColor = "#a9f548",
-			say = "喂，你们别把我这个伤员撇在一边擅自营造出很好的氛围啊！倒是来扶我一下啊！",
+			say = "저기, 부상자를 제쳐두고 둘만의 분위기에 빠지지 말아 줄래?! 나 좀 부축해 달라고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			dir = 1,
 			actor = 301490,
 			nameColor = "#a9f548",
-			say = "……能喊得这么大声就说明没有大碍，好好休息吧，接下来还有许多任务要执行呢。",
+			say = "……저렇게 큰소리를 칠 수 있다는 건 별문제 없다는 거겠지. 푹 쉬어라. 앞으로 해야 할 임무가 아직 많으니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦，诗音酱，悄悄告诉你，今天{namecode:158}知道你一个人冲出去时，可是第一个赶过去救你的。",
+			say = "자, 시온쨩. 하나 알려줄게. 네가 혼자 뛰쳐나갔다는 소식을 듣고 가장 먼저 너를 구하러 간 사람이 바로 카와카제야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然她话是那么说的，不过她也许在心里是最关心同伴的人哦~",
+			say = "말은 저렇게 해도 어쩌면 카와카제는 가장 동료를 생각하는 사람이 아닐까~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			dir = 1,
 			actor = 900214,
 			nameColor = "#a9f548",
-			say = "是这样吗……",
+			say = "그런 건가……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "啊，顺便一提，我早就和游戏里的{namecode:158}缔结了誓约，所以是肯定知道啦~",
+			say = "아, 또 하나 말해주자면 나는 이미 게임에서 카와카제와 서약을 맺었거든? 그러니 이미 알고 있었지만~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -647,7 +647,7 @@ return {
 			blackBg = true,
 			actor = 900214,
 			nameColor = "#a9f548",
-			say = "不要加这种破坏气氛而且只有你懂的吐槽啦！",
+			say = "분위기 깨는 말은 그만둬!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -70,10 +70,15 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>S Rare</color>：12%",
 			"<color=#3dc6ff>Rare</color>：51%",
 			"Normal：30%",
-			"<color=#ffde38>가스코뉴(μ장비)</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>아카기(μ장비)</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>클리블랜드(μ장비)</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>아드미랄 히퍼(μ장비)</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>시라카미 후부키</color>：2%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#ffde38>미나토 아쿠아</color>：2%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#ffde38>토키노 소라</color>：0.5%",
+			" ",
+			"<color=#d797ff>나츠이로 마츠리</color>：2.5%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#d797ff>나키리 아야메</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

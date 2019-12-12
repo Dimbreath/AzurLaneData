@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "祭，收集物资暂停。{namecode:96}发来消息，侦察机发现塞壬航空队正在对一座巨大的木质城堡发动攻击。",
+			say = "마츠리, 잠시 멈춰. 즈이카쿠가 보낸 통신이다. 세이렌 공중 함대가 거대한 목조 성을 공격하고 있다는 것을 정찰기가 발견한 모양이다.",
 			bgm = "holo-control-inst",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "城堡好像比看起来要结实不少，不过应该也撑不了太久了。",
+			say = "보기보다 튼튼한 성이지만, 오래 버티지는 못할 거다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:96}认为城堡中的可能是你们的伙伴，因为我们这边离得比较近，她让我们快去看一下",
+			say = "성 안에 너희의 동료가 있는 것 같다고 즈이카쿠가 그러더군. 우리의 위치가 가장 가까우니 어서 가보라고 한다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			say = "巨大的木质城堡…难道是…绫目的百鬼城？！明白了，祭这就动身！",
+			say = "거대한 목조 성… 설마… 아야메의 백귀의 성?! 알았어. 당장 움직이자!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

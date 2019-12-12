@@ -11,8 +11,8 @@ return {
 			dir = 1,
 			bgm = "holo-inochi",
 			actor = 10500020,
-			actorName = "时乃空？",
-			say = "大家都到齐了啊，欢迎来到展望台",
+			actorName = "토키노 소라?",
+			say = "모두 모였구나. 전망대에 온 것을 환영해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "空…？什么时候跑到那边去的…",
+			say = "소라…? 언제 거기에…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 10500020,
-			say = "哎？我在这里哦",
+			say = "에? 나는 여기에 있는데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这么说，是敌人！",
+			say = "그렇다는건, 적인가!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:158}一瞬间摆好了进攻架势，主炮锁定了目标进行了一轮齐射",
+			say = "카와카제는 순간 공격 태세를 갖추고 목표를 향해 주포를 발사했다.",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
@@ -125,8 +125,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 10500020,
-			actorName = "时乃空？",
-			say = "优秀的反射神经，不过还不够哦~",
+			actorName = "토키노 소라?",
+			say = "좋은 반사 신경이네. 하지만 아직 부족해~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "被盾牌挡下来了么",
+			say = "쉴드에 막힌 건가.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,8 +157,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 10500020,
-			actorName = "时乃空？",
-			say = "这个盾牌还有鮟鱇肝在上面哦，很可爱吧~！",
+			actorName = "토키노 소라?",
+			say = "안키모가 그려진 쉴드야. 귀엽지~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "气氛太过自然了，完全没有感受到敌意！",
+			say = "너무 자연스러워서 전혀 적의가 느껴지지 않아요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 10500020,
-			say = "你是…被塞壬制造出的“镜像”么？",
+			say = "너는… 세이렌의 ‘복사품’ 인거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,8 +205,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 10500020,
-			actorName = "时乃空？",
-			say = "事到如今也没什么好惊讶的了吧。战场中保持这样的个性可是会吃大亏的哦，“我自己”",
+			actorName = "토키노 소라?",
+			say = "이제 와서 놀랄 필요는 없겠지. 전쟁 중에서도 이런 성격이라니. 놀랐어, ‘나’.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 10500020,
-			say = "我也在努力改正了嘛！",
+			say = "나도 고치려고 노력중이야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 10500010,
-			say = "那边的…空前辈？你会阻拦我们继续前进么",
+			say = "저쪽의… 소라 선배? 우리를 막을거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“棋子”不可能违抗塞壬的命令吧…",
+			say = "‘장기말’은 세이렌의 명령을 거역할 수 없겠죠…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,8 +269,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 10500020,
-			actorName = "时乃空？",
-			say = "嗯，会阻止你们哦。",
+			actorName = "토키노 소라?",
+			say = "응, 막을거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			say = "那么你就是敌人咯？哈哈哈哈！早就想说一次这句台词了~！！",
+			say = "그렇다면 우리는 적인거야? 하하하하! 이 대사, 꼭 해보고 싶었어~!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			say = "Leader！",
+			say = "리더!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 10500020,
-			say = "果然是这样么…没办法了，大家不要手下留情，准备战斗！",
+			say = "그렇구나… 어쩔 수 없네. 모두들, 봐주지 말자. 전투 준비!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,8 +354,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 10500020,
-			actorName = "时乃空？",
-			say = "尽管打过来吧，我可不会输哦！",
+			actorName = "토키노 소라?",
+			say = "마음껏 덤벼봐. 봐주지 않을테니까!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

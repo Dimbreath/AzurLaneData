@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			bgm = "holo-fff-inst",
 			actorName = "？？？",
-			say = "啊----啊啊----啊啊啊！！",
+			say = "아---- 아아---- 아아아아!!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -31,7 +31,7 @@ return {
 			actorName = "？？？",
 			dir = 1,
 			side = 2,
-			say = "救-----命------救命啊！",
+			say = "살----려----줘어어!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好像…是呼救的声音？！",
+			say = "도움을… 요청하는 소리 같은데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难道还有其他人迷航在这里么？！{namecode:158}！",
+			say = "설마 미아가 또 있는 건가?! 카와카제!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明白。空中支援拜托了，先行一步！",
+			say = "알겠다. 공중 지원을 부탁하지. 먼저 간다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

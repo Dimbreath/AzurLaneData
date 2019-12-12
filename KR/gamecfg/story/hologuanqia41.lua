@@ -8,13 +8,13 @@ return {
 		{
 			bgmDelay = 2,
 			side = 2,
-			actorName = "测试怪人",
+			actorName = "테스트 몬스터",
 			dir = 1,
 			blackBg = true,
 			stopbgm = true,
 			actor = 900011,
 			nameColor = "#ff5c5c",
-			say = "那群反抗军还是找到了没被炸毁的入口，这可是严重失职哦，军师",
+			say = "레지스탕스가 파괴되지 않은 입구를 찾고 있어. 군사, 엄청난 실책이네.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -39,8 +39,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900011,
-			actorName = "测试怪人",
-			say = "现在之前战斗中损坏的棋子还没修好吧，你打算怎么办？",
+			actorName = "테스트 몬스터",
+			say = "이전 전투에서 망가진 장기말들도 아직 다 고쳐지지 않았잖아. 어떻게 할 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,8 +56,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 10500010,
-			actorName = "军师",
-			say = "请您放心，一切都还在计划之中",
+			actorName = "군사",
+			say = "안심하세요. 전부 다 계획된 것이니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,8 +73,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 10500010,
-			actorName = "军师",
-			say = "我已经提前改变了过山车的轨道。过山车通向的不是此处的本社大楼，而是另一边的岩浆坑哦",
+			actorName = "군사",
+			say = "이미 제트 코스터의 궤도를 바꿔두었습니다. 제트 코스터가 향하는 곳은 본사 건물이 아니라 용암 구덩이예요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,8 +90,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900011,
-			actorName = "测试怪人",
-			say = "不愧是军师，想的真周到啊。",
+			actorName = "테스트 몬스터",
+			say = "역시 군사야. 용의주도해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,8 +107,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 10500010,
-			actorName = "军师",
-			say = "毕竟曾经学习了很多“孔明的陷阱”嘛~这次我会亲自出马，请您继续专心于权限的取回上",
+			actorName = "군사",
+			say = "‘공명의 함정’을 잔뜩 배웠으니까요~ 이번에는 제가 직접 나서겠으니 권한을 얻는 것에 집중해 주세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "holo-fbk",
-			say = "MIOSHIO-COASTER之上",
+			say = "미오시오 코스터 위",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201210,
-			say = "哇哦，高--速--空--中--过--山--车----！",
+			say = "와아, 고--속--제--트--코--스--터----!",
 			effects = {
 				{
 					active = true,
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500030,
-			say = "巨大化的过山车，比以前的版本酷几亿倍啊！！！",
+			say = "거대화된 제트 코스터, 예전보다 훨씬 재밌어!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "漂浮在空中的过山车…奇妙的感觉。",
+			say = "공중에 떠있는 제트 코스터라니… 이상한 느낌이군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:158}平时都不来玩，明明游乐园也有的，对吧，Z23？",
+			say = "카와카제는 잘 놀지 않으니까. 이건 놀이공원에도 있는걸. 그렇지, Z23?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拜托你不要提那个，上次坐那个之后我一天都吃不下东西……",
+			say = "그 얘기 하지 마요… 지난 번에 탄 이후로 한동안 밥을 못 먹었다구요……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……我不适合这种东西。",
+			say = "……나와는 맞지 않는 것 같다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是，风景还不错，不是吗？",
+			say = "하지만 풍경은 괜찮잖아. 안 그래?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……嗯",
+			say = "……응.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

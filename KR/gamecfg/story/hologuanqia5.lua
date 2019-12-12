@@ -12,7 +12,7 @@ return {
 			bgm = "holo-control-inst",
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "哈啊…哈啊…不行了，咱实在跑不动了…一步都跑不动了！",
+			say = "하아… 하아… 안돼. 더는 못 뛰겠어… 한 발짝도 못 움직이겠어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 900209,
-			say = "澪…澪酱……如果在这里停下来的话----",
+			say = "미… 미오쨩…… 여기서 멈춰버리면----",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "啊----啊啊！！",
+			say = "아---- 아악!!",
 			flashN = {
 				color = {
 					1,
@@ -117,7 +117,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "塞壬的炮弹就会像这样打过来的哦…",
+			say = "세이렌의 포탄이 쏟아질 텐데…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 900215,
-			say = "吹雪快想想办法，咱不想死在这种莫名其妙的状况里啊！",
+			say = "후부키, 어서 방법을 좀 생각해봐. 이렇게 이상한 상황에서 죽고 싶지 않아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 900209,
-			say = "考虑到敌我双方绝望的实力对比…嗯，万策尽了",
+			say = "우리와 적의 실력 차이는 절망적… 응, 방법이 없어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "不要放弃啊，吹雪！！！！",
+			say = "포기하지 마, 후부키쨩!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "在二人停驻之际，一架塞壬战机呼啸着投下了一枚炸弹",
+			say = "멈춰선 두 사람에게 세이렌 전투기가 폭탄을 투하했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 1,
 			dir = -1,
 			actor = 900209,
-			say = "澪，最后的时光能和你在一起---",
+			say = "미오, 마지막까지 너와 함께 있어서---",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "现在放弃还太早了！你们快去避难，这里交给我",
+			say = "아직 포기하긴 이르다.",
 			bgm = "nagato-map",
 			typewriter = {
 				speed = 0.05,
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重樱所属，驱逐舰{namecode:158}，参上！",
+			say = "우미카제형 3번함, 카와카제, 간다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

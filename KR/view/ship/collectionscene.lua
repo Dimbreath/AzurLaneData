@@ -29,7 +29,7 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.getBGM(slot0)
-	return "main"
+	return "holo-fbk"
 end
 
 function slot0.setShipGroups(slot0, slot1)

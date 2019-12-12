@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			side = 2,
-			say = "零星的几场战斗结束后，塞壬停止了继续增援，海域恢复了宁静。",
+			say = "산발적인 전투 후, 세이렌은 증원을 멈췄다. 해역이 다시 조용해졌다.",
 			dir = 1,
 			bgm = "holo-tokiwa",
 			effects = {
@@ -28,7 +28,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "就在{namecode:96}与{namecode:158}寻找脱离镜面海域的航线时，海雾消散了",
+			say = "즈이카쿠와 카와카제가 거울 해역에서 벗어날 방법을 찾는 도중, 안개가 사라졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "就像出现之时那么突然，二人的视野刹那间豁然开朗",
+			say = "就나타났을 때처럼 그렇게 갑자기, 두 사람의 시야가 탁 트였다.",
 			effects = {
 				{
 					active = false,
@@ -62,7 +62,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里……究竟是什么地方？！",
+			say = "여기는…… 대체 어디야?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………异状",
+			say = "……심상치 않군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "与浓雾出现前的空旷海域不同，无数大小岛屿如凭空出现一般棋布在海域中，远方还有隐约可见的巨大水面建筑物",
+			say = "안개가 끼기 전, 광활했던 해역과 다르게 크고 작은 섬들이 무수히 있었다. 먼 곳에는 거대한 건물도 보였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "放眼细看，不论是岛屿还是岛屿上的树木砂石，甚至人工建筑，都是由无数方形色块构成的。",
+			say = "자세히 보니 섬 뿐만 아니라 섬 위에 있는 나무며 돌, 심지어 건물까지 무수한 블록으로 이루어져 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "就好像对自然造物的低劣仿制一样",
+			say = "마치 자연을 어설프게 따라한 모조품 처럼.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬还真是在镜面海域里折腾一些不得了的东西啊…",
+			say = "세이렌, 거울 해역에 별 것을 다 만들어 뒀구나…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在的情况是，周围环境发生了彻底改变，与港区的联络也因干扰陷入瘫痪。寻找离开镜面海域的航线已经不可能了。",
+			say = "주변 환경이 바뀐데다 모항과의 연락도 무언가의 간섭을 받고 있는 상태다. 거울 해역을 벗어나는 항로를 찾는 것은 이미 불가능하군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "简单来说就是，迷航了嘛~",
+			say = "간단하게 말해서, 미아가 된 거네~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正解。{namecode:96}…你一点都不担心？",
+			say = "그렇지. 즈이카쿠… 걱정되지 않나?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "东煌有句古话“车到山前必有路”，反正担心也改变不了现状，还不如鼓起精神来。",
+			say = "이스트 글림에 이런 말이 있어. ‘하늘이 무너져도 솟아날 구멍은 있다’. 아무리 걱정해도 현 상황을 바꿀 수는 없으니 긍정적으로 생각해야지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来都来了，我倒要看看塞壬究竟在这里搞些什么阴谋！",
+			say = "모처럼 왔으니 세이렌이 대체 여기서 무슨 음모를 꾸미는지 알아봐야겠어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

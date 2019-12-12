@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "你们没事吧？",
+			say = "괜찮은가?",
 			bgm = "nagato-map",
 			typewriter = {
 				speed = 0.05,
@@ -22,7 +22,7 @@ return {
 			}
 		},
 		{
-			say = "欸…欸？！！{namecode:158}！！这不是{namecode:158}么！！",
+			say = "에…에?!! 카와카제!! 카와카제잖아!! (찰싹)",
 			side = 0,
 			dir = 1,
 			actor = 900209,
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "澪快看，是{namecode:158}哎，真真正正的{namecode:158}哎！！！！",
+			say = "미오, 봐봐! 카와카제야. 진짜 카와카제라고!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 900215,
-			say = "…啊？这是什么展开……总之是得救了么？！",
+			say = "…아? 무슨 전개인 거야…… 어쨌든 살았나?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "啊啊啊！{namecode:158}！这凌冽的眼神，修长的身体，柔顺的尾巴！（深呼吸）",
+			say = "아아아! 카와카제! 이 매서운 눈빛, 길쭉한 바디! 부드러운 꼬리! (심호흡)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 900215,
-			say = "喂喂吹雪，给别人带来困扰了啊。",
+			say = "저기, 후부키. 곤란해 하는데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "看起来两个人都平安无事的样子，真是太好了。",
+			say = "둘 다 무사한 걸 보니 정말 다행이네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "{namecode:96}也来了？！！！",
+			say = "즈이카쿠까지?!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳嗯，刚才失态了，感谢两位在危急关头出手相救！",
+			say = "크흠, 방금 전에는 실례했어. 구해줘서 고마워!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "猫耳，而且认识我们，你们是新加入重樱的舰船吗？不对……你们没有舰装啊。",
+			say = "고양이 귀, 거기다 우리를 아는 것을 보니 새로 함대에 가입한 함선인가? 아니…… 장비가 없는데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "猫耳？！看这条柔顺的大尾巴，怎么看都是狐狸吧！",
+			say = "고양이 귀?! 이 부드럽고 큰 꼬리, 어떻게 봐도 여우잖아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哎？！原来是狐狸么…对不起",
+			say = "에?! 여우였구나… 미안해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 900209,
-			say = "算啦…初次见面，我是hololive旗下的虚拟白发兽耳女高中生白上吹雪。虽然经常被认错，不过我不是猫，是狐狸哦！",
+			say = "괜찮아…… 첫 만남이네. 나는 hololive의 버츄얼 백발 동물 귀 여고생, 시라카미 후부키야. 다들 오해하지만 고양이가 아니라 여우라고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 900209,
-			say = "至于我为什么会认识你们，这个说起来就有些复杂了呢。",
+			say = "내가 왜 너희를 알고 있는지를 설명하려면 복잡해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 900215,
-			say = "我也是hololive旗下，hologamers的大神澪，叫我澪就好，请多指教。",
+			say = "나도 hololive의 hologamers의 오오카미 미오야. 미오라고 불러줘, 잘 부탁해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "hololive..?可以理解成两位所属的组织名吧",
+			say = "Hololive…? 두 사람이 소속된 곳의 이름이라고 생각하면 되겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我是{namecode:95}级航空母舰·{namecode:96}，这位是{namecode:15}型驱逐舰·{namecode:158}。",
+			say = "나는 쇼카쿠급 항공모함 즈이카쿠야. 이쪽은 시라츠유형 구축함 카와카제.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "嗯嗯，我知道我知道，我还把你们都誓约了哦。",
+			say = "응응, 알고 있어! 너희랑 서약도 했는걸.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……你在说什么奇怪的话。",
+			say = "……무슨 이상한 말이지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "看两位都没有携带武装，不像是军事人员…你们的船在什么地方，是迷航了么？",
+			say = "둘 다 무기가 없는 것을 보니 전투원은 아닌데…… 너희 배는 어디에 있어? 길을 잃은거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "这里是塞壬控制的镜面海域，周围的环境如你们所见，变为了极其扭曲的形象。在脱离危险前，请暂时随我们一起行动吧。",
+			say = "여기는 세이렌이 통제하는 거울 해역이다. 너희도 봐서 알겠지만 주변 환경이 굉장히 왜곡되어있어. 위험에서 벗어나기 전까지는 우리와 같이 행동하자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 900209,
-			say = "呃…严格也不算迷航，来到这里的原因我们也很困惑，不过这里的事我们多少知道一点哦！",
+			say = "윽… 엄밀히 말하면 길을 잃은 건 아니지만… 여기에 어떻게 오게 되었는지는 우리도 잘 몰라. 하지만 이쪽 사정은 어느정도 알고 있다고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 900209,
-			say = "从外观上来看，这里是hololive服务器，或者说一个和hololive服务器十分相似的地方",
+			say = "겉으로 보기에 여기는 hololive의 서버야. 어쩌면 hololive의 서버와 비슷한 곳이겠네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "hololive服务器是…？",
+			say = "hololive 서버…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "类似我们的基地一样的东西…平时我们会和hololive的伙伴们在服务器里一起修建建筑，一起玩耍…",
+			say = "우리의 기지 같은 거야… 평소에 hololive 동료들과 서버에서 같이 놀거나 건물을 짓거나…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "你们的？但是从这里的情况来看，毫无疑问是镜像海域……",
+			say = "너희의? 하지만 세이렌이 나타난 것을 보면 분명히 거울 해역인데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 900209,
-			say = "今天原本也和往常一样造着建筑，结果突然传来眼前一阵白光，然后就出现了大量塞壬舰队开始发动攻击，和同伴也失散了…",
+			say = "오늘도 평소처럼 건물을 짓고 있었는데, 눈 앞이 갑자기 밝아지더니 엄청나게 많은 세이렌 함대가 공격을 해오기 시작했어. 동료들도 사라지고…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…感觉以前也有过这样的事。",
+			say = "…예전에도 이런 일이 있었던 것 같은데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "虽然不是很明白，不过应该和{namecode:13}经常说的「异世界转生」？之类差不多的…情况吧？",
+			say = "오! 알겠다. 너희는 그거지? 이카즈치와 이나즈마가 말한 공간 이동자라는거. 어쨌든 다른 세계에서 온거잖아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "轻而易举的接受了？！",
+			say = "이렇게 쉽게 받아들이다니?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "唉…之前或多或少也遇到过类似的情况，隐隐约约猜到了",
+			say = "응… 예전에 많다고 해야하나 적다고 해야하나, 비슷한 일이 있었으니 알 수 있지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "你们会认识我和{namecode:158}，也是因为什么…异世界的知识吧",
+			say = "너희가 나와 카와카제를 알고있는 것도… 아마 이세계의 지식이겠지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "哈哈哈…在原本的世界里我的碧蓝航线知识可是十分丰富的哦！",
+			say = "하하하… 우리 세계에서도 나는 벽람항로에 대해서 아주 잘 알고 있다고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "似曾相识的发言…",
+			say = "어디선가 들어본 것 같은 말…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "既然这次又把你们这样的“穿越者”弄过来，塞壬恐怕又在搞些什么阴谋了",
+			say = "이번에도 너희같은 공간 이동자를 데리고 왔으니, 세이렌이 무슨 음모를 꾸미고 있는 것 같네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +636,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 900209,
-			say = "嗯……这倒没错。",
+			say = "응… 그런 것 같아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 900215,
-			say = "吹雪，在这里说话也不是办法，我们先去安全的地方吧。",
+			say = "후부키, 여기서 계속 얘기하기 보다는 안전한 곳으로 가자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -667,7 +667,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哎？你们知道这样的地方么？",
+			say = "에? 그런 곳이 있어? 보급도 할 수 있고 쉴 수 있으면 좋겠는데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,7 +682,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…虽然白狐咖啡也不错，不过说到基地和补给的话，果然是那个地方吧…",
+			say = "음… 흰 여우 카페가 좋지만, 기지나 보급이라면… 역시 거기가 좋겠네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

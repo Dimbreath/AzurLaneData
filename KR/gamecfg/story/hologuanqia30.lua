@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "在众人的地毯式搜索下，入口巨大的钻石十字标志很快就被发现了。",
+			say = "모두가 힘을 합친 결과, 입구의 거대한 다이아몬드 십자 표지판을 금방 찾을 수 이썼다.",
 			side = 2,
 			bgName = "bg_story_holosaba1",
 			dir = 1,
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "bg_story_holosaba1",
 			dir = 1,
-			say = "经过讨论，决定由湊阿库娅，紫咲诗音留守基地，其余众人分为突入组和支援组，分别展开作战行动——",
+			say = "미나토 아쿠아, 무라사키 시온은 기지에 남고 나머지 사람들이 돌격조와 지원조로 나누어 행동을 하기로 결정되었다——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "hololive之暗下行水道",
+			say = "hololive의 어둠, 내려가는 수로",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -69,8 +69,8 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "我想回基地。",
+			actorName = "퓨리",
+			say = "기지로 돌아가고 싶어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "净化亲，好没用。",
+			say = "퓨리, 쓸모 없어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,8 +100,8 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900021,
-			actorName = "净化亲",
-			say = "唯独才不想被趴在我舰装上的你说这种话！",
+			actorName = "퓨리",
+			say = "너한테 만큼은 그런 말 듣고 싶지 않거든!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,8 +126,8 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "本来还想着做好舰装之后，继续留在基地稳固防御就好了！为什么我这次也要一起来啊！！",
+			actorName = "퓨리",
+			say = "장비를 만든 뒤 계속 기지의 방어만 하면 된다고 생각했는데. 대체 왜 내가 같이 와야하는거야!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "托您的福，现在基地周边已经固若金汤到一只鸟也飞不过去了…你这么急着回去做什么？",
+			say = "자기 복이라고 생각하세요. 기지 주변은 이미 난공불락이라고요… 대체 돌아가서 뭘 하려는 거예요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,8 +157,8 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "攻击诱导的稻草人，密置陷阱的迷宫，再加上几台苦力怕大炮…构建防御设施的工作意外的有趣啊！",
+			actorName = "퓨리",
+			say = "공격 유도형 허수아비라던가, 미궁에 함정을 설치하거나 포대를 늘린다거나… 방어 시설 건설은 꽤 재미있다고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……看来带过来是正确的选择",
+			say = "……데리고 온 게 정확한 선택이었네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500040,
-			say = "祭认为，她到现在还没对秘密基地本身出手已经很克制了…",
+			say = "아무리 봐도 비밀 기지에 손대는 걸 자제하고 있는 것 같아…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次，净化亲的力量，是不可或缺的",
+			say = "퓨리의 힘이 빠져서는 안 되니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,8 +219,8 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900021,
-			actorName = "净化亲",
-			say = "哎？！是…是么？！",
+			actorName = "퓨리",
+			say = "에?! 그…그래?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500010,
-			say = "拉菲说的没错，不论是净化亲坚固的防御，灵活的机动还是密集的弹幕，怎么看都是本次作战中最佳的人选呢！",
+			say = "라피 말이 맞아. 퓨리의 방어라던가 빠른 기동, 그리고 전탄 발사… 아무리 봐도 이 작전에서 가장 중요하다고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500050,
-			say = "还有净化亲威力强大的激光，可是必要之时能一发扭转战局的强大武器啊！",
+			say = "그리고 퓨리의 강력한 레이저는 필요할 때 전황을 뒤집을 수 있는 중요한 무기다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在本次的特殊地形中，净化者的战斗力确实十分有帮助",
+			say = "이렇게 특수한 지형에서 퓨리파이어의 전투력은 확실히 도움이 되지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,8 +292,8 @@ return {
 			side = 2,
 			actor = 900021,
 			dir = 1,
-			actorName = "净化亲",
-			say = "………呵呵呵，既然都说到这个份上了，就让你们见识一下认真状态的净化亲吧！",
+			actorName = "퓨리",
+			say = "……후후후, 그렇게 말해주면 퓨리의 진심 모드를 보여주겠어!",
 			effects = {
 				{
 					active = true,
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			say = "（这个女人…超好对付）",
+			say = "(퓨리… 다루기 쉽네.)",
 			effects = {
 				{
 					active = false,

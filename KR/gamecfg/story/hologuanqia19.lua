@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "为什么会这样……",
+			say = "왜 이렇게 된거죠……",
 			bgm = "holo-fff-inst",
 			typewriter = {
 				speed = 0.05,
@@ -26,8 +26,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "湊阿库娅（？）",
-			say = "很遗憾，碧蓝航线的Z23，你将葬身于此。",
+			actorName = "미나토 아쿠아(?)",
+			say = "벽람항로의 Z23, 여기서 죽어줘야겠어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900210,
-			say = "等一下，阿库娅，不用做到这一步吧？",
+			say = "잠시만, 아쿠아. 그럴 필요는 없잖아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900210,
-			say = "而且，你背后的这些塞壬，我记得吹雪说过，是这个世界的敌人……",
+			say = "그리고 네 뒤에 있는 세이렌은… 분명 이 세계의 적이라고 후부키가 그랬는데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,8 +74,8 @@ return {
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
-			actorName = "湊阿库娅（？）",
-			say = "空前辈，请不要慌张，等解决了这个碧蓝航线的敌人，我会向你解释。",
+			actorName = "미나토 아쿠아(?)",
+			say = "소라 선배, 괜찮아. 일단 벽람항로의 적을 해치우고 설명해줄게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……糟了，这样下去要被围攻了，我要找个突破口。",
+			say = "……큰일이네요. 포위되게 생겼어요. 돌파구를 찾아야 할텐데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎，要是这个时候她们三个在就好了…",
+			say = "아, 이럴 때 세 사람이 있으면 좋았을텐데…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

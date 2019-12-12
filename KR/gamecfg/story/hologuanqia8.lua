@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "停，这片水域有战斗过的痕迹。",
+			say = "잠깐. 여기에 전투의 흔적이 남아있다.",
 			bgm = "holo-tokiwa",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "水面上飘过来的是，量产型的残骸？！",
+			say = "떠내려오는 것은… 양산형의 잔해?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "炮弹伤，鱼雷伤还有这个痕迹…是航弹么。",
+			say = "포탄과 어뢰의 흔적, 그리고 이건… 항탄인가.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我可没有在这里战斗过哦，看来除了我们之外，还有其它舰队也被困在这里了。",
+			say = "여기서 싸운 적은 없는데. 우리 말고 다른 함대도 여기에 갇힌 모양이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "顺着痕迹，寻找源头…东南方，战斗是在那边爆发的",
+			say = "흔적을 따라가보자… 남동쪽, 전투는 거기서 벌어졌을 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

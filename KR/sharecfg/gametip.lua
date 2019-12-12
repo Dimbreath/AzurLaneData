@@ -4024,6 +4024,10 @@ pg.gametip = {
 		tip = "키즈나 아이",
 		key = "word_shipNation_ai"
 	},
+	word_shipNation_holo = {
+		tip = "hololive",
+		key = "word_shipNation_holo"
+	},
 	word_reset = {
 		tip = "초기화",
 		key = "word_reset"
@@ -6507,7 +6511,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "word_rename_time_tip"
 	},
 	word_rename_switch_tip = {
-		tip = "이름 변경 표시가 OFF 로 되어 있습니다. 「설정」→「알림」에서 변경할 수 있습니다.",
+		tip = "이름 변경 표시가 OFF 로 되어 있습니다. 설정 → 알림 에서 변경할 수 있습니다.",
 		key = "word_rename_switch_tip"
 	},
 	word_ssr = {
@@ -7604,7 +7608,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "activity_switch_award_pool_failed"
 	},
 	shop_street_activity_tip = {
-		tip = "·이벤트 기간(<color=#A1E400FF>11.14-11.27</COLOR>)에는 갱신 시마다\n반드시 <color=#A1E400FF>장비 스킨 상자</COLOR>가 출현합니다.",
+		tip = "·이벤트 기간(<color=#A1E400FF>12.12-12.25</COLOR>)에는 갱신 시마다\n반드시 <color=#A1E400FF>장비 스킨 상자</COLOR>가 출현합니다.",
 		key = "shop_street_activity_tip"
 	},
 	twitter_link_title = {
@@ -8237,18 +8241,6 @@ B평가:<color=#92fc63>70</color>점
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/battle_fc_1"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/battle_fc_2"
-				}
-			},
-			{
-				icon = {
-					path = "",
 					atlas = "helpbg/level_ui_help_1"
 				}
 			},
@@ -8872,7 +8864,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "가스코뉴(μ장비)、아카기(μ장비)、클리블랜드(μ장비)、 아드미랄 히퍼(μ장비) 출현 확률UP！ ",
+		tip = "시라카미 후부키、미나토 아쿠아、토키노 소라、 나츠이로 마츠리 、 나키리 아야메 출현 확률UP！ ",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -11576,6 +11568,117 @@ TIPS:
 		tip = "곡 선택 화면으로 돌아갈 시 현재 획득한 점수는 초기화됩니다. 돌아가시겠습니까?",
 		key = "reselect_music_game"
 	},
+	hololive_goodmorning = {
+		key = "hololive_goodmorning",
+		tip = {
+			{
+				info = "좋은 아침, 벽람항로："
+			},
+			{
+				info = "1. 이벤트 기간 동안 매일 룰렛 기회를 1회 획득합니다. "
+			},
+			{
+				info = "2. 룰렛 기회는 최대 7회까지 누적 가능합니다. "
+			},
+			{
+				info = "3. 룰렛을 돌린 후, 랜덤으로 일곱 명의 콜라보 캐릭터 중 \n하나에게 오늘의 임무를 받을 수 있습니다. "
+			},
+			{
+				info = "4. 일일 임무 달성 후, 남은 룰렛 기회가 있으면 계속 돌릴 \n수 있습니다. "
+			},
+			{
+				info = "5. 임무 7회 달성 시 최종 보상을 수령할 수 있습니다."
+			}
+		}
+	},
+	hololive_lianliankan = {
+		key = "hololive_lianliankan",
+		tip = {
+			{
+				info = "「집결hololive반항군!」 설명: "
+			},
+			{
+				info = "1. 집결hololive반항군! 이벤트에서 도전할 수 있는 \n스테이지는 총 8개입니다. "
+			},
+			{
+				info = [[
+2. 매 스테이지의 해제 조건과 이벤트 해역 진도 및 
+「집결hololive반항군!」의 진도 관련은 아래와 같습니다：
+   스테이지1: 이벤트 해역 T1 클리어 
+   스테이지2: 이벤트 해역 T2 클리어 및 스테이지1 클리어 
+   스테이지3: 이벤트 해역 T3 클리어 및 스테이지2 클리어 
+   스테이지4: 이벤트 해역 T4 클리어 및 스테이지3 클리어 
+   스테이지5: 이벤트 해역 T5 클리어 및 스테이지4 클리어 
+   스테이지6: 이벤트 해역 T6 클리어 및 스테이지5 클리어 
+   스테이지7: 스테이지6 클리어 
+   EX: 스테이지1~스테이지7 클리어]]
+			},
+			{
+				info = "3. 도전 규칙: 스테이지의 캐릭터 아이콘을 두 개의 선으로 \n연결해 지웁니다. 전부 지우면 클리어 할 수 있습니다. "
+			},
+			{
+				info = "4. 아이콘 두개는 반드시 같아야 하며, 선이 두번 이상 꺾이지 \n않아야 지울 수 있습니다. "
+			},
+			{
+				info = "5. 스테이지1~스테이지7 최초 클리어 시 보상을 획득할 수 \n있으며, 그 이후에는 보상을 획득할 수 없습니다. "
+			},
+			{
+				info = "6. 스테이지1~스테이지7을 모두 클리어 하면 최종 보상을 \n획득할 수 있습니다."
+			}
+		}
+	},
+	hololive_dalaozhang = {
+		key = "hololive_dalaozhang",
+		tip = {
+			{
+				info = "「항구 작업대」 설명: "
+			},
+			{
+				info = [[
+1. 이벤트 기간 동안 지정 임무를 달성하면 해당 임무 아이템을 
+획득합니다. 획득한 아이템은 오른쪽 합성 구역에 등장하며, 
+9개의 아이템을 모으면 기념 가구 [hololive 본사 빌딩]을 
+만들 수 있습니다. ]]
+			},
+			{
+				info = "2. 임무를 달성할 수 있는 콘텐츠: 이벤트 스테이지 클리어, \n이벤트 임무 달성, P-TNT 누적"
+			},
+			{
+				info = "3. 수령 기한은 12월 17일 23시 59분입니다. "
+			},
+			{
+				info = "4. 24000PT 누적 시, 본사 폭파 #1—#7이 해제됩니다."
+			}
+		}
+	},
+	hololive_dashenling = {
+		key = "hololive_dashenling",
+		tip = {
+			{
+				info = "「미오의 항구 점술관」 설명: "
+			},
+			{
+				info = "1. 이벤트 기간 동안 임시 NPC 캐릭터 오오카미 미오를 획득할 \n수 있습니다. 임시 캐릭터는 서약, 퇴역을 할 수 없으며 강화 \n재료로 사용할 수 없습니다. "
+			},
+			{
+				info = "2. 이벤트 기간 동안 일반 난이도의 메인 스토리 3 챕터 및 그 \n후 챕터 혹은 이벤트 맵의 기함을 격파하면 임시 NPC 캐릭터 \n오오카미 미오의 호감도를 높일 수 있습니다. "
+			},
+			{
+				info = "3. 전투 종료 시, 함대에 편성한 오오카미 미오가 전투 가능 \n상태면 호감도가 2배 상승합니다. "
+			},
+			{
+				info = "4. 이벤트 종료 전까지 호감도를 1000 이상 누적하면 보상을 \n획득할 수 있으며 임시 캐릭터 [오오카미 미오]가 함대에 \n정식으로 가입합니다. "
+			},
+			{
+				info = [[
+5. 이벤트 종료 후, 정식으로 가입하지 않은 [오오카미 미오]는 
+모항을 떠나며 이미 사용한 강화, 돌파 재료는 반환되지 
+않습니다.
+
+]]
+			}
+		}
+	},
 	pocky_jiujiu = {
 		tip = "쥬쥬 일상",
 		key = "pocky_jiujiu"
@@ -11604,7 +11707,7 @@ TIPS:
 				info = "3. 연료를 누적소모하여 생산 임무를 완성할 수 있으며, 미리 \n연료를 소모하여도 누적됩니다."
 			},
 			{
-				info = "4. 지정 목표를 달성하여 메이드장의 의뢰 임무를 완성하고, \n로그인하여 출석 임무를 완성하세요.\n5. 수령 시간은 12월 15일 23시 59분까지입니다."
+				info = "4. 지정 목표를 달성하여 메이드장의 의뢰 임무를 완성하고, \n로그인하여 출석 임무를 완성하세요.\n5. 수령 시간은 12월 29일 23시 59분까지입니다."
 			}
 		}
 	},
@@ -11665,6 +11768,10 @@ TIPS:
 	secretary_pos_save_success = {
 		tip = "저장 성공",
 		key = "secretary_pos_save_success"
+	},
+	juese_tiyan = {
+		tip = "캐릭터 체험 스테이지를 시작하시겠습니까? \n(체험 스테이지 내 아군 함선의 스탯은 참고용으로 제공됩니다. \n<color=#ff5c5c>실제 성능은 획득한 함선을 기준으로 합니다.</color> ",
+		key = "juese_tiyan"
 	}
 }
 

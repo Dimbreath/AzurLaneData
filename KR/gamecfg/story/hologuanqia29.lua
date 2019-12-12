@@ -11,11 +11,11 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>「……模具」，「……情感」，「……暗示」</size>",
+					"<size=51>[……모형], [……감정], [……암시]</size>",
 					1
 				},
 				{
-					"<size=51>“然后是……”</size>",
+					"<size=51>‘그리고……’</size>",
 					3
 				},
 				{
@@ -23,11 +23,11 @@ return {
 					4.5
 				},
 				{
-					"<size=51>「……伪物」，「……巨大」，「……门」</size> ",
+					"<size=51>[……가짜]. [……거대한], [……문]</size> ",
 					6.5
 				},
 				{
-					"<size=51>“最后是……”</size>",
+					"<size=51>‘마지막으로……’</size>",
 					8
 				}
 			}
@@ -68,7 +68,7 @@ return {
 			}
 		},
 		{
-			actorName = "测试怪人",
+			actorName = "테스트 몬스터",
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
@@ -76,7 +76,7 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			blackBg = true,
-			say = "呵呵，这样一来这群反叛军就没办法继续前进了。处理得十分得当，军师。",
+			say = "후후, 이러면 레지스탕스도 나아갈 수가 없겠지. 잘 했어, 군사.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -115,8 +115,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 10500010,
-			actorName = "军师",
-			say = "请放心，她们绝对破坏不了这道利用您的能量发生器制造的屏障。",
+			actorName = "군사",
+			say = "걱정 마세요. 당신의 힘을 사용해 만든 배리어를 뚫을 수는 없을겁니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,8 +132,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900011,
-			actorName = "测试怪人",
-			say = "不过，这些机械还是有些不听使唤啊。",
+			actorName = "테스트 몬스터",
+			say = "하지만 기계가 종종 말을 듣지 않는걸.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,8 +149,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 10500010,
-			actorName = "军师",
-			say = "是因为权限验证还没通过么？",
+			actorName = "군사",
+			say = "권한 검증을 아직 통과하지 못했나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,8 +166,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900011,
-			actorName = "测试怪人",
-			say = "太奇怪了吧，明明我才是这片镜面海域的管理者，为什么权限认证始终通不过啊！",
+			actorName = "테스트 몬스터",
+			say = "이상하네. 분명 내가 거울 해역의 관리자인데, 왜 권한을 통과하지 못하는 거지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,8 +183,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 10500010,
-			actorName = "军师",
-			say = "请不要着急，一定是之前的实验事故导致了机械故障。随着启动越来越多的机械，最终权限一定会恢复正常的",
+			actorName = "군사",
+			say = "진정하세요. 분명 실험 사고 때문에 기계가 고장난 것일 테니까요. 더 많은 기계를 사용하면 분명 권한이 정상을 돌아올 거예요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,8 +200,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900011,
-			actorName = "测试怪人",
-			say = "说的也是，那外部防御就交给你了哦，军师。",
+			actorName = "테스트 몬스터",
+			say = "그렇다면 외부 방어는 맡겨두겠어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "holo-tokiwa",
-			say = "波乱万丈迷宫作战结束后，面对任何手段都无法破坏，切割了海面的黑色光幕",
+			say = "파란만장한 미궁 작전 종료 후, 어떠한 수단으로도 파괴할 수 없는 해수면의 거대한 배리어를 마주친 일행.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			bgName = "bg_story_holosaba1",
 			dir = 1,
-			say = "夏色祭提出的解决方案是----",
+			say = "나츠이로 마츠리가 내놓은 해결 방안은----",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			say = "我们从地下绕过去就好了嘛！",
+			say = "밑으로 돌아가면 되잖아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "祭…那个，水下的方案路上已经让阿库娅潜下去试过了…",
+			say = "마츠리… 저기, 밑으로 가는 것도 아쿠아가 이미 확인해 봤는데…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			say = "水底绕行方案绝对行不通啦。这座屏障根！本！看不到底",
+			say = "잠수해서 가는 것도 막혔어. 이 배리어 때문에! 전혀! 끝이 보이지 않아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "恐怕屏障已经一直延伸到海床了哦",
+			say = "배리어가 해저까지 연결된 모양이에요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			say = "嗯…所以说也许可以尝试从地下，而不是水下绕过去",
+			say = "음… 그러니까 해저가 아니라 지하로 돌아가자는 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是什么意思，祭？",
+			say = "무슨 뜻이죠, 마츠리?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			say = "等等，难道说……不会吧……",
+			say = "잠시만, 설마…… 아니지……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "阿库娅和诗音，脸色变了。",
+			say = "아쿠아랑 시온, 안색이 변했어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			actor = 10500060,
 			nameColor = "#a9f548",
-			say = "难道说…要利用那个一直挖到岩浆层的混沌大坟墓么？！",
+			say = "설마… 그걸 사용해서 용암층의 혼돈의 대무덤까지 파내려 가겠다는 거야?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "地下…大坟墓…？",
+			say = "지하… 대무덤…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			say = "咳…那是诗音的比喻啦，比喻！正式名称叫hololive之暗，就是一个设置有大量机关的秘密基地啦",
+			say = "윽… 그건 시온의 비유야, 비유! 정식 명칭은 hololive의 어둠, 많은 기관이 설치된 비밀 기지지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			say = "明明是恐怖屋吧！！！！！！！！！！！！！！！！！！！！！！！！！！！！！",
+			say = "귀신의 집이잖아!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			say = "（无视）",
+			say = "(무시)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…按照现在收集的情报来看，整个服务器应该是在变成镜面海域的时候整体巨大化了",
+			say = "음… 지금 가지고 있는 정보로 보면, 서버가 거울 해역으로 변하면서 전체적으로 커진 상태네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错~天空变得更高，大地变得更宽阔，同时出现了大片的海洋",
+			say = "맞아~ 하늘도 커지고 땅도 넓어졌어. 바다는 말 할것도 없고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			say = "不过，虽然尺寸改变了，如果利用以前就位于海底之下的秘密基地，也许就能用里面的水道绕过屏障了，祭是这么想的",
+			say = "하지만 아무리 사이즈가 변했다고 해도, 해저 아래에 있는 비밀 기지를 이용한다면 안에 있는 수로로 배리어를 통과할 수 있을지도 몰라.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,8 +549,8 @@ return {
 			bgName = "bg_story_holosaba1",
 			dir = 1,
 			actor = 900021,
-			actorName = "净化亲",
-			say = "原来如此，就算是测试怪人，也不会浪费能量把防护罩遮到岩浆层吧",
+			actorName = "퓨리",
+			say = "그렇구나. 아무리 테스트 몬스터라도 배리어를 용암층까지 닿게 하지는 않았을 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听起来是当前状况下最有可行性的方案，有试一试的价值！",
+			say = "가장 가능성이 큰 방법같네. 시도할 가치는 있겠어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			say = "看来作战计划决定了呢，目标---hololive之暗！作战开始~",
+			say = "그럼 결정 된거네. 목표는--- hololive의 어둠! 작전 개시~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

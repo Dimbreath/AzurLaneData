@@ -7,14 +7,14 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actorName = "大神澪",
+			actorName = "오오카미 미오",
 			side = 2,
 			stopbgm = true,
 			dir = 1,
 			bgmDelay = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "周围是再熟悉不过的墙壁和天花板",
+			say = "주변은 너무나도 익숙한 벽과 천장이었다.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actorName = "大神澪",
+			actorName = "오오카미 미오",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "与上一刻不同的是，原本热闹的房间中只剩下咱一个人了",
+			say = "조금 다른 것은, 떠들썩했던 방에 나 혼자 남았다는 것이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,12 +50,12 @@ return {
 			}
 		},
 		{
-			actorName = "大神澪",
+			actorName = "오오카미 미오",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "虽然当务之急是寻找消失的伙伴，搞清楚现在的处境",
+			say = "물론 사라진 동료를 찾고 지금 상황을 파악하는 것이 가장 중요하지만,",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,12 +66,12 @@ return {
 			}
 		},
 		{
-			actorName = "大神澪",
+			actorName = "오오카미 미오",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "可是身体却在不听使唤的颤抖，野性的直觉告诉咱，这里有危险",
+			say = "계속 떨리는 몸이, 내 야성의 직감이 말해주고 있다. 여기는 위험하다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,12 +82,12 @@ return {
 			}
 		},
 		{
-			actorName = "大神澪",
+			actorName = "오오카미 미오",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "必须保持冷静",
+			say = "반드시 냉정해야해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,12 +98,12 @@ return {
 			}
 		},
 		{
-			actorName = "大神澪",
+			actorName = "오오카미 미오",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "冷静下来…",
+			say = "냉정해져야해…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			soundeffect = "event:/battle/boom2",
-			say = "轰----！",
+			say = "펑----!",
 			flashN = {
 				color = {
 					1,
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "不可能啊啊啊啊啊！在这种状况怎么可能保持冷静啊！！！",
+			say = "무리이이이이! 이런 상황에서 어떻게 냉정해질 수 있냐고!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_holosaba1",
-			say = "澪！房间里的是大神澪么！！",
+			say = "미오! 거기 안에 있는 거 미오 맞지?!",
 			dir = -1,
 			actor = 900209,
 			nameColor = "#a9f548",
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "吹雪？！太好了，你平安无事啊！",
+			say = "후부키? 다행이다. 무사했구나!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "此地不宜久留，塞壬的量产型舰队已经向这边靠近了！",
+			say = "여기서 바로 떠나야 해. 세이렌의 양산형 함대가 바로 근처에 있어!",
 			flashN = {
 				color = {
 					1,
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "塞…塞壬？",
+			say = "세…세이렌?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "唔，从炮声推断应该是驱逐舰级别的主炮。恐怕这些只是侦查舰队，主力舰队还在后面呢",
+			say = "응. 포성을 들어보니 구축함의 주포인것 같아. 어쩌면 정찰 함대일지도 모르겠어. 주력 함대는 뒤에 있을거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "吹雪…倒是意外的冷静…到底是什么状况啊现在！舰队又是怎么回事啊！！",
+			say = "후부키… 의외로 냉정하네… 이게 대체 무슨 상황이야! 함대는 또 무슨 얘기고!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			dir = -1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "澪酱，冷静一些。外面突然淹没各处的海水，水面上游弋的塞壬舰队…",
+			say = "미오쨩, 진정해. 바깥이 바닷물에 잠기고 수면 위에는 세이렌 함대가 순찰 중이야…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = -1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "我们恐怕因为某些原因，随着holo服务器一同穿越到碧蓝航线的世界了，而且来到了冲突的正中心。",
+			say = "아마도 우리는 모종의 원인으로 holo서버와 함께 벽람항로의 세계에 와버린 것 같아. 그것도 전투의 한가운데에.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "塞壬舰队…就是侵占了碧蓝航线世界的海洋，作为游戏中最大反派的那个塞壬么？！",
+			say = "세이렌 함대… 벽람항로 세계의 바다를 침범하는, 게임 속 가장 큰 적인 그 세이렌 말하는 거야?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "我们发生了异世界穿越？！这不是大事不妙了么！！",
+			say = "우리가 다른 세계로 넘어왔다고?! 엄청나게 큰 일이잖아!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "可恶…要是这时候我的白上舰队在这里，这些塞壬根本不堪一击——",
+			say = "젠장… 만약 내 시라카미 함대가 있었다면 이런 세이렌들 따위는 일격에——",
 			flashN = {
 				color = {
 					1,
@@ -487,7 +487,7 @@ return {
 			blackBg = true,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "{namecode:158}酱，{namecode:96}酱， 明明我也是指挥官来着…",
+			say = "카와카제쨩, 즈이카쿠쨩… 나도 분명 지휘관인데…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

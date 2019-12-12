@@ -66014,6 +66014,2387 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[15135] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92045,
+		type = 36,
+		name = "『holo活动』-日常建造",
+		count_inherit = 0,
+		desc = "건조를 3회 실시한다",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15135,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59144,
+				300
+			}
+		}
+	},
+	[15136] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92046,
+		type = 36,
+		name = "『holo活动』-日常出击",
+		count_inherit = 0,
+		desc = "함대를 출격하여, 전투에서 15회 승리하라!",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15136,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59144,
+				300
+			}
+		}
+	},
+	[15137] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92047,
+		type = 36,
+		name = "『holo活动』-日常困难本",
+		count_inherit = 0,
+		desc = "임의의 메인 스테이지 어려움 모드를 1회 클리어",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15137,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59144,
+				100
+			}
+		}
+	},
+	[15138] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92049,
+		type = 6,
+		name = "T1·通过任务  holo",
+		count_inherit = 0,
+		desc = "T1클리어 ",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15139",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1290002,
+		id = 15138,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1290002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59144,
+				200
+			}
+		}
+	},
+	[15139] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92051,
+		type = 6,
+		name = "T2·通过任务  holo",
+		count_inherit = 0,
+		desc = "T2클리어 ",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15140",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1290004,
+		id = 15139,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1290004",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59144,
+				400
+			}
+		}
+	},
+	[15140] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92053,
+		type = 6,
+		name = "T3·通过任务  holo",
+		count_inherit = 0,
+		desc = "T3클리어 ",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15141",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1290006,
+		id = 15140,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1290006",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59144,
+				600
+			}
+		}
+	},
+	[15141] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92054,
+		type = 6,
+		name = "T4·通过任务  holo",
+		count_inherit = 0,
+		desc = "T4클리어 ",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15142",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1290007,
+		id = 15141,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1290007",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59144,
+				400
+			}
+		}
+	},
+	[15142] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92056,
+		type = 6,
+		name = "T5·通过任务  holo",
+		count_inherit = 0,
+		desc = "T5클리어 ",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15143",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1290009,
+		id = 15142,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1290009",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59144,
+				600
+			}
+		}
+	},
+	[15143] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92058,
+		type = 6,
+		name = "T6·通过任务  holo",
+		count_inherit = 0,
+		desc = "T6클리어 ",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15144",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1290011,
+		id = 15143,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1290011",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59144,
+				800
+			}
+		}
+	},
+	[15144] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92060,
+		type = 6,
+		name = "SP·通过任务  holo",
+		count_inherit = 0,
+		desc = "SP클리어 ",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1290031,
+		id = 15144,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1290031",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
+	[15151] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92061,
+		type = 6,
+		name = "SP1·三星任务  holo",
+		count_inherit = 0,
+		desc = "T1의 의 모든 작전목표(★3)를 달성하라!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15152",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1290002,
+		id = 15151,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1290002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30316,
+				1
+			},
+			{
+				1,
+				2,
+				500
+			}
+		}
+	},
+	[15152] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92062,
+		type = 6,
+		name = "SP2·三星任务  holo",
+		count_inherit = 0,
+		desc = "T2의 의 모든 작전목표(★3)를 달성하라!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15153",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1290004,
+		id = 15152,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1290004",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30316,
+				1
+			},
+			{
+				4,
+				100001,
+				1
+			}
+		}
+	},
+	[15153] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92063,
+		type = 6,
+		name = "SP3·三星任务  holo",
+		count_inherit = 0,
+		desc = "T3의 의 모든 작전목표(★3)를 달성하라!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15154",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1290006,
+		id = 15153,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1290006",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30316,
+				1
+			},
+			{
+				2,
+				18023,
+				1
+			}
+		}
+	},
+	[15154] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92064,
+		type = 6,
+		name = "SP4·三星任务  holo",
+		count_inherit = 0,
+		desc = "T4의 의 모든 작전목표(★3)를 달성하라!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15155",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1290007,
+		id = 15154,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1290007",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30316,
+				1
+			},
+			{
+				1,
+				2,
+				500
+			}
+		}
+	},
+	[15155] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92065,
+		type = 6,
+		name = "SP5·三星任务  holo",
+		count_inherit = 0,
+		desc = "T5의 의 모든 작전목표(★3)를 달성하라!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15156",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1290009,
+		id = 15155,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1290009",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30316,
+				1
+			},
+			{
+				4,
+				100011,
+				1
+			}
+		}
+	},
+	[15156] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92066,
+		type = 6,
+		name = "SP6·三星任务  holo",
+		count_inherit = 0,
+		desc = "T6의 의 모든 작전목표(★3)를 달성하라!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1290011,
+		id = 15156,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1290011",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30316,
+				1
+			},
+			{
+				2,
+				18023,
+				1
+			}
+		}
+	},
+	[15157] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92106,
+		type = 6,
+		name = "hololive大神澪临时角色加入",
+		count_inherit = 0,
+		desc = "不该看到",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15157,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				10500071,
+				1
+			}
+		}
+	},
+	[15158] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92133,
+		type = 6,
+		name = "hololive大佬章解锁任务1",
+		count_inherit = 0,
+		desc = "「오오카미 미오」모항 정식 가입 ",
+		target_id_2 = "",
+		sub_type = 39,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15158,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1050007",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				70039,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY",
+			{
+				id = 20336
+			}
+		}
+	},
+	[15159] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92134,
+		type = 6,
+		name = "hololive大佬章解锁任务2",
+		count_inherit = 0,
+		desc = "한정 해역 SP스테이지 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15159,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1290031",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				70040,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15160] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92135,
+		type = 6,
+		name = "hololive大佬章解锁任务3",
+		count_inherit = 0,
+		desc = "본사 폭파ING #1-#7해제",
+		target_id_2 = "20327",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 138,
+		id = 15160,
+		target_num = 24000,
+		fix_task = 0,
+		target_id = "138",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				70041,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY",
+			{
+				id = 20329
+			}
+		}
+	},
+	[15161] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92136,
+		type = 6,
+		name = "hololive大佬章解锁任务4",
+		count_inherit = 0,
+		desc = "P-TNT누적「24000개 획득」클리어",
+		target_id_2 = "",
+		sub_type = 63,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15161,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "55121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				70042,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY",
+			{
+				id = 20328
+			}
+		}
+	},
+	[15162] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92137,
+		type = 6,
+		name = "hololive大佬章解锁任务5",
+		count_inherit = 0,
+		desc = "건조를 ($1/$2)회 실시한다",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15162,
+		target_num = 30,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				70043,
+				1
+			}
+		}
+	},
+	[15163] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92138,
+		type = 6,
+		name = "hololive大佬章解锁任务6",
+		count_inherit = 0,
+		desc = "「집결hololive반항군!」최종 보상 획득",
+		target_id_2 = "",
+		sub_type = 45,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15163,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "89060",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				70044,
+				1
+			}
+		},
+		scene = {
+			"HOLOLIVE_LINKLINK_SELECT_SCENE"
+		}
+	},
+	[15164] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92139,
+		type = 6,
+		name = "hololive大佬章解锁任务7",
+		count_inherit = 0,
+		desc = "한정 장비<팀 엠블렘>획득 및 +10까지 강화한다 ",
+		target_id_2 = "",
+		sub_type = 45,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15164,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "89070",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				70045,
+				1
+			}
+		},
+		scene = {
+			"HOLOLIVE_LINKLINK_SELECT_SCENE"
+		}
+	},
+	[15165] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92140,
+		type = 6,
+		name = "hololive大佬章解锁任务8",
+		count_inherit = 0,
+		desc = "임의의 적함($1/$2)척 격파한다",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15165,
+		target_num = 1500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				70046,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15166] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92141,
+		type = 6,
+		name = "hololive大佬章解锁任务9",
+		count_inherit = 0,
+		desc = "「항구 작업대」의 다른 실적을 달성하라",
+		target_id_2 = "",
+		sub_type = 90,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15166,
+		target_num = 8,
+		fix_task = 0,
+		target_id = {
+			15158,
+			15159,
+			15160,
+			15161,
+			15162,
+			15163,
+			15164,
+			15165
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				70047,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY",
+			{
+				id = 20324
+			}
+		}
+	},
+	[15167] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92142,
+		type = 26,
+		name = "早安碧蓝航线白上吹雪1",
+		count_inherit = 0,
+		desc = "구축함으로 출격하여, 획득 경험치를 6000누적시킨다",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15167,
+		target_num = 6000,
+		fix_task = 0,
+		target_id = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				1
+			},
+			{
+				4,
+				1
+			},
+			{
+				5,
+				1
+			},
+			{
+				6,
+				1
+			},
+			{
+				7,
+				1
+			},
+			{
+				8,
+				1
+			},
+			{
+				101,
+				1
+			},
+			{
+				102,
+				1
+			},
+			{
+				103,
+				1
+			},
+			{
+				104,
+				1
+			},
+			{
+				105,
+				1
+			},
+			{
+				0,
+				1
+			},
+			{
+				9,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15168] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92143,
+		type = 26,
+		name = "早安碧蓝航线白上吹雪2",
+		count_inherit = 0,
+		desc = "산소 콜라를 10개 소모한다",
+		target_id_2 = "",
+		sub_type = 120,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15168,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "50001",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				3
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[15169] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92144,
+		type = 26,
+		name = "早安碧蓝航线夏色祭1",
+		count_inherit = 0,
+		desc = "구축함으로 출격하여, 획득 경험치를 6000누적시킨다",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15169,
+		target_num = 6000,
+		fix_task = 0,
+		target_id = {
+			{
+				1,
+				1
+			},
+			{
+				2,
+				1
+			},
+			{
+				3,
+				1
+			},
+			{
+				4,
+				1
+			},
+			{
+				5,
+				1
+			},
+			{
+				6,
+				1
+			},
+			{
+				7,
+				1
+			},
+			{
+				8,
+				1
+			},
+			{
+				101,
+				1
+			},
+			{
+				102,
+				1
+			},
+			{
+				103,
+				1
+			},
+			{
+				104,
+				1
+			},
+			{
+				105,
+				1
+			},
+			{
+				0,
+				1
+			},
+			{
+				9,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15170] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92145,
+		type = 26,
+		name = "早安碧蓝航线夏色祭2",
+		count_inherit = 0,
+		desc = "어뢰 튀김을 3개 소모한다",
+		target_id_2 = "",
+		sub_type = 120,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15170,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				2
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[15171] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92146,
+		type = 26,
+		name = "早安碧蓝航线时乃空1",
+		count_inherit = 0,
+		desc = "항공모함으로 출격하여, 획득 경험치를 6000누적시킨다",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15171,
+		target_num = 6000,
+		fix_task = 0,
+		target_id = {
+			{
+				1,
+				7
+			},
+			{
+				2,
+				7
+			},
+			{
+				3,
+				7
+			},
+			{
+				4,
+				7
+			},
+			{
+				5,
+				7
+			},
+			{
+				6,
+				7
+			},
+			{
+				7,
+				7
+			},
+			{
+				8,
+				7
+			},
+			{
+				9,
+				7
+			},
+			{
+				101,
+				7
+			},
+			{
+				102,
+				7
+			},
+			{
+				103,
+				7
+			},
+			{
+				104,
+				7
+			},
+			{
+				105,
+				7
+			},
+			{
+				1,
+				6
+			},
+			{
+				2,
+				6
+			},
+			{
+				3,
+				6
+			},
+			{
+				4,
+				6
+			},
+			{
+				5,
+				6
+			},
+			{
+				6,
+				6
+			},
+			{
+				7,
+				6
+			},
+			{
+				8,
+				6
+			},
+			{
+				101,
+				6
+			},
+			{
+				102,
+				6
+			},
+			{
+				103,
+				6
+			},
+			{
+				104,
+				6
+			},
+			{
+				105,
+				6
+			},
+			{
+				9,
+				6
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15172] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92147,
+		type = 26,
+		name = "早安碧蓝航线时乃空1",
+		count_inherit = 0,
+		desc = "전술학원에서 전술훈련을 2번 수행하라!",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15172,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				16012,
+				2
+			}
+		}
+	},
+	[15173] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92148,
+		type = 26,
+		name = "早安碧蓝航线大神澪1",
+		count_inherit = 0,
+		desc = "항공모함으로 출격하여, 획득 경험치를 6000누적시킨다",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15173,
+		target_num = 6000,
+		fix_task = 0,
+		target_id = {
+			{
+				1,
+				7
+			},
+			{
+				2,
+				7
+			},
+			{
+				3,
+				7
+			},
+			{
+				4,
+				7
+			},
+			{
+				5,
+				7
+			},
+			{
+				6,
+				7
+			},
+			{
+				7,
+				7
+			},
+			{
+				8,
+				7
+			},
+			{
+				9,
+				7
+			},
+			{
+				101,
+				7
+			},
+			{
+				102,
+				7
+			},
+			{
+				103,
+				7
+			},
+			{
+				104,
+				7
+			},
+			{
+				105,
+				7
+			},
+			{
+				1,
+				6
+			},
+			{
+				2,
+				6
+			},
+			{
+				3,
+				6
+			},
+			{
+				4,
+				6
+			},
+			{
+				5,
+				6
+			},
+			{
+				6,
+				6
+			},
+			{
+				7,
+				6
+			},
+			{
+				8,
+				6
+			},
+			{
+				101,
+				6
+			},
+			{
+				102,
+				6
+			},
+			{
+				103,
+				6
+			},
+			{
+				104,
+				6
+			},
+			{
+				105,
+				6
+			},
+			{
+				9,
+				6
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15174] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92149,
+		type = 26,
+		name = "早安碧蓝航线大神澪2",
+		count_inherit = 0,
+		desc = "전함으로 출격하여, 획득 경험치를 6000누적시킨다",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15174,
+		target_num = 6000,
+		fix_task = 0,
+		target_id = {
+			{
+				1,
+				5
+			},
+			{
+				2,
+				5
+			},
+			{
+				3,
+				5
+			},
+			{
+				4,
+				5
+			},
+			{
+				5,
+				5
+			},
+			{
+				6,
+				5
+			},
+			{
+				7,
+				5
+			},
+			{
+				8,
+				5
+			},
+			{
+				9,
+				5
+			},
+			{
+				101,
+				5
+			},
+			{
+				102,
+				5
+			},
+			{
+				103,
+				5
+			},
+			{
+				104,
+				5
+			},
+			{
+				105,
+				5
+			},
+			{
+				1,
+				4
+			},
+			{
+				2,
+				4
+			},
+			{
+				3,
+				4
+			},
+			{
+				4,
+				4
+			},
+			{
+				5,
+				4
+			},
+			{
+				6,
+				4
+			},
+			{
+				7,
+				4
+			},
+			{
+				8,
+				4
+			},
+			{
+				9,
+				4
+			},
+			{
+				101,
+				4
+			},
+			{
+				102,
+				4
+			},
+			{
+				103,
+				4
+			},
+			{
+				104,
+				4
+			},
+			{
+				105,
+				4
+			},
+			{
+				1,
+				10
+			},
+			{
+				2,
+				10
+			},
+			{
+				3,
+				10
+			},
+			{
+				4,
+				10
+			},
+			{
+				5,
+				10
+			},
+			{
+				6,
+				10
+			},
+			{
+				7,
+				10
+			},
+			{
+				8,
+				10
+			},
+			{
+				9,
+				10
+			},
+			{
+				101,
+				10
+			},
+			{
+				102,
+				10
+			},
+			{
+				103,
+				10
+			},
+			{
+				104,
+				10
+			},
+			{
+				105,
+				10
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18012,
+				2
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15175] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92150,
+		type = 26,
+		name = "早安碧蓝航线紫咲诗音1",
+		count_inherit = 0,
+		desc = "항공모함으로 출격하여, 획득 경험치를 6000누적시킨다",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15175,
+		target_num = 6000,
+		fix_task = 0,
+		target_id = {
+			{
+				1,
+				7
+			},
+			{
+				2,
+				7
+			},
+			{
+				3,
+				7
+			},
+			{
+				4,
+				7
+			},
+			{
+				5,
+				7
+			},
+			{
+				6,
+				7
+			},
+			{
+				7,
+				7
+			},
+			{
+				8,
+				7
+			},
+			{
+				9,
+				7
+			},
+			{
+				101,
+				7
+			},
+			{
+				102,
+				7
+			},
+			{
+				103,
+				7
+			},
+			{
+				104,
+				7
+			},
+			{
+				105,
+				7
+			},
+			{
+				1,
+				6
+			},
+			{
+				2,
+				6
+			},
+			{
+				3,
+				6
+			},
+			{
+				4,
+				6
+			},
+			{
+				5,
+				6
+			},
+			{
+				6,
+				6
+			},
+			{
+				7,
+				6
+			},
+			{
+				8,
+				6
+			},
+			{
+				101,
+				6
+			},
+			{
+				102,
+				6
+			},
+			{
+				103,
+				6
+			},
+			{
+				104,
+				6
+			},
+			{
+				105,
+				6
+			},
+			{
+				9,
+				6
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15176] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92151,
+		type = 26,
+		name = "早安碧蓝航线紫咲诗音2",
+		count_inherit = 0,
+		desc = "건조를 2회 실시한다",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15176,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				16022,
+				2
+			}
+		}
+	},
+	[15177] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92152,
+		type = 26,
+		name = "早安碧蓝航线百鬼绫目1",
+		count_inherit = 0,
+		desc = "순양함으로 출격하여, 획득 경험치를 6000누적시킨다",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15177,
+		target_num = 6000,
+		fix_task = 0,
+		target_id = {
+			{
+				1,
+				2
+			},
+			{
+				2,
+				2
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				2
+			},
+			{
+				5,
+				2
+			},
+			{
+				6,
+				2
+			},
+			{
+				7,
+				2
+			},
+			{
+				8,
+				2
+			},
+			{
+				9,
+				2
+			},
+			{
+				101,
+				2
+			},
+			{
+				102,
+				2
+			},
+			{
+				103,
+				2
+			},
+			{
+				104,
+				2
+			},
+			{
+				105,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				2,
+				3
+			},
+			{
+				3,
+				3
+			},
+			{
+				4,
+				3
+			},
+			{
+				5,
+				3
+			},
+			{
+				6,
+				3
+			},
+			{
+				7,
+				3
+			},
+			{
+				8,
+				3
+			},
+			{
+				9,
+				3
+			},
+			{
+				101,
+				3
+			},
+			{
+				102,
+				3
+			},
+			{
+				103,
+				3
+			},
+			{
+				104,
+				3
+			},
+			{
+				105,
+				3
+			},
+			{
+				1,
+				18
+			},
+			{
+				2,
+				18
+			},
+			{
+				3,
+				18
+			},
+			{
+				4,
+				18
+			},
+			{
+				5,
+				18
+			},
+			{
+				6,
+				18
+			},
+			{
+				7,
+				18
+			},
+			{
+				8,
+				18
+			},
+			{
+				9,
+				18
+			},
+			{
+				101,
+				18
+			},
+			{
+				102,
+				18
+			},
+			{
+				103,
+				18
+			},
+			{
+				104,
+				18
+			},
+			{
+				105,
+				18
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15178] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92153,
+		type = 26,
+		name = "早安碧蓝航线百鬼绫目2",
+		count_inherit = 0,
+		desc = "연습을 2회 실시한다",
+		target_id_2 = "",
+		sub_type = 27,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15178,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				16002,
+				2
+			}
+		}
+	},
+	[15179] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92154,
+		type = 26,
+		name = "早安碧蓝航线凑阿库娅1",
+		count_inherit = 0,
+		desc = "잠수함으로 출격하여, 획득 경험치를 6000누적시킨다",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15179,
+		target_num = 6000,
+		fix_task = 0,
+		target_id = {
+			{
+				1,
+				8
+			},
+			{
+				2,
+				8
+			},
+			{
+				3,
+				8
+			},
+			{
+				4,
+				8
+			},
+			{
+				5,
+				8
+			},
+			{
+				6,
+				8
+			},
+			{
+				7,
+				8
+			},
+			{
+				8,
+				8
+			},
+			{
+				9,
+				8
+			},
+			{
+				101,
+				8
+			},
+			{
+				102,
+				8
+			},
+			{
+				103,
+				8
+			},
+			{
+				104,
+				8
+			},
+			{
+				105,
+				8
+			},
+			{
+				1,
+				17
+			},
+			{
+				2,
+				17
+			},
+			{
+				3,
+				17
+			},
+			{
+				4,
+				17
+			},
+			{
+				5,
+				17
+			},
+			{
+				6,
+				17
+			},
+			{
+				7,
+				17
+			},
+			{
+				8,
+				17
+			},
+			{
+				9,
+				17
+			},
+			{
+				101,
+				17
+			},
+			{
+				102,
+				17
+			},
+			{
+				103,
+				17
+			},
+			{
+				104,
+				17
+			},
+			{
+				105,
+				17
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15180] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92155,
+		type = 26,
+		name = "早安碧蓝航线凑阿库娅2",
+		count_inherit = 0,
+		desc = "군사의뢰를 3회 실시한다",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15180,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20012,
+				1
+			}
+		}
+	},
 	[15181] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -75466,6 +77847,46 @@ pg.task_data_template = {
 		15129,
 		15130,
 		15131,
+		15135,
+		15136,
+		15137,
+		15138,
+		15139,
+		15140,
+		15141,
+		15142,
+		15143,
+		15144,
+		15151,
+		15152,
+		15153,
+		15154,
+		15155,
+		15156,
+		15157,
+		15158,
+		15159,
+		15160,
+		15161,
+		15162,
+		15163,
+		15164,
+		15165,
+		15166,
+		15167,
+		15168,
+		15169,
+		15170,
+		15171,
+		15172,
+		15173,
+		15174,
+		15175,
+		15176,
+		15177,
+		15178,
+		15179,
+		15180,
 		15181,
 		15182,
 		15183,

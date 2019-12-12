@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "在击败山田·赫敏后，一道光将她笼罩，似乎是撤退了。",
+			say = "야마다·헤르미온느 격파 후, 한줄기 빛이 그 주위를 감쌌다. 아마도 철수한 것 같다.",
 			side = 2,
 			dir = 1,
 			bgm = "holo-control",
@@ -23,7 +23,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "无论如何，所有人终于团聚，稍微安心的众人决定回到基地，好好休整一番，并且思考下一步计划。",
+			say = "어쨌든 모두가 모였다. 일행은 안심하고 기지로 돌아가 푹 쉬면서 다음 계획을 세웠다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "holo-tokiwa",
-			say = "当晚，反抗军基地",
+			say = "그날 밤, 레지스탕스 기지",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			actor = 10500070,
 			nameColor = "#a9f548",
-			say = "敌人在被打倒的瞬间在光芒中消失了，这难道是…",
+			say = "결국 사라졌어?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			actor = 10500010,
 			nameColor = "#a9f548",
-			say = "毫无疑问是hololive服务器的传送指令呢！",
+			say = "이건 설마…… hololive 서버의 전송 명령!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,8 +106,8 @@ return {
 			bgName = "bg_story_holosaba1",
 			dir = 1,
 			actor = 900021,
-			actorName = "净化亲",
-			say = "真麻烦啊，那个测试怪人已经开始控制镜面海域的机能了么…",
+			actorName = "퓨리",
+			say = "그 테스트 몬스터가 서버 통제권을 장악하고 있으니 전송 스킬을 사용하는 것도 이상하지는 않아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战斗拖得越久，我们，就越危险",
+			say = "전투가 길어지면, 우리도 위험해져요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然让她跑了，不过遭受了那种损伤，应该很长一段时间内都无法战斗了吧。",
+			say = "도망갔지만 크게 상처를 입었으니 얼마간은 전투를 하지 못할 거예요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,23 +155,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来测试者就是所谓的「时间与空间的支配者」的概率非常的高…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 307060,
-			side = 2,
-			bgName = "bg_story_holosaba1",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "本次面对强敌的战斗，hololive各位的表现都很出色哎~",
+			say = "거울 해역에서 모두 힘을 합쳐 강적과 싸운 첫 전투네. 다들 수고했어~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +172,7 @@ return {
 			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			say = "尤其是绫目酱和诗音呢。虽然最开始一副不情愿的样子，结果打起来比谁都起劲呢",
+			say = "아야메쨩과 시온, 처음에는 고민하는 것 같더니 결국은 누구보다 신났잖아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +189,7 @@ return {
 			dir = 1,
 			actor = 10500050,
 			nameColor = "#a9f548",
-			say = "这这这不是对待敌人么…对敌人当然不能手下留情了！",
+			say = "그, 그그그건 적을 상대하는 것이니… 당연히 봐줘서는 안되는 것이다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +216,7 @@ return {
 			dir = 1,
 			actor = 10500060,
 			nameColor = "#a9f548",
-			say = "对…对哦，阿库娅本人都打的那么起劲，诗音自然也要火力全开了！",
+			say = "맞… 맞아. 아쿠아 본인도 신났잖아. 상관 없는걸!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +243,7 @@ return {
 			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			say = "令人感动的万组友谊呢",
+			say = "감동스러운 만조의 우정이네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +260,7 @@ return {
 			dir = 1,
 			actor = 10500020,
 			nameColor = "#a9f548",
-			say = "这种战斗，就是你们在这个世界的日常么…？",
+			say = "이런 전투는 여기선 평범한 거니…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +276,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错。量产型，领洋者，追迹者，净化者，测试者……",
+			say = "그래. 세이렌은 우리의 적이니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +292,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就这样与塞壬、与敌人不分昼夜地战斗。一场战斗的结束就是下一场战斗的开始",
+			say = "세이렌과, 적과 밤낮을 가리지 않고 싸우지. 전투의 끝은 곧 새로운 전투의 시작이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +308,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我早就已经习惯了",
+			say = "이미 익숙해졌어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +341,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱歉，说了严肃的话题",
+			say = "미안, 무거운 말을 해버렸군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +357,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们在镜面海域内制作了舰装，这些数据会被塞壬抽取出来制作成“棋子”，也是理所当然的事……",
+			say = "우리가 장비를 만든지 얼마 지나지 않아서 반대 쪽에도 비슷한 ‘장기말’이 생겼다. 아무래도 너희가 말한 테스트 몬스터는 정말로 테스트를 하고 있는 것 같군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +373,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今后的战斗可能会更加艰苦。战场不是什么温和的地方，请提前做好心理准备",
+			say = "앞으로의 전투는 더 힘들어지겠어. 전장은 상냥하지 않아. 마음의 준비를 단단히 해둬.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +389,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "啊哈哈…{namecode:158}的意思是，不过无论如何，我们赢得了今天的战斗",
+			say = "아하하… 카와카제의 말은 어쨌든 우리는 이길거라는 소리야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +415,7 @@ return {
 			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今后只要一直胜利下去，一路击败测试怪人，夺取服务器的控制权就能获得这次战役的胜利啦！",
+			say = "앞으로 계속 적을 무찌르면서 테스트 몬스터까지 처치하면 서버의 통제권을 손에 넣고 승리할 수 있어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +432,7 @@ return {
 			blackBg = true,
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "好啦好啦，大家都别板着脸了，首战告捷，全员团聚，应该好好庆贺一番才是！",
+			say = "자자, 모두 그런 얼굴 하지 마. 첫 승리인데다 모두가 모였으니 제대로 축하해야 한다구!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

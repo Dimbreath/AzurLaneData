@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "之前的战斗里，对面的军师提到了一个我很在意的东西呢",
+			say = "이전 전투에서 군사가 한 말 중에 신경쓰이는 것이 있어요.",
 			bgm = "holo-fff",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "时间与空间的支配者…最初以为是测试怪人给自己起的名字，现在看来是那个…",
+			say = "시간과 공간의 지배자… 그 테스트 몬스터가 직접 지은 이름인줄 알았는데, 지금 보니 그거…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			actor = 10500010,
 			nameColor = "#a9f548",
-			say = "DARK FOX BIZZARD！时间与空间的支配者那个帅气的DARK FOX BIZZARD的称号呢！",
+			say = "다크 폭스 블리자드! 시간과 공간의 지배자의 그 멋있는 칭호, 다크 폭스 블리자드!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对…就是这个，之前也有过几次来自时间与空间的支配者的传话吧。",
+			say = "맞아요… 바로 그거예요. 시간과 공간의 지배자에 대해 들어본 적은 있지요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500060,
-			say = "难道说……不，不可能吧，那种东西，怎么可能造的出来。",
+			say = "설마… 아니, 아닐거야. 그걸 만들어 낼 수 있을리가 없어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500030,
-			say = "肯…肯定是那个名侦探吹雪，随便取了一张卡片的名字而已啦",
+			say = "분… 분명 명탐정 후부키가 마음대로 지어낸 이름일 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "阿库娅，完全没有自信呢",
+			say = "아쿠아, 자신 없어보여요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "轰隆隆----",
+			say = "쿠르릉----",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "海底地震…？！",
+			say = "해저 지진…?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前方发现一个体型巨大敌人突然降落在海面上，正在向我们高速驶来！",
+			say = "전방에 거대한 적이 바다로 떨어졌어. 우리 쪽을 향해서 빠르게 접근 중!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500010,
-			say = "DARK FOX BIZZARD…Boss出现了！",
+			say = "다크 폭스 블리자드… 보스 등장이다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,8 +203,8 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900021,
-			actorName = "净化亲",
-			say = "那个测试怪人，真真真真的造出来了？！！",
+			actorName = "퓨리",
+			say = "그 테스트 몬스터, 지이이인짜 만들어낸 거야?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500020,
-			say = "大家不要惊慌！有驱逐舰负责在第一线与敌人纠缠，重火力舰队居中。航空编队拉开安全距离利用空中优势进行打击",
+			say = "놀라지 마! 구축함이 일선에서 적을 유인하고, 화력을 집중하자. 항공전대는 안전 거리를 유지하고 공중에서 공격을 개시해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500020,
-			say = "………这么安排没问题吧？",
+			say = "……이렇게 하면 되겠지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然都是些书本知识…看来之前你要去的作战资料没有白要呢",
+			say = "책에서 본 지식이지만…… 작전 자료를 달라고 한 것이 쓸모는 있었군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500020,
-			say = "哎嘿嘿，有些指挥官的风范了么~",
+			say = "에헤헤, 지휘관 같았으려나~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "庆祝的话等到把敌人解决掉再说",
+			say = "칭찬은 일단 적을 해치우고 난 다음에.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500020,
-			say = "嗯！不论即将面对多么艰苦的战斗，只要集合起所有存在于此处的同伴和远在彼方同伴的力量…",
+			say = "응! 얼마나 어려운 싸움이라도 여기에 있는 모두의 힘과 멀리 있는 동료의 힘을 모으면……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500020,
-			say = "只要有这份连接起来的羁绊在，我们就一定会胜利的！",
+			say = "연결되는 유대만 있다면 우리는 이길 수 있어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
