@@ -12,7 +12,7 @@ return {
 			bgm = "holo-sora",
 			actor = 10500020,
 			nameColor = "#a9f548",
-			say = "天空中的屏障，消失了哎",
+			say = "하늘의 배리어가 사라졌네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然已经被我们突破过来，测试怪人判断没有必要继续浪费能量维持了吧",
+			say = "우리가 뚫고 들어왔다는 것을 안 이상, 더 유지할 필요가 없는 거겠죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太…太好了，不用再走下面回去了！！",
+			say = "다… 다행이네요. 지하로 또 가지 않아도 돼요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没想到屏障这边还有这么广阔的区域，关键的本社大楼究竟在哪里呢？",
+			say = "배리어 너머도 이렇게 넓다니. 본사 건물은 대체 어디에 있는거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500020,
-			say = "按照惯例，先派出航空队侦查一下地形…哎？为什么叫不出侦察机来…？",
+			say = "지금까지 한 것처럼 일단 정찰을… 에? 왜 정찰기가 나오지 않지…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "这片区域中舰载机好像只能贴着近海飞行…不妙，这样下去会迷路的",
+			say = "이 해역에서는 함재기가 근해에 붙어서만 비행을 할 수 있는것 같네… 큰일인걸. 이러면 길을 잃겠어.",
 			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500050,
-			say = "大家快看海面，那些是…黑曜石和…岩浆？！！",
+			say = "바다를 봐라. 저건… 흑요석과… 용암?!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "岩浆出现在水面上？！在镜面海域里，这种离谱的事也能做出来么！",
+			say = "용암이 해수면에?! 거울 해역에서는 이런 일도 일어나는 건가요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500010,
-			say = "就算在原本世界的服务器里，也做不到像这样直接在水面中生成流动的岩浆啊！",
+			say = "원래 세계의 서버에서도 이렇게 해수면에 움직이는 용암을 만드는 건 할 수 없다고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500010,
-			say = "塞壬在这里花大力气无视自然法则的目的究竟是…",
+			say = "세이렌이 이렇게 큰 힘을 들여서 자연의 법칙을 무시하는 이유는 대체…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500060,
-			say = "…前面的那座很高的塔形建筑物，该不会是，祭做的展望台吧？",
+			say = "…앞에 보이는 커다란 건물, 설마 마츠리가 만든 전망대인가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "展望台，可以展望这片海域的全貌吗？",
+			say = "전망대라면 전체 해역을 볼 수 있지 않나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500040,
-			say = "可以哦！不过，不知道现在服务器变大之后还能看多远。",
+			say = "맞아! 하지만 서버가 이렇게 바뀐 뒤에는 얼마나 볼 수 있을지 모르겠네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在侦察机无法高空飞行的时候，总归有一探究竟的价值。",
+			say = "정찰기가 뜰 수 없는 상황이니 가치는 있겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

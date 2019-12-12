@@ -12,7 +12,7 @@ return {
 			bgm = "holo-control-inst",
 			actor = 900214,
 			nameColor = "#a9f548",
-			say = "哇啊啊啊！祭，你没事吗，太好了…..",
+			say = "와아아아! 마츠리, 무사했구나. 다행이야…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			dir = 1,
 			actor = 900214,
 			nameColor = "#a9f548",
-			say = "呜呜呜呜，我好怕———",
+			say = "우우우우, 무서웠어———",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500040,
-			say = "不哭，不哭，没事啦～诗音了不起哦~",
+			say = "울지 마, 울지 마. 괜찮아~ 시온, 대단하네~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "余等能得救，还是多亏了拉菲和{namecode:6}的帮助呢，谢谢你们。",
+			say = "전부 라피와 아야나미의 덕인 것이다. 고맙다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为，你们不是坏人。",
+			say = "여러분은, 나쁜 사람이 아니니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没事，塞壬也是我们的敌人。",
+			say = "괜찮아. 세이렌은 우리의 적이니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500040,
-			say = "这样一来，我们之中走散的人就只剩下空前辈了",
+			say = "그렇다면 이제 소라 선배만 남았네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我们这边也只剩下Z23了，但愿能像{namecode:6}拉菲她们一样顺利汇合。",
+			say = "응, 우리도 Z23만 남았군. 아야나미와 라피처럼 무사히 합류하면 좋을텐데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500040,
-			say = "但愿如此……",
+			say = "그렇네…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900213,
-			say = "虽然现在安全了，不过余的百鬼城……",
+			say = "지금은 안전하지만, 짐의 백귀의 성은……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不用难过绫目酱！等战斗结束之后，我们陪你一起重建，建一个更大，更帅气，更坚固的百鬼城~！",
+			say = "슬퍼하지 마, 아야메쨩! 전투가 끝난 이후에 같이 다시 지어줄게. 더 크고 더 멋있고 더 튼튼한 백귀의 성~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			actor = 900213,
 			nameColor = "#a9f548",
-			say = "这次一定要加上地下暗道…！",
+			say = "이번에는 반드시 비밀 통로를 만들 것이다…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

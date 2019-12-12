@@ -204330,6 +204330,1034 @@ pg.ship_data_statistics = {
 			"Cleveland-Class"
 		}
 	},
+	[900801] = {
+		name = "白上吹雪",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 900801,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Shirakami Fubuki ",
+		skin_id = 10500010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			727,
+			35,
+			232,
+			82,
+			92,
+			80,
+			0,
+			70,
+			71,
+			40.8,
+			69,
+			122
+		},
+		attrs_growth = {
+			7195,
+			140,
+			924,
+			656,
+			368,
+			396,
+			0,
+			1032,
+			1044,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			7195,
+			325,
+			1151,
+			439,
+			870,
+			939,
+			0,
+			-602,
+			-709,
+			0,
+			0,
+			447
+		},
+		grades = {
+			"C",
+			"A",
+			"C",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			31040,
+			35240,
+			36140
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.25,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[900802] = {
+		name = "夏色祭",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 900802,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Natsuiro Matsuri ",
+		skin_id = 10500040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			700,
+			32,
+			224,
+			76,
+			0,
+			76,
+			0,
+			69,
+			71,
+			40.8,
+			87,
+			127
+		},
+		attrs_growth = {
+			6935,
+			128,
+			894,
+			604,
+			0,
+			378,
+			0,
+			1020,
+			1044,
+			0,
+			0,
+			504
+		},
+		attrs_growth_extra = {
+			6925,
+			300,
+			1111,
+			409,
+			0,
+			897,
+			0,
+			-598,
+			-759,
+			0,
+			0,
+			446
+		},
+		grades = {
+			"E",
+			"E",
+			"E",
+			"E",
+			"E",
+			"E"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			31040,
+			35240,
+			36140
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.25,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[900803] = {
+		name = "百鬼绫目",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 900803,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Nakiri Ayame ",
+		skin_id = 10500050,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1756,
+			107,
+			0,
+			91,
+			0,
+			64,
+			0,
+			37,
+			9,
+			26.4,
+			65,
+			0
+		},
+		attrs_growth = {
+			17385,
+			428,
+			0,
+			720,
+			0,
+			318,
+			0,
+			552,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			17385,
+			1012,
+			0,
+			495,
+			0,
+			755,
+			0,
+			-97,
+			1122,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"E",
+			"E",
+			"E",
+			"E"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			33060,
+			35240,
+			36540
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			0.55,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[900804] = {
+		name = "时乃空",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 900804,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Tokino Sora ",
+		skin_id = 10500020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			2626,
+			0,
+			0,
+			158,
+			199,
+			45,
+			0,
+			35,
+			11,
+			28,
+			46,
+			0
+		},
+		attrs_growth = {
+			26000,
+			0,
+			0,
+			1256,
+			792,
+			224,
+			0,
+			516,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			26000,
+			0,
+			0,
+			570,
+			1184,
+			534,
+			0,
+			-86,
+			767,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"E",
+			"E",
+			"E",
+			"E"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			37340,
+			39140,
+			38240
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.25,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[900805] = {
+		name = "紫咲诗音",
+		type = 6,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 900805,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Murasaki Shion ",
+		skin_id = 10500060,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			2056,
+			0,
+			0,
+			118,
+			144,
+			64,
+			0,
+			28,
+			19,
+			26,
+			85,
+			43
+		},
+		attrs_growth = {
+			20355,
+			0,
+			0,
+			932,
+			576,
+			318,
+			0,
+			420,
+			276,
+			0,
+			0,
+			170
+		},
+		attrs_growth_extra = {
+			20355,
+			0,
+			0,
+			617,
+			1175,
+			755,
+			0,
+			-75,
+			654,
+			0,
+			0,
+			264
+		},
+		grades = {
+			"E",
+			"E",
+			"E",
+			"E",
+			"E",
+			"E"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			37340,
+			38240,
+			36140
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.25,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[900806] = {
+		name = "大神澪",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 900806,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Ōkami Mio ",
+		skin_id = 10500070,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			2530,
+			0,
+			0,
+			134,
+			176,
+			43,
+			0,
+			35,
+			11,
+			26,
+			53,
+			0
+		},
+		attrs_growth = {
+			25055,
+			0,
+			0,
+			1060,
+			700,
+			216,
+			0,
+			516,
+			156,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			25045,
+			0,
+			0,
+			612,
+			1210,
+			504,
+			0,
+			-86,
+			774,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"E",
+			"E",
+			"E",
+			"E"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			37340,
+			39140,
+			38240
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.15,
+			1.15
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[900807] = {
+		name = "湊阿库娅",
+		type = 8,
+		personality = 2,
+		oxy_max = 268,
+		oxy_cost = 10,
+		huntingrange_level = 2,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 4,
+		rarity = 5,
+		ammo = 2,
+		id = 900807,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 22,
+		english_name = "Minato Aqua ",
+		skin_id = 10500030,
+		painting_dir = 1,
+		attack_duration = 1,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			668,
+			30,
+			258,
+			0,
+			0,
+			40,
+			0,
+			61,
+			10,
+			23.5,
+			64,
+			0
+		},
+		attrs_growth = {
+			6610,
+			122,
+			1028,
+			0,
+			0,
+			198,
+			0,
+			900,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			6610,
+			283,
+			1282,
+			0,
+			0,
+			470,
+			0,
+			-150,
+			776,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"E",
+			"E",
+			"E",
+			"E"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			15140,
+			15140,
+			31100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.25,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					2
+				},
+				{
+					-1,
+					0
+				},
+				{
+					1,
+					-1
+				},
+				{
+					2,
+					-2
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					1,
+					0
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-3,
+					0
+				}
+			},
+			{
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
 	[900907] = {
 		name = "시애틀 ",
 		type = 2,
@@ -214526,6 +215554,4118 @@ pg.ship_data_statistics = {
 			"KizunaAI"
 		}
 	},
+	[10500011] = {
+		name = "시라카미 후부키",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 10500011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Shirakami Fubuki ",
+		skin_id = 10500010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			295,
+			14,
+			93,
+			33,
+			37,
+			80,
+			0,
+			70,
+			71,
+			40.8,
+			69,
+			49
+		},
+		attrs_growth = {
+			7195,
+			140,
+			924,
+			656,
+			368,
+			396,
+			0,
+			1032,
+			1044,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"A",
+			"C",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			118
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.8,
+			1.3,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[10500012] = {
+		name = "시라카미 후부키",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 10500012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Shirakami Fubuki ",
+		skin_id = 10500010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			367,
+			18,
+			116,
+			41,
+			46,
+			80,
+			0,
+			70,
+			71,
+			40.8,
+			69,
+			61
+		},
+		attrs_growth = {
+			7195,
+			140,
+			924,
+			656,
+			368,
+			396,
+			0,
+			1032,
+			1044,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"A",
+			"C",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			118
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.8,
+			1.35,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[10500013] = {
+		name = "시라카미 후부키",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 10500013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Shirakami Fubuki ",
+		skin_id = 10500010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			511,
+			25,
+			162,
+			58,
+			65,
+			80,
+			0,
+			70,
+			71,
+			40.8,
+			69,
+			86
+		},
+		attrs_growth = {
+			7195,
+			140,
+			924,
+			656,
+			368,
+			396,
+			0,
+			1032,
+			1044,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"C",
+			"A",
+			"C",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			118
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.8,
+			1.45,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[10500014] = {
+		name = "시라카미 후부키",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 10500014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Shirakami Fubuki ",
+		skin_id = 10500010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			727,
+			35,
+			232,
+			82,
+			92,
+			80,
+			0,
+			70,
+			71,
+			40.8,
+			69,
+			122
+		},
+		attrs_growth = {
+			7195,
+			140,
+			924,
+			656,
+			368,
+			396,
+			0,
+			1032,
+			1044,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			7195,
+			325,
+			1151,
+			439,
+			870,
+			939,
+			0,
+			-602,
+			-709,
+			0,
+			0,
+			447
+		},
+		grades = {
+			"C",
+			"A",
+			"C",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			118
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.85,
+			1.5,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[10500021] = {
+		name = "토키노 소라",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 10500021,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Tokino Sora ",
+		skin_id = 10500020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1066,
+			0,
+			0,
+			64,
+			80,
+			45,
+			0,
+			35,
+			11,
+			28,
+			46,
+			0
+		},
+		attrs_growth = {
+			26000,
+			0,
+			0,
+			1256,
+			792,
+			224,
+			0,
+			516,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"S",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.1,
+			1.15
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[10500022] = {
+		name = "토키노 소라",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 10500022,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Tokino Sora ",
+		skin_id = 10500020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1326,
+			0,
+			0,
+			80,
+			100,
+			45,
+			0,
+			35,
+			11,
+			28,
+			46,
+			0
+		},
+		attrs_growth = {
+			26000,
+			0,
+			0,
+			1256,
+			792,
+			224,
+			0,
+			516,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"S",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.1,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[10500023] = {
+		name = "토키노 소라",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 10500023,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Tokino Sora ",
+		skin_id = 10500020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1846,
+			0,
+			0,
+			111,
+			139,
+			45,
+			0,
+			35,
+			11,
+			28,
+			46,
+			0
+		},
+		attrs_growth = {
+			26000,
+			0,
+			0,
+			1256,
+			792,
+			224,
+			0,
+			516,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"S",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.2,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[10500024] = {
+		name = "토키노 소라",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 10500024,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Tokino Sora ",
+		skin_id = 10500020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			2626,
+			0,
+			0,
+			158,
+			199,
+			45,
+			0,
+			35,
+			11,
+			28,
+			46,
+			0
+		},
+		attrs_growth = {
+			26000,
+			0,
+			0,
+			1256,
+			792,
+			224,
+			0,
+			516,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			26000,
+			0,
+			0,
+			570,
+			1184,
+			534,
+			0,
+			-86,
+			767,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"S",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.25,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[10500031] = {
+		name = "미나토 아쿠아",
+		type = 8,
+		personality = 2,
+		oxy_max = 268,
+		oxy_cost = 10,
+		huntingrange_level = 1,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 4,
+		rarity = 5,
+		ammo = 2,
+		id = 10500031,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 22,
+		english_name = "Minato Aqua ",
+		skin_id = 10500030,
+		painting_dir = 1,
+		attack_duration = 1,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			271,
+			12,
+			104,
+			0,
+			0,
+			40,
+			0,
+			61,
+			10,
+			18.8,
+			64,
+			0
+		},
+		attrs_growth = {
+			6610,
+			122,
+			1028,
+			0,
+			0,
+			198,
+			0,
+			900,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.1,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					2
+				},
+				{
+					-1,
+					0
+				},
+				{
+					1,
+					-1
+				},
+				{
+					2,
+					-2
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					1,
+					0
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-3,
+					0
+				}
+			},
+			{
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[10500032] = {
+		name = "미나토 아쿠아",
+		type = 8,
+		personality = 2,
+		oxy_max = 268,
+		oxy_cost = 10,
+		huntingrange_level = 1,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 4,
+		rarity = 5,
+		ammo = 2,
+		id = 10500032,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 22,
+		english_name = "Minato Aqua ",
+		skin_id = 10500030,
+		painting_dir = 1,
+		attack_duration = 1,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			337,
+			15,
+			130,
+			0,
+			0,
+			40,
+			0,
+			61,
+			10,
+			18.8,
+			64,
+			0
+		},
+		attrs_growth = {
+			6610,
+			122,
+			1028,
+			0,
+			0,
+			198,
+			0,
+			900,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.15,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					2
+				},
+				{
+					-1,
+					0
+				},
+				{
+					1,
+					-1
+				},
+				{
+					2,
+					-2
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					1,
+					0
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-3,
+					0
+				}
+			},
+			{
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[10500033] = {
+		name = "미나토 아쿠아",
+		type = 8,
+		personality = 2,
+		oxy_max = 268,
+		oxy_cost = 10,
+		huntingrange_level = 2,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 4,
+		rarity = 5,
+		ammo = 2,
+		id = 10500033,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 22,
+		english_name = "Minato Aqua ",
+		skin_id = 10500030,
+		painting_dir = 1,
+		attack_duration = 1,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			469,
+			21,
+			181,
+			0,
+			0,
+			40,
+			0,
+			61,
+			10,
+			18.8,
+			64,
+			0
+		},
+		attrs_growth = {
+			6610,
+			122,
+			1028,
+			0,
+			0,
+			198,
+			0,
+			900,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.15,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					2
+				},
+				{
+					-1,
+					0
+				},
+				{
+					1,
+					-1
+				},
+				{
+					2,
+					-2
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					1,
+					0
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-3,
+					0
+				}
+			},
+			{
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[10500034] = {
+		name = "미나토 아쿠아",
+		type = 8,
+		personality = 2,
+		oxy_max = 268,
+		oxy_cost = 10,
+		huntingrange_level = 2,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 4,
+		rarity = 5,
+		ammo = 2,
+		id = 10500034,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 22,
+		english_name = "Minato Aqua ",
+		skin_id = 10500030,
+		painting_dir = 1,
+		attack_duration = 1,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 8,
+		armor_type = 1,
+		attrs = {
+			668,
+			30,
+			258,
+			0,
+			0,
+			40,
+			0,
+			61,
+			10,
+			18.8,
+			64,
+			0
+		},
+		attrs_growth = {
+			6610,
+			122,
+			1028,
+			0,
+			0,
+			198,
+			0,
+			900,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			6610,
+			283,
+			1282,
+			0,
+			0,
+			470,
+			0,
+			-150,
+			776,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		lock = {
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			140,
+			140,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.25,
+			0.85
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					1
+				},
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-2
+				},
+				{
+					1,
+					1
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					2
+				},
+				{
+					-1,
+					0
+				},
+				{
+					1,
+					-1
+				},
+				{
+					2,
+					-2
+				}
+			},
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					1,
+					0
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-3,
+					0
+				}
+			},
+			{
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				}
+			}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[10500041] = {
+		name = "나츠이로 마츠리",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 10500041,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Natsuiro Matsuri ",
+		skin_id = 10500040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			284,
+			13,
+			90,
+			31,
+			0,
+			76,
+			0,
+			69,
+			71,
+			40.8,
+			87,
+			51
+		},
+		attrs_growth = {
+			6935,
+			128,
+			894,
+			604,
+			0,
+			378,
+			0,
+			1020,
+			1044,
+			0,
+			0,
+			504
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.05,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[10500042] = {
+		name = "나츠이로 마츠리",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 10500042,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Natsuiro Matsuri ",
+		skin_id = 10500040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			353,
+			16,
+			112,
+			39,
+			0,
+			76,
+			0,
+			69,
+			71,
+			40.8,
+			87,
+			64
+		},
+		attrs_growth = {
+			6935,
+			128,
+			894,
+			604,
+			0,
+			378,
+			0,
+			1020,
+			1044,
+			0,
+			0,
+			504
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.1,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[10500043] = {
+		name = "나츠이로 마츠리",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 10500043,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Natsuiro Matsuri ",
+		skin_id = 10500040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			492,
+			23,
+			157,
+			54,
+			0,
+			76,
+			0,
+			69,
+			71,
+			40.8,
+			87,
+			89
+		},
+		attrs_growth = {
+			6935,
+			128,
+			894,
+			604,
+			0,
+			378,
+			0,
+			1020,
+			1044,
+			0,
+			0,
+			504
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[10500044] = {
+		name = "나츠이로 마츠리",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 10500044,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Natsuiro Matsuri ",
+		skin_id = 10500040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			700,
+			32,
+			224,
+			76,
+			0,
+			76,
+			0,
+			69,
+			71,
+			40.8,
+			87,
+			127
+		},
+		attrs_growth = {
+			6935,
+			128,
+			894,
+			604,
+			0,
+			378,
+			0,
+			1020,
+			1044,
+			0,
+			0,
+			504
+		},
+		attrs_growth_extra = {
+			6925,
+			300,
+			1111,
+			409,
+			0,
+			897,
+			0,
+			-598,
+			-759,
+			0,
+			0,
+			446
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.25,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[10500051] = {
+		name = "나키리 아야메",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 10500051,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Nakiri Ayame ",
+		skin_id = 10500050,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			672,
+			43,
+			0,
+			37,
+			0,
+			64,
+			0,
+			37,
+			9,
+			26.4,
+			65,
+			0
+		},
+		attrs_growth = {
+			16385,
+			428,
+			0,
+			720,
+			0,
+			318,
+			0,
+			552,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.9,
+			0.5,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[10500052] = {
+		name = "나키리 아야메",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 10500052,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Nakiri Ayame ",
+		skin_id = 10500050,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			836,
+			54,
+			0,
+			46,
+			0,
+			64,
+			0,
+			37,
+			9,
+			26.4,
+			65,
+			0
+		},
+		attrs_growth = {
+			16385,
+			428,
+			0,
+			720,
+			0,
+			318,
+			0,
+			552,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			0.5,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[10500053] = {
+		name = "나키리 아야메",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 10500053,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Nakiri Ayame ",
+		skin_id = 10500050,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1164,
+			75,
+			0,
+			64,
+			0,
+			64,
+			0,
+			37,
+			9,
+			26.4,
+			65,
+			0
+		},
+		attrs_growth = {
+			16385,
+			428,
+			0,
+			720,
+			0,
+			318,
+			0,
+			552,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.5,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[10500054] = {
+		name = "나키리 아야메",
+		type = 3,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 10500054,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Nakiri Ayame ",
+		skin_id = 10500050,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1655,
+			107,
+			0,
+			91,
+			0,
+			64,
+			0,
+			37,
+			9,
+			26.4,
+			65,
+			0
+		},
+		attrs_growth = {
+			16385,
+			428,
+			0,
+			720,
+			0,
+			318,
+			0,
+			552,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			16385,
+			1012,
+			0,
+			495,
+			0,
+			755,
+			0,
+			-97,
+			1122,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"B",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			0.55,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[10500061] = {
+		name = "무라사키 시온",
+		type = 6,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 10500061,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Murasaki Shion ",
+		skin_id = 10500060,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			835,
+			0,
+			0,
+			48,
+			58,
+			64,
+			0,
+			28,
+			19,
+			26,
+			85,
+			17
+		},
+		attrs_growth = {
+			20355,
+			0,
+			0,
+			932,
+			576,
+			318,
+			0,
+			420,
+			276,
+			0,
+			0,
+			170
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"B",
+			"C",
+			"B",
+			"C"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			118,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.15,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[10500062] = {
+		name = "무라사키 시온",
+		type = 6,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 10500062,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Murasaki Shion ",
+		skin_id = 10500060,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1039,
+			0,
+			0,
+			60,
+			72,
+			64,
+			0,
+			28,
+			19,
+			26,
+			85,
+			21
+		},
+		attrs_growth = {
+			20355,
+			0,
+			0,
+			932,
+			576,
+			318,
+			0,
+			420,
+			276,
+			0,
+			0,
+			170
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"B",
+			"C",
+			"B",
+			"C"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			118,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.15,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[10500063] = {
+		name = "무라사키 시온",
+		type = 6,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 10500063,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Murasaki Shion ",
+		skin_id = 10500060,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1446,
+			0,
+			0,
+			83,
+			101,
+			64,
+			0,
+			28,
+			19,
+			26,
+			85,
+			30
+		},
+		attrs_growth = {
+			20355,
+			0,
+			0,
+			932,
+			576,
+			318,
+			0,
+			420,
+			276,
+			0,
+			0,
+			170
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"B",
+			"C",
+			"B",
+			"C"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			118,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.15,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[10500064] = {
+		name = "무라사키 시온",
+		type = 6,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 10500064,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Murasaki Shion ",
+		skin_id = 10500060,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			2056,
+			0,
+			0,
+			118,
+			144,
+			64,
+			0,
+			28,
+			19,
+			26,
+			85,
+			43
+		},
+		attrs_growth = {
+			20355,
+			0,
+			0,
+			932,
+			576,
+			318,
+			0,
+			420,
+			276,
+			0,
+			0,
+			170
+		},
+		attrs_growth_extra = {
+			20355,
+			0,
+			0,
+			617,
+			1175,
+			755,
+			0,
+			-75,
+			654,
+			0,
+			0,
+			264
+		},
+		grades = {
+			"E",
+			"E",
+			"B",
+			"C",
+			"B",
+			"C"
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			118,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.25,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[10500071] = {
+		name = "오오카미 미오",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 10500071,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Ōkami Mio ",
+		skin_id = 10500070,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1027,
+			0,
+			0,
+			54,
+			71,
+			43,
+			0,
+			35,
+			11,
+			26,
+			53,
+			0
+		},
+		attrs_growth = {
+			25055,
+			0,
+			0,
+			1060,
+			700,
+			216,
+			0,
+			516,
+			156,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"C",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.1,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[10500072] = {
+		name = "오오카미 미오",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 10500072,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Ōkami Mio ",
+		skin_id = 10500070,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1278,
+			0,
+			0,
+			67,
+			89,
+			43,
+			0,
+			35,
+			11,
+			26,
+			53,
+			0
+		},
+		attrs_growth = {
+			25055,
+			0,
+			0,
+			1060,
+			700,
+			216,
+			0,
+			516,
+			156,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"C",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.1,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[10500073] = {
+		name = "오오카미 미오",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 10500073,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Ōkami Mio ",
+		skin_id = 10500070,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1779,
+			0,
+			0,
+			94,
+			124,
+			43,
+			0,
+			35,
+			11,
+			26,
+			53,
+			0
+		},
+		attrs_growth = {
+			25055,
+			0,
+			0,
+			1060,
+			700,
+			216,
+			0,
+			516,
+			156,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"C",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.1,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
+	[10500074] = {
+		name = "오오카미 미오",
+		type = 7,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 10500074,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "Ōkami Mio ",
+		skin_id = 10500070,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 105,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			2530,
+			0,
+			0,
+			134,
+			176,
+			43,
+			0,
+			35,
+			11,
+			26,
+			53,
+			0
+		},
+		attrs_growth = {
+			25055,
+			0,
+			0,
+			1060,
+			700,
+			216,
+			0,
+			516,
+			156,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			25045,
+			0,
+			0,
+			612,
+			1210,
+			504,
+			0,
+			-86,
+			774,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"C",
+			"B"
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.15,
+			1.15
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"hololive"
+		}
+	},
 	[299011] = {
 		name = "넵튠",
 		type = 2,
@@ -222239,6 +227379,13 @@ pg.ship_data_statistics = {
 		900186,
 		900187,
 		900188,
+		900801,
+		900802,
+		900803,
+		900804,
+		900805,
+		900806,
+		900807,
 		900907,
 		900908,
 		900909,
@@ -222318,6 +227465,34 @@ pg.ship_data_statistics = {
 		10400042,
 		10400043,
 		10400044,
+		10500011,
+		10500012,
+		10500013,
+		10500014,
+		10500021,
+		10500022,
+		10500023,
+		10500024,
+		10500031,
+		10500032,
+		10500033,
+		10500034,
+		10500041,
+		10500042,
+		10500043,
+		10500044,
+		10500051,
+		10500052,
+		10500053,
+		10500054,
+		10500061,
+		10500062,
+		10500063,
+		10500064,
+		10500071,
+		10500072,
+		10500073,
+		10500074,
 		299011,
 		299012,
 		299013,

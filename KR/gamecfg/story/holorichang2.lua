@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"虚拟与现实的双向镜-日常篇\n\n<size=45>二 关于灵魂上的相似</size>",
+					"환상과 진실의 이중주-일상 편\n\n<size=45>2. 영혼의 유사성에 대하여</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "holo-shion",
 			actor = 900214,
 			nameColor = "#a9f548",
-			say = "吹雪酱，你的脸色很差哦，身体不舒服么？",
+			say = "후부키쨩, 안색이 좋지 않아. 어디 아파?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "不是那样的…就在刚刚，我可能猜到祭会把谁找来了……",
+			say = "아니… 왠지 마츠리가 누굴 데리고 올지 알 것 같아서……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			actor = 900211,
 			nameColor = "#a9f548",
-			say = "是很可怕的家伙吗？！！！！",
+			say = "엄청 무서운 녀석인 거야?!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "在某种意义上……很可怕…",
+			say = "어떤 의미에서는…… 무섭지…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			bgm = "holo-matsuri",
 			actor = 900212,
 			nameColor = "#a9f548",
-			say = "大家久等了~！祭把她带过来了哦！",
+			say = "오래 기다렸지~! 데리고 왔어!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "hololive的各位你们好，初次见面，我是来自重樱的{namecode:146}，从今往后还请多指教呢。",
+			say = "Hololive의 여러분, 안녕. 내는 사쿠라 엠파이어의 오오시오다. 앞으로 잘 부탁한다~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "哎？{namecode:146}……？",
+			say = "에? 오오시오……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			actor = 900212,
 			nameColor = "#a9f548",
-			say = "是{namecode:146}哦，吹雪以为我会把谁找来呢~",
+			say = "응, 오오시오야. 후부키는 내가 누굴 데리고 올 거라고 생각한 거야~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "那个...方舟之类的...咳咳，什么事也没有！",
+			say = "그… 아크 라던가… 흠흠, 아무것도 아니야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			actor = 900214,
 			nameColor = "#a9f548",
-			say = "这不是很普通的清纯美少女吗，和祭那种行走的荷尔蒙有哪里相似了？",
+			say = "오오시오, 평범하고 청순한 미소녀잖아. 대체 어디가 닮았다는 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "hololive的各位果然和传闻中的一样是十分出色的女性呢。",
+			say = "hololive의 모두는 듣던 대로 전부 엄청난 미녀라 안카나.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听说各入加入舰队时我就一直想要认识各位，祭小姐能给我这个机会实在是太好了。",
+			say = "니들이 함대에 가입했을 때부터 만나고 싶었다. 이게 다 마츠리 덕분이다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "（喂！吹雪…这个氛围，难道说……）",
+			say = "(저기! 후부키… 이 분위기, 설마……)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "（没错，就是那个“难道说”……）",
+			say = "(맞아. 바로 그 ‘설마’야……)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			actor = 900212,
 			nameColor = "#a9f548",
-			say = "{namecode:146}和祭一样，都是最喜欢世界上所有可爱的女孩子了！",
+			say = "오오시오는 마츠리처럼 귀여운 여자애들을 엄청 좋아해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			actor = 900211,
 			nameColor = "#a9f548",
-			say = ".........",
+			say = "……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			actor = 900214,
 			nameColor = "#a9f548",
-			say = "嗯...是很不妙的人呢",
+			say = "음… 좋지 않네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			actor = 900210,
 			nameColor = "#a9f548",
-			say = "咦，喜欢女孩子不是很…普通的事情么，为什么大家都是这种反应？",
+			say = "에, 여자애를 좋아하는 건 굉장히… 평범한 일이잖아. 다들 왜 그런 반응이야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "虽然是很普通的事，不过如果和祭酱一样的话，应该说是有点过度呢，还是说有点微妙呢…",
+			say = "평범한 일이지만 마츠리쨩과 같다면 약간 과하다고 해야 하나, 아니면 미묘하다고 해야하나…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			actor = 900210,
 			nameColor = "#a9f548",
-			say = "欸，欸欸欸欸欸？！",
+			say = "에, 에에에에에?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			bgName = "bg_story_room",
 			actor = 900212,
 			nameColor = "#a9f548",
-			say = "我们是在一次观察行动之中偶然认识的，然后就一见如故地成为好朋友啦。",
+			say = "관찰 활동 중 우연히 오오시오를 만났어. 그리고 친한 친구가 됐지!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -471,7 +471,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错~我和祭小姐在爱好上有很多相通之处呢。",
+			say = "맞다~ 마츠리하고는 통하는 게 엄청나게 많다~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			dir = 1,
 			actor = 900214,
 			nameColor = "#a9f548",
-			say = "没想到，这么清纯的美少女，竟然和祭有着类似的兴趣……",
+			say = "설마 이렇게 청순한 미소녀가 마츠리와 같은 취미를 가졌을 줄이야…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂等等，祭也是hololive首屈一指的清楚美少女好不好！美少女之间是会相互吸引的！所以，祭也最喜欢{namecode:146}了哦~",
+			say = "에, 잠깐. 마츠리도 hololive에서 손꼽히는 청초계 미소녀라고! 미소녀는 미소녀에게 끌린다! 그러니까 마츠리는 오오시오가 좋아~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			actor = 900214,
 			nameColor = "#a9f548",
-			say = "出现了，是“呼吸”发言！",
+			say = "시작됐다. 풍기문란!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			blackBg = true,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "祭酱真是比呼吸还频繁的出轨啊，一般人能做出这样的事来么....",
+			say = "마츠리쨩은 숨 쉬듯이 탈선을 하니까. 보통 사람은 이런 일을 하지는 않지……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

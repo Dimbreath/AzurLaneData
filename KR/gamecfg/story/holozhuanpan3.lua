@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "今天也干得很不错呢，很棒很棒~",
+			say = "오늘도 잘했어. 최고 최고~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

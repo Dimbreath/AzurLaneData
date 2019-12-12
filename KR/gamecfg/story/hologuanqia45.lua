@@ -8,13 +8,13 @@ return {
 		{
 			bgmDelay = 2,
 			side = 2,
-			actorName = "测试怪人",
+			actorName = "테스트 몬스터",
 			dir = 1,
 			blackBg = true,
 			stopbgm = true,
 			actor = 900011,
 			nameColor = "#ff5c5c",
-			say = "你也输了么…果然不论如何强化，“棋子”还是有极限的",
+			say = "너도 져버렸나… 아무리 강화해도 ‘장기말’에는 한계가 있는 것인가.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -40,8 +40,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 10500010,
-			actorName = "名侦探吹雪",
-			say = "咳咳咳…十分抱歉…",
+			actorName = "명탐정 후부키",
+			say = "흠흠흠… 죄송합니다…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,8 +57,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900011,
-			actorName = "测试怪人",
-			say = "无所谓了，最初也没指望你们能打赢。争取到了关键的时间也算任务完成了",
+			actorName = "테스트 몬스터",
+			say = "괜찮다. 어차피 이길 것을 바라지 않았어. 시간을 번 것 만으로도 충분하다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,8 +74,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900011,
-			actorName = "测试怪人",
-			say = "看看周围吧！终于，这片镜面海域的控制权都是我的了！更重要的是，连接世界交汇处的“门”已经重新开始充能了",
+			actorName = "테스트 몬스터",
+			say = "주변을 봐라! 드디어, 이 거울 해역의 통제권이 내 손에 들어왔다! 더 중요한 것은, 세계의 합류처를 연결하는 ‘문’이 에너지가 다시 차오르고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,8 +91,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900011,
-			actorName = "测试怪人",
-			say = "之前受损的“棋子”应该都快修好了，看看你这身伤…要是现在去做点应急处理，说不定还赶得上最终决战哦？",
+			actorName = "테스트 몬스터",
+			say = "상처 입은 ‘장기말’도 곧 회복될 것이다. 봐라… 응급 처치를 하면 최종 결전에 나갈 수 있지 않겠나?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,8 +108,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 10500010,
-			actorName = "名侦探吹雪",
-			say = "多谢您的关心…原来如此，控制权限终于…一切都和计划一样…",
+			actorName = "명탐정 후부키",
+			say = "감사합니다… 역시 통제 권한이 드디어… 모든 것은 계획대로…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,8 +125,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900011,
-			actorName = "测试怪人",
-			say = "嗯，你们确实成功拖延到我夺回权限的时候了。好了，快下去准备-------",
+			actorName = "테스트 몬스터",
+			say = "그래. 성공적인 지연 작전이었지. 좋아. 그렇다면 다음-------",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,8 +142,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900011,
-			actorName = "测试怪人",
-			say = "啊---啊啊啊啊aaaaaaaaa…………………",
+			actorName = "테스트 몬스터",
+			say = "아--- 아아아아아…………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "毫无预兆的，在一阵电流的噼啪声和浓密的烟雾过后，测试怪人倒在地上失去了反应",
+			say = "예고 없이 전기가 튀는 탁탁 소리와 함께 테스트 몬스터가 땅에 쓰러져 반응을 잃었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,8 +183,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 10500010,
-			actorName = "名侦探吹雪",
-			say = "一切都和计划中一样…是时候进行后续准备了。",
+			actorName = "명탐정 후부키",
+			say = "모든 것은 계획대로… 다음 준비를 할 시간이네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "holo-fbk",
-			say = "hololive本社大楼近海",
+			say = "hololive 본사 근해",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -231,7 +231,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "事到如今，我已经充分了解诸位的hololive服务器是一个多么神奇的地方,也不会为看到的每一件事都大惊小怪了",
+			say = "이제서야 hololive 서버가 얼마나 신기한 곳인지 깨달았어. 그러니까 일일히 놀라지 않을거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "不过--------这里又是什么地方啊！！！！！",
+			say = "하지만------- 여기는 또 뭔데!!!!!",
 			effects = {
 				{
 					active = true,
@@ -275,7 +275,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "放眼望去，层层叠叠的塔状小岛拱卫着一个五颜六色的方块构成的大型舞台，而舞台下方像矩阵一般整齐排列着成千上万个小火把",
+			say = "올려다 보니 탑 모양의 작은 섬들이 오색찬란한 사각 대형 무대를 둘러 싸고있었다. 그리고 무대 아래에는 수천 개의 횃불들이 가지런히 놓여 있었다.",
 			effects = {
 				{
 					active = false,
@@ -294,7 +294,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "从岛屿和舞台散发出五颜六色的光束交织在天空与海面上，空中还回荡着若有若无的音乐声",
+			say = "섬과 무대의 불빛이 하늘과 바다를 알록달록하게 물들였다. 공중에서는 마치 음악 소리가 들리는 듯 했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "整片区域仿佛异世界一般，散发出一种不属于这个时代的纷乱美感",
+			say = "모든 구역이 이세계처럼 변해 이곳과는 어울리지 않는 분위기를 연출했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z23，要在这里看Live么？",
+			say = "Z23, 여기서 라이브 봐야 하는 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我才不要在这么奇怪的地方看演出啊！!",
+			say = "이런 이상한 곳에서 라이브같은 건 안 해요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，你们也会开Live吗？",
+			say = "에, 너희도 라이브를 해?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……呃，偶尔吧，嗯，偶尔。",
+			say = "……윽, 가끔이요. 응, 가끔.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "上面写着holo…live，这里就是你们世界里进行偶像活动的…舞台区？",
+			say = "위에 holo…live라고 적혀있네요. 여기는 여러분의 세계에서 아이돌 활동을 하는… 무대인가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500040,
-			say = "这个是吹雪做的新holo岛舞台哦！镜面海域化之后完全变成地狱绘卷了啊…",
+			say = "이건 후부키가 만든 뉴 holo섬 무대야! 거울 해역이 되고 나니 완전 지옥처럼 변했네……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			actor = 10500010,
 			nameColor = "#a9f548",
-			say = "哇啊啊啊啊啊啊！这个怎么说呢…只是一时兴起的恶作剧…偶像活动什么的绝对和这里无关啦！",
+			say = "와아아아아! 어떻게 말해야 하지… 그냥 장난이었어. 아이돌 활동이라니, 나랑은 상관 없다고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（太好了，只差一点，我对偶像的定义也要崩坏了）",
+			say = "(다행이다. 아이돌의 정의가 무너질 뻔 했어요.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500020,
-			say = "不过之前也有和大家在这里跳过舞哦，五颜六色的舞台还挺可爱的~",
+			say = "하지만 모두와 같이 여기서 춤을 춘 적은 있으니까. 반짝반짝한 무대도 예쁘네~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500060,
-			say = "（空前辈果然完全不懂呢…）",
+			say = "(소라 선배, 역시 이해 못 했어…)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（没事没事，这样就好！）",
+			say = "(괜찮아, 괜찮아. 이걸로 충분해!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总而言之，这里的异常是塞壬引起的么，我理解了！",
+			say = "어쨌든 이것도 세이렌의 짓이라는 거지. 이해했어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500070,
-			say = "（{namecode:96}也完全没有理解哎…）",
+			say = "(즈이카쿠도 전혀 이해하지 못했어…)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500010,
-			say = "（这样就好啦！！）",
+			say = "(이거면 됐어!!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11140,6 +11140,167 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[10051] = {
+		nationality = 105,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		code = 10051,
+		type = 1,
+		index_id = 10051,
+		group_type = 1050001,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 환상과 진실의 이중주",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10052] = {
+		nationality = 105,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		code = 10052,
+		type = 7,
+		index_id = 10052,
+		group_type = 1050002,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 환상과 진실의 이중주",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10053] = {
+		nationality = 105,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		code = 10053,
+		type = 8,
+		index_id = 10053,
+		group_type = 1050003,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 환상과 진실의 이중주",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10054] = {
+		nationality = 105,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		code = 10054,
+		type = 1,
+		index_id = 10054,
+		group_type = 1050004,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 환상과 진실의 이중주",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10055] = {
+		nationality = 105,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		code = 10055,
+		type = 3,
+		index_id = 10055,
+		group_type = 1050005,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 환상과 진실의 이중주",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10056] = {
+		nationality = 105,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		code = 10056,
+		type = 6,
+		index_id = 10056,
+		group_type = 1050006,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 환상과 진실의 이중주",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10057] = {
+		nationality = 105,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		code = 10057,
+		type = 7,
+		index_id = 10057,
+		group_type = 1050007,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 환상과 진실의 이중주",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[20001] = {
 		nationality = 2,
 		hide = 0,
@@ -11801,6 +11962,13 @@ pg.ship_data_group = {
 		10042,
 		10043,
 		10044,
+		10051,
+		10052,
+		10053,
+		10054,
+		10055,
+		10056,
+		10057,
 		20001,
 		20002,
 		20003,

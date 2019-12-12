@@ -14,7 +14,7 @@ return {
 			bgm = "holo-fff",
 			actor = 10500010,
 			actorName = "DARK FOX BIZZARD",
-			say = "哈哈哈哈，历尽了千难万险到达此处的反抗军哦，吾名为DARK FOX BIZZARD，在此迎接各位的到来",
+			say = "하하하하, 드디어 왔구나 레지스탕스. 나는 다크 폭스 블리자드, 너희를 기다리고 있었다.",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "巨巨巨巨巨大化的吹雪？！",
+			say = "거거거거대화한 후부키?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你就是测试怪人手中的最后的底牌么",
+			say = "네가 바로 테스트 몬스터의 마지막 카드구나.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不对！装在上甲板两侧的是…测试者的主炮？！",
+			say = "아니 갑판 양쪽에 달린 것은… 테스터의 주포?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actorScale = 2,
 			actor = 10500010,
 			actorName = "DARK FOX BIZZARD",
-			say = "好眼力，不愧是{namecode:158}大人。测试怪人不过是我计划中的一个棋子，完成了任务之后因为太碍事，就被我处理掉了",
+			say = "눈썰미가 좋구나. 역시 카와카제. 테스트 몬스터는 내 계획의 장기말이었다. 임무를 완료한 뒤 처리해버렸지.",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬居然被自己生产的“棋子”解决了…？！",
+			say = "세이렌이 자기가 만든 ‘장기말'에게 처리당했다고요…?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,8 +125,8 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "哈哈哈，活该测试怪人！这么说只要把你打败了，战斗就结束了吧！",
+			actorName = "퓨리",
+			say = "하하하! 꼴 좋다! 그렇다는 건, 너를 처치하면 전투도 끝난다는 뜻이겠지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			actorScale = 2,
 			actor = 10500010,
 			actorName = "DARK FOX BIZZARD",
-			say = "哼哼哼，大家且慢，测试怪人有和你们拼个你死我活的打算，我可没有哦。",
+			say = "후후후, 서두르지 마라. 테스트 몬스터는 너희외 끝을 보려고 했지만 나는 아니니까.",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -165,7 +165,7 @@ return {
 			actorScale = 2,
 			actor = 10500010,
 			actorName = "DARK FOX BIZZARD",
-			say = "我的计划是允许你们存在的！毕竟我的计划比测试怪人的更加伟大嘛！",
+			say = "나의 계획에서 너희는 허락 받았다! 나의 계획은 테스트 몬스터의 것보다 더 위대하니까!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有点无法理解…",
+			say = "이해가 안 돼…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			actorScale = 2,
 			actor = 10500010,
 			actorName = "DARK FOX BIZZARD",
-			say = "这个镜面海域因为偶然连接到了异世界，其中的状况貌似对塞壬来说也明显出现了异常。正因为如此我才能存在在这里！",
+			say = "이 거울 해역은 우연히 이세계와 연결이 되었지. 그 덕분에 세이렌에게도 이상 현상이 일어났다. 바로 내 존재처럼 말이야!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -224,7 +224,7 @@ return {
 			actorScale = 2,
 			actor = 10500010,
 			actorName = "DARK FOX BIZZARD",
-			say = "仔细看看周围吧。只要拥有本社大楼内的众多塞壬的科技结晶！有了这些，我想制造出多少“棋子”都没有问题！",
+			say = "주변을 봐라. 본사 건물에 있는 수많은 세이렌 기술의 결정체! 이것만 있으면 ‘장기말’을 만들어 내는 것도 문제는 아니지!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -246,7 +246,7 @@ return {
 			actorScale = 2,
 			actor = 10500010,
 			actorName = "DARK FOX BIZZARD",
-			say = "“棋子”可是很棒哦，不但可以分担工作，还能更长时间的陪伴观众。况且只要人数增加的话，快乐也会增加吧。",
+			say = "‘장기말’은 대단해. 일도 할 수 있고, 시청자가 될 수도 있지. 인원 수가 늘어나면 즐거움도 더 커지고.",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -268,7 +268,7 @@ return {
 			actorScale = 2,
 			actor = 10500010,
 			actorName = "DARK FOX BIZZARD",
-			say = "与此同时，利用不同属性的“棋子”满足不同属性的观众，抢占了市场份额，收益化自不用说，预算也是想要多少就有多少了！科学的力量真棒啊~",
+			say = "그리고 다른 속성의 ‘장기말’을 사용하면 다른 시청자들을 만족시킬 수도 있다. 시장을 점령할 수 있다는 거다! 수익은 말할 것도 없고, 하고싶은 걸 다 할 수 있지! 과학이란 참 대단해~~",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -290,7 +290,7 @@ return {
 			actorScale = 2,
 			actor = 10500010,
 			actorName = "DARK FOX BIZZARD",
-			say = "能想出这些的我简直是天才啊，啊哈哈哈哈哈",
+			say = "이런 계획을 생각해내다니, 역시 나는 천재야. 아하하하하.",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -309,7 +309,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难道是想要自己独占镜面海域……！？",
+			say = "설마 이 거울 해역을 독점할 생각인가요……?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			actorScale = 2,
 			actor = 10500010,
 			actorName = "DARK FOX BIZZARD",
-			say = "才不只是这些。“棋子”的生产，气象的控制，平行世界的观测以及未来的演算——只要这个镜面海域能维持……不，能够扩大到覆盖整个世界的话，我就能够支配所有人了！",
+			say = "그것 뿐만이 아니지. ‘장기말의’ 생산, 날씨 조종, 평행 세계의 관측과 미래의 예측—— 거울 해역이 유지만…… 아니, 모든 세계를 덮어버린다면 전부 다 지배할 수 있어!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -348,7 +348,7 @@ return {
 			actorScale = 2,
 			actor = 10500010,
 			actorName = "DARK FOX BIZZARD",
-			say = "到那个时候，人类的所有娱乐都在hololive本社的掌握下。我也能君临所有Vtuber之上！",
+			say = "그 때가 되면 인간의 모든 엔터테인먼트도 hololive의 손에 들어온다. 내가 모든 브이튜버 위에 군림하는 거야!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -369,7 +369,7 @@ return {
 			actorScale = 2,
 			actor = 10500010,
 			actorName = "DARK FOX BIZZARD",
-			say = "至于你们这些舰船和不是“棋子”的Vtuber，你们也不用担心自己失去工作——",
+			say = "너희 함선들은 ‘장기말'인 브이튜버는 아니지만, 실직할 염려는 하지 않아도 된다——",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -391,7 +391,7 @@ return {
 			actorScale = 2,
 			actor = 10500010,
 			actorName = "DARK FOX BIZZARD",
-			say = "在我日更的“永久更新定番企划”里面，你们会一直和塞壬战斗下去，直到永远！哈哈哈哈哈！",
+			say = "나의 ‘영구 업데이트 순번 계획’ 안에서 너희는 계속 세이렌과 싸우면 되니까, 영원히! 하하하하!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -410,7 +410,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这家伙完全暴走了啊！……果然塞壬的技术太危险了！",
+			say = "완전 폭주하고 있잖아! …… 역시 세이렌의 기술은 위험해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "把整个世界用镜面海域包裹起来，支配全人类……这种野心不能放任下去！",
+			say = "모든 세계를 거울 해역으로 만들어서 인간을 지배하겠다니…… 이 야심, 그냥 두고 볼수가 없어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500010,
-			say = "但、但是对面一个人还好，如果她把之前那堆“棋子”都召唤出来了怎么办……啊啊啊啊！这就是中二狐发展到极限后的样子么…",
+			say = "하, 하지만 혼자가 아니라 ‘장기말’을 전부 소환하면 어떡하지…… 아아아아! 이게 바로 중2병 여우의 말로인가…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500040,
-			say = "吹雪，还有大家，先等一下！这里交给我吧！",
+			say = "후부키, 모두. 잠시만! 여기는 나에게 맡겨줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500040,
-			say = "DARK FOX BIZZARD，你的想法我完全理解了！",
+			say = "다크 폭스 블리자드, 너의 생각은 전부 알았어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500040,
-			say = "但是，在你的计划里面有一个致命的破绽！那就是你制造的“棋子”会和你一样有自己独立的思想！",
+			say = "하지만 네 계획에는 치명적인 약점이 있어! 바로 네가 만든 ‘장기말’들이 너처럼 독립적인 사고를 가지게 된다는 점이지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500040,
-			say = "“山田赫敏”“澪川依代”、名字里带空格的两个人、还有化为抖S的空前辈……",
+			say = "‘야마다 헤르미온느’, ‘미오카와 이이요’, 이름에 띄어쓰기가 있는 두 사람과 도S 소라 선배까지……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			say = "如果她们也有机会成为像你一样的存在的话，是不会安心当你的部下为你所用的！",
+			say = "만약 그들이 모두 너와 같은 존재가 된다면, 안심할 수 없을거야!",
 			effects = {
 				{
 					active = true,
@@ -545,7 +545,7 @@ return {
 			actorScale = 2,
 			nameColor = "#ff5c5c",
 			actorName = "DARK FOX BIZZARD",
-			say = "……！啊，说起来确实是这样！我居然忘了！",
+			say = "……! 아, 확실히 그렇구나. 잊고 있었어.",
 			effects = {
 				{
 					active = false,
@@ -582,7 +582,7 @@ return {
 			actorScale = 2,
 			actor = 10500010,
 			actorName = "DARK FOX BIZZARD",
-			say = "哼哼，虽然你马上发觉了我计划的弱点，但是我会立刻修复它！“棋子”们，出来吧！",
+			say = "후후, 내 계획의 약점을 바로 찾아냈지만, 바로 고칠 수 있지! ‘장기말’들아, 나와라!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -603,7 +603,7 @@ return {
 			actorScale = 2,
 			actor = 10500010,
 			actorName = "DARK FOX BIZZARD",
-			say = "呃，这里应该是这样修复一下数据库，然后把“棋子”的人格信息重置……嗯，就这样！",
+			say = "윽, 여기는 이렇게 데이터를 고치고, ‘장기말’의 인격을 다시 세팅하면…… 응, 이렇게!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -622,7 +622,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500030,
-			actorName = "山田·赫敏",
+			actorName = "야마다·헤르미온느",
 			say = "………………",
 			typewriter = {
 				speed = 0.05,
@@ -647,7 +647,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500040,
-			actorName = "夏 色 祭",
+			actorName = "나 츠 이 로 마 츠 리",
 			say = "………………",
 			typewriter = {
 				speed = 0.05,
@@ -672,7 +672,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“棋子”们居然一个接一个的倒下了……？",
+			say = "‘장기말’들이 쓰러지고 있어요……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,7 +690,7 @@ return {
 			actorScale = 2,
 			actor = 10500010,
 			actorName = "DARK FOX BIZZARD",
-			say = "啊啊！糟了！这些“棋子”删除了人格信息的话，不就只是不会动的立绘和模型了么！",
+			say = "아아! 망했다! ‘장기말’ 들의 인격 데이터가 사라지면 모델을 유지할 수가 없어!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -720,7 +720,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500010,
-			say = "还真是这样！所有“棋子”都不动了！",
+			say = "그렇구나! 모든 ‘장기말’들이 움직이지 않아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -735,7 +735,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "DARK FOX BIZZARD，现在你明白了吧！",
+			say = "다크 폭스 블리자드, 이제 알았지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -751,7 +751,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500010,
-			say = "向他人强加自己的野心，不重视别人的想法的你，就算造出再多的“棋子”也是无法让世界幸福的！",
+			say = "자신의 야심을 다른 사람들에게 강요하고, 다른 사람의 생각을 존중하지 않으면 ‘장기말’을 아무리 많이 만들어내도 절대 행복해질 수 없어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -769,7 +769,7 @@ return {
 			actorScale = 2,
 			actor = 10500010,
 			actorName = "DARK FOX BIZZARD",
-			say = "额……可是我……只要我还有hololive本社的力量……！",
+			say = "윽…… 하지만 나는…… 나와 hololive 본사의 힘만 있으면……!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -789,7 +789,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500010,
-			say = "不是这样的！hololive是不能靠一个人撑起来的！",
+			say = "아니야! hololive는 너 혼자서 만들어 낼 수 없어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -804,7 +804,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "画师的爸爸妈妈这样的创作者、制作成员、还有观众们……只有大家一起互动，才有了我们hololive的活动啊！",
+			say = "부모님과 같은 디자이너, 스태프, 그리고 시청자…… 모두의 힘이 있어야 hololive도 있는거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -822,7 +822,7 @@ return {
 			actorScale = 2,
 			actor = 10500010,
 			actorName = "DARK FOX BIZZARD",
-			say = "……………交涉决裂了么。那么，你们就在此被毁灭吧",
+			say = "……교섭 결렬이다. 그렇다면 여기서 사라지도록 해.",
 			actorPosition = {
 				x = 150,
 				y = -400

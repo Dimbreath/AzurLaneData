@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			bgm = "holo-fbk",
 			nameColor = "#a9f548",
-			say = "祭，前面没路了",
+			say = "마츠리, 길이 없어요.",
 			effects = {
 				{
 					active = true,
@@ -32,7 +32,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "轨道的终点建筑是一个…饭团？",
+			say = "궤도의 종착점은… 주먹밥?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			say = "饭团…？！！！不妙，不妙，不妙，不妙！那个不是饭团而是岩浆湖啊！！！！！！！！！！！",
+			say = "주먹밥…?!!! 큰일이야, 큰일. 큰일이라구! 저건 주먹밥 아래의 용암 호수잖아!!!!!!!!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500040,
-			say = "哎？刚才的地图上看到线路不是通向这里的，祭还以为是因为服务器变化导致的呢！",
+			say = "에? 방금 지도에서 봤을 때 목적지는 여기가 아니었는데. 서버가 바뀐 거구나!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500010,
-			say = "敌人的连环陷阱么…！如果在这种高度和速度跳车的话…",
+			say = "적이 파놓은 함정인가…! 이 높이와 속도에서 뛰어 내린다면…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			side = 2,
-			say = "{namecode:96}！",
+			say = "즈이카쿠!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "舰载机还需要准备时间！",
+			say = "함재기를 준비하려면 시간이 필요해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,8 +140,8 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "啧，大家不要慌，抓住我的舰装，准备跳车！",
+			actorName = "퓨리",
+			say = "쯧, 당황하지 마. 내 장비를 꼭 잡으라고. 뛰어 내린다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			actorName = "众人",
+			actorName = "모두들",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！",
+			say = "와아아아아아아아아아아아악!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgm = "holo-inochi-inst",
 			actor = 10500070,
 			nameColor = "#a9f548",
-			say = "舰装变成了巨大飞行器接住了所有人？！",
+			say = "장비가 거대한 비행물체로 변해서 모두를 태웠어?!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -211,8 +211,8 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "净化亲",
-			say = "本来是之前给你们制作舰装的时候，突发奇想做的改造，没想到能在这里派上用场。",
+			actorName = "퓨리",
+			say = "너희에게 장비를 만들어 주려고 할 때 생각이 나서 개조했지. 이렇게 쓰일 줄은 몰랐네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "净化亲，了不起",
+			say = "퓨리, 대단해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,8 +242,8 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900021,
-			actorName = "净化亲",
-			say = "哼哼哼，再多夸夸我也不要紧哦~",
+			actorName = "퓨리",
+			say = "흥흥흥. 더 칭찬해도 괜찮다구~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然被塞壬给救了…这下回去要怎么写报告才好啊…",
+			say = "세이렌에게 구해지다니… 보고서를 어떻게 써야할지…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "空中移动，过于危险…大家都没事吧？",
+			say = "공중으로 이동하는 것은 위험하군… 모두 괜찮아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500020,
-			say = "大家都没事哦，不过过山车已经彻底消失在岩浆里了…",
+			say = "괜찮아. 하지만 제트 코스터가 용암에 빠져버렸네…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从现在地图上来看，前方是一堵巨大的壁画…墙？再之后就是本社大楼的位置了",
+			say = "지도 상으로 보면 앞에 있는건 거대한 벽…화? 그 뒤에 있는게 본사 건물이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个壁画，是不是和之前服务器里的不太一样？",
+			say = "저 벽화, 이전 서버에 있던 것과 다르지 않아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			actor = 10500050,
 			nameColor = "#a9f548",
-			say = "图案变成了穿戴舰装的空前辈？！",
+			say = "벽화가 장비를 가진 소라 선배로 바뀌었다?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500040,
-			say = "塞壬那边的“祭”，在这方面的细节上很讲究呢",
+			say = "세이렌의 ‘마츠리’도 꽤나 공을 들였네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然，和迄今为止我们遭遇过的“棋子”都不一样",
+			say = "역시, 지금까지 만났던 ‘장기말’들과는 다르네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500060,
-			say = "把她们当成单纯的兵器果然还是很微妙啊…",
+			say = "단순한 병기로 취급하기에는 조금 미묘하네…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "消灭塞壬是我们作为舰船的职责，不会强迫你们动手的。",
+			say = "세이렌을 처치하는 것은 우리의 일이야. 너희에게 강요하지는 않겠어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500050,
-			say = "唔…是余等的态度一直不够坚定，是时候正视一下这个问题了……",
+			say = "음… 짐의 태도가 정확하지 않기는 했지만, 드디어 이 문제에 직면했구나……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500070,
-			say = "往好处想的话，如果只要打倒塞壬头目就能解决问题的话，也许还有避开和她们的战斗，直捣黄龙的可能性！",
+			say = "좋게 생각하자. 세이렌의 리더를 처리하면 전투를 피할 수 있지 않을까? 심장을 직접 공격하는 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我之前说过，带着这种迷茫和侥幸的心情和塞壬战斗，是很危险的",
+			say = "전에도 말했지만 이런 요행을 바라는 마음으로 세이렌과의 전투에 임하는 것은 위험해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500020,
-			say = "虽然我也有些犹豫……但是我不会迷茫了。如果将她们彻底击败是带领大家平安离开的必要条件，我会…动手",
+			say = "나도 망설이긴 했지만…… 더이상 흔들리지 않겠어. 만약 그들을 처치하는 것이 모두를 안전하게 하는 조건이라면, 나는… 할 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500030,
-			say = "哼哼哼，不过是敌人心理战的一环，我早就在游戏里身经百战了，余裕余裕~如果大家下不了手的话，就交给本阿库娅大人去做吧！",
+			say = "흥흥흥, 역시 적들의 심리적 전술아네. 이미 게임 속에서 몇 번이나 겪어봤어. 여유, 여유~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500030,
-			say = "如果大家下不了手的话，就交给本阿库娅大人去做吧！",
+			say = "모두가 할 수 없다면 아쿠아님에게 맡겨달라고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500010,
-			say = "我的话……咦，祭酱？",
+			say = "나는… 에, 마츠리쨩?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500040,
-			say = "唔唔…祭也许有一个想法",
+			say = "우우… 마츠리에게 방법이 있을지도.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

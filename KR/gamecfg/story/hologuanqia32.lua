@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "好弱…",
+			say = "약해…",
 			bgm = "holo-matsuri",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是好顽强…不论打倒多少次，还是会精神饱满的贴上来！",
+			say = "하지만 끈질기네요… 몇번을 쓰러뜨려도 정신력으로 일어나고 있어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,8 +42,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 10500040,
-			actorName = "夏 色 祭",
-			say = "斯哈…斯哈…斯哈（战术换气）",
+			actorName = "나 츠 이 로 마 츠 리",
+			say = "습하… 습하… 습하 (전술 변경)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,8 +59,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 10500040,
-			actorName = "夏 色 祭",
-			say = "好不容易诞生在这个充满美少女的世界上，祭可不能倒在这里啊！",
+			actorName = "나 츠 이 로 마 츠 리",
+			say = "미소녀가 한가득인 세계에서 모처럼 태어났는데, 여기서 쓰러질 수는 없어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 10500010,
-			say = "祭酱，加油啊！",
+			say = "마츠리쨩, 힘내!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,8 +103,8 @@ return {
 			actor = 10500040,
 			dir = 1,
 			hideOther = true,
-			actorName = "夏色祭&夏 色 祭",
-			say = "哦哦哦！！",
+			actorName = "나츠이로 마츠리&나 츠 이 로 마 츠 리",
+			say = "오오오!",
 			effects = {
 				{
 					active = true,
@@ -135,7 +135,7 @@ return {
 			dir = -1,
 			actor = 10500050,
 			nameColor = "#a9f548",
-			say = "吹雪的应援对双方都产生了效果？！",
+			say = "후부키의 응원이 양쪽 모두에게 효과가 있었다?!",
 			effects = {
 				{
 					active = false,
@@ -157,8 +157,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 10500040,
-			actorName = "夏 色 祭",
-			say = "哦哦哦啊啊啊啊啊啊！！！",
+			actorName = "나 츠 이 로 마 츠 리",
+			say = "오오오오오오오!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "唔…？对敌方的激励效果好像更明显…",
+			say = "에…? 적에게 효과가 더 좋은 것 같아…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 10500010,
-			say = "欸…欸？！！",
+			say = "에…에?!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,8 +215,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 10500040,
-			actorName = "夏 色 祭",
-			say = "FUBUKI↓FUBUKI↑FUBUKI↑FUBUKI!!!!!啊啊，啊啊啊啊！",
+			actorName = "나 츠 이 로 마 츠 리",
+			say = "후부킹↓ 후부킹↑ 후부킹↑ 후부킹!!!!! 아아, 아아아아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			say = "停！！一！！！下！！！！啊！！！！！",
+			say = "멈!! 추!!! 라!!!! 고!!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 10500040,
-			say = "可恶的塞壬…！迫害也要分清地点和场合啊！！！",
+			say = "망할 세이렌…! 날뛰는 것도 때와 장소를 가려!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 10500040,
-			say = "明明还有祭妹啊，拉拉队员啊，这么多出色的人设可以选！为什么偏偏是这一个啊！！！！",
+			say = "나츠쨩이라거나, 치어리더라거나…많은데 왜 하필 저거냔 말이야! 왜 그걸 고른건데!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "吹雪，你喜欢夏色祭么？",
+			say = "후부키, 나츠이로 마츠리를 좋아해?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500010,
-			say = "哎，拉菲酱？怎么突然说起……原来如此",
+			say = "에, 라피쨩? 갑자기 그건 왜… 그렇구나.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500010,
-			say = "祭，喜欢你哦。",
+			say = "마츠리, 좋아해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,8 +347,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 10500040,
-			actorName = "夏 色 祭",
-			say = "！！！！",
+			actorName = "나 츠 이 로 마 츠 리",
+			say = "!!!!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -368,7 +368,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "敌人…石化了",
+			say = "적이… 굳었어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有破绽，就是现在！",
+			say = "틈이예요. 바로 지금!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			}
 		},
 		{
-			say = "趁着敌方行动停止的间隙，{namecode:158}干净利落的一击解决了战斗",
+			say = "적이 행동을 멈춘 틈을 타 카와카제가 일격으로 전투를 마무리했다.",
 			side = 2,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			actor = 401230,
 			nameColor = "#a9f548",
-			say = "果然还是和之前一样…敌方反应在白光中消失了。",
+			say = "이전과 같네요… 빛에 휩싸여서 사라졌어요.",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -448,7 +448,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500050,
-			say = "周边无其他敌方信号反应，雷达，是这么看的吧…",
+			say = "주변에 다른 적 반응은 없다. 레이더는, 이렇게 보는 것인가…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500010,
-			say = "大家继续前进吧~带路就麻烦祭了哦…祭酱？",
+			say = "계속 가자~ 길 안내는 마츠리에게… 마츠리쨩?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这边的祭也石化了啊……",
+			say = "이쪽의 마츠리도 굳어버렸네요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

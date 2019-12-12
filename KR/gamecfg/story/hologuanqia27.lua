@@ -13,7 +13,7 @@ return {
 			bgm = "holo-control",
 			actor = 10500070,
 			actorName = "？？？",
-			say = "迷途之人，果然和占卜的结果一样，不论怎么阻挠都终将抵达这里么…",
+			say = "점괘의 결과처럼 역시 막아도 막아도 계속 오는 건가…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,8 +29,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = -1,
 			actor = 10500070,
-			actorName = "澪川依代",
-			say = "既然如此，欢迎来到我的占卜馆，我是占卜师澪川依代，也以知性之澪为人所知。",
+			actorName = "미오카와 이이요",
+			say = "어쨌든 내 점술관에 온 것을 환영해. 나는 점술가 미오카와 이이요, 지적인 미오로도 알려져 있지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			dir = 1,
 			actor = 10500010,
 			nameColor = "#a9f548",
-			say = "塞壬居然复制了…大家在玩TRPG时候的角色卡？！",
+			say = "세이렌이… 저 캐릭터 카드를 복사했어?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 0,
 			dir = -1,
 			actor = 10500050,
-			say = "刚才看到盘子印记的那一刻，余就有种隐约会是这样展开的预感了…",
+			say = "룰렛을 본 순간, 짐은 이럴 거란 예감이 들었다…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 10500070,
-			say = "投降吧，另一个我，面对这么多人，你没有胜算的。",
+			say = "항복해, 또 다른 나. 너에게는 승산이 없어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,8 +104,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = -1,
 			actor = 10500070,
-			actorName = "澪川依代",
-			say = "其实我也是想这么做的……",
+			actorName = "미오카와 이이요",
+			say = "‘봐주지 말고 전력을 다해서 싸워.’",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,8 +121,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = -1,
 			actor = 10500070,
-			actorName = "澪川依代",
-			say = "可是时间与空间的支配者的命令，没办那么做啊…",
+			actorName = "미오카와 이이요",
+			say = "나도 시간과 공간의 지배자에게 부탁을 받았기 때문에, 쉽게 너희를 보내줄 수는 없어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,8 +138,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = -1,
 			actor = 10500070,
-			actorName = "澪川依代",
-			say = "而且还说了些什么“不要手下留情，尽全力去战斗”…所以我必须要打倒你们，对不起",
+			actorName = "미오카와 이이요",
+			say = "전투의 숙명은 이미 정해진 것, 운명의 수레바퀴가 돌아가기 시작했어-----",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "多说无益-----！",
+			say = "말이 많다-----!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "只一瞬间，在敌人摆出攻击架势之前，{namecode:158}已经突进到敌人面前先手挥下了手中的直刀",
+			say = "적이 공격을 취하기 전, 카와카제는 한발 앞서 검을 휘둘렀다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "刀锋在空中划出一道优美又凛冽的轨迹",
+			say = "검날이 공중에서 아름다운 궤적을 그렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（得手了…！）",
+			say = "(됐다…!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "就在{namecode:158}这么认为时，“撒拉”传来了一声清脆的破碎声",
+			say = "카와카제가 그렇게 생각했을 때, ‘파삭’하는 파열음이 들렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,8 +233,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = -1,
 			actor = 10500070,
-			actorName = "澪川依代",
-			say = "没用的哦…",
+			actorName = "미오카와 이이요",
+			say = "소용 없어.…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			actor = 10500020,
 			nameColor = "#a9f548",
-			say = "通过摔碎盘子抵消了{namecode:158}酱的攻击？！",
+			say = "부숴진 룰렛으로 카와카제쨩의 공격을 막았어?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 10500070,
-			say = "毕竟依代酱是盘之占卜师呢…",
+			say = "이이요쨩도 타로 점술사니까…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啧，这样的话-----",
+			say = "쯧, 그렇다면-----",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "意识到攻击失手的{namecode:158}，快速拉开距离，向敌人发出一束鱼雷，然而…",
+			say = "공격이 실패했다는 것을 깨달은 카와카제는 거리를 벌려 상대에게 어뢰를 날렸다. 하지만…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			actor = 10500020,
 			nameColor = "#a9f548",
-			say = "这次是直接用盘子击碎了水中的鱼雷？！",
+			say = "이번에는 룰렛으로 어뢰를 처리했어?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			actor = 10500070,
 			nameColor = "#a9f548",
-			say = "依代酱貌似拥有75点投掷呢………",
+			say = "투척 점수가 75점이니까……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 10500010,
-			say = "澪酱…为什么当初要加这么多奇怪的设定啊…",
+			say = "미오쨩… 왜 그런 이상한 설정을 넣어둔 거야…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			actor = 10500070,
 			nameColor = "#a9f548",
-			say = "本来就是只登场一次的角色，没有考虑过会出现这种状况啊！",
+			say = "나도 이이요쨩과 맞서게 될 줄은 몰랐다고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:158}小心！",
+			say = "카와카제, 조심해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			}
 		},
 		{
-			say = "轰----！",
+			say = "펑----!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
@@ -492,7 +492,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "就在{namecode:158}专注瞄准眼前的敌人时，不知何时潜伏在暗处的另一个敌人发动了偷袭。",
+			say = "카와카제가 눈 앞의 적에게 집중했을 때, 어디선가 또 다른 적이 기습해왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			side = 2,
 			dir = -1,
 			actor = 10500020,
-			say = "休想得逞！",
+			say = "그렇게는 안 돼!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			dir = 1,
 			actor = 10500010,
 			nameColor = "#a9f548",
-			say = "空前辈！！！",
+			say = "소라 선배!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "千钧一发之际，时乃空推开{namecode:158}，用舰装挡住袭来的炮弹",
+			say = "일촉즉발의 상황에 토키노 소라가 카와카제를 밀어내고 장비로 포탄을 막아냈다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500020,
-			say = "没…没事！净化亲做的盾牌还是蛮坚固的…帮大忙了！",
+			say = "괜…괜찮아! 퓨리가 만들어준 방패, 굉장히 튼튼하네… 덕분에 살았어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "不胜感激…",
+			say = "고마워…",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -598,7 +598,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 10500020,
-			say = "守护大家的安全是我的职责，我不会让你伤害她们的！",
+			say = "모두를 지키는게 내가 할 일이야. 절대로 다치게 두지 않겠어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			dir = 1,
 			actor = 10500050,
 			actorName = "？？？",
-			say = "切，被挡住了么",
+			say = "쳇, 막혔나.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,8 +631,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = -1,
 			actor = 10500070,
-			actorName = "澪川依代",
-			say = "总算及时赶到了啊，奈切酱",
+			actorName = "미오카와 이이요",
+			say = "제때 왔구나. 나키리쨩.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,8 +648,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 10500050,
-			actorName = "燕子花奈切",
-			say = "呵呵，对面的敌人，初次见面，余名叫燕子花奈切，如你们所见，只是一名柔弱的女子高中生罢了",
+			actorName = "제비붓꽃 나키리",
+			say = "후후, 짐의 이름은 제비붓꽃 나키리. 보다시피 연약한 여고생이지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -662,7 +662,7 @@ return {
 		{
 			expression = 2,
 			side = 0,
-			say = "大家不要被骗了！燕子花奈切虽然看起来弱不经风，可是实际上是拥有足足70点拳击能力的筋肉大小姐啊！",
+			say = "속지 마! 제비붓꽃 나키리는 굉장히 연약해보이지만, 격투 능력이 70점인 근육 소녀라고!",
 			dir = 1,
 			actor = 10500010,
 			nameColor = "#a9f548",
@@ -695,8 +695,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 10500050,
-			actorName = "燕子花奈切",
-			say = "你在说什么，余可是完全不知道哦~",
+			actorName = "제비붓꽃 나키리",
+			say = "뭐라는 건지 짐은 전혀 모르겠구나~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,8 +712,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 10500050,
-			actorName = "燕子花奈切",
-			say = "依代酱别发呆了，一起上咯！",
+			actorName = "제비붓꽃 나키리",
+			say = "이이요쨩, 정신차려. 가자!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,

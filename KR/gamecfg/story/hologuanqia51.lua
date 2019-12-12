@@ -13,7 +13,7 @@ return {
 			bgm = "holo-tokiwa",
 			actor = 301050,
 			nameColor = "#a9f548",
-			say = "净化亲，消失了……",
+			say = "퓨리, 사라졌어요……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,7 +30,7 @@ return {
 			dir = 1,
 			actor = 10500020,
 			nameColor = "#a9f548",
-			say = "这次是真正的，彻底结束了么…",
+			say = "정말 모든게 끝났네…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然是异常化的塞壬，终究还是一个了解敌人的好机会。早知道之前多陪她打打游戏就好了…",
+			say = "이상한 세이렌이었지만 적을 이해할 수 있는 좋은 기회였어요. 일찍 알았더라면 게임이나 좀 더 같이 할걸…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "净化亲不在，反而稍微有点不习惯了…要是塞壬都像她一样的话，就不需要战斗了呢",
+			say = "퓨리가 없는게 조금 어색하네… 세이렌이 전부 퓨리와 같다면 싸울 필요도 없을텐데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			actor = 10500060,
 			nameColor = "#a9f548",
-			say = "她说要回去之后写检查，没问题吧…?",
+			say = "돌아가서 보고서를 써야한다고 했는데, 괜찮을까…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			actor = 10500010,
 			nameColor = "#a9f548",
-			say = "等离开这片海域之后，我们之后也要开始寻找回家的方法了呢",
+			say = "일단 이 해역을 떠나서 우리도 돌아갈 방법을 찾아보자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "关于这一点，我想过了。指挥官和{namecode:98}都有处理过类似事件的经验，一定能帮到你们的！",
+			say = "거기에 대해서 생각을 해봤어요. 지휘관과 아카시가 비슷한 일을 처리한 경험이 있으니, 분명 도와줄 수 있을거예요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			bgName = "bg_story_holosaba2",
 			dir = 1,
-			say = "滴滴滴…滴滴滴…",
+			say = "뚜뚜뚜… 뚜뚜뚜…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "通讯器恢复了？！",
+			say = "통신이 돌아왔어요?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "喂？{namecode:96}？是{namecode:96}么？！",
+			say = "들려요? 즈이카쿠? 즈이카쿠인가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是{namecode:95}姐的声音！",
+			say = "쇼카쿠 언니의 목소리야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "太好了，终于联系到你们了！舰队发生什么事了？",
+			say = "다행이다. 드디어 연결됐군요! 함대에 무슨 일이라도 생겼나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:95}姐！…几周没见想死我了！！！",
+			say = "쇼카쿠 언니! … 요 몇 주간 진짜 보고싶어 죽는 줄 알았어!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "几周？你在说什么事？",
+			say = "몇 주? 무슨 소리죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们和{namecode:96}{namecode:158}的舰队均在最后一次任务的返航途中迷航，被困在了塞壬的镜面海域内。",
+			say = "저희와 즈이카쿠, 카와카제가 마지막 임무에서 돌아오던 중, 길을 잃었어요. 거울 해역에 한참 갇혀있었거든요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "经过几周的战斗，刚刚破坏海域中的核心装置，解除了海域封锁，这才能收到你们得联络。",
+			say = "몇 주간 전투 끝에 드디어 해역의 중심을 파괴하고 봉인을 풀었어요. 그래서 연락이 닿을 수 있었던 거죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "从你们两支舰队联络开始算起，到现在只有不到24小时哦？",
+			say = "연락이 끊긴지 24시간이 채 지나지 않았는데요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			actor = 201210,
 			nameColor = "#a9f548",
-			say = "居然还不到一天？！",
+			say = "아직 하루도 안 지났다고요?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			actor = 10500010,
 			nameColor = "#a9f548",
-			say = "这种现象难道说…那片镜面海域中的时间流逝速度和其他地方不一样么？！",
+			say = "이런 일은 설마… 거울 해역에서 흐르는 시간은 다른 곳과 차이가 있다는 건가?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "这种现象从原理上来说也不是完全不可能的喵~",
+			say = "이론 상으로 완전히 불가능하지는 않다냥~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:98}！在这种情况下看到你真是太令人安心了…",
+			say = "아카시! 이런 상황에서 만나다니, 정말 안심이네요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "说起来，旁边的几位是…？",
+			say = "그러고 보니 옆에 계신 분들은…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			bgName = "bg_story_holosaba2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！她们是被卷入塞壬实验来到这里的异世界访客，这数周内一直同我们并肩战斗的战友，是同伴哦！",
+			say = "아! 세이렌의 실험에 휘말린 이세계의 손님들이야. 요 몇 주간 같이 싸운 동료지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "异世界的访客，原来如此喵…{namecode:98}已经大致猜到状况了喵…",
+			say = "이세계에서 온 손님… 알겠다냥… 무슨 상황인지 이해했다냥…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "不用担心喵！只要在那片镜面海域把塞壬留下来的装置折腾折腾，总会有办法的喵！",
+			say = "걱정마라냥! 거울 해역에 세이렌이 남겨둔 장치를 어떻게 해보면 분명 답이 있을거다냥!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "看来回来之后要有很多话要说呢，不过…",
+			say = "아무래도 돌아와서 들을 말이 많은 것 같네요. 하지만…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "这段时间以来，你们都辛苦了。",
+			say = "수고 많았어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			blackBg = true,
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "欢迎回家～然后，欢迎来到我们的世界~",
+			say = "어서 집으로 돌아오세요. 그리고… 이 세계에 오신것을 환영해요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

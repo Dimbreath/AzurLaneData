@@ -11241,6 +11241,689 @@ pg.activity_template = {
 			}
 		}
 	},
+	[20324] = {
+		mark = 20191212,
+		title_res_tag = "zhuyemian",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 37,
+		config_client = "",
+		id = 20324,
+		config_data = {
+			1290001,
+			1290002,
+			1290003,
+			1290004,
+			1290005,
+			1290006,
+			1290007,
+			1290008,
+			1290009,
+			1290010,
+			1290011,
+			1290031,
+			1290041
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					12,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_zhuyemian"
+		}
+	},
+	[20325] = {
+		mark = 20191212,
+		title_res_tag = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 20325,
+		config_data = {
+			15135,
+			15136,
+			15137,
+			15138,
+			15139,
+			15140,
+			15141,
+			15142,
+			15143,
+			15144,
+			15151,
+			15152,
+			15153,
+			15154,
+			15155,
+			15156
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					12,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20326] = {
+		mark = 20191212,
+		title_res_tag = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 20326,
+		config_data = {
+			1291301,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					12,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20327] = {
+		mark = 20191212,
+		title_res_tag = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 138,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		bg = "",
+		id = 20327,
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20328] = {
+		mark = 20191212,
+		title_res_tag = "hololive_llk",
+		type = 61,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 36,
+		config_client = "",
+		bg = "",
+		id = 20328,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					12,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20329] = {
+		mark = 20191212,
+		title_res_tag = "hololive_pt",
+		type = 54,
+		login_pop = 0,
+		config_id = 20329,
+		is_show = 34,
+		id = 20329,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_hololive_pt"
+		},
+		config_client = {
+			scrollStr = "<color=#3689C3>본사 폭파 대작전, 절찬 진행 중! 지휘관님, 더 많은 TNT를 모아주세요~         </color>"
+		}
+	},
+	[20330] = {
+		mark = 20191212,
+		title_res_tag = "hololive_llk",
+		type = 57,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 0,
+		config_client = "",
+		id = 20330,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					12,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_hololive_llk"
+		}
+	},
+	[20331] = {
+		mark = 20191212,
+		title_res_tag = "",
+		type = 21,
+		login_pop = 0,
+		config_id = 92132,
+		is_show = 0,
+		bg = "",
+		id = 20331,
+		config_data = {
+			70039,
+			70040,
+			70041,
+			70042,
+			70043,
+			70044,
+			70045,
+			70046,
+			70047
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			story = "HOLORICHANG10"
+		}
+	},
+	[20332] = {
+		mark = 20191212,
+		title_res_tag = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 20332,
+		config_data = {
+			15158,
+			15159,
+			15160,
+			15161,
+			15162,
+			15163,
+			15164,
+			15165,
+			15166
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					12,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20333] = {
+		mark = 20191212,
+		title_res_tag = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		bg = "",
+		id = 20333,
+		config_data = {
+			993,
+			994,
+			995,
+			996,
+			997,
+			998,
+			999,
+			1000,
+			1001,
+			1002,
+			1003,
+			1004,
+			1005,
+			1006,
+			1007,
+			1008,
+			1009,
+			1010,
+			1011,
+			1012,
+			1013,
+			1014,
+			1015
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_hololive",
+			{
+				0.176,
+				0.164,
+				0.274,
+				1
+			},
+			painting = "xiaseji_pt",
+			pt_id = 138,
+			enter = {
+				"enter",
+				"hololive 레지스탕스 기지 상점에 오신 것을 환영합니다. 오늘은 무엇이 필요하신가요?"
+			},
+			purchase = {
+				"purchase",
+				"고마워요~"
+			}
+		}
+	},
+	[20334] = {
+		mark = 20191212,
+		title_res_tag = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "[{31985,100}]",
+		config_client = "",
+		bg = "",
+		id = 20334,
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					12,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20335] = {
+		mark = 20191212,
+		title_res_tag = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		bg = "",
+		id = 20335,
+		config_data = {
+			15157
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					12,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			npc = {
+				"HOLOGUANQIA1",
+				15157
+			}
+		}
+	},
+	[20336] = {
+		mark = 20191212,
+		title_res_tag = "dashenling_pt",
+		type = 54,
+		login_pop = 0,
+		config_id = 20336,
+		is_show = 35,
+		id = 20336,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					12,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_dashenling_pt"
+		},
+		config_client = {
+			story = {
+				{},
+				{},
+				{
+					"HOLORICHANG7"
+				},
+				{},
+				{
+					"HOLORICHANG8"
+				},
+				{},
+				{
+					"HOLORICHANG9"
+				}
+			}
+		}
+	},
+	[20337] = {
+		mark = 20191212,
+		title_res_tag = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		bg = "",
+		id = 20337,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					12,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			stageid = 9801
+		}
+	},
 	[25000] = {
 		mark = 20188020,
 		title_res_tag = "",
@@ -12094,6 +12777,20 @@ pg.activity_template = {
 		20321,
 		20322,
 		20323,
+		20324,
+		20325,
+		20326,
+		20327,
+		20328,
+		20329,
+		20330,
+		20331,
+		20332,
+		20333,
+		20334,
+		20335,
+		20336,
+		20337,
 		25000,
 		25001,
 		25002,

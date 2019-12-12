@@ -21451,6 +21451,439 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[10500011] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 1050001,
+		breakout_id = 10500012,
+		breakout_view = "어뢰 보정+5%",
+		id = 10500011,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			107
+		}
+	},
+	[10500012] = {
+		use_gold = 3000,
+		pre_id = 10500011,
+		use_char_num = 1,
+		use_char = 1050001,
+		breakout_id = 10500013,
+		breakout_view = "어뢰 장전 수+1/어뢰 예비 장탄+1/어뢰 보정+10%",
+		id = 10500012,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			107
+		}
+	},
+	[10500013] = {
+		use_gold = 10000,
+		pre_id = 10500012,
+		use_char_num = 2,
+		use_char = 1050001,
+		breakout_id = 10500014,
+		breakout_view = "모든 무기 보정+5%/모든 함재기+1",
+		id = 10500013,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			107,
+			60461,
+			54014
+		}
+	},
+	[10500014] = {
+		use_gold = 0,
+		pre_id = 10500013,
+		use_char_num = 0,
+		use_char = 1050001,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 10500014,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[10500021] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 1050002,
+		breakout_id = 10500022,
+		breakout_view = "모든 폭격기+1/뇌격기 보정+5%",
+		id = 10500021,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			60431,
+			54014
+		}
+	},
+	[10500022] = {
+		use_gold = 3000,
+		pre_id = 10500021,
+		use_char_num = 1,
+		use_char = 1050002,
+		breakout_id = 10500023,
+		breakout_view = "격납고 용량+1/모든 뇌격기+1/폭격기 보정+10%",
+		id = 10500022,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			60432,
+			54014,
+			60432,
+			54014
+		}
+	},
+	[10500023] = {
+		use_gold = 10000,
+		pre_id = 10500022,
+		use_char_num = 2,
+		use_char = 1050002,
+		breakout_id = 10500024,
+		breakout_view = "모든 함재기+1/함재기 보정+5%",
+		id = 10500023,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			60433,
+			54015,
+			60433,
+			54015
+		}
+	},
+	[10500024] = {
+		use_gold = 0,
+		pre_id = 10500023,
+		use_char_num = 0,
+		use_char = 1050002,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 10500024,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[10500031] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 1050003,
+		breakout_id = 10500032,
+		breakout_view = "어뢰 보정+5%",
+		id = 10500031,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			140
+		}
+	},
+	[10500032] = {
+		use_gold = 3000,
+		pre_id = 10500031,
+		use_char_num = 1,
+		use_char = 1050003,
+		breakout_id = 10500033,
+		breakout_view = "어뢰 장전 수+1/지원 범위 업그레이드",
+		id = 10500032,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			140,
+			140,
+			140,
+			140
+		}
+	},
+	[10500033] = {
+		use_gold = 10000,
+		pre_id = 10500032,
+		use_char_num = 2,
+		use_char = 1050003,
+		breakout_id = 10500034,
+		breakout_view = "어뢰 보정10%",
+		id = 10500033,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			140
+		}
+	},
+	[10500034] = {
+		use_gold = 0,
+		pre_id = 10500033,
+		use_char_num = 0,
+		use_char = 1050003,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 10500034,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[10500041] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 1050004,
+		breakout_id = 10500042,
+		breakout_view = "어뢰 보정+5%",
+		id = 10500041,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			106
+		}
+	},
+	[10500042] = {
+		use_gold = 1500,
+		pre_id = 10500041,
+		use_char_num = 1,
+		use_char = 1050004,
+		breakout_id = 10500043,
+		breakout_view = "어뢰 장전 수+1/어뢰 예비 장탄+1/어뢰 보정+10%",
+		id = 10500042,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			106
+		}
+	},
+	[10500043] = {
+		use_gold = 2500,
+		pre_id = 10500042,
+		use_char_num = 2,
+		use_char = 1050004,
+		breakout_id = 10500044,
+		breakout_view = "모든 무기 보정+5%",
+		id = 10500043,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			106
+		}
+	},
+	[10500044] = {
+		use_gold = 0,
+		pre_id = 10500043,
+		use_char_num = 0,
+		use_char = 1050004,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 10500044,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[10500051] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 1050005,
+		breakout_id = 10500052,
+		breakout_view = "주포 보정+5%",
+		id = 10500051,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			33000
+		}
+	},
+	[10500052] = {
+		use_gold = 1500,
+		pre_id = 10500051,
+		use_char_num = 1,
+		use_char = 1050005,
+		breakout_id = 10500053,
+		breakout_view = "주포 보정10%",
+		id = 10500052,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			33000,
+			33000
+		}
+	},
+	[10500053] = {
+		use_gold = 2500,
+		pre_id = 10500052,
+		use_char_num = 2,
+		use_char = 1050005,
+		breakout_id = 10500054,
+		breakout_view = "주포 포좌+1/모든 무기 보정+5%",
+		id = 10500053,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			33000
+		}
+	},
+	[10500054] = {
+		use_gold = 0,
+		pre_id = 10500053,
+		use_char_num = 0,
+		use_char = 1050005,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 10500054,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[10500061] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 1050006,
+		breakout_id = 10500062,
+		breakout_view = "모든 뇌격기+1/전투기 보정+5%",
+		id = 10500061,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			60441,
+			54011
+		}
+	},
+	[10500062] = {
+		use_gold = 1500,
+		pre_id = 10500061,
+		use_char_num = 1,
+		use_char = 1050006,
+		breakout_id = 10500063,
+		breakout_view = "격납고 용량+1/모든 전투기+1/전투기 보정+10%",
+		id = 10500062,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			60442,
+			54011,
+			60442,
+			54011
+		}
+	},
+	[10500063] = {
+		use_gold = 2500,
+		pre_id = 10500062,
+		use_char_num = 2,
+		use_char = 1050006,
+		breakout_id = 10500064,
+		breakout_view = "모든 함재기+1/뇌격기 보정10%",
+		id = 10500063,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			60443,
+			54012,
+			60443,
+			54012
+		}
+	},
+	[10500064] = {
+		use_gold = 0,
+		pre_id = 10500063,
+		use_char_num = 0,
+		use_char = 1050006,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 10500064,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[10500071] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 1050007,
+		breakout_id = 10500072,
+		breakout_view = "모든 전투기+1/전투기 보정+5%",
+		id = 10500071,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			60451,
+			54014
+		}
+	},
+	[10500072] = {
+		use_gold = 1500,
+		pre_id = 10500071,
+		use_char_num = 1,
+		use_char = 1050007,
+		breakout_id = 10500073,
+		breakout_view = "격납고 용량+1/모든 뇌격기+1/전투기 보정+10%",
+		id = 10500072,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			60452,
+			54014,
+			60452,
+			54014
+		}
+	},
+	[10500073] = {
+		use_gold = 2500,
+		pre_id = 10500072,
+		use_char_num = 2,
+		use_char = 1050007,
+		breakout_id = 10500074,
+		breakout_view = "모든 함재기+1/함재기 보정+5%",
+		id = 10500073,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			60453,
+			54015,
+			60453,
+			54015
+		}
+	},
+	[10500074] = {
+		use_gold = 0,
+		pre_id = 10500073,
+		use_char_num = 0,
+		use_char = 1050007,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 10500074,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[299011] = {
 		use_gold = 0,
 		pre_id = 0,
@@ -23601,6 +24034,34 @@ pg.ship_data_breakout = {
 		10400042,
 		10400043,
 		10400044,
+		10500011,
+		10500012,
+		10500013,
+		10500014,
+		10500021,
+		10500022,
+		10500023,
+		10500024,
+		10500031,
+		10500032,
+		10500033,
+		10500034,
+		10500041,
+		10500042,
+		10500043,
+		10500044,
+		10500051,
+		10500052,
+		10500053,
+		10500054,
+		10500061,
+		10500062,
+		10500063,
+		10500064,
+		10500071,
+		10500072,
+		10500073,
+		10500074,
 		299011,
 		299012,
 		299013,

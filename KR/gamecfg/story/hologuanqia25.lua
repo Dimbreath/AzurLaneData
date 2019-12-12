@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "三个小时后",
+			say = "3시간 후",
 			side = 2,
 			dir = 1,
 			bgm = "holo-mio",
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500070,
-			say = "…对不起，是咱太自信了。",
+			say = "…미안, 너무 자신만만했어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500070,
-			say = "不但拓展了规模，新设置了大量机关和伏兵，甚至还制造了模仿原迷宫安全路线的陷阱路线…还是在海上…",
+			say = "규모도 커졌고 새로운 장치와 복병도 생겼네. 게다가 미궁의 안전 통로를 모방한 함정까지… 게다가 바다에서…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500010,
-			say = "已经是堪比孔明陷阱的海上大迷宫了啊。",
+			say = "이미 공명의 함정과도 같은 바다 미로가 됐네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500050,
-			say = "改造这片迷宫的人肯定对原本的迷宫非常熟悉呢…",
+			say = "미궁을 개조한 자는 분명 이 미궁에 익숙한 사람인가…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…答案很明显了。",
+			say = "…답이 나왔군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500010,
-			say = "这次是澪么…从合理性角度来说，确实是最适合守卫迷宫的人选。",
+			say = "이번에는 미오인가… 확실히 미궁에 적합한 선택이긴 하네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500020,
-			say = "会特意派人设置阻挡，反而说明我们走的是正确方向吧",
+			say = "사람을 보내서 방해하는 것을 보니 옳은 길이긴 한 것 같아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正因如此，敌人依然停留在迷宫中，伺机袭击我们的可能性很高",
+			say = "그렇다는 건 적이 미궁에서 우리를 습격할 가능성이 높아다는 거겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			actor = 10500070,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "可恶，咱也要认真起来了！真品怎么可能输给赝品啊！",
+			say = "젠장, 나도 힘내지 않으면! ‘장기말’에게 질 수는 없어!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			actor = 10500010,
 			nameColor = "#a9f548",
-			say = "这可是著名flag哦，澪…",
+			say = "이거, 플래그잖아… 미오…",
 			effects = {
 				{
 					active = false,

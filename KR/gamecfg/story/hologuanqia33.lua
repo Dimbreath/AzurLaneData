@@ -8,13 +8,13 @@ return {
 		{
 			bgmDelay = 2,
 			side = 2,
-			actorName = "测试怪人",
+			actorName = "테스트 몬스터",
 			dir = 1,
 			blackBg = true,
 			stopbgm = true,
 			actor = 900011,
 			nameColor = "#ff5c5c",
-			say = "军师，那群反叛军好像找到一条地下的路绕过屏障继续前进了",
+			say = "군사, 레지스탕스가 지하 통로를 찾아서 배리어를 넘은 것 같은데.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -39,8 +39,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900011,
-			actorName = "测试怪人",
-			say = "为什么每次都要费事的把“棋子”传送回来啊。用这些资源生产几个新的充实战斗力不好么？",
+			actorName = "테스트 몬스터",
+			say = "왜 매번 귀찮게 ‘장기말’을 수거해 오는거지? 더 강하고 새로운 것을 만들면 되지 않아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,8 +57,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 10500010,
-			actorName = "军师",
-			say = "十分抱歉，接下来我会布置更加严密的防御的。",
+			actorName = "군사",
+			say = "죄송합니다. 방어에 더 집중하겠습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,8 +75,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 10500010,
-			actorName = "军师",
-			say = "传送回来虽然看似费事，不过当修复完毕后，保留了之前战斗经验的“棋子”就会变得更强哦",
+			actorName = "군사",
+			say = "귀찮아보이지만 수거해온 장기말들을 수리하면 이전 전투의 데이터가 누적되어 더 강해진답니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,8 +93,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 10500010,
-			actorName = "军师",
-			say = "况且，现在的设备在生产高级型号时好像还有些许问题…",
+			actorName = "군사",
+			say = "그리고 지금은 권한 문제 때문에…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,8 +110,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900011,
-			actorName = "测试怪人",
-			say = "这个该死的权限认证…",
+			actorName = "테스트 몬스터",
+			say = "망할 권한 인증 같으니…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "holo-sora",
-			say = "利用秘密基地的通道，众人终于来到了屏障的另一边。",
+			say = "비밀 기지의 통로를 이용한 일행은 드디어 배리어의 건너편으로 넘어왔다.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -159,7 +159,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500010,
-			say = "太好了，这样就可以继续前进了！",
+			say = "잘 됐다. 이러면 계속 나아갈 수 있어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼呼呼，那个隐藏在看板之后的房间，不论什么时候看都是最棒的啊！",
+			say = "후후후, 보드 뒤에 숨겨진 방은 언제 봐도 최고야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500010,
-			say = "……说起来，标枪和阿库娅她们，之后也要走房间里的那条路过来哦",
+			say = "……그러고 보니 재블린과 아쿠아 일행, 저 방을 지나와야 하는구나.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			say = "啊…！",
+			say = "아…!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -226,7 +226,7 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊啊啊啊！头，整面墙都是头啊！！",
+			say = "아아아아! 머리, 벽이 전부 머리예요!",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500020,
-			say = "这里有牌子写着我的名字哎，里面是…我的头？",
+			say = "여기에 내 이름이 쓰여있네. 안에 있는 건… 내 머리?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500060,
-			say = "…诗音不要再被关进去了啊…",
+			say = "…시온, 다시 갇히지 말라고…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			say = "啊啊啊啊啊！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！",
+			say = "아아아아아악!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里就是…祭小姐的秘密基地么……",
+			say = "여기는… 마츠리의 비밀 기지구나……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			say = "真的十分，对不起！！！祭也没想到之前一时兴起弄得恐怖元素会被还原的如此逼真",
+			say = "정말로, 죄송합니다!!! 저 귀신의 집이 저렇게까지 될 줄은 나도 몰랐어!",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			say = "尤其是…门的机关部分和…那个…大家的头的部分…",
+			say = "특히… 문에 있는 그… 모두의 머리라던가…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "祭有制作恐怖游戏的潜质…",
+			say = "마츠리, 공포 게임을 만드는 재능이 있네요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			actor = 10500070,
 			nameColor = "#a9f548",
-			say = "实在是太刺激了，咱的胃…（呕）",
+			say = "너무 자극적이야. 내 위… (윽)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			actor = 10500060,
 			nameColor = "#a9f548",
-			say = "呜呜呜…祭这个大白痴！！",
+			say = "으으으… 마츠리, 이 멍청이!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500030,
-			say = "我好像看到了毕业的先代阿库娅们在天上招手…",
+			say = "이전 아쿠아들이 하늘에서 손을 내미는 것 같아…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样吓唬同伴们可不好哦",
+			say = "이렇게 동료들을 놀래키면 좋지 않아요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			say = "真的！！非常！！抱歉！！！（土下座）",
+			say = "정말!! 진짜로!! 죄송합니다!!! (무릎 꿇기)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来在大家恢复过来之前暂缓前进了…啊哈哈……",
+			say = "모두가 정신을 차릴 때까지는 천천히 가야겠네… 하하하…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"虚拟与现实的双向镜-日常篇\n\n<size=45>七 神乐舞</size>",
+					"환상과 진실의 이중주-일상 편\n\n<size=45>7. 카구라의 춤</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "holo-sora",
 			actor = 900210,
 			nameColor = "#a9f548",
-			say = "大家都到齐了吗~？",
+			say = "모두 모였어~?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，诗音酱还没有到。",
+			say = "아, 시온쨩이 아직이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			actor = 900211,
 			nameColor = "#a9f548",
-			say = "诗音那家伙八成又睡过头了吧~",
+			say = "시온 녀석, 분명히 또 늦잠 잔 게 분명해~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			actor = 900214,
 			nameColor = "#a9f548",
-			say = "我听到了哦，阿库娅酱！！！！",
+			say = "다 들었거든, 아쿠아쨩!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			actor = 900214,
 			nameColor = "#a9f548",
-			say = "真是的....只是不小心迷路了而已，不要以为诗音每次都会睡过头啊！",
+			say = "정말이지… 길을 잃은 것뿐이라고. 시온을 잠꾸러기로 만들지 말란 말야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，和预定的时间还差一点点，了不起了不起~",
+			say = "아, 약속한 시간하고 얼마 차이 안나네. 대단해 대단해~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			actor = 900214,
 			nameColor = "#a9f548",
-			say = "别把我当小孩……唔，是空前辈就算了。",
+			say = "어린 애 취급하지 마…… 으, 소라 선배면 어쩔 수 없지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			actor = 900213,
 			nameColor = "#a9f548",
-			say = "终于到观光时间了，余已经等不及咯~",
+			say = "드디어 관광 시간이구나. 더는 못 기다리겠다~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "祭酱，表情很奇怪哦？",
+			say = "마츠리쨩. 표정이 이상한데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			actor = 900212,
 			nameColor = "#a9f548",
-			say = "重樱区....兽耳驱逐舰....嘿嘿嘿嘿",
+			say = "사쿠라 엠파이어… 동물 귀 구축함… 헤헤헤헤.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = ".........空前辈，看来大家都到齐了~",
+			say = "……소라 선배, 모두 다 모인 것 같아~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			actor = 900210,
 			nameColor = "#a9f548",
-			say = "嗯！也不要让重樱的各位等太久，我们现在就出发吧~",
+			say = "응! 사쿠라 엠파이어의 모두를 더 기다리게 할 수는 없으니 출발하자~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			bgm = "nagato-map",
 			actor = 301490,
 			nameColor = "#a9f548",
-			say = "欢迎来到{namecode:74}大人的居城",
+			say = "나가토님의 성에 온 것을 환영한다.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -287,7 +287,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "啊，{namecode:158}！！！",
+			say = "아, 카와카제!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有...有点太近了。",
+			say = "너… 너무 가깝잖아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，向导是{namecode:158}吗？",
+			say = "에, 카와카제가 가이드인 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:74}大人听说你们要参观天守阁，特地派我来陪你们。",
+			say = "너희가 천수각을 보러 온다는 소식을 듣고 나가토님이 특별히 나를 보내셨지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			actor = 900210,
 			nameColor = "#a9f548",
-			say = "非常感谢！没有给你添麻烦吧……？",
+			say = "고마워! 설마 귀찮게 한 건 아니지……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有的事。{namecode:74}大人可是很欢迎来访者的",
+			say = "아니다. 나가토님은 방문자들을 좋아하시니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然我对每个阵营都很有兴趣，不过果然想最先从重樱开始呢~",
+			say = "모든 진영에 관심이 있지만 역시 가장 먼저 사쿠라 엠파이어에서부터 시작하고 싶었어~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			actor = 305010,
 			nameColor = "#a9f548",
-			say = "各位，一路上的旅途辛苦了",
+			say = "여러분. 여행, 수고 많으십니다.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "咦，为什么{namecode:78}姐姐会在这里？",
+			say = "에, 후소가 왜 여기에?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为了表示对hololive各位的欢迎，{namecode:74}大人特别吩咐我和{namecode:79}在这里为各位展现一下技艺",
+			say = "hololive의 모두를 환영하기 위해서 나가토님이 저와 야마시로에게 기예를 선보이라 명하셨답니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果各位不介意的话，要不要稍微看一下我们练习神乐舞的场景？",
+			say = "괜찮으시다면 저희가 연습한 카구라의 춤을 보는 건 어떠신가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个......虽然还在练习中，如果各位不介意的话...",
+			say = "저기…… 아직 연습 중이지만 모두가 괜찮으시다면…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			nameColor = "#a9f548",
-			say = "重樱的神乐之舞，请务必欣赏一下！",
+			say = "사쿠라 엠파이어의 카구라의 춤, 꼭 봐주셨으면 해요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:79}，不用紧张哦。",
+			say = "야마시로, 긴장하지 않아도 돼.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，远道而来的各位客人，接下来就请欣赏我们姐妹的舞蹈吧。",
+			say = "그렇다면 멀리서 오신 손님 여러분, 저희 자매의 춤을 즐겨주세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "好漂亮的舞蹈，感觉心灵都被洗涤了呢……",
+			say = "정말 예쁜 춤이야. 영혼까지 씻기는 기분인걸……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -600,7 +600,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "美少女巫女，原来是真的存在啊……",
+			say = "미소녀 무녀라는 거, 정말 있는 거구나……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "祭为什么一点反应都没有，还活着么…？",
+			say = "마츠리, 왜 반응이 없어? 살아있는 거 맞지…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,7 +651,7 @@ return {
 			dir = 1,
 			actor = 900210,
 			nameColor = "#a9f548",
-			say = "咦，祭怎么一动也不动了？",
+			say = "에, 마츠리가 왜 미동도 없는 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,7 +668,7 @@ return {
 			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			say = "……唉，算了空前辈，不用管她，这才是祭的正常状态。",
+			say = "……윽. 됐어, 소라 선배. 상관하지 마. 이게 정상적인 마츠리니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看起来你们相当满意的样子。",
+			say = "굉장히 만족한 것 같군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,7 +701,7 @@ return {
 			dir = 1,
 			actor = 900214,
 			nameColor = "#a9f548",
-			say = "满意，满意，十分超级满意！",
+			say = "만족, 만족, 대만족이야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,7 +728,7 @@ return {
 			blackBg = true,
 			actor = 301490,
 			nameColor = "#a9f548",
-			say = "那么请各位继续前进吧",
+			say = "그렇다면 다음 장소로 가지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

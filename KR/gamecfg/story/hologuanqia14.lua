@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "那边的箱形白色建筑就是holomart了，平时我们在仓库中囤积了各类道具，是收集补给品的最理想地点！",
+			say = "저기 하얀 건물이 바로 holomart야. 평소 창고에 물건을 잔뜩 두기 때문에 보급품을 얻기 딱 좋은 장소지!",
 			bgm = "holo-control-inst",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "关于刚才提到的这些补给品，我有一点不理解的事。",
+			say = "방금 말한 보급품에 대해 궁금한 것이 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			say = "刚才因为各种各样的事，没来得及自我介绍！",
+			say = "이런 저런 일이 있어서 자기 소개가 늦었네!",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在重新介绍一下！大家好，初次见面，我是hololive所属虚拟女仆，湊阿库娅！",
+			say = "다시 한번 소개할게! 안녕! 반가워. 나는 hololive 소속 버츄얼 메이드, 미나토 아쿠아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			say = "虽然是女仆却并不擅长家务，不过如果是玩游戏的话，我可是超级擅长哦！！！！！！！！！",
+			say = "메이드지만 집안일은 잘 못해. 하지만 게임이라면 엄청 잘 한다구!!!!!!!!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "以下是来自阿库娅的特别补给品收集小贴士！",
+			say = "이건 아쿠아가 주는 특별 보급품 수집 팁!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500030,
-			say = "在这个异常化的holo服务器中，除了原本就存在的食物、水、药品等道具，不知为什么，舰船能使用的各类补给品也散落在整个服务器中！",
+			say = "hololive 서버의 보급품에는 식량, 물, 약품, 광물이 있지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500030,
-			say = "但是，有一样更重要的东西，那就是，TNT！这里的TNT和原本世界服务器里的那些TNT相比，在爆炸威力上完全不是一个等级！！！",
+			say = "하지만 제일 중요한 건, 바로 TNT야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500030,
-			say = "哼哼哼，还好我以前事先在服务器的各处角落都埋藏了大量TNT，没想到这次居然能派上用场……",
+			say = "흐흥, 나는 비상시를 위해서 서버 구석구석에 TNT를 잔뜩 묻어뒀다구.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，对了，好像现在异常化的服务器里不知为何，也会自然生成少量TNT！",
+			say = "서버 곳곳에 이상현상이 자연적으로 발생하고 있잖아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			say = "TNT可是整个holo服务器中最强力的道具，大家一定要大量收集哦！！！！！！！！！！！！！！！",
+			say = "그러니 이 TNT는 굉장히 강력한 전략 물자야. 반드시 모아와야 한다구!!!!!!!!!!!!!!!!!!!!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "食品药品倒不必说，矿物也许是塞壬制造舰装会用到的材料，可是TNT是…？",
+			say = "식량과 약품은 말할 것도 없고, 광물 역시 세이렌이 장비를 만드는데 필요한 재료일테지만… TNT는?",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为什么服务器里会有大量TNT也是很奇怪，根据吹雪小姐的，你们是一个，唔…偶像会社…？",
+			say = "왜 서버에 TNT가 있는지도 이상하고, 후부키의 말에 따르면 너희는, 음… 아이돌 회사…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500040,
-			say = "偶像会社呢…",
+			say = "아이돌 회사인가…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500040,
-			say = "TNT的事解释起来稍微有些复杂。总之在这里，TNT是最常用的破坏道具，你看到的这些建筑基本都有它的功劳哦。",
+			say = "TNT는 여기서 설명하기에는 조금 복잡해. 어쨌든 여기서 TNT는 가장 흔하게 쓰이는 폭파 아이템이야. 저쪽에 있는 건물들은 거의 다 TNT의 작품이지",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然用大量TNT来造房子么？和平年代还真是奢侈啊…既然是大威力的杀伤武器，我不反对多收集一些。",
+			say = "TNT로 건물을 만든다고? 이게 바로 평화로운 시대인가… 큰 위력을 가진 살상 무기지만 모으는 것을 반대하지는 않겠어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……虽然感觉理解有些偏差，不过就当是这样吧！",
+			say = "응… 뭔가 이해한 게 다른 것 같지만, 그렇다고 하자!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在整片区域都被塞壬前锋部队控制了，要收集物资，首先要清理出一条道路才行。",
+			say = "모든 구역이 세이렌의 선봉 함대에게 점령당했어. 물자를 모으려면 어느정도 정리를 해야겠는걸.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500040,
-			say = "没问题~夏色祭，全速出航~！",
+			say = "문제 없어~ 나츠이로 마츠리, 전속력으로 출항!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

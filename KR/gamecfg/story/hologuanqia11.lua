@@ -12,7 +12,7 @@ return {
 			bgm = "holo-tokiwa",
 			actor = 10500040,
 			nameColor = "#a9f548",
-			say = "看这个在阳光下闪闪发光的黑曜石建筑，这里就是反抗军基地了。",
+			say = "까맣게 빛나고 있는 저 건물이 바로 레지스탕스 기지야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然还加装了固定炮台…已经完全要塞化了呢",
+			say = "고정 포대까지 있잖아… 완전 요새화 됐네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还不是全部哦，更厉害的是，地表的建筑只是伪装，真正的基地本体隐藏在水面之下，要通过特殊通道才能抵达！",
+			say = "이게 전부가 아니야. 건물 외관은 전부 다 위장이라구. 진짜 기지는 수면 아래에 있어서 특별한 통로로 들어가야해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "利用伪装结构吸引火力，真正重要的部分全部隐藏起来，名副其实的战时秘密基地",
+			say = "위장으로 공격을 유도하고 중요한 부분은 전부 숨겼다라. 확실히 전시용 비밀 기지네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没想到祭和阿库娅酱的反抗军基地，居然有派上正经用处的一天，世界还真是奇妙啊…",
+			say = "마츠리와 아쿠아쨩의 레지스탕스 기지가 제대로 쓰이는 날이 있다니. 정말 알다가도 모를 일이야…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，那么大家做好准备，首先来跟我一起跳入这个水坑吧~",
+			say = "흐흥, 그럼 준비하라구. 먼저 이 수로로 들어가자~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

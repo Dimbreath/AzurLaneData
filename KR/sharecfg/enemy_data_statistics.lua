@@ -40379,7 +40379,7 @@ pg.enemy_data_statistics = {
 	},
 	[396] = {
 		cannon = 0,
-		name = "物资船.F",
+		name = "수송선.F",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -40519,7 +40519,7 @@ pg.enemy_data_statistics = {
 	},
 	[397] = {
 		cannon = 0,
-		name = "驱逐「Pawn」.F",
+		name = "구축함 [Pawn].F",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -40661,7 +40661,7 @@ pg.enemy_data_statistics = {
 	},
 	[398] = {
 		cannon = 0,
-		name = "轻巡「Knight」.F",
+		name = "경순양함 [Knight].F",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -40803,7 +40803,7 @@ pg.enemy_data_statistics = {
 	},
 	[399] = {
 		cannon = 0,
-		name = "重巡「Bishop」.F",
+		name = "중순양함 [Bishop].F",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -40952,7 +40952,7 @@ pg.enemy_data_statistics = {
 	},
 	[400] = {
 		cannon = 0,
-		name = "테스트",
+		name = "전함 [Rook].F",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -41101,7 +41101,7 @@ pg.enemy_data_statistics = {
 	},
 	[401] = {
 		cannon = 0,
-		name = "강화 재료 1",
+		name = "항공모함 [Queen].F",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -41243,7 +41243,7 @@ pg.enemy_data_statistics = {
 	},
 	[402] = {
 		cannon = 0,
-		name = "강화 재료 2",
+		name = "옥수수 특급.F",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -41369,7 +41369,7 @@ pg.enemy_data_statistics = {
 	},
 	[403] = {
 		cannon = 0,
-		name = "강화 재료 3",
+		name = "시라카미 후부키 ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -41516,7 +41516,7 @@ pg.enemy_data_statistics = {
 	},
 	[404] = {
 		cannon = 0,
-		name = "치유의 샘",
+		name = "나츠이로 마츠리 ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -41663,7 +41663,7 @@ pg.enemy_data_statistics = {
 	},
 	[405] = {
 		cannon = 0,
-		name = "테스트",
+		name = "미나토 아쿠아 ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -41783,7 +41783,7 @@ pg.enemy_data_statistics = {
 	},
 	[406] = {
 		cannon = 0,
-		name = "테스트용 적 10000HP 중장갑",
+		name = "오오카미 미오 ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -41917,7 +41917,7 @@ pg.enemy_data_statistics = {
 	},
 	[407] = {
 		cannon = 0,
-		name = "테스트용 적 10001HP 중형장갑",
+		name = "나키리 아야메 ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -42057,7 +42057,7 @@ pg.enemy_data_statistics = {
 	},
 	[408] = {
 		cannon = 0,
-		name = "테스트용 적 10002HP 경장갑",
+		name = "토키노 소라 ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -42191,7 +42191,7 @@ pg.enemy_data_statistics = {
 	},
 	[409] = {
 		cannon = 0,
-		name = "테스트용 적 HP 무한 중장갑",
+		name = "무라사키 시온 ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

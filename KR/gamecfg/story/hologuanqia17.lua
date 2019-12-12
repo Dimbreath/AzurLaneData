@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "那边的是…{namecode:6}和拉菲？！",
+			say = "저기에 있는 건… 아야나미와 라피?!",
 			bgm = "holo-control-inst",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500040,
-			say = "那两个可爱的女孩子是你的同伴吗？",
+			say = "저 귀여운 아이들도 너희의 동료야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错。",
+			say = "그래.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 10500040,
-			say = "好厉害，面对比自己大那么多的航母还能这么英勇的战斗！",
+			say = "대단해. 자기보다 훨씬 큰 항공모함과 저렇게 대등하게 맞서 싸우다니!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真奇怪，这片海域的塞壬以纯航空母舰编队为主，缺乏随行的护卫舰…",
+			say = "이상하네. 이 해역의 세이렌 함대는 전부 항공모함으로 이루어져 있어. 호위함도 따로 없군…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "走吧，我们去帮她们解决这场战斗。",
+			say = "가자. 이 전투를 끝내야겠다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！",
+			say = "응!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

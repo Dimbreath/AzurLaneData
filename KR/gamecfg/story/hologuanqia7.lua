@@ -13,7 +13,7 @@ return {
 			bgm = "holo-tokiwa",
 			hideOther = true,
 			actorName = "{namecode:96}&{namecode:158}",
-			say = "hololive反抗军基地？",
+			say = "hololive 레지스탕스 기지?",
 			subActors = {
 				{
 					actor = 301490,
@@ -37,7 +37,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 900209,
-			say = "没错~如果是那里的话，充足的补给和大量的…战略物资，说不定连舰船的补给都可以解决哦~！",
+			say = "맞아~ 여기라면 튼튼한데다 보급이나… 전략 물자도 많지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "等等…！这片海域，你们叫hololive服务器来着，是你们原本的基地吧？",
+			say = "잠시만…! 이 해역, 너희는 hololive 서버라고 불렀지. 원래 너희의 기지인 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对哦，包括本社大楼在内，我们绝大多数的设施都集中在这片holo服务器中。",
+			say = "맞아. 본사 빌딩까지 포함해서 우리의 모든 시설들이 다 이 holo 서버에 모여있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "在这样重要的基地里，为什么会存在反抗军基地啊？！而且你们似乎一点都不吃惊…",
+			say = "이렇게 중요한 곳에 레지스탕스 기지가 있는거야?! 거기다 너희… 별로 놀라지 않는 것 같아…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = -1,
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "难道各位所属的hololive是一个暴虐无道的高压组织…组织内的成员为了生存只能暗中成立反抗军，在夹缝之中进行反抗么！？",
+			say = "설마 너희가 속한 hololive는 사실 엄청나게 극악무도한 조직이고… 멤버들은 살기 위해서 레지스탕스를 만들어서 활동하는 거야?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -137,7 +137,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不论到了哪里，都是这些丑陋的战争啊…",
+			say = "역시, 어디에나 추악한 전쟁은 끊이지 않는군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 900209,
-			say = "欸，啊，唔，在夹缝之中生存的反抗军倒是很贴切…嗯，解释起来感觉很麻烦，就当是这么回事吧。",
+			say = "엑, 아, 망했다. 틈새에서 살아남은 레지스탕스라는 말은 맞는데… 응, 설명하려면 귀찮으니까 그렇다고 해둘까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			say = "好好解释啦，吹雪！",
+			say = "제대로 설명해, 후부키!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 900215,
-			say = "那个，其实那个是朋友打着「要炸飞邪恶的运营哦」而成立的，大家一起玩闹的组织，并不是用来认真战斗的啦！",
+			say = "저기, 모두 친구니까 너희가 생각한 것 같은 그런 건 아니야? hololive는 굉장히 따뜻하고 화목한 곳이니까 이상한 오해는 하지 마!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "原来如此。你们住在hololive世界的holo服务器中，就是为了反抗邪恶的运营吧？大概明白了",
+			say = "그렇구나. 같은 조직에 두 가지 입장이라는 건가… 대충 알았어. 잘 지낼 수 있을 것 같은데!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 900215,
-			say = "感觉完全被误解了，算了，之后再说吧……",
+			say = "완전히 오해한 모양이네. 나중에 설명하자……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 900209,
-			say = "我刚才仔细观察了一下，整个服务器现在被海水分割成无数小岛，面积变大了好多好多倍，地质环境也完全改变了，",
+			say = "방금 전에 관찰해 보니 서버 전체가 바다 때문에 섬으로 갈라졌어. 크기도 엄청 커지고 환경이 크게 변했어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "万幸的是，大多数标志性建筑都完好的保存在小岛上，如果依靠地标定位，找到反抗军基地应该不是十分困难",
+			say = "다행인 건 랜드마크들은 섬에 잘 보존되어 있다는 거야. 그러니 그걸 보고 따라가면 레지스탕스 기지를 찾는 건 어렵지 않아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那就拜托了哦，向导小姐~等到了基地之后，充分休息一下再制定作战计划吧",
+			say = "그럼 부탁할게, 가이드 아가씨~ 기지에 도착하면 푹 쉬고 다시 작전 계획을 세워보자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 900209,
-			say = "（向导小姐么…明明我也是指挥官的说）",
+			say = "(가이드 아가씨인가… 나도 분명히 지휘관인데.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
