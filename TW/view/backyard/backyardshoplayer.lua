@@ -502,7 +502,7 @@ end
 function slot0.setAllFurnitrues(slot0, slot1)
 	slot0.furnitures = {}
 
-	for slot6, slot7 in pairs(pg.furniture_data_template.all) do
+	for slot6, slot7 in pairs(pg.furniture_shop_template.all) do
 		if slot0:getActiveFurnitureById(slot7) and slot8:isMatchSearchKey(slot0.searchKey) then
 			slot9 = slot8:getConfig("type")
 

@@ -14985,6 +14985,2205 @@ pg.chapter_template = {
 		},
 		chapter_buff = {}
 	},
+	[801] = {
+		mine_id = 2001,
+		progress_boss = 25,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.41953125",
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
+		air_dominance = 590,
+		best_air_dominance = 770,
+		count = 0,
+		id = 801,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		chapter_tag = 0,
+		pre_chapter = 704,
+		star_require_1 = 1,
+		pos_y = "0.436458333",
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 31,
+		num_2 = 30,
+		land_based = "",
+		num_3 = 1,
+		unlocklevel = 60,
+		boss_refresh_special = 4,
+		uifx = "",
+		name = "寒風",
+		chapter_name = "8–1",
+		type = 1,
+		act_id = 0,
+		enter_story = "",
+		boss_refresh = 4,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		map = 8,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "在先前的中途島海戰中，重櫻派出的佯攻艦隊奪取了北方海域的控制權。而現在，是時候奪回屬於我們的海洋了！",
+		difficulty = 4,
+		avoid_ratio = 16,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 0,
+		submarine_num = 0,
+		scale = {
+			0.66,
+			0.34,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				801010,
+				5,
+				0
+			},
+			{
+				801020,
+				45,
+				0
+			},
+			{
+				801030,
+				25,
+				0
+			},
+			{
+				801040,
+				5,
+				0
+			},
+			{
+				801050,
+				30,
+				0
+			},
+			{
+				801060,
+				26,
+				0
+			},
+			{
+				801100,
+				4,
+				0
+			},
+			{
+				801110,
+				5,
+				0
+			},
+			{
+				801120,
+				5,
+				0
+			}
+		},
+		ambush_expedition_list = {
+			801210,
+			801211,
+			801212
+		},
+		guarder_expedition_list = {
+			801100,
+			801110,
+			801120
+		},
+		elite_expedition_list = {
+			801210,
+			801211,
+			801212
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			801000
+		},
+		enemy_refresh = {
+			3,
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"擊破敵方旗艦"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"我方艦隊全滅"
+		},
+		icon = {
+			"dian"
+		},
+		awards = {
+			{
+				2,
+				56029
+			},
+			{
+				2,
+				55029
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				5,
+				9,
+				true,
+				8
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				1
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				8
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				1
+			}
+		},
+		float_items = {
+			{
+				5,
+				6,
+				"1x1IceIsland_2",
+				2,
+				10
+			},
+			{
+				3,
+				9,
+				"2x1ICEIsland_2",
+				0,
+				0
+			},
+			{
+				3,
+				4,
+				"2x3IceIsland_1",
+				-47,
+				-18
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			0,
+			0,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			8,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_buff = {}
+	},
+	[802] = {
+		mine_id = 2001,
+		progress_boss = 25,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.2046875",
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
+		air_dominance = 650,
+		best_air_dominance = 845,
+		count = 0,
+		id = 802,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		chapter_tag = 0,
+		pre_chapter = 801,
+		star_require_1 = 1,
+		pos_y = "0.258333333",
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 31,
+		num_2 = 30,
+		land_based = "",
+		num_3 = 1,
+		unlocklevel = 60,
+		boss_refresh_special = 4,
+		uifx = "",
+		name = "北極圈的拂曉",
+		chapter_name = "8–2",
+		type = 1,
+		act_id = 0,
+		enter_story = "",
+		boss_refresh = 4,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		map = 8,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "阿申留群島的海水冰冷刺骨，伴隨著瀰漫的硝煙以及炮彈的轟鳴，北極圈的拂曉來臨了。",
+		difficulty = 5,
+		avoid_ratio = 17,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 0,
+		submarine_num = 0,
+		scale = {
+			0.55,
+			0.5,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				802010,
+				4,
+				0
+			},
+			{
+				802020,
+				45,
+				0
+			},
+			{
+				802030,
+				25,
+				0
+			},
+			{
+				802040,
+				4,
+				0
+			},
+			{
+				802050,
+				30,
+				0
+			},
+			{
+				802060,
+				28,
+				0
+			},
+			{
+				802100,
+				4,
+				0
+			},
+			{
+				802110,
+				5,
+				0
+			},
+			{
+				802120,
+				3,
+				0
+			}
+		},
+		ambush_expedition_list = {
+			802210,
+			802211,
+			802212
+		},
+		guarder_expedition_list = {
+			802100,
+			802110,
+			802120
+		},
+		elite_expedition_list = {
+			802210,
+			802211,
+			802212
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			802000
+		},
+		enemy_refresh = {
+			3,
+			2,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"擊破敵方旗艦"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"我方艦隊全滅"
+		},
+		icon = {
+			"lei"
+		},
+		awards = {
+			{
+				2,
+				56030
+			},
+			{
+				2,
+				55030
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				true,
+				1
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				1
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				6
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				2
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				6
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				true,
+				8
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				true,
+				8
+			}
+		},
+		float_items = {
+			{
+				6,
+				3,
+				"2x3IceIsland_1",
+				-46,
+				53
+			},
+			{
+				5,
+				6,
+				"2x1ICEIsland_2",
+				39,
+				2
+			},
+			{
+				3,
+				5,
+				"1x1IceIsland_2",
+				0,
+				0
+			},
+			{
+				2,
+				4,
+				"2x1ICEIsland_1",
+				40,
+				0
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			0,
+			0,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			8,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_buff = {}
+	},
+	[803] = {
+		mine_id = 2001,
+		progress_boss = 25,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.2546875",
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
+		air_dominance = 710,
+		best_air_dominance = 925,
+		count = 0,
+		id = 803,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		chapter_tag = 0,
+		pre_chapter = 802,
+		star_require_1 = 1,
+		pos_y = "0.041666667",
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 32,
+		num_2 = 30,
+		land_based = "",
+		num_3 = 1,
+		unlocklevel = 60,
+		boss_refresh_special = 4,
+		uifx = "",
+		name = "冰海怒濤",
+		chapter_name = "8–3",
+		type = 1,
+		act_id = 0,
+		enter_story = "",
+		boss_refresh = 4,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		map = 8,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "重櫻的輸送艦隊企圖繞過戰線前往群島輸送物資，鹽湖城號受到敵方的集火而陷入大破狀態，情況危急！",
+		difficulty = 6,
+		avoid_ratio = 17,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 0,
+		submarine_num = 1,
+		scale = {
+			0.36,
+			0.64,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				803010,
+				3,
+				0
+			},
+			{
+				803020,
+				25,
+				0
+			},
+			{
+				803030,
+				36,
+				0
+			},
+			{
+				803040,
+				3,
+				0
+			},
+			{
+				803050,
+				26,
+				0
+			},
+			{
+				803060,
+				33,
+				0
+			},
+			{
+				803100,
+				4,
+				0
+			},
+			{
+				803110,
+				5,
+				0
+			},
+			{
+				803120,
+				3,
+				0
+			}
+		},
+		ambush_expedition_list = {
+			803210,
+			803211,
+			803212
+		},
+		guarder_expedition_list = {
+			803100,
+			803110,
+			803120
+		},
+		elite_expedition_list = {
+			803210,
+			803211,
+			803212
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			803000
+		},
+		enemy_refresh = {
+			3,
+			2,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"擊破敵方旗艦"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"我方艦隊全滅"
+		},
+		icon = {
+			"nazhi"
+		},
+		awards = {
+			{
+				2,
+				56031
+			},
+			{
+				2,
+				55031
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				true,
+				8
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				6
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				8
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				true,
+				16
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				2
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				1
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				3
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				1
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				16
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				2
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				8
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				true,
+				6
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				8
+			}
+		},
+		float_items = {
+			{
+				5,
+				5,
+				"2x1ICEIsland_1",
+				22,
+				0
+			},
+			{
+				4,
+				6,
+				"1x1IceIsland_2",
+				5,
+				-19
+			},
+			{
+				4,
+				2,
+				"1x1IceIsland_1",
+				94,
+				33
+			},
+			{
+				3,
+				2,
+				"1x1IceIsland_2",
+				-6,
+				0
+			},
+			{
+				2,
+				5,
+				"1x1IceIsland_1",
+				-9,
+				5
+			},
+			{
+				2,
+				4,
+				"2x1ICEIsland_2",
+				14,
+				10
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			19,
+			-40,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			8,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			1,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_buff = {}
+	},
+	[804] = {
+		mine_id = 2001,
+		progress_boss = 25,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.6015625",
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 4,
+		air_dominance = 770,
+		best_air_dominance = 1005,
+		count = 0,
+		id = 804,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		chapter_tag = 0,
+		pre_chapter = 803,
+		star_require_1 = 1,
+		pos_y = "0.153125",
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 33,
+		num_2 = 35,
+		land_based = "",
+		num_3 = 1,
+		unlocklevel = 60,
+		boss_refresh_special = 4,
+		uifx = "",
+		name = "被遺忘的戰場",
+		chapter_name = "8–4",
+		type = 1,
+		act_id = 0,
+		enter_story = "",
+		boss_refresh = 4,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		map = 8,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "敵方的旗艦受到重創，但是另外數艘新銳戰艦仍在負隅頑抗，寒冷的北風吹散了大霧，這裡只是被遺忘的戰場。",
+		difficulty = 7,
+		avoid_ratio = 18,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 0,
+		submarine_num = 1,
+		scale = {
+			0.338,
+			0.43,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				804010,
+				3,
+				0
+			},
+			{
+				804020,
+				25,
+				0
+			},
+			{
+				804030,
+				40,
+				0
+			},
+			{
+				804040,
+				4,
+				0
+			},
+			{
+				804050,
+				26,
+				0
+			},
+			{
+				804060,
+				35,
+				0
+			},
+			{
+				804100,
+				4,
+				0
+			},
+			{
+				804110,
+				5,
+				0
+			},
+			{
+				804120,
+				3,
+				0
+			}
+		},
+		ambush_expedition_list = {
+			804210,
+			804211,
+			804212
+		},
+		guarder_expedition_list = {
+			804100,
+			804110,
+			804120
+		},
+		elite_expedition_list = {
+			804210,
+			804211,
+			804212
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			804000
+		},
+		enemy_refresh = {
+			3,
+			2,
+			2,
+			1,
+			2
+		},
+		elite_refresh = {
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"擊破敵方旗艦"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"我方艦隊全滅"
+		},
+		icon = {
+			"moye"
+		},
+		awards = {
+			{
+				2,
+				56032
+			},
+			{
+				2,
+				55032
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				true,
+				8
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				true,
+				2
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				6
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				6
+			},
+			{
+				6,
+				3,
+				true,
+				16
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				16
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				3
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				2
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				1
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				1
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				5,
+				"2x1ICEIsland_2",
+				43,
+				0
+			},
+			{
+				5,
+				8,
+				"1x1IceIsland_2",
+				0,
+				11
+			},
+			{
+				5,
+				2,
+				"1x1IceIsland_1",
+				-3,
+				0
+			},
+			{
+				4,
+				2,
+				"2x1ICEIsland_2",
+				-11,
+				10
+			},
+			{
+				4,
+				1,
+				"2x1ICEIsland_1",
+				4,
+				-13
+			},
+			{
+				3,
+				4,
+				"2x3IceIsland_1",
+				51,
+				-19
+			},
+			{
+				2,
+				7,
+				"2x1ICEIsland_1",
+				-64,
+				0
+			},
+			{
+				1,
+				1,
+				"1x1IceIsland_2",
+				-7,
+				13
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			0,
+			0,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			8,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			0,
+			1,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_buff = {}
+	},
 	[10000] = {
 		mine_id = 2001,
 		progress_boss = 100,
@@ -25420,6 +27619,2345 @@ pg.chapter_template = {
 		},
 		chapter_buff = {}
 	},
+	[10501] = {
+		mine_id = 2001,
+		progress_boss = 34,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.17890625",
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 340,
+		best_air_dominance = 445,
+		count = 0,
+		id = 10501,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		chapter_tag = 0,
+		pre_chapter = 0,
+		star_require_1 = 1,
+		pos_y = "0.25",
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 22,
+		num_2 = 18,
+		land_based = "",
+		num_3 = 1,
+		unlocklevel = 40,
+		boss_refresh_special = 4,
+		uifx = "UIhuohua2",
+		name = "物資攔截戰",
+		chapter_name = "5–1",
+		type = 2,
+		act_id = 0,
+		enter_story = "",
+		boss_refresh = 4,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		map = 205,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "敵方企圖通過埃斯帕角向整個所羅門海域運送補給物資，我軍將擔任攔截艦隊粉碎對手的計畫。",
+		difficulty = 4,
+		avoid_ratio = 10,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 0,
+		submarine_num = 0,
+		scale = {
+			0.34,
+			0.42,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					3,
+					2,
+					1
+				}
+			},
+			{
+				{
+					7,
+					7,
+					0
+				},
+				{
+					3,
+					1,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				54
+			},
+			{
+				"cannon",
+				1,
+				320
+			},
+			{
+				"antiaircraft",
+				1,
+				320
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				10501010,
+				7,
+				0
+			},
+			{
+				10501020,
+				38,
+				0
+			},
+			{
+				10501030,
+				25,
+				1
+			},
+			{
+				10501040,
+				6,
+				0
+			},
+			{
+				10501050,
+				32,
+				0
+			},
+			{
+				10501060,
+				24,
+				2
+			},
+			{
+				10501070,
+				8,
+				0
+			},
+			{
+				10501080,
+				32,
+				0
+			},
+			{
+				10501090,
+				22,
+				2
+			},
+			{
+				10501100,
+				5,
+				2
+			},
+			{
+				10501110,
+				3,
+				3
+			},
+			{
+				10501120,
+				2,
+				4
+			}
+		},
+		ambush_expedition_list = {
+			10501210,
+			10501211,
+			10501212
+		},
+		guarder_expedition_list = {
+			10501100,
+			10501110,
+			10501120
+		},
+		elite_expedition_list = {
+			10501210,
+			10501211,
+			10501212
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			10501000
+		},
+		enemy_refresh = {
+			3,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"擊破敵方旗艦"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"我方艦隊全滅"
+		},
+		icon = {
+			"miaogao"
+		},
+		awards = {
+			{
+				2,
+				54045
+			},
+			{
+				2,
+				59900
+			},
+			{
+				2,
+				56017
+			},
+			{
+				2,
+				55017
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				3
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				6
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				true,
+				8
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				1
+			},
+			{
+				5,
+				8,
+				true,
+				8
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				1
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				8
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				1
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				2
+			},
+			{
+				2,
+				1,
+				true,
+				8
+			}
+		},
+		float_items = {
+			{
+				6,
+				6,
+				"2x3NormalIsland_1",
+				125,
+				-35
+			},
+			{
+				2,
+				8,
+				"1x1NormalIsland_2",
+				0,
+				0
+			},
+			{
+				2,
+				7,
+				"1x1NormalIsland_1",
+				0,
+				0
+			},
+			{
+				2,
+				5,
+				"1x3NormalIsland_1",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			0,
+			0,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {
+			{
+				2,
+				2,
+				{
+					5,
+					103,
+					1004,
+					4001,
+					5001
+				}
+			}
+		},
+		random_box_list = {
+			5,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_buff = {}
+	},
+	[10502] = {
+		mine_id = 2001,
+		progress_boss = 34,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.65859375",
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 380,
+		best_air_dominance = 495,
+		count = 0,
+		id = 10502,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		chapter_tag = 0,
+		pre_chapter = 0,
+		star_require_1 = 1,
+		pos_y = "0.071875",
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 22,
+		num_2 = 18,
+		land_based = "",
+		num_3 = 1,
+		unlocklevel = 40,
+		boss_refresh_special = 4,
+		uifx = "UIhuohua2",
+		name = "聖克魯斯的天空",
+		chapter_name = "5–2",
+		type = 2,
+		act_id = 0,
+		enter_story = "",
+		boss_refresh = 4,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		map = 205,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "報告指揮官，發現對方航母機動戰鬥群，由於距離太遠岸基支援部隊無法提供火力援助，請做好對空戰準備。",
+		difficulty = 5,
+		avoid_ratio = 10,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 0,
+		submarine_num = 0,
+		scale = {
+			0.66,
+			0.36,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					3,
+					2,
+					1
+				}
+			},
+			{
+				{
+					7,
+					7,
+					0
+				},
+				{
+					3,
+					1,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				56
+			},
+			{
+				"cannon",
+				1,
+				360
+			},
+			{
+				"antiaircraft",
+				1,
+				360
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				10502010,
+				7,
+				0
+			},
+			{
+				10502020,
+				38,
+				0
+			},
+			{
+				10502030,
+				25,
+				1
+			},
+			{
+				10502040,
+				6,
+				0
+			},
+			{
+				10502050,
+				32,
+				0
+			},
+			{
+				10502060,
+				24,
+				2
+			},
+			{
+				10502070,
+				6,
+				0
+			},
+			{
+				10502080,
+				32,
+				0
+			},
+			{
+				10502090,
+				24,
+				2
+			},
+			{
+				10502100,
+				6,
+				2
+			},
+			{
+				10502110,
+				4,
+				3
+			},
+			{
+				10502120,
+				3,
+				4
+			}
+		},
+		ambush_expedition_list = {
+			10502210,
+			10502211,
+			10502212
+		},
+		guarder_expedition_list = {
+			10502100,
+			10502110,
+			10502120
+		},
+		elite_expedition_list = {
+			10502210,
+			10502211,
+			10502212
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			10502000
+		},
+		enemy_refresh = {
+			2,
+			1,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"擊破敵方旗艦"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"我方艦隊全滅"
+		},
+		icon = {
+			"ligen"
+		},
+		awards = {
+			{
+				2,
+				54046
+			},
+			{
+				2,
+				59900
+			},
+			{
+				2,
+				56018
+			},
+			{
+				2,
+				55018
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				true,
+				2
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				6
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				6
+			},
+			{
+				7,
+				3,
+				true,
+				1
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				8,
+				true,
+				6
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				8
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				8
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				1
+			},
+			{
+				3,
+				8,
+				true,
+				1
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				8
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				4,
+				5,
+				"2x2NormalIsland_1",
+				50,
+				-40
+			},
+			{
+				3,
+				2,
+				"1x3NormalIsland_1",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			0,
+			0,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {
+			{
+				7,
+				8,
+				{
+					5,
+					103,
+					1004,
+					4001,
+					5001
+				}
+			}
+		},
+		random_box_list = {
+			5,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_buff = {}
+	},
+	[10503] = {
+		mine_id = 2001,
+		progress_boss = 25,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.56640625",
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 425,
+		best_air_dominance = 555,
+		count = 0,
+		id = 10503,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		chapter_tag = 0,
+		pre_chapter = 0,
+		star_require_1 = 1,
+		pos_y = "0.25",
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 23,
+		num_2 = 18,
+		land_based = "",
+		num_3 = 1,
+		unlocklevel = 40,
+		boss_refresh_special = 4,
+		uifx = "UIhuohua2",
+		name = "大黃蜂的隕落",
+		chapter_name = "5–3",
+		type = 2,
+		act_id = 0,
+		enter_story = "",
+		boss_refresh = 4,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		map = 205,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "大黃蜂在不遠處遭到敵方機動編隊襲擊，向我軍發出了求救信號，請指揮官盡速趕往救援。",
+		difficulty = 6,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 0,
+		submarine_num = 0,
+		scale = {
+			0.54,
+			0.47,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					3,
+					2,
+					1
+				}
+			},
+			{
+				{
+					7,
+					7,
+					0
+				},
+				{
+					3,
+					1,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				58
+			},
+			{
+				"cannon",
+				1,
+				420
+			},
+			{
+				"antiaircraft",
+				1,
+				420
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				10503010,
+				6,
+				0
+			},
+			{
+				10503020,
+				32,
+				0
+			},
+			{
+				10503030,
+				42,
+				1
+			},
+			{
+				10503040,
+				6,
+				0
+			},
+			{
+				10503050,
+				32,
+				0
+			},
+			{
+				10503060,
+				26,
+				2
+			},
+			{
+				10503070,
+				6,
+				0
+			},
+			{
+				10503080,
+				32,
+				0
+			},
+			{
+				10503090,
+				26,
+				2
+			},
+			{
+				10503100,
+				8,
+				2
+			},
+			{
+				10503110,
+				5,
+				3
+			},
+			{
+				10503120,
+				4,
+				4
+			}
+		},
+		ambush_expedition_list = {
+			10503210,
+			10503211,
+			10503212
+		},
+		guarder_expedition_list = {
+			10503100,
+			10503110,
+			10503120
+		},
+		elite_expedition_list = {
+			10503210,
+			10503211,
+			10503212
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			10503000
+		},
+		enemy_refresh = {
+			3,
+			1,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"擊破敵方旗艦"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"我方艦隊全滅"
+		},
+		icon = {
+			"xianghe"
+		},
+		awards = {
+			{
+				2,
+				54047
+			},
+			{
+				2,
+				59900
+			},
+			{
+				2,
+				56019
+			},
+			{
+				2,
+				55019
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			}
+		},
+		grids = {
+			{
+				6,
+				7,
+				true,
+				1
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				true,
+				1
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				8
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				2
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				6
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				8
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				1
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				8
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				4,
+				3,
+				"1x1NormalIsland_1",
+				0,
+				0
+			},
+			{
+				4,
+				1,
+				"3x1NormalIsland_1",
+				10,
+				20
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			0,
+			0,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {
+			{
+				4,
+				4,
+				{
+					5,
+					103,
+					1004,
+					4001,
+					5001
+				}
+			}
+		},
+		random_box_list = {
+			5,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_buff = {}
+	},
+	[10504] = {
+		mine_id = 2001,
+		progress_boss = 25,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.45234375",
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 475,
+		best_air_dominance = 620,
+		count = 0,
+		id = 10504,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		chapter_tag = 0,
+		pre_chapter = 0,
+		star_require_1 = 1,
+		pos_y = "0.408333333",
+		num_1 = 1,
+		model = 1,
+		investigation_ratio = 24,
+		num_2 = 20,
+		land_based = "",
+		num_3 = 1,
+		unlocklevel = 40,
+		boss_refresh_special = 4,
+		uifx = "UIhuohua2",
+		name = "撤離戰區",
+		chapter_name = "5–4",
+		type = 2,
+		act_id = 0,
+		enter_story = "",
+		boss_refresh = 4,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		map = 205,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "由於損失了航母機動編隊，繼續作戰將對我方十分不利，在撤離過程中遇到敵方主力艦隊攔截，請做好戰鬥準備。",
+		difficulty = 7,
+		avoid_ratio = 11,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 0,
+		submarine_num = 0,
+		scale = {
+			0.51,
+			0.65,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					3,
+					2,
+					1
+				}
+			},
+			{
+				{
+					7,
+					7,
+					0
+				},
+				{
+					3,
+					1,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				60
+			},
+			{
+				"cannon",
+				1,
+				500
+			},
+			{
+				"antiaircraft",
+				1,
+				500
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				10504010,
+				5,
+				0
+			},
+			{
+				10504020,
+				32,
+				0
+			},
+			{
+				10504030,
+				42,
+				1
+			},
+			{
+				10504040,
+				6,
+				0
+			},
+			{
+				10504050,
+				32,
+				0
+			},
+			{
+				10504060,
+				28,
+				2
+			},
+			{
+				10504070,
+				6,
+				0
+			},
+			{
+				10504080,
+				32,
+				0
+			},
+			{
+				10504090,
+				28,
+				2
+			},
+			{
+				10504100,
+				8,
+				2
+			},
+			{
+				10504110,
+				6,
+				3
+			},
+			{
+				10504120,
+				6,
+				4
+			}
+		},
+		ambush_expedition_list = {
+			10504210,
+			10504211,
+			10504212
+		},
+		guarder_expedition_list = {
+			10504100,
+			10504110,
+			10504120
+		},
+		elite_expedition_list = {
+			10504210,
+			10504211,
+			10504212
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			10504000
+		},
+		enemy_refresh = {
+			3,
+			2,
+			1,
+			2,
+			1
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"擊破敵方旗艦"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"我方艦隊全滅"
+		},
+		icon = {
+			"ruihe"
+		},
+		awards = {
+			{
+				2,
+				54048
+			},
+			{
+				2,
+				59900
+			},
+			{
+				2,
+				56020
+			},
+			{
+				2,
+				55020
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				true,
+				8
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				6
+			},
+			{
+				7,
+				5,
+				true,
+				8
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				3
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				8
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				1
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				1
+			},
+			{
+				3,
+				8,
+				true,
+				8
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				8
+			},
+			{
+				3,
+				4,
+				true,
+				1
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				1,
+				"2x1NormalIsland_1",
+				50,
+				0
+			},
+			{
+				5,
+				4,
+				"2x3NormalIsland_1",
+				80,
+				-30
+			},
+			{
+				3,
+				2,
+				"1x3NormalIsland_1",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			0,
+			0,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		chapter_buff = {}
+	},
 	[1090017] = {
 		mine_id = 2001,
 		progress_boss = 100,
@@ -34995,6 +39533,10 @@ pg.chapter_template = {
 		702,
 		703,
 		704,
+		801,
+		802,
+		803,
+		804,
 		10000,
 		10001,
 		10002,
@@ -35014,6 +39556,10 @@ pg.chapter_template = {
 		10402,
 		10403,
 		10404,
+		10501,
+		10502,
+		10503,
+		10504,
 		1090017,
 		1100001,
 		1100002,

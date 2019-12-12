@@ -924,6 +924,32 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[303] = {
+		nationality = 1,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 303,
+		type = 2,
+		index_id = 37,
+		group_type = 10211,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"推薦探索關卡8-4",
+				{
+					"LEVEL",
+					{
+						chapterid = 804
+					}
+				},
+				0
+			}
+		}
+	},
 	[31] = {
 		nationality = 1,
 		hide = 0,
@@ -1284,6 +1310,32 @@ pg.ship_data_group = {
 					{
 						projectName = "special",
 						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
+	[40] = {
+		nationality = 1,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 40,
+		type = 3,
+		index_id = 59,
+		group_type = 10302,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"推薦探索關卡8-3",
+				{
+					"LEVEL",
+					{
+						chapterid = 803
 					}
 				},
 				0
@@ -2529,7 +2581,7 @@ pg.ship_data_group = {
 	[88] = {
 		nationality = 2,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 201089,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 88,
@@ -2537,8 +2589,17 @@ pg.ship_data_group = {
 		index_id = 110,
 		group_type = 20108,
 		trans_type = 1,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_skill = {
+			4081
+		},
 		description = {
 			{
 				"榮譽勳章兌換（機率刷新）",
@@ -2576,7 +2637,7 @@ pg.ship_data_group = {
 	[89] = {
 		nationality = 2,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 201099,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 89,
@@ -2584,8 +2645,17 @@ pg.ship_data_group = {
 		index_id = 111,
 		group_type = 20109,
 		trans_type = 1,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"C",
+			"B",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_skill = {
+			4081
+		},
 		description = {
 			{
 				"榮譽勳章兌換（機率刷新）",
@@ -3313,6 +3383,33 @@ pg.ship_data_group = {
 					"GETBOAT",
 					{
 						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
+	[337] = {
+		nationality = 2,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 337,
+		type = 3,
+		index_id = 149,
+		group_type = 20309,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"進行重型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
 						page = 1
 					}
 				},
@@ -4194,6 +4291,33 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[336] = {
+		nationality = 2,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 336,
+		type = 13,
+		index_id = 177,
+		group_type = 21304,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"進行重型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
 	[269] = {
 		nationality = 3,
 		hide = 0,
@@ -4438,6 +4562,58 @@ pg.ship_data_group = {
 				"限時活動：紅染的參訪者",
 				{
 					""
+				},
+				0
+			}
+		}
+	},
+	[161] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 161,
+		type = 1,
+		index_id = 192,
+		group_type = 30111,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"推薦探索關卡8-2",
+				{
+					"LEVEL",
+					{
+						chapterid = 802
+					}
+				},
+				0
+			}
+		}
+	},
+	[162] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 162,
+		type = 1,
+		index_id = 193,
+		group_type = 30112,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"推薦探索關卡8-1",
+				{
+					"LEVEL",
+					{
+						chapterid = 801
+					}
 				},
 				0
 			}
@@ -4753,7 +4929,7 @@ pg.ship_data_group = {
 	[187] = {
 		nationality = 3,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 302099,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 187,
@@ -4761,13 +4937,25 @@ pg.ship_data_group = {
 		index_id = 224,
 		group_type = 30209,
 		trans_type = 2,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"C",
+			"A",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_skill = {
+			2051
+		},
 		description = {
 			{
-				"限時活動：紅染的參訪者",
+				"推薦探索關卡8-1",
 				{
-					""
+					"LEVEL",
+					{
+						chapterid = 801
+					}
 				},
 				0
 			}
@@ -4803,7 +4991,7 @@ pg.ship_data_group = {
 	[190] = {
 		nationality = 3,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 303019,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 190,
@@ -4811,8 +4999,17 @@ pg.ship_data_group = {
 		index_id = 233,
 		group_type = 30301,
 		trans_type = 3,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"B",
+			"B",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		trans_skill = {
+			2051
+		},
 		description = {
 			{
 				"推薦探索關卡3-3",
@@ -4829,7 +5026,7 @@ pg.ship_data_group = {
 	[191] = {
 		nationality = 3,
 		hide = 0,
-		trans_skin = 0,
+		trans_skin = 303029,
 		handbook_type = 0,
 		redirect_id = 101,
 		code = 191,
@@ -4837,8 +5034,17 @@ pg.ship_data_group = {
 		index_id = 234,
 		group_type = 30302,
 		trans_type = 3,
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"B",
+			"B",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		trans_skill = {
+			2051
+		},
 		description = {
 			{
 				"推薦探索關卡3-3",
@@ -4947,9 +5153,12 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限時活動：紅染的參訪者",
+				"推薦探索關卡8-3",
 				{
-					""
+					"LEVEL",
+					{
+						chapterid = 803
+					}
 				},
 				0
 			}
@@ -5010,6 +5219,32 @@ pg.ship_data_group = {
 				"限時活動：努力、希望和計畫",
 				{
 					""
+				},
+				0
+			}
+		}
+	},
+	[202] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 202,
+		type = 3,
+		index_id = 242,
+		group_type = 30313,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"推薦探索關卡8-4",
+				{
+					"LEVEL",
+					{
+						chapterid = 804
+					}
 				},
 				0
 			}
@@ -5381,6 +5616,29 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限時活動：紅染的參訪者",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[232] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 232,
+		type = 12,
+		index_id = 279,
+		group_type = 31201,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"隱藏：找到明石的肉球印了嗎？",
 				{
 					""
 				},
@@ -5774,6 +6032,7 @@ pg.ship_data_group = {
 		28,
 		29,
 		30,
+		303,
 		31,
 		32,
 		33,
@@ -5782,6 +6041,7 @@ pg.ship_data_group = {
 		36,
 		37,
 		39,
+		40,
 		41,
 		42,
 		43,
@@ -5826,6 +6086,7 @@ pg.ship_data_group = {
 		115,
 		119,
 		120,
+		337,
 		121,
 		122,
 		123,
@@ -5846,6 +6107,7 @@ pg.ship_data_group = {
 		145,
 		149,
 		150,
+		336,
 		269,
 		270,
 		271,
@@ -5854,6 +6116,8 @@ pg.ship_data_group = {
 		151,
 		155,
 		159,
+		161,
+		162,
 		176,
 		163,
 		165,
@@ -5876,6 +6140,7 @@ pg.ship_data_group = {
 		197,
 		200,
 		201,
+		202,
 		205,
 		320,
 		208,
@@ -5890,6 +6155,7 @@ pg.ship_data_group = {
 		227,
 		228,
 		229,
+		232,
 		233,
 		236,
 		238,

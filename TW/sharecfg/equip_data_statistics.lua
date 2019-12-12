@@ -2210,6 +2210,121 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[540] = {
+		name = "治癒系貓爪",
+		type = 10,
+		id = 540,
+		tech = 1,
+		nationality = 3,
+		speciality = "無",
+		range = 0,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "540",
+		value_1 = "120",
+		angle = 0,
+		avoid_extra = 0,
+		rarity = 5,
+		scatter = "無",
+		is_siren = 0,
+		ammo = "無",
+		descrip = "{namecode:89}醬用的貓爪，似乎有著某種治癒效果",
+		value_3 = 0,
+		attribute_1 = "durability",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6170
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[541] = {
+		id = 541,
+		base = 540,
+		is_siren = 0,
+		value_1 = "138",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[542] = {
+		id = 542,
+		base = 540,
+		is_siren = 0,
+		value_1 = "156",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[543] = {
+		id = 543,
+		base = 540,
+		is_siren = 0,
+		value_1 = "174",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[544] = {
+		id = 544,
+		base = 540,
+		is_siren = 0,
+		value_1 = "192",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[545] = {
+		id = 545,
+		base = 540,
+		is_siren = 0,
+		value_1 = "210",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[546] = {
+		id = 546,
+		base = 540,
+		is_siren = 0,
+		value_1 = "228",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[547] = {
+		id = 547,
+		base = 540,
+		is_siren = 0,
+		value_1 = "246",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[548] = {
+		id = 548,
+		base = 540,
+		is_siren = 0,
+		value_1 = "264",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[549] = {
+		id = 549,
+		base = 540,
+		is_siren = 0,
+		value_1 = "282",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[550] = {
+		id = 550,
+		base = 540,
+		is_siren = 0,
+		value_1 = "300",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[640] = {
 		name = "Z旗",
 		speciality = "無",
@@ -46100,6 +46215,17 @@ pg.equip_data_statistics = {
 		528,
 		529,
 		530,
+		540,
+		541,
+		542,
+		543,
+		544,
+		545,
+		546,
+		547,
+		548,
+		549,
+		550,
 		640,
 		641,
 		642,

@@ -172,7 +172,7 @@ pg.AssistantInfo = {
 	end,
 	filterAssistantEvents = function (slot0, slot1)
 		slot2 = {}
-		slot3 = Ship.getMainwordsCount(slot1)
+		slot3 = ShipWordHelper.GetMainSceneWordCnt(slot1)
 
 		for slot7, slot8 in ipairs(slot0) do
 			if string.split(slot10, "_")[1] == "main" then

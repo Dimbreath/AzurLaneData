@@ -4889,6 +4889,181 @@ pg.ship_data_template = {
 		},
 		hide_buff_list = {}
 	},
+	[102111] = {
+		oil_at_start = 1,
+		max_level = 70,
+		equip_id_3 = 26300,
+		oil_at_end = 2,
+		type = 2,
+		energy = 150,
+		name = "里奇蒙",
+		can_get_proficency = 0,
+		star = 1,
+		star_max = 4,
+		strengthen_id = 10211,
+		equip_id_2 = 0,
+		equip_id_1 = 12000,
+		group_type = 10211,
+		id = 102111,
+		equip_1 = {
+			2
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			1002
+		},
+		buff_list_display = {
+			1002,
+			20111
+		},
+		hide_buff_list = {}
+	},
+	[102112] = {
+		oil_at_start = 1,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 4,
+		type = 2,
+		energy = 150,
+		name = "里奇蒙",
+		can_get_proficency = 0,
+		star = 2,
+		star_max = 4,
+		strengthen_id = 10211,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 10211,
+		id = 102112,
+		equip_1 = {
+			2
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			1002,
+			20111
+		},
+		buff_list_display = {
+			1002,
+			20111
+		},
+		hide_buff_list = {}
+	},
+	[102113] = {
+		oil_at_start = 1,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 6,
+		type = 2,
+		energy = 150,
+		name = "里奇蒙",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 4,
+		strengthen_id = 10211,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 10211,
+		id = 102113,
+		equip_1 = {
+			2
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			1002,
+			20111
+		},
+		buff_list_display = {
+			1002,
+			20111
+		},
+		hide_buff_list = {}
+	},
+	[102114] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 8,
+		type = 2,
+		energy = 150,
+		name = "里奇蒙",
+		can_get_proficency = 1,
+		star = 4,
+		star_max = 4,
+		strengthen_id = 10211,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 10211,
+		id = 102114,
+		equip_1 = {
+			2
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			1002,
+			20112
+		},
+		buff_list_display = {
+			1002,
+			20112
+		},
+		hide_buff_list = {}
+	},
 	[103011] = {
 		oil_at_start = 1,
 		max_level = 70,
@@ -5052,6 +5227,173 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			2021,
+			20212
+		},
+		hide_buff_list = {}
+	},
+	[103021] = {
+		oil_at_start = 1,
+		max_level = 70,
+		equip_id_3 = 16000,
+		oil_at_end = 3,
+		type = 3,
+		energy = 150,
+		name = "鹽湖城",
+		can_get_proficency = 0,
+		star = 1,
+		star_max = 4,
+		strengthen_id = 10302,
+		equip_id_2 = 0,
+		equip_id_1 = 13000,
+		group_type = 10302,
+		id = 103021,
+		equip_1 = {
+			3
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			2011
+		},
+		buff_list_display = {
+			2011,
+			20211
+		},
+		hide_buff_list = {}
+	},
+	[103022] = {
+		oil_at_start = 1,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 5,
+		type = 3,
+		energy = 150,
+		name = "鹽湖城",
+		can_get_proficency = 0,
+		star = 2,
+		star_max = 4,
+		strengthen_id = 10302,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 10302,
+		id = 103022,
+		equip_1 = {
+			3
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			2011,
+			20211
+		},
+		buff_list_display = {
+			2011,
+			20211
+		},
+		hide_buff_list = {}
+	},
+	[103023] = {
+		oil_at_start = 1,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 7,
+		type = 3,
+		energy = 150,
+		name = "鹽湖城",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 4,
+		strengthen_id = 10302,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 10302,
+		id = 103023,
+		equip_1 = {
+			3
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			2011,
+			20211
+		},
+		buff_list_display = {
+			2011,
+			20211
+		},
+		hide_buff_list = {}
+	},
+	[103024] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 9,
+		type = 3,
+		energy = 150,
+		name = "鹽湖城",
+		can_get_proficency = 1,
+		star = 4,
+		star_max = 4,
+		strengthen_id = 10302,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 10302,
+		id = 103024,
+		equip_1 = {
+			3
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			2011,
+			20212
+		},
+		buff_list_display = {
+			2011,
 			20212
 		},
 		hide_buff_list = {}
@@ -9602,6 +9944,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			1011,
+			4081,
 			21031
 		},
 		hide_buff_list = {}
@@ -9646,6 +9989,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			1011,
+			4081,
 			21031
 		},
 		hide_buff_list = {}
@@ -9690,6 +10034,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			1011,
+			4081,
 			21031
 		},
 		hide_buff_list = {}
@@ -9734,6 +10079,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			1011,
+			4081,
 			21032
 		},
 		hide_buff_list = {}
@@ -9777,6 +10123,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			4071,
+			4081,
 			21031
 		},
 		hide_buff_list = {}
@@ -9821,6 +10168,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			4071,
+			4081,
 			21031
 		},
 		hide_buff_list = {}
@@ -9865,6 +10213,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			4071,
+			4081,
 			21031
 		},
 		hide_buff_list = {}
@@ -9909,6 +10258,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			4071,
+			4081,
 			21032
 		},
 		hide_buff_list = {}
@@ -13747,6 +14097,173 @@ pg.ship_data_template = {
 		},
 		hide_buff_list = {}
 	},
+	[203091] = {
+		oil_at_start = 1,
+		max_level = 70,
+		equip_id_3 = 26100,
+		oil_at_end = 4,
+		type = 3,
+		energy = 150,
+		name = "蘇塞克斯",
+		can_get_proficency = 0,
+		star = 2,
+		star_max = 5,
+		strengthen_id = 20309,
+		equip_id_2 = 0,
+		equip_id_1 = 23000,
+		group_type = 20309,
+		id = 203091,
+		equip_1 = {
+			3
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			2061
+		},
+		buff_list_display = {
+			2061,
+			21211
+		},
+		hide_buff_list = {}
+	},
+	[203092] = {
+		oil_at_start = 1,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 6,
+		type = 3,
+		energy = 150,
+		name = "蘇塞克斯",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 5,
+		strengthen_id = 20309,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 20309,
+		id = 203092,
+		equip_1 = {
+			3
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			2061,
+			21211
+		},
+		buff_list_display = {
+			2061,
+			21211
+		},
+		hide_buff_list = {}
+	},
+	[203093] = {
+		oil_at_start = 1,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 8,
+		type = 3,
+		energy = 150,
+		name = "蘇塞克斯",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 5,
+		strengthen_id = 20309,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 20309,
+		id = 203093,
+		equip_1 = {
+			3
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			2061,
+			21211
+		},
+		buff_list_display = {
+			2061,
+			21211
+		},
+		hide_buff_list = {}
+	},
+	[203094] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 10,
+		type = 3,
+		energy = 150,
+		name = "蘇塞克斯",
+		can_get_proficency = 1,
+		star = 5,
+		star_max = 5,
+		strengthen_id = 20309,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 20309,
+		id = 203094,
+		equip_1 = {
+			3
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			2061,
+			21212
+		},
+		buff_list_display = {
+			2061,
+			21212
+		},
+		hide_buff_list = {}
+	},
 	[204011] = {
 		oil_at_start = 1,
 		max_level = 70,
@@ -16135,6 +16652,170 @@ pg.ship_data_template = {
 			1
 		}
 	},
+	[213041] = {
+		oil_at_start = 1,
+		max_level = 70,
+		equip_id_3 = 0,
+		oil_at_end = 4,
+		type = 13,
+		energy = 150,
+		name = "阿貝克隆比",
+		can_get_proficency = 0,
+		star = 2,
+		star_max = 5,
+		strengthen_id = 21304,
+		equip_id_2 = 21100,
+		equip_id_1 = 24100,
+		group_type = 21304,
+		id = 213041,
+		equip_1 = {
+			4
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			11300
+		},
+		buff_list_display = {
+			11300
+		},
+		hide_buff_list = {}
+	},
+	[213042] = {
+		oil_at_start = 1,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 6,
+		type = 13,
+		energy = 150,
+		name = "阿貝克隆比",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 5,
+		strengthen_id = 21304,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 21304,
+		id = 213042,
+		equip_1 = {
+			4
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			11300
+		},
+		buff_list_display = {
+			11300
+		},
+		hide_buff_list = {}
+	},
+	[213043] = {
+		oil_at_start = 1,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 8,
+		type = 13,
+		energy = 150,
+		name = "阿貝克隆比",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 5,
+		strengthen_id = 21304,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 21304,
+		id = 213043,
+		equip_1 = {
+			4
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			11300
+		},
+		buff_list_display = {
+			11300
+		},
+		hide_buff_list = {
+			1
+		}
+	},
+	[213044] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 10,
+		type = 13,
+		energy = 150,
+		name = "阿貝克隆比",
+		can_get_proficency = 1,
+		star = 5,
+		star_max = 5,
+		strengthen_id = 21304,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 21304,
+		id = 213044,
+		equip_1 = {
+			4
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			11300
+		},
+		buff_list_display = {
+			11300
+		},
+		hide_buff_list = {
+			1
+		}
+	},
 	[301011] = {
 		oil_at_start = 1,
 		max_level = 70,
@@ -16660,6 +17341,356 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			10770,
+			22072
+		},
+		hide_buff_list = {}
+	},
+	[301111] = {
+		oil_at_start = 1,
+		max_level = 70,
+		equip_id_3 = 0,
+		oil_at_end = 2,
+		type = 1,
+		energy = 150,
+		name = "雷",
+		can_get_proficency = 0,
+		star = 2,
+		star_max = 5,
+		strengthen_id = 30111,
+		equip_id_2 = 35100,
+		equip_id_1 = 31200,
+		group_type = 30111,
+		id = 301111,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			10620
+		},
+		buff_list_display = {
+			10620,
+			22071
+		},
+		hide_buff_list = {}
+	},
+	[301112] = {
+		oil_at_start = 1,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 4,
+		type = 1,
+		energy = 150,
+		name = "雷",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 5,
+		strengthen_id = 30111,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 30111,
+		id = 301112,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			10620,
+			22071
+		},
+		buff_list_display = {
+			10620,
+			22071
+		},
+		hide_buff_list = {}
+	},
+	[301113] = {
+		oil_at_start = 1,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 6,
+		type = 1,
+		energy = 150,
+		name = "雷",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 5,
+		strengthen_id = 30111,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 30111,
+		id = 301113,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			10620,
+			22071
+		},
+		buff_list_display = {
+			10620,
+			22071
+		},
+		hide_buff_list = {}
+	},
+	[301114] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 8,
+		type = 1,
+		energy = 150,
+		name = "雷",
+		can_get_proficency = 1,
+		star = 5,
+		star_max = 5,
+		strengthen_id = 30111,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 30111,
+		id = 301114,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			10620,
+			22072
+		},
+		buff_list_display = {
+			10620,
+			22072
+		},
+		hide_buff_list = {}
+	},
+	[301121] = {
+		oil_at_start = 1,
+		max_level = 70,
+		equip_id_3 = 0,
+		oil_at_end = 2,
+		type = 1,
+		energy = 150,
+		name = "電",
+		can_get_proficency = 0,
+		star = 2,
+		star_max = 5,
+		strengthen_id = 30112,
+		equip_id_2 = 35100,
+		equip_id_1 = 31200,
+		group_type = 30112,
+		id = 301121,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			10630
+		},
+		buff_list_display = {
+			10630,
+			22071
+		},
+		hide_buff_list = {}
+	},
+	[301122] = {
+		oil_at_start = 1,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 4,
+		type = 1,
+		energy = 150,
+		name = "電",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 5,
+		strengthen_id = 30112,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 30112,
+		id = 301122,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			10630,
+			22071
+		},
+		buff_list_display = {
+			10630,
+			22071
+		},
+		hide_buff_list = {}
+	},
+	[301123] = {
+		oil_at_start = 1,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 6,
+		type = 1,
+		energy = 150,
+		name = "電",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 5,
+		strengthen_id = 30112,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 30112,
+		id = 301123,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			10630,
+			22071
+		},
+		buff_list_display = {
+			10630,
+			22071
+		},
+		hide_buff_list = {}
+	},
+	[301124] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 8,
+		type = 1,
+		energy = 150,
+		name = "電",
+		can_get_proficency = 1,
+		star = 5,
+		star_max = 5,
+		strengthen_id = 30112,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 30112,
+		id = 301124,
+		equip_1 = {
+			1
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			10630,
+			22072
+		},
+		buff_list_display = {
+			10630,
 			22072
 		},
 		hide_buff_list = {}
@@ -19899,6 +20930,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			1011,
+			2051,
 			22141
 		},
 		hide_buff_list = {}
@@ -19943,6 +20975,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			1011,
+			2051,
 			22141
 		},
 		hide_buff_list = {}
@@ -19987,6 +21020,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			1011,
+			2051,
 			22141
 		},
 		hide_buff_list = {}
@@ -20031,6 +21065,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			1011,
+			2051,
 			22142
 		},
 		hide_buff_list = {}
@@ -20072,6 +21107,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			2011,
+			2051,
 			22211
 		},
 		hide_buff_list = {}
@@ -20114,6 +21150,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			2011,
+			2051,
 			22211
 		},
 		hide_buff_list = {}
@@ -20156,6 +21193,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			2011,
+			2051,
 			22211
 		},
 		hide_buff_list = {}
@@ -20198,6 +21236,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			2011,
+			2051,
 			22212
 		},
 		hide_buff_list = {}
@@ -20239,6 +21278,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			2011,
+			2051,
 			22211
 		},
 		hide_buff_list = {}
@@ -20281,6 +21321,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			2011,
+			2051,
 			22211
 		},
 		hide_buff_list = {}
@@ -20323,6 +21364,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			2011,
+			2051,
 			22211
 		},
 		hide_buff_list = {}
@@ -20365,6 +21407,7 @@ pg.ship_data_template = {
 		},
 		buff_list_display = {
 			2011,
+			2051,
 			22212
 		},
 		hide_buff_list = {}
@@ -21383,6 +22426,173 @@ pg.ship_data_template = {
 		buff_list_display = {
 			10570,
 			2051,
+			22262
+		},
+		hide_buff_list = {}
+	},
+	[303131] = {
+		oil_at_start = 1,
+		max_level = 70,
+		equip_id_3 = 0,
+		oil_at_end = 6,
+		type = 3,
+		energy = 150,
+		name = "摩耶",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 6,
+		strengthen_id = 30313,
+		equip_id_2 = 35200,
+		equip_id_1 = 33020,
+		group_type = 30313,
+		id = 303131,
+		equip_1 = {
+			3
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			10600
+		},
+		buff_list_display = {
+			10600,
+			22261
+		},
+		hide_buff_list = {}
+	},
+	[303132] = {
+		oil_at_start = 1,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 8,
+		type = 3,
+		energy = 150,
+		name = "摩耶",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 6,
+		strengthen_id = 30313,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 30313,
+		id = 303132,
+		equip_1 = {
+			3
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			10600,
+			22261
+		},
+		buff_list_display = {
+			10600,
+			22261
+		},
+		hide_buff_list = {}
+	},
+	[303133] = {
+		oil_at_start = 1,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 10,
+		type = 3,
+		energy = 150,
+		name = "摩耶",
+		can_get_proficency = 0,
+		star = 5,
+		star_max = 6,
+		strengthen_id = 30313,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 30313,
+		id = 303133,
+		equip_1 = {
+			3
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			10600,
+			22261
+		},
+		buff_list_display = {
+			10600,
+			22261
+		},
+		hide_buff_list = {}
+	},
+	[303134] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 12,
+		type = 3,
+		energy = 150,
+		name = "摩耶",
+		can_get_proficency = 1,
+		star = 6,
+		star_max = 6,
+		strengthen_id = 30313,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 30313,
+		id = 303134,
+		equip_1 = {
+			3
+		},
+		equip_2 = {
+			5
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			10600,
+			22262
+		},
+		buff_list_display = {
+			10600,
 			22262
 		},
 		hide_buff_list = {}
@@ -23957,6 +25167,190 @@ pg.ship_data_template = {
 		},
 		hide_buff_list = {
 			1
+		}
+	},
+	[312011] = {
+		oil_at_start = 1,
+		max_level = 70,
+		equip_id_3 = 0,
+		oil_at_end = 5,
+		type = 12,
+		energy = 150,
+		name = "明石",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 6,
+		strengthen_id = 31201,
+		equip_id_2 = 0,
+		equip_id_1 = 1000,
+		group_type = 31201,
+		id = 312011,
+		equip_1 = {
+			10
+		},
+		equip_2 = {
+			6
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			10550,
+			1034,
+			10520
+		},
+		buff_list_display = {
+			10550,
+			1034,
+			10520
+		},
+		hide_buff_list = {
+			10
+		}
+	},
+	[312012] = {
+		oil_at_start = 1,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 7,
+		type = 12,
+		energy = 150,
+		name = "明石",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 6,
+		strengthen_id = 31201,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 31201,
+		id = 312012,
+		equip_1 = {
+			10
+		},
+		equip_2 = {
+			6
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			10550,
+			1034,
+			10521
+		},
+		buff_list_display = {
+			10550,
+			1034,
+			10521
+		},
+		hide_buff_list = {
+			11
+		}
+	},
+	[312013] = {
+		oil_at_start = 1,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 9,
+		type = 12,
+		energy = 150,
+		name = "明石",
+		can_get_proficency = 0,
+		star = 5,
+		star_max = 6,
+		strengthen_id = 31201,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 31201,
+		id = 312013,
+		equip_1 = {
+			10
+		},
+		equip_2 = {
+			6
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			10550,
+			1034,
+			10521
+		},
+		buff_list_display = {
+			10550,
+			1034,
+			10521
+		},
+		hide_buff_list = {
+			12
+		}
+	},
+	[312014] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 11,
+		type = 12,
+		energy = 150,
+		name = "明石",
+		can_get_proficency = 1,
+		star = 6,
+		star_max = 6,
+		strengthen_id = 31201,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 31201,
+		id = 312014,
+		equip_1 = {
+			10
+		},
+		equip_2 = {
+			6
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10
+		},
+		equip_5 = {
+			10
+		},
+		airassist_time = {},
+		buff_list = {
+			10550,
+			1034,
+			10522
+		},
+		buff_list_display = {
+			10550,
+			1034,
+			10522
+		},
+		hide_buff_list = {
+			13
 		}
 	},
 	[401011] = {
@@ -26739,10 +28133,18 @@ pg.ship_data_template = {
 		102092,
 		102093,
 		102094,
+		102111,
+		102112,
+		102113,
+		102114,
 		103011,
 		103012,
 		103013,
 		103014,
+		103021,
+		103022,
+		103023,
+		103024,
 		103031,
 		103032,
 		103033,
@@ -26943,6 +28345,10 @@ pg.ship_data_template = {
 		203082,
 		203083,
 		203084,
+		203091,
+		203092,
+		203093,
+		203094,
 		204011,
 		204012,
 		204013,
@@ -26999,6 +28405,10 @@ pg.ship_data_template = {
 		213022,
 		213023,
 		213024,
+		213041,
+		213042,
+		213043,
+		213044,
 		301011,
 		301012,
 		301013,
@@ -27011,6 +28421,14 @@ pg.ship_data_template = {
 		301092,
 		301093,
 		301094,
+		301111,
+		301112,
+		301113,
+		301114,
+		301121,
+		301122,
+		301123,
+		301124,
 		301131,
 		301132,
 		301133,
@@ -27119,6 +28537,10 @@ pg.ship_data_template = {
 		303122,
 		303123,
 		303124,
+		303131,
+		303132,
+		303133,
+		303134,
 		304021,
 		304022,
 		304023,
@@ -27177,6 +28599,10 @@ pg.ship_data_template = {
 		307064,
 		310014,
 		310024,
+		312011,
+		312012,
+		312013,
+		312014,
 		401011,
 		401012,
 		401013,

@@ -143,6 +143,34 @@ pg.activity_template = {
 			"clutter/activity_bg_charge_award"
 		}
 	},
+	[21] = {
+		mark = 20170726,
+		title_res_tag = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5001,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 21,
+		config_data = {
+			5019,
+			{
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			}
+		}
+	},
 	[164] = {
 		mark = 20180914,
 		title_res_tag = "",
@@ -1355,6 +1383,7 @@ pg.activity_template = {
 	[40027] = {
 		mark = 20191118,
 		title_res_tag = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -1362,38 +1391,12 @@ pg.activity_template = {
 		config_client = "",
 		bg = "",
 		id = 40027,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					11,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					12,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[40028] = {
 		mark = 20191118,
 		title_res_tag = "ZprojectTW",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -1403,33 +1406,6 @@ pg.activity_template = {
 			10000,
 			10001,
 			10002
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					11,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					12,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		bg = {
 			"clutter/zproject"
@@ -1445,6 +1421,7 @@ pg.activity_template = {
 	[40029] = {
 		mark = 20191118,
 		title_res_tag = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -1459,14 +1436,26 @@ pg.activity_template = {
 			10003,
 			10004,
 			10005
-		},
+		}
+	},
+	[40030] = {
+		mark = 20191115,
+		title_res_tag = "",
+		type = 0,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "",
+		config_client = "",
+		bg = "",
+		id = 40030,
 		time = {
 			timer,
 			{
 				{
 					2019,
-					11,
-					28
+					12,
+					13
 				},
 				{
 					0,
@@ -1478,7 +1467,7 @@ pg.activity_template = {
 				{
 					2019,
 					12,
-					12
+					22
 				},
 				{
 					23,
@@ -1513,6 +1502,7 @@ pg.activity_template = {
 		6,
 		7,
 		9,
+		21,
 		164,
 		419,
 		421,
@@ -1549,6 +1539,7 @@ pg.activity_template = {
 		40027,
 		40028,
 		40029,
+		40030,
 		45000
 	}
 }

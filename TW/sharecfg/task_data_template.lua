@@ -1322,6 +1322,174 @@ pg.task_data_template = {
 			}
 		}
 	},
+	{
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 32,
+		type = 1,
+		name = "第八章·寒風",
+		count_inherit = 0,
+		desc = "通關8-1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "[33,3029,6029]",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 801,
+		id = 32,
+		target_num = 1,
+		fix_task = 3029,
+		target_id = "801",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				300
+			},
+			{
+				1,
+				2,
+				50
+			}
+		}
+	},
+	{
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 33,
+		type = 1,
+		name = "第八章·北極圈的拂曉",
+		count_inherit = 0,
+		desc = "通關8-2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "[34,3030,6030]",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 802,
+		id = 33,
+		target_num = 1,
+		fix_task = 3030,
+		target_id = "802",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				300
+			},
+			{
+				1,
+				2,
+				50
+			}
+		}
+	},
+	{
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 34,
+		type = 1,
+		name = "第八章·冰海怒濤",
+		count_inherit = 0,
+		desc = "通關8-3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "[35,3031,6031]",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 803,
+		id = 34,
+		target_num = 1,
+		fix_task = 3031,
+		target_id = "803",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				300
+			},
+			{
+				1,
+				2,
+				50
+			}
+		}
+	},
+	{
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 35,
+		type = 1,
+		name = "第八章·被遺忘的戰場",
+		count_inherit = 0,
+		desc = "通關8-4",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "[36,3032,6032]",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 804,
+		id = 35,
+		target_num = 1,
+		fix_task = 3032,
+		target_id = "804",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				1,
+				2,
+				150
+			}
+		}
+	},
 	[1001] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -4705,298 +4873,701 @@ pg.task_data_template = {
 			}
 		}
 	},
-	[3033] = {
+	[5001] = {
 		is_head = 0,
 		guild_coin_award = 0,
-		award = 3033,
-		type = 2,
-		name = "第九章·不詳之夜",
+		award = 5001,
+		type = 5,
+		name = "{namecode:98}的委託1",
 		count_inherit = 0,
-		desc = "完成9-1的3星收集",
+		desc = "幫忙喵！（上交通用部件T1）",
 		target_id_2 = "",
-		sub_type = 1021,
-		added_tip = 0,
-		story_icon = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "mingshi",
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "0",
+		next_task = "5002",
 		visibility = 1,
-		story_id = "",
-		target_id_for_client = 901,
-		id = 3033,
-		target_num = 1,
+		story_id = "AKASHI1",
+		target_id_for_client = 17001,
+		id = 5001,
+		target_num = 30,
 		fix_task = 0,
-		target_id = "901",
+		target_id = "17001",
 		open_need = {},
 		award_display = {
-			{
-				1,
-				4,
-				50
-			},
 			{
 				2,
-				54034,
-				1
+				17003,
+				3
 			}
 		}
 	},
-	[3034] = {
+	[5002] = {
 		is_head = 0,
 		guild_coin_award = 0,
-		award = 3034,
-		type = 2,
-		name = "第九章·攔截作戰",
+		award = 5002,
+		type = 5,
+		name = "{namecode:98}的委託2",
 		count_inherit = 0,
-		desc = "完成9-2的3星收集",
+		desc = "增加夥伴喵！（進行建造）",
 		target_id_2 = "",
-		sub_type = 1021,
+		sub_type = 30,
 		added_tip = 0,
-		story_icon = "",
+		story_icon = "mingshi",
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "0",
+		next_task = "5003",
 		visibility = 1,
-		story_id = "",
-		target_id_for_client = 902,
-		id = 3034,
-		target_num = 1,
+		story_id = "AKASHI2",
+		target_id_for_client = 0,
+		id = 5002,
+		target_num = 10,
 		fix_task = 0,
-		target_id = "902",
+		target_id = "0",
 		open_need = {},
 		award_display = {
-			{
-				1,
-				4,
-				50
-			},
-			{
-				4,
-				100001,
-				1
-			}
-		}
-	},
-	[3035] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 3035,
-		type = 2,
-		name = "第九章·黑夜中的光芒",
-		count_inherit = 0,
-		desc = "完成9-3的3星收集",
-		target_id_2 = "",
-		sub_type = 1021,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 903,
-		id = 3035,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "903",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				4,
-				50
-			},
 			{
 				2,
-				54035,
-				1
+				20001,
+				3
+			},
+			{
+				1,
+				1,
+				3000
 			}
 		}
 	},
-	[3036] = {
+	[5003] = {
 		is_head = 0,
 		guild_coin_award = 0,
-		award = 3036,
-		type = 2,
-		name = "第九章·海倫娜",
+		award = 5003,
+		type = 5,
+		name = "{namecode:98}的委託3",
 		count_inherit = 0,
-		desc = "完成9-4的3星收集",
+		desc = "開發裝備喵！（製作裝備）",
 		target_id_2 = "",
-		sub_type = 1021,
+		sub_type = 42,
 		added_tip = 0,
-		story_icon = "",
+		story_icon = "mingshi",
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "0",
+		next_task = "5004",
 		visibility = 1,
-		story_id = "",
-		target_id_for_client = 904,
-		id = 3036,
-		target_num = 1,
+		story_id = "AKASHI3",
+		target_id_for_client = 0,
+		id = 5003,
+		target_num = 5,
 		fix_task = 0,
-		target_id = "904",
+		target_id = "0",
 		open_need = {},
 		award_display = {
 			{
 				1,
-				4,
+				1,
+				500
+			}
+		}
+	},
+	[5004] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5004,
+		type = 5,
+		name = "{namecode:98}的委託4",
+		count_inherit = 0,
+		desc = "整理倉庫喵！（分解裝備）",
+		target_id_2 = "",
+		sub_type = 41,
+		added_tip = 0,
+		story_icon = "mingshi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5005",
+		visibility = 1,
+		story_id = "AKASHI4",
+		target_id_for_client = 0,
+		id = 5004,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				500
+			}
+		}
+	},
+	[5005] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5005,
+		type = 5,
+		name = "{namecode:98}的委託5",
+		count_inherit = 0,
+		desc = "委託喵！（完成委託）",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "mingshi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5006",
+		visibility = 1,
+		story_id = "AKASHI5",
+		target_id_for_client = 0,
+		id = 5005,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
 				100
-			},
-			{
-				4,
-				100011,
-				1
 			}
 		}
 	},
-	[3037] = {
+	[5006] = {
 		is_head = 0,
 		guild_coin_award = 0,
-		award = 3037,
-		type = 2,
-		name = "第十章·再次出擊，再次！",
+		award = 5006,
+		type = 5,
+		name = "{namecode:98}的委託5-1",
 		count_inherit = 0,
-		desc = "完成10-1的3星收集",
+		desc = "完成14個「後宅補給」日常任務",
 		target_id_2 = "",
-		sub_type = 1021,
+		sub_type = 91,
 		added_tip = 0,
-		story_icon = "",
+		story_icon = "mingshi",
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "0",
+		next_task = "5007",
 		visibility = 1,
-		story_id = "",
-		target_id_for_client = 1001,
-		id = 3037,
-		target_num = 1,
+		story_id = "AKASHI51",
+		target_id_for_client = 7022,
+		id = 5006,
+		target_num = 14,
 		fix_task = 0,
-		target_id = "1001",
+		target_id = "7022",
 		open_need = {},
 		award_display = {
 			{
-				1,
-				4,
-				50
+				2,
+				50005,
+				5
+			}
+		}
+	},
+	[5007] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5007,
+		type = 5,
+		name = "{namecode:98}的委託6-1",
+		count_inherit = 0,
+		desc = "完成「商船護送（火力）」",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "mingshi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5008",
+		visibility = 1,
+		story_id = "AKASHI6",
+		target_id_for_client = 0,
+		id = 5007,
+		target_num = 3,
+		fix_task = 0,
+		target_id = {
+			2000,
+			2002,
+			2004,
+			2006,
+			2008
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17013,
+				3
 			},
 			{
 				2,
-				54034,
-				1
+				17023,
+				3
 			}
 		}
 	},
-	[3038] = {
+	[5008] = {
 		is_head = 0,
 		guild_coin_award = 0,
-		award = 3038,
-		type = 2,
-		name = "第十章·先發制人",
+		award = 5008,
+		type = 5,
+		name = "{namecode:98}的委託6-2",
 		count_inherit = 0,
-		desc = "完成10-2的3星收集",
+		desc = "完成「商船護送（空域）」",
 		target_id_2 = "",
-		sub_type = 1021,
+		sub_type = 26,
 		added_tip = 0,
-		story_icon = "",
+		story_icon = "mingshi",
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "0",
+		next_task = "5009",
 		visibility = 1,
-		story_id = "",
-		target_id_for_client = 1002,
-		id = 3038,
-		target_num = 1,
+		story_id = "AKASHI62",
+		target_id_for_client = 0,
+		id = 5008,
+		target_num = 3,
 		fix_task = 0,
-		target_id = "1002",
+		target_id = {
+			2001,
+			2003,
+			2005,
+			2007,
+			2009
+		},
 		open_need = {},
 		award_display = {
 			{
-				1,
-				4,
-				50
-			},
-			{
-				4,
-				100001,
-				1
-			}
-		}
-	},
-	[3039] = {
-		is_head = 0,
-		guild_coin_award = 0,
-		award = 3039,
-		type = 2,
-		name = "第十章·乘勝追擊",
-		count_inherit = 0,
-		desc = "完成10-3的3星收集",
-		target_id_2 = "",
-		sub_type = 1021,
-		added_tip = 0,
-		story_icon = "",
-		scene = "",
-		award_choice = "",
-		level = 1,
-		next_task = "0",
-		visibility = 1,
-		story_id = "",
-		target_id_for_client = 1003,
-		id = 3039,
-		target_num = 1,
-		fix_task = 0,
-		target_id = "1003",
-		open_need = {},
-		award_display = {
-			{
-				1,
-				4,
-				50
+				2,
+				17033,
+				3
 			},
 			{
 				2,
-				54035,
+				17043,
+				3
+			}
+		}
+	},
+	[5009] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5009,
+		type = 5,
+		name = "{namecode:98}的委託6-3",
+		count_inherit = 0,
+		desc = "完成「海域突進」",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "mingshi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5010",
+		visibility = 1,
+		story_id = "AKASHI63",
+		target_id_for_client = 0,
+		id = 5009,
+		target_num = 3,
+		fix_task = 0,
+		target_id = {
+			3000,
+			3001,
+			3002,
+			3003,
+			3004
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
 				1
 			}
 		}
 	},
-	[3040] = {
+	[5010] = {
 		is_head = 0,
 		guild_coin_award = 0,
-		award = 3040,
-		type = 2,
-		name = "第十章·回馬槍",
+		award = 5010,
+		type = 5,
+		name = "{namecode:98}的委託6-4",
 		count_inherit = 0,
-		desc = "完成10-4的3星收集",
+		desc = "完成「斬首行動」",
 		target_id_2 = "",
-		sub_type = 1021,
+		sub_type = 26,
 		added_tip = 0,
-		story_icon = "",
+		story_icon = "mingshi",
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "0",
+		next_task = "5011",
 		visibility = 1,
-		story_id = "",
-		target_id_for_client = 1004,
-		id = 3040,
+		story_id = "AKASHI64",
+		target_id_for_client = 0,
+		id = 5010,
+		target_num = 3,
+		fix_task = 0,
+		target_id = {
+			4000,
+			4001,
+			4002,
+			4003,
+			4004
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30034,
+				1
+			}
+		}
+	},
+	[5011] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5011,
+		type = 5,
+		name = "{namecode:98}的委託7-1",
+		count_inherit = 0,
+		desc = "測試喵！(使用藏王科技箱T3)",
+		target_id_2 = "",
+		sub_type = 50,
+		added_tip = 0,
+		story_icon = "mingshi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5012",
+		visibility = 1,
+		story_id = "AKASHI7",
+		target_id_for_client = 30033,
+		id = 5011,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "30033",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30033,
+				2
+			}
+		}
+	},
+	[5012] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5012,
+		type = 5,
+		name = "{namecode:98}的委託7-2",
+		count_inherit = 0,
+		desc = "測試喵！(使用藏王重工科技箱T4)",
+		target_id_2 = "",
+		sub_type = 50,
+		added_tip = 0,
+		story_icon = "mingshi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5013",
+		visibility = 1,
+		story_id = "AKASHI72",
+		target_id_for_client = 30034,
+		id = 5012,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "30034",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30034,
+				1
+			}
+		}
+	},
+	[5013] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5013,
+		type = 5,
+		name = "{namecode:98}的委託8-1",
+		count_inherit = 0,
+		desc = "出擊喵！(擊破8-4)",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "mingshi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5014",
+		visibility = 1,
+		story_id = "AKASHI8",
+		target_id_for_client = 804,
+		id = 5013,
 		target_num = 1,
 		fix_task = 0,
-		target_id = "1004",
+		target_id = "804",
 		open_need = {},
 		award_display = {
 			{
 				1,
-				4,
+				2,
 				100
-			},
+			}
+		}
+	},
+	[5014] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5014,
+		type = 5,
+		name = "{namecode:98}的委託8-2",
+		count_inherit = 0,
+		desc = "出擊喵！(擊破困難1-4)",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "mingshi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5015",
+		visibility = 1,
+		story_id = "AKASHI82",
+		target_id_for_client = 10104,
+		id = 5014,
+		target_num = 6,
+		fix_task = 0,
+		target_id = "10104",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				300
+			}
+		}
+	},
+	[5015] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5015,
+		type = 5,
+		name = "{namecode:98}的委託8-3",
+		count_inherit = 0,
+		desc = "出擊喵！(通過困難第2章任意關卡)",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "mingshi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5016",
+		visibility = 1,
+		story_id = "AKASHI83",
+		target_id_for_client = 0,
+		id = 5015,
+		target_num = 6,
+		fix_task = 0,
+		target_id = {
+			10201,
+			10202,
+			10203,
+			10204
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				2
+			}
+		}
+	},
+	[5016] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5016,
+		type = 5,
+		name = "{namecode:98}的委託8-4",
+		count_inherit = 0,
+		desc = "出擊喵！(通過困難第3章任意關卡)",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "mingshi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5017",
+		visibility = 1,
+		story_id = "AKASHI84",
+		target_id_for_client = 0,
+		id = 5016,
+		target_num = 6,
+		fix_task = 0,
+		target_id = {
+			10301,
+			10302,
+			10303,
+			10304
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18012,
+				2
+			}
+		}
+	},
+	[5017] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5017,
+		type = 5,
+		name = "{namecode:98}的委託8-5",
+		count_inherit = 0,
+		desc = "出擊喵！(通過困難第4章任意關卡)",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "mingshi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5018",
+		visibility = 1,
+		story_id = "AKASHI85",
+		target_id_for_client = 0,
+		id = 5017,
+		target_num = 6,
+		fix_task = 0,
+		target_id = {
+			10401,
+			10402,
+			10403,
+			10404
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18022,
+				2
+			}
+		}
+	},
+	[5018] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5018,
+		type = 5,
+		name = "{namecode:98}的委託8-6",
+		count_inherit = 0,
+		desc = "出擊喵！(通過困難第5章任意關卡)",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "mingshi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5019",
+		visibility = 1,
+		story_id = "AKASHI86",
+		target_id_for_client = 0,
+		id = 5018,
+		target_num = 6,
+		fix_task = 0,
+		target_id = {
+			10501,
+			10502,
+			10503,
+			10504
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18032,
+				2
+			}
+		}
+	},
+	[5019] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5019,
+		type = 5,
+		name = "{namecode:98}的委託9",
+		count_inherit = 0,
+		desc = "回收喵！(找到特殊素材)",
+		target_id_2 = "",
+		sub_type = 100,
+		added_tip = 0,
+		story_icon = "mingshi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5020",
+		visibility = 1,
+		story_id = "AKASHI9",
+		target_id_for_client = 0,
+		id = 5019,
+		target_num = 11,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				11028,
+				11
+			}
+		}
+	},
+	[5020] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5020,
+		type = 5,
+		name = "{namecode:98}的委託10",
+		count_inherit = 0,
+		desc = "謝禮喵！(獲得「治癒系貓爪」)",
+		target_id_2 = "",
+		sub_type = 42,
+		added_tip = 0,
+		story_icon = "mingshi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "AKASHI10",
+		target_id_for_client = 11028,
+		id = 5020,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "11028",
+		open_need = {},
+		award_display = {
 			{
 				4,
-				100011,
+				312011,
 				1
 			}
 		}
@@ -15252,6 +15823,134 @@ pg.task_data_template = {
 		target_num = 1,
 		fix_task = 0,
 		target_id = "10404",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				2
+			}
+		}
+	},
+	[6017] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6017,
+		type = 2,
+		name = "困難·物資攔截戰",
+		count_inherit = 0,
+		desc = "完成困難5-1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 10501,
+		id = 6017,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "10501",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				2
+			}
+		}
+	},
+	[6018] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6018,
+		type = 2,
+		name = "困難·聖克魯斯的天空",
+		count_inherit = 0,
+		desc = "完成困難5-2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 10502,
+		id = 6018,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "10502",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				2
+			}
+		}
+	},
+	[6019] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6019,
+		type = 2,
+		name = "困難·大黃蜂的隕落",
+		count_inherit = 0,
+		desc = "完成困難5-3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 10503,
+		id = 6019,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "10503",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				2
+			}
+		}
+	},
+	[6020] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6020,
+		type = 2,
+		name = "困難·撤離戰區",
+		count_inherit = 0,
+		desc = "完成困難5-4的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 10504,
+		id = 6020,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "10504",
 		open_need = {},
 		award_display = {
 			{
@@ -30728,6 +31427,10 @@ pg.task_data_template = {
 		29,
 		30,
 		31,
+		32,
+		33,
+		34,
+		35,
 		1001,
 		1011,
 		1012,
@@ -30818,14 +31521,26 @@ pg.task_data_template = {
 		3030,
 		3031,
 		3032,
-		3033,
-		3034,
-		3035,
-		3036,
-		3037,
-		3038,
-		3039,
-		3040,
+		5001,
+		5002,
+		5003,
+		5004,
+		5005,
+		5006,
+		5007,
+		5008,
+		5009,
+		5010,
+		5011,
+		5012,
+		5013,
+		5014,
+		5015,
+		5016,
+		5017,
+		5018,
+		5019,
+		5020,
 		5031,
 		5032,
 		5033,
@@ -31109,6 +31824,10 @@ pg.task_data_template = {
 		6014,
 		6015,
 		6016,
+		6017,
+		6018,
+		6019,
+		6020,
 		7001,
 		7002,
 		7003,

@@ -96,10 +96,12 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			bgmDelay = 1,
 			side = 2,
 			dir = 1,
 			blackBg = true,
+			actorName = "观察者",
+			bgm = "holo-inochi",
 			actor = 900012,
 			nameColor = "#a9f548",
 			say = "欢迎回来哦，净化亲~？",

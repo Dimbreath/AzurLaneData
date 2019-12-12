@@ -37,6 +37,7 @@ end
 function slot7.UpdateAutoComponent(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0._scoutList) do
 		slot6:UpdateWeapon(slot1)
+		slot6:UpdateAirAssist()
 	end
 
 	for slot5, slot6 in ipairs(slot0._mainList) do
@@ -760,7 +761,7 @@ function slot7.CoupleEncourage(slot0)
 
 	if #slot7 > 0 then
 		slot7[math.random(#slot7)].cp:DispatchVoice(slot11)
-		slot7[math.random(#slot7)].cp:DispatchChat(HXSet.hxLan(slot7[math.random(#slot7)].content), 3, "link" .. slot7[math.random(#slot7)].linkIndex)
+		slot7[math.random(#slot7)].cp:DispatchChat(slot7[math.random(#slot7)].content, 3, "link" .. slot7[math.random(#slot7)].linkIndex)
 	end
 end
 

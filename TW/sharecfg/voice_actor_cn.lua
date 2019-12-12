@@ -277,7 +277,7 @@ pg.voice_actor_CN = {
 		code = 69
 	},
 	{
-		actor_name = "日藤英美里",
+		actor_name = "加藤英美里 ",
 		code = 70
 	},
 	{
