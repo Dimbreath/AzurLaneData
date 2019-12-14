@@ -90799,7 +90799,7 @@ pg.ship_skin_template = {
 	},
 	[10500061] = {
 		ship_group = 1050006,
-		name = "무라사키 시온",
+		name = "버츄얼 마법사 ",
 		id = 10500061,
 		desc = "hololive의 버츄얼 마법사, 무라사키 시온 등장! 이쪽 세계에서도 모두에게 나의 천재적인 모습을 보여주겠어!",
 		illustrator2 = -1,
