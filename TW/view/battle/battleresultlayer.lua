@@ -671,8 +671,7 @@ function slot0.showPainting(slot0)
 
 		SetActive(slot0._failPainting, false)
 	else
-		slot5 = slot0.contextData.oldMainShips[math.random(#slot0.contextData.oldMainShips)]
-		slot1, slot3, slot2 = ShipWordHelper.GetWordAndCV(mvpShipVO.skinId, ShipWordHelper.WORD_TYPE_LOSE)
+		slot1, slot3, slot2 = ShipWordHelper.GetWordAndCV(slot0.contextData.oldMainShips[math.random(#slot0.contextData.oldMainShips)].skinId, ShipWordHelper.WORD_TYPE_LOSE)
 	end
 
 	setText(slot0._chat:Find("Text"), slot2)
