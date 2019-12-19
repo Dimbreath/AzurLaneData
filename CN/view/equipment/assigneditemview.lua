@@ -26,7 +26,7 @@ function slot0.InitUI(slot0)
 	slot0.valueText = slot0:findTF("calc/value_bg/Text")
 	slot0.itemTF = slot0:findTF("item/bottom/item")
 	slot0.nameTF = slot0:findTF("item/bottom/name_bg/name")
-	slot0.descTF = slot0:findTF("item/bottom/desc")
+	slot0.descTF = slot0:findTF("item/bottom/desc_con/desc")
 
 	onButton(slot0, slot0._tf, function ()
 		slot0:Destroy()
