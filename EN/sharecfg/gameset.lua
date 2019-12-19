@@ -750,6 +750,21 @@ pg.gameset = {
 		key = "air_dominance_y",
 		key_value = 450
 	},
+	technology_protect_num = {
+		description = "",
+		key = "technology_protect_num",
+		key_value = 10
+	},
+	technology_daily_limit = {
+		description = "",
+		key = "technology_daily_limit",
+		key_value = 3
+	},
+	technology_once_limit = {
+		description = "",
+		key = "technology_once_limit",
+		key_value = 1
+	},
 	vote_web_url = {
 		description = "https://vote.azurlane.yo-star.com/",
 		key = "vote_web_url",

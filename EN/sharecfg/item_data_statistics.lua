@@ -3696,6 +3696,102 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[13012] = {
+		display = "Prototype Twin 457mm Main Gun (18\" MKA) T0 Design",
+		rarity = 5,
+		type = 9,
+		name = "Prototype Twin 457mm Main Gun (18\" MKA) T0 Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13012,
+		icon = "Equips/14500",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13013] = {
+		display = "Prototype Twin 406mm Main Gun (SK C/34) T0 Design",
+		rarity = 4,
+		type = 9,
+		name = "Prototype Twin 406mm Main Gun (SK C/34) T0 Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13013,
+		icon = "Equips/44200",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13014] = {
+		display = "Prototype Triple 152mm Main Gun (DP MK17) T0 Design",
+		rarity = 4,
+		type = 9,
+		name = "Prototype Triple 152mm Main Gun (DP MK17) T0 Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13014,
+		icon = "Equips/12200",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13015] = {
+		display = "Prototype 40mm AA Gun (Type 5) T0 Design",
+		rarity = 4,
+		type = 9,
+		name = "Prototype 40mm AA Gun (Type 5) T0 Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13015,
+		icon = "Equips/36700",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13016] = {
+		display = "Prototype Triple 310mm Main Gun (Type 0) T0 Design",
+		rarity = 4,
+		type = 9,
+		name = "Prototype Triple 310mm Main Gun (Type 0) T0 Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13016,
+		icon = "Equips/33100",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[13017] = {
+		display = "Twin 37mm AA Gun (Mle 1936) T0 Design",
+		rarity = 4,
+		type = 9,
+		name = "Twin 37mm AA Gun (Mle 1936) T0 Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 13017,
+		icon = "Equips/50600",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[15001] = {
 		display = "A Medal of Honor granted after retiring a ship. Use to apply for rare ships.",
 		rarity = 3,
@@ -6813,7 +6909,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		display = "Shougatsu Lucky Bag contains 1 x Kimono Ship skin, 2019 x Gems, 20 x T3 General Parts, 20 x Wisdom Cubes, 10 x Quick Finishers, and 100 x Decor Tokens ",
 		rarity = 4,
 		type = 5,
-		name = "Shougatsu Lucky Bag ",
+		name = "Shougatsu Lucky Bag (2019) ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -6860,7 +6956,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		display = "Lunar New Year Lucky Bag contains 1 x random Ship skin, 2019 x Gems, T3 Cruiser Retrofit Blueprint *1, T2 Cruiser Retrofit Blueprint *5, 20 x Wisdom Cubes, 10 x Quick Finishers, and 100 x Decor Tokens ",
 		rarity = 4,
 		type = 5,
-		name = "Lunar New Year Lucky Bag ",
+		name = "Lunar New Year Lucky Bag (2019) ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -6977,6 +7073,110 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 				1,
 				4,
 				2019
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[40908] = {
+		display = "Shougatsu Lucky Bag(2020) contains 1 x random Ship skin, 2020 x Gems, 50 x Cognitive Chips, 2 x Special General Blueprint - Series 2, 20 x Wisdom Cubes, 10 x Quick Finishers, and 100 x Decor Tokens ",
+		rarity = 4,
+		type = 5,
+		name = "Shougatsu Lucky Bag (2020) ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 40908,
+		icon = "Props/fudai1",
+		display_icon = {
+			{
+				2,
+				69908,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[40909] = {
+		display = "Lunar New Year Lucky Bag (2020) contains 1 x random Ship skin, 2020 x Gems, 50 x Cognitive Chips, 2 x Special General Blueprint - Series 2, 20 x Wisdom Cubes, 10 x Quick Finishers, and 100 x Decor Tokens ",
+		rarity = 4,
+		type = 5,
+		name = "Lunar New Year Lucky Bag (2020) ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 40909,
+		icon = "Props/fudai2",
+		display_icon = {
+			{
+				2,
+				69909,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
 			},
 			{
 				2,
@@ -7575,6 +7775,53 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 				2,
 				54006,
 				3
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[40965] = {
+		display = "Christmas Lucky Bag contains 1 x random Ship skin, 2019 x Gems, 2000 x Oils, 20 x Wisdom Cubes, 10 x Quick Finishers, and 100 x Decor Tokens ",
+		rarity = 4,
+		type = 5,
+		name = "Christmas Lucky Bag ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 40965,
+		icon = "Props/fudai60",
+		display_icon = {
+			{
+				2,
+				69960,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				1,
+				2,
+				2000
 			},
 			{
 				2,
@@ -12327,6 +12574,196 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		id = 42006,
 		icon = "Props/42006",
 		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[42010] = {
+		display = "Can be converted to a Blueprint for Seattle, Georgia, Kitakaze, Gascogne, or any of the Series 1 Priority ships.",
+		rarity = 4,
+		type = 13,
+		name = "General Blueprint - Series 2",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42010,
+		icon = "Props/42010",
+		display_icon = {
+			{
+				2,
+				42011,
+				1
+			},
+			{
+				2,
+				42012,
+				1
+			},
+			{
+				2,
+				42013,
+				1
+			},
+			{
+				2,
+				42016,
+				1
+			},
+			{
+				2,
+				42001,
+				1
+			},
+			{
+				2,
+				42002,
+				1
+			},
+			{
+				2,
+				42003,
+				1
+			},
+			{
+				2,
+				42004,
+				1
+			},
+			{
+				2,
+				42005,
+				1
+			},
+			{
+				2,
+				42006,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[42011] = {
+		display = "Blueprint for Eagle Union CL Seattle.\n<color=#92fc63>Can be used in the Shipyard to increase Seattle's stats once you've finished developing her.</color>",
+		rarity = 4,
+		type = 12,
+		name = "Blueprint - Seattle",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42011,
+		icon = "Props/42011",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[42012] = {
+		display = "Blueprint for Eagle Union BB Georgia.\n<color=#92fc63>Can be used in the Shipyard to increase Georgia's stats once you've finished developing her.</color>",
+		rarity = 4,
+		type = 12,
+		name = "Blueprint - Georgia",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42012,
+		icon = "Props/42012",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[42013] = {
+		display = "Blueprint for Sakura Empire DD Kitakaze.\n<color=#92fc63>Can be used in the Shipyard to increase Kitakaze's stats once you've finished developing her.</color>",
+		rarity = 4,
+		type = 12,
+		name = "Blueprint - Kitakaze",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42013,
+		icon = "Props/42013",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[42014] = {
+		display = "Blueprint for Sakura Empire CB Azuma.\n<color=#92fc63>Can be used in the Shipyard to increase Azuma's stats once you've finished developing her.</color>",
+		rarity = 5,
+		type = 12,
+		name = "Blueprint - Azuma",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42014,
+		icon = "Props/42014",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[42015] = {
+		display = "Blueprint for Iron Blood BB Friedrich der Große.\n<color=#92fc63>Can be used in the Shipyard to increase Friedrich der Große's stats once you've finished developing her.</color>",
+		rarity = 5,
+		type = 12,
+		name = "Blueprint - Friedrich der Große",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42015,
+		icon = "Props/42015",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[42016] = {
+		display = "Blueprint for Vichya Dominion BB Gascogne.\n<color=#92fc63>Can be used in the Shipyard to increase Gascogne's stats once you've finished developing her.</color>",
+		rarity = 4,
+		type = 12,
+		name = "Blueprint - Gascogne",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42016,
+		icon = "Props/42016",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[42017] = {
+		display = "Can be converted to a Blueprint for Azuma or Friedrich der Große.",
+		rarity = 5,
+		type = 13,
+		name = "Special General Blueprint - Series 2",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42017,
+		icon = "Props/42017",
+		display_icon = {
+			{
+				2,
+				42014,
+				1
+			},
+			{
+				2,
+				42015,
+				1
+			}
+		},
 		price = {},
 		index = {}
 	},
@@ -63762,6 +64199,22 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[59146] = {
+		display = "Used to obtain a portrait frame. ",
+		rarity = 2,
+		type = 98,
+		name = "Training Points ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59146,
+		icon = "Props/xunliandianshu_r",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		display = "One of Mikasa's scale models. This one is of the destroyer Kawakaze.",
 		rarity = 2,
@@ -65814,6 +66267,61 @@ Skins and their drop rates:
 		price = {},
 		index = {}
 	},
+	[69908] = {
+		display = [[
+从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
+包含的换装和概率如下：
+（<color=#92fc63>9%</color>）埃尔德里奇换装 正月的牵手（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9%</color>）峦换装  永梦的青女（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>10%</color>）圣路易斯换装 雪下之饮（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>12%</color>）侌换装  出云千本樱；
+（<color=#92fc63>12%</color>）威尔士亲王换装  皇家式风流；
+（<color=#92fc63>12%</color>）柉换装  新年合战；
+（<color=#92fc63>12%</color>）海伦娜换装  正月与青鸟；
+（<color=#92fc63>12%</color>）蒙彼利埃换装  雪夜之花；
+（<color=#92fc63>12%</color>）狳换装  幕间小憩；]],
+		rarity = 4,
+		type = 98,
+		name = "Random Skin",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69908,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69909] = {
+		display = [[
+从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
+包含的换装和概率如下：
+（<color=#92fc63>8.5%</color>）贝尔法斯特换装  彩云之玫瑰（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9%</color>）拉菲换装  白兔迎春（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9%</color>）太原换装  金蛇闹春（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>10.5%</color>）企业换装  傲春之牡丹；
+（<color=#92fc63>10.5%</color>）半人马换装  清冽的春风；
+（<color=#92fc63>10.5%</color>）君主换装  赭红爵祿；
+（<color=#92fc63>10.5%</color>）棭换装  夕暮春华；
+（<color=#92fc63>10.5%</color>）柚换装  新岁之鬼神；
+（<color=#92fc63>10.5%</color>）列克星敦换装  春华佳人；
+（<color=#92fc63>10.5%</color>）追赶者换装  东煌之道；]],
+		rarity = 4,
+		type = 98,
+		name = "Random Skin",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69909,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[69951] = {
 		display = [[
 This lucky bag contains a random Nep Ship skin (If you draw an already owned ship skin, you will be refunded 80% of the gem cost) 
@@ -66029,6 +66537,29 @@ Skins and their drop rates:
 			1,
 			100
 		},
+		index = {}
+	},
+	[69960] = {
+		display = [[
+This lucky bag contains a random Ship skin listed below. (If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's value in Gems) 
+Skins and their drop rates:
+（<color=#A9F548>18.0%</color>）Neptune - Princess of the Reindeers；
+（<color=#A9F548>20.5%</color>）Kiyonami - Festive Riding Hood?；
+（<color=#A9F548>20.5%</color>）Agano - Christmas Eve Tease；
+（<color=#A9F548>20.5%</color>）Concord - Sweet☆Christmas；
+（<color=#A9F548>20.5%</color>）Isuzu - Cozy Christmas Eve；]],
+		rarity = 4,
+		type = 98,
+		name = "Random Christmas skin ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69960,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
 		index = {}
 	},
 	[70000] = {
@@ -66791,6 +67322,12 @@ Skins and their drop rates:
 		13009,
 		13010,
 		13011,
+		13012,
+		13013,
+		13014,
+		13015,
+		13016,
+		13017,
 		15001,
 		15002,
 		15003,
@@ -66898,6 +67435,8 @@ Skins and their drop rates:
 		40904,
 		40905,
 		40906,
+		40908,
+		40909,
 		40951,
 		40952,
 		40953,
@@ -66912,6 +67451,7 @@ Skins and their drop rates:
 		40962,
 		40963,
 		40964,
+		40965,
 		41201,
 		41202,
 		41203,
@@ -67206,6 +67746,14 @@ Skins and their drop rates:
 		42004,
 		42005,
 		42006,
+		42010,
+		42011,
+		42012,
+		42013,
+		42014,
+		42015,
+		42016,
+		42017,
 		50001,
 		50002,
 		50003,
@@ -67972,6 +68520,7 @@ Skins and their drop rates:
 		59142,
 		59144,
 		59145,
+		59146,
 		59601,
 		59602,
 		59603,
@@ -68093,6 +68642,8 @@ Skins and their drop rates:
 		69904,
 		69905,
 		69906,
+		69908,
+		69909,
 		69951,
 		69952,
 		69953,
@@ -68102,6 +68653,7 @@ Skins and their drop rates:
 		69957,
 		69958,
 		69959,
+		69960,
 		70000,
 		70001,
 		70002,

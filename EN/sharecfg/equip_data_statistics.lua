@@ -10239,7 +10239,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			7,
-			10
+			10,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -10359,7 +10360,8 @@ pg.equip_data_statistics = {
 			4,
 			5,
 			7,
-			10
+			10,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -14890,7 +14892,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -16864,7 +16867,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[12200] = {
-		name = "试作型三联装152mm高平两用炮Mk17",
+		name = "Prototype Triple 152mm Main Gun (DP MK17)",
 		speciality = "Lock",
 		tech = 0,
 		type = 2,
@@ -17050,7 +17053,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -17125,7 +17129,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -17200,7 +17205,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -17309,7 +17315,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -17384,7 +17391,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -17493,7 +17501,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -19389,7 +19398,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[14500] = {
-		name = "试作型双联装457mm主炮MKA",
+		name = "Prototype Twin 457mm Main Gun (18\" MKA)",
 		type = 4,
 		id = 14500,
 		tech = 0,
@@ -28566,7 +28575,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -28641,7 +28651,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -28750,7 +28761,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -38867,7 +38879,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -38942,7 +38955,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -39051,7 +39065,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -39204,7 +39219,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -39326,7 +39342,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[33100] = {
-		name = "试作型三联装310mm主炮",
+		name = "Prototype Triple 310mm Main Gun (Type 0)",
 		type = 11,
 		id = 33100,
 		tech = 0,
@@ -44993,7 +45009,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[36700] = {
-		name = "试作型五式40mm高射机关炮",
+		name = "Prototype 40mm AA Gun (Type 5)",
 		type = 6,
 		id = 36700,
 		tech = 0,
@@ -50447,7 +50463,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -50556,7 +50573,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -50709,7 +50727,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -50862,7 +50881,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -51015,7 +51035,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -51091,7 +51112,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -51200,7 +51222,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -52077,7 +52100,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[44200] = {
-		name = "试作型双联装406mmSKC主炮",
+		name = "Prototype Twin 406mm Main Gun (SK C/34)",
 		type = 4,
 		id = 44200,
 		tech = 0,
@@ -65685,7 +65708,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89060] = {
-		name = "Team Emblem ",
+		name = "Team Emblem",
 		type = 10,
 		id = 89060,
 		tech = 0,
@@ -65810,7 +65833,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89080] = {
-		name = "Gamers Mark ",
+		name = "Gamers Mark",
 		type = 10,
 		id = 89080,
 		tech = 0,
@@ -65925,7 +65948,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89100] = {
-		name = "Corn Lantern ",
+		name = "Corn Lantern",
 		type = 10,
 		id = 89100,
 		tech = 0,
@@ -66051,7 +66074,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[89120] = {
-		name = "Ankimo ",
+		name = "Ankimo",
 		type = 10,
 		id = 89120,
 		tech = 0,
@@ -68228,7 +68251,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[90600] = {
-		name = "双联37mm高射炮Mle1936",
+		name = "Twin 37mm AA Gun (Mle 1936)",
 		type = 6,
 		id = 90600,
 		tech = 0,
@@ -69226,7 +69249,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -69334,7 +69358,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -69487,7 +69512,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -69640,7 +69666,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -69715,7 +69742,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},
@@ -69824,7 +69852,8 @@ pg.equip_data_statistics = {
 		},
 		skill_id = {},
 		part_main = {
-			3
+			3,
+			18
 		},
 		part_sub = {},
 		equip_parameters = {},

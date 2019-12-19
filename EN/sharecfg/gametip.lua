@@ -7800,6 +7800,10 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		tip = "Pixel ",
 		key = "emoji_type_3"
 	},
+	emoji_type_4 = {
+		tip = "Cartoon ",
+		key = "emoji_type_4"
+	},
 	card_pairs_help_tip = {
 		key = "card_pairs_help_tip",
 		tip = {
@@ -10043,6 +10047,64 @@ About Tech Points:
 		tip = "Research Progress: ",
 		key = "fate_phase_word"
 	},
+	blueprint_simulation_confirm = {
+		tip = "Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.",
+		key = "blueprint_simulation_confirm"
+	},
+	blueprint_simulation_confirm_19901 = {
+		tip = [[
+<size=28>Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.
+Equipped gear:
+Prototype Triple 152mm Main Gun (DP MK17)
+Prototype Triple 152mm Main Gun (DP MK17)
+Quadruple 40mm Bofors Gun</size>]],
+		key = "blueprint_simulation_confirm_19901"
+	},
+	blueprint_simulation_confirm_19902 = {
+		tip = [[
+<size=28>Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.
+Equipped gear:
+Prototype Twin 457mm Main Gun (18" MKA)
+Twin 127mm MK12 Dual Gun
+Quadruple 40mm Bofors Gun</size>]],
+		key = "blueprint_simulation_confirm_19902"
+	},
+	blueprint_simulation_confirm_39903 = {
+		tip = [[
+<size=28>Would you like to start a Battle Simulation? Note: the Priority ship's stats and abilities may differ from its fully developed equivalent.
+Equipped gear:
+Twin 100mm (Type 98) AA Gun
+Quadruple 610mm Torpedo
+Prototype 40mm AA Gun (Type 5)</size>]],
+		key = "blueprint_simulation_confirm_39903"
+	},
+	blueprint_simulation_confirm_39904 = {
+		tip = [[
+<size=28>Would you like to start a Battle Simulation? Note: the Priority ship's stats and abilities may differ from its fully developed equivalent.
+Equipped gear:
+Prototype Triple 310mm Main Gun (Type 0)
+Twin 100mm (Type 98) AA Gun
+Prototype 40mm AA Gun (Type 5)</size>]],
+		key = "blueprint_simulation_confirm_39904"
+	},
+	blueprint_simulation_confirm_49902 = {
+		tip = [[
+<size=28>Would you like to start a Battle Simulation? Note: the Priority ship's stats and abilities may differ from its fully developed equivalent.
+Equipped gear:
+Prototype Twin 406mm Main Gun (SK C/34)
+Twin 150mm Main Gun (TbtsK C/36)
+Twin 105mm AA Gun (SK C)</size>]],
+		key = "blueprint_simulation_confirm_49902"
+	},
+	blueprint_simulation_confirm_99901 = {
+		tip = [[
+<size=28>Would you like to start a Battle Simulation? Note: the Priority ship's stats and abilities may differ from its fully developed equivalent.
+Equipped gear:
+Quadruple 380mm Main Gun (Mle 1935)
+Triple 152mm Main Gun (Mle 1930)
+Twin 37mm AA Gun (Mle 1936)</size>]],
+		key = "blueprint_simulation_confirm_99901"
+	},
 	electrotherapy_wanning = {
 		tip = "The electrified area is about to expand",
 		key = "electrotherapy_wanning"
@@ -11257,6 +11319,126 @@ depends on the amount of damage dealt to the boss.
 	juese_tiyan = {
 		tip = "Would you like to try out this character? (Stats shown during testing are for reference only, <color=#ff5c5c>Actual performance when acquired may differ.</color>)",
 		key = "juese_tiyan"
+	},
+	resolve_amount_prefix = {
+		tip = "Disassemble amount:",
+		key = "resolve_amount_prefix"
+	},
+	compose_amount_prefix = {
+		tip = "Combine amount:",
+		key = "compose_amount_prefix"
+	},
+	confirm_unlock_ship_main = {
+		tip = "This ship is currently secretary, and cannot be selected again",
+		key = "confirm_unlock_ship_main"
+	},
+	msgbox_text_confirm = {
+		tip = "Confirm",
+		key = "msgbox_text_confirm"
+	},
+	msgbox_text_shop = {
+		tip = "Shop ",
+		key = "msgbox_text_shop"
+	},
+	msgbox_text_cancel = {
+		tip = "Cancel",
+		key = "msgbox_text_cancel"
+	},
+	msgbox_text_cancel_g = {
+		tip = "Cancel",
+		key = "msgbox_text_cancel_g"
+	},
+	msgbox_text_cancel_fight = {
+		tip = "Leave battle",
+		key = "msgbox_text_cancel_fight"
+	},
+	msgbox_text_goon_fight = {
+		tip = "Continue",
+		key = "msgbox_text_goon_fight"
+	},
+	msgbox_text_exit = {
+		tip = "Exit",
+		key = "msgbox_text_exit"
+	},
+	msgbox_text_clear = {
+		tip = "Clear",
+		key = "msgbox_text_clear"
+	},
+	msgbox_text_apply = {
+		tip = "Send",
+		key = "msgbox_text_apply"
+	},
+	msgbox_text_buy = {
+		tip = "Purchase",
+		key = "msgbox_text_buy"
+	},
+	msgbox_text_noPos_buy = {
+		tip = "Expand",
+		key = "msgbox_text_noPos_buy"
+	},
+	msgbox_text_noPos_clear = {
+		tip = "Sort",
+		key = "msgbox_text_noPos_clear"
+	},
+	msgbox_text_noPos_intensify = {
+		tip = "Enhance",
+		key = "msgbox_text_noPos_intensify"
+	},
+	msgbox_text_forward = {
+		tip = "Go",
+		key = "msgbox_text_forward"
+	},
+	msgbox_text_iknow = {
+		tip = "Got it",
+		key = "msgbox_text_iknow"
+	},
+	msgbox_text_prepage = {
+		tip = "Next",
+		key = "msgbox_text_prepage"
+	},
+	msgbox_text_nextpage = {
+		tip = "Prev",
+		key = "msgbox_text_nextpage"
+	},
+	msgbox_text_exchange = {
+		tip = "Exchange",
+		key = "msgbox_text_exchange"
+	},
+	msgbox_text_retreat = {
+		tip = "Retreat",
+		key = "msgbox_text_retreat"
+	},
+	msgbox_text_go = {
+		tip = "Go",
+		key = "msgbox_text_go"
+	},
+	msgbox_text_consume = {
+		tip = "Cost",
+		key = "msgbox_text_consume"
+	},
+	msgbox_text_inconsume = {
+		tip = "NO",
+		key = "msgbox_text_inconsume"
+	},
+	msgbox_text_unlock = {
+		tip = "Unlock",
+		key = "msgbox_text_unlock"
+	},
+	common_flag_ship = {
+		tip = "Secretary",
+		key = "common_flag_ship"
+	},
+	confirm_unlock_lv = {
+		tip = "Are you sure you want to unlock $1 ($2)?",
+		key = "confirm_unlock_lv"
+	},
+	shops_rest_day = {
+		tip = "Core Data store refreshes in :        days",
+		key = "shops_rest_day"
+	},
+	title_limit_time = {
+		tip = "「Event」",
+		key = "title_limit_time"
 	}
 }
 

@@ -9,6 +9,7 @@ slot0.TYPE_ACTIVITY_EXTRA = 8
 slot0.TYPE_GUILD = 9
 slot0.TYPE_SHAM_BATTLE = 10
 slot0.TYPE_ESCORT = 11
+slot0.TYPE_FRAGMENT = 12
 slot0.GIFT_BOX = 1
 slot0.MONTH_CARD = 2
 slot0.GEM = 0
@@ -29,7 +30,7 @@ end
 function slot0.bindConfigTable(slot0)
 	if slot0.type == slot0.TYPE_CHARGE then
 		return pg.pay_data_display
-	elseif slot0.type == slot0.TYPE_ACTIVITY or slot0.type == slot0.TYPE_SHAM_BATTLE or slot0.type == slot0.TYPE_ESCORT then
+	elseif slot0.type == slot0.TYPE_ACTIVITY or slot0.type == slot0.TYPE_SHAM_BATTLE or slot0.type == slot0.TYPE_FRAGMENT or slot0.type == slot0.TYPE_ESCORT then
 		return pg.activity_shop_template
 	elseif slot0.type == slot0.TYPE_ACTIVITY_EXTRA then
 		return pg.activity_shop_extra
@@ -65,7 +66,7 @@ function slot0.canPurchase(slot0)
 		return slot0:getLimitCount() <= 0 or slot0.buyCount < slot1
 	elseif slot0.type == slot0.TYPE_SHOPSTREET or slot0.type == slot0.TYPE_GUILD then
 		return slot0.buyCount > 0
-	elseif slot0.type == slot0.TYPE_ACTIVITY or slot0.type == slot0.TYPE_ACTIVITY_EXTRA or slot0.type == slot0.TYPE_SHAM_BATTLE or slot0.type == slot0.TYPE_ESCORT then
+	elseif slot0.type == slot0.TYPE_ACTIVITY or slot0.type == slot0.TYPE_ACTIVITY_EXTRA or slot0.type == slot0.TYPE_SHAM_BATTLE or slot0.type == slot0.TYPE_FRAGMENT or slot0.type == slot0.TYPE_ESCORT then
 		if slot0:getConfig("num_limit") == 0 then
 			return true
 		end
@@ -91,7 +92,7 @@ function slot0.hasDiscount(slot0)
 end
 
 function slot0.isDisCount(slot0)
-	if slot0.type ~= slot0.TYPE_CHARGE and slot0.type ~= slot0.TYPE_ACTIVITY and slot0.type ~= slot0.TYPE_ACTIVITY_EXTRA and slot0.type ~= slot0.TYPE_SHAM_BATTLE and slot0.type ~= slot0.TYPE_ESCORT then
+	if slot0.type ~= slot0.TYPE_CHARGE and slot0.type ~= slot0.TYPE_ACTIVITY and slot0.type ~= slot0.TYPE_ACTIVITY_EXTRA and slot0.type ~= slot0.TYPE_SHAM_BATTLE and slot0.type ~= slot0.TYPE_FRAGMENT and slot0.type ~= slot0.TYPE_ESCORT then
 		slot2 = true
 
 		if table.getCount(slot0:getConfig("discount_time")) ~= 0 then

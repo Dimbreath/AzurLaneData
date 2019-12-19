@@ -208719,6 +208719,534 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[199011] = {
+		name = "Seattle",
+		type = 2,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 199011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Seattle",
+		skin_id = 199010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			924,
+			33,
+			0,
+			70,
+			0,
+			57,
+			0,
+			54,
+			28,
+			33,
+			0,
+			37
+		},
+		attrs_growth = {
+			22545,
+			652,
+			0,
+			1364,
+			0,
+			286,
+			0,
+			792,
+			414,
+			0,
+			0,
+			370
+		},
+		attrs_growth_extra = {
+			0,
+			443,
+			0,
+			528,
+			0,
+			674,
+			0,
+			3,
+			726,
+			0,
+			0,
+			428
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"A",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			201
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.65,
+			1.3,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[199012] = {
+		name = "Seattle",
+		type = 2,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 199012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Seattle",
+		skin_id = 199010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			924,
+			33,
+			0,
+			70,
+			0,
+			57,
+			0,
+			54,
+			28,
+			33,
+			0,
+			46
+		},
+		attrs_growth = {
+			22545,
+			652,
+			0,
+			1364,
+			0,
+			286,
+			0,
+			792,
+			414,
+			0,
+			0,
+			370
+		},
+		attrs_growth_extra = {
+			0,
+			443,
+			0,
+			528,
+			0,
+			674,
+			0,
+			3,
+			726,
+			0,
+			0,
+			428
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"A",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			202
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			0.65,
+			1.3,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[199013] = {
+		name = "Seattle",
+		type = 2,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 199013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Seattle",
+		skin_id = 199010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			924,
+			33,
+			0,
+			70,
+			0,
+			57,
+			0,
+			54,
+			28,
+			33,
+			0,
+			65
+		},
+		attrs_growth = {
+			22545,
+			652,
+			0,
+			1364,
+			0,
+			286,
+			0,
+			792,
+			414,
+			0,
+			0,
+			370
+		},
+		attrs_growth_extra = {
+			0,
+			443,
+			0,
+			528,
+			0,
+			674,
+			0,
+			3,
+			726,
+			0,
+			0,
+			428
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"A",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			203
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			0.65,
+			1.3,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[199014] = {
+		name = "Seattle",
+		type = 2,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 199014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Seattle",
+		skin_id = 199010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			924,
+			33,
+			0,
+			70,
+			0,
+			57,
+			0,
+			54,
+			28,
+			33,
+			0,
+			93
+		},
+		attrs_growth = {
+			22545,
+			652,
+			0,
+			1364,
+			0,
+			286,
+			0,
+			792,
+			414,
+			0,
+			0,
+			370
+		},
+		attrs_growth_extra = {
+			0,
+			443,
+			0,
+			528,
+			0,
+			674,
+			0,
+			3,
+			726,
+			0,
+			0,
+			428
+		},
+		grades = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"A",
+			"B"
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			204
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			0.65,
+			1.3,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[199021] = {
 		name = "Georgia",
 		type = 5,
@@ -209232,7 +209760,7 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[399031] = {
-		name = "北风",
+		name = "Kitakaze",
 		type = 1,
 		personality = 2,
 		oxy_max = 0,
@@ -209360,7 +209888,7 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[399032] = {
-		name = "北风",
+		name = "Kitakaze",
 		type = 1,
 		personality = 2,
 		oxy_max = 0,
@@ -209488,7 +210016,7 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[399033] = {
-		name = "北风",
+		name = "Kitakaze",
 		type = 1,
 		personality = 2,
 		oxy_max = 0,
@@ -209616,7 +210144,7 @@ pg.ship_data_statistics = {
 		tag_list = {}
 	},
 	[399034] = {
-		name = "北风",
+		name = "Kitakaze",
 		type = 1,
 		personality = 2,
 		oxy_max = 0,
@@ -209735,6 +210263,1542 @@ pg.ship_data_statistics = {
 			0.95,
 			1.35,
 			1.35
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399041] = {
+		name = "Azuma",
+		type = 18,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 6,
+		ammo = 0,
+		id = 399041,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Azuma",
+		skin_id = 399040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1291,
+			58,
+			0,
+			42,
+			0,
+			62,
+			0,
+			43,
+			11,
+			27.2,
+			0,
+			0
+		},
+		attrs_growth = {
+			31480,
+			1136,
+			0,
+			824,
+			0,
+			310,
+			0,
+			636,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			9444,
+			601,
+			0,
+			564,
+			0,
+			733,
+			0,
+			-111,
+			567,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			0.5,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399042] = {
+		name = "Azuma",
+		type = 18,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 6,
+		ammo = 0,
+		id = 399042,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Azuma",
+		skin_id = 399040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1291,
+			58,
+			0,
+			42,
+			0,
+			62,
+			0,
+			43,
+			11,
+			27.2,
+			0,
+			0
+		},
+		attrs_growth = {
+			31480,
+			1136,
+			0,
+			824,
+			0,
+			310,
+			0,
+			636,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			9444,
+			601,
+			0,
+			564,
+			0,
+			733,
+			0,
+			-111,
+			567,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			0.5,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399043] = {
+		name = "Azuma",
+		type = 18,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 6,
+		ammo = 0,
+		id = 399043,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Azuma",
+		skin_id = 399040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1291,
+			58,
+			0,
+			42,
+			0,
+			62,
+			0,
+			43,
+			11,
+			27.2,
+			0,
+			0
+		},
+		attrs_growth = {
+			31480,
+			1136,
+			0,
+			824,
+			0,
+			310,
+			0,
+			636,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			9444,
+			601,
+			0,
+			564,
+			0,
+			733,
+			0,
+			-111,
+			567,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			0.6,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[399044] = {
+		name = "Azuma",
+		type = 18,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 6,
+		ammo = 0,
+		id = 399044,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Azuma",
+		skin_id = 399040,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1291,
+			58,
+			0,
+			42,
+			0,
+			62,
+			0,
+			43,
+			11,
+			27.2,
+			0,
+			0
+		},
+		attrs_growth = {
+			31480,
+			1136,
+			0,
+			824,
+			0,
+			310,
+			0,
+			636,
+			168,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			9444,
+			601,
+			0,
+			564,
+			0,
+			733,
+			0,
+			-111,
+			567,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.9,
+			0.6,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[499021] = {
+		name = "Friedrich der Grosse",
+		type = 5,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 6,
+		ammo = 0,
+		id = 499021,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Friedrich der Grosse",
+		skin_id = 499020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1634,
+			87,
+			0,
+			45,
+			0,
+			58,
+			0,
+			22,
+			8,
+			30,
+			0,
+			0
+		},
+		attrs_growth = {
+			39855,
+			1708,
+			0,
+			880,
+			0,
+			288,
+			0,
+			330,
+			120,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			27892,
+			289,
+			0,
+			605,
+			0,
+			680,
+			0,
+			48,
+			175,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"C",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			2.2,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[499022] = {
+		name = "Friedrich der Grosse",
+		type = 5,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 6,
+		ammo = 0,
+		id = 499022,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Friedrich der Grosse",
+		skin_id = 499020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1634,
+			87,
+			0,
+			45,
+			0,
+			58,
+			0,
+			22,
+			8,
+			30,
+			0,
+			0
+		},
+		attrs_growth = {
+			39855,
+			1708,
+			0,
+			880,
+			0,
+			288,
+			0,
+			330,
+			120,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			27892,
+			289,
+			0,
+			605,
+			0,
+			680,
+			0,
+			48,
+			175,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"C",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			2.2,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[499023] = {
+		name = "Friedrich der Grosse",
+		type = 5,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 6,
+		ammo = 0,
+		id = 499023,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Friedrich der Grosse",
+		skin_id = 499020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1634,
+			87,
+			0,
+			45,
+			0,
+			58,
+			0,
+			22,
+			8,
+			30,
+			0,
+			0
+		},
+		attrs_growth = {
+			39855,
+			1708,
+			0,
+			880,
+			0,
+			288,
+			0,
+			330,
+			120,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			27892,
+			289,
+			0,
+			605,
+			0,
+			680,
+			0,
+			48,
+			175,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"C",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			2.2,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[499024] = {
+		name = "Friedrich der Grosse",
+		type = 5,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 6,
+		ammo = 0,
+		id = 499024,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Friedrich der Grosse",
+		skin_id = 499020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1634,
+			87,
+			0,
+			45,
+			0,
+			58,
+			0,
+			22,
+			8,
+			30,
+			0,
+			0
+		},
+		attrs_growth = {
+			39855,
+			1708,
+			0,
+			880,
+			0,
+			288,
+			0,
+			330,
+			120,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			27892,
+			289,
+			0,
+			605,
+			0,
+			680,
+			0,
+			48,
+			175,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"C",
+			"S"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.5,
+			2.2,
+			0.9
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[999011] = {
+		name = "Gascogne",
+		type = 5,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 999011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Gascogne",
+		skin_id = 999010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1334,
+			83,
+			0,
+			45,
+			0,
+			62,
+			0,
+			24,
+			10,
+			32,
+			0,
+			0
+		},
+		attrs_growth = {
+			32540,
+			1632,
+			0,
+			884,
+			0,
+			308,
+			0,
+			360,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			13012,
+			354,
+			0,
+			601,
+			0,
+			727,
+			0,
+			43,
+			376,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"D",
+			"A"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			2,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[999012] = {
+		name = "Gascogne",
+		type = 5,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 999012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Gascogne",
+		skin_id = 999010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1334,
+			83,
+			0,
+			45,
+			0,
+			62,
+			0,
+			24,
+			10,
+			32,
+			0,
+			0
+		},
+		attrs_growth = {
+			32540,
+			1632,
+			0,
+			884,
+			0,
+			308,
+			0,
+			360,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			13012,
+			354,
+			0,
+			601,
+			0,
+			727,
+			0,
+			43,
+			376,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"D",
+			"A"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			2,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[999013] = {
+		name = "Gascogne",
+		type = 5,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 999013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Gascogne",
+		skin_id = 999010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1334,
+			83,
+			0,
+			45,
+			0,
+			62,
+			0,
+			24,
+			10,
+			32,
+			0,
+			0
+		},
+		attrs_growth = {
+			32540,
+			1632,
+			0,
+			884,
+			0,
+			308,
+			0,
+			360,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			13012,
+			354,
+			0,
+			601,
+			0,
+			727,
+			0,
+			43,
+			376,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"D",
+			"A"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			1
+		},
+		parallel_max = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			2,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[999014] = {
+		name = "Gascogne",
+		type = 5,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 6,
+		oxy_recovery = 0,
+		rarity = 5,
+		ammo = 0,
+		id = 999014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Gascogne",
+		skin_id = 999010,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1334,
+			83,
+			0,
+			45,
+			0,
+			62,
+			0,
+			24,
+			10,
+			32,
+			0,
+			0
+		},
+		attrs_growth = {
+			32540,
+			1632,
+			0,
+			884,
+			0,
+			308,
+			0,
+			360,
+			144,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			13012,
+			354,
+			0,
+			601,
+			0,
+			727,
+			0,
+			43,
+			376,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"D",
+			"A"
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			1
+		},
+		parallel_max = {
+			2,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.7,
+			2,
+			0.7
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -211289,6 +213353,10 @@ pg.ship_data_statistics = {
 		899012,
 		899013,
 		899014,
+		199011,
+		199012,
+		199013,
+		199014,
 		199021,
 		199022,
 		199023,
@@ -211296,7 +213364,19 @@ pg.ship_data_statistics = {
 		399031,
 		399032,
 		399033,
-		399034
+		399034,
+		399041,
+		399042,
+		399043,
+		399044,
+		499021,
+		499022,
+		499023,
+		499024,
+		999011,
+		999012,
+		999013,
+		999014
 	}
 }
 

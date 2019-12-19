@@ -847,6 +847,10 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Murasaki Shion",
 		code = 212
+	},
+	{
+		actor_name = "岩仓梓",
+		code = 213
 	}
 }
 

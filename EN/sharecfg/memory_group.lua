@@ -1147,6 +1147,19 @@ pg.memory_group = {
 			1055
 		}
 	},
+	[176] = {
+		title = "Christmas Party! ",
+		type = 2,
+		id = 176,
+		icon = "title_event",
+		memories = {
+			1056,
+			1057,
+			1058,
+			1059,
+			1060
+		}
+	},
 	[501] = {
 		title = "{namecode:98}'s Commission",
 		type = 3,
@@ -1843,6 +1856,7 @@ pg.memory_group = {
 		171,
 		174,
 		175,
+		176,
 		501,
 		502,
 		503,

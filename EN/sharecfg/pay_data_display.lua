@@ -679,7 +679,7 @@ pg.pay_data_display = {
 	[105] = {
 		limit_arg = 1,
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
-		name = "Shougatsu Lucky Bag",
+		name = "Shougatsu Lucky Bag (2019)",
 		descrip = "Contains 1 x Kimono Ship skin, 2019 x Gems, and other rewards. ",
 		subject = "Shogatsu Lucky Bag ",
 		extra_service = 3,
@@ -772,7 +772,7 @@ pg.pay_data_display = {
 	[106] = {
 		limit_arg = 1,
 		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
-		name = "Lunar New Year Lucky Bag ",
+		name = "Lunar New Year Lucky Bag (2019)",
 		descrip = "Contains 1 x Ship skin, 2019 x Gems, and other rewards. ",
 		subject = "Lunar New Year Lucky Bag ",
 		extra_service = 3,
@@ -1611,6 +1611,481 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[115] = {
+		limit_arg = 1,
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
+		name = "Christmas Lucky Bag ",
+		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards ",
+		subject = "Christmas Lucky Bag ",
+		extra_service = 3,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai60",
+		id_str = "com.yostaren.azurlane.diamond125",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 115,
+		airijp_id = "com.yostaren.azurlane.diamond125",
+		extra_service_item = {
+			{
+				2,
+				69960,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				1,
+				2,
+				2000
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69960,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				1,
+				2,
+				2000
+			}
+		}
+	},
+	[116] = {
+		limit_arg = 1,
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
+		name = "Shougatsu Lucky Bag (2020)",
+		descrip = "Contains 1 x random Ship skin, 2020 x Gems, and other rewards. ",
+		subject = "Shougatsu Lucky Bag (2020)",
+		extra_service = 3,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai1",
+		id_str = "com.yostaren.azurlane.diamond126",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 116,
+		airijp_id = "com.yostaren.azurlane.diamond126",
+		extra_service_item = {
+			{
+				2,
+				69908,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					12,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					12,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69908,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			}
+		}
+	},
+	[117] = {
+		limit_arg = 1,
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
+		name = "Shougatsu Lucky Bag (2019)",
+		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards. ",
+		subject = "Shougatsu Lucky Bag (2019)",
+		extra_service = 3,
+		money = 2999,
+		tag = 1,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai",
+		id_str = "com.yostaren.azurlane.diamond127",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 117,
+		airijp_id = "com.yostaren.azurlane.diamond127",
+		extra_service_item = {
+			{
+				2,
+				69903,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					12,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					12,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69903,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			}
+		}
+	},
+	[118] = {
+		limit_arg = 1,
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
+		name = "Lunar New Year Lucky Bag (2020)",
+		descrip = "Contains 1 x random Ship skin, 2020 x Gems, and other rewards. ",
+		subject = "Lunar New Year Lucky Bag (2020)",
+		extra_service = 3,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai2",
+		id_str = "com.yostaren.azurlane.diamond128",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 118,
+		airijp_id = "com.yostaren.azurlane.diamond128",
+		extra_service_item = {
+			{
+				2,
+				69909,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					12,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					12,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69909,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			}
+		}
+	},
+	[119] = {
+		limit_arg = 1,
+		descrip_extra = "*After your purchase, the Lucky Bag will be sent to your mailbox. \n*If you receive a ship skin that you already own, you will instead be given the corresponding skin's value in Gems. ",
+		name = "Lunar New Year Lucky Bag (2019)",
+		descrip = "Contains 1 x random Ship skin, 2019 x Gems, and other rewards. ",
+		subject = "Lunar New Year Lucky Bag (2019)",
+		extra_service = 3,
+		money = 2999,
+		tag = 1,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai",
+		id_str = "com.yostaren.azurlane.diamond129",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 119,
+		airijp_id = "com.yostaren.azurlane.diamond129",
+		extra_service_item = {
+			{
+				2,
+				69904,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					12,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					12,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69904,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1634,7 +2109,12 @@ pg.pay_data_display = {
 		111,
 		112,
 		113,
-		114
+		114,
+		115,
+		116,
+		117,
+		118,
+		119
 	}
 }
 

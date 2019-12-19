@@ -2136,6 +2136,118 @@ pg.skill_data_display = {
 		id = 19120,
 		name = "Engine Boost"
 	},
+	[19130] = {
+		id = 19130,
+		name = "No-Fly Zone! "
+	},
+	[19131] = {
+		id = 19131,
+		name = "No-Fly Zone! "
+	},
+	[19140] = {
+		id = 19140,
+		name = "Dual Nock"
+	},
+	[19141] = {
+		id = 19141,
+		name = "Dual Nock"
+	},
+	[19150] = {
+		id = 19150,
+		name = "Iron Sight Caliber"
+	},
+	[19160] = {
+		id = 19160,
+		name = "Heavy Barrel Blaster"
+	},
+	[19161] = {
+		id = 19161,
+		name = "Heavy Barrel Blaster"
+	},
+	[19170] = {
+		id = 19170,
+		name = "Kitakaze Style - Horizon Splitter "
+	},
+	[19180] = {
+		id = 19180,
+		name = "Kitakaze Style - Lotus Torpedoes "
+	},
+	[19181] = {
+		id = 19181,
+		name = "Kitakaze Style - Lotus Torpedoes "
+	},
+	[19190] = {
+		id = 19190,
+		name = "Blazing Peaks "
+	},
+	[19191] = {
+		id = 19191,
+		name = "Blazing Peaks "
+	},
+	[19200] = {
+		id = 19200,
+		name = "Mizuho's Intuition "
+	},
+	[19210] = {
+		id = 19210,
+		name = "Special Gunnery Training "
+	},
+	[19211] = {
+		id = 19211,
+		name = "Special Gunnery Training "
+	},
+	[19212] = {
+		id = 19212,
+		name = "Special Gunnery Training "
+	},
+	[19213] = {
+		id = 19213,
+		name = "Special Gunnery Training "
+	},
+	[19214] = {
+		id = 19214,
+		name = "Special Gunnery Training "
+	},
+	[19220] = {
+		id = 19220,
+		name = "Symphony of Destruction "
+	},
+	[19221] = {
+		id = 19221,
+		name = "Symphony of Destruction "
+	},
+	[19230] = {
+		id = 19230,
+		name = "Sonata of Chaos "
+	},
+	[19231] = {
+		id = 19231,
+		name = "Sonata of Chaos "
+	},
+	[19240] = {
+		id = 19240,
+		name = "Rhapsody of Darkness "
+	},
+	[19241] = {
+		id = 19241,
+		name = "Rhapsody of Darkness "
+	},
+	[19242] = {
+		id = 19242,
+		name = "Rhapsody of Darkness "
+	},
+	[19250] = {
+		id = 19250,
+		name = "Emotion Inhibition Module "
+	},
+	[19260] = {
+		id = 19260,
+		name = "Precision Salvo Protocol "
+	},
+	[19261] = {
+		id = 19261,
+		name = "Precision Salvo Protocol "
+	},
 	[20011] = {
 		id = 20011,
 		name = "All Out Assault Ⅰ"
@@ -3080,6 +3192,22 @@ pg.skill_data_display = {
 		id = 29362,
 		name = "All Out Assault: Sirius II "
 	},
+	[29381] = {
+		id = 29381,
+		name = "专属弹幕-{namecode:164}I"
+	},
+	[29382] = {
+		id = 29382,
+		name = "专属弹幕-{namecode:164}II"
+	},
+	[29391] = {
+		id = 29391,
+		name = "专属弹幕-西雅图I"
+	},
+	[29392] = {
+		id = 29392,
+		name = "专属弹幕-西雅图II"
+	},
 	[29421] = {
 		id = 29421,
 		name = "All Out Assault Ⅰ"
@@ -3903,6 +4031,34 @@ pg.skill_data_display = {
 		19100,
 		19110,
 		19120,
+		19130,
+		19131,
+		19140,
+		19141,
+		19150,
+		19160,
+		19161,
+		19170,
+		19180,
+		19181,
+		19190,
+		19191,
+		19200,
+		19210,
+		19211,
+		19212,
+		19213,
+		19214,
+		19220,
+		19221,
+		19230,
+		19231,
+		19240,
+		19241,
+		19242,
+		19250,
+		19260,
+		19261,
 		20011,
 		20012,
 		20021,
@@ -4139,6 +4295,10 @@ pg.skill_data_display = {
 		29351,
 		29361,
 		29362,
+		29381,
+		29382,
+		29391,
+		29392,
 		29421,
 		29422,
 		29431,

@@ -18936,7 +18936,7 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 	},
 	[23609] = {
 		use_gold = 2500,
-		name = "Main Gun Improvement Ⅰ",
+		name = "Main Gun Improvement Ⅱ",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,

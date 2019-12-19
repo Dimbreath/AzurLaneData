@@ -1,5 +1,90 @@
 pg = pg or {}
 pg.ship_skin_words_extra = {
+	[999010] = {
+		feeling3 = "",
+		id = 999010,
+		win_mvp = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		lose = "",
+		profile = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				100,
+				"Identification complete. Welcome back, Master!"
+			}
+		},
+		home = {
+			{
+				100,
+				"Here is a glass of armagnac, if you'd like."
+			}
+		},
+		detail = {
+			{
+				100,
+				"Analyzing armaments... Condition: satisfactory. Please inform me if you have any orders, Master."
+			}
+		},
+		upgrade = {
+			{
+				100,
+				"Ability enhancements confirmed... Nice!"
+			}
+		},
+		main = {
+			{
+				100,
+				"\"Raise the corners of your lips\"... Executing order. L-like this...? I may be doing it wrong...|Analysis complete. Master is in a state of \"slacking off.\" Slacking off is not good.|\"Do whatever you want\"... Master, how am I meant to do \"whatever\"...?|Discrepancy detected between the information in my core and the members of the fleet. Why does everyone smile?"
+			}
+		},
+		touch = {
+			{
+				100,
+				"I'm waiting for any order you may have, Master."
+			}
+		},
+		expedition = {
+			{
+				100,
+				"Attention: confirmation required for commission team's return. Whew..."
+			}
+		},
+		mission = {
+			{
+				100,
+				"Attention: confirmation required for incomplete missions. Master...?"
+			}
+		},
+		mission_complete = {
+			{
+				100,
+				"Attention: confirmation required for mission rewards. Wow...!"
+			}
+		},
+		mail = {
+			{
+				100,
+				"Attention: confirmation required for new mail. A-ahem!"
+			}
+		},
+		touch2 = {
+			{
+				100,
+				"Body temperature abnormality detected. Master, what's happening to me...?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I've studied many emotions, worries, and hopes during my time in this fleet... Now I finally understand what you expect of me, Master. Thank you so, so much, Master..."
+			}
+		}
+	},
 	[108030] = {
 		touch = "",
 		feeling3 = "",
@@ -106,6 +191,7 @@ pg.ship_skin_words_extra = {
 		}
 	},
 	all = {
+		999010,
 		108030,
 		207050
 	}

@@ -1846,6 +1846,186 @@ pg.expedition_data_template = {
 		},
 		bufficon = {}
 	},
+	[5024] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Challenge Mode",
+		exp_commander = 0,
+		time_limit = 180,
+		exp_commander_ratio = 30,
+		dungeon_id = 5024,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 110,
+		map_id = 8000,
+		limit_type = 1,
+		icon_type = 1,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 5024,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			180
+		},
+		bufficon = {}
+	},
+	[5025] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Challenge Mode",
+		exp_commander = 0,
+		time_limit = 180,
+		exp_commander_ratio = 30,
+		dungeon_id = 5025,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 110,
+		map_id = 8000,
+		limit_type = 1,
+		icon_type = 1,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 5025,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			180
+		},
+		bufficon = {}
+	},
+	[5026] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Challenge Mode",
+		exp_commander = 0,
+		time_limit = 180,
+		exp_commander_ratio = 30,
+		dungeon_id = 5026,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 110,
+		map_id = 8000,
+		limit_type = 1,
+		icon_type = 1,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 5026,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			180
+		},
+		bufficon = {}
+	},
+	[5027] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Challenge Mode",
+		exp_commander = 0,
+		time_limit = 180,
+		exp_commander_ratio = 30,
+		dungeon_id = 5027,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 110,
+		map_id = 8000,
+		limit_type = 1,
+		icon_type = 1,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 5027,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			180
+		},
+		bufficon = {}
+	},
+	[5028] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Challenge Mode",
+		exp_commander = 0,
+		time_limit = 180,
+		exp_commander_ratio = 30,
+		dungeon_id = 5028,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 110,
+		map_id = 8000,
+		limit_type = 1,
+		icon_type = 1,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 5028,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			180
+		},
+		bufficon = {}
+	},
 	[6000] = {
 		sink_limit = 1,
 		ai = 0,
@@ -2009,6 +2189,438 @@ pg.expedition_data_template = {
 		effect_prefab = "",
 		plot_type = 0,
 		id = 9801,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[9901] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Battle Simulation - Neptune",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 0,
+		dungeon_id = 9901,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 100,
+		map_id = 50000,
+		limit_type = 1,
+		icon_type = 1,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 9901,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[9902] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Battle Simulation - Monarch",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 0,
+		dungeon_id = 9902,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 100,
+		map_id = 50000,
+		limit_type = 1,
+		icon_type = 1,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 9902,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[9903] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Battle Simulation - Ibuki",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 0,
+		dungeon_id = 9903,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 100,
+		map_id = 50000,
+		limit_type = 1,
+		icon_type = 1,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 9903,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[9904] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Battle Simulation - Izumo",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 0,
+		dungeon_id = 9904,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 100,
+		map_id = 50000,
+		limit_type = 1,
+		icon_type = 1,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 9904,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[9905] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Battle Simulation - Roon",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 0,
+		dungeon_id = 9905,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 100,
+		map_id = 50000,
+		limit_type = 1,
+		icon_type = 1,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 9905,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[9906] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Battle Simulation - Saint Louis",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 0,
+		dungeon_id = 9906,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 100,
+		map_id = 50000,
+		limit_type = 1,
+		icon_type = 1,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 9906,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[9907] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Battle Simulation - Seattle",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 0,
+		dungeon_id = 9907,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 100,
+		map_id = 50000,
+		limit_type = 1,
+		icon_type = 1,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 9907,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[9908] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Battle Simulation - Georgia",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 0,
+		dungeon_id = 9908,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 100,
+		map_id = 50000,
+		limit_type = 1,
+		icon_type = 1,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 9908,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[9909] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Battle Simulation - Kitakaze",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 0,
+		dungeon_id = 9909,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 100,
+		map_id = 50000,
+		limit_type = 1,
+		icon_type = 1,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 9909,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[9910] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Battle Simulation - Azuma",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 0,
+		dungeon_id = 9910,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 100,
+		map_id = 50000,
+		limit_type = 1,
+		icon_type = 1,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 9910,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[9911] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Battle Simulation - Friedrich der Große",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 0,
+		dungeon_id = 9911,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 100,
+		map_id = 50000,
+		limit_type = 1,
+		icon_type = 1,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 9911,
+		scale = 100,
+		award_display = {},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[9912] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "Battle Simulation - Gascogne",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 0,
+		dungeon_id = 9912,
+		exp = 0,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 100,
+		map_id = 50000,
+		limit_type = 1,
+		icon_type = 1,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 9912,
 		scale = 100,
 		award_display = {},
 		objective_1 = {
@@ -276571,10 +277183,27 @@ pg.expedition_data_template = {
 		5021,
 		5022,
 		5023,
+		5024,
+		5025,
+		5026,
+		5027,
+		5028,
 		6000,
 		6001,
 		6002,
 		9801,
+		9901,
+		9902,
+		9903,
+		9904,
+		9905,
+		9906,
+		9907,
+		9908,
+		9909,
+		9910,
+		9911,
+		9912,
 		80000,
 		80001,
 		80002,

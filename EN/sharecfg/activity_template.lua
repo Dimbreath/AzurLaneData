@@ -10177,6 +10177,285 @@ pg.activity_template = {
 			}
 		}
 	},
+	[30286] = {
+		mark = 20191219,
+		title_res_tag = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 30286,
+		config_data = {
+			14672
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30287] = {
+		mark = 20191219,
+		title_res_tag = "",
+		type = 24,
+		login_pop = 0,
+		config_id = 30287,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 30287,
+		config_data = {
+			7
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					12,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			},
+			1,
+			1,
+			{
+				times,
+				15
+			}
+		}
+	},
+	[30288] = {
+		mark = 20191219,
+		title_res_tag = "",
+		type = 37,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 30288,
+		config_data = {
+			30286
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30289] = {
+		mark = 20191219,
+		title_res_tag = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 2,
+		is_show = 0,
+		config_data = "",
+		config_client = "",
+		bg = "",
+		id = 30289,
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					12,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30290] = {
+		mark = 20191219,
+		title_res_tag = "xunliandianshu_r",
+		type = 54,
+		login_pop = 0,
+		config_id = 30290,
+		is_show = 44,
+		config_client = "",
+		id = 30290,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_xunliandianshu_r"
+		}
+	},
+	[30291] = {
+		mark = 20191219,
+		title_res_tag = "ruoyeshengdan",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 43,
+		config_client = "",
+		id = 30291,
+		config_data = {
+			{
+				15224,
+				15225
+			},
+			{
+				15226,
+				15227
+			},
+			{
+				15228,
+				15229
+			},
+			{
+				15230,
+				15231
+			},
+			{
+				15232,
+				15233
+			},
+			{
+				15234,
+				15235
+			},
+			{
+				15236,
+				15237
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/skin_ruoyeshengdan"
+		}
+	},
 	[30500] = {
 		mark = 20181030,
 		title_res_tag = "",
@@ -11116,6 +11395,12 @@ pg.activity_template = {
 		30283,
 		30284,
 		30285,
+		30286,
+		30287,
+		30288,
+		30289,
+		30290,
+		30291,
 		30500,
 		30501,
 		30502,

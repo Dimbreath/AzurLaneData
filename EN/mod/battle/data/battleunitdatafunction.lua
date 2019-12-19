@@ -410,10 +410,10 @@ ys or .Battle.BattleDataFunction.CreateAirFighterWeaponUnit = function (slot0, s
 end
 
 ys or .Battle.BattleDataFunction.GetWords = function (slot0, slot1, slot2)
-	if (type(ShipWordHelper.RawGetWord(slot0, slot1)) == "string" and slot3 == "") or (type(slot3) == "table" and #slot3 == 0) then
-		return ShipWordHelper.RawGetWord(slot2, slot1)
+	if (type(Ship.getShipWords(slot0)[slot1]) == "string" and slot3 == "") or (type(slot3) == "table" and #slot3 == 0) then
+		return Ship.getShipWords(slot2)[slot1]
 	else
-		return slot3
+		return Ship.getShipWords(slot0)[slot1]
 	end
 end
 

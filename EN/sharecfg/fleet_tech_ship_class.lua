@@ -158,6 +158,17 @@ pg.fleet_tech_ship_class = {
 			10205
 		}
 	},
+	[10205] = {
+		shiptype = 2,
+		name = "Seattle-Class",
+		t_level = 8,
+		id = 10205,
+		t_level_1 = 0,
+		nation = 1,
+		ships = {
+			19901
+		}
+	},
 	[10301] = {
 		shiptype = 3,
 		name = "Pensacola-Class",
@@ -303,6 +314,17 @@ pg.fleet_tech_ship_class = {
 			10514,
 			10519,
 			10520
+		}
+	},
+	[10507] = {
+		shiptype = 5,
+		name = "Georgia-Class",
+		t_level = 9,
+		id = 10507,
+		t_level_1 = 0,
+		nation = 1,
+		ships = {
+			19902
 		}
 	},
 	[10601] = {
@@ -1023,6 +1045,17 @@ pg.fleet_tech_ship_class = {
 			30154
 		}
 	},
+	[30112] = {
+		shiptype = 1,
+		name = "Kitakaze-Class",
+		t_level = 9,
+		id = 30112,
+		t_level_1 = 0,
+		nation = 3,
+		ships = {
+			39903
+		}
+	},
 	[30201] = {
 		shiptype = 2,
 		name = "Yuubari-Class",
@@ -1388,6 +1421,17 @@ pg.fleet_tech_ship_class = {
 			31201
 		}
 	},
+	[31801] = {
+		shiptype = 18,
+		name = "Azuma-Class",
+		t_level = 9,
+		id = 31801,
+		t_level_1 = 114,
+		nation = 3,
+		ships = {
+			39904
+		}
+	},
 	[40101] = {
 		shiptype = 1,
 		name = "Type 1934",
@@ -1529,6 +1573,17 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			40501,
 			40502
+		}
+	},
+	[40502] = {
+		shiptype = 5,
+		name = "Friedrich der Große-Class",
+		t_level = 9,
+		id = 40502,
+		t_level_1 = 0,
+		nation = 4,
+		ships = {
+			49902
 		}
 	},
 	[40701] = {
@@ -1790,7 +1845,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 139,
 		nation = 9,
 		ships = {
-			90501
+			90501,
+			99901
 		}
 	},
 	all = {
@@ -1805,6 +1861,7 @@ pg.fleet_tech_ship_class = {
 		10202,
 		10203,
 		10204,
+		10205,
 		10301,
 		10302,
 		10303,
@@ -1817,6 +1874,7 @@ pg.fleet_tech_ship_class = {
 		10504,
 		10505,
 		10506,
+		10507,
 		10601,
 		10602,
 		10604,
@@ -1876,6 +1934,7 @@ pg.fleet_tech_ship_class = {
 		30109,
 		30110,
 		30111,
+		30112,
 		30201,
 		30202,
 		30203,
@@ -1907,6 +1966,7 @@ pg.fleet_tech_ship_class = {
 		30801,
 		30802,
 		31201,
+		31801,
 		40101,
 		40102,
 		40103,
@@ -1919,6 +1979,7 @@ pg.fleet_tech_ship_class = {
 		40303,
 		40401,
 		40501,
+		40502,
 		40701,
 		40801,
 		40802,
