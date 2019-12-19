@@ -7603,7 +7603,7 @@ pg.item_data_statistics = {
 		display = "패키지를 구매하면 특정 범위 내의 스킨을 랜덤하게 1개, 2019 다이아, 성정 유닛 50개, 성정 큐브 20개, 고속건조재 4개, 가구 코인 100개를 얻을 수 있다냥!",
 		rarity = 4,
 		type = 5,
-		name = "아카시 패키지",
+		name = "신년 패키지(2019) ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -7650,7 +7650,7 @@ pg.item_data_statistics = {
 		display = "패키지를 구매하면 특정 범위 내의 스킨을 랜덤하게 1개, 2019 다이아, 성정 유닛 50개, 성정 큐브 20개, 고속건조재 4개, 가구 코인 100개를 얻을 수 있다냥!",
 		rarity = 4,
 		type = 5,
-		name = "아카시 패키지",
+		name = "아카시 패키지(2019) ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -7762,6 +7762,110 @@ pg.item_data_statistics = {
 				1,
 				4,
 				2019
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[40908] = {
+		display = "패키지를 구매하면 특정 범위 내의 랜덤 스킨*1, 다이아*2020, 성정 유닛*50, 상급 지향형 강화 유닛-제2기*2, 성정 큐브*20, 고속건조재*10, 가구 코인*100를 얻을 수 있다냥! ",
+		rarity = 4,
+		type = 5,
+		name = "신년 패키지(2020) ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 40908,
+		icon = "Props/fudai1",
+		display_icon = {
+			{
+				2,
+				69908,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[40909] = {
+		display = "패키지를 구매하면 특정 범위 내의 랜덤 스킨*1, 다이아*2020, 성정 유닛*50, 상급 지향형 강화 유닛-제2기*2, 성정 큐브*20, 고속건조재*10, 가구 코인*100를 얻을 수 있다냥! ",
+		rarity = 4,
+		type = 5,
+		name = "아카시 패키지(2020) ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 40909,
+		icon = "Props/fudai2",
+		display_icon = {
+			{
+				2,
+				69909,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
 			},
 			{
 				2,
@@ -71067,6 +71171,61 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[69908] = {
+		display = [[
+从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
+包含的换装和概率如下：
+（<color=#92fc63>9%</color>）埃尔德里奇换装 正月的牵手（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9%</color>）峦换装  永梦的青女（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>10%</color>）圣路易斯换装 雪下之饮（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>12%</color>）侌换装  出云千本樱；
+（<color=#92fc63>12%</color>）威尔士亲王换装  皇家式风流；
+（<color=#92fc63>12%</color>）柉换装  新年合战；
+（<color=#92fc63>12%</color>）海伦娜换装  正月与青鸟；
+（<color=#92fc63>12%</color>）蒙彼利埃换装  雪夜之花；
+（<color=#92fc63>12%</color>）狳换装  幕间小憩；]],
+		rarity = 4,
+		type = 98,
+		name = "랜덤 신년 스킨(2020) ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69908,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69909] = {
+		display = [[
+从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
+包含的换装和概率如下：
+（<color=#92fc63>8.5%</color>）贝尔法斯特换装  彩云之玫瑰（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9%</color>）拉菲换装  白兔迎春（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9%</color>）太原换装  金蛇闹春（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>10.5%</color>）企业换装  傲春之牡丹；
+（<color=#92fc63>10.5%</color>）半人马换装  清冽的春风；
+（<color=#92fc63>10.5%</color>）君主换装  赭红爵祿；
+（<color=#92fc63>10.5%</color>）棭换装  夕暮春华；
+（<color=#92fc63>10.5%</color>）柚换装  新岁之鬼神；
+（<color=#92fc63>10.5%</color>）列克星敦换装  春华佳人；
+（<color=#92fc63>10.5%</color>）追赶者换装  东煌之道；]],
+		rarity = 4,
+		type = 98,
+		name = "랜덤 신년 스킨(2020) ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69909,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[70000] = {
 		display = "사용하여 「항구의 추억 다이어리」 No.1 개방",
 		rarity = 4,
@@ -72201,6 +72360,8 @@ pg.item_data_statistics = {
 		40904,
 		40905,
 		40906,
+		40908,
+		40909,
 		41201,
 		41202,
 		41203,
@@ -73501,6 +73662,8 @@ pg.item_data_statistics = {
 		69904,
 		69905,
 		69906,
+		69908,
+		69909,
 		70000,
 		70001,
 		70002,
