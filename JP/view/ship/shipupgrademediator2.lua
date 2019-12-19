@@ -21,7 +21,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.ON_SELECT_SHIP, function (slot0, slot1, slot2)
 		slot3 = {}
-		slot4 = slot0.bayProxy:fileterShips(ShipStatus.FILTER_SHIPS_FLAGS_1)
+		slot4 = slot0.bayProxy:fileterShips(ShipStatus.FILTER_SHIPS_FLAGS_3)
 		slot5 = pg.ship_data_template
 		slot6 = slot1:getRarity()
 
@@ -43,7 +43,29 @@ function slot0.register(slot0)
 			selectedMin = slot2 or 1,
 			ignoredIds = slot3,
 			selectedIds = slot0.contextData.materialShipIds or {},
-			onShip = Ship.canDestroyShip,
+			onShip = function (slot0, slot1)
+				if slot0.inAdmiral then
+					return false, i18n("confirm_unlock_ship_main")
+				elseif slot0:GetLockState() == Ship.LOCK_STATE_LOCK then
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						yseBtnLetf = true,
+						content = i18n("confirm_unlock_lv", "Lv." .. slot0.level, slot0:getName()),
+						onYes = function ()
+							pg.m02:sendNotification(GAME.UPDATE_LOCK, {
+								ship_id_list = {
+									slot0.id
+								},
+								is_locked = Ship.LOCK_STATE_UNLOCK
+							})
+						end,
+						yesText = i18n("msgbox_text_unlock")
+					})
+
+					return false, nil
+				else
+					return Ship.canDestroyShip(slot0, slot1)
+				end
+			end,
 			onSelected = function (slot0)
 				slot0.contextData.materialShipIds = slot0
 			end,

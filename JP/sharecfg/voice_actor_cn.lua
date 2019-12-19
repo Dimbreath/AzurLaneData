@@ -827,6 +827,10 @@ pg.voice_actor_CN = {
 	[212] = {
 		actor_name = "紫咲シオン",
 		code = 212
+	},
+	[213] = {
+		actor_name = "岩倉あずさ",
+		code = 213
 	}
 }
 

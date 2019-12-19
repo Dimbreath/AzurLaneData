@@ -321,4 +321,12 @@ function slot0.isMatchSearchKey(slot0, slot1)
 	return false
 end
 
+function slot0.GetDisCount(slot0)
+	if not pg.TimeMgr.GetInstance():inTime(slot0:getConfig("discount_time")) then
+		return 0
+	end
+
+	return slot0:getConfig("discount")
+end
+
 return slot0

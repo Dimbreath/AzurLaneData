@@ -21,9 +21,13 @@ slot11 = slot0.FieldDescriptor()
 slot12 = slot0.FieldDescriptor()
 SC_15007 = slot0.Descriptor()
 slot13 = slot0.FieldDescriptor()
-ITEMINFO = slot0.Descriptor()
+CS_15008 = slot0.Descriptor()
 slot14 = slot0.FieldDescriptor()
+SC_15009 = slot0.Descriptor()
 slot15 = slot0.FieldDescriptor()
+ITEMINFO = slot0.Descriptor()
+slot16 = slot0.FieldDescriptor()
+slot17 = slot0.FieldDescriptor()
 slot2.name = "item_list"
 slot2.full_name = ".p15.sc_15001.item_list"
 slot2.number = 1
@@ -202,41 +206,80 @@ SC_15007.fields = {
 }
 SC_15007.is_extendable = false
 SC_15007.extensions = {}
-slot14.name = "id"
-slot14.full_name = ".p15.iteminfo.id"
+slot14.name = "item_list"
+slot14.full_name = ".p15.cs_15008.item_list"
 slot14.number = 1
 slot14.index = 0
-slot14.label = 2
+slot14.label = 3
 slot14.has_default_value = false
-slot14.default_value = 0
-slot14.type = 13
-slot14.cpp_type = 3
-slot15.name = "count"
-slot15.full_name = ".p15.iteminfo.count"
-slot15.number = 2
-slot15.index = 1
+slot14.default_value = {}
+slot14.message_type = ITEMINFO
+slot14.type = 11
+slot14.cpp_type = 10
+CS_15008.name = "cs_15008"
+CS_15008.full_name = ".p15.cs_15008"
+CS_15008.nested_types = {}
+CS_15008.enum_types = {}
+CS_15008.fields = {
+	slot14
+}
+CS_15008.is_extendable = false
+CS_15008.extensions = {}
+slot15.name = "result"
+slot15.full_name = ".p15.sc_15009.result"
+slot15.number = 1
+slot15.index = 0
 slot15.label = 2
 slot15.has_default_value = false
 slot15.default_value = 0
 slot15.type = 13
 slot15.cpp_type = 3
+SC_15009.name = "sc_15009"
+SC_15009.full_name = ".p15.sc_15009"
+SC_15009.nested_types = {}
+SC_15009.enum_types = {}
+SC_15009.fields = {
+	slot15
+}
+SC_15009.is_extendable = false
+SC_15009.extensions = {}
+slot16.name = "id"
+slot16.full_name = ".p15.iteminfo.id"
+slot16.number = 1
+slot16.index = 0
+slot16.label = 2
+slot16.has_default_value = false
+slot16.default_value = 0
+slot16.type = 13
+slot16.cpp_type = 3
+slot17.name = "count"
+slot17.full_name = ".p15.iteminfo.count"
+slot17.number = 2
+slot17.index = 1
+slot17.label = 2
+slot17.has_default_value = false
+slot17.default_value = 0
+slot17.type = 13
+slot17.cpp_type = 3
 ITEMINFO.name = "iteminfo"
 ITEMINFO.full_name = ".p15.iteminfo"
 ITEMINFO.nested_types = {}
 ITEMINFO.enum_types = {}
 ITEMINFO.fields = {
-	slot14,
-	slot15
+	slot16,
+	slot17
 }
 ITEMINFO.is_extendable = false
 ITEMINFO.extensions = {}
 cs_15002 = slot0.Message(CS_15002)
 cs_15004 = slot0.Message(CS_15004)
 cs_15006 = slot0.Message(CS_15006)
+cs_15008 = slot0.Message(CS_15008)
 iteminfo = slot0.Message(ITEMINFO)
 sc_15001 = slot0.Message(SC_15001)
 sc_15003 = slot0.Message(SC_15003)
 sc_15005 = slot0.Message(SC_15005)
 sc_15007 = slot0.Message(SC_15007)
+sc_15009 = slot0.Message(SC_15009)
 
 return

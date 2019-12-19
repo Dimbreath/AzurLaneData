@@ -303,7 +303,15 @@ function slot0.sortThemes(slot0)
 		if ((slot0:isBought(slot0.furnitureVOs) and 0) or 1) == ((slot1:isBought(slot0.furnitureVOs) and 0) or 1) then
 			if ((slot0:isUnLock(slot0.playerVO) and 1) or 0) == ((slot1:isUnLock(slot0.playerVO) and 1) or 0) then
 				if slot0:getConfig("deblocking") == slot1:getConfig("deblocking") then
-					return slot1:getConfig("id") < slot0:getConfig("id")
+					if slot0:getConfig("new") == slot1:getConfig("new") then
+						if slot0:GetDisCount() == slot1:GetDisCount() then
+							return slot1:getConfig("id") < slot0:getConfig("id")
+						else
+							return slot11 < slot10
+						end
+					else
+						return slot9 < slot8
+					end
 				else
 					return slot6 < slot7
 				end

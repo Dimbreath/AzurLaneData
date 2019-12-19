@@ -60343,6 +60343,712 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[56001] = {
+		advice = 0,
+		describe = "クリスマスプレゼント…いい子限定！",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "オトギ町床",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 56,
+		icon = "dibancs3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 56001,
+		picture = "christmas3/dibancs3",
+		comfortable = 4,
+		tag = 4,
+		size = {
+			2,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56002] = {
+		advice = 0,
+		describe = "クリスマスプレゼント…いい子限定！",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "オトギ町壁",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 56,
+		icon = "qiangbics3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 56002,
+		picture = "christmas3/qiangbics3",
+		comfortable = 4,
+		tag = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56101] = {
+		advice = 0,
+		describe = "クリスマスイブでも運行する特別バス。運賃はワンコインで",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "オトギ町バス",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 56,
+		icon = "checs3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 56101,
+		picture = "christmas3/checs3",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			9,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					50,
+					108
+				},
+				{
+					-1,
+					1
+				},
+				"christmas3/checs3_using"
+			},
+			{
+				"sit",
+				{
+					-126,
+					34
+				},
+				{
+					-1,
+					1
+				},
+				"christmas3/checs3_using2"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56102] = {
+		advice = 0,
+		describe = "クリスマスイブを照らし出す光",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "オトギ町街灯",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 56,
+		icon = "dengcs3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 56102,
+		picture = "christmas3/dengcs3",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56103] = {
+		advice = 0,
+		describe = "サンタ帽子を装備した饅頭。…のようなスノーマン",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "クリスマスノー饅頭",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 56,
+		icon = "diaoxiangcs3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 56103,
+		picture = "christmas3/diaoxiangcs3",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56104] = {
+		advice = 0,
+		describe = "クリスマスイベントを告知する告知板",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "クリスマス告知板",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 56,
+		icon = "paics3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 56104,
+		picture = "christmas3/paics3",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56105] = {
+		advice = 0,
+		describe = "大きなキャンディ…のようなオブジェクト。舐めてはいけない",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "大型キャンディ（バニラ）",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 56,
+		icon = "penzai2cs3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 56105,
+		picture = "christmas3/penzai2cs3",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56106] = {
+		advice = 0,
+		describe = "大きなキャンディ…のようなオブジェクト。舐めてはいけない",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "大型キャンディ（イチゴ）",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 56,
+		icon = "penzaics3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 56106,
+		picture = "christmas3/penzaics3",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56107] = {
+		advice = 0,
+		describe = "「やっぱなにか飾ろうか？」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "お飾りツリー",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 56,
+		icon = "shu2cs3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 56107,
+		picture = "christmas3/shu2cs3",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56108] = {
+		advice = 0,
+		describe = "「今年こそ指揮官からのプレゼントを引き当てますわ…！」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "オトギ町のツリー",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 56,
+		icon = "shucs3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 56108,
+		picture = "christmas3/shucs3",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			7,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56109] = {
+		advice = 0,
+		describe = "かのビッグベンのミニチュア…ではなさそうだ",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "ミニサイズ・ベン",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 56,
+		icon = "tacs3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 1,
+		id = 56109,
+		picture = "christmas3/tacs3",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-153,
+					-228
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					115,
+					-232
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56110] = {
+		advice = 0,
+		describe = "サンタさんの来訪を見張る饅頭も",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "オトギ町コテージ",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 56,
+		icon = "wuzi2cs3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 56110,
+		picture = "christmas3/wuzi2cs3",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56111] = {
+		advice = 0,
+		describe = "「クリスマスのお菓子はどれがいいのかしら」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "オトギ町ビュッフェ",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 56,
+		icon = "wuzics3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 56111,
+		picture = "christmas3/wuzics3",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			7,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56112] = {
+		advice = 0,
+		describe = "雪をかき集めて、夢を作りあげよう",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "雪溜まり",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 56,
+		icon = "xuekuaics3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 56112,
+		picture = "christmas3/xuekuaics3",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56113] = {
+		advice = 0,
+		describe = "クリスマス風の装飾が飾られている",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "オトギ町フェンス",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 56,
+		icon = "zhalancs3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 56113,
+		picture = "christmas3/zhalancs3",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56114] = {
+		advice = 0,
+		describe = "「勇敢に挑めロイヤル騎士隊！なんてね♪」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "オトギ町風車",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 56,
+		icon = "fengchecs3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 56114,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fengchecs3B",
+				"normal"
+			},
+			{
+				"fengchecs3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"fengchecs3CharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[56115] = {
+		advice = 0,
+		describe = "「ただの焼き直しじゃないかにゃ…」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "クリスタルハウス",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 56,
+		icon = "xuehuaqiucs3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 56115,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shengdanxiaowu",
+				"normal",
+				{
+					"action",
+					flase
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -61732,7 +62438,24 @@ pg.furniture_data_template = {
 		55304,
 		55305,
 		55306,
-		55307
+		55307,
+		56001,
+		56002,
+		56101,
+		56102,
+		56103,
+		56104,
+		56105,
+		56106,
+		56107,
+		56108,
+		56109,
+		56110,
+		56111,
+		56112,
+		56113,
+		56114,
+		56115
 	}
 }
 

@@ -21,6 +21,7 @@ MSGBOX_TYPE_ITEM_BOX = 6
 MSGBOX_TYPE_HELP = 7
 MSGBOX_TYPE_SECONDPWD = 8
 pg.MsgboxMgr.enable = false
+slot2 = require("Mgr.const.MsgboxBtnNameMap")
 
 function pg.MsgboxMgr.Init(slot0, slot1)
 	print("initializing msgbox manager...")
@@ -120,7 +121,7 @@ function pg.MsgboxMgr.getMsgBoxOb(slot0)
 	return slot0._go
 end
 
-function slot2(slot0, slot1)
+function slot3(slot0, slot1)
 	if slot0._go.activeSelf then
 		slot0:Clear()
 	end
@@ -145,7 +146,7 @@ function slot2(slot0, slot1)
 	slot0:Loaded(slot1)
 end
 
-function slot3(slot0, slot1)
+function slot4(slot0, slot1)
 	slot0.enable = true
 
 	slot0:commonSetting(slot1)
@@ -181,7 +182,7 @@ function slot3(slot0, slot1)
 	slot0:Loaded(slot1)
 end
 
-function slot4(slot0, slot1)
+function slot5(slot0, slot1)
 	rtf(slot0._window).sizeDelta = slot0._defaultSize
 
 	slot0:commonSetting(slot1)
@@ -200,7 +201,7 @@ function slot4(slot0, slot1)
 	setText(slot0._tf:Find("window/exchange_ship_panel/name_mode/name"), HXSet.hxLan(slot1.name or slot1.drop.cfg.name or ""))
 	setText(slot0._tf:Find("window/exchange_ship_panel/name_mode/name/name"), getText(slot0._tf:Find("window/exchange_ship_panel/name_mode/name")))
 
-	slot5, slot6, slot7 = ShipWordHelper.GetWordAndCV(setText, ShipWordHelper.WORD_TYPE_DROP)
+	slot5, slot6, slot7 = ShipWordHelper.GetWordAndCV(slot0.ship_data_statistics[slot1.drop.id].skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
 
 	setText(slot2, slot7 or i18n("ship_drop_desc_default"))
 
@@ -228,7 +229,7 @@ function slot4(slot0, slot1)
 	slot0:Loaded(slot1)
 end
 
-function slot5(slot0, slot1)
+function slot6(slot0, slot1)
 	slot0:commonSetting(slot1)
 	SetActive(slot0._itemPanel, true)
 	SetActive(slot0._msgPanel, false)
@@ -270,7 +271,7 @@ function slot5(slot0, slot1)
 	slot0:Loaded(slot1)
 end
 
-function slot6(slot0, slot1)
+function slot7(slot0, slot1)
 	slot0:commonSetting(slot1)
 	SetActive(slot0._sigleItemPanel, true)
 	SetActive(slot0._itemPanel, false)
@@ -315,7 +316,7 @@ function pg.MsgboxMgr.GetSingleItemIntro(slot0, slot1)
 	return slot0.singleItemIntros[slot1]
 end
 
-function slot7(slot0, slot1)
+function slot8(slot0, slot1)
 	rtf(slot0._window).sizeDelta = slot0._defaultSize
 
 	slot0:commonSetting(slot1)
@@ -407,7 +408,7 @@ function slot7(slot0, slot1)
 	elseif slot1.drop.type == DROP_TYPE_FURNITURE then
 		setText(slot3, slot1.drop.cfg.describe)
 	elseif slot1.drop.type == DROP_TYPE_SHIP then
-		slot15, slot16, slot17 = ShipWordHelper.GetWordAndCV(slot14, ShipWordHelper.WORD_TYPE_DROP)
+		slot15, slot16, slot17 = ShipWordHelper.GetWordAndCV(slot2.ship_data_statistics[slot1.drop.id].skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
 
 		setText(slot3, slot17 or i18n("ship_drop_desc_default"))
 	elseif slot1.drop.type == DROP_TYPE_EQUIP then
@@ -474,7 +475,7 @@ function slot7(slot0, slot1)
 	slot0:Loaded(slot1)
 end
 
-function slot8(slot0, slot1)
+function slot9(slot0, slot1)
 	slot1.hideNo = defaultValue(slot1.hideNo, true)
 	slot1.hideYes = defaultValue(slot1.hideYes, true)
 
@@ -761,8 +762,10 @@ function pg.MsgboxMgr.commonSetting(slot0, slot1)
 		removeOnButton(slot0._go)
 	end
 
+	slot11, slot12 = nil
+
 	if not slot7 then
-		slot0:createBtn({
+		slot11 = slot0:createBtn({
 			text = slot0.settings.noText or slot1.TEXT_CANCEL,
 			btnType = slot0.settings.noBtnType or slot1.BUTTON_GRAY,
 			onCallback = slot10,
@@ -771,7 +774,7 @@ function pg.MsgboxMgr.commonSetting(slot0, slot1)
 	end
 
 	if not slot8 then
-		slot0:createBtn({
+		slot12 = slot0:createBtn({
 			text = slot0.settings.yesText or slot1.TEXT_CONFIRM,
 			btnType = slot0.settings.yesBtnType or slot1.BUTTON_BLUE,
 			onCallback = slot0.settings.onYes or function ()
@@ -781,7 +784,11 @@ function pg.MsgboxMgr.commonSetting(slot0, slot1)
 		})
 	end
 
-	slot11 = nil
+	if slot0.settings.yseBtnLetf then
+		slot12:SetAsFirstSibling()
+	end
+
+	slot13 = nil
 
 	if slot0.settings.type == MSGBOX_TYPE_HELP and slot0.settings.helps.pageMode and #slot0.settings.helps > 1 then
 		slot0:createBtn({
@@ -793,17 +800,17 @@ function pg.MsgboxMgr.commonSetting(slot0, slot1)
 			sound = SFX_CANCEL
 		})
 
-		slot11 = #slot0.settings.helps
+		slot13 = #slot0.settings.helps
 	end
 
 	if slot0.settings.custom ~= nil then
-		for slot15, slot16 in ipairs(slot0.settings.custom) do
-			slot0:createBtn(slot16)
+		for slot17, slot18 in ipairs(slot0.settings.custom) do
+			slot0:createBtn(slot18)
 		end
 	end
 
-	if not slot11 then
-	elseif slot11 > 1 then
+	if not slot13 then
+	elseif slot13 > 1 then
 		slot0:createBtn({
 			noQuit = true,
 			btnType = slot1.BUTTON_NEXTPAGE,
@@ -826,14 +833,14 @@ function pg.MsgboxMgr.commonSetting(slot0, slot1)
 		end
 	end, SFX_CANCEL)
 
-	slot12 = slot0.settings.title or slot1.TITLE_INFORMATION
-	slot13 = 0
-	slot14 = slot0._titleList.transform.childCount
+	slot14 = slot0.settings.title or slot1.TITLE_INFORMATION
+	slot15 = 0
+	slot16 = slot0._titleList.transform.childCount
 
-	while slot13 < slot14 do
-		SetActive(slot0._titleList.transform:GetChild(slot13), slot0._titleList.transform:GetChild(slot13).name == slot12)
+	while slot15 < slot16 do
+		SetActive(slot0._titleList.transform:GetChild(slot15), slot0._titleList.transform:GetChild(slot15).name == slot14)
 
-		slot13 = slot13 + 1
+		slot15 = slot15 + 1
 	end
 
 	slot0._go.transform.localPosition = Vector3(slot0._go.transform.localPosition.x, slot0._go.transform.localPosition.y, slot0.settings.zIndex or 0)
@@ -865,7 +872,9 @@ function pg.MsgboxMgr.createBtn(slot0, slot1)
 		slot6.localScale = Vector2(slot1.scale.x or 1, slot1.scale.y or 1)
 	end
 
-	if slot2 ~= slot0.BUTTON_RETREAT and slot2 ~= slot0.BUTTON_PREPAGE and slot2 ~= slot0.BUTTON_NEXTPAGE then
+	if slot2 == slot0.BUTTON_MEDAL then
+		setText(slot6:Find("text"), slot1.text)
+	elseif slot2 ~= slot0.BUTTON_RETREAT and slot2 ~= slot0.BUTTON_PREPAGE and slot2 ~= slot0.BUTTON_NEXTPAGE then
 		slot0:updateButton(slot6, slot1.text)
 	end
 
@@ -890,37 +899,21 @@ function pg.MsgboxMgr.createBtn(slot0, slot1)
 	if slot1.sibling then
 		slot6:SetSiblingIndex(slot1.sibling)
 	end
+
+	return slot6
 end
 
 function pg.MsgboxMgr.updateButton(slot0, slot1, slot2)
-	slot3 = slot1:Find("text")
-	slot4 = slot1:Find("pic")
-	slot5 = nil
+	slot3 = slot0[slot2]
 
-	if not IsNil(slot0._textPics:Find(slot2)) and not getImageSprite(slot6) and GetComponent(slot4, typeof(Text)) and slot7.text ~= "" then
-		slot5 = slot7
+	if IsNil(slot1:Find("pic")) then
+		return
 	end
 
-	if slot5 then
-		setActive(slot4, true)
-		setActive(slot3, false)
-
-		if not getImageSprite(slot4) and GetComponent(slot4, typeof(Text)) and slot7.text ~= "" then
-			if i18n(slot2) == i18n_not_find(slot2) then
-				slot8 = slot2
-			end
-
-			setText(slot7, slot8)
-		end
+	if slot3 then
+		setText(slot4, i18n(slot3))
 	else
-		setActive(slot4, false)
-		setActive(slot3, true)
-
-		if i18n(slot2) == i18n_not_find(slot2) then
-			slot7 = slot2
-		end
-
-		setText(slot3, slot7)
+		setText(slot4, slot2)
 	end
 end
 

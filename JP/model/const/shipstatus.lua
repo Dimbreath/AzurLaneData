@@ -9,6 +9,8 @@ function slot0.ShipStatu2Bg(slot0)
 		return "blue"
 	elseif slot0.inBackyard then
 		return "purple"
+	elseif slot0.inAdmiral then
+		return "light_green"
 	end
 end
 
@@ -41,6 +43,8 @@ function slot0.ShipStatu2Name(slot0)
 		elseif slot0.state == Ship.STATE_TRAIN then
 			slot1 = i18n("word_status_train")
 		end
+	elseif slot0.inAdmiral then
+		slot1 = i18n("common_flag_ship")
 	end
 
 	return slot1
@@ -76,6 +80,22 @@ slot0.FILTER_SHIPS_FLAGS_2 = {
 	inBackyard = true,
 	isActivityNpc = true,
 	inAdmiral = true
+}
+slot0.FILTER_SHIPS_FLAGS_3 = {
+	inExercise = false,
+	inChapter = true,
+	inPvp = false,
+	inFleet = false,
+	inClass = true,
+	inChallenge = true,
+	inTactics = false,
+	inElite = true,
+	inSham = true,
+	inEvent = true,
+	inBackyard = false,
+	isActivityNpc = true,
+	isActivity = true,
+	inAdmiral = false
 }
 
 return slot0

@@ -170,7 +170,6 @@ function slot0.loadPainting(slot0)
 	slot0.hideObjToggle.isOn = PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot0.paintingName, 0) ~= 0
 
 	setPaintingPrefabAsync(slot0.painting, slot0.paintingName, "pifu")
-	setPaintingPrefabAsync(slot0.painting, slot0.paintingName, "pifu")
 end
 
 function slot0.clear(slot0)

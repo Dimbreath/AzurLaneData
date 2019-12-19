@@ -144,8 +144,6 @@ function slot0.initHouse(slot0)
 
 	slot0:updateHouseArea(slot0.houseVO.level)
 	slot0:initFurnitures()
-	slot0:loadWallPaper(slot0.wallPaperVO, Furniture.TYPE_WALLPAPER)
-	slot0:loadWallPaper(slot0.floorPaperVO, Furniture.TYPE_FLOORPAPER)
 	slot0:emit(BackyardMainMediator.ON_CHECK_EFFECT)
 end
 
@@ -208,6 +206,8 @@ function slot0.updateHouseArea(slot0, slot1)
 
 		slot1.msgBoxWindow:Show(slot6, slot1.itemVO, slot4)
 	end, SFX_PANEL)
+	slot0:loadWallPaper(slot0.wallPaperVO, Furniture.TYPE_WALLPAPER)
+	slot0:loadWallPaper(slot0.floorPaperVO, Furniture.TYPE_FLOORPAPER)
 end
 
 function slot0.createMap(slot0, slot1, slot2)
