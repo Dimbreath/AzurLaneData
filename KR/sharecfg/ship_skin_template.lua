@@ -440,6 +440,111 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[101022] = {
+		ship_group = 10102,
+		name = "겨울밤의 감사",
+		id = 101022,
+		desc = "렉싱턴 씨가 크리스마스 스타일의 옷을 선물해 줬어요. 그녀의 팬에게 주는 선물이래요. 지휘관님, 예쁜가요?",
+		illustrator2 = -1,
+		bullet_skin_main = "",
+		bullet_skin_secondary = "",
+		painting = "duwei_3",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 1,
+		hand_id = 5,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "125",
+		isSwimsuit = 0,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "duwei_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70282,
+		voice_actor = 178,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.207,
+					1.131,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.008,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.17,
+					1.161,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.37,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
 	[101030] = {
 		ship_group = 10103,
 		name = "캐신",
@@ -10745,6 +10850,111 @@ pg.ship_skin_template = {
 		smoke = {
 			{
 				40,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.23,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[102182] = {
+		ship_group = 10218,
+		name = "성탄☆당분천국",
+		id = 102182,
+		desc = "Sweetie Christmas! 지휘관, 메리 크리스마스! 오늘은 이글 유니온에서 뭐든지 먹어도 괜찮은 날이야♪ 앗, 매일 이렇게 많이 먹는다고? 맞는 것 같기도 해~",
+		illustrator2 = -1,
+		bullet_skin_main = "",
+		bullet_skin_secondary = "",
+		painting = "kangkede_3",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 1,
+		hand_id = 14,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "125",
+		isSwimsuit = 0,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "kangkede_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70280,
+		voice_actor = 42,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.559,
+					1.105,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.003,
+					0.006,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.519,
+					1.108,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
 				{
 					{
 						"smoke",
@@ -43096,6 +43306,118 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[301231] = {
+		ship_group = 30123,
+		name = "크리스마스 한정 Wakaba",
+		id = 301231,
+		desc = "야호~ 좋은 아침, 지휘관! 여기는 현재 크리스마스 선물을 배달 중인 기간 한정 산타 {namecode:141}! 엑? 선물봉투? 아아아악, 지, 지휘관 어서 주워줘!——",
+		illustrator2 = -1,
+		bullet_skin_main = "",
+		bullet_skin_secondary = "",
+		painting = "ruoye_2",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 1,
+		hand_id = 14,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "125",
+		isSwimsuit = 0,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "ruoye_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 115,
+		air_bomb_skin = "",
+		illustrator = 27,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.165,
+					1.126,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.172,
+					1.199,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.001,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.205,
+					1.193,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.52,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301240] = {
 		ship_group = 30124,
 		name = "{namecode:129}",
@@ -46504,6 +46826,111 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[301541] = {
+		ship_group = 30154,
+		name = "크리스마스 빨간 모자?",
+		id = 301541,
+		desc = "오, 오래 기다리셨죠…? 이 옷은 유구레랑 같이 고른거에요. ‘크리스마스 느낌이 충만'하다고 하던데…이상하진 않죠?…음…",
+		illustrator2 = -1,
+		bullet_skin_main = "",
+		bullet_skin_secondary = "",
+		painting = "qingbo_3",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 1,
+		hand_id = 6,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "125",
+		isSwimsuit = 0,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "qingbo_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70278,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.333,
+					1.192,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.296,
+					1.138,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.436,
+							2.374,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
 	[301560] = {
 		ship_group = 30156,
 		name = "니이즈키",
@@ -48230,6 +48657,111 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[301641] = {
+		ship_group = 30164,
+		name = "순록과 성탄 선물",
+		id = 301641,
+		desc = "Merry Christmas~ 지휘관, 우리 같이 구축함 아들에게 선물 주러 가제이. 지휘관, 니는 산타고 내는 순록이다, 히히~",
+		illustrator2 = -1,
+		bullet_skin_main = "",
+		bullet_skin_secondary = "",
+		painting = "dachao_2",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 1,
+		hand_id = 14,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "100",
+		isSwimsuit = 0,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "dachao_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 135,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.819,
+					1.2,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.173,
+					0.109,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.773,
+					1.1,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.533,
+							2.416,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301642] = {
 		ship_group = 30164,
 		name = "취기 오른 파티",
@@ -49331,6 +49863,118 @@ pg.ship_skin_template = {
 				{
 					-0.77,
 					1.22,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.32,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[302052] = {
+		ship_group = 30205,
+		name = "훈훈한 크리스마스 밤",
+		id = 302052,
+		desc = "지휘관? 나는 크리스마스 선물을 포장하려고 여기에 계속 있었던 거야. 저, 절대로 벽난로가 따뜻해서 이러고 있는게 아니라구?",
+		illustrator2 = -1,
+		bullet_skin_main = "",
+		bullet_skin_secondary = "",
+		painting = "wushiling_3",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 1,
+		hand_id = 6,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "125",
+		isSwimsuit = 0,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "wushiling_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70281,
+		voice_actor = 82,
+		air_bomb_skin = "",
+		illustrator = 2,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.018,
+					1.165,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.004,
+					1.218,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.003,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.004,
+					1.232,
 					0
 				}
 			}
@@ -50679,6 +51323,118 @@ pg.ship_skin_template = {
 				{
 					1.13,
 					0.7,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.51,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[302201] = {
+		ship_group = 30220,
+		name = "성야의 장난",
+		id = 302201,
+		desc = "크리스마스에는 별로 관심이 없지만 귀여운 새 옷을 입고 지휘관님을 두근거리게 하는 일에는 꽤 관심이 있답니다. 후훗.",
+		illustrator2 = -1,
+		bullet_skin_main = "",
+		bullet_skin_secondary = "",
+		painting = "aheye_3",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 1,
+		hand_id = 2,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "125",
+		isSwimsuit = 0,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "aheye_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70279,
+		voice_actor = 132,
+		air_bomb_skin = "",
+		illustrator = 41,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.2,
+					1.108,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.161,
+					1.107,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.003,
+					0.002,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.13,
+					1.195,
 					0
 				}
 			}
@@ -80003,6 +80759,109 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[900130] = {
+		ship_group = 900130,
+		name = "나가토 ",
+		id = 900130,
+		desc = "呼，今天要招待指挥官，拜托你们把吾打扮得好看些，吾，呼啊……还有点困……汝等在吵闹什么？……？！指、指挥官，汝什么时候在那的！",
+		illustrator2 = -1,
+		bullet_skin_main = "",
+		bullet_skin_secondary = "",
+		painting = "changmen_2",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 6,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		isSwimsuit = 0,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "changmen_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 11,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.593,
+					0.988,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.571,
+					0.711,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.394,
+							2.446,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[900132] = {
 		ship_group = 900132,
 		name = "헬레나",
@@ -86520,109 +87379,6 @@ pg.ship_skin_template = {
 			}
 		}
 	},
-	[900130] = {
-		ship_group = 900130,
-		name = "나가토 ",
-		id = 900130,
-		desc = "呼，今天要招待指挥官，拜托你们把吾打扮得好看些，吾，呼啊……还有点困……汝等在吵闹什么？……？！指、指挥官，汝什么时候在那的！",
-		illustrator2 = -1,
-		bullet_skin_main = "",
-		bullet_skin_secondary = "",
-		painting = "changmen_2",
-		painting_hx = "",
-		air_bullet_skin = "",
-		shop_type_id = 0,
-		hand_id = 6,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		isSwimsuit = 0,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "changmen_2",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 11,
-		air_bomb_skin = "",
-		illustrator = -1,
-		rarity_bg = "",
-		isHX = 0,
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.593,
-					0.988,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.571,
-					0.711,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.394,
-							2.446,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[10100010] = {
 		ship_group = 1010001,
 		name = "넵튠",
@@ -91215,6 +91971,111 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[299011] = {
+		ship_group = 29901,
+		name = "루돌프 프린세스",
+		id = 299011,
+		desc = "흥, 평소에는 다른 아이에게 양보했지만, 가끔은 귀여운 옷으로 갈아입고 지휘관님이 나를 생각나게 해야지♪ 지휘관님, 메리크리스마스 ♪",
+		illustrator2 = -1,
+		bullet_skin_main = "",
+		bullet_skin_secondary = "",
+		painting = "haiwangxing_2",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 1,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "125",
+		isSwimsuit = 0,
+		skin_type = 0,
+		bg_sp = "1101",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "haiwangxing_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70276,
+		voice_actor = 103,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.607,
+					1.385,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.006,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.472,
+					1.399,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.43,
+							2.22,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[299020] = {
 		ship_group = 29902,
 		name = "모나크",
@@ -92617,6 +93478,111 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[199012] = {
+		ship_group = 19901,
+		name = "크리스마스 파티 준비 중!",
+		id = 199012,
+		desc = "메~리~ 크리스마스~! 크리스마스 파티를 바로 시작하고 싶지만, 보시는 대로 여전히 준비 중임다~ 조금만 기다려주면 고맙겠슴다!",
+		illustrator2 = -1,
+		bullet_skin_main = "",
+		bullet_skin_secondary = "",
+		painting = "xiyatu_3",
+		painting_hx = "",
+		air_bullet_skin = "",
+		shop_type_id = 1,
+		hand_id = 1,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "125",
+		isSwimsuit = 0,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "xiyatu_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70277,
+		voice_actor = 129,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.684,
+					0.734,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.007,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.624,
+					0.746,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.28,
+							2.31,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
 	[199020] = {
 		ship_group = 19902,
 		name = "조지아 ",
@@ -93555,6 +94521,7 @@ pg.ship_skin_template = {
 		100010,
 		101020,
 		101021,
+		101022,
 		101030,
 		101039,
 		101040,
@@ -93647,6 +94614,7 @@ pg.ship_skin_template = {
 		102162,
 		102180,
 		102181,
+		102182,
 		102190,
 		102200,
 		102210,
@@ -93937,6 +94905,7 @@ pg.ship_skin_template = {
 		301210,
 		301211,
 		301230,
+		301231,
 		301240,
 		301250,
 		301260,
@@ -93968,6 +94937,7 @@ pg.ship_skin_template = {
 		301490,
 		301491,
 		301540,
+		301541,
 		301560,
 		301570,
 		301580,
@@ -93984,6 +94954,7 @@ pg.ship_skin_template = {
 		301630,
 		301631,
 		301640,
+		301641,
 		301642,
 		301650,
 		301660,
@@ -93994,6 +94965,7 @@ pg.ship_skin_template = {
 		302040,
 		302050,
 		302051,
+		302052,
 		302090,
 		302099,
 		302100,
@@ -94006,6 +94978,7 @@ pg.ship_skin_template = {
 		302139,
 		302140,
 		302200,
+		302201,
 		303010,
 		303019,
 		303020,
@@ -94268,6 +95241,7 @@ pg.ship_skin_template = {
 		900076,
 		900077,
 		900079,
+		900130,
 		900132,
 		900133,
 		900134,
@@ -94329,7 +95303,6 @@ pg.ship_skin_template = {
 		900110,
 		900111,
 		900129,
-		900130,
 		10100010,
 		10100020,
 		10100030,
@@ -94374,6 +95347,7 @@ pg.ship_skin_template = {
 		10500070,
 		10500071,
 		299010,
+		299011,
 		299020,
 		299021,
 		299022,
@@ -94387,6 +95361,7 @@ pg.ship_skin_template = {
 		899010,
 		199010,
 		199011,
+		199012,
 		199020,
 		199021,
 		199022,

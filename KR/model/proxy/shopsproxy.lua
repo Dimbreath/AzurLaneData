@@ -9,6 +9,8 @@ slot0.ACTIVITY_SHOP_UPDATED = "ShopsProxy:ACTIVITY_SHOP_UPDATED"
 slot0.GUILD_SHOP_ADDED = "ShopsProxy:GUILD_SHOP_ADDED"
 slot0.GUILD_SHOP_UPDATED = "ShopsProxy:GUILD_SHOP_UPDATED"
 slot0.ACTIVITY_SHOPS_UPDATED = "ShopsProxy:ACTIVITY_SHOPS_UPDATED"
+slot0.SHAM_SHOP_UPDATED = "SHAM_SHOP_UPDATED"
+slot0.FRAGMENT_SHOP_UPDATED = "FRAGMENT_SHOP_UPDATED"
 
 function slot0.register(slot0)
 	slot0.shopStreet = nil
@@ -26,6 +28,14 @@ function slot0.register(slot0)
 		else
 			slot0:setGuildShop(slot1)
 		end
+	end)
+
+	slot0.shamShop = ShamBattleShop.New()
+	slot0.fragmentShop = FragmentShop.New()
+
+	slot0:on(16200, function (slot0)
+		slot0.shamShop:update(pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t").month, slot0.core_shop_list)
+		slot0.fragmentShop:update(pg.TimeMgr.GetInstance().STimeDescS(pg.TimeMgr.GetInstance().GetServerTime(), "*t").month, slot0.blue_shop_list)
 	end)
 
 	slot0.timers = {}
@@ -250,6 +260,26 @@ function slot0.updateGuildShop(slot0, slot1, slot2)
 		shop = slot0.guildShop,
 		reset = slot2
 	})
+end
+
+function slot0.updateShamShop(slot0, slot1)
+	slot0.shamShop = slot1
+
+	slot0:sendNotification(slot0.SHAM_SHOP_UPDATED, slot1)
+end
+
+function slot0.getShamShop(slot0)
+	return slot0.shamShop
+end
+
+function slot0.updateFragmentShop(slot0, slot1)
+	slot0.fragmentShop = slot1
+
+	slot0:sendNotification(slot0.FRAGMENT_SHOP_UPDATED, slot1)
+end
+
+function slot0.getFragmentShop(slot0)
+	return slot0.fragmentShop
 end
 
 function slot0.remove(slot0)

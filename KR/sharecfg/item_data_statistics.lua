@@ -12439,7 +12439,10 @@ pg.item_data_statistics = {
 		id = 42001,
 		icon = "Props/42001",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			5
+		},
 		index = {}
 	},
 	[42002] = {
@@ -12455,7 +12458,10 @@ pg.item_data_statistics = {
 		id = 42002,
 		icon = "Props/42002",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			5
+		},
 		index = {}
 	},
 	[42003] = {
@@ -12471,7 +12477,10 @@ pg.item_data_statistics = {
 		id = 42003,
 		icon = "Props/42003",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			5
+		},
 		index = {}
 	},
 	[42004] = {
@@ -12487,7 +12496,10 @@ pg.item_data_statistics = {
 		id = 42004,
 		icon = "Props/42004",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			5
+		},
 		index = {}
 	},
 	[42005] = {
@@ -12503,7 +12515,10 @@ pg.item_data_statistics = {
 		id = 42005,
 		icon = "Props/42005",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			5
+		},
 		index = {}
 	},
 	[42006] = {
@@ -12519,7 +12534,10 @@ pg.item_data_statistics = {
 		id = 42006,
 		icon = "Props/42006",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			5
+		},
 		index = {}
 	},
 	[42010] = {
@@ -12602,7 +12620,10 @@ pg.item_data_statistics = {
 		id = 42011,
 		icon = "Props/42011",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			5
+		},
 		index = {}
 	},
 	[42012] = {
@@ -12618,7 +12639,10 @@ pg.item_data_statistics = {
 		id = 42012,
 		icon = "Props/42012",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			5
+		},
 		index = {}
 	},
 	[42013] = {
@@ -12634,7 +12658,10 @@ pg.item_data_statistics = {
 		id = 42013,
 		icon = "Props/42013",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			5
+		},
 		index = {}
 	},
 	[42014] = {
@@ -12650,7 +12677,10 @@ pg.item_data_statistics = {
 		id = 42014,
 		icon = "Props/42014",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			20
+		},
 		index = {}
 	},
 	[42015] = {
@@ -12666,7 +12696,10 @@ pg.item_data_statistics = {
 		id = 42015,
 		icon = "Props/42015",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			20
+		},
 		index = {}
 	},
 	[42016] = {
@@ -12682,7 +12715,10 @@ pg.item_data_statistics = {
 		id = 42016,
 		icon = "Props/42016",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			5
+		},
 		index = {}
 	},
 	[42017] = {
@@ -12770,17 +12806,17 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "단맛? 매운맛? 취향은 사람마다 제각각... \n<color=#92fc63>(60분 동안 숙소 경험치 효율 5% 상승)</color>",
+		display = "오리지널 지팡이 사탕은 흰색이라고 하네요. <color=#92fc63>（60분 동안 숙소 경험치 효율 5% 상승）</color> ",
 		rarity = 2,
 		type = 3,
-		name = "해군 카레",
+		name = "지팡이 사탕 ",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		virtual_type = 0,
 		replace_item = 0,
 		link_id = 0,
 		id = 50004,
-		icon = "Props/haijungali",
+		icon = "Props/christmas",
 		display_icon = {},
 		price = {
 			1,
@@ -67414,10 +67450,10 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[57762] = {
-		display = "有几率获得随机装备部件T1~T2",
+		display = "일정 확률로 장비 부속 T1~T2를 얻을 수 있습니다.",
 		rarity = 2,
 		type = 99,
-		name = "未知装备部件T2",
+		name = "랜덤 부속 T2",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -69506,9 +69542,9 @@ pg.item_data_statistics = {
 		type = 7,
 		name = "전사의 마음가짐 ",
 		shop_id = -1,
-		shiptrans_id = 0,
+		shiptrans_id = 205124,
 		virtual_type = 0,
-		replace_item = 0,
+		replace_item = 59939,
 		link_id = 0,
 		id = 59762,
 		icon = "Props/yanzhandabaojian",

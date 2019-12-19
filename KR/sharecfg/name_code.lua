@@ -743,12 +743,12 @@ pg.name_code = {
 	{
 		id = 149,
 		name = "凉风",
-		code = "莨"
+		code = "스즈카제 "
 	},
 	{
 		id = 150,
 		name = "海风",
-		code = "菪"
+		code = "우미카제 "
 	},
 	{
 		id = 151,

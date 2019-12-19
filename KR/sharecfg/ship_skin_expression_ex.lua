@@ -161,6 +161,37 @@ pg.ship_skin_expression_ex = {
 				"1"
 			}
 		}
+	},
+	xiao_2 = {
+		touch = "",
+		feeling3 = "",
+		mail = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		feeling1 = "",
+		painting = "xiao_2",
+		upgrade = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		feeling4 = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = "",
+		detail = "",
+		main_1 = {
+			{
+				0,
+				"4"
+			}
+		}
 	}
 }
 

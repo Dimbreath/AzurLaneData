@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"圣诞礼物大作战！\n\n<size=45>七　礼物大作战，成功！</size>",
+					"크리스마스 선물 대작전!\n\n<size=45>7. 선물 대작전, 성공! </size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "main-christmas",
 			actor = 205021,
 			nameColor = "#92fc63",
-			say = "嗯！这样礼物就全部送回来了。",
+			say = "응! 이걸로 선물은 전부 다 옮겼어.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			say = "可真是……累坏了……不过……咱有帮上忙，还是很高兴的。",
+			say = "하지만 정말…… 힘드네요…… 그래도…… 제가 도움이 되어서 기뻐요.",
 			side = 1,
 			bgName = "star_level_bg_100",
 			dir = 1,
@@ -78,7 +78,7 @@ return {
 			dir = -1,
 			actor = 205021,
 			nameColor = "#92fc63",
-			say = "在就只剩下把礼物送到大家手中了，现在出发！",
+			say = "이제 모두에게 선물을 주는 일만 남았어. 출발!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "呜……咱想……咱想休息一会……",
+			say = "으…… 저 좀…… 좀 쉬고 싶은데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = -1,
 			actor = 205021,
 			nameColor = "#92fc63",
-			say = "呼，好了！大家的礼物都发完了，就差把这个巨大玩偶送给陛下了。",
+			say = "후, 좋아! 선물도 모두 나눠줬어. 이제 폐하의 대형 인형만 남았네.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#92fc63",
-			say = "什……什么？竟然真的给本王准备了礼物？不……不愧是厌战呢！想……想的很周到嘛……",
+			say = "뭐……뭐라고? 정말 이 엘리자베스님을 위해 선물을 준비한 거야? 역……역시 워스파이트! 굉장히 세…… 세심하구나……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			}
 		},
 		{
-			say = "陛下，祝您圣诞快乐，这是您之前看了很久的蛮啾玩偶，送给您！",
+			say = "폐하. 메리 크리스마스입니다. 예전에 한참 보고 계시던 만쥬 인형입니다. 선물로 드리지요.",
 			side = 0,
 			bgName = "star_level_bg_100",
 			dir = -1,
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#92fc63",
-			say = "才……才没有看很久呢！不过，既然是你用心准备的，本王也没有拒绝的理由不是嘛",
+			say = "그……그렇게 오래 본 적 없거든! 하지만 네가 준비한 선물이니 거절할 이유도 없네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = -1,
 			actor = 205021,
 			nameColor = "#92fc63",
-			say = "陛下，您千万不要勉强，如果您不喜欢这个玩偶的话，我立马去帮您选择其他的礼物。",
+			say = "폐하, 괜찮습니다. 만약 인형이 마음에 들지 않으신다면 당장 다른 선물을 골라드리도록 하겠습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "唔……等等！本王还什么都没说，不要乱猜本王的意思啦！就……就把它放在那边好了。",
+			say = "으…… 잠시만! 아직 아무 말도 안 했는데 마음대로 내 생각을 넘겨 짚지마! 저……저기에 놓아둬.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#92fc63",
 			dir = -1,
-			say = "哈哈，是，陛下！",
+			say = "하하. 네, 폐하!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			bgName = "star_level_bg_100",
 			actor = 205021,
 			nameColor = "#92fc63",
-			say = "呼，虽然很累，不过只要大家能度过一个快乐的圣诞节，这点辛苦不算什么。",
+			say = "후, 힘들었지만 모두가 행복한 크리스마스를 보낼 수 있다면 이정도는 참을 수 있어.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -299,7 +299,7 @@ return {
 			dir = -1,
 			actor = 205021,
 			nameColor = "#92fc63",
-			say = "嗯？怎么还剩了一个这么大的箱子？？",
+			say = "응? 이렇게 큰 상자가 왜 아직 남아있지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			dir = -1,
 			actor = 205021,
 			nameColor = "#92fc63",
-			say = "等等？这里面好像有声音传了出来？",
+			say = "어라? 안에서 무슨 소리가 나는데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			actor = 101312,
 			nameColor = "#92fc63",
-			say = "呜……天亮了？！啊……啊咧？这里是？",
+			say = "우…… 아침이야?! 어……어라? 여긴?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			}
 		},
 		{
-			say = "尼古拉斯？！怎么会在礼物箱里？",
+			say = "니콜라스?! 왜 상자 속에 있지?",
 			side = 0,
 			bgName = "star_level_bg_100",
 			dir = -1,
@@ -379,7 +379,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "那个……刚才在雪橇上，觉得……这个盒子里面，很舒服，于是……不知不觉……睡了进去。",
+			say = "응…… 방금 전에 썰매에서…… 이 상자, 포근해 보이길래…… 나도 모르게…… 들어가서 잠들었어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = -1,
 			actor = 205021,
 			nameColor = "#92fc63",
-			say = "诶……诶？原来是……这样吗？",
+			say = "에……엣? 그런…… 이유였어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			dir = -1,
 			actor = 107061,
 			nameColor = "#92fc63",
-			say = "抱歉！厌战，刚刚跟我一起出来的驱逐舰尼古拉斯不见了！你有没有看到她？",
+			say = "미안! 워스파이트, 방금 나와 함께 온 구축함 니콜라스가 사라졌다! 혹시 니콜라스를 봤나?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#92fc63",
 			dir = -1,
-			say = "哈哈哈，原来是这么一回事。那么，这孩子就是给你的圣诞礼物，企业。",
+			say = "하하하. 이렇게 된 일이었구나. 그러면 이 아이는 너에게 주는 크리스마스 선물이야, 엔터프라이즈.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			actor = 101312,
 			nameColor = "#92fc63",
-			say = "我……睡一觉就变成礼物了呢……不过，给企业的话，可以哦~~",
+			say = "나…… 자고 일어나니까 선물이…… 그치만 엔터프라이즈라면 상관 없어~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			blackBg = true,
 			actor = 205021,
 			nameColor = "#92fc63",
-			say = "祝你圣诞快乐！",
+			say = "메리 크리스마스!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

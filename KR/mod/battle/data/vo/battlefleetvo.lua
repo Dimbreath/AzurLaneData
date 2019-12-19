@@ -761,7 +761,7 @@ function slot7.CoupleEncourage(slot0)
 
 	if #slot7 > 0 then
 		slot7[math.random(#slot7)].cp:DispatchVoice(slot11)
-		slot7[math.random(#slot7)].cp:DispatchChat(HXSet.hxLan(slot7[math.random(#slot7)].content), 3, "link" .. slot7[math.random(#slot7)].linkIndex)
+		slot7[math.random(#slot7)].cp:DispatchChat(slot7[math.random(#slot7)].content, 3, "link" .. slot7[math.random(#slot7)].linkIndex)
 	end
 end
 

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"圣诞礼物大作战！\n\n<size=45>四　圣诞节的阴影（下）</size>",
+					"크리스마스 선물 대작전!\n\n<size=45>4. 크리스마스의 어둠(하)</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "在萨拉托加的带领之下，二人来到了某个房间的门前",
+			say = "두 사람은 새러토가를 따라 한 방의 문 앞으로 향했다.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "圣路易斯~萨拉小姐带皇家的客人来了哦！啊……啊嘞？",
+			say = "세인트루이스~ 새러가 로열의 손님들을 데리고 왔어! 어…… 어라?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			actor = 102123,
 			nameColor = "#92fc63",
-			say = "哇！不……不要随便进人家房间啊！",
+			say = "꺅! 마……마음대로 남의 방에 들어오지 말란 말이야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			}
 		},
 		{
-			say = "这……这难道就是鲁鲁酱要给指挥官的惊喜嘛？！",
+			say = "이……이게 바로 호놀룰루쨩이 지휘관에게 주는 서프라이즈인가?!",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			actor = 102123,
 			nameColor = "#92fc63",
-			say = "才……才不是！这……这个只是，最近很流行的……那个，COSPLAY！对对，COSPLAY啦！",
+			say = "아……아니거든! 이……이건 그냥 유행하는…… 그거야, 코스프레! 맞아, 코스프레라고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			actor = 102123,
 			nameColor = "#92fc63",
-			say = "变……变装成驯鹿，站在指挥官的指挥室装作玩偶，然后突然对指挥官说“哈！我是圣诞礼物哦！”之类的奇怪的事情完全是萨拉托加你脑补出来的罢了！",
+			say = "순……순록으로 변장해서 지휘실에 인형인척 서있다가 갑자기 지휘관에게 ‘하! 크리스마스 선물은 나야!’ 하는 이상한 일은 새러토가 네 머릿속 망상이라고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "哇，完全把自己的想法说出来了呢……萨拉小姐什么都没有听到哦~真的什么都没听到哦~",
+			say = "와, 완전히 자기 생각을 얘기하잖아…… 새러는 아무것도 못 들었어~ 정말 아무것도 못 들었다구~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			actor = 102123,
 			nameColor = "#92fc63",
-			say = "喂！刚才的话绝对不允许告诉任何人啊！",
+			say = "이봐! 방금 그 말, 아무에게도 하면 안 돼!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "还没等火奴鲁鲁说完，萨拉托加便一把拉住旁边僵住的皇家二人逃出了房间。",
+			say = "호놀룰루의 말이 끝나기도 전, 새러토가는 옆에서 굳어있던 로열의 두 사람을 끌고 방으로 뛰어 들어갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			actor = 205020,
 			nameColor = "#92fc63",
-			say = "嗯……变装成驯鹿，把自己打包成玩偶送给指挥官……吗？也算是比较新奇的点子吧……",
+			say = "음…… 순록으로 변장한 뒤 자신을 인형처럼 포장해서 지휘관에게 선물한다……지? 꽤 신기한 아이디어긴 하네……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -231,7 +231,7 @@ return {
 			}
 		},
 		{
-			say = "前……前辈！请不要做那样奇怪的事情啦！",
+			say = "선……선배! 그런 이상한 말은 하지 말아주세요!",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "噗噗，萨拉小姐也觉得厌战不太适合那种风格的说。",
+			say = "뿌뿌, 새러도 워스파이트에게 그런 건 안 어울린다고 생각해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "这……这样吗。那岂不是又一无所获？天色已经不早了啊……",
+			say = "그…… 그런가. 그렇다면 또 소득이 없는 거잖아? 이제 시간이 없는데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "砰地一声，大门打开了。",
+			say = "펑 하는 소리와 함께 문이 열렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			actor = 107061,
 			nameColor = "#92fc63",
-			say = "Merry Christmas! 圣诞老人为大家带回了礼物哦！",
+			say = "메리 크리스마스! 산타클로스가 선물을 가져왔다!",
 			effects = {
 				{
 					active = true,
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			actor = 107070,
 			nameColor = "#92fc63",
-			say = "出现了！是姐姐！该来的总是要来的！",
+			say = "뿅! 언니야! 드디어 올 것이 왔어!",
 			effects = {
 				{
 					active = false,
@@ -362,7 +362,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "企业酱！欢迎回来~",
+			say = "엔터프라이즈쨩! 다녀왔군요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "咳咳，现在的我不是企业，是圣诞老人哦！嗯？原来有皇家的客人吗？",
+			say = "흠흠, 지금의 나는 엔터프라이즈가 아니라 산타클로스다! 응? 로열의 손님이 있었군?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "刚才让二位看到了些奇怪的事情，有些失礼了。",
+			say = "방금 전에는 두 사람에게 이상한 모습을 보였군. 실례했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			blackBg = true,
 			actor = 205020,
 			nameColor = "#92fc63",
-			say = "在选择的矛盾中出现的救星！企业，我们需要你的帮助！",
+			say = "선택의 고통에서 나타난 구세주! 엔터프라이즈, 네 도움이 필요해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

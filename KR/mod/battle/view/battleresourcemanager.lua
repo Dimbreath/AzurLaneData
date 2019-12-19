@@ -349,7 +349,7 @@ function slot5.AddPreloadResource(slot0, slot1)
 end
 
 function slot5.AddPreloadCV(slot0, slot1)
-	if Ship.getCVKeyID(slot1) > 0 then
+	if ShipWordHelper.RawGetCVKey(slot1) > 0 then
 		slot0._battleCVList[slot2] = pg.CriMgr.GetBattleCVBankName(slot2)
 	end
 end

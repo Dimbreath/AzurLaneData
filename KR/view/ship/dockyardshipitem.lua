@@ -258,62 +258,64 @@ function slot0.flushDetail(slot0)
 			slot7 = pg.skill_data_template
 		end
 
-		function slot8(slot0)
-			if not ShipModAttr.ATTR_TO_INDEX[slot0] then
-				return true
-			elseif slot0:getModAttrTopLimit(slot0) == 0 then
-				return true
-			else
-				return (slot0.level >= 100 or slot0.level == slot0:getMaxLevel()) and slot0:getModAttrBaseMax(slot0) <= slot0.level >= 100 or slot0.level == slot0.getMaxLevel()[slot0]
-			end
-		end
-
-		for slot12 = 1, 6, 1 do
-			slot13 = slot0.detailLayoutTr:GetChild(slot12 - 1)
-			slot14 = true
-			slot13:GetChild(0):GetComponent("Text").alignment = TextAnchor.MiddleLeft
-			slot13:GetChild(1):GetComponent("Text").alignment = TextAnchor.MiddleRight
-			slot17 = slot4[slot0.detailType][slot12]
+		for slot11 = 1, 6, 1 do
+			slot12 = slot0.detailLayoutTr:GetChild(slot11 - 1)
+			slot13 = true
+			slot12:GetChild(0):GetComponent("Text").alignment = TextAnchor.MiddleLeft
+			slot12:GetChild(1):GetComponent("Text").alignment = TextAnchor.MiddleRight
+			slot16 = slot4[slot0.detailType][slot11]
 
 			if slot0.detailType == slot0.DetailType1 then
-				if slot12 == 6 then
-					slot18, slot19, slot22 = slot0.shipVO:getIntimacyDetail()
-					slot15.text = AttributeType.Type2Name(slot17)
-					slot16.text = setColorStr(slot22, (slot19 <= slot20 and COLOR_GREEN) or COLOR_WHITE)
+				if slot11 == 6 then
+					slot17, slot18, slot21 = slot0.shipVO:getIntimacyDetail()
+					slot14.text = AttributeType.Type2Name(slot16)
+					slot15.text = setColorStr(slot21, (slot18 <= slot19 and COLOR_GREEN) or COLOR_WHITE)
 				else
-					slot15.text = AttributeType.Type2Name(slot17)
-					slot16.text = setColorStr(tostring(math.floor(slot3[slot17])), (slot8(slot17) and COLOR_GREEN) or COLOR_WHITE)
+					slot14.text = AttributeType.Type2Name(slot16)
+					slot15.text = setColorStr(tostring(math.floor(slot3[slot16])), (slot0:canModAttr(slot1, slot16, slot3) and COLOR_GREEN) or COLOR_WHITE)
 				end
 			elseif slot0.detailType == slot0.DetailType2 then
-				if slot12 == 1 then
-					slot15.alignment = TextAnchor.MiddleCenter
-					slot15.text = slot1:getShipArmorName()
-					slot16.text = ""
-				elseif slot12 == 5 then
-					slot15.text = AttributeType.Type2Name(AttributeType.Expend)
-					slot16.text = tostring(math.floor(slot1:getBattleTotalExpend()))
-				elseif slot12 == 6 then
-					slot15.text = setColorStr(i18n("word_synthesize_power"), COLOR_GREEN)
-					slot16.text = tostring(math.floor(slot5))
+				if slot11 == 1 then
+					slot14.alignment = TextAnchor.MiddleCenter
+					slot14.text = slot1:getShipArmorName()
+					slot15.text = ""
+				elseif slot11 == 5 then
+					slot14.text = AttributeType.Type2Name(AttributeType.Expend)
+					slot15.text = tostring(math.floor(slot1:getBattleTotalExpend()))
+				elseif slot11 == 6 then
+					slot14.text = setColorStr(i18n("word_synthesize_power"), COLOR_GREEN)
+					slot15.text = tostring(math.floor(slot5))
 				else
-					slot15.text = AttributeType.Type2Name(slot17)
-					slot16.text = tostring(math.floor(slot3[slot17]))
+					slot14.text = AttributeType.Type2Name(slot16)
+					slot15.text = tostring(math.floor(slot3[slot16]))
 				end
 			elseif slot0.detailType == slot0.DetailType3 then
-				if slot6[slot12] and slot1.skills[slot18] and slot7[slot18].max_level ~= 1 then
-					slot15.alignment = TextAnchor.MiddleLeft
-					slot15.text = setColorStr(i18n("skill") .. slot12, slot0.SKILL_COLOR[pg.skill_data_template[slot1.skills[slot18].id].type] or COLOR_WHITE)
-					slot16.text = setColorStr((slot19.level == slot7[slot18].max_level and "Lv.Max") or "Lv." .. slot19.level, slot0.SKILL_COLOR[pg.skill_data_template[slot1.skills[slot18].id].type] or COLOR_WHITE)
+				if slot6[slot11] and slot1.skills[slot17] and slot7[slot17].max_level ~= 1 then
+					slot14.alignment = TextAnchor.MiddleLeft
+					slot14.text = setColorStr(i18n("skill") .. slot11, slot0.SKILL_COLOR[pg.skill_data_template[slot1.skills[slot17].id].type] or COLOR_WHITE)
+					slot15.text = setColorStr((slot18.level == slot7[slot17].max_level and "Lv.Max") or "Lv." .. slot18.level, slot0.SKILL_COLOR[pg.skill_data_template[slot1.skills[slot17].id].type] or COLOR_WHITE)
 				else
-					slot14 = false
+					slot13 = false
 				end
 			end
 
-			setActive(slot13, slot14)
+			setActive(slot12, slot13)
 		end
 	end
 
 	slot0.detail:SetActive(slot2 and slot0.DetailType0 < slot0.detailType)
+end
+
+function slot0.canModAttr(slot0, slot1, slot2, slot3)
+	if slot1:isBluePrintShip() then
+		return slot1:getBluePrint():isMaxIntensifyLevel()
+	elseif not ShipModAttr.ATTR_TO_INDEX[slot2] then
+		return true
+	elseif slot1:getModAttrTopLimit(slot2) == 0 then
+		return true
+	else
+		return (slot1.level >= 100 or slot1.level == slot1:getMaxLevel()) and slot1:getModAttrBaseMax(slot2) <= slot3[slot2]
+	end
 end
 
 function slot0.updateBlackBlock(slot0)

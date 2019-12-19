@@ -7675,6 +7675,10 @@ B평가:<color=#92fc63>70</color>점
 		tip = "도트 그래픽",
 		key = "emoji_type_3"
 	},
+	emoji_type_4 = {
+		tip = "이모티콘 ",
+		key = "emoji_type_4"
+	},
 	card_pairs_help_tip = {
 		key = "card_pairs_help_tip",
 		tip = {
@@ -11769,9 +11773,161 @@ TIPS:
 		tip = "저장 성공",
 		key = "secretary_pos_save_success"
 	},
+	collection_help = {
+		key = "collection_help",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/collect_help1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/collect_help2"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	},
 	juese_tiyan = {
 		tip = "캐릭터 체험 스테이지를 시작하시겠습니까? \n(체험 스테이지 내 아군 함선의 스탯은 참고용으로 제공됩니다.) \n<color=#ff5c5c>실제 성능은 획득한 함선을 기준으로 합니다.</color> ",
 		key = "juese_tiyan"
+	},
+	resolve_amount_prefix = {
+		tip = "분해 수량:",
+		key = "resolve_amount_prefix"
+	},
+	compose_amount_prefix = {
+		tip = "합성 수량:",
+		key = "compose_amount_prefix"
+	},
+	confirm_unlock_ship_main = {
+		tip = "비서함으로 설정된 함선은 선택할 수 없습니다.",
+		key = "confirm_unlock_ship_main"
+	},
+	msgbox_text_confirm = {
+		tip = "확인",
+		key = "msgbox_text_confirm"
+	},
+	msgbox_text_shop = {
+		tip = "상점",
+		key = "msgbox_text_shop"
+	},
+	msgbox_text_cancel = {
+		tip = "취소",
+		key = "msgbox_text_cancel"
+	},
+	msgbox_text_cancel_g = {
+		tip = "취소",
+		key = "msgbox_text_cancel_g"
+	},
+	msgbox_text_cancel_fight = {
+		tip = "전투중지",
+		key = "msgbox_text_cancel_fight"
+	},
+	msgbox_text_goon_fight = {
+		tip = "전투속행",
+		key = "msgbox_text_goon_fight"
+	},
+	msgbox_text_exit = {
+		tip = "나가기",
+		key = "msgbox_text_exit"
+	},
+	msgbox_text_clear = {
+		tip = "정리",
+		key = "msgbox_text_clear"
+	},
+	msgbox_text_apply = {
+		tip = "신청",
+		key = "msgbox_text_apply"
+	},
+	msgbox_text_buy = {
+		tip = "구매",
+		key = "msgbox_text_buy"
+	},
+	msgbox_text_noPos_buy = {
+		tip = "확장",
+		key = "msgbox_text_noPos_buy"
+	},
+	msgbox_text_noPos_clear = {
+		tip = "정리",
+		key = "msgbox_text_noPos_clear"
+	},
+	msgbox_text_noPos_intensify = {
+		tip = "강화",
+		key = "msgbox_text_noPos_intensify"
+	},
+	msgbox_text_forward = {
+		tip = "바로가기",
+		key = "msgbox_text_forward"
+	},
+	msgbox_text_iknow = {
+		tip = "확인",
+		key = "msgbox_text_iknow"
+	},
+	msgbox_text_prepage = {
+		tip = "이전 장",
+		key = "msgbox_text_prepage"
+	},
+	msgbox_text_nextpage = {
+		tip = "다음 장",
+		key = "msgbox_text_nextpage"
+	},
+	msgbox_text_exchange = {
+		tip = "교환",
+		key = "msgbox_text_exchange"
+	},
+	msgbox_text_retreat = {
+		tip = "퇴각",
+		key = "msgbox_text_retreat"
+	},
+	msgbox_text_go = {
+		tip = "바로가기",
+		key = "msgbox_text_go"
+	},
+	msgbox_text_consume = {
+		tip = "소모",
+		key = "msgbox_text_consume"
+	},
+	msgbox_text_inconsume = {
+		tip = "비소비",
+		key = "msgbox_text_inconsume"
+	},
+	msgbox_text_unlock = {
+		tip = "해제",
+		key = "msgbox_text_unlock"
+	},
+	common_flag_ship = {
+		tip = "비서함",
+		key = "common_flag_ship"
+	},
+	confirm_unlock_lv = {
+		tip = "$1의 $2 해제하겠습니까? ",
+		key = "confirm_unlock_lv"
+	},
+	shops_rest_day = {
+		tip = "남은 교환 기간：         일",
+		key = "shops_rest_day"
+	},
+	title_limit_time = {
+		tip = "「한정」",
+		key = "title_limit_time"
 	}
 }
 

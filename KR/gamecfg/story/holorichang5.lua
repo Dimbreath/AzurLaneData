@@ -384,7 +384,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "흠흠, 어쨌든 오이겐의 헛소리는 듲지 마.",
+			say = "흠흠, 어쨌든 오이겐의 헛소리는 듣지 마.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

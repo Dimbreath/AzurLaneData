@@ -169,6 +169,7 @@ function slot0.Destroy(slot0)
 	slot0._go = nil
 
 	slot0:disposeEvent()
+	slot0:cleanManagedTween()
 
 	slot0._state = slot0.STATES.DESTROY
 end

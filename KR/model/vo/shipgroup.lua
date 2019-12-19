@@ -171,7 +171,7 @@ function slot0.getSkinList(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(pg.ship_skin_template.all) do
-		if pg.ship_skin_template[slot6].ship_group == slot0 then
+		if pg.ship_skin_template[slot6].ship_group == slot0 and slot7.no_showing ~= "1" then
 			table.insert(slot1, slot7)
 		end
 	end

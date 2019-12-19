@@ -5307,8 +5307,8 @@ pg.activity_template = {
 			{
 				{
 					2019,
-					4,
-					27
+					12,
+					20
 				},
 				{
 					0,
@@ -5319,8 +5319,8 @@ pg.activity_template = {
 			{
 				{
 					2019,
-					5,
-					6
+					12,
+					29
 				},
 				{
 					23,
@@ -11924,6 +11924,190 @@ pg.activity_template = {
 			stageid = 9801
 		}
 	},
+	[20338] = {
+		mark = 20191219,
+		title_res_tag = "dachaosd_fk",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 38,
+		id = 20338,
+		config_data = {
+			{
+				15210,
+				15211
+			},
+			{
+				15212,
+				15213
+			},
+			{
+				15214,
+				15215
+			},
+			{
+				15216,
+				15217
+			},
+			{
+				15218,
+				15219
+			},
+			{
+				15220,
+				15221
+			},
+			{
+				15222,
+				15223
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_dachaosd_fk"
+		},
+		config_client = {
+			story = {
+				{
+					"DACHAOSHENGDAN1"
+				},
+				{
+					"DACHAOSHENGDAN2"
+				},
+				{
+					"DACHAOSHENGDAN3"
+				},
+				{
+					"DACHAOSHENGDAN4"
+				},
+				{
+					"DACHAOSHENGDAN5"
+				},
+				{
+					"DACHAOSHENGDAN6"
+				},
+				{
+					"DACHAOSHENGDAN7"
+				}
+			}
+		}
+	},
+	[20339] = {
+		mark = 20191219,
+		title_res_tag = "ruoyeshengdan",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 39,
+		id = 20339,
+		config_data = {
+			{
+				15224,
+				15225
+			},
+			{
+				15226,
+				15227
+			},
+			{
+				15228,
+				15229
+			},
+			{
+				15230,
+				15231
+			},
+			{
+				15232,
+				15233
+			},
+			{
+				15234,
+				15235
+			},
+			{
+				15236,
+				15237
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/skin_ruoyeshengdan"
+		},
+		config_client = {
+			story = {
+				{
+					"RUOYESHENGDAN1"
+				},
+				{
+					"RUOYESHENGDAN2"
+				},
+				{},
+				{
+					"RUOYESHENGDAN3"
+				},
+				{},
+				{
+					"RUOYESHENGDAN4"
+				},
+				{
+					"RUOYESHENGDAN5"
+				}
+			}
+		}
+	},
 	[25000] = {
 		mark = 20188020,
 		title_res_tag = "",
@@ -12791,6 +12975,8 @@ pg.activity_template = {
 		20335,
 		20336,
 		20337,
+		20338,
+		20339,
 		25000,
 		25001,
 		25002,

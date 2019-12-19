@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"圣诞礼物大作战！\n\n<size=45>三　圣诞节的阴影（上）</size>",
+					"크리스마스 선물 대작전!\n\n<size=45>3. 크리스마스의 어둠(상)</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·白鹰生活区",
+			say = "모항-이글 유니온 구역",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "呼，又到圣诞节了啊！唔……突然想起去年扮演圣诞老人的姐姐，总感觉背后有些发凉……",
+			say = "후, 또 크리스마스네! 음…… 작년에 산타클로스 분장을 한 언니를 떠올리면 여전히 등골이 오싹하단 말이야……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "虽说收到礼物很高兴，但是毕竟扮做圣诞老人的是那位企业啊，紧张的不行呢……",
+			say = "선물을 받아서 기쁘긴 했지만 산타클로스 분장을 한 엔터프라이즈라니, 엄청 긴장됐다고……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "诶嘿，扮做圣诞老人的企业萨拉很喜欢哦！不如今年就由我来……",
+			say = "에헤, 새러는 엔터프라이즈의 산타클로스, 좋았어! 올해는 역시 내가……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "萨拉？圣诞节不可以给大家添麻烦哦，这样下去大家要对圣诞节有阴影了。",
+			say = "새러? 크리스마스는 모두에게 폐를 끼치는 날이 아니야. 그렇게 하면 모두가 크리스마스에 안 좋은 기억을 갖게될 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "今年企业酱她貌似出港去执行任务了。唔，总感觉有些寂寞……",
+			say = "오늘은 엔터프라이즈쨩도 임무로 출항 중이네요. 음, 조금 외롭달까……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			actor = 107070,
 			nameColor = "#92fc63",
-			say = "总……总之，我已经不想像去年那样尴尬的从姐姐那边收礼物了！趁姐姐现在不在港区，我们赶快……",
+			say = "어……어쨌든! 작년처럼 어색한 언니에게 선물을 받는 건 사양이야! 언니가 모항에 없는 지금 빨리……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "咚咚咚的敲门声",
+			say = "똑똑똑 문 두드리는 소리",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			actor = 107070,
 			nameColor = "#92fc63",
-			say = "呜哇！不会是姐姐回来了吧！",
+			say = "으악! 설마 언니가 돌아온 건 아니겠지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "白鹰的各位盟友们，好久不见。我们是来找企业询问一些事情的，不知道她现在……",
+			say = "이글 유니온의 맹우들, 오래간만이야. 엔터프라이즈에게 묻고 싶은 게 있어서 왔는데, 있는지 모르겠네……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "啊呀，是皇家的厌战小姐！有些抱歉，企业酱现在还没有归港呢……",
+			say = "와아, 로열의 워스파이트네요! 미안해요. 엔터프라이즈쨩은 아직 돌아오지 않았는데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "我们……想问问，白鹰的圣诞老人会选择……什么样的礼物送给大家……",
+			say = "그…… 저희는 유니온의 크리스마스에 대해 묻고 싶어서…… 모두에게 어떤 선물을 줬었는지……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "哦呀？如果是圣诞礼物相关的事情，萨拉小姐知道一个人或许可以帮上你们哦！",
+			say = "어라? 크리스마스 선물에 관한 일이라면 새러가 도와줄 수 있을만한 사람을 알 것 같은데!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "不过……她现在不在这里呢！不如，我们去她的房间找她？",
+			say = "하지만…… 지금 여기에 없어! 방으로 찾아가 보는 건 어때?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "是你的同伴吗？那么有劳带路了。",
+			say = "네 동료인가? 그렇다면 길 안내를 부탁할게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			actor = 201100,
 			nameColor = "#92fc63",
-			say = "直……直接去女孩子的房间……真的好嘛……",
+			say = "말……말없이 여자아이의 방에 가다니…… 괜찮을까요……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			blackBg = true,
 			actor = 107030,
 			nameColor = "#92fc63",
-			say = "不用那么害羞啦！我们白鹰可是主张OPEN&FREE的啦！跟我来吧！",
+			say = "부끄러워하지 않아도 돼! 우리 유니온은 오픈 앤 프리니까! 따라와!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
