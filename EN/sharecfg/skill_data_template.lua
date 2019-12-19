@@ -31465,8 +31465,8 @@ pg.skill_data_template = {
 	},
 	[29381] = {
 		desc_get = "",
-		name = "专属弹幕-{namecode:164}I",
-		desc = "主炮每进行24次攻击，触发专属弹幕-{namecode:164}I",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Kitakaze once every 24 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29381,
@@ -31476,8 +31476,8 @@ pg.skill_data_template = {
 	},
 	[29382] = {
 		desc_get = "",
-		name = "专属弹幕-{namecode:164}II",
-		desc = "主炮每进行16次攻击，触发专属弹幕-{namecode:164}II",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Kitakaze once every 16 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29382,
@@ -31487,8 +31487,8 @@ pg.skill_data_template = {
 	},
 	[29391] = {
 		desc_get = "",
-		name = "专属弹幕-西雅图I",
-		desc = "主武器每进行15次攻击，触发专属弹幕-西雅图I",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Seattle once every 15 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29391,
@@ -31498,8 +31498,8 @@ pg.skill_data_template = {
 	},
 	[29392] = {
 		desc_get = "",
-		name = "专属弹幕-西雅图II",
-		desc = "主武器每进行10次攻击，触发专属弹幕-西雅图II",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Seattle once every 10 times the Main Guns are fired.",
 		type = 1,
 		max_level = 1,
 		id = 29392,

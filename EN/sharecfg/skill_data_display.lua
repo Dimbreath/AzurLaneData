@@ -3194,19 +3194,19 @@ pg.skill_data_display = {
 	},
 	[29381] = {
 		id = 29381,
-		name = "专属弹幕-{namecode:164}I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29382] = {
 		id = 29382,
-		name = "专属弹幕-{namecode:164}II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29391] = {
 		id = 29391,
-		name = "专属弹幕-西雅图I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29392] = {
 		id = 29392,
-		name = "专属弹幕-西雅图II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29421] = {
 		id = 29421,

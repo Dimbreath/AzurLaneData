@@ -11433,7 +11433,7 @@ depends on the amount of damage dealt to the boss.
 		key = "confirm_unlock_lv"
 	},
 	shops_rest_day = {
-		tip = "Core Data store refreshes in :        days",
+		tip = "Core Data store refreshes in :",
 		key = "shops_rest_day"
 	},
 	title_limit_time = {
