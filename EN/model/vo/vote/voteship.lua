@@ -56,7 +56,7 @@ function slot0.getPainting(slot0)
 end
 
 function slot0.GetDesc(slot0)
-	return ShipWordHelper.RawGetWord(slot0.shipVO:getConfig("skin_id"), ShipWordHelper.WORD_TYPE_PROFILE)
+	return Ship.getShipWords(slot0.shipVO:getConfig("skin_id")).profile
 end
 
 function slot0.getScore(slot0)

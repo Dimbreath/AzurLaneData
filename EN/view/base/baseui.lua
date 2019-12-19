@@ -284,7 +284,6 @@ function slot0.detach(slot0, slot1)
 	pg.LayerWeightMgr.GetInstance():DelFromOverlay(slot0._tf)
 	pg.DynamicBgMgr.GetInstance():ClearBg(slot0:getUIName())
 	slot0:disposeEvent()
-	slot0:cleanManagedTween()
 
 	slot0._tf = nil
 

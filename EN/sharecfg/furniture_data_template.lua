@@ -49911,6 +49911,712 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[56001] = {
+		advice = 0,
+		describe = "A rustic, snowy brick street. Stay outside too long and you might hear yourself saying \"Bah, humbug!\"",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "Fairytale Town Floor Tiles",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 56,
+		icon = "dibancs3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 56001,
+		picture = "christmas3/dibancs3",
+		comfortable = 4,
+		tag = 4,
+		size = {
+			2,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56002] = {
+		advice = 0,
+		describe = "Tonight, Santa Claus is coming to town~",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "Fairytale Town Wallpaper",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 56,
+		icon = "qiangbics3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 56002,
+		picture = "christmas3/qiangbics3",
+		comfortable = 4,
+		tag = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56101] = {
+		advice = 0,
+		describe = "It is said to sweep you away on a magical journey for the price of just one cent, nya.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Fantasy Trolley",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 56,
+		icon = "checs3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 56101,
+		picture = "christmas3/checs3",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			9,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					50,
+					108
+				},
+				{
+					-1,
+					1
+				},
+				"christmas3/checs3_using"
+			},
+			{
+				"sit",
+				{
+					-126,
+					34
+				},
+				{
+					-1,
+					1
+				},
+				"christmas3/checs3_using2"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56102] = {
+		advice = 0,
+		describe = "It radiates a warm, mesmerizing light across the snow.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Fairytale Town Lamppost",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 56,
+		icon = "dengcs3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 56102,
+		picture = "christmas3/dengcs3",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56103] = {
+		advice = 0,
+		describe = "This frosty snow-juu is really feeling the holiday spirit.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Santa Snow-juu",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 56,
+		icon = "diaoxiangcs3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 56103,
+		picture = "christmas3/diaoxiangcs3",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56104] = {
+		advice = 0,
+		describe = "Don't forget to log in daily and complete your special missions!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Christmas Billboard",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 56,
+		icon = "paics3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 56104,
+		picture = "christmas3/paics3",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56105] = {
+		advice = 0,
+		describe = "Don't lick it though, that'd be unsanitary.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Fruity Lollipop Display",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 56,
+		icon = "penzai2cs3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 56105,
+		picture = "christmas3/penzai2cs3",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56106] = {
+		advice = 0,
+		describe = "Doubles as a car freshener after the holiday season.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Peppermint Lollipop Display",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 56,
+		icon = "penzaics3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 56106,
+		picture = "christmas3/penzaics3",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56107] = {
+		advice = 0,
+		describe = "Though its leaves have fallen, it bears golden fruit tonight.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Fairytale Town Tree",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 56,
+		icon = "shu2cs3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 56107,
+		picture = "christmas3/shu2cs3",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56108] = {
+		advice = 0,
+		describe = "This symbol of peace brings everyone together. Or maybe they're just here for presents...",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Fairytale Christmas Tree",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 56,
+		icon = "shucs3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 56108,
+		picture = "christmas3/shucs3",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			7,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56109] = {
+		advice = 0,
+		describe = "Not so big anymore are you, Ben?",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Fairytale Clock Tower",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 56,
+		icon = "tacs3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 1,
+		id = 56109,
+		picture = "christmas3/tacs3",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-153,
+					-228
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					115,
+					-232
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56110] = {
+		advice = 0,
+		describe = "Someone tell this Manjuu that you have to be asleep for Santa to visit.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Fairytale Cabin",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 56,
+		icon = "wuzi2cs3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 56110,
+		picture = "christmas3/wuzi2cs3",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56111] = {
+		advice = 0,
+		describe = "Free hot chocolate for everyone on this chilly evening.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Christmas Confectionary",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 56,
+		icon = "wuzics3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 56111,
+		picture = "christmas3/wuzics3",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			7,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56112] = {
+		advice = 0,
+		describe = "Use it to manifest your dreams into reality, until the next morning.",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "Patch of Snow",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 56,
+		icon = "xuekuaics3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 56112,
+		picture = "christmas3/xuekuaics3",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56113] = {
+		advice = 0,
+		describe = "Despite its normal purpose, it currently looks like several friends joining hands.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Fairytale Town Fence",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 56,
+		icon = "zhalancs3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 56113,
+		picture = "christmas3/zhalancs3",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[56114] = {
+		advice = 0,
+		describe = "Jousting with it would be positively quixotic.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Fairytale Town Windmill",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 56,
+		icon = "fengchecs3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 56114,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fengchecs3B",
+				"normal"
+			},
+			{
+				"fengchecs3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"fengchecs3CharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[56115] = {
+		advice = 0,
+		describe = "A dreamlike world swirls inside this snowglobe.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Fairytale Snowglobe",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 56,
+		icon = "xuehuaqiucs3icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 56115,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shengdanxiaowu",
+				"normal",
+				{
+					"action",
+					flase
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -51076,7 +51782,24 @@ pg.furniture_data_template = {
 		55304,
 		55305,
 		55306,
-		55307
+		55307,
+		56001,
+		56002,
+		56101,
+		56102,
+		56103,
+		56104,
+		56105,
+		56106,
+		56107,
+		56108,
+		56109,
+		56110,
+		56111,
+		56112,
+		56113,
+		56114,
+		56115
 	}
 }
 

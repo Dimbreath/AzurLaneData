@@ -7,16 +7,14 @@ slot0.ResOilField = 5
 slot0.ResDormMoney = 6
 slot0.ResGoldField = 7
 slot0.ResContribution = 8
+slot0.ResBlueprintFragment = 9
 slot0.ResBattery = 101
 slot0.ResPT = 102
 
 function slot1(slot0, slot1, slot2)
 	if slot0 == DROP_TYPE_RESOURCE then
 		if getProxy(PlayerProxy) then
-			slot5 = slot3:getRawData()
-			slot5[id2res(slot1)] = slot5[id2res(slot1)] + slot2
-
-			slot3:updatePlayer(slot5)
+			slot3:UpdatePlayerRes(slot1, slot2)
 		end
 	elseif slot0 == DROP_TYPE_ITEM and pg.item_data_statistics[slot1] and getProxy(BagProxy) then
 		if slot2 > 0 then

@@ -628,11 +628,11 @@ function slot0.RingFadeout(slot0, slot1)
 end
 
 function slot0.displayShipWord(slot0, slot1)
-	slot3, slot4, slot5 = ShipWordHelper.GetWordAndCV(ShipGroup.getDefaultSkin(slot0.shipGroupID).id, slot1)
+	slot3, slot4, slot5 = Ship.getWords(ShipGroup.getDefaultSkin(slot0.shipGroupID).id, slot1)
 	slot6 = nil
-	slot7 = ShipWordHelper.GetL2dCvCalibrate((not slot0.reviewSkinID or slot0.reviewSkinID) and (not slot0.proposeSkin or slot0.proposeSkin.id) and slot0.shipVO.skinId, slot1)
+	slot7 = Ship.getCVCalibrate((not slot0.reviewSkinID or slot0.reviewSkinID) and (not slot0.proposeSkin or slot0.proposeSkin.id) and slot0.shipVO.skinId, slot1)
 
-	slot0:showStoryUI(slot5)
+	slot0:showStoryUI(slot3)
 
 	if slot4 then
 		function slot8()

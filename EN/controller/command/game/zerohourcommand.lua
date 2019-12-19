@@ -45,8 +45,14 @@ class("ZeroHourCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	if pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t").day == 1 and not ChapterConst.ActivateMirror then
 		slot11:getShamChapter().simId = slot13.month
 
-		slot11:updateShamChapter(slot15)
-		slot11.shamShop:update(slot13.month, {})
+		slot11:updateShamChapter(slot11.getShamChapter())
+	end
+
+	if slot13.day == 1 then
+		slot5.shamShop:update(slot13.month, {})
+		slot5:updateShamShop(slot5.shamShop)
+		slot5.fragmentShop:update(slot13.month, {})
+		slot5:updateFragmentShop(slot5.fragmentShop)
 	end
 
 	for slot18, slot19 in ipairs(getProxy(ActivityProxy).getPanelActivities(slot14)) do
@@ -65,10 +71,6 @@ class("ZeroHourCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 	if slot14:getActivityByType(ActivityConst.ACTIVITY_TYPE_TURNTABLE) and not slot16:isEnd() then
 		if pg.activity_event_turning[slot16:getConfig("config_id")].total_num <= slot16.data3 then
-			return
-		end
-
-		if not slot18.task_table[slot16.data4] then
 			return
 		end
 

@@ -29,7 +29,15 @@ function slot0.Ctor(slot0)
 		[TRACKING_REMOULD_SHIP] = "remodeled",
 		[TRACKING_HARD_CHAPTER] = "hard_clear",
 		[TRACKING_KILL_BOSS] = "stage_laps",
-		[TRACKING_HIGHEST_CHAPTER] = "stage"
+		[TRACKING_HIGHEST_CHAPTER] = "stage",
+		[TRACKING_FIRST_PASS_12_4] = "12-4_clear",
+		[TRACKING_FIRST_PASS_13_1] = "13-1_clear",
+		[TRACKING_FIRST_PASS_13_2] = "13-2_clear",
+		[TRACKING_FIRST_PASS_13_3] = "13-3_clear",
+		[TRACKING_FIRST_PASS_13_4] = "13-4_clear",
+		[TRACKING_CLASS_LEVEL_UP_8] = "auditoriumLV_8",
+		[TRACKING_CLASS_LEVEL_UP_9] = "auditoriumLV_9",
+		[TRACKING_CLASS_LEVEL_UP_10] = "auditoriumLV_10"
 	}
 end
 

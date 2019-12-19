@@ -32,6 +32,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Clear Challenge Mode for the first time to obtain.</color>\n（19.10.10-19.12.08）",
 		scene = {}
 	},
+	[203] = {
+		name = "Achievement Chat Bubbles",
+		time_second = 0,
+		id = 203,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>Clear Challenge Mode for the first time to obtain.</color>\n（19.12.19-20.03.29）",
+		scene = {}
+	},
 	[300] = {
 		name = "Leader ",
 		time_second = 2592000,
@@ -72,16 +80,26 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>\"Display the glory and dignity of the Sardegna Empire to the whole world!\"</color>\nObtained in a subsequent event.",
 		scene = {}
 	},
+	[305] = {
+		name = "Sakura Ceremony ",
+		time_second = 0,
+		id = 305,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>Obtained through a subsequent event.</color>",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
 		201,
 		202,
+		203,
 		300,
 		301,
 		302,
 		303,
-		304
+		304,
+		305
 	}
 }
 

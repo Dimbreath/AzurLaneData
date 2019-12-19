@@ -358,7 +358,7 @@ function slot0.register(slot0)
 		end
 	end)
 	slot0:bind(slot0.ON_OPEN_SHAM_SHOP, function ()
-		if getProxy(ChapterProxy).getShamShop(slot0):isOpen() then
+		if getProxy(ShopsProxy).getShamShop(slot0):isOpen() then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, {
 				warp = ShopsLayer.TYPE_SHAM_SHOP
 			})

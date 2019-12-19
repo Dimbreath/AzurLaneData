@@ -913,11 +913,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 5,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[10302] = {
@@ -933,11 +935,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 5,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[10303] = {
@@ -953,11 +957,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 8,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[10304] = {
@@ -973,11 +979,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 8,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[10305] = {
@@ -993,11 +1001,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 9,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[10306] = {
@@ -1013,11 +1023,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 9,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[10307] = {
@@ -1033,11 +1045,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 10,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[10308] = {
@@ -1053,11 +1067,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 10,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[10309] = {
@@ -1073,11 +1089,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 10,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[10310] = {
@@ -1093,11 +1111,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 10,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[10311] = {
@@ -1113,11 +1133,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 12,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[10313] = {
@@ -1133,11 +1155,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 12,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[10316] = {
@@ -1153,11 +1177,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 15,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[10501] = {
@@ -1772,6 +1798,46 @@ pg.fleet_tech_ship_template = {
 		},
 		add_level_shiptype = {
 			12
+		}
+	},
+	[19901] = {
+		max_star = 6,
+		pt_level = 23,
+		add_level_attr = 2,
+		pt_upgrage = 30,
+		add_get_attr = 4,
+		add_level_value = 1,
+		class = 10205,
+		id = 19901,
+		add_get_value = 1,
+		pt_get = 15,
+		add_get_shiptype = {
+			2
+		},
+		add_level_shiptype = {
+			2
+		}
+	},
+	[19902] = {
+		max_star = 6,
+		pt_level = 39,
+		add_level_attr = 2,
+		pt_upgrage = 52,
+		add_get_attr = 8,
+		add_level_value = 2,
+		class = 10507,
+		id = 19902,
+		add_get_value = 1,
+		pt_get = 26,
+		add_get_shiptype = {
+			4,
+			5,
+			10
+		},
+		add_level_shiptype = {
+			4,
+			5,
+			10
 		}
 	},
 	[20101] = {
@@ -2453,11 +2519,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 8,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[20302] = {
@@ -2473,11 +2541,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 7,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[20303] = {
@@ -2493,11 +2563,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 7,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[20304] = {
@@ -2513,11 +2585,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 7,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[20305] = {
@@ -2533,11 +2607,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 8,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[20306] = {
@@ -2553,11 +2629,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 8,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[20307] = {
@@ -2573,11 +2651,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 8,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[20308] = {
@@ -2593,11 +2673,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 8,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[20309] = {
@@ -2613,11 +2695,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 7,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[20401] = {
@@ -3022,11 +3106,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 5,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[21302] = {
@@ -3042,11 +3128,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 5,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[21304] = {
@@ -3062,11 +3150,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 7,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[29901] = {
@@ -4076,11 +4166,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 5,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[30302] = {
@@ -4096,11 +4188,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 5,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[30303] = {
@@ -4116,11 +4210,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 6,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[30304] = {
@@ -4136,11 +4232,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 6,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[30307] = {
@@ -4156,11 +4254,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 9,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[30308] = {
@@ -4176,11 +4276,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 9,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[30309] = {
@@ -4196,11 +4298,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 10,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[30311] = {
@@ -4216,11 +4320,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 14,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[30312] = {
@@ -4236,11 +4342,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 14,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[30313] = {
@@ -4256,11 +4364,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 14,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[30314] = {
@@ -4276,11 +4386,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 14,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[30317] = {
@@ -4296,11 +4408,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 12,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[30401] = {
@@ -4955,11 +5069,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 17,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[39902] = {
@@ -4982,6 +5098,46 @@ pg.fleet_tech_ship_template = {
 			4,
 			5,
 			10
+		}
+	},
+	[39903] = {
+		max_star = 6,
+		pt_level = 21,
+		add_level_attr = 2,
+		pt_upgrage = 28,
+		add_get_attr = 2,
+		add_level_value = 1,
+		class = 30112,
+		id = 39903,
+		add_get_value = 1,
+		pt_get = 14,
+		add_get_shiptype = {
+			1
+		},
+		add_level_shiptype = {
+			1
+		}
+	},
+	[39904] = {
+		max_star = 6,
+		pt_level = 48,
+		add_level_attr = 2,
+		pt_upgrage = 36,
+		add_get_attr = 2,
+		add_level_value = 1,
+		class = 31801,
+		id = 39904,
+		add_get_value = 1,
+		pt_get = 24,
+		add_get_shiptype = {
+			3,
+			13,
+			18
+		},
+		add_level_shiptype = {
+			3,
+			13,
+			18
 		}
 	},
 	[40101] = {
@@ -5267,11 +5423,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 24,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[40303] = {
@@ -5287,11 +5445,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 28,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[40304] = {
@@ -5307,11 +5467,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 18,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[40305] = {
@@ -5327,11 +5489,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 18,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[40401] = {
@@ -5595,11 +5759,35 @@ pg.fleet_tech_ship_template = {
 		pt_get = 38,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
+		}
+	},
+	[49902] = {
+		max_star = 6,
+		pt_level = 86,
+		add_level_attr = 2,
+		pt_upgrage = 114,
+		add_get_attr = 1,
+		add_level_value = 2,
+		class = 40502,
+		id = 49902,
+		add_get_value = 1,
+		pt_get = 56,
+		add_get_shiptype = {
+			4,
+			5,
+			10
+		},
+		add_level_shiptype = {
+			4,
+			5,
+			10
 		}
 	},
 	[50101] = {
@@ -5759,11 +5947,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 16,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[60302] = {
@@ -5779,11 +5969,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 28,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[60502] = {
@@ -5973,11 +6165,13 @@ pg.fleet_tech_ship_template = {
 		pt_get = 34,
 		add_get_shiptype = {
 			3,
-			13
+			13,
+			18
 		},
 		add_level_shiptype = {
 			3,
-			13
+			13,
+			18
 		}
 	},
 	[90101] = {
@@ -6029,6 +6223,28 @@ pg.fleet_tech_ship_template = {
 		id = 90501,
 		add_get_value = 1,
 		pt_get = 40,
+		add_get_shiptype = {
+			4,
+			5,
+			10
+		},
+		add_level_shiptype = {
+			4,
+			5,
+			10
+		}
+	},
+	[99901] = {
+		max_star = 6,
+		pt_level = 66,
+		add_level_attr = 6,
+		pt_upgrage = 88,
+		add_get_attr = 2,
+		add_level_value = 2,
+		class = 90501,
+		id = 99901,
+		add_get_value = 1,
+		pt_get = 44,
 		add_get_shiptype = {
 			4,
 			5,
@@ -6134,6 +6350,8 @@ pg.fleet_tech_ship_template = {
 		10802,
 		10803,
 		11201,
+		19901,
+		19902,
 		20101,
 		20102,
 		20103,
@@ -6303,6 +6521,8 @@ pg.fleet_tech_ship_template = {
 		31201,
 		39901,
 		39902,
+		39903,
+		39904,
 		40101,
 		40102,
 		40118,
@@ -6336,6 +6556,7 @@ pg.fleet_tech_ship_template = {
 		40807,
 		40808,
 		49901,
+		49902,
 		50101,
 		50102,
 		50103,
@@ -6358,7 +6579,8 @@ pg.fleet_tech_ship_template = {
 		89901,
 		90101,
 		90401,
-		90501
+		90501,
+		99901
 	}
 }
 

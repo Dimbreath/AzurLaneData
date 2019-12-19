@@ -13047,7 +13047,7 @@ pg.task_data_template = {
 		type = 5,
 		name = "A Date With Honolulu (Part 2)",
 		count_inherit = 0,
-		desc = "Get Honolulu to Level 100.",
+		desc = "Reach level 100 with Honolulu",
 		target_id_2 = "",
 		sub_type = 1013,
 		added_tip = 1,
@@ -13089,7 +13089,7 @@ pg.task_data_template = {
 		type = 5,
 		name = "What is the Rabbit Planet? ",
 		count_inherit = 0,
-		desc = "Submit 3 Torpedo Tempura.",
+		desc = "Submit 3 \"Torpedo Tempura\"",
 		target_id_2 = "",
 		sub_type = 1000,
 		added_tip = 1,
@@ -13155,7 +13155,7 @@ pg.task_data_template = {
 		type = 5,
 		name = "Rabbit Alien Characteristics——\"Effort\"! ",
 		count_inherit = 0,
-		desc = "Claim victory 20 times with Bailey in\nyour fleet. ",
+		desc = "Sortie and obtain 20 victories with \nBailey in the fleet.",
 		target_id_2 = "",
 		sub_type = 18,
 		added_tip = 1,
@@ -13187,7 +13187,7 @@ pg.task_data_template = {
 		type = 5,
 		name = "Rabbit Alien Characteristics——\"Idol\"? ",
 		count_inherit = 0,
-		desc = "Complete 3 daily challenges with\nBailey in your fleet. ",
+		desc = "Complete 3 Daily Challenges with \nBailey in the fleet.",
 		target_id_2 = "",
 		sub_type = 19,
 		added_tip = 1,
@@ -13219,7 +13219,7 @@ pg.task_data_template = {
 		type = 5,
 		name = "Rabbit Alien Characteristics——\"Love\"! ",
 		count_inherit = 0,
-		desc = "Have Bailey’s affinity reach 100. ",
+		desc = "Reach 100 Affinity with Bailey.",
 		target_id_2 = "",
 		sub_type = 1012,
 		added_tip = 1,
@@ -13261,7 +13261,7 @@ pg.task_data_template = {
 		type = 5,
 		name = "Rabbit Alien Has Arrived?! ",
 		count_inherit = 0,
-		desc = "Fully limit break Bailey. ",
+		desc = "Fully Limit Break Bailey.",
 		target_id_2 = "",
 		sub_type = 35,
 		added_tip = 1,
@@ -13303,7 +13303,7 @@ pg.task_data_template = {
 		type = 5,
 		name = "The Real Rabbit Alien ",
 		count_inherit = 0,
-		desc = "Have Bailey reach level 100. ",
+		desc = "Reach level 100 with Bailey",
 		target_id_2 = "",
 		sub_type = 1013,
 		added_tip = 1,
@@ -51203,6 +51203,38 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[14672] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91192,
+		type = 6,
+		name = "『限界挑战III』-积分任务",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 103,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14672,
+		target_num = 8800,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				14,
+				203,
+				1
+			}
+		}
+	},
 	[14757] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -63208,6 +63240,454 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[15224] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92233,
+		type = 26,
+		name = "若叶圣诞皮肤1",
+		count_inherit = 0,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15224,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54012,
+				5
+			}
+		}
+	},
+	[15225] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92234,
+		type = 26,
+		name = "若叶圣诞皮肤1",
+		count_inherit = 0,
+		desc = "Log in to the game.",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15225,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15226] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92235,
+		type = 26,
+		name = "若叶圣诞皮肤2",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges.",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15226,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54050,
+				2
+			}
+		}
+	},
+	[15227] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92236,
+		type = 26,
+		name = "若叶圣诞皮肤2",
+		count_inherit = 0,
+		desc = "Retire 2 ships.",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15227,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15228] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92237,
+		type = 26,
+		name = "若叶圣诞皮肤3",
+		count_inherit = 0,
+		desc = "Conduct tactical training 2 times.",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15228,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54022,
+				3
+			}
+		}
+	},
+	[15229] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92238,
+		type = 26,
+		name = "若叶圣诞皮肤3",
+		count_inherit = 0,
+		desc = "Resupply the Dorm with Snacks 5 times.",
+		target_id_2 = "",
+		sub_type = 61,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15229,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15230] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92239,
+		type = 26,
+		name = "若叶圣诞皮肤4",
+		count_inherit = 0,
+		desc = "Defeat 20 enemies.",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15230,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				50004,
+				3
+			}
+		}
+	},
+	[15231] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92240,
+		type = 26,
+		name = "若叶圣诞皮肤4",
+		count_inherit = 0,
+		desc = "Build 2 ships.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15231,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15232] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92241,
+		type = 26,
+		name = "若叶圣诞皮肤5",
+		count_inherit = 0,
+		desc = "Open 1 Tech Box.",
+		target_id_2 = "",
+		sub_type = 50,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15232,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54023,
+				1
+			}
+		}
+	},
+	[15233] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92242,
+		type = 26,
+		name = "若叶圣诞皮肤5",
+		count_inherit = 0,
+		desc = "Enhance ships 5 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15233,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15234] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92243,
+		type = 26,
+		name = "若叶圣诞皮肤6",
+		count_inherit = 0,
+		desc = "Complete 2 commissions.",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15234,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54003,
+				2
+			}
+		}
+	},
+	[15235] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92244,
+		type = 26,
+		name = "若叶圣诞皮肤6",
+		count_inherit = 0,
+		desc = "Conduct 2 Exercises.",
+		target_id_2 = "",
+		sub_type = 27,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15235,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15236] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92245,
+		type = 26,
+		name = "若叶圣诞皮肤7",
+		count_inherit = 0,
+		desc = "Enhance gear 2 times.",
+		target_id_2 = "",
+		sub_type = 40,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15236,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54024,
+				1
+			}
+		}
+	},
+	[15237] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92246,
+		type = 26,
+		name = "若叶圣诞皮肤7",
+		count_inherit = 0,
+		desc = "Sortie and obtain 10 Perfect victories.",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15237,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				7,
+				301231,
+				1
+			}
+		}
+	},
 	[31013] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -67340,6 +67820,1952 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		open_need = {},
 		award_display = {}
 	},
+	[60071] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		name = "",
+		count_inherit = 0,
+		desc = "",
+		target_id_2 = "",
+		sub_type = 1050,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60071,
+		target_num = 760,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60072] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Combat Data Collection Ⅰ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>Sufficient data must be obtained in order to ensure that research and development proceed smoothly. The most effective source of data is, without a doubt, from live combat.</color>\n\n — Sortie and accumulate <color=#92fc63>1,000,000</color> EXP using Eagle Union Vanguard ships.",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60072,
+		target_num = 1000000,
+		fix_task = 0,
+		target_id = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				1,
+				18
+			}
+		},
+		open_need = {},
+		award_display = {}
+	},
+	[60073] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Theoretical Engineering Research Ⅰ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>Additional investment is required to assess the feasibility of new hypotheses. If we can apply the results of our data collection to cutting-edge technological research, we could make significant developmental progress. </color>\n\n — Complete <color=#92fc63>5</color> Research Projects in the Tech Academy.",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60073,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[60074] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Design Breakthrough Ⅰ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>Through a combination of the combat data and cutting-edge theoretical engineering, development has finally advanced to the drawing board stage. However, to work out the design's finer details, we must thoroughly compare it to existing blueprints.</color>\n\n — Gather <color=#92fc63>10</color> T2 Cruiser Retrofit Blueprints (tapping \"Complete\" will use up these resources.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18012,
+		id = 60074,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "18012",
+		open_need = {},
+		award_display = {}
+	},
+	[60075] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Combat Data Collection Ⅱ",
+		count_inherit = 0,
+		desc = [[
+<color=#92fc63>Combat Data Collection Ⅰ must be completed first.</color>
+<color=#a2a2a2>The first draft of the design is complete. In order to verify the extent to which the design's specifications can be realized, more combat data is needed.</color>
+
+ — Sortie and accumulate <color=#92fc63>2,000,000</color> EXP using Eagle Union Vanguard ships.]],
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60075,
+		target_num = 2000000,
+		fix_task = 0,
+		target_id = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				1,
+				18
+			}
+		},
+		open_need = {
+			60072
+		},
+		award_display = {}
+	},
+	[60076] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Theoretical Engineering Research Ⅱ",
+		count_inherit = 0,
+		desc = [[
+<color=#92fc63>Theoretical Engineering Research Ⅰ must be completed first.</color>
+<color=#a2a2a2>Next, the basic design must be revised, improved, and optimized. This is a perfect chance to implement the ideas we weren't able to during the initial stages.</color>
+
+ — Complete <color=#92fc63>8</color> Research Projects in the Tech Academy.]],
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60076,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {
+			60073
+		},
+		award_display = {}
+	},
+	[60077] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Design Breakthrough Ⅱ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>At long last, through a combination of theoretical engineering, combat data, solid design, and revolutionary ideas, the Priority ship's design is approaching completion. We are hoping to fix some remaining problems to achieve the best performance possible.</color>\n\n — Gather <color=#92fc63>5</color> T3 Cruiser Retrofit Blueprints (tapping \"Complete\" will use up these resources.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18013,
+		id = 60077,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "18013",
+		open_need = {},
+		award_display = {}
+	},
+	[60078] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Hull Construction Ⅰ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>20,000</color> Coins (tapping \"Complete\" will use up these resources.)",
+		target_id_2 = "",
+		sub_type = 1002,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1,
+		id = 60078,
+		target_num = 20000,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60079] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Hull Construction Ⅱ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>5</color> Wisdom Cubes (tapping \"Complete\" will use up these resources.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 20001,
+		id = 60079,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "20001",
+		open_need = {},
+		award_display = {}
+	},
+	[60081] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		name = "",
+		count_inherit = 0,
+		desc = "",
+		target_id_2 = "",
+		sub_type = 1050,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60081,
+		target_num = 810,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60082] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Combat Data Collection Ⅰ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>Sufficient data must be obtained in order to ensure that research and development proceed smoothly. The most effective source of data is, without a doubt, from live combat.</color>\n\n — Sortie and accumulate <color=#92fc63>1,000,000</color> EXP using Eagle Union Main Fleet ships.",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60082,
+		target_num = 1000000,
+		fix_task = 0,
+		target_id = {
+			{
+				1,
+				4
+			},
+			{
+				1,
+				5
+			},
+			{
+				1,
+				6
+			},
+			{
+				1,
+				7
+			},
+			{
+				1,
+				9
+			},
+			{
+				1,
+				10
+			},
+			{
+				1,
+				12
+			},
+			{
+				1,
+				13
+			}
+		},
+		open_need = {},
+		award_display = {}
+	},
+	[60083] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Theoretical Engineering Research Ⅰ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>Additional investment is required to assess the feasibility of new hypotheses. If we can apply the results of our data collection to cutting-edge technological research, we could make significant developmental progress. </color>\n\n — Complete <color=#92fc63>5</color> Research Projects in the Tech Academy.",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60083,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[60084] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Design Breakthrough Ⅰ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>Through a combination of the combat data and cutting-edge theoretical engineering, development has finally advanced to the drawing board stage. However, to work out the design's finer details, we must thoroughly compare it to existing blueprints.</color>\n\n — Gather <color=#92fc63>10</color> T2 Battleship Retrofit Blueprints (tapping \"Complete\" will use up these resources.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18022,
+		id = 60084,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "18022",
+		open_need = {},
+		award_display = {}
+	},
+	[60085] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Combat Data Collection Ⅱ",
+		count_inherit = 0,
+		desc = [[
+<color=#92fc63>Combat Data Collection Ⅰ must be completed first.</color>
+<color=#a2a2a2>The first draft of the design is complete. In order to verify the extent to which the design's specifications can be realized, more combat data is needed.</color>
+
+ — Sortie and accumulate <color=#92fc63>2,000,000</color> EXP using Eagle Union Main Fleet ships.]],
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60085,
+		target_num = 2000000,
+		fix_task = 0,
+		target_id = {
+			{
+				1,
+				4
+			},
+			{
+				1,
+				5
+			},
+			{
+				1,
+				6
+			},
+			{
+				1,
+				7
+			},
+			{
+				1,
+				9
+			},
+			{
+				1,
+				10
+			},
+			{
+				1,
+				12
+			},
+			{
+				1,
+				13
+			}
+		},
+		open_need = {
+			60082
+		},
+		award_display = {}
+	},
+	[60086] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Theoretical Engineering Research Ⅱ",
+		count_inherit = 0,
+		desc = [[
+<color=#92fc63>Theoretical Engineering Research Ⅰ must be completed first.</color>
+<color=#a2a2a2>Next, the basic design must be revised, improved, and optimized. This is a perfect chance to implement the ideas we weren't able to during the initial stages.</color>
+
+ — Complete <color=#92fc63>8</color> Research Projects in the Tech Academy.]],
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60086,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {
+			60083
+		},
+		award_display = {}
+	},
+	[60087] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Design Breakthrough Ⅱ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>At long last, through a combination of theoretical engineering, combat data, solid design, and revolutionary ideas, the Priority ship's design is approaching completion. We are hoping to fix some remaining problems to achieve the best performance possible.</color>\n\n — Gather <color=#92fc63>5</color> T3 Battleship Retrofit Blueprints (tapping \"Complete\" will use up these resources.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18023,
+		id = 60087,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "18023",
+		open_need = {},
+		award_display = {}
+	},
+	[60088] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Hull Construction Ⅰ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>20,000</color> Coins (tapping \"Complete\" will use up these resources.)",
+		target_id_2 = "",
+		sub_type = 1002,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1,
+		id = 60088,
+		target_num = 30000,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60089] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Hull Construction Ⅱ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>5</color> Wisdom Cubes (tapping \"Complete\" will use up these resources.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 20001,
+		id = 60089,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "20001",
+		open_need = {},
+		award_display = {}
+	},
+	[60091] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		name = "",
+		count_inherit = 0,
+		desc = "",
+		target_id_2 = "",
+		sub_type = 1050,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60091,
+		target_num = 780,
+		fix_task = 0,
+		target_id = "3",
+		open_need = {},
+		award_display = {}
+	},
+	[60092] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Combat Data Collection Ⅰ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>Sufficient data must be obtained in order to ensure that research and development proceed smoothly. The most effective source of data is, without a doubt, from live combat.</color>\n\n — Sortie and accumulate <color=#92fc63>1,000,000</color> EXP using Sakura Empire Vanguard ships.",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60092,
+		target_num = 1000000,
+		fix_task = 0,
+		target_id = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				3,
+				18
+			}
+		},
+		open_need = {},
+		award_display = {}
+	},
+	[60093] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Theoretical Engineering Research Ⅰ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>Additional investment is required to assess the feasibility of new hypotheses. If we can apply the results of our data collection to cutting-edge technological research, we could make significant developmental progress. </color>\n\n — Complete <color=#92fc63>5</color> Research Projects in the Tech Academy.",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60093,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[60094] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Design Breakthrough Ⅰ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>Through a combination of the combat data and cutting-edge theoretical engineering, development has finally advanced to the drawing board stage. However, to work out the design's finer details, we must thoroughly compare it to existing blueprints.</color>\n\n — Gather <color=#92fc63>10</color> T2 Destroyer Retrofit Blueprints (tapping \"Complete\" will use up these resources.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18002,
+		id = 60094,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "18002",
+		open_need = {},
+		award_display = {}
+	},
+	[60095] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Combat Data Collection Ⅱ",
+		count_inherit = 0,
+		desc = [[
+<color=#92fc63>Combat Data Collection Ⅰ must be completed first.</color>
+<color=#a2a2a2>The first draft of the design is complete. In order to verify the extent to which the design's specifications can be realized, more combat data is needed.</color>
+
+ — Sortie and accumulate <color=#92fc63>2,000,000</color> EXP using Sakura Empire Vanguard ships.]],
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60095,
+		target_num = 2000000,
+		fix_task = 0,
+		target_id = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				3,
+				18
+			}
+		},
+		open_need = {
+			60092
+		},
+		award_display = {}
+	},
+	[60096] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Theoretical Engineering Research Ⅱ",
+		count_inherit = 0,
+		desc = [[
+<color=#92fc63>Theoretical Engineering Research Ⅰ must be completed first.</color>
+<color=#a2a2a2>Next, the basic design must be revised, improved, and optimized. This is a perfect chance to implement the ideas we weren't able to during the initial stages.</color>
+
+ — Complete <color=#92fc63>8</color> Research Projects in the Tech Academy.]],
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60096,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {
+			60093
+		},
+		award_display = {}
+	},
+	[60097] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Design Breakthrough Ⅱ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>At long last, through a combination of theoretical engineering, combat data, solid design, and revolutionary ideas, the Priority ship's design is approaching completion. We are hoping to fix some remaining problems to achieve the best performance possible.</color>\n\n — Gather <color=#92fc63>5</color> T3 Destroyer Retrofit Blueprints (tapping \"Complete\" will use up these resources.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18003,
+		id = 60097,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "18003",
+		open_need = {},
+		award_display = {}
+	},
+	[60098] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Hull Construction Ⅰ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>20,000</color> Coins (tapping \"Complete\" will use up these resources.)",
+		target_id_2 = "",
+		sub_type = 1002,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1,
+		id = 60098,
+		target_num = 20000,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60099] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Hull Construction Ⅱ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>5</color> Wisdom Cubes (tapping \"Complete\" will use up these resources.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 20001,
+		id = 60099,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "20001",
+		open_need = {},
+		award_display = {}
+	},
+	[60101] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		name = "",
+		count_inherit = 0,
+		desc = "",
+		target_id_2 = "",
+		sub_type = 1050,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60101,
+		target_num = 900,
+		fix_task = 0,
+		target_id = "3",
+		open_need = {},
+		award_display = {}
+	},
+	[60102] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Combat Data Collection Ⅰ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>Sufficient data must be obtained in order to ensure that research and development proceed smoothly. The most effective source of data is, without a doubt, from live combat.</color>\n\n — Sortie and accumulate <color=#92fc63>1,200,000</color> EXP using Sakura Empire Main Fleet ships.",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60102,
+		target_num = 1200000,
+		fix_task = 0,
+		target_id = {
+			{
+				3,
+				4
+			},
+			{
+				3,
+				5
+			},
+			{
+				3,
+				6
+			},
+			{
+				3,
+				7
+			},
+			{
+				3,
+				9
+			},
+			{
+				3,
+				10
+			},
+			{
+				3,
+				12
+			},
+			{
+				3,
+				13
+			}
+		},
+		open_need = {},
+		award_display = {}
+	},
+	[60103] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Theoretical Engineering Research Ⅰ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>Additional investment is required to assess the feasibility of new hypotheses. If we can apply the results of our data collection to cutting-edge technological research, we could make significant developmental progress. </color>\n\n — Complete <color=#92fc63>8</color> Research Projects in the Tech Academy.",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60103,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[60104] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Design Breakthrough Ⅰ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>Through a combination of the combat data and cutting-edge theoretical engineering, development has finally advanced to the drawing board stage. However, to work out the design's finer details, we must thoroughly compare it to existing blueprints.</color>\n\n — Gather <color=#92fc63>3</color> T3 Battleship Retrofit Blueprints (tapping \"Complete\" will use up these resources.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18023,
+		id = 60104,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "18023",
+		open_need = {},
+		award_display = {}
+	},
+	[60105] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Combat Data Collection Ⅱ",
+		count_inherit = 0,
+		desc = [[
+<color=#92fc63>Combat Data Collection Ⅰ must be completed first.</color>
+<color=#a2a2a2>The first draft of the design is complete. In order to verify the extent to which the design's specifications can be realized, more combat data is needed.</color>
+
+ — Sortie and accumulate <color=#92fc63>2,400,000</color> EXP using Sakura Empire Vanguard ships.]],
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60105,
+		target_num = 2400000,
+		fix_task = 0,
+		target_id = {
+			{
+				3,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				3,
+				18
+			}
+		},
+		open_need = {
+			60102
+		},
+		award_display = {}
+	},
+	[60106] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Theoretical Engineering Research Ⅱ",
+		count_inherit = 0,
+		desc = [[
+<color=#92fc63>Theoretical Engineering Research Ⅰ must be completed first.</color>
+<color=#a2a2a2>Next, the basic design must be revised, improved, and optimized. This is a perfect chance to implement the ideas we weren't able to during the initial stages.</color>
+
+ — Complete <color=#92fc63>12</color> Research Projects in the Tech Academy.]],
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60106,
+		target_num = 12,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {
+			60103
+		},
+		award_display = {}
+	},
+	[60107] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Design Breakthrough Ⅱ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>At long last, through a combination of theoretical engineering, combat data, solid design, and revolutionary ideas, the Priority ship's design is approaching completion. We are hoping to fix some remaining problems to achieve the best performance possible.</color>\n\n — Gather <color=#92fc63>8</color> T3 Cruiser Retrofit Blueprints (tapping \"Complete\" will use up these resources.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18013,
+		id = 60107,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "18013",
+		open_need = {},
+		award_display = {}
+	},
+	[60108] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Hull Construction Ⅰ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>50,000</color> Coins (tapping \"Complete\" will use up these resources.)",
+		target_id_2 = "",
+		sub_type = 1002,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1,
+		id = 60108,
+		target_num = 50000,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60109] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Hull Construction Ⅱ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>10</color> Wisdom Cubes (tapping \"Complete\" will use up these resources.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 20001,
+		id = 60109,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "20001",
+		open_need = {},
+		award_display = {}
+	},
+	[60111] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		name = "",
+		count_inherit = 0,
+		desc = "",
+		target_id_2 = "",
+		sub_type = 1050,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60111,
+		target_num = 630,
+		fix_task = 0,
+		target_id = "4",
+		open_need = {},
+		award_display = {}
+	},
+	[60112] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Combat Data Collection Ⅰ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>Sufficient data must be obtained in order to ensure that research and development proceed smoothly. The most effective source of data is, without a doubt, from live combat.</color>\n\n — Sortie and accumulate <color=#92fc63>1,200,000</color> EXP using Iron Blood Main Fleet ships.",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60112,
+		target_num = 1200000,
+		fix_task = 0,
+		target_id = {
+			{
+				4,
+				4
+			},
+			{
+				4,
+				5
+			},
+			{
+				4,
+				6
+			},
+			{
+				4,
+				7
+			},
+			{
+				4,
+				9
+			},
+			{
+				4,
+				10
+			},
+			{
+				4,
+				12
+			},
+			{
+				4,
+				13
+			}
+		},
+		open_need = {},
+		award_display = {}
+	},
+	[60113] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Theoretical Engineering Research Ⅰ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>Additional investment is required to assess the feasibility of new hypotheses. If we can apply the results of our data collection to cutting-edge technological research, we could make significant developmental progress. </color>\n\n — Complete <color=#92fc63>8</color> Research Projects in the Tech Academy.",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60113,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[60114] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Design Breakthrough Ⅰ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>Through a combination of the combat data and cutting-edge theoretical engineering, development has finally advanced to the drawing board stage. However, to work out the design's finer details, we must thoroughly compare it to existing blueprints.</color>\n\n — Gather <color=#92fc63>3</color> T3 Battleship Retrofit Blueprints (tapping \"Complete\" will use up these resources.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18023,
+		id = 60114,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "18023",
+		open_need = {},
+		award_display = {}
+	},
+	[60115] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Combat Data Collection Ⅱ",
+		count_inherit = 0,
+		desc = [[
+<color=#92fc63>Combat Data Collection Ⅰ must be completed first.</color>
+<color=#a2a2a2>The first draft of the design is complete. In order to verify the extent to which the design's specifications can be realized, more combat data is needed.</color>
+
+ — Sortie and accumulate <color=#92fc63>2,400,000</color> EXP using Iron Blood Main Fleet ships.]],
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60115,
+		target_num = 2400000,
+		fix_task = 0,
+		target_id = {
+			{
+				4,
+				4
+			},
+			{
+				4,
+				5
+			},
+			{
+				4,
+				6
+			},
+			{
+				4,
+				7
+			},
+			{
+				4,
+				9
+			},
+			{
+				4,
+				10
+			},
+			{
+				4,
+				12
+			},
+			{
+				4,
+				13
+			}
+		},
+		open_need = {
+			60112
+		},
+		award_display = {}
+	},
+	[60116] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Theoretical Engineering Research Ⅱ",
+		count_inherit = 0,
+		desc = [[
+<color=#92fc63>Theoretical Engineering Research Ⅰ must be completed first.</color>
+<color=#a2a2a2>Next, the basic design must be revised, improved, and optimized. This is a perfect chance to implement the ideas we weren't able to during the initial stages.</color>
+
+ — Complete <color=#92fc63>12</color> Research Projects in the Tech Academy.]],
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60116,
+		target_num = 12,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {
+			60113
+		},
+		award_display = {}
+	},
+	[60117] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Design Breakthrough Ⅱ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>At long last, through a combination of theoretical engineering, combat data, solid design, and revolutionary ideas, the Priority ship's design is approaching completion. We are hoping to fix some remaining problems to achieve the best performance possible.</color>\n\n — Gather <color=#92fc63>8</color> T3 Battleship Retrofit Blueprints (tapping \"Complete\" will use up these resources.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18023,
+		id = 60117,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "18023",
+		open_need = {},
+		award_display = {}
+	},
+	[60118] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Hull Construction Ⅰ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>60,000</color> Coins (tapping \"Complete\" will use up these resources.)",
+		target_id_2 = "",
+		sub_type = 1002,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1,
+		id = 60118,
+		target_num = 60000,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60119] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Hull Construction Ⅱ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>10</color> Wisdom Cubes (tapping \"Complete\" will use up these resources.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 20001,
+		id = 60119,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "20001",
+		open_need = {},
+		award_display = {}
+	},
+	[60120] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		name = "",
+		count_inherit = 0,
+		desc = "",
+		target_id_2 = "",
+		sub_type = 1050,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60120,
+		target_num = 760,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60121] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 9,
+		name = "",
+		count_inherit = 0,
+		desc = "",
+		target_id_2 = "",
+		sub_type = 1050,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60121,
+		target_num = 420,
+		fix_task = 0,
+		target_id = "4",
+		open_need = {},
+		award_display = {}
+	},
+	[60122] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Combat Data Collection Ⅰ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>Sufficient data must be obtained in order to ensure that research and development proceed smoothly. The most effective source of data is, without a doubt, from live combat.</color>\n\n — Sortie and accumulate <color=#92fc63>1,200,000</color> EXP using Iron Blood, Vichya Dominion, or Iris Libre Main Fleet ships. (EXP from any combination of Main Fleet ships from these factions will count.)",
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60122,
+		target_num = 1000000,
+		fix_task = 0,
+		target_id = {
+			{
+				4,
+				4
+			},
+			{
+				4,
+				5
+			},
+			{
+				4,
+				6
+			},
+			{
+				4,
+				7
+			},
+			{
+				4,
+				9
+			},
+			{
+				4,
+				10
+			},
+			{
+				4,
+				12
+			},
+			{
+				4,
+				13
+			},
+			{
+				8,
+				4
+			},
+			{
+				8,
+				5
+			},
+			{
+				8,
+				6
+			},
+			{
+				8,
+				7
+			},
+			{
+				8,
+				9
+			},
+			{
+				8,
+				10
+			},
+			{
+				8,
+				12
+			},
+			{
+				8,
+				13
+			},
+			{
+				9,
+				4
+			},
+			{
+				9,
+				5
+			},
+			{
+				9,
+				6
+			},
+			{
+				9,
+				7
+			},
+			{
+				9,
+				9
+			},
+			{
+				9,
+				10
+			},
+			{
+				9,
+				12
+			},
+			{
+				9,
+				13
+			}
+		},
+		open_need = {},
+		award_display = {}
+	},
+	[60123] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Theoretical Engineering Research Ⅰ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>Additional investment is required to assess the feasibility of new hypotheses. If we can apply the results of our data collection to cutting-edge technological research, we could make significant developmental progress. </color>\n\n — Complete <color=#92fc63>5</color> Research Projects in the Tech Academy.",
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60123,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {}
+	},
+	[60124] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Design Breakthrough Ⅰ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>Through a combination of the combat data and cutting-edge theoretical engineering, development has finally advanced to the drawing board stage. However, to work out the design's finer details, we must thoroughly compare it to existing blueprints.</color>\n\n — Gather <color=#92fc63>10</color> T2 Battleship Retrofit Blueprints (tapping \"Complete\" will use up these resources.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18022,
+		id = 60124,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "18022",
+		open_need = {},
+		award_display = {}
+	},
+	[60125] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Combat Data Collection Ⅱ",
+		count_inherit = 0,
+		desc = [[
+<color=#92fc63>Combat Data Collection Ⅰ must be completed first.</color>
+<color=#a2a2a2>The first draft of the design is complete. In order to verify the extent to which the design's specifications can be realized, more combat data is needed.</color>
+
+ — Sortie and accumulate <color=#92fc63>2,000,000</color> EXP using Iron Blood, Vichya Dominion, or Iris Libre Main Fleet ships. (EXP from any combination of Main Fleet ships from these factions will count.)]],
+		target_id_2 = "",
+		sub_type = 1041,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60125,
+		target_num = 2000000,
+		fix_task = 0,
+		target_id = {
+			{
+				4,
+				4
+			},
+			{
+				4,
+				5
+			},
+			{
+				4,
+				6
+			},
+			{
+				4,
+				7
+			},
+			{
+				4,
+				9
+			},
+			{
+				4,
+				10
+			},
+			{
+				4,
+				12
+			},
+			{
+				4,
+				13
+			},
+			{
+				8,
+				4
+			},
+			{
+				8,
+				5
+			},
+			{
+				8,
+				6
+			},
+			{
+				8,
+				7
+			},
+			{
+				8,
+				9
+			},
+			{
+				8,
+				10
+			},
+			{
+				8,
+				12
+			},
+			{
+				8,
+				13
+			},
+			{
+				9,
+				4
+			},
+			{
+				9,
+				5
+			},
+			{
+				9,
+				6
+			},
+			{
+				9,
+				7
+			},
+			{
+				9,
+				9
+			},
+			{
+				9,
+				10
+			},
+			{
+				9,
+				12
+			},
+			{
+				9,
+				13
+			}
+		},
+		open_need = {
+			60122
+		},
+		award_display = {}
+	},
+	[60126] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Theoretical Engineering Research Ⅱ",
+		count_inherit = 0,
+		desc = [[
+<color=#92fc63>Theoretical Engineering Research Ⅰ must be completed first.</color>
+<color=#a2a2a2>Next, the basic design must be revised, improved, and optimized. This is a perfect chance to implement the ideas we weren't able to during the initial stages.</color>
+
+ — Complete <color=#92fc63>8</color> Research Projects in the Tech Academy.]],
+		target_id_2 = "",
+		sub_type = 110,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 60126,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {
+			60123
+		},
+		award_display = {}
+	},
+	[60127] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Design Breakthrough Ⅱ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>At long last, through a combination of theoretical engineering, combat data, solid design, and revolutionary ideas, the Priority ship's design is approaching completion. We are hoping to fix some remaining problems to achieve the best performance possible.</color>\n\n — Gather <color=#92fc63>5</color> T3 Battleship Retrofit Blueprints (tapping \"Complete\" will use up these resources.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 18023,
+		id = 60127,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "18023",
+		open_need = {},
+		award_display = {}
+	},
+	[60128] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Hull Construction Ⅰ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>30,000</color> Coins (tapping \"Complete\" will use up these resources.)",
+		target_id_2 = "",
+		sub_type = 1002,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1,
+		id = 60128,
+		target_num = 30000,
+		fix_task = 0,
+		target_id = "1",
+		open_need = {},
+		award_display = {}
+	},
+	[60129] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 0,
+		type = 8,
+		name = "Hull Construction Ⅱ",
+		count_inherit = 0,
+		desc = "<color=#a2a2a2>The long and arduous design process has finally come to an end. All that remains now is the hull's construction. Oh, and the christening, of course!</color>\n\n — Gather <color=#92fc63>5</color> Wisdom Cubes (tapping \"Complete\" will use up these resources.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 30,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 20001,
+		id = 60129,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "20001",
+		open_need = {},
+		award_display = {}
+	},
 	[99901] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -71001,6 +73427,7 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		14658,
 		14670,
 		14671,
+		14672,
 		14757,
 		14758,
 		14759,
@@ -71300,6 +73727,20 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		15221,
 		15222,
 		15223,
+		15224,
+		15225,
+		15226,
+		15227,
+		15228,
+		15229,
+		15230,
+		15231,
+		15232,
+		15233,
+		15234,
+		15235,
+		15236,
+		15237,
 		31013,
 		31014,
 		31015,
@@ -71424,6 +73865,61 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		60067,
 		60068,
 		60069,
+		60071,
+		60072,
+		60073,
+		60074,
+		60075,
+		60076,
+		60077,
+		60078,
+		60079,
+		60081,
+		60082,
+		60083,
+		60084,
+		60085,
+		60086,
+		60087,
+		60088,
+		60089,
+		60091,
+		60092,
+		60093,
+		60094,
+		60095,
+		60096,
+		60097,
+		60098,
+		60099,
+		60101,
+		60102,
+		60103,
+		60104,
+		60105,
+		60106,
+		60107,
+		60108,
+		60109,
+		60111,
+		60112,
+		60113,
+		60114,
+		60115,
+		60116,
+		60117,
+		60118,
+		60119,
+		60120,
+		60121,
+		60122,
+		60123,
+		60124,
+		60125,
+		60126,
+		60127,
+		60128,
+		60129,
 		99901,
 		99902,
 		99903,

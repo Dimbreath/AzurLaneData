@@ -497,9 +497,9 @@ pg.backyard_theme_template = {
 		discount_time = {
 			{
 				{
-					2018,
+					2019,
 					12,
-					20
+					19
 				},
 				{
 					0,
@@ -509,9 +509,9 @@ pg.backyard_theme_template = {
 			},
 			{
 				{
-					2018,
-					12,
-					26
+					2020,
+					1,
+					1
 				},
 				{
 					23,
@@ -1057,15 +1057,14 @@ pg.backyard_theme_template = {
 		name = "Christmas Town",
 		desc = "Enjoy Christmas in this snowy shopping district!",
 		deblocking = 1,
-		new = 1,
-		hot = 1,
+		new = 0,
+		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
-		discount = 0,
+		discount = 20,
 		id = 37,
 		icon = "cr2themeicon",
 		comfortable = 0,
-		discount_time = "",
 		ids = {
 			37001,
 			37002,
@@ -1089,6 +1088,32 @@ pg.backyard_theme_template = {
 			37118,
 			37119,
 			37120
+		},
+		discount_time = {
+			{
+				{
+					2019,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[38] = {
@@ -1737,6 +1762,38 @@ pg.backyard_theme_template = {
 			55307
 		}
 	},
+	[56] = {
+		Cfg_1 = 5,
+		name = "Fairytale Town",
+		desc = "This snowy town reminds you of warm days immersed in your favorite Christmas tales.",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 56,
+		icon = "cs3themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			56001,
+			56002,
+			56101,
+			56102,
+			56103,
+			56104,
+			56105,
+			56106,
+			56107,
+			56108,
+			56109,
+			56110,
+			56111,
+			56112,
+			56113
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1774,7 +1831,8 @@ pg.backyard_theme_template = {
 		50,
 		52,
 		54,
-		55
+		55,
+		56
 	}
 }
 

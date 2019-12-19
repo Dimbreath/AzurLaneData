@@ -276,4 +276,8 @@ function slot0.willExit(slot0)
 	end
 end
 
+function slot0.insertEmojiToInputText(slot0, slot1)
+	setInputText(slot0.inputTF, getInputText(slot0.inputTF) .. string.gsub(ChatConst.EmojiIconCode, "code", slot1))
+end
+
 return slot0

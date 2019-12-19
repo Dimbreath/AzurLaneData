@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "跟你说一个好消息喵！",
+			say = "I have good news, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "经过了这段时间科研部门大家的共同努力，终于～～实现了新的突破喵！",
+			say = "Thanks to the hard work of everyone from the Research Department, we've managed to make two new breakthroughs, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "首先是，又有一批全新的伙伴即将到来了喵！虽然想要真正让她们加入还得靠指挥官的努力喵…但是！",
+			say = "First, you can now acquire a new set of Priority ship comrades through the Tech Academy, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这之前，指挥官可以先对她们有一个更加直观的认知了喵！",
+			say = "And second, you can now preview a Priority ship's barrage and skills even if you haven't finished developing them yet, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "将将～这就是「科研战略战术模拟系统」，简称「战术模拟」喵！在正式开始努力之前，可以先在模拟系统中体验与新伙伴并肩作战的感受喵！",
+			say = "However, their stats will differ from their fully developed equivalents, nya... Think of it as the Research Department adjusting things a little, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼喵，{namecode:98}已经感觉到指挥官的期待了喵，那就加油了喵！{namecode:98}先去忙别的事情了，拜拜喵！",
+			say = "Also, the unlock requirements for these new Priority ships will be a little different from the previous ones, nya! If you don't meet the requirements, go take a look at your Fleet Technology, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -812,6 +812,90 @@ pg.item_medal_fetch = {
 		id = 158,
 		itemid = 18033
 	},
+	[159] = {
+		price = 20,
+		name = "蓝图：海王星",
+		itemquantity = 1,
+		id = 159,
+		itemid = 42001
+	},
+	[160] = {
+		price = 20,
+		name = "蓝图：君主",
+		itemquantity = 1,
+		id = 160,
+		itemid = 42002
+	},
+	[161] = {
+		price = 20,
+		name = "蓝图：峦",
+		itemquantity = 1,
+		id = 161,
+		itemid = 42003
+	},
+	[162] = {
+		price = 20,
+		name = "蓝图：侌",
+		itemquantity = 1,
+		id = 162,
+		itemid = 42004
+	},
+	[163] = {
+		price = 20,
+		name = "蓝图：罗恩",
+		itemquantity = 1,
+		id = 163,
+		itemid = 42005
+	},
+	[164] = {
+		price = 20,
+		name = "蓝图：路易九世",
+		itemquantity = 1,
+		id = 164,
+		itemid = 42006
+	},
+	[165] = {
+		price = 40,
+		name = "蓝图：海王星",
+		itemquantity = 2,
+		id = 165,
+		itemid = 42001
+	},
+	[166] = {
+		price = 40,
+		name = "蓝图：君主",
+		itemquantity = 2,
+		id = 166,
+		itemid = 42002
+	},
+	[167] = {
+		price = 40,
+		name = "蓝图：峦",
+		itemquantity = 2,
+		id = 167,
+		itemid = 42003
+	},
+	[168] = {
+		price = 40,
+		name = "蓝图：侌",
+		itemquantity = 2,
+		id = 168,
+		itemid = 42004
+	},
+	[169] = {
+		price = 40,
+		name = "蓝图：罗恩",
+		itemquantity = 2,
+		id = 169,
+		itemid = 42005
+	},
+	[170] = {
+		price = 40,
+		name = "蓝图：路易九世",
+		itemquantity = 2,
+		id = 170,
+		itemid = 42006
+	},
 	[171] = {
 		price = 20,
 		name = "深海潜航新手装备补给箱",
@@ -936,6 +1020,18 @@ pg.item_medal_fetch = {
 		156,
 		157,
 		158,
+		159,
+		160,
+		161,
+		162,
+		163,
+		164,
+		165,
+		166,
+		167,
+		168,
+		169,
+		170,
 		171
 	}
 }

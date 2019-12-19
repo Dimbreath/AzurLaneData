@@ -89,7 +89,7 @@ function slot0.rankAnimaFinish(slot0)
 end
 
 function slot0.showPainting(slot0)
-	slot1, slot2, slot3 = nil
+	slot1, slot2 = nil
 
 	SetActive(slot0._painting, true)
 
@@ -103,17 +103,17 @@ function slot0.showPainting(slot0)
 	SetActive(slot0._failPainting, false)
 
 	if slot0.contextData.score > 1 then
-		slot1, slot3, slot2 = ShipWordHelper.GetWordAndCV(900180, ShipWordHelper.WORD_TYPE_MVP)
+		slot1, slot2 = Ship.getWords(900180, "win_mvp")
 	else
-		slot1, slot3, slot2 = ShipWordHelper.GetWordAndCV(900180, ShipWordHelper.WORD_TYPE_LOSE)
+		slot1, slot2 = Ship.getWords(900180, "lose")
 	end
 
-	setText(slot0._chat:Find("Text"), slot2)
+	setText(slot0._chat:Find("Text"), slot1)
 
 	if CHAT_POP_STR_LEN < #slot0._chat:Find("Text"):GetComponent(typeof(Text)).text then
-		slot4.alignment = TextAnchor.MiddleLeft
+		slot3.alignment = TextAnchor.MiddleLeft
 	else
-		slot4.alignment = TextAnchor.MiddleCenter
+		slot3.alignment = TextAnchor.MiddleCenter
 	end
 
 	SetActive(slot0._chat, true)
