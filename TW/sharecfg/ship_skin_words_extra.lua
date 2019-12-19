@@ -390,13 +390,13 @@ pg.ship_skin_words_extra = {
 		main = {
 			{
 				100,
-				"nil|{namecode:12}，在下不会因为这点程度就迷路的！|nil"
+				"nil|{namecode:12}，在下不會因為這點程度就迷路的！|nil"
 			}
 		},
 		touch = {
 			{
 				100,
-				"{namecode:12}？啊，是指挥官吗……"
+				"{namecode:12}？啊，是指揮官嗎……"
 			}
 		}
 	},
@@ -426,7 +426,7 @@ pg.ship_skin_words_extra = {
 		main = {
 			{
 				100,
-				"找{namecode:12}确实费了好大的劲…可、可不是因为在下迷路了哦！|nil|nil"
+				"找{namecode:12}確實費了好大的勁...可、可不是因為在下迷路了哦！|nil|nil"
 			}
 		}
 	},

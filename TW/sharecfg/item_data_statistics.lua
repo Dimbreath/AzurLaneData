@@ -576,6 +576,22 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[1004] = {
+		display = "聖誕夜、平安夜，願所有人都能得到幸福與安寧",
+		rarity = 4,
+		type = 1,
+		name = "聖誕的饋贈",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 1004,
+		icon = "props/giftbox",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[1008] = {
 		display = "Z代表著好運、必勝和正義，在Z的旗幟下，吾等將無往不利！",
 		rarity = 5,
@@ -3742,7 +3758,7 @@ pg.item_data_statistics = {
 		display = "可以獲得一件隨機的外觀裝備",
 		rarity = 4,
 		type = 11,
-		name = "外觀裝備箱·復刻",
+		name = "外觀裝備箱",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -5635,7 +5651,10 @@ pg.item_data_statistics = {
 		id = 42001,
 		icon = "Props/42001",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			5
+		},
 		index = {}
 	},
 	[42002] = {
@@ -5651,7 +5670,10 @@ pg.item_data_statistics = {
 		id = 42002,
 		icon = "Props/42002",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			5
+		},
 		index = {}
 	},
 	[42003] = {
@@ -5667,7 +5689,10 @@ pg.item_data_statistics = {
 		id = 42003,
 		icon = "Props/42003",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			5
+		},
 		index = {}
 	},
 	[42004] = {
@@ -5683,7 +5708,10 @@ pg.item_data_statistics = {
 		id = 42004,
 		icon = "Props/42004",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			5
+		},
 		index = {}
 	},
 	[42005] = {
@@ -5699,7 +5727,10 @@ pg.item_data_statistics = {
 		id = 42005,
 		icon = "Props/42005",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			5
+		},
 		index = {}
 	},
 	[42006] = {
@@ -5715,7 +5746,10 @@ pg.item_data_statistics = {
 		id = 42006,
 		icon = "Props/42006",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			5
+		},
 		index = {}
 	},
 	[50001] = {
@@ -5776,17 +5810,17 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "甜咖喱還是辣咖喱，這是一個問題！ <color=#A9F548>（提高經驗加成5%，持續60分鐘）</color>",
+		display = "據說最原始的拐杖糖是白色的呢。 <color=#A9F548>（提高經驗加成5%，持續60分鐘）</color>",
 		rarity = 2,
 		type = 3,
-		name = "海軍咖喱",
+		name = "拐杖糖",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		virtual_type = 0,
 		replace_item = 0,
 		link_id = 0,
 		id = 50004,
-		icon = "Props/haijungali",
+		icon = "Props/christmas",
 		display_icon = {},
 		price = {
 			1,
@@ -49806,6 +49840,7 @@ pg.item_data_statistics = {
 		40,
 		41,
 		1001,
+		1004,
 		1008,
 		10000,
 		10001,

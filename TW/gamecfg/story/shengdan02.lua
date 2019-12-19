@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"爱与和平的圣夜祭\n\n<size=45>二　圣诞亚哥！</size>",
+					"愛與和平的聖夜祭\n\n<size=45>二　聖誕牙哥！</size>",
 					1
 				}
 			}
@@ -35,7 +35,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "发现目标~突击采访开始~",
+			say = "發現目標~突擊採訪開始~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -54,7 +54,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈欸？突击采访？喔喔，终于我也成为知名人士了嘛！",
+			say = "哈欸？突擊採訪？噢噢，終於我也成為知名人士了嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是我！超厉害！嘿嘿，来吧！不管什么问题我都会回答你的！",
+			say = "不愧是我！超厲害！嘿嘿，來吧！不管什麼問題我都會回答你的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈，不愧是圣地亚哥，还是这么有趣呢~",
+			say = "哈哈，不愧是聖地牙哥，還是這麼有趣呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看你的装备…还有刚才的…是在准备表演吗？",
+			say = "看你的裝備…還有剛才的…是在準備表演嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "被你发现啦~我打算在圣诞节把这首歌送给大家",
+			say = "被你發現啦~我打算在聖誕節把這首歌送給大家",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，大家一定会被我的歌声感动到痛哭流涕~然后我就会一跃成为港区的偶像！",
+			say = "嘿嘿，大家一定會被我的歌聲感動到痛哭流涕~然後我就會一躍成為港區的偶像！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "圣诞的偶像歌手圣地亚哥，简称圣诞亚哥！嘿嘿，我是不是很聪明~",
+			say = "聖誕的偶像歌手聖地牙哥，簡稱聖誕牙哥！嘿嘿，我是不是很聰明~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "圣诞亚哥！嘻嘻，我很期待你的表演哦~",
+			say = "聖誕牙哥！嘻嘻，我很期待你的表演哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸嘿嘿，既然如此，我就提前披露一点点给你听看看吧！",
+			say = "欸嘿嘿，既然如此，我就提前披露一點點給你聽看看吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			actor = 102081,
 			nameColor = "#a9f548",
-			say = "嗯？音响好像不大对劲…欸？格里德利？怎么突然趴下了？",
+			say = "嗯？音響好像不大對勁…欸？格里德利？怎麼突然趴下了？",
 			flashout = {
 				dur = 0.2,
 				black = true,
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难道是被我的歌声感动了？！",
+			say = "難道是被我的歌聲感動了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "呼…呼……真、真是有冲击力的歌声，不愧是圣诞亚哥……",
+			say = "呼…呼……真、真是有衝擊力的歌聲，不愧是聖誕牙哥……",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -310,7 +310,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，这么夸我我都要觉得害羞了呢~",
+			say = "哎呀，這麼誇我我都要覺得害羞了呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			actor = 101051,
 			nameColor = "#a9f548",
-			say = "好~拍到了张好照片呢~这张就叫做《圣诞亚哥！》吧~嘻嘻，寻找下一个圣诞目标~",
+			say = "好~拍到了張好照片呢~這張就叫做《聖誕牙哥！》吧~嘻嘻，尋找下一個聖誕目標~",
 			flashout = {
 				dur = 0.3,
 				black = false,

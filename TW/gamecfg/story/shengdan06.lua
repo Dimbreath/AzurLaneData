@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"爱与和平的圣夜祭\n\n<size=45>六 圣夜的大餐</size>",
+					"愛與和平的聖夜祭\n\n<size=45>六 聖夜的大餐</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "港区•皇家生活区",
+			say = "港區•皇家生活區",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "圣夜的晚餐已经就绪，请各位小姐慢慢享用",
+			say = "聖夜的晚餐已經就緒，請各位小姐慢慢享用",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "我、我也有帮忙哦~",
+			say = "我、我也有幫忙哦~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！干得不错，不愧是我皇家的女仆队！来来，你们也找到位置坐下来用餐吧~一直以来大家都很努力了！今晚就尽情地享受节日吧~",
+			say = "嗯！幹得不錯，不愧是我皇家的女僕隊！來來，你們也找到位置坐下來用餐吧~一直以來大家都很努力了！今晚就盡情地享受節日吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			actor = 201100,
 			nameColor = "#a9f548",
-			say = "圣、圣诞大餐……火鸡……布丁……三文鱼……我、我开动了！",
+			say = "聖、聖誕大餐……火雞……布丁……鮭魚……我、我開動了！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			actor = 201100,
 			nameColor = "#a9f548",
-			say = "这个好棒！",
+			say = "這個好棒！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			actor = 201100,
 			nameColor = "#a9f548",
-			say = "这个也好好吃！",
+			say = "這個也好好吃！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			actor = 201100,
 			nameColor = "#a9f548",
-			say = "哈啊~~活着真好~~~",
+			say = "哈啊~~活著真好~~~",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			actor = 201080,
 			nameColor = "#a9f548",
-			say = "每次看到小天鹅放开了吃东西的样子，都会让咱觉得自愧不如呢……",
+			say = "每次看到小天鵝放開了吃東西的樣子，都會讓咱覺得自愧不如呢……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -242,7 +242,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "哈啊…真不知道吃下去的营养都到哪里去了……难、难道是……！",
+			say = "哈啊…真不知道吃下去的營養都到哪裡去了……難、難道是……！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -261,7 +261,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来是这么来的吗！既、既然如此我也要多吃一点！",
+			say = "原來是這麼來的嗎！既、既然如此我也要多吃一點！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "新、新月…一般来说…这种时候只会徒增体重和赘肉，咱在偶像的自我修养书籍里面看到过呢……",
+			say = "新、新月…一般來說…這種時候只會徒增體重和贅肉，咱在偶像的自我修養書籍裡面看到過呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜、呜呜——同为C级，为什么！！",
+			say = "嗚、嗚嗚——同為C級，為什麼！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呼欸？彗星、新月你们在说什么呢？这么多好吃的，不吃光说话多浪费呀？",
+			say = "呼欸？彗星、新月你們在說什麼呢？這麼多好吃的，不吃光說話多浪費呀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咱、咱也开动了！",
+			say = "咱、咱也開動了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊…哈啊…C级的小妹妹们今晚显得更加可爱了！！",
+			say = "哈啊…哈啊…C級的小妹妹們今晚顯得更加可愛了！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "对美好之物的喜爱乃是人之常情，但是——",
+			say = "對美好之物的喜愛乃是人之常情，但是——",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -385,7 +385,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我可是很绅士的，像这样看着驱逐妹妹们可爱的模样我就很满足了",
+			say = "我可是很紳士的，像這樣看著驅逐妹妹們可愛的模樣我就很滿足了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			dir = 1,
 			actor = 204030,
 			nameColor = "#a9f548",
-			say = "接下来，就是交换礼物的时间咯，大家从前面放好的礼物堆里各自选一个礼物盒吧~交换要遵循自愿原则哦~",
+			say = "接下來，就是交換禮物的時間囉，大家從前面放好的禮物堆裡各自選一個禮物盒吧~交換要遵循自願原則哦~",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -432,7 +432,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "唔……那我就……这个吧！",
+			say = "唔……那我就……這個吧！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -451,7 +451,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这、这个是……圣诞装？",
+			say = "這、這個是……聖誕裝？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀？这不是我准备的礼物吗，被小天鹅拿到啦，也不错，不如马上换上看看如何？",
+			say = "哎呀？這不是我準備的禮物嗎，被小天鵝拿到啦，也不錯，不如馬上換上看看如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜…刚吃了好多东西…不过既然是胡德姐姐送的……",
+			say = "嗚…剛吃了好多東西…不過既然是胡德姐姐送的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			actor = 201102,
 			nameColor = "#a9f548",
-			say = "怎、怎么样？",
+			say = "怎、怎麼樣？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -547,7 +547,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜、呜——有点害羞……",
+			say = "嗚、嗚——有點害羞……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

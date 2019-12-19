@@ -1,5 +1,6 @@
 slot0 = class("BaseSubPanel")
 slot1 = import("view.util.FuncBuffer")
+slot2 = import("view.util.AutoLoader")
 slot0.STATES = {
 	LOADED = 3,
 	DESTROY = 5,
@@ -11,6 +12,7 @@ slot0.STATES = {
 function slot0.Ctor(slot0, slot1)
 	slot0._state = slot0.STATES.NONE
 	slot0.buffer = slot1.New()
+	slot0.loader = slot1.New().New()
 
 	if slot1 then
 		slot0.buffer:Attach(slot1)
@@ -144,6 +146,7 @@ function slot0.Destroy(slot0)
 
 	slot0:Hide()
 	slot0:OnDestroy()
+	slot0.loader:Clear()
 	pg.DelegateInfo.Dispose(slot0)
 	setParent(slot0._tf, pg.UIMgr.GetInstance().UIMain, false)
 	slot0:DisposeGO(slot0:GetUIName(), slot0._go)

@@ -3755,6 +3755,60 @@ pg.shop_template = {
 			}
 		}
 	},
+	[55005] = {
+		group_type = 0,
+		resource_num = 500,
+		desc = "500钻石购买家具币礼包-台服第二次",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 55005,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				2
+			}
+		},
+		effect_args = {
+			40106
+		},
+		time = {
+			{
+				{
+					2019,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					12,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[60001] = {
 		group_type = 0,
 		resource_num = 300,
@@ -4244,7 +4298,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 5,
+		order = 15,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -4293,7 +4347,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 5,
+		order = 15,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -4342,7 +4396,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 5,
+		order = 15,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -4391,7 +4445,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 5,
+		order = 15,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -4440,7 +4494,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 6,
+		order = 16,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -4489,7 +4543,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 6,
+		order = 16,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -4538,7 +4592,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 6,
+		order = 16,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -4587,7 +4641,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 2,
 		time_second = 0,
-		order = 1,
+		order = 18,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -4636,7 +4690,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 6,
+		order = 16,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -4685,7 +4739,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 2,
 		time_second = 0,
-		order = 1,
+		order = 18,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -4734,7 +4788,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 7,
+		order = 17,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -4783,7 +4837,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 6,
+		order = 16,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -4832,7 +4886,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 6,
+		order = 16,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -4881,7 +4935,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 10,
+		order = 110,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -4955,7 +5009,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 10,
+		order = 110,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -5029,7 +5083,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 10,
+		order = 110,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -5103,7 +5157,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 10,
+		order = 110,
 		group = 0,
 		num = 1,
 		discount = 20,
@@ -5167,6 +5221,300 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70024] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "購買造型:埃爾德里奇聖誕造型",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 2,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 20,
+		resource_type = 14,
+		id = 70024,
+		genre = "skin_shop",
+		discount_time = {
+			{
+				{
+					2018,
+					12,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2018,
+					12,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		limit_args = {},
+		effect_args = {
+			101261
+		}
+	},
+	[70025] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "購買造型:企業聖誕造型",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 2,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 20,
+		resource_type = 14,
+		id = 70025,
+		genre = "skin_shop",
+		discount_time = {
+			{
+				{
+					2018,
+					12,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2018,
+					12,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		limit_args = {},
+		effect_args = {
+			107061
+		}
+	},
+	[70026] = {
+		group_type = 0,
+		resource_num = 680,
+		desc = "購買造型:山城聖誕造型",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 4,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 20,
+		resource_type = 14,
+		id = 70026,
+		genre = "skin_shop",
+		discount_time = {
+			{
+				{
+					2018,
+					12,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2018,
+					12,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		limit_args = {},
+		effect_args = {
+			305022
+		}
+	},
+	[70027] = {
+		group_type = 0,
+		resource_num = 680,
+		desc = "購買造型:小天鵝聖誕造型",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 5,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 20,
+		resource_type = 14,
+		id = 70027,
+		genre = "skin_shop",
+		discount_time = {
+			{
+				{
+					2018,
+					12,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2018,
+					12,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		limit_args = {},
+		effect_args = {
+			201102
+		}
+	},
+	[70028] = {
+		group_type = 0,
+		resource_num = 680,
+		desc = "購買造型:聖地牙哥聖誕造型",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 2,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 20,
+		resource_type = 14,
+		id = 70028,
+		genre = "skin_shop",
+		discount_time = {
+			{
+				{
+					2018,
+					12,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2018,
+					12,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		limit_args = {},
+		effect_args = {
+			102081
+		}
+	},
+	[70029] = {
+		group_type = 0,
+		resource_num = 600,
+		desc = "購買造型:睦月聖誕造型",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 5,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 20,
+		resource_type = 14,
+		id = 70029,
+		genre = "skin_shop",
+		discount_time = {
+			{
+				{
+					2018,
+					12,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2018,
+					12,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		limit_args = {},
+		effect_args = {
+			301321
+		}
+	},
 	[70055] = {
 		group_type = 0,
 		resource_num = 780,
@@ -5177,7 +5525,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 1,
+		order = 13,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -5226,7 +5574,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 3,
+		order = 13,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -5250,7 +5598,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 1,
+		order = 13,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -5274,7 +5622,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 6,
+		order = 16,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -5323,7 +5671,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 6,
+		order = 16,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -5372,7 +5720,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 6,
+		order = 16,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -5421,7 +5769,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 2,
+		order = 12,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -5470,7 +5818,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 1,
+		order = 13,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -5519,7 +5867,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 2,
+		order = 12,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -5593,7 +5941,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 2,
+		order = 12,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -5657,6 +6005,55 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70127] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "購買造型：聖誕厭戰",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 1,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70127,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			205021
+		},
+		time = {
+			{
+				{
+					2019,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[70218] = {
 		group_type = 0,
 		resource_num = 880,
@@ -5667,7 +6064,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 0,
 		time_second = 0,
-		order = 1,
+		order = 13,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -5741,7 +6138,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 1,
+		order = 13,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -5790,7 +6187,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 1,
 		time_second = 0,
-		order = 1,
+		order = 13,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -5977,6 +6374,7 @@ pg.shop_template = {
 		55002,
 		55003,
 		55004,
+		55005,
 		60001,
 		60002,
 		60003,
@@ -6011,6 +6409,12 @@ pg.shop_template = {
 		70018,
 		70019,
 		70020,
+		70024,
+		70025,
+		70026,
+		70027,
+		70028,
+		70029,
 		70055,
 		70061,
 		70064,
@@ -6021,6 +6425,7 @@ pg.shop_template = {
 		70114,
 		70115,
 		70116,
+		70127,
 		70218,
 		70254,
 		70255

@@ -6890,7 +6890,7 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 		key = "activity_switch_award_pool_failed"
 	},
 	shop_street_activity_tip = {
-		tip = "*活動期間(<color=#A1E400FF>19.1.24-19.2.13</COLOR>)每次重整必定出現<color=#A1E400FF>外觀裝備箱</color>",
+		tip = "*活動期間(<color=#A1E400FF>19.12.19-19.12.25</COLOR>)每次重整必定出現<color=#A1E400FF>外觀裝備箱</color>",
 		key = "shop_street_activity_tip"
 	},
 	twitter_link_title = {
@@ -6938,15 +6938,8 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 		key = "activity_hit_monster_reset_tip"
 	},
 	equip_skin_detail_tip = {
-		key = "equip_skin_detail_tip",
-		tip = {
-			{
-				info = "遊戲規則\n"
-			},
-			{
-				info = "1 ???????"
-			}
-		}
+		tip = "可以獲得以下外觀裝備",
+		key = "equip_skin_detail_tip"
 	},
 	emoji_type_0 = {
 		tip = "常用",
@@ -6963,6 +6956,10 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 	emoji_type_3 = {
 		tip = "像素",
 		key = "emoji_type_3"
+	},
+	emoji_type_4 = {
+		tip = "小表情",
+		key = "emoji_type_4"
 	},
 	card_pairs_help_tip = {
 		key = "card_pairs_help_tip",
@@ -10329,6 +10326,134 @@ combo达到10/20/40/60/80/100时，分别为每次有效
 				y = 1024
 			}
 		}
+	},
+	resolve_amount_prefix = {
+		tip = "分解數量：",
+		key = "resolve_amount_prefix"
+	},
+	compose_amount_prefix = {
+		tip = "合成數量：",
+		key = "compose_amount_prefix"
+	},
+	confirm_unlock_ship_main = {
+		tip = "該艦船已被設為秘書艦，無法選擇",
+		key = "confirm_unlock_ship_main"
+	},
+	msgbox_text_confirm = {
+		tip = "確 定",
+		key = "msgbox_text_confirm"
+	},
+	msgbox_text_shop = {
+		tip = "商 店",
+		key = "msgbox_text_shop"
+	},
+	msgbox_text_cancel = {
+		tip = "取 消",
+		key = "msgbox_text_cancel"
+	},
+	msgbox_text_cancel_g = {
+		tip = "取 消",
+		key = "msgbox_text_cancel_g"
+	},
+	msgbox_text_cancel_fight = {
+		tip = "退出戰鬥",
+		key = "msgbox_text_cancel_fight"
+	},
+	msgbox_text_goon_fight = {
+		tip = "繼續戰鬥",
+		key = "msgbox_text_goon_fight"
+	},
+	msgbox_text_exit = {
+		tip = "退 出",
+		key = "msgbox_text_exit"
+	},
+	msgbox_text_clear = {
+		tip = "清 理",
+		key = "msgbox_text_clear"
+	},
+	msgbox_text_apply = {
+		tip = "申 請",
+		key = "msgbox_text_apply"
+	},
+	msgbox_text_buy = {
+		tip = "購 買",
+		key = "msgbox_text_buy"
+	},
+	msgbox_text_noPos_buy = {
+		tip = "拓 展",
+		key = "msgbox_text_noPos_buy"
+	},
+	msgbox_text_noPos_clear = {
+		tip = "整 理",
+		key = "msgbox_text_noPos_clear"
+	},
+	msgbox_text_noPos_intensify = {
+		tip = "強 化",
+		key = "msgbox_text_noPos_intensify"
+	},
+	msgbox_text_forward = {
+		tip = "立即前往",
+		key = "msgbox_text_forward"
+	},
+	msgbox_text_iknow = {
+		tip = "知道了",
+		key = "msgbox_text_iknow"
+	},
+	msgbox_text_prepage = {
+		tip = "上一頁",
+		key = "msgbox_text_prepage"
+	},
+	msgbox_text_nextpage = {
+		tip = "下一頁",
+		key = "msgbox_text_nextpage"
+	},
+	msgbox_text_exchange = {
+		tip = "兌 換",
+		key = "msgbox_text_exchange"
+	},
+	msgbox_text_retreat = {
+		tip = "撤 退",
+		key = "msgbox_text_retreat"
+	},
+	msgbox_text_go = {
+		tip = "立即前往",
+		key = "msgbox_text_go"
+	},
+	msgbox_text_consume = {
+		tip = "消耗",
+		key = "msgbox_text_consume"
+	},
+	msgbox_text_inconsume = {
+		tip = "不消耗",
+		key = "msgbox_text_inconsume"
+	},
+	msgbox_text_unlock = {
+		tip = "解 鎖",
+		key = "msgbox_text_unlock"
+	},
+	common_flag_ship = {
+		tip = "秘書艦",
+		key = "common_flag_ship"
+	},
+	fenjie_lantu_tip = {
+		tip = "科研等級達到30級後藍圖才可以被解析哦！",
+		key = "fenjie_lantu_tip"
+	},
+	msgbox_text_analyse = {
+		tip = "解 析",
+		key = "msgbox_text_analyse"
+	},
+	confirm_unlock_lv = {
+		tip = "是否解鎖<color=#ff5c5c>$1的$2</color>",
+		key = "confirm_unlock_lv"
+	},
+	shops_rest_day = {
+		tip = "本次兌換剩餘時間：",
+		key = "shops_rest_day"
+	},
+	title_limit_time = {
+		tip = "「限時」",
+		key = "title_limit_time"
 	}
 }
 

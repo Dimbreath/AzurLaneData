@@ -540,6 +540,21 @@ pg.item_data_template = {
 			0
 		}
 	},
+	[1004] = {
+		limit = "[]",
+		display_effect = "",
+		other_resource_cost = "[]",
+		usage = "usage_undefined",
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		id = 1004,
+		compose_number = 0,
+		target_id = 0,
+		open_ui = {
+			0,
+			0
+		}
+	},
 	[1008] = {
 		limit = "[]",
 		display_effect = "",
@@ -4162,6 +4177,7 @@ pg.item_data_template = {
 		40,
 		41,
 		1001,
+		1004,
 		1008,
 		10000,
 		10001,

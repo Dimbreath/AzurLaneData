@@ -32,6 +32,7 @@ slot0.ShopActivity = 3
 slot0.ShopGUILD = 4
 slot0.ShopShamBattle = 5
 slot0.ShopEscort = 6
+slot0.ShopFragment = 7
 slot0.DORM_FLOOR_ID = 19
 
 function slot0.getOilByLevel(slot0)
