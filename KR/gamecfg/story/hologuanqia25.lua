@@ -135,7 +135,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "그렇다는 건 적이 미궁에서 우리를 습격할 가능성이 높아다는 거겠지.",
+			say = "그렇다는 건 적이 미궁에서 우리를 습격할 가능성이 높다는 거겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

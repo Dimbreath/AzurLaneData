@@ -2214,6 +2214,30 @@ function slot0.writeBack(slot0, slot1, slot2)
 
 			slot0.progress = math.min(slot0.progress + slot0:getConfig("progress_boss"), 100)
 			slot0.defeatCount = slot0.defeatCount + 1
+
+			if not slot0:isActivity() then
+				if slot0:getMapType() == Map.ELITE then
+					pg.TrackerMgr.GetInstance():Tracking(TRACKING_HARD_CHAPTER, slot0.id)
+				elseif slot7 == Map.SCENARIO then
+					if slot0.progress == 100 and slot0.passCount == 0 then
+						pg.TrackerMgr.GetInstance():Tracking(TRACKING_HIGHEST_CHAPTER, slot0.id)
+					end
+
+					if slot0.defeatCount == 1 then
+						if slot0.id == 1204 then
+							pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_12_4)
+						elseif slot0.id == 1301 then
+							pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_13_1)
+						elseif slot0.id == 1302 then
+							pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_13_2)
+						elseif slot0.id == 1303 then
+							pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_13_3)
+						elseif slot0.id == 1304 then
+							pg.TrackerMgr.GetInstance():Tracking(TRACKING_FIRST_PASS_13_4)
+						end
+					end
+				end
+			end
 		end
 
 		if not slot6 or slot6.flag == 1 then

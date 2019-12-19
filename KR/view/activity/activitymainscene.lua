@@ -332,6 +332,26 @@ slot1 = {
 	[ActivityConst.HOLOLIVE_MIO_ID] = {
 		className = "HoloLiveMioPage",
 		uiName = "HoloLiveMioPage"
+	},
+	[ActivityConst.ZPROJECT_TW] = {
+		className = "ZProjectPage",
+		uiName = "zprojectpage"
+	},
+	[ActivityConst.JP_DEFENCE_HEADFRAME_ID] = {
+		className = "JPDefenceHeadFramePage",
+		uiName = "JPDefenceHeadFramePage"
+	},
+	[ActivityConst.WAKABA_CHRIS_SKIN_ID] = {
+		className = "WakabaChrisSkinPage",
+		uiName = "WakabaChrisSkinPage"
+	},
+	[ActivityConst.SHIO_SKIN_RE_ID] = {
+		className = "ShioSkinRePage",
+		uiName = "ShioSkinRePage"
+	},
+	[ActivityConst.SKIN_GELIDELI] = {
+		className = "SkinGelideliPage",
+		uiName = "SkinGelideliPage"
 	}
 }
 slot2 = {

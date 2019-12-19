@@ -13,6 +13,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 
 	slot0.backyardPoolMgr = slot3
 	slot0.factory = BackYardFactory.New(slot0.backyardPoolMgr)
+	slot0.effectMgr = BackyardEffectMgr.New(slot0._tf:Find("effects"))
 	slot0.zoom = slot0:findTF("bg"):GetComponent("Zoom")
 end
 
@@ -24,6 +25,7 @@ end
 function slot0.willExit(slot0)
 	slot0:OnWillExit()
 	slot0.event:clear()
+	slot0.effectMgr:Destroy()
 	pg.DelegateInfo.Dispose(slot0)
 	slot0.factory:Destroy()
 

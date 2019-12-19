@@ -32,7 +32,10 @@ function slot0.register(slot0)
 			data = {
 				callback = slot2,
 				pos = slot1,
-				LayerWeightMgr_groupName = LayerWeightConst.GROUP_CHATROOM
+				LayerWeightMgr_groupName = LayerWeightConst.GROUP_CHATROOM,
+				emojiIconCallback = function (slot0)
+					slot0.viewComponent:insertEmojiToInputText(slot0)
+				end
 			}
 		}))
 	end)

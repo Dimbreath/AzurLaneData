@@ -5,6 +5,7 @@ slot0.TYPE_MILITARY_SHOP = "supplies"
 slot0.TYPE_GUILD = "guild"
 slot0.TYPE_SHAM_SHOP = "sham"
 slot0.TYPE_ESCORT_SHOP = "escort"
+slot0.TYPE_FRAGMENT = "fragment"
 
 function slot0.getUIName(slot0)
 	return "shopsUI"
@@ -15,6 +16,7 @@ function slot0.init(slot0)
 	slot0.top = slot0:findTF("blur_panel/adapt/top")
 	slot0.goodTF = slot0:findTF("frame/item_tpl")
 	slot0.goodActivityTF = slot0:findTF("frame/item_activity_tpl")
+	slot0.goodFragTF = slot0:findTF("frame/item_fragment_tpl")
 	slot0.bottomPanel = slot0:findTF("frame/bottom")
 	slot0.switchBtn = slot0:findTF("frame/switch_btn")
 	slot0.skinBtn = slot0:findTF("frame/skin_btn")
@@ -23,6 +25,7 @@ function slot0.init(slot0)
 	slot0.buzhihuoTouch = slot0:findTF("paint_touch")
 	slot0.activityBg = slot0:findTF("activity_bg")
 	slot0.backBtn = slot0:findTF("back_button", slot0.top)
+	slot0.homeBtn = slot0:findTF("option", slot0.top)
 	slot0.painting = slot0:findTF("paint")
 	slot0.biliBg = slot0:findTF("bili_bg")
 
@@ -42,7 +45,18 @@ function slot0.init(slot0)
 	slot0.guildShopTF = slot0:findTF("guild_shop", slot0.viewContainer)
 	slot0.shamShopTF = slot0:findTF("sham_shop", slot0.viewContainer)
 	slot0.escortShopTF = slot0:findTF("escort_shop", slot0.viewContainer)
+	slot0.fragShopTF = slot0:findTF("frag_shop", slot0.viewContainer)
 	slot0.cards = {}
+
+	setText(slot0.goodTF:Find("mask/tag/sellout_tag"), i18n("word_sell_out"))
+	setText(slot0.goodActivityTF:Find("mask/tag/sellout_tag"), i18n("word_sell_out"))
+	setText(slot0.goodFragTF:Find("mask/tag/sellout_tag"), i18n("word_sell_out"))
+	setText(slot0.shamShopTF:Find("time"), i18n("title_limit_time"))
+	setText(slot0.shamShopTF:Find("time/text"), i18n("shops_rest_day"))
+	setText(slot0.shamShopTF:Find("time/text_day"), i18n("word_date"))
+	setText(slot0.fragShopTF:Find("time"), i18n("title_limit_time"))
+	setText(slot0.fragShopTF:Find("time/text"), i18n("shops_rest_day"))
+	setText(slot0.fragShopTF:Find("time/text_day"), i18n("word_date"))
 end
 
 function slot0.setMilitaryShop(slot0, slot1)
@@ -213,7 +227,7 @@ function slot0.didEnter(slot0)
 			if not slot1 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("military_shop_no_open_tip"))
 
-				if slot0:getCurrPage() then
+				if slot0:getCurrPage() or slot1.TYPE_SHOP_STREET then
 					triggerToggle(slot0.toggles[slot3], true)
 				end
 
@@ -244,7 +258,7 @@ function slot0.didEnter(slot0)
 			slot0:updatePainting(slot1.TYPE_SHOP_STREET)
 		end
 	end, SFX_PANEL)
-	setActive(slot0.toggles[slot0.TYPE_SHAM_SHOP], not LOCK_SHAM_CHAPTER and slot0.shamShop:isOpen())
+	setActive(slot0.toggles[slot0.TYPE_SHAM_SHOP], not LOCK_SHAM_CHAPTER and slot0.shamShop and slot0.shamShop:isOpen())
 	onToggle(slot0, slot0.toggles[slot0.TYPE_SHAM_SHOP], function (slot0)
 		if slot0 then
 			slot1, slot2 = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "ShamShop")
@@ -252,7 +266,7 @@ function slot0.didEnter(slot0)
 			if not slot1 then
 				pg.TipsMgr.GetInstance():ShowTips(slot2)
 
-				if slot0:getCurrPage() then
+				if slot0:getCurrPage() or slot1.TYPE_SHOP_STREET then
 					triggerToggle(slot0.toggles[slot3], true)
 				end
 
@@ -274,16 +288,49 @@ function slot0.didEnter(slot0)
 			slot0:updatePainting(slot1.TYPE_SHAM_SHOP)
 		end
 	end, SFX_PANEL)
+	setActive(slot0.toggles[slot0.TYPE_FRAGMENT], not LOCK_FRAGMENT_SHOP and slot0.contextData.shopDatas.fragshop and slot0.contextData.shopDatas.fragshop:isOpen())
+	onToggle(slot0, slot0.toggles[slot0.TYPE_FRAGMENT], function (slot0)
+		if slot0 then
+			slot1, slot2 = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "FragmentShop")
+
+			if not slot1 then
+				pg.TipsMgr.GetInstance():ShowTips(slot2)
+
+				if slot0:getCurrPage() or slot1.TYPE_SHOP_STREET then
+					triggerToggle(slot0.toggles[slot3], true)
+				end
+
+				return
+			end
+
+			if slot0.curPage == slot1.TYPE_FRAGMENT then
+				return
+			end
+
+			if slot0.curPage == nil or slot0.curPage == slot1.TYPE_ACTIVITY then
+				slot0:showRandomShipWord(pg.navalacademy_shoppingstreet_template[1].words_enter, true, "enter")
+			end
+
+			slot0.curPage = slot1.TYPE_FRAGMENT
+
+			slot0:updateBlueprintFragShop()
+			slot0:updateFragRes()
+			slot0:updatePainting(slot1.TYPE_FRAGMENT)
+		end
+	end, SFX_PANEL)
+	onButton(slot0, slot0.top:Find("res_fragment/resolve"), function ()
+		slot0:CallFragResolve()
+	end)
 
 	slot0.warp = slot0.contextData.warp
 
 	if slot0.warp == slot0.TYPE_SHAM_SHOP then
-		slot5, slot6 = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "ShamShop")
+		slot6, slot7 = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "ShamShop")
 
-		if not slot5 then
+		if not slot6 then
 			slot0.warp = nil
 
-			pg.TipsMgr.GetInstance():ShowTips(slot6)
+			pg.TipsMgr.GetInstance():ShowTips(slot7)
 		end
 
 		if not slot4 then
@@ -756,7 +803,7 @@ function slot0.openSingleBox(slot0, slot1)
 			setParent(slot0.singleBoxTF, slot0._tf)
 
 			slot0.singleNameTF = slot0:findTF("window/item/display_panel/name_container/name", slot0.singleBoxTF):GetComponent(typeof(Text))
-			slot0.singleDescTF = slot0:findTF("window/item/display_panel/desc/desc", slot0.singleBoxTF):GetComponent(typeof(Text))
+			slot0.singleDescTF = slot0:findTF("window/item/display_panel/desc/Text", slot0.singleBoxTF):GetComponent(typeof(Text))
 			slot0.singleItemTF = slot0:findTF("window/item", slot0.singleBoxTF)
 			slot0.singleItemOwnTF = slot0:findTF("icon_bg/own/Text", slot0.singleItemTF)
 			slot0.singleItemOwnLabelTF = slot0:findTF("icon_bg/own/label", slot0.singleItemTF)
@@ -806,6 +853,8 @@ function slot0.purchase(slot0, slot1, slot2)
 		slot0:emit(ShopsMediator.BUY_SHAM_ITEM, slot1.id, slot2)
 	elseif slot0.curPage == slot0.TYPE_ESCORT_SHOP then
 		slot0:emit(ShopsMediator.BUY_ESCORT_ITEM, slot1.id, slot2)
+	elseif slot0.curPage == slot0.TYPE_FRAGMENT then
+		slot0:emit(ShopsMediator.BUY_FRAG_ITEM, slot1.id, slot2)
 	end
 end
 
@@ -873,7 +922,7 @@ function slot0.initMsgBox(slot0, slot1)
 			slot0.leftBtn = slot0:findTF("count/number_panel/left", slot0.msgBoxTF)
 			slot0.rightBtn = slot0:findTF("count/number_panel/right", slot0.msgBoxTF)
 			slot0.nameTF = slot0:findTF("item/display_panel/name_container/name", slot0.msgBoxTF):GetComponent(typeof(Text))
-			slot0.descTF = slot0:findTF("item/display_panel/desc", slot0.msgBoxTF):GetComponent(typeof(Text))
+			slot0.descTF = slot0:findTF("item/display_panel/desc/Text", slot0.msgBoxTF):GetComponent(typeof(Text))
 			slot0.itemCountTF = slot0:findTF("icon_bg/count", slot0.bottomItem):GetComponent(typeof(Text))
 			slot0.countTF = slot0:findTF("count/number_panel/value", slot0.msgBoxTF):GetComponent(typeof(Text))
 			slot0.ownerTF = slot0:findTF("icon_bg/own/Text", slot0.topItem)
@@ -1043,7 +1092,7 @@ function slot0.updateShamShop(slot0)
 		end
 	end)
 	slot0.shamItemList:align(#slot0.shamShop:getSortGoods())
-	setText(slot0:findTF("time/day", slot0.shamShopTF), slot0.shamShop:getRestDays())
+	setText(slot0:findTF("time/day", slot0.shamShopTF), string.format("%02d", slot0.shamShop:getRestDays()))
 end
 
 function slot0.updateShamRes(slot0)
@@ -1070,11 +1119,46 @@ function slot0.updateEscortShop(slot0)
 		end
 	end)
 	slot0.escortItemList:align(#slot0.escortShop:getSortGoods())
-	setText(slot0:findTF("time/day", slot0.escortShopTF), slot0.escortShop:getRestDays())
+	setText(slot0:findTF("time/day", slot0.escortShopTF), string.format("%02d", slot0.escortShop:getRestDays()))
 end
 
 function slot0.updateEscortRes(slot0)
 	setText(slot0:findTF("res_nano/Text", slot0.top), getProxy(BagProxy).getItemCountById(slot1, ChapterConst.EscortMoneyItem))
+end
+
+function slot0.updateBlueprintFragShop(slot0)
+	if not slot0.contextData.shopDatas.fragshop then
+		return
+	end
+
+	UIItemList.StaticAlign(slot0.fragShopTF:Find("scrollView/view"), slot0.goodFragTF, #slot0.contextData.shopDatas.fragshop:getSortGoods(), function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			ActivityGoodsCard.StaticUpdate(slot2, slot3, slot1.TYPE_FRAGMENT)
+			onButton(slot2, slot2, function ()
+				if slot0:getConfig("num_limit") == 1 or slot0:getConfig("commodity_type") == 4 then
+					slot1:openSingleBox(slot1.openSingleBox)
+				else
+					slot1:initMsgBox(slot1.initMsgBox)
+				end
+			end, SFX_PANEL)
+		end
+	end)
+	setText(slot0:findTF("time/day", slot0.fragShopTF), string.format("%02d", slot0.contextData.shopDatas.fragshop:getRestDays()))
+end
+
+function slot0.updateFragRes(slot0)
+	setText(slot0:findTF("res_fragment/count", slot0.top), getProxy(PlayerProxy).getRawData(slot1):getResource(PlayerConst.ResBlueprintFragment))
+end
+
+function slot0.CallFragResolve(slot0)
+	if not slot0.resolvePanel then
+		slot0.resolvePanel = FragResolvePanel.New(slot0)
+
+		slot0.resolvePanel:Load()
+	end
+
+	slot0.resolvePanel.buffer:Reset()
+	slot0.resolvePanel.buffer:Trigger("control")
 end
 
 function slot0.PlayActivityShopEnterVoice(slot0, slot1)
@@ -1103,8 +1187,10 @@ end
 
 function slot0.OnActivtyShopPurchaseDone(slot0, slot1)
 	slot2 = nil
+	slot3 = pairs
+	slot4 = slot0.activityShops or {}
 
-	for slot6, slot7 in pairs(slot0.activityShops) do
+	for slot6, slot7 in slot3(slot4) do
 		if slot7.activityId == slot1 then
 			shop = slot7
 
@@ -1147,6 +1233,12 @@ function slot0.willExit(slot0)
 		slot0.guildTimer:Stop()
 
 		slot0.guildTimer = nil
+	end
+
+	if slot0.resolvePanel then
+		slot0.resolvePanel:Destroy()
+
+		slot0.resolvePanel = nil
 	end
 
 	if slot0.resPanel then

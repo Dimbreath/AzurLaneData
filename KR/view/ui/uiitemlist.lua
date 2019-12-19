@@ -44,4 +44,30 @@ function slot0.each(slot0, slot1)
 	end
 end
 
+function slot0.StaticAlign(slot0, slot1, slot2, slot3)
+	for slot8 = slot2, slot0.childCount - 1, 1 do
+		setActive(slot0:GetChild(slot8), false)
+
+		if slot3 then
+			slot3(slot0.EventExcess, slot8, slot9)
+		end
+	end
+
+	for slot8 = slot4, slot2 - 1, 1 do
+		slot9 = cloneTplTo(slot1, slot0)
+
+		if slot3 then
+			slot3(slot0.EventInit, slot8, slot9)
+		end
+	end
+
+	for slot8 = 0, slot2 - 1, 1 do
+		setActive(slot0:GetChild(slot8), true)
+
+		if slot3 then
+			slot3(slot0.EventUpdate, slot8, slot9)
+		end
+	end
+end
+
 return slot0

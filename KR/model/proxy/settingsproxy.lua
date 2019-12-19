@@ -15,6 +15,51 @@ function slot0.onRegister(slot0)
 	slot0.nextTipActBossExchangeTicket = nil
 
 	slot0:resetEquipSceneIndex()
+
+	slot0._isShowCollectionHelp = PlayerPrefs.GetInt("collection_Help", 0) > 0
+end
+
+function slot0.GetDockYardLockBtnFlag(slot0)
+	if not slot0.dockYardLockFlag then
+		slot0.dockYardLockFlag = PlayerPrefs.GetInt("DockYardLockFlag" .. slot1, 0) > 0
+	end
+
+	return slot0.dockYardLockFlag
+end
+
+function slot0.SetDockYardLockBtnFlag(slot0, slot1)
+	if slot0.dockYardLockFlag ~= slot1 then
+		PlayerPrefs.SetInt("DockYardLockFlag" .. getProxy(PlayerProxy):getRawData().id, (slot1 and 1) or 0)
+		PlayerPrefs.Save()
+	end
+end
+
+function slot0.GetDockYardLevelBtnFlag(slot0)
+	if not slot0.dockYardLevelFlag then
+		slot0.dockYardLevelFlag = PlayerPrefs.GetInt("DockYardLevelFlag" .. slot1, 0) > 0
+	end
+
+	return slot0.dockYardLevelFlag
+end
+
+function slot0.SetDockYardLevelBtnFlag(slot0, slot1)
+	if slot0.dockYardLevelFlag ~= slot1 then
+		PlayerPrefs.SetInt("DockYardLevelFlag" .. getProxy(PlayerProxy):getRawData().id, (slot1 and 1) or 0)
+		PlayerPrefs.Save()
+	end
+end
+
+function slot0.IsShowCollectionHelp(slot0)
+	return slot0._isShowCollectionHelp
+end
+
+function slot0.SetCollectionHelpFlag(slot0, slot1)
+	if slot0._isShowCollectionHelp ~= slot1 then
+		slot0._isShowCollectionHelp = slot1
+
+		PlayerPrefs.SetInt("collection_Help", (slot1 and 1) or 0)
+		PlayerPrefs.Save()
+	end
 end
 
 function slot0.IsBGMEnable(slot0)

@@ -41,11 +41,13 @@ slot0.EmojiCommon = 0
 slot0.EmojiDefault = 1
 slot0.EmojiAnimate = 2
 slot0.EmojiPixel = 3
+slot0.EmojiIcon = 4
 slot0.EmojiTypes = {
 	slot0.EmojiCommon,
 	slot0.EmojiDefault,
 	slot0.EmojiAnimate,
-	slot0.EmojiPixel
+	slot0.EmojiPixel,
+	slot0.EmojiIcon
 }
 
 function slot0.GetEmojiSprite(slot0)
@@ -62,6 +64,9 @@ end
 
 slot0.EmojiCode = "{777#code#777}"
 slot0.EmojiCodeMatch = "{777#(%d+)#777}"
+slot0.EmojiIconCode = "#code#"
+slot0.EmojiIconCodeMatch = "#(%d+)#"
 slot0.EMOJI_SAVE_TAG = "emoji_regular_used_"
+slot0.EMOJI_ICON_SAVE_TAG = "emoji_icon_regular_used_"
 
 return slot0

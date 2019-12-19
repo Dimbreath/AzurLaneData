@@ -6,7 +6,7 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.getBGM(slot0)
-	return "holo-sss"
+	return "login"
 end
 
 function slot0.preload(slot0, slot1)
@@ -290,10 +290,7 @@ function slot0.didEnter(slot0)
 			pg.SdkMgr.GetInstance():SwitchAccount()
 		end
 	end, SFX_MAIN)
-
-	slot1 = Application.persistentDataPath .. "/hashes.csv"
-
-	setActive(slot0.repairBtn, true)
+	setActive(slot0.repairBtn, PathMgr.FileExists(Application.persistentDataPath .. "/hashes.csv") and PLATFORM_CODE ~= PLATFORM_JP)
 
 	if isActive(slot0.repairBtn) then
 		onButton(slot0, slot0.repairBtn, function ()

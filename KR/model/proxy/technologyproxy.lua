@@ -15,12 +15,15 @@ function slot0.register(slot0)
 	end)
 
 	slot0.bluePrintData = {}
+	slot0.item2blueprint = {}
 
 	_.each(pg.ship_data_blueprint.all, function (slot0)
-		slot0.bluePrintData[ShipBluePrint.New({
+		slot1 = ShipBluePrint.New({
 			id = slot0,
 			version = pg.ship_data_blueprint[slot0].blueprint_version
-		}).id] = ShipBluePrint.New()
+		})
+		slot0.bluePrintData[slot1.id] = slot1
+		slot0.item2blueprint[slot1:getItemId()] = slot1.id
 	end)
 	slot0:on(63100, function (slot0)
 		for slot4, slot5 in ipairs(slot0.blueprint_list) do
@@ -174,6 +177,10 @@ function slot0.getBuildingBluePrint(slot0)
 			return slot5
 		end
 	end
+end
+
+function slot0.GetBlueprint4Item(slot0, slot1)
+	return slot0.item2blueprint[slot1]
 end
 
 return slot0

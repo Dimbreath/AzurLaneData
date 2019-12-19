@@ -164,7 +164,6 @@ function slot0.register(slot0)
 	end)
 
 	slot0.shamChapter = ShamChapter.New()
-	slot0.shamShop = ShamBattleShop.New(0, {})
 
 	slot0:on(23001, function (slot0)
 		slot1 = slot0.sim_id
@@ -174,13 +173,7 @@ function slot0.register(slot0)
 				slot1 = pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t").month
 			end
 
-			slot0.shamShop:update(slot1, slot0.shop_list or {})
-
 			slot0.shamChapter.simId = slot1
-		elseif not pg.sim_battle_template[slot1] then
-			slot0.shamShop = nil
-		else
-			slot0.shamShop:update(slot1, slot0.shop_list or {})
 		end
 
 		slot0.shamChapter.shamResetCount = slot0.sham_count
@@ -943,16 +936,6 @@ end
 function slot0.resetShamChapter(slot0)
 	slot0.shamChapter.shamResetCount = 0
 	slot0.shamChapter.repairTimes = 0
-end
-
-function slot0.getShamShop(slot0)
-	return Clone(slot0.shamShop)
-end
-
-function slot0.updateShamShop(slot0, slot1)
-	slot0.shamShop = slot1
-
-	slot0:sendNotification(slot0.SHAM_SHOP_UPDATED)
 end
 
 function slot0.localLoadShamChapter(slot0)

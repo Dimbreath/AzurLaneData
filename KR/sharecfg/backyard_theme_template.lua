@@ -458,11 +458,10 @@ pg.backyard_theme_template = {
 		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
-		discount = 0,
+		discount = 20,
 		id = 16,
 		icon = "crthemeicon",
 		comfortable = 0,
-		discount_time = "",
 		ids = {
 			16001,
 			16002,
@@ -492,6 +491,32 @@ pg.backyard_theme_template = {
 			16304,
 			16305,
 			16306
+		},
+		discount_time = {
+			{
+				{
+					2019,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[17] = {
@@ -1035,7 +1060,7 @@ pg.backyard_theme_template = {
 		name = "핼러윈 나이트 ",
 		desc = "핼러윈 파크에 어서오세요! ",
 		deblocking = 1,
-		new = 0,
+		new = 1,
 		hot = 1,
 		Cfg_2 = 8,
 		is_view = 1,
@@ -1153,15 +1178,14 @@ pg.backyard_theme_template = {
 		name = "거리의 크리스마스 풍경",
 		desc = "눈 내린 상점가에서 크리스마스를 즐기자!",
 		deblocking = 1,
-		new = 1,
-		hot = 1,
+		new = 0,
+		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
-		discount = 0,
+		discount = 20,
 		id = 37,
 		icon = "cr2themeicon",
 		comfortable = 0,
-		discount_time = "",
 		ids = {
 			37001,
 			37002,
@@ -1185,6 +1209,32 @@ pg.backyard_theme_template = {
 			37118,
 			37119,
 			37120
+		},
+		discount_time = {
+			{
+				{
+					2019,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[38] = {
@@ -1903,6 +1953,38 @@ pg.backyard_theme_template = {
 			55307
 		}
 	},
+	[56] = {
+		Cfg_1 = 5,
+		name = "동화 마을",
+		desc = "착한 어린이만 산타클로스에게 선물을 받을 수 있어요~",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 56,
+		icon = "cs3themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			56001,
+			56002,
+			56101,
+			56102,
+			56103,
+			56104,
+			56105,
+			56106,
+			56107,
+			56108,
+			56109,
+			56110,
+			56111,
+			56112,
+			56113
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1945,7 +2027,8 @@ pg.backyard_theme_template = {
 		52,
 		53,
 		54,
-		55
+		55,
+		56
 	}
 }
 

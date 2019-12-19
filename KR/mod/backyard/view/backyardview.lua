@@ -6,10 +6,6 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	slot0.shipsView = BackYardShipsView.New(slot0)
 end
 
-function slot0.GetShipsView(slot0)
-	return slot0.shipsView
-end
-
 function slot0.setHouse(slot0, slot1)
 	slot0.houseVO = slot1
 
@@ -30,7 +26,6 @@ end
 
 function slot0.OnInit(slot0)
 	slot0.furnitureModals = {}
-	slot0.effectContains = slot0:findTF("effects")
 	slot0.floorContain = slot0:findTF("bg/furContain/floor")
 	slot0.floorGrid = slot0:findTF("bg/floorGrid")
 	slot0.furContain = slot0:findTF("bg/furContain")
@@ -89,7 +84,6 @@ function slot0.enableDecorateMode(slot0, slot1)
 end
 
 function slot0.OnDidEnter(slot0)
-	slot0:initHouse()
 	onButton(slot0, slot0.floorGrid, function ()
 		if slot0.isDraging then
 			return
@@ -133,6 +127,7 @@ function slot0.OnDidEnter(slot0)
 			slot0:enableDecorateMode(false)
 		end
 	end, SFX_CANCEL)
+	slot0:initHouse()
 end
 
 function slot0.save(slot0)
@@ -149,6 +144,7 @@ function slot0.initHouse(slot0)
 
 	slot0:updateHouseArea(slot0.houseVO.level)
 	slot0:initFurnitures()
+	slot0:emit(BackyardMainMediator.ON_CHECK_EFFECT)
 end
 
 function slot0.updateHouseArea(slot0, slot1)
@@ -212,7 +208,6 @@ function slot0.updateHouseArea(slot0, slot1)
 	end, SFX_PANEL)
 	slot0:loadWallPaper(slot0.wallPaperVO, Furniture.TYPE_WALLPAPER)
 	slot0:loadWallPaper(slot0.floorPaperVO, Furniture.TYPE_FLOORPAPER)
-	slot0:emit(BackyardMainMediator.ON_CHECK_EFFECT)
 end
 
 function slot0.createMap(slot0, slot1, slot2)
@@ -262,86 +257,55 @@ function slot0.removeItem(slot0, slot1)
 end
 
 function slot0.initFurnitures(slot0)
-	function slot1(slot0, slot1)
-		if slot0.isExist then
-			slot1()
-
-			return
-		end
-
-		slot0:loadFurnitureModel(slot0, function (slot0)
-			if not slot0 then
-				slot0()
-
-				return
-			end
-
-			slot0:LoadingAnim(slot0)
-		end)
-	end
-
-	slot2 = {}
-	slot3 = {}
-	slot4 = {}
-	slot5 = {}
-	slot6 = {}
-	slot7 = {}
-	slot8 = {}
-	slot9 = {}
-
-	for slot13, slot14 in pairs(slot0.furnitureVOs) do
-		if slot14:hasParent() and slot14:hasChild() then
-			table.insert(slot4, slot14)
-		elseif slot14:hasParent() then
-			table.insert(slot5, slot14)
-		elseif slot14:isStageFurniture() then
-			table.insert(slot2, slot14)
-		else
-			table.insert(slot3, slot14)
-		end
-	end
-
-	for slot13, slot14 in ipairs(slot2) do
-		table.insert(slot6, function (slot0)
-			slot0(slot0, slot0)
-		end)
-	end
-
-	for slot13, slot14 in ipairs(slot3) do
-		table.insert(slot7, function (slot0)
-			slot0(slot0, slot0)
-		end)
-	end
-
-	for slot13, slot14 in ipairs(slot4) do
-		table.insert(slot8, function (slot0)
-			slot0(slot0, slot0)
-		end)
-	end
-
-	for slot13, slot14 in ipairs(slot5) do
-		table.insert(slot9, function (slot0)
-			slot0(slot0, slot0)
-		end)
-	end
-
 	slot0.inInitFurnitrues = true
+	slot1 = {
+		{},
+		{},
+		{},
+		{}
+	}
+	slot2 = {
+		{},
+		{},
+		{},
+		{}
+	}
+
+	for slot6, slot7 in pairs(slot0.furnitureVOs) do
+		if slot7:hasParent() and slot7:hasChild() then
+			table.insert(slot1[3], slot7)
+		elseif slot7:hasParent() then
+			table.insert(slot1[4], slot7)
+		elseif slot7:isStageFurniture() then
+			table.insert(slot1[1], slot7)
+		else
+			table.insert(slot1[2], slot7)
+		end
+	end
+
+	for slot6, slot7 in ipairs(slot1) do
+		for slot11, slot12 in ipairs(slot7) do
+			table.insert(slot2[slot6], function (slot0)
+				slot0:loadFurnitureModel(slot0.loadFurnitureModel, true, slot0)
+			end)
+		end
+	end
 
 	seriesAsync({
 		function (slot0)
 			slot0.shipsView:LoadAllShip(slot0)
 		end,
 		function (slot0)
-			limitedParallelAsync(slot0, 5, slot0)
+			limitedParallelAsync(slot0[1], 5, slot0)
 		end,
 		function (slot0)
-			limitedParallelAsync(slot0, 5, slot0)
+			limitedParallelAsync(slot0[2], 5, slot0)
 		end,
 		function (slot0)
-			limitedParallelAsync(slot0, 5, slot0)
+			limitedParallelAsync(slot0[3], 5, slot0)
 		end,
 		function (slot0)
-			seriesAsync(slot0, slot0)
+			seriesAsync(slot0[4], slot0)
 		end,
 		function (slot0)
 			slot0.shipsView:StartMoveShips(slot0)
@@ -363,7 +327,7 @@ function slot0.loadWallPaper(slot0, slot1, slot2)
 	end
 end
 
-function slot0.loadFurnitureModel(slot0, slot1, slot2)
+function slot0.loadFurnitureModel(slot0, slot1, slot2, slot3)
 	slot0.factory:Make(slot1, function (slot0)
 		if slot0.isExist then
 			if slot1 then
@@ -381,18 +345,18 @@ function slot0.loadFurnitureModel(slot0, slot1, slot2)
 			return
 		end
 
+		slot1 = slot2:isFloor()
 		slot2 = BackYardFurnitureModel.New(slot0, BackYardFurnitureModel.New, slot0.backyardPoolMgr)
 		slot0.furnitureModals[slot2.id] = slot2
 
 		slot2:SetParent(slot0.furContain)
-
-		slot3 = slot2:getPosition()
-
 		slot0:updateFurnitruePos(slot2)
 		slot0:registerFurnitureEvent(slot2)
 
-		if slot2:isFloor() then
-			slot1(slot2)
+		if slot2:getPosition() then
+			slot2:LoadingAnim(slot1)
+		elseif slot1 then
+			slot1()
 		end
 	end)
 end
@@ -809,18 +773,11 @@ function slot0.addBoatInimacyAndMoney(slot0, slot1)
 end
 
 function slot0.applyEffect(slot0, slot1)
-	PoolMgr.GetInstance():GetPrefab("ui/" .. slot2, slot1:getEffectName(), true, function (slot0)
-		slot0.name = slot0
-
-		setParent(slot0, slot1.effectContains)
-		setActive(slot0, true)
-	end)
+	slot0.effectMgr:applyEffect(slot1)
 end
 
 function slot0.disableEffect(slot0, slot1)
-	if slot0:findTF(slot1:getEffectName(), slot0.effectContains) then
-		PoolMgr.GetInstance():ReturnPrefab("ui/" .. slot2, slot2, slot3.gameObject)
-	end
+	slot0.effectMgr:disableEffect(slot1)
 end
 
 function slot0.GetFurnitureGo(slot0, slot1)
@@ -828,11 +785,31 @@ function slot0.GetFurnitureGo(slot0, slot1)
 end
 
 function slot0.OnWillExit(slot0)
-	eachChild(slot0.effectContains, function (slot0)
-		PoolMgr.GetInstance():ReturnPrefab("ui/" .. slot1, slot0.gameObject.name, slot0.gameObject)
-	end)
 	slot0.shipsView:Destroy()
-	slot0:ClearFurnitures()
+
+	slot1 = {
+		{},
+		{},
+		{}
+	}
+
+	for slot5, slot6 in pairs(slot0.furnitureModals) do
+		if slot0.furnitureVOs[slot5]:hasParent() and not slot7:hasChild() then
+			table.insert(slot1[1], slot6)
+		elseif slot7:hasParent() and slot7:hasChild() then
+			table.insert(slot1[2], slot6)
+		else
+			table.insert(slot1[3], slot6)
+		end
+	end
+
+	for slot5, slot6 in ipairs(slot1) do
+		for slot10, slot11 in ipairs(slot6) do
+			slot11:Clear()
+		end
+	end
+
+	slot0.furnitureModals = nil
 
 	if not IsNil(slot0.furContain) then
 		removeAllChildren(slot0.furContain:Find("shadow"))
@@ -863,45 +840,6 @@ function slot0.OnWillExit(slot0)
 	slot0.floorPaperModel:dispose()
 	slot0.msgBoxWindow:Destroy()
 	slot0.furnitureDescWindow:Destroy()
-end
-
-function slot0.ClearFurnitures(slot0)
-	slot1 = {}
-	slot2 = {}
-	slot3 = {}
-
-	for slot7, slot8 in pairs(slot0.furnitureModals) do
-		if slot0.furnitureVOs[slot7]:hasParent() and not slot9:hasChild() then
-			table.insert(slot1, function (slot0)
-				slot0:Clear()
-				slot0()
-			end)
-		elseif slot9:hasParent() and slot9:hasChild() then
-			table.insert(slot2, function (slot0)
-				slot0:Clear()
-				slot0()
-			end)
-		else
-			table.insert(slot3, function (slot0)
-				slot0:Clear()
-				slot0()
-			end)
-		end
-	end
-
-	seriesAsync({
-		function (slot0)
-			parallelAsync(slot0, slot0)
-		end,
-		function (slot0)
-			parallelAsync(slot0, slot0)
-		end,
-		function (slot0)
-			parallelAsync(slot0, slot0)
-		end
-	})
-
-	slot0.furnitureModals = nil
 end
 
 return slot0

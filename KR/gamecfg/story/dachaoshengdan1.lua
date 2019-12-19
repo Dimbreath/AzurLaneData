@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"圣诞礼物大作战！\n\n<size=45>一　圣诞前的困扰？</size>",
+					"크리스마스 선물 대작전!\n\n<size=45>一 크리스마스 전의 곤란함? </size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 205020,
 			nameColor = "#92fc63",
-			say = "嗯……礼服或许是不错的选择，可是……",
+			say = "음…… 예복은 괜찮은 선택일지 모르지만……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			actor = 205020,
 			nameColor = "#92fc63",
-			say = "不行不行，陛下怎么会缺礼服穿呢？而且也不够精致严肃。",
+			say = "아니지 아냐. 폐하께서 예복이 부족할리가 있나? 게다가 충분히 정교하거나 근엄하지 않아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "可是，这么想下去，总感觉陛下好像什么都不缺啊！",
+			say = "하지만 생각해 보면 폐하께서는 부족한 것이 없으신데!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "这可如何是好，唉……",
+			say = "어떻게 하면 좋지. 에잇……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "嗯？哦，是小天鹅啊，抱歉没注意到你走进来，下午好。",
+			say = "응? 아, 시그넷인가. 들어오는 줄 몰랐네. 좋은 오후.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			}
 		},
 		{
-			say = "呼哇哇！贵……贵安，厌战前辈。咱……咱打扰到您了吗！？",
+			say = "우와아! 아…… 안녕하세요, 워스파이트 선배. 제……제가 방해한 건가요?!",
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "并没有哦，不用在意，刚才只是在思考该买什么样的礼物送给大家……",
+			say = "아니, 괜찮아. 모두에게 어떤 선물을 줘야 할지 생각하고 있던 참이라……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "对了，小天鹅去年是不是有跟大家一起准备圣诞礼物来着？",
+			say = "맞아, 작년에 모두와 함께 크리스마스 선물을 준비했던 것이 시그넷이었지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "是……是的，前辈。虽……虽然到最后也没有帮上什么忙，只买了……一些薯片和饼干之类的……",
+			say = "네…… 그런데요, 선배. 끝……끝까지 별 도움은 되지 못했어요. 그저…… 감자칩이나 쿠키 정도를 샀을 뿐……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "薯片和……饼干吗，似乎，也不是很合适。不过建议总是越多越好，很感谢你。",
+			say = "감자칩과…… 쿠키인가. 썩 어울리지는 않는 것 같네. 하지만 의견은 많으면 많을수록 좋으니까. 고마워.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			actor = 201100,
 			nameColor = "#92fc63",
-			say = "呜哇！前……前辈说哪里的话，这点事情怎么能让您道谢！",
+			say = "으아! 선……선배, 무슨 말씀을요. 감사받을 만한 일이 아닌걸요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "如，如果前辈不介意的话，咱……咱可以试试帮您出出主意之类的，虽然不知道管不管用……",
+			say = "만, 만약 선배가 괜찮으시다면 저……저도 의견을 내볼게요. 도움이 될지는 모르겠지만……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
-			say = "没关系，一定可以帮得上忙的，两个人考虑总要比自己苦想要强得多。事不宜迟，我们快出发去商店吧！",
+			say = "괜찮아. 분명 도움이 될거야. 백지장도 맞들면 낫다고 하잖아? 그렇다면 어서 상점으로 가자!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			blackBg = true,
 			actor = 201100,
 			nameColor = "#92fc63",
-			say = "诶……诶！现在就要出门了嘛！咱要赶快……整理一下才行哇……",
+			say = "에……엣! 지금 당장 나가는 건가요! 조금 정……정리를 해야 하는데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
