@@ -4016,6 +4016,95 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[14001] = {
+		display = "使用后可从超稀有科研装备(I期)的设计图中任意选择一张",
+		rarity = 4,
+		type = 13,
+		name = "原型科研图纸·S-I",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 14001,
+		icon = "Props/14001",
+		display_icon = {
+			{
+				2,
+				13001,
+				1
+			},
+			{
+				2,
+				13003,
+				1
+			},
+			{
+				2,
+				13004,
+				1
+			},
+			{
+				2,
+				13005,
+				1
+			},
+			{
+				2,
+				13006,
+				1
+			},
+			{
+				2,
+				13008,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[14002] = {
+		display = "使用后可从超稀有科研装备(II期)的设计图中任意选择一张",
+		rarity = 4,
+		type = 13,
+		name = "原型科研图纸·S-II",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 14002,
+		icon = "Props/14001",
+		display_icon = {
+			{
+				2,
+				13013,
+				1
+			},
+			{
+				2,
+				13014,
+				1
+			},
+			{
+				2,
+				13015,
+				1
+			},
+			{
+				2,
+				13016,
+				1
+			},
+			{
+				2,
+				13017,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[15001] = {
 		display = "角色退役后所获得的荣誉勋章,可用于向军部申请稀有的角色",
 		rarity = 3,
@@ -19039,7 +19128,10 @@ pg.item_data_statistics = {
 		id = 42001,
 		icon = "Props/42001",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			5
+		},
 		index = {}
 	},
 	[42002] = {
@@ -19055,7 +19147,10 @@ pg.item_data_statistics = {
 		id = 42002,
 		icon = "Props/42002",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			5
+		},
 		index = {}
 	},
 	[42003] = {
@@ -19071,7 +19166,10 @@ pg.item_data_statistics = {
 		id = 42003,
 		icon = "Props/42003",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			5
+		},
 		index = {}
 	},
 	[42004] = {
@@ -19087,7 +19185,10 @@ pg.item_data_statistics = {
 		id = 42004,
 		icon = "Props/42004",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			5
+		},
 		index = {}
 	},
 	[42005] = {
@@ -19103,7 +19204,10 @@ pg.item_data_statistics = {
 		id = 42005,
 		icon = "Props/42005",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			5
+		},
 		index = {}
 	},
 	[42006] = {
@@ -19119,7 +19223,10 @@ pg.item_data_statistics = {
 		id = 42006,
 		icon = "Props/42006",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			5
+		},
 		index = {}
 	},
 	[42010] = {
@@ -19202,7 +19309,10 @@ pg.item_data_statistics = {
 		id = 42011,
 		icon = "Props/42011",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			5
+		},
 		index = {}
 	},
 	[42012] = {
@@ -19218,7 +19328,10 @@ pg.item_data_statistics = {
 		id = 42012,
 		icon = "Props/42012",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			5
+		},
 		index = {}
 	},
 	[42013] = {
@@ -19234,7 +19347,10 @@ pg.item_data_statistics = {
 		id = 42013,
 		icon = "Props/42013",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			5
+		},
 		index = {}
 	},
 	[42014] = {
@@ -19250,7 +19366,10 @@ pg.item_data_statistics = {
 		id = 42014,
 		icon = "Props/42014",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			20
+		},
 		index = {}
 	},
 	[42015] = {
@@ -19266,7 +19385,10 @@ pg.item_data_statistics = {
 		id = 42015,
 		icon = "Props/42015",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			20
+		},
 		index = {}
 	},
 	[42016] = {
@@ -19282,7 +19404,10 @@ pg.item_data_statistics = {
 		id = 42016,
 		icon = "Props/42016",
 		display_icon = {},
-		price = {},
+		price = {
+			9,
+			5
+		},
 		index = {}
 	},
 	[42017] = {
@@ -75590,6 +75715,22 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59009] = {
+		display = "对蓝图解析后得到的成果，可以用在原型商店换取各种奖励。",
+		rarity = 4,
+		type = 98,
+		name = "设计原型",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59009,
+		icon = "Props/design_prt",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59100] = {
 		display = "扩展仓库20格",
 		rarity = 5,
@@ -76290,6 +76431,22 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 59145,
 		icon = "Props/dashenling_pt",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59146] = {
+		display = "用于头像框活动兑换，活动结束后将会消失",
+		rarity = 2,
+		type = 98,
+		name = "训练点数",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59146,
+		icon = "Props/xunliandianshu_r",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -80437,6 +80594,8 @@ pg.item_data_statistics = {
 		13015,
 		13016,
 		13017,
+		14001,
+		14002,
 		15001,
 		15002,
 		15003,
@@ -81873,6 +82032,7 @@ pg.item_data_statistics = {
 		59005,
 		59006,
 		59008,
+		59009,
 		59100,
 		59101,
 		59102,
@@ -81917,6 +82077,7 @@ pg.item_data_statistics = {
 		59143,
 		59144,
 		59145,
+		59146,
 		59601,
 		59602,
 		59603,

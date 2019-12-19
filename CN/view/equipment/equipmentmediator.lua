@@ -135,7 +135,8 @@ function slot0.listNotificationInterests(slot0)
 		EquipmentProxy.EQUIPMENT_SKIN_UPDATED,
 		GAME.EQUIP_EQUIPMENTSKIN_TO_SHIP_DONE,
 		GAME.EQUIP_EQUIPMENTSKIN_FROM_SHIP_DONE,
-		slot0.NO_UPDATE
+		slot0.NO_UPDATE,
+		GAME.FRAG_SELL_DONE
 	}
 end
 
@@ -168,6 +169,8 @@ function slot0.handleNotification(slot0, slot1)
 				items = slot3
 			})
 		end
+	elseif slot2 == GAME.FRAG_SELL_DONE then
+		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 	elseif slot2 == GAME.DESTROY_EQUIPMENTS_DONE then
 		if table.getCount(slot3) ~= 0 then
 			slot0.viewComponent:emit(BaseUI.ON_AWARD, {

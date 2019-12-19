@@ -1924,19 +1924,6 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[364] = {
-		achieve = 0,
-		index = 950,
-		pic = "part3_mnc",
-		desc = "<color=#92fc63>[哼哼]</color>",
-		item_name = "",
-		item_desc = "",
-		id = 364,
-		icon = "",
-		type = {
-			2
-		}
-	},
 	[365] = {
 		achieve = 0,
 		index = 951,
@@ -2062,6 +2049,19 @@ pg.emoji_template = {
 		item_name = "",
 		item_desc = "",
 		id = 374,
+		icon = "",
+		type = {
+			2
+		}
+	},
+	[375] = {
+		achieve = 0,
+		index = 950,
+		pic = "part3_mnc",
+		desc = "<color=#92fc63>[哼哼]</color>",
+		item_name = "",
+		item_desc = "",
+		id = 375,
 		icon = "",
 		type = {
 			2
@@ -2216,7 +2216,6 @@ pg.emoji_template = {
 		361,
 		362,
 		363,
-		364,
 		365,
 		366,
 		367,
@@ -2226,7 +2225,8 @@ pg.emoji_template = {
 		371,
 		372,
 		373,
-		374
+		374,
+		375
 	}
 }
 

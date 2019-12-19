@@ -112,6 +112,14 @@ pg.open_systems_limited = {
 		mediator = "ChallengeMainMediator",
 		level = 80
 	},
+	[16] = {
+		scene = "MAINUI",
+		name = "原型商店",
+		story_id = "",
+		id = 16,
+		mediator = "FragmentShop",
+		level = 30
+	},
 	all = {
 		1,
 		2,
@@ -126,7 +134,8 @@ pg.open_systems_limited = {
 		11,
 		12,
 		14,
-		15
+		15,
+		16
 	}
 }
 

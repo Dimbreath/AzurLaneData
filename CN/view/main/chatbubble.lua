@@ -117,17 +117,44 @@ function slot0.update(slot0, slot1)
 			end
 
 			if slot0.tf and slot0.data then
-				slot0.name = slot1
+				tf(slot0):Find("Text"):GetComponent("RichText").supportRichText = false
+
+				eachChild(tf(slot0):Find("Text"), function (slot0)
+					Destroy(slot0)
+				end)
+
+				slot3 = false
+
+				for slot7 in nil do
+					if table.contains(pg.emoji_small_template.all, tonumber(slot7)) then
+						slot3 = true
+
+						slot1:AddSprite(slot7, LoadSprite("emoji/" .. pg.emoji_small_template[tonumber(slot7)].pic .. "_small", nil))
+					end
+				end
+
+				slot4 = GetComponent(slot0, "VerticalLayoutGroup")
+
+				if slot3 then
+					slot4.padding.bottom = 30
+				else
+					slot4.padding.bottom = slot4.padding.top
+				end
+
+				slot1.text = string.gsub(slot1.content, ChatConst.EmojiIconCodeMatch, function (slot0)
+					if table.contains(pg.emoji_small_template.all, tonumber(slot0)) then
+						return string.format("<icon name=%s w=1 h=1/>", slot0)
+					end
+				end)
+				slot0.isLoadChatBg = true
+				slot0:GetComponent(typeof(LayoutElement)).preferredWidth = slot0.chatBgWidth
+				slot0.name = slot2
 
 				setParent(slot0, slot0.tf, false)
 				tf(slot0):SetAsFirstSibling()
-
-				tf(slot0):Find("Text"):GetComponent(typeof(Text)).supportRichText = false
-				tf(slot0).Find("Text").GetComponent(typeof(Text)).text = false.content
-				slot0.isLoadChatBg = true
-				slot0:GetComponent(typeof(LayoutElement)).preferredWidth = slot0.chatBgWidth
+				Canvas.ForceUpdateCanvases()
 			else
-				PoolMgr.GetInstance():ReturnPrefab("ChatFrame/" .. slot1, PoolMgr.GetInstance().ReturnPrefab, slot0)
+				PoolMgr.GetInstance():ReturnPrefab("ChatFrame/" .. slot2, PoolMgr.GetInstance(), slot0)
 			end
 		end)
 	end

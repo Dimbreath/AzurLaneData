@@ -40,6 +40,11 @@ pg.player_resource = {
 		name = "guildCoin",
 		itemid = 59008
 	},
+	{
+		id = 9,
+		name = "design_prt",
+		itemid = 59009
+	},
 	[14] = {
 		id = 14,
 		name = "freeGem",
@@ -235,6 +240,11 @@ pg.player_resource = {
 		name = "dashenling_pt",
 		itemid = 59145
 	},
+	[140] = {
+		id = 140,
+		name = "xunliandianshu_r",
+		itemid = 59146
+	},
 	[1001] = {
 		id = 1001,
 		name = "vote2019_pt",
@@ -267,6 +277,9 @@ pg.player_resource = {
 		},
 		vote2019_pt = {
 			1001
+		},
+		xunliandianshu_r = {
+			140
 		},
 		dashenling_pt = {
 			139
@@ -385,6 +398,9 @@ pg.player_resource = {
 		freeGem = {
 			14
 		},
+		design_prt = {
+			9
+		},
 		guildCoin = {
 			8
 		},
@@ -419,6 +435,7 @@ pg.player_resource = {
 		6,
 		7,
 		8,
+		9,
 		14,
 		101,
 		102,
@@ -458,6 +475,7 @@ pg.player_resource = {
 		137,
 		138,
 		139,
+		140,
 		1001,
 		2001,
 		2002,
