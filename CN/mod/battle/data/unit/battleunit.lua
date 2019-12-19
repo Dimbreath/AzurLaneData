@@ -957,7 +957,7 @@ end
 
 function slot9.DispatchChat(slot0, slot1, slot2, slot3)
 	slot0:DispatchEvent(slot0.Event.New(slot1.POP_UP, {
-		content = slot1,
+		content = HXSet.hxLan(slot1),
 		duration = slot2,
 		key = slot3
 	}))

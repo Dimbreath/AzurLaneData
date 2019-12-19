@@ -7969,6 +7969,10 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 		tip = "像素",
 		key = "emoji_type_3"
 	},
+	emoji_type_4 = {
+		tip = "小表情",
+		key = "emoji_type_4"
+	},
 	card_pairs_help_tip = {
 		key = "card_pairs_help_tip",
 		tip = {
@@ -11926,11 +11930,11 @@ combo达到10/20/40/60/80/100时，分别为每次有效
 		}
 	},
 	pocky_jiujiu = {
-		tip = "啾啾日常 ",
+		tip = "啾啾日常",
 		key = "pocky_jiujiu"
 	},
 	pocky_jiujiu_desc = {
-		tip = "无情的打卡机器传来了“请打卡”的声音 ",
+		tip = "无情的打卡机器传来了“请打卡”的声音",
 		key = "pocky_jiujiu_desc"
 	},
 	pocky_help = {
@@ -12044,8 +12048,140 @@ combo达到10/20/40/60/80/100时，分别为每次有效
 		}
 	},
 	juese_tiyan = {
-		tip = "是否开始角色体验关卡？（体验关卡中我方舰船属性仅供参考，<color=#ff5c5c>实际性能以获得舰船为准</color>） ",
+		tip = "是否开始角色体验关卡？（体验关卡中我方舰船属性仅供参考，<color=#ff5c5c>实际性能以获得舰船为准</color>）",
 		key = "juese_tiyan"
+	},
+	resolve_amount_prefix = {
+		tip = "分解数量：",
+		key = "resolve_amount_prefix"
+	},
+	compose_amount_prefix = {
+		tip = "合成数量：",
+		key = "compose_amount_prefix"
+	},
+	confirm_unlock_ship_main = {
+		tip = "该舰船已被设为秘书舰，无法选择",
+		key = "confirm_unlock_ship_main"
+	},
+	msgbox_text_confirm = {
+		tip = "确 定",
+		key = "msgbox_text_confirm"
+	},
+	msgbox_text_shop = {
+		tip = "商 店",
+		key = "msgbox_text_shop"
+	},
+	msgbox_text_cancel = {
+		tip = "取 消",
+		key = "msgbox_text_cancel"
+	},
+	msgbox_text_cancel_g = {
+		tip = "取 消",
+		key = "msgbox_text_cancel_g"
+	},
+	msgbox_text_cancel_fight = {
+		tip = "退出战斗",
+		key = "msgbox_text_cancel_fight"
+	},
+	msgbox_text_goon_fight = {
+		tip = "继续战斗",
+		key = "msgbox_text_goon_fight"
+	},
+	msgbox_text_exit = {
+		tip = "退 出",
+		key = "msgbox_text_exit"
+	},
+	msgbox_text_clear = {
+		tip = "清 理",
+		key = "msgbox_text_clear"
+	},
+	msgbox_text_apply = {
+		tip = "申 请",
+		key = "msgbox_text_apply"
+	},
+	msgbox_text_buy = {
+		tip = "购 买",
+		key = "msgbox_text_buy"
+	},
+	msgbox_text_noPos_buy = {
+		tip = "拓 展",
+		key = "msgbox_text_noPos_buy"
+	},
+	msgbox_text_noPos_clear = {
+		tip = "整 理",
+		key = "msgbox_text_noPos_clear"
+	},
+	msgbox_text_noPos_intensify = {
+		tip = "强 化",
+		key = "msgbox_text_noPos_intensify"
+	},
+	msgbox_text_forward = {
+		tip = "立即前往",
+		key = "msgbox_text_forward"
+	},
+	msgbox_text_iknow = {
+		tip = "知道了",
+		key = "msgbox_text_iknow"
+	},
+	msgbox_text_prepage = {
+		tip = "上一页",
+		key = "msgbox_text_prepage"
+	},
+	msgbox_text_nextpage = {
+		tip = "下一页",
+		key = "msgbox_text_nextpage"
+	},
+	msgbox_text_exchange = {
+		tip = "兑 换",
+		key = "msgbox_text_exchange"
+	},
+	msgbox_text_retreat = {
+		tip = "撤 退",
+		key = "msgbox_text_retreat"
+	},
+	msgbox_text_go = {
+		tip = "立即前往",
+		key = "msgbox_text_go"
+	},
+	msgbox_text_consume = {
+		tip = "消耗",
+		key = "msgbox_text_consume"
+	},
+	msgbox_text_inconsume = {
+		tip = "不消耗",
+		key = "msgbox_text_inconsume"
+	},
+	msgbox_text_unlock = {
+		tip = "解 锁",
+		key = "msgbox_text_unlock"
+	},
+	common_flag_ship = {
+		tip = "秘书舰",
+		key = "common_flag_ship"
+	},
+	fenjie_lantu_tip = {
+		tip = "科研等级达到30级后蓝图才可以被解析哦！",
+		key = "fenjie_lantu_tip"
+	},
+	msgbox_text_analyse = {
+		tip = "解 析",
+		key = "msgbox_text_analyse"
+	},
+	fragresolve_empty_tip = {
+		tip = "当前没有可以解析的图纸",
+		key = "fragresolve_empty_tip"
+	},
+	confirm_unlock_lv = {
+		tip = "是否解锁<color=#ff5c5c>$1的$2</color>",
+		key = "confirm_unlock_lv"
+	},
+	shops_rest_day = {
+		tip = "本次兑换剩余时间:",
+		key = "shops_rest_day"
+	},
+	title_limit_time = {
+		tip = "「限时」",
+		key = "title_limit_time"
 	}
 }
 

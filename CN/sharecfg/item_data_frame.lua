@@ -48,6 +48,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>献给所有勇于挑战极限的指挥官们</color>\n通过参与「限界挑战」获取 （19.10.10-19.12.08）",
 		scene = {}
 	},
+	[204] = {
+		name = "限界的挑战者IV",
+		time_second = 0,
+		id = 204,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>献给所有勇于挑战极限的指挥官们</color>\n通过参与「限界挑战」获取 （19.12.19-20.03.29）",
+		scene = {}
+	},
 	[300] = {
 		name = "召集者",
 		time_second = 2592000,
@@ -88,6 +96,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「让世界知晓撒丁帝国的荣耀与尊严吧！」</color>\n「神圣的悲喜剧」活动获取",
 		scene = {}
 	},
+	[305] = {
+		name = "重樱之仪",
+		time_second = 0,
+		id = 305,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>通过后续活动获取</color>",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂纪念：企业",
 		time_second = 0,
@@ -119,11 +135,13 @@ pg.item_data_frame = {
 		201,
 		202,
 		203,
+		204,
 		300,
 		301,
 		302,
 		303,
 		304,
+		305,
 		401,
 		402,
 		404

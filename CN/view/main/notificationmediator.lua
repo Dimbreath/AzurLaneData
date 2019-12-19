@@ -91,7 +91,10 @@ function slot0.register(slot0)
 			data = {
 				callback = slot1,
 				pos = slot2,
-				LayerWeightMgr_groupName = LayerWeightConst.GROUP_NOTIFICATION
+				LayerWeightMgr_groupName = LayerWeightConst.GROUP_NOTIFICATION,
+				emojiIconCallback = function (slot0)
+					slot0.viewComponent:insertEmojiToInputText(slot0)
+				end
 			}
 		}), true)
 	end)

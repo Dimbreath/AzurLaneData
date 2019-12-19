@@ -53,7 +53,7 @@ function AiriTranscodeResult(slot0)
 
 	if slot0.AiriResultCodeHandler(slot0.R_CODE) then
 		pg.m02:sendNotification(GAME.ON_GET_TRANSCODE, {
-			transcode = slot0.TRANSCODE
+			transcode = slot0.MIGRATIONCODE
 		})
 	end
 end
