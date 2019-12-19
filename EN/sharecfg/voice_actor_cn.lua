@@ -849,7 +849,7 @@ pg.voice_actor_CN = {
 		code = 212
 	},
 	{
-		actor_name = "岩仓梓",
+		actor_name = "Azusa Iwakura",
 		code = 213
 	}
 }

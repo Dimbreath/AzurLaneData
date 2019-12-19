@@ -150,8 +150,8 @@ function slot0.setItem(slot0, slot1)
 
 			slot2 = false
 		elseif slot4 == Item.BLUEPRINT_TYPE then
-			if getProxy(TechnologyProxy):GetBlueprint4Item(slot0.itemVO.id) and slot5:getBluePrintById(slot6):isMaxLevel() then
-				setActive(slot0.resolveBtn, true)
+			if getProxy(TechnologyProxy):GetBlueprint4Item(slot0.itemVO.id) then
+				slot7 = slot5:getBluePrintById(slot6)
 			end
 
 			slot0:setItemInfo(slot1, slot0:findTF("item", slot0.operatePanel))
@@ -405,7 +405,7 @@ function slot0.UpdateResolvePanel(slot0)
 	end
 
 	for slot7, slot8 in pairs(slot0.operateBtns) do
-		setActive(slot8, slot7 == "Resolve" or slot7 == "Cancel")
+		setActive(slot8, slot7 == "Cancel")
 	end
 
 	setText(slot0.operateCountdesc, i18n("resolve_amount_prefix"))
