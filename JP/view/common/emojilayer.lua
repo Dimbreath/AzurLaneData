@@ -1,5 +1,7 @@
 slot0 = class("EmojiLayer", import("..base.BaseUI"))
 slot0.PageEmojiNums = 8
+slot0.Frequently_Used_Emoji_Num = 6
+slot0.True_Emoji_Num_Of_Page = 15
 
 function slot0.getUIName(slot0)
 	return "EmojiUI"
@@ -8,6 +10,7 @@ end
 function slot0.init(slot0)
 	slot0.emojiGroup = slot0:findTF("frame/group")
 	slot0.emojiType = slot0:findTF("type", slot0.emojiGroup)
+	slot0.emojiEvent = slot0:findTF("frame/bg/mask/event")
 	slot0.emojiSnap = slot0:findTF("frame/bg/mask/event"):GetComponent("HScrollSnap")
 
 	slot0.emojiSnap:Init()
@@ -15,10 +18,21 @@ function slot0.init(slot0)
 	slot0.emojiContent = slot0:findTF("content", slot0.emojiSnap)
 	slot0.emojiItem = slot0:findTF("item", slot0.emojiSnap)
 	slot0.emojiDots = slot0:findTF("frame/dots")
+	slot0.emojiIconDots = slot0:findTF("frame/emojiDots")
 	slot0.emojiDot = slot0:findTF("dot", slot0.emojiSnap)
 
 	setActive(slot0.emojiItem, false)
 	setActive(slot0.emojiDot, false)
+
+	slot0.emojiIconEvent = slot0:findTF("frame/bg/mask/emojiicon_event")
+	slot0.emojiIconSnap = slot0:findTF("frame/bg/mask/emojiicon_event"):GetComponent("HScrollSnap")
+
+	slot0.emojiIconSnap:Init()
+
+	slot0.emojiIconContent = slot0:findTF("content", slot0.emojiIconSnap)
+	slot0.emojiIconItem = slot0:findTF("item_emojiicon", slot0.emojiIconSnap)
+
+	setActive(slot0.emojiIconItem, false)
 
 	slot0.resource = slot0:findTF("frame/resource")
 	slot0.frame = slot0:findTF("frame")
@@ -53,8 +67,18 @@ function slot0.display(slot0)
 
 			onToggle(slot0, slot2, function (slot0)
 				if slot0 then
-					slot0:filter(slot0.filter)
-					slot0:align(#ChatConst.EmojiTypes)
+					slot1(slot0.emojiDots, setActive ~= ChatConst.EmojiIcon)
+					slot1(slot0.emojiIconDots, setActive == ChatConst.EmojiIcon)
+					slot1(slot0.emojiEvent, setActive ~= ChatConst.EmojiIcon)
+					slot1(slot0.emojiIconEvent, setActive == ChatConst.EmojiIcon)
+
+					if slot1 ~= ChatConst.EmojiIcon then
+						slot0:filter(slot0.filter)
+					elseif slot1 == ChatConst.EmojiIcon then
+						slot0:emojiIconFliter()
+					end
+
+					slot2:align(#ChatConst.EmojiTypes)
 				end
 			end, SFX_PANEL)
 		end
@@ -183,6 +207,113 @@ function slot0.filter(slot0, slot1)
 			end
 		end)
 		slot13:align(#_.slice(slot2, slot10 * slot0.PageEmojiNums + 1, slot0.PageEmojiNums))
+	end
+end
+
+function slot0.emojiIconFliter(slot0)
+	slot1 = pg.emoji_small_template
+	slot2 = {}
+
+	for slot8, slot9 in ipairs(slot4) do
+		table.insert(slot2, slot1[slot9])
+	end
+
+	for slot9 = slot0.emojiIconContent.childCount + 1, math.ceil((#slot1 + #slot2) / slot0.True_Emoji_Num_Of_Page), 1 do
+		cloneTplTo(slot0.emojiDot, slot0.emojiIconDots)
+	end
+
+	for slot9 = slot0.emojiIconContent.childCount + 1, slot5, 1 do
+		slot10 = Instantiate(slot0.emojiIconItem)
+		slot11 = slot0:findTF("TitleCommom", slot10)
+		slot12 = slot0:findTF("TitleAll", slot10)
+		slot13 = slot0:findTF("CommomIconContainer", slot10)
+		slot15 = GetComponent(slot0:findTF("AllIconContainer", slot10), "GridLayoutGroup")
+
+		if slot9 == 1 then
+			slot17 = UIItemList.New(slot13, slot16)
+
+			slot17:make(function (slot0, slot1, slot2)
+				slot3 = slot0[slot1 + 1]
+
+				if slot0 == UIItemList.EventUpdate then
+					PoolMgr.GetInstance():GetPrefab("emoji/" .. slot3.pic, slot3.pic, true, function (slot0)
+						if slot0 then
+							slot0.name = slot1.pic
+
+							setParent(slot0, slot0, false)
+							onButton(slot0, slot0, function ()
+								if slot0.contextData.emojiIconCallback then
+									slot0 = getProxy(ChatProxy)
+
+									slot0:addUsedEmojiIcon(slot1.id)
+									slot0.contextData.emojiIconCallback(slot1.id)
+								end
+							end, SFX_PANEL)
+						end
+					end)
+				end
+			end)
+			slot17:align(#slot2)
+
+			slot15.padding.left = 20
+			slot19 = UIItemList.New(slot14, slot18)
+
+			slot19:make(function (slot0, slot1, slot2)
+				slot3 = slot0[slot1 + 1]
+
+				if slot0 == UIItemList.EventUpdate then
+					PoolMgr.GetInstance():GetPrefab("emoji/" .. slot3.pic, slot3.pic, true, function (slot0)
+						if slot0 then
+							slot0.name = slot1.pic
+
+							setParent(slot0, slot0, false)
+							onButton(slot0, slot0, function ()
+								if slot0.contextData.emojiIconCallback then
+									slot0 = getProxy(ChatProxy)
+
+									slot0:addUsedEmojiIcon(slot1.id)
+									slot0.contextData.emojiIconCallback(slot1.id)
+								end
+							end, SFX_PANEL)
+						end
+					end)
+				end
+			end)
+			slot19:align(slot0.True_Emoji_Num_Of_Page - slot0.Frequently_Used_Emoji_Num)
+		else
+			slot16 = slot0.True_Emoji_Num_Of_Page - slot0.Frequently_Used_Emoji_Num
+			slot15.padding.left = 60
+			slot19 = UIItemList.New(slot14, slot18)
+
+			slot19:make(function (slot0, slot1, slot2)
+				slot3 = slot0[slot1 + 1]
+
+				if slot0 == UIItemList.EventUpdate then
+					PoolMgr.GetInstance():GetPrefab("emoji/" .. slot3.pic, slot3.pic, true, function (slot0)
+						if slot0 then
+							slot0.name = slot1.pic
+
+							setParent(slot0, slot0, false)
+							onButton(slot0, slot0, function ()
+								if slot0.contextData.emojiIconCallback then
+									slot0 = getProxy(ChatProxy)
+
+									slot0:addUsedEmojiIcon(slot1.id)
+									slot0.contextData.emojiIconCallback(slot1.id)
+								end
+							end, SFX_PANEL)
+						end
+					end)
+				end
+			end)
+			slot19:align(#_.slice(slot1, (slot9 - 2) * slot0.True_Emoji_Num_Of_Page + 9 + 1, slot0.True_Emoji_Num_Of_Page))
+		end
+
+		setActive(slot11, slot9 == 1)
+		setActive(slot12, slot9 == 1)
+		setActive(slot13, slot9 == 1)
+		setActive(slot10, true)
+		slot0.emojiIconSnap:AddChild(slot10)
 	end
 end
 

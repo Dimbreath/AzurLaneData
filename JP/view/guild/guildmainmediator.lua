@@ -129,7 +129,10 @@ function slot0.register(slot0)
 			mediator = EmojiMediator,
 			data = {
 				pos = slot1,
-				callback = slot2
+				callback = slot2,
+				emojiIconCallback = function (slot0)
+					slot0.viewComponent:insertEmojiToInputText(slot0)
+				end
 			}
 		}))
 	end)

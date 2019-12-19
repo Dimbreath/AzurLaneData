@@ -48,6 +48,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>チャレンジ精神に富む指揮官へ送るチャレンジフレーム</color>\nチャレンジモード第三期で入手可能（19.10.10-19.12.08）",
 		scene = {}
 	},
+	[204] = {
+		name = "チャレンジャーIV",
+		time_second = 0,
+		id = 204,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>チャレンジ精神に富む指揮官へ送るチャレンジフレーム</color>\nチャレンジモード第四期で入手可能（19.12.19-20.03.29）",
+		scene = {}
+	},
 	[300] = {
 		name = "カリスマ指揮官",
 		time_second = 2592000,
@@ -88,6 +96,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「サディアの威光を世界に知らしめましょう！」</color>\n――「悲歎せし焔海の詩」イベントで入手可能",
 		scene = {}
 	},
+	[305] = {
+		name = "桜儀典刃",
+		time_second = 0,
+		id = 305,
+		time_limit_type = 0,
+		desc = "後日イベントで入手可能",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂入り：エンタープライズ",
 		time_second = 0,
@@ -119,11 +135,13 @@ pg.item_data_frame = {
 		201,
 		202,
 		203,
+		204,
 		300,
 		301,
 		302,
 		303,
 		304,
+		305,
 		401,
 		402,
 		403

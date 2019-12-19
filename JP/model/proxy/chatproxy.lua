@@ -151,4 +151,47 @@ function slot0.addUsedEmoji(slot0, slot1)
 	slot0:saveUsedEmoji()
 end
 
+function slot0.loadUsedEmojiIcon(slot0)
+	slot0.usedEmojiIcon = {}
+
+	for slot4 = 1, 6, 1 do
+		slot0.usedEmojiIcon[slot4] = pg.emoji_small_template.all[slot4]
+	end
+
+	if #string.split(PlayerPrefs.GetString(ChatConst.EMOJI_ICON_SAVE_TAG .. getProxy(PlayerProxy):getRawData().id) or "", ":") > 0 then
+		for slot6, slot7 in ipairs(slot2) do
+			slot0.usedEmojiIcon[slot6] = tonumber(slot7)
+		end
+	end
+end
+
+function slot0.saveUsedEmojiIcon(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(slot0.usedEmojiIcon) do
+		table.insert(slot1, slot6)
+	end
+
+	PlayerPrefs.SetString(ChatConst.EMOJI_ICON_SAVE_TAG .. slot2, table.concat(slot1, ":"))
+end
+
+function slot0.getUsedEmojiIcon(slot0)
+	if not slot0.usedEmojiIcon then
+		slot0:loadUsedEmojiIcon()
+	end
+
+	return slot0.usedEmojiIcon
+end
+
+function slot0.addUsedEmojiIcon(slot0, slot1)
+	if table.indexof(slot0:getUsedEmojiIcon(), slot1, 1) then
+		table.remove(slot2, slot3)
+	else
+		table.remove(slot2, #slot2)
+	end
+
+	table.insert(slot2, 1, slot1)
+	slot0:saveUsedEmojiIcon()
+end
+
 return slot0

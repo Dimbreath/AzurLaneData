@@ -740,56 +740,6 @@ pg.activity_template = {
 			}
 		}
 	},
-	[445] = {
-		mark = 20191211,
-		title_res_tag = "tebiexvnlian",
-		type = 50,
-		login_pop = 0,
-		config_id = 3,
-		is_show = 10,
-		config_data = "",
-		bg = "",
-		id = 445,
-		time = {
-			timer,
-			{
-				{
-					2019,
-					12,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					12,
-					26
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		config_client = {
-			{
-				8,
-				59938,
-				1
-			},
-			{
-				2,
-				59762,
-				1
-			}
-		}
-	},
 	[425] = {
 		mark = 20191121,
 		title_res_tag = "zhuyemian",
@@ -1355,6 +1305,355 @@ pg.activity_template = {
 				},
 				{
 					"DACHAOSHENGDAN7"
+				}
+			}
+		}
+	},
+	[445] = {
+		mark = 20191211,
+		title_res_tag = "tebiexvnlian",
+		type = 50,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 7,
+		config_data = "",
+		bg = "",
+		id = 445,
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					12,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			{
+				8,
+				59938,
+				1
+			},
+			{
+				2,
+				59762,
+				1
+			}
+		}
+	},
+	[446] = {
+		mark = 20191219,
+		title_res_tag = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 446,
+		config_data = {
+			14673
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[447] = {
+		mark = 20191219,
+		title_res_tag = "",
+		type = 24,
+		login_pop = 0,
+		config_id = 448,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 447,
+		config_data = {
+			7
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					12,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			},
+			1,
+			1,
+			{
+				times,
+				15
+			}
+		}
+	},
+	[448] = {
+		mark = 20191219,
+		title_res_tag = "",
+		type = 37,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 448,
+		config_data = {
+			446
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[449] = {
+		mark = 20191219,
+		title_res_tag = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 2,
+		is_show = 0,
+		config_data = "",
+		config_client = "",
+		bg = "",
+		id = 449,
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					12,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[450] = {
+		mark = 20191219,
+		title_res_tag = "xunliandianshu_r",
+		type = 54,
+		login_pop = 0,
+		config_id = 450,
+		is_show = 10,
+		config_client = "",
+		id = 450,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_xunliandianshu_r"
+		}
+	},
+	[451] = {
+		mark = 20191219,
+		title_res_tag = "dachaosd_fk",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 9,
+		id = 451,
+		config_data = {
+			{
+				15224,
+				15225
+			},
+			{
+				15226,
+				15227
+			},
+			{
+				15228,
+				15229
+			},
+			{
+				15230,
+				15231
+			},
+			{
+				15232,
+				15233
+			},
+			{
+				15234,
+				15235
+			},
+			{
+				15236,
+				15237
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/skin_ruoyeshengdan"
+		},
+		config_client = {
+			story = {
+				{
+					"RUOYESHENGDAN1"
+				},
+				{
+					"RUOYESHENGDAN2"
+				},
+				{},
+				{
+					"RUOYESHENGDAN3"
+				},
+				{},
+				{
+					"RUOYESHENGDAN4"
+				},
+				{
+					"RUOYESHENGDAN5"
 				}
 			}
 		}
@@ -2423,7 +2722,6 @@ pg.activity_template = {
 		422,
 		423,
 		424,
-		445,
 		425,
 		426,
 		427,
@@ -2439,6 +2737,13 @@ pg.activity_template = {
 		437,
 		438,
 		440,
+		445,
+		446,
+		447,
+		448,
+		449,
+		450,
+		451,
 		10006,
 		10056,
 		10123,

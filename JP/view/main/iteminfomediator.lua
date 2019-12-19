@@ -2,10 +2,20 @@ slot0 = class("ItemInfoMediator", import("..base.ContextMediator"))
 slot0.USE_ITEM = "ItemInfoMediator:USE_ITEM"
 slot0.COMPOSE_ITEM = "ItemInfoMediator:COMPOSE_ITEM"
 slot0.ON_BLUEPRINT_SCENE = "ItemInfoMediator:ON_BLUEPRINT_SCENE"
+slot0.SELL_BLUEPRINT = "sell blueprint"
 
 function slot0.register(slot0)
 	slot0:bind(slot0.ON_BLUEPRINT_SCENE, function ()
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHIPBLUEPRINT)
+	end)
+	slot0:bind(slot0.SELL_BLUEPRINT, function (slot0, slot1, slot2, slot3)
+		slot0:sendNotification(GAME.FRAG_SELL, {
+			{
+				id = slot2,
+				count = slot3,
+				type = slot1
+			}
+		})
 	end)
 
 	slot2 = slot0.contextData.mine
@@ -31,7 +41,7 @@ function slot0.register(slot0)
 								{
 									id = slot0,
 									type = DROP_TYPE_ITEM,
-									number = GAME.OPEN_MAIL_ATTACHMENT
+									count = GAME.OPEN_MAIL_ATTACHMENT
 								}
 							}
 						})
@@ -57,7 +67,8 @@ function slot0.listNotificationInterests(slot0)
 	return {
 		BagProxy.ITEM_UPDATED,
 		GAME.USE_ITEM_DONE,
-		GAME.OPEN_MAIL_ATTACHMENT_DONE
+		GAME.OPEN_MAIL_ATTACHMENT_DONE,
+		GAME.FRAG_SELL_DONE
 	}
 end
 
@@ -69,7 +80,9 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.viewComponent:doClose()
 		end
 	elseif slot2 == GAME.USE_ITEM_DONE then
-		slot0.viewComponent:setComposeCount(1)
+		slot0.viewComponent:SetOperateCount(1)
+	elseif slot2 == GAME.FRAG_SELL_DONE then
+		slot0.viewComponent:SetOperateCount(1)
 	elseif slot2 == GAME.OPEN_MAIL_ATTACHMENT_DONE and slot3.items and #slot4 > 0 then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot4, function ()
 			if slot0.callback then

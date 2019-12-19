@@ -33,7 +33,13 @@ class("ExtendCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		elseif slot7.effect_args == ShopArgs.EffectOilFieldLevel then
 			slot8 = slot9._oilVO
 		elseif slot7.effect_args == ShopArgs.EffectClassLevel then
-			slot8 = slot9._classVO
+			if slot9._classVO:GetLevel() == 7 then
+				pg.TrackerMgr.GetInstance():Tracking(TRACKING_CLASS_LEVEL_UP_8)
+			elseif slot10 == 8 then
+				pg.TrackerMgr.GetInstance():Tracking(TRACKING_CLASS_LEVEL_UP_9)
+			elseif slot10 == 9 then
+				pg.TrackerMgr.GetInstance():Tracking(TRACKING_CLASS_LEVEL_UP_10)
+			end
 		end
 
 		slot9:StartUpGradeSuccess(slot8)

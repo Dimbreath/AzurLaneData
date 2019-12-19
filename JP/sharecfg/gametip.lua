@@ -7737,6 +7737,10 @@ pg.gametip = {
 		tip = "ドット",
 		key = "emoji_type_3"
 	},
+	emoji_type_4 = {
+		tip = "ミニ",
+		key = "emoji_type_4"
+	},
 	card_pairs_help_tip = {
 		key = "card_pairs_help_tip",
 		tip = {
@@ -8665,7 +8669,7 @@ pg.gametip = {
 				info = "    4.スコアを10以上入手すると、【歴戦の証】を1個入\n手できます。"
 			},
 			{
-				info = "    ※【歴戦の証】の入手可能個数は2/6まで（最大7個）"
+				info = "    ※【歴戦の証】の入手可能個数は12/17まで1日1個\nずつ加算されます。（最大7個）"
 			},
 			{
 				info = "    5.【歴戦の証】を7個入手すると、ウォースパイトの\n近代化改修（改造）素材アイテム【戦士の心得】を入手\n可能 ；"
@@ -12188,6 +12192,138 @@ L2DアニメーションのON・OFFは秘書艦変更画面で
 	juese_tiyan = {
 		tip = "お試しステージをプレイしますか？",
 		key = "juese_tiyan"
+	},
+	resolve_amount_prefix = {
+		tip = "分解数：",
+		key = "resolve_amount_prefix"
+	},
+	compose_amount_prefix = {
+		tip = "合成数：",
+		key = "compose_amount_prefix"
+	},
+	confirm_unlock_ship_main = {
+		tip = "既に秘書艦枠に配置されている艦船です",
+		key = "confirm_unlock_ship_main"
+	},
+	msgbox_text_confirm = {
+		tip = "確 定",
+		key = "msgbox_text_confirm"
+	},
+	msgbox_text_shop = {
+		tip = "ショップ",
+		key = "msgbox_text_shop"
+	},
+	msgbox_text_cancel = {
+		tip = "戻 る",
+		key = "msgbox_text_cancel"
+	},
+	msgbox_text_cancel_g = {
+		tip = "戻 る",
+		key = "msgbox_text_cancel_g"
+	},
+	msgbox_text_cancel_fight = {
+		tip = "戦闘中止",
+		key = "msgbox_text_cancel_fight"
+	},
+	msgbox_text_goon_fight = {
+		tip = "戦闘継続",
+		key = "msgbox_text_goon_fight"
+	},
+	msgbox_text_exit = {
+		tip = "撤 退",
+		key = "msgbox_text_exit"
+	},
+	msgbox_text_clear = {
+		tip = "クリア",
+		key = "msgbox_text_clear"
+	},
+	msgbox_text_apply = {
+		tip = "申 請",
+		key = "msgbox_text_apply"
+	},
+	msgbox_text_buy = {
+		tip = "購 入",
+		key = "msgbox_text_buy"
+	},
+	msgbox_text_noPos_buy = {
+		tip = "拓 展",
+		key = "msgbox_text_noPos_buy"
+	},
+	msgbox_text_noPos_clear = {
+		tip = "整 理",
+		key = "msgbox_text_noPos_clear"
+	},
+	msgbox_text_noPos_intensify = {
+		tip = "強 化",
+		key = "msgbox_text_noPos_intensify"
+	},
+	msgbox_text_forward = {
+		tip = "確 認",
+		key = "msgbox_text_forward"
+	},
+	msgbox_text_iknow = {
+		tip = "確 認",
+		key = "msgbox_text_iknow"
+	},
+	msgbox_text_prepage = {
+		tip = "次へ",
+		key = "msgbox_text_prepage"
+	},
+	msgbox_text_nextpage = {
+		tip = "前へ",
+		key = "msgbox_text_nextpage"
+	},
+	msgbox_text_exchange = {
+		tip = "交 換",
+		key = "msgbox_text_exchange"
+	},
+	msgbox_text_retreat = {
+		tip = "撤 退",
+		key = "msgbox_text_retreat"
+	},
+	msgbox_text_go = {
+		tip = "確 認",
+		key = "msgbox_text_go"
+	},
+	msgbox_text_consume = {
+		tip = "消耗",
+		key = "msgbox_text_consume"
+	},
+	msgbox_text_inconsume = {
+		tip = "不消耗",
+		key = "msgbox_text_inconsume"
+	},
+	msgbox_text_unlock = {
+		tip = "解 錠",
+		key = "msgbox_text_unlock"
+	},
+	common_flag_ship = {
+		tip = "<size=23>秘書艦</size>",
+		key = "common_flag_ship"
+	},
+	fenjie_lantu_tip = {
+		tip = "対応の特別計画艦が強化レベル30に達成した場合、余剰強化ユニットを分解できます",
+		key = "fenjie_lantu_tip"
+	},
+	msgbox_text_analyse = {
+		tip = "分 解",
+		key = "msgbox_text_analyse"
+	},
+	fragresolve_empty_tip = {
+		tip = "分解できる強化ユニットがありません",
+		key = "fragresolve_empty_tip"
+	},
+	confirm_unlock_lv = {
+		tip = "<color=#ff5c5c>$2($1)</color>をアンロックしますか?",
+		key = "confirm_unlock_lv"
+	},
+	shops_rest_day = {
+		tip = "ラインナップ更新まで:",
+		key = "shops_rest_day"
+	},
+	title_limit_time = {
+		tip = "「限定」",
+		key = "title_limit_time"
 	}
 }
 

@@ -45,7 +45,7 @@ function AiriTranscodeResult(slot0)
 
 	if slot0.AiriResultCodeHandler(slot0.R_CODE) then
 		pg.m02:sendNotification(GAME.ON_GET_TRANSCODE, {
-			transcode = slot0.TRANSCODE
+			transcode = slot0.MIGRATIONCODE
 		})
 	end
 end
@@ -259,6 +259,13 @@ return {
 		print("channelUID : " .. slot0.channelUID)
 
 		return slot0.channelUID
+	end,
+	GetTransCode = function ()
+		if Application.isEditor then
+			return "NULL"
+		else
+			return slot0.loginRet.MIGRATIONCODE
+		end
 	end,
 	UserEventUpload = function (slot0)
 		if slot0.GetIsPlatform() then
