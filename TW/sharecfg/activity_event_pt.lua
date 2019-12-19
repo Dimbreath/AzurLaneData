@@ -3302,6 +3302,31 @@ pg.activity_event_pt = {
 			7
 		}
 	},
+	[450] = {
+		link_id = 0,
+		type = 1,
+		pic_list = "",
+		pt_list = "",
+		id_2 = 450,
+		id = 450,
+		pt = 140,
+		target = {
+			3000
+		},
+		drop_client = {
+			{
+				14,
+				305,
+				1
+			}
+		},
+		allplayer = {
+			0.1
+		},
+		day_unlock = {
+			0
+		}
+	},
 	[1020] = {
 		link_id = 0,
 		type = 1,
@@ -5969,6 +5994,7 @@ pg.activity_event_pt = {
 		421,
 		430,
 		437,
+		450,
 		1020,
 		1021,
 		1022,

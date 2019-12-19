@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"爱与和平的圣夜祭\n\n<size=45>七 圣夜的拥抱</size>",
+					"愛與和平的聖夜祭\n\n<size=45>七 聖夜的擁抱</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 		{
 			side = 0,
 			dir = 1,
-			say = "港区夜晚•指挥室",
+			say = "港區夜晚•指揮室",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，还在……",
+			say = "指揮官，還在……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，好累……？",
+			say = "指揮官，好累……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "埃尔德里奇，礼物",
+			say = "埃爾德里奇，禮物",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "给指挥官",
+			say = "給指揮官",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "圣诞、快乐？",
+			say = "聖誕、快樂？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官、开心？",
+			say = "指揮官、開心？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			withoutPainting = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（点头）",
+			say = "（點頭）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "埃尔德里奇也、开心，嘻嘻……",
+			say = "埃爾德里奇也、開心，嘻嘻……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "和埃尔德里奇安静地待了很长一段时间，感受到了心灵的治愈",
+			say = "和埃爾德里奇安靜地待了很長一段時間，感受到了心靈的治癒",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			actor = 101051,
 			nameColor = "#a9f548",
-			say = "特派记者格里德利，完成任务回来报告啦！指挥官！",
+			say = "特派記者格里德利，完成任務回來報告啦！指揮官！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦？哦哦！这个是！我拍！",
+			say = "哦？哦哦！這個是！我拍！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			actor = 101051,
 			nameColor = "#a9f548",
-			say = "哎呀呀，拍到了张好照片呢，这张照片就叫作《圣夜的拥抱》吧，嗯嗯，感觉都可以拿个普利彻奖什么的了呢~",
+			say = "哎呀呀，拍到了張好照片呢，這張照片就叫作《聖夜的擁抱》吧，嗯嗯，感覺都可以拿個普立茲獎什麼的了呢~",
 			flashout = {
 				dur = 0.35,
 				black = false,

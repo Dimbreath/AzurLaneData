@@ -29,6 +29,14 @@ TRACKING_REMOULD_SHIP = "remould_ship"
 TRACKING_HARD_CHAPTER = "hard_chapter"
 TRACKING_KILL_BOSS = "kill_boss"
 TRACKING_HIGHEST_CHAPTER = "highest_chapter"
+TRACKING_FIRST_PASS_12_4 = "first_pass_12_4"
+TRACKING_FIRST_PASS_13_1 = "first_pass_13_1"
+TRACKING_FIRST_PASS_13_2 = "first_pass_13_2"
+TRACKING_FIRST_PASS_13_3 = "first_pass_13_3"
+TRACKING_FIRST_PASS_13_4 = "first_pass_13_4"
+TRACKING_CLASS_LEVEL_UP_8 = "class_level_up_8"
+TRACKING_CLASS_LEVEL_UP_9 = "class_level_up_9"
+TRACKING_CLASS_LEVEL_UP_10 = "class_level_up_10"
 
 function pg.TrackerMgr.Ctor(slot0)
 	slot1 = nil

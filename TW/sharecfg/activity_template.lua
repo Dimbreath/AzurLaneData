@@ -566,6 +566,47 @@ pg.activity_template = {
 			}
 		}
 	},
+	[999] = {
+		mark = 20191226,
+		title_res_tag = "",
+		type = 62,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 999,
+		config_data = {
+			1
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[2001] = {
 		mark = 20180327,
 		title_res_tag = "",
@@ -1345,7 +1386,7 @@ pg.activity_template = {
 		type = 3,
 		login_pop = 3,
 		config_id = 13,
-		is_show = 7,
+		is_show = 2,
 		config_client = "",
 		id = 40026,
 		config_data = {},
@@ -1477,6 +1518,126 @@ pg.activity_template = {
 			}
 		}
 	},
+	[40031] = {
+		mark = 20191205,
+		title_res_tag = "Gelideliskin",
+		type = 18,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 3,
+		id = 40031,
+		config_data = {
+			50049,
+			50050,
+			50051,
+			50052,
+			50053,
+			50054,
+			50055,
+			50056
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/skin_gelideli",
+			{
+				-105,
+				-180.8
+			},
+			{
+				-250,
+				-185
+			}
+		},
+		config_client = {
+			{
+				groupId = 10105,
+				configId = 101051,
+				id = 10000010105.0,
+				skin_id = 101051
+			},
+			{
+				groupId = 10208,
+				configId = 102081,
+				id = 10000010208.0,
+				skin_id = 102081,
+				tasks = {
+					2
+				}
+			},
+			{
+				groupId = 30502,
+				configId = 305021,
+				id = 10000030502.0,
+				skin_id = 305022,
+				tasks = {
+					3,
+					4
+				}
+			},
+			{
+				groupId = 30132,
+				configId = 301321,
+				id = 10000030132.0,
+				skin_id = 301321,
+				tasks = {
+					4
+				}
+			},
+			{
+				groupId = 10706,
+				configId = 107061,
+				id = 10000010706.0,
+				skin_id = 107061,
+				tasks = {
+					5
+				}
+			},
+			{
+				groupId = 20110,
+				configId = 201101,
+				id = 10000020110.0,
+				skin_id = 201102,
+				tasks = {
+					6
+				}
+			},
+			{
+				groupId = 10126,
+				configId = 101261,
+				id = 10000010126.0,
+				skin_id = 101261,
+				tasks = {
+					7
+				}
+			}
+		}
+	},
 	[45000] = {
 		mark = 20191004,
 		title_res_tag = "",
@@ -1491,6 +1652,45 @@ pg.activity_template = {
 		config_data = {
 			0,
 			{}
+		}
+	},
+	[45001] = {
+		mark = 20191210,
+		title_res_tag = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "[{31995,100}]",
+		config_client = "",
+		bg = "",
+		id = 45001,
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2019,
+					12,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	all = {
@@ -1509,6 +1709,7 @@ pg.activity_template = {
 		422,
 		423,
 		424,
+		999,
 		2001,
 		2018,
 		2026,
@@ -1540,7 +1741,9 @@ pg.activity_template = {
 		40028,
 		40029,
 		40030,
-		45000
+		40031,
+		45000,
+		45001
 	}
 }
 

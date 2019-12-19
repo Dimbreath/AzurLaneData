@@ -1,32 +1,38 @@
-class("ShamShoppingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	slot6 = getProxy(PlayerProxy).getRawData(slot5)
-	slot9 = getProxy(ChapterProxy).getShamShop(slot7).getGoodsCfg(slot8, slot3)
-	slot10, slot11 = getPlayerOwn(slot9.resource_category, slot9.resource_type)
+slot0 = class("ShamShoppingCommand", pm.SimpleCommand)
+slot0.SHAM_SHOP = 1
 
-	if slot11 < slot9.resource_num * slot1:getBody().count then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_x", slot10))
+function slot0.execute(slot0, slot1)
+	slot2 = slot1:getBody()
+	slot5 = slot2.type
+	slot7 = getProxy(PlayerProxy).getRawData(slot6)
+	slot10 = getProxy(ShopsProxy).getShamShop(slot8).getGoodsCfg(slot9, slot3)
+	slot11, slot12 = getPlayerOwn(slot10.resource_category, slot10.resource_type)
+
+	if slot12 < slot10.resource_num * slot2.count then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_x", slot11))
 
 		return
 	end
 
-	if slot9.commodity_type == 1 then
-		if slot9.commodity_id == 1 and slot6:GoldMax(slot9.num * slot4) then
+	if slot10.commodity_type == 1 then
+		if slot10.commodity_id == 1 and slot7:GoldMax(slot10.num * slot4) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_shop"))
 
 			return
 		end
 
-		if slot9.commodity_id == 2 and slot6:OilMax(slot9.num * slot4) then
+		if slot10.commodity_id == 2 and slot7:OilMax(slot10.num * slot4) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_shop"))
 
 			return
 		end
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(23010, {
+	pg.ConnectionMgr.GetInstance():Send(16201, {
 		id = slot3,
+		type = slot0.SHAM_SHOP,
 		count = slot4
-	}, 23011, function (slot0)
+	}, 16202, function (slot0)
 		if slot0.result == 0 then
 			table.insert(slot1, {
 				type = slot0.commodity_type,
@@ -46,8 +52,10 @@ class("ShamShoppingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			slot2:sendNotification(GAME.SHAM_SHOPPING_DONE, {
 				awards = 
 			})
+		else
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
 		end
 	end)
 end
 
-return class("ShamShoppingCommand", pm.SimpleCommand)
+return slot0

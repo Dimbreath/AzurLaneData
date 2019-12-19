@@ -7,7 +7,10 @@ function slot0.register(slot0)
 		slot0.data = {}
 
 		for slot4, slot5 in ipairs(slot0.item_list) do
-			slot6 = Item.New(slot5)
+			slot6 = Item.New({
+				id = slot5.id,
+				count = slot5.count
+			})
 
 			slot6:display("loaded")
 

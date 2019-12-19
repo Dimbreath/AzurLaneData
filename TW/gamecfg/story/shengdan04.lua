@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"爱与和平的圣夜祭\n\n<size=45>四 重樱的圣诞节·下</size>",
+					"愛與和平的聖夜祭\n\n<size=45>四 重櫻的聖誕節·下</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 		{
 			side = 0,
 			dir = 1,
-			say = "港区•重樱宿舍",
+			say = "港區•重櫻宿舍",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			actor = 305010,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "我们回来了~",
+			say = "我們回來了~",
 			subActors = {
 				{
 					actor = 305022,
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊~欢迎回来~",
+			say = "啊~歡迎回來~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			}
 		},
 		{
-			say = "喔！辛苦了~欢迎回来啊！",
+			say = "噢！辛苦了~歡迎回來啊！",
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -94,7 +94,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "{namecode:33}和…{namecode:82}前辈？",
+			say = "{namecode:33}和…{namecode:82}前輩？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "啊啊，因为大家都在准备那个，是圣诞节对吧？就我光是坐着也不好，但是我要帮忙吧，后辈们又都说“{namecode:82}前辈这里就交给我们吧“什么的……",
+			say = "啊啊，因為大家都在準備那個，是聖誕節對吧？就我光是坐著也不好，但是我要幫忙吧，後輩們又都說“{namecode:82}前輩這裡就交給我們吧”什麼的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "虽然被后辈们尊敬是让人开心的事情，不过这时候就让人觉得特别寂寞呢…",
+			say = "雖然被後輩們尊敬是讓人開心的事情，不過這時候就讓人覺得特別寂寞呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "{namecode:82}前辈……",
+			say = "{namecode:82}前輩……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "不过还好这时候！还有些需要照顾的后辈在！",
+			say = "不過還好這時候！還有些需要照顧的後輩在！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:82}前（xian）辈，{namecode:33}还要玩~",
+			say = "{namecode:82}前（ㄑㄧㄢˊ）輩，{namecode:33}還要玩~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:82}",
-			say = "好好好，{namecode:33}想玩什么呢~？骑马打仗？还是要飞高高？",
+			say = "好好好，{namecode:33}想玩什麼呢~？騎馬打仗？還是要飛高高？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
-			say = "虽然一直听说的都是{namecode:82}前辈在战场上的风光——",
+			say = "雖然一直聽說的都是{namecode:82}前輩在戰場上的風光——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "没想到平时的前辈是这样的呢…",
+			say = "沒想到平時的前輩是這樣的呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
-			say = "不愧是{namecode:82}前辈~",
+			say = "不愧是{namecode:82}前輩~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			nameColor = "#a9f548",
-			say = "——好！那么重樱圣诞派对，现在开始~大家玩得开心！",
+			say = "——好！那麼重櫻聖誕派對，現在開始~大家玩得開心！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -286,7 +286,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "姐姐圣诞快乐~",
+			say = "姐姐聖誕快樂~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			}
 		},
 		{
-			say = "你也圣诞快乐~",
+			say = "你也聖誕快樂~",
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -322,7 +322,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "指挥官的指挥室…果然还亮着灯呢……",
+			say = "指揮官的指揮室…果然還亮著燈呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
-			say = "这么在意的话，不如去看看怎么样？顺便给指挥官看看你的圣诞装？",
+			say = "這麼在意的話，不如去看看怎麼樣？順便給指揮官看看你的聖誕裝？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:78}",
-			say = "谁叫你是我妹妹呢~这种时候推你一把不正是我该做的吗~？",
+			say = "誰叫你是我妹妹呢~這種時候推你一把不正是我該做的嗎~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "{namecode:33}也想去看指挥官！",
+			say = "{namecode:33}也想去看指揮官！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:79}",
-			say = "那、让{namecode:33}一个人这么晚出去也不太好，我就陪着她去一趟好了",
+			say = "那、讓{namecode:33}一個人這麼晚出去也不太好，我就陪著她去一趟好了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

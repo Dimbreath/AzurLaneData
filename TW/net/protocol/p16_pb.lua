@@ -1,4 +1,5 @@
 slot0 = require("protobuf")
+slot1 = require("common_pb")
 
 module("p16_pb")
 
@@ -39,9 +40,19 @@ slot24 = slot0.FieldDescriptor()
 slot25 = slot0.FieldDescriptor()
 SC_16109 = slot0.Descriptor()
 slot26 = slot0.FieldDescriptor()
-SHOPINFO = slot0.Descriptor()
+SC_16200 = slot0.Descriptor()
 slot27 = slot0.FieldDescriptor()
 slot28 = slot0.FieldDescriptor()
+CS_16201 = slot0.Descriptor()
+slot29 = slot0.FieldDescriptor()
+slot30 = slot0.FieldDescriptor()
+slot31 = slot0.FieldDescriptor()
+SC_16202 = slot0.Descriptor()
+slot32 = slot0.FieldDescriptor()
+slot33 = slot0.FieldDescriptor()
+SHOPINFO = slot0.Descriptor()
+slot34 = slot0.FieldDescriptor()
+slot35 = slot0.FieldDescriptor()
 slot2.name = "id"
 slot2.full_name = ".p16.cs_16001.id"
 slot2.number = 1
@@ -86,7 +97,7 @@ slot5.index = 1
 slot5.label = 3
 slot5.has_default_value = false
 slot5.default_value = {}
-slot5.message_type = require("common_pb").DROPINFO
+slot5.message_type = slot1.DROPINFO
 slot5.type = 11
 slot5.cpp_type = 10
 SC_16002.name = "sc_16002"
@@ -209,7 +220,7 @@ slot14.index = 1
 slot14.label = 1
 slot14.has_default_value = false
 slot14.default_value = nil
-slot14.message_type = require("common_pb").SHIPINFO
+slot14.message_type = slot1.SHIPINFO
 slot14.type = 11
 slot14.cpp_type = 10
 SC_16103.name = "sc_16103"
@@ -393,31 +404,128 @@ SC_16109.fields = {
 }
 SC_16109.is_extendable = false
 SC_16109.extensions = {}
-slot27.name = "shop_id"
-slot27.full_name = ".p16.shopinfo.shop_id"
+slot27.name = "core_shop_list"
+slot27.full_name = ".p16.sc_16200.core_shop_list"
 slot27.number = 1
 slot27.index = 0
-slot27.label = 2
+slot27.label = 3
 slot27.has_default_value = false
-slot27.default_value = 0
-slot27.type = 13
-slot27.cpp_type = 3
-slot28.name = "pay_count"
-slot28.full_name = ".p16.shopinfo.pay_count"
+slot27.default_value = {}
+slot27.message_type = SHOPINFO
+slot27.type = 11
+slot27.cpp_type = 10
+slot28.name = "blue_shop_list"
+slot28.full_name = ".p16.sc_16200.blue_shop_list"
 slot28.number = 2
 slot28.index = 1
-slot28.label = 2
+slot28.label = 3
 slot28.has_default_value = false
-slot28.default_value = 0
-slot28.type = 13
-slot28.cpp_type = 3
+slot28.default_value = {}
+slot28.message_type = SHOPINFO
+slot28.type = 11
+slot28.cpp_type = 10
+SC_16200.name = "sc_16200"
+SC_16200.full_name = ".p16.sc_16200"
+SC_16200.nested_types = {}
+SC_16200.enum_types = {}
+SC_16200.fields = {
+	slot27,
+	slot28
+}
+SC_16200.is_extendable = false
+SC_16200.extensions = {}
+slot29.name = "type"
+slot29.full_name = ".p16.cs_16201.type"
+slot29.number = 1
+slot29.index = 0
+slot29.label = 2
+slot29.has_default_value = false
+slot29.default_value = 0
+slot29.type = 13
+slot29.cpp_type = 3
+slot30.name = "id"
+slot30.full_name = ".p16.cs_16201.id"
+slot30.number = 2
+slot30.index = 1
+slot30.label = 2
+slot30.has_default_value = false
+slot30.default_value = 0
+slot30.type = 13
+slot30.cpp_type = 3
+slot31.name = "count"
+slot31.full_name = ".p16.cs_16201.count"
+slot31.number = 3
+slot31.index = 2
+slot31.label = 2
+slot31.has_default_value = false
+slot31.default_value = 0
+slot31.type = 13
+slot31.cpp_type = 3
+CS_16201.name = "cs_16201"
+CS_16201.full_name = ".p16.cs_16201"
+CS_16201.nested_types = {}
+CS_16201.enum_types = {}
+CS_16201.fields = {
+	slot29,
+	slot30,
+	slot31
+}
+CS_16201.is_extendable = false
+CS_16201.extensions = {}
+slot32.name = "result"
+slot32.full_name = ".p16.sc_16202.result"
+slot32.number = 1
+slot32.index = 0
+slot32.label = 2
+slot32.has_default_value = false
+slot32.default_value = 0
+slot32.type = 13
+slot32.cpp_type = 3
+slot33.name = "drop_list"
+slot33.full_name = ".p16.sc_16202.drop_list"
+slot33.number = 2
+slot33.index = 1
+slot33.label = 3
+slot33.has_default_value = false
+slot33.default_value = {}
+slot33.message_type = slot1.DROPINFO
+slot33.type = 11
+slot33.cpp_type = 10
+SC_16202.name = "sc_16202"
+SC_16202.full_name = ".p16.sc_16202"
+SC_16202.nested_types = {}
+SC_16202.enum_types = {}
+SC_16202.fields = {
+	slot32,
+	slot33
+}
+SC_16202.is_extendable = false
+SC_16202.extensions = {}
+slot34.name = "shop_id"
+slot34.full_name = ".p16.shopinfo.shop_id"
+slot34.number = 1
+slot34.index = 0
+slot34.label = 2
+slot34.has_default_value = false
+slot34.default_value = 0
+slot34.type = 13
+slot34.cpp_type = 3
+slot35.name = "pay_count"
+slot35.full_name = ".p16.shopinfo.pay_count"
+slot35.number = 2
+slot35.index = 1
+slot35.label = 2
+slot35.has_default_value = false
+slot35.default_value = 0
+slot35.type = 13
+slot35.cpp_type = 3
 SHOPINFO.name = "shopinfo"
 SHOPINFO.full_name = ".p16.shopinfo"
 SHOPINFO.nested_types = {}
 SHOPINFO.enum_types = {}
 SHOPINFO.fields = {
-	slot27,
-	slot28
+	slot34,
+	slot35
 }
 SHOPINFO.is_extendable = false
 SHOPINFO.extensions = {}
@@ -427,12 +535,15 @@ cs_16102 = slot0.Message(CS_16102)
 cs_16104 = slot0.Message(CS_16104)
 cs_16106 = slot0.Message(CS_16106)
 cs_16108 = slot0.Message(CS_16108)
+cs_16201 = slot0.Message(CS_16201)
 sc_16002 = slot0.Message(SC_16002)
 sc_16101 = slot0.Message(SC_16101)
 sc_16103 = slot0.Message(SC_16103)
 sc_16105 = slot0.Message(SC_16105)
 sc_16107 = slot0.Message(SC_16107)
 sc_16109 = slot0.Message(SC_16109)
+sc_16200 = slot0.Message(SC_16200)
+sc_16202 = slot0.Message(SC_16202)
 shopinfo = slot0.Message(SHOPINFO)
 
 return

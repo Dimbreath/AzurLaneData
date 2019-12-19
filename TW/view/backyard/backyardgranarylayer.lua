@@ -75,7 +75,12 @@ function slot5(slot0, slot1)
 			setActive(slot0._tf, true)
 
 			slot0.foodName.text = slot1:getConfig("name")
-			slot0.foodDesc.text = slot1:getConfig("display")
+
+			if PLATFORM_CODE == PLATFORM_US then
+				setBestFitTextEN(slot0.foodDesc.gameObject, slot1:getConfig("display"), 28)
+			else
+				slot0.foodDesc.text = slot1:getConfig("display")
+			end
 
 			updateItem(slot0.foodItem, slot1)
 

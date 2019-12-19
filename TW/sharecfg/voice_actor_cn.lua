@@ -685,7 +685,7 @@ pg.voice_actor_CN = {
 		code = 171
 	},
 	{
-		actor_name = "河濑茉希",
+		actor_name = "河瀨茉希",
 		code = 172
 	},
 	{
@@ -701,19 +701,19 @@ pg.voice_actor_CN = {
 		code = 175
 	},
 	{
-		actor_name = "绊爱",
+		actor_name = "絆愛",
 		code = 176
 	},
 	{
-		actor_name = "嵩马美步",
+		actor_name = "嵩馬美步",
 		code = 177
 	},
 	{
-		actor_name = "岛袋美由利",
+		actor_name = "島袋美由利",
 		code = 178
 	},
 	{
-		actor_name = "市之濑加那",
+		actor_name = "市之瀨加那",
 		code = 179
 	},
 	{
@@ -721,23 +721,23 @@ pg.voice_actor_CN = {
 		code = 180
 	},
 	{
-		actor_name = "和气杏未",
+		actor_name = "和氣杏未",
 		code = 181
 	},
 	{
-		actor_name = "内田真礼",
+		actor_name = "內田真禮",
 		code = 182
 	},
 	{
-		actor_name = "川澄绫子",
+		actor_name = "川澄綾子",
 		code = 183
 	},
 	{
-		actor_name = "结名美月",
+		actor_name = "結名美月",
 		code = 184
 	},
 	{
-		actor_name = "原纱友里",
+		actor_name = "原紗友里",
 		code = 185
 	},
 	{
@@ -753,15 +753,15 @@ pg.voice_actor_CN = {
 		code = 188
 	},
 	{
-		actor_name = "铃代纱弓",
+		actor_name = "鈴代紗弓",
 		code = 189
 	},
 	{
-		actor_name = "山村响",
+		actor_name = "山村響",
 		code = 190
 	},
 	{
-		actor_name = "高桥未奈美",
+		actor_name = "高橋未奈美",
 		code = 191
 	},
 	{
@@ -781,15 +781,15 @@ pg.voice_actor_CN = {
 		code = 195
 	},
 	{
-		actor_name = "王晓彤",
+		actor_name = "王曉彤",
 		code = 196
 	},
 	{
-		actor_name = "杜冥鸦",
+		actor_name = "杜冥鴉",
 		code = 197
 	},
 	{
-		actor_name = "大桥歩夕",
+		actor_name = "大橋歩夕",
 		code = 198
 	},
 	{
@@ -797,7 +797,7 @@ pg.voice_actor_CN = {
 		code = 199
 	},
 	{
-		actor_name = "长谷川里桃",
+		actor_name = "長谷川里桃",
 		code = 200
 	},
 	{
@@ -805,15 +805,15 @@ pg.voice_actor_CN = {
 		code = 201
 	},
 	{
-		actor_name = "立花理香 ",
+		actor_name = "立花理香",
 		code = 202
 	},
 	{
-		actor_name = "渡部纱弓 ",
+		actor_name = "渡部紗弓",
 		code = 203
 	},
 	{
-		actor_name = "金子彩花 ",
+		actor_name = "金子彩花",
 		code = 204
 	},
 	{
@@ -829,7 +829,7 @@ pg.voice_actor_CN = {
 		code = 207
 	},
 	{
-		actor_name = "湊阿库娅",
+		actor_name = "湊阿庫婭",
 		code = 208
 	},
 	{
@@ -837,16 +837,20 @@ pg.voice_actor_CN = {
 		code = 209
 	},
 	{
-		actor_name = "百鬼绫目",
+		actor_name = "百鬼綾目",
 		code = 210
 	},
 	{
-		actor_name = "时乃空",
+		actor_name = "時乃空",
 		code = 211
 	},
 	{
-		actor_name = "紫咲诗音",
+		actor_name = "紫咲詩音",
 		code = 212
+	},
+	{
+		actor_name = "岩倉梓",
+		code = 213
 	}
 }
 

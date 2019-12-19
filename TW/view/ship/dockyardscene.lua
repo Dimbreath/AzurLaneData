@@ -157,6 +157,8 @@ function slot0.init(slot0)
 	slot0.preferenceBtn = findTF(slot0.topPanel, "preference_toggle")
 	slot0.indexBtn = slot0:findTF("index_button", slot0.topPanel)
 	slot0.attrBtn = slot0:findTF("attr_toggle", slot0.topPanel)
+	slot0.modLockFilter = slot0:findTF("mod_flter_lock", slot0.topPanel)
+	slot0.modLeveFilter = slot0:findTF("mod_flter_level", slot0.topPanel)
 	slot0.selectPanel = slot0:findTF("select_panel")
 
 	setActive(slot0.selectPanel, true)
@@ -171,6 +173,8 @@ function slot0.init(slot0)
 	setActive(slot0.indexBtn, not slot0.isRemouldOrUpgradeMode)
 	setActive(slot0.attrBtn, not slot0.isRemouldOrUpgradeMode)
 	setActive(slot0.sortBtn, not slot0.isRemouldOrUpgradeMode)
+	setActive(slot0.modLeveFilter, slot0.isRemouldOrUpgradeMode)
+	setActive(slot0.modLockFilter, slot0.isRemouldOrUpgradeMode)
 
 	if slot0.mode == slot0.MODE_OVERVIEW then
 		slot0.selecteEnabled = false
@@ -784,9 +788,27 @@ end
 
 function slot0.filterForRemouldAndUpgrade(slot0)
 	slot0.shipVOs = {}
+	slot1 = slot0.isFilterLockForMod
+	slot2 = slot0.isFilterLevelForMod
 
-	for slot4, slot5 in pairs(slot0.shipVOsById) do
-		table.insert(slot0.shipVOs, slot5)
+	function slot3(slot0)
+		slot1 = true
+
+		if not slot0 and slot0.lockState == Ship.LOCK_STATE_LOCK then
+			slot1 = false
+		end
+
+		if not slot1 and slot0.level > 1 then
+			slot1 = false
+		end
+
+		return slot1
+	end
+
+	for slot7, slot8 in pairs(slot0.shipVOsById) do
+		if slot3(slot8) then
+			table.insert(slot0.shipVOs, slot8)
+		end
 	end
 
 	table.sort(slot0.shipVOs, function (slot0, slot1)
@@ -796,7 +818,7 @@ function slot0.filterForRemouldAndUpgrade(slot0)
 		if slot0.level == slot1.level then
 			return slot3 < slot2
 		else
-			return slot1.level < slot0.level
+			return slot0.level < slot1.level
 		end
 	end)
 	slot0:updateShipCount(0)
@@ -904,6 +926,25 @@ function slot0.didEnter(slot0)
 	else
 		GetImageSpriteFromAtlasAsync("ui/dockyardui_atlas", "attr_off", slot2)
 		GetImageSpriteFromAtlasAsync("ui/dockyardui_atlas", "attr_on", slot3)
+	end
+
+	if slot0.isRemouldOrUpgradeMode then
+		slot4 = getProxy(SettingsProxy)
+		slot0.isFilterLevelForMod = slot4:GetDockYardLevelBtnFlag()
+
+		slot0:OnSwitch(slot0.modLeveFilter, slot0.isFilterLevelForMod, function (slot0)
+			slot0.isFilterLevelForMod = slot0
+
+			slot0:filterForRemouldAndUpgrade()
+		end)
+
+		slot0.isFilterLockForMod = slot4:GetDockYardLockBtnFlag()
+
+		slot0:OnSwitch(slot0.modLockFilter, slot0.isFilterLockForMod, function (slot0)
+			slot0.isFilterLockForMod = slot0
+
+			slot0:filterForRemouldAndUpgrade()
+		end)
 	end
 
 	onButton(slot0, slot1, function ()
@@ -1029,6 +1070,22 @@ function slot0.didEnter(slot0)
 		table.insert(slot0.selectedIds, slot0.contextData.selectShipId)
 		slot0:updateSelected()
 	end
+end
+
+function slot0.OnSwitch(slot0, slot1, slot2, slot3)
+	onButton(slot0, slot1, function ()
+		slot0 = not slot0
+
+		if slot1 then
+			slot1(slot1)
+		end
+
+		slot2()
+	end, SFX_PANEL)
+	function ()
+		setActive(slot0:Find("off"), not slot1)
+		setActive(slot0:Find("on"), )
+	end()
 end
 
 function slot0.onBackPressed(slot0)
@@ -1429,6 +1486,13 @@ function slot0.willExit(slot0)
 	end
 
 	slot0:cancelAnimating()
+
+	if slot0.isRemouldOrUpgradeMode then
+		slot1 = getProxy(SettingsProxy)
+
+		slot1:SetDockYardLockBtnFlag(slot0.isFilterLockForMod)
+		slot1:SetDockYardLevelBtnFlag(slot0.isFilterLevelForMod)
+	end
 end
 
 function slot0.animationOut(slot0)
