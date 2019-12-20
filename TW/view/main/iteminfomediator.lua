@@ -41,7 +41,7 @@ function slot0.register(slot0)
 								{
 									id = slot0,
 									type = DROP_TYPE_ITEM,
-									number = GAME.OPEN_MAIL_ATTACHMENT
+									count = GAME.OPEN_MAIL_ATTACHMENT
 								}
 							}
 						})
