@@ -95,20 +95,28 @@ function slot0.Resetcontrol(slot0)
 					slot0.count:Updatecontrol()
 				end
 			end)
-			onButton(slot2, slot4:Find("number_panel/left"), function ()
-				if slot0.curCount > 0 then
-					slot0.curCount = slot0.curCount - 1
+			pressPersistTrigger(slot4:Find("number_panel/left"), 0.5, function (slot0)
+				if slot0.curCount <= 0 then
+					slot0()
 
-					slot0.curCount - 1:Updatecontrol()
+					return
 				end
-			end)
-			onButton(slot2, slot4:Find("number_panel/right"), function ()
-				if slot0.curCount < slot0.count then
-					slot0.curCount = slot0.curCount + 1
 
-					slot0.curCount + 1:Updatecontrol()
+				slot0.curCount = slot0.curCount - 1
+
+				slot0:Updatecontrol()
+			end, nil, true, true, 0.1, SFX_PANEL)
+			pressPersistTrigger(slot4:Find("number_panel/right"), 0.5, function (slot0)
+				if slot0.count <= slot0.curCount then
+					slot0()
+
+					return
 				end
-			end)
+
+				slot0.curCount = slot0.curCount + 1
+
+				slot0:Updatecontrol()
+			end, nil, true, true, 0.1, SFX_PANEL)
 		end
 	end)
 	onButton(slot0, slot2:Find("button_1"), function ()

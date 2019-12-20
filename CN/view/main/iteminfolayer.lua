@@ -271,12 +271,24 @@ function slot0.didEnter(slot0)
 
 		SetActive:SetOperateCount(1)
 	end, SFX_PANEL)
-	onButton(slot0, slot0.operateLeftButton, function ()
+	pressPersistTrigger(slot0.operateLeftButton, 0.5, function (slot0)
+		if not slot0:UpdateCount(slot0.operateCount - 1) then
+			slot0()
+
+			return
+		end
+
 		slot0:SetOperateCount(slot0.operateCount - 1)
-	end)
-	onButton(slot0, slot0.operateRightButton, function ()
+	end, nil, true, true, 0.1, SFX_PANEL)
+	pressPersistTrigger(slot0.operateRightButton, 0.5, function (slot0)
+		if not slot0:UpdateCount(slot0.operateCount + 1) then
+			slot0()
+
+			return
+		end
+
 		slot0:SetOperateCount(slot0.operateCount + 1)
-	end)
+	end, nil, true, true, 0.1, SFX_PANEL)
 	onButton(slot0, slot0.operateMaxButton, function ()
 		slot0:SetOperateCount(slot0.operateMax)
 	end, SFX_PANEL)
@@ -305,6 +317,18 @@ function slot0.didEnter(slot0)
 			slot0:SetOperateCount(1)
 		end
 	end, SFX_CONFIRM)
+end
+
+function slot0.UpdateCount(slot0, slot1)
+	if slot0.operateMode == slot0.COMPOSE then
+		if not slot0.itemVO:getTempCfgTable().target_id or slot2.target_id <= 0 then
+			return false
+		end
+
+		return slot0.operateCount ~= math.clamp(slot1, 1, math.floor(slot0.itemVO.count / slot2.compose_number))
+	elseif slot0.operateMode == slot0.RESOLVE then
+		return slot0.operateCount ~= math.clamp(slot1, 1, slot0.itemVO.count)
+	end
 end
 
 function slot0.SetOperateCount(slot0, slot1)
