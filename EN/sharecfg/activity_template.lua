@@ -10393,7 +10393,6 @@ pg.activity_template = {
 		login_pop = 0,
 		config_id = 3,
 		is_show = 43,
-		config_client = "",
 		id = 30291,
 		config_data = {
 			{
@@ -10454,6 +10453,27 @@ pg.activity_template = {
 		},
 		bg = {
 			"clutter/skin_ruoyeshengdan"
+		},
+		config_client = {
+			story = {
+				{
+					"RUOYESHENGDAN1"
+				},
+				{
+					"RUOYESHENGDAN2"
+				},
+				{},
+				{
+					"RUOYESHENGDAN3"
+				},
+				{},
+				{
+					"RUOYESHENGDAN4"
+				},
+				{
+					"RUOYESHENGDAN5"
+				}
+			}
 		}
 	},
 	[30500] = {
