@@ -5859,7 +5859,7 @@ Attack/Support Range Level:
 		key = "guild_player_in_cd_time"
 	},
 	guild_player_already_join = {
-		tip = "Player has joined your guild.",
+		tip = "Player was already a guild member.",
 		key = "guild_player_already_join"
 	},
 	guild_rejecet_apply_sucess = {
