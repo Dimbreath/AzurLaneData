@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"Christmas Party!\n\n<size=45>クリスマスパーティー</size>",
+					"Christmas Party!\n\n<size=45>Christmas Party!</size>",
 					1
 				}
 			}
