@@ -1284,7 +1284,7 @@ pg.fleet_tech_ship_class = {
 		name = "이즈모",
 		t_level = 9,
 		id = 30506,
-		t_level_1 = 98,
+		t_level_1 = 99,
 		nation = 3,
 		ships = {
 			39902
@@ -1295,7 +1295,7 @@ pg.fleet_tech_ship_class = {
 		name = "히요급",
 		t_level = 4,
 		id = 30601,
-		t_level_1 = 99,
+		t_level_1 = 100,
 		nation = 3,
 		ships = {
 			30601,
@@ -1307,7 +1307,7 @@ pg.fleet_tech_ship_class = {
 		name = "쇼호급",
 		t_level = 3,
 		id = 30602,
-		t_level_1 = 100,
+		t_level_1 = 101,
 		nation = 3,
 		ships = {
 			30605
@@ -1318,7 +1318,7 @@ pg.fleet_tech_ship_class = {
 		name = "호쇼",
 		t_level = 2,
 		id = 30603,
-		t_level_1 = 101,
+		t_level_1 = 102,
 		nation = 3,
 		ships = {
 			30603
@@ -1329,7 +1329,7 @@ pg.fleet_tech_ship_class = {
 		name = "류조",
 		t_level = 4,
 		id = 30604,
-		t_level_1 = 102,
+		t_level_1 = 103,
 		nation = 3,
 		ships = {
 			30606
@@ -1340,7 +1340,7 @@ pg.fleet_tech_ship_class = {
 		name = "아카기",
 		t_level = 7,
 		id = 30701,
-		t_level_1 = 103,
+		t_level_1 = 104,
 		nation = 3,
 		ships = {
 			30701
@@ -1351,7 +1351,7 @@ pg.fleet_tech_ship_class = {
 		name = "카가",
 		t_level = 7,
 		id = 30702,
-		t_level_1 = 104,
+		t_level_1 = 105,
 		nation = 3,
 		ships = {
 			30702
@@ -1362,7 +1362,7 @@ pg.fleet_tech_ship_class = {
 		name = "소류",
 		t_level = 5,
 		id = 30703,
-		t_level_1 = 105,
+		t_level_1 = 106,
 		nation = 3,
 		ships = {
 			30703
@@ -1373,7 +1373,7 @@ pg.fleet_tech_ship_class = {
 		name = "히류",
 		t_level = 5,
 		id = 30704,
-		t_level_1 = 106,
+		t_level_1 = 107,
 		nation = 3,
 		ships = {
 			30704
@@ -1384,7 +1384,7 @@ pg.fleet_tech_ship_class = {
 		name = "쇼카쿠급",
 		t_level = 8,
 		id = 30705,
-		t_level_1 = 107,
+		t_level_1 = 108,
 		nation = 3,
 		ships = {
 			30705,
@@ -1396,7 +1396,7 @@ pg.fleet_tech_ship_class = {
 		name = "다이호",
 		t_level = 9,
 		id = 30706,
-		t_level_1 = 108,
+		t_level_1 = 109,
 		nation = 3,
 		ships = {
 			30707
@@ -1407,7 +1407,7 @@ pg.fleet_tech_ship_class = {
 		name = "순잠 을형",
 		t_level = 7,
 		id = 30801,
-		t_level_1 = 109,
+		t_level_1 = 110,
 		nation = 3,
 		ships = {
 			30801,
@@ -1422,7 +1422,7 @@ pg.fleet_tech_ship_class = {
 		name = "해대형 ",
 		t_level = 7,
 		id = 30802,
-		t_level_1 = 100,
+		t_level_1 = 101,
 		nation = 3,
 		ships = {
 			30806
@@ -1433,7 +1433,7 @@ pg.fleet_tech_ship_class = {
 		name = "아카시",
 		t_level = 5,
 		id = 31201,
-		t_level_1 = 111,
+		t_level_1 = 112,
 		nation = 3,
 		ships = {
 			31201
@@ -1444,7 +1444,7 @@ pg.fleet_tech_ship_class = {
 		name = "아즈마 ",
 		t_level = 9,
 		id = 31801,
-		t_level_1 = 114,
+		t_level_1 = 115,
 		nation = 3,
 		ships = {
 			39904
@@ -1455,7 +1455,7 @@ pg.fleet_tech_ship_class = {
 		name = "1934년형",
 		t_level = 4,
 		id = 40101,
-		t_level_1 = 112,
+		t_level_1 = 113,
 		nation = 4,
 		ships = {
 			40101,
@@ -1467,7 +1467,7 @@ pg.fleet_tech_ship_class = {
 		name = "1936년형",
 		t_level = 5,
 		id = 40102,
-		t_level_1 = 113,
+		t_level_1 = 114,
 		nation = 4,
 		ships = {
 			40118,
@@ -1481,7 +1481,7 @@ pg.fleet_tech_ship_class = {
 		name = "1936년 A형",
 		t_level = 6,
 		id = 40103,
-		t_level_1 = 114,
+		t_level_1 = 115,
 		nation = 4,
 		ships = {
 			40123,
@@ -1493,7 +1493,7 @@ pg.fleet_tech_ship_class = {
 		name = "1936년 B형",
 		t_level = 7,
 		id = 40104,
-		t_level_1 = 115,
+		t_level_1 = 116,
 		nation = 4,
 		ships = {
 			40135,
@@ -1505,7 +1505,7 @@ pg.fleet_tech_ship_class = {
 		name = "1936년 C형",
 		t_level = 8,
 		id = 40105,
-		t_level_1 = 116,
+		t_level_1 = 117,
 		nation = 4,
 		ships = {
 			40146
@@ -1516,7 +1516,7 @@ pg.fleet_tech_ship_class = {
 		name = "쾨니히스베르크급",
 		t_level = 3,
 		id = 40201,
-		t_level_1 = 117,
+		t_level_1 = 118,
 		nation = 4,
 		ships = {
 			40201,
@@ -1529,7 +1529,7 @@ pg.fleet_tech_ship_class = {
 		name = "라이프치히급",
 		t_level = 4,
 		id = 40202,
-		t_level_1 = 118,
+		t_level_1 = 119,
 		nation = 4,
 		ships = {
 			40204
@@ -1540,7 +1540,7 @@ pg.fleet_tech_ship_class = {
 		name = "아드미랄 히퍼급",
 		t_level = 7,
 		id = 40301,
-		t_level_1 = 119,
+		t_level_1 = 120,
 		nation = 4,
 		ships = {
 			40301,
@@ -1552,7 +1552,7 @@ pg.fleet_tech_ship_class = {
 		name = "도이칠란트급",
 		t_level = 5,
 		id = 40302,
-		t_level_1 = 120,
+		t_level_1 = 121,
 		nation = 4,
 		ships = {
 			40304,
@@ -1564,7 +1564,7 @@ pg.fleet_tech_ship_class = {
 		name = "론",
 		t_level = 9,
 		id = 40303,
-		t_level_1 = 121,
+		t_level_1 = 122,
 		nation = 4,
 		ships = {
 			49901
@@ -1575,7 +1575,7 @@ pg.fleet_tech_ship_class = {
 		name = "샤른호르스트급",
 		t_level = 6,
 		id = 40401,
-		t_level_1 = 122,
+		t_level_1 = 123,
 		nation = 4,
 		ships = {
 			40401,
@@ -1587,7 +1587,7 @@ pg.fleet_tech_ship_class = {
 		name = "비스마르크급",
 		t_level = 7,
 		id = 40501,
-		t_level_1 = 123,
+		t_level_1 = 124,
 		nation = 4,
 		ships = {
 			40501,
@@ -1610,7 +1610,7 @@ pg.fleet_tech_ship_class = {
 		name = "체펠린급",
 		t_level = 6,
 		id = 40701,
-		t_level_1 = 124,
+		t_level_1 = 125,
 		nation = 4,
 		ships = {
 			40701
@@ -1621,7 +1621,7 @@ pg.fleet_tech_ship_class = {
 		name = "ⅦB형",
 		t_level = 6,
 		id = 40801,
-		t_level_1 = 125,
+		t_level_1 = 126,
 		nation = 4,
 		ships = {
 			40802,
@@ -1634,7 +1634,7 @@ pg.fleet_tech_ship_class = {
 		name = "ⅦC형",
 		t_level = 7,
 		id = 40802,
-		t_level_1 = 126,
+		t_level_1 = 127,
 		nation = 4,
 		ships = {
 			40801,
@@ -1647,7 +1647,7 @@ pg.fleet_tech_ship_class = {
 		name = "IXC형 ",
 		t_level = 7,
 		id = 40803,
-		t_level_1 = 141,
+		t_level_1 = 142,
 		nation = 4,
 		ships = {
 			40807
@@ -1658,7 +1658,7 @@ pg.fleet_tech_ship_class = {
 		name = "IXB형 ",
 		t_level = 7,
 		id = 40804,
-		t_level_1 = 140,
+		t_level_1 = 141,
 		nation = 4,
 		ships = {
 			40808
@@ -1669,7 +1669,7 @@ pg.fleet_tech_ship_class = {
 		name = "안샨급",
 		t_level = 4,
 		id = 50101,
-		t_level_1 = 127,
+		t_level_1 = 128,
 		nation = 5,
 		ships = {
 			50101,
@@ -1683,7 +1683,7 @@ pg.fleet_tech_ship_class = {
 		name = "닝하이급",
 		t_level = 3,
 		id = 50201,
-		t_level_1 = 128,
+		t_level_1 = 129,
 		nation = 5,
 		ships = {
 			50202,
@@ -1695,7 +1695,7 @@ pg.fleet_tech_ship_class = {
 		name = "얏센 ",
 		t_level = 2,
 		id = 50202,
-		t_level_1 = 129,
+		t_level_1 = 130,
 		nation = 5,
 		ships = {
 			50201
@@ -1706,7 +1706,7 @@ pg.fleet_tech_ship_class = {
 		name = "솔다티급",
 		t_level = 6,
 		id = 60101,
-		t_level_1 = 130,
+		t_level_1 = 131,
 		nation = 6,
 		ships = {
 			60102
@@ -1717,7 +1717,7 @@ pg.fleet_tech_ship_class = {
 		name = "차라급",
 		t_level = 7,
 		id = 60301,
-		t_level_1 = 131,
+		t_level_1 = 132,
 		nation = 6,
 		ships = {
 			60302
@@ -1728,7 +1728,7 @@ pg.fleet_tech_ship_class = {
 		name = "트렌토급",
 		t_level = 5,
 		id = 60302,
-		t_level_1 = 132,
+		t_level_1 = 133,
 		nation = 6,
 		ships = {
 			60301
@@ -1739,7 +1739,7 @@ pg.fleet_tech_ship_class = {
 		name = "베네토급",
 		t_level = 7,
 		id = 60501,
-		t_level_1 = 133,
+		t_level_1 = 134,
 		nation = 6,
 		ships = {
 			60502
@@ -1750,7 +1750,7 @@ pg.fleet_tech_ship_class = {
 		name = "콘테 디 카보우르급",
 		t_level = 4,
 		id = 60502,
-		t_level_1 = 134,
+		t_level_1 = 135,
 		nation = 6,
 		ships = {
 			60505,
@@ -1762,7 +1762,7 @@ pg.fleet_tech_ship_class = {
 		name = "디아나급 ",
 		t_level = 1,
 		id = 70201,
-		t_level_1 = 130,
+		t_level_1 = 131,
 		nation = 7,
 		ships = {
 			70201
@@ -1773,7 +1773,7 @@ pg.fleet_tech_ship_class = {
 		name = "르 팡타스크급",
 		t_level = 8,
 		id = 80101,
-		t_level_1 = 131,
+		t_level_1 = 132,
 		nation = 8,
 		ships = {
 			80101
@@ -1784,7 +1784,7 @@ pg.fleet_tech_ship_class = {
 		name = "랑트레피드급",
 		t_level = 6,
 		id = 80102,
-		t_level_1 = 132,
+		t_level_1 = 133,
 		nation = 8,
 		ships = {
 			80103
@@ -1795,7 +1795,7 @@ pg.fleet_tech_ship_class = {
 		name = "라드루아급",
 		t_level = 4,
 		id = 80103,
-		t_level_1 = 133,
+		t_level_1 = 134,
 		nation = 8,
 		ships = {
 			80102
@@ -1806,7 +1806,7 @@ pg.fleet_tech_ship_class = {
 		name = "에밀 베르탱 ",
 		t_level = 4,
 		id = 80201,
-		t_level_1 = 134,
+		t_level_1 = 135,
 		nation = 8,
 		ships = {
 			80201
@@ -1817,7 +1817,7 @@ pg.fleet_tech_ship_class = {
 		name = "생 루이",
 		t_level = 8,
 		id = 80301,
-		t_level_1 = 135,
+		t_level_1 = 136,
 		nation = 8,
 		ships = {
 			89901
@@ -1828,7 +1828,7 @@ pg.fleet_tech_ship_class = {
 		name = "쉬르쿠프",
 		t_level = 7,
 		id = 80801,
-		t_level_1 = 136,
+		t_level_1 = 137,
 		nation = 8,
 		ships = {
 			80801
@@ -1839,7 +1839,7 @@ pg.fleet_tech_ship_class = {
 		name = "라드루아급",
 		t_level = 4,
 		id = 90103,
-		t_level_1 = 137,
+		t_level_1 = 138,
 		nation = 9,
 		ships = {
 			90101
@@ -1850,7 +1850,7 @@ pg.fleet_tech_ship_class = {
 		name = "됭케르크급",
 		t_level = 5,
 		id = 90401,
-		t_level_1 = 138,
+		t_level_1 = 139,
 		nation = 9,
 		ships = {
 			90401
@@ -1861,7 +1861,7 @@ pg.fleet_tech_ship_class = {
 		name = "리슐리외급",
 		t_level = 7,
 		id = 90501,
-		t_level_1 = 139,
+		t_level_1 = 140,
 		nation = 9,
 		ships = {
 			90501,

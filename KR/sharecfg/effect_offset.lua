@@ -758,6 +758,17 @@ pg.effect_offset = {
 			0.2,
 			0
 		}
+	},
+	jiejie_dunpai = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		id = "jiejie_dunpai",
+		offset = {
+			0,
+			4.5,
+			0
+		}
 	}
 }
 

@@ -96639,7 +96639,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"shiranui"
+		}
 	},
 	[301182] = {
 		name = "시라누이",
@@ -96767,7 +96769,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"shiranui"
+		}
 	},
 	[301183] = {
 		name = "시라누이",
@@ -96895,7 +96899,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"shiranui"
+		}
 	},
 	[301184] = {
 		name = "시라누이",
@@ -97023,7 +97029,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"shiranui"
+		}
 	},
 	[301201] = {
 		name = "노와키",
@@ -118618,7 +118626,7 @@ pg.ship_data_statistics = {
 		},
 		grades = {
 			"C",
-			"B",
+			"A",
 			"E",
 			"B",
 			"B",
@@ -191518,7 +191526,7 @@ pg.ship_data_statistics = {
 		scale = 100,
 		raid_distance = 0,
 		english_name = "IJN Chokai",
-		skin_id = 900088,
+		skin_id = 303140,
 		painting_dir = 1,
 		attack_duration = 0,
 		ignite_accuracy = 0,
@@ -192411,7 +192419,7 @@ pg.ship_data_statistics = {
 		scale = 100,
 		raid_distance = 0,
 		english_name = "HMS Vampire",
-		skin_id = 900095,
+		skin_id = 307021,
 		painting_dir = 1,
 		attack_duration = 0,
 		ignite_accuracy = 0,
@@ -192539,7 +192547,7 @@ pg.ship_data_statistics = {
 		scale = 100,
 		raid_distance = 0,
 		english_name = "HMS Vampire",
-		skin_id = 900096,
+		skin_id = 307011,
 		painting_dir = 1,
 		attack_duration = 0,
 		ignite_accuracy = 0,
@@ -192667,7 +192675,7 @@ pg.ship_data_statistics = {
 		scale = 100,
 		raid_distance = 0,
 		english_name = "HMS Vampire",
-		skin_id = 900097,
+		skin_id = 303121,
 		painting_dir = 1,
 		attack_duration = 0,
 		ignite_accuracy = 0,
@@ -192795,7 +192803,7 @@ pg.ship_data_statistics = {
 		scale = 100,
 		raid_distance = 0,
 		english_name = "HMS Vampire",
-		skin_id = 900098,
+		skin_id = 303112,
 		painting_dir = 1,
 		attack_duration = 0,
 		ignite_accuracy = 0,
@@ -192923,7 +192931,7 @@ pg.ship_data_statistics = {
 		scale = 100,
 		raid_distance = 0,
 		english_name = "HMS Vampire",
-		skin_id = 900099,
+		skin_id = 502031,
 		painting_dir = 1,
 		attack_duration = 0,
 		ignite_accuracy = 0,
@@ -193179,7 +193187,7 @@ pg.ship_data_statistics = {
 		scale = 100,
 		raid_distance = 0,
 		english_name = "HMS Vampire",
-		skin_id = 900101,
+		skin_id = 204031,
 		painting_dir = 1,
 		attack_duration = 0,
 		ignite_accuracy = 0,
@@ -193307,7 +193315,7 @@ pg.ship_data_statistics = {
 		scale = 100,
 		raid_distance = 0,
 		english_name = "HMS Vampire",
-		skin_id = 900102,
+		skin_id = 101251,
 		painting_dir = 1,
 		attack_duration = 0,
 		ignite_accuracy = 0,
@@ -193435,7 +193443,7 @@ pg.ship_data_statistics = {
 		scale = 100,
 		raid_distance = 0,
 		english_name = "HMS Vampire",
-		skin_id = 900103,
+		skin_id = 107031,
 		painting_dir = 1,
 		attack_duration = 0,
 		ignite_accuracy = 0,
@@ -193563,7 +193571,7 @@ pg.ship_data_statistics = {
 		scale = 100,
 		raid_distance = 0,
 		english_name = "HMS Vampire",
-		skin_id = 900104,
+		skin_id = 207021,
 		painting_dir = 1,
 		attack_duration = 0,
 		ignite_accuracy = 0,
@@ -193691,7 +193699,7 @@ pg.ship_data_statistics = {
 		scale = 100,
 		raid_distance = 0,
 		english_name = "HMS Vampire",
-		skin_id = 900105,
+		skin_id = 205041,
 		painting_dir = 1,
 		attack_duration = 0,
 		ignite_accuracy = 0,
@@ -193947,7 +193955,7 @@ pg.ship_data_statistics = {
 		scale = 100,
 		raid_distance = 0,
 		english_name = "HMS Vampire",
-		skin_id = 900107,
+		skin_id = 802011,
 		painting_dir = 1,
 		attack_duration = 0,
 		ignite_accuracy = 0,
@@ -194075,7 +194083,7 @@ pg.ship_data_statistics = {
 		scale = 100,
 		raid_distance = 0,
 		english_name = "HMS Vampire",
-		skin_id = 900108,
+		skin_id = 401251,
 		painting_dir = 1,
 		attack_duration = 0,
 		ignite_accuracy = 0,
@@ -194203,7 +194211,7 @@ pg.ship_data_statistics = {
 		scale = 100,
 		raid_distance = 0,
 		english_name = "HMS Vampire",
-		skin_id = 900109,
+		skin_id = 401461,
 		painting_dir = 1,
 		attack_duration = 0,
 		ignite_accuracy = 0,
@@ -194459,7 +194467,7 @@ pg.ship_data_statistics = {
 		scale = 100,
 		raid_distance = 0,
 		english_name = "HMS Vampire",
-		skin_id = 900111,
+		skin_id = 405021,
 		painting_dir = 1,
 		attack_duration = 0,
 		ignite_accuracy = 0,
@@ -196763,7 +196771,7 @@ pg.ship_data_statistics = {
 		scale = 100,
 		raid_distance = 0,
 		english_name = "nigulasigai",
-		skin_id = 900129,
+		skin_id = 101319,
 		painting_dir = 1,
 		attack_duration = 0,
 		ignite_accuracy = 0,

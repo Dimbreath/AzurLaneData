@@ -3984,6 +3984,108 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[14001] = {
+		display = [[
+사용 후 SSR 과학 연구 장비(I기)의 설계도 중 임의로 1장 선택
+「시제형 3연장 381mm 주포 T0 설계도」
+「시제형 410mm 3연장포 T0 설계도」
+「시제형 3연장 203mmSKC 주포 T0 설계도」
+「시제형 3연장 203mm 함포 T0 설계도」
+「시제형 3연장 152mm 주포 T0 설계도」
+「100mm 연장 고사포 T0 설계도」]],
+		rarity = 4,
+		type = 13,
+		name = "원형 과학 연구 도면·S-I",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 14001,
+		icon = "Props/14001",
+		display_icon = {
+			{
+				2,
+				13001,
+				1
+			},
+			{
+				2,
+				13003,
+				1
+			},
+			{
+				2,
+				13004,
+				1
+			},
+			{
+				2,
+				13005,
+				1
+			},
+			{
+				2,
+				13006,
+				1
+			},
+			{
+				2,
+				13008,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[14002] = {
+		display = [[
+사용 후 SSR 과학 연주 장비(II기)의 설계도 중 임의로 1장 선택
+「시제형 2연장 406mmSKC 주포 T0 설계도」
+「시제형 3연장 152mm 양용포 Mk17 T0 설계도」
+「시제형 5식 40mm 고사기관포 T0 설계도」
+「시제형 3연장 310mm 주포 T0 설계도」
+「2연장 37mm 고사포 Mle1936 T0 설계도」]],
+		rarity = 4,
+		type = 13,
+		name = "원형 과학 연구 도면·S-II",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 14002,
+		icon = "Props/14001",
+		display_icon = {
+			{
+				2,
+				13013,
+				1
+			},
+			{
+				2,
+				13014,
+				1
+			},
+			{
+				2,
+				13015,
+				1
+			},
+			{
+				2,
+				13016,
+				1
+			},
+			{
+				2,
+				13017,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[15001] = {
 		display = "함선을 퇴역시키는 것으로 얻을 수 있는 훈장, 본부에 전력 지원을 요청하는 데에 사용할 수 있다.",
 		rarity = 3,
@@ -67712,6 +67814,22 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59009] = {
+		display = "도면 분석 후 얻은 성과. 원형 상점에서 각종 보상으로 교환 가능. ",
+		rarity = 4,
+		type = 98,
+		name = "원형 설계 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59009,
+		icon = "Props/design_prt",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59100] = {
 		display = "창고를 20칸 확장한다.",
 		rarity = 5,
@@ -70982,6 +71100,38 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59938] = {
+		display = "7개를 수집하면 워스파이트 전용 개조 아이템 획득 가능-전사의 마음가짐",
+		rarity = 2,
+		type = 0,
+		name = "전쟁의 증표",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 8,
+		replace_item = 0,
+		link_id = 0,
+		id = 59938,
+		icon = "Props/lizhanzhizheng",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59939] = {
+		display = "워스파이트의 특별 훈련 이벤트 참여 기념품",
+		rarity = 3,
+		type = 1,
+		name = "전쟁 기념 증표",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59939,
+		icon = "Props/lizhanzhizheng",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[60011] = {
 		display = "10초 만에 1 경험치를 얻을 수 있는 슈퍼 스킬 교본.",
 		rarity = 5,
@@ -71173,17 +71323,18 @@ pg.item_data_statistics = {
 	},
 	[69908] = {
 		display = [[
-从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
-包含的换装和概率如下：
-（<color=#92fc63>9%</color>）埃尔德里奇换装 正月的牵手（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>9%</color>）峦换装  永梦的青女（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>10%</color>）圣路易斯换装 雪下之饮（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>12%</color>）侌换装  出云千本樱；
-（<color=#92fc63>12%</color>）威尔士亲王换装  皇家式风流；
-（<color=#92fc63>12%</color>）柉换装  新年合战；
-（<color=#92fc63>12%</color>）海伦娜换装  正月与青鸟；
-（<color=#92fc63>12%</color>）蒙彼利埃换装  雪夜之花；
-（<color=#92fc63>12%</color>）狳换装  幕间小憩；]],
+다음의 스킨을 랜덤으로 입수할 수 있습니다.(이미 보유 중인 스킨의 경우, 해당 스킨에 상응하는 가격의 다이아로 자동 변환 됩니다)
+각 스킨의 출현 확률 : 
+
+（<color=#92fc63>11.5%</color>）아즈마  아악의 어둠；
+（<color=#92fc63>11.5%</color>）나가토  여우의 빛나는 후리소데；
+（<color=#92fc63>11.0%</color>）유니콘  소원의 눈과 매화；
+（<color=#92fc63>11.0%</color>）Z35  projekt Kirschblüte；
+（<color=#92fc63>11.0%</color>）키리시마  제멋대로 반짝이는 별；
+（<color=#92fc63>11.0%</color>）아야나미  신년의 소망；
+（<color=#92fc63>11.0%</color>）사우스햄튼  202071；
+（<color=#92fc63>11.0%</color>）클리블랜드  신년 배틀!；
+（<color=#92fc63>11.0%</color>）아크 로열  신년의 수호자；]],
 		rarity = 4,
 		type = 98,
 		name = "랜덤 신년 스킨(2020) ",
@@ -71193,34 +71344,6 @@ pg.item_data_statistics = {
 		replace_item = 0,
 		link_id = 0,
 		id = 69908,
-		icon = "Props/clothIcon",
-		display_icon = {},
-		price = {},
-		index = {}
-	},
-	[69909] = {
-		display = [[
-从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
-包含的换装和概率如下：
-（<color=#92fc63>8.5%</color>）贝尔法斯特换装  彩云之玫瑰（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>9%</color>）拉菲换装  白兔迎春（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>9%</color>）太原换装  金蛇闹春（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>10.5%</color>）企业换装  傲春之牡丹；
-（<color=#92fc63>10.5%</color>）半人马换装  清冽的春风；
-（<color=#92fc63>10.5%</color>）君主换装  赭红爵祿；
-（<color=#92fc63>10.5%</color>）棭换装  夕暮春华；
-（<color=#92fc63>10.5%</color>）柚换装  新岁之鬼神；
-（<color=#92fc63>10.5%</color>）列克星敦换装  春华佳人；
-（<color=#92fc63>10.5%</color>）追赶者换装  东煌之道；]],
-		rarity = 4,
-		type = 98,
-		name = "랜덤 신년 스킨(2020) ",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 69909,
 		icon = "Props/clothIcon",
 		display_icon = {},
 		price = {},
@@ -72244,6 +72367,8 @@ pg.item_data_statistics = {
 		13015,
 		13016,
 		13017,
+		14001,
+		14002,
 		15001,
 		15002,
 		15003,
@@ -73457,6 +73582,7 @@ pg.item_data_statistics = {
 		59004,
 		59005,
 		59006,
+		59009,
 		59100,
 		59101,
 		59104,
@@ -73654,6 +73780,8 @@ pg.item_data_statistics = {
 		59935,
 		59936,
 		59937,
+		59938,
+		59939,
 		60011,
 		60012,
 		69901,
@@ -73663,7 +73791,6 @@ pg.item_data_statistics = {
 		69905,
 		69906,
 		69908,
-		69909,
 		70000,
 		70001,
 		70002,

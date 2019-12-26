@@ -1,7 +1,6 @@
 slot0 = class("FlowTree")
 slot1 = Time
 slot2 = import(".FlowNode")
-slot3 = TryCall
 
 function slot0.Ctor(slot0)
 	slot0.childs = {}

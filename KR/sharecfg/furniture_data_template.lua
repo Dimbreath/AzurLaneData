@@ -2950,6 +2950,56 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100011] = {
+		advice = 0,
+		describe = "너와 함께 눈을 보는 것보다 낭만스런 일은 없어~",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "쥬쥬 날씨 박스(눈)",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 0,
+		icon = "xuehuadengicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 100011,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"SnowBox",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					"Houzhai_snow01",
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		advice = 0,
 		describe = "닿는 곳이 너덜너덜하게 닳은 플로링. 발밑 주의.",
@@ -59402,6 +59452,7 @@ pg.furniture_data_template = {
 		100008,
 		100009,
 		100010,
+		100011,
 		1001,
 		1002,
 		1101,

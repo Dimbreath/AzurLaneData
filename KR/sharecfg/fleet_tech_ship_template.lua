@@ -3372,6 +3372,24 @@ pg.fleet_tech_ship_template = {
 			1
 		}
 	},
+	[30110] = {
+		max_star = 5,
+		pt_level = 9,
+		add_level_attr = 8,
+		pt_upgrage = 12,
+		add_get_attr = 1,
+		add_level_value = 1,
+		class = 30103,
+		id = 30110,
+		add_get_value = 1,
+		pt_get = 6,
+		add_get_shiptype = {
+			1
+		},
+		add_level_shiptype = {
+			1
+		}
+	},
 	[30111] = {
 		max_star = 5,
 		pt_level = 7,
@@ -4074,6 +4092,24 @@ pg.fleet_tech_ship_template = {
 			1
 		}
 	},
+	[30181] = {
+		max_star = 5,
+		pt_level = 12,
+		add_level_attr = 3,
+		pt_upgrage = 16,
+		add_get_attr = 1,
+		add_level_value = 1,
+		class = 30110,
+		id = 30181,
+		add_get_value = 1,
+		pt_get = 8,
+		add_get_shiptype = {
+			1
+		},
+		add_level_shiptype = {
+			1
+		}
+	},
 	[30201] = {
 		max_star = 5,
 		pt_level = 5,
@@ -4121,6 +4157,24 @@ pg.fleet_tech_ship_template = {
 		id = 30205,
 		add_get_value = 1,
 		pt_get = 4,
+		add_get_shiptype = {
+			2
+		},
+		add_level_shiptype = {
+			2
+		}
+	},
+	[30208] = {
+		max_star = 5,
+		pt_level = 9,
+		add_level_attr = 3,
+		pt_upgrage = 12,
+		add_get_attr = 1,
+		add_level_value = 1,
+		class = 30202,
+		id = 30208,
+		add_get_value = 1,
+		pt_get = 6,
 		add_get_shiptype = {
 			2
 		},
@@ -4247,6 +4301,24 @@ pg.fleet_tech_ship_template = {
 		id = 30220,
 		add_get_value = 1,
 		pt_get = 8,
+		add_get_shiptype = {
+			2
+		},
+		add_level_shiptype = {
+			2
+		}
+	},
+	[30221] = {
+		max_star = 6,
+		pt_level = 14,
+		add_level_attr = 4,
+		pt_upgrage = 19,
+		add_get_attr = 3,
+		add_level_value = 1,
+		class = 30205,
+		id = 30221,
+		add_get_value = 1,
+		pt_get = 9,
 		add_get_shiptype = {
 			2
 		},
@@ -6540,6 +6612,7 @@ pg.fleet_tech_ship_template = {
 		30101,
 		30105,
 		30109,
+		30110,
 		30111,
 		30112,
 		30113,
@@ -6579,9 +6652,11 @@ pg.fleet_tech_ship_template = {
 		30166,
 		30179,
 		30180,
+		30181,
 		30201,
 		30204,
 		30205,
+		30208,
 		30209,
 		30210,
 		30211,
@@ -6589,6 +6664,7 @@ pg.fleet_tech_ship_template = {
 		30213,
 		30214,
 		30220,
+		30221,
 		30301,
 		30302,
 		30303,

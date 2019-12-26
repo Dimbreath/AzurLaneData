@@ -1065,6 +1065,14 @@ pg.gametip = {
 		tip = "공훈 획득:",
 		key = "battle_result_contribution"
 	},
+	battle_result_total_score = {
+		tip = "누적 점수:",
+		key = "battle_result_total_score"
+	},
+	battle_result_max_combo = {
+		tip = "최고 COMBO:",
+		key = "battle_result_max_combo"
+	},
 	battle_levelScene_0Oil = {
 		tip = "연료 포인트가 0이 되었습니다.",
 		key = "battle_levelScene_0Oil"
@@ -5371,6 +5379,7 @@ B평가:<color=#92fc63>70</color>점
 			},
 			disableScroll = true,
 			pageMode = false,
+			buttonsHeight = -130,
 			ImageMode = true,
 			windowSize = {
 				x = 836,
@@ -5380,8 +5389,8 @@ B평가:<color=#92fc63>70</color>점
 				y = 15
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 924
 			}
 		}
 	},
@@ -8614,13 +8623,13 @@ B평가:<color=#92fc63>70</color>점
 				info = "1. 코인을 가진 쥬쥬와 접촉하면 점수를 획득합니다.；"
 			},
 			{
-				info = "2. 연속으로 코인을 가진 쥬쥬와 접촉하면, COMBO수가 증가하여,\n 접촉 시의 획득 점수가 상승합니다.；"
+				info = "2. 연속으로 코인을 가진 쥬쥬와 접촉하면, COMBO수가 \n증가하여, 접촉 시의 획득 점수가 상승합니다.；"
 			},
 			{
-				info = "3. 폭죽을 가진 쥬쥬에 닿으면 COMBO수가 0으로 초기화됩니다.；"
+				info = "3. 폭죽을 가진 쥬쥬에 닿으면 COMBO수가 0으로 \n초기화됩니다.；"
 			},
 			{
-				info = "4. 점수를 10이상 올리면 [역전의 증표]를 1개 획득할 수 있습니다. \n또한, 미니게임 클리어 후 [주사위]를 1개 얻을 수 있습니다.；"
+				info = "4. 점수를 10이상 올리면 [역전의 증표]를 1개 획득할 수 \n있습니다. 또한, 미니게임 클리어 후 [주사위]를 1개 얻을 수 \n있습니다.；"
 			},
 			{
 				info = " ※ [역전의 증표]의 획득 가능 개수는 2/6까지 최대 7개며,\n[주사위]의 하루 획득 가능 개수는 2/13까지 하루에 한 개씩 \n추가됩니다.(최대 15개) ；"
@@ -11817,6 +11826,14 @@ TIPS:
 		tip = "합성 수량:",
 		key = "compose_amount_prefix"
 	},
+	help_sub_limits = {
+		tip = "잠수함 범위 ON/OFF",
+		key = "help_sub_limits"
+	},
+	help_sub_display = {
+		tip = "색적 자동/대기모드",
+		key = "help_sub_display"
+	},
 	confirm_unlock_ship_main = {
 		tip = "비서함으로 설정된 함선은 선택할 수 없습니다.",
 		key = "confirm_unlock_ship_main"
@@ -11917,12 +11934,24 @@ TIPS:
 		tip = "비서함",
 		key = "common_flag_ship"
 	},
+	fenjie_lantu_tip = {
+		tip = "과학 연구 레벨 30 달성 후 도면 분해 가능!",
+		key = "fenjie_lantu_tip"
+	},
+	msgbox_text_analyse = {
+		tip = "분 해",
+		key = "msgbox_text_analyse"
+	},
+	fragresolve_empty_tip = {
+		tip = "현재 분해 가능한 도면이 없습니다.",
+		key = "fragresolve_empty_tip"
+	},
 	confirm_unlock_lv = {
 		tip = "$1의 $2 해제하겠습니까? ",
 		key = "confirm_unlock_lv"
 	},
 	shops_rest_day = {
-		tip = "남은 교환 기간：         일",
+		tip = "남은 교환 기간：",
 		key = "shops_rest_day"
 	},
 	title_limit_time = {
