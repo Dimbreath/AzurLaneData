@@ -1385,7 +1385,7 @@ pg.memory_group = {
 		}
 	},
 	[178] = {
-		title = "あけおめ2019",
+		title = "あけおめ2020",
 		type = 2,
 		id = 178,
 		icon = "title_event",

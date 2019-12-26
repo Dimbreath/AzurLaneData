@@ -244,7 +244,7 @@ return {
 						101
 					},
 					triggerParams = {
-						id = "FUYINGYINGHUA11"
+						id = "FUYINGYINGHUA20"
 					}
 				},
 				{
@@ -339,17 +339,6 @@ return {
 					},
 					triggerParams = {
 						timeout = 1
-					}
-				},
-				{
-					triggerType = 3,
-					key = true,
-					waveIndex = 501,
-					preWaves = {
-						205
-					},
-					triggerParams = {
-						id = "FUYINGYINGHUA11"
 					}
 				}
 			}

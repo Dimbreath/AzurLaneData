@@ -376,7 +376,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（かといっても、力だけを求めては己の道をゆ歪めてしまう）",
+			say = "（かといっても、力だけを求めては己の道を歪めてしまう）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
