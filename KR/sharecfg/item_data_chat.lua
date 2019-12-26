@@ -21,7 +21,7 @@ pg.item_data_chat = {
 		time_second = 2592000,
 		id = 300,
 		time_limit_type = 1,
-		desc = "<color=#ffffff>동원 지령에 대한 응답에 감사드립니다, 지휘관님.</color>\n유효기간 30일",
+		desc = "<color=#ffffff>동원 지령에 대한 응답에 감사드립니다, 지휘관님.</color>\n<color=#A7A7AAFF>유효기간 30일</color>",
 		scene = {}
 	},
 	[301] = {
@@ -29,7 +29,7 @@ pg.item_data_chat = {
 		time_second = 2592000,
 		id = 301,
 		time_limit_type = 1,
-		desc = "X작전 첫 회 완료 시 획득할 수 있습니다.",
+		desc = "<color=#ffffff>X작전 첫 회 완료 시 획득할 수 있습니다.</color>\n<color=#A7A7AAFF>유효기간 30일</color>",
 		scene = {}
 	},
 	all = {

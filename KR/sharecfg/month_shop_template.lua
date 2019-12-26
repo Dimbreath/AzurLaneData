@@ -22,7 +22,13 @@ pg.month_shop_template = {
 			10019,
 			10020
 		},
-		blueprint_shop_goods = {}
+		blueprint_shop_goods = {
+			11001,
+			11002,
+			11003,
+			11004,
+			11005
+		}
 	},
 	{
 		id = 2,
@@ -50,7 +56,13 @@ pg.month_shop_template = {
 			10023,
 			10026
 		},
-		blueprint_shop_goods = {}
+		blueprint_shop_goods = {
+			11001,
+			11002,
+			11003,
+			11004,
+			11005
+		}
 	},
 	{
 		id = 3,
@@ -78,7 +90,13 @@ pg.month_shop_template = {
 			10023,
 			10026
 		},
-		blueprint_shop_goods = {}
+		blueprint_shop_goods = {
+			11001,
+			11002,
+			11003,
+			11004,
+			11005
+		}
 	},
 	{
 		id = 4,
@@ -106,7 +124,13 @@ pg.month_shop_template = {
 			10023,
 			10026
 		},
-		blueprint_shop_goods = {}
+		blueprint_shop_goods = {
+			11001,
+			11002,
+			11003,
+			11004,
+			11005
+		}
 	},
 	{
 		id = 5,
@@ -134,7 +158,13 @@ pg.month_shop_template = {
 			10023,
 			10026
 		},
-		blueprint_shop_goods = {}
+		blueprint_shop_goods = {
+			11001,
+			11002,
+			11003,
+			11004,
+			11005
+		}
 	},
 	{
 		id = 6,
@@ -162,7 +192,13 @@ pg.month_shop_template = {
 			10023,
 			10026
 		},
-		blueprint_shop_goods = {}
+		blueprint_shop_goods = {
+			11001,
+			11002,
+			11003,
+			11004,
+			11005
+		}
 	},
 	{
 		id = 7,
@@ -190,7 +226,13 @@ pg.month_shop_template = {
 			10023,
 			10026
 		},
-		blueprint_shop_goods = {}
+		blueprint_shop_goods = {
+			11001,
+			11002,
+			11003,
+			11004,
+			11005
+		}
 	},
 	{
 		id = 8,
@@ -220,7 +262,13 @@ pg.month_shop_template = {
 			10023,
 			10026
 		},
-		blueprint_shop_goods = {}
+		blueprint_shop_goods = {
+			11001,
+			11002,
+			11003,
+			11004,
+			11005
+		}
 	},
 	{
 		id = 9,
@@ -252,7 +300,13 @@ pg.month_shop_template = {
 			10023,
 			10026
 		},
-		blueprint_shop_goods = {}
+		blueprint_shop_goods = {
+			11001,
+			11002,
+			11003,
+			11004,
+			11005
+		}
 	},
 	{
 		id = 10,
@@ -286,7 +340,13 @@ pg.month_shop_template = {
 			10023,
 			10026
 		},
-		blueprint_shop_goods = {}
+		blueprint_shop_goods = {
+			11001,
+			11002,
+			11003,
+			11004,
+			11005
+		}
 	},
 	{
 		id = 11,
@@ -320,7 +380,13 @@ pg.month_shop_template = {
 			10023,
 			10026
 		},
-		blueprint_shop_goods = {}
+		blueprint_shop_goods = {
+			11001,
+			11002,
+			11003,
+			11004,
+			11005
+		}
 	},
 	{
 		id = 12,
@@ -354,7 +420,13 @@ pg.month_shop_template = {
 			10023,
 			10026
 		},
-		blueprint_shop_goods = {}
+		blueprint_shop_goods = {
+			11001,
+			11002,
+			11003,
+			11004,
+			11005
+		}
 	},
 	all = {
 		1,

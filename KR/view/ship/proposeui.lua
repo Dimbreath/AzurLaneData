@@ -167,6 +167,8 @@ function slot0.didEnter(slot0)
 
 			if slot3 >= 100 then
 				setTextColor(slot0.intimacyValueTF, Color.white)
+			else
+				setTextColor(slot0.intimacyValueTF, Color.New(0.5843137254901961, 0.5215686274509804, 0.40784313725490196))
 			end
 
 			slot5 = not slot0.shipVO.propose and slot2 <= slot3
@@ -179,6 +181,8 @@ function slot0.didEnter(slot0)
 
 			if slot0.shipVO.propose or slot6 > 0 then
 				setTextColor(slot0.ringValue, Color.white)
+			else
+				setTextColor(slot0.ringValue, Color.New(0.5843137254901961, 0.5215686274509804, 0.40784313725490196))
 			end
 
 			setActive(slot0.doneTF, slot0.shipVO.propose)

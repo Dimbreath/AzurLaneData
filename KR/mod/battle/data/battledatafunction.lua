@@ -91,36 +91,36 @@ ys or .Battle.BattleDataFunction.ConvertBuffTemplate = function ()
 	})
 end
 
-ys or .Battle.BattleDataFunction.GetBuffBulletRes = function (slot0, slot1)
-	slot2 = {}
+ys or .Battle.BattleDataFunction.GetBuffBulletRes = function (slot0, slot1, slot2)
 	slot3 = {}
+	slot4 = {}
 	slot1 = slot1 or {}
 
-	for slot9, slot10 in ipairs(slot5) do
-		slot11 = nil
-		slot11 = (not slot1[slot10] or slot1[slot10].level) and 1
-
-		for slot16, slot17 in ipairs(slot12) do
-			slot2[#slot2 + 1] = slot17
-		end
-	end
-
 	for slot10, slot11 in ipairs(slot6) do
-		for slot16, slot17 in ipairs(slot12) do
-			slot2[#slot2 + 1] = slot17
+		slot12 = nil
+		slot12 = (not slot1[slot11] or slot1[slot11].level) and 1
+
+		for slot18, slot19 in ipairs(slot14) do
+			slot3[#slot3 + 1] = slot19
 		end
 	end
 
-	if slot0:GetShipTransformDataTemplate() and slot7.skill_id ~= 0 and pg.transform_data_template[slot7.skill_id].skill_id ~= 0 then
-		slot9 = nil
-		slot9 = (not slot1[pg.transform_data_template[slot7.skill_id].skill_id] or slot1[slot8].level) and 1
-
-		for slot14, slot15 in ipairs(slot10) do
-			slot2[#slot2 + 1] = slot15
+	for slot11, slot12 in ipairs(slot7) do
+		for slot17, slot18 in ipairs(slot13) do
+			slot3[#slot3 + 1] = slot18
 		end
 	end
 
-	return slot2
+	if slot0:GetShipTransformDataTemplate() and slot8.skill_id ~= 0 and pg.transform_data_template[slot8.skill_id].skill_id ~= 0 then
+		slot10 = nil
+		slot10 = (not slot1[pg.transform_data_template[slot8.skill_id].skill_id] or slot1[slot9].level) and 1
+
+		for slot15, slot16 in ipairs(slot11) do
+			slot3[#slot3 + 1] = slot16
+		end
+	end
+
+	return slot3
 end
 
 ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)

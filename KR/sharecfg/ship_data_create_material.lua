@@ -57,7 +57,7 @@ pg.ship_data_create_material = {
 	{
 		use_gold = 1500,
 		name = "한정건조",
-		build_anim = "building_hololive",
+		build_anim = "building",
 		type = 2,
 		ship_icon = "1",
 		build_voice = "",

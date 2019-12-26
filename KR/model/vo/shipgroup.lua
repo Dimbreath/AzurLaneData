@@ -168,11 +168,19 @@ function slot0.getShipConfigId(slot0, slot1)
 end
 
 function slot0.getSkinList(slot0)
+	return ShipSkin.GetAllSkinByGroup(slot0)
+end
+
+function slot0.getDisplayableSkinList(slot0)
 	slot1 = {}
 
-	for slot5, slot6 in ipairs(pg.ship_skin_template.all) do
-		if pg.ship_skin_template[slot6].ship_group == slot0 and slot7.no_showing ~= "1" then
-			table.insert(slot1, slot7)
+	function slot2(slot0)
+		return slot0.skin_type == ShipSkin.SKIN_TYPE_OLD or (slot0.skin_type == ShipSkin.SKIN_TYPE_NOT_HAVE_HIDE and not getProxy(ShipSkinProxy):hasSkin(slot0.id))
+	end
+
+	for slot6, slot7 in ipairs(pg.ship_skin_template.all) do
+		if pg.ship_skin_template[slot7].ship_group == slot0.id and slot8.no_showing ~= "1" and not slot2(slot8) then
+			table.insert(slot1, slot8)
 		end
 	end
 
@@ -180,21 +188,11 @@ function slot0.getSkinList(slot0)
 end
 
 function slot0.getDefaultSkin(slot0)
-	for slot4, slot5 in ipairs(pg.ship_skin_template.all) do
-		if pg.ship_skin_template[slot5].ship_group == slot0 and slot6.skin_type == ShipSkin.SKIN_TYPE_DEFAULT then
-			return slot6
-		end
-	end
+	return ShipSkin.GetSkinByType(slot0, ShipSkin.SKIN_TYPE_DEFAULT)
 end
 
 function slot0.getProposeSkin(slot0)
-	for slot4, slot5 in ipairs(pg.ship_skin_template.all) do
-		if pg.ship_skin_template[slot5].ship_group == slot0 and slot6.skin_type == ShipSkin.SKIN_TYPE_PROPOSE then
-			return slot6
-		end
-	end
-
-	return nil
+	return ShipSkin.GetSkinByType(slot0, ShipSkin.SKIN_TYPE_PROPOSE)
 end
 
 function slot0.getModSkin(slot0)
@@ -203,6 +201,14 @@ function slot0.getModSkin(slot0)
 	end
 
 	return nil
+end
+
+function slot0.GetSkin(slot0, slot1)
+	if not slot1 then
+		return slot0.getDefaultSkin(slot0.id)
+	else
+		return slot0.getModSkin(slot0.id)
+	end
 end
 
 function slot0.updateMaxIntimacy(slot0, slot1)
@@ -219,6 +225,48 @@ end
 
 function slot0.getBluePrintChangeSkillList(slot0)
 	return pg.ship_data_blueprint[slot0.id].change_skill
+end
+
+function slot0.GetSkin(slot0, slot1)
+	if not slot1 then
+		return slot0.getDefaultSkin(slot0.id)
+	else
+		return slot0.getModSkin(slot0.id)
+	end
+end
+
+function slot0.GetNationTxt(slot0)
+	return Nation.Nation2facionName(slot1) .. "-" .. Nation.Nation2Name(slot0.shipConfig.nationality)
+end
+
+slot0.CONDITION_FORBIDDEN = -1
+slot0.CONDITION_CLEAR = 0
+slot0.CONDITION_INTIMACY = 1
+slot0.CONDITION_MARRIED = 2
+
+function slot0.VoiceReplayCodition(slot0, slot1)
+	slot2 = true
+	slot3 = ""
+
+	if slot0:isBluePrintGroup() and not table.contains(getProxy(TechnologyProxy):getBluePrintById(slot0.id).getUnlockVoices(slot4), slot1.key) and slot4:getUnlockLevel(slot1.key) > 0 then
+		return false, i18n("ship_profile_voice_locked_design", slot6)
+	end
+
+	if slot1.unlock_condition[1] == slot0.CONDITION_INTIMACY then
+		if slot0.maxIntimacy < slot1.unlock_condition[2] then
+			slot2 = false
+			slot3 = i18n("ship_profile_voice_locked_intimacy", math.floor(slot1.unlock_condition[2] / 100))
+		end
+	elseif slot1.unlock_condition[1] == slot0.CONDITION_MARRIED and slot0.married == 0 then
+		slot2 = false
+		slot3 = i18n("ship_profile_voice_locked_propose")
+	end
+
+	return slot2, slot3
+end
+
+function slot0.GetMaxIntimacy(slot0)
+	return slot0.maxIntimacy / 100 + ((slot0.married and slot0.married * 1000) or 0)
 end
 
 return slot0

@@ -749,7 +749,7 @@ pg.pay_data_display = {
 				{
 					2019,
 					12,
-					15
+					26
 				},
 				{
 					0,
@@ -759,9 +759,9 @@ pg.pay_data_display = {
 			},
 			{
 				{
-					2019,
-					12,
-					16
+					2020,
+					1,
+					8
 				},
 				{
 					23,
@@ -801,7 +801,7 @@ pg.pay_data_display = {
 		gem = 0,
 		limit_type = 2,
 		picture = "fudai",
-		id_str = "alkrgift8",
+		id_str = "alkrgift9",
 		first_pay_double = 0,
 		extra_gem = 0,
 		id = 17,
@@ -843,7 +843,7 @@ pg.pay_data_display = {
 				{
 					2019,
 					12,
-					15
+					26
 				},
 				{
 					0,
@@ -853,9 +853,9 @@ pg.pay_data_display = {
 			},
 			{
 				{
-					2019,
-					12,
-					16
+					2020,
+					1,
+					8
 				},
 				{
 					23,
@@ -868,199 +868,6 @@ pg.pay_data_display = {
 			{
 				2,
 				69903,
-				1
-			},
-			{
-				1,
-				4,
-				2019
-			},
-			{
-				2,
-				15008,
-				50
-			}
-		}
-	},
-	[18] = {
-		limit_arg = 1,
-		descrip_extra = "※복주머니는 구매후, 우편함으로 발송됩니다. \n이미 소지하고 있는 스킨을 입수하게 되는 경우, 자동적으로 스킨 가격에 해당하는 다이아로 무상 교환되어 제공됩니다. ",
-		name = "복주머니(2020)",
-		descrip = "특정 범위 내에서 랜덤한 신년 스킨 1개, 2020 다이아, 그리고 다양한 아이템들을 대량으로 받을 수 있다냥! ",
-		subject = "복주머니(2020)",
-		extra_service = 3,
-		id_str_r12 = "alkrgift9",
-		money = 36300,
-		tag = 2,
-		gem = 0,
-		limit_type = 2,
-		picture = "fudai2",
-		id_str = "alkrgift9",
-		first_pay_double = 0,
-		extra_gem = 0,
-		id = 18,
-		airijp_id = "com.yostarjp.azurlane.diamond112",
-		extra_service_item = {
-			{
-				2,
-				69909,
-				1
-			},
-			{
-				1,
-				4,
-				2020
-			},
-			{
-				2,
-				42017,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2019,
-					12,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					12,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				69909,
-				1
-			},
-			{
-				1,
-				4,
-				2020
-			},
-			{
-				2,
-				42017,
-				2
-			}
-		}
-	},
-	[19] = {
-		limit_arg = 1,
-		descrip_extra = "※복주머니는 구매후, 우편함으로 발송됩니다. \n이미 소지하고 있는 스킨을 입수하게 되는 경우, 자동적으로 스킨 가격에 해당하는 다이아로 무상 교환되어 제공됩니다. ",
-		name = "복주머니(2019)",
-		descrip = "특정 범위 내에서 랜덤한 신년 스킨 1개, 2019 다이아, 그리고 다양한 아이템들을 대량으로 받을 수 있다냥! ",
-		subject = "복주머니(2019)",
-		extra_service = 3,
-		id_str_r12 = "alkrgift10",
-		money = 36300,
-		tag = 1,
-		gem = 0,
-		limit_type = 2,
-		picture = "fudai",
-		id_str = "alkrgift10",
-		first_pay_double = 0,
-		extra_gem = 0,
-		id = 19,
-		airijp_id = "com.yostarjp.azurlane.diamond113",
-		extra_service_item = {
-			{
-				2,
-				69904,
-				1
-			},
-			{
-				1,
-				4,
-				2019
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2019,
-					12,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					12,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				69904,
 				1
 			},
 			{
@@ -1090,9 +897,7 @@ pg.pay_data_display = {
 		14,
 		15,
 		16,
-		17,
-		18,
-		19
+		17
 	}
 }
 

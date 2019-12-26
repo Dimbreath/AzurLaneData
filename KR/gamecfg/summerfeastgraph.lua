@@ -1,4 +1,4 @@
-SummerFeastGraph = {
+return {
 	Points = {
 		{
 			x = -284.3923,
@@ -124,5 +124,3 @@ SummerFeastGraph = {
 		}
 	}
 }
-
-return

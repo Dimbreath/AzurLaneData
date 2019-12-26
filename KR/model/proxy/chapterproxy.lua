@@ -1119,4 +1119,20 @@ function slot0.updateDailyCount(slot0)
 	slot0.remasterDailyCount = slot0.remasterDailyCount + 2
 end
 
+function slot0.GetSkipPrecombat(slot0)
+	if slot0.skipPrecombat == nil then
+		slot0.skipPrecombat = PlayerPrefs.GetInt("chapter_skip_precombat", 0)
+	end
+
+	return (slot0.skipPrecombat > 0 and true) or false
+end
+
+function slot0.UpdateSkipPrecombat(slot0, slot1)
+	if ((tobool(slot1) and 1) or 0) ~= slot0:GetSkipPrecombat() then
+		PlayerPrefs.SetInt("chapter_skip_precombat", slot2)
+
+		slot0.skipPrecombat = slot2
+	end
+end
+
 return slot0

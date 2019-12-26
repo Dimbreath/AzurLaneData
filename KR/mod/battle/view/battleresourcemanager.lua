@@ -900,8 +900,18 @@ function slot5.GetStageResource(slot0)
 						slot3[#slot3 + 1] = slot21.skinId
 					end
 				end
-			elseif slot13.triggerType == slot0.Battle.BattleConst.WaveTriggerType.JAMMING then
-				slot2[#slot2 + 1] = slot1.GetKizunaJammingUI()
+			elseif slot13.triggerType == slot0.Battle.BattleConst.WaveTriggerType.ENVIRONMENT then
+				for slot17, slot18 in ipairs(slot13.spawn) do
+					slot2[#slot2 + 1] = slot1.GetFXPath(slot18.prefab)
+
+					for slot22, slot23 in ipairs(slot18.behaviours) do
+						if slot23.type == slot0.Battle.BattleConst.EnviroumentBehaviour.BUFF then
+							for slot29, slot30 in ipairs(slot25) do
+								slot2[#slot2 + 1] = slot30
+							end
+						end
+					end
+				end
 			end
 
 			if slot13.airFighter ~= nil then

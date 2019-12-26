@@ -24,19 +24,29 @@ end
 
 function slot0.initUI(slot0)
 	slot0.bg = slot0:findTF("BGImg")
-	slot0.text = slot0:findTF("Main/MainBox/Text")
-	slot0.button = slot0:findTF("Main/MainBox/Button")
+	slot0.text_buff = slot0:findTF("Main/MainBox/Text_Buff")
+	slot0.text_nobuff = slot0:findTF("Main/MainBox/Text_NoBuff")
+	slot0.buffImg_1 = slot0:findTF("Main/MainBox/Buff_1")
+	slot0.buffImg_2 = slot0:findTF("Main/MainBox/Buff_2")
+	slot0.buffImg_3 = slot0:findTF("Main/MainBox/Buff_3")
 
 	onButton(slot0, slot0.bg, function ()
 		slot0:Destroy()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0.button, function ()
-		slot0:Destroy()
-	end, SFX_CANCEL)
 end
 
-function slot0.updateView(slot0, slot1)
-	setText(slot0.text, slot1)
+function slot0.updateView(slot0, slot1, slot2)
+	if slot2 then
+		setText(slot0.text_buff, slot1)
+	else
+		setText(slot0.text_nobuff, slot1)
+	end
+
+	setActive(slot0.text_buff, slot2)
+	setActive(slot0.text_nobuff, not slot2)
+	setActive(slot0.buffImg_1, slot2 == 1)
+	setActive(slot0.buffImg_2, slot2 == 2)
+	setActive(slot0.buffImg_3, slot2 == 3)
 end
 
 function slot0.setCloseFunc(slot0, slot1)
