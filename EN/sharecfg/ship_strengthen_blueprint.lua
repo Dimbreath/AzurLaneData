@@ -5873,7 +5873,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[701] = {
 		effect_breakout = 0,
-		effect_desc = "鉴赏解锁：登录、回港、图鉴",
+		effect_desc = "Unlock playback for: Log in, Return to port, Biography",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -5977,7 +5977,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[705] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+225|防空+17|主武器底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
+		effect_desc = "HP +225|AA +17| Main gun base+1|Unlock playback for: Main screen 1, Flagship fight, Mission reminder",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -6119,7 +6119,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[710] = {
 		effect_breakout = 199012,
-		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
+		effect_desc = "Limit Break to 4 Stars|Unlock playback for: Main screen 2, Victory, Defeat",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -6145,9 +6145,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"习得技能【塞壬之敌】",
-			"获得专属弹幕I",
-			"主炮效率提高5%"
+			"Learn Siren Killer Ⅰ",
+			"Learn All Out Assault Ⅰ",
+			"Main Gun efficiency 5%"
 		}
 	},
 	[711] = {
@@ -6252,7 +6252,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[715] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+451|防空+34|主炮效率提高5%|鉴赏解锁：主界面3、触摸1、任务完成",
+		effect_desc = "HP +451|AA +34|Main Gun efficiency 5%|Unlock playback for: Main screen 3, Normal touch, Mission complete",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -6393,7 +6393,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[720] = {
 		effect_breakout = 199013,
-		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
+		effect_desc = "Limit Break to 5 Stars|Unlock playback for: Skills, Mail reminder, Commission complete",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -6419,9 +6419,9 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【塞壬之敌】升级",
-			"主炮效率提高10%",
-			"副武器栏位可以装备主炮"
+			"Learn Siren Killer Ⅱ",
+			"Main Gun efficiency 10%",
+			"Can equip Main Guns in the Secondary Weapon slot"
 		}
 	},
 	[721] = {
@@ -6526,7 +6526,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[725] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+677|防空+51|主炮效率提高5%|鉴赏解锁：血量警报",
+		effect_desc = "HP +677|AA +51|Main Gun efficiency 5%|Unlock playback for: Special touch, Low HP",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -6666,7 +6666,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[730] = {
 		effect_breakout = 199014,
-		effect_desc = "突破至6星",
+		effect_desc = "Limit Break to 6 Stars",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -6688,14 +6688,14 @@ pg.ship_strengthen_blueprint = {
 			215
 		},
 		extra_desc = {
-			"【塞壬之敌】升级",
-			"专属弹幕升级",
-			"主炮效率提高15%"
+			"Learn Siren Killer Ⅱ",
+			"Learn All Out Assault Ⅱ",
+			"Main Gun efficiency 15%"
 		}
 	},
 	[801] = {
 		effect_breakout = 0,
-		effect_desc = "鉴赏解锁：登录、回港、图鉴",
+		effect_desc = "Unlock playback for: Log in, Return to port, Biography",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -6799,7 +6799,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[805] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+356|防空+19|主炮效率提高5%|鉴赏解锁：主界面1、旗舰开战、任务",
+		effect_desc = "HP +356|AA +19|Main Gun efficiency 5%|Unlock playback for: Main screen 1, Flagship fight, Mission reminder",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -6940,7 +6940,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[810] = {
 		effect_breakout = 199022,
-		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
+		effect_desc = "Limit Break to 4 Stars|Unlock playback for: Main screen 2, Victory, Defeat",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -6966,9 +6966,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"习得技能【塞壬之敌】",
-			"主炮底座+1",
-			"主炮效率提高5%"
+			"Learn Siren Killer Ⅰ",
+			"Main Gun base +1",
+			"Main Gun efficiency 5%"
 		}
 	},
 	[811] = {
@@ -7073,7 +7073,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[815] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+711|防空+39|防空炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
+		effect_desc = "HP +711|AA +39|Anti-Air Gun efficiency 10%|Unlock playback for: Main screen 3, Normal touch, Mission complete",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -7214,7 +7214,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[820] = {
 		effect_breakout = 199023,
-		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
+		effect_desc = "Limit Break to 5 Stars|Unlock playback for: Skills, Mail reminder, Commission complete",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -7240,9 +7240,9 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【塞壬之敌】升级",
-			"副炮底座+2",
-			"主炮效率提高10%"
+			"Learn Siren Killer Ⅱ",
+			"Auxiliary Gun base +2",
+			"Main Gun efficiency 10%"
 		}
 	},
 	[821] = {
@@ -7347,7 +7347,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[825] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+1068|防空+58|主炮效率提高5%|鉴赏解锁：血量警报",
+		effect_desc = "HP +1068|AA +58|Main Gun efficiency 5%|Unlock playback for: Special touch, Low HP",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -7487,7 +7487,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[830] = {
 		effect_breakout = 199024,
-		effect_desc = "突破至6星",
+		effect_desc = "Limit Break to 6 Stars",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -7509,13 +7509,13 @@ pg.ship_strengthen_blueprint = {
 			225
 		},
 		extra_desc = {
-			"【塞壬之敌】升级",
-			"主炮效率提高15%"
+			"Learn Siren Killer Ⅱ",
+			"Main Gun efficiency 15%"
 		}
 	},
 	[901] = {
 		effect_breakout = 0,
-		effect_desc = "鉴赏解锁：登录、回港、图鉴",
+		effect_desc = "Unlock playback for: Log in, Return to port, Biography",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -7619,7 +7619,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[905] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+111|防空+9|主炮底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
+		effect_desc = "HP +111|AA +9|Main Gun base +1|Unlock playback for: Main screen 1, Flagship fight, Mission reminder",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -7761,7 +7761,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[910] = {
 		effect_breakout = 399032,
-		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
+		effect_desc = "Limit Break to 4 Stars|Unlock playback for: Main screen 2, Victory, Defeat",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -7787,9 +7787,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"习得技能【塞壬之敌】",
-			"获得专属弹幕I",
-			"主炮效率提高5%"
+			"Learn Siren Killer Ⅰ",
+			"Learn All Out Assault Ⅰ",
+			"Main Gun efficiency 5%"
 		}
 	},
 	[911] = {
@@ -7894,7 +7894,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[915] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+221|防空+18|主炮效率提高10%|鱼雷预装填+1|鉴赏解锁：主界面3、触摸1、任务完成",
+		effect_desc = "HP +221|AA +18|Main Gun efficiency 10%|Torpedo preload +1|Unlock playback for: Main screen 3, Normal touch, Mission complete",
 		extra_desc = "",
 		effect_base = "",
 		need_lv = 10,
@@ -8039,7 +8039,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[920] = {
 		effect_breakout = 399033,
-		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
+		effect_desc = "Limit Break to 5 Stars|Unlock playback for: Skills, Mail reminder, Commission complete",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -8065,8 +8065,8 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【塞壬之敌】升级",
-			"防空炮效率提高10%"
+			"Learn Siren Killer Ⅱ",
+			"Anti-Air Gun efficiency 10%"
 		}
 	},
 	[921] = {
@@ -8171,7 +8171,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[925] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+333|防空+27|鉴赏解锁：血量警报",
+		effect_desc = "HP +333|AA +27|Unlock playback for: Special touch, Low HP",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -8308,7 +8308,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[930] = {
 		effect_breakout = 399034,
-		effect_desc = "突破至6星",
+		effect_desc = "Limit Break to 6 Stars",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -8330,14 +8330,14 @@ pg.ship_strengthen_blueprint = {
 			305
 		},
 		extra_desc = {
-			"【塞壬之敌】升级",
-			"专属弹幕升级",
-			"全武器效率提高5%"
+			"Learn Siren Killer Ⅱ",
+			"Learn All Out Assault Ⅱ",
+			"All weapons' efficiency 5%"
 		}
 	},
 	[1001] = {
 		effect_breakout = 0,
-		effect_desc = "鉴赏解锁：登录、回港、图鉴",
+		effect_desc = "Unlock playback for: Log in, Return to port, Biography",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -8441,7 +8441,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1005] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+315|防空+10|主炮效率提高5%|主炮底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
+		effect_desc = "HP +315|AA +10|Main Gun efficiency 5%|Main Gun base +1|Unlock playback for: Main screen 1, Flagship fight, Mission reminder",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
@@ -8586,7 +8586,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1010] = {
 		effect_breakout = 399042,
-		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
+		effect_desc = "Limit Break to 4 Stars|Unlock playback for: Main screen 2, Victory, Defeat",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -8612,8 +8612,8 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"习得技能【塞壬之敌】",
-			"主炮效率提高5%"
+			"Learn Siren Killer Ⅰ",
+			"Main Gun efficiency 5%"
 		}
 	},
 	[1011] = {
@@ -8718,7 +8718,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1015] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+629|防空+21|防空炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
+		effect_desc = "HP +629|AA +21|Anti-Air Gun efficiency 10%|Unlock playback for: Main screen 3, Normal touch, Mission complete",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -8859,7 +8859,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1020] = {
 		effect_breakout = 399043,
-		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
+		effect_desc = "Limit Break to 5 Stars|Unlock playback for: Skills, Mail reminder, Commission complete",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -8885,8 +8885,8 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【塞壬之敌】升级",
-			"副炮效率提高10%"
+			"Learn Siren Killer Ⅱ",
+			"Secondary gun efficiency 10%"
 		}
 	},
 	[1021] = {
@@ -8991,7 +8991,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1025] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+945|防空+31|机动+5|主炮效率提高5%|鉴赏解锁：血量警报",
+		effect_desc = "HP +945|AA +31|机动+5|Main Gun efficiency 5%|Unlock playback for: Special touch, Low HP",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -9135,7 +9135,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1030] = {
 		effect_breakout = 399044,
-		effect_desc = "突破至6星",
+		effect_desc = "Limit Break to 6 Stars",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -9157,13 +9157,13 @@ pg.ship_strengthen_blueprint = {
 			235
 		},
 		extra_desc = {
-			"【塞壬之敌】升级",
-			"主炮效率提高15%"
+			"Learn Siren Killer Ⅱ",
+			"Main Gun efficiency 15%"
 		}
 	},
 	[1101] = {
 		effect_breakout = 0,
-		effect_desc = "鉴赏解锁：登录、回港、图鉴",
+		effect_desc = "Unlock playback for: Log in, Return to port, Biography",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -9267,7 +9267,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1105] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+400|防空+11|主炮效率提高5%|鉴赏解锁：主界面1、旗舰开战、任务",
+		effect_desc = "HP +400|AA +11|Main Gun efficiency 5%|Unlock playback for: Main screen 1, Flagship fight, Mission reminder",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -9408,7 +9408,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1110] = {
 		effect_breakout = 499022,
-		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
+		effect_desc = "Limit Break to 4 Stars|Unlock playback for: Main screen 2, Victory, Defeat",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -9434,9 +9434,9 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"习得技能【塞壬之敌】",
-			"主炮底座+1",
-			"主炮效率提高5%"
+			"Learn Siren Killer Ⅰ",
+			"Main Gun base +1",
+			"Main Gun efficiency 5%"
 		}
 	},
 	[1111] = {
@@ -9541,7 +9541,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1115] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+797|防空+22|防空炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
+		effect_desc = "HP +797|AA +22|Anti-Air Gun efficiency 10%|Unlock playback for: Main screen 3, Normal touch, Mission complete",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -9682,7 +9682,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1120] = {
 		effect_breakout = 499023,
-		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
+		effect_desc = "Limit Break to 5 Stars|Unlock playback for: Skills, Mail reminder, Commission complete",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -9708,9 +9708,9 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【塞壬之敌】升级",
-			"副炮底座+2",
-			"主炮效率提高10%"
+			"Learn Siren Killer Ⅱ",
+			"Auxiliary Gun base +2",
+			"Main Gun efficiency 10%"
 		}
 	},
 	[1121] = {
@@ -9815,7 +9815,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1125] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+1195|防空+33|主炮效率提高5%|鉴赏解锁：血量警报",
+		effect_desc = "HP +1195|AA +33|Main Gun efficiency 5%|Unlock playback for: Special touch, Low HP",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -9955,7 +9955,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1130] = {
 		effect_breakout = 499024,
-		effect_desc = "突破至6星",
+		effect_desc = "Limit Break to 6 Stars",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -9977,14 +9977,14 @@ pg.ship_strengthen_blueprint = {
 			215
 		},
 		extra_desc = {
-			"【塞壬之敌】升级",
-			"主炮底座+1",
-			"主炮效率提高15%"
+			"Learn Siren Killer Ⅱ",
+			"Main Gun base +1",
+			"Main Gun efficiency 15%"
 		}
 	},
 	[1201] = {
 		effect_breakout = 0,
-		effect_desc = "鉴赏解锁：登录、回港、图鉴",
+		effect_desc = "Unlock playback for: Log in, Return to port, Biography",
 		extra_desc = "",
 		effect_attr = "",
 		effect_base = "",
@@ -10088,7 +10088,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1205] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+325|防空+11|主炮效率提高5%|鉴赏解锁：主界面1、旗舰开战、任务",
+		effect_desc = "HP +325|AA +11|Main Gun efficiency 5%|Unlock playback for: Main screen 1, Flagship fight, Mission reminder",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -10229,7 +10229,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1210] = {
 		effect_breakout = 999012,
-		effect_desc = "突破至4星|鉴赏解锁：主界面2、战斗MVP、失败",
+		effect_desc = "Limit Break to 4 Stars|Unlock playback for: Main screen 2, Victory, Defeat",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -10255,8 +10255,8 @@ pg.ship_strengthen_blueprint = {
 			"lose"
 		},
 		extra_desc = {
-			"习得技能【塞壬之敌】",
-			"主炮效率提高5%"
+			"Learn Siren Killer Ⅰ",
+			"Main Gun efficiency 5%"
 		}
 	},
 	[1211] = {
@@ -10361,7 +10361,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1215] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+651|防空+22|防空炮效率提高10%|鉴赏解锁：主界面3、触摸1、任务完成",
+		effect_desc = "HP +651|AA +22|Anti-Air Gun efficiency 10%|Unlock playback for: Main screen 3, Normal touch, Mission complete",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -10502,7 +10502,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1220] = {
 		effect_breakout = 999013,
-		effect_desc = "突破至5星|鉴赏解锁：技能、邮件、委托完成",
+		effect_desc = "Limit Break to 5 Stars|Unlock playback for: Skills, Mail reminder, Commission complete",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -10528,9 +10528,9 @@ pg.ship_strengthen_blueprint = {
 			"expedition"
 		},
 		extra_desc = {
-			"【塞壬之敌】升级",
-			"副炮底座+2",
-			"主炮效率提高10%"
+			"Learn Siren Killer Ⅱ",
+			"Auxiliary Gun base +2",
+			"Main Gun efficiency 10%"
 		}
 	},
 	[1221] = {
@@ -10635,7 +10635,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1225] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+976|防空+33|主炮效率提高5%|鉴赏解锁：主界面4、血量警报",
+		effect_desc = "HP +976|AA +33|Main Gun efficiency 5%|Unlock playback for: Main screen 4, Low HP",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -10776,7 +10776,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[1230] = {
 		effect_breakout = 999014,
-		effect_desc = "突破至6星",
+		effect_desc = "Limit Break to 6 Stars",
 		effect_attr = "",
 		effect_base = "",
 		effect_preload = "",
@@ -10798,8 +10798,8 @@ pg.ship_strengthen_blueprint = {
 			230
 		},
 		extra_desc = {
-			"【塞壬之敌】升级",
-			"主炮效率提高15%"
+			"Learn Siren Killer Ⅱ",
+			"Main Gun efficiency 15%"
 		}
 	},
 	all = {

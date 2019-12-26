@@ -228,6 +228,8 @@ function slot5.AddUnitEvent(slot0)
 	slot0._unitData:RegisterEventListener(slot0, slot0.ADD_BLINK, slot0.onBlink)
 	slot0._unitData:RegisterEventListener(slot0, slot0.SUBMARINE_VISIBLE, slot0.onUpdateDiveInvisible)
 	slot0._unitData:RegisterEventListener(slot0, slot0.SUBMARINE_DETECTED, slot0.onDetected)
+	slot0._unitData:RegisterEventListener(slot0, slot0.BLIND_VISIBLE, slot0.onUpdateBlindInvisible)
+	slot0._unitData:RegisterEventListener(slot0, slot0.BLIND_EXPOSE, slot0.onBlindExposed)
 	slot0._unitData:RegisterEventListener(slot0, slot0.INIT_ANIT_SUB_VIGILANCE, slot0.onInitVigilantState)
 	slot0._unitData:RegisterEventListener(slot0, slot1.Battle.BattleBuffEvent.BUFF_EFFECT_CHNAGE_SIZE, slot0.onChangeSize)
 	slot0._unitData:RegisterEventListener(slot0, slot1.Battle.BattleBuffEvent.BUFF_EFFECT_NEW_WEAPON, slot0.onNewWeapon)
@@ -253,6 +255,9 @@ function slot5.RemoveUnitEvent(slot0)
 	slot0._unitData:UnregisterEventListener(slot0, slot0.REMOVE_WEAPON)
 	slot0._unitData:UnregisterEventListener(slot0, slot0.ADD_BLINK)
 	slot0._unitData:UnregisterEventListener(slot0, slot0.SUBMARINE_VISIBLE)
+	slot0._unitData:UnregisterEventListener(slot0, slot0.SUBMARINE_DETECTED)
+	slot0._unitData:UnregisterEventListener(slot0, slot0.BLIND_VISIBLE)
+	slot0._unitData:UnregisterEventListener(slot0, slot0.BLIND_EXPOSE)
 	slot0._unitData:UnregisterEventListener(slot0, slot0.UPDATE_SCORE)
 	slot0._unitData:UnregisterEventListener(slot0, slot0.CHANGE_ANTI_SUB_VIGILANCE)
 	slot0._unitData:UnregisterEventListener(slot0, slot0.INIT_ANIT_SUB_VIGILANCE)
@@ -408,34 +413,41 @@ function slot5.UpdateDiveInvisible(slot0)
 	slot2 = slot0._unitData:GetIFF() == slot0.FOE_CODE
 
 	if slot1 then
-		if slot0._waveFX then
-			SetActive(slot0._waveFX.transform, false)
-		end
-
-		slot3 = slot0:GetFactory():GetDivingFilterColor()
-
-		if slot2 then
-			slot0:SwitchShader(slot1.GetInstance():GetShader("GRID_TRANSPARENT"), slot3)
-			slot0:updateComponentDiveInvisible()
-		else
-			slot0:SwitchShader(slot1.GetInstance():GetShader("SEMI_TRANSPARENT"), slot3)
-		end
-
-		slot0._animator:ChangeRenderQueue(2999)
+		slot0:updateInvisible(slot1, (slot2 and "GRID_TRANSPARENT") or "SEMI_TRANSPARENT", slot0:GetFactory():GetDivingFilterColor())
 	else
-		if slot0._waveFX then
-			SetActive(slot0._waveFX.transform, true)
-		end
+		slot0:updateInvisible(slot1)
 
-		if slot2 then
-			slot0:SwitchShader()
-			slot0:updateComponentDiveInvisible()
-		else
-			slot0:SwitchShader()
+		if not slot2 then
 			slot0:AddShaderColor()
 		end
+	end
 
+	if slot2 then
+		slot0:updateComponentVisible()
+	end
+end
+
+function slot5.onUpdateBlindInvisible(slot0, slot1)
+	slot0:UpdateBlindInvisible()
+end
+
+function slot5.UpdateBlindInvisible(slot0)
+	slot0:GetTf():GetComponent(typeof(Renderer)).enabled = slot0._unitData:GetExposed()
+
+	slot0:updateComponentVisible()
+end
+
+function slot5.updateInvisible(slot0, slot1, slot2, slot3)
+	if slot1 then
+		slot0:SwitchShader(slot4, slot3)
+		slot0._animator:ChangeRenderQueue(2999)
+	else
+		slot0:SwitchShader()
 		slot0._animator:ChangeRenderQueue(3000)
+	end
+
+	if slot0._waveFX then
+		SetActive(slot0._waveFX.transform, not slot1)
 	end
 end
 
@@ -450,15 +462,40 @@ function slot5.onDetected(slot0, slot1)
 		slot0:RemoveCacheFX(slot0._shockFX)
 	end
 
-	slot0:updateComponentDiveInvisible()
+	slot0:updateComponentVisible()
+end
+
+function slot5.onBlindExposed(slot0, slot1)
+	slot0:GetTf():GetComponent(typeof(Renderer)).enabled = slot0._unitData:GetExposed()
+
+	slot0:updateComponentVisible()
+end
+
+function slot5.updateComponentVisible(slot0)
+	if slot0._unitData:GetIFF() ~= slot0.FOE_CODE then
+		return
+	end
+
+	SetActive(slot0._arrowBarTf, slot0._unitData:GetExposed() and (not slot0._unitData:GetDiveInvisible() or not not slot0._unitData:GetDiveDetected()))
+	SetActive(slot0._HPBarTf, slot0._unitData.GetExposed() and (not slot0._unitData.GetDiveInvisible() or not not slot0._unitData.GetDiveDetected()))
+	SetActive(slot0._FXAttachPoint, slot0._unitData.GetExposed() and (not slot0._unitData.GetDiveInvisible() or not not slot0._unitData.GetDiveDetected()))
 end
 
 function slot5.updateComponentDiveInvisible(slot0)
 	slot3 = nil
 
-	SetActive(slot0._arrowBarTf, not (not (slot0._unitData:GetDiveDetected() and slot0._unitData:GetIFF() == slot0.FOE_CODE) and slot0._unitData:GetDiveInvisible()))
-	SetActive(slot0._HPBarTf, not (not (slot0._unitData.GetDiveDetected() and slot0._unitData.GetIFF() == slot0.FOE_CODE) and slot0._unitData.GetDiveInvisible()))
-	SetActive(slot0._FXAttachPoint, not (not (slot0._unitData.GetDiveDetected() and slot0._unitData.GetIFF() == slot0.FOE_CODE) and slot0._unitData.GetDiveInvisible()))
+	SetActive(slot0._arrowBarTf, (((slot0._unitData:GetDiveDetected() and slot0._unitData:GetIFF() == slot0.FOE_CODE) or not slot0._unitData:GetDiveInvisible()) and true) or false)
+	SetActive(slot0._HPBarTf, (((slot0._unitData.GetDiveDetected() and slot0._unitData.GetIFF() == slot0.FOE_CODE) or not slot0._unitData.GetDiveInvisible()) and true) or false)
+	SetActive(slot0._FXAttachPoint, (((slot0._unitData.GetDiveDetected() and slot0._unitData.GetIFF() == slot0.FOE_CODE) or not slot0._unitData.GetDiveInvisible()) and true) or false)
+end
+
+function slot5.updateComponentBlindInvisible(slot0)
+	slot1 = slot0._unitData:GetExposed()
+	slot0:GetTf():GetComponent(typeof(Renderer)).enabled = slot1
+
+	SetActive(slot0._arrowBarTf, slot1)
+	SetActive(slot0._HPBarTf, slot1)
+	SetActive(slot0._FXAttachPoint, slot1)
 end
 
 function slot5.onInitVigilantState(slot0, slot1)
@@ -912,7 +949,7 @@ end
 function slot5.chatPop(slot0, slot1, slot2)
 	slot2 = slot2 or 2.5
 
-	setTextEN(slot3, slot1:gsub("%s", " "))
+	setTextEN(slot3, slot1)
 
 	if CHAT_POP_STR_LEN < #findTF(slot0._popGO, "Text"):GetComponent(typeof(Text)).text then
 		slot3.alignment = TextAnchor.MiddleLeft
@@ -951,7 +988,7 @@ function slot5.SonarAcitve(slot0, slot1)
 end
 
 function slot5.SwitchShader(slot0, slot1, slot2)
-	slot2 = slot2 or Color.New(1, 0, 0, 1)
+	slot2 = slot2 or Color.New(0, 0, 0, 0)
 
 	if slot1 then
 		slot0._animator:ShiftShader(slot1, slot2)

@@ -20,38 +20,39 @@ function slot0.register(slot0)
 		slot0:onAutoSubBtn(slot1)
 	end)
 	slot0:bind(slot0.ON_START, function (slot0)
-		slot2 = getProxy(ChapterProxy).getActiveChapter(slot1)
-		slot4 = slot2:getStageId(slot2.fleet.line.row, slot2.fleet.line.column)
-		slot5 = {}
+		slot1 = getProxy(ChapterProxy):getActiveChapter()
+		slot3 = slot1:getStageId(slot1.fleet.line.row, slot1.fleet.line.column)
 
-		for slot9, slot10 in pairs(slot2.fleet.ships) do
-			table.insert(slot5, slot10)
-		end
+		seriesAsync({
+			function (slot0)
+				slot1 = {}
 
-		if Fleet.EnergyCheck(slot5, slot3.name, function ()
-			slot0:sendNotification(GAME.BEGIN_STAGE, {
-				system = SYSTEM_SCENARIO,
-				stageId = slot0
-			})
-		end) then
-			slot8 = ""
+				for slot5, slot6 in pairs(slot0.ships) do
+					table.insert(slot1, slot6)
+				end
 
-			if getProxy(PlayerProxy):getData():GoldMax(1) then
-				slot8 = i18n("gold_max_tip_title") .. i18n("resource_max_tip_battle")
-			end
-
-			if slot8 ~= "" then
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = slot8,
-					onYes = function ()
-						slot0()
-					end,
-					weight = LayerWeightConst.SECOND_LAYER
+				if Fleet.EnergyCheck(slot1, slot0.name, slot0) then
+					slot0()
+				end
+			end,
+			function (slot0)
+				if getProxy(PlayerProxy):getRawData():GoldMax(1) then
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						content = i18n("gold_max_tip_title") .. i18n("resource_max_tip_battle"),
+						onYes = slot0,
+						weight = LayerWeightConst.SECOND_LAYER
+					})
+				else
+					slot0()
+				end
+			end,
+			function (slot0)
+				slot0:sendNotification(GAME.BEGIN_STAGE, {
+					system = SYSTEM_SCENARIO,
+					stageId = slot0.sendNotification
 				})
-			else
-				slot6()
 			end
-		end
+		})
 	end)
 	slot0:bind(slot0.ON_OP, function (slot0, slot1)
 		slot0:sendNotification(GAME.CHAPTER_OP, slot1)

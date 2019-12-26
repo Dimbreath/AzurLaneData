@@ -150,7 +150,9 @@ function slot0.setItem(slot0, slot1)
 
 			slot2 = false
 		elseif slot4 == Item.BLUEPRINT_TYPE then
-			if getProxy(TechnologyProxy):GetBlueprint4Item(slot0.itemVO.id) then
+			slot6 = getProxy(TechnologyProxy).GetBlueprint4Item(slot5, slot0.itemVO.id)
+
+			if not LOCK_FRAGMENT_SHOP and slot6 then
 				slot7 = slot5:getBluePrintById(slot6)
 			end
 

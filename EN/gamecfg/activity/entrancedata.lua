@@ -169,5 +169,15 @@ return {
 				return getProxy(TaskProxy):getTaskById(slot0[2]) and slot1:isFinish() and not slot1:isReceive()
 			end)
 		end
+	},
+	{
+		banner = "event_square",
+		event = ActivityMediator.EVENT_GO_SCENE,
+		data = {
+			SCENE.NEWYEAR_SQUARE
+		},
+		isShow = function ()
+			return getProxy(ActivityProxy):getActivityById(ActivityConst.NEWYEAR_ACTIVITY) and not slot0:isEnd()
+		end
 	}
 }

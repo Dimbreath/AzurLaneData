@@ -1266,7 +1266,7 @@ pg.fleet_tech_ship_class = {
 		name = "Izumo-Class",
 		t_level = 9,
 		id = 30506,
-		t_level_1 = 98,
+		t_level_1 = 99,
 		nation = 3,
 		ships = {
 			39902
@@ -1277,7 +1277,7 @@ pg.fleet_tech_ship_class = {
 		name = "Hiyou-Class",
 		t_level = 4,
 		id = 30601,
-		t_level_1 = 99,
+		t_level_1 = 100,
 		nation = 3,
 		ships = {
 			30601,
@@ -1289,7 +1289,7 @@ pg.fleet_tech_ship_class = {
 		name = "Shouhou-Class",
 		t_level = 3,
 		id = 30602,
-		t_level_1 = 100,
+		t_level_1 = 101,
 		nation = 3,
 		ships = {
 			30605
@@ -1300,7 +1300,7 @@ pg.fleet_tech_ship_class = {
 		name = "Houshou-Class",
 		t_level = 2,
 		id = 30603,
-		t_level_1 = 101,
+		t_level_1 = 102,
 		nation = 3,
 		ships = {
 			30603
@@ -1311,7 +1311,7 @@ pg.fleet_tech_ship_class = {
 		name = "Ryuujou-Class",
 		t_level = 4,
 		id = 30604,
-		t_level_1 = 102,
+		t_level_1 = 103,
 		nation = 3,
 		ships = {
 			30606
@@ -1322,7 +1322,7 @@ pg.fleet_tech_ship_class = {
 		name = "Akagi-Class",
 		t_level = 7,
 		id = 30701,
-		t_level_1 = 103,
+		t_level_1 = 104,
 		nation = 3,
 		ships = {
 			30701
@@ -1333,7 +1333,7 @@ pg.fleet_tech_ship_class = {
 		name = "Kaga-Class",
 		t_level = 7,
 		id = 30702,
-		t_level_1 = 104,
+		t_level_1 = 105,
 		nation = 3,
 		ships = {
 			30702
@@ -1344,7 +1344,7 @@ pg.fleet_tech_ship_class = {
 		name = "Souryuu-Class",
 		t_level = 5,
 		id = 30703,
-		t_level_1 = 105,
+		t_level_1 = 106,
 		nation = 3,
 		ships = {
 			30703
@@ -1355,7 +1355,7 @@ pg.fleet_tech_ship_class = {
 		name = "Hiryuu-Class",
 		t_level = 5,
 		id = 30704,
-		t_level_1 = 106,
+		t_level_1 = 107,
 		nation = 3,
 		ships = {
 			30704
@@ -1366,7 +1366,7 @@ pg.fleet_tech_ship_class = {
 		name = "Shoukaku-Class",
 		t_level = 8,
 		id = 30705,
-		t_level_1 = 107,
+		t_level_1 = 108,
 		nation = 3,
 		ships = {
 			30705,
@@ -1378,7 +1378,7 @@ pg.fleet_tech_ship_class = {
 		name = "Taihou",
 		t_level = 9,
 		id = 30706,
-		t_level_1 = 108,
+		t_level_1 = 109,
 		nation = 3,
 		ships = {
 			30707
@@ -1389,7 +1389,7 @@ pg.fleet_tech_ship_class = {
 		name = "Type B1",
 		t_level = 7,
 		id = 30801,
-		t_level_1 = 109,
+		t_level_1 = 110,
 		nation = 3,
 		ships = {
 			30801,
@@ -1404,7 +1404,7 @@ pg.fleet_tech_ship_class = {
 		name = "Kaidai Type ",
 		t_level = 7,
 		id = 30802,
-		t_level_1 = 100,
+		t_level_1 = 101,
 		nation = 3,
 		ships = {
 			30806
@@ -1415,7 +1415,7 @@ pg.fleet_tech_ship_class = {
 		name = "Akashi-Class",
 		t_level = 5,
 		id = 31201,
-		t_level_1 = 111,
+		t_level_1 = 112,
 		nation = 3,
 		ships = {
 			31201
@@ -1426,7 +1426,7 @@ pg.fleet_tech_ship_class = {
 		name = "Azuma-Class",
 		t_level = 9,
 		id = 31801,
-		t_level_1 = 114,
+		t_level_1 = 115,
 		nation = 3,
 		ships = {
 			39904
@@ -1437,7 +1437,7 @@ pg.fleet_tech_ship_class = {
 		name = "Type 1934",
 		t_level = 4,
 		id = 40101,
-		t_level_1 = 112,
+		t_level_1 = 113,
 		nation = 4,
 		ships = {
 			40101
@@ -1448,7 +1448,7 @@ pg.fleet_tech_ship_class = {
 		name = "Type 1936",
 		t_level = 5,
 		id = 40102,
-		t_level_1 = 113,
+		t_level_1 = 114,
 		nation = 4,
 		ships = {
 			40118,
@@ -1462,7 +1462,7 @@ pg.fleet_tech_ship_class = {
 		name = "Type 1336A",
 		t_level = 6,
 		id = 40103,
-		t_level_1 = 114,
+		t_level_1 = 115,
 		nation = 4,
 		ships = {
 			40123,
@@ -1474,7 +1474,7 @@ pg.fleet_tech_ship_class = {
 		name = "Type 1336B",
 		t_level = 7,
 		id = 40104,
-		t_level_1 = 115,
+		t_level_1 = 116,
 		nation = 4,
 		ships = {
 			40135,
@@ -1486,7 +1486,7 @@ pg.fleet_tech_ship_class = {
 		name = "Type 1336C",
 		t_level = 8,
 		id = 40105,
-		t_level_1 = 116,
+		t_level_1 = 117,
 		nation = 4,
 		ships = {
 			40146
@@ -1497,7 +1497,7 @@ pg.fleet_tech_ship_class = {
 		name = "Konigsberg-Class",
 		t_level = 3,
 		id = 40201,
-		t_level_1 = 117,
+		t_level_1 = 118,
 		nation = 4,
 		ships = {
 			40201,
@@ -1510,7 +1510,7 @@ pg.fleet_tech_ship_class = {
 		name = "Leipzig-Class",
 		t_level = 4,
 		id = 40202,
-		t_level_1 = 118,
+		t_level_1 = 119,
 		nation = 4,
 		ships = {
 			40204
@@ -1521,7 +1521,7 @@ pg.fleet_tech_ship_class = {
 		name = "Admiral Hipper-Class",
 		t_level = 7,
 		id = 40301,
-		t_level_1 = 119,
+		t_level_1 = 120,
 		nation = 4,
 		ships = {
 			40301,
@@ -1533,7 +1533,7 @@ pg.fleet_tech_ship_class = {
 		name = "Deutschland-Class",
 		t_level = 5,
 		id = 40302,
-		t_level_1 = 120,
+		t_level_1 = 121,
 		nation = 4,
 		ships = {
 			40304,
@@ -1545,7 +1545,7 @@ pg.fleet_tech_ship_class = {
 		name = "Roon-Class",
 		t_level = 9,
 		id = 40303,
-		t_level_1 = 121,
+		t_level_1 = 122,
 		nation = 4,
 		ships = {
 			49901
@@ -1556,7 +1556,7 @@ pg.fleet_tech_ship_class = {
 		name = "Scharnhorst-Class",
 		t_level = 6,
 		id = 40401,
-		t_level_1 = 122,
+		t_level_1 = 123,
 		nation = 4,
 		ships = {
 			40401,
@@ -1568,7 +1568,7 @@ pg.fleet_tech_ship_class = {
 		name = "Bismarck-Class",
 		t_level = 7,
 		id = 40501,
-		t_level_1 = 123,
+		t_level_1 = 124,
 		nation = 4,
 		ships = {
 			40501,
@@ -1591,7 +1591,7 @@ pg.fleet_tech_ship_class = {
 		name = "Graf Zeppelin-Class",
 		t_level = 6,
 		id = 40701,
-		t_level_1 = 124,
+		t_level_1 = 125,
 		nation = 4,
 		ships = {
 			40701
@@ -1602,7 +1602,7 @@ pg.fleet_tech_ship_class = {
 		name = "Type VIIB",
 		t_level = 6,
 		id = 40801,
-		t_level_1 = 125,
+		t_level_1 = 126,
 		nation = 4,
 		ships = {
 			40802,
@@ -1615,7 +1615,7 @@ pg.fleet_tech_ship_class = {
 		name = "Type VIIC",
 		t_level = 7,
 		id = 40802,
-		t_level_1 = 126,
+		t_level_1 = 127,
 		nation = 4,
 		ships = {
 			40801,
@@ -1628,7 +1628,7 @@ pg.fleet_tech_ship_class = {
 		name = "Type IXC",
 		t_level = 7,
 		id = 40803,
-		t_level_1 = 141,
+		t_level_1 = 142,
 		nation = 4,
 		ships = {
 			40807
@@ -1639,7 +1639,7 @@ pg.fleet_tech_ship_class = {
 		name = "Type IXB ",
 		t_level = 7,
 		id = 40804,
-		t_level_1 = 140,
+		t_level_1 = 141,
 		nation = 4,
 		ships = {
 			40808
@@ -1650,7 +1650,7 @@ pg.fleet_tech_ship_class = {
 		name = "An Shan-Class",
 		t_level = 4,
 		id = 50101,
-		t_level_1 = 127,
+		t_level_1 = 128,
 		nation = 5,
 		ships = {
 			50101,
@@ -1664,7 +1664,7 @@ pg.fleet_tech_ship_class = {
 		name = "Ning Hai-Class",
 		t_level = 3,
 		id = 50201,
-		t_level_1 = 128,
+		t_level_1 = 129,
 		nation = 5,
 		ships = {
 			50202,
@@ -1676,7 +1676,7 @@ pg.fleet_tech_ship_class = {
 		name = "Yat Sen-Class",
 		t_level = 2,
 		id = 50202,
-		t_level_1 = 129,
+		t_level_1 = 130,
 		nation = 5,
 		ships = {
 			50201
@@ -1687,7 +1687,7 @@ pg.fleet_tech_ship_class = {
 		name = "Soldati-class",
 		t_level = 6,
 		id = 60101,
-		t_level_1 = 130,
+		t_level_1 = 131,
 		nation = 6,
 		ships = {
 			60102
@@ -1698,7 +1698,7 @@ pg.fleet_tech_ship_class = {
 		name = "Zara-class",
 		t_level = 7,
 		id = 60301,
-		t_level_1 = 131,
+		t_level_1 = 132,
 		nation = 6,
 		ships = {
 			60302
@@ -1709,7 +1709,7 @@ pg.fleet_tech_ship_class = {
 		name = "Trento-class",
 		t_level = 5,
 		id = 60302,
-		t_level_1 = 132,
+		t_level_1 = 133,
 		nation = 6,
 		ships = {
 			60301
@@ -1720,7 +1720,7 @@ pg.fleet_tech_ship_class = {
 		name = "Vittorio Veneto-class",
 		t_level = 7,
 		id = 60501,
-		t_level_1 = 133,
+		t_level_1 = 134,
 		nation = 6,
 		ships = {
 			60502
@@ -1731,7 +1731,7 @@ pg.fleet_tech_ship_class = {
 		name = "Conte di Cavour-class",
 		t_level = 4,
 		id = 60502,
-		t_level_1 = 134,
+		t_level_1 = 135,
 		nation = 6,
 		ships = {
 			60505,
@@ -1743,7 +1743,7 @@ pg.fleet_tech_ship_class = {
 		name = "Pallada-Class",
 		t_level = 1,
 		id = 70201,
-		t_level_1 = 130,
+		t_level_1 = 131,
 		nation = 7,
 		ships = {
 			70201
@@ -1754,7 +1754,7 @@ pg.fleet_tech_ship_class = {
 		name = "Le Fantasque-class",
 		t_level = 8,
 		id = 80101,
-		t_level_1 = 131,
+		t_level_1 = 132,
 		nation = 8,
 		ships = {
 			80101
@@ -1765,7 +1765,7 @@ pg.fleet_tech_ship_class = {
 		name = "L'Intrépide-Class",
 		t_level = 6,
 		id = 80102,
-		t_level_1 = 132,
+		t_level_1 = 133,
 		nation = 8,
 		ships = {
 			80103
@@ -1776,7 +1776,7 @@ pg.fleet_tech_ship_class = {
 		name = "L'Adroit-Class",
 		t_level = 4,
 		id = 80103,
-		t_level_1 = 133,
+		t_level_1 = 134,
 		nation = 8,
 		ships = {
 			80102
@@ -1787,7 +1787,7 @@ pg.fleet_tech_ship_class = {
 		name = "Émile Bertin-Class",
 		t_level = 4,
 		id = 80201,
-		t_level_1 = 134,
+		t_level_1 = 135,
 		nation = 8,
 		ships = {
 			80201
@@ -1798,7 +1798,7 @@ pg.fleet_tech_ship_class = {
 		name = "Saint Louis-Class",
 		t_level = 8,
 		id = 80301,
-		t_level_1 = 135,
+		t_level_1 = 136,
 		nation = 8,
 		ships = {
 			89901
@@ -1809,7 +1809,7 @@ pg.fleet_tech_ship_class = {
 		name = "Surcouf-Class",
 		t_level = 7,
 		id = 80801,
-		t_level_1 = 136,
+		t_level_1 = 137,
 		nation = 8,
 		ships = {
 			80801
@@ -1820,7 +1820,7 @@ pg.fleet_tech_ship_class = {
 		name = "L'Adroit-Class",
 		t_level = 4,
 		id = 90103,
-		t_level_1 = 137,
+		t_level_1 = 138,
 		nation = 9,
 		ships = {
 			90101
@@ -1831,7 +1831,7 @@ pg.fleet_tech_ship_class = {
 		name = "Dunkerque-Class",
 		t_level = 5,
 		id = 90401,
-		t_level_1 = 138,
+		t_level_1 = 139,
 		nation = 9,
 		ships = {
 			90401
@@ -1842,7 +1842,7 @@ pg.fleet_tech_ship_class = {
 		name = "Richelieu-Class",
 		t_level = 7,
 		id = 90501,
-		t_level_1 = 139,
+		t_level_1 = 140,
 		nation = 9,
 		ships = {
 			90501,

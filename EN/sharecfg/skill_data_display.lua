@@ -1562,7 +1562,7 @@ pg.skill_data_display = {
 	},
 	[12040] = {
 		id = 12040,
-		name = "不安定的发明家"
+		name = "Whimsical Inventor "
 	},
 	[12050] = {
 		id = 12050,
@@ -2031,6 +2031,110 @@ pg.skill_data_display = {
 	[12696] = {
 		id = 12696,
 		name = "Passcode: Evasion Increase"
+	},
+	[12800] = {
+		id = 12800,
+		name = "Unleashed Tactics "
+	},
+	[12801] = {
+		id = 12801,
+		name = "Unleashed Tactics I"
+	},
+	[12802] = {
+		id = 12802,
+		name = "Unleashed Tactics II"
+	},
+	[12803] = {
+		id = 12803,
+		name = "Unleashed Tactics III"
+	},
+	[12804] = {
+		id = 12804,
+		name = "Unleashed Tactics IV"
+	},
+	[12810] = {
+		id = 12810,
+		name = "Unleashed Tactics "
+	},
+	[12820] = {
+		id = 12820,
+		name = "Unyielding Shield "
+	},
+	[12821] = {
+		id = 12821,
+		name = "Unyielding Shield "
+	},
+	[12822] = {
+		id = 12822,
+		name = "Unyielding Shield "
+	},
+	[12830] = {
+		id = 12830,
+		name = "Noshiro's Hoarfrost "
+	},
+	[12840] = {
+		id = 12840,
+		name = "Skyslayer's Edge "
+	},
+	[12850] = {
+		id = 12850,
+		name = "Demonblade "
+	},
+	[12860] = {
+		id = 12860,
+		name = "Swirling Cherry Blossoms "
+	},
+	[12862] = {
+		id = 12862,
+		name = "Swirling Cherry Blossoms "
+	},
+	[12870] = {
+		id = 12870,
+		name = "Dancing Waves "
+	},
+	[12871] = {
+		id = 12871,
+		name = "Dancing Waves "
+	},
+	[12873] = {
+		id = 12873,
+		name = "Dancing Waves "
+	},
+	[12875] = {
+		id = 12875,
+		name = "Dancing Waves "
+	},
+	[12880] = {
+		id = 12880,
+		name = "Demon's Wish "
+	},
+	[12882] = {
+		id = 12882,
+		name = "Demon's Wish "
+	},
+	[12890] = {
+		id = 12890,
+		name = "Foo and Friends "
+	},
+	[12891] = {
+		id = 12891,
+		name = "Foo was scared away... "
+	},
+	[12892] = {
+		id = 12892,
+		name = "Foo and Friends "
+	},
+	[12900] = {
+		id = 12900,
+		name = "Phoenix's Plumage "
+	},
+	[12901] = {
+		id = 12901,
+		name = "Phoenix's Plumage "
+	},
+	[12910] = {
+		id = 12910,
+		name = "Destroyer Division 6: Hibiki "
 	},
 	[18010] = {
 		id = 18010,
@@ -3232,6 +3336,14 @@ pg.skill_data_display = {
 		id = 29442,
 		name = "All Out Assault Ⅱ"
 	},
+	[29481] = {
+		id = 29481,
+		name = "All Out Assault Ⅰ"
+	},
+	[29482] = {
+		id = 29482,
+		name = "All Out Assault Ⅱ"
+	},
 	[101010] = {
 		id = 101010,
 		name = "Protagonist Aura"
@@ -4005,6 +4117,32 @@ pg.skill_data_display = {
 		12694,
 		12695,
 		12696,
+		12800,
+		12801,
+		12802,
+		12803,
+		12804,
+		12810,
+		12820,
+		12821,
+		12822,
+		12830,
+		12840,
+		12850,
+		12860,
+		12862,
+		12870,
+		12871,
+		12873,
+		12875,
+		12880,
+		12882,
+		12890,
+		12891,
+		12892,
+		12900,
+		12901,
+		12910,
 		18010,
 		18040,
 		18041,
@@ -4305,6 +4443,8 @@ pg.skill_data_display = {
 		29432,
 		29441,
 		29442,
+		29481,
+		29482,
 		101010,
 		101020,
 		101030,

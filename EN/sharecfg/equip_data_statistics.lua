@@ -59205,6 +59205,60 @@ pg.equip_data_statistics = {
 		equip_parameters = {},
 		label = {}
 	},
+	[60471] = {
+		name = "航空攻击展示-龙凤I",
+		type = 99,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		ammo = "无",
+		descrip = "航母空袭展示用",
+		value_3 = 0,
+		id = 60471,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			60471
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60472] = {
+		id = 60472,
+		name = "航空攻击展示-龙凤II",
+		base = 60471,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			60472
+		},
+		property_rate = {}
+	},
+	[60473] = {
+		id = 60473,
+		name = "航空攻击展示-龙凤III",
+		base = 60471,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			60473
+		},
+		property_rate = {}
+	},
 	[61007] = {
 		name = "0",
 		type = 1,
@@ -65329,6 +65383,49 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		weapon_id = {
 			79472
+		},
+		property_rate = {}
+	},
+	[79481] = {
+		name = "专属弹幕-能代I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		ammo = "无",
+		descrip = "技能弹幕",
+		value_3 = 0,
+		id = 79481,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			60481
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[79482] = {
+		id = 79482,
+		name = "专属弹幕-能代II",
+		base = 79481,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			60482
 		},
 		property_rate = {}
 	},
@@ -75154,6 +75251,9 @@ pg.equip_data_statistics = {
 		60452,
 		60453,
 		60461,
+		60471,
+		60472,
+		60473,
 		61007,
 		61008,
 		61009,
@@ -75434,6 +75534,8 @@ pg.equip_data_statistics = {
 		79462,
 		79471,
 		79472,
+		79481,
+		79482,
 		89000,
 		89001,
 		89002,

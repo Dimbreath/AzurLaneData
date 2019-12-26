@@ -85,7 +85,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 305,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>Obtained through a subsequent event.</color>",
+		desc = "<color=#ffffff>\"With this offering, we pray for a bright future for the Sakura Empire.\"</color>\nAvailable during the \"Swirling Cherry Blossoms\" event. ",
 		scene = {}
 	},
 	all = {

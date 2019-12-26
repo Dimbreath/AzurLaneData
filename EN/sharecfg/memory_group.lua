@@ -1160,6 +1160,39 @@ pg.memory_group = {
 			1060
 		}
 	},
+	[177] = {
+		title = "Swirling Cherry Blossoms",
+		type = 2,
+		id = 177,
+		icon = "title_event",
+		memories = {
+			1061,
+			1062,
+			1063,
+			1064,
+			1065,
+			1066,
+			1067,
+			1068,
+			1069,
+			1070,
+			1071,
+			1072
+		}
+	},
+	[178] = {
+		title = "Blessings and Tidings",
+		type = 2,
+		id = 178,
+		icon = "title_event",
+		memories = {
+			1091,
+			1092,
+			1093,
+			1094,
+			1095
+		}
+	},
 	[501] = {
 		title = "{namecode:98}'s Commission",
 		type = 3,
@@ -1857,6 +1890,8 @@ pg.memory_group = {
 		174,
 		175,
 		176,
+		177,
+		178,
 		501,
 		502,
 		503,

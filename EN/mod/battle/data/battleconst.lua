@@ -22,7 +22,8 @@ ys.Battle.BattleConst.WaveTriggerType = {
 	GUIDE = 6,
 	CAMERA = 7,
 	CLEAR = 8,
-	JAMMING = 9
+	JAMMING = 9,
+	ENVIRONMENT = 10
 }
 ys.Battle.BattleConst.UnitType = {
 	PLAYER_UNIT = 1,
@@ -300,6 +301,13 @@ ys.Battle.BattleConst.ManualWeaponIndex = {
 	CALIBRATION = 1,
 	TORPEDO = 2,
 	AIR_ASSIST = 3
+}
+ys.Battle.BattleConst.EnviroumentBehaviour = {
+	PLAY_FX = 1,
+	DAMAGE = 2,
+	BUFF = 3,
+	MOVEMENT = 4,
+	FORCE = 5
 }
 
 return

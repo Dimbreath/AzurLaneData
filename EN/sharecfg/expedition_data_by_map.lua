@@ -3983,6 +3983,252 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1300001] = {
+		map = 1300001,
+		name = "Swirling Cherry Blossoms - Pt. 1|| ||CHAPTER EX||E.X.",
+		bgm = "xinnong-1",
+		type = 4,
+		on_activity = 30292,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "FUYINGYINGHUA1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1280001",
+		cloud_suffix = "",
+		bg = "Map_1280001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1300011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1300002] = {
+		map = 1300002,
+		name = "Swirling Cherry Blossoms - Pt. 2|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 4,
+		on_activity = 30293,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "FUYINGYINGHUA13",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1280002",
+		cloud_suffix = "",
+		bg = "Map_1280002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1300012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1300011] = {
+		map = 1300011,
+		name = "Swirling Cherry Blossoms - Pt. 1|| ||CHAPTER EX||E.X.",
+		bgm = "xinnong-1",
+		type = 5,
+		on_activity = 30292,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "FUYINGYINGHUA1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1280003",
+		cloud_suffix = "",
+		bg = "Map_1280003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1300001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1300012] = {
+		map = 1300012,
+		name = "Swirling Cherry Blossoms - Pt. 2|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 5,
+		on_activity = 30293,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "FUYINGYINGHUA13",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1280004",
+		cloud_suffix = "",
+		bg = "Map_1280004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1300002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1300025] = {
+		map = 1300025,
+		name = "Swirling Cherry Blossoms - SP|| ||CHAPTER EX||E.X.",
+		bgm = "xinnong-1",
+		type = 8,
+		on_activity = 30293,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1280004",
+		cloud_suffix = "",
+		bg = "Map_1280004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1300012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1300026] = {
+		map = 1300026,
+		name = "Swirling Cherry Blossoms - EX|| ||CHAPTER EX||E.X.",
+		bgm = "xinnong-2",
+		type = 8,
+		on_activity = 30293,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1280004",
+		cloud_suffix = "",
+		bg = "Map_1280004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1300012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
@@ -4385,6 +4631,12 @@ pg.expedition_data_by_map = {
 		1290002,
 		1290025,
 		1290026,
+		1300001,
+		1300002,
+		1300011,
+		1300012,
+		1300025,
+		1300026,
 		2100000,
 		2100001,
 		2100010,

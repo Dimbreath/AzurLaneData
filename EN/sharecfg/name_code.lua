@@ -889,6 +889,31 @@ pg.name_code = {
 		id = 178,
 		name = "Fusou Production",
 		code = "Fusou Production"
+	},
+	{
+		id = 179,
+		name = "Ryuuhou",
+		code = "Ryuuhou"
+	},
+	{
+		id = 180,
+		name = "Kasumi",
+		code = "Kasumi"
+	},
+	{
+		id = 181,
+		name = "Kinu",
+		code = "Kinu"
+	},
+	{
+		id = 182,
+		name = "Shinano ",
+		code = "Shinano "
+	},
+	{
+		id = 183,
+		name = "大鲸",
+		code = "迖"
 	}
 }
 

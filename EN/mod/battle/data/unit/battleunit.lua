@@ -1133,6 +1133,7 @@ function slot9.Clear(slot0)
 end
 
 function slot9.Dispose(slot0)
+	slot0._exposedList = nil
 	slot0._phaseSwitcher = nil
 
 	slot0._weaponQueue:Dispose()
@@ -1319,6 +1320,49 @@ end
 
 function slot9.GetAntiSubState(slot0)
 	return slot0._antiSubVigilanceState
+end
+
+function slot9.SetBlindInvisible(slot0, slot1)
+	slot0._exposedList = (slot1 and {}) or nil
+	slot0._blindInvisible = slot1
+
+	slot0:DispatchEvent(slot0.Event.New(slot1.BLIND_VISIBLE))
+end
+
+function slot9.GetBlindInvisible(slot0)
+	return slot0._blindInvisible
+end
+
+function slot9.GetExposed(slot0)
+	if not slot0._blindInvisible then
+		return true
+	end
+
+	for slot4, slot5 in pairs(slot0._exposedList) do
+		return true
+	end
+end
+
+function slot9.AppendExposed(slot0, slot1)
+	if not slot0._blindInvisible then
+		return
+	end
+
+	slot0._exposedList[slot1] = true
+
+	if not slot0._exposedList[slot1] then
+		slot0:DispatchEvent(slot0.Event.New(slot1.BLIND_EXPOSE))
+	end
+end
+
+function slot9.RemoveExposed(slot0, slot1)
+	if not slot0._blindInvisible then
+		return
+	end
+
+	slot0._exposedList[slot1] = nil
+
+	slot0:DispatchEvent(slot0.Event.New(slot1.BLIND_EXPOSE))
 end
 
 return
