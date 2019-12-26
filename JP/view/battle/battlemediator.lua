@@ -75,7 +75,9 @@ function slot0.register(slot0)
 					slot2:removeChild(slot5)
 				end
 			elseif slot1 == SYSTEM_SCENARIO then
-				slot2:removeChild(slot2:getContextByMediator(ChapterPreCombatMediator))
+				if slot2:getContextByMediator(ChapterPreCombatMediator) then
+					slot2:removeChild(slot5)
+				end
 			elseif slot1 ~= SYSTEM_PERFORM and slot1 ~= SYSTEM_SIMULATION then
 				slot2:removeChild(slot2:getContextByMediator(PreCombatMediator))
 			end

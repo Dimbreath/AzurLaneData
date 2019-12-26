@@ -61,6 +61,14 @@ function slot7.UpdateAutoComponent(slot0, slot1)
 	for slot5, slot6 in pairs(slot0._indieSonarList) do
 		slot5:Update(slot1)
 	end
+
+	slot0:UpdateBuff(slot1)
+end
+
+function slot7.UpdateBuff(slot0, slot1)
+	for slot6, slot7 in pairs(slot2) do
+		slot7:Update(slot0, slot1)
+	end
 end
 
 function slot7.UpdateManualWeaponVO(slot0, slot1)
@@ -382,6 +390,7 @@ function slot7.Dispose(slot0)
 	slot0._fleetSonar:Dispose()
 
 	slot0._fleetSonar = nil
+	slot0._buffList = nil
 	slot0._indieSonarList = nil
 end
 
@@ -460,6 +469,7 @@ function slot7.init(slot0)
 	slot0._unitList = {}
 	slot0._maxCount = 0
 	slot0._blockCast = 0
+	slot0._buffList = {}
 
 	slot0:SetMotionSource()
 end
@@ -690,18 +700,6 @@ function slot7.QuickCastTorpedo(slot0)
 
 	if slot0._torpedoWeaponVO:GetCurrentWeapon() ~= nil and slot1:GetCurrentState() == slot1.STATE_READY then
 		slot1:Fire()
-	end
-end
-
-function slot7.Jamming(slot0, slot1)
-	if slot1 then
-		slot0._chargeWeaponVO:StartJamming()
-		slot0._torpedoWeaponVO:StartJamming()
-		slot0._airAssistVO:StartJamming()
-	else
-		slot0._chargeWeaponVO:JammingEliminate()
-		slot0._torpedoWeaponVO:JammingEliminate()
-		slot0._airAssistVO:JammingEliminate()
 	end
 end
 
@@ -963,6 +961,48 @@ function slot7.RemoveIndieSonar(slot0, slot1)
 			break
 		end
 	end
+end
+
+function slot7.AttachFleetBuff(slot0, slot1)
+	if slot0:GetFleetBuff(slot1:GetID()) then
+		slot3:Stack(slot0)
+	else
+		slot0._buffList[slot2] = slot1
+
+		slot1:Attach(slot0)
+	end
+end
+
+function slot7.RemoveFleetBuff(slot0, slot1)
+	if slot0:GetFleetBuff(slot1) then
+		slot2:Remove()
+	end
+end
+
+function slot7.GetFleetBuff(slot0, slot1)
+	return slot0._buffList[slot1]
+end
+
+function slot7.GetFleetBuffList(slot0)
+	return slot0._buffList
+end
+
+function slot7.Jamming(slot0, slot1)
+	if slot1 then
+		slot0._chargeWeaponVO:StartJamming()
+		slot0._torpedoWeaponVO:StartJamming()
+		slot0._airAssistVO:StartJamming()
+	else
+		slot0._chargeWeaponVO:JammingEliminate()
+		slot0._torpedoWeaponVO:JammingEliminate()
+		slot0._airAssistVO:JammingEliminate()
+	end
+end
+
+function slot7.Blinding(slot0, slot1)
+	slot0:DispatchEvent(slot0.Event.New(slot1.FLEET_BLIND, {
+		isBlind = slot1
+	}))
 end
 
 return

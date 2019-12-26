@@ -596,9 +596,9 @@ pg.backyard_theme_template = {
 		discount_time = {
 			{
 				{
-					2018,
+					2019,
 					12,
-					27
+					26
 				},
 				{
 					0,
@@ -608,9 +608,9 @@ pg.backyard_theme_template = {
 			},
 			{
 				{
-					2019,
+					2020,
 					1,
-					16
+					8
 				},
 				{
 					23,
@@ -1364,15 +1364,14 @@ pg.backyard_theme_template = {
 		name = "猪突猛進！",
 		desc = "（※都合によりイノシシがボアに改名しました）",
 		deblocking = 1,
-		new = 1,
-		hot = 1,
+		new = 0,
+		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
-		discount = 0,
+		discount = 20,
 		id = 38,
 		icon = "yzthemeicon",
 		comfortable = 0,
-		discount_time = "",
 		ids = {
 			38001,
 			38002,
@@ -1415,6 +1414,32 @@ pg.backyard_theme_template = {
 			38303,
 			38304,
 			38305
+		},
+		discount_time = {
+			{
+				{
+					2019,
+					12,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[39] = {
@@ -2065,6 +2090,42 @@ pg.backyard_theme_template = {
 			56113
 		}
 	},
+	[57] = {
+		Cfg_1 = 5,
+		name = "初詣の夜",
+		desc = "新しい一年でも、幸せになりますように",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 57,
+		icon = "mh2themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			57001,
+			57002,
+			57101,
+			57102,
+			57103,
+			57104,
+			57105,
+			57106,
+			57107,
+			57108,
+			57109,
+			57110,
+			57111,
+			57112,
+			57113,
+			57114,
+			57115,
+			57116,
+			57117
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2110,7 +2171,8 @@ pg.backyard_theme_template = {
 		53,
 		54,
 		55,
-		56
+		56,
+		57
 	}
 }
 

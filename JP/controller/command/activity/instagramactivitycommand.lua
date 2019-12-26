@@ -46,7 +46,12 @@ class("InstagramActivityCommand", pm.SimpleCommand).execute = function (slot0, s
 			cmd = slot2.cmd
 		}, 11702, function (slot0)
 			if slot0.result == 0 then
-				if ActivityConst.INSTAGRAM_OP_SHARE ~= slot0.cmd then
+				if ActivityConst.INSTAGRAM_OP_MARK_READ == slot0.cmd then
+					slot1 = slot1:GetMessageById(slot0.arg1)
+					slot1.isRead = true
+
+					slot1:UpdateMessage(slot1)
+				elseif ActivityConst.INSTAGRAM_OP_SHARE ~= slot0.cmd then
 					slot1:UpdateMessage(Instagram.New(slot0.data))
 				end
 

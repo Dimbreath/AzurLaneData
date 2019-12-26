@@ -2520,6 +2520,141 @@ pg.expedition_activity_template = {
 		pt_drop_display = "",
 		bonus_time = 0
 	},
+	[1310013] = {
+		id = 1310013,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				452,
+				141
+			}
+		}
+	},
+	[1310113] = {
+		id = 1310113,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				452,
+				141
+			}
+		}
+	},
+	[1310213] = {
+		id = 1310213,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				452,
+				141
+			}
+		}
+	},
+	[1310313] = {
+		id = 1310313,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				453,
+				141
+			}
+		}
+	},
+	[1310413] = {
+		id = 1310413,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				453,
+				141
+			}
+		}
+	},
+	[1310513] = {
+		id = 1310513,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				453,
+				141
+			}
+		}
+	},
+	[1310613] = {
+		id = 1310613,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				452,
+				141
+			}
+		}
+	},
+	[1310713] = {
+		id = 1310713,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				452,
+				141
+			}
+		}
+	},
+	[1310813] = {
+		id = 1310813,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				452,
+				141
+			}
+		}
+	},
+	[1310913] = {
+		id = 1310913,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				453,
+				141
+			}
+		}
+	},
+	[1311013] = {
+		id = 1311013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				453,
+				141
+			}
+		}
+	},
+	[1311113] = {
+		id = 1311113,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				453,
+				141
+			}
+		}
+	},
+	[1311213] = {
+		id = 1311213,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				453,
+				141
+			}
+		}
+	},
+	[1311301] = {
+		id = 1311301,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
 	[3000013] = {
 		id = 3000013,
 		pt_drop_display = "",
@@ -3047,6 +3182,20 @@ pg.expedition_activity_template = {
 		1290263,
 		1290313,
 		1291301,
+		1310013,
+		1310113,
+		1310213,
+		1310313,
+		1310413,
+		1310513,
+		1310613,
+		1310713,
+		1310813,
+		1310913,
+		1311013,
+		1311113,
+		1311213,
+		1311301,
 		3000013,
 		3000113,
 		3000213,

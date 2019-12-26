@@ -777,19 +777,29 @@ function slot0.openSingleBox(slot0, slot1)
 	function slot3()
 		pg.UIMgr.GetInstance():BlurPanel(slot0.singleBoxTF)
 		onButton(onButton, slot0:findTF("window/actions/confirm_btn", slot0.singleBoxTF), function ()
-			slot0:purchase(slot0, 1)
-			slot0.purchase:closeSingleBox()
+			if slot0:getConfig("commodity_type") == 4 and slot1.curPage == slot2.TYPE_ACTIVITY then
+				slot1:closeSingleBox()
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = slot3("pt_reconfirm", slot3.cfg.name or "??"),
+					onYes = function ()
+						slot0:purchase(slot0, 1)
+					end
+				})
+			else
+				slot1:purchase(slot1.purchase, 1)
+				slot1:closeSingleBox()
+			end
 		end, SFX_CANCEL)
-		updateDrop(slot0.singleItemTF, slot0.findTF("window/actions/confirm_btn", slot0.singleBoxTF))
+		updateDrop(slot0.singleItemTF, slot3)
 
-		slot3, slot4 = GetOwnedpropCount(slot2)
+		slot3, slot4 = GetOwnedpropCount(slot3)
 
 		setActive(slot0.singleItemOwnTF.parent, slot1)
 		setText(slot0.singleItemOwnTF, slot0)
 		setText(slot0.singleItemOwnLabelTF, i18n("word_own1"))
 
-		slot0.singleDescTF.text = slot2.desc
-		slot0.singleNameTF.text = slot2.cfg.name
+		slot0.singleDescTF.text = slot0.singleItemOwnLabelTF.desc
+		slot0.singleNameTF.text = slot0.singleItemOwnLabelTF.desc.cfg.name
 
 		setActive(slot0.singleBoxTF, true)
 		slot0:unBlurView()

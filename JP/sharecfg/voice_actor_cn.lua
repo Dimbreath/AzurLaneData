@@ -831,6 +831,18 @@ pg.voice_actor_CN = {
 	[213] = {
 		actor_name = "岩倉あずさ",
 		code = 213
+	},
+	[214] = {
+		actor_name = "矢作紗友里",
+		code = 214
+	},
+	[215] = {
+		actor_name = "遠藤綾",
+		code = 215
+	},
+	[216] = {
+		actor_name = "たけだまりこ",
+		code = 216
 	}
 }
 

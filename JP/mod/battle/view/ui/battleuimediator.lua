@@ -21,6 +21,7 @@ function slot6.Initialize(slot0)
 
 	slot0._dataProxy = slot0._state:GetProxyByName(slot1.Battle.BattleDataProxy.__name)
 	slot0._uiMGR = pg.UIMgr.GetInstance()
+	slot0._updateViewList = {}
 
 	slot0:SetBattleUI()
 	slot0:AddUIEvent()
@@ -65,6 +66,10 @@ function slot6.DisableComponent(slot0)
 
 	if slot0._jammingView then
 		slot0._jammingView:Eliminate(false)
+	end
+
+	if slot0._inkView then
+		slot0._inkView:SetActive(false)
 	end
 end
 
@@ -183,6 +188,10 @@ function slot6.InitMainDamagedView(slot0)
 	slot0._mainDamagedView = slot0.Battle.BattleMainDamagedView.New(slot0._ui:findTF("HPWarning"))
 end
 
+function slot6.InitInkView(slot0)
+	slot0._inkView = slot0.Battle.BattleInkView.New(slot0._ui:findTF("InkContainer"))
+end
+
 function slot6.InitDebugConsole(slot0)
 	slot0._debugConsoleView = slot0._debugConsoleView or slot0.Battle.BattleDebugConsole.New(slot0._ui:findTF("Debug_Console"), slot0._state)
 end
@@ -209,8 +218,9 @@ function slot6.InitCamera(slot0)
 end
 
 function slot6.Update(slot0)
-	slot0._skillView:Update()
-	slot0._sightView:Update()
+	for slot4, slot5 in pairs(slot0._updateViewList) do
+		slot4:Update()
+	end
 end
 
 function slot6.AddUIEvent(slot0)
@@ -245,6 +255,8 @@ function slot6.RemoveUIEvent(slot0)
 	slot0._userFleet:UnregisterEventListener(slot0, slot0.SHOW_BUFFER)
 	slot0._userFleet:UnregisterEventListener(slot0, slot1.POINT_HIT_CHARGE)
 	slot0._userFleet:UnregisterEventListener(slot0, slot1.POINT_HIT_CANCEL)
+	slot0._userFleet:UnregisterEventListener(slot0, slot0.MANUAL_SUBMARINE_SHIFT)
+	slot0._userFleet:UnregisterEventListener(slot0, slot0.FLEET_BLIND)
 end
 
 function slot6.ShowSkillPainting(slot0, slot1, slot2, slot3)
@@ -339,12 +351,14 @@ end
 
 function slot6.onCommonInit(slot0, slot1)
 	slot0._skillView = slot0.Battle.BattleSkillView.New(slot0, slot1.Data)
+	slot0._updateViewList[slot0._skillView] = true
 	slot0._userFleet = slot0._dataProxy:GetFleetByIFF(slot1.FRIENDLY_CODE)
 
 	slot0._userFleet:RegisterEventListener(slot0, slot2.SHOW_BUFFER, slot0.onShowBuffer)
 	slot0._userFleet:RegisterEventListener(slot0, slot3.POINT_HIT_CHARGE, slot0.onPointHitSight)
 	slot0._userFleet:RegisterEventListener(slot0, slot3.POINT_HIT_CANCEL, slot0.onPointHitSight)
 	slot0._userFleet:RegisterEventListener(slot0, slot2.MANUAL_SUBMARINE_SHIFT, slot0.onManualSubShift)
+	slot0._userFleet:RegisterEventListener(slot0, slot2.FLEET_BLIND, slot0.onFleetBlind)
 
 	slot0._sightView = slot0.Battle.BattleOpticalSightView.New(slot0._ui:findTF("ChargeAreaContainer"))
 
@@ -415,8 +429,14 @@ function slot6.onRemoveUnit(slot0, slot1)
 
 	if slot1.Data.type == slot0.UnitType.ENEMY_UNIT and not slot2:IsBoss() then
 		slot0:unregisterUnitEvent(slot2)
-	elseif slot2:IsMainFleetUnit() and slot2:GetIFF() == slot1.FRIENDLY_CODE then
-		slot0:unregisterPlayerMainUnitEvent(slot2)
+	elseif slot2:GetIFF() == slot1.FRIENDLY_CODE then
+		if slot0._inkView then
+			slot0._inkView:RemoveHollow(slot2)
+		end
+
+		if slot2:IsMainFleetUnit() then
+			slot0:unregisterPlayerMainUnitEvent(slot2)
+		end
 	end
 
 	if slot1.Data.deadReason == slot0.UnitDeathReason.LEAVE and slot0._enemyHpBar:GetCurrentTarget() and slot0._enemyHpBar:GetCurrentTarget() == slot1.Data.unit then
@@ -491,8 +511,32 @@ end
 function slot6.onPointHitSight(slot0, slot1)
 	if slot1.ID == slot0.POINT_HIT_CHARGE then
 		slot0._sightView:SetActive(true)
+
+		slot0._updateViewList[slot0._sightView] = true
 	elseif slot2 == slot0.POINT_HIT_CANCEL then
 		slot0._sightView:SetActive(false)
+
+		slot0._updateViewList[slot0._sightView] = nil
+	end
+end
+
+function slot6.onFleetBlind(slot0, slot1)
+	if not slot0._inkView then
+		slot0:InitInkView()
+	end
+
+	slot3 = slot1.Dispatcher
+
+	if slot1.Data.isBlind then
+		slot0._inkView:SetActive(true, slot3:GetUnitList())
+		slot0._skillView:HideSkillButton(true)
+
+		slot0._updateViewList[slot0._inkView] = true
+	else
+		slot0._inkView:SetActive(false)
+		slot0._skillView:HideSkillButton(false)
+
+		slot0._updateViewList[slot0._inkView] = nil
 	end
 end
 
@@ -565,6 +609,12 @@ function slot6.Dispose(slot0)
 		slot0._jammingView:Dispose()
 
 		slot0._jammingView = nil
+	end
+
+	if slot0._inkView then
+		slot0._inkView:Dispose()
+
+		slot0._inkView = nil
 	end
 
 	slot0.super.Dispose(slot0)
