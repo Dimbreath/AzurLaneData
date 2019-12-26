@@ -7012,6 +7012,130 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[1960] = {
+		name = "海魂迷彩",
+		type = 10,
+		id = 1960,
+		tech = 0,
+		speciality = "无",
+		range = 0,
+		scatter = "无",
+		ambush_extra = 0,
+		value_2 = 35,
+		icon = "1960",
+		value_1 = "8",
+		attribute_2 = "durability",
+		avoid_extra = 0,
+		rarity = 4,
+		angle = 0,
+		nationality = 7,
+		ammo = "无",
+		is_siren = 0,
+		descrip = "似乎是能提高战斗力的涂装",
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[1961] = {
+		is_siren = 0,
+		id = 1961,
+		base = 1960,
+		value_2 = 40,
+		value_1 = "9",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1962] = {
+		is_siren = 0,
+		id = 1962,
+		base = 1960,
+		value_2 = 45,
+		value_1 = "10",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1963] = {
+		is_siren = 0,
+		id = 1963,
+		base = 1960,
+		value_2 = 50,
+		value_1 = "11",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1964] = {
+		is_siren = 0,
+		id = 1964,
+		base = 1960,
+		value_2 = 55,
+		value_1 = "12",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1965] = {
+		is_siren = 0,
+		id = 1965,
+		base = 1960,
+		value_2 = 60,
+		value_1 = "13",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1966] = {
+		is_siren = 0,
+		id = 1966,
+		base = 1960,
+		value_2 = 65,
+		value_1 = "14",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1967] = {
+		is_siren = 0,
+		id = 1967,
+		base = 1960,
+		value_2 = 70,
+		value_1 = "15",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1968] = {
+		is_siren = 0,
+		id = 1968,
+		base = 1960,
+		value_2 = 80,
+		value_1 = "16",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1969] = {
+		is_siren = 0,
+		id = 1969,
+		base = 1960,
+		value_2 = 90,
+		value_1 = "17",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1970] = {
+		is_siren = 0,
+		id = 1970,
+		base = 1960,
+		value_2 = 100,
+		value_1 = "18",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[2000] = {
 		name = "燃油滤清器",
 		type = 10,
@@ -35287,7 +35411,7 @@ pg.equip_data_statistics = {
 		nationality = 2,
 		ammo = "通常",
 		is_siren = 0,
-		descrip = "说明未填写",
+		descrip = "原计划作为战斗机服役的机型，因需求变更增加了挂载鱼雷的能力",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -59469,6 +59593,60 @@ pg.equip_data_statistics = {
 		equip_parameters = {},
 		label = {}
 	},
+	[60471] = {
+		name = "航空攻击展示-龙凤I",
+		type = 99,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		ammo = "无",
+		descrip = "航母空袭展示用",
+		value_3 = 0,
+		id = 60471,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			60471
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60472] = {
+		id = 60472,
+		name = "航空攻击展示-龙凤II",
+		base = 60471,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			60472
+		},
+		property_rate = {}
+	},
+	[60473] = {
+		id = 60473,
+		name = "航空攻击展示-龙凤III",
+		base = 60471,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			60473
+		},
+		property_rate = {}
+	},
 	[61007] = {
 		name = "约克城技能随机扫射海面LV1",
 		type = 1,
@@ -65596,6 +65774,49 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[79481] = {
+		name = "专属弹幕-能代I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		ammo = "无",
+		descrip = "技能弹幕",
+		value_3 = 0,
+		id = 79481,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			60481
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[79482] = {
+		id = 79482,
+		name = "专属弹幕-能代II",
+		base = 79481,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			60482
+		},
+		property_rate = {}
+	},
 	[89000] = {
 		name = "随机单词生成器",
 		type = 10,
@@ -71643,6 +71864,17 @@ pg.equip_data_statistics = {
 		1944,
 		1945,
 		1946,
+		1960,
+		1961,
+		1962,
+		1963,
+		1964,
+		1965,
+		1966,
+		1967,
+		1968,
+		1969,
+		1970,
 		2000,
 		2001,
 		2002,
@@ -75176,6 +75408,9 @@ pg.equip_data_statistics = {
 		60452,
 		60453,
 		60461,
+		60471,
+		60472,
+		60473,
 		61007,
 		61008,
 		61009,
@@ -75456,6 +75691,8 @@ pg.equip_data_statistics = {
 		79462,
 		79471,
 		79472,
+		79481,
+		79482,
 		89000,
 		89001,
 		89002,

@@ -29,7 +29,7 @@ pg.item_data_chat = {
 		time_second = 2592000,
 		id = 300,
 		time_limit_type = 1,
-		desc = "<color=#ffffff>感谢您对于动员指令的响应，指挥官</color>\n有效期30天",
+		desc = "<color=#ffffff>感谢您对于动员指令的响应，指挥官</color>\n<color=#A7A7AAFF>有效期30天</color>",
 		scene = {}
 	},
 	[301] = {
@@ -37,7 +37,7 @@ pg.item_data_chat = {
 		time_second = 2592000,
 		id = 301,
 		time_limit_type = 1,
-		desc = "指挥部欢迎您的归来，期待您今后的活跃，指挥官\n<color=#A7A7AAFF>有效期30天</color>",
+		desc = "<color=#ffffff>指挥部欢迎您的归来，期待您今后的活跃</color>\n<color=#A7A7AAFF>有效期30天</color>",
 		scene = {}
 	},
 	all = {

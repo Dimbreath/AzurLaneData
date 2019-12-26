@@ -15,6 +15,7 @@ slot0.ON_EVENT_LIST_UPDATE = "LevelMediator2:ON_EVENT_LIST_UPDATE"
 slot0.ON_OPEN_SHAM = "LevelMediator2:ON_OPEN_SHAM"
 slot0.ON_OPEN_SHAM_PRE_COMABT = "LevelMediator2:ON_OPEN_SHAM_PRE_COMABT"
 slot0.ON_OPEN_SHAM_SHOP = "LevelMediator2.ON_OPEN_SHAM_SHOP"
+slot0.ON_START = "ON_START"
 slot0.ON_PERFORM_COMBAT = "LevelMediator2.ON_PERFORM_COMBAT"
 slot0.ON_ELITE_OEPN_DECK = "LevelMediator2:ON_ELITE_OEPN_DECK"
 slot0.ON_ELITE_CLEAR = "LevelMediator2:ON_ELITE_CLEAR"
@@ -501,6 +502,41 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.ON_SUBMIT_TASK, function (slot0, slot1)
 		slot0:sendNotification(GAME.SUBMIT_TASK, slot1)
+	end)
+	slot0:bind(slot0.ON_START, function (slot0)
+		slot1 = getProxy(ChapterProxy):getActiveChapter()
+		slot3 = slot1:getStageId(slot1.fleet.line.row, slot1.fleet.line.column)
+
+		seriesAsync({
+			function (slot0)
+				slot1 = {}
+
+				for slot5, slot6 in pairs(slot0.ships) do
+					table.insert(slot1, slot6)
+				end
+
+				if Fleet.EnergyCheck(slot1, slot0.name, slot0) then
+					slot0()
+				end
+			end,
+			function (slot0)
+				if getProxy(PlayerProxy):getRawData():GoldMax(1) then
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						content = i18n("gold_max_tip_title") .. i18n("resource_max_tip_battle"),
+						onYes = slot0,
+						weight = LayerWeightConst.SECOND_LAYER
+					})
+				else
+					slot0()
+				end
+			end,
+			function (slot0)
+				slot0:sendNotification(GAME.BEGIN_STAGE, {
+					system = SYSTEM_SCENARIO,
+					stageId = slot0.sendNotification
+				})
+			end
+		})
 	end)
 
 	slot0.player = slot1:getData()

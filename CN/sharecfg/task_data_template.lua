@@ -85045,6 +85045,1064 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[15245] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92255,
+		type = 36,
+		name = "『新日系活动』-日常建造",
+		count_inherit = 0,
+		desc = "建造舰船3次。",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15245,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59147,
+				300
+			}
+		}
+	},
+	[15246] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92256,
+		type = 36,
+		name = "『新日系活动』-日常出击",
+		count_inherit = 0,
+		desc = "舰队出征，获得15次胜利。",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15246,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59147,
+				300
+			}
+		}
+	},
+	[15247] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92257,
+		type = 36,
+		name = "『新日系活动』-日常困难本",
+		count_inherit = 0,
+		desc = "通关1次任意困难关卡 ",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15247,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59147,
+				150
+			}
+		}
+	},
+	[15248] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92258,
+		type = 6,
+		name = "『新日系活动』通关A1/C1",
+		count_inherit = 0,
+		desc = "通关A1或C1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15249",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15248,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1300001,
+			1300021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59147,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15249] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92259,
+		type = 6,
+		name = "『新日系活动』通关A2/C2",
+		count_inherit = 0,
+		desc = "通关A2或C2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15250",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15249,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1300002,
+			1300022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59147,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15250] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92260,
+		type = 6,
+		name = "『新日系活动』通关A3/C3",
+		count_inherit = 0,
+		desc = "通关A3或C3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15251",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15250,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1300003,
+			1300023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59147,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15251] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92261,
+		type = 6,
+		name = "『新日系活动』通关B1/D1",
+		count_inherit = 0,
+		desc = "通关B1或D1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15252",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15251,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1300004,
+			1300024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59147,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15252] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92262,
+		type = 6,
+		name = "『新日系活动』通关B2/D2",
+		count_inherit = 0,
+		desc = "通关B2或D2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15253",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15252,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1300005,
+			1300025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59147,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15253] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92263,
+		type = 6,
+		name = "『新日系活动』通关B3/D3",
+		count_inherit = 0,
+		desc = "通关B3或D3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15254",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15253,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1300006,
+			1300026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59147,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15254] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92264,
+		type = 6,
+		name = "『新日系活动』通关SP",
+		count_inherit = 0,
+		desc = "通关SP",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1300041,
+		id = 15254,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1300041",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15255] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92265,
+		type = 6,
+		name = "『新日系活动』通关D3",
+		count_inherit = 0,
+		desc = "通关D3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1300026,
+		id = 15255,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1300026",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				160,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15256] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92266,
+		type = 6,
+		name = "『新日系活动』A1/C1的3星",
+		count_inherit = 0,
+		desc = "完成A1或C1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15257",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15256,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1300001,
+			1300021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15257] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92267,
+		type = 6,
+		name = "『新日系活动』A2/C2的3星",
+		count_inherit = 0,
+		desc = "完成A2或C2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15258",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15257,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1300002,
+			1300022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15258] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92268,
+		type = 6,
+		name = "『新日系活动』A3/C3的3星",
+		count_inherit = 0,
+		desc = "完成A3或C3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15259",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15258,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1300003,
+			1300023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15259] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92269,
+		type = 6,
+		name = "『新日系活动』B1/D1的3星",
+		count_inherit = 0,
+		desc = "完成B1或D1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15260",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15259,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1300004,
+			1300024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15260] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92270,
+		type = 6,
+		name = "『新日系活动』B2/D2的3星",
+		count_inherit = 0,
+		desc = "完成B2或D2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15261",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15260,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1300005,
+			1300025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15261] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92271,
+		type = 6,
+		name = "『新日系活动』B3/D3的3星",
+		count_inherit = 0,
+		desc = "完成B3或D3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15261,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1300006,
+			1300026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15262] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92272,
+		type = 6,
+		name = "『新日系活动』角色收集：鬼怒",
+		count_inherit = 0,
+		desc = "[{namecode:181}]突破至满星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 302084,
+		id = 15262,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "302084",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59146,
+				400
+			}
+		}
+	},
+	[15263] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92273,
+		type = 6,
+		name = "『新日系活动』角色收集：响",
+		count_inherit = 0,
+		desc = "[{namecode:12}]突破至满星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 301104,
+		id = 15263,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "301104",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59146,
+				400
+			}
+		}
+	},
+	[15264] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92274,
+		type = 6,
+		name = "『新日系活动』角色收集：霞",
+		count_inherit = 0,
+		desc = "[{namecode:180}]突破至满星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 301814,
+		id = 15264,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "301814",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59146,
+				400
+			}
+		}
+	},
+	[15265] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92275,
+		type = 6,
+		name = "『新日系活动』角色收集：龙凤",
+		count_inherit = 0,
+		desc = "[{namecode:179}]突破至满星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 306074,
+		id = 15265,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "306074",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59146,
+				600
+			}
+		}
+	},
+	[15266] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92276,
+		type = 6,
+		name = "『新日系活动』角色收集：能代",
+		count_inherit = 0,
+		desc = "[{namecode:50}]突破至满星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 302214,
+		id = 15266,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "302214",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59146,
+				600
+			}
+		}
+	},
+	[15267] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92277,
+		type = 6,
+		name = "『新日系活动』角色收集：骏河",
+		count_inherit = 0,
+		desc = "[{namecode:175}]突破至满星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 305144,
+		id = 15267,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "305144",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59146,
+				600
+			}
+		}
+	},
+	[15268] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92278,
+		type = 6,
+		name = "『新日系活动』角色刷关：晓",
+		count_inherit = 0,
+		desc = "使用满星{namecode:11}击败A2或C2敌方旗舰10次且存活",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15268,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1310113,
+			1310713
+		},
+		target_id_2 = {
+			301094
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59146,
+				100
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15269] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92279,
+		type = 6,
+		name = "『新日系活动』角色刷关：时雨",
+		count_inherit = 0,
+		desc = "使用满星{namecode:17}击败A3或C3敌方旗舰10次且存活",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15269,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1310213,
+			1310813
+		},
+		target_id_2 = {
+			301154
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59146,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15270] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92280,
+		type = 6,
+		name = "『新日系活动』角色刷关：翔鹤",
+		count_inherit = 0,
+		desc = "使用满星{namecode:95}击败B2或D2敌方旗舰10次且存活",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15270,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1310413,
+			1311013
+		},
+		target_id_2 = {
+			307054
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59146,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15271] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92281,
+		type = 6,
+		name = "『新日系活动』角色刷关：爱宕",
+		count_inherit = 0,
+		desc = "使用满星{namecode:67}击败B3或D3敌方旗舰10次且存活",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15271,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1310513,
+			1311113
+		},
+		target_id_2 = {
+			303124
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59146,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
 	[30101] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -94809,6 +95867,33 @@ pg.task_data_template = {
 		15235,
 		15236,
 		15237,
+		15245,
+		15246,
+		15247,
+		15248,
+		15249,
+		15250,
+		15251,
+		15252,
+		15253,
+		15254,
+		15255,
+		15256,
+		15257,
+		15258,
+		15259,
+		15260,
+		15261,
+		15262,
+		15263,
+		15264,
+		15265,
+		15266,
+		15267,
+		15268,
+		15269,
+		15270,
+		15271,
 		30101,
 		30102,
 		30103,

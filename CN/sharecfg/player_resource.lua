@@ -245,6 +245,11 @@ pg.player_resource = {
 		name = "xunliandianshu_r",
 		itemid = 59146
 	},
+	[141] = {
+		id = 141,
+		name = "xinrixi_pt",
+		itemid = 59147
+	},
 	[1001] = {
 		id = 1001,
 		name = "vote2019_pt",
@@ -277,6 +282,9 @@ pg.player_resource = {
 		},
 		vote2019_pt = {
 			1001
+		},
+		xinrixi_pt = {
+			141
 		},
 		xunliandianshu_r = {
 			140
@@ -476,6 +484,7 @@ pg.player_resource = {
 		138,
 		139,
 		140,
+		141,
 		1001,
 		2001,
 		2002,

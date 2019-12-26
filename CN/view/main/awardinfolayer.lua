@@ -133,9 +133,11 @@ function slot0.onUIAnimEnd(slot0, slot1)
 		slot0.inAniming = true
 		slot0.containerCG.alpha = 0
 
+		setActive(slot0.container, false)
 		slot0:doAnim(function ()
-			slot0:displayAwards()
-			slot0.displayAwards:playAnim(slot0.displayAwards)
+			setActive(slot0.container, true)
+			setActive:displayAwards()
+			setActive.displayAwards:playAnim(setActive.displayAwards)
 		end)
 	else
 		slot0:displayAwards()

@@ -412,6 +412,22 @@ function pg.PoolMgr.GetSprite(slot0, slot1, slot2, slot3, slot4)
 	end)
 end
 
+function pg.PoolMgr.DecreasSprite(slot0, slot1, slot2)
+	slot4 = typeof(Sprite)
+
+	if slot0.pools_pack[slot1] and slot0.pools_pack[slot3].type == slot4 then
+		if slot0.pools_pack[slot3]:Remove(slot2) then
+			ResourceMgr.Inst:ClearBundleRef(slot3, true, false)
+		end
+
+		if slot0.pools_pack[slot3]:GetAmount() <= 0 then
+			slot0.pools_pack[slot3]:Clear()
+
+			slot0.pools_pack[slot3] = nil
+		end
+	end
+end
+
 function pg.PoolMgr.DestroySprite(slot0, slot1)
 	slot3 = typeof(Sprite)
 

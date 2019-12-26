@@ -57,7 +57,7 @@ pg.ship_data_create_material = {
 	{
 		use_gold = 1500,
 		name = "限时建造",
-		build_anim = "building_hololive",
+		build_anim = "building",
 		type = 2,
 		ship_icon = "1",
 		build_voice = "",
@@ -70,15 +70,15 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>精锐舰船</color>：12%",
 			"<color=#3dc6ff>稀有舰船</color>：51%",
 			"普通舰船：30%",
-			"<color=#ffde38>白上吹雪</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>{namecode:179}</color>：2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>湊阿库娅</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>{namecode:175}</color>：2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>时乃空</color>：0.5%",
+			"<color=#ffde38>{namecode:50}</color>：0.5%",
 			" ",
-			"<color=#d797ff>夏色祭</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>{namecode:180}</color>：2.5%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#d797ff>百鬼绫目</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>{namecode:181}</color>：0.7%"
 		}
 	},
 	{

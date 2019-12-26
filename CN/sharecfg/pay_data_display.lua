@@ -684,7 +684,7 @@ pg.pay_data_display = {
 		subject = "2019国庆礼盒",
 		extra_service = 3,
 		money = 198,
-		tag = 2,
+		tag = 1,
 		gem = 0,
 		limit_type = 2,
 		picture = "lihe1_l",
@@ -769,6 +769,197 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[16] = {
+		limit_arg = 1,
+		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		name = "新年福袋2020",
+		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
+		subject = "新年福袋2020",
+		extra_service = 3,
+		money = 198,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai1",
+		id_str = "com.bilibili.blhx.zuanshi118",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 16,
+		airijp_id = "com.yostarjp.azurlane.diamond110",
+		extra_service_item = {
+			{
+				2,
+				69908,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					12,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69908,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			}
+		}
+	},
+	[17] = {
+		limit_arg = 1,
+		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		name = "新年福袋复刻(2019)",
+		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
+		subject = "新年福袋复刻(2019)",
+		extra_service = 3,
+		money = 198,
+		tag = 1,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai",
+		id_str = "com.bilibili.blhx.zuanshi119",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 17,
+		airijp_id = "com.yostarjp.azurlane.diamond111",
+		extra_service_item = {
+			{
+				2,
+				69903,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					12,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69903,
+				1
+			},
+			{
+				1,
+				4,
+				2019
+			},
+			{
+				2,
+				15008,
+				50
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -783,7 +974,9 @@ pg.pay_data_display = {
 		12,
 		13,
 		14,
-		15
+		15,
+		16,
+		17
 	}
 }
 

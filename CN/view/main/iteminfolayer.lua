@@ -150,7 +150,9 @@ function slot0.setItem(slot0, slot1)
 
 			slot2 = false
 		elseif slot4 == Item.BLUEPRINT_TYPE then
-			if getProxy(TechnologyProxy):GetBlueprint4Item(slot0.itemVO.id) and slot5:getBluePrintById(slot6):isMaxLevel() then
+			slot6 = getProxy(TechnologyProxy).GetBlueprint4Item(slot5, slot0.itemVO.id)
+
+			if not LOCK_FRAGMENT_SHOP and slot6 and slot5:getBluePrintById(slot6):isMaxLevel() then
 				setActive(slot0.resolveBtn, true)
 			end
 

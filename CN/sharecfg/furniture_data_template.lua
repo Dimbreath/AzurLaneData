@@ -2927,6 +2927,48 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[160] = {
+		advice = 0,
+		describe = "祭仪之岛《天岩岛》的微缩模型，似乎还能隐约感受到散发的灵气——纪念参与《浮樱影华》特殊作战中获得的最高荣誉",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "樱华纪念章",
+		is_get_time_note = 1,
+		rarity = 5,
+		gain_by = "浮樱影华",
+		themeId = 0,
+		icon = "191226JPxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 160,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"191226JP",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		advice = 0,
 		describe = "本ID禁用",
@@ -3803,6 +3845,76 @@ pg.furniture_data_template = {
 					"Houzhai_snow01",
 					"action1"
 				}
+			}
+		},
+		interAction_group = {}
+	},
+	[100012] = {
+		advice = 0,
+		describe = "鼠年快乐~叽叽~",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "变身装置·子鼠",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 0,
+		icon = "bianhuaxiangicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 100012,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			5,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bianhuaxiangB",
+				"normal"
+			},
+			{
+				"bianhuaxiangT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"bianhuaxiangCharControl"
 			}
 		},
 		interAction_group = {}
@@ -68274,6 +68386,899 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[57001] = {
+		advice = 0,
+		describe = "希望新的一年也能平安幸福~",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "初诣之夜地板",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 57,
+		icon = "dibanmh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57001,
+		picture = "mh2/dibanmh2",
+		comfortable = 4,
+		tag = 4,
+		size = {
+			2,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57002] = {
+		advice = 0,
+		describe = "希望新的一年也能平安幸福~",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "初诣之夜墙纸",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 57,
+		icon = "qiangbimh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57002,
+		picture = "mh2/qiangbimh2",
+		comfortable = 4,
+		tag = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57101] = {
+		advice = 0,
+		describe = "明亮的灯光，点燃祭典热闹的气氛。",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "新年灯笼",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 57,
+		icon = "denglongmh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57101,
+		picture = "mh2/denglongmh2",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			7,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57102] = {
+		advice = 0,
+		describe = "指引前往神社道路的石灯。",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "神社石灯",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 57,
+		icon = "dengmh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57102,
+		picture = "mh2/dengmh2",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57103] = {
+		advice = 0,
+		describe = "心诚则灵心诚则灵~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "啾啾小神社",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 57,
+		icon = "jitaimh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57103,
+		picture = "mh2/jitaimh2",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57104] = {
+		advice = 0,
+		describe = "参拜要带上虔诚的心哦~",
+		count = 3,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "神社石板路",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 57,
+		icon = "lumh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57104,
+		picture = "mh2/lumh2",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57105] = {
+		advice = 0,
+		describe = "梅、竹、松，佑新春。",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "祝福门松",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 57,
+		icon = "mensongmh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 57105,
+		picture = "mh2/mensongmh2",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57106] = {
+		advice = 0,
+		describe = "参拜要带上虔诚的心哦~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "石造鸟居",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 57,
+		icon = "niaojumh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 57106,
+		picture = "mh2/niaojumh2",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57107] = {
+		advice = 0,
+		describe = "有什么特别的新年活动呢~？",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "神社公告",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 57,
+		icon = "paizimh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57107,
+		picture = "mh2/paizimh2",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57108] = {
+		advice = 0,
+		describe = "好看的手鞠球，祝愿新年平安。",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "手鞠球(黑)",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 57,
+		icon = "qiu2mh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57108,
+		picture = "mh2/qiu2mh2",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57109] = {
+		advice = 0,
+		describe = "好看的手鞠球，祝愿新年平安。",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "手鞠球(红)",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 57,
+		icon = "qiu3mh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57109,
+		picture = "mh2/qiu3mh2",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57110] = {
+		advice = 0,
+		describe = "好看的手鞠球，祝愿新年平安。",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "手鞠球(彩)",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 57,
+		icon = "qiumh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57110,
+		picture = "mh2/qiumh2",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57111] = {
+		advice = 0,
+		describe = "奇妙的塔，里面其实什么都没有",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "啾啾之塔",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 57,
+		icon = "tamh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57111,
+		picture = "mh2/tamh2",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57112] = {
+		advice = 0,
+		describe = "要来一根好吃的团子吗~?",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "三色糯米团子",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 57,
+		icon = "wanzi2mh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57112,
+		picture = "mh2/wanzi2mh2",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57113] = {
+		advice = 0,
+		describe = "要来一根好吃的团子吗~?",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "红糖糯米团子",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 57,
+		icon = "wanzimh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57113,
+		picture = "mh2/wanzimh2",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57114] = {
+		advice = 0,
+		describe = "呼~泡出了焕然一新的感觉~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "冬日温泉",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 57,
+		icon = "wenquanmh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 57114,
+		picture = "mh2/wenquanmh2",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-5.3,
+					-155.3
+				},
+				{
+					1,
+					1
+				},
+				"mh2/wenquanmh2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57115] = {
+		advice = 0,
+		describe = "绘马、福袋、破魔矢~你想要的这里都有啾！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "啾啾神社摊",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 57,
+		icon = "wuzi2mh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57115,
+		picture = "mh2/wuzi2mh2",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57116] = {
+		advice = 0,
+		describe = "章鱼烧新鲜出炉啾~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "啾啾小吃摊(章鱼烧)",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 57,
+		icon = "wuzimh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 57116,
+		picture = "mh2/wuzimh2",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57117] = {
+		advice = 0,
+		describe = "小心烫嘴哦~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "啾啾章鱼烧",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 57,
+		icon = "zhangyushaomh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57117,
+		picture = "mh2/zhangyushaomh2",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57118] = {
+		advice = 0,
+		describe = "“咚，咚，咚。”让烦恼随着钟声离去吧~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "啾啾大钟",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 57,
+		icon = "zhongmh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57118,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhong",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[57119] = {
+		advice = 0,
+		describe = "现做现卖，好吃的大阪烧啾~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "啾啾小吃摊(大阪烧)",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 57,
+		icon = "wuzi3mh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		id = 57119,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			7,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xiaowuB",
+				"normal"
+			},
+			{
+				"xiaowuT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"xiaowuCharControl",
+				"xiaowuCharControl2"
+			}
+		},
+		interAction_group = {}
+	},
+	[57120] = {
+		advice = 0,
+		describe = "挂着巨大提灯，很有风格的…啾门?",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "风雷啾门？",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 57,
+		icon = "menmh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 57120,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			5,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"menB",
+				"normal"
+			},
+			{
+				"menT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"menBCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -68338,6 +69343,7 @@ pg.furniture_data_template = {
 		153,
 		155,
 		157,
+		160,
 		100001,
 		100002,
 		100003,
@@ -68349,6 +69355,7 @@ pg.furniture_data_template = {
 		100009,
 		100010,
 		100011,
+		100012,
 		1001,
 		1002,
 		1101,
@@ -69848,7 +70855,29 @@ pg.furniture_data_template = {
 		56112,
 		56113,
 		56114,
-		56115
+		56115,
+		57001,
+		57002,
+		57101,
+		57102,
+		57103,
+		57104,
+		57105,
+		57106,
+		57107,
+		57108,
+		57109,
+		57110,
+		57111,
+		57112,
+		57113,
+		57114,
+		57115,
+		57116,
+		57117,
+		57118,
+		57119,
+		57120
 	}
 }
 
