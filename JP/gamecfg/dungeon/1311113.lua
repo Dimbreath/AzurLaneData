@@ -237,11 +237,24 @@ return {
 					}
 				},
 				{
+					triggerType = 3,
+					waveIndex = 500,
+					preWaves = {
+						102,
+						101
+					},
+					triggerParams = {
+						id = "FUYINGYINGHUA24"
+					}
+				},
+				{
 					triggerType = 0,
 					waveIndex = 104,
 					conditionType = 0,
 					preWaves = {
-						400
+						500,
+						102,
+						101
 					},
 					triggerParam = {},
 					spawn = {
@@ -329,6 +342,17 @@ return {
 					},
 					triggerParams = {
 						timeout = 1
+					}
+				},
+				{
+					triggerType = 3,
+					key = true,
+					waveIndex = 501,
+					preWaves = {
+						205
+					},
+					triggerParams = {
+						id = "FUYINGYINGHUA25"
 					}
 				}
 			}

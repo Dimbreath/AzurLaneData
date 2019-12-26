@@ -69,7 +69,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "デタラメ？私たちの研究がまだその分野に足を踏み入っていないだけよ",
+			say = "デタラメ？私たちの研究がまだその分野に足を踏み入れていないだけよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
