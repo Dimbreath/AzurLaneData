@@ -57,7 +57,7 @@ pg.ship_data_create_material = {
 	{
 		use_gold = 1500,
 		name = "Limited Build",
-		build_anim = "building_hololive",
+		build_anim = "building",
 		type = 2,
 		ship_icon = "1",
 		build_voice = "",
@@ -70,11 +70,11 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Elite</color>：12%",
 			"<color=#3dc6ff>Rare</color>：51%",
 			"Common：30%",
-			"<color=#ffde38>Shirakami Fubuki</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Minato Aqua</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Tokino Sora</color>：0.5%",
-			"<color=#d797ff>Natsuiro Matsuri</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>Nakiri Ayame</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>{namecode:179}</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>{namecode:175}</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>{namecode:50}</color>：0.5%",
+			"<color=#d797ff>{namecode:180}</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>{namecode:181}</color>：0.7%"
 		}
 	},
 	{

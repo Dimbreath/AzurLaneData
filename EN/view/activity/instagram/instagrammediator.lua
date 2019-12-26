@@ -66,8 +66,9 @@ function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	function slot4()
-		slot0.viewComponent:UpdateInstagram(slot1.id)
-		slot0.viewComponent.UpdateInstagram.viewComponent:UpdateSelectedInstagram(slot1.id)
+		slot0.viewComponent:SetProxy(getProxy(InstagramProxy))
+		slot0.viewComponent.SetProxy.viewComponent:UpdateInstagram(slot1.id)
+		slot0.viewComponent.SetProxy.viewComponent.UpdateInstagram.viewComponent:UpdateSelectedInstagram(slot1.id)
 	end
 
 	if slot1:getName() == GAME.ACT_INSTAGRAM_OP_DONE then
@@ -84,6 +85,8 @@ function slot0.handleNotification(slot0, slot1)
 			slot4()
 		elseif slot3.cmd == ActivityConst.INSTAGRAM_OP_ACTIVE or slot3.cmd == ActivityConst.INSTAGRAM_OP_UPDATE then
 			slot0.viewComponent:InitList()
+			slot4()
+		elseif slot3.cmd == ActivityConst.INSTAGRAM_OP_MARK_READ then
 			slot4()
 		end
 	end

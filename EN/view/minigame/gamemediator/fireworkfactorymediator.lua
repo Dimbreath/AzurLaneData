@@ -30,7 +30,7 @@ class("FireworkFactoryMediator", import(".MiniHubMediator")).handleNotification 
 			})
 		end
 
-		slot0.viewComponent:OnSendMiniGameOPDone(slot3.argList)
+		slot0.viewComponent:OnSendMiniGameOPDone(slot3)
 	elseif slot2 == GAME.MODIFY_MINI_GAME_DATA_DONE then
 		slot0.viewComponent:OnModifyMiniGameDataDone(slot3)
 	end

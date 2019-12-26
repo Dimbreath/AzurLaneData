@@ -13,7 +13,7 @@ pg.chapter_template_loop = {
 		group_num = 1,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 6,
+		investigation_ratio = 0,
 		avoid_ratio = 3,
 		time = 99999999,
 		mine_id = 2001,
@@ -55,9 +55,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10101210
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10101100,
 			10101101,
@@ -142,11 +140,6 @@ pg.chapter_template_loop = {
 		ambush_ratio_extra = {
 			{
 				-20000
-			},
-			{
-				4,
-				3,
-				30000
 			}
 		},
 		theme = {
@@ -189,7 +182,7 @@ pg.chapter_template_loop = {
 		group_num = 1,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 6,
+		investigation_ratio = 0,
 		avoid_ratio = 3,
 		time = 43200,
 		mine_id = 2001,
@@ -231,9 +224,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10102210
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10102100,
 			10102101,
@@ -377,17 +368,10 @@ pg.chapter_template_loop = {
 				0
 			}
 		},
-		ambush_event_ratio = {
-			{
-				3001,
-				5000
-			}
-		},
+		ambush_event_ratio = {},
 		ambush_ratio_extra = {
 			{
-				4,
-				3,
-				-10000
+				-20000
 			}
 		},
 		theme = {
@@ -441,7 +425,7 @@ pg.chapter_template_loop = {
 		group_num = 1,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 7,
+		investigation_ratio = 0,
 		avoid_ratio = 3,
 		time = 43200,
 		mine_id = 2001,
@@ -483,9 +467,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10103210
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10103100,
 			10103101,
@@ -650,17 +632,10 @@ pg.chapter_template_loop = {
 				0
 			}
 		},
-		ambush_event_ratio = {
-			{
-				3001,
-				5000
-			}
-		},
+		ambush_event_ratio = {},
 		ambush_ratio_extra = {
 			{
-				5,
-				3,
-				-10000
+				-20000
 			}
 		},
 		theme = {
@@ -714,7 +689,7 @@ pg.chapter_template_loop = {
 		group_num = 1,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 8,
+		investigation_ratio = 0,
 		avoid_ratio = 4,
 		time = 43200,
 		mine_id = 2001,
@@ -756,9 +731,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10104210
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10104100,
 			10104101,
@@ -951,17 +924,10 @@ pg.chapter_template_loop = {
 				-35
 			}
 		},
-		ambush_event_ratio = {
-			{
-				3001,
-				5000
-			}
-		},
+		ambush_event_ratio = {},
 		ambush_ratio_extra = {
 			{
-				4,
-				2,
-				-10000
+				-20000
 			}
 		},
 		theme = {
@@ -1004,7 +970,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 10,
+		investigation_ratio = 0,
 		avoid_ratio = 4,
 		time = 43200,
 		mine_id = 2001,
@@ -1058,10 +1024,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10201210,
-			10201211
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10201100,
 			10201101,
@@ -1280,13 +1243,12 @@ pg.chapter_template_loop = {
 				0
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				5000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_day",
 			45,
@@ -1339,7 +1301,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 10,
+		investigation_ratio = 0,
 		avoid_ratio = 4,
 		time = 43200,
 		mine_id = 2001,
@@ -1393,10 +1355,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10202210,
-			10202211
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10202100,
 			10202101,
@@ -1667,13 +1626,12 @@ pg.chapter_template_loop = {
 				-40
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				5000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_day",
 			45,
@@ -1726,7 +1684,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 11,
+		investigation_ratio = 0,
 		avoid_ratio = 5,
 		time = 43200,
 		mine_id = 2001,
@@ -1780,10 +1738,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10203210,
-			10203211
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10203100,
 			10203101,
@@ -2031,13 +1986,12 @@ pg.chapter_template_loop = {
 				0
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				5000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_day",
 			45,
@@ -2090,7 +2044,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 12,
+		investigation_ratio = 0,
 		avoid_ratio = 5,
 		time = 43200,
 		mine_id = 2001,
@@ -2144,10 +2098,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10204210,
-			10204211
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10204100,
 			10204101,
@@ -2376,13 +2327,12 @@ pg.chapter_template_loop = {
 				0
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				5000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_day",
 			40,
@@ -2424,7 +2374,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 14,
+		investigation_ratio = 0,
 		avoid_ratio = 6,
 		time = 43200,
 		mine_id = 2001,
@@ -2478,11 +2428,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10301210,
-			10301211,
-			10301212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10301100,
 			10301101,
@@ -2719,13 +2665,12 @@ pg.chapter_template_loop = {
 				-40
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				5000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_day",
 			45,
@@ -2779,7 +2724,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 14,
+		investigation_ratio = 0,
 		avoid_ratio = 6,
 		time = 43200,
 		mine_id = 2001,
@@ -2833,11 +2778,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10302210,
-			10302211,
-			10302212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10302100,
 			10302101,
@@ -3098,13 +3039,12 @@ pg.chapter_template_loop = {
 				-40
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				5000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_day",
 			45,
@@ -3158,7 +3098,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 15,
+		investigation_ratio = 0,
 		avoid_ratio = 7,
 		time = 43200,
 		mine_id = 2001,
@@ -3212,11 +3152,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10303210,
-			10303211,
-			10303212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10303100,
 			10303101,
@@ -3472,13 +3408,12 @@ pg.chapter_template_loop = {
 				0
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				5000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_day",
 			45,
@@ -3532,7 +3467,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 16,
+		investigation_ratio = 0,
 		avoid_ratio = 7,
 		time = 43200,
 		mine_id = 2001,
@@ -3586,11 +3521,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10304210,
-			10304211,
-			10304212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10304100,
 			10304101,
@@ -3844,13 +3775,12 @@ pg.chapter_template_loop = {
 				-34
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				5000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_day",
 			45,
@@ -3892,7 +3822,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 18,
+		investigation_ratio = 0,
 		avoid_ratio = 8,
 		time = 43200,
 		mine_id = 2001,
@@ -3946,11 +3876,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10401210,
-			10401211,
-			10401212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10401100,
 			10401110,
@@ -4229,13 +4155,12 @@ pg.chapter_template_loop = {
 				-40
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				5000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_BW",
 			45,
@@ -4289,7 +4214,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 18,
+		investigation_ratio = 0,
 		avoid_ratio = 8,
 		time = 43200,
 		mine_id = 2001,
@@ -4343,11 +4268,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10402210,
-			10402211,
-			10402212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10402100,
 			10402110,
@@ -4619,13 +4540,12 @@ pg.chapter_template_loop = {
 				0
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				5000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_BW",
 			45,
@@ -4679,7 +4599,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 19,
+		investigation_ratio = 0,
 		avoid_ratio = 9,
 		time = 43200,
 		mine_id = 2001,
@@ -4733,11 +4653,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10403210,
-			10403211,
-			10403212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10403100,
 			10403110,
@@ -4954,13 +4870,12 @@ pg.chapter_template_loop = {
 				-40
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				5000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_BW",
 			45,
@@ -5014,7 +4929,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 20,
+		investigation_ratio = 0,
 		avoid_ratio = 9,
 		time = 43200,
 		mine_id = 2001,
@@ -5068,11 +4983,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10404210,
-			10404211,
-			10404212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10404100,
 			10404110,
@@ -5437,13 +5348,12 @@ pg.chapter_template_loop = {
 				-40
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				5000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_BW",
 			45,
@@ -5485,7 +5395,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 22,
+		investigation_ratio = 0,
 		avoid_ratio = 10,
 		time = 43200,
 		mine_id = 2001,
@@ -5539,11 +5449,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10501210,
-			10501211,
-			10501212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10501100,
 			10501110,
@@ -5901,13 +5807,12 @@ pg.chapter_template_loop = {
 				0
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				5000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_day",
 			45,
@@ -5961,7 +5866,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 22,
+		investigation_ratio = 0,
 		avoid_ratio = 10,
 		time = 43200,
 		mine_id = 2001,
@@ -6015,11 +5920,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10502210,
-			10502211,
-			10502212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10502100,
 			10502110,
@@ -6315,13 +6216,12 @@ pg.chapter_template_loop = {
 				0
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				5000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_day",
 			45,
@@ -6375,7 +6275,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 23,
+		investigation_ratio = 0,
 		avoid_ratio = 11,
 		time = 43200,
 		mine_id = 2001,
@@ -6429,11 +6329,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10503210,
-			10503211,
-			10503212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10503100,
 			10503110,
@@ -6699,13 +6595,12 @@ pg.chapter_template_loop = {
 				20
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				5000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_day",
 			45,
@@ -6759,7 +6654,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 24,
+		investigation_ratio = 0,
 		avoid_ratio = 11,
 		time = 43200,
 		mine_id = 2001,
@@ -6813,11 +6708,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10504210,
-			10504211,
-			10504212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10504100,
 			10504110,
@@ -7120,13 +7011,12 @@ pg.chapter_template_loop = {
 				0
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				5000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_day",
 			45,
@@ -7168,7 +7058,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 26,
+		investigation_ratio = 0,
 		avoid_ratio = 12,
 		time = 43200,
 		mine_id = 2001,
@@ -7222,11 +7112,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10601210,
-			10601211,
-			10601212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10601100,
 			10601110,
@@ -7522,13 +7408,12 @@ pg.chapter_template_loop = {
 				-40
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				5000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_YW",
 			45,
@@ -7616,7 +7501,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 26,
+		investigation_ratio = 0,
 		avoid_ratio = 12,
 		time = 43200,
 		mine_id = 2001,
@@ -7670,11 +7555,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10602210,
-			10602211,
-			10602212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10602100,
 			10602110,
@@ -8046,13 +7927,12 @@ pg.chapter_template_loop = {
 				0
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				5000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_YW",
 			45,
@@ -8120,7 +8000,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 27,
+		investigation_ratio = 0,
 		avoid_ratio = 13,
 		time = 43200,
 		mine_id = 2001,
@@ -8174,11 +8054,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10603210,
-			10603211,
-			10603212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10603100,
 			10603110,
@@ -8474,13 +8350,12 @@ pg.chapter_template_loop = {
 				-40
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				5000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_YW",
 			45,
@@ -8548,7 +8423,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 28,
+		investigation_ratio = 0,
 		avoid_ratio = 13,
 		time = 43200,
 		mine_id = 2001,
@@ -8602,11 +8477,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10604210,
-			10604211,
-			10604212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10604100,
 			10604110,
@@ -8957,13 +8828,12 @@ pg.chapter_template_loop = {
 				-30
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				5000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_YW",
 			45,
@@ -9020,7 +8890,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 30,
+		investigation_ratio = 0,
 		avoid_ratio = 14,
 		time = 43200,
 		mine_id = 2001,
@@ -9074,11 +8944,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10701210,
-			10701211,
-			10701212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10701100,
 			10701110,
@@ -9278,13 +9144,12 @@ pg.chapter_template_loop = {
 				-40
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				4000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_YW",
 			45,
@@ -9330,7 +9195,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 30,
+		investigation_ratio = 0,
 		avoid_ratio = 14,
 		time = 43200,
 		mine_id = 2001,
@@ -9384,11 +9249,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10702210,
-			10702211,
-			10702212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10702100,
 			10702110,
@@ -9691,13 +9552,12 @@ pg.chapter_template_loop = {
 				33
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				3500
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_YW",
 			45,
@@ -9743,7 +9603,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 31,
+		investigation_ratio = 0,
 		avoid_ratio = 15,
 		time = 43200,
 		mine_id = 2001,
@@ -9797,11 +9657,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10703210,
-			10703211,
-			10703212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10703100,
 			10703110,
@@ -10173,13 +10029,12 @@ pg.chapter_template_loop = {
 				5
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				3000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_YW",
 			45,
@@ -10226,7 +10081,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 32,
+		investigation_ratio = 0,
 		avoid_ratio = 15,
 		time = 43200,
 		mine_id = 2001,
@@ -10280,11 +10135,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10704210,
-			10704211,
-			10704212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10704100,
 			10704110,
@@ -10642,13 +10493,12 @@ pg.chapter_template_loop = {
 				3
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				2500
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_YW",
 			45,
@@ -10694,7 +10544,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 31,
+		investigation_ratio = 0,
 		avoid_ratio = 16,
 		time = 43200,
 		mine_id = 2001,
@@ -10748,11 +10598,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10801210,
-			10801211,
-			10801212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10801100,
 			10801110,
@@ -10977,13 +10823,12 @@ pg.chapter_template_loop = {
 				-18
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				4500
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_day",
 			45,
@@ -11026,7 +10871,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 31,
+		investigation_ratio = 0,
 		avoid_ratio = 17,
 		time = 43200,
 		mine_id = 2001,
@@ -11080,11 +10925,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10802210,
-			10802211,
-			10802212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10802100,
 			10802110,
@@ -11394,13 +11235,12 @@ pg.chapter_template_loop = {
 				0
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				5000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_day",
 			45,
@@ -11444,7 +11284,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 32,
+		investigation_ratio = 0,
 		avoid_ratio = 17,
 		time = 43200,
 		mine_id = 2001,
@@ -11498,11 +11338,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10803210,
-			10803211,
-			10803212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10803100,
 			10803110,
@@ -11874,13 +11710,12 @@ pg.chapter_template_loop = {
 				10
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				5500
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_day",
 			45,
@@ -11925,7 +11760,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 33,
+		investigation_ratio = 0,
 		avoid_ratio = 18,
 		time = 43200,
 		mine_id = 2001,
@@ -11979,11 +11814,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10804210,
-			10804211,
-			10804212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10804100,
 			10804110,
@@ -12417,13 +12248,12 @@ pg.chapter_template_loop = {
 				13
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				6000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_day",
 			45,
@@ -12469,7 +12299,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 32,
+		investigation_ratio = 0,
 		avoid_ratio = 17,
 		time = 43200,
 		mine_id = 2001,
@@ -12523,11 +12353,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10901210,
-			10901211,
-			10901212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10901100,
 			10901110,
@@ -12844,13 +12670,12 @@ pg.chapter_template_loop = {
 				-20
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				5000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_YW",
 			45,
@@ -12893,7 +12718,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 32,
+		investigation_ratio = 0,
 		avoid_ratio = 18,
 		time = 43200,
 		mine_id = 2001,
@@ -12947,11 +12772,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10902210,
-			10902211,
-			10902212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10902100,
 			10902110,
@@ -13305,13 +13126,12 @@ pg.chapter_template_loop = {
 				-29
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				5000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_YW",
 			45,
@@ -13355,7 +13175,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 33,
+		investigation_ratio = 0,
 		avoid_ratio = 18,
 		time = 43200,
 		mine_id = 2001,
@@ -13409,11 +13229,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10903210,
-			10903211,
-			10903212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10903100,
 			10903110,
@@ -13792,13 +13608,12 @@ pg.chapter_template_loop = {
 				3
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				5000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_YW",
 			45,
@@ -13841,7 +13656,7 @@ pg.chapter_template_loop = {
 		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
-		investigation_ratio = 34,
+		investigation_ratio = 0,
 		avoid_ratio = 19,
 		time = 43200,
 		mine_id = 2001,
@@ -13895,11 +13710,7 @@ pg.chapter_template_loop = {
 			}
 		},
 		expedition_id_weight_list = {},
-		ambush_expedition_list = {
-			10904210,
-			10904211,
-			10904212
-		},
+		ambush_expedition_list = {},
 		guarder_expedition_list = {
 			10904100,
 			10904110,
@@ -14300,13 +14111,12 @@ pg.chapter_template_loop = {
 				3
 			}
 		},
-		ambush_event_ratio = {
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
 			{
-				3001,
-				5000
+				-20000
 			}
 		},
-		ambush_ratio_extra = {},
 		theme = {
 			"sea_YW",
 			45,

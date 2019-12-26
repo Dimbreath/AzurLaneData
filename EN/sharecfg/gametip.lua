@@ -7733,7 +7733,7 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		key = "activity_switch_award_pool_failed"
 	},
 	shop_street_activity_tip = {
-		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>11.27 – 12.10</COLOR>)!",
+		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during\n(<color=#A1E400FF>19.12.26 – 20.01.08</COLOR>)!",
 		key = "shop_street_activity_tip"
 	},
 	twitter_link_title = {
@@ -8846,7 +8846,7 @@ Combat Details:
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "Rate Up characters: Shirakami Fubuki,Minato Aqua and more!",
+		tip = "Rate Up characters: Suruga,Ryuuhou and more!",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -10894,7 +10894,7 @@ You can play the minigame without a Game Ticket but will not earn any prizes.</c
 		key = "tips_summergame_exit"
 	},
 	tips_shrine_buff = {
-		tip = "You spent 5 Coins and received a blessing: $1",
+		tip = "You spent 5 Coins and received a blessing",
 		key = "tips_shrine_buff"
 	},
 	tips_shrine_nobuff = {
@@ -11328,6 +11328,14 @@ depends on the amount of damage dealt to the boss.
 		tip = "Combine amount:",
 		key = "compose_amount_prefix"
 	},
+	help_sub_limits = {
+		tip = "Hide/Show ASR",
+		key = "help_sub_limits"
+	},
+	help_sub_display = {
+		tip = "Attack Mode/Support Mode",
+		key = "help_sub_display"
+	},
 	confirm_unlock_ship_main = {
 		tip = "This ship is currently secretary, and cannot be selected again",
 		key = "confirm_unlock_ship_main"
@@ -11439,6 +11447,113 @@ depends on the amount of damage dealt to the boss.
 	title_limit_time = {
 		tip = "「Event」",
 		key = "title_limit_time"
+	},
+	seven_choose_one = {
+		tip = "You may choose only one New Year's gift. \nWould you like <color=#92fc63>$1</color>'s gift? \nYou will receive this character and her greeting. ",
+		key = "seven_choose_one"
+	},
+	help_newyear_feast = {
+		key = "help_newyear_feast",
+		tip = {
+			{
+				info = [[
+- Summary:
+During this event, you can enjoy a handful of minigames and earn Stamps, which can be exchanged for Kinu's skin - "New Year's Blade Demon."
+
+To receive a Stamp, you first need to have a Ticket, which you can get every day by logging in during the event period.
+
+- How to Get Stamps and Tickets You will recieve 1 Ticket a day when you login during the event period.
+
+If you don't login for several days during the event period, you will receive all the Tickets you would have gotten up to that point at the next point you login.
+
+- About the Minigame By tapping the New Year Challenge button, you'll be taken to another screen where you can play Kinu's New Year Training.
+
+When you clear this minigame while in possession of a Ticket, you'll receive 1 Stamp as well as 2 Prayers at the Shrine.
+
+Once you've collected 7 Stamps, you can tap the Check In button on the right to exchange them for Kinu's skin.
+
+Once you've made 7 Prayers at the Shrine, you can claim the New Year's Invitation (2019) from the corresponding event banner.
+
+Note: While you can still play the minigame without a Ticket, you will not receive any rewards from it if you do so.
+You may also quit the minigame at any time without losing a Ticket, but you will not receive rewards from it either.]]
+			}
+		}
+	},
+	help_newyear_shrine = {
+		key = "help_newyear_shrine",
+		tip = {
+			{
+				info = [[
+<size=31><color=#92fc63>TIPS: 
+Tapping the prayer button without any Shrine Visits will still consume coins, but will not grant any blessing.</color></size>
+
+1. Spending tickets to play the fireworks workshop, shooting gallery, or new year's feast minigames will grant Shrine Visits.
+
+2. Tapping the bell rope when you have Shrine Visits will consume 5 coins and grant a blessing.
+
+There are several types of blessings with several different effects:
+
+Education: Reduces the time it takes to train in the Tactical Academy.
+
+Career: Our fleet gets a damage bonus in main story, hard mode, and battle record sorties.
+
+Romance: Your secretary ship gains affection faster.
+
+Blessings remain in effect for one day.
+
+3. An education blessing will not reduce the training time of any lesson in progress when the blessing is activated.
+
+The expiration of the education blessing will not cause any lesson in progress to lengthen.
+
+4. Should you pray for a new blessing when a blessing is already in effect, the new blessing will override the existing one, and its duration will reset.
+
+5. You may only have one active blessing at any one time.]]
+			}
+		}
+	},
+	help_newyear_stamp = {
+		key = "help_newyear_stamp",
+		tip = {
+			{
+				info = "You can acquire Stamps by playing Kinu's New Year Training while in possession of a Ticket.\n\nCollect 7 Stamps to receive the skin!"
+			}
+		}
+	},
+	pt_reconfirm = {
+		tip = "Would you like to buy <color=#ff5c5c>$1</color>?",
+		key = "pt_reconfirm"
+	},
+	qte_game_help = {
+		key = "qte_game_help",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/guinu_help1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/guinu_help2"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	}
 }
 

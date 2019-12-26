@@ -21,7 +21,7 @@ pg.item_data_chat = {
 		time_second = 2592000,
 		id = 300,
 		time_limit_type = 1,
-		desc = "Can be unlocked by collecting points from Returnee Missions. (Lasts for 30 days)",
+		desc = "<color=#ffffff>Can be unlocked by collecting points from Returnee Missions.</color>\n<color=#A7A7AAFF> (Lasts for 30 days)</color>",
 		scene = {}
 	},
 	[301] = {
@@ -29,7 +29,7 @@ pg.item_data_chat = {
 		time_second = 2592000,
 		id = 301,
 		time_limit_type = 1,
-		desc = "Welcome back to the Admiralty, Commander. We expect great things from you.",
+		desc = "<color=#ffffff>Welcome back to the Admiralty, Commander. We expect great things from you.</color>\n<color=#A7A7AAFF></color>",
 		scene = {}
 	},
 	all = {

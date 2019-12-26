@@ -2701,6 +2701,10 @@ function slot0.ExistDivingChampion(slot0)
 	end)
 end
 
+function slot0.IsSkipPrecombat(slot0)
+	return slot0:isLoop() and getProxy(ChapterProxy):GetSkipPrecombat()
+end
+
 function slot0.getTodayDefeatCount(slot0)
 	return getProxy(DailyLevelProxy):getChapterDefeatCount(slot0.configId)
 end

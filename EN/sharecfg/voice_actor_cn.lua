@@ -851,6 +851,18 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Azusa Iwakura",
 		code = 213
+	},
+	{
+		actor_name = "Sayuri Yahagi",
+		code = 214
+	},
+	{
+		actor_name = "Aya Endou",
+		code = 215
+	},
+	{
+		actor_name = "Takeda Mariko",
+		code = 216
 	}
 }
 
