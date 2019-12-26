@@ -24576,7 +24576,6 @@ pg.ship_skin_words = {
 		touch = "Chasing after others is a novel and interesting experience, is it not?",
 		feeling3 = "Be more confident in yourself, Commander. To serve as the commander of Littorio means that have earned the trust of the most glorious ship in all the world. Aren't you proud?",
 		ID = 605020,
-		couple_encourage = "(Veneto) Veneto, how about letting me be flagship every now and then?",
 		expedition = "You need not worry, Commander. For as long as I am here, your commission rewards will be superb.",
 		win_mvp = "Trying to oppose me was your greatest mistake.",
 		home = "Rejoice, Commander, for I am here to bid your return welcome.",
@@ -24603,7 +24602,8 @@ pg.ship_skin_words = {
 		battle = "Did the enemy wander here by mistake? That's too bad for them.",
 		login = "Waiting is tedious, but waiting for you is anything but, Commander.",
 		vote = "",
-		detail = "That Veneto, she's not half bad for a fleet flagship... However, if she wants to move forward, she must learn from me. Hahahaha!"
+		detail = "That Veneto, she's not half bad for a fleet flagship... However, if she wants to move forward, she must learn from me. Hahahaha!",
+		couple_encourage = {}
 	},
 	[605021] = {
 		touch = "Donning swimwear to display one's glamor for all to see – isn't it fantastic, Commander?",

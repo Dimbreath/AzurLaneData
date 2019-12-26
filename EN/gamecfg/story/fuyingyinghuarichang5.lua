@@ -337,7 +337,7 @@ return {
 			}
 		},
 		{
-			actorName = "みんな",
+			actorName = "Everyone",
 			side = 2,
 			bgName = "star_level_bg_126",
 			nameColor = "#a9f548",

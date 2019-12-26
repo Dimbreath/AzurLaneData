@@ -389,7 +389,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Of course I don't. But while I don't want back everything I've invested, I do hope to get something out of this ritual.",
+			say = "Please tell me you don't believe that absurd gossip, Kaga.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
