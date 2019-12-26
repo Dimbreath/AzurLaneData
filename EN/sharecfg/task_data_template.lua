@@ -63817,7 +63817,7 @@ pg.task_data_template = {
 			{
 				2,
 				59147,
-				100
+				150
 			}
 		}
 	},
@@ -64168,7 +64168,7 @@ pg.task_data_template = {
 		award_display = {
 			{
 				5,
-				151,
+				160,
 				1
 			}
 		},
