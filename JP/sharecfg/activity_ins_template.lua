@@ -535,6 +535,278 @@ pg.activity_ins_template = {
 			100
 		}
 	},
+	{
+		ship_group = 30514,
+		name = "S8u6r6ug8A",
+		message_persist = "ins_15",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/xiefei_3Df1%402g%25GqDpcXORaMpk9%5E0j2KrB1VAI.png",
+		time_persist = "",
+		is_active = 1,
+		sculpture = "junhe_5",
+		id = 21,
+		group_id = 21,
+		npc_discuss_persist = {
+			98,
+			99,
+			100
+		}
+	},
+	{
+		ship_group = 30505,
+		name = "SakuraCombinedFleet",
+		message_persist = "ins_15",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/xiefei_3Df1%402g%25GqDpcXORaMpk9%5E0j2KrB1VAI.png",
+		time_persist = "",
+		is_active = 1,
+		sculpture = "changmen_3",
+		id = 22,
+		group_id = 22,
+		npc_discuss_persist = {
+			98,
+			99,
+			100
+		}
+	},
+	{
+		ship_group = 30105,
+		name = "AYANAMIN",
+		message_persist = "ins_15",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/xiefei_3Df1%402g%25GqDpcXORaMpk9%5E0j2KrB1VAI.png",
+		time_persist = "",
+		is_active = 1,
+		sculpture = "lingbo_8",
+		id = 23,
+		group_id = 23,
+		npc_discuss_persist = {
+			98,
+			99,
+			100
+		}
+	},
+	{
+		ship_group = 30110,
+		name = "HibikiChannel",
+		message_persist = "ins_15",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/xiefei_3Df1%402g%25GqDpcXORaMpk9%5E0j2KrB1VAI.png",
+		time_persist = "",
+		is_active = 1,
+		sculpture = "xiang_2",
+		id = 24,
+		group_id = 24,
+		npc_discuss_persist = {
+			98,
+			99,
+			100
+		}
+	},
+	{
+		ship_group = 30221,
+		name = "Nshiro",
+		message_persist = "ins_15",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/xiefei_3Df1%402g%25GqDpcXORaMpk9%5E0j2KrB1VAI.png",
+		time_persist = "",
+		is_active = 1,
+		sculpture = "nengdai_2",
+		id = 25,
+		group_id = 25,
+		npc_discuss_persist = {
+			98,
+			99,
+			100
+		}
+	},
+	{
+		ship_group = 20603,
+		name = "UnicornI72",
+		message_persist = "ins_15",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/xiefei_3Df1%402g%25GqDpcXORaMpk9%5E0j2KrB1VAI.png",
+		time_persist = "",
+		is_active = 1,
+		sculpture = "dujiaoshou_5",
+		id = 26,
+		group_id = 26,
+		npc_discuss_persist = {
+			98,
+			99,
+			100
+		}
+	},
+	{
+		ship_group = 49902,
+		name = "SymphonicStigma",
+		message_persist = "ins_15",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/xiefei_3Df1%402g%25GqDpcXORaMpk9%5E0j2KrB1VAI.png",
+		time_persist = "",
+		is_active = 1,
+		sculpture = "feiteliedadi_2",
+		id = 27,
+		group_id = 27,
+		npc_discuss_persist = {
+			98,
+			99,
+			100
+		}
+	},
+	{
+		ship_group = 30505,
+		name = "SakuraCombinedFleet",
+		message_persist = "ins_15",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/xiefei_3Df1%402g%25GqDpcXORaMpk9%5E0j2KrB1VAI.png",
+		time_persist = "",
+		is_active = 1,
+		sculpture = "changmen_3",
+		id = 28,
+		group_id = 28,
+		npc_discuss_persist = {
+			98,
+			99,
+			100
+		}
+	},
+	{
+		ship_group = 30404,
+		name = "KirinnKS",
+		message_persist = "ins_15",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/xiefei_3Df1%402g%25GqDpcXORaMpk9%5E0j2KrB1VAI.png",
+		time_persist = "",
+		is_active = 1,
+		sculpture = "wudao_4",
+		id = 29,
+		group_id = 29,
+		npc_discuss_persist = {
+			98,
+			99,
+			100
+		}
+	},
+	{
+		ship_group = 30607,
+		name = "PhoenixWhale",
+		message_persist = "ins_15",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/xiefei_3Df1%402g%25GqDpcXORaMpk9%5E0j2KrB1VAI.png",
+		time_persist = "",
+		is_active = 1,
+		sculpture = "longfeng_2",
+		id = 30,
+		group_id = 30,
+		npc_discuss_persist = {
+			98,
+			99,
+			100
+		}
+	},
+	{
+		ship_group = 40135,
+		name = "Funf♡3536",
+		message_persist = "ins_15",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/xiefei_3Df1%402g%25GqDpcXORaMpk9%5E0j2KrB1VAI.png",
+		time_persist = "",
+		is_active = 1,
+		sculpture = "z35_2",
+		id = 31,
+		group_id = 31,
+		npc_discuss_persist = {
+			98,
+			99,
+			100
+		}
+	},
+	{
+		ship_group = 30181,
+		name = "fuwarin1118",
+		message_persist = "ins_15",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/xiefei_3Df1%402g%25GqDpcXORaMpk9%5E0j2KrB1VAI.png",
+		time_persist = "",
+		is_active = 1,
+		sculpture = "xia_2",
+		id = 32,
+		group_id = 32,
+		npc_discuss_persist = {
+			98,
+			99,
+			100
+		}
+	},
+	{
+		ship_group = 30208,
+		name = "RageofONI",
+		message_persist = "ins_15",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/xiefei_3Df1%402g%25GqDpcXORaMpk9%5E0j2KrB1VAI.png",
+		time_persist = "",
+		is_active = 1,
+		sculpture = "guinu_2",
+		id = 33,
+		group_id = 33,
+		npc_discuss_persist = {
+			98,
+			99,
+			100
+		}
+	},
+	{
+		ship_group = 10209,
+		name = "Cleveland☆Knight",
+		message_persist = "ins_15",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/xiefei_3Df1%402g%25GqDpcXORaMpk9%5E0j2KrB1VAI.png",
+		time_persist = "",
+		is_active = 1,
+		sculpture = "kelifulan_5",
+		id = 34,
+		group_id = 34,
+		npc_discuss_persist = {
+			98,
+			99,
+			100
+		}
+	},
+	{
+		ship_group = 20603,
+		name = "UnicornI72",
+		message_persist = "ins_15",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/xiefei_3Df1%402g%25GqDpcXORaMpk9%5E0j2KrB1VAI.png",
+		time_persist = "",
+		is_active = 1,
+		sculpture = "dujiaoshou_5",
+		id = 35,
+		group_id = 35,
+		npc_discuss_persist = {
+			98,
+			99,
+			100
+		}
+	},
+	{
+		ship_group = 20207,
+		name = "MINAMIpton",
+		message_persist = "ins_15",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/xiefei_3Df1%402g%25GqDpcXORaMpk9%5E0j2KrB1VAI.png",
+		time_persist = "",
+		is_active = 1,
+		sculpture = "nananpudun_2",
+		id = 36,
+		group_id = 36,
+		npc_discuss_persist = {
+			98,
+			99,
+			100
+		}
+	},
+	{
+		ship_group = 20702,
+		name = "ArkRoyal_Defense",
+		message_persist = "ins_15",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/xiefei_3Df1%402g%25GqDpcXORaMpk9%5E0j2KrB1VAI.png",
+		time_persist = "",
+		is_active = 1,
+		sculpture = "huangjiafangzhou_4",
+		id = 37,
+		group_id = 37,
+		npc_discuss_persist = {
+			98,
+			99,
+			100
+		}
+	},
 	all = {
 		1,
 		2,
@@ -555,7 +827,24 @@ pg.activity_ins_template = {
 		17,
 		18,
 		19,
-		20
+		20,
+		21,
+		22,
+		23,
+		24,
+		25,
+		26,
+		27,
+		28,
+		29,
+		30,
+		31,
+		32,
+		33,
+		34,
+		35,
+		36,
+		37
 	}
 }
 

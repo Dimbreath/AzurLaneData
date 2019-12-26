@@ -2548,6 +2548,48 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[160] = {
+		advice = 0,
+		describe = "祭儀の島のミニチュア。島の売店で販売されない非売品で、かすかな霊気が感じ取れる激レアモノ――「翳りし満ちる影の華」に参加した指揮官に贈る",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "ワタツミ祭り記念章",
+		is_get_time_note = 1,
+		rarity = 5,
+		gain_by = "翳りし満ちる影の華",
+		themeId = 0,
+		icon = "191226JPxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 160,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"191226JP",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		advice = 0,
 		describe = "ゆゆゆ友情パワーだぴょぴょぴょぴょ………",
@@ -3289,6 +3331,56 @@ pg.furniture_data_template = {
 					false,
 					nil,
 					"event:/ui/meow"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[100011] = {
+		advice = 0,
+		describe = "スイッチオンにだけで部屋が雪景色に！なんてね！",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "饅頭天気箱",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 0,
+		icon = "xuehuadengicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 100011,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"SnowBox",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					"Houzhai_snow01",
+					"action1"
 				}
 			}
 		},
@@ -61049,6 +61141,899 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[57001] = {
+		advice = 0,
+		describe = "新しい一年でも、幸せになりますように",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "裏山の地面",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 57,
+		icon = "dibanmh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57001,
+		picture = "mh2/dibanmh2",
+		comfortable = 4,
+		tag = 4,
+		size = {
+			2,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57002] = {
+		advice = 0,
+		describe = "新しい一年でも、幸せになりますように",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "夜フジの壁紙",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 57,
+		icon = "qiangbimh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57002,
+		picture = "mh2/qiangbimh2",
+		comfortable = 4,
+		tag = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57101] = {
+		advice = 0,
+		describe = "グラップ、ヴィスカー各協賛会社の出張所の名前が書かれている",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "初詣の灯籠",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 57,
+		icon = "denglongmh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57101,
+		picture = "mh2/denglongmh2",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			7,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57102] = {
+		advice = 0,
+		describe = "灯りをつけられないただのオブジェクト",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "参道のオブジェクト",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 57,
+		icon = "dengmh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57102,
+		picture = "mh2/dengmh2",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57103] = {
+		advice = 0,
+		describe = "中には饅頭が祀られているのかもしれない",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "饅頭神棚",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 57,
+		icon = "jitaimh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57103,
+		picture = "mh2/jitaimh2",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57104] = {
+		advice = 0,
+		describe = "歩きながら願い事を決めよう！",
+		count = 3,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "初詣の参道",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 57,
+		icon = "lumh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57104,
+		picture = "mh2/lumh2",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57105] = {
+		advice = 0,
+		describe = "梅結び、寸胴竹、上り松――今年も幸せになりますように",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "祝福の門松",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 57,
+		icon = "mensongmh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 57105,
+		picture = "mh2/mensongmh2",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57106] = {
+		advice = 0,
+		describe = "誠心誠意、願いを心に込めて",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "初詣の鳥居",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 57,
+		icon = "niaojumh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 57106,
+		picture = "mh2/niaojumh2",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57107] = {
+		advice = 0,
+		describe = "「殿様、お祓いを見に来ませんか？」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "お正月の告示版",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 57,
+		icon = "paizimh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57107,
+		picture = "mh2/paizimh2",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57108] = {
+		advice = 0,
+		describe = "正月を彩り、平和を祈る",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "てまり（黒）",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 57,
+		icon = "qiu2mh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57108,
+		picture = "mh2/qiu2mh2",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57109] = {
+		advice = 0,
+		describe = "正月を彩り、平和を祈る",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "てまり（赤）",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 57,
+		icon = "qiu3mh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57109,
+		picture = "mh2/qiu3mh2",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57110] = {
+		advice = 0,
+		describe = "正月を彩り、平和を祈る",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "てまり（彩り）",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 57,
+		icon = "qiumh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57110,
+		picture = "mh2/qiumh2",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57111] = {
+		advice = 0,
+		describe = "なぜか饅頭たちが運んできた塔。中は空っぽ",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "饅頭塔",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 57,
+		icon = "tamh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57111,
+		picture = "mh2/tamh2",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57112] = {
+		advice = 0,
+		describe = "お定番の三色団子",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "三色団子",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 57,
+		icon = "wanzi2mh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57112,
+		picture = "mh2/wanzi2mh2",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57113] = {
+		advice = 0,
+		describe = "「糖分的にイケるかも！」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "みたらし団子",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 57,
+		icon = "wanzimh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57113,
+		picture = "mh2/wanzimh2",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57114] = {
+		advice = 0,
+		describe = "あ^～生き返るぅ～",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "露天温泉",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 57,
+		icon = "wenquanmh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 57114,
+		picture = "mh2/wenquanmh2",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-5.3,
+					-155.3
+				},
+				{
+					1,
+					1
+				},
+				"mh2/wenquanmh2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57115] = {
+		advice = 0,
+		describe = "福袋（？）売ったり抽選やったり商魂たくましい饅頭物販。授与所じゃないよね…",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "饅頭授与所",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 57,
+		icon = "wuzi2mh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57115,
+		picture = "mh2/wuzi2mh2",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57116] = {
+		advice = 0,
+		describe = "たこ焼き（を作る）饅頭だぴょ！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "たこ焼き饅頭",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 57,
+		icon = "wuzimh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 57116,
+		picture = "mh2/wuzimh2",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57117] = {
+		advice = 0,
+		describe = "たこ焼きを作る饅頭が作った饅頭のたこ焼き",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "饅頭たこ焼き",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 57,
+		icon = "zhangyushaomh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57117,
+		picture = "mh2/zhangyushaomh2",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[57118] = {
+		advice = 0,
+		describe = "饅頭たちが何故か運んできた大鐘。運んだからには鳴らそー！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "饅頭の大鐘",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 57,
+		icon = "zhongmh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 57118,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhong",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[57119] = {
+		advice = 0,
+		describe = "鉄板焼き（を作る）饅頭だぴょ！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "鉄板焼饅頭",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 57,
+		icon = "wuzi3mh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		id = 57119,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			7,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xiaowuB",
+				"normal"
+			},
+			{
+				"xiaowuT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"xiaowuCharControl",
+				"xiaowuCharControl2"
+			}
+		},
+		interAction_group = {}
+	},
+	[57120] = {
+		advice = 0,
+		describe = "ランドスポットを模した建物らしい",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "カミナリ饅頭門",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 57,
+		icon = "menmh2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 57120,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			5,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"menB",
+				"normal"
+			},
+			{
+				"menT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"menBCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -61106,6 +62091,7 @@ pg.furniture_data_template = {
 		151,
 		155,
 		157,
+		160,
 		100002,
 		100003,
 		100004,
@@ -61115,6 +62101,7 @@ pg.furniture_data_template = {
 		100008,
 		100009,
 		100010,
+		100011,
 		1001,
 		1002,
 		1101,
@@ -62455,7 +63442,29 @@ pg.furniture_data_template = {
 		56112,
 		56113,
 		56114,
-		56115
+		56115,
+		57001,
+		57002,
+		57101,
+		57102,
+		57103,
+		57104,
+		57105,
+		57106,
+		57107,
+		57108,
+		57109,
+		57110,
+		57111,
+		57112,
+		57113,
+		57114,
+		57115,
+		57116,
+		57117,
+		57118,
+		57119,
+		57120
 	}
 }
 

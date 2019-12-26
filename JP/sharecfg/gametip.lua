@@ -7670,7 +7670,7 @@ pg.gametip = {
 		key = "activity_switch_award_pool_failed"
 	},
 	shop_street_activity_tip = {
-		tip = "*<color=#A1E400FF>19.11.27-19.12.10</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します",
+		tip = "*<color=#A1E400FF>19.12.26-20.1.8</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します",
 		key = "shop_street_activity_tip"
 	},
 	twitter_link_title = {
@@ -8923,7 +8923,7 @@ pg.gametip = {
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "イベント期間、「白上フブキ」、「湊あくあ」 などの出現率UP！",
+		tip = "イベント期間、「龍鳳」、「駿河」 などの出現率UP！",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -11371,11 +11371,11 @@ Pt」が加算されます。
 		key = "tips_summergame_exit"
 	},
 	tips_shrine_buff = {
-		tip = "賽銭（資金5）を入れ、$1を祈願しました",
+		tip = "賽銭︵資金5︶を入れ   　 を祈願しました",
 		key = "tips_shrine_buff"
 	},
 	tips_shrine_nobuff = {
-		tip = "賽銭（資金5）を入れました。これ以上は祈願できません…",
+		tip = "賽銭︵資金5︶を入れました。\nこれ以上は祈願できません…",
 		key = "tips_shrine_nobuff"
 	},
 	paint_hide_other_obj_tip = {
@@ -11797,21 +11797,16 @@ staff）にて告知されます。
 		key = "music_juus",
 		tip = {
 			{
-				info = "■ポラリス通信とは"
+				info = "■■艦船通信とは"
 			},
 			{
 				info = [[
- ポラリス通信とは、「Polaris」メンバーが利用してい
-るSNSであり、艦船たちの投稿を読み、「いいね」を推
-したり、コメント（内容は固定ですが…）したりするこ
-とができます。
- 艦船による投稿は一定時間ごと行われ、また、投稿内容
-を閲覧するには「饅頭タイムライン」を入手する必要が
-あります。
- 「饅頭タイムライン」は「激奏エンブレム」累計入手数
-報酬で入手できます。
- 「饅頭タイムライン」をたくさん入手して、彼女たちの
-日常の垣間を楽しもう！]]
+ 艦船通信とは、母港の艦船たちが利用しているSNSであり、
+艦船たちの投稿を読み、「いいね」を推したり、コメント
+（内容は固定ですが…）したりすることができます。
+ 艦船による投稿は一定時間ごと自動で行われます。
+
+ 艦船通信をチェックし、彼女たちの日常の垣間を楽しもう！]]
 			}
 		}
 	},
@@ -12201,6 +12196,14 @@ L2DアニメーションのON・OFFは秘書艦変更画面で
 		tip = "合成数：",
 		key = "compose_amount_prefix"
 	},
+	help_sub_limits = {
+		tip = "支援範囲表示off/on ",
+		key = "help_sub_limits"
+	},
+	help_sub_display = {
+		tip = "漸減要撃/支援待機 ",
+		key = "help_sub_display"
+	},
 	confirm_unlock_ship_main = {
 		tip = "既に秘書艦枠に配置されている艦船です",
 		key = "confirm_unlock_ship_main"
@@ -12246,7 +12249,7 @@ L2DアニメーションのON・OFFは秘書艦変更画面で
 		key = "msgbox_text_buy"
 	},
 	msgbox_text_noPos_buy = {
-		tip = "拓 展",
+		tip = "拡 張",
 		key = "msgbox_text_noPos_buy"
 	},
 	msgbox_text_noPos_clear = {
@@ -12324,6 +12327,126 @@ L2DアニメーションのON・OFFは秘書艦変更画面で
 	title_limit_time = {
 		tip = "「限定」",
 		key = "title_limit_time"
+	},
+	seven_choose_one = {
+		tip = "招待状は1回しか使用できません。\n<color=#92fc63>$1</color>を招待しますか？\n（艦船と記念アイテムを入手できます）",
+		key = "seven_choose_one"
+	},
+	help_newyear_feast = {
+		key = "help_newyear_feast",
+		tip = {
+			{
+				info = [[
+■概要
+「母港正月」イベントとは、裏山の屋台（ミニゲーム）
+を楽しみながら、スタンプを集め「鬼怒」の着せ替えを
+入手するイベントです。
+スタンプを集めるには、イベント期間中にゲームにログ
+インすることで入手できる「チケット」が必要です。
+
+■チケットとスタンプの集め方
+イベント期間中毎日ログインするたびに、「チケット」
+を1枚入手することができます。
+前日までの分の「チケット」を入手していなかった場合、
+ログイン日の前日までの分のチケットが一括で配布され
+ます。
+
+■ミニゲームについて
+「新年対決」をタップすると、ミニゲーム「行くぜ！節
+奏（リズム）対決」をプレイすることが出来ます。
+「チケット」を所持している状態でゲームをクリアする
+と、スタンプを1つ入手するとともに、「幸運祈願」で
+きる回数が2回増加します。
+
+「スタンプ」を7つ集めると、画面右の「スタンプ」をタ
+ップし、鬼怒の着せ替えを入手できます。
+「幸運祈願」を7回すると、イベントバナーの対応バナー
+で「正月招待状2020」を入手できます。
+
+※「チケット」を所持していなくてもミニゲームを遊べ
+ますが、スタンプと景品・幸運祈願可能回数を入手する
+ことはできません。
+※ミニゲームを途中でやめると、チケットは消費されず、
+スタンプと祈願回数も入手できません。]]
+			}
+		}
+	},
+	help_newyear_shrine = {
+		key = "help_newyear_shrine",
+		tip = {
+			{
+				info = [[
+■概要
+「幸運祈願」では、お賽銭（5資金）を消費することで、
+一定時間、様々な効果を得られます。
+幸運祈願の可能回数はスタンプを1回手に入れるたびに2
+回増えます。
+
+■遊び方
+・賽銭箱の上の縄をスワイプして引っ張ると、幸運祈願の
+効果を選択することが出来ます。
+・幸運祈願効果
+　学業祈願：戦術教室でスキルを新たに強化する場合、
+所要時間が少し短縮
+　開運招福：メイン海域及び作戦履歴海域戦闘時、味方
+が与えるダメージが微増
+　良縁祈願：秘書艦の親密度上昇スピードがアップ
+・幸運祈願は同時に一種類しか適用できず、同じ祈願を複
+数回行っても効果は上乗せされません。
+・幸運祈願の効果は24時間持続します。また、幸運祈願
+の効果適用中にもう一回祈願すると、前の祈願の効果・
+持続時間が上書きされます。
+<size=31><color=#92fc63>■注意
+（new！）「幸運祈願可能回数」は最大14回まで貯められ
+ます
+「幸運祈願可能回数」が0の場合でもお賽銭を入れること
+が出来ますが、幸運祈願を行うことが出来ません。</color></size>]]
+			}
+		}
+	},
+	help_newyear_stamp = {
+		key = "help_newyear_stamp",
+		tip = {
+			{
+				info = "チケット所持中でミニゲームをプレイすると入手可能！\nスタンプを7つ集めて、報酬を手に入れよう！"
+			}
+		}
+	},
+	pt_reconfirm = {
+		tip = "<color=#ff5c5c>$1</color>を交換しますか？",
+		key = "pt_reconfirm"
+	},
+	qte_game_help = {
+		key = "qte_game_help",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/guinu_help1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/guinu_help2"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	}
 }
 

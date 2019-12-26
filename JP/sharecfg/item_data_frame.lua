@@ -101,7 +101,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 305,
 		time_limit_type = 0,
-		desc = "後日イベントで入手可能",
+		desc = "<color=#ffffff>「願いを込めて、信仰を奉り、重桜の未来に光を」</color>\n――「翳りし満ちる影の華」イベントで入手可能",
 		scene = {}
 	},
 	[401] = {

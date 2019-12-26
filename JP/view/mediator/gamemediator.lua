@@ -201,6 +201,9 @@ function slot0.handleNotification(slot0, slot1)
 		elseif slot3 == SCENE.HOLOLIVE_MEDAL then
 			slot4.mediator = HololiveMedalCollectionMediator
 			slot4.viewComponent = HololiveMedalCollectionView
+		elseif slot3 == SCENE.NEWYEAR_SQUARE then
+			slot4.mediator = NewYearFestivalMediator
+			slot4.viewComponent = NewYearFestivalScene
 		elseif slot3 == SCENE.TECHNOLOGY_TREE_SCENE then
 			slot4.mediator = TechnologyTreeMediator
 			slot4.viewComponent = TechnologyTreeScene
