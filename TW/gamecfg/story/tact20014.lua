@@ -7,13 +7,13 @@ return {
 		{
 			side = 0,
 			withoutPainting = true,
-			actorName = "系统",
+			actorName = "系統",
 			dir = 0,
 			bgm = "story-5",
 			soundeffect = "event:/ui/alarm",
 			actor = 900011,
 			nameColor = "#ff0000",
-			say = "Warning-「镜面海域」第C3分区，即刻执行指令——Gambit，销毁所属所有「模具」",
+			say = "Warning-「鏡面海域」第C3分區，即刻執行指令——Gambit，銷毀所屬所有「模具」",
 			shake = {
 				speed = 1,
 				number = 3
@@ -29,11 +29,11 @@ return {
 		},
 		{
 			side = 0,
-			say = "Warning-「镜面海域」第C3分区，即刻执行指令——Gambit，销毁所属所有「模具」",
+			say = "Warning-「鏡面海域」第C3分區，即刻執行指令——Gambit，銷毀所屬所有「模具」",
 			nameColor = "#ff0000",
 			dir = 0,
 			actor = 900011,
-			actorName = "系统",
+			actorName = "系統",
 			withoutPainting = true,
 			shake = {
 				speed = 1,
@@ -50,11 +50,11 @@ return {
 		},
 		{
 			side = 0,
-			say = "Warning-「镜面海域」第C3分区，即刻执行指令——Gambit，销毁所属所有「模具」",
+			say = "Warning-「鏡面海域」第C3分區，即刻執行指令——Gambit，銷毀所屬所有「模具」",
 			nameColor = "#ff0000",
 			dir = 0,
 			actor = 900011,
-			actorName = "系统",
+			actorName = "系統",
 			withoutPainting = true,
 			shake = {
 				speed = 1,
@@ -73,8 +73,8 @@ return {
 			actor = 900011,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "测试者β型",
-			say = "哈哈哈，「将杀<CheckMate>」！",
+			actorName = "測試者β型",
+			say = "哈哈哈，「將殺<CheckMate>」！",
 			shake = {
 				speed = 1,
 				number = 3
@@ -92,8 +92,8 @@ return {
 			actor = 900011,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "测试者β型",
-			say = "哈哈哈哈，有趣，真是太有趣了~发生的一切都远远超出了自然演算系统的推理，人类真是一种充满可能性的生物！",
+			actorName = "測試者β型",
+			say = "哈哈哈哈，有趣，真是太有趣了~發生的一切都遠遠超出了自然演算系統的推理，人類真是一種充滿可能性的生物！",
 			shake = {
 				speed = 1,
 				number = 3
@@ -111,8 +111,8 @@ return {
 			actor = 900011,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "测试者β型",
-			say = "按照这样的进化速度，只要保持战争，不，更多的「可控性战争」，我们一定还有机会…",
+			actorName = "測試者β型",
+			say = "按照這樣的進化速度，只要保持戰爭，不，更多的「可控性戰爭」，我們一定還有機會…",
 			shake = {
 				speed = 1,
 				number = 3
@@ -130,8 +130,8 @@ return {
 			actor = 900011,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "测试者β型",
-			say = "「审判者」对你们的表现非常满意，你们也让我完成了自己作为千万个子系统之一的存在价值~",
+			actorName = "測試者β型",
+			say = "「審判者」對你們的表現非常滿意，你們也讓我完成了自己作為千萬個子系統之一的存在價值~",
 			shake = {
 				speed = 1,
 				number = 3
@@ -149,8 +149,8 @@ return {
 			actor = 900011,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "测试者β型",
-			say = "请坚持你现在所坚信的选择，义无反顾地走下去吧",
+			actorName = "測試者β型",
+			say = "請堅持你現在所堅信的選擇，義無反顧地走下去吧",
 			shake = {
 				speed = 1,
 				number = 3
@@ -170,11 +170,11 @@ return {
 			bgFade = true,
 			sequence = {
 				{
-					"                         未来，我们一定还会再见面的",
+					"                         未來，我們一定還會再見面的",
 					2
 				},
 				{
-					"                         「造物者」大人…",
+					"                         「造物者」大人…",
 					4
 				}
 			}

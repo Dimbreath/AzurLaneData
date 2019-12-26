@@ -71118,10 +71118,6 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				59111
-			},
-			{
-				2,
 				54012
 			}
 		},
@@ -72003,10 +71999,6 @@ pg.expedition_data_template = {
 			{
 				2,
 				54022
-			},
-			{
-				2,
-				59111
 			},
 			{
 				2,
@@ -72894,10 +72886,6 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				59111
-			},
-			{
-				2,
 				54012
 			}
 		},
@@ -73779,10 +73767,6 @@ pg.expedition_data_template = {
 			{
 				2,
 				54022
-			},
-			{
-				2,
-				59111
 			},
 			{
 				2,
@@ -74670,10 +74654,6 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				59111
-			},
-			{
-				2,
 				54012
 			}
 		},
@@ -75555,10 +75535,6 @@ pg.expedition_data_template = {
 			{
 				2,
 				54023
-			},
-			{
-				2,
-				59111
 			},
 			{
 				2,
@@ -76446,10 +76422,6 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				59111
-			},
-			{
-				2,
 				54012
 			}
 		},
@@ -77331,10 +77303,6 @@ pg.expedition_data_template = {
 			{
 				2,
 				54023
-			},
-			{
-				2,
-				59111
 			},
 			{
 				2,
@@ -78222,10 +78190,6 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				59111
-			},
-			{
-				2,
 				54013
 			}
 		},
@@ -79107,10 +79071,6 @@ pg.expedition_data_template = {
 			{
 				2,
 				54024
-			},
-			{
-				2,
-				59111
 			},
 			{
 				2,
@@ -79998,10 +79958,6 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				59111
-			},
-			{
-				2,
 				54013
 			}
 		},
@@ -80883,10 +80839,6 @@ pg.expedition_data_template = {
 			{
 				2,
 				54024
-			},
-			{
-				2,
-				59111
 			},
 			{
 				2,
@@ -81774,10 +81726,6 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				59111
-			},
-			{
-				2,
 				54013
 			}
 		},
@@ -82659,10 +82607,6 @@ pg.expedition_data_template = {
 			{
 				2,
 				54024
-			},
-			{
-				2,
-				59111
 			},
 			{
 				2,
@@ -83550,10 +83494,6 @@ pg.expedition_data_template = {
 			},
 			{
 				2,
-				59111
-			},
-			{
-				2,
 				54013
 			}
 		},
@@ -84435,10 +84375,6 @@ pg.expedition_data_template = {
 			{
 				2,
 				54024
-			},
-			{
-				2,
-				59111
 			},
 			{
 				2,

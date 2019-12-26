@@ -180,6 +180,12 @@ function ys.Battle.BattleSkillView.SubRoutineButton(slot0)
 	slot0:setSkillButtonPreferences(slot0._specialBtn:GetSkin(), 4)
 end
 
+function ys.Battle.BattleSkillView.HideSkillButton(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0._skillBtnList) do
+		slot6:SetHide(slot1)
+	end
+end
+
 function ys.Battle.BattleSkillView.OnSkillCd(slot0, slot1)
 	slot2 = slot1.Data.skillID
 

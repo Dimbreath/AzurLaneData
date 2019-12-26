@@ -13,7 +13,7 @@ return {
 			dir = 0,
 			blackBg = true,
 			actor = 900012,
-			actorName = "观察者",
+			actorName = "觀察者",
 			say = "觉醒的条件果然如想象的那样简单，只要在特定的时间点进行适量的刺激…呵呵呵",
 			shake = {
 				speed = 1,

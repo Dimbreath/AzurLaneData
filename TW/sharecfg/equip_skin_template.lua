@@ -535,6 +535,468 @@ pg.equip_skin_template = {
 			54010
 		}
 	},
+	[120] = {
+		bullet_name = "zidan_ya",
+		name = "獠牙子彈",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "不注意點可是會被劃傷的哦",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91211",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 120,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[121] = {
+		bullet_name = "zidan_weiba",
+		name = "小豬尾巴",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "似乎很有彈性？",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91212",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 121,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[122] = {
+		bullet_name = "zidan_rou",
+		name = "肉肉子彈",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "誰偷吃了我的肉！！？？",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91213",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 122,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[123] = {
+		bullet_name = "paodan_rou",
+		name = "肉肉炮彈",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "雖然看起來很美味，但是殺傷力強大",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91214",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 123,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[124] = {
+		bullet_name = "paodan_caochong",
+		name = "草叢？",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "草叢中…似乎有點什麼？！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91215",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 124,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[125] = {
+		bullet_name = "paodan_zhuti",
+		name = "豬腳炮彈",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "櫻花？不，是豬腳！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91216",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 125,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[126] = {
+		bullet_name = "yulei_rou",
+		name = "肉肉魚雷",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "彷彿散發著香氣……",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91221",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 126,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[127] = {
+		bullet_name = "yulei_xianggu",
+		name = "香菇魚雷",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "有葷有素才是王道",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91222",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 127,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[128] = {
+		bullet_name = "yulei_chaihuo",
+		name = "柴火魚雷",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "曬乾的木柴才能燒得更旺呢",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91223",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 128,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[129] = {
+		bullet_name = "feiji_zhuqiqiu",
+		name = "氣球小豬(魚雷)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "小豬是不會射箭的哦",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91231",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 129,
+		derivate_torpedo = "yulei_xianggu",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[130] = {
+		bullet_name = "feiji_zhuqiqiu",
+		name = "氣球小豬(戰鬥)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "小豬是不會射箭的哦",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_zhuti",
+		icon = "91231",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 130,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[131] = {
+		bullet_name = "feiji_zhuqiqiu",
+		name = "氣球小豬(轟炸)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "小豬是不會射箭的哦",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_zhuti",
+		icon = "91231",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 131,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[132] = {
+		bullet_name = "feiji_zhuyun",
+		name = "雪雲小豬(魚雷)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "小豬是不會亂丟東西的哦",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91232",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 132,
+		derivate_torpedo = "yulei_rou",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[133] = {
+		bullet_name = "feiji_zhuyun",
+		name = "雪雲小豬(戰鬥)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "小豬是不會亂丟東西的哦",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_rou",
+		icon = "91232",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 133,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[134] = {
+		bullet_name = "feiji_zhuyun",
+		name = "雪雲小豬(轟炸)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "小豬是不會亂丟東西的哦",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_rou",
+		icon = "91232",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 134,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[135] = {
+		bullet_name = "feiji_zhuchaoren",
+		name = "小豬超人？！(魚雷)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "哪裡需要救場？！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		icon = "91233",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 135,
+		derivate_torpedo = "yulei_chaihuo",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[136] = {
+		bullet_name = "feiji_zhuchaoren",
+		name = "小豬超人？！(戰鬥)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "哪裡需要救場？！",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_caochong",
+		icon = "91233",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 136,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[137] = {
+		bullet_name = "feiji_zhuchaoren",
+		name = "小豬超人？！(轟炸)",
+		attachment_combat_ui = "",
+		type = 11,
+		attachment_cusual = "",
+		attachment_combat_scene = "",
+		desc = "哪裡需要救場？！",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_caochong",
+		icon = "91233",
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 137,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	all = {
 		1,
 		2,
@@ -556,7 +1018,25 @@ pg.equip_skin_template = {
 		18,
 		19,
 		20,
-		21
+		21,
+		120,
+		121,
+		122,
+		123,
+		124,
+		125,
+		126,
+		127,
+		128,
+		129,
+		130,
+		131,
+		132,
+		133,
+		134,
+		135,
+		136,
+		137
 	}
 }
 

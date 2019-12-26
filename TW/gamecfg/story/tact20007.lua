@@ -7,7 +7,7 @@ return {
 			actor = 401460,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "…结束了…果然实战经验不足是硬伤吗，明明应该发挥防空能力的优势才对的…",
+			say = "…結束了…果然實戰經驗不足是硬傷嗎，明明應該發揮防空能力的優勢才對的…",
 			shake = {
 				speed = 1,
 				number = 3
@@ -25,7 +25,7 @@ return {
 			actor = 401460,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "果然这个世界和我料想的大不相同，太有趣了！",
+			say = "果然這個世界和我料想的大不相同，太有趣了！",
 			shake = {
 				speed = 1,
 				number = 3
@@ -43,7 +43,7 @@ return {
 			actor = 401460,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "那个…下次…还会有机会再一起玩吗…？",
+			say = "那個…下次…還會有機會再一起玩嗎…？",
 			shake = {
 				speed = 1,
 				number = 3

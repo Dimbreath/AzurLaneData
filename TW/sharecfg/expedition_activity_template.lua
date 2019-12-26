@@ -990,83 +990,163 @@ pg.expedition_activity_template = {
 	},
 	[1000016] = {
 		id = 1000016,
-		pt_drop_display = "",
-		bonus_time = 1
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				40034,
+				110
+			}
+		}
 	},
 	[1000032] = {
 		id = 1000032,
-		pt_drop_display = "",
-		bonus_time = 1
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				40034,
+				110
+			}
+		}
 	},
 	[1000048] = {
 		id = 1000048,
-		pt_drop_display = "",
-		bonus_time = 1
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				40034,
+				110
+			}
+		}
 	},
 	[1000064] = {
 		id = 1000064,
-		pt_drop_display = "",
-		bonus_time = 1
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				40034,
+				110
+			}
+		}
 	},
 	[1000080] = {
 		id = 1000080,
-		pt_drop_display = "",
-		bonus_time = 1
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				40034,
+				110
+			}
+		}
 	},
 	[1000096] = {
 		id = 1000096,
-		pt_drop_display = "",
-		bonus_time = 1
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				40034,
+				110
+			}
+		}
 	},
 	[1000112] = {
 		id = 1000112,
-		pt_drop_display = "",
-		bonus_time = 1
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				40034,
+				110
+			}
+		}
 	},
 	[1000128] = {
 		id = 1000128,
-		pt_drop_display = "",
-		bonus_time = 1
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				40034,
+				110
+			}
+		}
 	},
 	[1000215] = {
 		id = 1000215,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				40034,
+				110
+			}
+		}
 	},
 	[1000231] = {
 		id = 1000231,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				40034,
+				110
+			}
+		}
 	},
 	[1000247] = {
 		id = 1000247,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				40034,
+				110
+			}
+		}
 	},
 	[1000263] = {
 		id = 1000263,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				40034,
+				110
+			}
+		}
 	},
 	[1000279] = {
 		id = 1000279,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				40034,
+				110
+			}
+		}
 	},
 	[1000295] = {
 		id = 1000295,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				40034,
+				110
+			}
+		}
 	},
 	[1000311] = {
 		id = 1000311,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				40034,
+				110
+			}
+		}
 	},
 	[1000327] = {
 		id = 1000327,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				40034,
+				110
+			}
+		}
 	},
 	[1000331] = {
 		id = 1000331,
@@ -2450,6 +2530,76 @@ pg.expedition_activity_template = {
 		pt_drop_display = "",
 		bonus_time = 0
 	},
+	[1310013] = {
+		id = 1310013,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1310113] = {
+		id = 1310113,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1310213] = {
+		id = 1310213,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1310313] = {
+		id = 1310313,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1310413] = {
+		id = 1310413,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1310513] = {
+		id = 1310513,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1310613] = {
+		id = 1310613,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1310713] = {
+		id = 1310713,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1310813] = {
+		id = 1310813,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1310913] = {
+		id = 1310913,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1311013] = {
+		id = 1311013,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1311113] = {
+		id = 1311113,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1311213] = {
+		id = 1311213,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1311301] = {
+		id = 1311301,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
 	[3000013] = {
 		id = 3000013,
 		pt_drop_display = "",
@@ -2977,6 +3127,20 @@ pg.expedition_activity_template = {
 		1290263,
 		1290313,
 		1291301,
+		1310013,
+		1310113,
+		1310213,
+		1310313,
+		1310413,
+		1310513,
+		1310613,
+		1310713,
+		1310813,
+		1310913,
+		1311013,
+		1311113,
+		1311213,
+		1311301,
 		3000013,
 		3000113,
 		3000213,

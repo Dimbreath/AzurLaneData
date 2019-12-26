@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"纯白之诗\n\n<size=45>四 思考</size>",
+					"純白之詩\n\n<size=45>四 思考</size>",
 					1
 				}
 			}
@@ -20,25 +20,25 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"我的颜色是…混色（Mischfarbe）。",
+					"我的顏色是…混色（Mischfarbe）。",
 					1
 				},
 				{
-					"思绪交织，透过名为社会的镜头反射出的精彩倒影。",
+					"思緒交織，透過名為社會的鏡頭反射出的精彩倒影。",
 					3
 				},
 				{
-					"现今我正拿着指挥官交付的某样东西，",
+					"現今我正拿著指揮官交付的某樣東西，",
 					5
 				},
 				{
-					"任务是去码头把它交到冰一般的她手上。",
+					"任務是去碼頭把它交到冰一般的她手上。",
 					7
 				}
 			}
 		},
 		{
-			say = "港区·码头",
+			say = "港區·碼頭",
 			bgName = "bg_story_outdoor",
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -72,7 +72,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "提尔比茨，我来给你送指挥官给的东西。",
+			say = "鐵必制，我來給你送指揮官給的東西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			say = "Z46？谢谢，我收下了。",
+			say = "Z46？謝謝，我收下了。",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -102,7 +102,7 @@ return {
 		},
 		{
 			bgName = "bg_story_outdoor",
-			say = "我将小包递给冰一般的她——被称为“北方的孤独女王”的战舰，提尔比茨。",
+			say = "我將小包遞給冰一般的她——被稱為“北方的孤獨女王”的戰艦，鐵必制。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			say = "46你还在执行秘书舰任务吧？接下来有什么预定吗？",
+			say = "46你還在執行秘書艦任務吧？接下來有什麼預定嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			say = "并无其他预定，准备回自己的房间了。",
+			say = "並無其他預定，準備回自己的房間了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			say = "是吗？那你陪我聊一会儿吧。感觉还是46好说话呢。",
+			say = "是嗎？那你陪我聊一會兒吧。感覺還是46好說話呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			say = "没问题。不过我不会说话，大概只能听听，你不介意的话就好",
+			say = "沒問題。不過我不會說話，大概只能聽聽，你不介意的話就好",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			say = "当然没关系。就当我在自言自语也好",
+			say = "當然沒關係。就當我在自言自語也好",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 		},
 		{
 			bgName = "bg_story_outdoor",
-			say = "谈话内容非常有趣。与其他阵营的交流、那些未完成舰如今的样子，还有因为战舰们的集会而焦头烂额的提尔比茨自己——",
+			say = "談話內容非常有趣。與其他陣營的交流、那些未完成艦如今的樣子，還有因為戰艦們的集會而焦頭爛額的鐵必制自己——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 		},
 		{
 			bgName = "bg_story_outdoor",
-			say = "谈话内容非常令人叹息……过去铁血的最后一刻，出现在镜面海域的“另一个自己”，投身于永无止境的战争的伙伴们的、无法确知的未来——",
+			say = "談話內容非常令人歎息……過去鐵血的最後一刻，出現在鏡面海域的“另一個自己”，投身於永無止境的戰爭的夥伴們的、無法確知的未來——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 		},
 		{
 			bgName = "bg_story_outdoor",
-			say = "时不时随声附和，迎合她的视线，用寥寥数语表示同感。",
+			say = "時不時隨聲附和，迎合她的視線，用寥寥數語表示同感。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			actor = 405020,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			say = "46将来想做什么？",
+			say = "46將來想做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 		},
 		{
 			bgName = "bg_story_outdoor",
-			say = "突如其来的问题。长久的沉默。",
+			say = "突如其來的問題。長久的沉默。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 		{
 			bgName = "bg_story_outdoor",
 			blackBg = true,
-			say = "我——是什么颜色？",
+			say = "我——是什麼顏色？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

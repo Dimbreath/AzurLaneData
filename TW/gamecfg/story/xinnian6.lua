@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"新年快乐\n\n<size=45>六  新年的狂宴</size>",
+					"新年快樂\n\n<size=45>六  新年的狂宴</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "嗯～准备万全，荞麦面要出锅咯～",
+			say = "嗯～準備萬全，蕎麥面要出鍋囉～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "{namecode:16}你当心点，都要掉进锅里去了……",
+			say = "{namecode:16}你當心點，都要掉進鍋裡去了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:16}",
-			say = "这个好好吃耶，我还要！",
+			say = "這個好好吃耶，我還要！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "慢慢来，还有很多哟",
+			say = "慢慢來，還有很多喲",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:67}",
-			say = "{namecode:93}果然非常能干呢～",
+			say = "{namecode:93}果然非常能幹呢～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:92}",
-			say = "偶尔像这样放松地享受和平的氛围，似乎也不错",
+			say = "偶爾像這樣放鬆地享受和平的氛圍，似乎也不錯",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:67}",
-			say = "真不像是{namecode:92}会说的话呢～这么说来，{namecode:91}呢？",
+			say = "真不像是{namecode:92}會說的話呢～這麼說來，{namecode:91}呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:92}",
-			say = "说着“我要去照顾还在辛苦工作的指挥官”之类的话出去了",
+			say = "說著“我要去照顧還在辛苦工作的指揮官”之類的話出去了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:67}",
-			say = "哎呀呀……看来指挥官的新年也难得安宁了呢……",
+			say = "哎呀呀……看來指揮官的新年也難得安寧了呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:92}",
-			say = "这就是爱的重量吧……难得的新年，放纵一些又有何妨？",
+			say = "這就是愛的重量吧……難得的新年，放縱一些又有何妨？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:67}",
-			say = "这边倒是有两个稍微放纵过头了一点的孩子呢……",
+			say = "這邊倒是有兩個稍微放縱過頭了一點的孩子呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重樱的酒…还真是美味啊……",
+			say = "重櫻的酒…還真是美味啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "拉菲……还要再来一杯……",
+			say = "拉菲……還要再來一杯……",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -251,7 +251,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "欧根也就算了…为什么白鹰的拉菲也会在这里啦！",
+			say = "歐根也就算了…為什麼白鷹的拉菲也會在這裡啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			}
 		},
 		{
-			say = "在店里遇到了喵，拉菲似乎对重樱的新年也很有兴趣，于是就一起带过来了喵！",
+			say = "在店裡遇到了喵，拉菲似乎對重櫻的新年也很有興趣，於是就一起帶過來了喵！",
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -287,7 +287,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "真是的，难得穿了那么好看的衣服，一喝起酒来就什么形象都没了……",
+			say = "真是的，難得穿了那麼好看的衣服，一喝起酒來就什麼形象都沒了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:92}",
-			say = "跨年饮酒大会吗，呵呵…感觉我也燃起来了呢",
+			say = "跨年飲酒大會嗎，呵呵…感覺我也燃起來了呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:67}",
-			say = "哎呀呀，已经可以预见到不久之后的炼狱景象了呢……",
+			say = "哎呀呀，已經可以預見到不久之後的煉獄景象了呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:34}",
-			say = "lianyu…？那是什么？能吃吗？",
+			say = "lianyu…？那是什麼？能吃嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "那是放纵过头的大人们悲惨的陌路喵…好孩子就当作不知道就好了喵……",
+			say = "那是放縱過頭的大人們悲慘的陌路喵…好孩子就當作不知道就好了喵……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"纯白之诗\n\n<size=45>三 幕间I</size>",
+					"純白之詩\n\n<size=45>三 幕間I</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·宿舍",
+			say = "港區·宿舍",
 			bgName = "bg_story_room",
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -51,7 +51,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "这件感觉如何？我还不太会选衣服，希望能听到更多的建议",
+			say = "這件感覺如何？我還不太會選衣服，希望能聽到更多的建議",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			actor = 401200,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "这件有点……Z46你可以打扮更漂亮点的嘛～又不是Z23～",
+			say = "這件有點……Z46你可以打扮更漂亮點的嘛～又不是Z23～",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -83,7 +83,7 @@ return {
 			actor = 401210,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "是啊……你人太认真了容易选到土里土气的衣服，干脆去问问Z35？",
+			say = "是啊……你人太認真了容易選到土裡土氣的衣服，乾脆去問問Z35？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			actor = 401190,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "我觉得这件衣服也不错啊……",
+			say = "我覺得這件衣服也不錯啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			actor = 401200,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "Z19跟Z23半斤八两，都不算！",
+			say = "Z19跟Z23半斤八兩，都不算！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			actor = 401190,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "诶诶！？",
+			say = "欸欸！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			actor = 401210,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "Z35和Z1的打扮都太扎眼了，问问Z18的话怎么样？",
+			say = "Z35和Z1的打扮都太扎眼了，問問Z18的話怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 401200,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "问Z18的话什么都说好，不算啦。啊！Z36说不定行！",
+			say = "問Z18的話什麼都說好，不算啦。啊！Z36說不定行！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			actor = 401190,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "Z36的衣服不都是Z35给她挑的吗……？",
+			say = "Z36的衣服不都是Z35給她挑的嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			actor = 401210,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "那Z36也不行了……所以Z46的衣服还是由我们三个决定吧……",
+			say = "那Z36也不行了……所以Z46的衣服還是由我們三個決定吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			actor = 401200,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "啊！抱歉Z46！我们光顾着自说自话了>_<",
+			say = "啊！抱歉Z46！我們光顧著自說自話了>_<",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			actor = 401210,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "呃，反正这件怎么看都是冬天才穿的衣服，夏天应该……嗯，这个跟这个，防止晒伤再加件卫衣，怎么样？",
+			say = "呃，反正這件怎麼看都是冬天才穿的衣服，夏天應該……嗯，這個跟這個，防止曬傷再加件衛衣，怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_room",
-			say = "好。就这样。",
+			say = "好。就這樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			actor = 401190,
 			side = 1,
 			bgName = "bg_story_room",
-			say = "大家真是的，把Z46晾在一边自己说个没完……Z46你挑自己喜欢的衣服就行啦！",
+			say = "大家真是的，把Z46晾在一邊自己說個沒完……Z46你挑自己喜歡的衣服就行啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			actor = 401460,
 			side = 0,
 			bgName = "bg_story_room",
-			say = "谢谢，我会照做的。",
+			say = "謝謝，我會照做的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 		{
 			bgName = "bg_story_room",
 			blackBg = true,
-			say = "为何我会觉得，她们的对话如此难以加入呢。",
+			say = "為何我會覺得，她們的對話如此難以加入呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

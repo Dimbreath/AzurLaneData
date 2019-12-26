@@ -566,6 +566,47 @@ pg.activity_template = {
 			}
 		}
 	},
+	[458] = {
+		mark = 20191226,
+		title_res_tag = "donghuadenglu",
+		type = 3,
+		login_pop = 3,
+		config_id = 15,
+		is_show = 5,
+		config_client = "",
+		id = 458,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/donghuacb_login"
+		}
+	},
 	[999] = {
 		mark = 20191226,
 		title_res_tag = "",
@@ -597,7 +638,7 @@ pg.activity_template = {
 				{
 					2020,
 					1,
-					9
+					25
 				},
 				{
 					23,
@@ -618,6 +659,22 @@ pg.activity_template = {
 		config_client = "",
 		bg = "",
 		id = 2001,
+		config_data = {
+			0,
+			{}
+		}
+	},
+	[2011] = {
+		mark = 20180628,
+		title_res_tag = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5151,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 2011,
 		config_data = {
 			0,
 			{}
@@ -1384,7 +1441,7 @@ pg.activity_template = {
 		mark = 20191107,
 		title_res_tag = "donghuadenglu",
 		type = 3,
-		login_pop = 3,
+		login_pop = 0,
 		config_id = 13,
 		is_show = 2,
 		config_client = "",
@@ -1524,7 +1581,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 3,
+		is_show = 1,
 		id = 40031,
 		config_data = {
 			50049,
@@ -1638,6 +1695,505 @@ pg.activity_template = {
 			}
 		}
 	},
+	[40032] = {
+		mark = 20191204,
+		title_res_tag = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 40032,
+		config_data = {
+			10011,
+			10012,
+			10013,
+			10014,
+			10015,
+			10016,
+			10017,
+			10018,
+			10019,
+			10021,
+			10022,
+			10023,
+			10024,
+			10025,
+			10026,
+			10027,
+			10028,
+			10029,
+			10030
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40033] = {
+		mark = 20191204,
+		title_res_tag = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		bg = "",
+		id = 40033,
+		config_data = {
+			101,
+			102,
+			106,
+			107,
+			108,
+			109,
+			110,
+			111,
+			112,
+			117,
+			118,
+			119,
+			120,
+			121,
+			122,
+			123,
+			124,
+			125,
+			126,
+			127,
+			128,
+			129,
+			130,
+			131,
+			132,
+			133,
+			134,
+			135,
+			136
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_fengshan",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			pt_id = 110,
+			painting = "tierbici_pt"
+		}
+	},
+	[40034] = {
+		mark = 20191204,
+		title_res_tag = "yisegeTW",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 3,
+		id = 40034,
+		config_data = {
+			1000001,
+			1000002,
+			1000003,
+			1000004,
+			1000011,
+			1000012,
+			1000013,
+			1000014
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/summer_remake"
+		},
+		config_client = {
+			prevs = {
+				1120001,
+				1120011
+			}
+		}
+	},
+	[40035] = {
+		mark = 20191204,
+		title_res_tag = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 110,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		bg = "",
+		id = 40035,
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40036] = {
+		mark = 20191204,
+		title_res_tag = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 40036,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40038] = {
+		mark = 20191204,
+		title_res_tag = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 40038,
+		config_data = {
+			1000005,
+			1000006,
+			1000007,
+			1000008,
+			1000015,
+			1000016,
+			1000017,
+			1000018
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					27
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40039] = {
+		mark = 20191205,
+		title_res_tag = "HPnewyear",
+		type = 18,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 2,
+		id = 40039,
+		config_data = {
+			50057,
+			50058,
+			50059,
+			50060,
+			50061,
+			50062,
+			50063
+		},
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/skin_kisaragi"
+		},
+		config_client = {
+			{
+				groupId = 30133,
+				configId = 301331,
+				id = 10000030133.0,
+				skin_id = 301331
+			},
+			{
+				groupId = 31201,
+				configId = 312011,
+				id = 10000031201.0,
+				skin_id = 312011,
+				tasks = {
+					1,
+					3
+				}
+			},
+			{
+				groupId = 30312,
+				configId = 303121,
+				id = 10000030312.0,
+				skin_id = 303122,
+				tasks = {
+					1,
+					2,
+					3
+				}
+			},
+			{
+				groupId = 30703,
+				configId = 307031,
+				id = 10000030703.0,
+				skin_id = 307031,
+				tasks = {
+					1,
+					5
+				}
+			},
+			{
+				groupId = 30701,
+				configId = 307011,
+				id = 10000030701.0,
+				skin_id = 307012,
+				tasks = {
+					2,
+					6,
+					7
+				}
+			},
+			{
+				groupId = 30702,
+				configId = 307021,
+				id = 10000030702.0,
+				skin_id = 307022,
+				tasks = {
+					2,
+					6,
+					7
+				}
+			},
+			{
+				groupId = 30114,
+				configId = 301141,
+				id = 10000030114.0,
+				skin_id = 301141,
+				tasks = {
+					5,
+					7
+				}
+			},
+			{
+				groupId = 40303,
+				configId = 403031,
+				id = 10000040303.0,
+				skin_id = 403032,
+				tasks = {
+					2,
+					3,
+					6,
+					7
+				}
+			},
+			{
+				groupId = 10117,
+				configId = 101171,
+				id = 10000010117.0,
+				skin_id = 101172,
+				tasks = {
+					4,
+					6
+				}
+			}
+		}
+	},
+	[40040] = {
+		mark = 20191210,
+		title_res_tag = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "[{31991,100}]",
+		config_client = "",
+		bg = "",
+		id = 40040,
+		time = {
+			timer,
+			{
+				{
+					2019,
+					12,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[45000] = {
 		mark = 20191004,
 		title_res_tag = "",
@@ -1652,45 +2208,6 @@ pg.activity_template = {
 		config_data = {
 			0,
 			{}
-		}
-	},
-	[45001] = {
-		mark = 20191210,
-		title_res_tag = "",
-		type = 27,
-		login_pop = 0,
-		config_id = 1,
-		is_show = 0,
-		config_data = "[{31995,100}]",
-		config_client = "",
-		bg = "",
-		id = 45001,
-		time = {
-			timer,
-			{
-				{
-					2019,
-					12,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2019,
-					12,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	all = {
@@ -1709,8 +2226,10 @@ pg.activity_template = {
 		422,
 		423,
 		424,
+		458,
 		999,
 		2001,
+		2011,
 		2018,
 		2026,
 		40002,
@@ -1742,8 +2261,15 @@ pg.activity_template = {
 		40029,
 		40030,
 		40031,
-		45000,
-		45001
+		40032,
+		40033,
+		40034,
+		40035,
+		40036,
+		40038,
+		40039,
+		40040,
+		45000
 	}
 }
 

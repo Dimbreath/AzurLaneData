@@ -153,15 +153,6 @@ function slot0.GetAllSkins(slot0)
 
 	slot3 = getProxy(ActivityProxy)
 
-	for slot7, slot8 in ipairs(pg.activity_shop_template.all) do
-		if pg.activity_shop_template[slot8].commodity_type == DROP_TYPE_SKIN and slot3:getActivityById(slot9.activity) and not slot10:isEnd() then
-			slot2(slot11)
-			table.insert(slot1, Goods.New({
-				shop_id = slot8
-			}, Goods.TYPE_ACTIVITY))
-		end
-	end
-
 	for slot7, slot8 in ipairs(pg.activity_shop_extra.all) do
 		if pg.activity_shop_extra[slot8].commodity_type == DROP_TYPE_SKIN then
 			slot10 = slot3:getActivityById(slot9.activity)
@@ -171,6 +162,18 @@ function slot0.GetAllSkins(slot0)
 				table.insert(slot1, Goods.New({
 					shop_id = slot8
 				}, Goods.TYPE_ACTIVITY_EXTRA))
+			end
+		end
+	end
+
+	for slot7, slot8 in ipairs(pg.activity_shop_template.all) do
+		if pg.activity_shop_template[slot8].commodity_type == DROP_TYPE_SKIN and slot3:getActivityById(slot9.activity) and not slot10:isEnd() then
+			slot2(slot11)
+
+			if not _.any(slot1, function (slot0)
+				return slot0:getSkinId() == slot0:getSkinId()
+			end) then
+				table.insert(slot1, slot11)
 			end
 		end
 	end

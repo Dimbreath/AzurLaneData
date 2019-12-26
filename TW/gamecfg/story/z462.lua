@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"纯白之诗\n\n<size=45>二 轨迹</size>",
+					"純白之詩\n\n<size=45>二 軌跡</size>",
 					1
 				}
 			}
@@ -20,11 +20,11 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"我的颜色是…原色（Grundfarbe）。",
+					"我的顏色是…原色（Grundfarbe）。",
 					1
 				},
 				{
-					"凭借着虚有之名，内心寻求着生存之意义的人偶。",
+					"憑藉著虛有之名，內心尋求著生存之意義的人偶。",
 					3
 				},
 				{
@@ -32,17 +32,17 @@ return {
 					4
 				},
 				{
-					"如今正作为统帅这支舰队之人——",
+					"如今正作為統帥這支艦隊之人——",
 					6
 				},
 				{
-					"“指挥官”的秘书，在港区的指挥室里执行业务。",
+					"“指揮官”的秘書，在港區的指揮室裡執行業務。",
 					8
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			bgName = "bg_story_task",
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -76,7 +76,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这份资料放在这里可以吗？……嗯，听从你的命令。",
+			say = "這份資料放在這裡可以嗎？……嗯，聽從你的命令。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "……人类果然有趣。仅仅为了驱动兵器，就要处理这么多文件。",
+			say = "……人類果然有趣。僅僅為了驅動兵器，就要處理這麼多文件。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "调运与储备燃料、确保弹药资源、粮食补给、备用品补充与废弃处理。除了对兵器本身的整修，还要顾及一切生活必需品，实在繁琐。",
+			say = "調運與儲備燃料、確保彈藥資源、糧食補給、備用品補充與廢棄處理。除了對兵器本身的整修，還要顧及一切生活必需品，實在繁瑣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "话虽如此，整理十分有效。秘书舰的工作，会让人有种自己才是舰队指挥者的错觉。",
+			say = "話雖如此，整理十分有效。秘書艦的工作，會讓人有種自己才是艦隊指揮者的錯覺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "虽然不明白的事尚有不少，但比起光是战斗的那段时光，担任秘书舰以来对一切的看法都有了许多变化。",
+			say = "雖然不明白的事尚有不少，但比起光是戰鬥的那段時光，擔任秘書艦以來對一切的看法都有了許多變化。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "要考虑的不是如何打倒敌人，而是“如何不输给对手”。",
+			say = "要考慮的不是如何打倒敵人，而是“如何不輸給對手”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,21 +154,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "以及，除了“战斗”之外，还有如何“生存”下去。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 401460,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "指挥官，我来提交报告书了，请你查收。",
+			say = "以及，除了“戰鬥”之外，還有如何“生存”下去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +168,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "铁血这个月的会计账本，誊抄和整理好了，濒临赤字。",
+			say = "指揮官，我來提交報告書了，請你查收。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,19 +182,7 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "节约很重要——对驱逐舰还好，说服重巡花费了很大功夫。战舰本来就需要更多的物资，确实比较难以控制成本",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			bgName = "bg_story_task",
-			say = "——被摸头了",
+			say = "鐵血這個月的會計帳本，謄抄和整理好了，瀕臨赤字。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +196,19 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "能理解表扬的意义，但我不太明白，隔着布料触摸身体这一行为有何意义？",
+			say = "節約很重要——對驅逐艦還好，說服重巡花費了很大功夫。戰艦本來就需要更多的物資，確實比較難以控制成本",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			bgName = "bg_story_task",
+			say = "——被摸頭了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +222,21 @@ return {
 			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "也不会因此增加报酬，这样的触摸究竟有何好处？",
+			say = "能理解表揚的意義，但我不太明白，隔著布料觸摸身體這一行為有何意義？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 401460,
+			side = 2,
+			bgName = "bg_story_task",
+			say = "也不會因此增加報酬，這樣的觸摸究竟有何好處？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "原本连“表扬”这一行为都无法理解，这次算有点进步了吧。如果这算是大家所说的“进步”的话…",
+			say = "原本連“表揚”這一行為都無法理解，這次算有點進步了吧。如果這算是大家所說的“進步”的話…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 		},
 		{
 			bgName = "bg_story_task",
-			say = "我对这种“身体接触”依然无法理解。然而即使生出“想了解”的心之波澜，也会在战斗来临之时被瞬间吞噬。",
+			say = "我對這種“身體接觸”依然無法理解。然而即使生出“想瞭解”的心之波瀾，也會在戰鬥來臨之時被瞬間吞噬。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 		{
 			bgName = "bg_story_task",
 			blackBg = true,
-			say = "下一次，更直接地问问吧。",
+			say = "下一次，更直接地問問吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

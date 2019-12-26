@@ -15,7 +15,7 @@ class("ShootingGameMediator", import(".MiniHubMediator")).handleNotification = f
 		slot0.viewComponent:updateAfterFinish()
 		slot0.viewComponent:showResultPanel(slot3.awards, function ()
 			seriesAsync(seriesAsync)
-			slot1.viewComponent:OnSendMiniGameOPDone(slot2.argList)
+			slot1.viewComponent:OnSendMiniGameOPDone(slot2)
 		end)
 
 		return

@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"新年快乐\n\n<size=45>三  向未知伸出双手</size>",
+					"新年快樂\n\n<size=45>三  向未知伸出雙手</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 		{
 			dir = 1,
 			side = 0,
-			say = "数日前",
+			say = "數日前",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一年…又要结束了呢",
+			say = "一年…又要結束了呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "新年啊…每年和同样的面孔看一成不变的《一个人的晚餐》…确实是有点无趣呢……",
+			say = "新年啊…每年和同樣的面孔看一成不變的《一個人的晚餐》…確實是有點無趣呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？那是……重樱的……？",
+			say = "嗯？那是……重櫻的……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			}
 		},
 		{
-			say = "喵！是欧根喵！看起来有点没精神喵？",
+			say = "喵！是歐根喵！看起來有點沒精神喵？",
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -94,7 +94,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是购买部的{namecode:98}啊…看起来很忙的样子呢？生意很好嘛？",
+			say = "是商店的{namecode:98}啊…看起來很忙的樣子呢？生意很好嘛？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "{namecode:98}和重樱的小伙伴们在做新年的准备喵！可是有很多事情要忙的喵！生意都要落下了喵……",
+			say = "{namecode:98}和重櫻的小夥伴們在做新年的準備喵！可是有很多事情要忙的喵！生意都要落下了喵……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦～？重樱的新年，有这么多要准备的吗？",
+			say = "哦～？重櫻的新年，有這麼多要準備的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "好多要准备的喵！对于重樱的各位来说，新年可是很重要的节日喵！",
+			say = "好多要準備的喵！對於重櫻的各位來說，新年可是很重要的節日喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶～好像挺有趣的嘛……",
+			say = "欸～好像挺有趣的嘛……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "时间回到现在……",
+			say = "時間回到現在……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -198,7 +198,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "既然如此，那就麻烦帮忙摆放一下装饰品吧。这些都是正月要摆放的装饰，今天之内要把它们摆好，这边正愁人手不够呢…",
+			say = "既然如此，那就麻煩幫忙擺放一下裝飾品吧。這些都是正月要擺放的裝飾，今天之內要把它們擺好，這邊正愁人手不夠呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "呵呵…这个竹子一样的是什么？",
+			say = "呵呵…這個竹子一樣的是什麼？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -233,7 +233,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "这个叫门松，放在一起的是一对，一左一右摆门口就好，来由嘛，太复杂的说起来也麻烦，你就当竹子象征长寿吧。",
+			say = "這個叫門松，放在一起的是一對，一左一右擺門口就好，來由嘛，太複雜的說起來也麻煩，你就當竹子象徵長壽吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "竹子象征长寿吗……那这个稻草做的挂饰一样的东西呢？还挺好看的",
+			say = "竹子象徵長壽嗎……那這個稻草做的掛飾一樣的東西呢？還挺好看的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "啊，那个怎么说呢，寓意上是有不让进了家门的神明跑掉的意思在，所以麻烦你把它挂在门口和窗口吧，厨房也可以摆一下。",
+			say = "啊，那個怎麼說呢，寓意上是有不讓進了家門的神明跑掉的意思在，所以麻煩你把它掛在門口和窗口吧，廚房也可以擺一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重樱的讲究还真多……挂好了",
+			say = "重櫻的講究還真多……掛好了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个白白的饼呢，能吃吗？",
+			say = "這個白白的餅呢，能吃嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "那个叫做镜饼喵。虽然确实是食物，不过现在还不能吃喵……要供奉好，等时间到了才能砸开吃掉喵",
+			say = "那個叫做鏡餅喵。雖然確實是食物，不過現在還不能吃喵……要供奉好，等時間到了才能砸開吃掉喵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么，这个小小的白白的东西明明就在勾引我吃掉它，居然现在不能吃吗……",
+			say = "什麼，這個小小的白白的東西明明就在勾引我吃掉它，居然現在不能吃嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "忍耐喵！等到跨年会就可以大吃大喝了喵",
+			say = "忍耐喵！等到跨年會就可以大吃大喝了喵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重樱的跨年会……吗……我也能参加吗？",
+			say = "重櫻的跨年會……嗎……我也能參加嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "港区的大家都是伙伴喵，欢迎喵～",
+			say = "港區的大家都是夥伴喵，歡迎喵～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵……那我就满怀期待地等着了……听说重樱的酒非常好喝呢—— ",
+			say = "呵呵……那我就滿懷期待地等著了……聽說重櫻的酒非常好喝呢—— ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

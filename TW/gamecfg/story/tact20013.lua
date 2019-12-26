@@ -7,8 +7,8 @@ return {
 			actor = 900011,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "测试者β型",
-			say = "终于见到你们了，「造物者」的宠儿们~",
+			actorName = "測試者β型",
+			say = "終於見到你們了，「造物者」的寵兒們~",
 			shake = {
 				speed = 1,
 				number = 3
@@ -26,8 +26,8 @@ return {
 			actor = 900011,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "测试者β型",
-			say = "“你们”跟之前向我们寻求力量的“她们”有点不一样，我从“她们”的眼神中看到更多的是无奈和猜疑…",
+			actorName = "測試者β型",
+			say = "“你們”跟之前向我們尋求力量的“她們”有點不一樣，我從“她們”的眼神中看到更多的是無奈和猜疑…",
 			shake = {
 				speed = 1,
 				number = 3
@@ -45,8 +45,8 @@ return {
 			actor = 900011,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "测试者β型",
-			say = "不论是出于什么国家、理想、未来之类骗人的高谈阔论，还是其他的成长因素",
+			actorName = "測試者β型",
+			say = "不論是出於什麼國家、理想、未來之類騙人的高談闊論，還是其他的成長因素",
 			shake = {
 				speed = 1,
 				number = 3
@@ -64,8 +64,8 @@ return {
 			actor = 900011,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "测试者β型",
-			say = "你们现在所持有的一些「模因」正是我们一直在人类身上所寻求的改变…",
+			actorName = "測試者β型",
+			say = "你們現在所持有的一些「模因」正是我們一直在人類身上所尋求的改變…",
 			shake = {
 				speed = 1,
 				number = 3
@@ -83,8 +83,8 @@ return {
 			actor = 900011,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "测试者β型",
-			say = "不过，辨别这些改变是货真价值的「模因」还是所谓的「伪造物」正是系统赋予我的职责啊～",
+			actorName = "測試者β型",
+			say = "不過，辨別這些改變是貨真價值的「模因」還是所謂的「偽造物」正是系統賦予我的職責啊～",
 			shake = {
 				speed = 1,
 				number = 3
@@ -102,8 +102,8 @@ return {
 			actor = 900011,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "测试者β型",
-			say = "那么，让我们开始吧~",
+			actorName = "測試者β型",
+			say = "那麼，讓我們開始吧~",
 			shake = {
 				speed = 1,
 				number = 3

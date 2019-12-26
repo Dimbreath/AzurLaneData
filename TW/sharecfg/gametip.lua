@@ -6890,7 +6890,7 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 		key = "activity_switch_award_pool_failed"
 	},
 	shop_street_activity_tip = {
-		tip = "*活動期間(<color=#A1E400FF>19.12.19-19.12.25</COLOR>)每次重整必定出現<color=#A1E400FF>外觀裝備箱</color>",
+		tip = "*活動期間(<color=#A1E400FF>19.12.26-20.1.8</COLOR>)每次重整必定出現<color=#A1E400FF>外觀裝備箱</color>",
 		key = "shop_street_activity_tip"
 	},
 	twitter_link_title = {
@@ -7961,7 +7961,7 @@ $3]],
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "威爾斯親王、愛宕、吸血鬼出現機率UP!",
+		tip = "齊柏林伯爵、Z46、希佩爾海軍上將、Z19出現機率UP!",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -10335,6 +10335,14 @@ combo达到10/20/40/60/80/100时，分别为每次有效
 		tip = "合成數量：",
 		key = "compose_amount_prefix"
 	},
+	help_sub_limits = {
+		tip = "关闭/显示潜艇范围",
+		key = "help_sub_limits"
+	},
+	help_sub_display = {
+		tip = "自主寻敌/待机模式",
+		key = "help_sub_display"
+	},
 	confirm_unlock_ship_main = {
 		tip = "該艦船已被設為秘書艦，無法選擇",
 		key = "confirm_unlock_ship_main"
@@ -10454,6 +10462,112 @@ combo达到10/20/40/60/80/100时，分别为每次有效
 	title_limit_time = {
 		tip = "「限時」",
 		key = "title_limit_time"
+	},
+	seven_choose_one = {
+		tip = "指挥官只能选择一人赠予年贺状，\n是否确认赠予<color=#92fc63>$1</color>？\n赠予后会获得对应角色和回礼",
+		key = "seven_choose_one"
+	},
+	help_newyear_feast = {
+		key = "help_newyear_feast",
+		tip = {
+			{
+				info = [[
+活動期間每日可獲得兩張遊戲券，遊戲券最多可以獲得
+14張
+在有遊戲券的情況下參與射擊遊戲、煙花工坊、祭典美
+食三種小遊戲會消耗掉遊戲券並獲得一枚印花，根據小
+遊戲中的不同表現還可以獲得以下獎勵：
+一等獎：物資*150 祭典美食(?)*1
+二等獎：物資*130 祭典美食(?)*1
+三等獎：物資*110 
+四等獎：物資*100
+集齊14枚印花可以獲得天后限定換裝，遊戲券數量可以在
+右側看到，印花收集進度可以通過點擊
+印花按鈕查看
+通過遊戲券進行遊戲還會增加神社的祈福次數，在神社中
+花費物資消耗祈福次數可以獲得不同效果
+TIPS：
+1.在沒有遊戲券的情況下進行小遊戲不會獲得獎勵、印花
+及祈福次數
+2.因為其他原因中途退出小遊戲不會消耗遊戲券，同時也
+不會獲得任何獎勵]]
+			}
+		}
+	},
+	help_newyear_shrine = {
+		key = "help_newyear_shrine",
+		tip = {
+			{
+				info = [[
+<size=31><color=#92fc63>TIPS：
+在沒有祈福有效次數時點擊祈福仍然會消耗物資，但是
+不會獲得祈福效果</color></size>
+1.消耗遊戲券完成煙花工坊、射擊遊戲、祭典美食三個
+小遊戲可以獲得祈福有效次數
+2.擁有有效次數的情況下點擊奉納繩可以消耗5物資進行
+祈福，祈福可以選擇不同效果：
+學業：戰術學院技能學習時間略微減少
+事業：主線、困難、作戰檔案關卡中，我方戰鬥內造成
+的傷害略微提高
+姻緣：秘書艦好感度提高速度加快
+以上三種效果持續時間為一天
+3.獲得學業效果時不會減少正在進行的技能學習時間，
+學業效果消失時不會增加已經被學業效果減少的技能
+學習時間
+4.如果在已經擁有祈福效果的狀態下進行祈福，那麼
+新獲得的祈福效果會覆蓋掉之前擁有的祈福效果，且
+持續時間重置
+5.同一時間只能存在一種祈福效果]]
+			}
+		}
+	},
+	help_newyear_stamp = {
+		key = "help_newyear_stamp",
+		tip = {
+			{
+				info = [[
+通過遊戲券參與射擊遊戲、煙花工坊、祭典美食三種
+小遊戲獲得的印花會顯示在印花手冊中
+當集齊14枚印花後點擊左側領取按鈕可以獲得天后限定換
+裝]]
+			}
+		}
+	},
+	pt_reconfirm = {
+		tip = "您是否確認鷂兌換<color=#ff5c5c>$1</color>?",
+		key = "pt_reconfirm"
+	},
+	qte_game_help = {
+		key = "qte_game_help",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/guinu_help1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/guinu_help2"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	}
 }
 

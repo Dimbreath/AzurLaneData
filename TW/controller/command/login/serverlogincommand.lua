@@ -13,9 +13,8 @@ function slot0.execute(slot0, slot1)
 		slot7 = PLATFORM_LOCAL
 	end
 
-	slot7 = pg.SDKMgr:GetInstance():GetChannelUID()
-
 	function slot8(slot0)
+		print("platform", slot0, "account_id", slot1.uid)
 		slot1(pg.ConnectionMgr.GetInstance(), 10022, {
 			platform = slot0,
 			account_id = slot1.uid,

@@ -12,7 +12,7 @@ return {
 			side = 2,
 			nameColor = "#FF0000",
 			mode = 2,
-			say = "啊啊啊啊，混蛋，你们这群废物居然敢伤到本小姐！！",
+			say = "啊啊啊啊，混蛋，你們這群廢物居然敢傷到本小姐！！",
 			shake = {
 				speed = 1,
 				number = 3
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			mode = 2,
-			say = "可恶，就算是坐沉也不会向你们这些低等动物投降的！！",
+			say = "可惡，就算是坐沉也不會向你們這些低等動物投降的！！",
 			shake = {
 				speed = 1,
 				number = 3
@@ -53,7 +53,7 @@ return {
 			actorName = "???",
 			actor = 900011,
 			nameColor = "#ff0000",
-			say = "弃兵开局…即便是在第255次失败之后，自然演算系统所带来的改变，也只有这种无聊的程度吗？",
+			say = "棄兵開局…即便是在第255次失敗之後，自然演算系統所帶來的改變，也只有這種無聊的程度嗎？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -88,7 +88,7 @@ return {
 			side = 1,
 			actorName = "???",
 			mode = 2,
-			say = "其实这速度已经远远的超出了我的预期啦~你要对人类，不，对自然进化抱有耐心和信心~",
+			say = "其實這速度已經遠遠的超出了我的預期啦~你要對人類，不，對自然進化抱有耐心和信心~",
 			blackBg = true,
 			actor = 900012,
 			nameColor = "#ff0000",
@@ -117,7 +117,7 @@ return {
 			blackBg = true,
 			actor = 900011,
 			nameColor = "#ff0000",
-			say = "然而「审判者」对这样的开局并不会感到满意的，除非，你能给她送去更多的——\n「棋子<Piece>」",
+			say = "然而「審判者」對這樣的開局並不會感到滿意的，除非，你能給她送去更多的——\n「棋子<Piece>」",
 			shake = {
 				speed = 1,
 				number = 3
@@ -138,7 +138,7 @@ return {
 			blackBg = true,
 			actor = 900012,
 			nameColor = "#ff0000",
-			say = "放心，所有的「棋子<Piece>」都在按部就班地执行「她」们…不，「它」们应有的使命",
+			say = "放心，所有的「棋子<Piece>」都在按部就班地執行「她」們…不，「它」們應有的使命",
 			shake = {
 				speed = 1,
 				number = 3
@@ -159,7 +159,7 @@ return {
 			blackBg = true,
 			actor = 900012,
 			nameColor = "#ff0000",
-			say = "只要有「模具」在，我们的生产速度完全可以迎合所有需求~",
+			say = "只要有「模具」在，我們的生產速度完全可以迎合所有需求~",
 			shake = {
 				speed = 1,
 				number = 3
@@ -203,7 +203,7 @@ return {
 			blackBg = true,
 			actor = 900011,
 			nameColor = "#ff0000",
-			say = "恩…希望只是错觉吧",
+			say = "恩…希望只是錯覺吧",
 			shake = {
 				speed = 1,
 				number = 3

@@ -54,6 +54,8 @@ function slot2.SetWavesData(slot0, slot1)
 			slot8 = slot1.Battle.BattleClearWave.New()
 		elseif slot7 == slot0.JAMMING then
 			slot8 = slot1.Battle.BattleJammingWave.New()
+		elseif slot7 == slot0.ENVIRONMENT then
+			slot8 = slot1.Battle.BattleEnvironmentWave.New()
 		end
 
 		slot8:SetWaveData(slot6)

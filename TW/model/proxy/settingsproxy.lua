@@ -310,4 +310,13 @@ function slot0.CheckLargeScreen(slot0)
 	return Screen.width / Screen.height > 2
 end
 
+function slot0.IsShowBeatMonseterNianCurtain(slot0)
+	return tonumber(PlayerPrefs.GetString("HitMonsterNianLayer2020" .. getProxy(PlayerProxy):getRawData().id, "0")) < pg.TimeMgr.GetInstance():GetServerTime()
+end
+
+function slot0.SetBeatMonseterNianFlag(slot0)
+	PlayerPrefs.SetString("HitMonsterNianLayer2020" .. getProxy(PlayerProxy):getRawData().id, GetZeroTime())
+	PlayerPrefs.Save()
+end
+
 return slot0

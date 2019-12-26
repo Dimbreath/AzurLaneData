@@ -512,7 +512,103 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
-	[39] = {
+	{
+		display = "雙聯裝128mmSKC41高平兩用炮T2設計圖",
+		rarity = 2,
+		type = 9,
+		name = "雙聯裝128mm高平兩用炮T2設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 33,
+		icon = "Equips/41100",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	{
+		display = "三聯283mmSKC28主炮T2設計圖",
+		rarity = 2,
+		type = 9,
+		name = "三聯283mmSKC28主炮T2設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 34,
+		icon = "Equips/43100",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	{
+		display = "三聯283mmSKC34主炮T2設計圖",
+		rarity = 2,
+		type = 9,
+		name = "三聯283mmSKC34主炮T2設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 35,
+		icon = "Equips/44000",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	{
+		display = "三聯裝533mm磁性魚雷T2設計圖",
+		rarity = 2,
+		type = 9,
+		name = "三聯裝533mm磁性魚雷T2設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 36,
+		icon = "Equips/45000",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	{
+		display = "BF-109T艦載戰鬥機T2設計圖",
+		rarity = 2,
+		type = 9,
+		name = "BF-109T艦載戰鬥機T2設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 37,
+		icon = "Equips/47000",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	{
+		display = "Ju-87C俯衝轟炸機T2設計圖",
+		rarity = 2,
+		type = 9,
+		name = "Ju-87C俯衝轟炸機T2設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 38,
+		icon = "Equips/49000",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	{
 		display = "烈風T1設計圖",
 		rarity = 2,
 		type = 9,
@@ -528,7 +624,7 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
-	[40] = {
+	{
 		display = "流星T1設計圖",
 		rarity = 2,
 		type = 9,
@@ -544,7 +640,7 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
-	[41] = {
+	{
 		display = "瑞雲T2設計圖",
 		rarity = 2,
 		type = 9,
@@ -588,6 +684,22 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 1004,
 		icon = "props/giftbox",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[1005] = {
+		display = "2020新年快樂！",
+		rarity = 4,
+		type = 1,
+		name = "新年的祈願",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 1005,
+		icon = "props/manjuuema",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -796,6 +908,38 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 10011,
 		icon = "Equips/2400",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[10012] = {
+		display = "九三式純氧魚雷T1設計圖",
+		rarity = 3,
+		type = 9,
+		name = "九三式純氧魚雷T1設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 10012,
+		icon = "Equips/2600",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[10013] = {
+		display = "533mm磁性魚雷T2設計圖",
+		rarity = 3,
+		type = 9,
+		name = "533mm磁性魚雷T2設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 10013,
+		icon = "Equips/2700",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -1712,6 +1856,38 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[10075] = {
+		display = "三聯283mmSKC34主炮T3設計圖",
+		rarity = 3,
+		type = 9,
+		name = "三聯283mmSKC34主炮T3設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 10075,
+		icon = "Equips/44000",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[10076] = {
+		display = "雙聯380mmSKC主炮T2設計圖",
+		rarity = 3,
+		type = 9,
+		name = "雙聯380mmSKC主炮T2設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 10076,
+		icon = "Equips/44100",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[10077] = {
 		display = "雙聯37mm手拉機槍T3設計圖",
 		rarity = 3,
@@ -1740,6 +1916,134 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 10078,
 		icon = "Equips/46300",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[10079] = {
+		display = "雙聯裝128mmSKC41高平兩用炮T3設計圖",
+		rarity = 3,
+		type = 9,
+		name = "雙聯裝128mm高平兩用炮T3設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 10079,
+		icon = "Equips/41100",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[10080] = {
+		display = "三聯283mmSKC28主炮T3設計圖",
+		rarity = 3,
+		type = 9,
+		name = "三聯283mmSKC28主炮T3設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 10080,
+		icon = "Equips/43100",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[10081] = {
+		display = "三聯裝533mm磁性魚雷T3設計圖",
+		rarity = 3,
+		type = 9,
+		name = "三聯裝533mm磁性魚雷T3設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 10081,
+		icon = "Equips/45000",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[10082] = {
+		display = "四聯裝533mm磁性魚雷T2設計圖",
+		rarity = 3,
+		type = 9,
+		name = "四聯裝533mm磁性魚雷T2設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 10082,
+		icon = "Equips/45100",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[10083] = {
+		display = "五聯裝533mm磁性魚雷T1設計圖",
+		rarity = 3,
+		type = 9,
+		name = "五聯裝533mm磁性魚雷T1設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 10083,
+		icon = "Equips/45200",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[10084] = {
+		display = "BF-109T艦載戰鬥機T3設計圖",
+		rarity = 3,
+		type = 9,
+		name = "BF-109T艦載戰鬥機T3設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 10084,
+		icon = "Equips/47000",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[10085] = {
+		display = "Me-155A艦載戰鬥機T2設計圖",
+		rarity = 3,
+		type = 9,
+		name = "Me-155A艦載戰鬥機T2設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 10085,
+		icon = "Equips/47100",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[10086] = {
+		display = "Ju-87C俯衝轟炸機T3設計圖",
+		rarity = 3,
+		type = 9,
+		name = "Ju-87C俯衝轟炸機T3設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 10086,
+		icon = "Equips/49000",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -1836,6 +2140,22 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 11002,
 		icon = "Equips/1500",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[11003] = {
+		display = "九三式純氧魚雷T2設計圖",
+		rarity = 4,
+		type = 9,
+		name = "九三式純氧魚雷T2設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 11003,
+		icon = "Equips/2600",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -2112,6 +2432,22 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[11026] = {
+		display = "雙聯380mmSKC主炮T3設計圖",
+		rarity = 4,
+		type = 9,
+		name = "雙聯380mmSKC主炮T3設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 11026,
+		icon = "Equips/44100",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[11027] = {
 		display = "雙聯105mmSKC高炮T3設計圖",
 		rarity = 4,
@@ -2140,6 +2476,54 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 11028,
 		icon = "Equips/540",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[11029] = {
+		display = "四聯裝533mm磁性魚雷T3設計圖",
+		rarity = 4,
+		type = 9,
+		name = "四聯裝533mm磁性魚雷T3設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 11029,
+		icon = "Equips/45100",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[11030] = {
+		display = "五聯裝533mm磁性魚雷T2設計圖",
+		rarity = 4,
+		type = 9,
+		name = "五聯裝533mm磁性魚雷T2設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 11030,
+		icon = "Equips/45200",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[11031] = {
+		display = "Me-155A艦載戰鬥機T3設計圖",
+		rarity = 4,
+		type = 9,
+		name = "Me-155A艦載戰鬥機T3設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 11031,
+		icon = "Equips/47100",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -5403,174 +5787,33 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
-	[40901] = {
-		display = "購買禮包可獲得隨機新年換裝*1，裝備外觀箱*3(直接開啟)，鑽石*2018，心智魔方*8，快速建造*4，傢俱幣*100",
+	[40908] = {
+		display = "購買禮包可獲得隨機換裝*1，鑽石*2020，外觀裝備箱(小豬)*3(直接開啟)，心智魔方*20，快速建造*10，傢俱幣*100",
 		rarity = 4,
 		type = 5,
-		name = "新年福袋",
+		name = "新年福袋2020",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
 		replace_item = 0,
 		link_id = 0,
-		id = 40901,
-		icon = "Props/fudai0",
+		id = 40908,
+		icon = "Props/fudai1",
 		display_icon = {
 			{
 				2,
-				69901,
+				69908,
 				1
 			},
 			{
+				1,
+				4,
+				2020
+			},
+			{
 				2,
-				30302,
+				30310,
 				3
-			},
-			{
-				1,
-				4,
-				2018
-			},
-			{
-				2,
-				20001,
-				8
-			},
-			{
-				2,
-				15003,
-				4
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		price = {},
-		index = {}
-	},
-	[40902] = {
-		display = "購買禮包可獲得隨機換裝*1，鑽石*2019，心智單元*50，心智魔方*20，快速建造*10，傢俱幣*100",
-		rarity = 4,
-		type = 5,
-		name = "國慶福袋",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 40902,
-		icon = "Props/fudai0",
-		display_icon = {
-			{
-				2,
-				69902,
-				1
-			},
-			{
-				1,
-				4,
-				2019
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		price = {},
-		index = {}
-	},
-	[40903] = {
-		display = "購買禮包可獲得隨機換裝*1，鑽石*2019，心智單元*50，心智魔方*20，快速建造*10，傢俱幣*100",
-		rarity = 4,
-		type = 5,
-		name = "新年福袋",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 40903,
-		icon = "Props/fudai0",
-		display_icon = {
-			{
-				2,
-				69903,
-				1
-			},
-			{
-				1,
-				4,
-				2019
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				20
-			},
-			{
-				2,
-				15003,
-				10
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		price = {},
-		index = {}
-	},
-	[40904] = {
-		display = "購買禮包可獲得隨機換裝*1，鑽石*2019，心智單元*50，心智魔方*20，快速建造*10，傢俱幣*100",
-		rarity = 4,
-		type = 5,
-		name = "2019春節福袋",
-		shop_id = -1,
-		shiptrans_id = 0,
-		virtual_type = 0,
-		replace_item = 0,
-		link_id = 0,
-		id = 40904,
-		icon = "Props/fudai0",
-		display_icon = {
-			{
-				2,
-				69904,
-				1
-			},
-			{
-				1,
-				4,
-				2019
-			},
-			{
-				2,
-				15008,
-				50
 			},
 			{
 				2,
@@ -5810,17 +6053,17 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "據說最原始的拐杖糖是白色的呢。 <color=#A9F548>（提高經驗加成5%，持續60分鐘）</color>",
+		display = "甜咖喱還是辣咖喱，這是一個問題！ <color=#A9F548>（提高經驗加成5%，持續60分鐘）</color>",
 		rarity = 2,
 		type = 3,
-		name = "拐杖糖",
+		name = "海軍咖喱",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		virtual_type = 0,
 		replace_item = 0,
 		link_id = 0,
 		id = 50004,
-		icon = "Props/christmas",
+		icon = "Props/haijungali",
 		display_icon = {},
 		price = {
 			1,
@@ -25174,11 +25417,6 @@ pg.item_data_statistics = {
 			},
 			{
 				4,
-				401351,
-				1
-			},
-			{
-				4,
 				401011,
 				1
 			},
@@ -26191,11 +26429,6 @@ pg.item_data_statistics = {
 			{
 				4,
 				403041,
-				1
-			},
-			{
-				4,
-				401351,
 				1
 			},
 			{
@@ -49787,6 +50020,66 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[69908] = {
+		display = [[
+從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的的鑽石) 
+包含的換裝和機率如下：
+（<color=#92fc63>9%</color>）埃爾德里奇換裝 正月的牽手（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>7%</color>）威爾斯親王換裝  皇家式風流；
+（<color=#92fc63>7%</color>）赤城換裝  梅與雪；
+（<color=#92fc63>7%</color>）加賀換裝  白狐賀正；
+（<color=#92fc63>7%</color>）歐根親王換裝  百花繚亂；
+（<color=#92fc63>7%</color>）海倫娜換裝  正月與青鳥；
+（<color=#92fc63>7%</color>）夕立換裝  雪仗將軍；
+（<color=#92fc63>7%</color>）愛宕換裝  冬季風物詩；
+（<color=#92fc63>7%</color>）克里夫蘭換裝  新年對決！；
+（<color=#92fc63>7%</color>）獨角獸換裝  祈願的雪與梅；
+（<color=#92fc63>7%</color>）綾波換裝  新年的願望；
+（<color=#92fc63>7%</color>）皇家方舟換裝  新年的守護者；
+（<color=#92fc63>7%</color>）拉菲換裝  雪兔與蘋果糖；
+（<color=#92fc63>7%</color>）蒼龍換裝  松間鶴；]],
+		rarity = 4,
+		type = 98,
+		name = "隨機新年換裝",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69908,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69909] = {
+		display = [[
+從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的的鑽石) 
+包含的換裝和機率如下：
+（<color=#92fc63>8.5%</color>）贝尔法斯特換裝  彩云之玫瑰（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9%</color>）拉菲換裝  白兔迎春（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>9%</color>）太原換裝  金蛇闹春（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>10.5%</color>）企业換裝  傲春之牡丹；
+（<color=#92fc63>10.5%</color>）半人马換裝  清冽的春风；
+（<color=#92fc63>10.5%</color>）君主換裝  赭红爵祿；
+（<color=#92fc63>10.5%</color>）棭換裝  夕暮春华；
+（<color=#92fc63>10.5%</color>）柚換裝  新岁之鬼神；
+（<color=#92fc63>10.5%</color>）列克星敦換裝  春华佳人；
+（<color=#92fc63>10.5%</color>）追赶者換裝  东煌之道；]],
+		rarity = 4,
+		type = 98,
+		name = "隨機春節換裝",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69909,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[70050] = {
 		display = "幫山城收集的度假海灘的空氣。用於『開幕慶典』活動兌換，活動結束後將會消失。",
 		rarity = 2,
@@ -49836,11 +50129,18 @@ pg.item_data_statistics = {
 		30,
 		31,
 		32,
+		33,
+		34,
+		35,
+		36,
+		37,
+		38,
 		39,
 		40,
 		41,
 		1001,
 		1004,
+		1005,
 		1008,
 		10000,
 		10001,
@@ -49854,6 +50154,8 @@ pg.item_data_statistics = {
 		10009,
 		10010,
 		10011,
+		10012,
+		10013,
 		10014,
 		10015,
 		10016,
@@ -49911,14 +50213,25 @@ pg.item_data_statistics = {
 		10072,
 		10073,
 		10074,
+		10075,
+		10076,
 		10077,
 		10078,
+		10079,
+		10080,
+		10081,
+		10082,
+		10083,
+		10084,
+		10085,
+		10086,
 		10087,
 		10088,
 		10089,
 		11000,
 		11001,
 		11002,
+		11003,
 		11005,
 		11006,
 		11009,
@@ -49936,8 +50249,12 @@ pg.item_data_statistics = {
 		11023,
 		11024,
 		11025,
+		11026,
 		11027,
 		11028,
+		11029,
+		11030,
+		11031,
 		11032,
 		11033,
 		15001,
@@ -50048,10 +50365,7 @@ pg.item_data_statistics = {
 		40116,
 		40117,
 		40118,
-		40901,
-		40902,
-		40903,
-		40904,
+		40908,
 		42000,
 		42001,
 		42002,
@@ -50768,6 +51082,8 @@ pg.item_data_statistics = {
 		59939,
 		60011,
 		60012,
+		69908,
+		69909,
 		70050
 	}
 }
