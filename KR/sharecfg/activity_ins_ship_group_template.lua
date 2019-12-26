@@ -13,7 +13,7 @@ pg.activity_ins_ship_group_template = {
 	[40301] = {
 		ship_group = 40301,
 		name = "R-Guitarist",
-		sculpture = "xipeier"
+		sculpture = "xipeierhaijunshangjiang"
 	},
 	[99901] = {
 		ship_group = 99901,

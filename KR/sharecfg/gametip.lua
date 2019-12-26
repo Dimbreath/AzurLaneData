@@ -7617,7 +7617,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "activity_switch_award_pool_failed"
 	},
 	shop_street_activity_tip = {
-		tip = "·이벤트 기간(<color=#A1E400FF>12.12-12.25</COLOR>)에는 갱신 시마다\n반드시 <color=#A1E400FF>장비 스킨 상자</COLOR>가 출현합니다.",
+		tip = "·이벤트 기간(<color=#A1E400FF>2019.12.26-2020.01.08</COLOR>)에는 갱신 시마다\n반드시 <color=#A1E400FF>장비 스킨 상자</COLOR>가 출현합니다.",
 		key = "shop_street_activity_tip"
 	},
 	twitter_link_title = {

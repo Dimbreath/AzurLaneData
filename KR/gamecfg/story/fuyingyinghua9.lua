@@ -9,7 +9,7 @@ return {
 			say = "天岩岛近海·正午",
 			side = 2,
 			dir = 1,
-			bgm = "holo-control-inst",
+			bgm = "xinnong-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z2，快一点，都快到午饭时间了啊",
+			say = "Z2，快一点，都快到午饭时间了啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "把整个海域作为封闭空间，屏蔽来自外部的观测，这就是“结界”…重樱内部还真是充满了超自然的存在啊",
+			say = "把整个海域作为封闭空间，屏蔽来自外部的观测，这就是“结界”…重樱内部还真是充满了超自然的存在啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "超自然的存在？呵，这些不过是我们需要理解但还没有理解的科技而已",
+			say = "超自然的存在？呵，这些不过是我们需要理解但还没有理解的科技而已~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "弹药充足",
+			say = "弹药充足。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "武器状态良好",
+			say = "武器状态良好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………再怎么说也不用准备到这个份上吧",
+			say = "…………再怎么说也不用准备到这个份上吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是那家伙认为事有蹊跷啦。临行之前专门要我多留个心眼",
+			say = "是那家伙认为事有蹊跷啦。临行之前专门要我多留个心眼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "确实…这次{namecode:91}的计划看起来是有点太小儿科了",
+			say = "确实…这次{namecode:91}的计划看起来是有点太小儿科了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且危险。塞壬可不是能任人摆布的棋子哦",
+			say = "而且危险。塞壬可不是能任人摆布的棋子哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果她的目的只是像她说的为了动员重樱参加作战计划到还好，如果不是的话…？",
+			say = "如果她的目的只是像她说的为了动员重樱参加作战计划倒还好，如果不是的话…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

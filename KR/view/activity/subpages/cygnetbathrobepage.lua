@@ -101,4 +101,10 @@ function slot0.showLotteryAwardResult(slot0, slot1, slot2, slot3)
 	slot0:emit(ActivityMainScene.LOCK_ACT_MAIN, true)
 end
 
+function slot0.IsTip()
+	if getProxy(ActivityProxy):getActivityById(ActivityConst.CYGNET_BATHROBE_PAGE_ID) and not slot0:isEnd() then
+		return slot0.data2 <= 0
+	end
+end
+
 return slot0

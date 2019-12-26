@@ -71326,15 +71326,16 @@ pg.item_data_statistics = {
 다음의 스킨을 랜덤으로 입수할 수 있습니다.(이미 보유 중인 스킨의 경우, 해당 스킨에 상응하는 가격의 다이아로 자동 변환 됩니다)
 각 스킨의 출현 확률 : 
 
-（<color=#92fc63>11.5%</color>）아즈마  아악의 어둠；
-（<color=#92fc63>11.5%</color>）나가토  여우의 빛나는 후리소데；
-（<color=#92fc63>11.0%</color>）유니콘  소원의 눈과 매화；
-（<color=#92fc63>11.0%</color>）Z35  projekt Kirschblüte；
-（<color=#92fc63>11.0%</color>）키리시마  제멋대로 반짝이는 별；
-（<color=#92fc63>11.0%</color>）아야나미  신년의 소망；
-（<color=#92fc63>11.0%</color>）사우스햄튼  신년의 LittleKnight；
-（<color=#92fc63>11.0%</color>）클리블랜드  신년 배틀!；
-（<color=#92fc63>11.0%</color>）아크 로열  신년의 수호자；]],
+（<color=#92fc63>11.5%</color>）프리드리히 데어 그로세 아악의 어둠
+（<color=#92fc63>11.5%</color>）나가토  여우의 빛나는 후리소데
+（<color=#92fc63>11.0%</color>）유니콘  소원의 눈과 매화
+（<color=#92fc63>11.0%</color>）Z35  projekt Kirschblüte
+（<color=#92fc63>11.0%</color>）키리시마  제멋대로 반짝이는 별
+（<color=#92fc63>11.0%</color>）아야나미  신년의 소망
+（<color=#92fc63>11.0%</color>）사우스햄튼  신년의 LittleKnight
+（<color=#92fc63>11.0%</color>）클리블랜드  신년 배틀!
+（<color=#92fc63>11.0%</color>）아크 로열  신년의 수호자
+]],
 		rarity = 4,
 		type = 98,
 		name = "랜덤 신년 스킨(2020) ",

@@ -1,94 +1,117 @@
 return {
 	{
-		ButtonName = "activityButton",
+		Tip = "tip_1920",
 		Image = "event_all",
-		TipText = true,
-		Tip = "tip_1920",
-		IsShow = function ()
-			return true
-		end,
-		OnClick = function (slot0)
-			slot0:emit(MainUIMediator.GO_SCENE, {
-				SCENE.ACTIVITY
-			})
-		end,
-		UpdateTip = function (slot0)
-			setActive(slot0, false)
+		ButtonName = "activityButton",
+		UpdateButton = function (slot0, slot1)
+			setActive(slot1, true)
+			onButton(slot0, slot1, function ()
+				slot0:emit(MainUIMediator.GO_SCENE, {
+					SCENE.ACTIVITY
+				})
+			end, SFX_PANEL)
 		end
 	},
 	{
-		ButtonName = "activity_map_btn",
 		Image = "event_map",
-		TipText = false,
-		IsShow = function ()
-			return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT) and not slot0:isEnd()
-		end,
-		OnClick = function (slot0)
-			slot0:emit(MainUIMediator.ON_ACTIVITY_MAP, getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT).id)
-		end
-	},
-	{
-		ButtonName = "activity_newyear",
-		Image = "event_minigame",
-		TipText = true,
-		Tip = "tip_1920",
-		IsShow = function ()
-			return getProxy(ActivityProxy):getActivityById(ActivityConst.NEWYEAR_ACTIVITY) and not slot0:isEnd()
-		end,
-		OnClick = function (slot0)
-			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.NEWYEAR_SQUARE)
-		end,
-		UpdateTip = function (slot0)
-			slot3 = getProxy(MiniGameProxy):GetHubByHubId(slot2)
+		ButtonName = "activity_map_btn",
+		UpdateButton = function (slot0, slot1)
+			setActive(slot1, getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT) and not slot2:isEnd())
 
-			setActive(slot0, slot3.count > 0 or (slot3:getConfig("reward_need") <= slot3.usedtime and slot3.ultimate == 0))
-			setText(slot0:Find("Text"), (slot3.getConfig("reward_need") <= slot3.usedtime and slot3.ultimate == 0 and "!") or slot3.count)
-		end
-	},
-	{
-		ButtonName = "activity_escort",
-		Image = "event_escort",
-		IsShow = function ()
-			return OPEN_ESCORT
-		end,
-		OnClick = function (slot0)
-			slot0:emit(MainUIMediator.OPEN_ESCORT)
-		end
-	},
-	{
-		ButtonName = "activity_boss",
-		Image = "event_boss",
-		TipText = false,
-		Tip = "tip",
-		IsShow = function ()
-			return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) and not slot0:isEnd()
-		end,
-		OnClick = function (slot0)
-			slot0:emit(MainUIMediator.GO_SCENE, {
-				SCENE.ACT_BOSS_BATTLE
-			})
-		end,
-		UpdateTip = function (slot0)
-			slot1 = false
-
-			if getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_BOSS_PT_ID) then
-				slot1 = ActivityBossPtData.New(slot2):CanGetAward()
+			if getProxy(ActivityProxy).getActivityByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT) and not slot2.isEnd() then
+				onButton(slot0, slot1, function ()
+					slot0:emit(MainUIMediator.ON_ACTIVITY_MAP, slot1.id)
+				end, SFX_PANEL)
 			end
+		end
+	},
+	{
+		Image = "event_minigame",
+		ButtonName = "activity_newyear",
+		Tip = "tip_1920",
+		CtorButton = function (slot0, slot1)
+			if getProxy(MiniGameProxy):GetMiniGameData(3) and not slot2:GetRuntimeData("isInited") then
+				slot0:emit(MainUIMediator.MINIGAME_OPERATION, 4, MiniGameOPCommand.CMD_SPECIAL_GAME, {
+					3,
+					1
+				})
+			end
+		end,
+		UpdateButton = function (slot0, slot1)
+			setActive(slot1, getProxy(ActivityProxy):getActivityById(ActivityConst.NEWYEAR_ACTIVITY) and not slot2:isEnd())
 
-			setActive(slot0, slot1)
+			if getProxy(ActivityProxy).getActivityById(ActivityConst.NEWYEAR_ACTIVITY) and not slot2.isEnd() then
+				slot6 = getProxy(MiniGameProxy).GetHubByHubId(slot5, slot4)
+
+				setActive(slot1:Find("Tip"), slot6.count > 0 or (slot6:getConfig("reward_need") <= slot6.usedtime and slot6.ultimate == 0) or slot9() or CygnetBathrobePage.IsTip())
+
+				if slot6.count > 0 or (slot6.getConfig("reward_need") <= slot6.usedtime and slot6.ultimate == 0) or slot9() or CygnetBathrobePage.IsTip() then
+					slot12 = slot1:Find("Tip/Text")
+					slot13 = nil
+
+					if slot8 then
+						slot13 = "!"
+					elseif slot7 > 0 then
+						slot13 = slot7
+					elseif slot10 then
+						slot13 = "!"
+					end
+
+					setText(slot12, slot13 or "")
+				end
+
+				onButton(slot0, slot1, function ()
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.NEWYEAR_SQUARE)
+				end, SFX_PANEL)
+			end
+		end
+	},
+	{
+		Image = "event_escort",
+		ButtonName = "activity_escort",
+		UpdateButton = function (slot0, slot1)
+			setActive(slot1, OPEN_ESCORT)
+			onButton(slot0, slot1, function ()
+				slot0:emit(MainUIMediator.OPEN_ESCORT)
+			end, SFX_PANEL)
+		end
+	},
+	{
+		Tip = "tip",
+		Image = "event_boss",
+		ButtonName = "activity_boss",
+		UpdateButton = function (slot0, slot1)
+			setActive(slot1, getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) and not slot2:isEnd())
+
+			if getProxy(ActivityProxy).getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) and not slot2.isEnd() then
+				slot4 = false
+
+				if getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_BOSS_PT_ID) then
+					slot4 = ActivityBossPtData.New(slot5):CanGetAward()
+				end
+
+				setActive(slot1:Find("Tip"), slot4)
+				onButton(slot0, slot1, function ()
+					slot0:emit(MainUIMediator.GO_SCENE, {
+						SCENE.ACT_BOSS_BATTLE
+					})
+				end, SFX_PANEL)
+			end
 		end
 	},
 	{
 		ButtonName = "activity_ins",
-		Image = "rukou",
-		IsShow = function ()
-			return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_INSTAGRAM) and not slot0:isEnd()
-		end,
-		OnClick = function (slot0)
-			slot0:emit(MainUIMediator.OPEN_INS)
-		end,
-		UpdateTip = function (slot0)
-			setActive(slot0, getProxy(InstagramProxy):ShouldShowTip())
+		UpdateButton = function (slot0, slot1)
+			setActive(slot1, getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_INSTAGRAM) and not slot2:isEnd())
+
+			if getProxy(ActivityProxy).getActivityByType(ActivityConst.ACTIVITY_TYPE_INSTAGRAM) and not slot2.isEnd() then
+				slot1:Find("icon"):GetComponent(typeof(Animator)).enabled = getProxy(InstagramProxy):ShouldShowTip()
+
+				setActive(slot1:Find("Tip"), slot4)
+				onButton(slot0, slot1, function ()
+					slot0:emit(MainUIMediator.OPEN_INS)
+				end, SFX_PANEL)
+			end
 		end
 	},
 	LayoutProperty = {
@@ -97,7 +120,6 @@ return {
 	CurrentEntrancesList = {
 		1,
 		2,
-		3,
 		6
 	}
 }

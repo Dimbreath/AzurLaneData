@@ -118626,7 +118626,7 @@ pg.ship_data_statistics = {
 		},
 		grades = {
 			"C",
-			"A",
+			"B",
 			"E",
 			"B",
 			"B",
