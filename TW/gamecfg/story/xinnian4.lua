@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"新年快乐\n\n<size=45>四  友情、努力、胜利</size>",
+					"新年快樂\n\n<size=45>四  友情、努力、勝利</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？果然大家都来了吗",
+			say = "嗯？果然大家都來了嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "是呀～收到{namecode:6}邀请的时候就在想着会不会遇到你们了～",
+			say = "是呀～收到{namecode:6}邀請的時候就在想著會不會遇到你們了～",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -69,7 +69,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，拉菲还是一脸没睡醒的样子呢～马上就要新年了哟～新年～要有新年新气象才对！来！打起精神来～",
+			say = "哎呀，拉菲還是一臉沒睡醒的樣子呢～馬上就要新年了喲～新年～要有新年新氣象才對！來！打起精神來～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…拉菲……精神饱满……",
+			say = "嗯…拉菲……精神飽滿……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，两位还是一如既往呢",
+			say = "啊哈哈，兩位還是一如既往呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过真没想到{namecode:6}会约我们来聚会呢～",
+			say = "不過真沒想到{namecode:6}會約我們來聚會呢～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:6}虽然话不多，但其实还是很喜欢大家的呢",
+			say = "{namecode:6}雖然話不多，但其實還是很喜歡大家的呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊～真是可爱的性格呢～",
+			say = "是啊～真是可愛的性格呢～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（敲门）{namecode:6}～我们来了哟～",
+			say = "（敲門）{namecode:6}～我們來了喲～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有反应…的样子呢",
+			say = "沒有反應…的樣子呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "{namecode:6}…睡过头了？",
+			say = "{namecode:6}…睡過頭了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这比较像是拉菲会做的事情呢……",
+			say = "這比較像是拉菲會做的事情呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:6}",
-			say = "我在……这里",
+			say = "我在……這裡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 		},
 		{
 			side = 1,
-			say = "呜哇哇！{namecode:6}、{namecode:6}？",
+			say = "嗚哇哇！{namecode:6}、{namecode:6}？",
 			dir = 1,
 			actor = 401230,
 			nameColor = "#a9f548",
@@ -260,7 +260,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈哈，刚才Z23的表情，啊哈哈哈哈哈哈",
+			say = "啊哈哈哈，剛才Z23的表情，啊哈哈哈哈哈哈",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜…呜呜……为什么{namecode:6}会从后面突然出现啦！",
+			say = "嗚…嗚嗚……為什麼{namecode:6}會從後面突然出現啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:6}",
-			say = "到{namecode:89}那边取东西，花了一点时间……",
+			say = "到{namecode:89}那邊取東西，花了一點時間……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此，就是你手上的这个吗？",
+			say = "原來如此，就是你手上的這個嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:6}",
-			say = "拜托{namecode:89}做的，想送给大家…不过今年时间不够，只有…一套…",
+			say = "拜託{namecode:89}做的，想送給大家…不過今年時間不夠，只有…一套…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "{namecode:6}，这个圆圆的造型独特的食物是什么——…嗯？",
+			say = "{namecode:6}，這個圓圓的造型獨特的食物是什麼——…嗯？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就决定是你了，拉菲！Z23、{namecode:6}，抓住拉菲～",
+			say = "就決定是你了，拉菲！Z23、{namecode:6}，抓住拉菲～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶……？啊……等——",
+			say = "誒……？啊……等——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			blackBg = true,
 			actor = 201210,
 			nameColor = "#a9f548",
-			say = "嘿嘿嘿，你喊破了喉咙也没用的，我脱！",
+			say = "嘿嘿嘿，你喊破了喉嚨也沒用的，我脫！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -475,7 +475,7 @@ return {
 			blackBg = true,
 			actor = 301050,
 			actorName = "{namecode:6}",
-			say = "拉菲的皮肤…又白又滑——",
+			say = "拉菲的皮膚…又白又滑——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			blackBg = true,
 			actor = 101170,
 			nameColor = "#a9f548",
-			say = "好冷…好痒——",
+			say = "好冷…好癢——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			blackBg = true,
 			actor = 401230,
 			nameColor = "#a9f548",
-			say = "总觉得有哪里不对…算了——",
+			say = "總覺得有哪裡不對…算了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			dir = 1,
 			actor = 201210,
 			nameColor = "#a9f548",
-			say = "嘿嘿，换装完成～拉菲，感觉如何～？",
+			say = "嘿嘿，換裝完成～拉菲，感覺如何～？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -556,7 +556,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怪怪的……束腰有点高……还有点紧……袖子漏风，凉飕飕……",
+			say = "怪怪的……束腰有點高……還有點緊……袖子漏風，涼颼颼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			}
 		},
 		{
-			say = "但是，很可爱",
+			say = "但是，很可愛",
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -591,7 +591,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊，拉菲穿起来很合适呢～我都有点嫉妒了（小声），咳哼，没什么",
+			say = "是啊，拉菲穿起來很合適呢～我都有點嫉妒了（小聲），咳哼，沒什麼",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊～真好啊真好啊～拉菲有这么可爱的衣服～",
+			say = "啊啊～真好啊真好啊～拉菲有這麼可愛的衣服～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:6}",
-			say = "下次，要准备大家的份",
+			say = "下次，要準備大家的份",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！我会期待着的！",
+			say = "嗯！我會期待著的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -667,7 +667,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦～衣服也换好了，人也到齐了～开始今天的聚会吧～",
+			say = "好啦～衣服也換好了，人也到齊了～開始今天的聚會吧～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:6}",
-			say = "那就从动画鉴赏会开始——\t",
+			say = "那就從動畫鑒賞會開始——\t",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -696,7 +696,7 @@ return {
 		{
 			actorShadow = true,
 			side = 0,
-			actorName = "众人",
+			actorName = "眾人",
 			hideOther = true,
 			actor = 401230,
 			nameColor = "#a9f548",

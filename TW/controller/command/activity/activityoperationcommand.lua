@@ -275,13 +275,6 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 		elseif slot1.cmd == 2 then
 			slot3.data1 = slot1.arg1
 		end
-	elseif slot5 == ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN then
-		slot3.data2 = slot3.data2 + 1
-		slot3.data3 = slot2.number[1]
-
-		if slot3:getDataConfig("hp") - slot3.data3 <= 0 then
-			slot3.data1 = 1
-		end
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_CARD_PAIRS or slot5 == ActivityConst.ACTIVITY_TYPE_LINK_LINK then
 		if slot1.cmd == 1 then
 			slot8 = slot3:getConfig("config_data")[4]
@@ -349,6 +342,8 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 				slot3.data4 = slot2.number[1]
 			end
 		end
+	elseif slot5 == ActivityConst.ACTIVITY_TYPE_SHRINE then
+		slot3.data1 = 1
 	end
 
 	return slot3
@@ -388,7 +383,8 @@ function slot0.performance(slot0, slot1, slot2, slot3, slot4)
 				end
 
 				slot3:sendNotification(ActivityProxy.ACTIVITY_SHOW_LOTTERY_AWARD_RESULT, {
-					awards = slot6,
+					activityID = slot1.id,
+					awards = slot1.id,
 					number = slot4.number[1],
 					callback = slot3.sendNotification
 				})
@@ -426,11 +422,6 @@ function slot0.performance(slot0, slot1, slot2, slot3, slot4)
 		end
 
 		getProxy(ActivityProxy):updateActivity(getProxy(ActivityProxy))
-
-		if getProxy(ActivityProxy).updateActivity == ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN then
-			return
-		end
-
 		slot3:sendNotification(ActivityProxy.ACTIVITY_OPERATION_DONE, slot5.activity_id)
 	end)
 

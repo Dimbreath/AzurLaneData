@@ -34664,6 +34664,356 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[41100] = {
+		name = "雙聯裝128mmSKC41高平兩用炮",
+		speciality = "鎖定",
+		tech = 1,
+		type = 1,
+		rarity = 2,
+		id = 41100,
+		angle = 360,
+		scatter = "20°",
+		ambush_extra = 0,
+		value_2 = 3,
+		icon = "41100",
+		value_1 = "4 x 4",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		range = 45,
+		nationality = 4,
+		attribute_3 = "antiaircraft",
+		ammo = "穿甲彈",
+		is_siren = 0,
+		value_3 = 2,
+		descrip = "雙聯裝128mmSKC41高平兩用炮，伯魯克科技新研發的驅逐艦主炮，加強了對空火力",
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		weapon_id = {
+			41100
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			4,
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"DD",
+			"MG",
+			"AP"
+		}
+	},
+	[41101] = {
+		value_1 = "5 x 4",
+		id = 41101,
+		base = 41100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			41101
+		},
+		property_rate = {}
+	},
+	[41102] = {
+		value_1 = "5 x 4",
+		id = 41102,
+		base = 41100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			41102
+		},
+		property_rate = {}
+	},
+	[41103] = {
+		value_1 = "6 x 4",
+		id = 41103,
+		base = 41100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			41103
+		},
+		property_rate = {}
+	},
+	[41120] = {
+		name = "雙聯裝128mmSKC41高平兩用炮",
+		speciality = "鎖定",
+		tech = 2,
+		type = 1,
+		rarity = 3,
+		id = 41120,
+		angle = 360,
+		scatter = "20°",
+		ambush_extra = 0,
+		value_2 = 7,
+		icon = "41100",
+		value_1 = "4 x 4",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		range = 45,
+		nationality = 4,
+		attribute_3 = "antiaircraft",
+		ammo = "穿甲彈",
+		is_siren = 0,
+		value_3 = 5,
+		descrip = "雙聯裝128mmSKC41高平兩用炮，伯魯克科技新研發的驅逐艦主炮，加強了對空火力",
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		weapon_id = {
+			41120
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			4,
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"DD",
+			"MG",
+			"AP"
+		}
+	},
+	[41121] = {
+		value_1 = "5 x 4",
+		id = 41121,
+		base = 41120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			41121
+		},
+		property_rate = {}
+	},
+	[41122] = {
+		value_1 = "5 x 4",
+		id = 41122,
+		base = 41120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			41122
+		},
+		property_rate = {}
+	},
+	[41123] = {
+		value_1 = "6 x 4",
+		id = 41123,
+		base = 41120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			41123
+		},
+		property_rate = {}
+	},
+	[41124] = {
+		value_1 = "6 x 4",
+		id = 41124,
+		base = 41120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			41124
+		},
+		property_rate = {}
+	},
+	[41125] = {
+		value_1 = "7 x 4",
+		id = 41125,
+		base = 41120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			41125
+		},
+		property_rate = {}
+	},
+	[41126] = {
+		value_1 = "8 x 4",
+		id = 41126,
+		base = 41120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			41126
+		},
+		property_rate = {}
+	},
+	[41140] = {
+		name = "雙聯裝128mmSKC41高平兩用炮",
+		speciality = "鎖定",
+		tech = 3,
+		type = 1,
+		rarity = 4,
+		id = 41140,
+		angle = 360,
+		scatter = "20°",
+		ambush_extra = 0,
+		value_2 = 15,
+		icon = "41100",
+		value_1 = "5 x 4",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		range = 45,
+		nationality = 4,
+		attribute_3 = "antiaircraft",
+		ammo = "穿甲彈",
+		is_siren = 0,
+		value_3 = 10,
+		descrip = "雙聯裝128mmSKC41高平兩用炮，伯魯克科技新研發的驅逐艦主炮，加強了對空火力",
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		weapon_id = {
+			41140
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			4,
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"DD",
+			"MG",
+			"AP"
+		}
+	},
+	[41141] = {
+		value_1 = "6 x 4",
+		id = 41141,
+		base = 41140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			41141
+		},
+		property_rate = {}
+	},
+	[41142] = {
+		value_1 = "6 x 4",
+		id = 41142,
+		base = 41140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			41142
+		},
+		property_rate = {}
+	},
+	[41143] = {
+		value_1 = "7 x 4",
+		id = 41143,
+		base = 41140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			41143
+		},
+		property_rate = {}
+	},
+	[41144] = {
+		value_1 = "7 x 4",
+		id = 41144,
+		base = 41140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			41144
+		},
+		property_rate = {}
+	},
+	[41145] = {
+		value_1 = "8 x 4",
+		id = 41145,
+		base = 41140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			41145
+		},
+		property_rate = {}
+	},
+	[41146] = {
+		value_1 = "8 x 4",
+		id = 41146,
+		base = 41140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			41146
+		},
+		property_rate = {}
+	},
+	[41147] = {
+		value_1 = "9 x 4",
+		id = 41147,
+		base = 41140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			41147
+		},
+		property_rate = {}
+	},
+	[41148] = {
+		value_1 = "9 x 4",
+		id = 41148,
+		base = 41140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			41148
+		},
+		property_rate = {}
+	},
+	[41149] = {
+		value_1 = "10 x 4",
+		id = 41149,
+		base = 41140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			41149
+		},
+		property_rate = {}
+	},
+	[41150] = {
+		value_1 = "11 x 4",
+		id = 41150,
+		base = 41140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			41150
+		},
+		property_rate = {}
+	},
 	[42000] = {
 		name = "單裝SKC28式150mm主炮",
 		type = 2,
@@ -36114,6 +36464,2269 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[43100] = {
+		name = "三聯283mmSKC28主炮",
+		type = 11,
+		id = 43100,
+		tech = 1,
+		speciality = "鎖定",
+		range = 60,
+		scatter = "25°",
+		ambush_extra = 0,
+		value_2 = 5,
+		icon = "43100",
+		value_1 = "30 x 6",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		rarity = 2,
+		angle = 40,
+		nationality = 4,
+		ammo = "穿甲彈",
+		is_siren = 0,
+		descrip = "三聯283mmSKC28主炮，德意志級裝甲艦主炮，僅德意志級可以使用",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		weapon_id = {
+			43100
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CB",
+			"MG",
+			"AP"
+		}
+	},
+	[43101] = {
+		value_1 = "32 x 6",
+		id = 43101,
+		base = 43100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			43101
+		},
+		property_rate = {}
+	},
+	[43102] = {
+		value_1 = "34 x 6",
+		id = 43102,
+		base = 43100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			43102
+		},
+		property_rate = {}
+	},
+	[43103] = {
+		value_1 = "36 x 6",
+		id = 43103,
+		base = 43100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			43103
+		},
+		property_rate = {}
+	},
+	[43120] = {
+		name = "三聯283mmSKC28主炮",
+		type = 11,
+		id = 43120,
+		tech = 2,
+		speciality = "鎖定",
+		range = 60,
+		scatter = "25°",
+		ambush_extra = 0,
+		value_2 = 12,
+		icon = "43100",
+		value_1 = "32 x 6",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		rarity = 3,
+		angle = 40,
+		nationality = 4,
+		ammo = "穿甲彈",
+		is_siren = 0,
+		descrip = "三聯283mmSKC28主炮，德意志級裝甲艦主炮，僅德意志級可以使用",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		weapon_id = {
+			43120
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CB",
+			"MG",
+			"AP"
+		}
+	},
+	[43121] = {
+		value_1 = "34 x 6",
+		id = 43121,
+		base = 43120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			43121
+		},
+		property_rate = {}
+	},
+	[43122] = {
+		value_1 = "36 x 6",
+		id = 43122,
+		base = 43120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			43122
+		},
+		property_rate = {}
+	},
+	[43123] = {
+		value_1 = "38 x 6",
+		id = 43123,
+		base = 43120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			43123
+		},
+		property_rate = {}
+	},
+	[43124] = {
+		value_1 = "40 x 6",
+		id = 43124,
+		base = 43120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			43124
+		},
+		property_rate = {}
+	},
+	[43125] = {
+		value_1 = "42 x 6",
+		id = 43125,
+		base = 43120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			43125
+		},
+		property_rate = {}
+	},
+	[43126] = {
+		value_1 = "44 x 6",
+		id = 43126,
+		base = 43120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			43126
+		},
+		property_rate = {}
+	},
+	[43140] = {
+		name = "三聯283mmSKC28主炮",
+		type = 11,
+		id = 43140,
+		tech = 3,
+		speciality = "鎖定",
+		range = 60,
+		scatter = "25°",
+		ambush_extra = 0,
+		value_2 = 25,
+		icon = "43100",
+		value_1 = "35 x 6",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		rarity = 4,
+		angle = 40,
+		nationality = 4,
+		ammo = "穿甲彈",
+		is_siren = 0,
+		descrip = "三聯283mmSKC28主炮，德意志級裝甲艦主炮，僅德意志級可以使用",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		weapon_id = {
+			43140
+		},
+		skill_id = {},
+		part_main = {
+			3,
+			18
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CB",
+			"MG",
+			"AP"
+		}
+	},
+	[43141] = {
+		value_1 = "37 x 6",
+		id = 43141,
+		base = 43140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			43141
+		},
+		property_rate = {}
+	},
+	[43142] = {
+		value_1 = "39 x 6",
+		id = 43142,
+		base = 43140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			43142
+		},
+		property_rate = {}
+	},
+	[43143] = {
+		value_1 = "41 x 6",
+		id = 43143,
+		base = 43140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			43143
+		},
+		property_rate = {}
+	},
+	[43144] = {
+		value_1 = "43 x 6",
+		id = 43144,
+		base = 43140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			43144
+		},
+		property_rate = {}
+	},
+	[43145] = {
+		value_1 = "45 x 6",
+		id = 43145,
+		base = 43140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			43145
+		},
+		property_rate = {}
+	},
+	[43146] = {
+		value_1 = "47 x 6",
+		id = 43146,
+		base = 43140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			43146
+		},
+		property_rate = {}
+	},
+	[43147] = {
+		value_1 = "49 x 6",
+		id = 43147,
+		base = 43140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			43147
+		},
+		property_rate = {}
+	},
+	[43148] = {
+		value_1 = "51 x 6",
+		id = 43148,
+		base = 43140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			43148
+		},
+		property_rate = {}
+	},
+	[43149] = {
+		value_1 = "53 x 6",
+		id = 43149,
+		base = 43140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			43149
+		},
+		property_rate = {}
+	},
+	[43150] = {
+		value_1 = "55 x 6",
+		id = 43150,
+		base = 43140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			43150
+		},
+		property_rate = {}
+	},
+	[44000] = {
+		name = "三聯283mmSKC34主炮",
+		type = 4,
+		id = 44000,
+		tech = 1,
+		speciality = "跨射",
+		range = 200,
+		scatter = "22",
+		ambush_extra = 0,
+		value_2 = 5,
+		icon = "44000",
+		value_1 = "34 x 3",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		rarity = 2,
+		angle = 50,
+		nationality = 4,
+		ammo = "通常彈",
+		is_siren = 0,
+		descrip = "三聯283mmSKC34主炮，沙恩霍斯特級戰列巡洋艦主炮，戰巡和戰列可以使用",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			44000
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		}
+	},
+	[44001] = {
+		value_1 = "38 x 3",
+		id = 44001,
+		base = 44000,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44001
+		},
+		property_rate = {}
+	},
+	[44002] = {
+		value_1 = "42 x 3",
+		id = 44002,
+		base = 44000,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44002
+		},
+		property_rate = {}
+	},
+	[44003] = {
+		value_1 = "46 x 3",
+		id = 44003,
+		base = 44000,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44003
+		},
+		property_rate = {}
+	},
+	[44020] = {
+		name = "三聯283mmSKC34主炮",
+		type = 4,
+		id = 44020,
+		tech = 2,
+		speciality = "跨射",
+		range = 200,
+		scatter = "22",
+		ambush_extra = 0,
+		value_2 = 12,
+		icon = "44000",
+		value_1 = "37 x 3",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		rarity = 3,
+		angle = 50,
+		nationality = 4,
+		ammo = "通常彈",
+		is_siren = 0,
+		descrip = "三聯283mmSKC34主炮，沙恩霍斯特級戰列巡洋艦主炮，戰巡和戰列可以使用",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			44020
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		}
+	},
+	[44021] = {
+		value_1 = "42 x 3",
+		id = 44021,
+		base = 44020,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44021
+		},
+		property_rate = {}
+	},
+	[44022] = {
+		value_1 = "46 x 3",
+		id = 44022,
+		base = 44020,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44022
+		},
+		property_rate = {}
+	},
+	[44023] = {
+		value_1 = "51 x 3",
+		id = 44023,
+		base = 44020,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44023
+		},
+		property_rate = {}
+	},
+	[44024] = {
+		value_1 = "55 x 3",
+		id = 44024,
+		base = 44020,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44024
+		},
+		property_rate = {}
+	},
+	[44025] = {
+		value_1 = "59 x 3",
+		id = 44025,
+		base = 44020,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44025
+		},
+		property_rate = {}
+	},
+	[44026] = {
+		value_1 = "64 x 3",
+		id = 44026,
+		base = 44020,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44026
+		},
+		property_rate = {}
+	},
+	[44040] = {
+		name = "三聯283mmSKC34主炮",
+		type = 4,
+		id = 44040,
+		tech = 3,
+		speciality = "跨射",
+		range = 200,
+		scatter = "22",
+		ambush_extra = 0,
+		value_2 = 25,
+		icon = "44000",
+		value_1 = "40 x 3",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		rarity = 4,
+		angle = 50,
+		nationality = 4,
+		ammo = "通常彈",
+		is_siren = 0,
+		descrip = "三聯283mmSKC34主炮，沙恩霍斯特級戰列巡洋艦主炮，戰巡和戰列可以使用",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			44040
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		}
+	},
+	[44041] = {
+		value_1 = "46 x 3",
+		id = 44041,
+		base = 44040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44041
+		},
+		property_rate = {}
+	},
+	[44042] = {
+		value_1 = "50 x 3",
+		id = 44042,
+		base = 44040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44042
+		},
+		property_rate = {}
+	},
+	[44043] = {
+		value_1 = "56 x 3",
+		id = 44043,
+		base = 44040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44043
+		},
+		property_rate = {}
+	},
+	[44044] = {
+		value_1 = "60 x 3",
+		id = 44044,
+		base = 44040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44044
+		},
+		property_rate = {}
+	},
+	[44045] = {
+		value_1 = "64 x 3",
+		id = 44045,
+		base = 44040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44045
+		},
+		property_rate = {}
+	},
+	[44046] = {
+		value_1 = "70 x 3",
+		id = 44046,
+		base = 44040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44046
+		},
+		property_rate = {}
+	},
+	[44047] = {
+		value_1 = "74 x 3",
+		id = 44047,
+		base = 44040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44047
+		},
+		property_rate = {}
+	},
+	[44048] = {
+		value_1 = "80 x 3",
+		id = 44048,
+		base = 44040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44048
+		},
+		property_rate = {}
+	},
+	[44049] = {
+		value_1 = "84 x 3",
+		id = 44049,
+		base = 44040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44049
+		},
+		property_rate = {}
+	},
+	[44050] = {
+		value_1 = "88 x 3",
+		id = 44050,
+		base = 44040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44050
+		},
+		property_rate = {}
+	},
+	[44100] = {
+		name = "雙聯380mmSKC主炮",
+		type = 4,
+		id = 44100,
+		tech = 1,
+		speciality = "跨射",
+		range = 200,
+		scatter = "20",
+		ambush_extra = 0,
+		value_2 = 12,
+		icon = "44100",
+		value_1 = "48 x 2",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		rarity = 3,
+		angle = 50,
+		nationality = 4,
+		ammo = "通常彈",
+		is_siren = 0,
+		descrip = "雙聯380mmSKC主炮，俾斯麥級戰艦主炮，戰巡和戰列可以使用",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			44100
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"BB",
+			"MG"
+		}
+	},
+	[44101] = {
+		value_1 = "55 x 2",
+		id = 44101,
+		base = 44100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44101
+		},
+		property_rate = {}
+	},
+	[44102] = {
+		value_1 = "61 x 2",
+		id = 44102,
+		base = 44100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44102
+		},
+		property_rate = {}
+	},
+	[44103] = {
+		value_1 = "67 x 2",
+		id = 44103,
+		base = 44100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44103
+		},
+		property_rate = {}
+	},
+	[44104] = {
+		value_1 = "73 x 2",
+		id = 44104,
+		base = 44100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44104
+		},
+		property_rate = {}
+	},
+	[44105] = {
+		value_1 = "79 x 2",
+		id = 44105,
+		base = 44100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44105
+		},
+		property_rate = {}
+	},
+	[44106] = {
+		value_1 = "86 x 2",
+		id = 44106,
+		base = 44100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44106
+		},
+		property_rate = {}
+	},
+	[44120] = {
+		name = "雙聯380mmSKC主炮",
+		type = 4,
+		id = 44120,
+		tech = 2,
+		speciality = "跨射",
+		range = 200,
+		scatter = "20",
+		ambush_extra = 0,
+		value_2 = 25,
+		icon = "44100",
+		value_1 = "55 x 2",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		rarity = 4,
+		angle = 50,
+		nationality = 4,
+		ammo = "穿甲彈",
+		is_siren = 0,
+		descrip = "雙聯380mmSKC主炮，俾斯麥級戰艦主炮，戰巡和戰列可以使用",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		weapon_id = {
+			44120
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"BB",
+			"MG",
+			"AP"
+		}
+	},
+	[44121] = {
+		value_1 = "61 x 2",
+		id = 44121,
+		base = 44120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44121
+		},
+		property_rate = {}
+	},
+	[44122] = {
+		value_1 = "67 x 2",
+		id = 44122,
+		base = 44120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44122
+		},
+		property_rate = {}
+	},
+	[44123] = {
+		value_1 = "74 x 2",
+		id = 44123,
+		base = 44120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44123
+		},
+		property_rate = {}
+	},
+	[44124] = {
+		value_1 = "80 x 2",
+		id = 44124,
+		base = 44120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44124
+		},
+		property_rate = {}
+	},
+	[44125] = {
+		value_1 = "87 x 2",
+		id = 44125,
+		base = 44120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44125
+		},
+		property_rate = {}
+	},
+	[44126] = {
+		value_1 = "93 x 2",
+		id = 44126,
+		base = 44120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44126
+		},
+		property_rate = {}
+	},
+	[44127] = {
+		value_1 = "100 x 2",
+		id = 44127,
+		base = 44120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44127
+		},
+		property_rate = {}
+	},
+	[44128] = {
+		value_1 = "107 x 2",
+		id = 44128,
+		base = 44120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44128
+		},
+		property_rate = {}
+	},
+	[44129] = {
+		value_1 = "114 x 2",
+		id = 44129,
+		base = 44120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44129
+		},
+		property_rate = {}
+	},
+	[44130] = {
+		value_1 = "122 x 2",
+		id = 44130,
+		base = 44120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44130
+		},
+		property_rate = {}
+	},
+	[44140] = {
+		name = "雙聯380mmSKC主炮",
+		type = 4,
+		id = 44140,
+		tech = 3,
+		speciality = "跨射",
+		range = 200,
+		scatter = "20",
+		ambush_extra = 0,
+		value_2 = 45,
+		icon = "44100",
+		value_1 = "58 x 2",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		rarity = 5,
+		angle = 50,
+		nationality = 4,
+		ammo = "穿甲彈",
+		is_siren = 0,
+		descrip = "雙聯380mmSKC主炮，俾斯麥級戰艦主炮，戰巡和戰列可以使用",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			2
+		},
+		weapon_id = {
+			44140
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"BB",
+			"MG",
+			"AP"
+		}
+	},
+	[44141] = {
+		value_1 = "64 x 2",
+		id = 44141,
+		base = 44140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44141
+		},
+		property_rate = {}
+	},
+	[44142] = {
+		value_1 = "72 x 2",
+		id = 44142,
+		base = 44140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44142
+		},
+		property_rate = {}
+	},
+	[44143] = {
+		value_1 = "80 x 2",
+		id = 44143,
+		base = 44140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44143
+		},
+		property_rate = {}
+	},
+	[44144] = {
+		value_1 = "86 x 2",
+		id = 44144,
+		base = 44140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44144
+		},
+		property_rate = {}
+	},
+	[44145] = {
+		value_1 = "94 x 2",
+		id = 44145,
+		base = 44140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44145
+		},
+		property_rate = {}
+	},
+	[44146] = {
+		value_1 = "100 x 2",
+		id = 44146,
+		base = 44140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44146
+		},
+		property_rate = {}
+	},
+	[44147] = {
+		value_1 = "108 x 2",
+		id = 44147,
+		base = 44140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44147
+		},
+		property_rate = {}
+	},
+	[44148] = {
+		value_1 = "118 x 2",
+		id = 44148,
+		base = 44140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44148
+		},
+		property_rate = {}
+	},
+	[44149] = {
+		value_1 = "124 x 2",
+		id = 44149,
+		base = 44140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44149
+		},
+		property_rate = {}
+	},
+	[44150] = {
+		value_1 = "132 x 2",
+		id = 44150,
+		base = 44140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			44150
+		},
+		property_rate = {}
+	},
+	[45000] = {
+		name = "三聯裝533mm磁性魚雷",
+		type = 5,
+		id = 45000,
+		tech = 1,
+		speciality = "雷擊",
+		range = 52,
+		scatter = "40°",
+		ambush_extra = 0,
+		value_2 = 5,
+		icon = "45000",
+		value_1 = "63 x 3",
+		attribute_2 = "torpedo",
+		avoid_extra = 0,
+		rarity = 2,
+		angle = 60,
+		nationality = 4,
+		ammo = "聲導",
+		is_siren = 0,
+		descrip = "三聯裝533mm磁性魚雷，伯魯克科技研發的特殊魚雷，運用磁性引信和聲導技術，能極大的提高魚雷的命中率",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			45000
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		}
+	},
+	[45001] = {
+		value_1 = "69 x 3",
+		id = 45001,
+		base = 45000,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45001
+		},
+		property_rate = {}
+	},
+	[45002] = {
+		value_1 = "75 x 3",
+		id = 45002,
+		base = 45000,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45002
+		},
+		property_rate = {}
+	},
+	[45003] = {
+		value_1 = "81 x 3",
+		id = 45003,
+		base = 45000,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45003
+		},
+		property_rate = {}
+	},
+	[45020] = {
+		name = "三聯裝533mm磁性魚雷",
+		type = 5,
+		id = 45020,
+		tech = 2,
+		speciality = "雷擊",
+		range = 52,
+		scatter = "40°",
+		ambush_extra = 0,
+		value_2 = 12,
+		icon = "45000",
+		value_1 = "66 x 3",
+		attribute_2 = "torpedo",
+		avoid_extra = 0,
+		rarity = 3,
+		angle = 60,
+		nationality = 4,
+		ammo = "聲導",
+		is_siren = 0,
+		descrip = "三聯裝533mm磁性魚雷，伯魯克科技研發的特殊魚雷，運用磁性引信和聲導技術，能極大的提高魚雷的命中率",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			45020
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		}
+	},
+	[45021] = {
+		value_1 = "72 x 3",
+		id = 45021,
+		base = 45020,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45021
+		},
+		property_rate = {}
+	},
+	[45022] = {
+		value_1 = "79 x 3",
+		id = 45022,
+		base = 45020,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45022
+		},
+		property_rate = {}
+	},
+	[45023] = {
+		value_1 = "86 x 3",
+		id = 45023,
+		base = 45020,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45023
+		},
+		property_rate = {}
+	},
+	[45024] = {
+		value_1 = "92 x 3",
+		id = 45024,
+		base = 45020,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45024
+		},
+		property_rate = {}
+	},
+	[45025] = {
+		value_1 = "99 x 3",
+		id = 45025,
+		base = 45020,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45025
+		},
+		property_rate = {}
+	},
+	[45026] = {
+		value_1 = "106 x 3",
+		id = 45026,
+		base = 45020,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45026
+		},
+		property_rate = {}
+	},
+	[45040] = {
+		name = "三聯裝533mm磁性魚雷",
+		type = 5,
+		id = 45040,
+		tech = 3,
+		speciality = "雷擊",
+		range = 52,
+		scatter = "40°",
+		ambush_extra = 0,
+		value_2 = 25,
+		icon = "45000",
+		value_1 = "70 x 3",
+		attribute_2 = "torpedo",
+		avoid_extra = 0,
+		rarity = 4,
+		angle = 60,
+		nationality = 4,
+		ammo = "聲導",
+		is_siren = 0,
+		descrip = "三聯裝533mm磁性魚雷，伯魯克科技研發的特殊魚雷，運用磁性引信和聲導技術，能極大的提高魚雷的命中率",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			45040
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		}
+	},
+	[45041] = {
+		value_1 = "77 x 3",
+		id = 45041,
+		base = 45040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45041
+		},
+		property_rate = {}
+	},
+	[45042] = {
+		value_1 = "85 x 3",
+		id = 45042,
+		base = 45040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45042
+		},
+		property_rate = {}
+	},
+	[45043] = {
+		value_1 = "92 x 3",
+		id = 45043,
+		base = 45040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45043
+		},
+		property_rate = {}
+	},
+	[45044] = {
+		value_1 = "100 x 3",
+		id = 45044,
+		base = 45040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45044
+		},
+		property_rate = {}
+	},
+	[45045] = {
+		value_1 = "107 x 3",
+		id = 45045,
+		base = 45040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45045
+		},
+		property_rate = {}
+	},
+	[45046] = {
+		value_1 = "115 x 3",
+		id = 45046,
+		base = 45040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45046
+		},
+		property_rate = {}
+	},
+	[45047] = {
+		value_1 = "122 x 3",
+		id = 45047,
+		base = 45040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45047
+		},
+		property_rate = {}
+	},
+	[45048] = {
+		value_1 = "130 x 3",
+		id = 45048,
+		base = 45040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45048
+		},
+		property_rate = {}
+	},
+	[45049] = {
+		value_1 = "137 x 3",
+		id = 45049,
+		base = 45040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45049
+		},
+		property_rate = {}
+	},
+	[45050] = {
+		value_1 = "145 x 3",
+		id = 45050,
+		base = 45040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45050
+		},
+		property_rate = {}
+	},
+	[45100] = {
+		name = "四聯裝533mm磁性魚雷",
+		type = 5,
+		id = 45100,
+		tech = 1,
+		speciality = "雷擊",
+		range = 52,
+		scatter = "50°",
+		ambush_extra = 0,
+		value_2 = 12,
+		icon = "45100",
+		value_1 = "63 x 4",
+		attribute_2 = "torpedo",
+		avoid_extra = 0,
+		rarity = 3,
+		angle = 60,
+		nationality = 4,
+		ammo = "聲導",
+		is_siren = 0,
+		descrip = "四聯裝533mm磁性魚雷，伯魯克科技研發的特殊魚雷，運用磁性引信和聲導技術，能極大的提高魚雷的命中率",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			45100
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		}
+	},
+	[45101] = {
+		value_1 = "69 x 4",
+		id = 45101,
+		base = 45100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45101
+		},
+		property_rate = {}
+	},
+	[45102] = {
+		value_1 = "75 x 4",
+		id = 45102,
+		base = 45100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45102
+		},
+		property_rate = {}
+	},
+	[45103] = {
+		value_1 = "81 x 4",
+		id = 45103,
+		base = 45100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45103
+		},
+		property_rate = {}
+	},
+	[45104] = {
+		value_1 = "87 x 4",
+		id = 45104,
+		base = 45100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45104
+		},
+		property_rate = {}
+	},
+	[45105] = {
+		value_1 = "93 x 4",
+		id = 45105,
+		base = 45100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45105
+		},
+		property_rate = {}
+	},
+	[45106] = {
+		value_1 = "99 x 4",
+		id = 45106,
+		base = 45100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45106
+		},
+		property_rate = {}
+	},
+	[45120] = {
+		name = "四聯裝533mm磁性魚雷",
+		type = 5,
+		id = 45120,
+		tech = 2,
+		speciality = "雷擊",
+		range = 52,
+		scatter = "50°",
+		ambush_extra = 0,
+		value_2 = 25,
+		icon = "45100",
+		value_1 = "66 x 4",
+		attribute_2 = "torpedo",
+		avoid_extra = 0,
+		rarity = 4,
+		angle = 60,
+		nationality = 4,
+		ammo = "聲導",
+		is_siren = 0,
+		descrip = "四聯裝533mm磁性魚雷，伯魯克科技研發的特殊魚雷，運用磁性引信和聲導技術，能極大的提高魚雷的命中率",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			45120
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		}
+	},
+	[45121] = {
+		value_1 = "72 x 4",
+		id = 45121,
+		base = 45120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45121
+		},
+		property_rate = {}
+	},
+	[45122] = {
+		value_1 = "79 x 4",
+		id = 45122,
+		base = 45120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45122
+		},
+		property_rate = {}
+	},
+	[45123] = {
+		value_1 = "86 x 4",
+		id = 45123,
+		base = 45120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45123
+		},
+		property_rate = {}
+	},
+	[45124] = {
+		value_1 = "92 x 4",
+		id = 45124,
+		base = 45120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45124
+		},
+		property_rate = {}
+	},
+	[45125] = {
+		value_1 = "99 x 4",
+		id = 45125,
+		base = 45120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45125
+		},
+		property_rate = {}
+	},
+	[45126] = {
+		value_1 = "106 x 4",
+		id = 45126,
+		base = 45120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45126
+		},
+		property_rate = {}
+	},
+	[45127] = {
+		value_1 = "112 x 4",
+		id = 45127,
+		base = 45120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45127
+		},
+		property_rate = {}
+	},
+	[45128] = {
+		value_1 = "119 x 4",
+		id = 45128,
+		base = 45120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45128
+		},
+		property_rate = {}
+	},
+	[45129] = {
+		value_1 = "126 x 4",
+		id = 45129,
+		base = 45120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45129
+		},
+		property_rate = {}
+	},
+	[45130] = {
+		value_1 = "133 x 4",
+		id = 45130,
+		base = 45120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45130
+		},
+		property_rate = {}
+	},
+	[45140] = {
+		name = "四聯裝533mm磁性魚雷",
+		type = 5,
+		id = 45140,
+		tech = 3,
+		speciality = "雷擊",
+		range = 52,
+		scatter = "50°",
+		ambush_extra = 0,
+		value_2 = 45,
+		icon = "45100",
+		value_1 = "70 x 4",
+		attribute_2 = "torpedo",
+		avoid_extra = 0,
+		rarity = 5,
+		angle = 60,
+		nationality = 4,
+		ammo = "聲導",
+		is_siren = 0,
+		descrip = "四聯裝533mm磁性魚雷，伯魯克科技研發的特殊魚雷，運用磁性引信和聲導技術，能極大的提高魚雷的命中率",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			45140
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		}
+	},
+	[45141] = {
+		value_1 = "77 x 4",
+		id = 45141,
+		base = 45140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45141
+		},
+		property_rate = {}
+	},
+	[45142] = {
+		value_1 = "85 x 4",
+		id = 45142,
+		base = 45140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45142
+		},
+		property_rate = {}
+	},
+	[45143] = {
+		value_1 = "92 x 4",
+		id = 45143,
+		base = 45140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45143
+		},
+		property_rate = {}
+	},
+	[45144] = {
+		value_1 = "100 x 4",
+		id = 45144,
+		base = 45140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45144
+		},
+		property_rate = {}
+	},
+	[45145] = {
+		value_1 = "107 x 4",
+		id = 45145,
+		base = 45140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45145
+		},
+		property_rate = {}
+	},
+	[45146] = {
+		value_1 = "115 x 4",
+		id = 45146,
+		base = 45140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45146
+		},
+		property_rate = {}
+	},
+	[45147] = {
+		value_1 = "122 x 4",
+		id = 45147,
+		base = 45140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45147
+		},
+		property_rate = {}
+	},
+	[45148] = {
+		value_1 = "130 x 4",
+		id = 45148,
+		base = 45140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45148
+		},
+		property_rate = {}
+	},
+	[45149] = {
+		value_1 = "137 x 4",
+		id = 45149,
+		base = 45140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45149
+		},
+		property_rate = {}
+	},
+	[45150] = {
+		value_1 = "145 x 4",
+		id = 45150,
+		base = 45140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45150
+		},
+		property_rate = {}
+	},
+	[45200] = {
+		name = "五聯裝533mm磁性魚雷",
+		type = 5,
+		id = 45200,
+		tech = 1,
+		speciality = "雷擊",
+		range = 52,
+		scatter = "60°",
+		ambush_extra = 0,
+		value_2 = 25,
+		icon = "45200",
+		value_1 = "63 x 5",
+		attribute_2 = "torpedo",
+		avoid_extra = 0,
+		rarity = 4,
+		angle = 60,
+		nationality = 4,
+		ammo = "聲導",
+		is_siren = 0,
+		descrip = "五聯裝533mm磁性魚雷，伯魯克科技研發的特殊魚雷，運用磁性引信和聲導技術，能極大的提高魚雷的命中率",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			45200
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		}
+	},
+	[45201] = {
+		value_1 = "69 x 5",
+		id = 45201,
+		base = 45200,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45201
+		},
+		property_rate = {}
+	},
+	[45202] = {
+		value_1 = "75 x 5",
+		id = 45202,
+		base = 45200,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45202
+		},
+		property_rate = {}
+	},
+	[45203] = {
+		value_1 = "81 x 5",
+		id = 45203,
+		base = 45200,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45203
+		},
+		property_rate = {}
+	},
+	[45204] = {
+		value_1 = "87 x 5",
+		id = 45204,
+		base = 45200,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45204
+		},
+		property_rate = {}
+	},
+	[45205] = {
+		value_1 = "93 x 5",
+		id = 45205,
+		base = 45200,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45205
+		},
+		property_rate = {}
+	},
+	[45206] = {
+		value_1 = "99 x 5",
+		id = 45206,
+		base = 45200,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45206
+		},
+		property_rate = {}
+	},
+	[45207] = {
+		value_1 = "105 x 5",
+		id = 45207,
+		base = 45200,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45207
+		},
+		property_rate = {}
+	},
+	[45208] = {
+		value_1 = "111 x 5",
+		id = 45208,
+		base = 45200,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45208
+		},
+		property_rate = {}
+	},
+	[45209] = {
+		value_1 = "117 x 5",
+		id = 45209,
+		base = 45200,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45209
+		},
+		property_rate = {}
+	},
+	[45210] = {
+		value_1 = "123 x 5",
+		id = 45210,
+		base = 45200,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45210
+		},
+		property_rate = {}
+	},
+	[45220] = {
+		name = "五聯裝533mm磁性魚雷",
+		type = 5,
+		id = 45220,
+		tech = 2,
+		speciality = "雷擊",
+		range = 52,
+		scatter = "60°",
+		ambush_extra = 0,
+		value_2 = 45,
+		icon = "45200",
+		value_1 = "66 x 5",
+		attribute_2 = "torpedo",
+		avoid_extra = 0,
+		rarity = 5,
+		angle = 60,
+		nationality = 4,
+		ammo = "聲導",
+		is_siren = 0,
+		descrip = "五聯裝533mm磁性魚雷，伯魯克科技研發的特殊魚雷，運用磁性引信和聲導技術，能極大的提高魚雷的命中率",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			45220
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		}
+	},
+	[45221] = {
+		value_1 = "72 x 5",
+		id = 45221,
+		base = 45220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45221
+		},
+		property_rate = {}
+	},
+	[45222] = {
+		value_1 = "79 x 5",
+		id = 45222,
+		base = 45220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45222
+		},
+		property_rate = {}
+	},
+	[45223] = {
+		value_1 = "86 x 5",
+		id = 45223,
+		base = 45220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45223
+		},
+		property_rate = {}
+	},
+	[45224] = {
+		value_1 = "92 x 5",
+		id = 45224,
+		base = 45220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45224
+		},
+		property_rate = {}
+	},
+	[45225] = {
+		value_1 = "99 x 5",
+		id = 45225,
+		base = 45220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45225
+		},
+		property_rate = {}
+	},
+	[45226] = {
+		value_1 = "106 x 5",
+		id = 45226,
+		base = 45220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45226
+		},
+		property_rate = {}
+	},
+	[45227] = {
+		value_1 = "112 x 5",
+		id = 45227,
+		base = 45220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45227
+		},
+		property_rate = {}
+	},
+	[45228] = {
+		value_1 = "119 x 5",
+		id = 45228,
+		base = 45220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45228
+		},
+		property_rate = {}
+	},
+	[45229] = {
+		value_1 = "126 x 5",
+		id = 45229,
+		base = 45220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45229
+		},
+		property_rate = {}
+	},
+	[45230] = {
+		value_1 = "133 x 5",
+		id = 45230,
+		base = 45220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45230
+		},
+		property_rate = {}
+	},
+	[45240] = {
+		name = "五聯裝533mm磁性魚雷",
+		type = 5,
+		id = 45240,
+		tech = 3,
+		speciality = "雷擊",
+		range = 52,
+		scatter = "60°",
+		ambush_extra = 0,
+		value_2 = 70,
+		icon = "45200",
+		value_1 = "70 x 5",
+		attribute_2 = "torpedo",
+		avoid_extra = 0,
+		rarity = 6,
+		angle = 60,
+		nationality = 4,
+		ammo = "聲導",
+		is_siren = 0,
+		descrip = "五聯裝533mm磁性魚雷，伯魯克科技研發的特殊魚雷，運用磁性引信和聲導技術，能極大的提高魚雷的命中率",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			45240
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"ST",
+			"TP"
+		}
+	},
+	[45241] = {
+		value_1 = "77 x 5",
+		id = 45241,
+		base = 45240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45241
+		},
+		property_rate = {}
+	},
+	[45242] = {
+		value_1 = "85 x 5",
+		id = 45242,
+		base = 45240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45242
+		},
+		property_rate = {}
+	},
+	[45243] = {
+		value_1 = "92 x 5",
+		id = 45243,
+		base = 45240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45243
+		},
+		property_rate = {}
+	},
+	[45244] = {
+		value_1 = "100 x 5",
+		id = 45244,
+		base = 45240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45244
+		},
+		property_rate = {}
+	},
+	[45245] = {
+		value_1 = "107 x 5",
+		id = 45245,
+		base = 45240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45245
+		},
+		property_rate = {}
+	},
+	[45246] = {
+		value_1 = "115 x 5",
+		id = 45246,
+		base = 45240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45246
+		},
+		property_rate = {}
+	},
+	[45247] = {
+		value_1 = "122 x 5",
+		id = 45247,
+		base = 45240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45247
+		},
+		property_rate = {}
+	},
+	[45248] = {
+		value_1 = "130 x 5",
+		id = 45248,
+		base = 45240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45248
+		},
+		property_rate = {}
+	},
+	[45249] = {
+		value_1 = "137 x 5",
+		id = 45249,
+		base = 45240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45249
+		},
+		property_rate = {}
+	},
+	[45250] = {
+		value_1 = "145 x 5",
+		id = 45250,
+		base = 45240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			45250
+		},
+		property_rate = {}
+	},
 	[46000] = {
 		name = "四聯裝20mm MG機槍",
 		type = 6,
@@ -37324,6 +39937,1103 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		weapon_id = {
 			46350
+		},
+		property_rate = {}
+	},
+	[47000] = {
+		name = "BF-109T艦載戰鬥機",
+		type = 7,
+		id = 47000,
+		tech = 1,
+		speciality = "空戰",
+		range = 90,
+		scatter = "無",
+		ambush_extra = 0,
+		value_2 = 5,
+		icon = "47000",
+		value_1 = "21/輪",
+		attribute_2 = "air",
+		avoid_extra = 0,
+		rarity = 2,
+		angle = 30,
+		nationality = 4,
+		ammo = "通常",
+		is_siren = 0,
+		descrip = "BF-109的艦載用版本，鐵血公國的老牌戰鬥機",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			47000,
+			84000
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		}
+	},
+	[47001] = {
+		value_1 = "23/輪",
+		id = 47001,
+		base = 47000,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47001,
+			84001
+		},
+		property_rate = {}
+	},
+	[47002] = {
+		value_1 = "25/輪",
+		id = 47002,
+		base = 47000,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47002,
+			84002
+		},
+		property_rate = {}
+	},
+	[47003] = {
+		value_1 = "28/輪",
+		id = 47003,
+		base = 47000,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47003,
+			84003
+		},
+		property_rate = {}
+	},
+	[47020] = {
+		name = "BF-109T艦載戰鬥機",
+		type = 7,
+		id = 47020,
+		tech = 2,
+		speciality = "空戰",
+		range = 90,
+		scatter = "無",
+		ambush_extra = 0,
+		value_2 = 12,
+		icon = "47000",
+		value_1 = "23/輪",
+		attribute_2 = "air",
+		avoid_extra = 0,
+		rarity = 3,
+		angle = 30,
+		nationality = 4,
+		ammo = "通常",
+		is_siren = 0,
+		descrip = "BF-109的艦載用版本，鐵血公國的老牌戰鬥機",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			47020,
+			84020
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		}
+	},
+	[47021] = {
+		value_1 = "25/輪",
+		id = 47021,
+		base = 47020,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47021,
+			84021
+		},
+		property_rate = {}
+	},
+	[47022] = {
+		value_1 = "27/輪",
+		id = 47022,
+		base = 47020,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47022,
+			84022
+		},
+		property_rate = {}
+	},
+	[47023] = {
+		value_1 = "30/輪",
+		id = 47023,
+		base = 47020,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47023,
+			84023
+		},
+		property_rate = {}
+	},
+	[47024] = {
+		value_1 = "32/輪",
+		id = 47024,
+		base = 47020,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47024,
+			84024
+		},
+		property_rate = {}
+	},
+	[47025] = {
+		value_1 = "34/輪",
+		id = 47025,
+		base = 47020,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47025,
+			84025
+		},
+		property_rate = {}
+	},
+	[47026] = {
+		value_1 = "37/輪",
+		id = 47026,
+		base = 47020,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47026,
+			84026
+		},
+		property_rate = {}
+	},
+	[47040] = {
+		name = "BF-109T艦載戰鬥機",
+		type = 7,
+		id = 47040,
+		tech = 3,
+		speciality = "空戰",
+		range = 90,
+		scatter = "無",
+		ambush_extra = 0,
+		value_2 = 25,
+		icon = "47000",
+		value_1 = "27/輪",
+		attribute_2 = "air",
+		avoid_extra = 0,
+		rarity = 4,
+		angle = 30,
+		nationality = 4,
+		ammo = "通常",
+		is_siren = 0,
+		descrip = "BF-109的艦載用版本，鐵血公國的老牌戰鬥機",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			47040,
+			84040
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		}
+	},
+	[47041] = {
+		value_1 = "29/輪",
+		id = 47041,
+		base = 47040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47041,
+			84041
+		},
+		property_rate = {}
+	},
+	[47042] = {
+		value_1 = "32/輪",
+		id = 47042,
+		base = 47040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47042,
+			84042
+		},
+		property_rate = {}
+	},
+	[47043] = {
+		value_1 = "35/輪",
+		id = 47043,
+		base = 47040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47043,
+			84043
+		},
+		property_rate = {}
+	},
+	[47044] = {
+		value_1 = "37/輪",
+		id = 47044,
+		base = 47040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47044,
+			84044
+		},
+		property_rate = {}
+	},
+	[47045] = {
+		value_1 = "40/輪",
+		id = 47045,
+		base = 47040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47045,
+			84045
+		},
+		property_rate = {}
+	},
+	[47046] = {
+		value_1 = "43/輪",
+		id = 47046,
+		base = 47040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47046,
+			84046
+		},
+		property_rate = {}
+	},
+	[47047] = {
+		value_1 = "46/輪",
+		id = 47047,
+		base = 47040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47047,
+			84047
+		},
+		property_rate = {}
+	},
+	[47048] = {
+		value_1 = "49/輪",
+		id = 47048,
+		base = 47040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47048,
+			84048
+		},
+		property_rate = {}
+	},
+	[47049] = {
+		value_1 = "52/輪",
+		id = 47049,
+		base = 47040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47049,
+			84049
+		},
+		property_rate = {}
+	},
+	[47050] = {
+		value_1 = "56/輪",
+		id = 47050,
+		base = 47040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47050,
+			84050
+		},
+		property_rate = {}
+	},
+	[47100] = {
+		name = "Me-155A艦載戰鬥機",
+		type = 7,
+		id = 47100,
+		tech = 1,
+		speciality = "空戰",
+		range = 90,
+		scatter = "無",
+		ambush_extra = 0,
+		value_2 = 12,
+		icon = "47100",
+		value_1 = "32/輪",
+		attribute_2 = "air",
+		avoid_extra = 0,
+		rarity = 3,
+		angle = 30,
+		nationality = 4,
+		ammo = "通常",
+		is_siren = 0,
+		descrip = "專門設計給齊柏林伯爵的戰鬥機，是鐵血公國的新銳機型",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			47100,
+			84100
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		}
+	},
+	[47101] = {
+		value_1 = "36/輪",
+		id = 47101,
+		base = 47100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47101,
+			84101
+		},
+		property_rate = {}
+	},
+	[47102] = {
+		value_1 = "40/輪",
+		id = 47102,
+		base = 47100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47102,
+			84102
+		},
+		property_rate = {}
+	},
+	[47103] = {
+		value_1 = "45/輪",
+		id = 47103,
+		base = 47100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47103,
+			84103
+		},
+		property_rate = {}
+	},
+	[47104] = {
+		value_1 = "49/輪",
+		id = 47104,
+		base = 47100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47104,
+			84104
+		},
+		property_rate = {}
+	},
+	[47105] = {
+		value_1 = "53/輪",
+		id = 47105,
+		base = 47100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47105,
+			84105
+		},
+		property_rate = {}
+	},
+	[47106] = {
+		value_1 = "58/輪",
+		id = 47106,
+		base = 47100,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47106,
+			84106
+		},
+		property_rate = {}
+	},
+	[47120] = {
+		name = "Me-155A艦載戰鬥機",
+		type = 7,
+		id = 47120,
+		tech = 2,
+		speciality = "空戰",
+		range = 90,
+		scatter = "無",
+		ambush_extra = 0,
+		value_2 = 25,
+		icon = "47100",
+		value_1 = "37/輪",
+		attribute_2 = "air",
+		avoid_extra = 0,
+		rarity = 4,
+		angle = 30,
+		nationality = 4,
+		ammo = "通常",
+		is_siren = 0,
+		descrip = "專門設計給齊柏林伯爵的戰鬥機，是鐵血公國的新銳機型",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			47120,
+			84120
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		}
+	},
+	[47121] = {
+		value_1 = "41/輪",
+		id = 47121,
+		base = 47120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47121,
+			84121
+		},
+		property_rate = {}
+	},
+	[47122] = {
+		value_1 = "45/輪",
+		id = 47122,
+		base = 47120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47122,
+			84122
+		},
+		property_rate = {}
+	},
+	[47123] = {
+		value_1 = "50/輪",
+		id = 47123,
+		base = 47120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47123,
+			84123
+		},
+		property_rate = {}
+	},
+	[47124] = {
+		value_1 = "54/輪",
+		id = 47124,
+		base = 47120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47124,
+			84124
+		},
+		property_rate = {}
+	},
+	[47125] = {
+		value_1 = "58/輪",
+		id = 47125,
+		base = 47120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47125,
+			84125
+		},
+		property_rate = {}
+	},
+	[47126] = {
+		value_1 = "63/輪",
+		id = 47126,
+		base = 47120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47126,
+			84126
+		},
+		property_rate = {}
+	},
+	[47127] = {
+		value_1 = "68/輪",
+		id = 47127,
+		base = 47120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47127,
+			84127
+		},
+		property_rate = {}
+	},
+	[47128] = {
+		value_1 = "73/輪",
+		id = 47128,
+		base = 47120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47128,
+			84128
+		},
+		property_rate = {}
+	},
+	[47129] = {
+		value_1 = "78/輪",
+		id = 47129,
+		base = 47120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47129,
+			84129
+		},
+		property_rate = {}
+	},
+	[47130] = {
+		value_1 = "83/輪",
+		id = 47130,
+		base = 47120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47130,
+			84130
+		},
+		property_rate = {}
+	},
+	[47140] = {
+		name = "Me-155A艦載戰鬥機",
+		type = 7,
+		id = 47140,
+		tech = 3,
+		speciality = "空戰",
+		range = 90,
+		scatter = "無",
+		ambush_extra = 0,
+		value_2 = 45,
+		icon = "47100",
+		value_1 = "44/輪",
+		attribute_2 = "air",
+		avoid_extra = 0,
+		rarity = 5,
+		angle = 30,
+		nationality = 4,
+		ammo = "通常",
+		is_siren = 0,
+		descrip = "專門設計給齊柏林伯爵的戰鬥機，是鐵血公國的新銳機型",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			47140,
+			84140
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"FT"
+		}
+	},
+	[47141] = {
+		value_1 = "48/輪",
+		id = 47141,
+		base = 47140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47141,
+			84141
+		},
+		property_rate = {}
+	},
+	[47142] = {
+		value_1 = "53/輪",
+		id = 47142,
+		base = 47140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47142,
+			84142
+		},
+		property_rate = {}
+	},
+	[47143] = {
+		value_1 = "58/輪",
+		id = 47143,
+		base = 47140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47143,
+			84143
+		},
+		property_rate = {}
+	},
+	[47144] = {
+		value_1 = "62/輪",
+		id = 47144,
+		base = 47140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47144,
+			84144
+		},
+		property_rate = {}
+	},
+	[47145] = {
+		value_1 = "67/輪",
+		id = 47145,
+		base = 47140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47145,
+			84145
+		},
+		property_rate = {}
+	},
+	[47146] = {
+		value_1 = "72/輪",
+		id = 47146,
+		base = 47140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47146,
+			84146
+		},
+		property_rate = {}
+	},
+	[47147] = {
+		value_1 = "77/輪",
+		id = 47147,
+		base = 47140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47147,
+			84147
+		},
+		property_rate = {}
+	},
+	[47148] = {
+		value_1 = "82/輪",
+		id = 47148,
+		base = 47140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47148,
+			84148
+		},
+		property_rate = {}
+	},
+	[47149] = {
+		value_1 = "87/輪",
+		id = 47149,
+		base = 47140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47149,
+			84149
+		},
+		property_rate = {}
+	},
+	[47150] = {
+		value_1 = "92/輪",
+		id = 47150,
+		base = 47140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			47150,
+			84150
+		},
+		property_rate = {}
+	},
+	[49000] = {
+		name = "Ju-87C俯衝轟炸機",
+		type = 9,
+		id = 49000,
+		tech = 1,
+		speciality = "轟炸",
+		range = 90,
+		scatter = "8",
+		ambush_extra = 0,
+		value_2 = 5,
+		icon = "49000",
+		value_1 = "70 x 5",
+		attribute_2 = "air",
+		avoid_extra = 0,
+		rarity = 2,
+		angle = 90,
+		nationality = 4,
+		ammo = "通常",
+		is_siren = 0,
+		descrip = "Ju-87的艦載用版本，是鐵血公國最泛用的轟炸機型號，通稱”斯圖卡”",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			49000
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		}
+	},
+	[49001] = {
+		value_1 = "80 x 5",
+		id = 49001,
+		base = 49000,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			49001
+		},
+		property_rate = {}
+	},
+	[49002] = {
+		value_1 = "89 x 5",
+		id = 49002,
+		base = 49000,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			49002
+		},
+		property_rate = {}
+	},
+	[49003] = {
+		value_1 = "100 x 5",
+		id = 49003,
+		base = 49000,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			49003
+		},
+		property_rate = {}
+	},
+	[49020] = {
+		name = "Ju-87C俯衝轟炸機",
+		type = 9,
+		id = 49020,
+		tech = 2,
+		speciality = "轟炸",
+		range = 90,
+		scatter = "8",
+		ambush_extra = 0,
+		value_2 = 12,
+		icon = "49000",
+		value_1 = "77 x 5",
+		attribute_2 = "air",
+		avoid_extra = 0,
+		rarity = 3,
+		angle = 90,
+		nationality = 4,
+		ammo = "通常",
+		is_siren = 0,
+		descrip = "Ju-87的艦載用版本，是鐵血公國最泛用的轟炸機型號，通稱”斯圖卡”",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			49020
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		}
+	},
+	[49021] = {
+		value_1 = "88 x 5",
+		id = 49021,
+		base = 49020,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			49021
+		},
+		property_rate = {}
+	},
+	[49022] = {
+		value_1 = "99 x 5",
+		id = 49022,
+		base = 49020,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			49022
+		},
+		property_rate = {}
+	},
+	[49023] = {
+		value_1 = "110 x 5",
+		id = 49023,
+		base = 49020,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			49023
+		},
+		property_rate = {}
+	},
+	[49024] = {
+		value_1 = "121 x 5",
+		id = 49024,
+		base = 49020,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			49024
+		},
+		property_rate = {}
+	},
+	[49025] = {
+		value_1 = "132 x 5",
+		id = 49025,
+		base = 49020,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			49025
+		},
+		property_rate = {}
+	},
+	[49026] = {
+		value_1 = "143 x 5",
+		id = 49026,
+		base = 49020,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			49026
+		},
+		property_rate = {}
+	},
+	[49040] = {
+		name = "Ju-87C俯衝轟炸機",
+		type = 9,
+		id = 49040,
+		tech = 3,
+		speciality = "轟炸",
+		range = 90,
+		scatter = "8",
+		ambush_extra = 0,
+		value_2 = 25,
+		icon = "49000",
+		value_1 = "84 x 5",
+		attribute_2 = "air",
+		avoid_extra = 0,
+		rarity = 4,
+		angle = 90,
+		nationality = 4,
+		ammo = "通常",
+		is_siren = 0,
+		descrip = "Ju-87的艦載用版本，是鐵血公國最泛用的轟炸機型號，通稱”斯圖卡”",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			49040
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"DB"
+		}
+	},
+	[49041] = {
+		value_1 = "95 x 5",
+		id = 49041,
+		base = 49040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			49041
+		},
+		property_rate = {}
+	},
+	[49042] = {
+		value_1 = "108 x 5",
+		id = 49042,
+		base = 49040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			49042
+		},
+		property_rate = {}
+	},
+	[49043] = {
+		value_1 = "121 x 5",
+		id = 49043,
+		base = 49040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			49043
+		},
+		property_rate = {}
+	},
+	[49044] = {
+		value_1 = "134 x 5",
+		id = 49044,
+		base = 49040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			49044
+		},
+		property_rate = {}
+	},
+	[49045] = {
+		value_1 = "146 x 5",
+		id = 49045,
+		base = 49040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			49045
+		},
+		property_rate = {}
+	},
+	[49046] = {
+		value_1 = "159 x 5",
+		id = 49046,
+		base = 49040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			49046
+		},
+		property_rate = {}
+	},
+	[49047] = {
+		value_1 = "171 x 5",
+		id = 49047,
+		base = 49040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			49047
+		},
+		property_rate = {}
+	},
+	[49048] = {
+		value_1 = "185 x 5",
+		id = 49048,
+		base = 49040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			49048
+		},
+		property_rate = {}
+	},
+	[49049] = {
+		value_1 = "197 x 5",
+		id = 49049,
+		base = 49040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			49049
+		},
+		property_rate = {}
+	},
+	[49050] = {
+		value_1 = "210 x 5",
+		id = 49050,
+		base = 49040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			49050
 		},
 		property_rate = {}
 	},
@@ -40078,6 +43788,60 @@ pg.equip_data_statistics = {
 		part_sub = {},
 		equip_parameters = {},
 		label = {}
+	},
+	[60471] = {
+		name = "航空攻击展示-龙凤I",
+		type = 99,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		ammo = "无",
+		descrip = "航母空袭展示用",
+		value_3 = 0,
+		id = 60471,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			60471
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60472] = {
+		id = 60472,
+		name = "航空攻击展示-龙凤II",
+		base = 60471,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			60472
+		},
+		property_rate = {}
+	},
+	[60473] = {
+		id = 60473,
+		name = "航空攻击展示-龙凤III",
+		base = 60471,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			60473
+		},
+		property_rate = {}
 	},
 	[61007] = {
 		name = "約克镇技能隨機掃射海面LV1",
@@ -45948,6 +49712,49 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[79481] = {
+		name = "专属弹幕-能代I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		ammo = "无",
+		descrip = "技能弹幕",
+		value_3 = 0,
+		id = 79481,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			60481
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[79482] = {
+		id = 79482,
+		name = "专属弹幕-能代II",
+		base = 79481,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			60482
+		},
+		property_rate = {}
+	},
 	[100000] = {
 		name = "裝備模板",
 		type = 0,
@@ -48425,6 +52232,28 @@ pg.equip_data_statistics = {
 		41044,
 		41045,
 		41046,
+		41100,
+		41101,
+		41102,
+		41103,
+		41120,
+		41121,
+		41122,
+		41123,
+		41124,
+		41125,
+		41126,
+		41140,
+		41141,
+		41142,
+		41143,
+		41144,
+		41145,
+		41146,
+		41147,
+		41148,
+		41149,
+		41150,
 		42000,
 		42001,
 		42002,
@@ -48520,6 +52349,163 @@ pg.equip_data_statistics = {
 		43048,
 		43049,
 		43050,
+		43100,
+		43101,
+		43102,
+		43103,
+		43120,
+		43121,
+		43122,
+		43123,
+		43124,
+		43125,
+		43126,
+		43140,
+		43141,
+		43142,
+		43143,
+		43144,
+		43145,
+		43146,
+		43147,
+		43148,
+		43149,
+		43150,
+		44000,
+		44001,
+		44002,
+		44003,
+		44020,
+		44021,
+		44022,
+		44023,
+		44024,
+		44025,
+		44026,
+		44040,
+		44041,
+		44042,
+		44043,
+		44044,
+		44045,
+		44046,
+		44047,
+		44048,
+		44049,
+		44050,
+		44100,
+		44101,
+		44102,
+		44103,
+		44104,
+		44105,
+		44106,
+		44120,
+		44121,
+		44122,
+		44123,
+		44124,
+		44125,
+		44126,
+		44127,
+		44128,
+		44129,
+		44130,
+		44140,
+		44141,
+		44142,
+		44143,
+		44144,
+		44145,
+		44146,
+		44147,
+		44148,
+		44149,
+		44150,
+		45000,
+		45001,
+		45002,
+		45003,
+		45020,
+		45021,
+		45022,
+		45023,
+		45024,
+		45025,
+		45026,
+		45040,
+		45041,
+		45042,
+		45043,
+		45044,
+		45045,
+		45046,
+		45047,
+		45048,
+		45049,
+		45050,
+		45100,
+		45101,
+		45102,
+		45103,
+		45104,
+		45105,
+		45106,
+		45120,
+		45121,
+		45122,
+		45123,
+		45124,
+		45125,
+		45126,
+		45127,
+		45128,
+		45129,
+		45130,
+		45140,
+		45141,
+		45142,
+		45143,
+		45144,
+		45145,
+		45146,
+		45147,
+		45148,
+		45149,
+		45150,
+		45200,
+		45201,
+		45202,
+		45203,
+		45204,
+		45205,
+		45206,
+		45207,
+		45208,
+		45209,
+		45210,
+		45220,
+		45221,
+		45222,
+		45223,
+		45224,
+		45225,
+		45226,
+		45227,
+		45228,
+		45229,
+		45230,
+		45240,
+		45241,
+		45242,
+		45243,
+		45244,
+		45245,
+		45246,
+		45247,
+		45248,
+		45249,
+		45250,
 		46000,
 		46001,
 		46002,
@@ -48601,6 +52587,79 @@ pg.equip_data_statistics = {
 		46348,
 		46349,
 		46350,
+		47000,
+		47001,
+		47002,
+		47003,
+		47020,
+		47021,
+		47022,
+		47023,
+		47024,
+		47025,
+		47026,
+		47040,
+		47041,
+		47042,
+		47043,
+		47044,
+		47045,
+		47046,
+		47047,
+		47048,
+		47049,
+		47050,
+		47100,
+		47101,
+		47102,
+		47103,
+		47104,
+		47105,
+		47106,
+		47120,
+		47121,
+		47122,
+		47123,
+		47124,
+		47125,
+		47126,
+		47127,
+		47128,
+		47129,
+		47130,
+		47140,
+		47141,
+		47142,
+		47143,
+		47144,
+		47145,
+		47146,
+		47147,
+		47148,
+		47149,
+		47150,
+		49000,
+		49001,
+		49002,
+		49003,
+		49020,
+		49021,
+		49022,
+		49023,
+		49024,
+		49025,
+		49026,
+		49040,
+		49041,
+		49042,
+		49043,
+		49044,
+		49045,
+		49046,
+		49047,
+		49048,
+		49049,
+		49050,
 		54010,
 		54011,
 		54012,
@@ -48750,6 +52809,9 @@ pg.equip_data_statistics = {
 		60452,
 		60453,
 		60461,
+		60471,
+		60472,
+		60473,
 		61007,
 		61008,
 		61009,
@@ -49018,6 +53080,8 @@ pg.equip_data_statistics = {
 		79462,
 		79471,
 		79472,
+		79481,
+		79482,
 		100000,
 		800000,
 		800001,

@@ -7,7 +7,7 @@ return {
 			actor = 405020,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "…这样的战斗，没有意义",
+			say = "…這樣的戰鬥，沒有意義",
 			shake = {
 				speed = 1,
 				number = 3
@@ -25,7 +25,7 @@ return {
 			actor = 405020,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "就算如此，你们也要继续前进么？好吧…就让我看看你们的执着吧",
+			say = "就算如此，你們也要繼續前進麼？好吧…就讓我看看你們的執著吧",
 			shake = {
 				speed = 1,
 				number = 3

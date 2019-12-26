@@ -14,7 +14,7 @@ return {
 			blackBg = true,
 			actor = 900011,
 			actorName = "???",
-			say = "紧急情况，不久之前，一个「模具」出现了近似觉醒反应，与主体意识的同步率上升了7个百分点！",
+			say = "緊急情況，不久之前，一個「模具」出現了近似覺醒反應，與主體意識的同步率上升了7個百分點！",
 			shake = {
 				speed = 1,
 				number = 3
@@ -30,7 +30,7 @@ return {
 		},
 		{
 			side = 1,
-			say = "觉醒反应吗？看来离「审判者」所期待的时刻越来越近了呢～",
+			say = "覺醒反應嗎？看來離「審判者」所期待的時刻越來越近了呢～",
 			actorName = "???",
 			blackBg = true,
 			actor = 900012,
@@ -58,7 +58,7 @@ return {
 			blackBg = true,
 			actor = 900012,
 			actorName = "???",
-			say = "记住，「模具」一旦出现了完全觉醒的情况，就要立刻将其销毁哦",
+			say = "記住，「模具」一旦出現了完全覺醒的情況，就要立刻將其銷毀哦",
 			shake = {
 				speed = 1,
 				number = 3
@@ -79,7 +79,7 @@ return {
 			blackBg = true,
 			actor = 900011,
 			actorName = "???",
-			say = "销毁？等等，我想到了一个应该会更有趣的方案…",
+			say = "銷毀？等等，我想到了一個應該會更有趣的方案…",
 			shake = {
 				speed = 1,
 				number = 3
@@ -100,7 +100,7 @@ return {
 			blackBg = true,
 			actor = 900011,
 			actorName = "???",
-			say = "立刻启动风暴螺旋，将所有剩余的「黑方<Black>」投入新的交汇点<Transposition>！",
+			say = "立刻啟動風暴螺旋，將所有剩餘的「黑方<Black>」投入新的交匯點<Transposition>！",
 			shake = {
 				speed = 1,
 				number = 3
@@ -120,7 +120,7 @@ return {
 			blackBg = true,
 			actor = 900012,
 			actorName = "???",
-			say = "测试者，你这是想？…",
+			say = "測試者，你這是想？…",
 			shake = {
 				speed = 1,
 				number = 3
@@ -141,7 +141,7 @@ return {
 			blackBg = true,
 			actor = 900011,
 			actorName = "???",
-			say = "也许是时候亲自去见识一下这一次的「白方<White>」，不，见识下自然演算的推进速度了…",
+			say = "也許是時候親自去見識一下這一次的「白方<White>」，不，見識下自然演算的推進速度了…",
 			shake = {
 				speed = 1,
 				number = 3

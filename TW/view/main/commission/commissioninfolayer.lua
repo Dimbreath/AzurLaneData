@@ -27,10 +27,10 @@ function slot0.init(slot0)
 	slot0.activityInsBtn = slot0:findTF("frame/link_btns/ins")
 end
 
-function slot0.NotifyIns(slot0, slot1)
-	setActive(slot0.activityInsBtn, slot1:ExistMsg())
+function slot0.NotifyIns(slot0, slot1, slot2)
+	setActive(slot0.activityInsBtn, slot1:ExistMsg() and (not slot2 or slot2:isEnd()))
 
-	if slot1.ExistMsg() then
+	if slot1.ExistMsg() and (not slot2 or slot2.isEnd()) then
 		onButton(slot0, slot0.activityInsBtn, function ()
 			slot0:emit(CommissionInfoMediator.ON_INS)
 		end, SFX_PANEL)

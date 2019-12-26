@@ -7,7 +7,7 @@ return {
 			actor = 405020,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "嗯，不愧是「造物者」所选择的一方，必须承认实力上的差距",
+			say = "嗯，不愧是「造物者」所選擇的一方，必須承認實力上的差距",
 			shake = {
 				speed = 1,
 				number = 3
@@ -25,7 +25,7 @@ return {
 			actor = 405020,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "梦里的一切，瞬间都明朗了。看来在这片「镜面海域」之外，还有一个真正的世界…",
+			say = "夢裡的一切，瞬間都明朗了。看來在這片「鏡面海域」之外，還有一個真正的世界…",
 			shake = {
 				speed = 1,
 				number = 3
@@ -43,7 +43,7 @@ return {
 			actor = 405020,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "在那样的世界里，还有另一个「我」在为了国家而孤身战斗着…",
+			say = "在那樣的世界裡，還有另一個「我」在為了國家而孤身戰鬥著…",
 			shake = {
 				speed = 1,
 				number = 3
@@ -61,7 +61,7 @@ return {
 			actor = 405020,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "为理想和信仰而战，呵…听起来还真是令人羡慕呢…",
+			say = "為理想和信仰而戰，呵…聽起來還真是令人羡慕呢…",
 			shake = {
 				speed = 1,
 				number = 3
@@ -79,7 +79,7 @@ return {
 			actor = 405020,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "然而命运注定了我们无法相遇，愿你能秉持着骄傲战斗到最后一刻",
+			say = "然而命運註定了我們無法相遇，願你能秉持著驕傲戰鬥到最後一刻",
 			shake = {
 				speed = 1,
 				number = 3
@@ -99,7 +99,7 @@ return {
 			bgFade = true,
 			sequence = {
 				{
-					"                         世界另一头的那位…素未谋面的「我」…",
+					"                         世界另一頭的那位…素未謀面的「我」…",
 					2
 				}
 			}

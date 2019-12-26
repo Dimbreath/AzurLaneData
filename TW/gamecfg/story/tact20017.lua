@@ -7,7 +7,7 @@ return {
 			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "刚才的一切，你都记录下来了吗",
+			say = "剛才的一切，你都記錄下來了嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,7 +21,7 @@ return {
 			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "嗯…已经不存在的舰队突然出现了什么的...情况似乎远远超过我们想象呢",
+			say = "嗯…已經不存在的艦隊突然出現了什麼的...情況似乎遠遠超過我們想像呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,7 +36,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			actorName = "？？？",
-			say = "呵呵，我还以为是哪两个出了BUG的【棋子<Piece>】，原来是有两条小鱼混了进来呀",
+			say = "呵呵，我還以為是哪兩個出了BUG的【棋子<Piece>】，原來是有兩條小魚混了進來呀",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "…被发现了，声呐完全没有收到警告",
+			say = "…被發現了，聲呐完全沒有收到警告",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "情况…不妙…紧急下潜",
+			say = "情況…不妙…緊急下潛",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,8 +78,8 @@ return {
 			actor = 900012,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "观察者",
-			say = "既然已经被你们发现了这里的情报，看来没办法让你们轻易离开了~",
+			actorName = "觀察者",
+			say = "既然已經被你們發現了這裡的情報，看來沒辦法讓你們輕易離開了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,8 +93,8 @@ return {
 			actor = 900012,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "观察者",
-			say = "就让你们成为新的【棋子<Piece>】好了。有了新的种类，测试数据会更有意思的~",
+			actorName = "觀察者",
+			say = "就讓你們成為新的【棋子<Piece>】好了。有了新的種類，測試資料會更有意思的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "必须把这里发生的一切告诉指挥官…",
+			say = "必須把這裡發生的一切告訴指揮官…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "47酱，你快走…只要潜到足够的深度，它们就抓不到你了",
+			say = "47醬，你快走…只要潛到足夠的深度，它們就抓不到你了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "你的速度比我快，这里就由我先拖住它",
+			say = "你的速度比我快，這裡就由我先拖住它",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			actor = 408020,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "…明白了，祝你好运",
+			say = "…明白了，祝你好運",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,8 +178,8 @@ return {
 			actor = 900012,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "观察者",
-			say = "嗯，铁血的小鱼们逃跑的速度果然和记录的一样是真的挺快的，呵呵呵",
+			actorName = "觀察者",
+			say = "嗯，鐵血的小魚們逃跑的速度果然和記錄的一樣是真的挺快的，呵呵呵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,8 +193,8 @@ return {
 			actor = 900012,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "观察者",
-			say = "那么，被留下的你，要打算怎么和我对抗呢？",
+			actorName = "觀察者",
+			say = "那麼，被留下的你，要打算怎麼和我對抗呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "…人们总是说我是一艘厄运缠身的潜艇…至少到现在为止确实是对的",
+			say = "…人們總是說我是一艘厄運纏身的潛艇…至少到現在為止確實是對的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "但是…这一次，结果究竟会如何呢…",
+			say = "但是…這一次，結果究竟會如何呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			actor = 408030,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "姐姐，请给予我像您一样的勇气！",
+			say = "姐姐，請給予我像您一樣的勇氣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

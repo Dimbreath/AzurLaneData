@@ -55,7 +55,7 @@ pg.mini_game = {
 		config_csv_key = "",
 		config_csv = "",
 		id = 3,
-		hub_id = 1,
+		hub_id = 4,
 		request_data = 0,
 		simple_config_data = {
 			target = 100000
@@ -66,7 +66,8 @@ pg.mini_game = {
 				10,
 				11,
 				12
-			}
+			},
+			2
 		}
 	},
 	{
@@ -278,6 +279,40 @@ pg.mini_game = {
 		hub_id = 3,
 		request_data = 1
 	},
+	{
+		name = "鬼怒修行QTE游戏",
+		view_name = "QTEGameView",
+		mediator_name = "MiniHubMediator",
+		type = 2,
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 8,
+		hub_id = 4,
+		request_data = 1,
+		simple_config_data = {
+			scorePerHit = 10,
+			shrineGameId = 3,
+			gameTime = 60,
+			roundTime = 4,
+			comboRange = {
+				5,
+				10
+			},
+			comboAddScore = {
+				5,
+				10
+			},
+			targetCombo = {
+				25,
+				50
+			},
+			targetComboScore = {
+				250,
+				500
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -285,7 +320,8 @@ pg.mini_game = {
 		4,
 		5,
 		6,
-		7
+		7,
+		8
 	}
 }
 

@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"新年快乐\n\n<size=45>一  为将至的欢庆做好准备！</size>",
+					"新年快樂\n\n<size=45>一  為將至的歡慶做好準備！</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:67}",
-			say = "呼……终于回来了……",
+			say = "呼……終於回來了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,7 +32,7 @@ return {
 			}
 		},
 		{
-			say = "回来了喵！今天也是大丰收喵嘻嘻……",
+			say = "回來了喵！今天也是大豐收喵嘻嘻……",
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:67}",
-			say = "大丰收……吗，没记错的话，我们应该是为了采购新年的必需品才出门的吧，{namecode:98}？",
+			say = "大豐收……嗎，沒記錯的話，我們應該是為了採購新年的必需品才出門的吧，{namecode:98}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "呼喵…突然发现了不错的新零件，一不留神就…有、有什么不好喵！这可是商机喵！",
+			say = "呼喵…突然發現了不錯的新零件，一不留神就…有、有什麼不好喵！這可是商機喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "而且这方面的东西指挥官也好大家也好都会喜欢的喵！",
+			say = "而且這方面的東西指揮官也好大家也好都會喜歡的喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:67}",
-			say = "哎呀呀，虽然{namecode:98}这么可爱，但还是不能免掉帮忙哦？把手上的零件放下，一起来整理东西吧",
+			say = "哎呀呀，雖然{namecode:98}這麼可愛，但還是不能免掉幫忙哦？把手上的零件放下，一起來整理東西吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:98}",
-			say = "喵…{namecode:98}只想在指挥官大腿上睡觉喵——",
+			say = "喵…{namecode:98}只想在指揮官大腿上睡覺喵——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:93}",
-			say = "嗯？你们采购回来了吗？",
+			say = "嗯？你們採購回來了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:67}",
-			say = "是呀，我们刚把新年的必需品都买回来了，虽然某个孩子好像买了更多其他的东西呢，嘻嘻",
+			say = "是呀，我們剛把新年的必需品都買回來了，雖然某個孩子好像買了更多其他的東西呢，嘻嘻",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "太好了，整理一下采购的东西，接下来……就可以准备开始年末大扫除了呢。要全体动员了呢",
+			say = "太好了，整理一下採購的東西，接下來……就可以準備開始年末大掃除了呢。要全體動員了呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:67}",
-			say = "{namecode:93}真是了不起呢～指挥官的得力助手～",
+			say = "{namecode:93}真是了不起呢～指揮官的得力助手～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "我、我只是尽了自己应尽的责任而已——",
+			say = "我、我只是盡了自己應盡的責任而已——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:67}",
-			say = "是是，{namecode:98}可是港区所有人的好伙伴呢～好伙伴就应该多帮点忙，来，把这些放到那里去～",
+			say = "是是，{namecode:98}可是港區所有人的好夥伴呢～好夥伴就應該多幫點忙，來，把這些放到那裡去～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "啊，我也来帮忙——",
+			say = "啊，我也來幫忙——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

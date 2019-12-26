@@ -7,7 +7,7 @@ return {
 			actor = 407010,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "多么残酷而又美丽的绽放……",
+			say = "多麼殘酷而又美麗的綻放……",
 			shake = {
 				speed = 1,
 				number = 3
@@ -25,7 +25,7 @@ return {
 			actor = 407010,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "就是因为这个世界还有像你们这样的，值得去蹂躏、摧毁的「棋子<Piece>」存在，我的生命和战斗才有了意义！",
+			say = "就是因為這個世界還有像你們這樣的，值得去蹂躪、摧毀的「棋子<Piece>」存在，我的生命和戰鬥才有了意義！",
 			shake = {
 				speed = 1,
 				number = 3
@@ -43,7 +43,7 @@ return {
 			actor = 407010,
 			side = 2,
 			nameColor = "#ff0000",
-			say = "铁血之翼——齐柏林级航空母舰，在此赐予你们被毁灭的权力！",
+			say = "鐵血之翼——齊柏林級航空母艦，在此賜予你們被毀滅的權力！",
 			shake = {
 				speed = 1,
 				number = 3

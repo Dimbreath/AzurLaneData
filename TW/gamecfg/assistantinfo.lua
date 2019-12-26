@@ -1976,7 +1976,16 @@ pg.AssistantInfo = {
 				detail = "5"
 			}
 		}
-	}
+	},
+	GetCvList = function ()
+		for slot4, slot5 in ipairs(slot0.action2Words) do
+			if slot1.character_voice[slot5] and not slot1.AssistantInfo.isDisableSpecialClick(slot5) and slot6.unlock_condition[1] >= 0 then
+				table.insert(slot0, slot6)
+			end
+		end
+
+		return slot0
+	end
 }
 slot2 = false
 

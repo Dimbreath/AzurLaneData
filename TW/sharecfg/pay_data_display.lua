@@ -8,7 +8,7 @@ pg.pay_data_display = {
 		subject = "貿易許可證",
 		extra_service = 2,
 		platform = 11,
-		money = 270,
+		money = 30,
 		tag = 2,
 		gem = 500,
 		limit_type = 1,
@@ -47,7 +47,7 @@ pg.pay_data_display = {
 		subject = "新手起航補給",
 		extra_service = 3,
 		platform = 11,
-		money = 33,
+		money = 1,
 		tag = 1,
 		gem = 30,
 		limit_type = 2,
@@ -98,7 +98,7 @@ pg.pay_data_display = {
 		subject = "鑽石*60",
 		extra_service = 0,
 		platform = 11,
-		money = 33,
+		money = 6,
 		tag = 0,
 		gem = 60,
 		limit_type = 99,
@@ -121,7 +121,7 @@ pg.pay_data_display = {
 		subject = "鑽石*300",
 		extra_service = 0,
 		platform = 11,
-		money = 170,
+		money = 30,
 		tag = 0,
 		gem = 300,
 		limit_type = 99,
@@ -144,7 +144,7 @@ pg.pay_data_display = {
 		subject = "鑽石*980",
 		extra_service = 0,
 		platform = 11,
-		money = 330,
+		money = 98,
 		tag = 0,
 		gem = 600,
 		limit_type = 0,
@@ -167,7 +167,7 @@ pg.pay_data_display = {
 		subject = "鑽石*1980",
 		extra_service = 0,
 		platform = 11,
-		money = 670,
+		money = 198,
 		tag = 0,
 		gem = 1200,
 		limit_type = 0,
@@ -190,7 +190,7 @@ pg.pay_data_display = {
 		subject = "鑽石*3280",
 		extra_service = 0,
 		platform = 11,
-		money = 1320,
+		money = 328,
 		tag = 0,
 		gem = 2400,
 		limit_type = 0,
@@ -213,7 +213,7 @@ pg.pay_data_display = {
 		subject = "鑽石*6480",
 		extra_service = 0,
 		platform = 11,
-		money = 2690,
+		money = 648,
 		tag = 1,
 		gem = 4900,
 		limit_type = 0,
@@ -227,6 +227,101 @@ pg.pay_data_display = {
 		airijp_id = "com.yostarjp.azurlane.diamond6",
 		display = {}
 	},
+	[16] = {
+		limit_arg = 1,
+		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		name = "新年福袋2020",
+		descrip = "可獲得一件角色換裝，2020鑽，3個外觀裝備箱，和大量其他獎勵",
+		subject = "新年福袋2020",
+		extra_service = 3,
+		platform = 11,
+		money = 198,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai1",
+		display_money = 990,
+		id_str = "com.hkmanjuu.azurlane.package1",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 16,
+		airijp_id = "com.yostarjp.azurlane.diamond110",
+		extra_service_item = {
+			{
+				2,
+				69908,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				30310,
+				3
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2019,
+					12,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69908,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				30310,
+				3
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -235,7 +330,8 @@ pg.pay_data_display = {
 		5,
 		6,
 		7,
-		8
+		8,
+		16
 	}
 }
 

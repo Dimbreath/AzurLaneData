@@ -315,6 +315,111 @@ pg.drop_data_restore = {
 		resource_num = 780,
 		target_id = 206051
 	},
+	[90] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 90,
+		resource_num = 780,
+		target_id = 206034
+	},
+	[92] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 92,
+		resource_num = 780,
+		target_id = 304043
+	},
+	[93] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 93,
+		resource_num = 780,
+		target_id = 331050
+	},
+	[95] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 95,
+		resource_num = 780,
+		target_id = 102094
+	},
+	[97] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 97,
+		resource_num = 780,
+		target_id = 207023
+	},
+	[98] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 98,
+		resource_num = 1180,
+		target_id = 101263
+	},
+	[99] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 99,
+		resource_num = 880,
+		target_id = 205062
+	},
+	[100] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 100,
+		resource_num = 880,
+		target_id = 307012
+	},
+	[101] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 101,
+		resource_num = 880,
+		target_id = 307022
+	},
+	[102] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 102,
+		resource_num = 880,
+		target_id = 403032
+	},
+	[103] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 103,
+		resource_num = 780,
+		target_id = 102051
+	},
+	[104] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 104,
+		resource_num = 780,
+		target_id = 301141
+	},
+	[105] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 105,
+		resource_num = 780,
+		target_id = 303122
+	},
+	[106] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 106,
+		resource_num = 680,
+		target_id = 101172
+	},
+	[107] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 107,
+		resource_num = 680,
+		target_id = 307031
+	},
 	all = {
 		1,
 		2,
@@ -360,7 +465,22 @@ pg.drop_data_restore = {
 		42,
 		43,
 		44,
-		45
+		45,
+		90,
+		92,
+		93,
+		95,
+		97,
+		98,
+		99,
+		100,
+		101,
+		102,
+		103,
+		104,
+		105,
+		106,
+		107
 	}
 }
 
