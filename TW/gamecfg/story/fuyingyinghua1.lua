@@ -179,7 +179,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "随着巨大的翻滚声，{namecode:12}完美的躺在了庭院的草地上，仰望着拂晓的晨光。",
+			say = "随着巨大的翻滚声，{namecode:12}完美地躺在了庭院的草地上，仰望着拂晓的晨光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "玄关旁，身着锦衣的少女完美的避开了从楼梯上意外滚落的驱逐舰，并轻盈地接住了飞来的神台。",
+			say = "玄关旁，身着锦衣的少女完美地避开了从楼梯上意外滚落的驱逐舰，并轻盈地接住了飞来的神台。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

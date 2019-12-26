@@ -223,14 +223,14 @@ function slot0.UpdateCommentList(slot0)
 			slot4 = slot0[slot1 + 1].HasReply(slot3)
 
 			setText(slot2:Find("main/reply"), slot0[slot1 + 1].GetReplyBtnTxt(slot3))
-			setText(slot2:Find("main/content"), HXSet.hxLan(slot0[slot1 + 1]:GetContent()))
+			setText(slot2:Find("main/content"), HXSet.hxLan(slot5))
 			setText(slot2:Find("main/bubble/Text"), slot0[slot1 + 1].GetReplyCnt(slot3))
 			setText(slot2:Find("main/time"), slot0[slot1 + 1]:GetTime())
 
 			if slot0[slot1 + 1].GetType(slot3) == Instagram.TYPE_PLAYER_COMMENT then
-				slot10, slot11 = slot3:GetIcon()
+				slot11, slot12 = slot3:GetIcon()
 
-				setImageSprite(slot2:Find("main/head/icon"), GetSpriteFromAtlas(slot5, slot6))
+				setImageSprite(slot2:Find("main/head/icon"), GetSpriteFromAtlas(slot6, slot7))
 			else
 				setImageSprite(slot2:Find("main/head/icon"), LoadSprite("qicon/" .. slot3:GetIcon()), false)
 			end
@@ -267,7 +267,7 @@ function slot0.UpdateReplys(slot0, slot1, slot2)
 	slot5:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			setImageSprite(slot2:Find("head/icon"), LoadSprite("qicon/" .. slot0[slot1 + 1]:GetIcon()), false)
-			setText(slot2:Find("content"), HXSet.hxLan(slot0[slot1 + 1]:GetContent()))
+			setText(slot2:Find("content"), HXSet.hxLan(slot0[slot1 + 1].GetContent(slot3):gsub("%s", " ")))
 		end
 	end)
 	slot5:align(#slot3)
