@@ -217,7 +217,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不得不承认，我已经落后与时代了。",
+			say = "不得不承认，我已经落后于时代了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唉…可以的话，我真希望这身战场上磨炼本领再也不要有用武之地了……",
+			say = "唉…可以的话，我真希望这身战场上磨炼的本领再也不要有用武之地了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

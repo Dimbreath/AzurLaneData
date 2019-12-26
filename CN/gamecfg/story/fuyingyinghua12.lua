@@ -115,7 +115,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不是你及时赶到话，恐怕我就要命丧这位小姑娘的刀法之下咯~",
+			say = "不是你及时赶到的话，恐怕我就要命丧这位小姑娘的刀法之下咯~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在都正午了，比预定时间晚到了不少啊欧根，路上玩的开心么？",
+			say = "现在都正午了，比预定时间晚到了不少啊欧根，路上玩得开心么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

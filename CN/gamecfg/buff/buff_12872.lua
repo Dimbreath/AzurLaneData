@@ -28,7 +28,7 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				quota = 4,
+				quota = 6,
 				skill_id = 12873,
 				target = "TargetSelf"
 			}

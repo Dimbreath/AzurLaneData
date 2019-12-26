@@ -138535,7 +138535,7 @@ pg.ship_data_statistics = {
 		fix_equip_list = {},
 		default_equip_list = {
 			117,
-			119,
+			118,
 			104
 		},
 		depth_charge_list = {},
@@ -138664,7 +138664,7 @@ pg.ship_data_statistics = {
 		fix_equip_list = {},
 		default_equip_list = {
 			117,
-			119,
+			118,
 			104
 		},
 		depth_charge_list = {},
@@ -138793,7 +138793,7 @@ pg.ship_data_statistics = {
 		fix_equip_list = {},
 		default_equip_list = {
 			117,
-			119,
+			118,
 			104
 		},
 		depth_charge_list = {},
@@ -138922,7 +138922,7 @@ pg.ship_data_statistics = {
 		fix_equip_list = {},
 		default_equip_list = {
 			117,
-			119,
+			118,
 			104
 		},
 		depth_charge_list = {},
