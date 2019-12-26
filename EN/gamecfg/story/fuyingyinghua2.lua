@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "天岩岛近海·日出",
+			say = "Sakura Empire - Diadem of Light",
 			side = 2,
 			dir = 1,
 			bgm = "xinnong-1",
@@ -23,7 +23,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "天岩岛，由主岛和六个与主岛相连的小岛构成",
+			say = "The Sakura Empire. It consists of many numerous islands and is a superpower with a distinctive culture.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,7 +36,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "如同光芒万丈的太阳，又如同寒冷圣洁的冰晶",
+			say = "Away from its mainland there are six remote islands, collectively known as the Diadem of Light. The islands are connected by suspension bridges, forming the shape of a bright sun, or perhaps a snow crystal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "这里是重樱本岛之外的离岛，是集合了重樱祈愿与信仰的圣地，也是{namecode:182}居住的圣所。",
+			say = "Due to their isolation from the main islands, the Diadem of Light is believed to be the resting grounds of an immense spiritual power. Many conduct pilgrimages to these distant islands in order to hold their rituals and ceremonies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "天岩岛…{namecode:182}的居城还真是选了个好地方啊…",
+			say = "The Diadem of Light, huh... They picked a good place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "圣地，圣所…从“决战计划”开始后，信仰之力都流到这些地方么。",
+			say = "Indeed. It is like one big Sanctuary, a place where people's beliefs and faiths congregate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "尽是大费周折做些没用的事…",
+			say = "For being called \"Decisives,\" the higher-ups certainly devote a lot of energy to something so pointless...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:91}，你不看好“决战计划”的战斗能力么？",
+			say = "You don't have any faith in their plans, Akagi?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,22 +134,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵，怎么可能。如果“决战计划”不能发挥出应有作用的话，我也是会很困扰的哦。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 307010,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "不过…消耗了宝贵的信仰，甚至动用了珍贵神器才创造出的巨大航母，现在却只懂得睡觉……",
+			say = "It's a waste of human resources. It's not like they only expended their thoughts and prayers. They even used one of our \"Catalysts,\" and for what purpose? A useless girl who slumbers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +149,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "据说{namecode:182}大人就算在睡梦中也能洞悉世间的一切变化，而且还能托梦给祭祀下达指令哟？是真是假就不知道了…",
+			say = "From what I've hard, she's far from useless! They say that she can see everything that is happening, and can even conduct a ritual from within her slumber! Although, they're just rumors...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +164,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，这种鬼扯的胡话最多也就只能骗骗那些没见过世面的小姑娘了吧。",
+			say = "Anyone who believes in those vacuous rumors is a pitiable fool.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +189,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次祭典真的能取得传说中记载的，帮助重樱“扫清黑暗，迎接光明”的效果么？",
+			say = "That whole \"cleansing the darkness within the Sakura Empire\" song and dance is getting old.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +204,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:79}，你在这方面是专业的，说说你的看法？",
+			say = "But what do you believe, Yamashiro? As you are the spiritual expert here, I would love to hear your opinion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +219,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是…是！",
+			say = "O-of course! Umm, let me start by explaining the ritual!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +244,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "按照记载，每隔数年的血月盈满之时，在此供奉着的宝器——神石【海若】的封印就会解除。",
+			say = "The Diadem of Light houses one of the Sakura Empire's great artifacts - a divine stone said to come from the oceanic deity, Watatsumi. When the blood moon rises, the seal placed upon this artifact is lifted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +259,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "通过天宇启户祭，主祭将收集来的信仰作为祭品、【海若】作为触媒，向海神诚心祈祷就可以创造出只记录于传说之中的「舰船」。",
+			say = "By offering the faith stored within various ceremonial items and praying to Watatsumi using this artifact as a catalyst, we can tap into the deity's powers to will ships into existence, even those who never truly existed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +274,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:175}的建造过程似乎就与此有关哦…",
+			say = "And Suruga, I've heard, was created through that very process to serve as its messenger!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +289,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "顺带一提，天宇启户祭的主祭历来都是时任重樱的“巫女”担任，再由分别象征信仰，力量与智慧的三名祭祀辅助。",
+			say = "The ritual itself was originally carried out by the Sakura Empire's shrine maiden, and was supposed to be both ceremonious and festive in nature.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +304,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "按照常理，祭典的主祭明明应该选择{namecode:74}大人才对……",
+			say = "Common sense says that means Lady Nagato would serve as Watatsumi's host, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +319,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这么随意地选择主祭，本次祭典估计很难达到预期效果…！我是这么认为的。",
+			say = "Because of how haphazardly we selected the host this time, I don't think things will go as intended! That's my opinion, anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +344,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:74}现在，稍微有点棘手啊…唉，果然不能期待什么扫清黑暗迎接光明的效果么……",
+			say = "Right now, Nagato is... Never mind. I suppose you never know with how capricious these deities can be.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +359,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然无法彻底控制，就彻底排除在祭典之外。只要最后能获得【海若】，谁把稿子背出来谁都一样哦~",
+			say = "She won't be making an appearance. She's currently taking care of something with Shoukaku, Zuikaku, and Mikasa.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +374,22 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…你居然真的相信祭典的传说了，{namecode:92}？",
+			say = "Besides, if all that's truly is to recite some fancy ritual verses, then anyone could do that. Please tell me you don't believe that absurd gossip, Kaga.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307010,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Of course I don't. But while I don't want back everything I've invested, I do hope to get something out of this ritual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么可能…只是既然做了投资，哪怕作为附加产物，祭典本身能有点意外收获就好了。",
+			say = "Of course I don't. But while I don't want back everything I've invested, I do hope to get something out of this ritual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，说的也是呢。与其把宝贵的信仰和灵魂用在创造那些缥缈虚无的东西上，还不如…",
+			say = "And you will get it. Not through clinging onto vague prophecies, or wasting prayers and artifacts...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真…真的好么，这里毕竟是{namecode:182}大人的居城……",
+			say = "I'm sorry for butting in, but... I'm not entirely sure what you're talking about, but isn't that a dangerous to say, Akagi? What if somebody overhears you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，自然是说笑而已~",
+			say = "Heehee, it was nothing more than a joke. Don't worry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

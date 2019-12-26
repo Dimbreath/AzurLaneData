@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "轰------！",
+			say = "BOOOOOM!",
 			side = 2,
 			bgm = "xinnong-1",
 			dir = 1,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有破绽，就是现在！！",
+			say = "This is my chance...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "到此为止了，{namecode:50}。退下！",
+			say = "That's enough, Noshiro! Step back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:91}大人？！………是。",
+			say = "A-Akagi...?! Very well, I shall...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 0,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "听到这么大的动静，我还以为塞壬来攻城了。这是在做什么，欧根？",
+			say = "Goodness gracious, it sounded like the Sirens were attacking us... What are you doing, Eugen?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -100,7 +100,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好险好险~本来只想体验一下重樱的演武，结果差点把自己搭进去。",
+			say = "Thanks for saving me, I suppose. I came here as a peaceful tourist, hoping to get a closer look at the Sakura Empire's fine traditions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不是你及时赶到的话，恐怕我就要命丧这位小姑娘的刀法之下咯~",
+			say = "But if you hadn't showed up, this girl would've turned me into mince meat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那真是不胜荣幸，能正面击败大名鼎鼎的欧根亲王阁下。",
+			say = "If that really is true, then we are honored to know that Noshiro fought THE Prinz Eugen face-to-face and nearly defeated her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……要不是我及时拦下，你不会真忍不住要下手了吧？",
+			say = "Let's not beat around the bush. You were trying to sink her, weren't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么可能~至少这次不会。毕竟是我的挑拨在先嘛~",
+			say = "Of course not, I came here just to enjoy myself. Guess I must have struck a nerve.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:91}大人，刚才明明是我快要得手了！",
+			say = "Akagi, I nearly defeated her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在你那一招命中之前，欧根一轮齐射就能送你去回去大修了。",
+			say = "There is no \"almost\" here. You either defeat someone, or you don't. She could've sent you straight to the drydock with just a single volley.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个破绽，是她为了引诱你到射击位置上故意暴露给你的。",
+			say = "What you saw wasn't a chance to defeat her, it was a deceptive maneuver to lure you within range of her guns.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么？！对不起{namecode:91}大人，是我经验不足，失去冷静了……",
+			say = "What?! ...I apologize, Akagi. I lost control over myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:50}小姐不用太在意。欧根这个性格，挑拨起来就算她自家亲姐姐都受不了。",
+			say = "She shouldn't have escalated it after Eugen provoked her, but I can't blame her for doing so",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你刚刚的应对，已经能被写进应对欧根亲王的教科书了。",
+			say = "If it were Hipper, she would've exploded with rage after Eugen's first remark. Noshiro, by comparison, lasted much longer before retaliating.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼呼，看到这种一本正经的性格，很难忍住不上去调戏一下嘛~",
+			say = "Heheh, I'm sorry. I can't stop myself from poking fun at people who take themselves too seriously.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对不起了，{namecode:50}小姐。刚刚只是我一时起了玩心，说的话都不是真心的，请你千万不要在意~",
+			say = "Let's make it up to you with a little gift. If you'd like one, that is. Perhaps you wouldn't?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……在战斗中被挑衅是我经验不足的表现，非常抱歉…",
+			say = "There is no need. I am also to blame for escalating the situation. And for that, I sincerely apologize.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在都正午了，比预定时间晚到了不少啊欧根，路上玩得开心么？",
+			say = "If you don't mind me asking: I noticed you two arrived here quite late. You didn't get lost on the way here, did you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哪里哪里，你们重樱秘境，海域上结界重重。我们路上走了不少弯路，好不容易才找到正确航线嘛~",
+			say = "Lost isn't the right word. Your waters are unfamiliar territory to us, that's all. It wasn't easy to find our way here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（…哎？我明明一直按照约定等在结界入口迎接的…怎么可能……）",
+			say = "...Pardon? I stood and waited by the barrier's entrance, as promised. I'm not sure how you could've missed me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，不愧是铁血的外交使团，口才也是世界一流。",
+			say = "Ah, of course it wasn't...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家既然是通力合作的盟友，有什么需要但说无妨，不用这么客气。",
+			say = "Given that we are allies, what need is there to hide things from us? Let me rephrase: HOW did you get lost on the way here? Could you please tell me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "既然直白说到这个份上，唉…我也只好吐露实情了。",
+			say = "Hah, it's no use to try hiding the truth from you, I suppose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其实………………",
+			say = "Let me tell you then. We...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我已经快饿死了~！",
+			say = "Are starving! Too hungry to think straight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "附议…被欧根亲王呼来唤去折腾了一路，我也快饿扁了。",
+			say = "Indeed. We're so hungry that we're about to collapse from exhaustion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啧………",
+			say = "*Sigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "特意，专门给你们留好了上等席，以及丰盛的午餐！",
+			say = "Understandable. We can't let our dear guests go hungry. Noshiro, would you please guide them inside the island?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "随我来吧，精彩的节目就要开始了……",
+			say = "After all, we wouldn't want them to miss the ritual...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

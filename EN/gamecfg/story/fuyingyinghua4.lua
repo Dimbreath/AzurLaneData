@@ -12,7 +12,7 @@ return {
 			bgm = "nagato-boss",
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "不愧是身经百战的一航战前辈们…此战是我输了。",
+			say = "As expected of the esteemed original First Carrier Division... I've been bested.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 306070,
-			say = "{namecode:91}大人，{namecode:92}大人，以及各位远道而来的客人，欢迎来到天岩岛！",
+			say = "Allow me once more to welcome you to the Diadem of Light. We are honored to have guests visiting us from afar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "险胜而已~有段日子不见了，变化很大哦，{namecode:179}。",
+			say = "Apologies, we couldn't afford to go easy on you.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -62,7 +62,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战斗中的眼神坚定，步伐稳健。如果是现在的你，就算去带领重樱的一支航母机动部队也毫无问题哦。",
+			say = "Having said that, you've matured magnificently, Ryuuhou. You would be a perfect fit for the Sakura Empire's Carrier Task Force.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 306070,
-			say = "您过奖了，{namecode:91}大人。我在各方面都还有不足之处，刚刚的战斗使我更加深刻地认识到了这一点……",
+			say = "I am grateful for your praise. However, as much as it shames me to admit, I still have many things to learn. I'm afraid I wouldn't be ready for such an important position...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵，这个是发自内心的评价哦~",
+			say = "That wasn't flattery, it was my honest evaluation of you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这个弱肉强食的世界，只有像你这样拥有力量的人才能歌唱大义---如果用{namecode:92}的风格来说就是这样吧~",
+			say = "If you'll pardon me emulating Kaga: we live in a kill-or-be-killed world, and only those like you with power can bring it justice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "继续努力吧。现在所挥洒的每一份汗水，会在将来汇聚为重樱前进的洪流。",
+			say = "Tomfoolery aside, you have done a fantastic job on your ritual preparations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重樱的未来，离不开我们每一个人的努力哦。",
+			say = "The Sakura Empire's future depends on our combined efforts. What do you say we work together?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "不胜惶恐…",
+			say = "It would be an honor. I shall work as hard as I can towards my goal of one day becoming a part of the Carrier Task Force!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 306070,
-			say = "果然{namecode:91}大人还是同记忆中的一样，永远充满着智慧与力量，自信而又坚定…",
+			say = "On another note... I was surprised to see you attend this exercise at all, Akagi. There shouldn't be any need for the Sakura Empire's de facto leader to attend...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "若是力量不足，便磨练力量。若是智慧不足，便钻研智慧。",
+			say = "Oh, no. It's times like these when we need to cooperate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不论是对白鹰也好，对皇家也好，对铁血也好，对塞壬也好…重樱失去的一切，我将带领你们亲手夺回来！",
+			say = "Be it rituals, Siren technology, or even the Decisives, the Sakura Empire will use anything at its disposal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "是！{namecode:179}，今后也会继续以{namecode:91}大人为目标刻苦修炼的！",
+			say = "Akagi...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看着现在的你，仿佛看到了些当年的影子呢…",
+			say = "(I'm sure even Amagi would've done this if she could.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（当时的你，也处于这种立场之上么………）",
+			say = "Hehe, it strangely feels like I'm looking at a younger version of myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……{namecode:91}大人？",
+			say = "...Akagi?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，要以我为目标来努力，好大的口气，以后可有的你苦头吃哦~？",
+			say = "Never mind that. Good luck in your further pursuits, Ryuuhou.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "{namecode:179}必日益精进武艺，不负嘱托！",
+			say = "Thank you!",
 			action = {
 				{
 					y = 30,

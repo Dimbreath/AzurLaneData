@@ -12,7 +12,7 @@ return {
 			bgm = "story-4",
 			actor = 302210,
 			nameColor = "#a9f548",
-			say = "一路而来辛苦了，远道而来的铁血朋友们，欢迎莅临天岩岛。",
+			say = "Visitors from Iron Blood, I bid you welcome to the Diadem of Light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 302210,
-			say = "{namecode:49}级轻巡洋舰{namecode:50}，受{namecode:182}大人的委托，在此恭候各位多时了。",
+			say = "I am Noshiro, Agano-class light cruiser. I've been waiting for your arrival.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 0,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "能做为赤色中轴的盟友受邀参与重樱的重大祭典，对铁血来讲也是莫大的荣幸~",
+			say = "It is our honor as fellow members of the Crimson Axis to have been invited here.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -62,7 +62,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请代我们向{namecode:182}大人致以最诚挚的问候~",
+			say = "On behalf of the Iron Blood, I would also like to express my words of gratitude to Lady Shinano and the people of the Sakura Empire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 302210,
-			say = "这是一定的。时间不早了，按照计划各位客人请随我直接前往内城…",
+			say = "We are glad to hear it. Now, if you would please follow me, I shall guide you to your accommodations for the–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？之前我听{namecode:91}介绍祭典流程的时候，对其中一个叫“演武”的环节还挺感兴趣的呢…",
+			say = "Pardon, but wasn't there a rule that calls for an opening performance of sorts? \"Participants in the ritual must demonstrate their might as a show of respect,\" I believe?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，那个啊。演武是本次祭典中的重要组成部分，会场中的每一场演武都被视为一次对神明的供奉行为。",
+			say = "That is correct. We do conduct exercise battles as a show of respect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 302210,
-			say = "不过，演武只针对重樱内的来访成员，来自铁血的诸位就不必辛苦进行战斗了。",
+			say = "However, that is only required of citizens of the Sakura Empire. We will not force our guests to take part in such a thing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那不是太可惜了嘛~入乡随俗，也让我来感受一下重樱的演武吧。",
+			say = "That's quite a pity. I was so looking forward to immersing myself within the rich customs of the Sakura Empire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 302210,
-			say = "哎…？这……",
+			say = "That would be difficult to make happen...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就当做是我的个人请求，拜托了~",
+			say = "Think of it as a favor to us. Surely the host wouldn't want their guests to miss out on an enjoyable activity, would they?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 302210,
-			say = "唔…好吧。既然您坚持的话，作为接待人自然不能让各位客人扫兴…",
+			say = "...Difficult, but not impossible. Without a doubt, a host's job is to make their guests feel welcome. And if that is what you desire, then we can do so.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,23 +202,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 302210,
-			say = "向神明展现勇武，向神明纳奉才智，向神明给予信仰——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			nameColor = "#a9f548",
-			side = 1,
-			dir = 1,
-			actor = 302210,
-			say = "不才{namecode:50}，在铁血诸位盟友面前，献丑了！",
+			say = "However, I'm a little rusty, so you'll have to forgive me. Please brace yourselves for combat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +217,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵，究竟是客套话还是真心话。重樱新锐巡洋舰的实力，就让我好好见识一下吧~",
+			say = "Hah, isn't this what you were hoping for to begin with?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +232,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "铁血海军，欧根亲王号战斗准备完毕！",
+			say = "In either case, I'm curious to see what you're made of, Noshiro...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +247,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "Eisen und Blut über alles！",
+			say = "Long live Iron Blood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

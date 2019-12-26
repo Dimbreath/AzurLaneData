@@ -12,7 +12,7 @@ return {
 			bgm = "story-4",
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "诸位，请留步。",
+			say = "We welcome you to the Diadem of Light. I am Ryuuhou, and I will serve as your guide.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦？迎接的人是{namecode:179}么？",
+			say = "Ah, how nice it is to see you after so long, Ryuuhou.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 306070,
-			say = "好久不见，{namecode:91}大人，{namecode:92}大人。",
+			say = "Likewise. It is good to see you and Kaga are in good health.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "天宇启户祭的规矩我们都明白。寒暄一会再说，按流程开始演武吧，代主祭。",
+			say = "Yeah, yeah. We already know the rule. \"Participants in the ritual must demonstrate their might as a show of respect.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，一上来就是主菜吗？{namecode:179}可比看起来难对付很多，大家不要轻敌哦~",
+			say = "...Kaga, do not underestimate her. Even if she's a light carrier, she must be powerful if she is in charge of organizing the ritual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 306070,
-			say = "…向神明展现勇武，向神明纳奉才智，向神明给予信仰！",
+			say = "Indeed. All I do is for the Sakura Empire's future!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 306070,
-			say = "{namecode:179}号航空母舰，参上！",
+			say = "Now then, let us begin!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
