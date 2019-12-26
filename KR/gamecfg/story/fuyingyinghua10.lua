@@ -9,10 +9,10 @@ return {
 			expression = 2,
 			side = 2,
 			dir = 1,
-			bgm = "holo-control-inst",
+			bgm = "story-4",
 			actor = 302210,
 			nameColor = "#a9f548",
-			say = "一路而来辛苦了，远道而来的铁血朋友们，欢迎莅临天岩岛",
+			say = "一路而来辛苦了，远道而来的铁血朋友们，欢迎莅临天岩岛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 302210,
-			say = "{namecode:49}级轻巡洋舰{namecode:50}，受{namecode:182}大人的委托，在此恭候各位多时了",
+			say = "{namecode:49}级轻巡洋舰{namecode:50}，受{namecode:182}大人的委托，在此恭候各位多时了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,10 +40,14 @@ return {
 		},
 		{
 			actor = 403030,
-			side = 2,
-			nameColor = "#a9f548",
+			side = 0,
 			dir = 1,
-			say = "能做为赤色中轴的盟友受邀参与重樱的重大祭典，对铁血来讲也是莫大的荣幸",
+			nameColor = "#a9f548",
+			say = "能做为赤色中轴的盟友受邀参与重樱的重大祭典，对铁血来讲也是莫大的荣幸~",
+			paintingFadeOut = {
+				time = 0.5,
+				side = 1
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,10 +59,10 @@ return {
 		},
 		{
 			actor = 403030,
-			side = 2,
+			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请代我们向{namecode:182}大人致以最诚挚的问候",
+			say = "请代我们向{namecode:182}大人致以最诚挚的问候~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +75,7 @@ return {
 		{
 			expression = 2,
 			nameColor = "#a9f548",
-			side = 2,
+			side = 1,
 			dir = 1,
 			actor = 302210,
 			say = "这是一定的。时间不早了，按照计划各位客人请随我直接前往内城…",
@@ -86,10 +90,10 @@ return {
 		},
 		{
 			actor = 403030,
-			side = 2,
+			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？之前我听{namecode:91}介绍祭典流程的时候，对其中一个叫“演武”的环节还挺感兴趣的呢",
+			say = "哎？之前我听{namecode:91}介绍祭典流程的时候，对其中一个叫“演武”的环节还挺感兴趣的呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +105,7 @@ return {
 		},
 		{
 			actor = 302210,
-			side = 2,
+			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "啊，那个啊。演武是本次祭典中的重要组成部分，会场中的每一场演武都被视为一次对神明的供奉行为。",
@@ -117,10 +121,10 @@ return {
 		{
 			expression = 2,
 			nameColor = "#a9f548",
-			side = 2,
+			side = 1,
 			dir = 1,
 			actor = 302210,
-			say = "不过，演武只针对重樱内的来访成员，来自铁血的诸位就不必辛苦进行战斗了",
+			say = "不过，演武只针对重樱内的来访成员，来自铁血的诸位就不必辛苦进行战斗了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +136,7 @@ return {
 		},
 		{
 			actor = 403030,
-			side = 2,
+			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "那不是太可惜了嘛~入乡随俗，也让我来感受一下重樱的演武吧。",
@@ -148,7 +152,7 @@ return {
 		{
 			expression = 2,
 			nameColor = "#a9f548",
-			side = 2,
+			side = 1,
 			dir = 1,
 			actor = 302210,
 			say = "哎…？这……",
@@ -163,7 +167,7 @@ return {
 		},
 		{
 			actor = 403030,
-			side = 2,
+			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "就当做是我的个人请求，拜托了~",
@@ -179,7 +183,7 @@ return {
 		{
 			expression = 2,
 			nameColor = "#a9f548",
-			side = 2,
+			side = 1,
 			dir = 1,
 			actor = 302210,
 			say = "唔…好吧。既然您坚持的话，作为接待人自然不能让各位客人扫兴…",
@@ -195,10 +199,10 @@ return {
 		{
 			expression = 1,
 			nameColor = "#a9f548",
-			side = 2,
+			side = 1,
 			dir = 1,
 			actor = 302210,
-			say = "向神明展现勇武，向神明纳奉才智，向神明给予信仰",
+			say = "向神明展现勇武，向神明纳奉才智，向神明给予信仰——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +215,7 @@ return {
 		{
 			expression = 1,
 			nameColor = "#a9f548",
-			side = 2,
+			side = 1,
 			dir = 1,
 			actor = 302210,
 			say = "不才{namecode:50}，在铁血诸位盟友面前，献丑了！",
@@ -229,7 +233,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵，究竟是客套话还是真心话。重樱新锐巡洋舰的实力就让我见识一下吧。",
+			say = "呵呵呵，究竟是客套话还是真心话。重樱新锐巡洋舰的实力，就让我好好见识一下吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,9 +246,9 @@ return {
 		{
 			actor = 403030,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "铁血海军，欧根亲王号战斗准备完毕。",
+			say = "铁血海军，欧根亲王号战斗准备完毕！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +261,7 @@ return {
 		{
 			actor = 403030,
 			side = 2,
-			nameColor = "#a9f548",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "Eisen und Blut über alles！",
 			typewriter = {

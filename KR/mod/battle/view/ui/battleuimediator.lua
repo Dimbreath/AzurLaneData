@@ -67,6 +67,10 @@ function slot6.DisableComponent(slot0)
 	if slot0._jammingView then
 		slot0._jammingView:Eliminate(false)
 	end
+
+	if slot0._inkView then
+		slot0._inkView:SetActive(false)
+	end
 end
 
 function slot6.ActiveDebugConsole(slot0)

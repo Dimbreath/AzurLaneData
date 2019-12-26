@@ -11,7 +11,6 @@ end
 function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._horizonRange = slot0._tempData.arg_list.range
 	slot4 = slot1:GetUniqueID()
-	slot8 = slot1:GetPosition()
 	slot0._aura = slot0.Battle.BattleDataProxy.GetInstance():SpawnAura(slot1, slot1.AOEField.SURFACE, slot0._horizonRange, function (slot0)
 		for slot4, slot5 in ipairs(slot0) do
 			if slot5.Active then

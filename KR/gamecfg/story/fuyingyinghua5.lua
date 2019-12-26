@@ -9,7 +9,7 @@ return {
 			say = "天岩岛近海·清晨",
 			side = 2,
 			dir = 1,
-			bgm = "holo-control-inst",
+			bgm = "nagato-map",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,10 +36,14 @@ return {
 		},
 		{
 			actor = 307050,
-			side = 2,
 			nameColor = "#a9f548",
+			side = 1,
 			dir = 1,
-			say = "天宇启户祭…原本应该是作为“巫女”的{namecode:74}大人主持的祭典才对，居然被用什么“关心身体”这么敷衍的理由排除在外",
+			say = "天宇启户祭…原本应该是作为“巫女”的{namecode:74}大人主持的祭典才对，居然被用什么“关心身体”这么敷衍的理由排除在外……",
+			paintingFadeOut = {
+				time = 0.5,
+				side = 0
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,10 +55,10 @@ return {
 		},
 		{
 			actor = 307050,
-			side = 2,
+			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一航战的“前辈”们，看来背地里做了不少工作啊",
+			say = "一航战的“前辈”们，看来背地里做了不少工作啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,10 +70,10 @@ return {
 		},
 		{
 			actor = 307060,
-			side = 2,
+			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这么重大的场合，居然想把我们排除在外…{namecode:91}这次又想搞什么把戏",
+			say = "这么重大的场合，居然想把我们排除在外…{namecode:91}这次又想搞什么把戏？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +88,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无妨，不论经历了什么波折，结果来说我们还是受邀按时来到祭典现场了",
+			say = "无妨，不论经历了什么波折，结果来说我们还是受邀按时来到祭典现场了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +100,7 @@ return {
 		},
 		{
 			actor = 307060,
-			side = 2,
+			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "没想到“大前辈”的面子还真是吃的开啊…哎嘿嘿，真好啊~我什么时候能变成“大前辈”呢~",
@@ -111,7 +115,7 @@ return {
 		},
 		{
 			actor = 307050,
-			side = 2,
+			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "再过个几十年的话，也许就说不定了哦？{namecode:96}大·前·辈♪",
@@ -126,7 +130,7 @@ return {
 		},
 		{
 			actor = 307060,
-			side = 2,
+			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "停！{namecode:95}姐停！我错了！不要继续说下去了！",
@@ -137,6 +141,16 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
+			},
+			action = {
+				{
+					y = 0,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 20,
+					number = 2
+				}
 			}
 		},
 		{
@@ -189,7 +203,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是今天请以大局为重，无论如何保持克制。我们现在的立场十分不宜与{namecode:91}她们发生正面冲突",
+			say = "但是今天请以大局为重，无论如何保持克制。我们现在的立场十分不宜与{namecode:91}她们发生正面冲突。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +218,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果我的判断不错的话，并不是所有支持{namecode:91}的人都知道她的阴谋",
+			say = "如果我的判断不错的话，并不是所有支持{namecode:91}的人都知道她的阴谋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +233,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们需要等待的是祭典结束之后，与{namecode:182}会面的机会",
+			say = "我们需要等待的是祭典结束之后，与{namecode:182}会面的机会。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +248,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要能让{namecode:182}公开{namecode:91}在圣域中与塞壬勾结的事，并且能站在我们一边的话",
+			say = "只要能让{namecode:182}公开{namecode:91}在圣域中与塞壬勾结的事，并且能站在我们一边的话——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +263,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:91}将会因为背叛行为在重樱失去立场，其阴谋就自然失败了",
+			say = "{namecode:91}将会因为背叛行为在重樱失去立场，其阴谋就自然失败了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +278,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也就是来交朋友的对吧~请大前辈放心，我明白",
+			say = "也就是来交朋友的对吧~请大前辈放心，我明白~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,10 +320,10 @@ return {
 		},
 		{
 			actor = 307050,
-			side = 2,
+			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不是以钢力对撞，而是如笛声般缠绵，这次是这样的作战吧~",
+			say = "不是以刚力对撞，而是如笛声般缠绵，这次是这样的作战吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +335,7 @@ return {
 		},
 		{
 			actor = 307060,
-			side = 2,
+			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "嗯，{namecode:95}姐也明白了！",
@@ -332,6 +346,16 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
 			}
 		}
 	}

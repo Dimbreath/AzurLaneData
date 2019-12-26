@@ -23,7 +23,37 @@ return {
 					"onStack"
 				},
 				arg_list = {
+					number = 0.012,
+					attr = "damageRatioBullet"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onStack"
+				},
+				arg_list = {
 					number = 0.014,
+					attr = "damageRatioBullet"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onStack"
+				},
+				arg_list = {
+					number = 0.016,
 					attr = "damageRatioBullet"
 				}
 			}
@@ -53,7 +83,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 0.022,
+					number = 0.021,
 					attr = "damageRatioBullet"
 				}
 			}
@@ -68,7 +98,7 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 0.026,
+					number = 0.024,
 					attr = "damageRatioBullet"
 				}
 			}
@@ -83,7 +113,22 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					number = 0.03,
+					number = 0.027,
+					attr = "damageRatioBullet"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach",
+					"onStack"
+				},
+				arg_list = {
+					number = 0.031,
 					attr = "damageRatioBullet"
 				}
 			}
@@ -104,57 +149,12 @@ return {
 			}
 		}
 	},
-	{
-		effect_list = {
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach",
-					"onStack"
-				},
-				arg_list = {
-					number = 0.04,
-					attr = "damageRatioBullet"
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach",
-					"onStack"
-				},
-				arg_list = {
-					number = 0.045,
-					attr = "damageRatioBullet"
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach",
-					"onStack"
-				},
-				arg_list = {
-					number = 0.05,
-					attr = "damageRatioBullet"
-				}
-			}
-		}
-	},
 	name = "属性变更",
 	init_effect = "jinengchufablue",
 	time = 0,
 	picture = "",
 	desc = "属性提升",
-	stack = 4,
+	stack = 6,
 	id = 12873,
 	icon = 12870,
 	last_effect = "",

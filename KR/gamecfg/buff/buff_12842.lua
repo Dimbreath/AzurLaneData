@@ -88,11 +88,11 @@ return {
 			{
 				type = "BattleBuffAddBulletAttr",
 				trigger = {
-					"onTorpedoWeaponBulletCreate",
+					"onBulletCreate",
 					"onRemove"
 				},
 				arg_list = {
-					number = 0.01,
+					number = 0.03,
 					attr = "cri"
 				}
 			},
@@ -113,11 +113,11 @@ return {
 			{
 				type = "BattleBuffAddBulletAttr",
 				trigger = {
-					"onTorpedoWeaponBulletCreate",
+					"onBulletCreate",
 					"onRemove"
 				},
 				arg_list = {
-					number = 0.02,
+					number = 0.06,
 					attr = "cri"
 				}
 			},
@@ -138,11 +138,11 @@ return {
 			{
 				type = "BattleBuffAddBulletAttr",
 				trigger = {
-					"onTorpedoWeaponBulletCreate",
+					"onBulletCreate",
 					"onRemove"
 				},
 				arg_list = {
-					number = 0.03,
+					number = 0.09,
 					attr = "cri"
 				}
 			},
@@ -163,11 +163,11 @@ return {
 			{
 				type = "BattleBuffAddBulletAttr",
 				trigger = {
-					"onTorpedoWeaponBulletCreate",
+					"onBulletCreate",
 					"onRemove"
 				},
 				arg_list = {
-					number = 0.05,
+					number = 0.12,
 					attr = "cri"
 				}
 			},

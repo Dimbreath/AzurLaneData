@@ -7,7 +7,7 @@ return {
 				type = "BattleSkillHeal",
 				target_choise = "TargetSelf",
 				arg_list = {
-					maxHPRatio = 0.15
+					maxHPRatio = 0.1
 				}
 			}
 		}
@@ -20,7 +20,7 @@ return {
 				type = "BattleSkillHeal",
 				target_choise = "TargetSelf",
 				arg_list = {
-					maxHPRatio = 0.161
+					maxHPRatio = 0.111
 				}
 			}
 		}
@@ -33,7 +33,7 @@ return {
 				type = "BattleSkillHeal",
 				target_choise = "TargetSelf",
 				arg_list = {
-					maxHPRatio = 0.172
+					maxHPRatio = 0.122
 				}
 			}
 		}
@@ -46,7 +46,7 @@ return {
 				type = "BattleSkillHeal",
 				target_choise = "TargetSelf",
 				arg_list = {
-					maxHPRatio = 0.183
+					maxHPRatio = 0.133
 				}
 			}
 		}
@@ -59,7 +59,7 @@ return {
 				type = "BattleSkillHeal",
 				target_choise = "TargetSelf",
 				arg_list = {
-					maxHPRatio = 0.194
+					maxHPRatio = 0.144
 				}
 			}
 		}
@@ -72,7 +72,7 @@ return {
 				type = "BattleSkillHeal",
 				target_choise = "TargetSelf",
 				arg_list = {
-					maxHPRatio = 0.205
+					maxHPRatio = 0.155
 				}
 			}
 		}
@@ -85,7 +85,7 @@ return {
 				type = "BattleSkillHeal",
 				target_choise = "TargetSelf",
 				arg_list = {
-					maxHPRatio = 0.216
+					maxHPRatio = 0.166
 				}
 			}
 		}
@@ -98,7 +98,7 @@ return {
 				type = "BattleSkillHeal",
 				target_choise = "TargetSelf",
 				arg_list = {
-					maxHPRatio = 0.227
+					maxHPRatio = 0.177
 				}
 			}
 		}
@@ -111,7 +111,7 @@ return {
 				type = "BattleSkillHeal",
 				target_choise = "TargetSelf",
 				arg_list = {
-					maxHPRatio = 0.238
+					maxHPRatio = 0.188
 				}
 			}
 		}
@@ -124,7 +124,7 @@ return {
 				type = "BattleSkillHeal",
 				target_choise = "TargetSelf",
 				arg_list = {
-					maxHPRatio = 0.25
+					maxHPRatio = 0.2
 				}
 			}
 		}
@@ -152,7 +152,7 @@ return {
 			type = "BattleSkillHeal",
 			target_choise = "TargetSelf",
 			arg_list = {
-				maxHPRatio = 0.15
+				maxHPRatio = 0.1
 			}
 		}
 	}

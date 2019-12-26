@@ -16,50 +16,62 @@ return {
 				},
 				{
 					"<size=51>一叶孤舟，孤悬于海面之上</size>",
-					2
-				},
-				{
-					"<size=51>风暴何时停息，孤舟何时倾覆？</size>",
 					3
 				},
 				{
-					"<size=51>光明在何方，希望又在何方？</size> ",
-					4
-				},
-				{
-					"<size=51>…………</size>",
+					"<size=51>风暴何时停息，孤舟何时倾覆？</size>",
 					5
 				},
 				{
+					"<size=51>光明在何方，希望又在何方？</size> ",
+					7
+				},
+				{
+					"<size=51>…………</size>",
+					9
+				},
+				{
 					"<size=51>吾如梦中之蝶，飞舞于虚幻之间</size>",
-					6
+					11
 				},
 				{
 					"<size=51>愿光明划破阴云，愿希望指引重樱</size>",
-					7
+					13
 				}
 			}
 		},
 		{
-			blackBg = true,
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
+			blackBg = true,
 			effects = {
 				{
 					active = true,
 					name = "logo_sakura"
 				}
+			},
+			sequence = {
+				{
+					"",
+					2
+				}
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_xinnong_cg1",
+			side = 2,
 			dir = 1,
-			bgmDelay = 3,
+			bgmDelay = 1,
 			bgm = "xinnong-1",
 			say = "天岩岛内城·拂晓",
+			effects = {
+				{
+					active = false,
+					name = "logo_sakura"
+				}
+			},
 			flashout = {
-				dur = 1.5,
+				dur = 0.5,
 				black = true,
 				alpha = {
 					0,
@@ -68,7 +80,7 @@ return {
 			},
 			flashin = {
 				delay = 1.5,
-				dur = 1.5,
+				dur = 0.5,
 				black = true,
 				alpha = {
 					1,
@@ -110,7 +122,7 @@ return {
 			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			say = "啊！龙凤大人快闪开！！",
+			say = "啊！{namecode:179}大人快闪开！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +146,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "驱逐舰{namecode:12}正抱着巨大的神台打算从楼梯上下来，却一脚踏空失去了平衡",
+			say = "驱逐舰{namecode:12}正抱着巨大的神台打算从楼梯上下来，却一脚踏空失去了平衡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +179,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "随着巨大的翻滚声，{namecode:12}完美的躺在了庭院的草地上，仰望着拂晓的晨光",
+			say = "随着巨大的翻滚声，{namecode:12}完美地躺在了庭院的草地上，仰望着拂晓的晨光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +237,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "玄关旁，身着锦衣的少女完美的避开了从楼梯上意外滚落的驱逐舰，并轻盈地接住了飞来的神台",
+			say = "玄关旁，身着锦衣的少女完美地避开了从楼梯上意外滚落的驱逐舰，并轻盈地接住了飞来的神台。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +254,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "驱逐舰摔在草地上可不会断成两截，而这个神台会",
+			say = "驱逐舰摔在草地上可不会断成两截，而这个神台会。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +298,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "还有两天就是祭典了，不谨慎点处理可是会坏了大事的",
+			say = "还有两天就是祭典了，不谨慎点处理可是会坏了大事的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +332,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "放心，两方的大人都是明事理的人。就算平时再怎么闹别扭，也不会缺席重樱的重要祭典的",
+			say = "放心，两方的大人都是明事理的人。就算平时再怎么闹别扭，也不会缺席重樱的重要祭典的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +360,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:179}，原来你在这里啊",
+			say = "{namecode:179}，原来你在这里啊。",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
@@ -391,7 +403,7 @@ return {
 			dir = 1,
 			actor = 302210,
 			nameColor = "#a9f548",
-			say = "刚刚收到了铁血使团发来的电报，她们应{namecode:91}大人的邀请前来参加祭典，预计会在本日上午抵达",
+			say = "刚刚收到了铁血使团发来的电报，她们应{namecode:91}大人的邀请前来参加祭典，预计会在本日上午抵达。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +453,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好的，我收拾一下就出发",
+			say = "好的，我收拾一下就出发。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +544,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "失礼了。{namecode:179}，{namecode:91}大人以及随行舰队即将抵达天岩岛",
+			say = "失礼了。{namecode:179}，{namecode:91}大人以及随行舰队即将抵达天岩岛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +561,7 @@ return {
 			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			say = "啊！一航战的大人们果然来了",
+			say = "啊！一航战的大人们果然来了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +588,7 @@ return {
 			dir = 1,
 			actor = 302210,
 			nameColor = "#a9f548",
-			say = "看来首先是你的回合呢，{namecode:179}",
+			say = "看来首先是你的回合呢，{namecode:179}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +622,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "诸位，本次天宇启户祭，将会是决定重樱未来的重要祭典",
+			say = "诸位，本次天宇启户祭，将会是决定重樱未来的重要祭典。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,7 +639,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "我们不但是主祭{namecode:182}大人的代行者，更是祭典中不可或缺的一部分",
+			say = "我们不但是主祭{namecode:182}大人的代行者，更是祭典中不可或缺的一部分。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,7 +655,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "祭典即将开始，各位请进入自己的角色",
+			say = "祭典即将开始，各位请进入自己的角色。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -695,7 +707,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "{namecode:179}走出庭院时，回头望了一眼天守阁，鞠了一躬",
+			say = "{namecode:179}走出庭院时，回头望了一眼天守阁，鞠了一躬。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -743,35 +755,6 @@ return {
 				},
 				{
 					"<size=60>                                 “暗流涌动，一切小心”</size>",
-					1
-				}
-			}
-		},
-		{
-			stopbgm = true,
-			mode = 1,
-			blackBg = true,
-			flashout = {
-				dur = 0.5,
-				black = true,
-				alpha = {
-					0,
-					1
-				}
-			},
-			flashin = {
-				5,
-				delay = 0,
-				dur = 0.5,
-				black = true,
-				alpha = {
-					1,
-					0
-				}
-			},
-			sequence = {
-				{
-					"",
 					1
 				}
 			}

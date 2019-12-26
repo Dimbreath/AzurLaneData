@@ -100,4 +100,10 @@ function slot0.OnDestroy(slot0)
 	return
 end
 
+function slot0.IsTip()
+	if getProxy(ActivityProxy):getActivityById(ActivityConst.NEWYEAR_SHRINE_PAGE_ID) and not slot0:isEnd() then
+		return math.clamp(slot0.data2, 0, slot0.MAX_COUNT) < math.clamp(slot1, 1, slot0.MAX_COUNT)
+	end
+end
+
 return slot0

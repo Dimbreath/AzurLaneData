@@ -49,9 +49,8 @@ return {
 				"onFoeDying"
 			},
 			arg_list = {
-				target = "TargetShipTag",
 				skill_id = 12872,
-				time = 1,
+				target = "TargetShipTag",
 				killer = "self",
 				ship_tag_list = {
 					"ryuhou"

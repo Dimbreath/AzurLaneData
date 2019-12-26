@@ -423,7 +423,7 @@ function slot5.UpdateDiveInvisible(slot0)
 	end
 
 	if slot2 then
-		slot0:updateComponentDiveInvisible()
+		slot0:updateComponentVisible()
 	end
 end
 
@@ -432,7 +432,9 @@ function slot5.onUpdateBlindInvisible(slot0, slot1)
 end
 
 function slot5.UpdateBlindInvisible(slot0)
-	slot0:updateComponentBlindInvisible()
+	slot0:GetTf():GetComponent(typeof(Renderer)).enabled = slot0._unitData:GetExposed()
+
+	slot0:updateComponentVisible()
 end
 
 function slot5.updateInvisible(slot0, slot1, slot2, slot3)
@@ -460,19 +462,31 @@ function slot5.onDetected(slot0, slot1)
 		slot0:RemoveCacheFX(slot0._shockFX)
 	end
 
-	slot0:updateComponentDiveInvisible()
+	slot0:updateComponentVisible()
 end
 
 function slot5.onBlindExposed(slot0, slot1)
-	slot0:updateComponentBlindInvisible()
+	slot0:GetTf():GetComponent(typeof(Renderer)).enabled = slot0._unitData:GetExposed()
+
+	slot0:updateComponentVisible()
+end
+
+function slot5.updateComponentVisible(slot0)
+	if slot0._unitData:GetIFF() ~= slot0.FOE_CODE then
+		return
+	end
+
+	SetActive(slot0._arrowBarTf, slot0._unitData:GetExposed() and (not slot0._unitData:GetDiveInvisible() or not not slot0._unitData:GetDiveDetected()))
+	SetActive(slot0._HPBarTf, slot0._unitData.GetExposed() and (not slot0._unitData.GetDiveInvisible() or not not slot0._unitData.GetDiveDetected()))
+	SetActive(slot0._FXAttachPoint, slot0._unitData.GetExposed() and (not slot0._unitData.GetDiveInvisible() or not not slot0._unitData.GetDiveDetected()))
 end
 
 function slot5.updateComponentDiveInvisible(slot0)
 	slot3 = nil
 
-	SetActive(slot0._arrowBarTf, not (not (slot0._unitData:GetDiveDetected() and slot0._unitData:GetIFF() == slot0.FOE_CODE) and slot0._unitData:GetDiveInvisible()))
-	SetActive(slot0._HPBarTf, not (not (slot0._unitData.GetDiveDetected() and slot0._unitData.GetIFF() == slot0.FOE_CODE) and slot0._unitData.GetDiveInvisible()))
-	SetActive(slot0._FXAttachPoint, not (not (slot0._unitData.GetDiveDetected() and slot0._unitData.GetIFF() == slot0.FOE_CODE) and slot0._unitData.GetDiveInvisible()))
+	SetActive(slot0._arrowBarTf, (((slot0._unitData:GetDiveDetected() and slot0._unitData:GetIFF() == slot0.FOE_CODE) or not slot0._unitData:GetDiveInvisible()) and true) or false)
+	SetActive(slot0._HPBarTf, (((slot0._unitData.GetDiveDetected() and slot0._unitData.GetIFF() == slot0.FOE_CODE) or not slot0._unitData.GetDiveInvisible()) and true) or false)
+	SetActive(slot0._FXAttachPoint, (((slot0._unitData.GetDiveDetected() and slot0._unitData.GetIFF() == slot0.FOE_CODE) or not slot0._unitData.GetDiveInvisible()) and true) or false)
 end
 
 function slot5.updateComponentBlindInvisible(slot0)
