@@ -12,7 +12,7 @@ return {
 			bgm = "cw-battle-boss",
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "我是{namecode:175}，负责在此接待各位远道而来的客人，请多指教。",
+			say = "I am Suruga, the host of the ritual. It must've been a long journey for you all. Thank you for coming, Mikasa, Shoukaku, and Zuikaku.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 0,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你就是传说中的{namecode:80}级三号舰{namecode:175}么…嗯，真是百闻不如一见啊！祭典的准备辛苦了。我代表重樱的伙伴们向你表示感谢~",
+			say = "So you're the fabled third Kii-class battleship. I can hardly believe my eyes... Nevertheless, you have done an awe-inspiring job on the ritual thus far. I thank you on the behalf of all the Sakura Empire.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -47,7 +47,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 305140,
-			say = "大前辈过奖了…！如您所见我只是一个没什么战斗经验的新人而已，很期待今后能与您并肩作战。",
+			say = "Thank you. However, I did only what anyone in my position would do. I don't deserve any special praise for that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今后？要是并肩作战的话，现在不就可以么。按照祭典规则，接下来是演武环节了吧？",
+			say = "Hahah! You'll bore people if you're overly modest. From what I've heard, not only did you make the preparations for the joint exercise, you've even offered to take part in it yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 305140,
-			say = "啊，嗯…您说的没错……",
+			say = "You've heard correct... That is the plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "兵贵神速，打起精神放马过来吧！",
+			say = "Even though it's just an exercise, we'll have to show off our stuff since the Iron Blood is also here. How about a quick duel so I can see your power?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "（哎？这么突然？！这种性格我超不擅长应付啊……）",
+			say = "(What?! Right now?! Oh no, I'm not good at dealing with people like her...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你刚刚心里在想，“哎？这么突然？！这种性格我超不擅长应付啊……”了吧~",
+			say = "Aha! You just shouted \"What?! Right now?!\" in your mind, didn't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "（啊！被看穿了？！！）",
+			say = "(How did she know that?!)",
 			action = {
 				{
 					y = 0,
@@ -185,7 +185,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后又露出了“啊！被看穿了？！！”的表情。最近的年轻人，内心真是太容易读懂了啊…",
+			say = "And next, you're going to think, \"How did she know that?!\" Good grief, you youngsters are so predictable these days...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是{namecode:82}大前辈……那个…我冒昧地问一句，为什么…能读懂呢？",
+			say = "W-wow...! If you'll pardon me asking, how did you know what I was thinking?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，都是些作战的时候学到的技巧罢了。在战场上，分析对手的行为直接关乎生死哦。",
+			say = "From experience, I suppose. When you're always trying to figure out what the enemy is thinking, you get pretty close to being able to actually read minds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听说你的演习成绩很不错，接下来的演武我可是很期待的哦~",
+			say = "Now, I've heard you're extremely skilled in theory, but I'd like to see if your ability holds up when put into practice!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能和大前辈交手是求之不得的宝贵经验，还请前辈不吝赐教！",
+			say = "If that is a direct order, then I shall comply with it. As you wish, I shall hold nothing back...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！这就对了，就是这股气势！",
+			say = "That's the spirit. Show us what you're capable of!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305140,
-			say = "（和{namecode:82}大前辈交手，偷工减料肯定会被发现吧…真是的，只能全力以赴上了…！）",
+			say = "(She'll easily tell if I'm going easy on her. I'll need to take this battle seriously...!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "向神明展现勇武，向神明纳奉才智，向神明给予信仰！{namecode:80}级战列舰，{namecode:175}，参上！",
+			say = "Let us begin! Raise your weapons!",
 			action = {
 				{
 					y = 30,

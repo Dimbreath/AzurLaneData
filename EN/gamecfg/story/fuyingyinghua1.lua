@@ -11,31 +11,31 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>狂风暴雨，漫漫长夜</size>",
+					"<size=51>The storm rages across the waters, through a night that knows no end.</size>",
 					1
 				},
 				{
-					"<size=51>一叶孤舟，孤悬于海面之上</size>",
+					"<size=51>Within the tempest lingers one lonesome vessel.</size>",
 					3
 				},
 				{
-					"<size=51>风暴何时停息，孤舟何时倾覆？</size>",
+					"<size=51>Will the storm's rage first be quelled, or will this vessel first capsize?</size>",
 					5
 				},
 				{
-					"<size=51>光明在何方，希望又在何方？</size> ",
+					"<size=51>Will a ray of light bring hope through the darkness?</size> ",
 					7
 				},
 				{
-					"<size=51>…………</size>",
+					"<size=51>.......</size>",
 					9
 				},
 				{
-					"<size=51>吾如梦中之蝶，飞舞于虚幻之间</size>",
+					"<size=51>For I am but an oneiric butterfly, fluttering among illusions.</size>",
 					11
 				},
 				{
-					"<size=51>愿光明划破阴云，愿希望指引重樱</size>",
+					"<size=51>May light guide this vessel. May hope guide the Sakura Empire.</size>",
 					13
 				}
 			}
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-1",
-			say = "天岩岛内城·拂晓",
+			say = "Sakura Empire - An island within the Diadem of Light",
 			effects = {
 				{
 					active = false,
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "哐啷啷",
+			say = "(Clink, clank!)",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			say = "啊！{namecode:179}大人快闪开！！",
+			say = "Aaaah! Ryuuhou, watch out!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "驱逐舰{namecode:12}正抱着巨大的神台打算从楼梯上下来，却一脚踏空失去了平衡。",
+			say = "The destroyer, Hibiki, was careening down a flight of stairs, her balance failing her as she struggled to contain an armful of ceremonial items.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "哐啷！",
+			say = "(Clang! Bam! Crash!)",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "随着巨大的翻滚声，{namecode:12}完美地躺在了庭院的草地上，仰望着拂晓的晨光。",
+			say = "She falls over in panic, dropping the ceremonial items all over the place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			say = "唔…痛痛痛~",
+			say = "Owie...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			say = "{namecode:179}大人真过分，居然真的对我见死不救！！",
+			say = "You're so mean, Ryuuhou! You could've helped me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "玄关旁，身着锦衣的少女完美地避开了从楼梯上意外滚落的驱逐舰，并轻盈地接住了飞来的神台。",
+			say = "Next to her is Ryuuhou, a former submarine tender who had been converted into a light carrier. She effortlesly avoided the destroyer, catching the ceremonial items in mid-air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "驱逐舰摔在草地上可不会断成两截，而这个神台会。",
+			say = "Don't whine to me. We shipgirls don't get hurt so easily. And didn't I tell you to be careful with these ceremonial items?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			say = "啊，{namecode:179}大人真是的~",
+			say = "Hey, can't you show at least a little concern for me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "还有两天就是祭典了，不谨慎点处理可是会坏了大事的。",
+			say = "We're nearly ready to begin the ritual, so please do tread with a little more care from now on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			say = "这次祭典，她们真的还会来吗？",
+			say = "...Speaking of the ritual, will you-know-who really be there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "放心，两方的大人都是明事理的人。就算平时再怎么闹别扭，也不会缺席重樱的重要祭典的。",
+			say = "Any and all from the Sakura Empire will surely come.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "特别是在现在这样的困境时刻。这次天宇启户祭也许会是重新寻觅正确方向的契机吧……",
+			say = "Remember what she said? \"Let us hold a historic ceremony and make an offering to the gods. It shall show the Sakura Empire the way forward, giving unto it a brighter future free of threats from the likes of foreign nations or the Sirens.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:179}，原来你在这里啊。",
+			say = "So this is where you were, Ryuuhou.",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
@@ -386,7 +386,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是{namecode:50}啊，这么急着找我有什么事么？",
+			say = "Ah, Noshiro. Good to see you. Do you need something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			actor = 302210,
 			nameColor = "#a9f548",
-			say = "刚刚收到了铁血使团发来的电报，她们应{namecode:91}大人的邀请前来参加祭典，预计会在本日上午抵达。",
+			say = "I'm here to forward the message from our Iron Blood guests: \"We will participate in the ritual.\" Or so they said, but they seem to have gotten lost.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "我明白了，吩咐沿途关卡予以放行。这是第一次有海外使团参与的祭典，非同往常啊……",
+			say = "In other words... this is the first time we'll be holding a ritual with outsiders present.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "来者是客。{namecode:50}，接待使团的工作能交给你负责吗？",
+			say = "Noshiro, would you please escort them here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,24 +453,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好的，我收拾一下就出发。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			side = 0,
-			bgName = "bg_xinnong_cg1",
-			dir = 1,
-			actor = 302210,
-			nameColor = "#a9f548",
-			say = "{namecode:179}，演武环节的准备就拜托你了。帮我选个好次序哦~",
+			say = "...Certainly. I will do so at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +470,24 @@ return {
 			dir = 1,
 			actor = 302210,
 			nameColor = "#a9f548",
-			say = "来自重樱各处的大人与海外高手齐聚一堂，甚至不乏久经沙场的前辈！真期待与她们的交手环节…",
+			say = "However, I need you to do something, Ryuuhou. An offering in which the ships participating in the ritual compete for glory – a Combined Fleet exercise – is necessary as a display of the Sakura Empire's strength.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 0,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			actor = 302210,
+			nameColor = "#a9f548",
+			say = "I would like you to prepare the event for the participants, as well as decide on how to conduct the matches.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "哈哈哈，那当然，演武也是祭典的一部分，本次祭典各方面都不马虎哦！",
+			say = "Very well. Organizing events is not my forte, but I will focus all my attention on it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "敲门声",
+			say = "*knock* *knock*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "失礼了。{namecode:179}，{namecode:91}大人以及随行舰队即将抵达天岩岛。",
+			say = "Ryuuhou, Akagi's crew are about to arrive any minute now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			say = "啊！一航战的大人们果然来了！",
+			say = "The First Carrier Division! I knew they'd come!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			dir = 1,
 			actor = 302210,
 			nameColor = "#a9f548",
-			say = "看来首先是你的回合呢，{namecode:179}。",
+			say = "It is time to make our move, Ryuuhou.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "……终于要正式开始了！",
+			say = "...Yes, of course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "诸位，本次天宇启户祭，将会是决定重樱未来的重要祭典。",
+			say = "This ritual will decide the future of the Sakura Empire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,7 +639,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "我们不但是主祭{namecode:182}大人的代行者，更是祭典中不可或缺的一部分。",
+			say = "As representatives of our great land, we must not fail!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "祭典即将开始，各位请进入自己的角色。",
+			say = "Now, everyone, get into your respective positions!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,8 +670,8 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			actorName = "众人",
-			say = "明白！",
+			actorName = "みんな",
+			say = "Understood!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -693,7 +693,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "那么，我们就出发了，{namecode:182}大人",
+			say = "After years of suffering... No, we've been training for this very moment, and it is time to show the entire world our might!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -707,7 +707,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "{namecode:179}走出庭院时，回头望了一眼天守阁，鞠了一躬。",
+			say = "The venue bursts with activity as everyone begins getting into the positions they've been assigned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,7 +754,7 @@ return {
 					1
 				},
 				{
-					"<size=60>                                 “暗流涌动，一切小心”</size>",
+					"<size=60>                                 The Sakura Empire's oceans are enveloped in the zeal to carry out the ritual.</size>",
 					1
 				}
 			}

@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "天岩岛近海·正午",
+			say = "Diadem of Light - Surrounding Waters",
 			side = 2,
 			dir = 1,
 			bgm = "xinnong-1",
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z2，快一点，都快到午饭时间了啊。",
+			say = "Are you done yet, Thiele? It's almost time for lunch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是是是，再耐心点，马上就要记录完毕了。",
+			say = "I'm doing the best I can... I'll be done recording soon, so just wait a little longer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "把整个海域作为封闭空间，屏蔽来自外部的观测，这就是“结界”…重樱内部还真是充满了超自然的存在啊……",
+			say = "They've created an enclosed space within this area of the sea, one that cannot be observed from the outside. It's like a magic boundary created using Siren technology.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "超自然的存在？呵，这些不过是我们需要理解但还没有理解的科技而已~",
+			say = "It's not magic; our technology is just not sufficiently advanced yet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些先不说。弹药准备如何？",
+			say = "More importantly, how's your ammo?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "弹药充足。",
+			say = "I have plenty of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "武器整备呢？",
+			say = "And your rigging?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "武器状态良好。",
+			say = "Everything is functioning normally.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Z2真是可靠啊~撤退路线呢？",
+			say = "That's a good girl. And our escape route?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………再怎么说也不用准备到这个份上吧？",
+			say = "I have one secured, but I doubt we'll need it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳，以防万一，确认一下……",
+			say = "Heheh, you never know. Just in case~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……你怀疑{namecode:91}的计划不会顺利进行？",
+			say = "Do you think Akagi's plan is going to fall through?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是那家伙认为事有蹊跷啦。临行之前专门要我多留个心眼。",
+			say = "I'm not worried about it, but the lady in charge is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "害得我连夜赶了一份从战斗到跑路的方案书给她，唉…",
+			say = "I even had to draft this backup plan just to sate her paranoia.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "确实…这次{namecode:91}的计划看起来是有点太小儿科了。",
+			say = "I see... Still, this plan Akagi came up with is really naïve.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且危险。塞壬可不是能任人摆布的棋子哦？",
+			say = "Not to mention dangerous. The Sirens are not easily fooled.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果她的目的只是像她说的为了动员重樱参加作战计划倒还好，如果不是的话…？",
+			say = "We should be fine if it goes as planned and we can use this ritual as a way to bolster our forces. If it doesn't, however...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要能把重樱拖下水，只要重樱还是作为我们的盟友，让谁来领头都一样吧~",
+			say = "As long as the Sakura Empire ends up taking the fall for whatever happens, it shouldn't really matter who is leading them, right? This whole thing leaves a bad taste in my mouth though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜哇，真差劲…",
+			say = "I know, but it's still awful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，这可是那家伙亲自定下的方针，要我把你刚说的话原样上报么？",
+			say = "The bottom line is, these are our orders. Are you having second thoughts?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "千万别，我可吃不消…",
+			say = "No, absolutely not...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "完工。最后一处可疑坐标也探测完毕了",
+			say = "Okay, I made a final sweep and saved our coordinates.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是时候登门拜访了。就算是迷路的客人，让主人等太久了可不好哦，呵呵呵…",
+			say = "Good. Now then, let's stop pretending like we're lost and head over to them. We don't want to make them wait around too long~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

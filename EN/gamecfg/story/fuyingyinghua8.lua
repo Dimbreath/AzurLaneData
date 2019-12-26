@@ -13,7 +13,7 @@ return {
 			bgm = "nagato-map",
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "居…居然还有这种操作…？！",
+			say = "Oh, riiiight, joke's on me...",
 			action = {
 				{
 					y = 0,
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305140,
-			say = "也是啊…大前辈也能调用{namecode:95}和{namecode:96}的舰载机进行航空战…果然还是比不过大前辈，是我输了…",
+			say = "Your \"we\" and \"us\" were of course referring to Zuikaku's and Shoukaku's support... *Sigh*, I never stood a chance against you, did I? I admit defeat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 0,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好险好险，刚刚好几次都把我逼到危险的位置了。真是后生可谓啊~",
+			say = "Don't be too hard on yourself. You nearly had me for a moment there.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -74,7 +74,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 305140,
-			say = "嘴上说着陷入危机，然后三两下轻松脱困了…大前辈强到犯规了吧！",
+			say = "Perhaps, but you turned the tables on me in the blink of an eye... I see now why how you've earned your reputation...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 305140,
-			say = "（要是能成功预判那次回避的话……不，不行，在那之前我就丧失优势的炮击位置了。）",
+			say = "(I know about her rigging inside out, and I maintained my distance properly... Even excluding the surprise airstrike, I shouldn't have lost this!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "（可恶…到底是哪一步开始出了问题啊！）",
+			say = "(I don't even have any idea of what I did wrong! This person is a monster!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "动摇都写在脸上了哦，{namecode:175}。",
+			say = "Let me guess: you're thinking \"this person is a monster,\" aren't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "咳！我失态了。",
+			say = "Ah, n-no, well, not I don't mean it that way...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说你后生可畏可不是单纯的客套话而已，你的装备更先进，头脑也很灵光。",
+			say = "Good. I was afraid I scared you off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果能拥有和我相同的战斗经验的话，现在我就该是你的手下败将咯~",
+			say = "Even with your liberal use of airstrikes, you attacked me with rational tactics. You didn't simply rely on your perception of having an overwhelming advantage and charge straight at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，时代真是一直在变化啊~更厚的装甲，更强的火炮，还有天上的那些飞机——",
+			say = "Hahah! Nevertheless, I must say these changing times are wonderful. Engines, cannons, and aircraft are all stronger than ever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不得不承认，我已经落后于时代了。",
+			say = "I'm forced to admit that I am very much stuck in the past.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（不愧胸襟也是大前辈级的…普通人能轻易承认自己的落伍么…）",
+			say = "(She can casually admit how old-fashioned she is? Spoken like a true veteran...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正视现实，实事求是可是很重要的哦？",
+			say = "But do not pity me. A soldier cannot do their duty if they ignore the truth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唉…可以的话，我真希望这身战场上磨炼的本领再也不要有用武之地了……",
+			say = "I wish an old-timer such as myself wouldn't need to fight, but the world is blind to age.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是就算想解甲归田，也不能在此时抛下重樱不管…",
+			say = "When the Sakura Empire needs me, I will not stand by and watch. I will do everything necessary to fulfill my obligations to my nation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,20 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "过去的同伴们在离开前曾经托付于我信念——",
+			say = "That is my duty. The duty which my past comrades entrusted me with. The duty I must and will carry out, no matter how the times may change.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 0,
+			dir = 1,
+			say = "Mikasa held her hand before her chest and clenched it into a fist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,35 +320,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重樱若病了，就需要医治。重樱若偏离了道路，就算用强硬的手段也要纠正回来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 0,
-			dir = 1,
-			say = "{namecode:82}一边说着，一边握着手中的项珠",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 305110,
-			side = 0,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "在达成目标之前，就算被时代所抛弃，我也不会停下前进的脚步哦？",
+			say = "I have heard that other factions will participate in the ritual. From my experiences, I am concerned about whether or not these islands will sufficiently protected during the ritual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +336,7 @@ return {
 			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "…我为重樱能有像您一样的大前辈而骄傲!",
+			say = "Of course. I appreciate your thoughtfulness and apologize for any concern caused.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +361,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈哈，走吧，祭典会场的大家还等着我们呢~",
+			say = "Ahahaha! Okay, Zuikaku, Shoukaku. It's time to head onto the main islands!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +376,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（空有力量会陷入迷茫，徒有智谋会误入歧途。）",
+			say = "(The empty pursuit of power leads to ruination, and the empty pursuit of knowledge leads one astray.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +391,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（{namecode:91}，那孩子什么时候才能想明白呢……）",
+			say = "(Akagi, how long will it take you to understand...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

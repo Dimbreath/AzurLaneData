@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "天岩岛近海·清晨",
+			say = "Diadem of Light - Surrounding Waters",
 			side = 2,
 			dir = 1,
 			bgm = "nagato-map",
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜哇！这里就是{namecode:182}大人的居所天岩岛…不输给{namecode:74}大人居城的气派啊！",
+			say = "So this is the Diadem of Light... It gives off a totally different vibe compared to the main islands, or even from Lady Nagato's sanctuary...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "天宇启户祭…原本应该是作为“巫女”的{namecode:74}大人主持的祭典才对，居然被用什么“关心身体”这么敷衍的理由排除在外……",
+			say = "Lady Nagato should be the one conducting the ritual to begin with. I'm astonished that they would exclude her from it due to \"unforseen circumstances.\"",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -58,7 +58,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一航战的“前辈”们，看来背地里做了不少工作啊。",
+			say = "It seems the First Carrier Division has done a lot of work behind the scenes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这么重大的场合，居然想把我们排除在外…{namecode:91}这次又想搞什么把戏？",
+			say = "They might be trying to get rid of us, seeing as they were behind that one Mirror Sea appearance. I can't help but wonder if Akagi and Kaga really ARE working the Sirens...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无妨，不论经历了什么波折，结果来说我们还是受邀按时来到祭典现场了。",
+			say = "It's too early to presume that, Zuikaku. We did make it here without incident, did we not?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没想到“大前辈”的面子还真是吃的开啊…哎嘿嘿，真好啊~我什么时候能变成“大前辈”呢~",
+			say = "Well, you could be right, Mikasa. You're a veteran after all, so you probably have a better feel for these things than I do. One day, I wanna be as renowned as you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "再过个几十年的话，也许就说不定了哦？{namecode:96}大·前·辈♪",
+			say = "Just give it a few more decades and the title will be yours, \"Great Veteran\" Zuikaku~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "停！{namecode:95}姐停！我错了！不要继续说下去了！",
+			say = "Don't call me that! That's super embarrassing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，大清早就这么精神，年轻真好啊。",
+			say = "Ahahahah, it is good that you're so energetic this early in the morning. However, we have a serious topic to discuss.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…在到达天岩岛之前，有一件事，我还是要再强调一遍。",
+			say = "Zuikaku, Shoukaku, there is something I want to confirm with you before we arrive at the islands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "确实，之前{namecode:91}在镜面海域内的行为是不可理解的，甚至伤害了重樱的同伴，伤害了你们。",
+			say = "It is true that the Akagi you met in the Mirror Seas was behaving strangely, and you could interpret her actions as being harmful to us, her fellow compatriots.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是今天请以大局为重，无论如何保持克制。我们现在的立场十分不宜与{namecode:91}她们发生正面冲突。",
+			say = "However, she is now one of the leaders of the Sakura Empire. It would be unwise to do anything that would directly aggravate her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果我的判断不错的话，并不是所有支持{namecode:91}的人都知道她的阴谋。",
+			say = "Unless my assumptions are wrong, only a select few individuals within the Sakura Empire would know of Akagi's actions inside the Sanctuary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们需要等待的是祭典结束之后，与{namecode:182}会面的机会。",
+			say = "And given that the Mirror Seas are Siren creations, we cannot be sure that those you met inside the Mirror Sea – Akatsuki and Yamashiro – were really them or not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要能让{namecode:182}公开{namecode:91}在圣域中与塞壬勾结的事，并且能站在我们一边的话——",
+			say = "...Though admittedly, Shoukaku was real. As were Akagi and Kaga.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:91}将会因为背叛行为在重樱失去立场，其阴谋就自然失败了。",
+			say = "What I'm getting at is, we are participating in the ritual to discover what Akagi's true motive is. If Shinano is truly all-aware, then she would know whether Akagi is colluding with the Sirens, or still stands on our side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也就是来交朋友的对吧~请大前辈放心，我明白~",
+			say = "In other words, we're here to make some new friends! Don't worry, I'm good at that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "社交场也是重要的战场！在皇家，在北方联合，我也参加过数次这种大型聚会了。",
+			say = "You could say that. We will soon learn who really has our backs when it matters. Both on the playing field and the battlefield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次又有铁血的使团远道而来。哎呀，回想起来这种场合一直都是这种复杂的气氛呢…",
+			say = "We've had many chances to do this with the Northern Parliament and the Royal Navy, but now that Iron Blood has gotten involved, I doubt our regular methods will work...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不是以刚力对撞，而是如笛声般缠绵，这次是这样的作战吧~",
+			say = "Indeed. We may have to improvise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，{namecode:95}姐也明白了！",
+			say = "The ritual host should be be here soon, so let's get ready to do this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
