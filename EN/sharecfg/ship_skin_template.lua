@@ -62740,6 +62740,108 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[401020] = {
+		name = "Z2",
+		ship_group = 40102,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "1934型驱逐舰—Z2 格奥尔格·蒂勒",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "z2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 401020,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "z2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 172,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.25,
+					1.47,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.14,
+					1.23,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.24,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[401180] = {
 		name = "Z18",
 		ship_group = 40118,
@@ -90519,6 +90621,9 @@ pg.ship_skin_template = {
 		[40118] = {
 			401180
 		},
+		[40102] = {
+			401020
+		},
 		[40101] = {
 			401010,
 			401011,
@@ -92213,6 +92318,7 @@ pg.ship_skin_template = {
 		401010,
 		401011,
 		401019,
+		401020,
 		401180,
 		401190,
 		401200,

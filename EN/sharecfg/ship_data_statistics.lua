@@ -146251,6 +146251,526 @@ pg.ship_data_statistics = {
 			"Z-Class"
 		}
 	},
+	[401021] = {
+		name = "Z2",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 2,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 401021,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Georg Thiele",
+		skin_id = 401020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			334,
+			16,
+			83,
+			29,
+			0,
+			76,
+			0,
+			64,
+			55,
+			43.2,
+			44,
+			48
+		},
+		attrs_growth = {
+			8140,
+			154,
+			818,
+			564,
+			0,
+			376,
+			0,
+			948,
+			816,
+			0,
+			0,
+			480
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.2,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class"
+		}
+	},
+	[401022] = {
+		name = "Z2",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 3,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 401022,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Georg Thiele",
+		skin_id = 401020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			415,
+			20,
+			103,
+			36,
+			0,
+			76,
+			0,
+			64,
+			55,
+			43.2,
+			44,
+			60
+		},
+		attrs_growth = {
+			8140,
+			154,
+			818,
+			564,
+			0,
+			376,
+			0,
+			948,
+			816,
+			0,
+			0,
+			480
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.25,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class"
+		}
+	},
+	[401023] = {
+		name = "Z2",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 4,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 401023,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Georg Thiele",
+		skin_id = 401020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			578,
+			28,
+			144,
+			50,
+			0,
+			76,
+			0,
+			64,
+			55,
+			43.2,
+			44,
+			84
+		},
+		attrs_growth = {
+			8140,
+			154,
+			818,
+			564,
+			0,
+			376,
+			0,
+			948,
+			816,
+			0,
+			0,
+			480
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class"
+		}
+	},
+	[401024] = {
+		name = "Z2",
+		type = 1,
+		personality = 2,
+		oxy_max = 0,
+		oxy_cost = 0,
+		huntingrange_level = 0,
+		backyard_speed = "0.3",
+		star = 5,
+		oxy_recovery = 0,
+		rarity = 4,
+		ammo = 0,
+		id = 401024,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "KMS Georg Thiele",
+		skin_id = 401020,
+		painting_dir = 1,
+		attack_duration = 0,
+		ignite_accuracy = 0,
+		nationality = 4,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			822,
+			39,
+			206,
+			71,
+			0,
+			76,
+			0,
+			64,
+			55,
+			43.2,
+			44,
+			120
+		},
+		attrs_growth = {
+			8140,
+			154,
+			818,
+			564,
+			0,
+			376,
+			0,
+			948,
+			816,
+			0,
+			0,
+			480
+		},
+		attrs_growth_extra = {
+			7317,
+			364,
+			1169,
+			381,
+			0,
+			892,
+			0,
+			-556,
+			-579,
+			0,
+			0,
+			447
+		},
+		grades = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.4,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Z-Class"
+		}
+	},
 	[401181] = {
 		name = "Z18",
 		type = 1,
@@ -216554,6 +217074,10 @@ pg.ship_data_statistics = {
 		401012,
 		401013,
 		401014,
+		401021,
+		401022,
+		401023,
+		401024,
 		401181,
 		401182,
 		401183,
