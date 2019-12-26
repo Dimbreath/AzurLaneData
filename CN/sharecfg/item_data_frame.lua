@@ -69,7 +69,7 @@ pg.item_data_frame = {
 		time_second = 2592000,
 		id = 301,
 		time_limit_type = 1,
-		desc = "<color=#ffffff>指挥部欢迎您的归来，期待您今后的活跃，指挥官</color>\n有效期30天",
+		desc = "<color=#ffffff>指挥部欢迎您的归来，期待您今后的活跃</color>\n有效期30天",
 		scene = {}
 	},
 	[302] = {
@@ -101,7 +101,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 305,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>通过后续活动获取</color>",
+		desc = "<color=#ffffff>「奉纳信仰，为重樱之未来祈愿光明」</color>\n「浮樱影华」活动获取",
 		scene = {}
 	},
 	[401] = {

@@ -7887,7 +7887,7 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 		}
 	},
 	shop_street_activity_tip = {
-		tip = "*活动期间(<color=#A1E400FF>19.11.27-19.12.10</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>",
+		tip = "*活动期间(<color=#A1E400FF>19.12.26-20.1.8</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>",
 		key = "shop_street_activity_tip"
 	},
 	battle_result_boss_destruct = {
@@ -9088,7 +9088,7 @@ $3]],
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "白上吹雪、湊阿库娅等角色出现概率UP！",
+		tip = "{namecode:175}、{namecode:179}等角色出现概率UP！",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -11398,11 +11398,11 @@ TIPS：
 		key = "tips_summergame_exit"
 	},
 	tips_shrine_buff = {
-		tip = "消耗5物资，获得加成效果:$1",
+		tip = "消耗5物资 获得加成效果 ",
 		key = "tips_shrine_buff"
 	},
 	tips_shrine_nobuff = {
-		tip = "消耗5物资，由于次数耗尽，没有获得任何效果",
+		tip = "消耗5物资\n由于次数耗尽没有获得任何效果",
 		key = "tips_shrine_nobuff"
 	},
 	paint_hide_other_obj_tip = {
@@ -11741,24 +11741,15 @@ TIPS：
 				info = "「JUUs」说明："
 			},
 			{
-				info = "1.活动期间，每隔一段时间「Polaris」角色会发布新的\n动态，通过「徽章收集」获取「JUUs动态」来查看"
-			},
-			{
-				info = "2.拥有的「JUUs动态」越多，可以查看的动态就越多"
-			},
-			{
-				info = "3.「JUUs」可能还会出现其他角色的互动，不要忘记\n查看哦"
+				info = "1.活动期间，每隔一段时间港区角色会发布新的元旦动态"
 			},
 			{
 				info = [[
-4.主界面、Live会场以及「徽章收集」界面均可以进入
-「JUUs」
-5.当有新的信息可以查看时，「JUUs」入口处会有提示
-6.您可以通过点赞、转发、评论操作参与互动
+2.当有新的信息可以查看时，「JUUs」入口处会有提示
+3.您可以通过点赞、转发、评论操作参与互动
 <color=#92fc63>注意：</color>点赞后不可取消点赞，进行评论后经过一段时间
 可以收到回复
-7.「徽章收集」界面会统计「Polaris」角色的热度值，
-在「JUUs」中进行点赞操作来增加她们的热度值吧！]]
+]]
 			}
 		}
 	},
@@ -12059,6 +12050,14 @@ combo达到10/20/40/60/80/100时，分别为每次有效
 		tip = "合成数量：",
 		key = "compose_amount_prefix"
 	},
+	help_sub_limits = {
+		tip = "关闭/显示潜艇范围",
+		key = "help_sub_limits"
+	},
+	help_sub_display = {
+		tip = "自主寻敌/待机模式",
+		key = "help_sub_display"
+	},
 	confirm_unlock_ship_main = {
 		tip = "该舰船已被设为秘书舰，无法选择",
 		key = "confirm_unlock_ship_main"
@@ -12182,6 +12181,109 @@ combo达到10/20/40/60/80/100时，分别为每次有效
 	title_limit_time = {
 		tip = "「限时」",
 		key = "title_limit_time"
+	},
+	seven_choose_one = {
+		tip = "指挥官只能选择一人赠予年贺状，\n是否确认赠予<color=#92fc63>$1</color>？\n赠予后会获得对应角色和回礼",
+		key = "seven_choose_one"
+	},
+	help_newyear_feast = {
+		key = "help_newyear_feast",
+		tip = {
+			{
+				info = [[
+活动期间每日可获得一次可用次数，可用次数最多可以叠
+加7次
+<color=#ff5c5c>1.在有可用次数的情况下参与新年对决小游戏（上吧！新
+年对决）会消耗掉可用次数并获得奖励，打卡次数及祈福
+次数，集齐7次打卡次数可以获得猤限定换装</color>
+2.可用次数可以在右侧看到，打卡进度可以通过点击打卡
+按钮查看
+3.通过可用次数进行游戏还会增加2次神社的祈福次数，
+<color=#ff5c5c>最多可获得14次祈福有效次数</color>，在神社中花费物资消耗祈
+福次数可以获得不同效果
+TIPS：
+1.在没有可用次数的情况下进行新年对决小游戏（上吧！
+新年对决）不会获得奖励、打卡次数及祈福次数
+2.因为其他原因中途退出小游戏不会消耗可用次数，同时
+也不会获得任何奖励]]
+			}
+		}
+	},
+	help_newyear_shrine = {
+		key = "help_newyear_shrine",
+		tip = {
+			{
+				info = [[
+<size=31><color=#92fc63>TIPS：
+在没有祈福有效次数时点击祈福仍然会消耗物资，但是不会
+获得祈福效果</color></size>
+1.消耗可用次数完成新年对决小游戏（上吧！新年对决）
+可以获得祈福有效次数，<color=#ff5c5c>最多可获得14次祈福有效次数</color>
+2.拥有有效次数的情况下点击奉纳绳可以消耗5物资进行
+祈福，祈福可以选择不同效果：
+学业：战术学院技能学习时间略微减少
+事业：主线、困难、作战档案关卡中，我方战斗内造成的
+伤害略微提高
+姻缘：秘书舰好感度提高速度加快以上三种效果持续时间
+为一天
+3.获得学业效果时不会减少正在进行的技能学习时间，学
+业效果消失时不会增加已经被学业效果减少的技能学习时
+间
+4.如果在已经拥有祈福效果的状态下进行祈福，那么新获
+得的祈福效果会覆盖掉之前拥有的祈福效果，且持续时间重
+置
+5.同一时间只能存在一种祈福效果]]
+			}
+		}
+	},
+	help_newyear_stamp = {
+		key = "help_newyear_stamp",
+		tip = {
+			{
+				info = [[
+<color=#92fc63>TIPS：
+1.通过可用次数参与新年对决小游戏（上吧！新年对决）获
+得的打卡次数会显示在打卡手册中
+2.当获得7次打卡次数后点击右侧领取按钮可以获得猤限定换
+装</color>]]
+			}
+		}
+	},
+	pt_reconfirm = {
+		tip = "您是否确认要兑换<color=#ff5c5c>$1</color>?",
+		key = "pt_reconfirm"
+	},
+	qte_game_help = {
+		key = "qte_game_help",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/guinu_help1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/guinu_help2"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	}
 }
 

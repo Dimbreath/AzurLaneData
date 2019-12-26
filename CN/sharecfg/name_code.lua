@@ -889,6 +889,31 @@ pg.name_code = {
 		id = 178,
 		name = "扶桑级量产型",
 		code = "魟级量产型"
+	},
+	{
+		id = 179,
+		name = "龙凤",
+		code = "鸗"
+	},
+	{
+		id = 180,
+		name = "霞",
+		code = "蕸"
+	},
+	{
+		id = 181,
+		name = "鬼怒",
+		code = "猤"
+	},
+	{
+		id = 182,
+		name = "信浓",
+		code = "鵗"
+	},
+	{
+		id = 183,
+		name = "大鲸",
+		code = "迖"
 	}
 }
 

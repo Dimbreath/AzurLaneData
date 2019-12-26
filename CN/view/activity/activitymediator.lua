@@ -302,7 +302,7 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_BB_RESULT then
 		slot0.viewComponent:displayBBResult(slot3.numbers, slot3.callback)
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_LOTTERY_AWARD_RESULT then
-		slot0.viewComponent.showLotteryAwardResult(slot3.awards, slot3.number, slot3.callback)
+		slot0.viewComponent.pageDic[slot3.activityID]:showLotteryAwardResult(slot3.awards, slot3.number, slot3.callback)
 	elseif slot2 == GAME.COLORING_ACHIEVE_DONE then
 		slot0.viewComponent:playBonusAnim(function ()
 			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot1.drops, function ()

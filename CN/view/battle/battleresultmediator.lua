@@ -138,9 +138,9 @@ function slot0.register(slot0)
 				slot3:removeChild(slot3:getContextByMediator(PreCombatMediator))
 			end
 		elseif slot0 == SYSTEM_SCENARIO then
-			slot3 = slot2:getContextByMediator(LevelMediator2)
-
-			slot3:removeChild(slot3:getContextByMediator(ChapterPreCombatMediator))
+			if slot2:getContextByMediator(LevelMediator2):getContextByMediator(ChapterPreCombatMediator) then
+				slot3:removeChild(slot4)
+			end
 
 			if slot1.contextData.score > 1 then
 				slot1:showExtraChapterActSocre()

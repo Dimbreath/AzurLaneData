@@ -28,32 +28,38 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.OnSendMiniGameOPDone(slot0, slot1)
-	slot3 = slot1[2]
+	slot4 = slot1.argList[2]
 
-	if slot1[1] == slot0.miniGameId then
-		if slot3 == 1 then
+	if slot1.argList[1] == slot0.miniGameId then
+		if slot4 == 1 then
 			slot0:updateView()
 			slot0:updateWitchImg()
-		elseif slot3 == 2 then
-			slot4 = getProxy(PlayerProxy):getData()
+		elseif slot4 == 2 then
+			slot5 = getProxy(PlayerProxy):getData()
 
-			slot4:consume({
+			slot5:consume({
 				gold = slot0:GetMGData():getConfig("config_data")[1]
 			})
-			getProxy(PlayerProxy):updatePlayer(slot4)
+			getProxy(PlayerProxy):updatePlayer(slot5)
 
-			slot7 = table.indexof(slot0:GetMGData():getConfig("config_data")[2], slot5, 1)
+			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SHRINE) and not slot6:isEnd() then
+				slot6.data2 = slot6.data2 + 1
 
-			slot0:playAnime(i18n("tips_shrine_buff", slot6), true)
+				getProxy(ActivityProxy):updateActivity(slot6)
+			end
+
+			slot8 = pg.benefit_buff_template[slot2[3]].name
+
+			slot0:playAnime(i18n("tips_shrine_buff"), table.indexof(slot0:GetMGData():getConfig("config_data")[2], slot7, 1))
 			slot0:updateView()
 			slot0:updateWitchImg()
-		elseif slot3 == 3 then
-			slot4 = getProxy(PlayerProxy):getData()
+		elseif slot4 == 3 then
+			slot5 = getProxy(PlayerProxy):getData()
 
-			slot4:consume({
+			slot5:consume({
 				gold = slot0:GetMGData():getConfig("config_data")[1]
 			})
-			getProxy(PlayerProxy):updatePlayer(slot4)
+			getProxy(PlayerProxy):updatePlayer(slot5)
 			slot0:playAnime(i18n("tips_shrine_nobuff"))
 			slot0:updateView()
 			slot0:updateWitchImg()
@@ -162,7 +168,7 @@ function slot0.addListener(slot0)
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.help_summer_shrine.tip
+			helps = pg.gametip.help_newyear_shrine.tip
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.rope, function ()
@@ -202,7 +208,7 @@ function slot0.playAnime(slot0, slot1, slot2)
 
 				slot0.shrineResultView:Reset()
 				slot0.shrineResultView:Load()
-				slot0.shrineResultView:ActionInvoke("updateView", slot0.shrineResultView.ActionInvoke)
+				slot0.shrineResultView:ActionInvoke("updateView", slot0.shrineResultView.ActionInvoke, slot0.shrineResultView)
 				slot0.shrineResultView:ActionInvoke("setCloseFunc", function ()
 					if slot0 then
 						slot1:updateBuff()

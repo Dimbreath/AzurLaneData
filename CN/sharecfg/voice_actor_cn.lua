@@ -851,6 +851,18 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "岩仓梓",
 		code = 213
+	},
+	{
+		actor_name = "矢作纱友里",
+		code = 214
+	},
+	{
+		actor_name = "远藤绫",
+		code = 215
+	},
+	{
+		actor_name = "武田麻里子",
+		code = 216
 	}
 }
 
