@@ -200,7 +200,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是{namecode:82}大前辈……那个…我冒昧的问一句，为什么…能读懂呢？",
+			say = "不愧是{namecode:82}大前辈……那个…我冒昧地问一句，为什么…能读懂呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
