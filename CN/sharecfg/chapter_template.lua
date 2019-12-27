@@ -252412,7 +252412,7 @@ pg.chapter_template = {
 				5,
 				7,
 				true,
-				8
+				0
 			},
 			{
 				5,
@@ -252532,7 +252532,7 @@ pg.chapter_template = {
 				3,
 				5,
 				true,
-				0
+				8
 			},
 			{
 				3,
@@ -252645,7 +252645,7 @@ pg.chapter_template = {
 		group_num = 2,
 		pos_x = "0.23125",
 		activate_time = 0,
-		story_refresh_boss = "",
+		story_refresh_boss = "FUYINGYINGHUA16",
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
@@ -252668,11 +252668,11 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
-		name = "B1",
+		name = "骤雨 ",
 		chapter_name = "B1",
 		type = 1,
 		act_id = 453,
-		enter_story = "",
+		enter_story = "FUYINGYINGHUA14",
 		boss_refresh = 4,
 		event_skip = 0,
 		friendly_id = 0,
@@ -252682,7 +252682,7 @@ pg.chapter_template = {
 		map = 1300002,
 		enter_story_limit = "",
 		star_require_3 = 3,
-		profiles = "敬请期待",
+		profiles = "突袭天岩岛周边的塞壬舰队，随之而来的镜面海域…为了守护仪式，立即迎敌吧！ ",
 		difficulty = 5,
 		avoid_ratio = 10,
 		star_require_2 = 2,
@@ -253227,9 +253227,15 @@ pg.chapter_template = {
 		box_refresh = {
 			0
 		},
-		story_refresh = {},
-		defeat_story = {},
-		defeat_story_count = {},
+		story_refresh = {
+			"FUYINGYINGHUA15"
+		},
+		defeat_story = {
+			"FUYINGYINGHUA18"
+		},
+		defeat_story_count = {
+			4
+		},
 		npc_data = {},
 		activity_random_box = {},
 		risk_levels = {
@@ -253283,11 +253289,11 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
-		name = "B2",
+		name = "飓风过岗 ",
 		chapter_name = "B2",
 		type = 1,
 		act_id = 453,
-		enter_story = "",
+		enter_story = "FUYINGYINGHUA19",
 		boss_refresh = 5,
 		event_skip = 0,
 		friendly_id = 0,
@@ -253297,7 +253303,7 @@ pg.chapter_template = {
 		map = 1300002,
 		enter_story_limit = "",
 		star_require_3 = 3,
-		profiles = "敬请期待",
+		profiles = "来自暗礁海域的求救暗号，{namecode:74}和{namecode:158}深陷塞壬重围。为了救出二人，为了打破祭典背后隐藏的阴谋，新生重樱联合，出击！ ",
 		difficulty = 6,
 		avoid_ratio = 11,
 		star_require_2 = 2,
@@ -253891,8 +253897,12 @@ pg.chapter_template = {
 			0
 		},
 		story_refresh = {},
-		defeat_story = {},
-		defeat_story_count = {},
+		defeat_story = {
+			"FUYINGYINGHUA21"
+		},
+		defeat_story_count = {
+			4
+		},
 		npc_data = {},
 		activity_random_box = {},
 		risk_levels = {
@@ -253923,7 +253933,7 @@ pg.chapter_template = {
 		group_num = 2,
 		pos_x = "0.67109375",
 		activate_time = 0,
-		story_refresh_boss = "",
+		story_refresh_boss = "FUYINGYINGHUA23",
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
@@ -253946,11 +253956,11 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
-		name = "B3",
+		name = "落花归航 ",
 		chapter_name = "B3",
 		type = 1,
 		act_id = 453,
-		enter_story = "",
+		enter_story = "FUYINGYINGHUA22",
 		boss_refresh = 5,
 		event_skip = 0,
 		friendly_id = 0,
@@ -253960,7 +253970,7 @@ pg.chapter_template = {
 		map = 1300002,
 		enter_story_limit = "",
 		star_require_3 = 3,
-		profiles = "敬请期待",
+		profiles = "供奉神石【海若】的仪式逐渐迎来尾声，重樱与铁血，各方势力的博弈也逐渐告一段落…然而—— ",
 		difficulty = 7,
 		avoid_ratio = 12,
 		star_require_2 = 2,
@@ -254513,8 +254523,16 @@ pg.chapter_template = {
 			0
 		},
 		story_refresh = {},
-		defeat_story = {},
-		defeat_story_count = {},
+		defeat_story = {
+			"FUYINGYINGHUA26",
+			"FUYINGYINGHUA27",
+			"FUYINGYINGHUA28"
+		},
+		defeat_story_count = {
+			4,
+			5,
+			7
+		},
 		npc_data = {},
 		activity_random_box = {},
 		risk_levels = {
@@ -256192,7 +256210,7 @@ pg.chapter_template = {
 				5,
 				7,
 				true,
-				8
+				0
 			},
 			{
 				5,
@@ -256312,7 +256330,7 @@ pg.chapter_template = {
 				3,
 				5,
 				true,
-				0
+				8
 			},
 			{
 				3,
@@ -256425,7 +256443,7 @@ pg.chapter_template = {
 		group_num = 2,
 		pos_x = "0.14609375",
 		activate_time = 0,
-		story_refresh_boss = "",
+		story_refresh_boss = "FUYINGYINGHUA16",
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
@@ -256448,11 +256466,11 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
-		name = "D1",
+		name = "骤雨 ",
 		chapter_name = "D1",
 		type = 2,
 		act_id = 453,
-		enter_story = "",
+		enter_story = "FUYINGYINGHUA14",
 		boss_refresh = 5,
 		event_skip = 0,
 		friendly_id = 0,
@@ -256462,7 +256480,7 @@ pg.chapter_template = {
 		map = 1300012,
 		enter_story_limit = "",
 		star_require_3 = 3,
-		profiles = "敬请期待",
+		profiles = "突袭天岩岛周边的塞壬舰队，随之而来的镜面海域…为了守护仪式，立即迎敌吧！ ",
 		difficulty = 8,
 		avoid_ratio = 14,
 		star_require_2 = 2,
@@ -257049,9 +257067,15 @@ pg.chapter_template = {
 		box_refresh = {
 			0
 		},
-		story_refresh = {},
-		defeat_story = {},
-		defeat_story_count = {},
+		story_refresh = {
+			"FUYINGYINGHUA15"
+		},
+		defeat_story = {
+			"FUYINGYINGHUA18"
+		},
+		defeat_story_count = {
+			4
+		},
 		npc_data = {},
 		activity_random_box = {},
 		risk_levels = {
@@ -257105,11 +257129,11 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
-		name = "D2",
+		name = "飓风过岗 ",
 		chapter_name = "D2",
 		type = 2,
 		act_id = 453,
-		enter_story = "",
+		enter_story = "FUYINGYINGHUA19",
 		boss_refresh = 6,
 		event_skip = 0,
 		friendly_id = 0,
@@ -257119,7 +257143,7 @@ pg.chapter_template = {
 		map = 1300012,
 		enter_story_limit = "",
 		star_require_3 = 3,
-		profiles = "敬请期待",
+		profiles = "来自暗礁海域的求救暗号，{namecode:74}和{namecode:158}深陷塞壬重围。为了救出二人，为了打破祭典背后隐藏的阴谋，新生重樱联合，出击！ ",
 		difficulty = 9,
 		avoid_ratio = 15,
 		star_require_2 = 2,
@@ -257757,8 +257781,12 @@ pg.chapter_template = {
 			0
 		},
 		story_refresh = {},
-		defeat_story = {},
-		defeat_story_count = {},
+		defeat_story = {
+			"FUYINGYINGHUA21"
+		},
+		defeat_story_count = {
+			5
+		},
 		npc_data = {},
 		activity_random_box = {},
 		risk_levels = {
@@ -257789,7 +257817,7 @@ pg.chapter_template = {
 		group_num = 2,
 		pos_x = "0.67109375",
 		activate_time = 0,
-		story_refresh_boss = "",
+		story_refresh_boss = "FUYINGYINGHUA23",
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
@@ -257812,11 +257840,11 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
-		name = "D3",
+		name = "落花归航 ",
 		chapter_name = "D3",
 		type = 2,
 		act_id = 453,
-		enter_story = "",
+		enter_story = "FUYINGYINGHUA22",
 		boss_refresh = 6,
 		event_skip = 0,
 		friendly_id = 0,
@@ -257826,7 +257854,7 @@ pg.chapter_template = {
 		map = 1300012,
 		enter_story_limit = "",
 		star_require_3 = 3,
-		profiles = "敬请期待",
+		profiles = "供奉神石【海若】的仪式逐渐迎来尾声，重樱与铁血，各方势力的博弈也逐渐告一段落…然而—— ",
 		difficulty = 10,
 		avoid_ratio = 16,
 		star_require_2 = 2,
@@ -258423,8 +258451,16 @@ pg.chapter_template = {
 			0
 		},
 		story_refresh = {},
-		defeat_story = {},
-		defeat_story_count = {},
+		defeat_story = {
+			"FUYINGYINGHUA26",
+			"FUYINGYINGHUA27",
+			"FUYINGYINGHUA28"
+		},
+		defeat_story_count = {
+			5,
+			6,
+			8
+		},
 		npc_data = {},
 		activity_random_box = {},
 		risk_levels = {
@@ -258478,7 +258514,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		boss_refresh_special = 7,
 		uifx = "",
-		name = "毁灭之舞",
+		name = "浮樱影华",
 		chapter_name = "SP",
 		type = 2,
 		act_id = 453,
@@ -258492,7 +258528,7 @@ pg.chapter_template = {
 		map = 1300025,
 		enter_story_limit = "",
 		star_require_3 = 0,
-		profiles = "划破阴云的月色，充满激情的斗志。在战场上盛开的花朵。堵上自己的一切，与毁灭中起舞吧！ ",
+		profiles = "现世与梦境夹缝中的蝴蝶，狂风与巨浪蹂躏中的小舟。跨越虚无，驱散黑暗，为重樱带来希望和未来吧---------- ",
 		difficulty = 10,
 		avoid_ratio = 16,
 		star_require_2 = 0,
@@ -259166,7 +259202,7 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		boss_refresh_special = 0,
 		uifx = "",
-		name = "浮樱影华",
+		name = "毁灭之舞",
 		chapter_name = "EXTRA",
 		type = 2,
 		act_id = 453,
@@ -259180,7 +259216,7 @@ pg.chapter_template = {
 		map = 1300026,
 		enter_story_limit = "",
 		star_require_3 = 0,
-		profiles = "现世与梦境夹缝中的蝴蝶，狂风与巨浪蹂躏中的小舟。跨越虚无，驱散黑暗，为重樱带来希望和未来吧---------- ",
+		profiles = "划破阴云的月色，充满激情的斗志。在战场上盛开的花朵。堵上自己的一切，与毁灭中起舞吧！ ",
 		difficulty = 10,
 		avoid_ratio = 17,
 		star_require_2 = 0,

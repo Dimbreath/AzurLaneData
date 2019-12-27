@@ -244,7 +244,7 @@ return {
 						101
 					},
 					triggerParams = {
-						id = "FUYINGYINGHUA11"
+						id = "FUYINGYINGHUA24"
 					}
 				},
 				{
@@ -352,7 +352,7 @@ return {
 						205
 					},
 					triggerParams = {
-						id = "FUYINGYINGHUA11"
+						id = "FUYINGYINGHUA25"
 					}
 				}
 			}
