@@ -237,7 +237,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "Next to her is Ryuuhou, a former submarine tender who had been converted into a light carrier. She effortlesly avoided the destroyer, catching the ceremonial items in mid-air.",
+			say = "Next to her is Ryuuhou, a former submarine tender who had been converted into a light carrier. She effortlessly avoided the destroyer, catching the ceremonial items in mid-air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -670,7 +670,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			actorName = "みんな",
+			actorName = "Everyone",
 			say = "Understood!",
 			dialogShake = {
 				speed = 0.09,
