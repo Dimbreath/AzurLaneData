@@ -10534,7 +10534,7 @@ TIPS：
 		}
 	},
 	pt_reconfirm = {
-		tip = "您是否確認鷂兌換<color=#ff5c5c>$1</color>?",
+		tip = "您是否確認要兌換<color=#ff5c5c>$1</color>?",
 		key = "pt_reconfirm"
 	},
 	qte_game_help = {
