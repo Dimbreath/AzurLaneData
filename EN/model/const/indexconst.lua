@@ -191,7 +191,8 @@ slot0.RarityTypes = {
 	slot0.Rarity1,
 	slot0.Rarity2,
 	slot0.Rarity3,
-	slot0.Rarity4
+	slot0.Rarity4,
+	slot0.Rarity5
 }
 slot0.RarityNames = {
 	"index_all",

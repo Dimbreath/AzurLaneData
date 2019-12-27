@@ -11126,6 +11126,30 @@ depends on the amount of damage dealt to the boss.
 		tip = "Goal:",
 		key = "pt_ship_goal"
 	},
+	option_desc1 = {
+		tip = "When toggled ON, displays the custom names that other commanders have given their ships.",
+		key = "option_desc1"
+	},
+	option_desc2 = {
+		tip = "When toggled ON, your device will vibrate after completing a battle in Auto mode.",
+		key = "option_desc2"
+	},
+	option_desc3 = {
+		tip = "When toggled ON, your device will vibrate when obtaining a ship of Elite rarity or higher.",
+		key = "option_desc3"
+	},
+	option_desc4 = {
+		tip = "When toggled OFF, skips the acquisition screen when obtaining a Rare or Common ship already registered in your encyclopedia.",
+		key = "option_desc4"
+	},
+	option_desc5 = {
+		tip = "When toggled ON, displays a tap effect when you tap the screen.",
+		key = "option_desc5"
+	},
+	option_desc6 = {
+		tip = "When toggled ON, the loading display will adapt to your device's aspect ratio.",
+		key = "option_desc6"
+	},
 	skinshop_live2d_fliter_failed = {
 		tip = "No outfits to display under current filter settings ",
 		key = "skinshop_live2d_fliter_failed"

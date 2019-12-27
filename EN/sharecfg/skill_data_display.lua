@@ -1564,6 +1564,34 @@ pg.skill_data_display = {
 		id = 12040,
 		name = "Whimsical Inventor "
 	},
+	[12041] = {
+		id = 12041,
+		name = "Prototype Type-0 Main Gun"
+	},
+	[12042] = {
+		id = 12042,
+		name = "Prototype Torpedo Tube"
+	},
+	[12043] = {
+		id = 12043,
+		name = "Special Pyrotechnics Bomb"
+	},
+	[12044] = {
+		id = 12044,
+		name = "Repulsion Shield"
+	},
+	[12046] = {
+		id = 12046,
+		name = "Projection Barrier"
+	},
+	[12047] = {
+		id = 12047,
+		name = "Portable Repair Kit"
+	},
+	[12048] = {
+		id = 12048,
+		name = "Value Bandages"
+	},
 	[12050] = {
 		id = 12050,
 		name = "Torpedoes: Ready!"
@@ -4000,6 +4028,13 @@ pg.skill_data_display = {
 		11890,
 		11900,
 		12040,
+		12041,
+		12042,
+		12043,
+		12044,
+		12046,
+		12047,
+		12048,
 		12050,
 		12060,
 		12070,

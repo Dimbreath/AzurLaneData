@@ -1676,7 +1676,8 @@ pg.equip_data_template = {
 			8,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -2088,7 +2089,8 @@ pg.equip_data_template = {
 			8,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -2512,7 +2514,8 @@ pg.equip_data_template = {
 			8,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -2936,7 +2939,8 @@ pg.equip_data_template = {
 			9,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -3360,7 +3364,8 @@ pg.equip_data_template = {
 			8,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -3772,7 +3777,8 @@ pg.equip_data_template = {
 			8,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -4185,7 +4191,8 @@ pg.equip_data_template = {
 			10,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -4612,7 +4619,8 @@ pg.equip_data_template = {
 			10,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -5429,7 +5437,8 @@ pg.equip_data_template = {
 			9,
 			10,
 			11,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -5656,7 +5665,8 @@ pg.equip_data_template = {
 			9,
 			10,
 			11,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -6071,7 +6081,8 @@ pg.equip_data_template = {
 			9,
 			10,
 			11,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -8367,7 +8378,8 @@ pg.equip_data_template = {
 			8,
 			9,
 			11,
-			12
+			12,
+			18
 		},
 		trans_use_item = {
 			{
@@ -9517,7 +9529,8 @@ pg.equip_data_template = {
 			8,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -9741,7 +9754,8 @@ pg.equip_data_template = {
 			8,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -10153,7 +10167,8 @@ pg.equip_data_template = {
 			8,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -14721,7 +14736,8 @@ pg.equip_data_template = {
 			8,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -14832,7 +14848,8 @@ pg.equip_data_template = {
 			8,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -15056,7 +15073,8 @@ pg.equip_data_template = {
 			8,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -20765,7 +20783,8 @@ pg.equip_data_template = {
 			10,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -20878,7 +20897,8 @@ pg.equip_data_template = {
 			10,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -21104,7 +21124,8 @@ pg.equip_data_template = {
 			10,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -21518,7 +21539,8 @@ pg.equip_data_template = {
 			10,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -21744,7 +21766,8 @@ pg.equip_data_template = {
 			10,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -22158,7 +22181,8 @@ pg.equip_data_template = {
 			10,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -22585,7 +22609,8 @@ pg.equip_data_template = {
 			10,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -23000,7 +23025,8 @@ pg.equip_data_template = {
 			10,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -23427,7 +23453,8 @@ pg.equip_data_template = {
 			10,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -24689,7 +24716,8 @@ pg.equip_data_template = {
 			10,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -24802,7 +24830,8 @@ pg.equip_data_template = {
 			10,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -24915,7 +24944,8 @@ pg.equip_data_template = {
 			10,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -25141,7 +25171,8 @@ pg.equip_data_template = {
 			10,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -25254,7 +25285,8 @@ pg.equip_data_template = {
 			10,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -25480,7 +25512,8 @@ pg.equip_data_template = {
 			10,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -25894,7 +25927,8 @@ pg.equip_data_template = {
 			10,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -26007,7 +26041,8 @@ pg.equip_data_template = {
 			10,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -26233,7 +26268,8 @@ pg.equip_data_template = {
 			10,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -26647,7 +26683,8 @@ pg.equip_data_template = {
 			10,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -26760,7 +26797,8 @@ pg.equip_data_template = {
 			10,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -26986,7 +27024,8 @@ pg.equip_data_template = {
 			10,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
@@ -34425,7 +34464,8 @@ pg.equip_data_template = {
 			10,
 			11,
 			12,
-			13
+			13,
+			18
 		},
 		trans_use_item = {
 			{
