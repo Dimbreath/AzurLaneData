@@ -237063,7 +237063,7 @@ pg.chapter_template = {
 				5,
 				7,
 				true,
-				8
+				0
 			},
 			{
 				5,
@@ -237183,7 +237183,7 @@ pg.chapter_template = {
 				3,
 				5,
 				true,
-				0
+				8
 			},
 			{
 				3,
@@ -237296,7 +237296,7 @@ pg.chapter_template = {
 		group_num = 2,
 		pos_x = "0.23125",
 		activate_time = 0,
-		story_refresh_boss = "",
+		story_refresh_boss = "FUYINGYINGHUA16",
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
@@ -237319,11 +237319,11 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		boss_refresh_special = 4,
 		uifx = "",
-		name = "年底日系B1",
+		name = "セイレーン襲来",
 		chapter_name = "B1",
 		type = 1,
 		act_id = 453,
-		enter_story = "",
+		enter_story = "FUYINGYINGHUA14",
 		boss_refresh = 4,
 		event_skip = 0,
 		friendly_id = 0,
@@ -237333,7 +237333,7 @@ pg.chapter_template = {
 		map = 1300002,
 		enter_story_limit = "",
 		star_require_3 = 3,
-		profiles = "永恒之城中，全新的剧目正在酝酿。赌上「卡拉布里亚的宝石」，是时候迎接客人的到来了。",
+		profiles = "祭儀の島周辺海域に突如現れたセイレーンの大艦隊。鏡面海域化した海域で敵を迎撃するために、駿河と龍鳳たちが立ち上がる",
 		difficulty = 5,
 		avoid_ratio = 10,
 		star_require_2 = 2,
@@ -237878,9 +237878,15 @@ pg.chapter_template = {
 		box_refresh = {
 			0
 		},
-		story_refresh = {},
-		defeat_story = {},
-		defeat_story_count = {},
+		story_refresh = {
+			"FUYINGYINGHUA15"
+		},
+		defeat_story = {
+			"FUYINGYINGHUA18"
+		},
+		defeat_story_count = {
+			4
+		},
 		npc_data = {},
 		activity_random_box = {},
 		risk_levels = {
@@ -237934,11 +237940,11 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
-		name = "年底日系B2",
+		name = "御狐救出戦",
 		chapter_name = "B2",
 		type = 1,
 		act_id = 453,
-		enter_story = "",
+		enter_story = "FUYINGYINGHUA19",
 		boss_refresh = 5,
 		event_skip = 0,
 		friendly_id = 0,
@@ -237948,7 +237954,7 @@ pg.chapter_template = {
 		map = 1300002,
 		enter_story_limit = "",
 		star_require_3 = 3,
-		profiles = "回到那幽暗而低洼的森林，双脚被潮湿的泥土掩埋。长者的教诲，听听看又何妨？",
+		profiles = "暗礁海域より戦艦・長門からの救難信号を受信した新生連合艦隊。長門を救出し、祭儀の裏で暗躍する影の陰謀を打ち破れ！",
 		difficulty = 6,
 		avoid_ratio = 11,
 		star_require_2 = 2,
@@ -238542,8 +238548,12 @@ pg.chapter_template = {
 			0
 		},
 		story_refresh = {},
-		defeat_story = {},
-		defeat_story_count = {},
+		defeat_story = {
+			"FUYINGYINGHUA21"
+		},
+		defeat_story_count = {
+			4
+		},
 		npc_data = {},
 		activity_random_box = {},
 		risk_levels = {
@@ -238574,7 +238584,7 @@ pg.chapter_template = {
 		group_num = 2,
 		pos_x = "0.67109375",
 		activate_time = 0,
-		story_refresh_boss = "",
+		story_refresh_boss = "FUYINGYINGHUA23",
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
@@ -238597,11 +238607,11 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
-		name = "年底日系B3",
+		name = "翳りし月も満たされよう",
 		chapter_name = "B3",
 		type = 1,
 		act_id = 453,
-		enter_story = "",
+		enter_story = "FUYINGYINGHUA22",
 		boss_refresh = 5,
 		event_skip = 0,
 		friendly_id = 0,
@@ -238611,7 +238621,7 @@ pg.chapter_template = {
 		map = 1300002,
 		enter_story_limit = "",
 		star_require_3 = 3,
-		profiles = "古老的帝国在风雨中摇摆，璀璨的宝石，却依然闪耀着亘古不变的光芒。剧目终将迎来结局。",
+		profiles = "ついに行われた【ワタツミ】の儀式。重桜、鉄血、数々の勢力の思惑が収束し、そして――",
 		difficulty = 7,
 		avoid_ratio = 12,
 		star_require_2 = 2,
@@ -239164,8 +239174,16 @@ pg.chapter_template = {
 			0
 		},
 		story_refresh = {},
-		defeat_story = {},
-		defeat_story_count = {},
+		defeat_story = {
+			"FUYINGYINGHUA26",
+			"FUYINGYINGHUA27",
+			"FUYINGYINGHUA28"
+		},
+		defeat_story_count = {
+			4,
+			5,
+			7
+		},
 		npc_data = {},
 		activity_random_box = {},
 		risk_levels = {
@@ -240843,7 +240861,7 @@ pg.chapter_template = {
 				5,
 				7,
 				true,
-				8
+				0
 			},
 			{
 				5,
@@ -240963,7 +240981,7 @@ pg.chapter_template = {
 				3,
 				5,
 				true,
-				0
+				8
 			},
 			{
 				3,
@@ -241076,7 +241094,7 @@ pg.chapter_template = {
 		group_num = 2,
 		pos_x = "0.14609375",
 		activate_time = 0,
-		story_refresh_boss = "",
+		story_refresh_boss = "FUYINGYINGHUA16",
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
@@ -241099,11 +241117,11 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		boss_refresh_special = 5,
 		uifx = "",
-		name = "年底日系D1",
+		name = "セイレーン襲来",
 		chapter_name = "D1",
 		type = 2,
 		act_id = 453,
-		enter_story = "",
+		enter_story = "FUYINGYINGHUA14",
 		boss_refresh = 5,
 		event_skip = 0,
 		friendly_id = 0,
@@ -241113,7 +241131,7 @@ pg.chapter_template = {
 		map = 1300012,
 		enter_story_limit = "",
 		star_require_3 = 3,
-		profiles = "永恒之城中，全新的剧目正在酝酿。赌上「卡拉布里亚的宝石」，是时候迎接客人的到来了。",
+		profiles = "祭儀の島周辺海域に突如現れたセイレーンの大艦隊。鏡面海域化した海域で敵を迎撃するために、駿河と龍鳳たちが立ち上がる",
 		difficulty = 8,
 		avoid_ratio = 14,
 		star_require_2 = 2,
@@ -241700,9 +241718,15 @@ pg.chapter_template = {
 		box_refresh = {
 			0
 		},
-		story_refresh = {},
-		defeat_story = {},
-		defeat_story_count = {},
+		story_refresh = {
+			"FUYINGYINGHUA15"
+		},
+		defeat_story = {
+			"FUYINGYINGHUA18"
+		},
+		defeat_story_count = {
+			4
+		},
 		npc_data = {},
 		activity_random_box = {},
 		risk_levels = {
@@ -241756,11 +241780,11 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
-		name = "年底日系D2",
+		name = "御狐救出戦",
 		chapter_name = "D2",
 		type = 2,
 		act_id = 453,
-		enter_story = "",
+		enter_story = "FUYINGYINGHUA19",
 		boss_refresh = 6,
 		event_skip = 0,
 		friendly_id = 0,
@@ -241770,7 +241794,7 @@ pg.chapter_template = {
 		map = 1300012,
 		enter_story_limit = "",
 		star_require_3 = 3,
-		profiles = "回到那幽暗而低洼的森林，双脚被潮湿的泥土掩埋。长者的教诲，听听看又何妨？",
+		profiles = "暗礁海域より戦艦・長門からの救難信号を受信した新生連合艦隊。長門を救出し、祭儀の裏で暗躍する影の陰謀を打ち破れ！",
 		difficulty = 9,
 		avoid_ratio = 15,
 		star_require_2 = 2,
@@ -242408,8 +242432,12 @@ pg.chapter_template = {
 			0
 		},
 		story_refresh = {},
-		defeat_story = {},
-		defeat_story_count = {},
+		defeat_story = {
+			"FUYINGYINGHUA21"
+		},
+		defeat_story_count = {
+			5
+		},
 		npc_data = {},
 		activity_random_box = {},
 		risk_levels = {
@@ -242440,7 +242468,7 @@ pg.chapter_template = {
 		group_num = 2,
 		pos_x = "0.67109375",
 		activate_time = 0,
-		story_refresh_boss = "",
+		story_refresh_boss = "FUYINGYINGHUA23",
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
@@ -242463,11 +242491,11 @@ pg.chapter_template = {
 		unlocklevel = 0,
 		boss_refresh_special = 6,
 		uifx = "",
-		name = "年底日系D3",
+		name = "翳りし月も満たされよう",
 		chapter_name = "D3",
 		type = 2,
 		act_id = 453,
-		enter_story = "",
+		enter_story = "FUYINGYINGHUA22",
 		boss_refresh = 6,
 		event_skip = 0,
 		friendly_id = 0,
@@ -242477,7 +242505,7 @@ pg.chapter_template = {
 		map = 1300012,
 		enter_story_limit = "",
 		star_require_3 = 3,
-		profiles = "古老的帝国在风雨中摇摆，璀璨的宝石，却依然闪耀着亘古不变的光芒。剧目终将迎来结局。",
+		profiles = "ついに行われた【ワタツミ】の儀式。重桜、鉄血、数々の勢力の思惑が収束し、そして――",
 		difficulty = 10,
 		avoid_ratio = 16,
 		star_require_2 = 2,
@@ -243074,8 +243102,16 @@ pg.chapter_template = {
 			0
 		},
 		story_refresh = {},
-		defeat_story = {},
-		defeat_story_count = {},
+		defeat_story = {
+			"FUYINGYINGHUA26",
+			"FUYINGYINGHUA27",
+			"FUYINGYINGHUA28"
+		},
+		defeat_story_count = {
+			5,
+			6,
+			8
+		},
 		npc_data = {},
 		activity_random_box = {},
 		risk_levels = {

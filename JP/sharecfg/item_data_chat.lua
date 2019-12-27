@@ -29,7 +29,7 @@ pg.item_data_chat = {
 		time_second = 2592000,
 		id = 300,
 		time_limit_type = 1,
-		desc = "カムバックミッションの累計Pt入手数報酬で<color=#A7A7AAFF>開放可能（30日限定）</color>",
+		desc = "カムバックミッションの累計Pt入手数報酬で\n<color=#A7A7AAFF>開放可能（30日限定）</color>",
 		scene = {}
 	},
 	[301] = {
@@ -37,7 +37,7 @@ pg.item_data_chat = {
 		time_second = 2592000,
 		id = 301,
 		time_limit_type = 1,
-		desc = "カムバックミッションで<color=#A7A7AAFF>開放可能（30日限定）</color>",
+		desc = "カムバックミッションで\n<color=#A7A7AAFF>開放可能（30日限定）</color>",
 		scene = {}
 	},
 	all = {

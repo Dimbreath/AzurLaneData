@@ -5,7 +5,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 0,
 		time_limit_type = 0,
-		desc = "デフォルトのフレーム。秘書艦がケッコン済み艦船\nの場合は「ケッコン」仕様になります",
+		desc = "<color=#ffffff>デフォルトのフレーム。</color>\n秘書艦がケッコン済み艦船の場合は「ケッコン」仕様になります",
 		scene = {}
 	},
 	[101] = {
@@ -61,7 +61,7 @@ pg.item_data_frame = {
 		time_second = 2592000,
 		id = 300,
 		time_limit_type = 1,
-		desc = "<color=#ffffff>カムバックミッションの累計Pt入手数報酬で開放可能（30日限定）</color>",
+		desc = "<color=#ffffff>カムバックミッションの累計Pt入手数報酬で\n</color>開放可能（30日限定）",
 		scene = {}
 	},
 	[301] = {
@@ -69,7 +69,7 @@ pg.item_data_frame = {
 		time_second = 2592000,
 		id = 301,
 		time_limit_type = 1,
-		desc = "<color=#ffffff>カムバックミッションで開放可能（30日限定）</color>",
+		desc = "<color=#ffffff>カムバックミッションで\n</color>開放可能（30日限定）",
 		scene = {}
 	},
 	[302] = {

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"あけおめ2019\n\n<size=45>二 寝正月</size>",
+					"あけおめ2020\n\n<size=45>二 寝正月</size>",
 					1
 				}
 			}

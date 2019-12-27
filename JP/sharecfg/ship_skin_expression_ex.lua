@@ -274,7 +274,7 @@ pg.ship_skin_expression_ex = {
 			}
 		}
 	},
-	龙凤 = {
+	longfeng = {
 		touch = "",
 		feeling3 = "",
 		main_1 = "",
@@ -283,7 +283,7 @@ pg.ship_skin_expression_ex = {
 		home = "",
 		touch2 = "",
 		feeling1 = "",
-		painting = "龙凤",
+		painting = "longfeng",
 		upgrade = "",
 		lose = "",
 		feeling4 = "",
