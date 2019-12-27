@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"あけおめ2019\n\n<size=45>四 お正月特訓？</size>",
+					"あけおめ2020\n\n<size=45>四 お正月特訓？</size>",
 					1
 				}
 			}
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "木刀がぶつかる音が学園の剣道部室にしばらく響き続けた。",
+			say = "木刀がぶつかる音がしばらく響き続けた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

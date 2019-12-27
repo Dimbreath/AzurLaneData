@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"あけおめ2019\n\n<size=45>五 あけおめ！</size>",
+					"あけおめ2020\n\n<size=45>五 あけおめ！</size>",
 					1
 				}
 			}
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			actor = 306071,
 			nameColor = "#a9f548",
-			say = "では案内いたします。甘酒のほうも用意しておりますので、体を温めてくださいませ",
+			say = "では案内いたします。甘酒も用意しておりますので、体を温めてくださいませ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			actor = 301101,
 			nameColor = "#a9f548",
-			say = "響きも！",
+			say = "響も！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			actor = 207023,
 			nameColor = "#a9f548",
-			say = "ユニコーンには心配かけた。かたじけない",
+			say = "ユニコーンには心配かけた。すまないな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
