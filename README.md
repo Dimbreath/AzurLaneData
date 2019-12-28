@@ -6,4 +6,4 @@ Updates should be pushed here within a few minutes. If it missed an update pleas
 
 For any issues with the repository itself (i.e. it missed an update or it stopped updating a client (most likely they changed the encryption method on that server to the one Japan client is using) let me known on Dimbreath#0424.
 
-~~Imagine thinking I use Chinese tools to do this when Chinese tools don't even work with Japanese client. PepeLaugh. Imagine thinking game traffic is only plaintext. PepeLaugh.~~
+~~Imagine thinking I use Chinese tools to do this when Chinese tools don't even work with Japanese client. PepeLaugh.~~
