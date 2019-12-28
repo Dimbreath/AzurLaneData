@@ -12,7 +12,7 @@ return {
 			bgm = "xinnong-2",
 			actor = 302210,
 			nameColor = "#a9f548",
-			say = "斩------！",
+			say = "Take THIS!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 302210,
-			say = "漆黑的船壳，不祥的光芒，这就是塞壬……",
+			say = "Suruga, are you hanging in there? This is your first battle with Sirens, isn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305140,
-			say = "（虽然模拟战斗了无数次，亲眼见到之后，压迫力完全不是一个等级啊——！！）",
+			say = "(I've fought against them countless times in simulations, but those were nowhere near as persistent as these things are!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 306070,
-			say = "真是的…！击沉了一艘又会有无数艘填进来，塞壬的舰队是无穷无尽的么？！",
+			say = "Agh...! There's no end to them! We sink one, and two take its place!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "（没想到第一次实战机会是出现在这种情况下！！果然当初就不该接下这祭典代行者的任务啊！）",
+			say = "(Just my luck! It's my first real battle, and I'm struggling to keep up! I should've never signed up for this thing!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			actorName = "{namecode:179}",
-			say = "在后方平和的环境中待久了，总会让人产生一丝和平时代的错觉…",
+			say = "The Sirens haven't attacked the main islands for a long time, so I haven't had much experience with them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			actorName = "{namecode:179}",
-			say = "塞壬的威胁其实一刻都没有消失！",
+			say = "But now I know just how menacing they are...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			actorName = "{namecode:179}",
-			say = "诸位，难得的实战机会，尽情的展示所学，尽情的战斗吧！",
+			say = "Everyone! We need to hold this position and fight with everything we have!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

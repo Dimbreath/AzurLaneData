@@ -15,7 +15,7 @@ return {
 			bgm = "battle-boss-4",
 			actor = 303110,
 			nameColor = "#a9f548",
-			say = "“第六战队、第三水雷战队！！从右翼包夹目标！！”",
+			say = "“They're wrapping around us! Hold them off at all costs!”",
 			effects = {
 				{
 					active = true,
@@ -36,7 +36,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "吼———————",
+			say = "There was something odd about her recollections.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "震耳欲聋的嘶吼声撕裂了夜空",
+			say = "Their bodies were different. Their thoughts and their actions and their movements were different. They looked like humans, but they could not be further from the wisdom of humanity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			blackBg = true,
 			actor = 302130,
 			paingtingGray = true,
-			say = "第二水雷战队崩坏…无法形成包围网，要失手了！！！",
+			say = "Takao, let's retreat! We've been totally routed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			blackBg = true,
 			actor = 303110,
 			paingtingGray = true,
-			say = "坚持住，只要坚持到第一战队的支援到来就...",
+			say = "Hold on a little longer! Reinforcements will arrive soon!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "吼————",
+			say = "Even the strongest weapon, without the \"guidance\" and \"wisdom\" of mankind, would be nothing more than a tool of indiscriminate destruction.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "巨兽再次咆哮，海面开始晃动起来",
+			say = "Faced with the might of advanced weaponry as well as the violent forces of nature, the helpless girls could do nothing but retreat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,13 +133,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			actorName = "？？？",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
 			actor = 301140,
-			actorName = "？？？",
-			say = "快看，远方的海平线，出现了一道白色城墙！",
+			paingtingGray = true,
+			say = "What's what over there?! Some kind of wall?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +168,7 @@ return {
 			blackBg = true,
 			actor = 303110,
 			paingtingGray = true,
-			say = "等等……",
+			say = "Hold on!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +186,7 @@ return {
 			blackBg = true,
 			actor = 303110,
 			paingtingGray = true,
-			say = "这难道是…",
+			say = "Th-this is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +204,7 @@ return {
 			blackBg = true,
 			actor = 303110,
 			paingtingGray = true,
-			say = "浪？",
+			say = "Is this... Watatsumi...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +222,7 @@ return {
 			stopbgm = true,
 			actor = 900192,
 			nameColor = "#a9f548",
-			say = "…………",
+			say = "...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -261,7 +262,7 @@ return {
 			blackBg = true,
 			actor = 900192,
 			actorName = "？？？",
-			say = "不能…再次重蹈覆辙",
+			say = "Accursed Sirens...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +278,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			bgm = "main-newyear",
-			say = "祭典仪式厅·子时",
+			say = "Diadem of Light - Ceremonial Hall",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -308,7 +309,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "辉煌的仪式厅设计成一个中空的露天结构，入口的参道上设置了手水舍",
+			say = "Watatsumi, one of the sacred artifacts of the Sakura Empire, was brought out before one of the ceremonial halls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +323,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "露天结构中央的神台上供奉着一块不太起眼的海蓝色石头",
+			say = "On the surface, there was nothing about this stone's appearance that appeared \"sacred.\" It was a simple stone, navy-blue in color.",
 			effects = {
 				{
 					active = true,
@@ -342,7 +343,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "这块石头被结绳所缠绕着，月光洒在上面，似乎一个符文正发出淡淡的荧光",
+			say = "Faintly it glowed, bathed in the light of the moon pouring through the window.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +357,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "众人经过漫长的参道，终于来到此处——",
+			say = "Then, the silence was broken...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +374,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "那么，由于{namecode:179}大人一行尚未归来，现在就由在下作为代行祭祀主持本次天宇启户祭的祈愿环节~",
+			say = "Now then, this ceremony shall now commence upon Akagi's orders on behalf of Ryuuhou, who is unable to join us tonight.",
 			effects = {
 				{
 					active = false,
@@ -396,7 +397,7 @@ return {
 			blackBg = true,
 			actor = 301100,
 			nameColor = "#a9f548",
-			say = "请代巫女{namecode:79}殿下上前——",
+			say = "This is just a rehearsal, Yamashiro! Come on, you're up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +413,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "呵~这就是重樱的护国宝器——神石【海若】吗？传说中拥有海神力量的神石~",
+			say = "W-woah... this is the sacred artifact said to harbor the power of a sea god? Hmm, looks rather ordinary though...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +429,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "明明从外形上来看就是个普通的石头呀",
+			say = "Um, everyone, please watch me conduct the ritual!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,8 +444,8 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actorName = "众人",
-			say = "“向神明展现勇武，向神明纳奉才智，向神明给予信仰”",
+			actorName = "Everyone",
+			say = "\"Lift your voices in praise of Watatsumi. Show your courage, and admire its wisdom.\"",
 			effects = {
 				{
 					active = true,
@@ -461,12 +462,12 @@ return {
 			}
 		},
 		{
-			actorName = "众人",
+			actorName = "Everyone",
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "“愿神明指引重樱找到光明之路”",
+			say = "\"Sing its praises so that it may guide us to the path of light.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,12 +478,12 @@ return {
 			}
 		},
 		{
-			actorName = "众人",
+			actorName = "Everyone",
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "“愿神明庇佑重樱驱灾避祸，祥瑞永存”",
+			say = "\"May our lands be forever blessed to stave away calamity.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +499,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			soundeffect = "event:/ui/kuang",
-			say = "哐——",
+			say = "ZAP!!",
 			flashN = {
 				color = {
 					1,
@@ -532,7 +533,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:79}正要伸手去触碰神石，却被一股无形的力量弹开了",
+			say = "As Yamashiro reached out to touch Watatsumi, she was repelled, as if pushed away by an unseen force.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +550,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "额…这是什么状况？？",
+			say = "H-huh?",
 			effects = {
 				{
 					active = false,
@@ -571,7 +572,7 @@ return {
 			bgm = "story-7",
 			actor = 305050,
 			nameColor = "#a9f548",
-			say = "大家小心！快阻止她！！",
+			say = "Cease this ceremony this instant! Step away from that stone!",
 			action = {
 				{
 					y = 30,
@@ -594,7 +595,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "顺着声音的来源，大伙一起转头望向入口，是{namecode:74}与{namecode:96}一行冲进了仪式厅",
+			say = "Nagato and Zuikaku rushed into the hall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +610,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:74}，终于来了啊~",
+			say = "Nagato! You're safe!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,7 +625,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…啧",
+			say = "*tsk*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,7 +640,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "神石会拒绝重樱以外的人接触，汝究竟是何人！？！",
+			say = "That stone is enchanted to repel everything except for those from the Sakura Empire! What are you?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +653,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "{namecode:74}一说完，{namecode:82}、{namecode:96}、{namecode:158}等人立刻拔出了武器对准{namecode:79}的背影",
+			say = "Following Nagato's lead, the other ships at the hall sprung to their feet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -667,7 +668,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，居然没想到还有这样一出呢~失算了",
+			say = "Eh? Ehhhhhh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -680,7 +681,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "{namecode:79}说完，背后的尾巴逐渐开始变化成多根触手…",
+			say = "As if reality itself was peeling away, a figure - neither Iron Blood nor Sakura Empire - stepped forward from behind Yamashiro.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -695,8 +696,8 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "观察者",
-			say = "哎呀呀…亏我还对这次的演技很有自信的，居然在这里出现了计算偏差",
+			actorName = "Observer",
+			say = "I was pretty confident about my disguise too. How unfortunate that it was seen through so easily~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -707,10 +708,10 @@ return {
 			}
 		},
 		{
-			actorName = "众人",
+			actorName = "Everyone",
 			side = 2,
 			dir = 1,
-			say = "塞壬！！",
+			say = "Siren!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -725,7 +726,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "又是伪装术吗，真是卑鄙的手段呢",
+			say = "Did you sneak in like this? How cowardly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -740,8 +741,8 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "观察者",
-			say = "在暗礁区埋伏的战斗终端居然没办法拦下你们吗？",
+			actorName = "Observer",
+			say = "Oh my, looks like my forces couldn't finish the job out there?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,8 +757,8 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "观察者",
-			say = "都怪那家伙，消耗了太多预备品搞得可分配的部队被削减了…",
+			actorName = "Observer",
+			say = "What a pity... if that \"Ember\" girl hadn't gotten in my way, none of you would even be here right now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -772,7 +773,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从{namecode:175}那听说了预备方案的事情以后，吾就感觉到背后一定有什么阴谋了…汝等究竟想对吾等护国宝器做什么？",
+			say = "What do you plan to do with Watatsumi?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -787,8 +788,8 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "观察者",
-			say = "那当然是——",
+			actorName = "Observer",
+			say = "Hehehe, who knows...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -803,7 +804,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:74}大人小心！！",
+			say = "Lady Nagato, watch out...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -815,7 +816,7 @@ return {
 		},
 		{
 			side = 2,
-			say = "一发炮弹精确的落在了观察者头上，炸毁了仪式厅的大部分木结构建筑",
+			say = "Before Observer had a chance to move, the roof of the ceremonial hall was ripped open by an explosion.",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -862,7 +863,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "整个大厅完全被烟雾所覆盖，完全看不清周围的状况",
+			say = "Under the force of the blast, the wood and concrete of the ceiling sheared away, leaving the hall half-open.",
 			effects = {
 				{
 					active = true,
@@ -881,7 +882,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "在烟雾中，{namecode:158}、{namecode:82}、{namecode:96}等人不约而同地护住了{namecode:74}的身躯",
+			say = "Fortunately, nobody was injured by falling debris.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -896,8 +897,8 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900012,
-			actorName = "观察者",
-			say = "这个威力的炮弹，嘴上说着不关心，但最后还是来了啊——呵呵呵",
+			actorName = "Observer",
+			say = "I knew you'd come, \"Ember.\" Hehehe... See, I knew there was a lot for us to talk about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -919,7 +920,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "说完，观察者便化身为与周围环境一样的颜色，隐身般的消失在了烟雾之中",
+			say = "As quickly as she entered, Observer seemed to melt into the environment and disappeared.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -934,7 +935,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别想跑！",
+			say = "Showing up and disappearing like ghosts... are there any other Sirens?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -947,7 +948,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "{namecode:82}朝观察者离去的方向开了一炮，却没有打中",
+			say = "Despite the sense of panic, everyone at the scene scanned their surroundings, preparing for further threats.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -963,7 +964,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 301810,
-			say = "{namecode:82}大人，不…不好了，一个无法识别的舰船快速突破了我们的外防线...正向你们驶去",
+			say = "I'm sorry, Mikasa. I let an enemy slip through the line...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -979,7 +980,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 301810,
-			say = "对不起…我…我们拦不住她…",
+			say = "Sorry... I didn't do my job...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -994,7 +995,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系，迄今为止你们已经做得够多了，祭典的后半段，就交给我们吧——",
+			say = "Don't worry about it. Keep maintaining your guard around the island. Even if the elite Sirens are able to slip through, at least the mass-produced models won't be able to get through.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1009,7 +1010,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "全员注意，有未知的敌人突破防线进入了本岛~请以大局为重，优先击退来犯之敌才是！",
+			say = "(That \"Ember\" person that she mentioned... was she the one who attacked us...?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1025,7 +1026,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 301100,
-			say = "可是...如果过了子时，祭典仪式可能就要失败了",
+			say = "Um, excuse me! What should Hibiki do...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1040,7 +1041,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诸位大人，就让我和{namecode:95}姐去会会这位不速之客，你们请在此继续重要的仪式",
+			say = "Stay here and protect Nagato and Watatsumi. Shoukaku and I will go intercept the attacking enemies!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1055,7 +1056,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拜托你们了！",
+			say = "Leave it to me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

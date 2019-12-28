@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "数日后·天岩岛",
+			say = "Diadem of Light - A few days later",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "庭院中央，{namecode:96}、{namecode:158}、{namecode:50}、{namecode:181}正在互相交流剑法",
+			say = "After the conclusion of the ceremony, a special gathering was held for those who fought bravely against the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,7 +36,7 @@ return {
 			}
 		},
 		{
-			say = "竹剑之间不断地发出碰撞的打击声",
+			say = "Mikasa also forced(?) Nagato to attend.",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "{namecode:82}大人，早！又在看着她们修行啊~",
+			say = "Lady Mikasa! Thank you for taking the time to make the journey all the way out here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			say = "是啊，这次事件虽然对我们来说损失惨重，甚至还让那个神秘人给逃脱了...",
+			say = "Indeed. I also squared off against that \"Ember\" character! Ahaha!",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是这事也让这群孩子直视到了差距，激起了不少斗志，也算是种因祸得福了吧…哈哈",
+			say = "However, now that we know that there are stronger enemies out there than the Sirens, we will have to train harder than ever before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			}
 		},
 		{
-			say = "哐—— 哐——",
+			say = "——！！",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呃…不愧是传说中的重樱第一高手，剑法凌厉，在下甘拜下风",
+			say = "That \"Takao\"... had such terrifying strength, even without the use of rigging...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			say = "承让了，不过那什么重樱第一高手的称号还是算了吧，在面对神秘人的时候我这剑法根本扛不下几招",
+			say = "Yeah... Shoukaku and I together couldn't even hold her back. I would not want to fight her alone.",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "除此之外，海对面还有灰色幽灵、蓝色幽灵之类的家伙存在…这个世界，真是太太太有趣了！",
+			say = "We have Grey Ghosts, Blue Ghosts, and now this... Crazy strong folks just keep popping up one after another! Ahahaha!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "大家修行辛苦了，来吃点点心吧~",
+			say = "Zuikaku, I've finished cooking~ Everyone, let's all go eat~",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "{namecode:95}提着一篮海军馒头从里屋走了出来，刚才还在修行的人们一下子就围了上去——",
+			say = "The venue was livelier than ever as the delicious aroma of tempura and traditional pastries mingled with the sounds of merriment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:95}姐~前几天是我修行不足才让你又受伤了的，对不起！",
+			say = "I'm sorry, Shoukaku! My skills... they're still lacking...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:96}向{namecode:95}摆出深深的鞠躬道歉状",
+			say = "Zuikaku apologized, thinking back to when she was almost cut by \"Ember.\"",
 			side = 1,
 			bgName = "bg_xinnong_cg1",
 			withoutActorName = true,
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "啊啦啦，这不怪{namecode:96}哦，毕竟是对手太强了嘛，你倒是应该要感谢对方没有对我们下死手哦",
+			say = "It's not your fault, Zuikaku. None of us could have stood against someone that strong. Rather, I'm just thankful that you're alive.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "而且，受伤什么的~人家早就习惯了嘛呵呵呵~",
+			say = "Besides, I like being able to nurse you back to health~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜——确实是我的不足才…",
+			say = "Shoukaku...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "身为姐姐哦，只要看到妹妹能够那么正直、那么努力便心满意足了~",
+			say = "Hehe, as your big sister, seeing you try your hardest fills my heart with pride~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "迟早有一天，你也要为了自己而努力活着...",
+			say = "That's why, for your sake, I'll continue to live on as well, Zuikaku~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "{namecode:95}姐，不要立这种Flag啊！！",
+			say = "Shoukaku, don't plant your own death flag!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-newyear",
-			say = "{namecode:158}看了一眼坐在玄关边上喝着麦茶的{namecode:74}",
+			say = "Meanwhile, two figures were sitting on the other side of the venue.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -474,7 +474,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:74}大人，我也…",
+			say = "Lady Nagato, there are no words that can express my remorse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在下因为修行不足让您两次受惊了！",
+			say = "Not only did I expose you to danger, but I also could not protect you at a crucial moment...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			dir = 1,
 			actor = 301490,
 			nameColor = "#a9f548",
-			say = "在下自知将来无法胜任侍卫这一职责，希望请辞，望{namecode:74}大人——",
+			say = "I have lost my qualifications to serve as your escort, Lady Nagato...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "{namecode:158}向{namecode:74}行了跪礼，用尽力气说道",
+			say = "Kawakaze bowed her head until she could only see the ground.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可以哦",
+			say = "You have not.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果能找到比{namecode:158}更忠心、更勇敢、更了解我的侍卫的话，可以哦",
+			say = "If you do not have the qualifications to be an escort, then the Royal Knights, as well as Iris's Chevaliers, would have to disband.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶？…",
+			say = "Lady Nagato...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是，这样的侍卫这个世界上也许再也找不到了，所以…",
+			say = "In other words, there is nobody I would rather have as an escort than you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			dir = 1,
 			actor = 305050,
 			nameColor = "#a9f548",
-			say = "驳回你的请辞！",
+			say = "Therefore, please continue your efforts as my escort!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,7 +651,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜——",
+			say = "...Yes, Lady Nagato!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,7 +665,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "{namecode:158}默默低下头，擦了下眼角的泪水，不想让人看见",
+			say = "Though such words may not be particularly encouraging or comforting to some, to Kawakaze, those few words were the greatest compliment she could receive.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			dir = 1,
 			actor = 301490,
 			nameColor = "#a9f548",
-			say = "在下…在下定会精进武艺，不辜负{namecode:74}大人的期待的！",
+			say = "I will do my best to meet your expectations, Lady Nagato!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,10 +702,9 @@ return {
 			}
 		},
 		{
-			say = "{namecode:74}笑着摸了摸{namecode:158}的头顶~",
+			say = "...Good, now stand straight.",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			withoutActorName = true,
 			dir = 1,
 			actor = 305050,
 			nameColor = "#a9f548",
@@ -739,7 +738,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "哇…这样的气氛…一下子变得好厉害啊",
+			say = "I suppose this concludes another chapter of our lives.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -772,7 +771,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			nameColor = "#a9f548",
-			say = "啊哈哈哈，这就是青春的气息啊~真好啊真好",
+			say = "Guess so. Hard to believe so much happened in such a short period of time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -798,7 +797,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不知不觉也让我想到了以前并肩作战的姐妹们了…呵呵呵",
+			say = "Hmm, I wonder if fighting the Sirens back in ancient times was also like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -814,7 +813,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "...Sorry, I'm just getting sentimental.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -831,7 +830,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "神秘人的事暂且不说，在神石找回来之前，天宇启户祭看来暂时是得停办了",
+			say = "But, without Watatsumi, it won't be possible for us to hold the Dawning Ceremony...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -848,7 +847,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "有一点我一直想不明白，神石究竟是在什么时候被调包了",
+			say = "I just don't get it. Who did this, and when? Why would they take something so important to us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -864,7 +863,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在现场的人里，塞壬由于没有重樱的血脉无法触碰神石，除了我们之外，就只有{namecode:91}一行了吧",
+			say = "According to Nagato, that stone can only be touched by someone from the Sakura Empire. If that's the case, then everyone at the ceremonial hall that day is a suspect.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -880,7 +879,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "估计就是在神秘人朝观察者开炮后产生烟雾混乱的时候被她们给调包了…",
+			say = "Mm, if you ask me, I'd say that it was Akagi or Kaga who did it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -896,7 +895,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来神秘人这次也是被塞壬给利用了啊",
+			say = "......But, you know, that would be hard to prove.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -913,7 +912,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "！！{namecode:91}大人？可是…为什么不在现场揭穿她？",
+			say = "Akagi, and Kaga...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -939,7 +938,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "神秘人的目的是摧毁神石，如果当场揭穿的话，以{namecode:91}这孩子的性格，也许真的会以命相护的吧",
+			say = "That's right. Of course, I have no hard proof, but they've been acting strangely ever since the formation of the Reborn Combined Fleet. Would you happen to know anything about it, Ryuuhou?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -956,7 +955,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "{namecode:82}大人居然想到了这个份上…真是令在下敬佩",
+			say = "Now that I think about it, Akagi and Kaga were the first ones to leave the island when they went to send off the Iron Blood guests. But after that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -983,7 +982,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "原来如此，怪不得神秘人一走，{namecode:91}她们就立刻急着离开",
+			say = "Hibiki... Well, I just can't see a girl like her doing something like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -999,7 +998,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:91}这孩子，目的很单纯，只不过就是用错了手段，希望她能有迷途知返的一天吧…",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1016,7 +1015,7 @@ return {
 			dir = 1,
 			actor = 301810,
 			nameColor = "#a9f548",
-			say = "啊啊啊！！",
+			say = "Ah, um...",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -1048,7 +1047,7 @@ return {
 			dir = 1,
 			actor = 302210,
 			nameColor = "#a9f548",
-			say = "{namecode:180}..怎么了？突然从楼梯上大惊小叫地跑下来？",
+			say = "Kasumi, what's the matter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1075,7 +1074,7 @@ return {
 			dir = 1,
 			actor = 301810,
 			nameColor = "#a9f548",
-			say = "{namecode:182}...{namecode:182}..{namecode:182}大人…",
+			say = "Just now... um...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1102,7 +1101,7 @@ return {
 			dir = 1,
 			actor = 301810,
 			nameColor = "#a9f548",
-			say = "醒来了！！",
+			say = "Lady Shinano seems to have woken up?",
 			effects = {
 				{
 					active = true,
@@ -1119,56 +1118,94 @@ return {
 			}
 		},
 		{
-			mode = 1,
-			stopbgm = true,
+			expression = 2,
+			side = 2,
+			dir = 1,
+			actor = 305140,
+			bgName = "bg_xinnong_cg1",
+			nameColor = "#a9f548",
+			say = "Great, I managed to make it to the end without drawing too much attention to myself!",
 			effects = {
 				{
 					active = false,
 					name = "speed"
 				}
 			},
-			sequence = {
-				{
-					"<size=51>花虽芬芳终须落</size>",
+			flashout = {
+				dur = 0.5,
+				black = true,
+				alpha = {
+					0,
 					1
-				},
-				{
-					"<size=51>人生无常岂奈何</size>",
-					3
-				},
-				{
-					"<size=51>俗世凡尘今朝脱</size>",
-					5
-				},
-				{
-					"<size=51>不恋醉梦免蹉跎</size>",
-					7
 				}
+			},
+			flashin = {
+				delay = 0.5,
+				dur = 0.5,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		},
 		{
-			mode = 1,
-			stopbgm = true,
-			blackBg = true,
-			effects = {
-				{
-					active = true,
-					name = "logo_sakura"
-				}
+			expression = 2,
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			actor = 305140,
+			nameColor = "#a9f548",
+			say = "By the way, why did you choose Shinano to host the ceremony? Was it because of her overwhelming power? Even so, there was no way she was going to be ready in time.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
 			},
-			sequence = {
-				{
-					"",
-					2
-				}
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			actor = 305140,
+			nameColor = "#a9f548",
+			say = "Nagato then rushed over anyway after hearing that. Could it be that someone knew that all of this would happen from the very beginning?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
 			},
-			signDate = {
-				"————终",
-				3,
-				{
-					900,
-					-400
-				}
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			actor = 305140,
+			nameColor = "#a9f548",
+			say = "Well, in the end, these rituals are out of my area of expertise! Let's just take it easy and not dive too deeply into these things~ Phew...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		}
 	}

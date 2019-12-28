@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "天岩岛本岛·子时",
+			say = "Diadem of Light",
 			side = 2,
 			dir = 1,
 			bgm = "xinnong-2",
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来{namecode:74}大人似乎是在路上迷路了呢~",
+			say = "I see, so if I'm understanding this correctly, Nagato dragged herself all the way out here, got lost, and ran into trouble?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，{namecode:82}大人为何不带着{namecode:74}大人一同前往呢，万一遭到塞壬攻击这种事，也好有个照应不是吗~",
+			say = "Mikasa, if you wanted Nagato to come so badly, you could have prevented all of this if you simply asked her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:74}已经不是当年那个不成熟的孩子了，她完全可以按自己的想法行事~",
+			say = "I just heard this from Zuikaku earlier. Besides, when Nagato has made her mind to do something, there's nothing we can do to stop her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "倒是{namecode:91}殿下似乎对于现状有一点…开心的样子？",
+			say = "However, Akagi... I must say, you look like you're quite enjoying this situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哪里哪里，只不过是酒劲上头了罢~天岩岛自酿的酒果然名不虚传啊哈哈哈，{namecode:92}你说是吧",
+			say = "Who knows? Everything is more interesting after a few drinks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "Akagi...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，在{namecode:182}大人无法现身，{namecode:74}大人又赶不及的情况下…依照传统，必须得有巫女血统的孩子来进行祈祷仪式…",
+			say = "In any case, if Nagato is here, then I suppose we won't need Shinano to perform the ritual?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在座的似乎只有{namecode:79}殿下拥有这个资格了…",
+			say = "In the first place, Yamashiro was just supposed to be the backup plan...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶…诶？！——",
+			say = "Ehhhhhhh?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "正在欢笑着吃着烤串的{namecode:79}突然反应过来，猫尾受到惊吓般立了起来",
+			say = "Yamashiro's tail went rigid with shock.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶诶诶，真的是我吗？可是可是…",
+			say = "Y-Yamashiro won't be doing the ritual?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不要紧张，只不过和平常的祭典没什么区别，将祈祷语念出来就行~",
+			say = "You'll get to do the next best thing. Even if you don't get to perform the actual ritual, you can still recite blessings and whatnot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:12}，去把神石搬来，注意点，可别摔坏了哟",
+			say = "Why don't we give it a try? Hibiki, bring Watatsumi over here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			say = "是、是！{namecode:91}大人",
+			say = "Y-yes ma'am!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "说完…{namecode:12}便快速向内殿跑去",
+			say = "Hibiki dashed out of the building.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啦~终于可以看到传说中的重樱的护国宝器【海若】了吗？~就是那个可以“嗖”地一下创造出本不该存在的“我们”的神器？",
+			say = "Hmm, so this is this the legendary artifact I've heard so much about? The one that can call a ship with no history into existence?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比如可以把“Z计划”提前完成什么的？~",
+			say = "It'd be nice if it could help speed our Plan Z along~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欧根大人，您喝醉了",
+			say = "Eugen, have you had a bit much to drink?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀呀，人家怎么可能喝了这么点淡水就醉了嘛哈哈，只不过举个例子，举个例子而已啦哈哈哈~",
+			say = "I haven't had enough, if anything~ Besides, I was just posing a hypothetical.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对不起诸位，欧根失态了…本人也没见过她酒品这么差的样子",
+			say = "I'm sorry, everyone, please ignore what Eugen said.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没什么，大家都是盟友~有什么话摆明了说也挺好的，如果有我们可以帮上忙的地方直说就好",
+			say = "Hehe, we're all friends here. If you need anything, just let us know, and I'm sure something can be arranged.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比如说把神石也借我们用用之类的？哈哈哈哈~说笑的说笑的",
+			say = "Oh my, are you sure about that? We wouldn't mind borrowing that \"Watatsumi\" of yours in that case. Ahaha~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来是引狼入室了呢（小声",
+			say = "(whispers) Someone seems to have led wolves into the room...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:74}究竟…（小声",
+			say = "(whispers) What about Lady Nagato...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "需要我也派出侦察机吗？（小声",
+			say = "(whispers) We haven't heard anything after Zuikaku's initial communication due to the interference of the Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "相信{namecode:96}吧，我们只要稳住这里的局面就好，不能让她们对神石动什么手脚（小声",
+			say = "(whispers) We'll have to place our faith in her then. Above all, I don't know what Akagi is planning, but we can't let them have Watatsumi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 301100,
-			say = "诸位大人~我已经将护国宝器【海若】护送就位了！还有劳大家起身前往仪式厅进行祈愿仪式~",
+			say = "One divine object, coming through!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,35 +477,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "说完，众人从坐席上站了起来，只剩欧根亲王一人在酒桌旁睡了过去，脸上还带着幸福的红晕",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 401020,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "诸位还请自便，欧根大人由我照顾即可",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			dir = 1,
-			say = "说完，众人便进入了仪式厅，留下躺在Z2膝枕上呼呼大睡的欧根亲王",
+			say = "Upon hearing her words, the people gathered in the hall turned their eyes to Watatsumi, the atmosphere getting noticeably louder and more tense.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +492,20 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "Eugen probably wouldn't be able to sail like this, so I'll take care of her for the time being.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			dir = 1,
+			say = "And with that, the others in the hall began to move towards another ceremonial site.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +520,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "人都走了，你也该起来了——",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +535,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂…喂欧根",
+			say = "Eugen, are you awake? It's time for us to make our move.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +550,22 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "Eugen...?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 401020,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Good grief...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "呼…呼…哈（欧根的脸上露出幸福的笑容",
+			say = "Nnh... huh......?",
 			action = {
 				{
 					y = 0,
@@ -605,7 +605,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然不是演技吗？……这跟说好的剧本不一样啊…真是的",
+			say = "Did you really get yourself drunk? I suppose we'll have to leave empty-handed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重樱的酒…真是可怕",
+			say = "What a terrifying bunch these Sakura Empire folks are...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

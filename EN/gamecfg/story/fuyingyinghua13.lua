@@ -11,44 +11,48 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>长夜仍在继续</size>",
+					"<size=51>\"Never lose faith.\" ...That is what Great Veteran Mikasa told me.</size>",
 					1
 				},
 				{
-					"<size=51>风暴仍未平息</size>",
+					"<size=51>I chose to have faith in my comrades. In Akagi, and in Kaga.</size>",
 					3
 				},
 				{
-					"<size=51>若长夜就此不息</size>",
+					"<size=51>But could they have betrayed us to the Sirens...?</size>",
 					5
 				},
 				{
-					"<size=51>孤舟将如何</size> ",
+					"<size=51>We've all been searching for the truth after what happened at \"Sanctuary.\"</size> ",
 					7
 				},
 				{
-					"<size=51>若长夜之后仍是长夜</size>",
+					"<size=51>Fortunately, Mikasa, Nagato, Mutsu, and Kawakaze... they trusted me.</size>",
 					9
 				},
 				{
-					"<size=51>若风暴之后又是风暴</size>",
+					"<size=51>And those who I met in the Mirror Sea were all fine in the end...</size>",
 					11
 				},
 				{
-					"<size=51>孤舟又将如何</size>",
+					"<size=51>But, nobody else seems to remember any of that happening...</size>",
 					13
 				},
 				{
-					"<size=51>…………</size>",
+					"<size=51>You may not know anything about what is happening at this ceremony...</size>",
 					15
 				},
 				{
-					"<size=51>吾如梦中之蝶，飞舞于虚幻之间</size>",
+					"<size=51>Even if that's the case, please...</size>",
 					17
 				},
 				{
-					"<size=51>愿光明划破阴云，愿希望指引重樱</size>",
+					"<size=51>... ... ...</size>",
 					19
+				},
+				{
+					"<size=51>I just know you'll figure it out...</size>",
+					21
 				}
 			}
 		},
@@ -76,7 +80,7 @@ return {
 			bgmDelay = 1,
 			soundeffect = "event:/battle/boom2",
 			bgm = "story-6",
-			say = "数日前，某处镜面海域内。",
+			say = "A few days prior, in a Mirror Sea...",
 			effects = {
 				{
 					active = false,
@@ -117,7 +121,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg3",
 			dir = 1,
-			say = "空气中弥漫着硝烟，水面覆盖着残骸。",
+			say = "The remnants of facilities that should not possibly exist in this era, cleaved apart cleanly by a flurry of masterful strokes, told a self-evident story.",
 			effect = {
 				{
 					active = true,
@@ -137,7 +141,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			side = 2,
 			dir = 1,
-			say = "又一处塞壬据点被彻底摧毁了。",
+			say = "The Sirens had created yet another Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +158,7 @@ return {
 			dir = 1,
 			actor = 900192,
 			actorName = "？？？",
-			say = "…清理完毕，下一处目标在——",
+			say = "...Purification complete. Moving towards the next location.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,8 +175,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900012,
-			actorName = "观察者",
-			say = "Surprise！好久不见，晚上好啊~",
+			actorName = "Observer",
+			say = "Oh my, what a surprise. I didn't expect to see you here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +193,7 @@ return {
 			dir = 1,
 			actor = 900192,
 			actorName = "？？？",
-			say = "………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,8 +210,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900012,
-			actorName = "观察者",
-			say = "喂喂喂，别无视我啊！",
+			actorName = "Observer",
+			say = "Hey, it's rude to ignore others when they're talking to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +228,7 @@ return {
 			dir = 1,
 			actor = 900192,
 			actorName = "？？？",
-			say = "……没有和你沟通的必要。",
+			say = "...I have nothing to say to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,8 +245,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900012,
-			actorName = "观察者",
-			say = "别这么无情嘛，我这边可是积累了一大堆话要说哎~",
+			actorName = "Observer",
+			say = "Don't be like that. There's plennnty of things I'd like to talk to you about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,8 +263,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900012,
-			actorName = "观察者",
-			say = "关键点G姑且不论，你们成员全都是这种个性么…？",
+			actorName = "Observer",
+			say = "Putting aside that Code G issue... Um, what was your name again, \"Ember?\" Are all of you like this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,8 +281,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900012,
-			actorName = "观察者",
-			say = "一言不合就开火，随便把基地搅个天翻地覆……善后重建可是很辛苦的啊！",
+			actorName = "Observer",
+			say = "You just show up unannounced and start vandalizing other peoples' stuff. Don't you feel sorry for the one who has to rebuild all of this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,8 +299,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900012,
-			actorName = "观察者",
-			say = "自从你们到来后的这几个月，子终端的消耗量和工作占用率整整提升了314个百分点。",
+			actorName = "Observer",
+			say = "Since you bunch showed up, my computational load and resource usage has gone up 314%, you know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,8 +317,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900012,
-			actorName = "观察者",
-			say = "关键点G把您召唤过来，肯定不只是为了给我们增加基建成本吧",
+			actorName = "Observer",
+			say = "The reason Code G summoned you here wasn't just to poke and prod at us, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +335,7 @@ return {
 			dir = 1,
 			actor = 900192,
 			actorName = "？？？",
-			say = "原来是来打听她的计划的……与你无关，消失吧。",
+			say = "...So you came to learn more about her plans. Get lost, that has nothing to do with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,8 +352,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900012,
-			actorName = "观察者",
-			say = "如果这话不是站在这片废墟上说出来，听起来就更有说服力了哦？",
+			actorName = "Observer",
+			say = "Excuse me? Just take a look around us, and you're saying it has nothing to do with me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,8 +370,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900012,
-			actorName = "观察者",
-			say = "算啦~要是能让您心情好一点，请不用在意，继续尽情破坏吧~",
+			actorName = "Observer",
+			say = "But it's fine. We don't have any further use for this place anyway, so have fun recycling it for us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +388,7 @@ return {
 			dir = 1,
 			actor = 900192,
 			actorName = "？？？",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,8 +405,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900012,
-			actorName = "观察者",
-			say = "其实我知道哦，关键点G已经潜入NA海域中心的事。",
+			actorName = "Observer",
+			say = "I already know where Code G is hiding.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,8 +423,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900012,
-			actorName = "观察者",
-			say = "只是我怎么都没能从合理性的角度上理解这一行为的意义。",
+			actorName = "Observer",
+			say = "You might act like she sent you here to disrupt our operations, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,26 +441,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900012,
-			actorName = "观察者",
-			say = "您最近的个人行动无非是想分散我们的战力以及注意力对吧？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
-			dir = 1,
-			actor = 900012,
-			actorName = "观察者",
-			say = "看来上次会面之后，她相当动摇啊",
+			actorName = "Observer",
+			say = "Why'd she go into hiding? Was it that shocking, meeting the \"Commander\" of this world?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +459,7 @@ return {
 			dir = 1,
 			actor = 900192,
 			actorName = "？？？",
-			say = "要说的话说完了？",
+			say = "...Are you done running your trap?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,8 +476,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900012,
-			actorName = "观察者",
-			say = "等等等等！这片海域就剩下这一个通讯器了！",
+			actorName = "Observer",
+			say = "Who knows? But this is the last working communication device in this area. I did have some important news for you, but if you don't want to hear it~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,8 +494,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900012,
-			actorName = "观察者",
-			say = "呼…其实我今天来，是有重大消息要告诉您。",
+			actorName = "Observer",
+			say = "Maybe I'll tell you just one more thing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,8 +512,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900012,
-			actorName = "观察者",
-			say = "重樱，要准备开始天宇启户祭了哦",
+			actorName = "Observer",
+			say = "The Sakura Empire is about to hold their \"Dawning Ceremony.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +530,7 @@ return {
 			dir = 1,
 			actor = 900192,
 			actorName = "？？？",
-			say = "？！",
+			say = "What...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,8 +547,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900012,
-			actorName = "观察者",
-			say = "这次会收到的，究竟是神明的恩赐呢，还是魔鬼的惩罚呢~？",
+			actorName = "Observer",
+			say = "This time, will they receive the blessing of a god, or the curse of a demon?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +565,7 @@ return {
 			dir = 1,
 			actor = 900192,
 			actorName = "？？？",
-			say = "………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +582,7 @@ return {
 			dir = 1,
 			actor = 900192,
 			actorName = "？？？",
-			say = "如果是因为过度依赖神明而导致的灾难，那也是人们咎由自取的",
+			say = "If the overreliance upon these \"gods\" brings calamity to the world, I suppose it would be well-deserved.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,8 +599,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900012,
-			actorName = "观察者",
-			say = "呵呵呵，真是不耿直呢",
+			actorName = "Observer",
+			say = "That's not what you really think, is it? You know better, don't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,8 +617,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900012,
-			actorName = "观察者",
-			say = "顺带一提，这个时间点上的赤城似乎对那块石头非常感兴趣呢",
+			actorName = "Observer",
+			say = "The entity that the humans named \"Watatsumi\"...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,8 +635,8 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900012,
-			actorName = "观察者",
-			say = "如果是有人告诉了她神石真正的能力的话…",
+			actorName = "Observer",
+			say = "Oh, and by the way, the Akagi of this world seems to have taken an interest in that stone as well~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,24 +650,7 @@ return {
 			bgName = "bg_xinnong_cg3",
 			side = 2,
 			dir = 1,
-			say = "通讯被单方面切断了",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_xinnong_cg3",
-			dir = 1,
-			actor = 900192,
-			actorName = "？？？",
-			say = "等！",
+			say = "(The communication cuts off)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,7 +667,7 @@ return {
 			dir = 1,
 			actor = 900192,
 			actorName = "？？？",
-			say = "……………",
+			say = "Wait, come back!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -715,7 +684,24 @@ return {
 			dir = 1,
 			actor = 900192,
 			actorName = "？？？",
-			say = "看来，又得绕一次远路了啊",
+			say = "......",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_xinnong_cg3",
+			dir = 1,
+			actor = 900192,
+			actorName = "？？？",
+			say = "Once again, it seems like I must walk the tortuous path...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

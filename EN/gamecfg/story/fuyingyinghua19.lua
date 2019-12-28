@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "两个娇小的身影，伴随着一连串爆炸声，游走在塞壬的大军之中",
+			say = "In a sea surrounded by darkness, two girls were trying to make their escape.",
 			side = 2,
 			dir = 1,
 			bgm = "xinnong-2",
@@ -26,7 +26,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 305050,
-			say = "{namecode:158}！！",
+			say = "Kawakaze!",
 			flashN = {
 				color = {
 					1,
@@ -71,7 +71,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "——塞壬战舰的一轮齐射再一次在{namecode:158}身边形成了跨射",
+			say = "Shells from Siren battleships rained down ceaselessly around Kawakaze.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…{namecode:74}大人快退后，这里交给在下便是",
+			say = "Lady Nagato, please stand back! I shall deal with this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是你已经连续战斗那么久了！！",
+			say = "What are you saying?! Your equipment is already in tatters!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "误入陷阱、让{namecode:74}大人身陷包围已是失职，在下万死莫辞",
+			say = "Falling into the Sirens' trap and endangering Lady Nagato is an unforgivable sin...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只是希望在这柄守护您的剑刃崩坏之前，能为大人战至——",
+			say = "Allow me to atone for my transgressions with my life!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 		},
 		{
 			side = 2,
-			say = "爆风过后，露出的是{namecode:74}娇小身躯和庞大舰装的身影",
+			say = "The thunderous roar of a cannon was followed by an explosion...",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -190,7 +190,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "{namecode:74}召唤出的舰装，将再次飞来的炮弹挡了下来",
+			say = "But when the smoke cleared, it was a mass-produced Sakura battleship that lay in ruins, not Kawakaze.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大人！不能为了在下而浪费了大家供奉的信仰啊！这是用来…",
+			say = "Lady Nagato, why would you expend your power to protect me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "笨蛋！木瓜脑袋！！！",
+			say = "What are you saying, you fool!",
 			action = {
 				{
 					y = 30,
@@ -245,7 +245,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "诶…诶？",
+			say = "Lady Nagato?",
 			action = {
 				{
 					y = 0,
@@ -270,7 +270,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "吾可是{namecode:74}！重樱的战舰·{namecode:74}！",
+			say = "I am Nagato, Nagato of the Sakura Empire!",
 			action = {
 				{
 					y = 30,
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果连个重要的人都无法守护，还谈什么祭典，谈什么守护重樱！",
+			say = "If I cannot protect even a single comrade, how am I to protect the Sakura Empire?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大…大人？",
+			say = "Lady... Nagato...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "{namecode:74}合上双眼，抬起双手，在胸口祈祷着",
+			say = "Having failed to secure the kill, the Siren battleship's movements stopped briefly. Seizing upon that moment...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "见识下BigSeven的力量吧！",
+			say = "Witness the power of the Big Seven!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			}
 		},
 		{
-			say = "————",
+			say = "BOOOM!!!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -391,7 +391,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "{namecode:74}的炮管发射出的炮弹在空中幻化成光玉，向四散飞去，照亮了夜晚的天空",
+			say = "The massive guns that bore the weight of protecting a nation rang out. Such power tore apart the enemy with ease.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "转瞬，光玉又在空中飞速向一处集中飞去，击破了包围网的一角",
+			say = "In an instant, the enemy forces were engulfed in a sea of fire, and the Siren siege began to fall apart.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这就是…{namecode:74}大人的实力…",
+			say = "Lady Nagato, your power...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "快，从这里就可以突围了！！",
+			say = "Kawakaze!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "{namecode:74}伸出手，牵引着{namecode:158}受伤的身躯向突破口驶去——",
+			say = "Nagato extended her hand to the injured Kawakaze, half towing her towards their escape route.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "…然而，增援的塞壬舰船很快又将炮口对准了两人",
+			say = "...However, the enemies began to close in on the encumbered Nagato once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "不要管我了…{namecode:74}大人",
+			say = "Lady Nagato, please put me down! You must make it out!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -487,7 +487,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:74}没有理会江风的话语，只是拼尽全力地，驱使着巨大的舰装，一边回避着塞壬的炮击，一边反击，在炮火中艰难地行进。",
+			say = "Ignoring Kawakaze's protests, Nagato raised her formidable rigging, firing back at the encroaching enemies while doing her best to avoid their barrage.",
 			side = 2,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
@@ -503,7 +503,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "然而不断逼近的塞壬舰队，在{namecode:74}抵达突破口前的一刻便再次将突破口填满",
+			say = "As Nagato tried to carve out an escape route with her attacks, more Sirens quickly arose to take the place of the fallen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……！！",
+			say = "Lady Nagato!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "更大的危机，向二人逼近",
+			say = "Kawakaze broke free from Nagato and used the last of her power to charge forward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +546,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重樱不能失去{namecode:74}大人，这里就算牺牲在下也要让{namecode:74}大人——",
+			say = "The Sakura Empire needs you... Lady Nagato, you must live on...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 		},
 		{
 			side = 2,
-			say = "随着一声声爆炸，突破口周围的塞壬应声化为了燃烧着的残骸——",
+			say = "Suddenly, several bombs rained down upon the approaching Siren forces.",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -648,7 +648,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "觉悟很棒！但可不能真的在这里葬送了性命啊！",
+			say = "While your spirit is commendable, you mustn't follow through with that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 307060,
-			say = "——如果失去了你，{namecode:74}大人可是会很伤心哦~",
+			say = "Do you know how sad Nagato would be if she lost you?!",
 			flashN = {
 				color = {
 					1,
@@ -709,7 +709,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "{namecode:96}的轰炸机精准地在敌人头顶投下爆弹，燃烧的火光再次映红了夜空",
+			say = "The night sky glowed brightly with explosions from Zuikaku's dive bombers, which brought an end to their crisis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -724,7 +724,7 @@ return {
 			dir = 1,
 			actor = 301490,
 			nameColor = "#a9f548",
-			say = "得救了…谢谢你，{namecode:96}大人——",
+			say = "Zuikaku... I am in your debt...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -763,7 +763,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "{namecode:158}用尽力气向{namecode:96}道了谢，便瘫软了下去",
+			say = "In a mix of exhaustion and relief, Kawakaze fell into Zuikaku's bosom.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -778,7 +778,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:158}！！",
+			say = "Kawakaze!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -793,7 +793,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没事，她只是一下子放松了下来,失去力气罢了~",
+			say = "Don't worry. She's just overwhelmed from having strained herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -808,7 +808,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好好休息一下，接下来…就让我来保护{namecode:74}大人吧",
+			say = "You can rest now. That's a good girl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -823,7 +823,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "又被汝救了啊…辛苦了，{namecode:96}。",
+			say = "You saved me once again... Thank you, Zuikaku.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -838,7 +838,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从宴席上收到您放飞的符鸟后便知道了这里的情况，飞速赶来了",
+			say = "Ah, um, I just happened to be passing by!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -853,7 +853,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶…宴会那边…不要紧吗？",
+			say = "R-really?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -868,7 +868,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，那样的场面根本不适合我呢，能找机会出来透透气可是再好不过了~",
+			say = "Yeah, I was just leaving the banquet when these Sirens suddenly showed up, so I thought I'd go teach them a lesson.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -883,7 +883,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:74}、{namecode:74}大人…",
+			say = "Lady Nagato...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -908,7 +908,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能在暗礁区设下埋伏，没有附近的海况图是做不到的…",
+			say = "If the Sirens are here, they must be after Watatsumi...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -923,7 +923,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次祭典，本身就是个陷阱，在下不能让您继续冒这样大的风险…！",
+			say = "There's no reason for you to go out of your way to take such a big risk...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -938,7 +938,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，正因为是这样，吾才更要出面，必须揪出害得{namecode:158}受伤的罪魁祸首！",
+			say = "I disagree. I should be the one to conduct this ritual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -953,7 +953,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对方阻碍我们，必定是想对神石做什么手脚，绝对不能让这样的事情发生！",
+			say = "More importantly, if the Sirens truly are after Watatsumi, we must never let their plans come to fruition.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -968,7 +968,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:96}，能再为我们护航吗，{namecode:158}需要更多的休息…",
+			say = "Zuikaku, can I leave Kawakaze with you? She needs to rest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -983,7 +983,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "放心交给我吧，{namecode:74}大人！{namecode:82}大人在岛上等着您。",
+			say = "Of course! Lady Nagato, Mikasa is waiting for you on the island!",
 			action = {
 				{
 					y = 30,

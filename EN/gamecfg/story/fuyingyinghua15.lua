@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "天岩岛本岛·深夜",
+			say = "Diadem of Light - Banquet Venue",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
@@ -25,7 +25,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			side = 2,
 			dir = 1,
-			say = "热闹的宴会依然在进行中",
+			say = "As the night continued, everyone continued to enjoy the banquet until...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "不、不愧是{namecode:82}大前辈，在那种困境下也能逆转局面啊……",
+			say = "As expected, Mikasa... You're always able to turn the tables in the face of adversity...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgName = "bg_xinnong_cg1",
-			say = "哈哈哈！！北方联合尽是些有趣的家伙啊，还有那个阿芙乐尔---------",
+			say = "Hahahah! I was lucky to have survived, if you ask me! Avrora, meanwhile–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 		{
 			stopbgm = true,
 			side = 2,
-			say = "轰------！！",
+			say = "BOOOOOM!",
 			dir = 1,
 			bgName = "bg_xinnong_cg1",
 			soundeffect = "event:/battle/boom2",
@@ -85,7 +85,7 @@ return {
 			}
 		},
 		{
-			say = "突然间，不知从海面上的何处传来了一声明亮的炮响",
+			say = "Far from the banquet venue, the sound of a cannon echoed far and wide.",
 			side = 2,
 			bgName = "bg_xinnong_cg2",
 			dir = 1,
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_xinnong_cg2",
 			side = 2,
 			dir = 1,
-			say = "水平面的彼方，染上了赤色和紫色的光，可以隐约看到漆黑的影子正在逼近——",
+			say = "The horizon was painted red and purple from muzzle flashes. Indistinct shadows rose from beneath the waves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "这是…塞壬！",
+			say = "What was that?! Are the Sirens attacking?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			say = "是、是的！报告各位大人，天岩岛近海突然出现了大批塞壬舰队正在向这里发动突袭！",
+			say = "Th-They are! Several fleets of them suddenly appeared just beyond the place I was standing guard!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			say = "{namecode:181}和{namecode:180}已经带领守备舰队出击，正在与敌人作战！",
+			say = "Kinu and Kasumi rallied some others and are on their way to intercept them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_xinnong_cg2",
 			side = 2,
 			dir = 1,
-			say = "{namecode:82}听闻状况，立刻站起身准备出击，对座的{namecode:91}，依然静静地端着酒盏",
+			say = "In the blink of an eye, the venue fell silent. The air became tense as the ships braced for combat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "（天岩岛层层结界，塞壬舰队怎么可能不声不响接近到这个位置…？！）",
+			say = "(I thought the islands were protected by a barrier? How did the Sirens get here?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "诸位大人请回座，守卫天岩岛本就是我们代行者的职责，不需惊扰诸位",
+			say = "Everyone, please remain calm! Our flawless defenses will protect us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "还请给我们一个尽职的机会！",
+			say = "Even if they should fail, we will keep you safe no matter what!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "{namecode:175}，{namecode:50}，跟我一起去增援吧",
+			say = "Suruga, Noshiro, it's time to sortie, immediately!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			actor = 302210,
 			hideOther = true,
 			actorName = "{namecode:50}&{namecode:175}",
-			say = "是！",
+			say = "Understood!",
 			subActors = {
 				{
 					actor = 305140,
@@ -280,7 +280,7 @@ return {
 			blackBg = true,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "各位大人请放心，我们一定会负起责任，保护祭典顺利举行的！",
+			say = "No Siren shall lay as much as a finger on our guests as long I stand!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
