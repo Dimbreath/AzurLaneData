@@ -12,7 +12,7 @@ return {
 			bgm = "xinnong-2",
 			actor = 302210,
 			nameColor = "#a9f548",
-			say = "没有灵魂的仿制品…不过如此，消失吧！",
+			say = "Soulless puppets! Begone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 306070,
-			say = "很好，区域肃清！我们快去其他地方增援吧",
+			say = "We've swept this sector clean! Come on, we must hurry to the next one and provide support!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果塞壬是瞄准祭典来的，那么神石就可能有危险！",
+			say = "...Ryuuhou, what do you think the Sirens' goal is? Are they after... Watatsumi?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 306070,
-			say = "一航战、五航战的前辈甚至{namecode:82}大前辈都在本岛，只要我们守住结界外围…",
+			say = "They might be after the First and Fifth Carrier Divisions and Mikasa. But no matter what they're after or what they do, they shall not have it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			actor = 302210,
 			nameColor = "#a9f548",
-			say = "啊，{namecode:179}大人，快看天空！！",
+			say = "Of course not. We'll fight to the last... Wh-What's happening to the sky?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "那些是…乌云中散发着紫色的光？！！！",
+			say = "It's... turning purple?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 302210,
-			say = "再感受一下水面，和之前的感觉也有所不同",
+			say = "That doesn't seem to be all... Our instruments are starting to malfunction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "？！真的……这是怎么回事？",
+			say = "What's happening...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "镜面海域。塞壬刚刚把包含天岩岛在内的整片区域，全部转化为了镜面海域",
+			say = "It's the Sirens' doing. We just got here from across the islands, and it seems this entire region has turned into a Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,22 +184,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 306070,
-			say = "啊，真正的{namecode:181}和{namecode:180}，你们平安无事真是太好了~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301810,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "呼呼，西面的量产型已经被我们压制了哦~",
+			say = "Kinu! Kasumi! Are you okay?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +201,7 @@ return {
 			bgName = "bg_xinnong_cg5",
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "见到{namecode:179}大人的舰载机在此盘旋就立刻赶过来了…西面的量产型已经被我们压制了",
+			say = "I'm fine. We took care of all the mass-produced units in our sector, then rushed over here when we spotted your recon planes.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -250,7 +235,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:181}",
 			hidePaintObj = true,
-			say = "气压骤降、风速减弱、海面波浪回归平静，映照出水面的自我…对外电波信号完全屏蔽…确实和记录中的一样",
+			say = "Abnormal weather phenomena, loss of communication with the outside... it's just like what the records said...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +252,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:181}",
 			hidePaintObj = true,
-			say = "和以往不同的是，镜面海域一般是在“海上”形成的，之前从未见过这样“覆盖岛屿”非自然形成的案例",
+			say = "But there's one key difference. Previously, Mirror Seas were known to only occur over water. There have been no instances of them covering the land as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,24 +269,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:181}",
 			hidePaintObj = true,
-			say = "预测接下来很可能会有更大规模的袭击，{namecode:179}大人，请给予指示",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			actor = 306070,
-			actorName = "{namecode:179}",
-			say = "…………",
+			say = "We may not be able to stop this Mirror Sea merely by defeating the Sirens this time. Ryuuhou, what should we do next?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +286,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			actorName = "{namecode:179}",
-			say = "这次是…来自东面吗？",
+			say = "There's no time to think about that. The next wave of attacks is coming our way already.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +303,7 @@ return {
 			dir = 1,
 			actor = 302210,
 			actorName = "{namecode:50}",
-			say = "东面是暗礁地区，塞壬理论上应该无法进入，所以并没有部署战力…这究竟是…？",
+			say = "This area is surrounded by reefs... There's no way the Sirens should have been able to cross from underwater, so how did they...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +320,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			actorName = "{namecode:179}",
-			say = "{namecode:180}，{namecode:175}——随我一同前往调查究竟，其他诸位，请务必死守正面航线！",
+			say = "Kasumi, Suruga, come with me to assess the situation. The rest of you, establish a defensive line here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,11 +332,11 @@ return {
 		},
 		{
 			nameColor = "#a9f548",
-			actorName = "众人",
+			actorName = "Everyone",
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "是！",
+			say = "Aye aye!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

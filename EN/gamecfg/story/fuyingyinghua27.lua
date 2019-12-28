@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "数日后·某处海域",
+			say = "A few days later",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -27,7 +27,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "结果最后，重樱的祭典还是失败了啊~",
+			say = "So in the end, their ritual still failed?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没办法的事吧…",
+			say = "Seems like it was impossible after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "到头来真正的护国宝器也没能看到真面目，而且据说连重樱内部自己都不知道目前神石的下落",
+			say = "Nobody expected that the \"Watatsumi\" used in that ritual was a fake. Now the entire Sakura Empire is in turmoil because of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			actor = 401020,
 			nameColor = "#a9f548",
-			say = "真是的，都怪欧根你在宴会阶段就醉倒了，仪式厅里发生了什么我们都没看到",
+			say = "Thanks to a certain Prinz Inebriated, I didn't get the full details.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样情报不足的情况空手而归，肯定要被腓特烈给责备的",
+			say = "We'll be heading home empty-handed now, mission failed and all that. She's probably going to yell at us too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "（脸红）我那哪是醉了，只是演技，演技而已！！",
+			say = "Thiele, I wasn't drunk. I was merely acting.",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -148,7 +148,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对的，你的睡像演得可真好——",
+			say = "You could have challenged Lebe to a hibernation contest with how far gone you were. Impressive acting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "（脸红）记得回去以后不许再讨论这件事！",
+			say = "...Don't tell anyone about this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是是是，欧根亲王大人——",
+			say = "I know, I know. It's just between the two of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			withoutActorName = true,
 			actor = 401020,
 			nameColor = "#a9f548",
-			say = "Z2瞄了一眼旁边这艘拖着一船重樱酒的铁血新锐重巡洋舰，发出了一声叹息",
+			say = "Z2 and Eugen, who both knew they were going to be in deep trouble, purchased a copious amount of Sakura Empire sake on their way back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "不管怎样，至少重樱内部的派系、新锐战舰的性能这些情报已经入手了",
+			say = "But you know, I wouldn't call this \"leaving empty-handed.\" After all, we learned some valuable information about the \"Reborn Combined Fleet,\" the internal structure of the Sakura Empire, and even found out about their newest ship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最重要的是，NA作战的方案也已经传递到她们手中了，之后，就看她们自己的选择了~",
+			say = "With this amount of information, who cares about some backwater ritual? On top of that, I also dropped some hints about \"that plan\" of ours.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "毕竟，这个世界，只有强者才能生存下去",
+			say = "I'm sure there is someone who would be willing to negotiate with us in that regard...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgm = "xinnong-3",
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "欧根亲王，请留步",
+			say = "Prinz Eugen, at least give me some time to think this over...",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -326,7 +326,7 @@ return {
 			}
 		},
 		{
-			say = "啊啦，这不是{namecode:91}大人和{namecode:92}大人吗？不需要这么客气送我们到这么远的~",
+			say = "My my, if it isn't Akagi from the Sakura Empire? If you're here to send us off, we don't need *that* much hospitality.",
 			side = 1,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -361,7 +361,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有些事情在人多眼杂的时候不方便讨论",
+			say = "Some things are best discussed away from prying eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "我就直说了，我想要得到铁血舰船和有关塞壬更多的资料",
+			say = "I'll be straightforward. I want more information regarding the Iron Blood's ships, as well everything you know about the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，{namecode:91}大人这是开口吞象呀，就算我们是盟友关系，之前关于海军的合作也就只有齐柏林伯爵的舰装设计吧？",
+			say = "You're asking for quite a lot there... Even if the Iron Blood and the Sakura Empire are allies, I can't just give you all that information so readily.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一下子这么跳跃，是不是有点…嗯…就算作为一个交易，等价交换这个道理您也不会不懂吧？呵呵呵",
+			say = "But, I wonder... what kind of price is the Sakura Empire willing to pay for this information?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，还记得你在酒会时说的事情吗？",
+			say = "Well, let's talk about that request you made at the banquet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——神石，铁血难道不想稍稍借用一下吗？",
+			say = "...Watatsumi. You said you wanted to see what you could do with it, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

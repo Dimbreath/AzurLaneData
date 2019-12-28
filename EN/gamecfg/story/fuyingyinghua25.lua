@@ -12,7 +12,7 @@ return {
 			bgm = "xinnong-4",
 			actor = 900192,
 			actorName = "？？？",
-			say = "拖得太久了，不妙…时间就快到了",
+			say = "Not bad...! But I don't have any more time to waste here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "“不速之客”转身想要迂回，{namecode:96}一个迅步挡在了她的面前",
+			say = "Under the withering firepower of all the Sakura Empire ships, \"Takao\" was unable to approach the island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别想从我面前…",
+			say = "We won't let you through!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "明镜止水——",
+			say = "You WILL stand aside...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "就在{namecode:96}想要抬手阻拦的一瞬间，一股强烈的寒意让她本能地停下了动作",
+			say = "Zuikaku rushed to block off \"Takao,\" who had suddenly broken away from the fight to rush straight towards Watatsumi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "下一瞬，眼前的敌人已经从自己的侧身闪过",
+			say = "The instant their eyes met, it was as if time had stopped flowing...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "只留下驻足在原地彷徨的{namecode:96}",
+			say = "...Zuikaku felt herself falling, and \"Takao\" blurred past her, charging forward at full speed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:96}！！没事吧？！",
+			say = "Zuikaku! Are you hurt?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…刚才那是…",
+			say = "I, I'm fine, but... what just happened...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "仿佛那一秒要是继续攻击，手就要被斩断了…",
+			say = "(I didn't feel any sort of pressure from her, but when I reached out to strike...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不…是就要死去了",
+			say = "(No, it was the moment I saw her eyes... my body wouldn't move...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这就是…剑法的极意？",
+			say = "(Am I... scared of her...?!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

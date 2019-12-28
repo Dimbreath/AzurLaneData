@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "祭典仪式厅·子时",
+			say = "Diadem of Light - Ceremonial Hall",
 			side = 2,
 			dir = 1,
 			bgm = "main-newyear",
@@ -25,7 +25,7 @@ return {
 			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			say = "呜哇…仪式厅被破坏成这个样子，还能继续祈祷吗？",
+			say = "Woah... this place is a dump... It's going to be hard to get Watatsumi out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要心诚，就算是在破败不堪的茅屋里神明也能聆听到汝之祈祷的",
+			say = "Indeed. Worst case scenario, we will have to conduct the ceremony right here anyway...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			say = "待我把压倒在中庭的重物挪开…嘿咻！",
+			say = "Lady Nagato, please hold on for a moment! I'll go dig up the ritual objects! Heave, ho...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "身为一艘驱逐舰，能有这么大的力气实在令人刮目相看…",
+			say = "You're quite hardy for a destroyer...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			say = "啊哈哈，平日在{namecode:179}大人手下搬运重物的工作没有少做~这点都是小意思啦~嘿咻…",
+			say = "Ehehe~ Ryuuhou often puts me through worse, so this is nothing for me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,29 +128,11 @@ return {
 			}
 		},
 		{
-			withoutActorName = true,
+			actor = 307010,
 			side = 2,
-			dir = 1,
-			actor = 305110,
 			nameColor = "#a9f548",
-			say = "此时此刻，{namecode:82}正低头沉思着什么，默不作声",
-			flashout = {
-				dur = 0.5,
-				black = true,
-				alpha = {
-					0,
-					1
-				}
-			},
-			flashin = {
-				delay = 0.5,
-				dur = 0.5,
-				black = true,
-				alpha = {
-					1,
-					0
-				}
-			},
+			dir = 1,
+			say = "Mikasa, are you worried about something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,27 +140,17 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
-			},
-			action = {
-				{
-					y = 30,
-					type = "shake",
-					delay = 0,
-					dur = 0.5,
-					x = 0,
-					number = 2
-				}
 			}
 		},
 		{
-			actor = 307010,
+			actor = 305110,
 			nameColor = "#a9f548",
-			side = 0,
+			side = 1,
 			dir = 1,
-			say = "{namecode:82}大前辈，您似乎有什么心事？",
+			say = "Yes, it's about this ritual, but I can't quite place my finger on it...",
 			paintingFadeOut = {
 				time = 0.5,
-				side = 1
+				side = 0
 			},
 			typewriter = {
 				speed = 0.05,
@@ -194,7 +166,47 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我只是在想，这一连串的事件背后，究竟还有什么遗漏了的地方",
+			say = "There's... something off about all of this.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307010,
+			side = 0,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "It must be serious if it's even bothering the Great Veteran~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			actor = 307010,
+			side = 0,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "I didn't really have anything special in mind. After all, the ceremony to tap into Watatsumi's power has always been more of a celebration, hasn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +221,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "似乎…还有一点奇怪的不协调感",
+			say = "Mmhm, I am in agreement. What a travesty it would be to become dependent upon the gods. We must create the future we want with our own hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +236,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，不愧是传说中“智谋如泉涌”的{namecode:82}大前辈，疑心病就是重啊",
+			say = "Hehe, I knew that if anyone would understand, it'd be you, Great Veteran Mikasa.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,22 +261,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在座的各位都是为了重樱的未来，才会出席天宇启户祭的不是吗",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 305110,
-			side = 1,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "是的，现在的重樱，需要变革的力量，只有诚心的祈祷和信仰才能…",
+			say = "Allow me to come clean about this ceremony. Though I have taken the initiative in using Siren technology, everything I do is for the sake of the Sakura Empire's future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,47 +276,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我就知道！！如果是大前辈的话，一定能理解我的！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			action = {
-				{
-					y = 30,
-					type = "shake",
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
-			}
-		},
-		{
-			actor = 307010,
-			side = 0,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "大多数的人都害怕变革，认为变革会带来不幸与毁灭…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 307010,
-			side = 0,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "但时代的进步，从来都来自于那些意志坚定的变革者！",
+			say = "Using the power of the gods... No, growing addicted and reliant upon the gods' blessings... the Sakura Empire has no future if we continue to follow the old ways.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +301,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我{namecode:91}，真心希望能够帮助重樱完成这次变革，迈向一个新的时代！",
+			say = "What I desire is a world free from that... and I'm sure \"that person\" sees things the same way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +316,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:91}，如果你真的能够利用塞壬技术引领重樱的未来，我绝不会阻碍你",
+			say = "But know this, Akagi. If the Sirens' technology was truly capable of bringing about the future you seek, I would have sided with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +331,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可是现在…究竟是你在利用塞壬，还是塞壬在利用你呢？",
+			say = "From what I have seen, you are not the one using the Sirens. They are the ones using you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +346,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "相信我，塞壬可不是那么温和，能任你摆布的存在",
+			say = "...The Sirens' power is intoxicating. It is easy to control, but it is just as easy to lose yourself to it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +361,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你陷入执念太深了，以至于狭隘了视野，偏离了正道",
+			say = "The path you walk is now distorted. I fear that if you continue down this path, you will soon turn your blade against your own people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +386,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果她看到现在的你-----",
+			say = "And I am sure that you would not want \"that person\" to see you like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +401,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:82}前辈",
+			say = "Pardon me for saying this, Mikasa, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +416,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正确的道路，究竟是什么呢？",
+			say = "What exactly is this \"righteous path\" that is spoken of so highly in the Sakura Empire?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +431,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "继续留在碧蓝航线里，和那些天资优越的盟友过家家就是正确的道路么？",
+			say = "Would you condemn yourself to a future within the Azur Lane, content to merely break even with the Sirens, settling with a false peace, and pretending to be friends?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +446,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "他们制定海军条约的时候，前辈在哪里？",
+			say = "While people are still willing to fight, we must press forward. Otherwise, we will be shackled and enslaved one day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +461,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在那之后时代变革了，前辈又在哪里？！",
+			say = "Mikasa, are you saying that all the sacrifices that we've had to make so far were unavoidable?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +487,7 @@ return {
 			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			say = "啊呀呀！",
+			say = "Wooooaaaahhhh!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -556,7 +513,7 @@ return {
 			}
 		},
 		{
-			say = "哐！",
+			say = "！！",
 			side = 2,
 			dir = 1,
 			soundeffect = "event:/ui/shuaidao",
@@ -572,7 +529,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "{namecode:12}重重地在庭院中间摔了一跤，打断了对话",
+			say = "Hibiki, who was in the process of preparing for the ceremony's continuation, made her grand entrance... on the verge of tumbling over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +545,7 @@ return {
 			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			say = "不好意思，又摔了一跤（XP ",
+			say = "Sorry about that! Lost my balance again for a moment! ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +570,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "祈祷用的空地已经清理出来了，{namecode:74}大人~",
+			say = "Oh, Lady Nagato, I've finished the preparations for the rehearsal ceremony!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +586,7 @@ return {
 			dir = 1,
 			actor = 305050,
 			nameColor = "#a9f548",
-			say = "{namecode:74}站起身，优雅地往前走了几步，{namecode:158}尾随其后",
+			say = "Nagato - the head miko of the Sakura Empire - and Kawakaze, followed Hibiki to the center of the ceremony hall.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -661,7 +618,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不论平时的矛盾如何，希望至少仅在今夜，在座的各位能够放下干戈…诚心为仪式祈愿",
+			say = "All of you have acted with the Sakura Empire's best interests in mind, and I know this fact better than anyone else. That is why, at least during this ceremony, let us make peace with one another.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -676,7 +633,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样...新来的同伴也会为此而高兴的吧~",
+			say = "Not just for my sake, but also for each other. That is the way to please the gods.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,7 +648,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = ".........",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -707,7 +664,7 @@ return {
 			withoutActorName = true,
 			actor = 305050,
 			nameColor = "#a9f548",
-			say = "{namecode:74}走上仪式台，双手合十，虔诚地开始祈愿",
+			say = "Nagato faced Watatsumi and offered a prayer for the Sakura Empire.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -732,7 +689,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“向神明展现勇武，向神明纳奉才智，向神明给予信仰”",
+			say = "\"Lift your voices in praise of Watatsumi. Show your courage, and admire its wisdom.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -747,7 +704,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“愿神明指引重樱找到光明之路”",
+			say = "\"Sing its praises so that it may guide us to the path of light.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -762,7 +719,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“愿神明庇佑重樱驱灾避祸，祥瑞永存”",
+			say = "\"May our lands be forever blessed to stave away calamity.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -775,7 +732,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "然而，当{namecode:74}说完祝词，神石却没有任何反应",
+			say = "...But nothing seemed to happen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -790,7 +747,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……奇怪，这是？",
+			say = "As I thought... My words alone are not enough to reach the gods.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -808,7 +765,7 @@ return {
 			bgm = "xinnong-4",
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "{namecode:82}大人！不好了，未知的敌人再次突破了我们的防线，请你们注意——",
+			say = "Mikasa! The enemy known as \"Ember\" managed to escape from us... and she's headed towards --",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -850,7 +807,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "！！！",
+			say = "What?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -902,7 +859,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "随着仪式厅大门的一阵爆炸，“不速之客”飞快地跑过参道站在了众人面前",
+			say = "\"Ember\" suddenly appeared at the entrance to the ceremony hall, and everyone turned to face her in shock...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -915,7 +872,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "众人盯着这位“不速之客”，露出一副惊讶的表情，除了{namecode:91}与{namecode:92}",
+			say = "...everyone, except for Akagi and Kaga.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -930,7 +887,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:66}..{namecode:66}？",
+			say = "You're... Takao?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -946,7 +903,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "{namecode:74}大人请让开，这把剑，不想伤及无辜…",
+			say = "Lady Nagato, stand down. I do not wish to point my blade at my people.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -959,7 +916,7 @@ return {
 		{
 			side = 1,
 			dir = 1,
-			say = "{namecode:74}背对着神石，双手大字展开，做出保护的姿势，{namecode:158}也拿着剑挡在了{namecode:74}前面",
+			say = "Nagato fearlessly placed herself between \"Ember\" and Watatsumi, signaling her intent to protect it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -974,7 +931,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "除非能告诉吾，汝究竟是谁，为什么要这样做",
+			say = "Unless you state your reason for seeking Watatsumi's destruction, I cannot yield to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1000,7 +957,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "这石头并不是什么神石…它只不过是一个需要祭品的魔鬼",
+			say = "...The thing known as \"Watatsumi\" is not a sacred artifact, but a manifestation of calamity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1016,7 +973,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "一旦失去了供奉或者可以等价交换的物品…灾祸就会降临的！",
+			say = "By feeding upon the negative emotions throughout the land, it eventually ushers forth untold destruction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1031,7 +988,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "天宇启户祭在记录里已经举办了百余载，吾怎能听汝一面之词就将其双手奉上",
+			say = "This ritual long predates my existence. I cannot simply take your word at face value.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1057,7 +1014,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "记录是伪造的，这块石头本不属于这个时代！",
+			say = "That history is false. This stone does not exist in your world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1072,7 +1029,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "...What...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1088,7 +1045,7 @@ return {
 			dir = 1,
 			actor = 900192,
 			actorName = "？？？",
-			say = "{namecode:74}大人，得罪了！",
+			say = "...Come forth!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1115,7 +1072,7 @@ return {
 			dir = 1,
 			actor = 900192,
 			actorName = "？？？",
-			say = "“不速之客”拔起剑刃朝着{namecode:74}眼前挥去——而{namecode:74}并没有躲闪",
+			say = "A blade extended towards Nagato at an inhuman speed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1130,7 +1087,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:74}大人！！",
+			say = "Lady Nagato!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1155,7 +1112,7 @@ return {
 			side = 2,
 			dir = 1,
 			withoutActorName = true,
-			say = "{namecode:158}拔出剑刃朝对方格挡——",
+			say = "Kawakaze drew her sword, her reflexes surging as she tried to intercept the attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1167,7 +1124,7 @@ return {
 		},
 		{
 			side = 2,
-			say = "哐——",
+			say = "！！",
 			dir = 1,
 			soundeffect = "event:/ui/kuang",
 			flashN = {
@@ -1202,7 +1159,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "空气突然宁静，{namecode:82}和{namecode:12}虽然也出手招架，却也没能挡下这一击",
+			say = "A silence soon fell across the room. Mikasa and Hibiki, who both began to run forward, came to a stop.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1215,7 +1172,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "{namecode:158}的剑身被斩断成两截，剑锋部分旋转着飞了出去，在一旁{namecode:91}的脸上划出了一道口子",
+			say = "As if lightning had struck, the deed was done before anyone in the hall could react.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1230,7 +1187,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1245,7 +1202,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:74}…{namecode:74}大人？",
+			say = "Lady Nagato... is unharmed...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1270,7 +1227,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "吾…吾没事？",
+			say = "I am fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1283,7 +1240,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "哐啷——{namecode:74}背后的神石应声断成了两截",
+			say = "Watatsumi, still hidden behind Nagato's back, was cleanly split in half.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1298,7 +1255,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这…",
+			say = "No... Watatsumi...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1314,7 +1271,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "极意的剑道并不需要剑身的触碰…或者说，触及其身而不伤其魂魄才能算上极意——",
+			say = "...This is a fake. Did you hide the real one away beforehand?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1330,7 +1287,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "但是…看来我们都被摆了一道",
+			say = "A regular stone coated luminescent paint, tinkered with some Siren technology, and imbued with a Sakura Empire defensive charm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1346,7 +1303,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "——这块石头，被掉包了",
+			say = "Hmph... Looks like I've wasted my time here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

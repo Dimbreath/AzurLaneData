@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "这是…{namecode:96}大人，居然是您在此作战？后面同行的是…",
+			say = "Zuikaku?! It's not safe over there! Hurry up and get over here... huh?",
 			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，这是…是{namecode:74}大人！！",
+			say = "L-Lady Nagato?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,24 +40,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg7",
 			dir = 1,
-			say = "见到{namecode:74}，{namecode:179}、{namecode:175}和{namecode:180}立刻行了立礼",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_xinnong_cg7",
-			dir = 1,
-			actorName = "{namecode:180}",
-			hidePaintObj = true,
-			say = "这…这就是传说中的神子大人…第一次见到",
+			say = "The shocked ceremony hosts went rigid as they hurried to bow to Nagato.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,9 +55,9 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg7",
 			dir = 1,
-			actorName = "{namecode:179}",
+			actorName = "Kasumi",
 			hidePaintObj = true,
-			say = "让神子大人受到塞壬的威胁，实在是属下失职…",
+			say = "Lady Nagato... This is Kasumi's first time... meeting you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,9 +72,26 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg7",
 			dir = 1,
-			actorName = "{namecode:179}",
+			actorName = "Ryuuhou",
 			hidePaintObj = true,
-			say = "不知为何{namecode:74}大人不提前告知来访路线，属下好安排护卫…",
+			say = "Your appearance... I am utterly disappointed at myself for not protecting you from the Sirens!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_xinnong_cg7",
+			dir = 1,
+			actorName = "Ryuuhou",
+			hidePaintObj = true,
+			say = "Lady Nagato, I had no idea you were coming, so I did not prepare an escort beforehand...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,8 +106,8 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:74}",
-			say = "这次是吾…不，是我个人主张的秘密行动，所以并没有声张。并不是汝之过失。",
+			actorName = "Nagato",
+			say = "Be at ease. I simply came here out of my own selfishness. You are not at fault here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,8 +122,8 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:175}",
-			say = "总之，{namecode:74}大人能够出席真是太好了，原本的祭典还预留了{namecode:182}大人和您都不能到场的备选计划呢…",
+			actorName = "Suruga",
+			say = "I am relieved that you are here, Lady Nagato! We were at a loss as to what to do in case of an emergency...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,8 +138,8 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:74}",
-			say = "…备选计划！？？是什么样的？",
+			actorName = "Nagato",
+			say = "Hmm? What did you plan to do...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,8 +154,8 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:175}",
-			say = "嗯…如果{namecode:74}大人在子时未能抵达祭典的话…会由同样带有一定巫女血统的{namecode:79}大人代行祈祷礼——",
+			actorName = "Suruga",
+			say = "Um, if Shinano was unable to carry out the ritual, then the plan was to have Yamashiro do it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不好，原来这就是她们的目的——",
+			say = "Yamashiro...? I see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:158}，抱歉了，你还能正常行动吗？",
+			say = "Kawakaze, are you feeling better now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,8 +200,8 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:158}",
-			say = "只是正常航速行驶的话已经没问题了，{namecode:74}大人",
+			actorName = "Kawakaze",
+			say = "Yes. If it's just sailing, then I'll be ok...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,8 +216,8 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:74}",
-			say = "接下来必须赶上下半场的宴会了，{namecode:158}！",
+			actorName = "Nagato",
+			say = "Then let us hurry to the Diadem of Light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,12 +229,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:158}",
+			actorName = "Kawakaze",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 301490,
 			nameColor = "#a9f548",
-			say = "咳，这个时候居然还有塞壬的“棋子”出现吗",
+			say = "Siren pawns... why now of all times...?!",
 			flashN = {
 				color = {
 					1,
@@ -281,8 +281,8 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:179}",
-			say = "这里就交给我们吧，{namecode:74}大人，请您尽快前往本殿，{namecode:82}大人等人都在等您呢",
+			actorName = "Ryuuhou",
+			say = "Leave this to us. Lady Nagato, please head to the island now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,11 +293,12 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:74}",
-			side = 2,
+			actor = 305050,
 			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
-			say = "那么，一切就拜托了！",
+			actorName = "Nagato",
+			say = "Very well. I'm counting on you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

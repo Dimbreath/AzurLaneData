@@ -13,7 +13,7 @@ return {
 			dir = 1,
 			stopbgm = true,
 			actorName = "{namecode:179}",
-			say = "{namecode:180}，{namecode:181}？你们那边的敌人清理干净了么，来得正好——",
+			say = "Kasumi! Kinu! You've held out well! Now get over here and–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 			bgName = "bg_xinnong_cg4",
 			bgm = "battle-boss-4",
 			nameColor = "#a9f548",
-			say = "{namecode:179}小心！",
+			say = "Ryuuhou! Look out!",
 			action = {
 				{
 					y = 30,
@@ -58,7 +58,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 301810,
 			nameColor = "#ff5c5c",
-			say = "…",
+			say = "......",
 			flashN = {
 				color = {
 					1,
@@ -106,7 +106,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:181}？",
-			say = "…",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "住手，你们这是在做什么…？",
+			say = "What are you doing?! Stop the friendly fire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个感觉…和她们平时的气息有所不同",
+			say = "I don't believe that was an accident... Something feels wrong about them...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 305140,
-			say = "她们不是同伴…是塞壬基于我们的数据而生产出的“棋子”！",
+			say = "Because \"they\" aren't Kasumi and Kinu! They're pawns the Sirens created based on their data!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "咕…真是恶趣味…！",
+			say = "Of course... The Sirens always play dirty!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 0,
 			dir = 1,
 			actor = 306070,
-			say = "大家不要动摇，牢记我们的使命。守护天岩岛，消灭所有来犯之敌！",
+			say = "Don't let their appearances fool you, everyone! Protect the islands from these impostors!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
