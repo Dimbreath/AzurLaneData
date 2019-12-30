@@ -432,7 +432,7 @@ function slot0.UpdatePaintingFace(slot0, slot1)
 	end
 
 	if slot0.paintingFitter.childCount > 0 then
-		Ship.SetExpression(slot0.paintingFitter:GetChild(0), slot0.paintingName, slot4, slot2.intimacy)
+		Ship.SetExpression(slot0.paintingFitter:GetChild(0), slot0.paintingName, slot4, slot2.matchFavor)
 	end
 end
 

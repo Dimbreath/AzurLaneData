@@ -23,6 +23,7 @@ end
 
 function slot0.initUI(slot0)
 	slot0.bg = slot0:findTF("BG")
+	slot0.backBtn = slot0:findTF("BackBtn")
 	slot0.buffListTF = slot0:findTF("Main/BuffList")
 
 	for slot4 = 1, 3, 1 do
@@ -32,7 +33,7 @@ function slot0.initUI(slot0)
 		end, SFX_PANEL)
 	end
 
-	onButton(slot0, slot0.bg, function ()
+	onButton(slot0, slot0.backBtn, function ()
 		slot0:Destroy()
 	end, SFX_CANCEL)
 end
