@@ -4783,6 +4783,24 @@ pg.activity_ins_npc_template = {
 			}
 		}
 	},
+	{
+		ship_group = 30514,
+		npc_reply_persist = "",
+		message_persist = "ins_discuss_1_1",
+		id = 262,
+		time_persist = {
+			{
+				2019,
+				10,
+				31
+			},
+			{
+				20,
+				0,
+				0
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -5044,7 +5062,8 @@ pg.activity_ins_npc_template = {
 		258,
 		259,
 		260,
-		261
+		261,
+		262
 	}
 }
 

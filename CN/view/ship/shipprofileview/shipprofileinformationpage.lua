@@ -24,7 +24,7 @@ function slot0.OnInit(slot0)
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.voiceBtnCN, function ()
-		if ShipGroup.getDefaultSkin(slot0).voice_key < 0 then
+		if pg.ship_skin_words[ShipGroup.getDefaultSkin(slot0).id].voice_key < 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("word_comingSoon"))
 
 			return
@@ -35,9 +35,10 @@ function slot0.OnInit(slot0)
 		setActive(slot0.voiceBtnJP, true)
 		slot0.cvLoader:Load(slot0.skin.id)
 		slot0:SetAuthorInfo()
+		slot0:UpdateCvList(slot0.isLive2d)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.voiceBtnJP, function ()
-		if ShipGroup.getDefaultSkin(slot0).voice_key_2 < 0 then
+		if pg.ship_skin_words[ShipGroup.getDefaultSkin(slot0).id].voice_key_2 < 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("word_comingSoon"))
 
 			return
@@ -48,6 +49,7 @@ function slot0.OnInit(slot0)
 		setActive(slot0.voiceBtnJP, false)
 		slot0.cvLoader:Load(slot0.skin.id)
 		slot0:SetAuthorInfo()
+		slot0:UpdateCvList(slot0.isLive2d)
 	end, SFX_PANEL)
 end
 
