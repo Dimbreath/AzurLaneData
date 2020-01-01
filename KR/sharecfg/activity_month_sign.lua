@@ -244,7 +244,7 @@ pg.activity_month_sign = {
 			{
 				1,
 				2,
-				350
+				450
 			}
 		},
 		day31 = {
