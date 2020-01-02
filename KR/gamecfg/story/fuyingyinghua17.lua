@@ -6,12 +6,14 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301490,
-			nameColor = "#a9f548",
+			expression = 5,
 			side = 2,
+			bgName = "bg_xinnong_cg4",
+			nameColor = "#a9f548",
 			dir = 1,
-			say = "那边的是…{namecode:6}和拉菲？！",
-			bgm = "holo-control-inst",
+			stopbgm = true,
+			actorName = "{namecode:179}",
+			say = "Kasumi! Kinu! You've held out well! Now get over here and–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,12 +24,24 @@ return {
 			}
 		},
 		{
-			expression = 2,
-			nameColor = "#a9f548",
+			expression = 4,
 			side = 2,
+			actorName = "{namecode:175}",
 			dir = 1,
-			actor = 10500040,
-			say = "那两个可爱的女孩子是你的同伴吗？",
+			bgName = "bg_xinnong_cg4",
+			bgm = "battle-boss-4",
+			nameColor = "#a9f548",
+			say = "Ryuuhou! Look out!",
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,11 +52,45 @@ return {
 			}
 		},
 		{
-			actor = 301490,
-			side = 2,
-			nameColor = "#a9f548",
+			side = 1,
+			actorName = "{namecode:180}？",
 			dir = 1,
-			say = "没错。",
+			soundeffect = "event:/battle/boom2",
+			actor = 301810,
+			nameColor = "#ff5c5c",
+			say = "......",
+			flashN = {
+				color = {
+					1,
+					1,
+					1
+				},
+				alpha = {
+					{
+						0,
+						1,
+						0.2
+					},
+					{
+						1,
+						0,
+						0.2,
+						0.2
+					},
+					{
+						0,
+						1,
+						0.2,
+						0.4
+					},
+					{
+						1,
+						0,
+						0.2,
+						0.6
+					}
+				}
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,12 +101,12 @@ return {
 			}
 		},
 		{
-			expression = 2,
-			nameColor = "#a9f548",
-			side = 2,
+			actor = 302080,
+			nameColor = "#ff5c5c",
+			side = 1,
 			dir = 1,
-			actor = 10500040,
-			say = "好厉害，面对比自己大那么多的航母还能这么英勇的战斗！",
+			actorName = "{namecode:181}？",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,11 +117,11 @@ return {
 			}
 		},
 		{
-			actor = 301490,
-			side = 2,
+			actor = 302210,
+			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真奇怪，这片海域的塞壬以纯航空母舰编队为主，缺乏随行的护卫舰…",
+			say = "What are you doing?! Stop the friendly fire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,11 +132,11 @@ return {
 			}
 		},
 		{
-			actor = 301490,
-			side = 2,
+			actor = 306070,
+			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "走吧，我们去帮她们解决这场战斗。",
+			say = "I don't believe that was an accident... Something feels wrong about them...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,11 +147,28 @@ return {
 			}
 		},
 		{
-			actor = 10500040,
-			side = 2,
+			expression = 4,
 			nameColor = "#a9f548",
+			side = 0,
 			dir = 1,
-			say = "嗯！",
+			actor = 305140,
+			say = "Because \"they\" aren't Kasumi and Kinu! They're pawns the Sirens created based on their data!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 0,
+			dir = 1,
+			actor = 306070,
+			nameColor = "#a9f548",
+			say = "Of course... The Sirens always play dirty!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,13 +179,29 @@ return {
 			},
 			action = {
 				{
-					y = 30,
+					y = 0,
 					type = "shake",
 					delay = 0,
-					dur = 0.15,
-					x = 0,
+					dur = 0.3,
+					x = 20,
 					number = 2
 				}
+			}
+		},
+		{
+			expression = 4,
+			nameColor = "#a9f548",
+			side = 0,
+			dir = 1,
+			actor = 306070,
+			say = "Don't let their appearances fool you, everyone! Protect the islands from these impostors!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		}
 	}
