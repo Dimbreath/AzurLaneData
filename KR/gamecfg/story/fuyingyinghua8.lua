@@ -54,7 +54,7 @@ return {
 			side = 0,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好险好险，刚刚好几次都把我逼到危险的位置了。真是后生可谓啊~",
+			say = "好险好险，刚刚好几次都把我逼到危险的位置了。真是后生可畏啊~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

@@ -14435,6 +14435,65 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[303171] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 30317,
+		breakout_id = 303172,
+		breakout_view = "스킬 습득 - 전탄 발사 I / 주포 효율 +5%",
+		id = 303171,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			72254
+		}
+	},
+	[303172] = {
+		use_gold = 1500,
+		pre_id = 303171,
+		use_char_num = 1,
+		use_char = 30317,
+		breakout_id = 303173,
+		breakout_view = "어뢰 발사 수 +1 / 어뢰 탑재량 +1 / 대공포 효율 +10%",
+		id = 303172,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[303173] = {
+		use_gold = 2500,
+		pre_id = 303172,
+		use_char_num = 2,
+		use_char = 30317,
+		breakout_id = 303174,
+		breakout_view = "전탄 발사 스킬 강화 / 모든 무기 효율 +5%",
+		id = 303173,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			72255
+		}
+	},
+	[303174] = {
+		use_gold = 0,
+		pre_id = 303173,
+		use_char_num = 0,
+		use_char = 30317,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 303174,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[304011] = {
 		use_gold = 500,
 		pre_id = 0,
@@ -16885,6 +16944,67 @@ pg.ship_data_breakout = {
 		breakout_id = 0,
 		breakout_view = "없음",
 		id = 312014,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[317011] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 31701,
+		breakout_id = 317012,
+		breakout_view = "스킬 습득 - 특수 탄막 I / 어뢰 효율 +5%",
+		id = 317011,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			79371
+		}
+	},
+	[317012] = {
+		use_gold = 3000,
+		pre_id = 317011,
+		use_char_num = 1,
+		use_char = 31701,
+		breakout_id = 317013,
+		breakout_view = "어뢰 발사 수 +1 / 수상기 발사 수+1 / 지원 범위 확대",
+		id = 317012,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			140,
+			140,
+			140,
+			140
+		}
+	},
+	[317013] = {
+		use_gold = 10000,
+		pre_id = 317012,
+		use_char_num = 2,
+		use_char = 31701,
+		breakout_id = 317014,
+		breakout_view = "특수 탄막 강화 / 어뢰 효율 +10%",
+		id = 317013,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			79372
+		}
+	},
+	[317014] = {
+		use_gold = 0,
+		pre_id = 317013,
+		use_char_num = 0,
+		use_char = 31701,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 317014,
 		icon = "10001",
 		level = 0,
 		use_item = {},
@@ -23574,6 +23694,10 @@ pg.ship_data_breakout = {
 		303152,
 		303153,
 		303154,
+		303171,
+		303172,
+		303173,
+		303174,
 		304011,
 		304012,
 		304013,
@@ -23730,6 +23854,10 @@ pg.ship_data_breakout = {
 		312012,
 		312013,
 		312014,
+		317011,
+		317012,
+		317013,
+		317014,
 		401011,
 		401012,
 		401013,

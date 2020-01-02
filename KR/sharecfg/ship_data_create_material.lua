@@ -70,15 +70,14 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>S Rare</color>：12%",
 			"<color=#3dc6ff>Rare</color>：51%",
 			"Normal：30%",
-			"<color=#ffde38>시라카미 후부키</color>：2%(<color=#92fc63>up!</color>)",
-			" ",
-			"<color=#ffde38>미나토 아쿠아</color>：2%(<color=#92fc63>up!</color>)",
-			" ",
-			"<color=#ffde38>토키노 소라</color>：0.5%",
-			" ",
-			"<color=#d797ff>나츠이로 마츠리</color>：2.5%(<color=#92fc63>up!</color>)",
-			" ",
-			"<color=#d797ff>나키리 아야메</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>나가토</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>카와카제</color>：1.8%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>이13</color>：2.0%",
+			"<color=#d797ff>스즈야</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>요이즈키</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>하루츠키</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#3dc6ff>후미즈키</color>：5.0%(<color=#92fc63>up!</color>",
+			"<color=#3dc6ff>아사시오</color>：5.0%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

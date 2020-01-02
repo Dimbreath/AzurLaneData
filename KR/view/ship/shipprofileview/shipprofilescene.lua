@@ -364,15 +364,17 @@ function slot0.CreateLive2D(slot0)
 		slot0.l2dChar:Dispose()
 	end
 
-	slot0.l2dChar = Live2D.New(Live2D.live2dData({
-		ship = Ship.New({
-			configId = slot0.shipGroup:getShipConfigId(),
-			skin_id = slot0.skin.id
-		}),
-		scale = Vector3(52, 52, 52),
-		position = Vector3(0, -40, 100),
-		parent = slot0.l2dRoot
-	}))
+	slot0.l2dChar = Live2D.New(slot2)
+
+	if isHalfBodyLive2D(slot0.skin.prefab) then
+		setAnchoredPosition(slot0.l2dRoot, {
+			y = -37 - (slot0.painting.rect.height - slot0.l2dRoot.rect.height * 1.5) / 2
+		})
+	else
+		setAnchoredPosition(slot0.l2dRoot, {
+			y = 0
+		})
+	end
 end
 
 function slot0.GetModelAction(slot0, slot1)
@@ -430,7 +432,7 @@ function slot0.UpdatePaintingFace(slot0, slot1)
 	end
 
 	if slot0.paintingFitter.childCount > 0 then
-		Ship.SetExpression(slot0.paintingFitter:GetChild(0), slot0.paintingName, slot4, slot2.intimacy)
+		Ship.SetExpression(slot0.paintingFitter:GetChild(0), slot0.paintingName, slot4, slot2.matchFavor)
 	end
 end
 

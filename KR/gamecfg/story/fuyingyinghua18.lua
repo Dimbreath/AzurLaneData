@@ -6,13 +6,76 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			expression = 3,
+			expression = 1,
 			side = 2,
 			dir = 1,
-			bgm = "holo-control-inst",
-			actor = 900214,
+			bgm = "xinnong-2",
+			actor = 302210,
 			nameColor = "#a9f548",
-			say = "哇啊啊啊！祭，你没事吗，太好了…..",
+			say = "没有灵魂的仿制品…不过如此，消失吧！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			nameColor = "#a9f548",
+			side = 2,
+			dir = 1,
+			actor = 306070,
+			say = "很好，区域肃清！我们快去其他地方增援吧",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 302210,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "如果塞壬是瞄准祭典来的，那么神石就可能有危险！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			nameColor = "#a9f548",
+			side = 2,
+			dir = 1,
+			actor = 306070,
+			say = "一航战、五航战的前辈甚至{namecode:82}大前辈都在本岛，只要我们守住结界外围…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			dir = 1,
+			actor = 302210,
+			nameColor = "#a9f548",
+			say = "啊，{namecode:179}大人，快看天空！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,174 +99,9 @@ return {
 			expression = 2,
 			side = 2,
 			dir = 1,
-			actor = 900214,
+			actor = 306070,
 			nameColor = "#a9f548",
-			say = "呜呜呜呜，我好怕———",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			action = {
-				{
-					y = 0,
-					type = "shake",
-					delay = 0,
-					dur = 0.4,
-					x = 30,
-					number = 2
-				}
-			}
-		},
-		{
-			expression = 3,
-			nameColor = "#a9f548",
-			side = 2,
-			dir = 1,
-			actor = 10500040,
-			say = "不哭，不哭，没事啦～诗音了不起哦~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 900213,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "余等能得救，还是多亏了拉菲和{namecode:6}的帮助呢，谢谢你们。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301050,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "因为，你们不是坏人。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 101170,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "没事，塞壬也是我们的敌人。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			nameColor = "#a9f548",
-			side = 2,
-			dir = 1,
-			actor = 10500040,
-			say = "这样一来，我们之中走散的人就只剩下空前辈了",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301490,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "嗯，我们这边也只剩下Z23了，但愿能像{namecode:6}拉菲她们一样顺利汇合。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			nameColor = "#a9f548",
-			side = 2,
-			dir = 1,
-			actor = 10500040,
-			say = "但愿如此……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			nameColor = "#a9f548",
-			side = 2,
-			dir = 1,
-			actor = 900213,
-			say = "虽然现在安全了，不过余的百鬼城……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 10500040,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "不用难过绫目酱！等战斗结束之后，我们陪你一起重建，建一个更大，更帅气，更坚固的百鬼城~！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			dir = 1,
-			actor = 900213,
-			nameColor = "#a9f548",
-			say = "这次一定要加上地下暗道…！",
+			say = "那些是…乌云中散发着紫色的光？！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,6 +119,263 @@ return {
 					x = 0,
 					number = 2
 				}
+			}
+		},
+		{
+			expression = 1,
+			nameColor = "#a9f548",
+			side = 2,
+			dir = 1,
+			actor = 302210,
+			say = "再感受一下水面，和之前的感觉也有所不同",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			dir = 1,
+			actor = 305140,
+			nameColor = "#a9f548",
+			say = "？！真的……这是怎么回事？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			actor = 302080,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "镜面海域。塞壬刚刚把包含天岩岛在内的整片区域，全部转化为了镜面海域",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 5,
+			nameColor = "#a9f548",
+			side = 2,
+			dir = 1,
+			actor = 306070,
+			say = "啊，真正的{namecode:181}和{namecode:180}，你们平安无事真是太好了~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301810,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "呼呼，西面的量产型已经被我们压制了哦~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "{namecode:181}",
+			side = 2,
+			dir = 1,
+			bgName = "bg_xinnong_cg5",
+			nameColor = "#a9f548",
+			hidePaintObj = true,
+			say = "见到{namecode:179}大人的舰载机在此盘旋就立刻赶过来了…西面的量产型已经被我们压制了",
+			flashout = {
+				dur = 0.5,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 0.5,
+				dur = 0.5,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_xinnong_cg5",
+			dir = 1,
+			actorName = "{namecode:181}",
+			hidePaintObj = true,
+			say = "气压骤降、风速减弱、海面波浪回归平静，映照出水面的自我…对外电波信号完全屏蔽…确实和记录中的一样",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_xinnong_cg5",
+			dir = 1,
+			actorName = "{namecode:181}",
+			hidePaintObj = true,
+			say = "和以往不同的是，镜面海域一般是在“海上”形成的，之前从未见过这样“覆盖岛屿”非自然形成的案例",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_xinnong_cg5",
+			dir = 1,
+			actorName = "{namecode:181}",
+			hidePaintObj = true,
+			say = "预测接下来很可能会有更大规模的袭击，{namecode:179}大人，请给予指示",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			actor = 306070,
+			actorName = "{namecode:179}",
+			say = "…………",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			actor = 306070,
+			actorName = "{namecode:179}",
+			say = "这次是…来自东面吗？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			actor = 302210,
+			actorName = "{namecode:50}",
+			say = "东面是暗礁地区，塞壬理论上应该无法进入，所以并没有部署战力…这究竟是…？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			actor = 306070,
+			actorName = "{namecode:179}",
+			say = "{namecode:180}，{namecode:175}——随我一同前往调查究竟，其他诸位，请务必死守正面航线！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			actorName = "众人",
+			hidePaintObj = true,
+			dir = 1,
+			side = 2,
+			say = "是！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			}
 		}
 	}

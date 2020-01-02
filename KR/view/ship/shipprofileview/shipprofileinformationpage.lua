@@ -96,7 +96,7 @@ end
 
 function slot0.UpdateProfileInfo(slot0)
 	slot1, slot2, slot0.profileTxt.text = ShipWordHelper.GetWordAndCV(slot0.skin.id, ShipWordHelper.WORD_TYPE_PROFILE)
-	slot5 = pg.ship_skin_words[slot0.skin.id] and slot4.voice_key >= 0
+	slot5 = pg.ship_skin_words[slot0.skin.id] and (slot4.voice_key >= 0 or slot4.voice_key == -2)
 
 	if slot5 then
 		onButton(slot0, slot0.profilePlayBtn, function ()

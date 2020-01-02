@@ -200,7 +200,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在你那一招命中之前，欧根一轮齐射就能送你去回去大修了。",
+			say = "在你那一招命中之前，欧根一轮齐射就能送你回去大修了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

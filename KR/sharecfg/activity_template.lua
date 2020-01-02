@@ -11937,6 +11937,385 @@ pg.activity_template = {
 			}
 		}
 	},
+	[20342] = {
+		mark = 20200102,
+		title_res_tag = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 121,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		bg = "",
+		id = 20342,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20343] = {
+		mark = 20200102,
+		title_res_tag = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 20343,
+		config_data = {
+			14230,
+			14231,
+			14232,
+			14233,
+			14234,
+			14235,
+			14236,
+			14237,
+			14238,
+			14239,
+			14240,
+			14241,
+			14242,
+			14243,
+			14244,
+			14284
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20344] = {
+		mark = 20200102,
+		title_res_tag = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		bg = "",
+		id = 20344,
+		config_data = {
+			680,
+			681,
+			682,
+			683,
+			684,
+			685,
+			686,
+			687,
+			688,
+			689,
+			690,
+			691
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_fengshan",
+			{
+				1,
+				0.65,
+				0.23,
+				1
+			},
+			pt_id = 121,
+			painting = "luao_pt"
+		}
+	},
+	[20345] = {
+		mark = 20200102,
+		title_res_tag = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 42,
+		config_client = "",
+		id = 20345,
+		config_data = {
+			1210001,
+			1210002,
+			1210003,
+			1210004,
+			1210011,
+			1210012,
+			1210013,
+			1210014,
+			1210005,
+			1210006,
+			1210015,
+			1210016,
+			1210021
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/moran_maingpage"
+		}
+	},
+	[20346] = {
+		mark = 20200102,
+		title_res_tag = "",
+		type = 54,
+		login_pop = 0,
+		config_id = 20346,
+		is_show = 41,
+		config_client = "",
+		id = 20346,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/moran_pt"
+		}
+	},
+	[20347] = {
+		mark = 20200102,
+		title_res_tag = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 20347,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20348] = {
+		mark = 20200102,
+		title_res_tag = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 20348,
+		config_data = {
+			3001201,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20349] = {
+		mark = 20200102,
+		title_res_tag = "donghuadenglu",
+		type = 3,
+		login_pop = 3,
+		config_id = 15,
+		is_show = 43,
+		config_client = "",
+		id = 20349,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/donghuacb_login"
+		}
+	},
 	[25000] = {
 		mark = 20188020,
 		title_res_tag = "",
@@ -12808,6 +13187,14 @@ pg.activity_template = {
 		20339,
 		20340,
 		20341,
+		20342,
+		20343,
+		20344,
+		20345,
+		20346,
+		20347,
+		20348,
+		20349,
 		25000,
 		25001,
 		25002,

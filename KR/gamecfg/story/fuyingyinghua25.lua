@@ -6,10 +6,13 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "三个小时后",
+			nameColor = "#FF5C5CFF",
 			side = 2,
 			dir = 1,
-			bgm = "holo-mio",
+			bgm = "xinnong-4",
+			actor = 900192,
+			actorName = "？？？",
+			say = "拖得太久了，不妙…时间就快到了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,12 +23,9 @@ return {
 			}
 		},
 		{
-			expression = 4,
-			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10500070,
-			say = "…对不起，是咱太自信了。",
+			say = "“不速之客”转身想要迂回，{namecode:96}一个迅步挡在了她的面前",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,12 +36,11 @@ return {
 			}
 		},
 		{
-			expression = 2,
-			nameColor = "#a9f548",
+			actor = 307060,
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
-			actor = 10500070,
-			say = "不但拓展了规模，新设置了大量机关和伏兵，甚至还制造了模仿原迷宫安全路线的陷阱路线…还是在海上…",
+			say = "别想从我面前…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,12 +51,12 @@ return {
 			}
 		},
 		{
-			expression = 2,
-			nameColor = "#a9f548",
+			actor = 900192,
+			nameColor = "#FF5C5CFF",
 			side = 2,
 			dir = 1,
-			actor = 10500010,
-			say = "已经是堪比孔明陷阱的海上大迷宫了啊。",
+			actorName = "？？？",
+			say = "明镜止水——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,12 +67,9 @@ return {
 			}
 		},
 		{
-			expression = 2,
-			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10500050,
-			say = "改造这片迷宫的人肯定对原本的迷宫非常熟悉呢…",
+			say = "就在{namecode:96}想要抬手阻拦的一瞬间，一股强烈的寒意让她本能地停下了动作",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,11 +80,9 @@ return {
 			}
 		},
 		{
-			actor = 301490,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "…答案很明显了。",
+			say = "下一瞬，眼前的敌人已经从自己的侧身闪过",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,12 +93,9 @@ return {
 			}
 		},
 		{
-			expression = 2,
-			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actor = 10500010,
-			say = "这次是澪么…从合理性角度来说，确实是最适合守卫迷宫的人选。",
+			say = "只留下驻足在原地彷徨的{namecode:96}",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,12 +106,11 @@ return {
 			}
 		},
 		{
-			expression = 1,
-			nameColor = "#a9f548",
+			actor = 307050,
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
-			actor = 10500020,
-			say = "会特意派人设置阻挡，反而说明我们走的是正确方向吧",
+			say = "{namecode:96}！！没事吧？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,11 +121,11 @@ return {
 			}
 		},
 		{
-			actor = 301490,
+			actor = 307060,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正因如此，敌人依然停留在迷宫中，伺机袭击我们的可能性很高",
+			say = "…刚才那是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,23 +136,11 @@ return {
 			}
 		},
 		{
-			expression = 2,
+			actor = 307060,
 			side = 2,
-			actor = 10500070,
-			dir = 1,
 			nameColor = "#a9f548",
-			say = "可恶，咱也要认真起来了！真品怎么可能输给赝品啊！",
-			dialogShake = {
-				speed = 0.09,
-				x = 8.5,
-				number = 2
-			},
-			effects = {
-				{
-					active = true,
-					name = "speed"
-				}
-			},
+			dir = 1,
+			say = "仿佛那一秒要是继续攻击，手就要被斩断了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,18 +151,41 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			actor = 307060,
 			side = 2,
-			dir = 1,
-			actor = 10500010,
 			nameColor = "#a9f548",
-			say = "这可是著名flag哦，澪…",
-			effects = {
-				{
-					active = false,
-					name = "speed"
-				}
+			dir = 1,
+			say = "不…是就要死去了",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
 			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307060,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307060,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "这就是…剑法的极意？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

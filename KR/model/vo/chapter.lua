@@ -182,6 +182,8 @@ function slot0.getRemainPassCount(slot0)
 end
 
 function slot0.getRiskLevel(slot0)
+	print("rrrr")
+
 	if slot0:getDataType() == ChapterConst.TypeNone then
 		slot1 = slot0:getRemainPassCount()
 

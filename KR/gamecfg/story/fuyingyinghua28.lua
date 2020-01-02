@@ -6,14 +6,12 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			expression = 2,
+			say = "数日后·天岩岛",
 			side = 2,
-			nameColor = "#ff5c5c",
+			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			bgm = "holo-control",
-			actor = 10500070,
-			actorName = "澪川依代",
-			say = "不…不行了！",
+			bgmDelay = 1,
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,13 +22,10 @@ return {
 			}
 		},
 		{
-			expression = 1,
 			side = 2,
-			nameColor = "#ff5c5c",
+			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			actor = 10500050,
-			actorName = "燕子花奈切",
-			say = "到此为止了么…",
+			say = "庭院中央，{namecode:96}、{namecode:158}、{namecode:50}、{namecode:181}正在互相交流剑法",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,74 +36,33 @@ return {
 			}
 		},
 		{
-			expression = 2,
+			say = "竹剑之间不断地发出碰撞的打击声",
 			side = 2,
+			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			actor = 10500020,
+			soundeffect = "event:/ui/minigame_sword",
+			dialogShake = {
+				speed = 0.09,
+				x = 8.5,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
-			say = "又是和之前一样的传送指令把她们传送走了！",
-			flashout = {
-				dur = 1,
-				alpha = {
-					0,
-					1
-				}
-			},
-			flashin = {
-				delay = 1.5,
-				dur = 1,
-				alpha = {
-					1,
-					0
-				}
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 401230,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "在最后极限时刻才触发...是某种服务器的保护特性么",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 4,
-			nameColor = "#a9f548",
-			side = 2,
-			dir = 1,
-			actor = 10500070,
-			say = "呼…虽说知道是塞壬制造出的战斗兵器，不过就这么真的将其破坏心理压力还是挺大的",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			dir = 1,
-			actor = 10500070,
-			nameColor = "#a9f548",
-			say = "要是都像这么在最后一丝血被传送走，也算能放下心里负担全力战斗了~果然真品是不可能输给赝品的！",
+			say = "{namecode:82}大人，早！又在看着她们修行啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,12 +83,16 @@ return {
 			}
 		},
 		{
-			expression = 3,
-			nameColor = "#a9f548",
-			side = 2,
+			say = "是啊，这次事件虽然对我们来说损失惨重，甚至还让那个神秘人给逃脱了...",
+			side = 0,
+			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			actor = 10500010,
-			say = "唉…还好这里不是剧场版，也不是EX关……",
+			actor = 305110,
+			nameColor = "#a9f548",
+			paintingFadeOut = {
+				time = 0.5,
+				side = 1
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,11 +103,47 @@ return {
 			}
 		},
 		{
-			actor = 401230,
-			side = 2,
+			actor = 305110,
+			side = 0,
+			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无法彻底击败敌人，就意味着现在击败的敌人迟早会卷土重来，战况一旦拖延久就危险了哎",
+			say = "但是这事也让这群孩子直视到了差距，激起了不少斗志，也算是种因祸得福了吧…哈哈",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			say = "……",
+			flashout = {
+				dur = 0.5,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 0.5,
+				dur = 0.5,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			}
+		},
+		{
+			say = "哐—— 哐——",
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			soundeffect = "event:/ui/minigame_sword",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,9 +156,103 @@ return {
 		{
 			actor = 301490,
 			side = 2,
+			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最初就没有考虑过持久战。",
+			say = "呃…不愧是传说中的重樱第一高手，剑法凌厉，在下甘拜下风",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			say = "承让了，不过那什么重樱第一高手的称号还是算了吧，在面对神秘人的时候我这剑法根本扛不下几招",
+			side = 0,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
+			paintingFadeOut = {
+				time = 0.5,
+				side = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 0,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
+			say = "除此之外，海对面还有灰色幽灵、蓝色幽灵之类的家伙存在…这个世界，真是太太太有趣了！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
+			say = "大家修行辛苦了，来吃点点心吧~",
+			flashout = {
+				dur = 0.5,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 0.5,
+				dur = 0.5,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			say = "{namecode:95}提着一篮海军馒头从里屋走了出来，刚才还在修行的人们一下子就围了上去——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,9 +265,556 @@ return {
 		{
 			actor = 307060,
 			side = 2,
+			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "空小姐，今天的眼神中的迷茫减少了不少，行动也果断多了呢",
+			say = "{namecode:95}姐~前几天是我修行不足才让你又受伤了的，对不起！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			say = "{namecode:96}向{namecode:95}摆出深深的鞠躬道歉状",
+			side = 1,
+			bgName = "bg_xinnong_cg1",
+			withoutActorName = true,
+			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
+			paintingFadeOut = {
+				time = 0.5,
+				side = 0
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			side = 1,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
+			say = "啊啦啦，这不怪{namecode:96}哦，毕竟是对手太强了嘛，你倒是应该要感谢对方没有对我们下死手哦",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 0,
+					type = "shake",
+					delay = 0,
+					dur = 0.2,
+					x = 30,
+					number = 2
+				}
+			}
+		},
+		{
+			side = 1,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
+			say = "而且，受伤什么的~人家早就习惯了嘛呵呵呵~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			actor = 307060,
+			side = 0,
+			bgName = "bg_xinnong_cg1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "呜——确实是我的不足才…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307050,
+			side = 1,
+			bgName = "bg_xinnong_cg1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "身为姐姐哦，只要看到妹妹能够那么正直、那么努力便心满意足了~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307050,
+			side = 1,
+			bgName = "bg_xinnong_cg1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "迟早有一天，你也要为了自己而努力活着...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 0,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
+			say = "{namecode:95}姐，不要立这种Flag啊！！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			bgmDelay = 2,
+			bgm = "main-newyear",
+			say = "{namecode:158}看了一眼坐在玄关边上喝着麦茶的{namecode:74}",
+			flashout = {
+				dur = 0.5,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 0.5,
+				dur = 0.5,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301490,
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "{namecode:74}大人，我也…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301490,
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "在下因为修行不足让您两次受惊了！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			actor = 301490,
+			nameColor = "#a9f548",
+			say = "在下自知将来无法胜任侍卫这一职责，希望请辞，望{namecode:74}大人——",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = -2500,
+					type = "move",
+					delay = 1.5,
+					dur = 1,
+					x = -0
+				}
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			say = "{namecode:158}向{namecode:74}行了跪礼，用尽力气说道",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305050,
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "可以哦",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301490,
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305050,
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "如果能找到比{namecode:158}更忠心、更勇敢、更了解我的侍卫的话，可以哦",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301490,
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "诶？…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305050,
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "但是，这样的侍卫这个世界上也许再也找不到了，所以…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			actor = 305050,
+			nameColor = "#a9f548",
+			say = "驳回你的请辞！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			actor = 301490,
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "呜——",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			say = "{namecode:158}默默低下头，擦了下眼角的泪水，不想让人看见",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			actor = 301490,
+			nameColor = "#a9f548",
+			say = "在下…在下定会精进武艺，不辜负{namecode:74}大人的期待的！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			say = "{namecode:74}笑着摸了摸{namecode:158}的头顶~",
+			side = 0,
+			bgName = "bg_xinnong_cg1",
+			withoutActorName = true,
+			dir = 1,
+			actor = 305050,
+			nameColor = "#a9f548",
+			paintingFadeOut = {
+				time = 0.5,
+				side = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 0,
+					type = "shake",
+					delay = 0,
+					dur = 0.2,
+					x = 30,
+					number = 2
+				}
+			}
+		},
+		{
+			expression = 6,
+			side = 2,
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			actor = 306070,
+			nameColor = "#a9f548",
+			say = "哇…这样的气氛…一下子变得好厉害啊",
+			flashout = {
+				dur = 0.5,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 0.5,
+				dur = 0.5,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			actor = 305110,
+			nameColor = "#a9f548",
+			say = "啊哈哈哈，这就是青春的气息啊~真好啊真好",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "不知不觉也让我想到了以前并肩作战的姐妹们了…呵呵呵",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,238 +826,12 @@ return {
 		},
 		{
 			expression = 1,
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
-			side = 2,
-			dir = 1,
-			actor = 10500020,
-			say = "我已经不会再犹豫了，只有阻止塞壬的计划，才能真正结束这一切",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 101170,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "拉菲也不想总和长得一样的对手战斗了……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 401230,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "是啊，面对这些和同伴长得一样的复制品，又有谁赢了之后会觉得好受呢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 307060,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "归根结底，都是塞壬的错！嗯…回去之后去揍净化亲消消气好了！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 101170,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "拉菲也要…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			actor = 900021,
-			actorName = "净化亲",
-			say = "这边听得到哦！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 307060,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "哎？！怎么偏偏在这时候发来联络了…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			nameColor = "#a9f548",
-			side = 2,
-			dir = 1,
-			actor = 301050,
-			say = "Z23，你们那边做了什么吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 401230,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "我们刚刚解决掉了塞壬伏兵正准备继续前进，基地出现什么问题了么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			nameColor = "#a9f548",
-			side = 2,
-			dir = 1,
-			actor = 301050,
-			say = "倒不是基地的事…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			nameColor = "#a9f548",
-			side = 2,
-			dir = 1,
-			actor = 201210,
-			say = "是空中！就在刚刚一道黑色的光幕突然凭空出现在海面上封锁了水面！从距离看，正好就是你们迷宫的另一边出口左右。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301490,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "什么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 10500050,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "大家快抬头看！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			dir = 1,
-			say = "如标枪所说，一道巨大的光幕，不知何时出现在了空中。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			dir = 1,
-			say = "…该说是空中么？它几乎横跨了整片海洋，看不到顶端，也看不到边缘。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			paintingNoise = true,
-			nameColor = "#a9f548",
-			side = 2,
-			dir = 1,
-			actor = 10500060,
-			say = "跟你们说啊！这道屏障简直坚固的离谱！！刚刚诗音火力全开，居然！连一个窟窿都没打出来！",
+			say = "神秘人的事暂且不说，在神石找回来之前，天宇启户祭看来暂时是得停办了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,11 +843,12 @@ return {
 		},
 		{
 			expression = 2,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			actor = 10500010,
-			say = "明显是那种由GM制造出来，在设定上不可通行的防御壁呢…",
+			actor = 306070,
+			nameColor = "#a9f548",
+			say = "有一点我一直想不明白，神石究竟是在什么时候被调包了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,11 +859,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
+			actor = 305110,
 			side = 2,
+			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没办法继续前进了...",
+			say = "在现场的人里，塞壬由于没有重樱的血脉无法触碰神石，除了我们之外，就只有{namecode:91}一行了吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,11 +875,12 @@ return {
 			}
 		},
 		{
-			actor = 301490,
+			actor = 305110,
 			side = 2,
+			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天只能先回基地商量对策了，撤退吧",
+			say = "估计就是在神秘人朝观察者开炮后产生烟雾混乱的时候被她们给调包了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,12 +891,12 @@ return {
 			}
 		},
 		{
-			paintingNoise = true,
-			nameColor = "#a9f548",
+			actor = 305110,
 			side = 2,
+			bgName = "bg_xinnong_cg1",
+			nameColor = "#a9f548",
 			dir = 1,
-			actor = 10500040,
-			say = "那个，如果水面和天空都不行的话…",
+			say = "看来神秘人这次也是被塞壬给利用了啊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,12 +907,13 @@ return {
 			}
 		},
 		{
-			paintingNoise = true,
-			nameColor = "#a9f548",
+			expression = 1,
 			side = 2,
+			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			actor = 10500040,
-			say = "祭也许，有一个办法…",
+			actor = 306070,
+			nameColor = "#a9f548",
+			say = "！！{namecode:91}大人？可是…为什么不在现场揭穿她？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,6 +921,254 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "神秘人的目的是摧毁神石，如果当场揭穿的话，以{namecode:91}这孩子的性格，也许真的会以命相护的吧",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			actor = 306070,
+			nameColor = "#a9f548",
+			say = "{namecode:82}大人居然想到了这个份上…真是令在下敬佩",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			actor = 306070,
+			nameColor = "#a9f548",
+			say = "原来如此，怪不得神秘人一走，{namecode:91}她们就立刻急着离开",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "{namecode:91}这孩子，目的很单纯，只不过就是用错了手段，希望她能有迷途知返的一天吧…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			actor = 301810,
+			nameColor = "#a9f548",
+			say = "啊啊啊！！",
+			dialogShake = {
+				speed = 0.09,
+				x = 8.5,
+				number = 2
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 60,
+					type = "shake",
+					delay = 0,
+					dur = 0.2,
+					x = 0,
+					number = 4
+				}
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			actor = 302210,
+			nameColor = "#a9f548",
+			say = "{namecode:180}..怎么了？突然从楼梯上大惊小叫地跑下来？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			actor = 301810,
+			nameColor = "#a9f548",
+			say = "{namecode:182}...{namecode:182}..{namecode:182}大人…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			actor = 301810,
+			nameColor = "#a9f548",
+			say = "醒来了！！",
+			effects = {
+				{
+					active = true,
+					name = "speed"
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			mode = 1,
+			stopbgm = true,
+			effects = {
+				{
+					active = false,
+					name = "speed"
+				}
+			},
+			sequence = {
+				{
+					"<size=51>花虽芬芳终须落</size>",
+					1
+				},
+				{
+					"<size=51>人生无常岂奈何</size>",
+					3
+				},
+				{
+					"<size=51>俗世凡尘今朝脱</size>",
+					5
+				},
+				{
+					"<size=51>不恋醉梦免蹉跎</size>",
+					7
+				}
+			}
+		},
+		{
+			mode = 1,
+			stopbgm = true,
+			blackBg = true,
+			effects = {
+				{
+					active = true,
+					name = "logo_sakura"
+				}
+			},
+			sequence = {
+				{
+					"",
+					2
+				}
+			},
+			signDate = {
+				"————终",
+				3,
+				{
+					900,
+					-400
+				}
 			}
 		}
 	}

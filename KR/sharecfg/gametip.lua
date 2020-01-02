@@ -8874,7 +8874,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "시라카미 후부키、미나토 아쿠아、토키노 소라、 나츠이로 마츠리 、 나키리 아야메 출현 확률UP！ ",
+		tip = "나가토、카와카제、이13、스즈야 、요이즈키 、하루츠키、후미즈키 、아사시오 출현 확률UP！ ",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -11954,6 +11954,10 @@ TIPS:
 	title_limit_time = {
 		tip = "「한정」",
 		key = "title_limit_time"
+	},
+	pt_reconfirm = {
+		tip = "<color=#ff5c5c>$1</color>로 교환하시겠습니까? ",
+		key = "pt_reconfirm"
 	}
 }
 

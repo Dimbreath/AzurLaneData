@@ -3454,6 +3454,211 @@ pg.expedition_data_by_map = {
 		bind_map = 0,
 		clouds_pos = {}
 	},
+	[1210001] = {
+		map = 1210001,
+		name = "검게 물든 강철의 벚꽃 (상)|| ||EX. CHAPTER||EX.",
+		bgm = "Nagato-map",
+		type = 4,
+		on_activity = 20345,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "YINGHUA1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "yinghua_map_effect01",
+		cloud_suffix = "",
+		bg = "Map_1100001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1210011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1210002] = {
+		map = 1210002,
+		name = "검게 물든 강철의 벚꽃 (하)|| ||EX. CHAPTER||EX.",
+		bgm = "Nagato-map",
+		type = 4,
+		on_activity = 20345,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "YINGHUA9",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "yinghua_map_effect02",
+		cloud_suffix = "",
+		bg = "Map_1100002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1210012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1210011] = {
+		map = 1210011,
+		name = "검게 물든 강철의 벚꽃 (상)|| ||EX. CHAPTER||EX.",
+		bgm = "Nagato-map",
+		type = 5,
+		on_activity = 20345,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "YINGHUA1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "yinghua_map_effect03",
+		cloud_suffix = "",
+		bg = "Map_1100011",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1210001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1210012] = {
+		map = 1210012,
+		name = "검게 물든 강철의 벚꽃 (하)|| ||EX. CHAPTER||EX.",
+		bgm = "Nagato-map",
+		type = 5,
+		on_activity = 20345,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "YINGHUA9",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "yinghua_map_effect04",
+		cloud_suffix = "",
+		bg = "Map_1100012",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1210002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1210021] = {
+		map = 1210021,
+		name = "검게 물든 강철의 벚꽃 (EX)|| ||EX. CHAPTER||EX.",
+		bgm = "Nagato-map",
+		type = 8,
+		on_activity = 20345,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "yinghua_map_effect02",
+		cloud_suffix = "",
+		bg = "Map_1100012",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1210012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[1220001] = {
 		map = 1220001,
 		name = "버츄얼 연결고리의 공시성|| ||CHAPTER EX||E.X.",
@@ -5093,6 +5298,11 @@ pg.expedition_data_by_map = {
 		1190011,
 		1190021,
 		1200100,
+		1210001,
+		1210002,
+		1210011,
+		1210012,
+		1210021,
 		1220001,
 		1220021,
 		1230001,

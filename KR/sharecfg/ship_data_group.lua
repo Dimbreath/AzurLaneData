@@ -7869,6 +7869,29 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[382] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 382,
+		type = 3,
+		index_id = 234,
+		group_type = 30317,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"이벤트 : 검게 물든 강철의 벚꽃",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[321] = {
 		nationality = 3,
 		hide = 0,
@@ -9161,6 +9184,29 @@ pg.ship_data_group = {
 		description = {
 			{
 				"한정 건조",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[381] = {
+		nationality = 3,
+		hide = 0,
+		trans_skin = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		code = 381,
+		type = 8,
+		index_id = 284,
+		group_type = 31701,
+		trans_type = 0,
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"이벤트 : 검게 물든 강철의 벚꽃",
 				{
 					""
 				},
@@ -11840,6 +11886,7 @@ pg.ship_data_group = {
 		310,
 		188,
 		189,
+		382,
 		321,
 		190,
 		191,
@@ -11886,6 +11933,7 @@ pg.ship_data_group = {
 		397,
 		340,
 		398,
+		381,
 		232,
 		233,
 		379,
