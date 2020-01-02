@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	fadeType = 1,
+	fadeType = 2,
 	once = true,
 	id = "FUYINGYINGHUA14",
+	continueBgm = true,
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 10500040,
-			nameColor = "#a9f548",
+			say = "Diadem of Light - Sunset",
 			side = 2,
+			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "那边的箱形白色建筑就是holomart了，平时我们在仓库中囤积了各类道具，是收集补给品的最理想地点！",
-			bgm = "holo-control-inst",
+			bgm = "story-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,11 +23,10 @@ return {
 			}
 		},
 		{
-			actor = 301490,
+			bgName = "bg_xinnong_cg1",
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "关于刚才提到的这些补给品，我有一点不理解的事。",
+			say = "On the eve of the ceremony's commencement, a large banquet was held across the islands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,33 +37,144 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			bgName = "bg_xinnong_cg1",
 			side = 2,
 			dir = 1,
-			actor = 10500030,
+			say = "The islands were well-equipped with facilities for holding various rituals and ceremonies.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			bgName = "bg_xinnong_cg1",
+			side = 2,
+			dir = 1,
+			say = "Despite the distance from the Sakura Empire's seat of power and prosperity, the banquet tonight seemed no less grandiose than the most sumptuous of Royal or Sardegnian feasts.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			bgName = "bg_xinnong_cg1",
+			side = 2,
+			dir = 1,
+			say = "However, this banquet was not for the merriment of its guests. It was the opening ceremony to a ritual; the first of many offerings to the gods.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
 			nameColor = "#a9f548",
-			say = "刚才因为各种各样的事，没来得及自我介绍！",
+			side = 0,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			say = "The reason the opening ceremony was turned into a welcoming banquet for guests from afar was simply out of convenience.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 0,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			say = "Instead of celebrating, many of the participants were busy discussing the coming ceremony.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 0,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			say = "Though the atmosphere seemed cordial on the surface, everyone was mindful of an almost-palpable tension.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 0,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			say = "As was customary of so many of the Sakura Empire's ceremonies, one could not help but to act respectful.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 0,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			say = ".........",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "Banquet Venue",
 			flashout = {
-				dur = 0.5,
+				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
-				dur = 0.5,
+				delay = 1,
+				dur = 1,
+				black = true,
 				alpha = {
 					1,
 					0
 				}
 			},
-			effects = {
-				{
-					active = true,
-					name = "memoryFog"
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,84 +185,12 @@ return {
 			}
 		},
 		{
-			actor = 10500030,
+			actor = 307010,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在重新介绍一下！大家好，初次见面，我是hololive所属虚拟女仆，湊阿库娅！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			dir = 1,
-			actor = 10500030,
-			nameColor = "#a9f548",
-			say = "虽然是女仆却并不擅长家务，不过如果是玩游戏的话，我可是超级擅长哦！！！！！！！！！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			action = {
-				{
-					y = 30,
-					type = "shake",
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
-			}
-		},
-		{
-			actor = 10500030,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "以下是来自阿库娅的特别补给品收集小贴士！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 4,
-			nameColor = "#a9f548",
-			side = 2,
-			dir = 1,
-			actor = 10500030,
-			say = "在这个异常化的holo服务器中，除了原本就存在的食物、水、药品等道具，不知为什么，舰船能使用的各类补给品也散落在整个服务器中！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			nameColor = "#a9f548",
-			side = 2,
-			dir = 1,
-			actor = 10500030,
-			say = "但是，有一样更重要的东西，那就是，TNT！这里的TNT和原本世界服务器里的那些TNT相比，在爆炸威力上完全不是一个等级！！！",
+			bgName = "bg_xinnong_cg1",
+			say = "Ryuuhou, Noshiro, Suruga. I wanted to thank you for your work preparing the ritual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,11 +202,12 @@ return {
 		},
 		{
 			expression = 5,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			actor = 10500030,
-			say = "哼哼哼，还好我以前事先在服务器的各处角落都埋藏了大量TNT，没想到这次居然能派上用场……",
+			actor = 306070,
+			nameColor = "#a9f548",
+			say = "I only did what was expected of me as a proud citizen of the Sakura Empire. There is no need for thanks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,11 +218,13 @@ return {
 			}
 		},
 		{
-			actor = 10500030,
+			expression = 2,
 			side = 2,
-			nameColor = "#a9f548",
+			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "啊，对了，好像现在异常化的服务器里不知为何，也会自然生成少量TNT！",
+			actor = 302210,
+			nameColor = "#a9f548",
+			say = "Indeed. If anything, you deserve our thanks, Akagi. We could only make the preparations because you convinced the higher-ups.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,12 +235,652 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			expression = 1,
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			actor = 305140,
+			nameColor = "#a9f548",
+			say = "And I am simply honored to be involved in the preparations you made possible. And, my goodness, you're even participating in the ritual yourself!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307010,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "Oh please, you flatter me so.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307010,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "Ah, how good it is to see you, Mikasa. I'm relieved to see you're in good health.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "Hahah! Likewise. When I last saw you, you were serving–",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "Sorry, never mind. I would hate to be a party pooper.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "Your heroic work in leading the Sakura Empire forward is truly commendable.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307010,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "Why, I appreciate your kind words, but I am simply doing as the gods instruct me to.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "In the years I was away, you founded the Crimson Axis with the Iron Blood, began research on Siren technology, and even declared war on the Eagle Union and Royal Navy...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307010,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "Yes, and when you created the Reborn Combined Fleet, I let things run their course, just as the gods told me to.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			bgName = "bg_xinnong_cg1",
 			side = 2,
 			dir = 1,
-			actor = 10500030,
+			say = "Akagi raised her cup to hide her lips then whispered a question to Mikasa.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307010,
+			side = 2,
 			nameColor = "#a9f548",
-			say = "TNT可是整个holo服务器中最强力的道具，大家一定要大量收集哦！！！！！！！！！！！！！！！",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "What are the odds that you would show yourself now of all times, having retired so long ago, Mikasa?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "The Reborn Combined Fleet? That's just a side show of mine. You don't need to concern yourself with it.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			bgName = "bg_xinnong_cg1",
+			side = 2,
+			dir = 1,
+			actor = 305110,
+			nameColor = "#a9f548",
+			say = "And what's so strange about me showing myself \"now of all times\"? I have as much right to be here as any other citizen of the Sakura Empire does.",
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0.1,
+					dur = 0.1,
+					number = 2
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "We are all concerned about the Sakura Empire's future and are prepared to do anything for it. Is that not so?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307010,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "Of course it is. By the way, I have been informed that Lady Nagato will not be attending the ritual.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307010,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "Rumors have circulated that she has already awoken from her slumber and is now under the care of your Reborn Combined Fleet. Though that is only a rumor, I have reason to–",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			bgName = "bg_xinnong_cg1",
+			side = 2,
+			dir = 1,
+			say = "Akagi was interrupted by the sound of a loud crash.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307010,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "What was that?!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			bgName = "bg_xinnong_cg1",
+			side = 2,
+			dir = 1,
+			say = "Its cause: Zuikaku, hiding away in a corner of the venue. She had dropped her porcelain cup.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307050,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "I'm terribly sorry for the ruckus, Akagi! Zuikaku's hand slipped and she dropped her cup!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307050,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "How could you be so careless in front of everyone, Zuikaku?! Goodness... Please, pay us no heed. We shall be on our way now. Please enjoy the rest of the banquet~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			bgName = "bg_xinnong_cg1",
+			side = 2,
+			dir = 1,
+			say = "Zuikaku bowed in respect, then left the venue with Shoukaku without saying anything.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "Sorry, that was an embarrassment on our part. I'd better apologize to our Iron Blood visitors, on behalf of Zuikaku.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "Though, I must say, I'm quite surprised to see you all the way out here...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "If you'll pardon the question: Is our cuisine to your liking?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 403030,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "It's quite good, actually. This sake in particular has caught my attention.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "As it would. It's made with malted rice and water, refined through a brewing method unique to the Sakura Empire.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "It is also often used in rituals, where it is given as an offering to the gods.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 403030,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "Malted rice, you say... That explains why it tastes so different from beer.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 403030,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "Should your journey ever take you to the Iron Blood, you should most certainly give our schwarzbier a try.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "Ah, it's been long since I was last near your continent, much less the Iron Blood itself. Still, I have many fond memories of that time.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "Such as when my old friends and I enjoyed a banquet together with the Royal Navy! Hahahah!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 403030,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "Let's not talk about those tea-swiggers, it gives me headaches. I'd rather flex my privileges as a guest here and savor your gourmet cooking.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 401020,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "Eugen, I brought a plate of sashimi. Would you like some?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			bgName = "bg_xinnong_cg1",
+			side = 2,
+			dir = 1,
+			say = "Z2, also known as Georg Thiele, was the girl tasked with assisting Prinz Eugen. Before even waiting for Eugen's answer, she put the plate of fish down on the table.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "Oh dear, don't tell me you've...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 401020,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "Apparently, you're supposed to eat it with some of this paste spread on it. I believe it's called \"wasabi\"?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 401020,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "I coated the sashimi in an even layer of it, as I believe you're supposed to.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "Err, you've put far too much on it.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 403030,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "Oh, really? Sorry, we're not particularly familiar with how to prepare these things.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_xinnong_cg1",
+			dir = 1,
+			actor = 305140,
+			nameColor = "#a9f548",
+			say = "In that case, allow me to inform you! ...Please, Thiele, stop! Don't eat it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,39 +894,18 @@ return {
 					y = 30,
 					type = "shake",
 					delay = 0,
-					dur = 0.15,
-					x = 0,
+					dur = 0.2,
 					number = 2
 				}
 			}
 		},
 		{
-			actor = 301490,
+			actor = 403030,
 			side = 2,
-			dir = 1,
 			nameColor = "#a9f548",
-			say = "食品药品倒不必说，矿物也许是塞壬制造舰装会用到的材料，可是TNT是…？",
-			flashout = {
-				dur = 0.5,
-				alpha = {
-					0,
-					1
-				}
-			},
-			flashin = {
-				delay = 0.5,
-				dur = 0.5,
-				alpha = {
-					1,
-					0
-				}
-			},
-			effects = {
-				{
-					active = false,
-					name = "memoryFog"
-				}
-			},
+			dir = 1,
+			bgName = "bg_xinnong_cg1",
+			say = "(That must be her... Suruga, the Kii-class battleship. So jittery, but in a charming way. Heheh...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,11 +916,12 @@ return {
 			}
 		},
 		{
-			actor = 301490,
+			actor = 401020,
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为什么服务器里会有大量TNT也是很奇怪，根据吹雪小姐的，你们是一个，唔…偶像会社…？",
+			bgName = "bg_xinnong_cg1",
+			say = "Eugen, I've heard these skewers are quite good as well. I suggest we give them a taste.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,12 +932,10 @@ return {
 			}
 		},
 		{
-			expression = 3,
-			nameColor = "#a9f548",
+			bgName = "bg_xinnong_cg1",
 			side = 2,
 			dir = 1,
-			actor = 10500040,
-			say = "偶像会社呢…",
+			say = "Suruga dragged Z2 off somewhere, but it didn't take long for her to sneak away. She then came back with a different plate of food.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,73 +946,13 @@ return {
 			}
 		},
 		{
-			expression = 2,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			actor = 10500040,
-			say = "TNT的事解释起来稍微有些复杂。总之在这里，TNT是最常用的破坏道具，你看到的这些建筑基本都有它的功劳哦。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301490,
-			side = 2,
+			blackBg = true,
+			actor = 307010,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "居然用大量TNT来造房子么？和平年代还真是奢侈啊…既然是大威力的杀伤武器，我不反对多收集一些。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 10500040,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "嗯……虽然感觉理解有些偏差，不过就当是这样吧！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301490,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "现在整片区域都被塞壬前锋部队控制了，要收集物资，首先要清理出一条道路才行。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 2,
-			nameColor = "#a9f548",
-			side = 2,
-			dir = 1,
-			actor = 10500040,
-			say = "没问题~夏色祭，全速出航~！",
+			say = "Please, enjoy the banquet to your heart's content. The night is still young~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
