@@ -382,6 +382,14 @@ slot1 = {
 	[ActivityConst.SKIN_KISARAGI] = {
 		className = "SkinKisaragiPage",
 		uiName = "SkinKisaragiPage"
+	},
+	[ActivityConst.MORAN_KR_PT_ID] = {
+		className = "MoranPtPage",
+		uiName = "MoranPtPage"
+	},
+	[ActivityConst.MORAN_KR_PREVIEW_ID] = {
+		className = "MoranMainPage",
+		uiName = "MoranMainPage"
 	}
 }
 slot2 = {

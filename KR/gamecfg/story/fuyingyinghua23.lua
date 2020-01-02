@@ -6,151 +6,43 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actorName = "{namecode:96}",
-			side = 1,
-			stopbgm = true,
-			dir = 1,
-			blackBg = true,
-			nameColor = "#a9f548",
-			say = "我知道你在担心什么…我们都亲手击败过无数同伴的棋子…",
-			flashin = {
-				delay = 1,
-				dur = 1,
-				black = true,
-				alpha = {
-					1,
-					0
-				}
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "{namecode:96}",
-			nameColor = "#a9f548",
-			side = 1,
-			dir = 1,
-			blackBg = true,
-			say = "她们已经被卷进来了，这是事实。这里是她们的基地，她们有为自己战斗的理由和权利",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "{namecode:96}",
-			nameColor = "#a9f548",
-			side = 1,
-			dir = 1,
-			blackBg = true,
-			say = "我知道，虽然嘴上没说什么，眼神里可以看出明显的动摇呢。所以你故意那样说，是想顺势让她们远离战场吧",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "{namecode:96}",
-			nameColor = "#a9f548",
-			side = 1,
-			dir = 1,
-			blackBg = true,
-			say = "但现在大家是同伴，你应该对同伴多抱有一些信任。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "{namecode:96}",
-			nameColor = "#a9f548",
-			side = 1,
-			dir = 1,
-			blackBg = true,
-			say = "如果担心她们的情况，就亲口向她们好好说出来吧",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 0,
-			dir = 1,
-			blackBg = true,
-			actorName = "白上吹雪",
-			say = "唔…拉菲酱…{namecode:95}酱…澪酱…",
-			flashout = {
-				dur = 0.5,
-				black = true,
-				alpha = {
-					0,
-					1
-				}
-			},
-			flashin = {
-				delay = 1,
-				dur = 0.5,
-				black = true,
-				alpha = {
-					1,
-					0
-				}
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "白上吹雪",
-			nameColor = "#a9f548",
-			side = 0,
-			dir = 1,
-			blackBg = true,
-			say = "大家都要平安无事…zZZZ",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "白上吹雪",
+			actor = 307060,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			blackBg = true,
-			say = "zZZZZZ",
+			say = "终于找到你了，没有收到邀请函却不请自来的客人~",
+			bgm = "xinnong-2",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307060,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "哦~~这可真是柄好刀啊，快转过身来让我看看你究竟是什么人？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900192,
+			nameColor = "#a9f548",
+			side = 2,
+			dir = 1,
+			actorName = "？？？",
+			say = "……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,28 +54,8 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "bg_story_holosaba1",
 			dir = 1,
-			bgmDelay = 2,
-			bgm = "holo-tokiwa",
-			say = "深夜·反抗军基地外",
-			flashout = {
-				dur = 1,
-				black = true,
-				alpha = {
-					0,
-					1
-				}
-			},
-			flashin = {
-				delay = 1,
-				dur = 1,
-				black = true,
-				alpha = {
-					1,
-					0
-				}
-			},
+			say = "“不速之客”缓缓转过了身面对{namecode:95}与{namecode:96}",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,12 +66,11 @@ return {
 			}
 		},
 		{
-			actor = 10500020,
+			actor = 307060,
 			side = 2,
-			bgName = "bg_story_holosaba1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼…果然出来吹吹海风感觉舒服多了~",
+			say = "！！！你是…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,13 +81,11 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 307050,
 			side = 2,
-			bgName = "bg_story_holosaba1",
-			dir = 1,
-			actor = 10500020,
 			nameColor = "#a9f548",
-			say = "…………",
+			dir = 1,
+			say = "长着和{namecode:66}一样的面孔，是塞壬的新型棋子吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,13 +96,11 @@ return {
 			}
 		},
 		{
-			expression = 2,
+			actor = 307050,
 			side = 2,
-			bgName = "bg_story_holosaba1",
-			dir = 1,
-			actor = 10500020,
 			nameColor = "#a9f548",
-			say = "那个阿库娅酱…不是真正的阿库娅酱吗…",
+			dir = 1,
+			say = "不对，刚才朝着观察者开火而且阻止了它的行动…这不合理",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,13 +111,11 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 307060,
 			side = 2,
-			bgName = "bg_story_holosaba1",
-			dir = 1,
-			actor = 10500020,
 			nameColor = "#a9f548",
-			say = "是敌人的话…就只能战斗了吧",
+			dir = 1,
+			say = "来者何人？看你的装备，想必也是习武之人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,13 +126,11 @@ return {
 			}
 		},
 		{
-			expression = 2,
+			actor = 307060,
 			side = 2,
-			bgName = "bg_story_holosaba1",
-			dir = 1,
-			actor = 10500020,
 			nameColor = "#a9f548",
-			say = "…真的只能战斗么？下次…我能坦然开火么…？",
+			dir = 1,
+			say = "既然这样，那就好办了，咱们不做那些鬼鬼祟祟的勾当",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,13 +141,11 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 307060,
 			side = 2,
-			bgName = "bg_story_holosaba1",
-			dir = 1,
-			actor = 10500020,
 			nameColor = "#a9f548",
-			say = "如果再一次遇到她们，我应该怎么办才好......",
+			dir = 1,
+			say = "在下重樱五航战航母——{namecode:96}，想向您讨教一番~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,31 +156,12 @@ return {
 			}
 		},
 		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_story_holosaba1",
-			dir = 1,
-			stopbgm = true,
-			actor = 10500010,
+			actor = 900192,
 			nameColor = "#a9f548",
-			say = "………………",
-			flashout = {
-				dur = 1,
-				black = true,
-				alpha = {
-					0,
-					1
-				}
-			},
-			flashin = {
-				delay = 1,
-				dur = 1,
-				black = true,
-				alpha = {
-					1,
-					0
-				}
-			},
+			side = 2,
+			dir = 1,
+			actorName = "？？？",
+			say = "在下是谁并不重要…在下来到此地只有两个目的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,14 +172,74 @@ return {
 			}
 		},
 		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_holosaba1",
-			dir = 1,
-			blackBg = true,
-			actor = 10500010,
+			actor = 900192,
 			nameColor = "#a9f548",
-			say = "果然空前辈，在哪里都是温柔的空前辈啊。",
+			side = 2,
+			dir = 1,
+			actorName = "？？？",
+			say = "一是阻止观察者和其他人夺走神石，这一点…你们已经看到了",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307050,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "（连声音都和{namecode:66}一样？）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307060,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "还有呢？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900192,
+			nameColor = "#a9f548",
+			side = 2,
+			dir = 1,
+			actorName = "？？？",
+			say = "二是…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900192,
+			nameColor = "#a9f548",
+			side = 2,
+			dir = 1,
+			actorName = "？？？",
+			say = "——摧毁神石",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

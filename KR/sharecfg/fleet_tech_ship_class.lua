@@ -1107,7 +1107,8 @@ pg.fleet_tech_ship_class = {
 		nation = 3,
 		ships = {
 			30210,
-			30211
+			30211,
+			30317
 		}
 	},
 	[30204] = {
@@ -1437,6 +1438,17 @@ pg.fleet_tech_ship_class = {
 		nation = 3,
 		ships = {
 			31201
+		}
+	},
+	[31701] = {
+		shiptype = 17,
+		name = "순잠 갑형 개2형 ",
+		t_level = 7,
+		id = 31701,
+		t_level_1 = 111,
+		nation = 3,
+		ships = {
+			31701
 		}
 	},
 	[31801] = {
@@ -1986,6 +1998,7 @@ pg.fleet_tech_ship_class = {
 		30801,
 		30802,
 		31201,
+		31701,
 		31801,
 		40101,
 		40102,

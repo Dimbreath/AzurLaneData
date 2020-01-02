@@ -68150,6 +68150,22 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59124] = {
+		display = "<검게 물든 강철의 벚꽃> 보수 교환용. 이벤트 종료 후 삭제됩니다. ",
+		rarity = 2,
+		type = 98,
+		name = "벚꽃의 부적 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59124,
+		icon = "Props/omamori",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59125] = {
 		display = "이국의 아이돌?' 보상 교환용 아이템. 이벤트 종료 후에 사라진다. ",
 		rarity = 2,
@@ -73604,6 +73620,7 @@ pg.item_data_statistics = {
 		59121,
 		59122,
 		59123,
+		59124,
 		59125,
 		59126,
 		59127,

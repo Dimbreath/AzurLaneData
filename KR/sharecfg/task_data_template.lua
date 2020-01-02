@@ -48699,6 +48699,1977 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[14230] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90681,
+		type = 6,
+		name = "『长门陆奥复刻』-前篇",
+		count_inherit = 0,
+		desc = "이벤트 해역 A1 혹은 C1을 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14231",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14230,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1210001,
+			1210011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59124,
+				200
+			}
+		}
+	},
+	[14231] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90682,
+		type = 6,
+		name = "『长门陆奥复刻』-前篇",
+		count_inherit = 0,
+		desc = "이벤트 해역 A2 혹은 C2를 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14232",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14231,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1210002,
+			1210012
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59124,
+				400
+			}
+		}
+	},
+	[14232] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90683,
+		type = 6,
+		name = "『长门陆奥复刻』-前篇",
+		count_inherit = 0,
+		desc = "이벤트 해역 A3 혹은 C3를 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14233",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14232,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1210003,
+			1210013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59124,
+				600
+			}
+		}
+	},
+	[14233] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90684,
+		type = 6,
+		name = "『长门陆奥复刻』-后篇",
+		count_inherit = 0,
+		desc = "이벤트 해역 A4 혹은 C4를 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14234",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14233,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1210004,
+			1210014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59124,
+				400
+			}
+		}
+	},
+	[14234] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90685,
+		type = 6,
+		name = "『长门陆奥复刻』-后篇",
+		count_inherit = 0,
+		desc = "이벤트 해역 B1 혹은 D1을 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14235",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14234,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1210005,
+			1210015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59124,
+				600
+			}
+		}
+	},
+	[14235] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90686,
+		type = 6,
+		name = "『长门陆奥复刻』-后篇",
+		count_inherit = 0,
+		desc = "이벤트 해역 B2 혹은 D2를 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14235,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1210006,
+			1210016
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59124,
+				800
+			}
+		}
+	},
+	[14236] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90687,
+		type = 6,
+		name = "『长门陆奥复刻』-勋章",
+		count_inherit = 0,
+		desc = "D2을 클리어 <color=#92fc63>(훈장은 중복 획득할 수 없습니다)</color>",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1210016,
+		id = 14236,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1210016",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				124,
+				1
+			}
+		}
+	},
+	[14237] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90688,
+		type = 6,
+		name = "『长门陆奥复刻』-前篇",
+		count_inherit = 0,
+		desc = "A1 혹은 C1을 ✩3성으로 클리어",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14238",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14237,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1210001,
+			1210011
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		}
+	},
+	[14238] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90689,
+		type = 6,
+		name = "『长门陆奥复刻』-前篇",
+		count_inherit = 0,
+		desc = "A2 혹은 C2을 ✩3성으로 클리어",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14239",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14238,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1210002,
+			1210012
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		}
+	},
+	[14239] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90690,
+		type = 6,
+		name = "『长门陆奥复刻』-前篇",
+		count_inherit = 0,
+		desc = "A3 혹은 C3을 ✩3성으로 클리어",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14240",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14239,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1210003,
+			1210013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		}
+	},
+	[14240] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90691,
+		type = 6,
+		name = "『长门陆奥复刻』-后篇",
+		count_inherit = 0,
+		desc = "A4 혹은 C4을 ✩3성으로 클리어",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14241",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14240,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1210004,
+			1210014
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		}
+	},
+	[14241] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90692,
+		type = 6,
+		name = "『长门陆奥复刻』-后篇",
+		count_inherit = 0,
+		desc = "B1 혹은 D1을 ✩3성으로 클리어",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14242",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14241,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1210005,
+			1210015
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		}
+	},
+	[14242] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90693,
+		type = 6,
+		name = "『长门陆奥复刻』-后篇",
+		count_inherit = 0,
+		desc = "B2 혹은 D2을 ✩3성으로 클리어",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14242,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1210006,
+			1210016
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		}
+	},
+	[14243] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90694,
+		type = 36,
+		name = "『长门陆奥复刻』-日常建造",
+		count_inherit = 0,
+		desc = "함선을 3회 건조한다.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14243,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59124,
+				300
+			}
+		}
+	},
+	[14244] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90695,
+		type = 36,
+		name = "『长门陆奥复刻』-日常出击",
+		count_inherit = 0,
+		desc = "함대를 출격시켜 15회 승리한다.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14244,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59124,
+				300
+			}
+		}
+	},
+	[14245] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8461,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积1",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14246",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14245,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54005,
+				5
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14246] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8462,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积2",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14247",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14246,
+		target_num = 300,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18012,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14247] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8463,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积3",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14248",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14247,
+		target_num = 500,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18022,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14248] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8464,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积4",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14249",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14248,
+		target_num = 700,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14249] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8465,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积5",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14250",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14249,
+		target_num = 1000,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14250] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8466,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积6",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14251",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14250,
+		target_num = 1500,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14251] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8467,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积7",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14252",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14251,
+		target_num = 2000,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18012,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14252] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8468,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积8",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14253",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14252,
+		target_num = 2500,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18022,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14253] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8469,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积9",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14254",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14253,
+		target_num = 3000,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				4000
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14254] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8470,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积10",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14255",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14254,
+		target_num = 3500,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14255] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8471,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积11",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14256",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14255,
+		target_num = 4000,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18012,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14256] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8472,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积12",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14257",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14256,
+		target_num = 4500,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18022,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14257] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8473,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积13",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14258",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14257,
+		target_num = 5000,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				16003,
+				2
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14258] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8474,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积14",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14259",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14258,
+		target_num = 5500,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14259] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8475,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积15",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14260",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14259,
+		target_num = 6000,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14260] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8476,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积16",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14261",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14260,
+		target_num = 6500,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14261] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8477,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积17",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14262",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14261,
+		target_num = 7000,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				16023,
+				2
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14262] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8478,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积18",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14263",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14262,
+		target_num = 7500,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14263] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8479,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积19",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14264",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14263,
+		target_num = 8000,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14264] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8480,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积20",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14265",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14264,
+		target_num = 8500,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14265] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8481,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积21",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14266",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14265,
+		target_num = 9000,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				16013,
+				2
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14266] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8482,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积22",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14267",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14266,
+		target_num = 9500,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14267] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8483,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积23",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14268",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14267,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				305061,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14268] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8484,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积24",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14269",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14268,
+		target_num = 11000,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				2
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14269] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8485,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积25",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14270",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14269,
+		target_num = 12000,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14270] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8486,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积26",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14271",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14270,
+		target_num = 13000,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14271] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8487,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积27",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14272",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14271,
+		target_num = 14000,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14272] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8488,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积28",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14273",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14272,
+		target_num = 15000,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				305061,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14273] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8489,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积29",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14274",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14273,
+		target_num = 20000,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30035,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14274] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8490,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积30",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14275",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14274,
+		target_num = 25000,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54050,
+				2
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14275] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8491,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积31",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14276",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14275,
+		target_num = 30000,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14276] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8492,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积32",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14277",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14276,
+		target_num = 35000,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54005,
+				5
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14277] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8493,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积33",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14278",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14277,
+		target_num = 40000,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				305061,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14278] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8494,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积34",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14279",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14278,
+		target_num = 45000,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54050,
+				2
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14279] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8495,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积35",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14280",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14279,
+		target_num = 50000,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54005,
+				5
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14280] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8496,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积36",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14281",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14280,
+		target_num = 55000,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54050,
+				2
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14281] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8497,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积37",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14282",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14281,
+		target_num = 60000,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				305061,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14282] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8498,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积38",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "14283",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14282,
+		target_num = 80000,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30035,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14283] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8499,
+		type = 6,
+		name = "『长门陆奥复刻』-PT累积39",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "20342",
+		sub_type = 1001,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 121,
+		id = 14283,
+		target_num = 100000,
+		fix_task = 0,
+		target_id = "121",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30035,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[14284] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8500,
+		type = 36,
+		name = "韩服-『长门陆奥复刻』-日常困难本",
+		count_inherit = 0,
+		desc = "임의의 메인 스테이지 어려움 모드를 1회 클리어",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14284,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59124,
+				300
+			}
+		}
+	},
 	[14290] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -78302,6 +80273,61 @@ pg.task_data_template = {
 		14223,
 		14224,
 		14225,
+		14230,
+		14231,
+		14232,
+		14233,
+		14234,
+		14235,
+		14236,
+		14237,
+		14238,
+		14239,
+		14240,
+		14241,
+		14242,
+		14243,
+		14244,
+		14245,
+		14246,
+		14247,
+		14248,
+		14249,
+		14250,
+		14251,
+		14252,
+		14253,
+		14254,
+		14255,
+		14256,
+		14257,
+		14258,
+		14259,
+		14260,
+		14261,
+		14262,
+		14263,
+		14264,
+		14265,
+		14266,
+		14267,
+		14268,
+		14269,
+		14270,
+		14271,
+		14272,
+		14273,
+		14274,
+		14275,
+		14276,
+		14277,
+		14278,
+		14279,
+		14280,
+		14281,
+		14282,
+		14283,
+		14284,
 		14290,
 		14291,
 		14292,
