@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			actor = 301811,
 			nameColor = "#a9f548",
-			say = "噗噗?嗯…嗯嗯…噗噗说，要诚实面堆自己的欲望",
+			say = "噗噗?嗯…嗯嗯…噗噗说，要诚实面对自己的欲望",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
