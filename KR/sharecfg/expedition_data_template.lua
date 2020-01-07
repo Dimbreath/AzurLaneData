@@ -276719,6 +276719,63 @@ pg.expedition_data_template = {
 		},
 		bufficon = {}
 	},
+	[3000222] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3000221,
+		exp = 209,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 32,
+		map_id = 50010,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3000222,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57331
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
 	[3000231] = {
 		sink_limit = 1,
 		ai = 3,
@@ -276819,6 +276876,120 @@ pg.expedition_data_template = {
 			{
 				2,
 				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[3000233] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3000231,
+		exp = 236,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 36,
+		map_id = 50010,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3000233,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57332
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[3000234] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3000232,
+		exp = 236,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 36,
+		map_id = 50010,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3000234,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57332
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
 			}
 		},
 		objective_1 = {
@@ -276990,6 +277161,177 @@ pg.expedition_data_template = {
 			{
 				2,
 				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[3000244] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3000241,
+		exp = 263,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 40,
+		map_id = 50010,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3000244,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57333
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[3000245] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3000242,
+		exp = 263,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 40,
+		map_id = 50010,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3000245,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57333
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[3000246] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3000243,
+		exp = 263,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 40,
+		map_id = 50010,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3000246,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57333
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
 			}
 		},
 		objective_1 = {
@@ -279200,6 +279542,63 @@ pg.expedition_data_template = {
 		},
 		bufficon = {}
 	},
+	[3000522] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3000521,
+		exp = 290,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 44,
+		map_id = 50011,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3000522,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57334
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
 	[3000531] = {
 		sink_limit = 1,
 		ai = 3,
@@ -279300,6 +279699,120 @@ pg.expedition_data_template = {
 			{
 				2,
 				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[3000533] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3000531,
+		exp = 317,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 48,
+		map_id = 50011,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3000533,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57335
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[3000534] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3000532,
+		exp = 317,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 48,
+		map_id = 50011,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3000534,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57335
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
 			}
 		},
 		objective_1 = {
@@ -279471,6 +279984,177 @@ pg.expedition_data_template = {
 			{
 				2,
 				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[3000544] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 2,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3000541,
+		exp = 344,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 52,
+		map_id = 50011,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3000544,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57336
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[3000545] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3000542,
+		exp = 344,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 52,
+		map_id = 50011,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3000545,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57336
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[3000546] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3000543,
+		exp = 344,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 52,
+		map_id = 50011,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3000546,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57336
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
 			}
 		},
 		objective_1 = {
@@ -281738,6 +282422,120 @@ pg.expedition_data_template = {
 		},
 		bufficon = {}
 	},
+	[3000823] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3000821,
+		exp = 418,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 63,
+		map_id = 50012,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3000823,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57361
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[3000824] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3000822,
+		exp = 418,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 63,
+		map_id = 50012,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3000824,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57361
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
 	[3000831] = {
 		sink_limit = 1,
 		ai = 3,
@@ -281895,6 +282693,177 @@ pg.expedition_data_template = {
 			{
 				2,
 				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[3000834] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3000831,
+		exp = 466,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 70,
+		map_id = 50012,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3000834,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57362
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[3000835] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3000832,
+		exp = 466,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 70,
+		map_id = 50012,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3000835,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57362
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[3000836] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3000833,
+		exp = 466,
+		icon = "sairenzhanlie",
+		difficulty = 2,
+		level = 70,
+		map_id = 50012,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3000836,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57362
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
 			}
 		},
 		objective_1 = {
@@ -282123,6 +283092,234 @@ pg.expedition_data_template = {
 			{
 				2,
 				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[3000845] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3000841,
+		exp = 506,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 76,
+		map_id = 50012,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3000845,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57363
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[3000846] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3000842,
+		exp = 506,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 76,
+		map_id = 50012,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3000846,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57363
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[3000847] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3000843,
+		exp = 506,
+		icon = "sairenzhanlie",
+		difficulty = 2,
+		level = 76,
+		map_id = 50012,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3000847,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57363
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[3000848] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3000844,
+		exp = 506,
+		icon = "sairenhangmu",
+		difficulty = 2,
+		level = 76,
+		map_id = 50012,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3000848,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57363
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
 			}
 		},
 		objective_1 = {
@@ -284390,6 +285587,120 @@ pg.expedition_data_template = {
 		},
 		bufficon = {}
 	},
+	[3001123] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3001121,
+		exp = 547,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 82,
+		map_id = 50013,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3001123,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57364
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[3001124] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3001122,
+		exp = 547,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 82,
+		map_id = 50013,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3001124,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57364
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
 	[3001131] = {
 		sink_limit = 1,
 		ai = 3,
@@ -284547,6 +285858,177 @@ pg.expedition_data_template = {
 			{
 				2,
 				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[3001134] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3001131,
+		exp = 587,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 88,
+		map_id = 50013,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3001134,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57365
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[3001135] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3001132,
+		exp = 587,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 88,
+		map_id = 50013,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3001135,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57365
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[3001136] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3001133,
+		exp = 587,
+		icon = "sairenzhanlie",
+		difficulty = 2,
+		level = 88,
+		map_id = 50013,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3001136,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57365
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
 			}
 		},
 		objective_1 = {
@@ -284775,6 +286257,234 @@ pg.expedition_data_template = {
 			{
 				2,
 				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[3001145] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3001141,
+		exp = 628,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 94,
+		map_id = 50013,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3001145,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57366
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[3001146] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3001142,
+		exp = 628,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 94,
+		map_id = 50013,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3001146,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57366
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[3001147] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3001143,
+		exp = 628,
+		icon = "sairenzhanlie",
+		difficulty = 2,
+		level = 94,
+		map_id = 50013,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3001147,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57366
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[3001148] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 3,
+		add_icon = "",
+		name = "엘리트 함대",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 3001144,
+		exp = 628,
+		icon = "sairenhangmu",
+		difficulty = 2,
+		level = 94,
+		map_id = 50013,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 3001148,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57366
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
 			}
 		},
 		objective_1 = {
@@ -300365,11 +302075,17 @@ pg.expedition_data_template = {
 		3000212,
 		3000213,
 		3000221,
+		3000222,
 		3000231,
 		3000232,
+		3000233,
+		3000234,
 		3000241,
 		3000242,
 		3000243,
+		3000244,
+		3000245,
+		3000246,
 		3000301,
 		3000302,
 		3000303,
@@ -300410,11 +302126,17 @@ pg.expedition_data_template = {
 		3000512,
 		3000513,
 		3000521,
+		3000522,
 		3000531,
 		3000532,
+		3000533,
+		3000534,
 		3000541,
 		3000542,
 		3000543,
+		3000544,
+		3000545,
+		3000546,
 		3000601,
 		3000602,
 		3000603,
@@ -300456,13 +302178,22 @@ pg.expedition_data_template = {
 		3000813,
 		3000821,
 		3000822,
+		3000823,
+		3000824,
 		3000831,
 		3000832,
 		3000833,
+		3000834,
+		3000835,
+		3000836,
 		3000841,
 		3000842,
 		3000843,
 		3000844,
+		3000845,
+		3000846,
+		3000847,
+		3000848,
 		3000901,
 		3000902,
 		3000903,
@@ -300504,13 +302235,22 @@ pg.expedition_data_template = {
 		3001113,
 		3001121,
 		3001122,
+		3001123,
+		3001124,
 		3001131,
 		3001132,
 		3001133,
+		3001134,
+		3001135,
+		3001136,
 		3001141,
 		3001142,
 		3001143,
 		3001144,
+		3001145,
+		3001146,
+		3001147,
+		3001148,
 		3001201,
 		4000001,
 		4000002,

@@ -29727,15 +29727,15 @@ pg.chapter_template_loop = {
 	},
 	[1210001] = {
 		enter_story = "",
-		submarine_num = 2,
+		submarine_num = 1,
 		boss_refresh = 4,
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 95,
-		best_air_dominance = 150,
+		air_dominance = 76,
+		best_air_dominance = 120,
 		id = 1210001,
-		group_num = 3,
+		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 4,
@@ -29808,7 +29808,7 @@ pg.chapter_template_loop = {
 			3000008
 		},
 		ai_expedition_list = {
-			3000221
+			3000222
 		},
 		patrolai_expedition_list = {
 			1
@@ -30229,15 +30229,15 @@ pg.chapter_template_loop = {
 	},
 	[1210002] = {
 		enter_story = "",
-		submarine_num = 2,
+		submarine_num = 1,
 		boss_refresh = 4,
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 130,
-		best_air_dominance = 170,
+		air_dominance = 104,
+		best_air_dominance = 136,
 		id = 1210002,
-		group_num = 4,
+		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 4,
@@ -30310,8 +30310,8 @@ pg.chapter_template_loop = {
 			3000108
 		},
 		ai_expedition_list = {
-			3000231,
-			3000232
+			3000233,
+			3000234
 		},
 		patrolai_expedition_list = {
 			1
@@ -30695,15 +30695,15 @@ pg.chapter_template_loop = {
 	},
 	[1210003] = {
 		enter_story = "",
-		submarine_num = 2,
+		submarine_num = 1,
 		boss_refresh = 4,
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 170,
-		best_air_dominance = 225,
+		air_dominance = 136,
+		best_air_dominance = 180,
 		id = 1210003,
-		group_num = 5,
+		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 4,
@@ -30776,9 +30776,9 @@ pg.chapter_template_loop = {
 			3000208
 		},
 		ai_expedition_list = {
-			3000241,
-			3000242,
-			3000243
+			3000244,
+			3000245,
+			3000246
 		},
 		patrolai_expedition_list = {
 			1
@@ -31259,15 +31259,15 @@ pg.chapter_template_loop = {
 	},
 	[1210004] = {
 		enter_story = "",
-		submarine_num = 2,
+		submarine_num = 1,
 		boss_refresh = 4,
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 220,
-		best_air_dominance = 290,
+		air_dominance = 176,
+		best_air_dominance = 232,
 		id = 1210004,
-		group_num = 5,
+		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 4,
@@ -31340,7 +31340,7 @@ pg.chapter_template_loop = {
 			3000308
 		},
 		ai_expedition_list = {
-			3000521
+			3000522
 		},
 		patrolai_expedition_list = {
 			1
@@ -31822,15 +31822,15 @@ pg.chapter_template_loop = {
 	},
 	[1210005] = {
 		enter_story = "",
-		submarine_num = 2,
+		submarine_num = 1,
 		boss_refresh = 5,
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 285,
-		best_air_dominance = 375,
+		air_dominance = 228,
+		best_air_dominance = 300,
 		id = 1210005,
-		group_num = 6,
+		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 5,
@@ -31903,8 +31903,8 @@ pg.chapter_template_loop = {
 			3000408
 		},
 		ai_expedition_list = {
-			3000531,
-			3000532
+			3000533,
+			3000534
 		},
 		patrolai_expedition_list = {
 			1
@@ -32435,15 +32435,15 @@ pg.chapter_template_loop = {
 	},
 	[1210006] = {
 		enter_story = "",
-		submarine_num = 2,
+		submarine_num = 1,
 		boss_refresh = 5,
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 380,
-		best_air_dominance = 495,
+		air_dominance = 304,
+		best_air_dominance = 396,
 		id = 1210006,
-		group_num = 7,
+		group_num = 2,
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 5,
@@ -32516,9 +32516,9 @@ pg.chapter_template_loop = {
 			3000508
 		},
 		ai_expedition_list = {
-			3000541,
-			3000542,
-			3000543
+			3000544,
+			3000545,
+			3000546
 		},
 		patrolai_expedition_list = {
 			1
@@ -33109,15 +33109,15 @@ pg.chapter_template_loop = {
 	},
 	[1210011] = {
 		enter_story = "",
-		submarine_num = 2,
+		submarine_num = 1,
 		boss_refresh = 4,
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 375,
-		best_air_dominance = 490,
+		air_dominance = 300,
+		best_air_dominance = 392,
 		id = 1210011,
-		group_num = 6,
+		group_num = 2,
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 4,
@@ -33231,8 +33231,8 @@ pg.chapter_template_loop = {
 			3000608
 		},
 		ai_expedition_list = {
-			3000821,
-			3000822
+			3000823,
+			3000824
 		},
 		patrolai_expedition_list = {
 			1
@@ -33653,15 +33653,15 @@ pg.chapter_template_loop = {
 	},
 	[1210012] = {
 		enter_story = "",
-		submarine_num = 2,
+		submarine_num = 1,
 		boss_refresh = 4,
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 470,
-		best_air_dominance = 615,
+		air_dominance = 376,
+		best_air_dominance = 492,
 		id = 1210012,
-		group_num = 7,
+		group_num = 2,
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 4,
@@ -33775,9 +33775,9 @@ pg.chapter_template_loop = {
 			3000708
 		},
 		ai_expedition_list = {
-			3000831,
-			3000832,
-			3000833
+			3000834,
+			3000835,
+			3000836
 		},
 		patrolai_expedition_list = {
 			1
@@ -34161,15 +34161,15 @@ pg.chapter_template_loop = {
 	},
 	[1210013] = {
 		enter_story = "",
-		submarine_num = 2,
+		submarine_num = 1,
 		boss_refresh = 5,
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 570,
-		best_air_dominance = 745,
+		air_dominance = 456,
+		best_air_dominance = 596,
 		id = 1210013,
-		group_num = 8,
+		group_num = 2,
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 5,
@@ -34283,10 +34283,10 @@ pg.chapter_template_loop = {
 			3000808
 		},
 		ai_expedition_list = {
-			3000841,
-			3000842,
-			3000843,
-			3000844
+			3000845,
+			3000846,
+			3000847,
+			3000848
 		},
 		patrolai_expedition_list = {
 			1
@@ -34767,15 +34767,15 @@ pg.chapter_template_loop = {
 	},
 	[1210014] = {
 		enter_story = "",
-		submarine_num = 2,
+		submarine_num = 1,
 		boss_refresh = 5,
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 730,
-		best_air_dominance = 950,
+		air_dominance = 584,
+		best_air_dominance = 760,
 		id = 1210014,
-		group_num = 8,
+		group_num = 2,
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 5,
@@ -34889,8 +34889,8 @@ pg.chapter_template_loop = {
 			3000908
 		},
 		ai_expedition_list = {
-			3001121,
-			3001122
+			3001123,
+			3001124
 		},
 		patrolai_expedition_list = {
 			1
@@ -35372,15 +35372,15 @@ pg.chapter_template_loop = {
 	},
 	[1210015] = {
 		enter_story = "",
-		submarine_num = 2,
+		submarine_num = 1,
 		boss_refresh = 6,
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 915,
-		best_air_dominance = 1190,
+		air_dominance = 732,
+		best_air_dominance = 952,
 		id = 1210015,
-		group_num = 9,
+		group_num = 2,
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 6,
@@ -35494,9 +35494,9 @@ pg.chapter_template_loop = {
 			3001008
 		},
 		ai_expedition_list = {
-			3001131,
-			3001132,
-			3001133
+			3001135,
+			3001136,
+			3001137
 		},
 		patrolai_expedition_list = {
 			1
@@ -36029,15 +36029,15 @@ pg.chapter_template_loop = {
 	},
 	[1210016] = {
 		enter_story = "",
-		submarine_num = 2,
+		submarine_num = 1,
 		boss_refresh = 6,
 		limit_move = 0,
 		story_refresh_boss = "",
 		friendly_id = 0,
-		air_dominance = 1125,
-		best_air_dominance = 1465,
+		air_dominance = 900,
+		best_air_dominance = 1172,
 		id = 1210016,
-		group_num = 10,
+		group_num = 2,
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 6,
@@ -36151,10 +36151,10 @@ pg.chapter_template_loop = {
 			3001108
 		},
 		ai_expedition_list = {
-			3001141,
-			3001142,
-			3001143,
-			3001144
+			3001145,
+			3001146,
+			3001147,
+			3001148
 		},
 		patrolai_expedition_list = {
 			1
