@@ -32217,8 +32217,8 @@ pg.skill_data_template = {
 	},
 	[22254] = {
 		desc_get = "",
-		name = "전탄발사I ",
-		desc = "주포로 9회 공격 시마다, 전탄발사-{namecode:57}급 {namecode:59}형I 발동 ",
+		name = "전탄발사Ⅰ",
+		desc = "주포로 9회 공격 시마다, 전탄발사-{namecode:57}급 {namecode:59}형Ⅰ 발동 ",
 		type = 1,
 		max_level = 1,
 		id = 22254,
@@ -32228,8 +32228,8 @@ pg.skill_data_template = {
 	},
 	[22255] = {
 		desc_get = "",
-		name = "전탄발사II ",
-		desc = "주포로 6회 공격 시마다, 전탄발사-{namecode:57}급 {namecode:59}형I 발동 ",
+		name = "전탄발사Ⅱ",
+		desc = "주포로 6회 공격 시마다, 전탄발사-{namecode:57}급 {namecode:59}형Ⅱ 발동 ",
 		type = 1,
 		max_level = 1,
 		id = 22255,
