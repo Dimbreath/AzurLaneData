@@ -18835,6 +18835,245 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[10093] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8088,
+		type = 26,
+		name = "小小的勇氣1",
+		count_inherit = 0,
+		desc = "完成任意委託4次",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 1,
+		story_icon = "Dujiaoshou_2",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "XINGCHEN1",
+		target_id_for_client = 0,
+		id = 10093,
+		target_num = 4,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			}
+		}
+	},
+	[10094] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8148,
+		type = 26,
+		name = "小小的勇氣2",
+		count_inherit = 0,
+		desc = "建造艦船3次。",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 1,
+		story_icon = "Dujiaoshou_2",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "XINGCHEN2",
+		target_id_for_client = 0,
+		id = 10094,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				500
+			},
+			{
+				2,
+				54005,
+				2
+			}
+		}
+	},
+	[10095] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8088,
+		type = 26,
+		name = "小小的勇氣3",
+		count_inherit = 0,
+		desc = "艦隊出征，獲得15次勝利。",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 1,
+		story_icon = "Dujiaoshou_2",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "XINGCHEN3",
+		target_id_for_client = 0,
+		id = 10095,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			}
+		}
+	},
+	[10096] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8149,
+		type = 26,
+		name = "小小的勇氣4",
+		count_inherit = 0,
+		desc = "建造艦船3次。",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 1,
+		story_icon = "Dujiaoshou_2",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "XINGCHEN4",
+		target_id_for_client = 0,
+		id = 10096,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				500
+			},
+			{
+				2,
+				54033,
+				2
+			}
+		}
+	},
+	[10097] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8088,
+		type = 26,
+		name = "小小的勇氣5",
+		count_inherit = 0,
+		desc = "艦隊出征，消滅敵方旗艦3次。",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 1,
+		story_icon = "Dujiaoshou_2",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "XINGCHEN5",
+		target_id_for_client = 0,
+		id = 10097,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			}
+		}
+	},
+	[10098] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8150,
+		type = 26,
+		name = "小小的勇氣6",
+		count_inherit = 0,
+		desc = "建造艦船3次。",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 1,
+		story_icon = "Dujiaoshou_2",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "XINGCHEN6",
+		target_id_for_client = 0,
+		id = 10098,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				500
+			},
+			{
+				2,
+				54050,
+				1
+			}
+		}
+	},
+	[10099] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8151,
+		type = 26,
+		name = "小小的勇氣7",
+		count_inherit = 0,
+		desc = "艦隊出征，獲得20次勝利。",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 1,
+		story_icon = "Dujiaoshou_2",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "XINGCHEN7",
+		target_id_for_client = 0,
+		id = 10099,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				7,
+				206031,
+				1
+			}
+		}
+	},
 	[10238] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -33469,6 +33708,13 @@ pg.task_data_template = {
 		10090,
 		10091,
 		10092,
+		10093,
+		10094,
+		10095,
+		10096,
+		10097,
+		10098,
+		10099,
 		10238,
 		10239,
 		10240,

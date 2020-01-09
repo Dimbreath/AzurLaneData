@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"雨后天晴\n\n<size=45>三 微风轻拂</size>",
+					"雨後天晴\n\n<size=45>三 微風輕拂</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区附近的神社——",
+			say = "港區附近的神社——",
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "{namecode:78}姐姐～我们来帮你了～！……哇哇哇！",
+			say = "{namecode:78}姐姐～我們來幫你了～！……哇哇哇！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:79}？小心！……唉……不是跟你说过上楼梯的时候不要爬太快的吗……",
+			say = "{namecode:79}？小心！……唉……不是跟你說過上樓梯的時候不要爬太快的嗎……",
 			side = 0,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "对不起啊姐姐……啊！今天殿下让我包场了，我们一起来大扫除吧！",
+			say = "對不起啊姐姐……啊！今天殿下讓我包場了，我們一起來大掃除吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,18 +106,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "包场……？",
+			say = "包場……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "问{namecode:79}",
+					content = "問{namecode:79}",
 					flag = 1
 				},
 				{
-					content = "问{namecode:78}",
+					content = "問{namecode:78}",
 					flag = 2
 				}
 			}
@@ -130,7 +130,7 @@ return {
 			optionFlag = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "包场是什么意思？呃，就是今天一天殿下都让我给包了，就是这个意思！",
+			say = "包場是什麼意思？呃，就是今天一天殿下都讓我給包了，就是這個意思！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			optionFlag = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "{namecode:17}告诉我的“包租男友”，应该就是包场没错了！",
+			say = "{namecode:17}告訴我的“包租男友”，應該就是包場沒錯了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			optionFlag = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "总之呢，以前殿下答应过我要帮忙一起打扫的！所以我才把休假换到了今天嘛！",
+			say = "總之呢，以前殿下答應過我要幫忙一起打掃的！所以我才把休假換到了今天嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			}
 		},
 		{
-			say = "哎呀，有殿下在可真是帮了大忙了。那今天就辛苦你啦。",
+			say = "哎呀，有殿下在可真是幫了大忙了。那今天就辛苦你啦。",
 			side = 0,
 			bgName = "star_level_bg_101",
 			actorName = "{namecode:78}",
@@ -206,7 +206,7 @@ return {
 			optionFlag = 2,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "包场是什么意思？嗯……我也不太明白……",
+			say = "包場是什麼意思？嗯……我也不太明白……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			optionFlag = 2,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "{namecode:79}这孩子，大概又从别人那里学到什么一知半解的新词了吧……",
+			say = "{namecode:79}這孩子，大概又從別人那裡學到什麼一知半解的新詞了吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			say = "总之呢，以前殿下答应过我要帮忙一起打扫的！所以我才把休假换到了今天嘛！",
+			say = "總之呢，以前殿下答應過我要幫忙一起打掃的！所以我才把休假換到了今天嘛！",
 			side = 1,
 			bgName = "star_level_bg_101",
 			actorName = "{namecode:79}",
@@ -264,7 +264,7 @@ return {
 			optionFlag = 2,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "哎呀，有殿下在可真是帮了大忙了。那今天就辛苦你啦。",
+			say = "哎呀，有殿下在可真是幫了大忙了。那今天就辛苦你啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "……嗯？你说这神社是什么时候建的……？",
+			say = "……嗯？你說這神社是什麼時候建的……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "是啊，这么说来，上次过年的时候殿下因为工作太忙，没有来新年参拜呢……",
+			say = "是啊，這麼說來，上次過年的時候殿下因為工作太忙，沒有來新年參拜呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "嗯，过年用的临时设施，本来是想在别的地方临时搭一个的……",
+			say = "嗯，過年用的臨時設施，本來是想在別的地方臨時搭一個的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "重樱的成员也越来越多了，既然要搭的话，我想要是能做个给大家留下回忆的地方就好了，就和姐姐商量着盖了这座神社！",
+			say = "重櫻的成員也越來越多了，既然要搭的話，我想要是能做個給大家留下回憶的地方就好了，就和姐姐商量著蓋了這座神社！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "star_level_bg_101",
 			dir = 1,
 			blackBg = true,
-			say = "说得容易，这么大规模的神社，要盖起来相当费力吧……",
+			say = "說得容易，這麼大規模的神社，要蓋起來相當費力吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

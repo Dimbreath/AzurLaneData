@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"雨后天晴\n\n<size=45>五 阴，转——</size>",
+					"雨後天晴\n\n<size=45>五 陰，轉——</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "不久之后——",
+			say = "不久之後——",
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "殿下，让你久等了！咳咳！",
+			say = "殿下，讓你久等了！咳咳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "上次和你提过的巫女舞，我想今天跳给你看看！",
+			say = "上次和你提過的巫女舞，我想今天跳給你看看！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "嗯，其实我有背着姐姐在偷偷学巫女舞！可没人看我跳，不知道哪里跳得行哪里不行……",
+			say = "嗯，其實我有背著姐姐在偷偷學巫女舞！可沒人看我跳，不知道哪裡跳得行哪裡不行……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "所以想让殿下帮我看看！还有呢……巫女舞就是要在合适的地方跳才对，是吧！",
+			say = "所以想讓殿下幫我看看！還有呢……巫女舞就是要在合適的地方跳才對，是吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "里面都打扫干净了，就先在外面比划一下动作再说——",
+			say = "裡面都打掃乾淨了，就先在外面比劃一下動作再說——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "叮当 叮当",
+			say = "叮噹 叮噹",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "神乐铃的声音回荡着——",
+			say = "神樂鈴的聲音回蕩著——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "虽然动作还有些不熟练，还是能让人感受到她努力练习的成果。",
+			say = "雖然動作還有些不熟練，還是能讓人感受到她努力練習的成果。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "叮当 叮当",
+			say = "叮噹 叮噹",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "神乐铃的声音回荡着——",
+			say = "神樂鈴的聲音回蕩著——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "平时总是跌跌撞撞笨手笨脚的少女，此时全身散发着一种神圣的气息。",
+			say = "平時總是跌跌撞撞笨手笨腳的少女，此時全身散發著一種神聖的氣息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "叮当 叮当 啪嗒 啪嗒",
+			say = "叮噹 叮噹 啪嗒 啪嗒",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "除了铃声之外，还有……雨的声音。",
+			say = "除了鈴聲之外，還有……雨的聲音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			},
 			options = {
 				{
-					content = "拉起{namecode:79}跑进休息室",
+					content = "拉起{namecode:79}跑進休息室",
 					flag = 1
 				}
 			}
@@ -253,7 +253,7 @@ return {
 			blackBg = true,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "殿下？？……好、好的！先躲一下免得淋湿了！",
+			say = "殿下？？……好、好的！先躲一下免得淋濕了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"小小的勇气\n\n<size=45>一  演唱会的门票</size>",
+					"小小的勇氣\n\n<size=45>一  演唱會的門票</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 		{
 			mode = 2,
 			blackBg = true,
-			say = "某一天，港区",
+			say = "某一天，港區",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -50,7 +50,7 @@ return {
 			actor = 206030,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "不知道指挥官…哥哥找独角兽有什么事…",
+			say = "不知道指揮官…哥哥找獨角獸有什麼事…",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -81,7 +81,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "不过…能见到哥哥…就好开心了…嘻嘻……",
+			say = "不過…能見到哥哥…就好開心了…嘻嘻……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			}
 		},
 		{
-			say = "几分钟后，港区指挥室",
+			say = "幾分鐘後，港區指揮室",
 			mode = 2,
 			blackBg = true,
 			withoutPainting = true,
@@ -126,7 +126,7 @@ return {
 			actor = 206030,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "独角兽…报到…找独角兽有什么事情吗？哥哥？",
+			say = "獨角獸…報到…找獨角獸有什麼事情嗎？哥哥？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -187,7 +187,7 @@ return {
 			actor = 206030,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "这个是……？票？",
+			say = "這個是……？票？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -218,7 +218,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "演-唱-会？虽然不是很明白那是什么……",
+			say = "演-唱-會？雖然不是很明白那是什麼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "难道……这就是传说中的……yue-hui？",
+			say = "難道……這就是傳說中的……ㄩㄝ-ㄏㄨㄟˋ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "嘻嘻……能和哥哥一起出去，独角兽……很期待……",
+			say = "嘻嘻……能和哥哥一起出去，獨角獸……很期待……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

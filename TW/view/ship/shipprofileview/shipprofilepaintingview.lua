@@ -49,7 +49,7 @@ function slot0.EnableObjects(slot0, slot1)
 end
 
 function slot0.TweenObjects(slot0)
-	openPortrait()
+	openPortrait(slot0.prefab)
 
 	slot1 = true
 	slot0.exitFlag = false
@@ -113,7 +113,7 @@ function slot0.Finish(slot0, slot1)
 	_.each(slot0.hideObjList, function (slot0)
 		setActive(slot0, true)
 	end)
-	closePortrait()
+	closePortrait(slot0.prefab)
 	slot0:EnableObjects(true)
 
 	slot0.painting.localScale = Vector3(1, 1, 1)

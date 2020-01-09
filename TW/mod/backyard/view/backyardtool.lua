@@ -40,7 +40,7 @@ return {
 	end,
 	createAlphaImage = function (slot0, slot1, slot2, slot3, slot4)
 		slot5 = GameObject(slot0)
-		slot5:AddComponent(typeof(AlphaCheckImage)).raycastTarget = slot1
+		slot5:AddComponent(typeof(Image)).raycastTarget = slot1
 
 		setParent(slot5, slot2)
 

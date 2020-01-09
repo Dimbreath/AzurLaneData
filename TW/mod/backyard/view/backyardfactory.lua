@@ -41,10 +41,11 @@ function slot0.loadImageFurniture(slot0, slot1, slot2, slot3)
 		slot2.pivot = getSpritePivot(slot0)
 
 		setImageSprite(slot1, slot0, true)
+		go(slot1):AddComponent(typeof(AlphaCheck))
 
 		slot2 = {}
 
-		if slot0:hasInterActionMask() then
+		if typeof:hasInterActionMask() then
 			table.insert(slot2, function (slot0)
 				slot0:loadFurnituresMasks(slot0.loadFurnituresMasks, slot0, slot0)
 			end)

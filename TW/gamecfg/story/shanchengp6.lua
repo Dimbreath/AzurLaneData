@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"雨后天晴\n\n<size=45>六 躲雨</size>",
+					"雨後天晴\n\n<size=45>六 躲雨</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "哇啊……湿透了……殿下，给你毛巾擦擦吧！",
+			say = "哇啊……濕透了……殿下，給你毛巾擦擦吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "{namecode:79}一边用毛巾擦拭着淋湿的头发，一边把另一条干毛巾递了过来。",
+			say = "{namecode:79}一邊用毛巾擦拭著淋濕的頭髮，一邊把另一條乾毛巾遞了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,24 +51,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "{namecode:78}姐姐总说“常备毛巾就不用怕突然下大雨”，还真的挺有道理……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			actor = 305020,
-			actorName = "{namecode:79}",
-			say = "嗯，衣服衣服……有了！我马上——",
+			say = "{namecode:78}姐姐總說“常備毛巾就不用怕突然下大雨”，還真的挺有道理……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +68,24 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "呃，殿下也在啊……对、对不起……",
+			say = "嗯，衣服衣服……有了！我馬上——",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 305020,
+			actorName = "{namecode:79}",
+			say = "呃，殿下也在啊……對、對不起……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,11 +96,11 @@ return {
 			},
 			options = {
 				{
-					content = "沉默着转过身",
+					content = "沉默著轉過身",
 					flag = 1
 				},
 				{
-					content = "走向门外",
+					content = "走向門外",
 					flag = 2
 				}
 			}
@@ -129,7 +129,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "……呃，嗯，背对着我就，就行了……",
+			say = "……呃，嗯，背對著我就，就行了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			bgName = "bg_story_room",
 			actor = 305020,
 			nameColor = "#a9f548",
-			say = "……好了！殿下，可以转过来了！",
+			say = "……好了！殿下，可以轉過來了！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "对不起，衣服只有我自己的……毛巾倒是还有新的！",
+			say = "對不起，衣服只有我自己的……毛巾倒是還有新的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "不过好可惜，我的舞殿下没看成……",
+			say = "不過好可惜，我的舞殿下沒看成……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "轻轻地摸摸坐在身边的{namecode:79}的头。",
+			say = "輕輕地摸摸坐在身邊的{namecode:79}的頭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,24 +224,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "嘿嘿……你问“为什么要这么拼命”？嗯，我没和殿下说过吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			actor = 305020,
-			actorName = "{namecode:79}",
-			say = "一是想分担一下姐姐的负担，二是——嗯，{namecode:98}对我说过，我和{namecode:78}姐姐运气不好，会不会就是因为我们被叫做“不幸舰”才会这样的……",
+			say = "嘿嘿……你問“為什麼要這麼拼命”？嗯，我沒和殿下說過嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +241,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "可我觉得，当我们还是船的时候，即使舰历上是不幸的，那也是我们周围的人们努力的结果——  ",
+			say = "一是想分擔一下姐姐的負擔，二是——嗯，{namecode:98}對我說過，我和{namecode:78}姐姐運氣不好，會不會就是因為我們被叫做“不幸艦”才會這樣的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +258,24 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "所以在这个世界里我们要努力变得幸福，才能回报他们所有人……我是这么想的！",
+			say = "可我覺得，當我們還是船的時候，即使艦歷上是不幸的，那也是我們周圍的人們努力的結果——  ",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 305020,
+			actorName = "{namecode:79}",
+			say = "所以在這個世界裡我們要努力變得幸福，才能回報他們所有人……我是這麼想的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "不知不觉中，骤来的阵雨已然停息。",
+			say = "不知不覺中，驟來的陣雨已然停息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

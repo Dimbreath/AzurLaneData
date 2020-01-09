@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"雨后天晴\n\n<size=45>一 明天的天气是……</size>",
+					"雨後天晴\n\n<size=45>一 明天的天氣是……</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "今天和往常一样，和秘书舰{namecode:79}一起处理公务。",
+			say = "今天和往常一樣，和秘書艦{namecode:79}一起處理公務。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "这是接下来要处理的文件……哇！又掉了…我马上捡起来…嗯？",
+			say = "這是接下來要處理的文件……哇！又掉了…我馬上撿起來…嗯？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "啊！殿下，这份文件早上{namecode:79}已经帮你盖过章了呀？唔，殿下最近记性真差……",
+			say = "啊！殿下，這份文件早上{namecode:79}已經幫你蓋過章了呀？唔，殿下最近記性真差……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "不能太勉强自己哦？{namecode:78}姐姐也很担心…",
+			say = "不能太勉強自己哦？{namecode:78}姐姐也很擔心…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "这么说来，似乎是给{namecode:79}这么指示过…",
+			say = "這麼說來，似乎是給{namecode:79}這麼指示過…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_task",
 			actor = 305020,
 			nameColor = "#a9f548",
-			say = "呼…今天的工作总算完成了！殿下，今天{namecode:79}也很努力了哟！",
+			say = "呼…今天的工作總算完成了！殿下，今天{namecode:79}也很努力了喲！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -153,7 +153,7 @@ return {
 			},
 			options = {
 				{
-					content = "摸摸{namecode:79}的头",
+					content = "摸摸{namecode:79}的頭",
 					flag = 1
 				}
 			}
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "嘿嘿～殿下真的很温柔呢～",
+			say = "嘿嘿～殿下真的很溫柔呢～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "对了殿下，你看你看！这个东西可方便呢！",
+			say = "對了殿下，你看你看！這個東西可方便呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "{namecode:79}边说边掏出了智能手机。",
+			say = "{namecode:79}邊說邊掏出了智慧手機。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "科学的力量真是太厉害了！{namecode:17}说过，几十年前连电视都没有，自从塞壬打过来以后技术就发展得飞快了！",
+			say = "科學的力量真是太厲害了！{namecode:17}說過，幾十年前連電視都沒有，自從塞壬打過來以後技術就發展得飛快了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "快过头了……？嗯……虽然不是很懂……反正用这个东西可以做很多事情！",
+			say = "快過頭了……？嗯……雖然不是很懂……反正用這個東西可以做很多事情！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "比如说想知道明天天气的话……嗯，按一下这个记录键……好啦！就不用记备忘录了！",
+			say = "比如說想知道明天天氣的話……嗯，按一下這個記錄鍵……好啦！就不用記備忘錄了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "{namecode:79}把智能手机的画面递了过来。",
+			say = "{namecode:79}把智慧手機的畫面遞了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			blackBg = true,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "明天放假，上次我们说好的要打扫神社！殿下，明天就麻烦你了！",
+			say = "明天放假，上次我們說好的要打掃神社！殿下，明天就麻煩你了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
