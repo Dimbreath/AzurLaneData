@@ -699,6 +699,706 @@ pg.gameset_language_client = {
 	op_reply_20_1_1 = {
 		value = "ま、まあね",
 		key = "op_reply_20_1_1"
+	},
+	ins_21 = {
+		value = "【正月】門松を飾る長門様。今年も重桜艦隊のために各員の奮闘を期待する",
+		key = "ins_21"
+	},
+	ins_discuss_21_1 = {
+		value = "あけましておめでとうですわ",
+		key = "ins_discuss_21_1"
+	},
+	ins_reply_21_1_1 = {
+		value = "大儀である。今年もそなたの奮闘を期待しておるぞ",
+		key = "ins_reply_21_1_1"
+	},
+	ins_reply_21_1_2 = {
+		value = "ロイヤルのお土産も楽しみ！",
+		key = "ins_reply_21_1_2"
+	},
+	ins_discuss_21_2 = {
+		value = "陛下に代わり、新年のお祝いを申し上げます",
+		key = "ins_discuss_21_2"
+	},
+	ins_reply_21_2_1 = {
+		value = "ありがとね！それよりなんでカメラを持って体育館を撮ってたの？教えて！",
+		key = "ins_reply_21_2_1"
+	},
+	ins_discuss_21_3 = {
+		value = "あけましておめでとうございます",
+		key = "ins_discuss_21_3"
+	},
+	ins_reply_21_3_1 = {
+		value = "合同演習で見せた力、この艦隊のために振るうが良い。そなたの活躍を期待しておるぞ",
+		key = "ins_reply_21_3_1"
+	},
+	ins_op_21_1_1 = {
+		value = "あけましておめでとう！",
+		key = "ins_op_21_1_1"
+	},
+	ins_op_21_1_2 = {
+		value = "このアカウントは長門？それとも誰か別の人が使ってる？",
+		key = "ins_op_21_1_2"
+	},
+	op_reply_21_1_1 = {
+		value = "重桜のためにより一層励もう",
+		key = "op_reply_21_1_1"
+	},
+	op_reply_21_1_2 = {
+		value = "長門様と陸奥様、自分（江風）と妹の共同管理だ",
+		key = "op_reply_21_1_2"
+	},
+	ins_22 = {
+		value = "【正月】三笠様からお年玉を頂いた長門様。本日も上機嫌のご様子である",
+		key = "ins_22"
+	},
+	ins_discuss_22_1 = {
+		value = "陸奥も三笠様からお年玉をもらった！嬉しい！",
+		key = "ins_discuss_22_1"
+	},
+	ins_reply_22_1_1 = {
+		value = "陸奥様、感想は別の発信用アカウントを用意しますから、このアカウントでの発信はちょっと…",
+		key = "ins_reply_22_1_1"
+	},
+	ins_reply_22_1_2 = {
+		value = "なんで？別にこのアカウントは「長門姉だよー」って書いてないよ？？？",
+		key = "ins_reply_22_1_2"
+	},
+	ins_reply_22_1_3 = {
+		value = "これはあくまで重桜艦隊の広報用のでして……",
+		key = "ins_reply_22_1_3"
+	},
+	ins_reply_22_1_4 = {
+		value = "でも長門姉も普通に指揮官に返信書いたよ？",
+		key = "ins_reply_22_1_4"
+	},
+	ins_reply_22_1_5 = {
+		value = "？？どうなっているんですか…？",
+		key = "ins_reply_22_1_5"
+	},
+	ins_op_22_1_1 = {
+		value = "こっちからもお年玉を用意したぞ",
+		key = "ins_op_22_1_1"
+	},
+	ins_op_22_1_2 = {
+		value = "すごく嬉しそう！",
+		key = "ins_op_22_1_2"
+	},
+	op_reply_22_1_1 = {
+		value = "余を子供扱いする気か！別にいらぬぞ！",
+		key = "op_reply_22_1_1"
+	},
+	op_reply_22_1_2 = {
+		value = "余は長門であるぞ！お年玉なんてべ、別に嬉しくなんかないぞ！",
+		key = "op_reply_22_1_2"
+	},
+	ins_23 = {
+		value = "☆オススメ！☆比叡謹製即席料理セット！重桜の宴会で食べたあの料理も手軽に再現可能！これぞ御召艦クォリティ！",
+		key = "ins_23"
+	},
+	ins_discuss_23_1 = {
+		value = "ふわりん、興味ありそうだから一つもらってもいい…？",
+		key = "ins_discuss_23_1"
+	},
+	ins_reply_23_1_1 = {
+		value = "いいよ、あとで駆逐艦のみんなに持っていくからな",
+		key = "ins_reply_23_1_1"
+	},
+	ins_discuss_23_2 = {
+		value = "いつの間にそんなアイテムができましたの？？？",
+		key = "ins_discuss_23_2"
+	},
+	ins_reply_23_2_1 = {
+		value = "「そんなアイテム」はどこにもありませんよ金剛姉さん。ただの冗談だって",
+		key = "ins_reply_23_2_1"
+	},
+	ins_op_23_1_1 = {
+		value = "で？どこに振り込めばいいのか？",
+		key = "ins_op_23_1_1"
+	},
+	ins_op_23_1_2 = {
+		value = "アカウント乗っ取られた…？",
+		key = "ins_op_23_1_2"
+	},
+	op_reply_23_1_1 = {
+		value = "重桜寮金剛型の霧島にご連絡くださいませ！ははは！",
+		key = "op_reply_23_1_1"
+	},
+	op_reply_23_1_2 = {
+		value = "乗っ取られていないよ！ただのボケさ、ははは！",
+		key = "op_reply_23_1_2"
+	},
+	ins_24 = {
+		value = "吹雪たちと一緒に餅つき…力入れすぎたです",
+		key = "ins_24"
+	},
+	ins_discuss_24_1 = {
+		value = "ヤッター！鬼神綾波の全力の一撃で臼は真っ二つ！あれれ？もしかしてこれ即返品できるのかな？",
+		key = "ins_discuss_24_1"
+	},
+	ins_reply_24_1_1 = {
+		value = "この「きれいな断面でなんとか明石の弱みを握れる」と考えている響ですね",
+		key = "ins_reply_24_1_1"
+	},
+	ins_reply_24_1_2 = {
+		value = "なるほどね！これが「あくしつくれーまー」ってやつね！",
+		key = "ins_reply_24_1_2"
+	},
+	ins_reply_24_1_3 = {
+		value = "返品できるの！？",
+		key = "ins_reply_24_1_3"
+	},
+	ins_reply_24_1_4 = {
+		value = "それは流石に無理です…",
+		key = "ins_reply_24_1_4"
+	},
+	ins_discuss_24_2 = {
+		value = "それ私の臼かも（涙",
+		key = "ins_discuss_24_2"
+	},
+	ins_reply_24_2_1 = {
+		value = "吹雪、ごめんなさい…です…",
+		key = "ins_reply_24_2_1"
+	},
+	ins_op_24_1_1 = {
+		value = "ドンマイ！",
+		key = "ins_op_24_1_1"
+	},
+	ins_op_24_1_2 = {
+		value = "不知火から調達してもらった分もあるから大丈夫！",
+		key = "ins_op_24_1_2"
+	},
+	op_reply_24_1_1 = {
+		value = "ごめんなさいです。あとでもう一回やってみるです",
+		key = "op_reply_24_1_1"
+	},
+	op_reply_24_1_2 = {
+		value = "指揮官…ありがとです",
+		key = "op_reply_24_1_2"
+	},
+	ins_25 = {
+		value = "ボウヤへのプレゼントよ",
+		key = "ins_25"
+	},
+	ins_discuss_25_1 = {
+		value = "凄いわ！私も高雄ちゃんに筆をもらって書いてみようかしら？",
+		key = "ins_discuss_25_1"
+	},
+	ins_reply_25_1_1 = {
+		value = "筆なら重桜寮の書斎にもありますよ。あとでサロンのほうに紙と一緒に置いておきますね",
+		key = "ins_reply_25_1_1"
+	},
+	ins_discuss_25_2 = {
+		value = "羨ましいわね…私お菓子しか持っていけそうにないもの…",
+		key = "ins_discuss_25_2"
+	},
+	ins_discuss_25_3 = {
+		value = "サディアの土産も持っていこうかな～",
+		key = "ins_discuss_25_3"
+	},
+	ins_discuss_25_4 = {
+		value = "何だこの集まり！？",
+		key = "ins_discuss_25_4"
+	},
+	ins_op_25_1_1 = {
+		value = "た、達筆………！",
+		key = "ins_op_25_1_1"
+	},
+	ins_op_25_1_2 = {
+		value = "おお……！",
+		key = "ins_op_25_1_2"
+	},
+	op_reply_25_1_1 = {
+		value = "褒めてくれてありがとう。ボウヤ",
+		key = "op_reply_25_1_1"
+	},
+	op_reply_25_1_2 = {
+		value = "部屋に飾りたければ声をかけて頂戴。持っていくわ",
+		key = "op_reply_25_1_2"
+	},
+	ins_26 = {
+		value = "この破魔矢、重桜本島のとちょっと違う気がしません？？？",
+		key = "ins_26"
+	},
+	ins_discuss_26_1 = {
+		value = "確証はないけど、写真を見ている限り、長さも装飾も重桜のと同じように見えるね…",
+		key = "ins_discuss_26_1"
+	},
+	ins_reply_26_1_1 = {
+		value = "となると、素材の方でなにか違う、ということになるのかな…",
+		key = "ins_reply_26_1_1"
+	},
+	ins_discuss_26_2 = {
+		value = "そ、そんなことはないよ？なにも変わってないから！",
+		key = "ins_discuss_26_2"
+	},
+	ins_reply_26_2_1 = {
+		value = "なんで伊26がリプライしたの…？",
+		key = "ins_reply_26_2_1"
+	},
+	ins_discuss_26_3 = {
+		value = "あー多分これ明石が原価をケチったんやないかな…",
+		key = "ins_discuss_26_3"
+	},
+	ins_op_26_1_1 = {
+		value = "具体的にいえば？",
+		key = "ins_op_26_1_1"
+	},
+	ins_op_26_1_2 = {
+		value = "なにかが仕込まれている？",
+		key = "ins_op_26_1_2"
+	},
+	op_reply_26_1_1 = {
+		value = "上手く言えませんけど、なんかほんのちょっとだけ軽くなった気がします",
+		key = "op_reply_26_1_1"
+	},
+	op_reply_26_1_2 = {
+		value = "え！？すぐにでも調べないと！",
+		key = "op_reply_26_1_2"
+	},
+	ins_27 = {
+		value = "「スゴロク」を遊びましたよ！すごくドキドキしちゃいました…",
+		key = "ins_27"
+	},
+	ins_discuss_27_1 = {
+		value = "【魔眼の神託】カードをいち早く使わなければよかったね",
+		key = "ins_discuss_27_1"
+	},
+	ins_reply_27_1_1 = {
+		value = "ゼクちゃんなんで教えてくれなかったの！フュンちゃん初心者なのに！",
+		key = "ins_reply_27_1_1"
+	},
+	ins_reply_27_1_2 = {
+		value = "【魔眼の神託】（こっちも初心者だけど…）",
+		key = "ins_reply_27_1_2"
+	},
+	ins_discuss_27_2 = {
+		value = "フュンちゃん考えてること全部顔に出るタイプかな？持ってるカード全部お見通しだったよ！",
+		key = "ins_discuss_27_2"
+	},
+	ins_reply_27_2_1 = {
+		value = "そんな事言わなでくださいヨ！（涙",
+		key = "ins_reply_27_2_1"
+	},
+	ins_reply_27_2_2 = {
+		value = "確かにサラトガさんの言う通り表情を隠したほうがいいですね…",
+		key = "ins_reply_27_2_2"
+	},
+	ins_reply_27_2_3 = {
+		value = "そういうニーミちゃんもフュンちゃんと似たようなものじゃない？",
+		key = "ins_reply_27_2_3"
+	},
+	ins_op_27_1_1 = {
+		value = "幸運を祈ろう！",
+		key = "ins_op_27_1_1"
+	},
+	ins_op_27_1_2 = {
+		value = "東煌の子たちがやってたアレか？",
+		key = "ins_op_27_1_2"
+	},
+	op_reply_27_1_1 = {
+		value = "祈られちゃった！（普通に楽しかったね！",
+		key = "op_reply_27_1_1"
+	},
+	op_reply_27_1_2 = {
+		value = "残念！これはユニオンのほうに近いね！指揮官もやったことあるんだ…",
+		key = "op_reply_27_1_2"
+	},
+	ins_28 = {
+		value = "自撮り…初めてやってみたの……",
+		key = "ins_28"
+	},
+	ins_discuss_28_1 = {
+		value = "上手く撮れたようですね！おめでとう！",
+		key = "ins_discuss_28_1"
+	},
+	ins_reply_28_1_1 = {
+		value = "ニーミ、撮り方教えてくれてありがとう…！",
+		key = "ins_reply_28_1_1"
+	},
+	ins_discuss_28_2 = {
+		value = "電子機器には疎いゆえ、お力になれず申し訳ございませんでした",
+		key = "ins_discuss_28_2"
+	},
+	ins_reply_28_2_1 = {
+		value = "ううん、ベルファストさんも色々教えてくれてありがとう！",
+		key = "ins_reply_28_2_1"
+	},
+	ins_op_28_1_1 = {
+		value = "可愛い！",
+		key = "ins_op_28_1_1"
+	},
+	ins_op_28_1_2 = {
+		value = "イラストリアス…？",
+		key = "ins_op_28_1_2"
+	},
+	op_reply_28_1_1 = {
+		value = "えへへ、お兄ちゃん…あとで送るね…？",
+		key = "op_reply_28_1_1"
+	},
+	op_reply_28_1_2 = {
+		value = "うん…ユニコーン一人で撮るの、ちょっと怖いから……イラストリアス姉ちゃんも誘ったの",
+		key = "op_reply_28_1_2"
+	},
+	ins_29 = {
+		value = "ゆーちゃん、氷の角を作ってくれた♪",
+		key = "ins_29"
+	},
+	ins_discuss_29_1 = {
+		value = "寒そうですね…今度出かけるときはお着替えを用意しますよ！",
+		key = "ins_discuss_29_1"
+	},
+	ins_reply_29_1_1 = {
+		value = "エディンバラさん、心配してくれてありがとう！でも大丈夫…！",
+		key = "ins_reply_29_1_1"
+	},
+	ins_discuss_29_2 = {
+		value = "ゆーちゃん…変な生き物です…",
+		key = "ins_discuss_29_2"
+	},
+	ins_reply_29_2_1 = {
+		value = "？？ぬいぐるみだよ…？",
+		key = "ins_reply_29_2_1"
+	},
+	ins_op_29_1_1 = {
+		value = "可愛い！",
+		key = "ins_op_29_1_1"
+	},
+	ins_op_29_1_2 = {
+		value = "ゆーちゃん器用！",
+		key = "ins_op_29_1_2"
+	},
+	op_reply_29_1_1 = {
+		value = "えへへ、お兄ちゃんありがとう…！",
+		key = "op_reply_29_1_1"
+	},
+	op_reply_29_1_2 = {
+		value = "えへへ、ゆーちゃん、色々とできるよ…？",
+		key = "op_reply_29_1_2"
+	},
+	ins_30 = {
+		value = "年越しそば…というわけではありませんが",
+		key = "ins_30"
+	},
+	ins_discuss_30_1 = {
+		value = "指揮官様も誘って、一緒に食べればいいのに",
+		key = "ins_discuss_30_1"
+	},
+	ins_reply_30_1_1 = {
+		value = "そうしたいのはあなた自身でしょうに…この時期のことですから、迷惑だって考えたことがないかしら？",
+		key = "ins_reply_30_1_1"
+	},
+	ins_reply_30_1_2 = {
+		value = "まあまあ",
+		key = "ins_reply_30_1_2"
+	},
+	ins_discuss_30_2 = {
+		value = "この写真っていつもとイメージ違くない？",
+		key = "ins_discuss_30_2"
+	},
+	ins_reply_30_2_1 = {
+		value = "やっぱりそう見えますか。阿賀野が撮ったのです",
+		key = "ins_reply_30_2_1"
+	},
+	ins_discuss_30_3 = {
+		value = "夕張も食べたい",
+		key = "ins_discuss_30_3"
+	},
+	ins_reply_30_3_1 = {
+		value = "良ければ今度おすそ分けしますよ。兵装点検のお礼もしたいので。",
+		key = "ins_reply_30_3_1"
+	},
+	ins_op_30_1_1 = {
+		value = "この時期だからね！",
+		key = "ins_op_30_1_1"
+	},
+	ins_op_30_1_2 = {
+		value = "良いお年を！",
+		key = "ins_op_30_1_2"
+	},
+	op_reply_30_1_1 = {
+		value = "この時期だからこそ、ですね。",
+		key = "op_reply_30_1_1"
+	},
+	op_reply_30_1_2 = {
+		value = "良いお年をお迎えください",
+		key = "op_reply_30_1_2"
+	},
+	ins_31 = {
+		value = "タコアゲって楽しいね！",
+		key = "ins_31"
+	},
+	ins_discuss_31_1 = {
+		value = "すごく楽しそう……",
+		key = "ins_discuss_31_1"
+	},
+	ins_reply_31_1_1 = {
+		value = "ユニコーンちゃんに今度貸してあげるよ！あっ、揚げ方も教えたほうがいいかな？明日でもいい？",
+		key = "ins_reply_31_1_1"
+	},
+	ins_reply_31_1_2 = {
+		value = "うん！ありがとう！",
+		key = "ins_reply_31_1_2"
+	},
+	ins_discuss_31_2 = {
+		value = "明日の合同演習準備は終わった？",
+		key = "ins_discuss_31_2"
+	},
+	ins_reply_31_2_1 = {
+		value = "やってます！やっていますです！",
+		key = "ins_reply_31_2_1"
+	},
+	ins_op_31_1_1 = {
+		value = "楽しそう！",
+		key = "ins_op_31_1_1"
+	},
+	ins_op_31_1_2 = {
+		value = "サウサンプトンが自分で作ったの？",
+		key = "ins_op_31_1_2"
+	},
+	op_reply_31_1_1 = {
+		value = "指揮官様も今度やりません？あ、非番の日にです！",
+		key = "op_reply_31_1_1"
+	},
+	op_reply_31_1_2 = {
+		value = "違いますよーこれは明石の店で買いましたー",
+		key = "op_reply_31_1_2"
+	},
+	ins_32 = {
+		value = "母港監視哨、所定位置にて待機中",
+		key = "ins_32"
+	},
+	ins_discuss_32_1 = {
+		value = "ごめんなさいアーク・ロイヤルさん！写真間違えました！上げ直しお願いします…",
+		key = "ins_discuss_32_1"
+	},
+	ins_reply_32_1_1 = {
+		value = "頼む！",
+		key = "ins_reply_32_1_1"
+	},
+	ins_discuss_32_2 = {
+		value = "写真の方を確認させていただきました。この度の無礼、誠に申し訳ございませんでした",
+		key = "ins_discuss_32_2"
+	},
+	ins_reply_32_2_1 = {
+		value = "別に大丈夫だ。むしろこっちが手間をかけてしまったな。感謝する",
+		key = "ins_reply_32_2_1"
+	},
+	ins_op_32_1_1 = {
+		value = "誰が撮ったんだ…？",
+		key = "ins_op_32_1_1"
+	},
+	ins_op_32_1_2 = {
+		value = "誰を撮るつもりだ…？",
+		key = "ins_op_32_1_2"
+	},
+	op_reply_32_1_1 = {
+		value = "同じ志を持つ友人だ。案ずることはない",
+		key = "op_reply_32_1_1"
+	},
+	op_reply_32_1_2 = {
+		value = "守るべき仲間たちだ。別にやましい気持ちなどないぞ！",
+		key = "op_reply_32_1_2"
+	},
+	ins_33 = {
+		value = "うひょー焼き餅ｷﾀ━━━(ﾟ∀ﾟ)━━━!! ",
+		key = "ins_33"
+	},
+	ins_discuss_33_1 = {
+		value = "なるほどね！これが「めしてろ」ってことね！",
+		key = "ins_discuss_33_1"
+	},
+	ins_reply_33_1_1 = {
+		value = "それがしの分をちゃんと残してくれでござるよ！",
+		key = "ins_reply_33_1_1"
+	},
+	ins_reply_33_1_2 = {
+		value = "暁ちゃんの分は取ってありますよ",
+		key = "ins_reply_33_1_2"
+	},
+	ins_reply_33_1_3 = {
+		value = "うぃっすお願いしまーす",
+		key = "ins_reply_33_1_3"
+	},
+	ins_discuss_33_2 = {
+		value = "大先輩もこれ作ってるよ！",
+		key = "ins_discuss_33_2"
+	},
+	ins_reply_33_2_1 = {
+		value = "喉への詰まらせ注意ね！",
+		key = "ins_reply_33_2_1"
+	},
+	ins_op_33_1_1 = {
+		value = "ｷﾀ━━━(Дﾟ(○=(ﾟ∀ﾟ)=○)Дﾟ)━━━!!! ",
+		key = "ins_op_33_1_1"
+	},
+	ins_op_33_1_2 = {
+		value = "美味しそう！",
+		key = "ins_op_33_1_2"
+	},
+	op_reply_33_1_1 = {
+		value = "ｼｷｶﾝ━━(ﾟдﾟ；)))━━!!??",
+		key = "op_reply_33_1_1"
+	},
+	op_reply_33_1_2 = {
+		value = "響ちゃんのグルメチャンネル、なめるんじゃないぞー！ニヒヒ！",
+		key = "op_reply_33_1_2"
+	},
+	ins_34 = {
+		value = "こんなもんか",
+		key = "ins_34"
+	},
+	ins_discuss_34_1 = {
+		value = "あの光ってるもの…ジュノーちゃんのものじゃない？",
+		key = "ins_discuss_34_1"
+	},
+	ins_reply_34_1_1 = {
+		value = "鬼怒、まさかこんなことをする子だなんて……",
+		key = "ins_reply_34_1_1"
+	},
+	ins_reply_34_1_2 = {
+		value = "本人からちょっと借りただけだ！写真も見せてあるぞ！",
+		key = "ins_reply_34_1_2"
+	},
+	ins_discuss_34_2 = {
+		value = "片付けのときはあてを呼んでね",
+		key = "ins_discuss_34_2"
+	},
+	ins_reply_34_2_1 = {
+		value = "え？もうそんな時期か？",
+		key = "ins_reply_34_2_1"
+	},
+	ins_op_34_1_1 = {
+		value = "いいセンスだ",
+		key = "ins_op_34_1_1"
+	},
+	ins_op_34_1_2 = {
+		value = "名前をつけるならスノーオーガ？",
+		key = "ins_op_34_1_2"
+	},
+	op_reply_34_1_1 = {
+		value = "指揮官には分かるのか？中々理解者がいなくてな",
+		key = "op_reply_34_1_1"
+	},
+	op_reply_34_1_2 = {
+		value = "あてなら「オーガ」より「白令の氷鬼」って名前をつけるな……さすがにやりすぎか",
+		key = "op_reply_34_1_2"
+	},
+	ins_35 = {
+		value = "流石に本家には勝てないか……",
+		key = "ins_35"
+	},
+	ins_discuss_35_1 = {
+		value = "言わんこっちゃない:3",
+		key = "ins_discuss_35_1"
+	},
+	ins_discuss_35_2 = {
+		value = "私が相手のときはあんなに強い姉貴が…重桜、恐るべし……！",
+		key = "ins_discuss_35_2"
+	},
+	ins_reply_35_2_1 = {
+		value = " @Cleve-FC.4  姉貴の仇を討つぞ",
+		key = "ins_reply_35_2_1"
+	},
+	ins_reply_35_2_2 = {
+		value = "了解",
+		key = "ins_reply_35_2_2"
+	},
+	ins_reply_35_2_3 = {
+		value = "討つなって！",
+		key = "ins_reply_35_2_3"
+	},
+	ins_op_35_1_1 = {
+		value = "なぜ写真をアップするんだ…？",
+		key = "ins_op_35_1_1"
+	},
+	ins_op_35_1_2 = {
+		value = "姉貴、ファイト！",
+		key = "ins_op_35_1_2"
+	},
+	op_reply_35_1_1 = {
+		value = "屈辱的な敗北を忘れないように戒めるためだ！決して罰ゲームじゃないぞ！",
+		key = "op_reply_35_1_1"
+	},
+	op_reply_35_1_2 = {
+		value = "サンキュー！あとでまた練習付き合って！",
+		key = "op_reply_35_1_2"
+	},
+	ins_36 = {
+		value = "寝正月！コタツっていいわねー",
+		key = "ins_36"
+	},
+	ins_discuss_36_1 = {
+		value = "セントラルヒーティングもよいのではなくて？",
+		key = "ins_discuss_36_1"
+	},
+	ins_reply_36_1_1 = {
+		value = "寮舎の改装まですると流石に大掛かりすぎますね…",
+		key = "ins_reply_36_1_1"
+	},
+	ins_reply_36_1_2 = {
+		value = "困りますわ＞w＜",
+		key = "ins_reply_36_1_2"
+	},
+	ins_reply_36_1_3 = {
+		value = "な、なんだこの顔文字は！？",
+		key = "ins_reply_36_1_3"
+	},
+	ins_discuss_36_2 = {
+		value = "昼寝部に入る…？",
+		key = "ins_discuss_36_2"
+	},
+	ins_op_36_1_1 = {
+		value = "コタツ最強！",
+		key = "ins_op_36_1_1"
+	},
+	ins_op_36_1_2 = {
+		value = "ルームヒーターこそ王道ぞ…！",
+		key = "ins_op_36_1_2"
+	},
+	op_reply_36_1_1 = {
+		value = "執務室に設置してはいけません！本当に仕事どころじゃなくなるから！",
+		key = "op_reply_36_1_1"
+	},
+	op_reply_36_1_2 = {
+		value = "それもいいですね…まあ、私はあくまでコタツのほうを推しますけど？",
+		key = "op_reply_36_1_2"
+	},
+	ins_37 = {
+		value = "ゆきんこ、雪だるま、雪合戦……ふわりんも一緒……",
+		key = "ins_37"
+	},
+	ins_discuss_37_1 = {
+		value = "雪玉を作るのに何も饅頭まで入れなくてもいいと思いますが…",
+		key = "ins_discuss_37_1"
+	},
+	ins_reply_37_1_1 = {
+		value = "そうなの？",
+		key = "ins_reply_37_1_1"
+	},
+	ins_discuss_37_2 = {
+		value = "意外と痛いわね…霞、本気で頑張りすぎてませんか？",
+		key = "ins_discuss_37_2"
+	},
+	ins_op_37_1_1 = {
+		value = "ふわりんは…どこ…？",
+		key = "ins_op_37_1_1"
+	},
+	ins_op_37_1_2 = {
+		value = "楽しそう！",
+		key = "ins_op_37_1_2"
+	},
+	op_reply_37_1_1 = {
+		value = "見えないの…？",
+		key = "op_reply_37_1_1"
+	},
+	op_reply_37_1_2 = {
+		value = "指揮官も一緒にやると、もっと楽しそう…",
+		key = "op_reply_37_1_2"
+	},
+	ins_reply_36_2_1 = {
+		value = "そ、そんな部活あるの!?",
+		key = "ins_reply_36_2_1"
 	}
 }
 
