@@ -3051,7 +3051,7 @@ Current expansions: <color=#92fc63>$3</color>
 		key = "ship_skill_unlock_tip"
 	},
 	ship_lock_tip = {
-		tip = "Are you sure you want to <color=#92fc63>lock</color> this ship?",
+		tip = "Do you want to <color=#92fc63>lock</color> this ship?",
 		key = "ship_lock_tip"
 	},
 	ship_destroy_uncommon_tip = {
@@ -11578,6 +11578,38 @@ The expiration of the education blessing will not cause any lesson in progress t
 				y = 1024
 			}
 		}
+	},
+	word_equipskin_type = {
+		tip = "Type ",
+		key = "word_equipskin_type"
+	},
+	word_equipskin_all = {
+		tip = "All ",
+		key = "word_equipskin_all"
+	},
+	word_equipskin_cannon = {
+		tip = "Artillery ",
+		key = "word_equipskin_cannon"
+	},
+	word_equipskin_tarpedo = {
+		tip = "Torpedoes ",
+		key = "word_equipskin_tarpedo"
+	},
+	word_equipskin_aircraft = {
+		tip = "Aircraft ",
+		key = "word_equipskin_aircraft"
+	},
+	msgbox_repair = {
+		tip = "Repair Assets",
+		key = "msgbox_repair"
+	},
+	msgbox_repair_l2d = {
+		tip = "Repair Live2D",
+		key = "msgbox_repair_l2d"
+	},
+	word_no_cache = {
+		tip = "There are no assets to repair.",
+		key = "word_no_cache"
 	}
 }
 

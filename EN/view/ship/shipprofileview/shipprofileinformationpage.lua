@@ -24,7 +24,7 @@ function slot0.OnInit(slot0)
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.voiceBtnCN, function ()
-		if ShipGroup.getDefaultSkin(slot0).voice_key < 0 then
+		if pg.ship_skin_words[ShipGroup.getDefaultSkin(slot0).id].voice_key < 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("word_comingSoon"))
 
 			return
@@ -35,9 +35,10 @@ function slot0.OnInit(slot0)
 		setActive(slot0.voiceBtnJP, true)
 		slot0.cvLoader:Load(slot0.skin.id)
 		slot0:SetAuthorInfo()
+		slot0:UpdateCvList(slot0.isLive2d)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.voiceBtnJP, function ()
-		if ShipGroup.getDefaultSkin(slot0).voice_key_2 < 0 then
+		if pg.ship_skin_words[ShipGroup.getDefaultSkin(slot0).id].voice_key_2 < 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("word_comingSoon"))
 
 			return
@@ -48,6 +49,7 @@ function slot0.OnInit(slot0)
 		setActive(slot0.voiceBtnJP, false)
 		slot0.cvLoader:Load(slot0.skin.id)
 		slot0:SetAuthorInfo()
+		slot0:UpdateCvList(slot0.isLive2d)
 	end, SFX_PANEL)
 end
 
@@ -96,7 +98,7 @@ end
 
 function slot0.UpdateProfileInfo(slot0)
 	slot1, slot2, slot0.profileTxt.text = ShipWordHelper.GetWordAndCV(slot0.skin.id, ShipWordHelper.WORD_TYPE_PROFILE)
-	slot5 = pg.ship_skin_words[slot0.skin.id] and slot4.voice_key >= 0
+	slot5 = pg.ship_skin_words[slot0.skin.id] and (slot4.voice_key >= 0 or slot4.voice_key == -2)
 
 	if slot5 then
 		onButton(slot0, slot0.profilePlayBtn, function ()
@@ -138,7 +140,7 @@ end
 function slot0.GetCvList(slot0, slot1)
 	slot2 = {}
 
-	return (not slot1 or pg.AssistantInfo.GetCvList()) and ShipWordHelper.GetCVList()
+	return (not slot1 or pg.AssistantInfo.GetCVListForProfile()) and ShipWordHelper.GetCVList()
 end
 
 function slot0.UpdateCvList(slot0, slot1)
@@ -171,18 +173,16 @@ function slot0.AddCvBtn(slot0, slot1)
 end
 
 function slot0.AddExCvBtn(slot0, slot1)
-	slot2 = slot1.key
-	slot3 = nil
-	slot5 = ShipProfileExCvBtn.New(cloneTplTo(slot0.cvTpl, slot0.cvContainer))
+	slot2 = ShipProfileExCvBtn.New(cloneTplTo(slot0.cvTpl, slot0.cvContainer))
 
-	onButton(slot0, slot5._tf, function ()
+	onButton(slot0, slot2._tf, function ()
 		if slot0.callback then
 			slot0.callback(slot1)
 		end
 	end, SFX_PANEL)
-	slot5:Init(slot0.shipGroup, slot0.skin, slot0.isLive2d, slot1, slot0.shipGroup:GetMaxIntimacy())
-	slot5:Update()
-	table.insert(slot0.cvBtns, slot5)
+	slot2:Init(slot0.shipGroup, slot0.skin, slot0.isLive2d, slot1, slot0.shipGroup:GetMaxIntimacy())
+	slot2:Update()
+	table.insert(slot0.cvBtns, slot2)
 end
 
 function slot0.DestroyCvBtns(slot0)

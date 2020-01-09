@@ -386,6 +386,18 @@ slot1 = {
 	[ActivityConst.SKIN_KISARAGI] = {
 		className = "SkinKisaragiPage",
 		uiName = "SkinKisaragiPage"
+	},
+	[ActivityConst.MORAN_KR_PT_ID] = {
+		className = "MoranPtPage",
+		uiName = "MoranPtPage"
+	},
+	[ActivityConst.MORAN_KR_PREVIEW_ID] = {
+		className = "MoranMainPage",
+		uiName = "MoranMainPage"
+	},
+	[ActivityConst.UNICORN_STARDUST] = {
+		className = "UnicornStardustPage",
+		uiName = "UnicornStardustPage"
 	}
 }
 slot2 = {
@@ -404,7 +416,7 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.getBGM(slot0)
-	return "main-newyear"
+	return "main"
 end
 
 function slot0.onBackPressed(slot0)

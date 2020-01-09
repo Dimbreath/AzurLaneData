@@ -913,6 +913,10 @@ function pg.MsgboxMgr.updateButton(slot0, slot1, slot2)
 	if slot3 then
 		setText(slot4, i18n(slot3))
 	else
+		if string.len(slot2) > 12 then
+			GetComponent(slot4, typeof(Text)).resizeTextForBestFit = true
+		end
+
 		setText(slot4, slot2)
 	end
 end

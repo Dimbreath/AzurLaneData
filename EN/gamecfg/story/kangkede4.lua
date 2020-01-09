@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "One day, I received an invitation to an event commemorating the formation of Dunkirk's \"Sugar Alliance.\"",
+			say = "One day, I received an invitation to an event commemorating the formation of Dunkerque \"Sugar Alliance.\"",
 			flashout = {
 				dur = 1,
 				black = true,

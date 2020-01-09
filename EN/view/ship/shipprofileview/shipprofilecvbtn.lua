@@ -45,9 +45,17 @@ function slot0.Init(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.Update(slot0)
-	setActive(slot0._tf, not (slot0.voice.unlock_condition[1] < 0 or slot0.wordData.textContent == nil or slot0.wordData.textContent == "nil" or slot0.wordData.textContent == ""))
+	slot2 = slot0.voice.unlock_condition[1] < 0
+	slot3 = slot0.wordData.textContent == nil or slot0.wordData.textContent == "nil" or slot0.wordData.textContent == ""
+	slot4 = slot1.l2d_action:match("^main_")
 
-	if not (slot0.voice.unlock_condition[1] < 0 or slot0.wordData.textContent == nil or slot0.wordData.textContent == "nil" or slot0.wordData.textContent == "") then
+	if not slot0.isLive2d then
+		slot2 = slot2 or slot3
+	end
+
+	setActive(slot0._tf, not (slot2 or (slot3 and slot4)))
+
+	if not (slot2 or (slot3 and slot4)) then
 		slot0:UpdateCvBtn()
 	end
 end

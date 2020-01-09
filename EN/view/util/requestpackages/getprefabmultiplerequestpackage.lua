@@ -41,7 +41,7 @@ function slot0.AddRequest(slot0, slot1)
 end
 
 function slot0.RemoveRequest(slot0, slot1)
-	table.removebyvalue(slot1)
+	table.removebyvalue(slot0.onLoaded, slot1)
 end
 
 return slot0

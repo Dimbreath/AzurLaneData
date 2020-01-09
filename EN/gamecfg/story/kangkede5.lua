@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			actor = 102180,
 			nameColor = "#a9f548",
-			say = "For me, ever since Dunkirk's Sugar Alliance meeting, I've been thinking...",
+			say = "For me, ever since Dunkerque Sugar Alliance meeting, I've been thinking...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
