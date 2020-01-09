@@ -59,6 +59,9 @@ slot0.DisplaySort = 1
 slot0.DisplayIndex = 2
 slot0.DisplayCamp = 3
 slot0.DisplayRarity = 4
+slot0.DisplayEquipSkinSort = 5
+slot0.DisplayEquipSkinIndex = 6
+slot0.DisplayEquipSkinTheme = 7
 slot0.SortRarity = 1
 slot0.SortLevel = 2
 slot0.SortPower = 3
@@ -202,6 +205,111 @@ slot0.RarityNames = {
 	"index_rare5",
 	"index_rare6"
 }
+slot0.EquipSkinSortType = 1
+slot0.EquipSkinSortTypes = {
+	slot0.EquipSkinSortType
+}
+slot0.EquipSkinSortNames = {
+	i18n("word_equipskin_type")
+}
+slot0.EquipSkinIndexAll = 1
+slot0.EquipSkinIndexCannon = 2
+slot0.EquipSkinIndexTarpedo = 3
+slot0.EquipSkinIndexAircraft = 4
+slot0.EquipSkinIndexTypes = {
+	slot0.EquipSkinIndexAll,
+	slot0.EquipSkinIndexCannon,
+	slot0.EquipSkinIndexTarpedo,
+	slot0.EquipSkinIndexAircraft
+}
+slot0.EquipSkinIndexNames = {
+	i18n("word_equipskin_all"),
+	i18n("word_equipskin_cannon"),
+	i18n("word_equipskin_tarpedo"),
+	i18n("word_equipskin_aircraft")
+}
+slot0.EquipSkinThemeAll = 1
+slot0.EquipSkinThemeEnd = nil
+slot0.EquipSkinThemeTypes = {
+	slot0.EquipSkinThemeAll
+}
+
+for slot4, slot5 in ipairs(pg.equip_skin_theme_template.all) do
+	table.insert(slot0.EquipSkinThemeTypes, slot4 + slot0.EquipSkinThemeAll)
+
+	if slot4 == #pg.equip_skin_theme_template.all then
+		slot0.EquipSkinThemeEnd = slot4 + slot0.EquipSkinThemeAll + 1
+	end
+end
+
+slot0.EquipSkinThemeNames = {
+	i18n("word_equipskin_all")
+}
+
+for slot4, slot5 in ipairs(pg.equip_skin_theme_template.all) do
+	table.insert(slot0.EquipSkinThemeNames, pg.equip_skin_theme_template[slot5].name)
+end
+
+function slot0.filterEquipSkinByIndex(slot0, slot1)
+	if not slot1 then
+		return true
+	end
+
+	if bit.band(slot1, bit.lshift(1, slot0.EquipSkinIndexAll)) > 0 then
+		return true
+	end
+
+	slot2 = {}
+	slot3 = {
+		1,
+		2,
+		3,
+		5
+	}
+
+	for slot7, slot8 in ipairs(slot0.EquipSkinIndexTypes) do
+		if bit.band(slot1, bit.lshift(1, slot8)) > 0 then
+			for slot14, slot15 in ipairs(slot10) do
+				table.insert(slot2, slot15)
+			end
+		end
+	end
+
+	slot4 = pg.equip_skin_template
+
+	if slot0.count > 0 and slot0.isSkin then
+		for slot10, slot11 in pairs(slot6) do
+			if table.contains(slot2, slot11) then
+				return true
+			end
+		end
+	end
+end
+
+function slot0.filterEquipSkinByTheme(slot0, slot1)
+	if not slot1 then
+		return true
+	end
+
+	if bit.band(slot1, bit.lshift(1, slot0.EquipSkinThemeAll)) > 0 then
+		return true
+	end
+
+	slot2 = pg.equip_skin_template
+	slot3 = pg.equip_skin_theme_template
+
+	if slot0.count > 0 and slot0.isSkin then
+		slot5 = slot2[slot0.id].themeid
+		slot6 = nil
+
+		for slot10, slot11 in ipairs(slot0.EquipSkinThemeTypes) do
+			if bit.band(slot1, bit.lshift(1, slot10)) > 0 and table.contains(slot3[slot3[pg.equip_skin_theme_template.all[slot11 - 1]].id].ids, slot4) then
+				return true
+			end
+		end
+	end
+end
+
 slot0.shipType2Index = {
 	1,
 	2,

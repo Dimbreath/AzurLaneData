@@ -9096,7 +9096,7 @@ $3]],
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "南安普顿、{namecode:174} 建造追加！",
+		tip = "鲁莽、{namecode:57}建造追加！",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
@@ -12284,6 +12284,38 @@ TIPS：
 				y = 1024
 			}
 		}
+	},
+	word_equipskin_type = {
+		tip = "类型",
+		key = "word_equipskin_type"
+	},
+	word_equipskin_all = {
+		tip = "全部",
+		key = "word_equipskin_all"
+	},
+	word_equipskin_cannon = {
+		tip = "舰炮",
+		key = "word_equipskin_cannon"
+	},
+	word_equipskin_tarpedo = {
+		tip = "鱼雷",
+		key = "word_equipskin_tarpedo"
+	},
+	word_equipskin_aircraft = {
+		tip = "舰载机",
+		key = "word_equipskin_aircraft"
+	},
+	msgbox_repair = {
+		tip = "修复资源",
+		key = "msgbox_repair"
+	},
+	msgbox_repair_l2d = {
+		tip = "修复L2D",
+		key = "msgbox_repair_l2d"
+	},
+	word_no_cache = {
+		tip = "没有需要修复的资源",
+		key = "word_no_cache"
 	}
 }
 

@@ -1984,6 +1984,15 @@ pg.AssistantInfo = {
 		end
 
 		return slot0
+	end,
+	GetCVListForProfile = function ()
+		for slot4, slot5 in pairs(slot0.character_voice) do
+			if not slot0.AssistantInfo.isDisableSpecialClick(slot4) and slot5.unlock_condition[1] >= 0 and slot5.l2d_action ~= "" then
+				table.insert(slot0, slot5)
+			end
+		end
+
+		return slot0
 	end
 }
 slot2 = true

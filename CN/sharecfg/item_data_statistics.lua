@@ -19594,17 +19594,17 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "据说最原始的拐杖糖是白色的呢。 <color=#92fc63>（提高经验加成5%，持续60分钟）</color>",
+		display = "甜咖喱还是辣咖喱，这是一个问题！ <color=#92fc63>（提高经验加成5%，持续60分钟）</color>",
 		rarity = 2,
 		type = 3,
-		name = "拐杖糖",
+		name = "海军咖喱",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		virtual_type = 0,
 		replace_item = 0,
 		link_id = 0,
 		id = 50004,
-		icon = "Props/christmas",
+		icon = "Props/haijungali",
 		display_icon = {},
 		price = {
 			1,
