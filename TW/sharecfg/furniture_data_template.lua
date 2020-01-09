@@ -9311,6 +9311,1240 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[14001] = {
+		advice = 0,
+		describe = "無盡深邃的星空之下，一切都顯得微不足道了",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "星空地板",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 14,
+		icon = "dibansticon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 14001,
+		picture = "st/dibanst",
+		comfortable = 4,
+		tag = 4,
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[14002] = {
+		advice = 0,
+		describe = "無盡深邃的星空之下，一切都顯得微不足道了",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "星空牆壁",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 14,
+		icon = "qiangbisticon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 14002,
+		picture = "st/qiangbist",
+		comfortable = 4,
+		tag = 3,
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[14101] = {
+		advice = 0,
+		describe = "真空存物的櫃子，密封性十分優秀",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "真空櫃子",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 14,
+		icon = "guizisticon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 14101,
+		picture = "st/guizist",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[14102] = {
+		advice = 0,
+		describe = "太陽系第八行星-Neptune",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "海王星坐凳",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 14,
+		icon = "haiwangxingyisticon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 14102,
+		picture = "st/haiwangxingyist",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					3.3,
+					64.9
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[14103] = {
+		advice = 0,
+		describe = "太陽系第六行星-Mars",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "火星坐凳",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 14,
+		icon = "huoxingyisticon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 14103,
+		picture = "st/huoxingyist",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					0.4,
+					54.4
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[14104] = {
+		advice = 0,
+		describe = "軟乎乎的雲朵躺椅",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "雲朵躺椅",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 14,
+		icon = "guifeiyisticon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 14104,
+		picture = "st/guifeiyist",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-5.1,
+					16.6
+				},
+				{
+					1,
+					1
+				},
+				"st/guifeiyist_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[14105] = {
+		advice = 0,
+		describe = "太陽系第五行星-Jupiter",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "木星坐凳",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 14,
+		icon = "muxingyisticon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 14105,
+		picture = "st/muxingyist",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					4.2,
+					61.1
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[14106] = {
+		advice = 0,
+		describe = "滿佈星空的屏風，那些星星會是真的嗎",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "幻星屏風",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 14,
+		icon = "pingfengsticon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 14106,
+		picture = "st/pingfengst",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[14107] = {
+		advice = 0,
+		describe = "粉色的星星氣球",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "粉色星星",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 14,
+		icon = "qiqiu1sticon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 14107,
+		picture = "st/qiqiu1st",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[14108] = {
+		advice = 0,
+		describe = "黃色的星星氣球",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "黃色星星",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 14,
+		icon = "qiqiu2sticon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 14108,
+		picture = "st/qiqiu2st",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[14109] = {
+		advice = 0,
+		describe = "繁星點綴的夜空，有種未知的魅力",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "星空晚禮服",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 14,
+		icon = "qunzisticon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 14109,
+		picture = "st/qunzist",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[14110] = {
+		advice = 0,
+		describe = "坐上去整個人就會陷進去呢",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "雲朵沙發",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 14,
+		icon = "shafasticon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 14110,
+		picture = "st/shafast",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					26,
+					8.9
+				},
+				{
+					1,
+					1
+				},
+				"st/shafast_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[14111] = {
+		advice = 0,
+		describe = "小小的道具能投影出這樣美麗的景色啊",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "太陽系投影",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 14,
+		icon = "taiyangxisticon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 14111,
+		picture = "st/taiyangxist",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[14112] = {
+		advice = 0,
+		describe = "巨大的土星可以用來做桌子呢",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "土星桌子",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 14,
+		icon = "tuxingzhuosticon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 14112,
+		picture = "st/tuxingzhuost",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[14113] = {
+		advice = 0,
+		describe = "軟乎乎的小桌子，鋪上桌布才能放好東西",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "雲朵小桌",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 14,
+		icon = "zhuozisticon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 14113,
+		picture = "st/zhuozist",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			4,
+			2
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				2
+			},
+			{
+				4,
+				1
+			},
+			{
+				4,
+				2
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[14114] = {
+		advice = 0,
+		describe = "來，讓我們看看遠處有些什麼",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "望遠鏡",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 14,
+		icon = "wangyuanjingsticon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 14114,
+		picture = "st/wangyuanjingst",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[14115] = {
+		advice = 0,
+		describe = "月亮船，搖啊搖，搖到那天邊",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "月亮船",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 14,
+		icon = "yueliangsticon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 14115,
+		picture = "st/yueliangst",
+		comfortable = 5,
+		tag = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yueliangstB",
+				"normal"
+			},
+			{
+				"yueliangstT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				30.5,
+				41.4
+			}
+		},
+		interAction_group = {}
+	},
+	[14116] = {
+		advice = 0,
+		describe = "洗白白~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "水立方浴缸",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 14,
+		icon = "yugangsticon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 14116,
+		picture = "st/yugangst",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-10,
+					-23.3
+				},
+				{
+					1,
+					1
+				},
+				"st/yugangst_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[14117] = {
+		advice = 0,
+		describe = "呼啊~呼啊~軟軟的好想陷進去",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "雲朵小凳",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 14,
+		icon = "yunduoyisticon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 14117,
+		picture = "st/yunduoyist",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					8,
+					44
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[14118] = {
+		advice = 0,
+		describe = "通往天堂的階梯",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "雲朵梯子",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 14,
+		icon = "yuntisticon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 14118,
+		picture = "st/yuntist",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[14119] = {
+		advice = 0,
+		describe = "小心不要掉下來哦",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "雲朵床",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 14,
+		icon = "chuangsticon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 14119,
+		picture = "st/chuangst",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			7,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					64.1,
+					89.7
+				},
+				{
+					-1,
+					1
+				},
+				"st/chuangst_using2"
+			},
+			{
+				"sleep",
+				{
+					16.7,
+					39.4
+				},
+				{
+					-1,
+					1
+				},
+				"st/chuangst_using1"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[14120] = {
+		advice = 0,
+		describe = "咻~咻~咻~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "小飛船",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 14,
+		icon = "feichuansticon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 14120,
+		picture = "st/feichuanst",
+		comfortable = 5,
+		tag = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"feichuanstB",
+				"normal"
+			},
+			{
+				"feichuanstT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					-14,
+					67
+				},
+				{
+					365,
+					365
+				},
+				"st/feichuan_shadow",
+				{
+					-28,
+					67
+				}
+			},
+			{
+				20,
+				60
+			},
+			{
+				-1,
+				1
+			}
+		},
+		interAction_group = {}
+	},
+	[14121] = {
+		advice = 0,
+		describe = "煙霧氤氳中，星星隱隱可見",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "光束髮射器",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 14,
+		icon = "guangshusticon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 14121,
+		picture = "st/guangshust",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[14201] = {
+		advice = 0,
+		describe = "培養罩中的植物，這裡唯一的綠色",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "植物樣本",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 14,
+		icon = "zhiwusticon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 14201,
+		picture = "st/zhiwust",
+		comfortable = 1,
+		tag = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[14301] = {
+		advice = 0,
+		describe = "這個的另一面會是什麼呢",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "蟲洞",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 14,
+		icon = "chongdongsticon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 14301,
+		picture = "st/chongdongst",
+		comfortable = 4,
+		tag = 5,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[14302] = {
+		advice = 0,
+		describe = "看似空寂的宇宙，隱藏著無盡的變化",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "空間窗戶",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 14,
+		icon = "chuanghusticon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 14302,
+		picture = "st/chuanghust",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			10,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[14303] = {
+		advice = 0,
+		describe = "出門前記得穿好太空衣哦",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "空間大門",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 14,
+		icon = "mensticon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 14303,
+		picture = "st/menst",
+		comfortable = 3,
+		tag = 5,
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[14304] = {
+		advice = 0,
+		describe = "警告：出門前切記穿好裝備",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "太空衣",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 14,
+		icon = "yuhangfusticon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 14304,
+		picture = "st/yuhangfust",
+		comfortable = 3,
+		tag = 5,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[16001] = {
 		advice = 0,
 		describe = "標準的木質地板，小心不要弄濕了",
@@ -18182,6 +19416,1190 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[44001] = {
+		advice = 0,
+		describe = "嘩啦啦啦~下雨啦！當心不要滑倒哦~",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "濕漉漉的地面",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 44,
+		icon = "dibanrdicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 44001,
+		picture = "rainday/dibanrd",
+		comfortable = 4,
+		tag = 4,
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[44002] = {
+		advice = 0,
+		describe = "嘩啦啦啦~下雨啦！記得帶上雨傘~",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "濕漉漉的牆壁",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 44,
+		icon = "qiangbirdicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 44002,
+		picture = "rainday/qiangbird",
+		comfortable = 4,
+		tag = 3,
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[44101] = {
+		advice = 0,
+		describe = "沾著雨水的生機盎然的翠綠草皮",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "濕漉漉的草皮",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 44,
+		icon = "caopirdicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 44101,
+		picture = "rainday/caopird",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[44102] = {
+		advice = 0,
+		describe = "滴~滴~雨天請注意謹慎駕駛~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "黃色大巴",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 44,
+		icon = "cherdicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 44102,
+		picture = "rainday/cherd",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-107,
+					52
+				},
+				{
+					1,
+					1
+				},
+				"rainday/cherd_using"
+			},
+			{
+				"sit",
+				{
+					-40,
+					4
+				},
+				{
+					1,
+					1
+				},
+				"rainday/cherd_using2"
+			},
+			{
+				"sit",
+				{
+					54,
+					-36
+				},
+				{
+					1,
+					1
+				},
+				"rainday/cherd_using3"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[44103] = {
+		advice = 0,
+		describe = "沾著雨水的生機盎然的翠綠草叢",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "濕漉漉的草叢",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 44,
+		icon = "huatan2rdicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 44103,
+		picture = "rainday/huatan2rd",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[44104] = {
+		advice = 0,
+		describe = "沾著雨水的生機盎然的花壇",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "濕漉漉的花壇",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 44,
+		icon = "huatanrdicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 44104,
+		picture = "rainday/huatanrd",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[44105] = {
+		advice = 0,
+		describe = "三個一組的盆栽，底下還可以種點其他的綠植~",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "盆栽組合",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 44,
+		icon = "jiazirdicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 44105,
+		picture = "rainday/jiazird",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[44106] = {
+		advice = 0,
+		describe = "安全、快速、方便！淋濕了就來烘乾一下吧！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "啾啾烘乾機",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 44,
+		icon = "jiqirdicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 44106,
+		picture = "rainday/jiqird",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"yun",
+				{
+					1,
+					-102
+				},
+				{
+					1,
+					1
+				},
+				"rainday/jiqird_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[44107] = {
+		advice = 0,
+		describe = "清澈的水面倒映著美麗的彩虹",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "積水",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 44,
+		icon = "jishuirdicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 44107,
+		picture = "rainday/jishuird",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[44108] = {
+		advice = 0,
+		describe = "清澈的小水塘，不可以隨便踩上去哦？",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "小水塘",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 44,
+		icon = "kengrdicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 44108,
+		picture = "rainday/kengrd",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[44109] = {
+		advice = 0,
+		describe = "要養成垃圾分類的好習慣~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "垃圾桶",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 44,
+		icon = "lajitongrdicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 44109,
+		picture = "rainday/lajitongrd",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[44110] = {
+		advice = 0,
+		describe = "下一班公車，還有20分鐘~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "站牌",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 44,
+		icon = "pairdicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 44110,
+		picture = "rainday/paird",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[44111] = {
+		advice = 0,
+		describe = "可以兩個人一起避避雨呢！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "黃色大傘",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 44,
+		icon = "san2rdicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 44111,
+		picture = "rainday/san2rd",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"stand2",
+				{
+					-35,
+					-73
+				},
+				{
+					1,
+					1
+				},
+				"rainday/san2rd_using"
+			},
+			{
+				"stand2",
+				{
+					52,
+					-92
+				},
+				{
+					-1,
+					1
+				},
+				"rainday/san2rd_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[44112] = {
+		advice = 0,
+		describe = "喂！不可以拿雨傘這樣玩啊！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "倒放的黃色大傘",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 44,
+		icon = "sanrdicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 44112,
+		picture = "rainday/sanrd",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-31,
+					-7
+				},
+				{
+					1,
+					1
+				},
+				"rainday/sanrd_using"
+			},
+			{
+				"sleep",
+				{
+					18,
+					-49
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[44113] = {
+		advice = 0,
+		describe = "淋濕了也不會影響消防栓的功能的~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "濕漉漉的消防栓",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 44,
+		icon = "shuanrdicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 44113,
+		picture = "rainday/shuanrd",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[44114] = {
+		advice = 0,
+		describe = "雖然是乾淨的水，但也不能隨便亂喝哦？",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "水池",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 44,
+		icon = "shuichirdicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 44114,
+		picture = "rainday/shuichird",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[44115] = {
+		advice = 0,
+		describe = "祈禱明天能夠放晴~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "晴天娃娃",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 44,
+		icon = "wawardicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 44115,
+		picture = "rainday/waward",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[44116] = {
+		advice = 0,
+		describe = "雨靴造型的…澡盆！？",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "超大雨靴",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 44,
+		icon = "xuerdicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 44116,
+		picture = "rainday/xuerd",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					13,
+					24
+				},
+				{
+					-1,
+					1
+				},
+				"rainday/xuerd_using"
+			},
+			{
+				"wash",
+				{
+					-87,
+					-28
+				},
+				{
+					1,
+					1
+				},
+				"rainday/xuerd_using2"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[44117] = {
+		advice = 0,
+		describe = "就算下雨天，也要悠閒地喝一杯咖啡！",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "木製靠背椅",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 44,
+		icon = "yizi2rdicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 44117,
+		picture = "rainday/yizi2rd",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					13,
+					26
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[44118] = {
+		advice = 0,
+		describe = "呼…走累了，稍微放下傘休息下吧",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "長椅",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 44,
+		icon = "yizirdicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 44118,
+		picture = "rainday/yizird",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					11,
+					13
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[44119] = {
+		advice = 0,
+		describe = "等待下一班…公車…？",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "樹葉啾",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 44,
+		icon = "yujiurdicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 44119,
+		picture = "rainday/yujiurd",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[44120] = {
+		advice = 0,
+		describe = "穿上雨衣，去雨中盡情玩耍吧~",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "啾啾雨衣",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 44,
+		icon = "yuyirdicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 44120,
+		picture = "rainday/yuyird",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				},
+				"rainday/yuyird_using",
+				0,
+				{
+					{
+						-5,
+						76
+					},
+					{
+						212,
+						174
+					},
+					"rainday/yuyird_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[44121] = {
+		advice = 0,
+		describe = "就算下雨天，也要悠閒地喝一杯咖啡！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "圓桌(附雨傘)",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 44,
+		icon = "zhuozi2rdicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 44121,
+		picture = "rainday/zhuozi2rd",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[44122] = {
+		advice = 0,
+		describe = "唔，得擦乾了才能用了呢……",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "濕漉漉的圓桌",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 44,
+		icon = "zhuozirdicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 44122,
+		picture = "rainday/zhuozird",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[44123] = {
+		advice = 0,
+		describe = "今日天氣，雷雨機率100%，出行請做好避雷準備w",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "雷雨雲",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 44,
+		icon = "yunrdicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 44123,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yuyun",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		animator = {
+			{
+				"yuyunCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[44301] = {
+		advice = 0,
+		describe = "擺滿了鮮花綠植盆栽的窗台，很有春天的味道~",
+		count = 3,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "盆栽窗台",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 44,
+		icon = "chuanghurdicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 44301,
+		picture = "rainday/chuanghurd",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[44302] = {
+		advice = 0,
+		describe = "就算打開窗戶也不怕雨水濺到室內了呢",
+		count = 2,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "條紋雨棚",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 44,
+		icon = "chuanghu2rdicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 44302,
+		picture = "rainday/chuanghu2rd",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[49001] = {
 		advice = 0,
 		describe = "加油開始新一天的工作吧！",
@@ -20579,6 +22997,34 @@ pg.furniture_data_template = {
 		13304,
 		13305,
 		13306,
+		14001,
+		14002,
+		14101,
+		14102,
+		14103,
+		14104,
+		14105,
+		14106,
+		14107,
+		14108,
+		14109,
+		14110,
+		14111,
+		14112,
+		14113,
+		14114,
+		14115,
+		14116,
+		14117,
+		14118,
+		14119,
+		14120,
+		14121,
+		14201,
+		14301,
+		14302,
+		14303,
+		14304,
 		16001,
 		16002,
 		16101,
@@ -20782,6 +23228,33 @@ pg.furniture_data_template = {
 		40124,
 		40125,
 		40126,
+		44001,
+		44002,
+		44101,
+		44102,
+		44103,
+		44104,
+		44105,
+		44106,
+		44107,
+		44108,
+		44109,
+		44110,
+		44111,
+		44112,
+		44113,
+		44114,
+		44115,
+		44116,
+		44117,
+		44118,
+		44119,
+		44120,
+		44121,
+		44122,
+		44123,
+		44301,
+		44302,
 		49001,
 		49002,
 		49101,

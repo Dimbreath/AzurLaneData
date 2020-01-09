@@ -1,16 +1,24 @@
 pg = pg or {}
 pg.ship_data_group = {
 	{
-		nationality = 1,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 1,
-		type = 1,
+		nationality = 1,
+		hide = 0,
 		index_id = 1,
 		group_type = 10000,
-		trans_type = 0,
+		code = 1,
+		property_hexagon = {
+			"D",
+			"D",
+			"D",
+			"D",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -34,16 +42,24 @@ pg.ship_data_group = {
 		}
 	},
 	{
-		nationality = 1,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 2,
-		type = 1,
+		nationality = 1,
+		hide = 0,
 		index_id = 2,
 		group_type = 10001,
-		trans_type = 0,
+		code = 2,
+		property_hexagon = {
+			"D",
+			"D",
+			"D",
+			"D",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -67,16 +83,24 @@ pg.ship_data_group = {
 		}
 	},
 	[5] = {
-		nationality = 1,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 5,
-		type = 1,
+		nationality = 1,
+		hide = 0,
 		index_id = 3,
 		group_type = 10103,
-		trans_type = 1,
+		code = 5,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -114,16 +138,24 @@ pg.ship_data_group = {
 		}
 	},
 	[6] = {
-		nationality = 1,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 6,
-		type = 1,
+		nationality = 1,
+		hide = 0,
 		index_id = 4,
 		group_type = 10104,
-		trans_type = 1,
+		code = 6,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -161,16 +193,24 @@ pg.ship_data_group = {
 		}
 	},
 	[7] = {
-		nationality = 1,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 7,
-		type = 1,
+		nationality = 1,
+		hide = 0,
 		index_id = 5,
 		group_type = 10105,
-		trans_type = 0,
+		code = 7,
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -208,16 +248,24 @@ pg.ship_data_group = {
 		}
 	},
 	[8] = {
-		nationality = 1,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 8,
-		type = 1,
+		nationality = 1,
+		hide = 0,
 		index_id = 8,
 		group_type = 10106,
-		trans_type = 0,
+		code = 8,
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -255,16 +303,24 @@ pg.ship_data_group = {
 		}
 	},
 	[9] = {
-		nationality = 1,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 9,
-		type = 1,
+		nationality = 1,
+		hide = 0,
 		index_id = 9,
 		group_type = 10107,
-		trans_type = 0,
+		code = 9,
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -302,16 +358,24 @@ pg.ship_data_group = {
 		}
 	},
 	[10] = {
-		nationality = 1,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 10,
-		type = 1,
+		nationality = 1,
+		hide = 0,
 		index_id = 10,
 		group_type = 10108,
-		trans_type = 0,
+		code = 10,
+		property_hexagon = {
+			"C",
+			"A",
+			"E",
+			"A",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -328,16 +392,24 @@ pg.ship_data_group = {
 		}
 	},
 	[26] = {
-		nationality = 1,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 26,
-		type = 1,
+		nationality = 1,
+		hide = 0,
 		index_id = 11,
 		group_type = 10124,
-		trans_type = 1,
+		code = 26,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -375,16 +447,24 @@ pg.ship_data_group = {
 		}
 	},
 	[27] = {
-		nationality = 1,
-		hide = 0,
+		type = 1,
 		trans_skin = 101259,
+		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 27,
-		type = 1,
+		nationality = 1,
+		hide = 0,
 		index_id = 12,
 		group_type = 10125,
-		trans_type = 1,
+		code = 27,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {
 			"B",
 			"C",
@@ -431,16 +511,24 @@ pg.ship_data_group = {
 		}
 	},
 	[18] = {
-		nationality = 1,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 18,
-		type = 1,
+		nationality = 1,
+		hide = 0,
 		index_id = 13,
 		group_type = 10116,
-		trans_type = 0,
+		code = 18,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -454,16 +542,24 @@ pg.ship_data_group = {
 		}
 	},
 	[19] = {
-		nationality = 1,
-		hide = 0,
+		type = 1,
 		trans_skin = 101179,
+		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 19,
-		type = 1,
+		nationality = 1,
+		hide = 0,
 		index_id = 14,
 		group_type = 10117,
-		trans_type = 1,
+		code = 19,
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
 		trans_radar_chart = {
 			"A",
 			"C",
@@ -500,16 +596,24 @@ pg.ship_data_group = {
 		}
 	},
 	[263] = {
-		nationality = 1,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 263,
-		type = 1,
+		nationality = 1,
+		hide = 0,
 		index_id = 15,
 		group_type = 10127,
-		trans_type = 1,
+		code = 263,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -523,16 +627,24 @@ pg.ship_data_group = {
 		}
 	},
 	[11] = {
-		nationality = 1,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 11,
-		type = 1,
+		nationality = 1,
+		hide = 0,
 		index_id = 18,
 		group_type = 10109,
-		trans_type = 0,
+		code = 11,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -570,16 +682,24 @@ pg.ship_data_group = {
 		}
 	},
 	[16] = {
-		nationality = 1,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 16,
-		type = 1,
+		nationality = 1,
+		hide = 0,
 		index_id = 24,
 		group_type = 10114,
-		trans_type = 0,
+		code = 16,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -617,16 +737,24 @@ pg.ship_data_group = {
 		}
 	},
 	[17] = {
-		nationality = 1,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 17,
-		type = 1,
+		nationality = 1,
+		hide = 0,
 		index_id = 25,
 		group_type = 10115,
-		trans_type = 0,
+		code = 17,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -664,16 +792,24 @@ pg.ship_data_group = {
 		}
 	},
 	[14] = {
-		nationality = 1,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 14,
-		type = 1,
+		nationality = 1,
+		hide = 0,
 		index_id = 26,
 		group_type = 10112,
-		trans_type = 0,
+		code = 14,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -711,16 +847,24 @@ pg.ship_data_group = {
 		}
 	},
 	[15] = {
-		nationality = 1,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 15,
-		type = 1,
+		nationality = 1,
+		hide = 0,
 		index_id = 32,
 		group_type = 10113,
-		trans_type = 0,
+		code = 15,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -758,16 +902,24 @@ pg.ship_data_group = {
 		}
 	},
 	[13] = {
-		nationality = 1,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 13,
-		type = 1,
+		nationality = 1,
+		hide = 0,
 		index_id = 33,
 		group_type = 10111,
-		trans_type = 0,
+		code = 13,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -805,16 +957,24 @@ pg.ship_data_group = {
 		}
 	},
 	[28] = {
-		nationality = 1,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 28,
-		type = 1,
+		nationality = 1,
+		hide = 0,
 		index_id = 34,
 		group_type = 10126,
-		trans_type = 0,
+		code = 28,
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"S",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -831,16 +991,24 @@ pg.ship_data_group = {
 		}
 	},
 	[29] = {
-		nationality = 1,
-		hide = 0,
+		type = 2,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 29,
-		type = 2,
+		nationality = 1,
+		hide = 0,
 		index_id = 35,
 		group_type = 10201,
-		trans_type = 0,
+		code = 29,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -878,16 +1046,24 @@ pg.ship_data_group = {
 		}
 	},
 	[30] = {
-		nationality = 1,
-		hide = 0,
+		type = 2,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 30,
-		type = 2,
+		nationality = 1,
+		hide = 0,
 		index_id = 36,
 		group_type = 10202,
-		trans_type = 0,
+		code = 30,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -925,16 +1101,24 @@ pg.ship_data_group = {
 		}
 	},
 	[303] = {
-		nationality = 1,
-		hide = 0,
+		type = 2,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 303,
-		type = 2,
+		nationality = 1,
+		hide = 0,
 		index_id = 37,
 		group_type = 10211,
-		trans_type = 0,
+		code = 303,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -951,16 +1135,24 @@ pg.ship_data_group = {
 		}
 	},
 	[31] = {
-		nationality = 1,
-		hide = 0,
+		type = 2,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 31,
-		type = 2,
+		nationality = 1,
+		hide = 0,
 		index_id = 40,
 		group_type = 10203,
-		trans_type = 0,
+		code = 31,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -998,16 +1190,24 @@ pg.ship_data_group = {
 		}
 	},
 	[32] = {
-		nationality = 1,
-		hide = 0,
+		type = 2,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 32,
-		type = 2,
+		nationality = 1,
+		hide = 0,
 		index_id = 41,
 		group_type = 10204,
-		trans_type = 0,
+		code = 32,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -1045,16 +1245,24 @@ pg.ship_data_group = {
 		}
 	},
 	[33] = {
-		nationality = 1,
-		hide = 0,
+		type = 2,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 33,
-		type = 2,
+		nationality = 1,
+		hide = 0,
 		index_id = 44,
 		group_type = 10205,
-		trans_type = 0,
+		code = 33,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -1092,16 +1300,24 @@ pg.ship_data_group = {
 		}
 	},
 	[34] = {
-		nationality = 1,
-		hide = 0,
+		type = 2,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 34,
-		type = 2,
+		nationality = 1,
+		hide = 0,
 		index_id = 46,
 		group_type = 10206,
-		trans_type = 0,
+		code = 34,
+		property_hexagon = {
+			"D",
+			"D",
+			"E",
+			"B",
+			"S",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -1139,16 +1355,24 @@ pg.ship_data_group = {
 		}
 	},
 	[35] = {
-		nationality = 1,
-		hide = 0,
+		type = 2,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 35,
-		type = 2,
+		nationality = 1,
+		hide = 0,
 		index_id = 47,
 		group_type = 10207,
-		trans_type = 0,
+		code = 35,
+		property_hexagon = {
+			"D",
+			"D",
+			"E",
+			"B",
+			"S",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -1186,16 +1410,24 @@ pg.ship_data_group = {
 		}
 	},
 	[36] = {
-		nationality = 1,
-		hide = 0,
+		type = 2,
 		trans_skin = 0,
+		trans_type = 2,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 36,
-		type = 2,
+		nationality = 1,
+		hide = 0,
 		index_id = 48,
 		group_type = 10208,
-		trans_type = 2,
+		code = 36,
+		property_hexagon = {
+			"C",
+			"D",
+			"E",
+			"B",
+			"S",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -1223,16 +1455,24 @@ pg.ship_data_group = {
 		}
 	},
 	[37] = {
-		nationality = 1,
-		hide = 0,
+		type = 2,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 37,
-		type = 2,
+		nationality = 1,
+		hide = 0,
 		index_id = 51,
 		group_type = 10209,
-		trans_type = 0,
+		code = 37,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -1270,16 +1510,24 @@ pg.ship_data_group = {
 		}
 	},
 	[39] = {
-		nationality = 1,
-		hide = 0,
+		type = 3,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 39,
-		type = 3,
+		nationality = 1,
+		hide = 0,
 		index_id = 58,
 		group_type = 10301,
-		trans_type = 0,
+		code = 39,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -1317,16 +1565,24 @@ pg.ship_data_group = {
 		}
 	},
 	[40] = {
-		nationality = 1,
-		hide = 0,
+		type = 3,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 40,
-		type = 3,
+		nationality = 1,
+		hide = 0,
 		index_id = 59,
 		group_type = 10302,
-		trans_type = 0,
+		code = 40,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -1343,16 +1599,24 @@ pg.ship_data_group = {
 		}
 	},
 	[41] = {
-		nationality = 1,
-		hide = 0,
+		type = 3,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 41,
-		type = 3,
+		nationality = 1,
+		hide = 0,
 		index_id = 60,
 		group_type = 10303,
-		trans_type = 0,
+		code = 41,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -1390,16 +1654,24 @@ pg.ship_data_group = {
 		}
 	},
 	[42] = {
-		nationality = 1,
-		hide = 0,
+		type = 3,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 42,
-		type = 3,
+		nationality = 1,
+		hide = 0,
 		index_id = 61,
 		group_type = 10304,
-		trans_type = 0,
+		code = 42,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -1437,16 +1709,24 @@ pg.ship_data_group = {
 		}
 	},
 	[43] = {
-		nationality = 1,
-		hide = 0,
+		type = 3,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 43,
-		type = 3,
+		nationality = 1,
+		hide = 0,
 		index_id = 62,
 		group_type = 10305,
-		trans_type = 0,
+		code = 43,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -1484,16 +1764,24 @@ pg.ship_data_group = {
 		}
 	},
 	[44] = {
-		nationality = 1,
-		hide = 0,
+		type = 3,
 		trans_skin = 103069,
+		trans_type = 3,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 44,
-		type = 3,
+		nationality = 1,
+		hide = 0,
 		index_id = 63,
 		group_type = 10306,
-		trans_type = 3,
+		code = 44,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"B",
+			"A"
+		},
 		trans_radar_chart = {
 			"A",
 			"E",
@@ -1538,16 +1826,24 @@ pg.ship_data_group = {
 		}
 	},
 	[45] = {
-		nationality = 1,
-		hide = 0,
+		type = 3,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 45,
-		type = 3,
+		nationality = 1,
+		hide = 0,
 		index_id = 64,
 		group_type = 10307,
-		trans_type = 0,
+		code = 45,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"B",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -1585,16 +1881,24 @@ pg.ship_data_group = {
 		}
 	},
 	[49] = {
-		nationality = 1,
-		hide = 0,
+		type = 3,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 49,
-		type = 3,
+		nationality = 1,
+		hide = 0,
 		index_id = 69,
 		group_type = 10311,
-		trans_type = 0,
+		code = 49,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -1611,16 +1915,24 @@ pg.ship_data_group = {
 		}
 	},
 	[52] = {
-		nationality = 1,
-		hide = 0,
+		type = 5,
 		trans_skin = 0,
+		trans_type = 5,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 52,
-		type = 5,
+		nationality = 1,
+		hide = 0,
 		index_id = 71,
 		group_type = 10501,
-		trans_type = 5,
+		code = 52,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -1658,16 +1970,24 @@ pg.ship_data_group = {
 		}
 	},
 	[53] = {
-		nationality = 1,
-		hide = 0,
+		type = 5,
 		trans_skin = 0,
+		trans_type = 5,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 53,
-		type = 5,
+		nationality = 1,
+		hide = 0,
 		index_id = 72,
 		group_type = 10502,
-		trans_type = 5,
+		code = 53,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -1705,16 +2025,24 @@ pg.ship_data_group = {
 		}
 	},
 	[54] = {
-		nationality = 1,
-		hide = 0,
+		type = 5,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 54,
-		type = 5,
+		nationality = 1,
+		hide = 0,
 		index_id = 73,
 		group_type = 10503,
-		trans_type = 0,
+		code = 54,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -1752,16 +2080,24 @@ pg.ship_data_group = {
 		}
 	},
 	[55] = {
-		nationality = 1,
-		hide = 0,
+		type = 5,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 55,
-		type = 5,
+		nationality = 1,
+		hide = 0,
 		index_id = 74,
 		group_type = 10504,
-		trans_type = 0,
+		code = 55,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -1799,16 +2135,24 @@ pg.ship_data_group = {
 		}
 	},
 	[58] = {
-		nationality = 1,
-		hide = 0,
+		type = 5,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 58,
-		type = 5,
+		nationality = 1,
+		hide = 0,
 		index_id = 75,
 		group_type = 10507,
-		trans_type = 0,
+		code = 58,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -1846,16 +2190,24 @@ pg.ship_data_group = {
 		}
 	},
 	[59] = {
-		nationality = 1,
-		hide = 0,
+		type = 5,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 59,
-		type = 5,
+		nationality = 1,
+		hide = 0,
 		index_id = 76,
 		group_type = 10508,
-		trans_type = 0,
+		code = 59,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -1893,16 +2245,24 @@ pg.ship_data_group = {
 		}
 	},
 	[65] = {
-		nationality = 1,
-		hide = 0,
+		type = 5,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 65,
-		type = 5,
+		nationality = 1,
+		hide = 0,
 		index_id = 82,
 		group_type = 10514,
-		trans_type = 0,
+		code = 65,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"B",
+			"S"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -1919,16 +2279,24 @@ pg.ship_data_group = {
 		}
 	},
 	[70] = {
-		nationality = 1,
-		hide = 0,
+		type = 6,
 		trans_skin = 106019,
+		trans_type = 6,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 70,
-		type = 6,
+		nationality = 1,
+		hide = 0,
 		index_id = 85,
 		group_type = 10601,
-		trans_type = 6,
+		code = 70,
+		property_hexagon = {
+			"E",
+			"E",
+			"B",
+			"D",
+			"B",
+			"C"
+		},
 		trans_radar_chart = {
 			"E",
 			"E",
@@ -1975,16 +2343,24 @@ pg.ship_data_group = {
 		}
 	},
 	[71] = {
-		nationality = 1,
-		hide = 0,
+		type = 6,
 		trans_skin = 106029,
+		trans_type = 6,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 71,
-		type = 6,
+		nationality = 1,
+		hide = 0,
 		index_id = 86,
 		group_type = 10602,
-		trans_type = 6,
+		code = 71,
+		property_hexagon = {
+			"E",
+			"E",
+			"B",
+			"D",
+			"B",
+			"C"
+		},
 		trans_radar_chart = {
 			"E",
 			"E",
@@ -2031,16 +2407,24 @@ pg.ship_data_group = {
 		}
 	},
 	[72] = {
-		nationality = 1,
-		hide = 0,
+		type = 6,
 		trans_skin = 107019,
+		trans_type = 6,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 72,
-		type = 6,
+		nationality = 1,
+		hide = 0,
 		index_id = 87,
 		group_type = 10701,
-		trans_type = 6,
+		code = 72,
+		property_hexagon = {
+			"E",
+			"E",
+			"B",
+			"D",
+			"B",
+			"C"
+		},
 		trans_radar_chart = {
 			"E",
 			"E",
@@ -2087,16 +2471,24 @@ pg.ship_data_group = {
 		}
 	},
 	[73] = {
-		nationality = 1,
-		hide = 0,
+		type = 7,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 73,
-		type = 7,
+		nationality = 1,
+		hide = 0,
 		index_id = 88,
 		group_type = 10702,
-		trans_type = 0,
+		code = 73,
+		property_hexagon = {
+			"C",
+			"E",
+			"A",
+			"C",
+			"B",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -2134,16 +2526,24 @@ pg.ship_data_group = {
 		}
 	},
 	[74] = {
-		nationality = 1,
-		hide = 0,
+		type = 7,
 		trans_skin = 0,
+		trans_type = 7,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 74,
-		type = 7,
+		nationality = 1,
+		hide = 0,
 		index_id = 89,
 		group_type = 10703,
-		trans_type = 7,
+		code = 74,
+		property_hexagon = {
+			"C",
+			"E",
+			"A",
+			"C",
+			"B",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -2181,16 +2581,24 @@ pg.ship_data_group = {
 		}
 	},
 	[75] = {
-		nationality = 1,
-		hide = 0,
+		type = 6,
 		trans_skin = 107049,
+		trans_type = 6,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 75,
-		type = 6,
+		nationality = 1,
+		hide = 0,
 		index_id = 90,
 		group_type = 10704,
-		trans_type = 6,
+		code = 75,
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"C"
+		},
 		trans_radar_chart = {
 			"E",
 			"E",
@@ -2237,16 +2645,24 @@ pg.ship_data_group = {
 		}
 	},
 	[76] = {
-		nationality = 1,
-		hide = 0,
+		type = 7,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 76,
-		type = 7,
+		nationality = 1,
+		hide = 0,
 		index_id = 91,
 		group_type = 10705,
-		trans_type = 0,
+		code = 76,
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -2284,16 +2700,24 @@ pg.ship_data_group = {
 		}
 	},
 	[77] = {
-		nationality = 1,
-		hide = 0,
+		type = 7,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 77,
-		type = 7,
+		nationality = 1,
+		hide = 0,
 		index_id = 92,
 		group_type = 10706,
-		trans_type = 0,
+		code = 77,
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"B"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -2321,16 +2745,24 @@ pg.ship_data_group = {
 		}
 	},
 	[78] = {
-		nationality = 1,
-		hide = 0,
+		type = 7,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 78,
-		type = 7,
+		nationality = 1,
+		hide = 0,
 		index_id = 94,
 		group_type = 10707,
-		trans_type = 0,
+		code = 78,
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -2368,16 +2800,24 @@ pg.ship_data_group = {
 		}
 	},
 	[80] = {
-		nationality = 1,
-		hide = 0,
+		type = 12,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 80,
-		type = 12,
+		nationality = 1,
+		hide = 0,
 		index_id = 103,
 		group_type = 11201,
-		trans_type = 0,
+		code = 80,
+		property_hexagon = {
+			"E",
+			"E",
+			"E",
+			"C",
+			"D",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -2415,16 +2855,24 @@ pg.ship_data_group = {
 		}
 	},
 	[103] = {
-		nationality = 2,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 103,
-		type = 1,
+		nationality = 2,
+		hide = 0,
 		index_id = 104,
 		group_type = 20123,
-		trans_type = 0,
+		code = 103,
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"B",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -2438,16 +2886,24 @@ pg.ship_data_group = {
 		}
 	},
 	[81] = {
-		nationality = 2,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 81,
-		type = 1,
+		nationality = 2,
+		hide = 0,
 		index_id = 105,
 		group_type = 20101,
-		trans_type = 0,
+		code = 81,
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -2485,16 +2941,24 @@ pg.ship_data_group = {
 		}
 	},
 	[86] = {
-		nationality = 2,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 86,
-		type = 1,
+		nationality = 2,
+		hide = 0,
 		index_id = 108,
 		group_type = 20106,
-		trans_type = 0,
+		code = 86,
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -2532,16 +2996,24 @@ pg.ship_data_group = {
 		}
 	},
 	[87] = {
-		nationality = 2,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 87,
-		type = 1,
+		nationality = 2,
+		hide = 0,
 		index_id = 109,
 		group_type = 20107,
-		trans_type = 0,
+		code = 87,
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -2579,16 +3051,24 @@ pg.ship_data_group = {
 		}
 	},
 	[88] = {
-		nationality = 2,
-		hide = 0,
+		type = 1,
 		trans_skin = 201089,
+		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 88,
-		type = 1,
+		nationality = 2,
+		hide = 0,
 		index_id = 110,
 		group_type = 20108,
-		trans_type = 1,
+		code = 88,
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {
 			"D",
 			"A",
@@ -2635,16 +3115,24 @@ pg.ship_data_group = {
 		}
 	},
 	[89] = {
-		nationality = 2,
-		hide = 0,
+		type = 1,
 		trans_skin = 201099,
+		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 89,
-		type = 1,
+		nationality = 2,
+		hide = 0,
 		index_id = 111,
 		group_type = 20109,
-		trans_type = 1,
+		code = 89,
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {
 			"C",
 			"B",
@@ -2691,16 +3179,24 @@ pg.ship_data_group = {
 		}
 	},
 	[90] = {
-		nationality = 2,
-		hide = 0,
+		type = 1,
 		trans_skin = 201109,
+		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 90,
-		type = 1,
+		nationality = 2,
+		hide = 0,
 		index_id = 112,
 		group_type = 20110,
-		trans_type = 1,
+		code = 90,
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {
 			"C",
 			"B",
@@ -2747,16 +3243,24 @@ pg.ship_data_group = {
 		}
 	},
 	[91] = {
-		nationality = 2,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 91,
-		type = 1,
+		nationality = 2,
+		hide = 0,
 		index_id = 114,
 		group_type = 20111,
-		trans_type = 1,
+		code = 91,
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -2794,16 +3298,24 @@ pg.ship_data_group = {
 		}
 	},
 	[92] = {
-		nationality = 2,
-		hide = 0,
+		type = 1,
 		trans_skin = 201129,
+		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 92,
-		type = 1,
+		nationality = 2,
+		hide = 0,
 		index_id = 115,
 		group_type = 20112,
-		trans_type = 1,
+		code = 92,
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {
 			"C",
 			"B",
@@ -2850,16 +3362,24 @@ pg.ship_data_group = {
 		}
 	},
 	[94] = {
-		nationality = 2,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 94,
-		type = 1,
+		nationality = 2,
+		hide = 0,
 		index_id = 117,
 		group_type = 20114,
-		trans_type = 0,
+		code = 94,
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -2897,16 +3417,24 @@ pg.ship_data_group = {
 		}
 	},
 	[101] = {
-		nationality = 2,
-		hide = 0,
+		type = 1,
 		trans_skin = 201219,
+		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 101,
-		type = 1,
+		nationality = 2,
+		hide = 0,
 		index_id = 120,
 		group_type = 20121,
-		trans_type = 1,
+		code = 101,
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {
 			"C",
 			"A",
@@ -2943,16 +3471,24 @@ pg.ship_data_group = {
 		}
 	},
 	[102] = {
-		nationality = 2,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 102,
-		type = 1,
+		nationality = 2,
+		hide = 0,
 		index_id = 121,
 		group_type = 20122,
-		trans_type = 0,
+		code = 102,
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -2990,16 +3526,24 @@ pg.ship_data_group = {
 		}
 	},
 	[104] = {
-		nationality = 2,
-		hide = 0,
+		type = 2,
 		trans_skin = 202019,
+		trans_type = 2,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 104,
-		type = 2,
+		nationality = 2,
+		hide = 0,
 		index_id = 128,
 		group_type = 20201,
-		trans_type = 2,
+		code = 104,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
 		trans_radar_chart = {
 			"B",
 			"B",
@@ -3046,16 +3590,24 @@ pg.ship_data_group = {
 		}
 	},
 	[105] = {
-		nationality = 2,
-		hide = 0,
+		type = 2,
 		trans_skin = 0,
+		trans_type = 2,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 105,
-		type = 2,
+		nationality = 2,
+		hide = 0,
 		index_id = 129,
 		group_type = 20202,
-		trans_type = 2,
+		code = 105,
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -3093,16 +3645,24 @@ pg.ship_data_group = {
 		}
 	},
 	[106] = {
-		nationality = 2,
-		hide = 0,
+		type = 2,
 		trans_skin = 202039,
+		trans_type = 2,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 106,
-		type = 2,
+		nationality = 2,
+		hide = 0,
 		index_id = 130,
 		group_type = 20203,
-		trans_type = 2,
+		code = 106,
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {
 			"B",
 			"A",
@@ -3149,16 +3709,24 @@ pg.ship_data_group = {
 		}
 	},
 	[116] = {
-		nationality = 2,
-		hide = 0,
+		type = 2,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 116,
-		type = 2,
+		nationality = 2,
+		hide = 0,
 		index_id = 131,
 		group_type = 20213,
-		trans_type = 0,
+		code = 116,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -3196,16 +3764,24 @@ pg.ship_data_group = {
 		}
 	},
 	[117] = {
-		nationality = 2,
-		hide = 0,
+		type = 2,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 117,
-		type = 2,
+		nationality = 2,
+		hide = 0,
 		index_id = 132,
 		group_type = 20214,
-		trans_type = 0,
+		code = 117,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -3243,16 +3819,24 @@ pg.ship_data_group = {
 		}
 	},
 	[114] = {
-		nationality = 2,
-		hide = 0,
+		type = 2,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 114,
-		type = 2,
+		nationality = 2,
+		hide = 0,
 		index_id = 138,
 		group_type = 20211,
-		trans_type = 0,
+		code = 114,
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -3270,16 +3854,24 @@ pg.ship_data_group = {
 		}
 	},
 	[115] = {
-		nationality = 2,
-		hide = 0,
+		type = 2,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 115,
-		type = 2,
+		nationality = 2,
+		hide = 0,
 		index_id = 139,
 		group_type = 20212,
-		trans_type = 0,
+		code = 115,
+		property_hexagon = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"C",
+			"B"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -3297,16 +3889,24 @@ pg.ship_data_group = {
 		}
 	},
 	[119] = {
-		nationality = 2,
-		hide = 0,
+		type = 3,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 119,
-		type = 3,
+		nationality = 2,
+		hide = 0,
 		index_id = 147,
 		group_type = 20301,
-		trans_type = 0,
+		code = 119,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -3344,16 +3944,24 @@ pg.ship_data_group = {
 		}
 	},
 	[120] = {
-		nationality = 2,
-		hide = 0,
+		type = 3,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 120,
-		type = 3,
+		nationality = 2,
+		hide = 0,
 		index_id = 148,
 		group_type = 20302,
-		trans_type = 0,
+		code = 120,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -3391,16 +3999,24 @@ pg.ship_data_group = {
 		}
 	},
 	[337] = {
-		nationality = 2,
-		hide = 0,
+		type = 3,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 337,
-		type = 3,
+		nationality = 2,
+		hide = 0,
 		index_id = 149,
 		group_type = 20309,
-		trans_type = 0,
+		code = 337,
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"B",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -3418,16 +4034,24 @@ pg.ship_data_group = {
 		}
 	},
 	[121] = {
-		nationality = 2,
-		hide = 0,
+		type = 3,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 121,
-		type = 3,
+		nationality = 2,
+		hide = 0,
 		index_id = 150,
 		group_type = 20303,
-		trans_type = 0,
+		code = 121,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -3465,16 +4089,24 @@ pg.ship_data_group = {
 		}
 	},
 	[122] = {
-		nationality = 2,
-		hide = 0,
+		type = 3,
 		trans_skin = 203049,
+		trans_type = 3,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 122,
-		type = 3,
+		nationality = 2,
+		hide = 0,
 		index_id = 151,
 		group_type = 20304,
-		trans_type = 3,
+		code = 122,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {
 			"A",
 			"B",
@@ -3521,16 +4153,24 @@ pg.ship_data_group = {
 		}
 	},
 	[123] = {
-		nationality = 2,
-		hide = 0,
+		type = 3,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 123,
-		type = 3,
+		nationality = 2,
+		hide = 0,
 		index_id = 152,
 		group_type = 20305,
-		trans_type = 0,
+		code = 123,
+		property_hexagon = {
+			"B",
+			"D",
+			"E",
+			"C",
+			"B",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -3568,16 +4208,24 @@ pg.ship_data_group = {
 		}
 	},
 	[124] = {
-		nationality = 2,
-		hide = 0,
+		type = 3,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 124,
-		type = 3,
+		nationality = 2,
+		hide = 0,
 		index_id = 153,
 		group_type = 20306,
-		trans_type = 0,
+		code = 124,
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"C",
+			"B",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -3594,16 +4242,24 @@ pg.ship_data_group = {
 		}
 	},
 	[125] = {
-		nationality = 2,
-		hide = 0,
+		type = 3,
 		trans_skin = 0,
+		trans_type = 3,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 125,
-		type = 3,
+		nationality = 2,
+		hide = 0,
 		index_id = 154,
 		group_type = 20307,
-		trans_type = 3,
+		code = 125,
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"B",
+			"B"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -3641,16 +4297,24 @@ pg.ship_data_group = {
 		}
 	},
 	[126] = {
-		nationality = 2,
-		hide = 0,
+		type = 3,
 		trans_skin = 0,
+		trans_type = 3,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 126,
-		type = 3,
+		nationality = 2,
+		hide = 0,
 		index_id = 155,
 		group_type = 20308,
-		trans_type = 3,
+		code = 126,
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"B",
+			"B"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -3688,16 +4352,24 @@ pg.ship_data_group = {
 		}
 	},
 	[127] = {
-		nationality = 2,
-		hide = 0,
+		type = 4,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 127,
-		type = 4,
+		nationality = 2,
+		hide = 0,
 		index_id = 156,
 		group_type = 20401,
-		trans_type = 0,
+		code = 127,
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -3735,16 +4407,24 @@ pg.ship_data_group = {
 		}
 	},
 	[128] = {
-		nationality = 2,
-		hide = 0,
+		type = 4,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 128,
-		type = 4,
+		nationality = 2,
+		hide = 0,
 		index_id = 157,
 		group_type = 20402,
-		trans_type = 0,
+		code = 128,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -3782,16 +4462,24 @@ pg.ship_data_group = {
 		}
 	},
 	[129] = {
-		nationality = 2,
-		hide = 0,
+		type = 4,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 129,
-		type = 4,
+		nationality = 2,
+		hide = 0,
 		index_id = 158,
 		group_type = 20403,
-		trans_type = 0,
+		code = 129,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"B",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -3819,16 +4507,24 @@ pg.ship_data_group = {
 		}
 	},
 	[130] = {
-		nationality = 2,
-		hide = 0,
+		type = 5,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 130,
-		type = 5,
+		nationality = 2,
+		hide = 0,
 		index_id = 159,
 		group_type = 20501,
-		trans_type = 0,
+		code = 130,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -3866,16 +4562,24 @@ pg.ship_data_group = {
 		}
 	},
 	[131] = {
-		nationality = 2,
-		hide = 0,
+		type = 5,
 		trans_skin = 0,
+		trans_type = 5,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 131,
-		type = 5,
+		nationality = 2,
+		hide = 0,
 		index_id = 160,
 		group_type = 20502,
-		trans_type = 5,
+		code = 131,
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -3903,16 +4607,24 @@ pg.ship_data_group = {
 		}
 	},
 	[132] = {
-		nationality = 2,
-		hide = 0,
+		type = 5,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 132,
-		type = 5,
+		nationality = 2,
+		hide = 0,
 		index_id = 161,
 		group_type = 20503,
-		trans_type = 0,
+		code = 132,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -3950,16 +4662,24 @@ pg.ship_data_group = {
 		}
 	},
 	[133] = {
-		nationality = 2,
-		hide = 0,
+		type = 5,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 133,
-		type = 5,
+		nationality = 2,
+		hide = 0,
 		index_id = 162,
 		group_type = 20504,
-		trans_type = 0,
+		code = 133,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -3997,16 +4717,24 @@ pg.ship_data_group = {
 		}
 	},
 	[135] = {
-		nationality = 2,
-		hide = 0,
+		type = 5,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 135,
-		type = 5,
+		nationality = 2,
+		hide = 0,
 		index_id = 164,
 		group_type = 20506,
-		trans_type = 0,
+		code = 135,
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -4020,16 +4748,24 @@ pg.ship_data_group = {
 		}
 	},
 	[140] = {
-		nationality = 2,
-		hide = 0,
+		type = 6,
 		trans_skin = 0,
+		trans_type = 6,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 140,
-		type = 6,
+		nationality = 2,
+		hide = 0,
 		index_id = 166,
 		group_type = 20601,
-		trans_type = 6,
+		code = 140,
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -4067,16 +4803,24 @@ pg.ship_data_group = {
 		}
 	},
 	[142] = {
-		nationality = 2,
-		hide = 0,
+		type = 6,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 142,
-		type = 6,
+		nationality = 2,
+		hide = 0,
 		index_id = 167,
 		group_type = 20603,
-		trans_type = 0,
+		code = 142,
+		property_hexagon = {
+			"E",
+			"E",
+			"B",
+			"D",
+			"B",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -4114,16 +4858,24 @@ pg.ship_data_group = {
 		}
 	},
 	[144] = {
-		nationality = 2,
-		hide = 0,
+		type = 7,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 144,
-		type = 7,
+		nationality = 2,
+		hide = 0,
 		index_id = 170,
 		group_type = 20702,
-		trans_type = 0,
+		code = 144,
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -4161,16 +4913,24 @@ pg.ship_data_group = {
 		}
 	},
 	[145] = {
-		nationality = 2,
-		hide = 0,
+		type = 7,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 145,
-		type = 7,
+		nationality = 2,
+		hide = 0,
 		index_id = 171,
 		group_type = 20703,
-		trans_type = 0,
+		code = 145,
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"D",
+			"B",
+			"S"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -4198,16 +4958,24 @@ pg.ship_data_group = {
 		}
 	},
 	[149] = {
-		nationality = 2,
-		hide = 0,
+		type = 13,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 149,
-		type = 13,
+		nationality = 2,
+		hide = 0,
 		index_id = 175,
 		group_type = 21301,
-		trans_type = 0,
+		code = 149,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"E",
+			"D",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -4245,16 +5013,24 @@ pg.ship_data_group = {
 		}
 	},
 	[150] = {
-		nationality = 2,
-		hide = 0,
+		type = 13,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 150,
-		type = 13,
+		nationality = 2,
+		hide = 0,
 		index_id = 176,
 		group_type = 21302,
-		trans_type = 0,
+		code = 150,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"E",
+			"D",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -4292,16 +5068,24 @@ pg.ship_data_group = {
 		}
 	},
 	[336] = {
-		nationality = 2,
-		hide = 0,
+		type = 13,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 336,
-		type = 13,
+		nationality = 2,
+		hide = 0,
 		index_id = 177,
 		group_type = 21304,
-		trans_type = 0,
+		code = 336,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"E",
+			"D",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -4319,16 +5103,24 @@ pg.ship_data_group = {
 		}
 	},
 	[269] = {
-		nationality = 3,
-		hide = 0,
+		type = 1,
 		trans_skin = 301309,
+		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 269,
-		type = 1,
+		nationality = 3,
+		hide = 0,
 		index_id = 178,
 		group_type = 30130,
-		trans_type = 1,
+		code = 269,
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {
 			"D",
 			"B",
@@ -4355,16 +5147,24 @@ pg.ship_data_group = {
 		}
 	},
 	[270] = {
-		nationality = 3,
-		hide = 0,
+		type = 1,
 		trans_skin = 301319,
+		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 270,
-		type = 1,
+		nationality = 3,
+		hide = 0,
 		index_id = 179,
 		group_type = 30131,
-		trans_type = 1,
+		code = 270,
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {
 			"D",
 			"B",
@@ -4391,16 +5191,24 @@ pg.ship_data_group = {
 		}
 	},
 	[271] = {
-		nationality = 3,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 271,
-		type = 1,
+		nationality = 3,
+		hide = 0,
 		index_id = 181,
 		group_type = 30132,
-		trans_type = 1,
+		code = 271,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -4418,16 +5226,24 @@ pg.ship_data_group = {
 		}
 	},
 	[272] = {
-		nationality = 3,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 272,
-		type = 1,
+		nationality = 3,
+		hide = 0,
 		index_id = 182,
 		group_type = 30133,
-		trans_type = 1,
+		code = 272,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -4445,16 +5261,24 @@ pg.ship_data_group = {
 		}
 	},
 	[274] = {
-		nationality = 3,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 274,
-		type = 1,
+		nationality = 3,
+		hide = 0,
 		index_id = 183,
 		group_type = 30135,
-		trans_type = 0,
+		code = 274,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -4472,16 +5296,24 @@ pg.ship_data_group = {
 		}
 	},
 	[151] = {
-		nationality = 3,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 151,
-		type = 1,
+		nationality = 3,
+		hide = 0,
 		index_id = 189,
 		group_type = 30101,
-		trans_type = 0,
+		code = 151,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -4499,16 +5331,24 @@ pg.ship_data_group = {
 		}
 	},
 	[155] = {
-		nationality = 3,
-		hide = 0,
+		type = 1,
 		trans_skin = 301059,
+		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 155,
-		type = 1,
+		nationality = 3,
+		hide = 0,
 		index_id = 190,
 		group_type = 30105,
-		trans_type = 1,
+		code = 155,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {
 			"D",
 			"S",
@@ -4545,16 +5385,24 @@ pg.ship_data_group = {
 		}
 	},
 	[159] = {
-		nationality = 3,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 159,
-		type = 1,
+		nationality = 3,
+		hide = 0,
 		index_id = 191,
 		group_type = 30109,
-		trans_type = 0,
+		code = 159,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -4568,16 +5416,24 @@ pg.ship_data_group = {
 		}
 	},
 	[161] = {
-		nationality = 3,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 161,
-		type = 1,
+		nationality = 3,
+		hide = 0,
 		index_id = 193,
 		group_type = 30111,
-		trans_type = 0,
+		code = 161,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -4594,16 +5450,24 @@ pg.ship_data_group = {
 		}
 	},
 	[162] = {
-		nationality = 3,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 162,
-		type = 1,
+		nationality = 3,
+		hide = 0,
 		index_id = 194,
 		group_type = 30112,
-		trans_type = 0,
+		code = 162,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -4620,16 +5484,24 @@ pg.ship_data_group = {
 		}
 	},
 	[171] = {
-		nationality = 3,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 171,
-		type = 1,
+		nationality = 3,
+		hide = 0,
 		index_id = 195,
 		group_type = 30121,
-		trans_type = 0,
+		code = 171,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -4643,16 +5515,24 @@ pg.ship_data_group = {
 		}
 	},
 	[176] = {
-		nationality = 3,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 176,
-		type = 1,
+		nationality = 3,
+		hide = 0,
 		index_id = 199,
 		group_type = 30126,
-		trans_type = 0,
+		code = 176,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -4666,16 +5546,24 @@ pg.ship_data_group = {
 		}
 	},
 	[163] = {
-		nationality = 3,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 163,
-		type = 1,
+		nationality = 3,
+		hide = 0,
 		index_id = 200,
 		group_type = 30113,
-		trans_type = 0,
+		code = 163,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -4692,16 +5580,24 @@ pg.ship_data_group = {
 		}
 	},
 	[165] = {
-		nationality = 3,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 165,
-		type = 1,
+		nationality = 3,
+		hide = 0,
 		index_id = 201,
 		group_type = 30115,
-		trans_type = 0,
+		code = 165,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -4718,16 +5614,24 @@ pg.ship_data_group = {
 		}
 	},
 	[164] = {
-		nationality = 3,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 164,
-		type = 1,
+		nationality = 3,
+		hide = 0,
 		index_id = 202,
 		group_type = 30114,
-		trans_type = 0,
+		code = 164,
+		property_hexagon = {
+			"C",
+			"S",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -4744,16 +5648,24 @@ pg.ship_data_group = {
 		}
 	},
 	[167] = {
-		nationality = 3,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 167,
-		type = 1,
+		nationality = 3,
+		hide = 0,
 		index_id = 209,
 		group_type = 30117,
-		trans_type = 1,
+		code = 167,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -4770,16 +5682,24 @@ pg.ship_data_group = {
 		}
 	},
 	[168] = {
-		nationality = 3,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 168,
-		type = 1,
+		nationality = 3,
+		hide = 0,
 		index_id = 210,
 		group_type = 30118,
-		trans_type = 1,
+		code = 168,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -4796,16 +5716,24 @@ pg.ship_data_group = {
 		}
 	},
 	[177] = {
-		nationality = 3,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 177,
-		type = 1,
+		nationality = 3,
+		hide = 0,
 		index_id = 211,
 		group_type = 30127,
-		trans_type = 0,
+		code = 177,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -4819,16 +5747,24 @@ pg.ship_data_group = {
 		}
 	},
 	[178] = {
-		nationality = 3,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 178,
-		type = 1,
+		nationality = 3,
+		hide = 0,
 		index_id = 212,
 		group_type = 30128,
-		trans_type = 0,
+		code = 178,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -4842,16 +5778,24 @@ pg.ship_data_group = {
 		}
 	},
 	[318] = {
-		nationality = 3,
-		hide = 0,
+		type = 1,
 		trans_skin = 301619,
+		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 318,
-		type = 1,
+		nationality = 3,
+		hide = 0,
 		index_id = 216,
 		group_type = 30161,
-		trans_type = 1,
+		code = 318,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {
 			"C",
 			"A",
@@ -4874,16 +5818,24 @@ pg.ship_data_group = {
 		}
 	},
 	[170] = {
-		nationality = 3,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 170,
-		type = 1,
+		nationality = 3,
+		hide = 0,
 		index_id = 218,
 		group_type = 30120,
-		trans_type = 0,
+		code = 170,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -4897,16 +5849,24 @@ pg.ship_data_group = {
 		}
 	},
 	[182] = {
-		nationality = 3,
-		hide = 0,
+		type = 2,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 182,
-		type = 2,
+		nationality = 3,
+		hide = 0,
 		index_id = 224,
 		group_type = 30204,
-		trans_type = 0,
+		code = 182,
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -4924,16 +5884,24 @@ pg.ship_data_group = {
 		}
 	},
 	[183] = {
-		nationality = 3,
-		hide = 0,
+		type = 2,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 183,
-		type = 2,
+		nationality = 3,
+		hide = 0,
 		index_id = 225,
 		group_type = 30205,
-		trans_type = 0,
+		code = 183,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -4950,16 +5918,24 @@ pg.ship_data_group = {
 		}
 	},
 	[187] = {
-		nationality = 3,
-		hide = 0,
+		type = 2,
 		trans_skin = 302099,
+		trans_type = 2,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 187,
-		type = 2,
+		nationality = 3,
+		hide = 0,
 		index_id = 227,
 		group_type = 30209,
-		trans_type = 2,
+		code = 187,
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
 		trans_radar_chart = {
 			"C",
 			"A",
@@ -4985,16 +5961,24 @@ pg.ship_data_group = {
 		}
 	},
 	[179] = {
-		nationality = 3,
-		hide = 0,
+		type = 2,
 		trans_skin = 0,
+		trans_type = 2,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 179,
-		type = 2,
+		nationality = 3,
+		hide = 0,
 		index_id = 228,
 		group_type = 30201,
-		trans_type = 2,
+		code = 179,
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5012,16 +5996,24 @@ pg.ship_data_group = {
 		}
 	},
 	[190] = {
-		nationality = 3,
-		hide = 0,
+		type = 3,
 		trans_skin = 303019,
+		trans_type = 3,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 190,
-		type = 3,
+		nationality = 3,
+		hide = 0,
 		index_id = 237,
 		group_type = 30301,
-		trans_type = 3,
+		code = 190,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
 		trans_radar_chart = {
 			"B",
 			"B",
@@ -5047,16 +6039,24 @@ pg.ship_data_group = {
 		}
 	},
 	[191] = {
-		nationality = 3,
-		hide = 0,
+		type = 3,
 		trans_skin = 303029,
+		trans_type = 3,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 191,
-		type = 3,
+		nationality = 3,
+		hide = 0,
 		index_id = 238,
 		group_type = 30302,
-		trans_type = 3,
+		code = 191,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
 		trans_radar_chart = {
 			"B",
 			"B",
@@ -5082,16 +6082,24 @@ pg.ship_data_group = {
 		}
 	},
 	[192] = {
-		nationality = 3,
-		hide = 0,
+		type = 3,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 192,
-		type = 3,
+		nationality = 3,
+		hide = 0,
 		index_id = 239,
 		group_type = 30303,
-		trans_type = 0,
+		code = 192,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5109,16 +6117,24 @@ pg.ship_data_group = {
 		}
 	},
 	[193] = {
-		nationality = 3,
-		hide = 0,
+		type = 3,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 193,
-		type = 3,
+		nationality = 3,
+		hide = 0,
 		index_id = 240,
 		group_type = 30304,
-		trans_type = 0,
+		code = 193,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5136,16 +6152,24 @@ pg.ship_data_group = {
 		}
 	},
 	[196] = {
-		nationality = 3,
-		hide = 0,
+		type = 3,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 196,
-		type = 3,
+		nationality = 3,
+		hide = 0,
 		index_id = 241,
 		group_type = 30307,
-		trans_type = 0,
+		code = 196,
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5162,16 +6186,24 @@ pg.ship_data_group = {
 		}
 	},
 	[197] = {
-		nationality = 3,
-		hide = 0,
+		type = 3,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 197,
-		type = 3,
+		nationality = 3,
+		hide = 0,
 		index_id = 242,
 		group_type = 30308,
-		trans_type = 0,
+		code = 197,
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5188,16 +6220,24 @@ pg.ship_data_group = {
 		}
 	},
 	[200] = {
-		nationality = 3,
-		hide = 0,
+		type = 3,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 200,
-		type = 3,
+		nationality = 3,
+		hide = 0,
 		index_id = 244,
 		group_type = 30311,
-		trans_type = 0,
+		code = 200,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5225,16 +6265,24 @@ pg.ship_data_group = {
 		}
 	},
 	[201] = {
-		nationality = 3,
-		hide = 0,
+		type = 3,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 201,
-		type = 3,
+		nationality = 3,
+		hide = 0,
 		index_id = 245,
 		group_type = 30312,
-		trans_type = 0,
+		code = 201,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5248,16 +6296,24 @@ pg.ship_data_group = {
 		}
 	},
 	[202] = {
-		nationality = 3,
-		hide = 0,
+		type = 3,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 202,
-		type = 3,
+		nationality = 3,
+		hide = 0,
 		index_id = 246,
 		group_type = 30313,
-		trans_type = 0,
+		code = 202,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5274,16 +6330,24 @@ pg.ship_data_group = {
 		}
 	},
 	[205] = {
-		nationality = 3,
-		hide = 0,
+		type = 4,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 205,
-		type = 4,
+		nationality = 3,
+		hide = 0,
 		index_id = 249,
 		group_type = 30402,
-		trans_type = 0,
+		code = 205,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5297,16 +6361,24 @@ pg.ship_data_group = {
 		}
 	},
 	[320] = {
-		nationality = 3,
-		hide = 0,
+		type = 5,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 320,
-		type = 5,
+		nationality = 3,
+		hide = 0,
 		index_id = 254,
 		group_type = 30511,
-		trans_type = 0,
+		code = 320,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"D",
+			"D",
+			"B"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5320,16 +6392,24 @@ pg.ship_data_group = {
 		}
 	},
 	[208] = {
-		nationality = 3,
-		hide = 0,
+		type = 5,
 		trans_skin = 305019,
+		trans_type = 10,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 208,
-		type = 5,
+		nationality = 3,
+		hide = 0,
 		index_id = 255,
 		group_type = 30501,
-		trans_type = 10,
+		code = 208,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"B"
+		},
 		trans_radar_chart = {
 			"B",
 			"E",
@@ -5355,16 +6435,24 @@ pg.ship_data_group = {
 		}
 	},
 	[209] = {
-		nationality = 3,
-		hide = 0,
+		type = 5,
 		trans_skin = 305029,
+		trans_type = 10,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 209,
-		type = 5,
+		nationality = 3,
+		hide = 0,
 		index_id = 256,
 		group_type = 30502,
-		trans_type = 10,
+		code = 209,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"B"
+		},
 		trans_radar_chart = {
 			"B",
 			"E",
@@ -5390,16 +6478,24 @@ pg.ship_data_group = {
 		}
 	},
 	[210] = {
-		nationality = 3,
-		hide = 0,
+		type = 5,
 		trans_skin = 0,
+		trans_type = 10,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 210,
-		type = 5,
+		nationality = 3,
+		hide = 0,
 		index_id = 257,
 		group_type = 30503,
-		trans_type = 10,
+		code = 210,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"B"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5413,16 +6509,24 @@ pg.ship_data_group = {
 		}
 	},
 	[211] = {
-		nationality = 3,
-		hide = 0,
+		type = 5,
 		trans_skin = 0,
+		trans_type = 10,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 211,
-		type = 5,
+		nationality = 3,
+		hide = 0,
 		index_id = 258,
 		group_type = 30504,
-		trans_type = 10,
+		code = 211,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"B"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5436,16 +6540,24 @@ pg.ship_data_group = {
 		}
 	},
 	[220] = {
-		nationality = 3,
-		hide = 0,
+		type = 6,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 220,
-		type = 6,
+		nationality = 3,
+		hide = 0,
 		index_id = 265,
 		group_type = 30603,
-		trans_type = 0,
+		code = 220,
+		property_hexagon = {
+			"E",
+			"E",
+			"B",
+			"D",
+			"B",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5462,16 +6574,24 @@ pg.ship_data_group = {
 		}
 	},
 	[222] = {
-		nationality = 3,
-		hide = 0,
+		type = 6,
 		trans_skin = 306059,
+		trans_type = 6,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 222,
-		type = 6,
+		nationality = 3,
+		hide = 0,
 		index_id = 266,
 		group_type = 30605,
-		trans_type = 6,
+		code = 222,
+		property_hexagon = {
+			"E",
+			"E",
+			"B",
+			"D",
+			"B",
+			"C"
+		},
 		trans_radar_chart = {
 			"E",
 			"E",
@@ -5497,16 +6617,24 @@ pg.ship_data_group = {
 		}
 	},
 	[224] = {
-		nationality = 3,
-		hide = 0,
+		type = 7,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 224,
-		type = 7,
+		nationality = 3,
+		hide = 0,
 		index_id = 269,
 		group_type = 30701,
-		trans_type = 0,
+		code = 224,
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"C",
+			"B",
+			"B"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5523,16 +6651,24 @@ pg.ship_data_group = {
 		}
 	},
 	[225] = {
-		nationality = 3,
-		hide = 0,
+		type = 7,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 225,
-		type = 7,
+		nationality = 3,
+		hide = 0,
 		index_id = 270,
 		group_type = 30702,
-		trans_type = 0,
+		code = 225,
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"C",
+			"B",
+			"B"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5549,16 +6685,24 @@ pg.ship_data_group = {
 		}
 	},
 	[226] = {
-		nationality = 3,
-		hide = 0,
+		type = 7,
 		trans_skin = 0,
+		trans_type = 7,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 226,
-		type = 7,
+		nationality = 3,
+		hide = 0,
 		index_id = 273,
 		group_type = 30703,
-		trans_type = 7,
+		code = 226,
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5575,16 +6719,24 @@ pg.ship_data_group = {
 		}
 	},
 	[227] = {
-		nationality = 3,
-		hide = 0,
+		type = 7,
 		trans_skin = 0,
+		trans_type = 7,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 227,
-		type = 7,
+		nationality = 3,
+		hide = 0,
 		index_id = 274,
 		group_type = 30704,
-		trans_type = 7,
+		code = 227,
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5601,16 +6753,24 @@ pg.ship_data_group = {
 		}
 	},
 	[228] = {
-		nationality = 3,
-		hide = 0,
+		type = 7,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 228,
-		type = 7,
+		nationality = 3,
+		hide = 0,
 		index_id = 275,
 		group_type = 30705,
-		trans_type = 0,
+		code = 228,
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"C",
+			"B",
+			"B"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5624,16 +6784,24 @@ pg.ship_data_group = {
 		}
 	},
 	[229] = {
-		nationality = 3,
-		hide = 0,
+		type = 7,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 229,
-		type = 7,
+		nationality = 3,
+		hide = 0,
 		index_id = 276,
 		group_type = 30706,
-		trans_type = 0,
+		code = 229,
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"B"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5647,16 +6815,24 @@ pg.ship_data_group = {
 		}
 	},
 	[232] = {
-		nationality = 3,
-		hide = 0,
+		type = 12,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 232,
-		type = 12,
+		nationality = 3,
+		hide = 0,
 		index_id = 285,
 		group_type = 31201,
-		trans_type = 0,
+		code = 232,
+		property_hexagon = {
+			"E",
+			"E",
+			"E",
+			"C",
+			"D",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5670,16 +6846,24 @@ pg.ship_data_group = {
 		}
 	},
 	[233] = {
-		nationality = 4,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 233,
-		type = 1,
+		nationality = 4,
+		hide = 0,
 		index_id = 286,
 		group_type = 40101,
-		trans_type = 1,
+		code = 233,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5717,16 +6901,24 @@ pg.ship_data_group = {
 		}
 	},
 	[264] = {
-		nationality = 4,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 264,
-		type = 1,
+		nationality = 4,
+		hide = 0,
 		index_id = 289,
 		group_type = 40119,
-		trans_type = 0,
+		code = 264,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"B",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5740,16 +6932,24 @@ pg.ship_data_group = {
 		}
 	},
 	[265] = {
-		nationality = 4,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 265,
-		type = 1,
+		nationality = 4,
+		hide = 0,
 		index_id = 290,
 		group_type = 40120,
-		trans_type = 0,
+		code = 265,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"B",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5763,16 +6963,24 @@ pg.ship_data_group = {
 		}
 	},
 	[266] = {
-		nationality = 4,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 266,
-		type = 1,
+		nationality = 4,
+		hide = 0,
 		index_id = 291,
 		group_type = 40121,
-		trans_type = 0,
+		code = 266,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"B",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5786,16 +6994,24 @@ pg.ship_data_group = {
 		}
 	},
 	[236] = {
-		nationality = 4,
-		hide = 0,
+		type = 1,
 		trans_skin = 401239,
+		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 236,
-		type = 1,
+		nationality = 4,
+		hide = 0,
 		index_id = 292,
 		group_type = 40123,
-		trans_type = 1,
+		code = 236,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"B",
+			"D",
+			"D"
+		},
 		trans_radar_chart = {
 			"A",
 			"C",
@@ -5821,16 +7037,24 @@ pg.ship_data_group = {
 		}
 	},
 	[267] = {
-		nationality = 4,
-		hide = 0,
+		type = 1,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 267,
-		type = 1,
+		nationality = 4,
+		hide = 0,
 		index_id = 296,
 		group_type = 40146,
-		trans_type = 0,
+		code = 267,
+		property_hexagon = {
+			"C",
+			"A",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5844,16 +7068,24 @@ pg.ship_data_group = {
 		}
 	},
 	[238] = {
-		nationality = 4,
-		hide = 0,
+		type = 2,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 238,
-		type = 2,
+		nationality = 4,
+		hide = 0,
 		index_id = 297,
 		group_type = 40201,
-		trans_type = 0,
+		code = 238,
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5891,16 +7123,24 @@ pg.ship_data_group = {
 		}
 	},
 	[239] = {
-		nationality = 4,
-		hide = 0,
+		type = 2,
 		trans_skin = 0,
+		trans_type = 2,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 239,
-		type = 2,
+		nationality = 4,
+		hide = 0,
 		index_id = 298,
 		group_type = 40202,
-		trans_type = 2,
+		code = 239,
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5938,16 +7178,24 @@ pg.ship_data_group = {
 		}
 	},
 	[240] = {
-		nationality = 4,
-		hide = 0,
+		type = 2,
 		trans_skin = 0,
+		trans_type = 2,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 240,
-		type = 2,
+		nationality = 4,
+		hide = 0,
 		index_id = 299,
 		group_type = 40203,
-		trans_type = 2,
+		code = 240,
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -5985,16 +7233,24 @@ pg.ship_data_group = {
 		}
 	},
 	[241] = {
-		nationality = 4,
-		hide = 0,
+		type = 2,
 		trans_skin = 0,
+		trans_type = 2,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 241,
-		type = 2,
+		nationality = 4,
+		hide = 0,
 		index_id = 300,
 		group_type = 40204,
-		trans_type = 2,
+		code = 241,
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -6011,16 +7267,24 @@ pg.ship_data_group = {
 		}
 	},
 	[245] = {
-		nationality = 4,
-		hide = 0,
+		type = 3,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 245,
-		type = 3,
+		nationality = 4,
+		hide = 0,
 		index_id = 301,
 		group_type = 40304,
-		trans_type = 0,
+		code = 245,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -6034,16 +7298,24 @@ pg.ship_data_group = {
 		}
 	},
 	[242] = {
-		nationality = 4,
-		hide = 0,
+		type = 3,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 242,
-		type = 3,
+		nationality = 4,
+		hide = 0,
 		index_id = 303,
 		group_type = 40301,
-		trans_type = 0,
+		code = 242,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -6057,16 +7329,24 @@ pg.ship_data_group = {
 		}
 	},
 	[244] = {
-		nationality = 4,
-		hide = 0,
+		type = 3,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 244,
-		type = 3,
+		nationality = 4,
+		hide = 0,
 		index_id = 304,
 		group_type = 40303,
-		trans_type = 0,
+		code = 244,
+		property_hexagon = {
+			"B",
+			"D",
+			"E",
+			"C",
+			"B",
+			"S"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -6094,16 +7374,24 @@ pg.ship_data_group = {
 		}
 	},
 	[248] = {
-		nationality = 4,
-		hide = 0,
+		type = 4,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 248,
-		type = 4,
+		nationality = 4,
+		hide = 0,
 		index_id = 306,
 		group_type = 40401,
-		trans_type = 0,
+		code = 248,
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -6117,16 +7405,24 @@ pg.ship_data_group = {
 		}
 	},
 	[249] = {
-		nationality = 4,
-		hide = 0,
+		type = 4,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 249,
-		type = 4,
+		nationality = 4,
+		hide = 0,
 		index_id = 307,
 		group_type = 40402,
-		trans_type = 0,
+		code = 249,
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -6140,16 +7436,24 @@ pg.ship_data_group = {
 		}
 	},
 	[251] = {
-		nationality = 4,
-		hide = 0,
+		type = 5,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 251,
-		type = 5,
+		nationality = 4,
+		hide = 0,
 		index_id = 309,
 		group_type = 40502,
-		trans_type = 0,
+		code = 251,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"D",
+			"C",
+			"S"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -6163,16 +7467,24 @@ pg.ship_data_group = {
 		}
 	},
 	[252] = {
-		nationality = 4,
-		hide = 0,
+		type = 7,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 252,
-		type = 7,
+		nationality = 4,
+		hide = 0,
 		index_id = 310,
 		group_type = 40701,
-		trans_type = 0,
+		code = 252,
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"C",
+			"B",
+			"A"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -6186,16 +7498,24 @@ pg.ship_data_group = {
 		}
 	},
 	[258] = {
-		nationality = 5,
-		hide = 0,
+		type = 2,
 		trans_skin = 0,
+		trans_type = 2,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 258,
-		type = 2,
+		nationality = 5,
+		hide = 0,
 		index_id = 325,
 		group_type = 50202,
-		trans_type = 2,
+		code = 258,
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"B",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -6213,16 +7533,24 @@ pg.ship_data_group = {
 		}
 	},
 	[259] = {
-		nationality = 5,
-		hide = 0,
+		type = 2,
 		trans_skin = 0,
+		trans_type = 2,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 259,
-		type = 2,
+		nationality = 5,
+		hide = 0,
 		index_id = 326,
 		group_type = 50203,
-		trans_type = 2,
+		code = 259,
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"B",
+			"D"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
@@ -6240,16 +7568,24 @@ pg.ship_data_group = {
 		}
 	},
 	[262] = {
-		nationality = 7,
-		hide = 0,
+		type = 2,
 		trans_skin = 0,
+		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		code = 262,
-		type = 2,
+		nationality = 7,
+		hide = 0,
 		index_id = 333,
 		group_type = 70201,
-		trans_type = 0,
+		code = 262,
+		property_hexagon = {
+			"D",
+			"D",
+			"E",
+			"C",
+			"C",
+			"C"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {

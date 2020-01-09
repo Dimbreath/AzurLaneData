@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"雨后天晴\n\n<size=45>二 高气压？低气压？</size>",
+					"雨後天晴\n\n<size=45>二 高氣壓？低氣壓？</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "为了和{namecode:79}一起打扫神社一大早来到港区的碰头地点时，{namecode:79}已经等在那里了",
+			say = "為了和{namecode:79}一起打掃神社一大早來到港區的碰頭地點時，{namecode:79}已經等在那裡了",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "殿下早安！今天就拜托你了！",
+			say = "殿下早安！今天就拜託你了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "……什么时候来的？嗯……半、半小时前吧……万一因为我犯迷糊迟到了，还要害殿下等就不好了……",
+			say = "……什麼時候來的？嗯……半、半小時前吧……萬一因為我犯迷糊遲到了，還要害殿下等就不好了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:79}姐姐！……指挥官你也在啊。今天不是放假吗？难道是在约会？",
+			say = "{namecode:79}姐姐！……指揮官你也在啊。今天不是放假嗎？難道是在約會？",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "不，不是啦{namecode:17}！今天只是和殿下约好了要去打扫神社啦！",
+			say = "不，不是啦{namecode:17}！今天只是和殿下約好了要去打掃神社啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = -1,
 			actor = 301150,
 			actorName = "{namecode:17}",
-			say = "哼哼，不是约会的话，{namecode:17}也来帮忙吧？嘿嘿，有我{namecode:17}大人出面，包你打扫得干净清爽～",
+			say = "哼哼，不是約會的話，{namecode:17}也來幫忙吧？嘿嘿，有我{namecode:17}大人出面，包你打掃得乾淨清爽～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = -1,
 			actor = 301150,
 			actorName = "{namecode:17}",
-			say = "……还是说你比较想和那个笨蛋指挥官约会？哎呀好痛！",
+			say = "……還是說你比較想和那個笨蛋指揮官約會？哎呀好痛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			dir = -1,
 			actor = 302100,
 			actorName = "{namecode:57}",
-			say = "{namecode:17}，不许拿{namecode:79}和指挥官寻开心哦。早安，{namecode:79}。",
+			say = "{namecode:17}，不許拿{namecode:79}和指揮官尋開心哦。早安，{namecode:79}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "{namecode:57}！你和{namecode:17}来买东西？",
+			say = "{namecode:57}！你和{namecode:17}來買東西？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = -1,
 			actor = 302100,
 			actorName = "{namecode:57}",
-			say = "嗯。{namecode:147}她们宿舍的备用品也一起买了。总不能一直让{namecode:58}来…",
+			say = "嗯。{namecode:147}她們宿舍的備用品也一起買了。總不能一直讓{namecode:58}來…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = -1,
 			actor = 301150,
 			actorName = "{namecode:17}",
-			say = "最近{namecode:20}那家伙又涨价了，在港区开店的只有她们俩，完全竞争不起来啊……",
+			say = "最近{namecode:20}那傢伙又漲價了，在港區開店的只有她們倆，完全競爭不起來啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "嗯？虽然不懂你在说什么，不过就交给我{namecode:79}吧！下次去买装备箱的时候我要好好批评她一下！",
+			say = "嗯？雖然不懂你在說什麼，不過就交給我{namecode:79}吧！下次去買裝備箱的時候我要好好批評她一下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = -1,
 			actor = 301150,
 			actorName = "{namecode:17}",
-			say = "谢啦{namecode:79}姐姐！……不过还是算了吧。结果多半是{namecode:79}姐姐说不过人家，最后还被忽悠着买高价货……",
+			say = "謝啦{namecode:79}姐姐！……不過還是算了吧。結果多半是{namecode:79}姐姐說不過人家，最後還被說服著買高價貨……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "好过分～！",
+			say = "好過分～！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			dir = -1,
 			actor = 301150,
 			actorName = "{namecode:17}",
-			say = "那当然了！{namecode:79}姐姐和{namecode:17}最亲了！我最喜欢{namecode:79}姐姐了！",
+			say = "那當然了！{namecode:79}姐姐和{namecode:17}最親了！我最喜歡{namecode:79}姐姐了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			blackBg = true,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "嘿嘿，{namecode:17}……不过，今天我要和殿下去打扫神社，下次再找你玩吧！",
+			say = "嘿嘿，{namecode:17}……不過，今天我要和殿下去打掃神社，下次再找你玩吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10568,6 +10568,38 @@ TIPS：
 				y = 1024
 			}
 		}
+	},
+	word_equipskin_type = {
+		tip = "類型",
+		key = "word_equipskin_type"
+	},
+	word_equipskin_all = {
+		tip = "全部",
+		key = "word_equipskin_all"
+	},
+	word_equipskin_cannon = {
+		tip = "艦炮",
+		key = "word_equipskin_cannon"
+	},
+	word_equipskin_tarpedo = {
+		tip = "魚雷",
+		key = "word_equipskin_tarpedo"
+	},
+	word_equipskin_aircraft = {
+		tip = "艦載機",
+		key = "word_equipskin_aircraft"
+	},
+	msgbox_repair = {
+		tip = "修復資源",
+		key = "msgbox_repair"
+	},
+	msgbox_repair_l2d = {
+		tip = "修復L2D",
+		key = "msgbox_repair_l2d"
+	},
+	word_no_cache = {
+		tip = "沒有需要修復的資源",
+		key = "word_no_cache"
 	}
 }
 

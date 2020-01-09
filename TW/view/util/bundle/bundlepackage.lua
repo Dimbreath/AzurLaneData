@@ -52,7 +52,7 @@ function slot0.Add(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.Remove(slot0, slot1)
-	if slot0.items:removebyvalue(slot1) then
+	if table.removebyvalue(slot0.items, slot1) then
 		slot0:ClearBundleRef(slot0.path, true, false)
 	end
 

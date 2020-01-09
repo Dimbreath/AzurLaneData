@@ -14,7 +14,7 @@ pg.class_upgrade_group = {
 		}
 	},
 	{
-		name = "今日课程：\n《巡洋炮擊教學—如何正確地選擇彈藥》",
+		name = "今日課程：\n《巡洋炮擊教學—如何正確地選擇彈藥》",
 		id = 302011,
 		icon = "Props/CLCA",
 		name_show = "《巡洋炮擊教學》",

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"小小的勇气\n\n<size=45>七  小小的魔法</size>",
+					"小小的勇氣\n\n<size=45>七  小小的魔法</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 		{
 			actor = 206030,
 			side = 2,
-			say = "哥、哥哥……在独角兽说可以之前，不可以睁开眼睛哦……",
+			say = "哥、哥哥……在獨角獸說可以之前，不可以睜開眼睛哦……",
 			nameColor = "#a9f548",
 			blackBg = true,
 			withoutPainting = true,
@@ -35,7 +35,7 @@ return {
 		{
 			actor = 206030,
 			side = 2,
-			say = "呜…果然还是……",
+			say = "嗚…果然還是……",
 			nameColor = "#a9f548",
 			blackBg = true,
 			withoutPainting = true,
@@ -51,7 +51,7 @@ return {
 		{
 			actor = 206030,
 			side = 2,
-			say = "星尘姐姐……给我勇气……",
+			say = "星塵姐姐……給我勇氣……",
 			nameColor = "#a9f548",
 			blackBg = true,
 			withoutPainting = true,
@@ -99,7 +99,7 @@ return {
 			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "呼……怎、怎么样……星尘姐姐送的这套衣服……还有这首歌……",
+			say = "呼……怎、怎麼樣……星塵姐姐送的這套衣服……還有這首歌……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "星尘姐姐说这样……就能让哥哥开心……",
+			say = "星塵姐姐說這樣……就能讓哥哥開心……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "独角兽…有努力了吧？",
+			say = "獨角獸…有努力了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			actor = 206031,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "呼…还好……哥哥没什么事…",
+			say = "呼…還好……哥哥沒什麼事…",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -186,7 +186,7 @@ return {
 			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "嗯？太兴奋所以晕过去了？",
+			say = "嗯？太興奮所以暈過去了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "呼……谢谢……哥哥……能让哥哥开心，独角兽就满足了……果然就像星尘姐姐说的那样呢……",
+			say = "呼……謝謝……哥哥……能讓哥哥開心，獨角獸就滿足了……果然就像星塵姐姐說的那樣呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			actor = 206031,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "「小小的勇气，就是最大的魔法」…嘻嘻…",
+			say = "「小小的勇氣，就是最大的魔法」…嘻嘻…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -391,7 +391,11 @@ function slot0.initIndexPanel(slot0)
 				PoolMgr.GetInstance():GetPrefab("ui/indexui", "", false, function (slot0)
 					slot0.indexPanelParent = slot0
 					slot0.indexPanel = findTF(slot0, "index_panel")
+					slot1 = slot0:findTF("layout", slot0.indexPanel)
 
+					setActive(slot0:findTF("EquipSkinSort", slot1), false)
+					setActive(slot0:findTF("EquipSkinIndex", slot1), false)
+					setActive(slot0:findTF("EquipSkinTheme", slot1), false)
 					setParent(slot0, slot0._tf, false)
 					setActive(slot0.indexPanelParent, false)
 				end)

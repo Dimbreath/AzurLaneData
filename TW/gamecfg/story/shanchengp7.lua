@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"雨后天晴\n\n<size=45>七 晴空万里</size>",
+					"雨後天晴\n\n<size=45>七 晴空萬里</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "{namecode:79}～殿下～你们没事吧～？",
+			say = "{namecode:79}～殿下～你們沒事吧～？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "嗯……雨都下起来了也没见你们回来，我就过来送伞……",
+			say = "嗯……雨都下起來了也沒見你們回來，我就過來送傘……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "看这样子伞是用不着了吧♪",
+			say = "看這樣子傘是用不著了吧♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "姐姐你真是的！不过还是谢谢你！",
+			say = "姐姐你真是的！不過還是謝謝你！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "姐妹二人一同建造的神社，鸟居上架起了小小的、美丽的彩虹。",
+			say = "姐妹二人一同建造的神社，鳥居上架起了小小的、美麗的彩虹。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "殿下，刚才我还有句话忘了说。",
+			say = "殿下，剛才我還有句話忘了說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "现在的我，非常非常幸福！",
+			say = "現在的我，非常非常幸福！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "因为这里，有这么多的伙伴们，有{namecode:78}姐姐，还有我最喜欢的殿下也在啊！",
+			say = "因為這裡，有這麼多的夥伴們，有{namecode:78}姐姐，還有我最喜歡的殿下也在啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "{namecode:79}一边说着，一边凑了过来——",
+			say = "{namecode:79}一邊說著，一邊湊了過來——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "脸颊上传来了嘴唇柔软的感触。",
+			say = "臉頰上傳來了嘴唇柔軟的感觸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

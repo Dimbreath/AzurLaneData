@@ -664,6 +664,22 @@ pg.activity_template = {
 			{}
 		}
 	},
+	[2007] = {
+		mark = 20180510,
+		title_res_tag = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5111,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 2007,
+		config_data = {
+			0,
+			{}
+		}
+	},
 	[2011] = {
 		mark = 20180628,
 		title_res_tag = "",
@@ -1578,6 +1594,7 @@ pg.activity_template = {
 	[40031] = {
 		mark = 20191205,
 		title_res_tag = "Gelideliskin",
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 0,
@@ -1592,33 +1609,6 @@ pg.activity_template = {
 			50054,
 			50055,
 			50056
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					12,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					1,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		bg = {
 			"clutter/skin_gelideli",
@@ -2017,6 +2007,7 @@ pg.activity_template = {
 	[40039] = {
 		mark = 20191205,
 		title_res_tag = "HPnewyear",
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 0,
@@ -2030,33 +2021,6 @@ pg.activity_template = {
 			50061,
 			50062,
 			50063
-		},
-		time = {
-			timer,
-			{
-				{
-					2019,
-					12,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					1,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		bg = {
 			"clutter/skin_kisaragi"
@@ -2194,6 +2158,70 @@ pg.activity_template = {
 			}
 		}
 	},
+	[40041] = {
+		mark = 20200102,
+		title_res_tag = "stardust",
+		type = 18,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		id = 40041,
+		config_data = {
+			10093,
+			10094,
+			10095,
+			10096,
+			10097,
+			10098,
+			10099
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/unicorn_stardust",
+			{
+				368,
+				-220.8
+			},
+			{
+				430,
+				-157.4
+			}
+		},
+		config_client = {
+			{
+				groupId = 20603,
+				configId = 206031,
+				id = 10000020603.0,
+				skin_id = 206031
+			}
+		}
+	},
 	[45000] = {
 		mark = 20191004,
 		title_res_tag = "",
@@ -2229,6 +2257,7 @@ pg.activity_template = {
 		458,
 		999,
 		2001,
+		2007,
 		2011,
 		2018,
 		2026,
@@ -2269,6 +2298,7 @@ pg.activity_template = {
 		40038,
 		40039,
 		40040,
+		40041,
 		45000
 	}
 }

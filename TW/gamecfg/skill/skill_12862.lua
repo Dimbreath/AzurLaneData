@@ -4,7 +4,8 @@ return {
 			{
 				type = "BattleSkillAddBuff",
 				target_choise = {
-					"TargetShipTypeFriendly",
+					"TargetAllHelp",
+					"TargetShipType",
 					"TargetHelpLeastHPRatio"
 				},
 				arg_list = {
@@ -31,7 +32,8 @@ return {
 			{
 				type = "BattleSkillAddBuff",
 				target_choise = {
-					"TargetShipTypeFriendly",
+					"TargetAllHelp",
+					"TargetShipType",
 					"TargetHelpLeastHPRatio"
 				},
 				arg_list = {
@@ -58,7 +60,8 @@ return {
 			{
 				type = "BattleSkillAddBuff",
 				target_choise = {
-					"TargetShipTypeFriendly",
+					"TargetAllHelp",
+					"TargetShipType",
 					"TargetHelpLeastHPRatio"
 				},
 				arg_list = {
@@ -85,7 +88,8 @@ return {
 			{
 				type = "BattleSkillAddBuff",
 				target_choise = {
-					"TargetShipTypeFriendly",
+					"TargetAllHelp",
+					"TargetShipType",
 					"TargetHelpLeastHPRatio"
 				},
 				arg_list = {
@@ -112,7 +116,8 @@ return {
 			{
 				type = "BattleSkillAddBuff",
 				target_choise = {
-					"TargetShipTypeFriendly",
+					"TargetAllHelp",
+					"TargetShipType",
 					"TargetHelpLeastHPRatio"
 				},
 				arg_list = {
@@ -139,7 +144,8 @@ return {
 			{
 				type = "BattleSkillAddBuff",
 				target_choise = {
-					"TargetShipTypeFriendly",
+					"TargetAllHelp",
+					"TargetShipType",
 					"TargetHelpLeastHPRatio"
 				},
 				arg_list = {
@@ -166,7 +172,8 @@ return {
 			{
 				type = "BattleSkillAddBuff",
 				target_choise = {
-					"TargetShipTypeFriendly",
+					"TargetAllHelp",
+					"TargetShipType",
 					"TargetHelpLeastHPRatio"
 				},
 				arg_list = {
@@ -193,7 +200,8 @@ return {
 			{
 				type = "BattleSkillAddBuff",
 				target_choise = {
-					"TargetShipTypeFriendly",
+					"TargetAllHelp",
+					"TargetShipType",
 					"TargetHelpLeastHPRatio"
 				},
 				arg_list = {
@@ -220,7 +228,8 @@ return {
 			{
 				type = "BattleSkillAddBuff",
 				target_choise = {
-					"TargetShipTypeFriendly",
+					"TargetAllHelp",
+					"TargetShipType",
 					"TargetHelpLeastHPRatio"
 				},
 				arg_list = {
@@ -247,7 +256,8 @@ return {
 			{
 				type = "BattleSkillAddBuff",
 				target_choise = {
-					"TargetShipTypeFriendly",
+					"TargetAllHelp",
+					"TargetShipType",
 					"TargetHelpLeastHPRatio"
 				},
 				arg_list = {

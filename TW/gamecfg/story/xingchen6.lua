@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"小小的勇气\n\n<size=45>六  改变的勇气</size>",
+					"小小的勇氣\n\n<size=45>六  改變的勇氣</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "怎、怎么办……",
+			say = "怎、怎麼辦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "虽然从星尘姐姐那里收到了这个……",
+			say = "雖然從星塵姐姐那裡收到了這個……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "呜……果然还是好害羞……",
+			say = "嗚……果然還是好害羞……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "而且…这么华丽的衣服…独角兽…一定不合适的…要是哥哥不喜欢…怎么办…",
+			say = "而且…這麼華麗的衣服…獨角獸…一定不合適的…要是哥哥不喜歡…怎麼辦…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			actor = 206030,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "小小的勇气……就是最大的魔法……",
+			say = "小小的勇氣……就是最大的魔法……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -107,7 +107,7 @@ return {
 			actor = 206030,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "嗯！独角兽，会加油的！",
+			say = "嗯！獨角獸，會加油的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

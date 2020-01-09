@@ -44,6 +44,17 @@ pg.activity_shop_extra = {
 		id = 5,
 		order = 99
 	},
+	[6] = {
+		num_limit = 1,
+		activity = 40041,
+		time = "",
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 206031,
+		scene = "",
+		id = 6,
+		order = 1
+	},
 	[7] = {
 		num_limit = 1,
 		activity = 40031,
@@ -744,6 +755,7 @@ pg.activity_shop_extra = {
 		2,
 		3,
 		5,
+		6,
 		7,
 		9,
 		11,
