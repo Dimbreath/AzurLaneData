@@ -12,6 +12,12 @@ function slot0.getUIName(slot0)
 	return "ShipProfileUI"
 end
 
+function slot0.preload(slot0, slot1)
+	slot3 = getProxy(CollectionProxy).getShipGroup(slot2, slot0.contextData.groupId)
+
+	GetSpriteFromAtlasAsync("bg/star_level_bg_" .. shipRarity2bgPrint(slot5, slot3:GetSkin(slot0.contextData.showTrans).id, slot3:isBluePrintGroup()), "", slot1)
+end
+
 function slot0.setShipGroup(slot0, slot1)
 	slot0.shipGroup = slot1
 	slot0.groupSkinList = slot1:getDisplayableSkinList()
@@ -129,6 +135,7 @@ function slot0.didEnter(slot0)
 	slot0:InitCommon()
 	slot0.live2DBtn:Update(slot0.paintingName, false)
 	triggerToggle(slot0.toggles[slot0.INDEX_DETAIL], true)
+	setActive(slot0.bottomTF, false)
 end
 
 function slot0.InitSkinList(slot0)
@@ -283,6 +290,12 @@ function slot0.SwitchPage(slot0, slot1)
 			end,
 			function (slot0)
 				SetParent(slot0.bottomTF, slot0.pages[]._tf)
+				setActive(slot0.bottomTF, true)
+				setAnchoredPosition(slot0.bottomTF, {
+					z = 0,
+					x = -7,
+					y = 24
+				})
 				slot0.pages[].ExecuteAction(slot1, "EnterAnim", slot0.pages[].ExecuteAction)
 				slot0:TweenPage(slot0.pages[])
 				slot0()
@@ -484,7 +497,13 @@ function slot0.ShowDailogue(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	setText(slot0.chatText, slot1.wordData.textContent)
+	if not slot1.wordData.textContent or slot4 == "" or slot4 == "nil" then
+		slot3()
+
+		return
+	end
+
+	setText(slot0.chatText, slot4)
 
 	slot6.alignment = (CHAT_POP_STR_LEN < #slot0.chatText:GetComponent(typeof(Text)).text and TextAnchor.MiddleLeft) or TextAnchor.MiddleCenter
 	slot0.chatBg.sizeDelta = (slot0.initChatBgH < slot6.preferredHeight + 120 and Vector2.New(slot0.chatBg.sizeDelta.x, (CHAT_POP_STR_LEN < #slot0.chatText.GetComponent(typeof(Text)).text and TextAnchor.MiddleLeft) or TextAnchor.MiddleCenter)) or Vector2.New(slot0.chatBg.sizeDelta.x, slot0.initChatBgH)

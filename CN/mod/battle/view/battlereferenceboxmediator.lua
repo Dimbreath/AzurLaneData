@@ -56,7 +56,15 @@ end
 function slot4.ActiveUnitDetail(slot0, slot1)
 	SetActive(slot0._detailContainer, slot1)
 
+	slot0._state:GetUI()._tf:GetComponent(typeof(RectMask2D)).enabled = not slot1
+
 	if slot1 and not slot0._detailViewActive then
+		for slot5, slot6 in ipairs(slot0._dataProxy:GetFleetList()) do
+			for slot11, slot12 in ipairs(slot7) do
+				slot0:createDetail(slot12)
+			end
+		end
+
 		slot0._detailViewActive = true
 	elseif not slot1 and slot0._detailViewActive then
 		slot0._detailViewActive = false
@@ -83,9 +91,8 @@ function slot4.Update(slot0)
 	end
 
 	if slot0._detailViewActive then
-		for slot4, slot5 in pairs(slot0._sceneMediator:GetCharacterList()) do
-			slot0._detailViewList[slot4] or slot0:createDetail(slot5:GetUnitData()):UpdatePos(slot5:GetReferenceVector())
-			slot0._detailViewList[slot4] or slot0.createDetail(slot5.GetUnitData()):Update()
+		for slot4, slot5 in pairs(slot0._detailViewList) do
+			slot5:Update()
 		end
 	end
 end
@@ -101,14 +108,14 @@ function slot4.disInitUnitEvent(slot0)
 end
 
 function slot4.onAddUnit(slot0, slot1)
-	slot2 = slot1.Data.unit
+	slot2 = slot1.Data.type
 
 	if slot0._unitBoxActive then
-		slot0._unitBoxList[slot2:GetUniqueID()] = slot0:createBox(slot2)
+		slot0._unitBoxList[unit:GetUniqueID()] = slot0:createBox(unit)
 	end
 
-	if slot0._detailViewActive then
-		slot0:createDetail(slot2)
+	if slot0._detailViewActive and slot2 == slot0.UnitType.PLAYER_UNIT then
+		slot0:createDetail(unit)
 	end
 end
 
@@ -133,8 +140,10 @@ end
 
 function slot4.createDetail(slot0, slot1)
 	slot2 = slot0.Battle.BattleUnitDetailView.New()
+	slot3 = slot1:GetIFF()
 
-	slot2:ConfigSkin(slot0._sceneMediator:InstantiateCharacterComponent("CharacterDetailContainer/detailPanel"))
+	slot0._sceneMediator:InstantiateCharacterComponent("CharacterDetailContainer/detailPanel").transform:SetParent(slot4, true)
+	slot2:ConfigSkin(slot5)
 	slot2:SetUnit(slot1)
 
 	slot0._detailViewList[slot1:GetUniqueID()] = slot2
@@ -143,11 +152,14 @@ function slot4.createDetail(slot0, slot1)
 end
 
 function slot4.onRemoveUnit(slot0, slot1)
+	slot2 = slot1.Data.type
+	slot3 = slot1.Data.GetUnitType()
+
 	if slot0._unitBoxActive then
 		slot0:removeBox(slot1.Data.UID)
 	end
 
-	if slot0._detailViewActive then
+	if slot0._detailViewActive and slot3 == slot0.UnitType.PLAYER_UNIT then
 		slot0:removeDetail(slot1.Data.UID)
 	end
 end
