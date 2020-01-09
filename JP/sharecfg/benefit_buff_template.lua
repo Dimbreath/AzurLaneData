@@ -3,7 +3,7 @@ pg.benefit_buff_template = {
 	{
 		max_time = 86400,
 		name = "",
-		icon = "Props/christmas",
+		icon = "Props/haijungali",
 		benefit_effect = "5",
 		id = 1,
 		benefit_condition = "",

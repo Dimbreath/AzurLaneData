@@ -8931,7 +8931,7 @@ pg.gametip = {
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "「サウサンプトン」、「清波」常設追加！",
+		tip = "「ル・テメレール」、「最上」常設追加！",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
@@ -12447,6 +12447,38 @@ L2DアニメーションのON・OFFは秘書艦変更画面で
 				y = 1024
 			}
 		}
+	},
+	word_equipskin_type = {
+		tip = "種類",
+		key = "word_equipskin_type"
+	},
+	word_equipskin_all = {
+		tip = "全て",
+		key = "word_equipskin_all"
+	},
+	word_equipskin_cannon = {
+		tip = "艦砲",
+		key = "word_equipskin_cannon"
+	},
+	word_equipskin_tarpedo = {
+		tip = "魚雷",
+		key = "word_equipskin_tarpedo"
+	},
+	word_equipskin_aircraft = {
+		tip = "艦載機",
+		key = "word_equipskin_aircraft"
+	},
+	msgbox_repair = {
+		tip = "アセット修復",
+		key = "msgbox_repair"
+	},
+	msgbox_repair_l2d = {
+		tip = "Live2Dアセット修復",
+		key = "msgbox_repair_l2d"
+	},
+	word_no_cache = {
+		tip = "修復するアセットはありません",
+		key = "word_no_cache"
 	}
 }
 
