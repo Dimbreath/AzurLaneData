@@ -12857,17 +12857,17 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[50004] = {
-		display = "A classic Christmas confectionery. <color=#92fc63>(Increases EXP by 5% for 60 minutes.)</color> ",
+		display = "Sweet Curry or Hot Curry that is the question.  <color=#A9F548>（Increase EXP by 5 for 60 minutes）</color>",
 		rarity = 2,
 		type = 3,
-		name = "Candy Cane ",
+		name = "Naval curry",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		virtual_type = 0,
 		replace_item = 0,
 		link_id = 0,
 		id = 50004,
-		icon = "Props/christmas",
+		icon = "Props/haijungali",
 		display_icon = {},
 		price = {
 			1,
@@ -65449,11 +65449,6 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			},
 			{
 				4,
-				103011,
-				1
-			},
-			{
-				4,
 				103021,
 				1
 			},
@@ -65567,11 +65562,6 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			{
 				4,
 				101071,
-				1
-			},
-			{
-				4,
-				103011,
 				1
 			},
 			{
@@ -65703,11 +65693,6 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			},
 			{
 				4,
-				103011,
-				1
-			},
-			{
-				4,
 				103021,
 				1
 			},
@@ -65821,11 +65806,6 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			{
 				4,
 				101071,
-				1
-			},
-			{
-				4,
-				103011,
 				1
 			},
 			{
@@ -65957,11 +65937,6 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			},
 			{
 				4,
-				103011,
-				1
-			},
-			{
-				4,
 				103021,
 				1
 			},
@@ -66080,11 +66055,6 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			{
 				4,
 				101071,
-				1
-			},
-			{
-				4,
-				103011,
 				1
 			},
 			{
@@ -66291,11 +66261,6 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			{
 				4,
 				101071,
-				1
-			},
-			{
-				4,
-				103011,
 				1
 			},
 			{

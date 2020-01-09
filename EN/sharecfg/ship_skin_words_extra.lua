@@ -115,6 +115,66 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[999011] = {
+		feeling3 = "",
+		upgrade = "",
+		id = 999011,
+		expedition = "",
+		win_mvp = "",
+		mission = "",
+		feeling1 = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		unlock = {
+			{
+				100,
+				"Gascogne uniform change complete. Directive assigned: have fun on the beach with Master. Master, what things do you do to \"have fun on the beach\"...?"
+			}
+		},
+		login = {
+			{
+				100,
+				"Welcome back, Master. I'm attempting to do \"whatever I want\"..."
+			}
+		},
+		home = {
+			{
+				100,
+				"I have prepared us some water and food... Would you like some, Master?"
+			}
+		},
+		detail = {
+			{
+				100,
+				"Permission to inspect me...? R-right now...?"
+			}
+		},
+		main = {
+			{
+				100,
+				"The summer winds... Master, is this what \"relaxation\" feels like...?|This crab seems to be saying \"hello, I'm a crab!\" ...Does what I said work as a \"joke\"?|\"Let's go for a swim\" – I'll go get a swimg ring... Master, are you sure I \"don't need one\"?"
+			}
+		},
+		touch = {
+			{
+				100,
+				"Your gaze makes me feel odd, Master..."
+			}
+		},
+		touch2 = {
+			{
+				100,
+				"I'm sorry, Master... My body feels strangely warm..."
+			}
+		}
+	},
 	[207050] = {
 		feeling3 = "",
 		upgrade = "",
@@ -310,12 +370,49 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[301260] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		id = 301260,
+		expedition = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = "",
+		win_mvp = {
+			{
+				100,
+				"Ariake, did you see that?"
+			}
+		},
+		detail = {
+			{
+				100,
+				"I'm so glad we finally can be together, Ariake! All that time I spent worrying about when I'd be able to see you seems like a distant illusion now…"
+			}
+		}
+	},
 	all = {
 		999010,
 		108030,
+		999011,
 		207050,
 		305140,
-		306070
+		306070,
+		301260
 	}
 }
 

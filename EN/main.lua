@@ -35,6 +35,8 @@ if (PLATFORM_CODE == PLATFORM_CH or PLATFORM_CODE == PLATFORM_CHT) and PLATFORM 
 	pg.SdkMgr.GetInstance():InitSDK()
 end
 
+GetComponent(tf(GameObject.Find("OverlayCamera/Overlay/UIDebug/logs")), "Text").supportRichText = false
+
 pg.TimeMgr.GetInstance():Init()
 pg.PushNotificationMgr.GetInstance():Init()
 
