@@ -545,6 +545,41 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[301260] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		id = 301260,
+		expedition = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = "",
+		win_mvp = {
+			{
+				100,
+				"有明姉さん、見ててくださいました？"
+			}
+		},
+		detail = {
+			{
+				100,
+				"ついさっき有明姉さんに会いました！…どうすれば有明姉さんに会えるか悩んでいた日々は嘘みたいです"
+			}
+		}
+	},
 	all = {
 		999010,
 		801040,
@@ -555,7 +590,8 @@ pg.ship_skin_words_extra = {
 		301090,
 		301091,
 		305140,
-		306070
+		306070,
+		301260
 	}
 }
 

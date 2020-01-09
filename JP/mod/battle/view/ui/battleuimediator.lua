@@ -407,11 +407,11 @@ function slot6.onAddUnit(slot0, slot1)
 			end)
 			SetActive(slot0, true)
 		end)
-	elseif slot1.Data.type == slot0.UnitType.ENEMY_UNIT then
+	elseif slot2 == slot0.UnitType.ENEMY_UNIT then
 		slot0:registerUnitEvent(slot3)
-	elseif slot1.Data.type == slot0.UnitType.NPC_UNIT and slot3:GetIFF() == slot1.FOE_CODE then
+	elseif slot2 == slot0.UnitType.NPC_UNIT and slot3:GetIFF() == slot1.FOE_CODE then
 		slot0:registerUnitEvent(slot3)
-	elseif slot1.Data.type == slot0.UnitType.PLAYER_UNIT and slot3:IsMainFleetUnit() and slot3:GetIFF() == slot1.FRIENDLY_CODE then
+	elseif slot2 == slot0.UnitType.PLAYER_UNIT and slot3:IsMainFleetUnit() and slot3:GetIFF() == slot1.FRIENDLY_CODE then
 		slot0:registerPlayerMainUnitEvent(slot3)
 	end
 end
