@@ -21098,6 +21098,270 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[11980] = {
+		desc_get = "",
+		name = "Task Force Leader",
+		desc = "Increases this ship's AVI by $1. When sortied as the Flagship: increases the FP of your Eagle Union BBs by $1. When sortied in any other position: increases the FP and AA of your Eagle Union DDs by $1.",
+		type = 3,
+		max_level = 10,
+		id = 11980,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[11990] = {
+		desc_get = "",
+		name = "Unwavering Resolution",
+		desc = "While there are no other CVs or CVLs in the same fleet as this ship: increases your Main Fleet's AA by $2. When this ship launches an Airstrike: launches an additional special $1 airstrike (DMG is based on the skill's level; which squadrons gets launched is based on the number of CVs and CVLs in your fleet.)",
+		type = 1,
+		max_level = 10,
+		id = 11990,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	},
+	[12000] = {
+		desc_get = "",
+		name = "Here to Help",
+		desc = "While this ship is afloat: decreases the DMG your CVs and CVLs take by $1. When sortied with Gridley: increases this ship's FP by $2 and increases Gridley's FP and RLD by $2.",
+		type = 3,
+		max_level = 10,
+		id = 12000,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"10.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%",
+					"+0.5%"
+				},
+				{
+					"8.5%",
+					"+0.5%"
+				},
+				{
+					"9.0%",
+					"+1%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
 	[12040] = {
 		desc_get = "",
 		name = "Whimsical Inventor ",
@@ -21500,6 +21764,64 @@ pg.skill_data_template = {
 				},
 				{
 					"5.0%"
+				}
+			}
+		}
+	},
+	[12110] = {
+		desc_get = "",
+		name = "Destiny Draw！",
+		desc = "Every 20s: launches a random $1 special airstrike (DMG is based on the skill's level.) When this ship's HP falls below 30.0%: increases this ship's LCK by 7. ",
+		type = 1,
+		max_level = 10,
+		id = 12110,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
 				}
 			}
 		}
@@ -36130,6 +36452,9 @@ pg.skill_data_template = {
 		11880,
 		11890,
 		11900,
+		11980,
+		11990,
+		12000,
 		12040,
 		12050,
 		12060,
@@ -36137,6 +36462,7 @@ pg.skill_data_template = {
 		12080,
 		12090,
 		12100,
+		12110,
 		12120,
 		12130,
 		12140,

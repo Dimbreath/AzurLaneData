@@ -159,7 +159,9 @@ function slot2.updateBuffList(slot0)
 
 	for slot5, slot6 in pairs(slot0._buffList) do
 		if not slot1[slot5] then
-			GameObject.Destroy(go(slot6))
+			GameObject.Destroy(slot6.gameObject)
+
+			slot0._buffList[slot5] = nil
 		end
 	end
 

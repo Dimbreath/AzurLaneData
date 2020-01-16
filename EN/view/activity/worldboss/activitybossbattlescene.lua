@@ -5,10 +5,6 @@ function slot0.getUIName(slot0)
 	return "ActivityBossBattleUI"
 end
 
-function slot0.getBGM(slot0)
-	return "main"
-end
-
 function slot0.setTaskAct(slot0, slot1)
 	slot0.taskAct = slot1
 end

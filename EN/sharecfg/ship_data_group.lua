@@ -265,6 +265,40 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[4] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 6,
+		group_type = 10102,
+		code = 4,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Explore Stage13-3",
+				{
+					"LEVEL",
+					{
+						chapterid = 1303
+					}
+				},
+				0
+			}
+		}
+	},
 	[406] = {
 		type = 1,
 		trans_skin = 0,
@@ -4103,6 +4137,40 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[380] = {
+		type = 7,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 96,
+		group_type = 10717,
+		code = 380,
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Explore Stage13-4",
+				{
+					"LEVEL",
+					{
+						chapterid = 1304
+					}
+				},
+				0
+			}
+		}
+	},
 	[403] = {
 		type = 6,
 		trans_skin = 0,
@@ -6960,7 +7028,7 @@ pg.ship_data_group = {
 	},
 	[140] = {
 		type = 6,
-		trans_skin = 0,
+		trans_skin = 206019,
 		trans_type = 6,
 		handbook_type = 0,
 		redirect_id = 101,
@@ -6977,8 +7045,17 @@ pg.ship_data_group = {
 			"D",
 			"A"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"E",
+			"E",
+			"B",
+			"D",
+			"B",
+			"B"
+		},
+		trans_skill = {
+			12110
+		},
 		description = {
 			{
 				"Honor medal exchange",
@@ -14099,6 +14176,7 @@ pg.ship_data_group = {
 		5,
 		6,
 		7,
+		4,
 		406,
 		8,
 		9,
@@ -14185,6 +14263,7 @@ pg.ship_data_group = {
 		79,
 		78,
 		357,
+		380,
 		403,
 		358,
 		402,

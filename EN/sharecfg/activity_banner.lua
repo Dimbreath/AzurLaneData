@@ -3,7 +3,7 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 1,
-		pic = "temp6",
+		pic = "temp5",
 		param = {
 			"scene skinshop",
 			{}
@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2020,
 					1,
-					9
+					16
 				},
 				{
 					0,
@@ -25,7 +25,7 @@ pg.activity_banner = {
 				{
 					2020,
 					1,
-					30
+					21
 				},
 				{
 					23,
@@ -36,16 +36,19 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "30290",
-		type = 3,
+		type = 2,
 		id = 2,
-		pic = "temp13",
+		pic = "temp2",
+		param = {
+			"scene level",
+			{}
+		},
 		time = {
 			{
 				{
-					2019,
-					12,
-					19
+					2020,
+					1,
+					17
 				},
 				{
 					0,
@@ -57,7 +60,7 @@ pg.activity_banner = {
 				{
 					2020,
 					1,
-					15
+					26
 				},
 				{
 					23,

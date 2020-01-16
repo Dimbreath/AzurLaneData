@@ -133,7 +133,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没事没事，麻烦事等以后再想，先拿几个签名版去……",
+			say = "没事没事，麻烦事等以后再想，先拿几个签名板去……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

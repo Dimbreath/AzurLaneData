@@ -98,7 +98,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:6}，我们快去找标枪他们把",
+			say = "{namecode:6}，我们快去找标枪他们吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

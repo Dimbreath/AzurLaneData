@@ -5,10 +5,6 @@ function slot0.getUIName(slot0)
 	return "MilitaryExerciseUI"
 end
 
-function slot0.getBGM(slot0)
-	return "level"
-end
-
 function slot0.setShips(slot0, slot1)
 	slot0.ships = slot1
 end
