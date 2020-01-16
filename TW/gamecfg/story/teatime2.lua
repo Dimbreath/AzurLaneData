@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"热热闹闹的下午茶\n\n<size=45>二 怕寂寞的女王陛下</size>",
+					"熱熱鬧鬧的下午茶\n\n<size=45>二 怕寂寞的女王陛下</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "幸好贝法有带红茶……",
+			say = "幸好貝法有帶紅茶……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "作为一名女仆，随身携带红茶是理所当然的",
+			say = "作為一名女僕，隨身攜帶紅茶是理所當然的",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -54,7 +54,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（嘟嘴）我也是女仆啊，至、至少……编制上应该还是？",
+			say = "（嘟嘴）我也是女僕啊，至、至少……編制上應該還是？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:14}",
-			say = "品尝抹茶的醍醐味后，会更珍惜其他食物的甜蜜与温暖哟",
+			say = "品嘗抹茶的醍醐味後，會更珍惜其他食物的甜蜜與溫暖喲",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那样在抹茶之后来一杯红茶，刚好两种妙处都能品得",
+			say = "那樣在抹茶之後來一杯紅茶，剛好兩種妙處都能品得",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:13}",
-			say = "原来如此，{namecode:13}也要尝尝贝尔法斯特泡的红茶！",
+			say = "原來如此，{namecode:13}也要嘗嘗貝爾法斯特泡的紅茶！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们、你们举办茶会竟然没有邀请本王！",
+			say = "你們、你們舉辦茶會竟然沒有邀請本王！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "哎，陛下之前不是说“本王日理万机，肩挑兆民之责，哪有时间陪庶民玩闹，哼！”吗？",
+			say = "哎，陛下之前不是說“本王日理萬機，肩挑兆民之責，哪有時間陪庶民玩鬧，哼！”嗎？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -167,7 +167,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可、可你们都不在，本王一个人，很、很……哼，你们难道不欢迎我吗！",
+			say = "可、可你們都不在，本王一個人，很、很……哼，你們難道不歡迎我嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然欢迎~陛下能于百忙之中屈尊下顾我等的茶会，我等着实铭感五内，不胜荣幸~陛下，请坐这里",
+			say = "當然歡迎~陛下能于百忙之中屈尊下顧我等的茶會，我等著實銘感五內，不勝榮幸~陛下，請坐這裡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼～说回来还是贝法不好！我昨天睡前有吩咐你今日叫我起床吧！我睡到中午都是你的错！",
+			say = "哼哼～說回來還是貝法不好！我昨天睡前有吩咐你今日叫我起床吧！我睡到中午都是你的錯！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是是，女仆贝尔法斯特，对没能叫醒贪睡的陛下深感抱歉，这次失职贝尔法斯特一定铭记于心——",
+			say = "是是，女僕貝爾法斯特，對沒能叫醒貪睡的陛下深感抱歉，這次失職貝爾法斯特一定銘記於心——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "算了，如果以后每天都给本王讲睡前故事，本王就原谅你。昨晚我睡得确实有一点点晚啦，对了，茶呢？",
+			say = "算了，如果以後每天都給本王講睡前故事，本王就原諒你。昨晚我睡得確實有一點點晚啦，對了，茶呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "给～这是重樱人士特意为陛下泡制的茶，希望陛下务必能尝一尝～",
+			say = "給～這是重櫻人士特意為陛下泡制的茶，希望陛下務必能嘗一嘗～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 		},
 		{
 			blackBg = true,
-			say = "【北纬34°东经140°】",
+			say = "【北緯34°東經140°】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			blackBg = true,
 			actor = 301090,
 			actorName = "{namecode:11}",
-			say = "一个人果然还是有点……不过——忍者•{namecode:11}即便孤身一人也绝不会放弃！北方联合，我来了！",
+			say = "一個人果然還是有點……不過——忍者•{namecode:11}即便孤身一人也絕不會放棄！北方聯合，我來了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

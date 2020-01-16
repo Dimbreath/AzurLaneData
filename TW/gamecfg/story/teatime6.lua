@@ -10,13 +10,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"热热闹闹的下午茶\n\n<size=45>六 虚张声势的优雅</size>",
+					"熱熱鬧鬧的下午茶\n\n<size=45>六 虛張聲勢的優雅</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "数日前的黄昏",
+			say = "數日前的黃昏",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "小天鹅，你和爱丁堡在做什么？脸都弄脏了，来，擦一下",
+			say = "小天鵝，你和愛丁堡在做什麼？臉都弄髒了，來，擦一下",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = -1,
-			say = "啊！呀！那个……",
+			say = "啊！呀！那個……",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -65,7 +65,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们在用落叶烤红薯啦，胡德也想吃吗？",
+			say = "我們在用落葉烤番薯啦，胡德也想吃嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "烤红薯？我可以尝一尝吗？",
+			say = "烤番薯？我可以嘗一嘗嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那、那个，只是咱老家的粗劣食物，味道比起贝尔法斯特的点心差远了，而且……",
+			say = "那、那個，只是咱老家的粗劣食物，味道比起貝爾法斯特的點心差遠了，而且……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "胡德，这是刚刚烤好的",
+			say = "胡德，這是剛剛烤好的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你吃的时候也没有洗吧，没关系，用原汁原味的吃法就好",
+			say = "你吃的時候也沒有洗吧，沒關係，用原汁原味的吃法就好",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那、那个，会弄脏……",
+			say = "那、那個，會弄髒……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？是会弄脏手啦，不过，这也是这种食物的乐趣之一嘛。小天鹅，你该不会……",
+			say = "嗯？是會弄髒手啦，不過，這也是這種食物的樂趣之一嘛。小天鵝，你該不會……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "……那、那个，味道怎么样！？",
+			say = "……那、那個，味道怎麼樣！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……很好吃哟，香甜得恰到好处~",
+			say = "嗯……很好吃喲，香甜得恰到好處~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "是、是吗，咱原以为烤红薯，是和胡德姐姐这样优雅的人无缘呢……",
+			say = "是、是嗎，咱原以為烤番薯，是和胡德姐姐這樣優雅的人無緣呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（轻笑）你究竟是怎么看待我的啊。如果优雅就不能亲手剥开红薯，那那种优雅——一定只是虚张声势而已",
+			say = "（輕笑）你究竟是怎麼看待我的啊。如果優雅就不能親手剝開番薯，那那種優雅——一定只是虛張聲勢而已",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错没错！胡德，我来教你怎么烤~",
+			say = "沒錯沒錯！胡德，我來教你怎麼烤~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝法死活不肯陪我出来烤红薯！真是的，如果她能像你一样善解人意——",
+			say = "貝法死活不肯陪我出來烤番薯！真是的，如果她能像你一樣善解人意——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝尔法斯特小姐啊，她心中牵挂着太多东西……",
+			say = "貝爾法斯特小姐啊，她心中牽掛著太多東西……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是吗？作为姐姐，我可看不出来",
+			say = "是嗎？作為姐姐，我可看不出來",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大概因为贝尔法斯特小姐，和你在一起的时候最为放松吧",
+			say = "大概因為貝爾法斯特小姐，和你在一起的時候最為放鬆吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是吗……嘿嘿，真没办法，多给贝法带回去几个红薯好了——",
+			say = "是嗎……嘿嘿，真沒辦法，多給貝法帶回去幾個番薯好了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那、那个……凉了的烤红薯不好吃的……",
+			say = "那、那個……涼了的烤番薯不好吃的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			}
 		},
 		{
-			say = "回到茶会中——",
+			say = "回到茶會中——",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -378,7 +378,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "落叶不知觉间又在庭院中堆积起来了……",
+			say = "落葉不知覺間又在庭院中堆積起來了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "毕竟秋天是落叶的季节嘛",
+			say = "畢竟秋天是落葉的季節嘛",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -412,7 +412,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "落叶的季节……原来如此，我们来烤红薯吧！",
+			say = "落葉的季節……原來如此，我們來烤番薯吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "烤红薯？终于要轮到爱丁堡大人大显身手了！\t",
+			say = "烤番薯？終於要輪到愛丁堡大人大顯身手了！\t",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这和下午茶一点都不配吧",
+			say = "這和下午茶一點都不配吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "在没人会做茶点也没人愿意出门买点心的时候，烤红薯可是最简便易行的茶点！",
+			say = "在沒人會做茶點也沒人願意出門買點心的時候，烤番薯可是最簡便易行的茶點！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝法你也来嘛～把叶子聚到一起，呼一下火就升起来啦",
+			say = "貝法你也來嘛～把葉子聚到一起，呼一下火就升起來啦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳，这些烟……真是——",
+			say = "咳咳，這些煙……真是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝法，看起来很好玩，我们也烤吧！",
+			say = "貝法，看起來很好玩，我們也烤吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "下午茶的礼仪——",
+			say = "下午茶的禮儀——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳、这叫与民同乐，与民同乐啦。嗯，偶尔也得配合一下庶民的兴趣呢~",
+			say = "咳咳、這叫與民同樂，與民同樂啦。嗯，偶爾也得配合一下庶民的興趣呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下，我来教你怎么烤~",
+			say = "陛下，我來教你怎麼烤~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 		},
 		{
 			blackBg = true,
-			say = "【南纬71°西经100°】",
+			say = "【南緯71°西經100°】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			blackBg = true,
 			actor = 301090,
 			actorName = "{namecode:11}",
-			say = "被冰雪覆盖的大陆……果然地图没错，这里就是北方联合！{namecode:12}，放心吧，姐姐已经来了！",
+			say = "被冰雪覆蓋的大陸……果然地圖沒錯，這裡就是北方聯合！{namecode:12}，放心吧，姐姐已經來了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

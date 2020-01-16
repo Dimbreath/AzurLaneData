@@ -233,7 +233,7 @@ pg.box_data_template = {
 		effect_id = 5
 	},
 	[10001] = {
-		activity_id = 0,
+		activity_id = 40045,
 		name = "拼圖箱",
 		type = 1,
 		id = 10001,
@@ -241,7 +241,7 @@ pg.box_data_template = {
 		effect_id = 8106
 	},
 	[10002] = {
-		activity_id = 0,
+		activity_id = 40045,
 		name = "拼圖箱",
 		type = 1,
 		id = 10002,
@@ -249,7 +249,7 @@ pg.box_data_template = {
 		effect_id = 8107
 	},
 	[10003] = {
-		activity_id = 0,
+		activity_id = 40045,
 		name = "拼圖箱",
 		type = 1,
 		id = 10003,
@@ -257,7 +257,7 @@ pg.box_data_template = {
 		effect_id = 8108
 	},
 	[10004] = {
-		activity_id = 0,
+		activity_id = 40045,
 		name = "拼圖箱",
 		type = 1,
 		id = 10004,
@@ -265,7 +265,7 @@ pg.box_data_template = {
 		effect_id = 8109
 	},
 	[10005] = {
-		activity_id = 0,
+		activity_id = 40045,
 		name = "拼圖箱",
 		type = 1,
 		id = 10005,
@@ -273,7 +273,7 @@ pg.box_data_template = {
 		effect_id = 8110
 	},
 	[10006] = {
-		activity_id = 0,
+		activity_id = 40045,
 		name = "拼圖箱",
 		type = 1,
 		id = 10006,
@@ -281,7 +281,7 @@ pg.box_data_template = {
 		effect_id = 8111
 	},
 	[10007] = {
-		activity_id = 0,
+		activity_id = 40045,
 		name = "拼圖箱",
 		type = 1,
 		id = 10007,
@@ -289,7 +289,7 @@ pg.box_data_template = {
 		effect_id = 8112
 	},
 	[10008] = {
-		activity_id = 0,
+		activity_id = 40045,
 		name = "拼圖箱",
 		type = 1,
 		id = 10008,

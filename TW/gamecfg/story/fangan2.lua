@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官幸苦了喵！",
+			say = "指揮官幸苦了喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "经历了漫长的研究，还有不懈的努力…终于…迎来了第一位特别的同伴喵！",
+			say = "經歷了漫長的研究，還有不懈的努力…終於…迎來了第一位特別的同伴喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但、但是对【心智魔方】的研究还有很长的一段路要走喵……",
+			say = "但、但是對【心智魔方】的研究還有很長的一段路要走喵……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然成功具现化出了新的强力同伴，但是…她们的状态还不是最完美的喵…",
+			say = "雖然成功具現化出了新的強力同伴，但是…她們的狀態還不是最完美的喵…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只有进一步强化对她们的【认知】，才能逐步令她们变成最完美的状态喵！",
+			say = "只有進一步強化對她們的【認知】，才能逐步令她們變成最完美的狀態喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "通过【研发】收集与她们相关的【蓝图】，使用收集到的【蓝图】对她们进行进一步的【开发】喵！",
+			say = "通過【研發】收集與她們相關的【藍圖】，使用收集到的【藍圖】對她們進行進一步的【開發】喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然…研究室的各位也会持续对这些课题进行研究的喵！大家一起努力喵！",
+			say = "當然…研究室的各位也會持續對這些課題進行研究的喵！大家一起努力喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有需要的东西尽管来找{namecode:98}喵，小店随时为指挥官提供帮助喵～",
+			say = "有需要的東西儘管來找{namecode:98}喵，小店隨時為指揮官提供幫助喵～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

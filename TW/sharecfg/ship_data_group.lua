@@ -6847,7 +6847,7 @@ pg.ship_data_group = {
 	},
 	[233] = {
 		type = 1,
-		trans_skin = 0,
+		trans_skin = 401019,
 		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
@@ -6864,8 +6864,17 @@ pg.ship_data_group = {
 			"D",
 			"D"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"B",
+			"D"
+		},
+		trans_skill = {
+			12280
+		},
 		description = {
 			{
 				"榮譽勳章兌換（機率刷新）",
@@ -7124,7 +7133,7 @@ pg.ship_data_group = {
 	},
 	[239] = {
 		type = 2,
-		trans_skin = 0,
+		trans_skin = 402029,
 		trans_type = 2,
 		handbook_type = 0,
 		redirect_id = 101,
@@ -7141,8 +7150,17 @@ pg.ship_data_group = {
 			"C",
 			"C"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_skill = {
+			2111
+		},
 		description = {
 			{
 				"榮譽勳章兌換（機率刷新）",
@@ -7234,7 +7252,7 @@ pg.ship_data_group = {
 	},
 	[241] = {
 		type = 2,
-		trans_skin = 0,
+		trans_skin = 402049,
 		trans_type = 2,
 		handbook_type = 0,
 		redirect_id = 101,
@@ -7251,8 +7269,17 @@ pg.ship_data_group = {
 			"C",
 			"C"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		trans_skill = {
+			12290
+		},
 		description = {
 			{
 				"收藏解鎖",
@@ -7598,6 +7625,210 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[20001] = {
+		type = 2,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		nationality = 2,
+		hide = 0,
+		index_id = 20001,
+		group_type = 29901,
+		code = 20001,
+		property_hexagon = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"A",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"科研開發",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 29901
+					}
+				},
+				0
+			}
+		}
+	},
+	[20002] = {
+		type = 5,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		nationality = 2,
+		hide = 0,
+		index_id = 20002,
+		group_type = 29902,
+		code = 20002,
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"D",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"科研開發",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 29902
+					}
+				},
+				0
+			}
+		}
+	},
+	[20003] = {
+		type = 3,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 20003,
+		group_type = 39901,
+		code = 20003,
+		property_hexagon = {
+			"A",
+			"B",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"科研開發",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 39901
+					}
+				},
+				0
+			}
+		}
+	},
+	[20004] = {
+		type = 5,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 20004,
+		group_type = 39902,
+		code = 20004,
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"D",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"科研開發",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 39902
+					}
+				},
+				0
+			}
+		}
+	},
+	[20005] = {
+		type = 3,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		nationality = 4,
+		hide = 0,
+		index_id = 20005,
+		group_type = 49901,
+		code = 20005,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"B",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"科研開發",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 49901
+					}
+				},
+				0
+			}
+		}
+	},
+	[20006] = {
+		type = 3,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		nationality = 8,
+		hide = 0,
+		index_id = 20006,
+		group_type = 89901,
+		code = 20006,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"B",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"科研開發",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 89901
+					}
+				},
+				0
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -7765,7 +7996,13 @@ pg.ship_data_group = {
 		252,
 		258,
 		259,
-		262
+		262,
+		20001,
+		20002,
+		20003,
+		20004,
+		20005,
+		20006
 	}
 }
 

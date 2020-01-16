@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"热热闹闹的下午茶\n\n<size=45>七 下一次是电动会！？</size>",
+					"熱熱鬧鬧的下午茶\n\n<size=45>七 下一次是電動會！？</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝法也来尝尝嘛～新鲜出炉的烤红薯～",
+			say = "貝法也來嘗嘗嘛～新鮮出爐的烤番薯～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "不要，请不要把别人不喜欢吃的食物硬塞给她！",
+			say = "不要，請不要把別人不喜歡吃的食物硬塞給她！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -54,7 +54,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝法，我烤的红薯为什么变成碳了啊，呜呜~",
+			say = "貝法，我烤的番薯為什麼變成碳了啊，嗚嗚~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下不必介意，以第一次烤而言，陛下已经做得很好了",
+			say = "陛下不必介意，以第一次烤而言，陛下已經做得很好了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可贝法也是第一次烤啊……",
+			say = "可貝法也是第一次烤啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，陛下，我们交换一下红薯吧",
+			say = "那麼，陛下，我們交換一下番薯吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝法烤的真香~你也尝尝自己烤的红薯嘛",
+			say = "貝法烤的真香~你也嘗嘗自己烤的番薯嘛",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝法，我以女王的身份命令你，张开嘴，啊——",
+			say = "貝法，我以女王的身份命令你，張開嘴，啊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真没办法……",
+			say = "真沒辦法……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下真狡猾，我也要喂贝法！",
+			say = "陛下真狡猾，我也要餵貝法！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "阿啦，你们也想被喂吗？",
+			say = "阿啦，你們也想被餵嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			}
 		},
 		{
-			say = "对不起，请免了，绝对不要——",
+			say = "對不起，請免了，絕對不要——",
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			actor = 207020,
 			nameColor = "#a9f548",
-			say = "呀，已经到驱逐舰们回港的时间了。抱歉，我先走一步了~",
+			say = "呀，已經到驅逐艦們回港的時間了。抱歉，我先走一步了~",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -277,7 +277,7 @@ return {
 			}
 		},
 		{
-			say = "一、一晃眼就消失了，皇家的航空母舰，真是深不可测",
+			say = "一、一晃眼就消失了，皇家的航空母艦，真是深不可測",
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -301,7 +301,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哈哈，这里还有一位皇家的航空母舰哟",
+			say = "哈哈，這裡還有一位皇家的航空母艦喲",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:14}",
-			say = "这位倒也有一个深不可测的地方……",
+			say = "這位倒也有一個深不可測的地方……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "差不多也要到准备晚餐的时间了……",
+			say = "差不多也要到準備晚餐的時間了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正好本王也有些公务要处理——",
+			say = "正好本王也有些公務要處理——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那么，今天就到此为止吧",
+			say = "那麼，今天就到此為止吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:14}",
-			say = "{namecode:14}诚心诚意地期待着下一次茶会哟~",
+			say = "{namecode:14}誠心誠意地期待著下一次茶會喲~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			side = 1,
 			dir = -1,
 			actorName = "{namecode:13}",
-			say = "下一次，我们举办电动会吧，带上长岛小姐——",
+			say = "下一次，我們舉辦電動會吧，帶上長島小姐——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:14}",
-			say = "绝对不——要！",
+			say = "絕對不——要！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 		},
 		{
 			blackBg = true,
-			say = "【南纬71°31′34″东经24°08′17″】",
+			say = "【南緯71°31′34″東經24°08′17″】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			blackBg = true,
 			actor = 301090,
 			actorName = "{namecode:11}",
-			say = "完全没有{namecode:12}生活过的痕迹……咦，这里好像有文字？南极飞鸟考察站，毛德皇后地——",
+			say = "完全沒有{namecode:12}生活過的痕跡……咦，這裡好像有文字？南極飛鳥考察站，毛德皇后地——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -35,6 +35,7 @@ slot5 = {
 	"word_shipNation_tieXue",
 	"word_shipNation_dongHuang",
 	"word_shipNation_beiLian",
+	"word_shipNation_ziyou",
 	"word_shipNation_other"
 }
 slot6 = {

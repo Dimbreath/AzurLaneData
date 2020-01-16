@@ -4268,6 +4268,60 @@ pg.shop_template = {
 			}
 		}
 	},
+	[60146] = {
+		group_type = 0,
+		resource_num = 500,
+		desc = "500鑽石購買傢俱幣禮包",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60146,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				2
+			}
+		},
+		effect_args = {
+			40106
+		},
+		time = {
+			{
+				{
+					2020,
+					1,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[61001] = {
 		group_type = 0,
 		resource_num = 200,
@@ -5437,6 +5491,78 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70021] = {
+		group_type = 0,
+		resource_num = 800,
+		desc = "購買造型:下午茶光輝",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 1,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70021,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			207031
+		}
+	},
+	[70022] = {
+		group_type = 0,
+		resource_num = 650,
+		desc = "購買造型:下午茶雷",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 2,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70022,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			301111
+		}
+	},
+	[70023] = {
+		group_type = 0,
+		resource_num = 650,
+		desc = "購買造型:下午茶電",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 2,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70023,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			301121
+		}
+	},
 	[70024] = {
 		group_type = 0,
 		resource_num = 780,
@@ -5739,9 +5865,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 1,
 		time_second = 0,
-		order = 4,
+		order = 12,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -5788,9 +5914,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 1,
 		time_second = 0,
-		order = 5,
+		order = 13,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -5837,9 +5963,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 1,
 		time_second = 0,
-		order = 3,
+		order = 12,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -5886,9 +6012,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 1,
 		time_second = 0,
-		order = 3,
+		order = 12,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -5935,9 +6061,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 1,
 		time_second = 0,
-		order = 5,
+		order = 13,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -5984,9 +6110,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 1,
 		time_second = 0,
-		order = 3,
+		order = 12,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -6033,9 +6159,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 1,
 		time_second = 0,
-		order = 4,
+		order = 12,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -7584,6 +7710,7 @@ pg.shop_template = {
 		60005,
 		60007,
 		60114,
+		60146,
 		61001,
 		61002,
 		61003,
@@ -7611,6 +7738,9 @@ pg.shop_template = {
 		70018,
 		70019,
 		70020,
+		70021,
+		70022,
+		70023,
 		70024,
 		70025,
 		70026,

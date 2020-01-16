@@ -12,7 +12,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官~终于找到你了喵！",
+			say = "指揮官~終於找到你了喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里这里，快来，有个厉害的东西要给你看喵！",
+			say = "這裡這裡，快來，有個厲害的東西要給你看喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "面对近来发生的诸多事件，以及塞壬强大的科技力，司令部一直感到十分担忧喵……",
+			say = "面對近來發生的諸多事件，以及塞壬強大的科技力，司令部一直感到十分擔憂喵……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以对【心智魔方】的黑箱解密工作也提高了优先级喵！于是——",
+			say = "所以對【心智魔方】的黑箱解密工作也提高了優先順序喵！於是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "锵锵锵~在指挥官的努力和{namecode:98}的支援下~港区专用的「开发船坞」和「科研室」已经提前建设完工啦喵！",
+			say = "鏘鏘鏘~在指揮官的努力和{namecode:98}的支援下~港區專用的「開發船塢」和「科研室」已經提前建設完工啦喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家都知道~数十年前伴随着“塞壬”一起出现的【心智魔方】，拥有赋予“舰船”思考能力与人类形态的作用",
+			say = "大家都知道~數十年前伴隨著“塞壬”一起出現的【心智魔方】，擁有賦予“艦船”思考能力與人類形態的作用",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们依靠它们带来的科技勉强维持着生态圈，然而这样的进展并不能改变现状喵…",
+			say = "我們依靠它們帶來的科技勉強維持著生態圈，然而這樣的進展並不能改變現狀喵…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "【心智魔方】所具象化的，是不特定的多数人群对于某一件事物的认知集合，也就是所谓的「思念体」喵！",
+			say = "【心智魔方】所具象化的，是不特定的多數人群對於某一件事物的認知集合，也就是所謂的「思念體」喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "理论上，就算是实际上不存在「舰历」的方案舰，只要收集到足够多的设计图和人类对她们的认知，她们也是能够被具象化的喵！",
+			say = "理論上，就算是實際上不存在「艦曆」的方案艦，只要收集到足夠多的設計圖和人類對她們的認知，她們也是能夠被具象化的喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“具现的具体原理”…？很、很遗憾，现在还是未解之谜喵……",
+			say = "“具現的具體原理”…？很、很遺憾，現在還是未解之謎喵……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过~这也是科研室未来的目标之一喵！这里集结着来自各大阵营的精英喵！",
+			say = "不過~這也是科研室未來的目標之一喵！這裡集結著來自各大陣營的精英喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "相信通过大家的的共同努力，迟早可以完全解开【心智魔方】的谜团喵！",
+			say = "相信通過大家的的共同努力，遲早可以完全解開【心智魔方】的謎團喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然，{namecode:98}的小店还是离不开指挥官的继续支持喵~所以，之后还请多多关照喵！",
+			say = "當然，{namecode:98}的小店還是離不開指揮官的繼續支持喵~所以，之後還請多多關照喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
