@@ -9978,6 +9978,17 @@ pg.ship_data_group = {
 		},
 		description = {
 			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			},
+			{
 				"限时活动：红染的参访者",
 				{
 					""
@@ -13746,9 +13757,13 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时建造",
+				"进行轻型舰建造",
 				{
-					""
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}

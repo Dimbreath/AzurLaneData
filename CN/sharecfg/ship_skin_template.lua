@@ -54255,6 +54255,116 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[302202] = {
+		ship_group = 30220,
+		name = "约会游戏？",
+		bg_sp = "",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "”真巧啊，你也是来散步的吗？呵呵，我的名字叫做{namecode:49}，你呢？“……真是的，指挥官，认真一点，我们现在可是在玩邂逅游戏呢，你要假装不认识我才行~",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "aheye_2",
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		hand_id = 2,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "113",
+		skin_type = 0,
+		id = 302202,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "aheye_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70299,
+		voice_actor = 132,
+		air_bomb_skin = "",
+		illustrator = 41,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.2,
+					1.07,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.14,
+					0.97,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.03,
+					0.002,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.99,
+					1.08,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.51,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[302210] = {
 		ship_group = 30221,
 		name = "{namecode:50}",
@@ -54951,7 +55061,7 @@ pg.ship_skin_template = {
 	},
 	[303030] = {
 		ship_group = 30303,
-		name = "青叶",
+		name = "{namecode:55}",
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,
@@ -55072,7 +55182,7 @@ pg.ship_skin_template = {
 	},
 	[303040] = {
 		ship_group = 30304,
-		name = "衣笠",
+		name = "{namecode:56}",
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,
@@ -55193,7 +55303,7 @@ pg.ship_skin_template = {
 	},
 	[303070] = {
 		ship_group = 30307,
-		name = "妙高",
+		name = "{namecode:63}",
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,
@@ -55314,7 +55424,7 @@ pg.ship_skin_template = {
 	},
 	[303080] = {
 		ship_group = 30308,
-		name = "那智",
+		name = "{namecode:64}",
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,
@@ -57040,7 +57150,7 @@ pg.ship_skin_template = {
 	},
 	[303170] = {
 		ship_group = 30317,
-		name = "铃谷",
+		name = "{namecode:59}",
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,
@@ -98130,7 +98240,8 @@ pg.ship_skin_template = {
 		},
 		[30220] = {
 			302200,
-			302201
+			302201,
+			302202
 		},
 		[30214] = {
 			302140
@@ -99591,6 +99702,7 @@ pg.ship_skin_template = {
 		302140,
 		302200,
 		302201,
+		302202,
 		302210,
 		302211,
 		303010,
