@@ -28,7 +28,6 @@ end
 
 function slot2.Fire(slot0)
 	slot0.super.Fire(slot0)
-	slot0._playerTorpedoVO:Deduct(slot0)
 
 	return true
 end
@@ -48,6 +47,11 @@ end
 function slot2.EnterCoolDown(slot0)
 	slot0.super.EnterCoolDown(slot0)
 	slot0._playerTorpedoVO:Charge(slot0)
+end
+
+function slot2.OverHeat(slot0)
+	slot0.super.OverHeat(slot0)
+	slot0._playerTorpedoVO:Deduct(slot0)
 end
 
 function slot2.handleCoolDown(slot0)
