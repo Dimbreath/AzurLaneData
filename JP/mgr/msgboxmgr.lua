@@ -8,8 +8,10 @@ pg.MsgboxMgr.BUTTON_RETREAT = 5
 pg.MsgboxMgr.BUTTON_PREPAGE = 6
 pg.MsgboxMgr.BUTTON_NEXTPAGE = 7
 pg.MsgboxMgr.BUTTON_BLUE_WITH_ICON = 8
-pg.MsgboxMgr.TITLE_GET_ITEMS = "get_items"
 pg.MsgboxMgr.TITLE_INFORMATION = "infomation"
+pg.MsgboxMgr.TITLE_SETTING = "setting"
+pg.MsgboxMgr.TITLE_WARNING = "warning"
+pg.MsgboxMgr.TITLE_OBTAIN = "obtain"
 pg.MsgboxMgr.TEXT_CANCEL = "text_cancel"
 pg.MsgboxMgr.TEXT_CONFIRM = "text_confirm"
 MSGBOX_TYPE_NORMAL = 1
@@ -20,6 +22,7 @@ MSGBOX_TYPE_DROP_ITEM = 5
 MSGBOX_TYPE_ITEM_BOX = 6
 MSGBOX_TYPE_HELP = 7
 MSGBOX_TYPE_SECONDPWD = 8
+MSGBOX_TYPE_OBTAIN = 9
 pg.MsgboxMgr.enable = false
 slot2 = require("Mgr.const.MsgboxBtnNameMap")
 
@@ -32,34 +35,33 @@ function pg.MsgboxMgr.Init(slot0, slot1)
 
 		slot0._tf = slot0._go.transform
 
-		slot0._go.transform:SetParent(slot0.UIMgr.GetInstance().OverlayMain.transform, false)
+		slot0._tf:SetParent(slot0.UIMgr.GetInstance().OverlayMain.transform, false)
 
-		slot0._window = slot0._go.transform:Find("window")
+		slot0._window = slot0._tf:Find("window")
 
 		setActive(slot0._window, true)
 
-		slot0._btnContainer = slot0._go.transform:Find("window/button_container")
-		slot0._msgPanel = slot0._go.transform:Find("window/content")
-		slot0._itemPanel = slot0._go.transform:Find("window/items")
-		slot0.itemsText = slot0._go.transform:Find("window/items/Text"):GetComponent(typeof(Text))
-		slot0._sigleItemPanel = slot0._go.transform:Find("window/single_item_panel")
-		slot0._exchangeShipPanel = slot0._go.transform:Find("window/exchange_ship_panel")
-		slot0._SingleItemshipTypeTF = findTF(slot0._sigleItemPanel, "ship_type")
-		slot0._SingleItemshipTypeBgTF = findTF(slot0._sigleItemPanel, "ship_type_bg")
-		slot0._itemListItemTpl = slot0._go.transform:Find("window/items/scrollview/item")
-		slot0._itemListItemContainer = slot0._go.transform:Find("window/items/scrollview/list")
-		slot0._top = slot0._tf:Find("window/top")
+		slot0._top = slot0._window:Find("top")
 		slot0._titleList = slot0._top:Find("bg")
 		slot0._closeBtn = slot0._top:Find("btnBack")
-		slot0.contentText = slot0._go.transform:Find("window/content"):GetComponent("RichText")
-		slot0._res = slot0._go.transform:Find("res")
+		slot0._res = slot0._tf:Find("res")
+		slot0._msgPanel = slot0._window:Find("msg_panel")
+		slot0.contentText = slot0._msgPanel:Find("content"):GetComponent("RichText")
 
 		slot0.contentText:AddSprite("diamond", slot0._res:Find("diamond"):GetComponent(typeof(Image)).sprite)
 		slot0.contentText:AddSprite("gold", slot0._res:Find("gold"):GetComponent(typeof(Image)).sprite)
 		slot0.contentText:AddSprite("oil", slot0._res:Find("oil"):GetComponent(typeof(Image)).sprite)
 
+		slot0._exchangeShipPanel = slot0._window:Find("exchange_ship_panel")
+		slot0._itemPanel = slot0._window:Find("item_panel")
+		slot0._itemsText = slot0._itemPanel:Find("Text"):GetComponent(typeof(Text))
+		slot0._itemListItemTpl = slot0._itemPanel:Find("scrollview/item")
+		slot0._itemListItemContainer = slot0._itemPanel:Find("scrollview/list")
+		slot0._sigleItemPanel = slot0._window:Find("single_item_panel")
+		slot0._singleItemshipTypeTF = slot0._sigleItemPanel:Find("name_mode/ship_type")
+		slot0._singleItemshipTypeBgTF = slot0._sigleItemPanel:Find("name_mode/ship_type_bg")
 		slot0.singleItemIntros = {}
-		slot0.singleItemIntro = slot0._tf:Find("window/single_item_panel/name_mode/intro_view/Viewport/Content/intro")
+		slot0.singleItemIntro = slot0._sigleItemPanel:Find("intro_view/Viewport/Content/intro")
 		slot0.singleItemIntroTF = slot0.singleItemIntro:GetComponent("RichText")
 
 		slot0.singleItemIntroTF:AddSprite("diamond", slot0._res:Find("diamond"):GetComponent(typeof(Image)).sprite)
@@ -67,40 +69,40 @@ function pg.MsgboxMgr.Init(slot0, slot1)
 		slot0.singleItemIntroTF:AddSprite("oil", slot0._res:Find("oil"):GetComponent(typeof(Image)).sprite)
 		table.insert(slot0.singleItemIntros, slot0.singleItemIntro)
 
-		slot0._inputPanel = slot0._go.transform:Find("window/input_panel")
+		slot0._inputPanel = slot0._window:Find("input_panel")
 		slot0._inputTitle = slot0._inputPanel:Find("label"):GetComponent(typeof(Text))
 		slot0._inputTF = slot0._inputPanel:Find("InputField")
 		slot0._inputField = slot0._inputTF:GetComponent(typeof(InputField))
 		slot0._placeholderTF = slot0._inputTF:Find("Placeholder"):GetComponent(typeof(Text))
 		slot0._inputConfirmBtn = slot0._inputPanel:Find("btns/confirm_btn")
 		slot0._inputCancelBtn = slot0._inputPanel:Find("btns/cancel_btn")
-		slot0._textPics = slot0._go.transform:Find("text")
-		slot0._helpPanel = slot0._go.transform:Find("window/help_panel")
-		slot0._helpBgTF = slot0._go.transform:Find("bg_help")
-		slot0._helpList = slot0._helpPanel.transform:Find("list")
-		slot0._helpTpl = slot0._helpPanel.transform:Find("list/help_tpl")
-		slot0._sliders = slot0._go.transform:Find("window/sliders")
+		slot0._helpPanel = slot0._window:Find("help_panel")
+		slot0._helpBgTF = slot0._tf:Find("bg_help")
+		slot0._helpList = slot0._helpPanel:Find("list")
+		slot0._helpTpl = slot0._helpPanel:Find("list/help_tpl")
+		slot0._obtainPanel = slot0._window:Find("obtain_panel")
+		slot0._otherPanel = slot0._window:Find("other_panel")
+		slot0._countSelect = slot0._window:Find("count_select")
+		slot0._pageUtil = PageUtil.New(slot0._countSelect:Find("value_bg/left"), slot0._countSelect:Find("value_bg/right"), slot0._countSelect:Find("max"), slot0._countSelect:Find("value_bg/value"))
+		slot0._countDescTxt = slot0._countSelect:Find("desc_txt")
+		slot0._sliders = slot0._window:Find("sliders")
+		slot0._discountInfo = slot0._sliders:Find("discountInfo")
+		slot0._discountDate = slot0._sliders:Find("discountDate")
+		slot0._discount = slot0._sliders:Find("discountInfo/discount")
+		slot0._strike = slot0._sliders:Find("strike")
+		slot0._scrollTxts = {}
+		slot0.stopRemindToggle = slot0._window:Find("stopRemind"):GetComponent(typeof(Toggle))
+		slot0.stopRemindText = tf(slot0.stopRemindToggle.gameObject):Find("Label"):GetComponent(typeof(Text))
+		slot0._btnContainer = slot0._window:Find("button_container")
 		slot0._defaultSize = Vector2(930, 620)
 		slot0._defaultHelpSize = Vector2(870, 480)
 		slot0._defaultHelpPos = Vector2(0, -40)
-		slot0._discountInfo = slot0._sliders.transform:Find("discountInfo")
-		slot0._discountDate = slot0._sliders.transform:Find("discountDate")
-		slot0._discount = slot0._sliders.transform:Find("discountInfo/discount")
-		slot0._strike = slot0._go.transform:Find("window/strike")
-		slot0._scrollTxts = {}
-		slot0._countSelect = slot0._sigleItemPanel:Find("count_select")
-		slot0._pageUtil = PageUtil.New(slot0._countSelect:Find("value_bg/left"), slot0._countSelect:Find("value_bg/right"), slot0._countSelect:Find("max"), slot0._countSelect:Find("value_bg/value"))
-		slot0._countDescTxt = slot0._countSelect:Find("desc_txt")
-		slot0.stopRemindInitPos = slot0._tf:Find("window/stopRemind").anchoredPosition
-		slot0.stopRemindToggle = slot0._tf:Find("window/stopRemind"):GetComponent(typeof(Toggle))
-		slot0.stopRemindText = tf(slot0.stopRemindToggle.gameObject):Find("Label"):GetComponent(typeof(Text))
 
 		onButton(nil, slot0._inputCancelBtn, function ()
 			slot0:hide()
 		end, SFX_CANCEL)
 		onButton(nil, slot0._closeBtn, function ()
-			print("点击1")
-			print:hide()
+			slot0:hide()
 		end, SFX_CANCEL)
 		onButton(nil, slot0._inputConfirmBtn, function ()
 			if slot0.settings.onYes then
@@ -122,22 +124,8 @@ function pg.MsgboxMgr.getMsgBoxOb(slot0)
 end
 
 function slot3(slot0, slot1)
-	if slot0._go.activeSelf then
-		slot0:Clear()
-	end
-
-	rtf(slot0._window).sizeDelta = slot0._defaultSize
-	rtf(slot0._helpPanel).sizeDelta = slot0._defaultHelpSize
-
-	setAnchoredPosition(slot0._window, {
-		x = 0,
-		y = 0
-	})
 	slot0:commonSetting(slot1)
-	SetActive(slot0._itemPanel, false)
 	SetActive(slot0._msgPanel, true)
-	SetActive(slot0._sigleItemPanel, false)
-	setActive(slot0._inputPanel, false)
 
 	slot0.contentText.alignment = slot0.settings.alignment or TextAnchor.MiddleCenter
 	slot0.contentText.fontSize = slot0.settings.fontSize or 36
@@ -147,24 +135,9 @@ function slot3(slot0, slot1)
 end
 
 function slot4(slot0, slot1)
-	slot0.enable = true
-
 	slot0:commonSetting(slot1)
-	slot0.DelegateInfo.New(slot0)
-
-	slot0.settings = slot1
-
-	setActive(slot0._btnContainer, false)
-	setActive(slot0.stopRemindToggle, false)
-	SetActive(slot0._go, true)
-	SetActive(slot0._itemPanel, false)
-	SetActive(slot0._msgPanel, false)
-	SetActive(slot0._sigleItemPanel, false)
-	setActive(slot0._helpPanel, false)
 	setActive(slot0._inputPanel, true)
-	SetActive(slot0._discountDate, false)
-	SetActive(slot0._strike, false)
-	SetActive(slot0._discountInfo, false)
+	setActive(slot0._btnContainer, false)
 	slot0._inputPanel:SetAsLastSibling()
 
 	slot0._inputTitle.text = slot1.title or ""
@@ -172,34 +145,25 @@ function slot4(slot0, slot1)
 	slot0._inputField.characterLimit = slot1.limit or 0
 
 	setActive(slot0._inputCancelBtn, not slot1.onNo)
-	slot0:updateButton(slot0._inputCancelBtn, slot1.noText or slot1.TEXT_CANCEL)
-	slot0:updateButton(slot0._inputConfirmBtn, slot1.yesText or slot1.TEXT_CONFIRM)
+	slot0:updateButton(slot0._inputCancelBtn, slot1.noText or slot0.TEXT_CANCEL)
+	slot0:updateButton(slot0._inputConfirmBtn, slot1.yesText or slot0.TEXT_CONFIRM)
 	slot0._tf:SetAsLastSibling()
 	onButton(slot0, slot0._closeBtn, function ()
-		print("点击2")
-		print:hide()
+		slot0:hide()
 	end, SFX_CANCEL)
 	slot0:Loaded(slot1)
 end
 
 function slot5(slot0, slot1)
-	rtf(slot0._window).sizeDelta = slot0._defaultSize
-
 	slot0:commonSetting(slot1)
 	SetActive(slot0._exchangeShipPanel, true)
-	SetActive(slot0._itemPanel, false)
-	SetActive(slot0._msgPanel, false)
-	setActive(slot0._inputPanel, false)
-	setActive(slot0._tf:Find("window/exchange_ship_panel/line_mode"), false)
-	setActive(slot0._tf:Find("window/exchange_ship_panel/name_mode"), false)
 	setActive(findTF(slot0._exchangeShipPanel, "icon_bg/own"), false)
-	updateDrop(slot0._tf:Find("window/exchange_ship_panel"), slot1.drop)
-	setActive(slot0._tf:Find("window/exchange_ship_panel/name_mode"), true)
-	SetActive(slot0._tf:Find("window/exchange_ship_panel/name_mode/intro_view/Viewport/intro"), slot1.drop.type == DROP_TYPE_SHIP or slot1.drop.type == DROP_TYPE_RESOURCE or slot1.drop.type == DROP_TYPE_ITEM or slot1.drop.type == DROP_TYPE_FURNITURE or slot1.drop.type == DROP_TYPE_STRATEGY or slot1.drop.type == DROP_TYPE_SKIN)
+	updateDrop(slot0._exchangeShipPanel, slot1.drop)
+	SetActive(slot0._exchangeShipPanel:Find("intro_view/Viewport/intro"), slot1.drop.type == DROP_TYPE_SHIP or slot1.drop.type == DROP_TYPE_RESOURCE or slot1.drop.type == DROP_TYPE_ITEM or slot1.drop.type == DROP_TYPE_FURNITURE or slot1.drop.type == DROP_TYPE_STRATEGY or slot1.drop.type == DROP_TYPE_SKIN)
 	setActive(slot0.singleItemIntro, slot0.settings.numUpdate == nil)
 	setActive(slot0._countDescTxt, SetActive ~= nil)
-	setText(slot0._tf:Find("window/exchange_ship_panel/name_mode/name"), HXSet.hxLan(slot1.name or slot1.drop.cfg.name or ""))
-	setText(slot0._tf:Find("window/exchange_ship_panel/name_mode/name/name"), getText(slot0._tf:Find("window/exchange_ship_panel/name_mode/name")))
+	setText(slot0._exchangeShipPanel:Find("name_mode/name"), HXSet.hxLan(slot1.name or slot1.drop.cfg.name or ""))
+	setText(slot0._exchangeShipPanel:Find("name_mode/name/name"), getText(slot0._exchangeShipPanel:Find("name_mode/name")))
 
 	slot5, slot6, slot7 = ShipWordHelper.GetWordAndCV(slot0.ship_data_statistics[slot1.drop.id].skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
 
@@ -232,13 +196,10 @@ end
 function slot6(slot0, slot1)
 	slot0:commonSetting(slot1)
 	SetActive(slot0._itemPanel, true)
-	SetActive(slot0._msgPanel, false)
-	SetActive(slot0._sigleItemPanel, false)
-	setActive(slot0._inputPanel, false)
 	removeAllChildren(slot0._itemListItemContainer)
-	setActive(slot0.itemsText, slot1.content)
+	setActive(slot0._itemsText, slot1.content)
 
-	slot0.itemsText.text = slot1.content or ""
+	slot0._itemsText.text = slot1.content or ""
 	slot3 = slot0.settings.itemFunc
 
 	for slot7, slot8 in ipairs(slot2) do
@@ -274,32 +235,19 @@ end
 function slot7(slot0, slot1)
 	slot0:commonSetting(slot1)
 	SetActive(slot0._sigleItemPanel, true)
-	SetActive(slot0._itemPanel, false)
-	SetActive(slot0._msgPanel, false)
-	setActive(slot0._inputPanel, false)
-	SetActive(slot0._SingleItemshipTypeTF, false)
-	SetActive(slot0._SingleItemshipTypeBgTF, false)
-	SetActive(findTF(slot0._sigleItemPanel, "line_mode"), false)
-	SetActive(findTF(slot0._sigleItemPanel, "count_select"), false)
-	SetActive(findTF(slot0._sigleItemPanel, "detail"), false)
+	SetActive(slot0._singleItemshipTypeTF, false)
+	SetActive(slot0._singleItemshipTypeBgTF, false)
+	SetActive(slot0._sigleItemPanel:Find("detail"), false)
 	setText(slot5, "")
 	SetActive(slot6, false)
 	SetActive(slot4, true)
 
-	slot8 = findTF(slot0._sigleItemPanel, "icon_bg/frame")
+	slot8 = slot0._sigleItemPanel:Find("icon_bg/frame")
 
 	setFrame(slot8, slot1.frame or 1)
-
-	slot7 = findTF(slot0._sigleItemPanel, "name_mode/name_mask")
-
-	SetActive(slot7.parent, true)
-	SetActive(slot7, true)
-	ScrollTxt.New(slot7, slot8):setText(slot1.name or "")
-
-	slot7.localPosition = Vector2(ScrollTxt.New(slot7, slot8).setText, slot7.localPosition.y)
-
+	ScrollTxt.New(setFrame, slot8):setText(slot1.name or "")
 	setText(slot4, slot1.content or "")
-	SetActive(findTF(slot0._sigleItemPanel, "icon_bg/icon").parent, slot1.sprite)
+	SetActive(slot0._sigleItemPanel:Find("icon_bg/icon").parent, slot1.sprite)
 
 	if slot1.sprite then
 		setImageSprite(slot2, slot1.sprite, false)
@@ -308,24 +256,9 @@ function slot7(slot0, slot1)
 	slot0:Loaded(slot1)
 end
 
-function pg.MsgboxMgr.GetSingleItemIntro(slot0, slot1)
-	if not slot0.singleItemIntros[slot1] then
-		slot0.singleItemIntros[slot1] = cloneTplTo(slot0.singleItemIntro, slot0.singleItemIntro.parent)
-	end
-
-	return slot0.singleItemIntros[slot1]
-end
-
 function slot8(slot0, slot1)
-	rtf(slot0._window).sizeDelta = slot0._defaultSize
-
 	slot0:commonSetting(slot1)
 	SetActive(slot0._sigleItemPanel, true)
-	SetActive(slot0._itemPanel, false)
-	SetActive(slot0._msgPanel, false)
-	setActive(slot0._inputPanel, false)
-	setActive(slot0._tf:Find("window/single_item_panel/line_mode"), false)
-	setActive(slot0._tf:Find("window/single_item_panel/name_mode"), false)
 	setActive(findTF(slot0._sigleItemPanel, "icon_bg/own"), false)
 
 	if slot1.drop then
@@ -336,40 +269,30 @@ function slot8(slot0, slot1)
 		setText(findTF(slot0._sigleItemPanel, "icon_bg/own/label"), i18n("word_own1"))
 	end
 
-	updateDrop(slot0._tf:Find("window/single_item_panel"), slot1.drop)
+	setParent(slot0._singleItemshipTypeTF, slot0._sigleItemPanel)
+	updateDrop(slot0._sigleItemPanel, slot1.drop)
 
 	if slot1.windowSize then
 		rtf(slot0._window).sizeDelta = Vector2(slot1.windowSize.x or slot0._defaultSize.x, slot1.windowSize.y or slot0._defaultSize.y)
 	end
 
-	setActive(slot0._tf:Find("window/single_item_panel/name_mode"), true)
+	slot3 = 1
 
-	slot2 = slot0._tf:Find("window/single_item_panel/name_mode/attrs")
-	slot4 = 1
-
-	SetActive(slot0._tf:Find("window/single_item_panel/name_mode/intro_view/Viewport/Content/intro"), slot1.drop.type == DROP_TYPE_SHIP or slot1.drop.type == DROP_TYPE_RESOURCE or slot1.drop.type == DROP_TYPE_ITEM or slot1.drop.type == DROP_TYPE_FURNITURE or slot1.drop.type == DROP_TYPE_STRATEGY or slot1.drop.type == DROP_TYPE_SKIN)
+	SetActive(slot0._sigleItemPanel:Find("intro_view/Viewport/Content/intro"), slot1.drop.type == DROP_TYPE_SHIP or slot1.drop.type == DROP_TYPE_RESOURCE or slot1.drop.type == DROP_TYPE_ITEM or slot1.drop.type == DROP_TYPE_FURNITURE or slot1.drop.type == DROP_TYPE_STRATEGY or slot1.drop.type == DROP_TYPE_SKIN)
 	setActive(slot0._countDescTxt, slot0.settings.numUpdate ~= nil)
 
-	slot9 = slot1.name or slot1.drop.cfg.name or ""
-	slot9 = ScrollTxt.New(slot0._tf:Find("window/single_item_panel/name_mode/name_mask"), slot0._tf:Find("window/single_item_panel/name_mode/name_mask/name"))
+	slot8 = slot1.name or slot1.drop.cfg.name or ""
+	slot8 = ScrollTxt.New(slot0._sigleItemPanel:Find("name_mode/name_mask"), slot0._sigleItemPanel:Find("name_mode/name_mask/name"))
 
-	slot9:setText(HXSet.hxLan)
-	table.insert(slot0._scrollTxts, slot9)
+	slot8:setText(HXSet.hxLan)
+	table.insert(slot0._scrollTxts, slot8)
+	setParent(slot0._singleItemshipTypeTF, slot0._sigleItemPanel:Find("name_mode"))
+	slot0._singleItemshipTypeTF:SetSiblingIndex(1)
+	setActive(slot0._singleItemshipTypeBgTF, isActive(slot0._singleItemshipTypeTF))
+	setActive(slot0._sigleItemPanel:Find("detail"), slot1.drop.type == DROP_TYPE_ITEM and slot1.drop.cfg.type == 11)
 
-	slot10 = -170
-
-	if not go(slot0._SingleItemshipTypeTF).activeSelf then
-		slot10 = -230
-	end
-
-	setActive(slot0._SingleItemshipTypeBgTF, slot11)
-
-	slot6.localPosition = Vector2(slot10, slot6.localPosition.y)
-
-	setActive(slot0._tf:Find("window/single_item_panel/detail"), slot1.drop.type == DROP_TYPE_ITEM and slot1.drop.cfg.type == 11)
-
-	if slot13 then
-		slot12:GetComponent("RichText"):AddListener(function (slot0, slot1)
+	if slot10 then
+		slot9:GetComponent("RichText"):AddListener(function (slot0, slot1)
 			{
 				items = _.map(slot0.drop.cfg.display_icon, function (slot0)
 					return {
@@ -402,64 +325,55 @@ function slot8(slot0, slot1)
 	if slot1.content and slot1.content ~= "" then
 		slot0.singleItemIntroTF.text = slot1.content
 	elseif slot1.drop.type == DROP_TYPE_RESOURCE then
-		setText(slot3, slot1.drop.cfg.display)
+		setText(slot2, slot1.drop.cfg.display)
 	elseif slot1.drop.type == DROP_TYPE_ITEM then
-		setText(slot3, HXSet.hxLan(slot1.drop.cfg.display))
+		setText(slot2, HXSet.hxLan(slot1.drop.cfg.display))
 	elseif slot1.drop.type == DROP_TYPE_FURNITURE then
-		setText(slot3, slot1.drop.cfg.describe)
+		setText(slot2, slot1.drop.cfg.describe)
 	elseif slot1.drop.type == DROP_TYPE_SHIP then
-		slot15, slot16, slot17 = ShipWordHelper.GetWordAndCV(slot2.ship_data_statistics[slot1.drop.id].skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
+		slot12, slot13, slot14 = ShipWordHelper.GetWordAndCV(slot2.ship_data_statistics[slot1.drop.id].skin_id, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
 
-		setText(slot3, slot17 or i18n("ship_drop_desc_default"))
+		setText(slot2, slot14 or i18n("ship_drop_desc_default"))
 	elseif slot1.drop.type == DROP_TYPE_EQUIP then
-		for slot17 = 1, 4, 1 do
-			slot18 = slot2:GetChild(slot17 - 1)
-
-			setActive(slot18:Find("opend"), slot19)
-			setActive(slot18:Find("attrLockTpl"), not slot1.drop.cfg["attribute_" .. slot17])
-
-			if slot1.drop.cfg["attribute_" .. slot17] then
-				setText(slot18:Find("opend/type_name"), AttributeType.Type2Name(slot19))
-				setText(slot18:Find("opend/value"), slot1.drop.cfg["value_" .. slot17])
-			end
-		end
 	elseif slot1.drop.type == DROP_TYPE_STRATEGY then
-		setText(slot3, slot1.drop.cfg.desc)
+		setText(slot2, slot1.drop.cfg.desc)
 
 		if slot1.extendDesc then
-			setText(slot0:GetSingleItemIntro(slot4 + 1), slot1.extendDesc)
+			slot0.singleItemIntros[slot3] = slot0.singleItemIntros[slot3 + 1] or cloneTplTo(slot0.singleItemIntro, slot0.singleItemIntro.parent)
+
+			setText(slot0.singleItemIntros[slot3], slot1.extendDesc)
 		end
 	elseif slot1.drop.type == DROP_TYPE_SKIN then
-		setText(slot3, HXSet.hxLan(slot1.drop.cfg.desc))
+		setText(slot2, HXSet.hxLan(slot1.drop.cfg.desc))
 	elseif slot1.drop.type == DROP_TYPE_EQUIPMENT_SKIN then
-		setText(slot3, slot14 .. "\n\n" .. i18n("word_fit") .. ": " .. table.concat(_.map(slot1.drop.cfg.equip_type, function (slot0)
+		setText(slot2, slot11 .. "\n\n" .. i18n("word_fit") .. ": " .. table.concat(_.map(slot1.drop.cfg.equip_type, function (slot0)
 			return EquipType.Type2Name2(slot0)
 		end), ","))
 	elseif slot1.drop.type == DROP_TYPE_VITEM then
-		setText(slot3, HXSet.hxLan(slot1.drop.cfg.display))
+		setText(slot2, HXSet.hxLan(slot1.drop.cfg.display))
 	elseif slot1.drop.type == DROP_TYPE_WORLD_ITEM then
-		setText(slot3, HXSet.hxLan(slot1.drop.cfg.display))
+		setText(slot2, HXSet.hxLan(slot1.drop.cfg.display))
 	elseif slot1.drop.type == DROP_TYPE_ICON_FRAME then
-		setText(slot3, slot1.drop.cfg.desc)
+		setText(slot2, slot1.drop.cfg.desc)
 	elseif slot1.drop.type == DROP_TYPE_CHAT_FRAME then
-		setText(slot3, slot1.drop.cfg.desc)
+		setText(slot2, slot1.drop.cfg.desc)
 	elseif slot1.drop.type == DROP_TYPE_EMOJI then
-		setText(slot3, slot1.drop.cfg.item_desc)
+		setText(slot2, slot1.drop.cfg.item_desc)
 	end
 
 	if slot1.intro then
-		setText(slot3, slot1.intro)
+		setText(slot2, slot1.intro)
 	end
 
 	if slot1.enabelYesBtn ~= nil then
-		setButtonEnabled(slot14, slot1.enabelYesBtn)
+		setButtonEnabled(slot11, slot1.enabelYesBtn)
 		eachChild(slot0._btnContainer:GetChild(1), function (slot0)
 			GetOrAddComponent(slot0, typeof(CanvasGroup)).alpha = (slot0.enabelYesBtn and 1) or 0.3
 		end)
 	end
 
-	for slot17, slot18 in ipairs(slot0.singleItemIntros) do
-		setActive(slot18, slot17 <= slot4 and slot5 == nil)
+	for slot14, slot15 in ipairs(slot0.singleItemIntros) do
+		setActive(slot15, slot14 <= slot3 and slot4 == nil)
 	end
 
 	if slot1.show_medal then
@@ -480,11 +394,6 @@ function slot9(slot0, slot1)
 	slot1.hideYes = defaultValue(slot1.hideYes, true)
 
 	slot0:commonSetting(slot1)
-	SetActive(slot0._itemPanel, false)
-	SetActive(slot0._msgPanel, false)
-	SetActive(slot0._sigleItemPanel, false)
-	setActive(slot0._inputPanel, false)
-	setActive(slot0._sliders, false)
 	setActive(findTF(slot0._helpPanel, "bg"), not slot1.helps.pageMode)
 	setActive(slot0._helpBgTF, slot1.helps.pageMode)
 
@@ -582,12 +491,9 @@ function slot9(slot0, slot1)
 	setActive(slot0._btnContainer, slot0._btnContainer.transform.childCount > 0)
 end
 
-function showSecondaryPassword(slot0, slot1)
+function slot10(slot0, slot1)
 	slot0:commonSetting(slot1)
-	SetActive(slot0._sigleItemPanel, false)
-	SetActive(slot0._itemPanel, false)
-	SetActive(slot0._msgPanel, false)
-	setActive(slot0._inputPanel, false)
+	setActive(slot0._otherPanel, true)
 
 	slot2 = tf(slot1.secondaryUI)
 	rtf(slot0._window).sizeDelta = Vector2(960, slot0._defaultSize.y)
@@ -660,6 +566,97 @@ function showSecondaryPassword(slot0, slot1)
 	slot0:Loaded(slot1)
 end
 
+function slot11(slot0, slot1)
+	slot0:commonSetting(slot1)
+
+	rtf(slot0._window).sizeDelta = Vector2(slot0._defaultSize.x, 520)
+
+	setActive(slot0._obtainPanel, true)
+	setActive(slot0._btnContainer, false)
+	updateDrop(slot0._obtainPanel, {
+		type = DROP_TYPE_SHIP,
+		id = slot1.shipId
+	})
+
+	slot0.obtainSkipList = slot0.obtainSkipList or UIItemList.New(slot0._obtainPanel:Find("skipable_list"), slot0._obtainPanel:Find("skipable_list/tpl"))
+
+	slot0.obtainSkipList:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			slot6 = slot0.list[slot1 + 1][3]
+
+			setText(slot2:Find("title"), slot4)
+			setActive(slot2:Find("skip_btn"), slot0.list[slot1 + 1][2][1] ~= "" and slot5[1] ~= "COLLECTSHIP")
+
+			if slot5[1] ~= "" then
+				onButton(slot1, slot2:Find("skip_btn"), function ()
+					if slot0 and slot0 ~= 0 then
+						if not getProxy(ActivityProxy):getActivityById(getProxy(ActivityProxy).getActivityById) or slot0:isEnd() then
+							slot1.TipsMgr.GetInstance():ShowTips(i18n("collection_way_is_unopen"))
+
+							return
+						end
+					elseif slot2[1] == "SHOP" and slot2[2].warp == "supplies" and not slot1.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "MilitaryExerciseMediator") then
+						slot1.TipsMgr.GetInstance():ShowTips(i18n("military_shop_no_open_tip"))
+
+						return
+					elseif slot2[1] == "LEVEL" and slot2[2] then
+						slot1 = getProxy(ChapterProxy)
+
+						if slot1:getMaps()[slot1:getChapterById(slot0):getConfig("map")] and slot4:getChapter(slot0) and slot4:getChapter(slot0):isUnlock() then
+							if slot1:getActiveChapter() and slot5.id ~= slot0 then
+								slot3:ShowMsgBox({
+									content = i18n("collect_chapter_is_activation"),
+									onYes = function ()
+										slot0.m02:sendNotification(GAME.CHAPTER_OP, {
+											type = ChapterConst.OpRetreat
+										})
+									end
+								})
+
+								return
+							else
+								slot6 = {
+									mapIdx = slot3:getConfig("map")
+								}
+
+								if slot3.active then
+									slot6.chapterId = slot3.id
+								else
+									slot6.openChapterId = slot0
+								end
+
+								slot1.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot6)
+							end
+						else
+							slot1.TipsMgr.GetInstance():ShowTips(i18n("acquisitionmode_is_not_open"))
+
+							return
+						end
+					elseif slot2[1] == "COLLECTSHIP" then
+						if slot4.mediatorName == CollectionMediator.__cname then
+							slot1.m02:sendNotification(CollectionMediator.EVENT_OBTAIN_SKIP, {
+								toggle = 2,
+								displayGroupId = slot2[2].shipGroupId
+							})
+						else
+							slot1.m02:sendNotification(GAME.GO_SCENE, SCENE.COLLECTSHIP, {
+								toggle = 2,
+								displayGroupId = slot2[2].shipGroupId
+							})
+						end
+					else
+						slot1.m02:sendNotification(GAME.GO_SCENE, SCENE[slot2[1]], slot2[2])
+					end
+
+					slot3:hide()
+				end, SFX_PANEL)
+			end
+		end
+	end)
+	slot0.obtainSkipList:align(#slot1.list)
+	slot0:Loaded(slot1)
+end
+
 function pg.MsgboxMgr.nextPage(slot0)
 	slot0.helpPage = slot0.helpPage + 1
 
@@ -696,18 +693,26 @@ function pg.MsgboxMgr.switchHelpPage(slot0, slot1)
 end
 
 function pg.MsgboxMgr.commonSetting(slot0, slot1)
+	rtf(slot0._window).sizeDelta = slot0._defaultSize
+	rtf(slot0._helpPanel).sizeDelta = slot0._defaultHelpSize
 	slot0.enable = true
 
 	slot0.DelegateInfo.New(slot0)
+	setActive(slot0._msgPanel, false)
 	setActive(slot0._exchangeShipPanel, false)
+	setActive(slot0._itemPanel, false)
+	setActive(slot0._sigleItemPanel, false)
+	setActive(slot0._inputPanel, false)
+	setActive(slot0._obtainPanel, false)
+	setActive(slot0._otherPanel, false)
 	setActive(slot0._helpBgTF, false)
+	setActive(slot0._helpPanel, slot1.helps)
 	setActive(slot0._btnContainer, true)
 
 	slot0.stopRemindToggle.isOn = false
 
 	setActive(go(slot0.stopRemindToggle), slot1.showStopRemind)
 
-	tf(go(slot0.stopRemindToggle)).anchoredPosition = slot1.showStopRamindPos or slot0.stopRemindInitPos
 	slot0.stopRemindText.text = slot1.stopRamindContent or i18n("dont_remind_today")
 
 	removeAllChildren(slot0._btnContainer)
@@ -715,10 +720,10 @@ function pg.MsgboxMgr.commonSetting(slot0, slot1)
 	slot0.settings = slot1
 
 	SetActive(slot0._go, true)
+	setActive(slot0._countSelect, slot0.settings.needCounter or false)
 
 	slot3 = slot0.settings.numUpdate
 
-	setActive(slot0._countSelect, slot0.settings.needCounter or false)
 	slot0._pageUtil:setNumUpdate(function (slot0)
 		if slot0 ~= nil then
 			slot0(slot1._countDescTxt, slot0)
@@ -727,18 +732,11 @@ function pg.MsgboxMgr.commonSetting(slot0, slot1)
 	slot0._pageUtil:setAddNum(slot0.settings.addNum or 1)
 	slot0._pageUtil:setMaxNum(slot0.settings.maxNum or -1)
 	slot0._pageUtil:setDefaultNum(slot0.settings.defaultNum or 1)
+	setActive(slot0._sliders, slot0.settings.discount)
 
-	if slot0.settings.discount ~= nil then
+	if slot0.settings.discount then
 		slot0._discount:GetComponent(typeof(Text)).text = slot0.settings.discount.discount .. "%OFF"
 		slot0._discountDate:GetComponent(typeof(Text)).text = slot0.settings.discount.date
-
-		SetActive(slot0._discountDate, true)
-		SetActive(slot0._strike, true)
-		SetActive(slot0._discountInfo, true)
-	else
-		SetActive(slot0._discountDate, false)
-		SetActive(slot0._strike, false)
-		SetActive(slot0._discountInfo, false)
 	end
 
 	slot7 = slot0.settings.hideNo or false
@@ -823,7 +821,6 @@ function pg.MsgboxMgr.commonSetting(slot0, slot1)
 
 	setActive(slot0._closeBtn, not slot1.hideClose)
 	onButton(slot0, slot0._closeBtn, function ()
-		print("点击3")
 		slot0:hide()
 
 		if slot0.settings.onClose then
@@ -844,14 +841,6 @@ function pg.MsgboxMgr.commonSetting(slot0, slot1)
 	end
 
 	slot0._go.transform.localPosition = Vector3(slot0._go.transform.localPosition.x, slot0._go.transform.localPosition.y, slot0.settings.zIndex or 0)
-
-	if slot0._helpPanel then
-		setActive(slot0._helpPanel, slot0.settings.helps)
-	end
-
-	if slot0._sliders then
-		setActive(slot0._sliders, true)
-	end
 end
 
 function pg.MsgboxMgr.createBtn(slot0, slot1)
@@ -989,10 +978,7 @@ function pg.MsgboxMgr.Clear(slot0)
 	slot0.timers = {}
 
 	slot0.DelegateInfo.Dispose(slot0)
-
-	for slot6 = 1, slot0._btnContainer.childCount, 1 do
-		Destroy(slot0._btnContainer:GetChild(0))
-	end
+	removeAllChildren(slot0._btnContainer)
 
 	if slot0.settings and slot0.settings.parent then
 		setParent(slot0._tf, slot0.UIMgr.GetInstance().OverlayMain, false)
@@ -1004,9 +990,7 @@ function pg.MsgboxMgr.Clear(slot0)
 		slot0.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0.UIMgr.GetInstance().OverlayMain)
 	end
 
-	if slot0.contentText then
-		slot0.contentText:RemoveAllListeners()
-	end
+	slot0.contentText:RemoveAllListeners()
 
 	slot0.settings = nil
 	slot0.enable = false
@@ -1037,12 +1021,14 @@ function pg.MsgboxMgr.ShowMsgBox(slot0, slot1)
 
 			slot1.secondaryUI = slot0
 
-			SetParent(slot0, slot0._sliders, false)
-			showSecondaryPassword(slot0, showSecondaryPassword)
+			SetParent(slot0, slot0._otherPanel, false)
+			slot0(slot0, slot0)
 		end)
-	end
+	elseif slot2 == MSGBOX_TYPE_OBTAIN then
+		slot1.title = slot1.title or slot8.TITLE_OBTAIN
 
-	slot0._tf:SetAsLastSibling()
+		slot9(slot0, slot1)
+	end
 end
 
 function pg.MsgboxMgr.hide(slot0)

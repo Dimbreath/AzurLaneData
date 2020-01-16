@@ -6120,7 +6120,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造、大型艦建造、特型艦建造",
+				"小型艦建造、大型艦建造、\n特型艦建造",
 				{
 					"GETBOAT",
 					{
@@ -6155,7 +6155,7 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"小型艦建造、大型艦建造、特型艦建造",
+				"小型艦建造、大型艦建造、\n特型艦建造",
 				{
 					"GETBOAT",
 					{

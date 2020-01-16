@@ -4,10 +4,6 @@ function slot0.getUIName(slot0)
 	return "HololiveMedalCollectionUI"
 end
 
-function slot0.getBGM(slot0)
-	return "holo-inochi-inst"
-end
-
 function slot0.init(slot0)
 	slot0:InitData()
 	slot0:FindUI()

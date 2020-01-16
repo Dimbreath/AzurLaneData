@@ -1,4 +1,5 @@
 slot0 = class("CollectionMediator", import("..base.ContextMediator"))
+slot0.EVENT_OBTAIN_SKIP = "CollectionMediator:EVENT_OBTAIN_SKIP"
 
 function slot0.register(slot0)
 	slot0.collectionProxy = getProxy(CollectionProxy)
@@ -34,48 +35,7 @@ function slot0.register(slot0)
 			data = slot1
 		}))
 	end)
-	slot0:bind(CollectionScene.GO_LEVEL, function (slot0, slot1)
-		if getProxy(ChapterProxy).getMaps(slot2)[Chapter.New({
-			id = slot1
-		}):getConfig("map")] and slot5:getChapter(slot1) and slot5:getChapter(slot1):isUnlock() then
-			if slot2:getActiveChapter() and slot6.id ~= slot1 then
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("collect_chapter_is_activation"),
-					onYes = function ()
-						slot0.chapterId = slot1
-
-						slot0:sendNotification(GAME.CHAPTER_OP, {
-							type = ChapterConst.OpRetreat
-						})
-					end
-				})
-			else
-				slot0:GoLevelScene(slot1)
-			end
-		else
-			pg.TipsMgr.GetInstance():ShowTips(i18n("acquisitionmode_is_not_open"))
-		end
-	end)
-	slot0:bind(CollectionScene.GO_SCENE, function (slot0, slot1, slot2)
-		slot0:sendNotification(GAME.GO_SCENE, slot1, slot2)
-	end)
 	slot0.viewComponent:updateCollectNotices(slot0.collectionProxy:hasFinish())
-end
-
-function slot0.GoLevelScene(slot0, slot1)
-	if getProxy(ChapterProxy):getChapterById(slot1) then
-		slot4 = {
-			mapIdx = slot3:getConfig("map")
-		}
-
-		if slot3.active then
-			slot4.chapterId = slot3.id
-		else
-			slot4.openChapterId = slot1
-		end
-
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot4)
-	end
 end
 
 function slot0.listNotificationInterests(slot0)
@@ -84,7 +44,7 @@ function slot0.listNotificationInterests(slot0)
 		GAME.COLLECT_GET_AWARD_DONE,
 		PlayerProxy.UPDATED,
 		GAME.BEGIN_STAGE_DONE,
-		GAME.CHAPTER_OP_DONE
+		slot0.EVENT_OBTAIN_SKIP
 	}
 end
 
@@ -101,10 +61,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:setPlayer(slot3)
 	elseif slot2 == GAME.BEGIN_STAGE_DONE then
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
-	elseif slot2 == GAME.CHAPTER_OP_DONE and slot0.chapterId then
-		slot0:GoLevelScene(slot0.chapterId)
-
-		slot0.chapterId = nil
+	elseif slot2 == slot0.EVENT_OBTAIN_SKIP then
+		slot0.viewComponent:skipIn(slot3.toggle, slot3.displayGroupId)
 	end
 end
 
