@@ -1,14 +1,15 @@
 slot0 = class("BundlePrefabPlural")
 slot1 = require("Mgr/Pool/PoolUtil")
 
-function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
+function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0.prefab = slot1
 	slot0.capacity = slot2
 	slot0.index = 0
 	slot0.items = {}
 	slot0.balance = 0
-	slot0.path = slot3
-	slot0.name = slot4
+	slot0.clearPrefabOnClear = slot3
+	slot0.path = slot4
+	slot0.name = slot5
 end
 
 function slot0.GetPathName(slot0)
@@ -60,6 +61,13 @@ end
 
 function slot0.Clear(slot0, slot1)
 	slot0:ClearItems(slot1)
+
+	if slot0.clearPrefabOnClear then
+		slot0.Destroy(slot0.prefab, slot1)
+
+		slot0.prefab = nil
+	end
+
 	table.clear(slot0)
 end
 

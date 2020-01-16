@@ -12,6 +12,12 @@ function slot0.getUIName(slot0)
 	return "ShipProfileUI"
 end
 
+function slot0.preload(slot0, slot1)
+	slot3 = getProxy(CollectionProxy).getShipGroup(slot2, slot0.contextData.groupId)
+
+	GetSpriteFromAtlasAsync("bg/star_level_bg_" .. shipRarity2bgPrint(slot5, slot3:GetSkin(slot0.contextData.showTrans).id, slot3:isBluePrintGroup()), "", slot1)
+end
+
 function slot0.setShipGroup(slot0, slot1)
 	slot0.shipGroup = slot1
 	slot0.groupSkinList = slot1:getDisplayableSkinList()
@@ -56,8 +62,9 @@ function slot0.init(slot0)
 	slot0.btnLike = slot0:findTF("adapt/detail_left_panel/heart/btnLike", slot0.blurPanel)
 	slot0.btnLikeAct = slot0.btnLike:Find("like")
 	slot0.btnLikeDisact = slot0.btnLike:Find("unlike")
-	slot0.viewBtn = slot0:findTF("bottom/view_btn")
+	slot0.obtainBtn = slot0:findTF("bottom/obtain_btn")
 	slot0.evaBtn = slot0:findTF("bottom/eva_btn")
+	slot0.viewBtn = slot0:findTF("bottom/view_btn")
 	slot0.shareBtn = slot0:findTF("bottom/share_btn")
 	slot0.leftProfile = slot0:findTF("adapt/profile_left_panel", slot0.blurPanel)
 	slot0.modelContainer = slot0:findTF("model", slot0.leftProfile)
@@ -87,13 +94,21 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.btnBack, function ()
 		slot0:emit(slot1.ON_BACK)
 	end, SFX_CANCEL)
-	onButton(slot0, slot0.viewBtn, function ()
-		slot0.paintingView:Start()
-	end, SFX_PANEL)
+	onButton(slot0, slot0.obtainBtn, function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_OBTAIN,
+			shipId = slot0.shipGroup:getShipConfigId(),
+			list = slot0.shipGroup.groupConfig.description,
+			mediatorName = ShipProfileMediator.__cname
+		})
+	end)
 	onButton(slot0, slot0.evaBtn, function ()
 		slot0:emit(slot1.SHOW_EVALUATION)
 	end, SFX_PANEL)
 	setActive(slot0.evaBtn, not slot0.contextData.showTrans)
+	onButton(slot0, slot0.viewBtn, function ()
+		slot0.paintingView:Start()
+	end, SFX_PANEL)
 	onButton(slot0, slot0.shareBtn, function ()
 		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeShipProfile)
 	end, SFX_PANEL)
@@ -129,6 +144,7 @@ function slot0.didEnter(slot0)
 	slot0:InitCommon()
 	slot0.live2DBtn:Update(slot0.paintingName, false)
 	triggerToggle(slot0.toggles[slot0.INDEX_DETAIL], true)
+	setActive(slot0.bottomTF, false)
 end
 
 function slot0.InitSkinList(slot0)
@@ -283,6 +299,12 @@ function slot0.SwitchPage(slot0, slot1)
 			end,
 			function (slot0)
 				SetParent(slot0.bottomTF, slot0.pages[]._tf)
+				setActive(slot0.bottomTF, true)
+				setAnchoredPosition(slot0.bottomTF, {
+					z = 0,
+					x = -7,
+					y = 24
+				})
 				slot0.pages[].ExecuteAction(slot1, "EnterAnim", slot0.pages[].ExecuteAction)
 				slot0:TweenPage(slot0.pages[])
 				slot0()
@@ -484,7 +506,13 @@ function slot0.ShowDailogue(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	setText(slot0.chatText, slot1.wordData.textContent)
+	if not slot1.wordData.textContent or slot4 == "" or slot4 == "nil" then
+		slot3()
+
+		return
+	end
+
+	setText(slot0.chatText, slot4)
 
 	slot6.alignment = (CHAT_POP_STR_LEN < #slot0.chatText:GetComponent(typeof(Text)).text and TextAnchor.MiddleLeft) or TextAnchor.MiddleCenter
 	slot0.chatBg.sizeDelta = (slot0.initChatBgH < slot6.preferredHeight + 120 and Vector2.New(slot0.chatBg.sizeDelta.x, (CHAT_POP_STR_LEN < #slot0.chatText.GetComponent(typeof(Text)).text and TextAnchor.MiddleLeft) or TextAnchor.MiddleCenter)) or Vector2.New(slot0.chatBg.sizeDelta.x, slot0.initChatBgH)

@@ -6,10 +6,6 @@ function slot0.getUIName(slot0)
 	return "HoloLiveLinkGameSelectUI"
 end
 
-function slot0.getBGM(slot0)
-	return "holo-fff-inst"
-end
-
 function slot0.init(slot0)
 	slot0:initData()
 	slot0:findUI()

@@ -5,10 +5,6 @@ function slot0.getUIName(slot0)
 	return "ActivityBossUI"
 end
 
-function slot0.getBGM(slot0)
-	return "cw-level"
-end
-
 function slot0.preload(slot0, slot1)
 	LoadAndInstantiateAsync("ui", "cysx", function (slot0)
 		slot0.effect = slot0

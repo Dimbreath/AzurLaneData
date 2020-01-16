@@ -390,6 +390,14 @@ slot1 = {
 	[ActivityConst.MORAN_KR_PREVIEW_ID] = {
 		className = "MoranMainPage",
 		uiName = "MoranMainPage"
+	},
+	[ActivityConst.UNICORN_STARDUST] = {
+		className = "UnicornStardustPage",
+		uiName = "UnicornStardustPage"
+	},
+	[ActivityConst.TEATIME_TW] = {
+		className = "TeaTimePuzzlePage",
+		uiName = "TeaTimePuzzlePage"
 	}
 }
 slot2 = {
@@ -405,10 +413,6 @@ end
 
 function slot0.getUIName(slot0)
 	return "ActivityMainUI"
-end
-
-function slot0.getBGM(slot0)
-	return "main-newyear"
 end
 
 function slot0.onBackPressed(slot0)

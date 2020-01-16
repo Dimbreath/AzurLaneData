@@ -65,7 +65,7 @@ end
 function slot0.initProperty(slot0, slot1, slot2)
 	slot0.type = slot2 or slot0.TypeRotation
 
-	slot0:initRadar(pg.ship_data_statistics[slot1].grades)
+	slot0:initRadar(ShipGroup.GetGroupConfig(slot2 or slot0.TypeRotation).property_hexagon)
 end
 
 function slot0.initRadar(slot0, slot1)

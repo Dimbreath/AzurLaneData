@@ -11958,6 +11958,38 @@ TIPS:
 	pt_reconfirm = {
 		tip = "<color=#ff5c5c>$1</color>로 교환하시겠습니까? ",
 		key = "pt_reconfirm"
+	},
+	word_equipskin_type = {
+		tip = "타입 ",
+		key = "word_equipskin_type"
+	},
+	word_equipskin_all = {
+		tip = "전부",
+		key = "word_equipskin_all"
+	},
+	word_equipskin_cannon = {
+		tip = "함포 ",
+		key = "word_equipskin_cannon"
+	},
+	word_equipskin_tarpedo = {
+		tip = "어뢰 ",
+		key = "word_equipskin_tarpedo"
+	},
+	word_equipskin_aircraft = {
+		tip = "함재기 ",
+		key = "word_equipskin_aircraft"
+	},
+	msgbox_repair = {
+		tip = "물자 복원",
+		key = "msgbox_repair"
+	},
+	msgbox_repair_l2d = {
+		tip = "L2D 복원",
+		key = "msgbox_repair_l2d"
+	},
+	word_no_cache = {
+		tip = "복원이 필요한 물자 없음",
+		key = "word_no_cache"
 	}
 }
 

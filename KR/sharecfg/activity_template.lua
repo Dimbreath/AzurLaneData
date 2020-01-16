@@ -12022,7 +12022,7 @@ pg.activity_template = {
 				{
 					2020,
 					1,
-					15
+					16
 				},
 				{
 					23,
@@ -12136,7 +12136,7 @@ pg.activity_template = {
 				{
 					2020,
 					1,
-					15
+					16
 				},
 				{
 					23,
@@ -12219,7 +12219,7 @@ pg.activity_template = {
 				{
 					2020,
 					1,
-					15
+					16
 				},
 				{
 					23,
@@ -12314,6 +12314,86 @@ pg.activity_template = {
 		},
 		bg = {
 			"clutter/donghuacb_login"
+		}
+	},
+	[20350] = {
+		mark = 20200116,
+		title_res_tag = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 2,
+		is_show = 0,
+		config_data = "",
+		config_client = "",
+		bg = "",
+		id = 20350,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20351] = {
+		mark = 20200116,
+		title_res_tag = "xunliandianshu_r",
+		type = 54,
+		login_pop = 0,
+		config_id = 20351,
+		is_show = 44,
+		config_client = "",
+		id = 20351,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_xunliandianshu_r"
 		}
 	},
 	[25000] = {
@@ -13195,6 +13275,8 @@ pg.activity_template = {
 		20347,
 		20348,
 		20349,
+		20350,
+		20351,
 		25000,
 		25001,
 		25002,

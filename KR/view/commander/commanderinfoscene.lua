@@ -7,10 +7,6 @@ function slot0.getUIName(slot0)
 	return "CommanderInfoUI"
 end
 
-function slot0.getBGM(slot0)
-	return "backyard"
-end
-
 function slot0.setPlayer(slot0, slot1)
 	slot0.playerVO = slot1
 

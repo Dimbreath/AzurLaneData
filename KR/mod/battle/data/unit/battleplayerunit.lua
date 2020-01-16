@@ -68,7 +68,7 @@ function ys.Battle.BattlePlayerUnit.SetTemplate(slot0, slot1, slot2)
 	slot2.InitDOTAttr(slot0._attr, slot0._tmpData)
 	slot2.SetCurrent(slot0, "srcShipType", slot0._tmpData.type)
 
-	slot0._personality = slot1.Battle.BattleDataFunction.GetShipPersonality(slot0._tmpData.personality)
+	slot0._personality = slot1.Battle.BattleDataFunction.GetShipPersonality(2)
 
 	for slot6, slot7 in ipairs(slot0._tmpData.tag_list) do
 		slot0:AddLabelTag(slot7)

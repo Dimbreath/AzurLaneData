@@ -80,6 +80,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「세계에 사르데냐 엠파이어의 영광과 위엄을 알리자!」 </Color>\n [디바인 트래지코미디] 이벤트에서 획득 가능",
 		scene = {}
 	},
+	[305] = {
+		name = "사쿠라 엠파이어의 의식 ",
+		time_second = 0,
+		id = 305,
+		time_limit_type = 0,
+		desc = "左侧名字确认，描述后续要补",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -90,7 +98,8 @@ pg.item_data_frame = {
 		301,
 		302,
 		303,
-		304
+		304,
+		305
 	}
 }
 

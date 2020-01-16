@@ -188,8 +188,10 @@ function slot6.InitMainDamagedView(slot0)
 	slot0._mainDamagedView = slot0.Battle.BattleMainDamagedView.New(slot0._ui:findTF("HPWarning"))
 end
 
-function slot6.InitInkView(slot0)
+function slot6.InitInkView(slot0, slot1)
 	slot0._inkView = slot0.Battle.BattleInkView.New(slot0._ui:findTF("InkContainer"))
+
+	slot1:RegisterEventListener(slot0, slot1.FLEET_HORIZON_UPDATE, slot0.onFleetHorizonUpdate)
 end
 
 function slot6.InitDebugConsole(slot0)
@@ -257,6 +259,7 @@ function slot6.RemoveUIEvent(slot0)
 	slot0._userFleet:UnregisterEventListener(slot0, slot1.POINT_HIT_CANCEL)
 	slot0._userFleet:UnregisterEventListener(slot0, slot0.MANUAL_SUBMARINE_SHIFT)
 	slot0._userFleet:UnregisterEventListener(slot0, slot0.FLEET_BLIND)
+	slot0._userFleet:UnregisterEventListener(slot0, slot0.FLEET_HORIZON_UPDATE)
 end
 
 function slot6.ShowSkillPainting(slot0, slot1, slot2, slot3)
@@ -407,11 +410,11 @@ function slot6.onAddUnit(slot0, slot1)
 			end)
 			SetActive(slot0, true)
 		end)
-	elseif slot1.Data.type == slot0.UnitType.ENEMY_UNIT then
+	elseif slot2 == slot0.UnitType.ENEMY_UNIT then
 		slot0:registerUnitEvent(slot3)
-	elseif slot1.Data.type == slot0.UnitType.NPC_UNIT and slot3:GetIFF() == slot1.FOE_CODE then
+	elseif slot2 == slot0.UnitType.NPC_UNIT and slot3:GetIFF() == slot1.FOE_CODE then
 		slot0:registerUnitEvent(slot3)
-	elseif slot1.Data.type == slot0.UnitType.PLAYER_UNIT and slot3:IsMainFleetUnit() and slot3:GetIFF() == slot1.FRIENDLY_CODE then
+	elseif slot2 == slot0.UnitType.PLAYER_UNIT and slot3:IsMainFleetUnit() and slot3:GetIFF() == slot1.FRIENDLY_CODE then
 		slot0:registerPlayerMainUnitEvent(slot3)
 	end
 end
@@ -429,14 +432,8 @@ function slot6.onRemoveUnit(slot0, slot1)
 
 	if slot1.Data.type == slot0.UnitType.ENEMY_UNIT and not slot2:IsBoss() then
 		slot0:unregisterUnitEvent(slot2)
-	elseif slot2:GetIFF() == slot1.FRIENDLY_CODE then
-		if slot0._inkView then
-			slot0._inkView:RemoveHollow(slot2)
-		end
-
-		if slot2:IsMainFleetUnit() then
-			slot0:unregisterPlayerMainUnitEvent(slot2)
-		end
+	elseif slot2:GetIFF() == slot1.FRIENDLY_CODE and slot2:IsMainFleetUnit() then
+		slot0:unregisterPlayerMainUnitEvent(slot2)
 	end
 
 	if slot1.Data.deadReason == slot0.UnitDeathReason.LEAVE and slot0._enemyHpBar:GetCurrentTarget() and slot0._enemyHpBar:GetCurrentTarget() == slot1.Data.unit then
@@ -521,13 +518,14 @@ function slot6.onPointHitSight(slot0, slot1)
 end
 
 function slot6.onFleetBlind(slot0, slot1)
-	if not slot0._inkView then
-		slot0:InitInkView()
-	end
-
+	slot2 = slot1.Data.isBlind
 	slot3 = slot1.Dispatcher
 
-	if slot1.Data.isBlind then
+	if not slot0._inkView then
+		slot0:InitInkView(slot3)
+	end
+
+	if slot2 then
 		slot0._inkView:SetActive(true, slot3:GetUnitList())
 		slot0._skillView:HideSkillButton(true)
 
@@ -538,6 +536,14 @@ function slot6.onFleetBlind(slot0, slot1)
 
 		slot0._updateViewList[slot0._inkView] = nil
 	end
+end
+
+function slot6.onFleetHorizonUpdate(slot0, slot1)
+	if not slot0._inkView then
+		return
+	end
+
+	slot0._inkView:UpdateHollow(slot1.Dispatcher.GetUnitList(slot2))
 end
 
 function slot6.registerUnitEvent(slot0, slot1)
