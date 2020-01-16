@@ -5,10 +5,6 @@ function slot0.getUIName(slot0)
 	return "ActivityBossBattleUI2"
 end
 
-function slot0.getBGM(slot0)
-	return "level"
-end
-
 slot0.phaseColor = {
 	{
 		130,
