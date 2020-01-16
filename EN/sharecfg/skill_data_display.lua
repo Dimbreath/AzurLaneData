@@ -1560,6 +1560,18 @@ pg.skill_data_display = {
 		id = 11900,
 		name = "Protector of The North Passage"
 	},
+	[11980] = {
+		id = 11980,
+		name = "Task Force Leader"
+	},
+	[11990] = {
+		id = 11990,
+		name = "Unwavering Resolution"
+	},
+	[12000] = {
+		id = 12000,
+		name = "Here to Help"
+	},
 	[12040] = {
 		id = 12040,
 		name = "Whimsical Inventor "
@@ -1623,6 +1635,22 @@ pg.skill_data_display = {
 	[12100] = {
 		id = 12100,
 		name = "Iron Blood Hatchling"
+	},
+	[12110] = {
+		id = 12110,
+		name = "Draw of Destiny"
+	},
+	[12111] = {
+		id = 12111,
+		name = "Blackburn Fire Blast"
+	},
+	[12112] = {
+		id = 12112,
+		name = "Swordfish Bombardment of Destruction"
+	},
+	[12113] = {
+		id = 12113,
+		name = "Obnoxious Carpet Bombing"
 	},
 	[12120] = {
 		id = 12120,
@@ -4027,6 +4055,9 @@ pg.skill_data_display = {
 		11880,
 		11890,
 		11900,
+		11980,
+		11990,
+		12000,
 		12040,
 		12041,
 		12042,
@@ -4043,6 +4074,10 @@ pg.skill_data_display = {
 		12091,
 		12092,
 		12100,
+		12110,
+		12111,
+		12112,
+		12113,
 		12120,
 		12121,
 		12130,

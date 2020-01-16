@@ -149,55 +149,55 @@ pg.strategy_data_template = {
 	},
 	[10011] = {
 		buff_id = 220,
-		name = "制空权确保",
+		name = "Air Supremacy",
 		type = 1001,
 		id = 10011,
 		icon = "10011",
-		desc = "舰队全员航空攻击伤害提高20%，受到的航空攻击伤害降低10%，命中提高10%，受到伏击的概率降低8% (航空攻击伤害提高或降低不影响点燃进水伤害)",
+		desc = "The DMG of your fleets' Airstrikes is increased by 20% and the DMG your fleets take from enemy aircraft is decreased by 10% (Flooding and Burn DMG are unaffected). Your fleets' Accuracy is increased by 10% and your Ambush encounter rate is decreased by 8%.",
 		arg = {
 			800
 		}
 	},
 	[10012] = {
 		buff_id = 230,
-		name = "制空权优势",
+		name = "Air Superiority",
 		type = 1001,
 		id = 10012,
 		icon = "10012",
-		desc = "舰队全员航空攻击伤害提高12%，受到的航空攻击伤害降低6%，命中提高5%，受到伏击的概率降低5% (航空攻击伤害提高或降低不影响点燃进水伤害)",
+		desc = "The DMG of your fleets' Airstrikes is increased by 12% and the DMG your fleets take from enemy aircraft is decreased by 6% (Flooding and Burn DMG are unaffected). Your fleets' Accuracy is increased by 5% and your Ambush encounter rate is decreased by 5%.",
 		arg = {
 			500
 		}
 	},
 	[10013] = {
 		buff_id = 240,
-		name = "势均力敌",
+		name = "Air Parity",
 		type = 1001,
 		id = 10013,
 		icon = "10013",
-		desc = "舰队全员航空攻击伤害降低6%，受到的航空攻击伤害降低3% (航空攻击伤害提高或降低不影响点燃进水伤害)",
+		desc = "The DMG of your fleets' Airstrikes is decreased by 6% and the DMG your fleets take from enemy aircraft is increased by 3% (Flooding and Burn DMG are unaffected).",
 		arg = {
 			0
 		}
 	},
 	[10014] = {
 		buff_id = 250,
-		name = "制空权劣势",
+		name = "Air Denial",
 		type = 1001,
 		id = 10014,
 		icon = "10014",
-		desc = "舰队全员航空攻击伤害降低12%，受到的航空攻击伤害提高6%，命中、机动降低3% (航空攻击伤害提高或降低不影响点燃进水伤害)",
+		desc = "The DMG of your fleets' Airstrikes is decreased by 12% and the DMG your fleets take from enemy aircraft is increased by 6% (Flooding and Burn DMG are unaffected). Your fleets' Accuracy and EVA is decreased by 3%.",
 		arg = {
 			0
 		}
 	},
 	[10015] = {
 		buff_id = 260,
-		name = "制空权丧失",
+		name = "Air Incapability",
 		type = 1001,
 		id = 10015,
 		icon = "10015",
-		desc = "舰队全员航空攻击伤害降低20%，受到的航空攻击伤害提高10%，命中、机动降低8% (航空攻击伤害提高或降低不影响点燃进水伤害)",
+		desc = "The DMG of your fleets' Airstrikes is decreased by 20% and the DMG your fleets take from enemy aircraft is increased by 10% (Flooding and Burn DMG are unaffected). Your fleets' Accuracy and EVA is decreased by 8%.",
 		arg = {
 			0
 		}

@@ -4983,7 +4983,7 @@ pg.enemy_data_statistics = {
 	},
 	[131] = {
 		cannon = 0,
-		name = "指挥舰",
+		name = "Command Ship ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

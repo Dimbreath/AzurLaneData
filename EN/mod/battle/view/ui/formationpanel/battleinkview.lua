@@ -17,109 +17,114 @@ function slot2.init(slot0)
 	slot0._tf = slot0._go.transform
 	slot0._hollowTpl = slot0._tf:Find("ink_tpl")
 	slot0._hollowContainer = slot0._tf:Find("container")
-	slot0._initial = slot0._tf:Find("initial_anim")
-	slot0._finale = slot0._tf:Find("finale_anim")
-	slot0._finaleHollow = slot0._finale:Find("ink_tpl")
-	slot0._unitList = {}
 	slot0._unitHollowList = {}
 	slot0._state = slot0.ANIMATION_STATE_IDLE
 end
 
+function slot2.IsActive(slot0)
+	return slot0._isActive
+end
+
 function slot2.Update(slot0)
 	for slot4, slot5 in pairs(slot0._unitHollowList) do
-		slot5.hollow.position = slot0.CameraPosToUICamera(slot5.pos.Copy(slot6, slot4:GetPosition()) + Vector3(0, 0, 0))
+		if slot4:IsAlive() then
+			slot5.hollow.position = slot0.CameraPosToUICamera(slot5.pos.Copy(slot6, slot4:GetPosition()) + Vector3(0, 0, 0))
+		else
+			slot0:RemoveHollow(slot4)
+		end
 	end
 end
 
 function slot2.SetActive(slot0, slot1, slot2)
-	function slot3()
-		for slot3, slot4 in pairs(slot0._unitList) do
-			slot0:RemoveHollow(slot3)
-		end
-
-		setActive(slot0._finale, false)
-		setActive(slot0._go, false)
-	end
+	slot0._isActive = slot1
 
 	if slot1 then
-		if slot0._state == slot0.ANIMATION_STATE_FINALE then
-			slot0._finale:GetComponent("DftAniEvent").enabled = false
-
-			slot3()
-		end
-
 		slot0._state = slot0.ANIMATION_STATE_INITIAL
 
-		for slot7, slot8 in ipairs(slot2) do
-			slot0:AddHollow(slot8)
+		for slot6, slot7 in ipairs(slot2) do
+			slot0:AddHollow(slot7)
 		end
 
-		slot0._initial:GetComponent("DftAniEvent").SetEndEvent(slot4, function (slot0)
-			setActive(slot0._initial, false)
-
-			slot0._state = slot1.ANIMATION_STATE_IDLE
-		end)
 		setActive(slot0._go, true)
-		setActive(slot0._initial, true)
 	else
-		slot0._state = slot0.ANIMATION_STATE_FINALE
+		slot3 = true
 
-		slot0._finale:GetComponent("DftAniEvent").SetEndEvent(slot4, function (slot0)
-			slot0()
+		for slot7, slot8 in pairs(slot0._unitHollowList) do
+			slot0.doHollowScaleAnima(slot8.hollow, 125, 0.3, (slot3 and function ()
+				slot0:RemoveHollow(slot0)
+				setActive(slot0._go, false)
 
-			slot0._state = slot2.ANIMATION_STATE_IDLE
-		end)
+				setActive._state = slot2.ANIMATION_STATE_IDLE
+			end) or nil)
 
-		for slot8, slot9 in pairs(slot0._unitList) do
-			if not slot8:IsMainFleetUnit() then
-				slot0._finaleHollow.position = slot0._unitHollowList[slot8].hollow.position
-
-				break
-			end
+			slot3 = false
 		end
-
-		setActive(slot0._finale, true)
 	end
 end
 
 function slot2.AddHollow(slot0, slot1)
 	slot2 = slot1:GetAttrByName("blindedHorizon")
 
-	if slot0._unitList[slot1] == true then
-		slot0._unitHollowList[slot1].hollow.localScale = Vector3(slot2, slot2, 0)
+	if slot0._unitHollowList[slot1] then
+		if slot3.range ~= slot2 then
+			slot0.doHollowScaleAnima(slot3.hollow, slot2)
+		end
 
+		slot3.range = slot2
+
+		return
+	elseif slot2 == 0 then
 		return
 	end
 
-	slot0._unitList[slot1] = true
-	cloneTplTo(slot0._hollowTpl, slot0._hollowContainer).localScale = Vector3(slot2, slot2, 0)
+	slot4 = cloneTplTo(slot0._hollowTpl, slot0._hollowContainer)
+	slot4.localScale = Vector3(125, 125, 0)
 
+	slot0.doHollowScaleAnima(slot4, slot2)
 	Vector3.zero:Copy(slot1:GetPosition())
 
 	slot0._unitHollowList[slot1] = {
-		hollow = cloneTplTo(slot0._hollowTpl, slot0._hollowContainer),
+		range = slot2,
+		hollow = slot4,
 		pos = Vector3.zero
 	}
 end
 
-function slot2.RemoveHollow(slot0, slot1)
-	slot0._unitList[slot1] = nil
-
-	Destroy(slot0._unitHollowList[slot1].hollow.gameObject)
+function slot2.RemoveHollow(slot0, slot1, slot2)
+	LeanTween.cancel(slot4)
+	Destroy(slot4)
 
 	slot0._unitHollowList[slot1] = nil
+end
+
+function slot2.UpdateHollow(slot0, slot1)
+	for slot5, slot6 in ipairs(slot1) do
+		slot0:AddHollow(slot6)
+	end
+end
+
+function slot2.doHollowScaleAnima(slot0, slot1, slot2, slot3)
+	LeanTween.cancel(go(slot0))
+
+	slot5 = LeanTween.scale(slot0, Vector3(slot1, slot1, 0), slot2 or 0.5)
+
+	if slot3 then
+		slot5:setOnComplete(System.Action(function ()
+			slot0()
+		end))
+	end
 end
 
 function slot2.Dispose(slot0)
 	slot0:SetActive(false)
 
 	for slot4, slot5 in pairs(slot0._unitHollowList) do
+		LeanTween.cancel(slot6)
 		Destroy(slot5.hollow.gameObject)
 	end
 
 	slot0._go = nil
 	slot0._tf = nil
-	slot0._unitList = nil
 	slot0._unitHollowList = nil
 end
 

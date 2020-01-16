@@ -488,7 +488,7 @@ pg.expedition_data_by_map = {
 		bg = "map_9",
 		destory_icon_suffix = "blue",
 		animtor = 0,
-		bind_map = 0,
+		bind_map = 209,
 		clouds_pos = {
 			{
 				76,
@@ -704,6 +704,47 @@ pg.expedition_data_by_map = {
 		title = "12",
 		enter_story = "",
 		level_limit = 75,
+		uifx = "",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "white",
+		bg = "Map_12",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		drop_by_map_display = {}
+	},
+	{
+		map = 13,
+		name = "Mariana's Turmoil Pt. 2",
+		bgm = "level",
+		type = 1,
+		on_activity = 0,
+		title = "13",
+		enter_story = "",
+		level_limit = 80,
 		uifx = "",
 		guide_id = "",
 		ani_name = "",
@@ -1073,6 +1114,51 @@ pg.expedition_data_by_map = {
 			{
 				0,
 				-465
+			}
+		}
+	},
+	[209] = {
+		map = 209,
+		name = "Battle of Kula Gulf",
+		bgm = "level",
+		type = 2,
+		on_activity = 0,
+		title = "9",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 40,
+		uifx = "UIhuohua2",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "purple",
+		bg = "map_209",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 9,
+		clouds_pos = {
+			{
+				76,
+				263
+			},
+			{
+				881,
+				44
+			},
+			{
+				23,
+				-143
+			},
+			{
+				473,
+				163
+			},
+			{
+				514,
+				-245
+			},
+			{
+				830,
+				-109
 			}
 		}
 	},
@@ -4548,6 +4634,7 @@ pg.expedition_data_by_map = {
 		10,
 		11,
 		12,
+		13,
 		201,
 		202,
 		203,
@@ -4556,6 +4643,7 @@ pg.expedition_data_by_map = {
 		206,
 		207,
 		208,
+		209,
 		10000,
 		70000,
 		1040000,

@@ -837,7 +837,7 @@ pg.user_level = {
 		max_oil = 12900,
 		max_collection = 8,
 		max_gold = 77400,
-		exp = 102250,
+		exp = 0,
 		level = 120
 	},
 	all = {

@@ -5,10 +5,6 @@ function slot0.getUIName(slot0)
 	return "LoginUI2"
 end
 
-function slot0.getBGM(slot0)
-	return "login"
-end
-
 function slot0.preload(slot0, slot1)
 	slot0.iconSpries = {}
 

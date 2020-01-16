@@ -231,11 +231,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[101020] = {
-		name = "杜威",
+		name = "Dewey ",
 		ship_group = 10102,
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "法拉格特级驱逐舰—杜威，舷号DD-349",
+		desc = "Farragut-class destroyer – Dewey, Hull Number DD-349. ",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "duwei",
@@ -333,15 +333,15 @@ pg.ship_skin_template = {
 		}
 	},
 	[101022] = {
-		name = "冬夜的感谢",
+		name = "A Christmas Thank-You",
 		ship_group = 10102,
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "列克星敦小姐，把这身圣诞节风格的衣服送给了我，说这是作为她的粉丝的礼物。指挥官，觉得好看吗？",
+		desc = "Lexington gave me this Christmas costume as a thank-you for always supporting her. Commander, do you think I look... pretty in it?",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "duwei_3",
-		no_showing = "1",
+		no_showing = "0",
 		air_bullet_skin = "",
 		bg_sp = "",
 		shop_type_id = 1,
@@ -18638,6 +18638,101 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[107170] = {
+		name = "Bunker Hill ",
+		ship_group = 10717,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "Essex-class aircraft carrier – Bunker Hill, Hull Number CV-17. ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "bangkeshan",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 107170,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "bangkeshan",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 179,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.29,
+					1.03,
+					0
+				}
+			},
+			plane = {
+				{
+					1.41,
+					1.07,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.37,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[107290] = {
 		name = "Bataan ",
 		ship_group = 10729,
@@ -26669,6 +26764,115 @@ pg.ship_skin_template = {
 			main_3 = 1.5
 		}
 	},
+	[202122] = {
+		name = "凛冽的钢之从者",
+		ship_group = 20212,
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "这是引入了白鹰风格的严寒区域用特殊装备。毕竟是以抗寒·特殊行动支援为目的，设计上更偏重于实用、多少有些朴实…关于这点，还请主人多加谅解了",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "beierfasite_5",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = 4,
+		id = 202122,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "beierfasite_5",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70146,
+		voice_actor = 39,
+		air_bomb_skin = "",
+		illustrator = 20,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			-11,
+			-170,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.73,
+					1.165,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.66,
+					1.177,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.688,
+					1.171,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.527,
+							2.327,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202123] = {
 		name = "The Noble Attendant",
 		ship_group = 20212,
@@ -33540,6 +33744,114 @@ pg.ship_skin_template = {
 				{
 					1.105,
 					1.021,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.22,
+							0.566,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.153,
+							1.018,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[206019] = {
+		name = "Hermes (Retrofit) ",
+		ship_group = 20601,
+		group_index = 9,
+		illustrator2 = -1,
+		desc = "Our glory coalesces into the bonds that forge a bright new future! Let's rev it up! Hermes, retrofit complete! ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "jingjishen_g",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = 2,
+		id = 206019,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "jingjishen_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 122,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.96,
+					1.06,
+					0
+				}
+			},
+			plane = {
+				{
+					0.96,
+					1.06,
 					0
 				}
 			}
@@ -50377,33 +50689,33 @@ pg.ship_skin_template = {
 			}
 		}
 	},
-	[302201] = {
-		name = "Christmas Eve Tease",
+	[302202] = {
+		name = "Dating Game?",
 		ship_group = 30220,
-		group_index = 1,
+		group_index = 2,
 		illustrator2 = -1,
-		desc = "Even though I'm not really into this whole \"Christmas\" thing, if it means I get to toy around with your heart by wearing this cute outfit of mine, then I suppose I would be interested. Hehe~",
+		desc = "\"Oh my, you're also out for a stroll? Hehe, my name's Agano. And what might yours be?\" ...Jeez, Commander, take this more seriously. According to the setting, we just met for the first time.",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
-		painting = "aheye_3",
+		painting = "aheye_2",
 		no_showing = "0",
 		air_bullet_skin = "",
 		bg_sp = "",
-		shop_type_id = 1,
+		shop_type_id = 9,
 		hand_id = 2,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bgm = "",
-		bg = "125",
+		bg = "113",
 		skin_type = 0,
-		id = 302201,
+		id = 302202,
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
-		prefab = "aheye_3",
+		prefab = "aheye_2",
 		l2d_se = "",
 		aircraft_skin = "",
 		main_UI_FX = "",
-		shop_id = 70279,
+		shop_id = 70299,
 		voice_actor = 132,
 		air_bomb_skin = "",
 		illustrator = 41,
@@ -50413,7 +50725,7 @@ pg.ship_skin_template = {
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
 		tag = {
-			4
+			2
 		},
 		live2d_offset = {
 			0,
@@ -50446,28 +50758,28 @@ pg.ship_skin_template = {
 			cannon = {
 				{
 					1.2,
-					1.108,
+					1.07,
 					0
 				}
 			},
 			vicegun = {
 				{
-					1.161,
-					1.107,
+					1.14,
+					0.97,
 					0
 				}
 			},
 			torpedo = {
 				{
-					0.003,
+					0.03,
 					0.002,
 					0
 				}
 			},
 			antiaircraft = {
 				{
-					1.13,
-					1.195,
+					0.99,
+					1.08,
 					0
 				}
 			}
@@ -91278,7 +91590,7 @@ pg.ship_skin_template = {
 		},
 		[30220] = {
 			302200,
-			302201
+			302202
 		},
 		[30214] = {
 			302140
@@ -91566,7 +91878,8 @@ pg.ship_skin_template = {
 			206034
 		},
 		[20601] = {
-			206010
+			206010,
+			206019
 		},
 		[20507] = {
 			205070,
@@ -91690,6 +92003,7 @@ pg.ship_skin_template = {
 		[20212] = {
 			202120,
 			202121,
+			202122,
 			202123,
 			202124,
 			202128
@@ -91831,6 +92145,9 @@ pg.ship_skin_template = {
 		[10729] = {
 			107290,
 			107291
+		},
+		[10717] = {
+			107170
 		},
 		[10709] = {
 			107090,
@@ -92358,6 +92675,7 @@ pg.ship_skin_template = {
 		107080,
 		107090,
 		107091,
+		107170,
 		107290,
 		107291,
 		107380,
@@ -92430,6 +92748,7 @@ pg.ship_skin_template = {
 		202112,
 		202120,
 		202121,
+		202122,
 		202123,
 		202124,
 		202128,
@@ -92491,6 +92810,7 @@ pg.ship_skin_template = {
 		205070,
 		205072,
 		206010,
+		206019,
 		206030,
 		206031,
 		206032,
@@ -92644,7 +92964,7 @@ pg.ship_skin_template = {
 		302139,
 		302140,
 		302200,
-		302201,
+		302202,
 		302210,
 		302211,
 		303010,

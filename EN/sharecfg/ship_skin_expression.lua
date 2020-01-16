@@ -11593,6 +11593,37 @@ pg.ship_skin_expression = {
 		battle = "2",
 		login = "4",
 		detail = "1"
+	},
+	aheye_2 = {
+		default = "",
+		feeling3 = "",
+		main_1 = "",
+		touch = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		unlock = "",
+		touch2 = "",
+		mail = "",
+		painting = "aheye_2",
+		mission = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		feeling1 = "",
+		profile = "",
+		feeling4 = "",
+		feeling5 = "",
+		propose = "",
+		hp_warning = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		skill = "",
+		battle = "",
+		login = "",
+		detail = ""
 	}
 }
 
