@@ -713,22 +713,22 @@ pg.gameset = {
 	air_dominance_p = {
 		description = "",
 		key = "air_dominance_p",
-		key_value = 20
+		key_value = 10
 	},
 	air_dominance_q = {
 		description = "",
 		key = "air_dominance_q",
-		key_value = 10
+		key_value = 5
 	},
 	air_dominance_s = {
 		description = "",
 		key = "air_dominance_s",
-		key_value = 12
+		key_value = 6
 	},
 	air_dominance_t = {
 		description = "",
 		key = "air_dominance_t",
-		key_value = 8
+		key_value = 4
 	},
 	air_dominance_r = {
 		description = "",

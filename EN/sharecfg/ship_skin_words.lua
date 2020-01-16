@@ -9764,7 +9764,6 @@ pg.ship_skin_words = {
 		touch = "My honourable Master, allow me to protect you from the sun.",
 		feeling3 = "",
 		ID = 202202,
-		couple_encourage = "",
 		expedition = "",
 		win_mvp = "",
 		home = "",
@@ -9791,7 +9790,8 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "No matter where we are, I shall do my utmost to keep you safe. My honourable Master, simply enjoy yourself, however you please.",
 		vote = "",
-		detail = "Worry not, for I have come prepared for every occasion. Food, drinks, magazines, sunscreen, contingency combat armaments, life-saving equipment, and... a cat? Why are you here? ...Oh, umm, I was just talking to myself!"
+		detail = "Worry not, for I have come prepared for every occasion. Food, drinks, magazines, sunscreen, contingency combat armaments, life-saving equipment, and... a cat? Why are you here? ...Oh, umm, I was just talking to myself!",
+		couple_encourage = {}
 	},
 	[202240] = {
 		touch = "Commander? Something about my body caught your attention, did it?",
@@ -17202,6 +17202,39 @@ pg.ship_skin_words = {
 			}
 		}
 	},
+	[302201] = {
+		touch = "*Giggle*, while I do enjoy a bit of teasing, being on good terms with you is more important. Commander, how about we set some time aside to watch the snowfall later?",
+		feeling3 = "",
+		ID = 302201,
+		expedition = "",
+		win_mvp = "",
+		home = "I'd like to offer you a reward for working so diligently, even on a day as special as this.",
+		mission = "",
+		touch2 = "Oh my, it appears my costume has caused an unintended development♪",
+		feeling1 = "",
+		skill = "",
+		drop_descrip = "Even though I'm not really into this whole \"Christmas\" thing, if it means I get to toy around with your heart by wearing this cute outfit of mine, then I suppose I would be interested. Hehe~",
+		mail = "",
+		lose = "",
+		propose = "",
+		hp_warning = "",
+		upgrade = "",
+		voice_key = 0,
+		feeling5 = "",
+		main = "Commander, would you please stand over there for a moment? I need an accurate reference for the snow sculpture I'm making~|You've done well, Commander. Please get yourself some hard-earned sleep tonight. Ah, you thought I was teasing you with that request? *Giggle*~|Commander, what are you wishing for this Christmas? Ah, you don't need to consider your options at length. I picked out your present long ago, you see♪",
+		voice_key_2 = -1,
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		feeling4 = "",
+		unlock = "Even though I'm not really into this whole \"Christmas\" thing, if it means I get to toy around with your heart by wearing this cute outfit of mine, then I suppose I would be interested. Hehe~",
+		battle = "",
+		login = "Oh, aren't you back early? May I suggest starting with a review of today's schedule?",
+		vote = "",
+		detail = "Is this a satisfactory pose for the occasion, Commander? Or would it suit you better if I stuck out my chest slightly more?",
+		couple_encourage = {}
+	},
 	[302202] = {
 		touch = "",
 		feeling3 = "",
@@ -18982,7 +19015,6 @@ pg.ship_skin_words = {
 		touch = "It was so romantic when I bumped into Commander when I turned around the corner... Maybe next time, I'll wait there on purpose... Eek! Ah, um, you didn't hear anything!",
 		feeling3 = "",
 		ID = 305026,
-		couple_encourage = "",
 		expedition = "",
 		win_mvp = "",
 		home = "Good work, Milord! Let's go up to the roof to eat lunch together~",
@@ -19009,7 +19041,8 @@ pg.ship_skin_words = {
 		battle = "",
 		login = "Milord, here's your bento~ I made it myself!",
 		vote = "",
-		detail = "Milord, Milord, my friends from the other camps taught me all kinds of neat stuff! To thank them, I also taught them about some of our traditional games!"
+		detail = "Milord, Milord, my friends from the other camps taught me all kinds of neat stuff! To thank them, I also taught them about some of our traditional games!",
+		couple_encourage = {}
 	},
 	[305028] = {
 		touch = "Milord, I want to touch you as well! *Rub rub~ pat pat~*!",
@@ -29669,6 +29702,7 @@ pg.ship_skin_words = {
 		302139,
 		302140,
 		302200,
+		302201,
 		302202,
 		302210,
 		302211,

@@ -4840,7 +4840,7 @@ pg.enemy_data_statistics = {
 	},
 	[130] = {
 		cannon = 0,
-		name = "岸防舰",
+		name = "Coastal Defense Ship ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -5126,7 +5126,7 @@ pg.enemy_data_statistics = {
 	},
 	[132] = {
 		cannon = 0,
-		name = "维修舰A",
+		name = "Repair Ship A ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -5262,7 +5262,7 @@ pg.enemy_data_statistics = {
 	},
 	[133] = {
 		cannon = 0,
-		name = "防空舰",
+		name = "Anti-Air Ship ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -5398,7 +5398,7 @@ pg.enemy_data_statistics = {
 	},
 	[134] = {
 		cannon = 0,
-		name = "维修舰S",
+		name = "Repair Ship S ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
