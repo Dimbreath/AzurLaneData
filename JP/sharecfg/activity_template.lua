@@ -148,6 +148,45 @@ pg.activity_template = {
 			}
 		}
 	},
+	[40] = {
+		mark = 20191121,
+		title_res_tag = "",
+		type = 0,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "",
+		config_client = "",
+		bg = "",
+		id = 40,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[368] = {
 		mark = 20190911,
 		title_res_tag = "story_award",
@@ -2209,9 +2248,9 @@ pg.activity_template = {
 			timer,
 			{
 				{
-					2019,
-					11,
-					22
+					2020,
+					1,
+					17
 				},
 				{
 					0,
@@ -2221,9 +2260,9 @@ pg.activity_template = {
 			},
 			{
 				{
-					2019,
-					12,
-					1
+					2020,
+					1,
+					26
 				},
 				{
 					23,
@@ -3229,6 +3268,7 @@ pg.activity_template = {
 		9,
 		18,
 		21,
+		40,
 		368,
 		369,
 		370,

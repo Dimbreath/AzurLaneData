@@ -5,7 +5,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 0,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>デフォルトのフレーム。</color>\n秘書艦がケッコン済み艦船の場合は「ケッコン」仕様になります",
+		desc = "<color=#ffffff>デフォルトのフレーム。</color>\n<size=26>秘書艦がケッコン済み艦船の場合は「ケッコン」仕様になります</size>",
 		scene = {}
 	},
 	[101] = {
@@ -73,7 +73,7 @@ pg.item_data_frame = {
 		scene = {}
 	},
 	[302] = {
-		name = "鉄血の誓い ",
+		name = "鉄血の誓い",
 		time_second = 0,
 		id = 302,
 		time_limit_type = 0,

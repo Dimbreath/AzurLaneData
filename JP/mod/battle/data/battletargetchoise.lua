@@ -585,6 +585,11 @@ ys.Battle.BattleTargetChoise = {
 			ys.Battle.BattleDataProxy.GetInstance():GetFleetByIFF(slot0:GetIFF()):GetFlagShip()
 		}
 	end,
+	TargetPlayerLeaderShip = function (slot0, slot1, slot2)
+		return {
+			ys.Battle.BattleDataProxy.GetInstance():GetFleetByIFF(slot0:GetIFF()):GetLeaderShip()
+		}
+	end,
 	TargetPlayerByType = function (slot0, slot1)
 		slot4 = {}
 		slot5 = slot1.shipType

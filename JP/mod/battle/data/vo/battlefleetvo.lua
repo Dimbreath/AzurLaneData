@@ -284,6 +284,10 @@ function slot7.GetFlagShip(slot0)
 	return slot0._flagShip
 end
 
+function slot7.GetLeaderShip(slot0)
+	return slot0._scoutList[1]
+end
+
 function slot7.GetUnitList(slot0)
 	return slot0._unitList
 end
@@ -1003,6 +1007,10 @@ function slot7.Blinding(slot0, slot1)
 	slot0:DispatchEvent(slot0.Event.New(slot1.FLEET_BLIND, {
 		isBlind = slot1
 	}))
+end
+
+function slot7.UpdateHorizon(slot0)
+	slot0:DispatchEvent(slot0.Event.New(slot1.FLEET_HORIZON_UPDATE, {}))
 end
 
 return

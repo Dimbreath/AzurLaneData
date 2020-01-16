@@ -12,9 +12,16 @@ function slot2.EnterCoolDown(slot0)
 	return
 end
 
-function slot2.OverHeat(slot0)
-	slot0.super.OverHeat(slot0)
+function slot2.Fire(slot0)
+	slot0.super.Fire(slot0)
+	slot0._playerTorpedoVO:Deduct(slot0)
 	slot0._playerTorpedoVO:DispatchOverLoadChange()
+
+	return true
+end
+
+function slot2.OverHeat(slot0)
+	slot0._currentState = slot0.STATE_OVER_HEAT
 end
 
 function slot2.GetType(slot0)

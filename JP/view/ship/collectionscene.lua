@@ -4,8 +4,6 @@ slot0.GET_AWARD = "event get award"
 slot0.ACTIVITY_OP = "event activity op"
 slot0.BEGIN_STAGE = "event begin state"
 slot0.ON_INDEX = "event on index"
-slot0.GO_LEVEL = "event go level"
-slot0.GO_SCENE = "event go scene"
 slot0.ShipOrderAsc = false
 slot0.ShipIndex = {
 	display = {
@@ -25,11 +23,7 @@ slot0.ShipIndex = {
 }
 
 function slot0.getUIName(slot0)
-	return "collectionui"
-end
-
-function slot0.getBGM(slot0)
-	return "main"
+	return "CollectionUI"
 end
 
 function slot0.setShipGroups(slot0, slot1)
@@ -64,7 +58,6 @@ function slot0.init(slot0)
 	slot0.leftPanel = slot0:findTF("blur_panel/adapt/left_length")
 	slot0.UIMgr = pg.UIMgr.GetInstance()
 	slot0.backBtn = findTF(slot0.top, "back_btn")
-	slot0.skipableMsgBoxTF = slot0:findTF("skipableMsgBox")
 	slot0.contextData.toggle = slot0.contextData.toggle or 2
 	slot0.toggles = {
 		slot0:findTF("frame/tagRoot/card", slot0.leftPanel),
@@ -336,97 +329,28 @@ function slot0.onInitCard(slot0, slot1)
 				slot0.contextData:emit(slot1.SHOW_DETAIL, slot2.showTrans, slot2.shipGroup.id)
 			end))
 		elseif slot0.state == ShipGroup.STATE_NOTGET and slot0.config then
-			slot1:showSkipableMsgBox(slot0.config.description, slot0.shipGroup:getShipConfigId())
+			slot1:showObtain(slot0.config.description, slot0.shipGroup:getShipConfigId())
 		end
 	end, SOUND_BACK)
 
 	slot0.cardItems[slot1] = CollectionShipCard.New(slot1)
 end
 
-function slot0.showSkipableMsgBox(slot0, slot1, slot2)
-	if slot0.isShowSkipableMsg then
-		return
-	end
+function slot0.showObtain(slot0, slot1, slot2)
+	slot0.contextData.cardScrollValue = slot0.cardList.value
 
-	slot0.isShowSkipableMsg = true
-
-	pg.UIMgr.GetInstance():BlurPanel(slot0.skipableMsgBoxTF)
-	setActive(slot0.skipableMsgBoxTF, slot0.isShowSkipableMsg)
-
-	if not slot0.skipableList then
-		slot3 = slot0.skipableMsgBoxTF:Find("window/item/skipable_list")
-		slot0.skipableList = UIItemList.New(slot3, slot4)
-
-		onButton(slot0, findTF(slot0.skipableMsgBoxTF, "window/top/btnBack"), function ()
-			slot0:closeSkipableMsgBox()
-		end, SFX_PANEL)
-		onButton(slot0, slot0.skipableMsgBoxTF, function ()
-			slot0:closeSkipableMsgBox()
-		end, SFX_PANEL)
-	end
-
-	updateDrop(slot0:findTF("window/item", slot0.skipableMsgBoxTF), slot3)
-	slot0.skipableList:make(function (slot0, slot1, slot2)
-		if slot0 == UIItemList.EventUpdate then
-			slot6 = slot0[slot1 + 1][3]
-
-			setText(slot2:Find("title"), slot4)
-			setActive(slot2:Find("skip_btn"), slot0[slot1 + 1][2][1] ~= "")
-
-			if slot5[1] ~= "" then
-				onButton(slot1, slot2:Find("skip_btn"), function ()
-					if slot0 and slot0 ~= 0 and (not getProxy(ActivityProxy):getActivityById(getProxy(ActivityProxy).getActivityById) or slot0:isEnd()) then
-						pg.TipsMgr.GetInstance():ShowTips(i18n("collection_way_is_unopen"))
-
-						return
-					end
-
-					if slot1[1] == "LEVEL" and slot1[2] then
-						slot2.contextData.cardScrollValue = slot2.cardList.value
-
-						slot2:emit(slot3.GO_LEVEL, slot1[2].chapterid)
-					elseif slot1[1] == "COLLECTSHIP" then
-						slot0 = 0
-						slot1 = slot1[2].shipGroupId
-
-						for slot5, slot6 in ipairs(slot2.favoriteVOs) do
-							if slot6:containShipGroup(slot1) then
-								slot0 = slot5
-
-								break
-							end
-						end
-
-						if not slot2.isInitDisplay then
-							slot2:initDisplayPanel()
-						end
-
-						slot2.contextData.displayPos = slot2.displayRect:HeadIndexToValue(slot0 - 1)
-
-						triggerToggle(slot2.toggles[2], true)
-						triggerToggle:closeSkipableMsgBox()
-					elseif slot1[1] == "SHOP" and slot1[2].warp == "supplies" and not pg.SystemOpenMgr.GetInstance():isOpenSystem(slot2.player.level, "MilitaryExerciseMediator") then
-						pg.TipsMgr.GetInstance():ShowTips(i18n("military_shop_no_open_tip"))
-					else
-						slot2.contextData.cardScrollValue = slot2.cardList.value
-
-						slot2:emit(slot3.GO_SCENE, SCENE[slot1[1]], slot1[2])
-					end
-				end, SFX_PANEL)
-			end
-		end
-	end)
-	slot0.skipableList:align(#slot1)
+	pg.MsgboxMgr.GetInstance():ShowMsgBox({
+		type = MSGBOX_TYPE_OBTAIN,
+		shipId = slot2,
+		list = slot1,
+		mediatorName = CollectionMediator.__cname
+	})
 end
 
-function slot0.closeSkipableMsgBox(slot0)
-	if slot0.isShowSkipableMsg then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.skipableMsgBoxTF, slot0._tf)
+function slot0.skipIn(slot0, slot1, slot2)
+	slot0.contextData.displayGroupId = slot2
 
-		slot0.isShowSkipableMsg = false
-
-		setActive(slot0.skipableMsgBoxTF, slot0.isShowSkipableMsg)
-	end
+	triggerToggle(slot0.toggles[slot1], true)
 end
 
 function slot0.onUpdateCard(slot0, slot1, slot2)
@@ -588,7 +512,20 @@ function slot0.sortDisplay(slot0)
 			return slot2 < slot3
 		end
 	end)
-	slot0.displayRect:SetTotalCount(#slot0.favoriteVOs, (slot0.contextData.displayPos and slot0.contextData.displayPos) or 0)
+	slot0.displayRect:SetTotalCount(#slot0.favoriteVOs)
+
+	slot1 = 0
+	slot2 = slot0.contextData.displayGroupId
+
+	for slot6, slot7 in ipairs(slot0.favoriteVOs) do
+		if slot7:containShipGroup(slot2) then
+			slot1 = slot6
+
+			break
+		end
+	end
+
+	slot0.displayRect:ScrollTo(slot0.displayRect:HeadIndexToValue(slot1 - 1))
 end
 
 function slot0.initDisplayPanel(slot0)
@@ -891,8 +828,6 @@ function slot0.willExit(slot0)
 		slot5:clear()
 	end
 
-	slot0:closeSkipableMsgBox()
-
 	if slot0.resPanel then
 		slot0.resPanel:exit()
 
@@ -905,12 +840,6 @@ function slot0.onBackPressed(slot0)
 
 	if slot0.bonusPanel.gameObject.activeSelf then
 		slot0:closeBonus()
-
-		return
-	end
-
-	if slot0.isShowSkipableMsg then
-		slot0:closeSkipableMsgBox()
 
 		return
 	end

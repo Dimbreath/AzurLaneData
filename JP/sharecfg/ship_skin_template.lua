@@ -53456,6 +53456,116 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[302202] = {
+		ship_group = 30220,
+		name = "デートゲーム？",
+		bg_sp = "",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "「あら、あなたも散歩ですか？ふふ、私の名前は阿賀野、貴方は？」…もう、指揮官様、真面目にやりなさいな。このデートゲーム、私たち初めて出会ったばかりの設定ですわ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "aheye_2",
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		hand_id = 2,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "113",
+		skin_type = 0,
+		id = 302202,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "aheye_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70299,
+		voice_actor = 132,
+		air_bomb_skin = "",
+		illustrator = 41,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.2,
+					1.07,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.14,
+					0.97,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.03,
+					0.002,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.99,
+					1.08,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.51,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[302210] = {
 		ship_group = 30221,
 		name = "能代",
@@ -57319,7 +57429,7 @@ pg.ship_skin_template = {
 		bg_sp = "",
 		group_index = 3,
 		illustrator2 = -1,
-		desc = "「指揮官、ここで会ったが百年目、この霧島の刀のサビにしてくれる」――なんて冗談よ！冗談！で？この格好、どうだ？",
+		desc = "「指揮官、ここで会ったが百年目、この霧島の刀のサビにしてくれる」――なんて冗談だ！冗談！で？正月のために用意したこの格好、どうだ？",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "wudao_4",
@@ -97269,7 +97379,8 @@ pg.ship_skin_template = {
 		},
 		[30220] = {
 			302200,
-			302201
+			302201,
+			302202
 		},
 		[30214] = {
 			302140
@@ -98714,6 +98825,7 @@ pg.ship_skin_template = {
 		302140,
 		302200,
 		302201,
+		302202,
 		302210,
 		302211,
 		303010,
