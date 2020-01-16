@@ -1,18 +1,19 @@
+slot0 = singletonClass("PoolMgr")
 pg = pg or {}
-slot0 = require("Mgr/Pool/PoolPlural")
-slot1 = require("Mgr/Pool/PoolSingleton")
-slot2 = require("Mgr/Pool/PoolObjPack")
-slot3 = require("Mgr/Pool/PoolUtil")
-PoolMgr = singletonClass("PoolMgr")
-pg.PoolMgr = PoolMgr
+pg.PoolMgr = slot0
+PoolMgr = slot0
+slot1 = require("Mgr/Pool/PoolPlural")
+slot2 = require("Mgr/Pool/PoolSingleton")
+slot3 = require("Mgr/Pool/PoolObjPack")
+slot4 = require("Mgr/Pool/PoolUtil")
+slot5 = ResourceMgr.Inst
 
-function pg.PoolMgr.Ctor(slot0)
+function slot0.Ctor(slot0)
 	slot0.root = GameObject.New("__Pool__").transform
 	slot0.pools_plural = {}
 	slot0.pools_single = {}
 	slot0.pools_pack = {}
 	slot0.callbacks = {}
-	slot0.callingkey = nil
 	slot0.pluralIndex = 0
 	slot0.singleIndex = 0
 	slot0.paintingCount = 0
@@ -101,15 +102,11 @@ function pg.PoolMgr.Ctor(slot0)
 	slot0.tempCacheLink = {}
 end
 
-function pg.PoolMgr.Init(slot0, slot1)
+function slot0.Init(slot0, slot1)
 	print("initializing pool manager...")
 
 	slot2 = 0
-	slot3 = 0
-
-	for slot7, slot8 in pairs(slot0.preloads) do
-		slot3 = slot3 + 1
-	end
+	slot3 = table.nums(slot0.preloads)
 
 	function slot4()
 		if slot0 + 1 == slot1 then
@@ -129,14 +126,14 @@ function pg.PoolMgr.Init(slot0, slot1)
 				end)
 			end
 		else
-			ResourceMgr.Inst:loadAssetBundleAsync(slot8, function (slot0)
+			slot0:loadAssetBundleAsync(slot8, function (slot0)
 				slot0()
 			end)
 		end
 	end
 end
 
-function pg.PoolMgr.GetSpineChar(slot0, slot1, slot2, slot3)
+function slot0.GetSpineChar(slot0, slot1, slot2, slot3)
 	function slot6()
 		slot0.pools_plural[slot1].index = slot0.pluralIndex
 		slot0.pluralIndex = slot0.pluralIndex + 1
@@ -161,7 +158,7 @@ function pg.PoolMgr.GetSpineChar(slot0, slot1, slot2, slot3)
 	end
 end
 
-function pg.PoolMgr.ReturnSpineChar(slot0, slot1, slot2)
+function slot0.ReturnSpineChar(slot0, slot1, slot2)
 	slot4 = slot3 .. slot1
 
 	if IsNil(slot2) then
@@ -182,7 +179,7 @@ function pg.PoolMgr.ReturnSpineChar(slot0, slot1, slot2)
 	end
 end
 
-function pg.PoolMgr.ExcessSpineChar(slot0)
+function slot0.ExcessSpineChar(slot0)
 	slot1 = 0
 	slot2 = 6
 	slot3 = {}
@@ -212,11 +209,11 @@ function pg.PoolMgr.ExcessSpineChar(slot0)
 	end
 end
 
-function pg.PoolMgr.GetSpineSkel(slot0, slot1, slot2, slot3)
+function slot0.GetSpineSkel(slot0, slot1, slot2, slot3)
 	slot0:FromSingle("char/" .. slot1, slot1 .. "_SkeletonData", slot2, slot3)
 end
 
-function pg.PoolMgr.ClearSpineSkel(slot0, slot1)
+function slot0.ClearSpineSkel(slot0, slot1)
 	if slot0.pools_single[slot2 .. slot1 .. "_SkeletonData"] then
 		slot0.pools_single[slot3]:Clear()
 
@@ -224,7 +221,7 @@ function pg.PoolMgr.ClearSpineSkel(slot0, slot1)
 	end
 end
 
-function pg.PoolMgr.IsSpineSkelCached(slot0, slot1)
+function slot0.IsSpineSkelCached(slot0, slot1)
 	return slot0.pools_single[slot2 .. slot1 .. "_SkeletonData"] ~= nil
 end
 
@@ -249,24 +246,23 @@ slot7 = {
 }
 slot8 = {}
 
-function pg.PoolMgr.GetUI(slot0, slot1, slot2, slot3)
+function slot0.GetUI(slot0, slot1, slot2, slot3)
 	slot0:FromPlural("ui/" .. slot1, slot1, slot2, (table.contains(slot0, slot1) and 3) or 1, function (slot0)
-		if table.indexof(function ()
-			slot0(slot1)
-		end, table.indexof) then
-			slot4.pools_plural[slot3 .. ].prefab:GetComponent(typeof(UIArchiver)):Clear()
+		slot0:SetActive(false)
+
+		if table.indexof(slot0, function ()
+			print(slot0 .. "/" .. slot0)
+			"/"(slot0)
+		end) then
+			slot4.pools_plural[slot0 .. slot1].prefab:GetComponent(typeof(UIArchiver)):Clear()
 			slot0:GetComponent(typeof(UIArchiver)):Load(slot1)
 		else
 			slot1()
 		end
-	end, function (slot0)
-		slot0:SetActive(false)
-
-		return slot0
 	end, table.contains(slot1, slot1) or table.contains(slot2, slot1))
 end
 
-function pg.PoolMgr.ReturnUI(slot0, slot1, slot2)
+function slot0.ReturnUI(slot0, slot1, slot2)
 	slot4 = slot3 .. slot1
 
 	if IsNil(slot2) then
@@ -286,23 +282,23 @@ function pg.PoolMgr.ReturnUI(slot0, slot1, slot2)
 		else
 			slot0.pools_plural[slot4]:Enqueue(slot2, true)
 
-			if slot0.pools_plural[slot4]:AllReturned() and slot0.callingkey ~= slot4 then
-				ResourceMgr.Inst:ClearBundleRef(slot3, true, true)
+			if slot0.pools_plural[slot4]:AllReturned() then
+				slot3:ClearBundleRef(slot3, true, true)
 				slot0.pools_plural[slot4]:Clear()
 
 				slot0.pools_plural[slot4] = nil
 			end
 		end
 	else
-		slot3.Destroy(slot2)
+		slot4.Destroy(slot2)
 	end
 end
 
-function pg.PoolMgr.HasCacheUI(slot0, slot1)
+function slot0.HasCacheUI(slot0, slot1)
 	return slot0.pools_plural[slot2 .. slot1] ~= nil
 end
 
-function pg.PoolMgr.PreloadUI(slot0, slot1, slot2)
+function slot0.PreloadUI(slot0, slot1, slot2)
 	slot0:GetUI(slot1, true, function (slot0)
 		slot0:ReturnUI(slot0.ReturnUI, slot0)
 
@@ -312,7 +308,7 @@ function pg.PoolMgr.PreloadUI(slot0, slot1, slot2)
 	end)
 end
 
-function pg.PoolMgr.AddTempCache(slot0, slot1, slot2)
+function slot0.AddTempCache(slot0, slot1, slot2)
 	if slot0.tempCacheLink[slot1] == nil then
 		slot0.tempCacheLink[slot1] = {}
 	end
@@ -325,7 +321,7 @@ function pg.PoolMgr.AddTempCache(slot0, slot1, slot2)
 	end)
 end
 
-function pg.PoolMgr.DelTempCache(slot0, slot1)
+function slot0.DelTempCache(slot0, slot1)
 	if slot0.tempCacheLink[slot1] ~= nil then
 		_.each(slot0.tempCacheLink[slot1], function (slot0)
 			if table.contains(slot0.ui_tempCache, slot0) then
@@ -337,7 +333,7 @@ function pg.PoolMgr.DelTempCache(slot0, slot1)
 	end
 end
 
-function pg.PoolMgr.GetPainting(slot0, slot1, slot2, slot3)
+function slot0.GetPainting(slot0, slot1, slot2, slot3)
 	slot5 = slot4 .. slot1
 
 	slot0:FromPlural("painting/" .. slot1, slot1, slot2, 1, function (slot0)
@@ -348,12 +344,10 @@ function pg.PoolMgr.GetPainting(slot0, slot1, slot2, slot3)
 		end
 
 		slot1(slot0)
-	end, function (slot0)
-		return slot0 or ResourceMgr.Inst:getAssetSync("painting/unknown", "unknown", true, false)
 	end, true)
 end
 
-function pg.PoolMgr.ReturnPainting(slot0, slot1, slot2)
+function slot0.ReturnPainting(slot0, slot1, slot2)
 	slot4 = slot3 .. slot1
 
 	if IsNil(slot2) then
@@ -372,7 +366,7 @@ function pg.PoolMgr.ReturnPainting(slot0, slot1, slot2)
 	end
 end
 
-function pg.PoolMgr.ExcessPainting(slot0)
+function slot0.ExcessPainting(slot0)
 	slot1 = 0
 	slot2 = 4
 	slot3 = {}
@@ -394,7 +388,7 @@ function pg.PoolMgr.ExcessPainting(slot0)
 			slot0.pools_plural[slot3[slot7]] = nil
 		end
 
-		ResourceMgr.Inst:unloadUnusedAssetBundles()
+		slot0:unloadUnusedAssetBundles()
 
 		slot0.paintingCount = slot0.paintingCount + 1
 
@@ -406,18 +400,18 @@ function pg.PoolMgr.ExcessPainting(slot0)
 	end
 end
 
-function pg.PoolMgr.GetSprite(slot0, slot1, slot2, slot3, slot4)
+function slot0.GetSprite(slot0, slot1, slot2, slot3, slot4)
 	slot0:FromObjPack(slot1, tostring(slot2), slot3, typeof(Sprite), function (slot0)
 		slot0(slot0)
 	end)
 end
 
-function pg.PoolMgr.DecreasSprite(slot0, slot1, slot2)
+function slot0.DecreasSprite(slot0, slot1, slot2)
 	slot4 = typeof(Sprite)
 
 	if slot0.pools_pack[slot1] and slot0.pools_pack[slot3].type == slot4 then
 		if slot0.pools_pack[slot3]:Remove(slot2) then
-			ResourceMgr.Inst:ClearBundleRef(slot3, true, false)
+			slot0:ClearBundleRef(slot3, true, false)
 		end
 
 		if slot0.pools_pack[slot3]:GetAmount() <= 0 then
@@ -428,7 +422,7 @@ function pg.PoolMgr.DecreasSprite(slot0, slot1, slot2)
 	end
 end
 
-function pg.PoolMgr.DestroySprite(slot0, slot1)
+function slot0.DestroySprite(slot0, slot1)
 	slot3 = typeof(Sprite)
 
 	if slot0.pools_pack[slot1] and slot0.pools_pack[slot2].type == slot3 then
@@ -437,12 +431,12 @@ function pg.PoolMgr.DestroySprite(slot0, slot1)
 		slot0.pools_pack[slot2] = nil
 
 		for slot8 = 1, slot0.pools_pack[slot2]:GetAmount(), 1 do
-			ResourceMgr.Inst:ClearBundleRef(slot2, true, false)
+			slot0:ClearBundleRef(slot2, true, false)
 		end
 	end
 end
 
-function pg.PoolMgr.DestroyAllSprite(slot0)
+function slot0.DestroyAllSprite(slot0)
 	slot1 = {}
 	slot2 = typeof(Sprite)
 
@@ -458,14 +452,14 @@ function pg.PoolMgr.DestroyAllSprite(slot0)
 		slot0.pools_pack[slot6] = nil
 
 		for slot12 = 1, slot0.pools_pack[slot6]:GetAmount(), 1 do
-			ResourceMgr.Inst:ClearBundleRef(slot6, true, false)
+			slot0:ClearBundleRef(slot6, true, false)
 		end
 	end
 
-	ResourceMgr.Inst:unloadUnusedAssetBundles()
+	slot0:unloadUnusedAssetBundles()
 end
 
-function pg.PoolMgr.DisplayPoolPacks(slot0)
+function slot0.DisplayPoolPacks(slot0)
 	slot1 = ""
 
 	for slot5, slot6 in pairs(slot0.pools_pack) do
@@ -489,7 +483,7 @@ function pg.PoolMgr.DisplayPoolPacks(slot0)
 	warning(slot1)
 end
 
-function pg.PoolMgr.SpriteMemUsage(slot0)
+function slot0.SpriteMemUsage(slot0)
 	slot1 = 0
 	slot2 = 9.5367431640625e-07
 	slot3 = typeof(Sprite)
@@ -529,7 +523,7 @@ slot10 = {
 	"world/"
 }
 
-function pg.PoolMgr.GetPrefab(slot0, slot1, slot2, slot3, slot4, slot5)
+function slot0.GetPrefab(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = slot1 .. slot2
 
 	slot0:FromPlural(slot1, slot2, slot3, slot5 or slot0, function (slot0)
@@ -539,10 +533,10 @@ function pg.PoolMgr.GetPrefab(slot0, slot1, slot2, slot3, slot4, slot5)
 
 		slot0:SetActive(true)
 		slot0:SetActive()
-	end, nil, true)
+	end, true)
 end
 
-function pg.PoolMgr.ReturnPrefab(slot0, slot1, slot2, slot3, slot4)
+function slot0.ReturnPrefab(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot1 .. slot2
 
 	if IsNil(slot3) then
@@ -564,17 +558,17 @@ function pg.PoolMgr.ReturnPrefab(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function pg.PoolMgr.DestroyPrefab(slot0, slot1, slot2)
+function slot0.DestroyPrefab(slot0, slot1, slot2)
 	if slot0.pools_plural[slot1 .. slot2] then
 		slot0.pools_plural[slot3]:Clear()
 
 		slot0.pools_plural[slot3] = nil
 
-		ResourceMgr.Inst:ClearBundleRef(slot1, true, false)
+		slot0:ClearBundleRef(slot1, true, false)
 	end
 end
 
-function pg.PoolMgr.DestroyAllPrefab(slot0)
+function slot0.DestroyAllPrefab(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.pools_plural) do
@@ -582,7 +576,7 @@ function pg.PoolMgr.DestroyAllPrefab(slot0)
 			return string.find(slot0, slot0) == 1
 		end) then
 			slot6:Clear()
-			ResourceMgr.Inst:ClearBundleRef(slot5, true, false)
+			slot1:ClearBundleRef(slot5, true, false)
 			table.insert(slot1, slot5)
 		end
 	end
@@ -592,7 +586,7 @@ function pg.PoolMgr.DestroyAllPrefab(slot0)
 	end)
 end
 
-function pg.PoolMgr.DisplayPluralPools(slot0)
+function slot0.DisplayPluralPools(slot0)
 	slot1 = ""
 
 	for slot5, slot6 in pairs(slot0.pools_plural) do
@@ -614,8 +608,8 @@ function pg.PoolMgr.DisplayPluralPools(slot0)
 	warning(slot1)
 end
 
-function pg.PoolMgr.FromPlural(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
-	function slot9()
+function slot0.FromPlural(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+	function slot8()
 		slot0.pools_plural[slot1].index = slot0.pluralIndex
 		slot0.pluralIndex = slot0.pluralIndex + 1
 
@@ -631,22 +625,18 @@ function pg.PoolMgr.FromPlural(slot0, slot1, slot2, slot3, slot4, slot5, slot6, 
 			end
 
 			if not slot2.pools_plural[slot3] then
-				if slot4 then
-					slot0 = slot4(slot0)
-				end
-
-				slot2.pools_plural[slot3] = slot5.New(slot0, slot6)
+				slot2.pools_plural[slot3] = slot4.New(slot0, slot5)
 			end
 
-			slot7()
-		end, slot7)
+			slot6()
+		end, slot6)
 	else
-		slot9()
+		slot8()
 	end
 end
 
-function pg.PoolMgr.FromSingle(slot0, slot1, slot2, slot3, slot4, slot5)
-	function slot7()
+function slot0.FromSingle(slot0, slot1, slot2, slot3, slot4)
+	function slot6()
 		slot0.pools_single[slot1].index = slot0.singleIndex
 		slot0.singleIndex = slot0.singleIndex + 1
 
@@ -656,21 +646,17 @@ function pg.PoolMgr.FromSingle(slot0, slot1, slot2, slot3, slot4, slot5)
 	if not slot0.pools_single[slot1 .. slot2] then
 		slot0:LoadAsset(slot1, slot2, slot3, typeof(Object), function (slot0)
 			if not slot0.pools_single[] then
-				if slot2 then
-					slot0 = slot2(slot0)
-				end
-
-				slot0.pools_single[] = slot3.New(slot0)
+				slot0.pools_single[] = slot2.New(slot0)
 			end
 
-			slot4()
+			slot3()
 		end, true)
 	else
-		slot7()
+		slot6()
 	end
 end
 
-function pg.PoolMgr.FromObjPack(slot0, slot1, slot2, slot3, slot4, slot5)
+function slot0.FromObjPack(slot0, slot1, slot2, slot3, slot4, slot5)
 	if not slot0.pools_pack[slot1] or not slot0.pools_pack[slot6]:Get(slot2) then
 		slot0:LoadAsset(slot1, slot2, slot3, slot4, function (slot0)
 			if not slot0.pools_pack[] then
@@ -688,7 +674,7 @@ function pg.PoolMgr.FromObjPack(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 end
 
-function pg.PoolMgr.LoadAsset(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+function slot0.LoadAsset(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	if slot0.callbacks[slot1 .. slot2] then
 		table.insert(slot0.callbacks[slot7], slot5)
 	elseif slot3 then
@@ -696,26 +682,21 @@ function pg.PoolMgr.LoadAsset(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 			slot5
 		}
 
-		ResourceMgr.Inst:getAssetAsync(slot1, slot2, slot4, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		slot0:getAssetAsync(slot1, slot2, slot4, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 			if slot0.callbacks[] then
 				slot0.callbacks[slot1] = nil
-				slot0.callingkey = slot1
 
 				for slot5 = 1, #slot0.callbacks[], 1 do
-					if slot5 == #slot1 then
-						slot0.callingkey = nil
-					end
-
 					slot1[slot5](slot0)
 				end
 			end
 		end), slot6, false)
 	else
-		slot5(ResourceMgr.Inst:getAssetSync(slot1, slot2, slot4, slot6, false))
+		slot5(slot0:getAssetSync(slot1, slot2, slot4, slot6, false))
 	end
 end
 
-function pg.PoolMgr.PrintPools(slot0)
+function slot0.PrintPools(slot0)
 	slot1 = ""
 
 	for slot5, slot6 in pairs(slot0.pools_plural) do
@@ -725,4 +706,4 @@ function pg.PoolMgr.PrintPools(slot0)
 	print(slot1)
 end
 
-return
+return slot0

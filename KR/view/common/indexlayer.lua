@@ -10,7 +10,10 @@ function slot0.init(slot0)
 		slot0:findTF("layout/sort", slot0.panel),
 		slot0:findTF("layout/index", slot0.panel),
 		slot0:findTF("layout/camp", slot0.panel),
-		slot0:findTF("layout/rarity", slot0.panel)
+		slot0:findTF("layout/rarity", slot0.panel),
+		slot0:findTF("layout/EquipSkinSort", slot0.panel),
+		slot0:findTF("layout/EquipSkinIndex", slot0.panel),
+		slot0:findTF("layout/EquipSkinTheme", slot0.panel)
 	}
 
 	_.each(slot0.displayTFs, function (slot0)
@@ -33,7 +36,10 @@ function slot0.didEnter(slot0)
 				sort = Clone(slot0.contextData.sort),
 				index = Clone(slot0.contextData.index),
 				camp = Clone(slot0.contextData.camp),
-				rarity = Clone(slot0.contextData.rarity)
+				rarity = Clone(slot0.contextData.rarity),
+				equipSkinSort = Clone(slot0.contextData.equipSkinSort),
+				equipSkinIndex = Clone(slot0.contextData.equipSkinIndex),
+				equipSkinTheme = Clone(slot0.contextData.equipSkinTheme)
 			})
 
 			slot0.contextData.callback.contextData.callback = nil
@@ -57,7 +63,10 @@ function slot0.initDisplays(slot0)
 		"sort",
 		"index",
 		"camp",
-		"rarity"
+		"rarity",
+		"equipSkinSort",
+		"equipSkinIndex",
+		"equipSkinTheme"
 	}
 
 	for slot5, slot6 in ipairs(slot0.displayTFs) do
@@ -76,6 +85,15 @@ function slot0.initDisplays(slot0)
 			elseif slot5 == IndexConst.DisplayRarity then
 				slot0:initRarity()
 				slot0:updateRarity()
+			elseif slot5 == IndexConst.DisplayEquipSkinSort then
+				slot0:initEquipSkinSort()
+				slot0:updateEquipSkinSort()
+			elseif slot5 == IndexConst.DisplayEquipSkinIndex then
+				slot0:initEquipSkinIndex()
+				slot0:updateEquipSkinIndex()
+			elseif slot5 == IndexConst.DisplayEquipSkinTheme then
+				slot0:initEquipSkinTheme()
+				slot0:updateEquipSkinTheme()
 			end
 		end
 	end
@@ -226,6 +244,117 @@ function slot0.updateRarity(slot0)
 		slot4 = findTF(slot1, "Image")
 
 		setImageSprite(slot1, (bit.band(slot1.contextData.rarity, bit.lshift(1, slot0[slot0 + 1])) > 0 and slot1.blueSprite) or slot1.greySprite)
+	end)
+end
+
+function slot0.initEquipSkinSort(slot0)
+	_.each(IndexConst.EquipSkinSortTypes, function (slot0)
+		if bit.band(slot0.contextData.display.equipSkinSort, bit.lshift(1, slot0)) > 0 then
+			table.insert(slot1, slot0)
+		end
+	end)
+
+	slot0.typeList[IndexConst.DisplayEquipSkinSort] = {}
+	slot3 = UIItemList.New(slot0:findTF("panel", slot2), slot0:findTF("panel/tpl", slot0.displayTFs[IndexConst.DisplayEquipSkinSort]))
+
+	slot3:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			setText(slot6, slot5)
+			setImageSprite(slot2, slot1.greySprite)
+			GetOrAddComponent(slot2, typeof(Button))
+			onButton(slot1, slot2, function ()
+				slot0.contextData.equipSkinSort = slot1
+
+				slot0.contextData:updateEquipSkinSort()
+			end, SFX_UI_TAG)
+		end
+	end)
+	slot3:align(#)
+
+	slot0.displayList[IndexConst.DisplayEquipSkinSort] = slot3
+end
+
+function slot0.updateEquipSkinSort(slot0)
+	slot2 = slot0.typeList[IndexConst.DisplayEquipSkinSort]
+
+	slot0.displayList[IndexConst.DisplayEquipSkinSort]:each(function (slot0, slot1)
+		slot3 = findTF(slot1, "Image")
+
+		setImageSprite(slot1, (slot0.contextData.equipSkinSort == slot1[slot0 + 1] and slot0.yellowSprite) or slot0.greySprite)
+	end)
+end
+
+function slot0.initEquipSkinIndex(slot0)
+	_.each(IndexConst.EquipSkinIndexTypes, function (slot0)
+		if bit.band(slot0.contextData.display.equipSkinIndex, bit.lshift(1, slot0)) > 0 then
+			table.insert(slot1, slot0)
+		end
+	end)
+
+	slot0.typeList[IndexConst.DisplayEquipSkinIndex] = {}
+	slot3 = UIItemList.New(slot0:findTF("panel", slot2), slot0:findTF("panel/tpl", slot0.displayTFs[IndexConst.DisplayEquipSkinIndex]))
+
+	slot3:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			setText(slot6, slot5)
+			setImageSprite(slot2, slot1.greySprite)
+			GetOrAddComponent(slot2, typeof(Button))
+			onButton(slot1, slot2, function ()
+				slot0.contextData.equipSkinIndex = IndexConst.ToggleBits(slot0.contextData.equipSkinIndex, IndexConst.ToggleBits, IndexConst.EquipSkinIndexAll, )
+
+				slot0.contextData:updateEquipSkinIndex()
+			end, SFX_UI_TAG)
+		end
+	end)
+	slot3:align(#)
+
+	slot0.displayList[IndexConst.DisplayEquipSkinIndex] = slot3
+end
+
+function slot0.updateEquipSkinIndex(slot0)
+	slot2 = slot0.typeList[IndexConst.DisplayEquipSkinIndex]
+
+	slot0.displayList[IndexConst.DisplayEquipSkinIndex]:each(function (slot0, slot1)
+		slot4 = findTF(slot1, "Image")
+
+		setImageSprite(slot1, (bit.band(slot1.contextData.equipSkinIndex, bit.lshift(1, slot0[slot0 + 1])) > 0 and slot1.yellowSprite) or slot1.greySprite)
+	end)
+end
+
+function slot0.initEquipSkinTheme(slot0)
+	_.each(IndexConst.EquipSkinThemeTypes, function (slot0)
+		if bit.band(slot0.contextData.display.equipSkinTheme, bit.lshift(1, slot0)) > 0 then
+			table.insert(slot1, slot0)
+		end
+	end)
+
+	slot0.typeList[IndexConst.DisplayEquipSkinTheme] = {}
+	slot3 = UIItemList.New(slot0:findTF("bg/panel", slot2), slot0:findTF("bg/panel/tpl", slot0.displayTFs[IndexConst.DisplayEquipSkinTheme]))
+
+	slot3:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			setText(slot6, slot5)
+			setImageSprite(slot2, slot1.greySprite)
+			GetOrAddComponent(slot2, typeof(Button))
+			onButton(slot1, slot2, function ()
+				slot0.contextData.equipSkinTheme = IndexConst.ToggleBits(slot0.contextData.equipSkinTheme, IndexConst.ToggleBits, IndexConst.EquipSkinThemeAll, )
+
+				slot0.contextData:updateEquipSkinTheme()
+			end, SFX_UI_TAG)
+		end
+	end)
+	slot3:align(#)
+
+	slot0.displayList[IndexConst.DisplayEquipSkinTheme] = slot3
+end
+
+function slot0.updateEquipSkinTheme(slot0)
+	slot2 = slot0.typeList[IndexConst.DisplayEquipSkinTheme]
+
+	slot0.displayList[IndexConst.DisplayEquipSkinTheme]:each(function (slot0, slot1)
+		slot4 = findTF(slot1, "Image")
+
+		setImageSprite(slot1, (bit.band(slot1.contextData.equipSkinTheme, bit.lshift(1, slot0[slot0 + 1])) > 0 and slot1.yellowSprite) or slot1.greySprite)
 	end)
 end
 

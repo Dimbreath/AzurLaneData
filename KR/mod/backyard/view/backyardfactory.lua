@@ -41,10 +41,11 @@ function slot0.loadImageFurniture(slot0, slot1, slot2, slot3)
 		slot2.pivot = getSpritePivot(slot0)
 
 		setImageSprite(slot1, slot0, true)
+		go(slot1):AddComponent(typeof(AlphaCheck))
 
 		slot2 = {}
 
-		if slot0:hasInterActionMask() then
+		if typeof:hasInterActionMask() then
 			table.insert(slot2, function (slot0)
 				slot0:loadFurnituresMasks(slot0.loadFurnituresMasks, slot0, slot0)
 			end)
@@ -304,7 +305,7 @@ function slot0.LoadBoatPart(slot0, slot1, slot2, slot3)
 		}
 	}
 
-	PoolMgr.GetInstance():GetUI("backyardresui", true, function (slot0)
+	function slot5(slot0)
 		slot1 = tf(slot0)
 
 		for slot5, slot6 in ipairs(slot0) do
@@ -313,14 +314,29 @@ function slot0.LoadBoatPart(slot0, slot1, slot2, slot3)
 			slot7.localPosition = slot6[2]
 			slot7.localScale = slot6[3]
 		end
+	end
 
-		PoolMgr.GetInstance():ReturnUI("backyardresui", slot0)
-		PoolMgr.GetInstance().ReturnUI()
-	end)
+	if not slot0.backyardresui then
+		PoolMgr.GetInstance():GetUI("backyardresui", true, function (slot0)
+			slot0.backyardresui = slot0
+
+			slot0(slot0)
+			slot0()
+		end)
+	else
+		slot5(slot0.backyardresui)
+		slot3()
+	end
 end
 
 function slot0.Destroy(slot0)
 	slot0.isExist = true
+
+	if slot0.backyardresui then
+		PoolMgr.GetInstance():ReturnUI("backyardresui", slot0.backyardresui)
+
+		slot0.backyardresui = nil
+	end
 end
 
 return slot0

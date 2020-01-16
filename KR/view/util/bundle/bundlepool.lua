@@ -5,10 +5,8 @@ slot3 = import(".BundlePrefabPlural")
 
 function slot0.Ctor(slot0, slot1)
 	slot0.root = slot1 or GameObject.Find("__Pool__").transform
-	slot0.loadingRequests = {}
 	slot0.pools_plural = {}
 	slot0.pools_pack = {}
-	slot0.UIDCounter = 0
 	slot0.pluralIndex = 0
 	slot0.paintingCount = 0
 	slot0.refCount = 0
@@ -53,7 +51,7 @@ function slot0.FromPlural(slot0, slot1, slot2, slot3, slot4, slot5)
 	if not slot0.pools_plural[slot1 .. "/" .. slot2] then
 		slot0:FromPack(slot1, slot2, slot3, typeof(Object), function (slot0)
 			if not slot0.pools_plural[] then
-				slot0.pools_plural[] = slot2.New(slot0, slot2.New, , )
+				slot0.pools_plural[] = slot2.New(slot0, slot2.New, false, , )
 			end
 
 			slot6()
@@ -98,18 +96,22 @@ end
 slot4 = 64
 
 function slot0.GetPrefab(slot0, slot1, slot2, slot3, slot4, slot5)
-	slot0:FromPlural(slot1, slot2, slot3, slot5 or slot0, function (slot0)
-		slot1 = table.removebykey(slot0.loadingRequests, table.removebykey)
+	slot6 = slot4
 
-		if nil then
+	slot0:FromPlural(slot1, slot2, slot3, slot5 or slot0, function (slot0)
+		slot0 = nil
+
+		if slot1 then
 			slot0:SetActive(true)
-			slot1(slot0)
+			slot0:SetActive()
 		else
-			slot0:ReturnPrefab(slot0.ReturnPrefab, slot0, slot0, false)
+			slot2:ReturnPrefab(slot3, slot4, slot0, false)
 		end
 	end)
 
-	return slot0:GenerateUID(slot4)
+	return function ()
+		slot0 = nil
+	end
 end
 
 function slot0.ReturnPrefab(slot0, slot1, slot2, slot3, slot4)
@@ -117,18 +119,22 @@ function slot0.ReturnPrefab(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.GetSpineChar(slot0, slot1, slot2, slot3)
-	slot5 = slot0:GenerateUID(slot3)
+	slot5 = slot3
 
-	function slot7()
+	function slot6()
+		slot0 = nil
+	end
+
+	function slot8()
 		slot0.pools_plural[slot1].index = slot0.pluralIndex
 		slot0.pluralIndex = slot0.pluralIndex + 1
 		slot2 = nil
 
-		if table.removebykey(slot0.loadingRequests, ) then
-			slot2 = slot0:Dequeue()
+		if slot3 then
+			slot1 = slot0:Dequeue()
 
-			slot2:SetActive(true)
-			slot1(slot2)
+			slot1:SetActive(true)
+			slot1(slot1)
 		else
 			slot0:ExcessSpineChar()
 		end
@@ -139,16 +145,16 @@ function slot0.GetSpineChar(slot0, slot1, slot2, slot3)
 			if not slot0.pools_plural[] then
 				SpineAnimUI.AnimChar(slot2, slot0).SetActive(slot0, false)
 
-				slot0.pools_plural[] = false.New(SpineAnimUI.AnimChar(slot2, slot0), 1, , slot0.pools_plural)
+				slot0.pools_plural[] = false.New(SpineAnimUI.AnimChar(slot2, slot0), 1, true, , slot0.pools_plural)
 			end
 
 			slot5()
 		end)
 	else
-		slot7()
+		slot8()
 	end
 
-	return slot5
+	return slot6
 end
 
 function slot0.ReturnSpineChar(slot0, slot1, slot2)
@@ -207,21 +213,25 @@ function slot0.IsSpineSkelCached(slot0, slot1)
 end
 
 function slot0.GetPainting(slot0, slot1, slot2, slot3)
-	slot0:FromPlural("painting/" .. slot1, slot1, slot2, 1, function (slot0)
-		slot0:SetActive(true)
+	slot5 = slot3
 
-		if Ship.DefaultFaceless(slot0) then
+	slot0:FromPlural("painting/" .. slot1, slot1, slot2, 1, function (slot0)
+		nil.SetActive(slot0, true)
+
+		if Ship.DefaultFaceless(Ship.DefaultFaceless) then
 			setActive(tf(slot0):Find("face"), true)
 		end
 
-		slot2 = table.removebykey(slot1.loadingRequests, table.removebykey)
-
-		if nil then
+		if slot2 then
 			slot2(slot0)
+		else
+			slot3:ReturnPainting(slot1, slot0)
 		end
 	end)
 
-	return slot0:GenerateUID(slot3)
+	return function ()
+		slot0 = nil
+	end
 end
 
 function slot0.ReturnPainting(slot0, slot1, slot2)
@@ -283,44 +293,35 @@ function slot0.ExcessPainting(slot0)
 end
 
 function slot0.GetSprite(slot0, slot1, slot2, slot3, slot4)
-	slot0:FromPack(slot1, slot2, slot3, typeof(Sprite), function (slot0)
-		slot1 = table.removebykey(slot0.loadingRequests, table.removebykey)
+	slot5 = slot4
 
-		if nil then
+	slot0:FromPack(slot1, slot2, slot3, typeof(Sprite), function (slot0)
+		slot0 = nil
+
+		if slot1 then
 			slot1(slot0)
 		else
-			slot0:DecreasPack(slot0.DecreasPack, slot0)
+			slot2:DecreasPack(slot3, slot4)
 		end
 	end)
 
-	return slot0:GenerateUID(slot4)
+	return function ()
+		slot0 = nil
+	end
 end
 
 function slot0.DestroyAtlas(slot0, slot1)
 	slot0:DestroyPack(slot1)
 end
 
-function slot0.CancelRequest(slot0, slot1)
-	if slot0.loadingRequests[slot1] then
-		slot0.loadingRequests[slot1] = nil
-	end
-end
-
-function slot0.GenerateUID(slot0, slot1)
-	slot0.UIDCounter = slot0.UIDCounter + 1
-	slot0.loadingRequests[slot0.UIDCounter] = slot1
-
-	return slot0.UIDCounter
-end
-
 function slot0.Bind(slot0)
 	slot0.refCount = slot0.refCount + 1
 end
 
-function slot0.UnBind(slot0, slot1)
+function slot0.UnBind(slot0)
 	slot0.refCount = slot0.refCount - 1
 
-	if slot1 and slot0.refCount <= 0 then
+	if slot0.refCount <= 0 then
 		slot0:Clear()
 	end
 end

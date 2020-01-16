@@ -15,7 +15,7 @@ function slot1.Set(slot0, slot1, slot2)
 end
 
 function slot1.Remove(slot0, slot1)
-	return slot0.items:removebyvalue(slot1)
+	return table.removebyvalue(slot0.items, slot1)
 end
 
 function slot1.GetAmount(slot0)

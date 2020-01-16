@@ -141,7 +141,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…居然，和翔鹤姐两人合击也完全占不到优势",
+			say = "…居然，和{namecode:95}姐两人合击也完全占不到优势",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "在下并不想进行无畏的争斗，只不过，神石必须摧毁…",
+			say = "在下并不想进行无谓的争斗，只不过，神石必须摧毁…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

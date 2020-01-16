@@ -6,10 +6,6 @@ function slot0.getUIName(slot0)
 	return "dailylevelui"
 end
 
-function slot0.getBGM(slot0)
-	return "level"
-end
-
 function slot0.init(slot0)
 	slot0.topPanel = slot0:findTF("blur_panel/adapt/top")
 	slot0.backBtn = slot0:findTF("back_button", slot0.topPanel)

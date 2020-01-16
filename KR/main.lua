@@ -36,6 +36,9 @@ if (PLATFORM_CODE == PLATFORM_CH or PLATFORM_CODE == PLATFORM_CHT) and PLATFORM 
 end
 
 print("AgeRating:<color=#ff0000>" .. LuaHelper.GetAgeRating() .. "</color>")
+
+GetComponent(tf(GameObject.Find("OverlayCamera/Overlay/UIDebug/logs")), "Text").supportRichText = false
+
 pg.TimeMgr.GetInstance():Init()
 pg.PushNotificationMgr.GetInstance():Init()
 

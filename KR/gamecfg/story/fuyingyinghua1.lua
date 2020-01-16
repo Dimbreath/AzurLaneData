@@ -19,11 +19,11 @@ return {
 					3
 				},
 				{
-					"<size=51>风暴何时停息，孤舟何时倾覆？</size>",
+					"<size=51>风暴何时停息，孤舟何时倾覆?</size>",
 					5
 				},
 				{
-					"<size=51>光明在何方，希望又在何方？</size> ",
+					"<size=51>光明在何方，希望又在何方?</size> ",
 					7
 				},
 				{
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			say = "啊！{namecode:179}大人快闪开！！",
+			say = "啊！龙凤大人快闪开！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "驱逐舰{namecode:12}正抱着巨大的神台打算从楼梯上下来，却一脚踏空失去了平衡。",
+			say = "驱逐舰响正抱着巨大的神台打算从楼梯上下来，却一脚踏空失去了平衡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "随着巨大的翻滚声，{namecode:12}完美地躺在了庭院的草地上，仰望着拂晓的晨光。",
+			say = "随着巨大的翻滚声，响完美地躺在了庭院的草地上，仰望着拂晓的晨光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			say = "{namecode:179}大人真过分，居然真的对我见死不救！！",
+			say = "龙凤大人真过分，居然真的对我见死不救！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			say = "啊，{namecode:179}大人真是的~",
+			say = "啊，龙凤大人真是的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			say = "这次祭典，她们真的还会来吗？",
+			say = "这次祭典，她们真的还会来吗?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:179}，原来你在这里啊。",
+			say = "龙凤，原来你在这里啊。",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
@@ -386,7 +386,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是{namecode:50}啊，这么急着找我有什么事么？",
+			say = "是能代啊，这么急着找我有什么事么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			actor = 302210,
 			nameColor = "#a9f548",
-			say = "刚刚收到了铁血使团发来的电报，她们应{namecode:91}大人的邀请前来参加祭典，预计会在本日上午抵达。",
+			say = "刚刚收到了铁血使团发来的电报，她们应赤城大人的邀请前来参加祭典，预计会在本日上午抵达。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "来者是客。{namecode:50}，接待使团的工作能交给你负责吗？",
+			say = "来者是客。能代，接待使团的工作能交给你负责吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			actor = 302210,
 			nameColor = "#a9f548",
-			say = "{namecode:179}，演武环节的准备就拜托你了。帮我选个好次序哦~",
+			say = "龙凤，演武环节的准备就拜托你了。帮我选个好次序哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "失礼了。{namecode:179}，{namecode:91}大人以及随行舰队即将抵达天岩岛。",
+			say = "失礼了。龙凤，赤城大人以及随行舰队即将抵达天岩岛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			dir = 1,
 			actor = 302210,
 			nameColor = "#a9f548",
-			say = "看来首先是你的回合呢，{namecode:179}。",
+			say = "看来首先是你的回合呢，龙凤。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,7 +639,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "我们不但是主祭{namecode:182}大人的代行者，更是祭典中不可或缺的一部分。",
+			say = "我们不但是主祭信浓大人的代行者，更是祭典中不可或缺的一部分。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -693,7 +693,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "那么，我们就出发了，{namecode:182}大人",
+			say = "那么，我们就出发了，信浓大人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -707,7 +707,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "{namecode:179}走出庭院时，回头望了一眼天守阁，鞠了一躬。",
+			say = "龙凤走出庭院时，回头望了一眼天守阁，鞠了一躬。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

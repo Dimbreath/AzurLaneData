@@ -5411,6 +5411,110 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[101331] = {
+		name = "꼬마 화가",
+		bullet_skin_main = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "짜잔~ 완성했어요! 이거 보세요. 어떤가요? 부시는 그림에 자신있어요!",
+		bullet_skin_secondary = "",
+		ship_group = 10133,
+		painting = "bushi_2",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		isSwimsuit = 0,
+		skin_type = 0,
+		id = 101331,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "bushi_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70182,
+		voice_actor = 161,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.012,
+					0.73,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.012,
+					0.73,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.36,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.335,
+							2.623,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[101340] = {
 		name = "헤이즐우드",
 		bullet_skin_main = "",
@@ -10854,6 +10958,110 @@ pg.ship_skin_template = {
 						{
 							-0.49,
 							2.23,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[102161] = {
+		name = "바다 여행",
+		bullet_skin_main = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "응? 이렇게 꾸미니 이상해? 나도 휴일이 있다고. 이렇게 한가하게 바닷바람 쐬고 있으면 참 편안하지 않아~? 흐흥~",
+		bullet_skin_secondary = "",
+		ship_group = 10216,
+		painting = "mengfeisi_2",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 9,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		isSwimsuit = 0,
+		skin_type = 0,
+		id = 102161,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "mengfeisi_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70181,
+		voice_actor = 159,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.97,
+					1,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.025,
+					0.038,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.35,
+							2.53,
 							-0.16
 						}
 					}
@@ -98833,6 +99041,7 @@ pg.ship_skin_template = {
 		},
 		[10216] = {
 			102160,
+			102161,
 			102162
 		},
 		[10215] = {
@@ -98931,7 +99140,8 @@ pg.ship_skin_template = {
 			101340
 		},
 		[10133] = {
-			101330
+			101330,
+			101331
 		},
 		[10131] = {
 			101310,
@@ -99078,6 +99288,7 @@ pg.ship_skin_template = {
 		101312,
 		101319,
 		101330,
+		101331,
 		101340,
 		101350,
 		101351,
@@ -99126,6 +99337,7 @@ pg.ship_skin_template = {
 		102141,
 		102150,
 		102160,
+		102161,
 		102162,
 		102180,
 		102181,

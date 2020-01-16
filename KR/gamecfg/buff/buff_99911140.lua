@@ -1,7 +1,7 @@
 return {
 	time = 1,
 	name = "通过角色挂载到舰队身上的启动BUFF",
-	init_effect = "gantanhao",
+	init_effect = "",
 	picture = "",
 	desc = "通过角色挂载到舰队身上的启动BUFF",
 	stack = 1,

@@ -1,5 +1,5 @@
 return {
-	time = 5,
+	time = 10,
 	name = "视野限制-敌方隐藏光环-属性修改",
 	init_effect = "",
 	picture = "",
@@ -10,15 +10,14 @@ return {
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffAddBuff",
+			type = "BattleBuffAura",
 			trigger = {
-				"onAttach",
-				"onStack"
+				""
 			},
 			arg_list = {
 				buff_id = 99911141,
 				target = {
-					"TargetPlayerVanguardFleet"
+					"TargetPlayerLeaderShip"
 				}
 			}
 		},

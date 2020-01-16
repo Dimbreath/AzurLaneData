@@ -9,6 +9,7 @@ slot0.ON_UNEQUIP_EQUIPMENT_SKIN = "EquipmentMediator:ON_UNEQUIP_EQUIPMENT_SKIN"
 slot0.ON_USE_ITEM = "EquipmentMediator:ON_USE_ITEM"
 slot0.NO_UPDATE = "EquipmentMediator:NO_UPDATE"
 slot0.ITEM_GO_SCENE = "item go scene"
+slot0.OPEN_EQUIPSKIN_INDEX_LAYER = "EquipmentMediator:OPEN_EQUIPSKIN_INDEX_LAYER"
 
 function slot0.register(slot0)
 	if not slot0.contextData.warp then
@@ -75,6 +76,13 @@ function slot0.register(slot0)
 			shipId = slot0.contextData.shipId,
 			pos = slot0.contextData.pos
 		})
+	end)
+	slot0:bind(slot0.OPEN_EQUIPSKIN_INDEX_LAYER, function (slot0, slot1)
+		slot0:addSubLayers(Context.New({
+			mediator = IndexMediator,
+			viewComponent = IndexLayer,
+			data = slot1
+		}))
 	end)
 
 	slot0.canUpdate = true

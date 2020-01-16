@@ -1,75 +1,8 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "20346",
-		type = 3,
+		type = 2,
 		id = 1,
-		pic = "temp10",
-		time = {
-			{
-				{
-					2020,
-					1,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					1,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 2,
-		pic = "temp8",
-		param = {
-			"scene skinshop",
-			{}
-		},
-		time = {
-			{
-				{
-					2020,
-					1,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					1,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 3,
 		pic = "temp9",
 		param = {
 			"scene get boat",
@@ -105,21 +38,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
-		id = 4,
-		pic = "temp1",
-		param = {
-			"scene charge",
-			{
-				wrap = 4
-			}
-		},
+		param = "20351",
+		type = 3,
+		id = 2,
+		pic = "temp13",
 		time = {
 			{
 				{
-					2019,
-					12,
-					26
+					2020,
+					1,
+					16
 				},
 				{
 					0,
@@ -130,8 +58,8 @@ pg.activity_banner = {
 			{
 				{
 					2020,
-					1,
-					8
+					2,
+					12
 				},
 				{
 					23,
@@ -142,16 +70,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "20341",
-		type = 3,
-		id = 5,
-		pic = "temp3",
+		type = 2,
+		id = 3,
+		pic = "temp2",
+		param = {
+			"scene get boat",
+			{
+				projectName = "light"
+			}
+		},
 		time = {
 			{
 				{
-					2019,
-					12,
-					26
+					2020,
+					1,
+					16
 				},
 				{
 					0,
@@ -163,7 +96,39 @@ pg.activity_banner = {
 				{
 					2020,
 					1,
-					10
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "20346",
+		type = 3,
+		id = 4,
+		pic = "temp10",
+		time = {
+			{
+				{
+					2020,
+					1,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					1,
+					16
 				},
 				{
 					23,
@@ -177,8 +142,7 @@ pg.activity_banner = {
 		1,
 		2,
 		3,
-		4,
-		5
+		4
 	}
 }
 
