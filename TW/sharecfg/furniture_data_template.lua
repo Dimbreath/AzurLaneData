@@ -1084,6 +1084,52 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[159] = {
+		advice = 0,
+		describe = "冰鎮飲料，解渴又健康！啾！",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "啾啾冰鎮冷藏櫃",
+		is_get_time_note = 1,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "taishan_twicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 159,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"taishan_tw",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[161] = {
 		advice = 0,
 		describe = "FB4萬粉絲紀念！感恩！",
@@ -7273,6 +7319,1636 @@ pg.furniture_data_template = {
 		tag = 5,
 		size = {
 			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11001] = {
+		advice = 0,
+		describe = "粉紅色、透著少女趣味的牆壁",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "茶會時光地板",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 11,
+		icon = "dibanapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11001,
+		picture = "ap/dibanap",
+		comfortable = 4,
+		tag = 4,
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11002] = {
+		advice = 0,
+		describe = "粉紅色、透著少女趣味地板",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "茶會時光牆壁",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 11,
+		icon = "qiangbiapicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11002,
+		picture = "ap/qiangbiap",
+		comfortable = 4,
+		tag = 3,
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11101] = {
+		advice = 0,
+		describe = "中等大小的茶杯浴池，僅供一人使用",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "茶杯浴池",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 11,
+		icon = "dieziapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 11101,
+		picture = "ap/dieziap",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-12,
+					-47
+				},
+				{
+					1,
+					1
+				},
+				"ap/dieziap_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11102] = {
+		advice = 0,
+		describe = "櫃檯裡擺滿了可口的蛋糕",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "蛋糕櫃",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 11,
+		icon = "dangaoguiapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11102,
+		picture = "ap/dangaoguiap",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				3,
+				3
+			},
+			{
+				3,
+				4
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11103] = {
+		advice = 0,
+		describe = "擺在花園裡的長椅，走累了可以坐上去休息下",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "花園長椅",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 11,
+		icon = "changyiapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 11103,
+		picture = "ap/changyiap",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-53,
+					42
+				},
+				{
+					-1,
+					1
+				}
+			},
+			{
+				"sit",
+				{
+					21,
+					12
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11104] = {
+		advice = 0,
+		describe = "今日的特別菜單是——",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "立板",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 11,
+		icon = "libanapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11104,
+		picture = "ap/libanap",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11105] = {
+		advice = 0,
+		describe = "大大的茶壺，睡在裡面一定很舒服",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "夢中茶會",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 11,
+		icon = "chabeichuangapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 11105,
+		picture = "ap/chabeichuangap",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					14,
+					-26
+				},
+				{
+					1,
+					1
+				},
+				"ap/chabeichuangap_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11106] = {
+		advice = 0,
+		describe = "看起來很好吃，就是好像有點硬",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "馬卡龍坐墊·黃",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 11,
+		icon = "makalong1apicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 11106,
+		picture = "ap/makalong1ap",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					6,
+					44
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11107] = {
+		advice = 0,
+		describe = "可以看到小彩虹的噴泉",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "彩虹噴泉",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 11,
+		icon = "penquanapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11107,
+		picture = "ap/penquanap",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11108] = {
+		advice = 0,
+		describe = "看起來很好吃，就是好像有點硬",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "馬卡龍坐墊·藍",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 11,
+		icon = "makalong2apicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 11108,
+		picture = "ap/makalong2ap",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					6,
+					44
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11109] = {
+		advice = 0,
+		describe = "多吃水果有益身體健康哦",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "水果盆",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 11,
+		icon = "shuiguotaapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11109,
+		picture = "ap/shuiguotaap",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11110] = {
+		advice = 0,
+		describe = "乳白色的樓梯，記得要經常打掃哦",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "白色樓梯",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 11,
+		icon = "loutiapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11110,
+		picture = "ap/loutiap",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11111] = {
+		advice = 0,
+		describe = "看起來又甜又軟的沙發",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "蛋糕卷沙發",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 11,
+		icon = "shafaapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 11111,
+		picture = "ap/shafaap",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					26.3,
+					31.9
+				},
+				{
+					1,
+					1
+				},
+				"ap/shafaap_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11112] = {
+		advice = 0,
+		describe = "這個甜甜圈可不能吃哦",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "甜甜圈圓桌",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 11,
+		icon = "tiantianquanapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11112,
+		picture = "ap/tiantianquanap",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11113] = {
+		advice = 0,
+		describe = "用來分隔花園和房間的門",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "園藝拱門",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 11,
+		icon = "gongmenapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11113,
+		picture = "ap/gongmenap",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11114] = {
+		advice = 0,
+		describe = "可以鍛煉園藝的花壇，要好好愛護哦",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "園藝花壇",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 11,
+		icon = "huatanapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11114,
+		picture = "ap/huatanap",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11115] = {
+		advice = 0,
+		describe = "一輛小馬車，其實跑不起來啦",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "灰姑娘的座駕",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 11,
+		icon = "nanguacheapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 11115,
+		picture = "ap/nanguacheap",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			4,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-63,
+					30
+				},
+				{
+					1,
+					1
+				},
+				"ap/nanguacheap_using"
+			},
+			{
+				"sit",
+				{
+					111,
+					-53
+				},
+				{
+					1,
+					1
+				},
+				"ap/nanguacheap_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11116] = {
+		advice = 0,
+		describe = "餅乾造型的屏風，不要想著咬一片下來",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "餅乾屏風",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 11,
+		icon = "pingfengapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11116,
+		picture = "ap/pingfengap",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11117] = {
+		advice = 0,
+		describe = "看起來又甜又軟的小圓凳",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "蛋糕卷園凳",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 11,
+		icon = "dangaojuanapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 11117,
+		picture = "ap/dangaojuanap",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					14.4,
+					44.5
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11118] = {
+		advice = 0,
+		describe = "放在房間裡的小桌子",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "小粉桌",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 11,
+		icon = "xiaozhuoziapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11118,
+		picture = "ap/xiaozhuoziap",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			3,
+			2
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				2,
+				2
+			},
+			{
+				3,
+				2
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11119] = {
+		advice = 0,
+		describe = "放在房間裡的小椅子",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "小粉椅",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 11,
+		icon = "yiziapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 11119,
+		picture = "ap/yiziap",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					4.9,
+					26.5
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11120] = {
+		advice = 0,
+		describe = "分隔庭院空間的純白柵欄",
+		count = 8,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "白色柵欄",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 11,
+		icon = "zhalanapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11120,
+		picture = "ap/zhalanap",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11121] = {
+		advice = 0,
+		describe = "新品上市，歡迎品嚐",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "紙杯蛋糕",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 11,
+		icon = "zhibeidangaoapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11121,
+		picture = "ap/zhibeidangaoap",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11122] = {
+		advice = 0,
+		describe = "庭院中聚會用的長桌",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "茶會長桌",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 11,
+		icon = "zhuoziapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11122,
+		picture = "ap/zhuoziap",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {
+			0,
+			30
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11123] = {
+		advice = 0,
+		describe = "「有什麼能幫您的啾？」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "蠻啾執事",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 11,
+		icon = "zhishiapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11123,
+		picture = "ap/zhishiap",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11124] = {
+		advice = 0,
+		describe = "儲藏餅乾的小瓶子",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "餅乾瓶",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 11,
+		icon = "bingganapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11124,
+		picture = "ap/bingganap",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11125] = {
+		advice = 0,
+		describe = "需要園藝工經常修剪的草叢",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "草叢",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 11,
+		icon = "caocongapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11125,
+		picture = "ap/caocongap",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11126] = {
+		advice = 0,
+		describe = "新款式的地毯",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "午後時光地毯",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 11,
+		icon = "ditanapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11126,
+		picture = "ap/ditanap",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11127] = {
+		advice = 0,
+		describe = "鑲著蕾絲花邊的圓地毯",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "蕾絲地毯",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 11,
+		icon = "leisitanapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11127,
+		picture = "ap/leisitanap",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11128] = {
+		advice = 0,
+		describe = "草坪地皮",
+		count = 4,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "草地",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 11,
+		icon = "caodiapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11128,
+		picture = "ap/caodiap",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11201] = {
+		advice = 0,
+		describe = "喝茶也需要保持優雅～",
+		count = 2,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "紅茶杯",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 11,
+		icon = "chabeiapicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11201,
+		picture = "ap/chabeiap",
+		comfortable = 1,
+		tag = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11202] = {
+		advice = 0,
+		describe = "讓人食指大動的甜點，色香味俱全",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "甜點組合",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 11,
+		icon = "dangaozuheapicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11202,
+		picture = "ap/dangaozuheap",
+		comfortable = 1,
+		tag = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11203] = {
+		advice = 0,
+		describe = "香薰小蠟燭",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "蠟燭",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 11,
+		icon = "lazhuapicon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11203,
+		picture = "ap/lazhuap",
+		comfortable = 1,
+		tag = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11301] = {
+		advice = 0,
+		describe = "透過窗戶可以看到好景色哦",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "午茶窗戶",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 11,
+		icon = "chuanghuapicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11301,
+		picture = "ap/chuanghuap",
+		comfortable = 3,
+		tag = 5,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11302] = {
+		advice = 0,
+		describe = "高處擺放餅乾瓶的架子",
+		count = 2,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "餅乾架子",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 11,
+		icon = "jiaziapicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11302,
+		picture = "ap/jiaziap",
+		comfortable = 1,
+		tag = 5,
+		size = {
+			2,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11303] = {
+		advice = 0,
+		describe = "進入房間的精緻木門",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "粉紅門扉",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 11,
+		icon = "menapicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11303,
+		picture = "ap/menap",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11304] = {
+		advice = 0,
+		describe = "擺放著茶會道具的玻璃牆櫃",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "午茶牆櫃",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 11,
+		icon = "qiangguiapicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11304,
+		picture = "ap/qiangguiap",
+		comfortable = 3,
+		tag = 5,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11305] = {
+		advice = 0,
+		describe = "通往庭院的木門",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "午茶庭院門",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 11,
+		icon = "tingyuanmenapicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11305,
+		picture = "ap/tingyuanmenap",
+		comfortable = 3,
+		tag = 5,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11306] = {
+		advice = 0,
+		describe = "窗外透著些許綠意",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "午茶小窗",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 11,
+		icon = "xiaochuanghuapicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11306,
+		picture = "ap/xiaochuanghuap",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[11307] = {
+		advice = 0,
+		describe = "裝飾著小東西的牆櫃",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "午茶小牆櫃",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 11,
+		icon = "xiaoqiangguiapicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 11307,
+		picture = "ap/xiaoqiangguiap",
+		comfortable = 1,
+		tag = 5,
+		size = {
+			2,
 			6
 		},
 		offset = {},
@@ -22792,6 +24468,7 @@ pg.furniture_data_template = {
 		152,
 		154,
 		158,
+		159,
 		161,
 		1001,
 		1002,
@@ -22948,6 +24625,46 @@ pg.furniture_data_template = {
 		8305,
 		8306,
 		8307,
+		11001,
+		11002,
+		11101,
+		11102,
+		11103,
+		11104,
+		11105,
+		11106,
+		11107,
+		11108,
+		11109,
+		11110,
+		11111,
+		11112,
+		11113,
+		11114,
+		11115,
+		11116,
+		11117,
+		11118,
+		11119,
+		11120,
+		11121,
+		11122,
+		11123,
+		11124,
+		11125,
+		11126,
+		11127,
+		11128,
+		11201,
+		11202,
+		11203,
+		11301,
+		11302,
+		11303,
+		11304,
+		11305,
+		11306,
+		11307,
 		12002,
 		12102,
 		12103,

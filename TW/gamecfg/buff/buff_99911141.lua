@@ -1,5 +1,5 @@
 return {
-	time = 5,
+	time = 0,
 	name = "致盲后视野测试",
 	init_effect = "",
 	picture = "",
@@ -16,7 +16,7 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				range = 30
+				range = 50
 			}
 		}
 	}
