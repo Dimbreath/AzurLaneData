@@ -8886,7 +8886,7 @@ pg.transform_data_template = {
 	},
 	[23301] = {
 		use_gold = 400,
-		name = "舰体改良I",
+		name = "艦體改良I",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -8917,7 +8917,7 @@ pg.transform_data_template = {
 	},
 	[23302] = {
 		use_gold = 600,
-		name = "机动强化I",
+		name = "機動強化I",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -8926,7 +8926,7 @@ pg.transform_data_template = {
 		id = 23302,
 		icon = "dd_1",
 		skill_id = 0,
-		descrip = "机动+5",
+		descrip = "機動+5",
 		condition_id = {
 			23301
 		},
@@ -8950,7 +8950,7 @@ pg.transform_data_template = {
 	},
 	[23303] = {
 		use_gold = 800,
-		name = "鱼雷改良I",
+		name = "魚雷改良I",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -8959,7 +8959,7 @@ pg.transform_data_template = {
 		id = 23303,
 		icon = "tpup_1",
 		skill_id = 0,
-		descrip = "鱼雷武器效率+5%",
+		descrip = "魚雷武器效率+5%",
 		condition_id = {
 			23301
 		},
@@ -8983,7 +8983,7 @@ pg.transform_data_template = {
 	},
 	[23304] = {
 		use_gold = 1000,
-		name = "雷击强化I",
+		name = "雷擊强化I",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -8992,7 +8992,7 @@ pg.transform_data_template = {
 		id = 23304,
 		icon = "tp_1",
 		skill_id = 0,
-		descrip = "雷击+10",
+		descrip = "雷擊+10",
 		condition_id = {
 			23303
 		},
@@ -9059,7 +9059,7 @@ pg.transform_data_template = {
 	},
 	[23306] = {
 		use_gold = 1500,
-		name = "防空强化II",
+		name = "防空強化II",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
@@ -9102,7 +9102,7 @@ pg.transform_data_template = {
 	},
 	[23307] = {
 		use_gold = 1800,
-		name = "舰体改良II",
+		name = "艦體改良II",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
@@ -9145,7 +9145,7 @@ pg.transform_data_template = {
 	},
 	[23308] = {
 		use_gold = 2000,
-		name = "炮击强化II",
+		name = "炮擊強化II",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
@@ -9154,7 +9154,7 @@ pg.transform_data_template = {
 		id = 23308,
 		icon = "cn_2",
 		skill_id = 0,
-		descrip = "炮击+5/炮击+15",
+		descrip = "炮擊+5/炮擊+15",
 		condition_id = {
 			23307
 		},
@@ -9188,7 +9188,7 @@ pg.transform_data_template = {
 	},
 	[23309] = {
 		use_gold = 2500,
-		name = "鱼雷改良II",
+		name = "魚雷改良II",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
@@ -9197,7 +9197,7 @@ pg.transform_data_template = {
 		id = 23309,
 		icon = "tpup_2",
 		skill_id = 0,
-		descrip = "鱼雷武器效率+5%/鱼雷武器效率+5%",
+		descrip = "魚雷武器效率+5%/魚雷武器效率+5%",
 		condition_id = {
 			23307
 		},
@@ -9231,7 +9231,7 @@ pg.transform_data_template = {
 	},
 	[23310] = {
 		use_gold = 3000,
-		name = "雷击强化III",
+		name = "雷擊強化III",
 		max_level = 3,
 		skin_id = 0,
 		use_ship = 0,
@@ -9240,7 +9240,7 @@ pg.transform_data_template = {
 		id = 23310,
 		icon = "Tp_3",
 		skill_id = 0,
-		descrip = "雷击+5/雷击+10/雷击+15",
+		descrip = "雷擊+5/雷擊+10/雷擊+15",
 		condition_id = {
 			23304,
 			23309
@@ -9306,7 +9306,7 @@ pg.transform_data_template = {
 		id = 23311,
 		icon = "mt_yellow",
 		skill_id = 0,
-		descrip = "近代化改造完成，防空+35，反潜+10",
+		descrip = "近代化改造完成，防空+35，反潛+10",
 		condition_id = {
 			23309
 		},
@@ -9331,7 +9331,7 @@ pg.transform_data_template = {
 	},
 	[23312] = {
 		use_gold = 3000,
-		name = "战术启发",
+		name = "戰術啟發",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -9340,7 +9340,7 @@ pg.transform_data_template = {
 		id = 23312,
 		icon = "skill_red",
 		skill_id = 12280,
-		descrip = "习得技能【毁灭模式·原型】",
+		descrip = "習得技能【毀滅模式·原型】",
 		condition_id = {
 			23311
 		},
@@ -10255,7 +10255,7 @@ pg.transform_data_template = {
 	},
 	[24101] = {
 		use_gold = 300,
-		name = "舰体改良I",
+		name = "艦體改良I",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -10286,7 +10286,7 @@ pg.transform_data_template = {
 	},
 	[24102] = {
 		use_gold = 400,
-		name = "装填强化I",
+		name = "裝填強化I",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -10295,7 +10295,7 @@ pg.transform_data_template = {
 		id = 24102,
 		icon = "rl_1",
 		skill_id = 0,
-		descrip = "装填+5",
+		descrip = "裝填+5",
 		condition_id = {
 			24101
 		},
@@ -10319,7 +10319,7 @@ pg.transform_data_template = {
 	},
 	[24103] = {
 		use_gold = 600,
-		name = "鱼雷改良I",
+		name = "魚雷改良I",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -10328,7 +10328,7 @@ pg.transform_data_template = {
 		id = 24103,
 		icon = "tpup_1",
 		skill_id = 0,
-		descrip = "鱼雷武器效率+5%",
+		descrip = "魚雷武器效率+5%",
 		condition_id = {
 			24101
 		},
@@ -10352,7 +10352,7 @@ pg.transform_data_template = {
 	},
 	[24104] = {
 		use_gold = 800,
-		name = "雷击强化I",
+		name = "雷擊強化I",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -10361,7 +10361,7 @@ pg.transform_data_template = {
 		id = 24104,
 		icon = "tp_1",
 		skill_id = 0,
-		descrip = "雷击+10",
+		descrip = "雷擊+10",
 		condition_id = {
 			24103
 		},
@@ -10418,7 +10418,7 @@ pg.transform_data_template = {
 	},
 	[24106] = {
 		use_gold = 1200,
-		name = "防空强化II",
+		name = "防空強化II",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
@@ -10461,7 +10461,7 @@ pg.transform_data_template = {
 	},
 	[24107] = {
 		use_gold = 1500,
-		name = "舰体改良II",
+		name = "艦體改良II",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
@@ -10504,7 +10504,7 @@ pg.transform_data_template = {
 	},
 	[24108] = {
 		use_gold = 1800,
-		name = "战术启发",
+		name = "戰術啟發",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -10513,7 +10513,7 @@ pg.transform_data_template = {
 		id = 24108,
 		icon = "skill_blue",
 		skill_id = 12290,
-		descrip = "习得技能【安全第一!】",
+		descrip = "習得技能【安全第一!】",
 		condition_id = {
 			24107
 		},
@@ -10537,7 +10537,7 @@ pg.transform_data_template = {
 	},
 	[24109] = {
 		use_gold = 2000,
-		name = "鱼雷改良II",
+		name = "魚雷改良II",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
@@ -10546,7 +10546,7 @@ pg.transform_data_template = {
 		id = 24109,
 		icon = "tpup_2",
 		skill_id = 0,
-		descrip = "鱼雷武器效率+5%/鱼雷武器效率+5%",
+		descrip = "魚雷武器效率+5%/魚雷武器效率+5%",
 		condition_id = {
 			24107,
 			24108
@@ -10581,7 +10581,7 @@ pg.transform_data_template = {
 	},
 	[24110] = {
 		use_gold = 2500,
-		name = "雷击强化II",
+		name = "雷擊強化II",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
@@ -10590,7 +10590,7 @@ pg.transform_data_template = {
 		id = 24110,
 		icon = "tp_2",
 		skill_id = 0,
-		descrip = "雷击+5/雷击+15",
+		descrip = "雷擊+5/雷擊+15",
 		condition_id = {
 			24104,
 			24109
@@ -10634,7 +10634,7 @@ pg.transform_data_template = {
 		id = 24111,
 		icon = "mt_red",
 		skill_id = 0,
-		descrip = "近代化改造完成，炮击+20，雷击+25",
+		descrip = "近代化改造完成，炮擊+20，雷擊+25",
 		condition_id = {
 			24109,
 			24110

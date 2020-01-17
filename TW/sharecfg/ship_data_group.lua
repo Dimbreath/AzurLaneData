@@ -4759,12 +4759,12 @@ pg.ship_data_group = {
 		group_type = 20601,
 		code = 140,
 		property_hexagon = {
-			"S",
 			"E",
 			"E",
+			"B",
 			"D",
-			"D",
-			"A"
+			"B",
+			"C"
 		},
 		trans_radar_chart = {},
 		trans_skill = {},

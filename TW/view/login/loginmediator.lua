@@ -18,7 +18,7 @@ function slot0.register(slot0)
 		slot0:loginProcessHandler()
 	end)
 
-	if CSharpVersion == 31 or CSharpVersion == 32 or CSharpVersion == 33 then
+	if CSharpVersion == 31 or CSharpVersion == 32 or CSharpVersion == 33 or CSharpVersion == 34 then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			modal = true,
 			hideNo = true,
