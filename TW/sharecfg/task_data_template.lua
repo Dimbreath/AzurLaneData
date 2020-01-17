@@ -18658,7 +18658,6 @@ pg.task_data_template = {
 		sub_type = 102,
 		added_tip = 0,
 		story_icon = "",
-		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "0",
@@ -18675,6 +18674,12 @@ pg.task_data_template = {
 				5,
 				11105,
 				1
+			}
+		},
+		scene = {
+			"ACTIVITY",
+			{
+				id = 40042
 			}
 		}
 	},
