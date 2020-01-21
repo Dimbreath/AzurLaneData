@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "这是…{namecode:96}大人，居然是您在此作战？后面同行的是…",
+			say = "설마… 싸우고 계신 분이 즈이카쿠님이었을 줄이야. 같이 오신 분들은…",
 			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，这是…是{namecode:74}大人！！",
+			say = "아, 나… 나가토님!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg7",
 			dir = 1,
-			say = "见到{namecode:74}，{namecode:179}、{namecode:175}和{namecode:180}立刻行了立礼",
+			say = "나가토를 본 류호, 스루가, 카스미는 일어나 예를 표했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:180}",
 			hidePaintObj = true,
-			say = "这…这就是传说中的神子大人…第一次见到",
+			say = "이… 이분이 전설의 무녀… 처음 봐…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:179}",
 			hidePaintObj = true,
-			say = "让神子大人受到塞壬的威胁，实在是属下失职…",
+			say = "무녀님을 세이렌의 위협에 빠뜨리다니, 직무 유기입니다…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:179}",
 			hidePaintObj = true,
-			say = "不知为何{namecode:74}大人不提前告知来访路线，属下好安排护卫…",
+			say = "어째서 말도 없이 오셨는지, 알았더라면 호위를 붙였을 텐데…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:74}",
-			say = "这次是吾…不，是我个人主张的秘密行动，所以并没有声张。并不是汝之过失。",
+			say = "이것은 이 몸… 아니, 내가 개인적으로 한 일이니 이야기하지 않았어… 일부러 그런 건 아니야…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:175}",
-			say = "总之，{namecode:74}大人能够出席真是太好了，原本的祭典还预留了{namecode:182}大人和您都不能到场的备选计划呢…",
+			say = "어쨌든 나가토님이 오셔서 정말 다행입니다. 나가토님이 오셨을 때를 대비한 축제의 플랜B도 있으니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:74}",
-			say = "…备选计划！？？是什么样的？",
+			say = "…백업 플랜?!!! 그게 뭐지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:175}",
-			say = "嗯…如果{namecode:74}大人在子时未能抵达祭典的话…会由同样带有一定巫女血统的{namecode:79}大人代行祈祷礼——",
+			say = "음… 나가토님이 한밤중까지 도착하지 않으신다면… 무녀의 혈통을 이은 야마시로님이 대신 의식을——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不好，原来这就是她们的目的——",
+			say = "큰일이다. 이게 목적이었구나——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:158}，抱歉了，你还能正常行动吗？",
+			say = "카와카제, 움직일 수 있겠느냐?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:158}",
-			say = "只是正常航速行驶的话已经没问题了，{namecode:74}大人",
+			say = "움직이는 것 정도는 문제없습니다. 나가토님.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:74}",
-			say = "接下来必须赶上下半场的宴会了，{namecode:158}！",
+			say = "그렇다면 어서 연회에 참여하러 가자꾸나, 카와카제!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 301490,
 			nameColor = "#a9f548",
-			say = "咳，这个时候居然还有塞壬的“棋子”出现吗",
+			say = "윽, 이럴 때 세이렌의 장기말인가.",
 			flashN = {
 				color = {
 					1,
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:179}",
-			say = "这里就交给我们吧，{namecode:74}大人，请您尽快前往本殿，{namecode:82}大人等人都在等您呢",
+			say = "여기는 저희에게 맡기고 어서 출발하세요, 나가토님. 미카사님이 기다리고 계십니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:74}",
-			say = "那么，一切就拜托了！",
+			say = "그러면, 뒤는 맡기겠다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

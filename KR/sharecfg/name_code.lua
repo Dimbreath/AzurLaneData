@@ -248,7 +248,7 @@ pg.name_code = {
 	{
 		id = 50,
 		name = "能代",
-		code = "노시로"
+		code = "노시로 "
 	},
 	{
 		id = 51,
@@ -889,6 +889,31 @@ pg.name_code = {
 		id = 178,
 		name = "扶桑级量产型",
 		code = "魟级量产型"
+	},
+	{
+		id = 179,
+		name = "龙凤",
+		code = "류호 "
+	},
+	{
+		id = 180,
+		name = "霞",
+		code = "카스미 "
+	},
+	{
+		id = 181,
+		name = "鬼怒",
+		code = "키누 "
+	},
+	{
+		id = 182,
+		name = "信浓",
+		code = "시나노 "
+	},
+	{
+		id = 183,
+		name = "大鲸",
+		code = "迖"
 	}
 }
 

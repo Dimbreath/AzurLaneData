@@ -12,7 +12,7 @@ return {
 			bgm = "cw-battle-boss",
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "我是{namecode:175}，负责在此接待各位远道而来的客人，请多指教。",
+			say = "멀리서 오신 손님들을 책임질 스루가입니다. 잘 부탁드립니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 0,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你就是传说中的{namecode:80}级三号舰{namecode:175}么…嗯，真是百闻不如一见啊！祭典的准备辛苦了。我代表重樱的伙伴们向你表示感谢~",
+			say = "스루가. 나가토급보다 훨씬 더 강력한 키이급 전함… 아이고, 역시 백문이 불여일견이군!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -47,7 +47,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 305140,
-			say = "大前辈过奖了…！如您所见我只是一个没什么战斗经验的新人而已，很期待今后能与您并肩作战。",
+			say = "대선배님, 과찬이십니다. 저는 경험조차 적은 신인일 뿐이니 앞으로 선배님과 함께 싸울 날을 기대하고 있습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今后？要是并肩作战的话，现在不就可以么。按照祭典规则，接下来是演武环节了吧？",
+			say = "앞으로? 함께 싸우는 것은 지금도 가능하지 않나? 축제 규칙대로라면 이제 곧 연무가 시작될 텐데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 305140,
-			say = "啊，嗯…您说的没错……",
+			say = "아, 네… 맞습니다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "兵贵神速，打起精神放马过来吧！",
+			say = "속도가 생명이지. 정신 똑바로 차리고 오도록 해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "（哎？这么突然？！这种性格我超不擅长应付啊……）",
+			say = "(엑, 이런 성격은 대하기 힘든데……)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你刚刚心里在想，“哎？这么突然？！这种性格我超不擅长应付啊……”了吧~",
+			say = "방금 ‘엑, 이런 성격은 대하기 힘든데……’라고 생각했지~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "（啊！被看穿了？！！）",
+			say = "(아! 들킨 건가?!!!)",
 			action = {
 				{
 					y = 0,
@@ -185,7 +185,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后又露出了“啊！被看穿了？！！”的表情。最近的年轻人，内心真是太容易读懂了啊…",
+			say = "그리고 지금은 ‘아! 들킨 건가?!!’ 하는 표정이군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是{namecode:82}大前辈……那个…我冒昧地问一句，为什么…能读懂呢？",
+			say = "역시 미카사 대선배님……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，都是些作战的时候学到的技巧罢了。在战场上，分析对手的行为直接关乎生死哦。",
+			say = "하하하. 전부 전장에서 배운 잡기술이지. 상대를 분석하는 것이 바로 전장에서의 생사를 판가름하니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听说你的演习成绩很不错，接下来的演武我可是很期待的哦~",
+			say = "연습 성적이 썩 괜찮다고 하던데. 연무, 굉장히 기대하고 있다네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能和大前辈交手是求之不得的宝贵经验，还请前辈不吝赐教！",
+			say = "스루가, 투지가 끓어 오릅니다… 대선배님과 겨룰 수 있는 귀중한 경험이라니, 아낌없는 가르침 부탁드립니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！这就对了，就是这股气势！",
+			say = "그래! 바로 그 기세야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305140,
-			say = "（和{namecode:82}大前辈交手，偷工减料肯定会被发现吧…真是的，只能全力以赴上了…！）",
+			say = "…신께 용맹함을, 지혜와 재능을, 그리고 신앙을. 사쿠라 엠파이어를 지켜주소서!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "向神明展现勇武，向神明纳奉才智，向神明给予信仰！{namecode:80}级战列舰，{namecode:175}，参上！",
+			say = "키이급 전함, 스루가. 갑니다!",
 			action = {
 				{
 					y = 30,

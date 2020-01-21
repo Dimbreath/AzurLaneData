@@ -30,7 +30,7 @@ return {
 		ButtonName = "activity_newyear",
 		Tip = "tip_1920",
 		CtorButton = function (slot0, slot1)
-			if getProxy(ActivityProxy):getActivityById(ActivityConst.NEWYEAR_ACTIVITY) and not slot2:isEnd() and getProxy(MiniGameProxy):GetMiniGameData(3) and not slot3:GetRuntimeData("isInited") then
+			if getProxy(MiniGameProxy):GetMiniGameData(3) and not slot2:GetRuntimeData("isInited") then
 				slot0:emit(MainUIMediator.MINIGAME_OPERATION, 4, MiniGameOPCommand.CMD_SPECIAL_GAME, {
 					3,
 					1
@@ -120,6 +120,7 @@ return {
 	CurrentEntrancesList = {
 		1,
 		2,
+		3,
 		6
 	}
 }

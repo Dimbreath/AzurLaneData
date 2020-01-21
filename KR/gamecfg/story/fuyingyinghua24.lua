@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgm = "xinnong-2",
-			say = "哐！",
+			say = "쾅!",
 			flashN = {
 				color = {
 					1,
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呃……",
+			say = "윽……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			}
 		},
 		{
-			say = "哐！",
+			say = "쾅!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/ui/kuang",
@@ -126,7 +126,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "由于镜面海域效果而显得格外平静的夜色中，弥漫着刀剑碰撞的声音",
+			say = "거울 해역 덕에 유달리 조용한 밤바다에 칼과 칼이 부딪치는 소리가 울려 퍼졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…居然，和{namecode:95}姐两人合击也完全占不到优势",
+			say = "…역시, 쇼카쿠 언니와 둘이 덤벼도 이길 수는 없는 건가.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不对…对手完全没有在用心战斗",
+			say = "아니… 상대는 전혀 집중하고 있지 않아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "在下并不想进行无谓的争斗，只不过，神石必须摧毁…",
+			say = "무의미한 전투는 할 생각이 없다. 그저 신석을 파괴할 뿐…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "所谓的恩宠只不过是依赖",
+			say = "은총은 그저 맹신일 뿐이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "而过度的依赖只会带来毁灭…",
+			say = "그리고 그 맹신은 파멸을 가지고 올 뿐…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:96}小心！！",
+			say = "즈이카쿠, 조심해!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			}
 		},
 		{
-			say = "轰！！",
+			say = "펑!!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:95}姐！",
+			say = "쇼카쿠 언니!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "你的攻击太激进了，这样会给对手露出破绽的",
+			say = "공격이 너무 과격하군. 이러면 상대에게 쉽게 허점을 들키기 마련이지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我…我没事，用羽翼偏转了炮弹的轨迹",
+			say = "괜…괜찮아. 날개로 포탄을 흘려 보냈어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个剑法，没错...{namecode:66}！你就是{namecode:66}吧？！为什么会是现在这副模样？",
+			say = "이 검술, 역시… 타카오! 타카오 맞지?! 왜 이런 모습이 된 거지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "听到这个名字，“不速之客”的动作突然停了下来，发愣了一下",
+			say = "그 이름을 듣자 불청객은 잠시 놀란듯 멈춰섰다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "……这个叫法，似乎是很遥远以前的代号之一了…",
+			say = "……그 이름, 아주 먼 옛날의 호칭 중 하나였나…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "…说到名字这种东西…",
+			say = "…이름이란 것은…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "这不过是人类一厢情愿强加于我们的代号罢了…",
+			say = "인간이 우리에게 억지로 붙여준 칭호일 뿐…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "如果，给你起名的存在全都消失了…",
+			say = "만약, 너에게 이름을 지어준 존재가 모두 사라진다면…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "名字…",
+			say = "이름…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "就毫无意义了！",
+			say = "그런건 의미가 없어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 		},
 		{
 			side = 2,
-			say = "哐！",
+			say = "쾅!",
 			dir = 1,
 			soundeffect = "event:/ui/kuang",
 			flashN = {
@@ -501,7 +501,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呃！！可恶，这家伙…实力甚至在灰色幽灵之上",
+			say = "윽!! 젠장, 저 녀석… 회색 유령보다 강하잖아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 		},
 		{
 			side = 2,
-			say = "哐！",
+			say = "쾅!",
 			dir = 1,
 			soundeffect = "event:/ui/kuang",
 			flashN = {
@@ -573,7 +573,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "…援军来了吗",
+			say = "…지원군인가.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:181}",
 			hidePaintObj = true,
-			say = "{namecode:96}、{namecode:95}大人！我来迟了",
+			say = "즈이카쿠, 쇼카쿠! 늦어서 미안하다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:96}",
 			hidePaintObj = true,
-			say = "小心，这个家伙的实力非比寻常！",
+			say = "조심해. 저 녀석, 생각보다 강해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,7 +624,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:179}",
 			hidePaintObj = true,
-			say = "看出来了，航空支援就交给我吧！",
+			say = "알겠습니다. 항공 지원은 저에게 맡기세요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,7 +641,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:175}",
 			hidePaintObj = true,
-			say = "炮击支援就位！",
+			say = "포격 지원, 준비됐습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +658,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:180}",
 			hidePaintObj = true,
-			say = "{namecode:180}…{namecode:180}也会努力的！！",
+			say = "카스미도… 힘낼게!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -675,7 +675,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:96}",
 			hidePaintObj = true,
-			say = "啊啊…虽然有点以多欺少的感觉…",
+			say = "아아… 약간 괴롭히는 느낌이긴 하지만…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:96}",
 			hidePaintObj = true,
-			say = "但是，为了保护神石，只好上了！！",
+			say = "그래도 신석을 보호하기 위해선 어쩔 수 없어!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

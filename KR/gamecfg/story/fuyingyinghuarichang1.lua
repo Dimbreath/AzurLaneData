@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"各自的新年\n\n<size=45>一 新年偶遇？</size>",
+					"각자의 새해\n\n<size=45>새해의 조우?</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "newyear2",
 			actor = 305052,
 			nameColor = "#a9f548",
-			say = "呼…要买的东西都买的差不多了吧",
+			say = "후… 사야할 것은 거의 다 샀구나.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			actor = 305052,
 			nameColor = "#a9f548",
-			say = "真是的，说什么“{namecode:74}大人没必要一起折腾，请坐在那边休息就好”，我也想一起做新年的准备啊！",
+			say = "정말이지, 무슨 ‘나가토님은 걱정 마시고 저쪽에 앉아서 쉬시면 됩니다’라는 말이냐. 나도 새해 준비를 같이 하고 싶단 말이다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			actor = 305052,
 			nameColor = "#a9f548",
-			say = "把这些带回去以后再跟她们……嗯？那是……",
+			say = "우선 이걸 가지고 가서…… 응? 저건……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 499021,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "呵呵…在这里碰到也算是一种缘分呢，重樱的神子",
+			say = "후후… 여기서 만난 것도 인연이구나. 사쿠라 엠파이어의 아이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			actor = 305052,
 			nameColor = "#a9f548",
-			say = "是铁血的腓特烈大帝啊…唔…你这一身…",
+			say = "메탈 블러드의 프리드리히 데어 그로세인가… 음… 그 차림은…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			actor = 499021,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这就是你们重樱称作“和服”的装扮吧。质地舒适，色调高雅，确实是非常棒呢~",
+			say = "너희 사쿠라 엠파이어에서 ‘기모노’라고 부르는 옷이지. 질감도 좋고 색도 우아해 굉장히 마음에 든단다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			actor = 305052,
 			nameColor = "#a9f548",
-			say = "(和、和服还能穿成这样的吗…不过…总觉得有种“输了！”的感觉……)",
+			say = "(기, 기모노가 이런 옷이였단 말이냐… 하지만… 뭔가 ‘졌다!’ 라는 느낌이 드는데……)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			actor = 305052,
 			nameColor = "#a9f548",
-			say = "(咕…！这股挫败感究竟是怎么回事…)",
+			say = "(윽…! 이 좌절감은 대체…)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，是重樱的{namecode:74}大人和铁血的腓特烈大帝？",
+			say = "아, 사쿠라 엠파이어의 나가토님과 프리드리히 데어 그로세잖아요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			actor = 305052,
 			nameColor = "#a9f548",
-			say = "呜哇！？吓了我一跳，是皇家…女仆队的？",
+			say = "으앗?! 깜짝 놀랐다. 그대는 로열… 메이드단의?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			actor = 202071,
 			nameColor = "#a9f548",
-			say = "啊~女仆队她们每天都要忙这忙那的…我可做不到啦~",
+			say = "아~ 메이드단은 매일 이래저래 바빠서… 전 못해요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			actor = 202071,
 			nameColor = "#a9f548",
-			say = "我可是正经的皇家骑士哦！",
+			say = "저는 로열의 나이트랍니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			actor = 305052,
 			nameColor = "#a9f548",
-			say = "这、这样…",
+			say = "그, 그런가…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			actor = 499021,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "呼呼…这也是重樱风格的服装呢，不错，皇家的小姑娘",
+			say = "후후… 이것도 사쿠라 엠파이어 스타일의 옷이군요, 괜찮네요. 로열의 아가씨.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			actor = 202071,
 			nameColor = "#a9f548",
-			say = "欸嘿嘿，谢谢夸奖~腓特烈大帝的也…嗯…很厉害！",
+			say = "에헤헤. 칭찬 감사해요. 프리드리히 데어 그로세도… 음… 대단하네요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			actor = 305052,
 			nameColor = "#a9f548",
-			say = "大家都对重樱这么感兴趣的啊…唔，既然如此，新年要来神社看看吗？",
+			say = "모두 사쿠라 엠파이어에 이렇게 관심이 있다니… 음, 그렇다면 새해에는 신사에 가보는 것은 어떤가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			actor = 499021,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哦？在重樱是叫做“新年初诣”吧？呵呵，有点期待呢",
+			say = "에? 사쿠라 엠파이어에서는 ‘새해 참배’라고 부르지? 후후, 기대되는구나.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			actor = 202071,
 			nameColor = "#a9f548",
-			say = "我知道重樱的新年活动还有“羽板球”！克利夫兰她们和重樱的小伙伴还约了要比赛呢，嘿嘿，后面我要去给她们做裁判来着~",
+			say = "사쿠라 엠파이어에서는 새해에 ‘하네츠키'라는 놀이를 하는 것도 알아요! 클리블랜드 일행과 사쿠라 엠파이어의 꼬마들이 시합 약속도 했는걸요. 헤헤, 제가 심판을 봐주기로 했어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			dir = 1,
 			actor = 305052,
 			nameColor = "#a9f548",
-			say = "（总觉得话题有点对不上来…呜…女孩间的谈话真难啊……！）",
+			say = "(아무래도 화제가 계속 엇나가는 것 같다… 우… 걸즈 토크란 어렵구나……!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			blackBg = true,
 			actor = 305052,
 			nameColor = "#a9f548",
-			say = "哦哦…羽板球！我也…——啊，咳咳，希望你们都能过一个有意思的新年",
+			say = "오오… 하네츠키! 나도…… 아, 흠흠. 재미있는 새해가 되었으면 좋겠구나.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

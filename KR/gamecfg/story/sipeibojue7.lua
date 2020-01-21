@@ -514,7 +514,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "그렇다. 나의 소망은, 단지 그냥 “이렇게, 모두와 쭈욱 함께 있고 싶은 것”일 뿐이다.——",
+			say = "그렇다. 나의 소망은, 단지 그냥 “이렇게, 모두와 쭈욱 함께 있고 싶은 것”일 뿐이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

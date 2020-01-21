@@ -85,7 +85,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 305,
 		time_limit_type = 0,
-		desc = "左侧名字确认，描述后续要补",
+		desc = "<color=#ffffff>「신앙을 받들어 사쿠라 엠파이어의 미래의 광명을 기원해요.」</color>\n「빛나는 벚꽃의 그림자」 이벤트 획득 ",
 		scene = {}
 	},
 	all = {

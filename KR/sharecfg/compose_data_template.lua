@@ -469,6 +469,13 @@ pg.compose_data_template = {
 		id = 67,
 		material_num = 5
 	},
+	{
+		equip_id = 32320,
+		material_id = 68,
+		gold_num = 60,
+		id = 68,
+		material_num = 5
+	},
 	[10000] = {
 		equip_id = 1020,
 		material_id = 10000,
@@ -1246,6 +1253,13 @@ pg.compose_data_template = {
 		id = 10110,
 		material_num = 10
 	},
+	[10111] = {
+		equip_id = 32340,
+		material_id = 10111,
+		gold_num = 120,
+		id = 10111,
+		material_num = 10
+	},
 	[11000] = {
 		equip_id = 1040,
 		material_id = 11000,
@@ -1741,6 +1755,7 @@ pg.compose_data_template = {
 		65,
 		66,
 		67,
+		68,
 		10000,
 		10001,
 		10002,
@@ -1852,6 +1867,7 @@ pg.compose_data_template = {
 		10108,
 		10109,
 		10110,
+		10111,
 		11000,
 		11001,
 		11002,

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"各自的新年\n\n<size=45>四 新年特训？</size>",
+					"각자의 새해\n\n<size=45>새해 특훈?</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "newyear2",
 			actor = 302081,
 			nameColor = "#a9f548",
-			say = "哈啊——！",
+			say = "하압——!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			actor = 304043,
 			nameColor = "#a9f548",
-			say = "哦~气势不错，不过，还可以更快些！像这样！",
+			say = "오~ 엄청난 기세군. 하지만 이쪽이 더 빠르다! 이렇게!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			actor = 302081,
 			nameColor = "#a9f548",
-			say = "不愧是{namecode:73}！这样又如何！喝！",
+			say = "역시 키리시마! 이건 어떨까! 흡!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			actor = 304043,
 			nameColor = "#a9f548",
-			say = "哈哈，看来我也要再认真一点才行了啊！",
+			say = "하하, 아무래도 나 역시 더 노력해야 겠는걸!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "木剑破风的呼啸和充满气势的呼喝持续了一段时间——",
+			say = "한동안 목검이 부딪히는 소리와 기합 소리만 들렸다——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			actor = 302040,
 			nameColor = "#a9f548",
-			say = "真是的，{namecode:181}。难得的新年，稍微休息下不好嘛~",
+			say = "정말이지, 키누. 모처럼의 새해인데 조금 쉬어도 좋잖아~",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:46}、{namecode:46}吗…正因为是假日，才更不能松懈！",
+			say = "나, 나가라인가… 휴일이기 때문에 더 풀어져서는 안돼!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，还是感谢{namecode:73}愿意陪我做新年特训",
+			say = "그래도 새해 특훈에 어울려준 키리시마에게 감사의 인사는 해야겠는걸.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			actor = 304043,
 			nameColor = "#a9f548",
-			say = "哈哈，我不讨厌认真刻苦的人啦~而且，也算是不错的运动~感觉舒畅多了~",
+			say = "하하, 노력하는 사람을 싫어하지는 않으니까. 그리고 꽤 좋은 운동이지 않은가~ 덕분에 개운해졌다~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "休息一下，喝点水吧~",
+			say = "물 마시면서 조금 쉬어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼…嗯？有什么事情吗，{namecode:46}？",
+			say = "후… 응? 나가라, 무슨 일이라도?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			actor = 302040,
 			nameColor = "#a9f548",
-			say = "啊对，其实是想问问你要不要一起去神社的…{namecode:73}也要一起去吗？",
+			say = "아, 그래. 같이 신사에 가지 않겠냐고 물어보려고 했는데… 키리시마도 같이 갈래?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			actor = 304043,
 			nameColor = "#a9f548",
-			say = "说起来，今年的“初诣”还没有去过呢~一起去吧~",
+			say = "그러고 보니 올해의 새해 참배를 가지 않았네. 같이 가자~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			blackBg = true,
 			actor = 302081,
 			nameColor = "#a9f548",
-			say = "唔…新年的特训……",
+			say = "음… 새해의 특훈은…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

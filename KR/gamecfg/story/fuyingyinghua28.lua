@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "数日后·天岩岛",
+			say = "며칠 뒤, 아마이와섬.",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "庭院中央，{namecode:96}、{namecode:158}、{namecode:50}、{namecode:181}正在互相交流剑法",
+			say = "정원 한 가운데에서 즈이카쿠, 카와카제, 노시로, 키누가 검술 대련을 하고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,7 +36,7 @@ return {
 			}
 		},
 		{
-			say = "竹剑之间不断地发出碰撞的打击声",
+			say = "죽도가 부딪히는 소리가 끊임없이 울려 퍼졌다.",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "{namecode:82}大人，早！又在看着她们修行啊~",
+			say = "미카사님, 안녕하세요! 또 대련을 보고 계시는 건가요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			}
 		},
 		{
-			say = "是啊，这次事件虽然对我们来说损失惨重，甚至还让那个神秘人给逃脱了...",
+			say = "그래. 이번 사건으로 우리는 큰 타격을 입었고, 심지어 알수 없는 자가 도망가기까지 했지…",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是这事也让这群孩子直视到了差距，激起了不少斗志，也算是种因祸得福了吧…哈哈",
+			say = "하지만 이번 사건으로 이 아이들이 차이를 직시하고, 투지를 불태우게 되었으니 전화위복이랄까… 하하.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			}
 		},
 		{
-			say = "哐—— 哐——",
+			say = "챙—— 챙——",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呃…不愧是传说中的重樱第一高手，剑法凌厉，在下甘拜下风",
+			say = "윽… 역시 사쿠라 엠파이어 최고의 실력자 다운 모습이군. 기세 좋은 검술이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			}
 		},
 		{
-			say = "承让了，不过那什么重樱第一高手的称号还是算了吧，在面对神秘人的时候我这剑法根本扛不下几招",
+			say = "그러니까 그 최고의 실력자라는 말은 그만둬. 그 자를 상대할 때 몇 합 겨뤄보지도 못했으니까.",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "除此之外，海对面还有灰色幽灵、蓝色幽灵之类的家伙存在…这个世界，真是太太太有趣了！",
+			say = "그리고 아직 회색 유령이나 푸른 유령같은 녀석들이 있다고… 이 세계는 정말 재미있어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "大家修行辛苦了，来吃点点心吧~",
+			say = "모두 수고했어요. 간식 드세요~",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "{namecode:95}提着一篮海军馒头从里屋走了出来，刚才还在修行的人们一下子就围了上去——",
+			say = "쇼카쿠가 해군 만두를 들고 다가왔다. 방금 대련을 끝낸 이들이 그 주위로 몰려들었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:95}姐~前几天是我修行不足才让你又受伤了的，对不起！",
+			say = "쇼카쿠 언니. 며칠 전에는 내 능력 부족으로 언니를 또 다치게 만들었어. 미안해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:96}向{namecode:95}摆出深深的鞠躬道歉状",
+			say = "즈이카쿠는 쇼카쿠를 향해 깊게 허리를 숙여 사과를 했다.",
 			side = 1,
 			bgName = "bg_xinnong_cg1",
 			withoutActorName = true,
@@ -315,7 +315,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "啊啦啦，这不怪{namecode:96}哦，毕竟是对手太强了嘛，你倒是应该要感谢对方没有对我们下死手哦",
+			say = "어라라, 즈이카쿠의 탓이 아닌걸. 상대가 너무 강한 탓이니 오히려 그에게 죽이지 않아서 고맙다고 해야하지 않을까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			actor = 307050,
 			nameColor = "#a9f548",
-			say = "而且，受伤什么的~人家早就习惯了嘛呵呵呵~",
+			say = "그리고 다치는 것쯤이야. 이미 익숙해. 후후후~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜——确实是我的不足才…",
+			say = "윽——그래도 내가 부족한 탓에…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "身为姐姐哦，只要看到妹妹能够那么正直、那么努力便心满意足了~",
+			say = "언니는 동생이 올곧게 노력하는 모습을 보는 것으로도 만족한답니다~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "迟早有一天，你也要为了自己而努力活着...",
+			say = "언젠간 너도, 너 자신을 위해 살아야 할테니까…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			dir = 1,
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "{namecode:95}姐，不要立这种Flag啊！！",
+			say = "쇼카쿠 언니, 플래그 세우지 마!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-newyear",
-			say = "{namecode:158}看了一眼坐在玄关边上喝着麦茶的{namecode:74}",
+			say = "카와카제의 시선이 현관 옆에서 차를 마시고 있는 나가토에게 닿았다.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -474,7 +474,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:74}大人，我也…",
+			say = "나가토님, 저도…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在下因为修行不足让您两次受惊了！",
+			say = "제 부족함 탓에 두 번이나 위험에 처하셨습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			dir = 1,
 			actor = 301490,
 			nameColor = "#a9f548",
-			say = "在下自知将来无法胜任侍卫这一职责，希望请辞，望{namecode:74}大人——",
+			say = "저의 능력으로는 감당할 수 없으니 부디, 제 사의를 받아주십시오——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "{namecode:158}向{namecode:74}行了跪礼，用尽力气说道",
+			say = "카와카제는 나가토의 앞에 무릎을 꿇고 힘차게 말했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可以哦",
+			say = "그래.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果能找到比{namecode:158}更忠心、更勇敢、更了解我的侍卫的话，可以哦",
+			say = "카와카제보다 더 충성스럽고, 더 용감하고, 더 나를 이해해주는 자를 찾아온다면, 받아주지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶？…",
+			say = "에…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是，这样的侍卫这个世界上也许再也找不到了，所以…",
+			say = "하지만 그런 자는 이 세상에 없으니…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			dir = 1,
 			actor = 305050,
 			nameColor = "#a9f548",
-			say = "驳回你的请辞！",
+			say = "윤허하지 않겠다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,7 +651,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜——",
+			say = "윽——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,7 +665,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "{namecode:158}默默低下头，擦了下眼角的泪水，不想让人看见",
+			say = "카와카제는 다른 이들이 보지 않기를 원하는 것처럼 고개를 깊게 숙이고 눈물을 닦았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			dir = 1,
 			actor = 301490,
 			nameColor = "#a9f548",
-			say = "在下…在下定会精进武艺，不辜负{namecode:74}大人的期待的！",
+			say = "앞으로… 나가토님의 기대를 저버리지 않기 위해 더욱 정진하겠습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,7 +702,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:74}笑着摸了摸{namecode:158}的头顶~",
+			say = "나가토는 웃으며 카와카제의 머리를 쓰다듬었다.",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
 			withoutActorName = true,
@@ -739,7 +739,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "哇…这样的气氛…一下子变得好厉害啊",
+			say = "와… 이 분위기… 한 순간에 엄청나졌네요.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -772,7 +772,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			nameColor = "#a9f548",
-			say = "啊哈哈哈，这就是青春的气息啊~真好啊真好",
+			say = "아하하. 이게 청춘인가~ 좋구나, 좋구나~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -798,7 +798,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不知不觉也让我想到了以前并肩作战的姐妹们了…呵呵呵",
+			say = "나와 함께 싸웠던 자매들 생각이 나네… 후후후.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -831,7 +831,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "神秘人的事暂且不说，在神石找回来之前，天宇启户祭看来暂时是得停办了",
+			say = "알수 없는 자에 대한 것은 일단 제쳐두고, 신석을 찾기 전까지 하늘 기원제는 잠시 멈춰야 겠네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -848,7 +848,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "有一点我一直想不明白，神石究竟是在什么时候被调包了",
+			say = "한가지 이해가 가지 않는 것이 있어요. 대체 신석을 언제 바꿔치기 한 걸까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -864,7 +864,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在现场的人里，塞壬由于没有重樱的血脉无法触碰神石，除了我们之外，就只有{namecode:91}一行了吧",
+			say = "세이렌은 사쿠라 엠파이어의 혈통이 아니니 신석을 만질 수 없어. 그러니 그 자리에 있던 사람 중에 우리를 제외하면 아카기 일행밖에 없겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -880,7 +880,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "估计就是在神秘人朝观察者开炮后产生烟雾混乱的时候被她们给调包了…",
+			say = "아마도 그 자가 세이렌을 공격했을 때 생긴 연기를 이용해 바꿔치기 했을 거야…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -896,7 +896,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来神秘人这次也是被塞壬给利用了啊",
+			say = "아무래도 그 자 역시 세이렌에게 이용당한 것 같군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -913,7 +913,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "！！{namecode:91}大人？可是…为什么不在现场揭穿她？",
+			say = "!! 아카기님?! 하지만… 왜 현장에서 잡지 않은 거죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -939,7 +939,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "神秘人的目的是摧毁神石，如果当场揭穿的话，以{namecode:91}这孩子的性格，也许真的会以命相护的吧",
+			say = "알수 없는 자의 목적은 신석을 파괴하는 것이었다. 만약 그 자리에서 잡는다면 아카기 녀석의 성격 상, 목숨을 내놓고 신석을 지켰겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -956,7 +956,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "{namecode:82}大人居然想到了这个份上…真是令在下敬佩",
+			say = "미카사님은 정말이지… 대단하십니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -983,7 +983,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "原来如此，怪不得神秘人一走，{namecode:91}她们就立刻急着离开",
+			say = "어쩐지, 알수 없는 자가 사라진 이후에 아카기님 일행도 사라진 거군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -999,7 +999,7 @@ return {
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:91}这孩子，目的很单纯，只不过就是用错了手段，希望她能有迷途知返的一天吧…",
+			say = "잘못된 방법을 사용했을 뿐, 아카기 녀석의 목적은 단순해. 언젠가 깨달을 날이 오면 좋겠는데…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1016,7 +1016,7 @@ return {
 			dir = 1,
 			actor = 301810,
 			nameColor = "#a9f548",
-			say = "啊啊啊！！",
+			say = "으아아!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -1048,7 +1048,7 @@ return {
 			dir = 1,
 			actor = 302210,
 			nameColor = "#a9f548",
-			say = "{namecode:180}..怎么了？突然从楼梯上大惊小叫地跑下来？",
+			say = "카스미, 왜 그러죠? 갑자기 소리를 지르면서 뛰어 내려오다니요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1075,7 +1075,7 @@ return {
 			dir = 1,
 			actor = 301810,
 			nameColor = "#a9f548",
-			say = "{namecode:182}...{namecode:182}..{namecode:182}大人…",
+			say = "시…시시시…시나노님이…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1102,7 +1102,7 @@ return {
 			dir = 1,
 			actor = 301810,
 			nameColor = "#a9f548",
-			say = "醒来了！！",
+			say = "깨어났어!",
 			effects = {
 				{
 					active = true,
@@ -1129,19 +1129,19 @@ return {
 			},
 			sequence = {
 				{
-					"<size=51>花虽芬芳终须落</size>",
+					"<size=51>향기로운 꽃도 언젠가 시드는 법.</size>",
 					1
 				},
 				{
-					"<size=51>人生无常岂奈何</size>",
+					"<size=51>인생 무상은 어찌 할 수 없는 것.</size>",
 					3
 				},
 				{
-					"<size=51>俗世凡尘今朝脱</size>",
+					"<size=51>그러니 속세의 티끌을 벗어버리고,</size>",
 					5
 				},
 				{
-					"<size=51>不恋醉梦免蹉跎</size>",
+					"<size=51>덧없는 꿈에서 벗어나기를.</size>",
 					7
 				}
 			}
@@ -1163,7 +1163,7 @@ return {
 				}
 			},
 			signDate = {
-				"————终",
+				"빛나는 벚꽃의 그림자 끝",
 				3,
 				{
 					900,

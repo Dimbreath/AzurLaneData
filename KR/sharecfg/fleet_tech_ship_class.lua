@@ -942,6 +942,7 @@ pg.fleet_tech_ship_class = {
 		nation = 3,
 		ships = {
 			30109,
+			30110,
 			30111,
 			30112
 		}
@@ -1048,7 +1049,8 @@ pg.fleet_tech_ship_class = {
 			30163,
 			30164,
 			30165,
-			30166
+			30166,
+			30181
 		}
 	},
 	[30111] = {
@@ -1095,6 +1097,7 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			30204,
 			30205,
+			30208,
 			30209
 		}
 	},
@@ -1132,7 +1135,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 85,
 		nation = 3,
 		ships = {
-			30220
+			30220,
+			30221
 		}
 	},
 	[30301] = {
@@ -1291,6 +1295,17 @@ pg.fleet_tech_ship_class = {
 			39902
 		}
 	},
+	[30507] = {
+		shiptype = 5,
+		name = "키이급 ",
+		t_level = 8,
+		id = 30507,
+		t_level_1 = 98,
+		nation = 3,
+		ships = {
+			30514
+		}
+	},
 	[30601] = {
 		shiptype = 6,
 		name = "히요급",
@@ -1334,6 +1349,17 @@ pg.fleet_tech_ship_class = {
 		nation = 3,
 		ships = {
 			30606
+		}
+	},
+	[30605] = {
+		shiptype = 6,
+		name = "즈이호급 ",
+		t_level = 4,
+		id = 30605,
+		t_level_1 = 102,
+		nation = 3,
+		ships = {
+			30607
 		}
 	},
 	[30701] = {
@@ -1985,10 +2011,12 @@ pg.fleet_tech_ship_class = {
 		30504,
 		30505,
 		30506,
+		30507,
 		30601,
 		30602,
 		30603,
 		30604,
+		30605,
 		30701,
 		30702,
 		30703,

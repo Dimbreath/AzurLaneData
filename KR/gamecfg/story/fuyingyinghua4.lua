@@ -12,7 +12,7 @@ return {
 			bgm = "nagato-boss",
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "不愧是身经百战的一航战前辈们…此战是我输了。",
+			say = "역시 일당백의 1항전 선배님들… 제가 졌습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 306070,
-			say = "{namecode:91}大人，{namecode:92}大人，以及各位远道而来的客人，欢迎来到天岩岛！",
+			say = "아카기님, 카가님. 그리고 멀리서 오신 손님 여러분. 시게미츠섬에 오신 것을 환영합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "险胜而已~有段日子不见了，变化很大哦，{namecode:179}。",
+			say = "위험했네요~ 류호, 한동안 못 봤더니 많이 변했군요.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -62,7 +62,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战斗中的眼神坚定，步伐稳健。如果是现在的你，就算去带领重樱的一支航母机动部队也毫无问题哦。",
+			say = "멋진 눈빛과 망설임 없는 움직임이었어요. 어떻게 봐도 훌륭한 무인이 되었군요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 306070,
-			say = "您过奖了，{namecode:91}大人。我在各方面都还有不足之处，刚刚的战斗使我更加深刻地认识到了这一点……",
+			say = "과찬이십니다, 아카기님. 아직 부족한 것이 많아요. 방금 전투에서도 확실히 깨달았습니다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵，这个是发自内心的评价哦~",
+			say = "우후후. 이 세계에는 약자를 위한 무대는 없답니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在这个弱肉强食的世界，只有像你这样拥有力量的人才能歌唱大义---如果用{namecode:92}的风格来说就是这样吧~",
+			say = "패배를 원치 않고 승리를 갈망하는 마음, 그리고 그 마음에서 불타는 투지가 당신을 더 강하게 만들 거예요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "继续努力吧。现在所挥洒的每一份汗水，会在将来汇聚为重樱前进的洪流。",
+			say = "계속 정진하세요. 당신이 흘리는 땀방울이 바로 사쿠라 엠파이어를 앞으로 나아가게 할 테니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重樱的未来，离不开我们每一个人的努力哦。",
+			say = "사쿠라 엠파이어의 미래는 우리의 노력에 달려있지요. 어떤가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "不胜惶恐…",
+			say = "과한 말씀이십니다…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 306070,
-			say = "果然{namecode:91}大人还是同记忆中的一样，永远充满着智慧与力量，自信而又坚定…",
+			say = "역시 아카기님은 기억 속 그대로 지혜와 힘이 가득하신 모습이군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "若是力量不足，便磨练力量。若是智慧不足，便钻研智慧。",
+			say = "힘이 부족하면 힘을 갈고 닦고, 지혜가 부족하면 지혜를 갈고 닦아야지요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不论是对白鹰也好，对皇家也好，对铁血也好，对塞壬也好…重樱失去的一切，我将带领你们亲手夺回来！",
+			say = "이글 유니온, 로열 네이비, 메탈 블러드, 세이렌… 사쿠라 엠파이어가 잃었던 모든 것을 여러분과 함께 찾아오겠어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "是！{namecode:179}，今后也会继续以{namecode:91}大人为目标刻苦修炼的！",
+			say = "네! 앞으로도 아카기님을 목표로 열심히 수련하겠습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看着现在的你，仿佛看到了些当年的影子呢…",
+			say = "지금의 당신에게서 그때의 그림자가 보이는 듯 하군요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（当时的你，也处于这种立场之上么………）",
+			say = "(그때의 당신도 이런 입장에 처해 있었겠지요………)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……{namecode:91}大人？",
+			say = "………아카기님?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，要以我为目标来努力，好大的口气，以后可有的你苦头吃哦~？",
+			say = "우후후. 저를 목표로 삼겠다니, 꿈이 크네요. 앞으로 고생 좀 하겠어요~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "{namecode:179}必日益精进武艺，不负嘱托！",
+			say = "아카기님의 당부를 위해서 앞으로 계속 노력하겠습니다!",
 			action = {
 				{
 					y = 30,
