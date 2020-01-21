@@ -7,12 +7,16 @@ function slot0.register(slot0)
 	slot0.oldSkins = {}
 	slot0.cacheSkins = {}
 	slot0.timers = {}
+	slot0.forbiddenSkinList = {}
 
 	slot0:on(12201, function (slot0)
 		_.each(slot0.skin_list, function (slot0)
 			slot1 = ShipSkin.New(slot0)
 
 			slot0:addSkin(ShipSkin.New(slot0))
+		end)
+		_.each(slot0.forbidden_skin_list, function (slot0)
+			table.insert(slot0.forbiddenSkinList, slot0)
 		end)
 	end)
 end
@@ -124,6 +128,12 @@ function slot0.getSkinCountById(slot0, slot1)
 	return (slot0:hasSkin(slot1) and 1) or 0
 end
 
+function slot0.InForbiddenSkinList(slot0, slot1)
+	return _.any(slot0.forbiddenSkinList, function (slot0)
+		return slot0 == slot0
+	end)
+end
+
 function slot0.remove(slot0)
 	for slot4, slot5 in pairs(slot0.timers) do
 		slot5:Stop()
@@ -178,6 +188,14 @@ function slot0.GetAllSkins(slot0)
 		end
 	end
 
+	if #slot0.forbiddenSkinList > 0 then
+		for slot7 = #slot1, 1, -1 do
+			if slot0:InForbiddenSkinList(slot1[slot7]:getSkinId()) then
+				table.remove(slot1, slot7)
+			end
+		end
+	end
+
 	return slot1
 end
 
@@ -218,6 +236,14 @@ function slot0.GetAllSkinForShip(slot0, slot1)
 		for slot8 = #slot3, 1, -1 do
 			if slot3[slot8].skin_type == ShipSkin.SKIN_TYPE_OLD and slot4 < slot1.createTime then
 				table.remove(slot3, slot8)
+			end
+		end
+	end
+
+	if #slot0.forbiddenSkinList > 0 then
+		for slot7 = #slot3, 1, -1 do
+			if not slot0:hasSkin(slot3[slot7].id) and slot0:InForbiddenSkinList(slot8) then
+				table.remove(slot3, slot7)
 			end
 		end
 	end
@@ -263,6 +289,14 @@ function slot0.GetAllSkinForARCamera(slot0, slot1)
 			table.remove(slot2, slot7)
 		elseif HXSet.isHx() and PLATFORM == PLATFORM_KR and pg.ship_skin_template[slot8.id].isHX == 1 then
 			table.remove(slot2, slot7)
+		end
+	end
+
+	if #slot0.forbiddenSkinList > 0 then
+		for slot7 = #slot2, 1, -1 do
+			if not slot0:hasSkin(slot2[slot7].id) and slot0:InForbiddenSkinList(slot8) then
+				table.remove(slot2, slot7)
+			end
 		end
 	end
 

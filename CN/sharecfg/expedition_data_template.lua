@@ -289979,6 +289979,213 @@ pg.expedition_data_template = {
 		},
 		bufficon = {}
 	},
+	[1320101] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "敌方旗舰",
+		exp_commander = 0,
+		time_limit = 150,
+		exp_commander_ratio = 50,
+		dungeon_id = 1320101,
+		exp = 169,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 20,
+		map_id = 10001,
+		limit_type = 1,
+		icon_type = 1,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1320101,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				57763
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54015
+			},
+			{
+				2,
+				50001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			150
+		},
+		bufficon = {}
+	},
+	[1320201] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "敌方旗舰",
+		exp_commander = 1,
+		time_limit = 150,
+		exp_commander_ratio = 50,
+		dungeon_id = 1320201,
+		exp = 286,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 50,
+		map_id = 10001,
+		limit_type = 1,
+		icon_type = 1,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1320201,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				57764
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54017
+			},
+			{
+				2,
+				50001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			150
+		},
+		bufficon = {}
+	},
+	[1320301] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		name = "敌方旗舰",
+		exp_commander = 2,
+		time_limit = 150,
+		exp_commander_ratio = 50,
+		dungeon_id = 1320301,
+		exp = 423,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 90,
+		map_id = 10001,
+		limit_type = 1,
+		icon_type = 1,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1320301,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				57765
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54017
+			},
+			{
+				2,
+				50001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			150
+		},
+		bufficon = {}
+	},
+	[1320401] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 15,
+		ai_mov = 0,
+		add_icon = "",
+		name = "敌方旗舰",
+		exp_commander = 4,
+		time_limit = 150,
+		exp_commander_ratio = 50,
+		dungeon_id = 1320401,
+		exp = 583,
+		icon = "bossicon",
+		difficulty = 2,
+		level = 125,
+		map_id = 10001,
+		limit_type = 1,
+		objective_2 = "",
+		icon_type = 1,
+		objective_3 = "",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1320401,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				57765
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54017
+			},
+			{
+				2,
+				50001
+			}
+		},
+		objective_1 = {
+			1
+		},
+		bufficon = {}
+	},
 	[5000001] = {
 		sink_limit = 1,
 		ai = 0,
@@ -322117,6 +322324,10 @@ pg.expedition_data_template = {
 		1311242,
 		1311243,
 		1311301,
+		1320101,
+		1320201,
+		1320301,
+		1320401,
 		5000001,
 		5000002,
 		5000003,

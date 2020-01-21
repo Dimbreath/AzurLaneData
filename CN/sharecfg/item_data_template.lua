@@ -5793,6 +5793,21 @@ pg.item_data_template = {
 			0
 		}
 	},
+	[40909] = {
+		limit = "[]",
+		display_effect = "",
+		other_resource_cost = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "4909",
+		id = 40909,
+		compose_number = 0,
+		target_id = 0,
+		open_ui = {
+			0,
+			0
+		}
+	},
 	[41001] = {
 		limit = "[]",
 		display_effect = "",
@@ -15321,6 +15336,7 @@ pg.item_data_template = {
 		40905,
 		40906,
 		40908,
+		40909,
 		41001,
 		41002,
 		41003,

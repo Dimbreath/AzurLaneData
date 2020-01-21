@@ -313,6 +313,19 @@ pg.mini_game = {
 			}
 		}
 	},
+	{
+		name = "春节叠叠乐",
+		view_name = "StackGameView",
+		mediator_name = "MiniHubMediator",
+		type = 2,
+		simple_config_data = "",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 9,
+		hub_id = 5,
+		request_data = 1
+	},
 	all = {
 		1,
 		2,
@@ -321,7 +334,8 @@ pg.mini_game = {
 		5,
 		6,
 		7,
-		8
+		8,
+		9
 	}
 }
 

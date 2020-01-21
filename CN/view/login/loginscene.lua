@@ -360,7 +360,17 @@ function slot0.didEnter(slot0)
 			end
 
 			if slot0.shareData.lastLoginServer.status == Server.STATUS.VINDICATE or slot0.shareData.lastLoginServer.status == Server.STATUS.FULL then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("login_loginScene_server_disabled"))
+				slot1 = 0
+				slot2 = 1
+
+				GetServerState(function (slot0)
+					if slot0 == slot0 then
+						pg.TipsMgr.GetInstance():ShowTips(i18n("login_loginScene_server_disabled"))
+					elseif slot0 == slot1 then
+						slot2.event:emit(LoginMediator.ON_SERVER, slot2.shareData.lastLoginServer)
+						playSoundEffect(SFX_CONFIRM)
+					end
+				end)
 
 				return
 			end

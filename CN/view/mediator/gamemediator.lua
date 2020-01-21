@@ -204,6 +204,12 @@ function slot0.handleNotification(slot0, slot1)
 		elseif slot3 == SCENE.NEWYEAR_SQUARE then
 			slot4.mediator = NewYearFestivalMediator
 			slot4.viewComponent = NewYearFestivalScene
+		elseif slot3 == SCENE.SPRING_TOWN then
+			slot4.mediator = NewYearFestivalMediator
+			slot4.viewComponent = SpringFestivalTownScene
+		elseif slot3 == SCENE.ACT_BOSS_SPF then
+			slot4.mediator = ActivityBossMediatorTemplate
+			slot4.viewComponent = ActivityBossSPFScene
 		elseif slot3 == SCENE.TECHNOLOGY_TREE_SCENE then
 			slot4.mediator = TechnologyTreeMediator
 			slot4.viewComponent = TechnologyTreeScene

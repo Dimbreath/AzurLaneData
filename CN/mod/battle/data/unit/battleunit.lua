@@ -442,6 +442,10 @@ function slot9.GetRarity(slot0)
 	return
 end
 
+function slot9.GetIntimacy(slot0)
+	return 0
+end
+
 function slot9.IsBoss(slot0)
 	return false
 end
@@ -964,11 +968,11 @@ function slot9.DispatchChat(slot0, slot1, slot2, slot3)
 end
 
 function slot9.DispatchVoice(slot0, slot1)
-	slot2, slot3, slot4 = ShipWordHelper.GetWordAndCV(slot0:GetSkinID(), slot1)
+	slot3, slot4, slot5 = ShipWordHelper.GetWordAndCV(slot0:GetSkinID(), slot1, 1, true, slot0:GetIntimacy())
 
-	if slot3 then
+	if slot4 then
 		slot0:DispatchEvent(slot0.Event.New(slot1.VOICE, {
-			content = slot3,
+			content = slot4,
 			key = slot1
 		}))
 	end

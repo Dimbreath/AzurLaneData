@@ -609,6 +609,118 @@ pg.drop_data_restore = {
 		resource_num = 2000,
 		target_id = 301231
 	},
+	[109] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 109,
+		resource_num = 1200,
+		target_id = 399041
+	},
+	[110] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 110,
+		resource_num = 1200,
+		target_id = 301162
+	},
+	[111] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 111,
+		resource_num = 1200,
+		target_id = 307072
+	},
+	[112] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 112,
+		resource_num = 900,
+		target_id = 202203
+	},
+	[113] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 113,
+		resource_num = 900,
+		target_id = 202232
+	},
+	[114] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 114,
+		resource_num = 900,
+		target_id = 399013
+	},
+	[115] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 115,
+		resource_num = 900,
+		target_id = 207035
+	},
+	[116] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 116,
+		resource_num = 800,
+		target_id = 403044
+	},
+	[117] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 117,
+		resource_num = 800,
+		target_id = 202242
+	},
+	[118] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 118,
+		resource_num = 800,
+		target_id = 304022
+	},
+	[119] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 119,
+		resource_num = 800,
+		target_id = 102251
+	},
+	[120] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 120,
+		resource_num = 800,
+		target_id = 202101
+	},
+	[121] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 121,
+		resource_num = 800,
+		target_id = 404011
+	},
+	[122] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 122,
+		resource_num = 800,
+		target_id = 101431
+	},
+	[123] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 123,
+		resource_num = 780,
+		target_id = 502034
+	},
+	[124] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 124,
+		resource_num = 780,
+		target_id = 502024
+	},
 	all = {
 		1,
 		2,
@@ -696,7 +808,23 @@ pg.drop_data_restore = {
 		95,
 		96,
 		97,
-		108
+		108,
+		109,
+		110,
+		111,
+		112,
+		113,
+		114,
+		115,
+		116,
+		117,
+		118,
+		119,
+		120,
+		121,
+		122,
+		123,
+		124
 	}
 }
 

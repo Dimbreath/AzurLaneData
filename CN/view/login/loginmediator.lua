@@ -105,7 +105,7 @@ function slot0.CheckMaintain(slot0)
 	slot3 = 1
 	slot4 = 2
 
-	VersionMgr.Inst:GetServerState(function (slot0)
+	GetServerState(function (slot0)
 		if slot0 == slot0 then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("login_loginMediator_kickServerClose"),

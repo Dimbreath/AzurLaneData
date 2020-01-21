@@ -127,7 +127,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们给大家带了逸仙蒸的包子~一起吃吧~",
+			say = "我们给大家带了逸仙蒸的肉包~一起吃吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "逸仙姐姐的包子…好吃…",
+			say = "逸仙姐姐的肉包子…好吃…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

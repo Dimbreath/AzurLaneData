@@ -24,7 +24,7 @@ return {
 			bgm = "main-chunjie",
 			actor = 501020,
 			nameColor = "#a9f548",
-			say = "来了来了来了！特殊事件”彩票中头奖”，获得大量奖金！！",
+			say = "来了来了来了！特殊事件“彩票中头奖”，获得大量奖金！！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -226,12 +226,11 @@ return {
 			}
 		},
 		{
-			expression = 2,
+			actor = 107060,
 			side = 2,
 			bgName = "star_level_bg_102",
-			dir = 1,
-			actor = 107060,
 			nameColor = "#a9f548",
+			dir = 1,
 			say = "嗯，请务必让我们帮忙，走吧。",
 			typewriter = {
 				speed = 0.05,

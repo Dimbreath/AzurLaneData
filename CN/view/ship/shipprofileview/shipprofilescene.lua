@@ -459,12 +459,16 @@ function slot0.UpdatePaintingFace(slot0, slot1)
 end
 
 function slot0.PlayVoice(slot0, slot1, slot2)
-	slot3 = slot1.wordData
 	slot4 = slot1.skin
+	slot5 = slot1.words
 
 	slot0:RemoveCvTimer()
 
-	if ShipWordHelper.CV_KEY_REPALCE <= slot1.words.voice_key or slot5.voice_key == ShipWordHelper.CV_KEY_BAN_NEW then
+	if not slot1.wordData.cvPath or slot3.cvPath == "" then
+		return
+	end
+
+	if ShipWordHelper.CV_KEY_REPALCE <= slot5.voice_key or slot5.voice_key == ShipWordHelper.CV_KEY_BAN_NEW then
 		slot6 = 0
 
 		if slot1.isLive2d and slot0.l2dChar and slot3.voiceCalibrate then

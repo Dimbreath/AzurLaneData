@@ -3193,6 +3193,46 @@ pg.expedition_activity_template = {
 		pt_drop_display = "",
 		bonus_time = 0
 	},
+	[1320101] = {
+		id = 1320101,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				475,
+				2004
+			}
+		}
+	},
+	[1320201] = {
+		id = 1320201,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				475,
+				2004
+			}
+		}
+	},
+	[1320301] = {
+		id = 1320301,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				475,
+				2004
+			}
+		}
+	},
+	[1320401] = {
+		id = 1320401,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				475,
+				2004
+			}
+		}
+	},
 	[3000013] = {
 		id = 3000013,
 		bonus_time = 1,
@@ -3842,6 +3882,10 @@ pg.expedition_activity_template = {
 		1311113,
 		1311213,
 		1311301,
+		1320101,
+		1320201,
+		1320301,
+		1320401,
 		3000013,
 		3000113,
 		3000213,

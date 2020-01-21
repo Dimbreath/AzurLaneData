@@ -61,7 +61,8 @@ pg.fleet_tech_ship_class = {
 			10134,
 			10142,
 			10113,
-			10111
+			10111,
+			10143
 		}
 	},
 	[10105] = {
@@ -128,7 +129,8 @@ pg.fleet_tech_ship_class = {
 			10210,
 			10214,
 			10215,
-			10223
+			10223,
+			10225
 		}
 	},
 	[10203] = {
@@ -663,6 +665,7 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 50,
 		nation = 2,
 		ships = {
+			20204,
 			20220,
 			20224
 		}
@@ -699,6 +702,17 @@ pg.fleet_tech_ship_class = {
 		nation = 2,
 		ships = {
 			20223
+		}
+	},
+	[20210] = {
+		shiptype = 2,
+		name = "格罗斯特级",
+		t_level = 7,
+		id = 20210,
+		t_level_1 = 47,
+		nation = 2,
+		ships = {
+			20210
 		}
 	},
 	[20301] = {
@@ -931,7 +945,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 70,
 		nation = 3,
 		ships = {
-			30101
+			30101,
+			30172
 		}
 	},
 	[30102] = {
@@ -1988,6 +2003,7 @@ pg.fleet_tech_ship_class = {
 		20207,
 		20208,
 		20209,
+		20210,
 		20301,
 		20302,
 		20303,

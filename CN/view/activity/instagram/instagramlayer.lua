@@ -62,6 +62,10 @@ function slot0.SetImageByUrl(slot0, slot1, slot2)
 		slot3.enabled = false
 
 		slot0.downloadmgr:GetSprite("ins", "1", slot1, UnityEngine.Events.UnityAction_UnityEngine_Sprite(function (slot0)
+			if not slot0.sprites then
+				return
+			end
+
 			slot0.sprites[] = slot0
 			slot2.sprite = slot0
 			slot0.sprites.enabled = true

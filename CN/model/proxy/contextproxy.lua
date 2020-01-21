@@ -23,7 +23,7 @@ end
 function slot0.getContextByMediator(slot0, slot1)
 	for slot5 = #slot0.data, 1, -1 do
 		if slot0.data[slot5]:getContextByMediator(slot1) then
-			return slot7
+			return slot7, slot6
 		end
 	end
 

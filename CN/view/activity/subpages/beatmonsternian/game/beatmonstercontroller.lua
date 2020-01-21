@@ -5,10 +5,12 @@ function slot0.Ctor(slot0)
 	slot0.model = BeatMonsterModel.New(slot0)
 end
 
-function slot0.SetUp(slot0, slot1)
+function slot0.SetUp(slot0, slot1, slot2)
 	seriesAsync({
 		function (slot0)
-			slot0:InitStage(slot0.InitStage)
+			slot0.OnDisenabelUIEvent = slot0
+
+			slot0:InitStage(slot0)
 
 			if not slot0.model:GetPlayableStory() then
 				slot0()
@@ -34,16 +36,16 @@ end
 function slot0.NetData(slot0, slot1)
 	slot0.model:UpdateData(slot1)
 	slot0.mediator:OnMonsterHpUpdate(slot0.model.mosterNian.hp)
-	slot0.mediator:OnAttackCntUpdate(slot0.model.attackCnt)
+	slot0.mediator:OnAttackCntUpdate(slot0.model.attackCnt, slot0.isFake or slot0.model.mosterNian.hp <= 0)
 end
 
 function slot0.InitStage(slot0, slot1)
 	slot0.model:AddMonsterNian(slot1.hp, slot1.maxHp)
 	slot0.model:AddFuShun()
-	slot0.mediator:OnAddMonsterNian(slot2, slot0.model.mosterNian.maxHp)
+	slot0.mediator:OnAddMonsterNian(slot2, slot3)
 	slot0.mediator:OnAddFuShun(slot2)
 	slot0.model:SetAttackCnt(slot1.leftCount)
-	slot0.mediator:OnAttackCntUpdate(slot0.model.attackCnt)
+	slot0.mediator:OnAttackCntUpdate(slot0.model.attackCnt, slot0.isFake or slot0.model.mosterNian.hp <= 0)
 	slot0.model:SetStorys(slot1.storys)
 end
 
@@ -58,6 +60,8 @@ function slot0.Input(slot0, slot1)
 	slot3 = (slot0.model:IsMatchAction() and 0.5) or BeatMonsterNianConst.INPUT_TIME
 
 	if slot2 then
+		slot0.OnDisenabelUIEvent(true)
+
 		slot0.isOnAction = true
 	end
 
@@ -116,6 +120,8 @@ function slot0.StartAction(slot0, slot1, slot2)
 		end,
 		function (slot0)
 			slot0.isOnAction = false
+
+			slot0.OnDisenabelUIEvent(false)
 		end
 	})
 end
@@ -176,6 +182,8 @@ function slot0.Dispose(slot0)
 	slot0:RemoveInputTimer()
 	slot0.mediator:Dispose()
 	slot0.model:Dispose()
+
+	slot0.OnDisenabelUIEvent = nil
 end
 
 return slot0
