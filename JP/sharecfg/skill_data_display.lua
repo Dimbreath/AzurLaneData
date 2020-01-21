@@ -246,23 +246,23 @@ pg.skill_data_display = {
 	},
 	[2181] = {
 		id = 2181,
-		name = "全面警戒 "
+		name = "全面警戒"
 	},
 	[2190] = {
 		id = 2190,
-		name = "予備弾薬 "
+		name = "予備弾薬"
 	},
 	[2191] = {
 		id = 2191,
-		name = "予備弾薬 "
+		name = "予備弾薬"
 	},
 	[2200] = {
 		id = 2200,
-		name = "両用兵装-127mm連装両用砲MK12 "
+		name = "両用兵装-127mm連装両用砲MK12"
 	},
 	[2201] = {
 		id = 2201,
-		name = "両用兵装-127mm連装両用砲MK12 "
+		name = "両用兵装-127mm連装両用砲MK12"
 	},
 	[3001] = {
 		id = 3001,
@@ -2462,35 +2462,35 @@ pg.skill_data_display = {
 	},
 	[12930] = {
 		id = 12930,
-		name = "Arias of Dido"
+		name = "Arias of Dido"
 	},
 	[12931] = {
 		id = 12931,
-		name = "Arias of Dido"
+		name = "Arias of Dido"
 	},
 	[12940] = {
 		id = 12940,
-		name = "陛下のために "
+		name = "陛下のために"
 	},
 	[12941] = {
 		id = 12941,
-		name = "陛下のために "
+		name = "陛下のために"
 	},
 	[12950] = {
 		id = 12950,
-		name = "The Fighting G"
+		name = "The Fighting G"
 	},
 	[12951] = {
 		id = 12951,
-		name = "The Fighting G"
+		name = "The Fighting G"
 	},
 	[12960] = {
 		id = 12960,
-		name = "守りの炎 "
+		name = "守りの炎"
 	},
 	[12970] = {
 		id = 12970,
-		name = "実技指導 "
+		name = "実技指導"
 	},
 	[18010] = {
 		id = 18010,

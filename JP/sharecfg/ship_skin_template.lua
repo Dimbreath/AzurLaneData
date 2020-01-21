@@ -28006,7 +28006,7 @@ pg.ship_skin_template = {
 		bg_sp = "1102",
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "ロイヤルメイド隊、軽巡洋艦グロスター、春節の挨拶を申し上げます。…機嫌が良くなさそう、ですか？これはお恥ずかしいことを…メイドにとって悩ましいことは普段より祝日のほうが多いというだけです。お気遣いなく",
+		desc = "ロイヤルメイド隊、軽巡洋艦グロスター、春節の挨拶を申し上げます。…機嫌が良くなさそう、ですか？これはお恥ずかしいことを…メイドにとって悩ましいことは普段より祝日のほうが多いということだけです。お気遣いなく",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "geluosite_2",
@@ -77970,6 +77970,7 @@ pg.ship_skin_template = {
 		hand_id = 15,
 		bgm = "",
 		lip_smoothing = 0,
+		l2d_animations = "",
 		bg = "129",
 		skin_type = 0,
 		id = 502034,
@@ -78062,20 +78063,6 @@ pg.ship_skin_template = {
 					}
 				}
 			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
 		}
 	},
 	[502039] = {

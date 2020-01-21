@@ -1972,7 +1972,7 @@ pg.gametip = {
 		key = "login_loginMediator_kickOtherLogin"
 	},
 	login_loginMediator_kickServerClose = {
-		tip = "サーバーとの接続が中断されました",
+		tip = "ただいまメンテナンス中です",
 		key = "login_loginMediator_kickServerClose"
 	},
 	login_loginMediator_kickIntError = {
