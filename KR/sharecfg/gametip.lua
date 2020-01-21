@@ -8874,7 +8874,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "나가토、카와카제、이13、스즈야 、요이즈키 、하루츠키、후미즈키 、아사시오 출현 확률UP！ ",
+		tip = "{namecode:175}、{namecode:179} 출현 확률UP！",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -11259,11 +11259,11 @@ TIPS:
 		key = "tips_summergame_exit"
 	},
 	tips_shrine_buff = {
-		tip = "5 물자를 소모합니다. 추가 효과를 획득합니다:$1",
+		tip = "5 물자를 소모합니다. \n추가 효과를 획득합니다",
 		key = "tips_shrine_buff"
 	},
 	tips_shrine_nobuff = {
-		tip = "5 물자를 소모합니다. 횟수가 모두 소진되어 효과를 받을 수 없습니다.",
+		tip = "5 물자를 소모합니다. \n횟수가 모두 소진되어 효과를 받을 \n수 없습니다.",
 		key = "tips_shrine_nobuff"
 	},
 	paint_hide_other_obj_tip = {
@@ -11955,9 +11955,110 @@ TIPS:
 		tip = "「한정」",
 		key = "title_limit_time"
 	},
+	seven_choose_one = {
+		tip = "지휘관은 1명에게만 연하장을 보낼 수 있습니다.\n연하장을 <color=#92fc63>$1</color>에게 보내겠습니까?\n연하장을 보내면 캐릭터의 답례를 받을 수 있습니다. ",
+		key = "seven_choose_one"
+	},
+	help_newyear_feast = {
+		key = "help_newyear_feast",
+		tip = {
+			{
+				info = [[
+이벤트 기간 동안 매일 1회의 횟수를 획득합니다. 최대 중첩 
+횟수는 7회
+<color=#ff5c5c>1. 유효 횟수를 가지고 있으면 새해 대결 미니게임 (덤벼라! 새
+해 대결)에 참여해 보상, 체크카드와 소원빌기 횟수를 획득할 
+수 있습니다. 체크카드 7개를 모으면 키누의 한정 스킨을 
+획득합니다.</color>
+2. 유효 횟수는 우측에서 확인할 수 있습니다. 체크카드 진도는 
+체크카드 버튼을 터치해 확인할 수 있습니다.
+3. 유효 횟수로 미니게임을 진행하면 추가로 2회의 신사 
+소원빌기 횟수를 획득합니다.
+<color=#ff5c5c>최대 14회까지 획득할 수 
+있습니다.</color>신사에서 소원빌기를 소모하면 다른 효과를 획득할 수 
+있습니다.
+TIPS:
+유효 횟수가 없으면 새해 대결 미니 게임 (덤벼라!새해 대결)
+에서 보상, 체크카드와 소원빌기 횟수를 획득할 수 없습니다.
+2. 미니게임 도중 퇴장할 경우 횟수는 소모되지 않으며
+보상을 획득할 수 없습니다.]]
+			}
+		}
+	},
+	help_newyear_shrine = {
+		key = "help_newyear_shrine",
+		tip = {
+			{
+				info = [[
+<size=31><color=#92fc63>TIPS:
+소원빌기 유효 횟수가 없어도 물자가 소모되지만 효과를 얻을 수 
+없습니다.</color></size>
+1. 새해 대결 미니게임 (덤벼라! 새해 대결) 에서 유효 횟수를 
+소모하면 <color=#ff5c5c>최대 14회의 소원빌기 유효 횟수를 획득할 수 
+있습니다.</color>
+2. 유효 횟수가 있을 시 봉납줄을 당기면 5 물자를 소모하여
+소원을 빌고 다양한 효과를 선택할 수 있습니다.:
+학업: 전술 학원에서 스킬 강화 시 수업시간을 줄입니다.
+사업: 메인, 하드, 작전문서 스테이지에서 전투 시 아군의
+데미지를 소폭 증가시킵니다.
+인연: 비서함의 호감도 증가 속도가 빨라집니다. 
+효과의 지속 시간은 1일입니다.
+3. 학업 효과가 사라져도 지금까지 감소한 수업시간은 
+다시 증가하지 않습니다.
+4. 소원빌기 효과가 적용 중인 상황에서 다시 소원을 빌면 새로 
+빈 소원의 효과가 적용되며 지속 시간이 초기화 됩니다.
+5. 한 번에 받을 수 있는 소원의 효과는 하나입니다.]]
+			}
+		}
+	},
+	help_newyear_stamp = {
+		key = "help_newyear_stamp",
+		tip = {
+			{
+				info = [[
+<color=#92fc63>TIPS:
+1. 유효 횟수로 참여한 새해 대결 미니게임 (덤벼라! 새해 대결)
+에서 획득한 체크카드는 체크카드북에서 확인할 수 있습니다.
+2. 체크카드 7개를 모은 뒤 우측을 터치하면 키누의 한정 스킨을 
+획득할 수있습니다.</color>]]
+			}
+		}
+	},
 	pt_reconfirm = {
 		tip = "<color=#ff5c5c>$1</color>로 교환하시겠습니까? ",
 		key = "pt_reconfirm"
+	},
+	qte_game_help = {
+		key = "qte_game_help",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/guinu_help1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/guinu_help2"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	},
 	word_equipskin_type = {
 		tip = "타입 ",

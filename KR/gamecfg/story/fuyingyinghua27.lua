@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "数日后·某处海域",
+			say = "며칠 뒤, 어느 해역.",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -27,7 +27,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "结果最后，重樱的祭典还是失败了啊~",
+			say = "그래서 결국, 사쿠라 엠파이어의 축제는 실패로 돌아갔네~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没办法的事吧…",
+			say = "어쩔 수 없는 일입니다…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "到头来真正的护国宝器也没能看到真面目，而且据说连重樱内部自己都不知道目前神石的下落",
+			say = "진짜 호국의 보물은 모습을 보이지도 않고, 사쿠라 엠파이어에서도 신석의 향방을 모르는 상태입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			actor = 401020,
 			nameColor = "#a9f548",
-			say = "真是的，都怪欧根你在宴会阶段就醉倒了，仪式厅里发生了什么我们都没看到",
+			say = "정말이지, 오이겐이 취해서 곯아 떨어지는 바람에 무슨 일이 있었는지 하나도 못 보지 않았습니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样情报不足的情况空手而归，肯定要被腓特烈给责备的",
+			say = "아무런 정보 없이 돌아가다니, 프리드리히에게 무슨 소리를 들을지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "（脸红）我那哪是醉了，只是演技，演技而已！！",
+			say = "(붉어짐) 내가 언제 취했어. 연기였어, 연기라고!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -148,7 +148,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对的，你的睡像演得可真好——",
+			say = "네. 정말 대단한 연기였죠——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "（脸红）记得回去以后不许再讨论这件事！",
+			say = "(붉어짐) 돌아가면 이 얘기는 금지야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是是是，欧根亲王大人——",
+			say = "네네네, 프린츠 오이겐님——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			withoutActorName = true,
 			actor = 401020,
 			nameColor = "#a9f548",
-			say = "Z2瞄了一眼旁边这艘拖着一船重樱酒的铁血新锐重巡洋舰，发出了一声叹息",
+			say = "Z2는 정종을 가득 실은 메탈 블러드의 중순양함을 곁눈질로 보며 한숨을 내쉬었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			actor = 403030,
 			nameColor = "#a9f548",
-			say = "不管怎样，至少重樱内部的派系、新锐战舰的性能这些情报已经入手了",
+			say = "어쨌든 사쿠라 엠파이어 내부의 파벌이나 새로운 함선에 대한 정보는 이미 얻었어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最重要的是，NA作战的方案也已经传递到她们手中了，之后，就看她们自己的选择了~",
+			say = "가장 중요한 건 NA작전에 대한 것을 전달했다는 거지. 결정은 그들의 몫이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "毕竟，这个世界，只有强者才能生存下去",
+			say = "어쨌든 이 세계에서는, 강한 자만이 살아남을 수 있으니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgm = "xinnong-3",
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "欧根亲王，请留步",
+			say = "프린츠 오이겐, 잠시만요.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -326,7 +326,7 @@ return {
 			}
 		},
 		{
-			say = "啊啦，这不是{namecode:91}大人和{namecode:92}大人吗？不需要这么客气送我们到这么远的~",
+			say = "어라, 아카기와 카가 아니야? 이렇게 멀리까지 배웅해주지 않아도 되는데.",
 			side = 1,
 			bgName = "bg_story_nepu2",
 			dir = 1,
@@ -361,7 +361,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有些事情在人多眼杂的时候不方便讨论",
+			say = "보는 눈이 많은 곳에서 할 수 없는 이야기도 있으니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			nameColor = "#a9f548",
-			say = "我就直说了，我想要得到铁血舰船和有关塞壬更多的资料",
+			say = "단도직입적으로 말하죠. 메탈 블러드와 세이렌에 대한 더 많은 자료가 필요해요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，{namecode:91}大人这是开口吞象呀，就算我们是盟友关系，之前关于海军的合作也就只有齐柏林伯爵的舰装设计吧？",
+			say = "농담이 심하네, 아카기. 우리가 맹우라 해도 협력한 것은 그라프 체펠린의 장비 설계에 관한 것뿐이었을 텐데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一下子这么跳跃，是不是有点…嗯…就算作为一个交易，等价交换这个道理您也不会不懂吧？呵呵呵",
+			say = "갑자기 이렇게 나오는건 좀… 음… 아무리 거래라도 말이지, 등가교환이라는 걸 모르지는 않을 텐데? 후후후.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，还记得你在酒会时说的事情吗？",
+			say = "술자리에서 당신이 했던 말, 기억하나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——神石，铁血难道不想稍稍借用一下吗？",
+			say = "——신석, 메탈 블러드도 잠시 빌리고 싶을 텐데요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"各自的新年\n\n<size=45>五 新年快乐！</size>",
+					"각자의 새해\n\n<size=45>새해 복 많이 받아!</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "newyear2",
 			actor = 306071,
 			nameColor = "#a9f548",
-			say = "呼…补充的甜酒就放在这里，破魔矢也足够了，嗯嗯，不错！这样就…",
+			say = "후… 채워넣을 감주는 여기에, 파마의 화살도 넉넉하고… 응, 좋아! 이러면…",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			actor = 306071,
 			nameColor = "#a9f548",
-			say = "啊，有人来了，新年快乐~欢迎来到重樱神社",
+			say = "아, 손님이다. 새해 복 많이 받으세요. 사쿠라 엠파이어 신사입니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actor = 499021,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "通过新年的“初诣”祈求一年的平安幸福吗，呼呼，挺传统的习俗呢",
+			say = "새해 참배로 1년의 평안과 행복을 비는 건가. 후후, 꽤 클래식한 풍습이네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			actor = 305052,
 			nameColor = "#a9f548",
-			say = "没错，新年是很重要的，对你们应该也是吧，不过大家的习俗可能不太一样就是了",
+			say = "그렇다. 새해는 중요하지. 너희에게도 그렇지 않은가. 하지만 서로 풍습은 다를 것이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			actor = 306071,
 			nameColor = "#a9f548",
-			say = "啊，是{namecode:74}大人，唔…这些人是？",
+			say = "아, 나가토님. 그리고… 이 분은?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			actor = 305052,
 			nameColor = "#a9f548",
-			say = "呼嗯，之前路上碰巧遇到，就约了一起过来参观下。神社的帮忙辛苦了啊，{namecode:179}",
+			say = "음음. 길에서 우연히 만나 함께 신사 구경을 하기로 약속했지. 신사의 일로 수고가 많다, 류호.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			actor = 306071,
 			nameColor = "#a9f548",
-			say = "这、这是我应该做的！那我来带大家参观一下吧，另外，要喝点甜酒暖暖身子吗？",
+			say = "제, 제가 해야할 일입니다! 그렇다면 제가 안내를 해드리도록 하겠습니다. 먼저 몸이 따뜻해지게 감주 한 잔 어떠신가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			bgName = "star_level_bg_126",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我要喝甜酒~",
+			say = "나도 감주 마실래~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			actor = 301101,
 			nameColor = "#a9f548",
-			say = "我也要~",
+			say = "나도~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			actor = 302211,
 			nameColor = "#a9f548",
-			say = "咳咳…新年快乐，{namecode:74}大人，{namecode:179}。",
+			say = "후후… 나가토님, 류호. 새해 복 많이 받으세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			actor = 305052,
 			nameColor = "#a9f548",
-			say = "嗯哼，新年快乐。真是奇妙的组合啊…嗯？克利夫兰和Z35…你们脸上怎么红红的…？",
+			say = "음음. 새해 복 많이 받거라. 굉장히 기묘한 조합이구나… 음? 클리블랜드와 Z35… 왜 그리 얼굴이 붉은 것이냐…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			actor = 102094,
 			nameColor = "#a9f548",
-			say = "啊哈哈哈…墨水意外地很难洗呢……",
+			say = "아하하하… 먹물, 잘 안 씻기네……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "star_level_bg_126",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "新年快乐~啊哈哈，大家都来了~真是热闹啊~",
+			say = "새해 복 많이 받아~ 아하하, 시끌벅적하네~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			actor = 304043,
 			nameColor = "#a9f548",
-			say = "对了，我刚才碰巧遇上了这孩子，正在帮她找人呢！你们有谁看到皇家方舟了吗？",
+			say = "맞아, 오는 길에 이 아이를 만났는데 누군가를 찾고 있다고 하는군! 혹시 아크 로열을 본 사람 있는가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			actor = 206034,
 			nameColor = "#a9f548",
-			say = "呜…原本是一起来神社的，一不小心就找不到皇家方舟了…",
+			say = "우… 같이 신사에 오기로 했는데 정신 차려보니까 아크 로열이 없었어…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			actor = 499021,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "呵呵~方舟的话，看看“驱逐舰妹妹们”集中在哪里，大概就能找到她了吧~？",
+			say = "후후~ 아크 로열이라면 구축함이 모여있는 곳에 가보면 찾을 수 있을텐데~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			}
 		},
 		{
-			actorName = "众人",
+			actorName = "모두들",
 			side = 2,
 			bgName = "star_level_bg_126",
 			nameColor = "#a9f548",
@@ -358,7 +358,7 @@ return {
 			bgName = "star_level_bg_126",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳…新年快乐，诸位",
+			say = "흠흠… 모두들 새해 복 많이 받아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			actor = 206034,
 			nameColor = "#a9f548",
-			say = "啊，皇家方舟…！",
+			say = "아, 아크 로열…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			bgName = "star_level_bg_126",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳…我只是稍微为了驱逐——不对，为了大家的安全巡逻了一下而已",
+			say = "흠흠… 잠시 구축함을 위해서—— 아니, 모두의 안전을 위해서 주변을 둘러봤을 뿐이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			actor = 207023,
 			nameColor = "#a9f548",
-			say = "抱歉啦，独角兽，不小心跟你走散了",
+			say = "미안, 유니콘. 헤어져버렸네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			bgName = "star_level_bg_126",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "像这样来自不同阵营的各位聚集在一起的场景，也就只有在港区才能看得到了呢",
+			say = "다른 진영의 여러분이 이렇게 모여있는 건 모항에서만 볼 수 있는 진풍경이네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			actor = 499021,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "这也是“那孩子”的功劳吧，呵呵~",
+			say = "이 역시 그 아이의 공로겠지, 후후~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			actor = 305052,
 			nameColor = "#a9f548",
-			say = "感觉一年比一年还要热闹了呢…",
+			say = "매년 더 떠들썩해지는 것 같구나…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			dir = 1,
 			actor = 304043,
 			nameColor = "#a9f548",
-			say = "哈哈，不是挺好的嘛，大家的关系也一年比一年密切了~",
+			say = "하하, 좋지 않은가. 매년 사이도 돈독해지고 있는 것 같군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			dir = 1,
 			actor = 301101,
 			nameColor = "#a9f548",
-			say = "嘿嘿，明年也一起来神社喝甜酒祈福吧~",
+			say = "헤헤, 내년에도 다 같이 신사에서 모이자고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,13 +523,13 @@ return {
 			}
 		},
 		{
-			actorName = "众人",
+			actorName = "모두들",
 			side = 2,
 			bgName = "star_level_bg_126",
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "嗯！",
+			say = "응!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

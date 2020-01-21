@@ -12,7 +12,7 @@ return {
 			bgm = "xinnong-2",
 			actor = 302210,
 			nameColor = "#a9f548",
-			say = "没有灵魂的仿制品…不过如此，消失吧！",
+			say = "영혼 없는 복제품… 하지만 사라지세요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 306070,
-			say = "很好，区域肃清！我们快去其他地方增援吧",
+			say = "좋아. 구역 클리어! 어서 다른 곳을 도와주러 가요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果塞壬是瞄准祭典来的，那么神石就可能有危险！",
+			say = "세이렌이 축제를 노린 거라면, 신석이 위험할 거예요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 306070,
-			say = "一航战、五航战的前辈甚至{namecode:82}大前辈都在本岛，只要我们守住结界外围…",
+			say = "1항전, 5항전 그리고 미카사 대선배까지 본섬에 있으니 우리는 결계 외부만 지키면…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			actor = 302210,
 			nameColor = "#a9f548",
-			say = "啊，{namecode:179}大人，快看天空！！",
+			say = "아, 류호님. 하늘을 보세요!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "那些是…乌云中散发着紫色的光？！！！",
+			say = "저건… 먹구름 사이에서 보라색 빛이?!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 302210,
-			say = "再感受一下水面，和之前的感觉也有所不同",
+			say = "해수면도 방금 전과는 느낌이 달라요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "？！真的……这是怎么回事？",
+			say = "?! 진짜네요…… 이건 대체?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "镜面海域。塞壬刚刚把包含天岩岛在内的整片区域，全部转化为了镜面海域",
+			say = "거울 해역. 세이렌이 방금 아마이와섬을 포함한 이 해역을 전부 거울 해역으로 만들었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,22 +184,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 306070,
-			say = "啊，真正的{namecode:181}和{namecode:180}，你们平安无事真是太好了~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301810,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "呼呼，西面的量产型已经被我们压制了哦~",
+			say = "아, 진짜 카스미와 키누군요. 무사해서 다행이에요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +201,7 @@ return {
 			bgName = "bg_xinnong_cg5",
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "见到{namecode:179}大人的舰载机在此盘旋就立刻赶过来了…西面的量产型已经被我们压制了",
+			say = "류호의 함재기가 선회하는 것을 보고 바로 달려왔다. 서쪽의 세이렌은 이미 해치웠어.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -250,7 +235,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:181}",
 			hidePaintObj = true,
-			say = "气压骤降、风速减弱、海面波浪回归平静，映照出水面的自我…对外电波信号完全屏蔽…确实和记录中的一样",
+			say = "기압이 떨어지고 바람이 약해지면서 고요해진 바다에 자신이 비춘다… 외부와의 신호는 완전 차단… 확실히 기록된 것과 똑같군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +252,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:181}",
 			hidePaintObj = true,
-			say = "和以往不同的是，镜面海域一般是在“海上”形成的，之前从未见过这样“覆盖岛屿”非自然形成的案例",
+			say = "거울 해역은 보통 외해에 생긴다는 점이 다르지. 지금까지 연해에 비자연적으로 생겨난 사례는 없어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +269,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:181}",
 			hidePaintObj = true,
-			say = "预测接下来很可能会有更大规模的袭击，{namecode:179}大人，请给予指示",
+			say = "곧 대규모 습격이 있을 것 같군. 류호, 지시를.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +303,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			actorName = "{namecode:179}",
-			say = "这次是…来自东面吗？",
+			say = "이번에는… 동쪽과 서쪽인가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +320,7 @@ return {
 			dir = 1,
 			actor = 302210,
 			actorName = "{namecode:50}",
-			say = "东面是暗礁地区，塞壬理论上应该无法进入，所以并没有部署战力…这究竟是…？",
+			say = "동쪽은 분명 암초 지대라 분명 세이렌이 물 밑에서 접근할 방법이 없는걸요. 그래서 병력을 배치하지 않았는데, 이건 대체…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +337,7 @@ return {
 			dir = 1,
 			actor = 306070,
 			actorName = "{namecode:179}",
-			say = "{namecode:180}，{namecode:175}——随我一同前往调查究竟，其他诸位，请务必死守正面航线！",
+			say = "카스미, 스루가—— 저와 함께 어떻게 된 것인지 조사를 해보죠. 그리고 여러분은, 정면의 항로를 사수하세요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,11 +349,11 @@ return {
 		},
 		{
 			nameColor = "#a9f548",
-			actorName = "众人",
+			actorName = "모두들",
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "是！",
+			say = "네!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

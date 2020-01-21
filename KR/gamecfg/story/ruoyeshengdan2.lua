@@ -416,7 +416,7 @@ return {
 			actor = 299011,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "와카바짱, 당신의 희생은 헛되지 않았어요.——",
+			say = "와카바짱, 당신의 희생은 헛되지 않았어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

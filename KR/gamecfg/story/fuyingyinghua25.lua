@@ -12,7 +12,7 @@ return {
 			bgm = "xinnong-4",
 			actor = 900192,
 			actorName = "？？？",
-			say = "拖得太久了，不妙…时间就快到了",
+			say = "너무 오래 끌었어. 이런… 시간이 없다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "“不速之客”转身想要迂回，{namecode:96}一个迅步挡在了她的面前",
+			say = "불청객이 다른 길을 찾으려 돌아서자 즈이카쿠가 그 앞을 가로막았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别想从我面前…",
+			say = "내 앞에서…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "明镜止水——",
+			say = "명경지수——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "就在{namecode:96}想要抬手阻拦的一瞬间，一股强烈的寒意让她本能地停下了动作",
+			say = "즈이카쿠가 막아서려는 순간, 강렬한 한기가 느껴져 멈출 수밖에 없었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "下一瞬，眼前的敌人已经从自己的侧身闪过",
+			say = "그 순간, 눈 앞의 적은 이미 자신의 옆을 스쳐 지나갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "只留下驻足在原地彷徨的{namecode:96}",
+			say = "남은 것은 당황한 즈이카쿠 뿐이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:96}！！没事吧？！",
+			say = "즈이카쿠! 괜찮아?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…刚才那是…",
+			say = "…방금 그건…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "仿佛那一秒要是继续攻击，手就要被斩断了…",
+			say = "만약 계속 공격했다간 손이 잘렸을 거야…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不…是就要死去了",
+			say = "아니… 죽었을지도…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这就是…剑法的极意？",
+			say = "저게 바로… 검법의 극치?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

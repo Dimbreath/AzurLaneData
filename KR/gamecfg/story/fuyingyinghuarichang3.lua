@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"各自的新年\n\n<size=45>三 新年对决！</size>",
+					"각자의 새해\n\n<size=45>새해 대결!</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "newyear2",
 			actor = 401351,
 			nameColor = "#a9f548",
-			say = "克利夫兰加油啊~~！",
+			say = "클리블랜드, 화이팅~!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			actor = 102094,
 			nameColor = "#a9f548",
-			say = "看我的黄金扣杀！嘿！",
+			say = "받아라, 내 골든 스매시! 합!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			actor = 301101,
 			nameColor = "#a9f548",
-			say = "哼哼~太天真了！看我的！",
+			say = "흐흥~ 너무 쉽잖아! 받아라!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			actor = 102094,
 			nameColor = "#a9f548",
-			say = "呜哇？！",
+			say = "으앗?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦…！{namecode:12}得分！",
+			say = "오오…! 히비키 득점!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈~果然还要多加练习啊，羽板球什么的…",
+			say = "아하하~ 아무래도 하네츠키라는 거, 더 연습해야겠네…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			actor = 301101,
 			nameColor = "#a9f548",
-			say = "嘿嘿，这可是重樱新年的传统运动呢~而且一开始说“不要放水”的可是克利夫兰那边吧~",
+			say = "헤헤, 이건 사쿠라 엠파이어의 민속 놀이니까~ 그리고 ‘봐주지 말라고’ 라고 한건 클리블랜드인걸~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			actor = 302211,
 			nameColor = "#a9f548",
-			say = "作战失误了呢，克利夫兰",
+			say = "잘못된 수를 뒀군요. 클리블랜드.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			actor = 401351,
 			nameColor = "#a9f548",
-			say = "呜~本来对运动多少还有点自信的说~",
+			say = "우~ 운동에는 그래도 자신이 있었는데~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			actor = 102094,
 			nameColor = "#a9f548",
-			say = "板子也好，球也好，都不太习惯…不过还是挺有趣的~重樱的活动，还真是都挺有意思的呢~",
+			say = "이 라켓도 공도 익숙하지 않아서… 그래도 재밌었어. 사쿠라 엠파이어의 이벤트는 전부 다 재밌는걸!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "下次和皇家的小伙伴们也玩玩好了~",
+			say = "다음 번에는 로열의 친구들과도 해보면 좋겠어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			actor = 302211,
 			nameColor = "#a9f548",
-			say = "能得到各位的赞赏是我们的荣幸，既然胜负已分，接下来就是…啊，{namecode:12}，你有跟 她们说过惩罚的事情吗？",
+			say = "모두의 칭찬을 받을 수 있어서 영광으로 생각합니다. 승부도 정해졌으니 이제는… 아, 히비키. 이들에게 벌칙에 대해 이야기 했나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			dir = 1,
 			actor = 301101,
 			nameColor = "#a9f548",
-			say = "HOHOHO~当然说过啦~我早就准备好啦！做好心理准备吧！！",
+			say = "호호호~ 당연히 했지~ 이미 준비해 뒀다구! 마음의 준비를 하는 게 좋을걸!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,8 +304,8 @@ return {
 			actor = 102094,
 			dir = 1,
 			hideOther = true,
-			actorName = "克利夫兰&Z35",
-			say = "欸？",
+			actorName = "클리블랜드&Z35",
+			say = "에?",
 			subActors = {
 				{
 					actor = 401351,
@@ -329,7 +329,7 @@ return {
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊…好像是…“输掉的人要被人在脸上涂鸦作为惩罚！”…来着？",
+			say = "아… 분명… ‘진 쪽 얼굴에 낙서하기!’ …였었죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			}
 		},
 		{
-			actorName = "克利夫兰&Z35",
+			actorName = "클리블랜드&Z35",
 			side = 0,
 			bgName = "star_level_bg_101",
 			hideOther = true,
@@ -348,7 +348,7 @@ return {
 			blackBg = true,
 			actor = 102094,
 			nameColor = "#a9f548",
-			say = "啊！",
+			say = "아!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,

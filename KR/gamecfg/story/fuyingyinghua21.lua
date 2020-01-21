@@ -6,7 +6,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "天岩岛本岛·子时",
+			say = "아마이와섬 본섬·한밤중",
 			side = 2,
 			dir = 1,
 			bgm = "xinnong-2",
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来{namecode:74}大人似乎是在路上迷路了呢~",
+			say = "나가토님이 길을 잃으신 모양이네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，{namecode:82}大人为何不带着{namecode:74}大人一同前往呢，万一遭到塞壬攻击这种事，也好有个照应不是吗~",
+			say = "미카사님이 왜 나가토님을 모시고 오지 않으셨는지 모르겠네요. 만약 오시는 길에 세이렌의 습격이라도 받으신 거라면…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:74}已经不是当年那个不成熟的孩子了，她完全可以按自己的想法行事~",
+			say = "나가토는 어린애가 아니야. 자기 뜻대로 행동할 수 있는 아이니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "倒是{namecode:91}殿下似乎对于现状有一点…开心的样子？",
+			say = "그런데 아카기는… 조금 즐거워 보이는 모양인데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哪里哪里，只不过是酒劲上头了罢~天岩岛自酿的酒果然名不虚传啊哈哈哈，{namecode:92}你说是吧",
+			say = "설마요. 술기운이 조금 돈 모양입니다만. 아마이와섬의 정종은 역시 명불허전이네요, 하하하. 카가, 어떤가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，在{namecode:182}大人无法现身，{namecode:74}大人又赶不及的情况下…依照传统，必须得有巫女血统的孩子来进行祈祷仪式…",
+			say = "나가토님이 안 계시지만, 전통대로라면 반드시 무녀의 혈통을 이은 자가 의식을 치러야 한다…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在座的似乎只有{namecode:79}殿下拥有这个资格了…",
+			say = "여기에 자격이 있는 자는 야마시로뿐인 것 같군…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶…诶？！——",
+			say = "에…에?! ——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "正在欢笑着吃着烤串的{namecode:79}突然反应过来，猫尾受到惊吓般立了起来",
+			say = "즐겁게 연회를 즐기던 야마시로는 깜짝 놀랐는지 고양이 꼬리가 삐쭉 선 모양새였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶诶诶，真的是我吗？可是可是…",
+			say = "에에에, 정말 저인가요? 하지만, 하지만…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不要紧张，只不过和平常的祭典没什么区别，将祈祷语念出来就行~",
+			say = "긴장하지 마세요. 평소 축제와 별다를 것 없답니다. 기도문을 읽기만 하면 되니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:12}，去把神石搬来，注意点，可别摔坏了哟",
+			say = "히비키, 신석을 옮겨오세요. 망가뜨리지 않게 주의하고요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			say = "是、是！{namecode:91}大人",
+			say = "응, 응! 알았어, 아카기.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "说完…{namecode:12}便快速向内殿跑去",
+			say = "히비키는 빠른 속도로 내전을 향해 달려갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啦~终于可以看到传说中的重樱的护国宝器【海若】了吗？~就是那个可以“嗖”地一下创造出本不该存在的“我们”的神器？",
+			say = "오호라~ 드디어 호국이 보물 [카이쟈쿠]을 볼 수 있는 건가? 쉭 하면 존재해서는 안 될 ‘우리’를 만들어 낼 수 있다는 그 보물을?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比如可以把“Z计划”提前完成什么的？~",
+			say = "예를 들면 ‘Z계획’을 사전에 완성해버린다거나~ ?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欧根大人，您喝醉了",
+			say = "오이겐, 취했습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀呀，人家怎么可能喝了这么点淡水就醉了嘛哈哈，只不过举个例子，举个例子而已啦哈哈哈~",
+			say = "설마, 내가 이 정도 마셨다고 취했을 리가 있어? 아하하. 그냥 예시를 들었을 뿐이야. 예시일 뿐이라고. 하하하~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对不起诸位，欧根失态了…本人也没见过她酒品这么差的样子",
+			say = "죄송합니다. 오이겐이 실례를… 이렇게까지 취한 모습은 저도 본 적이 없기에.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没什么，大家都是盟友~有什么话摆明了说也挺好的，如果有我们可以帮上忙的地方直说就好",
+			say = "괜찮아요. 맹우니까요~ 할 말이 있으면 제대로 하는 것이 좋답니다. 저희가 도울 수 있는 것이라면 더더욱.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比如说把神石也借我们用用之类的？哈哈哈哈~说笑的说笑的",
+			say = "예를 들면 저 신석을 빌려준다거나? 하하하~ 장난이야, 장난.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来是引狼入室了呢（小声",
+			say = "늑대를 끌어들인 모양이네요.(속닥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:74}究竟…（小声",
+			say = "나가토는 대체…(속닥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "需要我也派出侦察机吗？（小声",
+			say = "정찰기를 보낼까요? (속닥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "相信{namecode:96}吧，我们只要稳住这里的局面就好，不能让她们对神石动什么手脚（小声",
+			say = "아니, 즈이카쿠를 믿고 저들이 신석에 손을 대지 못하게 해야겠지.(속닥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 301100,
-			say = "诸位大人~我已经将护国宝器【海若】护送就位了！还有劳大家起身前往仪式厅进行祈愿仪式~",
+			say = "자~ 호국의 보물 [카이쟈쿠]이 준비됐어. 모두들 가서 소원을 빌어보라고~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "说完，众人从坐席上站了起来，只剩欧根亲王一人在酒桌旁睡了过去，脸上还带着幸福的红晕",
+			say = "히비키의 말이 끝나자 술상 옆에서 붉은 얼굴로 행복하게 잠이 든 프린츠 오이겐을 제외하고 모두가 일어났다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诸位还请自便，欧根大人由我照顾即可",
+			say = "오이겐은 제가 돌보겠습니다. 신경 쓰지 마시길.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "说完，众人便进入了仪式厅，留下躺在Z2膝枕上呼呼大睡的欧根亲王",
+			say = "모두가 의식을 치르는 곳으로 향했다. 남은 것은 Z2와 잠이 든 오이겐 뿐이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "人都走了，你也该起来了——",
+			say = "모두 가버렸으니 이제 일어나십시오——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂…喂欧根",
+			say = "오이겐, 오이겐…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "呼…呼…哈（欧根的脸上露出幸福的笑容",
+			say = "으음… 응… 쿨… (오이겐은 행복하게 웃고 있다)",
 			action = {
 				{
 					y = 0,
@@ -605,7 +605,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然不是演技吗？……这跟说好的剧本不一样啊…真是的",
+			say = "연기가 아니었던 겁니까? …… 대본과는 다르군요… 정말이지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重樱的酒…真是可怕",
+			say = "사쿠라 엠파이어의 술… 정말 무섭습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

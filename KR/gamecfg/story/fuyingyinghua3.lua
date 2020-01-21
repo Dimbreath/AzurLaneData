@@ -12,7 +12,7 @@ return {
 			bgm = "story-4",
 			actor = 306070,
 			nameColor = "#a9f548",
-			say = "诸位，请留步。",
+			say = "여러분. 잠시 기다리세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦？迎接的人是{namecode:179}么？",
+			say = "어라? 마중을 나온 게 류호였군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 306070,
-			say = "好久不见，{namecode:91}大人，{namecode:92}大人。",
+			say = "오래간만입니다. 아카기님, 카가님.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "天宇启户祭的规矩我们都明白。寒暄一会再说，按流程开始演武吧，代主祭。",
+			say = "하늘 기원제의 규칙은 우리도 알고 있어. 인사는 잠시 뒤에 나누고 순서에 따라 연무부터 시작하지, 대리 제사장.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，一上来就是主菜吗？{namecode:179}可比看起来难对付很多，大家不要轻敌哦~",
+			say = "우후후. 시작하자마자 메인 디쉬인가요? 류호는 보기보다 까다로우니 모두, 방심하지 말아요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 306070,
-			say = "…向神明展现勇武，向神明纳奉才智，向神明给予信仰！",
+			say = "…신께 용맹함을, 지혜와 재능을, 그리고 신앙을!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 306070,
-			say = "{namecode:179}号航空母舰，参上！",
+			say = "항공모함 류호, 갑니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

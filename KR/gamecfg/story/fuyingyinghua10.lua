@@ -12,7 +12,7 @@ return {
 			bgm = "story-4",
 			actor = 302210,
 			nameColor = "#a9f548",
-			say = "一路而来辛苦了，远道而来的铁血朋友们，欢迎莅临天岩岛。",
+			say = "오시느라 수고 많으셨습니다. 메탈 블러드의 맹우여, 시게미츠섬에 오신 것을 환영합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 302210,
-			say = "{namecode:49}级轻巡洋舰{namecode:50}，受{namecode:182}大人的委托，在此恭候各位多时了。",
+			say = "아가노급 경순양함 노시로, 시나노님을 대신해 여러분을 환영합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 0,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "能做为赤色中轴的盟友受邀参与重樱的重大祭典，对铁血来讲也是莫大的荣幸~",
+			say = "사쿠라 엠파이어의 중요한 축제에 참여한다는 것은 레드 액시즈의 맹우인 메탈 블러드에게도 영광이니까.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -62,7 +62,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请代我们向{namecode:182}大人致以最诚挚的问候~",
+			say = "시나노님에게 안부 인사 전해줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 302210,
-			say = "这是一定的。时间不早了，按照计划各位客人请随我直接前往内城…",
+			say = "물론입니다. 시간이 늦었으니 계획대로 저와 함께 바로 내성으로 가시지요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？之前我听{namecode:91}介绍祭典流程的时候，对其中一个叫“演武”的环节还挺感兴趣的呢…",
+			say = "에? 아카기에게 축제에 대해 들었을 때, ‘연무’라는 것에 엄청난 흥미가 생겼는데 말이지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，那个啊。演武是本次祭典中的重要组成部分，会场中的每一场演武都被视为一次对神明的供奉行为。",
+			say = "아, 그것입니까. 연무는 굉장히 중요한 일이지요. 매 연무는 신에게 바쳐지는 것이니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 302210,
-			say = "不过，演武只针对重樱内的来访成员，来自铁血的诸位就不必辛苦进行战斗了。",
+			say = "하지만 사쿠라 엠파이어의 일원들을 대상으로만 하기에, 메탈 블러드의 여러분은 신경 쓰지 않으셔도 됩니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那不是太可惜了嘛~入乡随俗，也让我来感受一下重樱的演武吧。",
+			say = "그건 너무 아쉬운 일이지~ 기껏 여기까지 왔으니 나도 사쿠라 엠파이어의 연무에 참여하게 해줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 302210,
-			say = "哎…？这……",
+			say = "에…? 그건……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就当做是我的个人请求，拜托了~",
+			say = "개인적인 부탁으로 치자고. 부탁해~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 302210,
-			say = "唔…好吧。既然您坚持的话，作为接待人自然不能让各位客人扫兴…",
+			say = "음… 그러죠. 굳이 그러시다면야, 손님의 부탁을 거절하는 것도 예의는 아니니…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,23 +202,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 302210,
-			say = "向神明展现勇武，向神明纳奉才智，向神明给予信仰——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			nameColor = "#a9f548",
-			side = 1,
-			dir = 1,
-			actor = 302210,
-			say = "不才{namecode:50}，在铁血诸位盟友面前，献丑了！",
+			say = "이 노시로, 하찮은 재주나마 메탈 블러드의 여러분들에게 선보이도록 하겠습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +217,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵呵，究竟是客套话还是真心话。重樱新锐巡洋舰的实力，就让我好好见识一下吧~",
+			say = "아하하. 인사치레일까, 진짜일까? 사쿠라 엠파이어의 새로운 경순양함의 실력을 한번 보여달라고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +232,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "铁血海军，欧根亲王号战斗准备完毕！",
+			say = "메탈 블러드의 프린츠 오이겐, 준비 완료.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +247,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "Eisen und Blut über alles！",
+			say = "Eisen und Blut über alles!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

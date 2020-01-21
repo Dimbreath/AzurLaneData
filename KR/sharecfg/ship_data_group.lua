@@ -8310,6 +8310,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[160] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 192,
+		group_type = 30110,
+		code = 160,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：占坑",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[161] = {
 		type = 1,
 		trans_skin = 0,
@@ -8380,7 +8411,7 @@ pg.ship_data_group = {
 	},
 	[171] = {
 		type = 1,
-		trans_skin = 0,
+		trans_skin = 301219,
 		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
@@ -8397,8 +8428,17 @@ pg.ship_data_group = {
 			"D",
 			"D"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_skill = {
+			1011
+		},
 		description = {
 			{
 				"소형함 건조",
@@ -8782,6 +8822,37 @@ pg.ship_data_group = {
 		description = {
 			{
 				"이벤트 : 아라시오의 항구견습",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[424] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 208,
+		group_type = 30181,
+		code = 424,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 빛나는 벚꽃의 그림자",
 				{
 					""
 				},
@@ -9402,6 +9473,46 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[186] = {
+		type = 2,
+		trans_skin = 302089,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 226,
+		group_type = 30208,
+		code = 186,
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {
+			"C",
+			"A",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_skill = {
+			12880
+		},
+		description = {
+			{
+				"限时活动：占坑",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[187] = {
 		type = 2,
 		trans_skin = 302099,
@@ -9748,6 +9859,37 @@ pg.ship_data_group = {
 					{
 						chapterid = 1102
 					}
+				},
+				0
+			}
+		}
+	},
+	[322] = {
+		type = 2,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 236,
+		group_type = 30221,
+		code = 322,
+		property_hexagon = {
+			"C",
+			"A",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：占坑",
+				{
+					""
 				},
 				0
 			}
@@ -10670,6 +10812,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[425] = {
+		type = 5,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 262,
+		group_type = 30514,
+		code = 425,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"D",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 빛나는 벚꽃의 그림자",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[218] = {
 		type = 6,
 		trans_skin = 0,
@@ -10839,6 +11012,37 @@ pg.ship_data_group = {
 		description = {
 			{
 				"이벤트：솔로몬의 무사",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[426] = {
+		type = 6,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 268,
+		group_type = 30607,
+		code = 426,
+		property_hexagon = {
+			"E",
+			"E",
+			"B",
+			"D",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 빛나는 벚꽃의 그림자",
 				{
 					""
 				},
@@ -14822,6 +15026,7 @@ pg.ship_data_group = {
 		151,
 		155,
 		159,
+		160,
 		161,
 		162,
 		171,
@@ -14836,6 +15041,7 @@ pg.ship_data_group = {
 		332,
 		333,
 		334,
+		424,
 		167,
 		168,
 		177,
@@ -14853,6 +15059,7 @@ pg.ship_data_group = {
 		297,
 		182,
 		183,
+		186,
 		187,
 		179,
 		308,
@@ -14862,6 +15069,7 @@ pg.ship_data_group = {
 		189,
 		382,
 		321,
+		322,
 		190,
 		191,
 		192,
@@ -14887,11 +15095,13 @@ pg.ship_data_group = {
 		212,
 		213,
 		368,
+		425,
 		218,
 		219,
 		220,
 		222,
 		223,
+		426,
 		224,
 		225,
 		384,

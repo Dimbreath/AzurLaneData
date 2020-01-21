@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"各自的新年\n\n<size=45>二 新年懒洋洋？</size>",
+					"각자의 새해\n\n<size=45>나른나른 정월?</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "newyear2",
 			actor = 305141,
 			nameColor = "#a9f548",
-			say = "呼…暖炉、橘子…还有没营养的电视节目…果然这样才像是在过年啊~",
+			say = "후… 난로와 귤… 그리고 영양가 없는 TV 프로그램… 이래야 연말 느낌이지~",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			actor = 305141,
 			nameColor = "#a9f548",
-			say = "可以不用想太多，尽情地放空——",
+			say = "아무 생각 없이 풀어져서 편안하게——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			actor = 331050,
 			nameColor = "#a9f548",
-			say = "暖炉…真是可怕的存在，{namecode:6}感觉都要融化了…的说",
+			say = "난로… 무서워요. 아야나미가 녹을 것 같은 느낌… 이에요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			actor = 301811,
 			nameColor = "#a9f548",
-			say = "不过…好舒服…噗噗也一副快要融化了的样子呢…",
+			say = "하지만… 기분 좋아… 둥실이도 녹을 것 같은 느낌…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			actor = 305141,
 			nameColor = "#a9f548",
-			say = "嗯嗯…就这么融化吧……欸！！？？你们两个什么时候出现的！？",
+			say = "응응… 이렇게 녹는 거지…… 에?!!! 두 분, 대체 언제 들어온 거죠?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			actor = 331050,
 			nameColor = "#a9f548",
-			say = "“果然这样才像是在过年啊~”的时候…？",
+			say = "‘이래야 연말 느낌이지~’ 라고 했을 때…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:175}正在放空的时候……",
+			say = "스루가가 풀어졌을 때부터……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			actor = 305141,
 			nameColor = "#a9f548",
-			say = "嘎啊！？！！一、一定是听错了，我只是稍微发了下呆——",
+			say = "으아?!!! 잘, 잘못 들은 겁니다. 저는 그저 잠시 멍을——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			actor = 331050,
 			nameColor = "#a9f548",
-			say = "不用遮遮掩掩也没关系地说。想要缩在暖炉里是再正常不过的欲望…的说",
+			say = "숨기지 않아도 괜찮은 거, 예요. 난로 옆에서 녹아내리는 건 정상적인 욕망…이니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			actor = 301811,
 			nameColor = "#a9f548",
-			say = "噗噗?嗯…嗯嗯…噗噗说，要诚实面对自己的欲望",
+			say = "둥실아? 응… 응응… 자기 욕망에 솔직해지라고 둥실이가 그랬어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			actor = 305141,
 			nameColor = "#a9f548",
-			say = "虽然之前就一直想吐槽噗噗…不过算了…哈啊…",
+			say = "아까부터 계속 둥실이, 둥실이… 이젠 됐어요… 하아…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			actor = 305141,
 			nameColor = "#a9f548",
-			say = "一年难得这么一次…就让我懒一会吧…你们两个也是，吃点橘子吧…？",
+			say = "1년에 딱 한번인데… 이렇게 풀어져있게 해주세요… 두 사람, 귤 먹을 거죠…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			actor = 301811,
 			nameColor = "#a9f548",
-			say = "{namecode:180}带了年糕…要一起吃吗？",
+			say = "카스미, 떡 가져왔어… 같이 먹을래?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			actor = 331050,
 			nameColor = "#a9f548",
-			say = "奇妙的组合…",
+			say = "기묘한 조합…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			blackBg = true,
 			actor = 305141,
 			nameColor = "#a9f548",
-			say = "这样组合不会吃坏肚子吧……",
+			say = "이렇게 먹으면 배탈이 나지는 않겠지…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

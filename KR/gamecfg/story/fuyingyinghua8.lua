@@ -13,7 +13,7 @@ return {
 			bgm = "nagato-map",
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "居…居然还有这种操作…？！",
+			say = "이… 이런 게 가능하다니…?!",
 			action = {
 				{
 					y = 0,
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 305140,
-			say = "也是啊…大前辈也能调用{namecode:95}和{namecode:96}的舰载机进行航空战…果然还是比不过大前辈，是我输了…",
+			say = "역시 대선배님은 이길 수 없네요… 제가 졌습니다…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 0,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好险好险，刚刚好几次都把我逼到危险的位置了。真是后生可畏啊~",
+			say = "아슬아슬했다. 방금 그건 나도 꽤 위험했다고. 대단한걸~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -74,7 +74,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 305140,
-			say = "嘴上说着陷入危机，然后三两下轻松脱困了…大前辈强到犯规了吧！",
+			say = "말로는 아슬아슬했다고 하지만 쉽게 빠져나가셨잖아요… 대선배님, 반칙입니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			dir = 1,
 			actor = 305140,
-			say = "（要是能成功预判那次回避的话……不，不行，在那之前我就丧失优势的炮击位置了。）",
+			say = "(만약 그때 피할 것을 예측했더라면…… 아니, 아니야. 그 전에 이미 위치가 유리하지 않았어.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "（可恶…到底是哪一步开始出了问题啊！）",
+			say = "(이런… 대체 어디서부터 문제였던 거지!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "动摇都写在脸上了哦，{namecode:175}。",
+			say = "스루가, 얼굴에 동요하는 게 보이는걸.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "咳！我失态了。",
+			say = "흠흠. 실례했습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说你后生可畏可不是单纯的客套话而已，你的装备更先进，头脑也很灵光。",
+			say = "대단하다는 말은 겉치레가 아니었어. 나보다 네 장비가 더 신식이고, 두뇌 회전도 더 빠르니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果能拥有和我相同的战斗经验的话，现在我就该是你的手下败将咯~",
+			say = "네가 나만큼의 전투 경험이 있었다면 패배한 것은 나였을 거다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，时代真是一直在变化啊~更厚的装甲，更强的火炮，还有天上的那些飞机——",
+			say = "아이고, 시대가 정말 빠르게 변하는걸~ 장갑은 더 두꺼워지고 항속은 빨라지지. 화력은 물론이고 하늘에는 저런 비행기까지 날아다니다니.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不得不承认，我已经落后于时代了。",
+			say = "나도 이제 뒤떨어졌다는 걸 인정해야 하나…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（不愧胸襟也是大前辈级的…普通人能轻易承认自己的落伍么…）",
+			say = "(포용력 역시 대선배님다워… 자신이 뒤떨어졌다는 걸 쉽게 인정할 사람이 몇이나 될지…)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正视现实，实事求是可是很重要的哦？",
+			say = "현실을 직시하는 것은 중요한 덕목이라고?？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唉…可以的话，我真希望这身战场上磨炼的本领再也不要有用武之地了……",
+			say = "음… 가능하다면 말이지, 나는 이 전장에서 더이상 힘을 갈고 닦을 필요가 없어지기를 진심으로 바라고 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是就算想解甲归田，也不能在此时抛下重樱不管…",
+			say = "과거의 동료들이 떠나기 전에 나에게 이런 신념을 맡겨 두었지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,20 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "过去的同伴们在离开前曾经托付于我信念——",
+			say = "사쿠라 엠파이어가 병들었다면 치료해야 해. 사쿠라 엠파이어가 잘못된 길을 들었다면 강경책을 써서라도 올바른 길로 되돌려 놓아야지.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 0,
+			dir = 1,
+			say = "미카사는 말을 하면서 손에 든 염주를 쥐었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,35 +320,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重樱若病了，就需要医治。重樱若偏离了道路，就算用强硬的手段也要纠正回来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 0,
-			dir = 1,
-			say = "{namecode:82}一边说着，一边握着手中的项珠",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 305110,
-			side = 0,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "在达成目标之前，就算被时代所抛弃，我也不会停下前进的脚步哦？",
+			say = "아무리 시대에 뒤떨어지더라도, 목표를 달성하기 전에는 나도 멈추지 않을 거라고?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +336,7 @@ return {
 			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			say = "…我为重樱能有像您一样的大前辈而骄傲!",
+			say = "…사쿠라 엠파이어에 대선배님이 계셔서 정말 자랑스럽습니다.!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +361,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈哈，走吧，祭典会场的大家还等着我们呢~",
+			say = "하하하하. 가자. 모두가 아직 우리를 기다리고 있을 테니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +376,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（空有力量会陷入迷茫，徒有智谋会误入歧途。）",
+			say = "(헛된 힘과 지혜는 잘못된 선택을 하게 만들기 마련이지.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +391,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（{namecode:91}，那孩子什么时候才能想明白呢……）",
+			say = "(아카기, 그 녀석은 언제쯤 이 사실을 깨달을런지.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -14,7 +14,7 @@ return {
 			bgm = "bsm-2",
 			actor = 900071,
 			actorName = "옵저버",
-			say = "큐브로 수집한 정보 해독은 실패했으려나.~",
+			say = "큐브로 수집한 정보 해독은 실패했으려나.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

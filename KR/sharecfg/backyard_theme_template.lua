@@ -1985,6 +1985,42 @@ pg.backyard_theme_template = {
 			56113
 		}
 	},
+	[57] = {
+		Cfg_1 = 5,
+		name = "새해의 밤",
+		desc = "새로운 한 해도 평안무탈하기를.",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 57,
+		icon = "mh2themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			57001,
+			57002,
+			57101,
+			57102,
+			57103,
+			57104,
+			57105,
+			57106,
+			57107,
+			57108,
+			57109,
+			57110,
+			57111,
+			57112,
+			57113,
+			57114,
+			57115,
+			57116,
+			57117
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2028,7 +2064,8 @@ pg.backyard_theme_template = {
 		53,
 		54,
 		55,
-		56
+		56,
+		57
 	}
 }
 

@@ -15,7 +15,7 @@ return {
 			bgm = "battle-boss-4",
 			actor = 303110,
 			nameColor = "#a9f548",
-			say = "“第六战队、第三水雷战队！！从右翼包夹目标！！”",
+			say = "‘제6전대, 제3어뢰전대!! 우측에서 목표를 포위하라!’",
 			effects = {
 				{
 					active = true,
@@ -36,7 +36,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "吼———————",
+			say = "쿵———————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "震耳欲聋的嘶吼声撕裂了夜空",
+			say = "귀청을 찢을듯한 소리가 밤하늘에 울려 퍼졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			blackBg = true,
 			actor = 302130,
 			paingtingGray = true,
-			say = "第二水雷战队崩坏…无法形成包围网，要失手了！！！",
+			say = "제2어뢰전대 괴멸… 포위망을 유지할 수 없습니다. 실패입니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			blackBg = true,
 			actor = 303110,
 			paingtingGray = true,
-			say = "坚持住，只要坚持到第一战队的支援到来就...",
+			say = "버텨야 해. 제1전대가 도착할 때까지 만이라도…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "吼————",
+			say = "쿵————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "巨兽再次咆哮，海面开始晃动起来",
+			say = "커다란 소리가 다시 한번 울리고, 해수면이 흔들리기 시작했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			blackBg = true,
 			actor = 301140,
 			paingtingGray = true,
-			say = "快看，远方的海平线，出现了一道白色城墙！",
+			say = "봐. 저기 멀리에 하얀 성벽이 나타났어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			blackBg = true,
 			actor = 303110,
 			paingtingGray = true,
-			say = "等等……",
+			say = "잠시만…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			blackBg = true,
 			actor = 303110,
 			paingtingGray = true,
-			say = "这难道是…",
+			say = "저건 설마…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			blackBg = true,
 			actor = 303110,
 			paingtingGray = true,
-			say = "浪？",
+			say = "파도?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			blackBg = true,
 			actor = 900192,
 			actorName = "？？？",
-			say = "不能…再次重蹈覆辙",
+			say = "다시는… 일어나서는 안 돼.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			bgm = "main-newyear",
-			say = "祭典仪式厅·子时",
+			say = "의식의 장·한밤중",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -309,7 +309,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "辉煌的仪式厅设计成一个中空的露天结构，入口的参道上设置了手水舍",
+			say = "노천에 마련된 화려한 의식장 입구에는 물그릇이 준비되어 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "露天结构中央的神台上供奉着一块不太起眼的海蓝色石头",
+			say = "중앙에 놓인 신대에는 그다지 눈에 띄지 않는 바다색 돌이 놓여 있었다.",
 			effects = {
 				{
 					active = true,
@@ -343,7 +343,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "这块石头被结绳所缠绕着，月光洒在上面，似乎一个符文正发出淡淡的荧光",
+			say = "매듭줄에 감긴 돌은 붉은 달빛을 받아 마치 룬석처럼 은은하게 빛나고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "众人经过漫长的参道，终于来到此处——",
+			say = "모두가 긴 참배길을 지나 그 앞에 도착했다——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "那么，由于{namecode:179}大人一行尚未归来，现在就由在下作为代行祭祀主持本次天宇启户祭的祈愿环节~",
+			say = "그렇다면 류호 일행이 아직 도착하지 않았으니, 내가 제사장이 되어서 하늘 기원제의 소원 의식을 진행하겠어!",
 			effects = {
 				{
 					active = false,
@@ -397,7 +397,7 @@ return {
 			blackBg = true,
 			actor = 301100,
 			nameColor = "#a9f548",
-			say = "请代巫女{namecode:79}殿下上前——",
+			say = "대리 무녀인 야마시로, 앞으로——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "呵~这就是重樱的护国宝器——神石【海若】吗？传说中拥有海神力量的神石~",
+			say = "후~ 이게 바로 사쿠라 엠파이어의 보물——신석 [카이쟈쿠]인가요? 바다의 신의 힘을 가지고 있다는 신석.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "明明从外形上来看就是个普通的石头呀",
+			say = "겉으로 보기에는 평범한 돌일 뿐인데요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,8 +444,8 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			actorName = "众人",
-			say = "“向神明展现勇武，向神明纳奉才智，向神明给予信仰”",
+			actorName = "모두들",
+			say = "‘신께 용맹함을, 지혜와 재능을, 그리고 신앙을.’",
 			effects = {
 				{
 					active = true,
@@ -462,12 +462,12 @@ return {
 			}
 		},
 		{
-			actorName = "众人",
+			actorName = "모두들",
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "“愿神明指引重樱找到光明之路”",
+			say = "‘신께서 사쿠라 엠파이어에 빛의 길을 찾아 주시기를.’",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,12 +478,12 @@ return {
 			}
 		},
 		{
-			actorName = "众人",
+			actorName = "모두들",
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "“愿神明庇佑重樱驱灾避祸，祥瑞永存”",
+			say = "‘신께서 사쿠라 엠파이어를 보우하사.’",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			soundeffect = "event:/ui/kuang",
-			say = "哐——",
+			say = "웅——",
 			flashN = {
 				color = {
 					1,
@@ -533,7 +533,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:79}正要伸手去触碰神石，却被一股无形的力量弹开了",
+			say = "야마시로는 신석에 손을 뻗었지만, 보이지 않는 무언가에 의해 튕겨 나왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "额…这是什么状况？？",
+			say = "윽… 이게 무슨 일이지?",
 			effects = {
 				{
 					active = false,
@@ -572,7 +572,7 @@ return {
 			bgm = "story-7",
 			actor = 305050,
 			nameColor = "#a9f548",
-			say = "大家小心！快阻止她！！",
+			say = "모두 조심해! 어서 막아!!",
 			action = {
 				{
 					y = 30,
@@ -595,7 +595,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "顺着声音的来源，大伙一起转头望向入口，是{namecode:74}与{namecode:96}一行冲进了仪式厅",
+			say = "모두 소리가 난 곳을 바라보았다. 거기에는 나가토와 즈이카쿠가 달려오고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:74}，终于来了啊~",
+			say = "나가토님, 드디어 오셨군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…啧",
+			say = "…쯧.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -640,7 +640,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "神石会拒绝重樱以外的人接触，汝究竟是何人！？！",
+			say = "신석은 사쿠라 엠파이어가 아닌 자의 손길을 거부하지. 너는 누구냐?!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +653,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "{namecode:74}一说完，{namecode:82}、{namecode:96}、{namecode:158}等人立刻拔出了武器对准{namecode:79}的背影",
+			say = "나가토의 말이 끝나자 미카사, 즈이카쿠, 카와카제가 무기를 꺼내 야마시로를 겨누었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,7 +668,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，居然没想到还有这样一出呢~失算了",
+			say = "어머, 이렇게 들킬 줄은 몰랐네요. 실수였어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "{namecode:79}说完，背后的尾巴逐渐开始变化成多根触手…",
+			say = "야마시로의 말이 끝나기가 무섭게 꼬리가 여러 개의 촉수로 변하기 시작했다…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -696,8 +696,8 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "观察者",
-			say = "哎呀呀…亏我还对这次的演技很有自信的，居然在这里出现了计算偏差",
+			actorName = "옵저버",
+			say = "아쉬워라… 이번 연기에는 자신이 있었는데, 이렇게 들켜버릴 줄이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -708,10 +708,10 @@ return {
 			}
 		},
 		{
-			actorName = "众人",
+			actorName = "모두들",
 			side = 2,
 			dir = 1,
-			say = "塞壬！！",
+			say = "세이렌!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -726,7 +726,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "又是伪装术吗，真是卑鄙的手段呢",
+			say = "또 변장인가, 정말 비열한 방법이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,8 +741,8 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "观察者",
-			say = "在暗礁区埋伏的战斗终端居然没办法拦下你们吗？",
+			actorName = "옵저버",
+			say = "암초 해역에서 여러분을 잡아두지 못한 건가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -757,8 +757,8 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "观察者",
-			say = "都怪那家伙，消耗了太多预备品搞得可分配的部队被削减了…",
+			actorName = "옵저버",
+			say = "그 녀석 탓에 예비품을 너무 많이 소모한 탓이군요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -773,7 +773,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从{namecode:175}那听说了预备方案的事情以后，吾就感觉到背后一定有什么阴谋了…汝等究竟想对吾等护国宝器做什么？",
+			say = "스루가에게서 플랜B를 듣고 어떤 음모가 있는지 알아차렸지… 우리의 보물에 무슨 짓을 하려는 건가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -788,8 +788,8 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			actorName = "观察者",
-			say = "那当然是——",
+			actorName = "옵저버",
+			say = "그건 당연히——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -804,7 +804,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:74}大人小心！！",
+			say = "나가토님, 조심하십시오!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -816,7 +816,7 @@ return {
 		},
 		{
 			side = 2,
-			say = "一发炮弹精确的落在了观察者头上，炸毁了仪式厅的大部分木结构建筑",
+			say = "포탄 하나가 옵저버의 머리 위에 정확히 떨어져 의식장의 목조 건물을 전부 파괴해버렸다.",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -863,7 +863,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "整个大厅完全被烟雾所覆盖，完全看不清周围的状况",
+			say = "온 사방이 연기로 뒤덮여 주변 상황을 쉽게 파악할 수 없었다.",
 			effects = {
 				{
 					active = true,
@@ -882,7 +882,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "在烟雾中，{namecode:158}、{namecode:82}、{namecode:96}等人不约而同地护住了{namecode:74}的身躯",
+			say = "연기 속에서 카와카제, 미카사, 즈이카쿠는 약속이라도 한 듯 나가토의 주변을 둘러쌌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -897,8 +897,8 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900012,
-			actorName = "观察者",
-			say = "这个威力的炮弹，嘴上说着不关心，但最后还是来了啊——呵呵呵",
+			actorName = "옵저버",
+			say = "이 포탄은… 관심이 없다곤 했지만 역시 왔군요—— 후후후.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -920,7 +920,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "说完，观察者便化身为与周围环境一样的颜色，隐身般的消失在了烟雾之中",
+			say = "그리고 옵저버는 주변에 녹아들어 연기 사이로 사라져버렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -935,7 +935,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别想跑！",
+			say = "도망 갈 생각인가!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -948,7 +948,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "{namecode:82}朝观察者离去的方向开了一炮，却没有打中",
+			say = "미카사는 곧장 옵저버를 공격했지만 맞지 않았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -964,7 +964,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 301810,
-			say = "{namecode:82}大人，不…不好了，一个无法识别的舰船快速突破了我们的外防线...正向你们驶去",
+			say = "미카사님, 큰…큰일이야. 알 수 없는 함선 하나가 우리의 방어선을 뚫고 그쪽으로 향하고 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -980,7 +980,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 301810,
-			say = "对不起…我…我们拦不住她…",
+			say = "미안… 우리가 막지 못했어…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -995,7 +995,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系，迄今为止你们已经做得够多了，祭典的后半段，就交给我们吧——",
+			say = "괜찮아. 그걸로 충분하니까. 남은 축제는 우리에게 맡겨줘——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1010,7 +1010,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "全员注意，有未知的敌人突破防线进入了本岛~请以大局为重，优先击退来犯之敌才是！",
+			say = "모두 주의해. 미확인 함선 하나가 본섬으로 오고 있다는 정보야. 중요한 일이 있으니 일단 적을 쫓아버리는 것을 우선으로 하도록!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1026,7 +1026,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 301100,
-			say = "可是...如果过了子时，祭典仪式可能就要失败了",
+			say = "하지만… 한밤중이 지나버리면 의식이 실패하는걸.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1041,7 +1041,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诸位大人，就让我和{namecode:95}姐去会会这位不速之客，你们请在此继续重要的仪式",
+			say = "나와 쇼카쿠 언니가 불청객을 상대할 테니 여기서 의식을 계속 진행해줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1056,7 +1056,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拜托你们了！",
+			say = "부탁하지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

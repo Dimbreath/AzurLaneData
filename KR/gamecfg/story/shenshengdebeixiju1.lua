@@ -172,7 +172,7 @@ return {
 			dir = 1,
 			actor = 605020,
 			nameColor = "#ffde38",
-			say = "어떻게 이럴수가....！",
+			say = "어떻게 이럴수가....",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
