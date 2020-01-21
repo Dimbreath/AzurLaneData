@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"闹腾嬉戏东煌春节\n\n<size=45>三 开春的巨响</size>",
+					"鬧騰嬉戲東煌春節\n\n<size=45>三 開春的巨響</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-chunjie",
-			say = "港区·东煌宿舍庭院",
+			say = "港區·東煌宿舍庭院",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……如此如此，这般这般……",
+			say = "嗯……如此如此，這般這般……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			actor = 501020,
 			nameColor = "#a9f548",
-			say = "好了！这样爆竹就做好了！果然我是一个手工天才呢，嘿嘿~",
+			say = "好了！這樣爆竹就做好了！果然我是一個手工天才呢，嘿嘿~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抚、抚顺姐，这个爆竹是不是太大了一些——",
+			say = "撫、撫順姐，這個爆竹是不是太大了一些——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没事没事～够分量才有趣不是嘛！好了，太原你们都往后退一点，我要点火了哦！",
+			say = "沒事沒事～夠分量才有趣不是嘛！好了，太原你們都往後退一點，我要點火了哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			actor = 501020,
 			nameColor = "#a9f548",
-			say = "点着了！快跑快跑~那么就看看这个抚顺特制新年超大爆竹的威力吧！",
+			say = "點著了！快跑快跑~那麼就看看這個撫順特製新年超大爆竹的威力吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "star_level_bg_102",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "（轰）",
+			say = "（轟）",
 			flashN = {
 				color = {
 					1,
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			actor = 501010,
 			nameColor = "#a9f548",
-			say = "刚…刚才那是什么声音？！抚顺，你又闯什么祸了！那么大的声音，耳朵都嗡嗡响了！",
+			say = "剛…剛才那是什麼聲音？！撫順，你又闖什麼禍了！那麼大的聲音，耳朵都嗡嗡響了！",
 			flashout = {
 				dur = 0.2,
 				black = true,
@@ -245,7 +245,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜哇……是鞍山姐，这下惨了…啊哈哈…果然用一整桶火药还是太多了一点吗…",
+			say = "嗚哇……是鞍山姐，這下慘了…啊哈哈…果然用一整桶火藥還是太多了一點嗎…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			actor = 501041,
 			nameColor = "#a9f548",
-			say = "呜呜呜，抚顺姐的大号爆竹太可怕了……鞍山姐，对不起，没能拦住她……",
+			say = "嗚嗚嗚，撫順姐的大號爆竹太可怕了……鞍山姐，對不起，沒能攔住她……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…抚！顺！！你过来！",
+			say = "…撫！順！！你過來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			dir = 1,
 			actor = 301054,
 			actorName = "{namecode:6}",
-			say = "唔…被震得头都有点晕了…地说",
+			say = "唔…被震得頭都有點暈了…的說",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噼里啪啦砰…厉害…",
+			say = "劈裡啪啦砰…厲害…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			}
 		},
 		{
-			say = "出什么事情了？！难道是敌袭吗？",
+			say = "出什麼事情了？！難道是敵襲嗎？",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
@@ -366,7 +366,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们听到巨响，就赶快过来查看了，东煌的各位…没事吧？",
+			say = "我們聽到巨響，就趕快過來查看了，東煌的各位…沒事吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？拉菲？你怎么在这里？刚刚到底发生了什么事？",
+			say = "嗯？拉菲？你怎麼在這裡？剛剛到底發生了什麼事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抚顺制作的大号噼里啪啦砰，威力比预想的还要大一些…",
+			say = "撫順製作的大號劈裡啪啦砰，威力比預想的還要大一些…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "白鹰的二位，非常抱歉，我家妹妹让大家虚惊一场了。抚顺，快过来来一起道歉！",
+			say = "白鷹的二位，非常抱歉，我家妹妹讓大家虛驚一場了。撫順，快過來來一起道歉！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜…对不起…",
+			say = "嗚…對不起…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家没事就好…不过，爆竹吗…呵呵，东方的国度总是有些奇特的习俗呢",
+			say = "大家沒事就好…不過，爆竹嗎…呵呵，東方的國度總是有些奇特的習俗呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，是的。爆竹确实是东煌春节的习俗之一…传说中是为了驱赶一种叫做“年”的怪兽呢，不过抚顺也做的太过火了……",
+			say = "啊，是的。爆竹確實是東煌春節的習俗之一…傳說中是為了驅趕一種叫做“年”的怪獸呢，不過撫順也做的太過火了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此，驱逐“年”兽吗，东煌的文化还真是有趣啊",
+			say = "原來如此，驅逐“年”獸嗎，東煌的文化還真是有趣啊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，如果二位不嫌弃的话，不妨留下来吃一顿春节的年夜饭吧？正好来帮忙兼学习料理的金伯利小姐和马拉尼小姐也在，也当作…是一点赔礼吧",
+			say = "對了，如果二位不嫌棄的話，不妨留下來吃一頓春節的年夜飯吧？正好來幫忙兼學習料理的金伯利小姐和馬拉尼小姐也在，也當作…是一點賠禮吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "晚点指挥官和其他一些港区的小伙伴也会来哦～",
+			say = "晚點指揮官和其他一些港區的小夥伴也會來哦～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样么…倒没有需要赔礼那么严重…不过，东煌的料理啊…那我们就恭敬不如从命了，列星頓？",
+			say = "這樣嗎…倒沒有需要賠禮那麼嚴重…不過，東煌的料理啊…那我們就恭敬不如從命了，列星頓？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			blackBg = true,
 			actor = 107020,
 			nameColor = "#a9f548",
-			say = "呵呵～这还是头一次这样参与东煌的节日呢，那就打扰咯～",
+			say = "呵呵～這還是頭一次這樣參與東煌的節日呢，那就打擾囉～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -322,6 +322,101 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[18] = {
+		limit_arg = 1,
+		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		name = "春節福袋2020",
+		descrip = "可獲得一件角色換裝，2020鑽，3個外觀裝備箱，和大量其他獎勵",
+		subject = "春節福袋2020",
+		extra_service = 3,
+		platform = 11,
+		money = 990,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai2",
+		display_money = 990,
+		id_str = "com.hkmanjuu.azurlane.package2",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 18,
+		airijp_id = "com.yostarjp.azurlane.diamond112",
+		extra_service_item = {
+			{
+				2,
+				69909,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				30304,
+				3
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					1,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69909,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				30304,
+				3
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -331,7 +426,8 @@ pg.pay_data_display = {
 		6,
 		7,
 		8,
-		16
+		16,
+		18
 	}
 }
 

@@ -90,10 +90,47 @@ pg.extraenemy_template = {
 			}
 		}
 	},
+	{
+		name = "黛朵",
+		hp = 10000,
+		mail_content = "world_boss_content_1",
+		id = 4,
+		background = "",
+		mail_title = "world_boss_title_5",
+		reward = {
+			92511,
+			92512,
+			92513,
+			92514
+		},
+		reward_display = {
+			{
+				2,
+				17003,
+				10
+			},
+			{
+				2,
+				18003,
+				2
+			},
+			{
+				2,
+				13010,
+				5
+			},
+			{
+				3,
+				24340,
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
-		3
+		3,
+		4
 	}
 }
 

@@ -84,7 +84,8 @@ pg.activity_template = {
 		},
 		config_client = {
 			9,
-			21
+			21,
+			1
 		}
 	},
 	{
@@ -130,7 +131,7 @@ pg.activity_template = {
 	},
 	[9] = {
 		mark = 20170406,
-		title_res_tag = "text_charge_award",
+		title_res_tag = "charge_award",
 		time = "always",
 		type = 9,
 		login_pop = 0,
@@ -572,7 +573,7 @@ pg.activity_template = {
 		type = 3,
 		login_pop = 3,
 		config_id = 15,
-		is_show = 5,
+		is_show = 1,
 		config_client = "",
 		id = 458,
 		config_data = {},
@@ -605,6 +606,177 @@ pg.activity_template = {
 		},
 		bg = {
 			"clutter/donghuacb_login"
+		}
+	},
+	[470] = {
+		mark = 20190121,
+		title_res_tag = "beatmonster",
+		type = 32,
+		login_pop = 0,
+		config_id = 2,
+		is_show = 4,
+		config_data = "",
+		config_client = "",
+		id = 470,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/beatmonster_bg"
+		}
+	},
+	[471] = {
+		mark = 20190121,
+		title_res_tag = "",
+		type = 43,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 471,
+		config_data = {
+			{
+				39,
+				92401
+			},
+			{
+				40,
+				92402
+			},
+			{
+				41,
+				92403
+			},
+			{
+				42,
+				92404
+			},
+			{
+				43,
+				92405
+			},
+			{
+				44,
+				92406
+			},
+			{
+				45,
+				92407
+			},
+			{
+				46,
+				0
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[472] = {
+		mark = 20190121,
+		title_res_tag = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 472,
+		config_data = {
+			15310,
+			15311,
+			15312,
+			15313,
+			15314,
+			15315,
+			15316,
+			15317,
+			15318,
+			15319,
+			15320,
+			15321,
+			15322,
+			15323,
+			15324,
+			15325,
+			15326,
+			15327
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[999] = {
@@ -2301,6 +2473,178 @@ pg.activity_template = {
 			}
 		}
 	},
+	[40046] = {
+		mark = 20200109,
+		title_res_tag = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "[{31997,100}]",
+		config_client = "",
+		bg = "",
+		id = 40046,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40047] = {
+		mark = 20200115,
+		title_res_tag = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 40047,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40048] = {
+		mark = 20200116,
+		title_res_tag = "Springfes",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 10,
+		config_data = "activity_drop_40048",
+		id = 40048,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/SpringFes"
+		},
+		config_client = {
+			id = 2,
+			bg = "loadingbg/bg_build_2_act",
+			buildship_tip = "逸仙、歐若拉 出現機率UP！",
+			rate_tip = {
+				"<color=#ffde38>超稀有艦船</color>：7%",
+				"<color=#d797ff>精銳艦船</color>：12%",
+				"<color=#3dc6ff>稀有艦船</color>：26%",
+				"普通艦船：55%",
+				"<color=#d797ff>逸仙</color>：2.5%(<color=#92fc63>up!</color>)",
+				"<color=#d797ff>歐若拉</color>：2.5%(<color=#92fc63>up!</color>)"
+			}
+		}
+	},
+	[40049] = {
+		mark = 20190121,
+		title_res_tag = "monopoly",
+		type = 51,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 3,
+		config_client = "",
+		id = 40049,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/monopoly_bg"
+		}
+	},
 	[45000] = {
 		mark = 20191004,
 		title_res_tag = "",
@@ -2334,6 +2678,9 @@ pg.activity_template = {
 		423,
 		424,
 		458,
+		470,
+		471,
+		472,
 		999,
 		2001,
 		2007,
@@ -2382,6 +2729,10 @@ pg.activity_template = {
 		40043,
 		40044,
 		40045,
+		40046,
+		40047,
+		40048,
+		40049,
 		45000
 	}
 }

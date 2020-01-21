@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"闹腾嬉戏东煌春节\n\n<size=45>一 新的冒险、开始！</size>",
+					"鬧騰嬉戲東煌春節\n\n<size=45>一 新的冒險、開始！</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-chunjie",
-			say = "港区·东煌宿舍",
+			say = "港區·東煌宿舍",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "过年咯！祝各位新年万事大吉，阖家欢乐，团团圆圆，嘿嘿~",
+			say = "過年囉！祝各位新年萬事大吉，闔家歡樂，團團圓圓，嘿嘿~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			actor = 501020,
 			nameColor = "#a9f548",
-			say = "怎么样，姐姐！我的祝福语练得还行吧？",
+			say = "怎麼樣，姐姐！我的祝福語練得還行吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			say = "真是的，后面不要加嘿嘿，要认真正经一点才是合格的！",
+			say = "真是的，後面不要加嘿嘿，要認真正經一點才是合格的！",
 			side = 1,
 			bgName = "star_level_bg_102",
 			dir = 1,
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			actor = 501020,
 			nameColor = "#a9f548",
-			say = "总之就是合格了嘛！耶，可以出去玩咯~~~",
+			say = "總之就是合格了嘛！耶，可以出去玩囉~~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			}
 		},
 		{
-			say = "给我回来。过年了大家都在忙各种准备，你可不许乱跑，给人家添麻烦。",
+			say = "給我回來。過年了大家都在忙各種準備，你可不許亂跑，給人家添麻煩。",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
@@ -175,7 +175,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "切～没劲。对了姐姐！我去院子里帮忙挂灯笼去吧！",
+			say = "切～沒勁。對了姐姐！我去院子裡幫忙掛燈籠去吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可别想趁我不注意偷偷溜出去了…太原，你去看着抚顺，不要让她到处乱跑哦",
+			say = "可別想趁我不注意偷偷溜出去了…太原，你去看著撫順，不要讓她到處亂跑哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊…好的，鞍山姐，不过，想看住抚顺姐的话……",
+			say = "啊…好的，鞍山姐，不過，想看住撫順姐的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			actor = 101382,
 			nameColor = "#a9f548",
-			say = "鞍山，厨房这边可能需要点帮手——",
+			say = "鞍山，廚房這邊可能需要點幫手——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			actor = 101392,
 			nameColor = "#a9f548",
-			say = "唔，真奇怪…明明几乎都是是按照食谱做的…",
+			say = "唔，真奇怪…明明幾乎都是是按照食譜做的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			actor = 101382,
 			nameColor = "#a9f548",
-			say = "问题就出在这个几乎上吧…是不是又加了什么奇怪的东西……",
+			say = "問題就出在這個幾乎上吧…是不是又加了什麼奇怪的東西……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			dir = 1,
 			actor = 101392,
 			nameColor = "#a9f548",
-			say = "咕唔，那、那是一种对创新的尝试…总、总之，鞍山麻烦快来吧～～",
+			say = "咕唔，那、那是一種對創新的嘗試…總、總之，鞍山麻煩快來吧～～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来了，马上就来~",
+			say = "來了，馬上就來~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "过年要准备的事情太多了，就只能拜托你帮姐姐分担些啦！好了，你们去吧，我要去厨房帮忙了。",
+			say = "過年要準備的事情太多了，就只能拜託你幫姐姐分擔些啦！好了，你們去吧，我要去廚房幫忙了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			bgName = "star_level_bg_102",
 			actor = 501041,
 			nameColor = "#a9f548",
-			say = "那我们就去拿灯笼吧，抚顺姐。",
+			say = "那我們就去拿燈籠吧，撫順姐。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -373,7 +373,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，其实灯笼我早就挂完了，鞍山姐走了，终于可以出去玩咯！",
+			say = "嘿嘿，其實燈籠我早就掛完了，鞍山姐走了，終於可以出去玩囉！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太原也一起来吧~我想到一件非常适合现在玩的事情呢！",
+			say = "太原也一起來吧~我想到一件非常適合現在玩的事情呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			dir = 1,
 			actor = 501041,
 			nameColor = "#a9f548",
-			say = "诶诶诶？可、可是鞍山姐刚才在说…",
+			say = "欸欸欸？可、可是鞍山姐剛才在說…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系啦，出去一会就回来，只是要到港区里找看看有没有做爆竹用的火药而已嘛~",
+			say = "沒關係啦，出去一會就回來，只是要到港區裡找看看有沒有做爆竹用的火藥而已嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			dir = 1,
 			actor = 501041,
 			nameColor = "#a9f548",
-			say = "要、要做爆竹吗！？很、很危险的吧…要是不小心——",
+			say = "要、要做爆竹嗎！？很、很危險的吧…要是不小心——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "过年不放爆竹怎么行呢？好啦，听姐姐的话，我们转一圈就回来，走吧～",
+			say = "過年不放爆竹怎麼行呢？好啦，聽姐姐的話，我們轉一圈就回來，走吧～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			blackBg = true,
 			actor = 501041,
 			nameColor = "#a9f548",
-			say = "诶、诶诶诶，等等，抚顺姐，至少让我自己走啦——",
+			say = "欸、欸欸欸，等等，撫順姐，至少讓我自己走啦——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

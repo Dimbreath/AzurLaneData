@@ -608,19 +608,19 @@ pg.activity_shop_extra = {
 	},
 	[25] = {
 		num_limit = 1,
-		activity = 239,
+		activity = 40049,
 		commodity_type = 7,
 		num = 1,
 		commodity_id = 101382,
 		scene = "",
 		id = 25,
-		order = 5,
+		order = 1,
 		time = {
 			{
 				{
 					2019,
 					1,
-					31
+					21
 				},
 				{
 					0,
@@ -632,7 +632,7 @@ pg.activity_shop_extra = {
 				{
 					2019,
 					2,
-					14
+					6
 				},
 				{
 					23,

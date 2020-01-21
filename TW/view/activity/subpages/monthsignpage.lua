@@ -18,6 +18,7 @@ function slot0.OnDataSetting(slot0)
 	if tonumber(pg.TimeMgr.GetInstance():CTimeDescC(pg.TimeMgr.GetInstance():GetServerTime(), "%m")) == pg.activity_template[ActivityConst.MONTH_SIGN_ACTIVITY_ID].config_client[1] then
 		slot0.specialTag = true
 		slot0.specialDay = pg.activity_template[ActivityConst.MONTH_SIGN_ACTIVITY_ID].config_client[2]
+		slot0.isShowFrame = pg.activity_template[ActivityConst.MONTH_SIGN_ACTIVITY_ID].config_client[3]
 	end
 end
 
@@ -56,7 +57,13 @@ function slot0.OnFirstFlush(slot0)
 			setActive(slot2:Find("today"), slot3 == #slot0.activity.data1_list)
 
 			if slot0.specialTag and slot3 == slot0.specialDay then
-				setActive(slot0:findTF("icon_bg/SpecialFrame", slot2), true)
+				slot5 = slot0:findTF("icon_bg/SpecialFrame", slot2)
+
+				if slot0.isShowFrame == 1 then
+					setActive(slot5, false)
+				else
+					setActive(slot5, true)
+				end
 			end
 		end
 	end)

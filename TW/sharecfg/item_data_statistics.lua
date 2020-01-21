@@ -6074,6 +6074,53 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[40909] = {
+		display = "購買禮包可獲得隨機換裝*1，鑽石*2020，外觀裝備箱(春節)*3(直接開啟)，心智魔方*20，快速建造*10，傢俱幣*100",
+		rarity = 4,
+		type = 5,
+		name = "春節福袋2020",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 40909,
+		icon = "Props/fudai2",
+		display_icon = {
+			{
+				2,
+				69909,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				30304,
+				3
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[42000] = {
 		display = "使用後可從第一期方案艦的藍圖中任意選擇一張",
 		rarity = 4,
@@ -6293,17 +6340,17 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "甜咖喱還是辣咖喱，這是一個問題！ <color=#A9F548>（提高經驗加成5%，持續60分鐘）</color>",
+		display = "吉祥如意，喜慶團圓~ <color=#A9F548>（提高經驗加成5%，持續60分鐘）</color>",
 		rarity = 2,
 		type = 3,
-		name = "海軍咖喱",
+		name = "節日餃子 ",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		virtual_type = 0,
 		replace_item = 0,
 		link_id = 0,
 		id = 50004,
-		icon = "Props/haijungali",
+		icon = "Props/dumpling",
 		display_icon = {},
 		price = {
 			1,
@@ -49709,7 +49756,7 @@ pg.item_data_statistics = {
 		shiptrans_id = 0,
 		virtual_type = 9,
 		replace_item = 0,
-		link_id = 10205,
+		link_id = 40049,
 		id = 59763,
 		icon = "Props/touzi",
 		display_icon = {},
@@ -50228,6 +50275,118 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59960] = {
+		display = "颜料A，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料A",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 471,
+		id = 59960,
+		icon = "props/draw_a",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59961] = {
+		display = "颜料B，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料B",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 471,
+		id = 59961,
+		icon = "props/draw_b",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59962] = {
+		display = "颜料C，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料C",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 471,
+		id = 59962,
+		icon = "props/draw_c",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59963] = {
+		display = "颜料D，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料D",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 471,
+		id = 59963,
+		icon = "props/draw_d",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59964] = {
+		display = "颜料E，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料E",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 471,
+		id = 59964,
+		icon = "props/draw_e",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59965] = {
+		display = "颜料F，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料F",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 471,
+		id = 59965,
+		icon = "props/draw_f",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59966] = {
+		display = "颜料G，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料G",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 471,
+		id = 59966,
+		icon = "props/draw_g",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[60011] = {
 		display = "10秒完成，獲得1點經驗",
 		rarity = 5,
@@ -50256,6 +50415,22 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 60012,
 		icon = "Props/54003",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60021] = {
+		display = "可在「东煌大富翁」活动中使用 ",
+		rarity = 2,
+		type = 0,
+		name = "红包",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 11,
+		replace_item = 0,
+		link_id = 0,
+		id = 60021,
+		icon = "Props/red_packet",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -50296,16 +50471,24 @@ pg.item_data_statistics = {
 		display = [[
 從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的的鑽石) 
 包含的換裝和機率如下：
-（<color=#92fc63>8.5%</color>）贝尔法斯特換裝  彩云之玫瑰（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>9%</color>）拉菲換裝  白兔迎春（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>9%</color>）太原換裝  金蛇闹春（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>10.5%</color>）企业換裝  傲春之牡丹；
-（<color=#92fc63>10.5%</color>）半人马換裝  清冽的春风；
-（<color=#92fc63>10.5%</color>）君主換裝  赭红爵祿；
-（<color=#92fc63>10.5%</color>）棭換裝  夕暮春华；
-（<color=#92fc63>10.5%</color>）柚換裝  新岁之鬼神；
-（<color=#92fc63>10.5%</color>）列克星敦換裝  春华佳人；
-（<color=#92fc63>10.5%</color>）追赶者換裝  东煌之道；]],
+（<color=#92fc63>7.0%</color>）貝爾法斯特換裝  彩雲之玫瑰（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>7.0%</color>）拉菲換裝  白兔迎春（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>7.0%</color>）太原換裝  金蛇鬧春（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>6.0%</color>）企業換裝  傲春之牡丹；
+（<color=#92fc63>6.0%</color>）高雄換裝  春之意；
+（<color=#92fc63>6.0%</color>）歐若拉換裝  春之語；
+（<color=#92fc63>6.0%</color>）吸血鬼換裝  春之風；
+（<color=#92fc63>5.0%</color>）獨角獸換裝  春之禮；
+（<color=#92fc63>5.0%</color>）長春換裝  春之嬉；
+（<color=#92fc63>5.0%</color>）扶桑換裝  春之祝；
+（<color=#92fc63>5.0%</color>）綾波換裝  新歲之鬼神；
+（<color=#92fc63>5.0%</color>）馬拉尼換裝  東煌之儀；
+（<color=#92fc63>5.0%</color>）庫拉索換裝  東煌之雅；
+（<color=#92fc63>5.0%</color>）杓鷸換裝  東煌之韻；
+（<color=#92fc63>5.0%</color>）追趕者換裝  東煌之道；
+（<color=#92fc63>5.0%</color>）列星頓換裝  春華佳人；
+（<color=#92fc63>5.0%</color>）夕暮換裝  夕暮春華；
+（<color=#92fc63>5.0%</color>）沙恩霍斯特換裝  雪豹與白梅；]],
 		rarity = 4,
 		type = 98,
 		name = "隨機春節換裝",
@@ -50621,6 +50804,7 @@ pg.item_data_statistics = {
 		40117,
 		40118,
 		40908,
+		40909,
 		42000,
 		42001,
 		42002,
@@ -51335,8 +51519,16 @@ pg.item_data_statistics = {
 		59900,
 		59938,
 		59939,
+		59960,
+		59961,
+		59962,
+		59963,
+		59964,
+		59965,
+		59966,
 		60011,
 		60012,
+		60021,
 		69908,
 		69909,
 		70050

@@ -13,7 +13,7 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onStartGame"
+				"onAttach"
 			},
 			arg_list = {
 				skill_id = 210

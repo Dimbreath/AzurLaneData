@@ -9646,6 +9646,958 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[101381] = {
+		oxy_max = 0,
+		type = 1,
+		name = "金伯利",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 101381,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Kimberly",
+		oxy_cost = 0,
+		skin_id = 101380,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			331,
+			15,
+			53,
+			34,
+			0,
+			74,
+			0,
+			73,
+			59,
+			42,
+			77,
+			51
+		},
+		attrs_growth = {
+			8075,
+			152,
+			520,
+			664,
+			0,
+			366,
+			0,
+			1074,
+			876,
+			0,
+			0,
+			502
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.2,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
+	[101382] = {
+		oxy_max = 0,
+		type = 1,
+		name = "金伯利",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 101382,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Kimberly",
+		oxy_cost = 0,
+		skin_id = 101380,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			412,
+			19,
+			66,
+			42,
+			0,
+			74,
+			0,
+			73,
+			59,
+			42,
+			77,
+			64
+		},
+		attrs_growth = {
+			8075,
+			152,
+			520,
+			664,
+			0,
+			366,
+			0,
+			1074,
+			876,
+			0,
+			0,
+			502
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.12,
+			1.22,
+			1.22
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
+	[101383] = {
+		oxy_max = 0,
+		type = 1,
+		name = "金伯利",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 101383,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Kimberly",
+		oxy_cost = 0,
+		skin_id = 101380,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			573,
+			26,
+			92,
+			59,
+			0,
+			74,
+			0,
+			73,
+			59,
+			42,
+			77,
+			89
+		},
+		attrs_growth = {
+			8075,
+			152,
+			520,
+			664,
+			0,
+			366,
+			0,
+			1074,
+			876,
+			0,
+			0,
+			502
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.25,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
+	[101384] = {
+		oxy_max = 0,
+		type = 1,
+		name = "金伯利",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 101384,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Kimberly",
+		oxy_cost = 0,
+		skin_id = 101380,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			816,
+			38,
+			131,
+			84,
+			0,
+			74,
+			0,
+			73,
+			59,
+			42,
+			77,
+			126
+		},
+		attrs_growth = {
+			8075,
+			152,
+			520,
+			664,
+			0,
+			366,
+			0,
+			1074,
+			876,
+			0,
+			0,
+			502
+		},
+		attrs_growth_extra = {
+			8075,
+			358,
+			1136,
+			454,
+			0,
+			872,
+			0,
+			-627,
+			-614,
+			0,
+			0,
+			446
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.3,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
+	[101391] = {
+		oxy_max = 0,
+		type = 1,
+		name = "馬拉尼",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 101391,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Mullany",
+		oxy_cost = 0,
+		skin_id = 101390,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			341,
+			17,
+			54,
+			32,
+			0,
+			76,
+			0,
+			72,
+			59,
+			42,
+			89,
+			52
+		},
+		attrs_growth = {
+			8315,
+			164,
+			536,
+			632,
+			0,
+			376,
+			0,
+			1062,
+			876,
+			0,
+			0,
+			518
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.2,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
+	[101392] = {
+		oxy_max = 0,
+		type = 1,
+		name = "馬拉尼",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 101392,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Mullany",
+		oxy_cost = 0,
+		skin_id = 101390,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			424,
+			21,
+			67,
+			40,
+			0,
+			76,
+			0,
+			72,
+			59,
+			42,
+			89,
+			65
+		},
+		attrs_growth = {
+			8315,
+			164,
+			536,
+			632,
+			0,
+			376,
+			0,
+			1062,
+			876,
+			0,
+			0,
+			518
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.17,
+			1.22,
+			1.22
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
+	[101393] = {
+		oxy_max = 0,
+		type = 1,
+		name = "馬拉尼",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 101393,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Mullany",
+		oxy_cost = 0,
+		skin_id = 101390,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			590,
+			29,
+			94,
+			56,
+			0,
+			76,
+			0,
+			72,
+			59,
+			42,
+			89,
+			91
+		},
+		attrs_growth = {
+			8315,
+			164,
+			536,
+			632,
+			0,
+			376,
+			0,
+			1062,
+			876,
+			0,
+			0,
+			518
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.25,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
+	[101394] = {
+		oxy_max = 0,
+		type = 1,
+		name = "馬拉尼",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 101394,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Mullany",
+		oxy_cost = 0,
+		skin_id = 101390,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			840,
+			42,
+			134,
+			79,
+			0,
+			76,
+			0,
+			72,
+			59,
+			42,
+			89,
+			130
+		},
+		attrs_growth = {
+			8315,
+			164,
+			536,
+			632,
+			0,
+			376,
+			0,
+			1062,
+			876,
+			0,
+			0,
+			518
+		},
+		attrs_growth_extra = {
+			8315,
+			391,
+			1148,
+			426,
+			0,
+			892,
+			0,
+			-620,
+			-614,
+			0,
+			0,
+			444
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.3,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
 	[102011] = {
 		oxy_max = 0,
 		type = 2,
@@ -31778,6 +32730,482 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[201241] = {
+		oxy_max = 0,
+		type = 1,
+		name = "丘比特",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 201241,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Jupiter",
+		oxy_cost = 0,
+		skin_id = 201240,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			248,
+			14,
+			69,
+			29,
+			0,
+			74,
+			0,
+			71,
+			78,
+			43.2,
+			52,
+			52
+		},
+		attrs_growth = {
+			6040,
+			142,
+			680,
+			568,
+			0,
+			366,
+			0,
+			1050,
+			1158,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.35,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Jersey Skill"
+		}
+	},
+	[201242] = {
+		oxy_max = 0,
+		type = 1,
+		name = "丘比特",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 201242,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Jupiter",
+		oxy_cost = 0,
+		skin_id = 201240,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			308,
+			18,
+			86,
+			36,
+			0,
+			74,
+			0,
+			71,
+			78,
+			43.2,
+			52,
+			65
+		},
+		attrs_growth = {
+			6040,
+			142,
+			680,
+			568,
+			0,
+			366,
+			0,
+			1050,
+			1158,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.35,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Jersey Skill"
+		}
+	},
+	[201243] = {
+		oxy_max = 0,
+		type = 1,
+		name = "丘比特",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 201243,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Jupiter",
+		oxy_cost = 0,
+		skin_id = 201240,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			429,
+			25,
+			120,
+			50,
+			0,
+			74,
+			0,
+			71,
+			78,
+			43.2,
+			52,
+			90
+		},
+		attrs_growth = {
+			6040,
+			142,
+			680,
+			568,
+			0,
+			366,
+			0,
+			1050,
+			1158,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.35,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Jersey Skill"
+		}
+	},
+	[201244] = {
+		oxy_max = 0,
+		type = 1,
+		name = "丘比特",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 201244,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Jupiter",
+		oxy_cost = 0,
+		skin_id = 201240,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			610,
+			35,
+			171,
+			72,
+			0,
+			74,
+			0,
+			71,
+			78,
+			43.2,
+			52,
+			129
+		},
+		attrs_growth = {
+			6040,
+			142,
+			680,
+			568,
+			0,
+			366,
+			0,
+			1050,
+			1158,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			6030,
+			331,
+			1210,
+			392,
+			0,
+			872,
+			0,
+			-615,
+			-878,
+			0,
+			0,
+			448
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.4,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Jersey Skill"
+		}
+	},
 	[202011] = {
 		oxy_max = 0,
 		type = 2,
@@ -35129,6 +36557,1454 @@ pg.ship_data_statistics = {
 			1.3,
 			1.55,
 			1.3,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202151] = {
+		oxy_max = 0,
+		type = 2,
+		name = "歐若拉",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 202151,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Aurora",
+		oxy_cost = 0,
+		skin_id = 202150,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			497,
+			30,
+			52,
+			63,
+			0,
+			72,
+			0,
+			59,
+			29,
+			32,
+			84,
+			26
+		},
+		attrs_growth = {
+			12110,
+			296,
+			510,
+			1240,
+			0,
+			356,
+			0,
+			870,
+			432,
+			0,
+			0,
+			260
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			211
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.45,
+			1.2,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202152] = {
+		oxy_max = 0,
+		type = 2,
+		name = "歐若拉",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 202152,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Aurora",
+		oxy_cost = 0,
+		skin_id = 202150,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			618,
+			37,
+			65,
+			79,
+			0,
+			72,
+			0,
+			59,
+			29,
+			32,
+			84,
+			33
+		},
+		attrs_growth = {
+			12110,
+			296,
+			510,
+			1240,
+			0,
+			356,
+			0,
+			870,
+			432,
+			0,
+			0,
+			260
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			212
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.27,
+			1.47,
+			1.22,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202153] = {
+		oxy_max = 0,
+		type = 2,
+		name = "歐若拉",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 202153,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Aurora",
+		oxy_cost = 0,
+		skin_id = 202150,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			860,
+			52,
+			90,
+			110,
+			0,
+			72,
+			0,
+			59,
+			29,
+			32,
+			84,
+			46
+		},
+		attrs_growth = {
+			12110,
+			296,
+			510,
+			1240,
+			0,
+			356,
+			0,
+			870,
+			432,
+			0,
+			0,
+			260
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			213
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.5,
+			1.25,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202154] = {
+		oxy_max = 0,
+		type = 2,
+		name = "歐若拉",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 202154,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Aurora",
+		oxy_cost = 0,
+		skin_id = 202150,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1224,
+			74,
+			129,
+			156,
+			0,
+			72,
+			0,
+			59,
+			29,
+			32,
+			84,
+			65
+		},
+		attrs_growth = {
+			12110,
+			296,
+			510,
+			1240,
+			0,
+			356,
+			0,
+			870,
+			432,
+			0,
+			0,
+			260
+		},
+		attrs_growth_extra = {
+			4239,
+			702,
+			1129,
+			574,
+			0,
+			844,
+			0,
+			0,
+			723,
+			0,
+			0,
+			355
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			214
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.55,
+			1.3,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202211] = {
+		oxy_max = 0,
+		type = 2,
+		name = "庫拉索",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 202211,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Curacoa",
+		oxy_cost = 0,
+		skin_id = 202210,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			510,
+			25,
+			0,
+			29,
+			0,
+			67,
+			0,
+			58,
+			26,
+			29,
+			24,
+			13
+		},
+		attrs_growth = {
+			12445,
+			244,
+			0,
+			564,
+			0,
+			334,
+			0,
+			852,
+			390,
+			0,
+			0,
+			124
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			211
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.7,
+			0.7,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202212] = {
+		oxy_max = 0,
+		type = 2,
+		name = "庫拉索",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 202212,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Curacoa",
+		oxy_cost = 0,
+		skin_id = 202210,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			634,
+			31,
+			0,
+			36,
+			0,
+			67,
+			0,
+			58,
+			26,
+			29,
+			24,
+			16
+		},
+		attrs_growth = {
+			12445,
+			244,
+			0,
+			564,
+			0,
+			334,
+			0,
+			852,
+			390,
+			0,
+			0,
+			124
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			212
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			0.7,
+			0.7,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202213] = {
+		oxy_max = 0,
+		type = 2,
+		name = "庫拉索",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 202213,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Curacoa",
+		oxy_cost = 0,
+		skin_id = 202210,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			883,
+			43,
+			0,
+			50,
+			0,
+			67,
+			0,
+			58,
+			26,
+			29,
+			24,
+			22
+		},
+		attrs_growth = {
+			12445,
+			244,
+			0,
+			564,
+			0,
+			334,
+			0,
+			852,
+			390,
+			0,
+			0,
+			124
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			213
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			0.75,
+			0.75,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202214] = {
+		oxy_max = 0,
+		type = 2,
+		name = "庫拉索",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 202214,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Curacoa",
+		oxy_cost = 0,
+		skin_id = 202210,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1257,
+			62,
+			0,
+			71,
+			0,
+			67,
+			0,
+			58,
+			26,
+			29,
+			24,
+			32
+		},
+		attrs_growth = {
+			12445,
+			244,
+			0,
+			564,
+			0,
+			334,
+			0,
+			852,
+			390,
+			0,
+			0,
+			124
+		},
+		attrs_growth_extra = {
+			3734,
+			581,
+			0,
+			381,
+			0,
+			791,
+			0,
+			-17,
+			730,
+			0,
+			0,
+			206
+		},
+		lock = {
+			"air",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			214
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			0.8,
+			0.8,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202221] = {
+		oxy_max = 0,
+		type = 2,
+		name = "杓鷸",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 202221,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Curlew",
+		oxy_cost = 0,
+		skin_id = 202220,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			477,
+			24,
+			0,
+			33,
+			0,
+			70,
+			0,
+			57,
+			26,
+			29,
+			45,
+			13
+		},
+		attrs_growth = {
+			11645,
+			234,
+			0,
+			656,
+			0,
+			346,
+			0,
+			840,
+			390,
+			0,
+			0,
+			124
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			211
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.7,
+			0.7,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202222] = {
+		oxy_max = 0,
+		type = 2,
+		name = "杓鷸",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 202222,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Curlew",
+		oxy_cost = 0,
+		skin_id = 202220,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			593,
+			30,
+			0,
+			41,
+			0,
+			70,
+			0,
+			57,
+			26,
+			29,
+			45,
+			16
+		},
+		attrs_growth = {
+			11645,
+			234,
+			0,
+			656,
+			0,
+			346,
+			0,
+			840,
+			390,
+			0,
+			0,
+			124
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			212
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.7,
+			0.7,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202223] = {
+		oxy_max = 0,
+		type = 2,
+		name = "杓鷸",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 202223,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Curlew",
+		oxy_cost = 0,
+		skin_id = 202220,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			826,
+			42,
+			0,
+			58,
+			0,
+			70,
+			0,
+			57,
+			26,
+			29,
+			45,
+			22
+		},
+		attrs_growth = {
+			11645,
+			234,
+			0,
+			656,
+			0,
+			346,
+			0,
+			840,
+			390,
+			0,
+			0,
+			124
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			213
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.75,
+			0.75,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202224] = {
+		oxy_max = 0,
+		type = 2,
+		name = "杓鷸",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 202224,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Curlew",
+		oxy_cost = 0,
+		skin_id = 202220,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1176,
+			59,
+			0,
+			82,
+			0,
+			70,
+			0,
+			57,
+			26,
+			29,
+			45,
+			32
+		},
+		attrs_growth = {
+			11645,
+			234,
+			0,
+			656,
+			0,
+			346,
+			0,
+			840,
+			390,
+			0,
+			0,
+			124
+		},
+		attrs_growth_extra = {
+			3491,
+			554,
+			0,
+			439,
+			0,
+			824,
+			0,
+			-15,
+			730,
+			0,
+			0,
+			206
+		},
+		lock = {
+			"air",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			214
+		},
+		default_equip_list = {
+			101,
+			104,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			0.8,
+			0.8,
 			0.3
 		},
 		strategy_list = {},
@@ -40941,7 +43817,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"QE"
+		}
 	},
 	[205012] = {
 		oxy_max = 0,
@@ -41058,7 +43936,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"QE"
+		}
 	},
 	[205013] = {
 		oxy_max = 0,
@@ -41175,7 +44055,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"QE"
+		}
 	},
 	[205014] = {
 		oxy_max = 0,
@@ -41292,7 +44174,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"QE"
+		}
 	},
 	[205021] = {
 		oxy_max = 0,
@@ -44085,6 +46969,470 @@ pg.ship_data_statistics = {
 		equipment_proficiency = {
 			1.3,
 			1.3,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[206051] = {
+		oxy_max = 0,
+		type = 6,
+		name = "追趕者",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 206051,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Chaser",
+		oxy_cost = 0,
+		skin_id = 206050,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			778,
+			0,
+			0,
+			48,
+			56,
+			68,
+			0,
+			28,
+			15,
+			18,
+			82,
+			35
+		},
+		attrs_growth = {
+			18975,
+			0,
+			0,
+			940,
+			550,
+			340,
+			0,
+			414,
+			228,
+			0,
+			0,
+			344
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			113,
+			114,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.3,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[206052] = {
+		oxy_max = 0,
+		type = 6,
+		name = "追趕者",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 206052,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Chaser",
+		oxy_cost = 0,
+		skin_id = 206050,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			968,
+			0,
+			0,
+			60,
+			70,
+			68,
+			0,
+			28,
+			15,
+			18,
+			82,
+			44
+		},
+		attrs_growth = {
+			18975,
+			0,
+			0,
+			940,
+			550,
+			340,
+			0,
+			414,
+			228,
+			0,
+			0,
+			344
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			113,
+			114,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.3,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[206053] = {
+		oxy_max = 0,
+		type = 6,
+		name = "追趕者",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 206053,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Chaser",
+		oxy_cost = 0,
+		skin_id = 206050,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1347,
+			0,
+			0,
+			83,
+			97,
+			68,
+			0,
+			28,
+			15,
+			18,
+			82,
+			61
+		},
+		attrs_growth = {
+			18975,
+			0,
+			0,
+			940,
+			550,
+			340,
+			0,
+			414,
+			228,
+			0,
+			0,
+			344
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			113,
+			114,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.3,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[206054] = {
+		oxy_max = 0,
+		type = 6,
+		name = "追趕者",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 206054,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Chaser",
+		oxy_cost = 0,
+		skin_id = 206050,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1917,
+			0,
+			0,
+			119,
+			139,
+			68,
+			0,
+			28,
+			15,
+			18,
+			82,
+			87
+		},
+		attrs_growth = {
+			18975,
+			0,
+			0,
+			940,
+			550,
+			340,
+			0,
+			414,
+			228,
+			0,
+			0,
+			344
+		},
+		attrs_growth_extra = {
+			13283,
+			0,
+			0,
+			618,
+			1161,
+			800,
+			0,
+			226,
+			857,
+			0,
+			0,
+			420
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			113,
+			114,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.45,
 			0.8
 		},
 		strategy_list = {},
@@ -77895,6 +81243,2398 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[501011] = {
+		oxy_max = 0,
+		type = 1,
+		name = "鞍山",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 501011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "PRAN An shan",
+		oxy_cost = 0,
+		skin_id = 501010,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			367,
+			24,
+			42,
+			32,
+			0,
+			74,
+			0,
+			69,
+			61,
+			45.6,
+			81,
+			49
+		},
+		attrs_growth = {
+			8955,
+			238,
+			416,
+			628,
+			0,
+			368,
+			0,
+			1014,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			0.9,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Qinglong",
+			"Anshan-Class"
+		}
+	},
+	[501012] = {
+		oxy_max = 0,
+		type = 1,
+		name = "鞍山",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 501012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "PRAN An shan",
+		oxy_cost = 0,
+		skin_id = 501010,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			457,
+			30,
+			52,
+			40,
+			0,
+			74,
+			0,
+			69,
+			61,
+			45.6,
+			81,
+			61
+		},
+		attrs_growth = {
+			8955,
+			238,
+			416,
+			628,
+			0,
+			368,
+			0,
+			1014,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			0.9,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Qinglong",
+			"Anshan-Class"
+		}
+	},
+	[501013] = {
+		oxy_max = 0,
+		type = 1,
+		name = "鞍山",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 501013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "PRAN An shan",
+		oxy_cost = 0,
+		skin_id = 501010,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			636,
+			42,
+			73,
+			56,
+			0,
+			74,
+			0,
+			69,
+			61,
+			45.6,
+			81,
+			86
+		},
+		attrs_growth = {
+			8955,
+			238,
+			416,
+			628,
+			0,
+			368,
+			0,
+			1014,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.5,
+			0.95,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Qinglong",
+			"Anshan-Class"
+		}
+	},
+	[501014] = {
+		oxy_max = 0,
+		type = 1,
+		name = "鞍山",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 501014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "PRAN An shan",
+		oxy_cost = 0,
+		skin_id = 501010,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			904,
+			60,
+			104,
+			79,
+			0,
+			74,
+			0,
+			69,
+			61,
+			45.6,
+			81,
+			122
+		},
+		attrs_growth = {
+			8955,
+			238,
+			416,
+			628,
+			0,
+			368,
+			0,
+			1014,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			8945,
+			565,
+			987,
+			430,
+			0,
+			870,
+			0,
+			-592,
+			-631,
+			0,
+			0,
+			447
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Qinglong",
+			"Anshan-Class"
+		}
+	},
+	[501021] = {
+		oxy_max = 0,
+		type = 1,
+		name = "撫順",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 501021,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "PRAN Fu shun",
+		oxy_cost = 0,
+		skin_id = 501020,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			367,
+			24,
+			43,
+			32,
+			0,
+			74,
+			0,
+			68,
+			61,
+			45.6,
+			51,
+			49
+		},
+		attrs_growth = {
+			8955,
+			234,
+			422,
+			636,
+			0,
+			368,
+			0,
+			1002,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			0.9,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Zhuque",
+			"Anshan-Class"
+		}
+	},
+	[501022] = {
+		oxy_max = 0,
+		type = 1,
+		name = "撫順",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 501022,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "PRAN Fu shun",
+		oxy_cost = 0,
+		skin_id = 501020,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			457,
+			30,
+			54,
+			40,
+			0,
+			74,
+			0,
+			68,
+			61,
+			45.6,
+			51,
+			61
+		},
+		attrs_growth = {
+			8955,
+			234,
+			422,
+			636,
+			0,
+			368,
+			0,
+			1002,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			0.9,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Zhuque",
+			"Anshan-Class"
+		}
+	},
+	[501023] = {
+		oxy_max = 0,
+		type = 1,
+		name = "撫順",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 501023,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "PRAN Fu shun",
+		oxy_cost = 0,
+		skin_id = 501020,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			636,
+			42,
+			75,
+			56,
+			0,
+			74,
+			0,
+			68,
+			61,
+			45.6,
+			51,
+			86
+		},
+		attrs_growth = {
+			8955,
+			234,
+			422,
+			636,
+			0,
+			368,
+			0,
+			1002,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.5,
+			0.95,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Zhuque",
+			"Anshan-Class"
+		}
+	},
+	[501024] = {
+		oxy_max = 0,
+		type = 1,
+		name = "撫順",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 501024,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "PRAN Fu shun",
+		oxy_cost = 0,
+		skin_id = 501020,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			904,
+			59,
+			106,
+			80,
+			0,
+			74,
+			0,
+			68,
+			61,
+			45.6,
+			51,
+			122
+		},
+		attrs_growth = {
+			8955,
+			234,
+			422,
+			636,
+			0,
+			368,
+			0,
+			1002,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			8945,
+			554,
+			996,
+			429,
+			0,
+			870,
+			0,
+			-585,
+			-631,
+			0,
+			0,
+			447
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Zhuque",
+			"Anshan-Class"
+		}
+	},
+	[501031] = {
+		oxy_max = 0,
+		type = 1,
+		name = "長春",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 501031,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "PRAN Chang Chun",
+		oxy_cost = 0,
+		skin_id = 501030,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			367,
+			24,
+			42,
+			32,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			61,
+			49
+		},
+		attrs_growth = {
+			8955,
+			238,
+			416,
+			628,
+			0,
+			364,
+			0,
+			996,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			0.9,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Baihu",
+			"Anshan-Class"
+		}
+	},
+	[501032] = {
+		oxy_max = 0,
+		type = 1,
+		name = "長春",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 501032,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "PRAN Chang Chun",
+		oxy_cost = 0,
+		skin_id = 501030,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			457,
+			30,
+			52,
+			40,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			61,
+			61
+		},
+		attrs_growth = {
+			8955,
+			238,
+			416,
+			628,
+			0,
+			364,
+			0,
+			996,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			0.9,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Baihu",
+			"Anshan-Class"
+		}
+	},
+	[501033] = {
+		oxy_max = 0,
+		type = 1,
+		name = "長春",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 501033,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "PRAN Chang Chun",
+		oxy_cost = 0,
+		skin_id = 501030,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			636,
+			42,
+			73,
+			56,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			61,
+			86
+		},
+		attrs_growth = {
+			8955,
+			238,
+			416,
+			628,
+			0,
+			364,
+			0,
+			996,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.5,
+			0.95,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Baihu",
+			"Anshan-Class"
+		}
+	},
+	[501034] = {
+		oxy_max = 0,
+		type = 1,
+		name = "長春",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 501034,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "PRAN Chang Chun",
+		oxy_cost = 0,
+		skin_id = 501030,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			904,
+			60,
+			104,
+			79,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			61,
+			122
+		},
+		attrs_growth = {
+			8955,
+			238,
+			416,
+			628,
+			0,
+			364,
+			0,
+			996,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			8945,
+			565,
+			987,
+			430,
+			0,
+			866,
+			0,
+			-584,
+			-631,
+			0,
+			0,
+			447
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Baihu",
+			"Anshan-Class"
+		}
+	},
+	[501041] = {
+		oxy_max = 0,
+		type = 1,
+		name = "太原",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 501041,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "PRAN Tai Yuan",
+		oxy_cost = 0,
+		skin_id = 501040,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			367,
+			24,
+			42,
+			32,
+			0,
+			73,
+			0,
+			68,
+			61,
+			45.6,
+			71,
+			49
+		},
+		attrs_growth = {
+			8955,
+			234,
+			418,
+			636,
+			0,
+			364,
+			0,
+			1008,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			0.9,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Xuanwu",
+			"Anshan-Class"
+		}
+	},
+	[501042] = {
+		oxy_max = 0,
+		type = 1,
+		name = "太原",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 501042,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "PRAN Tai Yuan",
+		oxy_cost = 0,
+		skin_id = 501040,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			457,
+			30,
+			52,
+			40,
+			0,
+			73,
+			0,
+			68,
+			61,
+			45.6,
+			71,
+			61
+		},
+		attrs_growth = {
+			8955,
+			234,
+			418,
+			636,
+			0,
+			364,
+			0,
+			1008,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			0.9,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Xuanwu",
+			"Anshan-Class"
+		}
+	},
+	[501043] = {
+		oxy_max = 0,
+		type = 1,
+		name = "太原",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 501043,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "PRAN Tai Yuan",
+		oxy_cost = 0,
+		skin_id = 501040,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			636,
+			42,
+			73,
+			56,
+			0,
+			73,
+			0,
+			68,
+			61,
+			45.6,
+			71,
+			86
+		},
+		attrs_growth = {
+			8955,
+			234,
+			418,
+			636,
+			0,
+			364,
+			0,
+			1008,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.5,
+			0.95,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Xuanwu",
+			"Anshan-Class"
+		}
+	},
+	[501044] = {
+		oxy_max = 0,
+		type = 1,
+		name = "太原",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 501044,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "PRAN Tai Yuan",
+		oxy_cost = 0,
+		skin_id = 501040,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			904,
+			59,
+			105,
+			80,
+			0,
+			73,
+			0,
+			68,
+			61,
+			45.6,
+			71,
+			122
+		},
+		attrs_growth = {
+			8955,
+			234,
+			418,
+			636,
+			0,
+			364,
+			0,
+			1008,
+			906,
+			0,
+			0,
+			488
+		},
+		attrs_growth_extra = {
+			8945,
+			554,
+			992,
+			429,
+			0,
+			866,
+			0,
+			-591,
+			-631,
+			0,
+			0,
+			447
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Xuanwu",
+			"Anshan-Class"
+		}
+	},
+	[502011] = {
+		oxy_max = 0,
+		type = 2,
+		name = "逸仙",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 502011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "ROC Yat Sen",
+		oxy_cost = 0,
+		skin_id = 502010,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			328,
+			22,
+			0,
+			66,
+			0,
+			67,
+			0,
+			50,
+			24,
+			19,
+			64,
+			13
+		},
+		attrs_growth = {
+			8010,
+			222,
+			0,
+			1288,
+			0,
+			334,
+			0,
+			744,
+			354,
+			0,
+			0,
+			130
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			101,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.1,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[502012] = {
+		oxy_max = 0,
+		type = 2,
+		name = "逸仙",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 502012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "ROC Yat Sen",
+		oxy_cost = 0,
+		skin_id = 502010,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			408,
+			28,
+			0,
+			82,
+			0,
+			67,
+			0,
+			50,
+			24,
+			19,
+			64,
+			16
+		},
+		attrs_growth = {
+			8010,
+			222,
+			0,
+			1288,
+			0,
+			334,
+			0,
+			744,
+			354,
+			0,
+			0,
+			130
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			101,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.22,
+			1.12,
+			0.72
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[502013] = {
+		oxy_max = 0,
+		type = 2,
+		name = "逸仙",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 502013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "ROC Yat Sen",
+		oxy_cost = 0,
+		skin_id = 502010,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			568,
+			39,
+			0,
+			114,
+			0,
+			67,
+			0,
+			50,
+			24,
+			19,
+			64,
+			23
+		},
+		attrs_growth = {
+			8010,
+			222,
+			0,
+			1288,
+			0,
+			334,
+			0,
+			744,
+			354,
+			0,
+			0,
+			130
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			101,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.15,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[502014] = {
+		oxy_max = 0,
+		type = 2,
+		name = "逸仙",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 502014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "ROC Yat Sen",
+		oxy_cost = 0,
+		skin_id = 502010,
+		attack_duration = 0,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			809,
+			55,
+			0,
+			163,
+			0,
+			67,
+			0,
+			50,
+			24,
+			19,
+			64,
+			33
+		},
+		attrs_growth = {
+			8010,
+			222,
+			0,
+			1288,
+			0,
+			334,
+			0,
+			744,
+			354,
+			0,
+			0,
+			130
+		},
+		attrs_growth_extra = {
+			800,
+			513,
+			0,
+			561,
+			0,
+			791,
+			0,
+			0,
+			441,
+			0,
+			0,
+			208
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			101,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.2,
+			0.8
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[502021] = {
 		oxy_max = 0,
 		type = 2,
@@ -103010,6 +108750,14 @@ pg.ship_data_statistics = {
 		101372,
 		101373,
 		101374,
+		101381,
+		101382,
+		101383,
+		101384,
+		101391,
+		101392,
+		101393,
+		101394,
 		102011,
 		102012,
 		102013,
@@ -103198,6 +108946,10 @@ pg.ship_data_statistics = {
 		201232,
 		201233,
 		201234,
+		201241,
+		201242,
+		201243,
+		201244,
 		202011,
 		202012,
 		202013,
@@ -103226,6 +108978,18 @@ pg.ship_data_statistics = {
 		202142,
 		202143,
 		202144,
+		202151,
+		202152,
+		202153,
+		202154,
+		202211,
+		202212,
+		202213,
+		202214,
+		202221,
+		202222,
+		202223,
+		202224,
 		203011,
 		203012,
 		203013,
@@ -103302,6 +109066,10 @@ pg.ship_data_statistics = {
 		206032,
 		206033,
 		206034,
+		206051,
+		206052,
+		206053,
+		206054,
 		207021,
 		207022,
 		207023,
@@ -103588,6 +109356,26 @@ pg.ship_data_statistics = {
 		407012,
 		407013,
 		407014,
+		501011,
+		501012,
+		501013,
+		501014,
+		501021,
+		501022,
+		501023,
+		501024,
+		501031,
+		501032,
+		501033,
+		501034,
+		501041,
+		501042,
+		501043,
+		501044,
+		502011,
+		502012,
+		502013,
+		502014,
 		502021,
 		502022,
 		502023,

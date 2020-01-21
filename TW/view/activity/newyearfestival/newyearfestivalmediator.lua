@@ -3,12 +3,19 @@ slot0.MINI_GAME_OPERATOR = "MINI_GAME_OPERATOR"
 slot0.GO_SCENE = "GO_SCENE"
 slot0.GO_SUBLAYER = "GO_SUBLAYER"
 slot0.MINIGAME_OPERATION = "MINIGAME_OPERATION"
+slot0.ON_OPEN_PILE_SIGNED = "ON_OPEN_PILE_SIGNED"
 
 function slot0.register(slot0)
 	slot0:BindEvent()
 end
 
 function slot0.BindEvent(slot0)
+	slot0:bind(slot0.ON_OPEN_PILE_SIGNED, function ()
+		slot0:addSubLayers(Context.New({
+			viewComponent = PileGameSignedLayer,
+			mediator = PileGameSignedMediator
+		}))
+	end)
 	slot0:bind(slot0.MINI_GAME_OPERATOR, function (slot0, ...)
 		slot0:sendNotification(GAME.SEND_MINI_GAME_OP, ...)
 	end)

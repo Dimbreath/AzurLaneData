@@ -2,7 +2,7 @@ pg = pg or {}
 pg.voice_bgm = {
 	ActivityMainScene = {
 		scene = "ActivityMainScene",
-		bgm = "main"
+		bgm = "main-chunjie"
 	},
 	HoloLiveLinkLinkSelectScene = {
 		scene = "HoloLiveLinkLinkSelectScene",
@@ -70,7 +70,7 @@ pg.voice_bgm = {
 	},
 	MainUI = {
 		scene = "MainUI",
-		bgm = "main"
+		bgm = "main-chunjie"
 	},
 	HoloLiveLinkGameView = {
 		scene = "HoloLiveLinkGameView",
@@ -78,7 +78,15 @@ pg.voice_bgm = {
 	},
 	CollectionScene = {
 		scene = "CollectionScene",
-		bgm = "main"
+		bgm = "main-chunjie"
+	},
+	ActivityBossSPFScene = {
+		scene = "ActivityBossSPFScene",
+		bgm = "level02"
+	},
+	SpringFestivalTownScene = {
+		scene = "SpringFestivalTownScene",
+		bgm = "story-china"
 	}
 }
 

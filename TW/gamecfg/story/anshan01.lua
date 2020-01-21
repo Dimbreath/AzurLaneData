@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"鞍山的绘图日记\n\n<size=45>一　旧仓库的发现</size>",
+					"鞍山的繪圖日記\n\n<size=45>一　舊倉庫的發現</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-china",
 			actor = 501020,
 			nameColor = "#a9f548",
-			say = "鞍山级的～～",
+			say = "鞍山級的～～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绘图教室～～～",
+			say = "繪圖教室～～～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "开、开始了！",
+			say = "開、開始了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们这都是在干吗呢…",
+			say = "你們這都是在幹嘛呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			say = "哎呀，怎么说～顺势而为？",
+			say = "哎呀，怎麼說～順勢而為？",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没想到太原在旧仓库淘到的旧书里还夹着一本这个呢",
+			say = "沒想到太原在舊倉庫淘到的舊書裡還夾著一本這個呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶嘿嘿…",
+			say = "欸嘿嘿…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "旧仓库…？",
+			say = "舊倉庫…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊～没、没什么啦～比起这个，还是看看这个绘图本吧～",
+			say = "啊～沒、沒什麼啦～比起這個，還是看看這個繪圖本吧～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "与其说是绘图本，不如说是涂色本呢…",
+			say = "與其說是繪圖本，不如說是塗色本呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，既然如此，就来涂鸦吧！",
+			say = "嘿嘿，既然如此，就來塗鴉吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抚顺又开始了…",
+			say = "撫順又開始了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唉，算了，总比去外面胡闹的好…",
+			say = "唉，算了，總比去外面胡鬧的好…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不过…说要涂色，但是手边没有颜料呢",
+			say = "不過…說要塗色，但是手邊沒有顏料呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			actor = 501020,
 			nameColor = "#a9f548",
-			say = "好咧~那就收集颜料去咯~",
+			say = "好咧~那就收集顏料去囉~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可别太闹腾了啊！",
+			say = "可別太鬧騰了啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

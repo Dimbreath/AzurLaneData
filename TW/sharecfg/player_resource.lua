@@ -270,6 +270,16 @@ pg.player_resource = {
 		name = "worldboss926_ticket",
 		itemid = 59142
 	},
+	[2004] = {
+		id = 2004,
+		name = "nvpu2_pt",
+		itemid = 59967
+	},
+	[2005] = {
+		id = 2005,
+		name = "nvpu_ticket",
+		itemid = 59968
+	},
 	[3106] = {
 		id = 3106,
 		name = "twhongran_pt",
@@ -286,6 +296,12 @@ pg.player_resource = {
 		},
 		twhongran_pt = {
 			3106
+		},
+		nvpu_ticket = {
+			2005
+		},
+		nvpu2_pt = {
+			2004
 		},
 		worldboss926_ticket = {
 			2003
@@ -505,6 +521,8 @@ pg.player_resource = {
 		2001,
 		2002,
 		2003,
+		2004,
+		2005,
 		3106,
 		3137
 	}

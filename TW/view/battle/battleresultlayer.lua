@@ -197,6 +197,8 @@ end
 function slot0.didEnter(slot0)
 	slot0:setStageName()
 
+	slot0._subShipResultCardList = {}
+	slot0._shipResultCardList = {}
 	slot0._gradeUpperLeftPos = rtf(slot0._grade).localPosition
 	rtf(slot0._grade).localPosition = Vector3(0, 25, 0)
 
@@ -456,8 +458,6 @@ function slot0.displayShips(slot0)
 
 	slot9 = {}
 	slot10 = {}
-	slot0._subShipResultCardList = {}
-	slot0._shipResultCardList = {}
 
 	for slot14, slot15 in ipairs(slot6) do
 		slot16 = slot1[slot15.id]

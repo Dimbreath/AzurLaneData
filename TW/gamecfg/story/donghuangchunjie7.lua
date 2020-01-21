@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"闹腾嬉戏东煌春节\n\n<size=45>七 嬉戏闹腾的新年</size>",
+					"鬧騰嬉戲東煌春節\n\n<size=45>七 嬉戲鬧騰的新年</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			blackBg = true,
 			actor = 501041,
 			nameColor = "#a9f548",
-			say = "嗯……电灯的开关都没用，好像是……电闸被拉掉了。",
+			say = "嗯……電燈的開關都沒用，好像是……電閘被拉掉了。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "黑黑的环境……唔，拉菲先睡了，晚安。",
+			say = "黑黑的環境……唔，拉菲先睡了，晚安。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			blackBg = true,
 			actor = 202121,
 			nameColor = "#a9f548",
-			say = "…？走廊里有脚步声，越来越近了。",
+			say = "…？走廊裡有腳步聲，越來越近了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			blackBg = true,
 			actor = 107062,
 			nameColor = "#a9f548",
-			say = "嗯？走廊的尽头是不是有团巨大的影子？！",
+			say = "嗯？走廊的盡頭是不是有團巨大的影子？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "这、这究竟是…",
+			say = "這、這究竟是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（嘿嘿嘿，春节吓人计划顺利进行中~接下来只要使用这个“抚顺特制爆竹二号机”，就可以让节目效果达到最高潮了~）",
+			say = "（嘿嘿嘿，春節嚇人計畫順利進行中~接下來只要使用這個“撫順特製爆竹二號機”，就可以讓節目效果達到最高潮了~）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			blackBg = true,
 			actor = 501020,
 			nameColor = "#a9f548",
-			say = "我点，我扔~诶？！",
+			say = "我點，我扔~欸？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "丢出的爆竹撞到了走廊的墙壁，弹回来正好落在了抚顺的脚下。",
+			say = "丟出的爆竹撞到了走廊的牆壁，彈回來正好落在了撫順的腳下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "star_level_bg_102",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "（轰）",
+			say = "（轟）",
 			flashN = {
 				color = {
 					1,
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
-			say = "爆竹爆炸的同时，房间内的灯光也恢复了。",
+			say = "爆竹爆炸的同時，房間內的燈光也恢復了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			bgm = "main-chunjie",
 			actor = 501020,
 			nameColor = "#a9f548",
-			say = "呜哇…没想到会在最后一步…失、策…",
+			say = "嗚哇…沒想到會在最後一步…失、策…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			actor = 501041,
 			nameColor = "#a9f548",
-			say = "抚、抚顺姐！？没、没事吧！？？",
+			say = "撫、撫順姐！？沒、沒事吧！？？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			actor = 501010,
 			nameColor = "#a9f548",
-			say = "咳咳咳，屋子里被搞得乌烟瘴气，抚！顺！做了这种蠢事你做好挨训的心理准备…诶？",
+			say = "咳咳咳，屋子裡被搞得烏煙瘴氣，撫！順！做了這種蠢事你做好挨訓的心理準備…欸？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈哈哈~抚顺姐变成成黑炭啦~",
+			say = "啊哈哈哈哈~撫順姐變成成黑炭啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这可真是…既成功又失败的恶作剧啊，哈哈哈",
+			say = "這可真是…既成功又失敗的惡作劇啊，哈哈哈",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			dir = 1,
 			actor = 107021,
 			nameColor = "#a9f548",
-			say = "哎呀，真是调皮的孩子，不过这个节目效果倒也算是不错呢~",
+			say = "哎呀，真是調皮的孩子，不過這個節目效果倒也算是不錯呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳，吓死我了，还以为会怎样呢，诶？我脸上怎么了吗？",
+			say = "咳咳，嚇死我了，還以為會怎樣呢，欸？我臉上怎麼了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			actor = 301054,
 			nameColor = "#a9f548",
-			say = "镜子给你…的说",
+			say = "鏡子給你…的說",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			actor = 501020,
 			nameColor = "#a9f548",
-			say = "哇哇，哈哈哈哈哈，这下没脸见人了哈哈哈",
+			say = "哇哇，哈哈哈哈哈，這下沒臉見人了哈哈哈",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的…还不赶紧去洗洗脸！",
+			say = "真是的…還不趕緊去洗洗臉！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			actor = 202121,
 			nameColor = "#a9f548",
-			say = "真是哪里都不缺有趣的事情呢，呵呵",
+			say = "真是哪裡都不缺有趣的事情呢，呵呵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，我准备为还在工作的指挥官送去东煌大家的料理了",
+			say = "那麼，我準備為還在工作的指揮官送去東煌大家的料理了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			actor = 107062,
 			nameColor = "#a9f548",
-			say = "啊啊，果然，能有这么温暖的团聚时光，无论是不是一时的短暂和平，都得好好感谢指挥官才是呢",
+			say = "啊啊，果然，能有這麼溫暖的團聚時光，無論是不是一時的短暫和平，都得好好感謝指揮官才是呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，鞍山姐，我们也一起去找指挥官嘛～",
+			say = "唔，鞍山姐，我們也一起去找指揮官嘛～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			dir = 1,
 			actor = 107021,
 			nameColor = "#a9f548",
-			say = "呵呵呵，那就去指挥官的办公室再来一次“团聚”吧？",
+			say = "呵呵呵，那就去指揮官的辦公室再來一次“團聚”吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,7 +604,7 @@ return {
 			}
 		},
 		{
-			actorName = "众人",
+			actorName = "眾人",
 			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
@@ -625,7 +625,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？原来我这里还有一只备用的爆竹呀，嘿嘿嘿，那就…",
+			say = "咦？原來我這裡還有一隻備用的爆竹呀，嘿嘿嘿，那就…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +636,7 @@ return {
 			}
 		},
 		{
-			actorName = "众人",
+			actorName = "眾人",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,

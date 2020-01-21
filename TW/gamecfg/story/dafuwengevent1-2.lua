@@ -5,7 +5,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "帮助指挥官整理资料文件，获得了奖励【物资*1000】",
+			say = "幫助指揮官整理資料檔，獲得了獎勵【物資*1000】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

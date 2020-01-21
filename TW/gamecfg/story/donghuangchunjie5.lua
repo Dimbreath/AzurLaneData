@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"闹腾嬉戏东煌春节\n\n<size=45>五 热闹的“团聚”·上</size>",
+					"鬧騰嬉戲東煌春節\n\n<size=45>五 熱鬧的“團聚”·上</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-chunjie",
-			say = "（敲门声）",
+			say = "（敲門聲）",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来了～哇哇，是皇家的客人啊，请进请进——",
+			say = "來了～哇哇，是皇家的客人啊，請進請進——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贵安，春节快乐，皇家女仆队，贝尔法斯特，带着指挥官委托的物资前来",
+			say = "貴安，春節快樂，皇家女僕隊，貝爾法斯特，帶著指揮官委託的物資前來",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "春节快乐～哎呀，这么多的东西，辛苦你们拿过来了，真是不好意思…",
+			say = "春節快樂～哎呀，這麼多的東西，辛苦你們拿過來了，真是不好意思…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "春节快乐呢，诶嘿嘿~嗯？皇家的各位都穿着东煌风格的衣服呢，好漂亮啊～",
+			say = "春節快樂呢，欸嘿嘿~嗯？皇家的各位都穿著東煌風格的衣服呢，好漂亮啊～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			actor = 299022,
 			nameColor = "#a9f548",
-			say = "这是指挥官推荐的服装，让我们能更好的感受东煌新年的氛围，哼，看来还真得感谢指挥官一番了啊",
+			say = "這是指揮官推薦的服裝，讓我們能更好的感受東煌新年的氛圍，哼，看來還真得感謝指揮官一番了啊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "打扰了~呼，终于进入一个温暖的空间了，果然东煌的房间和庭院都格外的温馨呀。",
+			say = "打擾了~呼，終於進入一個溫暖的空間了，果然東煌的房間和庭院都格外的溫馨呀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，贝尔法斯特小姐，你们也来了吗",
+			say = "哎呀，貝爾法斯特小姐，你們也來了嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			actor = 202121,
 			nameColor = "#a9f548",
-			say = "列星頓小姐和企业小姐啊，贵安，这是在……",
+			say = "列星頓小姐和企業小姐啊，貴安，這是在……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业和列星頓正在帮我们贴春联呢～嘿嘿",
+			say = "企業和列星頓正在幫我們貼春聯呢～嘿嘿",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家的各位，好久不见了",
+			say = "皇家的各位，好久不見了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？皇家的各位身上穿的衣服，难不成是东煌的传统服饰吗？",
+			say = "嗯？皇家的各位身上穿的衣服，難不成是東煌的傳統服飾嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			actor = 299022,
 			nameColor = "#a9f548",
-			say = "正是，对了，在这里遇到也是凑巧——",
+			say = "正是，對了，在這裡遇到也是湊巧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我的是特意从{namecode:98}那里订的呢，说起来其实我和东煌多少也有点缘分呢，呵呵～",
+			say = "我的是特意從{namecode:98}那裡訂的呢，說起來其實我和東煌多少也有點緣分呢，呵呵～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "女仆队的服装是自己制作的。毕竟主人都说了，偶尔想要看看异国风情的服装呢",
+			say = "女僕隊的服裝是自己製作的。畢竟主人都說了，偶爾想要看看異國風情的服裝呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			actor = 202121,
 			nameColor = "#a9f548",
-			say = "另外，也准备了白鹰各位的份，由{namecode:98}小姐提供了材料，并且——",
+			say = "另外，也準備了白鷹各位的份，由{namecode:98}小姐提供了材料，並且——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "春节大放送喵，材料费就由指挥官出了喵！",
+			say = "春節大放送喵，材料費就由指揮官出了喵！",
 			effects = {
 				{
 					active = true,
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "原、原来如此，既然是大家的一片心意，那就——",
+			say = "原、原來如此，既然是大家的一片心意，那就——",
 			effects = {
 				{
 					active = false,
@@ -343,7 +343,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，这次的LADY LEX可以走东方偶像的路线了呢~",
+			say = "呵呵，這次的LADY LEX可以走東方偶像的路線了呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			dir = 1,
 			actor = 501010,
 			nameColor = "#a9f548",
-			say = "既然大家来了，就都留下来一起吃年夜晚吧～",
+			say = "既然大家來了，就都留下來一起吃年夜晚吧～",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -392,7 +392,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，年夜饭，春节的派对。这或许也是指挥官所说“东煌新年氛围”的一部分吧。",
+			say = "嗯，年夜飯，春節的派對。這或許也是指揮官所說“東煌新年氛圍”的一部分吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			actor = 202121,
 			nameColor = "#a9f548",
-			say = "这是增加的人数对应的食材和资材，另外，也请让我们多少帮点忙吧",
+			say = "這是增加的人數對應的食材和資材，另外，也請讓我們多少幫點忙吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在东煌可没有让客人帮忙干活的道理呢～哦？企业小姐他们出来了。",
+			say = "在東煌可沒有讓客人幫忙幹活的道理呢～哦？企業小姐他們出來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是指挥官，眼光确实不错，竟然还有特制的弓箭吗……",
+			say = "不愧是指揮官，眼光確實不錯，竟然還有特製的弓箭嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			dir = 1,
 			actor = 107021,
 			nameColor = "#a9f548",
-			say = "啊啦啦，不知道白鹰的孩子们看到会作何评价呀~",
+			say = "啊啦啦，不知道白鷹的孩子們看到會作何評價呀~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "鞍山姐，逸仙姐喊我们帮忙端菜呢！年夜饭马上就要准备好啦！",
+			say = "鞍山姐，逸仙姐喊我們幫忙端菜呢！年夜飯馬上就要準備好啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,11 +488,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_102",
+			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
 			actor = 206042,
-			nameColor = "#a9f548",
-			say = "我、我也来帮忙！",
+			actorName = "半人馬",
+			say = "我、我也來幫忙！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

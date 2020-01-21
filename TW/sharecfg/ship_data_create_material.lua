@@ -55,25 +55,28 @@ pg.ship_data_create_material = {
 		}
 	},
 	{
-		use_gold = 1500,
+		use_gold = 600,
 		name = "限時建造",
 		build_anim = "building",
 		type = 2,
 		ship_icon = "1",
 		build_voice = "",
 		use_item = 20001,
-		number_1 = 2,
+		number_1 = 1,
 		id = 4,
 		icon = "build_4",
 		rate_tip = {
 			"<color=#ffde38>超稀有艦船</color>：7%",
 			"<color=#d797ff>精銳艦船</color>：12%",
-			"<color=#3dc6ff>稀有艦船</color>：51%",
-			"普通艦船：30%",
-			"<color=#ffde38>齊柏林伯爵</color>：2%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Z46</color>：1.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>希佩爾海軍上將</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#3dc6ff>Z19</color>：5%(<color=#92fc63>up!</color>)"
+			"<color=#3dc6ff>稀有艦船</color>：26%",
+			"普通艦船：55%",
+			"<color=#d797ff>長春</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>太原</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>追趕者</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>馬拉尼</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#3dc6ff>金伯利</color>：5%(<color=#92fc63>up!</color>)",
+			"<color=#3dc6ff>庫拉索</color>：5%(<color=#92fc63>up!</color>)",
+			"<color=#3dc6ff>杓鷸</color>：5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

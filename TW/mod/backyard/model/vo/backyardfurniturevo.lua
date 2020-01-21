@@ -141,9 +141,15 @@ function slot0.getUniqueShipAction(slot0, slot1, slot2)
 	end
 
 	if _.detect(slot3, function (slot0)
-		return _.any(slot0[2], function (slot0)
-			return slot0 == slot0
-		end) and slot1 == slot0[1]
+		if slot0[4] and slot0[4] == 1 then
+			return slot0 == slot0[1] and _.any(slot0[2], function (slot0)
+				return slot0 ~= slot0
+			end)
+		else
+			return slot0 == slot0[1] and _.any(slot0[2], function (slot0)
+				return slot0 == slot0
+			end)
+		end
 	end) then
 		return slot4[3]
 	end

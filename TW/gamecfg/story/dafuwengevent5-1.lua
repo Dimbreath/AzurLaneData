@@ -5,7 +5,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "捡到了随着海浪冲到沙滩上的零件，获得了【强化部件T3*2】",
+			say = "撿到了隨著海浪沖到沙灘上的零件，獲得了【強化部件T3*2】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

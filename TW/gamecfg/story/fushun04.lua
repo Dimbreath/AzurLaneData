@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"抚顺的大冒险\n\n<size=45>四　然后，世界恢复了和平</size>",
+					"撫順的大冒險\n\n<size=45>四　然後，世界恢復了和平</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-china",
 			actor = 501030,
 			nameColor = "#a9f548",
-			say = "那里那里！快攻击！",
+			say = "那裡那裡！快攻擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,7 +36,7 @@ return {
 		{
 			side = 0,
 			bgName = "bg_story_school",
-			say = "我知道！看我的！超必杀！",
+			say = "我知道！看我的！超必殺！",
 			dir = 1,
 			actor = 501020,
 			nameColor = "#a9f548",
@@ -61,7 +61,7 @@ return {
 			actorShadow = true,
 			side = 0,
 			bgName = "bg_story_school",
-			actorName = "抚顺&长春",
+			actorName = "撫順&長春",
 			actor = 501020,
 			hideOther = true,
 			nameColor = "#a9f548",
@@ -70,7 +70,7 @@ return {
 				{
 					actor = 501030,
 					pos = {
-						x = 1027.5
+						x = 1181
 					}
 				}
 			},
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿~勇者抚顺，又一次成功地拯救了世界~",
+			say = "嘿嘿~勇者撫順，又一次成功地拯救了世界~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然机器和画面看上去都很古老…但意外的有趣呢……",
+			say = "雖然機器和畫面看上去都很古老…但意外的有趣呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，这里还可以看到排行榜一样的东西欸",
+			say = "咦，這裡還可以看到排行榜一樣的東西欸",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…好像除了抚顺以外只有一个名字呢…",
+			say = "不過…好像除了撫順以外只有一個名字呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难、难道…",
+			say = "難、難道…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			dir = 1,
 			actor = 501010,
 			nameColor = "#a9f548",
-			say = "抚~~~顺！！你又捣乱了对不对！",
+			say = "撫~~~順！！你又搗亂了對不對！",
 			shake = {
 				speed = 1,
 				number = 2
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "把旧仓库的锁弄坏了！还把里面翻得乱七八糟的！",
+			say = "把舊倉庫的鎖弄壞了！還把裡面翻得亂七八糟的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			actor = 501020,
 			nameColor = "#a9f548",
-			say = "呜——",
+			say = "嗚——",
 			shake = {
 				speed = 8,
 				y = 0,
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "长春你也别想跑！肯定是你煽动抚顺的吧！",
+			say = "長春你也別想跑！肯定是你煽動撫順的吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			dir = -1,
 			actor = 501030,
 			nameColor = "#a9f548",
-			say = "呜——",
+			say = "嗚——",
 			shake = {
 				speed = 8,
 				y = 0,
@@ -301,7 +301,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "都给我站好了！今天一定——",
+			say = "都給我站好了！今天一定——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？这、这个难道是！？",
+			say = "嗯？這、這個難道是！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个是我在旧仓库发现的哦~本来都坏掉了呢，多亏了{namecode:98}才修好的~",
+			say = "這個是我在舊倉庫發現的哦~本來都壞掉了呢，多虧了{namecode:98}才修好的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "刚才看到的名字…难道说……",
+			say = "剛才看到的名字…難道說……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳、咳咳！总之！今天一定要好好说说你们！",
+			say = "咳、咳咳！總之！今天一定要好好說說你們！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜…生气的鞍山姐比游戏里的魔王还要难对付呢…",
+			say = "嗚…生氣的鞍山姐比遊戲裡的魔王還要難對付呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你说什么！？",
+			say = "你說什麼！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没、什么都没说！",
+			say = "沒、什麼都沒說！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个东西！没收！",
+			say = "這個東西！沒收！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,11 +459,11 @@ return {
 			actorShadow = true,
 			side = 0,
 			bgName = "bg_story_school",
-			actorName = "抚顺&长春",
+			actorName = "撫順&長春",
 			actor = 501020,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "呜——",
+			say = "嗚——",
 			subActors = {
 				{
 					actor = 501030,
@@ -487,7 +487,7 @@ return {
 			blackBg = true,
 			actor = 501010,
 			nameColor = "#a9f548",
-			say = "真是让人怀念的东西啊…没想到竟然还能找出来…",
+			say = "真是讓人懷念的東西啊…沒想到竟然還能找出來…",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -520,7 +520,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "而且竟然还留着当时的记录…哈哈…",
+			say = "而且竟然還留著當時的記錄…哈哈…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			}
 		},
 		{
-			say = "那个果然是鞍山姐姐的东西呢",
+			say = "那個果然是鞍山姐姐的東西呢",
 			side = 0,
 			dir = -1,
 			blackBg = true,
@@ -556,7 +556,7 @@ return {
 			blackBg = true,
 			actor = 501010,
 			nameColor = "#a9f548",
-			say = "哇啊！！长、长春？",
+			say = "哇啊！！長、長春？",
 			shake = {
 				speed = 5,
 				x = 2,
@@ -577,7 +577,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "哎呀，没想到鞍山姐姐也有爱玩的一面呢",
+			say = "哎呀，沒想到鞍山姐姐也有愛玩的一面呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "抚顺也在？！",
+			say = "撫順也在？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "鞍山姐姐…真可爱…",
+			say = "鞍山姐姐…真可愛…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "连太原都？！呜…这个不是、我……",
+			say = "連太原都？！嗚…這個不是、我……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,7 +641,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "哎呀~谁都有年轻的时候嘛，鞍山姐姐",
+			say = "哎呀~誰都有年輕的時候嘛，鞍山姐姐",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "嘻嘻，不要自己偷偷玩，大家一起玩游戏才好玩嘛，鞍山姐姐~",
+			say = "嘻嘻，不要自己偷偷玩，大家一起玩遊戲才好玩嘛，鞍山姐姐~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -673,7 +673,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "真、真拿你们没办法…那就——",
+			say = "真、真拿你們沒辦法…那就——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -689,7 +689,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "于是，世界恢复了和平，可喜可贺可喜可贺——",
+			say = "於是，世界恢復了和平，可喜可賀可喜可賀——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			blackBg = true,
 			actor = 501010,
 			nameColor = "#a9f548",
-			say = "别擅自做这种奇怪的总结啦！",
+			say = "別擅自做這種奇怪的總結啦！",
 			shake = {
 				speed = 8,
 				number = 3
@@ -722,7 +722,7 @@ return {
 		{
 			actorShadow = true,
 			side = 0,
-			actorName = "太原&长春&抚顺",
+			actorName = "太原&長春&撫順",
 			actor = 501040,
 			blackBg = true,
 			hideOther = true,

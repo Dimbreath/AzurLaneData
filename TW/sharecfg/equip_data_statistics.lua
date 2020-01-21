@@ -9365,6 +9365,351 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[7200] = {
+		name = "130mm單裝炮",
+		type = 1,
+		id = 7200,
+		tech = 1,
+		speciality = "鎖定",
+		range = 65,
+		scatter = "14°",
+		ambush_extra = 0,
+		value_2 = 5,
+		icon = "7200",
+		value_1 = "4 x 3",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		rarity = 2,
+		angle = 360,
+		nationality = 7,
+		ammo = "通常彈",
+		is_siren = 0,
+		descrip = "說明未填寫",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			7200
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			4,
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		}
+	},
+	[7201] = {
+		value_1 = "5 x 3",
+		id = 7201,
+		base = 7200,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7201
+		},
+		property_rate = {}
+	},
+	[7202] = {
+		value_1 = "6 x 3",
+		id = 7202,
+		base = 7200,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7202
+		},
+		property_rate = {}
+	},
+	[7203] = {
+		value_1 = "7 x 3",
+		id = 7203,
+		base = 7200,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7203
+		},
+		property_rate = {}
+	},
+	[7220] = {
+		name = "130mm單裝炮",
+		type = 1,
+		id = 7220,
+		tech = 2,
+		speciality = "鎖定",
+		range = 65,
+		scatter = "14°",
+		ambush_extra = 0,
+		value_2 = 12,
+		icon = "7200",
+		value_1 = "5 x 3",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		rarity = 3,
+		angle = 360,
+		nationality = 7,
+		ammo = "通常彈",
+		is_siren = 0,
+		descrip = "說明未填寫",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			7220
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			4,
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		}
+	},
+	[7221] = {
+		value_1 = "6 x 3",
+		id = 7221,
+		base = 7220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7221
+		},
+		property_rate = {}
+	},
+	[7222] = {
+		value_1 = "7 x 3",
+		id = 7222,
+		base = 7220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7222
+		},
+		property_rate = {}
+	},
+	[7223] = {
+		value_1 = "8 x 3",
+		id = 7223,
+		base = 7220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7223
+		},
+		property_rate = {}
+	},
+	[7224] = {
+		value_1 = "9 x 3",
+		id = 7224,
+		base = 7220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7224
+		},
+		property_rate = {}
+	},
+	[7225] = {
+		value_1 = "10 x 3",
+		id = 7225,
+		base = 7220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7225
+		},
+		property_rate = {}
+	},
+	[7226] = {
+		value_1 = "12 x 3",
+		id = 7226,
+		base = 7220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7226
+		},
+		property_rate = {}
+	},
+	[7240] = {
+		name = "130mm單裝炮",
+		type = 1,
+		id = 7240,
+		tech = 3,
+		speciality = "鎖定",
+		range = 65,
+		scatter = "14°",
+		ambush_extra = 0,
+		value_2 = 25,
+		icon = "7200",
+		value_1 = "6 x 3",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		rarity = 4,
+		angle = 360,
+		nationality = 7,
+		ammo = "高爆彈",
+		is_siren = 0,
+		descrip = "說明未填寫",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		weapon_id = {
+			7240
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			4,
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"DD",
+			"MG",
+			"HE"
+		}
+	},
+	[7241] = {
+		value_1 = "7 x 3",
+		id = 7241,
+		base = 7240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7241
+		},
+		property_rate = {}
+	},
+	[7242] = {
+		value_1 = "8 x 3",
+		id = 7242,
+		base = 7240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7242
+		},
+		property_rate = {}
+	},
+	[7243] = {
+		value_1 = "9 x 3",
+		id = 7243,
+		base = 7240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7243
+		},
+		property_rate = {}
+	},
+	[7244] = {
+		value_1 = "10 x 3",
+		id = 7244,
+		base = 7240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7244
+		},
+		property_rate = {}
+	},
+	[7245] = {
+		value_1 = "11 x 3",
+		id = 7245,
+		base = 7240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7245
+		},
+		property_rate = {}
+	},
+	[7246] = {
+		value_1 = "12 x 3",
+		id = 7246,
+		base = 7240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7246
+		},
+		property_rate = {}
+	},
+	[7247] = {
+		value_1 = "13 x 3",
+		id = 7247,
+		base = 7240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7247
+		},
+		property_rate = {}
+	},
+	[7248] = {
+		value_1 = "14 x 3",
+		id = 7248,
+		base = 7240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7248
+		},
+		property_rate = {}
+	},
+	[7249] = {
+		value_1 = "15 x 3",
+		id = 7249,
+		base = 7240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7249
+		},
+		property_rate = {}
+	},
+	[7250] = {
+		value_1 = "17 x 3",
+		id = 7250,
+		base = 7240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			7250
+		},
+		property_rate = {}
+	},
 	[7300] = {
 		name = "試作型三聯裝203mm艦炮",
 		type = 3,
@@ -47661,6 +48006,49 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[71181] = {
+		name = "全弹发射-格罗斯特级I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		ammo = "无",
+		descrip = "技能弹幕",
+		value_3 = 0,
+		id = 71181,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			71181
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[71182] = {
+		id = 71182,
+		name = "全弹发射-格罗斯特级II",
+		base = 71181,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			71182
+		},
+		property_rate = {}
+	},
 	[71211] = {
 		name = "全彈發射-倫敦級I",
 		type = 1,
@@ -51576,6 +51964,49 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[79491] = {
+		name = "专属弹幕-黛朵I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		ammo = "无",
+		descrip = "技能弹幕",
+		value_3 = 0,
+		id = 79491,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			79491
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[79492] = {
+		id = 79492,
+		name = "专属弹幕-黛朵II",
+		base = 79491,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			79492
+		},
+		property_rate = {}
+	},
 	[100000] = {
 		name = "裝備模板",
 		type = 0,
@@ -52401,6 +52832,28 @@ pg.equip_data_statistics = {
 		7144,
 		7145,
 		7146,
+		7200,
+		7201,
+		7202,
+		7203,
+		7220,
+		7221,
+		7222,
+		7223,
+		7224,
+		7225,
+		7226,
+		7240,
+		7241,
+		7242,
+		7243,
+		7244,
+		7245,
+		7246,
+		7247,
+		7248,
+		7249,
+		7250,
 		7300,
 		7301,
 		7302,
@@ -54856,6 +55309,8 @@ pg.equip_data_statistics = {
 		71162,
 		71171,
 		71172,
+		71181,
+		71182,
 		71211,
 		71212,
 		71221,
@@ -55038,6 +55493,8 @@ pg.equip_data_statistics = {
 		79472,
 		79481,
 		79482,
+		79491,
+		79492,
 		100000,
 		800000,
 		800001,

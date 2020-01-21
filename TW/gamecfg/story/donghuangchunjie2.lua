@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"闹腾嬉戏东煌春节\n\n<size=45>二 旧仓库的新发现</size>",
+					"鬧騰嬉戲東煌春節\n\n<size=45>二 舊倉庫的新發現</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-chunjie",
-			say = "港区·学院广场",
+			say = "港區·學院廣場",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			actor = 501041,
 			nameColor = "#a9f548",
-			say = "呜…抚顺姐，我们到底要去哪里找火药呀？",
+			say = "嗚…撫順姐，我們到底要去哪裡找火藥呀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			say = "这个嘛，其实我也不知道啦~总之先找人问问吧！",
+			say = "這個嘛，其實我也不知道啦~總之先找人問問吧！",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算要问，也要有知道的人…嗯？那是……",
+			say = "就算要問，也要有知道的人…嗯？那是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呀吼~{namecode:6}酱，拉菲酱~这边的是新的小伙伴吗？",
+			say = "呀吼~{namecode:6}醬，拉菲醬~這邊的是新的小夥伴嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			dir = 1,
 			actor = 301054,
 			actorName = "{namecode:6}",
-			say = "重樱的伙伴，{namecode:32}，抚顺应该是第一次见。",
+			say = "重櫻的夥伴，{namecode:32}，撫順應該是第一次見。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			actor = 301262,
 			actorName = "{namecode:32}",
-			say = "啊，初次见面，我是{namecode:32}，请、请多指教……",
+			say = "啊，初次見面，我是{namecode:32}，請、請多指教……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你好你好~咦？突然发现，大家都换上了新衣服诶～还是我们东煌风格的！",
+			say = "你好你好~咦？突然發現，大家都換上了新衣服欸～還是我們東煌風格的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			actor = 501041,
 			nameColor = "#a9f548",
-			say = "{namecode:6}、拉菲和{namecode:32}的新衣服都好可爱…",
+			say = "{namecode:6}、拉菲和{namecode:32}的新衣服都好可愛…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			actor = 301262,
 			actorName = "{namecode:32}",
-			say = "这个是大家一起做的…",
+			say = "這個是大家一起做的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，{namecode:6}和大家…花了好久的时间，才做出来的",
+			say = "嗯，{namecode:6}和大家…花了好久的時間，才做出來的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			actor = 301054,
 			actorName = "{namecode:6}",
-			say = "虽然比预想的花了更多时间…不过还是赶上了东煌的春节，问题不大…的说。",
+			say = "雖然比預想的花了更多時間…不過還是趕上了東煌的春節，問題不大…的說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真好呀真好呀～哦，对了对了，正有点事情想问你们",
+			say = "真好呀真好呀～哦，對了對了，正有點事情想問你們",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们正在寻找能制作爆竹的火药呢，你们知道哪里有嘛～？",
+			say = "我們正在尋找能製作爆竹的火藥呢，你們知道哪裡有嘛～？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			actor = 301054,
 			actorName = "{namecode:6}",
-			say = "…火药的话，之前祭典做烟花用的…应该还有，就在旧仓库…的说",
+			say = "…火藥的話，之前祭典做煙花用的…應該還有，就在舊倉庫…的說",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			actor = 501020,
 			nameColor = "#a9f548",
-			say = "哦哦！旧仓库吗！嘿嘿嘿，没想到真的这么顺利就找到了～",
+			say = "哦哦！舊倉庫嗎！嘿嘿嘿，沒想到真的這麼順利就找到了～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			actor = 101173,
 			nameColor = "#a9f548",
-			say = "爆竹…是什么？",
+			say = "爆竹…是什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是好玩的东西哦～点起来以后就会“噼里啪啦砰砰”的哦！",
+			say = "是好玩的東西哦～點起來以後就會“劈裡啪啦砰砰”的哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			actor = 301054,
 			actorName = "{namecode:6}",
-			say = "火药危险…的说，不过，小心点的话…",
+			say = "火藥危險…的說，不過，小心點的話…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			actor = 301262,
 			actorName = "{namecode:32}",
-			say = "旧、旧仓库吗…那我就先回去了，姐姐还在等我，而且旧仓库那里总有些阴森森的，有些可怕…",
+			say = "舊、舊倉庫嗎…那我就先回去了，姐姐還在等我，而且舊倉庫那裡總有些陰森森的，有些可怕…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			actor = 301054,
 			actorName = "{namecode:6}",
-			say = "路上要注意安全……的说。",
+			say = "路上要注意安全……的說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "港区·旧仓库",
+			say = "港區·舊倉庫",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -451,7 +451,7 @@ return {
 			dir = 1,
 			actor = 301054,
 			actorName = "{namecode:6}",
-			say = "…找到了，在这里",
+			say = "…找到了，在這裡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶嘿嘿，鞭炮材料导到手啦~接下来就是——",
+			say = "欸嘿嘿，鞭炮材料導到手啦~接下來就是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拉菲找到了这个，强手棋……？",
+			say = "拉菲找到了這個，強手棋……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			dir = 1,
 			actor = 301054,
 			actorName = "{namecode:6}",
-			say = "这个棋盘…{namecode:6}之前好像见过，是“双六”…的说？",
+			say = "這個棋盤…{namecode:6}之前好像見過，是“雙六”…的說？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么什么？让我看看让我看看——",
+			say = "什麼什麼？讓我看看讓我看看——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			actor = 501020,
 			nameColor = "#a9f548",
-			say = "诶？这个不是“大富翁”的棋盘嘛！",
+			say = "欸？這個不是“大富翁”的棋盤嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 101173,
-			actorName = "抚顺&拉菲&{namecode:6}",
+			actorName = "撫順&拉菲&{namecode:6}",
 			say = "……",
 			subActors = {
 				{
@@ -591,7 +591,7 @@ return {
 			dir = 1,
 			actor = 501041,
 			nameColor = "#a9f548",
-			say = "那、那要不要大家一起玩这个，鞭炮什么的就——",
+			say = "那、那要不要大家一起玩這個，鞭炮什麼的就——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			dir = 1,
 			actor = 501020,
 			nameColor = "#a9f548",
-			say = "那就做完鞭炮以后再一起来玩这个吧！嘿嘿，游戏我可是很擅长的呢～",
+			say = "那就做完鞭炮以後再一起來玩這個吧！嘿嘿，遊戲我可是很擅長的呢～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -661,7 +661,7 @@ return {
 			blackBg = true,
 			actor = 501041,
 			nameColor = "#a9f548",
-			say = "诶，诶诶诶！？——",
+			say = "欸，欸欸欸！？——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
