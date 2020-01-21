@@ -21,8 +21,8 @@ return {
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			bgName = "star_level_bg_128",
-			bgm = "newyear2",
+			bgName = "star_level_bg_127",
+			bgm = "story-china",
 			actor = 399013,
 			nameColor = "#a9f548",
 			say = "Everyone around the port must be busy making their preparations for the Spring Festival...",
@@ -55,7 +55,7 @@ return {
 		{
 			actor = 399013,
 			side = 2,
-			bgName = "star_level_bg_128",
+			bgName = "star_level_bg_127",
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "Come nighttime, the skies will be showered in the red and white sparks of fireworks...",
@@ -71,25 +71,15 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			bgName = "star_level_bg_127",
 			dir = 1,
-			bgName = "star_level_bg_128",
 			actor = 101431,
 			nameColor = "#a9f548",
 			say = "ACHOO!",
-			flashout = {
-				dur = 0.15,
-				alpha = {
-					0,
-					1
-				}
-			},
-			flashin = {
-				delay = 0.2,
-				dur = 0.2,
-				alpha = {
-					1,
-					0
-				}
+			dialogShake = {
+				speed = 0.09,
+				x = 8.5,
+				number = 2
 			},
 			typewriter = {
 				speed = 0.05,
@@ -103,7 +93,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_128",
+			bgName = "star_level_bg_127",
 			dir = 1,
 			actor = 399013,
 			nameColor = "#a9f548",
@@ -130,7 +120,7 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_128",
+			bgName = "star_level_bg_127",
 			dir = 1,
 			actor = 101431,
 			nameColor = "#a9f548",
@@ -147,7 +137,7 @@ return {
 		{
 			actor = 399013,
 			side = 2,
-			bgName = "star_level_bg_128",
+			bgName = "star_level_bg_127",
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "No, not at all... I'm sorry, but I must ask, what are you doing up there?",
@@ -163,7 +153,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_128",
+			bgName = "star_level_bg_127",
 			dir = 1,
 			actor = 101431,
 			nameColor = "#a9f548",
@@ -180,7 +170,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_128",
+			bgName = "star_level_bg_127",
 			dir = 1,
 			actor = 102251,
 			nameColor = "#a9f548",
@@ -197,7 +187,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_128",
+			bgName = "star_level_bg_127",
 			dir = 1,
 			actor = 101431,
 			nameColor = "#a9f548",
@@ -209,12 +199,22 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
+			},
+			action = {
+				{
+					y = 0,
+					type = "shake",
+					delay = 0,
+					dur = 0.4,
+					x = 30,
+					number = 2
+				}
 			}
 		},
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_128",
+			bgName = "star_level_bg_127",
 			dir = 1,
 			actor = 102251,
 			nameColor = "#a9f548",
@@ -231,7 +231,7 @@ return {
 		{
 			actor = 399013,
 			side = 2,
-			bgName = "star_level_bg_128",
+			bgName = "star_level_bg_127",
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "A lucky star? Why do you call yourself that?",
@@ -247,7 +247,7 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_128",
+			bgName = "star_level_bg_127",
 			dir = 1,
 			actor = 101431,
 			nameColor = "#a9f548",
@@ -264,7 +264,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_128",
+			bgName = "star_level_bg_127",
 			dir = 1,
 			actor = 102251,
 			nameColor = "#a9f548",
@@ -281,7 +281,7 @@ return {
 		{
 			actor = 399013,
 			side = 2,
-			bgName = "star_level_bg_128",
+			bgName = "star_level_bg_127",
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "Would you like me to assist you?",
@@ -295,11 +295,11 @@ return {
 			}
 		},
 		{
-			actor = 101431,
 			side = 2,
-			bgName = "star_level_bg_128",
-			nameColor = "#a9f548",
+			bgName = "star_level_bg_127",
 			dir = 1,
+			actor = 101431,
+			nameColor = "#a9f548",
 			say = "You wanna help?! Thanks, we could use it!",
 			typewriter = {
 				speed = 0.05,
@@ -308,16 +308,26 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
 			}
 		},
 		{
 			side = 2,
-			bgName = "bg_story_school",
+			bgName = "bg_night",
 			dir = 1,
 			hideOther = true,
 			say = "Meanwhile, in the shopping district...",
 			flashout = {
-				dur = 1,
+				dur = 0.5,
 				black = true,
 				alpha = {
 					0,
@@ -326,7 +336,7 @@ return {
 			},
 			flashin = {
 				delay = 1,
-				dur = 1,
+				dur = 0.5,
 				black = true,
 				alpha = {
 					1,
@@ -345,7 +355,7 @@ return {
 		{
 			actor = 312010,
 			side = 2,
-			bgName = "bg_story_school",
+			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "Come on in, nya! We have a special offer on all Spring Festival goods, nya! And when you're done shopping, try our lucky ball lottery!",
@@ -361,7 +371,7 @@ return {
 		{
 			actor = 502030,
 			side = 2,
-			bgName = "bg_story_school",
+			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "A lottery? Do you have food prizes?",
@@ -377,7 +387,7 @@ return {
 		{
 			actor = 502020,
 			side = 2,
-			bgName = "bg_story_school",
+			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "It's always about food with you... We get one spin for free, right? Then we'll do it just *once*!",
@@ -393,7 +403,7 @@ return {
 		{
 			actor = 502030,
 			side = 2,
-			bgName = "bg_story_school",
+			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "I want that 4th prize, the pack of snacks! Let's see... I spin this thing, right?",
@@ -407,11 +417,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			bgName = "bg_night",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "Hmm? Oh my...! That's the gold ball, nya! You won the 1st prize, nya!",
 			typewriter = {
 				speed = 0.05,
@@ -420,11 +430,21 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
 			}
 		},
 		{
 			side = 2,
-			bgName = "bg_story_school",
+			bgName = "bg_night",
 			dir = 1,
 			actor = 502020,
 			nameColor = "#a9f548",
@@ -449,9 +469,9 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			actor = 312010,
 			side = 2,
-			bgName = "bg_story_school",
+			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "A tour of the Sakura Empire mainland, nya! Congratulations, nya!",
@@ -465,15 +485,26 @@ return {
 			}
 		},
 		{
-			actorName = "Ping Hai & Ning Hai",
-			side = 0,
-			bgName = "bg_story_school",
 			hideOther = true,
+			side = 0,
+			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
+			actorName = "Ping Hai & Ning Hai",
 			actor = 502030,
 			nameColor = "#a9f548",
 			say = "WHAAAAAT?!",
+			dialogShake = {
+				speed = 0.09,
+				x = 8.5,
+				number = 2
+			},
+			effects = {
+				{
+					active = true,
+					name = "speed"
+				}
+			},
 			subActors = {
 				{
 					actor = 502020,
@@ -489,16 +520,6 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
-			},
-			action = {
-				{
-					y = 30,
-					type = "shake",
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
 			}
 		}
 	}
