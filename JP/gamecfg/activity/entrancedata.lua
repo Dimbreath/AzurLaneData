@@ -179,5 +179,16 @@ return {
 		isShow = function ()
 			return getProxy(ActivityProxy):getActivityById(ActivityConst.NEWYEAR_ACTIVITY) and not slot0:isEnd()
 		end
+	},
+	{
+		banner = "activity_redpacket",
+		event = ActivityMediator.OPEN_RED_PACKET_LAYER,
+		data = {},
+		isShow = function ()
+			return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_RED_PACKETS) and not slot0:isEnd()
+		end,
+		isTip = function ()
+			return RedPacketLayer.isShowRedPoint()
+		end
 	}
 }

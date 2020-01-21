@@ -580,6 +580,36 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[202100] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		id = 202100,
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = "",
+		detail = "",
+		feeling5 = {
+			{
+				1100,
+				"優秀なご主人様のこと、誇らしく思います。ご安心ください。ご主人様が間違いを起こさないよう、指摘して、監督して……ご主人様、なんでも私にお任せください"
+			}
+		}
+	},
 	all = {
 		999010,
 		801040,
@@ -591,7 +621,8 @@ pg.ship_skin_words_extra = {
 		301091,
 		305140,
 		306070,
-		301260
+		301260,
+		202100
 	}
 }
 

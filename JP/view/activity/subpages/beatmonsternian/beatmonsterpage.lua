@@ -1,5 +1,13 @@
 slot0 = class("BeatMonsterPage", import("....base.BaseActivityPage"))
 
+function slot0.OnInit(slot0)
+	slot0.bg = slot0:findTF("AD")
+end
+
+function slot0.OnFirstFlush(slot0)
+	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
+end
+
 function slot0.OnUpdateFlush(slot0)
 	slot0:Show()
 
@@ -9,7 +17,9 @@ function slot0.OnUpdateFlush(slot0)
 		slot0.controller = BeatMonsterController.New()
 
 		slot0.controller.mediator:SetUI(slot0._go)
-		slot0.controller:SetUp(slot2)
+		slot0.controller:SetUp(slot2, function (slot0)
+			slot0:emit(ActivityMainScene.LOCK_ACT_MAIN, slot0)
+		end)
 	else
 		slot0.controller:NetData(slot2)
 	end

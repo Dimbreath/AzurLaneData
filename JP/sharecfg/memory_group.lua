@@ -1413,6 +1413,31 @@ pg.memory_group = {
 			1095
 		}
 	},
+	[179] = {
+		title = "戦え！ロイヤルメイド2nd",
+		type = 2,
+		id = 179,
+		icon = "title_event",
+		memories = {
+			1096,
+			1097,
+			1098,
+			1099,
+			1100
+		}
+	},
+	[180] = {
+		title = "新春パーティー",
+		type = 2,
+		id = 180,
+		icon = "title_event",
+		memories = {
+			1101,
+			1102,
+			1103,
+			1104
+		}
+	},
 	[201] = {
 		title = "『装甲騎兵ボトムズ』コラボシナリオ",
 		type = 2,
@@ -1667,7 +1692,7 @@ pg.memory_group = {
 		}
 	},
 	[517] = {
-		title = " ジュルネ・シュルクーフ！",
+		title = "ジュルネ・シュルクーフ！",
 		type = 3,
 		id = 517,
 		icon = "title_chara_xukufu",
@@ -2183,6 +2208,8 @@ pg.memory_group = {
 		176,
 		177,
 		178,
+		179,
+		180,
 		201,
 		501,
 		502,
