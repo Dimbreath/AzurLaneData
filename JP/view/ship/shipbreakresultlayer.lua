@@ -101,8 +101,7 @@ function slot0.updateStatistics(slot0)
 		setImageSprite(slot0._tf, slot0, false)
 	end)
 
-	slot17 = (slot1.propose and 1000) or 0
-	slot17, slot18, slot22 = ShipWordHelper.GetWordAndCV(slot1.skinId, ShipWordHelper.WORD_TYPE_UPGRADE, nil, nil, slot1:getIntimacy() / 100)
+	slot17, slot18, slot22 = ShipWordHelper.GetWordAndCV(slot1.skinId, ShipWordHelper.WORD_TYPE_UPGRADE, nil, nil, slot16)
 
 	setWidgetText(slot0._chat, slot19)
 

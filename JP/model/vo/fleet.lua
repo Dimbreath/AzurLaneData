@@ -303,13 +303,19 @@ end
 function slot0.insertShip(slot0, slot1, slot2, slot3)
 	if slot3 == TeamType.Vanguard then
 		table.insert(slot0.vanguardShips, slot2 or #slot0.vanguardShips + 1, slot1.id)
+
+		if table.indexof(slot0.ships, slot0.mainShips[1]) then
+			table.insert(slot0.ships, slot4, slot1.id)
+		else
+			table.insert(slot0.ships, slot1.id)
+		end
 	elseif slot3 == TeamType.Main then
 		table.insert(slot0.mainShips, slot2 or #slot0.mainShips + 1, slot1.id)
+		table.insert(slot0.ships, slot1.id)
 	elseif slot3 == TeamType.Submarine then
 		table.insert(slot0.subShips, slot2 or #slot0.subShips + 1, slot1.id)
+		table.insert(slot0.ships, slot1.id)
 	end
-
-	table.insert(slot0.ships, slot1.id)
 end
 
 function slot0.canRemove(slot0, slot1)

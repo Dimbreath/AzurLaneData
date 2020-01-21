@@ -3,17 +3,19 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 1,
-		pic = "temp5",
+		pic = "temp1",
 		param = {
-			"scene skinshop",
-			{}
+			"scene charge",
+			{
+				wrap = 4
+			}
 		},
 		time = {
 			{
 				{
 					2020,
 					1,
-					16
+					21
 				},
 				{
 					0,
@@ -24,8 +26,8 @@ pg.activity_banner = {
 			{
 				{
 					2020,
-					1,
-					21
+					2,
+					5
 				},
 				{
 					23,
@@ -38,9 +40,9 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 2,
-		pic = "temp2",
+		pic = "temp6",
 		param = {
-			"scene level",
+			"scene skinshop",
 			{}
 		},
 		time = {
@@ -48,7 +50,7 @@ pg.activity_banner = {
 				{
 					2020,
 					1,
-					17
+					21
 				},
 				{
 					0,
@@ -59,8 +61,148 @@ pg.activity_banner = {
 			{
 				{
 					2020,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 3,
+		pic = "temp8",
+		param = {
+			"scene get boat",
+			{
+				projectName = "light"
+			}
+		},
+		time = {
+			{
+				{
+					2020,
 					1,
-					26
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 4,
+		pic = "temp7",
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 5,
+		pic = "temp3",
+		param = {
+			"scene back yard"
+		},
+		time = {
+			{
+				{
+					2020,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "474",
+		type = 3,
+		id = 6,
+		pic = "temp4",
+		time = {
+			{
+				{
+					2020,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					6
 				},
 				{
 					23,
@@ -72,7 +214,11 @@ pg.activity_banner = {
 	},
 	all = {
 		1,
-		2
+		2,
+		3,
+		4,
+		5,
+		6
 	}
 }
 

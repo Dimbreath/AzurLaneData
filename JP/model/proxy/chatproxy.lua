@@ -1,35 +1,47 @@
 slot0 = class("ChatProxy", import(".NetProxy"))
 slot0.NEW_MSG = "ChatProxy public msg"
 
-function slot0.InjectPublic(slot0, slot1)
+function slot0.InjectPublic(slot0, slot1, slot2)
 	if slot1.id == 0 then
 		slot0.text = (slot1.args[1] and slot1.args[1].string) or ""
 
 		return
 	end
 
-	slot2 = i18n("ad_" .. slot1.id)
+	slot3 = i18n("ad_" .. slot1.id)
 
-	for slot6 = 1, #slot1.args, 1 do
-		slot8 = nil
+	for slot7 = 1, #slot1.args, 1 do
+		slot9 = nil
 
-		if slot1.args[slot6].type == PublicArg.TypePlayerName then
-			slot8 = slot7.string
-		elseif slot7.type == PublicArg.TypeShipId then
-			slot0:AddSprite(slot10, slot11)
+		if slot1.args[slot7].type == PublicArg.TypePlayerName then
+			slot9 = slot8.string
+		elseif slot8.type == PublicArg.TypeShipId then
+			slot0:AddSprite(slot11, slot12)
 
-			slot2 = string.gsub(slot2, "shipcolor" .. slot6, ShipRarity.Rarity2HexColor(pg.ship_data_statistics[slot7.int].rarity))
-			slot8 = pg.ship_data_statistics[slot7.int].name
+			slot3 = string.gsub(slot3, "shipcolor" .. slot7, ShipRarity.Rarity2HexColor(pg.ship_data_statistics[slot8.int].rarity))
+			slot9 = pg.ship_data_statistics[slot8.int].name
 
-			if pg.ship_data_statistics[slot7.int].rarity == ShipRarity.SSR then
-				slot8 = ShipRarity.SSRGradient(slot8)
+			if slot2 then
+				slot14 = false
+
+				if PLATFORM_CODE == PLATFORM_JP then
+					slot14, slot9 = contentWrap(slot9, 18, 1.65)
+				end
+
+				if slot14 then
+					slot9 = slot9 .. "..." or slot9
+				end
+			end
+
+			if slot10.rarity == ShipRarity.SSR then
+				slot9 = ShipRarity.SSRGradient(slot9)
 			end
 		else
-			slot2 = string.gsub(slot2, "$" .. slot6, (slot7.type ~= PublicArg.TypeEquipId or pg.equip_data_statistics[slot7.int].name) and (slot7.type ~= PublicArg.TypeItemId or pg.item_data_statistics[slot7.int].name) and (slot7.type ~= PublicArg.TypeNums or slot7.int) and slot7.string)
+			slot3 = string.gsub(slot3, "$" .. slot7, (slot8.type ~= PublicArg.TypeEquipId or pg.equip_data_statistics[slot8.int].name) and (slot8.type ~= PublicArg.TypeItemId or pg.item_data_statistics[slot8.int].name) and (slot8.type ~= PublicArg.TypeNums or slot8.int) and slot8.string)
 		end
 	end
 
-	slot0.text = slot2
+	slot0.text = slot3
 end
 
 function slot0.register(slot0)

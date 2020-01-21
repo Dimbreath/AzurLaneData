@@ -8014,6 +8014,58 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[40909] = {
+		display = "ランダムに旧正月2020シリーズの着せ替え衣装、上級指向型強化ユニット・二期目×2、ダイヤ×2020、メンタルユニット×50、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
+		rarity = 4,
+		type = 5,
+		name = "春節福袋2020",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 40909,
+		icon = "Props/fudai2",
+		display_icon = {
+			{
+				2,
+				69909,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[41001] = {
 		display = "明石からのバレンタインプレゼント",
 		rarity = 8,
@@ -19273,17 +19325,17 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "甘口？辛口？好みは人それぞれ…<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
+		display = "東煌で有名な食べ物<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
 		rarity = 2,
 		type = 3,
-		name = "海軍カレー",
+		name = "水餃子",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		virtual_type = 0,
 		replace_item = 0,
 		link_id = 0,
 		id = 50004,
-		icon = "Props/haijungali",
+		icon = "Props/dumpling",
 		display_icon = {},
 		price = {
 			1,
@@ -73933,6 +73985,132 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[57763] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		rarity = 1,
+		type = 99,
+		name = "ランダム設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57763,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				6,
+				1
+			},
+			{
+				2,
+				13,
+				1
+			},
+			{
+				2,
+				47,
+				1
+			},
+			{
+				2,
+				10036,
+				1
+			},
+			{
+				2,
+				10042,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57764] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		rarity = 1,
+		type = 99,
+		name = "ランダム設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57764,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10002,
+				1
+			},
+			{
+				2,
+				10024,
+				1
+			},
+			{
+				2,
+				10036,
+				1
+			},
+			{
+				2,
+				10042,
+				1
+			},
+			{
+				2,
+				10093,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57765] = {
+		display = "一定の確率で下記の設計図を入手できます",
+		rarity = 1,
+		type = 99,
+		name = "ランダム設計図",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57765,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10002,
+				1
+			},
+			{
+				2,
+				10024,
+				1
+			},
+			{
+				2,
+				10036,
+				1
+			},
+			{
+				2,
+				10042,
+				1
+			},
+			{
+				2,
+				13010,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[57770] = {
 		display = "一定の確率で下記の設計図を入手できます",
 		rarity = 1,
@@ -80585,6 +80763,166 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59960] = {
+		display = "絵の具A",
+		rarity = 2,
+		type = 0,
+		name = "絵の具A",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 471,
+		id = 59960,
+		icon = "props/draw_a",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59961] = {
+		display = "絵の具B",
+		rarity = 2,
+		type = 0,
+		name = "絵の具B",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 471,
+		id = 59961,
+		icon = "props/draw_b",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59962] = {
+		display = "絵の具C",
+		rarity = 2,
+		type = 0,
+		name = "絵の具C",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 471,
+		id = 59962,
+		icon = "props/draw_c",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59963] = {
+		display = "絵の具D",
+		rarity = 2,
+		type = 0,
+		name = "絵の具D",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 471,
+		id = 59963,
+		icon = "props/draw_d",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59964] = {
+		display = "絵の具E",
+		rarity = 2,
+		type = 0,
+		name = "絵の具E",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 471,
+		id = 59964,
+		icon = "props/draw_e",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59965] = {
+		display = "絵の具F",
+		rarity = 2,
+		type = 0,
+		name = "絵の具F",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 471,
+		id = 59965,
+		icon = "props/draw_f",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59966] = {
+		display = "絵の具G",
+		rarity = 2,
+		type = 0,
+		name = "絵の具G",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 471,
+		id = 59966,
+		icon = "props/draw_g",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59967] = {
+		display = "イベント「戦え！ロイヤルメイド隊2nd」で得られるイベントポイント。イベントバナーで「累計Pt報酬」を入手可能",
+		rarity = 2,
+		type = 98,
+		name = "演習Pt",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59967,
+		icon = "Props/nvpu2_pt",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59968] = {
+		display = "「戦え！ロイヤルメイド隊2nd」EXステージ出撃、もしくはボーナス出撃回数回復時に使用可能",
+		rarity = 4,
+		type = 98,
+		name = "特別戦闘券",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59968,
+		icon = "Props/nvpu_ticket",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59969] = {
+		display = "7つ集めると、「母港春節」の「スタンプ」で駆逐艦「浦波」を入手可能！",
+		rarity = 2,
+		type = 0,
+		name = "スタンプ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59969,
+		icon = "props/chunjiedaka",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[60001] = {
 		display = "0",
 		rarity = 3,
@@ -80661,6 +80999,22 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 60012,
 		icon = "Props/54003",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60021] = {
+		display = "「饅頭の年玉」で開封可能",
+		rarity = 2,
+		type = 0,
+		name = "年玉",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 11,
+		replace_item = 0,
+		link_id = 479,
+		id = 60021,
+		icon = "props/red_packet2",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -80878,6 +81232,40 @@ pg.item_data_statistics = {
 		replace_item = 0,
 		link_id = 0,
 		id = 69908,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69909] = {
+		display = [[
+下記の着せ替えをランダム入手できます。（すでに所持している場合、購入時に消費した分の無償ダイヤに変換されます）
+各衣装の出現割合：
+（<color=#92fc63>7.5%</color>）吾妻：語らいの春霞（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>7.5%</color>）雪風：冬のユキカゼ（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>7.5%</color>）大鳳：春の暁に鳳歌う（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>6.6%</color>）シリアス：青雲映す碧波；
+（<color=#92fc63>6.6%</color>）スウィフトシュア：白玉の佳麗；
+（<color=#92fc63>6.6%</color>）伊吹：桃符を執りて；
+（<color=#92fc63>6.6%</color>）イラストリアス：オトメユリの輝き；
+（<color=#92fc63>5.7%</color>）ドイッチュラント：燈華の支配者；
+（<color=#92fc63>5.7%</color>）ブラック・プリンス：フェアメイド・スプリング；
+（<color=#92fc63>5.7%</color>）比叡：垂香の紅梅；
+（<color=#92fc63>5.7%</color>）ビロクシ：麗人ギャング；
+（<color=#92fc63>5.7%</color>）グロスター：ピオレ・ブリリアント；
+（<color=#92fc63>5.7%</color>）シャルンホルスト：パンツァープフラオメ；
+（<color=#92fc63>5.7%</color>）ハルシー・パウエル：新春のラッキースター！；
+（<color=#92fc63>5.6%</color>）平海：グルメ大遠征in重桜；
+（<color=#92fc63>5.6%</color>）寧海：新年旅行in重桜；]],
+		rarity = 4,
+		type = 98,
+		name = "ランダム衣装（旧正月2020）",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69909,
 		icon = "Props/clothIcon",
 		display_icon = {},
 		price = {},
@@ -82015,6 +82403,7 @@ pg.item_data_statistics = {
 		40906,
 		40907,
 		40908,
+		40909,
 		41001,
 		41002,
 		41003,
@@ -83298,6 +83687,9 @@ pg.item_data_statistics = {
 		57760,
 		57761,
 		57762,
+		57763,
+		57764,
+		57765,
 		57770,
 		57771,
 		57772,
@@ -83578,11 +83970,22 @@ pg.item_data_statistics = {
 		59952,
 		59953,
 		59954,
+		59960,
+		59961,
+		59962,
+		59963,
+		59964,
+		59965,
+		59966,
+		59967,
+		59968,
+		59969,
 		60001,
 		60002,
 		60003,
 		60011,
 		60012,
+		60021,
 		69901,
 		69902,
 		69903,
@@ -83591,6 +83994,7 @@ pg.item_data_statistics = {
 		69906,
 		69907,
 		69908,
+		69909,
 		70000,
 		70001,
 		70002,

@@ -130,8 +130,10 @@ function slot0.register(slot0)
 		slot2 = getProxy(ContextProxy)
 
 		if slot0 == SYSTEM_ACT_BOSS then
-			if slot2:getContextByMediator(ActivityBossBattleMediator3) then
-				slot3:removeChild(slot3:getContextByMediator(PreCombatMediator))
+			slot3, slot4 = slot2:getContextByMediator(PreCombatMediator)
+
+			if slot3 then
+				slot4:removeChild(slot3)
 			end
 		elseif slot0 == SYSTEM_ROUTINE or slot0 == SYSTEM_SUB_ROUTINE then
 			if slot2:getContextByMediator(DailyLevelMediator) then
@@ -190,8 +192,10 @@ function slot0.register(slot0)
 				slot7:removeChild(slot7:getContextByMediator(ChallengePreCombatMediator))
 			end
 		elseif slot0 == SYSTEM_HP_SHARE_ACT_BOSS then
-			if slot2:getContextByMediator(ActivityBossBattleMediator3):getContextByMediator(PreCombatMediator) then
-				slot3:removeChild(slot4)
+			slot3, slot4 = slot2:getContextByMediator(PreCombatMediator)
+
+			if slot3 then
+				slot4:removeChild(slot3)
 			end
 		elseif slot2:getContextByMediator(LevelMediator2) then
 			slot3:removeChild(slot3:getContextByMediator(PreCombatMediator))

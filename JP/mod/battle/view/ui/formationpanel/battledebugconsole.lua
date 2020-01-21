@@ -214,9 +214,7 @@ function ys.Battle.BattleDebugConsole.initComponent(slot0)
 	slot0._white = slot0._base:Find("white_button")
 
 	onButton(nil, slot0._white, function ()
-		for slot3, slot4 in pairs(slot0._dataProxy._foeShipList) do
-			slot4:UpdateHP(-10000, {})
-		end
+		slot0._dataProxy._fleetList[1]._scoutList[1]:UpdateHP(-1000, {})
 	end, SFX_PANEL)
 	SetActive(slot0._white, true)
 end

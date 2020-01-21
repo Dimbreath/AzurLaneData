@@ -21,8 +21,8 @@ function slot0.GetLasterUpdateTime(slot0)
 
 	slot2(slot0.time)
 
-	for slot6, slot7 in pairs(slot0.replyList) do
-		slot2(slot7.time)
+	for slot7, slot8 in pairs(slot3) do
+		slot2(slot8.time)
 	end
 
 	table.sort(slot1, function (slot0, slot1)
@@ -51,9 +51,9 @@ function slot0.GetFasterRefreshTime(slot0)
 		table.insert(slot1, slot0.time)
 	end
 
-	for slot5, slot6 in ipairs(slot0.replyList) do
-		if slot6:ShouldWaitForShow() then
-			table.insert(slot1, slot6.time)
+	for slot6, slot7 in ipairs(slot2) do
+		if slot7:ShouldWaitForShow() then
+			table.insert(slot1, slot7.time)
 		end
 	end
 
@@ -67,7 +67,7 @@ function slot0.GetFasterRefreshTime(slot0)
 end
 
 function slot0.AnyReplyTimeOut(slot0)
-	return _.any(slot0.replyList, function (slot0)
+	return _.any(slot0:GetAllReplys(), function (slot0)
 		return slot0:TimeOutAndTxtIsEmpty()
 	end) or slot0:TimeOutAndTxtIsEmpty()
 end
@@ -88,13 +88,26 @@ function slot0.GetReplyList(slot0)
 	return slot0.replyList
 end
 
+function slot0.GetAllReplys(slot0)
+	slot2 = nil
+
+	function (slot0)
+		for slot4, slot5 in ipairs(slot0) do
+			slot0(slot5.replyList)
+			table.insert(slot1, slot5)
+		end
+	end(slot0.replyList)
+
+	return {}
+end
+
 function slot0.GetCanDisplayReply(slot0)
 	slot1 = {}
 	slot2 = 0
 
-	for slot6, slot7 in ipairs(slot0.replyList) do
-		if not slot7:ShouldWaitForShow() then
-			table.insert(slot1, slot7)
+	for slot7, slot8 in ipairs(slot3) do
+		if not slot8:ShouldWaitForShow() then
+			table.insert(slot1, slot8)
 
 			slot2 = slot2 + 1
 		end
@@ -108,9 +121,9 @@ function slot0.GetParentCommentName(slot0)
 end
 
 function slot0.HasReply(slot0)
-	return _.any(slot0.replyList, function (slot0)
+	return _.any(slot0:GetAllReplys(), function (slot0)
 		return not slot0:ShouldWaitForShow()
-	end) and #slot0.replyList > 0
+	end) and #slot1 > 0
 end
 
 function slot0.GetContent(slot0)
@@ -128,8 +141,8 @@ end
 function slot0.GetReplyCnt(slot0)
 	slot1 = 0
 
-	for slot5, slot6 in ipairs(slot0.replyList) do
-		if not slot6:ShouldWaitForShow() then
+	for slot6, slot7 in ipairs(slot2) do
+		if not slot7:ShouldWaitForShow() then
 			slot1 = slot1 + 1
 		end
 	end
