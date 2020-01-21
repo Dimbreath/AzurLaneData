@@ -7961,7 +7961,7 @@ $3]],
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "長春、太原、馬拉尼、追趕著、金伯利、庫拉索、杓鷸出現機率UP!",
+		tip = "長春、太原、馬拉尼、追趕者、金伯利、庫拉索、杓鷸出現機率UP!",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {

@@ -131,7 +131,7 @@ pg.activity_template = {
 	},
 	[9] = {
 		mark = 20170406,
-		title_res_tag = "charge_award",
+		title_res_tag = "text_charge_award",
 		time = "always",
 		type = 9,
 		login_pop = 0,
