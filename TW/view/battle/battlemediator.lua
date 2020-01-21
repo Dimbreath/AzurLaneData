@@ -264,6 +264,7 @@ function slot1(slot0, slot1, slot2, slot3)
 		properties = slot1:getProperties(slot2, slot3),
 		proficiency = slot1:getEquipProficiencyList(),
 		rarity = slot1:getRarity(),
+		intimacy = slot1:getCVIntimacy(),
 		shipGS = slot1:getShipCombatPower(),
 		skills = slot5,
 		baseList = slot1:getBaseList(),

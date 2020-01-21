@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"鞍山的绘图日记\n\n<size=45>三　舌尖上的东煌</size>",
+					"鞍山的繪圖日記\n\n<size=45>三　舌尖上的東煌</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-china",
 			actor = 501020,
 			nameColor = "#a9f548",
-			say = "我回来啦！虽然没追上布里们不过…看我带了谁来~",
+			say = "我回來啦！雖然沒追上布里們不過…看我帶了誰來~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			say = "啊，是平海和宁海姐姐~",
+			say = "啊，是平海和寧海姐姐~",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听抚顺说，你们好像在做些挺有趣的事情，就跟着过来看看了",
+			say = "聽撫順說，你們好像在做些挺有趣的事情，就跟著過來看看了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "喂！抚顺，不要给姐姐们添麻烦啊！",
+			say = "喂！撫順，不要給姐姐們添麻煩啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			}
 		},
 		{
-			say = "啊哈哈，鞍山还是这么认真呢",
+			say = "啊哈哈，鞍山還是這麼認真呢",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们给大家带了逸仙蒸的包子~一起吃吧~",
+			say = "我們給大家帶了逸仙蒸的包子~一起吃吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			}
 		},
 		{
-			actorName = "太原&长春&鞍山",
+			actorName = "太原&長春&鞍山",
 			side = 0,
 			bgName = "bg_story_school",
 			actor = 501040,
@@ -174,7 +174,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "逸仙姐姐的包子…好吃…",
+			say = "逸仙姐姐的肉包子…好吃…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊~呜~",
+			say = "啊~嗚~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "逸仙姐姐的厨艺还是一如既往…好吃…",
+			say = "逸仙姐姐的廚藝還是一如既往…好吃…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可没有在夸你呢平海",
+			say = "可沒有在誇你呢平海",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…总觉得好像忘了什么…",
+			say = "嗯…總覺得好像忘了什麼…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "鞍山你们本来不是在做什么有趣的事情吗",
+			say = "鞍山你們本來不是在做什麼有趣的事情嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊！对了！涂色本！",
+			say = "啊！對了！塗色本！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -5,7 +5,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "带领走丢的哈曼找到了约克城，获得了奖励【心智单元*50】",
+			say = "帶領走丟的哈曼找到了約克城，獲得了獎勵【艦艇教材T2*2】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

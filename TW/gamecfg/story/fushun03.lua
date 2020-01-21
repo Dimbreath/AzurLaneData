@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"抚顺的大冒险\n\n<size=45>三　勇者的旅途</size>",
+					"撫順的大冒險\n\n<size=45>三　勇者的旅途</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-china",
 			actor = 312010,
 			actorName = "{namecode:98}",
-			say = "欢迎光临~喵喵？东煌的小妹妹找{namecode:98}有什么事情喵？要买东西喵？",
+			say = "歡迎光臨~喵喵？東煌的小妹妹找{namecode:98}有什麼事情喵？要買東西喵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			say = "哇~这里就是购买部吗~好多看起来很好玩的东西啊~",
+			say = "哇~這裡就是購買部嗎~好多看起來很好玩的東西啊~",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊不对，我不是来买东西的，{namecode:98}{namecode:98}~能帮我看看这个东西嘛~",
+			say = "啊不對，我不是來買東西的，{namecode:98}{namecode:98}~能幫我看看這個東西嗎~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			actorName = "{namecode:98}",
-			say = "这个是…游戏机？",
+			say = "這個是…遊戲機？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好像是！长岛说，修理机械找{namecode:98}就对了~",
+			say = "好像是！長島說，修理機械找{namecode:98}就對了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			actorName = "{namecode:98}",
-			say = "真、真拿你没办法喵…这次就破例给你免费服务好了喵…",
+			say = "真、真拿你沒辦法喵…這次就破例給你免費服務好了喵…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			actorName = "{namecode:98}",
-			say = "我看看喵…还真是古老的机器喵…这里要这样…然后这里再这样……",
+			say = "我看看喵…還真是古老的機器喵…這裡要這樣…然後這裡再這樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			}
 		},
 		{
-			say = "哇~{namecode:98}好厉害~",
+			say = "哇~{namecode:98}好厲害~",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			actorName = "{namecode:98}",
-			say = "虽然零件太古老费了一番功夫，但这点小问题还难不住{namecode:98}喵~",
+			say = "雖然零件太古老費了一番功夫，但這點小問題還難不住{namecode:98}喵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢{namecode:98}~",
+			say = "謝謝{namecode:98}~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			actor = 501020,
 			nameColor = "#a9f548",
-			say = "长春~掌机修好了哟~一起来玩吧~",
+			say = "長春~掌機修好了喲~一起來玩吧~",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -274,7 +274,7 @@ return {
 			}
 		},
 		{
-			say = "还真的修好了啊…",
+			say = "還真的修好了啊…",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -299,7 +299,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，游戏启动~",
+			say = "嘿嘿，遊戲啟動~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我看看…哦哦…还要起名字呢…那就…Fu…shun…",
+			say = "我看看…哦哦…還要起名字呢…那就…撫…順…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抚顺是会在游戏里起自己名字的类型啊…",
+			say = "撫順是會在遊戲裡起自己名字的類型啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，这样才有代入感嘛~",
+			say = "嘿嘿，這樣才有代入感嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好~大勇者抚顺拯救世界的旅程要开始啦~",
+			say = "好~大勇者撫順拯救世界的旅程要開始啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

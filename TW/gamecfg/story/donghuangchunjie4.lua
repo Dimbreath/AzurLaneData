@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"闹腾嬉戏东煌春节\n\n<size=45>四 和平的游戏</size>",
+					"鬧騰嬉戲東煌春節\n\n<size=45>四 和平的遊戲</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "main-chunjie",
 			actor = 501020,
 			nameColor = "#a9f548",
-			say = "来了来了来了！特殊事件”彩票中头奖”，获得大量奖金！！",
+			say = "來了來了來了！特殊事件“彩票中頭獎”，獲得大量獎金！！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			actor = 501041,
 			nameColor = "#a9f548",
-			say = "唔…抚顺姐运气太强了…",
+			say = "唔…撫順姐運氣太強了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抚顺…是强敌…！",
+			say = "撫順…是強敵…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			actor = 301054,
 			actorName = "{namecode:6}",
-			say = "形势已经…无法逆转了…的说",
+			say = "形勢已經…無法逆轉了…的說",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿嘿，抚顺、大获全胜～果然大富翁…额，强手棋？升官图？，总之这游戏很好玩～",
+			say = "嘿嘿嘿，撫順、大獲全勝～果然大富翁…額，強手棋？升官圖？，總之這遊戲很好玩～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "鞍山姐泡了茶，请喝茶吧～",
+			say = "鞍山姐泡了茶，請喝茶吧～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感谢。不过…东煌的春节吗…似乎比我们这边的新年更加受到重视呢",
+			say = "感謝。不過…東煌的春節嗎…似乎比我們這邊的新年更加受到重視呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯啊。过年就可以吃好吃的东西，还不用工作，可以放心用力地偷懒哟",
+			say = "嗯啊。過年就可以吃好吃的東西，還不用工作，可以放心用力地偷懶喲",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			actor = 501041,
 			nameColor = "#a9f548",
-			say = "唔…长春姐姐…虽然好像也没错…不、不过！春节还是有很多其他的事情的！",
+			say = "唔…長春姐姐…雖然好像也沒錯…不、不過！春節還是有很多其他的事情的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比如贴窗花、挂灯笼，贴春联什么的…啊，说起来，里屋的窗花和门外的对联还没贴呢……",
+			say = "比如貼窗花、掛燈籠，貼春聯什麼的…啊，說起來，裡屋的窗花和門外的對聯還沒貼呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就让我们也来帮忙吧～？毕竟喝到了这么好喝的茶，还得到了聚餐的招待～",
+			say = "那就讓我們也來幫忙吧～？畢竟喝到了這麼好喝的茶，還得到了聚餐的招待～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,13 +226,12 @@ return {
 			}
 		},
 		{
-			expression = 2,
+			actor = 107060,
 			side = 2,
 			bgName = "star_level_bg_102",
-			dir = 1,
-			actor = 107060,
 			nameColor = "#a9f548",
-			say = "嗯，请务必让我们帮忙，走吧。",
+			dir = 1,
+			say = "嗯，請務必讓我們幫忙，走吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +245,7 @@ return {
 			bgName = "bg_night",
 			side = 2,
 			dir = 1,
-			say = "港区·广场",
+			say = "港區·廣場",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -280,7 +279,7 @@ return {
 			dir = 1,
 			actor = 202121,
 			nameColor = "#a9f548",
-			say = "承蒙主人的好意，送来这么美丽优雅的服装，不过…",
+			say = "承蒙主人的好意，送來這麼美麗優雅的服裝，不過…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,10 +293,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 206042,
-			nameColor = "#a9f548",
-			say = "果然还是有点让人害羞呢……",
+			actorName = "半人馬",
+			say = "果然還是有點讓人害羞呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			actor = 299022,
 			nameColor = "#a9f548",
-			say = "若是东煌的人们都穿着这样的服装，我们也只要大大方方地穿上就好了不是吗？",
+			say = "若是東煌的人們都穿著這樣的服裝，我們也只要大大方方地穿上就好了不是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们还是走快点吧～还要替主人把这些物资送去东煌宿舍那去呢",
+			say = "我們還是走快點吧～還要替主人把這些物資送去東煌宿舍那去呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			}
 		},
 		{
-			say = "嗯，没有异议，姐姐，我们尽快出发吧",
+			say = "嗯，沒有異議，姐姐，我們盡快出發吧",
 			side = 1,
 			bgName = "bg_night",
 			dir = 1,
@@ -366,7 +366,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也感谢你们的帮忙呢，追赶者、半人马、君主",
+			say = "也感謝你們的幫忙呢，追趕者、半人馬、君主",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,10 +380,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 206042,
-			nameColor = "#a9f548",
-			say = "能帮上前辈们的忙是我的荣幸！",
+			actorName = "半人馬",
+			say = "能幫上前輩們的忙是我的榮幸！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +401,7 @@ return {
 			dir = 1,
 			actor = 299022,
 			nameColor = "#a9f548",
-			say = "哼，不必这么客气",
+			say = "哼，不必這麼客氣",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +417,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，没事，我也正好去找东煌的伙伴们聊聊天～",
+			say = "啊哈哈，沒事，我也正好去找東煌的夥伴們聊聊天～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +435,7 @@ return {
 			blackBg = true,
 			actor = 202121,
 			nameColor = "#a9f548",
-			say = "东煌的新年啊，还真是有些好奇和期待呢——",
+			say = "東煌的新年啊，還真是有些好奇和期待呢——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

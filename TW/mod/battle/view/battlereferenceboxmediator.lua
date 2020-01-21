@@ -153,13 +153,12 @@ end
 
 function slot4.onRemoveUnit(slot0, slot1)
 	slot2 = slot1.Data.type
-	slot3 = slot1.Data.GetUnitType()
 
 	if slot0._unitBoxActive then
 		slot0:removeBox(slot1.Data.UID)
 	end
 
-	if slot0._detailViewActive and slot3 == slot0.UnitType.PLAYER_UNIT then
+	if slot0._detailViewActive and slot2 == slot0.UnitType.PLAYER_UNIT then
 		slot0:removeDetail(slot1.Data.UID)
 	end
 end

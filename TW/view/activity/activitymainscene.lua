@@ -383,6 +383,14 @@ slot1 = {
 		className = "SkinKisaragiPage",
 		uiName = "SkinKisaragiPage"
 	},
+	[ActivityConst.MONOPOLY_2020] = {
+		className = "Monopoly.MonopolyPage",
+		uiName = "MonopolyPage"
+	},
+	[ActivityConst.MUTSUKI_NEWYEAR_SKIN_ID] = {
+		className = "MutsukiNewYearSkinPage",
+		uiName = "MutsukiNewYearSkinPage"
+	},
 	[ActivityConst.MORAN_KR_PT_ID] = {
 		className = "MoranPtPage",
 		uiName = "MoranPtPage"
@@ -398,6 +406,10 @@ slot1 = {
 	[ActivityConst.TEATIME_TW] = {
 		className = "TeaTimePuzzlePage",
 		uiName = "TeaTimePuzzlePage"
+	},
+	[ActivityConst.SPRING_FES_MAIN_TW] = {
+		className = "SpringFesMainPage",
+		uiName = "SpringFesMainPage"
 	}
 }
 slot2 = {

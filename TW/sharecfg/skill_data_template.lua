@@ -33117,6 +33117,28 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[21181] = {
+		desc_get = "",
+		name = "全弹发射I",
+		desc = "主炮每进行12次攻击，触发全弹发射-格罗斯特级I",
+		type = 1,
+		max_level = 1,
+		id = 21181,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[21182] = {
+		desc_get = "",
+		name = "全弹发射II",
+		desc = "主炮每进行8次攻击，触发全弹发射-格罗斯特级II",
+		type = 1,
+		max_level = 1,
+		id = 21182,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[21211] = {
 		desc_get = "",
 		name = "全彈發射I",
@@ -35251,6 +35273,28 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 29482,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29491] = {
+		desc_get = "",
+		name = "专属弹幕-黛朵I",
+		desc = "主炮每进行12次攻击，触发专属弹幕-黛朵I",
+		type = 1,
+		max_level = 1,
+		id = 29491,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29492] = {
+		desc_get = "",
+		name = "专属弹幕-黛朵II",
+		desc = "主炮每进行12次攻击，触发专属弹幕-黛朵II",
+		type = 1,
+		max_level = 1,
+		id = 29492,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -38646,6 +38690,8 @@ pg.skill_data_template = {
 		21162,
 		21171,
 		21172,
+		21181,
+		21182,
 		21211,
 		21212,
 		21221,
@@ -38840,6 +38886,8 @@ pg.skill_data_template = {
 		29472,
 		29481,
 		29482,
+		29491,
+		29492,
 		101010,
 		101020,
 		101030,

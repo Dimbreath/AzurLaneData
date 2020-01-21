@@ -8,6 +8,7 @@ slot0.REMOVE_SHIP = "PreCombatMediator:REMOVE_SHIP"
 slot0.CHANGE_FLEET_SHIPS_ORDER = "PreCombatMediator:CHANGE_FLEET_SHIPS_ORDER"
 slot0.CHANGE_FLEET_SHIP = "PreCombatMediator:CHANGE_FLEET_SHIP"
 slot0.ON_AUTO = "PreCombatMediator:ON_AUTO"
+slot0.ON_SUB_AUTO = "PreCombatMediator:ON_SUB_AUTO"
 
 function slot0.register(slot0)
 	slot1 = getProxy(BayProxy)
@@ -42,6 +43,18 @@ function slot0.register(slot0)
 		slot0.viewComponent:SetCurrentFleet(FleetProxy.PVP_FLEET_ID)
 	elseif slot2 == SYSTEM_HP_SHARE_ACT_BOSS or slot2 == SYSTEM_BOSS_EXPERIMENT or slot2 == SYSTEM_ACT_BOSS then
 		slot0.viewComponent:SetCurrentFleet(slot4[1].id)
+
+		for slot11, slot12 in ipairs(slot4) do
+			if slot12:isSubmarineFleet() and slot12:isLegalToFight() then
+				slot0.viewComponent:SetSubFlag(true)
+
+				break
+			end
+		end
+
+		if pg.activity_event_worldboss[getProxy(ActivityProxy).getActivityById(slot8, slot0.contextData.actID).getConfig(slot9, "config_id")] then
+			slot0.viewComponent:SetTicketItemID(slot11.ticket)
+		end
 	elseif slot2 == SYSTEM_SUB_ROUTINE then
 		slot0.viewComponent:SetStageID(slot0.contextData.stageId)
 		slot0.viewComponent:SetCurrentFleet(slot0.contextData.fleetID)
@@ -55,6 +68,9 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.ON_AUTO, function (slot0, slot1)
 		slot0:onAutoBtn(slot1)
+	end)
+	slot0:bind(slot0.ON_SUB_AUTO, function (slot0, slot1)
+		slot0:onAutoSubBtn(slot1)
 	end)
 	slot0:bind(slot0.CHANGE_FLEET_SHIPS_ORDER, function (slot0, slot1)
 		slot0:refreshEdit(slot1)
@@ -284,6 +300,13 @@ end
 function slot0.onAutoBtn(slot0, slot1)
 	slot0:sendNotification(GAME.AUTO_BOT, {
 		isActiveBot = slot1.isOn,
+		toggle = slot1.toggle
+	})
+end
+
+function slot0.onAutoSubBtn(slot0, slot1)
+	slot0:sendNotification(GAME.AUTO_SUB, {
+		isActiveSub = slot1.isOn,
 		toggle = slot1.toggle
 	})
 end

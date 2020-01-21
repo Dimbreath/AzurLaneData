@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"鞍山的绘图日记\n\n<size=45>二　港区不可思议</size>",
+					"鞍山的繪圖日記\n\n<size=45>二　港區不可思議</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-china",
 			actor = 501010,
 			nameColor = "#a9f548",
-			say = "这里要涂上这个…",
+			say = "這裡要塗上這個…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里是这个颜色…",
+			say = "這裡是這個顏色…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后这里要这样！",
+			say = "然後這裡要這樣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊，抚顺姐姐你又涂歪了",
+			say = "啊啊，撫順姐姐你又塗歪了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			say = "哎呀～差不多就好了嘛～反正差一点影响不大啦～",
+			say = "哎呀～差不多就好了嘛～反正差一點影響不大啦～",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，没点定性…",
+			say = "真是的，沒點定性…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = -1,
 			actor = 100010,
 			nameColor = "#a9f548",
-			say = "purin！哒哒哒哒哒！我跑～今天的港区也没有异常～",
+			say = "purin！噠噠噠噠噠！我跑～今天的港區也沒有異常～",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -157,7 +157,7 @@ return {
 		{
 			side = 1,
 			bgName = "bg_story_school",
-			say = "buli！姐姐今天还是一样精神！不过我也不会输的～",
+			say = "buli！姐姐今天還是一樣精神！不過我也不會輸的～",
 			dir = 1,
 			actor = 100000,
 			nameColor = "#a9f548",
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那、那个是！？",
+			say = "那、那個是！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			}
 		},
 		{
-			say = "“港区不可思议”之一的布里酱？",
+			say = "“港區不可思議”之一的布里醬？",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -220,7 +220,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "听说见到她们的那天一天都会特别幸运呢…",
+			say = "聽說見到她們的那天一天都會特別幸運呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "什么时候都有这样的港区传说了…",
+			say = "什麼時候都有這樣的港區傳說了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			actor = 501030,
 			nameColor = "#a9f548",
-			say = "啊，颜料…又不够了呢…",
+			say = "啊，顏料…又不夠了呢…",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -280,7 +280,7 @@ return {
 			}
 		},
 		{
-			say = "好～这次就让我去补充颜料吧～",
+			say = "好～這次就讓我去補充顏料吧～",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你只是想去追布里们吧…",
+			say = "你只是想去追布里們吧…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，没有啦～只是想出去跑跑步嘛～布里、哦不，颜料我来了～",
+			say = "哎呀，沒有啦～只是想出去跑跑步嘛～布里、哦不，顏料我來了～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

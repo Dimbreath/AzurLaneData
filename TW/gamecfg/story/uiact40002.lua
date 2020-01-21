@@ -14,7 +14,7 @@ return {
 			dir = -1,
 			actor = 900022,
 			actorName = "？？？",
-			say = "包子？哼，可别以为这样就可以收买我",
+			say = "肉包？哼，可别以为这样就可以收买我",
 			shake = {
 				speed = 1,
 				number = 3
@@ -73,7 +73,7 @@ return {
 			actorName = "？？？",
 			actor = 900022,
 			nameColor = "#a9f548",
-			say = "重要的人？嗯…（脸红）哎呀包子就要蒸熟了不赶紧拿出来可不行！",
+			say = "重要的人？嗯…（脸红）哎呀肉包子就要蒸熟了不赶紧拿出来可不行！",
 			flashout = {
 				dur = 0.2,
 				black = true,
@@ -494,7 +494,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 0,
-			say = "（脸红）呀！傻丫头别老学人家说话，回去不给你包子吃了！",
+			say = "（脸红）呀！傻丫头别老学人家说话，回去不给你肉包吃了！",
 			shake = {
 				speed = 1,
 				number = 3
@@ -513,7 +513,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 1,
-			say = "不过…暂时先不谈论包子了~敌机似乎又出现了呢…",
+			say = "不过…暂时先不谈论肉包了~敌机似乎又出现了呢…",
 			shake = {
 				speed = 1,
 				number = 3
@@ -551,7 +551,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			side = 0,
-			say = "胜利后一起回去包子吃个够！",
+			say = "胜利后一起回肉包吃个够！",
 			shake = {
 				speed = 1,
 				number = 3

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"抚顺的大冒险\n\n<size=45>二　任务是维修机械？</size>",
+					"撫順的大冒險\n\n<size=45>二　任務是維修機械？</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-china",
 			actor = 501020,
 			nameColor = "#a9f548",
-			say = "长春长春！你看我们找到了什么！",
+			say = "長春長春！你看我們找到了什麼！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			say = "呜哇…抚顺姐你还真的去翻了旧仓库啊…",
+			say = "嗚哇…撫順姐你還真的去翻了舊倉庫啊…",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？长春你说什么？",
+			say = "嗯？長春你說什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没、没什么…所以呢，找到什么好玩的了？",
+			say = "沒、沒什麼…所以呢，找到什麼好玩的了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "将将！",
+			say = "將將！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个是…掌机？",
+			say = "這個是…掌機？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "长春果然知道~",
+			say = "長春果然知道~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…好老旧的型号…而且…好像已经打不开了？",
+			say = "不過…好老舊的型號…而且…好像已經打不開了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呣…是啊，但是你不好奇吗！这里面究竟是什么样的游戏！",
+			say = "呣…是啊，但是你不好奇嗎！這裡面究竟是什麼樣的遊戲！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也没有那么好奇就是了…",
+			say = "也沒有那麼好奇就是了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦…说到游戏的话，大概可以去问问“她”吧",
+			say = "好啦…說到遊戲的話，大概可以去問問“她”吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			actor = 106011,
 			nameColor = "#a9f548",
-			say = "这个是…掌机？",
+			say = "這個是…掌機？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -247,7 +247,7 @@ return {
 			}
 		},
 		{
-			say = "长春说，这方面的问题，来问长岛一定没问题！",
+			say = "長春說，這方面的問題，來問長島一定沒問題！",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -272,7 +272,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸嘿嘿…被这么夸奖还有点不好意思呢…",
+			say = "欸嘿嘿…被這麼誇獎還有點不好意思呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…这个型号…我也没见过呢",
+			say = "不過…這個型號…我也沒見過呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "连博览古今游戏的我都没见过的类型，难道是自制的…？",
+			say = "連博覽古今遊戲的我都沒見過的類型，難道是自製的…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？！长岛也不知道内容是什么吗？",
+			say = "欸？！長島也不知道內容是什麼嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然很不甘心…这时候就要靠专业人员上场了——",
+			say = "雖然很不甘心…這時候就要靠專業人員上場了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

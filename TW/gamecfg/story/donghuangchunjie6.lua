@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"闹腾嬉戏东煌春节\n\n<size=45>六 热闹的“团聚”·下</size>",
+					"鬧騰嬉戲東煌春節\n\n<size=45>六 熱鬧的“團聚”·下</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "main-chunjie",
 			actor = 501010,
 			nameColor = "#a9f548",
-			say = "那么，就请大家尽情享用，不够的话还可以加餐哦。",
+			say = "那麼，就請大家盡情享用，不夠的話還可以加餐哦。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "开动开动，有好多我爱吃的东西呢~",
+			say = "開動開動，有好多我愛吃的東西呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶嘿嘿，这边的红烧鱼好香，我也要开动了~",
+			say = "欸嘿嘿，這邊的紅燒魚好香，我也要開動了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抚顺姐，慢一点…你都要爬到桌子上去了…",
+			say = "撫順姐，慢一點…你都要爬到桌子上去了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,10 +103,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_102",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 206042,
-			nameColor = "#a9f548",
-			say = "太多美味了反而有点不知该从哪道开始下手呢…嗯，企业前辈，你怎么了吗？",
+			actorName = "半人馬",
+			say = "太多美味了反而有點不知該從哪道開始下手呢…嗯，企業前輩，你怎麼了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +124,7 @@ return {
 			dir = 1,
 			actor = 107062,
 			nameColor = "#a9f548",
-			say = "嗯…看着这么多人一起吃饭，心里突然有种非常温暖的感觉，这就是“团聚”的氛围吗",
+			say = "嗯…看著這麼多人一起吃飯，心裡突然有種非常溫暖的感覺，這就是“團聚”的氛圍嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +141,7 @@ return {
 			dir = 1,
 			actor = 107021,
 			nameColor = "#a9f548",
-			say = "身处这种暖洋洋的氛围里，忽然有点想唱歌呢，不过还是先吃饭吧～",
+			say = "身處這種暖洋洋的氛圍裡，忽然有點想唱歌呢，不過還是先吃飯吧～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +157,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈姆…东煌的料理，很好吃……",
+			say = "哈姆…東煌的料理，很好吃……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +174,7 @@ return {
 			dir = 1,
 			actor = 301054,
 			nameColor = "#a9f548",
-			say = "拉菲，筷子不是那样使用的，要像这样拿，再这样夹……的说。",
+			say = "拉菲，筷子不是那樣使用的，要像這樣拿，再這樣夾……的說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +191,7 @@ return {
 			dir = 1,
 			actor = 202121,
 			nameColor = "#a9f548",
-			say = "原来土豆还可以这样料理…嗯，下次可以研发新的菜式了",
+			say = "原來馬鈴薯還可以這樣料理…嗯，下次可以研發新的菜式了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +208,7 @@ return {
 			dir = 1,
 			actor = 501041,
 			nameColor = "#a9f548",
-			say = "不过…最后指挥官还是没能赶得上一起吃年夜饭呢……",
+			say = "不過…最後指揮官還是沒能趕得上一起吃年夜飯呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +224,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，没关系，已经留了一份饭菜，一会给指挥官送去吧",
+			say = "唔，沒關係，已經留了一份飯菜，一會給指揮官送去吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +240,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不管怎样，大家能坐在一起吃这顿饭，也是多亏了指挥官啊～",
+			say = "不管怎樣，大家能坐在一起吃這頓飯，也是多虧了指揮官啊～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +256,7 @@ return {
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官的那份饭菜，就由我稍后送去吧",
+			say = "指揮官的那份飯菜，就由我稍後送去吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +273,7 @@ return {
 			blackBg = true,
 			actor = 501020,
 			nameColor = "#a9f548",
-			say = "呼，吃饱了吃饱了~逸仙姐的家常菜果然是最美味的！那么接下来嘛~嘿嘿嘿……",
+			say = "呼，吃飽了吃飽了~逸仙姐的家常菜果然是最美味的！那麼接下來嘛~嘿嘿嘿……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -306,7 +307,7 @@ return {
 			bgName = "star_level_bg_102",
 			actor = 101173,
 			nameColor = "#a9f548",
-			say = "拉菲吃得好饱…吃饱之后，就有些困了…",
+			say = "拉菲吃得好飽…吃飽之後，就有些睏了…",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -340,7 +341,7 @@ return {
 			dir = 1,
 			actor = 107062,
 			nameColor = "#a9f548",
-			say = "既然大家都吃饱了，就来点餐后的娱乐环节吧？皇家的各位，要不要来一场强手棋对决呢？",
+			say = "既然大家都吃飽了，就來點餐後的娛樂環節吧？皇家的各位，要不要來一場強手棋對決呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +358,7 @@ return {
 			dir = 1,
 			actor = 299022,
 			nameColor = "#a9f548",
-			say = "哦？这是在向我提出挑战吗？就算是单纯的游戏，我可也是不会输给任何人的，来吧！",
+			say = "哦？這是在向我提出挑戰嗎？就算是單純的遊戲，我可也是不會輸給任何人的，來吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,11 +388,12 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
 			actor = 206042,
-			nameColor = "#a9f548",
-			say = "呀啊！怎、怎么突然变黑了…",
+			actorName = "半人馬",
+			say = "呀啊！怎、怎麼突然變黑了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +409,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "唔…是谁把灯关了，我的鱼还没吃完呢……",
+			say = "唔…是誰把燈關了，我的魚還沒吃完呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +425,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "嗷呜——",
+			say = "嗷嗚——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +448,7 @@ return {
 			blackBg = true,
 			actor = 202121,
 			nameColor = "#a9f548",
-			say = "这声音是……",
+			say = "這聲音是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +464,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "难道是白天说过的…“年”？",
+			say = "難道是白天說過的…“年”？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +480,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "不不，那个只是传说而已啦……",
+			say = "不不，那個只是傳說而已啦……",
 			effects = {
 				{
 					active = false,

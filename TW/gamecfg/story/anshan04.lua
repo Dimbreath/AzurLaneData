@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"鞍山的绘图日记\n\n<size=45>四　大家的绘图本</size>",
+					"鞍山的繪圖日記\n\n<size=45>四　大家的繪圖本</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-china",
 			actor = 501010,
 			nameColor = "#a9f548",
-			say = "总觉得…越来越热闹了呢",
+			say = "總覺得…越來越熱鬧了呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			say = "诶嘿，大家一起才好玩呀~",
+			say = "誒嘿，大家一起才好玩呀~",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			actor = 502030,
 			nameColor = "#a9f548",
-			say = "这里让平海来涂~",
+			say = "這裡讓平海來塗~",
 			shake = {
 				speed = 5,
 				number = 3
@@ -79,7 +79,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "平海这孩子，跟抚顺玩得特别好呢",
+			say = "平海這孩子，跟撫順玩得特別好呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "真是对不住…宁海姐姐，我们家抚顺给你们添麻烦了",
+			say = "真是對不住…寧海姐姐，我們家撫順給你們添麻煩了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "鞍山姐姐，担心太多会长皱纹的哟",
+			say = "鞍山姐姐，擔心太多會長皺紋的喲",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哈啊…也不想想是谁让我整天这么多担心…",
+			say = "哈啊…也不想想是誰讓我整天這麼多擔心…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，看她们玩得这么开心，很多东西也就不那么重要了呢",
+			say = "不過，看她們玩得這麼開心，很多東西也就不那麼重要了呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊哈哈…宁海姐姐说的是…",
+			say = "啊哈哈…寧海姐姐說的是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好~我也要涂~这里让我来~",
+			say = "好~我也要塗~這裡讓我來~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

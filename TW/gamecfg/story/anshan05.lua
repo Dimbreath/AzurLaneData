@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"鞍山的绘图日记\n\n<size=45>五　鞍山的绘图本</size>",
+					"鞍山的繪圖日記\n\n<size=45>五　鞍山的繪圖本</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-china",
 			actor = 501010,
 			nameColor = "#a9f548",
-			say = "好…这里涂上这个颜色——",
+			say = "好…這裡塗上這個顏色——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,11 +37,11 @@ return {
 			actorShadow = true,
 			side = 0,
 			bgName = "bg_story_school",
-			actorName = "抚顺&长春&太原",
+			actorName = "撫順&長春&太原",
 			actor = 501040,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "最后一张画~完成啦~",
+			say = "最後一張畫~完成啦~",
 			subActors = {
 				{
 					actor = 501020,
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actorName = "平海&宁海",
+			actorName = "平海&寧海",
 			side = 0,
 			bgName = "bg_story_school",
 			actor = 502030,
@@ -96,7 +96,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "费了这么多功夫，总算…总算完成了！",
+			say = "費了這麼多功夫，總算…總算完成了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "这都多亏了大家的同心协力！呜——",
+			say = "這都多虧了大家的同心協力！嗚——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			}
 		},
 		{
-			say = "鞍山姐…原来才是最投入的那个人吗",
+			say = "鞍山姐…原來才是最投入的那個人嗎",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -148,7 +148,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = -1,
-			say = "啊哈哈哈哈，我最喜欢鞍山姐姐这一点了",
+			say = "啊哈哈哈哈，我最喜歡鞍山姐姐這一點了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "鞍山姐姐…好可爱",
+			say = "鞍山姐姐…好可愛",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "咳、咳咳！我只、只是象征性的总结一下而已！",
+			say = "咳、咳咳！我只、只是象徵性的總結一下而已！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
-			say = "啊哈哈，鞍山级的妹妹们总是这么有趣呢",
+			say = "啊哈哈，鞍山級的妹妹們總是這麼有趣呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = -1,
-			say = "平海也喜欢跟抚顺她们一起玩~",
+			say = "平海也喜歡跟撫順她們一起玩~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = -1,
-			say = "哎呀，原来你们都在这儿呀",
+			say = "哎呀，原來你們都在這兒呀",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			}
 		},
 		{
-			say = "逸仙！你怎么来了",
+			say = "逸仙！你怎麼來了",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = -1,
@@ -280,7 +280,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "我们刚完成了这本画册~",
+			say = "我們剛完成了這本畫冊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
-			say = "实际上只是涂涂颜色而已呢…",
+			say = "實際上只是塗塗顏色而已呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = -1,
-			say = "哎呀，我看看…画得不错呀，都很可爱呢~",
+			say = "哎呀，我看看…畫得不錯呀，都很可愛呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = -1,
-			say = "嗯？这后面好像还有页数…",
+			say = "嗯？這後面好像還有頁數…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "也就是说，可以随便画了吗~？",
+			say = "也就是說，可以隨便畫了嗎~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "那~这本画册就交给鞍山姐姐好了",
+			say = "那~這本畫冊就交給鞍山姐姐好了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
-			say = "咦？给、给我吗？",
+			say = "咦？給、給我嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = -1,
-			say = "鞍山姐姐的话…一定会好好地画的吧",
+			say = "鞍山姐姐的話…一定會好好地畫的吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
-			say = "既、既然你们都这么说，那我就收下了…",
+			say = "既、既然你們都這麼說，那我就收下了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = -1,
-			say = "嘿嘿，鞍山姐姐好开心的样子呢~",
+			say = "嘿嘿，鞍山姐姐好開心的樣子呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "好啦~凡事不必急于一时，我又做了点吃的，一起来吃吧？",
+			say = "好啦~凡事不必急於一時，我又做了點吃的，一起來吃吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actor = 0,
-			actorName = "众人",
+			actorName = "眾人",
 			say = "喔喔喔~~",
 			typewriter = {
 				speed = 0.05,
@@ -522,7 +522,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = -1,
-			say = "那这个就，晚点再来慢慢地画吧，嘻嘻——",
+			say = "那這個就，晚點再來慢慢地畫吧，嘻嘻——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -5031,6 +5031,71 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70077] = {
+		id = 70077,
+		name = "世界BOSS黛朵移动至下方",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -15,
+					z = 25
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70078] = {
+		id = 70078,
+		name = "世界BOSS黛朵移动至上方，之后回中间",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -15,
+					z = 85
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 2
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 1,
+				param = {
+					x = -15,
+					z = 55
+				}
+			},
+			{
+				index = 4,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

@@ -5,7 +5,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "参加新年演出获得大人气，获得了奖励【心智单元*150】",
+			say = "參加新年演出獲得大人氣，獲得了獎勵【艦艇教材T2*5】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

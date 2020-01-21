@@ -29,6 +29,7 @@ slot0.FETCH_INSTARGRAM = "fetch instagram"
 slot0.MUSIC_GAME_OPERATOR = "get music game final prize"
 slot0.SHOW_NEXT_ACTIVITY = "show next activity"
 slot0.SHARE_TASK_DONE = "share task done"
+slot0.OPEN_RED_PACKET_LAYER = "ActivityMediator:OPEN_RED_PACKET_LAYER"
 
 function slot0.register(slot0)
 	slot0.UIAvalibleCallbacks = {}
@@ -68,6 +69,12 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.OPEN_LAYER, function (slot0, slot1)
 		slot0:addSubLayers(slot1)
+	end)
+	slot0:bind(slot0.OPEN_RED_PACKET_LAYER, function (slot0)
+		slot0:addSubLayers(Context.New({
+			mediator = RedPacketMediator,
+			viewComponent = RedPacketLayer
+		}))
 	end)
 	slot0:bind(slot0.CLOSE_LAYER, function (slot0, slot1)
 		if getProxy(ContextProxy).getCurrentContext(slot2):getContextByMediator(slot1) then
@@ -277,7 +284,8 @@ function slot0.listNotificationInterests(slot0)
 		VoteProxy.VOTE_ORDER_BOOK_DELETE,
 		VoteProxy.VOTE_ORDER_BOOK_UPDATE,
 		GAME.REMOVE_LAYERS,
-		GAME.SEND_MINI_GAME_OP_DONE
+		GAME.SEND_MINI_GAME_OP_DONE,
+		GAME.MONOPOLY_AWARD_DONE
 	}
 end
 
@@ -336,6 +344,8 @@ function slot0.handleNotification(slot0, slot1)
 		if slot3.context.mediator == VoteFameHallMediator then
 			slot0.viewComponent:updateEntrances()
 		end
+	elseif slot2 == GAME.MONOPOLY_AWARD_DONE then
+		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot3.callback)
 	elseif slot2 == GAME.SEND_MINI_GAME_OP_DONE then
 		seriesAsync({
 			function (slot0)

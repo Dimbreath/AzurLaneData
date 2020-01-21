@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"抚顺的大冒险\n\n<size=45>一　旧仓库的寻宝之旅</size>",
+					"撫順的大冒險\n\n<size=45>一　舊倉庫的尋寶之旅</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-china",
 			actor = 501020,
 			nameColor = "#a9f548",
-			say = "这里就是长春说的旧仓库吗，嘿嘿，一定能找到好玩的东西！",
+			say = "這裡就是長春說的舊倉庫嗎，嘿嘿，一定能找到好玩的東西！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			say = "呜…没经过允许就偷偷跑进来真的没关系吗…",
+			say = "嗚…沒經過允許就偷偷跑進來真的沒關係嗎…",
 			side = 1,
 			dir = -1,
 			blackBg = true,
@@ -59,7 +59,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "没事啦太原，你看这仓库虽然挂着个锁但是都不用开，晃两下就掉下来了",
+			say = "沒事啦太原，你看這倉庫雖然掛著個鎖但是都不用開，晃兩下就掉下來了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "只是因为年久失修吧……",
+			say = "只是因為年久失修吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "仓库嘛，总是要定期整理的！我们这可是在帮指挥官的忙呢！而且说不定还能找到什么有趣的旧书之类的",
+			say = "倉庫嘛，總是要定期整理的！我們這可是在幫指揮官的忙呢！而且說不定還能找到什麼有趣的舊書之類的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "太原对这个不会没兴趣吧",
+			say = "太原對這個不會沒興趣吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "有趣的书吗！（两眼放光）也、也不是没兴趣……",
+			say = "有趣的書嗎！（兩眼放光）也、也不是沒興趣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "那就来寻宝吧！我从这里开始翻，太原你从那边开始找哦！",
+			say = "那就來尋寶吧！我從這裡開始翻，太原你從那邊開始找哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "呜…这只是在帮忙整理仓库、嗯！整理仓库——",
+			say = "嗚…這只是在幫忙整理倉庫、嗯！整理倉庫——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			blackBg = true,
 			actor = 501020,
 			nameColor = "#a9f548",
-			say = "咳咳…灰尘真多啊…",
+			say = "咳咳…灰塵真多啊…",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -199,7 +199,7 @@ return {
 			}
 		},
 		{
-			say = "咳咳咳…有好多看起来很难懂的书呢…",
+			say = "咳咳咳…有好多看起來很難懂的書呢…",
 			side = 1,
 			dir = -1,
 			blackBg = true,
@@ -224,7 +224,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "唔…还有许多不知道做什么用的零件…",
+			say = "唔…還有許多不知道做什麼用的零件…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "啊！太原！快看快看，我找到了这个！",
+			say = "啊！太原！快看快看，我找到了這個！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "这、这个是……",
+			say = "這、這個是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -867,6 +867,10 @@ function pg.MsgboxMgr.createBtn(slot0, slot1)
 		slot0:updateButton(slot6, slot1.text)
 	end
 
+	if slot2 == slot0.BUTTON_BLUE_WITH_ICON and slot1.iconName then
+		setImageSprite(slot6:Find("ticket/icon"), LoadSprite(slot1.iconName[1], slot1.iconName[2]))
+	end
+
 	if not slot1.hideEvent then
 		onButton(slot0, slot6, function ()
 			if type(type) == "function" then

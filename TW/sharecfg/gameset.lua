@@ -428,12 +428,11 @@ pg.gameset = {
 		key_value = 0,
 		description = {
 			"ANSHAN01",
-			nil,
 			"ANSHAN02",
-			nil,
 			"ANSHAN03",
 			nil,
 			"ANSHAN04",
+			nil,
 			"ANSHAN05"
 		}
 	},

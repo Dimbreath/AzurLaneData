@@ -5,7 +5,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "遇到了正在结队出行的弗莱彻姐妹，被人群带着移动，前进两格",
+			say = "遇到了正在結隊出行的弗萊徹姐妹，被人群帶著移動，前進兩格",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
