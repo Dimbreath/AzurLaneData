@@ -86103,6 +86103,1246 @@ pg.task_data_template = {
 			"ACTIVITY_MAP"
 		}
 	},
+	[15290] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92410,
+		type = 26,
+		name = "睦月春节皮肤1",
+		count_inherit = 0,
+		desc = "击败旗舰3次",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15290,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54012,
+				5
+			}
+		}
+	},
+	[15291] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92411,
+		type = 26,
+		name = "睦月春节皮肤1",
+		count_inherit = 0,
+		desc = "登录游戏",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15291,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15292] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92412,
+		type = 26,
+		name = "睦月春节皮肤2",
+		count_inherit = 0,
+		desc = "进行2次战术训练 ",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15292,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54050,
+				2
+			}
+		}
+	},
+	[15293] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92413,
+		type = 26,
+		name = "睦月春节皮肤2",
+		count_inherit = 0,
+		desc = "退役舰船2次 ",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15293,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15294] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92414,
+		type = 26,
+		name = "睦月春节皮肤3",
+		count_inherit = 0,
+		desc = "完成3次每日挑战 ",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15294,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54022,
+				3
+			}
+		}
+	},
+	[15295] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92415,
+		type = 26,
+		name = "睦月春节皮肤3",
+		count_inherit = 0,
+		desc = "后宅补充5次食物",
+		target_id_2 = "",
+		sub_type = 61,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15295,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15296] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92416,
+		type = 26,
+		name = "睦月春节皮肤4",
+		count_inherit = 0,
+		desc = "击沉任意敌人20艘 ",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15296,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				50004,
+				3
+			}
+		}
+	},
+	[15297] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92417,
+		type = 26,
+		name = "睦月春节皮肤4",
+		count_inherit = 0,
+		desc = "打开任意科技箱1个",
+		target_id_2 = "",
+		sub_type = 50,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15297,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15298] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92418,
+		type = 26,
+		name = "睦月春节皮肤5",
+		count_inherit = 0,
+		desc = "建造舰船2次",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15298,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54023,
+				1
+			}
+		}
+	},
+	[15299] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92419,
+		type = 26,
+		name = "睦月春节皮肤5",
+		count_inherit = 0,
+		desc = "参与演习2次 ",
+		target_id_2 = "",
+		sub_type = 27,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15299,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15300] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92420,
+		type = 26,
+		name = "睦月春节皮肤6",
+		count_inherit = 0,
+		desc = "进行2次委托 ",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15300,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54003,
+				2
+			}
+		}
+	},
+	[15301] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92421,
+		type = 26,
+		name = "睦月春节皮肤6",
+		count_inherit = 0,
+		desc = "强化舰船5次 ",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15301,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15302] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92422,
+		type = 26,
+		name = "睦月春节皮肤7",
+		count_inherit = 0,
+		desc = "强化装备2次 ",
+		target_id_2 = "",
+		sub_type = 40,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15302,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54024,
+				1
+			}
+		}
+	},
+	[15303] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92423,
+		type = 26,
+		name = "睦月春节皮肤7",
+		count_inherit = 0,
+		desc = "舰队出征，以S评价通关10次 ",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15303,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				7,
+				301323,
+				1
+			}
+		}
+	},
+	[15310] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92461,
+		type = 6,
+		name = "2020春节耗油1",
+		count_inherit = 15311,
+		desc = "累计消耗石油500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15311",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15310,
+		target_num = 500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59960,
+				150
+			},
+			{
+				8,
+				59961,
+				100
+			},
+			{
+				8,
+				59962,
+				65
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15311] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92462,
+		type = 6,
+		name = "2020春节耗油2",
+		count_inherit = 15312,
+		desc = "累计消耗石油1000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15312",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15311,
+		target_num = 1000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59964,
+				30
+			},
+			{
+				8,
+				59965,
+				50
+			},
+			{
+				8,
+				59966,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15312] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92463,
+		type = 6,
+		name = "2020春节耗油3",
+		count_inherit = 15313,
+		desc = "累计消耗石油1500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15313",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15312,
+		target_num = 1500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59963,
+				50
+			},
+			{
+				8,
+				59960,
+				150
+			},
+			{
+				8,
+				59964,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15313] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92464,
+		type = 6,
+		name = "2020春节耗油4",
+		count_inherit = 15314,
+		desc = "累计消耗石油2000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15314",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15313,
+		target_num = 2000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59966,
+				50
+			},
+			{
+				8,
+				59961,
+				50
+			},
+			{
+				8,
+				59963,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15314] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92465,
+		type = 6,
+		name = "2020春节耗油5",
+		count_inherit = 15315,
+		desc = "累计消耗石油2500",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15315",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15314,
+		target_num = 2500,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59962,
+				35
+			},
+			{
+				8,
+				59960,
+				100
+			},
+			{
+				8,
+				59964,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15315] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92466,
+		type = 6,
+		name = "2020春节耗油6",
+		count_inherit = 15316,
+		desc = "累计消耗石油3000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15316",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15315,
+		target_num = 3000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59962,
+				100
+			},
+			{
+				8,
+				59960,
+				50
+			},
+			{
+				8,
+				59965,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15316] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92467,
+		type = 6,
+		name = "2020春节耗油7",
+		count_inherit = 15317,
+		desc = "累计消耗石油4000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15317",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15316,
+		target_num = 4000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59960,
+				150
+			},
+			{
+				8,
+				59961,
+				100
+			},
+			{
+				8,
+				59963,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15317] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92468,
+		type = 6,
+		name = "2020春节耗油8",
+		count_inherit = 15318,
+		desc = "累计消耗石油5000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15318",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15317,
+		target_num = 5000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59966,
+				80
+			},
+			{
+				8,
+				59965,
+				100
+			},
+			{
+				8,
+				59964,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15318] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92469,
+		type = 6,
+		name = "2020春节耗油9",
+		count_inherit = 15319,
+		desc = "累计消耗石油6000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15319",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15318,
+		target_num = 6000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59962,
+				100
+			},
+			{
+				8,
+				59961,
+				100
+			},
+			{
+				8,
+				59963,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15319] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92470,
+		type = 6,
+		name = "2020春节耗油10",
+		count_inherit = 15320,
+		desc = "累计消耗石油7000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15320",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15319,
+		target_num = 7000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59960,
+				100
+			},
+			{
+				8,
+				59966,
+				50
+			},
+			{
+				8,
+				59964,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15320] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92471,
+		type = 6,
+		name = "2020春节耗油11",
+		count_inherit = 15321,
+		desc = "累计消耗石油8000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15321",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15320,
+		target_num = 8000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59962,
+				100
+			},
+			{
+				8,
+				59960,
+				100
+			},
+			{
+				8,
+				59964,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15321] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92472,
+		type = 6,
+		name = "2020春节耗油12",
+		count_inherit = 15322,
+		desc = "累计消耗石油9000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15322",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15321,
+		target_num = 9000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59960,
+				150
+			},
+			{
+				8,
+				59961,
+				100
+			},
+			{
+				8,
+				59963,
+				84
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15322] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92473,
+		type = 6,
+		name = "2020春节耗油13",
+		count_inherit = 15323,
+		desc = "累计消耗石油10000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15323",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15322,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59962,
+				50
+			},
+			{
+				8,
+				59961,
+				100
+			},
+			{
+				8,
+				59964,
+				20
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15323] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92474,
+		type = 6,
+		name = "2020春节耗油14",
+		count_inherit = 15324,
+		desc = "累计消耗石油11000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15324",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15323,
+		target_num = 11000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59960,
+				100
+			},
+			{
+				8,
+				59965,
+				50
+			},
+			{
+				8,
+				59966,
+				70
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15324] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92475,
+		type = 6,
+		name = "2020春节耗油15",
+		count_inherit = 15325,
+		desc = "累计消耗石油12000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15325",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15324,
+		target_num = 12000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59962,
+				50
+			},
+			{
+				8,
+				59961,
+				100
+			},
+			{
+				8,
+				59965,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15325] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92476,
+		type = 6,
+		name = "2020春节耗油16",
+		count_inherit = 15326,
+		desc = "累计消耗石油13000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15326",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15325,
+		target_num = 13000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59960,
+				100
+			},
+			{
+				8,
+				59961,
+				50
+			},
+			{
+				8,
+				59964,
+				21
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15326] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92477,
+		type = 6,
+		name = "2020春节耗油17",
+		count_inherit = 15327,
+		desc = "累计消耗石油14000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15327",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15326,
+		target_num = 14000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59962,
+				100
+			},
+			{
+				8,
+				59961,
+				66
+			},
+			{
+				8,
+				59966,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[15327] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92478,
+		type = 6,
+		name = "2020春节耗油18",
+		count_inherit = 0,
+		desc = "累计消耗石油15000",
+		target_id_2 = "",
+		sub_type = 121,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15327,
+		target_num = 15000,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				8,
+				59960,
+				75
+			},
+			{
+				8,
+				59965,
+				71
+			},
+			{
+				8,
+				59966,
+				66
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
 	[15328] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -86549,6 +87789,254 @@ pg.task_data_template = {
 				301231,
 				1
 			}
+		}
+	},
+	[15342] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92395,
+		type = 36,
+		name = "2020春节世界BOSS挑战券任务1",
+		count_inherit = 0,
+		desc = "登录游戏",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15342,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2005,
+				1
+			}
+		}
+	},
+	[15343] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92396,
+		type = 36,
+		name = "2020春节世界BOSS挑战券任务2",
+		count_inherit = 0,
+		desc = "通关1次任意困难关卡",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15343,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2005,
+				1
+			}
+		}
+	},
+	[15344] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92397,
+		type = 36,
+		name = "2020春节世界BOSS挑战券任务3",
+		count_inherit = 0,
+		desc = "通关3次任意困难关卡",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15344,
+		target_num = 3,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2005,
+				1
+			}
+		}
+	},
+	[15345] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92398,
+		type = 36,
+		name = "2020春节世界BOSS挑战券任务4",
+		count_inherit = 0,
+		desc = "通关5次『战斗！皇家女仆队2nd』任意难度关卡",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15345,
+		target_num = 5,
+		fix_task = 0,
+		target_id = {
+			1320101,
+			1320201,
+			1320301,
+			1320401
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2005,
+				1
+			}
+		},
+		scene = {
+			"ACT_BOSS_SPF"
+		}
+	},
+	[15346] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92399,
+		type = 36,
+		name = "2020春节世界BOSS挑战券任务5",
+		count_inherit = 0,
+		desc = "通关10次『战斗！皇家女仆队2nd』任意难度关卡",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15346,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1320101,
+			1320201,
+			1320301,
+			1320401
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2005,
+				1
+			}
+		},
+		scene = {
+			"ACT_BOSS_SPF"
 		}
 	},
 	[30101] = {
@@ -96342,6 +97830,38 @@ pg.task_data_template = {
 		15269,
 		15270,
 		15271,
+		15290,
+		15291,
+		15292,
+		15293,
+		15294,
+		15295,
+		15296,
+		15297,
+		15298,
+		15299,
+		15300,
+		15301,
+		15302,
+		15303,
+		15310,
+		15311,
+		15312,
+		15313,
+		15314,
+		15315,
+		15316,
+		15317,
+		15318,
+		15319,
+		15320,
+		15321,
+		15322,
+		15323,
+		15324,
+		15325,
+		15326,
+		15327,
 		15328,
 		15329,
 		15330,
@@ -96356,6 +97876,11 @@ pg.task_data_template = {
 		15339,
 		15340,
 		15341,
+		15342,
+		15343,
+		15344,
+		15345,
+		15346,
 		30101,
 		30102,
 		30103,

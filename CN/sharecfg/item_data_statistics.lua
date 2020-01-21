@@ -8335,6 +8335,58 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[40909] = {
+		display = "购买礼包可获得随机换装*1，钻石*2020，高级定向蓝图・二期*2，心智单元*50，心智魔方*20，快速建造*10，家具币*100",
+		rarity = 4,
+		type = 5,
+		name = "春节福袋2020",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 40909,
+		icon = "Props/fudai2",
+		display_icon = {
+			{
+				2,
+				69909,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				42017,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[41001] = {
 		display = "{namecode:98}赠送的情人节礼物",
 		rarity = 8,
@@ -19594,17 +19646,17 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "甜咖喱还是辣咖喱，这是一个问题！ <color=#92fc63>（提高经验加成5%，持续60分钟）</color>",
+		display = "广受欢迎的传统特色食物！ <color=#92fc63>（提高经验加成5%，持续60分钟）</color>",
 		rarity = 2,
 		type = 3,
-		name = "海军咖喱",
+		name = "饺子",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		virtual_type = 0,
 		replace_item = 0,
 		link_id = 0,
 		id = 50004,
-		icon = "Props/haijungali",
+		icon = "Props/dumpling",
 		display_icon = {},
 		price = {
 			1,
@@ -75686,6 +75738,132 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[57763] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57763,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				6,
+				1
+			},
+			{
+				2,
+				13,
+				1
+			},
+			{
+				2,
+				47,
+				1
+			},
+			{
+				2,
+				10036,
+				1
+			},
+			{
+				2,
+				10042,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57764] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57764,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10002,
+				1
+			},
+			{
+				2,
+				10024,
+				1
+			},
+			{
+				2,
+				10036,
+				1
+			},
+			{
+				2,
+				10042,
+				1
+			},
+			{
+				2,
+				10093,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57765] = {
+		display = "有几率获得以下设计图",
+		rarity = 1,
+		type = 99,
+		name = "未知设计图",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57765,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10002,
+				1
+			},
+			{
+				2,
+				10024,
+				1
+			},
+			{
+				2,
+				10036,
+				1
+			},
+			{
+				2,
+				10042,
+				1
+			},
+			{
+				2,
+				13010,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[57770] = {
 		display = "有几率获得以下设计图",
 		rarity = 1,
@@ -82432,6 +82610,166 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59960] = {
+		display = "颜料A，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料A",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 471,
+		id = 59960,
+		icon = "props/draw_a",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59961] = {
+		display = "颜料B，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料B",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 471,
+		id = 59961,
+		icon = "props/draw_b",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59962] = {
+		display = "颜料C，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料C",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 471,
+		id = 59962,
+		icon = "props/draw_c",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59963] = {
+		display = "颜料D，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料D",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 471,
+		id = 59963,
+		icon = "props/draw_d",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59964] = {
+		display = "颜料E，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料E",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 471,
+		id = 59964,
+		icon = "props/draw_e",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59965] = {
+		display = "颜料F，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料F",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 471,
+		id = 59965,
+		icon = "props/draw_f",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59966] = {
+		display = "颜料G，用于绘图日记活动，活动结束后将会消失",
+		rarity = 2,
+		type = 0,
+		name = "颜料G",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 471,
+		id = 59966,
+		icon = "props/draw_g",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59967] = {
+		display = "参与『战斗！皇家女仆队2nd』获得的点数，累计一定程度可以领取报酬",
+		rarity = 2,
+		type = 98,
+		name = "贡献值",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59967,
+		icon = "Props/nvpu2_pt",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59968] = {
+		display = "参与『战斗！皇家女仆队2nd』EX关的必要道具，也可以用来增加普通关额外奖励次数",
+		rarity = 4,
+		type = 98,
+		name = "特别挑战券",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59968,
+		icon = "Props/nvpu_ticket",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59969] = {
+		display = "朴的可爱<怪奇>生物图鉴",
+		rarity = 2,
+		type = 0,
+		name = "可爱<怪奇>生物图鉴 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59969,
+		icon = "props/chunjiedaka",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[60001] = {
 		display = "这是说明说明说明",
 		rarity = 3,
@@ -82508,6 +82846,22 @@ pg.item_data_statistics = {
 		link_id = 0,
 		id = 60012,
 		icon = "Props/54003",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60021] = {
+		display = "可在「啾啾大酒楼」活动中使用 ",
+		rarity = 2,
+		type = 0,
+		name = "红包",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 11,
+		replace_item = 0,
+		link_id = 479,
+		id = 60021,
+		icon = "props/red_packet2",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -82696,6 +83050,40 @@ pg.item_data_statistics = {
 		replace_item = 0,
 		link_id = 0,
 		id = 69908,
+		icon = "Props/clothIcon",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[69909] = {
+		display = [[
+从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
+包含的换装和概率如下：
+（<color=#92fc63>7.5%</color>）猉换装 细语春霞（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>7.5%</color>）莲换装  冬之雪风（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>7.5%</color>）鹩换装 凤鸣春晓（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>6.6%</color>）天狼星换装  碧波青云；
+（<color=#92fc63>6.6%</color>）确捷换装  白玉佳人；
+（<color=#92fc63>6.6%</color>）峦换装  新桃换旧符；
+（<color=#92fc63>6.6%</color>）光辉换装  钟情春日；
+（<color=#92fc63>5.7%</color>）德意志换装  华灯下的支配者；
+（<color=#92fc63>5.7%</color>）黑太子换装  Fairmaid·Spring；
+（<color=#92fc63>5.7%</color>）鲟换装  红梅垂香；
+（<color=#92fc63>5.7%</color>）比洛克西换装  俊俏丽人；
+（<color=#92fc63>5.7%</color>）格洛斯特换装  绛紫奢情；
+（<color=#92fc63>5.7%</color>）沙恩霍斯特换装  雪豹与白梅；
+（<color=#92fc63>5.7%</color>）哈尔西·鲍威尔换装  春节小福星！；
+（<color=#92fc63>5.6%</color>）平海换装  美食大远征！；
+（<color=#92fc63>5.6%</color>）宁海换装  新年旅游！；]],
+		rarity = 4,
+		type = 98,
+		name = "随机春节换装",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 69909,
 		icon = "Props/clothIcon",
 		display_icon = {},
 		price = {},
@@ -83850,6 +84238,7 @@ pg.item_data_statistics = {
 		40905,
 		40906,
 		40908,
+		40909,
 		41001,
 		41002,
 		41003,
@@ -85154,6 +85543,9 @@ pg.item_data_statistics = {
 		57760,
 		57761,
 		57762,
+		57763,
+		57764,
+		57765,
 		57770,
 		57771,
 		57772,
@@ -85437,11 +85829,22 @@ pg.item_data_statistics = {
 		59952,
 		59953,
 		59954,
+		59960,
+		59961,
+		59962,
+		59963,
+		59964,
+		59965,
+		59966,
+		59967,
+		59968,
+		59969,
 		60001,
 		60002,
 		60003,
 		60011,
 		60012,
+		60021,
 		69901,
 		69902,
 		69903,
@@ -85449,6 +85852,7 @@ pg.item_data_statistics = {
 		69905,
 		69906,
 		69908,
+		69909,
 		70000,
 		70001,
 		70002,

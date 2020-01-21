@@ -324,6 +324,37 @@ pg.ship_skin_expression_ex = {
 				"2"
 			}
 		}
+	},
+	geluosite = {
+		touch = "",
+		feeling3 = "",
+		main_1 = "",
+		mail = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		feeling1 = "",
+		painting = "geluosite",
+		upgrade = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		feeling4 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = "",
+		detail = "",
+		feeling5 = {
+			{
+				1100,
+				"1"
+			}
+		}
 	}
 }
 

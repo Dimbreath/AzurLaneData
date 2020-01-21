@@ -54,7 +54,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要今天的演出圆满成功，回去之后姐姐请你吃包子吃到饱哦！",
+			say = "只要今天的演出圆满成功，回去之后姐姐请你吃肉包吃到饱哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			dir = 1,
 			actor = 502033,
 			nameColor = "#a9f548",
-			say = "吃包子...到饱？！不论唱歌跳舞还是功夫，平海一定全力以赴！",
+			say = "吃肉包子...到饱？！不论唱歌跳舞还是功夫，平海一定全力以赴！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
