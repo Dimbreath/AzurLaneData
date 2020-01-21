@@ -6889,7 +6889,7 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 		key = "activity_switch_award_pool_failed"
 	},
 	shop_street_activity_tip = {
-		tip = "*活動期間(<color=#A1E400FF>19.12.26-20.1.8</COLOR>)每次重整必定出現<color=#A1E400FF>外觀裝備箱</color>",
+		tip = "*活動期間(<color=#A1E400FF>20.1.21-20.2.5</COLOR>)每次重整必定出現<color=#A1E400FF>外觀裝備箱</color>",
 		key = "shop_street_activity_tip"
 	},
 	twitter_link_title = {
