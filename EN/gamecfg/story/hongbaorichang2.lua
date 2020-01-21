@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_story_outdoor",
+			bgName = "bg_night",
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			bgm = "newyear2",
+			bgm = "story-china",
 			actor = 307072,
 			nameColor = "#a9f548",
 			say = "(Having bided my time, waiting for Christmas to end so I can avoid the fierce competition, it's finally time to secure my Commander's heart with this new Dragon Empery outfit!)",
@@ -54,7 +54,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_story_outdoor",
+			bgName = "bg_night",
 			dir = 1,
 			actor = 307072,
 			nameColor = "#a9f548",
@@ -69,11 +69,11 @@ return {
 			}
 		},
 		{
-			side = 2,
-			bgName = "bg_story_outdoor",
-			dir = 1,
 			actor = 307072,
+			side = 2,
+			bgName = "bg_night",
 			nameColor = "#a9f548",
+			dir = 1,
 			say = "Oh, my Commander! I have come for you!",
 			typewriter = {
 				speed = 0.05,
@@ -82,16 +82,6 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
-			},
-			action = {
-				{
-					y = 30,
-					type = "shake",
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
 			}
 		},
 		{
@@ -145,16 +135,6 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
-			},
-			action = {
-				{
-					y = 30,
-					type = "shake",
-					delay = 0,
-					dur = 0.15,
-					x = 0,
-					number = 2
-				}
 			}
 		},
 		{
@@ -206,6 +186,16 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
 			}
 		},
 		{
@@ -476,7 +466,6 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,

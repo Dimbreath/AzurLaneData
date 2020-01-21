@@ -18,10 +18,10 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "bg_story_outdoor",
+			bgName = "star_level_bg_102",
 			dir = 1,
 			bgmDelay = 2,
-			bgm = "newyear2",
+			bgm = "story-china",
 			say = "At night, right before the start of the Lunar New Year...",
 			flashout = {
 				dur = 1,
@@ -52,7 +52,7 @@ return {
 		{
 			actor = 501020,
 			side = 2,
-			bgName = "bg_story_outdoor",
+			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "All right, carefully, slowly...",
@@ -66,11 +66,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			bgName = "star_level_bg_102",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "There, I've lit the fuse! Everyone, scamper!",
 			typewriter = {
 				speed = 0.05,
@@ -79,12 +79,22 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
 			}
 		},
 		{
 			nameColor = "#a9f548",
 			side = 0,
-			bgName = "bg_story_outdoor",
+			bgName = "star_level_bg_102",
 			hideOther = true,
 			dir = 1,
 			actor = 501031,
@@ -111,6 +121,39 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
+			}
+		},
+		{
+			hideOther = true,
+			side = 2,
+			bgName = "star_level_bg_102",
+			say = "Fu Shun's homemade firecracker went off with a loud bang, followed by several crackles.",
+			dir = 1,
+			soundeffect = "event:/battle/firework",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "star_level_bg_102",
+			dir = 1,
+			actor = 301162,
+			nameColor = "#a9f548",
+			say = "How can a firecracker go off with the flash of a small firework?! That's ridiculous!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
 			},
 			action = {
 				{
@@ -124,41 +167,9 @@ return {
 			}
 		},
 		{
-			hideOther = true,
-			side = 2,
-			bgName = "bg_story_outdoor",
-			dir = 1,
-			say = "Fu Shun's homemade firecracker went off with a loud bang, followed by several crackles.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "bg_story_outdoor",
-			dir = 1,
-			actor = 301162,
-			nameColor = "#a9f548",
-			say = "How can a firecracker go off with the flash of a small firework?! That's ridiculous!",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_story_outdoor",
+			bgName = "star_level_bg_102",
 			dir = 1,
 			actor = 301323,
 			nameColor = "#a9f548",
@@ -173,11 +184,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			bgName = "star_level_bg_102",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "It's the result of my sweat and tears and Chang Chun's technical know-how!",
 			typewriter = {
 				speed = 0.05,
@@ -186,12 +197,22 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
 			}
 		},
 		{
 			actor = 501020,
 			side = 2,
-			bgName = "bg_story_outdoor",
+			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "That, my friends, was the mother of all firecrackers! We've named it the An Shan #7!",
@@ -207,7 +228,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_story_outdoor",
+			bgName = "star_level_bg_102",
 			dir = 1,
 			actor = 301323,
 			nameColor = "#a9f548",
@@ -222,9 +243,9 @@ return {
 			}
 		},
 		{
-			expression = 3,
+			expression = 1,
 			side = 2,
-			bgName = "bg_story_outdoor",
+			bgName = "star_level_bg_102",
 			dir = 1,
 			actor = 301162,
 			nameColor = "#a9f548",
@@ -236,12 +257,22 @@ return {
 			painting = {
 				alpha = 0.3,
 				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
 			}
 		},
 		{
 			actor = 501031,
 			side = 2,
-			bgName = "bg_story_outdoor",
+			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "Um, we *did* make a whole batch of them, expecting most to fail, but...",
@@ -257,7 +288,7 @@ return {
 		{
 			actor = 501020,
 			side = 2,
-			bgName = "bg_story_outdoor",
+			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "Sure, but first, there's one more thing we need to do!",
@@ -273,7 +304,7 @@ return {
 		{
 			nameColor = "#a9f548",
 			side = 0,
-			bgName = "bg_story_outdoor",
+			bgName = "star_level_bg_102",
 			hideOther = true,
 			dir = 1,
 			actor = 301323,
@@ -297,12 +328,18 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			bgName = "star_level_bg_102",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "We need to prototype the Mega An Shan #1! It's the grandmother of all firecrackers!",
+			effects = {
+				{
+					active = true,
+					name = "speed"
+				}
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,12 +350,18 @@ return {
 			}
 		},
 		{
-			actor = 501031,
 			side = 2,
-			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			bgName = "star_level_bg_102",
 			dir = 1,
+			actor = 501031,
+			nameColor = "#a9f548",
 			say = "Hang on, isn't that the one that's just a can stuffed with gunpowder? Still... I *am* curious to see how it'll explode.",
+			effects = {
+				{
+					active = false,
+					name = "speed"
+				}
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +374,7 @@ return {
 		{
 			actor = 501020,
 			side = 2,
-			bgName = "bg_story_outdoor",
+			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "It's not just a can with some gunpowder! It's a cocktail of gunpowder from a *whole bunch of firecrackers* stuffed into a can! Let's light this thing and–",
@@ -346,7 +389,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "bg_story_outdoor",
+			bgName = "star_level_bg_102",
 			dir = 1,
 			actor = 501010,
 			nameColor = "#a9f548",
@@ -373,7 +416,7 @@ return {
 		{
 			actor = 501020,
 			side = 2,
-			bgName = "bg_story_outdoor",
+			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "Zoinks, it's An Shan herself!",
@@ -389,7 +432,7 @@ return {
 		{
 			actor = 501010,
 			side = 2,
-			bgName = "bg_story_outdoor",
+			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "What are you doing out here playing with firecrackers? You said you were going to help Ning and Ping make dumplings!",
@@ -404,7 +447,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "bg_story_outdoor",
+			bgName = "star_level_bg_102",
 			dir = 1,
 			actor = 501020,
 			nameColor = "#a9f548",
@@ -438,7 +481,7 @@ return {
 		{
 			nameColor = "#a9f548",
 			side = 0,
-			bgName = "bg_story_outdoor",
+			bgName = "star_level_bg_102",
 			hideOther = true,
 			dir = 1,
 			actor = 501031,
@@ -447,12 +490,14 @@ return {
 			subActors = {
 				{
 					actor = 301162,
+					expression = 5,
 					pos = {
 						x = 585
 					}
 				},
 				{
 					actor = 301323,
+					expression = 6,
 					pos = {
 						x = 1185
 					}
@@ -470,7 +515,7 @@ return {
 		{
 			actor = 501031,
 			side = 2,
-			bgName = "bg_story_outdoor",
+			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "So, do you two still want to set off some An Shan #7's? We've got plenty left.",
@@ -486,15 +531,15 @@ return {
 		{
 			nameColor = "#a9f548",
 			side = 0,
-			bgName = "bg_story_outdoor",
+			bgName = "star_level_bg_102",
 			hideOther = true,
 			dir = 1,
-			actor = 301162,
+			actor = 301323,
 			actorName = "Yukikaze & Mutsuki",
 			say = "Yeah! Of course!",
 			subActors = {
 				{
-					actor = 301323,
+					actor = 301162,
 					pos = {
 						x = 1185
 					}
@@ -521,7 +566,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "bg_story_outdoor",
+			bgName = "bg_night",
 			dir = 1,
 			hideOther = true,
 			say = "Meanwhile, just a short walk away...",
@@ -554,7 +599,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_story_outdoor",
+			bgName = "bg_night",
 			dir = 1,
 			actor = 403044,
 			nameColor = "#a9f548",
@@ -571,7 +616,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_outdoor",
+			bgName = "bg_night",
 			dir = 1,
 			actor = 404011,
 			nameColor = "#a9f548",
@@ -588,7 +633,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_story_outdoor",
+			bgName = "bg_night",
 			dir = 1,
 			actor = 404011,
 			nameColor = "#a9f548",
@@ -605,7 +650,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_story_outdoor",
+			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
 			actor = 403044,
