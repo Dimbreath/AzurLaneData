@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，这件事情的话，在和贝尔法斯特商量以后，这回事先绝对演习任务的人员分配进行一些调整——",
+			say = "嗯，这件事情的话，在和贝尔法斯特商量以后，决定先对参与本次演习任务的人员安排进行一次调整——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
