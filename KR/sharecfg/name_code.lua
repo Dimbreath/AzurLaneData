@@ -913,7 +913,7 @@ pg.name_code = {
 	{
 		id = 183,
 		name = "大鲸",
-		code = "迖"
+		code = "타이게이"
 	}
 }
 
