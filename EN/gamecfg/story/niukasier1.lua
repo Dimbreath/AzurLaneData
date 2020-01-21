@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"讴歌平稳的日常\n\n<size=45>一　临时女仆长</size>",
+					"A Paean for Peace\n\n<size=45>Interim Head Maid</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			actor = 205010,
 			dir = 1,
 			stopbgm = true,
-			say = "听好了，本王和贝法因公要离开港区今天！",
+			say = "Listen closely, Belfast and I will be leaving our posts today!",
 			effects = {
 				{
 					active = true,
@@ -45,7 +45,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "期间的秘书舰工作就交给纽卡斯尔了！",
+			say = "During our absence, secretary duties will be passed to Newcastle!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……有什么好担心的，纽卡斯尔她可是在贝法成为女仆长前负责统筹整个女仆队的！",
+			say = "...There's nothing to worry about. Before Belfast became the head maid, Newcastle was responsible for coordinating the whole maid team.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这家伙虽然有点挺没意思的……但是在辅佐仆人你这件事上还是绰绰有余的！",
+			say = "She might be rather boring, but... she shouldn't have any trouble supporting my servant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			bgm = "story-1",
 			actor = 202190,
 			nameColor = "#a9f548",
-			say = "指挥官，怎么了？",
+			say = "Commander, is something amiss?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			withoutActorName = true,
-			say = "在秘书舰纽卡斯尔的声音下回过神来。",
+			say = "I was pulled back to my senses by the sound of Newcastle's voice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是之前联合演习的报告，请您确认一下",
+			say = "This is the report of the previous joint exercise. Please look over it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			withoutActorName = true,
-			say = "接过纽卡斯尔整理的整整齐齐的报告书。",
+			say = "Newcastle handed me a neatly-organized report.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，您想喝点什么吗？",
+			say = "Commander, would you like anything to drink?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咖啡，浓茶，还有淡啤酒——",
+			say = "Coffee? Roasted tea? Or perhaps pale ale?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			actor = 202190,
 			nameColor = "#a9f548",
-			say = "我个人比较推荐红茶，但是如果您有自己喜好的话我也会给您准备别的",
+			say = "I would personally recommend the tea, but if you'd prefer something else, I'd be glad to prepare it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			},
 			options = {
 				{
-					content = "点一杯红茶",
+					content = "Some tea sounds good.",
 					flag = 1
 				}
 			}
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			actor = 202190,
 			nameColor = "#a9f548",
-			say = "听您吩咐",
+			say = "As you wish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不知何时，放着一套茶具的托盘被放在了桌边。能够微微感受到红茶散发出来的清香和热气。",
+			say = "Before I could blink, a tray with a tea set appeared upon my desk. The fragrance and warmth of the black tea wrapped around my senses.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然可能不比贝尔法斯特，但我也算是带领过女仆队的呢。今天我会努力侍奉您的",
+			say = "Though I cannot hold a candle to Belfast, I formerly directed the Royal Maids. I will strive to serve you to the best of my abilities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不愧是前女仆队统筹，不管是作为秘书舰还是女仆都毫无破绽。",
+			say = "From her demeanor as a maid to her experience with secretary work, there was nothing \"former\" about her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "但是和贝尔法斯特不一样，比起“完美”可能“优秀“更贴近她一点。",
+			say = "If Belfast could be described as \"perfect,\" she would almost be better described as an excellence that transcended perfection.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

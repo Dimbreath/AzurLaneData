@@ -10606,6 +10606,482 @@ pg.ship_data_statistics = {
 			"Fletcher"
 		}
 	},
+	[101331] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Bush",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 101331,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Bush",
+		oxy_cost = 0,
+		skin_id = 101330,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			331,
+			16,
+			52,
+			35,
+			0,
+			74,
+			0,
+			73,
+			59,
+			42,
+			34,
+			51
+		},
+		attrs_growth = {
+			8075,
+			156,
+			518,
+			692,
+			0,
+			366,
+			0,
+			1074,
+			876,
+			0,
+			0,
+			502
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.2,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
+	[101332] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Bush",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 101332,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Bush",
+		oxy_cost = 0,
+		skin_id = 101330,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			412,
+			20,
+			65,
+			44,
+			0,
+			74,
+			0,
+			73,
+			59,
+			42,
+			34,
+			64
+		},
+		attrs_growth = {
+			8075,
+			156,
+			518,
+			692,
+			0,
+			366,
+			0,
+			1074,
+			876,
+			0,
+			0,
+			502
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.12,
+			1.22,
+			1.27
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
+	[101333] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Bush",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 101333,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Bush",
+		oxy_cost = 0,
+		skin_id = 101330,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			573,
+			28,
+			91,
+			61,
+			0,
+			74,
+			0,
+			73,
+			59,
+			42,
+			34,
+			89
+		},
+		attrs_growth = {
+			8075,
+			156,
+			518,
+			692,
+			0,
+			366,
+			0,
+			1074,
+			876,
+			0,
+			0,
+			502
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.25,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
+	[101334] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Bush",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 101334,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Bush",
+		oxy_cost = 0,
+		skin_id = 101330,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			816,
+			39,
+			130,
+			87,
+			0,
+			74,
+			0,
+			73,
+			59,
+			42,
+			34,
+			126
+		},
+		attrs_growth = {
+			8075,
+			156,
+			518,
+			692,
+			0,
+			366,
+			0,
+			1074,
+			876,
+			0,
+			0,
+			502
+		},
+		attrs_growth_extra = {
+			8075,
+			369,
+			1133,
+			471,
+			0,
+			872,
+			0,
+			-627,
+			-614,
+			0,
+			0,
+			446
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.3,
+			1.35
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
 	[101351] = {
 		oxy_max = 0,
 		type = 1,
@@ -14333,6 +14809,482 @@ pg.ship_data_statistics = {
 			0,
 			0,
 			448
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.3,
+			1.35
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
+	[101431] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Halsey Powell",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 101431,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Halsey Powell",
+		oxy_cost = 0,
+		skin_id = 101430,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			338,
+			15,
+			52,
+			41,
+			0,
+			74,
+			0,
+			72,
+			59,
+			42,
+			55,
+			53
+		},
+		attrs_growth = {
+			8235,
+			146,
+			516,
+			800,
+			0,
+			370,
+			0,
+			1068,
+			876,
+			0,
+			0,
+			520
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.2,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
+	[101432] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Halsey Powell",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 101432,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Halsey Powell",
+		oxy_cost = 0,
+		skin_id = 101430,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			420,
+			19,
+			65,
+			51,
+			0,
+			74,
+			0,
+			72,
+			59,
+			42,
+			55,
+			66
+		},
+		attrs_growth = {
+			8235,
+			146,
+			516,
+			800,
+			0,
+			370,
+			0,
+			1068,
+			876,
+			0,
+			0,
+			520
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.12,
+			1.22,
+			1.27
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
+	[101433] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Halsey Powell",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 101433,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Halsey Powell",
+		oxy_cost = 0,
+		skin_id = 101430,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			585,
+			26,
+			91,
+			71,
+			0,
+			74,
+			0,
+			72,
+			59,
+			42,
+			55,
+			92
+		},
+		attrs_growth = {
+			8235,
+			146,
+			516,
+			800,
+			0,
+			370,
+			0,
+			1068,
+			876,
+			0,
+			0,
+			520
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.25,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
+	[101434] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Halsey Powell",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 101434,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Halsey Powell",
+		oxy_cost = 0,
+		skin_id = 101430,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			832,
+			37,
+			129,
+			101,
+			0,
+			74,
+			0,
+			72,
+			59,
+			42,
+			55,
+			131
+		},
+		attrs_growth = {
+			8235,
+			146,
+			516,
+			800,
+			0,
+			370,
+			0,
+			1068,
+			876,
+			0,
+			0,
+			520
+		},
+		attrs_growth_extra = {
+			8235,
+			349,
+			1131,
+			550,
+			0,
+			875,
+			0,
+			-626,
+			-614,
+			0,
+			0,
+			445
 		},
 		lock = {
 			"air"
@@ -25036,6 +25988,486 @@ pg.ship_data_statistics = {
 			1.3,
 			0.65,
 			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Cleveland-Class"
+		}
+	},
+	[102251] = {
+		oxy_max = 0,
+		type = 2,
+		name = "Biloxi",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 102251,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Biloxi",
+		oxy_cost = 0,
+		skin_id = 102250,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			751,
+			28,
+			0,
+			61,
+			0,
+			69,
+			0,
+			58,
+			30,
+			32.5,
+			68,
+			24
+		},
+		attrs_growth = {
+			18305,
+			276,
+			0,
+			1196,
+			0,
+			342,
+			0,
+			852,
+			438,
+			0,
+			0,
+			238
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.7,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Cleveland-Class"
+		}
+	},
+	[102252] = {
+		oxy_max = 0,
+		type = 2,
+		name = "Biloxi",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 102252,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Biloxi",
+		oxy_cost = 0,
+		skin_id = 102250,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			934,
+			35,
+			0,
+			76,
+			0,
+			69,
+			0,
+			58,
+			30,
+			32.5,
+			68,
+			30
+		},
+		attrs_growth = {
+			18305,
+			276,
+			0,
+			1196,
+			0,
+			342,
+			0,
+			852,
+			438,
+			0,
+			0,
+			238
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.7,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Cleveland-Class"
+		}
+	},
+	[102253] = {
+		oxy_max = 0,
+		type = 2,
+		name = "Biloxi",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 102253,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Biloxi",
+		oxy_cost = 0,
+		skin_id = 102250,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1300,
+			49,
+			0,
+			106,
+			0,
+			69,
+			0,
+			58,
+			30,
+			32.5,
+			68,
+			42
+		},
+		attrs_growth = {
+			18305,
+			276,
+			0,
+			1196,
+			0,
+			342,
+			0,
+			852,
+			438,
+			0,
+			0,
+			238
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			0.7,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Cleveland-Class"
+		}
+	},
+	[102254] = {
+		oxy_max = 0,
+		type = 2,
+		name = "Biloxi",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 102254,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Biloxi",
+		oxy_cost = 0,
+		skin_id = 102250,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1849,
+			69,
+			0,
+			151,
+			0,
+			69,
+			0,
+			58,
+			30,
+			32.5,
+			68,
+			60
+		},
+		attrs_growth = {
+			18305,
+			276,
+			0,
+			1196,
+			0,
+			342,
+			0,
+			852,
+			438,
+			0,
+			0,
+			238
+		},
+		attrs_growth_extra = {
+			1831,
+			654,
+			0,
+			589,
+			0,
+			806,
+			0,
+			0,
+			427,
+			0,
+			0,
+			339
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			0.7,
+			1.2
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -57810,6 +59242,123 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[201514] = {
+		oxy_max = 0,
+		type = 1,
+		name = "女将.改",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.34",
+		rarity = 3,
+		ammo = 0,
+		id = 201514,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Amazon",
+		oxy_cost = 0,
+		skin_id = 201010,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			544,
+			30,
+			169,
+			71,
+			0,
+			70,
+			0,
+			68,
+			79,
+			44.4,
+			72,
+			107
+		},
+		attrs_growth = {
+			5390,
+			118,
+			670,
+			560,
+			0,
+			350,
+			0,
+			1008,
+			1164,
+			0,
+			0,
+			428
+		},
+		attrs_growth_extra = {
+			5380,
+			280,
+			1210,
+			385,
+			0,
+			828,
+			0,
+			-591,
+			-879,
+			0,
+			0,
+			444
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.35,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[202011] = {
 		oxy_max = 0,
 		type = 2,
@@ -59250,6 +60799,494 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[202041] = {
+		oxy_max = 0,
+		type = 2,
+		name = "Dido",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 202041,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Dido",
+		oxy_cost = 0,
+		skin_id = 202040,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			647,
+			29,
+			33,
+			74,
+			0,
+			71,
+			0,
+			55,
+			28,
+			32.25,
+			85,
+			41
+		},
+		attrs_growth = {
+			15770,
+			288,
+			324,
+			1456,
+			0,
+			352,
+			0,
+			810,
+			414,
+			0,
+			0,
+			408
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			211
+		},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.2,
+			1.35,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Dido_class"
+		}
+	},
+	[202042] = {
+		oxy_max = 0,
+		type = 2,
+		name = "Dido",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 202042,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Dido",
+		oxy_cost = 0,
+		skin_id = 202040,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			805,
+			36,
+			41,
+			92,
+			0,
+			71,
+			0,
+			55,
+			28,
+			32.25,
+			85,
+			51
+		},
+		attrs_growth = {
+			15770,
+			288,
+			324,
+			1456,
+			0,
+			352,
+			0,
+			810,
+			414,
+			0,
+			0,
+			408
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			212
+		},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.2,
+			1.35,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Dido_class"
+		}
+	},
+	[202043] = {
+		oxy_max = 0,
+		type = 2,
+		name = "Dido",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 202043,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Dido",
+		oxy_cost = 0,
+		skin_id = 202040,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1120,
+			51,
+			57,
+			129,
+			0,
+			71,
+			0,
+			55,
+			28,
+			32.25,
+			85,
+			72
+		},
+		attrs_growth = {
+			15770,
+			288,
+			324,
+			1456,
+			0,
+			352,
+			0,
+			810,
+			414,
+			0,
+			0,
+			408
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			213
+		},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.3,
+			1.35,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Dido_class"
+		}
+	},
+	[202044] = {
+		oxy_max = 0,
+		type = 2,
+		name = "Dido",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 202044,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Dido",
+		oxy_cost = 0,
+		skin_id = 202040,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1593,
+			72,
+			82,
+			183,
+			0,
+			71,
+			0,
+			55,
+			28,
+			32.25,
+			85,
+			102
+		},
+		attrs_growth = {
+			15770,
+			288,
+			324,
+			1456,
+			0,
+			352,
+			0,
+			810,
+			414,
+			0,
+			0,
+			408
+		},
+		attrs_growth_extra = {
+			3154,
+			680,
+			771,
+			477,
+			0,
+			833,
+			0,
+			0,
+			726,
+			0,
+			0,
+			439
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			214
+		},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.3,
+			1.35,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Dido_class"
+		}
+	},
 	[202071] = {
 		oxy_max = 0,
 		type = 2,
@@ -60152,6 +62189,486 @@ pg.ship_data_statistics = {
 			0,
 			0,
 			306
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			214
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.5,
+			1.5,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202101] = {
+		oxy_max = 0,
+		type = 2,
+		name = "Gloucester",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 202101,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Gloucester",
+		oxy_cost = 0,
+		skin_id = 202100,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			666,
+			29,
+			52,
+			60,
+			0,
+			65,
+			0,
+			54,
+			29,
+			32,
+			45,
+			34
+		},
+		attrs_growth = {
+			16250,
+			284,
+			516,
+			1172,
+			0,
+			322,
+			0,
+			792,
+			432,
+			0,
+			0,
+			340
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			211
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.4,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202102] = {
+		oxy_max = 0,
+		type = 2,
+		name = "Gloucester",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 202102,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Gloucester",
+		oxy_cost = 0,
+		skin_id = 202100,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			829,
+			36,
+			65,
+			75,
+			0,
+			65,
+			0,
+			54,
+			29,
+			32,
+			45,
+			43
+		},
+		attrs_growth = {
+			16250,
+			284,
+			516,
+			1172,
+			0,
+			322,
+			0,
+			792,
+			432,
+			0,
+			0,
+			340
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			212
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.4,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202103] = {
+		oxy_max = 0,
+		type = 2,
+		name = "Gloucester",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 202103,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Gloucester",
+		oxy_cost = 0,
+		skin_id = 202100,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1154,
+			50,
+			91,
+			104,
+			0,
+			65,
+			0,
+			54,
+			29,
+			32,
+			45,
+			60
+		},
+		attrs_growth = {
+			16250,
+			284,
+			516,
+			1172,
+			0,
+			322,
+			0,
+			792,
+			432,
+			0,
+			0,
+			340
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			213
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.5,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202104] = {
+		oxy_max = 0,
+		type = 2,
+		name = "Gloucester",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 202104,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Gloucester",
+		oxy_cost = 0,
+		skin_id = 202100,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1641,
+			72,
+			129,
+			148,
+			0,
+			65,
+			0,
+			54,
+			29,
+			32,
+			45,
+			85
+		},
+		attrs_growth = {
+			16250,
+			284,
+			516,
+			1172,
+			0,
+			322,
+			0,
+			792,
+			432,
+			0,
+			0,
+			340
+		},
+		attrs_growth_extra = {
+			0,
+			676,
+			1131,
+			597,
+			0,
+			758,
+			0,
+			3,
+			723,
+			0,
+			0,
+			411
 		},
 		lock = {
 			"air"
@@ -65616,7 +68133,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Dido_class"
+		}
 	},
 	[202202] = {
 		oxy_max = 0,
@@ -65736,7 +68255,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Dido_class"
+		}
 	},
 	[202203] = {
 		oxy_max = 0,
@@ -65856,7 +68377,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Dido_class"
+		}
 	},
 	[202204] = {
 		oxy_max = 0,
@@ -65976,7 +68499,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Dido_class"
+		}
 	},
 	[202241] = {
 		oxy_max = 0,
@@ -66096,7 +68621,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Dido_class"
+		}
 	},
 	[202242] = {
 		oxy_max = 0,
@@ -66216,7 +68743,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Dido_class"
+		}
 	},
 	[202243] = {
 		oxy_max = 0,
@@ -66336,7 +68865,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Dido_class"
+		}
 	},
 	[202244] = {
 		oxy_max = 0,
@@ -66456,7 +68987,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"Dido_class"
+		}
 	},
 	[202261] = {
 		oxy_max = 0,
@@ -72860,7 +75393,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"QE"
+		}
 	},
 	[205012] = {
 		oxy_max = 0,
@@ -72977,7 +75512,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"QE"
+		}
 	},
 	[205013] = {
 		oxy_max = 0,
@@ -73094,7 +75631,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"QE"
+		}
 	},
 	[205014] = {
 		oxy_max = 0,
@@ -73211,7 +75750,9 @@ pg.ship_data_statistics = {
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {
+			"QE"
+		}
 	},
 	[205021] = {
 		oxy_max = 0,
@@ -101512,6 +104053,482 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {
 			"Division 8"
+		}
+	},
+	[301721] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Uranami",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 301721,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Uranami",
+		oxy_cost = 0,
+		skin_id = 301720,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			290,
+			12,
+			97,
+			27,
+			0,
+			76,
+			0,
+			69,
+			72,
+			45.6,
+			75,
+			48
+		},
+		attrs_growth = {
+			7070,
+			118,
+			962,
+			536,
+			0,
+			380,
+			0,
+			1020,
+			1068,
+			0,
+			0,
+			472
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.4,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Special Type"
+		}
+	},
+	[301722] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Uranami",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 301722,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Uranami",
+		oxy_cost = 0,
+		skin_id = 301720,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			361,
+			15,
+			121,
+			34,
+			0,
+			76,
+			0,
+			69,
+			72,
+			45.6,
+			75,
+			60
+		},
+		attrs_growth = {
+			7070,
+			118,
+			962,
+			536,
+			0,
+			380,
+			0,
+			1020,
+			1068,
+			0,
+			0,
+			472
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.45,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Special Type"
+		}
+	},
+	[301723] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Uranami",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 301723,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Uranami",
+		oxy_cost = 0,
+		skin_id = 301720,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			502,
+			21,
+			169,
+			47,
+			0,
+			76,
+			0,
+			69,
+			72,
+			45.6,
+			75,
+			83
+		},
+		attrs_growth = {
+			7070,
+			118,
+			962,
+			536,
+			0,
+			380,
+			0,
+			1020,
+			1068,
+			0,
+			0,
+			472
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.55,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Special Type"
+		}
+	},
+	[301724] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Uranami",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		ammo = 0,
+		id = 301724,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Uranami",
+		oxy_cost = 0,
+		skin_id = 301720,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			714,
+			30,
+			241,
+			67,
+			0,
+			76,
+			0,
+			69,
+			72,
+			45.6,
+			75,
+			119
+		},
+		attrs_growth = {
+			7070,
+			118,
+			962,
+			536,
+			0,
+			380,
+			0,
+			1020,
+			1068,
+			0,
+			0,
+			472
+		},
+		attrs_growth_extra = {
+			7060,
+			280,
+			1198,
+			364,
+			0,
+			895,
+			0,
+			-598,
+			-776,
+			0,
+			0,
+			449
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.6,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Special Type"
 		}
 	},
 	[301791] = {
@@ -198919,6 +201936,10 @@ pg.ship_data_statistics = {
 		101312,
 		101313,
 		101314,
+		101331,
+		101332,
+		101333,
+		101334,
 		101351,
 		101352,
 		101353,
@@ -198951,6 +201972,10 @@ pg.ship_data_statistics = {
 		101422,
 		101423,
 		101424,
+		101431,
+		101432,
+		101433,
+		101434,
 		102011,
 		102012,
 		102013,
@@ -199040,6 +202065,10 @@ pg.ship_data_statistics = {
 		102232,
 		102233,
 		102234,
+		102251,
+		102252,
+		102253,
+		102254,
 		103011,
 		103012,
 		103013,
@@ -199308,6 +202337,7 @@ pg.ship_data_statistics = {
 		201292,
 		201293,
 		201294,
+		201514,
 		202011,
 		202012,
 		202013,
@@ -199320,6 +202350,10 @@ pg.ship_data_statistics = {
 		202032,
 		202033,
 		202034,
+		202041,
+		202042,
+		202043,
+		202044,
 		202071,
 		202072,
 		202073,
@@ -199328,6 +202362,10 @@ pg.ship_data_statistics = {
 		202082,
 		202083,
 		202084,
+		202101,
+		202102,
+		202103,
+		202104,
 		202111,
 		202112,
 		202113,
@@ -199678,6 +202716,10 @@ pg.ship_data_statistics = {
 		301662,
 		301663,
 		301664,
+		301721,
+		301722,
+		301723,
+		301724,
 		301791,
 		301792,
 		301793,

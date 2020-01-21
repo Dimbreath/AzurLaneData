@@ -344,6 +344,18 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 		end
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_SHRINE then
 		slot3.data1 = 1
+	elseif slot5 == ActivityConst.ACTIVITY_TYPE_RED_PACKETS then
+		slot3.data1 = slot3.data1 - 1
+
+		if slot3.data2 > 0 then
+			slot3.data2 = slot3.data2 - 1
+		end
+
+		if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MONOPOLY) and not slot9:isEnd() and slot9.data2_list[2] < slot9.data2_list[1] then
+			slot9.data2_list[2] = slot9.data2_list[2] + 1
+
+			slot8:updateActivity(slot9)
+		end
 	end
 
 	return slot3

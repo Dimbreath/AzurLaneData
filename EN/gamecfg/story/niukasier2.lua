@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"讴歌平稳的日常\n\n<size=45>二　完美和平静</size>",
+					"A Paean for Peace\n\n<size=45>Perfection and Peace</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "（咚咚）",
+			say = "*knock* *knock*",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在和纽卡斯尔一起在指挥室工作时，从外面传来了敲门声",
+			say = "While working with Newcastle in the office, I heard a knock at the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "主人，抱歉打扰您工作了",
+			say = "Master, sincerest apologies for interrupting your work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "纽卡斯尔姐姐，有件事需要请示下……",
+			say = "Newcastle, there's something I would like your help with...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			}
 		},
 		{
-			say = "关于那个仓库的事？",
+			say = "Is it about that warehouse?",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的",
+			say = "Indeed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要最后能整理好，其他的按照谢菲自己的想法来就可以了",
+			say = "It should be fine as long you clean it up afterwards. You should take care of the rest as you see fit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我明白了。谢谢",
+			say = "Understood. Thank you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,14 +159,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "简短的对话结束后，谢菲微微致了一个礼离开了房间",
+			say = "After exchanging a few pleasantries, Sheffield bowed politely and left the office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "刚才是……？",
+					content = "What was that just now...?",
 					flag = 1
 				}
 			}
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "港区旧仓库的事。",
+			say = "There's a slight issue with one of the old warehouses.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家平时都很忙没人顾得上打扫那里，我和谢菲向就向贝尔法斯特提案去打扫一下",
+			say = "Nobody had time to clean it, so Sheffield and I suggested to Belfast that we might take care of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝尔法斯特…女仆长她虽然之前也有想过这事",
+			say = "As for Belfast... Well, if the Head Maid was to handle it, nobody would be leaving until every single item in the warehouse were inventoried and listed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是，如果由贝尔法斯特主导去做的话，肯定是会把所有东西都重新归纳整理记录进档一遍的",
+			say = "Even if all the Royal Maids were to help out, we'd struggle to complete a project of that scope.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,23 +241,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个规模的话…即使是女仆队全员出动也会很费劲吧",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202190,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "如果是我和谢菲的话，两个人就足以应对到一定程度了",
+			say = "But with just Sheffield and me, the two of us would be enough to get things to a satisfactory state.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +255,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "确实，对别人暂且不论，贝尔法斯特对自己的工作肯定是追求完美的",
+			say = "That Belfast will settle for nothing less than perfection, anything else be damned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +265,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "但是实际上，也确实有不那么追求完美，才能更加顺利的进行工作的情况呢",
+			say = "However, there are situations in which the pursuit of perfection is not be the best way to get things done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +277,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，如您所言，虽然这么说有点不好意思",
+			say = "Oh, pardon me. I apologize for boring you with my personal matters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +294,7 @@ return {
 			blackBg = true,
 			actor = 202190,
 			nameColor = "#a9f548",
-			say = "我正好是不那么追求“完美”，只要有“平稳”就能够满足的性格呢",
+			say = "What I now pursue is not \"perfection,\" but rather \"peace.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

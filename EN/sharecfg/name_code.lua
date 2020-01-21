@@ -914,6 +914,11 @@ pg.name_code = {
 		id = 183,
 		name = "大鲸",
 		code = "迖"
+	},
+	{
+		id = 184,
+		name = "Uranami",
+		code = "Uranami"
 	}
 }
 

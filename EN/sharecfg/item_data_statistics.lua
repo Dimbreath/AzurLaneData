@@ -6985,7 +6985,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[40904] = {
-		display = "Lunar New Year Lucky Bag contains 1 x random Ship skin, 2019 x Gems, T3 Cruiser Retrofit Blueprint *1, T2 Cruiser Retrofit Blueprint *5, 20 x Wisdom Cubes, 10 x Quick Finishers, and 100 x Decor Tokens ",
+		display = "Lunar New Year Lucky Bag(2019) contains 1 x random Ship skin, 2019 x Gems, 50 x Cognitive Chips, 20 x Wisdom Cubes, 10 x Quick Finishers, and 100 x Decor Tokens ",
 		rarity = 4,
 		type = 5,
 		name = "Lunar New Year Lucky Bag (2019) ",
@@ -7009,13 +7009,8 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			},
 			{
 				2,
-				18013,
-				1
-			},
-			{
-				2,
-				18012,
-				5
+				15008,
+				50
 			},
 			{
 				2,
@@ -7183,7 +7178,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[40909] = {
-		display = "Lunar New Year Lucky Bag (2020) contains 1 x random Ship skin, 2020 x Gems, 50 x Cognitive Chips, 2 x Special General Blueprint - Series 2, 20 x Wisdom Cubes, 10 x Quick Finishers, and 100 x Decor Tokens ",
+		display = "Lunar New Year Lucky Bag(2020) contains 1 x random Ship skin, 2020 x Gems, 50 x Cognitive Chips, 2 x Special General Blueprint - Series 2, 20 x Wisdom Cubes, 10 x Quick Finishers, and 100 x Decor Tokens ",
 		rarity = 4,
 		type = 5,
 		name = "Lunar New Year Lucky Bag (2020) ",
@@ -12857,17 +12852,17 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[50004] = {
-		display = "Sweet Curry or Hot Curry that is the question.  <color=#A9F548>（Increase EXP by 5 for 60 minutes）</color>",
+		display = "A world-famous delight from the Dragon Empery! <color=#92fc63>(Increases EXP gained by 5% for 60 minutes.)</color> ",
 		rarity = 2,
 		type = 3,
-		name = "Naval curry",
+		name = "Dumplings ",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		virtual_type = 0,
 		replace_item = 0,
 		link_id = 0,
 		id = 50004,
-		icon = "Props/haijungali",
+		icon = "Props/dumpling",
 		display_icon = {},
 		price = {
 			1,
@@ -64528,6 +64523,132 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[57763] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57763,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				6,
+				1
+			},
+			{
+				2,
+				13,
+				1
+			},
+			{
+				2,
+				47,
+				1
+			},
+			{
+				2,
+				10036,
+				1
+			},
+			{
+				2,
+				10042,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57764] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57764,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10002,
+				1
+			},
+			{
+				2,
+				10024,
+				1
+			},
+			{
+				2,
+				10036,
+				1
+			},
+			{
+				2,
+				10042,
+				1
+			},
+			{
+				2,
+				10093,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[57765] = {
+		display = "Chance to receive following designs",
+		rarity = 1,
+		type = 99,
+		name = "Mystery Design",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 57765,
+		icon = "Props/55000",
+		display_icon = {
+			{
+				2,
+				10002,
+				1
+			},
+			{
+				2,
+				10024,
+				1
+			},
+			{
+				2,
+				10036,
+				1
+			},
+			{
+				2,
+				10042,
+				1
+			},
+			{
+				2,
+				13010,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[57770] = {
 		display = "Chance to receive following designs",
 		rarity = 1,
@@ -70064,6 +70185,166 @@ let us celebrate."]],
 		price = {},
 		index = {}
 	},
+	[59960] = {
+		display = "Pigment A used during Anshan's Diary event. Disappears after event has ended.",
+		rarity = 2,
+		type = 0,
+		name = "Pigment A",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 30307,
+		id = 59960,
+		icon = "props/draw_a",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59961] = {
+		display = "Pigment B used during Anshan's Diary event. Disappears after event has ended.",
+		rarity = 2,
+		type = 0,
+		name = "Pigment B",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 30307,
+		id = 59961,
+		icon = "props/draw_b",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59962] = {
+		display = "Pigment C used during Anshan's Diary event. Disappears after event has ended.",
+		rarity = 2,
+		type = 0,
+		name = "Pigment C",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 30307,
+		id = 59962,
+		icon = "props/draw_c",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59963] = {
+		display = "Pigment D used during Anshan's Diary event. Disappears after event has ended.",
+		rarity = 2,
+		type = 0,
+		name = "Pigment D",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 30307,
+		id = 59963,
+		icon = "props/draw_d",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59964] = {
+		display = "Pigment E used during Anshan's Diary event. Disappears after event has ended.",
+		rarity = 2,
+		type = 0,
+		name = "Pigment E",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 30307,
+		id = 59964,
+		icon = "props/draw_e",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59965] = {
+		display = "Pigment F used during Anshan's Diary event. Disappears after event has ended.",
+		rarity = 2,
+		type = 0,
+		name = "Pigment F",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 30307,
+		id = 59965,
+		icon = "props/draw_f",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59966] = {
+		display = "Pigment G used during Anshan's Diary event. Disappears after event has ended.",
+		rarity = 2,
+		type = 0,
+		name = "Pigment G",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 4,
+		replace_item = 0,
+		link_id = 30307,
+		id = 59966,
+		icon = "props/draw_g",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59967] = {
+		display = "Points earned from the \"Fight On, Royal Maids!\" event. Collect them to earn various rewards.",
+		rarity = 2,
+		type = 98,
+		name = "Contribution Pt",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59967,
+		icon = "Props/nvpu2_pt",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59968] = {
+		display = "Can be used to either play the EX stage or earn another Reward Sortie in the \"Fight On, Royal Maids!\" event.",
+		rarity = 4,
+		type = 98,
+		name = "Bonus Ticket",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59968,
+		icon = "Props/nvpu_ticket",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59969] = {
+		display = "An esoteric catalog of creatures.",
+		rarity = 2,
+		type = 0,
+		name = "Collection of Cuties",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59969,
+		icon = "props/chunjiedaka",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[60011] = {
 		display = "Earn 1 EXP in 10 seconds",
 		rarity = 5,
@@ -70092,6 +70373,22 @@ let us celebrate."]],
 		link_id = 0,
 		id = 60012,
 		icon = "Props/54003",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60021] = {
+		display = "An item received through the Manjuu Resort. Can be opened. ",
+		rarity = 2,
+		type = 0,
+		name = "Red Envelope ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 11,
+		replace_item = 0,
+		link_id = 30315,
+		id = 60021,
+		icon = "props/red_packet2",
 		display_icon = {},
 		price = {},
 		index = {}
@@ -70127,17 +70424,19 @@ Skins and their drop rates:
 		display = [[
 This lucky bag contains a random skin listed below. (If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's value in Gems) 
 Skins and drop rates:
-（<color=#A9F548>10%</color>）Belfast - Iridescent Rosa（<color=#A9F548>Live 2D</color>）；
-（<color=#A9F548>10%</color>）Laffey - White Rabbit Welcomes the Spring（<color=#A9F548>Live 2D</color>）；
-（<color=#A9F548>10%</color>）Tai Yuan - The Golden Dragon's Festivities （<color=#A9F548>Live 2D</color>）；
-（<color=#A9F548>14%</color>）Enterprise - Blooming Peony；
-（<color=#A9F548>14%</color>）Yuugure - Twilight Blossom ；
-（<color=#A9F548>14%</color>）Ayanami - Lunar Demon；
-（<color=#A9F548>14%</color>）Lexington - The Beauty of Spring；
-（<color=#A9F548>14%</color>）Chaser - The Way of the Dragon Empery； ]],
+（<color=#A9F548>8.5%</color>）Belfast - Iridescent Rosa（<color=#A9F548>Live 2D</color>）；
+（<color=#A9F548>9%</color>）Laffey - White Rabbit Welcomes the Spring（<color=#A9F548>Live 2D</color>）；
+（<color=#A9F548>9%</color>）Tai Yuan - The Golden Dragon's Festivities （<color=#A9F548>Live 2D</color>）；
+（<color=#A9F548>10.5%</color>）Centaur  - Sprightly Spring Wind；
+（<color=#A9F548>10.5%</color>）Monarch  - Black Gerard ；
+（<color=#A9F548>10.5%</color>）Enterprise - Blooming Peony；
+（<color=#A9F548>10.5%</color>）Yuugure - Twilight Blossom ；
+（<color=#A9F548>10.5%</color>）Ayanami - Lunar Demon；
+（<color=#A9F548>10.5%</color>）Lexington - The Beauty of Spring；
+（<color=#A9F548>10.5%</color>）Chaser - The Way of the Dragon Empery；]],
 		rarity = 4,
 		type = 98,
-		name = "Random Ship Skin (Lunar New Year) ",
+		name = "Random Skin (Lunar New Year 2019) ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -70236,21 +70535,26 @@ Skins and their drop rates:
 	},
 	[69909] = {
 		display = [[
-从如下换装中随机获得1件换装(如果该换装已拥有，则会自动转化为该换装等价的钻石) 
-包含的换装和概率如下：
-（<color=#92fc63>8.5%</color>）贝尔法斯特换装  彩云之玫瑰（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>9%</color>）拉菲换装  白兔迎春（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>9%</color>）太原换装  金蛇闹春（<color=#92fc63>Live 2d</color>）；
-（<color=#92fc63>10.5%</color>）企业换装  傲春之牡丹；
-（<color=#92fc63>10.5%</color>）半人马换装  清冽的春风；
-（<color=#92fc63>10.5%</color>）君主换装  赭红爵祿；
-（<color=#92fc63>10.5%</color>）棭换装  夕暮春华；
-（<color=#92fc63>10.5%</color>）柚换装  新岁之鬼神；
-（<color=#92fc63>10.5%</color>）列克星敦换装  春华佳人；
-（<color=#92fc63>10.5%</color>）追赶者换装  东煌之道；]],
+This lucky bag contains a random skin listed below. (If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's value in Gems) 
+Skins and drop rates:
+（<color=#92fc63>7.8%</color>）Azuma - Soft Voice of Spring（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>7.8%</color>）Yukikaze - Winter's Snowy Wind（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>7.8%</color>）Taihou - Phoenix's Spring Song（<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>7.0%</color>）Ibuki - Arrival of Spring；
+（<color=#92fc63>7.0%</color>）Sirius - White Rose；
+（<color=#92fc63>7.0%</color>）Illustrious - Maiden Lily's Radiance；
+（<color=#92fc63>6.2%</color>）Biloxi - Dapper Gangstress；
+（<color=#92fc63>6.2%</color>）Deutschland -  Lantern-Lit Ruler；
+（<color=#92fc63>6.2%</color>）Scharnhorst - Panther und Pflaume；
+（<color=#92fc63>6.2%</color>）Black Prince - Fair Maid Spring；
+（<color=#92fc63>6.2%</color>）Hiei - Fragrant Red Plum；
+（<color=#92fc63>6.2%</color>）Gloucester - Brilliance in Purple；
+（<color=#92fc63>6.1%</color>）Ping Hai - Great Gourmet Expedition；
+（<color=#92fc63>6.1%</color>）Ning Hai - Springtime Sojourn；
+（<color=#92fc63>6.2%</color>）Halsey Powell - Spring's Lucky Star；]],
 		rarity = 4,
 		type = 98,
-		name = "Random Skin",
+		name = "Random Skin (Lunar New Year 2020) ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -72437,6 +72741,9 @@ Skins and their drop rates:
 		57760,
 		57761,
 		57762,
+		57763,
+		57764,
+		57765,
 		57770,
 		57771,
 		57772,
@@ -72647,8 +72954,19 @@ Skins and their drop rates:
 		59952,
 		59953,
 		59954,
+		59960,
+		59961,
+		59962,
+		59963,
+		59964,
+		59965,
+		59966,
+		59967,
+		59968,
+		59969,
 		60011,
 		60012,
+		60021,
 		69903,
 		69904,
 		69905,

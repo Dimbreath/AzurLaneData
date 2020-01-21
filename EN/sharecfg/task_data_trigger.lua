@@ -264,6 +264,17 @@ pg.task_data_trigger = {
 			}
 		}
 	},
+	[27] = {
+		group_id = 20219,
+		id = 27,
+		activity_id = 30539,
+		args = {
+			{
+				1,
+				5281
+			}
+		}
+	},
 	[28] = {
 		group_id = 10212,
 		id = 28,
@@ -476,6 +487,7 @@ pg.task_data_trigger = {
 		24,
 		25,
 		26,
+		27,
 		28,
 		29,
 		30,

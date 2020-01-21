@@ -2447,21 +2447,21 @@ Current expansions: <color=#92fc63>$3</color>
 5. Paint can be obtained by completing event missions to consume a total amount of oil. 
 6. Completing pages in the Coloring Book will grant rewards. 
 7. The rewards for completing each page are as follows: 
-	 Complete Page 1: Rental Outfit Voucher x1
-	 Complete Page 2: Random Skill Book T3 x2
-	 Complete Page 3: Rental Outfit Voucher x1
-	 Complete Page 4: T3 Main Gun Part x2
-	 Complete Page 5: Rental Outfit Voucher x1
-	 Complete Page 6: T3 General Part x3
-	 Complete Page 7: Jupiter's skin: "Fanclub Sleepover"
+	 Complete Page 1: Random T3 Skill Book x2
+	 Complete Page 2: Red Envelope x1
+	 Complete Page 3: T3 Main Gun Part X2
+	 Complete Page 4: Red Envelope x1
+	 Complete Page 5: T3 General Part x3
+	 Complete Page 6: Red Envelope x1
+	 Complete Page 7: Dragon Empery DD - An Shan
 8. Unlock an extra blank drawing page after completing the first 8 pages in the Coloring Book. 
 9. There are no restrictions on which colors can be used in the blank coloring page, and no paint will be consumed. 
 10. The "Eraser" and "Clear All" functions can be used on the extra blank page. 
 11. The "Eraser" tool can erase a single cell. 
 12. The "Clear All" function will erase all colored cells on the extra page. 
 13. After the event ends, all unused paint will be removed. 
-14. A new page will be unlocked every day until October 2nd.
-15. The extra blank page will be available after October 3rd.]]
+14. A new page will be unlocked every day until January 27th.
+15. The extra blank page will be available after January 28th.]]
 			}
 		}
 	},
@@ -6454,6 +6454,10 @@ Attack/Support Range Level:
 		tip = "The <color=#92fc63>Sparkling Mic</color> will be used to complete the retrofit.\nWould you like to continue? ",
 		key = "ship_remould_warning_102174"
 	},
+	ship_remould_warning_201514 = {
+		tip = "Retrofitting this ship will <color=#92fc63>add 1 Anti-Air Gun mount</color> but <color=#92fc63>remove 1 Torpedo mount.</color> \nWould you like to continue? ",
+		key = "ship_remould_warning_201514"
+	},
 	ship_remould_warning_203114 = {
 		tip = "This ship's <color=#92fc63>Torpedo slot</color> will be converted into an <color=#92fc63>Auxiliary Weapon slot.</color><color=#92fc63>\n<material=underline c=#92fc63 event=clickDetail>View more info here.</material></color>\nWould you like to proceed with the retrofit? ",
 		key = "ship_remould_warning_203114"
@@ -9640,13 +9644,13 @@ Combat Details:
 				info = "<color=#92fc63>- How to Play:</color>"
 			},
 			{
-				info = "During the Crosswave event, your goal is to accumulate <color=#92fc63>Contribution Points (CP)</color> which will progress the mission and can be used to claim Individual Rewards and Milestone Rewards.\n"
+				info = "During the Fight On, Royal Maids! event, your goal is to accumulate <color=#92fc63>Contribution Points (CP)</color> which will progress the mission and can be used to claim Individual Rewards and Milestone Rewards.\n"
 			},
 			{
 				info = [[
-During the event period, you will play on a special stage and face off against a Sakura Empire fleet led by the battleship Suruga.
+During the event period, you will play on a special stage and face off against the Royal Maids fleet led by the light cruiser Dido.
 All commanders on the same server will need to work together by gathering CP and <color=#92fc63>lowering the progress gauge to 0%</color> in order to complete the mission.
-Once the mission is completed, all players who participated will be rewarded with a special piece of gear sent to their Mailbox.
+Once the mission is completed, all players who participated will be rewarded with a gift sent to their Mailbox.
 <color=#92fc63>Note that you can still earn CP through the Event Stage even once the progress gauge has hit 0%.</color>
 ]]
 			},
@@ -11213,6 +11217,49 @@ depends on the amount of damage dealt to the boss.
 		tip = "When toggled ON, the loading display will adapt to your device's aspect ratio.",
 		key = "option_desc6"
 	},
+	music_juus = {
+		key = "music_juus",
+		tip = {
+			{
+				info = "\"Juustagram\" Information:"
+			},
+			{
+				info = "1. During the event, characters will periodically make social media posts."
+			},
+			{
+				info = [[
+2. When a new post is available to read, a notification will appear at the “Juustagram” screen.
+3. You may interact with these posts by Liking, Sharing, or Commenting.
+<color=#92fc63>Note:</color>After you have “Liked” a post, you may not cancel it.
+After leaving a comment on a post, you may receive a reply after a period of time.
+]]
+			}
+		}
+	},
+	ins_word_day = {
+		tip = "$1 days ago ",
+		key = "ins_word_day"
+	},
+	ins_word_hour = {
+		tip = "$1 hours ago",
+		key = "ins_word_hour"
+	},
+	ins_word_minu = {
+		tip = "$1 minutes ago",
+		key = "ins_word_minu"
+	},
+	ins_word_like = {
+		tip = "$1 Likes",
+		key = "ins_word_like"
+	},
+	ins_click_like_success = {
+		tip = "You Liked this post.",
+		key = "ins_click_like_success"
+	},
+	ins_push_comment_success = {
+		tip = "You left a comment on this post.",
+		key = "ins_push_comment_success"
+	},
 	skinshop_live2d_fliter_failed = {
 		tip = "No outfits to display under current filter settings ",
 		key = "skinshop_live2d_fliter_failed"
@@ -11673,6 +11720,179 @@ The expiration of the education blessing will not cause any lesson in progress t
 	word_no_cache = {
 		tip = "There are no assets to repair.",
 		key = "word_no_cache"
+	},
+	pile_game_notice = {
+		key = "pile_game_notice",
+		tip = {
+			{
+				info = [[
+- The Manjuu Tower:
+The Manjuu Tower is a minigame where your goal is to collect the fallen blocks and stack them as high as you can.
+When you finish the game while in possession of a Ticket, 1 Ticket will be deducted and you'll receive a Stamp.
+Once you've collected 7 Stamps, you can unlock the Sakura Empire DD through the Spring Festival screen.
+You will receive 1 Ticket each day for the duration of the event.
+
+- Minigame Details:
+1. Tap on the screen to make blocks fall down from the top of the screen.
+2. Make the blocks fall onto the tower to build it and increase your score. Once 3 blocks have fallen and missed the tower, the game ends.
+3. The tower has a balance value that must be maintained. If your tower loses too much balance and the Manjuu to the right of the screen reaches the red area, your tower will collapse and the game will end.
+4. If you stop the game midway through, you won't lose a Ticket, but you won't receive a Stamp either-
+5. You can play the minigame even without a Ticket if you'd so like.]]
+			}
+		}
+	},
+	help_chunjie_stamp = {
+		key = "help_chunjie_stamp",
+		tip = {
+			{
+				info = [[
+- Summary:
+During the Spring Festival event, you can play the Manjuu Tower minigame to collect Stamps, which will earn you the Sakura Empire DD Uranami.
+To get these Stamps, you first need to have a Ticket, which you get by logging in during the event period.
+
+- How to Get Tickets
+To get a Ticket, you simply need to log in to the game during the event period, and you'll receive 1 Ticket.
+
+- How to Get Stamps
+Please note that you can only receive Stamps through the Manjuu Tower minigame. You cannot receive them through Fu Shun's Great Adventure or Empery Monopoly.]]
+			}
+		}
+	},
+	help_chunjie_feast = {
+		key = "help_chunjie_feast",
+		tip = {
+			{
+				info = [[
+- The Spring Festival Event:
+1. Test your block building skills in the Manjuu Tower minigame to get Stamps and unlock Uranami!
+2. Express your inner paintbook Picasso and finish the paintings to unlock An Shan!
+3. Slay the ferocious Nien Shou to unlock Fu Shun!
+4. Pass some time with Empery Monopoly and roll the dice to get Red Envelopes!
+5. Got a bunch of Red Envelopes? Good! There is where you can open them!
+6. Hop over to the shop screen and check out the hottest new outfits!
+7. Hop over to the build screen and construct new ships to add to your fleet!
+]]
+			}
+		}
+	},
+	help_chunjie_jiulou = {
+		key = "help_chunjie_jiulou",
+		tip = {
+			{
+				info = [[
+- Manjuu Resort Info:
+1. You can visit the Manjuu Resort to open the Red Envelopes you've collected through playing minigames.
+2. Red Envelopes can be acquired from Fu Shun's Great Adventure, Empery Monopoly, the Drawing Book, and the Manjuu Tower.
+3. Special Red Envelopes from your inventory will be prioritized for opening. The rewards you receive when opening one, including the amount of Gems, are randomly determined.
+4. You can keep up to 15 Special Red Envelopes in your inventory at a time.]]
+			}
+		}
+	},
+	special_animal1 = {
+		tip = "[Uranami's Collection of Cuties - #1] Axofrostl: a strange creature with the power to rapidly freeze its prey. It builds its nest in frozen lakes.",
+		key = "special_animal1"
+	},
+	special_animal2 = {
+		tip = "[Uranami's Collection of Cuties - #2] Paranoebill: this bird flies with telekinesis, rather than its wings. It is peaceful and a conscientious objector, but will use its power for self-defense if necessary.",
+		key = "special_animal2"
+	},
+	special_animal3 = {
+		tip = "[Uranami's Collection of Cuties - #3] Pinnisphere: it puffs itself up into a ball by filling its lungs beyond capacity. Apparently it's just a party trick.",
+		key = "special_animal3"
+	},
+	special_animal4 = {
+		tip = "[Uranami's Collection of Cuties - #4] Uniqorn: a rare creature of mythological origins, said to only associate with other Uniqorns. It communicates telepathically and can fly.",
+		key = "special_animal4"
+	},
+	special_animal5 = {
+		tip = "[Uranami's Collection of Cuties - #5] Inwanshirible: somehow, this dog learned how to make itself nearly invisible. Keyword: nearly. Its fluffy butt remains in full view.",
+		key = "special_animal5"
+	},
+	special_animal6 = {
+		tip = "[Uranami's Collection of Cuties - #6] Swolejuu: after rigorous lifting, a mountain of oats, and mastering the art of ridiculing binoclards, this little bird became ABSOLUTELY RIPPED, BROTHER.",
+		key = "special_animal6"
+	},
+	special_animal7 = {
+		tip = "[Uranami's Collection of Cuties - #7] Meunchkus: it secretes a rainbow-colored liquid through its mouth. Accounts from people who'd rather remain anonymous claim \"it also tastes like a rainbow.\"",
+		key = "special_animal7"
+	},
+	monopoly_left_count = {
+		tip = "Dice: ",
+		key = "monopoly_left_count"
+	},
+	help_chunjie_monopoly = {
+		key = "help_chunjie_monopoly",
+		tip = {
+			{
+				info = "Rules:"
+			},
+			{
+				info = "1. Tap the “Dice” icon on the bottom right-hand side to\nuse 1 Dice and move the corresponding number of spaces\non the game board."
+			},
+			{
+				info = "2. You will earn a bonus for every 5 Dice used."
+			},
+			{
+				info = "3. During the event, you will gain 5 Dice every day."
+			},
+			{
+				info = "4. Different game tiles have different effects.\nYou may earn a sum of Coins when passing go."
+			},
+			{
+				info = " ：Earn a small amount of Coins",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "jinbi"
+				}
+			},
+			{
+				info = " ：Earn a small amount of Oil",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "shiyou"
+				}
+			},
+			{
+				info = " ：A random mini-event may occur",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "minyun"
+				}
+			},
+			{
+				info = " ：Earn a random item",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "daoju"
+				}
+			},
+			{
+				info = " ：Random movement event",
+				icon = {
+					posX = 0,
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					path = "teshu"
+				}
+			}
+		}
+	},
+	monoply_drop_ship_step = {
+		tip = "Complete $1 more laps to earn the limited outfit, \"Style of the East.\"",
+		key = "monoply_drop_ship_step"
 	}
 }
 

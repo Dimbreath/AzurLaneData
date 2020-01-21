@@ -219,9 +219,119 @@ pg.activity_event_worldboss = {
 		expedition_buff = {},
 		expedition_both_buff = {}
 	},
+	{
+		group_num = 1,
+		ticket = 2005,
+		submarine_num = 1,
+		damage_resource = 2004,
+		id = 3,
+		ex_expedition = 1320401,
+		boss_id = {
+			4
+		},
+		reward_pt = {
+			9500,
+			9500,
+			9500,
+			9000,
+			8500,
+			8000,
+			7500,
+			7000,
+			6500,
+			6000,
+			5500,
+			5000,
+			4500,
+			4000,
+			3500,
+			3000,
+			2500,
+			2000,
+			1500,
+			1000,
+			500,
+			0,
+			0
+		},
+		time = {
+			{
+				{
+					2020,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		formula = {
+			10,
+			5,
+			2,
+			60,
+			0.026,
+			0.68,
+			1.3,
+			11.7,
+			0.1
+		},
+		ex_expedition_enemy = {
+			{
+				1320401,
+				{
+					13000401
+				}
+			}
+		},
+		normal_expedition = {
+			1320101,
+			1320201,
+			1320301
+		},
+		normal_expedition_drop_num = {
+			{
+				{
+					1320101
+				},
+				15
+			},
+			{
+				{
+					1320201
+				},
+				15
+			},
+			{
+				{
+					1320301
+				},
+				15
+			}
+		},
+		stage_hp = {},
+		expedition_buff = {},
+		expedition_both_buff = {}
+	},
 	all = {
 		1,
-		2
+		2,
+		3
 	}
 }
 

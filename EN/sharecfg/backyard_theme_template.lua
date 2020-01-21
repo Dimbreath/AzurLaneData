@@ -677,7 +677,7 @@ pg.backyard_theme_template = {
 		discount_time = {
 			{
 				{
-					2019,
+					2020,
 					1,
 					21
 				},
@@ -689,9 +689,9 @@ pg.backyard_theme_template = {
 			},
 			{
 				{
-					2019,
+					2020,
 					2,
-					7
+					5
 				},
 				{
 					23,
@@ -1204,15 +1204,14 @@ pg.backyard_theme_template = {
 		name = "Year of The Boar ",
 		desc = "Some traditional furniture from the Dragon Empery! This set is sure to welcome good luck and prosperity for the upcoming year! ",
 		deblocking = 1,
-		new = 1,
-		hot = 1,
+		new = 0,
+		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
-		discount = 0,
+		discount = 20,
 		id = 39,
 		icon = "znthemeicon",
 		comfortable = 0,
-		discount_time = "",
 		ids = {
 			39001,
 			39002,
@@ -1251,6 +1250,32 @@ pg.backyard_theme_template = {
 			39305,
 			39306,
 			39307
+		},
+		discount_time = {
+			{
+				{
+					2020,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[41] = {
@@ -1855,6 +1880,42 @@ pg.backyard_theme_template = {
 			57117
 		}
 	},
+	[58] = {
+		Cfg_1 = 5,
+		name = "Festive Reunion!",
+		desc = "Cheers to another year of prosperity and good health!",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 58,
+		icon = "cj2themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			58001,
+			58002,
+			58101,
+			58102,
+			58103,
+			58104,
+			58105,
+			58106,
+			58107,
+			58108,
+			58109,
+			58110,
+			58111,
+			58112,
+			58113,
+			58301,
+			58302,
+			58303,
+			58304
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1894,7 +1955,8 @@ pg.backyard_theme_template = {
 		54,
 		55,
 		56,
-		57
+		57,
+		58
 	}
 }
 

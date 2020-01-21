@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"讴歌平稳的日常\n\n<size=45>六　黄昏的景色</size>",
+					"A Paean for Peace\n\n<size=45>Sunset</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "转了一圈，大家需要的东西都差不多买齐了。",
+			say = "After making our rounds, we managed to purchase everything we came out for.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "离和谢菲碰头还有一段时间……",
+			say = "We still have some free time before we're supposed to meet up with Sheffield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，需要稍微休息一下吗？",
+			say = "Commander, why don't we rest for a bit?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,14 +81,14 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
-			say = "接受了纽卡斯尔的提案，两人在街角的一条长椅上坐下",
+			say = "In accordance to Newcastle's suggestion, we sat down on a bench at the street corner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "和纽卡斯尔聊点什么",
+					content = "Strike up a conversation with Newcastle",
 					flag = 1
 				}
 			}
@@ -99,7 +99,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "和女仆之外的人出来买东西是很珍贵的经验呢",
+			say = "I rarely get to shop with anyone but the Royal Maids.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "从殿下那里接过女仆统筹的任务之后，基本都是和女仆们一起行动的，在那之后也是在本岛和格拉斯克一起……",
+			say = "Ever since I accepted Her Majesty's appointment, I've pretty much done everything with the other maids. Even afterwards, when I returned to the Royal Islands, I was always with Glasgow...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不好意思，刚才的话是否有点太消极了…？",
+			say = "I'm sorry, I hope it doesn't sound like I'm brooding...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我没关系的，不管在哪里都是一样。",
+			say = "Don't worry about me. I'll be able to adapt, no matter where I am.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "star_level_bg_105",
 			dir = 1,
 			withoutActorName = true,
-			say = "她从不知道什么地方掏出一本小小的书本，在腿上翻开。",
+			say = "She pulled a book out of hammerspace and placed it upon her thighs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不管是战争还是和平，作为女仆还是秘书舰，我都还是我自己。只要能和重要的人在一起我就满足了",
+			say = "Whether in times of war or times of peace, whether I'm serving as a maid or as a secretary, I can be myself as long as I'm surrounded by those dear to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对我来说这就是平稳，至于我自己的愿望如何，都不过是一点小事而已",
+			say = "This is what \"peace\" means to me. As for my dreams, those are but trivial matters.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "或许陛下可能是对这点比较生气的吧……",
+			say = "Her Majesty might disapprove of my viewpoint, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,13 +222,13 @@ return {
 			}
 		},
 		{
-			blackBgtrue,
+			side = 2,
+			bgName = "star_level_bg_105",
+			dir = 1,
+			blackBg = true,
 			actor = 202190,
 			nameColor = "#a9f548",
-			side = 2,
-			dir = 1,
-			bgName = "star_level_bg_105",
-			say = "“你也应该有自己的愿望哦”，陛下是这么说的——",
+			say = "She did once tell me, verbatim, \"You should hold onto your dreams\".",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

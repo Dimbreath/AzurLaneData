@@ -3138,6 +3138,225 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[2181] = {
+		desc_get = "",
+		name = "Comprehensive Defense",
+		desc = "At the start of the battle and every 30s after that: increases this ship's AA and ASW by $1 for 20s.",
+		type = 2,
+		max_level = 10,
+		id = 2181,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5%",
+				"15%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[2191] = {
+		desc_get = "",
+		name = "Ammunition Command",
+		desc = "When the fleet this ship is in is Out of Ammo: decreases the effect of the DMG debuff by $1.",
+		type = 3,
+		max_level = 10,
+		id = 2191,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5%",
+				"15%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[2201] = {
+		desc_get = "",
+		name = "Air-Surface Switch",
+		desc = "While this ship is equipping the Twin 127mm MK12 Dual Gun: increases this ship's AA by $1 but decreases its FP by $2; while not equipping this gun: increases this ship's FP by $1 but decreases its AA by $2.",
+		type = 2,
+		max_level = 10,
+		id = 2201,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5%",
+				"15%"
+			},
+			{
+				"15%",
+				"5%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"-1.2%"
+				},
+				{
+					"13.8%",
+					"-1.1%"
+				},
+				{
+					"12.7%",
+					"-1.1%"
+				},
+				{
+					"11.6%",
+					"-1.1%"
+				},
+				{
+					"10.5%",
+					"-1.1%"
+				},
+				{
+					"9.4%",
+					"-1.1%"
+				},
+				{
+					"8.3%",
+					"-1.1%"
+				},
+				{
+					"7.2%",
+					"-1.1%"
+				},
+				{
+					"6.1%",
+					"-1.1%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	},
 	[3001] = {
 		desc_get = "",
 		name = "Quick Takeoff",
@@ -27676,6 +27895,476 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[12930] = {
+		desc_get = "",
+		name = "Dido's Aria",
+		desc = "Increases the FP, TRP, and AA of all your Dido-class CLs by $1. At the start of the battle: increases this ship's AA and EVA by $1 for 30s.",
+		type = 3,
+		max_level = 10,
+		id = 12930,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[12940] = {
+		desc_get = "",
+		name = "For the Queen",
+		desc = "Increases this ship's FP, AA, and RLD by $1 for every other Royal Navy ship in your fleet at the start of the battle (can be stacked up to 4 times.) When sortied with Queen Elizabeth: increases Queen Elizabeth's FP, RLD, EVA, and Accuracy by $2 and Main Gun Crit Rate by $3.",
+		type = 3,
+		max_level = 10,
+		id = 12940,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"1.5%",
+				"6.0%"
+			},
+			{
+				"2.5%",
+				"7.0%"
+			},
+			{
+				"5.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%"
+				}
+			},
+			{
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.6%"
+				},
+				{
+					"6.6%",
+					"+1.6%"
+				},
+				{
+					"8.2%",
+					"+1.8%"
+				},
+				{
+					"10.0%",
+					"+1.6%"
+				},
+				{
+					"11.6%",
+					"+1.6%"
+				},
+				{
+					"13.2%",
+					"+1.8%"
+				},
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.8%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[12950] = {
+		desc_get = "",
+		name = "The Fighting G",
+		desc = "Increases this ship's FP and Accuracy by 5.0%. Every time this ship sinks an enemy: increases this ship's FP and Accuracy by $1 for the rest of the battle (can be stacked up to 5 times.)",
+		type = 1,
+		max_level = 10,
+		id = 12950,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"1.0%",
+				"2.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+0.09%"
+				},
+				{
+					"1.09%",
+					"+0.09%"
+				},
+				{
+					"1.18%",
+					"+0.12%"
+				},
+				{
+					"1.3%",
+					"+0.09%"
+				},
+				{
+					"1.39%",
+					"+0.09%"
+				},
+				{
+					"1.48%",
+					"+0.12%"
+				},
+				{
+					"1.6%",
+					"+0.12%"
+				},
+				{
+					"1.72%",
+					"+0.12%"
+				},
+				{
+					"1.84%",
+					"+0.16%"
+				},
+				{
+					"2.0%"
+				}
+			}
+		}
+	},
+	[12960] = {
+		desc_get = "",
+		name = "Protective Blaze",
+		desc = "Once per battle, when the HP of any ship in your fleet falls below 50.0%: for 12s, increases this ship's AA by $1 and decreases the DMG taken by the ship whose HP fell below the threshold by $1.",
+		type = 2,
+		max_level = 10,
+		id = 12960,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[12970] = {
+		desc_get = "",
+		name = "Practical Instruction",
+		desc = "At the start of the battle: for 80s, decreases this ship's DMG taken by $1, increases its DMG dealt by $2, and decreases the DMG taken by all DDs (excluding this ship) in your fleet by $3.",
+		type = 2,
+		max_level = 10,
+		id = 12970,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"3.5%",
+				"8.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shell +",
@@ -30969,6 +31658,28 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[21181] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Gloucester Class once every 12 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 21181,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[21182] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Gloucester Class once every 8 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 21182,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[21211] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
@@ -32949,6 +33660,28 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 29482,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29491] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Dido once every 15 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 29491,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29492] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Dido once every 10 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 29492,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -36158,6 +36891,9 @@ pg.skill_data_template = {
 		2151,
 		2161,
 		2171,
+		2181,
+		2191,
+		2201,
 		3001,
 		3011,
 		3021,
@@ -36522,6 +37258,11 @@ pg.skill_data_template = {
 		12890,
 		12900,
 		12910,
+		12930,
+		12940,
+		12950,
+		12960,
+		12970,
 		18010,
 		18040,
 		18050,
@@ -36627,6 +37368,8 @@ pg.skill_data_template = {
 		21162,
 		21171,
 		21172,
+		21181,
+		21182,
 		21211,
 		21212,
 		21221,
@@ -36807,6 +37550,8 @@ pg.skill_data_template = {
 		29442,
 		29481,
 		29482,
+		29491,
+		29492,
 		101010,
 		101020,
 		101030,

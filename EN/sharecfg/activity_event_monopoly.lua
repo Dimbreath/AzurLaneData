@@ -71,8 +71,66 @@ pg.activity_event_monopoly = {
 			}
 		}
 	},
+	{
+		daily_time = 5,
+		id = 2,
+		reward_time = 5,
+		map = {
+			1001,
+			1002,
+			1003,
+			1004,
+			1005,
+			1006,
+			1007,
+			1008,
+			1009,
+			1010,
+			1011,
+			1012,
+			1013,
+			1014,
+			1015,
+			1016,
+			1017,
+			1018
+		},
+		reward = {},
+		reward_extra = {},
+		story = {
+			{
+				0,
+				"DONGHUANGCHUNJIE1"
+			},
+			{
+				6,
+				"DONGHUANGCHUNJIE2"
+			},
+			{
+				12,
+				"DONGHUANGCHUNJIE3"
+			},
+			{
+				18,
+				"DONGHUANGCHUNJIE4"
+			},
+			{
+				24,
+				"DONGHUANGCHUNJIE5"
+			},
+			{
+				30,
+				"DONGHUANGCHUNJIE6"
+			},
+			{
+				36,
+				"DONGHUANGCHUNJIE7"
+			}
+		}
+	},
 	all = {
-		1
+		1,
+		2
 	}
 }
 

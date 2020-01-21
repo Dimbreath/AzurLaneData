@@ -90,6 +90,9 @@ function slot0.Ctor(slot0, slot1)
 	slot0.lastReqStamp = 0
 	slot0.trans = false
 	slot2 = slot0.getDefaultShipConfig(slot0.id)
+
+	print(shipid)
+
 	slot0.shipConfig = setmetatable({}, {
 		__index = function (slot0, slot1)
 			return slot0[slot1]
