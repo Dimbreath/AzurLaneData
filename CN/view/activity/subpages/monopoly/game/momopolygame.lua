@@ -539,7 +539,6 @@ function slot0.updateLeftCount(slot0)
 	slot0.leftCountTF.text = slot0.leftCount
 
 	slot0.commonAnim:SetInteger("count", slot0.leftAwardCnt)
-	setGray(slot0.commonAnim.gameObject, slot0.leftAwardCnt <= 0)
 
 	if PLATFORM_CODE == PLATFORM_CHT then
 		slot0.dropShipTxt.text = slot0.leftDropShipCnt
