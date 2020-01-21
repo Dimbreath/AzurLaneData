@@ -8874,7 +8874,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "{namecode:175}、{namecode:179} 출현 확률UP！",
+		tip = "{namecode:175}、{namecode:179}、카스미 출현 확률UP！",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
