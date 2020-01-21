@@ -244,6 +244,26 @@ pg.skill_data_display = {
 		id = 2171,
 		name = "Anti-Air Vigilance"
 	},
+	[2181] = {
+		id = 2181,
+		name = "Comprehensive Defense "
+	},
+	[2190] = {
+		id = 2190,
+		name = "Ammunition Command "
+	},
+	[2191] = {
+		id = 2191,
+		name = "Ammunition Command "
+	},
+	[2200] = {
+		id = 2200,
+		name = "Air-Surface Switch "
+	},
+	[2201] = {
+		id = 2201,
+		name = "Air-Surface Switch "
+	},
 	[3001] = {
 		id = 3001,
 		name = "Quick Takeoff"
@@ -591,6 +611,18 @@ pg.skill_data_display = {
 	[8655] = {
 		id = 8655,
 		name = "Gammadion Gang's Bond"
+	},
+	[8662] = {
+		id = 8662,
+		name = "Battle Begins"
+	},
+	[8663] = {
+		id = 8663,
+		name = "Royal Maids Support - \"A\" Mode"
+	},
+	[8664] = {
+		id = 8664,
+		name = "Royal Maids Support - \"B\" Mode"
 	},
 	[9010] = {
 		id = 9010,
@@ -2192,6 +2224,38 @@ pg.skill_data_display = {
 		id = 12910,
 		name = "Destroyer Division 6: Hibiki "
 	},
+	[12930] = {
+		id = 12930,
+		name = "Arias of Dido"
+	},
+	[12931] = {
+		id = 12931,
+		name = "Arias of Dido"
+	},
+	[12940] = {
+		id = 12940,
+		name = "For The Queen"
+	},
+	[12941] = {
+		id = 12941,
+		name = "For The Queen"
+	},
+	[12950] = {
+		id = 12950,
+		name = "The Fighting G"
+	},
+	[12951] = {
+		id = 12951,
+		name = "The Fighting G"
+	},
+	[12960] = {
+		id = 12960,
+		name = "Protective Blaze"
+	},
+	[12970] = {
+		id = 12970,
+		name = "Practical Instruction"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shell +"
@@ -2626,11 +2690,11 @@ pg.skill_data_display = {
 	},
 	[21091] = {
 		id = 21091,
-		name = "全弹发射I"
+		name = "All Out Assault Ⅰ"
 	},
 	[21092] = {
 		id = 21092,
-		name = "全弹发射II"
+		name = "All Out Assault Ⅱ"
 	},
 	[21111] = {
 		id = 21111,
@@ -2687,6 +2751,14 @@ pg.skill_data_display = {
 	[21172] = {
 		id = 21172,
 		name = "All Out Assault: Ceres-Class II"
+	},
+	[21181] = {
+		id = 21181,
+		name = "All Out Assault Ⅰ"
+	},
+	[21182] = {
+		id = 21182,
+		name = "All Out Assault Ⅱ"
 	},
 	[21211] = {
 		id = 21211,
@@ -3400,6 +3472,14 @@ pg.skill_data_display = {
 		id = 29482,
 		name = "All Out Assault Ⅱ"
 	},
+	[29491] = {
+		id = 29491,
+		name = "All Out Assault Ⅰ"
+	},
+	[29492] = {
+		id = 29492,
+		name = "All Out Assault Ⅱ"
+	},
 	[101010] = {
 		id = 101010,
 		name = "Protagonist Aura"
@@ -3726,6 +3806,11 @@ pg.skill_data_display = {
 		2160,
 		2161,
 		2171,
+		2181,
+		2190,
+		2191,
+		2200,
+		2201,
 		3001,
 		3011,
 		3021,
@@ -3813,6 +3898,9 @@ pg.skill_data_display = {
 		8653,
 		8654,
 		8655,
+		8662,
+		8663,
+		8664,
 		9010,
 		9020,
 		9030,
@@ -4213,6 +4301,14 @@ pg.skill_data_display = {
 		12900,
 		12901,
 		12910,
+		12930,
+		12931,
+		12940,
+		12941,
+		12950,
+		12951,
+		12960,
+		12970,
 		18010,
 		18040,
 		18041,
@@ -4337,6 +4433,8 @@ pg.skill_data_display = {
 		21162,
 		21171,
 		21172,
+		21181,
+		21182,
 		21211,
 		21212,
 		21221,
@@ -4515,6 +4613,8 @@ pg.skill_data_display = {
 		29442,
 		29481,
 		29482,
+		29491,
+		29492,
 		101010,
 		101020,
 		101030,

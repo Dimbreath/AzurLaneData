@@ -76,10 +76,18 @@ function slot0.InitByConfig(slot0, slot1)
 			slot1 = {}
 		end
 
+		slot2 = ""
+		slot3 = pg.TimeMgr.GetInstance():GetServerTime()
+
+		if slot0[slot0.message_persist] then
+			slot2 = slot0[slot0.message_persist].value
+			slot3 = pg.TimeMgr:GetInstance():parseTimeFromConfig(slot0.time_persist)
+		end
+
 		return {
 			id = slot0.id,
-			time = pg.TimeMgr:GetInstance():parseTimeFromConfig(slot0.time_persist),
-			text = slot0[slot0.message_persist].value,
+			time = slot3,
+			text = slot2,
 			npc_reply = slot1
 		}
 	end

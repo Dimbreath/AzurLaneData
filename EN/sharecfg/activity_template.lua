@@ -10205,6 +10205,695 @@ pg.activity_template = {
 			}
 		}
 	},
+	[30306] = {
+		mark = 20190121,
+		title_res_tag = "beatmonster",
+		type = 32,
+		login_pop = 0,
+		config_id = 2,
+		is_show = 50,
+		config_data = "",
+		config_client = "",
+		id = 30306,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/beatmonster_bg"
+		}
+	},
+	[30307] = {
+		mark = 20190121,
+		title_res_tag = "",
+		type = 43,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 30307,
+		config_data = {
+			{
+				39,
+				92401
+			},
+			{
+				40,
+				92402
+			},
+			{
+				41,
+				92403
+			},
+			{
+				42,
+				92404
+			},
+			{
+				43,
+				92405
+			},
+			{
+				44,
+				92406
+			},
+			{
+				45,
+				92407
+			},
+			{
+				46,
+				0
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30308] = {
+		mark = 20190121,
+		title_res_tag = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 30308,
+		config_data = {
+			15310,
+			15311,
+			15312,
+			15313,
+			15314,
+			15315,
+			15316,
+			15317,
+			15318,
+			15319,
+			15320,
+			15321,
+			15322,
+			15323,
+			15324,
+			15325,
+			15326,
+			15327
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30309] = {
+		mark = 20190121,
+		title_res_tag = "monopoly",
+		type = 51,
+		login_pop = 0,
+		config_id = 2,
+		is_show = 49,
+		config_client = "",
+		id = 30309,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/monopoly_bg"
+		}
+	},
+	[30310] = {
+		mark = 20190121,
+		title_res_tag = "ruoyeshengdan",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 51,
+		config_client = "",
+		id = 30310,
+		config_data = {
+			{
+				15290,
+				15291
+			},
+			{
+				15292,
+				15293
+			},
+			{
+				15294,
+				15295
+			},
+			{
+				15296,
+				15297
+			},
+			{
+				15298,
+				15299
+			},
+			{
+				15300,
+				15301
+			},
+			{
+				15302,
+				15303
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_mutsuki_newyear"
+		}
+	},
+	[30311] = {
+		mark = 20190121,
+		title_res_tag = "",
+		type = 52,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 0,
+		bg = "",
+		id = 30311,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			story = {
+				{
+					10000,
+					"DAIDUOBOSS1"
+				},
+				{
+					7500,
+					"DAIDUOBOSS2"
+				},
+				{
+					5000,
+					"DAIDUOBOSS3"
+				},
+				{
+					2500,
+					"DAIDUOBOSS4"
+				},
+				{
+					0,
+					"DAIDUOBOSS5"
+				}
+			}
+		}
+	},
+	[30312] = {
+		mark = 20190121,
+		title_res_tag = "",
+		type = 46,
+		login_pop = 0,
+		config_id = 2004,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		bg = "",
+		id = 30312,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30313] = {
+		mark = 20190121,
+		title_res_tag = "",
+		type = 54,
+		login_pop = 0,
+		config_id = 30313,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 30313,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30314] = {
+		mark = 20190121,
+		title_res_tag = "",
+		type = 57,
+		login_pop = 0,
+		config_id = 5,
+		is_show = 0,
+		bg = "",
+		id = 30314,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			ships = {
+				"dafeng_4",
+				"guanghui_5",
+				"wuqi_2",
+				"tianlangxing_4",
+				"ninghai_5",
+				"pinghai_5"
+			}
+		}
+	},
+	[30315] = {
+		mark = 20190121,
+		title_res_tag = "",
+		type = 64,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		bg = "",
+		id = 30315,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			story = {
+				{
+					1,
+					"HONGBAORICHANG1"
+				},
+				{
+					5,
+					"HONGBAORICHANG2"
+				},
+				{
+					10,
+					"HONGBAORICHANG3"
+				},
+				{
+					15,
+					"HONGBAORICHANG4"
+				}
+			}
+		}
+	},
+	[30316] = {
+		mark = 20190121,
+		title_res_tag = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 30316,
+		config_data = {
+			15342,
+			15343,
+			15344,
+			15345,
+			15346
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30317] = {
+		mark = 20190121,
+		title_res_tag = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_30317",
+		bg = "",
+		id = 30317,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 2,
+			bg = "loadingbg/bg_build_2_act",
+			buildship_tip = "Rate Up characters: Dido、Biloxi、Gloucester、Halsey Powell",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>：7%",
+				"<color=#d797ff>Elite</color>：12%",
+				"<color=#3dc6ff>Rare</color>：26%",
+				"Common：55%",
+				"<color=#ffde38>Dido</color>：2%(<color=#92fc63>up!</color>)",
+				"<color=#d797ff>Biloxi</color>：2.5%(<color=#92fc63>up!</color>)",
+				"<color=#d797ff>Gloucester</color>：2.5%(<color=#92fc63>up!</color>)",
+				"<color=#3dc6ff>Halsey Powell</color>：5.0%(<color=#92fc63>up!</color>)"
+			}
+		}
+	},
+	[30318] = {
+		mark = 20190121,
+		title_res_tag = "",
+		type = 60,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 30318,
+		config_data = {
+			38,
+			39,
+			40,
+			41,
+			42,
+			43,
+			44,
+			45,
+			46,
+			47,
+			48,
+			49,
+			50,
+			51,
+			52,
+			53,
+			54,
+			55,
+			56,
+			57,
+			58,
+			59,
+			60
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[30500] = {
 		mark = 20181030,
 		title_res_tag = "",
@@ -10829,6 +11518,22 @@ pg.activity_template = {
 			{}
 		}
 	},
+	[30539] = {
+		mark = 20200121,
+		title_res_tag = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5281,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 30539,
+		config_data = {
+			0,
+			{}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -11164,6 +11869,19 @@ pg.activity_template = {
 		30303,
 		30304,
 		30305,
+		30306,
+		30307,
+		30308,
+		30309,
+		30310,
+		30311,
+		30312,
+		30313,
+		30314,
+		30315,
+		30316,
+		30317,
+		30318,
 		30500,
 		30501,
 		30502,
@@ -11202,7 +11920,8 @@ pg.activity_template = {
 		30535,
 		30536,
 		30537,
-		30538
+		30538,
+		30539
 	}
 }
 

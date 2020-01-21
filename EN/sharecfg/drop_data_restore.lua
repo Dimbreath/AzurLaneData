@@ -756,6 +756,230 @@ pg.drop_data_restore = {
 		resource_num = 2000,
 		target_id = 301231
 	},
+	{
+		target_type = 7,
+		resource_type = 14,
+		id = 109,
+		resource_num = 1200,
+		target_id = 399041
+	},
+	{
+		target_type = 7,
+		resource_type = 14,
+		id = 110,
+		resource_num = 1200,
+		target_id = 301162
+	},
+	{
+		target_type = 7,
+		resource_type = 14,
+		id = 111,
+		resource_num = 1200,
+		target_id = 307072
+	},
+	{
+		target_type = 7,
+		resource_type = 14,
+		id = 112,
+		resource_num = 900,
+		target_id = 202203
+	},
+	[114] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 114,
+		resource_num = 900,
+		target_id = 399013
+	},
+	[115] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 115,
+		resource_num = 900,
+		target_id = 207035
+	},
+	[116] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 116,
+		resource_num = 800,
+		target_id = 403044
+	},
+	[117] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 117,
+		resource_num = 800,
+		target_id = 202242
+	},
+	[118] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 118,
+		resource_num = 800,
+		target_id = 304022
+	},
+	[119] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 119,
+		resource_num = 800,
+		target_id = 102251
+	},
+	[120] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 120,
+		resource_num = 800,
+		target_id = 202101
+	},
+	[121] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 121,
+		resource_num = 800,
+		target_id = 404011
+	},
+	[122] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 122,
+		resource_num = 800,
+		target_id = 101431
+	},
+	[123] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 123,
+		resource_num = 780,
+		target_id = 502034
+	},
+	[124] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 124,
+		resource_num = 780,
+		target_id = 502024
+	},
+	[125] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 125,
+		resource_num = 1180,
+		target_id = 202121
+	},
+	[126] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 126,
+		resource_num = 1080,
+		target_id = 101173
+	},
+	[127] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 127,
+		resource_num = 1080,
+		target_id = 501041
+	},
+	[128] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 128,
+		resource_num = 880,
+		target_id = 107062
+	},
+	[129] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 129,
+		resource_num = 880,
+		target_id = 303113
+	},
+	[130] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 130,
+		resource_num = 880,
+		target_id = 202151
+	},
+	[131] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 131,
+		resource_num = 880,
+		target_id = 201231
+	},
+	[132] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 132,
+		resource_num = 780,
+		target_id = 206032
+	},
+	[133] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 133,
+		resource_num = 780,
+		target_id = 501031
+	},
+	[134] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 134,
+		resource_num = 680,
+		target_id = 305011
+	},
+	[135] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 135,
+		resource_num = 780,
+		target_id = 301054
+	},
+	[136] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 136,
+		resource_num = 780,
+		target_id = 101392
+	},
+	[137] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 137,
+		resource_num = 780,
+		target_id = 202211
+	},
+	[138] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 138,
+		resource_num = 780,
+		target_id = 202221
+	},
+	[139] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 139,
+		resource_num = 780,
+		target_id = 206051
+	},
+	[140] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 140,
+		resource_num = 780,
+		target_id = 107021
+	},
+	[141] = {
+		target_type = 7,
+		resource_type = 14,
+		id = 141,
+		resource_num = 780,
+		target_id = 301262
+	},
 	[1000] = {
 		target_type = 7,
 		resource_type = 14,
@@ -1348,6 +1572,38 @@ pg.drop_data_restore = {
 		106,
 		107,
 		108,
+		109,
+		110,
+		111,
+		112,
+		114,
+		115,
+		116,
+		117,
+		118,
+		119,
+		120,
+		121,
+		122,
+		123,
+		124,
+		125,
+		126,
+		127,
+		128,
+		129,
+		130,
+		131,
+		132,
+		133,
+		134,
+		135,
+		136,
+		137,
+		138,
+		139,
+		140,
+		141,
 		1000,
 		1001,
 		1002,

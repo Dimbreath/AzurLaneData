@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"讴歌平稳的日常\n\n<size=45>三　午休时间</size>",
+					"A Paean for Peace\n\n<size=45>Lunch Break</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "吃过午饭后，指示纽卡斯尔休息一个小时。……但一转眼就找不到她了",
+			say = "After we had our lunch, I instructed Newcastle to take an hour off. ...And she was gone in the blink of an eye.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -46,7 +46,7 @@ return {
 			},
 			options = {
 				{
-					content = "去找找",
+					content = "Look for her",
 					flag = 1
 				}
 			}
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "虽然休息时间还没结束…不过，有些在意她是怎么休息的，去找找吧",
+			say = "Even though lunch wasn't quite over yet, I was a bit curious as to what she did during her spare time, so I decided to look for her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			actor = 203030,
 			nameColor = "#a9f548",
-			say = "Question？纽卡斯尔姐姐在哪？",
+			say = "Do you need something? You're looking for Newcastle?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -100,7 +100,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "emmmm……对不起，肯特选手好像不知道她在哪……",
+			say = "Erm... Sorry, but little old Kent hasn't seen anything...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_school",
 			actor = 203040,
 			nameColor = "#a9f548",
-			say = "哦…？那片云是……啊我没有偷懒！没有偷懒啦！",
+			say = "Huh...? That cloud over there looks like... Gah! I wasn't daydreaming! I swear, I was working!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……纽卡斯尔姐姐在哪？萨福克也不知道呢……",
+			say = "...Umm, where did Newcastle go? I don't know either...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			actor = 202080,
 			nameColor = "#a9f548",
-			say = "没看到。…非常抱歉",
+			say = "Haven't seen her... Sorry.",
 			flashout = {
 				dur = 0.4,
 				black = true,
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			actor = 202110,
 			nameColor = "#a9f548",
-			say = "纽卡斯尔吗？没和谢菲在一起的话，估计是一个人在看书吧！",
+			say = "Newcastle? If she's not with Sheffield, then she's probably somewhere reading by herself!",
 			flashout = {
 				dur = 0.4,
 				black = true,
@@ -232,7 +232,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然我也不知道她在哪……不过，毕竟她也是作为女仆在帮忙的，或许正在什么地方干着女仆的工作吧？",
+			say = "Anyway, I don't know where she is... but she has been helping out with maid duties, so I'd guess maybe she's off doing something like that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比如说皇家宿舍后面的那块空地？平常用来晾床单来着……",
+			say = "Why not try looking in that empty lot behind the Royal Navy's dorms? That's where we usually dry out the laundry...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "star_level_bg_103",
 			side = 2,
 			dir = 1,
-			say = "最后在皇家后宅的空地上，发现了藏在纯白床单后的纽卡斯尔的身影。",
+			say = "Finally, I found her in the lot Edinburgh mentioned, hidden behind a white sheet that was fluttering in the wind.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "坐在晾衣架旁边的凳子上，腿上放着一本打开着一半的书，脸上带着睡意",
+			say = "She was sitting on a stool next to the clothes rack with a half-opened book in her lap, drowsiness weighing upon her eyelids.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "不知是不是感觉到有人靠近，她静静的抬起头，微微一笑",
+			say = "As if she sensed me approaching, she raised her head serenely, a gentle smile forming upon her lips.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

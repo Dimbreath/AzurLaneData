@@ -405,6 +405,36 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[202100] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		id = 202100,
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		touch2 = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = "",
+		detail = "",
+		feeling5 = {
+			{
+				1100,
+				"主人，您已经足够优秀了，我对此感到很骄傲。不过请放心，一旦出现了新的问题，我会继续帮主人您指出来的。"
+			}
+		}
+	},
 	all = {
 		999010,
 		108030,
@@ -412,7 +442,8 @@ pg.ship_skin_words_extra = {
 		207050,
 		305140,
 		306070,
-		301260
+		301260,
+		202100
 	}
 }
 

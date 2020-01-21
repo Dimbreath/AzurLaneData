@@ -226,12 +226,11 @@ return {
 			}
 		},
 		{
-			expression = 2,
+			actor = 107060,
 			side = 2,
 			bgName = "star_level_bg_102",
-			dir = 1,
-			actor = 107060,
 			nameColor = "#a9f548",
+			dir = 1,
 			say = "Definitely. I'd love to get to return your hospitality.",
 			typewriter = {
 				speed = 0.05,

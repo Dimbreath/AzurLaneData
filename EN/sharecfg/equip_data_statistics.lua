@@ -32938,6 +32938,155 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[26640] = {
+		name = "134mm Twin High-Angle Gun ",
+		speciality = "Anti-Air",
+		tech = 0,
+		type = 6,
+		rarity = 5,
+		id = 26640,
+		angle = 360,
+		scatter = "N/A",
+		ambush_extra = 0,
+		value_2 = 30,
+		icon = "21500",
+		value_1 = "53/wave",
+		attribute_2 = "antiaircraft",
+		avoid_extra = 0,
+		range = 35,
+		nationality = 2,
+		attribute_3 = "cannon",
+		ammo = "Normal",
+		is_siren = 0,
+		value_3 = 15,
+		descrip = "No description",
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			26640
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"ST",
+			"AA"
+		}
+	},
+	[26641] = {
+		value_1 = "61/wave",
+		id = 26641,
+		base = 26640,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			26641
+		},
+		property_rate = {}
+	},
+	[26642] = {
+		value_1 = "68/wave",
+		id = 26642,
+		base = 26640,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			26642
+		},
+		property_rate = {}
+	},
+	[26643] = {
+		value_1 = "76/wave",
+		id = 26643,
+		base = 26640,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			26643
+		},
+		property_rate = {}
+	},
+	[26644] = {
+		value_1 = "84/wave",
+		id = 26644,
+		base = 26640,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			26644
+		},
+		property_rate = {}
+	},
+	[26645] = {
+		value_1 = "92/wave",
+		id = 26645,
+		base = 26640,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			26645
+		},
+		property_rate = {}
+	},
+	[26646] = {
+		value_1 = "100/wave",
+		id = 26646,
+		base = 26640,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			26646
+		},
+		property_rate = {}
+	},
+	[26647] = {
+		value_1 = "108/wave",
+		id = 26647,
+		base = 26640,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			26647
+		},
+		property_rate = {}
+	},
+	[26648] = {
+		value_1 = "116/wave",
+		id = 26648,
+		base = 26640,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			26648
+		},
+		property_rate = {}
+	},
+	[26649] = {
+		value_1 = "124/wave",
+		id = 26649,
+		base = 26640,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			26649
+		},
+		property_rate = {}
+	},
+	[26650] = {
+		value_1 = "132/wave",
+		id = 26650,
+		base = 26640,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			26650
+		},
+		property_rate = {}
+	},
 	[27000] = {
 		name = "Spitfire",
 		type = 7,
@@ -59209,7 +59358,7 @@ pg.equip_data_statistics = {
 		name = "航空攻击展示-龙凤I",
 		type = 99,
 		nationality = 0,
-		speciality = "无",
+		speciality = "N/A",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -59221,7 +59370,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		ammo = "无",
+		ammo = "N/A",
 		descrip = "航母空袭展示用",
 		value_3 = 0,
 		id = 60471,
@@ -61253,6 +61402,49 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		weapon_id = {
 			71172
+		},
+		property_rate = {}
+	},
+	[71181] = {
+		name = "全弹发射-格罗斯特级I",
+		type = 1,
+		nationality = 0,
+		speciality = "N/A",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		ammo = "N/A",
+		descrip = "技能弹幕",
+		value_3 = 0,
+		id = 71181,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			71181
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[71182] = {
+		id = 71182,
+		name = "全弹发射-格罗斯特级II",
+		base = 71181,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			71182
 		},
 		property_rate = {}
 	},
@@ -65261,7 +65453,7 @@ pg.equip_data_statistics = {
 		name = "全弹发射-克利夫兰μI",
 		type = 1,
 		nationality = 0,
-		speciality = "无",
+		speciality = "N/A",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -65273,7 +65465,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		ammo = "无",
+		ammo = "N/A",
 		descrip = "技能弹幕",
 		value_3 = 0,
 		id = 79451,
@@ -65304,7 +65496,7 @@ pg.equip_data_statistics = {
 		name = "全弹发射-南安普顿μI",
 		type = 1,
 		nationality = 0,
-		speciality = "无",
+		speciality = "N/A",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -65316,7 +65508,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		ammo = "无",
+		ammo = "N/A",
 		descrip = "技能弹幕",
 		value_3 = 0,
 		id = 79461,
@@ -65347,7 +65539,7 @@ pg.equip_data_statistics = {
 		name = "全弹发射-希佩尔海军上将μI",
 		type = 1,
 		nationality = 0,
-		speciality = "无",
+		speciality = "N/A",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -65359,7 +65551,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		ammo = "无",
+		ammo = "N/A",
 		descrip = "技能弹幕",
 		value_3 = 0,
 		id = 79471,
@@ -65390,7 +65582,7 @@ pg.equip_data_statistics = {
 		name = "专属弹幕-能代I",
 		type = 1,
 		nationality = 0,
-		speciality = "无",
+		speciality = "N/A",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -65402,7 +65594,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		ammo = "无",
+		ammo = "N/A",
 		descrip = "技能弹幕",
 		value_3 = 0,
 		id = 79481,
@@ -65426,6 +65618,49 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		weapon_id = {
 			60482
+		},
+		property_rate = {}
+	},
+	[79491] = {
+		name = "专属弹幕-黛朵I",
+		type = 1,
+		nationality = 0,
+		speciality = "N/A",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		ammo = "N/A",
+		descrip = "技能弹幕",
+		value_3 = 0,
+		id = 79491,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			79491
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[79492] = {
+		id = 79492,
+		name = "专属弹幕-黛朵II",
+		base = 79491,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			79492
 		},
 		property_rate = {}
 	},
@@ -65809,9 +66044,9 @@ pg.equip_data_statistics = {
 		type = 10,
 		id = 89060,
 		tech = 0,
-		speciality = "无",
+		speciality = "N/A",
 		range = 0,
-		scatter = "无",
+		scatter = "N/A",
 		ambush_extra = 0,
 		value_2 = 16,
 		icon = "89060",
@@ -65821,7 +66056,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		angle = 0,
 		nationality = 105,
-		ammo = "无",
+		ammo = "N/A",
 		is_siren = 0,
 		descrip = "It started out as the design for a team emblem, but it's kind of... changed. ",
 		value_3 = 0,
@@ -65935,7 +66170,7 @@ pg.equip_data_statistics = {
 		id = 89080,
 		tech = 0,
 		nationality = 105,
-		speciality = "无",
+		speciality = "N/A",
 		range = 0,
 		ambush_extra = 0,
 		value_2 = 0,
@@ -65944,9 +66179,9 @@ pg.equip_data_statistics = {
 		angle = 0,
 		avoid_extra = 0,
 		rarity = 5,
-		scatter = "无",
+		scatter = "N/A",
 		is_siren = 0,
-		ammo = "无",
+		ammo = "N/A",
 		descrip = "A badge that proves its wearer is one of the Hololive Gamers. ",
 		value_3 = 0,
 		attribute_1 = "durability",
@@ -66049,9 +66284,9 @@ pg.equip_data_statistics = {
 		type = 10,
 		id = 89100,
 		tech = 0,
-		speciality = "无",
+		speciality = "N/A",
 		range = 0,
-		scatter = "无",
+		scatter = "N/A",
 		ambush_extra = 0,
 		value_2 = 50,
 		icon = "89100",
@@ -66061,7 +66296,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		angle = 0,
 		nationality = 105,
-		ammo = "无",
+		ammo = "N/A",
 		is_siren = 0,
 		descrip = "A lantern that looks like a corn cob. Proves that you're friends with a certain foxy VTuber. ",
 		value_3 = 0,
@@ -66175,9 +66410,9 @@ pg.equip_data_statistics = {
 		type = 10,
 		id = 89120,
 		tech = 0,
-		speciality = "无",
+		speciality = "N/A",
 		range = 0,
-		scatter = "无",
+		scatter = "N/A",
 		ambush_extra = 0,
 		value_2 = 3,
 		icon = "89120",
@@ -66187,7 +66422,7 @@ pg.equip_data_statistics = {
 		rarity = 5,
 		angle = 0,
 		nationality = 105,
-		ammo = "无",
+		ammo = "N/A",
 		is_siren = 0,
 		descrip = "Hololive's company mascot that's free to do whatever. Has a tendency to sink into the ground when not moving. ",
 		value_3 = 0,
@@ -73516,6 +73751,17 @@ pg.equip_data_statistics = {
 		26628,
 		26629,
 		26630,
+		26640,
+		26641,
+		26642,
+		26643,
+		26644,
+		26645,
+		26646,
+		26647,
+		26648,
+		26649,
+		26650,
 		27000,
 		27001,
 		27002,
@@ -75342,6 +75588,8 @@ pg.equip_data_statistics = {
 		71162,
 		71171,
 		71172,
+		71181,
+		71182,
 		71211,
 		71212,
 		71221,
@@ -75536,6 +75784,8 @@ pg.equip_data_statistics = {
 		79472,
 		79481,
 		79482,
+		79491,
+		79492,
 		89000,
 		89001,
 		89002,

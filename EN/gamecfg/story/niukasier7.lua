@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"讴歌平稳的日常\n\n<size=45>七　愿望</size>",
+					"A Paean for Peace\n\n<size=45>Her Desires</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			bgName = "star_level_bg_105",
 			side = 2,
 			dir = 1,
-			say = "伊丽莎白说，纽卡斯尔应该有自己的愿望。",
+			say = "Queen Elizabeth said that Newcastle should hold onto her own dreams.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
-			say = "但是对她来说，现在的日常就是足以令她满足的“安稳”",
+			say = "However, she had already found the \"peace\" that made her life satisfying.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgm = "story-2",
 			actor = 202190,
 			nameColor = "#a9f548",
-			say = "至于我自己的愿望如何，都不过是一点小事而已",
+			say = "\"As for my dreams, those are but trivial matters.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
-			say = "既然如此——",
+			say = "But somehow...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,23 +87,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？帮指挥官…实现愿望吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202190,
-			side = 2,
-			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "如果我能帮得上忙的话",
+			say = "Hmm? You'd like to... realize your dreams?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +103,23 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请您尽管吩咐吧",
+			say = "If I can really be of assistance with that, I'd be glad to help you.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202190,
+			side = 2,
+			bgName = "star_level_bg_105",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Just let me know what I can do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "star_level_bg_105",
 			dir = 1,
 			withoutActorName = true,
-			say = "纽卡斯尔对伙伴十分重视，正如伙伴们重视她一样",
+			say = "Newcastle treasures her friends greatly, and they reciprocate that feeling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "star_level_bg_105",
 			withoutActorName = true,
 			actor = 202190,
-			say = "所以，若她珍爱着自己的“平稳”的话，想必对于守护同伴们的“平稳”也是不会拒绝的吧",
+			say = "Thus, in order to protect her own \"peace,\" she cannot disregard the \"peace\" of her friends.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			},
 			options = {
 				{
-					content = "想要守护纽卡斯尔",
+					content = "I want to protect you.",
 					flag = 1
 				}
 			}
@@ -173,7 +173,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……………………",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官也和我一样，钟爱着自己的“平稳”吗？",
+			say = "Commander, are you just trying to protect your own \"peace\" just like me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对我来说，指挥官是重要的存在，所以我也是指挥官想要守护的——",
+			say = "You are someone who is precious to me, so it'd only make sense for you to want to protect me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
-			say = "纽卡斯尔静静的合上书本。",
+			say = "Newcastle quietly closed her book.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢你，指挥官",
+			say = "Thank you very much, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "star_level_bg_105",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我现在终于有点明白陛下的话中之意了",
+			say = "I feel like I better understand those words that Her Majesty imparted to me now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "star_level_bg_105",
 			dir = 1,
 			withoutActorName = true,
-			say = "与平常不同，纽卡斯尔的声音因为紧张而微微颤抖着",
+			say = "I heard something in her voice that was never there before - a hint of nervousness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "star_level_bg_105",
 			dir = 1,
 			withoutActorName = true,
-			say = "她将身体倚靠过来，向这边投来专注的目光",
+			say = "She inched her body towards mine, her eyes fixed on my own...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "star_level_bg_105",
 			dir = 1,
 			withoutActorName = true,
-			say = "静静地，说出了心中的愿望——",
+			say = "Singing the wordless paean of the peace which she desired from the bottom of her heart...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			blackBg = true,
 			actor = 202190,
 			nameColor = "#a9f548",
-			say = "指挥官能...好好的守护我...一直陪在我的身边么？",
+			say = "Commander, would you treasure me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"讴歌平稳的日常\n\n<size=45>四　恶作剧时间？</size>",
+					"A Paean for Peace\n\n<size=45>Prank Time?</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区・指挥室",
+			say = "Port - Office",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "和坐在沙发上的纽卡斯尔一起静静的工作着。",
+			say = "I was quietly working with Newcastle, who was seated on the couch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "这家伙虽然有点挺没意思的……但是在辅佐仆人你这件事上还是绰绰有余的！",
+			say = "She might be rather boring, but... she shouldn't have any trouble supporting my servant.",
 			effects = {
 				{
 					active = true,
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "那个伊丽莎白为什么会把纽卡斯尔评价为“有点挺没意思”的呢……",
+			say = "Why did Queen Elizabeth describe her as \"boring\"...?",
 			effects = {
 				{
 					active = false,
@@ -94,11 +94,11 @@ return {
 			},
 			options = {
 				{
-					content = "偷偷瞄纽卡斯尔一眼",
+					content = "Steal a furtive glance at Newcastle",
 					flag = 1
 				},
 				{
-					content = "什么都不做",
+					content = "Don't do anything, like a wimp",
 					flag = 2
 				}
 			}
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "纽卡斯尔在默默的翻阅着关于作战的资料",
+			say = "Newcastle was silently flipping through operation reports.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			optionFlag = 1,
 			actor = 202190,
 			nameColor = "#a9f548",
-			say = "呼……",
+			say = "Phew...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "安静的指挥室里，回响着纽卡斯尔的平静的呼吸",
+			say = "In the silence of the office, I could hear every gentle breath that escaped from her lips.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,18 +146,18 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…………",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "做一点小恶作剧",
+					content = "Try playing a prank on her",
 					flag = 1
 				},
 				{
-					content = "抑制下自己的好奇心",
+					content = "Be mature about it",
 					flag = 2
 				}
 			}
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "怀着对她被恶作剧的时候会有什么反应的好奇心，决定对她做一点小小的恶作剧",
+			say = "Terribly curious as to how she would react, I decided to play a little prank on Newcastle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "把手上的橡皮撕下一小丢，扔到她面前。",
+			say = "I tore a small piece off the eraser in my hand and flicked it in front of her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			optionFlag = 1,
 			actor = 202190,
 			nameColor = "#a9f548",
-			say = "…………",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "纽卡斯尔一瞬间停下行动，然后马上又重新开始确认起资料来",
+			say = "Newcastle paused for a moment, but then resumed looking over her documents as if nothing even happened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 1,
-			say = "试了好多种方法，但是纽卡斯尔始终不为所动。",
+			say = "Unsatisfied, I decided to try again, but she shrugged off that attempt as well. I tried to get her attention in a variety of other ways, but failed each time.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -245,7 +245,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "看来要试试别的方法了——",
+			say = "Fine... Drastic times call for drastic measures...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,18 +255,18 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…………",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "稍微做点“特别”的恶作剧",
+					content = "Pull out all the stops",
 					flag = 1
 				},
 				{
-					content = "果然还是算了",
+					content = "Let's not do this after all...",
 					flag = 2
 				}
 			}
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "悄悄的移动到沙发后面，把手伸向她的后颈……",
+			say = "I sneakily made my way behind the sofa and extended my fingers towards Newcastle's nape...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			blackBg = true,
 			soundeffect = "event:/battle/boom2",
 			stopbgm = true,
-			say = "（咚！！！）",
+			say = "KABOOM!!",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -305,7 +305,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 1,
-			say = "从科研部方向传来一声巨响，指挥室猛地一摇。眼前也随之一黑……",
+			say = "The sound of a loud explosion from the R&D Department tore through the office, sending me to my knees as my vision went black.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgm = "story-1",
 			actor = 202190,
 			nameColor = "#a9f548",
-			say = "指挥官？你还好吗？",
+			say = "Commander, are you all right?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -352,7 +352,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "发现自己直接正面扑倒在纽卡斯尔身上",
+			say = "When I came to my senses, I found myself on top of Newcastle, my body pressed against hers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "脸颊传来温暖而柔软的感觉……",
+			say = "I could feel a warm sensation pressing against my face...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			optionFlag = 1,
 			actor = 202190,
 			nameColor = "#a9f548",
-			say = "刚才的是事故呢……还是满足了您的愿望呢？",
+			say = "Now, was this a happy little accident... or was this what you were aiming for all along?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			optionFlag = 1,
 			actor = 202190,
 			nameColor = "#a9f548",
-			say = "如果您希望的话可以尽管这样呆下去。……不过那样的话后面就要加班了呢",
+			say = "You may stay there as long as you want... but you'll have to make up for it with overtime afterwards.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "她的声音和平时一样恬静而温柔。",
+			say = "Her words were kind and mellow as always.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "…………",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
