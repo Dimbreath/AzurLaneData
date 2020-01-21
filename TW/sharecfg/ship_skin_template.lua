@@ -35500,11 +35500,11 @@ pg.ship_skin_template = {
 		}
 	},
 	[404011] = {
-		name = "雪豹与白梅",
+		name = "雪豹與白梅 ",
 		ship_group = 40401,
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "节日么……比起战斗来说有些无趣啊，懒懒散散过日子可不是我的风格。指挥官，你说的这个春节有没有什么能让我兴奋起来的节目？",
+		desc = "節日嘛……比起戰鬥來說有些無趣啊，懶懶散散過日子可不是我的風格。指揮官，你說的這個春節有沒有什麼能讓我興奮起來的節目？ ",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "shaenhuosite_2",

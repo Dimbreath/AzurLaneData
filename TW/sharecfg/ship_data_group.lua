@@ -6614,7 +6614,7 @@ pg.ship_data_group = {
 	},
 	[208] = {
 		type = 5,
-		trans_skin = 0,
+		trans_skin = 305019,
 		trans_type = 10,
 		handbook_type = 0,
 		redirect_id = 101,
@@ -6631,8 +6631,17 @@ pg.ship_data_group = {
 			"D",
 			"B"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"B",
+			"E",
+			"C",
+			"D",
+			"C",
+			"B"
+		},
+		trans_skill = {
+			10830
+		},
 		description = {
 			{
 				"推薦探索關卡6-3",
