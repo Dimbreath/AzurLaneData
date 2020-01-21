@@ -271,7 +271,7 @@ pg.activity_event_worldboss = {
 				{
 					2020,
 					2,
-					6
+					5
 				},
 				{
 					23,
