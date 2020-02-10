@@ -1,0 +1,93 @@
+slot0 = class("UserLoginCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
+	slot2 = slot1:getBody()
+
+	print("connect to gateway - " .. NetConst.GATEWAY_HOST .. ":" .. NetConst.GATEWAY_PORT)
+
+	if pg.SdkMgr.GetInstance():GetChannelUID() == "" then
+		slot3 = PLATFORM_LOCAL
+	end
+
+	if not slot2.arg4 then
+		slot2.arg4 = "0"
+	end
+
+	print("sessionid -- : " .. slot2.arg4)
+	print("login_type:", slot2.type, "arg1:", slot2.arg1, "arg2:", slot2.arg2, "arg3:", slot2.arg4 == "0" and slot2.arg3 or slot2.arg4, "arg4:", slot3, "check_key:", HashUtil.CalcMD5(slot2.arg1 .. AABBUDUD), "device:", PLATFORM)
+	pg.ConnectionMgr.GetInstance():Connect(NetConst.GATEWAY_HOST, NetConst.GATEWAY_PORT, function ()
+		slot3.login_type = uv0.type
+		slot3.arg1 = uv0.arg1
+		slot3.arg2 = uv0.arg2
+		slot3.arg3 = uv1
+		slot3.arg4 = uv2
+		slot3.check_key = HashUtil.CalcMD5(uv0.arg1 .. AABBUDUD)
+		slot3.device = PLATFORM
+
+		pg.ConnectionMgr.GetInstance():Send(10020, {}, 10021, function (slot0)
+			print("disconnect from gateway...")
+			pg.ConnectionMgr.GetInstance():Disconnect()
+
+			if slot0.device ~= 0 and slot0.device ~= PLATFORM then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("login_failed"))
+
+				return
+			end
+
+			if slot0.result == 0 then
+				uv0.id = slot0.account_id
+				uv0.uid = slot0.account_id
+				uv0.token = slot0.server_ticket
+
+				getProxy(UserProxy):setLastLogin(uv0)
+
+				slot3 = {
+					"*all gate info :"
+				}
+
+				for slot7, slot8 in ipairs(slot0.serverlist) do
+					slot10.id = slot8.ids[1]
+					slot10.host = slot8.ip
+					slot10.port = slot8.port
+					slot10.proxy_host = slot8.proxy_ip
+					slot10.proxy_port = slot8.proxy_port
+					slot10.status = slot8.state
+					slot10.name = slot8.name
+					slot10.tag_state = slot8.tag_state
+					slot10.sort = slot8.sort
+					slot9 = Server.New({})
+					slot3[#slot3 + 1] = slot8.proxy_ip .. ":" .. slot8.proxy_port
+					slot3[#slot3 + 1] = slot8.ip .. ":" .. slot8.port
+
+					slot9:display()
+					table.insert({}, slot9)
+				end
+
+				print(table.concat(slot3, "\n"))
+				getProxy(ServerProxy):setServers(slot2, uv0.uid)
+				getProxy(GatewayNoticeProxy):setGatewayNotices(slot0.notice_list)
+				uv1.facade:sendNotification(GAME.USER_LOGIN_SUCCESS, uv0)
+				pg.PushNotificationMgr.GetInstance():cancelAll()
+				print("user logined............", #slot2)
+				pg.SdkMgr.GetInstance():SdkGateWayLogined()
+			else
+				pg.SdkMgr.GetInstance():SdkLoginGetaWayFailed()
+				print("user login failed ............")
+
+				if slot0.result == 13 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("login_gate_not_ready"))
+				elseif slot0.result == 15 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("login_game_rigister_full"))
+				elseif slot0.result == 18 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("system_database_busy"))
+				elseif slot0.result == 6 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("login_game_login_full"))
+				else
+					uv1.facade:sendNotification(GAME.USER_LOGIN_FAILED, slot0.result)
+				end
+			end
+		end, false)
+	end)
+end
+
+return slot0
