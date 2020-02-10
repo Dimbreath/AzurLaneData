@@ -1,0 +1,301 @@
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[1] = {
+	say = "百慕大三角·第三舰队交战区",
+	side = 2,
+	dir = 1,
+	bgm = "story-6"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[2] = {
+	actor = 107380,
+	side = 2,
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "根据照片判断，至少有两位数的塞壬编队在周边海域徘徊。"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[3] = {
+	expression = 1,
+	nameColor = "#a9f548",
+	side = 2,
+	dir = 1,
+	actor = 107380,
+	say = "单从数量对比上来说，我们此战处于十分不利的位置"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[4] = {
+	actor = 107090,
+	side = 2,
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "明明只是佯攻路线，塞壬居然能抽出这么大规模的舰队迎接我们……"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[5] = {
+	expression = 2,
+	nameColor = "#a9f548",
+	side = 2,
+	dir = 1,
+	actor = 107090,
+	say = "企业前辈所在的主攻方向不知道变成什么样子了……"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[6] = {
+	actor = 107090,
+	side = 2,
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "不过，换言之…只要我们这边能吸引的敌人越多，企业前辈那边的压力就会越小吧！"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[7] = {
+	actor = 107380,
+	side = 2,
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "（奋笔急书中）"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot3[1] = {
+	y = 30,
+	type = "shake",
+	delay = 0,
+	dur = 0.15,
+	x = 0,
+	number = 2
+}
+slot2.action = {}
+slot1[8] = {
+	expression = 2,
+	side = 2,
+	dir = 1,
+	actor = 107090,
+	nameColor = "#a9f548",
+	say = "等、等等！你突然记些什么啊！"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[9] = {
+	expression = 2,
+	nameColor = "#a9f548",
+	side = 2,
+	dir = 1,
+	actor = 107380,
+	say = "不用在意，只是例行的航海记录而已。"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot3[1] = {
+	y = 30,
+	type = "shake",
+	delay = 0.5,
+	dur = 0.15,
+	x = 0,
+	number = 2
+}
+slot2.action = {}
+slot1[10] = {
+	expression = 3,
+	side = 2,
+	dir = 1,
+	actor = 107090,
+	nameColor = "#a9f548",
+	say = "“即便在身陷敌军重围之时，埃塞克斯心中依然挂念着企业前辈的安危”…？！！"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[11] = {
+	expression = 3,
+	nameColor = "#a9f548",
+	side = 2,
+	dir = 1,
+	actor = 107090,
+	say = "咕唔……！"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot3[1] = {
+	y = 30,
+	type = "shake",
+	delay = 0.5,
+	dur = 0.15,
+	x = 0,
+	number = 2
+}
+slot2.action = {}
+slot1[12] = {
+	expression = 3,
+	side = 2,
+	dir = 1,
+	actor = 107090,
+	nameColor = "#a9f548",
+	say = "我、我们的迎击战术也有好好考虑啦！"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[13] = {
+	expression = 2,
+	nameColor = "#a9f548",
+	side = 2,
+	dir = 1,
+	actor = 107380,
+	say = "我明白，一会儿埃塞克斯活跃的身姿我也会好好记录下来的。"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[14] = {
+	actor = 107380,
+	side = 2,
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "虽然希望能在准备更加充分地时候开战，不过士兵无法选择战场…"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[15] = {
+	expression = 1,
+	nameColor = "#a9f548",
+	side = 2,
+	dir = 1,
+	actor = 107380,
+	say = "舰艏迎风，让塞壬见识一下自由的重量吧！"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[16] = {
+	actor = 107090,
+	side = 2,
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "埃塞克斯级绝对不会输给任何人————"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[17] = {
+	expression = 1,
+	nameColor = "#a9f548",
+	side = 2,
+	dir = 1,
+	actor = 107090,
+	say = "这一点，首先让塞壬切身体会一下！"
+}
+slot0.scripts = {}
+
+return {
+	fadeOut = 1.5,
+	mode = 2,
+	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA20",
+	fadein = 1.5
+}

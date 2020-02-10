@@ -1,0 +1,1183 @@
+slot0 = type
+slot1 = string.sub
+slot2 = string.byte
+slot3 = string.format
+slot4 = string.match
+slot5 = string.gmatch
+slot6 = table.concat
+slot7 = require("bit")
+slot8 = slot7.band
+slot10 = slot7.ror
+slot11 = slot7.tohex
+slot12 = slot7.lshift
+slot13 = slot7.rshift
+slot14 = slot7.arshift
+slot18[1] = {
+	[13.0] = "vpushFdr",
+	_ = "vstmdbFNdr",
+	shift = 16,
+	mask = 15
+}
+slot17._ = {
+	[0] = "vstrFdl",
+	shift = 21,
+	mask = 1
+}
+slot16[0] = {
+	[0] = "vmovFmDN",
+	"vstmFNdr",
+	shift = 23,
+	mask = 3
+}
+slot17[1] = {
+	[13.0] = "vpopFdr",
+	_ = "vldmFNdr",
+	shift = 16,
+	mask = 15
+}
+slot17._ = {
+	[0] = "vldrFdl",
+	"vldmdbFNdr",
+	shift = 21,
+	mask = 1
+}
+slot16[1] = {
+	[0] = "vmovFDNm",
+	shift = 23,
+	mask = 3
+}
+slot15[10] = {
+	shift = 20,
+	mask = 1
+}
+slot18[1] = {
+	[13.0] = "vpushGdr",
+	_ = "vstmdbGNdr",
+	shift = 16,
+	mask = 15
+}
+slot17._ = {
+	[0] = "vstrGdl",
+	shift = 21,
+	mask = 1
+}
+slot16[0] = {
+	[0] = "vmovGmDN",
+	"vstmGNdr",
+	shift = 23,
+	mask = 3
+}
+slot17[1] = {
+	[13.0] = "vpopGdr",
+	_ = "vldmGNdr",
+	shift = 16,
+	mask = 15
+}
+slot17._ = {
+	[0] = "vldrGdl",
+	"vldmdbGNdr",
+	shift = 21,
+	mask = 1
+}
+slot16[1] = {
+	[0] = "vmovGDNm",
+	shift = 23,
+	mask = 3
+}
+slot15[11] = {
+	shift = 20,
+	mask = 1
+}
+slot15._ = {
+	shift = 0,
+	mask = 0
+}
+slot16[180225] = {
+	[0] = "vmovF.dm",
+	"vabsF.dm",
+	[512.0] = "vnegF.dm",
+	[2048.0] = "vcmpF.dm",
+	[4096.0] = "vcvt.f32.u32Fdm",
+	mask = 7681,
+	[513.0] = "vsqrtF.dm",
+	[2560.0] = "vcmpzF.d",
+	[2049.0] = "vcmpeF.dm",
+	[4097.0] = "vcvt.f32.s32Fdm",
+	[6144.0] = "vcvtr.u32F.dm",
+	[2561.0] = "vcmpzeF.d",
+	[6656.0] = "vcvtr.s32F.dm",
+	[6145.0] = "vcvt.u32F.dm",
+	[6657.0] = "vcvt.s32F.dm",
+	shift = 7,
+	[3585.0] = "vcvtG.dF.m"
+}
+slot17[180225] = {
+	[0] = "vmovG.dm",
+	"vabsG.dm",
+	[512.0] = "vnegG.dm",
+	[2048.0] = "vcmpG.dm",
+	[4096.0] = "vcvt.f64.u32GdFm",
+	mask = 7681,
+	[513.0] = "vsqrtG.dm",
+	[2560.0] = "vcmpzG.d",
+	[2049.0] = "vcmpeG.dm",
+	[4097.0] = "vcvt.f64.s32GdFm",
+	[6144.0] = "vcvtr.u32FdG.m",
+	[2561.0] = "vcmpzeG.d",
+	[6656.0] = "vcvtr.s32FdG.m",
+	[6145.0] = "vcvt.u32FdG.m",
+	[6657.0] = "vcvt.s32FdG.m",
+	shift = 7,
+	[3585.0] = "vcvtF.dG.m"
+}
+slot20[10] = {
+	[0] = "vmlaF.dnm",
+	"vmlsF.dnm",
+	[147456.0] = "vfnmsF.dnm",
+	[163840.0] = "vfmaF.dnm",
+	[131072.0] = "vdivF.dnm",
+	mask = 180225,
+	[32769.0] = "vnmulF.dnm",
+	[16384.0] = "vnmlsF.dnm",
+	[32768.0] = "vmulF.dnm",
+	[16385.0] = "vnmlaF.dnm",
+	[163841.0] = "vfmsF.dnm",
+	[180224.0] = "vmovF.dY",
+	[49153.0] = "vsubF.dnm",
+	[49152.0] = "vaddF.dnm",
+	shift = 6,
+	[147457.0] = "vfnmaF.dnm"
+}
+slot20[11] = {
+	[0] = "vmlaG.dnm",
+	"vmlsG.dnm",
+	[147456.0] = "vfnmsG.dnm",
+	[163840.0] = "vfmaG.dnm",
+	[131072.0] = "vdivG.dnm",
+	mask = 180225,
+	[32769.0] = "vnmulG.dnm",
+	[16384.0] = "vnmlsG.dnm",
+	[32768.0] = "vmulG.dnm",
+	[16385.0] = "vnmlaG.dnm",
+	[163841.0] = "vfmsG.dnm",
+	[180224.0] = "vmovG.dY",
+	[49153.0] = "vsubG.dnm",
+	[49152.0] = "vaddG.dnm",
+	shift = 6,
+	[147457.0] = "vfnmaG.dnm"
+}
+slot19[0] = {
+	shift = 8,
+	mask = 15
+}
+slot21[15] = {
+	_ = "vmrsD",
+	[15.0] = "vmrs",
+	shift = 12,
+	mask = 15
+}
+slot20[10] = {
+	[0] = "vmovFnD",
+	"vmovFDn",
+	[14.0] = "vmsrD",
+	shift = 20,
+	mask = 15
+}
+slot19[1] = {
+	shift = 8,
+	mask = 15
+}
+slot18[0] = {
+	shift = 4,
+	mask = 1
+}
+slot24[1] = {
+	[0] = "sadd16DNM",
+	"sasxDNM",
+	"ssaxDNM",
+	"ssub16DNM",
+	"sadd8DNM",
+	false,
+	false,
+	"ssub8DNM",
+	shift = 5,
+	mask = 7
+}
+slot24[2] = {
+	[0] = "qadd16DNM",
+	"qasxDNM",
+	"qsaxDNM",
+	"qsub16DNM",
+	"qadd8DNM",
+	false,
+	false,
+	"qsub8DNM",
+	shift = 5,
+	mask = 7
+}
+slot24[3] = {
+	[0] = "shadd16DNM",
+	"shasxDNM",
+	"shsaxDNM",
+	"shsub16DNM",
+	"shadd8DNM",
+	false,
+	false,
+	"shsub8DNM",
+	shift = 5,
+	mask = 7
+}
+slot24[5] = {
+	[0] = "uadd16DNM",
+	"uasxDNM",
+	"usaxDNM",
+	"usub16DNM",
+	"uadd8DNM",
+	false,
+	false,
+	"usub8DNM",
+	shift = 5,
+	mask = 7
+}
+slot24[6] = {
+	[0] = "uqadd16DNM",
+	"uqasxDNM",
+	"uqsaxDNM",
+	"uqsub16DNM",
+	"uqadd8DNM",
+	false,
+	false,
+	"uqsub8DNM",
+	shift = 5,
+	mask = 7
+}
+slot24[7] = {
+	[0] = "uhadd16DNM",
+	"uhasxDNM",
+	"uhsaxDNM",
+	"uhsub16DNM",
+	"uhadd8DNM",
+	false,
+	false,
+	"uhsub8DNM",
+	shift = 5,
+	mask = 7
+}
+slot25[3] = {
+	_ = "sxtab16DNMU",
+	[15.0] = "sxtb16DMU",
+	shift = 16,
+	mask = 15
+}
+slot24[8] = {
+	[0] = "pkhbtDNMU",
+	false,
+	"pkhtbDNMU",
+	nil,
+	"pkhbtDNMU",
+	"selDNM",
+	"pkhtbDNMU",
+	shift = 5,
+	mask = 7
+}
+slot25[3] = {
+	_ = "sxtabDNMU",
+	[15.0] = "sxtbDMU",
+	shift = 16,
+	mask = 15
+}
+slot24[10] = {
+	[0] = "ssatDxMu",
+	"ssat16DxM",
+	"ssatDxMu",
+	nil,
+	"ssatDxMu",
+	false,
+	"ssatDxMu",
+	shift = 5,
+	mask = 7
+}
+slot25[3] = {
+	_ = "sxtahDNMU",
+	[15.0] = "sxthDMU",
+	shift = 16,
+	mask = 15
+}
+slot24[11] = {
+	[0] = "ssatDxMu",
+	"revDM",
+	"ssatDxMu",
+	nil,
+	"ssatDxMu",
+	"rev16DM",
+	"ssatDxMu",
+	shift = 5,
+	mask = 7
+}
+slot25[3] = {
+	_ = "uxtab16DNMU",
+	[15.0] = "uxtb16DMU",
+	shift = 16,
+	mask = 15
+}
+slot24[12] = {
+	shift = 5,
+	mask = 7
+}
+slot25[3] = {
+	_ = "uxtabDNMU",
+	[15.0] = "uxtbDMU",
+	shift = 16,
+	mask = 15
+}
+slot24[14] = {
+	[0] = "usatDwMu",
+	"usat16DwM",
+	"usatDwMu",
+	nil,
+	"usatDwMu",
+	false,
+	"usatDwMu",
+	shift = 5,
+	mask = 7
+}
+slot25[3] = {
+	_ = "uxtahDNMU",
+	[15.0] = "uxthDMU",
+	shift = 16,
+	mask = 15
+}
+slot24[15] = {
+	[0] = "usatDwMu",
+	"rbitDM",
+	"usatDwMu",
+	nil,
+	"usatDwMu",
+	"revshDM",
+	"usatDwMu",
+	shift = 5,
+	mask = 7
+}
+slot25[15] = {
+	"smuadNMS",
+	"smuadxNMS",
+	"smusdNMS",
+	"smusdxNMS",
+	shift = 5,
+	mask = 7
+}
+slot25._ = {
+	[0] = "smladNMSD",
+	"smladxNMSD",
+	"smlsdNMSD",
+	"smlsdxNMSD",
+	shift = 5,
+	mask = 7
+}
+slot24[16] = {
+	shift = 12,
+	mask = 15
+}
+slot24[20] = {
+	[0] = "smlaldDNMS",
+	"smlaldxDNMS",
+	"smlsldDNMS",
+	"smlsldxDNMS",
+	shift = 5,
+	mask = 7
+}
+slot25[0] = {
+	_ = "smmlaNMSD",
+	[15.0] = "smmulNMS",
+	shift = 12,
+	mask = 15
+}
+slot25[1] = {
+	_ = "smmlarNMSD",
+	[15.0] = "smmulrNMS",
+	shift = 12,
+	mask = 15
+}
+slot24[21] = {
+	nil,
+	false,
+	false,
+	false,
+	false,
+	"smmlsNMSD",
+	"smmlsrNMSD",
+	shift = 5,
+	mask = 7
+}
+slot25[0] = {
+	_ = "usada8NMSD",
+	[15.0] = "usad8NMS",
+	shift = 12,
+	mask = 15
+}
+slot24[24] = {
+	shift = 5,
+	mask = 7
+}
+slot24[26] = {
+	nil,
+	"sbfxDMvw",
+	shift = 5,
+	mask = 3
+}
+slot24[27] = {
+	nil,
+	"sbfxDMvw",
+	shift = 5,
+	mask = 3
+}
+slot25[0] = {
+	_ = "bfiDMvX",
+	[15.0] = "bfcDvX",
+	shift = 0,
+	mask = 15
+}
+slot24[28] = {
+	shift = 5,
+	mask = 3
+}
+slot25[0] = {
+	_ = "bfiDMvX",
+	[15.0] = "bfcDvX",
+	shift = 0,
+	mask = 15
+}
+slot24[29] = {
+	shift = 5,
+	mask = 3
+}
+slot24[30] = {
+	nil,
+	"ubfxDMvw",
+	shift = 5,
+	mask = 3
+}
+slot24[31] = {
+	nil,
+	"ubfxDMvw",
+	shift = 5,
+	mask = 3
+}
+slot25 = {
+	{
+		[0] = "strtDL",
+		"ldrtDL",
+		nil,
+		nil,
+		"strbtDL",
+		"ldrbtDL",
+		shift = 20,
+		mask = 5
+	},
+	shift = 21,
+	mask = 9,
+	_ = {
+		[0] = "strDL",
+		"ldrDL",
+		nil,
+		nil,
+		"strbDL",
+		"ldrbDL",
+		shift = 20,
+		mask = 5
+	}
+}
+slot26[0] = slot25
+slot26[1] = {
+	[0] = false,
+	nil,
+	nil,
+	nil,
+	false,
+	nil,
+	nil,
+	nil,
+	nil,
+	false,
+	nil,
+	nil,
+	nil,
+	false,
+	nil,
+	nil,
+	nil,
+	false,
+	false,
+	false,
+	nil,
+	nil,
+	false,
+	false,
+	nil,
+	false,
+	shift = 20,
+	mask = 31
+}
+slot28[2] = {
+	[45.0] = "pushR",
+	_ = "stmdbNR",
+	shift = 16,
+	mask = 63
+}
+slot27[0] = {
+	[0] = "stmdaNR",
+	"stmNR",
+	nil,
+	"stmibNR",
+	shift = 23,
+	mask = 3
+}
+slot28[1] = {
+	_ = "ldmNR",
+	[61.0] = "popR",
+	shift = 16,
+	mask = 63
+}
+slot27[1] = {
+	[0] = "ldmdaNR",
+	nil,
+	"ldmdbNR",
+	"ldmibNR",
+	shift = 23,
+	mask = 3
+}
+slot28 = {
+	[0] = "andDNPs",
+	"eorDNPs",
+	"subDNPs",
+	"rsbDNPs",
+	"addDNPs",
+	"adcDNPs",
+	"sbcDNPs",
+	"rscDNPs",
+	"tstNP",
+	"teqNP",
+	"cmpNP",
+	"cmnNP",
+	"orrDNPs",
+	"movDPs",
+	"bicDNPs",
+	"mvnDPs",
+	shift = 21,
+	mask = 15
+}
+slot31[0] = {
+	[0] = "smlabbNMSD",
+	"smlatbNMSD",
+	"smlabtNMSD",
+	"smlattNMSD",
+	shift = 5,
+	mask = 3
+}
+slot31[1] = {
+	[0] = "smlawbNMSD",
+	"smulwbNMS",
+	"smlawtNMSD",
+	"smulwtNMS",
+	shift = 5,
+	mask = 3
+}
+slot31[2] = {
+	[0] = "smlalbbDNMS",
+	"smlaltbDNMS",
+	"smlalbtDNMS",
+	"smlalttDNMS",
+	shift = 5,
+	mask = 3
+}
+slot31[3] = {
+	[0] = "smulbbNMS",
+	"smultbNMS",
+	"smulbtNMS",
+	"smulttNMS",
+	shift = 5,
+	mask = 3
+}
+slot32[0] = {
+	[0] = "mrsD",
+	"msrM",
+	shift = 21,
+	mask = 1
+}
+slot32[1] = {
+	"bxM",
+	false,
+	"clzDM",
+	shift = 21,
+	mask = 3
+}
+slot32[2] = {
+	"bxjM",
+	shift = 21,
+	mask = 3
+}
+slot32[3] = {
+	"blxM",
+	shift = 21,
+	mask = 3
+}
+slot32[5] = {
+	[0] = "qaddDMN",
+	"qsubDMN",
+	"qdaddDMN",
+	"qdsubDMN",
+	shift = 21,
+	mask = 3
+}
+slot32[7] = {
+	"bkptK",
+	shift = 21,
+	mask = 3
+}
+slot35[0] = {
+	[0] = "mulNMSs",
+	"mlaNMSDs",
+	"umaalDNMS",
+	"mlsDNMS",
+	"umullDNMSs",
+	"umlalDNMSs",
+	"smullDNMSs",
+	"smlalDNMSs",
+	shift = 21,
+	mask = 7
+}
+slot35[1] = {
+	[0] = "swpDMN",
+	false,
+	false,
+	false,
+	"swpbDMN",
+	false,
+	false,
+	false,
+	"strexDMN",
+	"ldrexDN",
+	"strexdDN",
+	"ldrexdDN",
+	"strexbDMN",
+	"ldrexbDN",
+	"strexhDN",
+	"ldrexhDN",
+	shift = 20,
+	mask = 15
+}
+slot34[0] = {
+	shift = 24,
+	mask = 1
+}
+slot34[1] = {
+	[0] = "strhDL",
+	"ldrhDL",
+	shift = 20,
+	mask = 1
+}
+slot34[2] = {
+	[0] = "ldrdDL",
+	"ldrsbDL",
+	shift = 20,
+	mask = 1
+}
+slot34[3] = {
+	[0] = "strdDL",
+	"ldrshDL",
+	shift = 20,
+	mask = 1
+}
+slot33[9] = {
+	shift = 5,
+	mask = 3
+}
+slot35[0] = {
+	nil,
+	nil,
+	nil,
+	false,
+	nil,
+	false,
+	shift = 4,
+	mask = 7
+}
+slot35[1] = {
+	shift = 21,
+	mask = 3
+}
+slot34[16] = {
+	shift = 7,
+	mask = 1
+}
+slot35[slot7.bor(3785359360.0)] = "nop"
+slot35._ = slot28
+slot34._ = {
+	shift = 0,
+	mask = 4294967295.0
+}
+slot33._ = {
+	shift = 20,
+	mask = 25
+}
+slot34[18] = {
+	[0] = "nopv6",
+	_ = "msrNW",
+	shift = 0,
+	mask = 983295
+}
+slot34._ = slot28
+slot36 = {
+	[0] = {
+		shift = 4,
+		mask = 9
+	},
+	{
+		[16.0] = "movwDW",
+		mask = 31,
+		[20.0] = "movtDW",
+		shift = 20,
+		[22.0] = "msrNW"
+	},
+	slot25,
+	{
+		shift = 4,
+		mask = 1
+	},
+	{
+		shift = 20,
+		mask = 1
+	},
+	{
+		[0] = "bB",
+		"blB",
+		shift = 24,
+		mask = 1
+	},
+	{
+		shift = 8,
+		mask = 15
+	},
+	{
+		"svcT",
+		shift = 24,
+		mask = 1
+	}
+}
+slot37 = {
+	[0] = false,
+	nil,
+	nil,
+	nil,
+	false,
+	"blxB"
+}
+slot37[1] = {
+	shift = 0,
+	mask = 0
+}
+slot37[2] = {
+	shift = 0,
+	mask = 0
+}
+slot37[3] = {
+	shift = 0,
+	mask = 0
+}
+slot37[6] = {
+	shift = 0,
+	mask = 0
+}
+slot37[7] = {
+	shift = 0,
+	mask = 0
+}
+slot38 = {
+	[0] = "r0",
+	"r1",
+	"r2",
+	"r3",
+	"r4",
+	"r5",
+	"r6",
+	"r7",
+	"r8",
+	"r9",
+	"r10",
+	"r11",
+	"r12",
+	"sp",
+	"lr",
+	"pc"
+}
+slot39 = {
+	[0] = "eq",
+	"ne",
+	"hs",
+	"lo",
+	"mi",
+	"pl",
+	"vs",
+	"vc",
+	"hi",
+	"ls",
+	"ge",
+	"lt",
+	"gt",
+	"le",
+	"al"
+}
+slot40 = {
+	[0] = "lsl",
+	"lsr",
+	"asr",
+	"ror"
+}
+
+function slot41(slot0, slot1, slot2)
+	slot3 = slot0.pos
+	slot4 = ""
+
+	if slot0.rel then
+		if slot0.symtab[slot0.rel] then
+			slot4 = "\t->" .. slot5
+		elseif uv0(slot0.op, 234881024) ~= 167772160 then
+			slot4 = "\t; 0x" .. uv1(slot0.rel)
+		end
+	end
+
+	if slot0.hexdump > 0 then
+		slot0.out(uv2("%08x  %s  %-5s %s%s\n", slot0.addr + slot3, uv1(slot0.op), slot1, uv3(slot2, ", "), slot4))
+	else
+		slot0.out(uv2("%08x  %-5s %s%s\n", slot0.addr + slot3, slot1, uv3(slot2, ", "), slot4))
+	end
+
+	slot0.pos = slot3 + 4
+end
+
+function slot42(slot0)
+	slot4[1] = "0x" .. uv1(slot0.op)
+
+	return uv0(slot0, ".long", {})
+end
+
+function slot43(slot0, slot1, slot2)
+	slot3 = uv0[uv1(uv2(slot1, 16), 15)]
+	slot4, slot5 = nil
+
+	if not (uv1(slot1, 67108864) == 0) and uv1(slot1, 33554432) == 0 then
+		slot5 = uv1(slot1, 4095)
+
+		if uv1(slot1, 8388608) == 0 then
+			slot5 = -slot5
+		end
+
+		if slot3 == "pc" then
+			slot0.rel = slot0.addr + slot2 + 8 + slot5
+		end
+
+		slot5 = "#" .. slot5
+	elseif slot6 and uv1(slot1, 4194304) ~= 0 then
+		slot5 = uv1(slot1, 15) + uv1(uv2(slot1, 4), 240)
+
+		if uv1(slot1, 8388608) == 0 then
+			slot5 = -slot5
+		end
+
+		if slot3 == "pc" then
+			slot0.rel = slot0.addr + slot2 + 8 + slot5
+		end
+
+		slot5 = "#" .. slot5
+	else
+		slot5 = uv0[uv1(slot1, 15)]
+
+		if not slot6 then
+			if uv1(slot1, 4064) == 0 then
+				-- Nothing
+			else
+				slot5 = (uv1(slot1, 4064) ~= 96 or uv3("%s, rrx", slot5)) and uv3("%s, %s #%d", slot5, uv4[uv1(uv2(slot1, 5), 3)], slot7)
+			end
+		end
+
+		if uv1(slot1, 8388608) == 0 then
+			slot5 = "-" .. slot5
+		end
+	end
+
+	slot4 = (slot5 ~= "#0" or uv3("[%s]", slot3)) and (uv1(slot1, 16777216) ~= 0 or uv3("[%s], %s", slot3, slot5)) and uv3("[%s, %s]", slot3, slot5)
+
+	if uv1(slot1, 18874368) == 18874368 then
+		slot4 = slot4 .. "!"
+	end
+
+	return slot4
+end
+
+function slot44(slot0, slot1, slot2)
+	slot3 = uv0[uv1(uv2(slot1, 16), 15)]
+	slot4 = uv1(slot1, 255) * 4
+
+	if uv1(slot1, 8388608) == 0 then
+		slot4 = -slot4
+	end
+
+	if slot3 == "pc" then
+		slot0.rel = slot0.addr + slot2 + 8 + slot4
+	end
+
+	if slot4 == 0 then
+		return uv3("[%s]", slot3)
+	else
+		return uv3("[%s, #%d]", slot3, slot4)
+	end
+end
+
+function slot45(slot0, slot1, slot2, slot3)
+	if slot1 == "s" then
+		return uv0("s%d", 2 * uv1(uv2(slot0, slot2), 15) + uv1(uv2(slot0, slot3), 1))
+	else
+		return uv0("d%d", uv1(uv2(slot0, slot2), 15) + uv1(uv2(slot0, slot3 - 4), 16))
+	end
+end
+
+function slot46(slot0)
+	slot1 = slot0.pos
+	slot10, slot10, slot9, slot8 = uv0(slot0.code, slot1 + 1, slot1 + 4)
+	slot6 = uv1(uv2(slot5, 24), uv2(slot4, 16), uv2(slot3, 8), slot2)
+	slot7 = {}
+	slot8 = ""
+	slot9, slot10, slot11, slot12 = nil
+	slot0.op = slot6
+	slot0.rel = nil
+	slot14 = nil
+	slot14 = (uv3(slot6, 28) ~= 15 or uv4[uv5(uv3(slot6, 25), 7)]) and uv7[uv5(uv3(slot6, 25), 7)]
+
+	while uv8(slot14) ~= "string" do
+		if not slot14 then
+			return uv9(slot0)
+		end
+
+		if not slot14[uv5(uv3(slot6, slot14.shift), slot14.mask)] then
+			slot14 = slot14._
+		end
+	end
+
+	slot10, slot11 = uv10(slot14, "^([a-z0-9]*)(.*)")
+
+	if uv11(slot16, 1, 1) == "." then
+		slot18, slot11 = uv10(slot11, "^([a-z0-9.]*)(.*)")
+		slot8 = slot8 .. slot15
+	end
+
+	for slot18 in uv12(slot11, ".") do
+		slot19 = nil
+
+		if slot18 == "D" then
+			slot19 = uv13[uv5(uv3(slot6, 12), 15)]
+		elseif slot18 == "N" then
+			slot19 = uv13[uv5(uv3(slot6, 16), 15)]
+		elseif slot18 == "S" then
+			slot19 = uv13[uv5(uv3(slot6, 8), 15)]
+		elseif slot18 == "M" then
+			slot19 = uv13[uv5(slot6, 15)]
+		elseif slot18 == "d" then
+			slot19 = uv14(slot6, slot12, 12, 22)
+		elseif slot18 == "n" then
+			slot19 = uv14(slot6, slot12, 16, 7)
+		elseif slot18 == "m" then
+			slot19 = uv14(slot6, slot12, 0, 5)
+		elseif slot18 == "P" then
+			if uv5(slot6, 33554432) ~= 0 then
+				slot19 = uv15(uv5(slot6, 255), 2 * uv5(uv3(slot6, 8), 15))
+			else
+				slot19 = uv13[uv5(slot6, 15)]
+
+				if uv5(slot6, 4080) ~= 0 then
+					slot7[#slot7 + 1] = slot19
+					slot20 = uv16[uv5(uv3(slot6, 5), 3)]
+					slot21 = nil
+
+					if uv5(slot6, 3984) == 0 then
+						if slot20 == "ror" then
+							slot20 = "rrx"
+						else
+							slot21 = "#32"
+						end
+					elseif uv5(slot6, 16) == 0 then
+						slot21 = "#" .. uv5(uv3(slot6, 7), 31)
+					else
+						slot21 = uv13[uv5(uv3(slot6, 8), 15)]
+					end
+
+					if slot10 == "mov" then
+						slot10 = slot20
+						slot19 = slot21
+					elseif slot21 then
+						slot19 = uv17("%s %s", slot20, slot21)
+					else
+						slot19 = slot20
+					end
+				end
+			end
+		elseif slot18 == "L" then
+			slot19 = uv18(slot0, slot6, slot1)
+		elseif slot18 == "l" then
+			slot19 = uv19(slot0, slot6, slot1)
+		elseif slot18 == "B" then
+			slot20 = slot0.addr + slot1 + 8 + uv20(uv2(slot6, 8), 6)
+
+			if slot13 == 15 then
+				slot20 = slot20 + uv5(uv3(slot6, 23), 2)
+			end
+
+			slot0.rel = slot20
+			slot19 = "0x" .. uv21(slot20)
+		elseif slot18 == "F" then
+			slot12 = "s"
+		elseif slot18 == "G" then
+			slot12 = "d"
+		elseif slot18 == "." then
+			slot20 = slot8
+
+			if slot12 == "s" then
+				slot21 = ".f32"
+			else
+				slot21 = ".f64"
+			end
+
+			slot8 = slot20 .. slot21
+		elseif slot18 == "R" then
+			if uv5(slot6, 2097152) ~= 0 and #slot7 == 1 then
+				slot7[1] = slot7[1] .. "!"
+			end
+
+			slot20 = {}
+
+			for slot24 = 0, 15, 1 do
+				if uv5(uv3(slot6, slot24), 1) == 1 then
+					slot20[#slot20 + 1] = uv13[slot24]
+				end
+			end
+
+			slot19 = "{" .. uv22(slot20, ", ") .. "}"
+		elseif slot18 == "r" then
+			if uv5(slot6, 2097152) ~= 0 and #slot7 == 2 then
+				slot7[1] = slot7[1] .. "!"
+			end
+
+			slot20 = tonumber(uv11(slot9, 2))
+			slot21 = uv5(slot6, 255)
+
+			if slot12 == "d" then
+				slot21 = uv3(slot21, 1)
+			end
+
+			slot7[#slot7] = uv17("{%s-%s%d}", slot9, slot12, slot20 + slot21 - 1)
+		elseif slot18 == "W" then
+			slot19 = uv5(slot6, 4095) + uv5(uv3(slot6, 4), 61440)
+		elseif slot18 == "T" then
+			slot19 = "#0x" .. uv21(uv5(slot6, 16777215), 6)
+		elseif slot18 == "U" then
+			if uv5(uv3(slot6, 7), 31) == 0 then
+				slot19 = nil
+			end
+		elseif slot18 == "u" then
+			slot19 = uv5(uv3(slot6, 7), 31)
+
+			if uv5(slot6, 64) == 0 then
+				if slot19 == 0 then
+					slot19 = nil
+				else
+					slot19 = "lsl #" .. slot19
+				end
+			elseif slot19 == 0 then
+				slot19 = "asr #32"
+			else
+				slot19 = "asr #" .. slot19
+			end
+		elseif slot18 == "v" then
+			slot19 = uv5(uv3(slot6, 7), 31)
+		elseif slot18 == "w" then
+			slot19 = uv5(uv3(slot6, 16), 31)
+		elseif slot18 == "x" then
+			slot19 = uv5(uv3(slot6, 16), 31) + 1
+		elseif slot18 == "X" then
+			slot19 = uv5(uv3(slot6, 16), 31) - slot9 + 1
+		elseif slot18 == "Y" then
+			slot19 = uv5(uv3(slot6, 12), 240) + uv5(slot6, 15)
+		elseif slot18 == "K" then
+			slot19 = "#0x" .. uv21(uv5(uv3(slot6, 4), 65520) + uv5(slot6, 15), 4)
+		elseif slot18 == "s" and uv5(slot6, 1048576) ~= 0 then
+			slot8 = "s" .. slot8
+		end
+
+		if slot19 then
+			slot9 = slot19
+
+			if uv8(slot19) == "number" then
+				slot19 = "#" .. slot19
+			end
+
+			slot7[#slot7 + 1] = slot19
+		end
+	end
+
+	return uv23(slot0, slot10 .. slot8, slot7)
+end
+
+function slot47(slot0, slot1, slot2)
+	if not slot1 then
+		slot1 = 0
+	end
+
+	if not slot2 or not (slot1 + slot2) then
+		slot3 = #slot0.code
+	end
+
+	slot0.pos = slot1
+	slot0.rel = nil
+
+	while slot0.pos < slot3 do
+		uv0(slot0)
+	end
+end
+
+function slot51.create(slot0, slot1, slot2)
+	slot3 = {
+		code = slot0
+	}
+
+	if not slot1 then
+		slot4 = 0
+	end
+
+	slot3.addr = slot4
+
+	if not slot2 then
+		slot4 = io.write
+	end
+
+	slot3.out = slot4
+	slot3.symtab = {}
+	slot3.disass = uv0
+	slot3.hexdump = 8
+
+	return slot3
+end
+
+function slot51.disass(slot0, slot1, slot2)
+	slot3 = uv0(slot0, slot1, slot2)
+
+	slot3:disass()
+end
+
+function slot51.regname(slot0)
+	if slot0 < 16 then
+		return uv0[slot0]
+	end
+
+	return "d" .. slot0 - 16
+end
+
+return {}

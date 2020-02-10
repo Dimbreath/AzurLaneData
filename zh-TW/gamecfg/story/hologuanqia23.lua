@@ -1,0 +1,351 @@
+slot3.alpha = {
+	1,
+	0
+}
+slot2.flashin = {
+	delay = 1,
+	dur = 1,
+	black = true
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[1] = {
+	actorName = "{namecode:96}",
+	side = 1,
+	stopbgm = true,
+	dir = 1,
+	blackBg = true,
+	nameColor = "#a9f548",
+	say = "我知道你在担心什么…我们都亲手击败过无数同伴的棋子…"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[2] = {
+	actorName = "{namecode:96}",
+	nameColor = "#a9f548",
+	side = 1,
+	dir = 1,
+	blackBg = true,
+	say = "她们已经被卷进来了，这是事实。这里是她们的基地，她们有为自己战斗的理由和权利"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[3] = {
+	actorName = "{namecode:96}",
+	nameColor = "#a9f548",
+	side = 1,
+	dir = 1,
+	blackBg = true,
+	say = "我知道，虽然嘴上没说什么，眼神里可以看出明显的动摇呢。所以你故意那样说，是想顺势让她们远离战场吧"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[4] = {
+	actorName = "{namecode:96}",
+	nameColor = "#a9f548",
+	side = 1,
+	dir = 1,
+	blackBg = true,
+	say = "但现在大家是同伴，你应该对同伴多抱有一些信任。"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[5] = {
+	actorName = "{namecode:96}",
+	nameColor = "#a9f548",
+	side = 1,
+	dir = 1,
+	blackBg = true,
+	say = "如果担心她们的情况，就亲口向她们好好说出来吧"
+}
+slot3.alpha = {
+	0,
+	1
+}
+slot2.flashout = {
+	dur = 0.5,
+	black = true
+}
+slot3.alpha = {
+	1,
+	0
+}
+slot2.flashin = {
+	delay = 1,
+	dur = 0.5,
+	black = true
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[6] = {
+	nameColor = "#a9f548",
+	side = 0,
+	dir = 1,
+	blackBg = true,
+	actorName = "白上吹雪",
+	say = "唔…拉菲酱…{namecode:95}酱…澪酱…"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[7] = {
+	actorName = "白上吹雪",
+	nameColor = "#a9f548",
+	side = 0,
+	dir = 1,
+	blackBg = true,
+	say = "大家都要平安无事…zZZZ"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[8] = {
+	actorName = "白上吹雪",
+	nameColor = "#a9f548",
+	side = 2,
+	dir = 1,
+	blackBg = true,
+	say = "zZZZZZ"
+}
+slot3.alpha = {
+	0,
+	1
+}
+slot2.flashout = {
+	dur = 1,
+	black = true
+}
+slot3.alpha = {
+	1,
+	0
+}
+slot2.flashin = {
+	delay = 1,
+	dur = 1,
+	black = true
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[9] = {
+	side = 2,
+	bgName = "bg_story_holosaba1",
+	dir = 1,
+	bgmDelay = 2,
+	bgm = "holo-tokiwa",
+	say = "深夜·反抗军基地外"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[10] = {
+	actor = 10500020,
+	side = 2,
+	bgName = "bg_story_holosaba1",
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "呼…果然出来吹吹海风感觉舒服多了~"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[11] = {
+	expression = 1,
+	side = 2,
+	bgName = "bg_story_holosaba1",
+	dir = 1,
+	actor = 10500020,
+	nameColor = "#a9f548",
+	say = "…………"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[12] = {
+	expression = 2,
+	side = 2,
+	bgName = "bg_story_holosaba1",
+	dir = 1,
+	actor = 10500020,
+	nameColor = "#a9f548",
+	say = "那个阿库娅酱…不是真正的阿库娅酱吗…"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[13] = {
+	expression = 1,
+	side = 2,
+	bgName = "bg_story_holosaba1",
+	dir = 1,
+	actor = 10500020,
+	nameColor = "#a9f548",
+	say = "是敌人的话…就只能战斗了吧"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[14] = {
+	expression = 2,
+	side = 2,
+	bgName = "bg_story_holosaba1",
+	dir = 1,
+	actor = 10500020,
+	nameColor = "#a9f548",
+	say = "…真的只能战斗么？下次…我能坦然开火么…？"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[15] = {
+	expression = 1,
+	side = 2,
+	bgName = "bg_story_holosaba1",
+	dir = 1,
+	actor = 10500020,
+	nameColor = "#a9f548",
+	say = "如果再一次遇到她们，我应该怎么办才好......"
+}
+slot3.alpha = {
+	0,
+	1
+}
+slot2.flashout = {
+	dur = 1,
+	black = true
+}
+slot3.alpha = {
+	1,
+	0
+}
+slot2.flashin = {
+	delay = 1,
+	dur = 1,
+	black = true
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[16] = {
+	expression = 3,
+	side = 2,
+	bgName = "bg_story_holosaba1",
+	dir = 1,
+	stopbgm = true,
+	actor = 10500010,
+	nameColor = "#a9f548",
+	say = "………………"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[17] = {
+	expression = 2,
+	side = 2,
+	bgName = "bg_story_holosaba1",
+	dir = 1,
+	blackBg = true,
+	actor = 10500010,
+	nameColor = "#a9f548",
+	say = "果然空前辈，在哪里都是温柔的空前辈啊。"
+}
+slot0.scripts = {}
+
+return {
+	fadeType = 1,
+	mode = 2,
+	once = true,
+	id = "HOLOGUANQIA23",
+	fadein = 1.5
+}
