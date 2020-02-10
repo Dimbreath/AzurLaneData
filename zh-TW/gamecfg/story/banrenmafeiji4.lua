@@ -1,0 +1,575 @@
+slot3[1] = {
+	"盛夏的半人马座\n\n<size=45>四　沙滩上的美味</size>",
+	1
+}
+slot2.sequence = {}
+slot1[1] = {
+	mode = 1,
+	stopbgm = true
+}
+slot3.alpha = {
+	0,
+	1
+}
+slot2.flashout = {
+	dur = 1,
+	black = true
+}
+slot3.alpha = {
+	1,
+	0
+}
+slot2.flashin = {
+	delay = 1,
+	dur = 1,
+	black = true
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[2] = {
+	bgName = "star_level_bg_106",
+	side = 2,
+	dir = 1,
+	bgmDelay = 2,
+	bgm = "story-1",
+	actor = 201212,
+	nameColor = "#a9f548",
+	say = "啊，自由和维希的姐妹们来了呢。"
+}
+slot2.paintingFadeOut = {
+	time = 0.5,
+	side = 0
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[3] = {
+	expression = 2,
+	side = 1,
+	bgName = "star_level_bg_106",
+	say = "还有罗德尼前辈。",
+	dir = 1,
+	actor = 206040,
+	nameColor = "#a9f548"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[4] = {
+	actor = 201212,
+	side = 0,
+	bgName = "star_level_bg_106",
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "咦，真的耶。"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot3[1] = {
+	y = 45,
+	type = "shake",
+	delay = 0,
+	dur = 0.2,
+	x = 0,
+	number = 2
+}
+slot2.action = {}
+slot1[5] = {
+	side = 0,
+	bgName = "star_level_bg_106",
+	dir = 1,
+	actor = 201212,
+	nameColor = "#a9f548",
+	say = "罗德尼姐姐，敦刻尔克小姐，埃米尔小姐，这边~~~"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[6] = {
+	actor = 904011,
+	side = 2,
+	bgName = "star_level_bg_106",
+	nameColor = "#a9f548",
+	dir = -1,
+	say = "你是……啊，新加入的半人马对吧？"
+}
+slot2.paintingFadeOut = {
+	time = 0.5,
+	side = 0
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[7] = {
+	expression = 2,
+	side = 1,
+	bgName = "star_level_bg_106",
+	say = "是的，敦刻尔克前辈，埃米尔·贝尔汀前辈，还有罗德尼前辈，上午好。",
+	dir = 1,
+	actor = 206040,
+	nameColor = "#a9f548"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[8] = {
+	actor = 802011,
+	side = 0,
+	bgName = "star_level_bg_106",
+	nameColor = "#a9f548",
+	dir = -1,
+	say = "日安，叫我埃米尔就好啦~"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[9] = {
+	actor = 904011,
+	side = 0,
+	bgName = "star_level_bg_106",
+	nameColor = "#a9f548",
+	dir = -1,
+	say = "呵呵，日安。"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[10] = {
+	actor = 205041,
+	side = 0,
+	bgName = "star_level_bg_106",
+	nameColor = "#a9f548",
+	dir = -1,
+	say = "你好~我在路上遇到了她们两个，就顺便带过来了。"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[11] = {
+	actor = 904011,
+	side = 0,
+	bgName = "star_level_bg_106",
+	nameColor = "#a9f548",
+	dir = -1,
+	say = "标枪，不好意思，巴尔她果然还是不愿意过来呢。不过你放心，今晚我一定会把她拉过来的。"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[12] = {
+	actor = 201212,
+	side = 1,
+	bgName = "star_level_bg_106",
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "嗯，那就麻烦敦刻尔克姐姐了~"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[13] = {
+	actor = 206040,
+	side = 1,
+	bgName = "star_level_bg_106",
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "咦，晚上有什么事吗？"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[14] = {
+	actor = 201212,
+	side = 2,
+	bgName = "star_level_bg_106",
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "嘻嘻，等到晚上你就知道了，也和半人马你有关哦~"
+}
+slot2.paintingFadeOut = {
+	time = 0.5,
+	side = 0
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[15] = {
+	expression = 4,
+	side = 1,
+	bgName = "star_level_bg_106",
+	say = "这样啊，那好吧……",
+	dir = 1,
+	actor = 206040,
+	nameColor = "#a9f548"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[16] = {
+	actor = 904011,
+	side = 0,
+	bgName = "star_level_bg_106",
+	nameColor = "#a9f548",
+	dir = -1,
+	say = "总之，我做了甜点来，要一起尝尝吗？"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[17] = {
+	actor = 201212,
+	side = 1,
+	bgName = "star_level_bg_106",
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "半人马我跟你说，敦刻尔克姐姐做的甜点超级好吃的哦。"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[18] = {
+	actor = 205041,
+	side = 0,
+	bgName = "star_level_bg_106",
+	nameColor = "#a9f548",
+	dir = -1,
+	say = "我也听姐姐说过呢，说维希教廷来了一位世界级的甜点大师什么的。"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[19] = {
+	actor = 904011,
+	side = 0,
+	bgName = "star_level_bg_106",
+	nameColor = "#a9f548",
+	dir = -1,
+	say = "呵呵，你们都太过奖了……好了，请用吧。"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[20] = {
+	expression = 3,
+	side = 1,
+	bgName = "star_level_bg_106",
+	dir = 1,
+	actor = 206040,
+	nameColor = "#a9f548",
+	say = "……真美味啊。"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot3[1] = {
+	y = 45,
+	type = "shake",
+	delay = 0,
+	dur = 0.2,
+	x = 0,
+	number = 2
+}
+slot2.action = {}
+slot1[21] = {
+	side = 1,
+	bgName = "star_level_bg_106",
+	dir = 1,
+	actor = 201212,
+	nameColor = "#a9f548",
+	say = "对吧~不过我虽然很想吃……但总觉得吃下去的话，回去要没有勇气面对体重计了。"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[22] = {
+	actor = 205041,
+	side = 0,
+	bgName = "star_level_bg_106",
+	nameColor = "#a9f548",
+	dir = -1,
+	say = "确实很美味呢……不过真遗憾，等一下我还要去练习沙滩排球，不能吃太多呢。"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[23] = {
+	actor = 904011,
+	side = 0,
+	bgName = "star_level_bg_106",
+	nameColor = "#a9f548",
+	dir = -1,
+	say = "呵呵，没事的，想要吃的话可以随时来找我。"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[24] = {
+	actor = 802011,
+	side = 1,
+	bgName = "star_level_bg_106",
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "不过，为什么来海边会带蛋糕这些点心啦……"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[25] = {
+	actor = 802011,
+	side = 1,
+	bgName = "star_level_bg_106",
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "虽然敦刻尔克你做的是很好吃没错，你看标枪做的便当就很正常。"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[26] = {
+	actor = 904011,
+	side = 0,
+	bgName = "star_level_bg_106",
+	nameColor = "#a9f548",
+	dir = -1,
+	say = "……那下次我问指挥官申请一个便携冰箱，做点冰淇淋过来怎么样？"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[27] = {
+	actor = 802011,
+	side = 1,
+	bgName = "star_level_bg_106",
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "你还真是完全没有抛弃甜点的念头呢……"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[28] = {
+	actor = 802011,
+	side = 1,
+	bgName = "star_level_bg_106",
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "不过冰淇淋是个好主意，我支持哦。"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[29] = {
+	expression = 2,
+	side = 1,
+	bgName = "star_level_bg_106",
+	dir = 1,
+	actor = 206040,
+	nameColor = "#a9f548",
+	say = "也很符合夏天的感觉呢。"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[30] = {
+	actor = 201212,
+	side = 0,
+	bgName = "star_level_bg_106",
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "虽然热量也很高就是了……"
+}
+slot2.paintingFadeOut = {
+	time = 0.3,
+	side = 2
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot3[1] = {
+	y = 0,
+	type = "shake",
+	delay = 0.3,
+	dur = 0.4,
+	x = 22.5,
+	number = 1
+}
+slot3[2] = {
+	y = 45,
+	type = "shake",
+	delay = 1.1,
+	dur = 0.2,
+	x = 0,
+	number = 2
+}
+slot2.action = {}
+slot1[31] = {
+	say = "唔，不管了，我也要吃！",
+	side = 2,
+	bgName = "star_level_bg_106",
+	dir = 1,
+	blackBg = true,
+	actor = 201212,
+	nameColor = "#a9f548"
+}
+slot0.scripts = {}
+
+return {
+	fadeOut = 1.5,
+	mode = 2,
+	fadeType = 2,
+	once = true,
+	id = "BANRENMAFEIJI4",
+	fadein = 1.5
+}
