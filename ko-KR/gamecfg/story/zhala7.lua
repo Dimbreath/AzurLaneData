@@ -1,0 +1,426 @@
+slot3[1] = {
+	"피안의 장미\n\n<size=45>7.빛나는 밤하늘</size>",
+	1
+}
+slot2.sequence = {}
+slot1[1] = {
+	mode = 1,
+	stopbgm = true
+}
+slot3.alpha = {
+	0,
+	1
+}
+slot2.flashout = {
+	dur = 1,
+	black = true
+}
+slot3.alpha = {
+	1,
+	0
+}
+slot2.flashin = {
+	delay = 1,
+	dur = 1,
+	black = true
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[2] = {
+	bgName = "bg_night",
+	side = 2,
+	dir = 1,
+	bgmDelay = 2,
+	bgm = "story-2",
+	actor = 603020,
+	nameColor = "#a9f548",
+	say = "자, 바로 여기예요. 이 위치가 딱 좋네요."
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[3] = {
+	side = 2,
+	bgName = "bg_night",
+	dir = 1,
+	say = "대체 무슨 체력으로 살아있는 거지 생각하던 나는 차라에게 끌려 벤치에 앉아 함께 하늘을 올려다 보았다."
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[4] = {
+	actor = 603020,
+	side = 2,
+	bgName = "bg_night",
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "지휘관님, 오늘 수고했어요. 자~ 방금 샀던 스포츠 음료예요."
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[5] = {
+	expression = 2,
+	side = 2,
+	bgName = "bg_night",
+	dir = 1,
+	actor = 603020,
+	nameColor = "#a9f548",
+	say = "오늘 하루 수고했다는 답례와 사과이기도 하답니다. 후후, 지휘관님, 마음에 담아두지는 않으시겠죠?"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[6] = {
+	expression = 1,
+	side = 2,
+	bgName = "bg_night",
+	dir = 1,
+	actor = 603020,
+	nameColor = "#a9f548",
+	say = "띵——"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[7] = {
+	side = 2,
+	bgName = "bg_night",
+	dir = 1,
+	say = "차라는 나의 얼굴을 빤히 쳐다보고 있었다."
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[8] = {
+	actor = 603020,
+	side = 2,
+	bgName = "bg_night",
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "밤이라 제대로 보이지 않는 것도 있지만, 지휘관님은 지금쯤 아마 달갑지 않다는 얼굴을 하고 있겠죠."
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[9] = {
+	expression = 4,
+	side = 2,
+	bgName = "bg_night",
+	dir = 1,
+	actor = 603020,
+	nameColor = "#a9f548",
+	say = "장난에 당하는 모습이 아니라 멋있는 모습을 보여주고 싶었는데’ ……라고 생각하고 있으시죠? 항상 성공하지는 못했지만요."
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[10] = {
+	actor = 603020,
+	side = 2,
+	bgName = "bg_night",
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "지휘관님을 놀릴 때 그 표정, 백번을 봐도 질리지 않아요. 후후~"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[11] = {
+	side = 2,
+	bgName = "bg_night",
+	dir = 1,
+	say = "아무래도 나는 계속 끌려다니고 있던 것 같다. 매번 반격을 하겠다고 생각할 때마다 제압당하고 마는 것이다."
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[12] = {
+	actor = 603020,
+	side = 2,
+	bgName = "bg_night",
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "…밤 하늘의 별이 정말 예쁘죠. 후후, 저에게 밤은 그렇게 좋은 기억을 주진 못해요… 하지만, 별을 바라볼 때 마다 역시나 그 반짝임에 감탄하곤 한답니다."
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[13] = {
+	actor = 603020,
+	side = 2,
+	bgName = "bg_night",
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "별은 사람들의 소망을 담고 있지만 수십, 수백, 수천년의 시간을 들여도 닿을 수 없는 존재예요."
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[14] = {
+	actor = 603020,
+	side = 2,
+	bgName = "bg_night",
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "하지만 지휘관님은 달라요. 제 곁에 있죠."
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[15] = {
+	actor = 603020,
+	side = 2,
+	bgName = "bg_night",
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "지휘관님의 모든 것은, 저 차가운 별빛과는 달라요. 얼마든지 손에 닿을 수 있어요."
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[16] = {
+	expression = 2,
+	side = 2,
+	bgName = "bg_night",
+	dir = 1,
+	actor = 603020,
+	nameColor = "#a9f548",
+	say = "이렇게 말하면 조금 주제 넘은 것 같지만, 자유로운 함대의 통솔자 보다는 이렇게 제 함정에 빠져 어찌할 줄 모르는 지휘관님이 더 좋답니다."
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[17] = {
+	actor = 603020,
+	side = 2,
+	bgName = "bg_night",
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "후후, 역시 이 얼굴을 보면 놀리는 걸 참을 수가 없어요."
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[18] = {
+	actor = 603020,
+	side = 2,
+	bgName = "bg_night",
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "만약 지휘관님이 저에게 아무런 생각도 없다면, 이 비밀로 가득찬 ‘게임’은 일찍이 막을 내리고, 우리의 관계는 처음으로 돌아갔겠죠."
+}
+slot3[1] = {
+	y = 30,
+	type = "shake",
+	delay = 0,
+	dur = 0.2,
+	x = 0,
+	number = 2
+}
+slot2.action = {}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[19] = {
+	side = 2,
+	bgName = "bg_night",
+	dir = 1,
+	actor = 603020,
+	nameColor = "#a9f548",
+	say = "그러니——"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[20] = {
+	side = 2,
+	bgName = "bg_night",
+	dir = 1,
+	say = "갑자기 팔이 끌려 안겨졌다."
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[21] = {
+	actor = 603020,
+	side = 2,
+	bgName = "bg_night",
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "저도 하늘의 별이 아니랍니다. 지휘관님의 곁에 있어요."
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[22] = {
+	actor = 603020,
+	side = 2,
+	bgName = "bg_night",
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "지휘관님, 항상 곁에 있을게요."
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[23] = {
+	side = 2,
+	bgName = "bg_night",
+	dir = 1,
+	say = "피곤했던걸까. 차라가 이렇게 내 품에 기대왔다."
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[24] = {
+	actor = 603020,
+	side = 2,
+	bgName = "bg_night",
+	nameColor = "#a9f548",
+	dir = 1,
+	say = "아, 정말이지. 이러다가 누구에게 들키기라도 한다면——"
+}
+slot2.typewriter = {
+	speed = 0.05,
+	speedUp = 0.01
+}
+slot2.painting = {
+	alpha = 0.3,
+	time = 1
+}
+slot1[25] = {
+	side = 2,
+	bgName = "bg_night",
+	dir = 1,
+	blackBg = true,
+	actor = 603020,
+	nameColor = "#a9f548",
+	say = "하지만… 조금만 더 이렇게… 이렇게 있어도… 괜찮겠지요?"
+}
+slot0.scripts = {}
+
+return {
+	fadeOut = 1.5,
+	mode = 2,
+	fadeType = 2,
+	once = true,
+	id = "ZHALA7",
+	fadein = 1.5
+}
