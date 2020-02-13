@@ -571,6 +571,11 @@ slot6 = slot1.BulletType
 slot6 = slot6.G_BULLET
 slot7 = slot4._createGravitationBullet
 slot5[slot6] = slot7
+slot5 = slot4.generateBulletFuncs
+slot6 = slot1.BulletType
+slot6 = slot6.ELECTRIC_ARC
+slot7 = slot4._createDirectBullet
+slot5[slot6] = slot7
 
 function slot5()
 	slot0 = {}

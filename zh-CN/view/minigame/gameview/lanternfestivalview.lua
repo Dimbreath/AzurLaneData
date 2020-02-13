@@ -24,13 +24,12 @@ end
 
 function slot0.PackData(slot0)
 	slot1 = 15
-	slot2 = slot0:GetMGHubData()
 	slot3 = slot0:GetMGData()
 	slot4, slot5 = nil
 
 	if slot3:GetRuntimeData("elements") and #slot3 > 0 then
 		slot4 = _.slice(slot3, 1, slot1)
-		slot5 = _.slice(slot3, slot1 + 1, #slot3 - slot1)
+		slot5 = _.slice(slot3, slot1 + 1, slot0:GetMGHubData().usedtime)
 	else
 		for slot9 = 1, slot1, 1 do
 			table.insert({}, 0)
@@ -39,12 +38,12 @@ function slot0.PackData(slot0)
 		slot5 = {}
 	end
 
-	return {
-		finishCount = slot2.usedtime,
-		unlockCount = slot2.count,
-		nextTimes = slot4,
-		finishList = slot5
-	}
+	slot6.finishCount = slot2.usedtime
+	slot6.unlockCount = slot2.count
+	slot6.nextTimes = slot4
+	slot6.finishList = slot5
+
+	return {}
 end
 
 function slot0.OnGetAwardDone(slot0, slot1)
@@ -52,11 +51,11 @@ function slot0.OnGetAwardDone(slot0, slot1)
 		slot2 = slot0:GetMGHubData()
 
 		if slot2.ultimate == 0 and slot2:getConfig("reward_need") <= slot2.usedtime then
-			pg.m02:sendNotification(GAME.SEND_MINI_GAME_OP, {
-				hubid = slot2.id,
-				cmd = MiniGameOPCommand.CMD_ULTIMATE,
-				args1 = {}
-			})
+			slot9.hubid = slot2.id
+			slot9.cmd = MiniGameOPCommand.CMD_ULTIMATE
+			slot9.args1 = {}
+
+			pg.m02:sendNotification(GAME.SEND_MINI_GAME_OP, {})
 		end
 	end
 end

@@ -48,42 +48,41 @@ function slot0.didEnter(slot0)
 		uv0:emit(uv1.ON_BACK)
 	end)
 	onButton(slot0, slot0._helpBtn, function ()
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.music_main.tip
-		})
+		slot2.type = MSGBOX_TYPE_HELP
+		slot2.helps = pg.gametip.music_main.tip
+
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({})
 	end)
 	onButton(slot0, slot0.btn_actskin, function ()
-		uv0:emit(MusicFestivalMediator.GO_SCENE, SCENE.ACTIVITY, {
-			id = ActivityConst.MUSIC_CHUIXUE7DAY_ID
-		})
+		slot4.id = ActivityConst.MUSIC_CHUIXUE7DAY_ID
+
+		uv0:emit(MusicFestivalMediator.GO_SCENE, SCENE.ACTIVITY, {})
 	end)
 	onButton(slot0, slot0.btn_ins, function ()
-		uv0:emit(MusicFestivalMediator.GO_SUBLAYER, Context.New({
-			viewComponent = InstagramLayer,
-			mediator = InstagramMediator,
-			data = {
-				id = ActivityConst.IDOL_INS_ID
-			}
-		}))
+		slot4.viewComponent = InstagramLayer
+		slot4.mediator = InstagramMediator
+		slot5.id = ActivityConst.IDOL_INS_ID
+		slot4.data = {}
+
+		uv0:emit(MusicFestivalMediator.GO_SUBLAYER, Context.New({}))
 	end)
 	onButton(slot0, slot0._xiefei, function ()
-		uv0:emit(MusicFestivalMediator.GO_SCENE, SCENE.ACTIVITY, {
-			id = ActivityConst.MUSIC_FESTIVAL_ID
-		})
+		slot4.id = ActivityConst.MUSIC_FESTIVAL_ID
+
+		uv0:emit(MusicFestivalMediator.GO_SCENE, SCENE.ACTIVITY, {})
 	end)
 	slot0:InitFacility(slot0.stage, function ()
 		pg.m02:sendNotification(GAME.GO_MINI_GAME, 6)
 	end)
 	slot0:InitFacility(slot0.screen, function ()
-		uv0:emit(MusicFestivalMediator.GO_SCENE, SCENE.ACTIVITY, {
-			id = ActivityConst.IDOL_PT_ID
-		})
+		slot4.id = ActivityConst.IDOL_PT_ID
+
+		uv0:emit(MusicFestivalMediator.GO_SCENE, SCENE.ACTIVITY, {})
 	end)
 	slot0:InitFacility(slot0.shop, function ()
-		uv0:emit(MusicFestivalMediator.GO_SCENE, SCENE.SHOP, {
-			warp = ShopsLayer.TYPE_ACTIVITY
-		})
+		slot4.warp = ShopsLayer.TYPE_ACTIVITY
+
+		uv0:emit(MusicFestivalMediator.GO_SCENE, SCENE.SHOP, {})
 	end)
 	slot0:InitFacility(slot0.painting, function ()
 		uv0:emit(MusicFestivalMediator.GO_SCENE, SCENE.SKINSHOP)
@@ -95,14 +94,15 @@ function slot0.didEnter(slot0)
 		})
 	end)
 	slot0:InitFacility(slot0.foutain, function ()
-		uv0:emit(MusicFestivalMediator.GO_SUBLAYER, Context.New({
-			mediator = IdolMedalCollectionMediator,
-			viewComponent = IdolMedalCollectionView,
-			data = {},
-			onRemoved = function ()
-				setActive(uv0._tf, true)
-			end
-		}), function ()
+		slot1.mediator = IdolMedalCollectionMediator
+		slot1.viewComponent = IdolMedalCollectionView
+		slot1.data = {}
+
+		function slot1.onRemoved()
+			setActive(uv0._tf, true)
+		end
+
+		uv0:emit(MusicFestivalMediator.GO_SUBLAYER, Context.New({}), function ()
 			setActive(uv0._tf, false)
 		end)
 	end)
@@ -119,10 +119,10 @@ function slot0.didEnter(slot0)
 			return
 		end
 
-		uv0:emit(MusicFestivalMediator.GO_SCENE, SCENE.LEVEL, {
-			chapterId = slot1,
-			mapIdx = slot0
-		})
+		slot7.chapterId = slot1
+		slot7.mapIdx = slot0
+
+		uv0:emit(MusicFestivalMediator.GO_SCENE, SCENE.LEVEL, {})
 	end)
 
 	slot0.academyStudents = {}
@@ -142,7 +142,7 @@ function slot0.UpdateView(slot0)
 
 	setActive(slot0._modeltip, slot3)
 	setActive(slot0.btn_actskin:Find("tip"), slot1:getActivityById(ActivityConst.MUSIC_CHUIXUE7DAY_ID) and not slot5:isEnd() and slot5:readyToAchieve())
-	setActive(slot0.btn_ins:Find("tip"), slot1:getActivityById(ActivityConst.IDOL_INS_ID) and not slot7:isEnd() and slot7:ShouldShowTip())
+	setActive(slot0.btn_ins:Find("tip"), getProxy(InstagramProxy):ShouldShowTip())
 	setActive(slot0.screen:Find("tip"), IdolPTPage.NeedTip())
 	setActive(slot0.foutain:Find("tip"), IdolMedalCollectionView.isHaveActivableMedal())
 	setActive(slot0.stage:Find("tip"), getProxy(MiniGameProxy):GetHubByHubId(slot0.HUB_ID).count > 0)
@@ -178,11 +178,10 @@ function slot0.getStudents(slot0)
 end
 
 function slot0.InitAreaTransFunc(slot0)
-	slot0.edge2area = {
-		1_2 = slot0.bottom,
-		2_3 = slot0.bottom,
-		3_4 = slot0.bottom
-	}
+	slot1.1_2 = slot0.bottom
+	slot1.2_3 = slot0.bottom
+	slot1.3_4 = slot0.bottom
+	slot0.edge2area = {}
 end
 
 function slot0.updateStudents(slot0)
@@ -243,17 +242,17 @@ function slot0.updateStageShip(slot0)
 end
 
 function slot0.sortStudents(slot0)
-	for slot5, slot6 in pairs({
-		slot0.front,
-		slot0.middle,
-		slot0.bottom
-	}) do
+	slot1[1] = slot0.front
+	slot1[2] = slot0.middle
+	slot1[3] = slot0.bottom
+
+	for slot5, slot6 in pairs({}) do
 		if slot6.childCount > 1 then
 			for slot11 = 1, slot6.childCount, 1 do
-				table.insert({}, {
-					tf = slot6:GetChild(slot11 - 1),
-					index = slot11
-				})
+				slot15.tf = slot6:GetChild(slot11 - 1)
+				slot15.index = slot11
+
+				table.insert({}, {})
 			end
 
 			table.sort(slot7, function (slot0, slot1)
