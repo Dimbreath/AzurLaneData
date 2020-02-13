@@ -12585,6 +12585,37 @@ pg.ship_skin_expression = {
 		battle = "",
 		login = "1",
 		detail = ""
+	},
+	rexin_2 = {
+		default = "",
+		feeling3 = "1",
+		main_1 = "3",
+		touch = "5",
+		expedition = "",
+		win_mvp = "",
+		home = "1",
+		unlock = "",
+		touch2 = "5",
+		mail = "5",
+		painting = "rexin_2",
+		mission = "1",
+		main_2 = "4",
+		lose = "5",
+		main_3 = "6",
+		feeling1 = "4",
+		profile = "",
+		feeling4 = "3",
+		feeling5 = "2",
+		propose = "",
+		hp_warning = "",
+		upgrade = "2",
+		mission_complete = "3",
+		headtouch = "",
+		feeling2 = "3",
+		skill = "",
+		battle = "",
+		login = "3",
+		detail = "6"
 	}
 }
 
