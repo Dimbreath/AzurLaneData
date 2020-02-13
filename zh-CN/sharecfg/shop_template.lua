@@ -23801,6 +23801,55 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70319] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：热心情人节",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 2,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70319,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			201031
+		},
+		time = {
+			{
+				{
+					2020,
+					2,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[90001] = {
 		group_type = 0,
 		resource_num = 1,
@@ -25222,6 +25271,7 @@ pg.shop_template = {
 		70316,
 		70317,
 		70318,
+		70319,
 		90001,
 		90002,
 		90003,
