@@ -7,12 +7,13 @@ function slot0.register(slot0)
 end
 
 function slot0.listNotificationInterests(slot0)
-	slot1[1] = GAME.REQUEST_EMOJI_INFO_FROM_SERVER_DONE
-
-	return {}
+	return {
+		GAME.REQUEST_EMOJI_INFO_FROM_SERVER_DONE
+	}
 end
 
 function slot0.handleNotification(slot0, slot1)
+	return
 end
 
 return slot0

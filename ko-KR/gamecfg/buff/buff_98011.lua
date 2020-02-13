@@ -1,17 +1,3 @@
-slot2.trigger = {
-	"onTorpedoWeaponFire"
-}
-slot2.arg_list = {
-	rant = 10000,
-	skill_id = 98010,
-	target = "TargetSelf",
-	time = 10
-}
-slot1[1] = {
-	type = "BattleBuffCastSkill"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "指挥喵buff触发型效果的触发入口",
@@ -22,5 +8,19 @@ return {
 	stack = 1,
 	color = "yellow",
 	icon = 98011,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onTorpedoWeaponFire"
+			},
+			arg_list = {
+				rant = 10000,
+				skill_id = 98010,
+				target = "TargetSelf",
+				time = 10
+			}
+		}
+	}
 }

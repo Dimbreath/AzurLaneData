@@ -2,39 +2,41 @@ slot0 = class("TechnologyTreeMediator", import("..base.ContextMediator"))
 
 function slot0.register(slot0)
 	slot0:bind(TechnologyConst.OPEN_SHIP_BUFF_DETAIL, function (slot0, slot1, slot2, slot3)
-		slot7.mediator = SingleBuffDetailMediator
-		slot7.viewComponent = SingleBuffDetailLayer
-		slot8.groupID = slot1
-		slot8.maxLV = slot2
-		slot8.star = slot3
-		slot7.data = {}
-
-		uv0:addSubLayers(Context.New({}))
+		slot0:addSubLayers(Context.New({
+			mediator = SingleBuffDetailMediator,
+			viewComponent = SingleBuffDetailLayer,
+			data = {
+				groupID = slot1,
+				maxLV = slot2,
+				star = slot3
+			}
+		}))
 	end)
 	slot0:bind(TechnologyConst.CLOSE_TECHNOLOGY_NATION_LAYER, function (slot0)
-		uv0:sendNotification(TechnologyConst.CLOSE_TECHNOLOGY_NATION_LAYER_NOTIFICATION)
+		slot0:sendNotification(TechnologyConst.CLOSE_TECHNOLOGY_NATION_LAYER_NOTIFICATION)
 	end)
 	slot0:bind(TechnologyConst.OPEN_TECHNOLOGY_NATION_LAYER, function (slot0)
-		slot4.mediator = TechnologyTreeNationMediator
-		slot4.viewComponent = TechnologyTreeNationScene
-		slot4.data = {}
-
-		uv0:addSubLayers(Context.New({}))
+		slot0:addSubLayers(Context.New({
+			mediator = TechnologyTreeNationMediator,
+			viewComponent = TechnologyTreeNationScene,
+			data = {}
+		}))
 	end)
 	slot0:bind(TechnologyConst.OPEN_ALL_BUFF_DETAIL, function (slot0)
-		slot4.mediator = AllBuffDetailMediator
-		slot4.viewComponent = AllBuffDetailLayer
-		slot5.LayerWeightMgr_weight = LayerWeightConst.TOP_LAYER
-		slot4.data = {}
-
-		uv0:addSubLayers(Context.New({}))
+		slot0:addSubLayers(Context.New({
+			mediator = AllBuffDetailMediator,
+			viewComponent = AllBuffDetailLayer,
+			data = {
+				LayerWeightMgr_weight = LayerWeightConst.TOP_LAYER
+			}
+		}))
 	end)
 end
 
 function slot0.listNotificationInterests(slot0)
-	slot1[1] = TechnologyConst.UPDATE_REDPOINT_ON_TOP
-
-	return {}
+	return {
+		TechnologyConst.UPDATE_REDPOINT_ON_TOP
+	}
 end
 
 function slot0.handleNotification(slot0, slot1)

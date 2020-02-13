@@ -61,11 +61,15 @@ function slot0.Update(slot0)
 end
 
 function slot0.IsFinish(slot0)
+	slot1 = slot0._list.Head
+
 	for slot5 = 1, slot0._list.Count, 1 do
-		if not slot0._list.Head.Data.Finish then
+		if not slot1.Data.Finish then
 			return false
 		end
 	end
 
 	return true
 end
+
+return

@@ -21,14 +21,16 @@ function slot0.isClearMaps(slot0, slot1)
 end
 
 function slot0.canSwitchToEx(slot0, slot1)
+	function slot2(slot0)
+		if slot0[pg.chapter_template[slot0].map] then
+			return slot2:getChapter(slot0):isClear()
+		end
+	end
+
 	slot3 = false
 
 	for slot7, slot8 in pairs(slot1.chapters) do
-		if slot8:getConfig("pre_chapter") == 0 or function (slot0)
-			if uv0[pg.chapter_template[slot0].map] then
-				return slot2:getChapter(slot0):isClear()
-			end
-		end(slot9) then
+		if slot8:getConfig("pre_chapter") == 0 or slot2(slot9) then
 			slot3 = true
 		end
 
@@ -39,9 +41,11 @@ function slot0.canSwitchToEx(slot0, slot1)
 end
 
 function slot0.getMapsByType(slot0, slot1, slot2)
+	slot3 = {}
+
 	for slot7, slot8 in pairs(slot0) do
 		if slot8:getConfig("type") == slot1 and slot8:getConfig("on_activity") == slot2 then
-			table.insert({}, slot8)
+			table.insert(slot3, slot8)
 		end
 	end
 
@@ -93,8 +97,10 @@ function slot0.getExtraChapterSocre(slot0, slot1, slot2, slot3)
 end
 
 function slot0.getShipsPower(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in pairs(slot0) do
-		slot1 = 0 + math.floor(slot6:getShipCombatPower())
+		slot1 = slot1 + math.floor(slot6:getShipCombatPower())
 	end
 
 	return slot1

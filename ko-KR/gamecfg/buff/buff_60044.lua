@@ -1,16 +1,3 @@
-slot2.trigger = {
-	"onUpdate"
-}
-slot2.arg_list = {
-	skill_id = 60025,
-	time = 25,
-	target = "TargetSelf"
-}
-slot1[1] = {
-	type = "BattleBuffCastSkill"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "测试-随机技能-治疗之泉",
@@ -20,5 +7,18 @@ return {
 	stack = 1,
 	id = 60044,
 	icon = 60044,
-	last_effect = "lingxing"
+	last_effect = "lingxing",
+	effect_list = {
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onUpdate"
+			},
+			arg_list = {
+				skill_id = 60025,
+				time = 25,
+				target = "TargetSelf"
+			}
+		}
+	}
 }

@@ -106,10 +106,10 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0:findTF("return", slot0.topPanel), function ()
-		uv0:emit(uv1.ON_BACK)
+		slot0:emit(slot1.ON_BACK)
 	end, SOUND_BACK)
 	onToggle(slot0, slot0.eyeBtn, function (slot0)
-		uv0:switch2View(slot0)
+		slot0:switch2View(slot0)
 	end, SFX_PANEL)
 	slot0:setMode()
 	slot0:displayBuff()
@@ -119,38 +119,34 @@ slot1 = 0.5
 
 function slot0.switch2View(slot0, slot1)
 	if not slot0.moveY or not slot0.moveX then
-		slot3[1] = slot0.topPanel
-		slot2[1] = {
-			nil,
-			1
+		slot0.moveY = {
+			{
+				slot0.topPanel,
+				1
+			},
+			{
+				slot0.bottomPanel,
+				-1
+			},
+			{
+				slot0:findTF("backyardmainui/back"),
+				1
+			},
+			{
+				slot0:findTF("backyardmainui/decorateBtn"),
+				-1
+			}
 		}
-		slot3[1] = slot0.bottomPanel
-		slot2[2] = {
-			nil,
-			-1
+		slot0.moveX = {
+			{
+				slot0.rightPanel,
+				1
+			},
+			{
+				slot0.leftPanel,
+				-1
+			}
 		}
-		slot3[1] = slot0:findTF("backyardmainui/back")
-		slot2[3] = {
-			nil,
-			1
-		}
-		slot3[1] = slot0:findTF("backyardmainui/decorateBtn")
-		slot2[4] = {
-			nil,
-			-1
-		}
-		slot0.moveY = {}
-		slot3[1] = slot0.rightPanel
-		slot2[1] = {
-			nil,
-			1
-		}
-		slot3[1] = slot0.leftPanel
-		slot2[2] = {
-			nil,
-			-1
-		}
-		slot0.moveX = {}
 	elseif _.any(slot0.moveY, function (slot0)
 		return LeanTween.isTweening(go(slot0[1]))
 	end) or _.any(slot0.moveX, function (slot0)
@@ -160,38 +156,89 @@ function slot0.switch2View(slot0, slot1)
 	end
 
 	function slot2(slot0, slot1, slot2)
-		LeanTween[slot0](slot1, slot2, uv0):setOnComplete(System.Action(function ()
-			if uv0 then
-				setActive(uv1, false)
+		LeanTween[slot0](slot1, slot2, slot0):setOnComplete(System.Action(function ()
+			if slot0 then
+				setActive(slot1, false)
 			end
 		end)):setOnStart(System.Action(function ()
-			if not uv0 then
-				setActive(uv1, true)
+			if not slot0 then
+				setActive(slot1, true)
 			end
 		end))
 	end
 
 	_.each(slot0.moveX, function (slot0)
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-4, warpins: 1 ---
 		slot1 = 0
 
-		if uv0 then
+		if slot0 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 5-13, warpins: 1 ---
 			slot1 = slot0[1].anchoredPosition3D.x + slot0[1].rect.width * slot0[2]
+			--- END OF BLOCK #0 ---
+
+
+
 		end
 
-		uv1("moveX", slot0[1], slot1)
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 14-19, warpins: 2 ---
+		slot1("moveX", slot0[1], slot1)
+
+		return
+		--- END OF BLOCK #1 ---
+
+
+
 	end)
 	_.each(slot0.moveY, function (slot0)
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-4, warpins: 1 ---
 		slot1 = 0
 
-		if uv0 then
+		if slot0 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 5-13, warpins: 1 ---
 			slot1 = slot0[1].anchoredPosition3D.y + slot0[1].rect.height * slot0[2]
+			--- END OF BLOCK #0 ---
+
+
+
 		end
 
-		uv1("moveY", slot0[1], slot1)
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 14-19, warpins: 2 ---
+		slot1("moveY", slot0[1], slot1)
+
+		return
+		--- END OF BLOCK #1 ---
+
+
+
 	end)
 end
 
 function slot0.setMode(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-59, warpins: 1 ---
 	setActive(slot0.shopBtn, not slot0.isVisitMode)
 	setActive(slot0.shareBtn, not slot0.isVisitMode)
 	setActive(slot0.helpBtn, false)
@@ -204,181 +251,626 @@ function slot0.setMode(slot0)
 	setActive(slot0.clickTF, not slot0.isVisitMode)
 
 	if LOCK_SEC_FLOOR then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 60-63, warpins: 1 ---
 		setActive(slot0.floorBtn, false)
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
-	if not slot0.isVisitMode then
-		onButton(slot0, slot0.helpBtn, function ()
-			slot2.type = MSGBOX_TYPE_HELP
-			slot2.helps = pg.gametip.help_backyard.tip
+	--- END OF BLOCK #0 ---
 
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 64-66, warpins: 2 ---
+	if not slot0.isVisitMode then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 67-93, warpins: 1 ---
+		onButton(slot0, slot0.helpBtn, function ()
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-16, warpins: 1 ---
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_HELP,
+				helps = pg.gametip.help_backyard.tip
+			})
+
+			return
+			--- END OF BLOCK #0 ---
+
+
+
 		end, SFX_PANEL)
 		slot0:updateFloorBtn()
 		onButton(slot0, slot0.floorBtn, function ()
-			if uv0.dormVO.level ~= Dorm.MAX_LEVEL then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-7, warpins: 1 ---
+			if slot0.dormVO.level ~= Dorm.MAX_LEVEL then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 8-18, warpins: 1 ---
 				pg.TipsMgr.GetInstance():ShowTips(i18n("sec_floor_limit_tip"))
+				--- END OF BLOCK #0 ---
+
+
+
 			else
-				uv0:showFloorSel()
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 19-22, warpins: 1 ---
+				slot0:showFloorSel()
+				--- END OF BLOCK #0 ---
+
+
+
 			end
+
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 23-23, warpins: 2 ---
+			return
+			--- END OF BLOCK #1 ---
+
+
+
 		end, SFX_PANEL)
 		setActive(slot0.stampBtn, getProxy(TaskProxy):mingshiTouchFlagEnabled())
 
 		if LOCK_CLICK_MINGSHI then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 94-101, warpins: 1 ---
 			setActive(slot0:findTF("stamp", slot0.bottomPanel), false)
+			--- END OF BLOCK #0 ---
+
+
+
 		end
 
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 102-165, warpins: 2 ---
 		onButton(slot0, slot0.stampBtn, function ()
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-8, warpins: 1 ---
 			getProxy(TaskProxy):dealMingshiTouchFlag(7)
+
+			return
+			--- END OF BLOCK #0 ---
+
+
+
 		end, SFX_CONFIRM)
 		onButton(slot0, slot0.trainBtn, function ()
-			uv0:emit(BackYardMediator.GO_SHIPINFO, BackYardShipInfoLayer.SHIP_TRAIN_TYPE)
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-9, warpins: 1 ---
+			slot0:emit(BackYardMediator.GO_SHIPINFO, BackYardShipInfoLayer.SHIP_TRAIN_TYPE)
+
+			return
+			--- END OF BLOCK #0 ---
+
+
+
 		end, SFX_PANEL)
 		onButton(slot0, slot0.restBtn, function ()
-			uv0:emit(BackYardMediator.GO_SHIPINFO, BackYardShipInfoLayer.SHIP_REST_TYPE)
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-9, warpins: 1 ---
+			slot0:emit(BackYardMediator.GO_SHIPINFO, BackYardShipInfoLayer.SHIP_REST_TYPE)
+
+			return
+			--- END OF BLOCK #0 ---
+
+
+
 		end, SFX_PANEL)
 		onButton(slot0, slot0.stock, function ()
-			uv0:emit(BackYardMediator.GO_GRANARY)
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-7, warpins: 1 ---
+			slot0:emit(BackYardMediator.GO_GRANARY)
+
+			return
+			--- END OF BLOCK #0 ---
+
+
+
 		end, SFX_PANEL)
 		onButton(slot0, slot0.shopBtn, function ()
-			uv0:emit(BackYardMediator.GO_SHOP)
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-7, warpins: 1 ---
+			slot0:emit(BackYardMediator.GO_SHOP)
+
+			return
+			--- END OF BLOCK #0 ---
+
+
+
 		end, SFX_PANEL)
 		onButton(slot0, slot0.shareBtn, function ()
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-14, warpins: 1 ---
 			pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeBackyard, pg.ShareMgr.PANEL_TYPE_PINK)
+
+			return
+			--- END OF BLOCK #0 ---
+
+
+
 		end, SFX_PANEL)
 		onButton(slot0, slot0.comforBtn, function ()
-			slot3.content = uv0.dormVO:comforChatContent()
 
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-15, warpins: 1 ---
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				hideNo = true
+				hideNo = true,
+				content = slot0.dormVO:comforChatContent()
 			})
+
+			return
+			--- END OF BLOCK #0 ---
+
+
+
 		end, SFX_PANEL)
 		setActive(slot0.clickTF, false)
 		onButton(slot0, slot0.clickTF, function ()
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-1, warpins: 1 ---
+			return
+			--- END OF BLOCK #0 ---
+
+
+
 		end, SFX_PANEL)
 		slot0:registerNoFoodBoxEvent()
 		slot0:registerRenameEvent()
 		slot0:emit(BackYardMediator.OPEN_ADD_EXP, 1)
+		--- END OF BLOCK #1 ---
+
+
+
 	end
+
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 166-167, warpins: 2 ---
+	return
+	--- END OF BLOCK #2 ---
+
+
+
 end
 
 function slot0.showFloorSel(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-18, warpins: 1 ---
 	slot0.isShowFloorSel = true
 
 	setActive(slot0.msgBox, true)
 	setActive(slot0.msgFloorPanel, true)
 	removeAllChildren(slot0.floorContainer)
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 19-58, warpins: 0 ---
 	for slot4 = 1, Dorm.MAX_FLOOR, 1 do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 19-58, warpins: 2 ---
 		slot5 = cloneTplTo(slot0.floorTF, slot0.floorContainer)
-		slot6 = slot5:Find("mask")
 
 		setText(slot5:Find("name"), slot4 .. "F")
 		setActive(slot6, not slot0.dormVO:isUnlockFloor(slot4))
 		onButton(slot0, slot5, function ()
-			if uv0.view and uv0.view.inInitFurnitrues then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-4, warpins: 1 ---
+			if slot0.view and slot0.view.inInitFurnitrues then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 10-10, warpins: 1 ---
 				return
+				--- END OF BLOCK #0 ---
+
+
+
 			end
 
-			if uv0.contextData.floor ~= uv1 then
-				uv0:emit(BackYardMediator.ON_SWITCH_FLOOR, uv1)
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 11-16, warpins: 3 ---
+			if slot0.contextData.floor ~= slot1 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 17-23, warpins: 1 ---
+				slot0:emit(BackYardMediator.ON_SWITCH_FLOOR, slot0)
+				--- END OF BLOCK #0 ---
+
+
+
 			end
 
-			uv0:closeFloorSel()
+			--- END OF BLOCK #1 ---
+
+			FLOW; TARGET BLOCK #2
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #2 24-28, warpins: 2 ---
+			slot0:closeFloorSel()
+
+			return
+			--- END OF BLOCK #2 ---
+
+
+
 		end, SFX_PANEL)
-		onButton(slot0, slot6, function ()
-			slot4.content = i18n("backyard_open_2floor", pg.shop_template[ShopArgs.DORM_FLOOR_ID].resource_num)
+		onButton(slot0, slot5:Find("mask"), function ()
 
-			function slot4.onYes()
-				uv0:emit(BackYardMediator.ON_SHOPPING, uv1, 1)
-				uv0:closeFloorSel()
-			end
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-23, warpins: 1 ---
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("backyard_open_2floor", pg.shop_template[ShopArgs.DORM_FLOOR_ID].resource_num),
+				onYes = function ()
 
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 1-13, warpins: 1 ---
+					slot0:emit(BackYardMediator.ON_SHOPPING, slot0, 1)
+					slot0.emit:closeFloorSel()
+
+					return
+					--- END OF BLOCK #0 ---
+
+
+
+				end
+			})
+
+			return
+			--- END OF BLOCK #0 ---
+
+
+
 		end, SFX_PANEL)
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 59-76, warpins: 1 ---
 	onButton(slot0, slot0.msgBox, function ()
-		uv0:closeFloorSel()
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-5, warpins: 1 ---
+		slot0:closeFloorSel()
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end, SFX_PANEL)
 	onButton(slot0, slot0.msgBox:Find("floor_panel/cancel_btn"), function ()
-		uv0:closeFloorSel()
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-5, warpins: 1 ---
+		slot0:closeFloorSel()
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end, SFX_PANEL)
+
+	return
+	--- END OF BLOCK #2 ---
+
+
+
 end
 
 function slot0.closeFloorSel(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-11, warpins: 1 ---
 	slot0.isShowFloorSel = nil
 
 	setActive(slot0.msgBox, false)
 	setActive(slot0.msgFloorPanel, false)
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.updateFloor(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-17, warpins: 1 ---
 	slot0.floorText.text = slot0.contextData.floor .. "F"
 
 	setActive(slot0.buffContain, slot0:isFirstFloor())
 	setActive(slot0.stock, not slot0.isVisitMode and slot0:isFirstFloor())
 	setActive(slot0.restBtn, not slot0.isVisitMode and not slot0:isFirstFloor())
 	setActive(slot0.trainBtn, not slot0.isVisitMode and slot0:isFirstFloor())
+
+	return
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 25-30, warpins: 3 ---
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 39-44, warpins: 3 ---
+	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 52-53, warpins: 3 ---
+	--- END OF BLOCK #3 ---
+
+
+
 end
 
 function slot0.registerNoFoodBoxEvent(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-20, warpins: 1 ---
 	onButton(slot0, slot0.nofoodBtn, function ()
-		uv0:closeNofoodBox()
-		triggerButton(uv0.stock)
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-9, warpins: 1 ---
+		slot0:closeNofoodBox()
+		triggerButton(slot0.stock)
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end)
 	onButton(slot0, slot0.nofoodCancelBtn, function ()
-		uv0:closeNofoodBox()
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-5, warpins: 1 ---
+		slot0:closeNofoodBox()
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end)
 	onButton(slot0, slot0.nofoodBox, function ()
-		uv0:closeNofoodBox()
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-5, warpins: 1 ---
+		slot0:closeNofoodBox()
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end)
 	onNextTick(function ()
-		if not uv0.closeNofoodFlag and uv0.dormVO.food == 0 and uv0.trainShipCount > 0 and (not uv0.contextData.fromMediatorName or uv0.contextData.fromMediatorName ~= "DockyardMediator") then
-			uv0:openNofoodBox()
 
-			uv0.contextData.fromMain = nil
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-4, warpins: 1 ---
+		if not slot0.closeNofoodFlag and slot0.dormVO.food == 0 and slot0.trainShipCount > 0 and (not slot0.contextData.fromMediatorName or slot0.contextData.fromMediatorName ~= "DockyardMediator") then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 25-32, warpins: 2 ---
+			slot0:openNofoodBox()
+
+			slot0.openNofoodBox.contextData.fromMain = nil
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 33-33, warpins: 5 ---
+		return
+		--- END OF BLOCK #1 ---
+
+
+
 	end)
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.registerRenameEvent(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-27, warpins: 1 ---
 	onButton(slot0, slot0:findTF("name_container/frame", slot0.topPanel), function ()
-		uv0:openRenameBox()
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-5, warpins: 1 ---
+		slot0:openRenameBox()
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end, SFX_PANEL)
 	onButton(slot0, slot0.renameBtn, function ()
-		if not getInputText(uv0.nameInput) or slot0 == "" then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-6, warpins: 1 ---
+		if not getInputText(slot0.nameInput) or slot0 == "" then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 9-19, warpins: 2 ---
 			pg.TipsMgr.GetInstance():ShowTips(i18n("word_should_input"))
 
 			return
+			--- END OF BLOCK #0 ---
+
+
+
 		end
 
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 20-27, warpins: 2 ---
 		if not nameValidityCheck(slot0, 0, 20, {
 			"spece_illegal_tip",
 			"login_newPlayerScene_name_tooShort",
 			"login_newPlayerScene_name_tooLong",
 			"playerinfo_mask_word"
 		}) then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 28-28, warpins: 1 ---
 			return
+			--- END OF BLOCK #0 ---
+
+
+
 		end
 
-		uv0:emit(BackYardMediator.RENAME, slot0)
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 29-36, warpins: 2 ---
+		slot0:emit(BackYardMediator.RENAME, slot0)
+
+		return
+		--- END OF BLOCK #2 ---
+
+
+
 	end)
 	onButton(slot0, slot0.renameCancelBtn, function ()
-		uv0:closeRenameBox()
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-5, warpins: 1 ---
+		slot0:closeRenameBox()
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end)
 	onButton(slot0, slot0.renameBox, function ()
-		uv0:closeRenameBox()
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-5, warpins: 1 ---
+		slot0:closeRenameBox()
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end)
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.initLoading(slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-66, warpins: 1 ---
 	setActive(slot0.loading, true)
 	setParent(slot0.loading, GameObject.Find("Overlay/UIOverlay"), false)
 	setSlider(slot0.loadingProgress, 0, 1, 0)
 	setText(slot0.loadingProgressTx, "0.00%")
-
-	slot2 = {
+	LoadImageSpriteAsync("helpbg/" .. ({
 		"battle_maincanon",
 		"battle_plane",
 		"break",
@@ -387,304 +879,1034 @@ function slot0.initLoading(slot0, slot1)
 		"equip",
 		"strength",
 		"tactics"
-	}
-
-	LoadImageSpriteAsync("helpbg/" .. slot2[math.clamp(math.random(#slot2) + 1, 1, #slot2)], slot0.loadingHelp)
+	})[math.clamp(math.random(#) + 1, 1, #)], slot0.loadingHelp)
 	setText(slot0.loadingHelpTx, pg.server_language[math.random(#pg.server_language)].content)
 
 	slot3 = 0
 	slot0.loadingTimer = Timer.New(function ()
-		slot0 = uv0()
-		slot1 = math.lerp(uv1, slot0, 0.5)
 
-		setSlider(uv2.loadingProgress, 0, 1, slot1)
-		setText(uv2.loadingProgressTx, string.format("%.2f", slot1 * 100) .. "%")
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-31, warpins: 1 ---
+		setSlider(slot2.loadingProgress, 0, 1, slot1)
+		setText(slot2.loadingProgressTx, string.format("%.2f", math.lerp(math.lerp, slot0, 0.5) * 100) .. "%")
 
-		uv1 = slot0
+		if slot0() >= 1 then
 
-		if uv1 >= 1 then
-			uv2:hideLoading()
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 32-35, warpins: 1 ---
+			slot2:hideLoading()
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 36-36, warpins: 2 ---
+		return
+		--- END OF BLOCK #1 ---
+
+
+
 	end, 0.0334, -1)
 
 	slot0.loadingTimer:Start()
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.hideLoading(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-3, warpins: 1 ---
 	if slot0.loadingTimer then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 4-9, warpins: 1 ---
 		slot0.loadingTimer:Stop()
 
 		slot0.loadingTimer = nil
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 10-19, warpins: 2 ---
 	setActive(slot0.loading, false)
 	setParent(slot0.loading, slot0._tf, false)
+
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot0.displayBuff(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-8, warpins: 1 ---
 	removeAllChildren(slot0.buffContain)
 
 	slot0.buffTFs = {}
 
 	if slot0.buffTimer then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 9-12, warpins: 1 ---
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 13-17, warpins: 0 ---
 		for slot4, slot5 in pairs(slot0.buffTimer) do
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 13-15, warpins: 1 ---
 			slot5:Stop()
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 16-17, warpins: 2 ---
+			--- END OF BLOCK #1 ---
+
+
+
 		end
+		--- END OF BLOCK #1 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 18-29, warpins: 2 ---
 	slot0.buffTimer = {}
 
-	for slot5, slot6 in ipairs(slot0.playerVO:getBuffByType(BackYardConst.BACKYARD_BUFF)) do
-		slot7 = slot0:createBuff(slot6)
+	--- END OF BLOCK #1 ---
 
-		if not slot7:isExpired() then
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 30-51, warpins: 0 ---
+	for slot5, slot6 in ipairs(slot1) do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 30-38, warpins: 1 ---
+		if not slot0:createBuff(slot6):isExpired() then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 39-49, warpins: 1 ---
 			slot0.buffTFs[slot6.id] = cloneTplTo(slot0.buffTpl, slot0.buffContain)
 
 			slot0:updateBuff(slot7)
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 50-51, warpins: 3 ---
+		--- END OF BLOCK #1 ---
+
+
+
 	end
+
+	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 52-52, warpins: 1 ---
+	return
+	--- END OF BLOCK #3 ---
+
+
+
 end
 
 function slot0.createBuff(slot0, slot1)
-	slot2.id = slot1.id
-	slot2.timestamp = slot1.timestamp
 
-	function slot2.getConfig(slot0, slot1)
-		return pg.benefit_buff_template[slot0.id][slot1]
-	end
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-15, warpins: 1 ---
+	return {
+		id = slot1.id,
+		timestamp = slot1.timestamp,
+		getConfig = function (slot0, slot1)
 
-	function slot2.isExpired(slot0)
-		return slot0.timestamp < pg.TimeMgr.GetInstance():GetServerTime()
-	end
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-6, warpins: 1 ---
+			return pg.benefit_buff_template[slot0.id][slot1]
+			--- END OF BLOCK #0 ---
 
-	function slot2.getLeftTime(slot0)
-		return slot0.timestamp - pg.TimeMgr.GetInstance():GetServerTime()
-	end
 
-	function slot2.isRedTime(slot0)
-		if slot0:getLeftTime() <= 600 then
-			return true
+
+		end,
+		isExpired = function (slot0)
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-10, warpins: 1 ---
+			return slot0.timestamp < pg.TimeMgr.GetInstance():GetServerTime()
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 14-14, warpins: 2 ---
+			--- END OF BLOCK #1 ---
+
+
+
+		end,
+		getLeftTime = function (slot0)
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-10, warpins: 1 ---
+			return slot0.timestamp - pg.TimeMgr.GetInstance():GetServerTime()
+			--- END OF BLOCK #0 ---
+
+
+
+		end,
+		isRedTime = function (slot0)
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-6, warpins: 1 ---
+			if slot0:getLeftTime() <= 600 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 7-8, warpins: 1 ---
+				return true
+				--- END OF BLOCK #0 ---
+
+
+
+			end
+
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 9-9, warpins: 2 ---
+			return
+			--- END OF BLOCK #1 ---
+
+
+
 		end
-	end
+	}
+	--- END OF BLOCK #0 ---
 
-	return {}
+
+
 end
 
 function slot0.updateBuff(slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-9, warpins: 1 ---
 	slot2 = slot0.buffTFs[slot1.id]
 
 	function slot3()
-		Destroy(uv0)
-		uv1.buffTimer[uv2.id]:Stop()
 
-		uv1.buffTimer[uv2.id] = nil
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-18, warpins: 1 ---
+		Destroy(Destroy)
+		slot1.buffTimer[slot2.id]:Stop()
+
+		slot1.buffTimer[slot2.id] = nil
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
 	if not slot1:isExpired() then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 10-48, warpins: 1 ---
 		slot4 = slot0:findTF("Text", slot2)
 		slot2:GetComponent(typeof(Image)).sprite = LoadSprite(slot1:getConfig("icon"))
 		slot0.buffTimer[slot1.id] = Timer.New(function ()
-			slot0 = uv0:getLeftTime()
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-16, warpins: 1 ---
 			slot1 = pg.TimeMgr.GetInstance():DescCDTime(slot0)
 			slot2 = nil
 
-			if slot0 > 0 then
-				setText(uv1, (uv0:isRedTime() or setColorStr(slot1, "#FFFFFFFF")) and setColorStr(slot1, COLOR_RED))
+			if slot0:getLeftTime() > 0 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 17-22, warpins: 1 ---
+				setText(slot1, (slot0:isRedTime() or setColorStr(slot1, "#FFFFFFFF")) and setColorStr(slot1, COLOR_RED))
+				--- END OF BLOCK #0 ---
+
+				FLOW; TARGET BLOCK #1
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #1 34-38, warpins: 2 ---
+				--- END OF BLOCK #1 ---
+
+
+
 			else
-				uv2()
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 39-40, warpins: 1 ---
+				slot2()
+				--- END OF BLOCK #0 ---
+
+
+
 			end
+
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 41-41, warpins: 2 ---
+			return
+			--- END OF BLOCK #1 ---
+
+
+
 		end, 1, -1)
 
 		slot0.buffTimer[slot1.id]:Start()
 		slot0.buffTimer[slot1.id].func()
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 49-60, warpins: 2 ---
 	slot4 = pg.benefit_buff_template[slot1.id]
 
 	onButton(slot0, slot2, function ()
-		LeanTween.cancel(uv0.buffTip.gameObject)
 
-		rtf(uv0.buffTip).anchoredPosition = rtf(uv1).anchoredPosition
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-47, warpins: 1 ---
+		LeanTween.cancel(slot0.buffTip.gameObject)
 
-		setText(uv0:findTF("Text", uv0.buffTip), uv2.desc)
-		LeanTween.scale(rtf(uv0.buffTip), Vector3(1, 1, 1), 0.3):setOnComplete(System.Action(function ()
-			if not IsNil(uv0.buffTip) then
-				LeanTween.scale(rtf(uv0.buffTip), Vector3(0, 0, 0), 0.3):setDelay(2)
+		rtf(slot0.buffTip).anchoredPosition = rtf(rtf).anchoredPosition
+
+		setText(slot0:findTF("Text", slot0.buffTip), slot0.desc)
+		LeanTween.scale(rtf(slot0.buffTip), Vector3(1, 1, 1), 0.3):setOnComplete(System.Action(function ()
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-6, warpins: 1 ---
+			if not IsNil(slot0.buffTip) then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 7-23, warpins: 1 ---
+				LeanTween.scale(rtf(slot0.buffTip), Vector3(0, 0, 0), 0.3):setDelay(2)
+				--- END OF BLOCK #0 ---
+
+
+
 			end
+
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 24-24, warpins: 2 ---
+			return
+			--- END OF BLOCK #1 ---
+
+
+
 		end))
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end, SFX_PANEL)
+
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot0.updateRes(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-4, warpins: 1 ---
 	slot0:displayBuff()
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.updateDromName(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 6-7, warpins: 2 ---
 	if (slot0.dormVO.name or "") == "" then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 8-13, warpins: 1 ---
 		slot1 = i18n("backyard_backyardScene_name", slot0.playerVO.name)
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 14-18, warpins: 2 ---
 	setText(slot0.playerName, slot1)
+
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot0.updateDrom(slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-2, warpins: 1 ---
 	if not slot1 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 3-3, warpins: 1 ---
 		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
-	slot2 = pg.dorm_data_template[slot1.id]
-	slot0.stockBar.fillAmount = slot1.food / (slot2.capacity + slot1.dorm_food_max)
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 4-49, warpins: 2 ---
+	slot0.stockBar.fillAmount = slot1.food / (pg.dorm_data_template[slot1.id].capacity + slot1.dorm_food_max)
 
 	setText(slot0.comfortable, slot1:getComfortable())
-	setText(slot0:findTF("stock_bar/Text", slot0.stock), math.ceil(slot1.food) .. "/" .. slot2.capacity + slot1.dorm_food_max)
+	setText(slot0:findTF("stock_bar/Text", slot0.stock), math.ceil(slot1.food) .. "/" .. pg.dorm_data_template[slot1.id].capacity + slot1.dorm_food_max)
 	slot0:setSpriteTo(slot0.comfortableBG[slot0.dormVO:getComBGIndex()], slot0.comforExpress)
 
 	if slot0.isVisitMode then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 50-54, warpins: 1 ---
 		setActive(slot0.leftTimeTF, false)
+		--- END OF BLOCK #0 ---
+
+
+
 	else
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 55-57, warpins: 1 ---
 		slot0:calFoodLeftTime()
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 58-60, warpins: 2 ---
 	if not slot0.isVisitMode then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 61-66, warpins: 1 ---
 		slot0:setCurTrainCount()
 		slot0:setCurRestCount()
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 67-70, warpins: 2 ---
 	slot0:updateDromName()
+
+	return
+	--- END OF BLOCK #3 ---
+
+
+
 end
 
 function slot0.calFoodLeftTime(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-3, warpins: 1 ---
 	if slot0.calFoodTimer then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 4-13, warpins: 1 ---
 		pg.TimeMgr.GetInstance():RemoveTimer(slot0.calFoodTimer)
 
 		slot0.calFoodTimer = nil
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 14-19, warpins: 2 ---
 	setActive(slot0.leftTimeTF, slot0.dormVO.next_timestamp ~= 0)
 
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 23-27, warpins: 2 ---
 	if slot0.trainShipCount <= 0 or slot0.dormVO.food <= 0 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 33-37, warpins: 2 ---
 		setActive(slot0.leftTimeTF, false)
 
 		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 38-60, warpins: 1 ---
 	slot1 = slot0.dormVO:getFoodLeftTime()
 
 	function slot2()
-		pg.TimeMgr.GetInstance():RemoveTimer(uv0.calFoodTimer)
 
-		uv0.calFoodTimer = nil
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-18, warpins: 1 ---
+		pg.TimeMgr.GetInstance():RemoveTimer(slot0.calFoodTimer)
 
-		setActive(uv0.leftTimeTF, false)
+		pg.TimeMgr.GetInstance().RemoveTimer.calFoodTimer = nil
+
+		setActive(slot0.leftTimeTF, false)
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
 	setActive(slot0.leftTimeTF, true)
 
 	slot0.calFoodTimer = pg.TimeMgr.GetInstance():AddTimer("calFoodTimer", 0, 1, function ()
-		slot0 = math.floor(uv0) - pg.TimeMgr.GetInstance():GetServerTime()
 
-		setText(uv1.leftTimeTF, i18n("backyard_backyardScene_timeRest", " " .. pg.TimeMgr.GetInstance():DescCDTime(slot0)))
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-32, warpins: 1 ---
+		setText(slot1.leftTimeTF, i18n("backyard_backyardScene_timeRest", " " .. pg.TimeMgr.GetInstance():DescCDTime(math.floor(math.floor) - pg.TimeMgr.GetInstance():GetServerTime())))
 
-		if slot0 <= 0 then
-			uv2()
+		if math.floor(math.floor) - pg.TimeMgr.GetInstance().GetServerTime() <= 0 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 33-34, warpins: 1 ---
+			slot2()
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 35-35, warpins: 2 ---
+		return
+		--- END OF BLOCK #1 ---
+
+
+
 	end)
+
+	return
+	--- END OF BLOCK #3 ---
+
+	FLOW; TARGET BLOCK #4
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #4 61-61, warpins: 2 ---
+	--- END OF BLOCK #4 ---
+
+
+
 end
 
 function slot0.setCurTrainCount(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-8, warpins: 1 ---
 	slot0.curTrainCount.text = slot0.trainShipCount .. "/" .. slot0.dormVO.exp_pos
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.setCurRestCount(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-8, warpins: 1 ---
 	slot0.curRestCount.text = slot0.restShipCount .. "/" .. slot0.dormVO.rest_pos
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.openRenameBox(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-5, warpins: 1 ---
 	if IsNil(slot0.renameBox) then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 6-6, warpins: 1 ---
 		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 7-21, warpins: 2 ---
 	slot0.isOpenRenameBox = true
 
 	setActive(slot0.renameBox, true)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.renameBox)
+
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot0.closeRenameBox(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-3, warpins: 1 ---
 	if slot0.isOpenRenameBox then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 4-18, warpins: 1 ---
 		setActive(slot0.renameBox, false)
 
 		slot0.isOpenRenameBox = nil
 
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.renameBox, slot0._tf)
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 19-19, warpins: 2 ---
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot0.openNofoodBox(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-3, warpins: 1 ---
 	if slot0.isOpenNofoodBox then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 4-4, warpins: 1 ---
 		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 5-46, warpins: 2 ---
 	slot0.isOpenNofoodBox = true
 	slot0.closeNofoodFlag = nil
-	slot1 = findTF(slot0.nofoodBox, "frame")
-	slot1.localScale = Vector3(0, 0, 0)
+	findTF(slot0.nofoodBox, "frame").localScale = Vector3(0, 0, 0)
 
 	LeanTween.scale(slot1, Vector3(1, 1, 1), 0.3):setEase(LeanTweenType.easeOutBack)
 	setActive(slot0.nofoodBox, true)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.nofoodBox)
+
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot0.closeNofoodBox(slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-3, warpins: 1 ---
 	if slot0.isOpenNofoodBox then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 4-18, warpins: 1 ---
 		setActive(slot0.nofoodBox, false)
 
 		slot0.isOpenNofoodBox = nil
 
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.nofoodBox, slot0._tf)
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 19-20, warpins: 2 ---
 	slot0.closeNofoodFlag = slot1
+
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot0.onBackPressed(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-3, warpins: 1 ---
 	if slot0.isOpenNofoodBox then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 4-7, warpins: 1 ---
 		slot0:closeNofoodBox()
-	elseif slot0.isOpenRenameBox then
-		slot0:closeRenameBox()
-	elseif slot0.isShowFloorSel then
-		slot0:closeFloorSel()
+		--- END OF BLOCK #0 ---
+
+
+
 	else
-		playSoundEffect(SFX_CANCEL)
-		slot0:emit(uv0.ON_BACK)
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 8-10, warpins: 1 ---
+		if slot0.isOpenRenameBox then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 11-14, warpins: 1 ---
+			slot0:closeRenameBox()
+			--- END OF BLOCK #0 ---
+
+
+
+		else
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 15-17, warpins: 1 ---
+			if slot0.isShowFloorSel then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 18-21, warpins: 1 ---
+				slot0:closeFloorSel()
+				--- END OF BLOCK #0 ---
+
+
+
+			else
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 22-29, warpins: 1 ---
+				playSoundEffect(SFX_CANCEL)
+				slot0:emit(slot0.ON_BACK)
+				--- END OF BLOCK #0 ---
+
+
+
+			end
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 30-30, warpins: 4 ---
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot0.willExit(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-12, warpins: 1 ---
 	pg.TimeMgr.GetInstance():RemoveTimer(slot0.calFoodTimer)
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 13-17, warpins: 0 ---
 	for slot4, slot5 in pairs(slot0.buffTimer) do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 13-15, warpins: 1 ---
 		slot5:Stop()
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 16-17, warpins: 2 ---
+		--- END OF BLOCK #1 ---
+
+
+
 	end
 
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 18-20, warpins: 1 ---
 	if slot0.isOpenNofoodBox then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 21-23, warpins: 1 ---
 		slot0:closeNofoodBox()
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 24-26, warpins: 2 ---
 	if slot0.comforTableChat and LeanTween.isTweening(go(slot0.comforTableChat)) then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 35-40, warpins: 1 ---
 		LeanTween.cancel(go(slot0.comforTableChat))
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #3 ---
+
+	FLOW; TARGET BLOCK #4
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #4 41-43, warpins: 3 ---
 	if slot0.buffTip and LeanTween.isTweening(go(slot0.buffTip)) then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 52-57, warpins: 1 ---
 		LeanTween.cancel(go(slot0.buffTip))
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #4 ---
+
+	FLOW; TARGET BLOCK #5
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #5 58-71, warpins: 3 ---
 	slot0:hideLoading()
 	slot0:closeRenameBox()
 	slot0:closeFloorSel()
 
 	slot0.calFoodTimer = nil
 	slot0.buffTimer = nil
+
+	return
+	--- END OF BLOCK #5 ---
+
+
+
 end
 
 return slot0

@@ -1,32 +1,3 @@
-slot2.trigger = {
-	"onAttach"
-}
-slot2.arg_list = {
-	weapon_id = 311079
-}
-slot1[1] = {
-	type = "BattleBuffNewWeapon"
-}
-slot2.trigger = {
-	"onAttach"
-}
-slot2.arg_list = {
-	weapon_id = 311080
-}
-slot1[2] = {
-	type = "BattleBuffNewWeapon"
-}
-slot2.trigger = {
-	"onAttach"
-}
-slot2.arg_list = {
-	weapon_id = 311081
-}
-slot1[3] = {
-	type = "BattleBuffNewWeapon"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "最终阶段",
@@ -36,5 +7,34 @@ return {
 	stack = 1,
 	id = 100005,
 	icon = 100005,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffNewWeapon",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				weapon_id = 311079
+			}
+		},
+		{
+			type = "BattleBuffNewWeapon",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				weapon_id = 311080
+			}
+		},
+		{
+			type = "BattleBuffNewWeapon",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				weapon_id = 311081
+			}
+		}
+	}
 }

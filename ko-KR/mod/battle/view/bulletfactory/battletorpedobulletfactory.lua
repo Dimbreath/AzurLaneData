@@ -1,6 +1,4 @@
-slot0 = ys
-slot0 = slot0 or {}
-ys = slot0
+ys = ys or {}
 slot0 = ys
 slot1 = slot0.Battle
 slot2 = singletonClass
@@ -17,7 +15,7 @@ slot1 = slot0.Battle
 slot1 = slot1.BattleTorpedoBulletFactory
 
 function slot2(slot0)
-	slot1 = uv0
+	slot1 = slot0
 	slot1 = slot1.super
 	slot1 = slot1.Ctor
 	slot2 = slot0
@@ -28,7 +26,7 @@ end
 slot1.Ctor = slot2
 
 function slot2(slot0)
-	slot1 = uv0
+	slot1 = slot0
 	slot1 = slot1.Battle
 	slot1 = slot1.BattleTorpedoBullet
 	slot1 = slot1.New
@@ -46,7 +44,7 @@ function slot2(slot0, slot1, slot2)
 	slot4 = slot3.GetTemplate
 	slot4 = slot4(slot5)
 	slot5 = slot4.hit_type
-	slot6 = uv0
+	slot6 = slot0
 	slot6 = slot6.GetDataProxy
 	slot6 = slot6()
 	slot8 = slot0
@@ -55,7 +53,7 @@ function slot2(slot0, slot1, slot2)
 	slot9 = slot7
 	slot8 = slot7.GetTemplate
 	slot8 = slot8(slot9)
-	slot9 = uv1
+	slot9 = slot1
 	slot9 = slot9.Battle
 	slot9 = slot9.PlayBattleSFX
 	slot10 = slot8.hit_sfx
@@ -75,7 +73,7 @@ function slot2(slot0, slot1, slot2)
 			slot6 = slot5.Active
 
 			if slot6 then
-				slot6 = uv0
+				slot6 = slot0
 				slot7 = slot6
 				slot6 = slot6.GetSceneMediator
 				slot6 = slot6(slot7)
@@ -91,7 +89,7 @@ function slot2(slot0, slot1, slot2)
 				slot8 = slot6.GetCurrentOxyState
 				slot8 = slot8(slot9)
 				slot9 = ipairs
-				slot10 = uv1
+				slot10 = slot1
 				slot9, slot10, slot11 = slot9(slot10)
 
 				for slot12, slot13 in slot9, slot10, slot11 do
@@ -101,10 +99,10 @@ function slot2(slot0, slot1, slot2)
 				end
 
 				if not slot7 then
-					slot9 = uv2
+					slot9 = slot2
 					slot10 = slot9
 					slot9 = slot9.HandleDamage
-					slot11 = uv3
+					slot11 = slot3
 					slot12 = slot6
 
 					slot9(slot10, slot11, slot12)
@@ -164,7 +162,7 @@ function slot2(slot0, slot1, slot2)
 		slot11(slot12, slot13, slot14, slot15, slot16, slot17, slot18, slot19)
 	end
 
-	slot11 = uv0
+	slot11 = slot0
 	slot11 = slot11.GetFXPool
 	slot11 = slot11()
 	slot12 = slot11
@@ -209,7 +207,7 @@ end
 slot1.onBulletHitFunc = slot2
 
 function slot2(slot0)
-	slot1 = uv0
+	slot1 = slot0
 	slot1 = slot1.onBulletHitFunc
 	slot2 = slot0
 
@@ -238,31 +236,31 @@ function slot2(slot0, slot1, slot2)
 	slot8 = slot8(slot9)
 
 	function slot9(slot0)
-		slot1 = uv0
+		slot1 = slot0
 		slot2 = slot1
 		slot1 = slot1.AddModel
 		slot3 = slot0
 		slot1 = slot1(slot2, slot3)
 
 		if slot1 then
-			slot1 = uv1
+			slot1 = slot1
 			slot1 = slot1.track_fx
 
 			if slot1 ~= "" then
-				slot1 = uv2
+				slot1 = slot2
 				slot2 = slot1
 				slot1 = slot1.GetFXPool
 				slot1 = slot1(slot2)
 				slot2 = slot1
 				slot1 = slot1.GetFX
-				slot3 = uv0
+				slot3 = slot0
 				slot4 = slot3
 				slot3 = slot3.GetTrackFXID
 				slot1, slot2 = slot1(slot2, slot3(slot4))
-				slot3 = uv2
+				slot3 = slot2
 				slot4 = slot3
 				slot3 = slot3.MakeTrack
-				slot5 = uv0
+				slot5 = slot0
 				slot6 = slot1
 				slot7 = slot2
 
@@ -333,3 +331,5 @@ function slot2(slot0, slot1, slot2)
 end
 
 slot1.MakeModel = slot2
+
+return

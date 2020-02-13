@@ -1,11 +1,8 @@
-slot0 = class("SendFriendRequestCommand", pm.SimpleCommand)
+class("SendFriendRequestCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	slot3 = slot1:getBody().id
+	slot6 = getProxy(PlayerProxy).getData(slot5)
 
-function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
-	slot3 = slot2.id
-	slot6 = getProxy(PlayerProxy):getData()
-
-	if wordVer(slot2.msg) > 0 then
+	if wordVer(slot4) > 0 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("friend_msg_forbid"))
 
 		return
@@ -29,12 +26,12 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	slot12.id = slot3
-	slot12.content = slot4
-
-	pg.ConnectionMgr.GetInstance():Send(50003, {}, 50004, function (slot0)
+	pg.ConnectionMgr.GetInstance():Send(50003, {
+		id = slot3,
+		content = slot4
+	}, 50004, function (slot0)
 		if slot0.result == 0 then
-			uv0:sendNotification(GAME.FRIEND_SEND_REQUEST_DONE, uv1)
+			slot0:sendNotification(GAME.FRIEND_SEND_REQUEST_DONE, slot0.sendNotification)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("friend_sendFriendRequest_success"))
 		elseif slot0.result == 6 then
 			pg.TipsMgr:GetInstance():ShowTips(i18n("friend_max_count"))
@@ -46,4 +43,4 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-return slot0
+return class("SendFriendRequestCommand", pm.SimpleCommand)

@@ -1,5 +1,4 @@
 slot0 = require("protobuf")
-slot1 = require("common_pb")
 
 module("p40_pb")
 
@@ -101,11 +100,12 @@ CS_40001.name = "cs_40001"
 CS_40001.full_name = ".p40.cs_40001"
 CS_40001.nested_types = {}
 CS_40001.enum_types = {}
-slot50[1] = slot2
-slot50[2] = slot3
-slot50[3] = slot4
-slot50[4] = slot5
-CS_40001.fields = {}
+CS_40001.fields = {
+	slot2,
+	slot3,
+	slot4,
+	slot5
+}
 CS_40001.is_extendable = false
 CS_40001.extensions = {}
 slot6.name = "result"
@@ -140,10 +140,11 @@ SC_40002.name = "sc_40002"
 SC_40002.full_name = ".p40.sc_40002"
 SC_40002.nested_types = {}
 SC_40002.enum_types = {}
-slot50[1] = slot6
-slot50[2] = slot7
-slot50[3] = slot8
-SC_40002.fields = {}
+SC_40002.fields = {
+	slot6,
+	slot7,
+	slot8
+}
 SC_40002.is_extendable = false
 SC_40002.extensions = {}
 slot9.name = "system"
@@ -278,21 +279,22 @@ CS_40003.name = "cs_40003"
 CS_40003.full_name = ".p40.cs_40003"
 CS_40003.nested_types = {}
 CS_40003.enum_types = {}
-slot50[1] = slot9
-slot50[2] = slot10
-slot50[3] = slot11
-slot50[4] = slot12
-slot50[5] = slot13
-slot50[6] = slot14
-slot50[7] = slot15
-slot50[8] = slot16
-slot50[9] = slot17
-slot50[10] = slot18
-slot50[11] = slot19
-slot50[12] = slot20
-slot50[13] = slot21
-slot50[14] = slot22
-CS_40003.fields = {}
+CS_40003.fields = {
+	slot9,
+	slot10,
+	slot11,
+	slot12,
+	slot13,
+	slot14,
+	slot15,
+	slot16,
+	slot17,
+	slot18,
+	slot19,
+	slot20,
+	slot21,
+	slot22
+}
 CS_40003.is_extendable = false
 CS_40003.extensions = {}
 slot23.name = "result"
@@ -311,7 +313,7 @@ slot24.index = 1
 slot24.label = 3
 slot24.has_default_value = false
 slot24.default_value = {}
-slot24.message_type = slot1.DROPINFO
+slot24.message_type = require("common_pb").DROPINFO
 slot24.type = 11
 slot24.cpp_type = 10
 slot25.name = "extra_drop_info"
@@ -321,7 +323,7 @@ slot25.index = 2
 slot25.label = 3
 slot25.has_default_value = false
 slot25.default_value = {}
-slot25.message_type = slot1.DROPINFO
+slot25.message_type = require("common_pb").DROPINFO
 slot25.type = 11
 slot25.cpp_type = 10
 slot26.name = "player_exp"
@@ -366,14 +368,15 @@ SC_40004.name = "sc_40004"
 SC_40004.full_name = ".p40.sc_40004"
 SC_40004.nested_types = {}
 SC_40004.enum_types = {}
-slot50[1] = slot23
-slot50[2] = slot24
-slot50[3] = slot25
-slot50[4] = slot26
-slot50[5] = slot27
-slot50[6] = slot28
-slot50[7] = slot29
-SC_40004.fields = {}
+SC_40004.fields = {
+	slot23,
+	slot24,
+	slot25,
+	slot26,
+	slot27,
+	slot28,
+	slot29
+}
 SC_40004.is_extendable = false
 SC_40004.extensions = {}
 slot30.name = "system"
@@ -389,8 +392,9 @@ CS_40005.name = "cs_40005"
 CS_40005.full_name = ".p40.cs_40005"
 CS_40005.nested_types = {}
 CS_40005.enum_types = {}
-slot50[1] = slot30
-CS_40005.fields = {}
+CS_40005.fields = {
+	slot30
+}
 CS_40005.is_extendable = false
 CS_40005.extensions = {}
 slot31.name = "result"
@@ -406,8 +410,9 @@ SC_40006.name = "sc_40006"
 SC_40006.full_name = ".p40.sc_40006"
 SC_40006.nested_types = {}
 SC_40006.enum_types = {}
-slot50[1] = slot31
-SC_40006.fields = {}
+SC_40006.fields = {
+	slot31
+}
 SC_40006.is_extendable = false
 SC_40006.extensions = {}
 slot32.name = "enemy_id"
@@ -441,10 +446,11 @@ DROPPERFORMANCE.name = "dropperformance"
 DROPPERFORMANCE.full_name = ".p40.dropperformance"
 DROPPERFORMANCE.nested_types = {}
 DROPPERFORMANCE.enum_types = {}
-slot50[1] = slot32
-slot50[2] = slot33
-slot50[3] = slot34
-DROPPERFORMANCE.fields = {}
+DROPPERFORMANCE.fields = {
+	slot32,
+	slot33,
+	slot34
+}
 DROPPERFORMANCE.is_extendable = false
 DROPPERFORMANCE.extensions = {}
 slot35.name = "ship_id"
@@ -505,13 +511,14 @@ STATISTICSINFO.name = "statisticsinfo"
 STATISTICSINFO.full_name = ".p40.statisticsinfo"
 STATISTICSINFO.nested_types = {}
 STATISTICSINFO.enum_types = {}
-slot50[1] = slot35
-slot50[2] = slot36
-slot50[3] = slot37
-slot50[4] = slot38
-slot50[5] = slot39
-slot50[6] = slot40
-STATISTICSINFO.fields = {}
+STATISTICSINFO.fields = {
+	slot35,
+	slot36,
+	slot37,
+	slot38,
+	slot39,
+	slot40
+}
 STATISTICSINFO.is_extendable = false
 STATISTICSINFO.extensions = {}
 slot41.name = "ship_id"
@@ -545,10 +552,11 @@ SHIP_EXP.name = "ship_exp"
 SHIP_EXP.full_name = ".p40.ship_exp"
 SHIP_EXP.nested_types = {}
 SHIP_EXP.enum_types = {}
-slot50[1] = slot41
-slot50[2] = slot42
-slot50[3] = slot43
-SHIP_EXP.fields = {}
+SHIP_EXP.fields = {
+	slot41,
+	slot42,
+	slot43
+}
 SHIP_EXP.is_extendable = false
 SHIP_EXP.extensions = {}
 slot44.name = "commander_id"
@@ -573,9 +581,10 @@ COMMANDER_EXP.name = "commander_exp"
 COMMANDER_EXP.full_name = ".p40.commander_exp"
 COMMANDER_EXP.nested_types = {}
 COMMANDER_EXP.enum_types = {}
-slot50[1] = slot44
-slot50[2] = slot45
-COMMANDER_EXP.fields = {}
+COMMANDER_EXP.fields = {
+	slot44,
+	slot45
+}
 COMMANDER_EXP.is_extendable = false
 COMMANDER_EXP.extensions = {}
 slot46.name = "enemy_id"
@@ -609,10 +618,11 @@ ENEMYINFO.name = "enemyinfo"
 ENEMYINFO.full_name = ".p40.enemyinfo"
 ENEMYINFO.nested_types = {}
 ENEMYINFO.enum_types = {}
-slot50[1] = slot46
-slot50[2] = slot47
-slot50[3] = slot48
-ENEMYINFO.fields = {}
+ENEMYINFO.fields = {
+	slot46,
+	slot47,
+	slot48
+}
 ENEMYINFO.is_extendable = false
 ENEMYINFO.extensions = {}
 commander_exp = slot0.Message(COMMANDER_EXP)
@@ -626,3 +636,5 @@ sc_40004 = slot0.Message(SC_40004)
 sc_40006 = slot0.Message(SC_40006)
 ship_exp = slot0.Message(SHIP_EXP)
 statisticsinfo = slot0.Message(STATISTICSINFO)
+
+return

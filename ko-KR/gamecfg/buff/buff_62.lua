@@ -1,28 +1,3 @@
-slot1[1] = SYSTEM_SCENARIO
-slot1[2] = SYSTEM_ROUTINE
-slot0.limit = {}
-slot2.trigger = {
-	"onAttach"
-}
-slot2.arg_list = {
-	number = 0.15,
-	attr = "damageRatioBullet"
-}
-slot1[1] = {
-	type = "BattleBuffAddAttr"
-}
-slot2.trigger = {
-	"onAttach"
-}
-slot2.arg_list = {
-	number = -0.2,
-	attr = "injureRatio"
-}
-slot1[2] = {
-	type = "BattleBuffAddAttr"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "轻巡竞技场加成",
@@ -32,5 +7,31 @@ return {
 	stack = 1,
 	id = 62,
 	icon = 62,
-	last_effect = ""
+	last_effect = "",
+	limit = {
+		SYSTEM_SCENARIO,
+		SYSTEM_ROUTINE
+	},
+	effect_list = {
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				number = 0.15,
+				attr = "damageRatioBullet"
+			}
+		},
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				number = -0.2,
+				attr = "injureRatio"
+			}
+		}
+	}
 }

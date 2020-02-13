@@ -1,15 +1,3 @@
-slot2.trigger = {
-	"onDying"
-}
-slot2.arg_list = {
-	buff_id = 8524,
-	target = "TargetSelf"
-}
-slot1[1] = {
-	type = "BattleBuffAddBuff"
-}
-slot0.effect_list = {}
-
 return {
 	desc_get = "无敌撤退",
 	name = "无敌撤退",
@@ -21,5 +9,17 @@ return {
 	stack = 1,
 	color = "blue",
 	icon = 8523,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onDying"
+			},
+			arg_list = {
+				buff_id = 8524,
+				target = "TargetSelf"
+			}
+		}
+	}
 }

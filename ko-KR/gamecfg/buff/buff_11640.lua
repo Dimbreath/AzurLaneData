@@ -1,36 +1,14 @@
-slot2.trigger = {
-	"onAllInStrikeSteady"
-}
-slot2.arg_list = {
-	skill_id = 11640,
-	target = "TargetSelf"
-}
-slot1[1] = {
-	type = "BattleBuffCastSkill"
-}
-slot2.trigger = {
-	"onStartGame"
-}
-slot2.arg_list = {
-	skill_id = 11641,
-	target = "TargetSelf"
-}
-slot1[2] = {
-	type = "BattleBuffCastSkill"
-}
-slot0.effect_list = {}
-slot0[1] = {}
-slot0[2] = {}
-slot0[3] = {}
-slot0[4] = {}
-slot0[5] = {}
-slot0[6] = {}
-slot0[7] = {}
-slot0[8] = {}
-slot0[9] = {}
-slot0[10] = {}
-
 return {
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
 	desc_get = "",
 	name = "善战之舰",
 	init_effect = "",
@@ -41,5 +19,27 @@ return {
 	stack = 1,
 	color = "red",
 	icon = 11640,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onAllInStrikeSteady"
+			},
+			arg_list = {
+				skill_id = 11640,
+				target = "TargetSelf"
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onStartGame"
+			},
+			arg_list = {
+				skill_id = 11641,
+				target = "TargetSelf"
+			}
+		}
+	}
 }

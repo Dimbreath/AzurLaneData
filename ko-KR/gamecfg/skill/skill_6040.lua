@@ -1,5 +1,3 @@
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "SG雷达T1",
@@ -8,5 +6,6 @@ return {
 	aniEffect = "",
 	desc = "SG雷达T1",
 	painting = 0,
-	id = 6040
+	id = 6040,
+	effect_list = {}
 }

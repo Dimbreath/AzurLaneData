@@ -1,10 +1,7 @@
-slot0 = class("LoadSceneCommand", pm.SimpleCommand)
+class("LoadSceneCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	slot1:getBody().type = LOAD_TYPE_SCENE
 
-function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
-	slot2.type = LOAD_TYPE_SCENE
-
-	slot0:sendNotification(GAME.LOAD_CONTEXT, slot2)
+	slot0:sendNotification(GAME.LOAD_CONTEXT, slot1.getBody())
 end
 
-return slot0
+return class("LoadSceneCommand", pm.SimpleCommand)

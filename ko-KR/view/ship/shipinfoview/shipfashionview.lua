@@ -52,14 +52,17 @@ function slot0.UpdateUI(slot0)
 end
 
 function slot0.OnSelected(slot0, slot1)
-	if slot1 then
-		slot7[1] = slot0.stylePanel:Find("style_desc")
-		slot7[MULTRES] = slot0.stylePanel:Find("frame")
-		slot6.pbList = {}
-		slot6.groupName = LayerWeightConst.GROUP_SHIPINFOUI
-		slot6.overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
+	slot2 = pg.UIMgr.GetInstance()
 
-		pg.UIMgr.GetInstance():OverlayPanelPB(slot0._parentTf, {})
+	if slot1 then
+		slot2:OverlayPanelPB(slot0._parentTf, {
+			pbList = {
+				slot0.stylePanel:Find("style_desc"),
+				slot0.stylePanel:Find("frame")
+			},
+			groupName = LayerWeightConst.GROUP_SHIPINFOUI,
+			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
+		})
 	else
 		slot2:UnOverlayPanel(slot0._parentTf, slot0.mainPanel)
 	end
@@ -89,63 +92,50 @@ function slot0.UpdateFashion(slot0, slot1)
 
 		for slot6, slot7 in ipairs(slot0.fashionSkins) do
 			slot8 = slot0.fashionSkins[slot6]
-			slot9 = slot0.styleContainer
 
-			if not slot0.fashionCellMap[slot9:GetChild(slot6 - 1)] then
+			if not slot0.fashionCellMap[slot0.styleContainer:GetChild(slot6 - 1)] then
 				slot0.fashionCellMap[slot9] = ShipSkinCard.New(slot9.gameObject)
 			end
 
-			if slot0:GetShipVO():getRemouldSkinId() == slot8.id then
-				slot11 = slot0:GetShipVO():isRemoulded()
-			else
-				slot11 = false
-
-				if false then
-					slot11 = true
-				end
-			end
-
-			slot10:updateData(slot0:GetShipVO(), slot8, slot0:GetShipVO():proposeSkinOwned(slot8) or table.contains(slot0.skinList, slot8.id) or slot11 or slot8.skin_type == ShipSkin.SKIN_TYPE_OLD)
-			slot10.updateUsing(slot10, slot0:GetShipVO().skinId == slot8.id)
+			slot10:updateData(slot0:GetShipVO(), slot8, slot0:GetShipVO():proposeSkinOwned(slot8) or table.contains(slot0.skinList, slot8.id) or (slot0:GetShipVO():getRemouldSkinId() == slot8.id and slot0:GetShipVO():isRemoulded()) or slot8.skin_type == ShipSkin.SKIN_TYPE_OLD)
+			slot10:updateUsing(slot0:GetShipVO().skinId == slot8.id)
 			onButton(slot0, slot9, function ()
 				if ShipViewConst.currentPage ~= ShipViewConst.PAGE.FASHION then
 					return
 				end
 
-				uv0.fashionSkinId = uv1.id
+				slot0.fashionSkinId = slot1.id
 
-				uv0:UpdateFashionDetail(uv1)
+				slot0:UpdateFashionDetail(slot0)
 
-				slot0 = uv1.painting
+				slot0 = slot1.painting
 
 				if HXSet.isHx() then
-					if uv1.isSwimsuit ~= 1 then
-						uv0:emit(ShipViewConst.LOAD_PAINTING, uv1.painting_hx ~= "" and uv1.painting_hx or uv1.painting)
+					slot0 = (slot1.painting_hx ~= "" and slot1.painting_hx) or slot1.painting
+
+					if slot1.isSwimsuit ~= 1 then
+						slot0:emit(ShipViewConst.LOAD_PAINTING, slot0)
 					end
 				else
-					uv0:emit(ShipViewConst.LOAD_PAINTING, slot0)
+					slot0:emit(ShipViewConst.LOAD_PAINTING, slot0)
 				end
 
-				uv0:emit(ShipViewConst.LOAD_PAINTING_BG, uv0:GetShipVO():rarity2bgPrintForGet(), uv0:GetShipVO():isBluePrintShip())
+				slot0:emit(ShipViewConst.LOAD_PAINTING_BG, slot0:GetShipVO():rarity2bgPrintForGet(), slot0:GetShipVO():isBluePrintShip())
 
-				for slot4, slot5 in ipairs(uv0.fashionSkins) do
-					slot7 = uv0.fashionCellMap[uv0.styleContainer:GetChild(slot4 - 1)]
-
-					slot7.updateSelected(slot7, slot5.id == uv0.fashionSkinId)
-					slot7.updateUsing(slot7, uv0:GetShipVO().skinId == slot5.id)
+				for slot4, slot5 in ipairs(slot0.fashionSkins) do
+					slot0.fashionCellMap[slot0.styleContainer:GetChild(slot4 - 1)]:updateSelected(slot5.id == slot0.fashionSkinId)
+					slot7:updateUsing(slot0:GetShipVO().skinId == slot5.id)
 				end
 
-				slot1 = PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. uv2.paintingName .. "_n"))
+				setActive(slot0.hideObjToggle, PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot2.paintingName .. "_n")))
 
-				setActive(uv0.hideObjToggle, slot1)
+				if PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot2.paintingName .. "_n")) then
+					slot2.isOn = PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot2.paintingName, 0) ~= 0
 
-				if slot1 then
-					uv0.hideObjToggle.isOn = PlayerPrefs.GetInt("paint_hide_other_obj_" .. uv2.paintingName, 0) ~= 0
-
-					onToggle(uv0, uv0.hideObjToggleTF, function (slot0)
-						PlayerPrefs.SetInt("paint_hide_other_obj_" .. uv0.paintingName, slot0 and 1 or 0)
-						uv0:flushSkin()
-						uv1:emit(ShipViewConst.LOAD_PAINTING, uv0.paintingName, true)
+					onToggle(slot0, slot0.hideObjToggleTF, function (slot0)
+						PlayerPrefs.SetInt("paint_hide_other_obj_" .. slot0.paintingName, (slot0 and 1) or 0)
+						slot0:flushSkin()
+						slot0.flushSkin:emit(ShipViewConst.LOAD_PAINTING, slot0.paintingName, true)
 					end, SFX_PANEL)
 				end
 			end)
@@ -173,93 +163,72 @@ end
 
 function slot0.UpdateFashionDetail(slot0, slot1)
 	if not slot0.fashionDetailWrapper then
-		slot2 = {
+		slot0.fashionDetailWrapper = {
 			name = findTF(slot0.stylePanel, "style_desc/name_bg/name"),
 			descTxt = findTF(slot0.stylePanel, "style_desc/desc_frame/desc/Text"),
 			character = findTF(slot0.stylePanel, "style_desc/character"),
 			confirm = findTF(slot0.stylePanel, "confirm_button"),
 			cancel = findTF(slot0.stylePanel, "cancel_button"),
-			diamond = findTF(slot2.confirm, "diamond"),
-			using = findTF(slot2.confirm, "using"),
-			experience = findTF(slot2.confirm, "experience"),
-			change = findTF(slot2.confirm, "change"),
-			buy = findTF(slot2.confirm, "buy"),
-			activity = findTF(slot2.confirm, "activity"),
-			cantbuy = findTF(slot2.confirm, "cantbuy"),
+			diamond = findTF(()["confirm"], "diamond"),
+			using = findTF(()["confirm"], "using"),
+			experience = findTF(()["confirm"], "experience"),
+			change = findTF(()["confirm"], "change"),
+			buy = findTF(()["confirm"], "buy"),
+			activity = findTF(()["confirm"], "activity"),
+			cantbuy = findTF(()["confirm"], "cantbuy"),
 			prefab = "unknown"
 		}
-		slot0.fashionDetailWrapper = slot2
 	end
 
 	setText(slot2.name, HXSet.hxLan(slot1.name))
 	setText(slot2.descTxt, HXSet.hxLan(slot1.desc))
 
-	slot3 = slot2.descTxt
-
-	if #slot3:GetComponent(typeof(Text)).text > 50 then
+	if #slot2.descTxt:GetComponent(typeof(Text)).text > 50 then
 		slot3.alignment = TextAnchor.MiddleLeft
 	else
 		slot3.alignment = TextAnchor.MiddleCenter
 	end
 
 	if slot2.prefab ~= slot1.prefab then
-		slot4 = slot2.character
-
-		if not IsNil(slot4:Find(slot2.prefab)) then
+		if not IsNil(slot2.character:Find(slot2.prefab)) then
 			PoolMgr.GetInstance():ReturnSpineChar(slot2.prefab, slot4.gameObject)
 		end
 
 		slot2.prefab = slot1.prefab
 
 		PoolMgr.GetInstance():GetSpineChar(slot2.prefab, true, function (slot0)
-			if uv0.prefab ~= uv1 then
-				PoolMgr.GetInstance():ReturnSpineChar(uv1, slot0)
+			if slot0.prefab ~=  then
+				PoolMgr.GetInstance():ReturnSpineChar(PoolMgr.GetInstance().ReturnSpineChar, slot0)
 			else
-				slot0.name = uv1
+				slot0.name = slot1
 				slot0.transform.localPosition = Vector3.zero
 				slot0.transform.localScale = Vector3(0.5, 0.5, 1)
 
-				slot0.transform:SetParent(uv0.character, false)
-
-				slot1 = slot0:GetComponent(typeof(SpineAnimUI))
-
-				slot1.SetAction(slot1, uv2.show_skin or "stand", true)
+				slot0.transform:SetParent(slot0.character, false)
+				slot0:GetComponent(typeof(SpineAnimUI)).SetAction(slot2, slot2.show_skin or "stand", true)
 			end
 		end)
 	end
 
-	if slot0:GetShipVO():getRemouldSkinId() == slot1.id then
-		slot4 = slot0:GetShipVO():isRemoulded()
-	else
-		slot4 = false
-
-		if false then
-			slot4 = true
-		end
-	end
-
-	slot5 = (slot0:GetShipVO():proposeSkinOwned(slot1) or table.contains(slot0.skinList, slot1.id) or slot4) and 1 or 0
-	slot6 = slot1.shop_id > 0 and pg.shop_template[slot1.shop_id] or nil
+	slot5 = ((slot0:GetShipVO():proposeSkinOwned(slot1) or table.contains(slot0.skinList, slot1.id) or (slot0:GetShipVO():getRemouldSkinId() == slot1.id and slot0:GetShipVO():isRemoulded())) and 1) or 0
+	slot6 = (slot1.shop_id > 0 and pg.shop_template[slot1.shop_id]) or nil
 	slot7 = false
 
 	if HXSet.isHx() and slot6 then
 		slot7 = pg.shop_template[slot6.id].isHX == 1
+		slot8 = slot6 and not pg.TimeMgr.GetInstance():inTime(slot6.time)
+		slot10 = slot1.id == slot0:GetShipVO():getConfig("skin_id") or slot5 >= 1 or slot1.skin_type == ShipSkin.SKIN_TYPE_OLD
+		slot11 = getProxy(ShipSkinProxy):getSkinById(slot1.id)
+		slot12 = slot1.id == slot0:GetShipVO().skinId and slot11 and slot11:isExpireType()
+
+		setGray(slot2.confirm, false)
+		setActive(slot2.using, false)
+		setActive(slot2.change, false)
+		setActive(slot2.buy, false)
+		setActive(slot2.experience, false)
 	end
 
-	if slot6 then
-		slot8 = not pg.TimeMgr.GetInstance():inTime(slot6.time)
-	end
-
-	slot10 = slot1.id == slot0:GetShipVO():getConfig("skin_id") or slot5 >= 1 or slot1.skin_type == ShipSkin.SKIN_TYPE_OLD
-	slot11 = getProxy(ShipSkinProxy):getSkinById(slot1.id)
-
-	setGray(slot2.confirm, false)
-	setActive(slot2.using, false)
-	setActive(slot2.change, false)
-	setActive(slot2.buy, false)
-	setActive(slot2.experience, false)
-
-	if slot1.id == slot0:GetShipVO().skinId and slot11 and slot11:isExpireType() then
+	if slot12 then
 		setActive(slot2.experience, true)
 	elseif slot9 then
 		setActive(slot2.using, true)
@@ -274,54 +243,43 @@ function slot0.UpdateFashionDetail(slot0, slot1)
 	end
 
 	onButton(slot0, slot2.confirm, function ()
-		if uv0 then
-			-- Nothing
-		elseif uv1 then
-			slot0 = uv2
-
-			slot0.emit(slot0, ShipMainMediator.CHANGE_SKIN, uv2:GetShipVO().id, uv3.id == uv2:GetShipVO():getConfig("skin_id") and 0 or uv3.id)
-		elseif uv4 then
-			if uv5 then
+		if slot0 then
+		elseif slot1 then
+			slot2:emit(slot2, slot3, (slot3.id == slot2:GetShipVO():getConfig("skin_id") and 0) or slot3.id)
+		elseif slot4 then
+			if slot5 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_skin_out_of_stock"))
 			else
 				slot0 = true
 
-				if HXSet.isHx() then
-					slot0 = pg.shop_template[uv4.id].isHX ~= 1
-				end
-
-				if slot0 then
-					slot2.shop_id = uv4.id
-					slot1 = Goods.New({}, Goods.TYPE_SKIN)
+				if pg.shop_template[slot4.id].isHX ~= 1 then
+					slot1 = Goods.New({
+						shop_id = slot4.id
+					}, Goods.TYPE_SKIN)
+					slot2 = slot1:getConfig("resource_num")
 
 					if slot1:isDisCount() then
-						slot2 = slot1:getConfig("resource_num") * (100 - slot1:getConfig("discount")) / 100
+						slot2 = slot2 * (100 - slot1:getConfig("discount")) / 100
 					end
 
-					slot6.content = i18n("text_buy_fashion_tip", slot2, HXSet.hxLan(uv3.name))
-
-					function slot6.onYes()
-						uv0:emit(ShipMainMediator.BUY_ITEM, uv1.id, 1)
-					end
-
-					pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						content = i18n("text_buy_fashion_tip", slot2, HXSet.hxLan(slot3.name)),
+						onYes = function ()
+							slot0:emit(ShipMainMediator.BUY_ITEM, slot1.id, 1)
+						end
+					})
 				end
 			end
 		end
 	end)
 	onButton(slot0, slot2.cancel, function ()
-		uv0:emit(ShipViewConst.SWITCH_TO_PAGE, ShipViewConst.PAGE.DETAIL)
+		slot0:emit(ShipViewConst.SWITCH_TO_PAGE, ShipViewConst.PAGE.DETAIL)
 	end)
 end
 
 function slot0.OnDestroy(slot0)
-	if slot0.fashionDetailWrapper then
-		slot1 = slot0.fashionDetailWrapper
-		slot2 = slot1.character
-
-		if not IsNil(slot2:Find(slot1.prefab)) then
-			PoolMgr.GetInstance():ReturnSpineChar(slot1.prefab, slot2.gameObject)
-		end
+	if slot0.fashionDetailWrapper and not IsNil(slot0.fashionDetailWrapper.character:Find(slot0.fashionDetailWrapper.prefab)) then
+		PoolMgr.GetInstance():ReturnSpineChar(slot1.prefab, slot2.gameObject)
 	end
 
 	slot0.fashionDetailWrapper = nil

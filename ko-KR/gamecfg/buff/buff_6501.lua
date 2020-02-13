@@ -1,14 +1,3 @@
-slot2.trigger = {
-	"onAttach"
-}
-slot2.arg_list = {
-	tag = "hololive"
-}
-slot1[1] = {
-	type = "BattleBuffAddTag"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "",
@@ -19,5 +8,16 @@ return {
 	stack = 1,
 	color = "red",
 	icon = 6500,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				tag = "hololive"
+			}
+		}
+	}
 }

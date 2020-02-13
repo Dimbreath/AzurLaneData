@@ -206,199 +206,223 @@ slot1 = {
 	[ActivityConst.CARDPAIR_ZQ] = {
 		className = "CardPairZQPage",
 		uiName = "cardpairzqpage"
+	},
+	[ActivityConst.AVRORA_TW_CBT] = {
+		className = "AvroraTWCBTPage",
+		uiName = "avroratwcbtpage"
+	},
+	[ActivityConst.ACTIVITY_ID_ATRE_FURNITURE] = {
+		className = "AtreFurniturePage",
+		uiName = "atrefurniturepage"
+	},
+	[ActivityConst.CHUIXUE_RE_PT] = {
+		className = "ChuixuePTRePage",
+		uiName = "chuixueptrepage"
+	},
+	[ActivityConst.SHANCHENG_PT_OIL] = {
+		className = "ShanchengPTOilPage",
+		uiName = "shanchengptoilpage"
+	},
+	[ActivityConst.DACHAOLIFU_SKIN] = {
+		className = "DachaolifuSkinPage",
+		uiName = "dachaolifuskinpage"
+	},
+	[ActivityConst.SECOND_ANNIVERSARY_COLLECT] = {
+		className = "SecondAnniversaryCollectPage",
+		uiName = "secondanniversarycollectpage"
+	},
+	[ActivityConst.ACTIVITY_JAMAICA_SKIN_PAGE] = {
+		className = "JamaicaSkinPage",
+		uiName = "jamaicaskinpage"
+	},
+	[ActivityConst.TWCELEBRATION_1] = {
+		className = "TWCelebrationPage1",
+		uiName = "twcelebration1"
+	},
+	[ActivityConst.TWCELEBRATION_2] = {
+		className = "TWCelebrationPage2",
+		uiName = "twcelebration2"
+	},
+	[ActivityConst.TWCELEBRATION_3] = {
+		className = "TWCelebrationPage3",
+		uiName = "twcelebration3"
+	},
+	[ActivityConst.TWCELEBRATION_4] = {
+		className = "TWCelebrationPage4",
+		uiName = "twcelebration4"
+	},
+	[ActivityConst.MIKASA_REPAIRE_ACTIVITY] = {
+		className = "MikasaRepairePage",
+		uiName = "mikasarepairePage"
+	},
+	[ActivityConst.MIKASA_MAIN_ACTIVITY] = {
+		className = "MikasaPreviewPage",
+		uiName = "mikasamainPage"
+	},
+	[ActivityConst.CYGENT_SWIMSUIT] = {
+		className = "CygentSwimsuitPage",
+		uiName = "cygentswimsuit"
+	},
+	[ActivityConst.ACTIVITY_U110_BATTLE_PAGE] = {
+		className = "U110BattlePage",
+		uiName = "U110BattlePage"
+	},
+	[ActivityConst.LINDONG_REMAKE_KR] = {
+		className = "LindongMainPage",
+		uiName = "lindongmainpage"
+	},
+	[ActivityConst.CYGENT_SWIMSUIT] = {
+		className = "CygentSwimsuitPage",
+		uiName = "cygentswimsuit"
+	},
+	[ActivityConst.TWHALLOWEENSKIN] = {
+		className = "HalloweenSkinPage",
+		uiName = "HalloweenSkinUI"
+	},
+	[ActivityConst.BAILEY_HALLOWEEN_REMAKE] = {
+		className = "BaileyHalloweenPage",
+		uiName = "baileyhalloweenpage"
+	},
+	[ActivityConst.MEMPHIS_HALLOWEEN] = {
+		className = "MemphisHalloweenPage",
+		uiName = "memphishalloweenpage"
+	},
+	[ActivityConst.BAILEY_HALLOWEEN] = {
+		className = "BaileyHalloweenPage",
+		uiName = "baileyhalloweenpage"
+	},
+	[ActivityConst.IDOL_PT_ID] = {
+		className = "IdolPTPage",
+		uiName = "idolptpage"
+	},
+	[ActivityConst.MUSIC_CHUIXUE7DAY_ID] = {
+		className = "Chuixue7daySkinPage",
+		uiName = "chuixue7dayskinpage"
+	},
+	[ActivityConst.ANIME_LOGIN] = {
+		className = "AnimeLoginPage",
+		uiName = "AnimeLoginPage"
+	},
+	[ActivityConst.MUSIC_FESTIVAL_ID] = {
+		className = "XiefeierIdolMusicPage",
+		uiName = "xiefeieridolmusicpage"
+	},
+	[ActivityConst.POCKY_LOGIN] = {
+		className = "PockyPage",
+		uiName = "pockypage"
+	},
+	[ActivityConst.POCKY_SKIN_LOGIN] = {
+		className = "PockySkinPage",
+		uiName = "PockySkinPage"
+	},
+	[ActivityConst.WARSPITE_TRANS] = {
+		className = "WarspiteTransformationPage",
+		uiName = "WarspiteTransformationPage"
+	},
+	[ActivityConst.HOLOLIVE_PT_ID] = {
+		className = "HoloLivePTPage",
+		uiName = "HoloLivePTPage"
+	},
+	[ActivityConst.HOLOLIVE_MORNING_ID] = {
+		className = "HoloLiveMorningPage",
+		uiName = "HoloLiveMorningPage"
+	},
+	[ActivityConst.HOLOLIVE_MAIN] = {
+		className = "HoloLivePage",
+		uiName = "HoloLivePage"
+	},
+	[ActivityConst.HOLOLIVE_MIO_ID] = {
+		className = "HoloLiveMioPage",
+		uiName = "HoloLiveMioPage"
+	},
+	[ActivityConst.ZPROJECT_TW] = {
+		className = "ZProjectPage",
+		uiName = "zprojectpage"
+	},
+	[ActivityConst.JP_SKIRMISH_HEADFRAME_ID] = {
+		className = "JPSkirmishHeadFramePage",
+		uiName = "JPSkirmishHeadFramePage"
+	},
+	[ActivityConst.WAKABA_CHRIS_SKIN_ID] = {
+		className = "WakabaChrisSkinPage",
+		uiName = "WakabaChrisSkinPage"
+	},
+	[ActivityConst.SHIO_SKIN_RE_ID] = {
+		className = "ShioSkinRePage",
+		uiName = "ShioSkinRePage"
+	},
+	[ActivityConst.ANIME_MIDTERM_LOGIN] = {
+		className = "AnimeMidtermLoginPage",
+		uiName = "AnimeMidtermLoginPage"
+	},
+	[ActivityConst.NEWYEAR_SHRINE_PAGE_ID] = {
+		className = "NewYearShrinePage",
+		uiName = "NewYearShrinePage"
+	},
+	[ActivityConst.CYGNET_BATHROBE_PAGE_ID] = {
+		className = "CygnetBathrobePage",
+		uiName = "CygnetBathrobePage"
+	},
+	[ActivityConst.JAPANESE_NEWYEAR] = {
+		className = "JapaneseNewyearPage",
+		uiName = "JapaneseNewyearPage"
+	},
+	[ActivityConst.NEW_JAPANESE_PT] = {
+		className = "JapanesePTPage",
+		uiName = "JapanesePTPage"
+	},
+	[ActivityConst.SKIN_GELIDELI] = {
+		className = "SkinGelideliPage",
+		uiName = "SkinGelideliPage"
+	},
+	[ActivityConst.BEAT_MONSTER_NIAN_2020] = {
+		className = "BeatMonsterNian.BeatMonsterPage",
+		uiName = "BeatMonsterPage"
+	},
+	[ActivityConst.SKIN_KISARAGI] = {
+		className = "SkinKisaragiPage",
+		uiName = "SkinKisaragiPage"
+	},
+	[ActivityConst.MONOPOLY_2020] = {
+		className = "Monopoly.MonopolyPage",
+		uiName = "MonopolyPage"
+	},
+	[ActivityConst.MUTSUKI_NEWYEAR_SKIN_ID] = {
+		className = "MutsukiNewYearSkinPage",
+		uiName = "MutsukiNewYearSkinPage"
+	},
+	[ActivityConst.MORAN_KR_PT_ID] = {
+		className = "MoranPtPage",
+		uiName = "MoranPtPage"
+	},
+	[ActivityConst.MORAN_KR_PREVIEW_ID] = {
+		className = "MoranMainPage",
+		uiName = "MoranMainPage"
+	},
+	[ActivityConst.UNICORN_STARDUST] = {
+		className = "UnicornStardustPage",
+		uiName = "UnicornStardustPage"
+	},
+	[ActivityConst.TEATIME_TW] = {
+		className = "TeaTimePuzzlePage",
+		uiName = "TeaTimePuzzlePage"
+	},
+	[ActivityConst.SPRING_FES_MAIN_TW] = {
+		className = "SpringFesMainPage",
+		uiName = "SpringFesMainPage"
+	},
+	[ActivityConst.SICHUANOPERA] = {
+		className = "SiChuanOperaPage",
+		uiName = "SichuanOperaPage"
+	},
+	[ActivityConst.VALENTINE] = {
+		className = "ValentinePage",
+		uiName = "ValentinePage"
+	},
+	[ActivityConst.CARD_PAIR_FX_PAGE] = {
+		className = "CardPairFXPage",
+		uiName = "CardPairFXPage"
 	}
-}
-slot1[ActivityConst.AVRORA_TW_CBT] = {
-	className = "AvroraTWCBTPage",
-	uiName = "avroratwcbtpage"
-}
-slot1[ActivityConst.ACTIVITY_ID_ATRE_FURNITURE] = {
-	className = "AtreFurniturePage",
-	uiName = "atrefurniturepage"
-}
-slot1[ActivityConst.CHUIXUE_RE_PT] = {
-	className = "ChuixuePTRePage",
-	uiName = "chuixueptrepage"
-}
-slot1[ActivityConst.SHANCHENG_PT_OIL] = {
-	className = "ShanchengPTOilPage",
-	uiName = "shanchengptoilpage"
-}
-slot1[ActivityConst.DACHAOLIFU_SKIN] = {
-	className = "DachaolifuSkinPage",
-	uiName = "dachaolifuskinpage"
-}
-slot1[ActivityConst.SECOND_ANNIVERSARY_COLLECT] = {
-	className = "SecondAnniversaryCollectPage",
-	uiName = "secondanniversarycollectpage"
-}
-slot1[ActivityConst.ACTIVITY_JAMAICA_SKIN_PAGE] = {
-	className = "JamaicaSkinPage",
-	uiName = "jamaicaskinpage"
-}
-slot1[ActivityConst.TWCELEBRATION_1] = {
-	className = "TWCelebrationPage1",
-	uiName = "twcelebration1"
-}
-slot1[ActivityConst.TWCELEBRATION_2] = {
-	className = "TWCelebrationPage2",
-	uiName = "twcelebration2"
-}
-slot1[ActivityConst.TWCELEBRATION_3] = {
-	className = "TWCelebrationPage3",
-	uiName = "twcelebration3"
-}
-slot1[ActivityConst.TWCELEBRATION_4] = {
-	className = "TWCelebrationPage4",
-	uiName = "twcelebration4"
-}
-slot1[ActivityConst.MIKASA_REPAIRE_ACTIVITY] = {
-	className = "MikasaRepairePage",
-	uiName = "mikasarepairePage"
-}
-slot1[ActivityConst.MIKASA_MAIN_ACTIVITY] = {
-	className = "MikasaPreviewPage",
-	uiName = "mikasamainPage"
-}
-slot1[ActivityConst.CYGENT_SWIMSUIT] = {
-	className = "CygentSwimsuitPage",
-	uiName = "cygentswimsuit"
-}
-slot1[ActivityConst.ACTIVITY_U110_BATTLE_PAGE] = {
-	className = "U110BattlePage",
-	uiName = "U110BattlePage"
-}
-slot1[ActivityConst.LINDONG_REMAKE_KR] = {
-	className = "LindongMainPage",
-	uiName = "lindongmainpage"
-}
-slot1[ActivityConst.CYGENT_SWIMSUIT] = {
-	className = "CygentSwimsuitPage",
-	uiName = "cygentswimsuit"
-}
-slot1[ActivityConst.TWHALLOWEENSKIN] = {
-	className = "HalloweenSkinPage",
-	uiName = "HalloweenSkinUI"
-}
-slot1[ActivityConst.BAILEY_HALLOWEEN_REMAKE] = {
-	className = "BaileyHalloweenPage",
-	uiName = "baileyhalloweenpage"
-}
-slot1[ActivityConst.MEMPHIS_HALLOWEEN] = {
-	className = "MemphisHalloweenPage",
-	uiName = "memphishalloweenpage"
-}
-slot1[ActivityConst.BAILEY_HALLOWEEN] = {
-	className = "BaileyHalloweenPage",
-	uiName = "baileyhalloweenpage"
-}
-slot1[ActivityConst.IDOL_PT_ID] = {
-	className = "IdolPTPage",
-	uiName = "idolptpage"
-}
-slot1[ActivityConst.MUSIC_CHUIXUE7DAY_ID] = {
-	className = "Chuixue7daySkinPage",
-	uiName = "chuixue7dayskinpage"
-}
-slot1[ActivityConst.ANIME_LOGIN] = {
-	className = "AnimeLoginPage",
-	uiName = "AnimeLoginPage"
-}
-slot1[ActivityConst.MUSIC_FESTIVAL_ID] = {
-	className = "XiefeierIdolMusicPage",
-	uiName = "xiefeieridolmusicpage"
-}
-slot1[ActivityConst.POCKY_LOGIN] = {
-	className = "PockyPage",
-	uiName = "pockypage"
-}
-slot1[ActivityConst.POCKY_SKIN_LOGIN] = {
-	className = "PockySkinPage",
-	uiName = "PockySkinPage"
-}
-slot1[ActivityConst.WARSPITE_TRANS] = {
-	className = "WarspiteTransformationPage",
-	uiName = "WarspiteTransformationPage"
-}
-slot1[ActivityConst.HOLOLIVE_PT_ID] = {
-	className = "HoloLivePTPage",
-	uiName = "HoloLivePTPage"
-}
-slot1[ActivityConst.HOLOLIVE_MORNING_ID] = {
-	className = "HoloLiveMorningPage",
-	uiName = "HoloLiveMorningPage"
-}
-slot1[ActivityConst.HOLOLIVE_MAIN] = {
-	className = "HoloLivePage",
-	uiName = "HoloLivePage"
-}
-slot1[ActivityConst.HOLOLIVE_MIO_ID] = {
-	className = "HoloLiveMioPage",
-	uiName = "HoloLiveMioPage"
-}
-slot1[ActivityConst.ZPROJECT_TW] = {
-	className = "ZProjectPage",
-	uiName = "zprojectpage"
-}
-slot1[ActivityConst.JP_SKIRMISH_HEADFRAME_ID] = {
-	className = "JPSkirmishHeadFramePage",
-	uiName = "JPSkirmishHeadFramePage"
-}
-slot1[ActivityConst.WAKABA_CHRIS_SKIN_ID] = {
-	className = "WakabaChrisSkinPage",
-	uiName = "WakabaChrisSkinPage"
-}
-slot1[ActivityConst.SHIO_SKIN_RE_ID] = {
-	className = "ShioSkinRePage",
-	uiName = "ShioSkinRePage"
-}
-slot1[ActivityConst.ANIME_MIDTERM_LOGIN] = {
-	className = "AnimeMidtermLoginPage",
-	uiName = "AnimeMidtermLoginPage"
-}
-slot1[ActivityConst.NEWYEAR_SHRINE_PAGE_ID] = {
-	className = "NewYearShrinePage",
-	uiName = "NewYearShrinePage"
-}
-slot1[ActivityConst.CYGNET_BATHROBE_PAGE_ID] = {
-	className = "CygnetBathrobePage",
-	uiName = "CygnetBathrobePage"
-}
-slot1[ActivityConst.JAPANESE_NEWYEAR] = {
-	className = "JapaneseNewyearPage",
-	uiName = "JapaneseNewyearPage"
-}
-slot1[ActivityConst.NEW_JAPANESE_PT] = {
-	className = "JapanesePTPage",
-	uiName = "JapanesePTPage"
-}
-slot1[ActivityConst.SKIN_GELIDELI] = {
-	className = "SkinGelideliPage",
-	uiName = "SkinGelideliPage"
-}
-slot1[ActivityConst.BEAT_MONSTER_NIAN_2020] = {
-	className = "BeatMonsterNian.BeatMonsterPage",
-	uiName = "BeatMonsterPage"
-}
-slot1[ActivityConst.SKIN_KISARAGI] = {
-	className = "SkinKisaragiPage",
-	uiName = "SkinKisaragiPage"
-}
-slot1[ActivityConst.MORAN_KR_PT_ID] = {
-	className = "MoranPtPage",
-	uiName = "MoranPtPage"
-}
-slot1[ActivityConst.MORAN_KR_PREVIEW_ID] = {
-	className = "MoranMainPage",
-	uiName = "MoranMainPage"
-}
-slot1[ActivityConst.UNICORN_STARDUST] = {
-	className = "UnicornStardustPage",
-	uiName = "UnicornStardustPage"
-}
-slot1[ActivityConst.TEATIME_TW] = {
-	className = "TeaTimePuzzlePage",
-	uiName = "TeaTimePuzzlePage"
 }
 slot2 = {
 	[ActivityConst.IDOL_INS_ID] = ActivityConst.IDOL_PT_ID,
@@ -428,7 +452,7 @@ function slot0.onBackPressed(slot0)
 		end
 	end
 
-	slot0:emit(uv0.ON_BACK_PRESSED)
+	slot0:emit(slot0.ON_BACK_PRESSED)
 end
 
 slot3 = nil
@@ -446,15 +470,16 @@ function slot0.init(slot0)
 	setActive(slot0.tab, false)
 
 	slot0.shareData = ActivityShareData.New()
-	uv0 = require("GameCfg.activity.EntranceData")
-	slot0.pageDic = {}
+	slot2 = tonumber(pg.TimeMgr.GetInstance():CTimeDescC(slot1, "%m"))
+	slot3 = pg.activity_template[ActivityConst.MONTH_SIGN_ACTIVITY_ID].config_client[1]
+	require("GameCfg.activity.EntranceData").pageDic = {}
 
-	for slot7, slot8 in pairs(uv1) do
-		slot9 = getProxy(ActivityProxy)
+	for slot7, slot8 in pairs(slot1) do
+		if getProxy(ActivityProxy):getActivityById(slot7) and not slot9:isEnd() and slot9:isShow() then
+			slot11 = import("view.activity.subPages." .. slot8.className).New(slot0.pageContainer, slot0.event, slot0.contextData)
 
-		if slot9:getActivityById(slot7) and not slot9:isEnd() and slot9:isShow() then
-			if slot7 == ActivityConst.MONTH_SIGN_ACTIVITY_ID and tonumber(pg.TimeMgr.GetInstance():CTimeDescC(pg.TimeMgr.GetInstance():GetServerTime(), "%m")) == pg.activity_template[ActivityConst.MONTH_SIGN_ACTIVITY_ID].config_client[1] then
-				import("view.activity.subPages." .. slot8.className).New(slot0.pageContainer, slot0.event, slot0.contextData):SetUIName(slot8.uiName2)
+			if slot7 == ActivityConst.MONTH_SIGN_ACTIVITY_ID and slot2 == slot3 then
+				slot11:SetUIName(slot8.uiName2)
 			else
 				slot11:SetUIName(slot8.uiName)
 			end
@@ -468,17 +493,17 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.btnBack, function ()
-		uv0:emit(uv1.ON_BACK)
+		slot0:emit(slot1.ON_BACK)
 	end, SOUND_BACK)
 	slot0:updateEntrances()
 	slot0:emit(ActivityMediator.SHOW_NEXT_ACTIVITY)
-	slot0:bind(uv0.LOCK_ACT_MAIN, function (slot0, slot1)
-		uv0.locked = slot1
+	slot0:bind(slot0.LOCK_ACT_MAIN, function (slot0, slot1)
+		slot0.locked = slot1
 
-		setActive(uv0.lockAll, slot1)
+		setActive(slot0.lockAll, slot1)
 	end)
-	slot0:bind(uv0.UPDATE_ACTIVITY, function (slot0, slot1)
-		uv0:updateActivity(slot1)
+	slot0:bind(slot0.UPDATE_ACTIVITY, function (slot0, slot1)
+		slot0:updateActivity(slot1)
 	end)
 end
 
@@ -520,22 +545,14 @@ function slot0.updateActivity(slot0, slot1)
 	slot0.allActivity[slot1.id] = slot1
 
 	if not slot1:isShow() then
-		if uv0[slot1.id] then
-			slot1 = getProxy(ActivityProxy):getActivityById(uv0[slot1.id])
+		if slot0[slot1.id] then
+			slot1 = getProxy(ActivityProxy):getActivityById(slot0[slot1.id])
 		else
 			return
 		end
 	end
 
-	slot0.activities[function ()
-		for slot3, slot4 in ipairs(uv0.activities) do
-			if slot4.id == uv1.id then
-				return slot3
-			end
-		end
-
-		return #uv0.activities + 1
-	end()] = slot1
+	slot0.activities[slot2()] = slot1
 
 	slot0:flushTabs()
 
@@ -555,9 +572,9 @@ function slot0.updateEntrances(slot0)
 
 			slot5 = false
 
-			if uv0[slot1 + 1] and table.getCount(slot3) ~= 0 and slot3.isShow() then
-				onButton(uv1, slot2, function ()
-					uv0:emit(uv1.event, uv1.data[1], uv1.data[2])
+			if slot0[slot1 + 1] and table.getCount(slot3) ~= 0 and slot3.isShow() then
+				onButton(slot1, slot2, function ()
+					slot0:emit(slot1.event, slot1.data[1], slot1.data[2])
 				end, SFX_PANEL)
 
 				slot4 = slot3.banner
@@ -571,7 +588,7 @@ function slot0.updateEntrances(slot0)
 			LoadImageSpriteAsync("activitybanner/" .. slot4, slot2)
 		end
 	end)
-	slot0.entranceList:align(math.max(#_.select(uv0, function (slot0)
+	slot0.entranceList:align(math.max(#_.select(slot0, function (slot0)
 		return slot0.isShow and slot0.isShow()
 	end), 5))
 end
@@ -582,19 +599,19 @@ function slot0.flushTabs(slot0)
 
 		slot0.tabsList:make(function (slot0, slot1, slot2)
 			if slot0 == UIItemList.EventUpdate then
-				if uv0.pageDic[uv0.activities[slot1 + 1].id] ~= nil then
+				if slot0.pageDic[slot0.activities[slot1 + 1].id] ~= nil then
 					if slot3:getConfig("title_res_tag") then
-						setImageSprite(uv0:findTF("off/text", slot2), GetSpriteFromAtlas("ui/activityui_atlas", slot5 .. "_text") or GetSpriteFromAtlas("ui/activityui_atlas", "activity_text"), true)
-						setImageSprite(uv0:findTF("on/text", slot2), GetSpriteFromAtlas("ui/activityui_atlas", slot5 .. "_text_selected") or GetSpriteFromAtlas("ui/activityui_atlas", "activity_text_selected"), true)
-						setActive(uv0:findTF("red", slot2), slot3:readyToAchieve())
-						onToggle(uv0, slot2, function (slot0)
+						setImageSprite(slot0:findTF("off/text", slot2), GetSpriteFromAtlas("ui/activityui_atlas", slot5 .. "_text") or GetSpriteFromAtlas("ui/activityui_atlas", "activity_text"), true)
+						setImageSprite(slot0:findTF("on/text", slot2), GetSpriteFromAtlas("ui/activityui_atlas", slot5 .. "_text_selected") or GetSpriteFromAtlas("ui/activityui_atlas", "activity_text_selected"), true)
+						setActive(slot0:findTF("red", slot2), slot3:readyToAchieve())
+						onToggle(slot0, slot2, function (slot0)
 							if slot0 then
-								uv0:selectActivity(uv1)
+								slot0:selectActivity(slot0.selectActivity)
 							end
 						end, SFX_PANEL)
 					else
-						onToggle(uv0, slot2, function (slot0)
-							uv0:loadActivityPanel(slot0, uv1)
+						onToggle(slot0, slot2, function (slot0)
+							slot0:loadActivityPanel(slot0, slot0.loadActivityPanel)
 						end, SFX_PANEL)
 					end
 				end
@@ -607,11 +624,9 @@ end
 
 function slot0.selectActivity(slot0, slot1)
 	if slot1 and (not slot0.activity or slot0.activity.id ~= slot1.id) then
-		slot2 = slot0.pageDic[slot1.id]
-
-		slot2:Load()
-		slot2:ActionInvoke("Flush", slot1)
-		slot2:ActionInvoke("ShowOrHide", true)
+		slot0.pageDic[slot1.id].Load(slot2)
+		slot0.pageDic[slot1.id].ActionInvoke(slot2, "Flush", slot1)
+		slot0.pageDic[slot1.id]:ActionInvoke("ShowOrHide", true)
 
 		if slot0.activity and slot0.activity.id ~= slot1.id then
 			slot0.pageDic[slot0.activity.id]:ActionInvoke("ShowOrHide", false)
@@ -651,11 +666,11 @@ end
 function slot0.getBonusWindow(slot0, slot1, slot2)
 	if not slot0:findTF(slot1) then
 		PoolMgr.GetInstance():GetUI("ActivitybonusWindow", true, function (slot0)
-			SetParent(slot0, uv0._tf, false)
+			SetParent(slot0, slot0._tf, false)
 
-			slot0.name = uv1
+			slot0.name = SetParent
 
-			uv2(slot0)
+			slot0(slot0)
 		end)
 	else
 		slot2(slot3)
@@ -665,9 +680,9 @@ end
 function slot0.ShowWindow(slot0, slot1, slot2)
 	if not slot0.windowList[slot1.__cname] then
 		slot0:getBonusWindow(slot3, function (slot0)
-			uv0.windowList[uv1] = uv2.New(tf(slot0), uv0)
+			slot0.windowList[] = slot2.New(tf(slot0), slot0)
 
-			uv0.windowList[uv1]:Show(uv3)
+			slot0.windowList[]:Show(slot2.New(tf(slot0), slot0))
 		end)
 	else
 		slot0.windowList[slot3]:Show(slot2)

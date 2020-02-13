@@ -1,7 +1,7 @@
 slot0 = class("ShamFleetConfirmPanel", import("..base.BasePanel"))
 
 function slot0.init(slot0)
-	uv0.super.init(slot0)
+	slot0.super.init(slot0)
 
 	slot0.item = slot0:findTF("panel/item")
 	slot0.mainShips = slot0:findTF("panel/main/ships")
@@ -9,7 +9,7 @@ function slot0.init(slot0)
 
 	slot0.mainList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			uv0:updateShip(slot2, uv0.mains[slot1 + 1], TeamType.Main)
+			slot0:updateShip(slot2, slot0.mains[slot1 + 1], TeamType.Main)
 		end
 	end)
 
@@ -18,7 +18,7 @@ function slot0.init(slot0)
 
 	slot0.vanList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			uv0:updateShip(slot2, uv0.vans[slot1 + 1], TeamType.Vanguard)
+			slot0:updateShip(slot2, slot0.vans[slot1 + 1], TeamType.Vanguard)
 		end
 	end)
 
@@ -42,9 +42,9 @@ function slot0.set(slot0, slot1)
 
 	_.each(slot1, function (slot0)
 		if slot0:getTeamType() == TeamType.Vanguard then
-			table.insert(uv0.vans, slot0)
+			table.insert(slot0.vans, slot0)
 		elseif slot1 == TeamType.Main then
-			table.insert(uv0.mains, slot0)
+			table.insert(slot0.mains, slot0)
 		end
 	end)
 
@@ -65,18 +65,18 @@ function slot0.set(slot0, slot1)
 	slot0.mainList:align(#slot0.mains)
 	slot0.vanList:align(#slot0.vans)
 	onButton(slot0, slot0._tf, function ()
-		if uv0.onCancel then
-			uv0.onCancel()
+		if slot0.onCancel then
+			slot0.onCancel()
 		end
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.btnClose, function ()
-		if uv0.onCancel then
-			uv0.onCancel()
+		if slot0.onCancel then
+			slot0.onCancel()
 		end
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.btnStart, function ()
-		if uv0.onConfirm then
-			uv0.onConfirm()
+		if slot0.onConfirm then
+			slot0.onConfirm()
 		end
 	end, SFX_CONFIRM)
 end
@@ -95,25 +95,24 @@ function slot0.updateShip(slot0, slot1, slot2, slot3)
 
 		slot8 = slot2.hpRant
 
-		setActive(findTF(slot4, "blood"), false)
+		setActive(slot9, false)
 		onButton(slot0, slot6, function ()
-			uv0.onClickShip(uv1)
+			slot0.onClickShip(slot1)
 		end, SFX_UI_CLICK)
 
-		slot10 = GetOrAddComponent(slot6, "UILongPressTrigger")
-		slot10.longPressThreshold = 1
+		GetOrAddComponent(slot6, "UILongPressTrigger").longPressThreshold = 1
 
-		slot10.onLongPressed:RemoveAllListeners()
+		GetOrAddComponent(slot6, "UILongPressTrigger").onLongPressed:RemoveAllListeners()
 
 		if onLongPressed then
 			pg.DelegateInfo.Add(slot0, slot10.onLongPressed)
 			slot10.onLongPressed:AddListener(function ()
-				uv0.onLongPressed(uv1)
+				slot0.onLongPressed(slot1)
 			end)
 		end
 	else
 		onButton(slot0, slot7, function ()
-			uv0.onClickShip(uv1)
+			slot0.onClickShip(slot1)
 		end, SFX_UI_CLICK)
 	end
 end

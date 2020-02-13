@@ -1,16 +1,3 @@
-slot2.target_choise = {
-	"TargetAllHelp"
-}
-slot2.arg_list = {
-	buff_id = 40031
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillAddBuff"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "对战列增伤",
@@ -19,5 +6,18 @@ return {
 	aniEffect = "",
 	desc = "对战列增伤",
 	painting = 1,
-	id = 40040
+	id = 40040,
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = {
+				"TargetAllHelp"
+			},
+			arg_list = {
+				buff_id = 40031
+			}
+		}
+	}
 }

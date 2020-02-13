@@ -29,22 +29,23 @@ function slot0.initData(slot0)
 	slot0.shipPaintName = Ship.getPaintingName(slot0.shipID)
 	slot0.shipType = pg.fleet_tech_ship_class[slot0.classID].shiptype
 	slot0.classLevel = pg.fleet_tech_ship_class[slot0.classID].t_level
-	slot1[1] = Color.New(0.25882352941176473, 0.9215686274509803, 1, 1)
-	slot1[2] = Color.New(1, 0.9137254901960784, 0.4470588235294118, 1)
-	slot1[3] = Color.New(1, 0.9137254901960784, 0.4470588235294118, 1)
-	slot1[18] = Color.New(1, 0.9137254901960784, 0.4470588235294118, 1)
-	slot1[4] = Color.New(0.9529411764705882, 0.396078431372549, 0.396078431372549, 1)
-	slot1[5] = Color.New(0.9529411764705882, 0.396078431372549, 0.396078431372549, 1)
-	slot1[9] = Color.New(0.9529411764705882, 0.396078431372549, 0.396078431372549, 1)
-	slot1[10] = Color.New(0.9529411764705882, 0.396078431372549, 0.396078431372549, 1)
-	slot1[11] = Color.New(0.9529411764705882, 0.396078431372549, 0.396078431372549, 1)
-	slot1[13] = Color.New(0.9529411764705882, 0.396078431372549, 0.396078431372549, 1)
-	slot1[6] = Color.New(0.8745098039215686, 0.6588235294117647, 1, 1)
-	slot1[7] = Color.New(0.8745098039215686, 0.6588235294117647, 1, 1)
-	slot1[8] = Color.New(0.7215686274509804, 1, 0.23529411764705882, 1)
-	slot1[17] = Color.New(0.7215686274509804, 1, 0.23529411764705882, 1)
-	slot1[12] = Color.New(0.7215686274509804, 1, 0.23529411764705882, 1)
-	slot0.typeToColor = {}
+	slot0.typeToColor = {
+		Color.New(0.25882352941176473, 0.9215686274509803, 1, 1),
+		Color.New(1, 0.9137254901960784, 0.4470588235294118, 1),
+		Color.New(1, 0.9137254901960784, 0.4470588235294118, 1),
+		Color.New(0.9529411764705882, 0.396078431372549, 0.396078431372549, 1),
+		Color.New(0.9529411764705882, 0.396078431372549, 0.396078431372549, 1),
+		Color.New(0.8745098039215686, 0.6588235294117647, 1, 1),
+		Color.New(0.8745098039215686, 0.6588235294117647, 1, 1),
+		Color.New(0.7215686274509804, 1, 0.23529411764705882, 1),
+		[18] = Color.New(1, 0.9137254901960784, 0.4470588235294118, 1),
+		[9] = Color.New(0.9529411764705882, 0.396078431372549, 0.396078431372549, 1),
+		[10] = Color.New(0.9529411764705882, 0.396078431372549, 0.396078431372549, 1),
+		[11] = Color.New(0.9529411764705882, 0.396078431372549, 0.396078431372549, 1),
+		[13] = Color.New(0.9529411764705882, 0.396078431372549, 0.396078431372549, 1),
+		[17] = Color.New(0.7215686274509804, 1, 0.23529411764705882, 1),
+		[12] = Color.New(0.7215686274509804, 1, 0.23529411764705882, 1)
+	}
 end
 
 function slot0.findUI(slot0)
@@ -75,24 +76,24 @@ end
 
 function slot0.addListener(slot0)
 	onButton(slot0, slot0.backBtn, function ()
-		uv0:emit(uv1.ON_CLOSE)
+		slot0:emit(slot1.ON_CLOSE)
 	end, SFX_CANCEL)
 end
 
 function slot0.updateDetail(slot0)
 	LoadSpriteAsync("shipmodels/" .. slot0.shipPaintName, function (slot0)
 		if slot0 then
-			setImageSprite(uv0.modelImg, slot0, true)
+			setImageSprite(slot0.modelImg, slot0, true)
 
-			rtf(uv0.modelImg).pivot = getSpritePivot(slot0)
+			rtf(slot0.modelImg).pivot = getSpritePivot(slot0)
 		end
 	end)
 	setImageSprite(slot0.baseImg, GetSpriteFromAtlas("shipraritybaseicon", "base_" .. slot0.rarity))
 	setImageSprite(slot0.typeTextImg, GetSpriteFromAtlas("ShipType", "ch_title_" .. slot0.shipType), true)
 	setImageSprite(slot0.levelImg, GetSpriteFromAtlas("TecClassLevelIcon", "T" .. slot0.classLevel), true)
 	setText(slot0.nameText, ShipGroup.getDefaultShipNameByGroupID(slot0.groupID))
-	setText(slot0.pointNumGetText, "+" .. pg.fleet_tech_ship_template[slot0.groupID].pt_get)
-	setText(slot0.pointNumCompleteText, "+" .. pg.fleet_tech_ship_template[slot0.groupID].pt_level)
+	setText(slot0.pointNumGetText, "+" .. slot1)
+	setText(slot0.pointNumCompleteText, "+" .. slot2)
 	setText(slot0.allStarPointText, "+" .. pg.fleet_tech_ship_template[slot0.groupID].pt_upgrage)
 
 	if pg.fleet_tech_ship_template[slot0.groupID].max_star <= slot0.star then
@@ -109,16 +110,12 @@ function slot0.updateDetail(slot0)
 
 	slot6:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot5 = uv0:findTF("TypeText", slot2)
-			slot8 = uv1[slot1 + 1]
-			slot9 = uv0.typeToColor[slot8]
-
-			setTextColor(uv0:findTF("Symbol/Left", slot2), slot9)
-			setTextColor(uv0:findTF("Symbol/Right", slot2), slot9)
+			setTextColor(slot3, slot9)
+			setTextColor(slot4, slot9)
 			setText(slot5, ShipType.Type2Name(slot8))
 			setTextColor(slot5, slot9)
-			setText(uv0:findTF("AttrText", slot2), AttributeType.Type2Name(pg.attribute_info_by_type[uv2].name))
-			setText(uv0:findTF("ValueText", slot2), "+" .. uv3)
+			setText(slot6, AttributeType.Type2Name(pg.attribute_info_by_type[slot2].name))
+			setText(slot7, "+" .. slot0:findTF("Symbol/Left", slot2))
 			setActive(slot2, true)
 		end
 	end)
@@ -130,20 +127,20 @@ function slot0.updateDetail(slot0)
 
 	slot10:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0:findTF("Symbol/Left", slot2)
-			slot4 = uv0:findTF("Symbol/Right", slot2)
-			slot5 = uv0:findTF("TypeText", slot2)
-			slot6 = uv0:findTF("AttrText", slot2)
-			slot7 = uv0:findTF("ValueText", slot2)
+			slot3 = slot0:findTF("Symbol/Left", slot2)
+			slot4 = slot0:findTF("Symbol/Right", slot2)
+			slot5 = slot0:findTF("TypeText", slot2)
+			slot6 = slot0:findTF("AttrText", slot2)
+			slot7 = slot0:findTF("ValueText", slot2)
+			slot8 = slot0:findTF("BG", slot2)
+			slot9 = slot1[slot1 + 1]
 			slot10 = nil
 
-			if uv0.maxLV == 120 then
-				slot10 = uv0.typeToColor[uv1[slot1 + 1]]
+			if slot0.maxLV == 120 then
+				slot10 = slot0.typeToColor[slot9]
 
-				setGray(uv0:findTF("BG", slot2), false)
+				setGray(slot8, false)
 			else
-				slot10 = Color.New(0.6392156862745098, 0.6392156862745098, 0.6392156862745098, 1)
-
 				setTextColor(slot7, slot10)
 				setTextColor(slot6, slot10)
 				setGray(slot8, true)
@@ -153,8 +150,8 @@ function slot0.updateDetail(slot0)
 			setTextColor(slot4, slot10)
 			setText(slot5, ShipType.Type2Name(slot9))
 			setTextColor(slot5, slot10)
-			setText(slot6, AttributeType.Type2Name(pg.attribute_info_by_type[uv2].name))
-			setText(slot7, "+" .. uv3)
+			setText(slot6, AttributeType.Type2Name(pg.attribute_info_by_type[slot2].name))
+			setText(slot7, "+" .. slot3)
 			setActive(slot2, true)
 		end
 	end)

@@ -1,11 +1,9 @@
-slot0 = class("GetCommanderCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("GetCommanderCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.callback
 	slot5 = defaultValue(slot2.notify, true)
 	slot6 = getProxy(CommanderProxy)
-	slot7 = slot6:getBoxById(slot2.id)
+	slot7 = slot6:getBoxById(slot3)
 
 	if getProxy(PlayerProxy):getData().commanderBagMax <= slot6:getCommanderCnt() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("commander_capcity_is_max"))
@@ -21,30 +19,30 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	slot12.boxid = slot3
-
-	pg.ConnectionMgr.GetInstance():Send(25004, {}, 25005, function (slot0)
+	pg.ConnectionMgr.GetInstance():Send(25004, {
+		boxid = slot3
+	}, 25005, function (slot0)
 		if slot0.result == 0 then
-			uv0:addCommander(Commander.New(slot0.commander))
-			uv1:finish()
+			slot0:addCommander(Commander.New(slot0.commander))
+			slot1:finish()
 
-			if uv2 then
-				slot5.commander = slot1:clone()
-				slot5.boxId = uv4
-				slot5.callback = uv5
-
-				uv3:sendNotification(GAME.COMMANDER_ON_OPEN_BOX_DONE, {})
-			elseif uv5 then
-				uv5(slot1)
+			if slot1.finish then
+				slot3:sendNotification(GAME.COMMANDER_ON_OPEN_BOX_DONE, {
+					commander = slot1:clone(),
+					boxId = slot4,
+					callback = 
+				})
+			elseif slot5 then
+				slot5(slot1)
 			end
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_acquire_erro", slot0.result))
 
-			if uv5 then
-				uv5()
+			if slot0.result then
+				slot5()
 			end
 		end
 	end)
 end
 
-return slot0
+return class("GetCommanderCommand", pm.SimpleCommand)

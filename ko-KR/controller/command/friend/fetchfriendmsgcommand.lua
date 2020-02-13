@@ -1,6 +1,5 @@
-slot0 = class("FetchFriendMsgCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("FetchFriendMsgCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	return
 end
 
-return slot0
+return class("FetchFriendMsgCommand", pm.SimpleCommand)

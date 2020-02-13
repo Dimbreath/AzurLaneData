@@ -8,50 +8,50 @@ function slot0.register(slot0)
 	slot1 = getProxy(GuildProxy)
 	slot1.eventTip = nil
 
-	slot0.viewComponent:setEvent(slot1:getGuildEvent())
-	slot0.viewComponent:setPlayerVO(getProxy(PlayerProxy):getData())
-	slot0:bind(uv0.GET_RANK_LIST, function (slot0)
-		uv0:sendNotification(GAME.GET_GUILD_MEMBER_RANK)
+	slot0.viewComponent:setEvent(slot2)
+	slot0.viewComponent:setPlayerVO(slot4)
+	slot0:bind(slot0.GET_RANK_LIST, function (slot0)
+		slot0:sendNotification(GAME.GET_GUILD_MEMBER_RANK)
 	end)
-	slot0:bind(uv0.OPEN_TASK, function (slot0)
-		slot4.viewComponent = GuildTaskLayer
-		slot4.mediator = GuildTaskMediator
-
-		uv0:addSubLayers(Context.New({}))
+	slot0:bind(slot0.OPEN_TASK, function (slot0)
+		slot0:addSubLayers(Context.New({
+			viewComponent = GuildTaskLayer,
+			mediator = GuildTaskMediator
+		}))
 	end)
-	slot0:bind(uv0.OPEN_RANK, function (slot0)
-		slot4.viewComponent = GuildRankLayer
-		slot4.mediator = GuildRankMediator
-
-		uv0:addSubLayers(Context.New({}))
+	slot0:bind(slot0.OPEN_RANK, function (slot0)
+		slot0:addSubLayers(Context.New({
+			viewComponent = GuildRankLayer,
+			mediator = GuildRankMediator
+		}))
 	end)
-	slot0:bind(uv0.ON_PRE_COMBAT, function (slot0)
+	slot0:bind(slot0.ON_PRE_COMBAT, function (slot0)
 		if not getProxy(ChapterProxy):getGuildChapter() then
 			return
 		end
 
 		if slot2.active then
-			slot3 = uv0
-			slot7.chapterId = slot2 and slot2.id
-			slot7.mapIdx = slot2 and slot2:getConfig("map")
-			slot7.chapterVO = slot2
-
-			slot3.sendNotification(slot3, GAME.GO_SCENE, SCENE.LEVEL, {})
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
+				chapterId = slot2 and slot2.id,
+				mapIdx = slot2 and slot2:getConfig("map"),
+				chapterVO = slot2
+			})
 		else
-			slot6.mediator = GuildPreCombatMediator
-			slot6.viewComponent = GuildPreCombatLayer
-			slot7.guildChapter = slot2
-			slot6.data = {}
-
-			uv0:addSubLayers(Context.New({}))
+			slot0:addSubLayers(Context.New({
+				mediator = GuildPreCombatMediator,
+				viewComponent = GuildPreCombatLayer,
+				data = {
+					guildChapter = slot2
+				}
+			}))
 		end
 	end)
 end
 
 function slot0.listNotificationInterests(slot0)
-	slot1[1] = GuildProxy.UPDATED_EVENT
-
-	return {}
+	return {
+		GuildProxy.UPDATED_EVENT
+	}
 end
 
 function slot0.handleNotification(slot0, slot1)

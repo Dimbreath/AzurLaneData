@@ -38,7 +38,7 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0._backBtn, function ()
-		uv0:emit(uv1.ON_BACK)
+		slot0:emit(slot1.ON_BACK)
 	end, SFX_CANCEL)
 	setActive(slot0:findTF("stamp"), getProxy(TaskProxy):mingshiTouchFlagEnabled())
 
@@ -63,11 +63,11 @@ function slot0.createTasks(slot0)
 	slot0.taskCards = {}
 
 	function slot0._scrollView.onInitItem(slot0)
-		uv0:onInitTask(slot0)
+		slot0:onInitTask(slot0)
 	end
 
 	function slot0._scrollView.onUpdateItem(slot0, slot1)
-		uv0:onUpdateTask(slot0, slot1)
+		slot0:onUpdateTask(slot0, slot1)
 	end
 end
 
@@ -88,9 +88,10 @@ end
 function slot0.filterTasks(slot0, slot1)
 	slot0.taskVOs = {}
 	slot0._currentToggleType = slot1
+	slot2 = pg.taskUIConfig.filter[slot0._currentToggleType]
 
 	for slot6, slot7 in pairs(slot0.taskVOsById) do
-		if slot7:getConfig("visibility") == 1 and pg.taskUIConfig.filter[slot0._currentToggleType][slot7:getConfig("type")] then
+		if slot7:getConfig("visibility") == 1 and slot2[slot7:getConfig("type")] then
 			table.insert(slot0.taskVOs, slot7)
 		end
 	end
@@ -103,24 +104,16 @@ end
 
 function slot0.sortTasks(slot0)
 	function slot1(slot0, slot1, slot2)
-		function slot3(slot0)
-			for slot4, slot5 in ipairs(uv0) do
-				if slot0 == slot5 then
-					return slot4
-				end
-			end
-		end
-
 		return slot3(slot0) < slot3(slot1)
 	end
 
 	table.sort(slot0.taskVOs, function (slot0, slot1)
 		if slot0:getTaskStatus() == slot1:getTaskStatus() then
-			if (slot0.id == 10302 and 1 or 0) == (slot1.id == 10302 and 1 or 0) then
+			if ((slot0.id == 10302 and 1) or 0) == ((slot1.id == 10302 and 1) or 0) then
 				if slot0:getConfig("type") == slot1:getConfig("type") then
 					return slot0.id < slot1.id
 				elseif slot0:getTaskStatus() == 0 then
-					return uv0(slot0:getConfig("type"), slot1:getConfig("type"), {
+					return slot0(slot0:getConfig("type"), slot1:getConfig("type"), {
 						26,
 						36,
 						6,
@@ -131,7 +124,7 @@ function slot0.sortTasks(slot0)
 						1
 					})
 				elseif slot0:getTaskStatus() == 1 then
-					return uv0(slot0:getConfig("type"), slot1:getConfig("type"), {
+					return slot0(slot0:getConfig("type"), slot1:getConfig("type"), {
 						26,
 						36,
 						6,
@@ -146,7 +139,7 @@ function slot0.sortTasks(slot0)
 				return slot3 < slot2
 			end
 		else
-			return uv0(slot0:getTaskStatus(), slot1:getTaskStatus(), {
+			return slot0(slot0:getTaskStatus(), slot1:getTaskStatus(), {
 				1,
 				0,
 				2
@@ -158,13 +151,12 @@ end
 function slot0.initTypeTag(slot0)
 	slot0.toggles = {}
 
-	for slot5, slot6 in pairs(pg.taskUIConfig.filter) do
-		slot7 = slot0:findTF(slot5, slot0._tagRoot)
-		slot0.toggles[slot5] = slot7
+	for slot5, slot6 in pairs(slot1) do
+		slot0.toggles[slot5] = slot0:findTF(slot5, slot0._tagRoot)
 
-		onToggle(slot0, slot7, function (slot0)
+		onToggle(slot0, slot0.findTF(slot5, slot0._tagRoot), function (slot0)
 			if slot0 then
-				uv0:filterTasks(uv1)
+				slot0:filterTasks(slot0.filterTasks)
 			end
 		end, SFX_PANEL)
 	end
@@ -236,11 +228,11 @@ function slot0.updateOneStepBtn(slot0)
 		end
 	end
 
-	if #slot1 >= 2 == true then
+	if (#slot1 >= 2) == true then
 		removeOnButton(slot0.oneStepBtn)
 		setActive(slot0.oneStepBtn.gameObject, true)
 		onButton(slot0, slot0.oneStepBtn, function ()
-			uv0:emit(TaskMediator.CLICK_GET_ALL, uv1, uv2)
+			slot0:emit(TaskMediator.CLICK_GET_ALL, slot0, )
 		end, SFX_CONFIRM)
 	else
 		setActive(slot0.oneStepBtn.gameObject, false)

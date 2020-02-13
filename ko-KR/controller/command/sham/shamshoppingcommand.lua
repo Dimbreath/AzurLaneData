@@ -4,8 +4,8 @@ slot0.SHAM_SHOP = 1
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot5 = slot2.type
-	slot7 = getProxy(PlayerProxy):getRawData()
-	slot10 = getProxy(ShopsProxy):getShamShop():getGoodsCfg(slot2.id)
+	slot7 = getProxy(PlayerProxy).getRawData(slot6)
+	slot10 = getProxy(ShopsProxy).getShamShop(slot8).getGoodsCfg(slot9, slot3)
 	slot11, slot12 = getPlayerOwn(slot10.resource_category, slot10.resource_type)
 
 	if slot12 < slot10.resource_num * slot2.count then
@@ -28,31 +28,30 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
-	slot16.id = slot3
-	slot16.type = uv0.SHAM_SHOP
-	slot16.count = slot4
-
-	pg.ConnectionMgr.GetInstance():Send(16201, {}, 16202, function (slot0)
+	pg.ConnectionMgr.GetInstance():Send(16201, {
+		id = slot3,
+		type = slot0.SHAM_SHOP,
+		count = slot4
+	}, 16202, function (slot0)
 		if slot0.result == 0 then
-			slot1 = {}
-			slot4.type = uv0.commodity_type
-			slot4.id = uv0.commodity_id
-			slot4.count = uv1 * uv0.num
-
-			table.insert(slot1, {})
+			table.insert(slot1, {
+				type = slot0.commodity_type,
+				id = slot0.commodity_id,
+				count = slot1 * slot0.num
+			})
 			_.each(slot1, function (slot0)
-				uv0:sendNotification(GAME.ADD_ITEM, Item.New(slot0))
+				slot0:sendNotification(GAME.ADD_ITEM, Item.New(slot0))
 			end)
 
-			slot2 = uv3:getShamShop()
+			slot2 = slot1:getShamShop()
+			slot3 = slot2:getGoodsById(slot4)
 
-			slot2:getGoodsById(uv4):addBuyCount(uv1)
-			uv3:updateShamShop(slot2)
-			reducePlayerOwn(uv0.resource_category, uv0.resource_type, uv0.resource_num * uv1)
-
-			slot7.awards = slot1
-
-			uv2:sendNotification(GAME.SHAM_SHOPPING_DONE, {})
+			slot3:addBuyCount(slot1)
+			slot3:updateShamShop(slot2)
+			reducePlayerOwn(slot0.resource_category, slot0.resource_type, slot0.resource_num * {})
+			slot2:sendNotification(GAME.SHAM_SHOPPING_DONE, {
+				awards = 
+			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
 		end

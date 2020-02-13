@@ -48,6 +48,8 @@ SFX_BOAT_LEVEL_UP = "event:/ui/level_up"
 SFX_BREAK_OUT_FULL = "event:/ui/break_out_full"
 SFX_AUTO_BATTLE = "event:/ui/auto_battle"
 SFX_STEP_MONOPOLY = "event:/ui/step"
+SFX_STEP_PILE_COUNTDOWN = "event:/ui/ddldaoshu2"
+SFX_STEP_PILE_SUCCESS = "event:/ui/ddlpengzhuang"
 ITEM_ID_CUBE = 20001
 ITEM_ID_SILVER_HOOK = 15001
 ITEM_ID_GOLD_HOOK = 15002
@@ -281,10 +283,12 @@ OPEN_REMASTER = true
 OPEN_AIR_DOMINANCE = true
 AUTO_LINKLINK = false
 PLAY_OPENING = true
-OP_VERSION = "20191226"
+OP_VERSION = "20200121"
 OPEN_TEC_TREE_SYSTEM = true
 SECRETARY_POS = true
 ADAPT_MIN = 1.8
 ADAPT_TARGET = 2
 ADAPT_NOTICE = 1.8
 LOCK_FRAGMENT_SHOP = false
+
+return

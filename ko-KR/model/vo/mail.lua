@@ -6,9 +6,8 @@ slot0.ATTACHMENT_TAKEN = 2
 function slot0.Ctor(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.date = slot1.date
-	slot2 = string.split(HXSet.hxLan(slot1.title), "||")
-	slot0.title = slot2[1]
-	slot0.sender = #slot2 > 1 and slot2[2] or i18n("mail_sender_default")
+	slot0.title = string.split(HXSet.hxLan(slot1.title), "||")[1]
+	slot0.sender = (#string.split(HXSet.hxLan(slot1.title), "||") > 1 and slot2[2]) or i18n("mail_sender_default")
 	slot0.readFlag = slot1.read_flag
 	slot0.attachFlag = slot1.attach_flag
 	slot0.importantFlag = slot1.imp_flag
@@ -35,9 +34,11 @@ function slot0.hasAttachmentsType(slot0, slot1)
 end
 
 function slot0.getAttatchmentsCount(slot0, slot1, slot2)
+	slot3 = 0
+
 	for slot7, slot8 in pairs(slot0.attachments) do
 		if slot1 == slot8.type and slot2 == slot8.id then
-			slot3 = 0 + slot8.count
+			slot3 = slot3 + slot8.count
 		end
 	end
 
@@ -46,7 +47,7 @@ end
 
 function slot0.sortByTime(slot0, slot1)
 	if slot0.readFlag == slot1.readFlag then
-		if (slot0.attachFlag == uv0.ATTACHMENT_EXIST and 1 or 0) == (slot1.attachFlag == uv0.ATTACHMENT_EXIST and 1 or 0) then
+		if ((slot0.attachFlag == slot0.ATTACHMENT_EXIST and 1) or 0) == ((slot1.attachFlag == slot0.ATTACHMENT_EXIST and 1) or 0) then
 			if slot0.date == slot1.date then
 				return slot1.id < slot0.id
 			else

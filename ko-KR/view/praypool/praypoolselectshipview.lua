@@ -9,17 +9,22 @@ function slot0.getUIName(slot0)
 	return "PrayPoolSelectShipView"
 end
 
-slot2.index = IndexConst.FlagRange2Bits(IndexConst.IndexAll, IndexConst.IndexOther)
-slot2.camp = IndexConst.FlagRange2Bits(IndexConst.CampAll, IndexConst.CampOther)
-slot2.rarity = IndexConst.FlagRange2Bits(IndexConst.RarityAll, IndexConst.Rarity4)
-slot1.display = {}
-slot3[1] = IndexConst.IndexAll
-slot1.index = IndexConst.Flags2Bits({})
-slot3[1] = IndexConst.CampAll
-slot1.camp = IndexConst.Flags2Bits({})
-slot3[1] = IndexConst.RarityAll
-slot1.rarity = IndexConst.Flags2Bits({})
-slot0.ShipIndex = {}
+slot0.ShipIndex = {
+	display = {
+		index = IndexConst.FlagRange2Bits(IndexConst.IndexAll, IndexConst.IndexOther),
+		camp = IndexConst.FlagRange2Bits(IndexConst.CampAll, IndexConst.CampOther),
+		rarity = IndexConst.FlagRange2Bits(IndexConst.RarityAll, IndexConst.Rarity4)
+	},
+	index = IndexConst.Flags2Bits({
+		IndexConst.IndexAll
+	}),
+	camp = IndexConst.Flags2Bits({
+		IndexConst.CampAll
+	}),
+	rarity = IndexConst.Flags2Bits({
+		IndexConst.RarityAll
+	})
+}
 
 function slot0.OnInit(slot0)
 	slot0:initData()
@@ -29,9 +34,11 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnDestroy(slot0)
+	return
 end
 
 function slot0.OnBackPress(slot0)
+	return
 end
 
 function slot0.initData(slot0)
@@ -51,9 +58,10 @@ function slot0.initUI(slot0)
 	slot0.shipCardTpl = slot0:findTF("ShipCardTpl")
 	slot0.selectedShipContainer = slot0:findTF("SelectedShipArea")
 	slot0.lightTF = slot0:findTF("Light", slot0.selectedShipContainer)
-	slot1[1] = slot0:findTF("Ship1", slot0.selectedShipContainer)
-	slot1[2] = slot0:findTF("Ship2", slot0.selectedShipContainer)
-	slot0.selectedShipTF = {}
+	slot0.selectedShipTF = {
+		slot0:findTF("Ship1", slot0.selectedShipContainer),
+		slot0:findTF("Ship2", slot0.selectedShipContainer)
+	}
 	slot0.shipListArea = slot0:findTF("ShipListArea")
 	slot0.shipListContainer = slot0:findTF("Viewport/Content", slot0.shipListArea)
 	slot0.shipListSC = GetComponent(slot0.shipListArea, "LScrollRect")
@@ -64,41 +72,41 @@ function slot0.initUI(slot0)
 	slot0.nextBtnCom.interactable = false
 
 	onButton(slot0, slot0.preBtn, function ()
-		uv0.prayProxy:updatePageState(PrayProxy.STATE_SELECT_POOL)
-		uv0:emit(PrayPoolConst.SWITCH_TO_SELECT_POOL_PAGE, PrayProxy.STATE_SELECT_POOL)
+		slot0.prayProxy:updatePageState(PrayProxy.STATE_SELECT_POOL)
+		slot0.prayProxy.updatePageState:emit(PrayPoolConst.SWITCH_TO_SELECT_POOL_PAGE, PrayProxy.STATE_SELECT_POOL)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.nextBtn, function ()
-		slot2.content = i18n("warning_pray_build_pool")
-
-		function slot2.onYes()
-			slot3.pooltype = uv0.prayProxy:getSelectedPoolType()
-			slot3.shipIDList = uv0.prayProxy:getSelectedShipIDList()
-
-			uv0:emit(PrayPoolConst.CLICK_BUILD_BTN, {})
-		end
-
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("warning_pray_build_pool"),
+			onYes = function ()
+				slot0:emit(PrayPoolConst.CLICK_BUILD_BTN, {
+					pooltype = slot0.prayProxy:getSelectedPoolType(),
+					shipIDList = slot0.prayProxy:getSelectedShipIDList()
+				})
+			end
+		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.indexBtn, function ()
-		slot4.display = Clone(uv0.ShipIndex.display)
-		slot4.index = uv0.ShipIndex.index
-		slot4.camp = uv0.ShipIndex.camp
-		slot4.rarity = uv0.ShipIndex.rarity
+		slot0 = Clone(slot0.ShipIndex.display)
 
-		function slot4.callback(slot0)
-			uv0.ShipIndex.index = slot0.index
+		slot0.ShipIndex.display:emit(PrayPoolConst.CLICK_INDEX_BTN, {
+			display = slot0,
+			index = slot0.ShipIndex.index,
+			camp = slot0.ShipIndex.camp,
+			rarity = slot0.ShipIndex.rarity,
+			callback = function (slot0)
+				slot0.ShipIndex.index = slot0.index
 
-			if slot0.camp then
-				uv0.ShipIndex.camp = slot0.camp
+				if slot0.camp then
+					slot0.ShipIndex.camp = slot0.camp
+				end
+
+				slot0.ShipIndex.rarity = slot0.rarity
+
+				slot0.ShipIndex:fliteShipIDList()
+				slot0.ShipIndex.fliteShipIDList:updateShipList(slot1.fliteList)
 			end
-
-			uv0.ShipIndex.rarity = slot0.rarity
-
-			uv1:fliteShipIDList()
-			uv1:updateShipList(uv1.fliteList)
-		end
-
-		uv1:emit(PrayPoolConst.CLICK_INDEX_BTN, {})
+		})
 	end)
 end
 
@@ -109,55 +117,51 @@ function slot0.updateUI(slot0)
 end
 
 function slot0.updateSelectedShipList(slot0)
+	slot1 = slot0.prayProxy:getSelectedShipIDList()
+
 	for slot5 = 1, 2, 1 do
-		slot7 = slot0.selectedShipTF[slot5]
 		slot8 = slot0:findTF("Paint", slot7)
-		slot10 = slot0:findTF("Info", slot7)
+		slot9 = slot0:findTF("Tip", slot7)
 		slot11 = slot0:findTF("Btn", slot7)
 		slot12 = slot0:findTF("Name/Text", slot10)
 		slot13 = slot0:findTF("RarityBG", slot7)
-		slot14 = slot0:findTF("Ratio/NumImg", slot10)
+		slot14 = slot0:findTF("Ratio/NumImg", slot0:findTF("Info", slot7))
 
-		if slot0.prayProxy:getSelectedShipIDList()[slot5] then
+		if slot1[slot5] then
 			setActive(slot8, true)
 			setPaintingPrefabAsync(slot8, Ship.getPaintingName(slot6), "biandui")
-			setActive(slot0:findTF("Tip", slot7), false)
+			setActive(slot9, false)
 			setActive(slot10, true)
-
-			slot15 = pg.ship_data_statistics[slot6].name
-
 			setText(slot12, slot15)
 
 			slot16 = slot12.localPosition
 
-			if #slot15 <= 6 then
-				slot10.sizeDelta = Vector2(uv0.WIDTH_MIN, slot10.sizeDelta.y)
-				GetComponent(slot12, "Text").fontSize = uv0.FONT_SIZE_MIN
+			if #pg.ship_data_statistics[slot6].name <= 6 then
+				slot10.sizeDelta = Vector2(slot0.WIDTH_MIN, slot10.sizeDelta.y)
+				GetComponent(slot12, "Text").fontSize = slot0.FONT_SIZE_MIN
 
 				setAnchoredPosition(slot12, {
 					y = 14
 				})
 			elseif slot17 <= 18 then
-				slot10.sizeDelta = Vector2(uv0.WIDTH_MAX, slot10.sizeDelta.y)
-				GetComponent(slot12, "Text").fontSize = uv0.FONT_SIZE_MID
+				slot10.sizeDelta = Vector2(slot0.WIDTH_MAX, slot10.sizeDelta.y)
+				GetComponent(slot12, "Text").fontSize = slot0.FONT_SIZE_MID
 
 				setAnchoredPosition(slot12, {
 					y = 19
 				})
 			elseif slot17 >= 21 then
-				slot10.sizeDelta = Vector2(uv0.WIDTH_MAX, slot10.sizeDelta.y)
-				GetComponent(slot12, "Text").fontSize = uv0.FONT_SIZE_MAX
+				slot10.sizeDelta = Vector2(slot0.WIDTH_MAX, slot10.sizeDelta.y)
+				GetComponent(slot12, "Text").fontSize = slot0.FONT_SIZE_MAX
 
 				setAnchoredPosition(slot12, {
 					y = 25
 				})
 			end
 
-			slot18 = pg.ship_data_statistics[slot6].rarity
-
 			setImageSprite(slot14, GetSpriteFromAtlas("ui/prayselectshippage_atlas", "ratio_" .. slot18), true)
 			setActive(slot13, true)
-			setImageSprite(slot13, GetSpriteFromAtlas("ui/prayselectshippage_atlas", "bg_rarity_" .. slot18))
+			setImageSprite(slot13, GetSpriteFromAtlas("ui/prayselectshippage_atlas", "bg_rarity_" .. pg.ship_data_statistics[slot6].rarity))
 		else
 			setActive(slot8, false)
 			setActive(slot9, true)
@@ -166,13 +170,13 @@ function slot0.updateSelectedShipList(slot0)
 		end
 
 		onButton(slot0, slot11, function ()
-			if isActive(uv0) then
-				uv1.prayProxy:removeSelectedShipIDList(uv2)
+			if isActive(isActive) then
+				slot1.prayProxy:removeSelectedShipIDList(slot2)
 
-				uv1.selectedCount = uv1.selectedCount - 1
+				slot1.prayProxy.selectedCount = slot1.prayProxy.selectedCount - 1
 
-				uv1:updateSelectedShipList()
-				uv1:updateShipList(uv1.fliteList)
+				slot1.prayProxy.selectedCount - 1:updateSelectedShipList()
+				slot1.prayProxy.selectedCount - 1:updateShipList(slot1.fliteList)
 			end
 		end, SFX_PANEL)
 	end
@@ -192,47 +196,44 @@ function slot0.updateShipList(slot0, slot1)
 	slot2 = slot0.prayProxy:getSelectedShipIDList()
 
 	function slot0.shipListSC.onUpdateItem(slot0, slot1)
-		slot2 = uv0[slot0 + 1]
+		GetImageSpriteFromAtlasAsync("SquareIcon/" .. Ship.getPaintingName(slot2), "", slot3)
+		setFrame(slot4, slot6)
+		setImageSprite(slot7, GetSpriteFromAtlas("weaponframes", "bg" .. slot6))
+		setText(slot9, shortenString(slot8, 6))
 
-		GetImageSpriteFromAtlasAsync("SquareIcon/" .. Ship.getPaintingName(slot2), "", uv1:findTF("BG/Icon", slot1))
+		slot10 = slot1:findTF("BG/SelectedImg", slot1)
 
-		slot6 = ShipRarity.Rarity2Print(pg.ship_data_statistics[slot2].rarity)
-
-		setFrame(uv1:findTF("BG/Frame", slot1), slot6)
-		setImageSprite(uv1:findTF("BG", slot1), GetSpriteFromAtlas("weaponframes", "bg" .. slot6))
-		setText(uv1:findTF("NameBG/NameText", slot1), shortenString(pg.ship_data_statistics[slot2].name, 6))
-
-		if table.indexof(uv2, slot2, 1) then
-			SetActive(uv1:findTF("BG/SelectedImg", slot1), true)
+		if table.indexof(slot0[slot0 + 1], , 1) then
+			SetActive(slot10, true)
 		else
 			SetActive(slot10, false)
 		end
 
-		onButton(uv1, slot1, function ()
-			if uv0.selectedCount < uv0.pickUpNum then
-				if isActive(uv1) then
-					uv0.prayProxy:removeSelectedShipIDList(uv2)
+		onButton(slot1, slot1, function ()
+			if slot0.selectedCount < slot0.pickUpNum then
+				if isActive(slot1) then
+					slot0.prayProxy:removeSelectedShipIDList(slot2)
 
-					uv0.selectedCount = uv0.selectedCount - 1
+					slot0.prayProxy.removeSelectedShipIDList.selectedCount = slot0.selectedCount - 1
 
-					SetActive(uv1, false)
-					uv0:updateSelectedShipList()
+					SetActive(slot0.selectedCount - 1, false)
+					SetActive:updateSelectedShipList()
 				else
-					uv0.prayProxy:insertSelectedShipIDList(uv2)
+					slot0.prayProxy:insertSelectedShipIDList(slot2)
 
-					uv0.selectedCount = uv0.selectedCount + 1
+					slot0.prayProxy.insertSelectedShipIDList.selectedCount = slot0.selectedCount + 1
 
-					SetActive(uv1, true)
-					uv0:updateSelectedShipList()
+					SetActive(slot0.selectedCount + 1, true)
+					SetActive:updateSelectedShipList()
 				end
-			elseif uv0.selectedCount == uv0.pickUpNum then
-				if isActive(uv1) then
-					uv0.prayProxy:removeSelectedShipIDList(uv2)
+			elseif slot0.selectedCount == slot0.pickUpNum then
+				if isActive(slot1) then
+					slot0.prayProxy:removeSelectedShipIDList(slot2)
 
-					uv0.selectedCount = uv0.selectedCount - 1
+					slot0.prayProxy.removeSelectedShipIDList.selectedCount = slot0.selectedCount - 1
 
-					SetActive(uv1, false)
-					uv0:updateSelectedShipList()
+					SetActive(slot0.selectedCount - 1, false)
+					SetActive:updateSelectedShipList()
 				else
 					pg.TipsMgr.GetInstance():ShowTips(i18n("error_pray_select_ship_max"))
 				end
@@ -241,6 +242,7 @@ function slot0.updateShipList(slot0, slot1)
 	end
 
 	function slot0.shipListSC.onReturnItem(slot0, slot1)
+		return
 	end
 
 	slot0.shipListSC:SetTotalCount(#slot1)
@@ -257,21 +259,18 @@ end
 
 function slot0.fliteShipIDList(slot0)
 	slot1 = {}
-	slot2 = slot0.prayProxy
 
-	if slot2:getSelectedShipIDList() and #slot2 > 0 then
+	if slot0.prayProxy:getSelectedShipIDList() and #slot2 > 0 then
 		for slot6, slot7 in ipairs(slot2) do
 			table.insert(slot1, 1, slot7)
 		end
 	end
 
 	for slot6, slot7 in ipairs(slot0.orderFullList) do
-		if not table.indexof(slot2, slot7, 1) then
-			slot10.id = math.modf(slot7 / 10)
-
-			if IndexConst.filterByIndex(ShipGroup.New({}), uv0.ShipIndex.index) and IndexConst.filterByRarity(slot9, uv0.ShipIndex.rarity) and IndexConst.filterByCamp(slot9, uv0.ShipIndex.camp) then
-				slot1[#slot1 + 1] = slot7
-			end
+		if not table.indexof(slot2, slot7, 1) and IndexConst.filterByIndex(ShipGroup.New({
+			id = math.modf(slot7 / 10)
+		}), slot0.ShipIndex.index) and IndexConst.filterByRarity(slot9, slot0.ShipIndex.rarity) and IndexConst.filterByCamp(slot9, slot0.ShipIndex.camp) then
+			slot1[#slot1 + 1] = slot7
 		end
 	end
 

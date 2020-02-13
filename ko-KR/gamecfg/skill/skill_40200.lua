@@ -1,14 +1,3 @@
-slot2.arg_list = {
-	buff_id = 40201
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillAddBuff",
-	target_choise = "TargetPlayerFlagShip"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "航母-航空-指挥II+航母-装填-指挥IV",
@@ -17,5 +6,16 @@ return {
 	aniEffect = "",
 	desc = "航母-航空-指挥II+航母-装填-指挥IV",
 	painting = 1,
-	id = 40110
+	id = 40110,
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetPlayerFlagShip",
+			arg_list = {
+				buff_id = 40201
+			}
+		}
+	}
 }

@@ -3,24 +3,24 @@ slot0.ON_UNLOCK = "MemoryBookMediator:ON_UNLOCK"
 slot0.EVENT_OPERATION = "MemoryBookMediator:EVENT_OPERATION"
 
 function slot0.register(slot0)
-	slot0:bind(uv0.ON_UNLOCK, function (slot0, slot1, slot2)
-		slot6.id = slot1
-		slot6.actId = slot2
-
-		uv0:sendNotification(GAME.MEMORYBOOK_UNLOCK, {})
+	slot0:bind(slot0.ON_UNLOCK, function (slot0, slot1, slot2)
+		slot0:sendNotification(GAME.MEMORYBOOK_UNLOCK, {
+			id = slot1,
+			actId = slot2
+		})
 	end)
-	slot0:bind(uv0.EVENT_OPERATION, function (slot0, slot1)
-		uv0:sendNotification(GAME.ACTIVITY_OPERATION, slot1)
+	slot0:bind(slot0.EVENT_OPERATION, function (slot0, slot1)
+		slot0:sendNotification(GAME.ACTIVITY_OPERATION, slot1)
 	end)
-	slot0.viewComponent:setActivity(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA))
+	slot0.viewComponent:setActivity(getProxy(ActivityProxy).getActivityByType(slot1, ActivityConst.ACTIVITY_TYPE_PUZZLA))
 end
 
 function slot0.listNotificationInterests(slot0)
-	slot1[1] = GAME.MEMORYBOOK_UNLOCK_DONE
-	slot1[2] = ActivityProxy.ACTIVITY_UPDATED
-	slot1[3] = ActivityProxy.ACTIVITY_SHOW_AWARDS
-
-	return {}
+	return {
+		GAME.MEMORYBOOK_UNLOCK_DONE,
+		ActivityProxy.ACTIVITY_UPDATED,
+		ActivityProxy.ACTIVITY_SHOW_AWARDS
+	}
 end
 
 function slot0.handleNotification(slot0, slot1)

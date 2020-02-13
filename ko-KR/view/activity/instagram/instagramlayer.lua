@@ -246,13 +246,20 @@ function slot1(slot0, slot1, slot2)
 			slot10 = slot10.UnityAction_UnityEngine_Sprite
 
 			function slot11(slot0)
-				slot1 = uv0
+				slot1 = slot0
 				slot1 = slot1.sprites
-				slot2 = uv1
+
+				if not slot1 then
+					return
+				end
+
+				slot1 = slot0
+				slot1 = slot1.sprites
+				slot2 = slot1
 				slot1[slot2] = slot0
-				slot1 = uv2
+				slot1 = slot2
 				slot1.sprite = slot0
-				slot1 = uv2
+				slot1 = slot2
 				slot2 = true
 				slot1.enabled = slot2
 			end
@@ -270,20 +277,20 @@ function slot1(slot0)
 	slot3 = slot0.closeBtn
 
 	function slot4()
-		slot0 = uv0
+		slot0 = slot0
 		slot0 = slot0.inDetail
 
 		if slot0 then
-			slot0 = uv0
+			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.ExitDetail
 
 			slot0(slot1)
 		else
-			slot0 = uv0
+			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.emit
-			slot2 = uv1
+			slot2 = slot1
 			slot2 = slot2.ON_CLOSE
 
 			slot0(slot1, slot2)
@@ -326,20 +333,20 @@ function slot1(slot0)
 	slot3 = slot0._tf
 
 	function slot4()
-		slot0 = uv0
+		slot0 = slot0
 		slot0 = slot0.inDetail
 
 		if slot0 then
-			slot0 = uv0
+			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.ExitDetail
 
 			slot0(slot1)
 		else
-			slot0 = uv0
+			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.emit
-			slot2 = uv1
+			slot2 = slot1
 			slot2 = slot2.ON_CLOSE
 
 			slot0(slot1, slot2)
@@ -358,17 +365,17 @@ function slot1(slot0)
 		slot1 = InstagramCard
 		slot1 = slot1.New
 		slot2 = slot0
-		slot3 = uv0
+		slot3 = slot0
 		slot1 = slot1(slot2, slot3)
 		slot2 = onButton
-		slot3 = uv0
+		slot3 = slot0
 		slot4 = slot1._go
 
 		function slot5()
-			slot0 = uv0
+			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.EnterDetail
-			slot2 = uv1
+			slot2 = slot1
 			slot2 = slot2.instagram
 
 			slot0(slot1, slot2)
@@ -378,7 +385,7 @@ function slot1(slot0)
 
 		slot2(slot3, slot4, slot5, slot6)
 
-		slot2 = uv0
+		slot2 = slot0
 		slot2 = slot2.cards
 		slot2[slot0] = slot1
 	end
@@ -387,7 +394,7 @@ function slot1(slot0)
 	slot1 = slot0.list
 
 	function slot2(slot0, slot1)
-		slot2 = uv0
+		slot2 = slot0
 		slot2 = slot2.cards
 		slot2 = slot2[slot1]
 
@@ -397,16 +404,16 @@ function slot1(slot0)
 			slot4 = slot1
 			slot3 = slot3(slot4)
 			slot2 = slot3
-			slot3 = uv0
+			slot3 = slot0
 			slot3 = slot3.cards
 			slot3[slot1] = slot2
 		end
 
-		slot3 = uv0
+		slot3 = slot0
 		slot3 = slot3.display
 		slot4 = slot0 + 1
 		slot3 = slot3[slot4]
-		slot4 = uv0
+		slot4 = slot0
 		slot4 = slot4.instagramVOById
 		slot5 = slot3.id
 		slot4 = slot4[slot5]
@@ -428,19 +435,16 @@ slot0.didEnter = slot1
 
 function slot1(slot0)
 	slot0.display = _.map(slot0.messages, function (slot0)
-		slot1.time = slot0.GetLasterUpdateTime(slot0)
-		slot1.id = slot0.id
-
-		return {}
+		return {
+			time = slot0:GetLasterUpdateTime(),
+			id = slot0.id
+		}
 	end)
 
 	table.sort(slot0.display, function (slot0, slot1)
 		return slot1.id < slot0.id
 	end)
-
-	slot1 = slot0.list
-
-	slot1.SetTotalCount(slot1, #slot0.display)
+	slot0.list:SetTotalCount(#slot0.display)
 	setActive(slot0.noMsgTF, #slot0.display == 0)
 end
 
@@ -608,12 +612,12 @@ function slot1(slot0)
 	slot4 = slot0.planeTF
 
 	function slot5()
-		slot0 = uv0
+		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.emit
 		slot2 = InstagramMediator
 		slot2 = slot2.ON_SHARE
-		slot3 = uv1
+		slot3 = slot1
 		slot3 = slot3.id
 
 		slot0(slot1, slot2, slot3)
@@ -661,13 +665,13 @@ function slot1(slot0)
 
 	function slot5(slot0)
 		if slot0 then
-			slot1 = uv0
+			slot1 = slot0
 			slot2 = slot1
 			slot1 = slot1.OpenCommentPanel
 
 			slot1(slot2)
 		else
-			slot1 = uv0
+			slot1 = slot0
 			slot2 = slot1
 			slot1 = slot1.CloseCommentPanel
 
@@ -705,12 +709,12 @@ function slot1(slot0)
 		slot5 = slot0.likeBtn
 
 		function slot6()
-			slot0 = uv0
+			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.emit
 			slot2 = InstagramMediator
 			slot2 = slot2.ON_LIKE
-			slot3 = uv1
+			slot3 = slot1
 			slot3 = slot3.id
 
 			slot0(slot1, slot2, slot3)
@@ -785,7 +789,7 @@ function slot1(slot0)
 		slot3 = slot3.EventUpdate
 
 		if slot0 == slot3 then
-			slot3 = uv0
+			slot3 = slot0
 			slot4 = slot1 + 1
 			slot3 = slot3[slot4]
 			slot5 = slot3
@@ -881,7 +885,7 @@ function slot1(slot0)
 
 			if slot4 then
 				slot6 = onToggle
-				slot7 = uv1
+				slot7 = slot1
 				slot9 = slot2
 				slot8 = slot2.Find
 				slot10 = "main/bubble"
@@ -889,7 +893,7 @@ function slot1(slot0)
 
 				function slot9(slot0)
 					slot1 = setActive
-					slot2 = uv0
+					slot2 = slot0
 					slot3 = slot2
 					slot2 = slot2.Find
 					slot4 = "replys"
@@ -903,7 +907,7 @@ function slot1(slot0)
 
 				slot6(slot7, slot8, slot9, slot10)
 
-				slot6 = uv1
+				slot6 = slot1
 				slot7 = slot6
 				slot6 = slot6.UpdateReplys
 				slot8 = slot2
@@ -985,16 +989,6 @@ function slot1(slot0, slot1, slot2)
 	slot4 = slot2
 	slot3 = slot2.GetCanDisplayReply
 	slot3, slot4 = slot3(slot4)
-	slot5 = table
-	slot5 = slot5.sort
-	slot6 = slot3
-
-	function slot7(slot0, slot1)
-		return slot0.time < slot1.time
-	end
-
-	slot5(slot6, slot7)
-
 	slot5 = UIItemList
 	slot5 = slot5.New
 	slot7 = slot1
@@ -1005,6 +999,30 @@ function slot1(slot0, slot1, slot2)
 	slot7 = slot1.Find
 	slot9 = "replys/sub"
 	slot5 = slot5(slot6, slot7(slot8, slot9))
+	slot6 = table
+	slot6 = slot6.sort
+	slot7 = slot3
+
+	function slot8(slot0, slot1)
+		slot2 = slot0.level
+		slot3 = slot1.level
+
+		if slot2 == slot3 then
+			slot2 = slot0.time
+			slot3 = slot1.time
+
+			if slot2 == slot3 then
+				return slot0.id < slot1.id
+			else
+				return slot0.time < slot1.time
+			end
+		else
+			return slot0.level < slot1.level
+		end
+	end
+
+	slot6(slot7, slot8)
+
 	slot7 = slot5
 	slot6 = slot5.make
 
@@ -1013,7 +1031,7 @@ function slot1(slot0, slot1, slot2)
 		slot3 = slot3.EventUpdate
 
 		if slot0 == slot3 then
-			slot3 = uv0
+			slot3 = slot0
 			slot4 = slot1 + 1
 			slot3 = slot3[slot4]
 			slot4 = setImageSprite
@@ -1110,13 +1128,13 @@ function slot1(slot0)
 
 		if slot0 == slot3 then
 			slot3 = slot1 + 1
-			slot4 = uv0
+			slot4 = slot0
 			slot4 = slot4[slot3]
 			slot4 = slot4.text
-			slot5 = uv0
+			slot5 = slot0
 			slot5 = slot5[slot3]
 			slot5 = slot5.id
-			slot6 = uv0
+			slot6 = slot0
 			slot6 = slot6[slot3]
 			slot6 = slot6.index
 			slot7 = setText
@@ -1131,23 +1149,23 @@ function slot1(slot0)
 			slot7(slot8, slot9(slot10))
 
 			slot7 = onButton
-			slot8 = uv1
+			slot8 = slot1
 			slot9 = slot2
 
 			function slot10()
-				slot0 = uv0
+				slot0 = slot0
 				slot1 = slot0
 				slot0 = slot0.emit
 				slot2 = InstagramMediator
 				slot2 = slot2.ON_COMMENT
-				slot3 = uv1
+				slot3 = slot1
 				slot3 = slot3.id
-				slot4 = uv2
-				slot5 = uv3
+				slot4 = slot2
+				slot5 = slot3
 
 				slot0(slot1, slot2, slot3, slot4, slot5)
 
-				slot0 = uv0
+				slot0 = slot0
 				slot1 = slot0
 				slot0 = slot0.CloseCommentPanel
 

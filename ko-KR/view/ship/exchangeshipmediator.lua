@@ -19,37 +19,37 @@ function slot0.register(slot0)
 		slot0.viewComponent:setExchangeItemList(slot6, slot5)
 	end
 
-	slot0.viewComponent:setItemVOs(getProxy(BagProxy):getItemById(ITEM_ID_SILVER_HOOK))
-	slot0:bind(uv0.GET_EXCHANGE_SHIPS, function (slot0, slot1)
-		slot5.time = slot1
-
-		uv0:sendNotification(GAME.GET_EXCHANGE_SHIPS, {})
+	slot0.viewComponent:setItemVOs(slot8)
+	slot0:bind(slot0.GET_EXCHANGE_SHIPS, function (slot0, slot1)
+		slot0:sendNotification(GAME.GET_EXCHANGE_SHIPS, {
+			time = slot1
+		})
 	end)
-	slot0:bind(uv0.SHIP_EXCHANGE, function (slot0, slot1)
-		slot5.index = slot1
-
-		uv0:sendNotification(GAME.EXCHANGE_SHIP, {})
+	slot0:bind(slot0.SHIP_EXCHANGE, function (slot0, slot1)
+		slot0:sendNotification(GAME.EXCHANGE_SHIP, {
+			index = slot1
+		})
 	end)
-	slot0:bind(uv0.GET_EXCHANGE_ITEMS, function (slot0)
-		uv0:sendNotification(GAME.GET_EXCHANGE_ITEMS, {
+	slot0:bind(slot0.GET_EXCHANGE_ITEMS, function (slot0)
+		slot0:sendNotification(GAME.GET_EXCHANGE_ITEMS, {
 			type = 0
 		})
 	end)
-	slot0:bind(uv0.ITEM_EXCHANGE, function (slot0, slot1)
-		slot5.index = slot1
-
-		uv0:sendNotification(GAME.EXCHANGE_ITEM, {})
+	slot0:bind(slot0.ITEM_EXCHANGE, function (slot0, slot1)
+		slot0:sendNotification(GAME.EXCHANGE_ITEM, {
+			index = slot1
+		})
 	end)
 end
 
 function slot0.listNotificationInterests(slot0)
-	slot1[1] = BuildShipProxy.EXCHANGE_LIST_UPDATED
-	slot1[2] = BuildShipProxy.EXCHANGE_SHIP_UPDATED
-	slot1[3] = BuildShipProxy.EXCHANGE_ITEM_LIST_UPDATED
-	slot1[4] = BagProxy.ITEM_UPDATED
-	slot1[5] = BuildShipProxy.EXCHANGE_ITEM_STATE_UPDATED
-
-	return {}
+	return {
+		BuildShipProxy.EXCHANGE_LIST_UPDATED,
+		BuildShipProxy.EXCHANGE_SHIP_UPDATED,
+		BuildShipProxy.EXCHANGE_ITEM_LIST_UPDATED,
+		BagProxy.ITEM_UPDATED,
+		BuildShipProxy.EXCHANGE_ITEM_STATE_UPDATED
+	}
 end
 
 function slot0.handleNotification(slot0, slot1)

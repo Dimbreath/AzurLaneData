@@ -53,51 +53,47 @@ function slot0.flush(slot0, slot1)
 
 	slot3:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setActive(slot2:Find("right"), slot1 % 2 == 0)
-			setActive(slot2:Find("bg/icon"), false)
-			setActive(slot2:Find("bg/lock"), false)
-			setActive(slot2:Find("bg/wait"), false)
-			setText(slot2:Find("bg/index"), slot1 + 1 < 10 and "0" .. slot1 + 1 or slot1 + 1)
+			slot3 = slot0.temp[slot1 + 1]
 
-			if not uv0.temp[slot1 + 1] then
+			setActive(slot2:Find("right"), slot1 % 2 == 0)
+			setActive(setActive, false)
+			setActive(slot2.Find("right"), false)
+			setActive(slot1 % 2 == 0, false)
+			setText(slot2:Find("bg/index"), (slot1 + 1 < 10 and "0" .. slot1 + 1) or slot1 + 1)
+
+			if not slot3 then
 				setActive(slot6, true)
-				onButton(uv0, slot6, function ()
+				onButton(slot0, slot6, function ()
 					pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_remaster_do_not_open"))
 				end, SFX_PANEL)
-			elseif uv1:GetServerTime() >= uv1:parseTimeFromConfig(slot3.time[2], true) then
-				if uv1:parseTimeFromConfig(slot3.time[3], true) < uv1:GetServerTime() then
-					setActive(slot5, true)
-					onButton(uv0, slot5, function ()
-						pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_remaster_do_not_open"))
-					end, SFX_PANEL)
-				else
-					setActive(slot4, true)
-					GetImageSpriteFromAtlasAsync("activitybanner/" .. slot3.bg, "", slot4)
-
-					slot7 = pg.memory_group[slot3.memory_group]
-					slot8 = #_.filter(slot7.memories, function (slot0)
-						return pg.StoryMgr.GetInstance():IsPlayed(pg.memory_template[slot0].story)
-					end) / #slot7.memories
-
-					setSlider(slot4:Find("progress"), 0, 1, slot8)
-					setText(slot4:Find("progress_text"), math.floor(slot8 * 100) .. "%")
-					onButton(uv0, slot4, function ()
-						uv0.onItem(uv1)
-					end, SFX_PANEL)
-				end
+			elseif slot1:GetServerTime() < slot1:parseTimeFromConfig(slot3.time[2], true) or slot1:parseTimeFromConfig(slot3.time[3], true) < slot1:GetServerTime() then
+				setActive(slot5, true)
+				onButton(slot0, slot5, function ()
+					pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_remaster_do_not_open"))
+				end, SFX_PANEL)
+			else
+				setActive(slot4, true)
+				GetImageSpriteFromAtlasAsync("activitybanner/" .. slot3.bg, "", slot4)
+				setSlider(slot4:Find("progress"), 0, 1, slot8)
+				setText(slot4:Find("progress_text"), math.floor(#_.filter(pg.memory_group[slot3.memory_group].memories, function (slot0)
+					return pg.StoryMgr.GetInstance():IsPlayed(pg.memory_template[slot0].story)
+				end) / #pg.memory_group[slot3.memory_group].memories * 100) .. "%")
+				onButton(slot0, slot4, function ()
+					slot0.onItem(slot1)
+				end, SFX_PANEL)
 			end
 		end
 	end)
 	slot3:align(math.ceil(#slot0.templates / 4) * 4)
 	setText(slot0.numsTxt, slot0.tickets .. "/" .. pg.gameset.reactivity_ticket_max.key_value)
 	onButton(slot0, slot0._tf, function ()
-		uv0.onCancel()
+		slot0.onCancel()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.helpBtn, function ()
-		slot2.type = MSGBOX_TYPE_HELP
-		slot2.helps = i18n("levelScene_remaster_help_tip")
-
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = i18n("levelScene_remaster_help_tip")
+		})
 	end, SFX_PANEL)
 
 	if getProxy(ChapterProxy).remasterDailyCount > 1 then
@@ -107,33 +103,31 @@ function slot0.flush(slot0, slot1)
 		SetActive(slot0.getRemasterTF, true)
 		SetActive(slot0.gotRemasterTF, false)
 		onButton(slot0, slot0.getRemasterTF, function ()
-			if pg.gameset.reactivity_ticket_max.key_value < uv0.remasterTickets + pg.gameset.reactivity_ticket_daily.key_value then
-				slot0.content = i18n("tack_tickets_max_warning", math.max(pg.gameset.reactivity_ticket_max.key_value - uv0.remasterTickets, 0))
-
-				function slot0.onYes()
-					uv0:emit(LevelMediator2.ON_CLICK_RECEIVE_REMASTER_TICKETS_BTN)
-				end
-
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+			if pg.gameset.reactivity_ticket_max.key_value < slot0.remasterTickets + pg.gameset.reactivity_ticket_daily.key_value then
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("tack_tickets_max_warning", math.max(pg.gameset.reactivity_ticket_max.key_value - slot0.remasterTickets, 0)),
+					onYes = function ()
+						slot0:emit(LevelMediator2.ON_CLICK_RECEIVE_REMASTER_TICKETS_BTN)
+					end
+				})
 
 				return
 			end
 
-			uv1:emit(LevelMediator2.ON_CLICK_RECEIVE_REMASTER_TICKETS_BTN)
+			slot1:emit(LevelMediator2.ON_CLICK_RECEIVE_REMASTER_TICKETS_BTN)
 		end, SFX_PANEL)
 	end
 
-	slot5[1] = slot0.exToggle
-	slot5[2] = slot0.spToggle
-
-	for slot9, slot10 in ipairs({}) do
+	for slot9, slot10 in ipairs(slot5) do
 		onToggle(slot0, slot10, function (slot0)
 			if slot0 then
-				uv0.temp = _.filter(uv0.templates, function (slot0)
-					return slot0.activity_type == uv0
+				slot0.temp = _.filter(slot0.templates, function (slot0)
+					return slot0.activity_type == slot0
 				end)
 
-				uv2:align(math.max(math.ceil(#uv0.temp / 4), 4))
+				_.filter(slot0.templates, function (slot0)
+					return slot0.activity_type == slot0
+				end):align(math.max(math.ceil(#slot0.temp / 4), 4))
 			end
 		end, SFX_PANEL)
 	end

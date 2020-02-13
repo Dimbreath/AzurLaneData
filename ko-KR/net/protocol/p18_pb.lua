@@ -97,8 +97,9 @@ CS_18001.name = "cs_18001"
 CS_18001.full_name = ".p18.cs_18001"
 CS_18001.nested_types = {}
 CS_18001.enum_types = {}
-slot61[1] = slot2
-CS_18001.fields = {}
+CS_18001.fields = {
+	slot2
+}
 CS_18001.is_extendable = false
 CS_18001.extensions = {}
 slot3.name = "score"
@@ -178,15 +179,16 @@ SC_18002.name = "sc_18002"
 SC_18002.full_name = ".p18.sc_18002"
 SC_18002.nested_types = {}
 SC_18002.enum_types = {}
-slot61[1] = slot3
-slot61[2] = slot4
-slot61[3] = slot5
-slot61[4] = slot6
-slot61[5] = slot7
-slot61[6] = slot8
-slot61[7] = slot9
-slot61[8] = slot10
-SC_18002.fields = {}
+SC_18002.fields = {
+	slot3,
+	slot4,
+	slot5,
+	slot6,
+	slot7,
+	slot8,
+	slot9,
+	slot10
+}
 SC_18002.is_extendable = false
 SC_18002.extensions = {}
 slot11.name = "type"
@@ -202,8 +204,9 @@ CS_18003.name = "cs_18003"
 CS_18003.full_name = ".p18.cs_18003"
 CS_18003.nested_types = {}
 CS_18003.enum_types = {}
-slot61[1] = slot11
-CS_18003.fields = {}
+CS_18003.fields = {
+	slot11
+}
 CS_18003.is_extendable = false
 CS_18003.extensions = {}
 slot12.name = "result"
@@ -229,9 +232,10 @@ SC_18004.name = "sc_18004"
 SC_18004.full_name = ".p18.sc_18004"
 SC_18004.nested_types = {}
 SC_18004.enum_types = {}
-slot61[1] = slot12
-slot61[2] = slot13
-SC_18004.fields = {}
+SC_18004.fields = {
+	slot12,
+	slot13
+}
 SC_18004.is_extendable = false
 SC_18004.extensions = {}
 slot14.name = "score"
@@ -266,10 +270,11 @@ SC_18005.name = "sc_18005"
 SC_18005.full_name = ".p18.sc_18005"
 SC_18005.nested_types = {}
 SC_18005.enum_types = {}
-slot61[1] = slot14
-slot61[2] = slot15
-slot61[3] = slot16
-SC_18005.fields = {}
+SC_18005.fields = {
+	slot14,
+	slot15,
+	slot16
+}
 SC_18005.is_extendable = false
 SC_18005.extensions = {}
 slot17.name = "type"
@@ -285,8 +290,9 @@ CS_18006.name = "cs_18006"
 CS_18006.full_name = ".p18.cs_18006"
 CS_18006.nested_types = {}
 CS_18006.enum_types = {}
-slot61[1] = slot17
-CS_18006.fields = {}
+CS_18006.fields = {
+	slot17
+}
 CS_18006.is_extendable = false
 CS_18006.extensions = {}
 slot18.name = "arena_rank_lsit"
@@ -303,8 +309,9 @@ SC_18007.name = "sc_18007"
 SC_18007.full_name = ".p18.sc_18007"
 SC_18007.nested_types = {}
 SC_18007.enum_types = {}
-slot61[1] = slot18
-SC_18007.fields = {}
+SC_18007.fields = {
+	slot18
+}
 SC_18007.is_extendable = false
 SC_18007.extensions = {}
 slot19.name = "vanguard_ship_id_list"
@@ -329,9 +336,10 @@ CS_18008.name = "cs_18008"
 CS_18008.full_name = ".p18.cs_18008"
 CS_18008.nested_types = {}
 CS_18008.enum_types = {}
-slot61[1] = slot19
-slot61[2] = slot20
-CS_18008.fields = {}
+CS_18008.fields = {
+	slot19,
+	slot20
+}
 CS_18008.is_extendable = false
 CS_18008.extensions = {}
 slot21.name = "result"
@@ -347,8 +355,9 @@ SC_18009.name = "sc_18009"
 SC_18009.full_name = ".p18.sc_18009"
 SC_18009.nested_types = {}
 SC_18009.enum_types = {}
-slot61[1] = slot21
-SC_18009.fields = {}
+SC_18009.fields = {
+	slot21
+}
 SC_18009.is_extendable = false
 SC_18009.extensions = {}
 slot22.name = "type"
@@ -364,8 +373,9 @@ CS_18100.name = "cs_18100"
 CS_18100.full_name = ".p18.cs_18100"
 CS_18100.nested_types = {}
 CS_18100.enum_types = {}
-slot61[1] = slot22
-CS_18100.fields = {}
+CS_18100.fields = {
+	slot22
+}
 CS_18100.is_extendable = false
 CS_18100.extensions = {}
 slot23.name = "flash_count"
@@ -400,10 +410,11 @@ SC_18101.name = "sc_18101"
 SC_18101.full_name = ".p18.sc_18101"
 SC_18101.nested_types = {}
 SC_18101.enum_types = {}
-slot61[1] = slot23
-slot61[2] = slot24
-slot61[3] = slot25
-SC_18101.fields = {}
+SC_18101.fields = {
+	slot23,
+	slot24,
+	slot25
+}
 SC_18101.is_extendable = false
 SC_18101.extensions = {}
 slot26.name = "type"
@@ -419,8 +430,9 @@ CS_18102.name = "cs_18102"
 CS_18102.full_name = ".p18.cs_18102"
 CS_18102.nested_types = {}
 CS_18102.enum_types = {}
-slot61[1] = slot26
-CS_18102.fields = {}
+CS_18102.fields = {
+	slot26
+}
 CS_18102.is_extendable = false
 CS_18102.extensions = {}
 slot27.name = "result"
@@ -446,9 +458,10 @@ SC_18103.name = "sc_18103"
 SC_18103.full_name = ".p18.sc_18103"
 SC_18103.nested_types = {}
 SC_18103.enum_types = {}
-slot61[1] = slot27
-slot61[2] = slot28
-SC_18103.fields = {}
+SC_18103.fields = {
+	slot27,
+	slot28
+}
 SC_18103.is_extendable = false
 SC_18103.extensions = {}
 slot29.name = "id"
@@ -464,8 +477,9 @@ CS_18104.name = "cs_18104"
 CS_18104.full_name = ".p18.cs_18104"
 CS_18104.nested_types = {}
 CS_18104.enum_types = {}
-slot61[1] = slot29
-CS_18104.fields = {}
+CS_18104.fields = {
+	slot29
+}
 CS_18104.is_extendable = false
 CS_18104.extensions = {}
 slot30.name = "info"
@@ -482,8 +496,9 @@ SC_18105.name = "sc_18105"
 SC_18105.full_name = ".p18.sc_18105"
 SC_18105.nested_types = {}
 SC_18105.enum_types = {}
-slot61[1] = slot30
-SC_18105.fields = {}
+SC_18105.fields = {
+	slot30
+}
 SC_18105.is_extendable = false
 SC_18105.extensions = {}
 slot31.name = "page"
@@ -517,10 +532,11 @@ CS_18201.name = "cs_18201"
 CS_18201.full_name = ".p18.cs_18201"
 CS_18201.nested_types = {}
 CS_18201.enum_types = {}
-slot61[1] = slot31
-slot61[2] = slot32
-slot61[3] = slot33
-CS_18201.fields = {}
+CS_18201.fields = {
+	slot31,
+	slot32,
+	slot33
+}
 CS_18201.is_extendable = false
 CS_18201.extensions = {}
 slot34.name = "list"
@@ -537,8 +553,9 @@ SC_18202.name = "sc_18202"
 SC_18202.full_name = ".p18.sc_18202"
 SC_18202.nested_types = {}
 SC_18202.enum_types = {}
-slot61[1] = slot34
-SC_18202.fields = {}
+SC_18202.fields = {
+	slot34
+}
 SC_18202.is_extendable = false
 SC_18202.extensions = {}
 slot35.name = "type"
@@ -563,9 +580,10 @@ CS_18203.name = "cs_18203"
 CS_18203.full_name = ".p18.cs_18203"
 CS_18203.nested_types = {}
 CS_18203.enum_types = {}
-slot61[1] = slot35
-slot61[2] = slot36
-CS_18203.fields = {}
+CS_18203.fields = {
+	slot35,
+	slot36
+}
 CS_18203.is_extendable = false
 CS_18203.extensions = {}
 slot37.name = "point"
@@ -590,9 +608,10 @@ SC_18204.name = "sc_18204"
 SC_18204.full_name = ".p18.sc_18204"
 SC_18204.nested_types = {}
 SC_18204.enum_types = {}
-slot61[1] = slot37
-slot61[2] = slot38
-SC_18204.fields = {}
+SC_18204.fields = {
+	slot37,
+	slot38
+}
 SC_18204.is_extendable = false
 SC_18204.extensions = {}
 slot39.name = "id"
@@ -674,15 +693,16 @@ TARGETINFO.name = "targetinfo"
 TARGETINFO.full_name = ".p18.targetinfo"
 TARGETINFO.nested_types = {}
 TARGETINFO.enum_types = {}
-slot61[1] = slot39
-slot61[2] = slot40
-slot61[3] = slot41
-slot61[4] = slot42
-slot61[5] = slot43
-slot61[6] = slot44
-slot61[7] = slot45
-slot61[8] = slot46
-TARGETINFO.fields = {}
+TARGETINFO.fields = {
+	slot39,
+	slot40,
+	slot41,
+	slot42,
+	slot43,
+	slot44,
+	slot45,
+	slot46
+}
 TARGETINFO.is_extendable = false
 TARGETINFO.extensions = {}
 slot47.name = "id"
@@ -735,12 +755,13 @@ ARENARANK.name = "arenarank"
 ARENARANK.full_name = ".p18.arenarank"
 ARENARANK.nested_types = {}
 ARENARANK.enum_types = {}
-slot61[1] = slot47
-slot61[2] = slot48
-slot61[3] = slot49
-slot61[4] = slot50
-slot61[5] = slot51
-ARENARANK.fields = {}
+ARENARANK.fields = {
+	slot47,
+	slot48,
+	slot49,
+	slot50,
+	slot51
+}
 ARENARANK.is_extendable = false
 ARENARANK.extensions = {}
 slot52.name = "shop_id"
@@ -765,9 +786,10 @@ ARENASHOP.name = "arenashop"
 ARENASHOP.full_name = ".p18.arenashop"
 ARENASHOP.nested_types = {}
 ARENASHOP.enum_types = {}
-slot61[1] = slot52
-slot61[2] = slot53
-ARENASHOP.fields = {}
+ARENASHOP.fields = {
+	slot52,
+	slot53
+}
 ARENASHOP.is_extendable = false
 ARENASHOP.extensions = {}
 slot54.name = "user_id"
@@ -829,13 +851,14 @@ RANK_INFO.name = "rank_info"
 RANK_INFO.full_name = ".p18.rank_info"
 RANK_INFO.nested_types = {}
 RANK_INFO.enum_types = {}
-slot61[1] = slot54
-slot61[2] = slot55
-slot61[3] = slot56
-slot61[4] = slot57
-slot61[5] = slot58
-slot61[6] = slot59
-RANK_INFO.fields = {}
+RANK_INFO.fields = {
+	slot54,
+	slot55,
+	slot56,
+	slot57,
+	slot58,
+	slot59
+}
 RANK_INFO.is_extendable = false
 RANK_INFO.extensions = {}
 arenarank = slot0.Message(ARENARANK)
@@ -861,3 +884,5 @@ sc_18105 = slot0.Message(SC_18105)
 sc_18202 = slot0.Message(SC_18202)
 sc_18204 = slot0.Message(SC_18204)
 targetinfo = slot0.Message(TARGETINFO)
+
+return

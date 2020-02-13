@@ -1,16 +1,3 @@
-slot2.trigger = {
-	"onAttach"
-}
-slot2.arg_list = {
-	ability = "tactic",
-	convertRate = 0.4,
-	convertAttr = "cannonPower"
-}
-slot1[1] = {
-	type = "BattleBuffAddAttrRatioCommander"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "",
@@ -21,5 +8,18 @@ return {
 	stack = 1,
 	color = "yellow",
 	icon = 40050,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddAttrRatioCommander",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				ability = "tactic",
+				convertRate = 0.4,
+				convertAttr = "cannonPower"
+			}
+		}
+	}
 }

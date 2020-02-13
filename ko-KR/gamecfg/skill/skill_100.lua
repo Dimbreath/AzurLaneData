@@ -1,14 +1,3 @@
-slot2.arg_list = {
-	buff_id = 101
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillAddBuff",
-	target_choise = "TargetPlayerVanguardFleet"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "单纵阵突入",
@@ -17,5 +6,16 @@ return {
 	aniEffect = "",
 	desc = "单纵阵突入",
 	painting = 0,
-	id = 100
+	id = 100,
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetPlayerVanguardFleet",
+			arg_list = {
+				buff_id = 101
+			}
+		}
+	}
 }

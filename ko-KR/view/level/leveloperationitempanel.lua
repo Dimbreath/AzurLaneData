@@ -1,7 +1,7 @@
 slot0 = class("LevelOperationItemPanel", import("..base.BasePanel"))
 
 function slot0.init(slot0)
-	uv0.super.init(slot0)
+	slot0.super.init(slot0)
 
 	slot0.operationButton = slot0:findTF("panel/operation_button")
 	slot0.toggleMask = slot0:findTF("operation_mask")
@@ -15,10 +15,8 @@ function slot0.init(slot0)
 	setText(slot0.buttonCount, "")
 
 	for slot4 = 0, slot0.toggleList.childCount - 1, 1 do
-		slot5 = slot0.toggleList:Find("item" .. slot4 + 1)
-
 		setActive(slot5, false)
-		table.insert(slot0.toggles, slot5)
+		table.insert(slot0.toggles, slot0.toggleList:Find("item" .. slot4 + 1))
 	end
 
 	setActive(slot0.toggleMask, false)
@@ -33,34 +31,39 @@ function slot0.configCallback(slot0, slot1)
 	slot0._callback = slot1
 
 	onButton(slot0, slot0.operationButton, function ()
-		uv0:showToggleMask()
+		slot0:showToggleMask()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.toggleMask, function ()
-		uv0:hideToggleMask()
+		slot0:hideToggleMask()
 	end)
 	slot0:setButtonView(PlayerPrefs.GetInt("extraOperationItemID", 0))
 end
 
 function slot0.showToggleMask(slot0)
 	setActive(slot0.toggleMask, true)
+
+	slot1 = slot0.chapter:getOperationList()
+
 	onButton(slot0, slot0.cancelBtn, function ()
-		uv0._callback(0)
-		uv0:hideToggleMask()
-		uv0:setButtonView(0)
+		slot0._callback(0)
+		slot0._callback:hideToggleMask()
+		slot0._callback.hideToggleMask:setButtonView(0)
 	end)
 
-	for slot6, slot7 in pairs(slot0.itemList) do
-		slot8 = slot0.toggles[0 + 1]
+	slot2 = 0
 
+	for slot6, slot7 in pairs(slot0.itemList) do
 		setActive(slot8, true)
 
-		if table.contains(slot0.chapter:getOperationList(), slot6) then
-			setActive(slot8:Find("lock"), false)
+		slot9 = slot0.toggles[slot2 + 1].Find(slot8, "lock")
+
+		if table.contains(slot1, slot6) then
+			setActive(slot9, false)
 			setButtonEnabled(slot8, true)
 			onButton(slot0, slot8, function ()
-				uv0._callback(uv1)
-				uv0:hideToggleMask()
-				uv0:setButtonView(uv1)
+				slot0._callback(slot1)
+				slot0._callback:hideToggleMask()
+				slot0._callback.hideToggleMask:setButtonView(slot0._callback.hideToggleMask)
 			end, SFX_PANEL)
 		else
 			setActive(slot9, true)

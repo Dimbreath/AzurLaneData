@@ -1,15 +1,3 @@
-slot2.trigger = {
-	"onAllInStrike"
-}
-slot2.arg_list = {
-	buff_id = 6350,
-	quota = 1
-}
-slot1[1] = {
-	type = "BattleBuffAddBuff"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "TBD(VT-8)",
@@ -20,5 +8,17 @@ return {
 	stack = 1,
 	color = "yellow",
 	icon = 6320,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onAllInStrike"
+			},
+			arg_list = {
+				buff_id = 6350,
+				quota = 1
+			}
+		}
+	}
 }

@@ -1,26 +1,3 @@
-slot2.trigger = {
-	"onUpdate"
-}
-slot2.arg_list = {
-	skill_id = 42,
-	target = "TargetSelf",
-	time = 30
-}
-slot1[1] = {
-	type = "BattleBuffCastSkill"
-}
-slot2.trigger = {
-	"onUpdate"
-}
-slot2.arg_list = {
-	count = 0,
-	delay = 31
-}
-slot1[2] = {
-	type = "BattleBuffCancelBuff"
-}
-slot0.effect_list = {}
-
 return {
 	desc_get = "战斗开始30秒后触发游刃有余效果，随后每15秒触发1次，最多可叠加5次",
 	name = "游刃有余",
@@ -32,5 +9,28 @@ return {
 	stack = 1,
 	color = "red",
 	icon = 42,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onUpdate"
+			},
+			arg_list = {
+				skill_id = 42,
+				target = "TargetSelf",
+				time = 30
+			}
+		},
+		{
+			type = "BattleBuffCancelBuff",
+			trigger = {
+				"onUpdate"
+			},
+			arg_list = {
+				count = 0,
+				delay = 31
+			}
+		}
+	}
 }

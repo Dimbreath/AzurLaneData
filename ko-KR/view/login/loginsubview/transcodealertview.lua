@@ -5,6 +5,7 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.OnLoaded(slot0)
+	return
 end
 
 function slot0.SetShareData(slot0, slot1)
@@ -24,22 +25,24 @@ end
 
 function slot0.InitEvent(slot0)
 	onButton(slot0, slot0.tcSureBtn, function ()
-		if uv0.uidTxt.text == "" or uv0.transcodeTxt.text == "" then
-			slot4.content = i18n("transcode_empty_tip")
+		slot1 = slot0.transcodeTxt.text
 
+		if slot0.uidTxt.text == "" or slot1 == "" then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				hideNo = true
+				hideNo = true,
+				content = i18n("transcode_empty_tip")
 			})
 		else
 			pg.SdkMgr.GetInstance():LoginWithTranscode(slot0, slot1)
 		end
 	end)
 	onButton(slot0, slot0.transcodeAlert, function ()
-		uv0:Hide()
+		slot0:Hide()
 	end)
 end
 
 function slot0.OnDestroy(slot0)
+	return
 end
 
 return slot0
