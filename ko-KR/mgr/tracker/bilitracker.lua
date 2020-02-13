@@ -1,6 +1,7 @@
 slot0 = class("BiliTracker")
 
 function slot0.Ctor(slot0, slot1)
+	return
 end
 
 function slot0.Tracking(slot0, slot1, slot2, slot3)

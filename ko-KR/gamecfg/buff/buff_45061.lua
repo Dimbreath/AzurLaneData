@@ -1,19 +1,3 @@
-slot2.trigger = {
-	"onBulletCreate",
-	"onStack"
-}
-slot3.index = {
-	2
-}
-slot2.arg_list = {
-	number = 0.03,
-	attr = "cri"
-}
-slot1[1] = {
-	type = "BattleBuffAddBulletAttr"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "指挥喵天赋-水雷魂",
@@ -23,5 +7,21 @@ return {
 	stack = 2,
 	id = 45061,
 	icon = 45060,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddBulletAttr",
+			trigger = {
+				"onBulletCreate",
+				"onStack"
+			},
+			arg_list = {
+				number = 0.03,
+				attr = "cri",
+				index = {
+					2
+				}
+			}
+		}
+	}
 }

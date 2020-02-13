@@ -14,13 +14,13 @@ function slot0.UpdateList(slot0)
 			slot4 = nil
 
 			if slot1 + 1 <= 3 then
-				slot4 = uv0.topThree[slot3]
+				slot4 = slot0.topThree[slot3]
 			else
-				uv0.index = uv0.index + 1
-				slot4 = uv0.list[uv0.index]
+				slot0.index = slot0.index + 1
+				slot4 = slot0.list[slot0.index]
 			end
 
-			uv0:UpdateVoteShipItem(slot2, slot4)
+			slot0:UpdateVoteShipItem(slot2, slot4)
 		end
 	end)
 	slot0.uilist:align(#slot0.list + #slot0.topThree)
@@ -41,6 +41,7 @@ function slot0.UpdateVoteShipItem(slot0, slot1, slot2)
 end
 
 function slot0.OnDestroy(slot0)
+	return
 end
 
 return slot0

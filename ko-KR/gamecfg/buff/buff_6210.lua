@@ -1,18 +1,3 @@
-slot2.trigger = {
-	"onStartGame"
-}
-slot3.group = {
-	id = 6210,
-	level = 2
-}
-slot2.arg_list = {
-	skill_id = 6210
-}
-slot1[1] = {
-	type = "BattleBuffCastSkill"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "超重弹",
@@ -23,5 +8,20 @@ return {
 	stack = 1,
 	color = "yellow",
 	icon = 6210,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onStartGame"
+			},
+			arg_list = {
+				skill_id = 6210,
+				group = {
+					id = 6210,
+					level = 2
+				}
+			}
+		}
+	}
 }

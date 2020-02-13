@@ -39,23 +39,25 @@ function slot0.Type2Name(slot0)
 	return i18n("attribute_" .. slot0)
 end
 
-slot1.level = i18n("elite_condition_level")
-slot1.durability = i18n("elite_condition_durability")
-slot1.cannon = i18n("elite_condition_cannon")
-slot1.torpedo = i18n("elite_condition_torpedo")
-slot1.antiaircraft = i18n("elite_condition_antiaircraft")
-slot1.air = i18n("elite_condition_air")
-slot1.antisub = i18n("elite_condition_antisub")
-slot1.dodge = i18n("elite_condition_dodge")
-slot1.reload = i18n("elite_condition_reload")
-slot0.eliteCondition = {}
-slot1[-1] = i18n("common_compare_smaller")
-slot1[0] = i18n("common_compare_equal")
-slot1[1] = i18n("common_compare_larger")
-slot0.eliteConditionCompare = {}
+slot0.eliteCondition = {
+	level = i18n("elite_condition_level"),
+	durability = i18n("elite_condition_durability"),
+	cannon = i18n("elite_condition_cannon"),
+	torpedo = i18n("elite_condition_torpedo"),
+	antiaircraft = i18n("elite_condition_antiaircraft"),
+	air = i18n("elite_condition_air"),
+	antisub = i18n("elite_condition_antisub"),
+	dodge = i18n("elite_condition_dodge"),
+	reload = i18n("elite_condition_reload")
+}
+slot0.eliteConditionCompare = {
+	[0] = i18n("common_compare_equal"),
+	i18n("common_compare_larger"),
+	[-1] = i18n("common_compare_smaller")
+}
 
 function slot0.EliteCondition2Name(slot0)
-	return uv0.eliteCondition[slot0]
+	return slot0.eliteCondition[slot0]
 end
 
 return slot0

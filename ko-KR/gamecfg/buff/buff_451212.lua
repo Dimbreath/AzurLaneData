@@ -1,14 +1,3 @@
-slot2.trigger = {
-	"onSubmarineAid"
-}
-slot2.arg_list = {
-	skill_id = 451210
-}
-slot1[1] = {
-	type = "BattleBuffCastSkill"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "潜艇-指挥-雷击I",
@@ -19,5 +8,16 @@ return {
 	stack = 1,
 	color = "yellow",
 	icon = 451210,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onSubmarineAid"
+			},
+			arg_list = {
+				skill_id = 451210
+			}
+		}
+	}
 }

@@ -1,46 +1,45 @@
 ys = ys or {}
-slot0 = ys
-slot1 = slot0.Battle.BattleDataFunction
-slot2 = slot0.Battle.BattleConst
-slot3 = slot0.Battle.BattleFormulas
-slot4 = slot0.Battle.BattleAttr
-slot5 = slot0.Battle.BattleConfig
-slot6 = slot0.Battle.BattleUnitEvent
-slot7 = slot0.Battle.UnitState
-slot8 = class("BattleEnemyUnit", slot0.Battle.BattleUnit)
-slot0.Battle.BattleEnemyUnit = slot8
+slot1 = ys.Battle.BattleDataFunction
+slot2 = ys.Battle.BattleConst
+slot3 = ys.Battle.BattleFormulas
+slot4 = ys.Battle.BattleAttr
+slot5 = ys.Battle.BattleConfig
+slot6 = ys.Battle.BattleUnitEvent
+slot7 = ys.Battle.UnitState
+slot8 = class("BattleEnemyUnit", ys.Battle.BattleUnit)
+ys.Battle.BattleEnemyUnit = slot8
 slot8.__name = "BattleEnemyUnit"
 
 function slot8.Ctor(slot0, slot1, slot2)
-	uv0.super.Ctor(slot0, slot1, slot2)
+	slot0.super.Ctor(slot0, slot1, slot2)
 
-	slot0._type = uv1.UnitType.ENEMY_UNIT
+	slot0._type = slot1.UnitType.ENEMY_UNIT
 	slot0._level = slot0._battleProxy:GetDungeonLevel()
 end
 
 function slot8.SetBound(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
-	uv0.super.SetBound(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+	slot0.super.SetBound(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 
 	slot0._weaponRightBound = slot4
 	slot0._weaponLowerBound = slot2
 end
 
 function slot8.UpdateAction(slot0)
-	if slot0._oxyState and slot0._oxyState:GetCurrentDiveState() == uv0.OXY_STATE.DIVE then
+	if slot0._oxyState and slot0._oxyState:GetCurrentDiveState() == slot0.OXY_STATE.DIVE then
 		if slot0:GetSpeed().x > 0 then
-			slot0._unitState:ChangeState(uv1.STATE_DIVELEFT)
+			slot0._unitState:ChangeState(slot1.STATE_DIVELEFT)
 		else
-			slot0._unitState:ChangeState(uv1.STATE_DIVE)
+			slot0._unitState:ChangeState(slot1.STATE_DIVE)
 		end
 	elseif slot0:GetSpeed().x > 0 then
-		slot0._unitState:ChangeState(uv1.STATE_MOVELEFT)
+		slot0._unitState:ChangeState(slot1.STATE_MOVELEFT)
 	else
-		slot0._unitState:ChangeState(uv1.STATE_MOVE)
+		slot0._unitState:ChangeState(slot1.STATE_MOVE)
 	end
 end
 
 function slot8.UpdateHP(slot0, slot1, slot2, slot3, slot4)
-	uv0.super.UpdateHP(slot0, slot1, slot2, slot3, slot4)
+	slot0.super.UpdateHP(slot0, slot1, slot2, slot3, slot4)
 
 	if slot0._phaseSwitcher then
 		slot0._phaseSwitcher:UpdateHP(slot0:GetHPRate())
@@ -48,16 +47,19 @@ function slot8.UpdateHP(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot8.SetTemplate(slot0, slot1, slot2)
-	uv0.super.SetTemplate(slot0, slot1)
+	slot0.super.SetTemplate(slot0, slot1)
 
-	slot0._tmpData = uv1.GetMonsterTmpDataFromID(slot0._tmpID)
+	slot0._tmpData = slot1.GetMonsterTmpDataFromID(slot0._tmpID)
 
 	slot0:configWeaponQueueParallel()
 	slot0:InitCldComponent()
 	slot0:SetAttr()
 
-	for slot7, slot8 in pairs(slot2 or {}) do
-		slot0:GetExtraInfo()[slot7] = slot8
+	slot2 = slot2 or {}
+	slot3 = slot0:GetExtraInfo()
+
+	for slot7, slot8 in pairs(slot2) do
+		slot3[slot7] = slot8
 	end
 
 	slot0:setStandardLabelTag()
@@ -82,9 +84,9 @@ function slot8.SetAttr(slot0)
 		slot1 = slot0._battleProxy:GetRepressLevel()
 	end
 
-	uv0.SetEnemyAttr(slot0, slot1)
-	uv0.InitDOTAttr(slot0._attr, slot0._tmpData)
-	uv0.SetCurrent(slot0, "srcShipType", slot0._tmpData.type)
+	slot0:SetEnemyAttr(slot1)
+	slot0.InitDOTAttr(slot0._attr, slot0._tmpData)
+	slot0:SetCurrent("srcShipType", slot0._tmpData.type)
 end
 
 function slot8.GetTemplate(slot0)
@@ -108,19 +110,18 @@ function slot8.GetWaveIndex(slot0)
 end
 
 function slot8.IsShowHPBar(slot0)
-	return slot0._IFF ~= uv0.FRIENDLY_CODE
+	return slot0._IFF ~= slot0.FRIENDLY_CODE
 end
 
 function slot8.InitCldComponent(slot0)
-	uv0.super.InitCldComponent(slot0)
-
-	slot1.type = uv1.CldType.SHIP
-	slot1.IFF = slot0:GetIFF()
-	slot1.UID = slot0:GetUniqueID()
-	slot1.Mass = uv1.CldMass.L1
-	slot1.IsBoss = slot0._isBoss
-
-	slot0._cldComponent:SetCldData({})
+	slot0.super.InitCldComponent(slot0)
+	slot0._cldComponent:SetCldData({
+		type = slot1.CldType.SHIP,
+		IFF = slot0:GetIFF(),
+		UID = slot0:GetUniqueID(),
+		Mass = slot1.CldMass.L1,
+		IsBoss = slot0._isBoss
+	})
 
 	if slot0:GetTemplate().friendly_cld ~= 0 then
 		slot0._cldComponent:ActiveFriendlyCld()
@@ -132,3 +133,5 @@ function slot8.ConfigBubbleFX(slot0)
 
 	slot0._oxyState:SetBubbleTemplate(slot0._tmpData.bubble_initial, slot0._tmpData.bubble_interval)
 end
+
+return

@@ -1,14 +1,3 @@
-slot2.trigger = {
-	"onAttach"
-}
-slot2.arg_list = {
-	skill_id = 12435
-}
-slot1[1] = {
-	type = "BattleBuffCastSkill"
-}
-slot0.effect_list = {}
-
 return {
 	time = 4,
 	name = "",
@@ -19,5 +8,16 @@ return {
 	stack = 1,
 	color = "red",
 	icon = 12430,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				skill_id = 12435
+			}
+		}
+	}
 }

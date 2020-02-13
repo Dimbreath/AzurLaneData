@@ -20,30 +20,32 @@ end
 function slot0.init(slot0)
 	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back_btn")
 	slot0.blurPanel = slot0:findTF("blur_panel")
-	slot1[1] = slot0:findTF("adapt/left_length/frame/tagRoot/iconframe", slot0.blurPanel)
-	slot1[2] = slot0:findTF("adapt/left_length/frame/tagRoot/chatframe", slot0.blurPanel)
-	slot1[MULTRES] = slot0:findTF("adapt/left_length/frame/tagRoot/achievement", slot0.blurPanel)
-	slot0.toggles = {}
-	slot1[1] = AttireIconFramePanel.New(slot0._tf, slot0.event, slot0.contextData)
-	slot1[2] = AttireChatFramePanel.New(slot0._tf, slot0.event, slot0.contextData)
-	slot1[MULTRES] = AttireAchievementPanel.New(slot0._tf, slot0.event, slot0.contextData)
-	slot0.panels = {}
+	slot0.toggles = {
+		slot0:findTF("adapt/left_length/frame/tagRoot/iconframe", slot0.blurPanel),
+		slot0:findTF("adapt/left_length/frame/tagRoot/chatframe", slot0.blurPanel),
+		slot0:findTF("adapt/left_length/frame/tagRoot/achievement", slot0.blurPanel)
+	}
+	slot0.panels = {
+		AttireIconFramePanel.New(slot0._tf, slot0.event, slot0.contextData),
+		AttireChatFramePanel.New(slot0._tf, slot0.event, slot0.contextData),
+		AttireAchievementPanel.New(slot0._tf, slot0.event, slot0.contextData)
+	}
 end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.backBtn, function ()
-		uv0:emit(uv1.ON_BACK)
+		slot0:emit(slot1.ON_BACK)
 	end, SOUND_BACK)
 
 	for slot4, slot5 in ipairs(slot0.toggles) do
 		onToggle(slot0, slot5, function (slot0)
 			if slot0 then
-				uv0:switchPage(uv1)
+				slot0:switchPage(slot0.switchPage)
 			end
 		end, SFX_PANEL)
 	end
 
-	triggerToggle(slot0.toggles[slot0.contextData.index or uv0.PAGE_ICONFRAME], true)
+	triggerToggle(slot0.toggles[slot0.contextData.index or slot0.PAGE_ICONFRAME], true)
 end
 
 function slot0.switchPage(slot0, slot1)
@@ -56,22 +58,22 @@ function slot0.switchPage(slot0, slot1)
 	slot0.page = slot1
 
 	slot0:updateCurrPage(function ()
-		uv0:ActionInvoke("Show")
+		slot0:ActionInvoke("Show")
 	end)
 end
 
 function slot0.updateCurrPage(slot0, slot1)
-	slot2 = slot0.panels[slot0.page]
+	function slot3()
+		slot0:ActionInvoke("Update", slot1.rawAttireVOs, slot1.playerVO)
 
-	if not slot2:GetLoaded() then
+		if "Update" then
+			slot2()
+		end
+	end
+
+	if not slot0.panels[slot0.page]:GetLoaded() then
 		slot2:Load()
-		slot2:AddLoadedCallback(function ()
-			uv0:ActionInvoke("Update", uv1.rawAttireVOs, uv1.playerVO)
-
-			if uv2 then
-				uv2()
-			end
-		end)
+		slot2:AddLoadedCallback(slot3)
 	else
 		slot3()
 	end

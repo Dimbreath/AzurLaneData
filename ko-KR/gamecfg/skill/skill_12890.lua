@@ -1,14 +1,3 @@
-slot2.arg_list = {
-	buff_id = 12894
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillAddBuff",
-	target_choise = "TargetSelf"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "",
@@ -18,5 +7,16 @@ return {
 	desc = "",
 	painting = 0,
 	id = 12890,
-	castCV = ""
+	castCV = "",
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
+			arg_list = {
+				buff_id = 12894
+			}
+		}
+	}
 }

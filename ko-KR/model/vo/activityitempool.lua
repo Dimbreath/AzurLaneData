@@ -14,22 +14,20 @@ function slot0.bindConfigTable(slot0)
 end
 
 function slot0.getComsume(slot0)
-	slot4.type = slot0:getConfig("resource_category")
-	slot4.id = slot0:getConfig("resource_type")
-	slot4.count = slot0:getConfig("resource_num")
-
-	return {}
+	return {
+		type = slot0:getConfig("resource_category"),
+		id = slot0:getConfig("resource_type"),
+		count = slot0:getConfig("resource_num")
+	}
 end
 
 function slot0.enoughResForUsage(slot0, slot1)
 	if slot0:getComsume().type == DROP_TYPE_RESOURCE then
-		if getProxy(PlayerProxy):getData():getResById(slot2.id) < slot2.count * slot1 then
+		if getProxy(PlayerProxy):getData().getResById(slot3, slot2.id) < slot2.count * slot1 then
 			return false
 		end
-	elseif slot2.type == DROP_TYPE_ITEM then
-		if getProxy(BagProxy):getItemCountById(slot2.id) < slot2.count * slot1 then
-			return false
-		end
+	elseif slot2.type == DROP_TYPE_ITEM and getProxy(BagProxy):getItemCountById(slot2.id) < slot2.count * slot1 then
+		return false
 	end
 
 	return true
@@ -59,20 +57,19 @@ function slot0.filterItems(slot0, slot1)
 	slot2 = slot0:getConfig("main_item")
 
 	return _.map(_.select(slot0:getConfig("item_list"), function (slot0)
-		if uv0 then
-			return table.contains(uv1, slot0[1])
+		if slot0 then
+			return table.contains(table.contains, slot0[1])
 		else
-			return not table.contains(uv1, slot0[1])
+			return not table.contains(table.contains, slot0[1])
 		end
 	end), function (slot0)
-		slot1 = uv0[slot0[1]]
-		slot3.id = slot1.commodity_id
-		slot3.type = slot1.resource_category
-		slot3.count = slot1.num
-		slot3.surplus = slot0[2] - (uv1.awards[slot0[1]] or 0)
-		slot3.total = slot0[2]
-
-		return {}
+		return {
+			id = slot1.commodity_id,
+			type = slot1.resource_category,
+			count = slot1.num,
+			surplus = slot0[2] - (slot1.awards[slot0[1]] or 0),
+			total = slot0[2]
+		}
 	end)
 end
 

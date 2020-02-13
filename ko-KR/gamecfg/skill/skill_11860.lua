@@ -1,33 +1,3 @@
-slot1.offset = {
-	0,
-	-2,
-	0
-}
-slot0.aniEffect = {
-	effect = "jineng"
-}
-slot2.arg_list = {
-	buff_id = 11862,
-	shipType = 6
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillAddBuff",
-	target_choise = "TargetPlayerByType"
-}
-slot2.arg_list = {
-	buff_id = 11862,
-	shipType = 7
-}
-slot1[2] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillAddBuff",
-	target_choise = "TargetPlayerByType"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "苍狼之印",
@@ -36,5 +6,35 @@ return {
 	desc = "苍狼之印",
 	painting = 1,
 	id = 11860,
-	castCV = "skill"
+	castCV = "skill",
+	aniEffect = {
+		effect = "jineng",
+		offset = {
+			0,
+			-2,
+			0
+		}
+	},
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetPlayerByType",
+			arg_list = {
+				buff_id = 11862,
+				shipType = 6
+			}
+		},
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetPlayerByType",
+			arg_list = {
+				buff_id = 11862,
+				shipType = 7
+			}
+		}
+	}
 }

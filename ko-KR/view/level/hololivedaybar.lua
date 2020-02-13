@@ -9,15 +9,15 @@ function slot0.OnInit(slot0)
 	slot0.animEvent = slot0._go:GetComponent(typeof(DftAniEvent))
 
 	slot0.animEvent:SetEndEvent(function ()
-		uv0:Hide()
+		slot0:Hide()
 	end)
 end
 
 function slot0.OnShow(slot0)
-	slot4.weight = LayerWeightConst.THIRD_LAYER
-	slot4.groupName = LayerWeightConst.GROUP_LEVELUI
-
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {})
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
+		weight = LayerWeightConst.THIRD_LAYER,
+		groupName = LayerWeightConst.GROUP_LEVELUI
+	})
 end
 
 function slot0.OnHide(slot0)

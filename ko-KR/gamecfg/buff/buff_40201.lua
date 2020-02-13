@@ -1,16 +1,3 @@
-slot2.trigger = {
-	"onAttach"
-}
-slot2.arg_list = {
-	ability = "tactic",
-	convertRate = -0.0002,
-	convertAttr = "injureRatio"
-}
-slot1[1] = {
-	type = "BattleBuffAddAttrCommander"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "与主力舰队交战时，旗舰受到伤害降低，依据战术属性",
@@ -21,5 +8,18 @@ return {
 	stack = 1,
 	color = "yellow",
 	icon = 40200,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddAttrCommander",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				ability = "tactic",
+				convertRate = -0.0002,
+				convertAttr = "injureRatio"
+			}
+		}
+	}
 }

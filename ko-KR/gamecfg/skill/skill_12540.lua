@@ -1,23 +1,3 @@
-slot1.offset = {
-	0,
-	-2,
-	0
-}
-slot0.aniEffect = {
-	effect = "jineng"
-}
-slot2.arg_list = {
-	buff_id = 12541,
-	nationality = 1
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillAddBuff",
-	target_choise = "TargetNationalityFriendly"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "我是NO.2！",
@@ -26,5 +6,25 @@ return {
 	desc = "我是NO.2！",
 	painting = 1,
 	id = 12450,
-	castCV = "skill"
+	castCV = "skill",
+	aniEffect = {
+		effect = "jineng",
+		offset = {
+			0,
+			-2,
+			0
+		}
+	},
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetNationalityFriendly",
+			arg_list = {
+				buff_id = 12541,
+				nationality = 1
+			}
+		}
+	}
 }

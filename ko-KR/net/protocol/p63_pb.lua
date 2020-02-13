@@ -97,9 +97,10 @@ SC_63000.name = "sc_63000"
 SC_63000.full_name = ".p63.sc_63000"
 SC_63000.nested_types = {}
 SC_63000.enum_types = {}
-slot49[1] = slot2
-slot49[2] = slot3
-SC_63000.fields = {}
+SC_63000.fields = {
+	slot2,
+	slot3
+}
 SC_63000.is_extendable = false
 SC_63000.extensions = {}
 slot4.name = "tech_id"
@@ -124,9 +125,10 @@ CS_63001.name = "cs_63001"
 CS_63001.full_name = ".p63.cs_63001"
 CS_63001.nested_types = {}
 CS_63001.enum_types = {}
-slot49[1] = slot4
-slot49[2] = slot5
-CS_63001.fields = {}
+CS_63001.fields = {
+	slot4,
+	slot5
+}
 CS_63001.is_extendable = false
 CS_63001.extensions = {}
 slot6.name = "result"
@@ -142,8 +144,9 @@ SC_63002.name = "sc_63002"
 SC_63002.full_name = ".p63.sc_63002"
 SC_63002.nested_types = {}
 SC_63002.enum_types = {}
-slot49[1] = slot6
-SC_63002.fields = {}
+SC_63002.fields = {
+	slot6
+}
 SC_63002.is_extendable = false
 SC_63002.extensions = {}
 slot7.name = "tech_id"
@@ -168,9 +171,10 @@ CS_63003.name = "cs_63003"
 CS_63003.full_name = ".p63.cs_63003"
 CS_63003.nested_types = {}
 CS_63003.enum_types = {}
-slot49[1] = slot7
-slot49[2] = slot8
-CS_63003.fields = {}
+CS_63003.fields = {
+	slot7,
+	slot8
+}
 CS_63003.is_extendable = false
 CS_63003.extensions = {}
 slot9.name = "result"
@@ -216,11 +220,12 @@ SC_63004.name = "sc_63004"
 SC_63004.full_name = ".p63.sc_63004"
 SC_63004.nested_types = {}
 SC_63004.enum_types = {}
-slot49[1] = slot9
-slot49[2] = slot10
-slot49[3] = slot11
-slot49[4] = slot12
-SC_63004.fields = {}
+SC_63004.fields = {
+	slot9,
+	slot10,
+	slot11,
+	slot12
+}
 SC_63004.is_extendable = false
 SC_63004.extensions = {}
 slot13.name = "tech_id"
@@ -245,9 +250,10 @@ CS_63005.name = "cs_63005"
 CS_63005.full_name = ".p63.cs_63005"
 CS_63005.nested_types = {}
 CS_63005.enum_types = {}
-slot49[1] = slot13
-slot49[2] = slot14
-CS_63005.fields = {}
+CS_63005.fields = {
+	slot13,
+	slot14
+}
 CS_63005.is_extendable = false
 CS_63005.extensions = {}
 slot15.name = "result"
@@ -263,8 +269,9 @@ SC_63006.name = "sc_63006"
 SC_63006.full_name = ".p63.sc_63006"
 SC_63006.nested_types = {}
 SC_63006.enum_types = {}
-slot49[1] = slot15
-SC_63006.fields = {}
+SC_63006.fields = {
+	slot15
+}
 SC_63006.is_extendable = false
 SC_63006.extensions = {}
 slot16.name = "type"
@@ -280,8 +287,9 @@ CS_63007.name = "cs_63007"
 CS_63007.full_name = ".p63.cs_63007"
 CS_63007.nested_types = {}
 CS_63007.enum_types = {}
-slot49[1] = slot16
-CS_63007.fields = {}
+CS_63007.fields = {
+	slot16
+}
 CS_63007.is_extendable = false
 CS_63007.extensions = {}
 slot17.name = "result"
@@ -307,9 +315,10 @@ SC_63008.name = "sc_63008"
 SC_63008.full_name = ".p63.sc_63008"
 SC_63008.nested_types = {}
 SC_63008.enum_types = {}
-slot49[1] = slot17
-slot49[2] = slot18
-SC_63008.fields = {}
+SC_63008.fields = {
+	slot17,
+	slot18
+}
 SC_63008.is_extendable = false
 SC_63008.extensions = {}
 slot19.name = "id"
@@ -334,9 +343,10 @@ CS_63009.name = "cs_63009"
 CS_63009.full_name = ".p63.cs_63009"
 CS_63009.nested_types = {}
 CS_63009.enum_types = {}
-slot49[1] = slot19
-slot49[2] = slot20
-CS_63009.fields = {}
+CS_63009.fields = {
+	slot19,
+	slot20
+}
 CS_63009.is_extendable = false
 CS_63009.extensions = {}
 slot21.name = "result"
@@ -352,8 +362,9 @@ SC_63010.name = "sc_63010"
 SC_63010.full_name = ".p63.sc_63010"
 SC_63010.nested_types = {}
 SC_63010.enum_types = {}
-slot49[1] = slot21
-SC_63010.fields = {}
+SC_63010.fields = {
+	slot21
+}
 SC_63010.is_extendable = false
 SC_63010.extensions = {}
 slot22.name = "id"
@@ -388,10 +399,11 @@ TECHNOLOGYREFRESH.name = "technologyrefresh"
 TECHNOLOGYREFRESH.full_name = ".p63.technologyrefresh"
 TECHNOLOGYREFRESH.nested_types = {}
 TECHNOLOGYREFRESH.enum_types = {}
-slot49[1] = slot22
-slot49[2] = slot23
-slot49[3] = slot24
-TECHNOLOGYREFRESH.fields = {}
+TECHNOLOGYREFRESH.fields = {
+	slot22,
+	slot23,
+	slot24
+}
 TECHNOLOGYREFRESH.is_extendable = false
 TECHNOLOGYREFRESH.extensions = {}
 slot25.name = "id"
@@ -416,9 +428,10 @@ TECHNOLOGYINFO.name = "technologyinfo"
 TECHNOLOGYINFO.full_name = ".p63.technologyinfo"
 TECHNOLOGYINFO.nested_types = {}
 TECHNOLOGYINFO.enum_types = {}
-slot49[1] = slot25
-slot49[2] = slot26
-TECHNOLOGYINFO.fields = {}
+TECHNOLOGYINFO.fields = {
+	slot25,
+	slot26
+}
 TECHNOLOGYINFO.is_extendable = false
 TECHNOLOGYINFO.extensions = {}
 slot27.name = "blueprint_list"
@@ -444,9 +457,10 @@ SC_63100.name = "sc_63100"
 SC_63100.full_name = ".p63.sc_63100"
 SC_63100.nested_types = {}
 SC_63100.enum_types = {}
-slot49[1] = slot27
-slot49[2] = slot28
-SC_63100.fields = {}
+SC_63100.fields = {
+	slot27,
+	slot28
+}
 SC_63100.is_extendable = false
 SC_63100.extensions = {}
 slot29.name = "blueprint_id"
@@ -462,8 +476,9 @@ CS_63200.name = "cs_63200"
 CS_63200.full_name = ".p63.cs_63200"
 CS_63200.nested_types = {}
 CS_63200.enum_types = {}
-slot49[1] = slot29
-CS_63200.fields = {}
+CS_63200.fields = {
+	slot29
+}
 CS_63200.is_extendable = false
 CS_63200.extensions = {}
 slot30.name = "result"
@@ -488,9 +503,10 @@ SC_63201.name = "sc_63201"
 SC_63201.full_name = ".p63.sc_63201"
 SC_63201.nested_types = {}
 SC_63201.enum_types = {}
-slot49[1] = slot30
-slot49[2] = slot31
-SC_63201.fields = {}
+SC_63201.fields = {
+	slot30,
+	slot31
+}
 SC_63201.is_extendable = false
 SC_63201.extensions = {}
 slot32.name = "blueprint_id"
@@ -506,8 +522,9 @@ CS_63202.name = "cs_63202"
 CS_63202.full_name = ".p63.cs_63202"
 CS_63202.nested_types = {}
 CS_63202.enum_types = {}
-slot49[1] = slot32
-CS_63202.fields = {}
+CS_63202.fields = {
+	slot32
+}
 CS_63202.is_extendable = false
 CS_63202.extensions = {}
 slot33.name = "result"
@@ -533,9 +550,10 @@ SC_63203.name = "sc_63203"
 SC_63203.full_name = ".p63.sc_63203"
 SC_63203.nested_types = {}
 SC_63203.enum_types = {}
-slot49[1] = slot33
-slot49[2] = slot34
-SC_63203.fields = {}
+SC_63203.fields = {
+	slot33,
+	slot34
+}
 SC_63203.is_extendable = false
 SC_63203.extensions = {}
 slot35.name = "ship_id"
@@ -560,9 +578,10 @@ CS_63204.name = "cs_63204"
 CS_63204.full_name = ".p63.cs_63204"
 CS_63204.nested_types = {}
 CS_63204.enum_types = {}
-slot49[1] = slot35
-slot49[2] = slot36
-CS_63204.fields = {}
+CS_63204.fields = {
+	slot35,
+	slot36
+}
 CS_63204.is_extendable = false
 CS_63204.extensions = {}
 slot37.name = "result"
@@ -578,8 +597,9 @@ SC_63205.name = "sc_63205"
 SC_63205.full_name = ".p63.sc_63205"
 SC_63205.nested_types = {}
 SC_63205.enum_types = {}
-slot49[1] = slot37
-SC_63205.fields = {}
+SC_63205.fields = {
+	slot37
+}
 SC_63205.is_extendable = false
 SC_63205.extensions = {}
 slot38.name = "blueprint_id"
@@ -595,8 +615,9 @@ CS_63206.name = "cs_63206"
 CS_63206.full_name = ".p63.cs_63206"
 CS_63206.nested_types = {}
 CS_63206.enum_types = {}
-slot49[1] = slot38
-CS_63206.fields = {}
+CS_63206.fields = {
+	slot38
+}
 CS_63206.is_extendable = false
 CS_63206.extensions = {}
 slot39.name = "result"
@@ -612,8 +633,9 @@ SC_63207.name = "sc_63207"
 SC_63207.full_name = ".p63.sc_63207"
 SC_63207.nested_types = {}
 SC_63207.enum_types = {}
-slot49[1] = slot39
-SC_63207.fields = {}
+SC_63207.fields = {
+	slot39
+}
 SC_63207.is_extendable = false
 SC_63207.extensions = {}
 slot40.name = "blueprint_id"
@@ -629,8 +651,9 @@ CS_63208.name = "cs_63208"
 CS_63208.full_name = ".p63.cs_63208"
 CS_63208.nested_types = {}
 CS_63208.enum_types = {}
-slot49[1] = slot40
-CS_63208.fields = {}
+CS_63208.fields = {
+	slot40
+}
 CS_63208.is_extendable = false
 CS_63208.extensions = {}
 slot41.name = "result"
@@ -646,8 +669,9 @@ SC_63209.name = "sc_63209"
 SC_63209.full_name = ".p63.sc_63209"
 SC_63209.nested_types = {}
 SC_63209.enum_types = {}
-slot49[1] = slot41
-SC_63209.fields = {}
+SC_63209.fields = {
+	slot41
+}
 SC_63209.is_extendable = false
 SC_63209.extensions = {}
 slot42.name = "id"
@@ -708,13 +732,14 @@ BLUPRINTINFO.name = "bluprintinfo"
 BLUPRINTINFO.full_name = ".p63.bluprintinfo"
 BLUPRINTINFO.nested_types = {}
 BLUPRINTINFO.enum_types = {}
-slot49[1] = slot42
-slot49[2] = slot43
-slot49[3] = slot44
-slot49[4] = slot45
-slot49[5] = slot46
-slot49[6] = slot47
-BLUPRINTINFO.fields = {}
+BLUPRINTINFO.fields = {
+	slot42,
+	slot43,
+	slot44,
+	slot45,
+	slot46,
+	slot47
+}
 BLUPRINTINFO.is_extendable = false
 BLUPRINTINFO.extensions = {}
 bluprintinfo = slot0.Message(BLUPRINTINFO)
@@ -742,3 +767,5 @@ sc_63207 = slot0.Message(SC_63207)
 sc_63209 = slot0.Message(SC_63209)
 technologyinfo = slot0.Message(TECHNOLOGYINFO)
 technologyrefresh = slot0.Message(TECHNOLOGYREFRESH)
+
+return

@@ -1,38 +1,3 @@
-slot2.trigger = {
-	"onAttach",
-	"onRemove"
-}
-slot2.arg_list = {
-	add = 0,
-	mul = -8000
-}
-slot1[1] = {
-	type = "BattleBuffFixVelocity"
-}
-slot2.trigger = {
-	"onUpdate"
-}
-slot2.arg_list = {
-	quota = 4,
-	target = "TargetSelf",
-	time = 0.4,
-	skill_id = 12581
-}
-slot1[2] = {
-	type = "BattleBuffCastSkill"
-}
-slot2.trigger = {
-	"onRemove"
-}
-slot3.buff_id_list = {
-	12586
-}
-slot2.arg_list = {}
-slot1[3] = {
-	type = "BattleBuffCleanse"
-}
-slot0.effect_list = {}
-
 return {
 	time = 2.5,
 	name = "减速",
@@ -42,5 +7,41 @@ return {
 	stack = 1,
 	id = 12585,
 	icon = 12585,
-	last_effect = "Darkness"
+	last_effect = "Darkness",
+	effect_list = {
+		{
+			type = "BattleBuffFixVelocity",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				add = 0,
+				mul = -8000
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onUpdate"
+			},
+			arg_list = {
+				quota = 4,
+				target = "TargetSelf",
+				time = 0.4,
+				skill_id = 12581
+			}
+		},
+		{
+			type = "BattleBuffCleanse",
+			trigger = {
+				"onRemove"
+			},
+			arg_list = {
+				buff_id_list = {
+					12586
+				}
+			}
+		}
+	}
 }

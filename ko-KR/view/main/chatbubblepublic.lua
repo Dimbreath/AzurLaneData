@@ -2,8 +2,7 @@ slot0 = class("ChatBubblePublic")
 
 function slot0.Ctor(slot0, slot1)
 	slot0.tf = tf(slot1)
-	slot2 = findTF(slot0.tf, "text")
-	slot0.richText = slot2:GetComponent("RichText")
+	slot0.richText = findTF(slot0.tf, "text"):GetComponent("RichText")
 
 	if not IsNil(findTF(slot0.tf, "channel")) then
 		slot0.channel = slot2:GetComponent("Image")
@@ -20,7 +19,7 @@ function slot0.update(slot0, slot1)
 
 	ChatProxy.InjectPublic(slot0.richText, slot1)
 	slot0.richText:AddListener(function (slot0, slot1)
-		uv0:clickItem(slot0, uv1.args[tonumber(slot1)])
+		slot0:clickItem(slot0, slot1.args[tonumber(slot1)])
 	end)
 
 	if slot0.channel then

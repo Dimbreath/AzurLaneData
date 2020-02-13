@@ -1,62 +1,77 @@
 ys = ys or {}
-slot0 = ys
-slot0.Battle.DeadState = class("DeadState", slot0.Battle.IUnitState)
-slot0.Battle.DeadState.__name = "DeadState"
-slot1 = slot0.Battle.DeadState
+ys.Battle.DeadState = class("DeadState", ys.Battle.IUnitState)
+ys.Battle.DeadState.__name = "DeadState"
 
-function slot1.Ctor(slot0)
-	uv0.super.Ctor()
+function ys.Battle.DeadState.Ctor(slot0)
+	slot0.super.Ctor()
 end
 
-function slot1.AddIdleState(slot0, slot1, slot2)
+function ys.Battle.DeadState.AddIdleState(slot0, slot1, slot2)
+	return
 end
 
-function slot1.AddMoveState(slot0, slot1, slot2)
+function ys.Battle.DeadState.AddMoveState(slot0, slot1, slot2)
+	return
 end
 
-function slot1.AddMoveLeftState(slot0, slot1, slot2)
+function ys.Battle.DeadState.AddMoveLeftState(slot0, slot1, slot2)
+	return
 end
 
-function slot1.AddAttackState(slot0, slot1, slot2)
+function ys.Battle.DeadState.AddAttackState(slot0, slot1, slot2)
+	return
 end
 
-function slot1.AddDeadState(slot0, slot1, slot2)
+function ys.Battle.DeadState.AddDeadState(slot0, slot1, slot2)
+	return
 end
 
-function slot1.AddSkillState(slot0, slot1, slot2)
+function ys.Battle.DeadState.AddSkillState(slot0, slot1, slot2)
+	return
 end
 
-function slot1.AddSpellState(slot0, slot1, slot2)
+function ys.Battle.DeadState.AddSpellState(slot0, slot1, slot2)
+	return
 end
 
-function slot1.AddVictoryState(slot0, slot1, slot2)
+function ys.Battle.DeadState.AddVictoryState(slot0, slot1, slot2)
+	return
 end
 
-function slot1.AddStandState(slot0, slot1, slot2)
+function ys.Battle.DeadState.AddStandState(slot0, slot1, slot2)
+	return
 end
 
-function slot1.AddDiveState(slot0, slot1, slot2)
+function ys.Battle.DeadState.AddDiveState(slot0, slot1, slot2)
+	return
 end
 
-function slot1.AddDiveLeftState(slot0, slot1, slot2)
+function ys.Battle.DeadState.AddDiveLeftState(slot0, slot1, slot2)
+	return
 end
 
-function slot1.AddInterruptState(slot0, slot1, slot2)
+function ys.Battle.DeadState.AddInterruptState(slot0, slot1, slot2)
+	return
 end
 
-function slot1.AddDivingState(slot0, slot1, slot2)
+function ys.Battle.DeadState.AddDivingState(slot0, slot1, slot2)
+	return
 end
 
-function slot1.OnTrigger(slot0, slot1)
+function ys.Battle.DeadState.OnTrigger(slot0, slot1)
+	return
 end
 
-function slot1.OnStart(slot0, slot1)
+function ys.Battle.DeadState.OnStart(slot0, slot1)
+	return
 end
 
-function slot1.OnEnd(slot0, slot1)
+function ys.Battle.DeadState.OnEnd(slot0, slot1)
 	slot1:GetTarget():SendDeadEvent()
 end
 
-function slot1.CacheWeapon(slot0)
+function ys.Battle.DeadState.CacheWeapon(slot0)
 	return true
 end
+
+return

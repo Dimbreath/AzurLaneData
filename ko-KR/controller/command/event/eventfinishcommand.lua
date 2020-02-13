@@ -1,6 +1,4 @@
-slot0 = class("EventFinishCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("EventFinishCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.callback
 	slot5 = slot2.onConfirm
@@ -27,9 +25,9 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
-	slot10.id = slot3
-
-	pg.ConnectionMgr.GetInstance():Send(13005, {}, 13006, function (slot0)
+	pg.ConnectionMgr.GetInstance():Send(13005, {
+		id = slot3
+	}, 13006, function (slot0)
 		if slot0.result == 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("event_finish_success"))
 
@@ -40,7 +38,7 @@ function slot0.execute(slot0, slot1)
 			if slot0.exp > 0 then
 				slot4 = getProxy(BayProxy)
 
-				for slot9, slot10 in ipairs(slot1:findInfoById(uv0).shipIds) do
+				for slot9, slot10 in ipairs(slot5) do
 					if slot4:getShipById(slot10) then
 						slot12 = Clone(slot11)
 
@@ -55,12 +53,14 @@ function slot0.execute(slot0, slot1)
 			slot4 = {}
 
 			for slot8, slot9 in ipairs(slot0.drop_list) do
-				slot10.type = slot9.type
-				slot10.id = slot9.id
-				slot10.count = slot9.num
+				slot10 = {
+					type = slot9.type,
+					id = slot9.id,
+					count = slot9.num
+				}
 
 				if slot9.type ~= DROP_TYPE_SHIP then
-					uv1:sendNotification(GAME.ADD_ITEM, Item.New({}))
+					slot1:sendNotification(GAME.ADD_ITEM, Item.New(slot10))
 				end
 
 				table.insert(slot4, slot10)
@@ -72,37 +72,36 @@ function slot0.execute(slot0, slot1)
 
 			slot5:updatePlayer(slot6)
 
-			slot7, slot11 = slot1:findInfoById(uv0)
+			slot7, slot11 = slot1:findInfoById(slot0)
 
 			table.remove(slot1.eventList, slot8)
 			_.each(slot0.new_collection, function (slot0)
-				table.insert(uv0.eventList, EventInfo.New(slot0))
+				table.insert(slot0.eventList, EventInfo.New(slot0))
 			end)
-			uv1:sendNotification(GAME.EVENT_LIST_UPDATE)
+			slot1:sendNotification(GAME.EVENT_LIST_UPDATE)
 
-			if uv2 then
-				uv2()
+			if slot2 then
+				slot2()
 			end
 
-			slot9 = uv1
-			slot12.eventId = uv0
-			slot12.oldShips = slot2
-			slot12.newShips = slot3
-			slot12.awards = slot4
-			slot12.isCri = slot0.is_cri > 0
-			slot12.onConfirm = uv3
-
-			slot9.sendNotification(slot9, GAME.EVENT_SHOW_AWARDS, {})
+			slot1:sendNotification(GAME.EVENT_SHOW_AWARDS, {
+				eventId = slot0,
+				oldShips = slot2,
+				newShips = slot3,
+				awards = slot4,
+				isCri = slot0.is_cri > 0,
+				onConfirm = slot3
+			})
 
 			return
 		end
 
 		pg.TipsMgr.GetInstance():ShowTips(errorTip("event_finish_fail", slot0.result))
 
-		if uv2 then
-			uv2()
+		if pg.TipsMgr.GetInstance() then
+			slot2()
 		end
 	end)
 end
 
-return slot0
+return class("EventFinishCommand", pm.SimpleCommand)

@@ -1,9 +1,5 @@
-slot0 = class("GuildEventStartCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
-	slot2 = getProxy(GuildProxy)
-
-	if slot2:getData() then
+class("GuildEventStartCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	if getProxy(GuildProxy):getData() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_boss_appear"))
 
 		slot2.eventTip = true
@@ -12,4 +8,4 @@ function slot0.execute(slot0, slot1)
 	end
 end
 
-return slot0
+return class("GuildEventStartCommand", pm.SimpleCommand)

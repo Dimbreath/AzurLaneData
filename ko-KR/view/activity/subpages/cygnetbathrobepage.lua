@@ -24,16 +24,15 @@ function slot0.OnDataSetting(slot0)
 	slot0.progressNum = slot0.activity.data1
 	slot0.resultNum = slot0.activity.data2
 	slot0.awardDayList = slot0.activity.data1_list
-	slot0.isFinished = uv0.MAX_COUNT < slot0.progressNum
+	slot0.isFinished = slot0.MAX_COUNT < slot0.progressNum
 	slot0.isAvailable = slot0.resultNum <= 0
 end
 
 function slot0.OnFirstFlush(slot0)
 	onButton(slot0, slot0.drawBtn, function ()
-		slot3.activity_id = uv0.activity.id
-
-		uv0:emit(ActivityMediator.EVENT_OPERATION, {
-			cmd = 1
+		slot0:emit(ActivityMediator.EVENT_OPERATION, {
+			cmd = 1,
+			activity_id = slot0.activity.id
 		})
 	end, SFX_PANEL)
 end
@@ -52,25 +51,16 @@ function slot0.OnUpdateFlush(slot0)
 	setActive(slot0.gotImg, slot0.isFinished)
 
 	if not slot0.isFinished then
-		setText(slot0.progressText, slot0.progressNum .. "/" .. uv0.MAX_COUNT)
+		setText(slot0.progressText, slot0.progressNum .. "/" .. slot0.MAX_COUNT)
 	end
 
 	if slot0.activity:getConfig("config_data")[2] then
-		for slot5, slot6 in ipairs(_.filter(slot1, function (slot0)
-			for slot4, slot5 in ipairs(uv0.activity.data1_list) do
-				if slot5 == slot0[1] then
-					return false
-				end
-			end
-
-			return true
-		end)) do
+		for slot5, slot6 in ipairs(slot1) do
 			if slot0.progressNum == slot6[1] then
-				slot10.activity_id = slot0.activity.id
-				slot10.arg1 = slot6[1]
-
 				slot0:emit(ActivityMediator.EVENT_OPERATION, {
-					cmd = 2
+					cmd = 2,
+					activity_id = slot0.activity.id,
+					arg1 = slot6[1]
 				})
 
 				return
@@ -80,35 +70,31 @@ function slot0.OnUpdateFlush(slot0)
 end
 
 function slot0.OnDestroy(slot0)
+	return
 end
 
 function slot0.showLotteryAwardResult(slot0, slot1, slot2, slot3)
-	GetComponent(slot0.animTF, typeof(DftAniEvent)):SetEndEvent(function (slot0)
-		setActive(uv0.animTF, false)
-		setActive(uv0.awardPanel, true)
+	GetComponent(slot0.animTF, typeof(DftAniEvent)).SetEndEvent(slot4, function (slot0)
+		setActive(slot0.animTF, false)
+		setActive(slot0.awardPanel, true)
 
-		for slot4 = 1, uv0.resultTextTF.childCount, 1 do
-			setActive(uv0.resultTextTF:GetChild(slot4 - 1), slot4 == uv1)
+		for slot4 = 1, slot0.resultTextTF.childCount, 1 do
+			setActive(slot0.resultTextTF:GetChild(slot4 - 1), slot4 == slot1)
 		end
 
-		removeAllChildren(uv0.itemTplContainer)
+		removeAllChildren(slot0.itemTplContainer)
 
-		for slot4, slot5 in ipairs(uv2) do
-			slot6 = cloneTplTo(uv0.itemTpl, uv0.itemTplContainer)
-			slot7.type = slot5.type
-			slot7.id = slot5.id
-			slot7.count = slot5.count
-
-			updateDrop(slot6, {})
-			onButton(uv0, slot6, function ()
-				uv0:emit(BaseUI.ON_DROP, uv1)
+		for slot4, slot5 in ipairs(slot0.itemTplContainer) do
+			updateDrop(slot6, slot7)
+			onButton(slot0, cloneTplTo(slot0.itemTpl, slot0.itemTplContainer), function ()
+				slot0:emit(BaseUI.ON_DROP, slot0)
 			end, SFX_PANEL)
 		end
 
-		uv0:emit(ActivityMainScene.LOCK_ACT_MAIN, false)
-		uv3()
-		onButton(uv0, uv0.awardPanel, function ()
-			setActive(uv0.awardPanel, false)
+		slot0:emit(ActivityMainScene.LOCK_ACT_MAIN, false)
+		slot3()
+		onButton(slot0, slot0.awardPanel, function ()
+			setActive(slot0.awardPanel, false)
 		end)
 	end)
 	setActive(slot0.animTF, true)
@@ -116,9 +102,7 @@ function slot0.showLotteryAwardResult(slot0, slot1, slot2, slot3)
 end
 
 function slot0.IsTip()
-	slot0 = getProxy(ActivityProxy)
-
-	if slot0:getActivityById(ActivityConst.CYGNET_BATHROBE_PAGE_ID) and not slot0:isEnd() then
+	if getProxy(ActivityProxy):getActivityById(ActivityConst.CYGNET_BATHROBE_PAGE_ID) and not slot0:isEnd() then
 		return slot0.data2 <= 0
 	end
 end

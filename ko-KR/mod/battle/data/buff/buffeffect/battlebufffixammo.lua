@@ -1,26 +1,24 @@
 ys = ys or {}
-slot0 = ys
-slot0.Battle.BattleBuffFixAmmo = class("BattleBuffFixAmmo", slot0.Battle.BattleBuffEffect)
-slot0.Battle.BattleBuffFixAmmo.__name = "BattleBuffFixAmmo"
-slot1 = slot0.Battle.BattleBuffFixAmmo
+ys.Battle.BattleBuffFixAmmo = class("BattleBuffFixAmmo", ys.Battle.BattleBuffEffect)
+ys.Battle.BattleBuffFixAmmo.__name = "BattleBuffFixAmmo"
 
-function slot1.Ctor(slot0, slot1)
-	uv0.super.Ctor(slot0, slot1)
+function ys.Battle.BattleBuffFixAmmo.Ctor(slot0, slot1)
+	slot0.super.Ctor(slot0, slot1)
 end
 
-function slot1.SetArgs(slot0, slot1, slot2)
+function ys.Battle.BattleBuffFixAmmo.SetArgs(slot0, slot1, slot2)
 	slot0._damageRate = slot0._tempData.arg_list.damage_rate
 end
 
-function slot1.onAttach(slot0, slot1, slot2)
+function ys.Battle.BattleBuffFixAmmo.onAttach(slot0, slot1, slot2)
 	slot0:updateAmmo(slot1, slot0._damageRate)
 end
 
-function slot1.onRemove(slot0, slot1, slot2)
+function ys.Battle.BattleBuffFixAmmo.onRemove(slot0, slot1, slot2)
 	slot0:updateAmmo(slot1)
 end
 
-function slot1.updateAmmo(slot0, slot1, slot2)
+function ys.Battle.BattleBuffFixAmmo.updateAmmo(slot0, slot1, slot2)
 	slot3 = slot1:GetAllWeapon()
 
 	for slot7, slot8 in ipairs(slot0._indexRequire) do
@@ -31,3 +29,5 @@ function slot1.updateAmmo(slot0, slot1, slot2)
 		end
 	end
 end
+
+return

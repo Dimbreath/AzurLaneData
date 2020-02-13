@@ -1,32 +1,33 @@
-slot3.trigger = {
-	"onAttach",
-	"onRemove"
-}
-slot3.arg_list = {
-	variable = "SpeedRatioByIFF",
-	key = -1,
-	resetNumber = 1,
-	number = 0.4
-}
-slot2[1] = {
-	type = "BattleBuffWorldVariable"
-}
-slot3.trigger = {
-	"onAttach",
-	"onRemove"
-}
-slot3.arg_list = {
-	variable = "MapSpeedRatio",
-	resetNumber = 1,
-	number = 0.4
-}
-slot2[2] = {
-	type = "BattleBuffWorldVariable"
-}
-slot1.effect_list = {}
-slot0[1] = {}
-
 return {
+	{
+		effect_list = {
+			{
+				type = "BattleBuffWorldVariable",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					variable = "SpeedRatioByIFF",
+					key = -1,
+					resetNumber = 1,
+					number = 0.4
+				}
+			},
+			{
+				type = "BattleBuffWorldVariable",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					variable = "MapSpeedRatio",
+					resetNumber = 1,
+					number = 0.4
+				}
+			}
+		}
+	},
 	uiEffect = "SlowEffectUI",
 	name = "测试-伊丽莎白-减速",
 	init_effect = "jiasuBUFF",

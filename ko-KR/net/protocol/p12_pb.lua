@@ -125,16 +125,17 @@ slot75 = slot0.FieldDescriptor()
 slot76 = slot0.FieldDescriptor()
 SC_12201 = slot0.Descriptor()
 slot77 = slot0.FieldDescriptor()
-CS_12202 = slot0.Descriptor()
 slot78 = slot0.FieldDescriptor()
+CS_12202 = slot0.Descriptor()
 slot79 = slot0.FieldDescriptor()
-SC_12203 = slot0.Descriptor()
 slot80 = slot0.FieldDescriptor()
-CS_12301 = slot0.Descriptor()
+SC_12203 = slot0.Descriptor()
 slot81 = slot0.FieldDescriptor()
+CS_12301 = slot0.Descriptor()
 slot82 = slot0.FieldDescriptor()
-SC_12302 = slot0.Descriptor()
 slot83 = slot0.FieldDescriptor()
+SC_12302 = slot0.Descriptor()
+slot84 = slot0.FieldDescriptor()
 slot2.name = "shiplist"
 slot2.full_name = ".p12.sc_12001.shiplist"
 slot2.number = 1
@@ -149,8 +150,9 @@ SC_12001.name = "sc_12001"
 SC_12001.full_name = ".p12.sc_12001"
 SC_12001.nested_types = {}
 SC_12001.enum_types = {}
-slot85[1] = slot2
-SC_12001.fields = {}
+SC_12001.fields = {
+	slot2
+}
 SC_12001.is_extendable = false
 SC_12001.extensions = {}
 slot3.name = "id"
@@ -175,9 +177,10 @@ CS_12002.name = "cs_12002"
 CS_12002.full_name = ".p12.cs_12002"
 CS_12002.nested_types = {}
 CS_12002.enum_types = {}
-slot85[1] = slot3
-slot85[2] = slot4
-CS_12002.fields = {}
+CS_12002.fields = {
+	slot3,
+	slot4
+}
 CS_12002.is_extendable = false
 CS_12002.extensions = {}
 slot5.name = "result"
@@ -203,9 +206,10 @@ SC_12003.name = "sc_12003"
 SC_12003.full_name = ".p12.sc_12003"
 SC_12003.nested_types = {}
 SC_12003.enum_types = {}
-slot85[1] = slot5
-slot85[2] = slot6
-SC_12003.fields = {}
+SC_12003.fields = {
+	slot5,
+	slot6
+}
 SC_12003.is_extendable = false
 SC_12003.extensions = {}
 slot7.name = "ship_id_list"
@@ -221,8 +225,9 @@ CS_12004.name = "cs_12004"
 CS_12004.full_name = ".p12.cs_12004"
 CS_12004.nested_types = {}
 CS_12004.enum_types = {}
-slot85[1] = slot7
-CS_12004.fields = {}
+CS_12004.fields = {
+	slot7
+}
 CS_12004.is_extendable = false
 CS_12004.extensions = {}
 slot8.name = "result"
@@ -247,9 +252,10 @@ SC_12005.name = "sc_12005"
 SC_12005.full_name = ".p12.sc_12005"
 SC_12005.nested_types = {}
 SC_12005.enum_types = {}
-slot85[1] = slot8
-slot85[2] = slot9
-SC_12005.fields = {}
+SC_12005.fields = {
+	slot8,
+	slot9
+}
 SC_12005.is_extendable = false
 SC_12005.extensions = {}
 slot10.name = "ship_id"
@@ -292,11 +298,12 @@ CS_12006.name = "cs_12006"
 CS_12006.full_name = ".p12.cs_12006"
 CS_12006.nested_types = {}
 CS_12006.enum_types = {}
-slot85[1] = slot10
-slot85[2] = slot11
-slot85[3] = slot12
-slot85[4] = slot13
-CS_12006.fields = {}
+CS_12006.fields = {
+	slot10,
+	slot11,
+	slot12,
+	slot13
+}
 CS_12006.is_extendable = false
 CS_12006.extensions = {}
 slot14.name = "result"
@@ -312,8 +319,9 @@ SC_12007.name = "sc_12007"
 SC_12007.full_name = ".p12.sc_12007"
 SC_12007.nested_types = {}
 SC_12007.enum_types = {}
-slot85[1] = slot14
-SC_12007.fields = {}
+SC_12007.fields = {
+	slot14
+}
 SC_12007.is_extendable = false
 SC_12007.extensions = {}
 slot15.name = "type"
@@ -338,9 +346,10 @@ CS_12008.name = "cs_12008"
 CS_12008.full_name = ".p12.cs_12008"
 CS_12008.nested_types = {}
 CS_12008.enum_types = {}
-slot85[1] = slot15
-slot85[2] = slot16
-CS_12008.fields = {}
+CS_12008.fields = {
+	slot15,
+	slot16
+}
 CS_12008.is_extendable = false
 CS_12008.extensions = {}
 slot17.name = "result"
@@ -356,8 +365,9 @@ SC_12009.name = "sc_12009"
 SC_12009.full_name = ".p12.sc_12009"
 SC_12009.nested_types = {}
 SC_12009.enum_types = {}
-slot85[1] = slot17
-SC_12009.fields = {}
+SC_12009.fields = {
+	slot17
+}
 SC_12009.is_extendable = false
 SC_12009.extensions = {}
 slot18.name = "ship_list"
@@ -374,8 +384,9 @@ SC_12010.name = "sc_12010"
 SC_12010.full_name = ".p12.sc_12010"
 SC_12010.nested_types = {}
 SC_12010.enum_types = {}
-slot85[1] = slot18
-SC_12010.fields = {}
+SC_12010.fields = {
+	slot18
+}
 SC_12010.is_extendable = false
 SC_12010.extensions = {}
 slot19.name = "ship_id"
@@ -409,10 +420,11 @@ CS_12011.name = "cs_12011"
 CS_12011.full_name = ".p12.cs_12011"
 CS_12011.nested_types = {}
 CS_12011.enum_types = {}
-slot85[1] = slot19
-slot85[2] = slot20
-slot85[3] = slot21
-CS_12011.fields = {}
+CS_12011.fields = {
+	slot19,
+	slot20,
+	slot21
+}
 CS_12011.is_extendable = false
 CS_12011.extensions = {}
 slot22.name = "result"
@@ -428,8 +440,9 @@ SC_12012.name = "sc_12012"
 SC_12012.full_name = ".p12.sc_12012"
 SC_12012.nested_types = {}
 SC_12012.enum_types = {}
-slot85[1] = slot22
-SC_12012.fields = {}
+SC_12012.fields = {
+	slot22
+}
 SC_12012.is_extendable = false
 SC_12012.extensions = {}
 slot23.name = "ship_id"
@@ -454,9 +467,10 @@ CS_12017.name = "cs_12017"
 CS_12017.full_name = ".p12.cs_12017"
 CS_12017.nested_types = {}
 CS_12017.enum_types = {}
-slot85[1] = slot23
-slot85[2] = slot24
-CS_12017.fields = {}
+CS_12017.fields = {
+	slot23,
+	slot24
+}
 CS_12017.is_extendable = false
 CS_12017.extensions = {}
 slot25.name = "result"
@@ -472,8 +486,9 @@ SC_12018.name = "sc_12018"
 SC_12018.full_name = ".p12.sc_12018"
 SC_12018.nested_types = {}
 SC_12018.enum_types = {}
-slot85[1] = slot25
-SC_12018.fields = {}
+SC_12018.fields = {
+	slot25
+}
 SC_12018.is_extendable = false
 SC_12018.extensions = {}
 slot26.name = "intimacy"
@@ -489,8 +504,9 @@ SC_12019.name = "sc_12019"
 SC_12019.full_name = ".p12.sc_12019"
 SC_12019.nested_types = {}
 SC_12019.enum_types = {}
-slot85[1] = slot26
-SC_12019.fields = {}
+SC_12019.fields = {
+	slot26
+}
 SC_12019.is_extendable = false
 SC_12019.extensions = {}
 slot27.name = "ship_id"
@@ -506,8 +522,9 @@ CS_12020.name = "cs_12020"
 CS_12020.full_name = ".p12.cs_12020"
 CS_12020.nested_types = {}
 CS_12020.enum_types = {}
-slot85[1] = slot27
-CS_12020.fields = {}
+CS_12020.fields = {
+	slot27
+}
 CS_12020.is_extendable = false
 CS_12020.extensions = {}
 slot28.name = "result"
@@ -523,8 +540,9 @@ SC_12021.name = "sc_12021"
 SC_12021.full_name = ".p12.sc_12021"
 SC_12021.nested_types = {}
 SC_12021.enum_types = {}
-slot85[1] = slot28
-SC_12021.fields = {}
+SC_12021.fields = {
+	slot28
+}
 SC_12021.is_extendable = false
 SC_12021.extensions = {}
 slot29.name = "ship_id_list"
@@ -549,9 +567,10 @@ CS_12022.name = "cs_12022"
 CS_12022.full_name = ".p12.cs_12022"
 CS_12022.nested_types = {}
 CS_12022.enum_types = {}
-slot85[1] = slot29
-slot85[2] = slot30
-CS_12022.fields = {}
+CS_12022.fields = {
+	slot29,
+	slot30
+}
 CS_12022.is_extendable = false
 CS_12022.extensions = {}
 slot31.name = "result"
@@ -567,8 +586,9 @@ SC_12023.name = "sc_12023"
 SC_12023.full_name = ".p12.sc_12023"
 SC_12023.nested_types = {}
 SC_12023.enum_types = {}
-slot85[1] = slot31
-SC_12023.fields = {}
+SC_12023.fields = {
+	slot31
+}
 SC_12023.is_extendable = false
 SC_12023.extensions = {}
 slot32.name = "worklist_count"
@@ -612,11 +632,12 @@ SC_12024.name = "sc_12024"
 SC_12024.full_name = ".p12.sc_12024"
 SC_12024.nested_types = {}
 SC_12024.enum_types = {}
-slot85[1] = slot32
-slot85[2] = slot33
-slot85[3] = slot34
-slot85[4] = slot35
-SC_12024.fields = {}
+SC_12024.fields = {
+	slot32,
+	slot33,
+	slot34,
+	slot35
+}
 SC_12024.is_extendable = false
 SC_12024.extensions = {}
 slot36.name = "type"
@@ -641,9 +662,10 @@ CS_12025.name = "cs_12025"
 CS_12025.full_name = ".p12.cs_12025"
 CS_12025.nested_types = {}
 CS_12025.enum_types = {}
-slot85[1] = slot36
-slot85[2] = slot37
-CS_12025.fields = {}
+CS_12025.fields = {
+	slot36,
+	slot37
+}
 CS_12025.is_extendable = false
 CS_12025.extensions = {}
 slot38.name = "result"
@@ -669,9 +691,10 @@ SC_12026.name = "sc_12026"
 SC_12026.full_name = ".p12.sc_12026"
 SC_12026.nested_types = {}
 SC_12026.enum_types = {}
-slot85[1] = slot38
-slot85[2] = slot39
-SC_12026.fields = {}
+SC_12026.fields = {
+	slot38,
+	slot39
+}
 SC_12026.is_extendable = false
 SC_12026.extensions = {}
 slot40.name = "ship_id"
@@ -696,9 +719,10 @@ CS_12027.name = "cs_12027"
 CS_12027.full_name = ".p12.cs_12027"
 CS_12027.nested_types = {}
 CS_12027.enum_types = {}
-slot85[1] = slot40
-slot85[2] = slot41
-CS_12027.fields = {}
+CS_12027.fields = {
+	slot40,
+	slot41
+}
 CS_12027.is_extendable = false
 CS_12027.extensions = {}
 slot42.name = "result"
@@ -714,8 +738,9 @@ SC_12028.name = "sc_12028"
 SC_12028.full_name = ".p12.sc_12028"
 SC_12028.nested_types = {}
 SC_12028.enum_types = {}
-slot85[1] = slot42
-SC_12028.fields = {}
+SC_12028.fields = {
+	slot42
+}
 SC_12028.is_extendable = false
 SC_12028.extensions = {}
 slot43.name = "id"
@@ -740,9 +765,10 @@ CS_12029.name = "cs_12029"
 CS_12029.full_name = ".p12.cs_12029"
 CS_12029.nested_types = {}
 CS_12029.enum_types = {}
-slot85[1] = slot43
-slot85[2] = slot44
-CS_12029.fields = {}
+CS_12029.fields = {
+	slot43,
+	slot44
+}
 CS_12029.is_extendable = false
 CS_12029.extensions = {}
 slot45.name = "result"
@@ -768,9 +794,10 @@ SC_12030.name = "sc_12030"
 SC_12030.full_name = ".p12.sc_12030"
 SC_12030.nested_types = {}
 SC_12030.enum_types = {}
-slot85[1] = slot45
-slot85[2] = slot46
-SC_12030.fields = {}
+SC_12030.fields = {
+	slot45,
+	slot46
+}
 SC_12030.is_extendable = false
 SC_12030.extensions = {}
 slot47.name = "energy_auto_increase_time"
@@ -786,8 +813,9 @@ SC_12031.name = "sc_12031"
 SC_12031.full_name = ".p12.sc_12031"
 SC_12031.nested_types = {}
 SC_12031.enum_types = {}
-slot85[1] = slot47
-SC_12031.fields = {}
+SC_12031.fields = {
+	slot47
+}
 SC_12031.is_extendable = false
 SC_12031.extensions = {}
 slot48.name = "ship_id"
@@ -803,8 +831,9 @@ CS_12032.name = "cs_12032"
 CS_12032.full_name = ".p12.cs_12032"
 CS_12032.nested_types = {}
 CS_12032.enum_types = {}
-slot85[1] = slot48
-CS_12032.fields = {}
+CS_12032.fields = {
+	slot48
+}
 CS_12032.is_extendable = false
 CS_12032.extensions = {}
 slot49.name = "result"
@@ -820,8 +849,9 @@ SC_12033.name = "sc_12033"
 SC_12033.full_name = ".p12.sc_12033"
 SC_12033.nested_types = {}
 SC_12033.enum_types = {}
-slot85[1] = slot49
-SC_12033.fields = {}
+SC_12033.fields = {
+	slot49
+}
 SC_12033.is_extendable = false
 SC_12033.extensions = {}
 slot50.name = "ship_id"
@@ -846,9 +876,10 @@ CS_12034.name = "cs_12034"
 CS_12034.full_name = ".p12.cs_12034"
 CS_12034.nested_types = {}
 CS_12034.enum_types = {}
-slot85[1] = slot50
-slot85[2] = slot51
-CS_12034.fields = {}
+CS_12034.fields = {
+	slot50,
+	slot51
+}
 CS_12034.is_extendable = false
 CS_12034.extensions = {}
 slot52.name = "result"
@@ -864,8 +895,9 @@ SC_12035.name = "sc_12035"
 SC_12035.full_name = ".p12.sc_12035"
 SC_12035.nested_types = {}
 SC_12035.enum_types = {}
-slot85[1] = slot52
-SC_12035.fields = {}
+SC_12035.fields = {
+	slot52
+}
 SC_12035.is_extendable = false
 SC_12035.extensions = {}
 slot53.name = "ship_id"
@@ -899,10 +931,11 @@ CS_12036.name = "cs_12036"
 CS_12036.full_name = ".p12.cs_12036"
 CS_12036.nested_types = {}
 CS_12036.enum_types = {}
-slot85[1] = slot53
-slot85[2] = slot54
-slot85[3] = slot55
-CS_12036.fields = {}
+CS_12036.fields = {
+	slot53,
+	slot54,
+	slot55
+}
 CS_12036.is_extendable = false
 CS_12036.extensions = {}
 slot56.name = "result"
@@ -918,8 +951,9 @@ SC_12037.name = "sc_12037"
 SC_12037.full_name = ".p12.sc_12037"
 SC_12037.nested_types = {}
 SC_12037.enum_types = {}
-slot85[1] = slot56
-SC_12037.fields = {}
+SC_12037.fields = {
+	slot56
+}
 SC_12037.is_extendable = false
 SC_12037.extensions = {}
 slot57.name = "time"
@@ -953,10 +987,11 @@ BUILDINFO.name = "buildinfo"
 BUILDINFO.full_name = ".p12.buildinfo"
 BUILDINFO.nested_types = {}
 BUILDINFO.enum_types = {}
-slot85[1] = slot57
-slot85[2] = slot58
-slot85[3] = slot59
-BUILDINFO.fields = {}
+BUILDINFO.fields = {
+	slot57,
+	slot58,
+	slot59
+}
 BUILDINFO.is_extendable = false
 BUILDINFO.extensions = {}
 slot60.name = "ship_id"
@@ -972,8 +1007,9 @@ CS_12038.name = "cs_12038"
 CS_12038.full_name = ".p12.cs_12038"
 CS_12038.nested_types = {}
 CS_12038.enum_types = {}
-slot85[1] = slot60
-CS_12038.fields = {}
+CS_12038.fields = {
+	slot60
+}
 CS_12038.is_extendable = false
 CS_12038.extensions = {}
 slot61.name = "result"
@@ -989,8 +1025,9 @@ SC_12039.name = "sc_12039"
 SC_12039.full_name = ".p12.sc_12039"
 SC_12039.nested_types = {}
 SC_12039.enum_types = {}
-slot85[1] = slot61
-SC_12039.fields = {}
+SC_12039.fields = {
+	slot61
+}
 SC_12039.is_extendable = false
 SC_12039.extensions = {}
 slot62.name = "ship_id"
@@ -1015,9 +1052,10 @@ CS_12040.name = "cs_12040"
 CS_12040.full_name = ".p12.cs_12040"
 CS_12040.nested_types = {}
 CS_12040.enum_types = {}
-slot85[1] = slot62
-slot85[2] = slot63
-CS_12040.fields = {}
+CS_12040.fields = {
+	slot62,
+	slot63
+}
 CS_12040.is_extendable = false
 CS_12040.extensions = {}
 slot64.name = "result"
@@ -1033,8 +1071,9 @@ SC_12041.name = "sc_12041"
 SC_12041.full_name = ".p12.sc_12041"
 SC_12041.nested_types = {}
 SC_12041.enum_types = {}
-slot85[1] = slot64
-SC_12041.fields = {}
+SC_12041.fields = {
+	slot64
+}
 SC_12041.is_extendable = false
 SC_12041.extensions = {}
 slot65.name = "group_list"
@@ -1051,8 +1090,9 @@ SC_12101.name = "sc_12101"
 SC_12101.full_name = ".p12.sc_12101"
 SC_12101.nested_types = {}
 SC_12101.enum_types = {}
-slot85[1] = slot65
-SC_12101.fields = {}
+SC_12101.fields = {
+	slot65
+}
 SC_12101.is_extendable = false
 SC_12101.extensions = {}
 slot66.name = "id"
@@ -1077,9 +1117,10 @@ CS_12102.name = "cs_12102"
 CS_12102.full_name = ".p12.cs_12102"
 CS_12102.nested_types = {}
 CS_12102.enum_types = {}
-slot85[1] = slot66
-slot85[2] = slot67
-CS_12102.fields = {}
+CS_12102.fields = {
+	slot66,
+	slot67
+}
 CS_12102.is_extendable = false
 CS_12102.extensions = {}
 slot68.name = "result"
@@ -1095,8 +1136,9 @@ SC_12103.name = "sc_12103"
 SC_12103.full_name = ".p12.sc_12103"
 SC_12103.nested_types = {}
 SC_12103.enum_types = {}
-slot85[1] = slot68
-SC_12103.fields = {}
+SC_12103.fields = {
+	slot68
+}
 SC_12103.is_extendable = false
 SC_12103.extensions = {}
 slot69.name = "id"
@@ -1121,9 +1163,10 @@ CS_12104.name = "cs_12104"
 CS_12104.full_name = ".p12.cs_12104"
 CS_12104.nested_types = {}
 CS_12104.enum_types = {}
-slot85[1] = slot69
-slot85[2] = slot70
-CS_12104.fields = {}
+CS_12104.fields = {
+	slot69,
+	slot70
+}
 CS_12104.is_extendable = false
 CS_12104.extensions = {}
 slot71.name = "result"
@@ -1139,8 +1182,9 @@ SC_12105.name = "sc_12105"
 SC_12105.full_name = ".p12.sc_12105"
 SC_12105.nested_types = {}
 SC_12105.enum_types = {}
-slot85[1] = slot71
-SC_12105.fields = {}
+SC_12105.fields = {
+	slot71
+}
 SC_12105.is_extendable = false
 SC_12105.extensions = {}
 slot72.name = "group"
@@ -1157,8 +1201,9 @@ SC_12106.name = "sc_12106"
 SC_12106.full_name = ".p12.sc_12106"
 SC_12106.nested_types = {}
 SC_12106.enum_types = {}
-slot85[1] = slot72
-SC_12106.fields = {}
+SC_12106.fields = {
+	slot72
+}
 SC_12106.is_extendable = false
 SC_12106.extensions = {}
 slot73.name = "id"
@@ -1202,11 +1247,12 @@ GROUPINFO.name = "groupinfo"
 GROUPINFO.full_name = ".p12.groupinfo"
 GROUPINFO.nested_types = {}
 GROUPINFO.enum_types = {}
-slot85[1] = slot73
-slot85[2] = slot74
-slot85[3] = slot75
-slot85[4] = slot76
-GROUPINFO.fields = {}
+GROUPINFO.fields = {
+	slot73,
+	slot74,
+	slot75,
+	slot76
+}
 GROUPINFO.is_extendable = false
 GROUPINFO.extensions = {}
 slot77.name = "skin_list"
@@ -1219,60 +1265,55 @@ slot77.default_value = {}
 slot77.message_type = slot1.IDTIMEINFO
 slot77.type = 11
 slot77.cpp_type = 10
+slot78.name = "forbidden_skin_list"
+slot78.full_name = ".p12.sc_12201.forbidden_skin_list"
+slot78.number = 2
+slot78.index = 1
+slot78.label = 3
+slot78.has_default_value = false
+slot78.default_value = {}
+slot78.type = 13
+slot78.cpp_type = 3
 SC_12201.name = "sc_12201"
 SC_12201.full_name = ".p12.sc_12201"
 SC_12201.nested_types = {}
 SC_12201.enum_types = {}
-slot85[1] = slot77
-SC_12201.fields = {}
+SC_12201.fields = {
+	slot77,
+	slot78
+}
 SC_12201.is_extendable = false
 SC_12201.extensions = {}
-slot78.name = "ship_id"
-slot78.full_name = ".p12.cs_12202.ship_id"
-slot78.number = 1
-slot78.index = 0
-slot78.label = 2
-slot78.has_default_value = false
-slot78.default_value = 0
-slot78.type = 13
-slot78.cpp_type = 3
-slot79.name = "skin_id"
-slot79.full_name = ".p12.cs_12202.skin_id"
-slot79.number = 2
-slot79.index = 1
+slot79.name = "ship_id"
+slot79.full_name = ".p12.cs_12202.ship_id"
+slot79.number = 1
+slot79.index = 0
 slot79.label = 2
 slot79.has_default_value = false
 slot79.default_value = 0
 slot79.type = 13
 slot79.cpp_type = 3
-CS_12202.name = "cs_12202"
-CS_12202.full_name = ".p12.cs_12202"
-CS_12202.nested_types = {}
-CS_12202.enum_types = {}
-slot85[1] = slot78
-slot85[2] = slot79
-CS_12202.fields = {}
-CS_12202.is_extendable = false
-CS_12202.extensions = {}
-slot80.name = "result"
-slot80.full_name = ".p12.sc_12203.result"
-slot80.number = 1
-slot80.index = 0
+slot80.name = "skin_id"
+slot80.full_name = ".p12.cs_12202.skin_id"
+slot80.number = 2
+slot80.index = 1
 slot80.label = 2
 slot80.has_default_value = false
 slot80.default_value = 0
 slot80.type = 13
 slot80.cpp_type = 3
-SC_12203.name = "sc_12203"
-SC_12203.full_name = ".p12.sc_12203"
-SC_12203.nested_types = {}
-SC_12203.enum_types = {}
-slot85[1] = slot80
-SC_12203.fields = {}
-SC_12203.is_extendable = false
-SC_12203.extensions = {}
-slot81.name = "type"
-slot81.full_name = ".p12.cs_12301.type"
+CS_12202.name = "cs_12202"
+CS_12202.full_name = ".p12.cs_12202"
+CS_12202.nested_types = {}
+CS_12202.enum_types = {}
+CS_12202.fields = {
+	slot79,
+	slot80
+}
+CS_12202.is_extendable = false
+CS_12202.extensions = {}
+slot81.name = "result"
+slot81.full_name = ".p12.sc_12203.result"
 slot81.number = 1
 slot81.index = 0
 slot81.label = 2
@@ -1280,40 +1321,60 @@ slot81.has_default_value = false
 slot81.default_value = 0
 slot81.type = 13
 slot81.cpp_type = 3
-slot82.name = "id_list"
-slot82.full_name = ".p12.cs_12301.id_list"
-slot82.number = 2
-slot82.index = 1
-slot82.label = 3
+SC_12203.name = "sc_12203"
+SC_12203.full_name = ".p12.sc_12203"
+SC_12203.nested_types = {}
+SC_12203.enum_types = {}
+SC_12203.fields = {
+	slot81
+}
+SC_12203.is_extendable = false
+SC_12203.extensions = {}
+slot82.name = "type"
+slot82.full_name = ".p12.cs_12301.type"
+slot82.number = 1
+slot82.index = 0
+slot82.label = 2
 slot82.has_default_value = false
-slot82.default_value = {}
+slot82.default_value = 0
 slot82.type = 13
 slot82.cpp_type = 3
+slot83.name = "id_list"
+slot83.full_name = ".p12.cs_12301.id_list"
+slot83.number = 2
+slot83.index = 1
+slot83.label = 3
+slot83.has_default_value = false
+slot83.default_value = {}
+slot83.type = 13
+slot83.cpp_type = 3
 CS_12301.name = "cs_12301"
 CS_12301.full_name = ".p12.cs_12301"
 CS_12301.nested_types = {}
 CS_12301.enum_types = {}
-slot85[1] = slot81
-slot85[2] = slot82
-CS_12301.fields = {}
+CS_12301.fields = {
+	slot82,
+	slot83
+}
 CS_12301.is_extendable = false
 CS_12301.extensions = {}
-slot83.name = "ship_list"
-slot83.full_name = ".p12.sc_12302.ship_list"
-slot83.number = 1
-slot83.index = 0
-slot83.label = 3
-slot83.has_default_value = false
-slot83.default_value = {}
-slot83.message_type = slot1.SHIPINFO
-slot83.type = 11
-slot83.cpp_type = 10
+slot84.name = "ship_list"
+slot84.full_name = ".p12.sc_12302.ship_list"
+slot84.number = 1
+slot84.index = 0
+slot84.label = 3
+slot84.has_default_value = false
+slot84.default_value = {}
+slot84.message_type = slot1.SHIPINFO
+slot84.type = 11
+slot84.cpp_type = 10
 SC_12302.name = "sc_12302"
 SC_12302.full_name = ".p12.sc_12302"
 SC_12302.nested_types = {}
 SC_12302.enum_types = {}
-slot85[1] = slot83
-SC_12302.fields = {}
+SC_12302.fields = {
+	slot84
+}
 SC_12302.is_extendable = false
 SC_12302.extensions = {}
 buildinfo = slot0.Message(BUILDINFO)
@@ -1366,3 +1427,5 @@ sc_12106 = slot0.Message(SC_12106)
 sc_12201 = slot0.Message(SC_12201)
 sc_12203 = slot0.Message(SC_12203)
 sc_12302 = slot0.Message(SC_12302)
+
+return

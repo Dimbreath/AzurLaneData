@@ -1,23 +1,21 @@
 ys = ys or {}
-slot0 = ys
-slot0.Battle.BattleSkillSummon = class("BattleSkillSummon", slot0.Battle.BattleSkillEffect)
-slot0.Battle.BattleSkillSummon.__name = "BattleSkillSummon"
-slot1 = slot0.Battle.BattleSkillSummon
+ys.Battle.BattleSkillSummon = class("BattleSkillSummon", ys.Battle.BattleSkillEffect)
+ys.Battle.BattleSkillSummon.__name = "BattleSkillSummon"
 
-function slot1.Ctor(slot0, slot1)
-	uv0.super.Ctor(slot0, slot1, lv)
+function ys.Battle.BattleSkillSummon.Ctor(slot0, slot1)
+	slot0.super.Ctor(slot0, slot1, lv)
 end
 
-function slot1.DoDataEffectWithoutTarget(slot0, slot1, slot2)
+function ys.Battle.BattleSkillSummon.DoDataEffectWithoutTarget(slot0, slot1, slot2)
 	slot0:DoSummon(slot1, slot2)
 end
 
-function slot1.DoDataEffect(slot0, slot1, slot2, slot3)
+function ys.Battle.BattleSkillSummon.DoDataEffect(slot0, slot1, slot2, slot3)
 	slot0:DoSummon(slot1, slot3)
 end
 
-function slot1.DoSummon(slot0, slot1, slot2)
-	slot3 = uv0.Battle.BattleDataProxy.GetInstance()
+function ys.Battle.BattleSkillSummon.DoSummon(slot0, slot1, slot2)
+	slot3 = slot0.Battle.BattleDataProxy.GetInstance()
 
 	if slot0._tempData.arg_list.isCasterAlive and not slot1:IsAlive() then
 		return
@@ -39,7 +37,6 @@ function slot1.DoSummon(slot0, slot1, slot2)
 		slot9 = slot1:GetAttr()
 
 		if slot4.equipmentList then
-			-- Nothing
 		else
 			slot7 = {}
 
@@ -59,32 +56,26 @@ function slot1.DoSummon(slot0, slot1, slot2)
 		slot13 = slot1:GetWaveIndex()
 	end
 
-	slot15 = {
-		IFF = slot1:GetIFF(),
-		dir = slot1:GetDirection(),
-		HPColor = slot6,
-		attr = slot9,
-		template = slot11,
-		isUnvisible = slot4.isUnvisible
-	}
-	slot16 = {
+	slot3:SpawnMonster({
 		monsterTemplateID = slot10,
 		equipmentList = slot7,
-		pilotAITemplateID = slot12 or slot4.pilotAITemplateID
-	}
-
-	if not slot4.corrdinate then
-		slot17 = {
+		pilotAITemplateID = slot12 or slot4.pilotAITemplateID,
+		corrdinate = slot4.corrdinate or {
 			slot5.x,
 			slot5.y,
 			slot5.z
+		},
+		buffList = slot14 or slot4.buffList,
+		mark = slot4.mark,
+		extraInfo = {
+			IFF = slot1:GetIFF(),
+			dir = slot1:GetDirection(),
+			HPColor = slot6,
+			attr = slot9,
+			template = slot11,
+			isUnvisible = slot4.isUnvisible
 		}
-	end
-
-	slot16.corrdinate = slot17
-	slot16.buffList = slot14 or slot4.buffList
-	slot16.mark = slot4.mark
-	slot16.extraInfo = slot15
-
-	slot3:SpawnMonster(slot16, slot13, uv0.Battle.BattleConst.UnitType.NPC_UNIT, slot1:GetIFF())
+	}, slot13, slot0.Battle.BattleConst.UnitType.NPC_UNIT, slot1:GetIFF())
 end
+
+return

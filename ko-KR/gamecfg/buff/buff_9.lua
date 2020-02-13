@@ -1,10 +1,8 @@
-slot0.effect_list = {}
-slot1.effect_list = {}
-slot0[1] = {
-	desc = "可替代任何舰娘作为改造材料使用"
-}
-
 return {
+	{
+		desc = "可替代任何舰娘作为改造材料使用",
+		effect_list = {}
+	},
 	time = 0,
 	name = "实验体",
 	init_effect = "",
@@ -14,5 +12,6 @@ return {
 	stack = 1,
 	color = "yellow",
 	icon = 9,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {}
 }

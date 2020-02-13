@@ -23,10 +23,9 @@ slot1 = {
 	Vector2(190, -282),
 	Vector2(154, -365)
 }
-slot1[MULTRES] = Vector2(154, -365)
 
 function slot0.level2WarnPos(slot0)
-	return uv0[slot0]
+	return slot0[slot0]
 end
 
 return slot0

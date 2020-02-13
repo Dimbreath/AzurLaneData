@@ -1,45 +1,3 @@
-slot2.arg_list = {
-	mark = 1,
-	delay = 5
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillSummon",
-	target_choise = "TargetNil"
-}
-slot2.arg_list = {
-	mark = 2,
-	delay = 5
-}
-slot1[2] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillSummon",
-	target_choise = "TargetNil"
-}
-slot2.arg_list = {
-	mark = 3,
-	delay = 5
-}
-slot1[3] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillSummon",
-	target_choise = "TargetNil"
-}
-slot2.arg_list = {
-	mark = 4,
-	delay = 5
-}
-slot1[4] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillSummon",
-	target_choise = "TargetNil"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "补货1,2,3,4",
@@ -48,5 +6,47 @@ return {
 	aniEffect = "",
 	desc = "补货1000",
 	painting = 0,
-	id = 7011
+	id = 7011,
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
+			arg_list = {
+				mark = 1,
+				delay = 5
+			}
+		},
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
+			arg_list = {
+				mark = 2,
+				delay = 5
+			}
+		},
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
+			arg_list = {
+				mark = 3,
+				delay = 5
+			}
+		},
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
+			arg_list = {
+				mark = 4,
+				delay = 5
+			}
+		}
+	}
 }

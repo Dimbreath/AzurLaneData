@@ -86,10 +86,11 @@ CS_24002.name = "cs_24002"
 CS_24002.full_name = ".p24.cs_24002"
 CS_24002.nested_types = {}
 CS_24002.enum_types = {}
-slot41[1] = slot2
-slot41[2] = slot3
-slot41[3] = slot4
-CS_24002.fields = {}
+CS_24002.fields = {
+	slot2,
+	slot3,
+	slot4
+}
 CS_24002.is_extendable = false
 CS_24002.extensions = {}
 slot5.name = "result"
@@ -105,8 +106,9 @@ SC_24003.name = "sc_24003"
 SC_24003.full_name = ".p24.sc_24003"
 SC_24003.nested_types = {}
 SC_24003.enum_types = {}
-slot41[1] = slot5
-SC_24003.fields = {}
+SC_24003.fields = {
+	slot5
+}
 SC_24003.is_extendable = false
 SC_24003.extensions = {}
 slot6.name = "activity_id"
@@ -122,8 +124,9 @@ CS_24004.name = "cs_24004"
 CS_24004.full_name = ".p24.cs_24004"
 CS_24004.nested_types = {}
 CS_24004.enum_types = {}
-slot41[1] = slot6
-CS_24004.fields = {}
+CS_24004.fields = {
+	slot6
+}
 CS_24004.is_extendable = false
 CS_24004.extensions = {}
 slot7.name = "result"
@@ -159,10 +162,11 @@ SC_24005.name = "sc_24005"
 SC_24005.full_name = ".p24.sc_24005"
 SC_24005.nested_types = {}
 SC_24005.enum_types = {}
-slot41[1] = slot7
-slot41[2] = slot8
-slot41[3] = slot9
-SC_24005.fields = {}
+SC_24005.fields = {
+	slot7,
+	slot8,
+	slot9
+}
 SC_24005.is_extendable = false
 SC_24005.extensions = {}
 slot10.name = "score"
@@ -178,8 +182,9 @@ SC_24010.name = "sc_24010"
 SC_24010.full_name = ".p24.sc_24010"
 SC_24010.nested_types = {}
 SC_24010.enum_types = {}
-slot41[1] = slot10
-SC_24010.fields = {}
+SC_24010.fields = {
+	slot10
+}
 SC_24010.is_extendable = false
 SC_24010.extensions = {}
 slot11.name = "activity_id"
@@ -204,9 +209,10 @@ CS_24011.name = "cs_24011"
 CS_24011.full_name = ".p24.cs_24011"
 CS_24011.nested_types = {}
 CS_24011.enum_types = {}
-slot41[1] = slot11
-slot41[2] = slot12
-CS_24011.fields = {}
+CS_24011.fields = {
+	slot11,
+	slot12
+}
 CS_24011.is_extendable = false
 CS_24011.extensions = {}
 slot13.name = "result"
@@ -222,8 +228,9 @@ SC_24012.name = "sc_24012"
 SC_24012.full_name = ".p24.sc_24012"
 SC_24012.nested_types = {}
 SC_24012.enum_types = {}
-slot41[1] = slot13
-SC_24012.fields = {}
+SC_24012.fields = {
+	slot13
+}
 SC_24012.is_extendable = false
 SC_24012.extensions = {}
 slot14.name = "id"
@@ -258,10 +265,11 @@ GROUPINFO.name = "groupinfo"
 GROUPINFO.full_name = ".p24.groupinfo"
 GROUPINFO.nested_types = {}
 GROUPINFO.enum_types = {}
-slot41[1] = slot14
-slot41[2] = slot15
-slot41[3] = slot16
-GROUPINFO.fields = {}
+GROUPINFO.fields = {
+	slot14,
+	slot15,
+	slot16
+}
 GROUPINFO.is_extendable = false
 GROUPINFO.extensions = {}
 slot17.name = "season_max_score"
@@ -331,14 +339,15 @@ CHALLENGEINFO.name = "challengeinfo"
 CHALLENGEINFO.full_name = ".p24.challengeinfo"
 CHALLENGEINFO.nested_types = {}
 CHALLENGEINFO.enum_types = {}
-slot41[1] = slot17
-slot41[2] = slot18
-slot41[3] = slot19
-slot41[4] = slot20
-slot41[5] = slot21
-slot41[6] = slot22
-slot41[7] = slot23
-CHALLENGEINFO.fields = {}
+CHALLENGEINFO.fields = {
+	slot17,
+	slot18,
+	slot19,
+	slot20,
+	slot21,
+	slot22,
+	slot23
+}
 CHALLENGEINFO.is_extendable = false
 CHALLENGEINFO.extensions = {}
 slot24.name = "current_score"
@@ -418,15 +427,16 @@ USERCHALLENGEINFO.name = "userchallengeinfo"
 USERCHALLENGEINFO.full_name = ".p24.userchallengeinfo"
 USERCHALLENGEINFO.nested_types = {}
 USERCHALLENGEINFO.enum_types = {}
-slot41[1] = slot24
-slot41[2] = slot25
-slot41[3] = slot26
-slot41[4] = slot27
-slot41[5] = slot28
-slot41[6] = slot29
-slot41[7] = slot30
-slot41[8] = slot31
-USERCHALLENGEINFO.fields = {}
+USERCHALLENGEINFO.fields = {
+	slot24,
+	slot25,
+	slot26,
+	slot27,
+	slot28,
+	slot29,
+	slot30,
+	slot31
+}
 USERCHALLENGEINFO.is_extendable = false
 USERCHALLENGEINFO.extensions = {}
 slot32.name = "id"
@@ -461,10 +471,11 @@ SHIPINCHALLENGE.name = "shipinchallenge"
 SHIPINCHALLENGE.full_name = ".p24.shipinchallenge"
 SHIPINCHALLENGE.nested_types = {}
 SHIPINCHALLENGE.enum_types = {}
-slot41[1] = slot32
-slot41[2] = slot33
-slot41[3] = slot34
-SHIPINCHALLENGE.fields = {}
+SHIPINCHALLENGE.fields = {
+	slot32,
+	slot33,
+	slot34
+}
 SHIPINCHALLENGE.is_extendable = false
 SHIPINCHALLENGE.extensions = {}
 slot35.name = "id"
@@ -500,10 +511,11 @@ GROUPINFOINCHALLENGE.name = "groupinfoinchallenge"
 GROUPINFOINCHALLENGE.full_name = ".p24.groupinfoinchallenge"
 GROUPINFOINCHALLENGE.nested_types = {}
 GROUPINFOINCHALLENGE.enum_types = {}
-slot41[1] = slot35
-slot41[2] = slot36
-slot41[3] = slot37
-GROUPINFOINCHALLENGE.fields = {}
+GROUPINFOINCHALLENGE.fields = {
+	slot35,
+	slot36,
+	slot37
+}
 GROUPINFOINCHALLENGE.is_extendable = false
 GROUPINFOINCHALLENGE.extensions = {}
 slot38.name = "pos"
@@ -529,9 +541,10 @@ COMMANDERINCHALLENGE.name = "commanderinchallenge"
 COMMANDERINCHALLENGE.full_name = ".p24.commanderinchallenge"
 COMMANDERINCHALLENGE.nested_types = {}
 COMMANDERINCHALLENGE.enum_types = {}
-slot41[1] = slot38
-slot41[2] = slot39
-COMMANDERINCHALLENGE.fields = {}
+COMMANDERINCHALLENGE.fields = {
+	slot38,
+	slot39
+}
 COMMANDERINCHALLENGE.is_extendable = false
 COMMANDERINCHALLENGE.extensions = {}
 challengeinfo = slot0.Message(CHALLENGEINFO)
@@ -547,3 +560,5 @@ sc_24010 = slot0.Message(SC_24010)
 sc_24012 = slot0.Message(SC_24012)
 shipinchallenge = slot0.Message(SHIPINCHALLENGE)
 userchallengeinfo = slot0.Message(USERCHALLENGEINFO)
+
+return

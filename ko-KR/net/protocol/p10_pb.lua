@@ -123,10 +123,11 @@ CS_10001.name = "cs_10001"
 CS_10001.full_name = ".p10.cs_10001"
 CS_10001.nested_types = {}
 CS_10001.enum_types = {}
-slot72[1] = slot1
-slot72[2] = slot2
-slot72[3] = slot3
-CS_10001.fields = {}
+CS_10001.fields = {
+	slot1,
+	slot2,
+	slot3
+}
 CS_10001.is_extendable = false
 CS_10001.extensions = {}
 slot4.name = "result"
@@ -142,8 +143,9 @@ SC_10002.name = "sc_10002"
 SC_10002.full_name = ".p10.sc_10002"
 SC_10002.nested_types = {}
 SC_10002.enum_types = {}
-slot72[1] = slot4
-SC_10002.fields = {}
+SC_10002.fields = {
+	slot4
+}
 SC_10002.is_extendable = false
 SC_10002.extensions = {}
 slot5.name = "login_type"
@@ -213,14 +215,15 @@ CS_10020.name = "cs_10020"
 CS_10020.full_name = ".p10.cs_10020"
 CS_10020.nested_types = {}
 CS_10020.enum_types = {}
-slot72[1] = slot5
-slot72[2] = slot6
-slot72[3] = slot7
-slot72[4] = slot8
-slot72[5] = slot9
-slot72[6] = slot10
-slot72[7] = slot11
-CS_10020.fields = {}
+CS_10020.fields = {
+	slot5,
+	slot6,
+	slot7,
+	slot8,
+	slot9,
+	slot10,
+	slot11
+}
 CS_10020.is_extendable = false
 CS_10020.extensions = {}
 slot12.name = "result"
@@ -283,13 +286,14 @@ SC_10021.name = "sc_10021"
 SC_10021.full_name = ".p10.sc_10021"
 SC_10021.nested_types = {}
 SC_10021.enum_types = {}
-slot72[1] = slot12
-slot72[2] = slot13
-slot72[3] = slot14
-slot72[4] = slot15
-slot72[5] = slot16
-slot72[6] = slot17
-SC_10021.fields = {}
+SC_10021.fields = {
+	slot12,
+	slot13,
+	slot14,
+	slot15,
+	slot16,
+	slot17
+}
 SC_10021.is_extendable = false
 SC_10021.extensions = {}
 slot18.name = "ids"
@@ -377,16 +381,17 @@ SERVERINFO.name = "serverinfo"
 SERVERINFO.full_name = ".p10.serverinfo"
 SERVERINFO.nested_types = {}
 SERVERINFO.enum_types = {}
-slot72[1] = slot18
-slot72[2] = slot19
-slot72[3] = slot20
-slot72[4] = slot21
-slot72[5] = slot22
-slot72[6] = slot23
-slot72[7] = slot24
-slot72[8] = slot25
-slot72[9] = slot26
-SERVERINFO.fields = {}
+SERVERINFO.fields = {
+	slot18,
+	slot19,
+	slot20,
+	slot21,
+	slot22,
+	slot23,
+	slot24,
+	slot25,
+	slot26
+}
 SERVERINFO.is_extendable = false
 SERVERINFO.extensions = {}
 slot27.name = "id"
@@ -420,10 +425,11 @@ NOTICEINFO.name = "noticeinfo"
 NOTICEINFO.full_name = ".p10.noticeinfo"
 NOTICEINFO.nested_types = {}
 NOTICEINFO.enum_types = {}
-slot72[1] = slot27
-slot72[2] = slot28
-slot72[3] = slot29
-NOTICEINFO.fields = {}
+NOTICEINFO.fields = {
+	slot27,
+	slot28,
+	slot29
+}
 NOTICEINFO.is_extendable = false
 NOTICEINFO.extensions = {}
 slot30.name = "account_id"
@@ -484,13 +490,14 @@ CS_10022.name = "cs_10022"
 CS_10022.full_name = ".p10.cs_10022"
 CS_10022.nested_types = {}
 CS_10022.enum_types = {}
-slot72[1] = slot30
-slot72[2] = slot31
-slot72[3] = slot32
-slot72[4] = slot33
-slot72[5] = slot34
-slot72[6] = slot35
-CS_10022.fields = {}
+CS_10022.fields = {
+	slot30,
+	slot31,
+	slot32,
+	slot33,
+	slot34,
+	slot35
+}
 CS_10022.is_extendable = false
 CS_10022.extensions = {}
 slot36.name = "result"
@@ -542,12 +549,13 @@ SC_10023.name = "sc_10023"
 SC_10023.full_name = ".p10.sc_10023"
 SC_10023.nested_types = {}
 SC_10023.enum_types = {}
-slot72[1] = slot36
-slot72[2] = slot37
-slot72[3] = slot38
-slot72[4] = slot39
-slot72[5] = slot40
-SC_10023.fields = {}
+SC_10023.fields = {
+	slot36,
+	slot37,
+	slot38,
+	slot39,
+	slot40
+}
 SC_10023.is_extendable = false
 SC_10023.extensions = {}
 slot41.name = "nick_name"
@@ -581,10 +589,11 @@ CS_10024.name = "cs_10024"
 CS_10024.full_name = ".p10.cs_10024"
 CS_10024.nested_types = {}
 CS_10024.enum_types = {}
-slot72[1] = slot41
-slot72[2] = slot42
-slot72[3] = slot43
-CS_10024.fields = {}
+CS_10024.fields = {
+	slot41,
+	slot42,
+	slot43
+}
 CS_10024.is_extendable = false
 CS_10024.extensions = {}
 slot44.name = "result"
@@ -609,9 +618,10 @@ SC_10025.name = "sc_10025"
 SC_10025.full_name = ".p10.sc_10025"
 SC_10025.nested_types = {}
 SC_10025.enum_types = {}
-slot72[1] = slot44
-slot72[2] = slot45
-SC_10025.fields = {}
+SC_10025.fields = {
+	slot44,
+	slot45
+}
 SC_10025.is_extendable = false
 SC_10025.extensions = {}
 slot46.name = "need_request"
@@ -627,8 +637,9 @@ CS_10100.name = "cs_10100"
 CS_10100.full_name = ".p10.cs_10100"
 CS_10100.nested_types = {}
 CS_10100.enum_types = {}
-slot72[1] = slot46
-CS_10100.fields = {}
+CS_10100.fields = {
+	slot46
+}
 CS_10100.is_extendable = false
 CS_10100.extensions = {}
 slot47.name = "state"
@@ -644,8 +655,9 @@ SC_10101.name = "sc_10101"
 SC_10101.full_name = ".p10.sc_10101"
 SC_10101.nested_types = {}
 SC_10101.enum_types = {}
-slot72[1] = slot47
-SC_10101.fields = {}
+SC_10101.fields = {
+	slot47
+}
 SC_10101.is_extendable = false
 SC_10101.extensions = {}
 slot48.name = "type"
@@ -661,8 +673,9 @@ CS_10994.name = "cs_10994"
 CS_10994.full_name = ".p10.cs_10994"
 CS_10994.nested_types = {}
 CS_10994.enum_types = {}
-slot72[1] = slot48
-CS_10994.fields = {}
+CS_10994.fields = {
+	slot48
+}
 CS_10994.is_extendable = false
 CS_10994.extensions = {}
 slot49.name = "result"
@@ -678,8 +691,9 @@ SC_10995.name = "sc_10995"
 SC_10995.full_name = ".p10.sc_10995"
 SC_10995.nested_types = {}
 SC_10995.enum_types = {}
-slot72[1] = slot49
-SC_10995.fields = {}
+SC_10995.fields = {
+	slot49
+}
 SC_10995.is_extendable = false
 SC_10995.extensions = {}
 slot50.name = "state"
@@ -704,9 +718,10 @@ CS_10996.name = "cs_10996"
 CS_10996.full_name = ".p10.cs_10996"
 CS_10996.nested_types = {}
 CS_10996.enum_types = {}
-slot72[1] = slot50
-slot72[2] = slot51
-CS_10996.fields = {}
+CS_10996.fields = {
+	slot50,
+	slot51
+}
 CS_10996.is_extendable = false
 CS_10996.extensions = {}
 slot52.name = "version1"
@@ -776,14 +791,15 @@ SC_10997.name = "sc_10997"
 SC_10997.full_name = ".p10.sc_10997"
 SC_10997.nested_types = {}
 SC_10997.enum_types = {}
-slot72[1] = slot52
-slot72[2] = slot53
-slot72[3] = slot54
-slot72[4] = slot55
-slot72[5] = slot56
-slot72[6] = slot57
-slot72[7] = slot58
-SC_10997.fields = {}
+SC_10997.fields = {
+	slot52,
+	slot53,
+	slot54,
+	slot55,
+	slot56,
+	slot57,
+	slot58
+}
 SC_10997.is_extendable = false
 SC_10997.extensions = {}
 slot59.name = "cmd"
@@ -808,9 +824,10 @@ SC_10998.name = "sc_10998"
 SC_10998.full_name = ".p10.sc_10998"
 SC_10998.nested_types = {}
 SC_10998.enum_types = {}
-slot72[1] = slot59
-slot72[2] = slot60
-SC_10998.fields = {}
+SC_10998.fields = {
+	slot59,
+	slot60
+}
 SC_10998.is_extendable = false
 SC_10998.extensions = {}
 slot61.name = "reason"
@@ -826,8 +843,9 @@ SC_10999.name = "sc_10999"
 SC_10999.full_name = ".p10.sc_10999"
 SC_10999.nested_types = {}
 SC_10999.enum_types = {}
-slot72[1] = slot61
-SC_10999.fields = {}
+SC_10999.fields = {
+	slot61
+}
 SC_10999.is_extendable = false
 SC_10999.extensions = {}
 slot62.name = "state"
@@ -852,9 +870,10 @@ CS_10800.name = "cs_10800"
 CS_10800.full_name = ".p10.cs_10800"
 CS_10800.nested_types = {}
 CS_10800.enum_types = {}
-slot72[1] = slot62
-slot72[2] = slot63
-CS_10800.fields = {}
+CS_10800.fields = {
+	slot62,
+	slot63
+}
 CS_10800.is_extendable = false
 CS_10800.extensions = {}
 slot64.name = "gateway_ip"
@@ -924,14 +943,15 @@ SC_10801.name = "sc_10801"
 SC_10801.full_name = ".p10.sc_10801"
 SC_10801.nested_types = {}
 SC_10801.enum_types = {}
-slot72[1] = slot64
-slot72[2] = slot65
-slot72[3] = slot66
-slot72[4] = slot67
-slot72[5] = slot68
-slot72[6] = slot69
-slot72[7] = slot70
-SC_10801.fields = {}
+SC_10801.fields = {
+	slot64,
+	slot65,
+	slot66,
+	slot67,
+	slot68,
+	slot69,
+	slot70
+}
 SC_10801.is_extendable = false
 SC_10801.extensions = {}
 cs_10001 = slot0.Message(CS_10001)
@@ -954,3 +974,5 @@ sc_10997 = slot0.Message(SC_10997)
 sc_10998 = slot0.Message(SC_10998)
 sc_10999 = slot0.Message(SC_10999)
 serverinfo = slot0.Message(SERVERINFO)
+
+return

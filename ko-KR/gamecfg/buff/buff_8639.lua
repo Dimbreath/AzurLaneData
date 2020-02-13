@@ -1,5 +1,3 @@
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "诺福克buff",
@@ -10,5 +8,6 @@ return {
 	stack = 1,
 	color = "yellow",
 	icon = 8639,
-	last_effect = "nuofukedanchuan_buff_01"
+	last_effect = "nuofukedanchuan_buff_01",
+	effect_list = {}
 }

@@ -42,14 +42,15 @@ slot0.AttachBomb_Enemy = 24
 slot0.AttachBarrier = 25
 slot0.AttachHugeSupply = 26
 slot0.AttachLandbase = 100
-slot1[1] = slot0.AttachEnemy
-slot1[2] = slot0.AttachAmbush
-slot1[3] = slot0.AttachElite
-slot1[4] = slot0.AttachBoss
-slot1[5] = slot0.AttachRival
-slot1[6] = slot0.AttachAreaBoss
-slot1[7] = slot0.AttachBomb_Enemy
-slot0.AttachStaticEnemys = {}
+slot0.AttachStaticEnemys = {
+	slot0.AttachEnemy,
+	slot0.AttachAmbush,
+	slot0.AttachElite,
+	slot0.AttachBoss,
+	slot0.AttachRival,
+	slot0.AttachAreaBoss,
+	slot0.AttachBomb_Enemy
+}
 slot0.Story = 1
 slot0.StoryObstacle = 2
 slot0.StoryTrigger = 3
@@ -124,7 +125,7 @@ slot0.ChildItem = "item"
 slot0.ChildAttachment = "attachment"
 
 function slot0.NeedSelectTarget(slot0)
-	return pg.strategy_data_template[slot0].arg[1] == uv0.StgDtAirStrike or slot1.arg[1] == uv0.StgDtCannon
+	return pg.strategy_data_template[slot0].arg[1] == slot0.StgDtAirStrike or slot1.arg[1] == slot0.StgDtCannon
 end
 
 slot0.TraitNone = 0
@@ -132,39 +133,37 @@ slot0.TraitLurk = 1
 slot0.TraitVirgin = 2
 
 function slot0.NeedMarkAsLurk(slot0)
-	if slot0.attachment == uv0.AttachBox then
-		slot1 = pg.box_data_template[slot0.attachmentId]
-
-		return slot0.flag == 0 and (slot1.type == uv0.BoxDrop or slot1.type == uv0.BoxStrategy or slot1.type == uv0.BoxSupply or slot1.type == uv0.BoxEnemy)
+	if slot0.attachment == slot0.AttachBox then
+		return slot0.flag == 0 and (pg.box_data_template[slot0.attachmentId].type == slot0.BoxDrop or pg.box_data_template[slot0.attachmentId].type == slot0.BoxStrategy or pg.box_data_template[slot0.attachmentId].type == slot0.BoxSupply or pg.box_data_template[slot0.attachmentId].type == slot0.BoxEnemy)
 	else
-		return slot0.flag == 0 and (slot0.attachment == uv0.AttachEnemy or slot0.attachment == uv0.AttachElite or slot0.attachment == uv0.AttachBoss or slot0.attachment == uv0.AttachStory or slot0.attachment == uv0.AttachRival or slot0.attachment == uv0.AttachBomb_Enemy)
+		return slot0.flag == 0 and (slot0.attachment == slot0.AttachEnemy or slot0.attachment == slot0.AttachElite or slot0.attachment == slot0.AttachBoss or slot0.attachment == slot0.AttachStory or slot0.attachment == slot0.AttachRival or slot0.attachment == slot0.AttachBomb_Enemy)
 	end
 end
 
 function slot0.NeedEasePathCell(slot0)
-	if slot0.attachment == uv0.AttachNone then
+	if slot0.attachment == slot0.AttachNone then
 		return true
-	elseif slot0.attachment == uv0.AttachAmbush then
+	elseif slot0.attachment == slot0.AttachAmbush then
 		if slot0.flag ~= 0 then
 			return true
 		end
-	elseif slot0.attachment == uv0.AttachRival or slot0.attachment == uv0.AttachEnemy or slot0.attachment == uv0.AttachElite then
+	elseif slot0.attachment == slot0.AttachRival or slot0.attachment == slot0.AttachEnemy or slot0.attachment == slot0.AttachElite then
 		if slot0.flag == 1 then
 			return true
 		end
-	elseif slot0.attachment == uv0.AttachSupply and slot0.attachmentId <= 0 then
+	elseif slot0.attachment == slot0.AttachSupply and slot0.attachmentId <= 0 then
 		return true
-	elseif slot0.attachment == uv0.AttachBox then
-		if pg.box_data_template[slot0.attachmentId].type == uv0.BoxAirStrike or slot1.type == uv0.BoxTorpedo then
+	elseif slot0.attachment == slot0.AttachBox then
+		if pg.box_data_template[slot0.attachmentId].type == slot0.BoxAirStrike or slot1.type == slot0.BoxTorpedo then
 			return true
-		elseif (slot1.type == uv0.BoxDrop or slot1.type == uv0.BoxStrategy or slot1.type == uv0.BoxEnemy or slot1.type == uv0.BoxSupply) and slot0.flag == 1 then
-			return true
-		end
-	elseif slot0.attachment == uv0.AttachStory then
-		if slot0.flag ~= 0 and (slot0.flag ~= 3 or slot0.data ~= uv0.StoryObstacle) then
+		elseif (slot1.type == slot0.BoxDrop or slot1.type == slot0.BoxStrategy or slot1.type == slot0.BoxEnemy or slot1.type == slot0.BoxSupply) and slot0.flag == 1 then
 			return true
 		end
-	elseif slot0.attachment == uv0.AttachBarrier then
+	elseif slot0.attachment == slot0.AttachStory then
+		if slot0.flag ~= 0 and (slot0.flag ~= 3 or slot0.data ~= slot0.StoryObstacle) then
+			return true
+		end
+	elseif slot0.attachment == slot0.AttachBarrier then
 		return true
 	end
 
@@ -172,11 +171,11 @@ function slot0.NeedEasePathCell(slot0)
 end
 
 function slot0.NeedClearStep(slot0)
-	if slot0.attachment == uv0.AttachAmbush and slot0.flag == 2 then
+	if slot0.attachment == slot0.AttachAmbush and slot0.flag == 2 then
 		return true
 	end
 
-	if slot0.attachment == uv0.AttachBox and pg.box_data_template[slot0.attachmentId].type == uv0.BoxAirStrike then
+	if slot0.attachment == slot0.AttachBox and pg.box_data_template[slot0.attachmentId].type == slot0.BoxAirStrike then
 		return true
 	end
 
@@ -193,25 +192,29 @@ slot0.AchieveType6 = 6
 function slot0.IsAchieved(slot0)
 	slot1 = false
 
-	return (slot0.type == uv0.AchieveType4 or slot0.type == uv0.AchieveType5) and slot0.count >= 1 or slot0.config <= slot0.count
+	if slot0.type == slot0.AchieveType4 or slot0.type == slot0.AchieveType5 then
+		slot1 = slot0.count >= 1
+	else
+		return slot0.config <= slot0.count
+	end
 end
 
 function slot0.GetAchieveDesc(slot0, slot1)
 	slot2 = false
 
 	if _.detect(slot1.achieves, function (slot0)
-		return slot0.type == uv0
-	end).type == uv0.AchieveType1 then
+		return slot0.type == slot0
+	end).type == slot0.AchieveType1 then
 		return "적 중요 함대 격파"
-	elseif slot3.type == uv0.AchieveType2 then
+	elseif slot3.type == slot0.AchieveType2 then
 		return string.format("호위 함대 격파（%d/%d）", math.min(slot3.count, slot3.config), slot3.config)
-	elseif slot3.type == uv0.AchieveType3 then
+	elseif slot3.type == slot0.AchieveType3 then
 		return "모든 적함 격파"
-	elseif slot3.type == uv0.AchieveType4 then
+	elseif slot3.type == slot0.AchieveType4 then
 		return string.format("출격 인원수<=%d", slot3.config)
-	elseif slot3.type == uv0.AchieveType5 then
+	elseif slot3.type == slot0.AchieveType5 then
 		return string.format("출격 함선 소녀가 포함되어 있지 않습니다XX", ShipType.Type2Name(slot3.config))
-	elseif slot3.type == uv0.AchieveType6 then
+	elseif slot3.type == slot0.AchieveType6 then
 		return "Full Combo 완성 및 클리어"
 	end
 
@@ -341,29 +344,36 @@ slot0.ReasonDefeatSham = 7
 slot0.ReasonOutTime = 8
 slot0.ReasonActivityOutTime = 9
 slot0.ReasonDefeatDefense = 10
-slot2.name = pg.gametip.no_airspace_competition.tip
-slot2.color = Color.New(1, 1, 1)
-slot1[0] = {}
-slot2.name = pg.strategy_data_template[pg.gameset.air_dominance_level_5.key_value].name
-slot2.StgId = pg.gameset.air_dominance_level_5.key_value
-slot2.color = Color.New(0.9921568627450981, 0.4, 0.39215686274509803)
-slot1[1] = {}
-slot2.name = pg.strategy_data_template[pg.gameset.air_dominance_level_4.key_value].name
-slot2.StgId = pg.gameset.air_dominance_level_4.key_value
-slot2.color = Color.New(0.9568627450980393, 0.5647058823529412, 0.34901960784313724)
-slot1[2] = {}
-slot2.name = pg.strategy_data_template[pg.gameset.air_dominance_level_3.key_value].name
-slot2.StgId = pg.gameset.air_dominance_level_3.key_value
-slot2.color = Color.New(0.9568627450980393, 0.8470588235294118, 0.23921568627450981)
-slot1[3] = {}
-slot2.name = pg.strategy_data_template[pg.gameset.air_dominance_level_2.key_value].name
-slot2.StgId = pg.gameset.air_dominance_level_2.key_value
-slot2.color = Color.New(0.7333333333333333, 0.7725490196078432, 0.2)
-slot1[4] = {}
-slot2.name = pg.strategy_data_template[pg.gameset.air_dominance_level_1.key_value].name
-slot2.StgId = pg.gameset.air_dominance_level_1.key_value
-slot2.color = Color.New(0.615686274509804, 0.9215686274509803, 0.14901960784313725)
-slot1[5] = {}
-slot0.AirDominance = {}
+slot0.AirDominance = {
+	[0] = {
+		name = pg.gametip.no_airspace_competition.tip,
+		color = Color.New(1, 1, 1)
+	},
+	{
+		name = pg.strategy_data_template[pg.gameset.air_dominance_level_5.key_value].name,
+		StgId = pg.gameset.air_dominance_level_5.key_value,
+		color = Color.New(0.9921568627450981, 0.4, 0.39215686274509803)
+	},
+	{
+		name = pg.strategy_data_template[pg.gameset.air_dominance_level_4.key_value].name,
+		StgId = pg.gameset.air_dominance_level_4.key_value,
+		color = Color.New(0.9568627450980393, 0.5647058823529412, 0.34901960784313724)
+	},
+	{
+		name = pg.strategy_data_template[pg.gameset.air_dominance_level_3.key_value].name,
+		StgId = pg.gameset.air_dominance_level_3.key_value,
+		color = Color.New(0.9568627450980393, 0.8470588235294118, 0.23921568627450981)
+	},
+	{
+		name = pg.strategy_data_template[pg.gameset.air_dominance_level_2.key_value].name,
+		StgId = pg.gameset.air_dominance_level_2.key_value,
+		color = Color.New(0.7333333333333333, 0.7725490196078432, 0.2)
+	},
+	{
+		name = pg.strategy_data_template[pg.gameset.air_dominance_level_1.key_value].name,
+		StgId = pg.gameset.air_dominance_level_1.key_value,
+		color = Color.New(0.615686274509804, 0.9215686274509803, 0.14901960784313725)
+	}
+}
 
 return slot0

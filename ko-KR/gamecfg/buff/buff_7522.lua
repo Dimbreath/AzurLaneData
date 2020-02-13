@@ -1,5 +1,3 @@
-slot0.effect_list = {}
-
 return {
 	time = 3,
 	name = "传颂之物开场加血2%",
@@ -9,5 +7,6 @@ return {
 	stack = 1,
 	id = 7522,
 	icon = 7520,
-	last_effect = "Health"
+	last_effect = "Health",
+	effect_list = {}
 }

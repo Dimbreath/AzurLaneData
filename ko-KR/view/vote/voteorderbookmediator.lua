@@ -4,45 +4,44 @@ slot0.SUCCESS_SOUND = "event:/ui/right"
 slot0.FAILED_SOUND = "event:/ui/wrong"
 
 function slot0.register(slot0)
-	slot0:bind(uv0.ON_SUBMIT, function (slot0, slot1)
-		slot4 = getProxy(VoteProxy):GetOrderBook():IsResult(slot1)
+	slot0:bind(slot0.ON_SUBMIT, function (slot0, slot1)
+		slot4 = getProxy(VoteProxy).GetOrderBook(slot2).IsResult(slot3, slot1)
 
-		slot5[1] = function (slot0)
-			if uv0 then
-				playSoundEffect(uv1.SUCCESS_SOUND)
-			else
-				playSoundEffect(uv1.FAILED_SOUND)
+		seriesAsync({
+			function (slot0)
+				if slot0 then
+					playSoundEffect(slot1.SUCCESS_SOUND)
+				else
+					playSoundEffect(slot1.FAILED_SOUND)
+				end
+
+				slot2:blockEvents()
+				slot2.viewComponent:PlayAnim(slot0, slot0)
+			end,
+			function (slot0)
+				slot0:unblockEvents()
+
+				if slot0.unblockEvents then
+					slot0:sendNotification(GAME.SUBMIT_VOTE_BOOK, {
+						result = slot0,
+						callback = slot0
+					})
+				else
+					slot0()
+				end
 			end
-
-			uv2:blockEvents()
-			uv2.viewComponent:PlayAnim(uv0, slot0)
-		end
-
-		slot5[2] = function (slot0)
-			uv0:unblockEvents()
-
-			if uv1 then
-				slot4.result = uv2
-				slot4.callback = slot0
-
-				uv0:sendNotification(GAME.SUBMIT_VOTE_BOOK, {})
-			else
-				slot0()
-			end
-		end
-
-		seriesAsync({}, function ()
-			uv0.viewComponent:emit(BaseUI.ON_CLOSE)
+		}, function ()
+			slot0.viewComponent:emit(BaseUI.ON_CLOSE)
 		end)
 	end)
-	slot0.viewComponent:setOrderBook(getProxy(VoteProxy):GetOrderBook())
+	slot0.viewComponent:setOrderBook(getProxy(VoteProxy).GetOrderBook(slot1))
 end
 
 function slot0.listNotificationInterests(slot0)
-	slot1[1] = VoteProxy.VOTE_ORDER_BOOK_DELETE
-	slot1[2] = GAME.SUBMIT_VOTE_BOOK_DONE
-
-	return {}
+	return {
+		VoteProxy.VOTE_ORDER_BOOK_DELETE,
+		GAME.SUBMIT_VOTE_BOOK_DONE
+	}
 end
 
 function slot0.handleNotification(slot0, slot1)

@@ -1,54 +1,56 @@
 pg = pg or {}
-slot0 = pg
-slot0.SendWindow = class("SendWindow")
-slot1 = slot0.SendWindow
+pg.SendWindow = class("SendWindow")
 slot2 = nil
 slot3 = false
 
-function slot1.Ctor(slot0, slot1, slot2)
+function pg.SendWindow.Ctor(slot0, slot1, slot2)
 	slot0.connectionMgr = slot1
 	slot0.packetIdx = defaultValue(slot2, 0)
 
-	if Application.isEditor and not uv0 then
-		uv0 = true
+	if Application.isEditor and not slot0 then
+		slot0 = true
 
-		DebugMgr.Inst.onRequestResend:AddListener(uv1.onRequestResend)
+		DebugMgr.Inst.onRequestResend:AddListener(slot1.onRequestResend)
 	end
 
 	slot0.isSending = false
 	slot0.toSends = {}
 	slot0.retryCount = 0
-	uv2 = {}
+	slot2 = {}
 end
 
-function slot1.setPacketIdx(slot0, slot1)
+function pg.SendWindow.setPacketIdx(slot0, slot1)
 	slot0.packetIdx = slot1
 end
 
-function slot1.getPacketIdx(slot0)
+function pg.SendWindow.getPacketIdx(slot0)
 	return slot0.packetIdx
 end
 
-function slot1.incPacketIdx(slot0)
+function pg.SendWindow.incPacketIdx(slot0)
 	slot0.packetIdx = slot0.packetIdx + 1
 end
 
 if Application.isEditor then
 	function slot1.serialize(slot0)
+		slot1 = ""
+
 		if type(slot0) == "number" then
-			slot1 = "" .. slot0
+			slot1 = slot1 .. slot0
 		elseif slot2 == "boolean" then
 			slot1 = slot1 .. tostring(slot0)
 		elseif slot2 == "string" then
 			slot1 = slot1 .. string.format("%q", slot0)
 		elseif slot2 == "table" then
+			slot1 = slot1 .. "{\n"
+
 			for slot6, slot7 in pairs(slot0) do
-				slot1 = slot1 .. "{\n" .. "[" .. uv0.serialize(slot6) .. "]=" .. uv0.serialize(slot7) .. ",\n"
+				slot1 = slot1 .. "[" .. slot0.serialize(slot6) .. "]=" .. slot0.serialize(slot7) .. ",\n"
 			end
 
 			if getmetatable(slot0) ~= nil and type(slot3.__index) == "table" then
 				for slot7, slot8 in pairs(slot3.__index) do
-					slot1 = slot1 .. "[" .. uv0.serialize(slot7) .. "]=" .. uv0.serialize(slot8) .. ",\n"
+					slot1 = slot1 .. "[" .. slot0.serialize(slot7) .. "]=" .. slot0.serialize(slot8) .. ",\n"
 				end
 			end
 
@@ -84,29 +86,27 @@ if Application.isEditor then
 end
 
 function slot1.Queue(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
-	slot10[1] = slot1
-	slot10[2] = slot2
-	slot10[3] = slot3
-	slot10[4] = slot4 and function (slot0)
-		table.remove(uv0.toSends, 1)
+	table.insert(slot0.toSends, {
+		slot1,
+		slot2,
+		slot3,
+		slot4 and function (slot0)
+			table.remove(slot0.toSends, 1)
 
-		if Application.isEditor then
-			slot1 = DebugMgr.Inst
+			if Application.isEditor then
+				slot1(slot2, slot3, slot2.serialize(DebugMgr.Inst.PushProtoSent) or "", )
+			end
 
-			slot1.PushProtoSent(slot1, uv1, uv2.serialize(uv3) or "", uv4)
-		end
+			slot5(slot0)
 
-		uv5(slot0)
-
-		if slot0 and slot0.result and slot0.result == 0 then
-			uv6.SeriesGuideMgr.GetInstance():receiceProtocol(uv4, uv3, slot0)
-		end
-	end
-	slot10[5] = slot5
-	slot10[6] = slot6
-	slot10[7] = slot7
-
-	table.insert(slot0.toSends, {})
+			if slot0 and slot0.result and slot0.result == 0 then
+				slot6.SeriesGuideMgr.GetInstance():receiceProtocol(slot4, , slot0)
+			end
+		end,
+		slot5,
+		slot6,
+		slot7
+	})
 
 	if slot0.isSending then
 		return
@@ -137,134 +137,419 @@ function slot1.Send(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 		slot0.connectionMgr.needStartSend = true
 
 		slot0.connectionMgr:Reconnect(function ()
+			return
 		end)
 
 		return
 	end
 
+	slot5 = defaultValue(slot5, true)
 	slot6 = defaultValue(slot6, true)
+	slot7 = defaultValue(slot7, SEND_TIMEOUT)
+	slot9 = slot0:getPacketIdx()
 
 	if slot3 ~= nil then
-		uv0.UIMgr.GetInstance():LoadingOn()
+		slot0.UIMgr.GetInstance():LoadingOn()
 
 		slot10 = nil
 		slot11 = nil
 
-		uv1[defaultValue(slot5, true) and slot3 .. "_" .. slot0:getPacketIdx() or slot3] = function (slot0)
-			uv0.isSending = false
+		slot1[(slot5 and slot3 .. "_" .. slot9) or slot3] = function (slot0)
+			slot0.isSending = false
 
-			uv1.UIMgr.GetInstance():LoadingOff()
-			uv0.connectionMgr:resetHBTimer()
+			slot0.UIMgr.GetInstance():LoadingOff()
+			slot0.connectionMgr:resetHBTimer()
 
-			if uv2 then
-				uv2:Stop()
+			if slot0.connectionMgr then
+				slot2:Stop()
 			end
 
-			uv3(slot0)
+			slot3(slot0)
 
-			if uv4 and not uv0.isSending and #uv0.toSends > 0 then
-				uv0:StartSend()
+			if slot4 and not slot0.isSending and #slot0.toSends > 0 then
+				slot0:StartSend()
 			end
 		end
 
 		Timer.New(function ()
-			uv0.UIMgr.GetInstance():LoadingOff()
+			slot0.UIMgr.GetInstance():LoadingOff()
 
-			uv1[uv2] = nil
+			slot0.UIMgr.GetInstance()[slot2] = nil
 
-			uv3:setPacketIdx(uv4)
+			slot3:setPacketIdx(slot4)
 
-			if uv3.retryCount > 3 then
-				uv3.connectionMgr.onDisconnected(false, DISCONNECT_TIME_OUT)
+			if slot3.retryCount > 3 then
+				slot3.connectionMgr.onDisconnected(false, DISCONNECT_TIME_OUT)
 
-				uv3.retryCount = 0
+				slot3.retryCount = 0
 			end
 
-			warning("Network is timedOut, resend: " .. uv4 .. ", protocal: " .. uv5)
+			warning("Network is timedOut, resend: " .. slot4 .. ", protocal: " .. slot5)
 
-			uv3.retryCount = uv3.retryCount + 1
+			slot3.retryCount = slot3.retryCount + 1
 
-			uv3:StartSend()
-		end, defaultValue(slot7, SEND_TIMEOUT), 1):Start()
+			slot3:StartSend()
+		end, slot7, 1):Start()
 	else
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 81-81, warpins: 1 ---
 		slot5 = false
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
-	slot10 = uv0.Packer.GetInstance():GetProtocolWithName("cs_" .. slot1)
 
+	-- Decompilation error in this vicinity:
 	function (slot0, slot1)
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-4, warpins: 1 ---
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 5-36, warpins: 0 ---
 		for slot5, slot6 in pairs(slot1) do
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 5-9, warpins: 1 ---
 			if type(slot6) == "table" then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 10-13, warpins: 1 ---
+				--- END OF BLOCK #0 ---
+
+				FLOW; TARGET BLOCK #1
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #1 14-32, warpins: 0 ---
 				for slot10, slot11 in ipairs(slot6) do
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 14-17, warpins: 1 ---
 					if slot0[slot5].add then
-						uv0(slot0[slot5]:add(), slot11)
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 18-25, warpins: 1 ---
+						slot0(slot0[slot5]:add(), slot11)
+						--- END OF BLOCK #0 ---
+
+
+
 					else
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 26-30, warpins: 1 ---
 						slot0[slot5]:append(slot11)
+						--- END OF BLOCK #0 ---
+
+
+
 					end
+					--- END OF BLOCK #0 ---
+
+					FLOW; TARGET BLOCK #1
+
+
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #1 31-32, warpins: 3 ---
+					--- END OF BLOCK #1 ---
+
+
+
 				end
+				--- END OF BLOCK #1 ---
+
+				FLOW; TARGET BLOCK #2
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #2 33-33, warpins: 1 ---
+				--- END OF BLOCK #2 ---
+
+
+
 			else
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 34-34, warpins: 1 ---
 				slot0[slot5] = slot6
+				--- END OF BLOCK #0 ---
+
+
+
 			end
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 35-36, warpins: 3 ---
+			--- END OF BLOCK #1 ---
+
+
+
 		end
-	end(slot10:GetMessage(), slot2)
+
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 37-37, warpins: 1 ---
+		return
+		--- END OF BLOCK #2 ---
+
+
+
+	end(slot0.Packer.GetInstance():GetProtocolWithName("cs_" .. slot1).GetMessage(slot10), slot2)
 
 	if slot5 then
-		slot8:Send(uv0.Packer.GetInstance():Pack(slot9, slot10:GetId(), slot12))
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 102-127, warpins: 1 ---
+		slot8:Send(slot0.Packer.GetInstance():Pack(slot9, slot10:GetId(), slot12))
 		print("Network sent protocol: " .. slot1 .. " with idx: " .. slot9)
 		slot0:incPacketIdx()
+		--- END OF BLOCK #0 ---
+
+
+
 	else
-		slot8:Send(uv0.Packer.GetInstance():Pack(0, slot10:GetId(), slot12))
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 128-148, warpins: 1 ---
+		slot8:Send(slot0.Packer.GetInstance():Pack(0, slot10:GetId(), slot12))
 		print("Network sent protocol: " .. slot1 .. " without idx")
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
 	if not slot3 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 151-159, warpins: 1 ---
 		table.remove(slot0.toSends, 1)
 
 		if Application.isEditor then
-			slot13 = DebugMgr.Inst
 
-			slot13.PushProtoSent(slot13, slot1, uv2.serialize(slot2) or "", 0)
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 160-170, warpins: 1 ---
+			DebugMgr.Inst:PushProtoSent(slot1, slot2:serialize() or "", 0)
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 172-173, warpins: 2 ---
+			--- END OF BLOCK #1 ---
+
+
+
 		end
 
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 174-178, warpins: 2 ---
 		if #slot0.toSends > 0 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 179-182, warpins: 1 ---
 			slot0:StartSend()
+			--- END OF BLOCK #0 ---
+
+
+
 		else
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 183-184, warpins: 1 ---
 			slot0.isSending = false
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+		--- END OF BLOCK #1 ---
+
+
+
 	end
 end
 
 function slot1.stopTimer(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-3, warpins: 1 ---
 	if slot0.timer then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 4-9, warpins: 1 ---
 		slot0.timer:Stop()
 
 		slot0.timer = nil
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 10-10, warpins: 2 ---
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot1.onData(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-26, warpins: 1 ---
 	print("Network Receive idx: " .. slot0.idx .. " cmd: " .. slot0.cmd)
 
-	if uv1[slot0.cmd .. "_" .. slot0.idx] then
-		uv1[slot2](uv0.Packer.GetInstance():Unpack(slot0.cmd, slot0:getLuaStringBuffer()))
+	if slot1[slot0.cmd .. "_" .. slot0.idx] then
 
-		uv1[slot2] = nil
-	elseif uv1[slot0.cmd] then
-		uv1[slot0.cmd](slot1)
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 27-34, warpins: 1 ---
+		slot1[slot2](slot1)
 
-		uv1[slot0.cmd] = nil
+		slot1[slot2] = nil
+		--- END OF BLOCK #0 ---
+
+
+
+	else
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 35-39, warpins: 1 ---
+		if slot1[slot0.cmd] then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 40-48, warpins: 1 ---
+			slot1[slot0.cmd](slot1)
+
+			slot1[slot0.cmd] = nil
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 49-49, warpins: 3 ---
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 if Application.isEditor then
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 44-45, warpins: 1 ---
 	function slot1.onRequestResend(slot0)
-		if uv0.unserialize(slot0.sndState) then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-6, warpins: 1 ---
+		if slot0.unserialize(slot0.sndState) then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 7-10, warpins: 1 ---
 			if slot0.scProNr > 0 then
-				uv1.ConnectionMgr.GetInstance():Send(slot0.csProNr, slot1, slot0.scProNr, function (slot0)
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 11-22, warpins: 1 ---
+				slot1.ConnectionMgr.GetInstance():Send(slot0.csProNr, slot1, slot0.scProNr, function (slot0)
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 1-1, warpins: 1 ---
+					return
+					--- END OF BLOCK #0 ---
+
+
+
 				end)
+				--- END OF BLOCK #0 ---
+
+
+
 			else
-				uv1.ConnectionMgr.GetInstance():Send(slot0.csProNr, slot1)
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 23-31, warpins: 1 ---
+				slot1.ConnectionMgr.GetInstance():Send(slot0.csProNr, slot1)
+				--- END OF BLOCK #0 ---
+
+
+
 			end
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 32-32, warpins: 3 ---
+		return
+		--- END OF BLOCK #1 ---
+
+
+
 	end
+	--- END OF BLOCK #0 ---
+
+
+
 end
+
+return

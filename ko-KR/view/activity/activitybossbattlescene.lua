@@ -24,12 +24,12 @@ end
 function slot0.setActivity(slot0, slot1)
 	slot0.activity = slot1
 	slot2 = slot0.activity.data1KeyValueList[1] or {}
-	slot0.stages = _.map(slot1:getConfig("config_data")[4], function (slot0)
-		slot3.config = slot1
-		slot3.count = slot0[2]
-		slot3.useageCount = uv1[uv0[slot0[1]].id] or 0
-
-		return {}
+	slot0.stages = _.map(slot3, function (slot0)
+		return {
+			config = slot1,
+			count = slot0[2],
+			useageCount = slot1[slot0[slot0[1]].id] or 0
+		}
 	end)
 	slot0.fStage = table.remove(slot0.stages, 1)
 	slot0.inTime = pg.TimeMgr.GetInstance():inTime(slot1:getConfig("config_data")[6])
@@ -74,26 +74,26 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.awardBtn, function ()
-		uv0:showAwards()
+		slot0:showAwards()
 	end)
 	onButton(slot0, slot0.backBtn, function ()
-		uv0:emit(uv1.ON_BACK)
+		slot0:emit(slot1.ON_BACK)
 	end, SOUND_BACK)
 	onButton(slot0, slot0.forwordBattleBtn, function ()
-		if not uv0.inTime then
+		if not slot0.inTime then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 		else
-			uv0:emit(ActivityBossBattleMediator.ON_STAGE, uv0.fStage.config.id, true)
+			slot0:emit(ActivityBossBattleMediator.ON_STAGE, slot0.fStage.config.id, true)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.helpBtn, function ()
-		slot2.type = MSGBOX_TYPE_HELP
-		slot2.helps = pg.gametip.help_activity_bossbattle.tip
-
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.help_activity_bossbattle.tip
+		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.rankBtn, function ()
-		uv0:emit(ActivityBossBattleMediator.ON_RANK)
+		slot0:emit(ActivityBossBattleMediator.ON_RANK)
 	end, SFX_PANEL)
 end
 
@@ -112,25 +112,28 @@ end
 
 function slot0.updateMain(slot0)
 	slot2 = pg.extraenemy_template[slot0.bossId]
+	slot3 = slot0.maxHp <= slot0.damage
 
 	slot0.stageList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			onButton(uv0, slot2, function ()
-				if not uv0 and uv1.useageCount == uv1.count then
+			slot3 = slot0.stages[slot1 + 1]
+
+			onButton(slot0, slot2, function ()
+				if not slot0 and slot1.useageCount == slot1.count then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("common_count_noenough"))
 
 					return
 				end
 
-				if not uv2.inTime then
+				if not slot2.inTime then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 				else
-					uv2:emit(ActivityBossBattleMediator.ON_STAGE, uv1.config.id)
+					slot2:emit(ActivityBossBattleMediator.ON_STAGE, slot1.config.id)
 				end
 			end, SFX_PANEL)
 
 			if slot2:Find("bonusTip") then
-				setActive(slot2:Find("bonusTip"), uv0.stages[slot1 + 1].useageCount < (slot1 < 2 and 20 or 40))
+				setActive(slot2:Find("bonusTip"), slot3.useageCount < ((slot1 < 2 and 20) or 40))
 			end
 		end
 	end)
@@ -138,13 +141,12 @@ function slot0.updateMain(slot0)
 
 	slot0.ptTxt.text = slot0.pt
 
-	if slot0.maxHp <= slot0.damage then
+	if slot3 then
 		slot0.slider.value = 1
 		slot0.sliderTxt.text = "100.00"
 	else
-		slot4 = slot0.damage / slot0.maxHp
-		slot0.slider.value = slot4
-		slot0.sliderTxt.text = string.format("%0.2f", slot4 * 100)
+		slot0.slider.value = slot0.damage / slot0.maxHp
+		slot0.sliderTxt.text = string.format("%0.2f", slot0.damage / slot0.maxHp * 100)
 	end
 
 	setActive(slot0.desc1, not slot3)
@@ -164,40 +166,31 @@ function slot0.showAwards(slot0)
 		slot0.awardList = UIItemList.New(slot0.bonusWindow:Find("window/scrollview/list"), slot0.bonusWindow:Find("window/scrollview/list/item"))
 
 		onButton(slot0, slot0.bonusWindow, function ()
-			uv0:closeAwards()
+			slot0:closeAwards()
 		end, SFX_PANEL)
 		onButton(slot0, slot0.bonusWindow:Find("window/top/btnBack"), function ()
-			uv0:closeAwards()
+			slot0:closeAwards()
 		end, SFX_PANEL)
 	end
 
 	slot0.awardList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot5.id = uv0[slot1 + 1]
-			slot4 = Task.New({})
+			slot4 = Task.New({
+				id = slot0[slot1 + 1]
+			})
 
 			setText(slot2:Find("title/Text"), "PHASE" .. slot1 + 1)
 			setText(slot2:Find("target/Text"), slot4:getConfig("target_num"))
-
-			slot5 = slot4:getConfig("award_display")[1]
-			slot6.type = slot5[1]
-			slot6.id = slot5[2]
-			slot6.count = slot5[3]
-
-			updateDrop(slot2:Find("award"), {})
-
-			slot8 = getProxy(TaskProxy):getFinishTaskById(slot4.id)
-
+			updateDrop(slot2:Find("award"), slot6)
 			setActive(slot2:Find("award/mask"), slot8)
-			setActive(slot2:Find("award/mask_can"), slot8 and slot8:isFinish() and not slot8:isReceive())
-			onButton(uv1, slot2, function ()
-				slot2.type = MSGBOX_TYPE_SINGLE_ITEM
-				slot2.drop = uv0
-
+			setActive(slot2:Find("award/mask_can"), getProxy(TaskProxy).getFinishTaskById(slot7, slot4.id) and slot8:isFinish() and not slot8:isReceive())
+			onButton(slot1, slot2, function ()
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					yesText = "text_confirm",
 					hideNo = true,
-					content = ""
+					content = "",
+					type = MSGBOX_TYPE_SINGLE_ITEM,
+					drop = pg.MsgboxMgr.GetInstance().ShowMsgBox
 				})
 			end, SFX_PANEL)
 		end
@@ -211,31 +204,27 @@ function slot0.closeAwards(slot0)
 end
 
 function slot0.updateTaskBtn(slot0)
-	slot1 = slot0.taskAct:getConfig("config_data")
-	slot2 = _.any(slot1, function (slot0)
-		return getProxy(TaskProxy):getTaskById(slot0) and slot1:isFinish() and not slot1:isReceive()
-	end)
-
-	setActive(slot0.bonusWindow:Find("window/get"), slot2)
-	setActive(slot0.bonusWindow:Find("window/got"), _.all(slot1, function (slot0)
+	setActive(slot4, slot2)
+	setActive(slot5, _.all(slot1, function (slot0)
 		return getProxy(TaskProxy):getFinishTaskById(slot0) ~= nil
 	end))
-	setActive(slot0.bonusWindow:Find("window/disable"), not slot2 and not slot3)
+	setActive(slot0.bonusWindow:Find("window/disable"), not _.any(slot1, function (slot0)
+		return getProxy(TaskProxy):getTaskById(slot0) and slot1:isFinish() and not slot1:isReceive()
+	end) and not slot3)
 
 	if slot2 then
 		slot7 = _.detect(slot1, function (slot0)
-			slot1 = getProxy(TaskProxy)
-
-			return slot1:getTaskById(slot0) and slot1:isFinish() and not slot1:isReceive()
+			return getProxy(TaskProxy):getTaskById(slot0) and slot1:isFinish() and not slot1:isReceive()
 		end)
 
 		onButton(slot0, slot4, function ()
-			uv0:emit(ActivityBossBattleMediator.ON_GET, uv1)
+			slot0:emit(ActivityBossBattleMediator.ON_GET, slot0)
 		end, SFX_PANEL)
 	end
 end
 
 function slot0.willExit(slot0)
+	return
 end
 
 return slot0

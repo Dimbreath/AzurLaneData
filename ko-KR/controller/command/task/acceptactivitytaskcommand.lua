@@ -1,13 +1,12 @@
-slot0 = class("AcceptActivityTaskCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("AcceptActivityTaskCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	print("accpet activity task...................")
 
 	slot2 = getProxy(TaskProxy)
-	slot6[1] = ActivityConst.ACTIVITY_TYPE_TASK_LIST
-	slot6[2] = ActivityConst.ACTIVITY_TYPE_TASK_RES
 
-	_.each(getProxy(ActivityProxy):getActivitiesByTypes({}), function (slot0)
+	_.each(getProxy(ActivityProxy).getActivitiesByTypes(slot3, {
+		ActivityConst.ACTIVITY_TYPE_TASK_LIST,
+		ActivityConst.ACTIVITY_TYPE_TASK_RES
+	}), function (slot0)
 		slot1 = slot0:getConfig("config_id")
 
 		if not slot0:isEnd() and (slot1 == 1 or slot1 == 3) then
@@ -16,4 +15,4 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-return slot0
+return class("AcceptActivityTaskCommand", pm.SimpleCommand)

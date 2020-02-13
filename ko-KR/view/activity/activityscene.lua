@@ -197,12 +197,12 @@ function slot7(slot0)
 	slot3 = slot1
 
 	function slot4(slot0)
-		slot1 = uv0
+		slot1 = slot0
 		slot1 = slot1.pages
 		slot2 = slot0.name
 		slot3 = slot0.gameObject
 		slot1[slot2] = slot3
-		slot1 = uv0
+		slot1 = slot0
 		slot1 = slot1.pages
 		slot2 = slot0.name
 		slot1 = slot1[slot2]
@@ -224,10 +224,10 @@ function slot7(slot0)
 	slot3 = slot0.btnBack
 
 	function slot4()
-		slot0 = uv0
+		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.emit
-		slot2 = uv1
+		slot2 = slot1
 		slot2 = slot2.ON_BACK
 
 		slot0(slot1, slot2)
@@ -242,8 +242,10 @@ slot0.didEnter = slot7
 
 function slot7(slot0, slot1)
 	slot0.activities = slot1 or {}
+	slot3 = slot0
+	slot2 = slot0.flushTabs
 
-	slot0.flushTabs(slot0)
+	slot2(slot3)
 end
 
 slot0.setActivities = slot7
@@ -275,7 +277,7 @@ function slot7(slot0, slot1)
 	slot2 = slot2(slot3)
 
 	if not slot2 then
-		slot2 = uv0
+		slot2 = slot0
 		slot3 = slot1.id
 		slot2 = slot2[slot3]
 
@@ -285,7 +287,7 @@ function slot7(slot0, slot1)
 			slot2 = slot2(slot3)
 			slot3 = slot2
 			slot2 = slot2.getActivityById
-			slot4 = uv0
+			slot4 = slot0
 			slot5 = slot1.id
 			slot4 = slot4[slot5]
 			slot2 = slot2(slot3, slot4)
@@ -297,13 +299,13 @@ function slot7(slot0, slot1)
 
 	function slot2()
 		slot0 = ipairs
-		slot1 = uv0
+		slot1 = slot0
 		slot1 = slot1.activities
 		slot0, slot1, slot2 = slot0(slot1)
 
 		for slot3, slot4 in slot0, slot1, slot2 do
 			slot5 = slot4.id
-			slot6 = uv1
+			slot6 = slot1
 			slot6 = slot6.id
 
 			if slot5 == slot6 then
@@ -311,7 +313,7 @@ function slot7(slot0, slot1)
 			end
 		end
 
-		slot0 = uv0
+		slot0 = slot0
 		slot0 = slot0.activities
 		slot0 = #slot0
 		slot0 = slot0 + 1
@@ -375,7 +377,7 @@ function slot7(slot0, slot1)
 	slot3 = slot0.activities
 
 	function slot4(slot0)
-		return slot0.id == uv0
+		return slot0.id == slot0
 	end
 
 	slot2 = slot2(slot3, slot4)
@@ -492,12 +494,12 @@ function slot7(slot0, slot1)
 	slot2 = slot1.getConfig
 	slot4 = "type"
 	slot2 = slot2(slot3, slot4)
-	slot3 = uv0
+	slot3 = slot0
 	slot4 = slot1.id
 	slot3 = slot3[slot4]
 
 	if not slot3 then
-		slot3 = uv1
+		slot3 = slot1
 		slot3 = slot3[slot2]
 	end
 
@@ -511,12 +513,12 @@ function slot7(slot0, slot1)
 	slot2 = slot1.getConfig
 	slot4 = "type"
 	slot2 = slot2(slot3, slot4)
-	slot3 = uv0
+	slot3 = slot0
 	slot4 = slot1.id
 	slot3 = slot3[slot4]
 
 	if not slot3 then
-		slot3 = uv1
+		slot3 = slot1
 		slot3 = slot3[slot2]
 	end
 
@@ -544,24 +546,24 @@ function slot7(slot0)
 			slot3 = slot3.EventUpdate
 
 			if slot0 == slot3 then
-				slot3 = uv0
+				slot3 = slot0
 				slot3 = slot3.activities
 				slot4 = slot1 + 1
 				slot3 = slot3[slot4]
-				slot4 = uv0
+				slot4 = slot0
 				slot5 = slot4
 				slot4 = slot4.activity2Page
 				slot6 = slot3
 				slot4 = slot4(slot5, slot6)
 
 				if slot4 then
-					slot5 = uv0
+					slot5 = slot0
 					slot6 = slot5
 					slot5 = slot5.findTF
 					slot7 = "red"
 					slot8 = slot2
 					slot5 = slot5(slot6, slot7, slot8)
-					slot6 = uv0
+					slot6 = slot0
 					slot7 = slot6
 					slot6 = slot6.findTF
 					slot8 = "text/"
@@ -571,14 +573,14 @@ function slot7(slot0)
 					slot6 = slot6(slot7, slot8)
 
 					if not slot6 then
-						slot6 = uv0
+						slot6 = slot0
 						slot7 = slot6
 						slot6 = slot6.findTF
 						slot8 = "text/default_text"
 						slot6 = slot6(slot7, slot8)
 					end
 
-					slot7 = uv0
+					slot7 = slot0
 					slot8 = slot7
 					slot7 = slot7.findTF
 					slot9 = "text/"
@@ -588,7 +590,7 @@ function slot7(slot0)
 					slot7 = slot7(slot8, slot9)
 
 					if not slot7 then
-						slot7 = uv0
+						slot7 = slot0
 						slot8 = slot7
 						slot7 = slot7.findTF
 						slot9 = "text/default_text_selected"
@@ -596,7 +598,7 @@ function slot7(slot0)
 					end
 
 					slot8 = setImageSprite
-					slot9 = uv0
+					slot9 = slot0
 					slot10 = slot9
 					slot9 = slot9.findTF
 					slot11 = "off/text"
@@ -610,7 +612,7 @@ function slot7(slot0)
 					slot8(slot9, slot10, slot11)
 
 					slot8 = setImageSprite
-					slot9 = uv0
+					slot9 = slot0
 					slot10 = slot9
 					slot9 = slot9.findTF
 					slot11 = "on/text"
@@ -631,15 +633,15 @@ function slot7(slot0)
 					slot8(slot9, slot10(slot11))
 
 					slot8 = onToggle
-					slot9 = uv0
+					slot9 = slot0
 					slot10 = slot2
 
 					function slot11(slot0)
 						if slot0 then
-							slot1 = uv0
+							slot1 = slot0
 							slot2 = slot1
 							slot1 = slot1.selectActivity
-							slot3 = uv1
+							slot3 = slot1
 							slot3 = slot3.id
 
 							slot1(slot2, slot3)
@@ -651,15 +653,15 @@ function slot7(slot0)
 					slot8(slot9, slot10, slot11, slot12)
 				else
 					slot5 = onToggle
-					slot6 = uv0
+					slot6 = slot0
 					slot7 = slot2
 
 					function slot8(slot0)
-						slot1 = uv0
+						slot1 = slot0
 						slot2 = slot1
 						slot1 = slot1.loadActivityPanel
 						slot3 = slot0
-						slot4 = uv1
+						slot4 = slot1
 
 						slot1(slot2, slot3, slot4)
 					end
@@ -873,12 +875,12 @@ function slot7(slot0)
 			slot15 = slot9
 
 			function slot16()
-				slot0 = uv0
+				slot0 = slot0
 				slot1 = slot0
 				slot0 = slot0.emit
-				slot2 = uv1
+				slot2 = slot1
 				slot2 = slot2.ON_DROP
-				slot3 = uv2
+				slot3 = slot2
 
 				slot0(slot1, slot2, slot3)
 			end
@@ -917,12 +919,17 @@ function slot7(slot0)
 	slot7 = 1
 
 	for slot8 = slot5, slot6, slot7 do
-		slot9 = slot4.items
-		slot9 = slot9.GetChild(slot9, slot8 - 1)
-		slot10 = slot8 <= slot1.data1
+		GetImageSpriteFromAtlasAsync("ui/activityui_atlas", string.format("day%d", slot8) .. ((slot8 <= slot1.data1 and "_sel") or ""), slot0:findTF("day", slot4.items:GetChild(slot8 - 1)), true)
 
-		GetImageSpriteFromAtlasAsync("ui/activityui_atlas", string.format("day%d", slot8) .. (slot10 and "_sel" or ""), slot0.findTF(slot0, "day", slot9), true)
-		setActive(slot0.findTF(slot0, "got", slot9), slot10)
+		slot11 = setActive
+		slot13 = slot0
+		slot12 = slot0.findTF
+		slot14 = "got"
+		slot15 = slot9
+		slot12 = slot12(slot13, slot14, slot15)
+		slot13 = slot10
+
+		slot11(slot12, slot13)
 	end
 end
 
@@ -957,7 +964,7 @@ slot0.clear_7days_login = slot7
 function slot7(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
-	slot3 = uv0
+	slot3 = slot0
 	slot5 = slot1
 	slot4 = slot1.getConfig
 	slot6 = "type"
@@ -1056,7 +1063,7 @@ function slot7(slot0)
 
 			slot16 = GetImageSpriteFromAtlasAsync
 			slot17 = "ui/activityui_atlas"
-			slot18 = uv1
+			slot18 = slot1
 			slot19 = "/"
 			slot20 = slot2.name
 			slot21 = "/"
@@ -1098,12 +1105,12 @@ function slot7(slot0)
 				slot25 = slot20
 
 				function slot26()
-					slot0 = uv0
+					slot0 = slot0
 					slot1 = slot0
 					slot0 = slot0.emit
-					slot2 = uv1
+					slot2 = slot1
 					slot2 = slot2.ON_DROP
-					slot3 = uv2
+					slot3 = slot2
 
 					slot0(slot1, slot2, slot3)
 				end
@@ -1118,7 +1125,7 @@ function slot7(slot0)
 			slot18 = slot13
 
 			function slot19()
-				slot0 = uv0
+				slot0 = slot0
 				slot1 = slot0
 				slot0 = slot0.emit
 				slot2 = ActivityMediator
@@ -1126,10 +1133,10 @@ function slot7(slot0)
 				slot3 = {
 					cmd = 1
 				}
-				slot4 = uv1
+				slot4 = slot1
 				slot4 = slot4.id
 				slot3.activity_id = slot4
-				slot4 = uv2
+				slot4 = slot2
 				slot3.arg1 = slot4
 
 				slot0(slot1, slot2, slot3)
@@ -1190,8 +1197,8 @@ function slot7(slot0)
 			slot14(slot15)
 		end
 
-		setGray(slot0.findTF(slot0, "limit_label", slot10), slot13)
-		setGray(slot0.findTF(slot0, "items", slot10), slot13)
+		setGray(slot0:findTF("limit_label", slot10), slot13)
+		setGray(slot0:findTF("items", slot10), slot13)
 		setActive(slot12, slot13)
 		setActive(slot11, slot9[1] <= slot0.player.level and not slot13)
 	end
@@ -1223,7 +1230,7 @@ slot0.clear_level_award = slot7
 function slot7(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.pages
-	slot3 = uv0
+	slot3 = slot0
 	slot5 = slot1
 	slot4 = slot1.getConfig
 	slot6 = "type"
@@ -1296,33 +1303,27 @@ function slot7(slot0)
 			slot3 = slot3.EventUpdate
 
 			if slot0 == slot3 then
-				slot3 = slot1 + 1
-
-				updateDrop(slot2, _.map(uv0["day" .. slot3], function (slot0)
-					slot1.type = slot0[1]
-					slot1.id = slot0[2]
-					slot1.count = slot0[3]
-
-					return {}
+				updateDrop(slot2, _.map(slot0["day" .. slot3], function (slot0)
+					return {
+						type = slot0[1],
+						id = slot0[2],
+						count = slot0[3]
+					}
 				end)[1])
-				onButton(uv1, slot2, function ()
-					if #uv0 == 1 then
-						slot0 = uv1
-
-						slot0.emit(slot0, uv2.ON_DROP, uv0[1])
+				onButton(slot1, slot2, function ()
+					if #slot0 == 1 then
+						slot1:emit(slot2.ON_DROP, slot0[1])
 					else
-						slot0 = uv1
-						slot3.itemList = uv0
-
-						slot0.emit(slot0, uv2.ON_DROP_LIST, {
+						slot1:emit(slot2.ON_DROP_LIST, {
 							content = "",
-							item2Row = true
+							item2Row = true,
+							itemList = slot1.emit
 						})
 					end
 				end, SFX_PANEL)
-				setText(slot2.Find(slot2, "day/Text"), "Day " .. slot3)
-				setActive(slot2.Find(slot2, "got"), slot3 <= #uv3.data1_list)
-				setActive(slot2.Find(slot2, "today"), slot3 == #uv3.data1_list)
+				setText(slot2:Find("day/Text"), "Day " .. slot3)
+				setActive(slot2:Find("got"), slot1 + 1 <= #slot3.data1_list)
+				setActive(slot2:Find("today"), slot1 + 1 == #slot1 + 1.data1_list)
 			end
 		end
 
@@ -1369,11 +1370,9 @@ end
 slot0.clear_month_sign = slot7
 
 function slot7(slot0)
-
-	-- Decompilation error in this vicinity:
 	slot1 = slot0.activity
 	slot2 = slot0.pages
-	slot3 = uv0
+	slot3 = slot0
 	slot5 = slot1
 	slot4 = slot1.getConfig
 	slot6 = "type"
@@ -1424,7 +1423,7 @@ function slot7(slot0)
 		slot6 = slot3.charge
 
 		function slot7()
-			slot0 = uv0
+			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.emit
 			slot2 = ActivityMediator
@@ -1446,7 +1445,7 @@ function slot7(slot0)
 		slot6 = slot3.take
 
 		function slot7()
-			slot0 = uv0
+			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.emit
 			slot2 = ActivityMediator
@@ -1454,7 +1453,7 @@ function slot7(slot0)
 			slot3 = {
 				cmd = 1
 			}
-			slot4 = uv1
+			slot4 = slot1
 			slot4 = slot4.id
 			slot3.activity_id = slot4
 
@@ -1476,10 +1475,14 @@ function slot7(slot0)
 	slot5 = slot3.charge
 	slot6 = slot1.data2
 
-	slot4(slot5, slot1.data1 == 0)
-	setButtonEnabled(slot3.take, slot1.data2 == 0)
-	setActive(slot3.take, slot1.data1 > 0)
-	setActive(slot3.finish, slot1.data2 == 1)
+	if slot6 == 0 then
+		slot4(slot5, slot1.data1 == 0)
+		setButtonEnabled(slot3.take, slot1.data2 == 0)
+		setActive(slot3.take, slot1.data1 > 0)
+		setActive(slot3.finish, slot1.data2 == 1)
+
+		return
+	end
 end
 
 slot0.flush_charge_award = slot7
@@ -1616,7 +1619,7 @@ function slot7(slot0, slot1, slot2, slot3, slot4)
 
 		function slot14()
 			slot0 = setActive
-			slot1 = uv0
+			slot1 = slot0
 			slot1 = slot1.bonusWindow
 			slot2 = false
 
@@ -1637,7 +1640,7 @@ function slot7(slot0, slot1, slot2, slot3, slot4)
 
 		function slot14()
 			slot0 = setActive
-			slot1 = uv0
+			slot1 = slot0
 			slot1 = slot1.bonusWindow
 			slot2 = false
 
@@ -1663,22 +1666,14 @@ function slot7(slot0, slot1, slot2, slot3, slot4)
 			slot3 = slot3.EventUpdate
 
 			if slot0 == slot3 then
-				slot4 = pg.task_data_template[uv0[slot1 + 1]]
-				slot5 = slot4.award_display[1]
-				slot6.type = slot5[1]
-				slot6.id = slot5[2]
-				slot6.count = slot5[3]
-
-				updateDrop(slot2.Find(slot2, "award"), {})
-				onButton(uv1, slot2.Find(slot2, "award"), function ()
-					slot0 = uv0
-
-					slot0.emit(slot0, uv1.ON_DROP, uv2)
+				updateDrop(slot2:Find("award"), slot6)
+				onButton(slot1, slot2:Find("award"), function ()
+					slot0:emit(slot1.ON_DROP, )
 				end, SFX_PANEL)
-				setActive(slot2.Find(slot2, "award/mask"), slot1 + 1 <= uv3)
-				setText(slot2.Find(slot2, "target/Text"), slot4.target_num)
-				setText(slot2.Find(slot2, "target/title"), uv4)
-				setText(slot2.Find(slot2, "title/Text"), "PHASE   " .. slot1 + 1)
+				setActive(slot2:Find("award/mask"), slot1 + 1 <= slot3)
+				setText(slot2:Find("target/Text"), pg.task_data_template[slot0[slot1 + 1]].target_num)
+				setText(slot2:Find("target/title"), slot4)
+				setText(slot2:Find("title/Text"), "PHASE   " .. slot1 + 1)
 			end
 		end
 
@@ -1816,18 +1811,18 @@ function slot7(slot0, slot1, slot2, slot3)
 		slot11 = slot6.bonusList
 
 		function slot12()
-			slot0 = uv0
+			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.showPtBonusList
-			slot2 = uv1
-			slot3 = uv2
+			slot2 = slot1
+			slot3 = slot2
 			slot4 = i18n
 			slot5 = "pt_count"
-			slot6 = uv3
+			slot6 = slot3
 			slot4 = slot4(slot5, slot6)
 			slot5 = i18n
 			slot6 = "pt_total_count"
-			slot7 = uv3
+			slot7 = slot3
 
 			slot0(slot1, slot2, slot3, slot4, slot5(slot6, slot7))
 		end
@@ -1913,28 +1908,86 @@ function slot7(slot0, slot1, slot2, slot3)
 		slot16 = slot16(slot17, slot18)
 
 		if slot10 < slot14 then
-			setText(slot6.progressTxt, slot15(slot16, COLOR_RED or COLOR_GREEN) .. "/" .. slot14)
-			setSlider(slot6.progress, 0, slot14, math.min(slot10, slot14))
+			slot15 = slot15(slot16, COLOR_RED or COLOR_GREEN)
+			slot16 = "/"
+			slot17 = slot14
+			slot15 = slot15 .. slot16 .. slot17
+			slot16 = setText
+			slot17 = slot6.progressTxt
+			slot18 = slot15
 
-			slot16 = slot13.getConfig(slot13, "award_display")[1]
-			slot17.type = slot16[1]
-			slot17.id = slot16[2]
-			slot17.count = slot16[3]
+			slot16(slot17, slot18)
 
-			updateDrop(slot6.award, {})
-			onButton(slot0, slot6.award, function ()
-				slot0 = uv0
+			slot16 = setSlider
+			slot17 = slot6.progress
+			slot18 = 0
+			slot19 = slot14
+			slot20 = math
+			slot20 = slot20.min
+			slot21 = slot10
+			slot22 = slot14
 
-				slot0.emit(slot0, uv1.ON_DROP, uv2)
-			end, SFX_PANEL)
+			slot16(slot17, slot18, slot19, slot20(slot21, slot22))
+
+			slot17 = slot13
+			slot16 = slot13.getConfig
+			slot18 = "award_display"
+			slot16 = slot16(slot17, slot18)
+			slot16 = slot16[1]
+			slot17 = {}
+			slot18 = slot16[1]
+			slot17.type = slot18
+			slot18 = slot16[2]
+			slot17.id = slot18
+			slot18 = slot16[3]
+			slot17.count = slot18
+			slot18 = updateDrop
+			slot19 = slot6.award
+			slot20 = slot17
+
+			slot18(slot19, slot20)
+
+			slot18 = onButton
+			slot19 = slot0
+			slot20 = slot6.award
+
+			function slot21()
+				slot0 = slot0
+				slot1 = slot0
+				slot0 = slot0.emit
+				slot2 = slot1
+				slot2 = slot2.ON_DROP
+				slot3 = slot2
+
+				slot0(slot1, slot2, slot3)
+			end
+
+			slot22 = SFX_PANEL
+
+			slot18(slot19, slot20, slot21, slot22)
 
 			slot18 = slot6.btn
-			slot18.GetComponent(slot18, typeof(Image)).enabled = not slot13.isFinish(slot13)
+			slot19 = slot18
+			slot18 = slot18.GetComponent
+			slot20 = typeof
+			slot21 = Image
+			slot18 = slot18(slot19, slot20(slot21))
+			slot20 = slot13
+			slot19 = slot13.isFinish
+			slot19 = slot19(slot20)
+			slot19 = not slot19
+			slot18.enabled = slot19
 			slot18 = setActive
 			slot19 = slot6.btn
-			slot19 = slot19.Find(slot19, "get")
+			slot20 = slot19
+			slot19 = slot19.Find
+			slot21 = "get"
+			slot19 = slot19(slot20, slot21)
+			slot21 = slot13
+			slot20 = slot13.isFinish
+			slot20 = slot20(slot21)
 
-			if slot13.isFinish(slot13) then
+			if slot20 then
 				slot21 = slot13
 				slot20 = slot13.isReceive
 				slot20 = slot20(slot21)
@@ -1960,37 +2013,37 @@ function slot7(slot0, slot1, slot2, slot3)
 		slot20 = slot6.btn
 
 		function slot21()
-			slot0 = uv0
+			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.isFinish
 			slot0 = slot0(slot1)
 
 			if not slot0 then
-				slot0 = uv1
+				slot0 = slot1
 				slot1 = slot0
 				slot0 = slot0.emit
 				slot2 = ActivityMediator
 				slot2 = slot2.ON_TASK_GO
-				slot3 = uv0
+				slot3 = slot0
 
 				slot0(slot1, slot2, slot3)
 			else
-				slot0 = uv1
+				slot0 = slot1
 				slot1 = slot0
 				slot0 = slot0.TaskSubmitCheck
-				slot2 = uv0
+				slot2 = slot0
 				slot0 = slot0(slot1, slot2)
 
 				if not slot0 then
 					return
 				end
 
-				slot0 = uv1
+				slot0 = slot1
 				slot1 = slot0
 				slot0 = slot0.emit
 				slot2 = ActivityMediator
 				slot2 = slot2.ON_TASK_SUBMIT
-				slot3 = uv0
+				slot3 = slot0
 
 				slot0(slot1, slot2, slot3)
 			end
@@ -2065,29 +2118,10 @@ function slot7(slot0)
 	if slot3 == slot4 then
 		slot4 = 1
 	else
-		slot4 = TASK_SUB_TYPE_RES_OIL
-		slot4 = slot3 == slot4 and 2 or nil
+		slot0:update_task_list_res_layer(slot0.activity, i18n("pt_count", slot5), i18n("pt_total_count", pg.item_data_statistics[id2ItemId(slot4)].name))
+
+		return
 	end
-
-	slot5 = pg
-	slot5 = slot5.item_data_statistics
-	slot6 = id2ItemId
-	slot7 = slot4
-	slot6 = slot6(slot7)
-	slot5 = slot5[slot6]
-	slot5 = slot5.name
-	slot7 = slot0
-	slot6 = slot0.update_task_list_res_layer
-	slot8 = slot0.activity
-	slot9 = i18n
-	slot10 = "pt_count"
-	slot11 = slot5
-	slot9 = slot9(slot10, slot11)
-	slot10 = i18n
-	slot11 = "pt_total_count"
-	slot12 = slot5
-
-	slot6(slot7, slot8, slot9, slot10(slot11, slot12))
 end
 
 slot0.flush_task_list_res = slot7
@@ -2195,13 +2229,13 @@ function slot7(slot0, slot1, slot2, slot3)
 		slot10 = slot6.detailBtn
 
 		function slot11()
-			slot0 = uv0
+			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.showPtBonusList
-			slot2 = uv1
-			slot3 = uv2
-			slot4 = uv3
-			slot5 = uv4
+			slot2 = slot1
+			slot3 = slot2
+			slot4 = slot3
+			slot5 = slot4
 
 			slot0(slot1, slot2, slot3, slot4, slot5)
 		end
@@ -2281,12 +2315,12 @@ function slot7(slot0, slot1, slot2, slot3)
 		slot15 = slot6.award
 
 		function slot16()
-			slot0 = uv0
+			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.emit
-			slot2 = uv1
+			slot2 = slot1
 			slot2 = slot2.ON_DROP
-			slot3 = uv2
+			slot3 = slot2
 
 			slot0(slot1, slot2, slot3)
 		end
@@ -2357,27 +2391,27 @@ function slot7(slot0, slot1, slot2, slot3)
 		slot15 = slot6.btn
 
 		function slot16()
-			slot0 = uv0
+			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.isFinish
 			slot0 = slot0(slot1)
 
 			if not slot0 then
-				slot0 = uv1
+				slot0 = slot1
 				slot1 = slot0
 				slot0 = slot0.emit
 				slot2 = ActivityMediator
 				slot2 = slot2.ON_TASK_GO
-				slot3 = uv0
+				slot3 = slot0
 
 				slot0(slot1, slot2, slot3)
 			else
-				slot0 = uv1
+				slot0 = slot1
 				slot1 = slot0
 				slot0 = slot0.emit
 				slot2 = ActivityMediator
 				slot2 = slot2.ON_TASK_SUBMIT
-				slot3 = uv0
+				slot3 = slot0
 
 				slot0(slot1, slot2, slot3)
 			end
@@ -2511,26 +2545,26 @@ function slot7(slot0, slot1)
 			slot3 = slot3.EventUpdate
 
 			if slot0 == slot3 then
-				slot3 = uv0
-				slot4 = uv1
+				slot3 = slot0
+				slot4 = slot1
 				slot3 = slot3[slot4]
 				slot4 = slot1 + 1
 				slot3 = slot3[slot4]
-				slot4 = uv2
+				slot4 = slot2
 				slot5 = slot4
 				slot4 = slot4.getTaskById
 				slot6 = slot3
 				slot4 = slot4(slot5, slot6)
 
 				if not slot4 then
-					slot4 = uv2
+					slot4 = slot2
 					slot5 = slot4
 					slot4 = slot4.getFinishTaskById
 					slot6 = slot3
 					slot4 = slot4(slot5, slot6)
 				end
 
-				slot5 = uv3
+				slot5 = slot3
 				slot6 = slot5
 				slot5 = slot5.findTF
 				slot7 = "btn"
@@ -2544,7 +2578,7 @@ function slot7(slot0, slot1)
 					slot9 = "target_num"
 					slot7 = slot7(slot8, slot9)
 					slot8 = setText
-					slot9 = uv3
+					slot9 = slot3
 					slot10 = slot9
 					slot9 = slot9.findTF
 					slot11 = "description"
@@ -2557,7 +2591,7 @@ function slot7(slot0, slot1)
 					slot8(slot9, slot10(slot11, slot12))
 
 					slot8 = setSlider
-					slot9 = uv3
+					slot9 = slot3
 					slot10 = slot9
 					slot9 = slot9.findTF
 					slot11 = "progress"
@@ -2570,7 +2604,7 @@ function slot7(slot0, slot1)
 					slot8(slot9, slot10, slot11, slot12)
 
 					slot8 = setText
-					slot9 = uv3
+					slot9 = slot3
 					slot10 = slot9
 					slot9 = slot9.findTF
 					slot11 = "progressText"
@@ -2583,7 +2617,7 @@ function slot7(slot0, slot1)
 
 					slot8(slot9, slot10)
 
-					slot8 = uv3
+					slot8 = slot3
 					slot9 = slot8
 					slot8 = slot8.findTF
 					slot10 = "award"
@@ -2608,16 +2642,16 @@ function slot7(slot0, slot1)
 					slot11(slot12, slot13)
 
 					slot11 = onButton
-					slot12 = uv3
+					slot12 = slot3
 					slot13 = slot8
 
 					function slot14()
-						slot0 = uv0
+						slot0 = slot0
 						slot1 = slot0
 						slot0 = slot0.emit
-						slot2 = uv1
+						slot2 = slot1
 						slot2 = slot2.ON_DROP
-						slot3 = uv2
+						slot3 = slot2
 
 						slot0(slot1, slot2, slot3)
 					end
@@ -2674,31 +2708,31 @@ function slot7(slot0, slot1)
 					slot11(slot12, slot13)
 
 					slot11 = onButton
-					slot12 = uv3
+					slot12 = slot3
 					slot13 = slot5
 
 					function slot14()
-						slot0 = uv0
+						slot0 = slot0
 						slot1 = slot0
 						slot0 = slot0.isFinish
 						slot0 = slot0(slot1)
 
 						if not slot0 then
-							slot0 = uv1
+							slot0 = slot1
 							slot1 = slot0
 							slot0 = slot0.emit
 							slot2 = ActivityMediator
 							slot2 = slot2.ON_TASK_GO
-							slot3 = uv0
+							slot3 = slot0
 
 							slot0(slot1, slot2, slot3)
 						else
-							slot0 = uv1
+							slot0 = slot1
 							slot1 = slot0
 							slot0 = slot0.emit
 							slot2 = ActivityMediator
 							slot2 = slot2.ON_TASK_SUBMIT
-							slot3 = uv0
+							slot3 = slot0
 
 							slot0(slot1, slot2, slot3)
 						end
@@ -2876,7 +2910,7 @@ function slot7(slot0, slot1)
 	slot7 = slot4.task
 
 	function slot8()
-		slot0 = uv0
+		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.emit
 		slot2 = ActivityMediator
@@ -2897,13 +2931,13 @@ function slot7(slot0, slot1)
 	slot7 = slot4.shop
 
 	function slot8()
-		slot0 = uv0
+		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.isEnd
 		slot0 = slot0(slot1)
 
 		if not slot0 then
-			slot0 = uv1
+			slot0 = slot1
 			slot1 = slot0
 			slot0 = slot0.emit
 			slot2 = ActivityMediator
@@ -2932,7 +2966,7 @@ function slot7(slot0, slot1)
 	slot7 = slot4.build
 
 	function slot8()
-		slot0 = uv0
+		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.emit
 		slot2 = ActivityMediator
@@ -2953,13 +2987,13 @@ function slot7(slot0, slot1)
 	slot7 = slot4.fight
 
 	function slot8()
-		slot0 = uv0
+		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.isEnd
 		slot0 = slot0(slot1)
 
 		if not slot0 then
-			slot0 = uv1
+			slot0 = slot1
 			slot1 = slot0
 			slot0 = slot0.emit
 			slot2 = ActivityMediator
@@ -2988,7 +3022,7 @@ function slot7(slot0, slot1)
 	slot7 = slot4.lottery
 
 	function slot8()
-		slot0 = uv0
+		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.emit
 		slot2 = ActivityMediator
@@ -3004,7 +3038,7 @@ function slot7(slot0, slot1)
 	slot7 = slot4.memory
 
 	function slot8()
-		slot0 = uv0
+		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.emit
 		slot2 = ActivityMediator
@@ -3014,7 +3048,7 @@ function slot7(slot0, slot1)
 		slot4 = {
 			toggle = 4
 		}
-		slot5 = uv1
+		slot5 = slot1
 		slot4.memoryGroup = slot5
 
 		slot0(slot1, slot2, slot3, slot4)

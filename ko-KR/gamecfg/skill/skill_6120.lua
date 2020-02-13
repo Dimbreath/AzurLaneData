@@ -1,14 +1,3 @@
-slot2.arg_list = {
-	maxHPRatio = 0.01
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillHeal",
-	target_choise = "TargetSelf"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "维修工具T3",
@@ -17,5 +6,16 @@ return {
 	aniEffect = "",
 	desc = "维修工具T3",
 	painting = 0,
-	id = 6120
+	id = 6120,
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillHeal",
+			target_choise = "TargetSelf",
+			arg_list = {
+				maxHPRatio = 0.01
+			}
+		}
+	}
 }

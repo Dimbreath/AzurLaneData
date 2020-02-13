@@ -38,15 +38,12 @@ end
 
 function slot0.StoreDataToServer(slot0, slot1)
 	if slot0.mg_data:getConfig("type") == MiniGameConst.MG_TYPE_2 then
-		slot3 = {
-			nil,
-			2
-		}
-		slot3[1] = slot0.mg_data.id
-
 		table.insertto(slot3, slot1)
 		slot0.mg_data:SetRuntimeData("elements", slot1)
-		slot0:emit(BaseMiniGameMediator.MINI_GAME_OPERATOR, MiniGameOPCommand.CMD_SPECIAL_GAME, slot3)
+		slot0:emit(BaseMiniGameMediator.MINI_GAME_OPERATOR, MiniGameOPCommand.CMD_SPECIAL_GAME, {
+			slot0.mg_data.id,
+			2
+		})
 	end
 end
 
@@ -55,12 +52,19 @@ function slot0.SendOperator(slot0, slot1, slot2)
 end
 
 function slot0.OnSendMiniGameOPDone(slot0, slot1)
+	return
 end
 
 function slot0.OnModifyMiniGameDataDone(slot0, slot1)
+	return
+end
+
+function slot0.OnGetAwardDone(slot0, slot1)
+	return
 end
 
 function slot0.OnApplicationPaused(slot0, slot1)
+	return
 end
 
 return slot0

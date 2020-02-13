@@ -1,6 +1,4 @@
-slot0 = class("PrepControllerCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("PrepControllerCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot0.facade:registerCommand(GAME.LOAD_CONTEXT, LoadContextCommand)
 	slot0.facade:registerCommand(GAME.LOAD_SCENE, LoadSceneCommand)
 	slot0.facade:registerCommand(GAME.GO_BACK, GoBackCommand)
@@ -274,4 +272,4 @@ function slot0.execute(slot0, slot1)
 	slot0.facade:registerCommand(GAME.MODIFY_MINI_GAME_DATA, MiniGameModifyDataCommand)
 end
 
-return slot0
+return class("PrepControllerCommand", pm.SimpleCommand)

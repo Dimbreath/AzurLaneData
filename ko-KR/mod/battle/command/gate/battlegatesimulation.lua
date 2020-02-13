@@ -3,19 +3,18 @@ ys.Battle.BattleGateSimulation = slot0
 slot0.__name = "BattleGateSimulation"
 
 function slot0.Entrance(slot0, slot1)
-	slot2 = slot0.stageId
-	slot5.prefabFleet = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(pg.expedition_data_template[slot2].dungeon_id).fleet_prefab
-	slot5.stageId = slot2
-	slot5.system = SYSTEM_SIMULATION
-	slot5.exitCallback = slot0.exitCallback
-
-	slot1:sendNotification(GAME.BEGIN_STAGE_DONE, {})
+	slot1:sendNotification(GAME.BEGIN_STAGE_DONE, {
+		prefabFleet = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(slot3).fleet_prefab,
+		stageId = slot0.stageId,
+		system = SYSTEM_SIMULATION,
+		exitCallback = slot0.exitCallback
+	})
 end
 
 function slot0.Exit(slot0, slot1)
-	slot5.system = SYSTEM_SIMULATION
-
-	slot1:sendNotification(GAME.FINISH_STAGE_DONE, {})
+	slot1:sendNotification(GAME.FINISH_STAGE_DONE, {
+		system = SYSTEM_SIMULATION
+	})
 end
 
 return slot0

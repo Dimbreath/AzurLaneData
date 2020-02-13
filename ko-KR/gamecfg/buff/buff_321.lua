@@ -1,18 +1,3 @@
-slot2.trigger = {
-	"onUpdate"
-}
-slot2.arg_list = {
-	k = 0.2,
-	attr = "airPower",
-	time = 3,
-	dotType = 2,
-	number = 10
-}
-slot1[1] = {
-	type = "BattleBuffDOT"
-}
-slot0.effect_list = {}
-
 return {
 	time = 9,
 	name = "减速进水9秒",
@@ -22,5 +7,20 @@ return {
 	stack = 1,
 	id = 321,
 	icon = 321,
-	last_effect = "Darkness"
+	last_effect = "Darkness",
+	effect_list = {
+		{
+			type = "BattleBuffDOT",
+			trigger = {
+				"onUpdate"
+			},
+			arg_list = {
+				k = 0.2,
+				attr = "airPower",
+				time = 3,
+				dotType = 2,
+				number = 10
+			}
+		}
+	}
 }

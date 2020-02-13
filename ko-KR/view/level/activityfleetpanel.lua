@@ -5,7 +5,7 @@ slot3 = "..level.LevelEliteFleetPanel"
 slot0 = slot0(slot1, slot2(slot3))
 
 function slot1(slot0)
-	slot1 = uv0
+	slot1 = slot0
 	slot1 = slot1.super
 	slot1 = slot1.init
 	slot2 = slot0
@@ -41,11 +41,11 @@ function slot1(slot0, slot1, slot2)
 	slot5 = slot0.btnGo
 
 	function slot6()
-		slot0 = uv0
+		slot0 = slot0
 		slot0 = slot0.onCombat
 
 		if slot0 then
-			slot0 = uv0
+			slot0 = slot0
 			slot0 = slot0.onCombat
 
 			slot0()
@@ -61,21 +61,21 @@ function slot1(slot0, slot1, slot2)
 	slot5 = slot0.btnBack
 
 	function slot6()
-		slot0 = uv0
+		slot0 = slot0
 		slot0 = slot0.onCancel
 
 		if slot0 then
-			slot0 = uv0
+			slot0 = slot0
 			slot0 = slot0.onCancel
 
 			slot0()
 		end
 
-		slot0 = uv0
+		slot0 = slot0
 		slot0 = slot0.onCommit
 
 		if slot0 then
-			slot0 = uv0
+			slot0 = slot0
 			slot0 = slot0.onCommit
 
 			slot0()
@@ -91,21 +91,21 @@ function slot1(slot0, slot1, slot2)
 	slot5 = slot0._tf
 
 	function slot6()
-		slot0 = uv0
+		slot0 = slot0
 		slot0 = slot0.onCancel
 
 		if slot0 then
-			slot0 = uv0
+			slot0 = slot0
 			slot0 = slot0.onCancel
 
 			slot0()
 		end
 
-		slot0 = uv0
+		slot0 = slot0
 		slot0 = slot0.onCommit
 
 		if slot0 then
-			slot0 = uv0
+			slot0 = slot0
 			slot0 = slot0.onCommit
 
 			slot0()
@@ -121,7 +121,7 @@ function slot1(slot0, slot1, slot2)
 	slot5 = slot0.toggleMask
 
 	function slot6()
-		slot0 = uv0
+		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.hideToggleMask
 
@@ -137,12 +137,12 @@ function slot1(slot0, slot1, slot2)
 	slot5 = slot0.commanderBtn
 
 	function slot6(slot0)
-		slot1 = uv0
+		slot1 = slot0
 		slot1 = slot1.parent
 		slot1 = slot1.contextData
 		slot1.showCommander = slot0
 		slot1 = pairs
-		slot2 = uv0
+		slot2 = slot0
 		slot2 = slot2.tfFleets
 		slot1, slot2, slot3 = slot1(slot2)
 
@@ -152,7 +152,7 @@ function slot1(slot0, slot1, slot2)
 			slot8 = 1
 
 			for slot9 = slot6, slot7, slot8 do
-				slot10 = uv0
+				slot10 = slot0
 				slot11 = slot10
 				slot10 = slot10.updateCommanderBtn
 				slot12 = slot4
@@ -240,23 +240,23 @@ end
 slot0.updateFleets = slot1
 
 function slot1(slot0)
+	return
 end
 
 slot0.updateLimit = slot1
 
 function slot1(slot0, slot1, slot2)
 	slot4 = slot0.fleets[slot1][slot2]
-	slot5 = slot0.tfFleets[slot1][slot2]
-	slot8 = slot0.findTF(slot0, "btn_recom", slot5)
-	slot9 = slot0.findTF(slot0, "blank", slot5)
-	slot10 = slot0.findTF(slot0, "commander", slot5)
+	slot8 = slot0:findTF("btn_recom", slot5)
+	slot9 = slot0:findTF("blank", slot5)
+	slot10 = slot0:findTF("commander", slot5)
 
-	setActive(slot0.findTF(slot0, "btn_select", slot5), false)
+	setActive(slot6, false)
 
 	slot11 = setActive
-	slot12 = slot0.findTF(slot0, "btn_clear", slot5)
+	slot12 = slot0:findTF("btn_clear", slot5)
 
-	if slot2 <= slot0.getLimitNums(slot0, slot1) then
+	if slot2 <= slot0:getLimitNums(slot1) then
 		slot13 = slot0.parent
 		slot13 = slot13.contextData
 		slot13 = slot13.showCommander
@@ -301,23 +301,23 @@ end
 slot0.updateCommanderBtn = slot1
 
 function slot1(slot0, slot1, slot2)
-	slot0.updateCommanderBtn(slot0, slot1, slot2)
+	slot0:updateCommanderBtn(slot1, slot2)
 
 	slot3 = slot0.fleets[slot1][slot2]
-	slot4 = slot2 <= slot0.getLimitNums(slot0, slot1)
-	slot5 = slot0.tfFleets[slot1][slot2]
-	slot8 = slot0.findTF(slot0, TeamType.Vanguard, slot5)
-	slot9 = slot0.findTF(slot0, TeamType.Submarine, slot5)
-	slot10 = slot0.findTF(slot0, "btn_select", slot5)
-	slot11 = slot0.findTF(slot0, "btn_recom", slot5)
-	slot12 = slot0.findTF(slot0, "btn_clear", slot5)
-	slot13 = slot0.findTF(slot0, "blank", slot5)
-	slot15 = slot0.findTF(slot0, "commander", slot5)
+	slot4 = slot2 <= slot0:getLimitNums(slot1)
+	slot7 = slot0:findTF(TeamType.Main, slot5)
+	slot8 = slot0:findTF(TeamType.Vanguard, slot5)
+	slot9 = slot0:findTF(TeamType.Submarine, slot5)
+	slot10 = slot0:findTF("btn_select", slot5)
+	slot11 = slot0:findTF("btn_recom", slot5)
+	slot12 = slot0:findTF("btn_clear", slot5)
+	slot13 = slot0:findTF("blank", slot5)
+	slot15 = slot0:findTF("commander", slot5)
 
-	setActive(slot0.findTF(slot0, "selected", slot5), false)
+	setActive(slot14, false)
 	setText(findTF(slot5, "bg/name"), "")
 
-	if slot0.findTF(slot0, TeamType.Main, slot5) then
+	if slot7 then
 		setActive(slot7, slot4 and slot3)
 	end
 
@@ -338,7 +338,9 @@ function slot1(slot0, slot1, slot2)
 
 		slot16(slot17, Fleet.DEFAULT_NAME[slot3.id] or slot3.name)
 
-		if slot1 == FleetType.Submarine then
+		slot16 = FleetType.Submarine
+
+		if slot1 == slot16 then
 			slot17 = slot0
 			slot16 = slot0.updateShips
 			slot18 = slot9
@@ -385,13 +387,13 @@ function slot1(slot0, slot1, slot2)
 		slot18 = slot11
 
 		function slot19()
-			slot0 = uv0
+			slot0 = slot0
 			slot0 = slot0.parent
 			slot1 = slot0
 			slot0 = slot0.emit
 			slot2 = ActivityBossBattleMediator2
 			slot2 = slot2.ON_FLEET_RECOMMEND
-			slot3 = uv1
+			slot3 = slot1
 			slot3 = slot3.id
 
 			slot0(slot1, slot2, slot3)
@@ -404,13 +406,13 @@ function slot1(slot0, slot1, slot2)
 		slot18 = slot12
 
 		function slot19()
-			slot0 = uv0
+			slot0 = slot0
 			slot0 = slot0.parent
 			slot1 = slot0
 			slot0 = slot0.emit
 			slot2 = ActivityBossBattleMediator2
 			slot2 = slot2.ON_FLEET_CLEAR
-			slot3 = uv1
+			slot3 = slot1
 			slot3 = slot3.id
 
 			slot0(slot1, slot2, slot3)
@@ -498,12 +500,12 @@ function slot1(slot0, slot1, slot2)
 		slot13 = slot9
 
 		function slot14()
-			slot0 = uv0
+			slot0 = slot0
 			slot0 = slot0.parent
 			slot1 = slot0
 			slot0 = slot0.openCommanderPanel
-			slot2 = uv1
-			slot3 = uv1
+			slot2 = slot1
+			slot3 = slot1
 			slot3 = slot3.id
 
 			slot0(slot1, slot2, slot3)
@@ -518,12 +520,12 @@ function slot1(slot0, slot1, slot2)
 		slot13 = slot10
 
 		function slot14()
-			slot0 = uv0
+			slot0 = slot0
 			slot0 = slot0.parent
 			slot1 = slot0
 			slot0 = slot0.openCommanderPanel
-			slot2 = uv1
-			slot3 = uv1
+			slot2 = slot1
+			slot3 = slot1
 			slot3 = slot3.id
 
 			slot0(slot1, slot2, slot3)
@@ -556,7 +558,7 @@ function slot1(slot0, slot1, slot2, slot3, slot4, slot5)
 			slot3 = slot3(slot4)
 			slot5 = slot3
 			slot4 = slot3.getShipById
-			slot6 = uv0
+			slot6 = slot0
 			slot7 = slot1 + 1
 			slot6 = slot6[slot7]
 			slot4 = slot4(slot5, slot6)
@@ -621,12 +623,12 @@ function slot1(slot0, slot1, slot2, slot3, slot4, slot5)
 			slot5 = slot5(slot6, slot7(slot8))
 
 			function slot6()
-				slot0 = uv0
+				slot0 = slot0
 				slot0 = slot0.onCancel
 
 				slot0()
 
-				slot0 = uv0
+				slot0 = slot0
 				slot0 = slot0.parent
 				slot1 = slot0
 				slot0 = slot0.emit
@@ -635,13 +637,13 @@ function slot1(slot0, slot1, slot2, slot3, slot4, slot5)
 				slot3 = {
 					shipType = 0
 				}
-				slot4 = uv1
+				slot4 = slot1
 				slot3.fleet = slot4
-				slot4 = uv2
+				slot4 = slot2
 				slot3.shipVO = slot4
-				slot4 = uv3
+				slot4 = slot3
 				slot3.fleetIndex = slot4
-				slot4 = uv4
+				slot4 = slot4
 				slot3.teamType = slot4
 
 				slot0(slot1, slot2, slot3)
@@ -664,7 +666,7 @@ function slot1(slot0, slot1, slot2, slot3, slot4, slot5)
 			slot7 = slot7.AddListener
 
 			function slot9()
-				slot0 = uv0
+				slot0 = slot0
 
 				slot0()
 			end
@@ -676,27 +678,27 @@ function slot1(slot0, slot1, slot2, slot3, slot4, slot5)
 			slot7 = slot7.AddListener
 
 			function slot9()
-				slot0 = uv0
+				slot0 = slot0
 
 				if slot0 then
-					slot0 = uv1
+					slot0 = slot1
 					slot0 = slot0.onCancel
 
 					slot0()
 
-					slot0 = uv1
+					slot0 = slot1
 					slot0 = slot0.onLongPressShip
-					slot1 = uv0
+					slot1 = slot0
 					slot1 = slot1.id
 					slot2 = _
 					slot2 = slot2.map
-					slot3 = uv2
+					slot3 = slot2
 					slot4 = slot3
 					slot3 = slot3.getShipIds
 					slot3 = slot3(slot4)
 
 					function slot4(slot0)
-						slot1 = uv0
+						slot1 = slot0
 						slot2 = slot1
 						slot1 = slot1.getShipById
 						slot3 = slot0
@@ -706,7 +708,7 @@ function slot1(slot0, slot1, slot2, slot3, slot4, slot5)
 
 					slot0(slot1, slot2(slot3, slot4))
 				else
-					slot0 = uv4
+					slot0 = slot4
 
 					slot0()
 				end
@@ -739,7 +741,7 @@ function slot1(slot0, slot1, slot2)
 	slot4 = slot0.fleets
 
 	function slot5(slot0)
-		return slot0.getFleetType(slot0) == uv0
+		return slot0:getFleetType() == slot0
 	end
 
 	slot3 = slot3(slot4, slot5)
@@ -814,8 +816,8 @@ function slot1(slot0, slot1, slot2)
 				slot16 = slot8
 
 				function slot17()
-					slot0 = uv0
-					slot1 = uv1
+					slot0 = slot0
+					slot1 = slot1
 					slot1 = slot1.id
 
 					slot0(slot1)
@@ -836,7 +838,7 @@ function slot1(slot0, slot1, slot2)
 					slot0 = slot0()
 					slot1 = slot0
 					slot0 = slot0.ShowTips
-					slot2 = uv0
+					slot2 = slot0
 
 					slot0(slot1, slot2)
 				end
@@ -918,7 +920,7 @@ function slot1(slot0)
 		slot7 = slot5
 
 		function slot8(slot0)
-			slot1 = uv0
+			slot1 = slot0
 			slot2 = slot1
 			slot1 = slot1.clearFleet
 			slot3 = slot0

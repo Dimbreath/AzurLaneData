@@ -1,14 +1,3 @@
-slot2.trigger = {
-	"onAttach"
-}
-slot2.arg_list = {
-	skill_id = 6360
-}
-slot1[1] = {
-	type = "BattleBuffCastSkill"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "98式延迟射击装置",
@@ -19,5 +8,16 @@ return {
 	stack = 1,
 	color = "yellow",
 	icon = 6360,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				skill_id = 6360
+			}
+		}
+	}
 }

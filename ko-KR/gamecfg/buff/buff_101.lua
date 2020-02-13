@@ -1,35 +1,3 @@
-slot2.trigger = {
-	"onAttach"
-}
-slot2.arg_list = {
-	number = 1500,
-	attr = "cannonPower"
-}
-slot1[1] = {
-	type = "BattleBuffAddAttrRatio"
-}
-slot2.trigger = {
-	"onAttach"
-}
-slot2.arg_list = {
-	number = 1500,
-	attr = "torpedoPower"
-}
-slot1[2] = {
-	type = "BattleBuffAddAttrRatio"
-}
-slot2.trigger = {
-	"onAttach"
-}
-slot2.arg_list = {
-	number = -1000,
-	attr = "dodgeRate"
-}
-slot1[3] = {
-	type = "BattleBuffAddAttrRatio"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "单纵阵突入",
@@ -40,5 +8,37 @@ return {
 	stack = 1,
 	color = "yellow",
 	icon = 101,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddAttrRatio",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				number = 1500,
+				attr = "cannonPower"
+			}
+		},
+		{
+			type = "BattleBuffAddAttrRatio",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				number = 1500,
+				attr = "torpedoPower"
+			}
+		},
+		{
+			type = "BattleBuffAddAttrRatio",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				number = -1000,
+				attr = "dodgeRate"
+			}
+		}
+	}
 }

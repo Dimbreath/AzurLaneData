@@ -1,19 +1,3 @@
-slot2.trigger = {
-	"onChargeWeaponBulletCreate"
-}
-slot2.arg_list = {
-	damageRant = 0.7,
-	range = 200,
-	count = 3,
-	deltaDamageRant = -0.1,
-	target = "TargetHarmNearest",
-	barrageID = 10001
-}
-slot1[1] = {
-	type = "BattleBuffBulletHitEmitter"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "测试-休斯敦-技能触发被动",
@@ -23,5 +7,21 @@ return {
 	stack = 1,
 	id = 60018,
 	icon = 60018,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffBulletHitEmitter",
+			trigger = {
+				"onChargeWeaponBulletCreate"
+			},
+			arg_list = {
+				damageRant = 0.7,
+				range = 200,
+				count = 3,
+				deltaDamageRant = -0.1,
+				target = "TargetHarmNearest",
+				barrageID = 10001
+			}
+		}
+	}
 }

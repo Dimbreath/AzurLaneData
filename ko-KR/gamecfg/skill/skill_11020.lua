@@ -1,133 +1,134 @@
-slot1.offset = {
-	0,
-	-2,
-	0
-}
-slot0.aniEffect = {
-	effect = "jineng"
-}
-slot2.arg_list = {
-	weapon_id = 66420
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetHarmRandom"
-}
-slot0.effect_list = {}
-slot3.arg_list = {
-	weapon_id = 66421
-}
-slot2[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetHarmRandom"
-}
-slot1.effect_list = {}
-slot0[1] = {}
-slot3.arg_list = {
-	weapon_id = 66422
-}
-slot2[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetHarmRandom"
-}
-slot1.effect_list = {}
-slot0[2] = {}
-slot3.arg_list = {
-	weapon_id = 66423
-}
-slot2[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetHarmRandom"
-}
-slot1.effect_list = {}
-slot0[3] = {}
-slot3.arg_list = {
-	weapon_id = 66424
-}
-slot2[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetHarmRandom"
-}
-slot1.effect_list = {}
-slot0[4] = {}
-slot3.arg_list = {
-	weapon_id = 66425
-}
-slot2[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetHarmRandom"
-}
-slot1.effect_list = {}
-slot0[5] = {}
-slot3.arg_list = {
-	weapon_id = 66426
-}
-slot2[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetHarmRandom"
-}
-slot1.effect_list = {}
-slot0[6] = {}
-slot3.arg_list = {
-	weapon_id = 66427
-}
-slot2[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetHarmRandom"
-}
-slot1.effect_list = {}
-slot0[7] = {}
-slot3.arg_list = {
-	weapon_id = 66428
-}
-slot2[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetHarmRandom"
-}
-slot1.effect_list = {}
-slot0[8] = {}
-slot3.arg_list = {
-	weapon_id = 66429
-}
-slot2[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetHarmRandom"
-}
-slot1.effect_list = {}
-slot0[9] = {}
-slot3.arg_list = {
-	weapon_id = 66430
-}
-slot2[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetHarmRandom"
-}
-slot1.effect_list = {}
-slot0[10] = {}
-
 return {
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
+				arg_list = {
+					weapon_id = 66421
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
+				arg_list = {
+					weapon_id = 66422
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
+				arg_list = {
+					weapon_id = 66423
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
+				arg_list = {
+					weapon_id = 66424
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
+				arg_list = {
+					weapon_id = 66425
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
+				arg_list = {
+					weapon_id = 66426
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
+				arg_list = {
+					weapon_id = 66427
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
+				arg_list = {
+					weapon_id = 66428
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
+				arg_list = {
+					weapon_id = 66429
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
+				arg_list = {
+					weapon_id = 66430
+				}
+			}
+		}
+	},
 	uiEffect = "",
 	name = "胡蜂双蛰",
 	cd = 0,
@@ -135,5 +136,24 @@ return {
 	desc = "胡蜂双蛰",
 	painting = 1,
 	id = 10047,
-	castCV = "skill"
+	castCV = "skill",
+	aniEffect = {
+		effect = "jineng",
+		offset = {
+			0,
+			-2,
+			0
+		}
+	},
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetHarmRandom",
+			arg_list = {
+				weapon_id = 66420
+			}
+		}
+	}
 }

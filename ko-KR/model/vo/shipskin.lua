@@ -11,7 +11,9 @@ slot1 = pg.ship_skin_template.get_id_list_by_ship_group
 function slot0.GetSkinByType(slot0, slot1)
 	print(slot0)
 
-	for slot6, slot7 in ipairs(uv0[slot0] or {}) do
+	slot2 = slot0[slot0] or {}
+
+	for slot6, slot7 in ipairs(slot2) do
 		if pg.ship_skin_template[slot7].skin_type == slot1 then
 			return slot8
 		end
@@ -19,9 +21,12 @@ function slot0.GetSkinByType(slot0, slot1)
 end
 
 function slot0.GetAllSkinByGroup(slot0)
-	for slot6, slot7 in ipairs(uv0[slot0] or {}) do
+	slot1 = {}
+	slot2 = slot0[slot0] or {}
+
+	for slot6, slot7 in ipairs(slot2) do
 		if pg.ship_skin_template[slot7].no_showing ~= "1" then
-			table.insert({}, slot8)
+			table.insert(slot1, slot8)
 		end
 	end
 

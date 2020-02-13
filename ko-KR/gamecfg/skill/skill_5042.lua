@@ -1,22 +1,3 @@
-slot1.offset = {
-	0,
-	-2,
-	0
-}
-slot0.aniEffect = {
-	effect = "jineng"
-}
-slot2.arg_list = {
-	weapon_id = 902
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetHarmNearest"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "照明弹",
@@ -25,5 +6,24 @@ return {
 	desc = "照明弹",
 	painting = 1,
 	id = 5042,
-	castCV = "skill"
+	castCV = "skill",
+	aniEffect = {
+		effect = "jineng",
+		offset = {
+			0,
+			-2,
+			0
+		}
+	},
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetHarmNearest",
+			arg_list = {
+				weapon_id = 902
+			}
+		}
+	}
 }
