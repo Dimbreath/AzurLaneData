@@ -1,34 +1,3 @@
-slot2.trigger = {
-	"onBulletKill"
-}
-slot2.arg_list = {
-	buff_id = 60033,
-	target = "TargetSelf"
-}
-slot1[1] = {
-	type = "BattleBuffAddBuff"
-}
-slot2.trigger = {
-	"onBulletKill"
-}
-slot2.arg_list = {
-	skill_id = 60016,
-	target = "TargetSelf"
-}
-slot1[2] = {
-	type = "BattleBuffCastSkill"
-}
-slot2.trigger = {
-	"onBulletKill"
-}
-slot2.arg_list = {
-	weapon = "ChargeWeapon"
-}
-slot1[3] = {
-	type = "BattleBuffWeaponCoolDown"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "测试-声望-战神-被动触发",
@@ -38,5 +7,36 @@ return {
 	stack = 1,
 	id = 60034,
 	icon = 60034,
-	last_effect = "lingxing"
+	last_effect = "lingxing",
+	effect_list = {
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onBulletKill"
+			},
+			arg_list = {
+				buff_id = 60033,
+				target = "TargetSelf"
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onBulletKill"
+			},
+			arg_list = {
+				skill_id = 60016,
+				target = "TargetSelf"
+			}
+		},
+		{
+			type = "BattleBuffWeaponCoolDown",
+			trigger = {
+				"onBulletKill"
+			},
+			arg_list = {
+				weapon = "ChargeWeapon"
+			}
+		}
+	}
 }

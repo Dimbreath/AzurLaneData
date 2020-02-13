@@ -25,7 +25,7 @@ slot6 = 20
 slot4 = slot4(slot5, slot6)
 
 function slot5(slot0)
-	slot1 = uv0
+	slot1 = slot0
 	slot1 = slot1.super
 	slot1 = slot1.init
 	slot2 = slot0
@@ -164,7 +164,7 @@ function slot5(slot0, slot1)
 			end
 		end
 
-		slot5 = uv0
+		slot5 = slot0
 		slot5 = slot5.New
 		slot6 = slot4.gameObject
 		slot7 = 2
@@ -195,7 +195,7 @@ function slot5(slot0, slot1)
 			slot4 = slot0.enemyTpl
 		end
 
-		slot5 = uv0
+		slot5 = slot0
 		slot5 = slot5.New
 		slot6 = slot4.gameObject
 		slot7 = 1
@@ -237,7 +237,7 @@ function slot5(slot0)
 		slot4.sprite = slot5
 		slot5 = slot0.material_Add
 		slot4.material = slot5
-		slot5 = uv0
+		slot5 = slot0
 		slot5 = slot5.New
 		slot6 = slot3
 		slot7 = 8
@@ -587,12 +587,12 @@ function slot5(slot0)
 	slot10 = Vector3
 	slot11 = 0
 	slot12 = slot6.offsety
-	slot13 = uv0
+	slot13 = slot0
 	slot13 = slot13.MapDefaultPos
 	slot13 = slot13.y
 	slot12 = slot12 + slot13
 	slot13 = slot6.offsetz
-	slot14 = uv0
+	slot14 = slot0
 	slot14 = slot14.MapDefaultPos
 	slot14 = slot14.z
 	slot13 = slot13 + slot14
@@ -636,7 +636,7 @@ function slot5(slot0)
 	slot12 = slot12.AddDragFunc
 
 	function slot14(slot0, slot1)
-		slot2 = uv0
+		slot2 = slot0
 		slot2 = slot2._tf
 		slot2 = slot2.localPosition
 		slot3 = math
@@ -644,14 +644,14 @@ function slot5(slot0)
 		slot4 = slot2.x
 		slot5 = slot1.delta
 		slot5 = slot5.x
-		slot6 = uv1
+		slot6 = slot1
 		slot6 = slot6.x
 		slot5 = slot5 * slot6
 		slot4 = slot4 + slot5
-		slot5 = uv0
+		slot5 = slot0
 		slot5 = slot5.rightExtend
 		slot5 = -slot5
-		slot6 = uv0
+		slot6 = slot0
 		slot6 = slot6.leftExtend
 		slot3 = slot3(slot4, slot5, slot6)
 		slot2.x = slot3
@@ -660,23 +660,23 @@ function slot5(slot0)
 		slot4 = slot2.y
 		slot5 = slot1.delta
 		slot5 = slot5.y
-		slot6 = uv1
+		slot6 = slot1
 		slot6 = slot6.y
 		slot5 = slot5 * slot6
 		slot6 = math
 		slot6 = slot6.cos
-		slot7 = uv2
+		slot7 = slot2
 		slot6 = slot6(slot7)
 		slot5 = slot5 / slot6
 		slot4 = slot4 + slot5
-		slot5 = uv0
+		slot5 = slot0
 		slot5 = slot5.topExtend
 		slot5 = -slot5
-		slot6 = uv0
+		slot6 = slot0
 		slot6 = slot6.bottomExtend
 		slot3 = slot3(slot4, slot5, slot6)
 		slot2.y = slot3
-		slot3 = uv0
+		slot3 = slot0
 		slot3 = slot3._tf
 		slot3.localPosition = slot2
 	end
@@ -705,7 +705,7 @@ function slot5(slot0)
 
 	function slot9(slot0)
 		slot1 = slot0.transform
-		uv0 = slot1
+		slot0 = slot1
 	end
 
 	slot4(slot5, slot6, slot7, slot8, slot9)
@@ -728,10 +728,10 @@ function slot5(slot0)
 	slot4 = slot4(slot5, slot6, slot7)
 	slot5 = Vector3
 	slot6 = 0
-	slot7 = uv0
+	slot7 = slot0
 	slot7 = slot7.MapDefaultPos
 	slot7 = slot7.y
-	slot8 = uv0
+	slot8 = slot0
 	slot8 = slot8.MapDefaultPos
 	slot8 = slot8.z
 	slot5 = slot5(slot6, slot7, slot8)
@@ -1402,7 +1402,7 @@ function slot5(slot0)
 			slot7 = 1
 
 			for slot8 = slot5, slot6, slot7 do
-				slot9 = uv0
+				slot9 = slot0
 				slot10 = slot9
 				slot9 = slot9.SetPixel
 				slot11 = slot4
@@ -1649,7 +1649,7 @@ function slot5(slot0, slot1)
 			slot4 = slot8
 
 			function slot7()
-				slot0 = uv0
+				slot0 = slot0
 				slot1 = slot0
 				slot0 = slot0.OnChangeSubAutoAttack
 
@@ -1856,25 +1856,25 @@ function slot5(slot0, slot1, slot2)
 	slot9 = slot5.loadSpine
 
 	function slot11()
-		slot0 = uv0
+		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.getModel
 		slot0 = slot0(slot1)
 		slot0 = slot0.transform
-		slot1 = uv1
+		slot1 = slot1
 		slot1 = slot1.rotation
 		slot0.localRotation = slot1
-		slot0 = uv2
+		slot0 = slot2
 		slot1 = slot0
 		slot0 = slot0.updateFleet
-		slot2 = uv3
+		slot2 = slot3
 
 		slot0(slot1, slot2)
 
-		slot0 = uv4
+		slot0 = slot4
 
 		if slot0 then
-			slot0 = uv4
+			slot0 = slot4
 
 			slot0()
 		end
@@ -2028,78 +2028,14 @@ function slot5(slot0, slot1)
 		slot9 = slot9.Normal
 
 		if slot8 == slot9 then
-			slot10 = slot2
-			slot9 = slot2.existEnemy
-			slot11 = ChapterConst
-			slot11 = slot11.SubjectPlayer
-			slot12 = slot6.row
-			slot13 = slot6.column
-			slot9, slot10 = slot9(slot10, slot11, slot12, slot13)
-			slot12 = slot2
-			slot11 = slot2.existFleet
-			slot13 = FleetType
-			slot13 = slot13.Transport
-			slot14 = slot6.row
-			slot15 = slot6.column
-			slot11 = slot11(slot12, slot13, slot14, slot15)
-			slot12 = setActive
-			slot13 = slot4.tfShadow
+			slot9, slot10 = slot2:existEnemy(ChapterConst.SubjectPlayer, slot6.row, slot6.column)
 
-			if not slot9 then
-				slot14 = not slot11
-			else
-				slot14 = false
+			setActive(slot4.tfShadow, not slot9 and not slot2:existFleet(FleetType.Transport, slot6.row, slot6.column))
+			slot0:SetSpineVisible(slot4.tfShip, not slot9 and not slot2.existFleet(FleetType.Transport, slot6.row, slot6.column))
+			setActive(slot4.tfArrow, slot0.SetSpineVisible)
+			setActive(slot4.tfOp, false)
 
-				if false then
-					slot14 = true
-				end
-			end
-
-			slot12(slot13, slot14)
-
-			slot13 = slot0
-			slot12 = slot0.SetSpineVisible
-			slot14 = slot4.tfShip
-
-			if not slot9 then
-				slot15 = not slot11
-			else
-				slot15 = false
-
-				if false then
-					slot15 = true
-				end
-			end
-
-			slot12(slot13, slot14, slot15)
-
-			slot12 = table
-			slot12 = slot12.indexof
-			slot13 = slot2.fleets
-			slot14 = slot5
-			slot12 = slot12(slot13, slot14)
-			slot13 = slot2.findex
-
-			if slot12 ~= slot13 then
-				slot12 = false
-			else
-				slot12 = true
-			end
-
-			slot13 = setActive
-			slot14 = slot4.tfArrow
-			slot15 = slot12
-
-			slot13(slot14, slot15)
-
-			slot13 = setActive
-			slot14 = slot4.tfOp
-			slot15 = false
-
-			slot13(slot14, slot15)
-
-			slot13 = slot0.opBtns
-			slot13 = slot13[slot1]
+			slot13 = slot0.opBtns[slot1]
 
 			if not slot13 then
 				slot14 = tf
@@ -2141,17 +2077,9 @@ function slot5(slot0, slot1)
 			slot13.position = slot14
 
 			if slot9 then
-				slot14 = ChapterConst
-				slot14 = slot14.AttachBoss
-
-				if slot10 ~= slot14 then
-					slot14 = false
-				else
-					slot14 = true
-				end
+				slot14 = slot10 == ChapterConst.AttachBoss
+				slot15 = false
 			end
-
-			slot15 = false
 
 			if slot9 then
 				slot16 = ChapterConst
@@ -2171,109 +2099,35 @@ function slot5(slot0, slot1)
 					slot18 = slot18[slot17]
 
 					if slot18 then
-						slot19 = slot18.ai
-
-						if slot19 ~= 6 then
-							slot15 = false
-						else
-							slot15 = true
-						end
+						slot14 = slot14 or slot18.ai == 6
+						slot16 = _.any(slot2.fleets, function (slot0)
+							return slot0.id ~= slot0.id and slot0:getFleetType() == FleetType.Normal and slot0:isValid()
+						end)
+						slot18 = setActive
+						slot19 = slot13:Find("retreat"):Find("retreat")
 					end
 				end
 			end
-
-			if not slot14 then
-				slot14 = slot15
-			end
-
-			slot16 = _
-			slot16 = slot16.any
-			slot17 = slot2.fleets
-
-			function slot18(slot0)
-				slot1 = slot0.id
-				slot2 = uv0
-				slot2 = slot2.id
-
-				if slot1 ~= slot2 then
-					slot2 = slot0
-					slot1 = slot0.getFleetType
-					slot1 = slot1(slot2)
-					slot2 = FleetType
-					slot2 = slot2.Normal
-
-					if slot1 == slot2 then
-						slot2 = slot0
-						slot1 = slot0.isValid
-						slot1 = slot1(slot2)
-					end
-				else
-					slot1 = false
-
-					if false then
-						slot1 = true
-					end
-				end
-
-				return slot1
-			end
-
-			slot16 = slot16(slot17, slot18)
-			slot18 = slot13
-			slot17 = slot13.Find
-			slot19 = "retreat"
-			slot17 = slot17(slot18, slot19)
-			slot18 = setActive
-			slot20 = slot17
-			slot19 = slot17.Find
-			slot21 = "retreat"
-			slot19 = slot19(slot20, slot21)
 
 			if slot12 and slot7 then
-				slot20 = slot0.subTeleportMode
+				slot18(slot19, not slot0.subTeleportMode and slot9 and not slot14 and slot16)
 
-				if not slot20 then
-					if slot9 then
-						if not slot14 then
-							slot20 = slot16
-						end
-					end
-				else
-					slot20 = false
-
-					if false then
-						slot20 = true
-					end
-				end
+				slot18 = setActive
 			end
 
-			slot18(slot19, slot20)
-
-			slot18 = setActive
 			slot20 = slot17
 			slot19 = slot17.Find
 			slot21 = "escape"
 			slot19 = slot19(slot20, slot21)
 
 			if slot12 and slot7 then
-				slot20 = slot0.subTeleportMode
+				slot18(slot19, not slot0.subTeleportMode and slot14)
 
-				if not slot20 then
-					slot20 = slot14
-				else
-					slot20 = false
-
-					if false then
-						slot20 = true
-					end
-				end
+				slot18 = setActive
+				slot19 = slot17
+				slot21 = slot17
 			end
 
-			slot18(slot19, slot20)
-
-			slot18 = setActive
-			slot19 = slot17
-			slot21 = slot17
 			slot20 = slot17.Find
 			slot22 = "retreat"
 			slot20 = slot20(slot21, slot22)
@@ -2300,14 +2154,14 @@ function slot5(slot0, slot1)
 				slot20 = slot17
 
 				function slot21()
-					slot0 = uv0
+					slot0 = slot0
 					slot0 = slot0.parent
 					slot1 = slot0
 					slot0 = slot0.isfrozen
 					slot0 = slot0(slot1)
 
 					if not slot0 then
-						slot0 = uv0
+						slot0 = slot0
 						slot0 = slot0.subTeleportMode
 
 						if slot0 then
@@ -2315,7 +2169,7 @@ function slot5(slot0, slot1)
 						end
 					end
 
-					slot0 = uv1
+					slot0 = slot1
 
 					if slot0 then
 						function slot0()
@@ -2345,39 +2199,39 @@ function slot5(slot0, slot1)
 							slot1, slot2, slot3 = slot1(slot2)
 
 							for slot4, slot5 in slot1, slot2, slot3 do
-								slot6 = uv0
+								slot6 = slot0
 								slot7 = slot6
 								slot6 = slot6.considerAsStayPoint
 								slot8 = ChapterConst
 								slot8 = slot8.SubjectPlayer
-								slot9 = uv1
+								slot9 = slot1
 								slot9 = slot9.row
 								slot10 = slot5[1]
 								slot9 = slot9 + slot10
-								slot10 = uv1
+								slot10 = slot1
 								slot10 = slot10.column
 								slot11 = slot5[2]
 								slot10 = slot10 + slot11
 								slot6 = slot6(slot7, slot8, slot9, slot10)
 
 								if slot6 then
-									slot6 = uv0
+									slot6 = slot0
 									slot7 = slot6
 									slot6 = slot6.existEnemy
 									slot8 = ChapterConst
 									slot8 = slot8.SubjectPlayer
-									slot9 = uv1
+									slot9 = slot1
 									slot9 = slot9.row
 									slot10 = slot5[1]
 									slot9 = slot9 + slot10
-									slot10 = uv1
+									slot10 = slot1
 									slot10 = slot10.column
 									slot11 = slot5[2]
 									slot10 = slot10 + slot11
 									slot6 = slot6(slot7, slot8, slot9, slot10)
 
 									if not slot6 then
-										slot6 = uv2
+										slot6 = slot2
 										slot7 = slot6
 										slot6 = slot6.emit
 										slot8 = LevelMediator2
@@ -2386,20 +2240,20 @@ function slot5(slot0, slot1)
 										slot10 = ChapterConst
 										slot10 = slot10.OpMove
 										slot9.type = slot10
-										slot10 = uv3
+										slot10 = slot3
 										slot10 = slot10.id
 										slot9.id = slot10
-										slot10 = uv1
+										slot10 = slot1
 										slot10 = slot10.row
 										slot11 = slot5[1]
 										slot10 = slot10 + slot11
 										slot9.arg1 = slot10
-										slot10 = uv1
+										slot10 = slot1
 										slot10 = slot10.column
 										slot11 = slot5[2]
 										slot10 = slot10 + slot11
 										slot9.arg2 = slot10
-										slot10 = uv3
+										slot10 = slot3
 										slot10 = slot10.line
 										slot9.ordLine = slot10
 
@@ -2441,13 +2295,13 @@ function slot5(slot0, slot1)
 						slot2 = {}
 						slot3 = i18n
 						slot4 = "levelScene_who_to_retreat"
-						slot5 = uv4
+						slot5 = slot4
 						slot5 = slot5.name
 						slot3 = slot3(slot4, slot5)
 						slot2.content = slot3
 
 						function slot3()
-							slot0 = uv0
+							slot0 = slot0
 							slot1 = slot0
 							slot0 = slot0.emit
 							slot2 = LevelMediator2
@@ -2456,7 +2310,7 @@ function slot5(slot0, slot1)
 							slot4 = ChapterConst
 							slot4 = slot4.OpRetreat
 							slot3.type = slot4
-							slot4 = uv1
+							slot4 = slot1
 							slot4 = slot4.id
 							slot3.id = slot4
 
@@ -2474,35 +2328,10 @@ function slot5(slot0, slot1)
 				slot18(slot19, slot20, slot21, slot22)
 			end
 
-			slot19 = slot13
-			slot18 = slot13.Find
-			slot20 = "exchange"
-			slot18 = slot18(slot19, slot20)
-			slot19 = setActive
-			slot20 = slot18
-			slot21 = false
+			setActive(slot18, false)
+			setActive(slot4.tfAmmo, slot3 == ChapterConst.TypeNone and not slot11)
 
-			slot19(slot20, slot21)
-
-			slot19 = setActive
-			slot20 = slot4.tfAmmo
-			slot21 = ChapterConst
-			slot21 = slot21.TypeNone
-
-			if slot3 == slot21 then
-				slot21 = not slot11
-			else
-				slot21 = false
-
-				if false then
-					slot21 = true
-				end
-			end
-
-			slot19(slot20, slot21)
-
-			slot19 = ChapterConst
-			slot19 = slot19.TypeNone
+			slot19 = ChapterConst.TypeNone
 
 			if slot3 == slot19 then
 				slot20 = slot2
@@ -2651,7 +2480,7 @@ function slot5(slot0, slot1)
 							slot26 = slot26.Action_float
 
 							function slot27(slot0)
-								slot1 = uv0
+								slot1 = slot0
 								slot2 = slot1
 								slot1 = slot1.SetColor
 								slot3 = "_Color"
@@ -2675,8 +2504,8 @@ function slot5(slot0, slot1)
 
 								slot1(slot2, slot3, slot4(slot5, slot6, slot7))
 
-								slot1 = uv1
-								slot2 = uv0
+								slot1 = slot1
+								slot2 = slot0
 								slot1.material = slot2
 							end
 
@@ -2687,10 +2516,10 @@ function slot5(slot0, slot1)
 							slot26 = slot26.Action
 
 							function slot27()
-								slot0 = uv0
-								slot1 = uv1
+								slot0 = slot0
+								slot1 = slot1
 								slot0.material = slot1
-								slot0 = uv2
+								slot0 = slot2
 								slot1 = slot0
 								slot0 = slot0.unfrozen
 
@@ -2735,11 +2564,7 @@ function slot5(slot0, slot1)
 				slot11 = slot4.tfAmmo
 
 				if not slot9 then
-					slot12 = ChapterConst
-					slot12 = slot12.TypeNone
-					slot12 = slot3 == slot12
-
-					slot10(slot11, slot12)
+					slot10(slot11, slot3 == ChapterConst.TypeNone)
 
 					slot11 = slot2
 					slot10 = slot2.getFleetAmmo
@@ -3219,18 +3044,18 @@ function slot5(slot0)
 			slot12 = slot11.loadSpine
 
 			function slot14()
-				slot0 = uv0
+				slot0 = slot0
 				slot1 = slot0
 				slot0 = slot0.getModel
 				slot0 = slot0(slot1)
 				slot0 = slot0.transform
-				slot1 = uv1
+				slot1 = slot1
 				slot1 = slot1.rotation
 				slot0.localRotation = slot1
-				slot1 = uv2
+				slot1 = slot2
 
 				if slot1 == "common" then
-					slot1 = uv1
+					slot1 = slot1
 					slot2 = slot1
 					slot1 = slot1.getScale
 					slot1 = slot1(slot2)
@@ -3243,10 +3068,10 @@ function slot5(slot0)
 					slot0.localScale = slot2
 				end
 
-				slot1 = uv3
+				slot1 = slot3
 				slot2 = slot1
 				slot1 = slot1.updateChampion
-				slot3 = uv4
+				slot3 = slot4
 
 				slot1(slot2, slot3)
 			end
@@ -3334,7 +3159,7 @@ function slot5(slot0, slot1)
 			slot8 = slot2.fleets
 
 			function slot9(slot0)
-				slot1 = uv0
+				slot1 = slot0
 				slot2 = slot1
 				slot1 = slot1.inAlertRange
 				slot3 = slot0.line
@@ -3344,9 +3169,9 @@ function slot5(slot0, slot1)
 				slot1 = slot1(slot2, slot3, slot4)
 
 				if slot1 then
-					slot1 = uv1
+					slot1 = slot1
 					slot1 = slot1 + 1
-					uv1 = slot1
+					slot1 = slot1
 				end
 			end
 
@@ -3372,59 +3197,26 @@ function slot5(slot0, slot1)
 				slot8(slot9, slot10)
 			end
 		else
-			slot7 = slot2
-			slot6 = slot2.existEnemy
-			slot8 = ChapterConst
-			slot8 = slot8.SubjectChampion
-			slot9 = slot4.row
-			slot10 = slot4.column
-			slot6 = slot6(slot7, slot8, slot9, slot10)
-			slot7 = setActive
-			slot8 = slot3.tfFighting
-
-			if slot5 then
-				slot9 = slot6
-			end
-
-			slot7(slot8, slot9)
+			setActive(slot3.tfFighting, slot5 and slot2:existEnemy(ChapterConst.SubjectChampion, slot4.row, slot4.column))
 
 			slot7 = setActive
 			slot8 = slot3.tfEffectFound
 
 			if slot5 then
-				slot9 = slot4.trait
-				slot10 = ChapterConst
-				slot10 = slot10.TraitVirgin
+				slot7(slot8, slot4.trait == ChapterConst.TraitVirgin)
 
-				if slot9 ~= slot10 then
-					slot9 = false
-				else
-					slot9 = true
-				end
+				slot7 = setActive
+				slot8 = slot3.tfDamageCount
 			end
-
-			slot7(slot8, slot9)
-
-			slot7 = setActive
-			slot8 = slot3.tfDamageCount
 
 			if slot5 then
-				slot9 = slot4.data
-				slot10 = 0
+				slot7(slot8, slot4.data > 0)
 
-				if slot9 <= slot10 then
-					slot9 = false
-				else
-					slot9 = true
-				end
+				slot7 = setActive
+				slot9 = slot3.tf
+				slot8 = slot3.tf.Find
 			end
 
-			slot7(slot8, slot9)
-
-			slot7 = setActive
-			slot8 = slot3.tf
-			slot9 = slot8
-			slot8 = slot8.Find
 			slot10 = "huoqiubaozha"
 			slot8 = slot8(slot9, slot10)
 			slot9 = false
@@ -3478,9 +3270,9 @@ function slot5(slot0, slot1)
 								if slot1 then
 									slot2 = slot0
 									slot1 = slot0.inHuntingRange
-									slot3 = uv0
+									slot3 = slot0
 									slot3 = slot3.row
-									slot4 = uv0
+									slot4 = slot0
 									slot4 = slot4.column
 									slot1 = slot1(slot2, slot3, slot4)
 								end
@@ -3503,7 +3295,6 @@ function slot5(slot0, slot1)
 						slot10 = slot10[slot1]
 
 						if not slot10 then
-							-- Nothing
 						end
 					else
 						slot10 = slot0.championTws
@@ -3751,7 +3542,7 @@ function slot5(slot0)
 		slot1 = debounce
 
 		function slot2()
-			slot0 = uv0
+			slot0 = slot0
 			slot0 = slot0.exited
 
 			if slot0 then
@@ -3759,12 +3550,12 @@ function slot5(slot0)
 			end
 
 			slot0 = {}
-			slot1 = uv0
+			slot1 = slot0
 			slot1 = slot1.cellFleets
 
 			if slot1 then
 				slot1 = pairs
-				slot2 = uv0
+				slot2 = slot0
 				slot2 = slot2.cellFleets
 				slot1, slot2, slot3 = slot1(slot2)
 
@@ -3778,20 +3569,20 @@ function slot5(slot0)
 				end
 			end
 
-			slot1 = uv0
+			slot1 = slot0
 			slot1 = slot1.cellChampions
 
 			if slot1 then
 				slot1 = _
 				slot1 = slot1.each
-				slot2 = uv0
+				slot2 = slot0
 				slot2 = slot2.cellChampions
 
 				function slot3(slot0)
 					if slot0 then
 						slot1 = table
 						slot1 = slot1.insert
-						slot2 = uv0
+						slot2 = slot0
 						slot3 = slot0
 
 						slot1(slot2, slot3)
@@ -3801,20 +3592,20 @@ function slot5(slot0)
 				slot1(slot2, slot3)
 			end
 
-			slot1 = uv0
+			slot1 = slot0
 			slot1 = slot1.cellAttachments
 
 			if slot1 then
 				slot1 = _
 				slot1 = slot1.each
-				slot2 = uv0
+				slot2 = slot0
 				slot2 = slot2.cellAttachments
 
 				function slot3(slot0)
 					if slot0 then
 						slot1 = table
 						slot1 = slot1.insert
-						slot2 = uv0
+						slot2 = slot0
 						slot3 = slot0
 
 						slot1(slot2, slot3)
@@ -3829,44 +3620,7 @@ function slot5(slot0)
 			slot2 = slot0
 
 			function slot3(slot0, slot1)
-				slot3 = slot0
-				slot2 = slot0.getLine
-				slot2 = slot2(slot3)
-				slot4 = slot1
-				slot3 = slot1.getLine
-				slot3 = slot3(slot4)
-				slot4 = slot2.row
-				slot4 = slot4 * 10000
-				slot5 = ChapterConst
-				slot5 = slot5.MaxColumn
-				slot6 = slot2.column
-				slot5 = slot5 - slot6
-				slot5 = slot5 * 100
-				slot4 = slot4 + slot5
-				slot6 = slot0
-				slot5 = slot0.getOrder
-				slot5 = slot5(slot6)
-				slot4 = slot4 + slot5
-				slot5 = slot3.row
-				slot5 = slot5 * 10000
-				slot6 = ChapterConst
-				slot6 = slot6.MaxColumn
-				slot7 = slot3.column
-				slot6 = slot6 - slot7
-				slot6 = slot6 * 100
-				slot5 = slot5 + slot6
-				slot7 = slot1
-				slot6 = slot1.getOrder
-				slot6 = slot6(slot7)
-				slot5 = slot5 + slot6
-
-				if slot4 >= slot5 then
-					slot6 = false
-				else
-					slot6 = true
-				end
-
-				return slot6
+				return slot0:getLine().row * 10000 + (ChapterConst.MaxColumn - slot0.getLine().column) * 100 + slot0:getOrder() < slot1:getLine().row * 10000 + (ChapterConst.MaxColumn - slot1.getLine().column) * 100 + slot1:getOrder()
 			end
 
 			slot1(slot2, slot3)
@@ -3891,7 +3645,7 @@ function slot5(slot0)
 					slot11 = slot5
 					slot12 = slot9
 					slot10 = slot10(slot11, slot12)
-					slot11 = uv0
+					slot11 = slot0
 					slot11 = slot11.cellRoot
 					slot12 = slot11
 					slot11 = slot11.Find
@@ -3984,7 +3738,7 @@ function slot5(slot0, slot1, slot2)
 
 			function slot13(slot0)
 				slot1 = slot0.transform
-				uv0 = slot1
+				slot0 = slot1
 			end
 
 			slot8(slot9, slot10, slot11, slot12, slot13)
@@ -4028,7 +3782,7 @@ function slot5(slot0, slot1, slot2)
 
 		function slot15(slot0)
 			slot1 = slot0.transform
-			uv0 = slot1
+			slot0 = slot1
 		end
 
 		slot10(slot11, slot12, slot13, slot14, slot15)
@@ -4130,20 +3884,20 @@ function slot5(slot0, slot1, slot2)
 				end
 
 				slot3 = slot0.transform
-				slot4 = uv0
+				slot4 = slot0
 				slot4 = slot4.item
 				slot3.name = slot4
 				slot5 = slot3
 				slot4 = slot3.SetParent
-				slot6 = uv1
+				slot6 = slot1
 				slot7 = false
 
 				slot4(slot5, slot6, slot7)
 
-				slot4 = uv0
+				slot4 = slot0
 				slot4 = slot4.itemOffset
 				slot3.anchoredPosition = slot4
-				slot4 = uv2
+				slot4 = slot2
 				slot5 = slot4
 				slot4 = slot4.unfrozen
 
@@ -4173,42 +3927,42 @@ function slot5(slot0, slot1, slot2)
 			slot14 = slot7
 
 			function slot15()
-				slot0 = uv0
+				slot0 = slot0
 				slot1 = slot0
 				slot0 = slot0.isfrozen
 				slot0 = slot0(slot1)
 
 				if not slot0 then
-					slot0 = uv0
+					slot0 = slot0
 					slot0 = slot0.quadState
 					slot1 = ChapterConst
 					slot1 = slot1.QuadStateStrategy
 
 					if slot0 ~= slot1 then
-						slot0 = uv0
+						slot0 = slot0
 						slot0 = slot0.quadState
 						slot1 = ChapterConst
 						slot1 = slot1.QuadStateTeleportSub
 
 						if slot0 == slot1 then
-							slot0 = uv0
+							slot0 = slot0
 							slot0 = slot0.quadClickProxy
 
 							if slot0 then
-								slot0 = uv0
+								slot0 = slot0
 								slot0 = slot0.quadClickProxy
-								slot1 = uv1
+								slot1 = slot1
 
 								slot0(slot1)
 							end
 						else
-							slot0 = uv0
+							slot0 = slot0
 							slot0 = slot0.onCellClick
 
 							if slot0 then
-								slot0 = uv0
+								slot0 = slot0
 								slot0 = slot0.onCellClick
-								slot1 = uv1
+								slot1 = slot1
 
 								slot0(slot1)
 							end
@@ -4633,13 +4387,7 @@ function slot5(slot0)
 				slot9, slot10, slot11 = slot9(slot10)
 
 				for slot12, slot13 in slot9, slot10, slot11 do
-					slot14 = slot3[slot13]
-
-					if not slot14 then
-						slot14 = {}
-					end
-
-					slot3[slot13] = slot14
+					slot3[slot13] = slot3[slot13] or {}
 					slot14 = table
 					slot14 = slot14.insert
 					slot15 = slot3[slot13]
@@ -4908,38 +4656,10 @@ function slot5(slot0, slot1)
 	slot9 = slot9(slot10, slot11, slot12)
 
 	if slot9 then
-		slot10 = ChapterCell
-		slot10 = slot10.Line2Name
-		slot11 = slot4
-		slot12 = slot6
-		slot10 = slot10(slot11, slot12)
-		slot11 = slot0.cellRoot
-		slot12 = slot11
-		slot11 = slot11.Find
-		slot13 = slot10
-		slot11 = slot11(slot12, slot13)
-		slot13 = slot11
-		slot12 = slot11.Find
-		slot14 = ChapterConst
-		slot14 = slot14.ChildAttachment
-		slot12 = slot12(slot13, slot14)
-		slot13 = setActive
-		slot14 = slot12
-		slot15 = slot9.trait
-		slot16 = ChapterConst
-		slot16 = slot16.TraitLurk
-
-		if slot15 == slot16 then
-			slot15 = false
-		else
-			slot15 = true
-		end
-
-		slot13(slot14, slot15)
+		setActive(slot12, slot9.trait ~= ChapterConst.TraitLurk)
 
 		slot13 = slot9.trait
-		slot14 = ChapterConst
-		slot14 = slot14.TraitLurk
+		slot14 = ChapterConst.TraitLurk
 
 		if slot13 == slot14 then
 			return
@@ -5030,91 +4750,16 @@ function slot5(slot0, slot1)
 					end
 
 					slot18(slot19, slot20)
-
-					slot18 = setActive
-					slot19 = findTF
-					slot20 = slot16
-					slot21 = "titleContain/bg_m"
-					slot19 = slot19(slot20, slot21)
-					slot20 = ChapterConst
-					slot20 = slot20.EnemySize
-					slot21 = slot13.type
-					slot20 = slot20[slot21]
-
-					if slot20 ~= 2 then
-						slot20 = false
-					else
-						slot20 = true
-					end
-
-					slot18(slot19, slot20)
-
-					slot18 = setActive
-					slot19 = findTF
-					slot20 = slot16
-					slot21 = "titleContain/bg_h"
-					slot19 = slot19(slot20, slot21)
-					slot20 = ChapterConst
-					slot20 = slot20.EnemySize
-					slot21 = slot13.type
-					slot20 = slot20[slot21]
-
-					if slot20 ~= 3 then
-						slot20 = false
-					else
-						slot20 = true
-					end
-
-					slot18(slot19, slot20)
-
-					slot18 = setActive
-					slot19 = findTF
-					slot20 = slot16
-					slot21 = "titleContain/bg_boss"
-					slot19 = slot19(slot20, slot21)
-					slot20 = ChapterConst
-					slot20 = slot20.EnemySize
-					slot21 = slot13.type
-					slot20 = slot20[slot21]
-
-					if slot20 ~= 99 then
-						slot20 = false
-					else
-						slot20 = true
-					end
-
-					slot18(slot19, slot20)
+					setActive(findTF(slot16, "titleContain/bg_m"), ChapterConst.EnemySize[slot13.type] == 2)
+					setActive(findTF(slot16, "titleContain/bg_h"), ChapterConst.EnemySize[slot13.type] == 3)
+					setActive(findTF(slot16, "titleContain/bg_boss"), ChapterConst.EnemySize[slot13.type] == 99)
 				end
 
-				slot18 = setActive
-				slot19 = findTF
-				slot20 = slot16
-				slot21 = "huoqiubaozha"
-				slot19 = slot19(slot20, slot21)
-				slot20 = false
-
-				slot18(slot19, slot20)
-
-				slot18 = setActive
-				slot19 = findTF
-				slot20 = slot16
-				slot21 = "effect_found"
-				slot19 = slot19(slot20, slot21)
-				slot20 = slot9.trait
-				slot21 = ChapterConst
-				slot21 = slot21.TraitVirgin
-
-				if slot20 ~= slot21 then
-					slot20 = false
-				else
-					slot20 = true
-				end
-
-				slot18(slot19, slot20)
+				setActive(findTF(slot16, "huoqiubaozha"), false)
+				setActive(findTF(slot16, "effect_found"), slot9.trait == ChapterConst.TraitVirgin)
 
 				slot18 = slot9.trait
-				slot19 = ChapterConst
-				slot19 = slot19.TraitVirgin
+				slot19 = ChapterConst.TraitVirgin
 
 				if slot18 == slot19 then
 					slot18 = playSoundEffect
@@ -5140,34 +4785,24 @@ function slot5(slot0, slot1)
 					if slot1 then
 						slot1 = slot0.line
 						slot1 = slot1.row
-						slot2 = uv0
+						slot2 = slot0
 
 						if slot2 <= slot1 then
 							slot1 = slot0.line
 							slot1 = slot1.row
-							slot2 = uv1
+							slot2 = slot1
 
 							if slot1 <= slot2 then
 								slot1 = slot0.line
 								slot1 = slot1.column
-								slot2 = uv2
+								slot2 = slot2
 
 								if slot2 <= slot1 then
-									slot1 = slot0.line
-									slot1 = slot1.column
-									slot2 = uv3
-
-									if slot1 > slot2 then
-										slot1 = false
-									else
-										slot1 = true
-									end
+									return slot0.line.column <= slot3
 								end
 							end
 						end
 					end
-
-					return slot1
 				end
 
 				slot18(slot19, slot20(slot21, slot22))
@@ -5259,17 +4894,7 @@ function slot5(slot0, slot1)
 			slot18 = slot18(slot19)
 
 			if not slot18 then
-				slot18 = setActive
-				slot19 = slot16
-				slot20 = slot9.flag
-
-				if slot20 ~= 0 then
-					slot20 = false
-				else
-					slot20 = true
-				end
-
-				slot18(slot19, slot20)
+				setActive(slot16, slot9.flag == 0)
 			end
 
 			slot18 = IsNil
@@ -5277,17 +4902,7 @@ function slot5(slot0, slot1)
 			slot18 = slot18(slot19)
 
 			if not slot18 then
-				slot18 = setActive
-				slot19 = slot17
-				slot20 = slot9.flag
-
-				if slot20 ~= 1 then
-					slot20 = false
-				else
-					slot20 = true
-				end
-
-				slot18(slot19, slot20)
+				setActive(slot17, slot9.flag == 1)
 			end
 		end
 	end
@@ -5313,34 +4928,10 @@ function slot5(slot0, slot1, slot2)
 			return
 		end
 
-		slot5 = ChapterCell
-		slot5 = slot5.Line2Name
-		slot6 = slot1
-		slot7 = slot2
-		slot5 = slot5(slot6, slot7)
-		slot6 = slot0.cellRoot
-		slot7 = slot6
-		slot6 = slot6.Find
-		slot8 = slot5
-		slot6 = slot6(slot7, slot8)
-		slot8 = slot6
-		slot7 = slot6.Find
-		slot9 = ChapterConst
-		slot9 = slot9.ChildAttachment
-		slot7 = slot7(slot8, slot9)
-		slot8 = slot4.trait
-		slot9 = ChapterConst
-		slot9 = slot9.TraitLurk
-
-		if slot8 == slot9 then
-			slot8 = false
-		else
-			slot8 = true
-		end
-
+		slot7 = slot0.cellRoot:Find(slot5).Find(slot6, ChapterConst.ChildAttachment)
+		slot8 = slot4.trait ~= ChapterConst.TraitLurk
 		slot9 = slot4.attachment
-		slot10 = ChapterConst
-		slot10 = slot10.AttachEnemy
+		slot10 = ChapterConst.AttachEnemy
 
 		if slot9 ~= slot10 then
 			slot9 = slot4.attachment
@@ -5415,27 +5006,21 @@ function slot5(slot0, slot1, slot2)
 						slot10 = slot9.icon_type
 
 						if slot10 == 1 then
-							slot10 = EnemyEggCellView
+							slot10 = EnemyEggCellView or EnemySpineCellView
+							slot11 = slot0.attachmentCells[slot5]
 
-							if not slot10 then
-								slot10 = EnemySpineCellView
-							end
-						end
+							if slot11 then
+								slot12 = slot10.__cname
+								slot13 = slot11.__cname
 
-						slot11 = slot0.attachmentCells
-						slot11 = slot11[slot5]
+								if slot12 ~= slot13 then
+									slot13 = slot11
+									slot12 = slot11.Clear
 
-						if slot11 then
-							slot12 = slot10.__cname
-							slot13 = slot11.__cname
+									slot12(slot13)
 
-							if slot12 ~= slot13 then
-								slot13 = slot11
-								slot12 = slot11.Clear
-
-								slot12(slot13)
-
-								slot11 = nil
+									slot11 = nil
+								end
 							end
 						end
 
@@ -5491,9 +5076,9 @@ function slot5(slot0, slot1, slot2)
 										if slot1 then
 											slot2 = slot0
 											slot1 = slot0.inHuntingRange
-											slot3 = uv0
+											slot3 = slot0
 											slot3 = slot3.row
-											slot4 = uv0
+											slot4 = slot0
 											slot4 = slot4.column
 											slot1 = slot1(slot2, slot3, slot4)
 										end
@@ -5639,7 +5224,7 @@ function slot5(slot0, slot1, slot2)
 										slot1 = slot0.transform
 										slot2 = slot1
 										slot1 = slot1.SetParent
-										slot3 = uv0
+										slot3 = slot0
 										slot4 = slot3
 										slot3 = slot3.Find
 										slot5 = "icon"
@@ -5680,26 +5265,10 @@ function slot5(slot0, slot1, slot2)
 									end
 								end
 
-								slot12 = setActive
-								slot13 = findTF
-								slot14 = slot11
-								slot15 = "effect_found"
-								slot13 = slot13(slot14, slot15)
-								slot14 = slot4.trait
-								slot15 = ChapterConst
-								slot15 = slot15.TraitVirgin
-
-								if slot14 ~= slot15 then
-									slot14 = false
-								else
-									slot14 = true
-								end
-
-								slot12(slot13, slot14)
+								setActive(findTF(slot11, "effect_found"), slot4.trait == ChapterConst.TraitVirgin)
 
 								slot12 = slot4.trait
-								slot13 = ChapterConst
-								slot13 = slot13.TraitVirgin
+								slot13 = ChapterConst.TraitVirgin
 
 								if slot12 == slot13 then
 									slot12 = playSoundEffect
@@ -5714,17 +5283,7 @@ function slot5(slot0, slot1, slot2)
 							slot12 = slot12(slot13)
 
 							if not slot12 then
-								slot12 = setActive
-								slot13 = slot11
-								slot14 = slot4.flag
-
-								if slot14 ~= 0 then
-									slot14 = false
-								else
-									slot14 = true
-								end
-
-								slot12(slot13, slot14)
+								setActive(slot11, slot4.flag == 0)
 							end
 
 							return
@@ -5779,21 +5338,7 @@ function slot5(slot0, slot1, slot2)
 								slot12[slot5] = slot13
 							end
 
-							slot11 = setActive
-							slot12 = findTF
-							slot13 = slot10
-							slot14 = "normal"
-							slot12 = slot12(slot13, slot14)
-							slot13 = slot4.attachmentId
-							slot14 = 0
-
-							if slot13 <= slot14 then
-								slot13 = false
-							else
-								slot13 = true
-							end
-
-							slot11(slot12, slot13)
+							setActive(findTF(slot10, "normal"), slot4.attachmentId > 0)
 
 							slot11 = setActive
 							slot12 = findTF
@@ -5849,58 +5394,16 @@ function slot5(slot0, slot1, slot2)
 										slot12(slot13, slot14)
 									end
 
-									slot12 = slot10
-									slot11 = slot10.setAction
-									slot13 = ChapterConst
-									slot13 = slot13.ShipIdleAction
-
-									slot11(slot12, slot13)
-
-									slot12 = slot10
-									slot11 = slot10.setPrefab
-									slot13 = slot4.rival
-									slot13 = slot13.mainShips
-									slot13 = slot13[1]
-									slot14 = slot13
-									slot13 = slot13.getPrefab
-
-									slot11(slot12, slot13(slot14))
-
-									slot12 = slot0
-									slot11 = slot0.frozen
-
-									slot11(slot12)
-
-									slot12 = slot10
-									slot11 = slot10.loadSpine
-
-									function slot13()
-										slot0 = uv0
-										slot1 = slot0
-										slot0 = slot0.unfrozen
-
-										slot0(slot1)
-									end
-
-									slot11(slot12, slot13)
-
-									slot11 = setActive
-									slot12 = slot10.tfEffectFound
-									slot13 = slot4.trait
-									slot14 = ChapterConst
-									slot14 = slot14.TraitVirgin
-
-									if slot13 ~= slot14 then
-										slot13 = false
-									else
-										slot13 = true
-									end
-
-									slot11(slot12, slot13)
+									slot10:setAction(ChapterConst.ShipIdleAction)
+									slot10:setPrefab(slot4.rival.mainShips[1]:getPrefab())
+									slot0:frozen()
+									slot10:loadSpine(function ()
+										slot0:unfrozen()
+									end)
+									setActive(slot10.tfEffectFound, slot4.trait == ChapterConst.TraitVirgin)
 
 									slot11 = slot4.trait
-									slot12 = ChapterConst
-									slot12 = slot12.TraitVirgin
+									slot12 = ChapterConst.TraitVirgin
 
 									if slot11 == slot12 then
 										slot11 = playSoundEffect
@@ -5909,36 +5412,9 @@ function slot5(slot0, slot1, slot2)
 										slot11(slot12)
 									end
 
-									slot11 = setActive
-									slot12 = slot10.tfFighting
-									slot14 = slot3
-									slot13 = slot3.existFleet
-									slot15 = FleetType
-									slot15 = slot15.Normal
-									slot16 = slot1
-									slot17 = slot2
-
-									slot11(slot12, slot13(slot14, slot15, slot16, slot17))
-
-									slot11 = setText
-									slot12 = slot10.tfName
-									slot13 = slot4.rival
-									slot13 = slot13.name
-
-									slot11(slot12, slot13)
-
-									slot11 = setActive
-									slot12 = slot10.tfDamageCount
-									slot13 = slot4.data
-									slot14 = 0
-
-									if slot13 <= slot14 then
-										slot13 = false
-									else
-										slot13 = true
-									end
-
-									slot11(slot12, slot13)
+									setActive(slot10.tfFighting, slot3:existFleet(FleetType.Normal, slot1, slot2))
+									setText(slot10.tfName, slot4.rival.name)
+									setActive(slot10.tfDamageCount, slot4.data > 0)
 								else
 									slot11 = slot4.flag
 
@@ -5951,17 +5427,7 @@ function slot5(slot0, slot1, slot2)
 								end
 
 								if slot10 then
-									slot11 = setActive
-									slot12 = slot10.tf
-									slot13 = slot4.flag
-
-									if slot13 ~= 0 then
-										slot13 = false
-									else
-										slot13 = true
-									end
-
-									slot11(slot12, slot13)
+									setActive(slot10.tf, slot4.flag == 0)
 								end
 							else
 								slot9 = slot4.attachment
@@ -6127,94 +5593,18 @@ function slot5(slot0, slot1, slot2)
 												slot14 = slot14(slot15)
 
 												if slot14 then
-													slot14 = cloneTplTo
-													slot15 = slot0.bombEnemyTpl
-													slot16 = slot7
-													slot17 = slot10
-													slot14 = slot14(slot15, slot16, slot17)
-													slot12 = slot14
-													slot14 = Vector2
-													slot15 = 0
-													slot16 = 10
-													slot14 = slot14(slot15, slot16)
-													slot12.anchoredPosition = slot14
-													slot14 = GetImageSpriteFromAtlasAsync
-													slot15 = "enemies/"
-													slot16 = slot9.prefab
-													slot15 = slot15 .. slot16
-													slot16 = ""
-													slot17 = findTF
-													slot18 = slot12
-													slot19 = "icon"
+													cloneTplTo(slot0.bombEnemyTpl, slot7, slot10).anchoredPosition = Vector2(0, 10)
 
-													slot14(slot15, slot16, slot17(slot18, slot19))
-
-													slot14 = setActive
-													slot15 = findTF
-													slot16 = slot12
-													slot17 = "titleContain/bg_s"
-													slot15 = slot15(slot16, slot17)
-													slot16 = slot9.enemy_point
-
-													if slot16 ~= 5 then
-														slot16 = false
-													else
-														slot16 = true
-													end
-
-													slot14(slot15, slot16)
-
-													slot14 = setActive
-													slot15 = findTF
-													slot16 = slot12
-													slot17 = "titleContain/bg_m"
-													slot15 = slot15(slot16, slot17)
-													slot16 = slot9.enemy_point
-
-													if slot16 ~= 8 then
-														slot16 = false
-													else
-														slot16 = true
-													end
-
-													slot14(slot15, slot16)
-
-													slot14 = setActive
-													slot15 = findTF
-													slot16 = slot12
-													slot17 = "titleContain/bg_h"
-													slot15 = slot15(slot16, slot17)
-													slot16 = slot9.enemy_point
-
-													if slot16 ~= 10 then
-														slot16 = false
-													else
-														slot16 = true
-													end
-
-													slot14(slot15, slot16)
+													GetImageSpriteFromAtlasAsync("enemies/" .. slot9.prefab, "", findTF(cloneTplTo(slot0.bombEnemyTpl, slot7, slot10), "icon"))
+													setActive(findTF(slot12, "titleContain/bg_s"), slot9.enemy_point == 5)
+													setActive(findTF(cloneTplTo(slot0.bombEnemyTpl, slot7, slot10), "titleContain/bg_m"), slot9.enemy_point == 8)
+													setActive(findTF(cloneTplTo(slot0.bombEnemyTpl, slot7, slot10), "titleContain/bg_h"), slot9.enemy_point == 10)
 												end
 
-												slot14 = setActive
-												slot15 = findTF
-												slot16 = slot12
-												slot17 = "effect_found"
-												slot15 = slot15(slot16, slot17)
-												slot16 = slot4.trait
-												slot17 = ChapterConst
-												slot17 = slot17.TraitVirgin
-
-												if slot16 ~= slot17 then
-													slot16 = false
-												else
-													slot16 = true
-												end
-
-												slot14(slot15, slot16)
+												setActive(findTF(slot12, "effect_found"), slot4.trait == ChapterConst.TraitVirgin)
 
 												slot14 = slot4.trait
-												slot15 = ChapterConst
-												slot15 = slot15.TraitVirgin
+												slot15 = ChapterConst.TraitVirgin
 
 												if slot14 == slot15 then
 													slot14 = playSoundEffect
@@ -6306,17 +5696,7 @@ function slot5(slot0, slot1, slot2)
 											slot14 = slot14(slot15)
 
 											if not slot14 then
-												slot14 = setActive
-												slot15 = slot12
-												slot16 = slot4.flag
-
-												if slot16 ~= 0 then
-													slot16 = false
-												else
-													slot16 = true
-												end
-
-												slot14(slot15, slot16)
+												setActive(slot12, slot4.flag == 0)
 											end
 
 											slot14 = IsNil
@@ -6324,17 +5704,7 @@ function slot5(slot0, slot1, slot2)
 											slot14 = slot14(slot15)
 
 											if not slot14 then
-												slot14 = setActive
-												slot15 = slot13
-												slot16 = slot4.flag
-
-												if slot16 ~= 1 then
-													slot16 = false
-												else
-													slot16 = true
-												end
-
-												slot14(slot15, slot16)
+												setActive(slot13, slot4.flag == 1)
 											end
 										else
 											slot9 = slot4.attachment
@@ -6427,26 +5797,10 @@ function slot5(slot0, slot1, slot2)
 															slot14(slot15, slot16)
 														end
 
-														slot14 = setActive
-														slot15 = findTF
-														slot16 = slot12
-														slot17 = "effect_found"
-														slot15 = slot15(slot16, slot17)
-														slot16 = slot4.trait
-														slot17 = ChapterConst
-														slot17 = slot17.TraitVirgin
-
-														if slot16 ~= slot17 then
-															slot16 = false
-														else
-															slot16 = true
-														end
-
-														slot14(slot15, slot16)
+														setActive(findTF(slot12, "effect_found"), slot4.trait == ChapterConst.TraitVirgin)
 
 														slot14 = slot4.trait
-														slot15 = ChapterConst
-														slot15 = slot15.TraitVirgin
+														slot15 = ChapterConst.TraitVirgin
 
 														if slot14 == slot15 then
 															slot14 = playSoundEffect
@@ -6538,17 +5892,7 @@ function slot5(slot0, slot1, slot2)
 													slot14 = slot14(slot15)
 
 													if not slot14 then
-														slot14 = setActive
-														slot15 = slot12
-														slot16 = slot4.flag
-
-														if slot16 ~= 0 then
-															slot16 = false
-														else
-															slot16 = true
-														end
-
-														slot14(slot15, slot16)
+														setActive(slot12, slot4.flag == 0)
 													end
 
 													slot14 = IsNil
@@ -6556,17 +5900,7 @@ function slot5(slot0, slot1, slot2)
 													slot14 = slot14(slot15)
 
 													if not slot14 then
-														slot14 = setActive
-														slot15 = slot13
-														slot16 = slot4.flag
-
-														if slot16 ~= 1 then
-															slot16 = false
-														else
-															slot16 = true
-														end
-
-														slot14(slot15, slot16)
+														setActive(slot13, slot4.flag == 1)
 													end
 												else
 													slot10 = slot9.type
@@ -6611,7 +5945,7 @@ function slot5(slot0, slot1, slot2)
 																	slot1 = slot0.transform
 																	slot2 = slot1
 																	slot1 = slot1.SetParent
-																	slot3 = uv0
+																	slot3 = slot0
 																	slot4 = slot3
 																	slot3 = slot3.Find
 																	slot5 = "icon"
@@ -6624,26 +5958,10 @@ function slot5(slot0, slot1, slot2)
 																slot12(slot13, slot14, slot15, slot16, slot17)
 															end
 
-															slot12 = setActive
-															slot13 = findTF
-															slot14 = slot11
-															slot15 = "effect_found"
-															slot13 = slot13(slot14, slot15)
-															slot14 = slot4.trait
-															slot15 = ChapterConst
-															slot15 = slot15.TraitVirgin
-
-															if slot14 ~= slot15 then
-																slot14 = false
-															else
-																slot14 = true
-															end
-
-															slot12(slot13, slot14)
+															setActive(findTF(slot11, "effect_found"), slot4.trait == ChapterConst.TraitVirgin)
 
 															slot12 = slot4.trait
-															slot13 = ChapterConst
-															slot13 = slot13.TraitVirgin
+															slot13 = ChapterConst.TraitVirgin
 
 															if slot12 == slot13 then
 																slot12 = playSoundEffect
@@ -6658,17 +5976,7 @@ function slot5(slot0, slot1, slot2)
 														slot12 = slot12(slot13)
 
 														if not slot12 then
-															slot12 = setActive
-															slot13 = slot11
-															slot14 = slot4.flag
-
-															if slot14 ~= 0 then
-																slot14 = false
-															else
-																slot14 = true
-															end
-
-															slot12(slot13, slot14)
+															setActive(slot11, slot4.flag == 0)
 														end
 													else
 														slot10 = slot9.type
@@ -6704,43 +6012,9 @@ function slot5(slot0, slot1, slot2)
 																slot12.anchoredPosition = slot13
 															end
 
-															slot13 = slot9.function_args
-															slot13 = slot13[2]
-															slot15 = slot3
-															slot14 = slot3.getRoundNum
-															slot14 = slot14(slot15)
-															slot16 = slot12
-															slot15 = slot12.Find
-															slot17 = "text"
-															slot15 = slot15(slot16, slot17)
-															slot17 = slot12
-															slot16 = slot12.Find
-															slot18 = "Slider"
-															slot16 = slot16(slot17, slot18)
-															slot17 = slot16
-															slot16 = slot16.GetComponent
-															slot18 = typeof
-															slot19 = Slider
-															slot16 = slot16(slot17, slot18(slot19))
-															slot17 = setActive
-															slot18 = slot15
+															setActive(slot15, slot3:getRoundNum() < slot10)
 
-															if slot14 >= slot10 then
-																slot19 = false
-															else
-																slot19 = true
-															end
-
-															slot17(slot18, slot19)
-
-															slot17 = math
-															slot17 = slot17.max
-															slot18 = slot14 - slot10
-															slot18 = slot18 + slot13
-															slot19 = 0
-															slot17 = slot17(slot18, slot19)
-															slot17 = slot17 / slot13
-															slot16.value = slot17
+															slot12:Find("Slider"):GetComponent(typeof(Slider)).value = math.max(slot3.getRoundNum() - slot10 + slot9.function_args[2], 0) / slot9.function_args[2]
 														else
 															slot10 = slot9.type
 															slot11 = ChapterConst
@@ -6847,49 +6121,10 @@ function slot5(slot0, slot1, slot2)
 																		slot14.sizeDelta = slot21
 																	end
 
-																	slot15 = setActive
-																	slot16 = slot12
-																	slot17 = true
+																	setActive(slot12, true)
+																	setActive(slot17, slot3:getRoundNum() < slot10)
 
-																	slot15(slot16, slot17)
-
-																	slot15 = slot9.function_args
-																	slot15 = slot15[2]
-																	slot17 = slot3
-																	slot16 = slot3.getRoundNum
-																	slot16 = slot16(slot17)
-																	slot18 = slot12
-																	slot17 = slot12.Find
-																	slot19 = "text"
-																	slot17 = slot17(slot18, slot19)
-																	slot19 = slot12
-																	slot18 = slot12.Find
-																	slot20 = "Slider"
-																	slot18 = slot18(slot19, slot20)
-																	slot19 = slot18
-																	slot18 = slot18.GetComponent
-																	slot20 = typeof
-																	slot21 = Slider
-																	slot18 = slot18(slot19, slot20(slot21))
-																	slot19 = setActive
-																	slot20 = slot17
-
-																	if slot16 >= slot10 then
-																		slot21 = false
-																	else
-																		slot21 = true
-																	end
-
-																	slot19(slot20, slot21)
-
-																	slot19 = math
-																	slot19 = slot19.max
-																	slot20 = slot16 - slot10
-																	slot20 = slot20 + slot15
-																	slot21 = 0
-																	slot19 = slot19(slot20, slot21)
-																	slot19 = slot19 / slot15
-																	slot18.value = slot19
+																	slot12:Find("Slider"):GetComponent(typeof(Slider)).value = math.max(slot3.getRoundNum() - slot10 + slot9.function_args[2], 0) / slot9.function_args[2]
 																else
 																	slot15 = IsNil
 																	slot16 = slot12
@@ -6997,7 +6232,6 @@ function slot5(slot0, slot1, ...)
 		slot2 = slot2.QuadStateFrozen
 
 		if slot1 == slot2 then
-			-- Nothing
 		else
 			slot2 = ChapterConst
 			slot2 = slot2.QuadStateNormal
@@ -7047,7 +6281,7 @@ function slot5(slot0)
 			if slot1 then
 				slot1 = slot0.row
 				slot2 = slot0.column
-				slot3 = uv0
+				slot3 = slot0
 				slot4 = slot3
 				slot3 = slot3.GetObjectsInCell
 				slot5 = slot1
@@ -7069,7 +6303,7 @@ function slot5(slot0)
 					slot9 = slot1
 					slot10 = slot2
 					slot8 = slot8(slot9, slot10)
-					slot9 = uv1
+					slot9 = slot1
 					slot9 = slot9.quadRoot
 					slot10 = slot9
 					slot9 = slot9.Find
@@ -7098,14 +6332,14 @@ function slot5(slot0)
 							slot13 = slot13.TraitLurk
 
 							if slot12 ~= slot13 then
-								slot12 = uv0
+								slot12 = slot0
 								slot13 = slot12
 								slot12 = slot12.getChampionVisibility
 								slot14 = slot11
 								slot12 = slot12(slot13, slot14)
 
 								if slot12 then
-									slot12 = uv0
+									slot12 = slot0
 									slot13 = slot12
 									slot12 = slot12.existFleet
 									slot14 = FleetType
@@ -7115,7 +6349,7 @@ function slot5(slot0)
 									slot12 = slot12(slot13, slot14, slot15, slot16)
 
 									if not slot12 then
-										slot12 = uv1
+										slot12 = slot1
 										slot13 = slot12
 										slot12 = slot12.startQuadTween
 										slot14 = slot8
@@ -7142,7 +6376,7 @@ function slot5(slot0)
 
 										slot12(slot13, slot14(slot15, slot16))
 
-										slot12 = uv1
+										slot12 = slot1
 										slot12 = slot12.material_Add
 										slot10.material = slot12
 
@@ -7159,14 +6393,14 @@ function slot5(slot0)
 						slot12 = slot1
 						slot13 = slot2
 						slot11 = slot11(slot12, slot13)
-						slot12 = uv0
+						slot12 = slot0
 						slot13 = slot12
 						slot12 = slot12.getQuadCellPic
 						slot14 = slot0
 						slot12 = slot12(slot13, slot14)
 
 						if slot12 then
-							slot13 = uv1
+							slot13 = slot1
 							slot14 = slot13
 							slot13 = slot13.startQuadTween
 							slot15 = slot11
@@ -7186,7 +6420,7 @@ function slot5(slot0)
 
 								slot13(slot14, slot15(slot16, slot17))
 
-								slot13 = uv1
+								slot13 = slot1
 								slot13 = slot13.material_Add
 								slot10.material = slot13
 							else
@@ -7217,7 +6451,7 @@ function slot5(slot0)
 						end
 					end
 
-					slot11 = uv1
+					slot11 = slot1
 					slot12 = slot11
 					slot11 = slot11.cancelQuadTween
 					slot13 = slot8
@@ -7322,7 +6556,7 @@ function slot5(slot0)
 
 					function slot24(slot0)
 						slot1 = slot0.transform
-						uv0 = slot1
+						slot0 = slot1
 					end
 
 					slot19(slot20, slot21, slot22, slot23, slot24)
@@ -7428,7 +6662,7 @@ function slot5(slot0)
 		function slot6(slot0)
 			slot1 = ManhattonDist
 			slot2 = slot0
-			slot3 = uv0
+			slot3 = slot0
 			slot3 = slot3.line
 
 			return slot1(slot2, slot3)
@@ -7444,62 +6678,15 @@ function slot5(slot0)
 		slot7 = slot3
 
 		function slot8(slot0)
-			slot1 = ChapterCell
-			slot1 = slot1.Line2QuadName
-			slot2 = slot0.row
-			slot3 = slot0.column
-			slot1 = slot1(slot2, slot3)
-			slot2 = uv0
-			slot2 = slot2.quadRoot
-			slot3 = slot2
-			slot2 = slot2.Find
-			slot4 = slot1
-			slot2 = slot2(slot3, slot4)
-			slot3 = uv0
-			slot4 = slot3
-			slot3 = slot3.cancelQuadTween
-			slot5 = slot1
-			slot6 = slot2
+			slot1 = ChapterCell.Line2QuadName(slot0.row, slot0.column)
+			slot2 = slot0.quadRoot:Find(slot1)
 
-			slot3(slot4, slot5, slot6)
+			slot0:cancelQuadTween(slot1, slot2)
+			setImageSprite(slot2, GetSpriteFromAtlas("chapter/pic/cellgrid", "cell_normal"))
 
-			slot3 = setImageSprite
-			slot4 = slot2
-			slot5 = GetSpriteFromAtlas
-			slot6 = "chapter/pic/cellgrid"
-			slot7 = "cell_normal"
-
-			slot3(slot4, slot5(slot6, slot7))
-
-			slot4 = slot2
-			slot3 = slot2.Find
-			slot5 = "grid"
-			slot3 = slot3(slot4, slot5)
-			slot4 = slot3
-			slot3 = slot3.GetComponent
-			slot5 = typeof
-			slot6 = Image
-			slot3 = slot3(slot4, slot5(slot6))
-			slot4 = GetSpriteFromAtlas
-			slot5 = "chapter/pic/cellgrid"
-			slot6 = "cell_grid"
-			slot4 = slot4(slot5, slot6)
-			slot3.sprite = slot4
-			slot4 = nil
-			slot3.material = slot4
-			slot4 = uv1
-			slot5 = slot4
-			slot4 = slot4.getRound
-			slot4 = slot4(slot5)
-			slot5 = ChapterConst
-			slot5 = slot5.RoundPlayer
-
-			if slot4 ~= slot5 then
-				slot4 = false
-			else
-				slot4 = true
-			end
-
+			slot2:Find("grid"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("chapter/pic/cellgrid", "cell_grid")
+			slot2.Find("grid").GetComponent(typeof(Image)).material = nil
+			slot4 = slot1:getRound() == ChapterConst.RoundPlayer
 			slot5 = setImageAlpha
 			slot6 = slot2
 
@@ -7536,14 +6723,14 @@ function slot5(slot0)
 			slot5 = slot5.setDelay
 			slot7 = ManhattonDist
 			slot8 = slot0
-			slot9 = uv2
+			slot9 = slot2
 			slot9 = slot9.line
 			slot7 = slot7(slot8, slot9)
-			slot8 = uv3
+			slot8 = slot3
 			slot7 = slot7 - slot8
 			slot7 = slot7 * 0.1
 			slot5 = slot5(slot6, slot7)
-			slot6 = uv0
+			slot6 = slot0
 			slot6 = slot6.presentTws
 			slot7 = {}
 			slot8 = slot5.uniqueId
@@ -7587,13 +6774,13 @@ function slot5(slot0)
 		function slot7(slot0)
 			slot1 = {}
 			slot2 = slot0[1]
-			slot3 = uv0
+			slot3 = slot0
 			slot3 = slot3.line
 			slot3 = slot3.row
 			slot2 = slot2 + slot3
 			slot1.row = slot2
 			slot2 = slot0[2]
-			slot3 = uv0
+			slot3 = slot0
 			slot3 = slot3.line
 			slot3 = slot3.column
 			slot2 = slot2 + slot3
@@ -7623,22 +6810,11 @@ end
 slot0.UpdateQuadStateNormal = slot5
 
 function slot5(slot0, ...)
-	slot1 = slot0.contextData
-	slot1 = slot1.chapterVO
-	slot2 = slot1.fleet
-	slot3 = {
+	slot2 = slot0.contextData.chapterVO.fleet
+	slot0.quadClickProxy = ({
 		...
-	}
-	slot3[MULTRES] = ...
-	slot4 = slot3[1]
-
-	if not slot4 then
-		slot4 = {}
-	end
-
-	slot5 = slot3[2]
-	slot0.quadClickProxy = slot5
-	slot5 = #slot4
+	})[2]
+	slot5 = #(()[1] or {})
 	slot6 = 0
 
 	if slot5 > slot6 then
@@ -7649,7 +6825,7 @@ function slot5(slot0, ...)
 		function slot7(slot0)
 			slot1 = ManhattonDist
 			slot2 = slot0
-			slot3 = uv0
+			slot3 = slot0
 			slot3 = slot3.line
 
 			return slot1(slot2, slot3)
@@ -7670,13 +6846,13 @@ function slot5(slot0, ...)
 			slot2 = slot0.row
 			slot3 = slot0.column
 			slot1 = slot1(slot2, slot3)
-			slot2 = uv0
+			slot2 = slot0
 			slot2 = slot2.quadRoot
 			slot3 = slot2
 			slot2 = slot2.Find
 			slot4 = slot1
 			slot2 = slot2(slot3, slot4)
-			slot3 = uv0
+			slot3 = slot0
 			slot4 = slot3
 			slot3 = slot3.cancelQuadTween
 			slot5 = slot1
@@ -7738,14 +6914,14 @@ function slot5(slot0, ...)
 			slot4 = slot4.setDelay
 			slot6 = ManhattonDist
 			slot7 = slot0
-			slot8 = uv1
+			slot8 = slot1
 			slot8 = slot8.line
 			slot6 = slot6(slot7, slot8)
-			slot7 = uv2
+			slot7 = slot2
 			slot6 = slot6 - slot7
 			slot6 = slot6 * 0.1
 			slot4 = slot4(slot5, slot6)
-			slot5 = uv0
+			slot5 = slot0
 			slot5 = slot5.presentTws
 			slot6 = {}
 			slot7 = slot4.uniqueId
@@ -7767,19 +6943,7 @@ function slot5(slot0)
 	slot3 = slot1.fleets
 
 	function slot4(slot0)
-		slot2 = slot0
-		slot1 = slot0.getFleetType
-		slot1 = slot1(slot2)
-		slot2 = FleetType
-		slot2 = slot2.Submarine
-
-		if slot1 ~= slot2 then
-			slot1 = false
-		else
-			slot1 = true
-		end
-
-		return slot1
+		return slot0:getFleetType() == FleetType.Submarine
 	end
 
 	slot2 = slot2(slot3, slot4)
@@ -7803,10 +6967,10 @@ function slot5(slot0)
 	slot5 = slot3
 
 	function slot6(slot0)
-		slot1 = uv0
+		slot1 = slot0
 		slot2 = slot1
 		slot1 = slot1.getQuadCellPic
-		slot3 = uv0
+		slot3 = slot0
 		slot4 = slot3
 		slot3 = slot3.getChapterCell
 		slot5 = slot0.row
@@ -7821,7 +6985,7 @@ function slot5(slot0)
 	slot3 = slot4
 
 	function slot4(slot0)
-		slot1 = uv0
+		slot1 = slot0
 		slot2 = slot1
 		slot1 = slot1.OnTeleportConfirm
 		slot3 = slot0
@@ -7846,13 +7010,13 @@ function slot5(slot0)
 		slot2 = slot0.row
 		slot3 = slot0.column
 		slot1 = slot1(slot2, slot3)
-		slot2 = uv0
+		slot2 = slot0
 		slot2 = slot2.quadRoot
 		slot3 = slot2
 		slot2 = slot2.Find
 		slot4 = slot1
 		slot2 = slot2(slot3, slot4)
-		slot3 = uv0
+		slot3 = slot0
 		slot4 = slot3
 		slot3 = slot3.cancelQuadTween
 		slot5 = slot1
@@ -7889,15 +7053,15 @@ function slot5(slot0)
 		slot5 = slot5.Action
 
 		function slot6()
-			slot0 = uv0
+			slot0 = slot0
 			slot0 = slot0 + 1
-			uv0 = slot0
-			slot0 = uv0
-			slot1 = uv1
+			slot0 = slot0
+			slot0 = slot0
+			slot1 = slot1
 			slot1 = #slot1
 
 			if slot0 == slot1 then
-				slot0 = uv2
+				slot0 = slot2
 				slot1 = slot0
 				slot0 = slot0.unfrozen
 
@@ -7906,7 +7070,7 @@ function slot5(slot0)
 		end
 
 		slot3 = slot3(slot4, slot5(slot6))
-		slot4 = uv0
+		slot4 = slot0
 		slot4 = slot4.presentTws
 		slot5 = {}
 		slot6 = slot3.uniqueId
@@ -7976,58 +7140,35 @@ function slot5(slot0)
 	slot8 = slot4.tfAmmo
 
 	if not slot6 then
-		slot10 = slot1
-		slot9 = slot1.getDataType
-		slot9 = slot9(slot10)
-		slot10 = ChapterConst
-		slot10 = slot10.TypeNone
+		slot7(slot8, slot1:getDataType() == ChapterConst.TypeNone)
+		slot4:SetActive(true)
 
-		if slot9 ~= slot10 then
-			slot9 = false
+		slot7 = slot1.subAutoAttack == 1
+
+		if not slot7 then
+			slot9 = slot0
+			slot8 = slot0.PlaySubAnimation
+			slot10 = slot4
+			slot11 = false
+
+			function slot12()
+				slot0 = slot0
+				slot1 = slot0
+				slot0 = slot0.SetActiveModel
+				slot2 = slot1
+				slot2 = not slot2
+
+				slot0(slot1, slot2)
+			end
+
+			slot8(slot9, slot10, slot11, slot12)
 		else
-			slot9 = true
+			slot9 = slot4
+			slot8 = slot4.SetActiveModel
+			slot10 = not slot6
+
+			slot8(slot9, slot10)
 		end
-	end
-
-	slot7(slot8, slot9)
-
-	slot8 = slot4
-	slot7 = slot4.SetActive
-	slot9 = true
-
-	slot7(slot8, slot9)
-
-	slot7 = slot1.subAutoAttack
-
-	if slot7 ~= 1 then
-		slot7 = false
-	else
-		slot7 = true
-	end
-
-	if not slot7 then
-		slot9 = slot0
-		slot8 = slot0.PlaySubAnimation
-		slot10 = slot4
-		slot11 = false
-
-		function slot12()
-			slot0 = uv0
-			slot1 = slot0
-			slot0 = slot0.SetActiveModel
-			slot2 = uv1
-			slot2 = not slot2
-
-			slot0(slot1, slot2)
-		end
-
-		slot8(slot9, slot10, slot11, slot12)
-	else
-		slot9 = slot4
-		slot8 = slot4.SetActiveModel
-		slot10 = not slot6
-
-		slot8(slot9, slot10)
 	end
 
 	slot8 = slot4.tf
@@ -8047,55 +7188,17 @@ end
 slot0.PrepareSubTeleport = slot5
 
 function slot5(slot0)
-	slot1 = nil
-	slot0.subTeleportTargetLine = slot1
-	slot1 = slot0.contextData
-	slot1 = slot1.chapterVO
-	slot3 = slot0
-	slot2 = slot0.hideQuadMark
-	slot4 = ChapterConst
-	slot4 = slot4.MarkMovePathArrow
+	slot0.subTeleportTargetLine = nil
 
-	slot2(slot3, slot4)
+	slot0:hideQuadMark(ChapterConst.MarkMovePathArrow)
+	slot0:hideQuadMark(ChapterConst.MarkHuntingRange)
+	slot0:ClearEdges()
+	slot0:UpdateDestinationMark()
 
-	slot3 = slot0
-	slot2 = slot0.hideQuadMark
-	slot4 = ChapterConst
-	slot4 = slot4.MarkHuntingRange
+	slot0.subTeleportMode = false
+	slot2, slot3 = slot0.contextData.chapterVO.GetSubmarineFleet(slot1)
 
-	slot2(slot3, slot4)
-
-	slot3 = slot0
-	slot2 = slot0.ClearEdges
-
-	slot2(slot3)
-
-	slot3 = slot0
-	slot2 = slot0.UpdateDestinationMark
-
-	slot2(slot3)
-
-	slot2 = false
-	slot0.subTeleportMode = slot2
-	slot3 = slot1
-	slot2 = slot1.GetSubmarineFleet
-	slot2, slot3 = slot2(slot3)
-	slot4 = slot0.cellFleets
-	slot5 = slot2.id
-	slot4 = slot4[slot5]
-	slot5 = slot1.subAutoAttack
-
-	if slot5 ~= 1 then
-		slot5 = false
-	else
-		slot5 = true
-	end
-
-	slot7 = slot4
-	slot6 = slot4.SetActive
-	slot8 = slot5
-
-	slot6(slot7, slot8)
+	slot0.cellFleets[slot2.id]:SetActive(slot0.contextData.chapterVO.subAutoAttack == 1)
 
 	if not slot5 then
 		slot7 = slot0
@@ -8104,10 +7207,10 @@ function slot5(slot0)
 		slot9 = true
 
 		function slot10()
-			slot0 = uv0
+			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.updateFleet
-			slot2 = uv1
+			slot2 = slot1
 			slot2 = slot2.id
 
 			slot0(slot1, slot2)
@@ -8314,53 +7417,7 @@ function slot5(slot0, slot1)
 		slot14 = slot14[slot13]
 
 		if slot14 then
-			slot15 = slot11 + 1
-			slot15 = slot1[slot15]
-			slot16 = Vector3
-			slot16 = slot16.Normalize
-			slot17 = Vector3
-			slot18 = slot15.column
-			slot19 = slot12.column
-			slot18 = slot18 - slot19
-			slot19 = slot12.row
-			slot20 = slot15.row
-			slot19 = slot19 - slot20
-			slot20 = 0
-			slot16 = slot16(slot17(slot18, slot19, slot20))
-			slot17 = Vector3
-			slot17 = slot17.Dot
-			slot18 = slot16
-			slot19 = Vector3
-			slot19 = slot19.up
-			slot17 = slot17(slot18, slot19)
-			slot18 = Mathf
-			slot18 = slot18.Acos
-			slot19 = slot17
-			slot18 = slot18(slot19)
-			slot19 = Mathf
-			slot19 = slot19.Rad2Deg
-			slot18 = slot18 * slot19
-			slot19 = Vector3
-			slot19 = slot19.Cross
-			slot20 = Vector3
-			slot20 = slot20.up
-			slot21 = slot16
-			slot19 = slot19(slot20, slot21)
-			slot20 = slot19.z
-			slot21 = 0
-
-			if slot20 > slot21 then
-				slot20 = 1
-			else
-				slot20 = -1
-			end
-
-			slot21 = Vector3
-			slot22 = 0
-			slot23 = 0
-			slot24 = slot18 * slot20
-			slot21 = slot21(slot22, slot23, slot24)
-			slot14.localEulerAngles = slot21
+			slot14.localEulerAngles = Vector3(0, 0, Mathf.Acos(slot17) * Mathf.Rad2Deg * ((Vector3.Cross(Vector3.up, slot16).z > 0 and 1) or -1))
 		end
 	end
 end
@@ -8389,9 +7446,7 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot5[slot1]
 
 	if not slot5 then
-		if not slot3 then
-			slot3 = 1
-		end
+		slot3 = slot3 or 1
 
 		if not slot4 then
 			slot5 = ChapterConst
@@ -8496,45 +7551,12 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot5[slot1]
 
 	if not slot5 then
-		if not slot3 then
-			slot3 = 1
-		end
+		setImageAlpha(slot2, slot3 or 1)
 
-		if not slot4 then
-			slot4 = 0.2
-		end
-
-		slot5 = setImageAlpha
-		slot6 = slot2
-		slot7 = slot3
-
-		slot5(slot6, slot7)
-
-		slot5 = LeanTween
-		slot5 = slot5.alpha
-		slot6 = slot2
-		slot7 = slot4
-		slot8 = 0.7
-		slot5 = slot5(slot6, slot7, slot8)
-		slot6 = slot5
-		slot5 = slot5.setLoopPingPong
-		slot5 = slot5(slot6)
-		slot6 = slot5
-		slot5 = slot5.setEase
-		slot7 = LeanTweenType
-		slot7 = slot7.easeInOutSine
-		slot5 = slot5(slot6, slot7)
-		slot6 = slot5
-		slot5 = slot5.setDelay
-		slot7 = 1
-		slot5 = slot5(slot6, slot7)
-		slot6 = slot0.markTws
-		slot7 = {
-			tw = slot5
+		slot0.markTws[slot1] = {
+			tw = LeanTween.alpha(slot2, slot4, 0.7):setLoopPingPong():setEase(LeanTweenType.easeInOutSine):setDelay(1),
+			uniqueId = LeanTween.alpha(slot2, slot4, 0.7).setLoopPingPong().setEase(LeanTweenType.easeInOutSine).setDelay(1).uniqueId
 		}
-		slot8 = slot5.uniqueId
-		slot7.uniqueId = slot8
-		slot6[slot1] = slot7
 	end
 end
 
@@ -8620,23 +7642,23 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	function slot10(slot0)
-		slot1 = uv0
+		slot1 = slot0
 		slot2 = ChapterConst
 		slot2 = slot2.TypeNone
 
 		if slot1 == slot2 then
-			slot1 = uv1
-			slot2 = uv1
+			slot1 = slot1
+			slot2 = slot1
 			slot2 = slot2.step
 			slot2 = slot2 + 1
 			slot1.step = slot2
 		end
 
-		slot1 = uv2
+		slot1 = slot2
 		slot1 = slot1.onShipStepChange
 
 		if slot1 then
-			slot1 = uv2
+			slot1 = slot2
 			slot1 = slot1.onShipStepChange
 			slot2 = slot0
 
@@ -8645,7 +7667,7 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	function slot11(slot0)
-		slot1 = uv0
+		slot1 = slot0
 		slot2 = slot1
 		slot1 = slot1.sortItems
 
@@ -8654,22 +7676,22 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 
 	function slot12()
 		slot0 = setActive
-		slot1 = uv0
+		slot1 = slot0
 		slot1 = slot1.arrowTarget
 		slot2 = false
 
 		slot0(slot1, slot2)
 
-		slot0 = uv1
+		slot0 = slot1
 		slot0 = slot0.fleet
 		slot0 = slot0.line
-		slot1 = uv1
+		slot1 = slot1
 		slot2 = slot1
 		slot1 = slot1.getChapterCell
 		slot3 = slot0.row
 		slot4 = slot0.column
 		slot1 = slot1(slot2, slot3, slot4)
-		slot2 = uv2
+		slot2 = slot2
 		slot3 = ChapterConst
 		slot3 = slot3.TypeNone
 
@@ -8680,20 +7702,20 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 			slot2 = slot2(slot3)
 
 			if slot2 then
-				slot2 = uv3
+				slot2 = slot3
 				slot3 = 0
 				slot2.step = slot3
 			end
 		end
 
-		slot2 = uv4
+		slot2 = slot4
 		slot3 = slot2
 		slot2 = slot2.getModel
 		slot2 = slot2(slot3)
 
 		if slot2 then
-			slot2 = uv3
-			slot3 = uv4
+			slot2 = slot3
+			slot3 = slot4
 			slot4 = slot3
 			slot3 = slot3.getModel
 			slot3 = slot3(slot4)
@@ -8702,7 +7724,7 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 			slot2.rotation = slot3
 		end
 
-		slot2 = uv0
+		slot2 = slot0
 		slot3 = slot2
 		slot2 = slot2.updateAttachment
 		slot4 = slot0.row
@@ -8710,20 +7732,20 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 
 		slot2(slot3, slot4, slot5)
 
-		slot2 = uv0
+		slot2 = slot0
 		slot3 = slot2
 		slot2 = slot2.updateFleet
-		slot4 = uv5
+		slot4 = slot5
 
 		slot2(slot3, slot4)
 
-		slot2 = uv0
+		slot2 = slot0
 		slot3 = slot2
 		slot2 = slot2.updateOni
 
 		slot2(slot3)
 
-		slot2 = uv1
+		slot2 = slot1
 		slot3 = slot2
 		slot2 = slot2.getChampionIndex
 		slot4 = slot0.row
@@ -8731,7 +7753,7 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 		slot2 = slot2(slot3, slot4, slot5)
 
 		if slot2 then
-			slot3 = uv0
+			slot3 = slot0
 			slot4 = slot3
 			slot3 = slot3.updateChampion
 			slot5 = slot2
@@ -8739,20 +7761,20 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 			slot3(slot4, slot5)
 		end
 
-		slot3 = uv0
+		slot3 = slot0
 		slot3 = slot3.onShipArrived
 
 		if slot3 then
-			slot3 = uv0
+			slot3 = slot0
 			slot3 = slot3.onShipArrived
 
 			slot3()
 		end
 
-		slot3 = uv6
+		slot3 = slot6
 
 		if slot3 then
-			slot3 = uv6
+			slot3 = slot6
 
 			slot3()
 		end
@@ -8791,10 +7813,11 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 	slot8 = slot2[slot8]
 
 	function slot9(slot0)
+		return
 	end
 
 	function slot10(slot0)
-		slot1 = uv0
+		slot1 = slot0
 		slot2 = slot1
 		slot1 = slot1.sortItems
 
@@ -8802,40 +7825,40 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	function slot11()
-		slot0 = uv0
+		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.existEnemy
 		slot2 = ChapterConst
 		slot2 = slot2.SubjectPlayer
-		slot3 = uv1
+		slot3 = slot1
 		slot3 = slot3.row
-		slot4 = uv1
+		slot4 = slot1
 		slot4 = slot4.column
 		slot0 = slot0(slot1, slot2, slot3, slot4)
 
 		if not slot0 then
-			slot0 = uv0
+			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.existAlly
-			slot2 = uv2
+			slot2 = slot2
 			slot0 = slot0(slot1, slot2)
 		end
 
-		slot1 = uv3
+		slot1 = slot3
 		slot2 = slot1
 		slot1 = slot1.SetActiveModel
 		slot3 = not slot0
 
 		slot1(slot2, slot3)
 
-		slot1 = uv3
+		slot1 = slot3
 		slot2 = slot1
 		slot1 = slot1.getModel
 		slot1 = slot1(slot2)
 
 		if slot1 then
-			slot1 = uv2
-			slot2 = uv3
+			slot1 = slot2
+			slot2 = slot3
 			slot3 = slot2
 			slot2 = slot2.getModel
 			slot2 = slot2(slot3)
@@ -8844,10 +7867,10 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 			slot1.rotation = slot2
 		end
 
-		slot1 = uv4
+		slot1 = slot4
 
 		if slot1 then
-			slot1 = uv4
+			slot1 = slot4
 
 			slot1()
 		end
@@ -8885,10 +7908,11 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 	slot7 = slot7[slot1]
 
 	function slot8(slot0)
+		return
 	end
 
 	function slot9(slot0)
-		slot1 = uv0
+		slot1 = slot0
 		slot2 = slot1
 		slot1 = slot1.sortItems
 
@@ -8896,14 +7920,14 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	function slot10()
-		slot0 = uv0
+		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.getModel
 		slot0 = slot0(slot1)
 
 		if slot0 then
-			slot0 = uv1
-			slot1 = uv0
+			slot0 = slot1
+			slot1 = slot0
 			slot2 = slot1
 			slot1 = slot1.getModel
 			slot1 = slot1(slot2)
@@ -8912,10 +7936,10 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 			slot0.rotation = slot1
 		end
 
-		slot0 = uv2
+		slot0 = slot2
 
 		if slot0 then
-			slot0 = uv2
+			slot0 = slot2
 
 			slot0()
 		end
@@ -8995,10 +8019,11 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 	slot7 = slot7[slot8]
 
 	function slot8(slot0)
+		return
 	end
 
 	function slot9(slot0)
-		slot1 = uv0
+		slot1 = slot0
 		slot2 = slot1
 		slot1 = slot1.sortItems
 
@@ -9006,14 +8031,14 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	function slot10()
-		slot0 = uv0
+		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.getModel
 		slot0 = slot0(slot1)
 
 		if slot0 then
-			slot0 = uv1
-			slot1 = uv0
+			slot0 = slot1
+			slot1 = slot0
 			slot2 = slot1
 			slot1 = slot1.getModel
 			slot1 = slot1(slot2)
@@ -9022,18 +8047,18 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 			slot0.rotation = slot1
 		end
 
-		slot0 = uv2
+		slot0 = slot2
 		slot1 = slot0
 		slot0 = slot0.updateFleet
-		slot2 = uv1
+		slot2 = slot1
 		slot2 = slot2.id
 
 		slot0(slot1, slot2)
 
-		slot0 = uv3
+		slot0 = slot3
 
 		if slot0 then
-			slot0 = uv3
+			slot0 = slot3
 
 			slot0()
 		end
@@ -9068,13 +8093,13 @@ function slot5(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot9 = slot9.wrap
 
 	function slot10()
-		slot0 = uv0
+		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.frozen
 
 		slot0(slot1)
 
-		slot0 = uv0
+		slot0 = slot0
 		slot0 = slot0.contextData
 		slot0 = slot0.chapterVO
 		slot2 = slot0
@@ -9082,243 +8107,51 @@ function slot5(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 		slot1 = slot1(slot2)
 
 		if slot1 then
-			slot1 = ChapterConst
-			slot1 = slot1.ShipStepQuickPlayScale
+			slot4 = 0.1 * (ChapterConst.ShipStepQuickPlayScale or 1)
+			slot5 = 0
 
-			if not slot1 then
-				slot1 = 1
-			end
-		end
+			table.insert(slot1, 1, slot2:getLine())
+			_.each(slot1, function (slot0)
+				if ChapterConst.NeedEasePathCell(slot0:getChapterCell(slot0.row, slot0.column)) then
+					slot2 = ChapterCell.Line2QuadName(slot1.row, slot1.column)
+					slot3 = slot1.quadRoot:Find(slot2)
 
-		slot2 = 0.3 * slot1
-		slot3 = ChapterConst
-		slot3 = slot3.ShipStepDuration
-		slot4 = ChapterConst
-		slot4 = slot4.ShipMoveTailLength
-		slot3 = slot3 * slot4
-		slot3 = slot3 * slot1
-		slot4 = 0.1 * slot1
-		slot5 = 0
-		slot6 = table
-		slot6 = slot6.insert
-		slot7 = uv1
-		slot8 = 1
-		slot9 = uv2
-		slot10 = slot9
-		slot9 = slot9.getLine
+					slot1:cancelQuadTween(slot2, slot3)
+					LeanTween.alpha(slot3, 1, slot2):setDelay(slot3)
 
-		slot6(slot7, slot8, slot9(slot10))
-
-		slot6 = _
-		slot6 = slot6.each
-		slot7 = uv1
-
-		function slot8(slot0)
-			slot1 = uv0
-			slot2 = slot1
-			slot1 = slot1.getChapterCell
-			slot3 = slot0.row
-			slot4 = slot0.column
-			slot1 = slot1(slot2, slot3, slot4)
-			slot2 = ChapterConst
-			slot2 = slot2.NeedEasePathCell
-			slot3 = slot1
-			slot2 = slot2(slot3)
-
-			if slot2 then
-				slot2 = ChapterCell
-				slot2 = slot2.Line2QuadName
-				slot3 = slot1.row
-				slot4 = slot1.column
-				slot2 = slot2(slot3, slot4)
-				slot3 = uv1
-				slot3 = slot3.quadRoot
-				slot4 = slot3
-				slot3 = slot3.Find
-				slot5 = slot2
-				slot3 = slot3(slot4, slot5)
-				slot4 = uv1
-				slot5 = slot4
-				slot4 = slot4.cancelQuadTween
-				slot6 = slot2
-				slot7 = slot3
-
-				slot4(slot5, slot6, slot7)
-
-				slot4 = LeanTween
-				slot4 = slot4.alpha
-				slot5 = slot3
-				slot6 = 1
-				slot7 = uv2
-				slot4 = slot4(slot5, slot6, slot7)
-				slot5 = slot4
-				slot4 = slot4.setDelay
-				slot6 = uv3
-
-				slot4(slot5, slot6)
-
-				slot4 = uv3
-				slot5 = uv4
-				slot4 = slot4 + slot5
-				uv3 = slot4
-			end
-		end
-
-		slot6(slot7, slot8)
-
-		slot6 = _
-		slot6 = slot6.each
-		slot7 = uv3
-
-		function slot8(slot0)
-			slot1 = uv0
-			slot2 = slot1
-			slot1 = slot1.moveStep
-			slot3 = uv1
-			slot4 = slot0
-			slot5 = uv2
-			slot6 = uv2
-			slot6 = #slot6
-			slot5 = slot5[slot6]
-
-			function slot6()
-				slot0 = uv0
-				slot1 = slot0
-				slot0 = slot0.getLine
-				slot0 = slot0(slot1)
-				slot1 = uv1
-				slot2 = slot1
-				slot1 = slot1.getChapterCell
-				slot3 = slot0.row
-				slot4 = slot0.column
-				slot1 = slot1(slot2, slot3, slot4)
-				slot2 = ChapterConst
-				slot2 = slot2.NeedEasePathCell
-				slot3 = slot1
-				slot2 = slot2(slot3)
-
-				if slot2 then
-					slot2 = ChapterCell
-					slot2 = slot2.Line2QuadName
-					slot3 = slot1.row
-					slot4 = slot1.column
-					slot2 = slot2(slot3, slot4)
-					slot3 = uv2
-					slot3 = slot3.quadRoot
-					slot4 = slot3
-					slot3 = slot3.Find
-					slot5 = slot2
-					slot3 = slot3(slot4, slot5)
-					slot4 = LeanTween
-					slot4 = slot4.scale
-					slot5 = slot3
-					slot6 = Vector3
-					slot6 = slot6.zero
-					slot7 = uv3
-
-					slot4(slot5, slot6, slot7)
+					slot3 = slot3 + 
 				end
+			end)
+			_.each(slot3, function (slot0)
+				slot0:moveStep(slot0.moveStep, slot0, slot2[#slot2], function ()
+					if ChapterConst.NeedEasePathCell(slot0:getChapterCell(slot0:getLine().row, slot0.getLine().column)) then
+						LeanTween.scale(slot2.quadRoot:Find(slot2), Vector3.zero, )
+					end
 
-				slot2 = uv4
-				slot3 = uv5
+					slot4(slot5)
+				end, function ()
+					slot0:setLine(slot0)
+					slot2(slot0)
+					slot3()
+				end)
+				coroutine.yield()
+			end)
+			_.each(slot1, function (slot0)
+				if ChapterConst.NeedEasePathCell(slot0:getChapterCell(slot0.row, slot0.column)) then
+					slot3 = slot1.quadRoot:Find(slot2)
 
-				slot2(slot3)
-			end
+					LeanTween.cancel(slot3.gameObject)
+					setImageAlpha(slot3, ChapterConst.CellEaseOutAlpha)
 
-			function slot7()
-				slot0 = uv0
-				slot1 = slot0
-				slot0 = slot0.setLine
-				slot2 = uv1
+					slot3.localScale = Vector3.one
+				end
+			end)
+			slot2:setAction(ChapterConst.ShipIdleAction)
+			slot7()
+			slot0:unfrozen()
 
-				slot0(slot1, slot2)
-
-				slot0 = uv2
-				slot1 = uv1
-
-				slot0(slot1)
-
-				slot0 = uv3
-
-				slot0()
-			end
-
-			slot1(slot2, slot3, slot4, slot5, slot6, slot7)
-
-			slot1 = coroutine
-			slot1 = slot1.yield
-
-			slot1()
+			return
 		end
-
-		slot6(slot7, slot8)
-
-		slot6 = _
-		slot6 = slot6.each
-		slot7 = uv1
-
-		function slot8(slot0)
-			slot1 = uv0
-			slot2 = slot1
-			slot1 = slot1.getChapterCell
-			slot3 = slot0.row
-			slot4 = slot0.column
-			slot1 = slot1(slot2, slot3, slot4)
-			slot2 = ChapterConst
-			slot2 = slot2.NeedEasePathCell
-			slot3 = slot1
-			slot2 = slot2(slot3)
-
-			if slot2 then
-				slot2 = ChapterCell
-				slot2 = slot2.Line2QuadName
-				slot3 = slot1.row
-				slot4 = slot1.column
-				slot2 = slot2(slot3, slot4)
-				slot3 = uv1
-				slot3 = slot3.quadRoot
-				slot4 = slot3
-				slot3 = slot3.Find
-				slot5 = slot2
-				slot3 = slot3(slot4, slot5)
-				slot4 = LeanTween
-				slot4 = slot4.cancel
-				slot5 = slot3.gameObject
-
-				slot4(slot5)
-
-				slot4 = setImageAlpha
-				slot5 = slot3
-				slot6 = ChapterConst
-				slot6 = slot6.CellEaseOutAlpha
-
-				slot4(slot5, slot6)
-
-				slot4 = Vector3
-				slot4 = slot4.one
-				slot3.localScale = slot4
-			end
-		end
-
-		slot6(slot7, slot8)
-
-		slot6 = uv2
-		slot7 = slot6
-		slot6 = slot6.setAction
-		slot8 = ChapterConst
-		slot8 = slot8.ShipIdleAction
-
-		slot6(slot7, slot8)
-
-		slot6 = uv7
-
-		slot6()
-
-		slot6 = uv0
-		slot7 = slot6
-		slot6 = slot6.unfrozen
-
-		slot6(slot7)
 	end
 
 	slot9 = slot9(slot10)
@@ -9338,72 +8171,57 @@ function slot5(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot7 = slot7(slot8)
 
 	if slot7 then
-		slot7 = ChapterConst
-		slot7 = slot7.ShipStepQuickPlayScale
+		slot7 = ChapterConst.ShipStepQuickPlayScale or 1
+		slot9 = slot1:getAction()
+		slot10 = slot1:getLine()
+		slot11 = IsNil(slot1:getModel())
 
-		if not slot7 then
-			slot7 = 1
-		end
-	end
+		if not slot11 then
+			slot11 = ChapterConst
+			slot11 = slot11.ShipMoveAction
 
-	slot9 = slot1
-	slot8 = slot1.getModel
-	slot8 = slot8(slot9)
-	slot10 = slot1
-	slot9 = slot1.getAction
-	slot9 = slot9(slot10)
-	slot11 = slot1
-	slot10 = slot1.getLine
-	slot10 = slot10(slot11)
-	slot11 = IsNil
-	slot12 = slot8
-	slot11 = slot11(slot12)
+			if slot9 ~= slot11 then
+				slot12 = slot1
+				slot11 = slot1.setAction
+				slot13 = ChapterConst
+				slot13 = slot13.ShipMoveAction
 
-	if not slot11 then
-		slot11 = ChapterConst
-		slot11 = slot11.ShipMoveAction
+				slot11(slot12, slot13)
+			end
 
-		if slot9 ~= slot11 then
-			slot12 = slot1
-			slot11 = slot1.setAction
-			slot13 = ChapterConst
-			slot13 = slot13.ShipMoveAction
-
-			slot11(slot12, slot13)
-		end
-
-		slot11 = slot2.column
-		slot12 = slot10.column
-
-		if slot11 == slot12 then
-			slot11 = slot3.column
+			slot11 = slot2.column
 			slot12 = slot10.column
 
-			if slot11 ~= slot12 then
-				slot11 = slot8.transform
-				slot12 = Quaternion
-				slot12 = slot12.identity
-				slot11.localRotation = slot12
-				slot11 = slot2.column
+			if slot11 == slot12 then
+				slot11 = slot3.column
 				slot12 = slot10.column
 
-				if slot11 >= slot12 then
+				if slot11 ~= slot12 then
+					slot11 = slot8.transform
+					slot12 = Quaternion
+					slot12 = slot12.identity
+					slot11.localRotation = slot12
 					slot11 = slot2.column
 					slot12 = slot10.column
 
-					if slot11 == slot12 then
-						slot11 = slot3.column
+					if slot11 >= slot12 then
+						slot11 = slot2.column
 						slot12 = slot10.column
 
-						if slot11 < slot12 then
-							slot11 = slot8.transform
-							slot12 = Quaternion
-							slot12 = slot12.Euler
-							slot13 = 0
-							slot14 = 180
-							slot15 = 0
-							slot12 = slot12(slot13, slot14, slot15)
-							slot11.localRotation = slot12
+						if slot11 == slot12 then
+							slot11 = slot3.column
+							slot12 = slot10.column
+
+							if slot11 < slot12 then
+								slot11 = slot8.transform
+								slot12 = Quaternion
+								slot12 = slot12.Euler
+								slot13 = 0
+								slot14 = 180
+								slot15 = 0
+								slot12 = slot12(slot13, slot14, slot15)
+								slot11.localRotation = slot12
+							end
 						end
 					end
 				end
@@ -9441,29 +8259,29 @@ function slot5(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot16 = slot16.Action_float
 
 	function slot17(slot0)
-		slot1 = uv0
+		slot1 = slot0
 		slot1 = slot1.tf
 		slot2 = Vector3
 		slot2 = slot2.Lerp
-		slot3 = uv1
-		slot4 = uv2
+		slot3 = slot1
+		slot4 = slot2
 		slot5 = slot0
 		slot2 = slot2(slot3, slot4, slot5)
 		slot1.localPosition = slot2
-		slot1 = uv3
+		slot1 = slot3
 		slot2 = 0.5
 
 		if slot1 <= slot2 then
 			slot1 = 0.5
 
 			if slot0 > slot1 then
-				slot1 = uv4
+				slot1 = slot4
 
 				slot1()
 			end
 		end
 
-		uv3 = slot0
+		slot3 = slot0
 	end
 
 	slot14(slot15, slot16(slot17))
@@ -9476,41 +8294,41 @@ function slot5(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot7 = slot7.chapterVO
 
 	function slot8()
-		slot0 = uv0
-		slot1 = uv1
+		slot0 = slot0
+		slot1 = slot1
 
 		slot0(slot1)
 
-		slot0 = uv2
+		slot0 = slot2
 		slot1 = slot0
 		slot0 = slot0.setLine
-		slot2 = uv1
+		slot2 = slot1
 
 		slot0(slot1, slot2)
 
-		slot0 = uv3
+		slot0 = slot3
 		slot0 = slot0.theme
 		slot1 = slot0
 		slot0 = slot0.GetLinePosition
-		slot2 = uv1
+		slot2 = slot1
 		slot2 = slot2.row
-		slot3 = uv1
+		slot3 = slot1
 		slot3 = slot3.column
 		slot0 = slot0(slot1, slot2, slot3)
-		slot1 = uv2
+		slot1 = slot2
 		slot1 = slot1.tf
 		slot1.localPosition = slot0
-		slot1 = uv4
-		slot2 = uv1
+		slot1 = slot4
+		slot2 = slot1
 
 		slot1(slot2)
 
-		slot1 = uv5
+		slot1 = slot5
 		slot2 = slot1
 		slot1 = slot1.PlaySubAnimation
-		slot3 = uv2
+		slot3 = slot2
 		slot4 = false
-		slot5 = uv6
+		slot5 = slot6
 
 		slot1(slot2, slot3, slot4, slot5)
 	end
@@ -9574,12 +8392,46 @@ end
 slot0.PlayChampionSubmarineAnimation = slot5
 
 function slot5(slot0, slot1, slot2, slot3)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-5, warpins: 1 ---
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 7-16, warpins: 1 ---
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 23-31, warpins: 2 ---
+	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 35-36, warpins: 2 ---
 	slot5 = slot1
 	slot4 = slot1.getModel
 	slot4 = slot4(slot5)
 
 	if not slot4 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 6-6, warpins: 1 ---
 		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
 	slot5 = slot0.contextData
@@ -9592,13 +8444,27 @@ function slot5(slot0, slot1, slot2, slot3)
 	slot7 = slot1.setAction
 
 	if slot2 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 17-20, warpins: 1 ---
 		slot9 = ChapterConst
 		slot9 = slot9.ShipSwimAction
 
 		if not slot9 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 21-22, warpins: 2 ---
 			slot9 = ChapterConst
 			slot9 = slot9.ShipIdleAction
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
 	slot7(slot8, slot9)
@@ -9613,113 +8479,167 @@ function slot5(slot0, slot1, slot2, slot3)
 	slot7 = slot7(slot8)
 
 	if slot7 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 32-33, warpins: 1 ---
 		slot7 = 0.1
+		--- END OF BLOCK #0 ---
+
+
+
 	else
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 34-34, warpins: 1 ---
 		slot7 = 0.3
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
-	if slot2 then
-		slot8 = 1
-	else
-		slot8 = 0
-	end
+	slot8 = (slot2 and 1) or 0
+	slot0.tweens[LeanTween.value(slot4, (slot2 and 1) or 0, slot9, slot7):setEase(LeanTweenType.easeInOutSine):setOnUpdate(System.Action_float(function (slot0)
 
-	if slot2 then
-		slot9 = 0
-	else
-		slot9 = 1
-	end
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-26, warpins: 1 ---
+		slot0.color = Color.Lerp(Color.New(1, 1, 1, 0), Color.New(1, 1, 1, 1), slot0)
 
-	slot10 = LeanTween
-	slot10 = slot10.value
-	slot11 = slot4
-	slot12 = slot8
-	slot13 = slot9
-	slot14 = slot7
-	slot10 = slot10(slot11, slot12, slot13, slot14)
-	slot11 = slot10
-	slot10 = slot10.setEase
-	slot12 = LeanTweenType
-	slot12 = slot12.easeInOutSine
-	slot10 = slot10(slot11, slot12)
-	slot11 = slot10
-	slot10 = slot10.setOnUpdate
-	slot12 = System
-	slot12 = slot12.Action_float
+		if not IsNil(slot1.tfAmmo) then
 
-	function slot13(slot0)
-		slot1 = uv0
-		slot2 = Color
-		slot2 = slot2.Lerp
-		slot3 = Color
-		slot3 = slot3.New
-		slot4 = 1
-		slot5 = 1
-		slot6 = 1
-		slot7 = 0
-		slot3 = slot3(slot4, slot5, slot6, slot7)
-		slot4 = Color
-		slot4 = slot4.New
-		slot5 = 1
-		slot6 = 1
-		slot7 = 1
-		slot8 = 1
-		slot4 = slot4(slot5, slot6, slot7, slot8)
-		slot5 = slot0
-		slot2 = slot2(slot3, slot4, slot5)
-		slot1.color = slot2
-		slot1 = IsNil
-		slot2 = uv1
-		slot2 = slot2.tfAmmo
-		slot1 = slot1(slot2)
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 27-35, warpins: 1 ---
+			slot1.tfAmmo.anchoredPosition = Vector2.Lerp(Vector2.Lerp, , slot0)
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 36-36, warpins: 2 ---
+		return
+		--- END OF BLOCK #1 ---
+
+
+
+	end)):setOnComplete(System.Action(function ()
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-9, warpins: 1 ---
+		slot0:SetActiveModel(not slot1)
 
 		if not slot1 then
-			slot1 = uv1
-			slot1 = slot1.tfAmmo
-			slot2 = Vector2
-			slot2 = slot2.Lerp
-			slot3 = uv2
-			slot4 = uv3
-			slot5 = slot0
-			slot2 = slot2(slot3, slot4, slot5)
-			slot1.anchoredPosition = slot2
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 10-11, warpins: 1 ---
+			slot2()
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 12-12, warpins: 2 ---
+		return
+		--- END OF BLOCK #1 ---
+
+
+
+	end)).id] = true
+
+	return
+
+	--- END OF BLOCK #3 ---
+
+	FLOW; TARGET BLOCK #5
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #4 37-38, warpins: 1 ---
+	slot8 = 1
+
+	if 1 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 39-39, warpins: 1 ---
+		slot8 = 0
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
-	slot10 = slot10(slot11, slot12(slot13))
-	slot11 = slot10
-	slot10 = slot10.setOnComplete
-	slot12 = System
-	slot12 = slot12.Action
+	--- END OF BLOCK #4 ---
 
-	function slot13()
-		slot0 = uv0
-		slot1 = slot0
-		slot0 = slot0.SetActiveModel
-		slot2 = uv1
-		slot2 = not slot2
+	FLOW; TARGET BLOCK #5
 
-		slot0(slot1, slot2)
 
-		slot0 = uv2
 
-		if slot0 then
-			slot0 = uv2
+	-- Decompilation error in this vicinity:
+	--- BLOCK #5 40-41, warpins: 2 ---
+	--- END OF BLOCK #5 ---
 
-			slot0()
-		end
+	FLOW; TARGET BLOCK #7
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #6 42-43, warpins: 1 ---
+	slot9 = 0
+
+	if 0 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 44-44, warpins: 1 ---
+		slot9 = 1
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+	--- END OF BLOCK #6 ---
 
-	slot10 = slot10(slot11, slot12(slot13))
-	slot10 = slot10.id
-	slot11 = slot0.tweens
-	slot12 = true
-	slot11[slot10] = slot12
+	FLOW; TARGET BLOCK #7
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #7 45-76, warpins: 2 ---
+	--- END OF BLOCK #7 ---
+
+	FLOW; TARGET BLOCK #8
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #8 77-77, warpins: 2 ---
+	--- END OF BLOCK #8 ---
+
+
+
 end
 
 slot0.PlaySubAnimation = slot5
 
 function slot5(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-10, warpins: 1 ---
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot2 = slot1.fleets
@@ -9730,18 +8650,42 @@ function slot5(slot0)
 	slot3 = slot3[slot2]
 
 	if slot3 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 11-15, warpins: 1 ---
 		slot5 = slot0
 		slot4 = slot0.cameraFocus
 		slot6 = slot3.tf
 		slot6 = slot6.position
 
 		slot4(slot5, slot6)
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 16-16, warpins: 2 ---
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 slot0.adjustCameraFocus = slot5
 
 function slot5(slot0, slot1, slot2)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-16, warpins: 1 ---
 	slot3 = ChapterCell
 	slot3 = slot3.Line2Name
 	slot4 = slot1.row
@@ -9758,11 +8702,20 @@ function slot5(slot0, slot1, slot2)
 	slot8 = slot2
 
 	slot5(slot6, slot7, slot8)
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 slot0.focusOnCell = slot5
 
 function slot5(slot0, slot1, slot2)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-85, warpins: 1 ---
 	slot3 = slot0.contextData
 	slot3 = slot3.chapterVO
 	slot4 = slot3.theme
@@ -9847,31 +8800,64 @@ function slot5(slot0, slot1, slot2)
 	slot9 = slot9.Action
 
 	function slot10()
-		slot0 = uv0
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-11, warpins: 1 ---
+		slot0 = slot0
 		slot0 = slot0.dragTrigger
 		slot1 = true
 		slot0.enabled = slot1
-		slot0 = uv0
+		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.unfrozen
 
 		slot0(slot1)
 
-		slot0 = uv1
+		slot0 = slot1
 
 		if slot0 then
-			slot0 = uv1
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 12-13, warpins: 1 ---
+			slot0 = slot1
 
 			slot0()
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 14-14, warpins: 2 ---
+		return
+		--- END OF BLOCK #1 ---
+
+
+
 	end
 
 	slot7 = slot7(slot8, slot9(slot10))
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 slot0.cameraFocus = slot5
 
 function slot5(slot0, slot1, slot2)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-66, warpins: 1 ---
 	slot3 = slot0._tf
 	slot4 = slot3
 	slot3 = slot3.Find
@@ -9939,6 +8925,10 @@ function slot5(slot0, slot1, slot2)
 	slot14 = slot14 * slot15
 
 	return slot12(slot13, slot14)
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 slot0.CellToScreen = slot5
@@ -9965,22 +8955,36 @@ slot6 = {
 slot5[4] = slot6
 
 function slot6(slot0, slot1, slot2, slot3, slot4)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-6, warpins: 1 ---
 	slot5 = 0
 	slot6 = 1
 	slot7 = 1
 	slot8 = 4
 	slot9 = 1
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 7-34, warpins: 0 ---
 	for slot10 = slot7, slot8, slot9 do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 7-26, warpins: 2 ---
 		slot11 = {}
 		slot12 = slot2.row
-		slot13 = uv0
+		slot13 = slot0
 		slot13 = slot13[slot10]
 		slot13 = slot13[1]
 		slot12 = slot12 + slot13
 		slot11.row = slot12
 		slot12 = slot2.column
-		slot13 = uv0
+		slot13 = slot0
 		slot13 = slot13[slot10]
 		slot13 = slot13[2]
 		slot12 = slot12 + slot13
@@ -9992,17 +8996,44 @@ function slot6(slot0, slot1, slot2, slot3, slot4)
 		slot12 = slot12(slot13, slot14)
 
 		if not slot12 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 27-32, warpins: 1 ---
 			slot12 = bit
 			slot12 = slot12.bor
 			slot13 = slot5
 			slot14 = slot6
 			slot12 = slot12(slot13, slot14)
 			slot5 = slot12
+			--- END OF BLOCK #0 ---
+
+
+
 		end
 
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 33-34, warpins: 2 ---
 		slot6 = slot6 * 2
+		--- END OF BLOCK #1 ---
+
+
+
 	end
 
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 35-42, warpins: 1 ---
 	slot8 = slot0
 	slot7 = slot0.CreateEdge
 	slot9 = slot5
@@ -10011,27 +9042,65 @@ function slot6(slot0, slot1, slot2, slot3, slot4)
 	slot12 = slot4
 
 	slot7(slot8, slot9, slot10, slot11, slot12)
+
+	return
+	--- END OF BLOCK #2 ---
+
+
+
 end
 
 slot0.AddCellEdge = slot6
 
 function slot6(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-5, warpins: 1 ---
 	slot1 = slot0.contextData
 	slot1 = slot1.huntingRangeVisibility
 	slot1 = slot1 % 2
 
 	if slot1 ~= 0 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 6-7, warpins: 1 ---
 		slot1 = false
+		--- END OF BLOCK #0 ---
+
+
+
 	else
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 8-8, warpins: 1 ---
 		slot1 = true
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 9-9, warpins: 2 ---
 	return slot1
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 slot0.isHuntingRangeVisible = slot6
 
 function slot6(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-13, warpins: 1 ---
 	slot2 = slot0
 	slot1 = slot0.hideQuadMark
 	slot3 = ChapterConst
@@ -10049,12 +9118,27 @@ function slot6(slot0)
 	slot1 = slot1(slot2)
 
 	if not slot1 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 14-16, warpins: 1 ---
 		slot2 = slot0
 		slot1 = slot0.ShowHuntingRange
 
 		slot1(slot2)
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 17-28, warpins: 2 ---
 	slot1 = slot0.contextData
 	slot2 = slot0.contextData
 	slot2 = slot2.huntingRangeVisibility
@@ -10069,11 +9153,20 @@ function slot6(slot0)
 	slot1 = slot0.updateChampions
 
 	slot1(slot2)
+
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 slot0.toggleHuntingRange = slot6
 
 function slot6(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-7, warpins: 1 ---
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot3 = slot1
@@ -10081,6 +9174,9 @@ function slot6(slot0)
 	slot2, slot3 = slot2(slot3)
 
 	if slot2 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 8-21, warpins: 1 ---
 		slot5 = slot2
 		slot4 = slot2.getHuntingRange
 		slot4 = slot4(slot5)
@@ -10089,7 +9185,10 @@ function slot6(slot0)
 		slot6 = slot4
 
 		function slot7(slot0)
-			slot1 = uv0
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-8, warpins: 1 ---
+			slot1 = slot0
 			slot2 = slot1
 			slot1 = slot1.getChapterCell
 			slot3 = slot0.row
@@ -10097,12 +9196,31 @@ function slot6(slot0)
 			slot1 = slot1(slot2, slot3, slot4)
 
 			if slot1 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 9-11, warpins: 1 ---
 				slot3 = slot1
 				slot2 = slot1.IsWalkable
 				slot2 = slot2(slot3)
+				--- END OF BLOCK #0 ---
+
+
+
 			end
 
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 12-12, warpins: 2 ---
 			return slot2
+			--- END OF BLOCK #1 ---
+
+
+
 		end
 
 		slot5 = slot5(slot6, slot7)
@@ -10113,12 +9231,33 @@ function slot6(slot0)
 		slot8 = false
 
 		slot5(slot6, slot7, slot8)
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 22-23, warpins: 2 ---
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 slot0.ShowHuntingRange = slot6
 
 function slot6(slot0, slot1, slot2)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-20, warpins: 1 ---
 	slot4 = slot0
 	slot3 = slot0.showQuadMark
 	slot5 = slot1
@@ -10139,24 +9278,42 @@ function slot6(slot0, slot1, slot2)
 	slot4 = slot1
 
 	function slot5(slot0)
-		slot1 = uv0
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-10, warpins: 1 ---
+		slot1 = slot0
 		slot2 = slot1
 		slot1 = slot1.AddCellEdge
-		slot3 = uv1
+		slot3 = slot1
 		slot4 = slot0
-		slot5 = uv2
+		slot5 = slot2
 		slot5 = not slot5
 		slot6 = 0
 
 		slot1(slot2, slot3, slot4, slot5, slot6)
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
 	slot3(slot4, slot5)
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 slot0.RefreshHuntingRange = slot6
 
 function slot6(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-18, warpins: 1 ---
 	slot2 = slot0
 	slot1 = slot0.hideQuadMark
 	slot3 = ChapterConst
@@ -10179,13 +9336,28 @@ function slot6(slot0)
 	slot4 = slot4(slot5)
 
 	if not slot4 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 19-23, warpins: 1 ---
 		slot4 = slot0.contextData
 		slot5 = slot0.contextData
 		slot5 = slot5.huntingRangeVisibility
 		slot5 = slot5 + 1
 		slot4.huntingRangeVisibility = slot5
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 24-39, warpins: 2 ---
 	slot5 = slot2
 	slot4 = slot2.getHuntingRange
 	slot4 = slot4(slot5)
@@ -10194,7 +9366,10 @@ function slot6(slot0)
 	slot6 = slot4
 
 	function slot7(slot0)
-		slot1 = uv0
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-8, warpins: 1 ---
+		slot1 = slot0
 		slot2 = slot1
 		slot1 = slot1.getChapterCell
 		slot3 = slot0.row
@@ -10202,12 +9377,31 @@ function slot6(slot0)
 		slot1 = slot1(slot2, slot3, slot4)
 
 		if slot1 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 9-11, warpins: 1 ---
 			slot3 = slot1
 			slot2 = slot1.IsWalkable
 			slot2 = slot2(slot3)
+			--- END OF BLOCK #0 ---
+
+
+
 		end
 
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 12-12, warpins: 2 ---
 		return slot2
+		--- END OF BLOCK #1 ---
+
+
+
 	end
 
 	slot5 = slot5(slot6, slot7)
@@ -10218,11 +9412,20 @@ function slot6(slot0)
 	slot8 = true
 
 	slot5(slot6, slot7, slot8)
+
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 slot0.ShowStaticHuntingRange = slot6
 
 function slot6(slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-37, warpins: 1 ---
 	slot3 = slot0
 	slot2 = slot0.hideQuadMark
 	slot4 = ChapterConst
@@ -10249,7 +9452,10 @@ function slot6(slot0, slot1)
 	slot7 = slot5
 
 	function slot8(slot0)
-		slot1 = uv0
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-8, warpins: 1 ---
+		slot1 = slot0
 		slot2 = slot1
 		slot1 = slot1.getChapterCell
 		slot3 = slot0.row
@@ -10257,12 +9463,31 @@ function slot6(slot0, slot1)
 		slot1 = slot1(slot2, slot3, slot4)
 
 		if slot1 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 9-11, warpins: 1 ---
 			slot3 = slot1
 			slot2 = slot1.IsWalkable
 			slot2 = slot2(slot3)
+			--- END OF BLOCK #0 ---
+
+
+
 		end
 
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 12-12, warpins: 2 ---
 		return slot2
+		--- END OF BLOCK #1 ---
+
+
+
 	end
 
 	slot6 = slot6(slot7, slot8)
@@ -10275,7 +9500,10 @@ function slot6(slot0, slot1)
 	slot8 = slot6
 
 	function slot9(slot0)
-		slot1 = uv0
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-8, warpins: 1 ---
+		slot1 = slot0
 		slot2 = slot1
 		slot1 = slot1.getChapterCell
 		slot3 = slot0.row
@@ -10283,12 +9511,31 @@ function slot6(slot0, slot1)
 		slot1 = slot1(slot2, slot3, slot4)
 
 		if slot1 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 9-11, warpins: 1 ---
 			slot3 = slot1
 			slot2 = slot1.IsWalkable
 			slot2 = slot2(slot3)
+			--- END OF BLOCK #0 ---
+
+
+
 		end
 
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 12-12, warpins: 2 ---
 		return slot2
+		--- END OF BLOCK #1 ---
+
+
+
 	end
 
 	slot7 = slot7(slot8, slot9)
@@ -10298,7 +9545,18 @@ function slot6(slot0, slot1)
 	slot9 = slot6
 	slot8, slot9, slot10 = slot8(slot9)
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 38-51, warpins: 0 ---
 	for slot11, slot12 in slot8, slot9, slot10 do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 38-44, warpins: 1 ---
 		slot13 = table
 		slot13 = slot13.containsdata
 		slot14 = slot5
@@ -10306,15 +9564,42 @@ function slot6(slot0, slot1)
 		slot13 = slot13(slot14, slot15)
 
 		if not slot13 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 45-49, warpins: 1 ---
 			slot13 = table
 			slot13 = slot13.insert
 			slot14 = slot7
 			slot15 = slot12
 
 			slot13(slot14, slot15)
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 50-51, warpins: 3 ---
+		--- END OF BLOCK #1 ---
+
+
+
 	end
 
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 52-69, warpins: 1 ---
 	slot9 = slot0
 	slot8 = slot0.RefreshHuntingRange
 	slot10 = slot7
@@ -10338,11 +9623,20 @@ function slot6(slot0, slot1)
 	slot8 = slot0.updateChampions
 
 	slot8(slot9)
+
+	return
+	--- END OF BLOCK #2 ---
+
+
+
 end
 
 slot0.ShowTargetHuntingRange = slot6
 
 function slot6(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-7, warpins: 1 ---
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot3 = slot1
@@ -10350,20 +9644,57 @@ function slot6(slot0)
 	slot2, slot3 = slot2(slot3)
 
 	if not slot2 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 8-8, warpins: 1 ---
 		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 9-14, warpins: 1 ---
 	slot4 = slot0.cellFleets
 	slot5 = slot2.id
 	slot4 = slot4[slot5]
 	slot5 = slot1.subAutoAttack
 
 	if slot5 ~= 1 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 15-16, warpins: 1 ---
 		slot5 = false
+		--- END OF BLOCK #0 ---
+
+
+
 	else
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 17-17, warpins: 1 ---
 		slot5 = true
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 18-34, warpins: 2 ---
 	slot7 = slot4
 	slot6 = slot4.SetActive
 	slot8 = slot5
@@ -10383,21 +9714,47 @@ function slot6(slot0)
 	slot9 = not slot5
 
 	function slot10()
-		slot0 = uv0
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-7, warpins: 1 ---
+		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.updateFleet
-		slot2 = uv1
+		slot2 = slot1
 		slot2 = slot2.id
 
 		slot0(slot1, slot2)
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
 	slot6(slot7, slot8, slot9, slot10)
+
+	return
+	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 35-35, warpins: 2 ---
+	--- END OF BLOCK #3 ---
+
+
+
 end
 
 slot0.OnChangeSubAutoAttack = slot6
 
 function slot6(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-26, warpins: 1 ---
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot3 = slot1
@@ -10417,6 +9774,9 @@ function slot6(slot0)
 	slot6 = slot2.escape_grids
 
 	function slot7(slot0)
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-6, warpins: 1 ---
 		slot1 = {}
 		slot2 = slot0[1]
 		slot1.row = slot2
@@ -10424,6 +9784,10 @@ function slot6(slot0)
 		slot1.column = slot2
 
 		return slot1
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
 	slot5 = slot5(slot6, slot7)
@@ -10435,11 +9799,20 @@ function slot6(slot0)
 	slot10 = 105
 
 	slot3(slot4, slot5, slot6, slot7, slot8(slot9, slot10))
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 slot0.displayEscapeGrid = slot6
 
 function slot6(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-11, warpins: 1 ---
 	slot8 = slot0
 	slot7 = slot0.ShowAnyQuadMark
 	slot9 = slot1
@@ -10451,11 +9824,20 @@ function slot6(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot15 = slot6
 
 	slot7(slot8, slot9, slot10, slot11, slot12, slot13, slot14, slot15)
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 slot0.showQuadMark = slot6
 
 function slot6(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-11, warpins: 1 ---
 	slot8 = slot0
 	slot7 = slot0.ShowAnyQuadMark
 	slot9 = slot1
@@ -10467,18 +9849,38 @@ function slot6(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot15 = slot6
 
 	slot7(slot8, slot9, slot10, slot11, slot12, slot13, slot14, slot15)
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 slot0.ShowTopQuadMark = slot6
 
 function slot6(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-6, warpins: 1 ---
 	slot8 = slot0.contextData
 	slot8 = slot8.chapterVO
 	slot9 = pairs
 	slot10 = slot1
 	slot9, slot10, slot11 = slot9(slot10)
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 7-104, warpins: 0 ---
 	for slot12, slot13 in slot9, slot10, slot11 do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 7-13, warpins: 1 ---
 		slot15 = slot8
 		slot14 = slot8.getChapterCell
 		slot16 = slot13.row
@@ -10486,6 +9888,9 @@ function slot6(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 		slot14 = slot14(slot15, slot16, slot17)
 
 		if slot14 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 14-20, warpins: 1 ---
 			slot16 = slot14
 			slot15 = slot14.IsWalkable
 			slot17 = ChapterConst
@@ -10493,6 +9898,9 @@ function slot6(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 			slot15 = slot15(slot16, slot17)
 
 			if slot15 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 21-30, warpins: 1 ---
 				slot15 = ChapterCell
 				slot15 = slot15.Line2MarkName
 				slot16 = slot13.row
@@ -10503,6 +9911,9 @@ function slot6(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 				slot16 = slot16[slot15]
 
 				if not slot16 then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 31-41, warpins: 1 ---
 					slot17 = PoolMgr
 					slot17 = slot17.GetInstance
 					slot17 = slot17()
@@ -10513,17 +9924,33 @@ function slot6(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 					slot21 = false
 
 					function slot22(slot0)
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 1-8, warpins: 1 ---
 						slot1 = slot0.transform
-						uv0 = slot1
-						slot1 = uv1
+						slot0 = slot1
+						slot1 = slot1
 						slot1 = slot1.markQuads
-						slot2 = uv2
-						slot3 = uv0
+						slot2 = slot2
+						slot3 = slot0
 						slot1[slot2] = slot3
+
+						return
+						--- END OF BLOCK #0 ---
+
+
+
 					end
 
 					slot17(slot18, slot19, slot20, slot21, slot22)
+					--- END OF BLOCK #0 ---
+
+
+
 				else
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 42-47, warpins: 1 ---
 					slot18 = slot0
 					slot17 = slot0.cancelMarkTween
 					slot19 = slot15
@@ -10531,20 +9958,54 @@ function slot6(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 					slot21 = 1
 
 					slot17(slot18, slot19, slot20, slot21)
+					--- END OF BLOCK #0 ---
+
+
+
 				end
 
+				--- END OF BLOCK #0 ---
+
+				FLOW; TARGET BLOCK #1
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #1 48-52, warpins: 2 ---
 				slot16.name = slot15
 				slot18 = slot16
 				slot17 = slot16.SetParent
 
 				if slot6 then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 53-55, warpins: 1 ---
 					slot19 = slot0.topMarkRoot
 
 					if not slot19 then
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 56-56, warpins: 2 ---
 						slot19 = slot0.bottomMarkRoot
+						--- END OF BLOCK #0 ---
+
+
+
 					end
+					--- END OF BLOCK #0 ---
+
+
+
 				end
 
+				--- END OF BLOCK #1 ---
+
+				FLOW; TARGET BLOCK #2
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #2 57-89, warpins: 2 ---
 				slot20 = false
 
 				slot17(slot18, slot19, slot20)
@@ -10581,13 +10042,23 @@ function slot6(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 				slot16.sizeDelta = slot4
 
 				if not slot7 then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 90-95, warpins: 1 ---
 					slot19 = slot0
 					slot18 = slot0.startMarkTween
 					slot20 = slot15
 					slot21 = slot16
 
 					slot18(slot19, slot20, slot21)
+					--- END OF BLOCK #0 ---
+
+
+
 				else
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 96-101, warpins: 1 ---
 					slot19 = slot0
 					slot18 = slot0.cancelMarkTween
 					slot20 = slot15
@@ -10595,21 +10066,84 @@ function slot6(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 					slot22 = 1
 
 					slot18(slot19, slot20, slot21, slot22)
+					--- END OF BLOCK #0 ---
+
+
+
 				end
+				--- END OF BLOCK #2 ---
+
+				FLOW; TARGET BLOCK #3
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #3 102-102, warpins: 2 ---
+				--- END OF BLOCK #3 ---
+
+
+
 			end
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 103-104, warpins: 4 ---
+		--- END OF BLOCK #1 ---
+
+
+
 	end
+
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 105-106, warpins: 1 ---
+	return
+	--- END OF BLOCK #2 ---
+
+
+
 end
 
 slot0.ShowAnyQuadMark = slot6
 
 function slot6(slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-4, warpins: 1 ---
 	slot2 = pairs
 	slot3 = slot0.markQuads
 	slot2, slot3, slot4 = slot2(slot3)
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 5-49, warpins: 0 ---
 	for slot5, slot6 in slot2, slot3, slot4 do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 5-6, warpins: 1 ---
 		if slot1 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 7-20, warpins: 1 ---
 			slot7 = tonumber
 			slot8 = string
 			slot8 = slot8.sub
@@ -10623,6 +10157,9 @@ function slot6(slot0, slot1)
 			slot7 = slot7(slot8(slot9, slot10))
 
 			if slot7 == slot1 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 21-47, warpins: 2 ---
 				slot8 = slot0
 				slot7 = slot0.cancelMarkTween
 				slot9 = slot5
@@ -10652,24 +10189,83 @@ function slot6(slot0, slot1)
 				slot11 = slot6.gameObject
 
 				slot7(slot8, slot9, slot10, slot11)
+				--- END OF BLOCK #0 ---
+
+
+
 			end
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 48-49, warpins: 3 ---
+		--- END OF BLOCK #1 ---
+
+
+
 	end
+
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 50-50, warpins: 1 ---
+	return
+	--- END OF BLOCK #2 ---
+
+
+
 end
 
 slot0.hideQuadMark = slot6
 
 function slot6(slot0, slot1, slot2, slot3, slot4)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-3, warpins: 1 ---
 	slot5 = 0
 
 	if slot1 > slot5 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 4-6, warpins: 1 ---
 		slot5 = 16
 
 		if slot1 >= slot5 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 7-7, warpins: 2 ---
 			return
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 8-27, warpins: 2 ---
 	slot6 = slot0
 	slot5 = slot0.getEdgePool
 	slot5 = slot5(slot6)
@@ -10690,9 +10286,36 @@ function slot6(slot0, slot1, slot2, slot3, slot4)
 	slot9 = slot9.cellSize
 	slot10 = 1
 	slot11 = 0
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 28-30, warpins: 2 ---
 	slot12 = 4
 
+	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 31-153, warpins: 0 ---
 	while slot11 < slot12 do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 31-31, warpins: 1 ---
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 32-40, warpins: 1 ---
 		slot11 = slot11 + 1
 		slot12 = bit
 		slot12 = slot12.band
@@ -10702,6 +10325,9 @@ function slot6(slot0, slot1, slot2, slot3, slot4)
 		slot13 = 0
 
 		if slot12 > slot13 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 41-50, warpins: 1 ---
 			slot12 = slot7
 			slot13 = "_edge_"
 			slot14 = tostring
@@ -10712,14 +10338,29 @@ function slot6(slot0, slot1, slot2, slot3, slot4)
 			slot13 = slot13[slot12]
 
 			if not slot13 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 51-57, warpins: 1 ---
 				slot13 = slot0.cellEdges
 				slot14 = tf
 				slot16 = slot5
 				slot15 = slot5.Dequeue
 				slot14 = slot14(slot15(slot16))
 				slot13[slot12] = slot14
+				--- END OF BLOCK #0 ---
+
+
+
 			end
 
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 58-70, warpins: 2 ---
 			slot13 = slot0.cellEdges
 			slot13 = slot13[slot12]
 			slot13.name = slot12
@@ -10736,9 +10377,24 @@ function slot6(slot0, slot1, slot2, slot3, slot4)
 			slot14(slot15)
 
 			if not slot4 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 71-71, warpins: 1 ---
 				slot14 = 0
+				--- END OF BLOCK #0 ---
+
+
+
 			end
 
+			--- END OF BLOCK #1 ---
+
+			FLOW; TARGET BLOCK #2
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #2 72-78, warpins: 2 ---
 			slot15 = bit
 			slot15 = slot15.band
 			slot16 = slot11
@@ -10746,29 +10402,88 @@ function slot6(slot0, slot1, slot2, slot3, slot4)
 			slot15 = slot15(slot16, slot17)
 
 			if slot15 ~= 1 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 79-80, warpins: 1 ---
 				slot15 = false
+				--- END OF BLOCK #0 ---
+
+
+
 			else
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 81-81, warpins: 1 ---
 				slot15 = true
+				--- END OF BLOCK #0 ---
+
+
+
 			end
 
+			--- END OF BLOCK #2 ---
+
+			FLOW; TARGET BLOCK #3
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #3 82-84, warpins: 2 ---
 			slot16 = 3
 
 			if slot15 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 85-89, warpins: 1 ---
 				slot17 = slot9.x
 				slot18 = slot14 * 2
 				slot17 = slot17 - slot18
 
 				if not slot17 then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 90-90, warpins: 2 ---
 					slot17 = slot16
+					--- END OF BLOCK #0 ---
+
+
+
 				end
+				--- END OF BLOCK #0 ---
+
+
+
 			end
 
+			--- END OF BLOCK #3 ---
+
+			FLOW; TARGET BLOCK #4
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #4 91-92, warpins: 2 ---
 			if not slot15 or not slot16 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 95-97, warpins: 2 ---
 				slot18 = slot9.y
 				slot19 = slot14 * 2
 				slot18 = slot18 - slot19
+				--- END OF BLOCK #0 ---
+
+
+
 			end
 
+			--- END OF BLOCK #4 ---
+
+			FLOW; TARGET BLOCK #5
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #5 98-138, warpins: 2 ---
 			slot19 = Vector2
 			slot19 = slot19.New
 			slot20 = slot17
@@ -10810,13 +10525,23 @@ function slot6(slot0, slot1, slot2, slot3, slot4)
 			slot13.anchoredPosition = slot22
 
 			if slot3 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 139-144, warpins: 1 ---
 				slot23 = slot0
 				slot22 = slot0.startMarkTween
 				slot24 = slot12
 				slot25 = slot13
 
 				slot22(slot23, slot24, slot25)
+				--- END OF BLOCK #0 ---
+
+
+
 			else
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 145-150, warpins: 1 ---
 				slot23 = slot0
 				slot22 = slot0.cancelMarkTween
 				slot24 = slot12
@@ -10824,16 +10549,61 @@ function slot6(slot0, slot1, slot2, slot3, slot4)
 				slot26 = 1
 
 				slot22(slot23, slot24, slot25, slot26)
+				--- END OF BLOCK #0 ---
+
+
+
 			end
+			--- END OF BLOCK #5 ---
+
+
+
 		end
 
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 151-152, warpins: 3 ---
 		slot10 = slot10 * 2
+		--- END OF BLOCK #2 ---
+
+		FLOW; TARGET BLOCK #3
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #3 153-153, warpins: 3 ---
+		--- END OF BLOCK #3 ---
+
+
+
 	end
+
+	--- END OF BLOCK #3 ---
+
+	FLOW; TARGET BLOCK #4
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #4 153-153, warpins: 1 ---
+	return
+	--- END OF BLOCK #4 ---
+
+
+
 end
 
 slot0.CreateEdge = slot6
 
 function slot6(slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-11, warpins: 1 ---
 	slot2 = slot0.contextData
 	slot2 = slot2.chapterVO
 	slot3 = ChapterCell
@@ -10845,7 +10615,18 @@ function slot6(slot0, slot1)
 	slot5 = 4
 	slot6 = 1
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 12-42, warpins: 0 ---
 	for slot7 = slot4, slot5, slot6 do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 12-21, warpins: 2 ---
 		slot8 = slot3
 		slot9 = "_edge_"
 		slot10 = tostring
@@ -10856,6 +10637,9 @@ function slot6(slot0, slot1)
 		slot9 = slot9[slot8]
 
 		if slot9 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 22-41, warpins: 1 ---
 			slot10 = slot0
 			slot9 = slot0.getEdgePool
 			slot9 = slot9(slot10)
@@ -10880,13 +10664,46 @@ function slot6(slot0, slot1)
 			slot11 = slot0.cellEdges
 			slot12 = nil
 			slot11[slot8] = slot12
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 42-42, warpins: 2 ---
+		--- END OF BLOCK #1 ---
+
+
+
 	end
+
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 43-43, warpins: 1 ---
+	return
+	--- END OF BLOCK #2 ---
+
+
+
 end
 
 slot0.ClearEdge = slot6
 
 function slot6(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-7, warpins: 1 ---
 	slot1 = table
 	slot1 = slot1.getCount
 	slot2 = slot0.cellEdges
@@ -10894,9 +10711,24 @@ function slot6(slot0)
 	slot2 = 0
 
 	if slot1 <= slot2 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 8-8, warpins: 1 ---
 		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 9-15, warpins: 2 ---
 	slot2 = slot0
 	slot1 = slot0.getEdgePool
 	slot1 = slot1(slot2)
@@ -10904,8 +10736,22 @@ function slot6(slot0)
 	slot3 = slot0.cellEdges
 	slot2, slot3, slot4 = slot2(slot3)
 
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 16-31, warpins: 0 ---
 	for slot5, slot6 in slot2, slot3, slot4 do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 16-17, warpins: 1 ---
 		if slot6 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 18-29, warpins: 1 ---
 			slot8 = slot0
 			slot7 = slot0.cancelMarkTween
 			slot9 = slot5
@@ -10921,16 +10767,49 @@ function slot6(slot0)
 			slot10 = false
 
 			slot7(slot8, slot9, slot10)
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 30-31, warpins: 3 ---
+		--- END OF BLOCK #1 ---
+
+
+
 	end
 
+	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 32-34, warpins: 1 ---
 	slot2 = {}
 	slot0.cellEdges = slot2
+
+	return
+	--- END OF BLOCK #3 ---
+
+
+
 end
 
 slot0.ClearEdges = slot6
 
 function slot6(slot0, slot1, slot2, slot3)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-11, warpins: 1 ---
 	slot4 = slot0.contextData
 	slot4 = slot4.chapterVO
 	slot6 = slot4
@@ -10942,6 +10821,9 @@ function slot6(slot0, slot1, slot2, slot3)
 	slot5 = slot5(slot6, slot7, slot8, slot9)
 
 	if slot5 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 12-37, warpins: 1 ---
 		slot5 = nil
 		slot7 = slot4
 		slot6 = slot4.getChapterCell
@@ -10968,25 +10850,40 @@ function slot6(slot0, slot1, slot2, slot3)
 		slot11 = slot11.AttachEnemy
 
 		if slot10 ~= slot11 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 38-42, warpins: 1 ---
 			slot10 = slot6.attachment
 			slot11 = ChapterConst
 			slot11 = slot11.AttachElite
 
 			if slot10 ~= slot11 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 43-47, warpins: 1 ---
 				slot10 = slot6.attachment
 				slot11 = ChapterConst
 				slot11 = slot11.AttachAmbush
 
 				if slot10 ~= slot11 then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 48-52, warpins: 1 ---
 					slot10 = slot6.attachment
 					slot11 = ChapterConst
 					slot11 = slot11.AttachBoss
 
 					if slot10 == slot11 then
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 53-56, warpins: 4 ---
 						slot10 = slot9.childCount
 						slot11 = 0
 
 						if slot10 > slot11 then
+
+							-- Decompilation error in this vicinity:
+							--- BLOCK #0 57-66, warpins: 1 ---
 							slot11 = slot9
 							slot10 = slot9.GetChild
 							slot12 = 0
@@ -10996,17 +10893,34 @@ function slot6(slot0, slot1, slot2, slot3)
 							slot12 = "icon"
 							slot10 = slot10(slot11, slot12)
 							slot5 = slot10
+							--- END OF BLOCK #0 ---
+
+
+
 						end
+						--- END OF BLOCK #0 ---
+
+
+
 					else
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 67-71, warpins: 1 ---
 						slot10 = slot6.attachment
 						slot11 = ChapterConst
 						slot11 = slot11.AttachRival
 
 						if slot10 == slot11 then
+
+							-- Decompilation error in this vicinity:
+							--- BLOCK #0 72-75, warpins: 1 ---
 							slot10 = slot9.childCount
 							slot11 = 0
 
 							if slot10 > slot11 then
+
+								-- Decompilation error in this vicinity:
+								--- BLOCK #0 76-87, warpins: 1 ---
 								slot11 = slot9
 								slot10 = slot9.GetChild
 								slot12 = 0
@@ -11019,19 +10933,58 @@ function slot6(slot0, slot1, slot2, slot3)
 								slot12 = 0
 
 								if slot11 > slot12 then
+
+									-- Decompilation error in this vicinity:
+									--- BLOCK #0 88-92, warpins: 1 ---
 									slot12 = slot10
 									slot11 = slot10.GetChild
 									slot13 = 0
 									slot11 = slot11(slot12, slot13)
 									slot5 = slot11
+									--- END OF BLOCK #0 ---
+
+
+
 								end
+								--- END OF BLOCK #0 ---
+
+
+
 							end
+							--- END OF BLOCK #0 ---
+
+
+
 						end
+						--- END OF BLOCK #0 ---
+
+
+
 					end
+					--- END OF BLOCK #0 ---
+
+
+
 				end
+				--- END OF BLOCK #0 ---
+
+
+
 			end
+			--- END OF BLOCK #0 ---
+
+
+
 		end
 
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 93-99, warpins: 6 ---
 		slot11 = slot4
 		slot10 = slot4.existChampion
 		slot12 = slot1
@@ -11039,15 +10992,38 @@ function slot6(slot0, slot1, slot2, slot3)
 		slot10 = slot10(slot11, slot12, slot13)
 
 		if slot10 then
-			-- Nothing
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 100-100, warpins: 1 ---
+			--- END OF BLOCK #0 ---
+
+
+
 		end
 
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 100-101, warpins: 2 ---
 		if slot7 and slot5 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 104-105, warpins: 1 ---
 			if slot3 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 106-109, warpins: 1 ---
 				slot10 = slot0.shiningTws
 				slot10 = slot10[slot7]
 
 				if not slot10 then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 110-151, warpins: 1 ---
 					slot11 = slot5
 					slot10 = slot5.GetComponent
 					slot12 = "Image"
@@ -11081,7 +11057,10 @@ function slot6(slot0, slot1, slot2, slot3)
 					slot15 = slot15.Action_float
 
 					function slot16(slot0)
-						slot1 = uv0
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 1-17, warpins: 1 ---
+						slot1 = slot0
 						slot2 = slot1
 						slot1 = slot1.SetColor
 						slot3 = "_Color"
@@ -11095,25 +11074,44 @@ function slot6(slot0, slot1, slot2, slot3)
 
 						slot1(slot2, slot3, slot4(slot5, slot6, slot7))
 
-						slot1 = uv1
-						slot2 = uv0
+						slot1 = slot1
+						slot2 = slot0
 						slot1.material = slot2
+
+						return
+						--- END OF BLOCK #0 ---
+
+
+
 					end
 
 					slot13 = slot13(slot14, slot15(slot16))
 					slot14 = slot0.shiningTws
-					slot15 = {
-						tw = slot13
-					}
+					slot15 = {}
+					slot15.tw = slot13
 					slot16 = slot13.uniqueId
 					slot15.uniqueId = slot16
 					slot14[slot7] = slot15
+					--- END OF BLOCK #0 ---
+
+
+
 				end
+				--- END OF BLOCK #0 ---
+
+
+
 			else
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 152-155, warpins: 1 ---
 				slot10 = slot0.shiningTws
 				slot10 = slot10[slot7]
 
 				if slot10 then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 156-170, warpins: 1 ---
 					slot10 = LeanTween
 					slot10 = slot10.cancel
 					slot11 = slot0.shiningTws
@@ -11131,15 +11129,48 @@ function slot6(slot0, slot1, slot2, slot3)
 					slot10 = slot10(slot11, slot12)
 					slot11 = nil
 					slot10.material = slot11
+					--- END OF BLOCK #0 ---
+
+
+
 				end
+				--- END OF BLOCK #0 ---
+
+
+
 			end
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+		--- END OF BLOCK #2 ---
+
+
+
 	end
+
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 171-171, warpins: 7 ---
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 slot0.shiningTarget = slot6
 
 function slot6(slot0, slot1, slot2)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-15, warpins: 1 ---
 	slot3 = slot0.contextData
 	slot3 = slot3.chapterVO
 	slot4, slot5 = nil
@@ -11155,9 +11186,15 @@ function slot6(slot0, slot1, slot2)
 	slot7 = slot7(slot8, slot9, slot10)
 
 	if slot6 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 16-18, warpins: 1 ---
 		slot8 = slot6.flag
 
 		if slot8 == 0 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 19-32, warpins: 1 ---
 			slot9 = slot3
 			slot8 = slot3.getChampionIndex
 			slot10 = slot1.row
@@ -11171,8 +11208,19 @@ function slot6(slot0, slot1, slot2)
 			slot11 = "huoqiubaozha"
 			slot9 = slot9(slot10, slot11)
 			slot5 = slot9
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+		--- END OF BLOCK #0 ---
+
+
+
 	else
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 33-40, warpins: 2 ---
 		slot8 = table
 		slot8 = slot8.contains
 		slot9 = ChapterConst
@@ -11181,6 +11229,9 @@ function slot6(slot0, slot1, slot2)
 		slot8 = slot8(slot9, slot10)
 
 		if slot8 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 41-67, warpins: 1 ---
 			slot8 = ChapterCell
 			slot8 = slot8.Line2Name
 			slot9 = slot1.row
@@ -11207,17 +11258,55 @@ function slot6(slot0, slot1, slot2)
 			slot11 = "huoqiubaozha"
 			slot9 = slot9(slot10, slot11)
 			slot5 = slot9
+			--- END OF BLOCK #0 ---
+
+
+
 		else
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 68-69, warpins: 1 ---
 			if slot2 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 70-71, warpins: 1 ---
 				slot8 = slot2
 
 				slot8()
+				--- END OF BLOCK #0 ---
+
+
+
 			end
 
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 72-72, warpins: 2 ---
 			return
+			--- END OF BLOCK #1 ---
+
+
+
 		end
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 73-105, warpins: 2 ---
 	slot8 = slot4.localPosition
 	slot8 = slot8.x
 	slot9 = slot4.localPosition
@@ -11245,19 +11334,43 @@ function slot6(slot0, slot1, slot2)
 	slot12 = slot12.Action
 
 	function slot13()
-		slot0 = uv0
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-9, warpins: 1 ---
+		slot0 = slot0
 		slot0 = slot0.localPosition
-		slot1 = uv1
+		slot1 = slot1
 		slot0.x = slot1
-		slot1 = uv0
+		slot1 = slot0
 		slot1.localPosition = slot0
-		slot1 = uv2
+		slot1 = slot2
 
 		if slot1 then
-			slot1 = uv2
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 10-11, warpins: 1 ---
+			slot1 = slot2
 
 			slot1()
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 12-12, warpins: 2 ---
+		return
+		--- END OF BLOCK #1 ---
+
+
+
 	end
 
 	slot10(slot11, slot12(slot13))
@@ -11267,19 +11380,49 @@ function slot6(slot0, slot1, slot2)
 	slot10 = slot10(slot11)
 
 	if not slot10 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 106-109, warpins: 1 ---
 		slot10 = setActive
 		slot11 = slot5
 		slot12 = true
 
 		slot10(slot11, slot12)
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 110-111, warpins: 2 ---
 	return slot4
+	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 112-112, warpins: 2 ---
+	--- END OF BLOCK #3 ---
+
+
+
 end
 
 slot0.shakeCell = slot6
 
 function slot6(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-24, warpins: 1 ---
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot3 = slot1
@@ -11306,11 +11449,20 @@ function slot6(slot0)
 	slot10 = false
 
 	slot3(slot4, slot5, slot6, slot7, slot8, slot9, slot10)
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 slot0.updateCoastalGunAttachArea = slot6
 
 function slot6(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-8, warpins: 1 ---
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot2 = pg
@@ -11319,22 +11471,63 @@ function slot6(slot0)
 	slot2 = slot2[slot3]
 
 	if not slot2 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 9-9, warpins: 1 ---
 		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 10-15, warpins: 2 ---
 	slot3 = slot2.sd_location
 	slot4 = SpineAnimationGroup
 	slot5 = ipairs
 	slot6 = slot3
 	slot5, slot6, slot7 = slot5(slot6)
 
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 16-55, warpins: 0 ---
 	for slot8, slot9 in slot5, slot6, slot7 do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 16-18, warpins: 1 ---
 		slot10 = slot0.idols
 
 		if not slot10 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 19-19, warpins: 1 ---
 			slot10 = {}
+			--- END OF BLOCK #0 ---
+
+
+
 		end
 
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 20-53, warpins: 2 ---
 		slot0.idols = slot10
 		slot10 = ChapterCell
 		slot10 = slot10.Line2Name
@@ -11374,28 +11567,91 @@ function slot6(slot0)
 		slot15 = slot15[slot8]
 
 		slot13(slot14, slot15)
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 54-55, warpins: 2 ---
+		--- END OF BLOCK #2 ---
+
+
+
 	end
+
+	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 56-56, warpins: 1 ---
+	return
+	--- END OF BLOCK #3 ---
+
+
+
 end
 
 slot0.UpdateIdolsAnim = slot6
 
 function slot6(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-5, warpins: 1 ---
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot2 = slot0.idols
 
 	if slot2 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 6-9, warpins: 1 ---
 		slot2 = ipairs
 		slot3 = slot0.idols
 		slot2, slot3, slot4 = slot2(slot3)
 
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 10-14, warpins: 0 ---
 		for slot5, slot6 in slot2, slot3, slot4 do
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 10-12, warpins: 1 ---
 			slot8 = slot6
 			slot7 = slot6.ClearAll
 
 			slot7(slot8)
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 13-14, warpins: 2 ---
+			--- END OF BLOCK #1 ---
+
+
+
 		end
 
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 15-20, warpins: 1 ---
 		slot2 = table
 		slot2 = slot2.clear
 		slot3 = slot0.idols
@@ -11404,12 +11660,33 @@ function slot6(slot0)
 
 		slot2 = nil
 		slot0.idols = slot2
+		--- END OF BLOCK #2 ---
+
+
+
 	end
+
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 21-21, warpins: 2 ---
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 slot0.ClearIdolsAnim = slot6
 
 function slot6(slot0, slot1, slot2, slot3, slot4, slot5)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-14, warpins: 1 ---
 	slot6 = slot0.contextData
 	slot6 = slot6.chapterVO
 	slot7 = ChapterCell
@@ -11424,15 +11701,45 @@ function slot6(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot8 = slot8(slot9, slot10)
 
 	if not slot8 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 15-16, warpins: 1 ---
 		if slot5 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 17-18, warpins: 1 ---
 			slot9 = slot5
 
 			slot9()
+			--- END OF BLOCK #0 ---
+
+
+
 		end
 
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 19-19, warpins: 2 ---
 		return
+		--- END OF BLOCK #1 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 20-32, warpins: 2 ---
 	slot10 = slot8
 	slot9 = slot8.Find
 	slot11 = ChapterConst
@@ -11446,11 +11753,20 @@ function slot6(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot15 = slot5
 
 	slot10(slot11, slot12, slot13, slot14, slot15)
+
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 slot0.PlayAttachmentEffect = slot6
 
 function slot6(slot0, slot1, slot2, slot3, slot4)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-14, warpins: 1 ---
 	slot5 = PoolMgr
 	slot5 = slot5.GetInstance
 	slot5 = slot5()
@@ -11463,16 +11779,19 @@ function slot6(slot0, slot1, slot2, slot3, slot4)
 	slot9 = false
 
 	function slot10(slot0)
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-29, warpins: 1 ---
 		slot1 = setParent
 		slot2 = slot0
-		slot3 = uv0
+		slot3 = slot0
 
 		slot1(slot2, slot3)
 
 		slot1 = tf
 		slot2 = slot0
 		slot1 = slot1(slot2)
-		slot2 = uv1
+		slot2 = slot1
 		slot1.localPosition = slot2
 		slot2 = slot0
 		slot1 = slot0.GetComponent
@@ -11494,42 +11813,96 @@ function slot6(slot0, slot1, slot2, slot3, slot4)
 		slot2 = slot2(slot3)
 
 		if not slot2 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 30-33, warpins: 1 ---
 			slot3 = slot1
 			slot2 = slot1.SetEndEvent
 
 			function slot4(slot0)
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 1-14, warpins: 1 ---
 				slot1 = PoolMgr
 				slot1 = slot1.GetInstance
 				slot1 = slot1()
 				slot2 = slot1
 				slot1 = slot1.ReturnPrefab
 				slot3 = "effect/"
-				slot4 = uv0
+				slot4 = slot0
 				slot3 = slot3 .. slot4
-				slot4 = uv0
-				slot5 = uv1
+				slot4 = slot0
+				slot5 = slot1
 
 				slot1(slot2, slot3, slot4, slot5)
 
-				slot1 = uv2
+				slot1 = slot2
 
 				if slot1 then
-					slot1 = uv2
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 15-16, warpins: 1 ---
+					slot1 = slot2
 
 					slot1()
+					--- END OF BLOCK #0 ---
+
+
+
 				end
+
+				--- END OF BLOCK #0 ---
+
+				FLOW; TARGET BLOCK #1
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #1 17-17, warpins: 2 ---
+				return
+				--- END OF BLOCK #1 ---
+
+
+
 			end
 
 			slot2(slot3, slot4)
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 34-35, warpins: 2 ---
+		return
+		--- END OF BLOCK #1 ---
+
+
+
 	end
 
 	slot5(slot6, slot7, slot8, slot9, slot10)
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 slot0.PlayParticleSystem = slot6
 
 function slot6(slot0, slot1, slot2, slot3, slot4)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-8, warpins: 1 ---
 	slot5 = nil
 	slot6 = slot0.contextData
 	slot6 = slot6.chapterVO
@@ -11538,38 +11911,128 @@ function slot6(slot0, slot1, slot2, slot3, slot4)
 	slot9 = slot6.champions
 	slot8, slot9, slot10 = slot8(slot9)
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 9-21, warpins: 0 ---
 	for slot11, slot12 in slot8, slot9, slot10 do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 9-11, warpins: 1 ---
 		slot13 = slot12.row
 
 		if slot13 == slot1 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 12-14, warpins: 1 ---
 			slot13 = slot12.column
 
 			if slot13 == slot2 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 15-17, warpins: 1 ---
 				slot13 = slot12.flag
 
 				if slot13 ~= 1 then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 18-19, warpins: 1 ---
 					slot7 = slot11
 
+					--- END OF BLOCK #0 ---
+
+					FLOW; TARGET BLOCK #1
+
+
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #1 20-20, warpins: 1 ---
 					break
+					--- END OF BLOCK #1 ---
+
+
+
 				end
+				--- END OF BLOCK #0 ---
+
+
+
 			end
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 20-21, warpins: 4 ---
+		--- END OF BLOCK #1 ---
+
+
+
 	end
 
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 22-23, warpins: 2 ---
 	if slot7 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 24-26, warpins: 1 ---
 		slot8 = slot0.cellChampions
 		slot8 = slot8[slot7]
 		slot5 = slot8.tf
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 27-28, warpins: 2 ---
 	if not slot5 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 29-31, warpins: 1 ---
 		slot8 = slot4
 
 		slot8()
 
 		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #3 ---
+
+	FLOW; TARGET BLOCK #4
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #4 32-38, warpins: 2 ---
 	slot9 = slot0
 	slot8 = slot0.PlayInsideParticleSystem
 	slot10 = slot3
@@ -11577,11 +12040,20 @@ function slot6(slot0, slot1, slot2, slot3, slot4)
 	slot12 = slot4
 
 	slot8(slot9, slot10, slot11, slot12)
+
+	return
+	--- END OF BLOCK #4 ---
+
+
+
 end
 
 slot0.PlayChampionInsideEffect = slot6
 
 function slot6(slot0, slot1, slot2, slot3)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-14, warpins: 1 ---
 	slot4 = go
 	slot5 = tf
 	slot6 = slot2
@@ -11595,13 +12067,28 @@ function slot6(slot0, slot1, slot2, slot3)
 	slot5 = slot5(slot6)
 
 	if slot5 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 15-17, warpins: 1 ---
 		slot5 = slot3
 
 		slot5()
 
 		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 18-41, warpins: 1 ---
 	slot6 = slot4
 	slot5 = slot4.SetActive
 	slot7 = true
@@ -11628,49 +12115,137 @@ function slot6(slot0, slot1, slot2, slot3)
 	slot6 = slot6(slot7)
 
 	if slot6 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 42-44, warpins: 1 ---
 		slot6 = slot3
 
 		slot6()
 
 		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 45-50, warpins: 1 ---
 	slot7 = slot5
 	slot6 = slot5.SetEndEvent
 
 	function slot8(slot0)
-		slot1 = uv0
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-8, warpins: 1 ---
+		slot1 = slot0
 		slot2 = slot1
 		slot1 = slot1.SetActive
 		slot3 = false
 
 		slot1(slot2, slot3)
 
-		slot1 = uv1
+		slot1 = slot1
 
 		if slot1 then
-			slot1 = uv1
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 9-10, warpins: 1 ---
+			slot1 = slot1
 
 			slot1()
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 11-11, warpins: 2 ---
+		return
+		--- END OF BLOCK #1 ---
+
+
+
 	end
 
 	slot6(slot7, slot8)
+
+	return
+	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 51-51, warpins: 2 ---
+	--- END OF BLOCK #3 ---
+
+	FLOW; TARGET BLOCK #4
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #4 52-52, warpins: 2 ---
+	--- END OF BLOCK #4 ---
+
+
+
 end
 
 slot0.PlayInsideParticleSystem = slot6
 
 function slot6(slot0, slot1, slot2)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-2, warpins: 1 ---
 	if slot2 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 3-4, warpins: 1 ---
 		slot3 = slot2
 
 		slot3()
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 5-5, warpins: 2 ---
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 slot0.PlaySonarDetectAnim = slot6
 
 function slot6(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-8, warpins: 1 ---
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot2 = pg
@@ -11679,36 +12254,76 @@ function slot6(slot0)
 	slot2 = slot2[slot3]
 
 	if slot2 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 9-9, warpins: 1 ---
 		slot3 = slot2.slg_effect
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 10-11, warpins: 2 ---
 	if slot3 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 12-15, warpins: 1 ---
 		slot4 = #slot3
 		slot5 = 0
 
 		if slot4 <= slot5 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 16-16, warpins: 2 ---
 			return
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 17-21, warpins: 1 ---
 	function slot4()
-		slot0 = uv0
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-56, warpins: 1 ---
+		slot0 = slot0
 		slot0 = slot0.spotlighteffect
 		slot1 = setParent
 		slot2 = slot0
-		slot3 = uv0
+		slot3 = slot0
 		slot3 = slot3.plane
 		slot4 = false
 
 		slot1(slot2, slot3, slot4)
 
-		slot1 = uv1
+		slot1 = slot1
 		slot1 = slot1.indexMin
-		slot2 = uv1
+		slot2 = slot1
 		slot2 = slot2.indexMax
 		slot1 = slot1 + slot2
 		slot1 = slot1 / 2
-		slot2 = uv1
+		slot2 = slot1
 		slot2 = slot2.theme
 		slot3 = slot2
 		slot2 = slot2.GetLinePosition
@@ -11717,7 +12332,7 @@ function slot6(slot0)
 		slot5 = slot5 - 1
 		slot2 = slot2(slot3, slot4, slot5)
 		slot3 = slot2.x
-		slot4 = uv0
+		slot4 = slot0
 		slot4 = slot4.plane
 		slot4 = slot4.rect
 		slot4 = slot4.width
@@ -11752,21 +12367,46 @@ function slot6(slot0)
 		slot5 = true
 
 		slot3(slot4, slot5)
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
 	onLoaded = slot4
 	slot4 = slot0.spotlighteffect
 
 	if slot4 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 22-24, warpins: 1 ---
 		slot4 = onLoaded
 
 		slot4()
+		--- END OF BLOCK #0 ---
+
+
+
 	else
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 25-27, warpins: 1 ---
 		slot4 = slot0.spotlighteffectLoading
 
 		if slot4 then
-			-- Nothing
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 28-28, warpins: 1 ---
+			--- END OF BLOCK #0 ---
+
+
+
 		else
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 29-43, warpins: 1 ---
 			slot4 = pg
 			slot4 = slot4.PoolMgr
 			slot4 = slot4.GetInstance
@@ -11780,28 +12420,70 @@ function slot6(slot0)
 			slot8 = true
 
 			function slot9(slot0)
-				slot1 = uv0
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 1-8, warpins: 1 ---
+				slot1 = slot0
 				slot1.spotlighteffect = slot0
 				slot1 = onLoaded
 
 				slot1()
 
-				slot1 = uv0
+				slot1 = slot0
 				slot2 = nil
 				slot1.spotlighteffectLoading = slot2
+
+				return
+				--- END OF BLOCK #0 ---
+
+
+
 			end
 
 			slot4(slot5, slot6, slot7, slot8, slot9)
 
 			slot4 = true
 			slot0.spotlighteffectLoading = slot4
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 44-45, warpins: 3 ---
+	return
+	--- END OF BLOCK #3 ---
+
+	FLOW; TARGET BLOCK #4
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #4 46-46, warpins: 2 ---
+	--- END OF BLOCK #4 ---
+
+
+
 end
 
 slot0.PlaySpotLigthsEffect = slot6
 
 function slot6(slot0, slot1, slot2)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-7, warpins: 1 ---
 	slot4 = slot0
 	slot3 = slot0.findTF
 	slot5 = "model"
@@ -11809,15 +12491,33 @@ function slot6(slot0, slot1, slot2)
 	slot3 = slot3(slot4, slot5, slot6)
 
 	if not slot3 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 8-8, warpins: 1 ---
 		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 9-14, warpins: 2 ---
 	slot5 = slot3
 	slot4 = slot3.GetComponent
 	slot6 = "SkeletonGraphic"
 	slot4 = slot4(slot5, slot6)
 
 	if slot2 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 15-23, warpins: 1 ---
 		slot5 = Color
 		slot5 = slot5.New
 		slot6 = 1
@@ -11826,7 +12526,14 @@ function slot6(slot0, slot1, slot2)
 		slot9 = 1
 		slot5 = slot5(slot6, slot7, slot8, slot9)
 		slot4.color = slot5
+		--- END OF BLOCK #0 ---
+
+
+
 	else
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 24-31, warpins: 1 ---
 		slot5 = Color
 		slot5 = slot5.New
 		slot6 = 1
@@ -11835,12 +12542,33 @@ function slot6(slot0, slot1, slot2)
 		slot9 = 0
 		slot5 = slot5(slot6, slot7, slot8, slot9)
 		slot4.color = slot5
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 32-32, warpins: 2 ---
+	return
+	--- END OF BLOCK #2 ---
+
+
+
 end
 
 slot0.SetSpineVisible = slot6
 
 function slot6(slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-28, warpins: 1 ---
 	slot2 = string
 	slot2 = slot2.char
 	slot3 = string
@@ -11870,17 +12598,35 @@ function slot6(slot0, slot1)
 	slot4 = slot4 .. slot5
 
 	return slot4
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 slot0.TransformLine2PlanePos = slot6
 
 function slot6(slot0, slot1, slot2)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-5, warpins: 1 ---
 	slot3 = slot1.childCount
 	slot4 = slot2
 	slot5 = slot3 - 1
 	slot6 = 1
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 6-14, warpins: 0 ---
 	for slot7 = slot4, slot5, slot6 do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 6-14, warpins: 2 ---
 		slot9 = slot1
 		slot8 = slot1.GetChild
 		slot10 = slot7
@@ -11890,13 +12636,36 @@ function slot6(slot0, slot1, slot2)
 		slot11 = false
 
 		slot9(slot10, slot11)
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 15-18, warpins: 1 ---
 	slot4 = slot3
 	slot5 = slot2 - 1
 	slot6 = 1
 
+	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 19-26, warpins: 0 ---
 	for slot7 = slot4, slot5, slot6 do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 19-26, warpins: 2 ---
 		slot8 = cloneTplTo
 		slot10 = slot1
 		slot9 = slot1.GetChild
@@ -11904,13 +12673,36 @@ function slot6(slot0, slot1, slot2)
 		slot9 = slot9(slot10, slot11)
 		slot10 = slot1
 		slot8 = slot8(slot9, slot10)
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #3 ---
+
+	FLOW; TARGET BLOCK #4
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #4 27-30, warpins: 1 ---
 	slot4 = 0
 	slot5 = slot2 - 1
 	slot6 = 1
 
+	--- END OF BLOCK #4 ---
+
+	FLOW; TARGET BLOCK #5
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #5 31-39, warpins: 0 ---
 	for slot7 = slot4, slot5, slot6 do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 31-39, warpins: 2 ---
 		slot9 = slot1
 		slot8 = slot1.GetChild
 		slot10 = slot7
@@ -11920,59 +12712,148 @@ function slot6(slot0, slot1, slot2)
 		slot11 = true
 
 		slot9(slot10, slot11)
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	--- END OF BLOCK #5 ---
+
+	FLOW; TARGET BLOCK #6
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #6 40-40, warpins: 1 ---
+	return
+	--- END OF BLOCK #6 ---
+
+
+
 end
 
 slot0.AlignListContainer = slot6
 
 function slot6(slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-6, warpins: 1 ---
 	slot2 = slot0.parent
 	slot3 = slot2
 	slot2 = slot2.frozen
 	slot4 = slot1
 
 	slot2(slot3, slot4)
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 slot0.frozen = slot6
 
 function slot6(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-3, warpins: 1 ---
 	slot1 = slot0.exited
 
 	if slot1 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 4-4, warpins: 1 ---
 		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 5-9, warpins: 2 ---
 	slot1 = slot0.parent
 	slot2 = slot1
 	slot1 = slot1.unfrozen
 
 	slot1(slot2)
+
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 slot0.unfrozen = slot6
 
 function slot6(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-5, warpins: 1 ---
 	slot1 = slot0.parent
 	slot1 = slot1.frozenCount
 	slot2 = 0
 
 	if slot1 <= slot2 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 6-7, warpins: 1 ---
 		slot1 = false
+		--- END OF BLOCK #0 ---
+
+
+
 	else
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 8-8, warpins: 1 ---
 		slot1 = true
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 9-9, warpins: 2 ---
 	return slot1
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 slot0.isfrozen = slot6
 
 function slot6(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-4, warpins: 1 ---
 	slot2 = slot0
 	slot1 = slot0.clearAll
 
 	slot1(slot2)
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 slot0.clear = slot6

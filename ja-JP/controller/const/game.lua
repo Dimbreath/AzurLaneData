@@ -550,3 +550,5 @@ GAME = {
 	COMMANDER_RENAME = "commander rename",
 	EVALUATE_SHIP = "evaluate ship"
 }
+
+return

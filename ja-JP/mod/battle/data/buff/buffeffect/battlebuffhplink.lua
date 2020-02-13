@@ -1,15 +1,13 @@
 ys = ys or {}
-slot0 = ys
-slot0.Battle.BattleBuffHPLink = class("BattleBuffHPLink", slot0.Battle.BattleBuffEffect)
-slot0.Battle.BattleBuffHPLink.__name = "BattleBuffHPLink"
-slot1 = slot0.Battle.BattleBuffHPLink
-slot1.FX_TYPE = slot0.Battle.BattleBuffEffect.FX_TYPE_LINK
+ys.Battle.BattleBuffHPLink = class("BattleBuffHPLink", ys.Battle.BattleBuffEffect)
+ys.Battle.BattleBuffHPLink.__name = "BattleBuffHPLink"
+ys.Battle.BattleBuffHPLink.FX_TYPE = ys.Battle.BattleBuffEffect.FX_TYPE_LINK
 
-function slot1.Ctor(slot0, slot1)
-	uv0.super.Ctor(slot0, slot1)
+function ys.Battle.BattleBuffHPLink.Ctor(slot0, slot1)
+	slot0.super.Ctor(slot0, slot1)
 end
 
-function slot1.SetArgs(slot0, slot1, slot2)
+function ys.Battle.BattleBuffHPLink.SetArgs(slot0, slot1, slot2)
 	slot0._number = slot0._tempData.arg_list.number or 0
 	slot0._restoreRate = 0
 	slot0._sumDMG = 0
@@ -19,7 +17,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	end
 end
 
-function slot1.onTakeDamage(slot0, slot1, slot2, slot3)
+function ys.Battle.BattleBuffHPLink.onTakeDamage(slot0, slot1, slot2, slot3)
 	if slot3.isShare then
 		return
 	end
@@ -42,7 +40,7 @@ function slot1.onTakeDamage(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot1.onRemove(slot0, slot1, slot2)
+function ys.Battle.BattleBuffHPLink.onRemove(slot0, slot1, slot2)
 	if slot2:GetCaster() and slot3:IsAlive() and slot0._restoreRate > 0 and slot3 ~= slot1 and math.floor(slot0._sumDMG * slot0._restoreRate) ~= 0 then
 		slot3:UpdateHP(slot4, {
 			isMiss = false,
@@ -51,3 +49,5 @@ function slot1.onRemove(slot0, slot1, slot2)
 		})
 	end
 end
+
+return

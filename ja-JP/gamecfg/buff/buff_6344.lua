@@ -1,15 +1,3 @@
-slot2.trigger = {
-	"onAttach"
-}
-slot2.arg_list = {
-	detach_id = 18064,
-	attach_id = 18164
-}
-slot1[1] = {
-	type = "BattleBuffShiftWeapon"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "TBD(VT-8)",
@@ -20,5 +8,17 @@ return {
 	stack = 1,
 	color = "yellow",
 	icon = 6320,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffShiftWeapon",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				detach_id = 18064,
+				attach_id = 18164
+			}
+		}
+	}
 }

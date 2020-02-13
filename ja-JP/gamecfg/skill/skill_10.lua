@@ -1,26 +1,17 @@
-slot2.arg_list = {
-	number = 6
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillHeal",
-	target_choise = "TargetHelpLeastHPRatio"
-}
-slot0.effect_list = {}
-slot3.arg_list = {
-	number = 6
-}
-slot2[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillHeal",
-	target_choise = "TargetHelpLeastHPRatio"
-}
-slot1.effect_list = {}
-slot0[1] = {}
-
 return {
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetHelpLeastHPRatio",
+				arg_list = {
+					number = 6
+				}
+			}
+		}
+	},
 	uiEffect = "",
 	name = "维修Lv1",
 	cd = 0,
@@ -28,5 +19,16 @@ return {
 	aniEffect = "",
 	desc = "维修Lv1",
 	painting = 0,
-	id = 10
+	id = 10,
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillHeal",
+			target_choise = "TargetHelpLeastHPRatio",
+			arg_list = {
+				number = 6
+			}
+		}
+	}
 }

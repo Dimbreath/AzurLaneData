@@ -1,16 +1,3 @@
-slot2.trigger = {
-	"onAttach"
-}
-slot2.arg_list = {
-	ability = "command",
-	convertRate = 0.00012,
-	convertAttr = "damageRatioBullet"
-}
-slot1[1] = {
-	type = "BattleBuffAddAttrCommander"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "若旗舰为战列舰，旗舰造成的伤害提高，依据指挥属性",
@@ -21,5 +8,18 @@ return {
 	stack = 1,
 	color = "yellow",
 	icon = 40220,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddAttrCommander",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				ability = "command",
+				convertRate = 0.00012,
+				convertAttr = "damageRatioBullet"
+			}
+		}
+	}
 }

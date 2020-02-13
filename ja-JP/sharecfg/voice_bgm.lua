@@ -1,90 +1,93 @@
 pg = pg or {}
-slot1.ActivityMainScene = {
-	scene = "ActivityMainScene",
-	bgm = "main"
+pg.voice_bgm = {
+	ActivityMainScene = {
+		scene = "ActivityMainScene",
+		bgm = "main"
+	},
+	HoloLiveLinkLinkSelectScene = {
+		scene = "HoloLiveLinkLinkSelectScene",
+		bgm = "holo-fff-inst"
+	},
+	HololiveMedalCollectionView = {
+		scene = "HololiveMedalCollectionView",
+		bgm = "holo-inochi-inst"
+	},
+	MusicFestivalUI = {
+		scene = "MusicFestivalUI",
+		bgm = "azumaster-ins"
+	},
+	NewyearFestivalScene = {
+		scene = "NewyearFestivalScene",
+		bgm = "newyear2"
+	},
+	ActivityBossBattleScene = {
+		scene = "ActivityBossBattleScene",
+		bgm = "main"
+	},
+	ActivityBossBattleScene2 = {
+		scene = "ActivityBossBattleScene2",
+		bgm = "main"
+	},
+	ActivityBossBattleScene3 = {
+		scene = "ActivityBossBattleScene3",
+		bgm = "cw-level"
+	},
+	BackYardScene = {
+		scene = "BackYardScene",
+		bgm = "backyard"
+	},
+	BattleScene = {
+		scene = "BattleScene",
+		bgm = "battle-1"
+	},
+	DailyLevelScene = {
+		scene = "DailyLevelScene",
+		bgm = "level"
+	},
+	MilitaryExerciseScene = {
+		scene = "MilitaryExerciseScene",
+		bgm = "level"
+	},
+	CommanderInfoScene = {
+		scene = "CommanderInfoScene",
+		bgm = "backyard"
+	},
+	CommandRoomScene = {
+		scene = "CommandRoomScene",
+		bgm = "backyard"
+	},
+	NewCommanderScene = {
+		scene = "NewCommanderScene",
+		bgm = "backyard"
+	},
+	LoginScene = {
+		scene = "LoginScene",
+		bgm = "login"
+	},
+	NewPlayerScene = {
+		scene = "NewPlayerScene",
+		bgm = "main"
+	},
+	MainUI = {
+		scene = "MainUI",
+		bgm = "main"
+	},
+	HoloLiveLinkGameView = {
+		scene = "HoloLiveLinkGameView",
+		bgm = "holo-fff-inst"
+	},
+	CollectionScene = {
+		scene = "CollectionScene",
+		bgm = "main"
+	},
+	ActivityBossSPFScene = {
+		scene = "ActivityBossSPFScene",
+		bgm = "level02"
+	},
+	SpringFestivalTownScene = {
+		scene = "SpringFestivalTownScene",
+		bgm = "story-china"
+	}
 }
-slot1.HoloLiveLinkLinkSelectScene = {
-	scene = "HoloLiveLinkLinkSelectScene",
-	bgm = "holo-fff-inst"
-}
-slot1.HololiveMedalCollectionView = {
-	scene = "HololiveMedalCollectionView",
-	bgm = "holo-inochi-inst"
-}
-slot1.MusicFestivalUI = {
-	scene = "MusicFestivalUI",
-	bgm = "azumaster-ins"
-}
-slot1.NewyearFestivalScene = {
-	scene = "NewyearFestivalScene",
-	bgm = "newyear2"
-}
-slot1.ActivityBossBattleScene = {
-	scene = "ActivityBossBattleScene",
-	bgm = "main"
-}
-slot1.ActivityBossBattleScene2 = {
-	scene = "ActivityBossBattleScene2",
-	bgm = "main"
-}
-slot1.ActivityBossBattleScene3 = {
-	scene = "ActivityBossBattleScene3",
-	bgm = "cw-level"
-}
-slot1.BackYardScene = {
-	scene = "BackYardScene",
-	bgm = "backyard"
-}
-slot1.BattleScene = {
-	scene = "BattleScene",
-	bgm = "battle-1"
-}
-slot1.DailyLevelScene = {
-	scene = "DailyLevelScene",
-	bgm = "level"
-}
-slot1.MilitaryExerciseScene = {
-	scene = "MilitaryExerciseScene",
-	bgm = "level"
-}
-slot1.CommanderInfoScene = {
-	scene = "CommanderInfoScene",
-	bgm = "backyard"
-}
-slot1.CommandRoomScene = {
-	scene = "CommandRoomScene",
-	bgm = "backyard"
-}
-slot1.NewCommanderScene = {
-	scene = "NewCommanderScene",
-	bgm = "backyard"
-}
-slot1.LoginScene = {
-	scene = "LoginScene",
-	bgm = "login"
-}
-slot1.NewPlayerScene = {
-	scene = "NewPlayerScene",
-	bgm = "main"
-}
-slot1.MainUI = {
-	scene = "MainUI",
-	bgm = "main"
-}
-slot1.HoloLiveLinkGameView = {
-	scene = "HoloLiveLinkGameView",
-	bgm = "holo-fff-inst"
-}
-slot1.CollectionScene = {
-	scene = "CollectionScene",
-	bgm = "main"
-}
-slot1.ActivityBossSPFScene = {
-	scene = "ActivityBossSPFScene",
-	bgm = "level02"
-}
-slot1.SpringFestivalTownScene = {
-	scene = "SpringFestivalTownScene",
-	bgm = "story-china"
-}
-pg.voice_bgm = {}
+
+return

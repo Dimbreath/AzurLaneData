@@ -1,5 +1,4 @@
-slot0.events = {}
-
 return {
-	id = "SYG002"
+	id = "SYG002",
+	events = {}
 }

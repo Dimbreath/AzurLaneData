@@ -16,27 +16,26 @@ function slot0.Ctor(slot0, slot1)
 
 	slot0._priceIcon = slot0._priceTF:Find("gem"):GetComponent(typeof(Image))
 	slot0._priceTxt = slot0._priceTF:Find("gem/Text"):GetComponent(typeof(Text))
-	slot2 = slot0._priceTF:Find("originalprice")
-	slot0._opriceTxt = slot2:GetComponent(typeof(Text))
-	slot2[1] = slot0._tf:Find("content/top/tags/tag_hot")
-	slot2[2] = slot0._tf:Find("content/top/tags/tag_new")
-	slot2[3] = slot0._tf:Find("content/top/tags/tag_advice")
-	slot2[4] = slot0._tf:Find("content/top/tags/tag_activity")
-	slot2[5] = slot0._tf:Find("content/top/tags/tag_discount")
-	slot2[6] = slot0._tf:Find("content/top/tags/tag_nothing")
-	slot2[7] = slot0._tf:Find("content/top/tags/tag_bought")
-	slot2[8] = slot0._tf:Find("content/top/tags/tag_limit")
-	slot2[MULTRES] = slot0._tf:Find("content/top/tags/tag_timelimit")
-	slot0._tagTFs = {}
+	slot0._opriceTxt = slot0._priceTF:Find("originalprice"):GetComponent(typeof(Text))
+	slot0._tagTFs = {
+		slot0._tf:Find("content/top/tags/tag_hot"),
+		slot0._tf:Find("content/top/tags/tag_new"),
+		slot0._tf:Find("content/top/tags/tag_advice"),
+		slot0._tf:Find("content/top/tags/tag_activity"),
+		slot0._tf:Find("content/top/tags/tag_discount"),
+		slot0._tf:Find("content/top/tags/tag_nothing"),
+		slot0._tf:Find("content/top/tags/tag_bought"),
+		slot0._tf:Find("content/top/tags/tag_limit"),
+		slot0._tf:Find("content/top/tags/tag_timelimit")
+	}
 end
 
 function slot0.update(slot0, slot1)
 	slot0.goodsVO = slot1
-	slot2 = slot1:getSkinId()
-	slot0.shipSkinConfig = uv0[slot2]
+	slot0.shipSkinConfig = slot0[slot1:getSkinId()]
 
-	LoadSpriteAsync("shipYardIcon/" .. uv0[slot2].prefab, function (slot0)
-		uv0._icon.sprite = slot0
+	LoadSpriteAsync("shipYardIcon/" .. slot3, function (slot0)
+		slot0._icon.sprite = slot0
 	end)
 
 	for slot7, slot8 in pairs(slot0._tagTFs) do
@@ -45,9 +44,11 @@ function slot0.update(slot0, slot1)
 
 	if slot0.goodsVO.type == Goods.TYPE_SKIN then
 		slot0._priceIcon.sprite = LoadSprite("props/" .. id2res(slot1:getConfig("resource_type")))
+		slot6 = slot1:getConfig("resource_num")
+		slot7 = (100 - slot1:getConfig("discount")) / 100
 
 		if slot1:isDisCount() then
-			slot0._priceTxt.text = slot1:getConfig("resource_num") * (100 - slot1:getConfig("discount")) / 100
+			slot0._priceTxt.text = slot6 * slot7
 		else
 			slot0._priceTxt.text = slot6
 		end
@@ -61,8 +62,10 @@ function slot0.update(slot0, slot1)
 		if slot1:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
 			setActive(slot0._tagTFs[9], true)
 		elseif slot9 then
-			if slot8 or slot0.goodsVO:getConfig("tag") == 5 then
-				setText(slot0._tagTFs[5]:Find("Text"), slot1:getConfig("discount") .. "%")
+			slot11 = slot0.goodsVO:getConfig("tag")
+
+			if slot8 or slot11 == 5 then
+				setText(slot0._tagTFs[5].Find(slot12, "Text"), slot1:getConfig("discount") .. "%")
 				setActive(slot0._tagTFs[5], true)
 			elseif slot0._tagTFs[slot11] then
 				setActive(slot0._tagTFs[slot11], true)
@@ -76,13 +79,14 @@ function slot0.update(slot0, slot1)
 end
 
 function slot0.updateSelected(slot0, slot1)
-	slot0._content.localPosition = Vector3(0, slot1 and -26 or -126, 0)
+	slot0._content.localPosition = Vector3(0, (slot1 and -26) or -126, 0)
 
 	setActive(slot0._priceTF, slot1 and slot0.goodsVO.type == Goods.TYPE_SKIN)
 	setActive(slot0._mask, not slot1)
 end
 
 function slot0.Dispose(slot0)
+	return
 end
 
 return slot0

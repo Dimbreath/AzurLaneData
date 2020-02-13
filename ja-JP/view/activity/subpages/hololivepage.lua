@@ -15,33 +15,33 @@ end
 
 function slot0.OnFirstFlush(slot0)
 	onButton(slot0, slot0.btnFubuki, function ()
-		uv0:emit(ActivityMediator.BATTLE_OPERA)
+		slot0:emit(ActivityMediator.BATTLE_OPERA)
 	end)
 	onButton(slot0, slot0.btnBattle, function ()
-		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.GETBOAT, {
+		slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.GETBOAT, {
 			projectName = "new",
 			page = 1
 		})
 	end)
 	onButton(slot0, slot0.btnSora, function ()
-		uv0:emit(ActivityMediator.SELECT_ACTIVITY, ActivityConst.HOLOLIVE_MORNING_ID)
+		slot0:emit(ActivityMediator.SELECT_ACTIVITY, ActivityConst.HOLOLIVE_MORNING_ID)
 	end)
 	onButton(slot0, slot0.btnShion, function ()
-		uv0:emit(ActivityMediator.SELECT_ACTIVITY, ActivityConst.HOLOLIVE_PT_ID)
+		slot0:emit(ActivityMediator.SELECT_ACTIVITY, ActivityConst.HOLOLIVE_PT_ID)
 	end)
 	onButton(slot0, slot0.btnMio, function ()
-		uv0:emit(ActivityMediator.SELECT_ACTIVITY, ActivityConst.HOLOLIVE_MIO_ID)
+		slot0:emit(ActivityMediator.SELECT_ACTIVITY, ActivityConst.HOLOLIVE_MIO_ID)
 	end)
 	onButton(slot0, slot0.btnAqua, function ()
-		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.HOLOLIVE_LINKLINK_SELECT_SCENE)
+		slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.HOLOLIVE_LINKLINK_SELECT_SCENE)
 	end)
 	onButton(slot0, slot0.btnAyame, function ()
-		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.HOLOLIVE_MEDAL)
+		slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.HOLOLIVE_MEDAL)
 	end)
 	onButton(slot0, slot0.btnMatsuri, function ()
-		slot4.warp = ShopsLayer.TYPE_ACTIVITY
-
-		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SHOP, {})
+		slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SHOP, {
+			warp = ShopsLayer.TYPE_ACTIVITY
+		})
 	end)
 end
 

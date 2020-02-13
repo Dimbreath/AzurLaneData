@@ -1,18 +1,3 @@
-slot2.trigger = {
-	"onBulletCreate"
-}
-slot3.index = {
-	-1
-}
-slot2.arg_list = {
-	number = 1,
-	attr = "cri"
-}
-slot1[1] = {
-	type = "BattleBuffAddBulletAttr"
-}
-slot0.effect_list = {}
-
 return {
 	time = 1,
 	name = "狙击手",
@@ -22,5 +7,20 @@ return {
 	stack = 1,
 	id = 10661,
 	icon = 10661,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddBulletAttr",
+			trigger = {
+				"onBulletCreate"
+			},
+			arg_list = {
+				number = 1,
+				attr = "cri",
+				index = {
+					-1
+				}
+			}
+		}
+	}
 }

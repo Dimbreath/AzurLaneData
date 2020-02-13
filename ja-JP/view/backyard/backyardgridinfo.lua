@@ -20,9 +20,8 @@ function slot3.createMapGrids(slot0)
 		slot6 = {}
 
 		for slot10 = slot0.start_y, slot0.end_y, 1 do
-			slot11 = cloneTplTo(findTF(slot1, "resources/gridtpl"), findTF(slot1, "bg/floorGrid"), slot5 .. "_" .. slot10)
-			slot11.anchoredPosition = Vector2(uv0.x + (slot5 - 1) * uv1.x + (slot10 - 1) * -uv1.x, uv0.y + (slot5 - 1) * uv1.y + (slot10 - 1) * uv1.y)
-			slot6[slot10] = slot11
+			cloneTplTo(findTF(slot1, "resources/gridtpl"), findTF(slot1, "bg/floorGrid"), slot5 .. "_" .. slot10).anchoredPosition = Vector2(slot0.x + (slot5 - 1) * slot1.x + (slot10 - 1) * -slot1.x, slot0.y + (slot5 - 1) * slot1.y + (slot10 - 1) * slot1.y)
+			slot6[slot10] = cloneTplTo(findTF(slot1, "resources/gridtpl"), findTF(slot1, "bg/floorGrid"), slot5 .. "_" .. slot10)
 		end
 
 		slot0.mapGrids[slot5] = slot6
@@ -44,8 +43,10 @@ end
 function slot3.setAllGridText(slot0)
 	for slot4 = 1, 24, 1 do
 		for slot8 = 1, 24, 1 do
+			slot9 = slot0.map.depths[slot0.map:GetIndex(slot4, slot8)]
+
 			if slot0:hasGrid(slot4 - 1, slot8 - 1) then
-				setText(slot0:getMapGrid(slot4 - 1, slot8 - 1):Find("Text"), slot0.map.depths[slot0.map:GetIndex(slot4, slot8)])
+				setText(slot0:getMapGrid(slot4 - 1, slot8 - 1).Find(slot10, "Text"), slot9)
 			end
 		end
 	end

@@ -23,9 +23,10 @@ function slot0.init(slot0)
 	setText(slot0._mainGS, 0)
 	setText(slot0._vanguardGS, 0)
 
-	slot2.vanguard = {}
-	slot2.main = {}
-	slot0._gridTFs = {}
+	slot0._gridTFs = {
+		vanguard = {},
+		main = {}
+	}
 	slot0._gridFrame = slot1:Find("mask/GridFrame")
 
 	for slot5 = 1, 3, 1 do
@@ -62,23 +63,23 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0._backBtn, function ()
-		uv0:emit(GuildPreCombatMediator.SAVE, function ()
-			uv0:emit(uv1.ON_CLOSE)
+		slot0:emit(GuildPreCombatMediator.SAVE, function ()
+			slot0:emit(slot1.ON_CLOSE)
 		end)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0._startBtn, function ()
-		uv0:emit(GuildPreCombatMediator.START)
+		slot0:emit(GuildPreCombatMediator.START)
 	end, SFX_UI_WEIGHANCHOR)
 	onButton(slot0, slot0._strategy, function ()
-		uv0:displayStrategyInfo(_.detect(uv0.chapter:getFleetStgs(uv0.chapter.fleet), function (slot0)
+		slot0:displayStrategyInfo(_.detect(slot0, function (slot0)
 			return slot0.id == ChapterConst.StrategyRepair
 		end))
 	end)
 	onButton(slot0, slot0:findTF("fleet_confirm/help_button"), function ()
-		slot2.type = MSGBOX_TYPE_HELP
-		slot2.helps = i18n("sham_battle_help_tip")
-
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = i18n("sham_battle_help_tip")
+		})
 	end, SFX_PANEL)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
@@ -98,43 +99,40 @@ function slot0.displayFleetPanel(slot0)
 	slot0.fleetPanel:set(slot0.chapter:getShips())
 
 	function slot0.fleetPanel.onCancel()
-		uv0:emit(GuildPreCombatMediator.SAVE, function ()
-			uv0:emit(uv1.ON_CLOSE)
+		slot0:emit(GuildPreCombatMediator.SAVE, function ()
+			slot0:emit(slot1.ON_CLOSE)
 		end)
 	end
 
 	function slot0.fleetPanel.onConfirm()
-		if not uv0.chapter:isValid() then
+		if not slot0.chapter:isValid() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("sham_team_limit"))
 		else
-			slot5.content = i18n(#slot0:getShips() < ChapterConst.ShamShipLimit and "sham_ship_equip_forbid_1" or "sham_ship_equip_forbid_2")
-
-			function slot5.onYes()
-				uv0:updateFleetShips(uv0:filterPower3())
-				uv1:emit(GuildPreCombatMediator.SAVE, function ()
-					uv0.contextData.confirmed = true
-
-					uv0:hideFleetPanel()
-					uv0:displayFormation()
-				end)
-			end
-
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				modal = true
+				modal = true,
+				content = i18n((#slot0:getShips() < ChapterConst.ShamShipLimit and "sham_ship_equip_forbid_1") or "sham_ship_equip_forbid_2"),
+				onYes = function ()
+					slot0:updateFleetShips(slot0:filterPower3())
+					slot0:emit(GuildPreCombatMediator.SAVE, function ()
+						slot0.contextData.confirmed = true
+
+						slot0.contextData:hideFleetPanel()
+						slot0.contextData.hideFleetPanel:displayFormation()
+					end)
+				end
 			})
 		end
 	end
 
 	function slot0.fleetPanel.onClickShip(slot0)
-		slot4.team = slot0
-
-		uv0:emit(GuildPreCombatMediator.CHANGE_FLEET_SHIP, {
-			type = 1
+		slot0:emit(GuildPreCombatMediator.CHANGE_FLEET_SHIP, {
+			type = 1,
+			team = slot0
 		})
 	end
 
 	function slot0.fleetPanel.onLongPressed(slot0)
-		uv0:emit(GuildPreCombatMediator.OPEN_SHIP_INFO, slot0.id)
+		slot0:emit(GuildPreCombatMediator.OPEN_SHIP_INFO, slot0.id)
 	end
 end
 
@@ -147,7 +145,7 @@ end
 function slot0.displayFormation(slot0)
 	setActive(slot0.formation, true)
 	slot0:updateView(true, function ()
-		uv0:switchToEditMode(false)
+		slot0:switchToEditMode(false)
 	end)
 end
 
@@ -159,48 +157,48 @@ function slot0.updateView(slot0, slot1, slot2)
 	slot3 = nil
 	slot3 = coroutine.create(function ()
 		pg.UIMgr.GetInstance():LoadingOn()
-		uv0:resetGrid(TeamType.Vanguard)
-		uv0:resetGrid(TeamType.Main)
-		uv0:resetFlag()
+		pg.UIMgr.GetInstance().LoadingOn:resetGrid(TeamType.Vanguard)
+		pg.UIMgr.GetInstance().LoadingOn.resetGrid:resetGrid(TeamType.Main)
+		pg.UIMgr.GetInstance().LoadingOn.resetGrid.resetGrid:resetFlag()
 
-		if uv1 then
-			uv0:loadAllCharacter(function ()
-				onNextTick(uv0)
+		if pg.UIMgr.GetInstance().LoadingOn.resetGrid.resetGrid then
+			slot0:loadAllCharacter(function ()
+				onNextTick(onNextTick)
 			end)
 			coroutine.yield()
 		else
-			uv0:setAllCharacterPos(true)
+			slot0:setAllCharacterPos(true)
 		end
 
-		uv0:updateViewState()
-		uv0:updateDockView()
-		uv0:updateFriendAssist()
+		slot0:updateViewState()
+		slot0.updateViewState:updateDockView()
+		slot0.updateViewState.updateDockView:updateFriendAssist()
 
-		if uv0.chapter.active then
-			uv0:updateStrategyIcon()
+		if slot0.updateViewState.updateDockView.updateFriendAssist.chapter.active then
+			slot0:updateStrategyIcon()
 		end
 
-		onNextTick(uv2)
+		onNextTick(slot2)
 		coroutine.yield()
-		uv0:displayFleetInfo()
+		coroutine.yield:displayFleetInfo()
 		pg.UIMgr.GetInstance():LoadingOff()
 
-		if uv3 then
-			uv3()
+		if slot3 then
+			slot3()
 		end
 	end)
 
+
+	-- Decompilation error in this vicinity:
 	function ()
-		if coroutine.status(uv0) == "suspended" then
-			slot0, slot1 = coroutine.resume(uv0)
+		if coroutine.status(coroutine.status) == "suspended" then
+			slot0, slot1 = coroutine.resume(coroutine.resume)
 		end
 	end()
 end
 
 function slot0.updateViewState(slot0)
-	slot1 = slot0.chapter.fleet
-	slot2 = slot0.chapter
-	slot3 = slot2:getChapterCell(slot1.line.row, slot1.line.column) and slot2.attachment == ChapterConst.AttachRival and slot2.flag == 0
+	slot3 = slot0.chapter:getChapterCell(slot0.chapter.fleet.line.row, slot0.chapter.fleet.line.column) and slot2.attachment == ChapterConst.AttachRival and slot2.flag == 0
 
 	setActive(slot0._strategy, slot0.chapter.active)
 end
@@ -218,14 +216,10 @@ function slot0.updateDockView(slot0)
 
 	slot2:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			if uv0[slot1 + 1] then
-				slot4 = uv1.chapter.fleet:containsShip(slot3.id)
-			end
-
-			uv1:updateShip(slot2, slot3, slot4, function ()
-				if uv0.chapter.active then
-					if uv1 and uv1.hpRant < ChapterConst.HpGreen then
-						uv0:displayRepairWindow(uv1)
+			slot1:updateShip(slot2, slot3, slot0[slot1 + 1] and slot1.chapter.fleet:containsShip(slot3.id), function ()
+				if slot0.chapter.active then
+					if slot1 and slot1.hpRant < ChapterConst.HpGreen then
+						slot0:displayRepairWindow(slot0)
 					else
 						pg.TipsMgr.GetInstance():ShowTips(i18n("sham_can_not_change_ship"))
 					end
@@ -237,24 +231,17 @@ function slot0.updateDockView(slot0)
 end
 
 function slot0.updateFriendAssist(slot0)
-	slot1 = slot0.chapter
-
-	if slot1:getFriendShip() then
-		slot2 = slot0.chapter.fleet:containsShip(slot1.id)
-	end
-
-	slot0:updateShip(slot0._friendAssist, slot1, slot2, function ()
-		if uv0.chapter.active then
-			if uv1 and uv1.hpRant < ChapterConst.HpGreen then
-				uv0:displayRepairWindow(uv1)
+	slot0:updateShip(slot0._friendAssist, slot1, slot0.chapter:getFriendShip() and slot0.chapter.fleet:containsShip(slot1.id), function ()
+		if slot0.chapter.active then
+			if slot1 and slot1.hpRant < ChapterConst.HpGreen then
+				slot0:displayRepairWindow(slot0)
 			else
 				pg.TipsMgr.GetInstance():ShowTips(i18n("sham_can_not_change_ship"))
 			end
 		else
-			slot3.shipVO = uv1
-
-			uv0:emit(GuildPreCombatMediator.CHANGE_FLEET_SHIP, {
-				type = 2
+			slot0:emit(GuildPreCombatMediator.CHANGE_FLEET_SHIP, {
+				type = 2,
+				shipVO = slot0
 			})
 		end
 	end)
@@ -274,20 +261,18 @@ function slot0.updateShip(slot0, slot1, slot2, slot3, slot4, slot5)
 		setActive(findTF(slot6, "blood"), slot2.hpRant ~= nil)
 
 		if slot10 then
-			slot12 = findTF(slot6, "blood/fillarea/green")
-			slot13 = findTF(slot6, "blood/fillarea/red")
-			slot15 = slot10 < ChapterConst.HpGreen
+			slot14 = findTF(slot6, "mask")
 
-			setActive(slot12, not slot15)
-			setActive(slot13, slot15)
+			setActive(findTF(slot6, "blood/fillarea/green"), not (slot10 < ChapterConst.HpGreen))
+			setActive(findTF(slot6, "blood/fillarea/red"), slot10 < ChapterConst.HpGreen)
 
-			slot11:GetComponent(typeof(Slider)).fillRect = slot15 and slot13 or slot12
+			slot11:GetComponent(typeof(Slider)).fillRect = (slot10 < ChapterConst.HpGreen and findTF(slot6, "blood/fillarea/red")) or findTF(slot6, "blood/fillarea/green")
 
 			setSlider(slot11, 0, 10000, slot10)
 
-			if not IsNil(findTF(slot6, "mask")) then
+			if not IsNil(slot14) then
 				setActive(slot14, slot15 or slot3)
-				setActive(findTF(slot14, "fighting"), slot3)
+				setActive(setActive, slot3)
 				setActive(findTF(slot14, "repair").gameObject, slot15)
 
 				if not slot15 then
@@ -303,10 +288,9 @@ function slot0.updateShip(slot0, slot1, slot2, slot3, slot4, slot5)
 
 		onButton(slot0, slot8, slot4)
 
-		slot12 = GetOrAddComponent(slot8, "UILongPressTrigger")
-		slot12.longPressThreshold = 1
+		GetOrAddComponent(slot8, "UILongPressTrigger").longPressThreshold = 1
 
-		slot12.onLongPressed:RemoveAllListeners()
+		GetOrAddComponent(slot8, "UILongPressTrigger").onLongPressed:RemoveAllListeners()
 
 		if slot5 then
 			pg.DelegateInfo.Add(slot0, slot12.onLongPressed)
@@ -319,54 +303,52 @@ end
 
 function slot0.loadAllCharacter(slot0, slot1)
 	if slot0._characterList then
-		slot2 = slot0.chapter.fleet
-
-		slot0:recycleCharacterList(slot2[TeamType.Main], slot0._characterList[TeamType.Main])
-		slot0:recycleCharacterList(slot2[TeamType.Vanguard], slot0._characterList[TeamType.Vanguard])
+		slot0:recycleCharacterList(slot0.chapter.fleet[TeamType.Main], slot0._characterList[TeamType.Main])
+		slot0:recycleCharacterList(slot0.chapter.fleet[TeamType.Vanguard], slot0._characterList[TeamType.Vanguard])
 	end
 
 	removeAllChildren(slot0._heroContainer)
 
-	slot2[TeamType.Vanguard] = {}
-	slot2[TeamType.Main] = {}
-	slot0._characterList = {}
+	slot0._characterList = {
+		[TeamType.Vanguard] = {},
+		[TeamType.Main] = {}
+	}
 
 	function slot2(slot0, slot1, slot2, slot3)
-		if uv0.exited then
+		if slot0.exited then
 			PoolMgr.GetInstance():ReturnSpineChar(slot1:getPrefab(), slot0)
 
 			return
 		end
 
-		for slot8, slot9 in pairs(slot1:getAttachmentPrefab()) do
+		for slot8, slot9 in pairs(slot4) do
 			if slot9.attachment_combat_ui[1] ~= "" then
 				ResourceMgr.Inst:getAssetAsync("Effect/" .. slot10, slot10, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-					if uv0.exited then
-						-- Nothing
+					if slot0.exited then
 					else
 						slot1 = Object.Instantiate(slot0)
-						uv0._attachmentList[#uv0._attachmentList + 1] = slot1
+						slot0._attachmentList[#slot0._attachmentList + 1] = slot1
 
-						tf(slot1):SetParent(tf(uv1))
+						tf(slot1):SetParent(tf(slot1))
 
-						tf(slot1).localPosition = BuildVector3(uv2.attachment_combat_ui[2])
+						tf(slot1).localPosition = BuildVector3(slot2.attachment_combat_ui[2])
 					end
 				end), true, true)
 			end
 		end
 
-		uv0._characterList[slot2][slot3] = slot0
+		slot0._characterList[slot2][slot3] = slot0
 
-		tf(slot0):SetParent(uv0._heroContainer, false)
+		tf(slot0):SetParent(slot0._heroContainer, false)
 
 		tf(slot0).localScale = Vector3(0.5, 0.5, 1)
 
 		pg.ViewUtils.SetLayer(tf(slot0), Layer.UI)
-		uv0:enabledCharacter(slot0, true, slot1, slot2)
-		uv0:setCharacterPos(slot2, slot3, slot0)
-		uv0:sortSiblingIndex()
+		slot0:enabledCharacter(slot0, true, slot1, slot2)
+		slot0:setCharacterPos(slot2, slot3, slot0)
+		slot0:sortSiblingIndex()
 
-		slot5 = cloneTplTo(uv0._heroInfo, slot0)
+		slot5 = cloneTplTo(slot0._heroInfo, slot0)
 
 		setAnchoredPosition(slot5, {
 			x = 0,
@@ -378,10 +360,11 @@ function slot0.loadAllCharacter(slot0, slot1)
 		SetActive(slot5, true)
 
 		slot5.name = "info"
-		slot7 = findTF(findTF(slot5, "info"), "stars")
+		slot7 = findTF(slot6, "stars")
+		slot8 = slot1.energy <= Ship.ENERGY_MID
 		slot9 = findTF(slot6, "energy")
 
-		if slot1.energy <= Ship.ENERGY_MID then
+		if slot8 then
 			slot14, slot11 = slot1:getEnergyPrint()
 
 			if not GetSpriteFromAtlas("energy", slot10) then
@@ -394,7 +377,7 @@ function slot0.loadAllCharacter(slot0, slot1)
 		setActive(slot9, slot8)
 
 		for slot14 = 1, slot1:getStar(), 1 do
-			cloneTplTo(uv0._starTpl, slot7)
+			cloneTplTo(slot0._starTpl, slot7)
 		end
 
 		if not GetSpriteFromAtlas("shiptype", shipType2print(slot1:getShipType())) then
@@ -403,36 +386,19 @@ function slot0.loadAllCharacter(slot0, slot1)
 
 		setImageSprite(findTF(slot6, "type"), slot11, true)
 		setText(findTF(slot6, "frame/lv_contain/lv"), slot1.level)
-
-		slot12 = findTF(slot6, "blood")
-		slot14 = findTF(slot12, "fillarea/red")
-
 		setActive(findTF(slot12, "fillarea/green"), ChapterConst.HpGreen <= slot1.hpRant)
-		setActive(slot14, slot1.hpRant < ChapterConst.HpGreen)
+		setActive(findTF(slot12, "fillarea/red"), slot1.hpRant < ChapterConst.HpGreen)
 
-		slot12:GetComponent(typeof(Slider)).fillRect = ChapterConst.HpGreen <= slot1.hpRant and slot13 or slot14
+		slot12:GetComponent(typeof(Slider)).fillRect = (ChapterConst.HpGreen <= slot1.hpRant and slot13) or findTF(slot12, "fillarea/red")
 
 		setSlider(slot12, 0, 10000, slot1.hpRant)
-	end
-
-	function slot4(slot0)
-		for slot6, slot7 in ipairs(uv0.chapter.fleet[slot0]) do
-			slot8 = slot7:getPrefab()
-
-			table.insert(uv1, function (slot0)
-				PoolMgr.GetInstance():GetSpineChar(uv0, true, function (slot0)
-					uv0(slot0, uv1, uv2, uv3)
-					onNextTick(uv4)
-				end)
-			end)
-		end
 	end
 
 	slot4(TeamType.Vanguard)
 	slot4(TeamType.Main)
 	seriesAsync({}, function (slot0)
-		if uv0 then
-			uv0()
+		if slot0 then
+			slot0()
 		end
 	end)
 end
@@ -469,7 +435,7 @@ function slot0.setCharacterPos(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.resetGrid(slot0, slot1)
-	for slot6, slot7 in ipairs(slot0._gridTFs[slot1]) do
+	for slot6, slot7 in ipairs(slot2) do
 		SetActive(slot7:Find("shadow"), false)
 	end
 end
@@ -481,26 +447,6 @@ end
 function slot0.switchToEditMode(slot0, slot1)
 	slot0:EnableAddGrid(TeamType.Main)
 	slot0:EnableAddGrid(TeamType.Vanguard)
-
-	function slot2(slot0)
-		for slot4, slot5 in ipairs(slot0) do
-			slot6 = tf(slot5)
-
-			if slot6:Find("mouseChild") then
-				slot7 = slot6:GetComponent("EventTriggerListener")
-				uv0.eventTriggers[slot7] = true
-
-				if slot7 then
-					slot7:RemovePointEnterFunc()
-				end
-
-				if slot4 == uv0._shiftIndex then
-					slot6:GetComponent(typeof(Image)).enabled = true
-				end
-			end
-		end
-	end
-
 	slot2(slot0._characterList[TeamType.Vanguard])
 	slot2(slot0._characterList[TeamType.Main])
 
@@ -513,12 +459,12 @@ end
 
 function slot0.switchToShiftMode(slot0, slot1, slot2)
 	for slot6 = 1, 3, 1 do
-		setActive(slot0._gridTFs[TeamType.Vanguard][slot6]:Find("tip"), false)
-		setActive(slot0._gridTFs[TeamType.Main][slot6]:Find("tip"), false)
+		setActive(slot0._gridTFs[TeamType.Vanguard][slot6].Find(slot7, "tip"), false)
+		setActive(slot0._gridTFs[TeamType.Main][slot6].Find(slot8, "tip"), false)
 		setActive(slot0._gridTFs[slot2][slot6]:Find("shadow"), false)
 	end
 
-	for slot7, slot8 in ipairs(slot0._characterList[slot2]) do
+	for slot7, slot8 in ipairs(slot3) do
 		if slot8 ~= slot1 then
 			LeanTween.moveLocalY(go(slot8), slot0._gridTFs[slot2][slot7].localPosition.y - 80, 0.5)
 
@@ -526,9 +472,9 @@ function slot0.switchToShiftMode(slot0, slot1, slot2)
 			slot0.eventTriggers[slot10] = true
 
 			slot10:AddPointEnterFunc(function ()
-				for slot3, slot4 in ipairs(uv0) do
-					if slot4 == uv1 then
-						uv2:shift(uv2._shiftIndex, slot3, uv3)
+				for slot3, slot4 in ipairs(ipairs) do
+					if slot4 == slot1 then
+						slot2:shift(slot2._shiftIndex, slot3, slot3)
 
 						break
 					end
@@ -544,19 +490,14 @@ function slot0.switchToShiftMode(slot0, slot1, slot2)
 end
 
 function slot0.shift(slot0, slot1, slot2, slot3)
-	slot4 = slot0._characterList[slot3]
-	slot6 = slot0.chapter.fleet
-	slot7 = slot6[slot3]
-	slot8 = slot4[slot2]
-	slot10 = slot0._gridTFs[slot3][slot1].localPosition
-	tf(slot8).localPosition = Vector3(slot10.x + 2, slot10.y - 80, slot10.z)
+	tf(slot8).localPosition = Vector3(slot0._gridTFs[slot3][slot1].localPosition.x + 2, slot0._gridTFs[slot3][slot1].localPosition.y - 80, slot0._gridTFs[slot3][slot1].localPosition.z)
 
 	LeanTween.cancel(go(slot8))
 
-	slot4[slot2] = slot4[slot1]
-	slot4[slot1] = slot4[slot2]
+	slot0._characterList[slot3][slot2] = slot0._characterList[slot3][slot1]
+	slot0._characterList[slot3][slot1] = slot0._characterList[slot3][slot2]
 
-	slot6:switchShip(slot7[slot1].id, slot7[slot2].id)
+	slot0.chapter.fleet.switchShip(slot6, slot0.chapter.fleet[slot3][slot1].id, slot0.chapter.fleet[slot3][slot2].id)
 
 	slot0._shiftIndex = slot2
 
@@ -564,9 +505,10 @@ function slot0.shift(slot0, slot1, slot2, slot3)
 end
 
 function slot0.sortSiblingIndex(slot0)
+	slot1 = 3
 	slot2 = 0
 
-	while 3 > 0 do
+	while slot1 > 0 do
 		slot4 = slot0._characterList[TeamType.Vanguard][slot1]
 
 		if slot0._characterList[TeamType.Main][slot1] then
@@ -586,15 +528,16 @@ function slot0.sortSiblingIndex(slot0)
 end
 
 function slot0.EnableAddGrid(slot0, slot1)
+	slot5 = slot0._gridTFs[slot1]
+
 	if #slot0.chapter.fleet[slot1] < 3 then
-		slot8 = slot0._gridTFs[slot1][slot6 + 1]:Find("tip")
+		slot8 = slot5[slot6 + 1].Find(slot7, "tip")
 		slot8:GetComponent("Button").enabled = true
 
 		onButton(slot0, slot8, function ()
-			slot3.team = uv1
-
-			uv0:emit(GuildPreCombatMediator.CHANGE_FLEET_SHIP, {
-				type = 0
+			slot0:emit(GuildPreCombatMediator.CHANGE_FLEET_SHIP, {
+				type = 0,
+				team = slot0
 			})
 		end, SFX_PANEL)
 
@@ -602,169 +545,480 @@ function slot0.EnableAddGrid(slot0, slot1)
 
 		SetActive(slot8, true)
 		LeanTween.value(go(slot8), 0, 1, 1):setOnUpdate(System.Action_float(function (slot0)
-			uv0.localScale = Vector3(slot0, slot0, 1)
+			slot0.localScale = Vector3(slot0, slot0, 1)
 		end)):setEase(LeanTweenType.easeOutBack)
 	end
 end
 
 function slot0.enabledCharacter(slot0, slot1, slot2, slot3, slot4)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-2, warpins: 1 ---
 	if slot2 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 3-11, warpins: 1 ---
 		slot5, slot6, slot7, slot8 = tf(slot1):Find("mouseChild")
 
 		if slot5 then
-			SetActive(slot5, true)
-		else
-			slot5 = GameObject("mouseChild")
 
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 12-16, warpins: 1 ---
+			SetActive(slot5, true)
+			--- END OF BLOCK #0 ---
+
+
+
+		else
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 17-114, warpins: 1 ---
 			tf(slot5):SetParent(tf(slot1))
 
 			tf(slot5).localPosition = Vector3.zero
-			slot6 = GetOrAddComponent(slot5, "ModelDrag")
-			slot7 = GetOrAddComponent(slot5, "UILongPressTrigger")
-			slot8 = GetOrAddComponent(slot5, "EventTriggerListener")
-			slot0.eventTriggers[slot8] = true
+			slot0.eventTriggers[GetOrAddComponent(slot5, "EventTriggerListener")] = true
 
-			slot6:Init()
+			GetOrAddComponent(slot5, "ModelDrag").Init(slot6)
 
-			slot9 = slot5:GetComponent(typeof(RectTransform))
+			slot9 = GameObject("mouseChild").GetComponent(slot5, typeof(RectTransform))
 			slot9.sizeDelta = Vector2(2.5, 2.5)
 			slot9.pivot = Vector2(0.5, 0)
 			slot9.anchoredPosition = Vector2(0, 0)
-			slot7.longPressThreshold = 1
+			GetOrAddComponent(slot5, "UILongPressTrigger").longPressThreshold = 1
 
-			pg.DelegateInfo.Add(slot0, slot7.onLongPressed)
-			slot7.onLongPressed:AddListener(function ()
+			pg.DelegateInfo.Add(slot0, GetOrAddComponent(slot5, "UILongPressTrigger").onLongPressed)
+			GetOrAddComponent(slot5, "UILongPressTrigger").onLongPressed:AddListener(function ()
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 1-1, warpins: 1 ---
+				return
+				--- END OF BLOCK #0 ---
+
+
+
 			end)
-			pg.DelegateInfo.Add(slot0, slot6.onModelClick)
-			slot6.onModelClick:AddListener(function ()
+			pg.DelegateInfo.Add(slot0, GetOrAddComponent(slot5, "ModelDrag").onModelClick)
+			GetOrAddComponent(slot5, "ModelDrag").onModelClick:AddListener(function ()
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 1-15, warpins: 1 ---
 				playSoundEffect(SFX_UI_CLICK)
-
-				slot3.shipVO = uv1
-				slot3.team = uv2
-
-				uv0:emit(GuildPreCombatMediator.CHANGE_FLEET_SHIP, {
-					type = 0
+				playSoundEffect:emit(GuildPreCombatMediator.CHANGE_FLEET_SHIP, {
+					type = 0,
+					shipVO = slot1,
+					team = GuildPreCombatMediator.CHANGE_FLEET_SHIP
 				})
+
+				return
+				--- END OF BLOCK #0 ---
+
+
+
 			end)
-			slot8:AddBeginDragFunc(function ()
+			GetOrAddComponent(slot5, "EventTriggerListener").AddBeginDragFunc(slot8, function ()
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 1-61, warpins: 1 ---
 				screenWidth = UnityEngine.Screen.width
 				screenHeight = UnityEngine.Screen.height
-				widthRate = rtf(uv0._tf).rect.width / screenWidth
-				heightRate = rtf(uv0._tf).rect.height / screenHeight
+				widthRate = rtf(slot0._tf).rect.width / screenWidth
+				heightRate = rtf(slot0._tf).rect.height / screenHeight
 
-				LeanTween.cancel(go(uv1))
-				uv0:switchToShiftMode(uv1, uv2)
-				uv1:GetComponent("SpineAnimUI"):SetAction("tuozhuai", 0)
-				tf(uv1):SetParent(uv0._moveLayer, false)
+				LeanTween.cancel(go(go))
+				LeanTween.cancel:switchToShiftMode(LeanTween.cancel, )
+				LeanTween.cancel:GetComponent("SpineAnimUI"):SetAction("tuozhuai", 0)
+				tf(LeanTween.cancel.GetComponent("SpineAnimUI")):SetParent(slot0._moveLayer, false)
 				playSoundEffect(SFX_UI_HOME_DRAG)
+
+				return
+				--- END OF BLOCK #0 ---
+
+
+
 			end)
-			slot8:AddDragFunc(function (slot0, slot1)
-				rtf(uv0).anchoredPosition = Vector2((slot1.position.x - screenWidth / 2) * widthRate + 20, (slot1.position.y - screenHeight / 2) * heightRate - 20)
+			GetOrAddComponent(slot5, "EventTriggerListener").AddDragFunc(slot8, function (slot0, slot1)
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 1-23, warpins: 1 ---
+				rtf(slot0).anchoredPosition = Vector2((slot1.position.x - screenWidth / 2) * widthRate + 20, (slot1.position.y - screenHeight / 2) * heightRate - 20)
+
+				return
+				--- END OF BLOCK #0 ---
+
+
+
 			end)
-			slot8:AddDragEndFunc(function (slot0, slot1)
-				uv0:GetComponent("SpineAnimUI"):SetAction("tuozhuai", 0)
+			GetOrAddComponent(slot5, "EventTriggerListener"):AddDragEndFunc(function (slot0, slot1)
 
-				if slot1.position.x > UnityEngine.Screen.width * 0.65 or slot1.position.y < UnityEngine.Screen.height * 0.25 then
-					if uv1.chapter.active and #uv1.chapter.fleet[uv2] == 1 then
-						pg.TipsMgr.GetInstance():ShowTips(i18n("ship_formationUI_removeError_onlyShip", uv3:getName(), "", Fleet.C_TEAM_NAME[uv2]))
-						function ()
-							tf(uv0):SetParent(uv1._heroContainer, false)
-							uv1:switchToEditMode(true)
-							uv1:sortSiblingIndex()
-						end()
-					else
-						slot5.content = i18n("battle_preCombatLayer_quest_leaveFleet", uv3:getName())
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 1-19, warpins: 1 ---
+				slot0:GetComponent("SpineAnimUI"):SetAction("tuozhuai", 0)
 
-						function slot5.onYes()
-							for slot4, slot5 in ipairs(uv0._characterList[uv1]) do
-								if slot5 == uv2 then
-									PoolMgr.GetInstance():ReturnSpineChar(uv3:getPrefab(), uv2)
-									table.remove(slot0, slot4)
+				function slot2()
 
-									break
-								end
-							end
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 1-19, warpins: 1 ---
+					tf(tf):SetParent(slot1._heroContainer, false)
+					tf(tf):switchToEditMode(true)
+					tf(tf):sortSiblingIndex()
 
-							uv0.chapter.fleet:removeShip(uv3.id)
-							uv0:switchToEditMode(true)
-							uv0:sortSiblingIndex()
-						end
+					return
+					--- END OF BLOCK #0 ---
 
-						slot5.onNo = slot2
 
-						pg.MsgboxMgr.GetInstance():ShowMsgBox({
-							hideNo = false,
-							zIndex = -100
-						})
-					end
-				else
-					slot2()
+
 				end
 
+				if slot1.position.x > UnityEngine.Screen.width * 0.65 or slot1.position.y < UnityEngine.Screen.height * 0.25 then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 28-32, warpins: 2 ---
+					if slot1.chapter.active and #slot1.chapter.fleet[slot2] == 1 then
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 41-62, warpins: 1 ---
+						pg.TipsMgr.GetInstance():ShowTips(i18n("ship_formationUI_removeError_onlyShip", slot3:getName(), "", Fleet.C_TEAM_NAME[slot2]))
+						slot2()
+						--- END OF BLOCK #0 ---
+
+
+
+					else
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 63-82, warpins: 2 ---
+						pg.MsgboxMgr.GetInstance():ShowMsgBox({
+							hideNo = false,
+							zIndex = -100,
+							content = i18n("battle_preCombatLayer_quest_leaveFleet", slot3:getName()),
+							onYes = function ()
+
+								-- Decompilation error in this vicinity:
+								--- BLOCK #0 1-8, warpins: 1 ---
+								--- END OF BLOCK #0 ---
+
+								FLOW; TARGET BLOCK #1
+
+
+
+								-- Decompilation error in this vicinity:
+								--- BLOCK #1 9-30, warpins: 0 ---
+								for slot4, slot5 in ipairs(slot0) do
+
+									-- Decompilation error in this vicinity:
+									--- BLOCK #0 9-11, warpins: 1 ---
+									if slot5 == slot2 then
+
+										-- Decompilation error in this vicinity:
+										--- BLOCK #0 12-28, warpins: 1 ---
+										PoolMgr.GetInstance():ReturnSpineChar(slot3:getPrefab(), slot2)
+										table.remove(slot0, slot4)
+
+										--- END OF BLOCK #0 ---
+
+										FLOW; TARGET BLOCK #1
+
+
+
+										-- Decompilation error in this vicinity:
+										--- BLOCK #1 29-29, warpins: 1 ---
+										break
+										--- END OF BLOCK #1 ---
+
+
+
+									end
+									--- END OF BLOCK #0 ---
+
+									FLOW; TARGET BLOCK #1
+
+
+
+									-- Decompilation error in this vicinity:
+									--- BLOCK #1 29-30, warpins: 2 ---
+									--- END OF BLOCK #1 ---
+
+
+
+								end
+
+								--- END OF BLOCK #1 ---
+
+								FLOW; TARGET BLOCK #2
+
+
+
+								-- Decompilation error in this vicinity:
+								--- BLOCK #2 31-48, warpins: 2 ---
+								slot0.chapter.fleet:removeShip(slot3.id)
+								slot0:switchToEditMode(true)
+								slot0:sortSiblingIndex()
+
+								return
+								--- END OF BLOCK #2 ---
+
+
+
+							end,
+							onNo = slot2
+						})
+						--- END OF BLOCK #0 ---
+
+
+
+					end
+					--- END OF BLOCK #0 ---
+
+
+
+				else
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 83-84, warpins: 1 ---
+					slot2()
+					--- END OF BLOCK #0 ---
+
+
+
+				end
+
+				--- END OF BLOCK #0 ---
+
+				FLOW; TARGET BLOCK #1
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #1 85-88, warpins: 3 ---
 				playSoundEffect(SFX_UI_HOME_PUT)
+
+				return
+				--- END OF BLOCK #1 ---
+
+
+
 			end)
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+		--- END OF BLOCK #0 ---
+
+
+
 	else
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 115-124, warpins: 1 ---
 		SetActive(tf(slot1):Find("mouseChild"), false)
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 125-126, warpins: 3 ---
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot0.displayFleetInfo(slot0)
-	slot1 = slot0.chapter.fleet
 
-	uv0.tweenNumText(slot0._vanguardGS, _.reduce(slot1:getShipsByTeam(TeamType.Vanguard, false), 0, function (slot0, slot1)
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-35, warpins: 1 ---
+	slot0.tweenNumText(slot0._vanguardGS, slot2)
+	slot0.tweenNumText(slot0._mainGS, _.reduce(slot0.chapter.fleet.getShipsByTeam(slot1, TeamType.Main, false), 0, function (slot0, slot1)
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-5, warpins: 1 ---
 		return slot0 + slot1:getShipCombatPower()
+		--- END OF BLOCK #0 ---
+
+
+
 	end))
-	uv0.tweenNumText(slot0._mainGS, _.reduce(slot1:getShipsByTeam(TeamType.Main, false), 0, function (slot0, slot1)
-		return slot0 + slot1:getShipCombatPower()
-	end))
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.updateStrategyIcon(slot0)
-	slot2 = _.detect(slot0.chapter:getFleetStgs(slot0.chapter.fleet), function (slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-49, warpins: 1 ---
+	slot2 = _.detect(slot1, function (slot0)
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-5, warpins: 1 ---
 		return slot0.id == ChapterConst.StrategyRepair
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 9-9, warpins: 2 ---
+		--- END OF BLOCK #1 ---
+
+
+
 	end)
 
 	GetImageSpriteFromAtlasAsync("strategyicon/" .. pg.strategy_data_template[slot2.id].icon, "", slot0._strategy:Find("icon"))
 	onButton(slot0, slot0._strategy, function ()
-		uv0:displayStrategyInfo(uv1)
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-6, warpins: 1 ---
+		slot0:displayStrategyInfo(slot0)
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end, SFX_PANEL)
 	setText(slot0._strategy:Find("nums"), slot2.count)
 	setActive(slot0._strategy:Find("mask"), slot2.count == 0)
 	setActive(slot0._strategy:Find("selected"), false)
+
+	return
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 53-63, warpins: 2 ---
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot0.displayStrategyInfo(slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-3, warpins: 1 ---
 	slot0.strategyPanel = slot0.strategyPanel or StrategyPanel.New(slot0.strategyInfo)
 
 	slot0.strategyPanel:attach(slot0)
 	slot0.strategyPanel:set(slot1)
 
 	function slot0.strategyPanel.onConfirm()
-		if not uv0.chapter.fleet:canUseStrategy(uv1) then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-9, warpins: 1 ---
+		if not slot0.chapter.fleet:canUseStrategy(slot0.chapter.fleet) then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 10-10, warpins: 1 ---
 			return
+			--- END OF BLOCK #0 ---
+
+
+
 		end
 
-		slot6.type = ChapterConst.OpStrategy
-		slot6.id = slot1:getNextStgUser(uv1.id)
-		slot6.arg1 = uv1.id
+		--- END OF BLOCK #0 ---
 
-		uv0:emit(GuildPreCombatMediator.OP, {})
-		uv0:hideStrategyInfo()
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 11-34, warpins: 2 ---
+		slot0:emit(GuildPreCombatMediator.OP, {
+			type = ChapterConst.OpStrategy,
+			id = slot1:getNextStgUser(slot1.id),
+			arg1 = slot1.id
+		})
+		slot0:hideStrategyInfo()
+
+		return
+		--- END OF BLOCK #1 ---
+
+
+
 	end
 
 	function slot0.strategyPanel.onCancel()
-		uv0:hideStrategyInfo()
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-5, warpins: 1 ---
+		slot0:hideStrategyInfo()
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	return
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 8-26, warpins: 2 ---
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot0.hideStrategyInfo(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-3, warpins: 1 ---
 	if slot0.strategyPanel then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 4-7, warpins: 1 ---
 		slot0.strategyPanel:detach()
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 8-8, warpins: 2 ---
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot0.displayRepairWindow(slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-8, warpins: 1 ---
 	slot3 = slot0.chapter.repairTimes
 	slot4, slot5, slot6 = ChapterConst.GetShamRepairParams()
 	slot0.repairPanel = slot0.repairPanel or RepairPanel.New(slot0.repairWindow)
@@ -773,66 +1027,283 @@ function slot0.displayRepairWindow(slot0, slot1)
 	slot0.repairPanel:set(slot2.repairTimes, slot4, slot5, slot6)
 
 	function slot0.repairPanel.onConfirm()
-		if uv0 - math.min(uv1, uv0) == 0 and uv2.player:getTotalGem() < uv3 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-9, warpins: 1 ---
+		if slot0 - math.min(math.min, slot0) == 0 and slot2.player:getTotalGem() < slot3 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 18-28, warpins: 1 ---
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_rmb"))
 
 			return
+			--- END OF BLOCK #0 ---
+
+
+
 		end
 
-		slot4.type = ChapterConst.OpRepair
-		slot4.id = uv4.fleet.id
-		slot4.arg1 = uv5.id
+		--- END OF BLOCK #0 ---
 
-		uv2:emit(GuildPreCombatMediator.OP, {})
-		uv2:hideRepairWindow()
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 29-50, warpins: 3 ---
+		slot2:emit(GuildPreCombatMediator.OP, {
+			type = ChapterConst.OpRepair,
+			id = slot4.fleet.id,
+			arg1 = slot4.fleet.id.id
+		})
+		slot2:hideRepairWindow()
+
+		return
+		--- END OF BLOCK #1 ---
+
+
+
 	end
 
 	function slot0.repairPanel.onCancel()
-		uv0:hideRepairWindow()
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-5, warpins: 1 ---
+		slot0:hideRepairWindow()
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	return
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 13-34, warpins: 2 ---
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot0.hideRepairWindow(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-3, warpins: 1 ---
 	if slot0.repairPanel then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 4-7, warpins: 1 ---
 		slot0.repairPanel:detach()
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 8-8, warpins: 2 ---
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot0.recycleCharacterList(slot0, slot1, slot2)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-4, warpins: 1 ---
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 5-22, warpins: 0 ---
 	for slot6, slot7 in ipairs(slot1) do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 5-7, warpins: 1 ---
 		if slot2[slot6] then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 8-20, warpins: 1 ---
 			PoolMgr.GetInstance():ReturnSpineChar(slot7:getPrefab(), slot2[slot6])
 
 			slot2[slot6] = nil
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 21-22, warpins: 3 ---
+		--- END OF BLOCK #1 ---
+
+
+
 	end
+
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 23-23, warpins: 1 ---
+	return
+	--- END OF BLOCK #2 ---
+
+
+
 end
 
 function slot0.willExit(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-3, warpins: 1 ---
 	if slot0.eventTriggers then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 4-7, warpins: 1 ---
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 8-12, warpins: 0 ---
 		for slot4, slot5 in pairs(slot0.eventTriggers) do
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 8-10, warpins: 1 ---
 			ClearEventTrigger(slot4)
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 11-12, warpins: 2 ---
+			--- END OF BLOCK #1 ---
+
+
+
 		end
 
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 13-14, warpins: 1 ---
 		slot0.eventTriggers = nil
+		--- END OF BLOCK #2 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 15-25, warpins: 2 ---
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 
 	if slot0._characterList then
-		slot1 = slot0.chapter.fleet
 
-		slot0:recycleCharacterList(slot1[TeamType.Main], slot0._characterList[TeamType.Main])
-		slot0:recycleCharacterList(slot1[TeamType.Vanguard], slot0._characterList[TeamType.Vanguard])
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 26-47, warpins: 1 ---
+		slot0:recycleCharacterList(slot0.chapter.fleet[TeamType.Main], slot0._characterList[TeamType.Main])
+		slot0:recycleCharacterList(slot0.chapter.fleet[TeamType.Vanguard], slot0._characterList[TeamType.Vanguard])
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 48-54, warpins: 2 ---
 	slot0:hideFleetPanel()
 
+	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 55-60, warpins: 0 ---
 	for slot4, slot5 in ipairs(slot0._attachmentList) do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 55-58, warpins: 1 ---
 		Object.Destroy(slot5)
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 59-60, warpins: 2 ---
+		--- END OF BLOCK #1 ---
+
+
+
 	end
 
+	--- END OF BLOCK #3 ---
+
+	FLOW; TARGET BLOCK #4
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #4 61-63, warpins: 1 ---
 	slot0._attachmentList = nil
+
+	return
+	--- END OF BLOCK #4 ---
+
+
+
 end
 
 return slot0

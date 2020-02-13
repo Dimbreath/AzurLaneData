@@ -23,8 +23,8 @@ function slot0.Type2Name(slot0)
 end
 
 function slot0.Type2Print(slot0)
-	if not uv0.prints then
-		uv0.prints = {
+	if not slot0.prints then
+		slot0.prints = {
 			"quzhu",
 			"qingxun",
 			"zhongxun",
@@ -46,12 +46,12 @@ function slot0.Type2Print(slot0)
 		}
 	end
 
-	return uv0.prints[slot0]
+	return slot0.prints[slot0]
 end
 
 function slot0.Type2BattlePrint(slot0)
-	if not uv0.bprints then
-		uv0.bprints = {
+	if not slot0.bprints then
+		slot0.bprints = {
 			"battle_quzhu",
 			"battle_qingxun",
 			"battle_zhongxun",
@@ -75,12 +75,12 @@ function slot0.Type2BattlePrint(slot0)
 		}
 	end
 
-	return uv0.bprints[slot0]
+	return slot0.bprints[slot0]
 end
 
 function slot0.Type2CNLabel(slot0)
-	if not uv0.cnLabel then
-		uv0.cnLabel = {
+	if not slot0.cnLabel then
+		slot0.cnLabel = {
 			"label_1",
 			"label_2",
 			"label_3",
@@ -102,30 +102,35 @@ function slot0.Type2CNLabel(slot0)
 		}
 	end
 
-	return uv0.cnLabel[slot0]
+	return slot0.cnLabel[slot0]
 end
 
 slot0.BundleBattleShip = "zhan"
 slot0.BundleAircraftCarrier = "hang"
 slot0.BundleSubmarine = "qian"
 slot0.BundleLargeCrusier = "zhong"
-slot2[1] = slot0.ZhanXun
-slot2[2] = slot0.ZhanLie
-slot1.zhan = {}
-slot2[1] = slot0.QingHang
-slot2[2] = slot0.ZhengHang
-slot1.hang = {}
-slot2[1] = slot0.QianTing
-slot2[2] = slot0.QianMu
-slot1.qian = {}
-slot2[1] = slot0.ZhongXun
-slot2[2] = slot0.ChaoXun
-slot1.zhong = {}
-slot0.BundleList = {}
+slot0.BundleList = {
+	zhan = {
+		slot0.ZhanXun,
+		slot0.ZhanLie
+	},
+	hang = {
+		slot0.QingHang,
+		slot0.ZhengHang
+	},
+	qian = {
+		slot0.QianTing,
+		slot0.QianMu
+	},
+	zhong = {
+		slot0.ZhongXun,
+		slot0.ChaoXun
+	}
+}
 
 function slot0.BundleType2CNLabel(slot0)
-	if not uv0.bundleLabel then
-		uv0.bundleLabel = {
+	if not slot0.bundleLabel then
+		slot0.bundleLabel = {
 			qian = "label_8",
 			hang = "label_12",
 			zhan = "label_11",
@@ -133,7 +138,7 @@ function slot0.BundleType2CNLabel(slot0)
 		}
 	end
 
-	return uv0.bundleLabel[slot0]
+	return slot0.bundleLabel[slot0]
 end
 
 return slot0

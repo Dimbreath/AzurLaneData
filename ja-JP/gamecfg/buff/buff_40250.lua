@@ -1,17 +1,3 @@
-slot2.trigger = {
-	"onFlagShip"
-}
-slot2.arg_list = {
-	check_target = "TargetNationalityFriendly",
-	minTargetNumber = 4,
-	skill_id = 40250,
-	nationality = 2
-}
-slot1[1] = {
-	type = "BattleBuffCastSkill"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "庞德喵：英系数量",
@@ -22,5 +8,19 @@ return {
 	stack = 1,
 	color = "yellow",
 	icon = 40250,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onFlagShip"
+			},
+			arg_list = {
+				check_target = "TargetNationalityFriendly",
+				minTargetNumber = 4,
+				skill_id = 40250,
+				nationality = 2
+			}
+		}
+	}
 }

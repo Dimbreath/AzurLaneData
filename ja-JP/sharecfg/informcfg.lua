@@ -1,20 +1,20 @@
-slot0[1] = {
-	content = "迷惑行為"
+return {
+	{
+		content = "迷惑行為"
+	},
+	{
+		content = "ネット詐欺・宣伝"
+	},
+	{
+		content = "人身攻撃"
+	},
+	{
+		content = "広告/スパム"
+	},
+	{
+		content = "不適切なニックネーム"
+	},
+	{
+		content = "その他"
+	}
 }
-slot0[2] = {
-	content = "ネット詐欺・宣伝"
-}
-slot0[3] = {
-	content = "人身攻撃"
-}
-slot0[4] = {
-	content = "広告/スパム"
-}
-slot0[5] = {
-	content = "不適切なニックネーム"
-}
-slot0[6] = {
-	content = "その他"
-}
-
-return {}

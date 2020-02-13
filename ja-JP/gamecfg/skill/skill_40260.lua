@@ -1,15 +1,3 @@
-slot2.arg_list = {
-	buff_id = 40261,
-	nationality = 2
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillAddBuff",
-	target_choise = "TargetNationalityFriendly"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "",
@@ -18,5 +6,17 @@ return {
 	aniEffect = "",
 	desc = "英系buff",
 	painting = 1,
-	id = 40260
+	id = 40260,
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetNationalityFriendly",
+			arg_list = {
+				buff_id = 40261,
+				nationality = 2
+			}
+		}
+	}
 }

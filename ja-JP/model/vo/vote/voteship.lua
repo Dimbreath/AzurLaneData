@@ -14,9 +14,10 @@ function slot0.Ctor(slot0, slot1)
 		end
 	end
 
-	slot3.id = slot0.configId
-	slot3.configId = slot0.configId
-	slot0.shipVO = Ship.New({})
+	slot0.shipVO = Ship.New({
+		id = slot0.configId,
+		configId = slot0.configId
+	})
 end
 
 function slot0.bindConfigTable(slot0)

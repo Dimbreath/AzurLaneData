@@ -1,21 +1,3 @@
-slot2.trigger = {
-	"onFlagShip"
-}
-slot3.target = {
-	"TargetAllHelp",
-	"TargetShipType"
-}
-slot3.ship_type_list = {
-	1
-}
-slot2.arg_list = {
-	buff_id = 98011
-}
-slot1[1] = {
-	type = "BattleBuffAddBuff"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "指挥喵buff第一入口",
@@ -26,5 +8,23 @@ return {
 	stack = 1,
 	color = "yellow",
 	icon = 98010,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onFlagShip"
+			},
+			arg_list = {
+				buff_id = 98011,
+				target = {
+					"TargetAllHelp",
+					"TargetShipType"
+				},
+				ship_type_list = {
+					1
+				}
+			}
+		}
+	}
 }

@@ -1,18 +1,3 @@
-slot2.trigger = {
-	"onUpdate"
-}
-slot2.arg_list = {
-	minTargetNumber = 1,
-	target = "TargetSelf",
-	time = 10,
-	check_target = "TargetHarmRandom",
-	skill_id = 60008
-}
-slot1[1] = {
-	type = "BattleBuffCastSkill"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "测试-海伦娜-技能触发被动",
@@ -22,5 +7,20 @@ return {
 	stack = 1,
 	id = 60014,
 	icon = 60014,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onUpdate"
+			},
+			arg_list = {
+				minTargetNumber = 1,
+				target = "TargetSelf",
+				time = 10,
+				check_target = "TargetHarmRandom",
+				skill_id = 60008
+			}
+		}
+	}
 }

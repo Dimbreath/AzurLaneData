@@ -31,22 +31,22 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.submit, function ()
-		if not uv0:saveScroll() then
-			uv0.panel.localPosition = Vector3.zero
+		if not slot0:saveScroll() then
+			slot0.panel.localPosition = Vector3.zero
 
-			LeanTween.cancel(go(uv0.panel))
-			LeanTween.moveLocalX(go(uv0.panel), 10, 0.05):setFrom(-20):setLoopPingPong(3)
+			LeanTween.cancel(go(slot0.panel))
+			LeanTween.moveLocalX(go(slot0.panel), 10, 0.05):setFrom(-20):setLoopPingPong(3)
 		else
-			uv0:emit(InvestigationMediator.ON_SUBMIT, uv0.investigateId, uv1.Caches[uv0.investigateId])
+			slot0:emit(InvestigationMediator.ON_SUBMIT, slot0.investigateId, slot1.Caches[slot0.investigateId])
 		end
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.close, function ()
-		uv0:saveScroll()
-		uv0:emit(uv1.ON_CLOSE)
+		slot0:saveScroll()
+		slot0.saveScroll:emit(slot1.ON_CLOSE)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0._tf, function ()
-		uv0:saveScroll()
-		uv0:emit(uv1.ON_CLOSE)
+		slot0:saveScroll()
+		slot0.saveScroll:emit(slot1.ON_CLOSE)
 	end, SFX_CANCEL)
 
 	if not slot0.finished then
@@ -55,22 +55,19 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.loadScroll(slot0)
-	if not uv0.Caches[slot0.investigateId] then
-		uv0.Caches[slot0.investigateId] = {}
+	if not slot0.Caches[slot0.investigateId] then
+		slot0.Caches[slot0.investigateId] = {}
 	end
 
-	slot2 = pg.questionnaire_template[slot0.investigateId]
-
-	setText(slot0.title, slot2.title)
-	setText(slot0.desc, slot2.desc)
+	setText(slot0.title, pg.questionnaire_template[slot0.investigateId].title)
+	setText(slot0.desc, pg.questionnaire_template[slot0.investigateId].desc)
 
 	slot3 = slot0.item:GetSiblingIndex()
 
-	for slot7 = #slot2.problem_list, 1, -1 do
-		slot8 = slot2.problem_list[slot7]
-		slot9 = pg.questionnaire_problems_template[slot8]
+	for slot7 = #pg.questionnaire_template[slot0.investigateId].problem_list, 1, -1 do
+		slot9 = pg.questionnaire_problems_template[slot2.problem_list[slot7]]
 
-		if not slot1[slot8] then
+		if not slot1[slot2.problem_list[slot7]] then
 			slot1[slot8] = {}
 		end
 
@@ -87,15 +84,14 @@ function slot0.loadScroll(slot0)
 
 		setActive(slot12, false)
 
+		slot13 = slot12:GetSiblingIndex()
+
 		for slot17 = #slot9.options, 1, -1 do
 			slot19 = slot10[slot17]
 			slot20 = cloneTplTo(slot12, slot11, "option_" .. slot17)
 
-			slot20:SetSiblingIndex(slot12:GetSiblingIndex() + 1)
-
-			slot21 = slot20:Find("toggle")
-
-			setText(slot21:Find("Label"), slot9.options[slot17][2])
+			slot20:SetSiblingIndex(slot13 + 1)
+			setText(slot20:Find("toggle").Find(slot21, "Label"), slot9.options[slot17][2])
 
 			if slot9.multiply == 1 then
 				slot21:GetComponent(typeof(Toggle)).group = nil
@@ -103,7 +99,7 @@ function slot0.loadScroll(slot0)
 
 			triggerToggle(slot21, slot19 ~= nil)
 			onToggle(slot0, slot21, function ()
-				setActive(uv0.tip, not uv0:saveScroll())
+				setActive(slot0.tip, not slot0:saveScroll())
 			end, SFX_PANEL)
 			setActive(slot20:Find("input"), slot18[1] == 1)
 
@@ -119,23 +115,25 @@ end
 function slot0.saveScroll(slot0)
 	slot1 = true
 	slot2 = {}
+	slot3 = 0
+	slot4 = pg.questionnaire_template[slot0.investigateId]
 
 	for slot8 = 0, slot0.list.childCount - 1, 1 do
-		slot9 = slot0.list
-
-		if isActive(slot9:GetChild(slot8)) and string.find(slot9.name, "item_") then
+		if isActive(slot0.list:GetChild(slot8)) and string.find(slot9.name, "item_") then
+			slot12 = pg.questionnaire_problems_template[slot4.problem_list[slot3 + 1]].options
 			slot13 = {}
+			slot14 = 0
 
 			for slot18 = 0, slot9.childCount - 1, 1 do
 				if isActive(slot9:GetChild(slot18)) and string.find(slot19.name, "option_") then
-					slot14 = 0 + 1
+					slot14 = slot14 + 1
 
 					if slot19:Find("toggle"):GetComponent(typeof(Toggle)).isOn then
 						slot21 = {
 							id = slot14
 						}
 
-						if pg.questionnaire_problems_template[pg.questionnaire_template[slot0.investigateId].problem_list[0 + 1]].options[slot14][1] == 1 and getInputText(slot19:Find("input")) and string.len(slot22) > 0 then
+						if slot12[slot14][1] == 1 and getInputText(slot19:Find("input")) and string.len(slot22) > 0 then
 							slot21.content = slot22
 						end
 
@@ -156,7 +154,7 @@ function slot0.saveScroll(slot0)
 		end
 	end
 
-	uv0.Caches[slot0.investigateId] = slot2
+	slot0.Caches[slot0.investigateId] = slot2
 
 	return slot1
 end

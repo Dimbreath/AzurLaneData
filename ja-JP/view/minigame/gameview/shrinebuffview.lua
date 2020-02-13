@@ -28,17 +28,18 @@ function slot0.initUI(slot0)
 
 	for slot4 = 1, 3, 1 do
 		onButton(slot0, slot0.buffListTF:GetChild(slot4 - 1), function ()
-			uv0.contextData.onSelect(uv1)
-			uv0:Destroy()
+			slot0.contextData.onSelect(slot1)
+			slot0.contextData.onSelect:Destroy()
 		end, SFX_PANEL)
 	end
 
 	onButton(slot0, slot0.backBtn, function ()
-		uv0:Destroy()
+		slot0:Destroy()
 	end, SFX_CANCEL)
 end
 
 function slot0.updateView(slot0)
+	return
 end
 
 return slot0

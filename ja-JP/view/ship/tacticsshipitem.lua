@@ -7,6 +7,7 @@ function slot0.updateBlackBlock(slot0)
 end
 
 function slot0.UpdateExpBuff(slot0)
+	return
 end
 
 return slot0

@@ -105,7 +105,12 @@ slot5 = {
 }
 
 function slot6(slot0)
-	slot1 = {
+
+	-- Decompilation error in this vicinity:
+	function (slot0)
+		slot0.root = slot0
+		slot0.list = {}
+	end({
 		Get = function (slot0)
 			slot1 = nil
 
@@ -136,14 +141,9 @@ function slot6(slot0)
 
 			slot0.list = nil
 		end
-	}
+	})
 
-	function (slot0)
-		slot0.root = uv0
-		slot0.list = {}
-	end(slot1)
-
-	return slot1
+	return 
 end
 
 function slot0.getUIName(slot0)
@@ -159,19 +159,19 @@ function slot0.setActivity(slot0, slot1)
 end
 
 function slot0.getMemoryState(slot0, slot1)
-	return table.contains(slot0.unlockItems, slot1) and uv0 or table.contains(slot0.fetchItems, slot1) and uv1 or uv2
+	return (table.contains(slot0.unlockItems, slot1) and slot0) or (table.contains(slot0.fetchItems, slot1) and slot1) or table.contains(slot0.fetchItems, slot1)
 end
 
 function slot0.updateMemorys(slot0)
 	slot0.memorys = {}
 
 	for slot4, slot5 in ipairs(slot0.targetItems) do
-		slot10.id = slot5
-		slot10.index = slot4 % uv0 == 0 and uv0 or slot7
-		slot10.pos = uv1[slot4]
-		slot10.state = slot0:getMemoryState(slot5)
-
-		table.insert(slot0.memorys, {})
+		table.insert(slot0.memorys, {
+			id = slot5,
+			index = (slot4 % slot0 == 0 and slot0) or slot7,
+			pos = slot1[slot4],
+			state = slot0:getMemoryState(slot5)
+		})
 	end
 
 	slot0:updateMemoryBook(slot0.contextData.page or 1, true)
@@ -193,25 +193,25 @@ function slot0.init(slot0)
 	slot0.awardLabel = slot0:findTF("award_bg/label")
 	slot0.awardLabelGot = slot0:findTF("award_bg/label_got")
 	slot0.helpBtn = slot0:findTF("help")
-	slot0.pool = uv0(slot0._tf)
+	slot0.pool = slot0(slot0._tf)
 end
 
 function slot0.didEnter(slot0)
 	slot0:addRingDragListenter()
 	onButton(slot0, slot0.backBtn, function ()
-		uv0:emit(uv1.ON_CLOSE)
+		slot0:emit(slot1.ON_CLOSE)
 	end, SOUND_BACK)
 	onButton(slot0, slot0.helpBtn, function ()
-		slot2.type = MSGBOX_TYPE_HELP
-		slot2.helps = pg.gametip.memorybook_notice.tip
-
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.memorybook_notice.tip
+		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.page1:Find("switch"), function ()
-		uv0:updateMemoryBook(uv1.PAGE_TWO)
+		slot0:updateMemoryBook(slot1.PAGE_TWO)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.page2:Find("switch"), function ()
-		uv0:updateMemoryBook(uv1.PAGE_ONE)
+		slot0:updateMemoryBook(slot1.PAGE_ONE)
 	end, SFX_PANEL)
 
 	slot0.sprites = {}
@@ -222,9 +222,7 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.getStartAndEndIndex(slot0, slot1)
-	slot2 = (slot1 - 1) * uv0 + 1
-
-	return slot2, slot2 + uv0 - 1
+	return (slot1 - 1) * slot0 + 1, ((slot1 - 1) * slot0 + 1 + slot0) - 1
 end
 
 function slot0.updateMemoryBook(slot0, slot1, slot2)
@@ -242,10 +240,10 @@ function slot0.updateMemoryBook(slot0, slot1, slot2)
 
 	slot6 = false
 
-	if slot1 == uv0.PAGE_ONE then
-		slot6 = slot0:updatePageTip(uv0.PAGE_TWO)
-	elseif slot1 == uv0.PAGE_TWO then
-		slot6 = slot0:updatePageTip(uv0.PAGE_ONE)
+	if slot1 == slot0.PAGE_ONE then
+		slot6 = slot0:updatePageTip(slot0.PAGE_TWO)
+	elseif slot1 == slot0.PAGE_TWO then
+		slot6 = slot0:updatePageTip(slot0.PAGE_ONE)
 	end
 
 	setActive(slot3:Find("switch/tip"), slot6)
@@ -254,7 +252,7 @@ function slot0.updateMemoryBook(slot0, slot1, slot2)
 	slot0.contextData.page = slot1
 
 	if slot2 then
-		if slot1 == uv0.PAGE_TWO then
+		if slot1 == slot0.PAGE_TWO then
 			slot0.page2.localPosition = Vector3.New(0, 0)
 			slot0.page1.localPosition = Vector3.New(-1280, 0)
 
@@ -266,28 +264,28 @@ function slot0.updateMemoryBook(slot0, slot1, slot2)
 			setActive(slot0.page1:Find("switch"), true)
 		end
 	else
-		if slot1 == uv0.PAGE_TWO then
-			setActive(slot0.page2:Find("switch"), false)
+		if slot1 == slot0.PAGE_TWO then
+			setActive(slot7, false)
 
 			slot0.page2.localPosition = Vector3.New(1280, 0)
 			slot0.page1.localPosition = Vector3.New(0, 0)
 
 			LeanTween.moveX(slot0.page2, 0, 0.5)
 			LeanTween.moveX(slot0.page1, -1280, 0.5):setOnComplete(System.Action(function ()
-				setActive(uv0, true)
+				setActive(setActive, true)
 			end))
 
 			return
 		end
 
-		setActive(slot0.page1:Find("switch"), false)
+		setActive(slot7, false)
 
 		slot0.page2.localPosition = Vector3.New(0, 0)
 		slot0.page1.localPosition = Vector3.New(-1280, 0)
 
 		LeanTween.moveX(slot0.page2, 1280, 0.5)
 		LeanTween.moveX(slot0.page1, 0, 0.5):setOnComplete(System.Action(function ()
-			setActive(uv0, true)
+			setActive(setActive, true)
 		end))
 	end
 end
@@ -298,23 +296,25 @@ function slot0.addRingDragListenter(slot0)
 	slot3 = nil
 
 	slot1:AddBeginDragFunc(function ()
-		uv0 = 0
-		uv1 = nil
+		slot0 = 0
+		slot1 = nil
 	end)
 	slot1:AddDragFunc(function (slot0, slot1)
-		if not uv0 then
-			uv0 = slot1.position
+		slot2 = slot1.position
+
+		if not slot0 then
+			slot0 = slot2
 		end
 
-		uv1 = slot2.x - uv0.x
+		slot1 = slot2.x - slot0.x
 	end)
 	slot1:AddDragEndFunc(function (slot0, slot1)
-		if uv0 < -50 then
-			if uv1.page == uv2.PAGE_ONE then
-				uv1:updateMemoryBook(uv2.PAGE_TWO)
+		if slot0 < -50 then
+			if slot1.page == slot2.PAGE_ONE then
+				slot1:updateMemoryBook(slot2.PAGE_TWO)
 			end
-		elseif uv0 > 50 and uv1.page == uv2.PAGE_TWO then
-			uv1:updateMemoryBook(uv2.PAGE_ONE)
+		elseif slot0 > 50 and slot1.page == slot2.PAGE_TWO then
+			slot1:updateMemoryBook(slot2.PAGE_ONE)
 		end
 	end)
 end
@@ -322,8 +322,8 @@ end
 function slot0.updatePageTip(slot0, slot1)
 	slot7, slot3 = slot0:getStartAndEndIndex(slot1)
 
-	return _.any(_.slice(slot0.memorys, slot2, uv0), function (slot0)
-		return slot0.state == uv0
+	return _.any(_.slice(slot0.memorys, slot2, slot0), function (slot0)
+		return slot0.state == slot0
 	end)
 end
 
@@ -331,32 +331,27 @@ function slot0.updateMemoryItem(slot0, slot1, slot2)
 	slot4 = slot0["page" .. slot1]
 
 	function slot5()
-		slot0 = uv0.pool:Get()
+		slot0 = slot0.pool:Get()
 
-		if uv1 ~= uv2 or not uv0.getSprite then
-			slot1 = uv0:GetMemorySprite(uv3, uv4.index)
-		end
+		setImageSprite(slot0, (slot0.pool == slot2 and slot0.getSprite) or slot0:GetMemorySprite(slot3, slot4.index), true)
 
-		setImageSprite(slot0, slot1, true)
+		slot2.raycastTarget = ((slot0.pool == slot2 and slot0.getSprite) or slot0.GetMemorySprite(slot3, slot4.index)) == slot0:GetComponent(typeof(Image))
 
-		slot0:GetComponent(typeof(Image)).raycastTarget = uv1 == uv2
+		setParent(slot0, slot5:Find("container"))
 
-		setParent(slot0, uv5:Find("container"))
+		tf(slot0).localPosition = Vector3(slot5.Find.pos[1], slot4.pos[2], 0)
 
-		tf(slot0).localPosition = Vector3(uv4.pos[1], uv4.pos[2], 0)
-
-		table.insert(uv0.gameObjects, slot0)
+		table.insert(slot0.gameObjects, slot0)
 
 		return slot0
 	end
 
-	if slot2.state == uv1 then
-		-- Nothing
-	elseif slot3 == uv0 then
+	if slot2.state == slot1 then
+	elseif slot3 == slot0 then
 		onButton(slot0, slot5(), function ()
-			uv0:emit(MemoryBookMediator.ON_UNLOCK, uv1.id, uv0.activity.id)
+			slot0:emit(MemoryBookMediator.ON_UNLOCK, slot1.id, slot0.activity.id)
 		end, SFX_PANEL)
-	elseif slot3 == uv2 then
+	elseif slot3 == slot2 then
 		slot5()
 	end
 end
@@ -365,45 +360,41 @@ function slot0.GetMemorySprite(slot0, slot1, slot2)
 	if slot0.sprites[slot1 .. "_" .. slot2] then
 		return slot0.sprites[slot3]
 	else
-		slot4 = GetSpriteFromAtlas("puzzla/bg_2", slot3)
-		slot0.sprites[slot3] = slot4
+		slot0.sprites[slot3] = GetSpriteFromAtlas("puzzla/bg_2", slot3)
 
-		return slot4
+		return GetSpriteFromAtlas("puzzla/bg_2", slot3)
 	end
 end
 
 function slot0.updateProgress(slot0)
-	slot1 = #slot0.targetItems
-	slot2 = #slot0.unlockItems
-	slot0.slider.value = slot2 / slot1
-	slot0.totalTxt.text = slot1
-	slot0.currValueTxt.text = slot2
+	slot0.slider.value = #slot0.unlockItems / #slot0.targetItems
+	slot0.totalTxt.text = #slot0.targetItems
+	slot0.currValueTxt.text = #slot0.unlockItems
 
-	slot0:updateAward(slot2 == slot1)
+	slot0:updateAward(#slot0.unlockItems == #slot0.targetItems)
 end
 
 function slot0.updateAward(slot0, slot1)
 	if not slot0.isInitAward then
 		slot0.isInitAward = true
+		slot3 = slot0.awardVO[2]
 
 		if slot0.awardVO[1] == DROP_TYPE_FURNITURE then
-			slot5.id = slot0.awardVO[2]
-
-			GetSpriteFromAtlasAsync("furniture/" .. Furniture.New({}):getConfig("picture"), "", function (slot0)
-				if uv0.exited then
+			GetSpriteFromAtlasAsync("furniture/" .. Furniture.New({
+				id = slot3
+			}).getConfig(slot4, "picture"), "", function (slot0)
+				if slot0.exited then
 					return
 				end
 
-				setImageSprite(uv0.awardIcon, slot0, true)
+				setImageSprite(slot0.awardIcon, slot0, true)
 			end)
 		end
 	end
 
-	slot2 = slot0.activity.data1 == 1
-
 	setGray(slot0.awardIcon, not slot1, false)
-	setActive(slot0.awardLabel, slot1 and not slot2)
-	setActive(slot0.awardLabelGot, slot2)
+	setActive(slot0.awardLabel, slot1 and not (slot0.activity.data1 == 1))
+	setActive(slot0.awardLabelGot, slot0.activity.data1 == 1)
 
 	if LeanTween.isTweening(go(slot0.awardLabel)) then
 		LeanTween.cancel(go(slot0.awardLabel))
@@ -417,13 +408,12 @@ function slot0.updateAward(slot0, slot1)
 
 	if not slot2 then
 		onButton(slot0, slot0.awardIcon, function ()
-			if not uv0 then
+			if not slot0 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("memorybook_get_award_tip"))
 			else
-				slot3.activity_id = uv1.activity.id
-
-				uv1:emit(MemoryBookMediator.EVENT_OPERATION, {
-					cmd = 1
+				slot1:emit(MemoryBookMediator.EVENT_OPERATION, {
+					cmd = 1,
+					activity_id = slot1.activity.id
 				})
 			end
 		end, SFX_PANEL)

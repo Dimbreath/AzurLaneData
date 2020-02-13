@@ -33,8 +33,9 @@ SC_64000.name = "sc_64000"
 SC_64000.full_name = ".p64.sc_64000"
 SC_64000.nested_types = {}
 SC_64000.enum_types = {}
-slot13[1] = slot2
-SC_64000.fields = {}
+SC_64000.fields = {
+	slot2
+}
 SC_64000.is_extendable = false
 SC_64000.extensions = {}
 slot3.name = "tech_group_id"
@@ -59,9 +60,10 @@ CS_64001.name = "cs_64001"
 CS_64001.full_name = ".p64.cs_64001"
 CS_64001.nested_types = {}
 CS_64001.enum_types = {}
-slot13[1] = slot3
-slot13[2] = slot4
-CS_64001.fields = {}
+CS_64001.fields = {
+	slot3,
+	slot4
+}
 CS_64001.is_extendable = false
 CS_64001.extensions = {}
 slot5.name = "result"
@@ -77,8 +79,9 @@ SC_64002.name = "sc_64002"
 SC_64002.full_name = ".p64.sc_64002"
 SC_64002.nested_types = {}
 SC_64002.enum_types = {}
-slot13[1] = slot5
-SC_64002.fields = {}
+SC_64002.fields = {
+	slot5
+}
 SC_64002.is_extendable = false
 SC_64002.extensions = {}
 slot6.name = "tech_group_id"
@@ -94,8 +97,9 @@ CS_64003.name = "cs_64003"
 CS_64003.full_name = ".p64.cs_64003"
 CS_64003.nested_types = {}
 CS_64003.enum_types = {}
-slot13[1] = slot6
-CS_64003.fields = {}
+CS_64003.fields = {
+	slot6
+}
 CS_64003.is_extendable = false
 CS_64003.extensions = {}
 slot7.name = "result"
@@ -111,8 +115,9 @@ SC_64004.name = "sc_64004"
 SC_64004.full_name = ".p64.sc_64004"
 SC_64004.nested_types = {}
 SC_64004.enum_types = {}
-slot13[1] = slot7
-SC_64004.fields = {}
+SC_64004.fields = {
+	slot7
+}
 SC_64004.is_extendable = false
 SC_64004.extensions = {}
 slot8.name = "group_id"
@@ -155,11 +160,12 @@ FLEETTECH.name = "fleettech"
 FLEETTECH.full_name = ".p64.fleettech"
 FLEETTECH.nested_types = {}
 FLEETTECH.enum_types = {}
-slot13[1] = slot8
-slot13[2] = slot9
-slot13[3] = slot10
-slot13[4] = slot11
-FLEETTECH.fields = {}
+FLEETTECH.fields = {
+	slot8,
+	slot9,
+	slot10,
+	slot11
+}
 FLEETTECH.is_extendable = false
 FLEETTECH.extensions = {}
 cs_64001 = slot0.Message(CS_64001)
@@ -168,3 +174,5 @@ fleettech = slot0.Message(FLEETTECH)
 sc_64000 = slot0.Message(SC_64000)
 sc_64002 = slot0.Message(SC_64002)
 sc_64004 = slot0.Message(SC_64004)
+
+return

@@ -1,14 +1,3 @@
-slot2.arg_list = {
-	buff_id = 60024
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillAddBuff",
-	target_choise = "TargetAllHelp"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "伤害减免",
@@ -17,5 +6,16 @@ return {
 	aniEffect = "",
 	desc = "伤害减免",
 	painting = 1,
-	id = 60013
+	id = 60013,
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetAllHelp",
+			arg_list = {
+				buff_id = 60024
+			}
+		}
+	}
 }

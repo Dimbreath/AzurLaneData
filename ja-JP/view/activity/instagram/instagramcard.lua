@@ -35,7 +35,7 @@ function slot0.AddCommentTimer(slot0, slot1)
 			slot0.view:emit(InstagramMediator.ON_COMMENT_LIST_UPDATE, slot1.id)
 		else
 			slot0.timer = Timer.New(function ()
-				uv0.view:emit(InstagramMediator.ON_COMMENT_LIST_UPDATE, uv1.id)
+				slot0.view:emit(InstagramMediator.ON_COMMENT_LIST_UPDATE, slot1.id)
 			end, slot4, 1)
 
 			slot0.timer:Start()

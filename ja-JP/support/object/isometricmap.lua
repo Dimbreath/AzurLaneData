@@ -23,7 +23,7 @@ function slot1.GetDepth(slot0, slot1, slot2)
 end
 
 function slot1.InsertChar(slot0, slot1)
-	slot1:SetDepth(slot0:GetDepth(slot1.posX, slot1.posY))
+	slot1:SetDepth(slot2)
 
 	for slot6, slot7 in ipairs(slot0.sortedItems) do
 		if slot7.posZ < slot2 then
@@ -34,12 +34,10 @@ function slot1.InsertChar(slot0, slot1)
 		end
 	end
 
-	slot3 = #slot0.sortedItems
-
-	table.insert(slot0.sortedItems, slot3 + 1, slot1)
+	table.insert(slot0.sortedItems, #slot0.sortedItems + 1, slot1)
 	slot0:checkCharByIndex()
 
-	return slot3
+	return #slot0.sortedItems
 end
 
 function slot1.checkCharByIndex(slot0)
@@ -53,28 +51,25 @@ function slot1.RemoveChar(slot0, slot1)
 end
 
 function slot1.CreateItem(slot0, slot1, slot2, slot3)
-	slot4.ob = slot3
-	slot4.sizeX = slot1
-	slot4.sizeY = slot2
-
-	function slot4.SetPos(slot0, slot1, slot2)
-		slot0.posX = slot1
-		slot0.posY = slot2
-		slot0.maxX = slot1 + slot0.sizeX - 1
-		slot0.maxY = slot2 + slot0.sizeY - 1
-	end
-
-	function slot4.SetDepth(slot0, slot1)
-		slot0.posZ = slot1
-	end
-
 	return {
 		maxY = 0,
 		sortedFlag = true,
 		maxX = 0,
 		posY = 0,
 		posX = 0,
-		posZ = 0
+		posZ = 0,
+		ob = slot3,
+		sizeX = slot1,
+		sizeY = slot2,
+		SetPos = function (slot0, slot1, slot2)
+			slot0.posX = slot1
+			slot0.posY = slot2
+			slot0.maxX = (slot1 + slot0.sizeX) - 1
+			slot0.maxY = (slot2 + slot0.sizeY) - 1
+		end,
+		SetDepth = function (slot0, slot1)
+			slot0.posZ = slot1
+		end
 	}
 end
 
@@ -87,7 +82,7 @@ function slot1.ResetDepth(slot0)
 
 	for slot5 = 1, slot0.sizeX, 1 do
 		for slot9 = 1, slot0.sizeY, 1 do
-			slot1[slot0:GetIndex(slot5, slot9)] = slot5 + slot9 - 1
+			slot1[slot0:GetIndex(slot5, slot9)] = (slot5 + slot9) - 1
 		end
 	end
 end
@@ -97,16 +92,13 @@ function slot1.AddDepth(slot0, slot1, slot2, slot3)
 
 	for slot8 = 1, slot1, 1 do
 		for slot12 = 1, slot2, 1 do
-			slot13 = slot0:GetIndex(slot8, slot12)
-			slot4[slot13] = slot4[slot13] + slot3
+			slot4[slot0:GetIndex(slot8, slot12)] = slot4[slot0.GetIndex(slot8, slot12)] + slot3
 		end
 	end
 end
 
 function slot1.ModifyDepth(slot0, slot1)
-	slot2 = slot0.depths
-
-	if slot2[slot0:GetIndex(slot1.maxX, slot1.posY)] == slot2[slot0:GetIndex(slot1.posX, slot1.maxY)] then
+	if slot0.depths[slot0:GetIndex(slot5, slot4)] == slot0.depths[slot0:GetIndex(slot1.posX, slot1.maxY)] then
 		slot1:SetDepth(slot7)
 
 		return
@@ -175,7 +167,7 @@ function slot1.SortAndCalcDepth(slot0)
 		slot0:ModifyDepth(slot6)
 	end
 
-	table.sort(slot1, uv0.sortItemByDepth)
+	table.sort(slot1, slot0.sortItemByDepth)
 end
 
 function slot1.AddItemAndDepend(slot0, slot1)
@@ -195,13 +187,15 @@ end
 function slot1.RemoveItem(slot0, slot1)
 	slot2 = slot1.posX
 	slot3 = slot1.posY
+	slot4 = slot1.maxX
+	slot5 = slot1.maxY
 
 	table.removebyvalue(slot0.allItems, slot1)
 
 	slot0.dependInfo[slot1] = nil
 
 	for slot10, slot11 in ipairs(slot0.allItems) do
-		if slot11.posX <= slot1.maxX and slot11.posY <= slot1.maxY then
+		if slot11.posX <= slot4 and slot11.posY <= slot5 then
 			table.removebyvalue(slot6[slot11], slot1)
 		end
 	end
@@ -210,3 +204,5 @@ function slot1.RemoveItem(slot0, slot1)
 	slot0:SortAndCalcDepth()
 	table.removebyvalue(slot0.sortedItems, slot1)
 end
+
+return

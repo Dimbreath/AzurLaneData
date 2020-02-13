@@ -30,30 +30,31 @@ function slot0.init(slot0)
 	slot0._scrollRect = slot0:findTF("content_view"):GetComponent(typeof(ScrollRect))
 	slot0._stopRemind = slot0:findTF("dontshow_tab")
 
-	triggerToggle(slot0._stopRemind, getProxy(ServerNoticeProxy):getStopRemind())
-
-	slot7.weight = LayerWeightConst.SECOND_LAYER
-
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {})
+	triggerToggle(slot0._stopRemind, slot2)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+		weight = LayerWeightConst.SECOND_LAYER
+	})
 
 	slot0._loadingFlag = {}
 end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0._closeBtn, function ()
-		uv0:emit(uv1.ON_CLOSE)
+		slot0:emit(slot1.ON_CLOSE)
 	end, SOUND_BACK)
 	onToggle(slot0, slot0._stopRemind, function (slot0)
-		uv0:emit(BulletinBoardMediator.SET_STOP_REMIND, slot0)
+		slot0:emit(BulletinBoardMediator.SET_STOP_REMIND, slot0)
 	end)
 end
 
 function slot0.setNotices(slot0, slot1)
+	slot2 = {}
+	slot3 = {}
 	slot0.titleScrolls = {}
 
 	for slot7, slot8 in pairs(slot1) do
-		table.insert({}, tostring(slot8.id))
-		table.insert({}, slot8.version)
+		table.insert(slot2, tostring(slot8.id))
+		table.insert(slot3, slot8.version)
 
 		slot9 = cloneTplTo(slot0._tabTpl, slot0._tabContainer)
 
@@ -76,7 +77,7 @@ function slot0.setNotices(slot0, slot1)
 
 		onToggle(slot0, slot9, function (slot0)
 			if slot0 then
-				uv0:setNoticeDetail(uv1)
+				slot0:setNoticeDetail(slot0.setNoticeDetail)
 			end
 		end, SFX_PANEL)
 	end
@@ -97,14 +98,14 @@ function slot0.setNoticeDetail(slot0, slot1)
 	slot0._loadingFlag[slot1.titleImage] = true
 
 	BulletinBoardMgr.Inst:GetSprite(slot1.id, slot1.version, slot1.titleImage, UnityEngine.Events.UnityAction_UnityEngine_Sprite(function (slot0)
-		uv0._loadingFlag[uv1.titleImage] = nil
+		slot0._loadingFlag[slot1.titleImage] = nil
 
 		if slot0 ~= nil then
-			setImageSprite(uv0._detailTitleImg, slot0, false)
+			setImageSprite(slot0._detailTitleImg, slot0, false)
 
-			uv0._detailTitleImgComp.color = Color.New(1, 1, 1, 1)
+			slot0._detailTitleImgComp.color = Color.New(1, 1, 1, 1)
 
-			setActive(uv0._detailTitleLoading, false)
+			setActive(slot0._detailTitleLoading, false)
 		end
 	end))
 
@@ -116,12 +117,10 @@ function slot0.setNoticeDetail(slot0, slot1)
 	for slot5 in string.gmatch(slot1.content, "<imgHref>%S-</imgHref>") do
 		slot6, slot7 = string.find(slot5, "<imgHref>")
 		slot8, slot9 = string.find(slot5, "</imgHref>")
-		slot10 = string.sub(slot5, slot7 + 1, slot8 - 1)
-		slot12 = string.gsub(string.gsub(string.gsub(slot5, "%.", "%%."), "%-", "%%-"), "%?", "%%?")
-		slot0.realContent = string.gsub(slot0.realContent, slot12, "<icon name=" .. slot10 .. " w=2 h=2/>")
+		slot0.realContent = string.gsub(slot0.realContent, slot12, slot11)
 		slot0.tempContent = string.gsub(slot0.tempContent, slot12, "")
 
-		table.insert(slot0.loadPic, slot10)
+		table.insert(slot0.loadPic, string.sub(slot5, slot7 + 1, slot8 - 1))
 	end
 
 	setText(slot0._detailContentTxt, slot0.tempContent)
@@ -132,15 +131,15 @@ function slot0.setNoticeDetail(slot0, slot1)
 		slot0._loadingFlag[slot6] = true
 
 		BulletinBoardMgr.Inst:GetSprite(slot1.id, slot1.version, slot6, UnityEngine.Events.UnityAction_UnityEngine_Sprite(function (slot0)
-			uv0._loadingFlag[uv1] = nil
+			slot0._loadingFlag[] = nil
 
 			if slot0 ~= nil then
-				uv0.loadingCount = uv0.loadingCount - 1
+				slot0.loadingCount = slot0.loadingCount - 1
 
-				uv0._detailContentTxtComp:AddSprite(slot0.name, slot0)
+				slot0._detailContentTxtComp:AddSprite(slot0.name, slot0)
 
-				if uv0.loadingCount <= 0 then
-					setText(uv0._detailContentTxt, uv0.realContent)
+				if slot0.loadingCount <= 0 then
+					setText(slot0._detailContentTxt, slot0.realContent)
 				end
 			end
 		end))

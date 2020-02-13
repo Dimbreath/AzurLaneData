@@ -3,8 +3,9 @@ slot0.FETCH_LIST_DONE = "BillboardProxy:FETCH_LIST_DONE"
 slot0.NONTIMER = {}
 
 function slot0.register(slot0)
-	slot2[1] = PowerRank.TYPE_MILITARY_RANK
-	uv0.NONTIMER = {}
+	slot0.NONTIMER = {
+		PowerRank.TYPE_MILITARY_RANK
+	}
 	slot0.data = {}
 	slot0.playerData = {}
 	slot0.timers = {}
@@ -15,7 +16,7 @@ end
 function slot0.setPlayerRankData(slot0, slot1, slot2, slot3)
 	slot4 = slot0:getHashId(slot1, slot2)
 
-	if table.contains(uv0.NONTIMER, slot1) then
+	if table.contains(slot0.NONTIMER, slot1) then
 		return
 	end
 
@@ -29,7 +30,7 @@ end
 function slot0.setRankList(slot0, slot1, slot2, slot3)
 	slot4 = slot0:getHashId(slot1, slot2)
 
-	if table.contains(uv0.NONTIMER, slot1) then
+	if table.contains(slot0.NONTIMER, slot1) then
 		return
 	end
 
@@ -52,14 +53,15 @@ function slot0.addTimer(slot0, slot1, slot2, slot3)
 	end
 
 	slot0.timers[slot4] = Timer.New(function ()
-		uv0.timers[uv1]:Stop()
+		slot0.timers[slot1]:Stop()
 
-		uv0.timers[uv1] = nil
-		slot3.type = uv2
-		slot3.activityId = uv3
+		slot0.timers[slot1].Stop.timers[slot0.timers[slot1]] = nil
 
-		uv0:sendNotification(GAME.GET_POWERRANK, {})
-		uv0:addTimer(uv2, uv3, GetHalfHour())
+		slot0.timers[slot1].Stop.timers:sendNotification(GAME.GET_POWERRANK, {
+			type = slot2,
+			activityId = 
+		})
+		slot0.timers[slot1].Stop.timers.sendNotification:addTimer(GAME.GET_POWERRANK, , GetHalfHour())
 	end, slot3 - pg.TimeMgr.GetInstance():GetServerTime(), 1)
 
 	slot0.timers[slot4]:Start()
@@ -74,7 +76,7 @@ function slot0.remove(slot0)
 end
 
 function slot0.canFetch(slot0, slot1, slot2)
-	return table.contains(uv0.NONTIMER, slot1) or slot0.timers[slot0:getHashId(slot1, slot2)] == nil
+	return table.contains(slot0.NONTIMER, slot1) or slot0.timers[slot0:getHashId(slot1, slot2)] == nil
 end
 
 function slot0.getHashId(slot0, slot1, slot2)

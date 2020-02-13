@@ -13,14 +13,15 @@ function slot0.register(slot0)
 
 	slot0:on(64000, function (slot0)
 		for slot4, slot5 in ipairs(slot0.tech_list) do
-			slot8.completeID = slot5.effect_tech_id
-			slot8.studyID = slot5.study_tech_id
-			slot8.finishTime = slot5.study_finish_time
-			uv0.techList[slot5.group_id] = {}
+			slot0.techList[slot5.group_id] = {
+				completeID = slot5.effect_tech_id,
+				studyID = slot5.study_tech_id,
+				finishTime = slot5.study_finish_time
+			}
 		end
 
-		uv0:flushData()
-		uv0:setTimer()
+		slot0:flushData()
+		slot0:setTimer()
 	end)
 end
 
@@ -33,25 +34,26 @@ end
 
 function slot0.updateTecItem(slot0, slot1, slot2, slot3, slot4)
 	if not slot0.techList[slot1] then
-		slot6.studyID = slot3
-		slot6.finishTime = slot4
 		slot0.techList[slot1] = {
-			completeID = 0
+			completeID = 0,
+			studyID = slot3,
+			finishTime = slot4
 		}
 
 		return
 	end
 
-	slot6.completeID = slot2 or slot0.techList[slot1].completeID
-	slot6.studyID = slot3
-	slot6.finishTime = slot4
-	slot0.techList[slot1] = {}
+	slot0.techList[slot1] = {
+		completeID = slot2 or slot0.techList[slot1].completeID,
+		studyID = slot3,
+		finishTime = slot4
+	}
 end
 
 function slot0.shipGroupFilter(slot0)
 	slot0.groupListInCount = {}
 
-	for slot5, slot6 in pairs(getProxy(CollectionProxy).shipGroups) do
+	for slot5, slot6 in pairs(slot1) do
 		if table.indexof(pg.fleet_tech_ship_template.all, slot6.id, 1) then
 			slot0.groupListInCount[#slot0.groupListInCount + 1] = slot6
 		end
@@ -73,9 +75,10 @@ function slot0.nationPointFilter(slot0)
 
 	for slot4, slot5 in ipairs(slot0.groupListInCount) do
 		slot6 = slot5:getNation()
+		slot7 = slot5.id
 
 		if not slot5.maxLV or slot5.maxLV < TechnologyConst.MAX_LV then
-			slot0.nationToPoint[slot6] = slot0.nationToPoint[slot6] + pg.fleet_tech_ship_template[slot5.id].pt_get
+			slot0.nationToPoint[slot6] = slot0.nationToPoint[slot6] + pg.fleet_tech_ship_template[slot7].pt_get
 		else
 			slot0.nationToPoint[slot6] = slot0.nationToPoint[slot6] + pg.fleet_tech_ship_template[slot7].pt_get + pg.fleet_tech_ship_template[slot7].pt_level
 		end
@@ -97,34 +100,44 @@ function slot0.calculateTecBuff(slot0)
 	slot0.typeOrder = {}
 
 	for slot4, slot5 in ipairs(slot0.groupListInCount) do
-		slot6 = slot5.id
+		slot8 = pg.fleet_tech_ship_template[slot5.id].add_get_attr
+		slot9 = pg.fleet_tech_ship_template[slot5.id].add_get_value
 
-		for slot13, slot14 in ipairs(pg.fleet_tech_ship_template[slot6].add_get_shiptype) do
+		for slot13, slot14 in ipairs(slot7) do
 			if not slot0.typeBuffList[slot14] then
-				slot17[1] = pg.fleet_tech_ship_template[slot6].add_get_attr
-				slot17[2] = pg.fleet_tech_ship_template[slot6].add_get_value
-				slot16[1] = {}
-				slot0.typeBuffList[slot14] = {}
+				slot0.typeBuffList[slot14] = {
+					{
+						slot8,
+						slot9
+					}
+				}
 				slot0.typeOrder[#slot0.typeOrder + 1] = slot14
 			else
-				slot17[1] = slot8
-				slot17[2] = slot9
-				slot0.typeBuffList[slot14][#slot0.typeBuffList[slot14] + 1] = {}
+				slot0.typeBuffList[slot14][#slot0.typeBuffList[slot14] + 1] = {
+					slot8,
+					slot9
+				}
 			end
 		end
 
 		if slot5.maxLV == TechnologyConst.MAX_LV then
-			for slot16, slot17 in ipairs(pg.fleet_tech_ship_template[slot6].add_level_shiptype) do
+			slot11 = pg.fleet_tech_ship_template[slot6].add_level_attr
+			slot12 = pg.fleet_tech_ship_template[slot6].add_level_value
+
+			for slot16, slot17 in ipairs(slot10) do
 				if not slot0.typeBuffList[slot17] then
-					slot20[1] = pg.fleet_tech_ship_template[slot6].add_level_attr
-					slot20[2] = pg.fleet_tech_ship_template[slot6].add_level_value
-					slot19[1] = {}
-					slot0.typeBuffList[slot17] = {}
+					slot0.typeBuffList[slot17] = {
+						{
+							slot11,
+							slot12
+						}
+					}
 					slot0.typeOrder[#slot0.typeOrder + 1] = slot17
 				else
-					slot20[1] = slot11
-					slot20[2] = slot12
-					slot0.typeBuffList[slot17][#slot0.typeBuffList[slot17] + 1] = {}
+					slot0.typeBuffList[slot17][#slot0.typeBuffList[slot17] + 1] = {
+						slot11,
+						slot12
+					}
 				end
 			end
 		end
@@ -132,18 +145,24 @@ function slot0.calculateTecBuff(slot0)
 
 	for slot4, slot5 in pairs(slot0.techList) do
 		if slot5.completeID ~= 0 then
-			for slot10, slot11 in ipairs(pg.fleet_tech_template[slot5.completeID].add) do
-				for slot18, slot19 in ipairs(slot11[2]) do
+			for slot10, slot11 in ipairs(slot6) do
+				slot13 = slot11[3]
+				slot14 = slot11[4]
+
+				for slot18, slot19 in ipairs(slot12) do
 					if not slot0.typeBuffList[slot19] then
-						slot22[1] = slot11[3]
-						slot22[2] = slot11[4]
-						slot21[1] = {}
-						slot0.typeBuffList[slot19] = {}
+						slot0.typeBuffList[slot19] = {
+							{
+								slot13,
+								slot14
+							}
+						}
 						slot0.typeOrder[#slot0.typeOrder + 1] = slot19
 					else
-						slot22[1] = slot13
-						slot22[2] = slot14
-						slot0.typeBuffList[slot19][#slot0.typeBuffList[slot19] + 1] = {}
+						slot0.typeBuffList[slot19][#slot0.typeBuffList[slot19] + 1] = {
+							slot13,
+							slot14
+						}
 					end
 				end
 			end
@@ -160,8 +179,10 @@ function slot0.calculateTecBuff(slot0)
 		end
 
 		for slot9, slot10 in ipairs(slot5) do
+			slot12 = slot10[2]
+
 			if not slot0.typeAttrTable[slot4][slot10[1]] then
-				slot0.typeAttrTable[slot4][slot11] = slot10[2]
+				slot0.typeAttrTable[slot4][slot11] = slot12
 				slot0.typeAttrOrderTable[slot4][#slot0.typeAttrOrderTable[slot4] + 1] = slot11
 			else
 				slot0.typeAttrTable[slot4][slot11] = slot0.typeAttrTable[slot4][slot11] + slot12
@@ -189,26 +210,30 @@ function slot0.setTimer(slot0)
 
 	for slot4, slot5 in pairs(slot0.techList) do
 		if slot5.studyID ~= 0 then
-			if slot5.finishTime < pg.TimeMgr.GetInstance():GetServerTime() then
-				slot13.tecID = slot4
-				slot13.levelID = pg.fleet_tech_group[slot4].techs[(table.indexof(pg.fleet_tech_group[slot4].techs, slot5.completeID, 1) or 0) + 1]
+			slot6 = slot5.finishTime
+			slot7 = pg.TimeMgr.GetInstance():GetServerTime()
+			slot9 = pg.fleet_tech_group[slot4].techs[(table.indexof(pg.fleet_tech_group[slot4].techs, slot5.completeID, 1) or 0) + 1]
 
-				slot0:sendNotification(GAME.FINISH_CAMP_TEC, {})
+			if slot6 < slot7 then
+				slot0:sendNotification(GAME.FINISH_CAMP_TEC, {
+					tecID = slot4,
+					levelID = slot9
+				})
 
 				return
 			else
 				slot0.leftTime = slot6 - slot7
 				slot0.timer = Timer.New(function ()
-					uv0.leftTime = uv0.leftTime - 1
+					slot0.leftTime = slot0.leftTime - 1
 
-					if uv0.leftTime == 0 then
-						slot3.tecID = uv1
-						slot3.levelID = uv2
+					if slot0.leftTime == 0 then
+						slot0:sendNotification(GAME.FINISH_CAMP_TEC, {
+							tecID = slot1,
+							levelID = GAME.FINISH_CAMP_TEC
+						})
+						slot0.sendNotification.timer:Stop()
 
-						uv0:sendNotification(GAME.FINISH_CAMP_TEC, {})
-						uv0.timer:Stop()
-
-						uv0.leftTime = 0
+						slot0.sendNotification.timer.Stop.leftTime = 0
 					end
 				end, 1, -1)
 
@@ -251,7 +276,7 @@ end
 function slot0.getLevelByTecID(slot0, slot1)
 	slot2 = nil
 
-	return not slot0.techList[slot1] and 0 or table.indexof(pg.fleet_tech_group[slot1].techs, slot0.techList[slot1].completeID, 1) or 0
+	return (not slot0.techList[slot1] and 0) or table.indexof(pg.fleet_tech_group[slot1].techs, slot0.techList[slot1].completeID, 1) or 0
 end
 
 function slot0.getGroupListInCount(slot0)
@@ -297,8 +322,9 @@ end
 function slot0.getShipAddition(slot0, slot1, slot2)
 	slot3 = table.indexof(TechnologyConst.TECH_NATION_ATTRS, slot2)
 	slot4 = 0
+	slot5 = slot0:getTecBuff() or {}
 
-	if slot0:getTecBuff() or {}[slot1] and slot3 and slot6[slot3] then
+	if slot5[slot1] and slot3 and slot6[slot3] then
 		slot4 = slot6[slot3]
 	end
 

@@ -1,13 +1,12 @@
 ys = ys or {}
-slot0 = ys
-slot1 = slot0.Battle.BattleEvent
-slot2 = slot0.Battle.BattleConfig
+slot1 = ys.Battle.BattleEvent
+slot2 = ys.Battle.BattleConfig
 slot3 = class("BattleSimulationBuffCountView")
-slot0.Battle.BattleSimulationBuffCountView = slot3
+ys.Battle.BattleSimulationBuffCountView = slot3
 slot3.__name = "BattleSimulationBuffCountView"
 
 function slot3.Ctor(slot0, slot1)
-	uv0.EventListener.AttachEventListener(slot0)
+	slot0.EventListener.AttachEventListener(slot0)
 
 	slot0._go = slot1
 	slot0._tf = slot1.transform
@@ -31,3 +30,5 @@ function slot3.Dispose(slot0)
 	slot0._rateBarList = nil
 	slot0._progressList = nil
 end
+
+return

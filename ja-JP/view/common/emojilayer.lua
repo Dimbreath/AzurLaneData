@@ -44,13 +44,12 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0._tf, function ()
-		uv0:emit(uv1.ON_CLOSE)
+		slot0:emit(slot1.ON_CLOSE)
 	end, SFX_CANCEL)
 	slot0:display()
-
-	slot4.groupName = slot0:getGroupNameFromData()
-
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {})
+	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
+		groupName = slot0:getGroupNameFromData()
+	})
 end
 
 function slot0.display(slot0)
@@ -58,30 +57,28 @@ function slot0.display(slot0)
 
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = ChatConst.EmojiTypes[slot1 + 1]
+			setText(slot2:Find("Text"), i18n("emoji_type_" .. ChatConst.EmojiTypes[slot1 + 1]))
 
-			setText(slot2:Find("Text"), i18n("emoji_type_" .. slot3))
-
-			if uv0.emojiProxy:fliteNewEmojiDataByType()[slot3] then
+			if slot0.emojiProxy:fliteNewEmojiDataByType()[ChatConst.EmojiTypes[slot1 + 1]] then
 				setActive(slot2:Find("point"), true)
 			else
 				setActive(slot2:Find("point"), false)
 			end
 
-			onToggle(uv0, slot2, function (slot0)
+			onToggle(slot0, slot2, function (slot0)
 				if slot0 then
-					setActive(uv0.emojiDots, uv1 ~= ChatConst.EmojiIcon)
-					setActive(uv0.emojiIconDots, uv1 == ChatConst.EmojiIcon)
-					setActive(uv0.emojiEvent, uv1 ~= ChatConst.EmojiIcon)
-					setActive(uv0.emojiIconEvent, uv1 == ChatConst.EmojiIcon)
+					slot1(slot0.emojiDots, setActive ~= ChatConst.EmojiIcon)
+					slot1(slot0.emojiIconDots, setActive == ChatConst.EmojiIcon)
+					slot1(slot0.emojiEvent, setActive ~= ChatConst.EmojiIcon)
+					slot1(slot0.emojiIconEvent, setActive == ChatConst.EmojiIcon)
 
-					if uv1 ~= ChatConst.EmojiIcon then
-						uv0:filter(uv1)
-					elseif uv1 == ChatConst.EmojiIcon then
-						uv0:emojiIconFliter()
+					if slot1 ~= ChatConst.EmojiIcon then
+						slot0:filter(slot0.filter)
+					elseif slot1 == ChatConst.EmojiIcon then
+						slot0:emojiIconFliter()
 					end
 
-					uv2:align(#ChatConst.EmojiTypes)
+					slot2:align(#ChatConst.EmojiTypes)
 				end
 			end, SFX_PANEL)
 		end
@@ -92,15 +89,16 @@ end
 
 function slot0.filter(slot0, slot1)
 	slot0.etype = slot1
+	slot2 = _.map(pg.emoji_template.all, function (slot0)
+		if pg.emoji_template[slot0].achieve == 0 then
+			return pg.emoji_template[slot0]
+		end
+	end)
 	slot3 = slot0.emojiProxy:getNewEmojiIDLIst()
 	slot4 = slot0.emojiProxy:fliteNewEmojiDataByType()
 
-	for slot9, slot10 in pairs(slot0.emojiProxy:getExEmojiDataByType(slot1)) do
-		table.insert(_.map(pg.emoji_template.all, function (slot0)
-			if pg.emoji_template[slot0].achieve == 0 then
-				return pg.emoji_template[slot0]
-			end
-		end), 1, slot10)
+	for slot9, slot10 in pairs(slot5) do
+		table.insert(slot2, 1, slot10)
 	end
 
 	table.sort(slot2, function (slot0, slot1)
@@ -112,11 +110,13 @@ function slot0.filter(slot0, slot1)
 	end)
 
 	if slot1 == ChatConst.EmojiCommon then
-		for slot12, slot13 in pairs(getProxy(ChatProxy):getUsedEmoji()) do
-			slot16.id = slot12
-			slot16.count = slot13
+		slot8 = {}
 
-			table.insert({}, {})
+		for slot12, slot13 in pairs(slot7) do
+			table.insert(slot8, {
+				id = slot12,
+				count = slot13
+			})
 		end
 
 		table.sort(slot8, function (slot0, slot1)
@@ -132,7 +132,7 @@ function slot0.filter(slot0, slot1)
 		end)
 	else
 		slot2 = _.filter(slot2, function (slot0)
-			return table.contains(slot0.type, uv0)
+			return table.contains(slot0.type, slot0)
 		end)
 	end
 
@@ -144,7 +144,7 @@ function slot0.filter(slot0, slot1)
 
 	slot0.tplCaches = slot0.tplCaches or {}
 
-	for slot10 = slot0.emojiContent.childCount - 1, math.ceil(#slot2 / uv0.PageEmojiNums), -1 do
+	for slot10 = slot0.emojiContent.childCount - 1, math.ceil(#slot2 / slot0.PageEmojiNums), -1 do
 		Destroy(slot0.emojiDots:GetChild(slot10))
 
 		slot11 = slot0.emojiSnap:RemoveChild(slot10)
@@ -158,10 +158,9 @@ function slot0.filter(slot0, slot1)
 
 	for slot10 = slot0.emojiContent.childCount + 1, slot6, 1 do
 		slot11 = nil
-		slot11 = (#slot0.tplCaches <= 0 or table.remove(slot0.tplCaches)) and Instantiate(slot0.emojiItem)
 
-		setActive(slot11, true)
-		slot0.emojiSnap:AddChild(slot11)
+		setActive((#slot0.tplCaches <= 0 or table.remove(slot0.tplCaches)) and Instantiate(slot0.emojiItem), true)
+		slot0.emojiSnap:AddChild((#slot0.tplCaches <= 0 or table.remove(slot0.tplCaches)) and Instantiate(slot0.emojiItem))
 		cloneTplTo(slot0.emojiDot, slot0.emojiDots)
 	end
 
@@ -173,12 +172,12 @@ function slot0.filter(slot0, slot1)
 		slot13 = UIItemList.New(slot11, slot11:Find("face"))
 
 		slot13:make(function (slot0, slot1, slot2)
-			slot3 = uv0[slot1 + 1]
+			slot3 = slot0[slot1 + 1]
 
 			if slot0 == UIItemList.EventUpdate then
 				PoolMgr.GetInstance():GetPrefab("emoji/" .. slot3.pic, slot3.pic, true, function (slot0)
-					if uv0.etype == uv1 and uv2 then
-						slot0.name = uv3.pic
+					if slot0.etype ==  and slot2 then
+						slot0.name = slot3.pic
 
 						if slot0:GetComponent("Animator") then
 							slot1.enabled = false
@@ -188,33 +187,38 @@ function slot0.filter(slot0, slot1)
 							slot1:Pause(true)
 						end
 
-						setParent(slot0, uv2, false)
+						setParent(slot0, setParent, false)
 
-						if table.contains(uv4, uv3.id) then
-							cloneTplTo(uv0.newTag, uv2, "newtag")
-							uv0.emojiProxy:removeNewEmojiID(uv3.id)
+						if table.contains(setParent, slot3.id) then
+							cloneTplTo(slot0.newTag, cloneTplTo, "newtag")
+							slot0.emojiProxy:removeNewEmojiID(slot3.id)
 						end
 					else
-						PoolMgr.GetInstance():ReturnPrefab("emoji/" .. uv3.pic, uv3.pic, slot0)
+						PoolMgr.GetInstance():ReturnPrefab("emoji/" .. slot3.pic, slot3.pic, slot0)
 					end
 				end)
-				onButton(uv1, slot2, function ()
-					getProxy(ChatProxy):addUsedEmoji(uv0.id)
-					uv1.contextData.callback(uv0.id)
-					triggerButton(uv1._tf)
+				onButton(slot1, slot2, function ()
+					slot0 = getProxy(ChatProxy)
+
+					slot0:addUsedEmoji(slot0.id)
+					slot0.addUsedEmoji.contextData.callback(slot0.id)
+					triggerButton(slot1._tf)
 				end, SFX_PANEL)
 			end
 		end)
-		slot13:align(#_.slice(slot2, slot10 * uv0.PageEmojiNums + 1, uv0.PageEmojiNums))
+		slot13:align(#_.slice(slot2, slot10 * slot0.PageEmojiNums + 1, slot0.PageEmojiNums))
 	end
 end
 
 function slot0.emojiIconFliter(slot0)
-	for slot8, slot9 in ipairs(getProxy(ChatProxy):getUsedEmojiIcon()) do
-		table.insert({}, pg.emoji_small_template[slot9])
+	slot1 = pg.emoji_small_template
+	slot2 = {}
+
+	for slot8, slot9 in ipairs(slot4) do
+		table.insert(slot2, slot1[slot9])
 	end
 
-	for slot9 = slot0.emojiIconContent.childCount + 1, math.ceil((#slot1 + #slot2) / uv0.True_Emoji_Num_Of_Page), 1 do
+	for slot9 = slot0.emojiIconContent.childCount + 1, math.ceil((#slot1 + #slot2) / slot0.True_Emoji_Num_Of_Page), 1 do
 		cloneTplTo(slot0.emojiDot, slot0.emojiIconDots)
 	end
 
@@ -223,23 +227,26 @@ function slot0.emojiIconFliter(slot0)
 		slot11 = slot0:findTF("TitleCommom", slot10)
 		slot12 = slot0:findTF("TitleAll", slot10)
 		slot13 = slot0:findTF("CommomIconContainer", slot10)
+		slot15 = GetComponent(slot0:findTF("AllIconContainer", slot10), "GridLayoutGroup")
 
 		if slot9 == 1 then
-			slot17 = UIItemList.New(slot13, slot0:findTF("Icon", slot13))
+			slot17 = UIItemList.New(slot13, slot16)
 
 			slot17:make(function (slot0, slot1, slot2)
-				slot3 = uv0[slot1 + 1]
+				slot3 = slot0[slot1 + 1]
 
 				if slot0 == UIItemList.EventUpdate then
 					PoolMgr.GetInstance():GetPrefab("emoji/" .. slot3.pic, slot3.pic, true, function (slot0)
-						if uv0 then
-							slot0.name = uv1.pic
+						if slot0 then
+							slot0.name = slot1.pic
 
-							setParent(slot0, uv0, false)
-							onButton(uv2, slot0, function ()
-								if uv0.contextData.emojiIconCallback then
-									getProxy(ChatProxy):addUsedEmojiIcon(uv1.id)
-									uv0.contextData.emojiIconCallback(uv1.id)
+							setParent(slot0, slot0, false)
+							onButton(slot0, slot0, function ()
+								if slot0.contextData.emojiIconCallback then
+									slot0 = getProxy(ChatProxy)
+
+									slot0:addUsedEmojiIcon(slot1.id)
+									slot0.contextData.emojiIconCallback(slot1.id)
 								end
 							end, SFX_PANEL)
 						end
@@ -248,54 +255,58 @@ function slot0.emojiIconFliter(slot0)
 			end)
 			slot17:align(#slot2)
 
-			GetComponent(slot0:findTF("AllIconContainer", slot10), "GridLayoutGroup").padding.left = 20
-			slot19 = UIItemList.New(slot14, slot0:findTF("Icon", slot14))
+			slot15.padding.left = 20
+			slot19 = UIItemList.New(slot14, slot18)
 
 			slot19:make(function (slot0, slot1, slot2)
-				slot3 = uv0[slot1 + 1]
+				slot3 = slot0[slot1 + 1]
 
 				if slot0 == UIItemList.EventUpdate then
 					PoolMgr.GetInstance():GetPrefab("emoji/" .. slot3.pic, slot3.pic, true, function (slot0)
-						if uv0 then
-							slot0.name = uv1.pic
+						if slot0 then
+							slot0.name = slot1.pic
 
-							setParent(slot0, uv0, false)
-							onButton(uv2, slot0, function ()
-								if uv0.contextData.emojiIconCallback then
-									getProxy(ChatProxy):addUsedEmojiIcon(uv1.id)
-									uv0.contextData.emojiIconCallback(uv1.id)
+							setParent(slot0, slot0, false)
+							onButton(slot0, slot0, function ()
+								if slot0.contextData.emojiIconCallback then
+									slot0 = getProxy(ChatProxy)
+
+									slot0:addUsedEmojiIcon(slot1.id)
+									slot0.contextData.emojiIconCallback(slot1.id)
 								end
 							end, SFX_PANEL)
 						end
 					end)
 				end
 			end)
-			slot19:align(uv0.True_Emoji_Num_Of_Page - uv0.Frequently_Used_Emoji_Num)
+			slot19:align(slot0.True_Emoji_Num_Of_Page - slot0.Frequently_Used_Emoji_Num)
 		else
-			slot16 = uv0.True_Emoji_Num_Of_Page - uv0.Frequently_Used_Emoji_Num
+			slot16 = slot0.True_Emoji_Num_Of_Page - slot0.Frequently_Used_Emoji_Num
 			slot15.padding.left = 60
-			slot19 = UIItemList.New(slot14, slot0:findTF("Icon", slot14))
+			slot19 = UIItemList.New(slot14, slot18)
 
 			slot19:make(function (slot0, slot1, slot2)
-				slot3 = uv0[slot1 + 1]
+				slot3 = slot0[slot1 + 1]
 
 				if slot0 == UIItemList.EventUpdate then
 					PoolMgr.GetInstance():GetPrefab("emoji/" .. slot3.pic, slot3.pic, true, function (slot0)
-						if uv0 then
-							slot0.name = uv1.pic
+						if slot0 then
+							slot0.name = slot1.pic
 
-							setParent(slot0, uv0, false)
-							onButton(uv2, slot0, function ()
-								if uv0.contextData.emojiIconCallback then
-									getProxy(ChatProxy):addUsedEmojiIcon(uv1.id)
-									uv0.contextData.emojiIconCallback(uv1.id)
+							setParent(slot0, slot0, false)
+							onButton(slot0, slot0, function ()
+								if slot0.contextData.emojiIconCallback then
+									slot0 = getProxy(ChatProxy)
+
+									slot0:addUsedEmojiIcon(slot1.id)
+									slot0.contextData.emojiIconCallback(slot1.id)
 								end
 							end, SFX_PANEL)
 						end
 					end)
 				end
 			end)
-			slot19:align(#_.slice(slot1, (slot9 - 2) * uv0.True_Emoji_Num_Of_Page + 9 + 1, uv0.True_Emoji_Num_Of_Page))
+			slot19:align(#_.slice(slot1, (slot9 - 2) * slot0.True_Emoji_Num_Of_Page + 9 + 1, slot0.True_Emoji_Num_Of_Page))
 		end
 
 		setActive(slot11, slot9 == 1)
@@ -318,19 +329,17 @@ function slot0.clearItem(slot0, slot1)
 				Destroy(slot1)
 			end
 
-			slot2 = slot0:GetChild(0).gameObject
-
-			PoolMgr.GetInstance():ReturnPrefab("emoji/" .. slot2.name, slot2.name, slot2)
+			PoolMgr.GetInstance():ReturnPrefab("emoji/" .. slot0:GetChild(0).gameObject.name, slot0.GetChild(0).gameObject.name, slot0.GetChild(0).gameObject)
 		end
 	end)
 end
 
 function slot0.willExit(slot0)
 	eachChild(slot0.emojiContent, function (slot0)
-		uv0:clearItem(slot0)
+		slot0:clearItem(slot0)
 	end)
 	_.each(slot0.tplCaches, function (slot0)
-		uv0:clearItem(slot0)
+		slot0:clearItem(slot0)
 	end)
 
 	slot0.etype = nil

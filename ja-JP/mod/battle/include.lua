@@ -341,3 +341,5 @@ require("Mod/Battle/View/Scene/BossSkillAlert")
 require("Mod/Battle/View/Scene/BattleMap")
 require("Mod/Battle/View/Scene/BattleEffectArea")
 require("Mod/Battle/View/Scene/BattleLaserEffect")
+
+return

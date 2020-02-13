@@ -8,34 +8,34 @@ function slot0.register(slot0)
 
 	if slot0.shipVO then
 		slot0.viewComponent:setShip(slot0.shipVO)
-		slot0.viewComponent:setSkinList(getProxy(ShipSkinProxy):getSkinList())
+		slot0.viewComponent:setSkinList(getProxy(ShipSkinProxy).getSkinList(slot1))
 	end
 
-	slot0:bind(uv0.CHANGE_SKIN, function (slot0, slot1, slot2)
-		slot6.shipId = slot1
-		slot6.skinId = slot2
-
-		uv0:sendNotification(GAME.SET_SHIP_SKIN, {})
+	slot0:bind(slot0.CHANGE_SKIN, function (slot0, slot1, slot2)
+		slot0:sendNotification(GAME.SET_SHIP_SKIN, {
+			shipId = slot1,
+			skinId = slot2
+		})
 	end)
-	slot0:bind(uv0.BUY_ITEM, function (slot0, slot1, slot2)
-		slot6.id = slot1
-		slot6.count = slot2
-
-		uv0:sendNotification(GAME.SHOPPING, {})
+	slot0:bind(slot0.BUY_ITEM, function (slot0, slot1, slot2)
+		slot0:sendNotification(GAME.SHOPPING, {
+			id = slot1,
+			count = slot2
+		})
 	end)
-	slot0:bind(uv0.UPDATE_SKINCONFIG, function (slot0, slot1)
-		slot5.skinId = slot1
-
-		uv0:sendNotification(GAME.UPDATE_SKINCONFIG, {})
+	slot0:bind(slot0.UPDATE_SKINCONFIG, function (slot0, slot1)
+		slot0:sendNotification(GAME.UPDATE_SKINCONFIG, {
+			skinId = slot1
+		})
 	end)
 end
 
 function slot0.listNotificationInterests(slot0)
-	slot1[1] = ShipSkinProxy.SHIP_SKINS_UPDATE
-	slot1[2] = GAME.SHOPPING_DONE
-	slot1[3] = BayProxy.SHIP_UPDATED
-
-	return {}
+	return {
+		ShipSkinProxy.SHIP_SKINS_UPDATE,
+		GAME.SHOPPING_DONE,
+		BayProxy.SHIP_UPDATED
+	}
 end
 
 function slot0.handleNotification(slot0, slot1)
@@ -43,25 +43,26 @@ function slot0.handleNotification(slot0, slot1)
 
 	if slot1:getName() == GAME.SHOPPING_DONE then
 		if slot3.awards and #slot3.awards > 0 then
-			slot7.items = slot3.awards
-
-			slot0.viewComponent:emit(BaseUI.ON_AWARD, {})
+			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
+				items = slot3.awards
+			})
 		end
 
 		if pg.shop_template[slot3.id] and slot4.genre == ShopArgs.SkinShop then
-			slot8.mediator = NewSkinMediator
-			slot8.viewComponent = NewSkinLayer
-			slot9.skinId = slot4.effect_args[1]
-			slot8.data = {}
-
-			slot0:addSubLayers(Context.New({}))
+			slot0:addSubLayers(Context.New({
+				mediator = NewSkinMediator,
+				viewComponent = NewSkinLayer,
+				data = {
+					skinId = slot4.effect_args[1]
+				}
+			}))
 		end
 	elseif slot2 == ShipSkinProxy.SHIP_SKINS_UPDATE then
-		slot0.viewComponent:setSkinList(getProxy(ShipSkinProxy):getSkinList())
+		slot0.viewComponent:setSkinList(getProxy(ShipSkinProxy).getSkinList(slot4))
 		slot0.viewComponent:openSelectSkinPanel()
 	elseif slot2 == BayProxy.SHIP_UPDATED and slot3.id == slot0.shipVO.id then
 		slot0.viewComponent:setShip(slot3)
-		slot0.viewComponent:setSkinList(getProxy(ShipSkinProxy):getSkinList())
+		slot0.viewComponent:setSkinList(getProxy(ShipSkinProxy).getSkinList(slot4))
 		slot0.viewComponent:openSelectSkinPanel()
 	end
 end

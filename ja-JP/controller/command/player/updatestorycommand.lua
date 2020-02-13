@@ -1,19 +1,18 @@
-slot0 = class("UpdateStoryCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("UpdateStoryCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot3 = slot1:getBody().storyId
 
-	if pg.ConnectionMgr.GetInstance():getConnection() then
-		if not pg.ConnectionMgr.GetInstance():isConnected() then
-			return
-		end
+	if not pg.ConnectionMgr.GetInstance():getConnection() or not pg.ConnectionMgr.GetInstance():isConnected() then
+		return
 	end
 
+	slot4 = 0
 	slot5 = 0
 
 	if getProxy(PlayerProxy) then
-		if (type(slot3) == "number" and slot3 or slot6:getData():getStoryIndexID(slot3)) > 0 then
-			slot7:addStory(0)
+		slot4 = (type(slot3) == "number" and slot3) or slot6:getData():getStoryIndexID(slot3)
+
+		if slot4 > 0 then
+			slot7:addStory(slot4)
 			slot6:updatePlayer(slot7)
 		end
 
@@ -24,18 +23,20 @@ function slot0.execute(slot0, slot1)
 	end
 
 	if slot4 > 0 then
-		slot10.story_id = slot4
-
-		pg.ConnectionMgr.GetInstance():Send(11017, {}, 11018, function (slot0)
+		pg.ConnectionMgr.GetInstance():Send(11017, {
+			story_id = slot4
+		}, 11018, function (slot0)
+			return
 		end)
 	end
 
 	if slot5 > 0 then
-		slot10.story_id = slot5
-
-		pg.ConnectionMgr.GetInstance():Send(11017, {}, 11018, function (slot0)
+		pg.ConnectionMgr.GetInstance():Send(11017, {
+			story_id = slot5
+		}, 11018, function (slot0)
+			return
 		end)
 	end
 end
 
-return slot0
+return class("UpdateStoryCommand", pm.SimpleCommand)

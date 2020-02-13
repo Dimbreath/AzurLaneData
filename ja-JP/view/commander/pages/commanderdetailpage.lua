@@ -5,7 +5,7 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.Ctor(slot0, slot1, slot2, slot3)
-	uv0.super.Ctor(slot0, slot1, slot2, slot3)
+	slot0.super.Ctor(slot0, slot1, slot2, slot3)
 	slot0:Load()
 end
 
@@ -45,26 +45,26 @@ function slot0.OnInit(slot0)
 	slot0.isOnSkill = false
 
 	onToggle(slot0, slot0.skillBtn, function (slot0)
-		uv0.isOnSkill = slot0
+		slot0.isOnSkill = slot0
 
-		uv0:Blur()
+		slot0:Blur()
 	end, SFX_PANEL)
 
 	slot0.isOnAddition = false
 
 	onToggle(slot0, slot0.additionBtn, function (slot0)
-		uv0.isOnAddition = slot0
-		uv0.statement.localScale = slot0 and Vector3(1, 1, 1) or Vector3(1, 0, 1)
+		slot0.isOnAddition = slot0
+		slot0.statement.localScale = (slot0 and Vector3(1, 1, 1)) or Vector3(1, 0, 1)
 
-		uv0:Blur()
+		slot0:Blur()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.modifyNameBtn, function ()
-		if not uv0.commanderVO:canModifyName() then
-			slot5.content = i18n("commander_rename_coldtime_tip", slot0:getRenameTimeDesc())
-
-			uv0:emit(CommandRoomMediator.SHOW_MSGBOX, {})
+		if not slot0.commanderVO:canModifyName() then
+			slot0:emit(CommandRoomMediator.SHOW_MSGBOX, {
+				content = i18n("commander_rename_coldtime_tip", slot0:getRenameTimeDesc())
+			})
 		else
-			uv0:emit(CommandRoomMediator.OPEN_RENAME_PANEL, slot0)
+			slot0:emit(CommandRoomMediator.OPEN_RENAME_PANEL, slot0)
 		end
 	end, SFX_PANEL)
 	slot0:Hide()
@@ -75,7 +75,7 @@ end
 function slot0.updateLockState(slot0)
 	setActive(slot0.lockTF:Find("image"), slot0.commanderVO:getLock() == 0)
 	onButton(slot0, slot0.lockTF, function ()
-		uv1:emit(CommandRoomMediator.ON_LOCK, uv1.commanderVO.id, 1 - uv0)
+		slot1:emit(CommandRoomMediator.ON_LOCK, slot1.commanderVO.id, 1 - slot0)
 	end, SFX_PANEL)
 end
 
@@ -84,16 +84,18 @@ function slot0.HideExp(slot0)
 end
 
 function slot0.Blur(slot0)
-	if slot0.isOnAddition or slot0.isOnSkill then
-		function (slot0)
-			uv0.blurFlag = slot0
+	function slot1(slot0)
+		slot0.blurFlag = slot0
 
-			if slot0 then
-				pg.UIMgr.GetInstance():BlurPanel(uv0.blurPanel)
-			else
-				pg.UIMgr.GetInstance():UnblurPanel(uv0.blurPanel, uv0.blurPanelParent)
-			end
-		end(true)
+		if slot0 then
+			pg.UIMgr.GetInstance():BlurPanel(slot0.blurPanel)
+		else
+			pg.UIMgr.GetInstance():UnblurPanel(slot0.blurPanel, slot0.blurPanelParent)
+		end
+	end
+
+	if slot0.isOnAddition or slot0.isOnSkill then
+		slot1(true)
 	else
 		slot1(false)
 	end
@@ -136,13 +138,11 @@ function slot0.updatePreviewAddition(slot0, slot1, slot2)
 end
 
 function slot0.UpdateInfo(slot0)
-	slot1 = slot0.commanderVO
+	LoadImageSpriteAsync("CommanderRarity/" .. slot2, slot0.rarityImg, true)
 
-	LoadImageSpriteAsync("CommanderRarity/" .. Commander.rarity2Print(slot1:getRarity()), slot0.rarityImg, true)
-
-	if slot1.fleetId then
+	if slot0.commanderVO.fleetId then
 		eachChild(slot0.fleetTF, function (slot0)
-			setActive(slot0, go(slot0).name == tostring(uv0.fleetId))
+			setActive(slot0, go(slot0).name == tostring(slot0.fleetId))
 		end)
 	end
 
@@ -154,8 +154,7 @@ function slot0.UpdateInfo(slot0)
 end
 
 function slot0.UpdateLevel(slot0, slot1)
-	slot2 = slot1 or slot0.commanderVO
-	slot0.commanderLevelTxt.text = setColorStr("LV." .. slot2.level, slot1 and slot0.commanderVO.level < slot1.level and COLOR_GREEN or COLOR_WHITE)
+	slot0.commanderLevelTxt.text = setColorStr("LV." .. slot1 or slot0.commanderVO.level, (slot1 and slot0.commanderVO.level < slot1.level and COLOR_GREEN) or COLOR_WHITE)
 
 	if slot2:isMaxLevel() then
 		slot0.commanderExpImg.fillAmount = 1
@@ -165,7 +164,7 @@ function slot0.UpdateLevel(slot0, slot1)
 end
 
 function slot0.updateAbilitys(slot0, slot1)
-	slot3 = slot0.commanderVO:getAbilitys()
+	slot3 = slot0.commanderVO.getAbilitys(slot2)
 	slot4 = nil
 
 	if slot1 then
@@ -180,22 +179,24 @@ function slot0.updateAbilitys(slot0, slot1)
 			slot11 = nil
 		end
 
-		setText(slot10:Find("add/base"), slot9.value)
-		setText(slot10:Find("add"), slot11 and setColorStr("+" .. slot11, COLOR_GREEN) or " ")
+		setText(slot13, slot9.value)
+		setText(slot10:Find("add"), (slot11 and setColorStr("+" .. slot11, COLOR_GREEN)) or " ")
 	end
 end
 
 function slot0.updateAbilityAddition(slot0, slot1, slot2)
-	slot4 = slot0.commanderVO:getAbilitysAddition()
+	slot4 = slot0.commanderVO.getAbilitysAddition(slot3)
 	slot5 = nil
 
 	if slot1 then
 		slot5 = slot1:getAbilitysAddition()
 	end
 
+	slot6 = 0
+
 	for slot10, slot11 in pairs(slot4) do
 		if slot11 > 0 then
-			slot12 = slot0.abilityAdditionTF:GetChild(0)
+			slot12 = slot0.abilityAdditionTF:GetChild(slot6)
 
 			GetImageSpriteFromAtlasAsync("attricon", slot10, slot12:Find("bg/icon"), false)
 			setText(slot12:Find("bg/name"), AttributeType.Type2Name(slot10))
@@ -204,7 +205,7 @@ function slot0.updateAbilityAddition(slot0, slot1, slot2)
 
 			setText(slot12:Find("bg/value"), "+" .. math.floor(slot11 * 1000) / 1000 .. "%")
 
-			slot14 = slot5 and slot5[slot10] or slot11
+			slot14 = (slot5 and slot5[slot10]) or slot11
 
 			if slot2 then
 				setActive(slot12:Find("up"), slot14 < slot11)
@@ -227,13 +228,13 @@ function slot0.updateTalents(slot0)
 
 	slot0.talentList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			uv0(uv1[slot1 + 1], slot2)
-			onButton(uv2, slot2, function ()
-				uv0:emit(CommandRoomMediator.ON_TREE_MSGBOX, uv1[uv2 + 1])
+			slot0(slot1[slot1 + 1], slot2)
+			onButton(slot2, slot2, function ()
+				slot0:emit(CommandRoomMediator.ON_TREE_MSGBOX, slot1[slot2 + 1])
 			end, SFX_PANEL)
 		end
 	end)
-	slot0.talentList:align(#slot0.commanderVO:getTalents())
+	slot0.talentList:align(#slot0.commanderVO.getTalents(slot2))
 end
 
 function slot0.updateTalentAddition(slot0, slot1, slot2)
@@ -241,27 +242,27 @@ function slot0.updateTalentAddition(slot0, slot1, slot2)
 
 	slot0.talentAdditionList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0[slot1 + 1]
+			slot3 = slot0[slot1 + 1]
 
-			if not uv1.talentAdditionTextList[slot1 + 1] then
-				uv1.talentAdditionTextList[slot1 + 1] = ScrollTxt.New(findTF(slot2, "bg/name_mask"), findTF(slot2, "bg/name_mask/name"), true)
+			if not slot1.talentAdditionTextList[slot1 + 1] then
+				slot1.talentAdditionTextList[slot1 + 1] = ScrollTxt.New(findTF(slot2, "bg/name_mask"), findTF(slot2, "bg/name_mask/name"), true)
 			end
 
-			uv1.talentAdditionTextList[slot1 + 1]:setText(slot3.name)
-			setText(slot2:Find("bg/value"), (slot3.value > 0 and "+" or "") .. slot3.value .. (slot3.type == CommanderConst.TALENT_ADDITION_RATIO and "%" or ""))
+			slot1.talentAdditionTextList[slot1 + 1]:setText(slot3.name)
+			setText(slot2:Find("bg/value"), ((slot3.value > 0 and "+") or "") .. slot3.value .. ((slot3.type == CommanderConst.TALENT_ADDITION_RATIO and "%") or ""))
 			setActive(slot2:Find("up"), false)
 			setActive(slot2:Find("down"), false)
 
 			slot2:Find("bg"):GetComponent(typeof(Image)).enabled = slot1 % 2 ~= 0
 		end
 	end)
-	slot0.talentAdditionList:align(#_.values(slot0.commanderVO:getTalentsDesc()))
+	slot0.talentAdditionList:align(#_.values(slot0.commanderVO.getTalentsDesc(slot3)))
 end
 
 function slot0.updateSkills(slot0)
-	GetImageSpriteFromAtlasAsync("commanderskillicon/" .. slot0.commanderVO:getSkills()[1]:getConfig("icon"), "", slot0.skillIcon)
+	GetImageSpriteFromAtlasAsync("commanderskillicon/" .. slot0.commanderVO.getSkills(slot1)[1].getConfig(slot3, "icon"), "", slot0.skillIcon)
 	onButton(slot0, slot0.skillIcon, function ()
-		uv0:emit(CommandRoomMediator.ON_CMD_SKILL, uv1)
+		slot0:emit(CommandRoomMediator.ON_CMD_SKILL, slot0)
 	end)
 end
 
