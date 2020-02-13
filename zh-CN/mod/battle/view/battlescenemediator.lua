@@ -74,19 +74,17 @@ function slot5.InitCharacterFactory(slot0)
 	slot1 = slot0._state:GetUI()
 
 	uv0.Battle.BattleHPBarManager.GetInstance():InitialPoolRoot(slot1:findTF(uv0.Battle.BattleHPBarManager.ROOT_NAME))
+	uv0.Battle.BattleArrowManager.GetInstance():Init(slot1:findTF(uv0.Battle.BattleArrowManager.ROOT_NAME))
 
-	slot2 = uv0.Battle.BattleArrowManager.GetInstance()
-
-	slot2:Init(slot1:findTF(uv0.Battle.BattleArrowManager.ROOT_NAME))
-
-	slot2[uv1.UnitType.PLAYER_UNIT] = uv0.Battle.BattlePlayerCharacterFactory.GetInstance()
-	slot2[uv1.UnitType.ENEMY_UNIT] = uv0.Battle.BattleEnemyCharacterFactory.GetInstance()
-	slot2[uv1.UnitType.BOSS_UNIT] = uv0.Battle.BattleBossCharacterFactory.GetInstance()
-	slot2[uv1.UnitType.NPC_UNIT] = uv0.Battle.BattleNPCCharacterFactory.GetInstance()
-	slot2[uv1.UnitType.AIRCRAFT_UNIT] = uv0.Battle.BattleAircraftCharacterFactory.GetInstance()
-	slot2[uv1.UnitType.AIRFIGHTER_UNIT] = uv0.Battle.BattleAirFighterCharacterFactory.GetInstance()
-	slot2[uv1.UnitType.SUB_UNIT] = uv0.Battle.BattleSubCharacterFactory.GetInstance()
-	slot0._characterFactoryList = {}
+	slot0._characterFactoryList = {
+		[uv1.UnitType.PLAYER_UNIT] = uv0.Battle.BattlePlayerCharacterFactory.GetInstance(),
+		[uv1.UnitType.ENEMY_UNIT] = uv0.Battle.BattleEnemyCharacterFactory.GetInstance(),
+		[uv1.UnitType.BOSS_UNIT] = uv0.Battle.BattleBossCharacterFactory.GetInstance(),
+		[uv1.UnitType.NPC_UNIT] = uv0.Battle.BattleNPCCharacterFactory.GetInstance(),
+		[uv1.UnitType.AIRCRAFT_UNIT] = uv0.Battle.BattleAircraftCharacterFactory.GetInstance(),
+		[uv1.UnitType.AIRFIGHTER_UNIT] = uv0.Battle.BattleAirFighterCharacterFactory.GetInstance(),
+		[uv1.UnitType.SUB_UNIT] = uv0.Battle.BattleSubCharacterFactory.GetInstance()
+	}
 end
 
 function slot5.InitPlayerAntiAirArea(slot0)

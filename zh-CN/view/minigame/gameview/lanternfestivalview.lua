@@ -38,12 +38,12 @@ function slot0.PackData(slot0)
 		slot5 = {}
 	end
 
-	slot6.finishCount = slot2.usedtime
-	slot6.unlockCount = slot2.count
-	slot6.nextTimes = slot4
-	slot6.finishList = slot5
-
-	return {}
+	return {
+		finishCount = slot2.usedtime,
+		unlockCount = slot2.count,
+		nextTimes = slot4,
+		finishList = slot5
+	}
 end
 
 function slot0.OnGetAwardDone(slot0, slot1)
@@ -51,11 +51,11 @@ function slot0.OnGetAwardDone(slot0, slot1)
 		slot2 = slot0:GetMGHubData()
 
 		if slot2.ultimate == 0 and slot2:getConfig("reward_need") <= slot2.usedtime then
-			slot9.hubid = slot2.id
-			slot9.cmd = MiniGameOPCommand.CMD_ULTIMATE
-			slot9.args1 = {}
-
-			pg.m02:sendNotification(GAME.SEND_MINI_GAME_OP, {})
+			pg.m02:sendNotification(GAME.SEND_MINI_GAME_OP, {
+				hubid = slot2.id,
+				cmd = MiniGameOPCommand.CMD_ULTIMATE,
+				args1 = {}
+			})
 		end
 	end
 end
