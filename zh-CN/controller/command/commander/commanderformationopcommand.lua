@@ -1,13 +1,10 @@
-slot0 = class("CommanderFormationOPCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
-	slot3 = slot1:getBody().data
-	slot4 = slot3.FleetType
+class("CommanderFormationOPCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	slot4 = slot1:getBody().data.FleetType
 	slot5 = getProxy(CommanderProxy)
 	slot6 = getProxy(ChapterProxy)
 	slot7 = getProxy(FleetProxy)
 
-	if slot3.data.type == LevelUIConst.COMMANDER_OP_RENAME then
+	if slot1.getBody().data.data.type == LevelUIConst.COMMANDER_OP_RENAME then
 		slot0:sendNotification(GAME.SET_COMMANDER_PREFAB_NAME, {
 			id = slot8.id,
 			name = slot8.str,
@@ -18,33 +15,34 @@ function slot0.execute(slot0, slot1)
 	end
 
 	if slot4 == LevelUIConst.FLEET_TYPE_SELECT then
+		slot9 = slot3.fleetId
 		slot10 = slot3.chapterId
 
 		if slot8.type == LevelUIConst.COMMANDER_OP_USE_PREFAB then
 			slot0:sendNotification(GAME.USE_COMMANDER_PREFBA, {
 				pid = slot8.id,
-				fleetId = slot3.fleetId
+				fleetId = slot9
 			})
 		elseif slot8.type == LevelUIConst.COMMANDER_OP_RECORD_PREFAB then
 			slot0:sendNotification(GAME.SET_COMMANDER_PREFAB, {
 				id = slot8.id,
-				commanders = slot7:getFleetById(slot9):getCommanders()
+				commanders = slot7:getFleetById(slot9).getCommanders(slot12)
 			})
 		elseif slot8.type == LevelUIConst.COMMANDER_OP_REST_ALL then
 			seriesAsync({
 				function (slot0)
-					uv0:sendNotification(GAME.COOMMANDER_EQUIP_TO_FLEET, {
+					slot0:sendNotification(GAME.COOMMANDER_EQUIP_TO_FLEET, {
 						commanderId = 0,
 						pos = 1,
-						fleetId = uv1,
+						fleetId = slot0.sendNotification,
 						callback = slot0
 					})
 				end,
 				function (slot0)
-					uv0:sendNotification(GAME.COOMMANDER_EQUIP_TO_FLEET, {
+					slot0:sendNotification(GAME.COOMMANDER_EQUIP_TO_FLEET, {
 						commanderId = 0,
 						pos = 2,
-						fleetId = uv1,
+						fleetId = slot0.sendNotification,
 						callback = slot0
 					})
 				end
@@ -57,7 +55,7 @@ function slot0.execute(slot0, slot1)
 	if slot4 == LevelUIConst.FLEET_TYPE_EDIT then
 		slot9 = slot3.index
 		slot10 = slot3.chapterId
-		slot12 = slot5:getPrefabFleetById(slot8.id)
+		slot12 = slot5:getPrefabFleetById(slot11)
 
 		if slot8.type == LevelUIConst.COMMANDER_OP_USE_PREFAB then
 			slot13 = {}
@@ -74,7 +72,7 @@ function slot0.execute(slot0, slot1)
 				end
 			end
 
-			if slot12:isSameId(slot6:getChapterById(slot10):getEliteFleetCommanders()[slot9]) then
+			if slot12:isSameId(slot6:getChapterById(slot10).getEliteFleetCommanders(slot14)[slot9]) then
 				return
 			end
 
@@ -102,16 +100,15 @@ function slot0.execute(slot0, slot1)
 		elseif slot8.type == LevelUIConst.COMMANDER_OP_RECORD_PREFAB then
 			slot13 = slot8.id
 
-			if table.getCount(slot6:getChapterById(slot10):getEliteFleetCommanders()[slot9]) == 0 then
+			if table.getCount(slot6:getChapterById(slot10).getEliteFleetCommanders(slot14)[slot9]) == 0 then
 				return
 			end
 
-			slot17 = {
-				[slot21] = slot23
-			}
+			slot17 = {}
 
 			for slot21 = 1, 2, 1 do
 				if slot5:getCommanderById(slot16[slot21]) then
+					slot17[slot21] = slot23
 				end
 			end
 
@@ -143,4 +140,4 @@ function slot0.execute(slot0, slot1)
 	end
 end
 
-return slot0
+return class("CommanderFormationOPCommand", pm.SimpleCommand)

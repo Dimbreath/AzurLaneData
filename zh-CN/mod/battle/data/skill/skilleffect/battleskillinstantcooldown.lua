@@ -1,11 +1,10 @@
 ys = ys or {}
-slot0 = ys
-slot1 = class("BattleSkillInstantCoolDown", slot0.Battle.BattleSkillEffect)
-slot0.Battle.BattleSkillInstantCoolDown = slot1
+slot1 = class("BattleSkillInstantCoolDown", ys.Battle.BattleSkillEffect)
+ys.Battle.BattleSkillInstantCoolDown = slot1
 slot1.__name = "BattleSkillInstantCoolDown"
 
 function slot1.Ctor(slot0, slot1)
-	uv0.super.Ctor(slot0, slot1, lv)
+	slot0.super.Ctor(slot0, slot1, lv)
 
 	slot0._weaponType = slot0._tempData.arg_list.weaponType
 end
@@ -29,3 +28,5 @@ function slot1._GetWeapon(slot0, slot1)
 
 	return slot2
 end
+
+return

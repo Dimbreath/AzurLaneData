@@ -343,3 +343,5 @@ require("Mod/Battle/View/Scene/BattleMap")
 require("Mod/Battle/View/Scene/BattleEffectArea")
 require("Mod/Battle/View/Scene/BattleLaserEffect")
 require("Mod/Battle/View/Scene/BattleArcEffect")
+
+return

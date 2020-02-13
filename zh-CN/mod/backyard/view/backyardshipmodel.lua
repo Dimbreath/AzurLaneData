@@ -1,434 +1,1682 @@
-slot0 = class("BackYardShipModel")
+slot0 = class
+slot1 = "BackYardShipModel"
+slot0 = slot0(slot1)
 slot1 = 0.5
 slot2 = 15
-slot3 = require("Mod/BackYard/view/BackYardTool")
-slot4 = {
-	{
-		"tuozhuai2",
-		1.4,
-		39126
-	},
-	{
-		"walk",
-		1.5,
-		100005
-	},
-	{
-		"dance",
-		10,
-		100005
-	},
-	{
-		"walk",
-		2,
-		100006
-	},
-	{
-		"stand2",
-		2,
-		100006
-	},
-	{
-		"dance",
-		2,
-		100006
-	},
-	{
-		"sit",
-		1.33,
-		46129
-	},
-	{
-		"sit",
-		4.333,
-		50124
-	},
-	{
-		"dance",
-		2,
-		100009
-	}
+slot3 = require
+slot4 = "Mod/BackYard/view/BackYardTool"
+slot3 = slot3(slot4)
+slot4 = {}
+slot5 = {
+	"tuozhuai2",
+	1.4,
+	39126
 }
+slot4[1] = slot5
+slot5 = {
+	"walk",
+	1.5,
+	100005
+}
+slot4[2] = slot5
+slot5 = {
+	"dance",
+	10,
+	100005
+}
+slot4[3] = slot5
+slot5 = {
+	"walk",
+	2,
+	100006
+}
+slot4[4] = slot5
+slot5 = {
+	"stand2",
+	2,
+	100006
+}
+slot4[5] = slot5
+slot5 = {
+	"dance",
+	2,
+	100006
+}
+slot4[6] = slot5
+slot5 = {
+	"sit",
+	1.33,
+	46129
+}
+slot4[7] = slot5
+slot5 = {
+	"sit",
+	4.333,
+	50124
+}
+slot4[8] = slot5
+slot5 = {
+	"dance",
+	2,
+	100009
+}
+slot4[9] = slot5
 
-function slot0.Ctor(slot0, slot1, slot2)
-	pg.DelegateInfo.New(slot0)
+function slot5(slot0, slot1, slot2)
+	slot3 = pg
+	slot3 = slot3.DelegateInfo
+	slot3 = slot3.New
+	slot4 = slot0
+
+	slot3(slot4)
 
 	slot0.go = slot1
-	slot0.tf = tf(slot1)
+	slot3 = tf
+	slot4 = slot1
+	slot3 = slot3(slot4)
+	slot0.tf = slot3
+	slot4 = slot0
+	slot3 = slot0.updateBoatVO
+	slot5 = slot2
 
-	slot0:updateBoatVO(slot2)
+	slot3(slot4, slot5)
 
-	slot0.cfg = pg.ship_data_statistics[slot0.boatVO.configId]
-	slot0.speed = slot0.cfg.backyard_speed
-	slot0.effectContainer = slot0.tf:Find("_effect_")
-	slot0.bodyMask = slot0.tf:Find("bodyMask")
+	slot3 = pg
+	slot3 = slot3.ship_data_statistics
+	slot4 = slot0.boatVO
+	slot4 = slot4.configId
+	slot3 = slot3[slot4]
+	slot0.cfg = slot3
+	slot3 = slot0.cfg
+	slot3 = slot3.backyard_speed
+	slot0.speed = slot3
+	slot3 = slot0.tf
+	slot4 = slot3
+	slot3 = slot3.Find
+	slot5 = "_effect_"
+	slot3 = slot3(slot4, slot5)
+	slot0.effectContainer = slot3
+	slot3 = slot0.tf
+	slot4 = slot3
+	slot3 = slot3.Find
+	slot5 = "bodyMask"
+	slot3 = slot3(slot4, slot5)
+	slot0.bodyMask = slot3
 end
 
-function slot0.updateBoatVO(slot0, slot1)
+slot0.Ctor = slot5
+
+function slot5(slot0, slot1)
 	slot0.boatVO = slot1
 end
 
-function slot0.onLoadSlotModel(slot0, slot1)
+slot0.updateBoatVO = slot5
+
+function slot5(slot0, slot1)
 	slot0.viewComponent = slot1
+	slot2 = pg
+	slot2 = slot2.ViewUtils
+	slot2 = slot2.SetLayer
+	slot3 = slot0.tf
+	slot4 = Layer
+	slot4 = slot4.UI
 
-	pg.ViewUtils.SetLayer(slot0.tf, Layer.UI)
+	slot2(slot3, slot4)
 
-	slot0.tf.localScale = Vector3(uv0, uv0, 1)
-	slot0.model = slot0.tf:Find("model")
-	slot0.model.localScale = Vector3(1, 1, 1)
-	slot0.floorGrid = slot1.floorContain
-	slot0.shipGridContainer = slot1.floorContain.parent:Find("ship_grid")
-	slot0.shipGrid = slot0.shipGridContainer:Find("grid")
-	slot0.shipGridImg = slot0.shipGrid:GetComponent(typeof(Image))
-	slot0.spineAnimUI = slot0.model:GetComponent("SpineAnimUI")
+	slot2 = slot0.tf
+	slot3 = Vector3
+	slot4 = slot0
+	slot5 = slot0
+	slot6 = 1
+	slot3 = slot3(slot4, slot5, slot6)
+	slot2.localScale = slot3
+	slot2 = slot0.tf
+	slot3 = slot2
+	slot2 = slot2.Find
+	slot4 = "model"
+	slot2 = slot2(slot3, slot4)
+	slot0.model = slot2
+	slot2 = slot0.model
+	slot3 = Vector3
+	slot4 = 1
+	slot5 = 1
+	slot6 = 1
+	slot3 = slot3(slot4, slot5, slot6)
+	slot2.localScale = slot3
+	slot2 = slot1.floorContain
+	slot0.floorGrid = slot2
+	slot2 = slot1.floorContain
+	slot2 = slot2.parent
+	slot3 = slot2
+	slot2 = slot2.Find
+	slot4 = "ship_grid"
+	slot2 = slot2(slot3, slot4)
+	slot0.shipGridContainer = slot2
+	slot2 = slot0.shipGridContainer
+	slot3 = slot2
+	slot2 = slot2.Find
+	slot4 = "grid"
+	slot2 = slot2(slot3, slot4)
+	slot0.shipGrid = slot2
+	slot2 = slot0.shipGrid
+	slot3 = slot2
+	slot2 = slot2.GetComponent
+	slot4 = typeof
+	slot5 = Image
+	slot2 = slot2(slot3, slot4(slot5))
+	slot0.shipGridImg = slot2
+	slot2 = slot0.model
+	slot3 = slot2
+	slot2 = slot2.GetComponent
+	slot4 = "SpineAnimUI"
+	slot2 = slot2(slot3, slot4)
+	slot0.spineAnimUI = slot2
+	slot2 = slot0.spineAnimUI
+	slot3 = slot2
+	slot2 = slot2.SetAction
+	slot4 = "stand2"
+	slot5 = 0
 
-	slot0.spineAnimUI:SetAction("stand2", 0)
+	slot2(slot3, slot4, slot5)
 
-	slot0.canvasGroup = GetOrAddComponent(slot0.go, "CanvasGroup")
-	slot0.chatTF = slot0.tf:Find("chat")
+	slot2 = GetOrAddComponent
+	slot3 = slot0.go
+	slot4 = "CanvasGroup"
+	slot2 = slot2(slot3, slot4)
+	slot0.canvasGroup = slot2
+	slot2 = slot0.tf
+	slot3 = slot2
+	slot2 = slot2.Find
+	slot4 = "chat"
+	slot2 = slot2(slot3, slot4)
+	slot0.chatTF = slot2
+	slot3 = slot0
+	slot2 = slot0.loadClick
 
-	slot0:loadClick()
-	slot0:loadExp()
-	slot0:loadInimacy()
-	slot0:loadMoeny()
-	slot0:loadShadow(slot1:findTF("bg/furContain/shadow"))
-	slot0.tf:SetParent(slot1.floorContain, false)
-	slot0:updateShadowTF(true)
-	slot0:updatePosition(slot0.boatVO:getPosition())
-	slot0:updateShadowPos()
-	slot0:addBoatDragListenter()
+	slot2(slot3)
 
-	slot0.actionCallback = {}
+	slot3 = slot0
+	slot2 = slot0.loadExp
+
+	slot2(slot3)
+
+	slot3 = slot0
+	slot2 = slot0.loadInimacy
+
+	slot2(slot3)
+
+	slot3 = slot0
+	slot2 = slot0.loadMoeny
+
+	slot2(slot3)
+
+	slot3 = slot0
+	slot2 = slot0.loadShadow
+	slot5 = slot1
+	slot4 = slot1.findTF
+	slot6 = "bg/furContain/shadow"
+
+	slot2(slot3, slot4(slot5, slot6))
+
+	slot2 = slot0.tf
+	slot3 = slot2
+	slot2 = slot2.SetParent
+	slot4 = slot1.floorContain
+	slot5 = false
+
+	slot2(slot3, slot4, slot5)
+
+	slot2 = slot0.boatVO
+	slot3 = slot2
+	slot2 = slot2.getPosition
+	slot2 = slot2(slot3)
+	slot4 = slot0
+	slot3 = slot0.updateShadowTF
+	slot5 = true
+
+	slot3(slot4, slot5)
+
+	slot4 = slot0
+	slot3 = slot0.updatePosition
+	slot5 = slot2
+
+	slot3(slot4, slot5)
+
+	slot4 = slot0
+	slot3 = slot0.updateShadowPos
+
+	slot3(slot4)
+
+	slot4 = slot0
+	slot3 = slot0.addBoatDragListenter
+
+	slot3(slot4)
+
+	slot3 = {}
+	slot0.actionCallback = slot3
 end
 
-function slot0.CancelInterAction(slot0)
-	SetParent(slot0.tf, slot0.floorGrid)
-	slot0:setAction("stand2")
+slot0.onLoadSlotModel = slot5
+
+function slot5(slot0)
+	slot1 = SetParent
+	slot2 = slot0.tf
+	slot3 = slot0.floorGrid
+
+	slot1(slot2, slot3)
+
+	slot2 = slot0
+	slot1 = slot0.setAction
+	slot3 = "stand2"
+
+	slot1(slot2, slot3)
 end
 
-function slot0.loadShadow(slot0, slot1)
-	slot0.shadowTF = slot0.tf:Find("shadow")
+slot0.CancelInterAction = slot5
 
-	setParent(slot0.shadowTF, slot1)
+function slot5(slot0, slot1)
+	slot2 = slot0.tf
+	slot3 = slot2
+	slot2 = slot2.Find
+	slot4 = "shadow"
+	slot2 = slot2(slot3, slot4)
+	slot0.shadowTF = slot2
+	slot2 = setParent
+	slot3 = slot0.shadowTF
+	slot4 = slot1
 
-	slot0.shadowTF.localPosition = slot0.tf.localPosition
+	slot2(slot3, slot4)
+
+	slot2 = slot0.shadowTF
+	slot3 = slot0.tf
+	slot3 = slot3.localPosition
+	slot2.localPosition = slot3
 end
 
-function slot0.showChat(slot0, slot1, slot2, slot3, slot4)
-	LeanTween.scale(tf(slot1), slot2, 0.5):setEase(LeanTweenType.easeOutBack):setDelay(slot3):setOnComplete(System.Action(function ()
-		uv0()
-	end))
+slot0.loadShadow = slot5
+
+function slot5(slot0, slot1, slot2, slot3, slot4)
+	slot5 = LeanTween
+	slot5 = slot5.scale
+	slot6 = tf
+	slot7 = slot1
+	slot6 = slot6(slot7)
+	slot7 = slot2
+	slot8 = 0.5
+	slot5 = slot5(slot6, slot7, slot8)
+	slot6 = slot5
+	slot5 = slot5.setEase
+	slot7 = LeanTweenType
+	slot7 = slot7.easeOutBack
+	slot5 = slot5(slot6, slot7)
+	slot6 = slot5
+	slot5 = slot5.setDelay
+	slot7 = slot3
+	slot5 = slot5(slot6, slot7)
+	slot6 = slot5
+	slot5 = slot5.setOnComplete
+	slot7 = System
+	slot7 = slot7.Action
+
+	function slot8()
+		slot0 = slot0
+
+		slot0()
+	end
+
+	slot5(slot6, slot7(slot8))
 end
 
-function slot0.loadClick(slot0)
-	slot0.clickTF = slot0.tf:Find("click")
+slot0.showChat = slot5
 
-	onButton(slot0, slot0.clickTF, function ()
-		if uv0.boatVO:hasInterActionFurnitrue() then
+function slot5(slot0)
+	slot1 = slot0.tf
+	slot2 = slot1
+	slot1 = slot1.Find
+	slot3 = "click"
+	slot1 = slot1(slot2, slot3)
+	slot0.clickTF = slot1
+	slot1 = onButton
+	slot2 = slot0
+	slot3 = slot0.clickTF
+
+	function slot4()
+		slot0 = slot0
+		slot0 = slot0.boatVO
+		slot1 = slot0
+		slot0 = slot0.hasInterActionFurnitrue
+		slot0 = slot0(slot1)
+
+		if slot0 then
 			return
 		end
 
-		if uv0.boatVO:hasSpineInterAction() then
+		slot0 = slot0
+		slot0 = slot0.boatVO
+		slot1 = slot0
+		slot0 = slot0.hasSpineInterAction
+		slot0 = slot0(slot1)
+
+		if slot0 then
 			return
 		end
 
-		if uv0.stageId or uv0.archId then
+		slot0 = slot0
+		slot0 = slot0.stageId
+
+		if not slot0 then
+			slot0 = slot0
+			slot0 = slot0.archId
+
+			if slot0 then
+				return
+			end
+		end
+
+		slot0 = slot0
+		slot0 = slot0.boatVO
+		slot1 = slot0
+		slot0 = slot0.hasSpineExtra
+		slot0 = slot0(slot1)
+
+		if slot0 then
 			return
 		end
 
-		if uv0.boatVO:hasSpineExtra() then
-			return
+		slot0 = playSoundEffect
+		slot1 = SFX_BOAT_CLICK
+
+		slot0(slot1)
+
+		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.switchAnimation
+		slot2 = "touch"
+
+		slot0(slot1, slot2)
+
+		slot0 = slot0
+		slot0 = slot0.inimacyTF
+		slot0 = slot0.gameObject
+		slot0 = slot0.activeSelf
+
+		if slot0 ~= true then
+			slot0 = slot0
+			slot0 = slot0.moneyTF
+			slot0 = slot0.gameObject
+			slot0 = slot0.activeSelf
+
+			if slot0 == true then
+				return
+			end
 		end
 
-		playSoundEffect(SFX_BOAT_CLICK)
-		uv0:switchAnimation("touch")
+		slot0 = setButtonEnabled
+		slot1 = slot0
+		slot1 = slot1.clickTF
+		slot2 = false
 
-		if uv0.inimacyTF.gameObject.activeSelf == true or uv0.moneyTF.gameObject.activeSelf == true then
-			return
+		slot0(slot1, slot2)
+
+		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.showChat
+		slot2 = slot0
+		slot2 = slot2.chatTF
+		slot3 = Vector3
+		slot4 = slot1
+		slot4 = 1 / slot4
+		slot5 = slot1
+		slot5 = 1 / slot5
+		slot3 = slot3(slot4, slot5)
+		slot4 = 0
+
+		function slot5()
+			slot0 = slot0
+			slot1 = slot0
+			slot0 = slot0.showChat
+			slot2 = slot0
+			slot2 = slot2.chatTF
+			slot3 = Vector3
+			slot4 = 0
+			slot5 = 0
+			slot6 = 0
+			slot3 = slot3(slot4, slot5, slot6)
+			slot4 = 2
+
+			function slot5()
+				slot0 = setButtonEnabled
+				slot1 = slot0
+				slot1 = slot1.clickTF
+				slot2 = true
+
+				slot0(slot1, slot2)
+			end
+
+			slot0(slot1, slot2, slot3, slot4, slot5)
 		end
 
-		setButtonEnabled(uv0.clickTF, false)
-		uv0:showChat(uv0.chatTF, Vector3(1 / uv1, 1 / uv1), 0, function ()
-			uv0:showChat(uv0.chatTF, Vector3(0, 0, 0), 2, function ()
-				setButtonEnabled(uv0.clickTF, true)
-			end)
-		end)
-	end)
+		slot0(slot1, slot2, slot3, slot4, slot5)
+	end
+
+	slot1(slot2, slot3, slot4)
 end
 
-function slot0.loadExp(slot0)
-	slot0.expTF = slot0.tf:Find("addition")
-	slot0.moneyAdditionTF = findTF(slot0.expTF, "money")
-	slot0.inimacyAdditionTF = findTF(slot0.expTF, "intimacy")
-	slot0.expAdditionTF = findTF(slot0.expTF, "exp")
+slot0.loadClick = slot5
 
-	slot0:changeInnerDir(1)
+function slot5(slot0)
+	slot1 = slot0.tf
+	slot2 = slot1
+	slot1 = slot1.Find
+	slot3 = "addition"
+	slot1 = slot1(slot2, slot3)
+	slot0.expTF = slot1
+	slot1 = findTF
+	slot2 = slot0.expTF
+	slot3 = "money"
+	slot1 = slot1(slot2, slot3)
+	slot0.moneyAdditionTF = slot1
+	slot1 = findTF
+	slot2 = slot0.expTF
+	slot3 = "intimacy"
+	slot1 = slot1(slot2, slot3)
+	slot0.inimacyAdditionTF = slot1
+	slot1 = findTF
+	slot2 = slot0.expTF
+	slot3 = "exp"
+	slot1 = slot1(slot2, slot3)
+	slot0.expAdditionTF = slot1
+	slot2 = slot0
+	slot1 = slot0.changeInnerDir
+	slot3 = 1
+
+	slot1(slot2, slot3)
 end
 
-function slot0.updateModelDir(slot0)
-	if slot0.spineFurniture then
+slot0.loadExp = slot5
+
+function slot5(slot0)
+	slot1 = slot0.spineFurniture
+
+	if slot1 then
 		slot1 = slot0.spineFurniture
+		slot2 = slot1
+		slot1 = slot1.getSpineAniScale
+		slot1 = slot1(slot2)
+		slot2 = slot0.spineFurniture
+		slot3 = slot2
+		slot2 = slot2.hasSpineShipBodyMask
+		slot2 = slot2(slot3)
 
-		if slot1:getSpineAniScale() then
-			slot0.model.localScale = Vector3(slot0.spineFurniture:hasSpineShipBodyMask() and slot0.spineFurniture.dir == 2 and slot1 * -1 or slot1, 1, 1)
+		if slot1 then
+			if slot2 then
+				slot3 = slot0.spineFurniture
+				slot3 = slot3.dir
+
+				if slot3 == 2 then
+					slot0.model.localScale = Vector3(slot1 * -1 or slot1, 1, 1)
+				end
+			end
 		end
 
 		if slot2 then
-			slot0:showBodyMask(slot0.spineFurniture:getSpineShipBodyMask(), slot0.spineFurniture.dir)
+			slot4 = slot0
+			slot3 = slot0.showBodyMask
+			slot5 = slot0.spineFurniture
+			slot6 = slot5
+			slot5 = slot5.getSpineShipBodyMask
+			slot5 = slot5(slot6)
+			slot6 = slot0.spineFurniture
+			slot6 = slot6.dir
+
+			slot3(slot4, slot5, slot6)
 		end
 	end
 end
 
-function slot0.changeInnerDir(slot0, slot1)
-	if slot0.bodyMask and go(slot0.bodyMask).activeSelf then
-		tf(slot0.bodyMask).localScale = Vector3(slot1, 1, 1)
+slot0.updateModelDir = slot5
+
+function slot5(slot0, slot1)
+	slot2 = slot0.bodyMask
+
+	if slot2 then
+		slot2 = go
+		slot3 = slot0.bodyMask
+		slot2 = slot2(slot3)
+		slot2 = slot2.activeSelf
+
+		if slot2 then
+			slot2 = tf
+			slot3 = slot0.bodyMask
+			slot2 = slot2(slot3)
+			slot3 = Vector3
+			slot4 = slot1
+			slot5 = 1
+			slot6 = 1
+			slot3 = slot3(slot4, slot5, slot6)
+			slot2.localScale = slot3
+		end
 	end
 end
 
-function slot0.loadInimacy(slot0)
-	slot0.inimacyTF = slot0.tf:Find("intimacy")
+slot0.changeInnerDir = slot5
 
-	floatAni(slot0.inimacyTF, 20, 1)
-	slot0:updateInimacy(slot0.boatVO:hasInimacy())
+function slot5(slot0)
+	slot1 = slot0.tf
+	slot2 = slot1
+	slot1 = slot1.Find
+	slot3 = "intimacy"
+	slot1 = slot1(slot2, slot3)
+	slot0.inimacyTF = slot1
+	slot1 = floatAni
+	slot2 = slot0.inimacyTF
+	slot3 = 20
+	slot4 = 1
+
+	slot1(slot2, slot3, slot4)
+
+	slot2 = slot0
+	slot1 = slot0.updateInimacy
+	slot3 = slot0.boatVO
+	slot4 = slot3
+	slot3 = slot3.hasInimacy
+
+	slot1(slot2, slot3(slot4))
 end
 
-function slot0.loadMoeny(slot0)
-	slot0.moneyTF = slot0.tf:Find("money")
-	slot0.moneyTF.localPosition = Vector2(145, 290)
-	slot0.moneyTF.localScale = Vector2(1 / uv0, 1 / uv0)
+slot0.loadInimacy = slot5
 
-	floatAni(slot0.moneyTF, 20, 1)
-	slot0:updateMoney(slot0.boatVO:hasMoney())
+function slot5(slot0)
+	slot1 = slot0.tf
+	slot2 = slot1
+	slot1 = slot1.Find
+	slot3 = "money"
+	slot1 = slot1(slot2, slot3)
+	slot0.moneyTF = slot1
+	slot1 = slot0.moneyTF
+	slot2 = Vector2
+	slot3 = 145
+	slot4 = 290
+	slot2 = slot2(slot3, slot4)
+	slot1.localPosition = slot2
+	slot1 = slot0.moneyTF
+	slot2 = Vector2
+	slot3 = slot0
+	slot3 = 1 / slot3
+	slot4 = slot0
+	slot4 = 1 / slot4
+	slot2 = slot2(slot3, slot4)
+	slot1.localScale = slot2
+	slot1 = floatAni
+	slot2 = slot0.moneyTF
+	slot3 = 20
+	slot4 = 1
+
+	slot1(slot2, slot3, slot4)
+
+	slot2 = slot0
+	slot1 = slot0.updateMoney
+	slot3 = slot0.boatVO
+	slot4 = slot3
+	slot3 = slot3.hasMoney
+
+	slot1(slot2, slot3(slot4))
 end
 
-function slot0.updateShadowPos(slot0)
-	if IsNil(slot0.shadowTF) then
+slot0.loadMoeny = slot5
+
+function slot5(slot0)
+	slot1 = IsNil
+	slot2 = slot0.shadowTF
+	slot1 = slot1(slot2)
+
+	if slot1 then
 		return
 	end
 
-	if slot0.archId then
-		slot0.shadowTF.localPosition = uv0.turnTransformLocalPos(slot0.tf.localPosition, slot0.viewComponent:GetFurnitureGo(slot0.archId):Find("childs"), slot0.floorGrid)
+	slot1 = slot0.archId
+
+	if slot1 then
+		slot1 = slot0.viewComponent
+		slot2 = slot1
+		slot1 = slot1.GetFurnitureGo
+		slot3 = slot0.archId
+		slot1 = slot1(slot2, slot3)
+		slot2 = slot0
+		slot2 = slot2.turnTransformLocalPos
+		slot3 = slot0.tf
+		slot3 = slot3.localPosition
+		slot5 = slot1
+		slot4 = slot1.Find
+		slot6 = "childs"
+		slot4 = slot4(slot5, slot6)
+		slot5 = slot0.floorGrid
+		slot2 = slot2(slot3, slot4, slot5)
+		slot3 = slot0.shadowTF
+		slot3.localPosition = slot2
 	else
-		slot0.shadowTF.localPosition = slot0.tf.localPosition
+		slot1 = slot0.shadowTF
+		slot2 = slot0.tf
+		slot2 = slot2.localPosition
+		slot1.localPosition = slot2
 	end
 end
 
-function slot0.updateShadowTF(slot0, slot1)
-	if IsNil(slot0.shadowTF) then
+slot0.updateShadowPos = slot5
+
+function slot5(slot0, slot1)
+	slot2 = IsNil
+	slot3 = slot0.shadowTF
+	slot2 = slot2(slot3)
+
+	if slot2 then
 		return
 	end
 
-	if not slot0.boatVO:hasInterActionFurnitrue() then
-		if not slot0.boatVO:hasSpineInterAction() then
-			if slot0.boatVO:inStageFurniture() then
-				setActive(slot0.shadowTF, false)
+	slot2 = slot0.boatVO
+	slot3 = slot2
+	slot2 = slot2.hasInterActionFurnitrue
+	slot2 = slot2(slot3)
+
+	if not slot2 then
+		slot2 = slot0.boatVO
+		slot3 = slot2
+		slot2 = slot2.hasSpineInterAction
+		slot2 = slot2(slot3)
+
+		if not slot2 then
+			slot2 = slot0.boatVO
+			slot3 = slot2
+			slot2 = slot2.inStageFurniture
+			slot2 = slot2(slot3)
+
+			if slot2 then
+				slot2 = setActive
+				slot3 = slot0.shadowTF
+				slot4 = false
+
+				slot2(slot3, slot4)
 			else
-				setActive(slot0.shadowTF, slot1)
+				slot2 = setActive
+				slot3 = slot0.shadowTF
+				slot4 = slot1
+
+				slot2(slot3, slot4)
 			end
 		end
 	end
 end
 
-function slot0.updateBottomGridPos(slot0, slot1)
-	if slot1 then
-		SetActive(slot0.shipGridContainer, true)
+slot0.updateShadowTF = slot5
 
-		slot0.shipGrid.localPosition = uv0.getLocalPos(slot1)
+function slot5(slot0, slot1)
+	if slot1 then
+		slot2 = SetActive
+		slot3 = slot0.shipGridContainer
+		slot4 = true
+
+		slot2(slot3, slot4)
+
+		slot2 = slot0
+		slot2 = slot2.getLocalPos
+		slot3 = slot1
+		slot2 = slot2(slot3)
+		slot3 = slot0.shipGrid
+		slot3.localPosition = slot2
 	end
 end
 
-function slot0.addBoatDragListenter(slot0)
-	slot1 = GetOrAddComponent(slot0.go, "EventTriggerListener")
+slot0.updateBottomGridPos = slot5
+
+function slot5(slot0)
+	slot1 = GetOrAddComponent
+	slot2 = slot0.go
+	slot3 = "EventTriggerListener"
+	slot1 = slot1(slot2, slot3)
 	slot0.dragTrigger = slot1
 	slot2 = nil
+	slot4 = slot1
+	slot3 = slot1.AddBeginDragFunc
 
-	slot1:AddBeginDragFunc(function (slot0, slot1)
-		if uv0.isInTransport then
+	function slot5(slot0, slot1)
+		slot2 = slot0
+		slot2 = slot2.isInTransport
+
+		if slot2 then
 			return
 		end
 
-		if uv0.viewComponent.zoom.pinching then
+		slot2 = slot0
+		slot2 = slot2.viewComponent
+		slot2 = slot2.zoom
+		slot2 = slot2.pinching
+
+		if slot2 then
 			return
 		end
 
-		if Input.touchCount > 1 then
+		slot2 = Input
+		slot2 = slot2.touchCount
+		slot3 = 1
+
+		if slot2 > slot3 then
 			return
 		end
 
-		uv0.viewComponent.dragShip = slot0
+		slot2 = slot0
+		slot2 = slot2.viewComponent
+		slot2.dragShip = slot0
+		slot2 = slot0
+		slot2 = slot2.viewComponent
+		slot3 = slot2
+		slot2 = slot2.enableZoom
+		slot4 = false
 
-		uv0.viewComponent:enableZoom(false)
-		playSoundEffect(SFX_BOAT_DRAG)
+		slot2(slot3, slot4)
 
-		uv1 = uv0.boatVO:getPosition()
-		uv0.isMove = nil
+		slot2 = playSoundEffect
+		slot3 = SFX_BOAT_DRAG
 
-		if uv0.boatVO:hasSpineInterAction() then
-			uv0:breakSpineAnim()
+		slot2(slot3)
+
+		slot2 = slot0
+		slot2 = slot2.boatVO
+		slot3 = slot2
+		slot2 = slot2.getPosition
+		slot2 = slot2(slot3)
+		slot1 = slot2
+		slot2 = slot0
+		slot3 = nil
+		slot2.isMove = slot3
+		slot2 = slot0
+		slot2 = slot2.boatVO
+		slot3 = slot2
+		slot2 = slot2.hasSpineInterAction
+		slot2 = slot2(slot3)
+
+		if slot2 then
+			slot2 = slot0
+			slot3 = slot2
+			slot2 = slot2.breakSpineAnim
+
+			slot2(slot3)
 		end
 
-		if uv0.boatVO:hasSpineExtra() then
-			uv0.viewComponent:emit(BackyardMainMediator.ON_CLEAR_SPINR_EXTRA, uv0.boatVO.id, uv0.boatVO.spineExtra)
+		slot2 = slot0
+		slot2 = slot2.boatVO
+		slot3 = slot2
+		slot2 = slot2.hasSpineExtra
+		slot2 = slot2(slot3)
+
+		if slot2 then
+			slot2 = slot0
+			slot2 = slot2.viewComponent
+			slot3 = slot2
+			slot2 = slot2.emit
+			slot4 = BackyardMainMediator
+			slot4 = slot4.ON_CLEAR_SPINR_EXTRA
+			slot5 = slot0
+			slot5 = slot5.boatVO
+			slot5 = slot5.id
+			slot6 = slot0
+			slot6 = slot6.boatVO
+			slot6 = slot6.spineExtra
+
+			slot2(slot3, slot4, slot5, slot6)
 		end
 
-		if uv0.boatVO:hasInterActionFurnitrue() then
-			uv0:clearInterAction()
+		slot2 = slot0
+		slot2 = slot2.boatVO
+		slot3 = slot2
+		slot2 = slot2.hasInterActionFurnitrue
+		slot2 = slot2(slot3)
+
+		if slot2 then
+			slot2 = slot0
+			slot3 = slot2
+			slot2 = slot2.clearInterAction
+
+			slot2(slot3)
 		end
 
-		uv0.spineAnimUI:SetAction("tuozhuai2", 0)
-		uv0:closeBodyMask()
-		uv0.viewComponent:emit(BackyardMainMediator.CANCEL_SHIP_MOVE, uv0.boatVO.id)
-		uv0:removeItem()
-		SetParent(uv0.tf, uv0.floorGrid)
-		tf(uv0.go):SetAsLastSibling()
-		uv0:changeInnerDir(Mathf.Sign(uv0.tf.localScale.x))
-		uv0:changeGridColor(BackYardConst.BACKYARD_GREEN)
-		uv0:updateBottomGridPos(uv0.boatVO:getPosition())
-		uv0:updateShadowPos()
-	end)
-	slot1:AddDragFunc(function (slot0, slot1)
-		if uv0.viewComponent.dragShip == slot0 then
-			slot3 = uv1.getMapPos(uv1.change2ScrPos(uv0.floorGrid, slot1.position))
-			slot4 = uv1.getLocalPos(slot3)
-			tf(uv0.go).localPosition = Vector3(slot4.x, slot4.y + uv2, 0)
+		slot2 = slot0
+		slot2 = slot2.spineAnimUI
+		slot3 = slot2
+		slot2 = slot2.SetAction
+		slot4 = "tuozhuai2"
+		slot5 = 0
 
-			uv0:updateShadowPos()
+		slot2(slot3, slot4, slot5)
 
-			slot5, slot6 = uv0.viewComponent.houseVO:canMoveBoat(uv0.boatVO.id, slot3)
-			slot7 = uv0.viewComponent.furnitureVOs[slot6]
+		slot2 = slot0
+		slot3 = slot2
+		slot2 = slot2.closeBodyMask
 
-			uv0:changeGridColor((slot5 or slot7 and slot7:canTriggerInteraction()) and BackYardConst.BACKYARD_GREEN or BackYardConst.BACKYARD_RED)
-			uv0:updateBottomGridPos(slot3)
-		end
-	end)
-	slot1:AddDragEndFunc(function (slot0, slot1)
-		if uv0.viewComponent.dragShip == slot0 then
-			uv0.viewComponent.dragShip = nil
+		slot2(slot3)
 
-			uv0.viewComponent:enableZoom(true)
-			uv0:endDrag(uv2, uv1.getMapPos(uv1.change2ScrPos(uv0.floorGrid, slot1.position)))
-			uv0:updateShadowPos()
-			playSoundEffect(SFX_BOAT_DRAG)
-		end
-	end)
-end
+		slot2 = slot0
+		slot2 = slot2.viewComponent
+		slot3 = slot2
+		slot2 = slot2.emit
+		slot4 = BackyardMainMediator
+		slot4 = slot4.CANCEL_SHIP_MOVE
+		slot5 = slot0
+		slot5 = slot5.boatVO
+		slot5 = slot5.id
 
-function slot0.endDrag(slot0, slot1, slot2)
-	slot3 = slot0.viewComponent.houseVO
-	slot4, slot5 = slot3:canPutShip(slot0.boatVO.id, slot2)
+		slot2(slot3, slot4, slot5)
 
-	if slot3:getArchByPos(slot2) and (slot6:canInterAction() or slot6:canInterActionSpine()) and slot6:canInterActionShipGroup(slot0.boatVO.gruopId) then
-		slot0:triggerInterAction(slot1, slot6.id)
-	elseif not slot4 then
-		slot0:triggerInterAction(slot1, slot5)
-	else
-		slot0:clearStage()
+		slot2 = slot0
+		slot3 = slot2
+		slot2 = slot2.removeItem
 
-		slot7 = uv0.getLocalPos(slot2)
-		tf(slot0.go).localPosition = Vector3(slot7.x, slot7.y + uv1, 0)
-		slot0.isMove = nil
+		slot2(slot3)
 
-		SetActive(slot0.shipGridContainer, false)
-		slot0.spineAnimUI:SetAction("stand2", 0)
-		slot0:changeInnerDir(Mathf.Sign(slot0.tf.localScale.x))
-		slot0.viewComponent:emit(BackyardMainMediator.END_DRAG_SHIP, slot0.boatVO.id, slot2)
-		slot0:updateShadowTF(true)
+		slot2 = SetParent
+		slot3 = slot0
+		slot3 = slot3.tf
+		slot4 = slot0
+		slot4 = slot4.floorGrid
+
+		slot2(slot3, slot4)
+
+		slot2 = tf
+		slot3 = slot0
+		slot3 = slot3.go
+		slot2 = slot2(slot3)
+		slot3 = slot2
+		slot2 = slot2.SetAsLastSibling
+
+		slot2(slot3)
+
+		slot2 = slot0
+		slot3 = slot2
+		slot2 = slot2.changeInnerDir
+		slot4 = Mathf
+		slot4 = slot4.Sign
+		slot5 = slot0
+		slot5 = slot5.tf
+		slot5 = slot5.localScale
+		slot5 = slot5.x
+
+		slot2(slot3, slot4(slot5))
+
+		slot2 = slot0
+		slot3 = slot2
+		slot2 = slot2.changeGridColor
+		slot4 = BackYardConst
+		slot4 = slot4.BACKYARD_GREEN
+
+		slot2(slot3, slot4)
+
+		slot2 = slot0
+		slot3 = slot2
+		slot2 = slot2.updateBottomGridPos
+		slot4 = slot0
+		slot4 = slot4.boatVO
+		slot5 = slot4
+		slot4 = slot4.getPosition
+
+		slot2(slot3, slot4(slot5))
+
+		slot2 = slot0
+		slot3 = slot2
+		slot2 = slot2.updateShadowPos
+
+		slot2(slot3)
 	end
 
-	if slot0.save then
-		slot0.viewComponent:emit(BackyardMainMediator.SAVE_FURNITURE, false)
-	end
+	slot3(slot4, slot5)
 
-	slot0.save = nil
-end
+	slot4 = slot1
+	slot3 = slot1.AddDragFunc
 
-function slot0.triggerInterAction(slot0, slot1, slot2)
-	slot5 = slot0.viewComponent.furnitureVOs[slot2]
+	function slot5(slot0, slot1)
+		slot2 = slot0
+		slot2 = slot2.viewComponent
+		slot2 = slot2.dragShip
 
-	if slot2 and slot5:isTransPort() and slot5:canInterActionShipGroup(slot0.boatVO.gruopId) and not slot5:isLock() then
-		slot0:clearStage()
-		slot0.viewComponent:emit(BackyardMainMediator.INTERACTION_TRANSPORT, slot0.boatVO.id, slot5.id)
-	elseif slot2 and slot5:canInterActionShipGroup(slot4.gruopId) and slot5:isInterActionSpine() and slot5:canInterActionSpine() and not slot5:isTransPort() then
-		slot0:clearStage()
-		slot0.viewComponent:emit(BackyardMainMediator.INTERACTION_SPINE, slot0.boatVO.id, slot5.id)
-	elseif slot2 and slot5:canInterActionShipGroup(slot4.gruopId) and slot5:isInterActionSpine() and slot5:canInterActionSpineExtra() and not slot5:isTransPort() then
-		slot0:clearStage()
-		slot0.viewComponent:emit(BackyardMainMediator.ON_SPINE_EXTRA, slot4.id, slot2)
-	elseif slot2 and slot5:canInterActionShipGroup(slot4.gruopId) and slot5:canInterAction() then
-		slot0:clearStage()
+		if slot2 == slot0 then
+			slot2 = slot1
+			slot2 = slot2.change2ScrPos
+			slot3 = slot0
+			slot3 = slot3.floorGrid
+			slot4 = slot1.position
+			slot2 = slot2(slot3, slot4)
+			slot3 = slot1
+			slot3 = slot3.getMapPos
+			slot4 = slot2
+			slot3 = slot3(slot4)
+			slot4 = slot1
+			slot4 = slot4.getLocalPos
+			slot5 = slot3
+			slot4 = slot4(slot5)
+			slot5 = tf
+			slot6 = slot0
+			slot6 = slot6.go
+			slot5 = slot5(slot6)
+			slot6 = Vector3
+			slot7 = slot4.x
+			slot8 = slot4.y
+			slot9 = slot2
+			slot8 = slot8 + slot9
+			slot9 = 0
+			slot6 = slot6(slot7, slot8, slot9)
+			slot5.localPosition = slot6
+			slot5 = slot0
+			slot6 = slot5
+			slot5 = slot5.updateShadowPos
 
-		if slot4:hasInterActionFurnitrue() and slot2 == slot4:getInterActionFurnitrueId() then
-			slot0:updateInterActionPos(slot5, slot5:getOrderByShipId(slot4.id))
-			slot0:InterActionSortSibling(slot2)
-		else
-			slot0.viewComponent:emit(BackyardMainMediator.INTERACTION, slot4.id, slot2)
-		end
-	elseif slot2 and slot5:canInterActionShipGroup(slot4.gruopId) and slot5:isStageFurniture() then
-		slot0:clearStage()
-		slot0.spineAnimUI:SetAction("stand2", 0)
-		slot0.viewComponent:emit(BackyardMainMediator.INTERACTION_STAGE, slot0.boatVO.id, slot5.id)
-		SetActive(slot0.shipGridContainer, false)
-	elseif slot4:hasInterActionFurnitrue() then
-		slot0:clearStage()
+			slot5(slot6)
 
-		slot6 = slot4:getInterActionFurnitrueId()
+			slot5 = slot0
+			slot5 = slot5.viewComponent
+			slot5 = slot5.houseVO
+			slot6 = slot5
+			slot5 = slot5.canMoveBoat
+			slot7 = slot0
+			slot7 = slot7.boatVO
+			slot7 = slot7.id
+			slot8 = slot3
+			slot5, slot6 = slot5(slot6, slot7, slot8)
+			slot7 = slot0
+			slot7 = slot7.viewComponent
+			slot7 = slot7.furnitureVOs
+			slot7 = slot7[slot6]
 
-		slot0:updateInterActionPos(slot3[slot6], slot3[slot6]:getOrderByShipId(slot4.id))
-		slot0:InterActionSortSibling(slot6)
-	elseif slot4:inStageFurniture() then
-		slot0:updateStageInterAction(slot4:getPosition())
-		SetActive(slot0.shipGridContainer, false)
-	else
-		slot6 = nil
+			if not slot5 and slot7 then
+				slot9 = slot7
+				slot8 = slot7.canTriggerInteraction
+				slot8 = slot8(slot9)
+			end
 
-		for slot10, slot11 in pairs(slot3) do
-			for slot16, slot17 in pairs(slot11:getOccupyGrid(slot11:getPosition())) do
-				if slot17.x == slot1.x and slot17.y == slot1.y then
-					slot6 = slot11
+			if slot8 then
+				slot9 = BackYardConst
+				slot9 = slot9.BACKYARD_GREEN
 
-					break
+				if not slot9 then
+					slot9 = BackYardConst
+					slot9 = slot9.BACKYARD_RED
 				end
 			end
 
-			if slot6 then
-				break
+			slot10 = slot0
+			slot11 = slot10
+			slot10 = slot10.changeGridColor
+			slot12 = slot9
+
+			slot10(slot11, slot12)
+
+			slot10 = slot0
+			slot11 = slot10
+			slot10 = slot10.updateBottomGridPos
+			slot12 = slot3
+
+			slot10(slot11, slot12)
+		end
+	end
+
+	slot3(slot4, slot5)
+
+	slot4 = slot1
+	slot3 = slot1.AddDragEndFunc
+
+	function slot5(slot0, slot1)
+		slot2 = slot0
+		slot2 = slot2.viewComponent
+		slot2 = slot2.dragShip
+
+		if slot2 == slot0 then
+			slot2 = slot0
+			slot2 = slot2.viewComponent
+			slot3 = nil
+			slot2.dragShip = slot3
+			slot2 = slot0
+			slot2 = slot2.viewComponent
+			slot3 = slot2
+			slot2 = slot2.enableZoom
+			slot4 = true
+
+			slot2(slot3, slot4)
+
+			slot2 = slot1
+			slot2 = slot2.change2ScrPos
+			slot3 = slot0
+			slot3 = slot3.floorGrid
+			slot4 = slot1.position
+			slot2 = slot2(slot3, slot4)
+			slot3 = slot1
+			slot3 = slot3.getMapPos
+			slot4 = slot2
+			slot3 = slot3(slot4)
+			slot4 = slot0
+			slot5 = slot4
+			slot4 = slot4.endDrag
+			slot6 = slot2
+			slot7 = slot3
+
+			slot4(slot5, slot6, slot7)
+
+			slot4 = slot0
+			slot5 = slot4
+			slot4 = slot4.updateShadowPos
+
+			slot4(slot5)
+
+			slot4 = playSoundEffect
+			slot5 = SFX_BOAT_DRAG
+
+			slot4(slot5)
+		end
+	end
+
+	slot3(slot4, slot5)
+end
+
+slot0.addBoatDragListenter = slot5
+
+function slot5(slot0, slot1, slot2)
+	slot3 = slot0.viewComponent
+	slot3 = slot3.houseVO
+	slot5 = slot3
+	slot4 = slot3.canPutShip
+	slot6 = slot0.boatVO
+	slot6 = slot6.id
+	slot7 = slot2
+	slot4, slot5 = slot4(slot5, slot6, slot7)
+	slot7 = slot3
+	slot6 = slot3.getArchByPos
+	slot8 = slot2
+	slot6 = slot6(slot7, slot8)
+
+	if slot6 then
+		slot8 = slot6
+		slot7 = slot6.canInterAction
+		slot7 = slot7(slot8)
+
+		if not slot7 then
+			slot8 = slot6
+			slot7 = slot6.canInterActionSpine
+			slot7 = slot7(slot8)
+
+			if slot7 then
+				slot8 = slot6
+				slot7 = slot6.canInterActionShipGroup
+				slot9 = slot0.boatVO
+				slot9 = slot9.gruopId
+				slot7 = slot7(slot8, slot9)
+
+				if slot7 then
+					slot8 = slot0
+					slot7 = slot0.triggerInterAction
+					slot9 = slot1
+					slot10 = slot6.id
+
+					slot7(slot8, slot9, slot10)
+				end
 			end
 		end
+	elseif not slot4 then
+		slot8 = slot0
+		slot7 = slot0.triggerInterAction
+		slot9 = slot1
+		slot10 = slot5
 
-		if slot6 and slot6:canInterActionShipGroup(slot4.gruopId) and slot6:isInterActionSpine() and slot6:canInterActionSpine() then
-			if slot6:isMoveable() then
-				slot0.save = nil
+		slot7(slot8, slot9, slot10)
+	else
+		slot8 = slot0
+		slot7 = slot0.clearStage
+
+		slot7(slot8)
+
+		slot7 = slot0
+		slot7 = slot7.getLocalPos
+		slot8 = slot2
+		slot7 = slot7(slot8)
+		slot8 = tf
+		slot9 = slot0.go
+		slot8 = slot8(slot9)
+		slot9 = Vector3
+		slot10 = slot7.x
+		slot11 = slot7.y
+		slot12 = slot1
+		slot11 = slot11 + slot12
+		slot12 = 0
+		slot9 = slot9(slot10, slot11, slot12)
+		slot8.localPosition = slot9
+		slot8 = nil
+		slot0.isMove = slot8
+		slot8 = SetActive
+		slot9 = slot0.shipGridContainer
+		slot10 = false
+
+		slot8(slot9, slot10)
+
+		slot8 = slot0.spineAnimUI
+		slot9 = slot8
+		slot8 = slot8.SetAction
+		slot10 = "stand2"
+		slot11 = 0
+
+		slot8(slot9, slot10, slot11)
+
+		slot9 = slot0
+		slot8 = slot0.changeInnerDir
+		slot10 = Mathf
+		slot10 = slot10.Sign
+		slot11 = slot0.tf
+		slot11 = slot11.localScale
+		slot11 = slot11.x
+
+		slot8(slot9, slot10(slot11))
+
+		slot8 = slot0.viewComponent
+		slot9 = slot8
+		slot8 = slot8.emit
+		slot10 = BackyardMainMediator
+		slot10 = slot10.END_DRAG_SHIP
+		slot11 = slot0.boatVO
+		slot11 = slot11.id
+		slot12 = slot2
+
+		slot8(slot9, slot10, slot11, slot12)
+
+		slot9 = slot0
+		slot8 = slot0.updateShadowTF
+		slot10 = true
+
+		slot8(slot9, slot10)
+	end
+
+	slot7 = slot0.save
+
+	if slot7 then
+		slot7 = slot0.viewComponent
+		slot8 = slot7
+		slot7 = slot7.emit
+		slot9 = BackyardMainMediator
+		slot9 = slot9.SAVE_FURNITURE
+		slot10 = false
+
+		slot7(slot8, slot9, slot10)
+	end
+
+	slot7 = nil
+	slot0.save = slot7
+end
+
+slot0.endDrag = slot5
+
+function slot5(slot0, slot1, slot2)
+	slot3 = slot0.viewComponent
+	slot3 = slot3.furnitureVOs
+	slot4 = slot0.boatVO
+	slot5 = slot3[slot2]
+
+	if slot2 then
+		slot7 = slot5
+		slot6 = slot5.isTransPort
+		slot6 = slot6(slot7)
+
+		if slot6 then
+			slot7 = slot5
+			slot6 = slot5.canInterActionShipGroup
+			slot8 = slot4.gruopId
+			slot6 = slot6(slot7, slot8)
+
+			if slot6 then
+				slot7 = slot5
+				slot6 = slot5.isLock
+				slot6 = slot6(slot7)
+
+				if not slot6 then
+					slot7 = slot0
+					slot6 = slot0.clearStage
+
+					slot6(slot7)
+
+					slot6 = slot0.viewComponent
+					slot7 = slot6
+					slot6 = slot6.emit
+					slot8 = BackyardMainMediator
+					slot8 = slot8.INTERACTION_TRANSPORT
+					slot9 = slot0.boatVO
+					slot9 = slot9.id
+					slot10 = slot5.id
+
+					slot6(slot7, slot8, slot9, slot10)
+				end
 			end
+		end
+	elseif slot2 then
+		slot7 = slot5
+		slot6 = slot5.canInterActionShipGroup
+		slot8 = slot4.gruopId
+		slot6 = slot6(slot7, slot8)
 
-			slot0.viewComponent:emit(BackyardMainMediator.INTERACTION_SPINE, slot0.boatVO.id, slot6.id)
+		if slot6 then
+			slot7 = slot5
+			slot6 = slot5.isInterActionSpine
+			slot6 = slot6(slot7)
+
+			if slot6 then
+				slot7 = slot5
+				slot6 = slot5.canInterActionSpine
+				slot6 = slot6(slot7)
+
+				if slot6 then
+					slot7 = slot5
+					slot6 = slot5.isTransPort
+					slot6 = slot6(slot7)
+
+					if not slot6 then
+						slot7 = slot0
+						slot6 = slot0.clearStage
+
+						slot6(slot7)
+
+						slot6 = slot0.viewComponent
+						slot7 = slot6
+						slot6 = slot6.emit
+						slot8 = BackyardMainMediator
+						slot8 = slot8.INTERACTION_SPINE
+						slot9 = slot0.boatVO
+						slot9 = slot9.id
+						slot10 = slot5.id
+
+						slot6(slot7, slot8, slot9, slot10)
+					end
+				end
+			end
+		end
+	elseif slot2 then
+		slot7 = slot5
+		slot6 = slot5.canInterActionShipGroup
+		slot8 = slot4.gruopId
+		slot6 = slot6(slot7, slot8)
+
+		if slot6 then
+			slot7 = slot5
+			slot6 = slot5.isInterActionSpine
+			slot6 = slot6(slot7)
+
+			if slot6 then
+				slot7 = slot5
+				slot6 = slot5.canInterActionSpineExtra
+				slot6 = slot6(slot7)
+
+				if slot6 then
+					slot7 = slot5
+					slot6 = slot5.isTransPort
+					slot6 = slot6(slot7)
+
+					if not slot6 then
+						slot7 = slot0
+						slot6 = slot0.clearStage
+
+						slot6(slot7)
+
+						slot6 = slot0.viewComponent
+						slot7 = slot6
+						slot6 = slot6.emit
+						slot8 = BackyardMainMediator
+						slot8 = slot8.ON_SPINE_EXTRA
+						slot9 = slot4.id
+						slot10 = slot2
+
+						slot6(slot7, slot8, slot9, slot10)
+					end
+				end
+			end
+		end
+	elseif slot2 then
+		slot7 = slot5
+		slot6 = slot5.canInterActionShipGroup
+		slot8 = slot4.gruopId
+		slot6 = slot6(slot7, slot8)
+
+		if slot6 then
+			slot7 = slot5
+			slot6 = slot5.canInterAction
+			slot6 = slot6(slot7)
+
+			if slot6 then
+				slot7 = slot0
+				slot6 = slot0.clearStage
+
+				slot6(slot7)
+
+				slot7 = slot4
+				slot6 = slot4.hasInterActionFurnitrue
+				slot6 = slot6(slot7)
+
+				if slot6 then
+					slot7 = slot4
+					slot6 = slot4.getInterActionFurnitrueId
+					slot6 = slot6(slot7)
+
+					if slot2 == slot6 then
+						slot7 = slot5
+						slot6 = slot5.getOrderByShipId
+						slot8 = slot4.id
+						slot6 = slot6(slot7, slot8)
+						slot8 = slot0
+						slot7 = slot0.updateInterActionPos
+						slot9 = slot5
+						slot10 = slot6
+
+						slot7(slot8, slot9, slot10)
+
+						slot8 = slot0
+						slot7 = slot0.InterActionSortSibling
+						slot9 = slot2
+
+						slot7(slot8, slot9)
+					end
+				else
+					slot6 = slot0.viewComponent
+					slot7 = slot6
+					slot6 = slot6.emit
+					slot8 = BackyardMainMediator
+					slot8 = slot8.INTERACTION
+					slot9 = slot4.id
+					slot10 = slot2
+
+					slot6(slot7, slot8, slot9, slot10)
+				end
+			end
+		end
+	elseif slot2 then
+		slot7 = slot5
+		slot6 = slot5.canInterActionShipGroup
+		slot8 = slot4.gruopId
+		slot6 = slot6(slot7, slot8)
+
+		if slot6 then
+			slot7 = slot5
+			slot6 = slot5.isStageFurniture
+			slot6 = slot6(slot7)
+
+			if slot6 then
+				slot7 = slot0
+				slot6 = slot0.clearStage
+
+				slot6(slot7)
+
+				slot6 = slot0.spineAnimUI
+				slot7 = slot6
+				slot6 = slot6.SetAction
+				slot8 = "stand2"
+				slot9 = 0
+
+				slot6(slot7, slot8, slot9)
+
+				slot6 = slot0.viewComponent
+				slot7 = slot6
+				slot6 = slot6.emit
+				slot8 = BackyardMainMediator
+				slot8 = slot8.INTERACTION_STAGE
+				slot9 = slot0.boatVO
+				slot9 = slot9.id
+				slot10 = slot5.id
+
+				slot6(slot7, slot8, slot9, slot10)
+
+				slot6 = SetActive
+				slot7 = slot0.shipGridContainer
+				slot8 = false
+
+				slot6(slot7, slot8)
+			end
+		end
+	else
+		slot7 = slot4
+		slot6 = slot4.hasInterActionFurnitrue
+		slot6 = slot6(slot7)
+
+		if slot6 then
+			slot7 = slot0
+			slot6 = slot0.clearStage
+
+			slot6(slot7)
+
+			slot7 = slot4
+			slot6 = slot4.getInterActionFurnitrueId
+			slot6 = slot6(slot7)
+			slot7 = slot3[slot6]
+			slot8 = slot7
+			slot7 = slot7.getOrderByShipId
+			slot9 = slot4.id
+			slot7 = slot7(slot8, slot9)
+			slot9 = slot0
+			slot8 = slot0.updateInterActionPos
+			slot10 = slot3[slot6]
+			slot11 = slot7
+
+			slot8(slot9, slot10, slot11)
+
+			slot9 = slot0
+			slot8 = slot0.InterActionSortSibling
+			slot10 = slot6
+
+			slot8(slot9, slot10)
 		else
-			slot7 = uv0.getLocalPos(slot1)
+			slot7 = slot4
+			slot6 = slot4.inStageFurniture
+			slot6 = slot6(slot7)
 
-			LeanTween.moveLocal(slot0.go, Vector3(slot7.x, slot7.y + uv1, 0), 0):setOnComplete(System.Action(function ()
-				uv0.isMove = nil
+			if slot6 then
+				slot7 = slot0
+				slot6 = slot0.updateStageInterAction
+				slot9 = slot4
+				slot8 = slot4.getPosition
 
-				SetActive(uv0.shipGridContainer, false)
-				uv0:changeGridColor(BackYardConst.BACKYARD_GREEN)
-				uv0.spineAnimUI:SetAction("stand2", 0)
-				uv0.viewComponent:emit(BackyardMainMediator.END_DRAG_SHIP, uv1.id, uv2)
-			end))
+				slot6(slot7, slot8(slot9))
+
+				slot6 = SetActive
+				slot7 = slot0.shipGridContainer
+				slot8 = false
+
+				slot6(slot7, slot8)
+			else
+				slot6 = nil
+				slot7 = pairs
+				slot8 = slot3
+				slot7, slot8, slot9 = slot7(slot8)
+
+				for slot10, slot11 in slot7, slot8, slot9 do
+					slot13 = slot11
+					slot12 = slot11.getOccupyGrid
+					slot15 = slot11
+					slot14 = slot11.getPosition
+					slot12 = slot12(slot13, slot14(slot15))
+					slot13 = pairs
+					slot14 = slot12
+					slot13, slot14, slot15 = slot13(slot14)
+
+					for slot16, slot17 in slot13, slot14, slot15 do
+						slot18 = slot17.x
+						slot19 = slot1.x
+
+						if slot18 == slot19 then
+							slot18 = slot17.y
+							slot19 = slot1.y
+
+							if slot18 == slot19 then
+								slot6 = slot11
+
+								break
+							end
+						end
+					end
+
+					if slot6 then
+						break
+					end
+				end
+
+				if slot6 then
+					slot8 = slot6
+					slot7 = slot6.canInterActionShipGroup
+					slot9 = slot4.gruopId
+					slot7 = slot7(slot8, slot9)
+
+					if slot7 then
+						slot8 = slot6
+						slot7 = slot6.isInterActionSpine
+						slot7 = slot7(slot8)
+
+						if slot7 then
+							slot8 = slot6
+							slot7 = slot6.canInterActionSpine
+							slot7 = slot7(slot8)
+
+							if slot7 then
+								slot8 = slot6
+								slot7 = slot6.isMoveable
+								slot7 = slot7(slot8)
+
+								if slot7 then
+									slot7 = nil
+									slot0.save = slot7
+								end
+
+								slot7 = slot0.viewComponent
+								slot8 = slot7
+								slot7 = slot7.emit
+								slot9 = BackyardMainMediator
+								slot9 = slot9.INTERACTION_SPINE
+								slot10 = slot0.boatVO
+								slot10 = slot10.id
+								slot11 = slot6.id
+
+								slot7(slot8, slot9, slot10, slot11)
+							end
+						end
+					end
+				else
+					slot7 = slot0
+					slot7 = slot7.getLocalPos
+					slot8 = slot1
+					slot7 = slot7(slot8)
+					slot8 = LeanTween
+					slot8 = slot8.moveLocal
+					slot9 = slot0.go
+					slot10 = Vector3
+					slot11 = slot7.x
+					slot12 = slot7.y
+					slot13 = slot1
+					slot12 = slot12 + slot13
+					slot13 = 0
+					slot10 = slot10(slot11, slot12, slot13)
+					slot11 = 0
+					slot8 = slot8(slot9, slot10, slot11)
+					slot9 = slot8
+					slot8 = slot8.setOnComplete
+					slot10 = System
+					slot10 = slot10.Action
+
+					function slot11()
+						slot0 = slot0
+						slot1 = nil
+						slot0.isMove = slot1
+						slot0 = SetActive
+						slot1 = slot0
+						slot1 = slot1.shipGridContainer
+						slot2 = false
+
+						slot0(slot1, slot2)
+
+						slot0 = slot0
+						slot1 = slot0
+						slot0 = slot0.changeGridColor
+						slot2 = BackYardConst
+						slot2 = slot2.BACKYARD_GREEN
+
+						slot0(slot1, slot2)
+
+						slot0 = slot0
+						slot0 = slot0.spineAnimUI
+						slot1 = slot0
+						slot0 = slot0.SetAction
+						slot2 = "stand2"
+						slot3 = 0
+
+						slot0(slot1, slot2, slot3)
+
+						slot0 = slot0
+						slot0 = slot0.viewComponent
+						slot1 = slot0
+						slot0 = slot0.emit
+						slot2 = BackyardMainMediator
+						slot2 = slot2.END_DRAG_SHIP
+						slot3 = slot1
+						slot3 = slot3.id
+						slot4 = slot2
+
+						slot0(slot1, slot2, slot3, slot4)
+					end
+
+					slot8(slot9, slot10(slot11))
+				end
+			end
 		end
 	end
 end
 
-function slot0.InterActionSortSibling(slot0, slot1)
-	slot5 = slot0.viewComponent.furnitureVOs[slot1]:getConfig("interAction")
+slot0.triggerInterAction = slot5
+
+function slot5(slot0, slot1)
+	slot2 = slot0.viewComponent
+	slot3 = slot2
+	slot2 = slot2.GetFurnitureGo
+	slot4 = slot1
+	slot2 = slot2(slot3, slot4)
+	slot3 = slot0.viewComponent
+	slot3 = slot3.furnitureVOs
+	slot3 = slot3[slot1]
+	slot5 = slot3
+	slot4 = slot3.getInterActionShipIds
+	slot4 = slot4(slot5)
+	slot6 = slot3
+	slot5 = slot3.getConfig
+	slot7 = "interAction"
+	slot5 = slot5(slot6, slot7)
 	slot6 = {}
 	slot7 = false
+	slot8 = pairs
+	slot9 = slot4
+	slot8, slot9, slot10 = slot8(slot9)
 
-	for slot11, slot12 in pairs(slot3:getInterActionShipIds()) do
+	for slot11, slot12 in slot8, slot9, slot10 do
 		slot13 = nil
+		slot14 = slot5[slot11]
+		slot14 = slot14[5]
 
-		if slot5[slot11][5] and slot5[slot11][5] == BackyardBoatVO.INTERACTION_TYPE_AFTER then
-			slot13 = slot0.viewComponent:GetFurnitureGo(slot1):Find("icon/char_" .. slot12)
-			slot7 = true
+		if slot14 then
+			slot14 = slot5[slot11]
+			slot14 = slot14[5]
+			slot15 = BackyardBoatVO
+			slot15 = slot15.INTERACTION_TYPE_AFTER
+
+			if slot14 == slot15 then
+				slot15 = slot2
+				slot14 = slot2.Find
+				slot16 = "icon/char_"
+				slot17 = slot12
+				slot16 = slot16 .. slot17
+				slot14 = slot14(slot15, slot16)
+				slot13 = slot14
+				slot7 = true
+			end
 		else
-			slot13 = slot2:Find("char_" .. slot12)
+			slot15 = slot2
+			slot14 = slot2.Find
+			slot16 = "char_"
+			slot17 = slot12
+			slot16 = slot16 .. slot17
+			slot14 = slot14(slot15, slot16)
+			slot13 = slot14
 		end
 
 		if slot13 then
@@ -440,1263 +1688,4151 @@ function slot0.InterActionSortSibling(slot0, slot1)
 		end
 	end
 
-	table.sort(slot6, function (slot0, slot1)
+	slot8 = table
+	slot8 = slot8.sort
+	slot9 = slot6
+
+	function slot10(slot0, slot1)
 		return slot0.x < slot1.x
-	end)
+	end
 
-	for slot11, slot12 in pairs(slot6) do
+	slot8(slot9, slot10)
+
+	slot8 = pairs
+	slot9 = slot6
+	slot8, slot9, slot10 = slot8(slot9)
+
+	for slot11, slot12 in slot8, slot9, slot10 do
 		slot13 = slot12.go
+		slot14 = slot13
+		slot13 = slot13.SetAsLastSibling
 
-		slot13:SetAsLastSibling()
+		slot13(slot14)
 
-		if slot2:Find(BackYardConst.FURNITRUE_MASK_ORDER_NAME .. slot12.order) then
+		slot14 = slot2
+		slot13 = slot2.Find
+		slot15 = BackYardConst
+		slot15 = slot15.FURNITRUE_MASK_ORDER_NAME
+		slot16 = slot12.order
+		slot15 = slot15 .. slot16
+		slot13 = slot13(slot14, slot15)
+
+		if slot13 then
 			if slot7 then
-				slot13:SetSiblingIndex(2)
+				slot15 = slot13
+				slot14 = slot13.SetSiblingIndex
+				slot16 = 2
+
+				slot14(slot15, slot16)
 			else
-				slot13:SetAsLastSibling()
+				slot15 = slot13
+				slot14 = slot13.SetAsLastSibling
+
+				slot14(slot15)
 			end
 		end
 	end
 end
 
-function slot0.changeGridColor(slot0, slot1)
-	slot0.shipGridImg.color = slot1
+slot0.InterActionSortSibling = slot5
+
+function slot5(slot0, slot1)
+	slot2 = slot0.shipGridImg
+	slot2.color = slot1
 end
 
-function slot0.createItem(slot0, slot1)
-	if not IsNil(slot0.tf) then
-		slot2 = nil
+slot0.changeGridColor = slot5
 
-		if slot0.archId then
-			slot2 = slot0.viewComponent:getMap({
-				parent = slot0.archId
-			})
-		elseif slot0.stageId then
-			slot2 = slot0.viewComponent:getMap({
-				parent = slot0.stageId
-			})
+function slot5(slot0, slot1)
+	slot2 = IsNil
+	slot3 = slot0.tf
+	slot2 = slot2(slot3)
+
+	if not slot2 then
+		slot2 = nil
+		slot3 = slot0.archId
+
+		if slot3 then
+			slot3 = slot0.viewComponent
+			slot4 = slot3
+			slot3 = slot3.getMap
+			slot5 = {}
+			slot6 = slot0.archId
+			slot5.parent = slot6
+			slot3 = slot3(slot4, slot5)
+			slot2 = slot3
 		else
-			slot2 = slot0.viewComponent.map
+			slot3 = slot0.stageId
+
+			if slot3 then
+				slot3 = slot0.viewComponent
+				slot4 = slot3
+				slot3 = slot3.getMap
+				slot5 = {}
+				slot6 = slot0.stageId
+				slot5.parent = slot6
+				slot3 = slot3(slot4, slot5)
+				slot2 = slot3
+			else
+				slot3 = slot0.viewComponent
+				slot2 = slot3.map
+			end
 		end
 
-		slot3 = slot2:CreateItem(1, 1, {
-			isBoat = true,
-			id = slot0.boatVO.id
-		})
+		slot4 = slot2
+		slot3 = slot2.CreateItem
+		slot5 = 1
+		slot6 = 1
+		slot7 = {
+			isBoat = true
+		}
+		slot8 = slot0.boatVO
+		slot8 = slot8.id
+		slot7.id = slot8
+		slot3 = slot3(slot4, slot5, slot6, slot7)
+		slot5 = slot3
+		slot4 = slot3.SetPos
+		slot6 = slot1.x
+		slot6 = slot6 + 1
+		slot7 = slot1.y
+		slot7 = slot7 + 1
 
-		slot3:SetPos(slot1.x + 1, slot1.y + 1)
-		slot0.tf:SetSiblingIndex(slot2:InsertChar(slot3))
+		slot4(slot5, slot6, slot7)
+
+		slot5 = slot2
+		slot4 = slot2.InsertChar
+		slot6 = slot3
+		slot4 = slot4(slot5, slot6)
+		slot5 = slot0.tf
+		slot6 = slot5
+		slot5 = slot5.SetSiblingIndex
+		slot7 = slot4
+
+		slot5(slot6, slot7)
 
 		slot0.item = slot3
 	end
 end
 
-function slot0.removeItem(slot0)
-	if slot0.item then
-		slot1 = nil
+slot0.createItem = slot5
 
-		if slot0.archId then
-			slot1 = slot0.viewComponent:getMap({
-				parent = slot0.archId
-			})
-		elseif slot0.stageId then
-			slot1 = slot0.viewComponent:getMap({
-				parent = slot0.stageId
-			})
+function slot5(slot0)
+	slot1 = slot0.item
+
+	if slot1 then
+		slot1 = nil
+		slot2 = slot0.archId
+
+		if slot2 then
+			slot2 = slot0.viewComponent
+			slot3 = slot2
+			slot2 = slot2.getMap
+			slot4 = {}
+			slot5 = slot0.archId
+			slot4.parent = slot5
+			slot2 = slot2(slot3, slot4)
+			slot1 = slot2
 		else
-			slot1 = slot0.viewComponent.map
+			slot2 = slot0.stageId
+
+			if slot2 then
+				slot2 = slot0.viewComponent
+				slot3 = slot2
+				slot2 = slot2.getMap
+				slot4 = {}
+				slot5 = slot0.stageId
+				slot4.parent = slot5
+				slot2 = slot2(slot3, slot4)
+				slot1 = slot2
+			else
+				slot2 = slot0.viewComponent
+				slot1 = slot2.map
+			end
 		end
 
-		slot1:RemoveChar(slot0.item)
+		slot3 = slot1
+		slot2 = slot1.RemoveChar
+		slot4 = slot0.item
 
-		slot0.item = nil
+		slot2(slot3, slot4)
 
-		slot0.tf:SetAsLastSibling()
+		slot2 = nil
+		slot0.item = slot2
+		slot2 = slot0.tf
+		slot3 = slot2
+		slot2 = slot2.SetAsLastSibling
+
+		slot2(slot3)
 	end
 end
 
-function slot0.updatePosition(slot0, slot1)
-	slot0:removeItem()
-	slot0:createItem(slot0.boatVO:getPosition())
+slot0.removeItem = slot5
+
+function slot5(slot0, slot1)
+	slot3 = slot0
+	slot2 = slot0.removeItem
+
+	slot2(slot3)
+
+	slot3 = slot0
+	slot2 = slot0.createItem
+	slot4 = slot0.boatVO
+	slot5 = slot4
+	slot4 = slot4.getPosition
+
+	slot2(slot3, slot4(slot5))
 
 	slot2 = nil
-	slot2 = (not slot0.archId or slot0:calcOnFurnitureLPos(slot1, slot0.archId)) and (not slot0.stageId or slot0:calcOnFurnitureLPos(slot1, slot0.stageId)) and uv0.getLocalPos(slot1)
-	slot0.tf.localPosition = Vector3(slot2.x, slot2.y + uv1, 0)
+	slot3 = slot0.archId
 
-	slot0:updateShadowTF(true)
-	slot0:updateShadowPos()
-end
-
-function slot0.setAction(slot0, slot1)
-	slot0.spineAnimUI:SetAction(slot1, 0)
-end
-
-function slot0.updateInterActionPos(slot0, slot1, slot2)
-	uv0.print("start interaction..................")
-	slot0:removeItem()
-
-	slot3 = slot0.viewComponent:GetFurnitureGo(slot1.id)
-	slot4, slot5, slot6, slot7, slot8, slot9 = slot1:getInterActionData(slot2)
-
-	SetParent(slot0.tf, slot8 and slot8 == BackyardBoatVO.INTERACTION_TYPE_AFTER and slot3:Find("icon") or slot3)
-
-	if slot6 or {
-		1,
-		1
-	}[3] then
-		slot0.tf.localScale = Vector3(slot3.localScale.x * -1 * uv1, uv1, 1)
-	elseif slot1:getConfig("dir") == 1 and slot3.localScale.x < 0 then
-		slot0.tf.localScale = Vector3(1 * uv1, uv1 * slot11[2], 1)
+	if slot3 then
+		slot4 = slot0
+		slot3 = slot0.calcOnFurnitureLPos
+		slot5 = slot1
+		slot6 = slot0.archId
+		slot3 = slot3(slot4, slot5, slot6)
+		slot2 = slot3
 	else
-		slot0.tf.localScale = Vector3(uv1 * slot11[1], uv1 * slot11[2], 1)
+		slot3 = slot0.stageId
+
+		if slot3 then
+			slot4 = slot0
+			slot3 = slot0.calcOnFurnitureLPos
+			slot5 = slot1
+			slot6 = slot0.stageId
+			slot3 = slot3(slot4, slot5, slot6)
+			slot2 = slot3
+		else
+			slot3 = slot0
+			slot3 = slot3.getLocalPos
+			slot4 = slot1
+			slot3 = slot3(slot4)
+			slot2 = slot3
+		end
+	end
+
+	slot3 = slot0.tf
+	slot4 = Vector3
+	slot5 = slot2.x
+	slot6 = slot2.y
+	slot7 = slot1
+	slot6 = slot6 + slot7
+	slot7 = 0
+	slot4 = slot4(slot5, slot6, slot7)
+	slot3.localPosition = slot4
+	slot4 = slot0
+	slot3 = slot0.updateShadowTF
+	slot5 = true
+
+	slot3(slot4, slot5)
+
+	slot4 = slot0
+	slot3 = slot0.updateShadowPos
+
+	slot3(slot4)
+end
+
+slot0.updatePosition = slot5
+
+function slot5(slot0, slot1)
+	slot2 = slot0.spineAnimUI
+	slot3 = slot2
+	slot2 = slot2.SetAction
+	slot4 = slot1
+	slot5 = 0
+
+	slot2(slot3, slot4, slot5)
+end
+
+slot0.setAction = slot5
+
+function slot5(slot0, slot1, slot2)
+	slot3 = slot0
+	slot3 = slot3.print
+	slot4 = "start interaction.................."
+
+	slot3(slot4)
+
+	slot4 = slot0
+	slot3 = slot0.removeItem
+
+	slot3(slot4)
+
+	slot3 = slot0.viewComponent
+	slot4 = slot3
+	slot3 = slot3.GetFurnitureGo
+	slot5 = slot1.id
+	slot3 = slot3(slot4, slot5)
+	slot5 = slot1
+	slot4 = slot1.getInterActionData
+	slot6 = slot2
+	slot4, slot5, slot6, slot7, slot8, slot9 = slot4(slot5, slot6)
+
+	if slot8 then
+		slot10 = BackyardBoatVO
+		slot10 = slot10.INTERACTION_TYPE_AFTER
+
+		if slot8 == slot10 then
+			SetParent(slot0.tf, slot3:Find("icon") or slot3)
+
+			slot12 = slot6 or {
+				1,
+				1
+			}[3]
+
+			if slot12 then
+				slot12 = slot3.localScale
+				slot12 = slot12.x
+				slot12 = slot12 * -1
+				slot13 = slot0.tf
+				slot14 = Vector3
+				slot15 = slot1
+				slot15 = slot12 * slot15
+				slot16 = slot1
+				slot17 = 1
+				slot14 = slot14(slot15, slot16, slot17)
+				slot13.localScale = slot14
+			else
+				slot13 = slot1
+				slot12 = slot1.getConfig
+				slot14 = "dir"
+				slot12 = slot12(slot13, slot14)
+
+				if slot12 == 1 then
+					slot12 = slot3.localScale
+					slot12 = slot12.x
+					slot13 = 0
+
+					if slot12 < slot13 then
+						slot12 = slot0.tf
+						slot13 = Vector3
+						slot14 = slot1
+						slot14 = 1 * slot14
+						slot15 = slot1
+						slot16 = slot11[2]
+						slot15 = slot15 * slot16
+						slot16 = 1
+						slot13 = slot13(slot14, slot15, slot16)
+						slot12.localScale = slot13
+					end
+				else
+					slot12 = slot0.tf
+					slot13 = Vector3
+					slot14 = slot1
+					slot15 = slot11[1]
+					slot14 = slot14 * slot15
+					slot15 = slot1
+					slot16 = slot11[2]
+					slot15 = slot15 * slot16
+					slot16 = 1
+					slot13 = slot13(slot14, slot15, slot16)
+					slot12.localScale = slot13
+				end
+			end
+		end
 	end
 
 	if slot9 then
-		slot0:showBodyMask(slot9)
+		slot13 = slot0
+		slot12 = slot0.showBodyMask
+		slot14 = slot9
+
+		slot12(slot13, slot14)
 	end
 
 	if slot7 then
-		slot12 = slot3:Find(BackYardConst.FURNITRUE_MASK_ORDER_NAME .. slot2)
+		slot13 = slot3
+		slot12 = slot3.Find
+		slot14 = BackYardConst
+		slot14 = slot14.FURNITRUE_MASK_ORDER_NAME
+		slot15 = slot2
+		slot14 = slot14 .. slot15
+		slot12 = slot12(slot13, slot14)
+		slot13 = setActive
+		slot14 = slot12
+		slot15 = true
 
-		setActive(slot12, true)
-		slot12:SetAsLastSibling()
+		slot13(slot14, slot15)
+
+		slot14 = slot12
+		slot13 = slot12.SetAsLastSibling
+
+		slot13(slot14)
 	end
 
-	slot0.tf.anchoredPosition = Vector3(slot5[1], slot5[2], 0)
+	slot12 = slot0.tf
+	slot13 = Vector3
+	slot14 = slot5[1]
+	slot15 = slot5[2]
+	slot16 = 0
+	slot13 = slot13(slot14, slot15, slot16)
+	slot12.anchoredPosition = slot13
+	slot12 = slot0.spineAnimUI
+	slot13 = slot12
+	slot12 = slot12.SetAction
+	slot14 = slot4
+	slot15 = 0
 
-	slot0.spineAnimUI:SetAction(slot4, 0)
-	slot0:updateShadowTF(false)
-	slot0:updateShadowPos()
+	slot12(slot13, slot14, slot15)
 
-	slot0.isMove = nil
+	slot13 = slot0
+	slot12 = slot0.updateShadowTF
+	slot14 = false
 
-	SetActive(slot0.shipGridContainer, false)
+	slot12(slot13, slot14)
+
+	slot13 = slot0
+	slot12 = slot0.updateShadowPos
+
+	slot12(slot13)
+
+	slot12 = nil
+	slot0.isMove = slot12
+	slot12 = SetActive
+	slot13 = slot0.shipGridContainer
+	slot14 = false
+
+	slot12(slot13, slot14)
 end
 
-function slot0.clearInterAction(slot0)
-	uv0.print("clear interaction.............")
+slot0.updateInterActionPos = slot5
 
-	slot1 = slot0.boatVO:getInterActionFurnitrueId()
+function slot5(slot0)
+	slot1 = slot0
+	slot1 = slot1.print
+	slot2 = "clear interaction............."
 
-	if slot0.viewComponent:GetFurnitureGo(slot1):Find(BackYardConst.FURNITRUE_MASK_ORDER_NAME .. slot0.viewComponent.furnitureVOs[slot1]:getOrderByShipId(slot0.boatVO.id)) then
-		setActive(slot5, false)
+	slot1(slot2)
+
+	slot1 = slot0.boatVO
+	slot2 = slot1
+	slot1 = slot1.getInterActionFurnitrueId
+	slot1 = slot1(slot2)
+	slot2 = slot0.viewComponent
+	slot3 = slot2
+	slot2 = slot2.GetFurnitureGo
+	slot4 = slot1
+	slot2 = slot2(slot3, slot4)
+	slot3 = slot0.viewComponent
+	slot3 = slot3.furnitureVOs
+	slot3 = slot3[slot1]
+	slot5 = slot3
+	slot4 = slot3.getOrderByShipId
+	slot6 = slot0.boatVO
+	slot6 = slot6.id
+	slot4 = slot4(slot5, slot6)
+	slot6 = slot2
+	slot5 = slot2.Find
+	slot7 = BackYardConst
+	slot7 = slot7.FURNITRUE_MASK_ORDER_NAME
+	slot8 = slot4
+	slot7 = slot7 .. slot8
+	slot5 = slot5(slot6, slot7)
+
+	if slot5 then
+		slot6 = setActive
+		slot7 = slot5
+		slot8 = false
+
+		slot6(slot7, slot8)
 	end
 end
 
-function slot0.updateSpineInterAction(slot0, slot1)
-	SetActive(slot0.shipGridContainer, false)
-	uv0.print(" start spine interaciton...............")
-	slot0:removeItem()
+slot0.clearInterAction = slot5
+
+function slot5(slot0, slot1)
+	slot2 = SetActive
+	slot3 = slot0.shipGridContainer
+	slot4 = false
+
+	slot2(slot3, slot4)
+
+	slot2 = slot0
+	slot2 = slot2.print
+	slot3 = " start spine interaciton..............."
+
+	slot2(slot3)
+
+	slot3 = slot0
+	slot2 = slot0.removeItem
+
+	slot2(slot3)
 
 	slot0.spineFurniture = slot1
+	slot2 = slot0.viewComponent
+	slot3 = slot2
+	slot2 = slot2.GetFurnitureGo
+	slot4 = slot1.id
+	slot2 = slot2(slot3, slot4)
+	slot4 = slot0
+	slot3 = slot0.updateModelDir
 
-	slot0:updateModelDir()
-	slot0:updateShadowTF(false)
-	SetParent(slot0.tf, slot0.viewComponent:GetFurnitureGo(slot1.id), true)
+	slot3(slot4)
 
-	slot0.tf.localScale = Vector3(uv1, uv1, 1)
+	slot4 = slot0
+	slot3 = slot0.updateShadowTF
+	slot5 = false
 
-	if slot1:getSpineAniPos() then
-		slot0.tf.anchoredPosition = slot3
+	slot3(slot4, slot5)
+
+	slot3 = SetParent
+	slot4 = slot0.tf
+	slot5 = slot2
+	slot6 = true
+
+	slot3(slot4, slot5, slot6)
+
+	slot3 = slot0.tf
+	slot4 = Vector3
+	slot5 = slot1
+	slot6 = slot1
+	slot7 = 1
+	slot4 = slot4(slot5, slot6, slot7)
+	slot3.localScale = slot4
+	slot4 = slot1
+	slot3 = slot1.getSpineAniPos
+	slot3 = slot3(slot4)
+
+	if slot3 then
+		slot4 = slot0.tf
+		slot4.anchoredPosition = slot3
 	end
 
-	slot4 = slot1:getSpineAnims()
-	slot5 = slot2:Find(BackYardConst.FURNITRUE_MASK_NAME)
-	slot0.roles = {}
-	slot0.breakActionName = slot1:getBreakAnim()
+	slot5 = slot1
+	slot4 = slot1.getSpineAnims
+	slot4 = slot4(slot5)
+	slot6 = slot2
+	slot5 = slot2.Find
+	slot7 = BackYardConst
+	slot7 = slot7.FURNITRUE_MASK_NAME
+	slot5 = slot5(slot6, slot7)
+	slot7 = slot1
+	slot6 = slot1.hasSpineMask
+	slot6 = slot6(slot7)
+	slot7 = {}
+	slot0.roles = slot7
+	slot8 = slot1
+	slot7 = slot1.getBreakAnim
+	slot7 = slot7(slot8)
+	slot0.breakActionName = slot7
+	slot7 = table
+	slot7 = slot7.insert
+	slot8 = slot0.roles
+	slot9 = slot0.spineAnimUI
 
-	table.insert(slot0.roles, slot0.spineAnimUI)
-	table.insert(slot0.roles, GetOrAddComponent(slot2:Find("icon/spine"), typeof(SpineAnimUI)))
+	slot7(slot8, slot9)
 
-	if slot1:hasSpineMask() then
-		SetActive(slot5, true)
-		slot5:SetAsLastSibling()
-		table.insert(slot0.roles, GetOrAddComponent(slot5:Find("spine"), typeof(SpineAnimUI)))
+	slot7 = GetOrAddComponent
+	slot9 = slot2
+	slot8 = slot2.Find
+	slot10 = "icon/spine"
+	slot8 = slot8(slot9, slot10)
+	slot9 = typeof
+	slot10 = SpineAnimUI
+	slot7 = slot7(slot8, slot9(slot10))
+	slot8 = table
+	slot8 = slot8.insert
+	slot9 = slot0.roles
+	slot10 = slot7
+
+	slot8(slot9, slot10)
+
+	if slot6 then
+		slot8 = SetActive
+		slot9 = slot5
+		slot10 = true
+
+		slot8(slot9, slot10)
+
+		slot9 = slot5
+		slot8 = slot5.SetAsLastSibling
+
+		slot8(slot9)
+
+		slot8 = GetOrAddComponent
+		slot10 = slot5
+		slot9 = slot5.Find
+		slot11 = "spine"
+		slot9 = slot9(slot10, slot11)
+		slot10 = typeof
+		slot11 = SpineAnimUI
+		slot8 = slot8(slot9, slot10(slot11))
+		slot9 = table
+		slot9 = slot9.insert
+		slot10 = slot0.roles
+		slot11 = slot8
+
+		slot9(slot10, slot11)
 	end
 
-	for slot11, slot12 in pairs(slot0.roles) do
-		slot12:SetAction(slot0:getSpineNormalAction(slot12), 0)
-		setActive(slot12.gameObject, false)
-		setActive(slot12.gameObject, true)
+	slot8 = pairs
+	slot9 = slot0.roles
+	slot8, slot9, slot10 = slot8(slot9)
+
+	for slot11, slot12 in slot8, slot9, slot10 do
+		slot14 = slot0
+		slot13 = slot0.getSpineNormalAction
+		slot15 = slot12
+		slot13 = slot13(slot14, slot15)
+		slot15 = slot12
+		slot14 = slot12.SetAction
+		slot16 = slot13
+		slot17 = 0
+
+		slot14(slot15, slot16, slot17)
+
+		slot14 = setActive
+		slot15 = slot12.gameObject
+		slot16 = false
+
+		slot14(slot15, slot16)
+
+		slot14 = setActive
+		slot15 = slot12.gameObject
+		slot16 = true
+
+		slot14(slot15, slot16)
 	end
 
-	if slot1:hasTailAction() then
-		slot0.viewComponent.blockEvent = true
+	slot9 = slot1
+	slot8 = slot1.hasTailAction
+	slot8 = slot8(slot9)
+
+	if slot8 then
+		slot8 = slot0.viewComponent
+		slot9 = true
+		slot8.blockEvent = slot9
 	end
 
-	if slot1:getPreheatAnim() then
-		slot0:playPreHeatAnim(slot1, slot9, function ()
-			if uv0:hasAnimator() then
-				uv1:startSpineAnimator(uv0)
-			end
+	function slot8()
+		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.hasAnimator
+		slot0 = slot0(slot1)
 
-			if uv0:isFollowFurnitrueAnim() then
-				uv1:playAnimsFollowFurniture(uv0)
-			else
-				uv1:playAnims(uv0)
-			end
-		end)
-	else
-		slot8()
-	end
-end
+		if slot0 then
+			slot0 = slot1
+			slot1 = slot0
+			slot0 = slot0.startSpineAnimator
+			slot2 = slot0
 
-function slot0.playPreHeatAnim(slot0, slot1, slot2, slot3)
-	slot4 = slot0.roles[2]
-
-	setActive(slot0.tf, false)
-	slot4:SetActionCallBack(function (slot0)
-		if slot0 == "finish" then
-			uv0:SetActionCallBack(nil)
-			uv1()
-			setActive(uv2.tf, true)
+			slot0(slot1, slot2)
 		end
-	end)
-	slot4:SetAction(slot2, 0)
+
+		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.isFollowFurnitrueAnim
+		slot0 = slot0(slot1)
+
+		if slot0 then
+			slot0 = slot1
+			slot1 = slot0
+			slot0 = slot0.playAnimsFollowFurniture
+			slot2 = slot0
+
+			slot0(slot1, slot2)
+		else
+			slot0 = slot1
+			slot1 = slot0
+			slot0 = slot0.playAnims
+			slot2 = slot0
+
+			slot0(slot1, slot2)
+		end
+	end
+
+	slot10 = slot1
+	slot9 = slot1.getPreheatAnim
+	slot9 = slot9(slot10)
+
+	if slot9 then
+		slot11 = slot0
+		slot10 = slot0.playPreHeatAnim
+		slot12 = slot1
+		slot13 = slot9
+		slot14 = slot8
+
+		slot10(slot11, slot12, slot13, slot14)
+	else
+		slot10 = slot8
+
+		slot10()
+	end
 end
 
-function slot0.playAnimsFollowFurniture(slot0, slot1)
-	slot2 = slot1:getSpineAnims()
-	slot3 = slot0.roles[2]
+slot0.updateSpineInterAction = slot5
+
+function slot5(slot0, slot1, slot2, slot3)
+	slot4 = slot0.roles
+	slot4 = slot4[2]
+	slot5 = setActive
+	slot6 = slot0.tf
+	slot7 = false
+
+	slot5(slot6, slot7)
+
+	slot6 = slot4
+	slot5 = slot4.SetActionCallBack
+
+	function slot7(slot0)
+		if slot0 == "finish" then
+			slot1 = slot0
+			slot2 = slot1
+			slot1 = slot1.SetActionCallBack
+			slot3 = nil
+
+			slot1(slot2, slot3)
+
+			slot1 = slot1
+
+			slot1()
+
+			slot1 = setActive
+			slot2 = slot2
+			slot2 = slot2.tf
+			slot3 = true
+
+			slot1(slot2, slot3)
+		end
+	end
+
+	slot5(slot6, slot7)
+
+	slot6 = slot4
+	slot5 = slot4.SetAction
+	slot7 = slot2
+	slot8 = 0
+
+	slot5(slot6, slot7, slot8)
+end
+
+slot0.playPreHeatAnim = slot5
+
+function slot5(slot0, slot1)
+	slot3 = slot1
+	slot2 = slot1.getSpineAnims
+	slot2 = slot2(slot3)
+	slot3 = slot0.roles
+	slot3 = slot3[2]
 	slot4 = nil
 
 	function slot5(slot0)
-		if slot0 > #uv0 then
-			uv1:SetActionCallBack(nil)
+		slot1 = slot0
+		slot1 = #slot1
 
-			slot1, slot2 = uv2:isLoopSpineInterAction()
+		if slot0 > slot1 then
+			slot1 = slot1
+			slot2 = slot1
+			slot1 = slot1.SetActionCallBack
+			slot3 = nil
+
+			slot1(slot2, slot3)
+
+			slot1 = slot2
+			slot2 = slot1
+			slot1 = slot1.isLoopSpineInterAction
+			slot1, slot2 = slot1(slot2)
 
 			if slot1 then
-				if slot2 == BackyardFurnitureVO.INTERACTION_LOOP_TYPE_ALL then
-					uv3()
-				elseif slot2 == BackyardFurnitureVO.INTERACTION_LOOP_TYPE_LAST_ONE then
-					if uv2:hasAnimator() then
-						uv4:endSpineAnimator(uv2)
-						uv4:setSpineAnimtorParent(uv2)
+				slot3 = BackyardFurnitureVO
+				slot3 = slot3.INTERACTION_LOOP_TYPE_ALL
+
+				if slot2 == slot3 then
+					slot3 = slot3
+
+					slot3()
+				else
+					slot3 = BackyardFurnitureVO
+					slot3 = slot3.INTERACTION_LOOP_TYPE_LAST_ONE
+
+					if slot2 == slot3 then
+						slot3 = slot2
+						slot4 = slot3
+						slot3 = slot3.hasAnimator
+						slot3 = slot3(slot4)
+
+						if slot3 then
+							slot3 = slot4
+							slot4 = slot3
+							slot3 = slot3.endSpineAnimator
+							slot5 = slot2
+
+							slot3(slot4, slot5)
+
+							slot3 = slot4
+							slot4 = slot3
+							slot3 = slot3.setSpineAnimtorParent
+							slot5 = slot2
+
+							slot3(slot4, slot5)
+						end
 					end
 				end
-			elseif uv2:hasTailAction() then
-				uv4.viewComponent.blockEvent = nil
-
-				uv4:playTailActions(uv2)
 			else
-				uv4:clearSpine()
-				uv4:updateShadowTF(true)
-				uv4:updateShadowPos()
-				uv4.viewComponent:emit(BackyardMainMediator.ADD_BOAT_MOVE, uv4.boatVO.id, true)
+				slot3 = slot2
+				slot4 = slot3
+				slot3 = slot3.hasTailAction
+				slot3 = slot3(slot4)
+
+				if slot3 then
+					slot3 = slot4
+					slot3 = slot3.viewComponent
+					slot4 = nil
+					slot3.blockEvent = slot4
+					slot3 = slot4
+					slot4 = slot3
+					slot3 = slot3.playTailActions
+					slot5 = slot2
+
+					slot3(slot4, slot5)
+				else
+					slot3 = slot4
+					slot4 = slot3
+					slot3 = slot3.clearSpine
+
+					slot3(slot4)
+
+					slot3 = slot4
+					slot4 = slot3
+					slot3 = slot3.updateShadowTF
+					slot5 = true
+
+					slot3(slot4, slot5)
+
+					slot3 = slot4
+					slot4 = slot3
+					slot3 = slot3.updateShadowPos
+
+					slot3(slot4)
+
+					slot3 = slot4
+					slot3 = slot3.viewComponent
+					slot4 = slot3
+					slot3 = slot3.emit
+					slot5 = BackyardMainMediator
+					slot5 = slot5.ADD_BOAT_MOVE
+					slot6 = slot4
+					slot6 = slot6.boatVO
+					slot6 = slot6.id
+					slot7 = true
+
+					slot3(slot4, slot5, slot6, slot7)
+				end
 			end
 		else
-			if type(uv0[slot0][1]) == "table" then
-				slot1 = slot1[math.random(1, #slot1)]
+			slot1 = slot0
+			slot1 = slot1[slot0]
+			slot1 = slot1[1]
+			slot2 = type
+			slot3 = slot1
+			slot2 = slot2(slot3)
+
+			if slot2 == "table" then
+				slot2 = math
+				slot2 = slot2.random
+				slot3 = 1
+				slot4 = #slot1
+				slot2 = slot2(slot3, slot4)
+				slot1 = slot1[slot2]
 			end
 
-			uv1:SetAction(slot1, 0)
+			slot2 = slot1
+			slot3 = slot2
+			slot2 = slot2.SetAction
+			slot4 = slot1
+			slot5 = 0
 
-			if uv4.roles[1] then
-				uv4.roles[1]:SetAction(slot1, 0)
+			slot2(slot3, slot4, slot5)
+
+			slot2 = slot4
+			slot2 = slot2.roles
+			slot2 = slot2[1]
+
+			if slot2 then
+				slot2 = slot4
+				slot2 = slot2.roles
+				slot2 = slot2[1]
+				slot3 = slot2
+				slot2 = slot2.SetAction
+				slot4 = slot1
+				slot5 = 0
+
+				slot2(slot3, slot4, slot5)
 			end
 
-			if uv4.roles[3] then
-				uv4.roles[3]:SetAction(slot1, 0)
+			slot2 = slot4
+			slot2 = slot2.roles
+			slot2 = slot2[3]
+
+			if slot2 then
+				slot2 = slot4
+				slot2 = slot2.roles
+				slot2 = slot2[3]
+				slot3 = slot2
+				slot2 = slot2.SetAction
+				slot4 = slot1
+				slot5 = 0
+
+				slot2(slot3, slot4, slot5)
 			end
 
-			if uv4.bodyMask then
-				uv4.bodyMask:GetComponent(typeof(Image)).enabled = not uv0[slot0][2]
+			slot2 = slot4
+			slot2 = slot2.bodyMask
+
+			if slot2 then
+				slot2 = slot4
+				slot2 = slot2.bodyMask
+				slot3 = slot2
+				slot2 = slot2.GetComponent
+				slot4 = typeof
+				slot5 = Image
+				slot2 = slot2(slot3, slot4(slot5))
+				slot3 = slot0
+				slot3 = slot3[slot0]
+				slot3 = slot3[2]
+				slot3 = not slot3
+				slot2.enabled = slot3
 			end
 
-			uv4:callActionCB("update", slot1)
+			slot2 = slot4
+			slot3 = slot2
+			slot2 = slot2.callActionCB
+			slot4 = "update"
+			slot5 = slot1
+
+			slot2(slot3, slot4, slot5)
 		end
 	end
 
-	function ()
-		if uv0:hasAnimator() then
-			uv1:endSpineAnimator(uv0)
-			uv1:startSpineAnimator(uv0)
+	function slot4()
+		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.hasAnimator
+		slot0 = slot0(slot1)
+
+		if slot0 then
+			slot0 = slot1
+			slot1 = slot0
+			slot0 = slot0.endSpineAnimator
+			slot2 = slot0
+
+			slot0(slot1, slot2)
+
+			slot0 = slot1
+			slot1 = slot0
+			slot0 = slot0.startSpineAnimator
+			slot2 = slot0
+
+			slot0(slot1, slot2)
 		end
 
-		uv1:callActionCB("end")
+		slot0 = slot1
+		slot1 = slot0
+		slot0 = slot0.callActionCB
+		slot2 = "end"
+
+		slot0(slot1, slot2)
 
 		slot0 = 1
+		slot1 = slot2
+		slot2 = slot1
+		slot1 = slot1.SetActionCallBack
 
-		uv2:SetActionCallBack(function (slot0)
+		function slot3(slot0)
 			if slot0 == "finish" then
-				uv0 = uv0 + 1
+				slot1 = slot0
+				slot1 = slot1 + 1
+				slot0 = slot1
+				slot1 = slot1
+				slot2 = slot0
 
-				uv1(uv0)
+				slot1(slot2)
 			end
-		end)
-		uv3(1)
-	end()
-end
+		end
 
-function slot0.pauseAnim(slot0, slot1)
-	for slot5, slot6 in pairs(slot0.roles or {}) do
-		slot6:SetActionCallBack(nil)
-		slot6:SetAction(slot0:getSpineNormalAction(slot6), 0)
+		slot1(slot2, slot3)
+
+		slot1 = slot3
+		slot2 = 1
+
+		slot1(slot2)
 	end
 
-	slot0:endSpineAnimator(slot0.spineFurniture, slot1)
+	slot6 = slot4
+
+	slot6()
 end
 
-function slot0.registerActionCB(slot0, slot1, slot2, slot3)
-	slot0.actionCallback[slot1] = {
-		updateCb = slot2,
-		endCb = slot3
-	}
+slot0.playAnimsFollowFurniture = slot5
+
+function slot5(slot0, slot1)
+	slot2 = pairs
+	slot3 = slot0.roles or {}
+	slot2, slot3, slot4 = slot2(slot3)
+
+	for slot5, slot6 in slot2, slot3, slot4 do
+		slot8 = slot0
+		slot7 = slot0.getSpineNormalAction
+		slot9 = slot6
+		slot7 = slot7(slot8, slot9)
+		slot9 = slot6
+		slot8 = slot6.SetActionCallBack
+		slot10 = nil
+
+		slot8(slot9, slot10)
+
+		slot9 = slot6
+		slot8 = slot6.SetAction
+		slot10 = slot7
+		slot11 = 0
+
+		slot8(slot9, slot10, slot11)
+	end
+
+	slot3 = slot0
+	slot2 = slot0.endSpineAnimator
+	slot4 = slot0.spineFurniture
+	slot5 = slot1
+
+	slot2(slot3, slot4, slot5)
 end
 
-function slot0.removeAllActionCB(slot0)
-	slot0.actionCallback = {}
+slot0.pauseAnim = slot5
+
+function slot5(slot0, slot1, slot2, slot3)
+	slot4 = slot0.actionCallback
+	slot5 = {}
+	slot4[slot1] = slot5
+	slot4 = slot0.actionCallback
+	slot4 = slot4[slot1]
+	slot4.updateCb = slot2
+	slot4 = slot0.actionCallback
+	slot4 = slot4[slot1]
+	slot4.endCb = slot3
 end
 
-function slot0.removeActionCB(slot0, slot1)
-	slot0.actionCallback[slot1] = nil
+slot0.registerActionCB = slot5
+
+function slot5(slot0)
+	slot1 = {}
+	slot0.actionCallback = slot1
 end
 
-function slot0.callActionCB(slot0, slot1, slot2)
-	for slot6, slot7 in pairs(slot0.actionCallback) do
+slot0.removeAllActionCB = slot5
+
+function slot5(slot0, slot1)
+	slot2 = slot0.actionCallback
+	slot3 = nil
+	slot2[slot1] = slot3
+end
+
+slot0.removeActionCB = slot5
+
+function slot5(slot0, slot1, slot2)
+	slot3 = pairs
+	slot4 = slot0.actionCallback
+	slot3, slot4, slot5 = slot3(slot4)
+
+	for slot6, slot7 in slot3, slot4, slot5 do
 		if slot1 == "update" then
-			slot7.updateCb(slot2)
+			slot8 = slot7.updateCb
+			slot9 = slot2
+
+			slot8(slot9)
 		elseif slot1 == "end" then
-			slot7.endCb(slot2)
+			slot8 = slot7.endCb
+			slot9 = slot2
+
+			slot8(slot9)
 		end
 	end
 end
 
-function slot0.resumeAnim(slot0)
-	slot1 = slot0.spineFurniture
+slot0.callActionCB = slot5
 
-	if slot1:isFollowFurnitrueAnim() then
-		slot0:playAnimsFollowFurniture(slot1)
+function slot5(slot0)
+	slot1 = slot0.spineFurniture
+	slot3 = slot1
+	slot2 = slot1.isFollowFurnitrueAnim
+	slot2 = slot2(slot3)
+
+	if slot2 then
+		slot3 = slot0
+		slot2 = slot0.playAnimsFollowFurniture
+		slot4 = slot1
+
+		slot2(slot3, slot4)
 	else
-		slot0:playAnims(slot1)
+		slot3 = slot0
+		slot2 = slot0.playAnims
+		slot4 = slot1
+
+		slot2(slot3, slot4)
 	end
 end
 
-function slot0.playAnims(slot0, slot1)
-	slot2 = slot1:getSpineAnims()
+slot0.resumeAnim = slot5
+
+function slot5(slot0, slot1)
+	slot3 = slot1
+	slot2 = slot1.getSpineAnims
+	slot2 = slot2(slot3)
 	slot3 = 0
 	slot4, slot5, slot6, slot7 = nil
 
 	function slot7(slot0)
-		slot0:SetActionCallBack(nil)
+		slot2 = slot0
+		slot1 = slot0.SetActionCallBack
+		slot3 = nil
 
-		slot1, slot2 = uv0:isLoopSpineInterAction()
+		slot1(slot2, slot3)
+
+		slot1 = slot0
+		slot2 = slot1
+		slot1 = slot1.isLoopSpineInterAction
+		slot1, slot2 = slot1(slot2)
 
 		if not slot1 then
-			if uv0:hasEndAnimName() then
-				slot0:SetAction(uv0:getEndAnimName(), 0)
+			slot3 = slot0
+			slot4 = slot3
+			slot3 = slot3.hasEndAnimName
+			slot3 = slot3(slot4)
+
+			if slot3 then
+				slot3 = slot0
+				slot4 = slot3
+				slot3 = slot3.getEndAnimName
+				slot3 = slot3(slot4)
+				slot5 = slot0
+				slot4 = slot0.SetAction
+				slot6 = slot3
+				slot7 = 0
+
+				slot4(slot5, slot6, slot7)
 
 				return
 			else
-				slot0:SetAction(uv1:getSpineNormalAction(slot0), 0)
+				slot3 = slot1
+				slot4 = slot3
+				slot3 = slot3.getSpineNormalAction
+				slot5 = slot0
+				slot3 = slot3(slot4, slot5)
+				slot5 = slot0
+				slot4 = slot0.SetAction
+				slot6 = slot3
+				slot7 = 0
+
+				slot4(slot5, slot6, slot7)
 			end
 		end
 
-		if uv2 == #uv1.roles then
-			if slot1 then
-				uv1:callActionCB("end")
+		slot3 = slot2
+		slot4 = slot1
+		slot4 = slot4.roles
+		slot4 = #slot4
 
-				if slot2 == BackyardFurnitureVO.INTERACTION_LOOP_TYPE_ALL then
-					uv3()
-				elseif slot2 == BackyardFurnitureVO.INTERACTION_LOOP_TYPE_LAST_ONE then
-					if uv0:hasAnimator() then
-						uv1:endSpineAnimator(uv0)
-						uv1:setSpineAnimtorParent(uv0)
+		if slot3 == slot4 then
+			if slot1 then
+				slot3 = slot1
+				slot4 = slot3
+				slot3 = slot3.callActionCB
+				slot5 = "end"
+
+				slot3(slot4, slot5)
+
+				slot3 = BackyardFurnitureVO
+				slot3 = slot3.INTERACTION_LOOP_TYPE_ALL
+
+				if slot2 == slot3 then
+					slot3 = slot3
+
+					slot3()
+				else
+					slot3 = BackyardFurnitureVO
+					slot3 = slot3.INTERACTION_LOOP_TYPE_LAST_ONE
+
+					if slot2 == slot3 then
+						slot3 = slot0
+						slot4 = slot3
+						slot3 = slot3.hasAnimator
+						slot3 = slot3(slot4)
+
+						if slot3 then
+							slot3 = slot1
+							slot4 = slot3
+							slot3 = slot3.endSpineAnimator
+							slot5 = slot0
+
+							slot3(slot4, slot5)
+
+							slot3 = slot1
+							slot4 = slot3
+							slot3 = slot3.setSpineAnimtorParent
+							slot5 = slot0
+
+							slot3(slot4, slot5)
+						end
 					end
 				end
-			elseif uv0:hasTailAction() then
-				uv1.viewComponent.blockEvent = nil
-
-				uv1:playTailActions(uv0)
 			else
-				uv1:clearSpine()
-				uv1:updateShadowTF(true)
-				uv1:updateShadowPos()
-				uv1.viewComponent:emit(BackyardMainMediator.ADD_BOAT_MOVE, uv1.boatVO.id, true)
+				slot3 = slot0
+				slot4 = slot3
+				slot3 = slot3.hasTailAction
+				slot3 = slot3(slot4)
+
+				if slot3 then
+					slot3 = slot1
+					slot3 = slot3.viewComponent
+					slot4 = nil
+					slot3.blockEvent = slot4
+					slot3 = slot1
+					slot4 = slot3
+					slot3 = slot3.playTailActions
+					slot5 = slot0
+
+					slot3(slot4, slot5)
+				else
+					slot3 = slot1
+					slot4 = slot3
+					slot3 = slot3.clearSpine
+
+					slot3(slot4)
+
+					slot3 = slot1
+					slot4 = slot3
+					slot3 = slot3.updateShadowTF
+					slot5 = true
+
+					slot3(slot4, slot5)
+
+					slot3 = slot1
+					slot4 = slot3
+					slot3 = slot3.updateShadowPos
+
+					slot3(slot4)
+
+					slot3 = slot1
+					slot3 = slot3.viewComponent
+					slot4 = slot3
+					slot3 = slot3.emit
+					slot5 = BackyardMainMediator
+					slot5 = slot5.ADD_BOAT_MOVE
+					slot6 = slot1
+					slot6 = slot6.boatVO
+					slot6 = slot6.id
+					slot7 = true
+
+					slot3(slot4, slot5, slot6, slot7)
+				end
 			end
 		end
 	end
 
 	function slot6(slot0, slot1)
-		if slot1 > #uv0 then
-			uv1 = uv1 + 1
+		slot2 = slot0
+		slot2 = #slot2
 
-			uv2(slot0)
+		if slot1 > slot2 then
+			slot2 = slot1
+			slot2 = slot2 + 1
+			slot1 = slot2
+			slot2 = slot2
+			slot3 = slot0
+
+			slot2(slot3)
 		else
-			uv3(slot0, slot1, function ()
-				uv0 = uv0 + 1
+			slot2 = slot3
+			slot3 = slot0
+			slot4 = slot1
 
-				uv1(uv2, uv0)
-			end)
+			function slot5()
+				slot0 = slot0
+				slot0 = slot0 + 1
+				slot0 = slot0
+				slot0 = slot1
+				slot1 = slot2
+				slot2 = slot0
+
+				slot0(slot1, slot2)
+			end
+
+			slot2(slot3, slot4, slot5)
 		end
 	end
 
 	function slot5(slot0, slot1, slot2)
-		if type(uv0[slot1][1]) == "table" then
-			slot3 = slot3[math.random(1, #slot3)]
+		slot3 = slot0
+		slot3 = slot3[slot1]
+		slot3 = slot3[1]
+		slot4 = type
+		slot5 = slot3
+		slot4 = slot4(slot5)
+
+		if slot4 == "table" then
+			slot4 = math
+			slot4 = slot4.random
+			slot5 = 1
+			slot6 = #slot3
+			slot4 = slot4(slot5, slot6)
+			slot3 = slot3[slot4]
 		end
 
-		uv1:callActionCB("update", slot3)
+		slot4 = slot1
+		slot5 = slot4
+		slot4 = slot4.callActionCB
+		slot6 = "update"
+		slot7 = slot3
 
-		if slot0 == uv1.roles[1] and uv0[slot1][3] then
-			slot3 = uv0[slot1][3]
+		slot4(slot5, slot6, slot7)
+
+		slot4 = slot1
+		slot4 = slot4.roles
+		slot4 = slot4[1]
+
+		if slot0 == slot4 then
+			slot4 = slot0
+			slot4 = slot4[slot1]
+			slot4 = slot4[3]
+
+			if slot4 then
+				slot4 = slot0
+				slot4 = slot4[slot1]
+				slot3 = slot4[3]
+			end
 		end
 
-		slot4 = uv2
+		slot4 = slot2
+		slot5 = slot4
+		slot4 = slot4.getUniqueShipAction
+		slot6 = slot3
+		slot7 = slot1
+		slot7 = slot7.boatVO
+		slot7 = slot7.skinId
+		slot4 = slot4(slot5, slot6, slot7)
 
-		if slot4:getUniqueShipAction(slot3, uv1.boatVO.skinId) then
+		if slot4 then
 			slot3 = slot4
 		end
 
-		slot0:SetAction(slot3, 0)
+		slot6 = slot0
+		slot5 = slot0.SetAction
+		slot7 = slot3
+		slot8 = 0
 
-		if _.detect(uv3, function (slot0)
-			return slot0[1] == uv0 and uv1.id == slot0[3]
-		end) then
+		slot5(slot6, slot7, slot8)
+
+		slot5 = _
+		slot5 = slot5.detect
+		slot6 = slot3
+
+		function slot7(slot0)
+
+			-- Decompilation error in this vicinity:
+			slot1 = slot0[1]
+			slot2 = slot0
+
+			return slot1.id == slot0[3]
+		end
+
+		slot5 = slot5(slot6, slot7)
+
+		if slot5 then
 			slot6 = slot5[2]
+			slot7 = slot1
+			slot7 = slot7.timer
+			slot7 = slot7[slot0]
 
-			if uv1.timer[slot0] then
-				uv1.timer[slot0]:Stop()
+			if slot7 then
+				slot7 = slot1
+				slot7 = slot7.timer
+				slot7 = slot7[slot0]
+				slot8 = slot7
+				slot7 = slot7.Stop
 
-				uv1.timer[slot0] = nil
+				slot7(slot8)
+
+				slot7 = slot1
+				slot7 = slot7.timer
+				slot8 = nil
+				slot7[slot0] = slot8
 			end
 
-			uv1.timer[slot0] = Timer.New(function ()
-				uv0.timer[uv1]:Stop()
+			slot7 = slot1
+			slot7 = slot7.timer
+			slot8 = Timer
+			slot8 = slot8.New
 
-				uv0.timer[uv1] = nil
+			function slot9()
+				slot0 = slot0
+				slot0 = slot0.timer
+				slot1 = slot1
+				slot0 = slot0[slot1]
+				slot1 = slot0
+				slot0 = slot0.Stop
 
-				uv2()
-			end, slot6, 1)
+				slot0(slot1)
 
-			uv1.timer[slot0]:Start()
+				slot0 = slot0
+				slot0 = slot0.timer
+				slot1 = slot1
+				slot2 = nil
+				slot0[slot1] = slot2
+				slot0 = slot2
+
+				slot0()
+			end
+
+			slot10 = slot6
+			slot11 = 1
+			slot8 = slot8(slot9, slot10, slot11)
+			slot7[slot0] = slot8
+			slot7 = slot1
+			slot7 = slot7.timer
+			slot7 = slot7[slot0]
+			slot8 = slot7
+			slot7 = slot7.Start
+
+			slot7(slot8)
 		else
-			slot0:SetActionCallBack(function (slot0)
+			slot7 = slot0
+			slot6 = slot0.SetActionCallBack
+
+			function slot8(slot0)
 				if slot0 == "finish" then
-					uv0:SetActionCallBack(nil)
-					uv1()
+					slot1 = slot0
+					slot2 = slot1
+					slot1 = slot1.SetActionCallBack
+					slot3 = nil
+
+					slot1(slot2, slot3)
+
+					slot1 = slot1
+
+					slot1()
 				end
-			end)
-		end
-	end
-
-	slot0.timer = {}
-
-	function ()
-		if uv0:hasAnimator() then
-			uv1:endSpineAnimator(uv0)
-			uv1:startSpineAnimator(uv0)
-		end
-
-		uv2 = 0
-
-		for slot3, slot4 in pairs(uv1.roles) do
-			uv3(slot4, 1, function ()
-				uv0 = uv0 + 1
-
-				uv1(uv2, uv0)
-			end)
-		end
-	end()
-end
-
-function slot0.playTailActions(slot0, slot1)
-	for slot6, slot7 in pairs(slot0.roles) do
-		slot7:SetAction(slot1:getTailAction(), 0)
-	end
-end
-
-function slot0.startSpineAnimator(slot0, slot1, slot2)
-	slot2 = slot2 or 0
-	slot0.animtorNameIndex = slot0.animtorNameIndex or math.random(1, #slot1:getAnimtorControlName(slot2))
-	slot6 = slot0.viewComponent:GetFurnitureGo(slot1.id):Find(slot1:getAnimtorControlGoName(slot2, slot0.animtorNameIndex))
-	slot7 = slot6:GetComponent(typeof(Animator))
-
-	SetParent(slot0.tf, slot6)
-
-	if slot1:hasAnimatorMask() then
-		slot8 = slot1:getAnimatorMaskConfig()
-		slot9 = slot3:Find("mask")
-		slot9.sizeDelta = Vector2(slot8[1][1], slot8[1][2])
-		slot9.anchoredPosition = Vector3(slot8[2][1], slot8[2][2], 0)
-
-		setActive(slot9, true)
-		SetParent(slot6, slot9)
-	end
-
-	if slot6:GetComponent(typeof(DftAniEvent)) then
-		slot9 = 1
-
-		slot8:SetTriggerEvent(function (slot0)
-			if uv0.localScale.x < 0 then
-				uv1 = -1
-
-				uv2:changeInnerDir(1)
-			end
-		end)
-		slot8:SetEndEvent(function (slot0)
-			if uv0 == -1 then
-				uv1:changeInnerDir(-1)
-
-				uv0 = 1
-			end
-		end)
-	end
-
-	slot0.inAnimator = true
-
-	setActive(slot6, true)
-end
-
-function slot0.endSpineAnimator(slot0, slot1, slot2, slot3)
-	if not slot0.animtorNameIndex then
-		return
-	end
-
-	if slot1 and slot1:hasAnimator() then
-		slot4 = slot0.viewComponent
-
-		if slot4:GetFurnitureGo(slot1.id) then
-			slot5 = nil
-
-			if slot1:hasAnimatorMask() then
-				slot5 = slot4:Find("mask/" .. slot1:getAnimtorControlGoName(slot2 or 0, slot0.animtorNameIndex))
-
-				if not slot3 then
-					setActive(slot4:Find("mask"), false)
-				end
-
-				SetParent(slot5, slot4)
-			else
-				slot5 = slot4:Find(slot6)
 			end
 
-			if slot5:GetComponent(typeof(DftAniEvent)) then
-				slot7:SetTriggerEvent(nil)
-				slot7:SetTriggerEvent(nil)
-			end
-
-			setActive(slot5, false)
+			slot6(slot7, slot8)
 		end
 	end
 
-	slot0.animtorNameIndex = nil
-	slot0.inAnimator = nil
-end
+	slot8 = {}
+	slot0.timer = slot8
 
-function slot0.setSpineAnimtorParent(slot0, slot1)
-	if slot1 and slot1:hasAnimator() then
-		slot2 = slot0.viewComponent
+	function slot4()
+		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.hasAnimator
+		slot0 = slot0(slot1)
 
-		if slot2:GetFurnitureGo(slot1.id) then
-			SetParent(slot0.tf, slot2, true)
+		if slot0 then
+			slot0 = slot1
+			slot1 = slot0
+			slot0 = slot0.endSpineAnimator
+			slot2 = slot0
+
+			slot0(slot1, slot2)
+
+			slot0 = slot1
+			slot1 = slot0
+			slot0 = slot0.startSpineAnimator
+			slot2 = slot0
+
+			slot0(slot1, slot2)
 		end
-	end
-end
 
-function slot0.breakSpineAnim(slot0, slot1)
-	if slot0.roles and #slot0.roles > 0 then
 		slot2 = 0
+		slot0 = pairs
+		slot1 = slot1
+		slot1 = slot1.roles
+		slot0, slot1, slot2 = slot0(slot1)
 
-		function slot3(slot0)
-			uv0 = uv0 + 1
+		for slot3, slot4 in slot0, slot1, slot2 do
+			slot5 = 1
+			slot6 = slot3
+			slot7 = slot4
+			slot8 = slot5
 
-			slot0:SetAction(uv1:getSpineNormalAction(slot0), 0)
-			slot0:SetActionCallBack(nil)
+			function slot9()
+				slot0 = slot0
+				slot0 = slot0 + 1
+				slot0 = slot0
+				slot0 = slot1
+				slot1 = slot2
+				slot2 = slot0
 
-			if uv0 == #uv1.roles then
-				uv1:clearSpine()
+				slot0(slot1, slot2)
+			end
 
-				if uv2 then
-					uv2()
+			slot6(slot7, slot8, slot9)
+		end
+	end
+
+	slot8 = slot4
+
+	slot8()
+end
+
+slot0.playAnims = slot5
+
+function slot5(slot0, slot1)
+	slot3 = slot1
+	slot2 = slot1.getTailAction
+	slot2 = slot2(slot3)
+	slot3 = pairs
+	slot4 = slot0.roles
+	slot3, slot4, slot5 = slot3(slot4)
+
+	for slot6, slot7 in slot3, slot4, slot5 do
+		slot9 = slot7
+		slot8 = slot7.SetAction
+		slot10 = slot2
+		slot11 = 0
+
+		slot8(slot9, slot10, slot11)
+	end
+end
+
+slot0.playTailActions = slot5
+
+function slot5(slot0, slot1, slot2)
+	slot3 = slot0.viewComponent:GetFurnitureGo(slot1.id)
+	slot4 = slot1:getAnimtorControlName(slot2 or 0)
+	slot5 = slot0.animtorNameIndex
+
+	if not slot5 then
+		slot5 = math
+		slot5 = slot5.random
+		slot6 = 1
+		slot7 = #slot4
+		slot5 = slot5(slot6, slot7)
+	end
+
+	slot0.animtorNameIndex = slot5
+	slot6 = slot1
+	slot5 = slot1.getAnimtorControlGoName
+	slot7 = slot2
+	slot8 = slot0.animtorNameIndex
+	slot5 = slot5(slot6, slot7, slot8)
+	slot7 = slot3
+	slot6 = slot3.Find
+	slot8 = slot5
+	slot6 = slot6(slot7, slot8)
+	slot8 = slot6
+	slot7 = slot6.GetComponent
+	slot9 = typeof
+	slot10 = Animator
+	slot7 = slot7(slot8, slot9(slot10))
+	slot8 = SetParent
+	slot9 = slot0.tf
+	slot10 = slot6
+
+	slot8(slot9, slot10)
+
+	slot9 = slot1
+	slot8 = slot1.hasAnimatorMask
+	slot8 = slot8(slot9)
+
+	if slot8 then
+		slot9 = slot1
+		slot8 = slot1.getAnimatorMaskConfig
+		slot8 = slot8(slot9)
+		slot10 = slot3
+		slot9 = slot3.Find
+		slot11 = "mask"
+		slot9 = slot9(slot10, slot11)
+		slot10 = Vector2
+		slot11 = slot8[1]
+		slot11 = slot11[1]
+		slot12 = slot8[1]
+		slot12 = slot12[2]
+		slot10 = slot10(slot11, slot12)
+		slot9.sizeDelta = slot10
+		slot10 = Vector3
+		slot11 = slot8[2]
+		slot11 = slot11[1]
+		slot12 = slot8[2]
+		slot12 = slot12[2]
+		slot13 = 0
+		slot10 = slot10(slot11, slot12, slot13)
+		slot9.anchoredPosition = slot10
+		slot10 = setActive
+		slot11 = slot9
+		slot12 = true
+
+		slot10(slot11, slot12)
+
+		slot10 = SetParent
+		slot11 = slot6
+		slot12 = slot9
+
+		slot10(slot11, slot12)
+	end
+
+	slot9 = slot6
+	slot8 = slot6.GetComponent
+	slot10 = typeof
+	slot11 = DftAniEvent
+	slot8 = slot8(slot9, slot10(slot11))
+
+	if slot8 then
+		slot9 = 1
+		slot11 = slot8
+		slot10 = slot8.SetTriggerEvent
+
+		function slot12(slot0)
+			slot1 = slot0
+			slot1 = slot1.localScale
+			slot1 = slot1.x
+			slot2 = 0
+
+			if slot1 < slot2 then
+				slot1 = -1
+				slot1 = slot2
+				slot2 = slot1
+				slot1 = slot1.changeInnerDir
+				slot3 = 1
+
+				slot1(slot2, slot3)
+			end
+		end
+
+		slot10(slot11, slot12)
+
+		slot11 = slot8
+		slot10 = slot8.SetEndEvent
+
+		function slot12(slot0)
+			slot1 = slot0
+
+			if slot1 == -1 then
+				slot1 = slot1
+				slot2 = slot1
+				slot1 = slot1.changeInnerDir
+				slot3 = -1
+
+				slot1(slot2, slot3)
+
+				slot0 = 1
+			end
+		end
+
+		slot10(slot11, slot12)
+	end
+
+	slot9 = true
+	slot0.inAnimator = slot9
+	slot9 = setActive
+	slot10 = slot6
+	slot11 = true
+
+	slot9(slot10, slot11)
+end
+
+slot0.startSpineAnimator = slot5
+
+function slot5(slot0, slot1, slot2, slot3)
+	slot4 = slot0.animtorNameIndex
+
+	if not slot4 then
+		return
+	end
+
+	slot2 = slot2 or 0
+
+	if slot1 then
+		slot5 = slot1
+		slot4 = slot1.hasAnimator
+		slot4 = slot4(slot5)
+
+		if slot4 then
+			slot4 = slot0.viewComponent
+			slot5 = slot4
+			slot4 = slot4.GetFurnitureGo
+			slot6 = slot1.id
+			slot4 = slot4(slot5, slot6)
+
+			if slot4 then
+				slot5 = nil
+				slot7 = slot1
+				slot6 = slot1.getAnimtorControlGoName
+				slot8 = slot2
+				slot9 = slot0.animtorNameIndex
+				slot6 = slot6(slot7, slot8, slot9)
+				slot8 = slot1
+				slot7 = slot1.hasAnimatorMask
+				slot7 = slot7(slot8)
+
+				if slot7 then
+					slot8 = slot4
+					slot7 = slot4.Find
+					slot9 = "mask/"
+					slot10 = slot6
+					slot9 = slot9 .. slot10
+					slot7 = slot7(slot8, slot9)
+					slot5 = slot7
+					slot8 = slot4
+					slot7 = slot4.Find
+					slot9 = "mask"
+					slot7 = slot7(slot8, slot9)
+
+					if not slot3 then
+						slot8 = setActive
+						slot9 = slot7
+						slot10 = false
+
+						slot8(slot9, slot10)
+					end
+
+					slot8 = SetParent
+					slot9 = slot5
+					slot10 = slot4
+
+					slot8(slot9, slot10)
+				else
+					slot8 = slot4
+					slot7 = slot4.Find
+					slot9 = slot6
+					slot7 = slot7(slot8, slot9)
+					slot5 = slot7
+				end
+
+				slot8 = slot5
+				slot7 = slot5.GetComponent
+				slot9 = typeof
+				slot10 = DftAniEvent
+				slot7 = slot7(slot8, slot9(slot10))
+
+				if slot7 then
+					slot9 = slot7
+					slot8 = slot7.SetTriggerEvent
+					slot10 = nil
+
+					slot8(slot9, slot10)
+
+					slot9 = slot7
+					slot8 = slot7.SetTriggerEvent
+					slot10 = nil
+
+					slot8(slot9, slot10)
+				end
+
+				slot8 = setActive
+				slot9 = slot5
+				slot10 = false
+
+				slot8(slot9, slot10)
+			end
+		end
+	end
+
+	slot4 = nil
+	slot0.animtorNameIndex = slot4
+	slot4 = nil
+	slot0.inAnimator = slot4
+end
+
+slot0.endSpineAnimator = slot5
+
+function slot5(slot0, slot1)
+	if slot1 then
+		slot3 = slot1
+		slot2 = slot1.hasAnimator
+		slot2 = slot2(slot3)
+
+		if slot2 then
+			slot2 = slot0.viewComponent
+			slot3 = slot2
+			slot2 = slot2.GetFurnitureGo
+			slot4 = slot1.id
+			slot2 = slot2(slot3, slot4)
+
+			if slot2 then
+				slot3 = SetParent
+				slot4 = slot0.tf
+				slot5 = slot2
+				slot6 = true
+
+				slot3(slot4, slot5, slot6)
+			end
+		end
+	end
+end
+
+slot0.setSpineAnimtorParent = slot5
+
+function slot5(slot0, slot1)
+	slot2 = slot0.roles
+
+	if slot2 then
+		slot2 = slot0.roles
+		slot2 = #slot2
+		slot3 = 0
+
+		if slot2 > slot3 then
+			slot2 = 0
+
+			function slot3(slot0)
+				slot1 = slot0
+				slot1 = slot1 + 1
+				slot0 = slot1
+				slot1 = slot1
+				slot2 = slot1
+				slot1 = slot1.getSpineNormalAction
+				slot3 = slot0
+				slot1 = slot1(slot2, slot3)
+				slot3 = slot0
+				slot2 = slot0.SetAction
+				slot4 = slot1
+				slot5 = 0
+
+				slot2(slot3, slot4, slot5)
+
+				slot3 = slot0
+				slot2 = slot0.SetActionCallBack
+				slot4 = nil
+
+				slot2(slot3, slot4)
+
+				slot2 = slot0
+				slot3 = slot1
+				slot3 = slot3.roles
+				slot3 = #slot3
+
+				if slot2 == slot3 then
+					slot2 = slot1
+					slot3 = slot2
+					slot2 = slot2.clearSpine
+
+					slot2(slot3)
+
+					slot2 = slot2
+
+					if slot2 then
+						slot2 = slot2
+
+						slot2()
+					end
 				end
 			end
-		end
 
-		for slot7, slot8 in pairs(slot0.roles) do
-			slot8:SetActionCallBack(nil)
+			slot4 = pairs
+			slot5 = slot0.roles
+			slot4, slot5, slot6 = slot4(slot5)
 
-			if slot0.breakActionName then
-				slot8:SetAction(slot0.breakActionName, 0)
-				slot8:SetActionCallBack(function (slot0)
-					if slot0 == "finish" then
-						uv0(uv1)
+			for slot7, slot8 in slot4, slot5, slot6 do
+				slot10 = slot8
+				slot9 = slot8.SetActionCallBack
+				slot11 = nil
+
+				slot9(slot10, slot11)
+
+				slot9 = slot0.breakActionName
+
+				if slot9 then
+					slot10 = slot8
+					slot9 = slot8.SetAction
+					slot11 = slot0.breakActionName
+					slot12 = 0
+
+					slot9(slot10, slot11, slot12)
+
+					slot10 = slot8
+					slot9 = slot8.SetActionCallBack
+
+					function slot11(slot0)
+						if slot0 == "finish" then
+							slot1 = slot0
+							slot2 = slot1
+
+							slot1(slot2)
+						end
 					end
-				end)
-			else
-				slot3(slot8)
-			end
-		end
 
-		return
+					slot9(slot10, slot11)
+				else
+					slot9 = slot3
+					slot10 = slot8
+
+					slot9(slot10)
+				end
+			end
+
+			return
+		end
 	end
 
 	if slot1 then
-		slot1()
+		slot2 = slot1
+
+		slot2()
 	end
 end
 
-function slot0.getSpineNormalAction(slot0, slot1)
-	if slot1 == slot0.spineAnimUI then
-		return "stand2"
-	elseif slot0.spineFurniture then
-		slot2, slot3 = slot0.spineFurniture:getSpineName()
+slot0.breakSpineAnim = slot5
 
-		return slot3 and slot3 or "normal"
+function slot5(slot0, slot1)
+	slot2 = slot0.spineAnimUI
+
+	if slot1 == slot2 then
+		slot2 = "stand2"
+
+		return slot2
+	else
+		slot2 = slot0.spineFurniture
+
+		if slot2 then
+			slot2, slot3 = slot0.spineFurniture:getSpineName()
+
+			return (slot3 and slot3) or "normal"
+		end
 	end
 
-	return "stand2"
+	slot2 = "stand2"
+
+	return slot2
 end
 
-function slot0.clearSpine(slot0)
-	slot0.viewComponent:emit(BackyardMainMediator.CLEAR_SPINE, slot0.boatVO.id)
+slot0.getSpineNormalAction = slot5
+
+function slot5(slot0)
+	slot1 = slot0.viewComponent
+	slot2 = slot1
+	slot1 = slot1.emit
+	slot3 = BackyardMainMediator
+	slot3 = slot3.CLEAR_SPINE
+	slot4 = slot0.boatVO
+	slot4 = slot4.id
+
+	slot1(slot2, slot3, slot4)
 end
 
-function slot0.clearSpineInteraction(slot0, slot1)
-	uv0.print("clear spine interaction.............")
+slot0.clearSpine = slot5
 
-	for slot5, slot6 in pairs(slot0.roles) do
-		slot6:SetActionCallBack(nil)
-		slot6:SetAction(slot0:getSpineNormalAction(slot6), 0)
+function slot5(slot0, slot1)
+	slot2 = slot0
+	slot2 = slot2.print
+	slot3 = "clear spine interaction............."
+
+	slot2(slot3)
+
+	slot2 = pairs
+	slot3 = slot0.roles
+	slot2, slot3, slot4 = slot2(slot3)
+
+	for slot5, slot6 in slot2, slot3, slot4 do
+		slot8 = slot0
+		slot7 = slot0.getSpineNormalAction
+		slot9 = slot6
+		slot7 = slot7(slot8, slot9)
+		slot9 = slot6
+		slot8 = slot6.SetActionCallBack
+		slot10 = nil
+
+		slot8(slot9, slot10)
+
+		slot9 = slot6
+		slot8 = slot6.SetAction
+		slot10 = slot7
+		slot11 = 0
+
+		slot8(slot9, slot10, slot11)
 
 		if slot5 == 3 then
-			setActive(tf(go(slot6)).parent, false)
+			slot8 = setActive
+			slot9 = tf
+			slot10 = go
+			slot11 = slot6
+			slot9 = slot9(slot10(slot11))
+			slot9 = slot9.parent
+			slot10 = false
+
+			slot8(slot9, slot10)
 		end
 
-		if slot0.timer and slot0.timer[slot6] then
-			slot0.timer[slot6]:Stop()
+		slot8 = slot0.timer
 
-			slot0.timer[slot6] = nil
+		if slot8 then
+			slot8 = slot0.timer
+			slot8 = slot8[slot6]
+
+			if slot8 then
+				slot8 = slot0.timer
+				slot8 = slot8[slot6]
+				slot9 = slot8
+				slot8 = slot8.Stop
+
+				slot8(slot9)
+
+				slot8 = slot0.timer
+				slot9 = nil
+				slot8[slot6] = slot9
+			end
 		end
 	end
 
-	slot0.roles = {}
-	slot0.model.localScale = Vector3(1, 1, 1)
+	slot2 = {}
+	slot0.roles = slot2
+	slot2 = slot0.model
+	slot3 = Vector3
+	slot4 = 1
+	slot5 = 1
+	slot6 = 1
+	slot3 = slot3(slot4, slot5, slot6)
+	slot2.localScale = slot3
+	slot3 = slot0
+	slot2 = slot0.endSpineAnimator
+	slot4 = slot0.spineFurniture
 
-	slot0:endSpineAnimator(slot0.spineFurniture)
-	SetParent(slot0.tf, slot0.viewComponent.floorContain, true)
+	slot2(slot3, slot4)
 
-	if slot0.spineFurniture then
-		if slot0.spineFurniture:getSpineAniPos() then
-			slot0.tf.localPosition = uv0.getLocalPos(slot0.spineFurniture:getSpineAinTriggerPos())
+	slot2 = SetParent
+	slot3 = slot0.tf
+	slot4 = slot0.viewComponent
+	slot4 = slot4.floorContain
+	slot5 = true
+
+	slot2(slot3, slot4, slot5)
+
+	slot2 = slot0.spineFurniture
+
+	if slot2 then
+		slot2 = slot0.spineFurniture
+		slot3 = slot2
+		slot2 = slot2.getSpineAniPos
+		slot2 = slot2(slot3)
+
+		if slot2 then
+			slot2 = slot0.spineFurniture
+			slot3 = slot2
+			slot2 = slot2.getSpineAinTriggerPos
+			slot2 = slot2(slot3)
+			slot3 = slot0.tf
+			slot4 = slot0
+			slot4 = slot4.getLocalPos
+			slot5 = slot2
+			slot4 = slot4(slot5)
+			slot3.localPosition = slot4
 		end
 	end
 
-	slot0:closeBodyMask()
+	slot3 = slot0
+	slot2 = slot0.closeBodyMask
 
-	slot0.spineFurniture = nil
-	slot0.breakActionName = nil
-	slot0.tf.localScale = Vector3(uv1, uv1, 1)
-	slot0.tf.eulerAngles = Vector3(0, 0, 0)
+	slot2(slot3)
+
+	slot2 = nil
+	slot0.spineFurniture = slot2
+	slot2 = nil
+	slot0.breakActionName = slot2
+	slot2 = slot0.tf
+	slot3 = Vector3
+	slot4 = slot1
+	slot5 = slot1
+	slot6 = 1
+	slot3 = slot3(slot4, slot5, slot6)
+	slot2.localScale = slot3
+	slot2 = slot0.tf
+	slot3 = Vector3
+	slot4 = 0
+	slot5 = 0
+	slot6 = 0
+	slot3 = slot3(slot4, slot5, slot6)
+	slot2.eulerAngles = slot3
 	slot0.save = slot1
 end
 
-function slot0.updateStageInterAction(slot0, slot1)
-	slot2 = slot0.boatVO:getStageId()
+slot0.clearSpineInteraction = slot5
+
+function slot5(slot0, slot1)
+	slot2 = slot0.boatVO
+	slot3 = slot2
+	slot2 = slot2.getStageId
+	slot2 = slot2(slot3)
 
 	if slot1 and slot2 then
-		slot0.isMove = false
+		slot3 = false
+		slot0.isMove = slot3
 		slot3 = slot2
+		slot4 = slot0.viewComponent
+		slot5 = slot4
+		slot4 = slot4.GetFurnitureGo
+		slot6 = slot3
+		slot4 = slot4(slot5, slot6)
+		slot6 = slot4
+		slot5 = slot4.Find
+		slot7 = "childs"
+		slot5 = slot5(slot6, slot7)
+		slot7 = slot0
+		slot6 = slot0.removeItem
 
-		slot0:removeItem()
+		slot6(slot7)
 
 		slot0.stageId = slot2
+		slot6 = SetParent
+		slot7 = slot0.tf
+		slot8 = slot5
 
-		SetParent(slot0.tf, slot0.viewComponent:GetFurnitureGo(slot3):Find("childs"))
-		slot0:createItem(slot0.boatVO:getPosition())
+		slot6(slot7, slot8)
 
-		slot0.tf.localPosition = slot0:calcOnFurnitureLPos(slot1, slot0.stageId)
+		slot7 = slot0
+		slot6 = slot0.createItem
+		slot8 = slot0.boatVO
+		slot9 = slot8
+		slot8 = slot8.getPosition
 
-		slot0.spineAnimUI:SetAction("stand2", 0)
+		slot6(slot7, slot8(slot9))
 
-		if slot0.viewComponent.maps[slot3] then
-			slot0.viewComponent.maps[slot3].afterSortFunc(slot0.viewComponent.maps[slot3].sortedItems)
+		slot7 = slot0
+		slot6 = slot0.calcOnFurnitureLPos
+		slot8 = slot1
+		slot9 = slot0.stageId
+		slot6 = slot6(slot7, slot8, slot9)
+		slot7 = slot0.tf
+		slot7.localPosition = slot6
+		slot7 = slot0.spineAnimUI
+		slot8 = slot7
+		slot7 = slot7.SetAction
+		slot9 = "stand2"
+		slot10 = 0
+
+		slot7(slot8, slot9, slot10)
+
+		slot7 = slot0.viewComponent
+		slot7 = slot7.maps
+		slot7 = slot7[slot3]
+
+		if slot7 then
+			slot7 = slot0.viewComponent
+			slot7 = slot7.maps
+			slot7 = slot7[slot3]
+			slot7 = slot7.afterSortFunc
+			slot8 = slot0.viewComponent
+			slot8 = slot8.maps
+			slot8 = slot8[slot3]
+			slot8 = slot8.sortedItems
+
+			slot7(slot8)
 		end
 
-		slot0.viewComponent:emit(BackyardMainMediator.ADD_MOVE_FURNITURE, slot0.boatVO.id, slot3)
-		slot0:updateShadowTF(false)
+		slot7 = slot0.viewComponent
+		slot8 = slot7
+		slot7 = slot7.emit
+		slot9 = BackyardMainMediator
+		slot9 = slot9.ADD_MOVE_FURNITURE
+		slot10 = slot0.boatVO
+		slot10 = slot10.id
+		slot11 = slot3
+
+		slot7(slot8, slot9, slot10, slot11)
+
+		slot8 = slot0
+		slot7 = slot0.updateShadowTF
+		slot9 = false
+
+		slot7(slot8, slot9)
 	end
 end
 
-function slot0.clearStageInterAction(slot0)
-	slot0.stageId = nil
+slot0.updateStageInterAction = slot5
 
-	SetParent(slot0.tf, slot0.floorGrid)
+function slot5(slot0)
+	slot1 = nil
+	slot0.stageId = slot1
+	slot1 = SetParent
+	slot2 = slot0.tf
+	slot3 = slot0.floorGrid
+
+	slot1(slot2, slot3)
 end
 
-function slot0.clearStage(slot0)
-	if slot0.stageId then
-		slot0.viewComponent:emit(BackyardMainMediator.CLEAR_STAGE_INTERACTION, slot0.boatVO.id)
+slot0.clearStageInterAction = slot5
+
+function slot5(slot0)
+	slot1 = slot0.stageId
+
+	if slot1 then
+		slot1 = slot0.viewComponent
+		slot2 = slot1
+		slot1 = slot1.emit
+		slot3 = BackyardMainMediator
+		slot3 = slot3.CLEAR_STAGE_INTERACTION
+		slot4 = slot0.boatVO
+		slot4 = slot4.id
+
+		slot1(slot2, slot3, slot4)
 	end
 end
 
-function slot0.updateArchInterAction(slot0, slot1)
-	slot0:removeItem()
+slot0.clearStage = slot5
 
-	if slot0.nextPosition then
-		slot0.targetLPosition = slot0:calcOnFurnitureLPos(slot0.nextPosition, slot1)
+function slot5(slot0, slot1)
+	slot3 = slot0
+	slot2 = slot0.removeItem
+
+	slot2(slot3)
+
+	slot2 = slot0.nextPosition
+
+	if slot2 then
+		slot3 = slot0
+		slot2 = slot0.calcOnFurnitureLPos
+		slot4 = slot0.nextPosition
+		slot5 = slot1
+		slot2 = slot2(slot3, slot4, slot5)
+		slot0.targetLPosition = slot2
 	end
 
 	slot0.archId = slot1
-	slot2 = slot0.viewComponent:GetFurnitureGo(slot1)
+	slot2 = slot0.viewComponent
+	slot3 = slot2
+	slot2 = slot2.GetFurnitureGo
+	slot4 = slot1
+	slot2 = slot2(slot3, slot4)
+	slot3 = SetParent
+	slot4 = slot0.tf
+	slot6 = slot2
+	slot5 = slot2.Find
+	slot7 = "childs"
+	slot5 = slot5(slot6, slot7)
+	slot6 = true
 
-	SetParent(slot0.tf, slot2:Find("childs"), true)
+	slot3(slot4, slot5, slot6)
 
-	if slot2:Find(BackYardConst.ARCH_MASK_NAME) then
-		slot3:SetAsLastSibling()
-		setActive(slot3, true)
+	slot4 = slot2
+	slot3 = slot2.Find
+	slot5 = BackYardConst
+	slot5 = slot5.ARCH_MASK_NAME
+	slot3 = slot3(slot4, slot5)
+
+	if slot3 then
+		slot5 = slot3
+		slot4 = slot3.SetAsLastSibling
+
+		slot4(slot5)
+
+		slot4 = setActive
+		slot5 = slot3
+		slot6 = true
+
+		slot4(slot5, slot6)
 	end
 
-	slot0:createItem(slot0.boatVO:getPosition())
+	slot5 = slot0
+	slot4 = slot0.createItem
+	slot6 = slot0.boatVO
+	slot7 = slot6
+	slot6 = slot6.getPosition
+
+	slot4(slot5, slot6(slot7))
 end
 
-function slot0.clearArchInterAction(slot0)
-	slot0:removeItem()
+slot0.updateArchInterAction = slot5
 
-	if slot0.nextPosition then
-		if slot0.stageId then
-			slot0.targetLPosition = slot0:calcOnFurnitureLPos(slot0.nextPosition, slot0.stageId)
+function slot5(slot0)
+	slot2 = slot0
+	slot1 = slot0.removeItem
+
+	slot1(slot2)
+
+	slot1 = slot0.nextPosition
+
+	if slot1 then
+		slot1 = slot0.stageId
+
+		if slot1 then
+			slot2 = slot0
+			slot1 = slot0.calcOnFurnitureLPos
+			slot3 = slot0.nextPosition
+			slot4 = slot0.stageId
+			slot1 = slot1(slot2, slot3, slot4)
+			slot0.targetLPosition = slot1
 		else
-			slot0.targetLPosition = uv0.getLocalPos(slot0.nextPosition)
+			slot1 = slot0
+			slot1 = slot1.getLocalPos
+			slot2 = slot0.nextPosition
+			slot1 = slot1(slot2)
+			slot0.targetLPosition = slot1
 		end
 	end
 
-	if slot0.stageId then
-		SetParent(slot0.tf, slot0.viewComponent:GetFurnitureGo(slot0.stageId):Find("childs"), true)
+	slot1 = slot0.stageId
+
+	if slot1 then
+		slot1 = slot0.viewComponent
+		slot2 = slot1
+		slot1 = slot1.GetFurnitureGo
+		slot3 = slot0.stageId
+		slot1 = slot1(slot2, slot3)
+		slot2 = SetParent
+		slot3 = slot0.tf
+		slot5 = slot1
+		slot4 = slot1.Find
+		slot6 = "childs"
+		slot4 = slot4(slot5, slot6)
+		slot5 = true
+
+		slot2(slot3, slot4, slot5)
 	else
-		SetParent(slot0.tf, slot0.floorGrid, true)
+		slot1 = SetParent
+		slot2 = slot0.tf
+		slot3 = slot0.floorGrid
+		slot4 = true
+
+		slot1(slot2, slot3, slot4)
 	end
 
-	if slot0.viewComponent:GetFurnitureGo(slot0.archId):Find(BackYardConst.ARCH_MASK_NAME) then
-		setActive(slot2, false)
+	slot1 = slot0.viewComponent
+	slot2 = slot1
+	slot1 = slot1.GetFurnitureGo
+	slot3 = slot0.archId
+	slot1 = slot1(slot2, slot3)
+	slot3 = slot1
+	slot2 = slot1.Find
+	slot4 = BackYardConst
+	slot4 = slot4.ARCH_MASK_NAME
+	slot2 = slot2(slot3, slot4)
+
+	if slot2 then
+		slot3 = setActive
+		slot4 = slot2
+		slot5 = false
+
+		slot3(slot4, slot5)
 	end
 
-	slot0.archId = nil
+	slot3 = nil
+	slot0.archId = slot3
+	slot4 = slot0
+	slot3 = slot0.createItem
+	slot5 = slot0.boatVO
+	slot6 = slot5
+	slot5 = slot5.getPosition
 
-	slot0:createItem(slot0.boatVO:getPosition())
+	slot3(slot4, slot5(slot6))
 end
 
-function slot0.calcOnFurnitureLPos(slot0, slot1, slot2)
-	return uv0.turnTransformLocalPos(uv0.getLocalPos(slot1), slot0.floorGrid, slot0.viewComponent:GetFurnitureGo(slot2):Find("childs"))
+slot0.clearArchInterAction = slot5
+
+function slot5(slot0, slot1, slot2)
+	slot3 = slot0.viewComponent
+	slot4 = slot3
+	slot3 = slot3.GetFurnitureGo
+	slot5 = slot2
+	slot3 = slot3(slot4, slot5)
+	slot5 = slot3
+	slot4 = slot3.Find
+	slot6 = "childs"
+	slot4 = slot4(slot5, slot6)
+	slot5 = slot0
+	slot5 = slot5.getLocalPos
+	slot6 = slot1
+	slot5 = slot5(slot6)
+	slot6 = slot0
+	slot6 = slot6.turnTransformLocalPos
+	slot7 = slot5
+	slot8 = slot0.floorGrid
+	slot9 = slot4
+
+	return slot6(slot7, slot8, slot9)
 end
 
-function slot0.moveOnFurniture(slot0, slot1, slot2, slot3)
+slot0.calcOnFurnitureLPos = slot5
+
+function slot5(slot0, slot1, slot2, slot3)
 	slot4 = slot0.stageId
 	slot5 = nil
+	slot6 = slot0.archId
 
-	slot0:startMove((not slot0.archId or slot0:calcOnFurnitureLPos(slot1, slot0.archId)) and slot0:calcOnFurnitureLPos(slot1, slot0.stageId), slot1, slot2, slot3)
+	if slot6 then
+		slot7 = slot0
+		slot6 = slot0.calcOnFurnitureLPos
+		slot8 = slot1
+		slot9 = slot0.archId
+		slot6 = slot6(slot7, slot8, slot9)
+		slot5 = slot6
+	else
+		slot7 = slot0
+		slot6 = slot0.calcOnFurnitureLPos
+		slot8 = slot1
+		slot9 = slot0.stageId
+		slot6 = slot6(slot7, slot8, slot9)
+		slot5 = slot6
+	end
+
+	slot7 = slot0
+	slot6 = slot0.startMove
+	slot8 = slot5
+	slot9 = slot1
+	slot10 = slot2
+	slot11 = slot3
+
+	slot6(slot7, slot8, slot9, slot10, slot11)
 end
 
-function slot0.move(slot0, slot1, slot2, slot3)
+slot0.moveOnFurniture = slot5
+
+function slot5(slot0, slot1, slot2, slot3)
 	slot4 = nil
+	slot5 = slot0.archId
 
-	slot0:startMove((not slot0.archId or slot0:calcOnFurnitureLPos(slot1, slot0.archId)) and uv0.getLocalPos(slot1), slot1, slot2, slot3)
+	if slot5 then
+		slot6 = slot0
+		slot5 = slot0.calcOnFurnitureLPos
+		slot7 = slot1
+		slot8 = slot0.archId
+		slot5 = slot5(slot6, slot7, slot8)
+		slot4 = slot5
+	else
+		slot5 = slot0
+		slot5 = slot5.getLocalPos
+		slot6 = slot1
+		slot5 = slot5(slot6)
+		slot4 = slot5
+	end
+
+	slot6 = slot0
+	slot5 = slot0.startMove
+	slot7 = slot4
+	slot8 = slot1
+	slot9 = slot2
+	slot10 = slot3
+
+	slot5(slot6, slot7, slot8, slot9, slot10)
 end
 
-function slot0.startMove(slot0, slot1, slot2, slot3, slot4)
-	slot5 = math.floor(1 / slot0.speed)
+slot0.move = slot5
+
+function slot5(slot0, slot1, slot2, slot3, slot4)
+	slot5 = math
+	slot5 = slot5.floor
+	slot6 = slot0.speed
+	slot6 = 1 / slot6
+	slot5 = slot5(slot6)
 	slot0.nextPosition = slot2
 	slot0.targetLPosition = slot1
+	slot6 = slot0.isMove
 
-	if not slot0.isMove then
-		slot0.spineAnimUI:SetAction("walk", 0)
+	if not slot6 then
+		slot6 = slot0.spineAnimUI
+		slot7 = slot6
+		slot6 = slot6.SetAction
+		slot8 = "walk"
+		slot9 = 0
 
-		slot0.isMove = true
+		slot6(slot7, slot8, slot9)
+
+		slot6 = true
+		slot0.isMove = slot6
 	end
 
 	slot6 = slot0.boatVO
-	slot7 = uv0.getSign(slot2.x < slot6:getPosition().x and slot2.y == slot6.y or slot2.x == slot6.x and slot6.y < slot2.y)
-	slot8 = 1
+	slot7 = slot6
+	slot6 = slot6.getPosition
+	slot6 = slot6(slot7)
+	slot7 = slot0
+	slot7 = slot7.getSign
+	slot8 = slot2.x
+	slot9 = slot6.x
 
-	if slot0.stageId then
-		slot8 = slot0.viewComponent:GetFurnitureGo(slot0.stageId).localScale.x
+	if slot8 < slot9 then
+		slot8 = slot2.y
+		slot9 = slot6.y
+
+		if slot8 ~= slot9 then
+			slot8 = slot2.x
+			slot9 = slot6.x
+
+			if slot8 == slot9 then
+				slot7 = slot7(slot6.y < slot2.y)
+				slot8 = 1
+				slot9 = slot0.stageId
+
+				if slot9 then
+					slot9 = slot0.viewComponent
+					slot10 = slot9
+					slot9 = slot9.GetFurnitureGo
+					slot11 = slot0.stageId
+					slot9 = slot9(slot10, slot11)
+					slot10 = slot9.localScale
+					slot8 = slot10.x
+				end
+			end
+		end
 	end
 
-	slot0.tf.localScale = Vector3(uv1 * slot7 * slot8, uv1, 1)
+	slot9 = slot0.tf
+	slot10 = Vector3
+	slot11 = slot1
+	slot11 = slot11 * slot7
+	slot11 = slot11 * slot8
+	slot12 = slot1
+	slot13 = 1
+	slot10 = slot10(slot11, slot12, slot13)
+	slot9.localScale = slot10
+	slot10 = slot0
+	slot9 = slot0.changeInnerDir
+	slot11 = slot7
 
-	slot0:changeInnerDir(slot7)
+	slot9(slot10, slot11)
 
-	slot0.moveNextTimer = Timer.New(function ()
-		if uv0.moveNextTimer then
-			uv0.moveNextTimer:Stop()
+	function slot9(slot0)
+		slot1 = slot0
+		slot1 = slot1.shadowTF
+		slot2 = Vector2
+		slot3 = slot1
+		slot4 = 1
+		slot2 = slot2(slot3, slot4)
+		slot1.localScale = slot2
+		slot1 = LeanTween
+		slot1 = slot1.moveLocal
+		slot2 = slot0
+		slot2 = slot2.go
+		slot3 = Vector3
+		slot4 = slot0.x
+		slot5 = slot0.y
+		slot6 = slot2
+		slot5 = slot5 + slot6
+		slot6 = 0
+		slot3 = slot3(slot4, slot5, slot6)
+		slot4 = slot3
+		slot1 = slot1(slot2, slot3, slot4)
+		slot2 = slot1
+		slot1 = slot1.setOnUpdate
+		slot3 = System
+		slot3 = slot3.Action_float
 
-			uv0.moveNextTimer = nil
+		function slot4(slot0)
+			slot1 = slot0
+			slot2 = slot1
+			slot1 = slot1.updateShadowPos
+
+			slot1(slot2)
 		end
 
-		uv0.viewComponent:emit(BackyardMainMediator.ON_HALF_MOVE, uv0.boatVO.id, uv1)
+		slot1 = slot1(slot2, slot3(slot4))
+		slot2 = slot1
+		slot1 = slot1.setOnComplete
+		slot3 = System
+		slot3 = slot3.Action
 
-		if uv0.targetLPosition ~= uv2 then
-			LeanTween.cancel(uv0.go)
-			uv3(uv0.targetLPosition)
+		function slot4()
+			slot0 = slot0
+
+			if slot0 then
+				slot0 = slot1
+				slot0 = slot0.spineAnimUI
+				slot1 = slot0
+				slot0 = slot0.SetAction
+				slot2 = "stand2"
+				slot3 = 0
+
+				slot0(slot1, slot2, slot3)
+
+				slot0 = slot1
+				slot1 = nil
+				slot0.isMove = slot1
+			end
+
+			slot0 = slot2
+
+			if slot0 then
+				slot0 = slot2
+
+				slot0()
+			end
 		end
 
-		uv0:removeItem()
-		uv0:createItem(uv1)
-	end, slot5 / 2, 1)
+		slot1(slot2, slot3(slot4))
+	end
 
-	slot0.moveNextTimer:Start()
+	slot10 = Timer
+	slot10 = slot10.New
 
-	slot0.shadowTF.localScale = Vector2(slot7, 1)
+	function slot11()
+		slot0 = slot0
+		slot0 = slot0.moveNextTimer
 
-	function (slot0)
-		uv0.shadowTF.localScale = Vector2(uv1, 1)
+		if slot0 then
+			slot0 = slot0
+			slot0 = slot0.moveNextTimer
+			slot1 = slot0
+			slot0 = slot0.Stop
 
-		LeanTween.moveLocal(uv0.go, Vector3(slot0.x, slot0.y + uv2, 0), uv3):setOnUpdate(System.Action_float(function (slot0)
-			uv0:updateShadowPos()
-		end)):setOnComplete(System.Action(function ()
-			if uv0 then
-				uv1.spineAnimUI:SetAction("stand2", 0)
+			slot0(slot1)
 
-				uv1.isMove = nil
-			end
+			slot0 = slot0
+			slot1 = nil
+			slot0.moveNextTimer = slot1
+		end
 
-			if uv2 then
-				uv2()
-			end
-		end))
-	end(slot1)
+		slot0 = slot0
+		slot0 = slot0.viewComponent
+		slot1 = slot0
+		slot0 = slot0.emit
+		slot2 = BackyardMainMediator
+		slot2 = slot2.ON_HALF_MOVE
+		slot3 = slot0
+		slot3 = slot3.boatVO
+		slot3 = slot3.id
+		slot4 = slot1
+
+		slot0(slot1, slot2, slot3, slot4)
+
+		slot0 = slot0
+		slot0 = slot0.targetLPosition
+		slot1 = slot2
+
+		if slot0 ~= slot1 then
+			slot0 = LeanTween
+			slot0 = slot0.cancel
+			slot1 = slot0
+			slot1 = slot1.go
+
+			slot0(slot1)
+
+			slot0 = slot3
+			slot1 = slot0
+			slot1 = slot1.targetLPosition
+
+			slot0(slot1)
+		end
+
+		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.removeItem
+
+		slot0(slot1)
+
+		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.createItem
+		slot2 = slot1
+
+		slot0(slot1, slot2)
+	end
+
+	slot12 = slot5 / 2
+	slot13 = 1
+	slot10 = slot10(slot11, slot12, slot13)
+	slot0.moveNextTimer = slot10
+	slot10 = slot0.moveNextTimer
+	slot11 = slot10
+	slot10 = slot10.Start
+
+	slot10(slot11)
+
+	slot10 = slot0.shadowTF
+	slot11 = Vector2
+	slot12 = slot7
+	slot13 = 1
+	slot11 = slot11(slot12, slot13)
+	slot10.localScale = slot11
+	slot10 = slot9
+	slot11 = slot1
+
+	slot10(slot11)
 end
 
-function slot0.cancelMove(slot0)
-	if slot0.moveNextTimer then
-		slot0.moveNextTimer:Stop()
+slot0.startMove = slot5
 
-		slot0.moveNextTimer = nil
+function slot5(slot0)
+	slot1 = slot0.moveNextTimer
+
+	if slot1 then
+		slot1 = slot0.moveNextTimer
+		slot2 = slot1
+		slot1 = slot1.Stop
+
+		slot1(slot2)
+
+		slot1 = nil
+		slot0.moveNextTimer = slot1
 	end
 
-	if LeanTween.isTweening(slot0.go) then
-		LeanTween.cancel(slot0.go)
+	slot1 = LeanTween
+	slot1 = slot1.isTweening
+	slot2 = slot0.go
+	slot1 = slot1(slot2)
+
+	if slot1 then
+		slot1 = LeanTween
+		slot1 = slot1.cancel
+		slot2 = slot0.go
+
+		slot1(slot2)
 	end
 
-	if slot0.isMove then
-		slot0.spineAnimUI:SetAction("stand2", 0)
+	slot1 = slot0.isMove
 
-		slot0.isMove = nil
+	if slot1 then
+		slot1 = slot0.spineAnimUI
+		slot2 = slot1
+		slot1 = slot1.SetAction
+		slot3 = "stand2"
+		slot4 = 0
+
+		slot1(slot2, slot3, slot4)
+
+		slot1 = nil
+		slot0.isMove = slot1
 	end
 
-	slot0:updateShadowPos()
+	slot2 = slot0
+	slot1 = slot0.updateShadowPos
+
+	slot1(slot2)
 end
 
-function slot0.acquireEffect(slot0, slot1, slot2)
+slot0.cancelMove = slot5
+
+function slot5(slot0, slot1, slot2)
 	if slot1 == 0 then
 		return
 	end
 
-	if IsNil(slot0.expTF) then
+	slot3 = IsNil
+	slot4 = slot0.expTF
+	slot3 = slot3(slot4)
+
+	if slot3 then
 		return
 	end
 
 	slot3 = nil
+	slot4 = BackYardConst
+	slot4 = slot4.ADDITION_TYPE_MONEY
 
-	if slot2 == BackYardConst.ADDITION_TYPE_MONEY then
+	if slot2 == slot4 then
 		slot3 = slot0.moneyAdditionTF
-	elseif slot2 == BackYardConst.ADDITION_TYPE_INTIMACY then
-		slot3 = slot0.inimacyAdditionTF
-		slot1 = ""
+	else
+		slot4 = BackYardConst
+		slot4 = slot4.ADDITION_TYPE_INTIMACY
 
-		slot0:playIntimacyEffect()
-	elseif slot2 == BackYardConst.ADDITION_TYPE_EXP then
-		slot3 = slot0.expAdditionTF
-		slot1 = ""
+		if slot2 == slot4 then
+			slot3 = slot0.inimacyAdditionTF
+			slot1 = ""
+			slot5 = slot0
+			slot4 = slot0.playIntimacyEffect
+
+			slot4(slot5)
+		else
+			slot4 = BackYardConst
+			slot4 = slot4.ADDITION_TYPE_EXP
+
+			if slot2 == slot4 then
+				slot3 = slot0.expAdditionTF
+				slot1 = ""
+			end
+		end
 	end
 
-	slot0.expTF.localScale = Vector3(Mathf.Sign(function ()
-		slot1 = uv0.tf.localScale.x
+	function slot4()
+		slot0 = slot0
+		slot0 = slot0.tf
+		slot1 = slot0.localScale
+		slot1 = slot1.x
+		slot2 = go
+		slot3 = slot0
+		slot2 = slot2(slot3)
+		slot2 = slot2.name
 
-		while go(slot0).name ~= "floor" do
-			slot1 = slot1 * slot0.parent.localScale.x
+		while slot2 ~= "floor" do
+			slot0 = slot0.parent
+			slot2 = slot0.localScale
+			slot2 = slot2.x
+			slot1 = slot1 * slot2
 		end
 
 		return slot1
-	end()) * 2, 2, 2)
-
-	for slot9 = 0, slot0.expTF.childCount - 1, 1 do
-		SetActive(slot0.expTF:GetChild(slot9), false)
 	end
 
-	setActive(slot3, true)
-	setText(findTF(slot3, "Text"), slot1)
-	LeanTween.cancel(slot0.expTF.gameObject)
-	LeanTween.moveY(rtf(slot0.expTF), slot0.expTF.localPosition.y + 110, 1.2):setOnUpdate(System.Action_float(function ()
-		if not IsNil(uv0.go) and uv2 ~= uv1() then
-			uv0.expTF.localScale = Vector3(Mathf.Sign(slot0) * 2, 2, 2)
-		end
-	end)):setOnComplete(System.Action(function ()
-		setActive(uv0, false)
+	slot5 = slot4
+	slot5 = slot5()
+	slot6 = slot0.expTF
+	slot7 = Vector3
+	slot8 = Mathf
+	slot8 = slot8.Sign
+	slot9 = slot5
+	slot8 = slot8(slot9)
+	slot8 = slot8 * 2
+	slot9 = 2
+	slot10 = 2
+	slot7 = slot7(slot8, slot9, slot10)
+	slot6.localScale = slot7
+	slot6 = 0
+	slot7 = slot0.expTF
+	slot7 = slot7.childCount
+	slot7 = slot7 - 1
+	slot8 = 1
 
-		uv1.expTF.localPosition = uv2
-	end))
+	for slot9 = slot6, slot7, slot8 do
+		slot10 = SetActive
+		slot11 = slot0.expTF
+		slot12 = slot11
+		slot11 = slot11.GetChild
+		slot13 = slot9
+		slot11 = slot11(slot12, slot13)
+		slot12 = false
+
+		slot10(slot11, slot12)
+	end
+
+	slot6 = setActive
+	slot7 = slot3
+	slot8 = true
+
+	slot6(slot7, slot8)
+
+	slot6 = setText
+	slot7 = findTF
+	slot8 = slot3
+	slot9 = "Text"
+	slot7 = slot7(slot8, slot9)
+	slot8 = slot1
+
+	slot6(slot7, slot8)
+
+	slot6 = slot0.expTF
+	slot6 = slot6.localPosition
+	slot7 = LeanTween
+	slot7 = slot7.cancel
+	slot8 = slot0.expTF
+	slot8 = slot8.gameObject
+
+	slot7(slot8)
+
+	slot7 = LeanTween
+	slot7 = slot7.moveY
+	slot8 = rtf
+	slot9 = slot0.expTF
+	slot8 = slot8(slot9)
+	slot9 = slot6.y
+	slot9 = slot9 + 110
+	slot10 = 1.2
+	slot7 = slot7(slot8, slot9, slot10)
+	slot8 = slot7
+	slot7 = slot7.setOnUpdate
+	slot9 = System
+	slot9 = slot9.Action_float
+
+	function slot10()
+		slot0 = IsNil
+		slot1 = slot0
+		slot1 = slot1.go
+		slot0 = slot0(slot1)
+
+		if not slot0 then
+			slot0 = slot1
+			slot0 = slot0()
+			slot1 = slot2
+
+			if slot1 ~= slot0 then
+				slot1 = slot0
+				slot1 = slot1.expTF
+				slot2 = Vector3
+				slot3 = Mathf
+				slot3 = slot3.Sign
+				slot4 = slot0
+				slot3 = slot3(slot4)
+				slot3 = slot3 * 2
+				slot4 = 2
+				slot5 = 2
+				slot2 = slot2(slot3, slot4, slot5)
+				slot1.localScale = slot2
+			end
+		end
+	end
+
+	slot7 = slot7(slot8, slot9(slot10))
+	slot8 = slot7
+	slot7 = slot7.setOnComplete
+	slot9 = System
+	slot9 = slot9.Action
+
+	function slot10()
+		slot0 = setActive
+		slot1 = slot0
+		slot2 = false
+
+		slot0(slot1, slot2)
+
+		slot0 = slot1
+		slot0 = slot0.expTF
+		slot1 = slot2
+		slot0.localPosition = slot1
+	end
+
+	slot7(slot8, slot9(slot10))
 end
 
-function slot0.playIntimacyEffect(slot0)
-	if slot0.hasEffect then
+slot0.acquireEffect = slot5
+
+function slot5(slot0)
+	slot1 = slot0.hasEffect
+
+	if slot1 then
 		return
 	end
 
-	slot0.hasEffect = true
+	slot1 = true
+	slot0.hasEffect = slot1
+	slot1 = ResourceMgr
+	slot1 = slot1.Inst
+	slot2 = slot1
+	slot1 = slot1.getAssetAsync
+	slot3 = "Effect/Heart"
+	slot4 = ""
+	slot5 = UnityEngine
+	slot5 = slot5.Events
+	slot5 = slot5.UnityAction_UnityEngine_Object
 
-	ResourceMgr.Inst:getAssetAsync("Effect/Heart", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		slot1 = Instantiate(slot0)
+	function slot6(slot0)
+		slot1 = Instantiate
+		slot2 = slot0
+		slot1 = slot1(slot2)
+		slot2 = pg
+		slot2 = slot2.ViewUtils
+		slot2 = slot2.SetLayer
+		slot3 = tf
+		slot4 = slot1
+		slot3 = slot3(slot4)
+		slot4 = Layer
+		slot4 = slot4.UI
 
-		pg.ViewUtils.SetLayer(tf(slot1), Layer.UI)
-		tf(slot1):SetParent(uv0.tf, false)
+		slot2(slot3, slot4)
 
-		tf(slot1).localPosition = Vector3(0, 200, -100)
-		tf(slot1).localScale = Vector3(100, 100, 100)
-		uv0.removeEffectTimer = Timer.New(function ()
-			Destroy(uv0)
+		slot2 = tf
+		slot3 = slot1
+		slot2 = slot2(slot3)
+		slot3 = slot2
+		slot2 = slot2.SetParent
+		slot4 = slot0
+		slot4 = slot4.tf
+		slot5 = false
 
-			uv0 = nil
+		slot2(slot3, slot4, slot5)
 
-			uv1.removeEffectTimer:Stop()
+		slot2 = tf
+		slot3 = slot1
+		slot2 = slot2(slot3)
+		slot3 = Vector3
+		slot4 = 0
+		slot5 = 200
+		slot6 = -100
+		slot3 = slot3(slot4, slot5, slot6)
+		slot2.localPosition = slot3
+		slot2 = tf
+		slot3 = slot1
+		slot2 = slot2(slot3)
+		slot3 = Vector3
+		slot4 = 100
+		slot5 = 100
+		slot6 = 100
+		slot3 = slot3(slot4, slot5, slot6)
+		slot2.localScale = slot3
+		slot2 = slot0
+		slot3 = Timer
+		slot3 = slot3.New
 
-			uv1.removeEffectTimer = nil
-			uv1.hasEffect = nil
-		end, 2, 1)
+		function slot4()
+			slot0 = Destroy
+			slot1 = slot0
 
-		uv0.removeEffectTimer:Start()
-	end), true, true)
+			slot0(slot1)
+
+			slot0 = nil
+			slot0 = slot1
+			slot0 = slot0.removeEffectTimer
+			slot1 = slot0
+			slot0 = slot0.Stop
+
+			slot0(slot1)
+
+			slot0 = slot1
+			slot1 = nil
+			slot0.removeEffectTimer = slot1
+			slot0 = slot1
+			slot1 = nil
+			slot0.hasEffect = slot1
+		end
+
+		slot5 = 2
+		slot6 = 1
+		slot3 = slot3(slot4, slot5, slot6)
+		slot2.removeEffectTimer = slot3
+		slot2 = slot0
+		slot2 = slot2.removeEffectTimer
+		slot3 = slot2
+		slot2 = slot2.Start
+
+		slot2(slot3)
+	end
+
+	slot5 = slot5(slot6)
+	slot6 = true
+	slot7 = true
+
+	slot1(slot2, slot3, slot4, slot5, slot6, slot7)
 end
 
-function slot0.updateInimacy(slot0, slot1)
-	SetActive(slot0.inimacyTF, slot1)
-	onButton(slot0, slot0.inimacyTF, function ()
-		if not uv0.boatVO:hasInterActionFurnitrue() then
-			if not uv0.boatVO:hasSpineInterAction() then
-				if not uv0.boatVO:hasSpineExtra() then
-					uv0:switchAnimation("motou")
+slot0.playIntimacyEffect = slot5
+
+function slot5(slot0, slot1)
+	slot2 = SetActive
+	slot3 = slot0.inimacyTF
+	slot4 = slot1
+
+	slot2(slot3, slot4)
+
+	slot2 = onButton
+	slot3 = slot0
+	slot4 = slot0.inimacyTF
+
+	function slot5()
+		slot0 = slot0
+		slot0 = slot0.boatVO
+		slot1 = slot0
+		slot0 = slot0.hasInterActionFurnitrue
+		slot0 = slot0(slot1)
+
+		if not slot0 then
+			slot0 = slot0
+			slot0 = slot0.boatVO
+			slot1 = slot0
+			slot0 = slot0.hasSpineInterAction
+			slot0 = slot0(slot1)
+
+			if not slot0 then
+				slot0 = slot0
+				slot0 = slot0.boatVO
+				slot1 = slot0
+				slot0 = slot0.hasSpineExtra
+				slot0 = slot0(slot1)
+
+				if not slot0 then
+					slot0 = slot0
+					slot1 = slot0
+					slot0 = slot0.switchAnimation
+					slot2 = "motou"
+
+					slot0(slot1, slot2)
 				end
 			end
 		end
 
-		uv0.viewComponent:emit(BackyardMainMediator.ADD_INTIMACY, uv0.boatVO.id)
-	end, SFX_PANEL)
+		slot0 = slot0
+		slot0 = slot0.viewComponent
+		slot1 = slot0
+		slot0 = slot0.emit
+		slot2 = BackyardMainMediator
+		slot2 = slot2.ADD_INTIMACY
+		slot3 = slot0
+		slot3 = slot3.boatVO
+		slot3 = slot3.id
+
+		slot0(slot1, slot2, slot3)
+	end
+
+	slot6 = SFX_PANEL
+
+	slot2(slot3, slot4, slot5, slot6)
 end
 
-function slot0.updateMoney(slot0, slot1)
-	SetActive(slot0.moneyTF, slot1)
-	onButton(slot0, slot0.moneyTF, function ()
-		if not uv0.boatVO:hasInterActionFurnitrue() then
-			if not uv0.boatVO:hasSpineInterAction() then
-				if not uv0.boatVO:hasSpineExtra() then
-					uv0:switchAnimation("motou")
+slot0.updateInimacy = slot5
+
+function slot5(slot0, slot1)
+	slot2 = SetActive
+	slot3 = slot0.moneyTF
+	slot4 = slot1
+
+	slot2(slot3, slot4)
+
+	slot2 = onButton
+	slot3 = slot0
+	slot4 = slot0.moneyTF
+
+	function slot5()
+		slot0 = slot0
+		slot0 = slot0.boatVO
+		slot1 = slot0
+		slot0 = slot0.hasInterActionFurnitrue
+		slot0 = slot0(slot1)
+
+		if not slot0 then
+			slot0 = slot0
+			slot0 = slot0.boatVO
+			slot1 = slot0
+			slot0 = slot0.hasSpineInterAction
+			slot0 = slot0(slot1)
+
+			if not slot0 then
+				slot0 = slot0
+				slot0 = slot0.boatVO
+				slot1 = slot0
+				slot0 = slot0.hasSpineExtra
+				slot0 = slot0(slot1)
+
+				if not slot0 then
+					slot0 = slot0
+					slot1 = slot0
+					slot0 = slot0.switchAnimation
+					slot2 = "motou"
+
+					slot0(slot1, slot2)
 				end
 			end
 		end
 
-		uv0.viewComponent:emit(BackyardMainMediator.ADD_MONEY, uv0.boatVO.id)
-	end, SFX_PANEL)
+		slot0 = slot0
+		slot0 = slot0.viewComponent
+		slot1 = slot0
+		slot0 = slot0.emit
+		slot2 = BackyardMainMediator
+		slot2 = slot2.ADD_MONEY
+		slot3 = slot0
+		slot3 = slot3.boatVO
+		slot3 = slot3.id
+
+		slot0(slot1, slot2, slot3)
+	end
+
+	slot6 = SFX_PANEL
+
+	slot2(slot3, slot4, slot5, slot6)
 end
 
-function slot0.switchAnimation(slot0, slot1)
-	if slot0.isAnim then
+slot0.updateMoney = slot5
+
+function slot5(slot0, slot1)
+	slot2 = slot0.isAnim
+
+	if slot2 then
 		return
 	end
 
-	slot0.isAnim = true
-	slot0.canvasGroup.blocksRaycasts = false
+	slot2 = true
+	slot0.isAnim = slot2
+	slot2 = slot0.canvasGroup
+	slot3 = false
+	slot2.blocksRaycasts = slot3
+	slot2 = slot0.viewComponent
+	slot3 = slot2
+	slot2 = slot2.emit
+	slot4 = BackyardMainMediator
+	slot4 = slot4.CANCEL_SHIP_MOVE
+	slot5 = slot0.boatVO
+	slot5 = slot5.id
 
-	slot0.viewComponent:emit(BackyardMainMediator.CANCEL_SHIP_MOVE, slot0.boatVO.id)
-	slot0.spineAnimUI:SetAction(slot1, 0)
+	slot2(slot3, slot4, slot5)
 
-	slot0.isMove = nil
+	slot2 = slot0.spineAnimUI
+	slot3 = slot2
+	slot2 = slot2.SetAction
+	slot4 = slot1
+	slot5 = 0
 
-	slot0.spineAnimUI:SetActionCallBack(function (slot0)
+	slot2(slot3, slot4, slot5)
+
+	slot2 = nil
+	slot0.isMove = slot2
+	slot2 = slot0.spineAnimUI
+	slot3 = slot2
+	slot2 = slot2.SetActionCallBack
+
+	function slot4(slot0)
 		if slot0 == "finish" then
-			uv0.spineAnimUI:SetAction("stand2", 0)
-			uv0.viewComponent:emit(BackyardMainMediator.ADD_BOAT_MOVE, uv0.boatVO.id)
+			slot1 = slot0
+			slot1 = slot1.spineAnimUI
+			slot2 = slot1
+			slot1 = slot1.SetAction
+			slot3 = "stand2"
+			slot4 = 0
 
-			uv0.isAnim = false
-			uv0.canvasGroup.blocksRaycasts = true
+			slot1(slot2, slot3, slot4)
 
-			uv0.spineAnimUI:SetActionCallBack(nil)
+			slot1 = slot0
+			slot1 = slot1.viewComponent
+			slot2 = slot1
+			slot1 = slot1.emit
+			slot3 = BackyardMainMediator
+			slot3 = slot3.ADD_BOAT_MOVE
+			slot4 = slot0
+			slot4 = slot4.boatVO
+			slot4 = slot4.id
+
+			slot1(slot2, slot3, slot4)
+
+			slot1 = slot0
+			slot2 = false
+			slot1.isAnim = slot2
+			slot1 = slot0
+			slot1 = slot1.canvasGroup
+			slot2 = true
+			slot1.blocksRaycasts = slot2
+			slot1 = slot0
+			slot1 = slot1.spineAnimUI
+			slot2 = slot1
+			slot1 = slot1.SetActionCallBack
+			slot3 = nil
+
+			slot1(slot2, slot3)
 		end
-	end)
-end
-
-function slot0.addSpineExtra(slot0, slot1, slot2)
-	SetActive(slot0.shipGridContainer, false)
-
-	slot4 = slot0.viewComponent.furnitureVOs[slot1]
-
-	slot0:removeItem()
-	slot0:updateShadowTF(false)
-
-	slot5 = slot4:getSpineExtraConfig(slot2)
-
-	SetParent(slot0.tf, slot0.viewComponent:GetFurnitureGo(slot1), true)
-
-	slot0.tf.localScale = Vector3(uv0 * slot5[3][1], uv0 * slot5[3][2], 1)
-	slot0.tf.anchoredPosition = Vector3(slot5[2][1], slot5[2][2], 0)
-
-	if slot4:hasAnimator() then
-		slot0:startSpineAnimator(slot4, slot2)
 	end
 
-	if slot4:getSpineExtraBodyMask(slot2) ~= nil and #slot6 > 0 then
-		slot0:showBodyMask(slot6)
+	slot2(slot3, slot4)
+end
+
+slot0.switchAnimation = slot5
+
+function slot5(slot0, slot1, slot2)
+	slot3 = SetActive
+	slot4 = slot0.shipGridContainer
+	slot5 = false
+
+	slot3(slot4, slot5)
+
+	slot3 = slot0.viewComponent
+	slot4 = slot3
+	slot3 = slot3.GetFurnitureGo
+	slot5 = slot1
+	slot3 = slot3(slot4, slot5)
+	slot4 = slot0.viewComponent
+	slot4 = slot4.furnitureVOs
+	slot4 = slot4[slot1]
+	slot6 = slot0
+	slot5 = slot0.removeItem
+
+	slot5(slot6)
+
+	slot6 = slot0
+	slot5 = slot0.updateShadowTF
+	slot7 = false
+
+	slot5(slot6, slot7)
+
+	slot6 = slot4
+	slot5 = slot4.getSpineExtraConfig
+	slot7 = slot2
+	slot5 = slot5(slot6, slot7)
+	slot6 = SetParent
+	slot7 = slot0.tf
+	slot8 = slot3
+	slot9 = true
+
+	slot6(slot7, slot8, slot9)
+
+	slot6 = slot0.tf
+	slot7 = Vector3
+	slot8 = slot0
+	slot9 = slot5[3]
+	slot9 = slot9[1]
+	slot8 = slot8 * slot9
+	slot9 = slot0
+	slot10 = slot5[3]
+	slot10 = slot10[2]
+	slot9 = slot9 * slot10
+	slot10 = 1
+	slot7 = slot7(slot8, slot9, slot10)
+	slot6.localScale = slot7
+	slot6 = slot0.tf
+	slot7 = Vector3
+	slot8 = slot5[2]
+	slot8 = slot8[1]
+	slot9 = slot5[2]
+	slot9 = slot9[2]
+	slot10 = 0
+	slot7 = slot7(slot8, slot9, slot10)
+	slot6.anchoredPosition = slot7
+	slot7 = slot4
+	slot6 = slot4.hasAnimator
+	slot6 = slot6(slot7)
+
+	if slot6 then
+		slot7 = slot0
+		slot6 = slot0.startSpineAnimator
+		slot8 = slot4
+		slot9 = slot2
+
+		slot6(slot7, slot8, slot9)
+	end
+
+	slot7 = slot4
+	slot6 = slot4.getSpineExtraBodyMask
+	slot8 = slot2
+	slot6 = slot6(slot7, slot8)
+
+	if slot6 ~= nil then
+		slot7 = #slot6
+		slot8 = 0
+
+		if slot7 > slot8 then
+			slot8 = slot0
+			slot7 = slot0.showBodyMask
+			slot9 = slot6
+
+			slot7(slot8, slot9)
+		end
 	end
 
 	slot0.spineFurniture = slot4
 end
 
-function slot0.clearSpineExtra(slot0, slot1, slot2)
-	SetParent(slot0.tf, slot0.viewComponent.floorContain, true)
+slot0.addSpineExtra = slot5
 
-	slot3 = slot0.viewComponent:GetFurnitureGo(slot1)
-	slot4 = slot0.viewComponent.furnitureVOs[slot1]
+function slot5(slot0, slot1, slot2)
+	slot3 = SetParent
+	slot4 = slot0.tf
+	slot5 = slot0.viewComponent
+	slot5 = slot5.floorContain
+	slot6 = true
 
-	slot0:endSpineAnimator(slot4, slot2, true)
+	slot3(slot4, slot5, slot6)
 
-	if slot4:getSpineExtraBodyMask(slot2) ~= nil and #slot5 > 0 then
-		slot0:closeBodyMask()
+	slot3 = slot0.viewComponent
+	slot4 = slot3
+	slot3 = slot3.GetFurnitureGo
+	slot5 = slot1
+	slot3 = slot3(slot4, slot5)
+	slot4 = slot0.viewComponent
+	slot4 = slot4.furnitureVOs
+	slot4 = slot4[slot1]
+	slot6 = slot0
+	slot5 = slot0.endSpineAnimator
+	slot7 = slot4
+	slot8 = slot2
+	slot9 = true
+
+	slot5(slot6, slot7, slot8, slot9)
+
+	slot6 = slot4
+	slot5 = slot4.getSpineExtraBodyMask
+	slot7 = slot2
+	slot5 = slot5(slot6, slot7)
+
+	if slot5 ~= nil then
+		slot6 = #slot5
+		slot7 = 0
+
+		if slot6 > slot7 then
+			slot7 = slot0
+			slot6 = slot0.closeBodyMask
+
+			slot6(slot7)
+		end
 	end
 
-	slot0.tf.eulerAngles = Vector3(0, 0, 0)
-	slot0.spineFurniture = nil
+	slot6 = slot0.tf
+	slot7 = Vector3
+	slot8 = 0
+	slot9 = 0
+	slot10 = 0
+	slot7 = slot7(slot8, slot9, slot10)
+	slot6.eulerAngles = slot7
+	slot6 = nil
+	slot0.spineFurniture = slot6
 end
 
-function slot0.InterActionTransport(slot0, slot1)
-	slot0:removeItem()
+slot0.clearSpineExtra = slot5
 
-	slot0.isInTransport = true
-	slot2 = slot0.viewComponent:GetFurnitureGo(slot1)
+function slot5(slot0, slot1)
+	slot3 = slot0
+	slot2 = slot0.removeItem
 
-	SetParent(slot0.tf, slot2, true)
+	slot2(slot3)
 
-	slot3 = slot0.viewComponent.furnitureVOs[slot1]
-	slot4 = GetOrAddComponent(slot2:Find("icon/spine"), typeof(SpineAnimUI))
+	slot2 = true
+	slot0.isInTransport = slot2
+	slot2 = slot0.viewComponent
+	slot3 = slot2
+	slot2 = slot2.GetFurnitureGo
+	slot4 = slot1
+	slot2 = slot2(slot3, slot4)
+	slot3 = SetParent
+	slot4 = slot0.tf
+	slot5 = slot2
+	slot6 = true
+
+	slot3(slot4, slot5, slot6)
+
+	slot3 = slot0.viewComponent
+	slot3 = slot3.furnitureVOs
+	slot3 = slot3[slot1]
+	slot4 = GetOrAddComponent
+	slot6 = slot2
+	slot5 = slot2.Find
+	slot7 = "icon/spine"
+	slot5 = slot5(slot6, slot7)
+	slot6 = typeof
+	slot7 = SpineAnimUI
+	slot4 = slot4(slot5, slot6(slot7))
 
 	function slot5(slot0, slot1)
-		if slot0 <= 0 then
-			slot1()
+		slot2 = 0
+
+		if slot0 <= slot2 then
+			slot2 = slot1
+
+			slot2()
 
 			return
 		end
 
-		Timer.New(slot1, slot0, 1):Start()
+		slot2 = Timer
+		slot2 = slot2.New
+		slot3 = slot1
+		slot4 = slot0
+		slot5 = 1
+		slot2 = slot2(slot3, slot4, slot5)
+		slot4 = slot2
+		slot3 = slot2.Start
+
+		slot3(slot4)
 	end
 
-	slot6 = slot0.tf.localScale
+	slot6 = slot0.tf
+	slot6 = slot6.localScale
+	slot7 = setActive
+	slot8 = slot0.shadowTF
+	slot9 = false
 
-	setActive(slot0.shadowTF, false)
-	setActive(slot0.shipGridContainer, false)
-	seriesAsync({
-		function (slot0)
-			uv0.tf.localScale = Vector3(-1 * math.abs(uv1.x), uv1.y, uv1.z)
+	slot7(slot8, slot9)
 
-			for slot6, slot7 in ipairs(uv2:getTransportAnims(1)) do
-				slot8 = slot7[1][1]
-				slot9 = slot7[1][2]
-				slot10 = slot7[2]
+	slot7 = setActive
+	slot8 = slot0.shipGridContainer
+	slot9 = false
 
-				table.insert({}, function (slot0)
-					parallelAsync({
-						function (slot0)
-							uv0.spineAnimUI:SetAction(uv1, 0)
-							uv2(uv3, slot0)
-						end,
-						function (slot0)
-							uv0:SetAction(uv1, 0)
-							uv2(uv3, slot0)
-						end
-					}, slot0)
-				end)
+	slot7(slot8, slot9)
+
+	slot7 = seriesAsync
+	slot8 = {}
+
+	function slot9(slot0)
+		slot1 = slot0
+		slot1 = slot1.tf
+		slot2 = Vector3
+		slot3 = math
+		slot3 = slot3.abs
+		slot4 = slot1
+		slot4 = slot4.x
+		slot3 = slot3(slot4)
+		slot3 = -1 * slot3
+		slot4 = slot1
+		slot4 = slot4.y
+		slot5 = slot1
+		slot5 = slot5.z
+		slot2 = slot2(slot3, slot4, slot5)
+		slot1.localScale = slot2
+		slot1 = {}
+		slot2 = slot2
+		slot3 = slot2
+		slot2 = slot2.getTransportAnims
+		slot4 = 1
+		slot2 = slot2(slot3, slot4)
+		slot3 = ipairs
+		slot4 = slot2
+		slot3, slot4, slot5 = slot3(slot4)
+
+		for slot6, slot7 in slot3, slot4, slot5 do
+			slot8 = slot7[1]
+			slot8 = slot8[1]
+			slot9 = slot7[1]
+			slot9 = slot9[2]
+			slot10 = slot7[2]
+			slot11 = table
+			slot11 = slot11.insert
+			slot12 = slot1
+
+			function slot13(slot0)
+				slot1 = parallelAsync
+				slot2 = {}
+
+				function slot3(slot0)
+					slot1 = slot0
+					slot1 = slot1.spineAnimUI
+					slot2 = slot1
+					slot1 = slot1.SetAction
+					slot3 = slot1
+					slot4 = 0
+
+					slot1(slot2, slot3, slot4)
+
+					slot1 = slot2
+					slot2 = slot3
+					slot3 = slot0
+
+					slot1(slot2, slot3)
+				end
+
+				slot2[1] = slot3
+
+				function slot3(slot0)
+					slot1 = slot0
+					slot2 = slot1
+					slot1 = slot1.SetAction
+					slot3 = slot1
+					slot4 = 0
+
+					slot1(slot2, slot3, slot4)
+
+					slot1 = slot2
+					slot2 = slot3
+					slot3 = slot0
+
+					slot1(slot2, slot3)
+				end
+
+				slot2[2] = slot3
+				slot3 = slot0
+
+				slot1(slot2, slot3)
 			end
 
-			seriesAsync(slot1, slot0)
-		end,
-		function (slot0)
-			uv0.tf.localScale = Vector3(math.abs(uv1.x), uv1.y, uv1.z)
-			slot1 = uv2:Find("Animator01")
-
-			SetParent(uv0.tf, slot1)
-
-			uv0.tf.localPosition = Vector3(0, 0, 0)
-
-			slot1:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
-				slot1, slot5 = uv0:getSpineName()
-
-				uv1:SetAction(slot2, 0)
-				setActive(uv2, false)
-				uv3()
-			end)
-			setActive(slot1, true)
+			slot11(slot12, slot13)
 		end
-	}, function ()
-		uv0.viewComponent:emit(BackyardMainMediator.INTERACTION_TRANSPORT_AGAIN, uv0.boatVO.id, uv1)
-	end)
+
+		slot3 = seriesAsync
+		slot4 = slot1
+		slot5 = slot0
+
+		slot3(slot4, slot5)
+	end
+
+	slot8[1] = slot9
+
+	function slot9(slot0)
+		slot1 = slot0
+		slot1 = slot1.tf
+		slot2 = Vector3
+		slot3 = math
+		slot3 = slot3.abs
+		slot4 = slot1
+		slot4 = slot4.x
+		slot3 = slot3(slot4)
+		slot4 = slot1
+		slot4 = slot4.y
+		slot5 = slot1
+		slot5 = slot5.z
+		slot2 = slot2(slot3, slot4, slot5)
+		slot1.localScale = slot2
+		slot1 = slot2
+		slot2 = slot1
+		slot1 = slot1.Find
+		slot3 = "Animator01"
+		slot1 = slot1(slot2, slot3)
+		slot2 = SetParent
+		slot3 = slot0
+		slot3 = slot3.tf
+		slot4 = slot1
+
+		slot2(slot3, slot4)
+
+		slot2 = slot0
+		slot2 = slot2.tf
+		slot3 = Vector3
+		slot4 = 0
+		slot5 = 0
+		slot6 = 0
+		slot3 = slot3(slot4, slot5, slot6)
+		slot2.localPosition = slot3
+		slot3 = slot1
+		slot2 = slot1.GetComponent
+		slot4 = typeof
+		slot5 = DftAniEvent
+		slot2 = slot2(slot3, slot4(slot5))
+		slot4 = slot2
+		slot3 = slot2.SetEndEvent
+
+		function slot5(slot0)
+			slot1 = slot0
+			slot2 = slot1
+			slot1 = slot1.getSpineName
+			slot1, slot2 = slot1(slot2)
+			slot3 = slot1
+			slot4 = slot3
+			slot3 = slot3.SetAction
+			slot5 = slot2
+			slot6 = 0
+
+			slot3(slot4, slot5, slot6)
+
+			slot3 = setActive
+			slot4 = slot2
+			slot5 = false
+
+			slot3(slot4, slot5)
+
+			slot3 = slot3
+
+			slot3()
+		end
+
+		slot3(slot4, slot5)
+
+		slot3 = setActive
+		slot4 = slot1
+		slot5 = true
+
+		slot3(slot4, slot5)
+	end
+
+	slot8[2] = slot9
+
+	function slot9()
+		slot0 = slot0
+		slot0 = slot0.viewComponent
+		slot1 = slot0
+		slot0 = slot0.emit
+		slot2 = BackyardMainMediator
+		slot2 = slot2.INTERACTION_TRANSPORT_AGAIN
+		slot3 = slot0
+		slot3 = slot3.boatVO
+		slot3 = slot3.id
+		slot4 = slot1
+
+		slot0(slot1, slot2, slot3, slot4)
+	end
+
+	slot7(slot8, slot9)
 end
 
-function slot0.InterActionTransportAgain(slot0, slot1)
-	slot3 = slot0.viewComponent.furnitureVOs[slot1]
-	slot4 = GetOrAddComponent(slot0.viewComponent:GetFurnitureGo(slot1):Find("icon/spine"), typeof(SpineAnimUI))
+slot0.InterActionTransport = slot5
+
+function slot5(slot0, slot1)
+	slot2 = slot0.viewComponent
+	slot3 = slot2
+	slot2 = slot2.GetFurnitureGo
+	slot4 = slot1
+	slot2 = slot2(slot3, slot4)
+	slot3 = slot0.viewComponent
+	slot3 = slot3.furnitureVOs
+	slot3 = slot3[slot1]
+	slot4 = GetOrAddComponent
+	slot6 = slot2
+	slot5 = slot2.Find
+	slot7 = "icon/spine"
+	slot5 = slot5(slot6, slot7)
+	slot6 = typeof
+	slot7 = SpineAnimUI
+	slot4 = slot4(slot5, slot6(slot7))
 
 	function slot5(slot0, slot1)
-		if slot0 <= 0 then
-			slot1()
+		slot2 = 0
+
+		if slot0 <= slot2 then
+			slot2 = slot1
+
+			slot2()
 
 			return
 		end
 
-		Timer.New(slot1, slot0, 1):Start()
+		slot2 = Timer
+		slot2 = slot2.New
+		slot3 = slot1
+		slot4 = slot0
+		slot5 = 1
+		slot2 = slot2(slot3, slot4, slot5)
+		slot4 = slot2
+		slot3 = slot2.Start
+
+		slot3(slot4)
 	end
 
-	seriesAsync({
-		function (slot0)
-			for slot6, slot7 in ipairs(uv0:getTransportAnims(2)) do
-				slot8 = slot7[1][1]
-				slot9 = slot7[1][2]
-				slot10 = slot7[2]
+	slot6 = seriesAsync
+	slot7 = {}
 
-				table.insert({}, function (slot0)
-					uv0:SetAction(uv1, 0)
-					uv2(uv3, slot0)
-				end)
+	function slot8(slot0)
+		slot1 = {}
+		slot2 = slot0
+		slot3 = slot2
+		slot2 = slot2.getTransportAnims
+		slot4 = 2
+		slot2 = slot2(slot3, slot4)
+		slot3 = ipairs
+		slot4 = slot2
+		slot3, slot4, slot5 = slot3(slot4)
+
+		for slot6, slot7 in slot3, slot4, slot5 do
+			slot8 = slot7[1]
+			slot8 = slot8[1]
+			slot9 = slot7[1]
+			slot9 = slot9[2]
+			slot10 = slot7[2]
+			slot11 = table
+			slot11 = slot11.insert
+			slot12 = slot1
+
+			function slot13(slot0)
+				slot1 = slot0
+				slot2 = slot1
+				slot1 = slot1.SetAction
+				slot3 = slot1
+				slot4 = 0
+
+				slot1(slot2, slot3, slot4)
+
+				slot1 = slot2
+				slot2 = slot3
+				slot3 = slot0
+
+				slot1(slot2, slot3)
 			end
 
-			seriesAsync(slot1, slot0)
-		end,
-		function (slot0)
-			slot1 = uv0:Find("Animator11")
-
-			SetParent(uv1.tf, slot1)
-
-			uv1.tf.localPosition = Vector3(0, 0, 0)
-
-			slot1:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
-				slot1, slot5 = uv0:getSpineName()
-
-				uv1:SetAction(slot2, 0)
-				setActive(uv2, false)
-				uv3()
-			end)
-			setActive(slot1, true)
+			slot11(slot12, slot13)
 		end
-	}, function ()
-		uv0.viewComponent:emit(BackyardMainMediator.INTERACTION_TRANSPORT_END, uv0.boatVO.id, uv1)
-	end)
+
+		slot3 = seriesAsync
+		slot4 = slot1
+		slot5 = slot0
+
+		slot3(slot4, slot5)
+	end
+
+	slot7[1] = slot8
+
+	function slot8(slot0)
+		slot1 = slot0
+		slot2 = slot1
+		slot1 = slot1.Find
+		slot3 = "Animator11"
+		slot1 = slot1(slot2, slot3)
+		slot2 = SetParent
+		slot3 = slot1
+		slot3 = slot3.tf
+		slot4 = slot1
+
+		slot2(slot3, slot4)
+
+		slot2 = slot1
+		slot2 = slot2.tf
+		slot3 = Vector3
+		slot4 = 0
+		slot5 = 0
+		slot6 = 0
+		slot3 = slot3(slot4, slot5, slot6)
+		slot2.localPosition = slot3
+		slot3 = slot1
+		slot2 = slot1.GetComponent
+		slot4 = typeof
+		slot5 = DftAniEvent
+		slot2 = slot2(slot3, slot4(slot5))
+		slot4 = slot2
+		slot3 = slot2.SetEndEvent
+
+		function slot5(slot0)
+			slot1 = slot0
+			slot2 = slot1
+			slot1 = slot1.getSpineName
+			slot1, slot2 = slot1(slot2)
+			slot3 = slot1
+			slot4 = slot3
+			slot3 = slot3.SetAction
+			slot5 = slot2
+			slot6 = 0
+
+			slot3(slot4, slot5, slot6)
+
+			slot3 = setActive
+			slot4 = slot2
+			slot5 = false
+
+			slot3(slot4, slot5)
+
+			slot3 = slot3
+
+			slot3()
+		end
+
+		slot3(slot4, slot5)
+
+		slot3 = setActive
+		slot4 = slot1
+		slot5 = true
+
+		slot3(slot4, slot5)
+	end
+
+	slot7[2] = slot8
+
+	function slot8()
+		slot0 = slot0
+		slot0 = slot0.viewComponent
+		slot1 = slot0
+		slot0 = slot0.emit
+		slot2 = BackyardMainMediator
+		slot2 = slot2.INTERACTION_TRANSPORT_END
+		slot3 = slot0
+		slot3 = slot3.boatVO
+		slot3 = slot3.id
+		slot4 = slot1
+
+		slot0(slot1, slot2, slot3, slot4)
+	end
+
+	slot6(slot7, slot8)
 end
 
-function slot0.InterActionTransportEnd(slot0)
-	slot0.isInTransport = nil
+slot0.InterActionTransportAgain = slot5
 
-	slot0.spineAnimUI:SetAction("stand2", 0)
-	SetParent(slot0.tf, slot0.floorGrid)
-	setActive(slot0.shadowTF, true)
+function slot5(slot0)
+	slot1 = nil
+	slot0.isInTransport = slot1
+	slot1 = slot0.spineAnimUI
+	slot2 = slot1
+	slot1 = slot1.SetAction
+	slot3 = "stand2"
+	slot4 = 0
+
+	slot1(slot2, slot3, slot4)
+
+	slot1 = SetParent
+	slot2 = slot0.tf
+	slot3 = slot0.floorGrid
+
+	slot1(slot2, slot3)
+
+	slot1 = setActive
+	slot2 = slot0.shadowTF
+	slot3 = true
+
+	slot1(slot2, slot3)
 end
 
-function slot0.inTransport(slot0)
-	return slot0.isInTransport
+slot0.InterActionTransportEnd = slot5
+
+function slot5(slot0)
+	slot1 = slot0.isInTransport
+
+	return slot1
 end
 
-function slot0.showBodyMask(slot0, slot1)
+slot0.inTransport = slot5
+
+function slot5(slot0, slot1)
 	slot2 = slot1[1]
-	slot3 = slot1[2][1]
-	slot4 = slot1[2][2]
+	slot3 = slot1[2]
+	slot3 = slot3[1]
+	slot4 = slot1[2]
+	slot4 = slot4[2]
+	slot5 = slot1[3]
 
-	if slot1[3] then
-		slot0.bodyMask:GetComponent(typeof(Image)).sprite = LoadSprite("furniture/" .. slot1[3])
+	if slot5 then
+		slot5 = slot0.bodyMask
+		slot6 = slot5
+		slot5 = slot5.GetComponent
+		slot7 = typeof
+		slot8 = Image
+		slot5 = slot5(slot6, slot7(slot8))
+		slot6 = LoadSprite
+		slot7 = "furniture/"
+		slot8 = slot1[3]
+		slot7 = slot7 .. slot8
+		slot6 = slot6(slot7)
+		slot5.sprite = slot6
 	else
-		slot0.bodyMask:GetComponent(typeof(Image)).sprite = nil
+		slot5 = slot0.bodyMask
+		slot6 = slot5
+		slot5 = slot5.GetComponent
+		slot7 = typeof
+		slot8 = Image
+		slot5 = slot5(slot6, slot7(slot8))
+		slot6 = nil
+		slot5.sprite = slot6
 	end
 
-	slot0.isShowBodyMask = true
+	slot5 = true
+	slot0.isShowBodyMask = slot5
+	slot5 = setActive
+	slot6 = slot0.bodyMask
+	slot7 = true
 
-	setActive(slot0.bodyMask, true)
+	slot5(slot6, slot7)
 
-	tf(slot0.bodyMask).localPosition = Vector3(slot2[1], slot2[2], 0)
-	rtf(slot0.bodyMask).sizeDelta = Vector2(slot3, slot4)
+	slot5 = tf
+	slot6 = slot0.bodyMask
+	slot5 = slot5(slot6)
+	slot6 = Vector3
+	slot7 = slot2[1]
+	slot8 = slot2[2]
+	slot9 = 0
+	slot6 = slot6(slot7, slot8, slot9)
+	slot5.localPosition = slot6
+	slot5 = rtf
+	slot6 = slot0.bodyMask
+	slot5 = slot5(slot6)
+	slot6 = Vector2
+	slot7 = slot3
+	slot8 = slot4
+	slot6 = slot6(slot7, slot8)
+	slot5.sizeDelta = slot6
+	slot5 = SetParent
+	slot6 = slot0.model
+	slot7 = slot0.bodyMask
 
-	SetParent(slot0.model, slot0.bodyMask)
+	slot5(slot6, slot7)
 
-	slot6 = slot0.bodyMask.parent
+	slot5 = slot0.bodyMask
+	slot6 = slot5.parent
 	slot7 = slot6.parent
-	slot0.model.localScale = Vector3(Mathf.Sign(slot6.localScale.x * slot7.localScale.x * slot6.localScale.x * slot7.localScale.x), 1, 1)
-	tf(slot0.model).localPosition = Vector3(-slot2[1], -slot2[2], 0)
+	slot8 = slot6.localScale
+	slot8 = slot8.x
+	slot9 = slot7.localScale
+	slot9 = slot9.x
+	slot8 = slot8 * slot9
+	slot9 = slot6.localScale
+	slot9 = slot9.x
+	slot9 = slot8 * slot9
+	slot10 = slot7.localScale
+	slot10 = slot10.x
+	slot9 = slot9 * slot10
+	slot10 = Mathf
+	slot10 = slot10.Sign
+	slot11 = slot9
+	slot10 = slot10(slot11)
+	slot9 = slot10
+	slot10 = slot0.model
+	slot11 = Vector3
+	slot12 = slot9
+	slot13 = 1
+	slot14 = 1
+	slot11 = slot11(slot12, slot13, slot14)
+	slot10.localScale = slot11
+	slot10 = tf
+	slot11 = slot0.model
+	slot10 = slot10(slot11)
+	slot11 = Vector3
+	slot12 = slot2[1]
+	slot12 = -slot12
+	slot13 = slot2[2]
+	slot13 = -slot13
+	slot14 = 0
+	slot11 = slot11(slot12, slot13, slot14)
+	slot10.localPosition = slot11
 end
 
-function slot0.closeBodyMask(slot0, slot1)
-	if not slot0.bodyMask or not slot0.isShowBodyMask then
-		return
+slot0.showBodyMask = slot5
+
+function slot5(slot0, slot1)
+	slot2 = slot0.bodyMask
+
+	if slot2 then
+		slot2 = slot0.isShowBodyMask
+
+		if not slot2 then
+			return
+		end
 	end
 
-	setActive(slot0.bodyMask, false)
-	SetParent(slot0.model, slot0.tf)
-	slot0.model:SetSiblingIndex(1)
+	slot2 = setActive
+	slot3 = slot0.bodyMask
+	slot4 = false
 
-	tf(slot0.model).localPosition = Vector3(0, 0, 0)
-	tf(slot0.bodyMask).localScale = Vector3(1, 1, 1)
+	slot2(slot3, slot4)
+
+	slot2 = SetParent
+	slot3 = slot0.model
+	slot4 = slot0.tf
+
+	slot2(slot3, slot4)
+
+	slot2 = slot0.model
+	slot3 = slot2
+	slot2 = slot2.SetSiblingIndex
+	slot4 = 1
+
+	slot2(slot3, slot4)
+
+	slot2 = tf
+	slot3 = slot0.model
+	slot2 = slot2(slot3)
+	slot3 = Vector3
+	slot4 = 0
+	slot5 = 0
+	slot6 = 0
+	slot3 = slot3(slot4, slot5, slot6)
+	slot2.localPosition = slot3
+	slot2 = tf
+	slot3 = slot0.bodyMask
+	slot2 = slot2(slot3)
+	slot3 = Vector3
+	slot4 = 1
+	slot5 = 1
+	slot6 = 1
+	slot3 = slot3(slot4, slot5, slot6)
+	slot2.localScale = slot3
 
 	if slot1 then
-		Destroy(slot0.bodyMask)
+		slot2 = Destroy
+		slot3 = slot0.bodyMask
+
+		slot2(slot3)
 	end
 
 	slot2 = slot0.bodyMask
+	slot3 = slot2
+	slot2 = slot2.GetComponent
+	slot4 = typeof
+	slot5 = Image
+	slot2 = slot2(slot3, slot4(slot5))
+	slot3 = slot2.enabled
 
-	if slot2:GetComponent(typeof(Image)).enabled == false then
-		slot2.enabled = true
+	if slot3 == false then
+		slot3 = true
+		slot2.enabled = slot3
 	end
 
-	slot0.isShowBodyMask = nil
+	slot3 = nil
+	slot0.isShowBodyMask = slot3
 end
 
-function slot0.dispose(slot0)
-	removeAllChildren(slot0.effectContainer)
+slot0.closeBodyMask = slot5
 
-	if slot0.timer then
-		for slot4, slot5 in pairs(slot0.timer) do
-			slot5:Stop()
+function slot5(slot0)
+	slot1 = removeAllChildren
+	slot2 = slot0.effectContainer
+
+	slot1(slot2)
+
+	slot1 = slot0.timer
+
+	if slot1 then
+		slot1 = pairs
+		slot2 = slot0.timer
+		slot1, slot2, slot3 = slot1(slot2)
+
+		for slot4, slot5 in slot1, slot2, slot3 do
+			slot7 = slot5
+			slot6 = slot5.Stop
+
+			slot6(slot7)
 		end
 
-		slot0.timer = nil
+		slot1 = nil
+		slot0.timer = slot1
 	end
 
-	if slot0.dragTrigger then
-		ClearEventTrigger(slot0.dragTrigger)
+	slot1 = slot0.dragTrigger
 
-		slot0.dragTrigger = nil
+	if slot1 then
+		slot1 = ClearEventTrigger
+		slot2 = slot0.dragTrigger
+
+		slot1(slot2)
+
+		slot1 = nil
+		slot0.dragTrigger = slot1
 	end
 
-	pg.DelegateInfo.Dispose(slot0)
+	slot1 = pg
+	slot1 = slot1.DelegateInfo
+	slot1 = slot1.Dispose
+	slot2 = slot0
 
-	if slot0.moveNextTimer then
-		slot0.moveNextTimer:Stop()
+	slot1(slot2)
 
-		slot0.moveNextTimer = nil
+	slot1 = slot0.moveNextTimer
+
+	if slot1 then
+		slot1 = slot0.moveNextTimer
+		slot2 = slot1
+		slot1 = slot1.Stop
+
+		slot1(slot2)
+
+		slot1 = nil
+		slot0.moveNextTimer = slot1
 	end
 
-	if slot0.removeEffectTimer then
-		slot0.removeEffectTimer:Stop()
+	slot1 = slot0.removeEffectTimer
 
-		slot0.removeEffectTimer = nil
+	if slot1 then
+		slot1 = slot0.removeEffectTimer
+		slot2 = slot1
+		slot1 = slot1.Stop
+
+		slot1(slot2)
+
+		slot1 = nil
+		slot0.removeEffectTimer = slot1
 	end
 
-	if LeanTween.isTweening(slot0.go) then
-		LeanTween.cancel(slot0.go)
+	slot1 = LeanTween
+	slot1 = slot1.isTweening
+	slot2 = slot0.go
+	slot1 = slot1(slot2)
+
+	if slot1 then
+		slot1 = LeanTween
+		slot1 = slot1.cancel
+		slot2 = slot0.go
+
+		slot1(slot2)
 	end
 
-	slot0.canvasGroup.blocksRaycasts = true
+	slot1 = slot0.canvasGroup
+	slot2 = true
+	slot1.blocksRaycasts = slot2
+	slot1 = slot0.spineAnimUI
 
-	if slot0.spineAnimUI then
-		slot0.spineAnimUI:SetActionCallBack(nil)
+	if slot1 then
+		slot1 = slot0.spineAnimUI
+		slot2 = slot1
+		slot1 = slot1.SetActionCallBack
+		slot3 = nil
+
+		slot1(slot2, slot3)
 	end
 
-	if slot0.shadowTF then
-		Destroy(slot0.shadowTF)
+	slot1 = slot0.shadowTF
+
+	if slot1 then
+		slot1 = Destroy
+		slot2 = slot0.shadowTF
+
+		slot1(slot2)
 	end
 
-	slot0:closeBodyMask(true)
-	PoolMgr.GetInstance():ReturnSpineChar(slot0.boatVO:getPrefab(), go(slot0.model))
-	Destroy(slot0.go)
+	slot2 = slot0
+	slot1 = slot0.closeBodyMask
+	slot3 = true
+
+	slot1(slot2, slot3)
+
+	slot1 = PoolMgr
+	slot1 = slot1.GetInstance
+	slot1 = slot1()
+	slot2 = slot1
+	slot1 = slot1.ReturnSpineChar
+	slot3 = slot0.boatVO
+	slot4 = slot3
+	slot3 = slot3.getPrefab
+	slot3 = slot3(slot4)
+	slot4 = go
+	slot5 = slot0.model
+
+	slot1(slot2, slot3, slot4(slot5))
+
+	slot1 = Destroy
+	slot2 = slot0.go
+
+	slot1(slot2)
 end
 
-function slot0.enableTouch(slot0, slot1)
-	slot0.canvasGroup.alpha = not slot1 and 1 or 0
-	slot0.canvasGroup.blocksRaycasts = not slot1
+slot0.dispose = slot5
 
-	slot0:updateShadowTF(not slot1)
+function slot5(slot0, slot1)
+	slot0.canvasGroup.alpha = (not slot1 and 1) or 0
+	slot2 = slot0.canvasGroup
+	slot3 = not slot1
+	slot2.blocksRaycasts = slot3
+	slot3 = slot0
+	slot2 = slot0.updateShadowTF
+	slot4 = not slot1
+
+	slot2(slot3, slot4)
 end
+
+slot0.enableTouch = slot5
 
 return slot0

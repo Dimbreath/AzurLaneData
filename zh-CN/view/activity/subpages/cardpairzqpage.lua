@@ -20,7 +20,7 @@ end
 function slot0.OnFirstFlush(slot0)
 	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 	onButton(slot0, slot0.battleBtn, function ()
-		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.CARD_PAIRS)
+		slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.CARD_PAIRS)
 	end, SFX_PANEL)
 end
 
@@ -33,7 +33,7 @@ function slot0.OnUpdateFlush(slot0)
 	end
 
 	setActive(slot0.gotIcon, slot1 >= 7)
-	setSlider(slot0.slider, 0, 6, slot1 - 1 >= 0 and slot1 - 1 or 0)
+	setSlider(slot0.slider, 0, 6, (slot1 - 1 >= 0 and slot1 - 1) or 0)
 	setActive(slot0.battleBtn, true)
 	setActive(slot0.getBtn, false)
 	setActive(slot0.gotBtn, false)

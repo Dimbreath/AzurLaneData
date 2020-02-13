@@ -52,9 +52,9 @@ end
 
 function slot0.inChapter(slot0, slot1)
 	if getProxy(ChapterProxy):getActiveChapter() then
-		for slot7, slot8 in pairs(slot2.fleets) do
-			if _.any(_.values(slot8:getCommanders()), function (slot0)
-				return slot0.id == uv0.id
+		for slot7, slot8 in pairs(slot3) do
+			if _.any(_.values(slot9), function (slot0)
+				return slot0.id == slot0.id
 			end) then
 				return true
 			end
@@ -65,22 +65,20 @@ function slot0.inChapter(slot0, slot1)
 end
 
 function slot0.attach(slot0, slot1)
-	uv0.super.attach(slot0, slot1)
+	slot0.super.attach(slot0, slot1)
 	onButton(slot0, slot0.replaceCloseBtn, function ()
-		uv0:closeReplacePanel()
+		slot0:closeReplacePanel()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.replaceCancelBtn, function ()
-		uv0:closeReplacePanel()
+		slot0:closeReplacePanel()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.replacePanel, function ()
-		uv0:closeReplacePanel()
+		slot0:closeReplacePanel()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.resetTimeBtn, function ()
-		slot0 = uv0.commanderVO
-
-		if #slot0:getTalentOrigins() == #uv0.commanderVO:getTalents() and _.all(slot0, function (slot0)
-			return _.any(uv0, function (slot0)
-				return slot0.id == uv0.id
+		if #slot0.commanderVO:getTalentOrigins() == #slot0.commanderVO:getTalents() and _.all(slot0, function (slot0)
+			return _.any(slot0, function (slot0)
+				return slot0.id == slot0.id
 			end)
 		end) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_reset_talent_is_not_need"))
@@ -88,71 +86,71 @@ function slot0.attach(slot0, slot1)
 			return
 		end
 
-		if uv0:inChapter(uv0.commanderVO) then
+		if slot0:inChapter(slot0.commanderVO) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_is_in_battle"))
 
 			return
 		end
 
-		if uv0.resetPoint and uv0.commanderVO then
-			uv0:openResetPanel()
+		if slot0.resetPoint and slot0.commanderVO then
+			slot0:openResetPanel()
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_reset_talent_time_no_rearch"))
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.resetPanel, function ()
-		uv0:closeResetPanel()
+		slot0:closeResetPanel()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.resetCloseBtn, function ()
-		uv0:closeResetPanel()
+		slot0:closeResetPanel()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.resetCancelBtn, function ()
-		uv0:closeResetPanel()
+		slot0:closeResetPanel()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.resetConfirmBtn, function ()
-		if uv0.commanderVO then
-			if uv0.parent.playerVO.gold < uv0.total then
+		if slot0.commanderVO then
+			if slot0.parent.playerVO.gold < slot0.total then
 				GoShoppingMsgBox(i18n("switch_to_shop_tip_2", i18n("word_gold")), ChargeScene.TYPE_ITEM, {
 					{
 						59001,
-						uv0.total - slot0.gold,
-						uv0.total
+						slot0.total - slot0.gold,
+						slot0.total
 					}
 				})
 
 				return
 			end
 
-			uv0.parent:openMsgBox({
+			slot0.parent:openMsgBox({
 				content = i18n("commander_reset_talent_tip"),
 				onYes = function ()
-					uv0.parent:emit(CommanderInfoMediator.RESET_TALENTS, uv0.commanderVO.id)
-					uv0:closeResetPanel()
+					slot0.parent:emit(CommanderInfoMediator.RESET_TALENTS, slot0.commanderVO.id)
+					slot0.parent.emit:closeResetPanel()
 				end
 			})
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.useBtn, function ()
-		if uv0:inChapter(uv0.commanderVO) then
+		if slot0:inChapter(slot0.commanderVO) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_is_in_battle"))
 
 			return
 		end
 
-		if uv0.commanderVO:getTalentPoint() > 0 then
-			uv0:openUseagePanel()
+		if slot0.commanderVO:getTalentPoint() > 0 then
+			slot0:openUseagePanel()
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_skill_point_noengough"))
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.usagePanel, function ()
-		uv0:closeUsagePanel()
+		slot0:closeUsagePanel()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.usageCancelBtn, function ()
-		uv0:closeUsagePanel()
+		slot0:closeUsagePanel()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.usageCloseBtn, function ()
-		uv0:closeUsagePanel()
+		slot0:closeUsagePanel()
 	end, SFX_PANEL)
 end
 
@@ -162,12 +160,8 @@ function slot0.update(slot0, slot1)
 	slot0.pointTxt.text = slot1:getTalentPoint()
 
 	slot0:removeTimer()
-
-	slot2 = slot1.abilityTime + CommanderConst.RESET_TALENT_WAIT_TIME
-	slot3 = pg.TimeMgr.GetInstance():GetServerTime()
-
-	setActive(slot0.resetTimeBtn, slot0.commanderVO:getPt() > 0 or slot3 < slot2)
-	setActive(slot0.resetTimeTF, slot0.commanderVO:getPt() > 0 or slot3 < slot2)
+	setActive(slot0.resetTimeBtn, slot0.commanderVO:getPt() > 0 or pg.TimeMgr.GetInstance():GetServerTime() < slot1.abilityTime + CommanderConst.RESET_TALENT_WAIT_TIME)
+	setActive(slot0.resetTimeTF, slot0.commanderVO:getPt() > 0 or pg.TimeMgr.GetInstance().GetServerTime() < slot1.abilityTime + CommanderConst.RESET_TALENT_WAIT_TIME)
 
 	if slot2 <= slot3 then
 		slot0.resetPoint = true
@@ -176,17 +170,16 @@ function slot0.update(slot0, slot1)
 		setActive(slot0.resetTimeTF, false)
 	else
 		slot0.timer = Timer.New(function ()
-			slot0 = pg.TimeMgr.GetInstance()
-			uv0 = slot0:GetServerTime()
+			slot0 = pg.TimeMgr.GetInstance():GetServerTime()
 
-			if uv1 - uv0 > 0 then
-				uv2.resetTimeTxt.text = pg.TimeMgr.GetInstance():DescCDTime(slot0)
+			if pg.TimeMgr.GetInstance() -  > 0 then
+				slot2.resetTimeTxt.text = pg.TimeMgr.GetInstance():DescCDTime(slot0)
 			else
-				uv2.resetTimeTxt.text = i18n("commander_reset_talent")
+				slot2.resetTimeTxt.text = i18n("commander_reset_talent")
 
-				setActive(uv2.resetTimeTF, false)
+				setActive(i18n("commander_reset_talent").resetTimeTF, false)
 
-				uv2.resetPoint = true
+				i18n("commander_reset_talent").resetTimeTF.resetPoint = true
 			end
 		end, 1, -1)
 
@@ -198,13 +191,13 @@ function slot0.update(slot0, slot1)
 end
 
 function slot0.updateTalents(slot0)
-	slot0:clearScrollTxts(uv0)
+	slot0:clearScrollTxts(slot0)
 
-	slot2 = slot0.commanderVO:getTalents()
+	slot2 = slot0.commanderVO.getTalents(slot1)
 
 	slot0.uilist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			uv0:updateTalentCard(slot2, uv1[slot1 + 1], uv2)
+			slot0:updateTalentCard(slot2, slot1[slot1 + 1], slot2)
 		end
 	end)
 	slot0.uilist:align(CommanderConst.MAX_TELENT_COUNT)
@@ -220,7 +213,7 @@ function slot0.updateTalentCard(slot0, slot1, slot2, slot3)
 
 		if slot4:Find("tree_btn") then
 			onButton(slot0, slot4:Find("tree_btn"), function ()
-				uv0.parent:openTreePanel(uv1)
+				slot0.parent:openTreePanel(slot0.parent)
 			end, SFX_PANEL)
 		end
 
@@ -240,7 +233,10 @@ function slot0.updateTalentCard(slot0, slot1, slot2, slot3)
 end
 
 function slot0.clearScrollTxts(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.scrollTxts[slot1] or {}) do
+	slot2 = ipairs
+	slot3 = slot0.scrollTxts[slot1] or {}
+
+	for slot5, slot6 in slot2(slot3) do
 		slot6:clear()
 	end
 
@@ -248,165 +244,477 @@ function slot0.clearScrollTxts(slot0, slot1)
 end
 
 function slot0.openUseagePanel(slot0)
-	slot0:clearScrollTxts(uv0)
-
-	slot1 = slot0.commanderVO
-
+	slot0:clearScrollTxts(slot0)
 	setActive(slot0.usagePanel, true)
 	slot0.usagePanel:SetAsLastSibling()
 	removeOnButton(slot0.usageConfirmBtn)
 	setActive(slot0.usageCostIconTF, false)
 	setActive(slot0.usageCostTxtTF, false)
 
-	if not slot1:getNotLearnedList() or #slot2 == 0 then
+	if not slot0.commanderVO.getNotLearnedList(slot1) or #slot2 == 0 then
 		slot0.parent:emit(CommanderInfoMediator.FETCH_NOT_LEARNED_TALENT, slot1.id)
 	else
 		slot3 = nil
 
 		slot0.usageList:make(function (slot0, slot1, slot2)
 			if slot0 == UIItemList.EventUpdate then
-				slot3 = uv0[slot1 + 1]
+				onToggle(slot1, slot2, function (slot0)
+					if slot0 and (not slot0 or slot0.id ~= slot1.id) then
 
-				onToggle(uv1, slot2, function (slot0)
-					if slot0 and (not uv0 or uv0.id ~= uv1.id) then
-						uv0 = uv1
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 12-32, warpins: 2 ---
+						--- END OF BLOCK #0 ---
 
-						uv2:updateTalentCard(uv2.usageTalent, uv1, uv3)
+						FLOW; TARGET BLOCK #1
 
-						slot1 = uv1
 
-						setActive(uv2.usageCostIconTF, slot1:getConfig("cost") > 0)
-						setActive(uv2.usageCostTxtTF, slot1 > 0)
 
-						uv2.usageCostTxt.text = slot1
+						-- Decompilation error in this vicinity:
+						--- BLOCK #1 36-42, warpins: 2 ---
+						slot0 = slot1
 
-						setActive(uv2.usageConfirmUpgrade, uv4:hasTalent(uv1))
-						setActive(uv2.usageConfirmILearned, not uv4:hasTalent(uv1))
+						slot2:updateTalentCard(slot2.usageTalent, slot2.updateTalentCard, )
+
+						slot3 = slot2.usageCostIconTF
+
+						if slot2.updateTalentCard:getConfig("cost") <= 0 then
+
+							-- Decompilation error in this vicinity:
+							--- BLOCK #0 33-34, warpins: 1 ---
+							slot4 = false
+							--- END OF BLOCK #0 ---
+
+
+
+						else
+
+							-- Decompilation error in this vicinity:
+							--- BLOCK #0 35-35, warpins: 1 ---
+							slot4 = true
+							--- END OF BLOCK #0 ---
+
+
+
+						end
+
+						slot2(slot3, slot4)
+
+						slot3 = slot2.usageCostTxtTF
+						slot4 = slot1 > 0
+
+						slot2(slot2.usageCostTxtTF, slot1 > 0)
+
+						slot2.usageCostTxt.text = slot1
+
+						setActive(slot2.usageConfirmUpgrade, slot1 > 0:hasTalent(slot1))
+						setActive(slot2.usageConfirmILearned, not slot1 > 0.hasTalent:hasTalent(slot1))
+
+						--- END OF BLOCK #1 ---
+
+						FLOW; TARGET BLOCK #3
+
+
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #2 43-44, warpins: 1 ---
+						slot4 = false
+
+						if false then
+
+							-- Decompilation error in this vicinity:
+							--- BLOCK #0 45-45, warpins: 1 ---
+							slot4 = true
+							--- END OF BLOCK #0 ---
+
+
+
+						end
+						--- END OF BLOCK #2 ---
+
+						FLOW; TARGET BLOCK #3
+
+
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #3 46-68, warpins: 2 ---
+						--- END OF BLOCK #3 ---
+
+
+
 					end
 				end, SFX_PANEL)
-				setActive(slot2:Find("up"), uv4:hasTalent(slot3))
-				GetImageSpriteFromAtlasAsync("CommanderTalentIcon/" .. slot3:getConfig("icon"), "", slot2)
+				setActive(slot2:Find("up"), slot4)
+				GetImageSpriteFromAtlasAsync("CommanderTalentIcon/" .. slot0[slot1 + 1].getConfig(slot3, "icon"), "", slot2)
 
 				if slot1 == 0 then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 38-41, warpins: 1 ---
 					triggerToggle(slot2, true)
+					--- END OF BLOCK #0 ---
+
+
+
 				end
 			end
 		end)
 		slot0.usageList:align(#slot2)
 		onButton(slot0, slot0.usageConfirmBtn, function ()
-			if uv0 then
-				if uv1:fullTalentCnt() then
-					if not uv1:hasTalent(uv0) then
-						uv2:openReplacePanel(uv0)
-					end
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-3, warpins: 1 ---
+			if slot0 and slot1:fullTalentCnt() and not slot1:hasTalent(slot1.hasTalent) then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 17-22, warpins: 1 ---
+				slot2:openReplacePanel(slot2.openReplacePanel)
+				--- END OF BLOCK #0 ---
+
+
+
+			else
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 23-25, warpins: 3 ---
+				if slot0 then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 26-36, warpins: 1 ---
+					slot2:emit(CommanderInfoMediator.ON_LEARN_TALENT, slot1.id, slot0.id, 0)
+					--- END OF BLOCK #0 ---
+
+
+
 				end
-			elseif uv0 then
-				uv2:emit(CommanderInfoMediator.ON_LEARN_TALENT, uv1.id, uv0.id, 0)
+				--- END OF BLOCK #0 ---
+
+
+
 			end
+
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 37-37, warpins: 3 ---
+			return
+			--- END OF BLOCK #1 ---
+
+
+
 		end, SFX_PANEL)
 	end
 end
 
 function slot0.closeUsagePanel(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-5, warpins: 1 ---
 	setActive(slot0.usagePanel, false)
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.openResetPanel(slot0)
-	slot0:clearScrollTxts(uv0)
 
-	slot1 = slot0.commanderVO
-
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-37, warpins: 1 ---
+	slot0:clearScrollTxts(slot0)
 	setActive(slot0.resetPanel, true)
 	slot0.resetPanel:SetAsLastSibling()
 	slot0.resetList:make(function (slot0, slot1, slot2)
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-4, warpins: 1 ---
 		if slot0 == UIItemList.EventUpdate then
-			uv0:updateTalentCard(slot2, uv1[slot1 + 1], uv2)
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 5-13, warpins: 1 ---
+			slot0:updateTalentCard(slot2, slot1[slot1 + 1], slot2)
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 14-14, warpins: 2 ---
+		return
+		--- END OF BLOCK #1 ---
+
+
+
 	end)
+	slot0.resetList:align(#slot0.commanderVO.getTalentOrigins(slot1))
 
-	slot3 = slot0.resetList
+	slot0.total = slot0.commanderVO.getResetTalentConsume(slot1)
+	slot4 = slot0.resetGoldTxt
 
-	slot3:align(#slot1:getTalentOrigins())
+	if slot0.parent.playerVO.gold >= slot0.total or not ("<color=" .. COLOR_RED .. ">" .. slot0.total .. "</color>") then
 
-	slot0.total = slot1:getResetTalentConsume()
-	slot0.resetGoldTxt.text = slot0.parent.playerVO.gold < slot0.total and "<color=" .. COLOR_RED .. ">" .. slot0.total .. "</color>" or slot0.total
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 46-46, warpins: 2 ---
+		slot5 = slot0.total
+		--- END OF BLOCK #0 ---
+
+
+
+	end
+
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 47-62, warpins: 2 ---
+	slot4.text = slot5
 	slot0.resetPointTxt.text = slot1:getTotalPoint()
-	GetComponent(slot0.resetGoldTxt, typeof(Outline)).enabled = slot0.total <= slot3.gold
+	slot4 = GetComponent(slot0.resetGoldTxt, typeof(Outline))
+
+	if slot0.total > slot3.gold then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 63-64, warpins: 1 ---
+		slot5 = false
+		--- END OF BLOCK #0 ---
+
+
+
+	else
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 65-65, warpins: 1 ---
+		slot5 = true
+		--- END OF BLOCK #0 ---
+
+
+
+	end
+
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 66-68, warpins: 2 ---
+	slot4.enabled = slot5
+
+	return
+	--- END OF BLOCK #2 ---
+
+
+
 end
 
 function slot0.closeResetPanel(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-5, warpins: 1 ---
 	setActive(slot0.resetPanel, false)
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.openReplacePanel(slot0, slot1)
-	slot0:clearScrollTxts(uv0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-33, warpins: 1 ---
+	slot0:clearScrollTxts(slot0)
 	setActive(slot0.replacePanel, true)
 	slot0.replacePanel:SetAsLastSibling()
 	slot0.replaceList:make(function (slot0, slot1, slot2)
-		if slot0 == UIItemList.EventUpdate then
-			onButton(uv1, slot2, function ()
-				if uv0.repalceToggle ~= uv1 then
-					uv2(uv3, uv4)
 
-					if uv0.repalceToggle then
-						setActive(uv0.repalceToggle:Find("mark"), false)
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-4, warpins: 1 ---
+		if slot0 == UIItemList.EventUpdate then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 5-24, warpins: 1 ---
+			onButton(slot1, slot2, function ()
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 1-5, warpins: 1 ---
+				if slot0.repalceToggle ~= slot1 then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 6-13, warpins: 1 ---
+					slot2(slot3, slot4)
+
+					if slot2.repalceToggle then
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 14-22, warpins: 1 ---
+						setActive(slot0.repalceToggle:Find("mark"), false)
+						--- END OF BLOCK #0 ---
+
+
+
 					end
 
-					uv0.repalceToggle = uv1
+					--- END OF BLOCK #0 ---
 
-					setActive(uv1:Find("mark"), true)
+					FLOW; TARGET BLOCK #1
+
+
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #1 23-33, warpins: 2 ---
+					slot0.repalceToggle = slot1
+
+					setActive(slot1:Find("mark"), true)
+					--- END OF BLOCK #1 ---
+
+
+
 				end
+
+				--- END OF BLOCK #0 ---
+
+				FLOW; TARGET BLOCK #1
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #1 34-34, warpins: 2 ---
+				return
+				--- END OF BLOCK #1 ---
+
+
+
 			end, SFX_PANEL)
-			GetImageSpriteFromAtlasAsync("CommanderTalentIcon/" .. uv0[slot1 + 1]:getConfig("icon"), "", slot2)
+			GetImageSpriteFromAtlasAsync("CommanderTalentIcon/" .. slot0[slot1 + 1].getConfig(slot3, "icon"), "", slot2)
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 25-26, warpins: 2 ---
+		return
+		--- END OF BLOCK #1 ---
+
+
+
 	end)
-	function (slot0, slot1)
-		uv0:updateTalentCard(uv0.replaceTargetTF, slot0, uv1)
-		uv0:updateTalentCard(uv0.replaceTalent, slot1, uv1)
-		onButton(uv0, uv0.replaceconfirmBtn, function ()
-			if uv0 and uv1 and uv2 then
-				if uv0:getConfig("worth") > 1 then
-					pg.MsgboxMgr.GetInstance():ShowMsgBox({
-						content = i18n("commander_ability_replace_warning"),
-						onYes = function ()
-							uv0:emit(CommanderInfoMediator.ON_LEARN_TALENT, uv1.id, uv2.id, uv3.id)
-							uv0:closeReplacePanel()
-						end
-					})
-				else
-					uv3:emit(CommanderInfoMediator.ON_LEARN_TALENT, uv2.id, uv1.id, uv0.id)
-					uv3:closeReplacePanel()
-				end
-			end
-		end, SFX_PANEL)
-	end(slot1, nil)
-	slot0.replaceList:align(#slot0.commanderVO:getTalents())
+	slot3(slot1, nil)
+	slot0.replaceList:align(#slot0.commanderVO.getTalents(slot2))
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.closeReplacePanel(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-7, warpins: 1 ---
 	setActive(slot0.replacePanel, false)
 
 	if slot0.repalceToggle then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 8-17, warpins: 1 ---
 		setActive(slot0.repalceToggle:Find("mark"), false)
 
 		slot0.repalceToggle = nil
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 18-18, warpins: 2 ---
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot0.removeTimer(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-3, warpins: 1 ---
 	if slot0.timer then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 4-9, warpins: 1 ---
 		slot0.timer:Stop()
 
 		slot0.timer = nil
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 10-10, warpins: 2 ---
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot0.exit(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-20, warpins: 1 ---
 	slot0:removeTimer()
-	slot0:clearScrollTxts(uv0)
-	slot0:clearScrollTxts(uv1)
-	slot0:clearScrollTxts(uv2)
-	slot0:clearScrollTxts(uv3)
+	slot0:clearScrollTxts(slot0)
+	slot0:clearScrollTxts(slot0.clearScrollTxts)
+	slot0:clearScrollTxts(slot0)
+	slot0:clearScrollTxts(slot0)
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 return slot0

@@ -560,3 +560,5 @@ sc_24010 = slot0.Message(SC_24010)
 sc_24012 = slot0.Message(SC_24012)
 shipinchallenge = slot0.Message(SHIPINCHALLENGE)
 userchallengeinfo = slot0.Message(USERCHALLENGEINFO)
+
+return

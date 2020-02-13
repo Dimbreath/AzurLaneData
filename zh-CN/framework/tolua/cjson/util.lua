@@ -1,11 +1,12 @@
 slot0 = require("cjson")
 
 function slot1(slot0)
+	slot1 = 0
 	slot2 = 0
 
 	for slot6, slot7 in pairs(slot0) do
 		if type(slot6) == "number" then
-			if 0 < slot6 then
+			if slot1 < slot6 then
 				slot1 = slot6
 			end
 
@@ -28,7 +29,7 @@ function slot3(slot0, slot1, slot2)
 	slot3, slot4, slot5 = nil
 
 	if slot1 then
-		slot4 = "\n" .. slot1 .. "  "
+		slot4 = slot3 .. "  "
 		slot5 = slot1 .. "  "
 	else
 		slot5 = false
@@ -45,13 +46,13 @@ function slot3(slot0, slot1, slot2)
 		"{" .. slot4
 	}
 
-	if uv0(slot0) > 0 then
+	if slot0(slot0) > 0 then
 		for slot12 = 1, slot6, 1 do
 			if slot7 then
 				table.insert(slot8, "," .. slot4)
 			end
 
-			table.insert(slot8, uv1(slot0[slot12], slot5, slot2))
+			table.insert(slot8, slot1(slot0[slot12], slot5, slot2))
 
 			slot7 = true
 		end
@@ -61,7 +62,7 @@ function slot3(slot0, slot1, slot2)
 				table.insert(slot8, "," .. slot4)
 			end
 
-			table.insert(slot8, "[%s] = %s":format(uv1(slot12, slot5, slot2), uv1(slot13, slot5, slot2)))
+			table.insert(slot8, "[%s] = %s":format(slot1(slot12, slot5, slot2), slot1(slot13, slot5, slot2)))
 
 			slot7 = true
 		end
@@ -85,14 +86,14 @@ return {
 			slot2 = 0
 		end
 
-		if slot0 == uv0.null then
+		if slot0 == slot0.null then
 			return "json.null"
 		elseif type(slot0) == "string" then
 			return "%q":format(slot0)
 		elseif type(slot0) == "nil" or type(slot0) == "number" or type(slot0) == "boolean" then
 			return tostring(slot0)
 		elseif type(slot0) == "table" then
-			return uv1(slot0, slot1, slot2)
+			return slot1(slot0, slot1, slot2)
 		else
 			return "\"<" .. type(slot0) .. ">\""
 		end
@@ -156,11 +157,10 @@ return {
 			return slot0 == slot1
 		end
 
-		slot4 = {
-			[slot8] = true
-		}
+		slot4 = {}
 
 		for slot8, slot9 in pairs(slot0) do
+			slot4[slot8] = true
 		end
 
 		for slot8, slot9 in pairs(slot1) do
@@ -168,7 +168,7 @@ return {
 				return false
 			end
 
-			if not uv0(slot0[slot8], slot1[slot8]) then
+			if not slot0(slot0[slot8], slot1[slot8]) then
 				return false
 			end
 
@@ -182,33 +182,30 @@ return {
 		return true
 	end,
 	run_test_summary = function ()
-		return uv0, uv1
+		return slot0, slot1
 	end,
 	run_test = function (slot0, slot1, slot2, slot3, slot4)
 		function slot5(slot0, slot1, slot2)
+			slot3 = {
+				[true] = ":success",
+				[false] = ":error"
+			}
+
 			if slot1 ~= nil then
-				slot0 = slot0 .. ({
-					[true] = ":success",
-					[false] = ":error"
-				})[slot1]
+				slot0 = slot0 .. slot3[slot1]
 			end
 
-			print("[%s] %s":format(slot0, uv0(slot2, false)))
+			print("[%s] %s":format(slot0, slot0(slot2, false)))
 		end
 
-		slot6[MULTRES] = pcall(slot1, unpack(slot2))
 		slot8 = false
 
-		if table.remove({
-			pcall(slot1, unpack(slot2))
-		}, 1) == slot3 and uv1(slot6, slot4) then
+		if table.remove(slot6, 1) == slot3 and slot1(slot6, slot4) then
 			slot8 = true
-			uv2 = uv2 + 1
+			slot2 = slot2 + 1
 		end
 
-		uv3 = uv3 + 1
-
-		print("==> Test [%d] %s: %s":format(uv3, slot0, ({
+		print("==> Test [%d] %s: %s":format(slot3, slot0, ({
 			[true] = "PASS",
 			[false] = "FAIL"
 		})[slot8]))
@@ -224,25 +221,30 @@ return {
 		return slot8, slot6
 	end,
 	run_test_group = function (slot0)
+		function slot1(slot0, slot1, slot2)
+			if type(slot0) == "string" and #slot0 > 0 then
+				print("==> " .. slot0)
+			end
+
+			slot1(unpack(slot2 or {}))
+			print()
+		end
+
 		for slot5, slot6 in ipairs(slot0) do
 			if slot6[4] == nil then
-				function (slot0, slot1, slot2)
-					if type(slot0) == "string" and #slot0 > 0 then
-						print("==> " .. slot0)
-					end
-
-					slot1(unpack(slot2 or {}))
-					print()
-				end(unpack(slot6))
+				slot1(unpack(slot6))
 			else
-				uv0(unpack(slot6))
+				slot0(unpack(slot6))
 			end
 		end
 	end,
 	run_script = function (slot0, slot1)
+		slot2 = slot1 or {}
+		slot3 = nil
+
 		if _G.setfenv then
 			if loadstring(slot0) then
-				setfenv(nil, slot1 or {})
+				setfenv(slot3, slot2)
 			end
 		else
 			slot3 = load(slot0, nil, nil, slot2)

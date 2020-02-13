@@ -2,15 +2,15 @@ slot0 = class("CommanderIndexPage", import("...base.BaseSubView"))
 slot1 = {
 	sort = {
 		{
-			nil,
+			i18n("word_default"),
 			"id"
 		},
 		{
-			nil,
+			i18n("word_level"),
 			"Level"
 		},
 		{
-			nil,
+			i18n("word_rarity"),
 			"Rarity"
 		}
 	},
@@ -26,25 +26,19 @@ slot1 = {
 	},
 	rarity = {
 		{
-			nil,
+			i18n("word_ssr"),
 			5
 		},
 		{
-			nil,
+			i18n("word_sr"),
 			4
 		},
 		{
-			nil,
+			i18n("word_r"),
 			3
 		}
 	}
 }
-slot3[1] = i18n("word_default")
-slot3[1] = i18n("word_level")
-slot3[1] = i18n("word_rarity")
-slot3[1] = i18n("word_ssr")
-slot3[1] = i18n("word_sr")
-slot3[1] = i18n("word_r")
 
 function slot0.getUIName(slot0)
 	return "CommanderIndexUI"
@@ -66,20 +60,20 @@ function slot0.OnInit(slot0)
 	slot0.closeBtn = slot0:findTF("frame/close_btn")
 
 	onButton(slot0, slot0.cancelBtn, function ()
-		uv0:Hide()
+		slot0:Hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.closeBtn, function ()
-		uv0:Hide()
+		slot0:Hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0._tf, function ()
-		uv0:Hide()
+		slot0:Hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.confirmBtn, function ()
-		if uv0.confirm then
-			uv0.confirm()
+		if slot0.confirm then
+			slot0.confirm()
 		end
 
-		uv0:Hide()
+		slot0:Hide()
 	end, SFX_PANEL)
 	slot0:initToggle()
 end
@@ -93,12 +87,12 @@ end
 function slot0.initSort(slot0)
 	slot0.sortToggles = {}
 
-	for slot4, slot5 in ipairs(uv0.sort) do
+	for slot4, slot5 in ipairs(slot0.sort) do
 		slot6 = cloneTplTo(slot0.tpl, slot0.sortPanel:Find("content"))
 
 		onToggle(slot0, slot6, function (slot0)
 			if slot0 then
-				uv0.data.sortData = uv1[2]
+				slot0.data.sortData = slot1[2]
 			end
 		end, SFX_PANEL)
 		setText(slot6:Find("Text"), slot5[1])
@@ -112,35 +106,35 @@ function slot0.initNation(slot0)
 
 	onToggle(slot0, slot0.nationAllBtn, function (slot0)
 		if slot0 then
-			for slot4, slot5 in pairs(uv0.nationToggles) do
+			for slot4, slot5 in pairs(slot0.nationToggles) do
 				triggerToggle(slot5, false)
 			end
 
-			uv0.data.nationData = {}
+			slot0.data.nationData = {}
 		end
 
-		setToggleEnabled(uv0.nationAllBtn, not slot0)
+		setToggleEnabled(slot0.nationAllBtn, not slot0)
 	end, SFX_PANEL)
 
-	for slot4, slot5 in pairs(uv0.nation) do
+	for slot4, slot5 in pairs(slot0.nation) do
 		slot6 = cloneTplTo(slot0.nationAllBtn, slot0.nationPanel:Find("content"))
 
 		onToggle(slot0, slot6, function (slot0)
 			if slot0 then
-				if #uv0.data.nationData == 0 then
-					triggerToggle(uv0.nationAllBtn, false)
+				if #slot0.data.nationData == 0 then
+					triggerToggle(slot0.nationAllBtn, false)
 				end
 
-				table.insert(uv0.data.nationData, uv1)
+				table.insert(slot0.data.nationData, table.insert)
 
-				if #uv0.data.nationData == #uv2.nation then
-					triggerToggle(uv0.nationAllBtn, true)
+				if #slot0.data.nationData == #slot0.data.nationData.nation then
+					triggerToggle(slot0.nationAllBtn, true)
 				end
-			elseif #uv0.data.nationData > 0 and table.indexof(uv0.data.nationData, uv1) then
-				table.remove(uv0.data.nationData, slot1)
+			elseif #slot0.data.nationData > 0 and table.indexof(slot0.data.nationData, table.indexof) then
+				table.remove(slot0.data.nationData, slot1)
 
-				if #uv0.data.nationData == 0 then
-					triggerToggle(uv0.nationAllBtn, true)
+				if #slot0.data.nationData == 0 then
+					triggerToggle(slot0.nationAllBtn, true)
 				end
 			end
 		end, SFX_PANEL)
@@ -155,35 +149,35 @@ function slot0.initRarity(slot0)
 
 	onToggle(slot0, slot0.rarityAllBtn, function (slot0)
 		if slot0 then
-			for slot4, slot5 in pairs(uv0.rarityToggles) do
+			for slot4, slot5 in pairs(slot0.rarityToggles) do
 				triggerToggle(slot5, false)
 			end
 
-			uv0.data.rarityData = {}
+			slot0.data.rarityData = {}
 		end
 
-		setToggleEnabled(uv0.rarityAllBtn, not slot0)
+		setToggleEnabled(slot0.rarityAllBtn, not slot0)
 	end, SFX_PANEL)
 
-	for slot4, slot5 in pairs(uv0.rarity) do
+	for slot4, slot5 in pairs(slot0.rarity) do
 		slot6 = cloneTplTo(slot0.rarityAllBtn, slot0.rarityPanel:Find("content"))
 
 		onToggle(slot0, slot6, function (slot0)
 			if slot0 then
-				if #uv0.data.rarityData == 0 then
-					triggerToggle(uv0.rarityAllBtn, false)
+				if #slot0.data.rarityData == 0 then
+					triggerToggle(slot0.rarityAllBtn, false)
 				end
 
-				table.insert(uv0.data.rarityData, uv1[2])
+				table.insert(slot0.data.rarityData, slot1[2])
 
-				if #uv0.data.rarityData == #uv2.rarity then
-					triggerToggle(uv0.rarityAllBtn, true)
+				if #slot0.data.rarityData == #slot0.data.rarityData.rarity then
+					triggerToggle(slot0.rarityAllBtn, true)
 				end
-			elseif #uv0.data.rarityData > 0 and table.indexof(uv0.data.rarityData, uv1[2]) then
-				table.remove(uv0.data.rarityData, slot1)
+			elseif #slot0.data.rarityData > 0 and table.indexof(slot0.data.rarityData, slot1[2]) then
+				table.remove(slot0.data.rarityData, slot1)
 
-				if #uv0.data.rarityData == 0 then
-					triggerToggle(uv0.rarityAllBtn, true)
+				if #slot0.data.rarityData == 0 then
+					triggerToggle(slot0.rarityAllBtn, true)
 				end
 			end
 		end, SFX_PANEL)
@@ -232,6 +226,7 @@ function slot0.Hide(slot0)
 end
 
 function slot0.OnDestroy(slot0)
+	return
 end
 
 return slot0

@@ -13,6 +13,7 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	return
 end
 
 return slot0

@@ -129,3 +129,5 @@ pg.furniture_init_data_template = {
 		1112
 	}
 }
+
+return

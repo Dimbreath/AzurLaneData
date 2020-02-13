@@ -1,11 +1,9 @@
-slot0 = class("AcceptActivityTaskCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("AcceptActivityTaskCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	print("accpet activity task...................")
 
 	slot2 = getProxy(TaskProxy)
 
-	_.each(getProxy(ActivityProxy):getActivitiesByTypes({
+	_.each(getProxy(ActivityProxy).getActivitiesByTypes(slot3, {
 		ActivityConst.ACTIVITY_TYPE_TASK_LIST,
 		ActivityConst.ACTIVITY_TYPE_TASK_RES
 	}), function (slot0)
@@ -17,4 +15,4 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-return slot0
+return class("AcceptActivityTaskCommand", pm.SimpleCommand)

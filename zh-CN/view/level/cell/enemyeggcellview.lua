@@ -1,7 +1,7 @@
 slot0 = class("EnemyEggCellView", import("view.level.cell.StaticCellView"))
 
 function slot0.Ctor(slot0, slot1)
-	uv0.super.Ctor(slot0, slot1)
+	slot0.super.Ctor(slot0, slot1)
 
 	slot0.config = nil
 	slot0.chapter = nil
@@ -15,13 +15,11 @@ function slot0.SetTpl(slot0, slot1, slot2)
 end
 
 function slot0.Update(slot0)
-	slot1 = slot0.info
 	slot2 = slot0.config
-	slot3 = slot1.row
-	slot4 = slot1.column
+	slot3 = slot0.info.row
+	slot4 = slot0.info.column
 
-	if slot1.attachment == ChapterConst.AttachAmbush and slot1.flag == 2 then
-		-- Nothing
+	if slot0.info.attachment == ChapterConst.AttachAmbush and slot1.flag == 2 then
 	elseif slot1.flag == 0 then
 		if slot0:UpdateGO(slot0._aliveTpl) then
 			slot0.tf.anchoredPosition = Vector2(0, 0)
@@ -30,7 +28,7 @@ function slot0.Update(slot0)
 			slot0:ExtraUpdate(slot2)
 		end
 
-		setActive(findTF(slot0.tf, slot1.attachment == ChapterConst.AttachBoss and "effect_found_boss" or "effect_found"), slot1.trait == ChapterConst.TraitVirgin)
+		setActive(findTF(slot0.tf, (slot1.attachment == ChapterConst.AttachBoss and "effect_found_boss") or "effect_found"), slot1.trait == ChapterConst.TraitVirgin)
 
 		if slot1.trait == ChapterConst.TraitVirgin then
 			playSoundEffect(SFX_UI_WEIGHANCHOR_ENEMY)
@@ -45,7 +43,7 @@ function slot0.Update(slot0)
 		if slot2.icon_type == 1 then
 			slot0.tf.anchoredPosition = Vector2(0, 10)
 
-			slot0:LoadSprite("enemies/" .. slot2.icon .. "_d_" .. "blue", "", slot0.tf:Find("icon"))
+			slot0:LoadSprite("enemies/" .. slot2.icon .. "_d_" .. slot6, "", slot0.tf:Find("icon"))
 			setActive(slot0.tf:Find("effect_not_open"), false)
 			setActive(slot0.tf:Find("effect_open"), false)
 		end
@@ -95,7 +93,7 @@ function slot0.ExtraUpdate(slot0, slot1)
 
 	if slot1.effect_prefab and #slot2 > 0 then
 		slot0:LoadPrefab("effect/" .. slot2, slot2, function (slot0)
-			slot0.transform:SetParent(uv0.tf, false)
+			slot0.transform:SetParent(slot0.tf, false)
 
 			slot0.transform.localScale = slot0.transform.localScale
 		end)
@@ -140,7 +138,7 @@ function slot0.Clear(slot0)
 	slot0._live2death = nil
 	slot0.chapter = nil
 
-	uv0.super.Clear(slot0)
+	slot0.super.Clear(slot0)
 end
 
 return slot0

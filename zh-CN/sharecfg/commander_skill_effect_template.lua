@@ -1,34 +1,4 @@
 pg = pg or {}
-slot4[2] = {
-	1
-}
-slot4[2] = {
-	1
-}
-slot4[2] = {
-	1
-}
-slot4[2] = {
-	1
-}
-slot4[2] = {
-	1
-}
-slot4[2] = {
-	6,
-	7
-}
-slot4[2] = {
-	6,
-	7
-}
-slot4[2] = {
-	1
-}
-slot4[2] = {
-	4,
-	5
-}
 pg.commander_skill_effect_template = {
 	{
 		id = 1,
@@ -40,7 +10,9 @@ pg.commander_skill_effect_template = {
 		condition = {
 			{
 				"count",
-				nil,
+				{
+					1
+				},
 				1,
 				3
 			}
@@ -233,7 +205,9 @@ pg.commander_skill_effect_template = {
 		condition = {
 			{
 				"count",
-				nil,
+				{
+					1
+				},
 				3,
 				3
 			}
@@ -253,7 +227,9 @@ pg.commander_skill_effect_template = {
 		condition = {
 			{
 				"count",
-				nil,
+				{
+					1
+				},
 				1,
 				3
 			},
@@ -274,7 +250,9 @@ pg.commander_skill_effect_template = {
 		condition = {
 			{
 				"count",
-				nil,
+				{
+					1
+				},
 				1,
 				3
 			},
@@ -342,7 +320,9 @@ pg.commander_skill_effect_template = {
 		condition = {
 			{
 				"count",
-				nil,
+				{
+					1
+				},
 				1,
 				3
 			},
@@ -897,7 +877,10 @@ pg.commander_skill_effect_template = {
 		condition = {
 			{
 				"count",
-				nil,
+				{
+					6,
+					7
+				},
 				1,
 				1
 			}
@@ -1005,7 +988,10 @@ pg.commander_skill_effect_template = {
 		condition = {
 			{
 				"count",
-				nil,
+				{
+					6,
+					7
+				},
 				1,
 				3
 			}
@@ -1049,7 +1035,9 @@ pg.commander_skill_effect_template = {
 		condition = {
 			{
 				"count",
-				nil,
+				{
+					1
+				},
 				1,
 				1
 			},
@@ -1216,7 +1204,10 @@ pg.commander_skill_effect_template = {
 		condition = {
 			{
 				"count",
-				nil,
+				{
+					4,
+					5
+				},
 				1,
 				3
 			},
@@ -1582,3 +1573,5 @@ pg.commander_skill_effect_template = {
 		420213
 	}
 }
+
+return

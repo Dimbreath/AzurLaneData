@@ -17,3 +17,5 @@ pg.navalacademy_shoppingstreet_template = {
 		1
 	}
 }
+
+return

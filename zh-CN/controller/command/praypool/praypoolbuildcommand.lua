@@ -1,19 +1,14 @@
-slot0 = class("PrayPoolBuildCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
-	slot4 = slot2.shipIDList
-
+class("PrayPoolBuildCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	pg.ConnectionMgr.GetInstance():Send(11202, {
 		cmd = 1,
 		activity_id = ActivityConst.ACTIVITY_PRAY_POOL,
-		arg1 = slot2.pooltype,
-		arg2 = slot4[1],
-		arg3 = slot4[2]
+		arg1 = slot1:getBody().pooltype,
+		arg2 = slot1.getBody().shipIDList[1],
+		arg3 = slot1.getBody().shipIDList[2]
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
 			getProxy(PrayProxy):updatePageState(PrayProxy.STAGE_BUILD_SUCCESS)
-			uv0:sendNotification(PrayPoolConst.BUILD_PRAY_POOL_SUCCESS, PrayProxy.STAGE_BUILD_SUCCESS)
+			slot0:sendNotification(PrayPoolConst.BUILD_PRAY_POOL_SUCCESS, PrayProxy.STAGE_BUILD_SUCCESS)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("tip_pray_build_pool_success"))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("tip_pray_build_pool_fail"))
@@ -21,4 +16,4 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-return slot0
+return class("PrayPoolBuildCommand", pm.SimpleCommand)

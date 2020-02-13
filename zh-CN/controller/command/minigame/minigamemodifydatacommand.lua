@@ -1,8 +1,8 @@
-slot0 = class("MiniGameModifyDataCommand", pm.SimpleCommand)
+class("MiniGameModifyDataCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	slot6 = getProxy(MiniGameProxy).GetMiniGameData(slot5, slot3)
 
-function slot0.execute(slot0, slot1)
-	for slot10, slot11 in pairs(slot2.map) do
-		getProxy(MiniGameProxy):GetMiniGameData(slot1:getBody().id):SetRuntimeData(slot10, slot11)
+	for slot10, slot11 in pairs(slot4) do
+		slot6:SetRuntimeData(slot10, slot11)
 	end
 
 	slot0:sendNotification(GAME.MODIFY_MINI_GAME_DATA_DONE, {
@@ -11,4 +11,4 @@ function slot0.execute(slot0, slot1)
 	})
 end
 
-return slot0
+return class("MiniGameModifyDataCommand", pm.SimpleCommand)

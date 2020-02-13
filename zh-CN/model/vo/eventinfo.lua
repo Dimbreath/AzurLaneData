@@ -10,14 +10,14 @@ function slot0.Ctor(slot0, slot1)
 	slot0.overTime = slot1.over_time
 	slot0.shipIds = slot1.ship_id_list or {}
 	slot0.ships = {}
-	slot0.state = uv0.StateNone
+	slot0.state = slot0.StateNone
 
 	if slot0.finishTime == 0 then
-		slot0.state = uv0.StateNone
+		slot0.state = slot0.StateNone
 	elseif pg.TimeMgr.GetInstance():GetServerTime() <= slot0.finishTime then
-		slot0.state = uv0.StateActive
+		slot0.state = slot0.StateActive
 	else
-		slot0.state = uv0.StateFinish
+		slot0.state = slot0.StateFinish
 	end
 end
 
@@ -27,7 +27,7 @@ end
 
 function slot0.reachLevel(slot0)
 	return #slot0.ships > 0 and _.any(slot0.ships, function (slot0)
-		return uv0.template.ship_lv <= slot0.level
+		return slot0.template.ship_lv <= slot0.level
 	end)
 end
 
@@ -56,11 +56,9 @@ end
 function slot0.updateTime(slot0)
 	slot1 = false
 
-	if slot0.state == uv0.StateActive then
-		if slot0.finishTime < pg.TimeMgr.GetInstance():GetServerTime() then
-			slot0.state = uv0.StateFinish
-			slot1 = true
-		end
+	if slot0.state == slot0.StateActive and slot0.finishTime < pg.TimeMgr.GetInstance():GetServerTime() then
+		slot0.state = slot0.StateFinish
+		slot1 = true
 	end
 
 	return slot1
@@ -84,8 +82,10 @@ function slot0.getTypesStr(slot0)
 	if slot3 then
 		return i18n("event_type_unlimit")
 	else
+		slot4 = ""
+
 		for slot8, slot9 in ipairs(slot2) do
-			slot4 = "" .. slot1[slot9].type_name .. (slot8 == #slot0.template.ship_type and "" or "、")
+			slot4 = slot4 .. slot1[slot9].type_name .. ((slot8 == #slot0.template.ship_type and "") or "、")
 		end
 
 		return i18n("event_condition_ship_type", slot4)

@@ -63,17 +63,17 @@ function slot0.didEnter(slot0)
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.backBtn, function ()
-		if uv0.descMode then
-			uv0:enableDescMode(false)
+		if slot0.descMode then
+			slot0:enableDescMode(false)
 		else
-			uv0:emit(uv1.ON_BACK)
+			slot0:emit(slot1.ON_BACK)
 		end
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.leftBtn, function ()
-		uv0:flipToSpecificCard(uv0:getNextCardId(true))
+		slot0:flipToSpecificCard(slot0:getNextCardId(true))
 	end)
 	onButton(slot0, slot0.rightBtn, function ()
-		uv0:flipToSpecificCard(uv0:getNextCardId(false))
+		slot0:flipToSpecificCard(slot0:getNextCardId(false))
 	end)
 	slot0:displayDailyLevels()
 
@@ -100,10 +100,8 @@ function slot0.initItems(slot0)
 	end
 
 	if slot0.contextData.dailyLevelId then
-		slot2 = slot0.contextData.dailyLevelId
-
 		table.removebyvalue(slot0.dailyList, slot2)
-		table.insert(slot0.dailyList, math.ceil(#slot1.all / 2), slot2)
+		table.insert(slot0.dailyList, math.ceil(#slot1.all / 2), slot0.contextData.dailyLevelId)
 	end
 
 	for slot5, slot6 in pairs(slot0.dailyList) do
@@ -117,30 +115,28 @@ function slot0.displayDailyLevels(slot0)
 	end
 
 	slot0.content:GetComponent(typeof(EnhancelScrollView)).onCenterClick = function (slot0)
-		uv0:tryOpenDesc(tonumber(slot0.name))
+		slot0:tryOpenDesc(tonumber(slot0.name))
 	end
 
 	slot0.centerAniItem = nil
 	slot0.centerCardId = nil
 	slot0.checkAniTimer = Timer.New(function ()
-		for slot3, slot4 in pairs(uv0.dailyLevelTFs) do
-			if uv0.centerAniItem == slot4 and slot4.localScale.x >= 0.98 then
+		for slot3, slot4 in pairs(slot0.dailyLevelTFs) do
+			slot6 = slot4.localScale.x >= 0.98
+
+			if slot0.centerAniItem == slot4 and slot6 then
 				return
 			else
 				if slot6 then
-					uv0.centerAniItem = slot4
-					uv0.centerCardId = slot3
+					slot0.centerAniItem = slot4
+					slot0.centerCardId = slot3
 				end
 
-				slot7 = uv0
+				if slot0:findTF("icon/card", slot4) then
+					setActive(slot0:findTF("effect", slot7), slot6)
 
-				if slot7:findTF("icon/card", slot4) then
-					slot8 = uv0:findTF("mask/char", slot7)
-
-					setActive(uv0:findTF("effect", slot7), slot6)
-
-					if slot8:GetComponent(typeof(Animator)) then
-						slot8.speed = slot6 and 1 or 0
+					if slot0:findTF("mask/char", slot7):GetComponent(typeof(Animator)) then
+						slot8.speed = (slot6 and 1) or 0
 					end
 				end
 			end
@@ -188,19 +184,18 @@ function slot0.initDailyLevel(slot0, slot1)
 	slot5 = findTF(slot3, "icon")
 
 	PoolMgr.GetInstance():GetPrefab("dailyui/" .. slot2.pic, "", true, function (slot0)
-		slot0 = tf(slot0)
+		tf(slot0):SetParent(tf(slot0), false)
 
-		slot0:SetParent(uv0, false)
-
-		slot0.localPosition = Vector3.zero
-		slot0.name = "card"
+		tf(slot0).localPosition = Vector3.zero
+		tf(slot0).name = "card"
 	end)
 	setText(findTF(slot3, "Text"), "")
 
+	slot6 = findTF(slot3, "count")
 	slot7 = slot0.dailyCounts[slot1] or 0
 
 	if slot2.limit_time == 0 then
-		setText(findTF(slot3, "count"), "N/A")
+		setText(slot6, "N/A")
 	else
 		setText(slot6, string.format("%d/%d", slot2.limit_time - slot7, slot2.limit_time))
 	end
@@ -218,9 +213,10 @@ end
 function slot0.displayStageList(slot0, slot1)
 	slot0.dailyLevelId = slot1
 	slot0.contextData.dailyLevelId = slot0.dailyLevelId
+	slot2 = pg.expedition_daily_template[slot1]
 	slot3 = slot0.dailyCounts[slot1] or 0
 
-	if pg.expedition_daily_template[slot1].limit_time == 0 then
+	if slot2.limit_time == 0 then
 		setText(slot0.descChallengeText, i18n("challenge_count_unlimit"))
 	else
 		setText(slot0.descChallengeText, string.format("%d/%d", slot2.limit_time - slot3, slot2.limit_time))
@@ -232,32 +228,15 @@ function slot0.displayStageList(slot0, slot1)
 
 	slot0.stageTFs = {}
 
-	for slot8, slot9 in ipairs(_.sort(slot2.expedition_and_lv_limit_list, function (slot0, slot1)
-		slot2 = slot0[2] <= uv0.player.level and 1 or 0
-		slot3 = slot1[2] <= uv0.player.level and 1 or 0
-
-		if slot0[2] == slot1[2] then
-			return slot0[1] < slot1[1]
-		end
-
-		if slot2 == slot3 then
-			if slot2 == 1 then
-				return slot1[2] < slot0[2]
-			else
-				return slot0[2] < slot1[2]
-			end
-		else
-			return slot3 < slot2
-		end
-	end)) do
-		slot10 = slot9[1]
-		slot0.stageTFs[slot10] = cloneTplTo(slot0.stageTpl, slot0.stageContain)
+	for slot8, slot9 in ipairs(slot4) do
+		slot0.stageTFs[slot9[1]] = cloneTplTo(slot0.stageTpl, slot0.stageContain)
+		slot12 = {
+			id = slot9[1],
+			level = slot9[2]
+		}
 
 		if slot1 == CHALLENGE_CARD_ID then
-			slot0:updateChallenge({
-				id = slot10,
-				level = slot9[2]
-			})
+			slot0:updateChallenge(slot12)
 		else
 			slot0:updateStage(slot12)
 		end
@@ -265,8 +244,6 @@ function slot0.displayStageList(slot0, slot1)
 end
 
 function slot0.updateStage(slot0, slot1)
-	slot3 = slot0.stageTFs[slot1.id]
-
 	setText(findTF(slot3, "left_panel/name"), pg.expedition_data_template[slot1.id].name)
 	setText(findTF(slot3, "left_panel/lv/Text"), "Lv." .. slot1.level)
 	setActive(slot0:findTF("mask", slot3), slot0.player.level < slot1.level)
@@ -275,8 +252,10 @@ function slot0.updateStage(slot0, slot1)
 		setText(slot0:findTF("msg/msg_contain/Text", slot4), "Lv." .. slot1.level .. " ")
 	end
 
+	slot5 = slot0:findTF("scrollView/right_panel", slot3)
+
 	for slot9, slot10 in ipairs(slot2.award_display) do
-		updateDrop(cloneTplTo(slot0.itemTpl, slot0:findTF("scrollView/right_panel", slot3)), {
+		updateDrop(cloneTplTo(slot0.itemTpl, slot5), {
 			type = slot10[1],
 			id = slot10[2],
 			count = slot10[3]
@@ -286,13 +265,13 @@ function slot0.updateStage(slot0, slot1)
 	setImageSprite(slot3, getImageSprite(findTF(slot0.resource, "normal_bg")))
 	setActive(findTF(slot3, "score"), false)
 	onButton(slot0, slot3, function ()
-		if pg.expedition_daily_template[uv0.dailyLevelId].limit_time <= (uv0.dailyCounts[uv0.dailyLevelId] or 0) then
+		if slot0.limit_time <= (slot0.dailyCounts[slot0.dailyLevelId] or 0) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("dailyLevel_restCount_notEnough"))
 
 			return
 		end
 
-		uv0:emit(DailyLevelMediator.ON_STAGE, uv1)
+		slot0:emit(DailyLevelMediator.ON_STAGE, slot0.emit)
 	end, SFX_PANEL)
 	onButton(slot0, slot4, function ()
 		pg.TipsMgr.GetInstance():ShowTips(i18n("dailyLevel_unopened"))
@@ -304,102 +283,500 @@ function slot0.enableDescMode(slot0, slot1)
 
 	setActive(slot0:findTF("help_btn"), not slot1)
 
+	function slot2(slot0, slot1, slot2, slot3)
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-8, warpins: 1 ---
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 15-22, warpins: 2 ---
+		if LeanTween.isTweening(go(slot0)) then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 9-14, warpins: 1 ---
+			LeanTween.cancel(go(slot0))
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+
+		slot4 = LeanTween.moveX
+		slot5 = rtf(slot0)
+		slot6 = slot1
+		slot7 = slot3 or 0.3
+
+		LeanTween.moveX(slot5, slot6, slot7):setEase(LeanTweenType.linear):setOnComplete(System.Action(function ()
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-3, warpins: 1 ---
+			if slot0 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 4-5, warpins: 1 ---
+				slot0()
+				--- END OF BLOCK #0 ---
+
+
+
+			end
+
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 6-6, warpins: 2 ---
+			return
+			--- END OF BLOCK #1 ---
+
+
+
+		end))
+
+		return
+
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #3
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 23-23, warpins: 1 ---
+		slot7 = 0.3
+		--- END OF BLOCK #2 ---
+
+		FLOW; TARGET BLOCK #3
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #3 24-38, warpins: 2 ---
+		--- END OF BLOCK #3 ---
+
+
+
+	end
+
+	function slot3()
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-5, warpins: 1 ---
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 6-73, warpins: 0 ---
+		for slot3, slot4 in pairs(slot0.dailyLevelTFs) do
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 6-14, warpins: 1 ---
+			setButtonEnabled(slot4, not slot1)
+
+			if slot3 ~= slot0.curId then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 15-22, warpins: 1 ---
+				if LeanTween.isTweening(go(slot4)) then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 23-28, warpins: 1 ---
+					LeanTween.cancel(go(slot4))
+					--- END OF BLOCK #0 ---
+
+
+
+				end
+
+				--- END OF BLOCK #0 ---
+
+				FLOW; TARGET BLOCK #1
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #1 29-37, warpins: 2 ---
+				slot5 = GetComponent(slot4, typeof(CanvasGroup))
+
+				if slot1 then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 38-54, warpins: 1 ---
+					LeanTween.value(go(slot4), 1, 0, 0.3):setOnUpdate(System.Action_float(function (slot0)
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 1-3, warpins: 1 ---
+						slot0.alpha = slot0
+
+						return
+						--- END OF BLOCK #0 ---
+
+
+
+					end))
+					--- END OF BLOCK #0 ---
+
+
+
+				else
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 55-70, warpins: 1 ---
+					LeanTween.value(go(slot4), 0, 1, 0.3):setOnUpdate(System.Action_float(function (slot0)
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 1-3, warpins: 1 ---
+						slot0.alpha = slot0
+
+						return
+						--- END OF BLOCK #0 ---
+
+
+
+					end))
+					--- END OF BLOCK #0 ---
+
+
+
+				end
+				--- END OF BLOCK #1 ---
+
+				FLOW; TARGET BLOCK #2
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #2 71-71, warpins: 2 ---
+				--- END OF BLOCK #2 ---
+
+
+
+			end
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 72-73, warpins: 3 ---
+			--- END OF BLOCK #1 ---
+
+
+
+		end
+
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 74-74, warpins: 1 ---
+		return
+		--- END OF BLOCK #2 ---
+
+
+
+	end
+
+	function slot4()
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-22, warpins: 1 ---
+		setActive(slot0.listPanel, true)
+		setActive(slot0.content, true)
+		setActive(slot0.descPanel, )
+		setActive(slot0.arrows, not slot1)
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
+	end
+
 	if slot1 then
-		function ()
-			setActive(uv0.listPanel, true)
-			setActive(uv0.content, true)
-			setActive(uv0.descPanel, uv1)
-			setActive(uv0.arrows, not uv1)
-		end()
-		function ()
-			for slot3, slot4 in pairs(uv0.dailyLevelTFs) do
-				setButtonEnabled(slot4, not uv1)
 
-				if slot3 ~= uv0.curId then
-					if LeanTween.isTweening(go(slot4)) then
-						LeanTween.cancel(go(slot4))
-					end
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 14-23, warpins: 1 ---
+		slot4()
+		slot3()
+		slot2(slot0.listPanel, -622, function ()
 
-					slot5 = GetComponent(slot4, typeof(CanvasGroup))
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-6, warpins: 1 ---
+			slot0(slot1.descMain, 0)
 
-					if uv1 then
-						LeanTween.value(go(slot4), 1, 0, 0.3):setOnUpdate(System.Action_float(function (slot0)
-							uv0.alpha = slot0
-						end))
-					else
-						LeanTween.value(go(slot4), 0, 1, 0.3):setOnUpdate(System.Action_float(function (slot0)
-							uv0.alpha = slot0
-						end))
-					end
-				end
-			end
-		end()
-		function (slot0, slot1, slot2, slot3)
-			if LeanTween.isTweening(go(slot0)) then
-				LeanTween.cancel(go(slot0))
-			end
+			return
+			--- END OF BLOCK #0 ---
 
-			LeanTween.moveX(rtf(slot0), slot1, slot3 or 0.3):setEase(LeanTweenType.linear):setOnComplete(System.Action(function ()
-				if uv0 then
-					uv0()
-				end
-			end))
-		end(slot0.listPanel, -622, function ()
-			uv0(uv1.descMain, 0)
+
+
 		end)
+		--- END OF BLOCK #0 ---
+
+
+
 	else
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 24-35, warpins: 1 ---
 		slot4()
 		slot3()
 		slot2(slot0.listPanel, 0)
 		slot2(slot0.descMain, -1342)
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 end
 
 function slot0.flipToSpecificCard(slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-11, warpins: 1 ---
+	slot2 = slot0.content:GetComponent(typeof(EnhancelScrollView))
+
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 12-25, warpins: 0 ---
 	for slot6, slot7 in pairs(slot0.dailyLevelTFs) do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 12-13, warpins: 1 ---
 		if slot1 == slot6 then
-			slot0.content:GetComponent(typeof(EnhancelScrollView)):SetHorizontalTargetItemIndex(slot7:GetComponent(typeof(EnhanceItem)).scrollViewItemIndex)
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 14-23, warpins: 1 ---
+			slot2:SetHorizontalTargetItemIndex(slot7:GetComponent(typeof(EnhanceItem)).scrollViewItemIndex)
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 24-25, warpins: 3 ---
+		--- END OF BLOCK #1 ---
+
+
+
 	end
+
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 26-26, warpins: 1 ---
+	return
+	--- END OF BLOCK #2 ---
+
+
+
 end
 
 function slot0.tryPlayGuide(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-10, warpins: 1 ---
 	pg.SystemGuideMgr.GetInstance():PlayDailyLevel(function ()
-		triggerButton(uv0:findTF("help_btn"))
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-8, warpins: 1 ---
+		triggerButton(slot0:findTF("help_btn"))
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end)
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.clearTween(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-3, warpins: 1 ---
 	if slot0.tweens then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 4-6, warpins: 1 ---
 		cancelTweens(slot0.tweens)
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 7-11, warpins: 2 ---
+	function slot1(slot0)
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-8, warpins: 1 ---
+		if LeanTween.isTweening(go(slot0)) then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 9-14, warpins: 1 ---
+			LeanTween.cancel(go(slot0))
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 15-15, warpins: 2 ---
+		return
+		--- END OF BLOCK #1 ---
+
+
+
+	end
+
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 12-16, warpins: 0 ---
 	for slot5, slot6 in pairs(slot0.dailyLevelTFs) do
-		function (slot0)
-			if LeanTween.isTweening(go(slot0)) then
-				LeanTween.cancel(go(slot0))
-			end
-		end(slot6)
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 12-14, warpins: 1 ---
+		slot1(slot6)
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 15-16, warpins: 2 ---
+		--- END OF BLOCK #1 ---
+
+
+
 	end
 
+	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 17-23, warpins: 1 ---
 	slot1(slot0.listPanel)
 	slot1(slot0.descMain)
+
+	return
+	--- END OF BLOCK #3 ---
+
+
+
 end
 
 function slot0.willExit(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-6, warpins: 1 ---
 	slot0:clearTween()
 
 	if slot0.checkAniTimer then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 7-12, warpins: 1 ---
 		slot0.checkAniTimer:Stop()
 
 		slot0.checkAniTimer = nil
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 13-15, warpins: 2 ---
 	if slot0.resPanel then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 16-21, warpins: 1 ---
 		slot0.resPanel:exit()
 
 		slot0.resPanel = nil
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 22-22, warpins: 2 ---
+	return
+	--- END OF BLOCK #2 ---
+
+
+
 end
 
 return slot0

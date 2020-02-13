@@ -12,12 +12,12 @@ slot0.MNF = 9
 slot0.LINK = 100
 
 function slot0.IsLinkType(slot0)
-	return uv0.LINK < slot0
+	return slot0.LINK < slot0
 end
 
 function slot0.Nation2Print(slot0)
-	if not uv0.prints then
-		uv0.prints = {
+	if not slot0.prints then
+		slot0.prints = {
 			[0] = "cm",
 			"us",
 			"en",
@@ -36,12 +36,12 @@ function slot0.Nation2Print(slot0)
 		}
 	end
 
-	return uv0.prints[slot0]
+	return slot0.prints[slot0]
 end
 
 function slot0.Nation2Side(slot0)
-	if not uv0.side then
-		uv0.side = {
+	if not slot0.side then
+		slot0.side = {
 			[0] = "West",
 			"West",
 			"West",
@@ -60,12 +60,12 @@ function slot0.Nation2Side(slot0)
 		}
 	end
 
-	return uv0.side[slot0]
+	return slot0.side[slot0]
 end
 
 function slot0.Nation2BG(slot0)
-	if not uv0.bg then
-		uv0.bg = {
+	if not slot0.bg then
+		slot0.bg = {
 			[0] = "bg/bg_church",
 			"bg/bg_church",
 			"bg/bg_church",
@@ -84,12 +84,12 @@ function slot0.Nation2BG(slot0)
 		}
 	end
 
-	return uv0.bg[slot0]
+	return slot0.bg[slot0]
 end
 
 function slot0.Nation2Name(slot0)
-	if not uv0.nationName then
-		uv0.nationName = {
+	if not slot0.nationName then
+		slot0.nationName = {
 			[0] = i18n("word_shipNation_other"),
 			i18n("word_shipNation_baiYing"),
 			i18n("word_shipNation_huangJia"),
@@ -108,12 +108,12 @@ function slot0.Nation2Name(slot0)
 		}
 	end
 
-	return uv0.nationName[slot0]
+	return slot0.nationName[slot0]
 end
 
 function slot0.Nation2facionName(slot0)
-	if not uv0.facionName then
-		uv0.facionName = {
+	if not slot0.facionName then
+		slot0.facionName = {
 			[0] = i18n("guild_faction_unknown"),
 			i18n("guild_faction_blhx"),
 			i18n("guild_faction_blhx"),
@@ -132,7 +132,7 @@ function slot0.Nation2facionName(slot0)
 		}
 	end
 
-	return uv0.facionName[slot0]
+	return slot0.facionName[slot0]
 end
 
 return slot0

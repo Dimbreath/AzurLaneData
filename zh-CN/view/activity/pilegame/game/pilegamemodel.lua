@@ -38,7 +38,8 @@ end
 
 function slot0.AddPile(slot0, slot1)
 	slot0.level = slot0.level + 1
-	slot3 = {
+
+	table.insert(slot0.items, {
 		onTheMove = false,
 		gname = slot1.name,
 		name = slot0.level,
@@ -54,11 +55,9 @@ function slot0.AddPile(slot0, slot1)
 			sizeDelta = Vector2(slot1.boundary[3], slot1.boundary[4])
 		},
 		speActionCount = slot1.speActionCount or 0
-	}
+	})
 
-	table.insert(slot0.items, slot3)
-
-	return slot3
+	return 
 end
 
 function slot0.GetSpeed(slot0)
@@ -121,18 +120,13 @@ end
 
 function slot0.IsOverlap(slot0, slot1, slot2)
 	if slot0:IsOverItem(slot1, slot2) then
-		slot4 = slot2.position.x + (0.5 - slot2.pivot.x) * slot2.sizeDelta.x + slot2.collider.offset.x
-
-		return Vector2(slot4 - slot2.collider.sizeDelta.x / 2, slot4 + slot2.collider.sizeDelta.x / 2).x <= Vector2(slot1.position.x + (0.5 - slot1.pivot.x) * slot1.sizeDelta.x + slot1.collider.offset.x, slot1.position.y + (0.5 - slot1.pivot.y) * slot1.sizeDelta.y + slot1.collider.offset.y).x and slot3.x <= slot5.y
+		return Vector2((slot2.position.x + (0.5 - slot2.pivot.x) * slot2.sizeDelta.x + slot2.collider.offset.x) - slot2.collider.sizeDelta.x / 2, slot2.position.x + (0.5 - slot2.pivot.x) * slot2.sizeDelta.x + slot2.collider.offset.x + slot2.collider.sizeDelta.x / 2).x <= Vector2(slot1.position.x + (0.5 - slot1.pivot.x) * slot1.sizeDelta.x + slot1.collider.offset.x, slot1.position.y + (0.5 - slot1.pivot.y) * slot1.sizeDelta.y + slot1.collider.offset.y).x and slot3.x <= slot5.y
 	end
 end
 
 function slot0.CanDropOnPrev(slot0, slot1)
 	if #slot0.items - 1 > 0 then
-		slot5 = slot0.items[slot3]
-		slot6 = slot5.position.x + (0.5 - slot5.pivot.x) * slot5.sizeDelta.x + slot5.collider.offset.x
-
-		return Vector2(slot6 - slot5.collider.sizeDelta.x / 2, slot6 + slot5.collider.sizeDelta.x / 2).x <= Vector2(slot1.position.x + (0.5 - slot1.pivot.x) * slot1.sizeDelta.x + slot1.collider.offset.x, slot1.position.y + (0.5 - slot1.pivot.y) * slot1.sizeDelta.y + slot1.collider.offset.y).x and slot4.x <= slot7.y
+		return Vector2((slot0.items[slot3].position.x + (0.5 - slot0.items[slot3].pivot.x) * slot0.items[slot3].sizeDelta.x + slot0.items[slot3].collider.offset.x) - slot0.items[slot3].collider.sizeDelta.x / 2, slot0.items[slot3].position.x + (0.5 - slot0.items[slot3].pivot.x) * slot0.items[slot3].sizeDelta.x + slot0.items[slot3].collider.offset.x + slot0.items[slot3].collider.sizeDelta.x / 2).x <= Vector2(slot1.position.x + (0.5 - slot1.pivot.x) * slot1.sizeDelta.x + slot1.collider.offset.x, slot1.position.y + (0.5 - slot1.pivot.y) * slot1.sizeDelta.y + slot1.collider.offset.y).x and slot4.x <= slot7.y
 	end
 end
 
@@ -165,10 +159,9 @@ function slot0.GetPrevItem(slot0, slot1)
 end
 
 function slot0.GetNextPos(slot0, slot1)
-	slot2 = slot0.items[slot1]
 	slot4 = 0
 
-	return Vector3(slot2.position.x, slot0:GetPrevItem(slot1) and slot3.position.y + slot3.sizeDelta.y or slot2.position.y - slot2.sizeDelta.y, 0)
+	return Vector3(slot0.items[slot1].position.x, (slot0:GetPrevItem(slot1) and slot3.position.y + slot3.sizeDelta.y) or slot0.items[slot1].position.y - slot0.items[slot1].sizeDelta.y, 0)
 end
 
 function slot0.IsExceedingTheHighestScore(slot0)
@@ -189,16 +182,16 @@ end
 
 function slot0.GetDropArea(slot0, slot1)
 	slot2 = nil
-	slot4 = slot1.position.x + slot1.collider.sizeDelta.x / 2
 
-	return (slot1.position.x - slot1.collider.sizeDelta.x / 2 > slot0.deathLine.x and slot0.deathLine.y > slot4 or PileGameController.DROP_AREA_DANGER) and (slot3 > slot0.safeLine.x and slot0.safeLine.y > slot4 or PileGameController.DROP_AREA_WARN) and PileGameController.DROP_AREA_SAFE
+	return ((slot1.position.x - slot1.collider.sizeDelta.x / 2 > slot0.deathLine.x and slot0.deathLine.y > slot1.position.x + slot1.collider.sizeDelta.x / 2) or PileGameController.DROP_AREA_DANGER) and ((slot3 > slot0.safeLine.x and slot0.safeLine.y > slot1.position.x + slot1.collider.sizeDelta.x / 2) or PileGameController.DROP_AREA_WARN) and PileGameController.DROP_AREA_SAFE
 end
 
 function slot0.GetInitPos(slot0)
+	slot1 = {}
 	slot2 = PileGameConst.SHAKE_DIS + slot0.score * PileGameConst.SHAKE_DIS_RATIO
 
 	for slot6, slot7 in ipairs(slot0.items) do
-		table.insert({}, {
+		table.insert(slot1, {
 			slot7,
 			slot7.position.x - slot2,
 			slot7.position.x + slot2

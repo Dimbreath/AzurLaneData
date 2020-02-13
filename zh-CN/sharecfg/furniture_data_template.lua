@@ -1,2645 +1,4 @@
 pg = pg or {}
-slot4[2] = {
-	89,
-	-75
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	13,
-	6
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-12.5,
-	10
-}
-slot4[3] = {
-	-1,
-	1,
-	1
-}
-slot4[2] = {
-	-31,
-	10
-}
-slot4[3] = {
-	1,
-	1
-}
-slot3[1] = {
-	"guoqingdangaocheB",
-	"normal"
-}
-slot3[2] = {
-	"guoqingdangaocheT"
-}
-slot3[3] = {
-	{
-		0,
-		0
-	},
-	{
-		{
-			"sit"
-		}
-	},
-	{},
-	{
-		1
-	}
-}
-slot3[4] = {}
-slot3[5] = {
-	20,
-	120
-}
-slot3[6] = {
-	-1,
-	1
-}
-slot4[1] = {
-	-15,
-	200
-}
-slot4[2] = {
-	240,
-	320
-}
-slot3[1] = {
-	"liyuqiB",
-	"normal"
-}
-slot3[2] = {
-	"liyuqiT"
-}
-slot3[3] = {
-	{
-		0,
-		0
-	},
-	{
-		{
-			"sit"
-		}
-	},
-	{},
-	{
-		1
-	}
-}
-slot4[1] = {
-	4,
-	171
-}
-slot4[2] = {
-	314,
-	554
-}
-slot3[4] = {
-	nil,
-	nil,
-	"chuanmo/liyuqi_mask",
-	{
-		-1,
-		1
-	}
-}
-slot3[5] = {
-	0,
-	0
-}
-slot3[6] = {
-	1,
-	1
-}
-slot4[2] = {
-	-247,
-	-149
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	377.7,
-	-22.7
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	202153
-}
-slot3[1] = {
-	"zhuqingting",
-	"normal"
-}
-slot3[2] = {}
-slot3[3] = {
-	{
-		0,
-		0
-	},
-	{
-		{
-			"tuozhuai2"
-		}
-	},
-	{
-		nil,
-		1
-	},
-	{
-		1
-	}
-}
-slot3[4] = {}
-slot3[5] = {
-	0,
-	0
-}
-slot3[6] = {
-	1,
-	1
-}
-slot4[2] = {
-	-56,
-	29
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	3,
-	1
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-40,
-	-10
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	20,
-	20
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-10,
-	-100
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	10,
-	30
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-10,
-	-100
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-109,
-	-135
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	109,
-	-80
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-55.9,
-	-82.03
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	16,
-	-66
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	8,
-	-47
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-6.8,
-	64.6
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	45,
-	41
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-9,
-	21
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-79,
-	-78
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	49,
-	-103
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	62,
-	24
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-10,
-	-10
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	107,
-	-15
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	21,
-	16
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	21,
-	16
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-12,
-	-47
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	14,
-	-26
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	26.3,
-	31.9
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-63,
-	30
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	111,
-	-53
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	12.5,
-	62.5
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-45,
-	53
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-7,
-	-9
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-104,
-	95
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	87,
-	90
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-64,
-	-62
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	78,
-	-67
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	1,
-	-115
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-5.1,
-	16.6
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	26,
-	8.9
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-10,
-	-23.3
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	64.1,
-	89.7
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	16.7,
-	39.4
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[1] = {
-	-14,
-	67
-}
-slot4[2] = {
-	365,
-	365
-}
-slot4[2] = {
-	33,
-	-70
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-54.5,
-	35.8
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	11.1,
-	2.8
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[1] = {
-	-21,
-	156
-}
-slot4[2] = {
-	516,
-	520
-}
-slot4[2] = {
-	-37,
-	25
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	35,
-	-5
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-159,
-	-57
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-2.9,
-	9.1
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-4,
-	-13.74
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	45,
-	-38
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-9,
-	76
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-73,
-	43
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	3,
-	-45
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	26,
-	36
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	26,
-	31
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot5[1] = {
-	-26.3,
-	244.6
-}
-slot5[2] = {
-	470,
-	400
-}
-slot4[2] = {
-	-109,
-	30
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot5[1] = {
-	35,
-	254.4
-}
-slot5[2] = {
-	426,
-	432
-}
-slot4[2] = {
-	121,
-	-5
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot5[1] = {
-	-35,
-	206
-}
-slot5[2] = {
-	378,
-	412
-}
-slot4[2] = {
-	-7,
-	6
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[1] = {
-	0,
-	340
-}
-slot4[2] = {
-	579,
-	462
-}
-slot4[2] = {
-	-35,
-	22
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	11.3,
-	-82.2
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot5[1] = {
-	-23,
-	222
-}
-slot5[2] = {
-	486,
-	619
-}
-slot4[2] = {
-	-6.6,
-	31.4
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-74,
-	87
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-35,
-	-45
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-65,
-	58
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-13,
-	-33
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	46,
-	-74
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-59,
-	12
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	12,
-	-51
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-271,
-	44
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-21,
-	-71
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	236,
-	-206
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[1] = {
-	0,
-	0
-}
-slot4[2] = {
-	553,
-	420
-}
-slot4[2] = {
-	29,
-	8
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	4,
-	-179
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[1] = {
-	9,
-	251
-}
-slot4[2] = {
-	359,
-	494
-}
-slot4[2] = {
-	-45,
-	-28
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-5,
-	-53
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-124,
-	-35
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-45,
-	-75
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-95,
-	114
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	74,
-	92
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-32,
-	-91
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	29,
-	-12
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-102,
-	82
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-59,
-	5.8
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	69,
-	4
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-16,
-	1
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-150,
-	6
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-9,
-	-73
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	146,
-	-96
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-30,
-	-28
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-89,
-	82
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	19,
-	-98
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-10,
-	38
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-34,
-	-9
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-20,
-	-11
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-13,
-	31
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-15,
-	27
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[1] = {
-	0,
-	170
-}
-slot4[2] = {
-	504,
-	504
-}
-slot4[1] = {
-	0,
-	170
-}
-slot4[2] = {
-	504,
-	504
-}
-slot4[1] = {
-	0,
-	170
-}
-slot4[2] = {
-	504,
-	504
-}
-slot4[2] = {
-	6,
-	31
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-27,
-	-185
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	127,
-	-144
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	43,
-	-22
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	25,
-	-19
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	63,
-	-71
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	25,
-	83
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	1,
-	-83
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	15,
-	-3
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	48,
-	-21
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	4,
-	-17
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	0,
-	-54
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-7,
-	-92
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-78,
-	-78
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	73,
-	-28
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	15,
-	-62
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-5,
-	-22
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-1,
-	5
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-5,
-	-33
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-2,
-	-46
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-47,
-	-40
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	64,
-	-61
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-47,
-	-20
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-55,
-	84
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	15,
-	34
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-41,
-	-41
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-2,
-	-102
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot5[1] = {
-	4.82,
-	300
-}
-slot5[2] = {
-	908,
-	602
-}
-slot4[2] = {
-	29,
-	40
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	1.1,
-	-53.8
-}
-slot4[3] = {
-	1,
-	1
-}
-slot5[1] = {
-	-5,
-	227
-}
-slot5[2] = {
-	414,
-	252
-}
-slot4[2] = {
-	75,
-	36
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-13,
-	-11
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	0,
-	-17
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-10,
-	10
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	43,
-	53
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-56,
-	-45
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-2,
-	-93
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	4,
-	-91
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	31.9,
-	-102.9
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-4,
-	-9
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-152,
-	-57
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	68,
-	-167
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot3[1] = {
-	"caihongyun",
-	"normal"
-}
-slot3[2] = {}
-slot3[3] = {
-	{
-		0,
-		0
-	},
-	{
-		{
-			"sit"
-		}
-	},
-	{
-		nil,
-		1
-	},
-	{
-		1
-	}
-}
-slot3[4] = {}
-slot3[5] = {
-	0,
-	0
-}
-slot3[6] = {
-	1,
-	1
-}
-slot4[2] = {
-	-106,
-	65
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-49,
-	70
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	78,
-	-76
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	188,
-	-129
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-7,
-	-42
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-62,
-	-34
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-16,
-	-46
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-56,
-	53
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-72,
-	-50
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	48,
-	-87
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	15,
-	49
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	59,
-	19
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-63,
-	20
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-8,
-	92.8
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-12,
-	11
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-12,
-	-11
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot5[1] = {
-	-24,
-	22
-}
-slot5[2] = {
-	566,
-	326
-}
-slot4[2] = {
-	22,
-	-20
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	3,
-	-56
-}
-slot4[3] = {
-	1,
-	1
-}
-slot5[1] = {
-	-7,
-	216
-}
-slot5[2] = {
-	502,
-	450
-}
-slot4[2] = {
-	21.8,
-	-32.7
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	67.8,
-	-32.9
-}
-slot4[3] = {
-	1,
-	1
-}
-slot5[1] = {
-	-5,
-	248
-}
-slot5[2] = {
-	414,
-	426
-}
-slot4[2] = {
-	168,
-	-99
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot5[1] = {
-	-5,
-	248
-}
-slot5[2] = {
-	414,
-	426
-}
-slot4[2] = {
-	-38,
-	-106
-}
-slot4[3] = {
-	1,
-	1
-}
-slot5[1] = {
-	-5,
-	248
-}
-slot5[2] = {
-	414,
-	426
-}
-slot4[2] = {
-	60,
-	-151
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot5[1] = {
-	-5,
-	248
-}
-slot5[2] = {
-	414,
-	426
-}
-slot3[1] = {
-	"kekeboB",
-	"normal"
-}
-slot3[2] = {
-	"kekeboT"
-}
-slot3[3] = {
-	{
-		0,
-		0
-	},
-	{
-		{
-			"sit"
-		}
-	},
-	{
-		nil,
-		1
-	},
-	{
-		1
-	}
-}
-slot3[4] = {}
-slot3[5] = {
-	0,
-	0
-}
-slot3[6] = {
-	1,
-	1
-}
-slot4[2] = {
-	-24,
-	-29
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-126,
-	101
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-7,
-	56
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	15,
-	1
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-35,
-	-64
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot5[1] = {
-	-71.29,
-	125.42
-}
-slot5[2] = {
-	476,
-	726
-}
-slot4[2] = {
-	17,
-	-132
-}
-slot4[3] = {
-	1,
-	1
-}
-slot3[1] = {
-	"shengdancheB",
-	"normal",
-	nil,
-	true
-}
-slot3[2] = {
-	"shengdancheT"
-}
-slot3[3] = {
-	{
-		0,
-		0
-	},
-	{
-		{
-			"sit"
-		}
-	},
-	{
-		nil,
-		1
-	},
-	{
-		1
-	}
-}
-slot3[4] = {}
-slot3[5] = {
-	0,
-	0
-}
-slot3[6] = {
-	1,
-	1
-}
-slot4[2] = {
-	-60,
-	26
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-3.1,
-	10.7
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	10.2,
-	4.2
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-66.7,
-	-50.2
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-16.1,
-	-40
-}
-slot4[3] = {
-	1,
-	1
-}
-slot5[1] = {
-	33,
-	75
-}
-slot5[2] = {
-	590,
-	564
-}
-slot4[2] = {
-	20.5,
-	71.8
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-32,
-	14
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	28.4,
-	1.1
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-8.6,
-	24.5
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-18.6,
-	-6.2
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-6,
-	81
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	58.6,
-	-58.2
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-10.7,
-	23.5
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	5.3,
-	-27.6
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	0,
-	53
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	0,
-	53
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	0,
-	53
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	47,
-	-20
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-13.9,
-	-8.1
-}
-slot4[3] = {
-	1,
-	1
-}
-slot5[1] = {
-	0,
-	191
-}
-slot5[2] = {
-	172,
-	176
-}
-slot4[2] = {
-	-136,
-	8
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	99,
-	24
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-11,
-	-101
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-43,
-	27
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	10,
-	1
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-136.2,
-	-78.9
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	128.7,
-	-81.4
-}
-slot4[3] = {
-	1,
-	1
-}
-slot3[1] = {
-	"reqiqiuB",
-	"normal"
-}
-slot3[2] = {
-	"reqiqiuT"
-}
-slot3[3] = {
-	{
-		0,
-		0
-	},
-	{
-		{
-			"sit"
-		}
-	},
-	{
-		nil,
-		1
-	},
-	{
-		1
-	}
-}
-slot3[4] = {}
-slot3[5] = {
-	0,
-	0
-}
-slot3[6] = {
-	1,
-	1
-}
-slot4[2] = {
-	5,
-	3
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-119,
-	-130
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	13,
-	66
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	13,
-	15
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	5,
-	-67
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-87,
-	47
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	15,
-	77
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	104,
-	29
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-3,
-	-37
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-3,
-	-109
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	22,
-	-12
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-107,
-	52
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-40,
-	4
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	54,
-	-36
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	1,
-	-102
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-35,
-	-73
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	52,
-	-92
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-31,
-	-7
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	13,
-	24
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-87,
-	-28
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	0,
-	0
-}
-slot4[3] = {
-	1,
-	1
-}
-slot5[1] = {
-	-5,
-	76
-}
-slot5[2] = {
-	212,
-	174
-}
-slot3[1] = {
-	"yuyun",
-	"normal"
-}
-slot3[2] = {}
-slot3[3] = {
-	{
-		0,
-		0
-	},
-	{
-		{
-			"sit"
-		}
-	},
-	{},
-	{
-		1
-	}
-}
-slot3[4] = {}
-slot3[5] = {
-	0,
-	0
-}
-slot3[6] = {
-	1,
-	1
-}
-slot4[2] = {
-	-23,
-	17
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-38,
-	5
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-16,
-	22
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	405010
-}
-slot4[2] = {
-	20,
-	-32
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-11,
-	-17
-}
-slot4[3] = {
-	1,
-	1
-}
-slot5[1] = {
-	23,
-	34
-}
-slot5[2] = {
-	704,
-	504
-}
-slot3[1] = {
-	"cybercarB",
-	"normal"
-}
-slot3[2] = {
-	"cybercarT"
-}
-slot3[3] = {
-	{
-		0,
-		0
-	},
-	{
-		{
-			"sit0",
-			nil,
-			"sit"
-		}
-	},
-	{
-		nil,
-		nil,
-		nil,
-		nil,
-		"sit"
-	},
-	{
-		0
-	}
-}
-slot4[1] = {
-	-26.29,
-	37.2
-}
-slot4[2] = {
-	312,
-	272
-}
-slot3[4] = {
-	nil,
-	nil,
-	"cyberpunk/cybercar_mask"
-}
-slot3[5] = {
-	0,
-	0
-}
-slot3[6] = {
-	1,
-	1
-}
-slot7[1] = {
-	"walk",
-	"walk1"
-}
-slot7[1] = {
-	"walk",
-	"walk2"
-}
-slot4[2] = {
-	65,
-	-38
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-55,
-	-3
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	210.8,
-	-222.3
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-106.8,
-	-51.9
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	106.9,
-	-59.9
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	4,
-	242
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	72,
-	-249
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-9.4,
-	-11.1
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-23.9,
-	12
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	19.1,
-	15.8
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-73.6,
-	-64.2
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-42.8,
-	-48.7
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-21,
-	-21
-}
-slot4[3] = {
-	1,
-	1
-}
-slot3[1] = {
-	"ghostcarB",
-	"normal",
-	nil,
-	true
-}
-slot3[2] = {
-	"ghostcarT"
-}
-slot3[3] = {
-	{
-		0,
-		0
-	},
-	{
-		{
-			"sit"
-		}
-	},
-	{
-		nil,
-		1
-	},
-	{
-		1
-	}
-}
-slot3[4] = {}
-slot3[5] = {
-	0,
-	0
-}
-slot3[6] = {
-	1,
-	1
-}
-slot4[2] = {
-	-42,
-	35
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	91,
-	-50
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-14,
-	42
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-35,
-	-17
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	60,
-	82
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	51,
-	39
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-86,
-	-63
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	50,
-	108
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-126,
-	34
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-5.3,
-	-155.3
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-13,
-	-30
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	123,
-	106
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-129,
-	105
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-51,
-	56
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-106,
-	-44
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	-36,
-	-31
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-46.2,
-	-7.8
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	42,
-	-45
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-60,
-	-25
-}
-slot4[3] = {
-	1,
-	1
-}
-slot4[2] = {
-	-60,
-	-10
-}
-slot4[3] = {
-	-1,
-	1
-}
-slot4[2] = {
-	78,
-	0
-}
-slot4[3] = {
-	1,
-	1
-}
 pg.furniture_data_template = {
 	{
 		advice = 0,
@@ -3539,8 +898,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					89,
+					-75
+				},
+				{
+					-1,
+					1
+				},
 				"chuanmo/qiuqianqixi_using"
 			}
 		},
@@ -4049,8 +1414,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					13,
+					6
+				},
+				{
+					1,
+					1
+				},
 				"chuanmo/zongziwo_using"
 			}
 		},
@@ -4093,8 +1464,15 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-12.5,
+					10
+				},
+				{
+					-1,
+					1,
+					1
+				},
 				"chuanmo/renou_using",
 				[6] = {
 					{
@@ -4436,8 +1814,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"stand2",
-				nil,
-				nil,
+				{
+					-31,
+					10
+				},
+				{
+					1,
+					1
+				},
 				"chuanmo/fayantai"
 			}
 		},
@@ -4481,12 +1865,37 @@ pg.furniture_data_template = {
 			0
 		},
 		spine = {
-			nil,
-			nil,
-			nil,
-			nil,
-			nil,
-			nil,
+			{
+				"guoqingdangaocheB",
+				"normal"
+			},
+			{
+				"guoqingdangaocheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				20,
+				120
+			},
+			{
+				-1,
+				1
+			},
 			0.7
 		},
 		animator = {
@@ -4686,8 +2095,14 @@ pg.furniture_data_template = {
 				}
 			},
 			{
-				nil,
-				nil,
+				{
+					-15,
+					200
+				},
+				{
+					240,
+					320
+				},
 				"ap/danke_mask",
 				{
 					-28,
@@ -4996,12 +2411,51 @@ pg.furniture_data_template = {
 			0
 		},
 		spine = {
-			nil,
-			nil,
-			nil,
-			nil,
-			nil,
-			nil,
+			{
+				"liyuqiB",
+				"normal"
+			},
+			{
+				"liyuqiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					4,
+					171
+				},
+				{
+					314,
+					554
+				},
+				"chuanmo/liyuqi_mask",
+				{
+					-1,
+					1
+				}
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
 			0.3
 		},
 		spine_extra = {
@@ -5271,14 +2725,26 @@ pg.furniture_data_template = {
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-247,
+					-149
+				},
+				{
+					-1,
+					1
+				},
 				"chuanmo/amazon_using2"
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					377.7,
+					-22.7
+				},
+				{
+					-1,
+					1
+				},
 				"chuanmo/amazon_using"
 			}
 		},
@@ -5684,7 +3150,9 @@ pg.furniture_data_template = {
 		spine_action_replace = {
 			{
 				"sit",
-				nil,
+				{
+					202153
+				},
 				"fengcha"
 			}
 		},
@@ -5934,12 +3402,38 @@ pg.furniture_data_template = {
 			0
 		},
 		spine = {
-			nil,
-			nil,
-			nil,
-			nil,
-			nil,
-			nil,
+			{
+				"zhuqingting",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
 			0.5
 		},
 		animator = {
@@ -8837,14 +6331,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-56,
+					29
+				},
+				{
+					-1,
+					1
+				},
 				"meishi/shafa4a_using"
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					3,
+					1
+				},
+				{
+					-1,
+					1
+				},
 				"meishi/shafa4a_using"
 			}
 		},
@@ -11512,8 +9018,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-40,
+					-10
+				},
+				{
+					1,
+					1
+				},
 				"bili/noddleshower_using"
 			}
 		},
@@ -12128,8 +9640,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					20,
+					20
+				},
+				{
+					-1,
+					1
+				},
 				"bili/shanfabi1_using"
 			}
 		},
@@ -12958,8 +10476,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-10,
+					-100
+				},
+				{
+					1,
+					1
+				},
 				"xigua/yushixg_using"
 			}
 		},
@@ -13074,8 +10598,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					10,
+					30
+				},
+				{
+					1,
+					1
+				},
 				"xigua/chuangxg_using"
 			}
 		},
@@ -14689,20 +12219,38 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-10,
+					-100
+				},
+				{
+					1,
+					1
+				},
 				"ger/gerpijiuchi_using"
 			},
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-109,
+					-135
+				},
+				{
+					1,
+					1
+				},
 				"ger/gerpijiuchi_using"
 			},
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					109,
+					-80
+				},
+				{
+					-1,
+					1
+				},
 				"ger/gerpijiuchi_using"
 			}
 		},
@@ -14866,8 +12414,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"stand2",
-				nil,
-				nil,
+				{
+					-55.9,
+					-82.03
+				},
+				{
+					-1,
+					1
+				},
 				"ger/gerbatai_using"
 			}
 		},
@@ -15349,8 +12903,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					16,
+					-66
+				},
+				{
+					1,
+					1
+				},
 				"ger/geryugang_using"
 			}
 		},
@@ -16023,8 +13583,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					8,
+					-47
+				},
+				{
+					1,
+					1
+				},
 				"sc/yugangsc_using"
 			}
 		},
@@ -16139,8 +13705,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-6.8,
+					64.6
+				},
+				{
+					1,
+					1
+				},
 				"sc/yanliaochuangsc_using"
 			}
 		},
@@ -16335,14 +13907,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					45,
+					41
+				},
+				{
+					1,
+					1
+				},
 				"sc/makebishafasc_using"
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-9,
+					21
+				},
+				{
+					1,
+					1
+				},
 				"sc/makebishafasc_using"
 			}
 		},
@@ -17680,14 +15264,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-79,
+					-78
+				},
+				{
+					1,
+					1
+				},
 				"cn/yuchicn_using"
 			},
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					49,
+					-103
+				},
+				{
+					-1,
+					1
+				},
 				"cn/yuchicn_using"
 			}
 		},
@@ -17826,14 +15422,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					62,
+					24
+				},
+				{
+					1,
+					1
+				},
 				"cn/changyicn_using"
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-10,
+					-10
+				},
+				{
+					1,
+					1
+				},
 				"cn/changyicn_using"
 			}
 		},
@@ -17912,8 +15520,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					107,
+					-15
+				},
+				{
+					1,
+					1
+				},
 				"cn/chuangcn_using"
 			}
 		},
@@ -18195,8 +15809,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					21,
+					16
+				},
+				{
+					1,
+					1
+				},
 				"cn/laorenyicn_using"
 			}
 		},
@@ -18419,8 +16039,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					21,
+					16
+				},
+				{
+					1,
+					1
+				},
 				"cn/laorenyicn_using"
 			}
 		},
@@ -19609,8 +17235,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-12,
+					-47
+				},
+				{
+					1,
+					1
+				},
 				"ap/dieziap_using"
 			}
 		},
@@ -19797,8 +17429,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					14,
+					-26
+				},
+				{
+					1,
+					1
+				},
 				"ap/chabeichuangap_using"
 			}
 		},
@@ -20047,8 +17685,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					26.3,
+					31.9
+				},
+				{
+					1,
+					1
+				},
 				"ap/shafaap_using"
 			}
 		},
@@ -20199,14 +17843,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-63,
+					30
+				},
+				{
+					1,
+					1
+				},
 				"ap/nanguacheap_using"
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					111,
+					-53
+				},
+				{
+					1,
+					1
+				},
 				"ap/nanguacheap_using"
 			}
 		},
@@ -21143,8 +18799,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					12.5,
+					62.5
+				},
+				{
+					-1,
+					1
+				},
 				"r2/yaoyaocher2_using"
 			}
 		},
@@ -21416,8 +19078,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-45,
+					53
+				},
+				{
+					1,
+					1
+				},
 				"r2/zhuor2_using"
 			}
 		},
@@ -21862,8 +19530,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-7,
+					-9
+				},
+				{
+					1,
+					1
+				},
 				"hl/guancaihl_using"
 			}
 		},
@@ -21906,14 +19580,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-104,
+					95
+				},
+				{
+					1,
+					1
+				},
 				"hl/nanguazhuohl_using"
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					87,
+					90
+				},
+				{
+					-1,
+					1
+				},
 				"hl/nanguazhuohl_using"
 			}
 		},
@@ -22064,20 +19750,38 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"stand2",
-				nil,
-				nil,
+				{
+					-64,
+					-62
+				},
+				{
+					1,
+					1
+				},
 				"hl/qiulonghl_using"
 			},
 			{
 				"stand2",
-				nil,
-				nil,
+				{
+					78,
+					-67
+				},
+				{
+					1,
+					1
+				},
 				"hl/qiulonghl_using"
 			},
 			{
 				"stand2",
-				nil,
-				nil,
+				{
+					1,
+					-115
+				},
+				{
+					1,
+					1
+				},
 				"hl/qiulonghl_using"
 			}
 		},
@@ -23512,8 +21216,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-5.1,
+					16.6
+				},
+				{
+					1,
+					1
+				},
 				"st/guifeiyist_using"
 			}
 		},
@@ -23749,8 +21459,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					26,
+					8.9
+				},
+				{
+					1,
+					1
+				},
 				"st/shafast_using"
 			}
 		},
@@ -24038,8 +21754,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-10,
+					-23.3
+				},
+				{
+					1,
+					1
+				},
 				"st/yugangst_using"
 			}
 		},
@@ -24167,14 +21889,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					64.1,
+					89.7
+				},
+				{
+					-1,
+					1
+				},
 				"st/chuangst_using2"
 			},
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					16.7,
+					39.4
+				},
+				{
+					-1,
+					1
+				},
 				"st/chuangst_using1"
 			}
 		},
@@ -24241,8 +21975,14 @@ pg.furniture_data_template = {
 				}
 			},
 			{
-				nil,
-				nil,
+				{
+					-14,
+					67
+				},
+				{
+					365,
+					365
+				},
 				"st/feichuan_shadow",
 				{
 					-28,
@@ -24576,8 +22316,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					33,
+					-70
+				},
+				{
+					1,
+					1
+				},
 				"cr/yugangcr_using"
 			}
 		},
@@ -24925,14 +22671,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-54.5,
+					35.8
+				},
+				{
+					-1,
+					1
+				},
 				"cr/shafacr_using"
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					11.1,
+					2.8
+				},
+				{
+					-1,
+					1
+				},
 				"cr/shafacr_using"
 			}
 		},
@@ -25035,8 +22793,14 @@ pg.furniture_data_template = {
 				}
 			},
 			{
-				nil,
-				nil,
+				{
+					-21,
+					156
+				},
+				{
+					516,
+					520
+				},
 				"cr/shuijingqiu_mask",
 				{
 					-20,
@@ -25088,20 +22852,38 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-37,
+					25
+				},
+				{
+					1,
+					1
+				},
 				"cr/xueqiaocr_using1"
 			},
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					35,
+					-5
+				},
+				{
+					1,
+					1
+				},
 				"cr/xueqiaocr_using1"
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-159,
+					-57
+				},
+				{
+					-1,
+					1
+				},
 				"cr/xueqiaocr_using2"
 			}
 		},
@@ -25265,8 +23047,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-2.9,
+					9.1
+				},
+				{
+					1,
+					1
+				},
 				"cr/yaoyaoyicr_using"
 			}
 		},
@@ -25807,14 +23595,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-4,
+					-13.74
+				},
+				{
+					-1,
+					1
+				},
 				"mh/zutangmh_using"
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					45,
+					-38
+				},
+				{
+					-1,
+					1
+				},
 				"mh/zutangmh_using"
 			}
 		},
@@ -26533,15 +24333,27 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-9,
+					76
+				},
+				{
+					1,
+					1
+				},
 				"mh/tatamimh_using",
 				1
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-73,
+					43
+				},
+				{
+					1,
+					1
+				},
 				"mh/tatamimh_using",
 				1
 			}
@@ -27493,8 +25305,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"stand2",
-				nil,
-				nil,
+				{
+					3,
+					-45
+				},
+				{
+					1,
+					1
+				},
 				"cy/linkcy_using"
 			}
 		},
@@ -27975,8 +25793,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					26,
+					36
+				},
+				{
+					1,
+					1
+				},
 				"cy/zuoyicy_using"
 			}
 		},
@@ -29002,37 +26826,73 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					26,
+					31
+				},
+				{
+					-1,
+					1
+				},
 				"cj/guohecj_using3",
 				0,
 				{
-					nil,
-					nil,
+					{
+						-26.3,
+						244.6
+					},
+					{
+						470,
+						400
+					},
 					"cj/guohecj_mask3"
 				}
 			},
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-109,
+					30
+				},
+				{
+					-1,
+					1
+				},
 				"cj/guohecj_using1",
 				0,
 				{
-					nil,
-					nil,
+					{
+						35,
+						254.4
+					},
+					{
+						426,
+						432
+					},
 					"cj/guohecj_mask1"
 				}
 			},
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					121,
+					-5
+				},
+				{
+					-1,
+					1
+				},
 				"cj/guohecj_using2",
 				0,
 				{
-					nil,
-					nil,
+					{
+						-35,
+						206
+					},
+					{
+						378,
+						412
+					},
 					"cj/guohecj_mask2"
 				}
 			}
@@ -29112,8 +26972,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"stand2",
-				nil,
-				nil,
+				{
+					-7,
+					6
+				},
+				{
+					1,
+					1
+				},
 				"cj/langcj_using"
 			}
 		},
@@ -29522,8 +27388,14 @@ pg.furniture_data_template = {
 				}
 			},
 			{
-				nil,
-				nil,
+				{
+					0,
+					340
+				},
+				{
+					579,
+					462
+				},
 				"cj/yanhua_shadow"
 			},
 			{
@@ -29962,8 +27834,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-35,
+					22
+				},
+				{
+					-1,
+					1
+				},
 				"zo/chuangzo_using"
 			}
 		},
@@ -30042,13 +27920,25 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"stand2",
-				nil,
-				nil,
+				{
+					11.3,
+					-82.2
+				},
+				{
+					-1,
+					1
+				},
 				"zo/gengyishizo_using",
 				0,
 				{
-					nil,
-					nil,
+					{
+						-23,
+						222
+					},
+					{
+						486,
+						619
+					},
 					"zo/gengyishizo_mask"
 				}
 			}
@@ -30236,8 +28126,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-6.6,
+					31.4
+				},
+				{
+					-1,
+					1
+				},
 				"zo/shizizo_using"
 			}
 		},
@@ -30352,8 +28248,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-74,
+					87
+				},
+				{
+					1,
+					1
+				},
 				"zo/yecanzhuozo_using"
 			}
 		},
@@ -30607,8 +28509,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-35,
+					-45
+				},
+				{
+					1,
+					1
+				},
 				"wd/jiezhichuangwd_using"
 			}
 		},
@@ -30988,8 +28896,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-65,
+					58
+				},
+				{
+					1,
+					1
+				},
 				"wd/machewd_using"
 			}
 		},
@@ -31068,14 +28982,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-13,
+					-33
+				},
+				{
+					1,
+					1
+				},
 				"wd/hunchuangwd_using"
 			},
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					46,
+					-74
+				},
+				{
+					1,
+					1
+				},
 				"wd/hunchuangwd_using"
 			}
 		},
@@ -31118,8 +29044,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-59,
+					12
+				},
+				{
+					1,
+					1
+				},
 				"wd/qichewd_using"
 			}
 		},
@@ -31162,8 +29094,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					12,
+					-51
+				},
+				{
+					1,
+					1
+				},
 				"wd/xiangbintongwd_using"
 			}
 		},
@@ -31701,20 +29639,38 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"dance",
-				nil,
-				nil,
+				{
+					-271,
+					44
+				},
+				{
+					-1,
+					1
+				},
 				"yl/taqiaoyl_using3"
 			},
 			{
 				"dance",
-				nil,
-				nil,
+				{
+					-21,
+					-71
+				},
+				{
+					-1,
+					1
+				},
 				"yl/taqiaoyl_using2"
 			},
 			{
 				"dance",
-				nil,
-				nil,
+				{
+					236,
+					-206
+				},
+				{
+					-1,
+					1
+				},
 				"yl/taqiaoyl_using1"
 			}
 		},
@@ -31784,8 +29740,14 @@ pg.furniture_data_template = {
 				}
 			},
 			{
-				nil,
-				nil,
+				{
+					0,
+					0
+				},
+				{
+					553,
+					420
+				},
 				"yl/motianlun_shadow"
 			},
 			{
@@ -31998,8 +29960,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					29,
+					8
+				},
+				{
+					1,
+					1
+				},
 				"yl/zuoyiyl_using"
 			}
 		},
@@ -32042,8 +30010,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"stand2",
-				nil,
-				nil,
+				{
+					4,
+					-179
+				},
+				{
+					1,
+					1
+				},
 				"yl/qiqiuyl_using"
 			}
 		},
@@ -32110,8 +30084,14 @@ pg.furniture_data_template = {
 				}
 			},
 			{
-				nil,
-				nil,
+				{
+					9,
+					251
+				},
+				{
+					359,
+					494
+				},
 				"yl/kafeiji_shadow"
 			},
 			{
@@ -32247,14 +30227,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-45,
+					-28
+				},
+				{
+					1,
+					1
+				},
 				"yl/chuangyl_using"
 			},
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-5,
+					-53
+				},
+				{
+					1,
+					1
+				},
 				"yl/chuangyl_using"
 			}
 		},
@@ -32297,26 +30289,50 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-124,
+					-35
+				},
+				{
+					1,
+					1
+				},
 				"yl/bashiyl_using3"
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-45,
+					-75
+				},
+				{
+					1,
+					1
+				},
 				"yl/bashiyl_using3"
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-95,
+					114
+				},
+				{
+					1,
+					1
+				},
 				"yl/bashiyl_using2"
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					74,
+					92
+				},
+				{
+					1,
+					1
+				},
 				"yl/bashiyl_using1"
 			}
 		},
@@ -32395,8 +30411,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-32,
+					-91
+				},
+				{
+					1,
+					1
+				},
 				"yl/yuchiyl_using"
 			}
 		},
@@ -32475,8 +30497,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					29,
+					-12
+				},
+				{
+					1,
+					1
+				},
 				"yl/shafa1yl_using"
 			}
 		},
@@ -32519,8 +30547,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-102,
+					82
+				},
+				{
+					-1,
+					1
+				},
 				"yl/huangguanyl_using"
 			},
 			{
@@ -33072,14 +31106,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-59,
+					5.8
+				},
+				{
+					1,
+					1
+				},
 				"yy/bobochiyy_using1"
 			},
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					69,
+					4
+				},
+				{
+					-1,
+					1
+				},
 				"yy/bobochiyy_using2"
 			}
 		},
@@ -33171,8 +31217,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-16,
+					1
+				},
+				{
+					1,
+					1
+				},
 				"yy/chuangyy_using"
 			}
 		},
@@ -33400,20 +31452,38 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-150,
+					6
+				},
+				{
+					-1,
+					1
+				},
 				"yy/huatiyy_using"
 			},
 			{
 				"stand2",
-				nil,
-				nil,
+				{
+					-9,
+					-73
+				},
+				{
+					-1,
+					1
+				},
 				"yy/huatiyy_using"
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					146,
+					-96
+				},
+				{
+					1,
+					1
+				},
 				"yy/huatiyy_using"
 			}
 		},
@@ -33456,8 +31526,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-30,
+					-28
+				},
+				{
+					1,
+					1
+				},
 				"yy/shachiyy_using"
 			}
 		},
@@ -33536,8 +31612,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-89,
+					82
+				},
+				{
+					1,
+					1
+				},
 				"yy/qiaoqiaobanyy_using"
 			}
 		},
@@ -34223,14 +32305,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					19,
+					-98
+				},
+				{
+					-1,
+					1
+				},
 				"cafe/chuang2cf_using"
 			},
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-10,
+					38
+				},
+				{
+					-1,
+					1
+				},
 				"cafe/chuang2cf_using2"
 			}
 		},
@@ -34443,8 +32537,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-34,
+					-9
+				},
+				{
+					1,
+					1
+				},
 				"cafe/kafeibeicf_using"
 			}
 		},
@@ -34766,8 +32866,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-20,
+					-11
+				},
+				{
+					1,
+					1
+				},
 				"cafe/wocf_using",
 				0,
 				{
@@ -34967,8 +33073,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-13,
+					31
+				},
+				{
+					1,
+					1
+				},
 				"cafe/zhidaicf_using"
 			}
 		},
@@ -35011,8 +33123,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-15,
+					27
+				},
+				{
+					1,
+					1
+				},
 				"cafe/zhixiangcf_using"
 			}
 		},
@@ -35207,8 +33325,14 @@ pg.furniture_data_template = {
 				}
 			},
 			{
-				nil,
-				nil,
+				{
+					0,
+					170
+				},
+				{
+					504,
+					504
+				},
 				"cafe/maoxiang_mask"
 			},
 			{
@@ -35281,8 +33405,14 @@ pg.furniture_data_template = {
 				}
 			},
 			{
-				nil,
-				nil,
+				{
+					0,
+					170
+				},
+				{
+					504,
+					504
+				},
 				"cafe/maoxiang_mask"
 			},
 			{
@@ -35355,8 +33485,14 @@ pg.furniture_data_template = {
 				}
 			},
 			{
-				nil,
-				nil,
+				{
+					0,
+					170
+				},
+				{
+					504,
+					504
+				},
 				"cafe/maoxiang_mask"
 			},
 			{
@@ -35759,8 +33895,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					6,
+					31
+				},
+				{
+					-1,
+					1
+				},
 				"xiangcun/banchexc_using"
 			}
 		},
@@ -35911,14 +34053,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"stand2",
-				nil,
-				nil,
+				{
+					-27,
+					-185
+				},
+				{
+					1,
+					1
+				},
 				"xiangcun/maokengxc_using"
 			},
 			{
 				"stand2",
-				nil,
-				nil,
+				{
+					127,
+					-144
+				},
+				{
+					1,
+					1
+				},
 				"xiangcun/maokengxc_using"
 			}
 		},
@@ -36205,8 +34359,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					43,
+					-22
+				},
+				{
+					1,
+					1
+				},
 				"xiangcun/lifadengxc_using"
 			}
 		},
@@ -36518,8 +34678,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					25,
+					-19
+				},
+				{
+					-1,
+					1
+				},
 				"xiangcun/zaopengxc_using"
 			}
 		},
@@ -36707,8 +34873,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"stand2",
-				nil,
-				nil,
+				{
+					63,
+					-71
+				},
+				{
+					-1,
+					1
+				},
 				"xiangcun/zhurouxc"
 			}
 		},
@@ -37373,8 +35545,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					25,
+					83
+				},
+				{
+					1,
+					1
+				},
 				"shuileyuan/jiushengyisly_using"
 			}
 		},
@@ -37686,8 +35864,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"stand2",
-				nil,
-				nil,
+				{
+					1,
+					-83
+				},
+				{
+					1,
+					1
+				},
 				"shuileyuan/qiusly_using"
 			}
 		},
@@ -37818,8 +36002,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					15,
+					-3
+				},
+				{
+					1,
+					1
+				},
 				"shuileyuan/shafasly_using"
 			}
 		},
@@ -37996,8 +36186,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					48,
+					-21
+				},
+				{
+					1,
+					1
+				},
 				"shuileyuan/tangyi4sly_using"
 			}
 		},
@@ -38125,8 +36321,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					4,
+					-17
+				},
+				{
+					-1,
+					1
+				},
 				"shuileyuan/yezisly_using"
 			}
 		},
@@ -38267,8 +36469,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					0,
+					-54
+				},
+				{
+					1,
+					1
+				},
 				"shuileyuan/yuchisly_using"
 			}
 		},
@@ -38371,8 +36579,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-7,
+					-92
+				},
+				{
+					-1,
+					1
+				},
 				"shuileyuan/linyusly_using"
 			}
 		},
@@ -38543,8 +36757,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-78,
+					-78
+				},
+				{
+					1,
+					1
+				},
 				"shuileyuan/shuichisly_using1",
 				0,
 				{
@@ -38560,8 +36780,14 @@ pg.furniture_data_template = {
 			},
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					73,
+					-28
+				},
+				{
+					-1,
+					1
+				},
 				"shuileyuan/shuichisly_using2"
 			}
 		},
@@ -38850,8 +37076,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					15,
+					-62
+				},
+				{
+					1,
+					1
+				},
 				"senlin/chuangsl_using"
 			}
 		},
@@ -39306,8 +37538,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-5,
+					-22
+				},
+				{
+					-1,
+					1
+				},
 				"senlin/fengmisl_using"
 			}
 		},
@@ -39690,8 +37928,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-1,
+					5
+				},
+				{
+					1,
+					1
+				},
 				"senlin/muwusl_using"
 			}
 		},
@@ -39734,8 +37978,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-5,
+					-33
+				},
+				{
+					1,
+					1
+				},
 				"senlin/qiuqiansl_using"
 			}
 		},
@@ -39959,8 +38209,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-2,
+					-46
+				},
+				{
+					-1,
+					1
+				},
 				"senlin/wenquan1sl_using"
 			}
 		},
@@ -40003,14 +38259,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-47,
+					-40
+				},
+				{
+					1,
+					1
+				},
 				"senlin/wenquan2sl_using"
 			},
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					64,
+					-61
+				},
+				{
+					1,
+					1
+				},
 				"senlin/wenquan2sl_using"
 			}
 		},
@@ -40795,8 +39063,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-47,
+					-20
+				},
+				{
+					-1,
+					1
+				},
 				"haiyang/beikehy_using"
 			}
 		},
@@ -40839,14 +39113,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-55,
+					84
+				},
+				{
+					1,
+					1
+				},
 				"haiyang/chuanghy_using"
 			},
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					15,
+					34
+				},
+				{
+					1,
+					1
+				},
 				"haiyang/chuanghy_using"
 			}
 		},
@@ -40889,8 +39175,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-41,
+					-41
+				},
+				{
+					-1,
+					1
+				},
 				"haiyang/dengzi2hy_using"
 			}
 		},
@@ -41090,13 +39382,25 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-2,
+					-102
+				},
+				{
+					-1,
+					1
+				},
 				"haiyang/haikuihy_using",
 				0,
 				{
-					nil,
-					nil,
+					{
+						4.82,
+						300
+					},
+					{
+						908,
+						602
+					},
 					"haiyang/haikuihy_mask"
 				}
 			}
@@ -41176,8 +39480,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					29,
+					40
+				},
+				{
+					1,
+					1
+				},
 				"haiyang/haimahy_using"
 			}
 		},
@@ -41341,13 +39651,25 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					1.1,
+					-53.8
+				},
+				{
+					1,
+					1
+				},
 				"haiyang/pao3hy_using",
 				0,
 				{
-					nil,
-					nil,
+					{
+						-5,
+						227
+					},
+					{
+						414,
+						252
+					},
 					"haiyang/pao3hy_mask"
 				}
 			}
@@ -41427,14 +39749,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					75,
+					36
+				},
+				{
+					1,
+					1
+				},
 				"haiyang/shafahy_using"
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-13,
+					-11
+				},
+				{
+					1,
+					1
+				},
 				"haiyang/shafahy_using"
 			}
 		},
@@ -42127,8 +40461,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					0,
+					-17
+				},
+				{
+					-1,
+					1
+				},
 				"caihong/bingshach_using"
 			}
 		},
@@ -42171,8 +40511,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-10,
+					10
+				},
+				{
+					-1,
+					1
+				},
 				"caihong/chuangch_using"
 			}
 		},
@@ -42215,14 +40561,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"dance",
-				nil,
-				nil,
+				{
+					43,
+					53
+				},
+				{
+					1,
+					1
+				},
 				"caihong/dadaoch_using"
 			},
 			{
 				"dance",
-				nil,
-				nil,
+				{
+					-56,
+					-45
+				},
+				{
+					-1,
+					1
+				},
 				"caihong/dadaoch_using"
 			}
 		},
@@ -42533,8 +40891,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-2,
+					-93
+				},
+				{
+					-1,
+					1
+				},
 				"caihong/guanzich_using"
 			}
 		},
@@ -42577,8 +40941,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"stand2",
-				nil,
-				nil,
+				{
+					4,
+					-91
+				},
+				{
+					-1,
+					1
+				},
 				"caihong/mench_using"
 			}
 		},
@@ -42837,8 +41207,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					31.9,
+					-102.9
+				},
+				{
+					-1,
+					1
+				},
 				"caihong/yugangch_using"
 			}
 		},
@@ -43017,20 +41393,38 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-4,
+					-9
+				},
+				{
+					-1,
+					1
+				},
 				"caihong/chengbaoch_using1"
 			},
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-152,
+					-57
+				},
+				{
+					-1,
+					1
+				},
 				"caihong/chengbaoch_using2"
 			},
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					68,
+					-167
+				},
+				{
+					-1,
+					1
+				},
 				"caihong/chengbaoch_using2"
 			}
 		},
@@ -43151,12 +41545,38 @@ pg.furniture_data_template = {
 			0
 		},
 		spine = {
-			nil,
-			nil,
-			nil,
-			nil,
-			nil,
-			nil,
+			{
+				"caihongyun",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
 			0.2
 		},
 		animator = {
@@ -43744,8 +42164,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-106,
+					65
+				},
+				{
+					-1,
+					1
+				},
 				"luosen/huojials_using"
 			}
 		},
@@ -43788,20 +42214,38 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-49,
+					70
+				},
+				{
+					-1,
+					1
+				},
 				"luosen/shiwuls_using3"
 			},
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					78,
+					-76
+				},
+				{
+					1,
+					1
+				},
 				"luosen/shiwuls_using2"
 			},
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					188,
+					-129
+				},
+				{
+					-1,
+					1
+				},
 				"luosen/shiwuls_using1"
 			}
 		},
@@ -43844,8 +42288,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"stand2",
-				nil,
-				nil,
+				{
+					-7,
+					-42
+				},
+				{
+					1,
+					1
+				},
 				"luosen/shouyinls_using"
 			}
 		},
@@ -44067,8 +42517,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-62,
+					-34
+				},
+				{
+					-1,
+					1
+				},
 				"yaoguai/yiziyg_using"
 			}
 		},
@@ -44147,8 +42603,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-16,
+					-46
+				},
+				{
+					1,
+					1
+				},
 				"yaoguai/tanziyg_using"
 			}
 		},
@@ -44263,8 +42725,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-56,
+					53
+				},
+				{
+					-1,
+					1
+				},
 				"yaoguai/mianyg_using"
 			}
 		},
@@ -44379,14 +42847,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"dance",
-				nil,
-				nil,
+				{
+					-72,
+					-50
+				},
+				{
+					-1,
+					1
+				},
 				"yaoguai/taiyg_using"
 			},
 			{
 				"dance",
-				nil,
-				nil,
+				{
+					48,
+					-87
+				},
+				{
+					-1,
+					1
+				},
 				"yaoguai/taiyg_using"
 			}
 		},
@@ -44514,8 +42994,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					15,
+					49
+				},
+				{
+					1,
+					1
+				},
 				"yaoguai/zuoqi1yg_using"
 			}
 		},
@@ -44594,14 +43080,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					59,
+					19
+				},
+				{
+					-1,
+					1
+				},
 				"yaoguai/zhuoyg_using"
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-63,
+					20
+				},
+				{
+					1,
+					1
+				},
 				"yaoguai/zhuoyg_using"
 			}
 		},
@@ -44644,8 +43142,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-8,
+					92.8
+				},
+				{
+					-1,
+					1
+				},
 				"yaoguai/gui2yg_using"
 			}
 		},
@@ -45334,8 +43838,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-12,
+					11
+				},
+				{
+					-1,
+					1
+				},
 				"halloween2/chehl2_using"
 			}
 		},
@@ -45702,13 +44212,25 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-12,
+					-11
+				},
+				{
+					-1,
+					1
+				},
 				"halloween2/kenghl2_using",
 				0,
 				{
-					nil,
-					nil,
+					{
+						-24,
+						22
+					},
+					{
+						566,
+						326
+					},
 					"halloween2/kenghl2_mask"
 				}
 			}
@@ -45896,8 +44418,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"stand2",
-				nil,
-				nil,
+				{
+					22,
+					-20
+				},
+				{
+					-1,
+					1
+				},
 				"halloween2/nangua2hl2_using"
 			}
 		},
@@ -46306,13 +44834,25 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					3,
+					-56
+				},
+				{
+					1,
+					1
+				},
 				"halloween2/zhaozehl2_using",
 				0,
 				{
-					nil,
-					nil,
+					{
+						-7,
+						216
+					},
+					{
+						502,
+						450
+					},
 					"halloween2/zhaozehl2_mask"
 				}
 			}
@@ -47531,8 +46071,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					21.8,
+					-32.7
+				},
+				{
+					1,
+					1
+				},
 				"chuansong/zaopengcs_using"
 			}
 		},
@@ -47575,49 +46121,97 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					67.8,
+					-32.9
+				},
+				{
+					1,
+					1
+				},
 				"chuansong/zaotangcs_using1",
 				0,
 				{
-					nil,
-					nil,
+					{
+						-5,
+						248
+					},
+					{
+						414,
+						426
+					},
 					"chuansong/zaotangcs_mask"
 				}
 			},
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					168,
+					-99
+				},
+				{
+					-1,
+					1
+				},
 				"chuansong/zaotangcs_using2",
 				0,
 				{
-					nil,
-					nil,
+					{
+						-5,
+						248
+					},
+					{
+						414,
+						426
+					},
 					"chuansong/zaotangcs_mask"
 				}
 			},
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-38,
+					-106
+				},
+				{
+					1,
+					1
+				},
 				"chuansong/zaotangcs_using3",
 				0,
 				{
-					nil,
-					nil,
+					{
+						-5,
+						248
+					},
+					{
+						414,
+						426
+					},
 					"chuansong/zaotangcs_mask"
 				}
 			},
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					60,
+					-151
+				},
+				{
+					-1,
+					1
+				},
 				"chuansong/zaotangcs_using4",
 				0,
 				{
-					nil,
-					nil,
+					{
+						-5,
+						248
+					},
+					{
+						414,
+						426
+					},
 					"chuansong/zaotangcs_mask"
 				}
 			}
@@ -47929,12 +46523,40 @@ pg.furniture_data_template = {
 			0
 		},
 		spine = {
-			nil,
-			nil,
-			nil,
-			nil,
-			nil,
-			nil,
+			{
+				"kekeboB",
+				"normal"
+			},
+			{
+				"kekeboT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
 			0.5
 		},
 		animator = {
@@ -48332,8 +46954,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-24,
+					-29
+				},
+				{
+					-1,
+					1
+				},
 				"christmas2/houcheyics2_using"
 			}
 		},
@@ -48412,14 +47040,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-126,
+					101
+				},
+				{
+					-1,
+					1
+				},
 				"christmas2/huochecs2_using1"
 			},
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-7,
+					56
+				},
+				{
+					-1,
+					1
+				},
 				"christmas2/huochecs2_using2"
 			}
 		},
@@ -48534,8 +47174,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					15,
+					1
+				},
+				{
+					-1,
+					1
+				},
 				"christmas2/qiucs2"
 			}
 		},
@@ -48614,13 +47260,25 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-35,
+					-64
+				},
+				{
+					-1,
+					1
+				},
 				"christmas2/shoupiaocs2_using",
 				0,
 				{
-					nil,
-					nil,
+					{
+						-71.29,
+						125.42
+					},
+					{
+						476,
+						726
+					},
 					"christmas2/shoupiaocs2_mask"
 				}
 			}
@@ -48808,8 +47466,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					17,
+					-132
+				},
+				{
+					1,
+					1
+				},
 				"christmas2/xuerencs2_using"
 			}
 		},
@@ -48997,12 +47661,42 @@ pg.furniture_data_template = {
 			0
 		},
 		spine = {
-			nil,
-			nil,
-			nil,
-			nil,
-			nil,
-			nil,
+			{
+				"shengdancheB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"shengdancheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
 			0.2
 		},
 		animator = {
@@ -49234,14 +47928,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-60,
+					26
+				},
+				{
+					1,
+					1
+				},
 				"yezhu/bashiyz_using"
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-3.1,
+					10.7
+				},
+				{
+					1,
+					1
+				},
 				"yezhu/bashiyz_using"
 			}
 		},
@@ -49284,8 +47990,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					10.2,
+					4.2
+				},
+				{
+					1,
+					1
+				},
 				"yezhu/chuangyz_using"
 			}
 		},
@@ -49822,8 +48534,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-66.7,
+					-50.2
+				},
+				{
+					1,
+					1
+				},
 				"yezhu/nitanyz_using"
 			}
 		},
@@ -50288,13 +49006,25 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-16.1,
+					-40
+				},
+				{
+					1,
+					1
+				},
 				"yezhu/zhangpengyz_using",
 				0,
 				{
-					nil,
-					nil,
+					{
+						33,
+						75
+					},
+					{
+						590,
+						564
+					},
 					"yezhu/zhangpengyz_mask"
 				}
 			}
@@ -51225,8 +49955,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					20.5,
+					71.8
+				},
+				{
+					1,
+					1
+				},
 				"zhunian/huzn_using"
 			}
 		},
@@ -51269,8 +50005,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-32,
+					14
+				},
+				{
+					1,
+					1
+				},
 				"zhunian/jiugangzn_using"
 			}
 		},
@@ -51457,8 +50199,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					28.4,
+					1.1
+				},
+				{
+					1,
+					1
+				},
 				"zhunian/yizi2zn_using"
 			}
 		},
@@ -51501,8 +50249,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-8.6,
+					24.5
+				},
+				{
+					1,
+					1
+				},
 				"zhunian/yizi3zn_using"
 			}
 		},
@@ -51545,8 +50299,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-18.6,
+					-6.2
+				},
+				{
+					-1,
+					1
+				},
 				"zhunian/yizi4zn_using"
 			}
 		},
@@ -51750,8 +50510,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-6,
+					81
+				},
+				{
+					-1,
+					1
+				},
 				"zhunian/zhuzn_using"
 			}
 		},
@@ -52505,8 +51271,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					58.6,
+					-58.2
+				},
+				{
+					1,
+					1
+				},
 				"xuedi/chixd_using"
 			}
 		},
@@ -53115,8 +51887,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-10.7,
+					23.5
+				},
+				{
+					-1,
+					1
+				},
 				"xuedi/yizixd_using"
 			}
 		},
@@ -53231,8 +52009,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					5.3,
+					-27.6
+				},
+				{
+					1,
+					1
+				},
 				"xuedi/zhangpengxd_using"
 			}
 		},
@@ -53537,8 +52321,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					0,
+					53
+				},
+				{
+					-1,
+					1
+				},
 				"valentine/chabei1vt_using"
 			}
 		},
@@ -53581,8 +52371,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					0,
+					53
+				},
+				{
+					-1,
+					1
+				},
 				"valentine/chabei2vt_using"
 			}
 		},
@@ -53625,8 +52421,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					0,
+					53
+				},
+				{
+					-1,
+					1
+				},
 				"valentine/chabei3vt_using"
 			}
 		},
@@ -53705,8 +52507,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"dance",
-				nil,
-				nil,
+				{
+					47,
+					-20
+				},
+				{
+					1,
+					1
+				},
 				"valentine/haidaochuanvt_using"
 			}
 		},
@@ -53821,13 +52629,25 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-13.9,
+					-8.1
+				},
+				{
+					1,
+					1
+				},
 				"valentine/miahuatangchevt_using",
 				0,
 				{
-					nil,
-					nil,
+					{
+						0,
+						191
+					},
+					{
+						172,
+						176
+					},
 					"valentine/miahuatangchevt_mask"
 				}
 			}
@@ -53871,14 +52691,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-136,
+					8
+				},
+				{
+					1,
+					1
+				},
 				"valentine/pengpengchevt_using1"
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					99,
+					24
+				},
+				{
+					-1,
+					1
+				},
 				"valentine/pengpengchevt_using2"
 			}
 		},
@@ -54029,8 +52861,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-11,
+					-101
+				},
+				{
+					-1,
+					1
+				},
 				"valentine/xuegaovt_using"
 			}
 		},
@@ -54073,14 +52911,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-43,
+					27
+				},
+				{
+					-1,
+					1
+				},
 				"valentine/yizivt_using"
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					10,
+					1
+				},
+				{
+					-1,
+					1
+				},
 				"valentine/yizivt_using"
 			}
 		},
@@ -54123,14 +52973,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-136.2,
+					-78.9
+				},
+				{
+					-1,
+					1
+				},
 				"valentine/xuanzhuanmumavt_using1"
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					128.7,
+					-81.4
+				},
+				{
+					1,
+					1
+				},
 				"valentine/xuanzhuanmumavt_using2"
 			}
 		},
@@ -54174,12 +53036,40 @@ pg.furniture_data_template = {
 			0
 		},
 		spine = {
-			nil,
-			nil,
-			nil,
-			nil,
-			nil,
-			nil,
+			{
+				"reqiqiuB",
+				"normal"
+			},
+			{
+				"reqiqiuT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
 			0.5
 		},
 		animator = {
@@ -54338,14 +53228,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"stand2",
-				nil,
-				nil,
+				{
+					5,
+					3
+				},
+				{
+					-1,
+					1
+				},
 				"korea/chuanko_using"
 			},
 			{
 				"stand2",
-				nil,
-				nil,
+				{
+					-119,
+					-130
+				},
+				{
+					-1,
+					1
+				},
 				"korea/chuanko_using2"
 			}
 		},
@@ -54437,8 +53339,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					13,
+					66
+				},
+				{
+					1,
+					1
+				},
 				"korea/fanko_using"
 			}
 		},
@@ -54625,8 +53533,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					13,
+					15
+				},
+				{
+					-1,
+					1
+				},
 				"korea/jiuko_using"
 			}
 		},
@@ -54813,8 +53727,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					5,
+					-67
+				},
+				{
+					-1,
+					1
+				},
 				"korea/tangko_using"
 			}
 		},
@@ -55514,20 +54434,38 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-87,
+					47
+				},
+				{
+					1,
+					1
+				},
 				"KizunaAI/bataika_using"
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					15,
+					77
+				},
+				{
+					-1,
+					1
+				},
 				"KizunaAI/bataika_using"
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					104,
+					29
+				},
+				{
+					-1,
+					1
+				},
 				"KizunaAI/bataika_using"
 			}
 		},
@@ -55967,8 +54905,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-3,
+					-37
+				},
+				{
+					-1,
+					1
+				},
 				"KizunaAI/jika_using"
 			}
 		},
@@ -56083,8 +55027,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"dance",
-				nil,
-				nil,
+				{
+					-3,
+					-109
+				},
+				{
+					-1,
+					1
+				},
 				"KizunaAI/peiyangka_using"
 			}
 		},
@@ -56319,8 +55269,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					22,
+					-12
+				},
+				{
+					-1,
+					1
+				},
 				"KizunaAI/yugang_using"
 			}
 		},
@@ -57000,20 +55956,38 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-107,
+					52
+				},
+				{
+					1,
+					1
+				},
 				"rainday/cherd_using"
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-40,
+					4
+				},
+				{
+					1,
+					1
+				},
 				"rainday/cherd_using2"
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					54,
+					-36
+				},
+				{
+					1,
+					1
+				},
 				"rainday/cherd_using3"
 			}
 		},
@@ -57164,8 +56138,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"yun",
-				nil,
-				nil,
+				{
+					1,
+					-102
+				},
+				{
+					1,
+					1
+				},
 				"rainday/jiqird_using"
 			}
 		},
@@ -57352,14 +56332,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"stand2",
-				nil,
-				nil,
+				{
+					-35,
+					-73
+				},
+				{
+					1,
+					1
+				},
 				"rainday/san2rd_using"
 			},
 			{
 				"stand2",
-				nil,
-				nil,
+				{
+					52,
+					-92
+				},
+				{
+					-1,
+					1
+				},
 				"rainday/san2rd_using"
 			}
 		},
@@ -57402,8 +56394,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-31,
+					-7
+				},
+				{
+					1,
+					1
+				},
 				"rainday/sanrd_using"
 			},
 			{
@@ -57565,14 +56563,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					13,
+					24
+				},
+				{
+					-1,
+					1
+				},
 				"rainday/xuerd_using"
 			},
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-87,
+					-28
+				},
+				{
+					1,
+					1
+				},
 				"rainday/xuerd_using2"
 			}
 		},
@@ -57749,13 +56759,25 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				},
 				"rainday/yuyird_using",
 				0,
 				{
-					nil,
-					nil,
+					{
+						-5,
+						76
+					},
+					{
+						212,
+						174
+					},
 					"rainday/yuyird_mask"
 				}
 			}
@@ -57872,12 +56894,35 @@ pg.furniture_data_template = {
 			0
 		},
 		spine = {
-			nil,
-			nil,
-			nil,
-			nil,
-			nil,
-			nil,
+			{
+				"yuyun",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
 			0.2
 		},
 		animator = {
@@ -58828,8 +57873,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-23,
+					17
+				},
+				{
+					-1,
+					1
+				},
 				"bsm/yizi3bsm_using"
 			}
 		},
@@ -58872,8 +57923,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-38,
+					5
+				},
+				{
+					-1,
+					1
+				},
 				"bsm/yizi4bsm_using"
 			}
 		},
@@ -59229,8 +58286,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-16,
+					22
+				},
+				{
+					-1,
+					1
+				},
 				"bsm/zuobsm_using"
 			}
 		},
@@ -59306,7 +58369,9 @@ pg.furniture_data_template = {
 		spine_action_replace = {
 			{
 				"dance",
-				nil,
+				{
+					405010
+				},
 				"BSMjiangtai"
 			}
 		},
@@ -59934,8 +58999,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					20,
+					-32
+				},
+				{
+					-1,
+					1
+				},
 				"cyberpunk/chizicp_using"
 			}
 		},
@@ -60626,13 +59697,25 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-11,
+					-17
+				},
+				{
+					1,
+					1
+				},
 				"cyberpunk/xiumiancangcp_using",
 				0,
 				{
-					nil,
-					nil,
+					{
+						23,
+						34
+					},
+					{
+						704,
+						504
+					},
 					"cyberpunk/xiumiancangcp_mask"
 				}
 			}
@@ -60976,12 +60059,55 @@ pg.furniture_data_template = {
 			0
 		},
 		spine = {
-			nil,
-			nil,
-			nil,
-			nil,
-			nil,
-			nil,
+			{
+				"cybercarB",
+				"normal"
+			},
+			{
+				"cybercarT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit0",
+						nil,
+						"sit"
+					}
+				},
+				{
+					nil,
+					nil,
+					nil,
+					nil,
+					"sit"
+				},
+				{
+					0
+				}
+			},
+			{
+				{
+					-26.29,
+					37.2
+				},
+				{
+					312,
+					272
+				},
+				"cyberpunk/cybercar_mask"
+			},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
 			0.7
 		},
 		animator = {
@@ -61080,13 +60206,19 @@ pg.furniture_data_template = {
 				{
 					{
 						{
-							nil,
+							{
+								"walk",
+								"walk1"
+							},
 							0.5
 						}
 					},
 					{
 						{
-							nil,
+							{
+								"walk",
+								"walk2"
+							},
 							0.5
 						}
 					}
@@ -61830,8 +60962,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					65,
+					-38
+				},
+				{
+					1,
+					1
+				},
 				"yidali/pisawuydl_using"
 			}
 		},
@@ -61874,14 +61012,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"stand2",
-				nil,
-				nil,
+				{
+					-55,
+					-3
+				},
+				{
+					-1,
+					1
+				},
 				"yidali/qiaoydl_using"
 			},
 			{
 				"stand2",
-				nil,
-				nil,
+				{
+					210.8,
+					-222.3
+				},
+				{
+					-1,
+					1
+				},
 				"yidali/qiaoydl_using"
 			}
 		},
@@ -61924,14 +61074,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-106.8,
+					-51.9
+				},
+				{
+					-1,
+					1
+				},
 				"yidali/shuichiydl_using"
 			},
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					106.9,
+					-59.9
+				},
+				{
+					-1,
+					1
+				},
 				"yidali/shuichiydl_using"
 			}
 		},
@@ -62204,14 +61366,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"dance",
-				nil,
-				nil,
+				{
+					4,
+					242
+				},
+				{
+					1,
+					1
+				},
 				"yidali/xietaydl_using"
 			},
 			{
 				"dance",
-				nil,
-				nil,
+				{
+					72,
+					-249
+				},
+				{
+					1,
+					1
+				},
 				"yidali/xietaydl_using"
 			}
 		},
@@ -62784,8 +61958,14 @@ pg.furniture_data_template = {
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-9.4,
+					-11.1
+				},
+				{
+					1,
+					1
+				},
 				"donghuaBD/yizi2dh_using"
 			}
 		},
@@ -62828,8 +62008,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-23.9,
+					12
+				},
+				{
+					-1,
+					1
+				},
 				"donghuaBD/yizi3dh_using"
 			}
 		},
@@ -63306,8 +62492,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					19.1,
+					15.8
+				},
+				{
+					1,
+					1
+				},
 				"donghuaBD/yizidh_using"
 			}
 		},
@@ -64370,8 +63562,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-73.6,
+					-64.2
+				},
+				{
+					1,
+					1
+				},
 				"jiche/shuichi_using"
 			}
 		},
@@ -64522,8 +63720,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-42.8,
+					-48.7
+				},
+				{
+					1,
+					1
+				},
 				"jiche/zhangpengjc_using"
 			}
 		},
@@ -64916,8 +64120,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-21,
+					-21
+				},
+				{
+					1,
+					1
+				},
 				"hl3/chuanghl3_using"
 			}
 		},
@@ -65489,12 +64699,42 @@ pg.furniture_data_template = {
 			0
 		},
 		spine = {
-			nil,
-			nil,
-			nil,
-			nil,
-			nil,
-			nil,
+			{
+				"ghostcarB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"ghostcarT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
 			0.5
 		},
 		animator = {
@@ -65678,14 +64918,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-42,
+					35
+				},
+				{
+					1,
+					1
+				},
 				"ido/cheido_using1"
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					91,
+					-50
+				},
+				{
+					1,
+					1
+				},
 				"ido/cheido_using2"
 			}
 		},
@@ -65836,8 +65088,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-14,
+					42
+				},
+				{
+					1,
+					1
+				},
 				"ido/guido"
 			}
 		},
@@ -65916,8 +65174,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"dance",
-				nil,
-				nil,
+				{
+					-35,
+					-17
+				},
+				{
+					1,
+					1
+				},
 				"ido/jianpanido_using"
 			}
 		},
@@ -66081,8 +65345,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					60,
+					82
+				},
+				{
+					-1,
+					1
+				},
 				"ido/tai2ido_using"
 			}
 		},
@@ -66174,8 +65444,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"dance",
-				nil,
-				nil,
+				{
+					51,
+					39
+				},
+				{
+					1,
+					1
+				},
 				"ido/taiido_using"
 			}
 		},
@@ -66789,8 +66065,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-86,
+					-63
+				},
+				{
+					1,
+					1
+				},
 				"pocky/pockywash_using"
 			}
 		},
@@ -68734,14 +68016,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					50,
+					108
+				},
+				{
+					-1,
+					1
+				},
 				"christmas3/checs3_using"
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-126,
+					34
+				},
+				{
+					-1,
+					1
+				},
 				"christmas3/checs3_using2"
 			}
 		},
@@ -69896,8 +69190,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-5.3,
+					-155.3
+				},
+				{
+					1,
+					1
+				},
 				"mh2/wenquanmh2_using"
 			}
 		},
@@ -70315,8 +69615,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-13,
+					-30
+				},
+				{
+					-1,
+					1
+				},
 				"cj2/baozhucj2_using",
 				0,
 				{
@@ -70406,14 +69712,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					123,
+					106
+				},
+				{
+					-1,
+					1
+				},
 				"cj2/fancj2_using"
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-129,
+					105
+				},
+				{
+					1,
+					1
+				},
 				"cj2/fancj2_using"
 			}
 		},
@@ -70456,8 +69774,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-51,
+					56
+				},
+				{
+					1,
+					1
+				},
 				"cj2/guzhengcj2_using"
 			}
 		},
@@ -70752,8 +70076,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"yun",
-				nil,
-				nil,
+				{
+					-106,
+					-44
+				},
+				{
+					-1,
+					1
+				},
 				"cj2/tizicj2_using"
 			}
 		},
@@ -70796,8 +70126,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-36,
+					-31
+				},
+				{
+					1,
+					1
+				},
 				"cj2/zaopengcj2_using"
 			}
 		},
@@ -71244,14 +70580,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					-46.2,
+					-7.8
+				},
+				{
+					1,
+					1
+				},
 				"valentine2/chuangvt2_using"
 			},
 			{
 				"sleep",
-				nil,
-				nil,
+				{
+					42,
+					-45
+				},
+				{
+					1,
+					1
+				},
 				"valentine2/chuangvt2_using"
 			}
 		},
@@ -71657,8 +71005,14 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"wash",
-				nil,
-				nil,
+				{
+					-60,
+					-25
+				},
+				{
+					1,
+					1
+				},
 				"valentine2/zaopengvt2_using"
 			}
 		},
@@ -71701,14 +71055,26 @@ pg.furniture_data_template = {
 		interAction = {
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					-60,
+					-10
+				},
+				{
+					-1,
+					1
+				},
 				"valentine2/zhuozi2vt2_using"
 			},
 			{
 				"sit",
-				nil,
-				nil,
+				{
+					78,
+					0
+				},
+				{
+					1,
+					1
+				},
 				"valentine2/zhuozi2vt2_using"
 			}
 		},
@@ -73722,3 +73088,5 @@ pg.furniture_data_template = {
 		59303
 	}
 }
+
+return

@@ -8,40 +8,17 @@ end
 function slot0.Init(slot0)
 	slot0.questiones = {}
 
-	for slot4, slot5 in ipairs(uv0.all) do
-		table.insert(slot0.questiones, slot0:WrapQuestion(uv0[slot5], slot0:GetNextTime(slot4)))
+	for slot4, slot5 in ipairs(slot0.all) do
+		table.insert(slot0.questiones, slot0:WrapQuestion(slot6, slot7))
 	end
 end
 
 function slot0.WrapQuestion(slot0, slot1, slot2)
-	slot4[1] = slot1.answer_false1
-	slot4[1] = slot1.answer_false2
-	slot4[1] = slot1.answer_false3
-	slot3 = slot0:GetAnswerFlag(slot1.id, {
-		{
-			nil,
-			false
-		},
-		{
-			nil,
-			false
-		},
-		{
-			nil,
-			false
-		}
-	})
-
 	shuffle(slot3)
-
-	slot8[1] = slot1.answer_right
-
-	table.insert(slot3, math.random(1, 4), {
-		nil,
+	table.insert(slot3, slot4, {
+		slot1.answer_right,
 		false
 	})
-
-	slot5 = slot0:IsFinishQuestion(slot1.id)
 
 	return {
 		id = slot1.id,
@@ -51,8 +28,8 @@ function slot0.WrapQuestion(slot0, slot1, slot2)
 		text = slot1.question,
 		nextTime = slot2 or 0,
 		waitTime = slot1.wrong_time,
-		isFinish = slot5,
-		isUnlock = slot0.unlockCount > 0 or slot5
+		isFinish = slot0:IsFinishQuestion(slot1.id),
+		isUnlock = slot0.unlockCount > 0 or slot0.IsFinishQuestion(slot1.id)
 	}
 end
 
@@ -87,13 +64,13 @@ function slot0.GetAnswerFlag(slot0, slot1, slot2)
 	slot3 = getProxy(PlayerProxy):getRawData().id
 
 	function slot4(slot0, slot1)
-		return PlayerPrefs.GetInt(slot0 .. "_" .. slot1 .. "_" .. uv0, 0) > 0
+		return PlayerPrefs.GetInt(slot0 .. "_" .. slot1 .. "_" .. slot0, 0) > 0
 	end
 
 	return _.map(slot2, function (slot0)
 		return {
 			slot0[1],
-			uv0(uv1, slot0[1])
+			slot0(slot0, slot0[1])
 		}
 	end)
 end
@@ -117,7 +94,7 @@ end
 
 function slot0.UpdateWrongAnswerFlag(slot0, slot1, slot2)
 	slot0:SetAnswerFlag(slot1, _.detect(slot0.questiones, function (slot0)
-		return slot0.id == uv0
+		return slot0.id == slot0
 	end).answers[slot2][1])
 	slot0:SetNextTime(slot1)
 end
@@ -153,7 +130,7 @@ end
 
 function slot0.IsRight(slot0, slot1, slot2)
 	return _.any(slot0.questiones, function (slot0)
-		return uv0 == slot0.id and slot0.rightIndex == uv1
+		return slot0 == slot0.id and slot0.rightIndex == 
 	end)
 end
 
@@ -163,11 +140,12 @@ end
 
 function slot0.GetQuestion(slot0, slot1)
 	return _.detect(slot0.questiones, function (slot0)
-		return slot0.id == uv0
+		return slot0.id == slot0
 	end)
 end
 
 function slot0.Dispose(slot0)
+	return
 end
 
 return slot0

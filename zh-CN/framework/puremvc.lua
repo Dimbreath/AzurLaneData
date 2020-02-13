@@ -17,3 +17,5 @@ pm.StateMachine = import(pm.PACKAGE_NAME .. ".utilities.statemachine.StateMachin
 pm.FSMInjector = import(pm.PACKAGE_NAME .. ".utilities.statemachine.FSMInjector")
 
 require("classes")
+
+return

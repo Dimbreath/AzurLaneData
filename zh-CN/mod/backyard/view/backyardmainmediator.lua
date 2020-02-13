@@ -35,69 +35,69 @@ slot0.INTERACTION_TRANSPORT_AGAIN = "BackyardMainMediator:INTERACTION_TRANSPORT_
 slot0.INTERACTION_TRANSPORT_END = "BackyardMainMediator:INTERACTION_TRANSPORT_END"
 
 function slot0.Ctor(slot0, slot1)
-	uv0.super.Ctor(slot0, nil, slot1)
+	slot0.super.Ctor(slot0, nil, slot1)
 end
 
 function slot0.onRegister(slot0)
 	slot0.event = {}
 
-	slot0.viewComponent:setHouse(getBackYardProxy(BackYardHouseProxy):getData())
+	slot0.viewComponent:setHouse(getBackYardProxy(BackYardHouseProxy).getData(slot1))
 	slot0.viewComponent:updateExtendItemVO(getProxy(BagProxy))
-	slot0:bind(uv0.INTERACTION_TRANSPORT, function (slot0, slot1, slot2)
+	slot0:bind(slot0.INTERACTION_TRANSPORT, function (slot0, slot1, slot2)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
 			name = BACKYARD.INTERACTION_TRANSPORT,
 			shipId = slot1,
 			furnitureId = slot2
 		})
 	end)
-	slot0:bind(uv0.INTERACTION_TRANSPORT_AGAIN, function (slot0, slot1, slot2)
+	slot0:bind(slot0.INTERACTION_TRANSPORT_AGAIN, function (slot0, slot1, slot2)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
 			name = BACKYARD.INTERACTION_TRANSPORT_AGAIN,
 			shipId = slot1,
 			furnitureId = slot2
 		})
 	end)
-	slot0:bind(uv0.INTERACTION_TRANSPORT_END, function (slot0, slot1, slot2)
+	slot0:bind(slot0.INTERACTION_TRANSPORT_END, function (slot0, slot1, slot2)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
 			name = BACKYARD.INTERACTION_TRANSPORT_END,
 			shipId = slot1,
 			furnitureId = slot2
 		})
 	end)
-	slot0:bind(uv0.ON_ADD_MOVE_FURNITURE, function (slot0, slot1)
-		uv0:addMoveForFurniture(slot1, 1)
+	slot0:bind(slot0.ON_ADD_MOVE_FURNITURE, function (slot0, slot1)
+		slot0:addMoveForFurniture(slot1, 1)
 	end)
-	slot0:bind(uv0.ON_REMOVE_MOVE_FURNITURE, function (slot0, slot1)
-		uv0:removeFurntureMove(slot1, 1)
+	slot0:bind(slot0.ON_REMOVE_MOVE_FURNITURE, function (slot0, slot1)
+		slot0:removeFurntureMove(slot1, 1)
 	end)
-	slot0:bind(uv0.ON_SPINE_EXTRA, function (slot0, slot1, slot2)
+	slot0:bind(slot0.ON_SPINE_EXTRA, function (slot0, slot1, slot2)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
 			name = BACKYARD.INTERACTION_SPINE_EXTRA,
 			shipId = slot1,
 			furnitureId = slot2
 		})
 	end)
-	slot0:bind(uv0.ON_CLEAR_SPINR_EXTRA, function (slot0, slot1, slot2)
+	slot0:bind(slot0.ON_CLEAR_SPINR_EXTRA, function (slot0, slot1, slot2)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
 			name = BACKYARD.CLEAR_SPINE_EXTRA,
 			shipId = slot1,
 			furnitureId = slot2
 		})
 	end)
-	slot0:bind(uv0.END_DRAG_SHIP, function (slot0, slot1, slot2)
+	slot0:bind(slot0.END_DRAG_SHIP, function (slot0, slot1, slot2)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
 			name = BACKYARD.END_DRAG_BOAT,
 			id = slot1,
 			pos = slot2
 		})
 	end)
-	slot0:bind(uv0.CANCEL_SHIP_MOVE, function (slot0, slot1)
+	slot0:bind(slot0.CANCEL_SHIP_MOVE, function (slot0, slot1)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
 			name = BACKYARD.CANCEL_BOAT_MOVE,
 			id = slot1
 		})
 	end)
-	slot0:bind(uv0.FURNITURE_POS_CHNAGE, function (slot0, slot1, slot2, slot3)
+	slot0:bind(slot0.FURNITURE_POS_CHNAGE, function (slot0, slot1, slot2, slot3)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_FURNITURE, {
 			name = BACKYARD.FURNITURE_POS_CHANGE,
 			id = slot1,
@@ -105,130 +105,130 @@ function slot0.onRegister(slot0)
 			parentId = slot3
 		})
 	end)
-	slot0:bind(uv0.ADD_BOAT_MOVE, function (slot0, slot1, slot2)
+	slot0:bind(slot0.ADD_BOAT_MOVE, function (slot0, slot1, slot2)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
 			name = BACKYARD.ADD_BOAT_MOVE,
 			id = slot1,
 			isNow = slot2
 		})
 	end)
-	slot0:bind(uv0.FURNITURE_DIR_CHANGE, function (slot0, slot1)
+	slot0:bind(slot0.FURNITURE_DIR_CHANGE, function (slot0, slot1)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_FURNITURE, {
 			name = BACKYARD.FURNITURE_CHANGE_DIR,
 			id = slot1
 		})
 	end)
-	slot0:bind(uv0.REMOVE_FURNITURE, function (slot0, slot1)
+	slot0:bind(slot0.REMOVE_FURNITURE, function (slot0, slot1)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_FURNITURE, {
 			name = BACKYARD.FURNITURE_REMOVE,
 			id = slot1
 		})
 	end)
-	slot0:bind(uv0.REPLACE_PAPER, function (slot0, slot1)
+	slot0:bind(slot0.REPLACE_PAPER, function (slot0, slot1)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_FURNITURE, {
 			name = BACKYARD.REPALCE_PAPER,
 			furniture = slot1
 		})
 	end)
-	slot0:bind(uv0.SAVE_FURNITURE, function (slot0, slot1)
+	slot0:bind(slot0.SAVE_FURNITURE, function (slot0, slot1)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_FURNITURE, {
 			name = BACKYARD.FURNITURE_SAVE,
 			tip = defaultValue(slot1, true)
 		})
 	end)
-	slot0:bind(uv0.ADD_INTIMACY, function (slot0, slot1)
+	slot0:bind(slot0.ADD_INTIMACY, function (slot0, slot1)
 		pg.m02:sendNotification(GAME.BACKYARD_ADD_INTIMACY, slot1)
 	end)
-	slot0:bind(uv0.ADD_MONEY, function (slot0, slot1)
+	slot0:bind(slot0.ADD_MONEY, function (slot0, slot1)
 		pg.m02:sendNotification(GAME.BACKYARD_ADD_MONEY, slot1)
 	end)
-	slot0:bind(uv0.EXTEND_BACKYARD_AREA, function (slot0)
+	slot0:bind(slot0.EXTEND_BACKYARD_AREA, function (slot0)
 		pg.m02:sendNotification(GAME.USE_ITEM, {
 			count = 1,
 			id = ITEM_BACKYARD_AREA_EXTEND
 		})
 	end)
-	slot0:bind(uv0.OPEN_DECORATION, function (slot0)
+	slot0:bind(slot0.OPEN_DECORATION, function (slot0)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_FURNITURE, {
 			name = BACKYARD.OPEN_DECORATION
 		})
 		pg.m02:sendNotification(GAME.OPEN_BACKYARD_GARNARY, {
 			callback = function ()
-				uv0.viewComponent:enableDecorateMode(true)
+				slot0.viewComponent:enableDecorateMode(true)
 			end
 		})
 	end)
-	slot0:bind(uv0.CLOSE_GARNITURE, function (slot0)
+	slot0:bind(slot0.CLOSE_GARNITURE, function (slot0)
 		if getProxy(ContextProxy):getCurrentContext() and slot2:getContextByMediator(BackYardGarnitureMediator) then
 			pg.m02:sendNotification(GAME.REMOVE_LAYERS, {
 				context = slot3
 			})
 		end
 	end)
-	slot0:bind(uv0.RESTORE_FURNITURES, function (slot0)
+	slot0:bind(slot0.RESTORE_FURNITURES, function (slot0)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_FURNITURE, {
 			name = BACKYARD.RESTORE_FURNITURES
 		})
 	end)
-	slot0:bind(uv0.BUY_EXTEND_BACKYARD_ITEM, function (slot0, slot1, slot2)
+	slot0:bind(slot0.BUY_EXTEND_BACKYARD_ITEM, function (slot0, slot1, slot2)
 		pg.m02:sendNotification(GAME.SHOPPING, {
 			id = slot1,
 			count = slot2
 		})
 	end)
-	slot0:bind(uv0.BOAT_POSITION_RESET, function (slot0)
+	slot0:bind(slot0.BOAT_POSITION_RESET, function (slot0)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
 			name = BACKYARD.BOAT_POSITION_RESET
 		})
 	end)
-	slot0:bind(uv0.INTERACTION, function (slot0, slot1, slot2)
+	slot0:bind(slot0.INTERACTION, function (slot0, slot1, slot2)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
 			name = BACKYARD.INTERACTION,
 			shipId = slot1,
 			furnitureId = slot2
 		})
 	end)
-	slot0:bind(uv0.INTERACTION_SPINE, function (slot0, slot1, slot2)
+	slot0:bind(slot0.INTERACTION_SPINE, function (slot0, slot1, slot2)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
 			name = BACKYARD.INTERACTION_SPINE,
 			shipId = slot1,
 			furnitureId = slot2
 		})
 	end)
-	slot0:bind(uv0.CLEAR_SPINE, function (slot0, slot1)
+	slot0:bind(slot0.CLEAR_SPINE, function (slot0, slot1)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
 			name = BACKYARD.CLEAR_SPINE,
 			shipId = slot1
 		})
 	end)
-	slot0:bind(uv0.INTERACTION_STAGE, function (slot0, slot1, slot2)
+	slot0:bind(slot0.INTERACTION_STAGE, function (slot0, slot1, slot2)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
 			name = BACKYARD.INTERACTION_STAGE,
 			shipId = slot1,
 			furnitureId = slot2
 		})
 	end)
-	slot0:bind(uv0.ADD_MOVE_FURNITURE, function (slot0, slot1, slot2)
+	slot0:bind(slot0.ADD_MOVE_FURNITURE, function (slot0, slot1, slot2)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
 			name = BACKYARD.ADD_MOVE_ON_FURNITURE,
 			shipId = slot1,
 			furnitureId = slot2
 		})
 	end)
-	slot0:bind(uv0.CLEAR_STAGE_INTERACTION, function (slot0, slot1)
+	slot0:bind(slot0.CLEAR_STAGE_INTERACTION, function (slot0, slot1)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
 			name = BACKYARD.CLEAR_STAGE_INTERACTION,
 			shipId = slot1
 		})
 	end)
-	slot0:bind(uv0.ON_HALF_MOVE, function (slot0, slot1, slot2)
+	slot0:bind(slot0.ON_HALF_MOVE, function (slot0, slot1, slot2)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
 			name = BACKYARD.MOVE_HALF,
 			shipId = slot1,
 			position = slot2
 		})
 	end)
-	slot0:bind(uv0.ON_CHECK_EFFECT, function (slot0)
+	slot0:bind(slot0.ON_CHECK_EFFECT, function (slot0)
 		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_FURNITURE, {
 			name = BACKYARD.CHECK_EFFECT
 		})
@@ -311,13 +311,13 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:exitBoat(slot3)
 	elseif slot2 == BackYardHouseProxy.BACKYARD_ADD_SHIP then
 		slot0.viewComponent:loadBoatModal(slot3, function ()
-			if not uv0:hasInterActionFurnitrue() then
-				uv1.viewComponent:emit(BackyardMainMediator.ADD_BOAT_MOVE, uv0.id)
+			if not slot0:hasInterActionFurnitrue() then
+				slot1.viewComponent:emit(BackyardMainMediator.ADD_BOAT_MOVE, slot0.id)
 			end
 		end)
 	elseif slot2 == BackYardHouseProxy.HOUSE_UPDATE then
 		slot0.viewComponent:setHouse(slot3)
-		pg.m02:sendNotification(uv0.HOUSE_UPDATE, slot3)
+		pg.m02:sendNotification(slot0.HOUSE_UPDATE, slot3)
 	elseif slot2 == BackYardHouseProxy.BACKYARD_CANT_PUT then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_backyardScene_error_noPosPutFurniture"))
 	elseif slot2 == BackYardHouseProxy.BACKYARD_ADD_FURNITURE then
@@ -327,12 +327,12 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.viewComponent:sortWallFurns()
 		end
 
-		pg.m02:sendNotification(uv0.USED_FURNITURE, slot3.furniture.id)
+		pg.m02:sendNotification(slot0.USED_FURNITURE, slot3.furniture.id)
 	elseif slot2 == BackYardHouseProxy.BACKYARD_FURNITURE_DIR_CHANGE then
 		slot0.viewComponent:rotateFurn(slot3.furniture)
 	elseif slot2 == BackYardHouseProxy.BACKYARD_FURNITURE_REMOVE then
 		slot0.viewComponent:removeFurn(slot3)
-		pg.m02:sendNotification(uv0.NONUSED_FURNITURE, slot3.id)
+		pg.m02:sendNotification(slot0.NONUSED_FURNITURE, slot3.id)
 	elseif slot2 == BackYardHouseProxy.BACKYARD_SHIP_HARVEST then
 		slot0.viewComponent:addBoatInimacyAndMoney(slot3.ship)
 	elseif slot2 == BACKYARD.BOAT_ADDITION_DONE then
@@ -341,11 +341,11 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:loadWallPaper(slot3.furniture, slot3.type)
 
 		if slot3.prePaper then
-			pg.m02:sendNotification(uv0.NONUSED_FURNITURE, slot3.prePaper.id)
+			pg.m02:sendNotification(slot0.NONUSED_FURNITURE, slot3.prePaper.id)
 		end
 
 		if slot3.furniture then
-			pg.m02:sendNotification(uv0.USED_FURNITURE, slot3.furniture.id)
+			pg.m02:sendNotification(slot0.USED_FURNITURE, slot3.furniture.id)
 		end
 	elseif slot2 == BackYardHouseProxy.HOUSE_LEVEL_UP then
 		slot0.viewComponent:updateHouseArea(slot3.level)
@@ -354,15 +354,17 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == BACKYARD.GARNITURE_SAVE then
 		slot0.viewComponent:save()
 	elseif slot2 == BACKYARD.GARNITURE_CLEAR then
+		function slot4()
+			slot0.viewComponent:closePreFurnSelected()
+			pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_FURNITURE, {
+				name = BACKYARD.CLEAR_FURNITURE
+			})
+		end
+
 		if slot3.tip then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("backyard_backyardScene_quest_clearButton"),
-				onYes = function ()
-					uv0.viewComponent:closePreFurnSelected()
-					pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_FURNITURE, {
-						name = BACKYARD.CLEAR_FURNITURE
-					})
-				end
+				onYes = slot4
 			})
 		else
 			slot4()
@@ -390,15 +392,13 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == BackYardHouseProxy.CLEAR_STAGE_INTERACTION then
 		slot0.viewComponent:clearStageInterAction(slot3.shipId)
 	elseif slot2 == BackYardHouseProxy.CLEAR_BGM then
-		if slot3.furnitureId then
-			if getBackYardProxy(BackYardHouseProxy):getFurnitureById(slot3.furnitureId) and slot5:getBgm() and slot0.bgmName ~= slot0.viewComponent.bgm then
-				playBGM(slot0.viewComponent.bgm)
+		if slot3.furnitureId and getBackYardProxy(BackYardHouseProxy):getFurnitureById(slot3.furnitureId) and slot5:getBgm() and slot0.bgmName ~= slot0.viewComponent.bgm then
+			playBGM(slot0.viewComponent.bgm)
 
-				slot0.bgmName = slot0.viewComponent.bgm
-			end
+			slot0.bgmName = slot0.viewComponent.bgm
 		end
 	elseif slot2 == BackYardHouseProxy.CHANGE_BGM then
-		if getBackYardProxy(BackYardHouseProxy):getFurnitureById(slot3.furnitureId):getBgm() and slot6 ~= slot0.bgmName then
+		if getBackYardProxy(BackYardHouseProxy).getFurnitureById(slot4, slot3.furnitureId):getBgm() and slot6 ~= slot0.bgmName then
 			playBGM(slot6)
 
 			slot0.bgmName = slot6
@@ -408,7 +408,6 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == BackYardHouseProxy.CLEAR_ARCH_INTERACTION then
 		slot0.viewComponent:clearArchInteration(slot3.shipId)
 	elseif slot2 == BackYardHouseProxy.ON_REMOVE_FURNTURE_MOVE then
-		-- Nothing
 	elseif slot2 == BackYardHouseProxy.CLEAE_SPINE_INTERACTION then
 		slot0.viewComponent:clearSpineInteraction(slot3.furnitureId, slot3.shipId, slot3.save)
 	elseif slot2 == BackYardHouseProxy.ON_SPINE_EXTRA_INTERACTION then

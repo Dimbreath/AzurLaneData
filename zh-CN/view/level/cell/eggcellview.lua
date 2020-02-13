@@ -61,9 +61,11 @@ function slot0.setEnemyType(slot0, slot1)
 end
 
 function slot0.getAction(slot0)
+	return
 end
 
 function slot0.setAction(slot0)
+	return
 end
 
 function slot0.getModel(slot0)
@@ -71,10 +73,9 @@ function slot0.getModel(slot0)
 end
 
 function slot0.setModel(slot0, slot1)
-	slot2 = slot1.transform
-	slot2:GetComponent("Image").raycastTarget = false
+	slot1.transform.GetComponent(slot2, "Image").raycastTarget = false
 
-	pg.ViewUtils.SetLayer(slot2, Layer.UI)
+	pg.ViewUtils.SetLayer(slot1.transform, Layer.UI)
 
 	slot0.model = slot1
 end
@@ -88,9 +89,7 @@ function slot0.loadSpine(slot0, slot1)
 		return
 	end
 
-	slot3 = slot0.tf
-
-	GetImageSpriteFromAtlasAsync("enemies/" .. slot0:getPrefab(), "", findTF(slot3, "icon"))
+	GetImageSpriteFromAtlasAsync("enemies/" .. slot2, "", slot4)
 	setText(findTF(slot3, "lv/Text"), slot0.level)
 	setActive(findTF(slot3, "titleContain/bg_s"), ChapterConst.EnemySize[slot0.enemyType] == 1)
 	setActive(findTF(slot3, "titleContain/bg_m"), ChapterConst.EnemySize[slot0.enemyType] == 2)

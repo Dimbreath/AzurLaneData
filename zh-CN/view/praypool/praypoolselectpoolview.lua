@@ -11,9 +11,11 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnDestroy(slot0)
+	return
 end
 
 function slot0.OnBackPress(slot0)
+	return
 end
 
 function slot0.initData(slot0)
@@ -32,24 +34,22 @@ function slot0.initUI(slot0)
 
 	slot0.poolList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = slot1 + 1
-
-			setImageSprite(uv0:findTF("PoolImg", slot2), GetSpriteFromAtlas("ui/prayselectpoolpage_atlas", "pool" .. slot3, true))
-			onToggle(uv0, slot2, function (slot0)
+			setImageSprite(slot4, GetSpriteFromAtlas("ui/prayselectpoolpage_atlas", "pool" .. slot3, true))
+			onToggle(slot0, slot2, function (slot0)
 				if slot0 then
-					uv0.nextBtnCom.interactable = true
-					uv0.selectedPoolType = uv1
+					slot0.nextBtnCom.interactable = true
+					slot0.selectedPoolType = slot0
 
-					uv0.prayProxy:setSelectedPoolNum(uv1)
+					slot0.prayProxy:setSelectedPoolNum(slot0.prayProxy.setSelectedPoolNum)
 				else
-					uv0.nextBtnCom.interactable = false
-					uv0.selectedPoolType = nil
+					slot0.nextBtnCom.interactable = false
+					slot0.selectedPoolType = nil
 
-					uv0.prayProxy:setSelectedPoolNum(nil)
+					slot0.prayProxy:setSelectedPoolNum(nil)
 				end
 			end, SFX_PANEL)
 
-			uv0.poolToggleList[slot3] = slot2
+			slot0.poolToggleList[slot1 + 1] = slot2
 		end
 	end)
 	slot0.poolList:align(#pg.activity_ship_create.all)
@@ -57,21 +57,19 @@ function slot0.initUI(slot0)
 	slot0.nextBtnCom.interactable = false
 
 	onButton(slot0, slot0.preBtn, function ()
-		uv0.prayProxy:updatePageState(PrayProxy.STATE_HOME)
-		uv0:emit(PrayPoolConst.SWITCH_TO_HOME_PAGE, PrayProxy.STATE_HOME)
+		slot0.prayProxy:updatePageState(PrayProxy.STATE_HOME)
+		slot0.prayProxy.updatePageState:emit(PrayPoolConst.SWITCH_TO_HOME_PAGE, PrayProxy.STATE_HOME)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.nextBtn, function ()
-		uv0.prayProxy:updateSelectedPool(uv0.selectedPoolType)
-		uv0.prayProxy:updatePageState(PrayProxy.STAGE_SELECT_SHIP)
-		uv0:emit(PrayPoolConst.SWITCH_TO_SELECT_SHIP_PAGE, PrayProxy.STAGE_SELECT_SHIP)
+		slot0.prayProxy:updateSelectedPool(slot0.selectedPoolType)
+		slot0.prayProxy.updateSelectedPool.prayProxy:updatePageState(PrayProxy.STAGE_SELECT_SHIP)
+		slot0.prayProxy.updateSelectedPool.prayProxy.updatePageState:emit(PrayPoolConst.SWITCH_TO_SELECT_SHIP_PAGE, PrayProxy.STAGE_SELECT_SHIP)
 	end, SFX_PANEL)
 	slot0:Show()
 end
 
 function slot0.updateUI(slot0)
-	slot1 = slot0.prayProxy
-
-	if slot1:getSelectedPoolType() then
+	if slot0.prayProxy:getSelectedPoolType() then
 		triggerToggle(slot0.poolToggleList[slot1], true)
 	else
 		return

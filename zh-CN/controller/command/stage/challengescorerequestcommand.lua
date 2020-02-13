@@ -1,6 +1,4 @@
-slot0 = class("ChallengeStrategyCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("ChallengeStrategyCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot2 = slot1:getBody()
 
 	pg.ConnectionMgr.GetInstance():Send(24009, {
@@ -10,4 +8,4 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-return slot0
+return class("ChallengeStrategyCommand", pm.SimpleCommand)

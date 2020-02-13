@@ -21,7 +21,9 @@ function slot0.Update(slot0)
 		return
 	end
 
-	while slot0._list.Head ~= nil do
+	slot1 = slot0._list.Head
+
+	while slot1 ~= nil do
 		slot1.Data:Update()
 
 		if slot0._destroyed then
@@ -29,7 +31,9 @@ function slot0.Update(slot0)
 		end
 
 		if slot2:IsFinish() then
-			slot0._list:Remove(slot1.Next)
+			slot1 = slot1.Next
+
+			slot0._list:Remove(slot1)
 		else
 			slot1 = slot1.Next
 		end
@@ -54,8 +58,10 @@ function slot0.IsFinish(slot0)
 		return true
 	end
 
+	slot1 = slot0._list.Head
+
 	for slot5 = 1, slot0._list.Count, 1 do
-		if not slot0._list.Head.Data:IsFinish() then
+		if not slot1.Data:IsFinish() then
 			return false
 		end
 
@@ -64,3 +70,5 @@ function slot0.IsFinish(slot0)
 
 	return true
 end
+
+return

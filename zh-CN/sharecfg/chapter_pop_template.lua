@@ -1,24 +1,4 @@
 pg = pg or {}
-slot4[1] = {
-	3,
-	3
-}
-slot4[1] = {
-	3,
-	4
-}
-slot4[1] = {
-	3,
-	4
-}
-slot4[1] = {
-	3,
-	4
-}
-slot4[1] = {
-	3,
-	4
-}
 pg.chapter_pop_template = {
 	[1280001] = {
 		slg_effect = "juguangdeng_SLG",
@@ -27,7 +7,10 @@ pg.chapter_pop_template = {
 		id = 1280001,
 		sd_location = {
 			{
-				nil,
+				{
+					3,
+					3
+				},
 				"kelifulan_idol"
 			}
 		},
@@ -47,7 +30,10 @@ pg.chapter_pop_template = {
 		id = 1280002,
 		sd_location = {
 			{
-				nil,
+				{
+					3,
+					4
+				},
 				"xiefeierde_idol"
 			}
 		},
@@ -67,7 +53,10 @@ pg.chapter_pop_template = {
 		id = 1280003,
 		sd_location = {
 			{
-				nil,
+				{
+					3,
+					4
+				},
 				"chicheng_idol"
 			}
 		},
@@ -87,7 +76,10 @@ pg.chapter_pop_template = {
 		id = 1280004,
 		sd_location = {
 			{
-				nil,
+				{
+					3,
+					4
+				},
 				"xipeier_idol"
 			}
 		},
@@ -107,7 +99,10 @@ pg.chapter_pop_template = {
 		id = 1280005,
 		sd_location = {
 			{
-				nil,
+				{
+					3,
+					4
+				},
 				"jiasikenie_idol"
 			}
 		},
@@ -128,3 +123,5 @@ pg.chapter_pop_template = {
 		1280005
 	}
 }
+
+return

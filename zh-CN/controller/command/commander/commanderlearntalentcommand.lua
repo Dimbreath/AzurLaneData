@@ -1,33 +1,34 @@
-slot0 = class("CommanderLearnTalentCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("CommanderLearnTalentCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot2 = slot1:getBody()
+	slot3 = slot2.id
 	slot4 = slot2.talentId
 	slot5 = slot2.replaceid or 0
 
-	if not getProxy(CommanderProxy):getCommanderById(slot2.id) then
+	if not getProxy(CommanderProxy):getCommanderById(slot3) then
 		return
 	end
 
 	if not _.any(slot7:getNotLearnedList(), function (slot0)
-		return slot0.id == uv0
+		return slot0.id == slot0
 	end) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("commander_talent_not_exist"))
 
 		return
 	end
 
-	if slot5 ~= 0 and not _.any(slot7:getTalents(), function (slot0)
-		return slot0.id == uv0
+	slot9 = slot7:getTalents()
+
+	if slot5 ~= 0 and not _.any(slot9, function (slot0)
+		return slot0.id == slot0
 	end) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("commander_replace_talent_not_exist"))
 
 		return
 	end
 
-	if getProxy(PlayerProxy):getData().gold < CommanderTalent.New({
+	if getProxy(PlayerProxy).getData(slot12).gold < CommanderTalent.New({
 		id = slot4
-	}):getConfig("cost") then
+	}).getConfig(slot10, "cost") then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 		return
@@ -39,33 +40,31 @@ function slot0.execute(slot0, slot1)
 		replaceid = slot5
 	}, 25013, function (slot0)
 		if slot0.result == 0 then
-			uv0:consume({
-				gold = uv1
+			slot0:consume({
+				gold = slot0.consume
 			})
-			uv2:updatePlayer(uv0)
+			slot0:updatePlayer(slot0)
 
-			slot1 = uv3
-
-			if slot1:getSameGroupTalent(uv4.groupId) then
-				uv3:deleteTablent(slot1.id)
+			if slot3:getSameGroupTalent(slot4.groupId) then
+				slot3:deleteTablent(slot1.id)
 			end
 
-			if uv5 ~= 0 then
-				uv3:deleteTablent(uv5)
+			if slot5 ~= 0 then
+				slot3:deleteTablent(slot5)
 			end
 
-			uv3:addTalent(uv4)
-			uv3:updatePt(uv3.pt + 1)
-			uv3:updateNotLearnedList({})
-			uv6:updateCommander(uv3)
-			uv7:sendNotification(GAME.COMMANDER_LEARN_TALENTS_DONE, {
-				commander = uv3
+			slot3:addTalent(slot4)
+			slot3:updatePt(slot3.pt + 1)
+			slot3:updateNotLearnedList({})
+			slot6:updateCommander(slot6)
+			slot7:sendNotification(GAME.COMMANDER_LEARN_TALENTS_DONE, {
+				commander = slot7
 			})
-			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_talent_learned", uv4:getConfig("name")))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_talent_learned", slot4:getConfig("name")))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_talent_learn_erro", slot0.result))
 		end
 	end)
 end
 
-return slot0
+return class("CommanderLearnTalentCommand", pm.SimpleCommand)

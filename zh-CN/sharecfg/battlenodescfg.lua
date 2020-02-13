@@ -1,29 +1,4 @@
 pg = pg or {}
-slot3[5] = {
-	18,
-	0,
-	50
-}
-slot3[5] = {
-	18,
-	0,
-	60
-}
-slot3[5] = {
-	18,
-	0,
-	70
-}
-slot4[5] = {
-	-40,
-	0,
-	85
-}
-slot4[5] = {
-	45,
-	0,
-	13
-}
 pg.BattleNodesCfg = {
 	{
 		{
@@ -31,7 +6,11 @@ pg.BattleNodesCfg = {
 			1,
 			0,
 			"Map",
-			nil,
+			{
+				18,
+				0,
+				50
+			},
 			1
 		},
 		{
@@ -45,7 +24,11 @@ pg.BattleNodesCfg = {
 			1,
 			0,
 			"Map",
-			nil,
+			{
+				18,
+				0,
+				60
+			},
 			1
 		},
 		{
@@ -59,7 +42,11 @@ pg.BattleNodesCfg = {
 			1,
 			0,
 			"Map",
-			nil,
+			{
+				18,
+				0,
+				70
+			},
 			1
 		},
 		{
@@ -207,7 +194,11 @@ pg.BattleNodesCfg = {
 				2,
 				0,
 				"Map",
-				nil,
+				{
+					-40,
+					0,
+					85
+				},
 				1
 			},
 			_parallel = true
@@ -267,7 +258,11 @@ pg.BattleNodesCfg = {
 				2,
 				0,
 				"Map",
-				nil,
+				{
+					45,
+					0,
+					13
+				},
 				1
 			},
 			_parallel = true
@@ -406,3 +401,5 @@ pg.BattleNodesCfg = {
 		_parallel = false
 	}
 }
+
+return

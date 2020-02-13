@@ -13,8 +13,8 @@ end
 function slot0.initBtn(slot0)
 	slot1 = {
 		task = function (slot0)
-			onButton(uv0, slot0, function ()
-				uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.TASK, {
+			onButton(slot0, slot0, function ()
+				slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.TASK, {
 					page = "activity"
 				})
 			end)
@@ -24,44 +24,44 @@ function slot0.initBtn(slot0)
 				return slot0:getConfig("config_client").pt_id == pg.gameset.activity_res_id.key_value
 			end)
 
-			onButton(uv0, slot0, function ()
-				slot0 = uv0
-
-				slot0.emit(slot0, ActivityMediator.GO_SHOPS_LAYER, {
+			onButton(slot0, slot0, function ()
+				slot0.emit(slot1, ActivityMediator.GO_SHOPS_LAYER, {
 					warp = ShopsLayer.TYPE_ACTIVITY,
-					actId = uv1 and uv1.id
+					actId = slot0.emit and slot1.id
 				})
 			end)
 		end,
 		build = function (slot0)
-			onButton(uv0, slot0, function ()
-				uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.GETBOAT, {
+			onButton(slot0, slot0, function ()
+				slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.GETBOAT, {
 					projectName = BuildShipScene.PROJECTS.ACTIVITY
 				})
 			end)
 		end,
 		fight = function (slot0)
-			onButton(uv0, slot0, function ()
-				uv0:emit(ActivityMediator.BATTLE_OPERA)
+			onButton(slot0, slot0, function ()
+				slot0:emit(ActivityMediator.BATTLE_OPERA)
 			end)
 		end,
 		lottery = function (slot0)
-			onButton(uv0, slot0, function ()
-				uv0:emit(ActivityMediator.GO_LOTTERY)
+			onButton(slot0, slot0, function ()
+				slot0:emit(ActivityMediator.GO_LOTTERY)
 			end)
 		end,
 		memory = function (slot0)
-			onButton(uv0, slot0, function ()
+			onButton(slot0, slot0, function ()
+				return
 			end)
 		end,
 		activity = function (slot0)
-			onButton(uv0, slot0, function ()
+			onButton(slot0, slot0, function ()
+				return
 			end)
 		end
 	}
 
 	eachChild(slot0.btnList, function (slot0)
-		uv0[slot0.name](slot0)
+		slot0[slot0.name](slot0)
 	end)
 end
 

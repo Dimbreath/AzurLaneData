@@ -1,45 +1,42 @@
-slot0 = class("RequestVoteInfoCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("RequestVoteInfoCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot2 = slot1:getBody()
-	slot4 = getProxy(VoteProxy):getVoteGroup()
+	slot4 = getProxy(VoteProxy).getVoteGroup(slot3)
 	slot5 = getProxy(ActivityProxy)
 	slot6 = nil
 	slot6 = coroutine.create(function ()
-		if not uv0 or VoteConst.RankExpiredTime < pg.TimeMgr.GetInstance():GetServerTime() - uv1.lastRequestTime or uv0 and uv0.configId ~= uv2.configId then
-			slot1 = nil
-
-			uv3:sendNotification(GAME.FETCH_VOTE_INFO, {
-				voteId = uv2.configId,
+		if not pg.TimeMgr.GetInstance():GetServerTime() or VoteConst.RankExpiredTime < slot0 - slot1.lastRequestTime or (slot0 and slot0.configId ~= slot2.configId) then
+			slot3:sendNotification(GAME.FETCH_VOTE_INFO, {
+				voteId = slot2.configId,
 				callback = function (slot0)
-					uv0 = slot0
+					slot0 = slot0
 
-					uv1()
+					slot1()
 				end
 			})
 			coroutine.yield()
 
-			uv1.lastRequestTime = pg.TimeMgr.GetInstance():GetServerTime()
-			slot2 = getProxy(ActivityProxy)
+			slot1.lastRequestTime = pg.TimeMgr.GetInstance():GetServerTime()
 			slot3 = 0
 
-			if slot2:GetVoteActivity() then
+			if getProxy(ActivityProxy):GetVoteActivity() then
 				slot3 = slot2.data1
 			end
 
-			uv1:initVoteGroup(slot1, uv2.configId, slot3)
+			slot1:initVoteGroup(slot1, slot2.configId, slot3)
 		end
 
-		if uv2.callback then
-			uv2.callback()
+		if slot2.callback then
+			slot2.callback()
 		end
 	end)
 
+
+	-- Decompilation error in this vicinity:
 	function ()
-		if uv0 and coroutine.status(uv0) == "suspended" then
-			slot0, slot1 = coroutine.resume(uv0)
+		if slot0 and coroutine.status(coroutine.status) == "suspended" then
+			slot0, slot1 = coroutine.resume(coroutine.resume)
 		end
 	end()
 end
 
-return slot0
+return class("RequestVoteInfoCommand", pm.SimpleCommand)

@@ -1,6 +1,3 @@
-slot4[MULTRES] = Vector3(-105, 0, 38)
-slot4[MULTRES] = Vector3(15, 0, 38)
-
 return {
 	map_id = 10001,
 	id = 1130100,

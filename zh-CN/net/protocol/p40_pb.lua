@@ -1,5 +1,4 @@
 slot0 = require("protobuf")
-slot1 = require("common_pb")
 
 module("p40_pb")
 
@@ -314,7 +313,7 @@ slot24.index = 1
 slot24.label = 3
 slot24.has_default_value = false
 slot24.default_value = {}
-slot24.message_type = slot1.DROPINFO
+slot24.message_type = require("common_pb").DROPINFO
 slot24.type = 11
 slot24.cpp_type = 10
 slot25.name = "extra_drop_info"
@@ -324,7 +323,7 @@ slot25.index = 2
 slot25.label = 3
 slot25.has_default_value = false
 slot25.default_value = {}
-slot25.message_type = slot1.DROPINFO
+slot25.message_type = require("common_pb").DROPINFO
 slot25.type = 11
 slot25.cpp_type = 10
 slot26.name = "player_exp"
@@ -637,3 +636,5 @@ sc_40004 = slot0.Message(SC_40004)
 sc_40006 = slot0.Message(SC_40006)
 ship_exp = slot0.Message(SHIP_EXP)
 statisticsinfo = slot0.Message(STATISTICSINFO)
+
+return

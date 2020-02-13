@@ -1,30 +1,29 @@
 ys = ys or {}
-slot0 = ys
-slot1 = slot0.Battle.BattleConst
-slot0.Battle.BattleElectricArcBulletFactory = singletonClass("BattleElectricArcBulletFactory", slot0.Battle.BattleBulletFactory)
-slot0.Battle.BattleElectricArcBulletFactory.__name = "BattleElectricArcBulletFactory"
-slot2 = slot0.Battle.BattleElectricArcBulletFactory
+slot1 = ys.Battle.BattleConst
+ys.Battle.BattleElectricArcBulletFactory = singletonClass("BattleElectricArcBulletFactory", ys.Battle.BattleBulletFactory)
+ys.Battle.BattleElectricArcBulletFactory.__name = "BattleElectricArcBulletFactory"
 
-function slot2.Ctor(slot0)
-	uv0.super.Ctor(slot0)
+function ys.Battle.BattleElectricArcBulletFactory.Ctor(slot0)
+	slot0.super.Ctor(slot0)
 end
 
-function slot2.CreateBullet(slot0, slot1, slot2, slot3, slot4, slot5)
+function ys.Battle.BattleElectricArcBulletFactory.CreateBullet(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0:PlayFireFX(slot1, slot2, slot3, slot4, slot5, nil)
 
 	if slot2:GetDirectHitUnit() == nil then
 		return
 	end
 
+	slot7 = slot6:GetUniqueID()
 	slot9 = nil
 
-	if slot6:GetUnitType() == uv0.Battle.BattleConst.UnitType.AIRCRAFT_UNIT or slot8 == uv0.Battle.BattleConst.UnitType.AIRFIGHTER_UNIT then
-		slot9 = slot0:GetSceneMediator():GetAircraft(slot6:GetUniqueID())
-	elseif slot8 == uv0.Battle.BattleConst.UnitType.PLAYER_UNIT then
+	if slot6:GetUnitType() == slot0.Battle.BattleConst.UnitType.AIRCRAFT_UNIT or slot8 == slot0.Battle.BattleConst.UnitType.AIRFIGHTER_UNIT then
+		slot9 = slot0:GetSceneMediator():GetAircraft(slot7)
+	elseif slot8 == slot0.Battle.BattleConst.UnitType.PLAYER_UNIT then
 		slot9 = slot0:GetSceneMediator():GetCharacter(slot7)
-	elseif slot8 == uv0.Battle.BattleConst.UnitType.ENEMY_UNIT then
+	elseif slot8 == slot0.Battle.BattleConst.UnitType.ENEMY_UNIT then
 		slot9 = slot0:GetSceneMediator():GetCharacter(slot7)
-	elseif slot8 == uv0.Battle.BattleConst.UnitType.NPC_UNIT then
+	elseif slot8 == slot0.Battle.BattleConst.UnitType.NPC_UNIT then
 		slot9 = slot0:GetSceneMediator():GetCharacter(slot7)
 	end
 
@@ -37,3 +36,5 @@ function slot2.CreateBullet(slot0, slot1, slot2, slot3, slot4, slot5)
 		end
 	end
 end
+
+return

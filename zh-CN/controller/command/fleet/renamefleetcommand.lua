@@ -1,10 +1,7 @@
-slot0 = class("FleetRenameCommand", pm.SimpleCommand)
+class("FleetRenameCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	slot4 = slot1:getBody().name
 
-function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
-	slot4 = slot2.name
-
-	if not getProxy(FleetProxy):getFleetById(slot2.id) then
+	if not getProxy(FleetProxy):getFleetById(slot1.getBody().id) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("fleet_error_no_fleet"))
 
 		return
@@ -24,12 +21,12 @@ function slot0.execute(slot0, slot1)
 		name = slot4
 	}, 12105, function (slot0)
 		if slot0.result == 0 then
-			uv0:renameFleet(uv1, uv2)
-			uv3:sendNotification(GAME.RENAME_FLEET_DONE)
+			slot0:renameFleet(slot0.renameFleet, slot0)
+			slot3:sendNotification(GAME.RENAME_FLEET_DONE)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result])
 		end
 	end)
 end
 
-return slot0
+return class("FleetRenameCommand", pm.SimpleCommand)

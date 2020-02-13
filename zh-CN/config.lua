@@ -204,3 +204,5 @@ ShareCfg = {
 	["ShareCfg.map_event_template"] = true,
 	["ShareCfg.dorm_data_template"] = true
 }
+
+return

@@ -16,16 +16,18 @@ function slot0.GetPrefab(slot0, slot1, slot2, slot3, slot4)
 		slot0:ClearRequest(slot4)
 	end
 
-	if slot4 then
-		slot0._returnRequest[slot4] = slot0.pool:GetPrefab(slot1, slot2, true, function (slot0)
-			if uv0 then
-				uv1._returnRequest[uv0] = nil
-			end
+	slot5 = slot0.pool:GetPrefab(slot1, slot2, true, function (slot0)
+		if slot0 then
+			slot1._returnRequest[slot0] = nil
+		end
 
-			if uv2 and not uv1.stopped then
-				uv2(slot0)
-			end
-		end)
+		if slot2 and not slot1.stopped then
+			slot2(slot0)
+		end
+	end)
+
+	if slot4 then
+		slot0._returnRequest[slot4] = slot5
 	end
 end
 
@@ -42,16 +44,18 @@ function slot0.GetSpine(slot0, slot1, slot2, slot3)
 		slot0:ClearRequest(slot3)
 	end
 
-	if slot3 then
-		slot0._returnRequest[slot3] = slot0.pool:GetSpineChar(slot1, true, function (slot0)
-			if uv0 then
-				uv1._returnRequest[uv0] = nil
-			end
+	slot4 = slot0.pool:GetSpineChar(slot1, true, function (slot0)
+		if slot0 then
+			slot1._returnRequest[slot0] = nil
+		end
 
-			if uv2 and not uv1.stopped then
-				uv2(slot0)
-			end
-		end)
+		if slot2 and not slot1.stopped then
+			slot2(slot0)
+		end
+	end)
+
+	if slot3 then
+		slot0._returnRequest[slot3] = slot4
 	end
 end
 
@@ -68,16 +72,18 @@ function slot0.GetPainting(slot0, slot1, slot2, slot3)
 		slot0:ClearRequest(slot3)
 	end
 
-	if slot3 then
-		slot0._returnRequest[slot3] = slot0.pool:GetPainting(slot1, true, function (slot0)
-			if uv0 then
-				uv1._returnRequest[uv0] = nil
-			end
+	slot4 = slot0.pool:GetPainting(slot1, true, function (slot0)
+		if slot0 then
+			slot1._returnRequest[slot0] = nil
+		end
 
-			if uv2 and not uv1.stopped then
-				uv2(slot0)
-			end
-		end)
+		if slot2 and not slot1.stopped then
+			slot2(slot0)
+		end
+	end)
+
+	if slot3 then
+		slot0._returnRequest[slot3] = slot4
 	end
 end
 
@@ -94,12 +100,12 @@ function slot0.GetSprite(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	slot0._returnRequest[slot6] = slot0.pool:GetSprite(slot1, slot2, true, function (slot0)
-		uv0._returnRequest[uv1] = nil
-		uv2.enabled = true
-		uv2.sprite = slot0
+		slot0._returnRequest[] = nil
+		slot0._returnRequest.enabled = true
+		slot2.sprite = slot0
 
-		if uv3 then
-			uv2:SetNativeSize()
+		if nil then
+			slot2:SetNativeSize()
 		end
 	end)
 end
@@ -126,16 +132,16 @@ function slot0.LoadPrefab(slot0, slot1, slot2, slot3, slot4)
 		end
 
 		slot0._returnRequest[slot3] = function ()
-			uv0 = true
+			slot0 = true
 		end
 	end
 
-	uv0:getAssetAsync(slot1, slot2, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		if uv0 or uv1.stopped then
+	slot0:getAssetAsync(slot1, slot2, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		if slot0 or slot1.stopped then
 			return
 		end
 
-		uv2(Object.Instantiate(slot0))
+		slot0(Object.Instantiate(slot0))
 	end), true, false)
 end
 
@@ -150,20 +156,20 @@ function slot0.LoadSprite(slot0, slot1, slot2, slot3, slot4)
 	slot7 = false
 
 	slot0._returnRequest[slot6] = function ()
-		uv0 = true
+		slot0 = true
 	end
 
-	uv0:getAssetAsync(slot1, slot2, typeof(Sprite), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		if uv0 then
+	slot0:getAssetAsync(slot1, slot2, typeof(Sprite), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		if slot0 then
 			return
 		end
 
-		uv1._returnRequest[uv2] = nil
-		uv3.enabled = true
-		uv3.sprite = slot0
+		slot1._returnRequest[slot2] = nil
+		slot3.enabled = true
+		slot3.sprite = slot0
 
-		if uv4 then
-			uv3:SetNativeSize()
+		if slot4 then
+			slot3:SetNativeSize()
 		end
 	end), true, false)
 end

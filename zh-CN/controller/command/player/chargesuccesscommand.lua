@@ -1,15 +1,14 @@
-slot0 = class("ChargeSuccessCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("ChargeSuccessCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.payId
 	slot6 = slot2.gem_free
 	slot7 = Goods.New({
 		shop_id = slot2.shopId
 	}, Goods.TYPE_CHARGE)
+	slot9 = getProxy(PlayerProxy).getData(slot8)
 
 	if slot2.gem > 0 then
-		getProxy(PlayerProxy):getData():addResources({
+		slot9:addResources({
 			chargeGem = slot5
 		})
 	end
@@ -79,4 +78,4 @@ function slot0.execute(slot0, slot1)
 	pg.TipsMgr.GetInstance():ShowTips(i18n("charge_success"))
 end
 
-return slot0
+return class("ChargeSuccessCommand", pm.SimpleCommand)

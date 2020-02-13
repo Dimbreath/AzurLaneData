@@ -23,23 +23,20 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.backBtn, function ()
-		uv0:emit(uv1.ON_CLOSE)
+		slot0:emit(slot1.ON_CLOSE)
 	end, SFX_PANEL)
-
-	slot1 = slot0.voteGroup
-
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip[uv0].tip
+			helps = pg.gametip[pg.MsgboxMgr.GetInstance().ShowMsgBox].tip
 		})
 	end, SFX_PANEL)
-	setActive(slot0.helpBtn, slot1:getConfig("help_text") and slot1 ~= "")
+	setActive(slot0.helpBtn, slot0.voteGroup:getConfig("help_text") and slot1 ~= "")
 	onButton(slot0, slot0.urlBtn, function ()
 		Application.OpenURL(pg.gameset.vote_web_url.description)
 	end, SFX_PANEL)
 
-	uv0.PAGES = {
+	slot0.PAGES = {
 		[6] = {
 			VoteGroupRaceShipPage,
 			VoteGroupRaceRankPage
@@ -73,9 +70,8 @@ function slot0.didEnter(slot0)
 			VoteFinalsRaceRankPage
 		}
 	}
-	slot2 = uv0.PAGES[slot0.voteGroup.id]
-	slot0.ships = slot2[1].New(slot0:findTF("main/right_panel"), slot0.event)
-	slot0.ranks = slot2[2].New(slot0:findTF("main/left_panel"), slot0.event)
+	slot0.ships = slot0.PAGES[slot0.voteGroup.id][1].New(slot0:findTF("main/right_panel"), slot0.event)
+	slot0.ranks = slot0.PAGES[slot0.voteGroup.id][2].New(slot0:findTF("main/left_panel"), slot0.event)
 
 	slot0:UpdateMain()
 end
@@ -99,7 +95,7 @@ end
 function slot0.initRanks(slot0)
 	slot0.ranks:ExecuteAction("Update", slot0.voteGroup)
 	slot0.ranks:AddLoadedCallback(function ()
-		setActive(uv0.ranks.webBtn, false)
+		setActive(slot0.ranks.webBtn, false)
 	end)
 end
 

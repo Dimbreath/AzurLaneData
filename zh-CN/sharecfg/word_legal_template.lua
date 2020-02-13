@@ -12,3 +12,5 @@ pg.word_legal_template = {
 		}
 	}
 }
+
+return

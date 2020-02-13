@@ -1,6 +1,4 @@
-slot0 = class("ExtendBackYardAreaCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("ExtendBackYardAreaCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot2 = getProxy(DormProxy)
 	slot3 = slot2:getData()
 
@@ -14,4 +12,4 @@ function slot0.execute(slot0, slot1)
 	pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_extendArea_ok"))
 end
 
-return slot0
+return class("ExtendBackYardAreaCommand", pm.SimpleCommand)

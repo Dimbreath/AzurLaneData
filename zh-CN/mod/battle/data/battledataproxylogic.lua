@@ -1,4 +1,3 @@
-slot0 = ys.Battle.BattleDataProxy
 slot1 = ys.Battle.BattleEvent
 slot2 = ys.Battle.BattleFormulas
 slot3 = ys.Battle.BattleConst
@@ -7,37 +6,37 @@ slot5 = ys.Battle.BattleDataFunction
 slot6 = ys.Battle.BattleAttr
 slot7 = ys.Battle.BattleVariable
 
-function slot0.SetupCalculateDamage(slot0, slot1)
-	slot0._calculateDamage = slot1 or uv0.CalculateDamage
+function ys.Battle.BattleDataProxy.SetupCalculateDamage(slot0, slot1)
+	slot0._calculateDamage = slot1 or slot0.CalculateDamage
 end
 
-function slot0.SetupDamageKamikazeAir(slot0, slot1)
-	slot0._calculateDamageKamikazeAir = slot1 or uv0.CalculateDamageFromAircraftToMainShip
+function ys.Battle.BattleDataProxy.SetupDamageKamikazeAir(slot0, slot1)
+	slot0._calculateDamageKamikazeAir = slot1 or slot0.CalculateDamageFromAircraftToMainShip
 end
 
-function slot0.SetupDamageKamikazeShip(slot0, slot1)
-	slot0._calculateDamageKamikazeShip = slot1 or uv0.CalculateDamageFromShipToMainShip
+function ys.Battle.BattleDataProxy.SetupDamageKamikazeShip(slot0, slot1)
+	slot0._calculateDamageKamikazeShip = slot1 or slot0.CalculateDamageFromShipToMainShip
 end
 
-function slot0.SetupDamageCrush(slot0, slot1)
-	slot0._calculateDamageCrush = slot1 or uv0.CalculateCrashDamage
+function ys.Battle.BattleDataProxy.SetupDamageCrush(slot0, slot1)
+	slot0._calculateDamageCrush = slot1 or slot0.CalculateCrashDamage
 end
 
-function slot0.ClearFormulas(slot0)
+function ys.Battle.BattleDataProxy.ClearFormulas(slot0)
 	slot0._calculateDamage = nil
 	slot0._calculateDamageKamikazeAir = nil
 	slot0._calculateDamageKamikazeShip = nil
 	slot0._calculateDamageCrush = nil
 end
 
-function slot0.HandleBulletHit(slot0, slot1, slot2)
+function ys.Battle.BattleDataProxy.HandleBulletHit(slot0, slot1, slot2)
 	if not slot2 then
 		return false
 	elseif not slot1 then
 		return false
 	end
 
-	if uv0.IsSpirit(slot2) then
+	if slot0.IsSpirit(slot2) then
 		return false
 	end
 
@@ -46,36 +45,29 @@ function slot0.HandleBulletHit(slot0, slot1, slot2)
 	end
 
 	slot1:Hit(slot2:GetUniqueID(), slot2:GetUnitType())
-
-	slot6 = slot1:GetWeapon()
-
 	slot1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_COLLIDE, {
 		_bullet = slot1,
-		equipIndex = slot6:GetEquipmentIndex()
+		equipIndex = slot1:GetWeapon():GetEquipmentIndex()
 	})
 
-	if slot2:GetUnitType() == uv1.UnitType.PLAYER_UNIT and slot2:GetIFF() == uv2.FRIENDLY_CODE then
-		slot6 = ys.Battle.BattleCameraUtil.GetInstance()
-
-		slot6:StartShake(pg.shake_template[uv1.ShakeType.HIT])
+	if slot2:GetUnitType() == slot1.UnitType.PLAYER_UNIT and slot2:GetIFF() == slot2.FRIENDLY_CODE then
+		ys.Battle.BattleCameraUtil.GetInstance():StartShake(pg.shake_template[slot1.ShakeType.HIT])
 	end
 
 	return true
 end
 
-function slot0.HandleDamage(slot0, slot1, slot2, slot3)
-	if slot2:GetIFF() == uv0.FOE_CODE and slot2:IsShowHPBar() then
-		slot0:DispatchEvent(ys.Event.New(uv1.HIT_ENEMY, slot2))
+function ys.Battle.BattleDataProxy.HandleDamage(slot0, slot1, slot2, slot3)
+	if slot2:GetIFF() == slot0.FOE_CODE and slot2:IsShowHPBar() then
+		slot0:DispatchEvent(ys.Event.New(slot1.HIT_ENEMY, slot2))
 	end
 
-	slot5 = slot1:GetWeapon()
-
-	slot2:TriggerBuff(uv2.BuffEffectType.ON_BULLET_HIT_BEFORE, {
-		weaponType = slot5:GetTemplateData().attack_attribute,
+	slot2:TriggerBuff(slot2.BuffEffectType.ON_BULLET_HIT_BEFORE, {
+		weaponType = slot1:GetWeapon().GetTemplateData(slot5).attack_attribute,
 		bulletType = slot1:GetType()
 	})
 
-	if uv3.IsInvincible(slot2) then
+	if slot3.IsInvincible(slot2) then
 		return
 	end
 
@@ -94,24 +86,19 @@ function slot0.HandleDamage(slot0, slot1, slot2, slot3)
 	}
 
 	if slot9.isDamagePrevent then
-		slot2:TriggerBuff(uv2.BuffEffectType.ON_DAMAGE_PREVENT, {})
+		slot2:TriggerBuff(slot2.BuffEffectType.ON_DAMAGE_PREVENT, {})
 	end
 
-	slot2:UpdateHP(slot8 * -1, {
-		isHeal = false,
-		isMiss = slot11,
-		isCri = slot12,
-		attr = slot13
-	}, slot1:GetPosition(), slot10)
+	slot2:UpdateHP(slot8 * -1, slot17, slot1:GetPosition(), slot10)
 	slot0:DamageStatistics(slot1:GetAttrByName("id"), slot2:GetAttrByName("id"), slot8)
 
-	if not slot11 and slot1:GetWeaponTempData().type ~= uv2.EquipmentType.ANTI_AIR then
+	if not slot11 and slot1:GetWeaponTempData().type ~= slot2.EquipmentType.ANTI_AIR then
 		slot1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_HIT, slot16)
 	end
 
 	slot19 = true
 
-	if slot2:GetUnitType() ~= uv2.UnitType.AIRCRAFT_UNIT and slot18 ~= uv2.UnitType.AIRFIGHTER_UNIT and slot18 ~= uv2.UnitType.FUNNEL_UNIT and slot18 ~= uv2.UnitType.UAV_UNIT then
+	if slot2:GetUnitType() ~= slot2.UnitType.AIRCRAFT_UNIT and slot18 ~= slot2.UnitType.AIRFIGHTER_UNIT and slot18 ~= slot2.UnitType.FUNNEL_UNIT and slot18 ~= slot2.UnitType.UAV_UNIT then
 		slot19 = false
 	end
 
@@ -119,13 +106,13 @@ function slot0.HandleDamage(slot0, slot1, slot2, slot3)
 		if not slot19 then
 			for slot23, slot24 in ipairs(slot1:GetAttachBuff()) do
 				if slot24.hit_ignore or not slot11 then
-					uv4.HandleBuffPlacer(slot24, slot1, slot2)
+					slot4.HandleBuffPlacer(slot24, slot1, slot2)
 				end
 			end
 		end
 
 		if not slot11 then
-			slot2:TriggerBuff(uv2.BuffEffectType.ON_BE_HIT, slot7)
+			slot2:TriggerBuff(slot2.BuffEffectType.ON_BE_HIT, slot7)
 		end
 	else
 		slot1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_KILL, slot16)
@@ -136,15 +123,15 @@ function slot0.HandleDamage(slot0, slot1, slot2, slot3)
 	return slot11, slot12
 end
 
-function slot0.HandleMeteoDamage(slot0, slot1, slot2)
-	slot3 = uv0.GetMeteoDamageRatio(#slot2)
+function ys.Battle.BattleDataProxy.HandleMeteoDamage(slot0, slot1, slot2)
+	slot3 = slot0.GetMeteoDamageRatio(#slot2)
 
 	for slot7, slot8 in ipairs(slot2) do
 		slot0:HandleDamage(slot1, slot8, slot3[slot7])
 	end
 end
 
-function slot0.HandleDirectDamage(slot0, slot1, slot2, slot3, slot4)
+function ys.Battle.BattleDataProxy.HandleDirectDamage(slot0, slot1, slot2, slot3, slot4)
 	slot6 = slot1:GetAttrByName("id")
 
 	slot1:UpdateHP(slot2 * -1, {
@@ -167,7 +154,7 @@ function slot0.HandleDirectDamage(slot0, slot1, slot2, slot3, slot4)
 	if not slot7 then
 		slot9 = true
 
-		if slot1:GetUnitType() ~= uv0.UnitType.AIRCRAFT_UNIT and slot8 ~= uv0.UnitType.AIRFIGHTER_UNIT and slot8 ~= uv0.UnitType.FUNNEL_UNIT and slot8 ~= uv0.UnitType.UAV_UNIT then
+		if slot1:GetUnitType() ~= slot0.UnitType.AIRCRAFT_UNIT and slot8 ~= slot0.UnitType.AIRFIGHTER_UNIT and slot8 ~= slot0.UnitType.FUNNEL_UNIT and slot8 ~= slot0.UnitType.UAV_UNIT then
 			slot9 = false
 		end
 
@@ -175,28 +162,28 @@ function slot0.HandleDirectDamage(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.obituary(slot0, slot1, slot2, slot3)
+function ys.Battle.BattleDataProxy.obituary(slot0, slot1, slot2, slot3)
 	for slot7, slot8 in pairs(slot0._unitList) do
 		if slot8 ~= slot1 then
 			if slot8:GetIFF() == slot1:GetIFF() then
 				if slot2 then
-					slot8:TriggerBuff(uv0.BuffEffectType.ON_FRIENDLY_AIRCRAFT_DYING, {
+					slot8:TriggerBuff(slot0.BuffEffectType.ON_FRIENDLY_AIRCRAFT_DYING, {
 						unit = slot1,
 						killer = slot3
 					})
 				else
-					slot8:TriggerBuff(uv0.BuffEffectType.ON_FRIENDLY_SHIP_DYING, {
+					slot8:TriggerBuff(slot0.BuffEffectType.ON_FRIENDLY_SHIP_DYING, {
 						unit = slot1,
 						killer = slot3
 					})
 				end
 			elseif slot2 then
-				slot8:TriggerBuff(uv0.BuffEffectType.ON_FOE_AIRCRAFT_DYING, {
+				slot8:TriggerBuff(slot0.BuffEffectType.ON_FOE_AIRCRAFT_DYING, {
 					unit = slot1,
 					killer = slot3
 				})
 			else
-				slot8:TriggerBuff(uv0.BuffEffectType.ON_FOE_DYING, {
+				slot8:TriggerBuff(slot0.BuffEffectType.ON_FOE_DYING, {
 					unit = slot1,
 					killer = slot3
 				})
@@ -205,39 +192,35 @@ function slot0.obituary(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.HandleAircraftMissDamage(slot0, slot1, slot2)
+function ys.Battle.BattleDataProxy.HandleAircraftMissDamage(slot0, slot1, slot2)
 	if slot2 == nil then
 		return
 	end
 
 	slot4 = {}
 
-	for slot8, slot9 in ipairs(slot2:GetMainList()) do
-		if uv0.GetCurrent(slot9, "immuneDirectHit") == 1 then
-			-- Nothing
+	for slot8, slot9 in ipairs(slot3) do
+		if slot0.GetCurrent(slot9, "immuneDirectHit") == 1 then
 		else
 			slot4[#slot4 + 1] = slot9
 		end
 	end
 
 	if #slot4 > 0 then
-		slot6 = slot4[math.random(#slot4)]
-
-		slot6:TriggerBuff(uv1.BuffEffectType.ON_BE_HIT, {})
-		slot0:HandleDirectDamage(slot6, slot0._calculateDamageKamikazeAir(slot1, slot6), slot1)
+		slot4[math.random(#slot4)].TriggerBuff(slot6, slot1.BuffEffectType.ON_BE_HIT, {})
+		slot0:HandleDirectDamage(slot4[math.random(#slot4)], slot0._calculateDamageKamikazeAir(slot1, slot6), slot1)
 	end
 end
 
-function slot0.HandleShipMissDamage(slot0, slot1, slot2)
+function ys.Battle.BattleDataProxy.HandleShipMissDamage(slot0, slot1, slot2)
 	if slot2 == nil then
 		return
 	end
 
 	slot4 = {}
 
-	for slot8, slot9 in ipairs(slot2:GetMainList()) do
-		if uv0.GetCurrent(slot9, "immuneDirectHit") == 1 then
-			-- Nothing
+	for slot8, slot9 in ipairs(slot3) do
+		if slot0.GetCurrent(slot9, "immuneDirectHit") == 1 then
 		else
 			slot4[#slot4 + 1] = slot9
 		end
@@ -247,39 +230,41 @@ function slot0.HandleShipMissDamage(slot0, slot1, slot2)
 		slot6 = slot4[math.random(#slot4)]
 
 		if table.contains(TeamType.SubShipType, slot1:GetTemplate().type) then
-			slot6:TriggerBuff(uv2.BuffEffectType.ON_BE_HIT, {})
-			slot0:HandleDirectDamage(slot6, uv1.CalculateDamageFromSubmarinToMainShip(slot1, slot6), slot1)
+			slot6:TriggerBuff(slot2.BuffEffectType.ON_BE_HIT, {})
+			slot0:HandleDirectDamage(slot6, slot1:CalculateDamageFromSubmarinToMainShip(slot6), slot1)
 
-			if slot6:IsAlive() and uv1.RollSubmarineDualDice(slot1) then
-				slot6:TriggerBuff(uv2.BuffEffectType.ON_BE_HIT, {})
-				slot0:HandleDirectDamage(slot6, uv1.CalculateDamageFromSubmarinToMainShip(slot1, slot6), slot1)
+			if slot6:IsAlive() and slot1:RollSubmarineDualDice() then
+				slot6:TriggerBuff(slot2.BuffEffectType.ON_BE_HIT, {})
+				slot0:HandleDirectDamage(slot6, slot1:CalculateDamageFromSubmarinToMainShip(slot6), slot1)
 			end
 		else
-			slot6:TriggerBuff(uv2.BuffEffectType.ON_BE_HIT, {})
+			slot6:TriggerBuff(slot2.BuffEffectType.ON_BE_HIT, {})
 			slot0:HandleDirectDamage(slot6, slot0._calculateDamageKamikazeShip(slot1, slot6), slot1)
 		end
 	end
 end
 
-function slot0.HandleCrashDamage(slot0, slot1, slot2)
+function ys.Battle.BattleDataProxy.HandleCrashDamage(slot0, slot1, slot2)
 	slot8, slot8 = slot0._calculateDamageCrush(slot1, slot2)
 
-	slot0:HandleDirectDamage(slot1, slot3, slot2, uv0.UnitDeathReason.CRUSH)
-	slot0:HandleDirectDamage(slot2, slot4, slot1, uv0.UnitDeathReason.CRUSH)
+	slot0:HandleDirectDamage(slot1, slot3, slot2, slot0.UnitDeathReason.CRUSH)
+	slot0:HandleDirectDamage(slot2, slot4, slot1, slot0.UnitDeathReason.CRUSH)
 end
 
-function slot0.HandleWallHitByBullet(slot0, slot1, slot2)
-	return slot1:GetCldFunc()(slot2)
+function ys.Battle.BattleDataProxy.HandleWallHitByBullet(slot0, slot1, slot2)
+	return 
+	-- Decompilation error in this vicinity:
+	slot1:GetCldFunc()(slot2)
 end
 
-function slot0.HandleBuffPlacer(slot0, slot1, slot2)
+function ys.Battle.BattleDataProxy.HandleBuffPlacer(slot0, slot1, slot2)
 	slot5 = false
 
-	if #uv0.GetBuffTemplate(slot0.buff_id).effect_list == 1 and slot4[1].type == "BattleBuffDOT" then
-		if uv1.CaclulateDOTPlace(slot0.rant, slot4[1], slot1, slot2) then
+	if #slot0.GetBuffTemplate(slot0.buff_id).effect_list == 1 and slot4[1].type == "BattleBuffDOT" then
+		if slot1.CaclulateDOTPlace(slot0.rant, slot4[1], slot1, slot2) then
 			slot5 = true
 		end
-	elseif uv1.IsHappen(slot0.rant or 10000) then
+	elseif slot1.IsHappen(slot0.rant or 10000) then
 		slot5 = true
 	end
 
@@ -291,20 +276,18 @@ function slot0.HandleBuffPlacer(slot0, slot1, slot2)
 	end
 end
 
-function slot0.HandleDOTPlace(slot0, slot1, slot2)
-	slot3 = slot0.arg_list
-	slot4 = uv0.DOT_CONFIG[slot3.dotType]
-	slot5 = slot1:GetAttrByName(slot4.hit)
+function ys.Battle.BattleDataProxy.HandleDOTPlace(slot0, slot1, slot2)
+	slot5 = slot1:GetAttrByName(slot0.DOT_CONFIG[slot0.arg_list.dotType].hit)
 
-	if uv1.IsHappen(slot3.ACC + slot1:GetAttrByName(slot4.hit) - slot2:GetAttrByName(slot4.resist)) then
+	if slot1.IsHappen((slot0.arg_list.ACC + slot1:GetAttrByName(slot0.DOT_CONFIG[slot0.arg_list.dotType].hit)) - slot2:GetAttrByName(slot0.DOT_CONFIG[slot0.arg_list.dotType].resist)) then
 		return true
 	end
 
 	return false
 end
 
-function slot0.HandleShipCrashDamageList(slot0, slot1, slot2)
-	for slot7, slot8 in pairs(slot1:GetHostileCldList()) do
+function ys.Battle.BattleDataProxy.HandleShipCrashDamageList(slot0, slot1, slot2)
+	for slot7, slot8 in pairs(slot3) do
 		if not table.contains(slot2, slot7) then
 			slot1:RemoveHostileCld(slot7)
 		end
@@ -314,15 +297,9 @@ function slot0.HandleShipCrashDamageList(slot0, slot1, slot2)
 		if slot3[slot8] == nil then
 			slot9 = nil
 
-			function slot9()
-				slot0 = uv0
-
-				slot0:HandleCrashDamage(uv0._unitList[uv1], uv2)
-			end
-
-			slot10 = pg.TimeMgr.GetInstance()
-
-			slot1:AppendHostileCld(slot8, slot10:AddBattleTimer("shipCld", nil, uv0.SHIP_CLD_INTERVAL, slot9, true))
+			slot1:AppendHostileCld(slot8, pg.TimeMgr.GetInstance():AddBattleTimer("shipCld", nil, slot0.SHIP_CLD_INTERVAL, function ()
+				slot0:HandleCrashDamage(slot0._unitList[slot1], )
+			end, true))
 			slot9()
 
 			if not slot1:IsAlive() then
@@ -332,10 +309,12 @@ function slot0.HandleShipCrashDamageList(slot0, slot1, slot2)
 	end
 end
 
-function slot0.HandleShipCrashDecelerate(slot0, slot1, slot2)
+function ys.Battle.BattleDataProxy.HandleShipCrashDecelerate(slot0, slot1, slot2)
 	if slot2 == 0 and slot1:IsCrash() then
 		slot1:SetCrash(false)
 	elseif slot2 > 0 and not slot1:IsCrash() then
 		slot1:SetCrash(true)
 	end
 end
+
+return

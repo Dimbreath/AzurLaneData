@@ -1,9 +1,6 @@
-slot0 = class("PutFurnitureCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
-	slot3 = slot2.furnsPos
-	slot4 = slot2.tip
+class("PutFurnitureCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	slot3 = slot1:getBody().furnsPos
+	slot4 = slot1.getBody().tip
 
 	if not getProxy(DormProxy) then
 		return
@@ -30,7 +27,7 @@ function slot0.execute(slot0, slot1)
 	end
 
 	for slot15, slot16 in pairs(slot3) do
-		if (slot5:getFurniById(slot15):getConfig("type") == Furniture.TYPE_WALLPAPER or slot18 == Furniture.TYPE_FLOORPAPER) and slot5:getWallPaper(slot18) then
+		if (slot5:getFurniById(slot15).getConfig(slot17, "type") == Furniture.TYPE_WALLPAPER or slot18 == Furniture.TYPE_FLOORPAPER) and slot5:getWallPaper(slot18) then
 			slot19:clearPosition()
 		end
 
@@ -43,8 +40,10 @@ function slot0.execute(slot0, slot1)
 
 		slot5:updateFurniture(slot17)
 
+		slot19 = {}
+
 		for slot23, slot24 in pairs(slot16.child) do
-			table.insert({}, {
+			table.insert(slot19, {
 				id = tostring(slot23),
 				x = slot24.x,
 				y = slot24.y
@@ -75,4 +74,4 @@ function slot0.execute(slot0, slot1)
 	pg.backyard:sendNotification(BACKYARD.PUT_FURNITURE_DONE)
 end
 
-return slot0
+return class("PutFurnitureCommand", pm.SimpleCommand)

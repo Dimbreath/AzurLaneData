@@ -1,15 +1,12 @@
-slot0 = class("UpdateCustomFleetCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
-	slot4 = slot2.callback
-	slot6 = getProxy(BayProxy):getRawData()
-	slot8 = getProxy(ChapterProxy):getChapterById(slot2.chapterId)
+class("UpdateCustomFleetCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	slot4 = slot1:getBody().callback
+	slot6 = getProxy(BayProxy).getRawData(slot5)
+	slot8 = getProxy(ChapterProxy).getChapterById(slot7, slot3)
 	slot9 = slot8:getConfig("map")
 	slot11 = slot8:getEliteFleetCommanders()
 	slot12 = {}
 
-	for slot16, slot17 in ipairs(slot8:getEliteFleetList()) do
+	for slot16, slot17 in ipairs(slot10) do
 		slot18 = {}
 		slot19 = {}
 		slot20 = {}
@@ -26,7 +23,7 @@ function slot0.execute(slot0, slot1)
 			end
 		end
 
-		for slot27, slot28 in pairs(slot11[slot16]) do
+		for slot27, slot28 in pairs(slot23) do
 			table.insert(slot22, {
 				pos = slot27,
 				id = slot28
@@ -46,8 +43,8 @@ function slot0.execute(slot0, slot1)
 		elite_fleet_list = slot12
 	}, 13108, function (slot0)
 		if slot0.result == 0 then
-			if uv0 ~= nil then
-				uv0()
+			if slot0 ~= nil then
+				slot0()
 			end
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("update_custom_fleet", slot0.result))
@@ -55,4 +52,4 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-return slot0
+return class("UpdateCustomFleetCommand", pm.SimpleCommand)

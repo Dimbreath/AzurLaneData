@@ -5,25 +5,20 @@ slot0.ON_AUTO = "ChallengePreCombatMediator:ON_AUTO"
 slot0.ON_SUB_AUTO = "ChallengePreCombatMediator:ON_SUB_AUTO"
 
 function slot0.register(slot0)
-	slot3 = getProxy(ChallengeProxy):getUserChallengeInfo(slot0.contextData.mode)
-
-	slot0:bind(uv0.ON_AUTO, function (slot0, slot1)
-		uv0:onAutoBtn(slot1)
+	slot0:bind(slot0.ON_AUTO, function (slot0, slot1)
+		slot0:onAutoBtn(slot1)
 	end)
-	slot0:bind(uv0.ON_SUB_AUTO, function (slot0, slot1)
-		uv0:onAutoSubBtn(slot1)
+	slot0:bind(slot0.ON_SUB_AUTO, function (slot0, slot1)
+		slot0:onAutoSubBtn(slot1)
 	end)
-	slot0:bind(uv0.ON_START, function (slot0)
-		uv0:sendNotification(GAME.BEGIN_STAGE, {
+	slot0:bind(slot0.ON_START, function (slot0)
+		slot0:sendNotification(GAME.BEGIN_STAGE, {
 			system = SYSTEM_CHALLENGE,
-			mode = uv1
+			mode = slot0.sendNotification
 		})
 	end)
 	slot0.viewComponent:setPlayerInfo(getProxy(PlayerProxy):getData())
-
-	slot6 = slot0.viewComponent
-
-	slot6.setSubFlag(slot6, #slot3:getSubmarineFleet():getShipsByTeam(TeamType.Submarine, false) > 0)
+	slot0.viewComponent:setSubFlag(#getProxy(ChallengeProxy).getUserChallengeInfo(slot2, slot1).getSubmarineFleet(slot3).getShipsByTeam(slot4, TeamType.Submarine, false) > 0)
 	slot0.viewComponent:updateChallenge(slot3, reload)
 end
 
@@ -47,7 +42,7 @@ function slot0.handleNotification(slot0, slot1)
 				hideNo = true,
 				content = i18n("battle_preCombatMediator_timeout"),
 				onYes = function ()
-					uv0.viewComponent:emit(BaseUI.ON_CLOSE)
+					slot0.viewComponent:emit(BaseUI.ON_CLOSE)
 				end
 			})
 		end

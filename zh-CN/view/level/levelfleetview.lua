@@ -242,24 +242,20 @@ slot0.InitUI = slot2
 function slot2(slot0, slot1, slot2, slot3)
 	slot0.chapter = slot1
 	slot0.selects = slot3
-	slot4 = slot0.chapter
-	slot0.chapterASValue = slot4.getConfig(slot4, "air_dominance")
-	slot4 = slot0.chapter
-	slot0.suggestionValue = slot4.getConfig(slot4, "best_air_dominance")
-	slot4 = _(_.values(slot2))
-	slot4 = slot4.chain(slot4)
-	slot4 = slot4.filter(slot4, function (slot0)
-		return slot0.isRegularFleet(slot0)
-	end)
-	slot4 = slot4.sort(slot4, function (slot0, slot1)
+	slot0.chapterASValue = slot0.chapter:getConfig("air_dominance")
+	slot0.suggestionValue = slot0.chapter:getConfig("best_air_dominance")
+	slot0.fleets = _(_.values(slot2)):chain():filter(function (slot0)
+		return slot0:isRegularFleet()
+	end):sort(function (slot0, slot1)
 		return slot0.id < slot1.id
-	end)
-	slot0.fleets = slot4.value(slot4)
+	end):value()
 	slot0.selectIds = {
 		[FleetType.Normal] = {},
 		[FleetType.Submarine] = {}
 	}
-	slot4, slot5, slot6 = ipairs(slot3 or {})
+	slot4 = ipairs
+	slot5 = slot3 or {}
+	slot4, slot5, slot6 = slot4(slot5)
 
 	for slot7, slot8 in slot4, slot5, slot6 do
 		slot10 = slot0
@@ -313,13 +309,13 @@ function slot2(slot0, slot1, slot2, slot3)
 	slot6 = slot0.btnGo
 
 	function slot7()
-		slot0 = uv0
+		slot0 = slot0
 		slot0 = slot0.onConfirm
 
 		if slot0 then
-			slot0 = uv0
+			slot0 = slot0
 			slot0 = slot0.onConfirm
-			slot1 = uv0
+			slot1 = slot0
 			slot2 = slot1
 			slot1 = slot1.getSelectIds
 
@@ -362,11 +358,11 @@ function slot2(slot0, slot1, slot2, slot3)
 	slot6 = slot0.btnBack
 
 	function slot7()
-		slot0 = uv0
+		slot0 = slot0
 		slot0 = slot0.onCancel
 
 		if slot0 then
-			slot0 = uv0
+			slot0 = slot0
 			slot0 = slot0.onCancel
 
 			slot0()
@@ -382,11 +378,11 @@ function slot2(slot0, slot1, slot2, slot3)
 	slot6 = slot0._tf
 
 	function slot7()
-		slot0 = uv0
+		slot0 = slot0
 		slot0 = slot0.onCancel
 
 		if slot0 then
-			slot0 = uv0
+			slot0 = slot0
 			slot0 = slot0.onCancel
 
 			slot0()
@@ -402,7 +398,7 @@ function slot2(slot0, slot1, slot2, slot3)
 	slot6 = slot0.toggleMask
 
 	function slot7()
-		slot0 = uv0
+		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.hideToggleMask
 
@@ -419,11 +415,11 @@ function slot2(slot0, slot1, slot2, slot3)
 
 	function slot7(slot0)
 		if slot0 then
-			slot1 = uv0
+			slot1 = slot0
 			slot1 = slot1.contextData
 			slot1.showCommander = slot0
 			slot1 = pairs
-			slot2 = uv0
+			slot2 = slot0
 			slot2 = slot2.tfFleets
 			slot1, slot2, slot3 = slot1(slot2)
 
@@ -433,7 +429,7 @@ function slot2(slot0, slot1, slot2, slot3)
 				slot8 = 1
 
 				for slot9 = slot6, slot7, slot8 do
-					slot10 = uv0
+					slot10 = slot0
 					slot11 = slot10
 					slot10 = slot10.updateCommanderBtn
 					slot12 = slot4
@@ -455,12 +451,12 @@ function slot2(slot0, slot1, slot2, slot3)
 
 	function slot7(slot0)
 		if slot0 then
-			slot1 = uv0
+			slot1 = slot0
 			slot1 = slot1.contextData
 			slot2 = not slot0
 			slot1.showCommander = slot2
 			slot1 = pairs
-			slot2 = uv0
+			slot2 = slot0
 			slot2 = slot2.tfFleets
 			slot1, slot2, slot3 = slot1(slot2)
 
@@ -470,7 +466,7 @@ function slot2(slot0, slot1, slot2, slot3)
 				slot8 = 1
 
 				for slot9 = slot6, slot7, slot8 do
-					slot10 = uv0
+					slot10 = slot0
 					slot11 = slot10
 					slot10 = slot10.updateCommanderBtn
 					slot12 = slot4
@@ -492,32 +488,51 @@ function slot2(slot0, slot1, slot2, slot3)
 
 	if slot5 then
 		slot4(slot0.commanderToggle or slot0.formationToggle, true)
-		setActive(slot0.commanderToggle, slot0.openedCommanerSystem)
-		slot0.clearFleets(slot0)
-		slot0.updateFleets(slot0)
-		slot0.updateLimit(slot0)
 
 		slot4 = setActive
-		slot5 = slot0.findTF(slot0, "panel/title/ASvalue")
-
-		if OPEN_AIR_DOMINANCE then
-			slot6 = slot0.chapterASValue > 0
-		end
+		slot5 = slot0.commanderToggle
+		slot6 = slot0.openedCommanerSystem
 
 		slot4(slot5, slot6)
 
-		slot4 = OPEN_AIR_DOMINANCE
+		slot5 = slot0
+		slot4 = slot0.clearFleets
 
-		if slot4 then
-			slot4 = slot0.chapterASValue
-			slot5 = 0
+		slot4(slot5)
 
-			if slot4 > slot5 then
-				slot5 = slot0
-				slot4 = slot0.updateASValue
+		slot5 = slot0
+		slot4 = slot0.updateFleets
 
-				slot4(slot5)
-			end
+		slot4(slot5)
+
+		slot5 = slot0
+		slot4 = slot0.updateLimit
+
+		slot4(slot5)
+
+		slot4 = setActive
+		slot6 = slot0
+		slot5 = slot0.findTF
+		slot7 = "panel/title/ASvalue"
+		slot5 = slot5(slot6, slot7)
+		slot6 = OPEN_AIR_DOMINANCE
+
+		if slot6 then
+			slot4(slot5, slot0.chapterASValue > 0)
+
+			slot4 = OPEN_AIR_DOMINANCE
+		end
+	end
+
+	if slot4 then
+		slot4 = slot0.chapterASValue
+		slot5 = 0
+
+		if slot4 > slot5 then
+			slot5 = slot0
+			slot4 = slot0.updateASValue
+
+			slot4(slot5)
 		end
 	end
 end
@@ -530,7 +545,7 @@ function slot2(slot0, slot1)
 	slot3 = slot0.fleets
 
 	function slot4(slot0)
-		return slot0.id == uv0
+		return slot0.id == slot0
 	end
 
 	return slot2(slot3, slot4)
@@ -825,15 +840,14 @@ end
 slot0.selectFleet = slot2
 
 function slot2(slot0, slot1, slot2)
-	slot5 = slot0.tfFleets[slot1][slot2]
-	slot7 = slot0.findTF(slot0, "btn_clear", slot5)
-	slot8 = slot0.findTF(slot0, "blank", slot5)
-	slot9 = slot0.findTF(slot0, "commander", slot5)
-	slot11 = slot0.getFleetById(slot0, slot0.selectIds[slot1][slot2])
+	slot7 = slot0:findTF("btn_clear", slot5)
+	slot8 = slot0:findTF("blank", slot5)
+	slot9 = slot0:findTF("commander", slot5)
+	slot11 = slot0:getFleetById(slot10)
 	slot12 = setActive
-	slot13 = slot0.findTF(slot0, "btn_select", slot5)
+	slot13 = slot0:findTF("btn_select", slot5)
 
-	if slot2 <= slot0.getLimitNums(slot0, slot1) then
+	if slot2 <= slot0:getLimitNums(slot1) then
 		slot14 = slot0.contextData
 		slot14 = slot14.showCommander
 		slot14 = not slot14
@@ -875,23 +889,23 @@ end
 slot0.updateCommanderBtn = slot2
 
 function slot2(slot0, slot1, slot2)
-	slot0.updateCommanderBtn(slot0, slot1, slot2)
+	slot0:updateCommanderBtn(slot1, slot2)
 
-	slot5 = slot0.getFleetById(slot0, slot0.selectIds[slot1][slot2])
-	slot6 = slot2 <= slot0.getLimitNums(slot0, slot1)
-	slot7 = slot0.tfFleets[slot1][slot2]
-	slot10 = slot0.findTF(slot0, TeamType.Vanguard, slot7)
-	slot11 = slot0.findTF(slot0, TeamType.Submarine, slot7)
-	slot12 = slot0.findTF(slot0, "btn_select", slot7)
-	slot14 = slot0.findTF(slot0, "btn_clear", slot7)
-	slot15 = slot0.findTF(slot0, "blank", slot7)
-	slot17 = slot0.findTF(slot0, "commander", slot7)
+	slot5 = slot0:getFleetById(slot4)
+	slot6 = slot2 <= slot0:getLimitNums(slot1)
+	slot9 = slot0:findTF(TeamType.Main, slot7)
+	slot10 = slot0:findTF(TeamType.Vanguard, slot7)
+	slot11 = slot0:findTF(TeamType.Submarine, slot7)
+	slot12 = slot0:findTF("btn_select", slot7)
+	slot14 = slot0:findTF("btn_clear", slot7)
+	slot15 = slot0:findTF("blank", slot7)
+	slot17 = slot0:findTF("commander", slot7)
 
-	setActive(slot0.findTF(slot0, "btn_recom", slot7), false)
-	setActive(slot0.findTF(slot0, "selected", slot7), false)
+	setActive(slot13, false)
+	setActive(slot16, false)
 	setText(findTF(slot7, "bg/name"), "")
 
-	if slot0.findTF(slot0, TeamType.Main, slot7) then
+	if slot9 then
 		setActive(slot9, slot6 and slot5)
 	end
 
@@ -912,7 +926,9 @@ function slot2(slot0, slot1, slot2)
 
 		slot18(slot19, Fleet.DEFAULT_NAME[slot5.id] or slot5.name)
 
-		if slot1 == FleetType.Submarine then
+		slot18 = FleetType.Submarine
+
+		if slot1 == slot18 then
 			slot19 = slot0
 			slot18 = slot0.updateShips
 			slot20 = slot11
@@ -947,28 +963,28 @@ function slot2(slot0, slot1, slot2)
 		slot20 = slot12
 
 		function slot21()
-			slot0 = uv0
+			slot0 = slot0
 			slot0 = slot0.toggleList
-			slot1 = uv1
+			slot1 = slot1
 			slot1 = slot1.position
-			slot2 = uv2
+			slot2 = slot2
 			slot2 = slot2.position
 			slot1 = slot1 + slot2
 			slot1 = slot1 / 2
 			slot0.position = slot1
-			slot0 = uv0
+			slot0 = slot0
 			slot0 = slot0.toggleList
-			slot1 = uv0
+			slot1 = slot0
 			slot1 = slot1.toggleList
 			slot1 = slot1.anchoredPosition
 			slot2 = Vector2
-			slot3 = uv0
+			slot3 = slot0
 			slot3 = slot3.toggleList
 			slot3 = slot3.rect
 			slot3 = slot3.width
 			slot3 = -slot3
 			slot3 = slot3 / 2
-			slot4 = uv1
+			slot4 = slot1
 			slot4 = slot4.rect
 			slot4 = slot4.height
 			slot4 = -slot4
@@ -976,23 +992,23 @@ function slot2(slot0, slot1, slot2)
 			slot2 = slot2(slot3, slot4)
 			slot1 = slot1 + slot2
 			slot0.anchoredPosition = slot1
-			slot0 = uv0
+			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.showToggleMask
-			slot2 = uv3
+			slot2 = slot3
 
 			function slot3(slot0)
-				slot1 = uv0
+				slot1 = slot0
 				slot2 = slot1
 				slot1 = slot1.hideToggleMask
 
 				slot1(slot2)
 
-				slot1 = uv0
+				slot1 = slot0
 				slot2 = slot1
 				slot1 = slot1.selectFleet
-				slot3 = uv1
-				slot4 = uv2
+				slot3 = slot1
+				slot4 = slot2
 				slot5 = slot0
 
 				slot1(slot2, slot3, slot4, slot5)
@@ -1010,11 +1026,11 @@ function slot2(slot0, slot1, slot2)
 		slot20 = slot14
 
 		function slot21()
-			slot0 = uv0
+			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.selectFleet
-			slot2 = uv1
-			slot3 = uv2
+			slot2 = slot1
+			slot3 = slot2
 			slot4 = 0
 
 			slot0(slot1, slot2, slot3, slot4)
@@ -1108,19 +1124,19 @@ function slot2(slot0, slot1, slot2)
 			slot1 = slot0
 			slot0 = slot0.setFlag
 			slot2 = "lastFleetIndex"
-			slot3 = uv0
+			slot3 = slot0
 			slot4 = slot3
 			slot3 = slot3.getSelectIds
 
 			slot0(slot1, slot2, slot3(slot4))
 
-			slot0 = uv0
+			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.emit
 			slot2 = LevelUIConst
 			slot2 = slot2.OPEN_COMMANDER_PANEL
-			slot3 = uv1
-			slot4 = uv0
+			slot3 = slot1
+			slot4 = slot0
 			slot4 = slot4.chapter
 
 			slot0(slot1, slot2, slot3, slot4)
@@ -1135,13 +1151,13 @@ function slot2(slot0, slot1, slot2)
 		slot13 = slot10
 
 		function slot14()
-			slot0 = uv0
+			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.emit
 			slot2 = LevelUIConst
 			slot2 = slot2.OPEN_COMMANDER_PANEL
-			slot3 = uv1
-			slot4 = uv0
+			slot3 = slot1
+			slot4 = slot0
 			slot4 = slot4.chapter
 
 			slot0(slot1, slot2, slot3, slot4)
@@ -1175,7 +1191,7 @@ function slot2(slot0, slot1, slot2)
 			slot3 = slot3(slot4)
 			slot5 = slot3
 			slot4 = slot3.getShipById
-			slot6 = uv0
+			slot6 = slot0
 			slot7 = slot1 + 1
 			slot6 = slot6[slot7]
 			slot4 = slot4(slot5, slot6)
@@ -1269,15 +1285,15 @@ function slot2(slot0, slot1, slot2)
 		slot12 = slot11.AddListener
 
 		function slot14()
-			slot0 = uv0
+			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.emit
 			slot2 = LevelMediator2
 			slot2 = slot2.ON_SHIP_DETAIL
 			slot3 = {}
-			slot4 = uv1
+			slot4 = slot1
 			slot3.id = slot4
-			slot4 = uv0
+			slot4 = slot0
 			slot4 = slot4.chapter
 			slot3.chapter = slot4
 
@@ -1302,7 +1318,7 @@ function slot2(slot0, slot1, slot2)
 	slot4 = slot0.fleets
 
 	function slot5(slot0)
-		return slot0.getFleetType(slot0) == uv0
+		return slot0:getFleetType() == slot0
 	end
 
 	slot3 = slot3(slot4, slot5)
@@ -1369,22 +1385,51 @@ function slot2(slot0, slot1, slot2)
 
 			if slot12 then
 				slot10.isOn = slot9.id == currentFleetId
+				slot15 = onToggle
+				slot16 = slot0
+				slot17 = slot8
 
-				onToggle(slot0, slot8, function (slot0)
+				function slot18(slot0)
 					if slot0 then
-						setActive(uv0.toggleMask, false)
+						slot1 = setActive
+						slot2 = slot0
+						slot2 = slot2.toggleMask
+						slot3 = false
 
-						if uv1.id ~= currentFleetId then
-							if uv0._currentDragDelegate then
-								uv0._forceDropCharacter = true
+						slot1(slot2, slot3)
 
-								LuaHelper.triggerEndDrag(uv0._currentDragDelegate)
+						slot1 = slot1
+						slot1 = slot1.id
+						slot2 = currentFleetId
+
+						if slot1 ~= slot2 then
+							slot1 = slot0
+							slot1 = slot1._currentDragDelegate
+
+							if slot1 then
+								slot1 = slot0
+								slot2 = true
+								slot1._forceDropCharacter = slot2
+								slot1 = LuaHelper
+								slot1 = slot1.triggerEndDrag
+								slot2 = slot0
+								slot2 = slot2._currentDragDelegate
+
+								slot1(slot2)
 							end
 
-							uv2(uv1.id)
+							slot1 = slot2
+							slot2 = slot1
+							slot2 = slot2.id
+
+							slot1(slot2)
 						end
 					end
-				end, SFX_UI_TAG)
+				end
+
+				slot19 = SFX_UI_TAG
+
+				slot15(slot16, slot17, slot18, slot19)
 			else
 				slot15 = onButton
 				slot16 = slot0
@@ -1397,7 +1442,7 @@ function slot2(slot0, slot1, slot2)
 					slot0 = slot0()
 					slot1 = slot0
 					slot0 = slot0.ShowTips
-					slot2 = uv0
+					slot2 = slot0
 
 					slot0(slot1, slot2)
 				end
@@ -1433,7 +1478,7 @@ function slot2(slot0)
 		slot7 = slot5
 
 		function slot8(slot0)
-			slot1 = uv0
+			slot1 = slot0
 			slot2 = slot1
 			slot1 = slot1.clearFleet
 			slot3 = slot0
@@ -1652,13 +1697,13 @@ function slot2(slot0, slot1)
 	slot4 = slot0.btnGo
 
 	function slot5()
-		slot0 = uv0
+		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.isTriesLimit
 		slot0 = slot0(slot1)
 
 		if slot0 then
-			slot0 = uv0
+			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.enoughTimes2Start
 			slot0 = slot0(slot1)
@@ -1679,7 +1724,7 @@ function slot2(slot0, slot1)
 			end
 		end
 
-		slot0 = uv1
+		slot0 = slot1
 		slot0 = slot0.chapter
 		slot1 = slot0
 		slot0 = slot0.IsEliteFleetLegal
@@ -1687,29 +1732,29 @@ function slot2(slot0, slot1)
 
 		if slot0 then
 			function slot2()
-				slot0 = uv0
+				slot0 = slot0
 				slot0 = slot0.onCancelHard
 
 				slot0()
 
-				slot0 = uv0
+				slot0 = slot0
 				slot1 = slot0
 				slot0 = slot0.emit
 				slot2 = LevelUIConst
 				slot2 = slot2.TRACK_CHAPTER
-				slot3 = uv0
+				slot3 = slot0
 				slot3 = slot3.chapter
 
 				function slot4()
-					slot0 = uv0
+					slot0 = slot0
 					slot1 = slot0
 					slot0 = slot0.emit
 					slot2 = LevelMediator2
 					slot2 = slot2.ON_ELITE_TRACKING
-					slot3 = uv0
+					slot3 = slot0
 					slot3 = slot3.chapter
 					slot3 = slot3.id
-					slot4 = uv0
+					slot4 = slot0
 					slot4 = slot4.chapter
 					slot4 = slot4.loopFlag
 
@@ -1725,7 +1770,7 @@ function slot2(slot0, slot1)
 			end
 
 			if slot1 then
-				slot3 = uv1
+				slot3 = slot1
 				slot4 = slot3
 				slot3 = slot3.emit
 				slot5 = LevelUIConst
@@ -1796,9 +1841,9 @@ function slot2(slot0, slot1)
 	slot4 = slot0.btnBack
 
 	function slot5()
-		slot0 = uv0
+		slot0 = slot0
 		slot0 = slot0.onCancelHard
-		slot1 = uv0
+		slot1 = slot0
 		slot1 = slot1.chapter
 
 		slot0(slot1)
@@ -1813,9 +1858,9 @@ function slot2(slot0, slot1)
 	slot4 = slot0._tf
 
 	function slot5()
-		slot0 = uv0
+		slot0 = slot0
 		slot0 = slot0.onCancelHard
-		slot1 = uv0
+		slot1 = slot0
 		slot1 = slot1.chapter
 
 		slot0(slot1)
@@ -1831,10 +1876,10 @@ function slot2(slot0, slot1)
 
 	function slot5(slot0)
 		if slot0 then
-			slot1 = uv0
+			slot1 = slot0
 			slot1 = slot1.contextData
 			slot1.EditingCommander = slot0
-			slot1 = uv0
+			slot1 = slot0
 			slot2 = slot1
 			slot1 = slot1.flush
 
@@ -1852,11 +1897,11 @@ function slot2(slot0, slot1)
 
 	function slot5(slot0)
 		if slot0 then
-			slot1 = uv0
+			slot1 = slot0
 			slot1 = slot1.contextData
 			slot2 = not slot0
 			slot1.EditingCommander = slot2
-			slot1 = uv0
+			slot1 = slot0
 			slot2 = slot1
 			slot1 = slot1.flush
 
@@ -1873,8 +1918,17 @@ function slot2(slot0, slot1)
 	slot3 = slot3.EditingCommander
 
 	slot2(slot0.commanderToggle or slot0.formationToggle, true)
-	setActive(slot0.commanderToggle, slot0.openedCommanerSystem)
-	slot0.flush(slot0)
+
+	slot2 = setActive
+	slot3 = slot0.commanderToggle
+	slot4 = slot0.openedCommanerSystem
+
+	slot2(slot3, slot4)
+
+	slot3 = slot0
+	slot2 = slot0.flush
+
+	slot2(slot3)
 end
 
 slot0.setOnHard = slot2
@@ -1893,12 +1947,10 @@ function slot2(slot0)
 	slot3 = OPEN_AIR_DOMINANCE
 
 	if slot3 then
-		slot3 = slot0.chapterASValue > 0
+		slot1(slot2, slot0.chapterASValue > 0)
+
+		slot1 = OPEN_AIR_DOMINANCE
 	end
-
-	slot1(slot2, slot3)
-
-	slot1 = OPEN_AIR_DOMINANCE
 
 	if slot1 then
 		slot1 = slot0.chapterASValue
@@ -1927,7 +1979,10 @@ function slot2(slot0)
 	setActive(slot0.tfLimitElite, #slot0.propetyLimitation > 0)
 	removeAllChildren(slot0.tfLimitContainer)
 
-	if #slot0.propetyLimitation > 0 then
+	slot1 = #slot0.propetyLimitation
+	slot2 = 0
+
+	if slot1 > slot2 then
 		slot1 = slot0.chapter
 		slot2 = slot1
 		slot1 = slot1.IsPropertyLimitationSatisfy
@@ -2015,10 +2070,7 @@ function slot2(slot0)
 			slot13(slot14, slot15)
 		end
 
-		slot4 = slot0.tfLimitElite
-		slot5 = slot0.chapter
-
-		setActive(slot4.Find(slot4, "sub"), slot5.getConfig(slot5, "submarine_num") > 0)
+		setActive(slot0.tfLimitElite:Find("sub"), slot0.chapter:getConfig("submarine_num") > 0)
 	end
 end
 
@@ -2184,7 +2236,7 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 
 		if slot2 == slot3 then
 			return slot3 < slot2
-		elseif slot1 == 0 or slot3 == "string" and slot0 ~= 0 then
+		elseif slot1 == 0 or (slot3 == "string" and slot0 ~= 0) then
 			slot4 = true
 
 			return slot4
@@ -2205,82 +2257,86 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 		slot16, slot17, slot18 = nil
 		slot19 = slot7[slot15]
 
-		if slot19 and (slot0.shipVOs[slot7[slot15]] or nil) then
-			slot20 = ipairs
-			slot21 = slot3
-			slot20, slot21, slot22 = slot20(slot21)
+		if slot19 then
+			slot19 = slot0.shipVOs[slot7[slot15]] or nil
 
-			for slot23, slot24 in slot20, slot21, slot22 do
-				slot25 = type
-				slot26 = slot24
-				slot25 = slot25(slot26)
+			if slot19 then
+				slot20 = ipairs
+				slot21 = slot3
+				slot20, slot21, slot22 = slot20(slot21)
 
-				if slot25 == "number" then
-					if slot24 ~= 0 then
-						slot26 = slot19
-						slot25 = slot19.getShipType
-						slot25 = slot25(slot26)
-
-						if slot25 == slot24 then
-							slot17 = slot19
-							slot18 = slot24
-							slot25 = table
-							slot25 = slot25.remove
-							slot26 = slot3
-							slot27 = slot23
-
-							slot25(slot26, slot27)
-
-							if not slot10 then
-								slot10 = slot19.getShipType(slot19) == slot24
-							end
-
-							break
-						end
-					end
-				else
+				for slot23, slot24 in slot20, slot21, slot22 do
 					slot25 = type
 					slot26 = slot24
 					slot25 = slot25(slot26)
 
-					if slot25 == "string" then
-						slot25 = Clone
-						slot26 = ShipType
-						slot26 = slot26.BundleList
-						slot26 = slot26[slot24]
+					if slot25 == "number" then
+						if slot24 ~= 0 then
+							slot26 = slot19
+							slot25 = slot19.getShipType
+							slot25 = slot25(slot26)
+
+							if slot25 == slot24 then
+								slot17 = slot19
+								slot18 = slot24
+								slot25 = table
+								slot25 = slot25.remove
+								slot26 = slot3
+								slot27 = slot23
+
+								slot25(slot26, slot27)
+
+								if not slot10 then
+									slot10 = slot19:getShipType() == slot24
+								end
+
+								break
+							end
+						end
+					else
+						slot25 = type
+						slot26 = slot24
 						slot25 = slot25(slot26)
-						slot26 = table
-						slot26 = slot26.contains
-						slot27 = slot25
-						slot29 = slot19
-						slot28 = slot19.getShipType
-						slot26 = slot26(slot27, slot28(slot29))
 
-						if slot26 then
-							slot17 = slot19
-							slot18 = slot24
+						if slot25 == "string" then
+							slot25 = Clone
+							slot26 = ShipType
+							slot26 = slot26.BundleList
+							slot26 = slot26[slot24]
+							slot25 = slot25(slot26)
 							slot26 = table
-							slot26 = slot26.remove
-							slot27 = slot3
-							slot28 = slot23
+							slot26 = slot26.contains
+							slot27 = slot25
+							slot29 = slot19
+							slot28 = slot19.getShipType
+							slot26 = slot26(slot27, slot28(slot29))
 
-							slot26(slot27, slot28)
+							if slot26 then
+								slot17 = slot19
+								slot18 = slot24
+								slot26 = table
+								slot26 = slot26.remove
+								slot27 = slot3
+								slot28 = slot23
 
-							slot10 = true
+								slot26(slot27, slot28)
 
-							break
+								slot10 = true
+
+								break
+							end
 						end
 					end
 				end
-			end
-		else
-			slot18 = slot3[1]
-			slot20 = table
-			slot20 = slot20.remove
-			slot21 = slot3
-			slot22 = 1
+			else
+				slot18 = slot3[1]
+				slot20 = table
+				slot20 = slot20.remove
+				slot21 = slot3
+				slot22 = 1
 
-			slot20(slot21, slot22)
+				slot20(slot21, slot22)
+			end
 		end
 
 		if slot18 == 0 then
@@ -2408,7 +2464,7 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 		slot22 = slot5
 
 		function slot23(slot0)
-			slot1 = uv0
+			slot1 = slot0
 			slot1 = slot1.shipVOs
 			slot1 = slot1[slot0]
 
@@ -2423,28 +2479,28 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 		function slot24(slot0, slot1)
 
 			-- Decompilation error in this vicinity:
-			slot2 = uv0
+			slot2 = slot0
 			slot4 = slot0
 			slot3 = slot0.getTeamType
 			slot3 = slot3(slot4)
 			slot2 = slot2[slot3]
-			slot3 = uv0
+			slot3 = slot0
 			slot5 = slot1
 			slot4 = slot1.getTeamType
 			slot4 = slot4(slot5)
 			slot3 = slot3[slot4]
-			slot2 = uv0
+			slot2 = slot0
 			slot4 = slot0
 			slot3 = slot0.getTeamType
 			slot3 = slot3(slot4)
 			slot2 = slot2[slot3]
-			slot3 = uv0
+			slot3 = slot0
 			slot5 = slot1
 			slot4 = slot1.getTeamType
 			slot4 = slot4(slot5)
 			slot3 = slot3[slot4]
 
-			return table.indexof(uv1, slot0.id) < table.indexof(uv1, slot1.id)
+			return table.indexof(slot1, slot0.id) < table.indexof(slot1, slot1.id)
 		end
 
 		slot22(slot23, slot24)
@@ -2456,29 +2512,29 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 		slot22 = slot22(slot23, slot24(slot25))
 
 		function slot23()
-			slot0 = uv0
+			slot0 = slot0
 			slot0 = slot0.onCancelHard
 
 			slot0()
 
-			slot0 = uv0
+			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.emit
 			slot2 = LevelMediator2
 			slot2 = slot2.ON_ELITE_OEPN_DECK
 			slot3 = {}
-			slot4 = uv1
+			slot4 = slot1
 			slot3.shipType = slot4
-			slot4 = uv2
+			slot4 = slot2
 			slot3.fleet = slot4
-			slot4 = uv0
+			slot4 = slot0
 			slot4 = slot4.chapter
 			slot3.chapter = slot4
-			slot4 = uv3
+			slot4 = slot3
 			slot3.shipVO = slot4
-			slot4 = uv4
+			slot4 = slot4
 			slot3.fleetIndex = slot4
-			slot4 = uv5
+			slot4 = slot5
 			slot3.teamType = slot4
 
 			slot0(slot1, slot2, slot3)
@@ -2501,7 +2557,7 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 		slot24 = slot24.AddListener
 
 		function slot26()
-			slot0 = uv0
+			slot0 = slot0
 
 			slot0()
 		end
@@ -2513,30 +2569,30 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 		slot24 = slot24.AddListener
 
 		function slot26()
-			slot0 = uv0
+			slot0 = slot0
 
 			if not slot0 then
-				slot0 = uv1
+				slot0 = slot1
 
 				slot0()
 			else
-				slot0 = uv2
+				slot0 = slot2
 				slot0 = slot0.onCancelHard
 
 				slot0()
 
-				slot0 = uv2
+				slot0 = slot2
 				slot1 = slot0
 				slot0 = slot0.emit
 				slot2 = LevelMediator2
 				slot2 = slot2.ON_FLEET_SHIPINFO
 				slot3 = {}
-				slot4 = uv0
+				slot4 = slot0
 				slot4 = slot4.id
 				slot3.shipId = slot4
-				slot4 = uv3
+				slot4 = slot3
 				slot3.shipVOs = slot4
-				slot4 = uv2
+				slot4 = slot2
 				slot4 = slot4.chapter
 				slot3.chapter = slot4
 
@@ -2569,21 +2625,17 @@ function slot2(slot0)
 	slot1, slot2, slot3 = slot1(slot2)
 
 	for slot4, slot5 in slot1, slot2, slot3 do
-		slot7 = slot0.findTF(slot0, "btn_recom", slot5)
-		slot9 = slot0.findTF(slot0, "blank", slot5)
-		slot10 = slot0.findTF(slot0, "commander", slot5)
+		slot7 = slot0:findTF("btn_recom", slot5)
+		slot9 = slot0:findTF("blank", slot5)
+		slot10 = slot0:findTF("commander", slot5)
 
-		setActive(slot0.findTF(slot0, "btn_select", slot5), false)
+		setActive(slot8, false)
 		setActive(findTF(slot5, "selected"), false)
-
-		slot11 = slot0.chapter
-		slot11 = slot4 <= slot11.getConfig(slot11, "group_num")
-
 		setActive(findTF(slot5, TeamType.Main), slot11)
-		setActive(findTF(slot5, TeamType.Vanguard), slot11)
+		setActive(findTF(slot5, TeamType.Vanguard), slot4 <= slot0.chapter:getConfig("group_num"))
 
 		slot12 = setActive
-		slot13 = slot0.findTF(slot0, "btn_clear", slot5)
+		slot13 = slot0:findTF("btn_clear", slot5)
 
 		if slot11 then
 			slot14 = slot0.contextData
@@ -2676,9 +2728,9 @@ function slot2(slot0)
 				slot19 = slot6
 
 				function slot20()
-					slot0 = uv0
+					slot0 = slot0
 					slot0 = slot0.eliteFleetList
-					slot1 = uv1
+					slot1 = slot1
 					slot0 = slot0[slot1]
 					slot0 = #slot0
 
@@ -2696,15 +2748,15 @@ function slot2(slot0)
 						slot2.content = slot3
 
 						function slot3()
-							slot0 = uv0
+							slot0 = slot0
 							slot1 = slot0
 							slot0 = slot0.emit
 							slot2 = LevelMediator2
 							slot2 = slot2.ON_ELITE_CLEAR
 							slot3 = {}
-							slot4 = uv1
+							slot4 = slot1
 							slot3.index = slot4
-							slot4 = uv0
+							slot4 = slot0
 							slot4 = slot4.chapter
 							slot3.chapterVO = slot4
 
@@ -2724,9 +2776,9 @@ function slot2(slot0)
 				slot19 = slot7
 
 				function slot20()
-					slot0 = uv0
+					slot0 = slot0
 					slot0 = slot0.eliteFleetList
-					slot1 = uv1
+					slot1 = slot1
 					slot0 = slot0[slot1]
 					slot0 = #slot0
 
@@ -2745,15 +2797,15 @@ function slot2(slot0)
 							slot3.content = slot4
 
 							function slot4()
-								slot0 = uv0
+								slot0 = slot0
 								slot1 = slot0
 								slot0 = slot0.emit
 								slot2 = LevelMediator2
 								slot2 = slot2.ON_ELITE_RECOMMEND
 								slot3 = {}
-								slot4 = uv1
+								slot4 = slot1
 								slot3.index = slot4
-								slot4 = uv0
+								slot4 = slot0
 								slot4 = slot4.chapter
 								slot3.chapterVO = slot4
 
@@ -2764,15 +2816,15 @@ function slot2(slot0)
 
 							slot1(slot2, slot3)
 						else
-							slot1 = uv0
+							slot1 = slot0
 							slot2 = slot1
 							slot1 = slot1.emit
 							slot3 = LevelMediator2
 							slot3 = slot3.ON_ELITE_RECOMMEND
 							slot4 = {}
-							slot5 = uv1
+							slot5 = slot1
 							slot4.index = slot5
-							slot5 = uv0
+							slot5 = slot0
 							slot5 = slot5.chapter
 							slot4.chapterVO = slot5
 
@@ -2795,22 +2847,19 @@ function slot2(slot0)
 
 	for slot4, slot5 in slot1, slot2, slot3 do
 		slot6 = slot4 + 2
-		slot8 = slot0.findTF(slot0, "btn_recom", slot5)
-		slot10 = slot0.findTF(slot0, "blank", slot5)
-		slot11 = slot0.findTF(slot0, "commander", slot5)
+		slot8 = slot0:findTF("btn_recom", slot5)
+		slot10 = slot0:findTF("blank", slot5)
+		slot11 = slot0:findTF("commander", slot5)
 
-		setActive(slot0.findTF(slot0, "btn_select", slot5), false)
+		setActive(slot9, false)
 		setActive(findTF(slot5, "selected"), false)
-
-		slot14 = slot0.chapter
-
-		setActive(findTF(slot5, TeamType.Submarine), slot4 <= slot14.getConfig(slot14, "submarine_num"))
+		setActive(findTF(slot5, TeamType.Submarine), slot4 <= slot0.chapter:getConfig("submarine_num"))
 
 		slot12 = setActive
-		slot13 = slot0.findTF(slot0, "btn_clear", slot5)
-		slot14 = slot0.chapter
+		slot13 = slot0:findTF("btn_clear", slot5)
+		slot14 = slot0.chapter:getConfig("submarine_num")
 
-		if slot4 <= slot14.getConfig(slot14, "submarine_num") then
+		if slot4 <= slot14 then
 			slot14 = slot0.contextData
 			slot14 = slot14.EditingCommander
 			slot14 = not slot14
@@ -2845,16 +2894,16 @@ function slot2(slot0)
 		end
 
 		slot12(slot13, slot14)
-
-		slot14 = slot0.chapter
-
-		setActive(slot10, slot14.getConfig(slot14, "submarine_num") < slot4)
+		setActive(slot10, slot0.chapter:getConfig("submarine_num") < slot4)
 
 		slot12 = setActive
 		slot13 = slot11
-		slot14 = slot0.chapter
+		slot15 = slot0.chapter
+		slot14 = slot0.chapter.getConfig
+		slot16 = "submarine_num"
+		slot14 = slot14(slot15, slot16)
 
-		if slot4 <= slot14.getConfig(slot14, "submarine_num") then
+		if slot4 <= slot14 then
 			slot14 = slot0.contextData
 			slot14 = slot14.EditingCommander
 		else
@@ -2880,12 +2929,23 @@ function slot2(slot0)
 		slot14 = slot14(slot15, slot16)
 
 		if slot4 <= slot14 then
-			slot12(slot13, Fleet.DEFAULT_NAME[Fleet.SUBMARINE_FLEET_ID + slot4 - 1] or "")
-			slot0.initCommander(slot0, slot6, slot11, slot0.chapter)
+			slot12(slot13, Fleet.DEFAULT_NAME[(Fleet.SUBMARINE_FLEET_ID + slot4) - 1] or "")
+
+			slot13 = slot0
+			slot12 = slot0.initCommander
+			slot14 = slot6
+			slot15 = slot11
+			slot16 = slot0.chapter
+
+			slot12(slot13, slot14, slot15, slot16)
 
 			slot12 = slot0.chapter
+			slot13 = slot12
+			slot12 = slot12.getConfig
+			slot14 = "submarine_num"
+			slot12 = slot12(slot13, slot14)
 
-			if slot4 <= slot12.getConfig(slot12, "submarine_num") then
+			if slot4 <= slot12 then
 				slot13 = slot0
 				slot12 = slot0.initAddButton
 				slot14 = slot5
@@ -2916,9 +2976,9 @@ function slot2(slot0)
 				slot15 = slot7
 
 				function slot16()
-					slot0 = uv0
+					slot0 = slot0
 					slot0 = slot0.eliteFleetList
-					slot1 = uv1
+					slot1 = slot1
 					slot0 = slot0[slot1]
 					slot0 = #slot0
 
@@ -2936,15 +2996,15 @@ function slot2(slot0)
 						slot2.content = slot3
 
 						function slot3()
-							slot0 = uv0
+							slot0 = slot0
 							slot1 = slot0
 							slot0 = slot0.emit
 							slot2 = LevelMediator2
 							slot2 = slot2.ON_ELITE_CLEAR
 							slot3 = {}
-							slot4 = uv1
+							slot4 = slot1
 							slot3.index = slot4
-							slot4 = uv0
+							slot4 = slot0
 							slot4 = slot4.chapter
 							slot3.chapterVO = slot4
 
@@ -2964,9 +3024,9 @@ function slot2(slot0)
 				slot15 = slot8
 
 				function slot16()
-					slot0 = uv0
+					slot0 = slot0
 					slot0 = slot0.eliteFleetList
-					slot1 = uv1
+					slot1 = slot1
 					slot0 = slot0[slot1]
 					slot0 = #slot0
 
@@ -2985,15 +3045,15 @@ function slot2(slot0)
 							slot3.content = slot4
 
 							function slot4()
-								slot0 = uv0
+								slot0 = slot0
 								slot1 = slot0
 								slot0 = slot0.emit
 								slot2 = LevelMediator2
 								slot2 = slot2.ON_ELITE_RECOMMEND
 								slot3 = {}
-								slot4 = uv1
+								slot4 = slot1
 								slot3.index = slot4
-								slot4 = uv0
+								slot4 = slot0
 								slot4 = slot4.chapter
 								slot3.chapterVO = slot4
 
@@ -3004,15 +3064,15 @@ function slot2(slot0)
 
 							slot1(slot2, slot3)
 						else
-							slot1 = uv0
+							slot1 = slot0
 							slot2 = slot1
 							slot1 = slot1.emit
 							slot3 = LevelMediator2
 							slot3 = slot3.ON_ELITE_RECOMMEND
 							slot4 = {}
-							slot5 = uv1
+							slot5 = slot1
 							slot4.index = slot5
-							slot5 = uv0
+							slot5 = slot0
 							slot5 = slot5.chapter
 							slot4.chapterVO = slot5
 
@@ -3121,14 +3181,14 @@ function slot2(slot0, slot1, slot2, slot3)
 		slot18 = slot13
 
 		function slot19()
-			slot0 = uv0
+			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.emit
 			slot2 = LevelUIConst
 			slot2 = slot2.OPEN_COMMANDER_PANEL
-			slot3 = uv1
-			slot4 = uv2
-			slot5 = uv3
+			slot3 = slot1
+			slot4 = slot2
+			slot5 = slot3
 
 			slot0(slot1, slot2, slot3, slot4, slot5)
 		end
@@ -3142,14 +3202,14 @@ function slot2(slot0, slot1, slot2, slot3)
 		slot18 = slot14
 
 		function slot19()
-			slot0 = uv0
+			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.emit
 			slot2 = LevelUIConst
 			slot2 = slot2.OPEN_COMMANDER_PANEL
-			slot3 = uv1
-			slot4 = uv2
-			slot5 = uv3
+			slot3 = slot1
+			slot4 = slot2
+			slot5 = slot3
 
 			slot0(slot1, slot2, slot3, slot4, slot5)
 		end

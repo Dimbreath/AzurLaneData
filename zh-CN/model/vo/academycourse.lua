@@ -11,12 +11,8 @@ function slot0.GetProficiencyAchieved(slot0, slot1, slot2, slot3)
 		end)
 	end
 
-	return math.min(slot1, slot4 * slot0.proficency_cost_per_min), _.map(_.map(slot3, function (slot0)
-		slot1 = slot0:getLevelExpConfig(slot0:getMaxLevel())
-
-		return slot1.exp_start + slot1.exp_interval - slot0:getTotalExp()
-	end), function (slot0)
-		return math.min(slot0, math.floor(uv0 * uv1["proficency_to_exp_rant_" .. #uv2] / 100))
+	return math.min(slot1, slot4 * slot0.proficency_cost_per_min), _.map(slot5, function (slot0)
+		return math.min(slot0, math.floor((slot0 * slot1["proficency_to_exp_rant_" .. #slot2]) / 100))
 	end)
 end
 
@@ -45,7 +41,7 @@ function slot0.getDay(slot0)
 end
 
 function slot0.getExtraRate(slot0)
-	return slot0:getDay() == 7 and 2 or 1
+	return (slot0:getDay() == 7 and 2) or 1
 end
 
 function slot0.existCourse(slot0)

@@ -1,9 +1,8 @@
-slot0 = class("ExchangeItemCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("ExchangeItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	slot7 = pg.item_medal_fetch[getProxy(BuildShipProxy).getExChangeItemInfoByIndex(slot4, slot3).id].price
 	slot11 = getProxy(PlayerProxy):getData()
 
-	if getProxy(BagProxy):getItemById(ITEM_ID_SILVER_HOOK) == nil or slot9.count < pg.item_medal_fetch[getProxy(BuildShipProxy):getExChangeItemInfoByIndex(slot1:getBody().index).id].price then
+	if getProxy(BagProxy).getItemById(slot8, ITEM_ID_SILVER_HOOK) == nil or slot9.count < slot7 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("word_materal_no_enough"))
 
 		return
@@ -16,19 +15,19 @@ function slot0.execute(slot0, slot1)
 		flash_time = slot13
 	}, 16109, function (slot0)
 		if slot0.result == 0 then
-			uv0:removeItemById(ITEM_ID_SILVER_HOOK, uv1)
-			uv2:sendNotification(GAME.ADD_ITEM, Item.New({
+			slot0:removeItemById(ITEM_ID_SILVER_HOOK, slot0.removeItemById)
+			slot0:sendNotification(GAME.ADD_ITEM, Item.New({
 				type = DROP_TYPE_ITEM,
-				id = uv3.itemid,
-				count = uv3.itemquantity
+				id = slot3.itemid,
+				count = slot3.itemquantity
 			}))
-			uv4:updateExchangeItem(uv5)
+			slot4:updateExchangeItem(slot5)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("exchange_item_success"))
-			uv2:sendNotification(GAME.EXCHANGE_ITEM_DONE)
+			pg.TipsMgr.GetInstance():sendNotification(GAME.EXCHANGE_ITEM_DONE)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_exchange_erro", slot0.result))
 		end
 	end)
 end
 
-return slot0
+return class("ExchangeItemCommand", pm.SimpleCommand)

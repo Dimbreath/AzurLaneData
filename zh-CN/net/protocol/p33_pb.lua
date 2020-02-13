@@ -2286,3 +2286,5 @@ world_item_info = slot0.Message(WORLD_ITEM_INFO)
 worldboss_info = slot0.Message(WORLDBOSS_INFO)
 worldboss_rank = slot0.Message(WORLDBOSS_RANK)
 worldinfo = slot0.Message(WORLDINFO)
+
+return

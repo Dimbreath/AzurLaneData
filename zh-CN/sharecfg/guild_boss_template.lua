@@ -19,3 +19,5 @@ pg.guild_boss_template = {
 		1
 	}
 }
+
+return

@@ -10,15 +10,16 @@ function string.split(slot0, slot1)
 		return false
 	end
 
-	for slot7, slot8 in function ()
-		return uv0.find(uv1, uv2, uv3, true)
-	end do
-		uv1.insert({}, uv0.sub(slot0, 0, slot7 - 1))
+	slot2 = 0
+	slot3 = {}
+
+	for slot7, slot8 in nil do
+		slot1.insert(slot3, slot0:sub(slot2, slot7 - 1))
 
 		slot2 = slot8 + 1
 	end
 
-	uv1.insert(slot3, uv0.sub(slot0, slot2))
+	slot1.insert(slot3, slot0:sub(slot2))
 
 	return slot3
 end
@@ -29,27 +30,37 @@ function import(slot0, slot1)
 	slot4 = 1
 
 	while true do
-		if uv0.byte(slot0, slot4) ~= 46 then
+		if slot0:byte(slot4) ~= 46 then
+			slot3 = slot0:sub(slot4)
+
 			if slot2 and #slot2 > 0 then
-				slot3 = uv1.concat(slot2, ".") .. "." .. uv0.sub(slot0, slot4)
+				slot3 = slot1.concat(slot2, ".") .. "." .. slot3
 			end
 
 			break
 		end
 
 		slot4 = slot4 + 1
-		slot2 = slot2 or uv0.split(slot1, ".")
 
-		uv1.remove(slot2, #slot2)
+		if not slot2 then
+			if not slot1 then
+				slot5, slot1 = debug.getlocal(3, 1)
+			end
+
+			slot2 = slot0.split(slot1, ".")
+		end
+
+		slot1.remove(slot2, #slot2)
 	end
 
-	return uv2(slot3)
+	return slot2(slot3)
 end
 
 function reimport(slot0)
-	slot1 = package
-	slot1.loaded[slot0] = nil
-	slot1.preload[slot0] = nil
+	package.loaded[slot0] = nil
+	package.preload[slot0] = nil
 
-	return uv0(slot0)
+	return slot0(slot0)
 end
+
+return

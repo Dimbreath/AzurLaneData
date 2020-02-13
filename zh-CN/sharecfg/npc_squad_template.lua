@@ -138,3 +138,5 @@ pg.npc_squad_template = {
 		7
 	}
 }
+
+return

@@ -1,4 +1,4 @@
-slot0 = {
+LayerWeightConst = {
 	OVERLAY_UI_MAIN = "overlay_ui_main",
 	OVERLAY_UI_ADAPT = "overlay_ui_adapt",
 	UI_TYPE_SYSTEM = "type_system",
@@ -9,11 +9,11 @@ slot0 = {
 	THIRD_LAYER = 300,
 	TOP_LAYER = 9999,
 	WEIGHT_LIST = {
-		slot0.LOWER_LAYER,
-		slot0.BASE_LAYER,
-		slot0.SECOND_LAYER,
-		slot0.THIRD_LAYER,
-		slot0.TOP_LAYER
+		()["LOWER_LAYER"],
+		()["BASE_LAYER"],
+		()["SECOND_LAYER"],
+		()["THIRD_LAYER"],
+		()["TOP_LAYER"]
 	},
 	GROUP_CHATROOM = "group_ChatRoomUI",
 	GROUP_NOTIFICATION = "group_NotificationUI",
@@ -24,4 +24,5 @@ slot0 = {
 	GROUP_SHIP_PROFILE = "group_ShipProfileScene",
 	GROUP_FORMATION_PAGE = "group_FormationPage"
 }
-LayerWeightConst = slot0
+
+return

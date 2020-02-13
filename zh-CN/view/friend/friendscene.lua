@@ -26,15 +26,17 @@ end
 
 function slot0.removeSearchResult(slot0, slot1)
 	slot0:setSearchResult(_.select(slot0.searchResultVOs, function (slot0)
-		return slot0.id ~= uv0
+		return slot0.id ~= slot0
 	end))
 end
 
 function slot0.setBlackList(slot0, slot1)
 	if slot1 then
 		slot0.blackVOs = {}
+		slot2 = pairs
+		slot3 = slot1 or {}
 
-		for slot5, slot6 in pairs(slot1 or {}) do
+		for slot5, slot6 in slot2(slot3) do
 			table.insert(slot0.blackVOs, slot6)
 		end
 	end
@@ -43,7 +45,6 @@ end
 function slot0.init(slot0)
 	slot0.pages = slot0:findTF("pages")
 	slot0.togglesTF = slot0:findTF("blur_panel/adapt/left_length/frame/tagRoot")
-	slot1[MULTRES] = FriendBlackListPage.New(slot0.pages, slot0.event)
 	slot0.pages = {
 		FriendListPage.New(slot0.pages, slot0.event, slot0.contextData),
 		FriendSearchPage.New(slot0.pages, slot0.event),
@@ -57,7 +58,7 @@ function slot0.init(slot0)
 
 		onToggle(slot0, slot0.toggles[slot4], function (slot0)
 			if slot0 then
-				uv0:switchPage(uv1)
+				slot0:switchPage(slot0.switchPage)
 			end
 		end, SFX_PANEL)
 	end
@@ -73,7 +74,7 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0:findTF("blur_panel/adapt/top/back_btn"), function ()
-		uv0:emit(uv1.ON_BACK)
+		slot0:emit(slot1.ON_BACK)
 	end, SOUND_BACK)
 	triggerToggle(slot0.toggles[slot0.contextData.initPage or 1], true)
 	slot0:updateRequestTip()
@@ -93,16 +94,16 @@ function slot0.updateEmpty(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = ""
 
-	if slot1 == uv0.FRIEND_PAGE then
+	if slot1 == slot0.FRIEND_PAGE then
 		slot3 = slot2.friendVOs
 		slot4 = i18n("list_empty_tip_friendui")
-	elseif slot1 == uv0.SEARCH_PAGE then
+	elseif slot1 == slot0.SEARCH_PAGE then
 		slot3 = slot2.searchResults
 		slot4 = i18n("list_empty_tip_friendui_search")
-	elseif slot1 == uv0.REQUEST_PAGE then
+	elseif slot1 == slot0.REQUEST_PAGE then
 		slot3 = slot2.requestVOs
 		slot4 = i18n("list_empty_tip_friendui_request")
-	elseif slot1 == uv0.BLACKLIST_PAGE then
+	elseif slot1 == slot0.BLACKLIST_PAGE then
 		slot3 = slot2.blackVOs
 		slot4 = i18n("list_empty_tip_friendui_black")
 	end
@@ -116,22 +117,19 @@ function slot0.switchPage(slot0, slot1)
 		slot0.page:ExecuteAction("Hide")
 	end
 
-	slot2 = slot0.pages[slot1]
-	slot3 = slot0:wrapData()
+	slot0.pages[slot1].ExecuteAction(slot2, "UpdateData", slot3)
 
-	slot2:ExecuteAction("UpdateData", slot3)
+	slot0.page = slot0.pages[slot1]
 
-	slot0.page = slot2
-
-	slot0:updateEmpty(slot1, slot3)
+	slot0:updateEmpty(slot1, slot0:wrapData())
 end
 
 function slot0.updatePage(slot0, slot1)
-	if slot0.page and slot0.pages[slot1] == slot0.page then
-		slot3 = slot0:wrapData()
+	slot2 = slot0.pages[slot1]
 
+	if slot0.page and slot2 == slot0.page then
 		slot0.page:ExecuteAction("UpdateData", slot3)
-		slot0:updateEmpty(slot1, slot3)
+		slot0:updateEmpty(slot1, slot0:wrapData())
 	end
 end
 

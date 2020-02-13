@@ -183,3 +183,5 @@ pg.class_upgrade_template = {
 		10
 	}
 }
+
+return

@@ -111,3 +111,5 @@ pg.guild_boss_award = {
 		3
 	}
 }
+
+return

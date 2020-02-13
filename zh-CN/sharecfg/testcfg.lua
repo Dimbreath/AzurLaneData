@@ -1,6 +1,5 @@
 pg = pg or {}
-slot0 = pg
-slot0.HeroType = {
+pg.HeroType = {
 	ZhongX = 3,
 	QinX = 2,
 	QuZ = 1,
@@ -14,13 +13,12 @@ slot0.HeroType = {
 	QianT = 8,
 	ZhanX = 4
 }
-slot1 = slot0.HeroType
-slot0.HeroCfg = {
+pg.HeroCfg = {
 	{
 		painting,
 		prefab = "zhuque",
 		name = "朱雀",
-		type = slot1.QuZ
+		type = pg.HeroType.QuZ
 	},
 	{
 		painting,
@@ -28,103 +26,103 @@ slot0.HeroCfg = {
 		resetLevel = "20",
 		prefab = "bote",
 		starLevel = 3,
-		type = slot1.QuZ
+		type = pg.HeroType.QuZ
 	},
 	{
 		painting,
 		prefab = "xuefeng",
 		name = "雪风",
-		type = slot1.QuZ
+		type = pg.HeroType.QuZ
 	},
 	{
 		painting,
 		prefab = "monagen",
 		name = "莫纳根",
-		type = slot1.QuZ
+		type = pg.HeroType.QuZ
 	},
 	{
 		painting,
 		prefab = "zhunuo",
 		name = "朱诺",
-		type = slot1.QinX
+		type = pg.HeroType.QinX
 	},
 	{
 		painting,
 		prefab = "shengdiyage",
 		name = "圣地亚哥",
-		type = slot1.QinX
+		type = pg.HeroType.QinX
 	},
 	{
 		painting,
 		prefab = "jiujinshan",
 		name = "旧金山",
-		type = slot1.ZhongX
+		type = pg.HeroType.ZhongX
 	},
 	{
 		painting,
 		prefab = "shengwang",
 		name = "声望",
-		type = slot1.ZhanL
+		type = pg.HeroType.ZhanL
 	},
 	{
 		painting,
 		prefab = "fanji",
 		name = "反击",
-		type = slot1.ZhanL
+		type = pg.HeroType.ZhanL
 	},
 	{
 		painting,
 		prefab = "Z5",
 		name = "Z5",
-		type = slot1.QuZ
+		type = pg.HeroType.QuZ
 	},
 	{
 		painting,
 		prefab = "deyizhi",
 		name = "德意志",
-		type = slot1.ZhanL
+		type = pg.HeroType.ZhanL
 	},
 	{
 		painting,
 		prefab = "huangjiafangzhou",
 		name = "皇家方舟",
-		type = slot1.HangM
+		type = pg.HeroType.HangM
 	},
 	{
 		painting,
 		prefab = "wushiling",
 		name = "五十铃",
-		type = slot1.QinX
+		type = pg.HeroType.QinX
 	},
 	{
 		painting,
 		prefab = "yishi",
 		name = "伊势",
-		type = slot1.ZhanL
+		type = pg.HeroType.ZhanL
 	},
 	{
 		painting,
 		prefab = "xinaoerliang",
 		name = "新奥尔良",
-		type = slot1.ZhongX
+		type = pg.HeroType.ZhongX
 	},
 	{
 		painting,
 		prefab = "jingang",
 		name = "金刚",
-		type = slot1.ZhanL
+		type = pg.HeroType.ZhanL
 	},
 	{
 		painting,
 		prefab = "yinggelan",
 		name = "英格兰",
-		type = slot1.QuZ
+		type = pg.HeroType.QuZ
 	},
 	{
 		painting,
 		prefab = "yatelanda",
 		name = "亚特兰大",
-		type = slot1.QinX
+		type = pg.HeroType.QinX
 	},
 	{
 		painting,
@@ -132,25 +130,25 @@ slot0.HeroCfg = {
 		resetLevel = "30",
 		prefab = "beikaluolaina",
 		starLevel = 5,
-		type = slot1.ZhanL
+		type = pg.HeroType.ZhanL
 	},
 	{
 		painting,
 		prefab = "huashengdun",
 		name = "华盛顿",
-		type = slot1.ZhanL
+		type = pg.HeroType.ZhanL
 	},
 	{
 		painting,
 		prefab = "zaoshen",
 		name = "女灶神",
-		type = slot1.WeiX
+		type = pg.HeroType.WeiX
 	},
 	{
 		painting,
 		prefab = "kunxi",
 		name = "昆西",
-		type = slot1.ZhongX
+		type = pg.HeroType.ZhongX
 	},
 	{
 		painting,
@@ -158,7 +156,7 @@ slot0.HeroCfg = {
 		resetLevel = "25",
 		prefab = "mingshi",
 		starLevel = 4,
-		type = slot1.WeiX
+		type = pg.HeroType.WeiX
 	},
 	{
 		painting,
@@ -166,7 +164,7 @@ slot0.HeroCfg = {
 		resetLevel = "30",
 		prefab = "zuishang",
 		starLevel = 5,
-		type = slot1.QinX
+		type = pg.HeroType.QinX
 	},
 	{
 		painting,
@@ -174,15 +172,15 @@ slot0.HeroCfg = {
 		resetLevel = "20",
 		prefab = "yinghuochong",
 		starLevel = 3,
-		type = slot1.QuZ
+		type = pg.HeroType.QuZ
 	}
 }
-slot0.CommonCfg = {
+pg.CommonCfg = {
 	TeamCount = 5,
 	MaxHealth = 100
 }
-slot0.HeroTypeCfg = {
-	[slot1.QuZ] = {
+pg.HeroTypeCfg = {
+	[pg.HeroType.QuZ] = {
 		dropOil = 1,
 		name = "驱逐",
 		dropGold = 1,
@@ -190,7 +188,7 @@ slot0.HeroTypeCfg = {
 		dropSilver = 0,
 		repairTime = 0.2
 	},
-	[slot1.QinX] = {
+	[pg.HeroType.QinX] = {
 		dropOil = 1,
 		name = "轻巡",
 		dropGold = 2,
@@ -198,7 +196,7 @@ slot0.HeroTypeCfg = {
 		dropSilver = 0,
 		repairTime = 0.3
 	},
-	[slot1.ZhongX] = {
+	[pg.HeroType.ZhongX] = {
 		dropOil = 2,
 		name = "重巡",
 		dropGold = 3,
@@ -206,7 +204,7 @@ slot0.HeroTypeCfg = {
 		dropSilver = 0,
 		repairTime = 0.6
 	},
-	[slot1.ZhanX] = {
+	[pg.HeroType.ZhanX] = {
 		dropOil = 2,
 		name = "战巡",
 		dropGold = 4,
@@ -214,7 +212,7 @@ slot0.HeroTypeCfg = {
 		dropSilver = 0,
 		repairTime = 0.8
 	},
-	[slot1.ZhanL] = {
+	[pg.HeroType.ZhanL] = {
 		dropOil = 3,
 		name = "战列",
 		dropGold = 6,
@@ -222,7 +220,7 @@ slot0.HeroTypeCfg = {
 		dropSilver = 0,
 		repairTime = 1.5
 	},
-	[slot1.QinM] = {
+	[pg.HeroType.QinM] = {
 		dropOil = 0,
 		name = "轻母",
 		dropGold = 1,
@@ -230,7 +228,7 @@ slot0.HeroTypeCfg = {
 		dropSilver = 1,
 		repairTime = 0.5
 	},
-	[slot1.KongM] = {
+	[pg.HeroType.KongM] = {
 		dropOil = 2,
 		name = "空母",
 		dropGold = 2,
@@ -238,7 +236,7 @@ slot0.HeroTypeCfg = {
 		dropSilver = 3,
 		repairTime = 1
 	},
-	[slot1.QianT] = {
+	[pg.HeroType.QianT] = {
 		dropOil = 1,
 		name = "潜艇",
 		dropGold = 1,
@@ -246,7 +244,7 @@ slot0.HeroTypeCfg = {
 		dropSilver = 0,
 		repairTime = 0.1
 	},
-	[slot1.LeiX] = {
+	[pg.HeroType.LeiX] = {
 		dropOil = 2,
 		name = "雷巡",
 		dropGold = 2,
@@ -254,7 +252,7 @@ slot0.HeroTypeCfg = {
 		dropSilver = 0,
 		repairTime = 0.4
 	},
-	[slot1.HangX] = {
+	[pg.HeroType.HangX] = {
 		dropOil = 2,
 		name = "航巡",
 		dropGold = 3,
@@ -262,7 +260,7 @@ slot0.HeroTypeCfg = {
 		dropSilver = 1,
 		repairTime = 0.9
 	},
-	[slot1.HangZ] = {
+	[pg.HeroType.HangZ] = {
 		dropOil = 3,
 		name = "航战",
 		dropGold = 4,
@@ -271,7 +269,7 @@ slot0.HeroTypeCfg = {
 		repairTime = 1.2
 	}
 }
-slot0.LeavePosCfg = {
+pg.LeavePosCfg = {
 	{
 		{
 			-234,
@@ -295,7 +293,7 @@ slot0.LeavePosCfg = {
 		}
 	}
 }
-slot0.PropertyPosCfg = {
+pg.PropertyPosCfg = {
 	{
 		-90,
 		-140,
@@ -317,7 +315,7 @@ slot0.PropertyPosCfg = {
 		0
 	}
 }
-slot0.PropertyCfg = {
+pg.PropertyCfg = {
 	{
 		-85,
 		-140,
@@ -339,7 +337,7 @@ slot0.PropertyCfg = {
 		0
 	}
 }
-slot0.PosCfg = {
+pg.PosCfg = {
 	single1 = {
 		{
 			233,
@@ -645,3 +643,5 @@ slot0.PosCfg = {
 		}
 	}
 }
+
+return

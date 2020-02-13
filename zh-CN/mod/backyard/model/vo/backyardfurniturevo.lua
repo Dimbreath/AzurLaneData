@@ -19,7 +19,7 @@ function slot0.getCloneId(slot0, slot1)
 end
 
 function slot0.isRightWall(slot0)
-	return uv0.getWallDir(slot0) == BackYardConst.BACKYARD_WALL_DIR_RIGHT
+	return slot0:getWallDir() == BackYardConst.BACKYARD_WALL_DIR_RIGHT
 end
 
 function slot0.Ctor(slot0, slot1)
@@ -57,9 +57,7 @@ end
 
 function slot0.GetVoiceAnim(slot0)
 	if slot0:isSpine() and slot0:existVoice() then
-		slot1 = slot0:getConfig("can_trigger")
-
-		return "normal", slot1[3], slot1[4]
+		return "normal", slot0:getConfig("can_trigger")[3], slot0.getConfig("can_trigger")[4]
 	end
 end
 
@@ -98,9 +96,13 @@ function slot0.getSpineMaxCnt(slot0)
 		return 2
 	end
 
+	slot1 = 0
+
 	if slot0:isSpine() then
+		slot1 = slot1 + 1
+
 		if slot0:getConfig("spine_extra") and type(slot2) == "table" then
-			slot1 = 0 + 1 + table.getCount(slot2)
+			slot1 = slot1 + table.getCount(slot2)
 		end
 	end
 
@@ -108,8 +110,10 @@ function slot0.getSpineMaxCnt(slot0)
 end
 
 function slot0.getCurrSpineCnt(slot0)
+	slot1 = 0
+
 	if slot0.spineId then
-		slot1 = 0 + 1
+		slot1 = slot1 + 1
 	end
 
 	return slot1 + table.getCount(slot0.spineExtra)
@@ -138,8 +142,8 @@ function slot0.getUniqueShipAction(slot0, slot1, slot2)
 
 	if _.detect(slot3, function (slot0)
 		return _.any(slot0[2], function (slot0)
-			return slot0 == uv0
-		end) and uv1 == slot0[1]
+			return slot0 == slot0
+		end) and slot1 == slot0[1]
 	end) then
 		return slot4[3]
 	end
@@ -313,17 +317,13 @@ end
 
 function slot0.getSpineName(slot0)
 	if slot0:isSpine() then
-		slot1 = slot0:getConfig("spine")[1]
-
-		return slot1[1], slot1[2]
+		return slot0:getConfig("spine")[1][1], slot0.getConfig("spine")[1][2]
 	end
 end
 
 function slot0.getSpineMaskName(slot0)
 	if slot0:hasSpineMask() then
-		slot1 = slot0:getConfig("spine")[2]
-
-		return slot1[1], slot1[2]
+		return slot0:getConfig("spine")[2][1], slot0.getConfig("spine")[2][2]
 	end
 end
 
@@ -425,9 +425,7 @@ end
 
 function slot0.getInterActionData(slot0, slot1)
 	if slot0:hasInterActionData() then
-		slot2 = slot0:getConfig("interAction")[slot1]
-
-		return slot2[1], slot2[2], slot2[3], slot2[4], slot2[5], slot2[6]
+		return slot0:getConfig("interAction")[slot1][1], slot0.getConfig("interAction")[slot1][2], slot0.getConfig("interAction")[slot1][3], slot0.getConfig("interAction")[slot1][4], slot0.getConfig("interAction")[slot1][5], slot0.getConfig("interAction")[slot1][6]
 	end
 end
 
@@ -446,8 +444,10 @@ function slot0.getInterActionCount(slot0)
 end
 
 function slot0.getInterActionShipIds(slot0)
+	slot1 = {}
+
 	for slot5, slot6 in pairs(slot0.shipIds) do
-		table.insert({}, slot6)
+		table.insert(slot1, slot6)
 	end
 
 	return slot1
@@ -534,7 +534,7 @@ function slot0.updateDir(slot0)
 end
 
 function slot0.getReverseDir(slot0)
-	return slot0.dir == 1 and 2 or 1
+	return (slot0.dir == 1 and 2) or 1
 end
 
 function slot0.clearPosition(slot0)
@@ -549,17 +549,17 @@ function slot0.getOccupyGrid(slot0, slot1)
 	slot3, slot4 = slot0:getSize()
 
 	if slot0:isFloor() then
-		for slot8 = slot1.x, slot1.x + slot3 - 1, 1 do
-			for slot12 = slot1.y, slot1.y + slot4 - 1, 1 do
+		for slot8 = slot1.x, (slot1.x + slot3) - 1, 1 do
+			for slot12 = slot1.y, (slot1.y + slot4) - 1, 1 do
 				table.insert(slot2, Vector2(slot8, slot12))
 			end
 		end
 	elseif slot1.y - slot1.x >= 1 then
-		for slot8 = slot1.x, slot1.x + slot3 - 1, 2 do
+		for slot8 = slot1.x, (slot1.x + slot3) - 1, 2 do
 			table.insert(slot2, Vector2(slot8, slot1.y))
 		end
 	else
-		for slot8 = slot1.y, slot1.y + slot3 - 1, 2 do
+		for slot8 = slot1.y, (slot1.y + slot3) - 1, 2 do
 			table.insert(slot2, Vector2(slot1.x, slot8))
 		end
 	end
@@ -641,19 +641,19 @@ function slot0.hasParent(slot0)
 end
 
 function slot0.isFloor(slot0)
-	return slot0:getConfig("belong") == uv0.FLOOR
+	return slot0:getConfig("belong") == slot0.FLOOR
 end
 
 function slot0.isAllWall(slot0)
-	return slot0:getConfig("belong") == uv0.WALL_DIR_ALL
+	return slot0:getConfig("belong") == slot0.WALL_DIR_ALL
 end
 
 function slot0.isRightType(slot0)
-	return slot0:getConfig("belong") == uv0.WALL_DIR_RIGHT
+	return slot0:getConfig("belong") == slot0.WALL_DIR_RIGHT
 end
 
 function slot0.isLeftType(slot0)
-	return slot0:getConfig("belong") == uv0.WALL_DIR_LEFT
+	return slot0:getConfig("belong") == slot0.WALL_DIR_LEFT
 end
 
 function slot0.isFurniture(slot0)
@@ -661,7 +661,9 @@ function slot0.isFurniture(slot0)
 end
 
 function slot0.isMapItem(slot0)
-	if slot0:isFloor() and slot0:getConfig("type") ~= Furniture.TYPE_MAT then
+	slot1 = slot0:getConfig("type")
+
+	if slot0:isFloor() and slot1 ~= Furniture.TYPE_MAT then
 		return true
 	end
 
@@ -691,7 +693,7 @@ function slot0.isOccupy(slot0, slot1, slot2)
 		return
 	end
 
-	for slot7, slot8 in ipairs(slot0:getOccupyGrid(slot0.position)) do
+	for slot7, slot8 in ipairs(slot3) do
 		if slot1 == slot8.x and slot2 == slot8.y then
 			return true
 		end
@@ -763,7 +765,7 @@ end
 function slot0.isConflictPos(slot0, slot1)
 	slot3 = slot1:getOccupyGrid(slot1.position)
 
-	for slot7, slot8 in pairs(slot0:getOccupyGrid(slot0.position)) do
+	for slot7, slot8 in pairs(slot2) do
 		for slot12, slot13 in pairs(slot3) do
 			if slot8.x == slot13.x and slot8.y == slot13.y then
 				return true
@@ -796,10 +798,9 @@ end
 
 function slot0.getTouchSpineConfig(slot0)
 	if slot0:isSpine() then
-		slot2 = slot0:getConfig("spine")[1][3] or {}
-		slot4 = slot2[1]
+		slot4 = slot0:getConfig("spine")[1][3] or {}[1]
 
-		if slot2[3] then
+		if slot0.getConfig("spine")[1][3] or [3] then
 			table.insert(slot3, slot2[1])
 
 			slot4 = slot3[math.random(1, #slot3)]
@@ -813,7 +814,6 @@ function slot0.canBeTouch(slot0)
 	return slot0:isShowDesc() or slot0:isTouchSpine()
 end
 
-slot1[MULTRES] = i18n("word_collection")
 slot0.FURNITURE_TYPE = {
 	i18n("word_wallpaper"),
 	i18n("word_furniture"),
@@ -825,7 +825,7 @@ slot0.FURNITURE_TYPE = {
 }
 
 function slot0.getChineseType(slot0)
-	return uv0.FURNITURE_TYPE[slot0:getConfig("type")]
+	return slot0.FURNITURE_TYPE[slot0:getConfig("type")]
 end
 
 function slot0.getGainby(slot0)
@@ -847,9 +847,11 @@ function slot0.getAnimatorData(slot0)
 end
 
 function slot0.getAnimtorControlName(slot0, slot1)
+	slot2 = {}
+
 	if slot0:hasAnimator() then
 		if type(slot0:getConfig("animator")[1][slot1] or slot3[1] or {}) == "string" then
-			table.insert({}, slot4)
+			table.insert(slot2, slot4)
 		else
 			slot2 = slot4
 		end
@@ -879,19 +881,18 @@ function slot0.canTriggerInteraction(slot0, slot1)
 		return false
 	end
 
-	return slot0:isInterActionSpine() and slot0:canInterActionSpine() or slot0:canInterAction() or slot0:isStageFurniture() or slot0:isArch() or slot0:isTransPort()
+	return (slot0:isInterActionSpine() and slot0:canInterActionSpine()) or slot0:canInterAction() or slot0:isStageFurniture() or slot0:isArch() or slot0:isTransPort()
 end
 
 function slot0.getSurroundGrid(slot0)
 	slot1 = slot0:getPosition()
-	slot2 = {}
 
 	table.insert(slot2, Vector2(slot1.x, slot1.y + 1))
 	table.insert(slot2, Vector2(slot1.x, slot1.y - 1))
 	table.insert(slot2, Vector2(slot1.x - 1, slot1.y))
-	table.insert(slot2, Vector2(slot1.x + 1, slot1.y))
+	table.insert({}, Vector2(slot1.x + 1, slot1.y))
 
-	return slot2
+	return 
 end
 
 return slot0
