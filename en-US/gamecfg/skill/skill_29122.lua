@@ -1,61 +1,63 @@
-slot1.offset = {
-	0,
-	-2,
-	0
-}
-slot0.aniEffect = {
-	effect = "jineng"
-}
-slot2.arg_list = {
-	weapon_id = 79122,
-	emitter = "BattleBulletEmitter"
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetNil"
-}
-slot2.arg_list = {
-	weapon_id = 79124,
-	emitter = "BattleBulletEmitter"
-}
-slot1[2] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetNil"
-}
-slot0.effect_list = {}
-slot3.arg_list = {
-	weapon_id = 79122,
-	emitter = "BattleBulletEmitter"
-}
-slot2[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetNil"
-}
-slot3.arg_list = {
-	weapon_id = 79124,
-	emitter = "BattleBulletEmitter"
-}
-slot2[2] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetNil"
-}
-slot1.effect_list = {}
-slot0[1] = {}
-
 return {
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 79122,
+					emitter = "BattleBulletEmitter"
+				}
+			},
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 79124,
+					emitter = "BattleBulletEmitter"
+				}
+			}
+		}
+	},
 	uiEffect = "",
 	name = "专属弹幕-{namecode:16}II",
 	cd = 0,
 	picture = "0",
 	desc = "专属弹幕-{namecode:16}II",
 	painting = 1,
-	id = 29122
+	id = 29122,
+	aniEffect = {
+		effect = "jineng",
+		offset = {
+			0,
+			-2,
+			0
+		}
+	},
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetNil",
+			arg_list = {
+				weapon_id = 79122,
+				emitter = "BattleBulletEmitter"
+			}
+		},
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetNil",
+			arg_list = {
+				weapon_id = 79124,
+				emitter = "BattleBulletEmitter"
+			}
+		}
+	}
 }

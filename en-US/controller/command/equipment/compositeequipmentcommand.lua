@@ -1,24 +1,21 @@
-slot0 = class("CompositeEquipmentCommand", pm.SimpleCommand)
+class("CompositeEquipmentCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	slot6 = getProxy(BagProxy).getData(slot5)
+	slot10 = pg.equip_data_statistics[pg.compose_data_template[slot1:getBody().id].equip_id]
 
-function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
-	slot6 = getProxy(BagProxy):getData()
-	slot10 = pg.equip_data_statistics[pg.compose_data_template[slot2.id].equip_id]
-
-	if getProxy(PlayerProxy):getData().equip_bag_max < getProxy(EquipmentProxy):getCapacity() + slot2.count then
+	if getProxy(PlayerProxy).getData(slot7).equip_bag_max < getProxy(EquipmentProxy).getCapacity(slot11) + slot1.getBody().count then
 		NoPosMsgBox(i18n("switch_to_shop_tip_noPos"), openDestroyEquip, gotoChargeScene)
 
 		return
 	end
 
 	if slot8.gold < slot9.gold_num * slot3 then
-		slot17[2] = slot9.gold_num * slot3 - slot8.gold
-		slot17[3] = slot9.gold_num * slot3
-		slot16[1] = {
-			59001
-		}
-
-		GoShoppingMsgBox(i18n("switch_to_shop_tip_2", i18n("word_gold")), ChargeScene.TYPE_ITEM, {})
+		GoShoppingMsgBox(i18n("switch_to_shop_tip_2", i18n("word_gold")), ChargeScene.TYPE_ITEM, {
+			{
+				59001,
+				slot9.gold_num * slot3 - slot8.gold,
+				slot9.gold_num * slot3
+			}
+		})
 
 		return
 	end
@@ -35,29 +32,28 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	slot16.id = slot4
-	slot16.num = slot3
-
-	pg.ConnectionMgr.GetInstance():Send(14006, {}, 14007, function (slot0)
+	pg.ConnectionMgr.GetInstance():Send(14006, {
+		id = slot4,
+		num = slot3
+	}, 14007, function (slot0)
 		if slot0.result == 0 then
-			uv0:addEquipmentById(uv1.equip_id, uv2)
-
-			slot3.gold = uv1.gold_num * uv2
-
-			uv3:consume({})
-			uv4:updatePlayer(uv3)
-			uv5:removeItemById(uv1.material_id, uv1.material_num * uv2)
-
-			slot6.id = uv1.equip_id
-			slot4.equipment = Equipment.New({})
-			slot4.count = uv2
-			slot4.composeId = uv7
-
-			uv6:sendNotification(GAME.COMPOSITE_EQUIPMENT_DONE, {})
+			slot0:addEquipmentById(slot1.equip_id, slot0)
+			slot3:consume({
+				gold = slot1.gold_num * slot3
+			})
+			slot4:updatePlayer()
+			slot5:removeItemById(slot1.material_id, slot1.material_num * slot5)
+			slot6:sendNotification(GAME.COMPOSITE_EQUIPMENT_DONE, {
+				equipment = Equipment.New({
+					id = slot1.equip_id
+				}),
+				count = slot2,
+				composeId = slot1.equip_id
+			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("equipment_compositeEquipment", slot0.result))
 		end
 	end)
 end
 
-return slot0
+return class("CompositeEquipmentCommand", pm.SimpleCommand)

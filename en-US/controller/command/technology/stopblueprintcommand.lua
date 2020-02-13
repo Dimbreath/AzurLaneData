@@ -1,10 +1,7 @@
-slot0 = class("StopBluePrintCommand", pm.SimpleCommand)
+class("StopBluePrintCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	slot4 = slot1:getBody().callback
 
-function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
-	slot4 = slot2.callback
-
-	if not getProxy(TechnologyProxy):getBluePrintById(slot2.id) then
+	if not getProxy(TechnologyProxy):getBluePrintById(slot1.getBody().id) then
 		return
 	end
 
@@ -12,20 +9,19 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	slot10.blueprint_id = slot3
-
-	pg.ConnectionMgr.GetInstance():Send(63206, {}, 63207, function (slot0)
+	pg.ConnectionMgr.GetInstance():Send(63206, {
+		blueprint_id = slot3
+	}, 63207, function (slot0)
 		if slot0.result == 0 then
-			uv0:updateStartUpTime(pg.TimeMgr.GetInstance():GetServerTime() - uv0.startTime)
-			uv0:reset()
-			uv1:updateBluePrint(uv0)
+			slot0:updateStartUpTime(slot1)
+			slot0:reset()
+			slot1:updateBluePrint(slot0)
+			slot1.updateBluePrint:sendNotification(GAME.STOP_BLUEPRINT_DONE, {
+				id = slot0.id
+			})
 
-			slot5.id = uv0.id
-
-			uv2:sendNotification(GAME.STOP_BLUEPRINT_DONE, {})
-
-			if uv3 then
-				uv3()
+			if slot1.updateBluePrint then
+				slot3()
 			end
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("technology_stop_erro") .. slot0.result)
@@ -33,4 +29,4 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-return slot0
+return class("StopBluePrintCommand", pm.SimpleCommand)

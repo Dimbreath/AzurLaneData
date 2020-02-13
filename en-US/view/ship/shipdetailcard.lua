@@ -45,7 +45,7 @@ function slot0.updateSelected(slot0, slot1)
 
 	if slot0.selected then
 		if not slot0.selectedTw then
-			slot0.selectedTw = LeanTween.alpha(slot0.selectedGo.transform, 1, uv0):setFrom(0):setEase(LeanTweenType.easeInOutSine):setLoopPingPong()
+			slot0.selectedTw = LeanTween.alpha(slot0.selectedGo.transform, 1, slot0):setFrom(0):setEase(LeanTweenType.easeInOutSine):setLoopPingPong()
 		end
 	elseif slot0.selectedTw then
 		LeanTween.cancel(slot0.selectedTw.uniqueId)
@@ -58,17 +58,15 @@ function slot0.flush(slot0)
 	if tobool(slot0.shipVO) then
 		if not slot1:getConfigTable() then
 			return
-		end
 
-		slot5 = slot1.bindingData and slot4.class == WorldMapShip
+			slot5 = slot1.bindingData and slot4.class == WorldMapShip
 
-		flushShipCard(slot0.tr, slot1)
-		setActive(slot0.npc, slot1:isActivityNpc())
+			flushShipCard(slot0.tr, slot1)
+			setActive(slot0.npc, slot1:isActivityNpc())
 
-		if slot0.lock then
-			slot7 = slot0.lock.gameObject
-
-			slot7.SetActive(slot7, slot1:GetLockState() == Ship.LOCK_STATE_LOCK)
+			if slot0.lock then
+				slot0.lock.gameObject:SetActive(slot1:GetLockState() == Ship.LOCK_STATE_LOCK)
+			end
 		end
 
 		if slot1.energy <= Ship.ENERGY_MID then
@@ -106,8 +104,8 @@ function slot0.flush(slot0)
 			elseif slot1.inFleet and not slot8 and not slot1.inChapter and not slot1.inElite and not slot1.shamInFleet and not slot1.inSham and not slot1.inChallenge and slot1:getFleetId() ~= nil then
 				if math.fmod(slot1:getFleetId(), 10) >= 1 and slot10 <= 6 then
 					GetSpriteFromAtlasAsync("ui/dockyardui_atlas", "biandui0" .. slot10, function (slot0)
-						if not IsNil(uv0.iconStatus) then
-							uv0.iconStatus.sprite = slot0
+						if not IsNil(slot0.iconStatus) then
+							slot0.iconStatus.sprite = slot0
 						end
 					end)
 					slot0.iconStatus:SetNativeSize()

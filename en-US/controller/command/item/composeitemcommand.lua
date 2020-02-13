@@ -1,10 +1,7 @@
-slot0 = class("ComposeItemCommand", pm.SimpleCommand)
+class("ComposeItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	slot7 = getProxy(BagProxy).getItemById(slot5, slot3):getTempCfgTable()
 
-function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
-	slot7 = getProxy(BagProxy):getItemById(slot2.id):getTempCfgTable()
-
-	if slot2.count == 0 then
+	if slot1:getBody().count == 0 then
 		return
 	end
 
@@ -16,27 +13,19 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	slot14.id = slot3
-	slot14.num = slot4
-
-	pg.ConnectionMgr.GetInstance():Send(15006, {}, 15007, function (slot0)
+	pg.ConnectionMgr.GetInstance():Send(15006, {
+		id = slot3,
+		num = slot4
+	}, 15007, function (slot0)
 		if slot0.result == 0 then
-			slot1 = {}
-
-			uv0:removeItemById(uv1, uv2 * uv3)
-
-			slot3.type = DROP_TYPE_ITEM
-			slot3.id = uv4
-			slot3.count = uv2
-			slot2 = Item.New({})
-
+			slot0:removeItemById(slot1, slot2 * slot0)
 			table.insert(slot1, slot2)
-			uv5:sendNotification(GAME.ADD_ITEM, slot2)
-			uv5:sendNotification(GAME.USE_ITEM_DONE, slot1)
+			slot5:sendNotification(GAME.ADD_ITEM, slot2)
+			slot5:sendNotification(GAME.USE_ITEM_DONE, {})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
 		end
 	end)
 end
 
-return slot0
+return class("ComposeItemCommand", pm.SimpleCommand)

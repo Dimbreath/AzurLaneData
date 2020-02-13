@@ -1,23 +1,3 @@
-slot1.offset = {
-	0,
-	-2,
-	0
-}
-slot0.aniEffect = {
-	effect = "jineng"
-}
-slot2.arg_list = {
-	delay = 1.5,
-	number = 9
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillHeal",
-	target_choise = "TargetAllHelp"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "创口贴",
@@ -26,5 +6,25 @@ return {
 	desc = "buff",
 	painting = 1,
 	id = 12048,
-	castCV = "skill"
+	castCV = "skill",
+	aniEffect = {
+		effect = "jineng",
+		offset = {
+			0,
+			-2,
+			0
+		}
+	},
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillHeal",
+			target_choise = "TargetAllHelp",
+			arg_list = {
+				delay = 1.5,
+				number = 9
+			}
+		}
+	}
 }

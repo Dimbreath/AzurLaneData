@@ -115,7 +115,7 @@ function slot1(slot0)
 	slot3 = slot0.battleBtn
 
 	function slot4()
-		slot0 = uv0
+		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.emit
 		slot2 = ActivityMediator
@@ -133,12 +133,12 @@ function slot1(slot0)
 	slot3 = slot0.getBtn
 
 	function slot4()
-		slot0 = uv0
+		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.emit
 		slot2 = ActivityMediator
 		slot2 = slot2.ON_TASK_SUBMIT
-		slot3 = uv0
+		slot3 = slot0
 		slot3 = slot3.curTaskVO
 
 		slot0(slot1, slot2, slot3)
@@ -179,12 +179,12 @@ function slot1(slot0)
 	slot7 = slot0.awardTF
 
 	function slot8()
-		slot0 = uv0
+		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.emit
 		slot2 = BaseUI
 		slot2 = slot2.ON_DROP
-		slot3 = uv1
+		slot3 = slot1
 
 		slot0(slot1, slot2, slot3)
 	end
@@ -206,9 +206,9 @@ function slot1(slot0)
 	if slot6 <= slot5 then
 		slot7(slot8, (setColorStr(slot5, COLOR_GREEN) or slot5) .. "/" .. slot6)
 		setSlider(slot0.slider, 0, slot6, slot5)
-		setText(slot0.step, table.indexof(slot0.taskIDList, slot1, 1) .. "/" .. #slot0.taskIDList)
+		setText(slot0.step, slot7 .. "/" .. #slot0.taskIDList)
 
-		slot8 = slot2.getTaskStatus(slot2)
+		slot8 = slot2:getTaskStatus()
 
 		setActive(slot0.battleBtn, slot8 == 0)
 		setActive(slot0.getBtn, slot8 == 1)
@@ -226,6 +226,7 @@ end
 slot0.OnUpdateFlush = slot1
 
 function slot1(slot0)
+	return
 end
 
 slot0.OnDestroy = slot1

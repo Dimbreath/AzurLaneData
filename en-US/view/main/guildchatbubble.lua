@@ -1,6 +1,4 @@
-slot0 = class("GuildChatBubble", import(".ChatBubble"))
-
-function slot0.init(slot0)
+class("GuildChatBubble", import(".ChatBubble")).init = function (slot0)
 	slot0.nameTF = findTF(slot0.tf, "name_bg/name"):GetComponent("Text")
 	slot0.face = findTF(slot0.tf, "face/content")
 	slot0.circle = findTF(slot0.tf, "shipicon/frame")
@@ -13,4 +11,4 @@ function slot0.init(slot0)
 	slot0.chatBgWidth = 550
 end
 
-return slot0
+return class("GuildChatBubble", import(".ChatBubble"))

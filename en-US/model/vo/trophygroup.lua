@@ -14,9 +14,10 @@ function slot0.getTrophyList(slot0)
 end
 
 function slot0.getDisplayTrophy(slot0)
+	slot1 = #slot0._trophyList
 	slot2 = nil
 
-	while #slot0._trophyList > 0 do
+	while slot1 > 0 do
 		if slot0._trophyList[slot1]:isClaimed() then
 			break
 		end
@@ -28,9 +29,11 @@ function slot0.getDisplayTrophy(slot0)
 end
 
 function slot0.getProgressTrophy(slot0)
+	slot1 = 1
+	slot2 = #slot0._trophyList
 	slot3 = nil
 
-	while 1 <= #slot0._trophyList do
+	while slot1 <= slot2 do
 		if not slot0._trophyList[slot1]:isClaimed() then
 			break
 		end
@@ -56,10 +59,10 @@ function slot0.getTrophyIndex(slot0, slot1)
 end
 
 function slot0.getMaxClaimedTrophy(slot0)
-	while #slot0._trophyList > 0 do
-		slot2 = slot0._trophyList[slot1]
+	slot1 = #slot0._trophyList
 
-		if slot2:isClaimed() then
+	while slot1 > 0 do
+		if slot0._trophyList[slot1]:isClaimed() then
 			return slot2
 		end
 

@@ -1,51 +1,50 @@
-slot0 = class("FragmentSellCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
-	slot5 = getProxy(PlayerProxy):getRawData()
+class("FragmentSellCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	slot3 = getProxy(BagProxy)
+	slot5 = getProxy(PlayerProxy).getRawData(slot4)
 	slot6 = {}
 	slot7 = {}
 
-	for slot11, slot12 in pairs(slot1:getBody()) do
-		slot13 = slot12
+	for slot11, slot12 in pairs(slot2) do
+		slot14 = pg.item_data_statistics[slot12.id]
 
-		if getProxy(BagProxy):getItemCountById(slot13.id) < slot13.count then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_x", pg.item_data_statistics[slot13.id].name))
+		if slot3:getItemCountById(slot12.id) < slot12.count then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_x", slot14.name))
 
 			return
 		end
 
 		slot7[slot14.price[1]] = (slot7[slot14.price[1]] or 0) + slot14.price[2] * slot13.count
-		slot19.id = slot13.id
-		slot19.count = slot13.count
 
-		table.insert(slot6, {})
+		table.insert(slot6, {
+			id = slot13.id,
+			count = slot13.count
+		})
 	end
 
-	slot11.item_list = slot6
-
-	pg.ConnectionMgr.GetInstance():Send(15008, {}, 15009, function (slot0)
+	pg.ConnectionMgr.GetInstance():Send(15008, {
+		item_list = slot6
+	}, 15009, function (slot0)
 		if slot0.result == 0 then
-			for slot4, slot5 in ipairs(uv0) do
+			for slot4, slot5 in ipairs(slot0) do
 				reducePlayerOwn(slot5.type, slot5.id, slot5.count)
 			end
 
-			for slot5, slot6 in pairs(uv1) do
+			for slot5, slot6 in pairs(slot1) do
 				addPlayerOwn(DROP_TYPE_RESOURCE, slot5, slot6)
-
-				slot9.type = DROP_TYPE_RESOURCE
-				slot9.id = slot5
-				slot9.count = slot6
-
-				table.insert({}, {})
+				table.insert(slot1, {
+					type = DROP_TYPE_RESOURCE,
+					id = slot5,
+					count = slot6
+				})
 			end
 
-			slot5.awards = slot1
-
-			uv2:sendNotification(GAME.FRAG_SELL_DONE, {})
+			slot2:sendNotification(GAME.FRAG_SELL_DONE, {
+				awards = slot1
+			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
 		end
 	end)
 end
 
-return slot0
+return class("FragmentSellCommand", pm.SimpleCommand)

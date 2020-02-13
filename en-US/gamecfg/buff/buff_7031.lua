@@ -1,16 +1,3 @@
-slot2.trigger = {
-	"onUpdate"
-}
-slot2.arg_list = {
-	buff_id = 7033,
-	time = 10,
-	target = "TargetSelf"
-}
-slot1[1] = {
-	type = "BattleBuffAddBuff"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "序章欧根旋转盾",
@@ -20,5 +7,18 @@ return {
 	stack = 1,
 	id = 7031,
 	icon = 7031,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onUpdate"
+			},
+			arg_list = {
+				buff_id = 7033,
+				time = 10,
+				target = "TargetSelf"
+			}
+		}
+	}
 }

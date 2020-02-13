@@ -1,20 +1,3 @@
-slot0.castCV = {
-	key = "skill",
-	skinID = 10300040
-}
-slot2.target_choise = {
-	"TargetPlayerMainFleet"
-}
-slot2.arg_list = {
-	buff_id = 7542
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillAddBuff"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "传颂之物后排航空上升3%",
@@ -23,5 +6,22 @@ return {
 	aniEffect = "",
 	desc = "传颂之物后排航空上升3%",
 	painting = "wululu",
-	id = 7541
+	id = 7541,
+	castCV = {
+		key = "skill",
+		skinID = 10300040
+	},
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = {
+				"TargetPlayerMainFleet"
+			},
+			arg_list = {
+				buff_id = 7542
+			}
+		}
+	}
 }

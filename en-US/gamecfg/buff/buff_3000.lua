@@ -1,15 +1,3 @@
-slot2.trigger = {
-	"onAttach",
-	"onStack"
-}
-slot2.arg_list = {
-	rant = 10000
-}
-slot1[1] = {
-	type = "BattleBuffAirStrikeCoolDown"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "快速起飞",
@@ -20,5 +8,17 @@ return {
 	stack = 1,
 	color = "red",
 	icon = 3000,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAirStrikeCoolDown",
+			trigger = {
+				"onAttach",
+				"onStack"
+			},
+			arg_list = {
+				rant = 10000
+			}
+		}
+	}
 }

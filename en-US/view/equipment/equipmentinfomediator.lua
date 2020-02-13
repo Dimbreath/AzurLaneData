@@ -18,129 +18,121 @@ slot0.ON_REVERT = "EquipmentInfoMediator:ON_REVERT"
 slot0.ON_MOVE = "EquipmentInfoMediator:ON_MOVE"
 
 function slot0.register(slot0)
-	if getProxy(ContextProxy):getCurrentContext().scene == SCENE.EQUIPSCENE then
+	if getProxy(ContextProxy).getCurrentContext(slot1).scene == SCENE.EQUIPSCENE then
 		slot0.viewComponent.fromEquipmentView = true
 	end
 
-	slot0.viewComponent:setRevertItem(getProxy(BagProxy):getItemById(Item.REVERT_EQUIPMENT_ID))
-	slot0:bind(uv0.ON_DESTROY, function (slot0, slot1)
-		slot7[1] = uv0.contextData.equipmentId
-		slot7[2] = slot1
-		slot6[1] = {}
-		slot5.equipments = {}
-
-		uv0:sendNotification(GAME.DESTROY_EQUIPMENTS, {})
+	slot0.viewComponent:setRevertItem(slot3)
+	slot0:bind(slot0.ON_DESTROY, function (slot0, slot1)
+		slot0:sendNotification(GAME.DESTROY_EQUIPMENTS, {
+			equipments = {
+				{
+					slot0.contextData.equipmentId,
+					slot1
+				}
+			}
+		})
 	end)
-	slot0:bind(uv0.ON_EQUIP, function (slot0)
-		if uv0.contextData.oldShipId then
-			slot3, slot4 = Ship.canModifyShip(getProxy(BayProxy):getShipById(uv0.contextData.oldShipId))
+	slot0:bind(slot0.ON_EQUIP, function (slot0)
+		if slot0.contextData.oldShipId then
+			slot3, slot4 = Ship.canModifyShip(slot2)
 
 			if not slot3 then
 				pg.TipsMgr.GetInstance():ShowTips(slot4)
 			else
-				if uv0.viewComponent.fromEquipmentView then
-					uv0:sendNotification(EquipmentMediator.NO_UPDATE)
+				if slot0.viewComponent.fromEquipmentView then
+					slot0:sendNotification(EquipmentMediator.NO_UPDATE)
 				end
 
-				slot8.equipmentId = uv0.contextData.equipmentId
-				slot8.shipId = uv0.contextData.shipId
-				slot8.pos = uv0.contextData.pos
-				slot8.oldShipId = uv0.contextData.oldShipId
-				slot8.oldPos = uv0.contextData.oldPos
-
-				uv0:sendNotification(GAME.EQUIP_FROM_SHIP, {})
+				slot0:sendNotification(GAME.EQUIP_FROM_SHIP, {
+					equipmentId = slot0.contextData.equipmentId,
+					shipId = slot0.contextData.shipId,
+					pos = slot0.contextData.pos,
+					oldShipId = slot0.contextData.oldShipId,
+					oldPos = slot0.contextData.oldPos
+				})
 			end
 		else
-			if uv0.viewComponent.fromEquipmentView then
-				uv0:sendNotification(EquipmentMediator.NO_UPDATE)
+			if slot0.viewComponent.fromEquipmentView then
+				slot0:sendNotification(EquipmentMediator.NO_UPDATE)
 			end
 
-			slot4.equipmentId = uv0.contextData.equipmentId
-			slot4.shipId = uv0.contextData.shipId
-			slot4.pos = uv0.contextData.pos
-
-			uv0:sendNotification(GAME.EQUIP_TO_SHIP, {})
+			slot0:sendNotification(GAME.EQUIP_TO_SHIP, {
+				equipmentId = slot0.contextData.equipmentId,
+				shipId = slot0.contextData.shipId,
+				pos = slot0.contextData.pos
+			})
 		end
 	end)
-	slot0:bind(uv0.ON_UNEQUIP, function (slot0)
-		slot4.shipId = uv0.contextData.shipId
-		slot4.pos = uv0.contextData.pos
-
-		uv0:sendNotification(GAME.UNEQUIP_FROM_SHIP, {})
-		uv0.viewComponent:emit(BaseUI.ON_CLOSE)
+	slot0:bind(slot0.ON_UNEQUIP, function (slot0)
+		slot0:sendNotification(GAME.UNEQUIP_FROM_SHIP, {
+			shipId = slot0.contextData.shipId,
+			pos = slot0.contextData.pos
+		})
+		slot0.viewComponent:emit(BaseUI.ON_CLOSE)
 	end)
-	slot0:bind(uv0.ON_INTENSIFY, function (slot0)
-		slot4.mediator = EquipUpgradeMediator
-		slot4.viewComponent = EquipUpgradeLayer
-		slot5.equipmentId = uv0.contextData.equipmentId
-		slot5.shipId = uv0.contextData.shipId
-		slot5.pos = uv0.contextData.pos
-		slot4.data = {}
-
-		uv0:addSubLayers(Context.New({}), true, function ()
-			uv0.viewComponent:emit(BaseUI.ON_CLOSE)
+	slot0:bind(slot0.ON_INTENSIFY, function (slot0)
+		slot0:addSubLayers(Context.New({
+			mediator = EquipUpgradeMediator,
+			viewComponent = EquipUpgradeLayer,
+			data = {
+				equipmentId = slot0.contextData.equipmentId,
+				shipId = slot0.contextData.shipId,
+				pos = slot0.contextData.pos
+			}
+		}), true, function ()
+			slot0.viewComponent:emit(BaseUI.ON_CLOSE)
 		end)
 	end)
-	slot0:bind(uv0.ON_CHANGE, function (slot0)
-		slot1 = getProxy(BayProxy)
+	slot0:bind(slot0.ON_CHANGE, function (slot0)
+		slot5 = getProxy(BayProxy):getEquipsInShips(slot2, slot0.contextData.pos)
 
-		for slot9, slot10 in ipairs(getProxy(EquipmentProxy):getEquipments(true)) do
-			if not slot2:isForbiddenAtPos(slot10, uv0.contextData.pos) then
-				table.insert(slot1:getEquipsInShips(slot1:getShipById(uv0.contextData.shipId), uv0.contextData.pos), slot10)
+		for slot9, slot10 in ipairs(slot4) do
+			if not slot2:isForbiddenAtPos(slot10, slot0.contextData.pos) then
+				table.insert(slot5, slot10)
 			end
 		end
 
 		_.each(slot5, function (slot0)
-			if not uv0:canEquipAtPos(slot0, uv1.contextData.pos) then
+			if not slot0:canEquipAtPos(slot0, slot1.contextData.pos) then
 				slot0.mask = true
 			end
 		end)
-		uv0.viewComponent:emit(BaseUI.ON_CLOSE)
-
-		slot10.equipmentVOs = slot5
-		slot10.shipId = uv0.contextData.shipId
-		slot10.pos = uv0.contextData.pos
-		slot10.warp = StoreHouseConst.WARP_TO_WEAPON
-		slot10.mode = StoreHouseConst.EQUIPMENT
-
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.EQUIPSCENE, {
-			lock = true
+		slot0.viewComponent:emit(BaseUI.ON_CLOSE)
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.EQUIPSCENE, {
+			lock = true,
+			equipmentVOs = slot5,
+			shipId = slot0.contextData.shipId,
+			pos = slot0.contextData.pos,
+			warp = StoreHouseConst.WARP_TO_WEAPON,
+			mode = StoreHouseConst.EQUIPMENT
 		})
 	end)
-	slot0:bind(uv0.ON_REVERT, function (slot0, slot1)
-		slot5.id = slot1
-
-		uv0:sendNotification(GAME.REVERT_EQUIPMENT, {})
-	end)
-	slot0:bind(uv0.ON_MOVE, function (slot0, slot1)
-		uv0.viewComponent:emit(BaseUI.ON_CLOSE)
-
-		slot6.shipId = slot1
-
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {
-			page = 2
+	slot0:bind(slot0.ON_REVERT, function (slot0, slot1)
+		slot0:sendNotification(GAME.REVERT_EQUIPMENT, {
+			id = slot1
 		})
 	end)
-
-	if not getProxy(EquipmentProxy):getEquipmentById(slot0.contextData.equipmentId) then
-		slot8.id = slot5
-		slot6 = Equipment.New({}) or nil
-	end
-
-	slot0.viewComponent:setEquipment(slot6)
-
-	slot7 = getProxy(BayProxy)
-
-	slot0.viewComponent:setShip(slot7:getShipById(slot0.contextData.shipId), slot0.contextData.oldShipId and slot7:getShipById(slot0.contextData.oldShipId) or nil)
-	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
+	slot0:bind(slot0.ON_MOVE, function (slot0, slot1)
+		slot0.viewComponent:emit(BaseUI.ON_CLOSE)
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {
+			page = 2,
+			shipId = slot1
+		})
+	end)
+	slot0.viewComponent:setEquipment(getProxy(EquipmentProxy):getEquipmentById(slot0.contextData.equipmentId) or (slot5 and slot5 > 0 and Equipment.New({
+		id = slot5
+	})) or nil)
+	slot0.viewComponent:setShip(getProxy(BayProxy).getShipById(slot7, slot0.contextData.shipId), (slot0.contextData.oldShipId and slot7:getShipById(slot0.contextData.oldShipId)) or nil)
+	slot0.viewComponent:setPlayer(getProxy(PlayerProxy).getData(slot10))
 end
 
 function slot0.listNotificationInterests(slot0)
-	slot1[1] = GAME.DESTROY_EQUIPMENTS_DONE
-	slot1[2] = GAME.EQUIP_TO_SHIP_DONE
-	slot1[3] = GAME.REVERT_EQUIPMENT_DONE
-
-	return {}
+	return {
+		GAME.DESTROY_EQUIPMENTS_DONE,
+		GAME.EQUIP_TO_SHIP_DONE,
+		GAME.REVERT_EQUIPMENT_DONE
+	}
 end
 
 function slot0.handleNotification(slot0, slot1)

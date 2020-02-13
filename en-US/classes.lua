@@ -614,6 +614,7 @@ USDefenceOilPage = import("view.activity.subPages.USDefenceOilPage")
 USDefencePTPage = import("view.activity.subPages.USDefencePTPage")
 USDefTaskWindowView = import("view.activity.subPages.USDefTaskWindowView")
 USSkirmishPage = import("view.activity.subPages.USSkirmishPage")
+ValentinePage = import("view.activity.subPages.ValentinePage")
 VoteOrderBookPage = import("view.activity.subPages.VoteOrderBookPage")
 WakabaChrisSkinPage = import("view.activity.subPages.WakabaChrisSkinPage")
 WarspiteTransformationPage = import("view.activity.subPages.WarspiteTransformationPage")
@@ -1161,3 +1162,5 @@ BackYardShipsView = import("Mod.BackYard.view.BackYardShipsView")
 BackYardTool = import("Mod.BackYard.view.BackYardTool")
 BackYardView = import("Mod.BackYard.view.BackYardView")
 FurnitureDescWindow = import("Mod.BackYard.view.FurnitureDescWindow")
+
+return

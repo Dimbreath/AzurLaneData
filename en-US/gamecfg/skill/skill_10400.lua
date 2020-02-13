@@ -1,13 +1,3 @@
-slot1.offset = {
-	0,
-	-2,
-	0
-}
-slot0.aniEffect = {
-	effect = "jineng"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "旗舰掩护",
@@ -16,5 +6,14 @@ return {
 	desc = "在队伍中时降低旗舰受到的伤害",
 	painting = 1,
 	id = 10400,
-	castCV = "skill"
+	castCV = "skill",
+	aniEffect = {
+		effect = "jineng",
+		offset = {
+			0,
+			-2,
+			0
+		}
+	},
+	effect_list = {}
 }

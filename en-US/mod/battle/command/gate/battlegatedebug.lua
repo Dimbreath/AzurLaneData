@@ -9,16 +9,16 @@ function slot0.Entrance(slot0, slot1)
 		return
 	end
 
-	slot5.prefabFleet = {}
-	slot5.stageId = PROLOGUE_DUNGEON
-	slot5.system = SYSTEM_DEBUG
-
 	slot1:sendNotification(GAME.BEGIN_STAGE_DONE, {
-		mainFleetId = 1
+		mainFleetId = 1,
+		prefabFleet = {},
+		stageId = PROLOGUE_DUNGEON,
+		system = SYSTEM_DEBUG
 	})
 end
 
 function slot0.Exit()
+	return
 end
 
 return slot0

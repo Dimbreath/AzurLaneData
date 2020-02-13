@@ -1,17 +1,3 @@
-slot2.trigger = {
-	"onUpdate"
-}
-slot2.arg_list = {
-	quota = 9,
-	time = 2,
-	target = "TargetSelf",
-	skill_id = 12331
-}
-slot1[1] = {
-	type = "BattleBuffCastSkill"
-}
-slot0.effect_list = {}
-
 return {
 	desc_get = "",
 	name = "恶毒2",
@@ -23,5 +9,19 @@ return {
 	stack = 1,
 	color = "red",
 	icon = 12330,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onUpdate"
+			},
+			arg_list = {
+				quota = 9,
+				time = 2,
+				target = "TargetSelf",
+				skill_id = 12331
+			}
+		}
+	}
 }

@@ -1,359 +1,361 @@
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[1] = {
-	side = 2,
-	bgName = "star_level_bg_120",
-	dir = 1,
-	bgm = "azumaster-ins",
-	actor = 101020,
-	nameColor = "#a9f548",
-	say = "Polaris的各位和萨拉托加妹妹都加油啊！"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[2] = {
-	actor = 101400,
-	nameColor = "#a9f548",
-	bgName = "star_level_bg_120",
-	side = 2,
-	dir = 1,
-	say = "杜威，裙子！"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot3[1] = {
-	y = 30,
-	type = "shake",
-	delay = 0,
-	dur = 0.2,
-	x = 0,
-	number = 2
-}
-slot2.action = {}
-slot1[3] = {
-	side = 2,
-	bgName = "star_level_bg_120",
-	dir = 1,
-	actor = 101020,
-	nameColor = "#a9f548",
-	say = "哇哇！？对、对不起！我有点太兴奋了……"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[4] = {
-	actor = 101400,
-	nameColor = "#a9f548",
-	bgName = "star_level_bg_120",
-	side = 2,
-	dir = 1,
-	say = "没事的，杜威。大家也在加油鼓劲哦"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot3[1] = {
-	y = 30,
-	type = "shake",
-	delay = 0,
-	dur = 0.2,
-	x = 0,
-	number = 2
-}
-slot2.action = {}
-slot1[5] = {
-	side = 2,
-	bgName = "star_level_bg_120",
-	dir = 1,
-	actor = 101020,
-	nameColor = "#a9f548",
-	say = "嗯！我一想自己是在和列克星敦小姐一起加油，我就感觉全身都有无穷的力气！"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[6] = {
-	actor = 101400,
-	nameColor = "#a9f548",
-	bgName = "star_level_bg_120",
-	side = 2,
-	dir = 1,
-	say = "啊…如果我也能和大家一起跳舞多好啊…"
-}
-slot3.alpha = {
-	0,
-	1
-}
-slot2.flashout = {
-	dur = 1,
-	black = true
-}
-slot3.alpha = {
-	1,
-	0
-}
-slot2.flashin = {
-	delay = 1,
-	dur = 1,
-	black = true
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[7] = {
-	expression = 2,
-	side = 2,
-	dir = 1,
-	actor = 403070,
-	nameColor = "#a9f548",
-	say = "说起来，一开始练习的时候我就想问了，为什么是我们几个被选到Polaris里了？"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[8] = {
-	actor = 202250,
-	side = 2,
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "这是什么意思？"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[9] = {
-	actor = 403070,
-	side = 2,
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "这个舰队里有好几个做过偶像的人，而我们Polaris里面除了我之外大家都没有乐器和歌的经验"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[10] = {
-	expression = 4,
-	nameColor = "#a9f548",
-	side = 2,
-	dir = 1,
-	actor = 102240,
-	say = "说起来是这样的……不过听说不是随机吗"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[11] = {
-	expression = 2,
-	nameColor = "#a9f548",
-	side = 2,
-	dir = 1,
-	actor = 905030,
-	say = "加斯科涅拥有根据各种状况替换行动模式的功能，很适合用于兵装性能测试"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[12] = {
-	expression = 4,
-	nameColor = "#a9f548",
-	side = 2,
-	dir = 1,
-	actor = 905030,
-	say = "另外关于歌声，可以根据龙骨微调整稍微改变外形及音域，对于音乐和舰装的测试皆有裨益"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[13] = {
-	expression = 4,
-	nameColor = "#a9f548",
-	side = 2,
-	dir = 1,
-	actor = 403070,
-	say = "虽然我不大懂你的意思，不过你说的就是你自己的事吧"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[14] = {
-	expression = 3,
-	nameColor = "#a9f548",
-	side = 2,
-	dir = 1,
-	actor = 403070,
-	say = "我不像俾斯麦这方面没什么知识，只能猜就是"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[15] = {
-	actor = 307100,
-	side = 2,
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "好了好了，说这些也没用"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[16] = {
-	actor = 307100,
-	side = 2,
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "这回舰装开发我们重樱有参与，不过我们还没有达到能够干预测试人员选拔的程度"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[17] = {
-	actor = 307100,
-	side = 2,
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "不光是舰装，Polaris我觉得应该也属于这个测试的内容之一吧？"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[18] = {
-	expression = 2,
-	nameColor = "#a9f548",
-	side = 2,
-	dir = 1,
-	actor = 202250,
-	say = "也就说就这样继续就好了吧"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[19] = {
-	actor = 307100,
-	side = 2,
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "没错。先好好把试验完成吧"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[20] = {
-	actor = 307100,
-	side = 2,
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "(……这个μ兵装，我们真的能够用好吗……）"
-}
-slot0.scripts = {}
-
 return {
 	fadeOut = 1.5,
 	mode = 2,
 	fadeType = 1,
 	once = true,
 	id = "OUXIANGHUODONG7",
-	fadein = 1.5
+	fadein = 1.5,
+	scripts = {
+		{
+			side = 2,
+			bgName = "star_level_bg_120",
+			dir = 1,
+			bgm = "azumaster-ins",
+			actor = 101020,
+			nameColor = "#a9f548",
+			say = "Polaris, Saratoga, do your best!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 101400,
+			nameColor = "#a9f548",
+			bgName = "star_level_bg_120",
+			side = 2,
+			dir = 1,
+			say = "Dewey, your skirt!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "star_level_bg_120",
+			dir = 1,
+			actor = 101020,
+			nameColor = "#a9f548",
+			say = "Eek! S-sorry, I got a bit too excited there...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.2,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			actor = 101400,
+			nameColor = "#a9f548",
+			bgName = "star_level_bg_120",
+			side = 2,
+			dir = 1,
+			say = "Don't worry, it's fine. We've all got to do our best to cheer everyone on, right?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "star_level_bg_120",
+			dir = 1,
+			actor = 101020,
+			nameColor = "#a9f548",
+			say = "Yeah...! When I see Lexington cheering alongside us, it's as if energy keeps welling up from within me!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.2,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			actor = 101400,
+			nameColor = "#a9f548",
+			bgName = "star_level_bg_120",
+			side = 2,
+			dir = 1,
+			say = "Ahh... I want to be able to dance on that stage too...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			dir = 1,
+			actor = 403070,
+			nameColor = "#a9f548",
+			say = "Come to think of it, I've been wondering ever since our practice sessions began, but why did we get chosen for Polaris?",
+			flashout = {
+				dur = 1,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 1,
+				dur = 1,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202250,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Hm? What do you mean by that?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 403070,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Aren't there several proper idols in the fleet? Many of them have ample musical experience, yet they chose a complete amateur like me.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			nameColor = "#a9f548",
+			side = 2,
+			dir = 1,
+			actor = 102240,
+			say = "That's a good point... but didn't Akashi say they chose at random?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			nameColor = "#a9f548",
+			side = 2,
+			dir = 1,
+			actor = 905030,
+			say = "Gascogne is equipped with modular protocols, allowing change of modes depending on the conditions. Assessment: Gascogne is very suitable for experimental armament trials.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			nameColor = "#a9f548",
+			side = 2,
+			dir = 1,
+			actor = 905030,
+			say = "Furthermore, regarding vocals: It is possible to adjust external appearance and vocal range by fine-tuning the keel structure, which is beneficial to testing the relationship between ship structure and music.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			nameColor = "#a9f548",
+			side = 2,
+			dir = 1,
+			actor = 403070,
+			say = "...I'm happy for you and I'm going to let you finish, but I don't think the rest of us can do stuff like that.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			nameColor = "#a9f548",
+			side = 2,
+			dir = 1,
+			actor = 403070,
+			say = "Anyways, I'm not an expert on these matters like Bismarck, so I'm just speculating.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307100,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Let's leave it at that. There's no point staying on this subject.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307100,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Though some of us in the Sakura Empire were involved with the development of the Muse System, we had no control over the selection process.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307100,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "I have a feeling that the Muse System isn't the only thing being tested. We, as Polaris, are as well.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			nameColor = "#a9f548",
+			side = 2,
+			dir = 1,
+			actor = 202250,
+			say = "In short, we just have to keep things as they are.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307100,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "That's right. Let's focus on finishing our test run first, shall we?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307100,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "(That's right... This will determine whether or not the Muse System can be used on our ships...)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		}
+	}
 }

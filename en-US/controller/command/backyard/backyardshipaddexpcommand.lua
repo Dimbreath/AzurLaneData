@@ -1,12 +1,10 @@
-slot0 = class("BackYardShipAddExpCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("BackYardShipAddExpCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot2 = slot1:getBody()
 	slot5 = getProxy(BayProxy)
 	slot6 = {}
 	slot7 = {}
 
-	for slot11, slot12 in pairs(getProxy(DormProxy):getBackYardShips()) do
+	for slot11, slot12 in pairs(slot4) do
 		if slot12.state == Ship.STATE_TRAIN then
 			slot13 = slot5:getShipById(slot12.id)
 			slot14 = Clone(slot13)
@@ -16,11 +14,11 @@ function slot0.execute(slot0, slot1)
 				slot5:updateShip(slot13)
 
 				if pg.backyard then
-					slot18.type = BackYardConst.ADDITION_TYPE_EXP
-					slot18.id = slot13.id
-					slot18.exp = slot2
-
-					pg.backyard:sendNotification(BACKYARD.BOAT_ADDITION_DONE, {})
+					pg.backyard:sendNotification(BACKYARD.BOAT_ADDITION_DONE, {
+						type = BackYardConst.ADDITION_TYPE_EXP,
+						id = slot13.id,
+						exp = slot2
+					})
 				end
 			end
 
@@ -29,10 +27,10 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
-	slot11.oldShips = slot7
-	slot11.newShips = slot6
-
-	slot0:sendNotification(DormProxy.SHIPS_EXP_ADDED, {})
+	slot0:sendNotification(DormProxy.SHIPS_EXP_ADDED, {
+		oldShips = slot7,
+		newShips = slot6
+	})
 end
 
-return slot0
+return class("BackYardShipAddExpCommand", pm.SimpleCommand)

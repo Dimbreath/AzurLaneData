@@ -1,454 +1,455 @@
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[1] = {
-	say = "演唱结束",
-	side = 2,
-	bgName = "star_level_bg_120",
-	dir = 1,
-	bgm = "azumaster-ins"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[2] = {
-	actor = 501020,
-	nameColor = "#a9f548",
-	bgName = "star_level_bg_120",
-	side = 2,
-	dir = 1,
-	say = "优美的舞蹈和动人的歌声，再加上震耳欲聋的欢呼声，我不是在做梦吧！"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[3] = {
-	actor = 501030,
-	side = 2,
-	bgName = "star_level_bg_120",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "平海和宁海就像仙女下凡一样，牢牢抓住了所有观众的目光..."
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[4] = {
-	actor = 501010,
-	side = 2,
-	bgName = "star_level_bg_120",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "虽然她们嘴上说得轻松，其实为了今天的亮相，宁海和平海在暗地里下了很多苦功夫呢"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot3[1] = {
-	y = 30,
-	type = "shake",
-	delay = 0,
-	dur = 0.15,
-	x = 0,
-	number = 2
-}
-slot2.action = {}
-slot1[5] = {
-	side = 2,
-	bgName = "star_level_bg_120",
-	dir = 1,
-	actor = 501020,
-	nameColor = "#a9f548",
-	say = "应该先准备一些签名...等她们成为国际巨星之后，嘿嘿嘿"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[6] = {
-	actor = 501040,
-	side = 2,
-	bgName = "star_level_bg_120",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "抚顺姐姐...那个，其实这里的掌声是送给演出的所有人的哦，并不是只有平海和宁海"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[7] = {
-	actor = 501040,
-	side = 2,
-	bgName = "star_level_bg_120",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "而且要想成为国际巨星，那个..."
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[8] = {
-	actor = 501020,
-	side = 2,
-	bgName = "star_level_bg_120",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "没事没事，麻烦事等以后再想，先拿几个签名板去……"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[9] = {
-	actor = 502010,
-	side = 2,
-	bgName = "star_level_bg_120",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "真没想到东煌有一天会以这样的形式活跃在世界舞台上..."
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[10] = {
-	actor = 501010,
-	side = 2,
-	bgName = "star_level_bg_120",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "逸仙姐...？"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[11] = {
-	actor = 502010,
-	side = 2,
-	bgName = "star_level_bg_120",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "不是依靠战争中的飞机大炮，而是凭借和平时的歌声舞蹈赢得的尊重..."
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[12] = {
-	actor = 502010,
-	side = 2,
-	bgName = "star_level_bg_120",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "这样的时代，好像也不错呢"
-}
-slot3.alpha = {
-	0,
-	1
-}
-slot2.flashout = {
-	dur = 1,
-	black = true
-}
-slot3.alpha = {
-	1,
-	0
-}
-slot2.flashin = {
-	delay = 1,
-	dur = 1,
-	black = true
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[13] = {
-	side = 2,
-	bgName = "star_level_bg_120",
-	dir = 1,
-	actor = 905030,
-	nameColor = "#a9f548",
-	say = "兵装测试及歌唱行动结束"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[14] = {
-	actor = 102240,
-	side = 2,
-	bgName = "star_level_bg_120",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "嘿嘿，气氛炒的很火热啊！但是对决可是这边赢了哦！"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[15] = {
-	actor = 312010,
-	side = 2,
-	bgName = "star_level_bg_120",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "刚第一场就如此的火热了！"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[16] = {
-	actor = 312010,
-	side = 2,
-	bgName = "star_level_bg_120",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "感觉现场的气氛都要通过大海传过来了！"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[17] = {
-	actor = 201216,
-	side = 2,
-	bgName = "star_level_bg_120",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "虽然输了，但是能在大家和指挥官面前表演感觉很值呢！"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[18] = {
-	expression = 4,
-	side = 2,
-	bgName = "star_level_bg_120",
-	dir = 1,
-	actor = 101176,
-	nameColor = "#a9f548",
-	say = "实际胜利的pose……"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[19] = {
-	expression = 4,
-	side = 2,
-	bgName = "star_level_bg_120",
-	dir = 1,
-	actor = 502033,
-	nameColor = "#a9f548",
-	say = "姐姐，鞍山她们也来了！"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[20] = {
-	expression = 1,
-	side = 2,
-	bgName = "star_level_bg_120",
-	dir = 1,
-	actor = 502023,
-	nameColor = "#a9f548",
-	say = "大家……！"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[21] = {
-	side = 2,
-	bgName = "star_level_bg_120",
-	dir = 1,
-	say = "在第一场比赛后，{namecode:91}静静地看着自己的新舰装"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[22] = {
-	actor = 307100,
-	side = 2,
-	bgName = "star_level_bg_120",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "（感情的力量……这就是“兵装”……）"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[23] = {
-	expression = 4,
-	side = 2,
-	bgName = "star_level_bg_120",
-	dir = 1,
-	actor = 403070,
-	nameColor = "#a9f548",
-	say = "{namecode:91}？怎么了？"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[24] = {
-	actor = 307100,
-	side = 2,
-	bgName = "star_level_bg_120",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "没什么，我们赶快准备下一场Live吧"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[25] = {
-	actor = 202250,
-	nameColor = "#a9f548",
-	bgName = "star_level_bg_120",
-	side = 2,
-	dir = 1,
-	say = "………………"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[26] = {
-	expression = 4,
-	side = 2,
-	bgName = "star_level_bg_120",
-	dir = 1,
-	actor = 905030,
-	nameColor = "#a9f548",
-	say = "…………大家的，“感情”……"
-}
-slot0.scripts = {}
-
 return {
 	fadeOut = 1.5,
 	mode = 2,
 	fadeType = 1,
 	once = true,
 	id = "OUXIANGHUODONG5",
-	fadein = 1.5
+	fadein = 1.5,
+	scripts = {
+		{
+			say = "Meanwhile, in the stands...",
+			side = 2,
+			bgName = "star_level_bg_120",
+			dir = 1,
+			bgm = "azumaster-ins",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 501020,
+			nameColor = "#a9f548",
+			bgName = "star_level_bg_120",
+			side = 2,
+			dir = 1,
+			say = "Woah, Ning Hai and Ping Hai totally blew my mind~ I've never seen such an exciting concert before! Am I dreaming? Someone pinch me~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 501030,
+			side = 2,
+			bgName = "star_level_bg_120",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Who knows, but that's a fairly normal reaction to a concert~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 501010,
+			side = 2,
+			bgName = "star_level_bg_120",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "They might not have said much, but you can tell how hard those two worked to get up on stage today.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "star_level_bg_120",
+			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
+			say = "Chang Chun, should I grab the signing boards? They're gonna be worth good money after those two get rich and famous, hehe!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			actor = 501040,
+			side = 2,
+			bgName = "star_level_bg_120",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "I don't think you should count your chickens before they hatch...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 501040,
+			side = 2,
+			bgName = "star_level_bg_120",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Besides, getting signatures just so you can scalp them is kind of scummy...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 501020,
+			side = 2,
+			bgName = "star_level_bg_120",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Fine, I'll shelf the idea until they actually get famous! Besides, I know Ning Hai wouldn't pass up an opportunity to sell these things!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 502010,
+			side = 2,
+			bgName = "star_level_bg_120",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "I never thought I'd see the day when the Dragon Empery stands on the same stage as all the other global powers...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 501010,
+			side = 2,
+			bgName = "star_level_bg_120",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Yat Sen...?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 502010,
+			side = 2,
+			bgName = "star_level_bg_120",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Rather than fighting as warships, they're standing on stage as brightly-shining idols, capturing everyone's hearts...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 502010,
+			side = 2,
+			bgName = "star_level_bg_120",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "It's like a dream come true...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "star_level_bg_120",
+			dir = 1,
+			actor = 905030,
+			nameColor = "#a9f548",
+			say = "Concluding joint armament and singing testing protocols.",
+			flashout = {
+				dur = 1,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 1,
+				dur = 1,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 102240,
+			side = 2,
+			bgName = "star_level_bg_120",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Hehe, that felt great! However, we're the ones who will be taking home the gold!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 312010,
+			side = 2,
+			bgName = "star_level_bg_120",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "The first round was full of excitement from the get-go, nya!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 312010,
+			side = 2,
+			bgName = "star_level_bg_120",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "I could feel the entire ocean sizzling with your passion, nya!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 201216,
+			side = 2,
+			bgName = "star_level_bg_120",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Even though we lost, at least we got to show Commander and the others how hard we worked!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "star_level_bg_120",
+			dir = 1,
+			actor = 101176,
+			nameColor = "#a9f548",
+			say = "Tactical victory pose...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "star_level_bg_120",
+			dir = 1,
+			actor = 502033,
+			nameColor = "#a9f548",
+			say = "Look, sis, An Shan and the others came out to see us!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_120",
+			dir = 1,
+			actor = 502023,
+			nameColor = "#a9f548",
+			say = "They really did...!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "star_level_bg_120",
+			dir = 1,
+			say = "Meanwhile, after the first test concert, Akagi stood alone, silently looking at her Muse System.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307100,
+			side = 2,
+			bgName = "star_level_bg_120",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "(\"The power of ideals...\" So, this is the Muse System...)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "star_level_bg_120",
+			dir = 1,
+			actor = 403070,
+			nameColor = "#a9f548",
+			say = "Akagi? Did something happen?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307100,
+			side = 2,
+			bgName = "star_level_bg_120",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Nothing in particular. Let's head to the next venue.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202250,
+			nameColor = "#a9f548",
+			bgName = "star_level_bg_120",
+			side = 2,
+			dir = 1,
+			say = "...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "star_level_bg_120",
+			dir = 1,
+			actor = 905030,
+			nameColor = "#a9f548",
+			say = "\"Ideals\"... Everyone's \"emotions\"...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		}
+	}
 }

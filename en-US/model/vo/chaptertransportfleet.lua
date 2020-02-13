@@ -1,9 +1,10 @@
 slot0 = class("ChapterTransportFleet", ChapterFleet)
 
 function slot0.Ctor(slot0, slot1, slot2)
-	slot3.row = slot1.pos.row
-	slot3.column = slot1.pos.column
-	slot0.line = {}
+	slot0.line = {
+		row = slot1.pos.row,
+		column = slot1.pos.column
+	}
 	slot0.id = slot2
 	slot0.configId = slot1.item_id
 	slot0.restHp = slot1.item_data
@@ -21,22 +22,6 @@ function slot0.getFleetType(slot0)
 end
 
 function slot0.getPrefab(slot0)
-	slot1[1] = {
-		20,
-		16
-	}
-	slot1[2] = {
-		15,
-		11
-	}
-	slot1[3] = {
-		10,
-		1
-	}
-	slot1[4] = {
-		0,
-		0
-	}
 	slot3 = ({
 		"merchant",
 		"merchant_1",
@@ -44,7 +29,7 @@ function slot0.getPrefab(slot0)
 		"merchant_d"
 	})[1]
 
-	for slot7, slot8 in ipairs({}) do
+	for slot7, slot8 in ipairs(slot1) do
 		if slot8[2] <= slot0:getRestHp() and slot0:getRestHp() <= slot8[1] then
 			slot3 = slot2[slot7]
 

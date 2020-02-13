@@ -1,56 +1,51 @@
-slot0 = class("CommanderFormationOPCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
-	slot3 = slot1:getBody().data
-	slot4 = slot3.FleetType
+class("CommanderFormationOPCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	slot4 = slot1:getBody().data.FleetType
 	slot5 = getProxy(CommanderProxy)
 	slot6 = getProxy(ChapterProxy)
 	slot7 = getProxy(FleetProxy)
 
-	if slot3.data.type == LevelUIConst.COMMANDER_OP_RENAME then
-		slot14.id = slot8.id
-		slot14.name = slot8.str
-
-		slot0:sendNotification(GAME.SET_COMMANDER_PREFAB_NAME, {})
+	if slot1.getBody().data.data.type == LevelUIConst.COMMANDER_OP_RENAME then
+		slot0:sendNotification(GAME.SET_COMMANDER_PREFAB_NAME, {
+			id = slot8.id,
+			name = slot8.str
+		})
 
 		return
 	end
 
 	if slot4 == LevelUIConst.FLEET_TYPE_SELECT then
+		slot9 = slot3.fleetId
 		slot10 = slot3.chapterId
 
 		if slot8.type == LevelUIConst.COMMANDER_OP_USE_PREFAB then
-			slot15.pid = slot8.id
-			slot15.fleetId = slot3.fleetId
-
-			slot0:sendNotification(GAME.USE_COMMANDER_PREFBA, {})
+			slot0:sendNotification(GAME.USE_COMMANDER_PREFBA, {
+				pid = slot8.id,
+				fleetId = slot9
+			})
 		elseif slot8.type == LevelUIConst.COMMANDER_OP_RECORD_PREFAB then
-			slot17.id = slot8.id
-			slot17.commanders = slot7:getFleetById(slot9):getCommanders()
-
-			slot0:sendNotification(GAME.SET_COMMANDER_PREFAB, {})
+			slot0:sendNotification(GAME.SET_COMMANDER_PREFAB, {
+				id = slot8.id,
+				commanders = slot7:getFleetById(slot9).getCommanders(slot12)
+			})
 		elseif slot8.type == LevelUIConst.COMMANDER_OP_REST_ALL then
-			slot11[1] = function (slot0)
-				slot4.fleetId = uv1
-				slot4.callback = slot0
-
-				uv0:sendNotification(GAME.COOMMANDER_EQUIP_TO_FLEET, {
-					commanderId = 0,
-					pos = 1
-				})
-			end
-
-			slot11[2] = function (slot0)
-				slot4.fleetId = uv1
-				slot4.callback = slot0
-
-				uv0:sendNotification(GAME.COOMMANDER_EQUIP_TO_FLEET, {
-					commanderId = 0,
-					pos = 2
-				})
-			end
-
-			seriesAsync({})
+			seriesAsync({
+				function (slot0)
+					slot0:sendNotification(GAME.COOMMANDER_EQUIP_TO_FLEET, {
+						commanderId = 0,
+						pos = 1,
+						fleetId = slot0.sendNotification,
+						callback = slot0
+					})
+				end,
+				function (slot0)
+					slot0:sendNotification(GAME.COOMMANDER_EQUIP_TO_FLEET, {
+						commanderId = 0,
+						pos = 2,
+						fleetId = slot0.sendNotification,
+						callback = slot0
+					})
+				end
+			})
 		end
 
 		return
@@ -59,7 +54,7 @@ function slot0.execute(slot0, slot1)
 	if slot4 == LevelUIConst.FLEET_TYPE_EDIT then
 		slot9 = slot3.index
 		slot10 = slot3.chapterId
-		slot12 = slot5:getPrefabFleetById(slot8.id)
+		slot12 = slot5:getPrefabFleetById(slot11)
 
 		if slot8.type == LevelUIConst.COMMANDER_OP_USE_PREFAB then
 			slot13 = {}
@@ -83,65 +78,66 @@ function slot0.execute(slot0, slot1)
 				return
 			end
 
-			for slot22, slot23 in pairs(slot15) do
-				function (slot0)
-					for slot4 = 1, 2, 1 do
-						slot5 = uv0
-
-						if slot5:getCommanderByPos(slot4) then
-							slot0:updateCommander(uv1, slot4, slot5.id)
-						else
-							slot0:updateCommander(uv1, slot4, nil)
-						end
+			function slot18(slot0)
+				for slot4 = 1, 2, 1 do
+					if slot0:getCommanderByPos(slot4) then
+						slot0:updateCommander(slot1, slot4, slot5.id)
+					else
+						slot0:updateCommander(slot1, slot4, nil)
 					end
+				end
 
-					uv2:updateChapter(slot0)
-				end(slot23)
+				slot2:updateChapter(slot0)
+			end
+
+			for slot22, slot23 in pairs(slot15) do
+				slot18(slot23)
 			end
 
 			slot18(slot14)
-
-			slot22.chapterId = slot14.id
-			slot22.index = slot9
-
-			slot0:sendNotification(GAME.COMMANDER_ELIT_FORMATION_OP_DONE, {})
+			slot0:sendNotification(GAME.COMMANDER_ELIT_FORMATION_OP_DONE, {
+				chapterId = slot14.id,
+				index = slot9
+			})
 		elseif slot8.type == LevelUIConst.COMMANDER_OP_RECORD_PREFAB then
 			slot13 = slot8.id
 
-			if table.getCount(slot6:getChapterById(slot10):getEliteFleetCommanders()[slot9]) == 0 then
+			if table.getCount(slot6:getChapterById(slot10).getEliteFleetCommanders(slot14)[slot9]) == 0 then
 				return
 			end
 
+			slot17 = slot5:getPrefabFleetById(slot13)
+
 			for slot21 = 1, 2, 1 do
 				if slot5:getCommanderById(slot16[slot21]) then
-					slot5:getPrefabFleetById(slot13):updateCommander(slot21, slot23)
+					slot17:updateCommander(slot21, slot23)
 				end
 			end
 
 			slot5:updatePrefabFleet(slot17)
 			slot6:updateChapter(slot14)
-
-			slot21.chapterId = slot14.id
-			slot21.index = slot9
-
-			slot0:sendNotification(GAME.COMMANDER_ELIT_FORMATION_OP_DONE, {})
+			slot0:sendNotification(GAME.COMMANDER_ELIT_FORMATION_OP_DONE, {
+				chapterId = slot14.id,
+				index = slot9
+			})
 		elseif slot8.type == LevelUIConst.COMMANDER_OP_REST_ALL then
-			for slot19, slot20 in pairs(slot6:getSameMapChapters(slot6:getChapterById(slot10))) do
-				function (slot0)
-					slot0:updateCommander(uv0, 1, nil)
-					slot0:updateCommander(uv0, 2, nil)
-					uv1:updateChapter(slot0)
-				end(slot20)
+			function slot15(slot0)
+				slot0:updateCommander(slot0, 1, nil)
+				slot0:updateCommander(slot0, 2, nil)
+				slot0.updateCommander:updateChapter(slot0)
+			end
+
+			for slot19, slot20 in pairs(slot14) do
+				slot15(slot20)
 			end
 
 			slot15(slot13)
-
-			slot19.chapterId = slot13.id
-			slot19.index = slot9
-
-			slot0:sendNotification(GAME.COMMANDER_ELIT_FORMATION_OP_DONE, {})
+			slot0:sendNotification(GAME.COMMANDER_ELIT_FORMATION_OP_DONE, {
+				chapterId = slot13.id,
+				index = slot9
+			})
 		end
 	end
 end
 
-return slot0
+return class("CommanderFormationOPCommand", pm.SimpleCommand)

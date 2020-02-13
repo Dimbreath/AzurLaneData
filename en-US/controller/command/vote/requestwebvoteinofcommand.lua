@@ -1,38 +1,37 @@
-slot0 = class("RequestWebVoteInofCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("RequestWebVoteInofCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot2 = slot1:getBody()
-	slot4 = getProxy(VoteProxy):getVoteGroup()
+	slot4 = getProxy(VoteProxy).getVoteGroup(slot3)
 	slot5 = getProxy(ActivityProxy)
 	slot6 = nil
 	slot6 = coroutine.create(function ()
-		if not uv0 or VoteConst.RankExpiredTime < pg.TimeMgr.GetInstance():GetServerTime() - uv1.lastWebRequestTime then
-			slot5.voteId = uv3.configId
+		if not pg.TimeMgr.GetInstance():GetServerTime() or VoteConst.RankExpiredTime < slot0 - slot1.lastWebRequestTime then
+			slot2:sendNotification(GAME.FETCH_VOTE_INFO, {
+				voteId = slot3.configId,
+				callback = function (slot0)
+					slot0 = slot0
 
-			function slot5.callback(slot0)
-				uv0 = slot0
-
-				uv1()
-			end
-
-			uv2:sendNotification(GAME.FETCH_VOTE_INFO, {})
+					slot1()
+				end
+			})
 			coroutine.yield()
 
-			uv1.lastWebRequestTime = pg.TimeMgr.GetInstance():GetServerTime()
+			slot1.lastWebRequestTime = pg.TimeMgr.GetInstance():GetServerTime()
 
-			uv1:InitWebGroup(nil, uv3.configId)
+			slot1:InitWebGroup(nil, slot3.configId)
 		end
 
-		if uv3.callback then
-			uv3.callback()
+		if slot3.callback then
+			slot3.callback()
 		end
 	end)
 
+
+	-- Decompilation error in this vicinity:
 	function ()
-		if uv0 and coroutine.status(uv0) == "suspended" then
-			slot0, slot1 = coroutine.resume(uv0)
+		if slot0 and coroutine.status(coroutine.status) == "suspended" then
+			slot0, slot1 = coroutine.resume(coroutine.resume)
 		end
 	end()
 end
 
-return slot0
+return class("RequestWebVoteInofCommand", pm.SimpleCommand)

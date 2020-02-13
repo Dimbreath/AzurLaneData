@@ -21,13 +21,12 @@ function slot0.Ctor(slot0, slot1)
 	slot0.maskTip = i18n("buy_countLimit")
 
 	onButton(slot0, slot0.mask, function ()
-		pg.TipsMgr.GetInstance():ShowTips(uv0.maskTip)
+		pg.TipsMgr.GetInstance():ShowTips(slot0.maskTip)
 	end, SFX_PANEL)
 end
 
 function slot0.setGroupMask(slot0, slot1)
-	slot2 = slot0.goodsVO
-	slot3 = slot2:getConfig("group_limit") > 0 and slot2 <= slot1
+	slot3 = slot0.goodsVO:getConfig("group_limit") > 0 and slot2 <= slot1
 
 	if isActive(slot0.mask) then
 		return
@@ -73,56 +72,49 @@ function slot0.update(slot0, slot1)
 	slot6 = ""
 
 	if slot1:getConfig("effect_args") == "ship_bag_size" then
-		slot7.type = DROP_TYPE_ITEM
-		slot7.id = Goods.SHIP_BAG_SIZE_ITEM
-
 		updateDrop(slot0.itemTF, {
-			count = 1
+			count = 1,
+			type = DROP_TYPE_ITEM,
+			id = Goods.SHIP_BAG_SIZE_ITEM
 		})
 
 		slot6 = pg.item_data_statistics[Goods.SHIP_BAG_SIZE_ITEM].name or "??"
 	elseif slot5 == "equip_bag_size" then
-		slot7.type = DROP_TYPE_ITEM
-		slot7.id = Goods.EQUIP_BAG_SIZE_ITEM
-
 		updateDrop(slot0.itemTF, {
-			count = 1
+			count = 1,
+			type = DROP_TYPE_ITEM,
+			id = Goods.EQUIP_BAG_SIZE_ITEM
 		})
 
 		slot6 = pg.item_data_statistics[Goods.EQUIP_BAG_SIZE_ITEM].name or "??"
 	elseif slot5 == "commander_bag_size" then
-		slot7.type = DROP_TYPE_ITEM
-		slot7.id = Goods.COMMANDER_BAG_SIZE_ITEM
-
 		updateDrop(slot0.itemTF, {
-			count = 1
+			count = 1,
+			type = DROP_TYPE_ITEM,
+			id = Goods.COMMANDER_BAG_SIZE_ITEM
 		})
 
 		slot6 = pg.item_data_statistics[Goods.COMMANDER_BAG_SIZE_ITEM].name or "??"
 	else
-		slot7 = {
+		updateDrop(slot0.itemTF, {
 			type = slot1:getConfig("type"),
 			id = slot5[1],
 			count = slot1:getConfig("num")
-		}
+		})
+		setText(slot0.nameTxt, shortenString(()["cfg"].name or "??", 6))
 
-		updateDrop(slot0.itemTF, slot7)
-
-		slot6 = slot7.cfg.name or "??"
+		slot7 = ""
+		slot8 = slot1:getConfig("resource_num")
 	end
-
-	setText(slot0.nameTxt, shortenString(slot6, 6))
-
-	slot7 = ""
 
 	if slot1:getConfig("genre") == ShopArgs.ShoppingStreetLimit then
 		slot7 = 100 - slot1.discount .. "%OFF"
-		slot8 = slot1:getConfig("resource_num") * slot1.discount / 100
+		slot8 = slot8 * slot1.discount / 100
 	end
 
 	setActive(slot0.discountTF, false)
 
-	slot0.discountTF = slot1.activityDiscount and findTF(slot0.tr, "item/discount_activity") or findTF(slot0.tr, "item/discount")
+	slot0.discountTF = (slot1.activityDiscount and findTF(slot0.tr, "item/discount_activity")) or findTF(slot0.tr, "item/discount")
 	slot0.discountTextTF = findTF(slot0.discountTF, "Text"):GetComponent(typeof(Text))
 
 	setActive(slot0.discountTF, slot1:hasDiscount())

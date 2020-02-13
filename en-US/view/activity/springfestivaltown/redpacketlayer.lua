@@ -15,6 +15,7 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.willExit(slot0)
+	return
 end
 
 function slot0.initData(slot0)
@@ -45,34 +46,31 @@ end
 
 function slot0.addListener(slot0)
 	onButton(slot0, slot0.backBtn, function ()
-		uv0:closeView()
+		slot0:closeView()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.packetBtn, function ()
-		slot3.activity_id = uv0.activityID
-
 		pg.m02:sendNotification(GAME.ACTIVITY_OPERATION, {
-			cmd = 1
+			cmd = 1,
+			activity_id = slot0.activityID
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.helpBtn, function ()
-		slot2.type = MSGBOX_TYPE_HELP
-		slot2.helps = pg.gametip.help_chunjie_jiulou.tip
-
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.help_chunjie_jiulou.tip
+		})
 	end, SFX_PANEL)
 end
 
 function slot0.updateUI(slot0)
 	slot1 = slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_RED_PACKETS)
 	slot2 = slot1.data3
-	slot4 = math.min(slot1.data1, slot1.data2)
-	slot5 = slot1.data1 - slot4
 
-	setActive(slot0.tagTF, slot4 > 0)
-	setActive(slot0.normalTF, slot5 > 0)
+	setActive(slot0.tagTF, math.min(slot1.data1, slot1.data2) > 0)
+	setActive(slot0.normalTF, slot1.data1 - math.min(slot1.data1, slot1.data2) > 0)
 	setActive(slot0.specialTF, slot4 > 0)
 	setActive(slot0.countTF, slot3 > 0)
-	setText(slot0.normalCountText, slot5)
+	setText(slot0.normalCountText, slot1.data1 - math.min(slot1.data1, slot1.data2))
 	setText(slot0.specialCountText, slot4)
 	setActive(slot0.packetBtn, slot3 > 0)
 	setActive(slot0.packetMask, slot3 <= 0)
@@ -82,12 +80,8 @@ function slot0.tryPlayStory(slot0)
 	slot1 = slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_RED_PACKETS)
 	slot5 = slot1.data1 - math.min(slot1.data1, slot1.data2)
 
-	if slot0.countToStory[slot1.data3 - slot1.data2] then
-		slot8 = pg.StoryMgr.GetInstance()
-
-		if not slot8:IsPlayed(slot7) then
-			slot8:Play(slot7)
-		end
+	if slot0.countToStory[slot1.data3 - slot1.data2] and not pg.StoryMgr.GetInstance():IsPlayed(slot7) then
+		slot8:Play(slot7)
 	end
 end
 

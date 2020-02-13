@@ -22,25 +22,24 @@ function slot0.Update(slot0, slot1)
 	removeOnButton(slot0._tf)
 
 	if slot1:getState() == CommanderBox.STATE_EMPTY then
-		-- Nothing
 	elseif slot2 == CommanderBox.STATE_WAITING then
 		slot0.waitTimer = Timer.New(function ()
-			uv0:removeWaitingTimer()
-			uv0:Update(uv1)
-			uv0._parent:updateCntLabel()
+			slot0:removeWaitingTimer()
+			slot0.removeWaitingTimer:Update(slot0.removeWaitingTimer)
+			slot0.removeWaitingTimer.Update._parent:updateCntLabel()
 		end, slot1.beginTime - pg.TimeMgr.GetInstance():GetServerTime(), 1)
 
 		slot0.waitTimer:Start()
 	elseif slot2 == CommanderBox.STATE_STARTING then
 		slot4 = slot1:getFinishTime() - slot1.beginTime
 		slot0.timer = Timer.New(function ()
-			if uv0 - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
-				uv1:removeTimer()
-				uv1:Update(uv2)
+			if slot0 - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
+				slot1:removeTimer()
+				slot1:Update(slot1.Update)
 			else
-				uv1.timerTxt.text = pg.TimeMgr.GetInstance():DescCDTime(slot1)
+				slot1.timerTxt.text = pg.TimeMgr.GetInstance():DescCDTime(slot1)
 
-				setFillAmount(uv1.slider, 1 - slot1 / uv3)
+				setFillAmount(slot1.slider, 1 - slot1 / slot3)
 			end
 		end, 1, -1)
 
@@ -57,7 +56,7 @@ function slot0.Update(slot0, slot1)
 				return
 			end
 
-			uv0._parent:emit(CommandRoomMediator.ON_GET, uv1.id)
+			slot0._parent:emit(CommandRoomMediator.ON_GET, slot1.id)
 		end, SFX_PANEL)
 	end
 
@@ -73,12 +72,12 @@ slot1 = true
 
 function slot0.playAnim(slot0, slot1)
 	slot0:loadBox(slot0.boxVO:getFetchPrefab(), slot0.boxParent, function (slot0)
-		uv0.spineAnimUI = slot0
+		slot0.spineAnimUI = slot0
 
 		slot0:SetActionCallBack(function (slot0)
 			if slot0 == "finish" then
-				uv0:SetActionCallBack(nil)
-				uv1()
+				slot0:SetActionCallBack(nil)
+				slot0.SetActionCallBack()
 			end
 		end)
 	end)
@@ -97,25 +96,22 @@ function slot0.loadBox(slot0, slot1, slot2, slot3)
 		slot0.prefabName = slot1
 
 		PoolMgr.GetInstance():GetSpineChar(slot1, true, function (slot0)
-			if uv0.exited or uv1 ~= uv0.prefabName then
-				PoolMgr.GetInstance():ReturnSpineChar(uv1, slot0)
+			if slot0.exited or slot1 ~= slot0.prefabName then
+				PoolMgr.GetInstance():ReturnSpineChar(PoolMgr.GetInstance().ReturnSpineChar, slot0)
 
 				return
 			end
 
-			uv0.modelTf = tf(slot0)
-			uv0.modelTf.localScale = Vector3(0.7, 0.7, 1)
-			uv0.modelTf.localPosition = Vector3(0, -123, 0)
+			slot0.modelTf = tf(slot0)
+			slot0.modelTf.localScale = Vector3(0.7, 0.7, 1)
+			slot0.modelTf.localPosition = Vector3(0, -123, 0)
 
-			pg.ViewUtils.SetLayer(uv0.modelTf, Layer.UI)
-			setParent(uv0.modelTf, uv2)
+			pg.ViewUtils.SetLayer(slot0.modelTf, Layer.UI)
+			setParent(slot0.modelTf, )
+			slot0:GetComponent("SpineAnimUI"):SetAction("normal", 0)
 
-			slot1 = slot0:GetComponent("SpineAnimUI")
-
-			slot1:SetAction("normal", 0)
-
-			if uv3 then
-				uv3(slot1)
+			if slot0.GetComponent("SpineAnimUI") then
+				slot3(slot1)
 			end
 		end)
 	end

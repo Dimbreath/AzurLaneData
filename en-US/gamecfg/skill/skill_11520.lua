@@ -1,33 +1,3 @@
-slot1.offset = {
-	0,
-	-2,
-	0
-}
-slot0.aniEffect = {
-	effect = "jineng"
-}
-slot2.target_choise = {
-	"TargetAllHelp",
-	"TargetNationality",
-	"TargetShipType"
-}
-slot3.ship_type_list = {
-	1
-}
-slot3.nationality = {
-	8,
-	9
-}
-slot2.arg_list = {
-	buff_id = 11521
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillAddBuff"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "爱丽丝之心",
@@ -36,5 +6,35 @@ return {
 	desc = "爱丽丝之心",
 	painting = 1,
 	id = 11520,
-	castCV = "skill"
+	castCV = "skill",
+	aniEffect = {
+		effect = "jineng",
+		offset = {
+			0,
+			-2,
+			0
+		}
+	},
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = {
+				"TargetAllHelp",
+				"TargetNationality",
+				"TargetShipType"
+			},
+			arg_list = {
+				buff_id = 11521,
+				ship_type_list = {
+					1
+				},
+				nationality = {
+					8,
+					9
+				}
+			}
+		}
+	}
 }

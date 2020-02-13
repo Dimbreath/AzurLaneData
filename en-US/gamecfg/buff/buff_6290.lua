@@ -1,5 +1,3 @@
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "范围扩大I",
@@ -9,5 +7,6 @@ return {
 	stack = 1,
 	id = 6290,
 	icon = 6290,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {}
 }

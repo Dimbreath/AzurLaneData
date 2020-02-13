@@ -1,16 +1,3 @@
-slot2.trigger = {
-	"onAttach",
-	"onRemove"
-}
-slot2.arg_list = {
-	number = 0.05,
-	attr = "antiAirPower"
-}
-slot1[1] = {
-	type = "BattleBuffAddAttrRatio"
-}
-slot0.effect_list = {}
-
 return {
 	time = 8,
 	name = "Jolly Rogers",
@@ -20,5 +7,18 @@ return {
 	stack = 1,
 	id = 6251,
 	icon = 6251,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddAttrRatio",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				number = 0.05,
+				attr = "antiAirPower"
+			}
+		}
+	}
 }

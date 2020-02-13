@@ -1,60 +1,34 @@
-slot2.trigger = {
-	"onFire"
-}
-slot3.index = {
-	1
-}
-slot2.arg_list = {
-	countTarget = 9,
-	countType = 22260
-}
-slot1[1] = {
-	type = "BattleBuffCount"
-}
-slot2.trigger = {
-	"onBattleBuffCount"
-}
-slot2.arg_list = {
-	skill_id = 22261,
-	target = "TargetSelf",
-	countType = 22260
-}
-slot1[2] = {
-	type = "BattleBuffCastSkill"
-}
-slot0.effect_list = {}
-slot0[1] = {
-	desc = "主炮每进行9次攻击，触发全弹发射-{namecode:66}级I"
-}
-slot0[2] = {
-	desc = "主炮每进行9次攻击，触发全弹发射-{namecode:66}级I"
-}
-slot0[3] = {
-	desc = "主炮每进行9次攻击，触发全弹发射-{namecode:66}级I"
-}
-slot0[4] = {
-	desc = "主炮每进行9次攻击，触发全弹发射-{namecode:66}级I"
-}
-slot0[5] = {
-	desc = "主炮每进行9次攻击，触发全弹发射-{namecode:66}级I"
-}
-slot0[6] = {
-	desc = "主炮每进行9次攻击，触发全弹发射-{namecode:66}级I"
-}
-slot0[7] = {
-	desc = "主炮每进行9次攻击，触发全弹发射-{namecode:66}级I"
-}
-slot0[8] = {
-	desc = "主炮每进行9次攻击，触发全弹发射-{namecode:66}级I"
-}
-slot0[9] = {
-	desc = "主炮每进行9次攻击，触发全弹发射-{namecode:66}级I"
-}
-slot0[10] = {
-	desc = "主炮每进行9次攻击，触发全弹发射-{namecode:66}级I"
-}
-
 return {
+	{
+		desc = "主炮每进行9次攻击，触发全弹发射-{namecode:66}级I"
+	},
+	{
+		desc = "主炮每进行9次攻击，触发全弹发射-{namecode:66}级I"
+	},
+	{
+		desc = "主炮每进行9次攻击，触发全弹发射-{namecode:66}级I"
+	},
+	{
+		desc = "主炮每进行9次攻击，触发全弹发射-{namecode:66}级I"
+	},
+	{
+		desc = "主炮每进行9次攻击，触发全弹发射-{namecode:66}级I"
+	},
+	{
+		desc = "主炮每进行9次攻击，触发全弹发射-{namecode:66}级I"
+	},
+	{
+		desc = "主炮每进行9次攻击，触发全弹发射-{namecode:66}级I"
+	},
+	{
+		desc = "主炮每进行9次攻击，触发全弹发射-{namecode:66}级I"
+	},
+	{
+		desc = "主炮每进行9次攻击，触发全弹发射-{namecode:66}级I"
+	},
+	{
+		desc = "主炮每进行9次攻击，触发全弹发射-{namecode:66}级I"
+	},
 	time = 0,
 	name = "全弹发射",
 	init_effect = "",
@@ -64,5 +38,31 @@ return {
 	stack = 1,
 	color = "red",
 	icon = 20200,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffCount",
+			trigger = {
+				"onFire"
+			},
+			arg_list = {
+				countTarget = 9,
+				countType = 22260,
+				index = {
+					1
+				}
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onBattleBuffCount"
+			},
+			arg_list = {
+				skill_id = 22261,
+				target = "TargetSelf",
+				countType = 22260
+			}
+		}
+	}
 }

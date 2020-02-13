@@ -1,15 +1,3 @@
-slot2.trigger = {
-	"onLeader"
-}
-slot2.arg_list = {
-	buff_id = 40003,
-	target = "TargetSelf"
-}
-slot1[1] = {
-	type = "BattleBuffAddBuff"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "指挥喵触发特殊弹幕",
@@ -20,5 +8,17 @@ return {
 	stack = 1,
 	color = "yellow",
 	icon = 40000,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onLeader"
+			},
+			arg_list = {
+				buff_id = 40003,
+				target = "TargetSelf"
+			}
+		}
+	}
 }

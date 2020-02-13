@@ -12,9 +12,10 @@ function slot0.Ctor(slot0, slot1)
 
 	for slot7, slot8 in ipairs(slot0:bindConfigTable().all) do
 		if slot1.id == slot3[slot8].activity then
-			slot12.shop_id = slot8
-			slot12.buy_count = slot2[slot8] or 0
-			slot0.goods[slot8] = Goods.New({}, Goods.TYPE_ACTIVITY)
+			slot0.goods[slot8] = Goods.New({
+				shop_id = slot8,
+				buy_count = slot2[slot8] or 0
+			}, Goods.TYPE_ACTIVITY)
 		end
 	end
 
@@ -23,12 +24,14 @@ function slot0.Ctor(slot0, slot1)
 end
 
 function slot0.getSortGoods(slot0)
+	slot1 = {}
+
 	for slot5, slot6 in pairs(slot0.goods) do
-		table.insert({}, slot6)
+		table.insert(slot1, slot6)
 	end
 
 	table.sort(slot1, function (slot0, slot1)
-		if (slot0:canPurchase() and 1 or 0) == (slot1:canPurchase() and 1 or 0) then
+		if ((slot0:canPurchase() and 1) or 0) == ((slot1:canPurchase() and 1) or 0) then
 			if slot0:getConfig("order") == slot1:getConfig("order") then
 				return slot0.id < slot1.id
 			else
@@ -51,17 +54,11 @@ function slot0.getGoodsById(slot0, slot1)
 end
 
 function slot0.isEnd(slot0)
-	slot1 = getProxy(ActivityProxy)
-
-	return not slot1:getActivityById(slot0.activityId) or slot1:isEnd()
+	return not getProxy(ActivityProxy):getActivityById(slot0.activityId) or slot1:isEnd()
 end
 
 function slot0.getOpenTime(slot0)
-	slot2 = pg.activity_template[slot0.activityId].time
-	slot3 = slot2[2][1]
-	slot4 = slot2[3][1]
-
-	return string.format("%d/%d/%d - %d/%d/%d", slot3[2], slot3[3], slot3[1], slot4[2], slot4[3], slot4[1])
+	return string.format("%d/%d/%d - %d/%d/%d", pg.activity_template[slot0.activityId].time[2][1][2], pg.activity_template[slot0.activityId].time[2][1][3], pg.activity_template[slot0.activityId].time[2][1][1], pg.activity_template[slot0.activityId].time[3][1][2], pg.activity_template[slot0.activityId].time[3][1][3], pg.activity_template[slot0.activityId].time[3][1][1])
 end
 
 function slot0.getStartTime(slot0)
@@ -73,14 +70,12 @@ function slot0.getStartTime(slot0)
 end
 
 function slot0.getBgPath(slot0)
-	slot2 = pg.activity_template[slot0.activityId].config_client[2] or {
+	return slot1.config_client[1], Color.New(pg.activity_template[slot0.activityId].config_client[2] or {
 		255,
 		255,
 		255,
 		255
-	}
-
-	return slot1.config_client[1], Color.New(slot2[1], slot2[2], slot2[3], slot2[4])
+	}[1], pg.activity_template[slot0.activityId].config_client[2] or [2], pg.activity_template[slot0.activityId].config_client[2] or [3], pg.activity_template[slot0.activityId].config_client[2] or [4])
 end
 
 function slot0.getToggleImage(slot0)

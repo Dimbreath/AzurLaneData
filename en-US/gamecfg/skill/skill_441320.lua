@@ -1,21 +1,3 @@
-slot2.target_choise = {
-	"TargetAllHelp",
-	"TargetShipType"
-}
-slot3.ship_type_list = {
-	6,
-	7
-}
-slot2.arg_list = {
-	buff_id = 441321
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillAddBuff"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "航母-指挥-航空II",
@@ -24,5 +6,23 @@ return {
 	aniEffect = "",
 	desc = "航母-指挥-航空II",
 	painting = 1,
-	id = 441320
+	id = 441320,
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = {
+				"TargetAllHelp",
+				"TargetShipType"
+			},
+			arg_list = {
+				buff_id = 441321,
+				ship_type_list = {
+					6,
+					7
+				}
+			}
+		}
+	}
 }

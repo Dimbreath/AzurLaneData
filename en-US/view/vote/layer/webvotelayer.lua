@@ -23,54 +23,55 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.backBtn, function ()
-		uv0:emit(uv1.ON_CLOSE)
+		slot0:emit(slot1.ON_CLOSE)
 	end, SFX_PANEL)
-
-	slot1 = slot0.voteGroup
-
 	onButton(slot0, slot0.helpBtn, function ()
-		slot2.type = MSGBOX_TYPE_HELP
-		slot2.helps = pg.gametip[uv0].tip
-
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip[pg.MsgboxMgr.GetInstance().ShowMsgBox].tip
+		})
 	end, SFX_PANEL)
-
-	slot3 = slot0.helpBtn
-	slot4 = slot1:getConfig("help_text") and slot1 ~= ""
-
-	setActive(slot3, slot4)
+	setActive(slot0.helpBtn, slot0.voteGroup:getConfig("help_text") and slot1 ~= "")
 	onButton(slot0, slot0.urlBtn, function ()
 		Application.OpenURL(pg.gameset.vote_web_url.description)
 	end, SFX_PANEL)
 
-	slot4[1] = VoteGroupRaceShipPage
-	slot4[2] = VoteGroupRaceRankPage
-	slot3[6] = {}
-	slot4[1] = VoteGroupRaceShipPage
-	slot4[2] = VoteGroupRaceRankPage
-	slot3[7] = {}
-	slot4[1] = VoteGroupRaceShipPage
-	slot4[2] = VoteGroupRaceRankPage
-	slot3[8] = {}
-	slot4[1] = VoteGroupRaceShipPage
-	slot4[2] = VoteGroupRaceRankPage
-	slot3[9] = {}
-	slot4[1] = VoteGroupRaceShipPage
-	slot4[2] = VoteGroupRaceRankPage
-	slot3[10] = {}
-	slot4[1] = VoteGroupRaceShipPage
-	slot4[2] = VoteGroupRaceRankPage
-	slot3[11] = {}
-	slot4[1] = VoteGroupRaceShipPage
-	slot4[2] = VoteGroupRaceRankPage
-	slot3[12] = {}
-	slot4[1] = VoteFinalsRaceShipsPage
-	slot4[2] = VoteFinalsRaceRankPage
-	slot3[13] = {}
-	uv0.PAGES = {}
-	slot2 = uv0.PAGES[slot0.voteGroup.id]
-	slot0.ships = slot2[1].New(slot0:findTF("main/right_panel"), slot0.event)
-	slot0.ranks = slot2[2].New(slot0:findTF("main/left_panel"), slot0.event)
+	slot0.PAGES = {
+		[6] = {
+			VoteGroupRaceShipPage,
+			VoteGroupRaceRankPage
+		},
+		[7] = {
+			VoteGroupRaceShipPage,
+			VoteGroupRaceRankPage
+		},
+		[8] = {
+			VoteGroupRaceShipPage,
+			VoteGroupRaceRankPage
+		},
+		[9] = {
+			VoteGroupRaceShipPage,
+			VoteGroupRaceRankPage
+		},
+		[10] = {
+			VoteGroupRaceShipPage,
+			VoteGroupRaceRankPage
+		},
+		[11] = {
+			VoteGroupRaceShipPage,
+			VoteGroupRaceRankPage
+		},
+		[12] = {
+			VoteGroupRaceShipPage,
+			VoteGroupRaceRankPage
+		},
+		[13] = {
+			VoteFinalsRaceShipsPage,
+			VoteFinalsRaceRankPage
+		}
+	}
+	slot0.ships = slot0.PAGES[slot0.voteGroup.id][1].New(slot0:findTF("main/right_panel"), slot0.event)
+	slot0.ranks = slot0.PAGES[slot0.voteGroup.id][2].New(slot0:findTF("main/left_panel"), slot0.event)
 
 	slot0:UpdateMain()
 end
@@ -94,7 +95,7 @@ end
 function slot0.initRanks(slot0)
 	slot0.ranks:ExecuteAction("Update", slot0.voteGroup)
 	slot0.ranks:AddLoadedCallback(function ()
-		setActive(uv0.ranks.webBtn, false)
+		setActive(slot0.ranks.webBtn, false)
 	end)
 end
 

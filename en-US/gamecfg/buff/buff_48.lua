@@ -1,16 +1,3 @@
-slot0.limit = {}
-slot2.trigger = {
-	"onAttach"
-}
-slot2.arg_list = {
-	add = 0,
-	mul = -3000
-}
-slot1[1] = {
-	type = "BattleBuffFixVelocity"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "绝地反击",
@@ -20,5 +7,18 @@ return {
 	stack = 1,
 	id = 48,
 	icon = 48,
-	last_effect = ""
+	last_effect = "",
+	limit = {},
+	effect_list = {
+		{
+			type = "BattleBuffFixVelocity",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				add = 0,
+				mul = -3000
+			}
+		}
+	}
 }

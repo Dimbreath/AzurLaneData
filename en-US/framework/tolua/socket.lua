@@ -1,22 +1,21 @@
 slot0 = _G
 slot1 = require("string")
 slot2 = require("math")
-slot4 = require("socket.core")
 
-function slot4.connect4(slot0, slot1, slot2, slot3)
-	return uv0.connect(slot0, slot1, slot2, slot3, "inet")
+require("socket.core").connect4 = function (slot0, slot1, slot2, slot3)
+	return slot0:connect(slot1, slot2, slot3, "inet")
 end
 
-function slot4.connect6(slot0, slot1, slot2, slot3)
-	return uv0.connect(slot0, slot1, slot2, slot3, "inet6")
+require("socket.core").connect6 = function (slot0, slot1, slot2, slot3)
+	return slot0:connect(slot1, slot2, slot3, "inet6")
 end
 
-function slot4.bind(slot0, slot1, slot2)
+require("socket.core").bind = function (slot0, slot1, slot2)
 	if slot0 == "*" then
 		slot0 = "0.0.0.0"
 	end
 
-	slot3, slot4 = uv0.dns.getaddrinfo(slot0)
+	slot3, slot4 = slot0.dns.getaddrinfo(slot0)
 
 	if not slot3 then
 		return nil, slot4
@@ -25,11 +24,11 @@ function slot4.bind(slot0, slot1, slot2)
 	slot5, slot6 = nil
 	slot4 = "no info on address"
 
-	for slot10, slot11 in uv1.ipairs(slot3) do
+	for slot10, slot11 in slot1.ipairs(slot3) do
 		if slot11.family == "inet" then
-			slot5, slot4 = uv0.tcp4()
+			slot5, slot4 = slot0.tcp4()
 		else
-			slot5, slot4 = uv0.tcp6()
+			slot5, slot4 = slot0.tcp6()
 		end
 
 		if not slot5 then
@@ -56,138 +55,128 @@ function slot4.bind(slot0, slot1, slot2)
 	return nil, slot4
 end
 
-slot4.try = slot4.newtry()
+require("socket.core").try = require("socket.core").newtry()
 
-function slot4.choose(slot0)
+require("socket.core").choose = function (slot0)
 	return function (slot0, slot1, slot2)
-		if uv0.type(slot0) ~= "string" then
+		if slot0:type() ~= "string" then
 			slot2 = slot1
 			slot1 = slot0
 			slot0 = "default"
 		end
 
-		if not uv1[slot0 or "nil"] then
-			uv0.error("unknown key (" .. uv0.tostring(slot0) .. ")", 3)
+		if not slot1[slot0 or "nil"] then
+			slot0.error("unknown key (" .. slot0:tostring() .. ")", 3)
 		else
 			return slot3(slot1, slot2)
 		end
 	end
 end
 
-slot5 = {}
-slot6 = {}
-slot4.sourcet = slot5
-slot4.sinkt = slot6
-slot4.BLOCKSIZE = 2048
+require("socket.core").sourcet = {
+	["by-length"] = function (slot0, slot1)
+		return slot0.setmetatable({
+			getfd = function ()
+				return slot0:getfd()
+			end,
+			dirty = function ()
+				return slot0:dirty()
+			end
+		}, {
+			__call = function ()
+				if slot0 <= 0 then
+					return nil
+				end
 
-slot6["close-when-done"] = function (slot0)
-	function slot2.getfd()
-		return uv0:getfd()
-	end
+				slot1, slot2 = slot3:receive(slot1.min(slot2.BLOCKSIZE, slot1.min))
 
-	function slot2.dirty()
-		return uv0:dirty()
-	end
+				if slot2 then
+					return nil, slot2
+				end
 
-	function slot3.__call(slot0, slot1, slot2)
-		if not slot1 then
-			uv0:close()
+				slot0 = slot0 - slot4.len(slot1)
 
-			return 1
-		else
-			return uv0:send(slot1)
-		end
-	end
+				return slot1
+			end
+		})
+	end,
+	["until-closed"] = function (slot0)
+		slot1 = nil
 
-	return uv0.setmetatable({}, {})
-end
+		return slot0.setmetatable({
+			getfd = function ()
+				return slot0:getfd()
+			end,
+			dirty = function ()
+				return slot0:dirty()
+			end
+		}, {
+			__call = function ()
+				if slot0 then
+					return nil
+				end
 
-slot6["keep-open"] = function (slot0)
-	function slot2.getfd()
-		return uv0:getfd()
-	end
+				slot0, slot1, slot2 = slot1:receive(slot2.BLOCKSIZE)
 
-	function slot2.dirty()
-		return uv0:dirty()
-	end
+				if not slot1 then
+					return slot0
+				elseif slot1 == "closed" then
+					slot1:close()
 
-	function slot3.__call(slot0, slot1, slot2)
-		if slot1 then
-			return uv0:send(slot1)
-		else
-			return 1
-		end
-	end
+					slot0 = 1
 
-	return uv0.setmetatable({}, {})
-end
+					return slot2
+				else
+					return nil, slot1
+				end
+			end
+		})
+	end,
+	default = ()["until-closed"]
+}
+require("socket.core").sinkt = {
+	["close-when-done"] = function (slot0)
+		return slot0.setmetatable({
+			getfd = function ()
+				return slot0:getfd()
+			end,
+			dirty = function ()
+				return slot0:dirty()
+			end
+		}, {
+			__call = function (slot0, slot1, slot2)
+				if not slot1 then
+					slot0:close()
 
-slot6.default = slot6["keep-open"]
-slot4.sink = slot4.choose(slot6)
+					return 1
+				else
+					return slot0:send(slot1)
+				end
+			end
+		})
+	end,
+	["keep-open"] = function (slot0)
+		return slot0.setmetatable({
+			getfd = function ()
+				return slot0:getfd()
+			end,
+			dirty = function ()
+				return slot0:dirty()
+			end
+		}, {
+			__call = function (slot0, slot1, slot2)
+				if slot1 then
+					return slot0:send(slot1)
+				else
+					return 1
+				end
+			end
+		})
+	end,
+	default = ()["keep-open"]
+}
+require("socket.core").BLOCKSIZE = 2048
+require("socket.core").sink = require("socket.core").choose(slot6)
+require("socket.core").source = require("socket.core").choose()
 
-slot5["by-length"] = function (slot0, slot1)
-	function slot3.getfd()
-		return uv0:getfd()
-	end
-
-	function slot3.dirty()
-		return uv0:dirty()
-	end
-
-	function slot4.__call()
-		if uv0 <= 0 then
-			return nil
-		end
-
-		slot1, slot2 = uv3:receive(uv1.min(uv2.BLOCKSIZE, uv0))
-
-		if slot2 then
-			return nil, slot2
-		end
-
-		uv0 = uv0 - uv4.len(slot1)
-
-		return slot1
-	end
-
-	return uv0.setmetatable({}, {})
-end
-
-slot5["until-closed"] = function (slot0)
-	slot1 = nil
-
-	function slot3.getfd()
-		return uv0:getfd()
-	end
-
-	function slot3.dirty()
-		return uv0:dirty()
-	end
-
-	function slot4.__call()
-		if uv0 then
-			return nil
-		end
-
-		slot0, slot1, slot2 = uv1:receive(uv2.BLOCKSIZE)
-
-		if not slot1 then
-			return slot0
-		elseif slot1 == "closed" then
-			uv1:close()
-
-			uv0 = 1
-
-			return slot2
-		else
-			return nil, slot1
-		end
-	end
-
-	return uv0.setmetatable({}, {})
-end
-
-slot5.default = slot5["until-closed"]
-slot4.source = slot4.choose(slot5)
-
-return slot4
+return require("socket.core")
