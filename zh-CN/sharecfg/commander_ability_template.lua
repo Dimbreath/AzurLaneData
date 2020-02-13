@@ -1,1042 +1,4 @@
 pg = pg or {}
-slot4[2] = {}
-slot4[3] = {
-	1
-}
-slot4[2] = {}
-slot4[3] = {
-	1
-}
-slot4[2] = {}
-slot4[3] = {
-	1
-}
-slot4[2] = {}
-slot4[3] = {
-	2,
-	3,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	2,
-	3,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	2,
-	3,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5,
-	10,
-	13
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5,
-	10,
-	13
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5,
-	10,
-	13
-}
-slot4[2] = {}
-slot4[3] = {
-	8,
-	17
-}
-slot4[2] = {}
-slot4[3] = {
-	8,
-	17
-}
-slot4[2] = {}
-slot4[3] = {
-	8,
-	17
-}
-slot4[2] = {}
-slot4[3] = {
-	1
-}
-slot4[2] = {}
-slot4[3] = {
-	1
-}
-slot4[2] = {}
-slot4[3] = {
-	1
-}
-slot4[2] = {}
-slot4[3] = {
-	2,
-	3
-}
-slot4[2] = {}
-slot4[3] = {
-	2,
-	3
-}
-slot4[2] = {}
-slot4[3] = {
-	2,
-	3
-}
-slot4[2] = {}
-slot4[3] = {
-	6,
-	7
-}
-slot4[2] = {}
-slot4[3] = {
-	6,
-	7
-}
-slot4[2] = {}
-slot4[3] = {
-	6,
-	7
-}
-slot4[2] = {}
-slot4[3] = {
-	10
-}
-slot4[2] = {}
-slot4[3] = {
-	10
-}
-slot4[2] = {}
-slot4[3] = {
-	10
-}
-slot4[2] = {}
-slot4[3] = {
-	1,
-	2,
-	3,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	1,
-	2,
-	3,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	1,
-	2,
-	3,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5,
-	6,
-	7,
-	10,
-	12,
-	13
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5,
-	6,
-	7,
-	10,
-	12,
-	13
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5,
-	6,
-	7,
-	10,
-	12,
-	13
-}
-slot4[2] = {}
-slot4[3] = {
-	1,
-	2,
-	3,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	1,
-	2,
-	3,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	1,
-	2,
-	3,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5,
-	6,
-	7,
-	10,
-	12,
-	13
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5,
-	6,
-	7,
-	10,
-	12,
-	13
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5,
-	6,
-	7,
-	10,
-	12,
-	13
-}
-slot4[2] = {}
-slot4[3] = {
-	8,
-	17
-}
-slot4[2] = {}
-slot4[3] = {
-	8,
-	17
-}
-slot4[2] = {}
-slot4[3] = {
-	8,
-	17
-}
-slot4[2] = {}
-slot4[3] = {
-	1
-}
-slot4[2] = {}
-slot4[3] = {
-	1
-}
-slot4[2] = {}
-slot4[3] = {
-	1
-}
-slot4[2] = {}
-slot4[3] = {
-	2,
-	3,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	2,
-	3,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	2,
-	3,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5,
-	10
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5,
-	10
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5,
-	10
-}
-slot4[2] = {}
-slot4[3] = {
-	6,
-	7
-}
-slot4[2] = {}
-slot4[3] = {
-	6,
-	7
-}
-slot4[2] = {}
-slot4[3] = {
-	6,
-	7
-}
-slot4[2] = {}
-slot4[3] = {
-	12,
-	13
-}
-slot4[2] = {}
-slot4[3] = {
-	12,
-	13
-}
-slot4[2] = {}
-slot4[3] = {
-	12,
-	13
-}
-slot4[2] = {}
-slot4[3] = {
-	8,
-	17
-}
-slot4[2] = {}
-slot4[3] = {
-	8,
-	17
-}
-slot4[2] = {}
-slot4[3] = {
-	8,
-	17
-}
-slot4[2] = {}
-slot4[3] = {
-	1
-}
-slot4[2] = {}
-slot4[3] = {
-	1
-}
-slot4[2] = {}
-slot4[3] = {
-	1
-}
-slot4[2] = {}
-slot4[3] = {
-	2,
-	3,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	2,
-	3,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	2,
-	3,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5,
-	10
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5,
-	10
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5,
-	10
-}
-slot4[2] = {}
-slot4[3] = {
-	6,
-	7
-}
-slot4[2] = {}
-slot4[3] = {
-	6,
-	7
-}
-slot4[2] = {}
-slot4[3] = {
-	6,
-	7
-}
-slot4[2] = {}
-slot4[3] = {
-	12,
-	13
-}
-slot4[2] = {}
-slot4[3] = {
-	12,
-	13
-}
-slot4[2] = {}
-slot4[3] = {
-	12,
-	13
-}
-slot4[2] = {}
-slot4[3] = {
-	8,
-	17
-}
-slot4[2] = {}
-slot4[3] = {
-	8,
-	17
-}
-slot4[2] = {}
-slot4[3] = {
-	8,
-	17
-}
-slot4[2] = {}
-slot4[3] = {
-	1,
-	2,
-	3,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	1,
-	2,
-	3,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	1,
-	2,
-	3,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5,
-	6,
-	7,
-	10,
-	12,
-	13
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5,
-	6,
-	7,
-	10,
-	12,
-	13
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5,
-	6,
-	7,
-	10,
-	12,
-	13
-}
-slot4[2] = {}
-slot4[3] = {
-	1,
-	8,
-	17
-}
-slot4[2] = {}
-slot4[3] = {
-	1,
-	8,
-	17
-}
-slot4[2] = {}
-slot4[3] = {
-	1,
-	8,
-	17
-}
-slot4[2] = {}
-slot4[3] = {
-	2,
-	3,
-	6,
-	12,
-	13
-}
-slot4[2] = {}
-slot4[3] = {
-	2,
-	3,
-	6,
-	12,
-	13
-}
-slot4[2] = {}
-slot4[3] = {
-	2,
-	3,
-	6,
-	12,
-	13
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5,
-	7,
-	10,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5,
-	7,
-	10,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5,
-	7,
-	10,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	1
-}
-slot4[2] = {}
-slot4[3] = {
-	1
-}
-slot4[2] = {}
-slot4[3] = {
-	1
-}
-slot4[2] = {}
-slot4[3] = {
-	1
-}
-slot4[2] = {}
-slot4[3] = {
-	1
-}
-slot4[2] = {}
-slot4[3] = {
-	1
-}
-slot4[2] = {}
-slot4[3] = {
-	2,
-	3,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	2,
-	3,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	2,
-	3,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	2,
-	3,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	2,
-	3,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	2,
-	3,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5
-}
-slot4[2] = {}
-slot4[3] = {
-	7
-}
-slot4[2] = {}
-slot4[3] = {
-	7
-}
-slot4[2] = {}
-slot4[3] = {
-	7
-}
-slot4[2] = {}
-slot4[3] = {
-	7
-}
-slot4[2] = {}
-slot4[3] = {
-	7
-}
-slot4[2] = {}
-slot4[3] = {
-	7
-}
-slot4[2] = {}
-slot4[3] = {
-	8,
-	17
-}
-slot4[2] = {}
-slot4[3] = {
-	8,
-	17
-}
-slot4[2] = {}
-slot4[3] = {
-	8,
-	17
-}
-slot4[2] = {}
-slot4[3] = {
-	8,
-	17
-}
-slot4[2] = {}
-slot4[3] = {
-	8,
-	17
-}
-slot4[2] = {}
-slot4[3] = {
-	8,
-	17
-}
-slot4[2] = {
-	1
-}
-slot4[3] = {}
-slot4[2] = {
-	1
-}
-slot4[3] = {}
-slot4[2] = {
-	1
-}
-slot4[3] = {}
-slot4[2] = {
-	1
-}
-slot4[3] = {}
-slot4[2] = {
-	1
-}
-slot4[3] = {}
-slot4[2] = {
-	1
-}
-slot4[3] = {}
-slot4[2] = {
-	1
-}
-slot4[3] = {}
-slot4[2] = {
-	1
-}
-slot4[3] = {}
-slot4[2] = {
-	1
-}
-slot4[3] = {}
-slot4[2] = {
-	2
-}
-slot4[3] = {}
-slot4[2] = {
-	2
-}
-slot4[3] = {}
-slot4[2] = {
-	2
-}
-slot4[3] = {}
-slot4[2] = {
-	2
-}
-slot4[3] = {}
-slot4[2] = {
-	2
-}
-slot4[3] = {}
-slot4[2] = {
-	2
-}
-slot4[3] = {}
-slot4[2] = {
-	2
-}
-slot4[3] = {}
-slot4[2] = {
-	2
-}
-slot4[3] = {}
-slot4[2] = {
-	2
-}
-slot4[3] = {}
-slot4[2] = {
-	3
-}
-slot4[3] = {}
-slot4[2] = {
-	3
-}
-slot4[3] = {}
-slot4[2] = {
-	3
-}
-slot4[3] = {}
-slot4[2] = {
-	3
-}
-slot4[3] = {}
-slot4[2] = {
-	3
-}
-slot4[3] = {}
-slot4[2] = {
-	3
-}
-slot4[3] = {}
-slot4[2] = {
-	3
-}
-slot4[3] = {}
-slot4[2] = {
-	3
-}
-slot4[3] = {}
-slot4[2] = {
-	3
-}
-slot4[3] = {}
-slot4[2] = {
-	4
-}
-slot4[3] = {}
-slot4[2] = {
-	4
-}
-slot4[3] = {}
-slot4[2] = {}
-slot4[3] = {}
-slot4[2] = {
-	4
-}
-slot4[3] = {}
-slot4[2] = {
-	4
-}
-slot4[3] = {}
-slot4[2] = {}
-slot4[3] = {}
-slot4[2] = {
-	4
-}
-slot4[3] = {}
-slot4[2] = {
-	4
-}
-slot4[3] = {}
-slot4[2] = {}
-slot4[3] = {}
-slot4[2] = {
-	5
-}
-slot4[3] = {}
-slot4[2] = {
-	5
-}
-slot4[3] = {}
-slot4[2] = {
-	5
-}
-slot4[3] = {}
-slot4[2] = {
-	5
-}
-slot4[3] = {}
-slot4[2] = {
-	5
-}
-slot4[3] = {}
-slot4[2] = {
-	5
-}
-slot4[3] = {}
-slot4[2] = {
-	5
-}
-slot4[3] = {}
-slot4[2] = {
-	5
-}
-slot4[3] = {}
-slot4[2] = {
-	5
-}
-slot4[3] = {}
-slot4[2] = {
-	7
-}
-slot4[3] = {}
-slot4[2] = {
-	7
-}
-slot4[3] = {}
-slot4[2] = {
-	7
-}
-slot4[3] = {}
-slot4[2] = {
-	7
-}
-slot4[3] = {}
-slot4[2] = {
-	7
-}
-slot4[3] = {}
-slot4[2] = {
-	7
-}
-slot4[3] = {}
-slot4[2] = {
-	7
-}
-slot4[3] = {}
-slot4[2] = {
-	7
-}
-slot4[3] = {}
-slot4[2] = {
-	7
-}
-slot4[3] = {}
-slot4[2] = {
-	8
-}
-slot4[3] = {}
-slot4[2] = {
-	8
-}
-slot4[3] = {}
-slot4[2] = {
-	8
-}
-slot4[3] = {}
-slot4[2] = {
-	8
-}
-slot4[3] = {}
-slot4[2] = {
-	8
-}
-slot4[3] = {}
-slot4[2] = {
-	8
-}
-slot4[3] = {}
-slot4[2] = {
-	8
-}
-slot4[3] = {}
-slot4[2] = {
-	8
-}
-slot4[3] = {}
-slot4[2] = {
-	8
-}
-slot4[3] = {}
-slot4[2] = {
-	9
-}
-slot4[3] = {}
-slot4[2] = {
-	9
-}
-slot4[3] = {}
-slot4[2] = {
-	9
-}
-slot4[3] = {}
-slot4[2] = {
-	9
-}
-slot4[3] = {}
-slot4[2] = {
-	9
-}
-slot4[3] = {}
-slot4[2] = {
-	9
-}
-slot4[3] = {}
-slot4[2] = {
-	9
-}
-slot4[3] = {}
-slot4[2] = {
-	9
-}
-slot4[3] = {}
-slot4[2] = {
-	9
-}
-slot4[3] = {}
-slot4[2] = {}
-slot4[3] = {
-	2,
-	3,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	2,
-	3,
-	18
-}
-slot4[2] = {}
-slot4[3] = {
-	4,
-	5
-}
-slot4[2] = {}
-slot4[3] = {}
-slot4[2] = {}
-slot4[3] = {
-	1,
-	2
-}
-slot4[2] = {}
-slot4[3] = {}
-slot4[2] = {}
-slot4[3] = {
-	7
-}
-slot4[2] = {}
-slot4[3] = {
-	7
-}
-slot4[2] = {}
-slot4[3] = {
-	8,
-	17
-}
-slot4[2] = {}
-slot4[3] = {
-	8,
-	17
-}
-slot4[2] = {}
-slot4[3] = {}
-slot4[2] = {}
-slot4[3] = {}
-slot4[2] = {}
-slot4[3] = {}
-slot4[2] = {}
-slot4[3] = {}
-slot4[2] = {}
-slot4[3] = {}
-slot4[2] = {}
-slot4[3] = {}
-slot4[2] = {}
-slot4[3] = {}
-slot4[2] = {}
-slot4[3] = {}
-slot4[2] = {}
-slot4[3] = {}
-slot4[2] = {}
-slot4[3] = {}
-slot4[2] = {}
-slot4[3] = {}
-slot4[2] = {}
-slot4[3] = {}
-slot4[2] = {}
-slot4[3] = {}
-slot4[2] = {}
-slot4[3] = {}
 pg.commander_ability_template = {
 	[101] = {
 		cost = 0,
@@ -1050,8 +12,10 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1
+				},
 				2,
 				3
 			}
@@ -1075,8 +39,10 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1
+				},
 				2,
 				4
 			}
@@ -1100,8 +66,10 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1
+				},
 				2,
 				6
 			}
@@ -1125,8 +93,12 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					2,
+					3,
+					18
+				},
 				2,
 				5
 			}
@@ -1158,8 +130,12 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					2,
+					3,
+					18
+				},
 				2,
 				7
 			}
@@ -1191,8 +167,12 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					2,
+					3,
+					18
+				},
 				2,
 				10
 			}
@@ -1224,8 +204,13 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5,
+					10,
+					13
+				},
 				2,
 				8
 			}
@@ -1261,8 +246,13 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5,
+					10,
+					13
+				},
 				2,
 				11
 			}
@@ -1298,8 +288,13 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5,
+					10,
+					13
+				},
 				2,
 				16
 			}
@@ -1335,8 +330,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					8,
+					17
+				},
 				3,
 				10
 			}
@@ -1360,8 +358,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					8,
+					17
+				},
 				3,
 				14
 			}
@@ -1385,8 +386,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					8,
+					17
+				},
 				3,
 				20
 			}
@@ -1410,8 +414,10 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1
+				},
 				3,
 				10
 			}
@@ -1435,8 +441,10 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1
+				},
 				3,
 				14
 			}
@@ -1460,8 +468,10 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1
+				},
 				3,
 				20
 			}
@@ -1485,8 +495,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					2,
+					3
+				},
 				3,
 				6
 			}
@@ -1514,8 +527,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					2,
+					3
+				},
 				3,
 				8
 			}
@@ -1543,8 +559,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					2,
+					3
+				},
 				3,
 				12
 			}
@@ -1572,8 +591,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					6,
+					7
+				},
 				5,
 				10
 			}
@@ -1601,8 +623,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					6,
+					7
+				},
 				5,
 				14
 			}
@@ -1630,8 +655,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					6,
+					7
+				},
 				5,
 				20
 			}
@@ -1659,8 +687,10 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					10
+				},
 				5,
 				5
 			}
@@ -1684,8 +714,10 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					10
+				},
 				5,
 				7
 			}
@@ -1709,8 +741,10 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					10
+				},
 				5,
 				10
 			}
@@ -1734,8 +768,13 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1,
+					2,
+					3,
+					18
+				},
 				4,
 				8
 			}
@@ -1759,8 +798,13 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1,
+					2,
+					3,
+					18
+				},
 				4,
 				11
 			}
@@ -1784,8 +828,13 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1,
+					2,
+					3,
+					18
+				},
 				4,
 				16
 			}
@@ -1809,8 +858,16 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5,
+					6,
+					7,
+					10,
+					12,
+					13
+				},
 				4,
 				10
 			}
@@ -1834,8 +891,16 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5,
+					6,
+					7,
+					10,
+					12,
+					13
+				},
 				4,
 				14
 			}
@@ -1859,8 +924,16 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5,
+					6,
+					7,
+					10,
+					12,
+					13
+				},
 				4,
 				20
 			}
@@ -1884,8 +957,13 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1,
+					2,
+					3,
+					18
+				},
 				12,
 				4
 			}
@@ -1909,8 +987,13 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1,
+					2,
+					3,
+					18
+				},
 				12,
 				5
 			}
@@ -1934,8 +1017,13 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1,
+					2,
+					3,
+					18
+				},
 				12,
 				8
 			}
@@ -1959,8 +1047,16 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5,
+					6,
+					7,
+					10,
+					12,
+					13
+				},
 				12,
 				3
 			}
@@ -1984,8 +1080,16 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5,
+					6,
+					7,
+					10,
+					12,
+					13
+				},
 				12,
 				4
 			}
@@ -2009,8 +1113,16 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5,
+					6,
+					7,
+					10,
+					12,
+					13
+				},
 				12,
 				6
 			}
@@ -2034,8 +1146,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					8,
+					17
+				},
 				6,
 				3
 			}
@@ -2059,8 +1174,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					8,
+					17
+				},
 				6,
 				4
 			}
@@ -2084,8 +1202,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					8,
+					17
+				},
 				6,
 				6
 			}
@@ -2109,8 +1230,10 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1
+				},
 				6,
 				5
 			}
@@ -2134,8 +1257,10 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1
+				},
 				6,
 				7
 			}
@@ -2159,8 +1284,10 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1
+				},
 				6,
 				10
 			}
@@ -2184,8 +1311,12 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					2,
+					3,
+					18
+				},
 				6,
 				4
 			}
@@ -2217,8 +1348,12 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					2,
+					3,
+					18
+				},
 				6,
 				5
 			}
@@ -2250,8 +1385,12 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					2,
+					3,
+					18
+				},
 				6,
 				8
 			}
@@ -2283,8 +1422,12 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5,
+					10
+				},
 				6,
 				3
 			}
@@ -2316,8 +1459,12 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5,
+					10
+				},
 				6,
 				4
 			}
@@ -2349,8 +1496,12 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5,
+					10
+				},
 				6,
 				6
 			}
@@ -2382,8 +1533,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					6,
+					7
+				},
 				6,
 				3
 			}
@@ -2411,8 +1565,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					6,
+					7
+				},
 				6,
 				4
 			}
@@ -2440,8 +1597,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					6,
+					7
+				},
 				6,
 				6
 			}
@@ -2469,8 +1629,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					12,
+					13
+				},
 				6,
 				3
 			}
@@ -2498,8 +1661,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					12,
+					13
+				},
 				6,
 				4
 			}
@@ -2527,8 +1693,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					12,
+					13
+				},
 				6,
 				6
 			}
@@ -2556,8 +1725,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					8,
+					17
+				},
 				1,
 				20
 			}
@@ -2581,8 +1753,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					8,
+					17
+				},
 				1,
 				35
 			}
@@ -2606,8 +1781,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					8,
+					17
+				},
 				1,
 				50
 			}
@@ -2631,8 +1809,10 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1
+				},
 				1,
 				30
 			}
@@ -2656,8 +1836,10 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1
+				},
 				1,
 				42
 			}
@@ -2681,8 +1863,10 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1
+				},
 				1,
 				60
 			}
@@ -2706,8 +1890,12 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					2,
+					3,
+					18
+				},
 				1,
 				50
 			}
@@ -2739,8 +1927,12 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					2,
+					3,
+					18
+				},
 				1,
 				70
 			}
@@ -2772,8 +1964,12 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					2,
+					3,
+					18
+				},
 				1,
 				100
 			}
@@ -2805,8 +2001,12 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5,
+					10
+				},
 				1,
 				75
 			}
@@ -2838,8 +2038,12 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5,
+					10
+				},
 				1,
 				105
 			}
@@ -2871,8 +2075,12 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5,
+					10
+				},
 				1,
 				150
 			}
@@ -2904,8 +2112,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					6,
+					7
+				},
 				1,
 				50
 			}
@@ -2933,8 +2144,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					6,
+					7
+				},
 				1,
 				70
 			}
@@ -2962,8 +2176,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					6,
+					7
+				},
 				1,
 				100
 			}
@@ -2991,8 +2208,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					12,
+					13
+				},
 				1,
 				40
 			}
@@ -3020,8 +2240,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					12,
+					13
+				},
 				1,
 				56
 			}
@@ -3049,8 +2272,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					12,
+					13
+				},
 				1,
 				80
 			}
@@ -3078,8 +2304,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					8,
+					17
+				},
 				8,
 				2
 			}
@@ -3103,8 +2332,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					8,
+					17
+				},
 				8,
 				3
 			}
@@ -3128,8 +2360,11 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					8,
+					17
+				},
 				8,
 				5
 			}
@@ -3153,8 +2388,13 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1,
+					2,
+					3,
+					18
+				},
 				8,
 				3
 			}
@@ -3178,8 +2418,13 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1,
+					2,
+					3,
+					18
+				},
 				8,
 				4
 			}
@@ -3203,8 +2448,13 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1,
+					2,
+					3,
+					18
+				},
 				8,
 				6
 			}
@@ -3228,8 +2478,16 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5,
+					6,
+					7,
+					10,
+					12,
+					13
+				},
 				8,
 				1
 			}
@@ -3253,8 +2511,16 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5,
+					6,
+					7,
+					10,
+					12,
+					13
+				},
 				8,
 				2
 			}
@@ -3278,8 +2544,16 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5,
+					6,
+					7,
+					10,
+					12,
+					13
+				},
 				8,
 				3
 			}
@@ -3303,8 +2577,12 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1,
+					8,
+					17
+				},
 				9,
 				5
 			}
@@ -3328,8 +2606,12 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1,
+					8,
+					17
+				},
 				9,
 				7
 			}
@@ -3353,8 +2635,12 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1,
+					8,
+					17
+				},
 				9,
 				10
 			}
@@ -3378,8 +2664,14 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					2,
+					3,
+					6,
+					12,
+					13
+				},
 				9,
 				3
 			}
@@ -3403,8 +2695,14 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					2,
+					3,
+					6,
+					12,
+					13
+				},
 				9,
 				4
 			}
@@ -3428,8 +2726,14 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					2,
+					3,
+					6,
+					12,
+					13
+				},
 				9,
 				6
 			}
@@ -3453,8 +2757,14 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5,
+					7,
+					10,
+					18
+				},
 				9,
 				1
 			}
@@ -3478,8 +2788,14 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5,
+					7,
+					10,
+					18
+				},
 				9,
 				2
 			}
@@ -3503,8 +2819,14 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5,
+					7,
+					10,
+					18
+				},
 				9,
 				3
 			}
@@ -3528,15 +2850,19 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1
+				},
 				3,
 				8
 			},
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1
+				},
 				6,
 				4
 			}
@@ -3564,15 +2890,19 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1
+				},
 				3,
 				11
 			},
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1
+				},
 				6,
 				5
 			}
@@ -3600,15 +2930,19 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1
+				},
 				3,
 				16
 			},
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1
+				},
 				6,
 				8
 			}
@@ -3636,15 +2970,23 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					2,
+					3,
+					18
+				},
 				2,
 				5
 			},
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					2,
+					3,
+					18
+				},
 				3,
 				5
 			}
@@ -3684,15 +3026,23 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					2,
+					3,
+					18
+				},
 				2,
 				7
 			},
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					2,
+					3,
+					18
+				},
 				3,
 				7
 			}
@@ -3732,15 +3082,23 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					2,
+					3,
+					18
+				},
 				2,
 				10
 			},
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					2,
+					3,
+					18
+				},
 				3,
 				10
 			}
@@ -3780,15 +3138,21 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5
+				},
 				1,
 				50
 			},
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5
+				},
 				2,
 				6
 			}
@@ -3824,15 +3188,21 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5
+				},
 				1,
 				70
 			},
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5
+				},
 				2,
 				8
 			}
@@ -3868,15 +3238,21 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5
+				},
 				1,
 				100
 			},
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5
+				},
 				2,
 				12
 			}
@@ -3912,15 +3288,19 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					7
+				},
 				5,
 				10
 			},
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					7
+				},
 				6,
 				3
 			}
@@ -3948,15 +3328,19 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					7
+				},
 				5,
 				14
 			},
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					7
+				},
 				6,
 				4
 			}
@@ -3984,15 +3368,19 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					7
+				},
 				5,
 				20
 			},
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					7
+				},
 				6,
 				6
 			}
@@ -4020,15 +3408,21 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					8,
+					17
+				},
 				3,
 				10
 			},
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					8,
+					17
+				},
 				6,
 				3
 			}
@@ -4056,15 +3450,21 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					8,
+					17
+				},
 				3,
 				14
 			},
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					8,
+					17
+				},
 				6,
 				4
 			}
@@ -4092,15 +3492,21 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					8,
+					17
+				},
 				3,
 				20
 			},
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					8,
+					17
+				},
 				6,
 				6
 			}
@@ -4128,22 +3534,28 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{
+					1
+				},
+				{},
 				4,
 				8
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					1
+				},
+				{},
 				5,
 				8
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					1
+				},
+				{},
 				6,
 				3
 			}
@@ -4175,22 +3587,28 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{
+					1
+				},
+				{},
 				4,
 				11
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					1
+				},
+				{},
 				5,
 				11
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					1
+				},
+				{},
 				6,
 				4
 			}
@@ -4222,22 +3640,28 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{
+					1
+				},
+				{},
 				4,
 				16
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					1
+				},
+				{},
 				5,
 				16
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					1
+				},
+				{},
 				6,
 				6
 			}
@@ -4269,22 +3693,28 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{
+					2
+				},
+				{},
 				2,
 				7
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					2
+				},
+				{},
 				4,
 				8
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					2
+				},
+				{},
 				9,
 				1
 			}
@@ -4316,22 +3746,28 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{
+					2
+				},
+				{},
 				2,
 				10
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					2
+				},
+				{},
 				4,
 				11
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					2
+				},
+				{},
 				9,
 				2
 			}
@@ -4363,22 +3799,28 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{
+					2
+				},
+				{},
 				2,
 				14
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					2
+				},
+				{},
 				4,
 				16
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					2
+				},
+				{},
 				9,
 				3
 			}
@@ -4410,22 +3852,28 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{
+					3
+				},
+				{},
 				3,
 				8
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					3
+				},
+				{},
 				5,
 				6
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					3
+				},
+				{},
 				9,
 				1
 			}
@@ -4457,22 +3905,28 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{
+					3
+				},
+				{},
 				3,
 				11
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					3
+				},
+				{},
 				5,
 				8
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					3
+				},
+				{},
 				9,
 				2
 			}
@@ -4504,22 +3958,28 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{
+					3
+				},
+				{},
 				3,
 				16
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					3
+				},
+				{},
 				5,
 				12
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					3
+				},
+				{},
 				9,
 				3
 			}
@@ -4551,22 +4011,26 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{
+					4
+				},
+				{},
 				2,
 				6
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					4
+				},
+				{},
 				3,
 				7
 			},
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{},
 				8,
 				1
 			}
@@ -4598,22 +4062,26 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{
+					4
+				},
+				{},
 				2,
 				8
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					4
+				},
+				{},
 				3,
 				10
 			},
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{},
 				8,
 				2
 			}
@@ -4645,22 +4113,26 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{
+					4
+				},
+				{},
 				2,
 				12
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					4
+				},
+				{},
 				3,
 				14
 			},
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{},
 				8,
 				3
 			}
@@ -4692,22 +4164,28 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{
+					5
+				},
+				{},
 				2,
 				7
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					5
+				},
+				{},
 				4,
 				8
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					5
+				},
+				{},
 				6,
 				3
 			}
@@ -4739,22 +4217,28 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{
+					5
+				},
+				{},
 				2,
 				10
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					5
+				},
+				{},
 				4,
 				11
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					5
+				},
+				{},
 				6,
 				4
 			}
@@ -4786,22 +4270,28 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{
+					5
+				},
+				{},
 				2,
 				14
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					5
+				},
+				{},
 				4,
 				16
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					5
+				},
+				{},
 				6,
 				6
 			}
@@ -4833,22 +4323,28 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{
+					7
+				},
+				{},
 				2,
 				8
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					7
+				},
+				{},
 				6,
 				4
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					7
+				},
+				{},
 				8,
 				1
 			}
@@ -4880,22 +4376,28 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{
+					7
+				},
+				{},
 				2,
 				11
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					7
+				},
+				{},
 				6,
 				5
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					7
+				},
+				{},
 				8,
 				2
 			}
@@ -4927,22 +4429,28 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{
+					7
+				},
+				{},
 				2,
 				16
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					7
+				},
+				{},
 				6,
 				8
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					7
+				},
+				{},
 				8,
 				3
 			}
@@ -4974,22 +4482,28 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{
+					8
+				},
+				{},
 				2,
 				8
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					8
+				},
+				{},
 				6,
 				3
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					8
+				},
+				{},
 				9,
 				2
 			}
@@ -5021,22 +4535,28 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{
+					8
+				},
+				{},
 				2,
 				11
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					8
+				},
+				{},
 				6,
 				4
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					8
+				},
+				{},
 				9,
 				3
 			}
@@ -5068,22 +4588,28 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{
+					8
+				},
+				{},
 				2,
 				16
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					8
+				},
+				{},
 				6,
 				6
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					8
+				},
+				{},
 				9,
 				5
 			}
@@ -5115,22 +4641,28 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{
+					9
+				},
+				{},
 				2,
 				8
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					9
+				},
+				{},
 				6,
 				3
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					9
+				},
+				{},
 				8,
 				2
 			}
@@ -5162,22 +4694,28 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{
+					9
+				},
+				{},
 				2,
 				11
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					9
+				},
+				{},
 				6,
 				4
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					9
+				},
+				{},
 				8,
 				3
 			}
@@ -5209,22 +4747,28 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{
+					9
+				},
+				{},
 				2,
 				16
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					9
+				},
+				{},
 				6,
 				6
 			},
 			{
 				1,
-				nil,
-				nil,
+				{
+					9
+				},
+				{},
 				8,
 				5
 			}
@@ -5256,15 +4800,23 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					2,
+					3,
+					18
+				},
 				2,
 				10
 			},
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					2,
+					3,
+					18
+				},
 				6,
 				12
 			}
@@ -5308,15 +4860,18 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					4,
+					5
+				},
 				2,
 				15
 			},
 			{
 				3,
-				nil,
-				nil,
+				{},
+				{},
 				45010,
 				0
 			}
@@ -5354,15 +4909,18 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					1,
+					2
+				},
 				3,
 				15
 			},
 			{
 				3,
-				nil,
-				nil,
+				{},
+				{},
 				45060,
 				0
 			}
@@ -5400,15 +4958,19 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					7
+				},
 				5,
 				15
 			},
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					7
+				},
 				6,
 				8
 			}
@@ -5436,15 +4998,21 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					8,
+					17
+				},
 				3,
 				15
 			},
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{
+					8,
+					17
+				},
 				6,
 				8
 			}
@@ -5472,8 +5040,8 @@ pg.commander_ability_template = {
 		add = {
 			{
 				2,
-				nil,
-				nil,
+				{},
+				{},
 				201,
 				1000
 			}
@@ -5492,8 +5060,8 @@ pg.commander_ability_template = {
 		add = {
 			{
 				2,
-				nil,
-				nil,
+				{},
+				{},
 				202,
 				1000
 			}
@@ -5512,8 +5080,8 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{},
 				10,
 				3
 			}
@@ -5537,29 +5105,29 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{},
 				4,
 				15
 			},
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{},
 				12,
 				15
 			},
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{},
 				8,
 				3
 			},
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{},
 				9,
 				3
 			}
@@ -5595,8 +5163,8 @@ pg.commander_ability_template = {
 		add = {
 			{
 				3,
-				nil,
-				nil,
+				{},
+				{},
 				45020,
 				0
 			}
@@ -5621,8 +5189,8 @@ pg.commander_ability_template = {
 		add = {
 			{
 				3,
-				nil,
-				nil,
+				{},
+				{},
 				45030,
 				0
 			}
@@ -5647,8 +5215,8 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{},
 				11,
 				5
 			}
@@ -5672,29 +5240,29 @@ pg.commander_ability_template = {
 		add = {
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{},
 				11,
 				-3
 			},
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{},
 				2,
 				10
 			},
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{},
 				3,
 				10
 			},
 			{
 				1,
-				nil,
-				nil,
+				{},
+				{},
 				5,
 				10
 			}
@@ -5863,3 +5431,5 @@ pg.commander_ability_template = {
 		5131
 	}
 }
+
+return

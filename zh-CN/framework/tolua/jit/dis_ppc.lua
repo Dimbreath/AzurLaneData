@@ -44,22 +44,22 @@ slot16 = {
 slot17 = {}
 
 function slot18(slot0, slot1)
-	slot2 = uv0
-	slot3 = uv1
+	slot2 = slot0
+	slot3 = slot1
 	slot4 = slot1
 	slot5 = 11
 	slot3 = slot3(slot4, slot5)
 	slot4 = 31
 	slot2 = slot2(slot3, slot4)
-	slot3 = uv0
-	slot4 = uv1
+	slot3 = slot0
+	slot4 = slot1
 	slot5 = slot1
 	slot6 = 6
 	slot4 = slot4(slot5, slot6)
 	slot5 = 31
 	slot3 = slot3(slot4, slot5)
-	slot4 = uv0
-	slot5 = uv1
+	slot4 = slot0
+	slot5 = slot1
 	slot6 = slot1
 	slot7 = 1
 	slot5 = slot5(slot6, slot7)
@@ -310,7 +310,7 @@ slot18[slot20] = slot19
 slot19 = {}
 
 function slot20(slot0, slot1)
-	slot2 = uv0
+	slot2 = slot0
 	slot3 = slot1
 	slot4 = 31
 	slot2 = slot2(slot3, slot4)
@@ -690,7 +690,7 @@ slot23 = {
 	false,
 	"tdiARI",
 	"twiARI",
-	nil,
+	slot22,
 	false,
 	false,
 	"mulliRRI",
@@ -705,9 +705,9 @@ slot23 = {
 	"b_KBJ",
 	"sc",
 	"bKJ",
-	nil,
+	slot14,
 	"rlwimiRR~AAA.",
-	nil,
+	slot15,
 	false,
 	"rlwnmRR~RAA.",
 	"oriNRR~U",
@@ -716,8 +716,8 @@ slot23 = {
 	"xorisRR~U",
 	"andi.RR~U",
 	"andis.RR~U",
-	nil,
-	nil,
+	slot16,
+	slot17,
 	"lwzRRD",
 	"lwzuRRD",
 	"lbzRRD",
@@ -744,20 +744,13 @@ slot23 = {
 	"stfduFRD",
 	false,
 	false,
-	nil,
-	nil,
+	slot18,
+	slot20,
 	false,
-	false
+	false,
+	slot19,
+	slot21
 }
-slot23[4] = slot22
-slot23[19] = slot14
-slot23[21] = slot15
-slot23[30] = slot16
-slot23[31] = slot17
-slot23[58] = slot18
-slot23[59] = slot20
-slot23[62] = slot19
-slot23[63] = slot21
 slot24 = {
 	[0] = "r0",
 	"sp",
@@ -807,8 +800,8 @@ function slot26(slot0)
 	slot1 = 3
 
 	if slot0 <= slot1 then
-		slot1 = uv0
-		slot2 = uv1
+		slot1 = slot0
+		slot2 = slot1
 		slot3 = slot0
 		slot4 = 3
 		slot2 = slot2(slot3, slot4)
@@ -816,14 +809,14 @@ function slot26(slot0)
 
 		return slot1
 	else
-		slot1 = uv2
+		slot1 = slot2
 		slot2 = "4*cr%d+%s"
-		slot3 = uv3
+		slot3 = slot3
 		slot4 = slot0
 		slot5 = 2
 		slot3 = slot3(slot4, slot5)
-		slot4 = uv0
-		slot5 = uv1
+		slot4 = slot0
+		slot5 = slot1
 		slot6 = slot0
 		slot7 = 3
 		slot5 = slot5(slot6, slot7)
@@ -855,15 +848,15 @@ function slot27(slot0, slot1, slot2)
 
 	if slot5 > slot6 then
 		slot5 = slot0.out
-		slot6 = uv0
+		slot6 = slot0
 		slot7 = "%08x  %s  %-7s %s%s\n"
 		slot8 = slot0.addr
 		slot8 = slot8 + slot3
-		slot9 = uv1
+		slot9 = slot1
 		slot10 = slot0.op
 		slot9 = slot9(slot10)
 		slot10 = slot1
-		slot11 = uv2
+		slot11 = slot2
 		slot12 = slot2
 		slot13 = ", "
 		slot11 = slot11(slot12, slot13)
@@ -872,12 +865,12 @@ function slot27(slot0, slot1, slot2)
 		slot5(slot6(slot7, slot8, slot9, slot10, slot11, slot12))
 	else
 		slot5 = slot0.out
-		slot6 = uv0
+		slot6 = slot0
 		slot7 = "%08x  %-7s %s%s\n"
 		slot8 = slot0.addr
 		slot8 = slot8 + slot3
 		slot9 = slot1
-		slot10 = uv2
+		slot10 = slot2
 		slot11 = slot2
 		slot12 = ", "
 		slot10 = slot10(slot11, slot12)
@@ -891,12 +884,12 @@ function slot27(slot0, slot1, slot2)
 end
 
 function slot28(slot0)
-	slot1 = uv0
+	slot1 = slot0
 	slot2 = slot0
 	slot3 = ".long"
 	slot4 = {}
 	slot5 = "0x"
-	slot6 = uv1
+	slot6 = slot1
 	slot7 = slot0.op
 	slot6 = slot6(slot7)
 	slot5 = slot5 .. slot6
@@ -907,21 +900,21 @@ end
 
 function slot29(slot0)
 	slot1 = slot0.pos
-	slot2 = uv0
+	slot2 = slot0
 	slot3 = slot0.code
 	slot4 = slot1 + 1
 	slot5 = slot1 + 4
 	slot2, slot3, slot4, slot5 = slot2(slot3, slot4, slot5)
-	slot6 = uv1
-	slot7 = uv2
+	slot6 = slot1
+	slot7 = slot2
 	slot8 = slot2
 	slot9 = 24
 	slot7 = slot7(slot8, slot9)
-	slot8 = uv2
+	slot8 = slot2
 	slot9 = slot3
 	slot10 = 16
 	slot8 = slot8(slot9, slot10)
-	slot9 = uv2
+	slot9 = slot2
 	slot10 = slot4
 	slot11 = 8
 	slot9 = slot9(slot10, slot11)
@@ -933,26 +926,26 @@ function slot29(slot0)
 	slot0.op = slot6
 	slot10 = nil
 	slot0.rel = slot10
-	slot10 = uv3
-	slot11 = uv4
+	slot10 = slot3
+	slot11 = slot4
 	slot12 = slot2
 	slot13 = 2
 	slot11 = slot11(slot12, slot13)
 	slot10 = slot10[slot11]
-	slot11 = uv5
+	slot11 = slot5
 	slot12 = slot10
 	slot11 = slot11(slot12)
 
 	while slot11 ~= "string" do
 		if not slot10 then
-			slot11 = uv6
+			slot11 = slot6
 			slot12 = slot0
 
 			return slot11(slot12)
 		end
 
-		slot11 = uv7
-		slot12 = uv4
+		slot11 = slot7
+		slot12 = slot4
 		slot13 = slot6
 		slot14 = slot10.shift
 		slot12 = slot12(slot13, slot14)
@@ -961,11 +954,11 @@ function slot29(slot0)
 		slot10 = slot10[slot11]
 	end
 
-	slot11 = uv8
+	slot11 = slot8
 	slot12 = slot10
 	slot13 = "^([a-z0-9_.]*)(.*)"
 	slot11, slot12 = slot11(slot12, slot13)
-	slot13 = uv8
+	slot13 = slot8
 	slot14 = slot12
 	slot15 = "|([a-z0-9_.]*)(.*)"
 	slot13, slot14 = slot13(slot14, slot15)
@@ -974,7 +967,7 @@ function slot29(slot0)
 		slot12 = slot14
 	end
 
-	slot15 = uv9
+	slot15 = slot9
 	slot16 = slot12
 	slot17 = "."
 	slot15, slot16, slot17 = slot15(slot16, slot17)
@@ -983,9 +976,9 @@ function slot29(slot0)
 		slot19 = nil
 
 		if slot18 == "R" then
-			slot20 = uv10
-			slot21 = uv7
-			slot22 = uv4
+			slot20 = slot10
+			slot21 = slot7
+			slot22 = slot4
 			slot23 = slot6
 			slot24 = slot9
 			slot22 = slot22(slot23, slot24)
@@ -995,8 +988,8 @@ function slot29(slot0)
 			slot9 = slot9 - 5
 		elseif slot18 == "F" then
 			slot20 = "f"
-			slot21 = uv7
-			slot22 = uv4
+			slot21 = slot7
+			slot22 = slot4
 			slot23 = slot6
 			slot24 = slot9
 			slot22 = slot22(slot23, slot24)
@@ -1005,8 +998,8 @@ function slot29(slot0)
 			slot19 = slot20 .. slot21
 			slot9 = slot9 - 5
 		elseif slot18 == "A" then
-			slot20 = uv7
-			slot21 = uv4
+			slot20 = slot7
+			slot21 = slot4
 			slot22 = slot6
 			slot23 = slot9
 			slot21 = slot21(slot22, slot23)
@@ -1015,8 +1008,8 @@ function slot29(slot0)
 			slot19 = slot20
 			slot9 = slot9 - 5
 		elseif slot18 == "S" then
-			slot20 = uv11
-			slot21 = uv2
+			slot20 = slot11
+			slot21 = slot2
 			slot22 = slot6
 			slot23 = 27 - slot9
 			slot21 = slot21(slot22, slot23)
@@ -1025,8 +1018,8 @@ function slot29(slot0)
 			slot19 = slot20
 			slot9 = slot9 - 5
 		elseif slot18 == "I" then
-			slot20 = uv11
-			slot21 = uv2
+			slot20 = slot11
+			slot21 = slot2
 			slot22 = slot6
 			slot23 = 16
 			slot21 = slot21(slot22, slot23)
@@ -1034,14 +1027,14 @@ function slot29(slot0)
 			slot20 = slot20(slot21, slot22)
 			slot19 = slot20
 		elseif slot18 == "U" then
-			slot20 = uv7
+			slot20 = slot7
 			slot21 = slot6
 			slot22 = 65535
 			slot20 = slot20(slot21, slot22)
 			slot19 = slot20
 		elseif slot18 == "D" or slot18 == "E" then
-			slot20 = uv11
-			slot21 = uv2
+			slot20 = slot11
+			slot21 = slot2
 			slot22 = slot6
 			slot23 = 16
 			slot21 = slot21(slot22, slot23)
@@ -1049,7 +1042,7 @@ function slot29(slot0)
 			slot20 = slot20(slot21, slot22)
 
 			if slot18 == "E" then
-				slot21 = uv7
+				slot21 = slot7
 				slot22 = slot20
 				slot23 = -4
 				slot21 = slot21(slot22, slot23)
@@ -1061,7 +1054,7 @@ function slot29(slot0)
 			end
 
 			slot21 = #slot7
-			slot22 = uv12
+			slot22 = slot12
 			slot23 = "%d(%s)"
 			slot24 = slot20
 			slot25 = slot8
@@ -1074,8 +1067,8 @@ function slot29(slot0)
 				slot20 = "8"
 
 				if slot18 <= slot20 then
-					slot20 = uv7
-					slot21 = uv4
+					slot20 = slot7
+					slot21 = slot4
 					slot22 = slot6
 					slot23 = slot9
 					slot21 = slot21(slot22, slot23)
@@ -1088,7 +1081,7 @@ function slot29(slot0)
 					end
 
 					slot21 = #slot7
-					slot22 = uv12
+					slot22 = slot12
 					slot23 = "%d(%s)"
 					slot24 = slot20
 					slot25 = slot8
@@ -1096,15 +1089,15 @@ function slot29(slot0)
 					slot7[slot21] = slot22
 				end
 			elseif slot18 == "H" then
-				slot20 = uv7
-				slot21 = uv4
+				slot20 = slot7
+				slot21 = slot4
 				slot22 = slot6
 				slot23 = slot9
 				slot21 = slot21(slot22, slot23)
 				slot22 = 31
 				slot20 = slot20(slot21, slot22)
-				slot21 = uv2
-				slot22 = uv7
+				slot21 = slot2
+				slot22 = slot7
 				slot23 = slot6
 				slot24 = 2
 				slot22 = slot22(slot23, slot24)
@@ -1113,22 +1106,22 @@ function slot29(slot0)
 				slot19 = slot20 + slot21
 				slot9 = slot9 - 5
 			elseif slot18 == "M" then
-				slot20 = uv7
-				slot21 = uv4
+				slot20 = slot7
+				slot21 = slot4
 				slot22 = slot6
 				slot23 = slot9
 				slot21 = slot21(slot22, slot23)
 				slot22 = 31
 				slot20 = slot20(slot21, slot22)
-				slot21 = uv7
+				slot21 = slot7
 				slot22 = slot6
 				slot23 = 32
 				slot21 = slot21(slot22, slot23)
 				slot19 = slot20 + slot21
 			elseif slot18 == "C" then
-				slot20 = uv13
-				slot21 = uv7
-				slot22 = uv4
+				slot20 = slot13
+				slot21 = slot7
+				slot22 = slot4
 				slot23 = slot6
 				slot24 = slot9
 				slot22 = slot22(slot23, slot24)
@@ -1137,12 +1130,12 @@ function slot29(slot0)
 				slot19 = slot20
 				slot9 = slot9 - 5
 			elseif slot18 == "B" then
-				slot20 = uv4
+				slot20 = slot4
 				slot21 = slot6
 				slot22 = 21
 				slot20 = slot20(slot21, slot22)
-				slot21 = uv7
-				slot22 = uv4
+				slot21 = slot7
+				slot22 = slot4
 				slot23 = slot6
 				slot24 = 16
 				slot22 = slot22(slot23, slot24)
@@ -1150,69 +1143,71 @@ function slot29(slot0)
 				slot21 = slot21(slot22, slot23)
 				slot22 = ""
 				slot9 = slot9 - 10
-				slot23 = uv7
+				slot23 = slot7
 				slot24 = slot20
 				slot25 = 4
 				slot23 = slot23(slot24, slot25)
 
 				if slot23 == 0 then
-					slot22 = uv7(slot20, 2) == 0 and "dnz" or "dz"
+					slot22 = (slot7(slot20, 2) == 0 and "dnz") or "dz"
+					slot23 = slot7(slot20, 16)
 
-					if uv7(slot20, 16) == 0 then
-						slot22 = slot22 .. (uv7(slot20, 8) == 0 and "f" or "t")
+					if slot23 == 0 then
+						slot22 = slot22 .. ((slot7(slot20, 8) == 0 and "f") or "t")
 					end
 
-					slot23 = uv7
+					slot23 = slot7
 					slot24 = slot20
 					slot25 = 16
 					slot23 = slot23(slot24, slot25)
 
 					if slot23 == 0 then
-						slot23 = uv13
+						slot23 = slot13
 						slot24 = slot21
 						slot23 = slot23(slot24)
 						slot19 = slot23
 					end
 
-					slot11 = slot11 .. (uv7(slot20, 1) == uv7(uv4(slot6, 15), 1) and "-" or "+")
+					slot11 = slot11 .. ((slot7(slot20, 1) == slot7(slot4(slot6, 15), 1) and "-") or "+")
 				else
-					slot23 = uv7
+					slot23 = slot7
 					slot24 = slot20
 					slot25 = 16
 					slot23 = slot23(slot24, slot25)
 
 					if slot23 == 0 then
-						slot22 = uv14[uv7(slot21, 3) + (uv7(slot20, 8) == 0 and 4 or 0)]
+						slot22 = slot14[slot7(slot21, 3) + ((slot7(slot20, 8) == 0 and 4) or 0)]
+						slot23 = 3
 
-						if slot21 > 3 then
+						if slot21 > slot23 then
 							slot23 = "cr"
-							slot24 = uv4
+							slot24 = slot4
 							slot25 = slot21
 							slot26 = 2
 							slot24 = slot24(slot25, slot26)
 							slot19 = slot23 .. slot24
 						end
 
-						slot11 = slot11 .. (uv7(slot20, 1) == uv7(uv4(slot6, 15), 1) and "-" or "+")
+						slot11 = slot11 .. ((slot7(slot20, 1) == slot7(slot4(slot6, 15), 1) and "-") or "+")
 					end
 				end
 
-				slot23 = uv15
+				slot23 = slot15
 				slot24 = slot11
 				slot25 = "_"
 				slot26 = slot22
 				slot23 = slot23(slot24, slot25, slot26)
 				slot11 = slot23
 			elseif slot18 == "J" then
-				slot20 = uv11
-				slot21 = uv2
+				slot20 = slot11
+				slot21 = slot2
 				slot22 = slot6
 				slot23 = 27 - slot9
 				slot21 = slot21(slot22, slot23)
 				slot22 = 29 - slot9
 				slot20 = slot20(slot21, slot22)
 				slot19 = slot20 * 4
-				slot20 = uv7
+				slot20 = slot7
 				slot21 = slot6
 				slot22 = 2
 				slot20 = slot20(slot21, slot22)
@@ -1225,12 +1220,12 @@ function slot29(slot0)
 
 				slot0.rel = slot19
 				slot20 = "0x"
-				slot21 = uv16
+				slot21 = slot16
 				slot22 = slot19
 				slot21 = slot21(slot22)
 				slot19 = slot20 .. slot21
 			elseif slot18 == "K" then
-				slot20 = uv7
+				slot20 = slot7
 				slot21 = slot6
 				slot22 = 1
 				slot20 = slot20(slot21, slot22)
@@ -1241,7 +1236,7 @@ function slot29(slot0)
 					slot11 = slot20 .. slot21
 				end
 
-				slot20 = uv7
+				slot20 = slot7
 				slot21 = slot6
 				slot22 = 2
 				slot20 = slot20(slot21, slot22)
@@ -1252,8 +1247,8 @@ function slot29(slot0)
 					slot11 = slot20 .. slot21
 				end
 			elseif slot18 == "X" or slot18 == "Y" then
-				slot20 = uv7
-				slot21 = uv4
+				slot20 = slot7
+				slot21 = slot4
 				slot22 = slot6
 				slot23 = slot9 + 2
 				slot21 = slot21(slot22, slot23)
@@ -1272,14 +1267,14 @@ function slot29(slot0)
 				slot9 = slot9 - 5
 			elseif slot18 == "W" then
 				slot20 = "cr"
-				slot21 = uv7
+				slot21 = slot7
 				slot22 = slot6
 				slot23 = 7
 				slot21 = slot21(slot22, slot23)
 				slot19 = slot20 .. slot21
 			elseif slot18 == "Z" then
-				slot20 = uv7
-				slot21 = uv4
+				slot20 = slot7
+				slot21 = slot4
 				slot22 = slot6
 				slot23 = slot9 - 4
 				slot21 = slot21(slot22, slot23)
@@ -1289,7 +1284,7 @@ function slot29(slot0)
 				slot9 = slot9 - 10
 			elseif slot18 == ">" then
 				slot20 = #slot7
-				slot21 = uv4
+				slot21 = slot4
 				slot22 = #slot7
 				slot22 = slot7[slot22]
 				slot23 = 1
@@ -1306,9 +1301,9 @@ function slot29(slot0)
 					end
 				end
 			elseif slot18 == "L" then
-				slot11 = uv15(slot11, "_", uv7(slot6, 2097152) ~= 0 and "d" or "w")
+				slot11 = slot15(slot11, "_", (slot7(slot6, 2097152) ~= 0 and "d") or "w")
 			elseif slot18 == "." then
-				slot20 = uv7
+				slot20 = slot7
 				slot21 = slot6
 				slot22 = 1
 				slot20 = slot20(slot21, slot22)
@@ -1373,7 +1368,7 @@ function slot29(slot0)
 		end
 	end
 
-	slot15 = uv17
+	slot15 = slot17
 	slot16 = slot0
 	slot17 = slot11
 	slot18 = slot7
@@ -1403,7 +1398,7 @@ function slot30(slot0, slot1, slot2)
 	slot4 = slot0.pos
 
 	while slot4 < slot3 do
-		slot4 = uv0
+		slot4 = slot0
 		slot5 = slot0
 
 		slot4(slot5)
@@ -1424,7 +1419,7 @@ function slot31(slot0, slot1, slot2)
 	slot3.out = slot4
 	slot4 = {}
 	slot3.symtab = slot4
-	slot4 = uv0
+	slot4 = slot0
 	slot3.disass = slot4
 	slot4 = 8
 	slot3.hexdump = slot4
@@ -1433,7 +1428,7 @@ function slot31(slot0, slot1, slot2)
 end
 
 function slot32(slot0, slot1, slot2)
-	slot3 = uv0
+	slot3 = slot0
 	slot4 = slot0
 	slot5 = slot1
 	slot6 = slot2
@@ -1448,7 +1443,7 @@ function slot33(slot0)
 	slot1 = 32
 
 	if slot0 < slot1 then
-		slot1 = uv0
+		slot1 = slot0
 		slot1 = slot1[slot0]
 
 		return slot1

@@ -1,9 +1,3 @@
-slot2.dialogShake = {
-	speed = 0.1,
-	x = 8.5,
-	number = 6
-}
-
 return {
 	fadeOut = 1.5,
 	mode = 2,
@@ -168,6 +162,11 @@ return {
 				speed = 0.09,
 				x = 8.5,
 				number = 2
+			},
+			dialogShake = {
+				speed = 0.1,
+				x = 8.5,
+				number = 6
 			}
 		},
 		{

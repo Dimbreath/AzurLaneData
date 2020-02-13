@@ -10,15 +10,15 @@ slot0.OPEN_SCENE = "ChargeMediator:OPEN_SCENE"
 slot0.ON_SKIN_SHOP = "ChargeMediator:ON_SKIN_SHOP"
 
 function slot0.register(slot0)
-	slot0:bind(uv0.ON_SKIN_SHOP, function ()
-		uv0.contextData.wrap = ChargeScene.TYPE_MENU
+	slot0:bind(slot0.ON_SKIN_SHOP, function ()
+		slot0.contextData.wrap = ChargeScene.TYPE_MENU
 
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP)
+		slot0.contextData:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP)
 	end)
-	slot0:bind(uv0.GET_CHARGE_LIST, function (slot0)
-		uv0:sendNotification(GAME.GET_CHARGE_LIST)
+	slot0:bind(slot0.GET_CHARGE_LIST, function (slot0)
+		slot0:sendNotification(GAME.GET_CHARGE_LIST)
 	end)
-	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
+	slot0.viewComponent:setPlayer(slot2)
 
 	slot3 = getProxy(ShopsProxy)
 	slot5 = slot3:getChargedList()
@@ -45,33 +45,33 @@ function slot0.register(slot0)
 		slot0:sendNotification(GAME.GET_CHARGE_LIST)
 	end
 
-	slot0:bind(uv0.SWITCH_TO_SHOP, function (slot0, slot1)
+	slot0:bind(slot0.SWITCH_TO_SHOP, function (slot0, slot1)
 		slot1.fromCharge = true
 
-		uv0:addSubLayers(Context.New({
+		slot0:addSubLayers(Context.New({
 			mediator = ShopsMediator,
 			viewComponent = ShopsLayer,
 			data = slot1
 		}), false, function ()
-			setActive(uv0.viewComponent._tf, false)
+			setActive(slot0.viewComponent._tf, false)
 		end)
 	end)
-	slot0:bind(uv0.CHARGE, function (slot0, slot1)
-		uv0:sendNotification(GAME.CHARGE_OPERATION, {
+	slot0:bind(slot0.CHARGE, function (slot0, slot1)
+		slot0:sendNotification(GAME.CHARGE_OPERATION, {
 			shopId = slot1
 		})
 	end)
-	slot0:bind(uv0.BUY_ITEM, function (slot0, slot1, slot2)
-		uv0:sendNotification(GAME.SHOPPING, {
+	slot0:bind(slot0.BUY_ITEM, function (slot0, slot1, slot2)
+		slot0:sendNotification(GAME.SHOPPING, {
 			id = slot1,
 			count = slot2
 		})
 	end)
-	slot0:bind(uv0.CLICK_MING_SHI, function (slot0)
-		uv0:sendNotification(GAME.CLICK_MING_SHI)
+	slot0:bind(slot0.CLICK_MING_SHI, function (slot0)
+		slot0:sendNotification(GAME.CLICK_MING_SHI)
 	end)
-	slot0:bind(uv0.GO_SHOPS_LAYER, function ()
-		uv0:addSubLayers(Context.New({
+	slot0:bind(slot0.GO_SHOPS_LAYER, function ()
+		slot0:addSubLayers(Context.New({
 			mediator = ShopsMediator,
 			viewComponent = ShopsLayer,
 			data = {
@@ -79,20 +79,20 @@ function slot0.register(slot0)
 			}
 		}))
 	end)
-	slot0:bind(uv0.OPEN_ACTIVITY, function (slot0, slot1)
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
+	slot0:bind(slot0.OPEN_ACTIVITY, function (slot0, slot1)
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
 			id = slot1
 		})
 	end)
-	slot0:bind(uv0.OPEN_SCENE, function (slot0, slot1)
+	slot0:bind(slot0.OPEN_SCENE, function (slot0, slot1)
 		if slot1[1] == SCENE.SHOP then
-			uv0:addSubLayers(Context.New({
+			slot0:addSubLayers(Context.New({
 				mediator = ShopsMediator,
 				viewComponent = ShopsLayer,
 				data = slot1[2]
 			}))
 		else
-			uv0:sendNotification(GAME.GO_SCENE, slot1[1], slot1[2])
+			slot0:sendNotification(GAME.GO_SCENE, slot1[1], slot1[2])
 		end
 	end)
 end
@@ -114,8 +114,10 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == PlayerProxy.UPDATED then
-		slot0.viewComponent:setPlayer(slot1:getBody())
+		slot0.viewComponent:setPlayer(slot3)
 		slot0.viewComponent:updateNoRes()
 	elseif slot2 == ShopsProxy.FIRST_CHARGE_IDS_UPDATED then
 		slot0.viewComponent:setFirstChargeIds(slot3)
@@ -190,15 +192,10 @@ function slot0.handleNotification(slot0, slot1)
 		slot4 = ChargeScene.TYPE_DIAMOND
 
 		if slot3 then
-			slot4 = slot3.type or ChargeScene.TYPE_DIAMOND
+			slot0.viewComponent:triggerPageToggle(slot3.type or ChargeScene.TYPE_DIAMOND)
+			slot0.viewComponent:updateNoRes((slot3 and slot3.noRes) or nil)
+			slot0.viewComponent:closeItemDetail()
 		end
-
-		slot0.viewComponent:triggerPageToggle(slot4)
-
-		slot5 = slot0.viewComponent
-
-		slot5.updateNoRes(slot5, slot3 and slot3.noRes or nil)
-		slot0.viewComponent:closeItemDetail()
 	elseif slot2 == GAME.CHARGE_SUCCESS then
 		slot0.viewComponent:checkBuyDone("damonds")
 	end

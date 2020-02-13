@@ -19,3 +19,5 @@ pg.activity_banner_notice = {
 		2
 	}
 }
+
+return

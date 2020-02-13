@@ -1,12 +1,10 @@
-slot0 = class("BackYardShipAddExpCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("BackYardShipAddExpCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot2 = slot1:getBody()
 	slot5 = getProxy(BayProxy)
 	slot6 = {}
 	slot7 = {}
 
-	for slot11, slot12 in pairs(getProxy(DormProxy):getBackYardShips()) do
+	for slot11, slot12 in pairs(slot4) do
 		if slot12.state == Ship.STATE_TRAIN then
 			slot13 = slot5:getShipById(slot12.id)
 			slot14 = Clone(slot13)
@@ -35,4 +33,4 @@ function slot0.execute(slot0, slot1)
 	})
 end
 
-return slot0
+return class("BackYardShipAddExpCommand", pm.SimpleCommand)

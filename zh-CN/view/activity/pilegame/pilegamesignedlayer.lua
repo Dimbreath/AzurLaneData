@@ -11,7 +11,6 @@ function slot0.SetData(slot0, slot1)
 end
 
 function slot0.init(slot0)
-	slot1[MULTRES] = slot0:findTF("bg/icon/npc7")
 	slot0.icons = {
 		slot0:findTF("bg/icon/npc1"),
 		slot0:findTF("bg/icon/npc2"),
@@ -31,7 +30,7 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0._tf, function ()
-		uv0:emit(uv1.ON_CLOSE)
+		slot0:emit(slot1.ON_CLOSE)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -40,11 +39,11 @@ function slot0.didEnter(slot0)
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.getBtn, function ()
-		if uv0.usedtime < uv0.data:getConfig("reward_need") then
+		if slot0.usedtime < slot0.data:getConfig("reward_need") then
 			return
 		end
 
-		uv0:emit(PileGameSignedMediator.ON_GET_AWARD)
+		slot0:emit(PileGameSignedMediator.ON_GET_AWARD)
 	end, SFX_PANEL)
 	slot0:UpdateIconDesc()
 	slot0:UpdateSigned()
@@ -54,21 +53,19 @@ function slot0.UpdateIconDesc(slot0)
 	for slot4, slot5 in ipairs(slot0.icons) do
 		onButton(slot0, slot5, function ()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("special_animal" .. uv0)
+				content = i18n("special_animal" .. pg.MsgboxMgr.GetInstance().ShowMsgBox)
 			})
 		end, SFX_PANEL)
 	end
 end
 
 function slot0.UpdateSigned(slot0)
-	slot3 = slot0.ultimate == 0
-
-	setActive(slot0.getBtn, slot3)
-	setActive(slot0.gotBtn, not slot3)
-	setGray(slot0.getBtn, slot3 and slot0.usedtime < slot0.data:getConfig("reward_need"), true)
+	setActive(slot0.getBtn, slot0.ultimate == 0)
+	setActive(slot0.gotBtn, not (slot0.ultimate == 0))
+	setGray(slot0.getBtn, slot0.ultimate == 0 and slot0.usedtime < slot0.data:getConfig("reward_need"), true)
 
 	for slot7, slot8 in ipairs(slot0.icons) do
-		slot8:GetComponent(typeof(Image)).color = slot7 <= slot2 and Color.New(1, 1, 1, 1) or Color.New(1, 1, 1, 0.1)
+		slot8:GetComponent(typeof(Image)).color = (slot7 <= slot2 and Color.New(1, 1, 1, 1)) or Color.New(1, 1, 1, 0.1)
 	end
 end
 

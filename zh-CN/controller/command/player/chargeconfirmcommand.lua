@@ -1,28 +1,25 @@
-slot0 = class("ChargeConfirmCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
+class("ChargeConfirmCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot5 = getProxy(ShopsProxy)
 
 	pg.ConnectionMgr.GetInstance():Send(11504, {
-		pay_id = slot2.payId,
-		pay_id_bili = slot2.bsId or ""
+		pay_id = slot1:getBody().payId,
+		pay_id_bili = slot1.getBody().bsId or ""
 	}, 11505, function (slot0)
 		if slot0.result == 0 then
-			uv0:removeChargeTimer(uv1)
-			uv2:sendNotification(GAME.CHARGE_SUCCESS, {
+			slot0:removeChargeTimer(slot0.removeChargeTimer)
+			slot0:sendNotification(GAME.CHARGE_SUCCESS, {
 				shopId = slot0.shop_id,
-				payId = uv1,
+				payId = slot1,
 				gem = slot0.gem,
 				gem_free = slot0.gem_free
 			})
 		elseif slot0.result == 4 then
-			uv2:sendNotification(GAME.CHARGE_CONFIRM_FAILED, {
-				payId = uv1,
-				bsId = uv3
+			slot2:sendNotification(GAME.CHARGE_CONFIRM_FAILED, {
+				payId = slot1,
+				bsId = GAME.CHARGE_CONFIRM_FAILED
 			})
 		else
-			uv0:removeChargeTimer(uv1)
+			slot0:removeChargeTimer(slot0.removeChargeTimer)
 
 			if slot0.result ~= 1 then
 				pg.TipsMgr.GetInstance():ShowTips(errorTip("charge_erro", slot0.result))
@@ -31,4 +28,4 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-return slot0
+return class("ChargeConfirmCommand", pm.SimpleCommand)

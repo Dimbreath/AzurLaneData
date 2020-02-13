@@ -10,14 +10,14 @@ function slot0.execute(slot0, slot1)
 	slot0.house = slot4:getData()
 
 	if slot2.name == BACKYARD.BOAT_HARVEST then
-		slot4:shipHarvest(BackyardBoatVO.New(slot2.ship))
+		slot4:shipHarvest(BackyardBoatVO.New(slot5))
 	elseif slot3 == BACKYARD.CANCEL_BOAT_MOVE then
 		slot4:cancelShipMove(slot2.id)
 	elseif slot3 == BACKYARD.END_DRAG_BOAT then
-		slot7 = slot4:getData()
+		slot5 = slot2.id
 
-		if slot7:getArchByPos(slot2.pos) then
-			slot4:setArchInteraction(slot2.id, slot7.id)
+		if slot4:getData():getArchByPos(slot2.pos) then
+			slot4:setArchInteraction(slot5, slot7.id)
 		end
 
 		slot4:changeShipPos(slot5, slot6)
@@ -38,14 +38,9 @@ function slot0.execute(slot0, slot1)
 	elseif slot3 == BACKYARD.CLEAR_SPINE then
 		slot4:clearSpineInterAction(slot2.shipId)
 	elseif slot3 == BACKYARD.INTERACTION_SPINE then
-		slot5 = slot2.shipId
-
 		slot4:clearInterAction(slot5)
-
-		slot6 = slot2.furnitureId
-
-		slot4:changeShipPos(slot5, slot4:getFurnitureById(slot6):getSpineAinTriggerPos())
-		slot4:addSpineInterAction(slot5, slot6)
+		slot4:changeShipPos(slot5, slot8)
+		slot4:addSpineInterAction(slot2.shipId, slot2.furnitureId)
 	elseif slot3 == BACKYARD.INTERACTION_STAGE then
 		slot6 = slot2.furnitureId
 
@@ -67,15 +62,17 @@ function slot0.execute(slot0, slot1)
 	elseif slot3 == BACKYARD.CLEAR_SPINE_EXTRA then
 		slot4:clearSpineExtraInterAction(slot2.shipId, slot2.furnitureId)
 	elseif slot3 == BACKYARD.SHIP_ADDED then
+		slot5 = slot2.id
+
 		if not slot0.house:getSingleByRamdom() then
 			pg.m02:sendNotification(GAME.EXIT_SHIP, {
-				shipId = slot2.id,
+				shipId = slot5,
 				callback = function ()
 					pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_notPosition_shipExit"))
 				end
 			})
 		else
-			slot4:addShip(BackyardBoatVO.New(getProxy(BayProxy):getShipById(slot5)))
+			slot4:addShip(BackyardBoatVO.New(slot7))
 		end
 	elseif slot3 == BACKYARD.SHIP_EXITED then
 		slot4:exitShipById(slot2.id)
@@ -111,21 +108,17 @@ function slot0.checkShipPos(slot0, slot1)
 	end
 
 	if not slot1:hasInterActionFurnitrue() and not slot4 and not slot1:hasSpineExtra() then
-		if slot3 then
-			if not slot0.house:canMoveBoat(slot2, slot3) then
-				slot0:setPositionForShip(slot2)
-			else
-				slot0.backYardHouseProxy:changeShipPos(slot2, slot3)
-				slot0.backYardHouseProxy:addShipMove(slot2)
-			end
+		if not slot3 or not slot0.house:canMoveBoat(slot2, slot3) then
+			slot0:setPositionForShip(slot2)
+		else
+			slot0.backYardHouseProxy:changeShipPos(slot2, slot3)
+			slot0.backYardHouseProxy:addShipMove(slot2)
 		end
 	end
 end
 
 function slot0.setPositionForShip(slot0, slot1)
-	slot2 = slot0.house
-
-	if slot2:getSingleByRamdom() then
+	if slot0.house:getSingleByRamdom() then
 		slot0.backYardHouseProxy:changeShipPos(slot1, slot2)
 		slot0.backYardHouseProxy:addShipMove(slot1)
 	else
@@ -133,7 +126,7 @@ function slot0.setPositionForShip(slot0, slot1)
 			shipId = slot1,
 			callback = function ()
 				pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_notPosition_shipExit"))
-				uv0.backYardHouseProxy:exitShipById(uv1)
+				pg.TipsMgr.GetInstance().ShowTips.backYardHouseProxy:exitShipById(pg.TipsMgr.GetInstance().ShowTips.backYardHouseProxy)
 			end
 		})
 	end

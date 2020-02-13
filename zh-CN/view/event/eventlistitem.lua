@@ -65,13 +65,8 @@ function slot0.UpdateTime(slot0)
 end
 
 function slot0.Flush(slot0)
-	slot1 = slot0.bgNormal
-
-	slot1.SetActive(slot1, slot0.event.template.type ~= 2)
-
-	slot1 = slot0.bgEmergence
-
-	slot1.SetActive(slot1, slot0.event.template.type == 2)
+	slot0.bgNormal:SetActive(slot0.event.template.type ~= 2)
+	slot0.bgEmergence:SetActive(slot0.event.template.type == 2)
 
 	if slot0.event.state == EventInfo.StateFinish then
 		slot0.iconTip:SetActive(true)
@@ -81,7 +76,7 @@ function slot0.Flush(slot0)
 
 	LoadImageSpriteAsync("eventtype/" .. slot0.event.template.icon, slot0.iconType)
 	eachChild(slot0.iconState, function (slot0)
-		setActive(slot0, slot0.gameObject.name == tostring(uv0.event.state))
+		setActive(slot0, slot0.gameObject.name == tostring(slot0.event.state))
 	end)
 
 	slot0.labelLv.text = "" .. slot0.event.template.lv
@@ -96,24 +91,19 @@ function slot0.Flush(slot0)
 
 		if slot6 < #slot1 then
 			slot7.gameObject:SetActive(true)
-
-			slot8 = slot1[slot6 + 1]
-
 			updateDrop(slot7, {
-				type = slot8.type,
-				id = slot8.id,
-				count = slot8.nums
+				type = slot1[slot6 + 1].type,
+				id = slot1[slot6 + 1].id,
+				count = slot1[slot6 + 1].nums
 			})
 		else
 			slot7.gameObject:SetActive(false)
 		end
 	end
 
-	slot3 = table.getCount(slot0.event.template.special_drop) ~= 0
+	SetActive(slot0.specialAward, table.getCount(slot0.event.template.special_drop) ~= 0)
 
-	SetActive(slot0.specialAward, slot3)
-
-	if slot3 then
+	if table.getCount(slot0.event.template.special_drop) ~= 0 then
 		updateDrop(slot0.specialAward, {
 			type = slot0.event.template.special_drop.type,
 			id = slot0.event.template.special_drop.id
@@ -122,6 +112,7 @@ function slot0.Flush(slot0)
 end
 
 function slot0.Clear(slot0)
+	return
 end
 
 function slot0.findTF(slot0, slot1)

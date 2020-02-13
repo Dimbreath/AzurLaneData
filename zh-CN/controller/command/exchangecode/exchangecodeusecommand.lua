@@ -1,6 +1,4 @@
-slot0 = class("ExchangeCodeUseCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("ExchangeCodeUseCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot3 = slot1:getBody().key
 
 	if pg.SdkMgr.GetInstance():GetChannelUID() == "" then
@@ -23,4 +21,4 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-return slot0
+return class("ExchangeCodeUseCommand", pm.SimpleCommand)

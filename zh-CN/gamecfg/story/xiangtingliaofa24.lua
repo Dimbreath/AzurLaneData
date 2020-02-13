@@ -1,10 +1,3 @@
-slot2.effects = {
-	{
-		active = true,
-		name = "speed"
-	}
-}
-
 return {
 	fadeOut = 1.5,
 	mode = 2,
@@ -286,6 +279,12 @@ return {
 				{
 					active = false,
 					name = "memoryFog"
+				}
+			},
+			effects = {
+				{
+					active = true,
+					name = "speed"
 				}
 			},
 			dialogShake = {

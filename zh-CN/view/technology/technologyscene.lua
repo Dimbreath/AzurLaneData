@@ -69,7 +69,7 @@ function slot0.didEnter(slot0)
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.refreshBtn, function ()
-		if _.any(uv0.technologyVOs, function (slot0)
+		if _.any(slot0.technologyVOs, function (slot0)
 			return slot0.state ~= Technology.STATE_IDLE
 		end) then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -82,18 +82,18 @@ function slot0.didEnter(slot0)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("technology_refresh_tip"),
 			onYes = function ()
-				uv0:emit(TechnologyMediator.ON_REFRESH)
+				slot0:emit(TechnologyMediator.ON_REFRESH)
 			end
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.tendencyBtn, function ()
-		uv0:emit(TechnologyMediator.CHANGE_TENDENCY, (uv0.tendency + 1) % 3)
+		slot0:emit(TechnologyMediator.CHANGE_TENDENCY, (slot0.tendency + 1) % 3)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.backBtn, function ()
-		uv0:emit(uv1.ON_BACK)
+		slot0:emit(slot1.ON_BACK)
 	end, SOUND_BACK)
 	onButton(slot0, slot0.selectetPanel, function ()
-		uv0:cancelSelected()
+		slot0:cancelSelected()
 	end, SFX_PANEL)
 	slot0:updateRefreshBtn(slot0.flag)
 	slot0._resPanel:setResources(slot0.player)
@@ -109,35 +109,68 @@ function slot0.initTechnologys(slot0)
 		slot0.itemList:make(function (slot0, slot1, slot2)
 			if slot0 == UIItemList.EventUpdate then
 				slot2.name = slot1 + 1
-				uv0.technologCards[uv0.technologyVOs[slot1 + 1].id] = slot2
+				slot0.technologCards[slot0.technologyVOs[slot1 + 1].id] = slot2
 
-				uv0:updateTechnologyTF(slot2, uv0.technologyVOs[slot1 + 1])
-				uv0:updateTimer(uv0.technologyVOs[slot1 + 1])
+				slot0:updateTechnologyTF(slot2, slot0.technologyVOs[slot1 + 1])
+				slot0:updateTimer(slot0.technologyVOs[slot1 + 1])
 
-				if uv0.lastButtonListener[slot2] then
-					GetOrAddComponent(slot2, typeof(Button)).onClick:RemoveListener(uv0.lastButtonListener[slot2])
+				slot3 = GetOrAddComponent(slot2, typeof(Button)).onClick
+
+				if slot0.lastButtonListener[slot2] then
+					slot3:RemoveListener(slot0.lastButtonListener[slot2])
 				end
 
-				if uv0.technologyVOs[slot1 + 1]:isStart() then
+				if slot0.technologyVOs[slot1 + 1]:isStart() then
 					Timer.New(function ()
-						uv0.srcollView:GetComponent("EnhancelScrollView"):SetHorizontalTargetItemIndex(uv1:GetComponent("EnhanceItem").scrollViewItemIndex)
+						slot0.srcollView:GetComponent("EnhancelScrollView"):SetHorizontalTargetItemIndex(slot1:GetComponent("EnhanceItem").scrollViewItemIndex)
 					end, 0.35, 1):Start()
 				end
 
-				uv0.lastButtonListener[slot2] = function ()
+				slot0.lastButtonListener[slot2] = function ()
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 1-15, warpins: 1 ---
 					playSoundEffect(SFX_PANEL)
 
-					if uv0.technologyVOs[uv1 + 1]:getState() == Technology.STATE_FINISHED then
-						uv0:emit(TechnologyMediator.ON_FINISHED, {
-							id = uv0.technologyVOs[uv1 + 1].id,
-							pool_id = uv0.technologyVOs[uv1 + 1].poolId
+					if playSoundEffect.technologyVOs[SFX_PANEL + 1]:getState() == Technology.STATE_FINISHED then
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 16-37, warpins: 1 ---
+						slot0:emit(TechnologyMediator.ON_FINISHED, {
+							id = slot0.technologyVOs[slot1 + 1].id,
+							pool_id = slot0.technologyVOs[slot1 + 1].poolId
 						})
+						--- END OF BLOCK #0 ---
+
+
+
 					else
-						uv0:onSelected(uv1 + 1)
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 38-43, warpins: 1 ---
+						slot0:onSelected(slot1 + 1)
+						--- END OF BLOCK #0 ---
+
+
+
 					end
+
+					--- END OF BLOCK #0 ---
+
+					FLOW; TARGET BLOCK #1
+
+
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #1 44-44, warpins: 2 ---
+					return
+					--- END OF BLOCK #1 ---
+
+
+
 				end
 
-				slot3:AddListener(uv0.lastButtonListener[slot2])
+				slot3:AddListener(slot0.lastButtonListener[slot2])
 			end
 		end)
 	end
@@ -146,153 +179,623 @@ function slot0.initTechnologys(slot0)
 end
 
 function slot0.updateRefreshBtn(slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-4, warpins: 1 ---
 	setButtonEnabled(slot0.refreshBtn, slot1 == 0)
+
+	return
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 8-9, warpins: 2 ---
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot0.onSelected(slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-2, warpins: 1 ---
 	if not slot1 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 3-3, warpins: 1 ---
 		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 4-7, warpins: 1 ---
 	if not slot0.technologyVOs[slot1] then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 8-8, warpins: 1 ---
 		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 9-53, warpins: 1 ---
 	slot0.technologyCount = table.getCount(slot0.technologyVOs)
 	slot0.contextData.selectedIndex = slot1
 	slot0.srcollViewCG.alpha = 0.3
 
-	setActive(slot0.technologCards[slot2.id], false)
+	setActive(slot3, false)
 	setActive(slot0.selectetPanel, true)
 
 	slot4 = {}
 
 	eachChild(slot0.srcollView, function (slot0)
-		uv0[tonumber(slot0.name)] = slot0
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-6, warpins: 1 ---
+		slot0[tonumber(slot0.name)] = slot0
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end)
 
 	function slot5(slot0, slot1)
-		slot2 = {
-			[slot8] = uv0[slot8].localPosition.x - uv0[slot0].localPosition.x
-		}
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-10, warpins: 1 ---
+		slot2 = {}
 		slot3 = slot0
+		slot4 = slot0[slot0].localPosition.x
 
-		for slot8, slot9 in ipairs(uv0) do
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 11-18, warpins: 0 ---
+		for slot8, slot9 in ipairs(slot0) do
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 11-16, warpins: 1 ---
+			slot2[slot8] = slot0[slot8].localPosition.x - slot4
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 17-18, warpins: 2 ---
+			--- END OF BLOCK #1 ---
+
+
+
 		end
 
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 19-22, warpins: 1 ---
+		--- END OF BLOCK #2 ---
+
+		FLOW; TARGET BLOCK #3
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #3 23-74, warpins: 0 ---
 		for slot8, slot9 in ipairs(slot2) do
-			if slot9 ~= 0 and (slot2[slot3] == 0 or slot1 and (slot9 > 0 and slot2[slot3] > 0 and slot2[slot3] < slot9 or slot9 < 0 and (slot2[slot3] > 0 or slot2[slot3] < slot9)) or not slot1 and (slot9 < 0 and slot2[slot3] < 0 and slot9 < slot2[slot3] or slot9 > 0 and (slot2[slot3] < 0 or slot9 < slot2[slot3]))) then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 23-24, warpins: 1 ---
+			if slot9 ~= 0 and (slot2[slot3] == 0 or (slot1 and ((slot9 > 0 and slot2[slot3] > 0 and slot2[slot3] < slot9) or (slot9 < 0 and (slot2[slot3] > 0 or slot2[slot3] < slot9)))) or (not slot1 and ((slot9 < 0 and slot2[slot3] < 0 and slot9 < slot2[slot3]) or (slot9 > 0 and (slot2[slot3] < 0 or slot9 < slot2[slot3]))))) then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 72-72, warpins: 7 ---
 				slot3 = slot8
+				--- END OF BLOCK #0 ---
+
+
+
 			end
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 73-74, warpins: 6 ---
+			--- END OF BLOCK #1 ---
+
+
+
 		end
 
-		return uv0[slot3]
+		--- END OF BLOCK #3 ---
+
+		FLOW; TARGET BLOCK #4
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #4 75-77, warpins: 1 ---
+		return slot0[slot3]
+		--- END OF BLOCK #4 ---
+
+
+
 	end
 
 	slot0:updateSelectedInfo(slot2)
 	onButton(slot0, slot0.arrLeftBtn, function ()
-		if uv0.inAnim then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-4, warpins: 1 ---
+		if slot0.inAnim then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 5-5, warpins: 1 ---
 			return
+			--- END OF BLOCK #0 ---
+
+
+
 		end
 
-		uv0:cancelSelected()
-		triggerButton(uv1(uv2, true))
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 6-16, warpins: 2 ---
+		slot0:cancelSelected()
+		triggerButton(slot0(slot2, true))
+
+		return
+		--- END OF BLOCK #1 ---
+
+
+
 	end, SFX_PANEL)
 	onButton(slot0, slot0.arrRightBtn, function ()
-		if uv0.inAnim then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-4, warpins: 1 ---
+		if slot0.inAnim then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 5-5, warpins: 1 ---
 			return
+			--- END OF BLOCK #0 ---
+
+
+
 		end
 
-		uv0:cancelSelected()
-		triggerButton(uv1(uv2, false))
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 6-16, warpins: 2 ---
+		slot0:cancelSelected()
+		triggerButton(slot0(slot2, false))
+
+		return
+		--- END OF BLOCK #1 ---
+
+
+
 	end, SFX_PANEL)
+
+	return
+	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 54-54, warpins: 2 ---
+	--- END OF BLOCK #3 ---
+
+	FLOW; TARGET BLOCK #4
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #4 55-55, warpins: 2 ---
+	--- END OF BLOCK #4 ---
+
+
+
 end
 
 function slot0.updateSelectedInfo(slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-4, warpins: 1 ---
 	if not slot0.contextData.selectedIndex then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 5-5, warpins: 1 ---
 		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 6-16, warpins: 2 ---
 	slot0:updateTechnologyTF(slot0.technologyTpl, slot1, true)
 	slot0:updateExtraInfo(slot1)
+
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot0.updateExtraInfo(slot0, slot1)
-	slot0.timerTxt.text = pg.TimeMgr.GetInstance():DescCDTime(slot1:getConfig("time"))
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-39, warpins: 1 ---
+	slot0.timerTxt.text = pg.TimeMgr.GetInstance():DescCDTime(slot2)
 	slot0.descTxt.text = slot1:getConfig("desc")
 	slot0.descBG.sprite = GetSpriteFromAtlas("ui/TechnologyUI_atlas", slot1:getConfig("rarity"))
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 40-44, warpins: 0 ---
 	for slot8 = slot0.itemContainer.childCount + 1, #slot1:getConfig("consume"), 1 do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 40-44, warpins: 2 ---
 		cloneTplTo(slot0.itemTpl, slot0.itemContainer)
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 45-50, warpins: 1 ---
+	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 51-74, warpins: 0 ---
 	for slot8 = 1, slot0.itemContainer.childCount, 1 do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 51-60, warpins: 2 ---
 		setActive(slot0.itemContainer:GetChild(slot8 - 1), slot8 <= #slot3)
 
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 64-67, warpins: 2 ---
 		if slot8 <= #slot3 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 68-73, warpins: 1 ---
 			slot0:updateItem(slot9, slot1, slot3[slot8])
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 74-74, warpins: 2 ---
+		--- END OF BLOCK #2 ---
+
+
+
 	end
 
+	--- END OF BLOCK #3 ---
+
+	FLOW; TARGET BLOCK #4
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #4 75-78, warpins: 1 ---
 	setActive(slot0.emptyTF, not slot3 or #slot3 <= 0)
 
+	--- END OF BLOCK #4 ---
+
+	FLOW; TARGET BLOCK #5
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #5 86-91, warpins: 2 ---
 	if slot1:hasCondition() then
-		slot6 = getProxy(TaskProxy):getTaskById(slot1:getTaskId()) or Task.New({
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 92-103, warpins: 1 ---
+		slot0.taskSlider.value = getProxy(TaskProxy):getTaskById(slot1:getTaskId()) or Task.New({
 			id = slot5
-		})
-		slot0.taskSlider.value = slot6.progress / slot6:getConfig("target_num")
-		slot0.taskDesc.text = slot6:getConfig("desc") .. "(" .. slot6.progress .. "/" .. slot6:getConfig("target_num") .. ")"
+		}).progress / getProxy(TaskProxy).getTaskById(slot1.getTaskId()) or Task.New():getConfig("target_num")
+		slot0.taskDesc.text = getProxy(TaskProxy).getTaskById(slot1.getTaskId()) or Task.New():getConfig("desc") .. "(" .. getProxy(TaskProxy).getTaskById(slot1.getTaskId()) or Task.New().progress .. "/" .. getProxy(TaskProxy).getTaskById(slot1.getTaskId()) or Task.New():getConfig("target_num") .. ")"
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 110-133, warpins: 2 ---
+		--- END OF BLOCK #1 ---
+
+
+
 	else
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 134-141, warpins: 1 ---
 		slot0.taskDesc.text = i18n("technology_task_none_tip")
 		slot0.taskSlider.value = 0
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #5 ---
+
+	FLOW; TARGET BLOCK #6
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #6 142-146, warpins: 2 ---
 	if slot0.techTimer[slot1.id] then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 147-156, warpins: 1 ---
 		slot0.techTimer[slot1.id]:Stop()
 
 		slot0.techTimer[slot1.id] = nil
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
-	function slot5()
-		uv0.techTimer[uv1.id]:Stop()
+	--- END OF BLOCK #6 ---
 
-		uv0.techTimer[uv1.id] = nil
-		uv0.timerTxt.text = "00:00:00"
+	FLOW; TARGET BLOCK #7
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #7 157-162, warpins: 2 ---
+	function slot5()
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-19, warpins: 1 ---
+		slot0.techTimer[slot1.id]:Stop()
+
+		slot0.techTimer[slot1.id].Stop.techTimer[slot0.techTimer[slot1.id].id] = nil
+		slot0.techTimer[slot1.id].Stop.techTimer.timerTxt.text = "00:00:00"
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
 	if slot1:isStarting() then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 163-182, warpins: 1 ---
 		slot0.techTimer[slot1.id] = Timer.New(function ()
-			if uv0.time - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
-				uv1()
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-13, warpins: 1 ---
+			if slot0.time - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 14-16, warpins: 1 ---
+				slot1()
+				--- END OF BLOCK #0 ---
+
+
+
 			else
-				uv2.timerTxt.text = pg.TimeMgr.GetInstance():DescCDTime(uv0.time - slot0)
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 17-29, warpins: 1 ---
+				slot2.timerTxt.text = pg.TimeMgr.GetInstance():DescCDTime(slot0.time - slot0)
+				--- END OF BLOCK #0 ---
+
+
+
 			end
+
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 30-30, warpins: 2 ---
+			return
+			--- END OF BLOCK #1 ---
+
+
+
 		end, 1, -1)
 
 		slot0.techTimer[slot1.id]:Start()
 		slot0.techTimer[slot1.id].func()
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #7 ---
+
+	FLOW; TARGET BLOCK #8
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #8 183-188, warpins: 2 ---
+	--- END OF BLOCK #8 ---
+
+	FLOW; TARGET BLOCK #9
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #9 189-213, warpins: 0 ---
 	for slot10 = 1, slot0.itemContainer.childCount, 1 do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 189-213, warpins: 2 ---
 		slot11 = slot0.itemContainer:GetChild(slot10 - 1)
 
 		setActive(slot11:Find("check"), slot1:isStart())
 		setActive(slot11:Find("icon_bg/count"), not slot1:isStart())
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	--- END OF BLOCK #9 ---
+
+	FLOW; TARGET BLOCK #10
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #10 214-215, warpins: 1 ---
+	return
+	--- END OF BLOCK #10 ---
+
+
+
 end
 
 function slot0.cancelSelected(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-4, warpins: 1 ---
 	if not slot0.contextData.selectedIndex then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 5-5, warpins: 1 ---
 		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 6-9, warpins: 1 ---
 	if not slot0.technologyVOs[slot1] then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 10-10, warpins: 1 ---
 		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 11-35, warpins: 1 ---
 	slot0.srcollViewCG.alpha = 1
 
-	setActive(slot0.technologCards[slot2.id], true)
+	setActive(slot3, true)
 	removeOnButton(slot0.arrLeftBtn)
 	removeOnButton(slot0.arrRightBtn)
 	setActive(slot0.selectetPanel, false)
@@ -300,162 +803,652 @@ function slot0.cancelSelected(slot0)
 	slot0.inAnim = true
 
 	if slot0.timer then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 36-41, warpins: 1 ---
 		slot0.timer:Stop()
 
 		slot0.timer = nil
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 42-58, warpins: 2 ---
 	slot0.contextData.selectedIndex = nil
 	slot0.timer = Timer.New(function ()
-		uv0.inAnim = nil
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-4, warpins: 1 ---
+		slot0.inAnim = nil
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end, 0.2, 1)
 
 	slot0.timer:Start()
 
 	if callback then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 59-60, warpins: 1 ---
 		callback()
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #3 ---
+
+	FLOW; TARGET BLOCK #4
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #4 61-65, warpins: 2 ---
 	if slot0.techTimer[slot2.id] then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 66-75, warpins: 1 ---
 		slot0.techTimer[slot2.id]:Stop()
 
 		slot0.techTimer[slot2.id] = nil
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	--- END OF BLOCK #4 ---
+
+	FLOW; TARGET BLOCK #5
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #5 76-77, warpins: 2 ---
+	return
+	--- END OF BLOCK #5 ---
+
+	FLOW; TARGET BLOCK #6
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #6 78-78, warpins: 2 ---
+	--- END OF BLOCK #6 ---
+
+	FLOW; TARGET BLOCK #7
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #7 79-79, warpins: 2 ---
+	--- END OF BLOCK #7 ---
+
+
+
 end
 
 function slot0.updateTechnology(slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-4, warpins: 1 ---
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 5-12, warpins: 0 ---
 	for slot5, slot6 in ipairs(slot0.technologyVOs) do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 5-8, warpins: 1 ---
 		if slot6.id == slot1.id then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 9-10, warpins: 1 ---
 			slot0.technologyVOs[slot5] = slot1
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 11-12, warpins: 3 ---
+		--- END OF BLOCK #1 ---
+
+
+
 	end
 
-	slot0:updateTechnologyTF(slot0.technologCards[slot1.id], slot1)
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 13-25, warpins: 1 ---
+	slot0:updateTechnologyTF(slot2, slot1)
 	slot0:updateTimer(slot1)
+
+	return
+	--- END OF BLOCK #2 ---
+
+
+
 end
 
 function slot0.updateTimer(slot0, slot1)
-	slot2 = slot0.technologCards[slot1.id]
-	slot3 = slot2:Find("frame/btns/dev_btn/time")
-	slot4 = slot2:Find("frame/btns/dev_btn/limit")
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-16, warpins: 1 ---
+	slot3 = slot0.technologCards[slot1.id].Find(slot2, "frame/btns/dev_btn/time")
+	slot4 = slot0.technologCards[slot1.id].Find(slot2, "frame/btns/dev_btn/limit")
 
 	if slot0.cardtimer[slot1.id] then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 17-26, warpins: 1 ---
 		slot0.cardtimer[slot1.id]:Stop()
 
 		slot0.cardtimer[slot1.id] = nil
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 27-33, warpins: 2 ---
 	if slot1:getState() == Technology.STATE_STARTING then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 34-61, warpins: 1 ---
 		setActive(slot3, true)
 		setActive(slot4, false)
 
 		slot0.cardtimer[slot1.id] = Timer.New(function ()
-			if uv0.time - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
-				if uv1.cardtimer[uv0.id] then
-					uv1.cardtimer[uv0.id]:Stop()
 
-					uv1.cardtimer[uv0.id] = nil
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-13, warpins: 1 ---
+			if slot0.time - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 14-20, warpins: 1 ---
+				if slot1.cardtimer[slot0.id] then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 21-34, warpins: 1 ---
+					slot1.cardtimer[slot0.id]:Stop()
+
+					slot1.cardtimer[slot0.id] = nil
+					--- END OF BLOCK #0 ---
+
+
+
 				end
 
-				if not uv0:canFinish() then
-					setActive(uv2, false)
-					setActive(uv3, true)
+				--- END OF BLOCK #0 ---
+
+				FLOW; TARGET BLOCK #1
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #1 35-40, warpins: 2 ---
+				if not slot0:canFinish() then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 41-49, warpins: 1 ---
+					setActive(setActive, false)
+					setActive(setActive, true)
+					--- END OF BLOCK #0 ---
+
+
+
 				else
-					uv1:emit(TechnologyMediator.ON_TIME_OVER, uv0.id)
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 50-58, warpins: 1 ---
+					slot1:emit(TechnologyMediator.ON_TIME_OVER, slot0.id)
+					--- END OF BLOCK #0 ---
+
+
+
 				end
+				--- END OF BLOCK #1 ---
+
+
+
 			else
-				setText(uv2:Find("text"), pg.TimeMgr.GetInstance():DescCDTime(slot0 - slot1))
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 59-73, warpins: 1 ---
+				setText(slot2:Find("text"), pg.TimeMgr.GetInstance():DescCDTime(slot0 - slot1))
+				--- END OF BLOCK #0 ---
+
+
+
 			end
+
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 74-74, warpins: 3 ---
+			return
+			--- END OF BLOCK #1 ---
+
+
+
 		end, 1, -1)
 
 		slot0.cardtimer[slot1.id]:Start()
 		slot0.cardtimer[slot1.id].func()
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 62-63, warpins: 2 ---
+	return
+	--- END OF BLOCK #2 ---
+
+
+
 end
 
 function slot0.updateTechnologyTF(slot0, slot1, slot2, slot3)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-20, warpins: 1 ---
 	slot0:updateInfo(slot1, slot2, slot3)
 	setActive(slot0:findTF("frame/btns/finish_btn", slot1), slot2:getState() == Technology.STATE_FINISHED)
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 24-26, warpins: 2 ---
 	if not slot3 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 27-42, warpins: 1 ---
 		setActive(slot0:findTF("frame/btns/desc_btn", slot1), slot4 == Technology.STATE_IDLE)
 		setActive(slot0:findTF("frame/btns/dev_btn", slot1), slot4 == Technology.STATE_STARTING)
 
 		return
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 46-52, warpins: 2 ---
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 56-57, warpins: 2 ---
+		--- END OF BLOCK #2 ---
+
+
+
 	end
 
-	slot6 = slot0:findTF("frame/btns/start_btn", slot1)
+	--- END OF BLOCK #1 ---
 
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 58-82, warpins: 1 ---
 	removeOnButton(slot5)
 	removeOnButton(slot6)
-	removeOnButton(slot0:findTF("frame/btns/stop_btn", slot1))
-	setActive(slot6, slot4 == Technology.STATE_IDLE)
+	removeOnButton(slot7)
+	setActive(slot0:findTF("frame/btns/start_btn", slot1), slot4 == Technology.STATE_IDLE)
 	setActive(slot7, slot4 == Technology.STATE_STARTING)
 
+	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 86-92, warpins: 2 ---
+	--- END OF BLOCK #3 ---
+
+	FLOW; TARGET BLOCK #4
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #4 96-100, warpins: 2 ---
 	if slot4 == Technology.STATE_IDLE then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 101-113, warpins: 1 ---
 		onButton(slot0, slot6, function ()
-			if _.any(uv0.technologyVOs, function (slot0)
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-8, warpins: 1 ---
+			if _.any(slot0.technologyVOs, function (slot0)
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 1-5, warpins: 1 ---
 				return slot0.state ~= Technology.STATE_IDLE
+				--- END OF BLOCK #0 ---
+
+				FLOW; TARGET BLOCK #1
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #1 9-9, warpins: 2 ---
+				--- END OF BLOCK #1 ---
+
+
+
 			end) then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 9-20, warpins: 1 ---
 				pg.TipsMgr.GetInstance():ShowTips(i18n("technology_is_actived"))
 
 				return
+				--- END OF BLOCK #0 ---
+
+
+
 			end
 
-			slot0 = uv1
+			--- END OF BLOCK #0 ---
 
-			if #slot0:getConfig("consume") > 0 then
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 21-29, warpins: 2 ---
+			if #slot1:getConfig("consume") > 0 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 30-48, warpins: 1 ---
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("technology_task_build_tip", getDropInfo(slot0)),
 					onYes = function ()
-						uv0:emit(TechnologyMediator.ON_START, {
-							id = uv1.id,
-							pool_id = uv1.poolId
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 1-14, warpins: 1 ---
+						slot0:emit(TechnologyMediator.ON_START, {
+							id = slot1.id,
+							pool_id = slot1.poolId
 						})
+
+						return
+						--- END OF BLOCK #0 ---
+
+
+
 					end
 				})
+				--- END OF BLOCK #0 ---
+
+
+
 			else
-				uv0:emit(TechnologyMediator.ON_START, {
-					id = uv1.id,
-					pool_id = uv1.poolId
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 49-61, warpins: 1 ---
+				slot0:emit(TechnologyMediator.ON_START, {
+					id = slot1.id,
+					pool_id = slot1.poolId
 				})
+				--- END OF BLOCK #0 ---
+
+
+
 			end
+
+			--- END OF BLOCK #1 ---
+
+			FLOW; TARGET BLOCK #2
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #2 62-62, warpins: 2 ---
+			return
+			--- END OF BLOCK #2 ---
+
+
+
 		end, SFX_PANEL)
 		setButtonEnabled(slot6, slot2:hasResToStart())
-	elseif slot4 == Technology.STATE_STARTING then
-		onButton(slot0, slot7, function ()
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("technology_stop_tip"),
-				onYes = function ()
-					uv0:emit(TechnologyMediator.ON_STOP, {
-						id = uv1.id,
-						pool_id = uv1.poolId
+		--- END OF BLOCK #0 ---
+
+
+
+	else
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 114-117, warpins: 1 ---
+		if slot4 == Technology.STATE_STARTING then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 118-124, warpins: 1 ---
+			onButton(slot0, slot7, function ()
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 1-15, warpins: 1 ---
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("technology_stop_tip"),
+					onYes = function ()
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 1-14, warpins: 1 ---
+						slot0:emit(TechnologyMediator.ON_STOP, {
+							id = slot1.id,
+							pool_id = slot1.poolId
+						})
+
+						return
+						--- END OF BLOCK #0 ---
+
+
+
+					end
+				})
+
+				return
+				--- END OF BLOCK #0 ---
+
+
+
+			end, SFX_PANEL)
+			--- END OF BLOCK #0 ---
+
+
+
+		else
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 125-128, warpins: 1 ---
+			if slot4 == Technology.STATE_FINISHED then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 129-134, warpins: 1 ---
+				onButton(slot0, slot5, function ()
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 1-14, warpins: 1 ---
+					slot0:emit(TechnologyMediator.ON_FINISHED, {
+						id = slot1.id,
+						pool_id = slot1.poolId
 					})
-				end
-			})
-		end, SFX_PANEL)
-	elseif slot4 == Technology.STATE_FINISHED then
-		onButton(slot0, slot5, function ()
-			uv0:emit(TechnologyMediator.ON_FINISHED, {
-				id = uv1.id,
-				pool_id = uv1.poolId
-			})
-		end, SFX_PANEL)
+
+					return
+					--- END OF BLOCK #0 ---
+
+
+
+				end, SFX_PANEL)
+				--- END OF BLOCK #0 ---
+
+
+
+			end
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	--- END OF BLOCK #4 ---
+
+	FLOW; TARGET BLOCK #5
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #5 135-136, warpins: 4 ---
+	return
+	--- END OF BLOCK #5 ---
+
+	FLOW; TARGET BLOCK #6
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #6 137-137, warpins: 2 ---
+	--- END OF BLOCK #6 ---
+
+
+
 end
 
 function slot0.dfs(slot0, slot1, slot2)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-3, warpins: 1 ---
 	if slot1.name ~= "item_tpl" then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 4-7, warpins: 1 ---
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 8-16, warpins: 0 ---
 		for slot6 = 1, slot1.childCount, 1 do
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 8-16, warpins: 2 ---
 			slot0:dfs(slot1:GetChild(slot6 - 1), slot2)
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 17-17, warpins: 1 ---
+		--- END OF BLOCK #2 ---
+
+
+
 	else
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 18-20, warpins: 1 ---
 		slot2(slot1)
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 21-21, warpins: 2 ---
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot0.updateInfo(slot0, slot1, slot2, slot3)
-	setImageSprite(slot0:findTF("frame", slot1), GetSpriteFromAtlas("technologycard", slot2:getConfig("bg") .. (slot3 and "_l" or "")))
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-14, warpins: 1 ---
+	setImageSprite(slot0:findTF("frame", slot1), GetSpriteFromAtlas("technologycard", slot2:getConfig("bg") .. ((slot3 and "_l") or "")))
 	setImageSprite(slot0:findTF("frame/icon_mask/icon", slot1), GetSpriteFromAtlas("technologycard", slot2:getConfig("bg_icon")), true)
 	setImageSprite(slot0:findTF("frame/label", slot1), GetSpriteFromAtlas("technologycard", slot2:getConfig("label")))
 	setImageSprite(slot0:findTF("frame/label/text", slot1), GetSpriteFromAtlas("technologycard", slot2:getConfig("label_color")), true)
@@ -467,96 +1460,357 @@ function slot0.updateInfo(slot0, slot1, slot2, slot3)
 	slot6 = 0
 
 	slot0:dfs(slot1:Find("frame/item_container"), function (slot0)
-		uv0 = uv0 + 1
 
-		setActive(slot0, uv0 <= #uv1)
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-10, warpins: 1 ---
+		slot1(slot0 + 1, slot0 + 1 <= #slot1)
 
-		if uv0 <= #uv1 then
-			uv2:updateItem(slot0, uv3, uv1[uv0])
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 14-19, warpins: 2 ---
+		if slot0 <= #slot1 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 20-28, warpins: 1 ---
+			slot2:updateItem(slot0, , slot1[slot0])
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 29-29, warpins: 2 ---
+		return
+		--- END OF BLOCK #2 ---
+
+
+
 	end)
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 18-104, warpins: 2 ---
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 106-122, warpins: 2 ---
 	if not slot3 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 123-131, warpins: 1 ---
 		setActive(slot5:GetChild(1), #slot4 > 2)
 
-		slot5:GetChild(0):GetComponent("HorizontalLayoutGroup").padding.right = #slot4 == 4 and 25 or 0
-		slot5:GetChild(1):GetComponent("HorizontalLayoutGroup").padding.left = #slot4 == 4 and 25 or 0
+		slot5:GetChild(0):GetComponent("HorizontalLayoutGroup").padding.right = (#slot4 == 4 and 25) or 0
+		slot5:GetChild(1):GetComponent("HorizontalLayoutGroup").padding.left = (#slot4 == 4 and 25) or 0
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 135-147, warpins: 2 ---
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 151-163, warpins: 2 ---
+		--- END OF BLOCK #2 ---
+
+		FLOW; TARGET BLOCK #3
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #3 167-167, warpins: 2 ---
+		--- END OF BLOCK #3 ---
+
+
+
 	end
+
+	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 168-169, warpins: 2 ---
+	return
+	--- END OF BLOCK #3 ---
+
+
+
 end
 
 function slot0.updateItem(slot0, slot1, slot2, slot3)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-24, warpins: 1 ---
 	slot4 = nil
 
-	updateDrop(slot1, Item.New({
-		type = slot3[1],
-		id = slot3[2]
-	}))
+	updateDrop(slot1, slot4)
 
 	if not IsNil(slot0:findTF("icon_bg/count", slot1)) then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 25-29, warpins: 1 ---
 		slot6 = nil
 
-		if slot3[1] == DROP_TYPE_RESOURCE then
-			slot6 = slot0.player:getResById(slot3[2])
-		else
-			slot6 = getProxy(BagProxy):getItemCountById(slot4.id)
-		end
+		setColorCount(slot5, (slot3[1] ~= DROP_TYPE_RESOURCE or slot0.player:getResById(slot3[2])) and getProxy(BagProxy):getItemCountById(slot4.id), slot3[3])
+		--- END OF BLOCK #0 ---
 
-		setColorCount(slot5, slot6, slot3[3])
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 45-49, warpins: 2 ---
+		--- END OF BLOCK #1 ---
+
+
+
 	end
 
-	onButton(slot0, slot1, function ()
-		if #(uv0:getConfig("display_icon") or {}) > 0 then
-			slot2 = uv0
-			slot2 = pg.MsgboxMgr.GetInstance()
+	--- END OF BLOCK #0 ---
 
-			slot2:ShowMsgBox({
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 50-57, warpins: 2 ---
+	onButton(slot0, slot1, function ()
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 9-12, warpins: 2 ---
+		if #(slot0:getConfig("display_icon") or {}) > 0 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 13-38, warpins: 1 ---
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_ITEM_BOX,
 				items = _.map(slot0, function (slot0)
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 1-6, warpins: 1 ---
 					return {
 						type = slot0[1],
 						id = slot0[2]
 					}
+					--- END OF BLOCK #0 ---
+
+
+
 				end),
-				content = slot2:getConfig("display"),
+				content = slot0:getConfig("display"),
 				itemFunc = function (slot0)
-					uv0:emit(uv1.ON_DROP, slot0, function ()
-						pg.MsgboxMgr.GetInstance():ShowMsgBox(uv0)
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 1-9, warpins: 1 ---
+					slot0:emit(slot1.ON_DROP, slot0, function ()
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 1-9, warpins: 1 ---
+						pg.MsgboxMgr.GetInstance():ShowMsgBox(pg.MsgboxMgr.GetInstance().ShowMsgBox)
+
+						return
+						--- END OF BLOCK #0 ---
+
+
+
 					end)
+
+					return
+					--- END OF BLOCK #0 ---
+
+
+
 				end
 			})
 
 			return
+			--- END OF BLOCK #0 ---
+
+
+
 		end
 
-		uv1:emit(uv2.ON_DROP, uv0)
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 39-45, warpins: 1 ---
+		slot1:emit(slot2.ON_DROP, slot0)
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 46-46, warpins: 2 ---
+		--- END OF BLOCK #2 ---
+
+
+
 	end, SFX_PANEL)
+
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot0.clearTimer(slot0, ...)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-3, warpins: 1 ---
 	if slot0.timer then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 4-9, warpins: 1 ---
 		slot0.timer:Stop()
 
 		slot0.timer = nil
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 10-13, warpins: 2 ---
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 14-18, warpins: 0 ---
 	for slot4, slot5 in pairs(slot0.techTimer) do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 14-16, warpins: 1 ---
 		slot5:Stop()
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 17-18, warpins: 2 ---
+		--- END OF BLOCK #1 ---
+
+
+
 	end
 
+	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 19-24, warpins: 1 ---
 	slot0.techTimer = {}
 
+	--- END OF BLOCK #3 ---
+
+	FLOW; TARGET BLOCK #4
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #4 25-29, warpins: 0 ---
 	for slot4, slot5 in pairs(slot0.cardtimer) do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 25-27, warpins: 1 ---
 		slot5:Stop()
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 28-29, warpins: 2 ---
+		--- END OF BLOCK #1 ---
+
+
+
 	end
 
+	--- END OF BLOCK #4 ---
+
+	FLOW; TARGET BLOCK #5
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #5 30-32, warpins: 1 ---
 	slot0.cardtimer = {}
+
+	return
+	--- END OF BLOCK #5 ---
+
+
+
 end
 
 function slot0.willExit(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-8, warpins: 1 ---
 	slot0:clearTimer()
 
 	slot0.techTimer = nil
 	slot0.cardtimer = {}
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 return slot0

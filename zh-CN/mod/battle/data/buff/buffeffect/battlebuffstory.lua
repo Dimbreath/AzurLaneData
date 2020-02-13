@@ -1,19 +1,18 @@
 ys = ys or {}
-slot0 = ys
-slot0.Battle.BattleBuffStory = class("BattleBuffStory", slot0.Battle.BattleBuffEffect)
-slot0.Battle.BattleBuffStory.__name = "BattleBuffStory"
-slot1 = slot0.Battle.BattleBuffStory
+ys.Battle.BattleBuffStory = class("BattleBuffStory", ys.Battle.BattleBuffEffect)
+ys.Battle.BattleBuffStory.__name = "BattleBuffStory"
 
-function slot1.Ctor(slot0, slot1)
-	uv0.super.Ctor(slot0, slot1)
+function ys.Battle.BattleBuffStory.Ctor(slot0, slot1)
+	slot0.super.Ctor(slot0, slot1)
 end
 
-function slot1.SetArgs(slot0, slot1, slot2)
-	slot3 = slot0._tempData.arg_list
-	slot0._storyID = slot3.story_id
-	slot0._countType = slot3.countType
+function ys.Battle.BattleBuffStory.SetArgs(slot0, slot1, slot2)
+	slot0._storyID = slot0._tempData.arg_list.story_id
+	slot0._countType = slot0._tempData.arg_list.countType
 end
 
-function slot1.doOnHPRatioUpdate(slot0, slot1, slot2, slot3)
+function ys.Battle.BattleBuffStory.doOnHPRatioUpdate(slot0, slot1, slot2, slot3)
 	pg.StoryMgr.GetInstance():Play(slot0._storyID)
 end
+
+return

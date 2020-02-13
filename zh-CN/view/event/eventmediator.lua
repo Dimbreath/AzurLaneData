@@ -3,26 +3,26 @@ slot0 = class("EventMediator", import("..base.ContextMediator"))
 
 function slot0.register(slot0)
 	slot0:bind(EventConst.EVENT_LIST_UPDATE, function (slot0)
-		uv0:updateEventList(true)
+		slot0:updateEventList(true)
 	end)
 	slot0:bind(EventConst.EVENT_OPEN_DOCK, function (slot0, slot1)
-		for slot8, slot9 in pairs(getProxy(BayProxy):getRawData()) do
+		slot4 = {}
+
+		for slot8, slot9 in pairs(slot3) do
 			if not table.contains(slot1.template.ship_type, slot9:getShipType()) or slot9:isActivityNpc() then
-				table.insert({}, slot8)
+				table.insert(slot4, slot8)
 			end
 		end
 
-		slot5 = getProxy(EventProxy)
-		slot5.selectedEvent = slot1
-		slot16.onShip, slot16.confirmSelect, slot16.onSelected, slot16.onPassShip, slot16.onRemoveShip = uv0:getDockCallbackFuncs()
-		slot12 = uv0
+		getProxy(EventProxy).selectedEvent = slot1
+		slot16.onShip, slot16.confirmSelect, slot16.onSelected, slot16.onPassShip, slot16.onRemoveShip = slot0:getDockCallbackFuncs()
 
-		slot12.sendNotification(slot12, GAME.GO_SCENE, SCENE.DOCKYARD, {
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			selectedMin = 1,
 			skipSelect = true,
 			selectedMax = 6,
 			ignoredIds = slot4,
-			selectedIds = slot5.selectedEvent and slot5.selectedEvent.shipIds or {},
+			selectedIds = (getProxy(EventProxy).selectedEvent and slot5.selectedEvent.shipIds) or {},
 			onShip = slot6,
 			confirmSelect = slot7,
 			onSelected = slot8,
@@ -41,7 +41,7 @@ function slot0.register(slot0)
 				inEvent = true,
 				inAdmiral = true
 			},
-			blackBlockShipIds = slot2:getBlackBlackShipIds(uv0.__cname)
+			blackBlockShipIds = slot2:getBlackBlackShipIds(slot0.__cname)
 		})
 	end)
 	slot0:bind(EventConst.EVENT_FLUSH, function (slot0)
@@ -62,11 +62,11 @@ function slot0.register(slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("event_confirm_flush"),
 					onYes = function ()
-						uv0:sendNotification(GAME.EVENT_FLUSH)
+						slot0:sendNotification(GAME.EVENT_FLUSH)
 					end
 				})
 			else
-				uv0:sendNotification(GAME.EVENT_FLUSH)
+				slot0:sendNotification(GAME.EVENT_FLUSH)
 			end
 		end
 	end)
@@ -83,9 +83,9 @@ function slot0.register(slot0)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("event_type_unreached"))
 		else
 			function slot3()
-				uv0:sendNotification(GAME.EVENT_START, {
-					id = uv1.id,
-					shipIds = uv1.shipIds
+				slot0:sendNotification(GAME.EVENT_START, {
+					id = slot1.id,
+					shipIds = slot1.shipIds
 				})
 			end
 
@@ -93,7 +93,7 @@ function slot0.register(slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("event_oil_consume", slot4),
 					onYes = function ()
-						uv0()
+						slot0()
 					end
 				})
 			else
@@ -105,25 +105,24 @@ function slot0.register(slot0)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("event_confirm_giveup"),
 			onYes = function ()
-				uv0:sendNotification(GAME.EVENT_GIVEUP, {
-					id = uv1.id
+				slot0:sendNotification(GAME.EVENT_GIVEUP, {
+					id = slot1.id
 				})
 			end
 		})
 	end)
 	slot0:bind(EventConst.EVENT_FINISH, function (slot0, slot1)
-		uv0:sendNotification(GAME.EVENT_FINISH, {
+		slot0:sendNotification(GAME.EVENT_FINISH, {
 			id = slot1.id
 		})
 	end)
 	slot0:bind(EventConst.EVENT_RECOMMEND, function (slot0, slot1)
-		slot2 = getProxy(EventProxy)
-		slot2.selectedEvent = slot1
+		getProxy(EventProxy).selectedEvent = slot1
 
 		getProxy(EventProxy):fillRecommendShip(slot1)
-		uv0:updateEventList(true, true)
+		slot0:updateEventList(true, true)
 
-		slot2.selectedEvent = nil
+		getProxy(EventProxy).selectedEvent = nil
 
 		if not slot1:reachNum() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("event_recommend_fail"))
@@ -149,18 +148,20 @@ function slot0.handleNotification(slot0, slot1)
 		if slot2 == GAME.EVENT_SHOW_AWARDS then
 			slot4 = nil
 
+
+			-- Decompilation error in this vicinity:
 			coroutine.wrap(function ()
-				if #uv0.oldShips > 0 then
-					uv1.viewComponent:emit(BaseUI.ON_SHIP_EXP, {
-						title = pg.collection_template[uv0.eventId].title,
-						oldShips = uv0.oldShips,
-						newShips = uv0.newShips,
-						isCri = uv0.isCri
-					}, uv2)
+				if #slot0.oldShips > 0 then
+					slot1.viewComponent:emit(BaseUI.ON_SHIP_EXP, {
+						title = pg.collection_template[slot0.eventId].title,
+						oldShips = slot0.oldShips,
+						newShips = slot0.newShips,
+						isCri = slot0.isCri
+					}, )
 					coroutine.yield()
 				end
 
-				uv1.viewComponent:emit(BaseUI.ON_ACHIEVE, uv0.awards)
+				slot1.viewComponent:emit(BaseUI.ON_ACHIEVE, slot0.awards)
 			end)()
 
 			return
@@ -176,10 +177,9 @@ end
 
 function slot0.updateEventList(slot0, slot1, slot2)
 	slot3 = getProxy(BayProxy)
-	slot4 = getProxy(EventProxy)
-	slot4.virgin = false
+	getProxy(EventProxy).virgin = false
 
-	table.sort(slot4.eventList, function (slot0, slot1)
+	table.sort(slot5, function (slot0, slot1)
 		if slot0.state ~= slot1.state then
 			return slot1.state < slot0.state
 		elseif slot0.template.type ~= slot1.template.type then
@@ -222,8 +222,10 @@ function slot0.getDockCallbackFuncs(slot0)
 			return Ship.ChangeStateCheckBox(slot4, slot0, slot1)
 		end
 
+		slot5 = getProxy(BayProxy)
+
 		for slot9, slot10 in ipairs(slot2) do
-			if slot0:isSameKind(getProxy(BayProxy):getShipById(slot10)) then
+			if slot0:isSameKind(slot5:getShipById(slot10)) then
 				return false, i18n("event_same_type_not_allowed")
 			end
 		end
@@ -234,19 +236,23 @@ function slot0.getDockCallbackFuncs(slot0)
 	end, function (slot0)
 		getProxy(EventProxy).selectedEvent.shipIds = slot0
 	end, function (slot0, slot1)
+		slot2 = {}
+
 		for slot6, slot7 in pairs(slot1) do
 			if slot0.id ~= slot7.id and slot7:isSameKind(slot0) then
 				slot7.blackBlock = true
 
-				table.insert({}, slot7.id)
+				table.insert(slot2, slot7.id)
 			end
 		end
 
 		return slot2
 	end, function (slot0, slot1)
+		slot2 = {}
+
 		for slot6, slot7 in pairs(slot1) do
 			if slot0.id ~= slot7.id and not slot7.inEvent and slot7:isSameKind(slot0) and slot7.blackBlock then
-				table.insert({}, slot7.id)
+				table.insert(slot2, slot7.id)
 
 				slot7.blackBlock = nil
 			end

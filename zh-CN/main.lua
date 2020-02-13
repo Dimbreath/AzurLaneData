@@ -24,7 +24,9 @@ PLATFORM_CODE = PLATFORM_CH
 SDK_EXIT_CODE = 99
 
 function luaIdeDebugFunc()
-	breakInfoFun = require("LuaDebugjit")("localhost", 7003)
+	breakInfoFun = 
+	-- Decompilation error in this vicinity:
+	require("LuaDebugjit")("localhost", 7003)
 	time = Timer.New(breakInfoFun, 0.5, -1, 1)
 
 	time:Start()
@@ -107,9 +109,8 @@ function OnApplicationExit()
 		return
 	end
 
-	slot11 = slot10.viewComponent
-	slot12 = slot11._tf.parent
-	slot13 = slot11._tf:GetSiblingIndex()
+	slot12 = slot10.viewComponent._tf.parent
+	slot13 = slot10.viewComponent._tf:GetSiblingIndex()
 	slot14 = -1
 	slot15 = nil
 
@@ -135,6 +136,7 @@ function OnApplicationExit()
 end
 
 function OnReceiveMemoryWarning()
+	return
 end
 
 function PressBack()
@@ -200,12 +202,9 @@ seriesAsync({
 	end
 }, function (slot0)
 	pg.SdkMgr.GetInstance():QueryWithProduct()
-	print("loading cost: " .. os.clock() - uv0)
+	print("loading cost: " .. os.clock() - slot0)
 	CameraUtil.SetOnlyAdaptMainCam(true)
-
-	slot1 = VersionMgr.Inst
-
-	slot1:DestroyUI()
+	VersionMgr.Inst:DestroyUI()
 
 	if not IsNil(GameObject.Find("OverlayCamera/Overlay/UIMain/ServerChoosePanel")) then
 		Object.Destroy(slot1)
@@ -237,3 +236,5 @@ seriesAsync({
 		end)
 	end
 end)
+
+return

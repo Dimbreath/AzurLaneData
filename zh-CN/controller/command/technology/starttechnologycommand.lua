@@ -1,10 +1,7 @@
-slot0 = class("StartTechnologyCommand", pm.SimpleCommand)
+class("StartTechnologyCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	slot4 = slot1:getBody().pool_id
 
-function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
-	slot4 = slot2.pool_id
-
-	if not getProxy(TechnologyProxy):getTechnologyById(slot2.id) then
+	if not getProxy(TechnologyProxy):getTechnologyById(slot1.getBody().id) then
 		return
 	end
 
@@ -25,18 +22,18 @@ function slot0.execute(slot0, slot1)
 		refresh_id = slot4
 	}, 63002, function (slot0)
 		if slot0.result == 0 then
-			for slot5, slot6 in ipairs(uv0:getConfig("consume")) do
-				uv1:sendNotification(GAME.CONSUME_ITEM, Item.New({
+			for slot5, slot6 in ipairs(slot1) do
+				slot1:sendNotification(GAME.CONSUME_ITEM, Item.New({
 					type = slot6[1],
 					id = slot6[2],
 					count = slot6[3]
 				}))
 			end
 
-			uv0:start()
-			uv2:updateTechnology(uv0)
-			uv1:sendNotification(GAME.START_TECHNOLOGY_DONE, {
-				technologyId = uv0.id
+			slot0:start()
+			slot0.start:updateTechnology(slot0)
+			slot1:sendNotification(GAME.START_TECHNOLOGY_DONE, {
+				technologyId = slot0.id
 			})
 			pg.TipsMgr.GetInstance():ShowTips(i18n("technology_start_up"))
 		else
@@ -45,4 +42,4 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-return slot0
+return class("StartTechnologyCommand", pm.SimpleCommand)

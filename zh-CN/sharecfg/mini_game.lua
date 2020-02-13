@@ -1,9 +1,4 @@
 pg = pg or {}
-slot3[2] = {
-	10,
-	11,
-	12
-}
 pg.mini_game = {
 	{
 		name = "测试小游戏",
@@ -67,7 +62,11 @@ pg.mini_game = {
 		},
 		config_data = {
 			5,
-			nil,
+			{
+				10,
+				11,
+				12
+			},
 			2
 		}
 	},
@@ -353,3 +352,5 @@ pg.mini_game = {
 		10
 	}
 }
+
+return

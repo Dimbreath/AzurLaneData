@@ -1,22 +1,4 @@
 pg = pg or {}
-slot4[1] = {
-	1260001
-}
-slot4[1] = {
-	1260002
-}
-slot4[1] = {
-	1260003
-}
-slot4[1] = {
-	1320101
-}
-slot4[1] = {
-	1320201
-}
-slot4[1] = {
-	1320301
-}
 pg.activity_event_worldboss = {
 	{
 		group_num = 1,
@@ -215,15 +197,21 @@ pg.activity_event_worldboss = {
 		},
 		normal_expedition_drop_num = {
 			{
-				nil,
+				{
+					1260001
+				},
 				15
 			},
 			{
-				nil,
+				{
+					1260002
+				},
 				15
 			},
 			{
-				nil,
+				{
+					1260003
+				},
 				15
 			}
 		},
@@ -293,15 +281,21 @@ pg.activity_event_worldboss = {
 		},
 		normal_expedition_drop_num = {
 			{
-				nil,
+				{
+					1320101
+				},
 				15
 			},
 			{
-				nil,
+				{
+					1320201
+				},
 				15
 			},
 			{
-				nil,
+				{
+					1320301
+				},
 				15
 			}
 		},
@@ -315,3 +309,5 @@ pg.activity_event_worldboss = {
 		3
 	}
 }
+
+return

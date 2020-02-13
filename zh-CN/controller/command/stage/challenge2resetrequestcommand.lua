@@ -1,6 +1,4 @@
-slot0 = class("Challenge2ResetRequestCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("Challenge2ResetRequestCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot2 = slot1:getBody().mode
 	slot3 = slot1:getBody().isInfiniteSeasonClear
 
@@ -15,15 +13,15 @@ function slot0.execute(slot0, slot1)
 		mode = slot2
 	}, 24012, function (slot0)
 		if slot0.result == 0 then
-			uv0:getUserChallengeInfoList()[uv1] = nil
+			slot0:getUserChallengeInfoList()[slot1] = nil
 
-			if uv2 == true then
-				uv0:setCurMode(ChallengeProxy.MODE_CASUAL)
+			if slot1 == true then
+				slot0:setCurMode(ChallengeProxy.MODE_CASUAL)
 			end
 
-			uv3:sendNotification(GAME.CHALLENGE2_RESET_DONE)
+			slot3:sendNotification(GAME.CHALLENGE2_RESET_DONE)
 		end
 	end)
 end
 
-return slot0
+return class("Challenge2ResetRequestCommand", pm.SimpleCommand)

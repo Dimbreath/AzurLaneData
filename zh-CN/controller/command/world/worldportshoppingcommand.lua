@@ -7,13 +7,11 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	if slot3.moneyItem.type == DROP_TYPE_RESOURCE then
-		if getProxy(PlayerProxy):getRawData()[id2res(slot4.id)] < slot4.count then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("buyProp_noResource_error", pg.item_data_statistics[id2ItemId(slot4.id)].name))
-		end
+	if slot3.moneyItem.type == DROP_TYPE_RESOURCE and getProxy(PlayerProxy):getRawData()[id2res(slot4.id)] < slot4.count then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("buyProp_noResource_error", pg.item_data_statistics[id2ItemId(slot4.id)].name))
 	end
 
-	if getProxy(WorldProxy):GetWorld():getInventoryProxy():GetItemCount(WorldItem.MoneyId) < slot4.count then
+	if getProxy(WorldProxy).GetWorld(slot5).getInventoryProxy(slot6).GetItemCount(slot7, WorldItem.MoneyId) < slot4.count then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_item_1"))
 
 		return
@@ -23,25 +21,24 @@ function slot0.execute(slot0, slot1)
 		shop_id = slot3.id
 	}, 33404, function (slot0)
 		if slot0.result == 0 then
-			uv0:UpdateCount(uv0.count - 1)
+			slot0:UpdateCount(slot0.count - 1)
 
-			slot1 = uv1:BuildDrop(slot0)
-			slot2 = uv2:GetActiveMap()
-			slot3 = slot2:GetFleet()
+			slot1 = slot0.UpdateCount:BuildDrop(slot0)
+			slot2 = slot0.UpdateCount:GetActiveMap()
 			slot4 = slot2:GetPort()
-			slot5 = uv3.id
+			slot5 = slot3.id
 
-			if uv3.type == DROP_TYPE_RESOURCE then
-				slot5 = id2ItemId(uv3.id)
+			if slot3.type == DROP_TYPE_RESOURCE then
+				slot5 = id2ItemId(slot3.id)
 			end
 
-			uv2:AddLog(WorldLog.TypePurchase, {
+			slot2:AddLog(WorldLog.TypePurchase, {
 				fleet = slot3.id,
 				port = slot4.id,
 				item = slot5
 			})
-			uv4:RemoveItem(WorldItem.MoneyId, uv3.count)
-			uv1:sendNotification(GAME.WORLD_PORT_SHOPPING_DONE, {
+			slot4:RemoveItem(WorldItem.MoneyId, slot3.count)
+			slot1:sendNotification(GAME.WORLD_PORT_SHOPPING_DONE, {
 				drops = slot1
 			})
 		else
@@ -51,11 +48,11 @@ function slot0.execute(slot0, slot1)
 end
 
 function slot0.BuildDrop(slot0, slot1)
-	for slot6, slot7 in ipairs(slot1.drop_list) do
-		slot8 = Item.New(slot7)
+	slot2 = {}
 
-		table.insert({}, slot8)
-		slot0:sendNotification(GAME.ADD_ITEM, slot8)
+	for slot6, slot7 in ipairs(slot1.drop_list) do
+		table.insert(slot2, slot8)
+		slot0:sendNotification(GAME.ADD_ITEM, Item.New(slot7))
 	end
 
 	return slot2

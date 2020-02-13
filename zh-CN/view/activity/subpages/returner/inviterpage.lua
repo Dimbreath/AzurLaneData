@@ -36,30 +36,30 @@ end
 
 function slot0.Init(slot0)
 	onButton(slot0, slot0.getBtn, function ()
-		uv0._event:emit(ActivityMediator.RETURN_AWARD_OP, {
-			activity_id = uv0.activity.id,
+		slot0._event:emit(ActivityMediator.RETURN_AWARD_OP, {
+			activity_id = slot0.activity.id,
 			cmd = ActivityConst.RETURN_AWARD_OP_GET_AWARD,
-			arg1 = uv0.nextTarget
+			arg1 = slot0.nextTarget
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.awardOverView, function ()
-		uv0._event:emit(ActivityMediator.RETURN_AWARD_OP, {
+		slot0._event:emit(ActivityMediator.RETURN_AWARD_OP, {
 			cmd = ActivityConst.RETURN_AWARD_OP_SHOW_AWARD_OVERVIEW,
 			arg1 = {
-				dropList = uv0.config.drop_client,
-				targets = uv0.config.target,
-				fetchList = uv0.fetchList,
-				count = uv0.pt,
-				resId = uv0.config.pt
+				dropList = slot0.config.drop_client,
+				targets = slot0.config.target,
+				fetchList = slot0.fetchList,
+				count = slot0.pt,
+				resId = slot0.config.pt
 			}
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.pushBtn, function ()
-		if uv0.isPush then
+		if slot0.isPush then
 			return
 		end
 
-		if not uv0.returners or #uv0.returners >= 3 then
+		if not slot0.returners or #slot0.returners >= 3 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("returner_max_count"))
 
 			return
@@ -68,10 +68,10 @@ function slot0.Init(slot0)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("returner_push_tip"),
 			onYes = function ()
-				uv0._event:emit(ActivityMediator.RETURN_AWARD_OP, {
-					activity_id = uv0.activity.id,
+				slot0._event:emit(ActivityMediator.RETURN_AWARD_OP, {
+					activity_id = slot0.activity.id,
 					cmd = ActivityConst.RETURN_AWARD_OP_PUSH_UID,
-					arg1 = uv0.code
+					arg1 = slot0.code
 				})
 			end
 		})
@@ -83,7 +83,7 @@ function slot0.Update(slot0, slot1)
 	slot2 = pg.TimeMgr.GetInstance():GetServerTime()
 
 	if not ActivityMainScene.FetchReturnersTime or ActivityMainScene.FetchReturnersTime <= slot2 then
-		ActivityMainScene.FetchReturnersTime = slot2 + uv0.REFRESH_TIME
+		ActivityMainScene.FetchReturnersTime = slot2 + slot0.REFRESH_TIME
 
 		slot0._event:emit(ActivityMediator.RETURN_AWARD_OP, {
 			activity_id = slot0.activity.id,
@@ -99,8 +99,10 @@ function slot0.Update(slot0, slot1)
 end
 
 function slot0.getTotalPt(slot0, slot1)
+	slot2 = 0
+
 	for slot6, slot7 in ipairs(slot0.returners) do
-		slot2 = 0 + slot7:getPt()
+		slot2 = slot2 + slot7:getPt()
 	end
 
 	return slot2 + slot1
@@ -133,7 +135,7 @@ function slot0.UpdateData(slot0)
 	slot0.nextDrops = slot0.config.drop_client[slot0.nextIndex]
 	slot0.nextTarget = slot0.targets[slot0.nextIndex]
 	slot0.returners = slot1:getClientList()
-	slot0.pt = slot0:getTotalPt(getProxy(PlayerProxy):getRawData():getResource(slot0.config.pt))
+	slot0.pt = slot0:getTotalPt(slot2)
 
 	setActive(slot0.pushBtn, not slot0.isPush and #slot0.returners < 3)
 	setActive(slot0.pushedBtn, slot0.isPush)
@@ -150,26 +152,21 @@ function slot0.UpdateUI(slot0)
 	slot0.phaseTotalTxt.text = #slot0.targets
 
 	setFillAmount(slot0.progress, slot0.pt / slot0.nextTarget)
-
-	slot1 = slot0.nextDrops
-
 	updateDrop(slot0.awardTF, {
-		type = slot1[1],
-		id = slot1[2],
-		count = slot1[3]
+		type = slot0.nextDrops[1],
+		id = slot0.nextDrops[2],
+		count = slot0.nextDrops[3]
 	})
 	slot0:UpdateTasks(pg.activity_template_headhunting[slot0.activity.id].tasklist)
 end
 
 function slot0.getTask(slot0, slot1)
-	slot2 = getProxy(TaskProxy)
-
-	return slot2:getTaskById(slot1) or slot2:getFinishTaskById(slot1)
+	return getProxy(TaskProxy):getTaskById(slot1) or slot2:getFinishTaskById(slot1)
 end
 
 function slot0.UpdateTasks(slot0, slot1)
 	if slot0.isPush then
-		slot3 = slot0.activity:getDayIndex()
+		slot3 = slot0.activity.getDayIndex(slot2)
 		slot4 = getProxy(TaskProxy)
 		slot5 = 0
 
@@ -202,20 +199,13 @@ end
 function slot0.UpdateTaskTF(slot0, slot1)
 	setActive(slot0.taskLockPanel, false)
 	setActive(slot0.taskPanel, true)
-
-	slot2 = slot1:isFinish()
-	slot3 = slot1:isReceive()
-
-	setActive(slot0.taskGoBtn, slot1 and not slot2)
-	setActive(slot0.taskGotBtn, slot1 and slot3)
-	setActive(slot0.taskGetBtn, slot1 and slot2 and not slot3)
-
-	slot4 = slot1:getConfig("award_display")[1]
-
+	setActive(slot0.taskGoBtn, slot1 and not slot1:isFinish())
+	setActive(slot0.taskGotBtn, slot1 and slot1:isReceive())
+	setActive(slot0.taskGetBtn, slot1 and slot1.isFinish() and not slot1.isReceive())
 	updateDrop(slot0.taskItemTF, {
-		type = slot4[1],
-		id = slot4[2],
-		count = slot4[3]
+		type = slot1:getConfig("award_display")[1][1],
+		id = slot1.getConfig("award_display")[1][2],
+		count = slot1.getConfig("award_display")[1][3]
 	})
 	setFillAmount(slot0.taskProgress, slot1:getProgress() / slot1:getConfig("target_num"))
 	setText(slot0.taskDesc, slot1:getConfig("desc"))
@@ -223,17 +213,17 @@ function slot0.UpdateTaskTF(slot0, slot1)
 	slot0.taskProgressTxt.text = slot1:getProgress() .. "/" .. slot1:getConfig("target_num")
 
 	onButton(slot0, slot0.taskGoBtn, function ()
-		uv0._event:emit(ActivityMediator.ON_TASK_GO, uv1)
+		slot0._event:emit(ActivityMediator.ON_TASK_GO, slot0._event)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.taskGetBtn, function ()
-		uv0._event:emit(ActivityMediator.ON_TASK_SUBMIT, uv1)
+		slot0._event:emit(ActivityMediator.ON_TASK_SUBMIT, slot0._event)
 	end, SFX_PANEL)
 end
 
 function slot1(slot0, slot1)
 	LoadSpriteAsync("qicon/" .. slot1:getPainting(), function (slot0)
-		if not IsNil(uv0) then
-			uv0:GetComponent(typeof(Image)).sprite = slot0
+		if not IsNil(slot0) then
+			slot0:GetComponent(typeof(Image)).sprite = slot0
 		end
 	end)
 	UIItemList.New(slot0:Find("starts"), slot0:Find("starts/tpl")):align(slot1:getStar())
@@ -244,10 +234,8 @@ function slot0.UpdateReturners(slot0)
 
 	slot0.returnerList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			if uv0[slot1 + 1] then
-				uv1(slot2:Find("info/icon"), Ship.New({
-					configId = slot3:getIcon()
-				}))
+			if slot0[slot1 + 1] then
+				slot1(slot2:Find("info/icon"), slot5)
 				setText(slot2:Find("info/name"), slot3:getName())
 				setText(slot2:Find("info/pt/Text"), slot3:getPt())
 			end

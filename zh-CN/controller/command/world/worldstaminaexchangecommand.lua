@@ -1,24 +1,23 @@
-slot0 = class("WorldStaminaExchangeCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("WorldStaminaExchangeCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot2 = slot1:getBody()
-	slot6, slot7 = getProxy(WorldProxy):GetWorld().staminaMgr:GetExchangeData()
+	slot6, slot7 = getProxy(WorldProxy).GetWorld(slot3).staminaMgr.GetExchangeData(slot5)
 
 	pg.ConnectionMgr.GetInstance():Send(33108, {
 		type = 1
 	}, 33109, function (slot0)
 		if slot0.result == 0 then
-			player = getProxy(PlayerProxy):getRawData()
+			slot1 = getProxy(PlayerProxy)
+			player = slot1:getRawData()
 
 			player:consume({
-				oil = uv0
+				oil = slot0
 			})
-			uv1:ExchangeStamina(uv2)
-			uv3:sendNotification(GAME.WORLD_STAMINA_EXCHANGE_DONE)
+			slot1:ExchangeStamina(slot1.ExchangeStamina)
+			slot1:sendNotification(GAME.WORLD_STAMINA_EXCHANGE_DONE)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("world_stamina_exchange_err_", slot0.result))
 		end
 	end)
 end
 
-return slot0
+return class("WorldStaminaExchangeCommand", pm.SimpleCommand)

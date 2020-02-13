@@ -1,12 +1,9 @@
-slot0 = class("CollectionGetAwardCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
+class("CollectionGetAwardCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot5 = false
 	slot6 = 0
 	slot7 = getProxy(PlayerProxy):getData()
 
-	if pg.storeup_data_template[slot2.id].award_display[slot2.index] and slot8[1] == DROP_TYPE_RESOURCE then
+	if pg.storeup_data_template[slot1:getBody().id].award_display[slot1.getBody().index] and slot8[1] == DROP_TYPE_RESOURCE then
 		slot6 = slot8[2]
 		slot5 = true
 	end
@@ -28,9 +25,11 @@ function slot0.execute(slot0, slot1)
 		award_index = slot4
 	}, 17006, function (slot0)
 		if slot0.result == 0 then
-			getProxy(CollectionProxy):updateAward(uv0, uv1)
+			slot1 = getProxy(CollectionProxy)
 
-			if pg.storeup_data_template[uv0].award_display[uv1][1] == DROP_TYPE_RESOURCE then
+			slot1:updateAward(slot0, slot1)
+
+			if pg.storeup_data_template[slot0].award_display[slot1][1] == DROP_TYPE_RESOURCE then
 				slot4 = getProxy(PlayerProxy)
 				slot5 = slot4:getData()
 
@@ -43,7 +42,6 @@ function slot0.execute(slot0, slot1)
 			elseif slot3[1] == DROP_TYPE_EQUIP then
 				getProxy(EquipmentProxy):addEquipmentById(slot3[2], slot3[3])
 			elseif slot3[1] == DROP_TYPE_SIREN_EQUIP then
-				-- Nothing
 			elseif slot3[1] == DROP_TYPE_SHIP then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("collection_award_ship", pg.ship_data_statistics[slot3[2]].name))
 			elseif slot3[1] == DROP_TYPE_FURNITURE then
@@ -53,16 +51,14 @@ function slot0.execute(slot0, slot1)
 				}))
 			end
 
-			slot4 = {}
-
 			table.insert(slot4, Item.New({
 				type = slot3[1],
 				id = slot3[2],
 				count = slot3[3]
 			}))
-			uv2:sendNotification(GAME.COLLECT_GET_AWARD_DONE, {
-				id = uv0,
-				items = slot4
+			slot2:sendNotification(GAME.COLLECT_GET_AWARD_DONE, {
+				id = slot0,
+				items = {}
 			})
 			pg.TipsMgr.GetInstance():ShowTips(i18n("word_takeOk"))
 		else
@@ -71,4 +67,4 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-return slot0
+return class("CollectionGetAwardCommand", pm.SimpleCommand)

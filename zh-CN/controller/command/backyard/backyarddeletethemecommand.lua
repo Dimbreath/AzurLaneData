@@ -1,6 +1,4 @@
-slot0 = class("BackYardDeleteThemeCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("BackYardDeleteThemeCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	if not getProxy(DormProxy):getThemeById(slot1:getBody()) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_theme_no_exist"))
 
@@ -11,8 +9,8 @@ function slot0.execute(slot0, slot1)
 		id = slot2
 	}, 19023, function (slot0)
 		if slot0.result == 0 then
-			uv0:deleteTheme(uv1)
-			uv2:sendNotification(GAME.DELETE_BACKYARD_THEME_DONE)
+			slot0:deleteTheme(slot0.deleteTheme)
+			slot0:sendNotification(GAME.DELETE_BACKYARD_THEME_DONE)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("backayrd_theme_delete_sucess"))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("backayrd_theme_delete_erro"))
@@ -20,4 +18,4 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-return slot0
+return class("BackYardDeleteThemeCommand", pm.SimpleCommand)

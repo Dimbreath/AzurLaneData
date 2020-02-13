@@ -1,30 +1,3 @@
-slot0.furnitures_4 = {
-	{
-		dir = 1,
-		parent = 0,
-		y = 12,
-		id = 31101,
-		x = 10,
-		child = {}
-	},
-	{
-		dir = 1,
-		parent = 0,
-		y = 19,
-		id = 31103,
-		x = 10,
-		child = {}
-	},
-	{
-		dir = 1,
-		parent = 0,
-		y = 6,
-		id = 31102,
-		x = 17,
-		child = {}
-	}
-}
-
 return {
 	id = 31,
 	furnitures_1 = {
@@ -102,6 +75,32 @@ return {
 			y = 9,
 			id = 31102,
 			x = 16,
+			child = {}
+		}
+	},
+	furnitures_4 = {
+		{
+			dir = 1,
+			parent = 0,
+			y = 12,
+			id = 31101,
+			x = 10,
+			child = {}
+		},
+		{
+			dir = 1,
+			parent = 0,
+			y = 19,
+			id = 31103,
+			x = 10,
+			child = {}
+		},
+		{
+			dir = 1,
+			parent = 0,
+			y = 6,
+			id = 31102,
+			x = 17,
 			child = {}
 		}
 	},

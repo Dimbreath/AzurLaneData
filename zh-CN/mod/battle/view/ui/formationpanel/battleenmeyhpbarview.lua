@@ -72,9 +72,9 @@ function slot1.SwitchTarget(slot0, slot1, slot2)
 	slot0._hpBarProgress.fillAmount = slot1:GetHPRate()
 
 	slot0:UpdateHpText(slot1)
-	slot0.SetIconType(slot0, slot1:GetTemplate().icon_type ~= 0)
+	slot0:SetIconType(slot1:GetTemplate().icon_type ~= 0)
 
-	slot0._typeIcon.sprite = GetSpriteFromAtlas("shiptype", shipType2Battleprint(uv0.Battle.BattleDataFunction.GetEnemyTypeDataByType(slot1:GetTemplate().type).type))
+	slot0._typeIcon.sprite = GetSpriteFromAtlas("shiptype", shipType2Battleprint(slot0.Battle.BattleDataFunction.GetEnemyTypeDataByType(slot1:GetTemplate().type).type))
 
 	slot0._typeIcon:SetNativeSize()
 
@@ -88,8 +88,7 @@ function slot1.SwitchTarget(slot0, slot1, slot2)
 end
 
 function slot1.UpdateHpText(slot0)
-	slot1 = slot0._targetUnit
-	slot6, slot8 = slot1:GetHP()
+	slot6, slot8 = slot0._targetUnit:GetHP()
 	slot0._hpBarText.text = tostring(math.floor(slot1) .. "/" .. math.floor(slot2))
 end
 
@@ -103,7 +102,7 @@ function slot1.UpdateHpBar(slot0)
 
 	if slot0._targetUnit:GetHPRate() < slot0._hpBarProgress.fillAmount then
 		LeanTween.value(slot0._hpBar, slot2, slot1, 0.5):setOnUpdate(System.Action_float(function (slot0)
-			uv0._hpBarProgress.fillAmount = slot0
+			slot0._hpBarProgress.fillAmount = slot0
 		end))
 	else
 		slot0._hpBarProgress.fillAmount = slot1
@@ -119,15 +118,15 @@ function slot1.RemoveUnit(slot0, slot1)
 	slot0._flag = false
 
 	function slot2()
-		uv0._flag = true
+		slot0._flag = true
 
-		uv0:Show(false)
+		slot0:Show(false)
 	end
 
 	if slot1 then
 		slot0._deathTimer = pg.TimeMgr.GetInstance():AddBattleTimer("death", 0, 1, function ()
-			uv0()
-			pg.TimeMgr.GetInstance():RemoveBattleTimer(uv1._deathTimer)
+			slot0()
+			pg.TimeMgr.GetInstance():RemoveBattleTimer(slot1._deathTimer)
 		end)
 	else
 		slot2()
@@ -151,3 +150,5 @@ function slot1.Dispose(slot0)
 		slot0._scrollNameText = nil
 	end
 end
+
+return

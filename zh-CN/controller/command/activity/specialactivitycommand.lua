@@ -4,7 +4,7 @@ function slot0.execute(slot0, slot1)
 	slot2 = getProxy(ActivityProxy):getActivityById(ActivityConst.ACT_NPC_SHIP_ID)
 
 	if not getProxy(BayProxy).isClearNpc and (not slot2 or slot2:isEnd()) then
-		for slot8, slot9 in pairs(slot3:getData()) do
+		for slot8, slot9 in pairs(slot4) do
 			if slot9:isActivityNpc() then
 				slot0:unloadEquipments(slot9)
 				slot0:checkChapters(slot9)
@@ -19,11 +19,13 @@ function slot0.execute(slot0, slot1)
 end
 
 function slot0.unloadEquipments(slot0, slot1)
-	for slot7, slot8 in pairs(slot1.equipments) do
+	slot2 = getProxy(EquipmentProxy)
+
+	for slot7, slot8 in pairs(slot3) do
 		if slot8 then
 			if slot8:hasSkin() then
 				slot1:updateEquipmentSkin(slot7, 0)
-				getProxy(EquipmentProxy):addEquipmentSkin(slot8.skinId, 1)
+				slot2:addEquipmentSkin(slot8.skinId, 1)
 			end
 
 			slot1:updateEquip(slot7, nil)
@@ -34,7 +36,7 @@ end
 
 function slot0.checkChapters(slot0, slot1)
 	if getProxy(ChapterProxy):getActiveChapter() then
-		for slot8, slot9 in pairs(slot3.fleets) do
+		for slot8, slot9 in pairs(slot4) do
 			if slot9:containsShip(slot1.id) then
 				slot0:sendNotification(GAME.CHAPTER_OP, {
 					type = ChapterConst.OpRetreat
@@ -45,8 +47,8 @@ function slot0.checkChapters(slot0, slot1)
 		end
 	end
 
-	for slot8, slot9 in pairs(slot2:getRawData()) do
-		for slot14, slot15 in pairs(slot9:getEliteFleetList()) do
+	for slot8, slot9 in pairs(slot4) do
+		for slot14, slot15 in pairs(slot10) do
 			if table.contains(slot15, slot1.id) then
 				table.remove(slot15, table.indexof(slot15, slot1.id))
 			end
@@ -55,9 +57,7 @@ function slot0.checkChapters(slot0, slot1)
 end
 
 function slot0.checkFormations(slot0, slot1)
-	slot2 = getProxy(FleetProxy)
-
-	for slot7, slot8 in pairs(slot2:getData()) do
+	for slot7, slot8 in pairs(slot3) do
 		if slot8:containShip(slot1) then
 			slot8:removeShip(slot1)
 			slot2:updateFleet(slot8)
@@ -66,9 +66,7 @@ function slot0.checkFormations(slot0, slot1)
 end
 
 function slot0.checkNavTactics(slot0, slot1)
-	slot2 = getProxy(NavalAcademyProxy)
-
-	for slot7, slot8 in ipairs(slot2:getStudents()) do
+	for slot7, slot8 in ipairs(slot3) do
 		if slot8.shipId == slot1.id then
 			slot2:deleteStudent(slot8.id)
 

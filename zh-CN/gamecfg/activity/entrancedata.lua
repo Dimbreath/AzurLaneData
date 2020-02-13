@@ -6,9 +6,7 @@ return {
 			SCENE.SUMMARY
 		},
 		isShow = function ()
-			slot0 = getProxy(ActivityProxy)
-
-			return slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_SUMMARY) and not slot0:isEnd()
+			return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SUMMARY) and not slot0:isEnd()
 		end
 	},
 	{
@@ -16,9 +14,7 @@ return {
 		event = ActivityMediator.GO_PRAY_POOL,
 		data = {},
 		isShow = function ()
-			slot0 = getProxy(ActivityProxy)
-
-			return slot0:getActivityById(ActivityConst.ACTIVITY_PRAY_POOL) and not slot0:isEnd()
+			return getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_PRAY_POOL) and not slot0:isEnd()
 		end
 	},
 	{
@@ -31,9 +27,7 @@ return {
 			}
 		},
 		isShow = function ()
-			slot0 = getProxy(ActivityProxy)
-
-			return slot0:getActivityById(ActivityConst.BUILD_BISMARCK_ID) and not slot0:isEnd()
+			return getProxy(ActivityProxy):getActivityById(ActivityConst.BUILD_BISMARCK_ID) and not slot0:isEnd()
 		end
 	},
 	{
@@ -43,9 +37,7 @@ return {
 			SCENE.COLORING
 		},
 		isShow = function ()
-			slot0 = getProxy(ActivityProxy)
-
-			return slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_COLORING_ALPHA) and not slot0:isEnd()
+			return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLORING_ALPHA) and not slot0:isEnd()
 		end,
 		isTip = function ()
 			return getProxy(ColoringProxy):CheckTodayTip()
@@ -77,9 +69,7 @@ return {
 			}
 		},
 		isShow = function ()
-			slot0 = getProxy(ActivityProxy)
-
-			return slot0:getActivityById(ActivityConst.BISMARCK_PT_SHOP_ID) and not slot0:isEnd()
+			return getProxy(ActivityProxy):getActivityById(ActivityConst.BISMARCK_PT_SHOP_ID) and not slot0:isEnd()
 		end
 	},
 	{
@@ -92,9 +82,7 @@ return {
 			}
 		},
 		isShow = function ()
-			slot0 = getProxy(ActivityProxy)
-
-			return slot0:getActivityById(ActivityConst.BILIBILI_PT_SHOP_ID) and not slot0:isEnd()
+			return getProxy(ActivityProxy):getActivityById(ActivityConst.BILIBILI_PT_SHOP_ID) and not slot0:isEnd()
 		end
 	},
 	{},
@@ -108,9 +96,7 @@ return {
 			}
 		},
 		isShow = function ()
-			slot0 = getProxy(ActivityProxy)
-
-			return slot0:getActivityById(ActivityConst.FRANCE_RE_BUILD) and not slot0:isEnd()
+			return getProxy(ActivityProxy):getActivityById(ActivityConst.FRANCE_RE_BUILD) and not slot0:isEnd()
 		end
 	},
 	{
@@ -123,9 +109,7 @@ return {
 			}
 		},
 		isShow = function ()
-			slot0 = getProxy(ActivityProxy)
-
-			return slot0:getActivityById(ActivityConst.FRANCE_RE_PT_SHOP) and not slot0:isEnd()
+			return getProxy(ActivityProxy):getActivityById(ActivityConst.FRANCE_RE_PT_SHOP) and not slot0:isEnd()
 		end
 	},
 	{
@@ -170,9 +154,7 @@ return {
 			SCENE.SUMMER_FEAST
 		},
 		isShow = function ()
-			slot0 = getProxy(ActivityProxy)
-
-			return slot0:getActivityById(ActivityConst.SUMMER_FEAST_ID) and not slot0:isEnd()
+			return getProxy(ActivityProxy):getActivityById(ActivityConst.SUMMER_FEAST_ID) and not slot0:isEnd()
 		end
 	},
 	{
@@ -184,9 +166,7 @@ return {
 		end,
 		isTip = function ()
 			return _.any(VoteFameHallLayer.configs, function (slot0)
-				slot1 = getProxy(TaskProxy)
-
-				return slot1:getTaskById(slot0[2]) and slot1:isFinish() and not slot1:isReceive()
+				return getProxy(TaskProxy):getTaskById(slot0[2]) and slot1:isFinish() and not slot1:isReceive()
 			end)
 		end
 	},
@@ -197,9 +177,7 @@ return {
 			SCENE.NEWYEAR_SQUARE
 		},
 		isShow = function ()
-			slot0 = getProxy(ActivityProxy)
-
-			return slot0:getActivityById(ActivityConst.NEWYEAR_ACTIVITY) and not slot0:isEnd()
+			return getProxy(ActivityProxy):getActivityById(ActivityConst.NEWYEAR_ACTIVITY) and not slot0:isEnd()
 		end
 	},
 	{
@@ -207,9 +185,7 @@ return {
 		event = ActivityMediator.OPEN_RED_PACKET_LAYER,
 		data = {},
 		isShow = function ()
-			slot0 = getProxy(ActivityProxy)
-
-			return slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_RED_PACKETS) and not slot0:isEnd()
+			return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_RED_PACKETS) and not slot0:isEnd()
 		end,
 		isTip = function ()
 			return RedPacketLayer.isShowRedPoint()
@@ -222,15 +198,11 @@ return {
 			10
 		},
 		isShow = function ()
-			slot0 = getProxy(ActivityProxy)
-
-			return slot0:getActivityById(ActivityConst.LANTERNFESTIVAL) and not slot0:isEnd()
+			return getProxy(ActivityProxy):getActivityById(ActivityConst.LANTERNFESTIVAL) and not slot0:isEnd()
 		end,
 		isTip = function ()
-			slot0 = getProxy(ActivityProxy)
-
-			if slot0:getActivityById(ActivityConst.LANTERNFESTIVAL) and not slot0:isEnd() then
-				return getProxy(MiniGameProxy):GetHubByHubId(slot0:getConfig("config_id")).count > 0 and slot2.usedtime < 7
+			if getProxy(ActivityProxy):getActivityById(ActivityConst.LANTERNFESTIVAL) and not slot0:isEnd() then
+				return getProxy(MiniGameProxy).GetHubByHubId(slot1, slot0:getConfig("config_id")).count > 0 and slot2.usedtime < 7
 			end
 		end
 	}

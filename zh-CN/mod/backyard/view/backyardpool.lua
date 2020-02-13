@@ -18,11 +18,10 @@ end
 
 function slot0.Dequeue(slot0)
 	slot1 = nil
-	slot1 = (#slot0.items <= 0 or table.remove(slot0.items, #slot0.items)) and instantiate(slot0.prefab)
 
-	setActive(slot1, true)
+	setActive((#slot0.items <= 0 or table.remove(slot0.items, #slot0.items)) and instantiate(slot0.prefab), true)
 
-	return slot1
+	return (#slot0.items <= 0 or table.remove(slot0.items, #slot0.items)) and instantiate(slot0.prefab)
 end
 
 function slot0.clear(slot0)

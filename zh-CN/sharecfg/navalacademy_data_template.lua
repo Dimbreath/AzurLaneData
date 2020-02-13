@@ -57,3 +57,5 @@ pg.navalacademy_data_template = {
 		6
 	}
 }
+
+return

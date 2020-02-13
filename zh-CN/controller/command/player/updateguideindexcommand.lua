@@ -1,17 +1,13 @@
-slot0 = class("UpdateGuideIndexCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
-	slot3 = slot2.index
-	slot4 = slot2.callback
+class("UpdateGuideIndexCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	slot4 = slot1:getBody().callback
 
 	print("update index.....", slot3)
 	pg.ConnectionMgr.GetInstance():Send(11016, {
-		guide_index = slot3
+		guide_index = slot1.getBody().index
 	})
 
 	slot5 = getProxy(PlayerProxy):getData()
-	slot5.guideIndex = slot3
+	slot5.guideIndex = slot1.getBody().index
 
 	getProxy(PlayerProxy):updatePlayer(slot5)
 	pg.SeriesGuideMgr.GetInstance():setPlayer(slot5)
@@ -25,4 +21,4 @@ function slot0.execute(slot0, slot1)
 	end
 end
 
-return slot0
+return class("UpdateGuideIndexCommand", pm.SimpleCommand)

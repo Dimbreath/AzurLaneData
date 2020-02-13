@@ -70,25 +70,25 @@ end
 
 return {
 	GoSDkLoginScene = function ()
-		uv0:GoLoginScene()
+		slot0:GoLoginScene()
 	end,
 	LoginSdk = function (slot0)
-		uv0:Login(0)
+		slot0:Login(0)
 	end,
 	SdkGateWayLogined = function ()
-		uv0:OnGatewayLogined()
+		slot0:OnGatewayLogined()
 	end,
 	SdkLoginGetaWayFailed = function ()
-		uv0:OnLoginGatewayFailed()
+		slot0:OnLoginGatewayFailed()
 	end,
 	LogoutSDK = function ()
-		uv0:LocalLogout()
+		slot0:LocalLogout()
 	end,
 	EnterServer = function (slot0, slot1, slot2, slot3, slot4, slot5, slot6)
-		uv0:EnterServer(slot0, slot1, slot2, slot3, slot4 * 1000, slot5, "vip0", slot6)
+		slot0:EnterServer(slot0, slot1, slot2, slot3, slot4 * 1000, slot5, "vip0", slot6)
 	end,
 	SdkLevelUp = function (slot0, slot1)
-		uv0:LevelUp(slot1, slot0)
+		slot0:LevelUp(slot1, slot0)
 	end,
 	UserCenter = function ()
 		slot1 = "未登入"
@@ -97,29 +97,29 @@ return {
 			slot1 = slot0:getData().name
 		end
 
-		uv0:UserCenter(slot1, UpdateMgr.Inst.currentVersion:ToString(), "1")
+		slot0:UserCenter(slot1, UpdateMgr.Inst.currentVersion:ToString(), "1")
 	end,
 	BugReport = function ()
-		slot3 = getProxy(ServerProxy):getLastServer(getProxy(UserProxy):getData().uid)
+		slot3 = getProxy(ServerProxy).getLastServer(slot2, getProxy(UserProxy).getData(slot0).uid)
 		slot5 = ""
 
 		if getProxy(PlayerProxy) then
 			slot5 = slot4:getData().name
 		end
 
-		uv0:BugReport(slot5, UpdateMgr.Inst.currentVersion:ToString(), slot3.id)
+		slot0:BugReport(slot5, UpdateMgr.Inst.currentVersion:ToString(), slot3.id)
 	end,
 	StoreReview = function ()
-		uv0:StoreReview()
+		slot0:StoreReview()
 	end,
 	ShareImg = function (slot0, slot1)
-		uv0:ShareImg(slot0, slot1)
+		slot0:ShareImg(slot0, slot1)
 	end,
 	CompletedTutorial = function ()
-		uv0:CompletedTutorial()
+		slot0:CompletedTutorial()
 	end,
 	UnlockAchievement = function ()
-		uv0:UnlockAchievement()
+		slot0:UnlockAchievement()
 	end,
 	QueryWithProduct = function ()
 		function slot1(slot0, slot1)
@@ -130,51 +130,39 @@ return {
 			end
 		end
 
-		uv0:QueryWithProduct(function ()
-			for slot4, slot5 in ipairs(pg.pay_data_display.all) do
-				slot0 = "" .. pg.pay_data_display[slot5].id_str .. ";"
-			end
-
-			return slot0
-		end(), function (slot0)
-			for slot5, slot6 in ipairs(string.split(slot0, ";")) do
-				slot7 = string.split(slot6, "|")
-
-				uv0(slot7[1], slot7[2])
+		slot0:QueryWithProduct(slot0(), function (slot0)
+			for slot5, slot6 in ipairs(slot1) do
+				slot0(string.split(slot6, "|")[1], string.split(slot6, "|")[2])
 			end
 		end)
 	end,
 	SdkPay = function (slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9)
-		uv0:Pay(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, getProxy(PlayerProxy):getRawData().level)
+		slot0:Pay(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, getProxy(PlayerProxy):getRawData().level)
 	end,
 	BindCPU = function ()
-		uv0:callSdkApi("bindCpu", nil)
+		slot0:callSdkApi("bindCpu", nil)
 	end,
 	SwitchAccount = function ()
-		uv0:SwitchAccount()
+		slot0:SwitchAccount()
 	end,
 	GetBiliServerId = function ()
-		slot0 = uv0.serverId
+		print("serverId : " .. slot0.serverId)
 
-		print("serverId : " .. slot0)
-
-		return slot0
+		return slot0.serverId
 	end,
 	GetChannelUID = function ()
-		slot0 = uv0.channelUID
+		print("channelUID : " .. slot0.channelUID)
 
-		print("channelUID : " .. slot0)
-
-		return slot0
+		return slot0.channelUID
 	end,
 	GetLoginType = function ()
-		return uv0.loginType
+		return slot0.loginType
 	end,
 	GetIsPlatform = function ()
-		return uv0.isPlatform
+		return slot0.isPlatform
 	end,
 	GetDeviceModel = function ()
-		return uv0:GetDeviceModel()
+		return slot0:GetDeviceModel()
 	end,
 	OnAndoridBackPress = function ()
 		PressBack()

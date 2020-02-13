@@ -4,7 +4,7 @@ slot0.ITEM_UPDATED = "item updated"
 
 function slot0.register(slot0)
 	slot0:on(15001, function (slot0)
-		uv0.data = {}
+		slot0.data = {}
 
 		for slot4, slot5 in ipairs(slot0.item_list) do
 			slot6 = Item.New({
@@ -14,7 +14,7 @@ function slot0.register(slot0)
 
 			slot6:display("loaded")
 
-			uv0.data[slot6.id] = slot6
+			slot0.data[slot6.id] = slot6
 		end
 	end)
 end
@@ -23,7 +23,7 @@ function slot0.addItem(slot0, slot1)
 	slot0.data[slot1.id] = slot1:clone()
 
 	slot0.data[slot1.id]:display("added")
-	slot0.facade:sendNotification(uv0.ITEM_ADDED, slot1:clone())
+	slot0.facade:sendNotification(slot0.ITEM_ADDED, slot1:clone())
 end
 
 function slot0.addItemById(slot0, slot1, slot2)
@@ -44,17 +44,22 @@ function slot0.addItemById(slot0, slot1, slot2)
 end
 
 function slot0.getItems(slot0)
+	slot1 = {}
+
 	for slot5, slot6 in pairs(slot0.data) do
-		table.insert({}, slot6)
+		table.insert(slot1, slot6)
 	end
 
 	return Clone(slot1)
 end
 
 function slot0.getItemsByExclude(slot0)
+	slot1 = Item.INVISIBLE_TYPE
+	slot2 = {}
+
 	for slot6, slot7 in pairs(slot0.data) do
-		if not table.contains(Item.INVISIBLE_TYPE, slot7:getConfig("type")) and slot7.count ~= 0 then
-			table.insert({}, slot7)
+		if not table.contains(slot1, slot7:getConfig("type")) and slot7.count ~= 0 then
+			table.insert(slot2, slot7)
 		end
 	end
 
@@ -62,9 +67,11 @@ function slot0.getItemsByExclude(slot0)
 end
 
 function slot0.getItemsByType(slot0, slot1)
+	slot2 = {}
+
 	for slot6, slot7 in pairs(slot0.data) do
 		if slot7:getConfig("type") == slot1 and slot7.count ~= 0 then
-			table.insert({}, slot7)
+			table.insert(slot2, slot7)
 		end
 	end
 
@@ -72,12 +79,11 @@ function slot0.getItemsByType(slot0, slot1)
 end
 
 function slot0.getTempItemByType(slot0, slot1)
-	slot2 = {
-		[slot7] = true
-	}
+	slot2 = {}
 
 	for slot6, slot7 in ipairs(pg.item_data_statistics.all) do
 		if pg.item_data_statistics[slot7].type == slot1 then
+			slot2[slot7] = true
 		end
 	end
 
@@ -99,7 +105,7 @@ function slot0.getItemById(slot0, slot1)
 end
 
 function slot0.getItemCountById(slot0, slot1)
-	return slot0:getItemById(slot1) and slot2.count or 0
+	return (slot0:getItemById(slot1) and slot2.count) or 0
 end
 
 function slot0.getBoxCount(slot0)
@@ -107,9 +113,13 @@ function slot0.getBoxCount(slot0)
 end
 
 function slot0.getCanComposeCount(slot0)
+	slot1 = 0
+
 	for slot6, slot7 in pairs(pg.compose_data_template.all) do
-		if slot0:getItemById(slot2[slot7].material_id) and slot2[slot7].material_num <= slot10.count then
-			slot1 = 0 + 1
+		slot9 = slot2[slot7].material_num
+
+		if slot0:getItemById(slot2[slot7].material_id) and slot9 <= slot10.count then
+			slot1 = slot1 + 1
 		end
 	end
 
@@ -120,7 +130,7 @@ function slot0.updateItem(slot0, slot1)
 	slot0.data[slot1.id] = slot1:clone()
 
 	slot0.data[slot1.id]:display("updated")
-	slot0.facade:sendNotification(uv0.ITEM_UPDATED, slot1:clone())
+	slot0.facade:sendNotification(slot0.ITEM_UPDATED, slot1:clone())
 end
 
 function slot0.canUpgradeFlagShipEquip(slot0)

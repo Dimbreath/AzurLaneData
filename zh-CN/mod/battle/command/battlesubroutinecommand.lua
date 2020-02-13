@@ -1,18 +1,17 @@
 ys = ys or {}
-slot0 = ys
-slot1 = slot0.Battle.BattleUnitEvent
-slot2 = slot0.Battle.BattleEvent
-slot3 = slot0.Battle.BattleConst
-slot4 = class("BattleSubRoutineCommand", slot0.Battle.BattleSubmarineRunCommand)
-slot0.Battle.BattleSubRoutineCommand = slot4
+slot1 = ys.Battle.BattleUnitEvent
+slot2 = ys.Battle.BattleEvent
+slot3 = ys.Battle.BattleConst
+slot4 = class("BattleSubRoutineCommand", ys.Battle.BattleSubmarineRunCommand)
+ys.Battle.BattleSubRoutineCommand = slot4
 slot4.__name = "BattleSubRoutineCommand"
 
 function slot4.Ctor(slot0)
-	uv0.super.Ctor(slot0)
+	slot0.super.Ctor(slot0)
 end
 
 function slot4.Initialize(slot0)
-	uv0.super.Initialize(slot0)
+	slot0.super.Initialize(slot0)
 	slot0._dataProxy:SubmarineRunInit()
 end
 
@@ -20,23 +19,23 @@ function slot4.DoPrologue(slot0)
 	pg.UIMgr.GetInstance():Marching()
 
 	function slot1()
-		uv0._uiMediator:OpeningEffect(function ()
-			uv0._uiMediator:ShowTimer()
-			uv0._state:ChangeState(uv1.Battle.BattleState.BATTLE_STATE_FIGHT)
-			uv0._waveUpdater:Start()
+		slot0._uiMediator:OpeningEffect(function ()
+			slot0._uiMediator:ShowTimer()
+			slot0._uiMediator.ShowTimer._state:ChangeState(slot1.Battle.BattleState.BATTLE_STATE_FIGHT)
+			slot0._uiMediator.ShowTimer._state.ChangeState._waveUpdater:Start()
 		end, SYSTEM_SUB_ROUTINE)
 
-		slot0 = uv0._dataProxy:GetFleetByIFF(uv1.Battle.BattleConfig.FRIENDLY_CODE)
+		slot0 = slot0._uiMediator.OpeningEffect._dataProxy:GetFleetByIFF(slot1.Battle.BattleConfig.FRIENDLY_CODE)
 
 		slot0:FleetWarcry()
-		slot0:ChangeSubmarineState(uv1.Battle.OxyState.STATE_FREE_DIVE)
+		slot0:ChangeSubmarineState(slot1.Battle.OxyState.STATE_FREE_DIVE)
 		slot0:GetSubBoostVO():ResetCurrent()
-		uv0._dataProxy:InitAllFleetUnitsWeaponCD()
-		uv0._dataProxy:TirggerBattleStartBuffs()
+		slot0._dataProxy:InitAllFleetUnitsWeaponCD()
+		slot0._dataProxy:TirggerBattleStartBuffs()
 	end
 
-	for slot6, slot7 in ipairs(slot0._userFleet:GetUnitList()) do
-		slot7:AddBuff(uv0.Battle.BattleBuffUnit.New(9040))
+	for slot6, slot7 in ipairs(slot2) do
+		slot7:AddBuff(slot8)
 		slot7:RemoveBuff(8520)
 	end
 
@@ -44,19 +43,19 @@ function slot4.DoPrologue(slot0)
 end
 
 function slot4.initWaveModule(slot0)
-	slot0._waveUpdater = uv0.Battle.BattleWaveUpdater.New(function (slot0, slot1, slot2)
-		uv0._dataProxy:SpawnMonster(slot0, slot1, slot2, uv1.Battle.BattleConfig.FOE_CODE)
+	slot0._waveUpdater = slot0.Battle.BattleWaveUpdater.New(function (slot0, slot1, slot2)
+		slot0._dataProxy:SpawnMonster(slot0, slot1, slot2, slot1.Battle.BattleConfig.FOE_CODE)
 	end, nil, function ()
-		if uv0._vertifyFail then
+		if slot0._vertifyFail then
 			pg.m02:sendNotification(GAME.CHEATER_MARK, {
-				reason = uv0._vertifyFail
+				reason = slot0._vertifyFail
 			})
 
 			return
 		end
 
-		uv0._dataProxy:CalcSubRoutineScore()
-		uv0._state:BattleEnd()
+		slot0._dataProxy:CalcSubRoutineScore()
+		slot0._dataProxy.CalcSubRoutineScore._state:BattleEnd()
 	end, nil)
 end
 
@@ -69,7 +68,7 @@ function slot4.onUpdateCountDown(slot0, slot1)
 end
 
 function slot4.onShutDownPlayer(slot0, slot1)
-	slot0._dataProxy:ShutdownPlayerUnit(slot1.Dispatcher:GetUniqueID())
+	slot0._dataProxy:ShutdownPlayerUnit(slot1.Dispatcher.GetUniqueID(slot2))
 end
 
 function slot4.onPlayerShutDown(slot0, slot1)
@@ -86,3 +85,5 @@ function slot4.onPlayerShutDown(slot0, slot1)
 		slot0._state:BattleEnd()
 	end
 end
+
+return

@@ -5,9 +5,11 @@ function slot0.register(slot0)
 end
 
 function slot0.getGatewayNotices(slot0, slot1)
+	slot2 = {}
+
 	for slot6, slot7 in ipairs(slot0.data) do
 		if not slot1 or not slot7.isRead then
-			table.insert({}, slot7)
+			table.insert(slot2, slot7)
 		end
 	end
 

@@ -8,7 +8,6 @@ end
 
 function slot0.SetUI(slot0, slot1)
 	slot0._tf = slot1
-	slot2[MULTRES] = slot0:findTF("labels/label14")
 	slot0.questioneTFs = {
 		slot0:findTF("labels/label1"),
 		slot0:findTF("labels/label2"),
@@ -31,10 +30,10 @@ function slot0.SetUI(slot0, slot1)
 
 	setActive(slot0.mainPanel, false)
 	onButton(slot0, slot0.mainPanel, function ()
-		uv0:HideMainPanel()
+		slot0:HideMainPanel()
 	end, SFX_PANEL)
 	onButton(slot0, slot0:findTF("back"), function ()
-		uv0.controller:ExitGame()
+		slot0.controller:ExitGame()
 	end, SFX_PANEL)
 	onButton(slot0, slot0:findTF("back/help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -43,7 +42,7 @@ function slot0.SetUI(slot0, slot1)
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0:findTF("option"), function ()
-		uv0.controller:ExitGameAndGoHome()
+		slot0.controller:ExitGameAndGoHome()
 	end, SFX_PANEL)
 end
 
@@ -53,19 +52,18 @@ end
 
 function slot0.InitLanternRiddles(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
-		slot7 = slot0.questioneTFs[slot5]
 		slot8 = slot6.isUnlock
 
 		onButton(slot0, slot7, function ()
-			if not uv0 then
+			if not slot0 then
 				return
 			end
 
-			uv1:ShowMainPanel(uv2)
+			slot1:ShowMainPanel(slot2)
 		end, SFX_PANEL)
-		setActive(slot7:Find("finish"), slot6.isFinish)
+		setActive(slot0.questioneTFs[slot5].Find(slot7, "finish"), slot6.isFinish)
 
-		if LeanTween.isTweening(go(slot7)) then
+		if LeanTween.isTweening(go(slot0.questioneTFs[slot5])) then
 			LeanTween.cancel(go(slot7))
 		end
 
@@ -92,47 +90,46 @@ function slot0.ShowMainPanel(slot0, slot1)
 	slot0:UpdateMainPanelTime()
 
 	slot2 = slot1.answers
+	slot3 = slot0:findTF("frame/answers", slot0.mainPanel)
+	slot4 = slot1.isFinish
 
 	for slot8 = 1, 4, 1 do
-		slot11 = slot0:findTF("frame/answers", slot0.mainPanel):GetChild(slot8 - 1)
+		slot11 = slot3:GetChild(slot8 - 1)
 
-		setText(slot11:Find("Text"), slot2[slot8][1])
-		setActive(slot11:Find("right"), slot1.isFinish and slot8 == slot1.rightIndex)
+		setText(slot11:Find("Text"), slot9)
+		setActive(slot11:Find("right"), slot4 and slot8 == slot1.rightIndex)
 		setActive(slot11:Find("false"), slot2[slot8][2])
 		onButton(slot0, slot11, function ()
-			if uv0.isFinish then
+			if slot0.isFinish then
 				return
 			end
 
-			if uv1 then
+			if slot1 then
 				return
 			end
 
-			if pg.TimeMgr.GetInstance():GetServerTime() < uv2.controller:GetLockTime() then
+			if pg.TimeMgr.GetInstance():GetServerTime() < slot2.controller:GetLockTime() then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("lanternRiddles_wait_for_reanswer"))
 
 				return
 			end
 
-			uv2.controller:SelectAnswer(uv0.id, uv3)
+			slot2.controller:SelectAnswer(slot0.id, slot2.controller)
 		end, SFX_PANEL)
 	end
 end
 
 function slot0.UpdateMainPanelTime(slot0)
 	slot0:RemoveTimer()
+	setActive(slot0:findTF("frame/time", slot0.mainPanel), pg.TimeMgr.GetInstance():GetServerTime() <= slot0.controller:GetLockTime())
 
-	slot2 = pg.TimeMgr.GetInstance():GetServerTime() <= slot0.controller:GetLockTime()
-
-	setActive(slot0:findTF("frame/time", slot0.mainPanel), slot2)
-
-	if slot2 then
+	if pg.TimeMgr.GetInstance().GetServerTime() <= slot0.controller.GetLockTime() then
 		slot0:AddTimer()
 	end
 end
 
 function slot0.OnUpdateAnswer(slot0, slot1, slot2, slot3)
-	slot5 = slot0:findTF("frame/answers", slot0.mainPanel):GetChild(slot2 - 1)
+	slot5 = slot0:findTF("frame/answers", slot0.mainPanel).GetChild(slot4, slot2 - 1)
 
 	setActive(slot5:Find("right"), slot3)
 	setActive(slot5:Find("false"), not slot3)
@@ -142,12 +139,9 @@ function slot0.OnUpdateAnswer(slot0, slot1, slot2, slot3)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("lanternRiddles_answer_is_wrong"))
 	else
 		pg.TipsMgr.GetInstance():ShowTips(i18n("lanternRiddles_answer_is_right"))
+		setActive(slot0.questioneTFs[slot1.id].Find(slot6, "finish"), slot1.isFinish)
 
-		slot6 = slot0.questioneTFs[slot1.id]
-
-		setActive(slot6:Find("finish"), slot1.isFinish)
-
-		if LeanTween.isTweening(go(slot6)) then
+		if LeanTween.isTweening(go(slot0.questioneTFs[slot1.id])) then
 			LeanTween.cancel(go(slot6))
 		end
 	end
@@ -163,11 +157,11 @@ function slot0.AddTimer(slot0)
 	slot1 = slot0.controller:GetLockTime()
 	slot2 = slot0:findTF("frame/time/Text", slot0.mainPanel):GetComponent(typeof(Text))
 	slot0.timer = Timer.New(function ()
-		if uv0 - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
-			uv1:RemoveTimer()
-			setActive(uv1:findTF("frame/time", uv1.mainPanel), false)
+		if slot0 - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
+			slot1:RemoveTimer()
+			setActive(slot1:findTF("frame/time", slot1.mainPanel), false)
 		else
-			uv2.text = pg.TimeMgr.GetInstance():DescCDTime(slot1)
+			slot2.text = pg.TimeMgr.GetInstance():DescCDTime(slot1)
 		end
 	end, 1, -1)
 

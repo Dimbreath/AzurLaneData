@@ -1,25 +1,21 @@
 ys = ys or {}
-slot0 = ys
-slot1 = slot0.Battle.BattleConst
-slot2 = slot0.Battle.BattleUnitEvent
-slot3 = slot0.Battle.BattleAttr
-slot4 = class("BattlePointHitWeaponUnit", slot0.Battle.BattleWeaponUnit)
-slot0.Battle.BattlePointHitWeaponUnit = slot4
+slot1 = ys.Battle.BattleConst
+slot2 = ys.Battle.BattleUnitEvent
+slot3 = ys.Battle.BattleAttr
+slot4 = class("BattlePointHitWeaponUnit", ys.Battle.BattleWeaponUnit)
+ys.Battle.BattlePointHitWeaponUnit = slot4
 slot4.__name = "BattlePointHitWeaponUnit"
 
 function slot4.Ctor(slot0)
-	uv0.super.Ctor(slot0)
+	slot0.super.Ctor(slot0)
 
-	uv0._strikePoint = nil
-	uv0._strikeRequire = 1
-	uv0._strikeMode = false
+	slot0._strikePoint = nil
+	slot0._strikeRequire = 1
+	slot0._strikeMode = false
 end
 
 function slot4.DispatchBlink(slot0, slot1)
-	slot0:DispatchEvent(uv0.Event.New(uv1.CHARGE_WEAPON_FINISH, {
-		callbackFunc = slot1,
-		timeScale = uv0.Battle.BattleConfig.FOCUS_MAP_RATE
-	}))
+	slot0:DispatchEvent(slot0.Event.New(slot1.CHARGE_WEAPON_FINISH, slot2))
 end
 
 function slot4.RemoveAllLock(slot0)
@@ -37,41 +33,42 @@ function slot4.RemoveAllLock(slot0)
 end
 
 function slot4.SetTemplateData(slot0, slot1)
-	uv0.super.SetTemplateData(slot0, slot1)
+	slot0.super.SetTemplateData(slot0, slot1)
 
 	slot0._maxLock = slot0._tmpData.charge_param.maxLock
 	slot0._lockRequiredTime = slot0._tmpData.charge_param.lockTime
 end
 
 function slot4.createMajorEmitter(slot0, slot1, slot2)
-	uv1.super.createMajorEmitter(slot0, slot1, slot2, uv1.EMITTER_NORMAL, function (slot0, slot1, slot2, slot3)
+	slot1.super.createMajorEmitter(slot0, slot1, slot2, slot1.EMITTER_NORMAL, function (slot0, slot1, slot2, slot3)
 		slot4, slot5 = nil
+		slot6 = slot0._bulletList[slot1]
 
-		if uv0._strikePoint then
-			slot5 = uv0._strikePoint
-			slot4 = uv0:SpawnPointBullet(uv0._bulletList[uv1], uv0._strikePoint)
+		if slot0._strikePoint then
+			slot5 = slot0._strikePoint
+			slot4 = slot0:SpawnPointBullet(slot6, slot0._strikePoint)
 		else
-			uv0._lockList[#uv0._lockList] = nil
+			slot0._lockList[#slot0._lockList] = nil
 
-			if uv0._lockList[#uv0._lockList] == nil then
+			if slot0._lockList[#slot0._lockList] == nil then
 				return
 			end
 
-			slot4 = uv0:Spawn(slot6, slot7, uv0.INTERNAL)
+			slot4 = slot0:Spawn(slot6, slot7, slot0.INTERNAL)
 			slot5 = slot7:GetPosition()
 
-			uv0:UnlockUnit(slot7)
+			slot0:UnlockUnit(slot7)
 		end
 
 		slot4:SetOffsetPriority(slot3)
 		slot4:SetShiftInfo(slot0, slot1)
 		slot4:SetRotateInfo(slot5, 0, 0)
-		uv2.Battle.BattleVariable.AddExempt(slot4:GetSpeedExemptKey(), slot4:GetIFF(), uv2.Battle.BattleConfig.SPEED_FACTOR_FOCUS_CHARACTER)
-		uv0:DispatchBulletEvent(slot4)
+		slot2.Battle.BattleVariable.AddExempt(slot4:GetSpeedExemptKey(), slot4:GetIFF(), slot2.Battle.BattleConfig.SPEED_FACTOR_FOCUS_CHARACTER)
+		slot0:DispatchBulletEvent(slot4)
 	end, function ()
-		uv0._strikePoint = nil
+		slot0._strikePoint = nil
 
-		uv0:RemoveAllLock()
+		slot0:RemoveAllLock()
 	end)
 end
 
@@ -83,7 +80,7 @@ function slot4.Charge(slot0)
 	slot0._currentState = slot0.STATE_PRECAST
 	slot0._lockList = {}
 
-	slot0:DispatchEvent(uv0.Event.New(uv1.POINT_HIT_CHARGE, {}))
+	slot0:DispatchEvent(slot0.Event.New(slot1.POINT_HIT_CHARGE, slot1))
 
 	slot0._strikeMode = true
 end
@@ -97,7 +94,7 @@ function slot4.CancelCharge(slot0)
 
 	slot0._currentState = slot0.STATE_READY
 
-	slot0:DispatchEvent(uv0.Event.New(uv1.POINT_HIT_CANCEL, {}))
+	slot0:DispatchEvent(slot0.Event.New(slot1.POINT_HIT_CANCEL, slot1))
 
 	slot0._strikeMode = nil
 end
@@ -110,11 +107,9 @@ function slot4.QuickTag(slot0)
 
 	slot1 = slot0:Tracking()
 
-	if #slot0._lockList < slot0._maxLock then
-		while #slot0._lockList < slot0._maxLock and slot1 ~= nil do
-			slot0._lockList[#slot0._lockList + 1] = slot1
-			slot1 = slot0:Tracking()
-		end
+	while #slot0._lockList < slot0._maxLock and slot1 ~= nil do
+		slot0._lockList[#slot0._lockList + 1] = slot1
+		slot1 = slot0:Tracking()
 	end
 end
 
@@ -131,7 +126,7 @@ function slot4.UpdateLockList(slot0)
 	for slot4, slot5 in ipairs(slot0._lockList) do
 		if not slot5:IsAlive() then
 			slot0:UnlockUnit(slot5)
-			uv0.Battle.BattlePlayerWeaponVO.deleteElementFromArray(slot5, slot0._lockList)
+			slot0.Battle.BattlePlayerWeaponVO.deleteElementFromArray(slot5, slot0._lockList)
 		end
 	end
 end
@@ -144,18 +139,19 @@ function slot4.Fire(slot0, slot1)
 	slot0._strikePoint = slot1
 	slot0._strikeMode = false
 
-	uv0.super.Fire(slot0)
+	slot0.super.Fire(slot0)
 end
 
 function slot4.DoAttack(slot0, slot1)
-	uv0.Battle.PlayBattleSFX(slot0._tmpData.fire_sfx)
-	slot0:DispatchEvent(uv0.Event.New(uv1.CHARGE_WEAPON_FIRE, {
+	slot0.Battle.PlayBattleSFX(slot0._tmpData.fire_sfx)
+	slot0:DispatchEvent(slot0.Event.New(slot1.CHARGE_WEAPON_FIRE, {
 		weapon = slot0
 	}))
 
 	slot3 = {}
+	slot4 = #slot0._lockList
 
-	while #slot0._lockList > 0 do
+	while slot4 > 0 do
 		slot3[#slot3 + 1] = slot0._lockList[slot4]
 		slot4 = slot4 - 1
 	end
@@ -173,13 +169,13 @@ function slot4.DoAttack(slot0, slot1)
 		slot9:SetTimeScale(false)
 	end
 
-	slot0:DispatchEvent(uv0.Event.New(uv1.MANUAL_WEAPON_FIRE, {}))
+	slot0:DispatchEvent(slot0.Event.New(slot1.MANUAL_WEAPON_FIRE, {}))
 	slot0:TriggerBuffOnFire()
-	uv0.Battle.BattleCameraUtil.GetInstance():StartShake(pg.shake_template[uv2.ShakeType.FIRE])
+	slot0.Battle.BattleCameraUtil.GetInstance():StartShake(pg.shake_template[slot2.ShakeType.FIRE])
 end
 
 function slot4.TriggerBuffOnReady(slot0)
-	slot0._host:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_CHARGE_READY, {})
+	slot0._host:TriggerBuff(slot0.Battle.BattleConst.BuffEffectType.ON_CHARGE_READY, {})
 end
 
 function slot4.Spawn(slot0, slot1, slot2, slot3)
@@ -187,15 +183,12 @@ function slot4.Spawn(slot0, slot1, slot2, slot3)
 
 	if slot2 == nil then
 		slot0:updateMovementInfo()
-
-		slot5 = slot0._dataProxy:CreateBulletUnit(slot1, slot0._host, slot0, (slot0:TrackingRandom(slot0:GetFilteredList()) ~= nil or Vector3.zero) and slot2:GetPosition() and slot2:GetPosition())
-
 		slot0:setBulletSkin(slot5, slot1)
-		slot0:TriggerBuffWhenSpawn(slot5)
+		slot0:TriggerBuffWhenSpawn(slot0._dataProxy:CreateBulletUnit(slot1, slot0._host, slot0, (slot0:TrackingRandom(slot0:GetFilteredList()) ~= nil or Vector3.zero) and slot2:GetPosition() and slot2:GetPosition()))
 
 		if slot3 == slot0.INTERNAL then
 			slot5:SetDamageEnhance(1 + slot0._host:GetAttrByName("initialEnhancement"))
-			slot0:TriggerBuffWhenSpawn(slot5, uv0.BuffEffectType.ON_INTERNAL_BULLET_CREATE)
+			slot0:TriggerBuffWhenSpawn(slot5, slot0.BuffEffectType.ON_INTERNAL_BULLET_CREATE)
 		end
 	end
 
@@ -206,31 +199,31 @@ function slot4.SpawnPointBullet(slot0, slot1, slot2)
 	slot3 = slot0._dataProxy:CreateBulletUnit(slot1, slot0._host, slot0, slot2)
 
 	slot0:setBulletSkin(slot3, slot1)
-	slot3:SetDamageEnhance(uv0.Battle.BattleConfig.ChargeWeaponConfig.Enhance + slot0._host:GetAttrByName("initialEnhancement") + slot0._host:GetAttrByName("manualEnhancement"))
+	slot3:SetDamageEnhance(slot0.Battle.BattleConfig.ChargeWeaponConfig.Enhance + slot0._host:GetAttrByName("initialEnhancement") + slot0._host:GetAttrByName("manualEnhancement"))
 	slot0:TriggerBuffWhenSpawn(slot3)
-	slot0:TriggerBuffWhenSpawn(slot3, uv1.BuffEffectType.ON_INTERNAL_BULLET_CREATE)
-	slot0:TriggerBuffWhenSpawn(slot3, uv1.BuffEffectType.ON_MANUAL_BULLET_CREATE)
+	slot0:TriggerBuffWhenSpawn(slot3, slot1.BuffEffectType.ON_INTERNAL_BULLET_CREATE)
+	slot0:TriggerBuffWhenSpawn(slot3, slot1.BuffEffectType.ON_MANUAL_BULLET_CREATE)
 
 	return slot3
 end
 
 function slot4.TriggerBuffOnFire(slot0)
-	slot0._host:TriggerBuff(uv0.BuffEffectType.ON_CHARGE_FIRE, {})
+	slot0._host:TriggerBuff(slot0.BuffEffectType.ON_CHARGE_FIRE, {})
 end
 
 function slot4.InitialCD(slot0)
-	uv0.super.InitialCD(slot0)
+	slot0.super.InitialCD(slot0)
 	slot0._playerChargeWeaponVo:Deduct(slot0)
 	slot0._playerChargeWeaponVo:Charge(slot0)
 end
 
 function slot4.EnterCoolDown(slot0)
-	uv0.super.EnterCoolDown(slot0)
+	slot0.super.EnterCoolDown(slot0)
 	slot0._playerChargeWeaponVo:Charge(slot0)
 end
 
 function slot4.OverHeat(slot0)
-	uv0.super.OverHeat(slot0)
+	slot0.super.OverHeat(slot0)
 	slot0._playerChargeWeaponVo:Deduct(slot0)
 end
 
@@ -247,18 +240,16 @@ function slot4.GetLockList(slot0)
 end
 
 function slot4.GetFilteredList(slot0)
-	return slot0:filterEnemyUnitType(slot0:filterTagCount(uv0.super.GetFilteredList(slot0)))
+	return slot0:filterEnemyUnitType(slot0:filterTagCount(slot0.super.GetFilteredList(slot0)))
 end
 
 function slot4.filterTagCount(slot0, slot1)
 	slot2 = {}
+	slot3 = slot0._maxLock
 
 	for slot7, slot8 in ipairs(slot1) do
-		if slot8:GetSingleWeaponTagCount(slot0) < slot0._maxLock then
+		if slot8:GetSingleWeaponTagCount(slot0) < slot3 then
 			slot3 = slot9
-			slot2 = {
-				[#slot2 + 1] = slot8
-			}
 		elseif slot9 == slot3 then
 			slot2[#slot2 + 1] = slot8
 		end
@@ -277,9 +268,6 @@ function slot4.filterEnemyUnitType(slot0, slot1)
 			slot3[#slot3 + 1] = slot9
 		elseif slot4 < slot10 then
 			slot4 = slot10
-			slot2 = {
-				[#slot2 + 1] = slot9
-			}
 		elseif slot4 == slot10 then
 			slot2[#slot2 + 1] = slot9
 		end
@@ -296,7 +284,7 @@ function slot4.handleCoolDown(slot0)
 	slot0._currentState = slot0.STATE_READY
 
 	slot0._playerChargeWeaponVo:Plus(slot0)
-	slot0:DispatchEvent(uv0.Event.New(uv1.MANUAL_WEAPON_READY, {}))
+	slot0:DispatchEvent(slot0.Event.New(slot1.MANUAL_WEAPON_READY, {}))
 	slot0:TriggerBuffOnReady()
 
 	slot0._CDstartTime = nil
@@ -315,7 +303,7 @@ function slot4.QuickCoolDown(slot0)
 		slot0._currentState = slot0.STATE_READY
 
 		slot0._playerChargeWeaponVo:InstantCoolDown(slot0)
-		slot0:DispatchEvent(uv0.Event.New(uv1.MANUAL_WEAPON_INSTANT_READY, {}))
+		slot0:DispatchEvent(slot0.Event.New(slot1.MANUAL_WEAPON_INSTANT_READY, {}))
 
 		slot0._CDstartTime = nil
 	end
@@ -324,3 +312,5 @@ end
 function slot4.IsStrikeMode(slot0)
 	return slot0._strikeMode
 end
+
+return

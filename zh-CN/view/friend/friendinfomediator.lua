@@ -6,8 +6,8 @@ slot0.TOGGLE_BLACK = "FriendInfoMediator:TOGGLE_BLACK"
 slot0.INFORM = "FriendInfoMediator:INFORM"
 
 function slot0.register(slot0)
-	slot0.viewComponent:setFriend(slot0.contextData.friend)
-	slot0:bind(uv0.OPEND_FRIEND, function (slot0)
+	slot0.viewComponent:setFriend(slot1)
+	slot0:bind(slot0.OPEND_FRIEND, function (slot0)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			onNo = true,
 			yesText = "text_apply",
@@ -15,45 +15,45 @@ function slot0.register(slot0)
 			type = MSGBOX_TYPE_INPUT,
 			placeholder = i18n("friend_request_msg_placeholder"),
 			title = i18n("friend_request_msg_title"),
-			parent = uv0.contextData.parent,
+			parent = slot0.contextData.parent,
 			onYes = function (slot0)
-				uv0:sendNotification(GAME.FRIEND_SEND_REQUEST, {
-					id = uv1.id,
+				slot0:sendNotification(GAME.FRIEND_SEND_REQUEST, {
+					id = slot1.id,
 					msg = slot0
 				})
 			end
 		})
 	end)
-	slot0:bind(uv0.OPEN_RESUME, function (slot0)
-		uv0:addSubLayers(Context.New({
+	slot0:bind(slot0.OPEN_RESUME, function (slot0)
+		slot0:addSubLayers(Context.New({
 			mediator = resumeMediator,
 			viewComponent = resumeLayer,
 			data = {
-				player = uv1,
-				parent = uv0.contextData.parent,
+				player = slot1,
+				parent = slot0.contextData.parent,
 				LayerWeightMgr_groupName = LayerWeightConst.GROUP_NOTIFICATION
 			}
 		}))
 	end)
-	slot0:bind(uv0.OPEN_BACKYARD, function (slot0)
-		uv0:sendNotification(GAME.VISIT_BACKYARD, uv1.id)
+	slot0:bind(slot0.OPEN_BACKYARD, function (slot0)
+		slot0:sendNotification(GAME.VISIT_BACKYARD, slot1.id)
 	end)
-	slot0:bind(uv0.TOGGLE_BLACK, function (slot0)
-		if getProxy(FriendProxy):getBlackPlayerById(uv0.id) ~= nil then
-			uv1:sendNotification(GAME.FRIEND_RELIEVE_BLACKLIST, slot2)
+	slot0:bind(slot0.TOGGLE_BLACK, function (slot0)
+		if getProxy(FriendProxy):getBlackPlayerById(slot0.id) ~= nil then
+			slot1:sendNotification(GAME.FRIEND_RELIEVE_BLACKLIST, slot2)
 		else
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				hideNo = false,
-				content = i18n("friend_confirm_add_blacklist", uv0.name),
-				parent = uv1.contextData.parent,
+				content = i18n("friend_confirm_add_blacklist", slot0.name),
+				parent = slot1.contextData.parent,
 				onYes = function ()
-					uv0:sendNotification(GAME.FRIEND_ADD_BLACKLIST, uv1)
+					slot0:sendNotification(GAME.FRIEND_ADD_BLACKLIST, slot0)
 				end
 			})
 		end
 	end)
-	slot0:bind(uv0.INFORM, function (slot0, slot1, slot2, slot3)
-		uv0:sendNotification(GAME.INFORM, {
+	slot0:bind(slot0.INFORM, function (slot0, slot1, slot2, slot3)
+		slot0:sendNotification(GAME.INFORM, {
 			playerId = slot1,
 			info = slot2,
 			content = slot3

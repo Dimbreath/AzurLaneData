@@ -1,20 +1,19 @@
 slot0 = class("AutoBotCommand", pm.SimpleCommand)
 
 function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
-	slot4 = slot2.toggle
+	slot3 = slot1:getBody().isActiveBot
+	slot4 = slot1.getBody().toggle
 
-	if uv0.autoBotSatisfied() then
-		if PlayerPrefs.GetInt("autoBotIsAcitve", 0) == not slot2.isActiveBot then
-			-- Nothing
+	if slot0.autoBotSatisfied() then
+		if PlayerPrefs.GetInt("autoBotIsAcitve", 0) == not slot3 then
 		else
-			PlayerPrefs.SetInt("autoBotIsAcitve", not slot3 and 1 or 0)
-			uv0.activeBotHelp(not slot3)
+			PlayerPrefs.SetInt("autoBotIsAcitve", (not slot3 and 1) or 0)
+			slot0.activeBotHelp(not slot3)
 		end
 	elseif not slot3 then
 		if slot4 then
 			onDelayTick(function ()
-				GetComponent(uv0, typeof(Toggle)).isOn = false
+				GetComponent(GetComponent, typeof(Toggle)).isOn = false
 			end, 0.1)
 		end
 
@@ -29,18 +28,14 @@ function slot0.execute(slot0, slot1)
 end
 
 function slot0.autoBotSatisfied()
-	if getProxy(ChapterProxy) then
-		slot1 = slot0:getChapterById(AUTO_ENABLE_CHAPTER):isClear()
-	end
-
-	return slot1
+	return getProxy(ChapterProxy) and slot0:getChapterById(AUTO_ENABLE_CHAPTER):isClear()
 end
 
 function slot0.activeBotHelp(slot0)
 	slot1 = getProxy(PlayerProxy)
 
 	if not slot0 then
-		if uv0.autoBotHelp then
+		if slot0.autoBotHelp then
 			pg.MsgboxMgr.GetInstance():hide()
 		end
 
@@ -51,7 +46,7 @@ function slot0.activeBotHelp(slot0)
 		return
 	end
 
-	uv0.autoBotHelp = true
+	slot0.autoBotHelp = true
 
 	if getProxy(SettingsProxy):isTipAutoBattle() then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -70,7 +65,7 @@ function slot0.activeBotHelp(slot0)
 				}
 			},
 			onClose = function ()
-				uv0.autoBotHelp = false
+				slot0.autoBotHelp = false
 
 				if pg.MsgboxMgr.GetInstance().stopRemindToggle.isOn then
 					getProxy(SettingsProxy):setAoutBattleTip()

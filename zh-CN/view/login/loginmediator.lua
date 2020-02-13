@@ -5,17 +5,17 @@ slot0.ON_SERVER = "LoginMediator:ON_SERVER"
 slot0.ON_LOGIN_PROCESS = "LoginMediator:ON_LOGIN_PROCESS"
 
 function slot0.register(slot0)
-	slot0:bind(uv0.ON_LOGIN, function (slot0, slot1)
-		uv0:sendNotification(GAME.USER_LOGIN, slot1)
+	slot0:bind(slot0.ON_LOGIN, function (slot0, slot1)
+		slot0:sendNotification(GAME.USER_LOGIN, slot1)
 	end)
-	slot0:bind(uv0.ON_REGISTER, function (slot0, slot1)
-		uv0:sendNotification(GAME.USER_REGISTER, slot1)
+	slot0:bind(slot0.ON_REGISTER, function (slot0, slot1)
+		slot0:sendNotification(GAME.USER_REGISTER, slot1)
 	end)
-	slot0:bind(uv0.ON_SERVER, function (slot0, slot1)
-		uv0:sendNotification(GAME.SERVER_LOGIN, slot1)
+	slot0:bind(slot0.ON_SERVER, function (slot0, slot1)
+		slot0:sendNotification(GAME.SERVER_LOGIN, slot1)
 	end)
-	slot0:bind(uv0.ON_LOGIN_PROCESS, function (slot0)
-		uv0:loginProcessHandler()
+	slot0:bind(slot0.ON_LOGIN_PROCESS, function (slot0)
+		slot0:loginProcessHandler()
 	end)
 	slot0:loginProcessHandler()
 end
@@ -24,38 +24,35 @@ function slot0.loginProcessHandler(slot0)
 	slot1 = getProxy(SettingsProxy)
 	slot2 = pg.SdkMgr.GetInstance():GetLoginType()
 	slot0.process = coroutine.wrap(function ()
-		uv0.viewComponent:switchSubView({})
+		slot0.viewComponent:switchSubView({})
 
-		if not uv1:getUserAgreement() and PLATFORM_KR ~= PLATFORM_CODE then
-			uv0.viewComponent:showUserAgreement(uv0.process)
+		if not slot0.viewComponent:getUserAgreement() and PLATFORM_KR ~= PLATFORM_CODE then
+			slot0.viewComponent:showUserAgreement(slot0.process)
 			coroutine.yield()
-			uv1:setUserAgreement()
+			slot0.viewComponent:setUserAgreement()
 		end
 
 		slot0 = nil
 
-		if uv2 == LoginType.PLATFORM then
-			uv0.viewComponent:switchToServer()
-		elseif uv2 == LoginType.PLATFORM_TENCENT then
-			uv0.viewComponent:switchToTencentLogin()
-		elseif uv2 == LoginType.PLATFORM_INNER then
-			uv0.viewComponent:switchToLogin()
-			uv0.viewComponent:setLastLogin(getProxy(UserProxy):getLastLoginUser())
-		elseif uv2 == LoginType.PLATFORM_AIRIJP or uv2 == LoginType.PLATFORM_AIRIUS then
-			uv0.viewComponent:switchToAiriLogin()
+		if slot2 == LoginType.PLATFORM then
+			slot0.viewComponent:switchToServer()
+		elseif slot2 == LoginType.PLATFORM_TENCENT then
+			slot0.viewComponent:switchToTencentLogin()
+		elseif slot2 == LoginType.PLATFORM_INNER then
+			slot0.viewComponent:switchToLogin()
+			slot0.viewComponent:setLastLogin(getProxy(UserProxy).getLastLoginUser(slot1))
+		elseif slot2 == LoginType.PLATFORM_AIRIJP or slot2 == LoginType.PLATFORM_AIRIUS then
+			slot0.viewComponent:switchToAiriLogin()
 		end
 
-		uv0:CheckMaintain()
+		slot0:CheckMaintain()
 		coroutine.yield()
 
-		if uv0.contextData.code then
-			if uv0.contextData.code ~= 0 then
-				if uv0.contextData.code == SDK_EXIT_CODE then
-					-- Nothing
+		if slot0.contextData.code then
+			if slot0.contextData.code ~= 0 then
+				if slot0.contextData.code == SDK_EXIT_CODE then
 				else
-					slot1 = pg.MsgboxMgr.GetInstance()
-
-					slot1.ShowMsgBox(slot1, {
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
 						modal = true,
 						hideNo = true,
 						content = ({
@@ -67,9 +64,9 @@ function slot0.loginProcessHandler(slot0)
 							i18n("login_loginMediator_serverLoginErro"),
 							i18n("login_loginMediator_vertifyFail"),
 							[99] = i18n("login_loginMediator_dataExpired")
-						})[uv0.contextData.code] or i18n("login_loginMediator_kickUndefined", uv0.contextData.code),
+						})[slot0.contextData.code] or i18n("login_loginMediator_kickUndefined", slot0.contextData.code),
 						onYes = function ()
-							uv0.process()
+							slot0.process()
 						end
 					})
 					coroutine.yield()
@@ -83,21 +80,20 @@ function slot0.loginProcessHandler(slot0)
 					slot0.arg2 = ""
 				end
 
-				uv0.viewComponent:setLastLogin(slot0)
+				slot0.viewComponent:setLastLogin(slot0)
 			end
 		else
-			uv0.viewComponent:setAutoLogin()
+			slot0.viewComponent:setAutoLogin()
 		end
 
-		if uv2 == LoginType.PLATFORM then
+		if slot2 == LoginType.PLATFORM then
 			pg.SdkMgr.GetInstance():LoginSdk()
-		elseif uv2 == LoginType.PLATFORM_TENCENT then
+		elseif slot2 == LoginType.PLATFORM_TENCENT then
 			pg.SdkMgr.GetInstance():TryLoginSdk()
-		elseif uv2 == LoginType.PLATFORM_INNER then
-			-- Nothing
+		elseif slot2 == LoginType.PLATFORM_INNER then
 		end
 
-		uv0.viewComponent:autoLogin()
+		slot0.viewComponent:autoLogin()
 	end)
 
 	slot0.process()
@@ -110,25 +106,25 @@ function slot0.CheckMaintain(slot0)
 	slot4 = 2
 
 	GetServerState(function (slot0)
-		if slot0 == uv0 then
+		if slot0 == slot0 then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("login_loginMediator_kickServerClose"),
 				onNo = function ()
-					uv0.process()
+					slot0.process()
 				end,
 				onYes = function ()
-					uv0.process()
+					slot0.process()
 				end
 			})
-		elseif slot0 == uv2 then
+		elseif slot0 == slot2 then
 			print("All servers working well. thanks God.")
-			uv1.process()
-		elseif slot0 == uv3 then
+			print.process()
+		elseif slot0 == slot3 then
 			print("Check server maintain state failed. but it doesnt matter. keep going.")
-			uv1.process()
+			print.process()
 		else
 			print("no servers working. anyway. you should have a try. ")
-			uv1.process()
+			print.process()
 		end
 	end)
 end
@@ -150,18 +146,20 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == ServerProxy.SERVERS_UPDATED then
-		slot0.viewComponent:updateServerList(slot1:getBody())
+		slot0.viewComponent:updateServerList(slot3)
 	elseif slot2 == GAME.USER_LOGIN_SUCCESS then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("login_loginMediator_loginSuccess"))
-		slot0.viewComponent:setLastLoginServer(getProxy(ServerProxy):getLastServer(slot3.id))
+		slot0.viewComponent:setLastLoginServer(getProxy(ServerProxy).getLastServer(slot4, slot3.id))
 		slot0.viewComponent:switchToServer()
 
 		if PLATFORM_CODE == PLATFORM_JP then
 			slot0.viewComponent:setUserData(getProxy(UserProxy).getLastLoginUser())
 		end
 
-		if #getProxy(GatewayNoticeProxy):getGatewayNotices(false) > 0 then
+		if #getProxy(GatewayNoticeProxy).getGatewayNotices(slot6, false) > 0 then
 			slot0:addSubLayers(Context.New({
 				mediator = GatewayNoticeMediator,
 				viewComponent = GatewayNoticeLayer
@@ -173,7 +171,7 @@ function slot0.handleNotification(slot0, slot1)
 			hideNo = true,
 			content = i18n("login_loginMediator_quest_RegisterSuccess"),
 			onYes = function ()
-				uv0:sendNotification(GAME.USER_LOGIN, uv1)
+				slot0:sendNotification(GAME.USER_LOGIN, slot0)
 			end
 		})
 	elseif slot2 == GAME.SERVER_LOGIN_SUCCESS then
@@ -198,24 +196,22 @@ function slot0.handleNotification(slot0, slot1)
 			hideNo = true,
 			content = errorTip("login_loginMediator_userLoginFail_error", slot3),
 			onYes = function ()
-				slot0 = pg.SdkMgr.GetInstance():GetLoginType()
-
-				if uv0 == 20 then
-					uv1.viewComponent:switchToRegister()
-				elseif uv0 == 3 or uv0 == 6 then
-					uv1.viewComponent:switchToServer()
-				elseif uv0 == 1 or uv0 == 9 or uv0 == 11 or uv0 == 12 then
+				if pg.SdkMgr.GetInstance():GetLoginType() == 20 then
+					slot1.viewComponent:switchToRegister()
+				elseif slot0 == 3 or slot0 == 6 then
+					slot1.viewComponent:switchToServer()
+				elseif slot0 == 1 or slot0 == 9 or slot0 == 11 or slot0 == 12 then
 					if slot0 == LoginType.PLATFORM_AIRIJP or slot0 == LoginType.PLATFORM_AIRIUS then
-						uv1.viewComponent:switchToAiriLogin()
+						slot1.viewComponent:switchToAiriLogin()
 					else
-						uv1.viewComponent:switchToLogin()
+						slot1.viewComponent:switchToLogin()
 					end
 				elseif slot0 == LoginType.PLATFORM or slot0 == LoginType.PLATFORM_TENCENT then
-					uv1.viewComponent:switchToServer()
+					slot1.viewComponent:switchToServer()
 				elseif slot0 == LoginType.PLATFORM_AIRIJP or slot0 == LoginType.PLATFORM_AIRIUS then
-					uv1.viewComponent:switchToAiriLogin()
+					slot1.viewComponent:switchToAiriLogin()
 				else
-					uv1.viewComponent:switchToLogin()
+					slot1.viewComponent:switchToLogin()
 				end
 			end
 		})
@@ -226,11 +222,11 @@ function slot0.handleNotification(slot0, slot1)
 			content = errorTip("login_loginMediator_serverLoginFail", slot3),
 			onYes = function ()
 				if pg.SdkMgr.GetInstance():GetLoginType() == LoginType.PLATFORM or LoginType.PLATFORM_TENCENT then
-					uv0.viewComponent:switchToServer()
+					slot0.viewComponent:switchToServer()
 				elseif slot0 == LoginType.PLATFORM_AIRIJP or slot0 == LoginType.PLATFORM_AIRIUS then
-					uv0.viewComponent:switchToAiriLogin()
+					slot0.viewComponent:switchToAiriLogin()
 				else
-					uv0.viewComponent:switchToLogin()
+					slot0.viewComponent:switchToLogin()
 				end
 			end
 		})

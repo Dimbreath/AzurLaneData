@@ -1,20 +1,17 @@
-slot0 = class("CommanderUsePrefabCommand", pm.SimpleCommand)
+class("CommanderUsePrefabCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	slot5 = getProxy(FleetProxy):getFleetById(slot4)
 
-function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
-	slot6 = getProxy(CommanderProxy):getPrefabFleetById(slot2.pid)
-
-	if slot6:isEmpty() or slot6:isSame(getProxy(FleetProxy):getFleetById(slot2.fleetId):getCommanders()) then
+	if getProxy(CommanderProxy):getPrefabFleetById(slot3):isEmpty() or slot6:isSame(slot5:getCommanders()) then
 		return
 	end
 
 	seriesAsync({
 		function (slot0)
-			if uv0:getCommanderByPos(1) then
-				uv1:sendNotification(GAME.COOMMANDER_EQUIP_TO_FLEET, {
+			if slot0:getCommanderByPos(1) then
+				slot1:sendNotification(GAME.COOMMANDER_EQUIP_TO_FLEET, {
 					commanderId = 0,
 					pos = 1,
-					fleetId = uv2,
+					fleetId = slot1.sendNotification,
 					callback = slot0
 				})
 			else
@@ -22,11 +19,11 @@ function slot0.execute(slot0, slot1)
 			end
 		end,
 		function (slot0)
-			if uv0:getCommanderByPos(2) then
-				uv1:sendNotification(GAME.COOMMANDER_EQUIP_TO_FLEET, {
+			if slot0:getCommanderByPos(2) then
+				slot1:sendNotification(GAME.COOMMANDER_EQUIP_TO_FLEET, {
 					commanderId = 0,
 					pos = 2,
-					fleetId = uv2,
+					fleetId = slot1.sendNotification,
 					callback = slot0
 				})
 			else
@@ -34,12 +31,10 @@ function slot0.execute(slot0, slot1)
 			end
 		end,
 		function (slot0)
-			slot1 = uv0
-
-			if slot1:getCommanderByPos(1) then
-				uv1:sendNotification(GAME.SELECT_FLEET_COMMANDER, {
+			if slot0:getCommanderByPos(1) then
+				slot1:sendNotification(GAME.SELECT_FLEET_COMMANDER, {
 					pos = 1,
-					fleetId = uv2,
+					fleetId = slot2,
 					commanderId = slot1.id,
 					callback = slot0
 				})
@@ -48,12 +43,10 @@ function slot0.execute(slot0, slot1)
 			end
 		end,
 		function (slot0)
-			slot1 = uv0
-
-			if slot1:getCommanderByPos(2) then
-				uv1:sendNotification(GAME.SELECT_FLEET_COMMANDER, {
+			if slot0:getCommanderByPos(2) then
+				slot1:sendNotification(GAME.SELECT_FLEET_COMMANDER, {
 					pos = 2,
-					fleetId = uv2,
+					fleetId = slot2,
 					commanderId = slot1.id,
 					callback = slot0
 				})
@@ -62,8 +55,8 @@ function slot0.execute(slot0, slot1)
 			end
 		end
 	}, function ()
-		uv0:sendNotification(GAME.USE_COMMANDER_PREFBA_DONE)
+		slot0:sendNotification(GAME.USE_COMMANDER_PREFBA_DONE)
 	end)
 end
 
-return slot0
+return class("CommanderUsePrefabCommand", pm.SimpleCommand)

@@ -1,12 +1,11 @@
-slot0 = class("DestroyShipsCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
-	slot4 = slot2.destroyEquipment or false
+class("DestroyShipsCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	slot3 = slot1:getBody().shipIds
+	slot4 = slot1.getBody().destroyEquipment or false
+	slot5 = getProxy(BayProxy)
 	slot6 = {}
 
-	for slot10, slot11 in ipairs(slot2.shipIds) do
-		if getProxy(BayProxy):getShipById(slot11) == nil then
+	for slot10, slot11 in ipairs(slot3) do
+		if slot5:getShipById(slot11) == nil then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_error_noShip", slot11))
 
 			return
@@ -19,17 +18,20 @@ function slot0.execute(slot0, slot1)
 		ship_id_list = slot3
 	}, 12005, function (slot0)
 		if slot0.result == 0 then
+			slot1 = 0
+			slot2 = 0
+			slot3 = 0
 			slot4 = getProxy(EquipmentProxy)
 			slot5 = {}
 			slot6 = {}
 
-			for slot10, slot11 in ipairs(uv0) do
-				uv1:removeShip(slot11)
+			for slot10, slot11 in ipairs(slot0) do
+				slot1:removeShip(slot11)
 
 				slot12, slot13, slot14 = slot11:calReturnRes()
-				slot1 = 0 + slot12
-				slot2 = 0 + slot13
-				slot3 = 0 + slot14
+				slot1 = slot1 + slot12
+				slot2 = slot2 + slot13
+				slot3 = slot3 + slot14
 
 				for slot18, slot19 in ipairs(slot11.equipments) do
 					if slot19 then
@@ -61,29 +63,32 @@ function slot0.execute(slot0, slot1)
 				gold = slot1,
 				oil = slot2
 			})
+
+			slot9 = {
+				{
+					id = 1,
+					type = DROP_TYPE_RESOURCE,
+					count = slot1
+				},
+				{
+					id = 2,
+					type = DROP_TYPE_RESOURCE,
+					count = slot2
+				}
+			}
+
 			slot7:updatePlayer(slot8)
 
 			if slot3 > 0 then
-				getProxy(BagProxy):addItemById(15001, slot3)
-				table.insert({
-					{
-						id = 1,
-						type = DROP_TYPE_RESOURCE,
-						count = slot1
-					},
-					{
-						id = 2,
-						type = DROP_TYPE_RESOURCE,
-						count = slot2
-					}
-				}, {
+				getProxy(BagProxy).addItemById(slot10, 15001, slot3)
+				table.insert(slot9, {
 					id = 15001,
 					type = DROP_TYPE_ITEM,
 					count = slot3
 				})
 			end
 
-			uv2:sendNotification(GAME.DESTROY_SHIP_DONE, {
+			slot2:sendNotification(GAME.DESTROY_SHIP_DONE, {
 				destroiedShipIds = slot6,
 				bonus = slot9,
 				equipments = slot5
@@ -94,4 +99,4 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-return slot0
+return class("DestroyShipsCommand", pm.SimpleCommand)

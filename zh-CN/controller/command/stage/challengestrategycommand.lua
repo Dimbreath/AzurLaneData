@@ -1,6 +1,4 @@
-slot0 = class("ChallengeStrategyCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("ChallengeStrategyCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot3 = Challenge.CHALLENGE_OP_STRATEGY
 	slot4 = slot1:getBody().arg1
 
@@ -18,8 +16,8 @@ function slot0.execute(slot0, slot1)
 		if slot0.result == 0 then
 			slot1 = getProxy(ChallengeProxy)
 
-			if uv0 == Challenge.CHALLENGE_OP_STRATEGY then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("chapter_tip_use", pg.strategy_data_template[uv1].name))
+			if slot0 == Challenge.CHALLENGE_OP_STRATEGY then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("chapter_tip_use", pg.strategy_data_template[slot1].name))
 			end
 
 			slot1:updateChallenge(Challenge.New(slot0.challenge_update))
@@ -27,4 +25,4 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-return slot0
+return class("ChallengeStrategyCommand", pm.SimpleCommand)

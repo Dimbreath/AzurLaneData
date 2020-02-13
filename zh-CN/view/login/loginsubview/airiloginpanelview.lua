@@ -5,6 +5,7 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.OnLoaded(slot0)
+	return
 end
 
 function slot0.SetShareData(slot0, slot1)
@@ -46,16 +47,16 @@ end
 
 function slot0.InitEvent(slot0)
 	function slot1()
-		pg.UIMgr.GetInstance():UnblurPanel(uv0.firstAlertWin, uv0.airijpPanel)
-		setActive(uv0.firstAlertWin, false)
+		pg.UIMgr.GetInstance():UnblurPanel(slot0.firstAlertWin, slot0.airijpPanel)
+		setActive(slot0.firstAlertWin, false)
 	end
 
 	onButton(slot0, slot0.airiLoginBtn, function ()
 		playSoundEffect(SFX_CONFIRM)
 
 		if not getProxy(SettingsProxy):getUserAgreement() then
-			uv0.event:emit(LoginMediator.ON_LOGIN_PROCESS)
-		elseif not uv1() then
+			slot0.event:emit(LoginMediator.ON_LOGIN_PROCESS)
+		elseif not slot1() then
 			pg.SdkMgr.GetInstance():AiriLoginSDK()
 		end
 	end)
@@ -69,10 +70,11 @@ function slot0.InitEvent(slot0)
 
 				slot0:deleteUserAreement()
 				slot0:clearAllReadHelp()
-				uv0.event:emit(LoginMediator.ON_LOGIN_PROCESS)
+				slot0.event:emit(LoginMediator.ON_LOGIN_PROCESS)
 				pg.TipsMgr.GetInstance():ShowTips(i18n("clear_transcode_cache_success"))
 			end,
 			onNo = function ()
+				return
 			end
 		})
 	end)
@@ -80,7 +82,7 @@ function slot0.InitEvent(slot0)
 		pg.SdkMgr.GetInstance():LoginWithSocial(AIRI_PLATFORM_TWITTER)
 	end)
 	onButton(slot0, slot0.transcodeLoginBtn, function ()
-		uv0:emit(LoginSceneConst.SWITCH_SUB_VIEW, {
+		slot0:emit(LoginSceneConst.SWITCH_SUB_VIEW, {
 			LoginSceneConst.DEFINE.TRANSCODE_ALERT_VIEW,
 			LoginSceneConst.DEFINE.AIRI_LOGIN_PANEL_VIEW,
 			LoginSceneConst.DEFINE.PRESS_TO_LOGIN
@@ -96,36 +98,28 @@ function slot0.InitEvent(slot0)
 		pg.SdkMgr.GetInstance():LoginWithSocial(AIRI_PLATFORM_FACEBOOK)
 	end)
 	onButton(slot0, slot0.yostarLoginBtn_en, function ()
-		uv0:emit(LoginSceneConst.SWITCH_SUB_VIEW, {
+		slot0:emit(LoginSceneConst.SWITCH_SUB_VIEW, {
 			LoginSceneConst.DEFINE.YOSTAR_ALERT_VIEW,
 			LoginSceneConst.DEFINE.AIRI_LOGIN_PANEL_VIEW,
 			LoginSceneConst.DEFINE.PRESS_TO_LOGIN
 		})
 	end)
-	function ()
-		if not pg.SdkMgr.GetInstance():CheckHadAccountCache() then
-			setActive(uv0.firstAlertWin, true)
-			pg.UIMgr.GetInstance():BlurPanel(uv0.firstAlertWin)
-
-			return true
-		end
-
-		return false
-	end()
+	slot2()
 	onButton(slot0, slot0.alertCloseBtn, function ()
-		uv0()
+		slot0()
 	end)
 	onButton(slot0, slot0.alertCancelBtn, function ()
-		uv0()
+		slot0()
 	end)
 	onButton(slot0, slot0.alertSureBtn, function ()
-		slot1 = getToggleState(uv0.transcodeToggleTf)
-		slot2 = getToggleState(uv0.touristToggleTf)
+		slot0 = getToggleState(slot0.twitterToggleTf)
+		slot1 = getToggleState(slot0.transcodeToggleTf)
+		slot2 = getToggleState(slot0.touristToggleTf)
 
-		if getToggleState(uv0.twitterToggleTf) then
+		if slot0 then
 			pg.SdkMgr.GetInstance():LoginWithSocial(AIRI_PLATFORM_TWITTER)
 		elseif slot1 then
-			uv0:emit(LoginSceneConst.SWITCH_SUB_VIEW, {
+			slot0:emit(LoginSceneConst.SWITCH_SUB_VIEW, {
 				LoginSceneConst.DEFINE.TRANSCODE_ALERT_VIEW,
 				LoginSceneConst.DEFINE.AIRI_LOGIN_PANEL_VIEW,
 				LoginSceneConst.DEFINE.PRESS_TO_LOGIN
@@ -134,11 +128,12 @@ function slot0.InitEvent(slot0)
 			pg.SdkMgr.GetInstance():LoginWithDevice()
 		end
 
-		uv1()
+		slot1()
 	end)
 end
 
 function slot0.OnDestroy(slot0)
+	return
 end
 
 return slot0

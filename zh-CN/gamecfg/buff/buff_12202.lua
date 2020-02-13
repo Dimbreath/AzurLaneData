@@ -1,17 +1,3 @@
-slot0.effect_list = {
-	{
-		type = "BattleBuffAddAttrRatio",
-		trigger = {
-			"onAttach",
-			"onRemove"
-		},
-		arg_list = {
-			number = 500,
-			attr = "dodgeRate"
-		}
-	}
-}
-
 return {
 	{
 		effect_list = {
@@ -179,5 +165,18 @@ return {
 		1,
 		0.3,
 		0.3
+	},
+	effect_list = {
+		{
+			type = "BattleBuffAddAttrRatio",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				number = 500,
+				attr = "dodgeRate"
+			}
+		}
 	}
 }

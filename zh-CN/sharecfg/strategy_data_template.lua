@@ -1,6 +1,4 @@
 pg = pg or {}
-slot3[1] = healthy
-slot3[1] = sub_move
 pg.strategy_data_template = {
 	{
 		buff_id = 100,
@@ -37,7 +35,7 @@ pg.strategy_data_template = {
 		icon = "4",
 		desc = "当前舰队存活角色回复总血量的10%",
 		arg = {
-			nil,
+			healthy,
 			10
 		}
 	},
@@ -71,7 +69,7 @@ pg.strategy_data_template = {
 		icon = "11",
 		desc = "移动潜艇的狩猎范围",
 		arg = {
-			nil,
+			sub_move,
 			1.1
 		}
 	},
@@ -237,3 +235,5 @@ pg.strategy_data_template = {
 		10015
 	}
 }
+
+return

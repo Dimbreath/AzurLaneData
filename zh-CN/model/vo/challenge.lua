@@ -66,7 +66,7 @@ function slot0.update(slot0, slot1)
 	slot2 = {}
 
 	_.each(slot1.ship_list, function (slot0)
-		uv0.ships[slot0.id] = {
+		slot0.ships[slot0.id] = {
 			id = slot0.id,
 			hp_rant = slot0.hp_rant,
 			strategies = _.map(slot0.strategy_list or {}, function (slot0)
@@ -77,12 +77,14 @@ function slot0.update(slot0, slot1)
 			end)
 		}
 
-		table.insert(uv1, slot0.id)
+		table.insert(_.map, slot0.id)
 
-		uv0.mirrors[slot0.id] = Ship.New(slot0.ship_info)
+		slot0.mirrors[slot0.id] = Ship.New(slot0.ship_info)
 	end)
 
-	for slot7, slot8 in ipairs(slot1.strategy_use_list or {}) do
+	slot3 = slot1.strategy_use_list or {}
+
+	for slot7, slot8 in ipairs(slot3) do
 		slot0.stgUsed[slot8.id] = slot8.count
 	end
 
@@ -91,9 +93,11 @@ function slot0.update(slot0, slot1)
 end
 
 function slot0.updateFleetShips(slot0, slot1)
+	slot2 = {}
+
 	for slot6, slot7 in ipairs(slot1) do
 		if slot0.ships[slot7] then
-			table.insert({}, {
+			table.insert(slot2, {
 				id = slot7,
 				hp_rant = slot0.ships[slot7].hp_rant,
 				strategies = Clone(slot0.ships[slot7].strategies)
@@ -112,8 +116,8 @@ function slot0.updateShipStg(slot0, slot1, slot2, slot3)
 	end
 
 	_.each(slot4, function (slot0)
-		if slot0.id == uv0 then
-			slot0.count = uv1
+		if slot0.id == slot0 then
+			slot0.count = slot1
 		end
 	end)
 	slot0.fleet:updateShipStg(slot1, slot2, slot3)
@@ -163,7 +167,7 @@ function slot0.getLevelRate(slot0)
 end
 
 function slot0.getDifficultyRate(slot0)
-	return slot0:getDamageRate() + slot0:getLevelRate() - 1
+	return (slot0:getDamageRate() + slot0:getLevelRate()) - 1
 end
 
 function slot0.getScoreRate(slot0)
@@ -171,38 +175,43 @@ function slot0.getScoreRate(slot0)
 end
 
 function slot0.getFleetGS(slot0)
-	for slot6, slot7 in ipairs(slot0:getChallengeShipList()) do
-		slot2 = 0 + slot7:getShipCombatPower()
+	slot2 = 0
+
+	for slot6, slot7 in ipairs(slot1) do
+		slot2 = slot2 + slot7:getShipCombatPower()
 	end
 
 	return slot2
 end
 
 function slot0.getGSRateID(slot0)
+	slot1 = slot0:getFleetGS()
+	slot3 = 1
 	slot4 = #ChallengeProxy.rateConfigData[ChallengeProxy.RATE_FACTOR_GEAR_SCORE]
 
-	if slot0:getFleetGS() < slot2[1].content then
-		while slot0:getFleetGS() < slot2[1].content and slot3 < slot4 do
-			slot3 = slot3 + 1
-		end
+	while slot1 < slot2[slot3].content and slot3 < slot4 do
+		slot3 = slot3 + 1
 	end
 
 	return slot2[slot3].id, slot2[slot3].rate
 end
 
 function slot0.getChallengeShipList(slot0)
+	slot1 = getProxy(BayProxy):getRawData()
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0.ships) do
-		slot2[#slot2 + 1] = getProxy(BayProxy):getRawData()[slot7.id]
+		slot2[#slot2 + 1] = slot1[slot7.id]
 	end
 
 	return slot2
 end
 
 function slot0.getCurrentChallengeTemplate(slot0)
+	slot1 = slot0.challengeLevel or 1
+
 	for slot5, slot6 in pairs(pg.expedition_challenge_template) do
-		if slot6.index == (slot0.challengeLevel or 1) then
+		if slot6.index == slot1 then
 			return slot6
 		end
 	end
@@ -217,8 +226,10 @@ function slot0.getShips(slot0)
 end
 
 function slot0.getFleetStgIds(slot0, slot1)
+	slot2 = {}
+
 	if slot1.stgId > 0 then
-		table.insert({}, slot1.stgId)
+		table.insert(slot2, slot1.stgId)
 	end
 
 	return slot2
@@ -229,8 +240,10 @@ function slot0.isClear(slot0)
 end
 
 function slot0.getMaxLevel(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in pairs(pg.expedition_challenge_template) do
-		if slot6.index and slot6.challenge == slot0 and 0 < slot6.index then
+		if slot6.index and slot6.challenge == slot0 and slot1 < slot6.index then
 			slot1 = slot6.index
 		end
 	end
@@ -241,9 +254,9 @@ end
 function slot0.getFleetStgs(slot0)
 	slot1 = {}
 
-	_.each(slot0.fleet:getShips(), function (slot0)
+	_.each(slot2, function (slot0)
 		_.each(slot0:getConfig("strategy_list"), function (slot0)
-			uv0[slot0[1]] = (uv0[slot0[1]] or 0) + slot0[2]
+			slot0[slot0[1]] = (slot0[slot0[1]] or 0) + slot0[2]
 		end)
 	end)
 
@@ -258,8 +271,10 @@ function slot0.getFleetStgs(slot0)
 		end
 	end
 
+	slot3 = {}
+
 	for slot7, slot8 in pairs(slot1) do
-		table.insert({}, {
+		table.insert(slot3, {
 			id = slot7,
 			count = slot8
 		})

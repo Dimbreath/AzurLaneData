@@ -1,6 +1,4 @@
-slot0 = class("CheaterMarkCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("CheaterMarkCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	pg.ConnectionMgr.GetInstance():Send(10994, {
 		type = slot1:getBody().reason
 	}, 10995, function (slot0)
@@ -10,4 +8,4 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-return slot0
+return class("CheaterMarkCommand", pm.SimpleCommand)

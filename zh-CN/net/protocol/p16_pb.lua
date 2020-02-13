@@ -545,3 +545,5 @@ sc_16109 = slot0.Message(SC_16109)
 sc_16200 = slot0.Message(SC_16200)
 sc_16202 = slot0.Message(SC_16202)
 shopinfo = slot0.Message(SHOPINFO)
+
+return

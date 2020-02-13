@@ -1,6 +1,3 @@
-slot4[MULTRES] = Vector3(-85, 0, 38)
-slot4[MULTRES] = Vector3(5, 0, 38)
-
 return {
 	lose_condition = 1,
 	win_condition = 1,

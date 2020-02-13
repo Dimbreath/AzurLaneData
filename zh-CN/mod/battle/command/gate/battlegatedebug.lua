@@ -18,6 +18,7 @@ function slot0.Entrance(slot0, slot1)
 end
 
 function slot0.Exit()
+	return
 end
 
 return slot0

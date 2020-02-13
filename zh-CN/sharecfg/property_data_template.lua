@@ -81,3 +81,5 @@ pg.property_data_template = {
 		icon = "damage"
 	}
 }
+
+return

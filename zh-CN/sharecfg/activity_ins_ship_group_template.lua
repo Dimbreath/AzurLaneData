@@ -1,9 +1,4 @@
 pg = pg or {}
-slot1[40123] = {
-	ship_group = 40123,
-	name = "Zerstörer.23",
-	sculpture = "z23"
-}
 pg.activity_ins_ship_group_template = {
 	[30701] = {
 		ship_group = 30701,
@@ -400,6 +395,11 @@ pg.activity_ins_ship_group_template = {
 		name = "TrägerZeppelin",
 		sculpture = "qibolin"
 	},
+	[40123] = {
+		ship_group = 40123,
+		name = "Zerstörer.23",
+		sculpture = "z23"
+	},
 	[20121] = {
 		ship_group = 20121,
 		name = "Javelin☆",
@@ -525,3 +525,5 @@ pg.activity_ins_ship_group_template = {
 		10705
 	}
 }
+
+return

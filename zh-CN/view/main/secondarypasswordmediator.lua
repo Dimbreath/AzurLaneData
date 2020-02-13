@@ -3,23 +3,23 @@ slot0.CONFIRM_PASSWORD = "SecondaryPasswordMediator:CONFIRM_PASSWORD"
 slot0.SET_PASSWORD = "SecondaryPasswordMediator:SET_PASSWORD"
 
 function slot0.register(slot0)
-	slot0:bind(uv0.CONFIRM_PASSWORD, function (slot0, slot1)
-		if uv0.contextData.type == pg.SecondaryPWDMgr.CHANGE_SETTING or uv0.contextData.type == pg.SecondaryPWDMgr.CLOSE_PASSWORD then
-			uv0:sendNotification(GAME.SET_PASSWORD_SETTINGS, {
+	slot0:bind(slot0.CONFIRM_PASSWORD, function (slot0, slot1)
+		if slot0.contextData.type == pg.SecondaryPWDMgr.CHANGE_SETTING or slot0.contextData.type == pg.SecondaryPWDMgr.CLOSE_PASSWORD then
+			slot0:sendNotification(GAME.SET_PASSWORD_SETTINGS, {
 				pwd = slot1,
-				settings = uv0.contextData.settings
+				settings = slot0.contextData.settings
 			})
 		else
-			uv0:sendNotification(GAME.CONFIRM_PASSWORD, {
+			slot0:sendNotification(GAME.CONFIRM_PASSWORD, {
 				pwd = slot1
 			})
 		end
 	end)
-	slot0:bind(uv0.SET_PASSWORD, function (slot0, slot1, slot2)
-		uv1:sendNotification(GAME.SET_PASSWORD, {
+	slot0:bind(slot0.SET_PASSWORD, function (slot0, slot1, slot2)
+		slot1:sendNotification(GAME.SET_PASSWORD, {
 			pwd = slot1,
-			tip = uv0.ClipUnicodeStr(slot2, 20),
-			settings = uv1.contextData.settings
+			tip = slot0.ClipUnicodeStr(slot2, 20),
+			settings = slot1.contextData.settings
 		})
 	end)
 end
@@ -35,8 +35,7 @@ end
 
 function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
-	slot4 = getProxy(SecondaryPWDProxy)
-	slot5 = slot4:getRawData()
+	slot5 = getProxy(SecondaryPWDProxy).getRawData(slot4)
 
 	if slot1:getName() == GAME.FETCH_PASSWORD_STATE_DONE then
 		if not slot4:GetPermissionState() then
@@ -46,7 +45,7 @@ function slot0.handleNotification(slot0, slot1)
 				hideNo = true,
 				type = MSGBOX_TYPE_SECONDPWD,
 				onPreShow = function ()
-					uv0.viewComponent:emit(BaseUI.ON_CLOSE)
+					slot0.viewComponent:emit(BaseUI.ON_CLOSE)
 				end
 			})
 		end

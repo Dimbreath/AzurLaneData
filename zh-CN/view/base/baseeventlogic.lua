@@ -3,7 +3,7 @@ slot1 = require("Framework.notify.event")
 
 function slot0.Ctor(slot0, slot1)
 	slot0.eventStore = {}
-	slot0.event = slot1 or uv0.New()
+	slot0.event = slot1 or slot0.New()
 	slot0.tweenIdList = {}
 end
 
@@ -33,10 +33,10 @@ function slot0.managedTween(slot0, slot1, slot2, ...)
 	slot3 = slot1(...)
 
 	slot3:setOnComplete(System.Action(function ()
-		table.removebyvalue(uv0.tweenIdList, uv1.uniqueId)
+		table.removebyvalue(slot0.tweenIdList, slot1.uniqueId)
 
-		if uv2 then
-			uv2()
+		if slot1.uniqueId then
+			slot2()
 		end
 	end))
 

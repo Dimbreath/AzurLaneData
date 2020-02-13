@@ -13,11 +13,9 @@ function slot0.OnFirstFlush(slot0)
 	end)
 
 	onButton(slot0, slot0.shop, function ()
-		slot0 = uv0
-
-		slot0.emit(slot0, ActivityMediator.GO_SHOPS_LAYER, {
+		slot0.emit(slot1, ActivityMediator.GO_SHOPS_LAYER, {
 			warp = ShopsLayer.TYPE_ACTIVITY,
-			actId = uv1 and uv1.id
+			actId = slot0.emit and slot1.id
 		})
 	end)
 end

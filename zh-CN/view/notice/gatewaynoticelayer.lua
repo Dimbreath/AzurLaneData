@@ -13,7 +13,7 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.btnBack, function ()
-		uv0:showNext()
+		slot0:showNext()
 	end)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false)
 end
@@ -37,8 +37,8 @@ function slot0.showNext(slot0)
 
 		LeanTween.cancel(go(slot0.trFrame))
 		LeanTween.value(go(slot0.trFrame), 0, 1, 0.3):setEase(LeanTweenType.easeOutBack):setOnUpdate(System.Action_float(function (slot0)
-			uv0.alpha = slot0
-			uv1.trFrame.localScale = Vector3(0.8, 0.8, 1) + Vector3(0.2, 0.2, 0) * slot0
+			slot0.alpha = slot0
+			slot0.trFrame.localScale = Vector3(0.8, 0.8, 1) + Vector3(0.2, 0.2, 0) * slot0
 		end))
 		playSoundEffect(SFX_PANEL)
 

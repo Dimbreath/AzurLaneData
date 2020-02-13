@@ -9,9 +9,7 @@ end
 slot0.SkirmishMap = 1250022
 
 function slot0.BuildSkirmishData(slot0)
-	slot1 = SkirmishVO
-
-	for slot5, slot6 in pairs(slot1:bindConfigTable().all) do
+	for slot5, slot6 in pairs(SkirmishVO:bindConfigTable().all) do
 		table.insert(slot0.data, SkirmishVO.New(slot1[slot6].id))
 	end
 end
@@ -23,12 +21,13 @@ function slot0.TryFetchNewTask(slot0)
 end
 
 function slot0.UpdateSkirmishProgress(slot0)
-	activeAmount = math.min(getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_ID_US_SKIRMISH):getDayIndex(), #slot0.data)
+	slot1 = getProxy(TaskProxy)
+	activeAmount = math.min(getProxy(ActivityProxy).getActivityById(slot2, ActivityConst.ACTIVITY_ID_US_SKIRMISH).getDayIndex(slot4), #slot0.data)
 	slot5 = false
 
-	for slot9 = #slot3, 1, -1 do
+	for slot9 = #slot0.data, 1, -1 do
 		v = slot3[slot9]
-		slot11 = getProxy(TaskProxy):getTaskVO(v:getConfig("task_id"))
+		slot11 = slot1:getTaskVO(slot10)
 		slot12 = nil
 
 		if activeAmount < slot9 then
@@ -45,10 +44,8 @@ function slot0.UpdateSkirmishProgress(slot0)
 				slot5 = true
 			end
 		else
-			slot12 = (not slot5 or SkirmishVO.StateClear) and SkirmishVO.StateActive
+			v:SetState((not slot5 or SkirmishVO.StateClear) and SkirmishVO.StateActive)
 		end
-
-		v:SetState(slot12)
 	end
 end
 

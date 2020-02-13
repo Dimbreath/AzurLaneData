@@ -1,17 +1,14 @@
-slot0 = class("TaskGoCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("TaskGoCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	if getProxy(TaskProxy):getTaskById(slot1:getBody().taskVO.id) == nil then
 		return
 	end
 
+	slot6 = getProxy(ChapterProxy)
+
 	if slot3:getConfig("scene") and #slot7 > 0 then
 		if slot7[1] == "ACTIVITY_MAP" then
-			slot8, slot9 = getProxy(ChapterProxy):getLastMapForActivity()
-
-			if slot8 then
-				slot10 = getProxy(ActivityProxy):getActivityById(pg.expedition_data_by_map[slot8].on_activity)
-			end
+			slot8, slot9 = slot6:getLastMapForActivity()
+			slot10 = slot8 and getProxy(ActivityProxy):getActivityById(pg.expedition_data_by_map[slot8].on_activity)
 
 			if not slot10 or slot10:isEnd() then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
@@ -31,6 +28,10 @@ function slot0.execute(slot0, slot1)
 	end
 
 	slot9 = slot3:getConfigTable().sub_type
+	slot11 = {
+		chapterId = slot6:getActiveChapter() and slot10.id,
+		mapIdx = slot10 and slot10:getConfig("map")
+	}
 	slot12 = {
 		inChapter = true,
 		inPvp = true,
@@ -46,10 +47,7 @@ function slot0.execute(slot0, slot1)
 	slot14 = math.fmod(slot9, 10)
 
 	if math.modf(slot9 / 10) == 0 then
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
-			chapterId = slot6:getActiveChapter() and slot10.id,
-			mapIdx = slot10 and slot10:getConfig("map")
-		})
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot11)
 	elseif slot13 == 1 then
 		if slot14 == 9 then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.DAILYLEVEL)
@@ -65,7 +63,7 @@ function slot0.execute(slot0, slot1)
 			})
 
 			if getProxy(ChapterProxy):getMaps()[slot16:getConfig("map")]:getChapter(slot16.id) and slot19:isUnlock() then
-				slot0.sendNotification(slot0, GAME.GO_SCENE, SCENE.LEVEL, {
+				slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
 					chapterId = slot19 and slot19.id,
 					mapIdx = slot19 and slot19:getConfig("map")
 				})
@@ -89,16 +87,16 @@ function slot0.execute(slot0, slot1)
 				system = SYSTEM_PERFORM,
 				stageId = tonumber(slot15)
 			})
-		elseif slot14 > 7 or type(slot15) == "string" and tonumber(slot15) == 0 then
+		elseif slot14 > 7 or (type(slot15) == "string" and tonumber(slot15) == 0) then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot11)
 		else
 			if type(slot15) == "table" then
 				slot16 = slot6:getMaps()
 
 				if _.all(slot15, function (slot0)
-					return uv0[Chapter.New({
+					return slot0[Chapter.New({
 						id = slot0
-					}):getConfig("map")]:getChapter(slot0) and not slot3:isUnlock()
+					}).getConfig(slot1, "map")]:getChapter(slot0) and not slot3:isUnlock()
 				end) then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_lock_1"))
 
@@ -114,7 +112,7 @@ function slot0.execute(slot0, slot1)
 		elseif slot14 == 1 then
 			slot15 = {}
 
-			for slot20, slot21 in pairs(getProxy(BayProxy):getData()) do
+			for slot20, slot21 in pairs(slot16) do
 				if slot21:isActivityNpc() and not table.contains(slot15, slot21.id) then
 					table.insert(slot15, slot21.id)
 				end
@@ -186,20 +184,16 @@ function slot0.execute(slot0, slot1)
 			slot0:sendNotification(TaskMediator.TASK_FILTER, "weekly")
 		end
 	elseif slot13 == 10 then
-		if slot14 == 4 or slot14 == 5 then
-			slot15 = getProxy(ActivityProxy)
-
-			if slot15:getActivityByType(ActivityConst.ACTIVITY_TYPE_INSTAGRAM) and not slot15:isEnd() then
-				slot0:sendNotification(GAME.GO_SCENE, SCENE.MAINUI, {
-					subContext = Context.New({
-						viewComponent = InstagramLayer,
-						mediator = InstagramMediator,
-						data = {
-							id = slot15.id
-						}
-					})
+		if (slot14 == 4 or slot14 == 5) and getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_INSTAGRAM) and not slot15:isEnd() then
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.MAINUI, {
+				subContext = Context.New({
+					viewComponent = InstagramLayer,
+					mediator = InstagramMediator,
+					data = {
+						id = slot15.id
+					}
 				})
-			end
+			})
 		end
 	elseif slot13 == 11 then
 		if slot14 == 0 then
@@ -254,7 +248,7 @@ function slot0.execute(slot0, slot1)
 			})
 
 			if getProxy(ChapterProxy):getMaps()[slot16:getConfig("map")]:getChapter(slot16.id) and slot19:isUnlock() then
-				slot0.sendNotification(slot0, GAME.GO_SCENE, SCENE.LEVEL, {
+				slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
 					chapterId = slot19 and slot19.id,
 					mapIdx = slot19 and slot19:getConfig("map")
 				})
@@ -266,9 +260,9 @@ function slot0.execute(slot0, slot1)
 				slot16 = slot6:getMaps()
 
 				if _.all(slot15, function (slot0)
-					return uv0[Chapter.New({
+					return slot0[Chapter.New({
 						id = slot0
-					}):getConfig("map")]:getChapter(slot0) and not slot3:isUnlock()
+					}).getConfig(slot1, "map")]:getChapter(slot0) and not slot3:isUnlock()
 				end) then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_lock_1"))
 
@@ -283,4 +277,4 @@ function slot0.execute(slot0, slot1)
 	end
 end
 
-return slot0
+return class("TaskGoCommand", pm.SimpleCommand)

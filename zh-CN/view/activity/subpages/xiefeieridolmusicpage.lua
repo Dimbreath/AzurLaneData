@@ -19,14 +19,14 @@ function slot0.OnFirstFlush(slot0)
 		pg.m02:sendNotification(GAME.GO_MINI_GAME, 6)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.bg:Find("get_btn"), function ()
-		uv0:emit(ActivityMediator.MUSIC_GAME_OPERATOR, {
-			hubid = uv0.HubID,
+		slot0:emit(ActivityMediator.MUSIC_GAME_OPERATOR, {
+			hubid = slot0.HubID,
 			cmd = MiniGameOPCommand.CMD_ULTIMATE,
 			args1 = {}
 		})
-		setActive(uv0.bg:Find("get_btn"), false)
-		setActive(uv0.bg:Find("battle_btn"), true)
-		setActive(uv0.bg:Find("got_icon"), true)
+		setActive(slot0.bg:Find("get_btn"), false)
+		setActive(slot0.bg:Find("battle_btn"), true)
+		setActive(slot0.bg:Find("got_icon"), true)
 	end, SFX_PANEL)
 end
 

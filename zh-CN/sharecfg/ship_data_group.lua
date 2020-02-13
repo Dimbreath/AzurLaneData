@@ -1,3197 +1,4 @@
 pg = pg or {}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 103
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 103
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 202
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 1303
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 101
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 101
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"COLLECTSHIP",
-	{
-		shipGroupId = 10108
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 401
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 401
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 201
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 203
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 902
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 902
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 903
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 102
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 102
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 203
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 102
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 302
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"SHOP",
-	{
-		warp = "supplies"
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 104
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 104
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 804
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 202
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 401
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 1002
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 1003
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 501
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 502
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 502
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 503
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 1104
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 201
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 803
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 301
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 301
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 301
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 401
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 303
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"COLLECTSHIP",
-	{
-		shipGroupId = 10311
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 202
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 202
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 202
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 202
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 201
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 201
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"SHOP",
-	{
-		warp = "supplies"
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 104
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 201
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 301
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 204
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 401
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 301
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 702
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 503
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 1304
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 703
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 501
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 204
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 204
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 101
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 101
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 101
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 102
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 303
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 502
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 201
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 201
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"SHOP",
-	{
-		warp = "sham"
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 104
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 204
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 204
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 302
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 302
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"SHOP",
-	{
-		warp = "sham"
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 201
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 502
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 204
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 204
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 203
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	"COLLECTSHIP",
-	{
-		shipGroupId = 20306
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 801
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 801
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 104
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 104
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 502
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 203
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 204
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 201
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 404
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 603
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 403
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 403
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 1001
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 1001
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"COLLECTSHIP",
-	{
-		shipGroupId = 30105
-	}
-}
-slot4[2] = {
-	"LEVEL"
-}
-slot4[2] = {
-	"SHOP",
-	{
-		warp = "sham"
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 802
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 801
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 403
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 402
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 604
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 303
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 401
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 904
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 703
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 801
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 1103
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 1004
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 1102
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 303
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 303
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 501
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 803
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 804
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 1204
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 603
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 603
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 1202
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 1203
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 704
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 202
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 304
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 304
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 301
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 301
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	"LEVEL"
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 501
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 1001
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 503
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 503
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"LEVEL",
-	{
-		chapterid = 503
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"COLLECTSHIP",
-	{
-		shipGroupId = 40204
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		page = 3
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"SHOP",
-	{
-		warp = "sham"
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "heavy",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "special",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"GETBOAT",
-	{
-		projectName = "light",
-		page = 1
-	}
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	""
-}
-slot4[2] = {
-	"SHIPBLUEPRINT",
-	{
-		shipGroupId = 29901
-	}
-}
-slot4[2] = {
-	"SHIPBLUEPRINT",
-	{
-		shipGroupId = 29902
-	}
-}
-slot4[2] = {
-	"SHIPBLUEPRINT",
-	{
-		shipGroupId = 39901
-	}
-}
-slot4[2] = {
-	"SHIPBLUEPRINT",
-	{
-		shipGroupId = 39902
-	}
-}
-slot4[2] = {
-	"SHIPBLUEPRINT",
-	{
-		shipGroupId = 49901
-	}
-}
-slot4[2] = {
-	"SHIPBLUEPRINT",
-	{
-		shipGroupId = 89901
-	}
-}
-slot4[2] = {
-	"SHIPBLUEPRINT",
-	{
-		shipGroupId = 19901
-	}
-}
-slot4[2] = {
-	"SHIPBLUEPRINT",
-	{
-		shipGroupId = 19902
-	}
-}
-slot4[2] = {
-	"SHIPBLUEPRINT",
-	{
-		shipGroupId = 39903
-	}
-}
-slot4[2] = {
-	"SHIPBLUEPRINT",
-	{
-		shipGroupId = 39904
-	}
-}
-slot4[2] = {
-	"SHIPBLUEPRINT",
-	{
-		shipGroupId = 49902
-	}
-}
-slot4[2] = {
-	"SHIPBLUEPRINT",
-	{
-		shipGroupId = 99901
-	}
-}
 pg.ship_data_group = {
 	{
 		type = 1,
@@ -3217,12 +24,19 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"每周任务",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -3251,12 +65,19 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"每周任务",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -3294,17 +115,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡1-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 103
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -3342,17 +179,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡1-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 103
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -3381,12 +234,22 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡2-2",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 202
+					}
+				},
 				0
 			}
 		}
@@ -3415,7 +278,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡13-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 1303
+					}
+				},
 				0
 			}
 		}
@@ -3444,7 +312,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：箱庭疗法",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -3473,17 +343,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡1-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 101
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -3512,17 +398,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡1-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 101
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -3551,7 +453,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"收藏解锁",
-				nil,
+				{
+					"COLLECTSHIP",
+					{
+						shipGroupId = 10108
+					}
+				},
 				0
 			}
 		}
@@ -3589,12 +496,22 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡4-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 401
+					}
+				},
 				0
 			}
 		}
@@ -3632,17 +549,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡4-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 401
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -3671,7 +604,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -3709,12 +648,23 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡2-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 201
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -3752,7 +702,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -3781,7 +737,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：坠落之翼",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -3810,7 +768,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：坠落之翼",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -3839,17 +799,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡2-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 203
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -3878,7 +854,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡9-2",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 902
+					}
+				},
 				0
 			}
 		}
@@ -3907,7 +888,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡9-2",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 902
+					}
+				},
 				0
 			}
 		}
@@ -3945,7 +931,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡9-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 903
+					}
+				},
 				0
 			}
 		}
@@ -3974,7 +965,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -4003,12 +1000,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：特别登陆",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -4037,17 +1042,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡1-2",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 102
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -4076,17 +1097,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡1-2",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 102
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -4115,17 +1152,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡2-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 203
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -4154,7 +1207,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：闹腾嬉戏东煌春节",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -4183,7 +1238,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：闹腾嬉戏东煌春节",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -4212,12 +1269,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"月度签到",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -4246,7 +1311,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"月度签到",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -4275,7 +1342,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -4304,17 +1377,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡1-2",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 102
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -4343,12 +1432,22 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡3-2",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 302
+					}
+				},
 				0
 			}
 		}
@@ -4377,7 +1476,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：战斗！皇家女仆队2nd",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -4406,7 +1507,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"军需商店兑换",
-				nil,
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
 				0
 			}
 		}
@@ -4435,17 +1541,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡1-4",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 104
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -4474,17 +1596,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡1-4",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 104
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -4513,7 +1651,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡8-4",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 804
+					}
+				},
 				0
 			}
 		}
@@ -4542,7 +1685,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -4571,12 +1720,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"月度签到",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -4605,17 +1762,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡2-2",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 202
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -4644,17 +1817,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡4-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 401
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -4683,7 +1872,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡10-2",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 1002
+					}
+				},
 				0
 			}
 		}
@@ -4712,12 +1906,23 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡10-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 1003
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -4746,17 +1951,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡5-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 501
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -4785,7 +2006,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -4814,17 +2041,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡5-2",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 502
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -4853,17 +2096,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡5-2",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 502
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -4901,12 +2160,23 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -4935,7 +2205,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：箱庭疗法",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -4964,7 +2236,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：『明日之星?闪亮登场！』",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -4993,17 +2267,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡5-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 503
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -5032,7 +2322,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡11-4",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 1104
+					}
+				},
 				0
 			}
 		}
@@ -5061,7 +2356,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -5090,7 +2391,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -5119,7 +2426,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：箱庭疗法",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -5148,7 +2457,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：战斗！皇家女仆队2nd",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -5177,7 +2488,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -5206,7 +2523,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：激奏的Polaris",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -5235,17 +2554,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡2-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 201
+					}
+				},
 				0
 			},
 			{
 				"进行重型、特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -5274,7 +2609,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡8-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 803
+					}
+				},
 				0
 			}
 		}
@@ -5303,17 +2643,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡3-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 301
+					}
+				},
 				0
 			},
 			{
 				"进行重型、特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -5342,17 +2698,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡3-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 301
+					}
+				},
 				0
 			},
 			{
 				"进行重型、特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -5381,17 +2753,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡3-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 301
+					}
+				},
 				0
 			},
 			{
 				"进行重型、特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -5427,17 +2815,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡4-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 401
+					}
+				},
 				0
 			},
 			{
 				"进行重型、特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -5466,17 +2870,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡3-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 303
+					}
+				},
 				0
 			},
 			{
 				"进行重型、特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -5505,7 +2925,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：月光下的序曲",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -5534,7 +2956,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：坠落之翼",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -5563,7 +2987,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：月光下的序曲",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -5592,7 +3018,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：月光下的序曲",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -5621,7 +3049,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"收藏解锁",
-				nil,
+				{
+					"COLLECTSHIP",
+					{
+						shipGroupId = 10311
+					}
+				},
 				0
 			}
 		}
@@ -5650,7 +3083,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：箱庭疗法",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -5688,17 +3123,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡2-2",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 202
+					}
+				},
 				0
 			},
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -5736,17 +3187,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡2-2",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 202
+					}
+				},
 				0
 			},
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -5775,17 +3242,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡2-2",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 202
+					}
+				},
 				0
 			},
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -5814,17 +3297,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡2-2",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 202
+					}
+				},
 				0
 			},
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -5853,17 +3352,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡2-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 201
+					}
+				},
 				0
 			},
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -5892,17 +3407,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡2-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 201
+					}
+				},
 				0
 			},
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -5931,7 +3462,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：坠落之翼",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -5960,7 +3493,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：坠落之翼",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -5989,7 +3524,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：坠落之翼",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -6018,7 +3555,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：坠落之翼",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -6047,7 +3586,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：坠落之翼",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -6076,7 +3617,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"军需商店兑换",
-				nil,
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
 				0
 			}
 		}
@@ -6105,7 +3651,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：光与影的鸢尾之华",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -6134,7 +3682,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：箱庭疗法",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -6172,17 +3722,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡1-4",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 104
+					}
+				},
 				0
 			},
 			{
 				"进行轻型、特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -6220,17 +3786,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡2-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 201
+					}
+				},
 				0
 			},
 			{
 				"进行轻型、特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -6268,17 +3850,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡3-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 301
+					}
+				},
 				0
 			},
 			{
 				"进行轻型、特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -6307,17 +3905,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡2-4",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 204
+					}
+				},
 				0
 			},
 			{
 				"进行特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -6355,17 +3969,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡4-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 401
+					}
+				},
 				0
 			},
 			{
 				"进行特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -6403,17 +4033,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡3-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 301
+					}
+				},
 				0
 			},
 			{
 				"进行轻型、特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -6442,17 +4088,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡7-2",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 702
+					}
+				},
 				0
 			},
 			{
 				"进行特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -6481,12 +4143,23 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"进行特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -6515,7 +4188,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：坠落之翼",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -6544,17 +4219,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡5-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 503
+					}
+				},
 				0
 			},
 			{
 				"进行特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -6583,7 +4274,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时建造",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -6612,7 +4305,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡13-4",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 1304
+					}
+				},
 				0
 			}
 		}
@@ -6641,7 +4339,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：特别演习·埃塞克斯级",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -6670,7 +4370,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：箱庭疗法",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -6699,7 +4401,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：特别演习·埃塞克斯级",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -6728,7 +4432,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：大青花鱼的涂鸦板",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -6757,7 +4463,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：箱庭疗法",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -6786,7 +4494,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -6815,17 +4529,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡7-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 703
+					}
+				},
 				0
 			},
 			{
 				"进行特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -6854,7 +4584,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -6892,17 +4628,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡5-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 501
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -6940,7 +4692,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -6978,7 +4736,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -7007,17 +4771,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡2-4",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 204
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -7046,17 +4826,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡2-4",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 204
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -7094,17 +4890,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡1-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 101
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -7142,17 +4954,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡1-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 101
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -7190,17 +5018,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡1-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 101
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -7229,7 +5073,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：铁血、音符&誓言",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -7267,17 +5113,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡1-2",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 102
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -7315,17 +5177,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡3-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 303
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -7354,7 +5232,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：凛冬王冠",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -7383,12 +5263,22 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡5-2",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 502
+					}
+				},
 				0
 			}
 		}
@@ -7417,7 +5307,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：峡湾间的星辰",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -7446,7 +5338,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：峡湾间的星辰",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -7484,12 +5378,23 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡2-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 201
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -7518,12 +5423,22 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡2-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 201
+					}
+				},
 				0
 			}
 		}
@@ -7552,12 +5467,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			},
 			{
 				"月度签到",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -7586,7 +5509,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -7615,12 +5544,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			},
 			{
 				"限时活动：凛冬王冠",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -7649,12 +5586,19 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：凛冬王冠",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"核心兑换获得",
-				nil,
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
 				0
 			}
 		}
@@ -7692,12 +5636,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：闹腾嬉戏东煌春节",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -7735,12 +5687,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：闹腾嬉戏东煌春节",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -7778,17 +5738,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡1-4",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 104
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -7826,17 +5802,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡2-4",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 204
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -7874,17 +5866,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡2-4",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 204
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -7913,12 +5921,22 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡3-2",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 302
+					}
+				},
 				0
 			}
 		}
@@ -7947,12 +5965,22 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡3-2",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 302
+					}
+				},
 				0
 			}
 		}
@@ -7981,7 +6009,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -8010,12 +6044,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			},
 			{
 				"月度签到",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -8053,12 +6095,16 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：战斗！皇家女仆队",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"限时活动：战斗！皇家女仆队2nd",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -8087,12 +6133,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			},
 			{
 				"限时活动：凛冬王冠",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -8121,7 +6175,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -8150,7 +6210,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：战斗！皇家女仆队2nd",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -8179,7 +6241,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型、重型、特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -8208,7 +6276,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型、重型、特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -8237,12 +6311,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：啾啾总动员",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -8271,7 +6353,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：激奏的Polaris",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -8300,7 +6384,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：战斗！皇家女仆队2nd",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -8329,12 +6415,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			},
 			{
 				"限时活动：凛冬王冠",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -8363,7 +6457,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -8392,12 +6492,19 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：凛冬王冠",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"核心兑换获得",
-				nil,
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
 				0
 			}
 		}
@@ -8426,12 +6533,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：凛冬王冠",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -8460,7 +6575,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -8498,17 +6619,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡2-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 201
+					}
+				},
 				0
 			},
 			{
 				"进行重型、特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -8537,17 +6674,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡5-2",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 502
+					}
+				},
 				0
 			},
 			{
 				"进行重型、特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -8576,7 +6729,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -8605,17 +6764,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡2-4",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 204
+					}
+				},
 				0
 			},
 			{
 				"进行重型、特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -8653,17 +6828,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡2-4",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 204
+					}
+				},
 				0
 			},
 			{
 				"进行重型、特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -8692,17 +6883,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡2-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 203
+					}
+				},
 				0
 			},
 			{
 				"进行重型、特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -8731,7 +6938,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"收藏解锁",
-				nil,
+				{
+					"COLLECTSHIP",
+					{
+						shipGroupId = 20306
+					}
+				},
 				0
 			}
 		}
@@ -8769,17 +6981,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡8-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 801
+					}
+				},
 				0
 			},
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -8817,17 +7045,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡8-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 801
+					}
+				},
 				0
 			},
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -8856,17 +7100,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡1-4",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 104
+					}
+				},
 				0
 			},
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -8895,17 +7155,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡1-4",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 104
+					}
+				},
 				0
 			},
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -8934,12 +7210,23 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -8968,17 +7255,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡5-2",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 502
+					}
+				},
 				0
 			},
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -9016,12 +7319,23 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -9050,17 +7364,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡2-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 203
+					}
+				},
 				0
 			},
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -9089,17 +7419,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡2-4",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 204
+					}
+				},
 				0
 			},
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -9128,7 +7474,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：铁血、音符&誓言",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -9157,7 +7505,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -9186,12 +7540,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			},
 			{
 				"限时活动：凛冬王冠",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -9229,17 +7591,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡2-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 201
+					}
+				},
 				0
 			},
 			{
 				"进行特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -9268,17 +7646,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡4-4",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 404
+					}
+				},
 				0
 			},
 			{
 				"进行特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -9307,12 +7701,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：闹腾嬉戏东煌春节",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行轻型、特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -9341,7 +7743,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -9370,17 +7778,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡6-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 603
+					}
+				},
 				0
 			},
 			{
 				"进行特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -9409,12 +7833,23 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"进行特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -9443,12 +7878,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			},
 			{
 				"限时活动：凛冬王冠",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -9477,7 +7920,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：神圣的悲喜剧",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -9506,7 +7951,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -9535,17 +7986,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡4-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 403
+					}
+				},
 				0
 			},
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -9574,17 +8041,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡4-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 403
+					}
+				},
 				0
 			},
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -9613,7 +8096,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -9651,7 +8140,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -9689,7 +8184,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -9718,7 +8219,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：苍红的回响",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -9756,7 +8259,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -9794,7 +8303,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -9823,7 +8338,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -9852,7 +8373,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡10-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 1001
+					}
+				},
 				0
 			}
 		}
@@ -9881,7 +8407,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：墨染的钢铁之花",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -9910,12 +8438,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"月度签到",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -9944,7 +8480,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡10-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 1001
+					}
+				},
 				0
 			}
 		}
@@ -9973,7 +8514,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -10002,7 +8549,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：朴的可爱<怪奇>生物图鉴",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -10040,7 +8589,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"收藏解锁",
-				nil,
+				{
+					"COLLECTSHIP",
+					{
+						shipGroupId = 30105
+					}
+				},
 				0
 			}
 		}
@@ -10069,12 +8623,19 @@ pg.ship_data_group = {
 		description = {
 			{
 				"作战档案：红染的参访者",
-				nil,
+				{
+					"LEVEL"
+				},
 				0
 			},
 			{
 				"核心兑换获得",
-				nil,
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
 				0
 			}
 		}
@@ -10103,7 +8664,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：浮樱影华",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -10132,7 +8695,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡8-2",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 802
+					}
+				},
 				0
 			}
 		}
@@ -10161,7 +8729,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡8-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 801
+					}
+				},
 				0
 			}
 		}
@@ -10199,12 +8772,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"月度签到",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -10233,12 +8814,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"月度签到",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -10267,12 +8856,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"月度签到",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -10301,12 +8898,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"月度签到",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -10342,7 +8947,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -10371,7 +8982,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡4-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 403
+					}
+				},
 				0
 			}
 		}
@@ -10407,7 +9023,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡4-2",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 402
+					}
+				},
 				0
 			}
 		}
@@ -10436,7 +9057,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡6-4",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 604
+					}
+				},
 				0
 			}
 		}
@@ -10465,7 +9091,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：墨染的钢铁之花",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -10494,7 +9122,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：墨染的钢铁之花",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -10523,12 +9153,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：墨染的钢铁之花",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -10557,7 +9195,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"月度签到",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -10586,7 +9226,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"月度签到",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -10615,7 +9257,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：浮樱影华",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -10653,7 +9297,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡3-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 303
+					}
+				},
 				0
 			}
 		}
@@ -10691,7 +9340,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡4-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 401
+					}
+				},
 				0
 			}
 		}
@@ -10720,7 +9374,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：归来与新生",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -10749,7 +9405,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：归来与新生",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -10778,12 +9436,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：红染的参访者",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -10812,7 +9478,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -10841,7 +9513,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -10879,7 +9557,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：归来与新生",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -10917,7 +9597,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -10946,12 +9632,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：红染的参访者",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -10980,7 +9674,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：苍红的回响",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -11009,12 +9705,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			},
 			{
 				"月度签到",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -11043,7 +9747,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡9-4",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 904
+					}
+				},
 				0
 			}
 		}
@@ -11072,7 +9781,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：墨染的钢铁之花",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -11101,7 +9812,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：墨染的钢铁之花",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -11130,7 +9843,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -11159,7 +9878,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡7-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 703
+					}
+				},
 				0
 			}
 		}
@@ -11197,7 +9921,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：浮樱影华",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -11235,7 +9961,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡8-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 801
+					}
+				},
 				0
 			}
 		}
@@ -11273,12 +10004,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			},
 			{
 				"限时活动：电量支援计划",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -11316,7 +10055,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡11-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 1103
+					}
+				},
 				0
 			}
 		}
@@ -11354,7 +10098,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡10-4",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 1004
+					}
+				},
 				0
 			}
 		}
@@ -11383,7 +10132,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：苍红的回响",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -11421,12 +10172,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			},
 			{
 				"限时活动：红染的参访者",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -11455,12 +10214,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：红染的参访者",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -11489,7 +10256,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：墨染的钢铁之花",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -11518,7 +10287,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡11-2",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 1102
+					}
+				},
 				0
 			}
 		}
@@ -11547,7 +10321,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：浮樱影华",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -11585,7 +10361,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡3-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 303
+					}
+				},
 				0
 			}
 		}
@@ -11623,7 +10404,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡3-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 303
+					}
+				},
 				0
 			}
 		}
@@ -11652,7 +10438,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -11681,7 +10473,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -11710,7 +10508,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡5-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 501
+					}
+				},
 				0
 			}
 		}
@@ -11739,7 +10542,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡8-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 803
+					}
+				},
 				0
 			}
 		}
@@ -11768,7 +10576,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：苍红的回响",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -11797,12 +10607,23 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"进行重型、特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -11831,7 +10652,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行重型、特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -11860,7 +10687,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡8-4",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 804
+					}
+				},
 				0
 			}
 		}
@@ -11889,7 +10721,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡12-4",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 1204
+					}
+				},
 				0
 			}
 		}
@@ -11918,7 +10755,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：墨染的钢铁之花",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -11947,7 +10786,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：归来与新生",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -11976,7 +10817,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：墨染的钢铁之花",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -12005,12 +10848,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			},
 			{
 				"限时活动：一周年登录活动",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -12039,7 +10890,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：港区逃离大作战",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -12068,7 +10921,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：苍红的回响",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -12097,7 +10952,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：归来与新生",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -12135,7 +10992,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡6-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 603
+					}
+				},
 				0
 			}
 		}
@@ -12173,7 +11035,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡6-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 603
+					}
+				},
 				0
 			}
 		}
@@ -12211,12 +11078,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：红染的参访者",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -12254,12 +11129,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：红染的参访者",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -12288,7 +11171,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：墨染的钢铁之花",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -12317,7 +11202,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：墨染的钢铁之花",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -12346,7 +11233,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：苍红的回响",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -12375,7 +11264,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：浮樱影华",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -12404,7 +11295,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡12-2",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 1202
+					}
+				},
 				0
 			}
 		}
@@ -12433,7 +11329,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡12-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 1203
+					}
+				},
 				0
 			}
 		}
@@ -12462,7 +11363,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡7-4",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 704
+					}
+				},
 				0
 			}
 		}
@@ -12500,7 +11406,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡2-2",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 202
+					}
+				},
 				0
 			}
 		}
@@ -12529,7 +11440,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：斯图尔特的硝烟",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -12558,7 +11471,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：浮樱影华",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -12587,7 +11502,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡3-4",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 304
+					}
+				},
 				0
 			}
 		}
@@ -12616,7 +11536,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡3-4",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 304
+					}
+				},
 				0
 			}
 		}
@@ -12645,7 +11570,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：港区逃离大作战",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -12674,7 +11601,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：激奏的Polaris",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -12712,7 +11641,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡3-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 301
+					}
+				},
 				0
 			}
 		}
@@ -12750,7 +11684,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡3-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 301
+					}
+				},
 				0
 			}
 		}
@@ -12779,12 +11718,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：红染的参访者",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -12813,12 +11760,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"作战档案：红染的参访者",
-				nil,
+				{
+					"LEVEL"
+				},
 				0
 			},
 			{
 				"进行特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -12847,7 +11802,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -12876,7 +11837,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -12905,7 +11872,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时建造",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -12934,7 +11903,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -12963,7 +11938,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时建造",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -12992,7 +11969,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -13021,7 +12004,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时建造",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -13050,7 +12035,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：墨染的钢铁之花",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -13079,7 +12066,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"隐藏：找到茗的肉球印了吗？",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -13117,12 +12106,22 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡5-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 501
+					}
+				},
 				0
 			}
 		}
@@ -13151,7 +12150,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：峡湾间的星辰",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -13180,12 +12181,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"月度签到",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -13214,12 +12223,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：异色格",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -13248,7 +12265,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：异色格",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -13277,7 +12296,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：异色格",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -13315,12 +12336,23 @@ pg.ship_data_group = {
 		description = {
 			{
 				"推荐探索关卡10-1",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 1001
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -13349,12 +12381,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：异色格",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -13383,12 +12423,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：异色格",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -13417,7 +12465,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：铁血、音符&誓言",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -13446,12 +12496,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：异色格",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -13480,17 +12538,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡5-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 503
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -13528,17 +12602,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡5-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 503
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -13576,17 +12666,33 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"推荐探索关卡5-3",
-				nil,
+				{
+					"LEVEL",
+					{
+						chapterid = 503
+					}
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -13624,7 +12730,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"收藏解锁",
-				nil,
+				{
+					"COLLECTSHIP",
+					{
+						shipGroupId = 40204
+					}
+				},
 				0
 			}
 		}
@@ -13653,12 +12764,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			},
 			{
 				"限时活动：异色格",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -13687,12 +12806,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			},
 			{
 				"限时活动：围剿斯佩伯爵",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -13721,12 +12848,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：异色格",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -13755,12 +12890,23 @@ pg.ship_data_group = {
 		description = {
 			{
 				"荣誉勋章兑换（概率刷新）",
-				nil,
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
 				0
 			},
 			{
 				"进行重型、特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -13789,7 +12935,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：激奏的Polaris",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -13818,12 +12966,19 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：异色格",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"核心兑换获得",
-				nil,
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
 				0
 			}
 		}
@@ -13852,7 +13007,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：异色格",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -13881,7 +13038,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：铁血、音符&誓言",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -13910,12 +13069,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：异色格",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行重型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -13944,12 +13111,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：异色格",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -13978,7 +13153,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：港区逃离大作战",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -14007,12 +13184,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：异色格",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -14041,7 +13226,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：铁血、音符&誓言",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -14070,7 +13257,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -14099,7 +13292,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时建造",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -14128,7 +13323,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：最重要的宝物",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -14157,7 +13354,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时建造",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -14186,7 +13385,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：铁血、音符&誓言",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -14215,12 +13416,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：异色格",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行特型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -14249,7 +13458,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：鞍山的绘图教室",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -14278,7 +13489,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：抚顺的大冒险",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -14307,12 +13520,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：新春限时建造",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -14341,12 +13562,20 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：新春限时建造",
-				nil,
+				{
+					""
+				},
 				0
 			},
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -14375,7 +13604,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -14413,7 +13648,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -14451,7 +13692,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -14480,7 +13727,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：神圣的悲喜剧",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -14509,7 +13758,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：神圣的悲喜剧",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -14538,7 +13789,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：神圣的悲喜剧",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -14567,7 +13820,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：神圣的悲喜剧",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -14596,7 +13851,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：神圣的悲喜剧",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -14625,7 +13882,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：神圣的悲喜剧",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -14654,7 +13913,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：再诞·曙光",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -14692,7 +13953,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：光与影的鸢尾之华",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -14721,7 +13984,13 @@ pg.ship_data_group = {
 		description = {
 			{
 				"进行轻型舰建造",
-				nil,
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
 				0
 			}
 		}
@@ -14750,7 +14019,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：光与影的鸢尾之华",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -14779,7 +14050,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：光与影的鸢尾之华",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -14817,7 +14090,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：光与影的鸢尾之华",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -14846,7 +14121,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：光与影的鸢尾之华",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -14884,7 +14161,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：光与影的鸢尾之华",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -14913,7 +14192,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：光与影的鸢尾之华",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -14942,7 +14223,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：光与影的鸢尾之华",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -14971,7 +14254,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：光与影的鸢尾之华",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15000,7 +14285,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：激奏的Polaris",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15029,7 +14316,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：异次元的访客",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15058,7 +14347,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：异次元的访客",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15087,7 +14378,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：异次元的访客",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15116,7 +14409,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：异次元的访客",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15145,7 +14440,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：异次元的访客",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15174,7 +14471,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：异次元的访客",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15203,7 +14502,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：异次元的访客",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15232,7 +14533,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：异次元的访客",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15261,7 +14564,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：电量支援计划",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15290,7 +14595,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：电量支援计划",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15319,7 +14626,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：梦幻的交汇",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15348,7 +14657,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：梦幻的交汇",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15377,7 +14688,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：梦幻的交汇",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15406,7 +14719,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：梦幻的交汇",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15435,7 +14750,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：梦幻的交汇",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15464,7 +14781,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：梦幻的交汇",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15493,7 +14812,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：虚拟链接的共时性",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15522,7 +14843,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：虚拟链接的共时性",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15551,7 +14874,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：虚拟链接的共时性",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15580,7 +14905,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：虚拟链接的共时性",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15609,7 +14936,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：虚拟与真实的双向镜",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15638,7 +14967,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：虚拟与真实的双向镜",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15667,7 +14998,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：虚拟与真实的双向镜",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15696,7 +15029,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：虚拟与真实的双向镜",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15725,7 +15060,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：虚拟与真实的双向镜",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15754,7 +15091,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：虚拟与真实的双向镜",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15783,7 +15122,9 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限时活动：虚拟与真实的双向镜",
-				nil,
+				{
+					""
+				},
 				0
 			}
 		}
@@ -15812,7 +15153,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"科研开发",
-				nil,
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 29901
+					}
+				},
 				0
 			}
 		}
@@ -15841,7 +15187,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"科研开发",
-				nil,
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 29902
+					}
+				},
 				0
 			}
 		}
@@ -15870,7 +15221,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"科研开发",
-				nil,
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 39901
+					}
+				},
 				0
 			}
 		}
@@ -15899,7 +15255,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"科研开发",
-				nil,
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 39902
+					}
+				},
 				0
 			}
 		}
@@ -15928,7 +15289,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"科研开发",
-				nil,
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 49901
+					}
+				},
 				0
 			}
 		}
@@ -15957,7 +15323,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"科研开发",
-				nil,
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 89901
+					}
+				},
 				0
 			}
 		}
@@ -15986,7 +15357,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"科研开发",
-				nil,
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 19901
+					}
+				},
 				0
 			}
 		}
@@ -16015,7 +15391,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"科研开发",
-				nil,
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 19902
+					}
+				},
 				0
 			}
 		}
@@ -16044,7 +15425,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"科研开发",
-				nil,
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 39903
+					}
+				},
 				0
 			}
 		}
@@ -16073,7 +15459,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"科研开发",
-				nil,
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 39904
+					}
+				},
 				0
 			}
 		}
@@ -16102,7 +15493,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"科研开发",
-				nil,
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 49902
+					}
+				},
 				0
 			}
 		}
@@ -16131,7 +15527,12 @@ pg.ship_data_group = {
 		description = {
 			{
 				"科研开发",
-				nil,
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 99901
+					}
+				},
 				0
 			}
 		}
@@ -16526,3 +15927,5 @@ pg.ship_data_group = {
 		20012
 	}
 }
+
+return

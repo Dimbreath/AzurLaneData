@@ -7,31 +7,31 @@ slot0.ON_AUTO = "ChapterPreCombatMediator:ON_AUTO"
 slot0.ON_SUB_AUTO = "ChapterPreCombatMediator:ON_SUB_AUTO"
 
 function slot0.register(slot0)
-	slot0:bind(uv0.ON_SWITCH_SHIP, function (slot0, slot1, slot2)
+	slot0:bind(slot0.ON_SWITCH_SHIP, function (slot0, slot1, slot2)
 		slot3 = getProxy(ChapterProxy)
-		slot4 = slot3:getActiveChapter()
 
-		slot4.fleet:switchShip(slot1, slot2)
-		slot3:updateChapter(slot4, ChapterConst.DirtyFleet)
+		slot3:getActiveChapter().fleet.switchShip(slot5, slot1, slot2)
+		slot3:updateChapter(slot3.getActiveChapter(), ChapterConst.DirtyFleet)
 	end)
-	slot0:bind(uv0.ON_AUTO, function (slot0, slot1)
-		uv0:onAutoBtn(slot1)
+	slot0:bind(slot0.ON_AUTO, function (slot0, slot1)
+		slot0:onAutoBtn(slot1)
 	end)
-	slot0:bind(uv0.ON_SUB_AUTO, function (slot0, slot1)
-		uv0:onAutoSubBtn(slot1)
+	slot0:bind(slot0.ON_SUB_AUTO, function (slot0, slot1)
+		slot0:onAutoSubBtn(slot1)
 	end)
-	slot0:bind(uv0.ON_START, function (slot0)
+	slot0:bind(slot0.ON_START, function (slot0)
 		slot1 = getProxy(ChapterProxy):getActiveChapter()
-		slot2 = slot1.fleet
-		slot3 = slot1:getStageId(slot2.line.row, slot2.line.column)
+		slot3 = slot1:getStageId(slot1.fleet.line.row, slot1.fleet.line.column)
 
 		seriesAsync({
 			function (slot0)
-				for slot5, slot6 in pairs(uv0.ships) do
-					table.insert({}, slot6)
+				slot1 = {}
+
+				for slot5, slot6 in pairs(slot0.ships) do
+					table.insert(slot1, slot6)
 				end
 
-				if Fleet.EnergyCheck(slot1, uv0.name, slot0) then
+				if Fleet.EnergyCheck(slot1, slot0.name, slot0) then
 					slot0()
 				end
 			end,
@@ -47,20 +47,20 @@ function slot0.register(slot0)
 				end
 			end,
 			function (slot0)
-				uv0:sendNotification(GAME.BEGIN_STAGE, {
+				slot0:sendNotification(GAME.BEGIN_STAGE, {
 					system = SYSTEM_SCENARIO,
-					stageId = uv1
+					stageId = slot0.sendNotification
 				})
 			end
 		})
 	end)
-	slot0:bind(uv0.ON_OP, function (slot0, slot1)
-		uv0:sendNotification(GAME.CHAPTER_OP, slot1)
+	slot0:bind(slot0.ON_OP, function (slot0, slot1)
+		slot0:sendNotification(GAME.CHAPTER_OP, slot1)
 	end)
 
 	slot1 = getProxy(ChapterProxy)
 
-	slot0.viewComponent:setSubFlag(slot1.getSubAidFlag(slot1:getActiveChapter()))
+	slot0.viewComponent:setSubFlag(slot1.getSubAidFlag(slot2))
 	slot0.viewComponent:setPlayerInfo(getProxy(PlayerProxy):getRawData())
 	slot0:display()
 end
@@ -100,7 +100,7 @@ function slot0.handleNotification(slot0, slot1)
 				hideNo = true,
 				content = i18n("battle_preCombatMediator_timeout"),
 				onYes = function ()
-					uv0.viewComponent:emit(BaseUI.ON_CLOSE)
+					slot0.viewComponent:emit(BaseUI.ON_CLOSE)
 				end,
 				weight = LayerWeightConst.SECOND_LAYER
 			})
@@ -111,7 +111,7 @@ function slot0.handleNotification(slot0, slot1)
 end
 
 function slot0.display(slot0)
-	slot0.viewComponent:updateChapter(getProxy(ChapterProxy):getActiveChapter())
+	slot0.viewComponent:updateChapter(getProxy(ChapterProxy).getActiveChapter(slot1))
 end
 
 return slot0

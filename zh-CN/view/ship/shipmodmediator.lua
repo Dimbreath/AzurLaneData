@@ -8,13 +8,13 @@ slot0.LOADEND = "ShipModMediator:LOADEND"
 function slot0.register(slot0)
 	slot1 = getProxy(BayProxy)
 
-	slot0.viewComponent:setShipVOs(slot1:getRawData())
-	slot0.viewComponent:setShip(slot1:getShipById(slot0.contextData.shipId))
-	slot0:bind(uv0.ON_SELECT_MATERIAL_SHIPS, function (slot0)
-		slot1 = uv0:fileterShips(ShipStatus.FILTER_SHIPS_FLAGS_1)
+	slot0.viewComponent:setShipVOs(slot2)
+	slot0.viewComponent:setShip(slot3)
+	slot0:bind(slot0.ON_SELECT_MATERIAL_SHIPS, function (slot0)
+		slot1 = slot0:fileterShips(ShipStatus.FILTER_SHIPS_FLAGS_1)
 
-		table.insert(slot1, 1, uv1.contextData.shipId)
-		uv1:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
+		table.insert(slot1, 1, slot1.contextData.shipId)
+		slot1:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			selectedMin = 0,
 			skipSelect = true,
 			blockLock = true,
@@ -24,9 +24,9 @@ function slot0.register(slot0)
 			mode = DockyardScene.MODE_MOD,
 			onShip = Ship.canDestroyShip,
 			ignoredIds = slot1,
-			selectedIds = uv1.contextData.materialShipIds,
+			selectedIds = slot1.contextData.materialShipIds,
 			onSelected = function (slot0)
-				uv0.contextData.materialShipIds = slot0
+				slot0.contextData.materialShipIds = slot0
 			end,
 			sortData = {
 				Asc = true,
@@ -34,26 +34,24 @@ function slot0.register(slot0)
 			}
 		})
 	end)
-	slot0:bind(uv0.ON_AUTO_SELECT_SHIP, function (slot0)
-		slot1 = uv0
+	slot0:bind(slot0.ON_AUTO_SELECT_SHIP, function (slot0)
+		if #slot0:autoSelectShip() > 0 then
+			slot0.contextData.materialShipIds = slot1
 
-		if #slot1:autoSelectShip() > 0 then
-			uv0.contextData.materialShipIds = slot1
-
-			uv0.viewComponent:initSelectedShips()
-			uv0.viewComponent:initAttrs()
+			slot0.viewComponent:initSelectedShips()
+			slot0.viewComponent:initAttrs()
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("without_selected_ship"))
 		end
 	end)
-	slot0:bind(uv0.MOD_SHIP, function (slot0, slot1)
-		uv0:sendNotification(GAME.MOD_SHIP, {
+	slot0:bind(slot0.MOD_SHIP, function (slot0, slot1)
+		slot0:sendNotification(GAME.MOD_SHIP, {
 			shipId = slot1,
-			shipIds = uv0.contextData.materialShipIds
+			shipIds = slot0.contextData.materialShipIds
 		})
 	end)
-	slot0:bind(uv0.ON_SKILL, function (slot0, slot1, slot2)
-		uv0:addSubLayers(Context.New({
+	slot0:bind(slot0.ON_SKILL, function (slot0, slot1, slot2)
+		slot0:addSubLayers(Context.New({
 			mediator = SkillInfoMediator,
 			viewComponent = SkillInfoLayer,
 			data = {
@@ -62,8 +60,8 @@ function slot0.register(slot0)
 			}
 		}))
 	end)
-	slot0:bind(uv0.LOADEND, function (slot0, slot1)
-		uv0:sendNotification(uv1.LOADEND, slot1)
+	slot0:bind(slot0.LOADEND, function (slot0, slot1)
+		slot0:sendNotification(slot1.LOADEND, slot1)
 	end)
 end
 
@@ -72,26 +70,32 @@ function slot0.autoSelectShip(slot0)
 	slot2 = slot0.contextData.materialShipIds or {}
 	slot3 = getProxy(BayProxy):fileterShips(ShipStatus.FILTER_SHIPS_FLAGS_2)
 
-	for slot10, slot11 in pairs(getProxy(BayProxy):getRawData()) do
-		if function (slot0)
-			return slot0.level == 1 and slot0:getRarity() <= ShipRarity.Gray and slot0:GetLockState() ~= Ship.LOCK_STATE_LOCK and not table.contains(uv0, slot0.id) and uv1.id ~= slot0.id and not table.contains(uv2, slot0.id)
-		end(slot11) then
-			table.insert({}, slot11)
+	function slot4(slot0)
+		return slot0.level == 1 and slot0:getRarity() <= ShipRarity.Gray and slot0:GetLockState() ~= Ship.LOCK_STATE_LOCK and not table.contains(slot0, slot0.id) and slot1.id ~= slot0.id and not table.contains(slot2, slot0.id)
+	end
+
+	slot6 = {}
+
+	for slot10, slot11 in pairs(slot5) do
+		if slot4(slot11) then
+			table.insert(slot6, slot11)
 		end
 	end
 
 	slot9 = pg.ship_data_by_type[slot1:getConfig("type")].strengthen_choose_type
 
 	table.sort(slot6, function (slot0, slot1)
-		if (slot0:isSameKind(uv0) and 1 or 0) == (slot1:isSameKind(uv0) and 1 or 0) then
-			return table.indexof(uv1, slot0:getConfig("type")) < table.indexof(uv1, slot1:getConfig("type"))
+		if ((slot0:isSameKind(slot0) and 1) or 0) == ((slot1:isSameKind(slot0) and 1) or 0) then
+			return table.indexof(slot1, slot4) < table.indexof(slot1, slot1:getConfig("type"))
 		else
 			return slot3 < slot2
 		end
 	end)
 
+	slot10 = {}
+
 	for slot14, slot15 in pairs(slot2) do
-		table.insert({}, slot5[slot15])
+		table.insert(slot10, slot5[slot15])
 	end
 
 	for slot14, slot15 in ipairs(slot6) do
@@ -99,15 +103,15 @@ function slot0.autoSelectShip(slot0)
 			break
 		end
 
-		for slot21, slot22 in pairs(ShipModLayer.getModExpAdditions(Clone(slot1), slot10)) do
+		for slot21, slot22 in pairs(slot17) do
 			slot16:addModAttrExp(slot21, slot22)
 		end
 
-		for slot23, slot24 in pairs(ShipModLayer.getModExpAdditions(slot16, {
-			slot15
-		})) do
+		slot19 = {}
+
+		for slot23, slot24 in pairs(slot18) do
 			if slot24 > 0 then
-				table.insert({}, {
+				table.insert(slot19, {
 					attrName = slot23,
 					value = slot24
 				})
@@ -115,7 +119,7 @@ function slot0.autoSelectShip(slot0)
 		end
 
 		if not _.all(slot19, function (slot0)
-			return uv0:leftModAdditionPoint(slot0.attrName) == 0
+			return slot0:leftModAdditionPoint(slot0.attrName) == 0
 		end) then
 			table.insert(slot10, slot15)
 		end
@@ -144,8 +148,10 @@ function slot0.handleNotification(slot0, slot1)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_shipModLayer_modSuccess"))
 
 		if table.getCount(slot3.equipments) > 0 then
+			slot4 = {}
+
 			for slot8, slot9 in pairs(slot3.equipments) do
-				table.insert({}, slot9)
+				table.insert(slot4, slot9)
 			end
 
 			slot0:addSubLayers(Context.New({
@@ -157,7 +163,7 @@ function slot0.handleNotification(slot0, slot1)
 			}))
 		end
 	elseif slot2 == ShipMainMediator.NEXTSHIP then
-		slot0.viewComponent:setShip(getProxy(BayProxy):getShipById(slot3))
+		slot0.viewComponent:setShip(getProxy(BayProxy).getShipById(slot4, slot3))
 	end
 end
 

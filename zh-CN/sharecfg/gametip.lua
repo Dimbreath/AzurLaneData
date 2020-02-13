@@ -1,8 +1,4 @@
 pg = pg or {}
-slot3.windowSize = {
-	x = 836,
-	y = 740
-}
 pg.gametip = {
 	ad_0 = {
 		tip = "",
@@ -8301,6 +8297,10 @@ $3]],
 				x = 836,
 				y = 720
 			},
+			windowSize = {
+				x = 836,
+				y = 740
+			},
 			windowPos = {
 				y = 15
 			},
@@ -12532,3 +12532,5 @@ TIPS：
 		key = "LanternRiddle_wait_time_tip"
 	}
 }
+
+return

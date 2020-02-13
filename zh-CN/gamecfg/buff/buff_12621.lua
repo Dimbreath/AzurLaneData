@@ -70,9 +70,7 @@ return {
 					}
 				},
 				centerPosFun = function (slot0)
-					slot1 = slot0 * 3 + ys.Battle.BattleConfig.SHIELD_CENTER_CONST
-
-					return Vector3(math.sin(slot1) * 5, -1.5, math.cos(slot1) * 3.5)
+					return Vector3(math.sin(slot1) * 5, -1.5, math.cos(slot0 * 3 + ys.Battle.BattleConfig.SHIELD_CENTER_CONST) * 3.5)
 				end,
 				rotationFun = function (slot0)
 					return Vector3(0, slot0 * ys.Battle.BattleConfig.SHIELD_ROTATE_CONST - 90, 0)
