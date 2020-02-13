@@ -88,7 +88,7 @@ function slot2(slot0, slot1, slot2)
 	slot5 = 0
 	slot3 = slot3(slot4, slot5)
 	slot2 = slot3
-	slot3 = uv0
+	slot3 = slot0
 	slot4 = slot0
 	slot5 = slot1
 	slot6 = slot2
@@ -105,7 +105,7 @@ function slot2(slot0, slot1, slot2)
 	slot5 = 0
 	slot3 = slot3(slot4, slot5)
 	slot2 = slot3
-	slot3 = uv0
+	slot3 = slot0
 	slot4 = slot0
 	slot5 = slot1
 	slot6 = -slot2
@@ -228,16 +228,17 @@ function slot2(slot0)
 			slot11 = DROP_TYPE_NPC_SHIP
 
 			if slot10 == slot11 then
-				slot10.type = slot8.type
-				slot10.id = slot8.number or slot8.count
 				slot9 = {
-					count = 1
+					count = 1,
+					type = slot8.type,
+					id = slot8.number or slot8.count
 				}
 			else
-				slot10.type = slot8.type
-				slot10.id = slot8.id
-				slot10.count = slot8.number or slot8.count
-				slot9 = {}
+				slot9 = {
+					type = slot8.type,
+					id = slot8.id,
+					count = slot8.number or slot8.count
+				}
 			end
 		end
 

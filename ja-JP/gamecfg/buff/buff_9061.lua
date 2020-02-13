@@ -1,16 +1,3 @@
-slot2.trigger = {
-	"onUpdate"
-}
-slot2.arg_list = {
-	buff_id = 9062,
-	target = "TargetSelf",
-	time = 20
-}
-slot1[1] = {
-	type = "BattleBuffAddBuff"
-}
-slot0.effect_list = {}
-
 return {
 	desc_get = "每隔20秒，有30.0%(满级60.0%)的概率发动，提高自身20.0%(满级40.0%)炮击伤害，持续10秒",
 	name = "火力全开-LV8",
@@ -22,5 +9,18 @@ return {
 	stack = 1,
 	color = "red",
 	icon = 9061,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onUpdate"
+			},
+			arg_list = {
+				buff_id = 9062,
+				target = "TargetSelf",
+				time = 20
+			}
+		}
+	}
 }

@@ -1,10 +1,8 @@
-slot0 = class("SetCommanderPrefabFleetNameCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("SetCommanderPrefabFleetNameCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot2 = slot1:getBody()
 	slot5 = slot2.onFailed
 
-	if getProxy(CommanderProxy):getPrefabFleetById(slot2.id):getName() == slot2.name or slot4 == "" then
+	if getProxy(CommanderProxy):getPrefabFleetById(slot3):getName() == slot2.name or slot4 == "" then
 		if slot5 then
 			slot5()
 		end
@@ -39,17 +37,17 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	slot12.id = slot3
-	slot12.name = slot4
-
-	pg.ConnectionMgr.GetInstance():Send(25024, {}, 25025, function (slot0)
+	pg.ConnectionMgr.GetInstance():Send(25024, {
+		id = slot3,
+		name = slot4
+	}, 25025, function (slot0)
 		if slot0.result == 0 then
-			getProxy(CommanderProxy):updatePrefabFleetName(uv0, uv1)
-			uv2:sendNotification(GAME.SET_COMMANDER_PREFAB_NAME_DONE)
+			getProxy(CommanderProxy):updatePrefabFleetName(slot0, getProxy(CommanderProxy).updatePrefabFleetName)
+			getProxy(CommanderProxy):sendNotification(GAME.SET_COMMANDER_PREFAB_NAME_DONE)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("commander_prefab_rename_success"))
 		else
-			if uv3 then
-				uv3()
+			if slot3 then
+				slot3()
 			end
 
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result])
@@ -57,4 +55,4 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-return slot0
+return class("SetCommanderPrefabFleetNameCommand", pm.SimpleCommand)

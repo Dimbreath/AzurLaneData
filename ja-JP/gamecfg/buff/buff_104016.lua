@@ -1,5 +1,3 @@
-slot0.effect_list = {}
-
 return {
 	time = 3,
 	name = "爱碳光波-特效",
@@ -9,5 +7,6 @@ return {
 	stack = 1,
 	id = 104015,
 	icon = 104010,
-	last_effect = "AntiSubArea_ai"
+	last_effect = "AntiSubArea_ai",
+	effect_list = {}
 }

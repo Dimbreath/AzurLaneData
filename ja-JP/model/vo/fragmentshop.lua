@@ -15,9 +15,10 @@ function slot0.update(slot0, slot1, slot2)
 
 	if slot0.id and slot0.id > 0 and slot0:getConfigTable() then
 		for slot7, slot8 in ipairs(slot0:getConfig("blueprint_shop_goods")) do
-			slot12.shop_id = slot8
-			slot12.buy_count = slot3[slot8] or 0
-			slot0.goods[slot8] = uv0.New({}, slot0.GoodsType)
+			slot0.goods[slot8] = slot0.New({
+				shop_id = slot8,
+				buy_count = slot3[slot8] or 0
+			}, slot0.GoodsType)
 		end
 	end
 end

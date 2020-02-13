@@ -66,10 +66,7 @@ function slot0.updateCharge(slot0, slot1, slot2, slot3)
 	slot0.tipText.text = ""
 
 	setText(slot0.desc, "")
-
-	slot6 = (table.contains(slot3, slot1.id) or slot1:firstPayDouble()) and 4 or slot1:getConfig("tag")
-
-	setActive(slot0.tag, slot6 > 0)
+	setActive(slot0.tag, (((table.contains(slot3, slot1.id) or slot1:firstPayDouble()) and 4) or slot1:getConfig("tag")) > 0)
 
 	if slot6 > 0 then
 		for slot10, slot11 in ipairs(slot0.tags) do
@@ -100,28 +97,12 @@ function slot0.updateCharge(slot0, slot1, slot2, slot3)
 
 	if slot1:isMonthCard() then
 		if slot2:getCardById(VipCard.MONTH) and not slot11:isExpire() then
-			slot14 = math.floor((slot11:getLeftDate() - pg.TimeMgr.GetInstance():GetServerTime()) / 86400)
-
-			if not slot1:getConfig("limit_arg") then
-				slot15 = 0
-			end
-
-			slot16 = setActive
-			slot17 = slot0.mask
-
-			if slot15 >= slot14 then
-				slot18 = false
-			else
-				slot18 = true
-			end
-
-			slot16(slot17, slot18)
-			setText(slot0.limitText, i18n("charge_month_card_lefttime_tip", slot14))
+			setActive(slot0.mask, (slot1:getConfig("limit_arg") or 0) < math.floor((slot11:getLeftDate() - pg.TimeMgr.GetInstance():GetServerTime()) / 86400))
+			setText(slot0.limitText, i18n("charge_month_card_lefttime_tip", math.floor((slot11.getLeftDate() - pg.TimeMgr.GetInstance().GetServerTime()) / 86400)))
 		end
 
-		setText(slot0.desc, string.gsub(slot1:getConfig("descrip"), "$1", slot4 and slot1:getConfig("gem") or slot1:getConfig("extra_gem")))
+		setText(slot0.desc, string.gsub(slot1:getConfig("descrip"), "$1", (slot4 and slot1:getConfig("gem")) or slot1:getConfig("extra_gem")))
 	elseif slot1:isGiftBox() then
-		-- Nothing
 	elseif slot1:isGem() then
 		setActive(slot0.tipTF, true)
 
@@ -133,7 +114,6 @@ function slot0.updateCharge(slot0, slot1, slot2, slot3)
 			setActive(slot0.tipTF, false)
 		end
 	elseif slot1:isItemBox() then
-		-- Nothing
 	end
 
 	slot0.resCount.text = "x" .. slot1:getConfig("gem")
@@ -142,7 +122,7 @@ function slot0.updateCharge(slot0, slot1, slot2, slot3)
 
 	LoadSpriteAsync("chargeicon/" .. slot1:getConfig("picture"), function (slot0)
 		if slot0 then
-			uv0.iconTF.sprite = slot0
+			slot0.iconTF.sprite = slot0
 		end
 	end)
 	setButtonEnabled(slot0.tr, not isActive(slot0.mask))
@@ -154,9 +134,10 @@ function slot0.updateGemItem(slot0, slot1, slot2)
 	setText(slot0.limitText, "")
 
 	slot0.tipText.text = ""
+	slot3 = slot1:getLimitCount()
 	slot4 = slot1.buyCount or 0
 
-	if slot1:getLimitCount() > 0 then
+	if slot3 > 0 then
 		setText(slot0.limitText, i18n("charge_limit_all", slot3 - slot4, slot3))
 		setActive(slot0.mask, slot3 <= slot4)
 	end
@@ -195,7 +176,7 @@ function slot0.updateGemItem(slot0, slot1, slot2)
 
 		LoadSpriteAsync(slot8.icon, function (slot0)
 			if slot0 then
-				uv0.iconTF.sprite = slot0
+				slot0.iconTF.sprite = slot0
 			end
 		end)
 	end
@@ -206,12 +187,14 @@ end
 function slot0.updateImport(slot0, slot1, slot2)
 	setActive(slot0.important, true)
 
-	for slot7, slot8 in ipairs(slot1) do
-		slot11.type = slot8[1]
-		slot11.id = slot8[2]
-		slot11.count = slot8[3]
+	slot3 = {}
 
-		table.insert({}, {})
+	for slot7, slot8 in ipairs(slot1) do
+		table.insert(slot3, {
+			type = slot8[1],
+			id = slot8[2],
+			count = slot8[3]
+		})
 	end
 
 	for slot7 = 1, slot0.grid.childCount, 1 do
@@ -233,41 +216,36 @@ function slot0.updateCountdown(slot0, slot1)
 
 	if slot1 then
 		slot3 = pg.TimeMgr.GetInstance()
-		slot2 = slot3:DiffDay(slot3:GetServerTime(), pg.TimeMgr.GetInstance():Table2ServerTime(slot1)) < 365
+
+		setActive(slot0.countDown, slot3:DiffDay(slot3:GetServerTime(), pg.TimeMgr.GetInstance():Table2ServerTime(slot1)) < 365)
+		slot4()
+
+		slot5 = pg.TimeMgr.GetInstance().Table2ServerTime(slot3, slot1)
+		slot0.updateTimer = Timer.New(function ()
+			if slot0 < slot0:GetServerTime() then
+				slot2()
+			end
+
+			if slot1 - slot0 < 0 then
+				slot1 = 0
+			end
+
+			if math.floor(slot1 / 86400) > 0 then
+				setText(slot3.countDownTm, i18n("skin_remain_time") .. slot2 .. i18n("word_date"))
+			elseif math.floor(slot1 / 3600) > 0 then
+				setText(slot3.countDownTm, i18n("skin_remain_time") .. slot3 .. i18n("word_hour"))
+			elseif math.floor(slot1 / 60) > 0 then
+				setText(slot3.countDownTm, i18n("skin_remain_time") .. slot4 .. i18n("word_minute"))
+			else
+				setText(slot3.countDownTm, i18n("skin_remain_time") .. slot1 .. i18n("word_second"))
+			end
+		end, 1, -1)
+
+		slot0.updateTimer:Start()
+		slot0.updateTimer.func()
+
+		return
 	end
-
-	setActive(slot0.countDown, slot2)
-	function ()
-		if uv0.updateTimer then
-			uv0.updateTimer:Stop()
-
-			uv0.updateTimer = nil
-		end
-	end()
-
-	slot5 = pg.TimeMgr.GetInstance():Table2ServerTime(slot1)
-	slot0.updateTimer = Timer.New(function ()
-		if uv1 < uv0:GetServerTime() then
-			uv2()
-		end
-
-		if uv1 - slot0 < 0 then
-			slot1 = 0
-		end
-
-		if math.floor(slot1 / 86400) > 0 then
-			setText(uv3.countDownTm, i18n("skin_remain_time") .. slot2 .. i18n("word_date"))
-		elseif math.floor(slot1 / 3600) > 0 then
-			setText(uv3.countDownTm, i18n("skin_remain_time") .. slot3 .. i18n("word_hour"))
-		elseif math.floor(slot1 / 60) > 0 then
-			setText(uv3.countDownTm, i18n("skin_remain_time") .. slot4 .. i18n("word_minute"))
-		else
-			setText(uv3.countDownTm, i18n("skin_remain_time") .. slot1 .. i18n("word_second"))
-		end
-	end, 1, -1)
-
-	slot0.updateTimer:Start()
-	slot0.updateTimer.func()
 end
 
 function slot0.destoryTimer(slot0)

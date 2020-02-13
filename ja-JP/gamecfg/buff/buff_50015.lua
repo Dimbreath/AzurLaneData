@@ -1,5 +1,3 @@
-slot0.effect_list = {}
-
 return {
 	time = 3,
 	name = "敌方维修舰维修特效",
@@ -9,5 +7,6 @@ return {
 	stack = 1,
 	id = 50015,
 	icon = 50010,
-	last_effect = "Health"
+	last_effect = "Health",
+	effect_list = {}
 }

@@ -10,11 +10,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.type = slot1.type or slot0.TYPE_SYSTEM
 
 	if slot0.type == slot0.TYPE_SYSTEM then
-		slot4.furniture_put_list = slot0:getSystemThemeFurnitures(getProxy(DormProxy):getData().level)
-
-		slot0:initTheme({
-			floor = 1
-		})
+		slot0:initTheme(slot4)
 
 		if slot0:isSameConfigId(slot0.furnitures) then
 			slot0:checkSystemTheme()
@@ -37,15 +33,17 @@ function slot0.isSameConfigId(slot0, slot1)
 end
 
 function slot0.checkSystemTheme(slot0)
+	slot1 = getProxy(DormProxy)
 	slot2 = {}
+	slot3 = {}
 
 	for slot7, slot8 in pairs(slot0.furnitruesByIds) do
-		if not getProxy(DormProxy):getFurniById(slot7) then
+		if not slot1:getFurniById(slot7) then
 			if slot8.parent ~= 0 then
-				slot11.pid = slot8.parent
-				slot11.id = slot7
-
-				table.insert({}, {})
+				table.insert(slot3, {
+					pid = slot8.parent,
+					id = slot7
+				})
 			elseif table.getCount(slot8.child) > 0 then
 				for slot12, slot13 in pairs(slot8.child) do
 					table.insert(slot2, slot12)
@@ -81,21 +79,23 @@ function slot0.initTheme(slot0, slot1)
 		slot8 = {}
 
 		for slot12, slot13 in ipairs(slot7.child) do
-			slot15.x = slot13.x
-			slot15.y = slot13.y
-			slot8[tonumber(slot13.id)] = {}
+			slot8[tonumber(slot13.id)] = {
+				x = slot13.x,
+				y = slot13.y
+			}
 		end
 
-		slot12.id = tonumber(slot7.id)
-		slot13.x = slot7.x
-		slot13.y = slot7.y
-		slot12.position = {}
-		slot12.dir = slot7.dir
-		slot12.child = slot8
-		slot12.parent = tonumber(slot7.parent)
-		slot12.floor = slot2
-
-		table.insert(slot0.furnitures, BackyardFurnitureVO.New({}))
+		table.insert(slot0.furnitures, BackyardFurnitureVO.New({
+			id = tonumber(slot7.id),
+			position = {
+				x = slot7.x,
+				y = slot7.y
+			},
+			dir = slot7.dir,
+			child = slot8,
+			parent = tonumber(slot7.parent),
+			floor = slot2
+		}))
 	end
 
 	slot0.furnitruesByIds = slot0:getThemeFurnitures(slot1)
@@ -110,25 +110,23 @@ function slot0.getThemeFurnitures(slot0, slot1)
 		if slot4[tonumber(slot9.id)] then
 			slot4[tonumber(slot9.id)].count = slot4[tonumber(slot9.id)].count + 1
 		else
-			slot11.id = tonumber(slot9.id)
 			slot4[tonumber(slot9.id)] = {
-				count = 1
+				count = 1,
+				id = tonumber(slot9.id)
 			}
 		end
 	end
 
-	slot5 = {}
-	slot8.furniture_put_list = slot1.furniture_put_list
-
 	table.insert(slot5, {
-		floor = 1
+		floor = 1,
+		furniture_put_list = slot1.furniture_put_list
 	})
 
-	slot7.lv = slot2
-	slot7.furniture_id_list = _.values(slot4)
-	slot7.furniture_put_list = slot5
-
-	return GetBackYardDataCommand.initFurnitures({})
+	return GetBackYardDataCommand.initFurnitures({
+		lv = slot2,
+		furniture_id_list = _.values(slot4),
+		furniture_put_list = {}
+	})
 end
 
 function slot0.bindConfigTable(slot0)
@@ -152,11 +150,15 @@ function slot0.isBought(slot0, slot1)
 end
 
 function slot0.getRemainFurIds(slot0, slot1)
-	for slot6, slot7 in pairs(slot0:getConfig("ids")) do
-		slot9.id = slot7
+	slot2 = {}
 
-		if not slot1[slot7] and Furniture.New({}):inTime() then
-			table.insert({}, slot7)
+	for slot6, slot7 in pairs(slot0:getConfig("ids")) do
+		slot8 = Furniture.New({
+			id = slot7
+		})
+
+		if not slot1[slot7] and slot8:inTime() then
+			table.insert(slot2, slot7)
 			print("id::" .. slot7)
 		end
 	end
@@ -166,7 +168,7 @@ end
 
 function slot0.getSystemThemeFurnitures(slot0, slot1)
 	pcall(function ()
-		uv0 = require("GameCfg.backyardTheme.theme_" .. uv1.id)
+		slot0 = require("GameCfg.backyardTheme.theme_" .. slot1.id)
 	end)
 
 	return _.select(nil or require("GameCfg.backyardTheme.theme_empty")["furnitures_" .. slot1] or {}, function (slot0)
@@ -176,9 +178,10 @@ end
 
 function slot0.isOccupyed(slot0, slot1, slot2)
 	slot3 = {}
+	slot4 = slot1.furnitures
 
-	for slot9, slot10 in pairs(slot0.furnitruesByIds) do
-		if slot1.furnitures[slot10.id] and slot11.floor ~= 0 and slot11.floor ~= slot2 then
+	for slot9, slot10 in pairs(slot5) do
+		if slot4[slot10.id] and slot11.floor ~= 0 and slot11.floor ~= slot2 then
 			return true
 		end
 	end
@@ -196,11 +199,12 @@ function slot0.getUsableFurnituresForFloor(slot0, slot1, slot2)
 		end
 	end
 
+	slot6 = {}
 	slot7 = {}
 
-	for slot11, slot12 in pairs(slot0.furnitruesByIds) do
+	for slot11, slot12 in pairs(slot5) do
 		if slot4[slot12.id] then
-			table.insert({}, slot12.id)
+			table.insert(slot6, slot12.id)
 
 			for slot17, slot18 in pairs(slot12.child) do
 				table.insert(slot6, slot17)
@@ -228,8 +232,10 @@ function slot0.getUsableFurnituresForFloor(slot0, slot1, slot2)
 end
 
 function slot0.isUsing(slot0, slot1)
+	slot2 = Clone(slot1.furnitures)
+
 	if slot1.wallPaper then
-		Clone(slot1.furnitures)[slot1.wallPaper.id] = slot1.wallPaper
+		slot2[slot1.wallPaper.id] = slot1.wallPaper
 	end
 
 	if slot1.floorPaper then
@@ -250,7 +256,7 @@ function slot0.isUsing(slot0, slot1)
 
 			slot11 = false
 
-			for slot15, slot16 in ipairs(slot1:getSameConfigIdFurnitrues(slot8.id)) do
+			for slot15, slot16 in ipairs(slot10) do
 				if slot16:isSame(slot8) then
 					slot11 = true
 
@@ -286,10 +292,9 @@ end
 function slot0.isOverTime(slot0)
 	if slot0.type == slot0.TYPE_SYSTEM then
 		return _.all(slot0:getConfig("ids"), function (slot0)
-			slot2.id = slot0
-			slot1 = Furniture.New({})
-
-			return not slot1:IsShopType() or not slot1:inTime()
+			return not Furniture.New({
+				id = slot0
+			}):IsShopType() or not slot1:inTime()
 		end)
 	end
 end
@@ -307,7 +312,9 @@ function slot0.isMatchSearchKey(slot0, slot1)
 		return true
 	end
 
-	if string.find(slot0:getDesc(), slot1) or string.find(slot0:getName(), slot1) then
+	slot3 = slot0:getName()
+
+	if string.find(slot0:getDesc(), slot1) or string.find(slot3, slot1) then
 		return true
 	end
 

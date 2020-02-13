@@ -9,15 +9,16 @@ function slot0.Entrance(slot0, slot1)
 		return
 	end
 
-	if not getProxy(MilitaryExerciseProxy):getSeasonInfo():canExercise() then
+	if not getProxy(MilitaryExerciseProxy).getSeasonInfo(slot3):canExercise() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("exercise_count_insufficient"))
 
 		return
 	end
 
 	slot5 = getProxy(PlayerProxy)
-	slot8, slot9 = nil
-	rivalVO = getProxy(MilitaryExerciseProxy):getRivalById(slot0.rivalId)
+	slot6 = getProxy(BayProxy)
+	slot7 = getProxy(FleetProxy)
+	rivalVO = getProxy(MilitaryExerciseProxy).getRivalById(slot10, nil)
 	slot12 = pg.battle_cost_template[SYSTEM_DUEL].oil_cost > 0
 	slot13 = {}
 	slot14 = 0
@@ -25,18 +26,22 @@ function slot0.Entrance(slot0, slot1)
 	slot16 = 0
 	slot17 = 0
 
-	for slot23, slot24 in ipairs(getProxy(BayProxy):getSortShipsByFleet(getProxy(FleetProxy):getFleetById(slot2))) do
+	for slot23, slot24 in ipairs(slot19) do
 		slot13[#slot13 + 1] = slot24.id
 	end
 
-	if slot12 and slot5:getData().oil < slot17 then
+	slot20 = slot5:getData()
+
+	if slot12 and slot20.oil < slot17 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("stage_beginStage_error_noResource"))
 
 		return
 	end
 
+	slot21 = 0
+
 	for slot25, slot26 in ipairs(rivalVO.mainShips) do
-		slot21 = 0 + slot26.level
+		slot21 = slot21 + slot26.level
 	end
 
 	for slot25, slot26 in ipairs(rivalVO.vanguardShips) do
@@ -46,41 +51,37 @@ function slot0.Entrance(slot0, slot1)
 	RivalLevelVertiry = slot21
 
 	slot1.ShipVertify()
-
-	slot27[1] = slot8
-
-	BeginStageCommand.SendRequest(SYSTEM_DUEL, slot13, {}, function (slot0)
-		if uv0 then
-			slot3.oil = uv2
-
-			uv1:consume({
-				gold = 0
+	BeginStageCommand.SendRequest(SYSTEM_DUEL, slot13, {
+		slot8
+	}, function (slot0)
+		if slot0 then
+			slot1:consume({
+				gold = 0,
+				oil = slot1
 			})
 		end
 
-		if uv3.enter_energy_cost > 0 then
-			for slot5, slot6 in ipairs(uv4) do
-				slot6:cosumeEnergy(pg.gameset.battle_consume_energy.key_value)
-				uv5:updateShip(slot6)
+		if slot3.enter_energy_cost > 0 then
+			slot1 = pg.gameset.battle_consume_energy.key_value
+
+			for slot5, slot6 in ipairs(slot4) do
+				slot6:cosumeEnergy(slot1)
+				slot5:updateShip(slot6)
 			end
 		end
 
-		slot1 = ys.Battle.BattleConfig.ARENA_LIST
-		slot3 = uv6
-
-		slot3:updatePlayer(uv1)
-
-		slot3.mainFleetId = uv7
-		slot3.prefabFleet = {}
-		slot3.stageId = slot1[math.random(#slot1)]
-		slot3.system = SYSTEM_DUEL
-		slot3.rivalId = uv8
-		slot3.token = slot0.key
-		slot3.mode = mode
-
-		uv9:sendNotification(GAME.BEGIN_STAGE_DONE, {})
+		slot6:updatePlayer(slot1)
+		slot9:sendNotification(GAME.BEGIN_STAGE_DONE, {
+			mainFleetId = slot7,
+			prefabFleet = {},
+			stageId = ys.Battle.BattleConfig.ARENA_LIST[math.random(#ys.Battle.BattleConfig.ARENA_LIST)],
+			system = SYSTEM_DUEL,
+			rivalId = slot8,
+			token = slot0.key,
+			mode = mode
+		})
 	end, function (slot0)
-		uv0:RequestFailStandardProcess(slot0)
+		slot0:RequestFailStandardProcess(slot0)
 	end)
 end
 
@@ -89,29 +90,33 @@ function slot0.Exit(slot0, slot1)
 	slot5 = slot0.statistics._battleScore
 	slot6 = 0
 	slot7 = {}
-	slot8 = getProxy(FleetProxy):getFleetById(slot0.mainFleetId)
+	slot8 = getProxy(FleetProxy).getFleetById(slot3, slot0.mainFleetId)
 	slot6 = slot8:getEndCost().oil
 
-	slot1:SendRequest(slot1.GeneralPackage(slot0, getProxy(BayProxy):getShipsByFleet(slot8)), function (slot0)
-		if uv0.end_sink_cost > 0 then
-			uv1.DeadShipEnergyCosume(uv2, uv3)
+	slot1:SendRequest(slot1.GeneralPackage(slot0, slot7), function (slot0)
+		if slot0.end_sink_cost > 0 then
+			slot1.DeadShipEnergyCosume(slot2, slot3)
 		end
 
-		uv1.addShipsExp(slot0.ship_exp_list, uv2.statistics, accumulate)
+		slot1.addShipsExp(slot0.ship_exp_list, slot2.statistics, accumulate)
 
-		uv2.statistics.mvpShipID = slot0.mvp
-		slot5.drops, slot5.extraDrops = uv1:GeneralLoot(slot0)
+		slot2.statistics.mvpShipID = slot0.mvp
+		slot1, slot2 = slot2.statistics:GeneralLoot(slot0)
 
-		uv1.GeneralPlayerCosume(SYSTEM_DUEL, ys.Battle.BattleConst.BattleScore.C < uv4, uv5, slot0.player_exp, exFlag)
-		getProxy(MilitaryExerciseProxy):reduceExerciseCount()
+		slot1.GeneralPlayerCosume(SYSTEM_DUEL, ys.Battle.BattleConst.BattleScore.C < accumulate, , slot0.player_exp, exFlag)
 
-		slot5.system = SYSTEM_DUEL
-		slot5.statistics = uv2.statistics
-		slot5.score = uv4
-		slot5.commanderExps = {}
-		slot5.result = slot0.result
+		slot4 = getProxy(MilitaryExerciseProxy)
 
-		uv1:sendNotification(GAME.FINISH_STAGE_DONE, {})
+		slot4:reduceExerciseCount()
+		slot1:sendNotification(GAME.FINISH_STAGE_DONE, {
+			system = SYSTEM_DUEL,
+			statistics = slot2.statistics,
+			score = slot4,
+			drops = slot1,
+			commanderExps = {},
+			result = slot0.result,
+			extraDrops = slot2
+		})
 	end)
 end
 

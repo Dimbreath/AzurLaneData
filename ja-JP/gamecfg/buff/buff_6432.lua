@@ -1,17 +1,3 @@
-slot2.trigger = {
-	"onAttach"
-}
-slot3.label = {
-	"FT"
-}
-slot2.arg_list = {
-	number = 0.04
-}
-slot1[1] = {
-	type = "BattleBuffAddProficiency"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "萨奇剪",
@@ -22,5 +8,19 @@ return {
 	stack = 1,
 	color = "red",
 	icon = 6430,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddProficiency",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				number = 0.04,
+				label = {
+					"FT"
+				}
+			}
+		}
+	}
 }

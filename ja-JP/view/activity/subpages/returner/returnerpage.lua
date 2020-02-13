@@ -24,46 +24,46 @@ end
 
 function slot0.Init(slot0)
 	onButton(slot0, slot0.confirmBtn, function ()
-		if uv0.code ~= 0 then
+		if slot0.code ~= 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("return_have_participated_in_act"))
 
 			return
 		end
 
-		if not getInputText(uv0.input) or slot0 == "" then
+		if not getInputText(slot0.input) or slot0 == "" then
 			return
 		end
 
-		slot4.activity_id = uv0.activity.id
-		slot4.cmd = ActivityConst.RETURN_AWARD_OP_SET_RETRUNER
-		slot4.arg1 = tonumber(slot0)
-
-		uv0._event:emit(ActivityMediator.RETURN_AWARD_OP, {})
+		slot0._event:emit(ActivityMediator.RETURN_AWARD_OP, {
+			activity_id = slot0.activity.id,
+			cmd = ActivityConst.RETURN_AWARD_OP_SET_RETRUNER,
+			arg1 = tonumber(slot0)
+		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.awrdOverviewBtn, function ()
-		slot3.cmd = ActivityConst.RETURN_AWARD_OP_SHOW_RETURNER_AWARD_OVERVIEW
-		slot4.tasklist = uv0.config.task_list
-		slot4.ptId = pg.activity_template_headhunting[uv0.activity.id].pt
-		slot4.totalPt = uv0.pt
-		slot3.arg1 = {}
-
-		uv0._event:emit(ActivityMediator.RETURN_AWARD_OP, {})
+		slot0._event:emit(ActivityMediator.RETURN_AWARD_OP, {
+			cmd = ActivityConst.RETURN_AWARD_OP_SHOW_RETURNER_AWARD_OVERVIEW,
+			arg1 = {
+				tasklist = slot0.config.task_list,
+				ptId = pg.activity_template_headhunting[slot0.activity.id].pt,
+				totalPt = slot0.pt
+			}
+		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.matchBtn, function ()
-		if uv0.code ~= 0 then
+		if slot0.code ~= 0 then
 			return
 		end
 
-		slot2.content = i18n("returner_match_tip")
-
-		function slot2.onYes()
-			slot3.activity_id = uv0.activity.id
-			slot3.cmd = ActivityConst.RETURN_AWARD_OP_MATCH
-
-			uv0._event:emit(ActivityMediator.RETURN_AWARD_OP, {})
-		end
-
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("returner_match_tip"),
+			onYes = function ()
+				slot0._event:emit(ActivityMediator.RETURN_AWARD_OP, {
+					activity_id = slot0.activity.id,
+					cmd = ActivityConst.RETURN_AWARD_OP_MATCH
+				})
+			end
+		})
 	end, SFX_PANEL)
 end
 
@@ -101,59 +101,58 @@ function slot0.ShouldAcceptTasks(slot0)
 		return true
 	end
 
-	slot1 = slot0.config.task_list
 	slot2 = getProxy(TaskProxy)
 
-	return _.all(slot1[slot0.taskIndex], function (slot0)
-		return uv0:getTaskById(slot0) == nil and uv0:getFinishTaskById(slot0) == nil
-	end) or _.all(slot1[slot0.taskIndex], function (slot0)
-		return uv0:getFinishTaskById(slot0) ~= nil
-	end) and not (slot0.taskIndex == #slot1) and function ()
-		return uv0.taskIndex < uv0.day
-	end()
+	return _.all(slot0.config.task_list[slot0.taskIndex], function (slot0)
+		return slot0:getTaskById(slot0) == nil and slot0:getFinishTaskById(slot0) == nil
+	end) or (_.all(slot0.config.task_list[slot0.taskIndex], function (slot0)
+		return slot0:getFinishTaskById(slot0) ~= nil
+	end) and not (slot0.taskIndex == #slot0.config.task_list) and 
+	-- Decompilation error in this vicinity:
+	function ()
+		return slot0.taskIndex < slot0.day
+	end())
 end
 
 function slot0.AcceptTasks(slot0)
-	slot4.activity_id = slot0.activity.id
-	slot4.cmd = ActivityConst.RETURN_AWARD_OP_RETURNER_GET_AWARD
-
-	slot0._event:emit(ActivityMediator.RETURN_AWARD_OP, {})
+	slot0._event:emit(ActivityMediator.RETURN_AWARD_OP, {
+		activity_id = slot0.activity.id,
+		cmd = ActivityConst.RETURN_AWARD_OP_RETURNER_GET_AWARD
+	})
 end
 
 function slot0.UpdateData(slot0)
-	slot1 = slot0.activity
-	slot0.config = pg.activity_template_returnner[slot1.id]
-	slot0.code = slot1.data2
-	slot0.pt = getProxy(PlayerProxy):getRawData():getResource(pg.activity_template_headhunting[slot1.id].pt)
-	slot0.taskIndex = slot1.data4
+	slot0.config = pg.activity_template_returnner[slot0.activity.id]
+	slot0.code = slot0.activity.data2
+	slot0.pt = getProxy(PlayerProxy):getRawData():getResource(pg.activity_template_headhunting[slot0.activity.id].pt)
+	slot0.taskIndex = slot0.activity.data4
 	slot0.ptTxt.text = slot0.pt
-	slot0.day = pg.TimeMgr.GetInstance():DiffDay(slot1:getStartTime(), pg.TimeMgr.GetInstance():GetServerTime()) + 1
+	slot0.day = pg.TimeMgr.GetInstance():DiffDay(slot0.activity.getStartTime(slot1), pg.TimeMgr.GetInstance():GetServerTime()) + 1
 end
 
 function slot1(slot0, slot1, slot2)
-	slot3 = slot2:getConfig("award_display")[1]
-	slot6.type = slot3[1]
-	slot6.id = slot3[2]
-	slot6.count = slot3[3]
-
-	updateDrop(slot1:Find("item"), {})
+	updateDrop(slot1:Find("item"), {
+		type = slot2:getConfig("award_display")[1][1],
+		id = slot2.getConfig("award_display")[1][2],
+		count = slot2.getConfig("award_display")[1][3]
+	})
 	setText(slot1:Find("desc"), slot2:getConfig("desc"))
 	setFillAmount(slot1:Find("slider"), slot2:getProgress() / slot2:getConfig("target_num"))
-	setActive(slot1:Find("go"), not slot2:isFinish())
+	setActive(slot4, not slot2:isFinish())
 	setActive(slot1:Find("get"), slot2:isFinish() and not slot2:isReceive())
 	setActive(slot1:Find("got"), slot2:isReceive())
 	onButton(slot0, slot4, function ()
-		uv0._event:emit(ActivityMediator.ON_TASK_GO, uv1)
+		slot0._event:emit(ActivityMediator.ON_TASK_GO, slot0._event)
 	end, SFX_PANEL)
 	onButton(slot0, slot5, function ()
-		uv0._event:emit(ActivityMediator.ON_TASK_SUBMIT, uv1)
+		slot0._event:emit(ActivityMediator.ON_TASK_SUBMIT, slot0._event)
 	end, SFX_PANEL)
 end
 
 function slot0.UpdateTasks(slot0)
 	slot0.taskUIlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			uv1(uv2, slot2, getProxy(TaskProxy):getTaskById(uv0[slot1 + 1]) or slot4:getFinishTaskById(slot3))
+			slot1(slot2, slot2, getProxy(TaskProxy):getTaskById(slot0[slot1 + 1]) or slot4:getFinishTaskById(slot3))
 		end
 	end)
 	slot0.taskUIlist:align(#(slot0.config.task_list[slot0.taskIndex] or {}))

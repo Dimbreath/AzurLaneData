@@ -4,12 +4,12 @@ slot0.FireWorkGameID = 4
 
 function slot0.DataCreateFunc(slot0, slot1, slot2)
 	if slot0 == MiniGameOPCommand.CMD_SPECIAL_GAME then
-		slot3 = slot1[1]
-		slot6 = getProxy(MiniGameProxy):GetMiniGameData(slot3)
+		slot4 = slot1[2]
+		slot6 = getProxy(MiniGameProxy).GetMiniGameData(slot5, slot3)
 		slot7 = {}
 
-		if slot3 == uv0.ShrineGameID then
-			if slot1[2] == 1 then
+		if slot1[1] == slot0.ShrineGameID then
+			if slot4 == 1 then
 				slot7.count = slot2[1]
 				slot7.serverGold = slot2[2]
 				slot7.isInited = true

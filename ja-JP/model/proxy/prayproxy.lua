@@ -9,7 +9,7 @@ function slot0.register(slot0)
 	slot0.selectedShipCount = 0
 	slot0.needSelectShipCount = nil
 	slot0.selectedShipIDList = {}
-	slot0.pageState = uv0.STATE_HOME
+	slot0.pageState = slot0.STATE_HOME
 	slot0.tagConstructed = false
 end
 
@@ -29,8 +29,7 @@ function slot0.updateSelectedPool(slot0, slot1)
 end
 
 function slot0.updatePageState(slot0, slot1)
-	if slot1 ~= uv0.STATE_HOME and slot1 ~= uv0.STATE_SELECT_POOL and slot1 ~= uv0.STAGE_SELECT_SHIP and slot1 ~= uv0.STAGE_BUILD_SUCCESS then
-		-- Nothing
+	if slot1 ~= slot0.STATE_HOME and slot1 ~= slot0.STATE_SELECT_POOL and slot1 ~= slot0.STAGE_SELECT_SHIP and slot1 ~= slot0.STAGE_BUILD_SUCCESS then
 	end
 
 	slot0.pageState = slot1
@@ -38,7 +37,6 @@ end
 
 function slot0.insertSelectedShipIDList(slot0, slot1)
 	if slot0.selectedShipCount == slot0.needSelectShipCount then
-		-- Nothing
 	end
 
 	slot0.selectedShipIDList[#slot0.selectedShipIDList + 1] = slot1
@@ -47,7 +45,6 @@ end
 
 function slot0.removeSelectedShipIDList(slot0, slot1)
 	if slot0.selectedShipCount == 0 then
-		-- Nothing
 	end
 
 	slot2 = nil
@@ -63,7 +60,6 @@ function slot0.removeSelectedShipIDList(slot0, slot1)
 	end
 
 	if not slot2 then
-		-- Nothing
 	end
 end
 

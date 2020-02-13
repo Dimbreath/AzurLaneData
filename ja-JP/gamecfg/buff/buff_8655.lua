@@ -1,57 +1,3 @@
-slot2.trigger = {
-	"onAttach"
-}
-slot2.arg_list = {
-	skill_id = 8655,
-	target = "TargetSelf"
-}
-slot1[1] = {
-	type = "BattleBuffCastSkill"
-}
-slot2.trigger = {
-	"onAttach"
-}
-slot3.target = {
-	"TargetAllHelp",
-	"TargetShipTag"
-}
-slot3.ship_tag_list = {
-	"bossmio"
-}
-slot2.arg_list = {
-	buff_id = 8653
-}
-slot1[2] = {
-	type = "BattleBuffAddBuff"
-}
-slot2.trigger = {
-	"onAttach"
-}
-slot3.target = {
-	"TargetAllHelp",
-	"TargetShipTag"
-}
-slot3.ship_tag_list = {
-	"bossshion"
-}
-slot2.arg_list = {
-	buff_id = 8654
-}
-slot1[3] = {
-	type = "BattleBuffAddBuff"
-}
-slot2.trigger = {
-	"onAttach"
-}
-slot2.arg_list = {
-	number = 1,
-	attr = "isInvincible"
-}
-slot1[4] = {
-	type = "BattleBuffAddAttr"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "boss akua",
@@ -62,5 +8,59 @@ return {
 	stack = 1,
 	color = "yellow",
 	icon = 8655,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				skill_id = 8655,
+				target = "TargetSelf"
+			}
+		},
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				buff_id = 8653,
+				target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"bossmio"
+				}
+			}
+		},
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				buff_id = 8654,
+				target = {
+					"TargetAllHelp",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"bossshion"
+				}
+			}
+		},
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				number = 1,
+				attr = "isInvincible"
+			}
+		}
+	}
 }

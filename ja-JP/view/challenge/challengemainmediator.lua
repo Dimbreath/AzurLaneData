@@ -9,33 +9,35 @@ slot0.COMMANDER_FORMATION_OP = "ChallengeMainMediator:COMMANDER_FORMATION_OP"
 function slot0.register(slot0)
 	slot3 = getProxy(ChallengeProxy)
 
-	slot0:bind(uv0.ON_OPEN_RANK, function ()
-		slot4.page = PowerRank.TYPE_CHALLENGE
-
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.BILLBOARD, {})
+	slot0:bind(slot0.ON_OPEN_RANK, function ()
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.BILLBOARD, {
+			page = PowerRank.TYPE_CHALLENGE
+		})
 	end)
 	slot0:bind(ChallengeConst.CLICK_GET_AWARD_BTN, function (slot0, slot1)
-		uv0:sendNotification(GAME.SUBMIT_TASK, slot1)
+		slot0:sendNotification(GAME.SUBMIT_TASK, slot1)
 	end)
 	slot0:bind(ChallengeConst.RESET_DATA_EVENT, function (slot0, slot1, slot2)
-		slot6.mode = slot1
-		slot6.isInfiniteSeasonClear = slot2
-
-		uv0:sendNotification(GAME.CHALLENGE2_RESET, {})
+		slot0:sendNotification(GAME.CHALLENGE2_RESET, {
+			mode = slot1,
+			isInfiniteSeasonClear = slot2
+		})
 	end)
 	slot0:bind(ActivityBossBattleMediator2.ON_OPEN_DOCK, function (slot0, slot1)
 		slot2 = slot1.shipType
 		slot3 = slot1.fleetIndex
 		slot4 = slot1.shipVO
 		slot5 = slot1.fleet
+		slot6 = slot1.teamType
+		slot9 = {}
 
-		for slot13, slot14 in pairs(getProxy(BayProxy):getRawData()) do
-			if slot14:getTeamType() ~= slot1.teamType or slot14:isActivityNpc() then
-				table.insert({}, slot13)
+		for slot13, slot14 in pairs(slot8) do
+			if slot14:getTeamType() ~= slot6 or slot14:isActivityNpc() then
+				table.insert(slot9, slot13)
 			end
 		end
 
-		uv0.contextData.editFleet = true
+		slot0.contextData.editFleet = true
 		slot10, slot11 = nil
 
 		if slot4 == nil then
@@ -46,121 +48,120 @@ function slot0.register(slot0)
 			slot11 = slot4.id
 		end
 
-		slot12.inActivity = uv1.id
-		slot20.onShip, slot20.confirmSelect, slot20.onSelected = uv0:getDockCallbackFuncs(slot5, slot4, slot3, slot6)
-		slot20.ignoredIds = slot9
-		slot20.activeShipId = slot11
-		slot20.leastLimitMsg = i18n("ship_formationMediator_leastLimit")
-		slot20.quitTeam = slot10
-		slot20.leftTopInfo = i18n("word_formation")
-		slot20.flags = {
-			inAdmiral = false,
-			inEvent = true,
-			inFleet = false,
-			inClass = false,
-			inTactics = false,
-			inBackyard = false
-		}
+		slot20.onShip, slot20.confirmSelect, slot20.onSelected = slot0:getDockCallbackFuncs(slot5, slot4, slot3, slot6)
 
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			selectedMin = 0,
 			skipSelect = true,
-			selectedMax = 1
+			selectedMax = 1,
+			ignoredIds = slot9,
+			activeShipId = slot11,
+			leastLimitMsg = i18n("ship_formationMediator_leastLimit"),
+			quitTeam = slot10,
+			leftTopInfo = i18n("word_formation"),
+			onShip = slot13,
+			confirmSelect = slot14,
+			onSelected = slot15,
+			flags = {
+				inAdmiral = false,
+				inEvent = true,
+				inFleet = false,
+				inClass = false,
+				inTactics = false,
+				inBackyard = false,
+				inActivity = slot1.id
+			}
 		})
 	end)
-	slot0:bind(uv0.ON_COMMIT_FLEET, function ()
-		uv0:commitActivityFleet(uv1.id)
+	slot0:bind(slot0.ON_COMMIT_FLEET, function ()
+		slot0:commitActivityFleet(slot1.id)
 	end)
-	slot0:bind(uv0.ON_FLEET_SHIPINFO, function (slot0, slot1)
-		slot6.shipId = slot1.shipId
-		slot6.shipVOs = slot1.shipVOs
+	slot0:bind(slot0.ON_FLEET_SHIPINFO, function (slot0, slot1)
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {
+			shipId = slot1.shipId,
+			shipVOs = slot1.shipVOs
+		})
 
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {})
-
-		uv0.contextData.editFleet = true
+		slot0.contextData.editFleet = true
 	end)
-	slot0:bind(uv0.COMMANDER_FORMATION_OP, function (slot0, slot1)
-		slot5.data = slot1
-
-		uv0:sendNotification(GAME.COMMANDER_FORMATION_OP, {})
+	slot0:bind(slot0.COMMANDER_FORMATION_OP, function (slot0, slot1)
+		slot0:sendNotification(GAME.COMMANDER_FORMATION_OP, {
+			data = slot1
+		})
 	end)
 	slot0:bind(ActivityBossBattleMediator2.ON_FLEET_RECOMMEND, function (slot0, slot1)
-		uv0:recommendActivityFleet(uv1.id, slot1)
-		uv3.viewComponent:setFleet(uv2:getActivityFleets()[uv1.id])
-		uv3.viewComponent:updateEditPanel()
+		slot0:recommendActivityFleet(slot1.id, slot1)
+		slot3.viewComponent:setFleet(slot0.recommendActivityFleet:getActivityFleets()[slot1.id])
+		slot3.viewComponent:updateEditPanel()
 	end)
 	slot0:bind(ActivityBossBattleMediator2.ON_FLEET_CLEAR, function (slot0, slot1)
-		slot3 = uv0:getActivityFleets()[uv1.id]
+		slot2 = slot0:getActivityFleets()
 
-		slot3[slot1]:clearFleet()
-		uv2.viewComponent:setFleet(slot3)
-		uv2.viewComponent:updateEditPanel()
+		slot2[slot1.id][slot1].clearFleet(slot4)
+		slot2.viewComponent:setFleet(slot2[slot1.id])
+		slot2.viewComponent:updateEditPanel()
 	end)
-	slot0:bind(uv0.ON_SELECT_ELITE_COMMANDER, function (slot0, slot1, slot2)
+	slot0:bind(slot0.ON_SELECT_ELITE_COMMANDER, function (slot0, slot1, slot2)
 		slot4 = nil
 
-		for slot8, slot9 in pairs(uv0:getActivityFleets()[uv1.id]) do
+		for slot8, slot9 in pairs(slot3) do
 			if slot8 == slot1 then
 				slot4 = slot9
 			end
 		end
 
-		slot10.mode = CommandRoomScene.MODE_SELECT
-		slot10.activeCommanderId = slot4:getCommanders()[pos]
-		slot10.ignoredIds = {}
+		slot2:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
+			maxCount = 1,
+			mode = CommandRoomScene.MODE_SELECT,
+			activeCommanderId = slot4:getCommanders()[pos],
+			ignoredIds = {},
+			onCommander = function (slot0)
+				return true
+			end,
+			onSelected = function (slot0, slot1)
+				slot4 = getProxy(CommanderProxy).getCommanderById(slot3, slot2)
 
-		function slot10.onCommander(slot0)
-			return true
-		end
+				for slot8, slot9 in pairs(slot0) do
+					if slot8 == slot1 then
+						for slot13, slot14 in pairs(slot2) do
+							if slot14.groupId == slot4.groupId and slot13 ~= slot3 then
+								pg.TipsMgr.GetInstance():ShowTips(i18n("commander_can_not_select_same_group"))
 
-		function slot10.onSelected(slot0, slot1)
-			slot4 = getProxy(CommanderProxy):getCommanderById(slot0[1])
-
-			for slot8, slot9 in pairs(uv0) do
-				if slot8 == uv1 then
-					for slot13, slot14 in pairs(uv2) do
-						if slot14.groupId == slot4.groupId and slot13 ~= uv3 then
-							pg.TipsMgr.GetInstance():ShowTips(i18n("commander_can_not_select_same_group"))
-
-							return
+								return
+							end
 						end
-					end
-				else
-					for slot14, slot15 in pairs(slot9:getCommanders()) do
-						if slot2 == slot15.id then
-							pg.TipsMgr.GetInstance():ShowTips(i18n("commander_is_in_fleet_already"))
+					else
+						for slot14, slot15 in pairs(slot10) do
+							if slot2 == slot15.id then
+								pg.TipsMgr.GetInstance():ShowTips(i18n("commander_is_in_fleet_already"))
 
-							return
+								return
+							end
 						end
 					end
 				end
+
+				slot4:updateCommanderByPos(slot3, slot4)
+				slot4.updateCommanderByPos:updateActivityFleet(slot6.id, slot1, slot4)
+				slot1()
+			end,
+			onQuit = function (slot0)
+				slot0:updateCommanderByPos(slot0.updateCommanderByPos, nil)
+				slot0:updateActivityFleet(slot0.updateCommanderByPos.id, nil, slot0)
+				slot0()
 			end
-
-			uv4:updateCommanderByPos(uv3, slot4)
-			uv5:updateActivityFleet(uv6.id, uv1, uv4)
-			slot1()
-		end
-
-		function slot10.onQuit(slot0)
-			uv0:updateCommanderByPos(uv1, nil)
-			uv2:updateActivityFleet(uv3.id, uv4, uv0)
-			slot0()
-		end
-
-		uv2:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
-			maxCount = 1
 		})
 
-		uv2.contextData.editFleet = true
+		slot2.contextData.editFleet = true
 	end)
-	slot0:bind(uv0.ON_PRECOMBAT, function (slot0, slot1)
-		if uv0:checkActivityFleet(uv1.id) ~= true then
+	slot0:bind(slot0.ON_PRECOMBAT, function (slot0, slot1)
+		if slot0:checkActivityFleet(slot1.id) ~= true then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("elite_disable_no_fleet"))
 
 			return
 		end
 
-		if uv0:getActivityFleets()[uv1.id][slot1 + 1]:isLegalToFight() == TeamType.Vanguard then
+		if slot0:getActivityFleets()[slot1.id][slot1 + 1].isLegalToFight(slot4) == TeamType.Vanguard then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_vo_vanguardFleet_must_hasShip"))
 
 			return
@@ -170,71 +171,70 @@ function slot0.register(slot0)
 			return
 		end
 
-		uv2.viewComponent:hideFleetEdit()
+		slot2.viewComponent:hideFleetEdit()
 
-		if not uv3:getUserChallengeInfo(slot1) then
-			slot10.mode = slot1
-
-			uv2:sendNotification(GAME.CHALLENGE2_INITIAL, {})
+		if not slot3:getUserChallengeInfo(slot1) then
+			slot2:sendNotification(GAME.CHALLENGE2_INITIAL, {
+				mode = slot1
+			})
 
 			return
 		end
 
-		slot10.mediator = ChallengePreCombatMediator
-		slot10.viewComponent = ChallengePreCombatLayer
-		slot11.system = SYSTEM_CHALLENGE
-		slot11.actID = uv1.id
-		slot11.mode = slot1
-
-		function slot11.func()
-			uv0:tryBattle()
-		end
-
-		slot10.data = {}
-
-		uv2:addSubLayers(Context.New({}))
+		slot2:addSubLayers(Context.New({
+			mediator = ChallengePreCombatMediator,
+			viewComponent = ChallengePreCombatLayer,
+			data = {
+				system = SYSTEM_CHALLENGE,
+				actID = slot1.id,
+				mode = slot1,
+				func = function ()
+					slot0:tryBattle()
+				end
+			}
+		}))
 	end)
-	slot0.viewComponent:setFleet(getProxy(FleetProxy):getActivityFleets()[getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE).id])
+	slot0.viewComponent:setFleet(slot6)
 	slot0.viewComponent:setCommanderPrefabs(getProxy(CommanderProxy):getPrefabFleet())
 end
 
 function slot0.listNotificationInterests(slot0)
-	slot1[1] = GAME.CHALLENGE2_INITIAL_DONE
-	slot1[2] = GAME.CHALLENGE2_RESET_DONE
-	slot1[3] = GAME.CHALLENGE2_INFO_DONE
-	slot1[4] = GAME.SUBMIT_TASK_DONE
-	slot1[5] = CommanderProxy.PREFAB_FLEET_UPDATE
-
-	return {}
+	return {
+		GAME.CHALLENGE2_INITIAL_DONE,
+		GAME.CHALLENGE2_RESET_DONE,
+		GAME.CHALLENGE2_INFO_DONE,
+		GAME.SUBMIT_TASK_DONE,
+		CommanderProxy.PREFAB_FLEET_UPDATE
+	}
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+	slot4 = getProxy(ChallengeProxy)
+
 	if slot1:getName() == GAME.CHALLENGE2_INITIAL_DONE then
-		slot5 = slot1:getBody().mode
-		slot6 = getProxy(ChallengeProxy):getUserChallengeInfo(slot5)
-		slot12.mediator = ChallengePreCombatMediator
-		slot12.viewComponent = ChallengePreCombatLayer
-		slot13.system = SYSTEM_CHALLENGE
-		slot13.actID = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE).id
-		slot13.mode = slot5
+		slot6 = slot4:getUserChallengeInfo(slot5)
 
-		function slot13.func()
-			uv0:tryBattle()
-		end
-
-		slot12.data = {}
-
-		slot0:addSubLayers(Context.New({}))
+		slot0:addSubLayers(Context.New({
+			mediator = ChallengePreCombatMediator,
+			viewComponent = ChallengePreCombatLayer,
+			data = {
+				system = SYSTEM_CHALLENGE,
+				actID = getProxy(ActivityProxy).getActivityByType(slot7, ActivityConst.ACTIVITY_TYPE_CHALLENGE).id,
+				mode = slot3.mode,
+				func = function ()
+					slot0:tryBattle()
+				end
+			}
+		}))
 		slot0.viewComponent:updateData()
 		slot0.viewComponent:updatePaintingList()
 		slot0.viewComponent:updateRoundText()
 		slot0.viewComponent:updateSlider()
 		slot0.viewComponent:updateFuncBtns()
 	elseif slot2 == GAME.CHALLENGE2_RESET_DONE then
-		if slot0.viewComponent.curMode == ChallengeProxy.MODE_INFINITE then
-			if not slot0.viewComponent:isFinishedCasualMode() then
-				slot4:setCurMode(ChallengeProxy.MODE_CASUAL)
-			end
+		if slot0.viewComponent.curMode == ChallengeProxy.MODE_INFINITE and not slot0.viewComponent:isFinishedCasualMode() then
+			slot4:setCurMode(ChallengeProxy.MODE_CASUAL)
 		end
 
 		slot0.viewComponent:updateData()
@@ -245,10 +245,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:updateSlider()
 		slot0.viewComponent:updateFuncBtns()
 	elseif slot2 == GAME.CHALLENGE2_INFO_DONE then
-		if slot0.viewComponent.curMode == ChallengeProxy.MODE_INFINITE then
-			if not slot0.viewComponent:isFinishedCasualMode() then
-				slot4:setCurMode(ChallengeProxy.MODE_CASUAL)
-			end
+		if slot0.viewComponent.curMode == ChallengeProxy.MODE_INFINITE and not slot0.viewComponent:isFinishedCasualMode() then
+			slot4:setCurMode(ChallengeProxy.MODE_CASUAL)
 		end
 
 		slot0.viewComponent:updateData()
@@ -261,7 +259,7 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:updateFuncBtns()
 	elseif slot2 == GAME.SUBMIT_TASK_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3, function ()
-			uv0.viewComponent:updateAwardPanel()
+			slot0.viewComponent:updateAwardPanel()
 		end)
 	elseif slot2 == CommanderProxy.PREFAB_FLEET_UPDATE then
 		slot0.viewComponent:setCommanderPrefabs(getProxy(CommanderProxy):getPrefabFleet())
@@ -272,7 +270,7 @@ end
 function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3, slot4)
 	slot5 = getProxy(BayProxy)
 	slot6 = getProxy(FleetProxy)
-	slot10 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE)
+	slot10 = getProxy(ActivityProxy).getActivityByType(slot7, ActivityConst.ACTIVITY_TYPE_CHALLENGE)
 
 	return function (slot0, slot1)
 		slot2, slot3 = Ship.ShipStateConflict("inElite", slot0)
@@ -283,14 +281,12 @@ function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3, slot4)
 			return Ship.ChangeStateCheckBox(slot3, slot0, slot1)
 		end
 
-		if uv0 then
-			if uv0:isSameKind(slot0) then
-				return true
-			end
+		if slot0 and slot0:isSameKind(slot0) then
+			return true
 		end
 
-		for slot7, slot8 in ipairs(uv1) do
-			if slot0:isSameKind(uv2:getShipById(slot8)) then
+		for slot7, slot8 in ipairs(slot1) do
+			if slot0:isSameKind(slot2:getShipById(slot8)) then
 				return false, i18n("event_same_type_not_allowed")
 			end
 		end
@@ -299,15 +295,17 @@ function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3, slot4)
 	end, function (slot0, slot1, slot2)
 		slot1()
 	end, function (slot0)
-		if uv3 then
-			uv1:getActivityFleets()[uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE).id][uv2]:removeShip(uv3)
+		slot4 = slot1:getActivityFleets()[slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE).id][slot2]
+
+		if slot1.getActivityFleets()[slot0.getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE).id] then
+			slot4:removeShip(slot3)
 		end
 
 		if #slot0 > 0 then
-			slot4:insertShip(uv4:getShipById(slot0[1]), nil, uv5)
+			slot4:insertShip(slot4:getShipById(slot0[1]), nil, slot4.insertShip)
 		end
 
-		uv1:updateActivityFleet(slot1.id, uv2, slot4)
+		slot1:updateActivityFleet(slot1.id, slot2, slot4)
 	end
 end
 

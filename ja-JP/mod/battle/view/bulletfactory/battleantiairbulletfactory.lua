@@ -1,6 +1,4 @@
-slot0 = ys
-slot0 = slot0 or {}
-ys = slot0
+ys = ys or {}
 slot0 = ys
 slot1 = slot0.Battle
 slot2 = singletonClass
@@ -17,7 +15,7 @@ slot1 = slot0.Battle
 slot1 = slot1.BattleAntiAirBulletFactory
 
 function slot2(slot0)
-	slot1 = uv0
+	slot1 = slot0
 	slot1 = slot1.super
 	slot1 = slot1.Ctor
 	slot2 = slot0
@@ -117,7 +115,7 @@ function slot2(slot0, slot1, slot2, slot3, slot4, slot5)
 			slot7 = slot6.Active
 
 			if slot7 then
-				slot7 = uv0
+				slot7 = slot0
 				slot8 = slot7
 				slot7 = slot7.GetSceneMediator
 				slot7 = slot7(slot8)
@@ -143,39 +141,39 @@ function slot2(slot0, slot1, slot2, slot3, slot4, slot5)
 			end
 		end
 
-		slot2 = uv1
+		slot2 = slot1
 		slot3 = slot2
 		slot2 = slot2.HandleMeteoDamage
-		slot4 = uv2
+		slot4 = slot2
 		slot5 = slot1
 
 		slot2(slot3, slot4, slot5)
 	end
 
 	function slot15()
-		slot0 = uv0
+		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.SpawnColumnArea
-		slot2 = uv1
+		slot2 = slot1
 		slot3 = slot2
 		slot2 = slot2.GetEffectField
 		slot2 = slot2(slot3)
-		slot3 = uv1
+		slot3 = slot1
 		slot4 = slot3
 		slot3 = slot3.GetIFF
 		slot3 = slot3(slot4)
-		slot4 = uv2
-		slot5 = uv3
-		slot6 = uv4
+		slot4 = slot2
+		slot5 = slot3
+		slot6 = slot4
 		slot6 = slot6.time
-		slot7 = uv5
+		slot7 = slot5
 
 		slot0(slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 
-		slot0 = uv0
+		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.RemoveBulletUnit
-		slot2 = uv1
+		slot2 = slot1
 		slot3 = slot2
 		slot2 = slot2.GetUniqueID
 
@@ -184,16 +182,16 @@ function slot2(slot0, slot1, slot2, slot3, slot4, slot5)
 
 	function slot16()
 		slot0 = nil
-		slot1 = uv0
+		slot1 = slot0
 		slot2 = slot1
 		slot1 = slot1.IsAlive
 		slot1 = slot1(slot2)
 
 		if slot1 then
-			slot1 = uv1
+			slot1 = slot1
 
 			if slot1 then
-				slot1 = uv1
+				slot1 = slot1
 				slot2 = slot1
 				slot1 = slot1.GetPosition
 				slot1 = slot1(slot2)
@@ -205,34 +203,34 @@ function slot2(slot0, slot1, slot2, slot3, slot4, slot5)
 				slot3 = Vector3
 				slot4 = math
 				slot4 = slot4.random
-				slot5 = uv2
+				slot5 = slot2
 				slot4 = slot4(slot5)
-				slot5 = uv2
+				slot5 = slot2
 				slot5 = slot5 * 0.5
 				slot4 = slot4 - slot5
 				slot5 = 0
 				slot6 = math
 				slot6 = slot6.random
-				slot7 = uv2
+				slot7 = slot2
 				slot6 = slot6(slot7)
-				slot7 = uv2
+				slot7 = slot2
 				slot7 = slot7 * 0.5
 				slot6 = slot6 - slot7
 				slot1 = slot1(slot2, slot3(slot4, slot5, slot6))
 				slot0 = slot1
-				uv3 = slot0
+				slot3 = slot0
 			end
 		else
-			slot0 = uv3
+			slot0 = slot3
 		end
 
-		slot1 = uv4
+		slot1 = slot4
 		slot2 = slot1
 		slot1 = slot1.GetFXPool
 		slot1 = slot1(slot2)
 		slot2 = slot1
 		slot1 = slot1.GetFX
-		slot3 = uv5
+		slot3 = slot5
 		slot4 = slot3
 		slot3 = slot3.GetTemplate
 		slot3 = slot3(slot4)
@@ -257,43 +255,43 @@ function slot2(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot17, slot18 = nil
 
 	function slot19()
-		slot0 = uv0
+		slot0 = slot0
 
 		if slot0 == nil then
-			slot0 = uv1
+			slot0 = slot1
 
 			slot0()
 		else
-			slot0 = uv2
+			slot0 = slot2
 			slot1 = slot0
 			slot0 = slot0.PlayFireFX
-			slot2 = uv3
-			slot3 = uv4
-			slot4 = uv5
-			slot5 = uv0
-			slot6 = uv6
-			slot7 = uv7
+			slot2 = slot3
+			slot3 = slot4
+			slot4 = slot5
+			slot5 = slot0
+			slot6 = slot6
+			slot7 = slot7
 
 			slot0(slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 		end
 	end
 
 	function slot18()
-		slot0 = uv0
+		slot0 = slot0
 		slot0 = slot0._tmpTimerList
-		slot1 = uv1
+		slot1 = slot1
 		slot0 = slot0[slot1]
 
 		if slot0 ~= nil then
-			slot0 = uv2
+			slot0 = slot2
 
 			slot0()
 
-			slot0 = uv3
+			slot0 = slot3
 
 			slot0()
 		else
-			slot0 = uv4
+			slot0 = slot4
 
 			slot0()
 		end
@@ -306,16 +304,16 @@ function slot2(slot0, slot1, slot2, slot3, slot4, slot5)
 		slot0 = slot0()
 		slot1 = slot0
 		slot0 = slot0.RemoveBattleTimer
-		slot2 = uv0
+		slot2 = slot0
 
 		slot0(slot1, slot2)
 
-		slot0 = uv1
+		slot0 = slot1
 		slot0 = slot0._tmpTimerList
-		slot1 = uv0
+		slot1 = slot0
 		slot2 = nil
 		slot0[slot1] = slot2
-		uv0 = nil
+		slot0 = nil
 	end
 
 	slot21 = pg
@@ -339,3 +337,5 @@ function slot2(slot0, slot1, slot2, slot3, slot4, slot5)
 end
 
 slot1.CreateBullet = slot2
+
+return

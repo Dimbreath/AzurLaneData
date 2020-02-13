@@ -147,13 +147,14 @@ SC_23001.name = "sc_23001"
 SC_23001.full_name = ".p23.sc_23001"
 SC_23001.nested_types = {}
 SC_23001.enum_types = {}
-slot68[1] = slot2
-slot68[2] = slot3
-slot68[3] = slot4
-slot68[4] = slot5
-slot68[5] = slot6
-slot68[6] = slot7
-SC_23001.fields = {}
+SC_23001.fields = {
+	slot2,
+	slot3,
+	slot4,
+	slot5,
+	slot6,
+	slot7
+}
 SC_23001.is_extendable = false
 SC_23001.extensions = {}
 slot8.name = "id"
@@ -205,12 +206,13 @@ CS_23002.name = "cs_23002"
 CS_23002.full_name = ".p23.cs_23002"
 CS_23002.nested_types = {}
 CS_23002.enum_types = {}
-slot68[1] = slot8
-slot68[2] = slot9
-slot68[3] = slot10
-slot68[4] = slot11
-slot68[5] = slot12
-CS_23002.fields = {}
+CS_23002.fields = {
+	slot8,
+	slot9,
+	slot10,
+	slot11,
+	slot12
+}
 CS_23002.is_extendable = false
 CS_23002.extensions = {}
 slot13.name = "result"
@@ -236,9 +238,10 @@ SC_23003.name = "sc_23003"
 SC_23003.full_name = ".p23.sc_23003"
 SC_23003.nested_types = {}
 SC_23003.enum_types = {}
-slot68[1] = slot13
-slot68[2] = slot14
-SC_23003.fields = {}
+SC_23003.fields = {
+	slot13,
+	slot14
+}
 SC_23003.is_extendable = false
 SC_23003.extensions = {}
 slot15.name = "act"
@@ -281,11 +284,12 @@ CS_23004.name = "cs_23004"
 CS_23004.full_name = ".p23.cs_23004"
 CS_23004.nested_types = {}
 CS_23004.enum_types = {}
-slot68[1] = slot15
-slot68[2] = slot16
-slot68[3] = slot17
-slot68[4] = slot18
-CS_23004.fields = {}
+CS_23004.fields = {
+	slot15,
+	slot16,
+	slot17,
+	slot18
+}
 CS_23004.is_extendable = false
 CS_23004.extensions = {}
 slot19.name = "result"
@@ -341,12 +345,13 @@ SC_23005.name = "sc_23005"
 SC_23005.full_name = ".p23.sc_23005"
 SC_23005.nested_types = {}
 SC_23005.enum_types = {}
-slot68[1] = slot19
-slot68[2] = slot20
-slot68[3] = slot21
-slot68[4] = slot22
-slot68[5] = slot23
-SC_23005.fields = {}
+SC_23005.fields = {
+	slot19,
+	slot20,
+	slot21,
+	slot22,
+	slot23
+}
 SC_23005.is_extendable = false
 SC_23005.extensions = {}
 slot24.name = "formation_list"
@@ -362,8 +367,9 @@ CS_23006.name = "cs_23006"
 CS_23006.full_name = ".p23.cs_23006"
 CS_23006.nested_types = {}
 CS_23006.enum_types = {}
-slot68[1] = slot24
-CS_23006.fields = {}
+CS_23006.fields = {
+	slot24
+}
 CS_23006.is_extendable = false
 CS_23006.extensions = {}
 slot25.name = "result"
@@ -379,8 +385,9 @@ SC_23007.name = "sc_23007"
 SC_23007.full_name = ".p23.sc_23007"
 SC_23007.nested_types = {}
 SC_23007.enum_types = {}
-slot68[1] = slot25
-SC_23007.fields = {}
+SC_23007.fields = {
+	slot25
+}
 SC_23007.is_extendable = false
 SC_23007.extensions = {}
 slot26.name = "cell_list"
@@ -397,8 +404,9 @@ SC_23009.name = "sc_23009"
 SC_23009.full_name = ".p23.sc_23009"
 SC_23009.nested_types = {}
 SC_23009.enum_types = {}
-slot68[1] = slot26
-SC_23009.fields = {}
+SC_23009.fields = {
+	slot26
+}
 SC_23009.is_extendable = false
 SC_23009.extensions = {}
 slot27.name = "id"
@@ -423,9 +431,10 @@ CS_23010.name = "cs_23010"
 CS_23010.full_name = ".p23.cs_23010"
 CS_23010.nested_types = {}
 CS_23010.enum_types = {}
-slot68[1] = slot27
-slot68[2] = slot28
-CS_23010.fields = {}
+CS_23010.fields = {
+	slot27,
+	slot28
+}
 CS_23010.is_extendable = false
 CS_23010.extensions = {}
 slot29.name = "result"
@@ -441,8 +450,9 @@ SC_23011.name = "sc_23011"
 SC_23011.full_name = ".p23.sc_23011"
 SC_23011.nested_types = {}
 SC_23011.enum_types = {}
-slot68[1] = slot29
-SC_23011.fields = {}
+SC_23011.fields = {
+	slot29
+}
 SC_23011.is_extendable = false
 SC_23011.extensions = {}
 slot30.name = "shop_id"
@@ -467,9 +477,10 @@ SHAMSHOP.name = "shamshop"
 SHAMSHOP.full_name = ".p23.shamshop"
 SHAMSHOP.nested_types = {}
 SHAMSHOP.enum_types = {}
-slot68[1] = slot30
-slot68[2] = slot31
-SHAMSHOP.fields = {}
+SHAMSHOP.fields = {
+	slot30,
+	slot31
+}
 SHAMSHOP.is_extendable = false
 SHAMSHOP.extensions = {}
 slot32.name = "id"
@@ -534,13 +545,14 @@ CURRENTSHAMINFO.name = "currentshaminfo"
 CURRENTSHAMINFO.full_name = ".p23.currentshaminfo"
 CURRENTSHAMINFO.nested_types = {}
 CURRENTSHAMINFO.enum_types = {}
-slot68[1] = slot32
-slot68[2] = slot33
-slot68[3] = slot34
-slot68[4] = slot35
-slot68[5] = slot36
-slot68[6] = slot37
-CURRENTSHAMINFO.fields = {}
+CURRENTSHAMINFO.fields = {
+	slot32,
+	slot33,
+	slot34,
+	slot35,
+	slot36,
+	slot37
+}
 CURRENTSHAMINFO.is_extendable = false
 CURRENTSHAMINFO.extensions = {}
 slot38.name = "pos"
@@ -604,13 +616,14 @@ SHAMCELLINFO.name = "shamcellinfo"
 SHAMCELLINFO.full_name = ".p23.shamcellinfo"
 SHAMCELLINFO.nested_types = {}
 SHAMCELLINFO.enum_types = {}
-slot68[1] = slot38
-slot68[2] = slot39
-slot68[3] = slot40
-slot68[4] = slot41
-slot68[5] = slot42
-slot68[6] = slot43
-SHAMCELLINFO.fields = {}
+SHAMCELLINFO.fields = {
+	slot38,
+	slot39,
+	slot40,
+	slot41,
+	slot42,
+	slot43
+}
 SHAMCELLINFO.is_extendable = false
 SHAMCELLINFO.extensions = {}
 slot44.name = "row"
@@ -635,9 +648,10 @@ SHAMCELLPOS.name = "shamcellpos"
 SHAMCELLPOS.full_name = ".p23.shamcellpos"
 SHAMCELLPOS.nested_types = {}
 SHAMCELLPOS.enum_types = {}
-slot68[1] = slot44
-slot68[2] = slot45
-SHAMCELLPOS.fields = {}
+SHAMCELLPOS.fields = {
+	slot44,
+	slot45
+}
 SHAMCELLPOS.is_extendable = false
 SHAMCELLPOS.extensions = {}
 slot46.name = "formation_list"
@@ -682,11 +696,12 @@ GROUPINSHAM.name = "groupinsham"
 GROUPINSHAM.full_name = ".p23.groupinsham"
 GROUPINSHAM.nested_types = {}
 GROUPINSHAM.enum_types = {}
-slot68[1] = slot46
-slot68[2] = slot47
-slot68[3] = slot48
-slot68[4] = slot49
-GROUPINSHAM.fields = {}
+GROUPINSHAM.fields = {
+	slot46,
+	slot47,
+	slot48,
+	slot49
+}
 GROUPINSHAM.is_extendable = false
 GROUPINSHAM.extensions = {}
 slot50.name = "id"
@@ -731,11 +746,12 @@ SHIPINSHAM.name = "shipinsham"
 SHIPINSHAM.full_name = ".p23.shipinsham"
 SHIPINSHAM.nested_types = {}
 SHIPINSHAM.enum_types = {}
-slot68[1] = slot50
-slot68[2] = slot51
-slot68[3] = slot52
-slot68[4] = slot53
-SHIPINSHAM.fields = {}
+SHIPINSHAM.fields = {
+	slot50,
+	slot51,
+	slot52,
+	slot53
+}
 SHIPINSHAM.is_extendable = false
 SHIPINSHAM.extensions = {}
 slot54.name = "id"
@@ -760,9 +776,10 @@ STRATEGYINFO.name = "strategyinfo"
 STRATEGYINFO.full_name = ".p23.strategyinfo"
 STRATEGYINFO.nested_types = {}
 STRATEGYINFO.enum_types = {}
-slot68[1] = slot54
-slot68[2] = slot55
-STRATEGYINFO.fields = {}
+STRATEGYINFO.fields = {
+	slot54,
+	slot55
+}
 STRATEGYINFO.is_extendable = false
 STRATEGYINFO.extensions = {}
 slot56.name = "id"
@@ -787,9 +804,10 @@ HPINFO.name = "hpinfo"
 HPINFO.full_name = ".p23.hpinfo"
 HPINFO.nested_types = {}
 HPINFO.enum_types = {}
-slot68[1] = slot56
-slot68[2] = slot57
-HPINFO.fields = {}
+HPINFO.fields = {
+	slot56,
+	slot57
+}
 HPINFO.is_extendable = false
 HPINFO.extensions = {}
 slot58.name = "id"
@@ -879,16 +897,17 @@ SHAMTARGETINFO.name = "shamtargetinfo"
 SHAMTARGETINFO.full_name = ".p23.shamtargetinfo"
 SHAMTARGETINFO.nested_types = {}
 SHAMTARGETINFO.enum_types = {}
-slot68[1] = slot58
-slot68[2] = slot59
-slot68[3] = slot60
-slot68[4] = slot61
-slot68[5] = slot62
-slot68[6] = slot63
-slot68[7] = slot64
-slot68[8] = slot65
-slot68[9] = slot66
-SHAMTARGETINFO.fields = {}
+SHAMTARGETINFO.fields = {
+	slot58,
+	slot59,
+	slot60,
+	slot61,
+	slot62,
+	slot63,
+	slot64,
+	slot65,
+	slot66
+}
 SHAMTARGETINFO.is_extendable = false
 SHAMTARGETINFO.extensions = {}
 cs_23002 = slot0.Message(CS_23002)
@@ -910,3 +929,5 @@ shamshop = slot0.Message(SHAMSHOP)
 shamtargetinfo = slot0.Message(SHAMTARGETINFO)
 shipinsham = slot0.Message(SHIPINSHAM)
 strategyinfo = slot0.Message(STRATEGYINFO)
+
+return

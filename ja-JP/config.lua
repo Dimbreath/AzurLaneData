@@ -208,3 +208,5 @@ ShareCfg = {
 	["ShareCfg.UserAgreement3"] = true,
 	["ShareCfg.dorm_data_template"] = true
 }
+
+return

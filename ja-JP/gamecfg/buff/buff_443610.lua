@@ -1,14 +1,3 @@
-slot2.trigger = {
-	"onFlagShip"
-}
-slot2.arg_list = {
-	skill_id = 443610
-}
-slot1[1] = {
-	type = "BattleBuffCastSkill"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "航母-后勤-装填I",
@@ -19,5 +8,16 @@ return {
 	stack = 1,
 	color = "yellow",
 	icon = 443610,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onFlagShip"
+			},
+			arg_list = {
+				skill_id = 443610
+			}
+		}
+	}
 }

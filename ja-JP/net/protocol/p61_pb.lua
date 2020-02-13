@@ -117,11 +117,12 @@ SC_61001.name = "sc_61001"
 SC_61001.full_name = ".p61.sc_61001"
 SC_61001.nested_types = {}
 SC_61001.enum_types = {}
-slot59[1] = slot2
-slot59[2] = slot3
-slot59[3] = slot4
-slot59[4] = slot5
-SC_61001.fields = {}
+SC_61001.fields = {
+	slot2,
+	slot3,
+	slot4,
+	slot5
+}
 SC_61001.is_extendable = false
 SC_61001.extensions = {}
 slot6.name = "id"
@@ -182,13 +183,14 @@ CS_61002.name = "cs_61002"
 CS_61002.full_name = ".p61.cs_61002"
 CS_61002.nested_types = {}
 CS_61002.enum_types = {}
-slot59[1] = slot6
-slot59[2] = slot7
-slot59[3] = slot8
-slot59[4] = slot9
-slot59[5] = slot10
-slot59[6] = slot11
-CS_61002.fields = {}
+CS_61002.fields = {
+	slot6,
+	slot7,
+	slot8,
+	slot9,
+	slot10,
+	slot11
+}
 CS_61002.is_extendable = false
 CS_61002.extensions = {}
 slot12.name = "result"
@@ -214,9 +216,10 @@ SC_61003.name = "sc_61003"
 SC_61003.full_name = ".p61.sc_61003"
 SC_61003.nested_types = {}
 SC_61003.enum_types = {}
-slot59[1] = slot12
-slot59[2] = slot13
-SC_61003.fields = {}
+SC_61003.fields = {
+	slot12,
+	slot13
+}
 SC_61003.is_extendable = false
 SC_61003.extensions = {}
 slot14.name = "act"
@@ -259,11 +262,12 @@ CS_61004.name = "cs_61004"
 CS_61004.full_name = ".p61.cs_61004"
 CS_61004.nested_types = {}
 CS_61004.enum_types = {}
-slot59[1] = slot14
-slot59[2] = slot15
-slot59[3] = slot16
-slot59[4] = slot17
-CS_61004.fields = {}
+CS_61004.fields = {
+	slot14,
+	slot15,
+	slot16,
+	slot17
+}
 CS_61004.is_extendable = false
 CS_61004.extensions = {}
 slot18.name = "result"
@@ -319,12 +323,13 @@ SC_61005.name = "sc_61005"
 SC_61005.full_name = ".p61.sc_61005"
 SC_61005.nested_types = {}
 SC_61005.enum_types = {}
-slot59[1] = slot18
-slot59[2] = slot19
-slot59[3] = slot20
-slot59[4] = slot21
-slot59[5] = slot22
-SC_61005.fields = {}
+SC_61005.fields = {
+	slot18,
+	slot19,
+	slot20,
+	slot21,
+	slot22
+}
 SC_61005.is_extendable = false
 SC_61005.extensions = {}
 slot23.name = "formation_list"
@@ -340,8 +345,9 @@ CS_61006.name = "cs_61006"
 CS_61006.full_name = ".p61.cs_61006"
 CS_61006.nested_types = {}
 CS_61006.enum_types = {}
-slot59[1] = slot23
-CS_61006.fields = {}
+CS_61006.fields = {
+	slot23
+}
 CS_61006.is_extendable = false
 CS_61006.extensions = {}
 slot24.name = "result"
@@ -357,8 +363,9 @@ SC_61007.name = "sc_61007"
 SC_61007.full_name = ".p61.sc_61007"
 SC_61007.nested_types = {}
 SC_61007.enum_types = {}
-slot59[1] = slot24
-SC_61007.fields = {}
+SC_61007.fields = {
+	slot24
+}
 SC_61007.is_extendable = false
 SC_61007.extensions = {}
 slot25.name = "cell_list"
@@ -375,8 +382,9 @@ SC_61009.name = "sc_61009"
 SC_61009.full_name = ".p61.sc_61009"
 SC_61009.nested_types = {}
 SC_61009.enum_types = {}
-slot59[1] = slot25
-SC_61009.fields = {}
+SC_61009.fields = {
+	slot25
+}
 SC_61009.is_extendable = false
 SC_61009.extensions = {}
 slot26.name = "result"
@@ -421,11 +429,12 @@ SC_61010.name = "sc_61010"
 SC_61010.full_name = ".p61.sc_61010"
 SC_61010.nested_types = {}
 SC_61010.enum_types = {}
-slot59[1] = slot26
-slot59[2] = slot27
-slot59[3] = slot28
-slot59[4] = slot29
-SC_61010.fields = {}
+SC_61010.fields = {
+	slot26,
+	slot27,
+	slot28,
+	slot29
+}
 SC_61010.is_extendable = false
 SC_61010.extensions = {}
 slot30.name = "id"
@@ -499,14 +508,15 @@ CURRENTGUILDINFO.name = "currentguildinfo"
 CURRENTGUILDINFO.full_name = ".p61.currentguildinfo"
 CURRENTGUILDINFO.nested_types = {}
 CURRENTGUILDINFO.enum_types = {}
-slot59[1] = slot30
-slot59[2] = slot31
-slot59[3] = slot32
-slot59[4] = slot33
-slot59[5] = slot34
-slot59[6] = slot35
-slot59[7] = slot36
-CURRENTGUILDINFO.fields = {}
+CURRENTGUILDINFO.fields = {
+	slot30,
+	slot31,
+	slot32,
+	slot33,
+	slot34,
+	slot35,
+	slot36
+}
 CURRENTGUILDINFO.is_extendable = false
 CURRENTGUILDINFO.extensions = {}
 slot37.name = "pos"
@@ -550,11 +560,12 @@ GUILDCELLINFO.name = "guildcellinfo"
 GUILDCELLINFO.full_name = ".p61.guildcellinfo"
 GUILDCELLINFO.nested_types = {}
 GUILDCELLINFO.enum_types = {}
-slot59[1] = slot37
-slot59[2] = slot38
-slot59[3] = slot39
-slot59[4] = slot40
-GUILDCELLINFO.fields = {}
+GUILDCELLINFO.fields = {
+	slot37,
+	slot38,
+	slot39,
+	slot40
+}
 GUILDCELLINFO.is_extendable = false
 GUILDCELLINFO.extensions = {}
 slot41.name = "row"
@@ -579,9 +590,10 @@ GUILDCELLPOS.name = "guildcellpos"
 GUILDCELLPOS.full_name = ".p61.guildcellpos"
 GUILDCELLPOS.nested_types = {}
 GUILDCELLPOS.enum_types = {}
-slot59[1] = slot41
-slot59[2] = slot42
-GUILDCELLPOS.fields = {}
+GUILDCELLPOS.fields = {
+	slot41,
+	slot42
+}
 GUILDCELLPOS.is_extendable = false
 GUILDCELLPOS.extensions = {}
 slot43.name = "formation_list"
@@ -626,11 +638,12 @@ GROUPINGUILD.name = "groupinguild"
 GROUPINGUILD.full_name = ".p61.groupinguild"
 GROUPINGUILD.nested_types = {}
 GROUPINGUILD.enum_types = {}
-slot59[1] = slot43
-slot59[2] = slot44
-slot59[3] = slot45
-slot59[4] = slot46
-GROUPINGUILD.fields = {}
+GROUPINGUILD.fields = {
+	slot43,
+	slot44,
+	slot45,
+	slot46
+}
 GROUPINGUILD.is_extendable = false
 GROUPINGUILD.extensions = {}
 slot47.name = "id"
@@ -675,11 +688,12 @@ SHIPINGUILD.name = "shipinguild"
 SHIPINGUILD.full_name = ".p61.shipinguild"
 SHIPINGUILD.nested_types = {}
 SHIPINGUILD.enum_types = {}
-slot59[1] = slot47
-slot59[2] = slot48
-slot59[3] = slot49
-slot59[4] = slot50
-SHIPINGUILD.fields = {}
+SHIPINGUILD.fields = {
+	slot47,
+	slot48,
+	slot49,
+	slot50
+}
 SHIPINGUILD.is_extendable = false
 SHIPINGUILD.extensions = {}
 slot51.name = "id"
@@ -704,9 +718,10 @@ STRATEGYINFO.name = "strategyinfo"
 STRATEGYINFO.full_name = ".p61.strategyinfo"
 STRATEGYINFO.nested_types = {}
 STRATEGYINFO.enum_types = {}
-slot59[1] = slot51
-slot59[2] = slot52
-STRATEGYINFO.fields = {}
+STRATEGYINFO.fields = {
+	slot51,
+	slot52
+}
 STRATEGYINFO.is_extendable = false
 STRATEGYINFO.extensions = {}
 slot53.name = "id"
@@ -731,9 +746,10 @@ HPINFO.name = "hpinfo"
 HPINFO.full_name = ".p61.hpinfo"
 HPINFO.nested_types = {}
 HPINFO.enum_types = {}
-slot59[1] = slot53
-slot59[2] = slot54
-HPINFO.fields = {}
+HPINFO.fields = {
+	slot53,
+	slot54
+}
 HPINFO.is_extendable = false
 HPINFO.extensions = {}
 slot55.name = "enemy_id"
@@ -767,10 +783,11 @@ DROPPERFORMANCE.name = "dropperformance"
 DROPPERFORMANCE.full_name = ".p61.dropperformance"
 DROPPERFORMANCE.nested_types = {}
 DROPPERFORMANCE.enum_types = {}
-slot59[1] = slot55
-slot59[2] = slot56
-slot59[3] = slot57
-DROPPERFORMANCE.fields = {}
+DROPPERFORMANCE.fields = {
+	slot55,
+	slot56,
+	slot57
+}
 DROPPERFORMANCE.is_extendable = false
 DROPPERFORMANCE.extensions = {}
 cs_61002 = slot0.Message(CS_61002)
@@ -790,3 +807,5 @@ sc_61009 = slot0.Message(SC_61009)
 sc_61010 = slot0.Message(SC_61010)
 shipinguild = slot0.Message(SHIPINGUILD)
 strategyinfo = slot0.Message(STRATEGYINFO)
+
+return

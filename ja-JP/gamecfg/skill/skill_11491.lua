@@ -1,214 +1,214 @@
-slot1.offset = {
-	0,
-	-2,
-	0
-}
-slot0.aniEffect = {
-	effect = "jineng"
-}
-slot2.arg_list = {
-	weapon_id = 67100,
-	emitter = "BattleBulletEmitter"
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetNil"
-}
-slot0.effect_list = {}
-slot3.arg_list = {
-	weapon_id = 67101,
-	emitter = "BattleBulletEmitter"
-}
-slot2[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetNil"
-}
-slot1.effect_list = {}
-slot0[1] = {}
-slot3.arg_list = {
-	weapon_id = 67102,
-	emitter = "BattleBulletEmitter"
-}
-slot2[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetNil"
-}
-slot1.effect_list = {}
-slot0[2] = {}
-slot3.arg_list = {
-	weapon_id = 67103,
-	emitter = "BattleBulletEmitter"
-}
-slot2[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetNil"
-}
-slot1.effect_list = {}
-slot0[3] = {}
-slot3.arg_list = {
-	weapon_id = 67104,
-	emitter = "BattleBulletEmitter"
-}
-slot2[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetNil"
-}
-slot3.arg_list = {
-	weapon_id = 67124,
-	emitter = "BattleBulletEmitter"
-}
-slot2[2] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetNil"
-}
-slot1.effect_list = {}
-slot0[4] = {}
-slot3.arg_list = {
-	weapon_id = 67105,
-	emitter = "BattleBulletEmitter"
-}
-slot2[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetNil"
-}
-slot3.arg_list = {
-	weapon_id = 67125,
-	emitter = "BattleBulletEmitter"
-}
-slot2[2] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetNil"
-}
-slot1.effect_list = {}
-slot0[5] = {}
-slot3.arg_list = {
-	weapon_id = 67106,
-	emitter = "BattleBulletEmitter"
-}
-slot2[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetNil"
-}
-slot3.arg_list = {
-	weapon_id = 67126,
-	emitter = "BattleBulletEmitter"
-}
-slot2[2] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetNil"
-}
-slot1.effect_list = {}
-slot0[6] = {}
-slot3.arg_list = {
-	weapon_id = 67107,
-	emitter = "BattleBulletEmitter"
-}
-slot2[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetNil"
-}
-slot3.arg_list = {
-	weapon_id = 67127,
-	emitter = "BattleBulletEmitter"
-}
-slot2[2] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetNil"
-}
-slot1.effect_list = {}
-slot0[7] = {}
-slot3.arg_list = {
-	weapon_id = 67108,
-	emitter = "BattleBulletEmitter"
-}
-slot2[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetNil"
-}
-slot3.arg_list = {
-	weapon_id = 67128,
-	emitter = "BattleBulletEmitter"
-}
-slot2[2] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetNil"
-}
-slot1.effect_list = {}
-slot0[8] = {}
-slot3.arg_list = {
-	weapon_id = 67109,
-	emitter = "BattleBulletEmitter"
-}
-slot2[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetNil"
-}
-slot3.arg_list = {
-	weapon_id = 67129,
-	emitter = "BattleBulletEmitter"
-}
-slot2[2] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetNil"
-}
-slot1.effect_list = {}
-slot0[9] = {}
-slot3.arg_list = {
-	weapon_id = 67110,
-	emitter = "BattleBulletEmitter"
-}
-slot2[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetNil"
-}
-slot3.arg_list = {
-	weapon_id = 67130,
-	emitter = "BattleBulletEmitter"
-}
-slot2[2] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetNil"
-}
-slot1.effect_list = {}
-slot0[10] = {}
-
 return {
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 67101,
+					emitter = "BattleBulletEmitter"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 67102,
+					emitter = "BattleBulletEmitter"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 67103,
+					emitter = "BattleBulletEmitter"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 67104,
+					emitter = "BattleBulletEmitter"
+				}
+			},
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 67124,
+					emitter = "BattleBulletEmitter"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 67105,
+					emitter = "BattleBulletEmitter"
+				}
+			},
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 67125,
+					emitter = "BattleBulletEmitter"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 67106,
+					emitter = "BattleBulletEmitter"
+				}
+			},
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 67126,
+					emitter = "BattleBulletEmitter"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 67107,
+					emitter = "BattleBulletEmitter"
+				}
+			},
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 67127,
+					emitter = "BattleBulletEmitter"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 67108,
+					emitter = "BattleBulletEmitter"
+				}
+			},
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 67128,
+					emitter = "BattleBulletEmitter"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 67109,
+					emitter = "BattleBulletEmitter"
+				}
+			},
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 67129,
+					emitter = "BattleBulletEmitter"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 67110,
+					emitter = "BattleBulletEmitter"
+				}
+			},
+			{
+				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
+				arg_list = {
+					weapon_id = 67130,
+					emitter = "BattleBulletEmitter"
+				}
+			}
+		}
+	},
 	uiEffect = "",
 	name = "正面火力",
 	cd = 0,
@@ -216,5 +216,25 @@ return {
 	desc = "正面火力",
 	painting = 1,
 	id = 11490,
-	castCV = "skill"
+	castCV = "skill",
+	aniEffect = {
+		effect = "jineng",
+		offset = {
+			0,
+			-2,
+			0
+		}
+	},
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetNil",
+			arg_list = {
+				weapon_id = 67100,
+				emitter = "BattleBulletEmitter"
+			}
+		}
+	}
 }

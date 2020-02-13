@@ -1,27 +1,3 @@
-slot2.trigger = {
-	"onAttach",
-	"onRemove"
-}
-slot2.arg_list = {
-	number = 1,
-	attr = "igniteResist"
-}
-slot1[1] = {
-	type = "BattleBuffAddAttr"
-}
-slot2.trigger = {
-	"onAttach",
-	"onRemove"
-}
-slot2.arg_list = {
-	add = 0,
-	mul = -4000
-}
-slot1[2] = {
-	type = "BattleBuffFixVelocity"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "潜艇下潜点燃抗性",
@@ -32,5 +8,29 @@ return {
 	stack = 1,
 	color = "blue",
 	icon = 314,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				number = 1,
+				attr = "igniteResist"
+			}
+		},
+		{
+			type = "BattleBuffFixVelocity",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				add = 0,
+				mul = -4000
+			}
+		}
+	}
 }

@@ -1,14 +1,17 @@
 pg = pg or {}
-slot1[1] = {
-	id = 1,
-	notice = 1
+pg.ins_data_template = {
+	{
+		id = 1,
+		notice = 1
+	},
+	{
+		id = 2,
+		notice = 6
+	},
+	all = {
+		1,
+		2
+	}
 }
-slot1[2] = {
-	id = 2,
-	notice = 6
-}
-slot1.all = {
-	1,
-	2
-}
-pg.ins_data_template = {}
+
+return

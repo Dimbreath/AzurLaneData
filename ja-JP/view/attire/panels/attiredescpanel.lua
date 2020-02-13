@@ -20,11 +20,12 @@ function slot0.Update(slot0, slot1, slot2)
 	slot0:UpdateIconDesc(slot1, slot2)
 
 	slot0.nameTxt.text = slot1:getConfig("name")
-	slot0.stateTxt.text = setColorStr(slot1:isOwned() and i18n("word_got") or i18n("word_not_get"), slot3 and "#3DC6FFFF" or "#a5afdf")
+	slot0.stateTxt.text = setColorStr((slot1:isOwned() and i18n("word_got")) or i18n("word_not_get"), (slot3 and "#3DC6FFFF") or "#a5afdf")
+	slot5 = slot1:expiredType()
 
 	slot0:RemoveTimer()
 
-	if slot3 and slot1:expiredType() then
+	if slot3 and slot5 then
 		slot0:AddTimer(slot1, slot2)
 	elseif slot3 and not slot5 then
 		slot0.timeTxt.text = ""
@@ -34,20 +35,20 @@ function slot0.Update(slot0, slot1, slot2)
 
 	slot0.conditionTxt.text = slot1:getConfig("desc")
 	slot6 = slot1:getState()
-	slot8 = slot2:getAttireByType(slot1:getType()) == slot1.id
 
-	setActive(slot0.applyBtn, slot6 == AttireFrame.STATE_UNLOCK and not slot8)
-	setActive(slot0.applyingBtn, slot6 == AttireFrame.STATE_UNLOCK and slot8)
+	setActive(slot0.applyBtn, slot6 == AttireFrame.STATE_UNLOCK and not (slot2:getAttireByType(slot1:getType()) == slot1.id))
+	setActive(slot0.applyingBtn, slot6 == AttireFrame.STATE_UNLOCK and slot2.getAttireByType(slot1.getType()) == slot1.id)
 	setActive(slot0.getBtn, slot6 == AttireFrame.STATE_LOCK)
 end
 
 function slot0.UpdateIconDesc(slot0, slot1, slot2)
 	slot3 = slot1:getType() == AttireConst.TYPE_ICON_FRAME
+	slot4 = slot1:getType() == AttireConst.TYPE_CHAT_FRAME
 
 	if slot0.loadedIcon and slot0.loadedIconTF then
 		slot5 = slot0.loadedIcon:getIcon()
 
-		if slot1:getType() == AttireConst.TYPE_CHAT_FRAME then
+		if slot4 then
 			slot0.loadedIconTF.transform:Find("Text"):GetComponent(typeof(Text)).supportRichText = false
 		end
 
@@ -59,31 +60,32 @@ function slot0.UpdateIconDesc(slot0, slot1, slot2)
 			slot0.startList = UIItemList.New(findTF(slot0._tf, "stars"), findTF(slot0._tf, "stars/tpl"))
 		end
 
-		PoolMgr.GetInstance():GetPrefab(slot1:getIcon(), slot1:getConfig("id"), true, function (slot0)
-			uv0.loadedIcon = uv1
-			uv0.loadedIconTF = slot0
+		PoolMgr.GetInstance():GetPrefab(slot5, slot1:getConfig("id"), true, function (slot0)
+			slot0.loadedIcon = slot0
+			slot0.loadedIconTF = slot0
 
-			setParent(slot0, uv0.frame, false)
+			setParent(slot0, slot0.frame, false)
 		end)
 
-		slot7.configId = slot2.icon
-		slot6 = Ship.New({})
+		slot6 = Ship.New({
+			configId = slot2.icon
+		})
 
 		LoadSpriteAsync("qicon/" .. slot6:getPrefab(), function (slot0)
-			uv0.icon:GetComponent(typeof(Image)).sprite = slot0
+			slot0.icon:GetComponent(typeof(Image)).sprite = slot0
 		end)
 		slot0.startList:align(slot6:getStar())
 	elseif slot4 then
 		PoolMgr.GetInstance():GetPrefab(slot1:getIcon(), slot1:getConfig("id") .. "_self", true, function (slot0)
-			uv0.loadedIcon = uv1
-			uv0.loadedIconTF = slot0
+			slot0.loadedIcon = slot0
+			slot0.loadedIconTF = slot0
 
-			setParent(slot0, uv0.chatContainer, false)
+			setParent(slot0, slot0.chatContainer, false)
 
 			tf(slot0).localPosition = Vector3(0, 0, 0)
 			findTF(slot0, "Text"):GetComponent(typeof(Text)).supportRichText = true
 
-			setText(findTF(slot0, "Text"), uv1:getConfig("desc"))
+			setText(findTF(slot0, "Text"), slot1:getConfig("desc"))
 		end)
 	end
 
@@ -93,11 +95,11 @@ end
 function slot0.AddTimer(slot0, slot1, slot2)
 	slot3 = slot1:getExpiredTime()
 	slot0.timer = Timer.New(function ()
-		if uv0 - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
-			uv1.timeTxt.text = "/ " .. attireTimeStamp(slot1)
+		if slot0 - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
+			slot1.timeTxt.text = "/ " .. attireTimeStamp(slot1)
 		else
-			uv1:Update(uv2, uv3)
-			uv1:RemoveTimer()
+			slot1:Update(slot1.Update, slot1)
+			slot1:RemoveTimer()
 		end
 	end, 1, -1)
 

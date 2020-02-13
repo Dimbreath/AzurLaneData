@@ -1,6 +1,4 @@
-slot0 = class("RefreshTechnologysCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("RefreshTechnologysCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot2 = slot1:getBody()
 
 	if getProxy(TechnologyProxy).refreshTechnologysFlag ~= 0 then
@@ -17,18 +15,14 @@ function slot0.execute(slot0, slot1)
 		type = 1
 	}, 63008, function (slot0)
 		if slot0.result == 0 then
-			_.each(uv0, function (slot0)
-				if slot0:hasCondition() then
-					slot2 = getProxy(TaskProxy)
-
-					if slot2:getTaskById(slot0:getTaskId()) then
-						slot2:removeTaskById(slot1)
-					end
+			_.each(slot0, function (slot0)
+				if slot0:hasCondition() and getProxy(TaskProxy):getTaskById(slot0:getTaskId()) then
+					slot2:removeTaskById(slot1)
 				end
 			end)
-			uv1:updateTechnologys(slot0)
-			uv1:updateRefreshFlag(1)
-			uv2:sendNotification(GAME.REFRESH_TECHNOLOGYS_DONE)
+			_.each:updateTechnologys(slot0)
+			_.each.updateTechnologys:updateRefreshFlag(1)
+			_.each.updateTechnologys:sendNotification(GAME.REFRESH_TECHNOLOGYS_DONE)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("technology_refresh_sucess"))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("technology_refresh_erro") .. slot0.result)
@@ -36,4 +30,4 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-return slot0
+return class("RefreshTechnologysCommand", pm.SimpleCommand)

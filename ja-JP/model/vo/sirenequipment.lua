@@ -8,10 +8,10 @@ function slot0.Ctor(slot0, slot1)
 	slot0.slotAttrs = {}
 
 	_.each(slot1.attrs, function (slot0)
-		slot3.name = slot0.name
-		slot3.value = slot0.value
-
-		table.insert(uv0.slotAttrs, {})
+		table.insert(slot0.slotAttrs, {
+			name = slot0.name,
+			value = slot0.value
+		})
 	end)
 	slot0:BuildConfig()
 end

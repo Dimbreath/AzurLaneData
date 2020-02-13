@@ -1,6 +1,7 @@
 slot0 = class("BattlePauseMediator", import("..base.ContextMediator"))
 
 function slot0.register(slot0)
+	return
 end
 
 function slot0.listNotificationInterests(slot0)

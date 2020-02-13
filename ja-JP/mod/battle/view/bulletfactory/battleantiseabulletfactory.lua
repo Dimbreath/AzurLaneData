@@ -1,6 +1,4 @@
-slot0 = ys
-slot0 = slot0 or {}
-ys = slot0
+ys = ys or {}
 slot0 = ys
 slot1 = slot0.Battle
 slot2 = singletonClass
@@ -17,7 +15,7 @@ slot1 = slot0.Battle
 slot1 = slot1.BattleAntiSeaBulletFactory
 
 function slot2(slot0)
-	slot1 = uv0
+	slot1 = slot0
 	slot1 = slot1.super
 	slot1 = slot1.Ctor
 	slot2 = slot0
@@ -103,24 +101,24 @@ function slot2(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot13, slot14, slot15 = nil
 
 	function slot16()
-		slot0 = uv0
+		slot0 = slot0
 
 		if slot0 then
 			slot0 = nil
-			slot1 = uv1
+			slot1 = slot1
 			slot2 = slot1
 			slot1 = slot1.GetPosition
 			slot1 = slot1(slot2)
 			slot2 = slot1
 			slot1 = slot1.Clone
 			slot1 = slot1(slot2)
-			slot2 = uv2
+			slot2 = slot2
 			slot3 = slot2
 			slot2 = slot2.IsAlive
 			slot2 = slot2(slot3)
 
 			if slot2 then
-				slot2 = uv1
+				slot2 = slot1
 
 				if slot2 then
 					slot3 = slot1
@@ -128,17 +126,17 @@ function slot2(slot0, slot1, slot2, slot3, slot4, slot5)
 					slot4 = Vector3
 					slot5 = math
 					slot5 = slot5.random
-					slot6 = uv3
+					slot6 = slot3
 					slot5 = slot5(slot6)
-					slot6 = uv3
+					slot6 = slot3
 					slot6 = slot6 * 0.5
 					slot5 = slot5 - slot6
 					slot6 = 0
 					slot7 = math
 					slot7 = slot7.random
-					slot8 = uv3
+					slot8 = slot3
 					slot7 = slot7(slot8)
-					slot8 = uv3
+					slot8 = slot3
 					slot8 = slot8 * 0.5
 					slot7 = slot7 - slot8
 					slot2 = slot2(slot3, slot4(slot5, slot6, slot7))
@@ -148,13 +146,13 @@ function slot2(slot0, slot1, slot2, slot3, slot4, slot5)
 				slot0 = slot1
 			end
 
-			slot2 = uv4
+			slot2 = slot4
 			slot3 = slot2
 			slot2 = slot2.GetFXPool
 			slot2 = slot2(slot3)
 			slot3 = slot2
 			slot2 = slot2.GetFX
-			slot4 = uv5
+			slot4 = slot5
 			slot5 = slot4
 			slot4 = slot4.GetTemplate
 			slot4 = slot4(slot5)
@@ -178,24 +176,24 @@ function slot2(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 
 	function slot17()
-		slot0 = uv0
+		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.IsAlive
 		slot0 = slot0(slot1)
 
 		if slot0 then
-			slot0 = uv1
+			slot0 = slot1
 			slot1 = slot0
 			slot0 = slot0.HandleDamage
-			slot2 = uv2
-			slot3 = uv0
+			slot2 = slot2
+			slot3 = slot0
 
 			slot0(slot1, slot2, slot3)
 
-			slot0 = uv1
+			slot0 = slot1
 			slot1 = slot0
 			slot0 = slot0.RemoveBulletUnit
-			slot2 = uv2
+			slot2 = slot2
 			slot3 = slot2
 			slot2 = slot2.GetUniqueID
 
@@ -208,16 +206,16 @@ function slot2(slot0, slot1, slot2, slot3, slot4, slot5)
 		slot0 = slot0()
 		slot1 = slot0
 		slot0 = slot0.RemoveBattleTimer
-		slot2 = uv3
+		slot2 = slot3
 
 		slot0(slot1, slot2)
 
-		slot0 = uv4
+		slot0 = slot4
 		slot0 = slot0._tmpTimerList
-		slot1 = uv3
+		slot1 = slot3
 		slot2 = nil
 		slot0[slot1] = slot2
-		uv3 = nil
+		slot3 = nil
 	end
 
 	slot18 = pg
@@ -284,3 +282,5 @@ function slot2(slot0, slot1, slot2, slot3, slot4, slot5)
 end
 
 slot1.CreateBullet = slot2
+
+return

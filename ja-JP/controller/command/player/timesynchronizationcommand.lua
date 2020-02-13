@@ -1,20 +1,12 @@
-slot0 = class("TimeSynchronizationCommand", pm.SimpleCommand)
+class("TimeSynchronizationCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	pg.TimeMgr.GetInstance():SetServerTime(slot1:getBody().timestamp, slot1.getBody().monday_0oclock_timestamp)
+	getProxy(BuildShipProxy).setBuildShipState(slot3)
 
-function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
-
-	pg.TimeMgr.GetInstance():SetServerTime(slot2.timestamp, slot2.monday_0oclock_timestamp)
-	getProxy(BuildShipProxy):setBuildShipState()
-
-	slot4 = getProxy(PlayerProxy)
-
-	if slot4:getData() then
+	if getProxy(PlayerProxy):getData() then
 		slot4:flushTimesListener()
 	end
 
-	slot5 = getProxy(ShopsProxy)
-
-	if slot5:getGuildShop() then
+	if getProxy(ShopsProxy):getGuildShop() then
 		slot5:addGuildShopRefreshTimer()
 	end
 
@@ -24,12 +16,10 @@ function slot0.execute(slot0, slot1)
 		slot3:addExChangeItemTimer()
 	end
 
-	slot8 = getProxy(MilitaryExerciseProxy)
-
-	if slot8:getSeasonInfo() then
+	if getProxy(MilitaryExerciseProxy):getSeasonInfo() then
 		slot8:addRefreshCountTimer()
 		slot8:addSeasonOverTimer()
 	end
 end
 
-return slot0
+return class("TimeSynchronizationCommand", pm.SimpleCommand)

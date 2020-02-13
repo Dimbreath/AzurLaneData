@@ -1,233 +1,244 @@
-slot0.blink = {
-	0,
-	0.7,
-	1,
-	0.3,
-	0.3
-}
-slot0.effect_list = {}
-slot3.trigger = {
-	"onAttach"
-}
-slot3.arg_list = {
-	number = 500,
-	attr = "antiAirPower"
-}
-slot2[1] = {
-	type = "BattleBuffAddAttrRatio"
-}
-slot3.trigger = {
-	"onAttach"
-}
-slot3.arg_list = {
-	number = -1500,
-	attr = "cannonPower"
-}
-slot2[2] = {
-	type = "BattleBuffAddAttrRatio"
-}
-slot1.effect_list = {}
-slot0[1] = {}
-slot3.trigger = {
-	"onAttach"
-}
-slot3.arg_list = {
-	number = 610,
-	attr = "antiAirPower"
-}
-slot2[1] = {
-	type = "BattleBuffAddAttrRatio"
-}
-slot3.trigger = {
-	"onAttach"
-}
-slot3.arg_list = {
-	number = -1380,
-	attr = "cannonPower"
-}
-slot2[2] = {
-	type = "BattleBuffAddAttrRatio"
-}
-slot1.effect_list = {}
-slot0[2] = {}
-slot3.trigger = {
-	"onAttach"
-}
-slot3.arg_list = {
-	number = 720,
-	attr = "antiAirPower"
-}
-slot2[1] = {
-	type = "BattleBuffAddAttrRatio"
-}
-slot3.trigger = {
-	"onAttach"
-}
-slot3.arg_list = {
-	number = -1270,
-	attr = "cannonPower"
-}
-slot2[2] = {
-	type = "BattleBuffAddAttrRatio"
-}
-slot1.effect_list = {}
-slot0[3] = {}
-slot3.trigger = {
-	"onAttach"
-}
-slot3.arg_list = {
-	number = 830,
-	attr = "antiAirPower"
-}
-slot2[1] = {
-	type = "BattleBuffAddAttrRatio"
-}
-slot3.trigger = {
-	"onAttach"
-}
-slot3.arg_list = {
-	number = -1160,
-	attr = "cannonPower"
-}
-slot2[2] = {
-	type = "BattleBuffAddAttrRatio"
-}
-slot1.effect_list = {}
-slot0[4] = {}
-slot3.trigger = {
-	"onAttach"
-}
-slot3.arg_list = {
-	number = 940,
-	attr = "antiAirPower"
-}
-slot2[1] = {
-	type = "BattleBuffAddAttrRatio"
-}
-slot3.trigger = {
-	"onAttach"
-}
-slot3.arg_list = {
-	number = -1050,
-	attr = "cannonPower"
-}
-slot2[2] = {
-	type = "BattleBuffAddAttrRatio"
-}
-slot1.effect_list = {}
-slot0[5] = {}
-slot3.trigger = {
-	"onAttach"
-}
-slot3.arg_list = {
-	number = 1050,
-	attr = "antiAirPower"
-}
-slot2[1] = {
-	type = "BattleBuffAddAttrRatio"
-}
-slot3.trigger = {
-	"onAttach"
-}
-slot3.arg_list = {
-	number = -940,
-	attr = "cannonPower"
-}
-slot2[2] = {
-	type = "BattleBuffAddAttrRatio"
-}
-slot1.effect_list = {}
-slot0[6] = {}
-slot3.trigger = {
-	"onAttach"
-}
-slot3.arg_list = {
-	number = 1160,
-	attr = "antiAirPower"
-}
-slot2[1] = {
-	type = "BattleBuffAddAttrRatio"
-}
-slot3.trigger = {
-	"onAttach"
-}
-slot3.arg_list = {
-	number = -830,
-	attr = "cannonPower"
-}
-slot2[2] = {
-	type = "BattleBuffAddAttrRatio"
-}
-slot1.effect_list = {}
-slot0[7] = {}
-slot3.trigger = {
-	"onAttach"
-}
-slot3.arg_list = {
-	number = 1270,
-	attr = "antiAirPower"
-}
-slot2[1] = {
-	type = "BattleBuffAddAttrRatio"
-}
-slot3.trigger = {
-	"onAttach"
-}
-slot3.arg_list = {
-	number = -720,
-	attr = "cannonPower"
-}
-slot2[2] = {
-	type = "BattleBuffAddAttrRatio"
-}
-slot1.effect_list = {}
-slot0[8] = {}
-slot3.trigger = {
-	"onAttach"
-}
-slot3.arg_list = {
-	number = 1380,
-	attr = "antiAirPower"
-}
-slot2[1] = {
-	type = "BattleBuffAddAttrRatio"
-}
-slot3.trigger = {
-	"onAttach"
-}
-slot3.arg_list = {
-	number = -610,
-	attr = "cannonPower"
-}
-slot2[2] = {
-	type = "BattleBuffAddAttrRatio"
-}
-slot1.effect_list = {}
-slot0[9] = {}
-slot3.trigger = {
-	"onAttach"
-}
-slot3.arg_list = {
-	number = 1500,
-	attr = "antiAirPower"
-}
-slot2[1] = {
-	type = "BattleBuffAddAttrRatio"
-}
-slot3.trigger = {
-	"onAttach"
-}
-slot3.arg_list = {
-	number = -500,
-	attr = "cannonPower"
-}
-slot2[2] = {
-	type = "BattleBuffAddAttrRatio"
-}
-slot1.effect_list = {}
-slot0[10] = {}
-
 return {
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 500,
+					attr = "antiAirPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -1500,
+					attr = "cannonPower"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 610,
+					attr = "antiAirPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -1380,
+					attr = "cannonPower"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 720,
+					attr = "antiAirPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -1270,
+					attr = "cannonPower"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 830,
+					attr = "antiAirPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -1160,
+					attr = "cannonPower"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 940,
+					attr = "antiAirPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -1050,
+					attr = "cannonPower"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 1050,
+					attr = "antiAirPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -940,
+					attr = "cannonPower"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 1160,
+					attr = "antiAirPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -830,
+					attr = "cannonPower"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 1270,
+					attr = "antiAirPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -720,
+					attr = "cannonPower"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 1380,
+					attr = "antiAirPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -610,
+					attr = "cannonPower"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 1500,
+					attr = "antiAirPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -500,
+					attr = "cannonPower"
+				}
+			}
+		}
+	},
 	name = "比洛克西通用技能",
 	init_effect = "",
 	time = 0,
@@ -236,5 +247,13 @@ return {
 	stack = 1,
 	id = 2200,
 	icon = 2201,
-	last_effect = ""
+	last_effect = "",
+	blink = {
+		0,
+		0.7,
+		1,
+		0.3,
+		0.3
+	},
+	effect_list = {}
 }

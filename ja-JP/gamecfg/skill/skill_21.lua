@@ -1,14 +1,3 @@
-slot2.arg_list = {
-	weapon_id = 54001
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetHarmRandomByWeight"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "轻航空中支援Lv2",
@@ -17,5 +6,16 @@ return {
 	aniEffect = "",
 	desc = "轻航空中支援Lv2",
 	painting = 0,
-	id = 21
+	id = 21,
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetHarmRandomByWeight",
+			arg_list = {
+				weapon_id = 54001
+			}
+		}
+	}
 }

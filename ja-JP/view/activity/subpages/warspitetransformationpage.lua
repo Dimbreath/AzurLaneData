@@ -12,18 +12,16 @@ end
 
 function slot0.OnDataSetting(slot0)
 	if slot0.activity.data4 == 0 and slot1.data2 >= 7 then
-		slot5.activity_id = slot1.id
-
 		slot0:emit(ActivityMediator.EVENT_OPERATION, {
-			cmd = 3
+			cmd = 3,
+			activity_id = slot1.id
 		})
 
 		return true
 	elseif defaultValue(slot1.data2_list[1], 0) > 0 or defaultValue(slot1.data2_list[2], 0) > 0 then
-		slot5.activity_id = slot1.id
-
 		slot0:emit(ActivityMediator.EVENT_OPERATION, {
-			cmd = 2
+			cmd = 2,
+			activity_id = slot1.id
 		})
 
 		return true
@@ -31,50 +29,48 @@ function slot0.OnDataSetting(slot0)
 end
 
 function slot0.OnFirstFlush(slot0)
-	slot2 = slot0.activity:getConfig("config_client")[2]
 	slot3 = {
-		type = slot2[1],
-		id = slot2[2],
-		count = slot2[3]
+		type = slot0.activity.getConfig(slot1, "config_client")[2][1],
+		id = slot0.activity.getConfig(slot1, "config_client")[2][2],
+		count = slot0.activity.getConfig(slot1, "config_client")[2][3]
 	}
 
 	onButton(slot0, slot0.mainAward, function ()
-		uv0:emit(BaseUI.ON_DROP, uv1)
+		slot0:emit(BaseUI.ON_DROP, slot0)
 	end, SFX_PANEL)
 
 	for slot7 = 1, 7, 1 do
-		slot9 = slot1:getConfig("config_client")[1]
 		slot10 = {
-			type = slot9[1],
-			id = slot9[2],
-			count = slot9[3]
+			type = slot1:getConfig("config_client")[1][1],
+			id = slot1.getConfig("config_client")[1][2],
+			count = slot1.getConfig("config_client")[1][3]
 		}
 
 		onButton(slot0, slot0.subAwards[slot7], function ()
-			uv0:emit(BaseUI.ON_DROP, uv1)
+			slot0:emit(BaseUI.ON_DROP, slot0)
 		end, SFX_PANEL)
 	end
 
 	onButton(slot0, slot0.tip, function ()
-		slot2.type = MSGBOX_TYPE_HELP
-		slot2.helps = pg.gametip.goldship_help_tip.tip
-
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.goldship_help_tip.tip
+		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.btn, function ()
-		uv0:emit(ActivityMediator.GO_DODGEM)
+		slot0:emit(ActivityMediator.GO_DODGEM)
 	end, SFX_PANEL)
 end
 
 function slot0.OnUpdateFlush(slot0)
-	slot1 = slot0.activity
 	slot2 = pg.TimeMgr.GetInstance()
+	slot3 = slot2:DiffDay(slot0.activity.data1, slot2:GetServerTime()) + 1
 
-	setActive(findTF(slot0.mainAward, "get"), slot1.data4 > 0)
+	setActive(findTF(slot0.mainAward, "get"), slot0.activity.data4 > 0)
 
 	for slot7 = 1, 7, 1 do
-		setActive(findTF(slot0.subAwards[slot7], "get"), slot7 <= slot1.data2)
-		setActive(findTF(slot8, "lock"), slot2:DiffDay(slot1.data1, slot2:GetServerTime()) + 1 < slot7)
+		setActive(findTF(slot8, "get"), slot7 <= slot1.data2)
+		setActive(findTF(slot8, "lock"), slot3 < slot7)
 	end
 
 	setText(slot0.step, slot1.data2)
@@ -82,10 +78,11 @@ function slot0.OnUpdateFlush(slot0)
 end
 
 function slot0.Clone2Full(slot0, slot1, slot2)
+	slot3 = {}
 	slot4 = slot1:GetChild(0)
 
 	for slot9 = 0, slot1.childCount - 1, 1 do
-		table.insert({}, slot1:GetChild(slot9))
+		table.insert(slot3, slot1:GetChild(slot9))
 	end
 
 	for slot9 = slot5, slot2 - 1, 1 do

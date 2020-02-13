@@ -7,38 +7,38 @@ slot0.ON_AWARD = "MonopolyGame:ON_AWARD"
 function slot0.OnInit(slot0)
 	slot0.bg = slot0:findTF("AD")
 
-	slot0:bind(uv0.ON_START, function (slot0, slot1, slot2)
-		slot6.activity_id = slot1
-		slot6.cmd = ActivityConst.MONOPOLY_OP_THROW
-		slot6.callback = slot2
-
-		pg.m02:sendNotification(GAME.MONOPOLY_OP, {})
+	slot0:bind(slot0.ON_START, function (slot0, slot1, slot2)
+		pg.m02:sendNotification(GAME.MONOPOLY_OP, {
+			activity_id = slot1,
+			cmd = ActivityConst.MONOPOLY_OP_THROW,
+			callback = slot2
+		})
 	end)
-	slot0:bind(uv0.ON_MOVE, function (slot0, slot1, slot2)
-		slot6.activity_id = slot1
-		slot6.cmd = ActivityConst.MONOPOLY_OP_MOVE
-		slot6.callback = slot2
-
-		pg.m02:sendNotification(GAME.MONOPOLY_OP, {})
+	slot0:bind(slot0.ON_MOVE, function (slot0, slot1, slot2)
+		pg.m02:sendNotification(GAME.MONOPOLY_OP, {
+			activity_id = slot1,
+			cmd = ActivityConst.MONOPOLY_OP_MOVE,
+			callback = slot2
+		})
 	end)
-	slot0:bind(uv0.ON_TRIGGER, function (slot0, slot1, slot2)
-		slot6.activity_id = slot1
-		slot6.cmd = ActivityConst.MONOPOLY_OP_TRIGGER
-		slot6.callback = slot2
-
-		pg.m02:sendNotification(GAME.MONOPOLY_OP, {})
+	slot0:bind(slot0.ON_TRIGGER, function (slot0, slot1, slot2)
+		pg.m02:sendNotification(GAME.MONOPOLY_OP, {
+			activity_id = slot1,
+			cmd = ActivityConst.MONOPOLY_OP_TRIGGER,
+			callback = slot2
+		})
 	end)
-	slot0:bind(uv0.ON_AWARD, function (slot0)
+	slot0:bind(slot0.ON_AWARD, function (slot0)
 		if PLATFORM_CHT == PLATFORM_CODE then
-			slot4.activity_id = uv0.activity.id
-			slot4.cmd = ActivityConst.MONOPOLY_OP_AWARD
-
-			pg.m02:sendNotification(GAME.MONOPOLY_OP, {})
+			pg.m02:sendNotification(GAME.MONOPOLY_OP, {
+				activity_id = slot0.activity.id,
+				cmd = ActivityConst.MONOPOLY_OP_AWARD
+			})
 		else
-			slot5.mediator = RedPacketMediator
-			slot5.viewComponent = RedPacketLayer
-
-			uv0:emit(ActivityMediator.OPEN_LAYER, Context.New({}))
+			slot0:emit(ActivityMediator.OPEN_LAYER, Context.New({
+				mediator = RedPacketMediator,
+				viewComponent = RedPacketLayer
+			}))
 		end
 	end)
 end

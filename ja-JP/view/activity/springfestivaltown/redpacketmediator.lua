@@ -1,13 +1,14 @@
 slot0 = class("RedPacketMediator", import("...base.ContextMediator"))
 
 function slot0.register(slot0)
+	return
 end
 
 function slot0.listNotificationInterests(slot0)
-	slot1[1] = ActivityProxy.ACTIVITY_SHOW_RED_PACKET_AWARDS
-	slot1[2] = ActivityProxy.ACTIVITY_UPDATED
-
-	return {}
+	return {
+		ActivityProxy.ACTIVITY_SHOW_RED_PACKET_AWARDS,
+		ActivityProxy.ACTIVITY_UPDATED
+	}
 end
 
 function slot0.handleNotification(slot0, slot1)

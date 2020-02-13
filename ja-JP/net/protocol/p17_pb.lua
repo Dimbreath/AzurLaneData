@@ -160,13 +160,14 @@ SC_17001.name = "sc_17001"
 SC_17001.full_name = ".p17.sc_17001"
 SC_17001.nested_types = {}
 SC_17001.enum_types = {}
-slot69[1] = slot1
-slot69[2] = slot2
-slot69[3] = slot3
-slot69[4] = slot4
-slot69[5] = slot5
-slot69[6] = slot6
-SC_17001.fields = {}
+SC_17001.fields = {
+	slot1,
+	slot2,
+	slot3,
+	slot4,
+	slot5,
+	slot6
+}
 SC_17001.is_extendable = false
 SC_17001.extensions = {}
 slot7.name = "progress_list"
@@ -183,8 +184,9 @@ SC_17002.name = "sc_17002"
 SC_17002.full_name = ".p17.sc_17002"
 SC_17002.nested_types = {}
 SC_17002.enum_types = {}
-slot69[1] = slot7
-SC_17002.fields = {}
+SC_17002.fields = {
+	slot7
+}
 SC_17002.is_extendable = false
 SC_17002.extensions = {}
 slot8.name = "id_list"
@@ -200,8 +202,9 @@ SC_17003.name = "sc_17003"
 SC_17003.full_name = ".p17.sc_17003"
 SC_17003.nested_types = {}
 SC_17003.enum_types = {}
-slot69[1] = slot8
-SC_17003.fields = {}
+SC_17003.fields = {
+	slot8
+}
 SC_17003.is_extendable = false
 SC_17003.extensions = {}
 slot9.name = "ship_info"
@@ -218,8 +221,9 @@ SC_17004.name = "sc_17004"
 SC_17004.full_name = ".p17.sc_17004"
 SC_17004.nested_types = {}
 SC_17004.enum_types = {}
-slot69[1] = slot9
-SC_17004.fields = {}
+SC_17004.fields = {
+	slot9
+}
 SC_17004.is_extendable = false
 SC_17004.extensions = {}
 slot10.name = "id"
@@ -244,9 +248,10 @@ CS_17005.name = "cs_17005"
 CS_17005.full_name = ".p17.cs_17005"
 CS_17005.nested_types = {}
 CS_17005.enum_types = {}
-slot69[1] = slot10
-slot69[2] = slot11
-CS_17005.fields = {}
+CS_17005.fields = {
+	slot10,
+	slot11
+}
 CS_17005.is_extendable = false
 CS_17005.extensions = {}
 slot12.name = "result"
@@ -262,8 +267,9 @@ SC_17006.name = "sc_17006"
 SC_17006.full_name = ".p17.sc_17006"
 SC_17006.nested_types = {}
 SC_17006.enum_types = {}
-slot69[1] = slot12
-SC_17006.fields = {}
+SC_17006.fields = {
+	slot12
+}
 SC_17006.is_extendable = false
 SC_17006.extensions = {}
 slot13.name = "ship_group_id"
@@ -279,8 +285,9 @@ CS_17101.name = "cs_17101"
 CS_17101.full_name = ".p17.cs_17101"
 CS_17101.nested_types = {}
 CS_17101.enum_types = {}
-slot69[1] = slot13
-CS_17101.fields = {}
+CS_17101.fields = {
+	slot13
+}
 CS_17101.is_extendable = false
 CS_17101.extensions = {}
 slot14.name = "ship_discuss"
@@ -297,8 +304,9 @@ SC_17102.name = "sc_17102"
 SC_17102.full_name = ".p17.sc_17102"
 SC_17102.nested_types = {}
 SC_17102.enum_types = {}
-slot69[1] = slot14
-SC_17102.fields = {}
+SC_17102.fields = {
+	slot14
+}
 SC_17102.is_extendable = false
 SC_17102.extensions = {}
 slot15.name = "ship_group_id"
@@ -323,9 +331,10 @@ CS_17103.name = "cs_17103"
 CS_17103.full_name = ".p17.cs_17103"
 CS_17103.nested_types = {}
 CS_17103.enum_types = {}
-slot69[1] = slot15
-slot69[2] = slot16
-CS_17103.fields = {}
+CS_17103.fields = {
+	slot15,
+	slot16
+}
 CS_17103.is_extendable = false
 CS_17103.extensions = {}
 slot17.name = "result"
@@ -351,9 +360,10 @@ SC_17104.name = "sc_17104"
 SC_17104.full_name = ".p17.sc_17104"
 SC_17104.nested_types = {}
 SC_17104.enum_types = {}
-slot69[1] = slot17
-slot69[2] = slot18
-SC_17104.fields = {}
+SC_17104.fields = {
+	slot17,
+	slot18
+}
 SC_17104.is_extendable = false
 SC_17104.extensions = {}
 slot19.name = "ship_group_id"
@@ -387,10 +397,11 @@ CS_17105.name = "cs_17105"
 CS_17105.full_name = ".p17.cs_17105"
 CS_17105.nested_types = {}
 CS_17105.enum_types = {}
-slot69[1] = slot19
-slot69[2] = slot20
-slot69[3] = slot21
-CS_17105.fields = {}
+CS_17105.fields = {
+	slot19,
+	slot20,
+	slot21
+}
 CS_17105.is_extendable = false
 CS_17105.extensions = {}
 slot22.name = "result"
@@ -406,8 +417,9 @@ SC_17106.name = "sc_17106"
 SC_17106.full_name = ".p17.sc_17106"
 SC_17106.nested_types = {}
 SC_17106.enum_types = {}
-slot69[1] = slot22
-SC_17106.fields = {}
+SC_17106.fields = {
+	slot22
+}
 SC_17106.is_extendable = false
 SC_17106.extensions = {}
 slot23.name = "ship_group_id"
@@ -423,8 +435,9 @@ CS_17107.name = "cs_17107"
 CS_17107.full_name = ".p17.cs_17107"
 CS_17107.nested_types = {}
 CS_17107.enum_types = {}
-slot69[1] = slot23
-CS_17107.fields = {}
+CS_17107.fields = {
+	slot23
+}
 CS_17107.is_extendable = false
 CS_17107.extensions = {}
 slot24.name = "result"
@@ -440,8 +453,9 @@ SC_17108.name = "sc_17108"
 SC_17108.full_name = ".p17.sc_17108"
 SC_17108.nested_types = {}
 SC_17108.enum_types = {}
-slot69[1] = slot24
-SC_17108.fields = {}
+SC_17108.fields = {
+	slot24
+}
 SC_17108.is_extendable = false
 SC_17108.extensions = {}
 slot25.name = "type"
@@ -457,8 +471,9 @@ CS_17201.name = "cs_17201"
 CS_17201.full_name = ".p17.cs_17201"
 CS_17201.nested_types = {}
 CS_17201.enum_types = {}
-slot69[1] = slot25
-CS_17201.fields = {}
+CS_17201.fields = {
+	slot25
+}
 CS_17201.is_extendable = false
 CS_17201.extensions = {}
 slot26.name = "daily_vote"
@@ -492,10 +507,11 @@ SC_17202.name = "sc_17202"
 SC_17202.full_name = ".p17.sc_17202"
 SC_17202.nested_types = {}
 SC_17202.enum_types = {}
-slot69[1] = slot26
-slot69[2] = slot27
-slot69[3] = slot28
-SC_17202.fields = {}
+SC_17202.fields = {
+	slot26,
+	slot27,
+	slot28
+}
 SC_17202.is_extendable = false
 SC_17202.extensions = {}
 slot29.name = "type"
@@ -511,8 +527,9 @@ CS_17203.name = "cs_17203"
 CS_17203.full_name = ".p17.cs_17203"
 CS_17203.nested_types = {}
 CS_17203.enum_types = {}
-slot69[1] = slot29
-CS_17203.fields = {}
+CS_17203.fields = {
+	slot29
+}
 CS_17203.is_extendable = false
 CS_17203.extensions = {}
 slot30.name = "list"
@@ -529,8 +546,9 @@ SC_17204.name = "sc_17204"
 SC_17204.full_name = ".p17.sc_17204"
 SC_17204.nested_types = {}
 SC_17204.enum_types = {}
-slot69[1] = slot30
-SC_17204.fields = {}
+SC_17204.fields = {
+	slot30
+}
 SC_17204.is_extendable = false
 SC_17204.extensions = {}
 slot31.name = "medal_id"
@@ -555,9 +573,10 @@ CS_17401.name = "cs_17401"
 CS_17401.full_name = ".p17.cs_17401"
 CS_17401.nested_types = {}
 CS_17401.enum_types = {}
-slot69[1] = slot31
-slot69[2] = slot32
-CS_17401.fields = {}
+CS_17401.fields = {
+	slot31,
+	slot32
+}
 CS_17401.is_extendable = false
 CS_17401.extensions = {}
 slot33.name = "result"
@@ -573,8 +592,9 @@ SC_17402.name = "sc_17402"
 SC_17402.full_name = ".p17.sc_17402"
 SC_17402.nested_types = {}
 SC_17402.enum_types = {}
-slot69[1] = slot33
-SC_17402.fields = {}
+SC_17402.fields = {
+	slot33
+}
 SC_17402.is_extendable = false
 SC_17402.extensions = {}
 slot34.name = "id"
@@ -590,8 +610,9 @@ CS_17301.name = "cs_17301"
 CS_17301.full_name = ".p17.cs_17301"
 CS_17301.nested_types = {}
 CS_17301.enum_types = {}
-slot69[1] = slot34
-CS_17301.fields = {}
+CS_17301.fields = {
+	slot34
+}
 CS_17301.is_extendable = false
 CS_17301.extensions = {}
 slot35.name = "result"
@@ -626,10 +647,11 @@ SC_17302.name = "sc_17302"
 SC_17302.full_name = ".p17.sc_17302"
 SC_17302.nested_types = {}
 SC_17302.enum_types = {}
-slot69[1] = slot35
-slot69[2] = slot36
-slot69[3] = slot37
-SC_17302.fields = {}
+SC_17302.fields = {
+	slot35,
+	slot36,
+	slot37
+}
 SC_17302.is_extendable = false
 SC_17302.extensions = {}
 slot38.name = "id"
@@ -654,9 +676,10 @@ ATTIRE_INFO.name = "attire_info"
 ATTIRE_INFO.full_name = ".p17.attire_info"
 ATTIRE_INFO.nested_types = {}
 ATTIRE_INFO.enum_types = {}
-slot69[1] = slot38
-slot69[2] = slot39
-ATTIRE_INFO.fields = {}
+ATTIRE_INFO.fields = {
+	slot38,
+	slot39
+}
 ATTIRE_INFO.is_extendable = false
 ATTIRE_INFO.extensions = {}
 slot40.name = "id"
@@ -690,10 +713,11 @@ ACHIEVEMENT_INFO.name = "achievement_info"
 ACHIEVEMENT_INFO.full_name = ".p17.achievement_info"
 ACHIEVEMENT_INFO.nested_types = {}
 ACHIEVEMENT_INFO.enum_types = {}
-slot69[1] = slot40
-slot69[2] = slot41
-slot69[3] = slot42
-ACHIEVEMENT_INFO.fields = {}
+ACHIEVEMENT_INFO.fields = {
+	slot40,
+	slot41,
+	slot42
+}
 ACHIEVEMENT_INFO.is_extendable = false
 ACHIEVEMENT_INFO.extensions = {}
 slot43.name = "id"
@@ -763,14 +787,15 @@ SHIP_STATISTICS_INFO.name = "ship_statistics_info"
 SHIP_STATISTICS_INFO.full_name = ".p17.ship_statistics_info"
 SHIP_STATISTICS_INFO.nested_types = {}
 SHIP_STATISTICS_INFO.enum_types = {}
-slot69[1] = slot43
-slot69[2] = slot44
-slot69[3] = slot45
-slot69[4] = slot46
-slot69[5] = slot47
-slot69[6] = slot48
-slot69[7] = slot49
-SHIP_STATISTICS_INFO.fields = {}
+SHIP_STATISTICS_INFO.fields = {
+	slot43,
+	slot44,
+	slot45,
+	slot46,
+	slot47,
+	slot48,
+	slot49
+}
 SHIP_STATISTICS_INFO.is_extendable = false
 SHIP_STATISTICS_INFO.extensions = {}
 slot50.name = "id"
@@ -795,9 +820,10 @@ SHIP_STATISTICS_AWARD.name = "ship_statistics_award"
 SHIP_STATISTICS_AWARD.full_name = ".p17.ship_statistics_award"
 SHIP_STATISTICS_AWARD.nested_types = {}
 SHIP_STATISTICS_AWARD.enum_types = {}
-slot69[1] = slot50
-slot69[2] = slot51
-SHIP_STATISTICS_AWARD.fields = {}
+SHIP_STATISTICS_AWARD.fields = {
+	slot50,
+	slot51
+}
 SHIP_STATISTICS_AWARD.is_extendable = false
 SHIP_STATISTICS_AWARD.extensions = {}
 slot52.name = "ship_group_id"
@@ -850,12 +876,13 @@ SHIP_DISCUSS_INFO.name = "ship_discuss_info"
 SHIP_DISCUSS_INFO.full_name = ".p17.ship_discuss_info"
 SHIP_DISCUSS_INFO.nested_types = {}
 SHIP_DISCUSS_INFO.enum_types = {}
-slot69[1] = slot52
-slot69[2] = slot53
-slot69[3] = slot54
-slot69[4] = slot55
-slot69[5] = slot56
-SHIP_DISCUSS_INFO.fields = {}
+SHIP_DISCUSS_INFO.fields = {
+	slot52,
+	slot53,
+	slot54,
+	slot55,
+	slot56
+}
 SHIP_DISCUSS_INFO.is_extendable = false
 SHIP_DISCUSS_INFO.extensions = {}
 slot57.name = "id"
@@ -907,12 +934,13 @@ DISCUSS_INFO.name = "discuss_info"
 DISCUSS_INFO.full_name = ".p17.discuss_info"
 DISCUSS_INFO.nested_types = {}
 DISCUSS_INFO.enum_types = {}
-slot69[1] = slot57
-slot69[2] = slot58
-slot69[3] = slot59
-slot69[4] = slot60
-slot69[5] = slot61
-DISCUSS_INFO.fields = {}
+DISCUSS_INFO.fields = {
+	slot57,
+	slot58,
+	slot59,
+	slot60,
+	slot61
+}
 DISCUSS_INFO.is_extendable = false
 DISCUSS_INFO.extensions = {}
 slot62.name = "id"
@@ -937,9 +965,10 @@ VOTEINFO.name = "voteinfo"
 VOTEINFO.full_name = ".p17.voteinfo"
 VOTEINFO.nested_types = {}
 VOTEINFO.enum_types = {}
-slot69[1] = slot62
-slot69[2] = slot63
-VOTEINFO.fields = {}
+VOTEINFO.fields = {
+	slot62,
+	slot63
+}
 VOTEINFO.is_extendable = false
 VOTEINFO.extensions = {}
 slot64.name = "key"
@@ -982,11 +1011,12 @@ MULKEYVALUE.name = "mulkeyvalue"
 MULKEYVALUE.full_name = ".p17.mulkeyvalue"
 MULKEYVALUE.nested_types = {}
 MULKEYVALUE.enum_types = {}
-slot69[1] = slot64
-slot69[2] = slot65
-slot69[3] = slot66
-slot69[4] = slot67
-MULKEYVALUE.fields = {}
+MULKEYVALUE.fields = {
+	slot64,
+	slot65,
+	slot66,
+	slot67
+}
 MULKEYVALUE.is_extendable = false
 MULKEYVALUE.extensions = {}
 achievement_info = slot0.Message(ACHIEVEMENT_INFO)
@@ -1019,3 +1049,5 @@ ship_discuss_info = slot0.Message(SHIP_DISCUSS_INFO)
 ship_statistics_award = slot0.Message(SHIP_STATISTICS_AWARD)
 ship_statistics_info = slot0.Message(SHIP_STATISTICS_INFO)
 voteinfo = slot0.Message(VOTEINFO)
+
+return

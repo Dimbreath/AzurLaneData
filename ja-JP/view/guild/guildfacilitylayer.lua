@@ -2,32 +2,27 @@ slot0 = class("GuildFacilityLayer", import("..base.BaseUI"))
 slot1 = 0.3
 
 function slot0.getUIName(slot0)
-	slot1 = getProxy(GuildProxy)
-
-	if slot1:getData() then
+	if getProxy(GuildProxy):getData() then
 		return slot1:getFacilityUIName()
 	end
 end
 
 function slot0.setPlayerVO(slot0, slot1)
 	slot0.playerVO = slot1
-	slot2 = slot0.resPanel
 
-	slot2:setResources(slot1)
+	slot0.resPanel:setResources(slot1)
 end
 
 function slot0.getPlayerJurisdiction(slot0)
-	slot1 = slot0.guildVO
-
-	return slot1:getDutyByMemberId(slot0.playerVO.id) == GuildMember.DUTY_COMMANDER or slot1 == GuildMember.DUTY_DEPUTY_COMMANDE
+	return slot0.guildVO:getDutyByMemberId(slot0.playerVO.id) == GuildMember.DUTY_COMMANDER or slot1 == GuildMember.DUTY_DEPUTY_COMMANDE
 end
 
 function slot0.setGuildVO(slot0, slot1)
 	slot0.guildVO = slot1
 
 	slot0:updateGuildResources()
-	slot0.setFacilityVOs(slot0, slot1.facilitys or {})
-	slot0.setFacilityLogs(slot0, slot1.facilityLogs or {})
+	slot0:setFacilityVOs(slot1.facilitys or {})
+	slot0:setFacilityLogs(slot1.facilityLogs or {})
 end
 
 function slot0.setFacilityLogs(slot0, slot1)
@@ -36,7 +31,7 @@ end
 
 function slot0.addFacilityLogs(slot0, slot1)
 	_.each(slot1, function (slot0)
-		table.insert(uv0.facilityLogs, slot0)
+		table.insert(slot0.facilityLogs, slot0)
 	end)
 end
 
@@ -51,13 +46,11 @@ end
 function slot0.init(slot0)
 	slot0.scrollTxts = {}
 	slot0.projectToggles = {}
-	slot1 = slot0:findTF("top_panel/res/Text")
-	slot0.oilTotalTxt = slot1:GetComponent(typeof(Text))
+	slot0.oilTotalTxt = slot0:findTF("top_panel/res/Text"):GetComponent(typeof(Text))
 	slot0._playerResOb = slot0:findTF("res")
 	slot0.resPanel = PlayerResource.New()
-	slot1 = tf(slot0.resPanel._go)
 
-	slot1:SetParent(tf(slot0._playerResOb), false)
+	tf(slot0.resPanel._go):SetParent(tf(slot0._playerResOb), false)
 
 	slot0.overlayer = pg.UIMgr.GetInstance().OverlayMain
 
@@ -86,28 +79,18 @@ function slot0.didEnter(slot0)
 
 	slot0:initFacilitys()
 	onButton(slot0, slot0.contributeBtn, function ()
-		slot0 = uv0.guildVO
-
-		if slot0:inJoinColdTime() then
-			slot0 = pg.TipsMgr.GetInstance()
-
-			slot0:ShowTips(i18n("guild_facility_new_member_limit"))
+		if slot0.guildVO:inJoinColdTime() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_facility_new_member_limit"))
 
 			return
 		end
 
-		slot0 = uv0
-
 		slot0:openContributeProject()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.contributeLogBtn, function ()
-		slot0 = uv0
-
 		slot0:openContributionLog()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.contributtionLogPanel, function ()
-		slot0 = uv0
-
 		slot0:closeContributionLog()
 	end, SFX_PANEL)
 end
@@ -145,14 +128,13 @@ function slot0.updateFacility(slot0, slot1, slot2)
 	slot5 = 1
 
 	if not slot2:isMaxLevel() then
-		slot7.id = slot2.id
-		slot7.level = slot2.level + 1
-		slot6 = GuildFacility.New({})
-		slot3 = i18n("guild_facility_next_level", slot6:getAdditionDesc())
+		slot3 = i18n("guild_facility_next_level", GuildFacility.New({
+			id = slot2.id,
+			level = slot2.level + 1
+		}).getAdditionDesc(slot6))
 		slot6 = nil
-		slot8 = slot2:getUpgradeConsume()
-		slot4 = slot8
-		slot5 = slot0.guildVO.resource / slot8
+		slot4 = slot2:getUpgradeConsume()
+		slot5 = slot0.guildVO.resource / slot2.getUpgradeConsume()
 	end
 
 	setText(slot0:findTF("next_desc", slot1, slot1), slot3)
@@ -163,28 +145,20 @@ function slot0.updateFacility(slot0, slot1, slot2)
 
 	if slot0.isCommander then
 		onButton(slot0, slot0:findTF("upgrade_btn", slot1), function ()
-			slot0 = uv0
-			slot0, slot1 = slot0:canUpgrade(uv1.guildVO.resource, uv1.guildVO.level)
+			slot0, slot1 = slot0:canUpgrade(slot1.guildVO.resource, slot1.guildVO.level)
 
 			if not slot0 then
-				slot2 = pg.TipsMgr.GetInstance()
-
-				slot2:ShowTips(slot1)
+				pg.TipsMgr.GetInstance():ShowTips(slot1)
 
 				return
 			end
 
-			slot2 = uv0
-			slot3 = pg.MsgboxMgr.GetInstance()
-			slot5.content = i18n("guild_facility_upgrade_confirm", slot2:getUpgradeConsume())
-
-			function slot5.onYes()
-				slot0 = uv0
-
-				slot0:emit(GuildFacilityMediator.ON_UPGRADE, uv1.id)
-			end
-
-			slot3:ShowMsgBox({})
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("guild_facility_upgrade_confirm", slot0:getUpgradeConsume()),
+				onYes = function ()
+					slot0:emit(GuildFacilityMediator.ON_UPGRADE, slot1.id)
+				end
+			})
 		end, SFX_PANEL)
 	end
 end
@@ -223,26 +197,18 @@ function slot0.initContributeProject(slot0)
 	slot0.contributeConfirmBtn = slot0:findTF("frame/confirm_btn", slot0.contributionPanel)
 
 	onButton(slot0, slot0.contributeConfirmBtn, function ()
-		if not uv0.selectedProjectId then
-			slot0 = pg.TipsMgr.GetInstance()
-
-			slot0:ShowTips(i18n("guild_facility_selecte_res_project_tip"))
+		if not slot0.selectedProjectId then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_facility_selecte_res_project_tip"))
 
 			return
 		end
 
-		slot0 = uv0
-
-		slot0:emit(GuildFacilityMediator.ON_CONTRIBUTE, uv0.selectedProjectId)
+		slot0:emit(GuildFacilityMediator.ON_CONTRIBUTE, slot0.selectedProjectId)
 	end, SFX_PANEL)
 	onButton(slot0, slot0:findTF("frame/cancel_btn", slot0.contributionPanel), function ()
-		slot0 = uv0
-
 		slot0:closeContributeProject()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.contributionPanel, function ()
-		slot0 = uv0
-
 		slot0:closeContributeProject()
 	end, SFX_PANEL)
 	slot0:initContributeResType()
@@ -260,22 +226,18 @@ function slot0.initContributeResType(slot0)
 	slot0.contributeResTFs = {}
 
 	_.each(slot1, function (slot0)
-		slot1 = cloneTplTo(uv0.resTpl, uv0.contributeResContainer)
+		slot1 = cloneTplTo(slot0.resTpl, slot0.contributeResContainer)
 
-		table.insert(uv0.contributeResTFs, slot1)
-
-		slot3.id = id2ItemId(slot0)
-		slot2 = Item.New({})
-
-		LoadImageSpriteAsync(slot2:getConfig("icon"), slot1:Find("icon_bg/icon"))
-		onToggle(uv0, slot1, function (slot0)
+		table.insert(slot0.contributeResTFs, slot1)
+		LoadImageSpriteAsync(Item.New({
+			id = id2ItemId(slot0)
+		}).getConfig(slot2, "icon"), slot1:Find("icon_bg/icon"))
+		onToggle(slot0, slot1, function (slot0)
 			if slot0 then
-				slot1 = uv0
+				slot0:filterContributeProject(slot0.filterContributeProject)
 
-				slot1:filterContributeProject(uv1)
-
-				if uv0.selectedProjectTF then
-					triggerToggle(uv0.selectedProjectTF, false)
+				if slot0.selectedProjectTF then
+					triggerToggle(slot0.selectedProjectTF, false)
 				end
 			end
 		end, SFX_PANEL)
@@ -289,7 +251,7 @@ function slot0.filterContributeProject(slot0, slot1)
 	for slot6, slot7 in ipairs(slot0.contributionConfig.all) do
 		slot8 = slot0.contributionConfig[slot7].resource_type
 
-		if not slot1 or slot1 and slot1 == slot8 then
+		if not slot1 or (slot1 and slot1 == slot8) then
 			table.insert(slot2, slot7)
 		end
 	end
@@ -313,36 +275,27 @@ end
 
 function slot0.updateContributeProject(slot0, slot1, slot2)
 	slot0.projectToggles[slot2] = slot1
-	slot3 = slot0.contributionConfig[slot2]
 
-	setText(slot0:findTF("title", slot1), slot3.name)
-
-	slot5.id = id2ItemId(slot3.resource_type)
-	slot4 = Item.New({})
-
-	setText(slot0:findTF("content/desc_1", slot1), i18n("guild_facility_contribute_desc1", slot4:getConfig("name"), slot3.consume))
-	setText(slot0:findTF("content/desc_2", slot1), i18n("guild_facility_contribute_desc2", slot3.conversion))
-	setText(slot0:findTF("content/desc_3", slot1), i18n("guild_facility_contribute_desc3", slot3.get_guild_coin))
-	setActive(slot1:Find("mark"), false)
+	setText(slot0:findTF("title", slot1), slot0.contributionConfig[slot2].name)
+	setText(slot0:findTF("content/desc_1", slot1), i18n("guild_facility_contribute_desc1", slot5, slot0.contributionConfig[slot2].consume))
+	setText(slot0:findTF("content/desc_2", slot1), i18n("guild_facility_contribute_desc2", slot0.contributionConfig[slot2].conversion))
+	setText(slot0:findTF("content/desc_3", slot1), i18n("guild_facility_contribute_desc3", slot0.contributionConfig[slot2].get_guild_coin))
+	setActive(slot6, false)
 	setGray(slot0.contributeConfirmBtn, not slot0.selectedProjectId)
 	onToggle(slot0, slot1, function (slot0)
-		setGray(uv0.contributeConfirmBtn, not slot0, true)
-		setActive(uv1, slot0)
+		setGray(slot0.contributeConfirmBtn, not slot0, true)
+		setActive(setActive, slot0)
 
 		if slot0 then
-			slot2 = uv0.playerVO
-
-			if uv2.consume <= slot2:getResById(uv2.resource_type) then
-				uv0.selectedProjectId = uv3
-				uv0.selectedProjectTF = uv4
+			if slot2.consume <= slot0.playerVO:getResById(slot2.resource_type) then
+				slot0.selectedProjectId = slot3
+				slot0.selectedProjectTF = slot4
 			else
-				slot1 = pg.TipsMgr.GetInstance()
-
-				slot1:ShowTips(i18n("guild_facility_selected_project_failed"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("guild_facility_selected_project_failed"))
 			end
 		else
-			uv0.selectedProjectId = nil
-			uv0.selectedProjectTF = nil
+			slot0.selectedProjectId = nil
+			slot0.selectedProjectTF = nil
 		end
 	end)
 end
@@ -350,6 +303,7 @@ end
 function slot0.openContributionLog(slot0)
 	setActive(slot0.contributtionLogPanel, true)
 	slot0:tweeningLogPanel(slot0.logPanelHeight, function ()
+		return
 	end)
 
 	if not slot0.isInitLogPanel then
@@ -368,23 +322,20 @@ slot0.LOG_PAGE = {
 }
 
 function slot0.initLogPanel(slot0)
-	slot1[1] = slot0:findTF("frame/filter/recent", slot0.contributtionLogPanel)
-	slot1[2] = slot0:findTF("frame/filter/contribution", slot0.contributtionLogPanel)
-	slot1[MULTRES] = slot0:findTF("frame/filter/usage", slot0.contributtionLogPanel)
-	slot0.filterToggles = {}
+	slot0.filterToggles = {
+		slot0:findTF("frame/filter/recent", slot0.contributtionLogPanel),
+		slot0:findTF("frame/filter/contribution", slot0.contributtionLogPanel),
+		slot0:findTF("frame/filter/usage", slot0.contributtionLogPanel)
+	}
 	slot0.logContainer = slot0:findTF("frame/main/content", slot0.contributtionLogPanel)
 	slot0.logTPl = slot0:getTpl("log_tpl", slot0.logContainer)
 
 	for slot4, slot5 in ipairs(slot0.filterToggles) do
 		onToggle(slot0, slot5, function (slot0)
-			slot2 = uv0
-
-			setActive(slot2:findTF("mask", uv1), not slot0)
+			setActive(slot0:findTF("mask", setActive), not slot0)
 
 			if slot0 then
-				slot1 = uv0
-
-				slot1:filterLogs(uv2)
+				slot0:filterLogs(slot0)
 			end
 		end)
 	end
@@ -395,32 +346,27 @@ end
 slot2 = 50
 
 function slot0.filterLogs(slot0, slot1)
-	slot1 = slot1 or slot0.contextData.page or uv0.LOG_PAGE.RECENT
-	slot0.contextData.page = slot1
+	slot0.contextData.page = slot1 or slot0.contextData.page or slot0.LOG_PAGE.RECENT
 	slot2 = {}
 
-	if slot1 == uv0.LOG_PAGE.RECENT then
-		slot3 = _(Clone(slot0.facilityLogs))
-		slot3 = slot3:chain()
-		slot3 = slot3:sort(function (slot0, slot1)
+	if (slot1 or slot0.contextData.page or slot0.LOG_PAGE.RECENT) == slot0.LOG_PAGE.RECENT then
+		_(slot2):chain():sort(function (slot0, slot1)
 			return slot1.time < slot0.time
-		end)
-
-		slot3:slice(1, uv1)
-	elseif slot1 == uv0.LOG_PAGE.CONTRIBUTION then
+		end):slice(1, slot1)
+	elseif slot1 == slot0.LOG_PAGE.CONTRIBUTION then
 		_.each(slot0.facilityLogs, function (slot0)
 			if slot0.cmd == GuildLogInfo.CMD_TYPE_FACILITY_CONTRIBUTION then
-				table.insert(uv0, slot0)
+				table.insert(slot0, slot0)
 			end
 		end)
-		_.slice(slot2, 1, uv1)
-	elseif slot1 == uv0.LOG_PAGE.USAGE then
+		_.slice(slot2, 1, slot1)
+	elseif slot1 == slot0.LOG_PAGE.USAGE then
 		_.each(slot0.facilityLogs, function (slot0)
 			if slot0.cmd == GuildLogInfo.CMD_TYPE_FACILITY_CONSUME then
-				table.insert(uv0, slot0)
+				table.insert(slot0, slot0)
 			end
 		end)
-		_.slice(slot2, 1, uv1)
+		_.slice(slot2, 1, slot1)
 	end
 
 	slot0:updateLogsPanel(slot2)
@@ -428,7 +374,7 @@ end
 
 function slot0.closeContributionLog(slot0)
 	slot0:tweeningLogPanel(0, function ()
-		setActive(uv0.contributtionLogPanel, false)
+		setActive(slot0.contributtionLogPanel, false)
 	end)
 end
 
@@ -437,11 +383,9 @@ function slot0.tweeningLogPanel(slot0, slot1, slot2)
 		LeanTween.cancel(go(slot0.contributtionLogFrame))
 	end
 
-	slot3 = LeanTween.moveY(slot0.contributtionLogFrame, slot1, uv0)
-
-	slot3:setOnComplete(System.Action(function ()
-		if uv0 then
-			uv0()
+	LeanTween.moveY(slot0.contributtionLogFrame, slot1, slot0):setOnComplete(System.Action(function ()
+		if slot0 then
+			slot0()
 		end
 	end))
 end
@@ -456,9 +400,7 @@ function slot0.updateLogsPanel(slot0, slot1)
 	end
 
 	for slot6 = 1, slot0.logContainer.childCount, 1 do
-		slot8 = slot6 <= #slot1
-
-		setActive(slot0.logContainer:GetChild(slot6 - 1), slot8)
+		setActive(slot0.logContainer:GetChild(slot6 - 1), slot6 <= #slot1)
 
 		if slot8 then
 			slot0:updateLogTF(slot7, slot1[slot6])
@@ -486,9 +428,7 @@ end
 
 function slot0.willExit(slot0)
 	if slot0.resPanel then
-		slot1 = slot0.resPanel
-
-		slot1:exit()
+		slot0.resPanel:exit()
 
 		slot0.resPanel = nil
 	end

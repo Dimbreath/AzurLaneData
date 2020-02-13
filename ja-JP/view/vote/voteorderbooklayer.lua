@@ -32,11 +32,11 @@ function slot0.init(slot0)
 	slot0.failedCallbacks = {}
 
 	slot0.failedDftAniEvent:SetEndEvent(function (slot0)
-		for slot4, slot5 in ipairs(uv0.failedCallbacks) do
+		for slot4, slot5 in ipairs(slot0.failedCallbacks) do
 			slot5()
 		end
 
-		uv0.failedCallbacks = {}
+		slot0.failedCallbacks = {}
 	end)
 
 	slot0.sucess = slot0:findTF("window/main/sucess")
@@ -45,44 +45,44 @@ function slot0.init(slot0)
 	slot0.sucessDftAniEvent = slot0.sucess:GetComponent(typeof(DftAniEvent))
 
 	slot0.sucessDftAniEvent:SetEndEvent(function (slot0)
-		for slot4, slot5 in ipairs(uv0.sucessCallbacks) do
+		for slot4, slot5 in ipairs(slot0.sucessCallbacks) do
 			slot5()
 		end
 
-		uv0.sucessCallbacks = {}
+		slot0.sucessCallbacks = {}
 	end)
 
-	slot1 = slot0:findTF("window/main/award")
-	slot0.awardCntTF = slot1:GetComponent(typeof(Text))
+	slot0.awardCntTF = slot0:findTF("window/main/award"):GetComponent(typeof(Text))
 
 	SetActive(slot0.failed, false)
 	SetActive(slot0.sucess, false)
 
-	slot1[1] = slot0:findTF("window/main/container/1")
-	slot1[2] = slot0:findTF("window/main/container/2")
-	slot1[3] = slot0:findTF("window/main/container/3")
-	slot1[4] = slot0:findTF("window/main/container/4")
-	slot1[5] = slot0:findTF("window/main/container/5")
-	slot1[6] = slot0:findTF("window/main/container/6")
-	slot1[MULTRES] = slot0:findTF("window/main/container/7")
-	slot0.icons = {}
+	slot0.icons = {
+		slot0:findTF("window/main/container/1"),
+		slot0:findTF("window/main/container/2"),
+		slot0:findTF("window/main/container/3"),
+		slot0:findTF("window/main/container/4"),
+		slot0:findTF("window/main/container/5"),
+		slot0:findTF("window/main/container/6"),
+		slot0:findTF("window/main/container/7")
+	}
 
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 function slot0.didEnter(slot0)
-	slot0.dirTF.localScale = Vector3(slot0.targetDir == VoteOrderBook.TYPE_POSITIVE and -1 or 1, 1, 1)
+	slot0.dirTF.localScale = Vector3((slot0.targetDir == VoteOrderBook.TYPE_POSITIVE and -1) or 1, 1, 1)
 
 	slot0:LoadChars()
 	onButton(slot0, slot0.backBtn, function ()
-		uv0:emit(uv1.ON_CLOSE)
+		slot0:emit(slot1.ON_CLOSE)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.submitBtn, function ()
-		if not uv0.orderBook:canSubmit() then
+		if not slot0.orderBook:canSubmit() then
 			return
 		end
 
-		uv0:emit(VoteOrderBookMediator.ON_SUBMIT, table.concat(uv0.opRecords, ""))
+		slot0:emit(VoteOrderBookMediator.ON_SUBMIT, table.concat(slot0.opRecords, ""))
 	end, SFX_PANEL)
 	slot0:AddOverTimer()
 
@@ -92,43 +92,45 @@ end
 function slot0.LoadChars(slot0)
 	function slot1(slot0, slot1, slot2)
 		if slot2 then
-			slot3 = uv0.icons[slot0]
 			rtf(slot3).pivot = getSpritePivot(slot2)
-			slot3:GetComponent(typeof(Image)).sprite = slot2
+			slot0.icons[slot0].GetComponent(slot3, typeof(Image)).sprite = slot2
 
-			slot3:GetComponent(typeof(Image)):SetNativeSize()
+			slot0.icons[slot0].GetComponent(slot3, typeof(Image)):SetNativeSize()
 
-			slot3.localScale = Vector3(slot1 == "0" and 1 or -1, 1, 1)
+			slot3.localScale = Vector3((slot1 == "0" and 1) or -1, 1, 1)
 
-			onButton(uv0, slot3, function ()
-				uv0.localScale = Vector3(-uv0.localScale.x, 1, 1)
-				uv1.opRecords[uv2] = uv1.opRecords[uv2] == 1 and 0 or 1
+			onButton(slot0, slot3, function ()
+				slot0.localScale = Vector3(-slot0.localScale.x, 1, 1)
+				slot1[slot2] = (slot1.opRecords[Vector3(-slot0.localScale.x, 1, 1)] == 1 and 0) or 1
 			end, SFX_PANEL)
 		end
 	end
 
+	slot2 = {}
+
 	for slot6, slot7 in ipairs(slot0.dirs) do
-		table.insert({}, function (slot0)
-			LoadSpriteAsync("shipmodels/" .. uv0.ships[uv1]:getPainting(), function (slot0)
-				uv0(uv1, uv2, slot0)
-				uv3()
+		table.insert(slot2, function (slot0)
+			LoadSpriteAsync("shipmodels/" .. slot0.ships[]:getPainting(), function (slot0)
+				slot0(slot0, , slot0)
+				slot0()
 			end)
 		end)
 	end
 
 	parallelAsync(slot2, function ()
+		return
 	end)
 end
 
 function slot0.AddOverTimer(slot0)
 	slot1 = slot0.orderBook:GetEndTime()
 	slot0.timer = Timer.New(function ()
-		if uv0 - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
-			uv1.timeTF.text = pg.TimeMgr.GetInstance():DescCDTime(slot0)
+		if slot0 - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
+			slot1.timeTF.text = pg.TimeMgr.GetInstance():DescCDTime(slot0)
 		else
-			uv1:RemoveOverTimer()
+			slot1:RemoveOverTimer()
 
-			uv1.timeTF.text = "00:00:00"
+			slot1.RemoveOverTimer.timeTF.text = "00:00:00"
 		end
 	end, 1, -1)
 
@@ -149,17 +151,17 @@ function slot0.PlayAnim(slot0, slot1, slot2)
 		setActive(slot0.sucess, true)
 		slot0.sucessAnim:Play("blink")
 		table.insert(slot0.sucessCallbacks, function ()
-			setActive(uv0.sucess, false)
-			uv0.sucessAnim:Stop("blink")
-			uv1()
+			setActive(slot0.sucess, false)
+			setActive.sucessAnim:Stop("blink")
+			setActive.sucessAnim()
 		end)
 	else
 		setActive(slot0.failed, true)
 		slot0.failedAnim:Play("blink")
 		table.insert(slot0.failedCallbacks, function ()
-			uv0.failedAnim:Stop("blink")
-			setActive(uv0.failed, false)
-			uv1()
+			slot0.failedAnim:Stop("blink")
+			setActive(slot0.failed, false)
+			slot0.failed()
 		end)
 	end
 end

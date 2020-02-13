@@ -1,11 +1,9 @@
-slot0 = class("WorldTriggerTaskCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("WorldTriggerTaskCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.fleetId
 	slot5 = slot2.callback
 
-	if getProxy(WorldProxy):GetWorld():getTaskProxy():getTaskById(slot2.taskId) then
+	if getProxy(WorldProxy).GetWorld(slot6).getTaskProxy(slot7):getTaskById(slot2.taskId) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n1("该任务已存在" .. slot4))
 
 		return
@@ -21,32 +19,32 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	slot15.fleet_id = slot3
-	slot15.taskId = slot4
-
-	pg.ConnectionMgr.GetInstance():Send(33205, {}, 33206, function (slot0)
+	pg.ConnectionMgr.GetInstance():Send(33205, {
+		fleet_id = slot3,
+		taskId = slot4
+	}, 33206, function (slot0)
 		if slot0.result == 0 then
 			slot1 = WorldTask.New(slot0.task)
 			slot1.new = 1
 
-			uv0:addTask(slot1)
+			slot0:addTask(slot1)
 			pg.TipsMgr.GetInstance():ShowTips("接取任务：" .. slot1.id)
 
 			if #slot1.config.task_op > 0 then
 				pg.StoryMgr.GetInstance():Play(slot1.config.task_op)
 			end
 
-			if uv1 then
-				uv1()
+			if slot1 then
+				slot1()
 			end
 
-			slot5.task = slot1.id
-
-			uv2:AddLog(WorldLog.TypeTask, {})
+			slot2:AddLog(WorldLog.TypeTask, {
+				task = slot1.id
+			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n1("触发任务失败" .. slot0.result))
 		end
 	end)
 end
 
-return slot0
+return class("WorldTriggerTaskCommand", pm.SimpleCommand)

@@ -1,33 +1,3 @@
-slot1.offset = {
-	0,
-	-2,
-	0
-}
-slot0.aniEffect = {
-	effect = "jineng"
-}
-slot2.arg_list = {
-	weapon_id = 61019,
-	delay = 0.5
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetNil"
-}
-slot2.arg_list = {
-	weapon_id = 61020,
-	delay = 0.5
-}
-slot1[2] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillFire",
-	target_choise = "TargetNil"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "黑企业剧情战斗技能",
@@ -37,5 +7,35 @@ return {
 	desc = "轰炸",
 	painting = 1,
 	id = 7500,
-	castCV = "skill"
+	castCV = "skill",
+	aniEffect = {
+		effect = "jineng",
+		offset = {
+			0,
+			-2,
+			0
+		}
+	},
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetNil",
+			arg_list = {
+				weapon_id = 61019,
+				delay = 0.5
+			}
+		},
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetNil",
+			arg_list = {
+				weapon_id = 61020,
+				delay = 0.5
+			}
+		}
+	}
 }

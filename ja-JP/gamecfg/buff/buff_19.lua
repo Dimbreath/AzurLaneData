@@ -1,20 +1,3 @@
-slot1[1] = SYSTEM_SCENARIO
-slot1[2] = SYSTEM_ROUTINE
-slot1[3] = SYSTEM_SHAM
-slot0.limit = {}
-slot2.trigger = {
-	"onAttach"
-}
-slot2.arg_list = {
-	number = -0.2,
-	target = "TargetSelf",
-	attr = "injureRatio"
-}
-slot1[1] = {
-	type = "BattleBuffAddAttr"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "竞技场我方加成",
@@ -24,5 +7,23 @@ return {
 	stack = 1,
 	id = 19,
 	icon = 19,
-	last_effect = ""
+	last_effect = "",
+	limit = {
+		SYSTEM_SCENARIO,
+		SYSTEM_ROUTINE,
+		SYSTEM_SHAM
+	},
+	effect_list = {
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				number = -0.2,
+				target = "TargetSelf",
+				attr = "injureRatio"
+			}
+		}
+	}
 }

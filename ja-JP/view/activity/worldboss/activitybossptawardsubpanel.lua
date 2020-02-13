@@ -16,10 +16,8 @@ function slot0.UpdateView(slot0, slot1)
 		slot0.resTitle = i18n("pt_count", slot7)
 	end
 
-	slot9 = slot0.ptData:CanGetAward()
-
 	setActive(slot0.btn_get, slot9)
-	setActive(slot0.btn_banned, not slot9)
+	setActive(slot0.btn_banned, not slot0.ptData:CanGetAward())
 	slot0:UpdateList(slot2, slot3, slot4, slot0.ptData:GetBossProgress())
 	Canvas.ForceUpdateCanvases()
 end
@@ -27,33 +25,23 @@ end
 function slot0.UpdateList(slot0, slot1, slot2, slot3, slot4)
 	slot0.UIlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0[slot1 + 1]
-
 			setText(slot2:Find("title/Text"), "PHASE " .. slot1 + 1)
-			setText(slot2:Find("target/Text"), uv1[slot1 + 1])
-			setText(slot2:Find("target/title"), uv2.resTitle)
-
-			slot5.type = slot3[1]
-			slot5.id = slot3[2]
-			slot5.count = slot3[3]
-
-			updateDrop(slot2:Find("award"), {}, {
+			setText(slot2:Find("target/Text"), slot4)
+			setText(slot2:Find("target/title"), slot2.resTitle)
+			updateDrop(slot2:Find("award"), slot5, {
 				hideName = true
 			})
-			onButton(uv2, slot2:Find("award"), function ()
-				uv0:emit(BaseUI.ON_DROP, uv1)
+			onButton(slot2, slot2:Find("award"), function ()
+				slot0:emit(BaseUI.ON_DROP, slot0)
 			end, SFX_PANEL)
-			setActive(slot2:Find("award/mask"), slot1 + 1 <= uv3)
+			setActive(slot2:Find("award/mask"), slot1 + 1 <= slot0[slot1 + 1])
+			setActive(slot2:Find("mask"), slot2.ptData.progress_target[slot1 + 1] < slot4)
 
-			slot6 = uv2.ptData.progress_target[slot1 + 1] < uv4
-
-			setActive(slot2:Find("mask"), slot6)
-
-			if slot6 then
-				setText(slot2:Find("mask/Text"), i18n("world_boss_award_limit", math.round(uv2.ptData.progress_target[slot1 + 1] / 100)))
+			if slot2.ptData.progress_target[slot1 + 1] < slot4 then
+				setText(slot2:Find("mask/Text"), i18n("world_boss_award_limit", math.round(slot2.ptData.progress_target[slot1 + 1] / 100)))
 			end
 
-			setActive(slot2:Find("award/mask/Image"), slot1 + 1 <= uv3)
+			setActive(slot2:Find("award/mask/Image"), slot1 + 1 <= slot3)
 		end
 	end)
 	slot0.UIlist:align(#slot1)

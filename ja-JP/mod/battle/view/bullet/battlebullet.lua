@@ -1,6 +1,4 @@
-slot0 = ys
-slot0 = slot0 or {}
-ys = slot0
+ys = ys or {}
 slot0 = ys
 slot1 = slot0.Battle
 slot1 = slot1.BattleBulletEvent
@@ -23,21 +21,21 @@ slot4 = slot0.Battle
 slot4 = slot4.BattleBullet
 
 function slot5(slot0)
-	slot1 = uv0
+	slot1 = slot0
 	slot1 = slot1.super
 	slot1 = slot1.Ctor
 	slot2 = slot0
 
 	slot1(slot2)
 
-	slot1 = uv1
+	slot1 = slot1
 	slot1 = slot1.EventListener
 	slot1 = slot1.AttachEventListener
 	slot2 = slot0
 
 	slot1(slot2)
 
-	slot1 = uv1
+	slot1 = slot1
 	slot1 = slot1.Battle
 	slot1 = slot1.BattleResourceManager
 	slot1 = slot1.GetInstance
@@ -166,7 +164,7 @@ function slot5(slot0)
 	slot2 = slot1
 	slot1 = slot1.RegisterEventListener
 	slot3 = slot0
-	slot4 = uv0
+	slot4 = slot0
 	slot4 = slot4.HIT
 	slot5 = slot0.onBulletHit
 
@@ -176,7 +174,7 @@ function slot5(slot0)
 	slot2 = slot1
 	slot1 = slot1.RegisterEventListener
 	slot3 = slot0
-	slot4 = uv0
+	slot4 = slot0
 	slot4 = slot4.INTERCEPTED
 	slot5 = slot0.onIntercepted
 
@@ -186,7 +184,7 @@ function slot5(slot0)
 	slot2 = slot1
 	slot1 = slot1.RegisterEventListener
 	slot3 = slot0
-	slot4 = uv0
+	slot4 = slot0
 	slot4 = slot4.OUT_RANGE
 	slot5 = slot0.onOutRange
 
@@ -200,7 +198,7 @@ function slot5(slot0)
 	slot2 = slot1
 	slot1 = slot1.UnregisterEventListener
 	slot3 = slot0
-	slot4 = uv0
+	slot4 = slot0
 	slot4 = slot4.HIT
 
 	slot1(slot2, slot3, slot4)
@@ -209,7 +207,7 @@ function slot5(slot0)
 	slot2 = slot1
 	slot1 = slot1.UnregisterEventListener
 	slot3 = slot0
-	slot4 = uv0
+	slot4 = slot0
 	slot4 = slot4.INTERCEPTED
 
 	slot1(slot2, slot3, slot4)
@@ -218,7 +216,7 @@ function slot5(slot0)
 	slot2 = slot1
 	slot1 = slot1.UnregisterEventListener
 	slot3 = slot0
-	slot4 = uv0
+	slot4 = slot0
 	slot4 = slot4.OUT_RANGE
 
 	slot1(slot2, slot3, slot4)
@@ -243,7 +241,7 @@ end
 slot4.onBulletHit = slot5
 
 function slot5(slot0)
-	slot1 = uv0
+	slot1 = slot0
 	slot1 = slot1.Battle
 	slot1 = slot1.BattleFXPool
 	slot1 = slot1.GetInstance
@@ -332,7 +330,7 @@ function slot5(slot0)
 
 		slot1(slot2, slot3)
 	else
-		slot1 = uv0
+		slot1 = slot0
 		slot1 = slot1.Battle
 		slot1 = slot1.BattleResourceManager
 		slot1 = slot1.GetInstance
@@ -363,7 +361,7 @@ function slot5(slot0)
 	slot0._tf = slot1
 	slot1 = nil
 	slot0._trackFX = slot1
-	slot1 = uv0
+	slot1 = slot0
 	slot1 = slot1.EventListener
 	slot1 = slot1.DetachEventListener
 	slot2 = slot0
@@ -417,7 +415,7 @@ function slot5(slot0, slot1)
 		slot2 = slot0._go
 
 		if slot2 == nil then
-			slot2 = uv0
+			slot2 = slot0
 			slot2 = slot2.Battle
 			slot2 = slot2.BattleResourceManager
 			slot2 = slot2.GetInstance
@@ -643,20 +641,7 @@ function slot5(slot0, slot1)
 			end
 		end
 
-		slot5 = Vector3
-		slot6 = slot3.x
-		slot6 = slot6 - slot4
-		slot7 = slot2.offsetY
-
-		if not slot7 then
-			slot7 = slot1.y
-		end
-
-		slot8 = slot3.z
-		slot5 = slot5(slot6, slot7, slot8)
-		slot6 = 0
-
-		return slot5, slot6
+		return Vector3(slot3.x - slot4, slot2.offsetY or slot1.y, slot3.z), 0
 	else
 		slot3 = slot0._bulletData
 		slot4 = slot3
@@ -683,7 +668,7 @@ function slot5(slot0, slot1)
 		else
 			slot5 = 0
 			slot6 = nil
-			slot7 = uv0
+			slot7 = slot0
 			slot7 = slot7.BulletHeight
 			slot8 = slot1.y
 
@@ -712,9 +697,9 @@ end
 slot4.getHeightAdjust = slot5
 
 function slot5(slot0)
-	slot1 = uv0
+	slot1 = slot0
 	slot1 = slot1.HeightOffsetRate
-	slot2 = uv0
+	slot2 = slot0
 	slot2 = slot2.BulletHeight
 	slot2 = slot0 - slot2
 	slot1 = slot1 * slot2
@@ -763,3 +748,5 @@ function slot5(slot0)
 end
 
 slot4.Neutrailze = slot5
+
+return

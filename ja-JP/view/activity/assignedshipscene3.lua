@@ -47,24 +47,23 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.backBtn, function ()
-		uv0:emit(uv1.ON_BACK)
+		slot0:emit(slot1.ON_BACK)
 	end, SOUND_BACK)
 	onButton(slot0, slot0.confirmBtn, function ()
-		slot2.content = i18n("seven_choose_one", pg.ship_data_statistics[uv0.selectedShipNumber].name)
-
-		function slot2.onYes()
-			uv0:emit(AssignedShipMediator.ON_USE_ITEM, uv0.itemVO.id, uv0.count, uv0.selectedVO)
-		end
-
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("seven_choose_one", pg.ship_data_statistics[slot0.selectedShipNumber].name),
+			onYes = function ()
+				slot0:emit(AssignedShipMediator.ON_USE_ITEM, slot0.itemVO.id, slot0.count, slot0.selectedVO)
+			end
+		})
 	end, SFX_PANEL)
 
 	for slot5 = 1, slot0.selectPanel.childCount, 1 do
 		onToggle(slot0, slot0.selectPanel:GetChild(slot5 - 1), function (slot0)
-			if slot0 and uv0.selectTarget ~= uv1 then
-				LeanTween.cancel(uv0.print)
-				LeanTween.cancel(uv0.name)
-				uv0:setSelectTarget(uv1)
+			if slot0 and slot0.selectTarget ~=  then
+				LeanTween.cancel(slot0.print)
+				LeanTween.cancel(slot0.name)
+				slot0:setSelectTarget(slot0.setSelectTarget)
 			end
 		end, SFX_PANEL)
 	end
@@ -87,10 +86,10 @@ end
 function slot0.changeShowCharacter(slot0, slot1, slot2, slot3)
 	if slot3 then
 		LeanTween.alpha(rtf(slot2), 0, 0.3):setOnComplete(System.Action(function ()
-			uv0:GetComponent(typeof(Image)).enabled = false
-			uv1.afterAnima[uv2] = true
+			slot0:GetComponent(typeof(Image)).enabled = false
+			slot1.afterAnima[typeof] = true
 
-			uv1:checkAndSetSprite(uv2, uv0)
+			typeof:checkAndSetSprite(true, typeof.checkAndSetSprite)
 		end))
 	else
 		slot2:GetComponent(typeof(Image)).enabled = false
@@ -98,9 +97,9 @@ function slot0.changeShowCharacter(slot0, slot1, slot2, slot3)
 	end
 
 	GetSpriteFromAtlasAsync("extra_page/shrine_year/" .. string.lower(slot1), "", function (slot0)
-		uv0.spList[uv1] = slot0
+		slot0.spList[] = slot0
 
-		uv0:checkAndSetSprite(uv1, uv2)
+		slot0:checkAndSetSprite(slot0.checkAndSetSprite, slot0)
 	end)
 end
 
@@ -109,8 +108,8 @@ function slot0.setSelectTarget(slot0, slot1)
 	slot0:changeShowCharacter(slot0.list[slot1] .. "N", slot0.name, slot0.selectTarget)
 
 	slot0.selectTarget = slot1
-	slot0.selectedVO = slot0.itemVO:getTempCfgTable().usage_arg[uv0.INDEX_CONVERT[slot1]]
-	slot0.selectedShipNumber = uv0.shiplist[slot1]
+	slot0.selectedVO = slot0.itemVO:getTempCfgTable().usage_arg[slot0.INDEX_CONVERT[slot1]]
+	slot0.selectedShipNumber = slot0.shiplist[slot1]
 end
 
 function slot0.setItemVO(slot0, slot1)
@@ -118,6 +117,7 @@ function slot0.setItemVO(slot0, slot1)
 end
 
 function slot0.willExit(slot0)
+	return
 end
 
 return slot0

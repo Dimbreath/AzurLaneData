@@ -33,8 +33,10 @@ function slot0.Update(slot0)
 		return
 	end
 
+	slot1 = slot0.deltaTime
+
 	for slot5, slot6 in pairs(slot0.childs) do
-		slot6:Update(uv0.deltaTime)
+		slot6:Update(slot1)
 	end
 end
 
@@ -60,7 +62,7 @@ function slot0.GetNode(slot0, slot1, slot2)
 	slot3 = slot2 or slot0
 
 	for slot7 = 1, #slot1, 1 do
-		if not (slot3.childs and slot3.childs[slot1[slot7]] or nil) then
+		if not ((slot3.childs and slot3.childs[slot1[slot7]]) or nil) then
 			return
 		end
 	end
@@ -76,11 +78,9 @@ function slot0.AddNode(slot0, slot1)
 	slot2 = slot0
 
 	for slot6 = 1, #slot1, 1 do
-		if not (slot2.childs and slot2.childs[slot1[slot6]] or nil) then
-			slot2 = uv0.New()
-
-			slot2:AddChild()
-			table.insert(slot2.childs, slot2)
+		if not ((slot2.childs and slot2.childs[slot1[slot6]]) or nil) then
+			slot0.New().AddChild(slot2)
+			table.insert(slot0.New().childs, slot0.New())
 		end
 	end
 end

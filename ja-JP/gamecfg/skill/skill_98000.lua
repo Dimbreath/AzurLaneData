@@ -1,16 +1,3 @@
-slot2.target_choise = {
-	"TargetAllHelp"
-}
-slot2.arg_list = {
-	buff_id = 98001
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillAddBuff"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "复纵阵前进",
@@ -19,5 +6,18 @@ return {
 	aniEffect = "",
 	desc = "复纵阵前进",
 	painting = 1,
-	id = 98000
+	id = 98000,
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = {
+				"TargetAllHelp"
+			},
+			arg_list = {
+				buff_id = 98001
+			}
+		}
+	}
 }

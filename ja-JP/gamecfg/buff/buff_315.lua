@@ -1,5 +1,3 @@
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "潜艇水面预留buff",
@@ -10,5 +8,6 @@ return {
 	stack = 1,
 	color = "blue",
 	icon = 315,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {}
 }
