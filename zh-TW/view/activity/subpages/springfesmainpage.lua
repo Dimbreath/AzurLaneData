@@ -11,18 +11,18 @@ end
 function slot0.OnFirstFlush(slot0)
 	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 	onButton(slot0, slot0.go1, function ()
-		uv0:emit(ActivityMediator.SELECT_ACTIVITY, 470)
+		slot0:emit(ActivityMediator.SELECT_ACTIVITY, 470)
 	end)
 	onButton(slot0, slot0.go2, function ()
-		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.COLORING)
+		slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.COLORING)
 	end)
 	onButton(slot0, slot0.go3, function ()
-		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.CHARGE, {
+		slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.CHARGE, {
 			wrap = 4
 		})
 	end)
 	onButton(slot0, slot0.go4, function ()
-		uv0:emit(ActivityMediator.SELECT_ACTIVITY, 40049)
+		slot0:emit(ActivityMediator.SELECT_ACTIVITY, 40049)
 	end)
 end
 

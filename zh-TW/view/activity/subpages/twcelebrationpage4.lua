@@ -16,38 +16,33 @@ function slot0.OnFirstFlush(slot0)
 end
 
 function slot0.OnUpdateFlush(slot0)
-	slot1 = slot0.activity
-	slot2 = getProxy(TaskProxy)
+	slot4 = getProxy(TaskProxy):getTaskById(slot0.activity:getConfig("config_data")[1]) or slot2:getFinishTaskById(slot1) or Task.New({
+		id = slot1
+	}):isFinish()
+	slot5 = getProxy(TaskProxy).getTaskById(slot0.activity.getConfig("config_data")[1]) or slot2.getFinishTaskById(slot1) or Task.New():isReceive()
 
-	if not slot2:getTaskById(slot1:getConfig("config_data")[1]) and not slot2:getFinishTaskById(slot1) then
-		slot4.id = slot1
-		slot3 = Task.New({})
-	end
-
-	slot4 = slot3:isFinish()
-	slot5 = slot3:isReceive()
-
-	setActive(slot0.getBtn, slot3 and slot4 and not slot5)
-	setActive(slot0.gotBtn, slot3 and slot5)
-	setActive(slot0.mask, slot3 and slot5)
-	setActive(slot0.battleBtn, slot3 and not slot4)
-	setActive(slot0.finished, slot3 and slot4)
-	setActive(slot0.unfinished, slot3 and not slot4)
+	setActive(slot0.getBtn, (getProxy(TaskProxy).getTaskById(slot0.activity.getConfig("config_data")[1]) or slot2.getFinishTaskById(slot1) or Task.New()) and slot4 and not slot5)
+	setActive(slot0.gotBtn, (getProxy(TaskProxy).getTaskById(slot0.activity.getConfig("config_data")[1]) or slot2.getFinishTaskById(slot1) or Task.New()) and slot5)
+	setActive(slot0.mask, (getProxy(TaskProxy).getTaskById(slot0.activity.getConfig("config_data")[1]) or slot2.getFinishTaskById(slot1) or Task.New()) and slot5)
+	setActive(slot0.battleBtn, (getProxy(TaskProxy).getTaskById(slot0.activity.getConfig("config_data")[1]) or slot2.getFinishTaskById(slot1) or Task.New()) and not slot4)
+	setActive(slot0.finished, (getProxy(TaskProxy).getTaskById(slot0.activity.getConfig("config_data")[1]) or slot2.getFinishTaskById(slot1) or Task.New()) and slot4)
+	setActive(slot0.unfinished, (getProxy(TaskProxy).getTaskById(slot0.activity.getConfig("config_data")[1]) or slot2.getFinishTaskById(slot1) or Task.New()) and not slot4)
 	onButton(slot0, slot0.battleBtn, function ()
-		uv0:emit(ActivityMediator.SPECIAL_BATTLE_OPERA)
+		slot0:emit(ActivityMediator.SPECIAL_BATTLE_OPERA)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.getBtn, function ()
-		if uv0 and uv1 and not uv2 then
-			uv3:emit(ActivityMediator.ON_TASK_SUBMIT, uv0)
+		if slot0 and slot1 and not slot2 then
+			slot3:emit(ActivityMediator.ON_TASK_SUBMIT, slot3.emit)
 		end
 	end, SFX_PANEL)
 
-	slot7 = pg.task_data_template[slot1].target_id
-	slot8 = slot7[1]
+	slot8 = pg.task_data_template[slot1].target_id[1]
+	slot9 = pg.task_data_template[slot1].target_id[2]
+	slot10 = 0
 
-	for slot16, slot17 in pairs(getProxy(FleetProxy):getData()) do
-		if slot17:getShipCount() == slot7[2] then
-			slot10 = math.max(0, slot17:avgLevel())
+	for slot16, slot17 in pairs(slot12) do
+		if slot17:getShipCount() == slot9 then
+			slot10 = math.max(slot10, slot17:avgLevel())
 		end
 	end
 

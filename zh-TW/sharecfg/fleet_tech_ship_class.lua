@@ -1,3 +1,6 @@
 pg = pg or {}
-slot1.all = {}
-pg.fleet_tech_ship_class = {}
+pg.fleet_tech_ship_class = {
+	all = {}
+}
+
+return

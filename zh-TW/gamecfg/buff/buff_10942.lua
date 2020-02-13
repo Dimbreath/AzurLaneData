@@ -1,23 +1,3 @@
-slot0.blink = {
-	1,
-	0,
-	0,
-	0.3,
-	0.3
-}
-slot2.trigger = {
-	"onAttach",
-	"onRemove"
-}
-slot2.arg_list = {
-	number = 3000,
-	attr = "dodgeRate"
-}
-slot1[1] = {
-	type = "BattleBuffAddAttrRatio"
-}
-slot0.effect_list = {}
-
 return {
 	name = "鬼神演舞",
 	init_effect = "jinengchufablue",
@@ -28,5 +8,25 @@ return {
 	stack = 1,
 	color = "red",
 	icon = 10942,
-	last_effect = ""
+	last_effect = "",
+	blink = {
+		1,
+		0,
+		0,
+		0.3,
+		0.3
+	},
+	effect_list = {
+		{
+			type = "BattleBuffAddAttrRatio",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				number = 3000,
+				attr = "dodgeRate"
+			}
+		}
+	}
 }

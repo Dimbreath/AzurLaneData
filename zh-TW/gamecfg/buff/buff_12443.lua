@@ -1,27 +1,3 @@
-slot2.trigger = {
-	"onFoeDying"
-}
-slot2.arg_list = {
-	quota = 8,
-	killer = "self",
-	target = "TargetSelf",
-	skill_id = 12444
-}
-slot1[1] = {
-	type = "BattleBuffCastSkill"
-}
-slot2.trigger = {
-	"onBattleBuffCount"
-}
-slot2.arg_list = {
-	count = 1,
-	countType = 12440
-}
-slot1[2] = {
-	type = "BattleBuffCancelBuff"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "",
@@ -32,5 +8,29 @@ return {
 	stack = 1,
 	color = "red",
 	icon = 12440,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onFoeDying"
+			},
+			arg_list = {
+				quota = 8,
+				killer = "self",
+				target = "TargetSelf",
+				skill_id = 12444
+			}
+		},
+		{
+			type = "BattleBuffCancelBuff",
+			trigger = {
+				"onBattleBuffCount"
+			},
+			arg_list = {
+				count = 1,
+				countType = 12440
+			}
+		}
+	}
 }

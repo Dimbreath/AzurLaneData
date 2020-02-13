@@ -17,16 +17,18 @@ function slot0.UpdateHouse(slot0, slot1)
 end
 
 function slot0.LoadAllShip(slot0, slot1)
+	slot2 = {}
+
 	for slot6, slot7 in pairs(slot0.boatVOs) do
-		table.insert({}, function (slot0)
+		table.insert(slot2, function (slot0)
 			onNextTick(function ()
-				if uv0.isExist then
-					uv1()
+				if slot0.isExist then
+					slot1()
 
 					return
 				end
 
-				uv0:LoadShip(uv2, uv1)
+				slot0:LoadShip(slot2, slot0)
 			end)
 		end)
 	end
@@ -35,10 +37,12 @@ function slot0.LoadAllShip(slot0, slot1)
 end
 
 function slot0.StartMoveShips(slot0, slot1)
+	slot2 = {}
+
 	for slot6, slot7 in pairs(slot0.boatVOs) do
 		if not slot7:hasInterActionFurnitrue() then
-			table.insert({}, function (slot0)
-				uv0:emit(BackyardMainMediator.ADD_BOAT_MOVE, uv1.id)
+			table.insert(slot2, function (slot0)
+				slot0:emit(BackyardMainMediator.ADD_BOAT_MOVE, slot1.id)
 				slot0()
 			end)
 		end
@@ -49,19 +53,19 @@ end
 
 function slot0.LoadShip(slot0, slot1, slot2)
 	slot0.factory:MakeBoat(slot1, function (slot0)
-		slot1 = BackYardShipModel.New(slot0, uv0)
-		uv1.shipModels[uv0.id] = slot1
+		slot1 = BackYardShipModel.New(slot0, slot0)
+		slot1.shipModels[slot0.id] = slot1
 
-		slot1:onLoadSlotModel(uv1.view)
+		slot1:onLoadSlotModel(slot1.view)
 
-		if uv2 then
-			uv2()
+		if slot1.onLoadSlotModel then
+			slot2()
 		end
 	end)
 end
 
 function slot0.ExitShip(slot0, slot1)
-	slot0.shipModels[slot1.id]:dispose()
+	slot0.shipModels[slot1.id].dispose(slot2)
 
 	slot0.shipModels[slot1.id] = nil
 	slot0.boatVOs[slot1.id] = nil
@@ -69,13 +73,16 @@ end
 
 function slot0.StopAllBoatMove(slot0, slot1)
 	pg.UIMgr.GetInstance():LoadingOn()
-	table.sort(_.values(slot0.shipModels), function (slot0, slot1)
-		return (slot0.boatVO:hasSpineInterAction() and 1 or 0) > (slot1.boatVO:hasSpineInterAction() and 1 or 0)
+
+	slot2 = {}
+
+	table.sort(slot3, function (slot0, slot1)
+		return ((slot0.boatVO:hasSpineInterAction() and 1) or 0) > ((slot1.boatVO:hasSpineInterAction() and 1) or 0)
 	end)
 
 	function slot4(slot0, slot1)
 		if not slot0.boatVO:hasSpineInterAction() then
-			uv0:emit(BackyardMainMediator.CANCEL_SHIP_MOVE, slot0.boatVO.id)
+			slot0:emit(BackyardMainMediator.CANCEL_SHIP_MOVE, slot0.boatVO.id)
 			slot0:removeItem()
 			slot0:updateShadowTF(false)
 
@@ -84,34 +91,33 @@ function slot0.StopAllBoatMove(slot0, slot1)
 			end
 
 			slot1()
+		elseif slot0.furnitureVOs[slot0.boatVO:getSpineId()]:isTransPort() or slot4:isLoopSpineInterAction() then
+			slot1()
 		else
-			slot4 = uv0.furnitureVOs[slot0.boatVO:getSpineId()]
-
-			if slot4:isTransPort() or slot4:isLoopSpineInterAction() then
-				slot1()
-			else
-				slot0:breakSpineAnim(slot1)
-			end
+			slot0:breakSpineAnim(slot1)
 		end
 	end
 
 	for slot8, slot9 in pairs(slot3) do
-		table.insert({}, function (slot0)
-			uv0(uv1, slot0)
+		table.insert(slot2, function (slot0)
+			slot0(slot0, slot0)
 		end)
 	end
 
 	seriesAsync(slot2, function ()
 		pg.UIMgr.GetInstance():LoadingOff()
 
-		if uv0 then
-			uv0()
+		if pg.UIMgr.GetInstance().LoadingOff then
+			slot0()
 		end
 	end)
 end
 
 function slot0.EnableTouch(slot0, slot1)
-	for slot5, slot6 in pairs(slot0.shipModels or {}) do
+	slot2 = pairs
+	slot3 = slot0.shipModels or {}
+
+	for slot5, slot6 in slot2(slot3) do
 		if not IsNil(slot6.go) then
 			slot6:enableTouch(slot1)
 		end
@@ -130,17 +136,9 @@ end
 
 function slot0.ReSort(slot0)
 	for slot4, slot5 in pairs(slot0.shipModels) do
-		slot6 = slot0.boatVOs[slot4]
-
-		if slot6:getPosition() then
-			if not slot0.boatVOs[slot4]:hasInterActionFurnitrue() then
-				if not slot0.boatVOs[slot4]:hasSpineInterAction() then
-					if not slot0.boatVOs[slot4]:hasSpineExtra() then
-						slot5:removeItem()
-						slot5:createItem(slot6)
-					end
-				end
-			end
+		if slot0.boatVOs[slot4]:getPosition() and not slot0.boatVOs[slot4]:hasInterActionFurnitrue() and not slot0.boatVOs[slot4]:hasSpineInterAction() and not slot0.boatVOs[slot4]:hasSpineExtra() then
+			slot5:removeItem()
+			slot5:createItem(slot6)
 		end
 	end
 end
@@ -177,8 +175,10 @@ function slot0.SetInterAction(slot0, slot1, slot2, slot3, slot4)
 	if slot0.shipModels[slot2] then
 		slot5:updateBoatVO(slot0.boatVOs[slot2])
 
+		slot6 = slot0.furnitureVOs[slot3]
+
 		if slot1 then
-			slot5:updateSpineInterAction(slot0.furnitureVOs[slot3])
+			slot5:updateSpineInterAction(slot6)
 		else
 			slot5:updateInterActionPos(slot6, slot4)
 			slot5:InterActionSortSibling(slot3)
@@ -219,24 +219,24 @@ end
 
 function slot0.AddSpineExtra(slot0, slot1, slot2, slot3)
 	if slot0.shipModels[slot2] then
-		slot5 = slot0.furnitureVOs[slot1]
-
-		if slot5:hasTailAction() then
+		if slot0.furnitureVOs[slot1]:hasTailAction() then
 			slot4:endSpineAnimator(slot5, slot3)
 			slot4:startSpineAnimator(slot5, slot3)
-			slot4:setAction(slot5:getTailAction(), 0)
+			slot4:setAction(slot6, 0)
 			slot4:addSpineExtra(slot1, slot3)
 		else
-			slot0.shipModels[slot5:getSpineId()]:pauseAnim()
+			slot0.shipModels[slot5:getSpineId()].pauseAnim(slot7)
 
 			for slot11, slot12 in ipairs(slot5:getShipExtra()) do
+				slot13 = slot0.shipModels[slot12]
+
 				if slot12 == slot2 then
-					slot0.shipModels[slot12]:addSpineExtra(slot1, slot11)
+					slot13:addSpineExtra(slot1, slot11)
 					slot7:registerActionCB(slot12, function (slot0)
-						uv0:setAction(slot0, 0)
+						slot0:setAction(slot0, 0)
 					end, function ()
-						uv0:endSpineAnimator(uv1, uv2)
-						uv0:startSpineAnimator(uv1, uv2)
+						slot0:endSpineAnimator(slot0, )
+						slot0.endSpineAnimator:startSpineAnimator(slot0.endSpineAnimator, )
 					end)
 				end
 			end
@@ -247,11 +247,9 @@ function slot0.AddSpineExtra(slot0, slot1, slot2, slot3)
 end
 
 function slot0.ClearSpineExtra(slot0, slot1, slot2, slot3)
-	if slot0.shipModels[slot2] then
-		if slot0.furnitureVOs[slot1]:getSpineId() then
-			slot4:clearSpineExtra(slot1, slot3)
-			slot0.shipModels[slot6]:removeActionCB(slot2)
-		end
+	if slot0.shipModels[slot2] and slot0.furnitureVOs[slot1]:getSpineId() then
+		slot4:clearSpineExtra(slot1, slot3)
+		slot0.shipModels[slot6]:removeActionCB(slot2)
 	end
 end
 
@@ -268,9 +266,7 @@ function slot0.CancelShipMove(slot0, slot1)
 end
 
 function slot0.UpdateShipPos(slot0, slot1)
-	slot3 = slot0.boatVOs[slot1.id]
-
-	slot3:setPosition(slot1:getPosition())
+	slot0.boatVOs[slot1.id]:setPosition(slot1:getPosition())
 
 	if slot0.shipModels[slot1.id] then
 		slot3:updateBoatVO(slot0.boatVOs[slot1.id])
@@ -289,10 +285,8 @@ function slot0.AddBoatInimacyAndMoney(slot0, slot1)
 		slot2:updateInimacy(slot1:hasInimacy())
 		slot2:updateMoney(slot1:hasMoney())
 	else
-		slot3 = slot0.boatVOs[slot1.id]
-
-		slot3:setInimacy(slot1.inimacy)
-		slot3:setMoney(slot1.money)
+		slot0.boatVOs[slot1.id].setInimacy(slot3, slot1.inimacy)
+		slot0.boatVOs[slot1.id]:setMoney(slot1.money)
 	end
 end
 

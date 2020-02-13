@@ -1,25 +1,3 @@
-slot1.offset = {
-	0,
-	-2,
-	0
-}
-slot0.aniEffect = {
-	effect = "jineng"
-}
-slot2.target_choise = {
-	"TargetAllHelp",
-	"TargetHPCompare"
-}
-slot2.arg_list = {
-	buff_id = 11141
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillAddBuff"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "闪耀的谢菲",
@@ -28,5 +6,27 @@ return {
 	desc = "闪耀的谢菲",
 	painting = 1,
 	id = 11140,
-	castCV = "skill"
+	castCV = "skill",
+	aniEffect = {
+		effect = "jineng",
+		offset = {
+			0,
+			-2,
+			0
+		}
+	},
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = {
+				"TargetAllHelp",
+				"TargetHPCompare"
+			},
+			arg_list = {
+				buff_id = 11141
+			}
+		}
+	}
 }

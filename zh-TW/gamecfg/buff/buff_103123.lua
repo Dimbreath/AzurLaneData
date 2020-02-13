@@ -1,5 +1,3 @@
-slot0.effect_list = {}
-
 return {
 	desc_get = "",
 	name = "蜜月",
@@ -11,5 +9,6 @@ return {
 	stack = 1,
 	color = "red",
 	icon = 103120,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {}
 }

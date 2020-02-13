@@ -44,9 +44,7 @@ function slot0.isUpdateGoods(slot0)
 end
 
 function slot0.getMaxLevel(slot0)
-	slot1 = slot0:bindConfigTable()
-
-	return slot1.all[#slot1.all]
+	return slot0:bindConfigTable().all[#slot0.bindConfigTable().all]
 end
 
 function slot0.isMaxLevel(slot0)

@@ -1,16 +1,3 @@
-slot2.trigger = {
-	"onUpdate"
-}
-slot2.arg_list = {
-	skill_id = 7034,
-	time = 20,
-	target = "TargetSelf"
-}
-slot1[1] = {
-	type = "BattleBuffCastSkill"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "正面装甲",
@@ -20,5 +7,18 @@ return {
 	stack = 1,
 	id = 7034,
 	icon = 7034,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onUpdate"
+			},
+			arg_list = {
+				skill_id = 7034,
+				time = 20,
+				target = "TargetSelf"
+			}
+		}
+	}
 }

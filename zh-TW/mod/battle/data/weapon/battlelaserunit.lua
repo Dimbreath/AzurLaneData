@@ -1,6 +1,4 @@
-slot0 = ys
-slot0 = slot0 or {}
-ys = slot0
+ys = ys or {}
 slot0 = ys
 slot1 = slot0.Battle
 slot1 = slot1.BattleDataFunction
@@ -25,7 +23,7 @@ slot5 = "beamStateOverHeat"
 slot4.BEAM_STATE_OVER_HEAT = slot5
 
 function slot5(slot0)
-	slot1 = uv0
+	slot1 = slot0
 	slot1 = slot1.super
 	slot1 = slot1.Ctor
 	slot2 = slot0
@@ -81,7 +79,7 @@ function slot5(slot0)
 		slot6(slot7)
 	end
 
-	slot1 = uv0
+	slot1 = slot0
 	slot1 = slot1.super
 	slot1 = slot1.Clear
 	slot2 = slot0
@@ -131,7 +129,6 @@ function slot5(slot0)
 	slot2 = slot0.STATE_PRECAST
 
 	if slot1 == slot2 then
-		-- Nothing
 	else
 		slot1 = slot0._currentState
 		slot2 = slot0.STATE_PRECAST_FINISH
@@ -205,7 +202,7 @@ function slot5(slot0, slot1)
 
 		slot7(slot8, slot9)
 
-		slot7 = uv0
+		slot7 = slot0
 		slot7 = slot7.GetBarrageTmpDataFromID
 		slot9 = slot6
 		slot8 = slot6.GetBeamInfoID
@@ -221,7 +218,7 @@ function slot5(slot0, slot1)
 		end
 	end
 
-	slot2 = uv1
+	slot2 = slot1
 	slot2 = slot2.Battle
 	slot2 = slot2.PlayBattleSFX
 	slot3 = slot0._tmpData
@@ -243,7 +240,7 @@ end
 slot4.DoAttack = slot5
 
 function slot5(slot0, slot1)
-	slot2 = uv0
+	slot2 = slot0
 	slot2 = slot2.super
 	slot2 = slot2.SetTemplateData
 	slot3 = slot0
@@ -274,7 +271,7 @@ function slot5(slot0)
 
 	for slot6, slot7 in slot3, slot4, slot5 do
 		slot8 = slot0._beamList
-		slot9 = uv0
+		slot9 = slot0
 		slot9 = slot9.Battle
 		slot9 = slot9.BattleBeamUnit
 		slot9 = slot9.New
@@ -309,7 +306,7 @@ function slot5(slot0)
 		slot9 = slot7.BEAM_STATE_READY
 
 		if slot8 == slot9 then
-			slot8 = uv0
+			slot8 = slot0
 			slot8 = slot8.GetBarrageTmpDataFromID
 			slot10 = slot7
 			slot9 = slot7.GetBeamInfoID
@@ -401,14 +398,14 @@ function slot5(slot0, slot1)
 			slot6 = slot5.Active
 
 			if slot6 then
-				slot6 = uv0
+				slot6 = slot0
 				slot6 = slot6._dataProxy
 				slot7 = slot6
 				slot6 = slot6.GetUnitList
 				slot6 = slot6(slot7)
 				slot7 = slot5.UID
 				slot6 = slot6[slot7]
-				slot7 = uv1
+				slot7 = slot1
 				slot8 = slot7
 				slot7 = slot7.AddCldUnit
 				slot9 = slot6
@@ -422,14 +419,14 @@ function slot5(slot0, slot1)
 		slot1 = slot0.Active
 
 		if slot1 then
-			slot1 = uv0
+			slot1 = slot0
 			slot1 = slot1._dataProxy
 			slot2 = slot1
 			slot1 = slot1.GetUnitList
 			slot1 = slot1(slot2)
 			slot2 = slot0.UID
 			slot1 = slot1[slot2]
-			slot2 = uv1
+			slot2 = slot1
 			slot3 = slot2
 			slot2 = slot2.RemoveCldUnit
 			slot4 = slot1
@@ -438,12 +435,12 @@ function slot5(slot0, slot1)
 		end
 	end
 
-	slot4 = uv0
+	slot4 = slot0
 	slot4 = slot4.GetBarrageTmpDataFromID
 	slot6 = slot1
 	slot5 = slot1.GetBeamInfoID
 	slot4 = slot4(slot5(slot6))
-	slot5 = uv0
+	slot5 = slot0
 	slot5 = slot5.GetBulletTmpDataFromID
 	slot7 = slot1
 	slot6 = slot1.GetBulletID
@@ -460,7 +457,7 @@ function slot5(slot0, slot1)
 	slot12 = slot0._dataProxy
 	slot13 = slot12
 	slot12 = slot12.SpawnLastingCubeArea
-	slot14 = uv1
+	slot14 = slot1
 	slot14 = slot14.AOEField
 	slot14 = slot14.SURFACE
 	slot15 = slot11
@@ -482,7 +479,7 @@ function slot5(slot0, slot1)
 	slot23 = slot5.modle_ID
 	slot24 = false
 	slot12 = slot12(slot13, slot14, slot15, slot16, slot17, slot18, slot19, slot20, slot21, slot22, slot23, slot24)
-	slot13 = uv2
+	slot13 = slot2
 	slot13 = slot13.FRIENDLY_CODE
 
 	if slot11 == slot13 then
@@ -492,7 +489,7 @@ function slot5(slot0, slot1)
 
 		slot13(slot14, slot15)
 	else
-		slot13 = uv2
+		slot13 = slot2
 		slot13 = slot13.FOE_CODE
 
 		if slot11 == slot13 then
@@ -556,7 +553,7 @@ function slot5(slot0, slot1)
 
 			slot9(slot10, slot11, slot12)
 
-			slot9 = uv0
+			slot9 = slot0
 			slot9 = slot9.Battle
 			slot9 = slot9.BattleFXPool
 			slot9 = slot9.GetInstance
@@ -582,7 +579,7 @@ function slot5(slot0, slot1)
 
 			slot11(slot12, slot13, slot14, slot15)
 
-			slot11 = uv0
+			slot11 = slot0
 			slot11 = slot11.Battle
 			slot11 = slot11.PlayBattleSFX
 			slot13 = slot1
@@ -598,7 +595,7 @@ slot4.doBeamDamage = slot5
 function slot5(slot0)
 	slot1 = nil
 	slot0._attackStartTime = slot1
-	slot1 = uv0
+	slot1 = slot0
 	slot1 = slot1.super
 	slot1 = slot1.EnterCoolDown
 	slot2 = slot0
@@ -607,3 +604,5 @@ function slot5(slot0)
 end
 
 slot4.EnterCoolDown = slot5
+
+return

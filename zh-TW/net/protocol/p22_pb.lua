@@ -155,16 +155,17 @@ SC_22001.name = "sc_22001"
 SC_22001.full_name = ".p22.sc_22001"
 SC_22001.nested_types = {}
 SC_22001.enum_types = {}
-slot51[1] = slot1
-slot51[2] = slot2
-slot51[3] = slot3
-slot51[4] = slot4
-slot51[5] = slot5
-slot51[6] = slot6
-slot51[7] = slot7
-slot51[8] = slot8
-slot51[9] = slot9
-SC_22001.fields = {}
+SC_22001.fields = {
+	slot1,
+	slot2,
+	slot3,
+	slot4,
+	slot5,
+	slot6,
+	slot7,
+	slot8,
+	slot9
+}
 SC_22001.is_extendable = false
 SC_22001.extensions = {}
 slot10.name = "students"
@@ -180,8 +181,9 @@ CS_22002.name = "cs_22002"
 CS_22002.full_name = ".p22.cs_22002"
 CS_22002.nested_types = {}
 CS_22002.enum_types = {}
-slot51[1] = slot10
-CS_22002.fields = {}
+CS_22002.fields = {
+	slot10
+}
 CS_22002.is_extendable = false
 CS_22002.extensions = {}
 slot11.name = "result"
@@ -197,8 +199,9 @@ SC_22003.name = "sc_22003"
 SC_22003.full_name = ".p22.sc_22003"
 SC_22003.nested_types = {}
 SC_22003.enum_types = {}
-slot51[1] = slot11
-SC_22003.fields = {}
+SC_22003.fields = {
+	slot11
+}
 SC_22003.is_extendable = false
 SC_22003.extensions = {}
 slot12.name = "type"
@@ -214,8 +217,9 @@ CS_22004.name = "cs_22004"
 CS_22004.full_name = ".p22.cs_22004"
 CS_22004.nested_types = {}
 CS_22004.enum_types = {}
-slot51[1] = slot12
-CS_22004.fields = {}
+CS_22004.fields = {
+	slot12
+}
 CS_22004.is_extendable = false
 CS_22004.extensions = {}
 slot13.name = "result"
@@ -250,10 +254,11 @@ SC_22005.name = "sc_22005"
 SC_22005.full_name = ".p22.sc_22005"
 SC_22005.nested_types = {}
 SC_22005.enum_types = {}
-slot51[1] = slot13
-slot51[2] = slot14
-slot51[3] = slot15
-SC_22005.fields = {}
+SC_22005.fields = {
+	slot13,
+	slot14,
+	slot15
+}
 SC_22005.is_extendable = false
 SC_22005.extensions = {}
 slot16.name = "type"
@@ -269,8 +274,9 @@ CS_22101.name = "cs_22101"
 CS_22101.full_name = ".p22.cs_22101"
 CS_22101.nested_types = {}
 CS_22101.enum_types = {}
-slot51[1] = slot16
-CS_22101.fields = {}
+CS_22101.fields = {
+	slot16
+}
 CS_22101.is_extendable = false
 CS_22101.extensions = {}
 slot17.name = "street"
@@ -287,8 +293,9 @@ SC_22102.name = "sc_22102"
 SC_22102.full_name = ".p22.sc_22102"
 SC_22102.nested_types = {}
 SC_22102.enum_types = {}
-slot51[1] = slot17
-SC_22102.fields = {}
+SC_22102.fields = {
+	slot17
+}
 SC_22102.is_extendable = false
 SC_22102.extensions = {}
 slot18.name = "room_id"
@@ -331,11 +338,12 @@ CS_22201.name = "cs_22201"
 CS_22201.full_name = ".p22.cs_22201"
 CS_22201.nested_types = {}
 CS_22201.enum_types = {}
-slot51[1] = slot18
-slot51[2] = slot19
-slot51[3] = slot20
-slot51[4] = slot21
-CS_22201.fields = {}
+CS_22201.fields = {
+	slot18,
+	slot19,
+	slot20,
+	slot21
+}
 CS_22201.is_extendable = false
 CS_22201.extensions = {}
 slot22.name = "result"
@@ -361,9 +369,10 @@ SC_22202.name = "sc_22202"
 SC_22202.full_name = ".p22.sc_22202"
 SC_22202.nested_types = {}
 SC_22202.enum_types = {}
-slot51[1] = slot22
-slot51[2] = slot23
-SC_22202.fields = {}
+SC_22202.fields = {
+	slot22,
+	slot23
+}
 SC_22202.is_extendable = false
 SC_22202.extensions = {}
 slot24.name = "room_id"
@@ -388,9 +397,10 @@ CS_22203.name = "cs_22203"
 CS_22203.full_name = ".p22.cs_22203"
 CS_22203.nested_types = {}
 CS_22203.enum_types = {}
-slot51[1] = slot24
-slot51[2] = slot25
-CS_22203.fields = {}
+CS_22203.fields = {
+	slot24,
+	slot25
+}
 CS_22203.is_extendable = false
 CS_22203.extensions = {}
 slot26.name = "result"
@@ -415,9 +425,10 @@ SC_22204.name = "sc_22204"
 SC_22204.full_name = ".p22.sc_22204"
 SC_22204.nested_types = {}
 SC_22204.enum_types = {}
-slot51[1] = slot26
-slot51[2] = slot27
-SC_22204.fields = {}
+SC_22204.fields = {
+	slot26,
+	slot27
+}
 SC_22204.is_extendable = false
 SC_22204.extensions = {}
 slot28.name = "proficiency"
@@ -451,10 +462,11 @@ NAVALACADEMY_CLASS.name = "navalacademy_class"
 NAVALACADEMY_CLASS.full_name = ".p22.navalacademy_class"
 NAVALACADEMY_CLASS.nested_types = {}
 NAVALACADEMY_CLASS.enum_types = {}
-slot51[1] = slot28
-slot51[2] = slot29
-slot51[3] = slot30
-NAVALACADEMY_CLASS.fields = {}
+NAVALACADEMY_CLASS.fields = {
+	slot28,
+	slot29,
+	slot30
+}
 NAVALACADEMY_CLASS.is_extendable = false
 NAVALACADEMY_CLASS.extensions = {}
 slot31.name = "ship_id"
@@ -479,9 +491,10 @@ NAVALACADEMY_STUDENT.name = "navalacademy_student"
 NAVALACADEMY_STUDENT.full_name = ".p22.navalacademy_student"
 NAVALACADEMY_STUDENT.nested_types = {}
 NAVALACADEMY_STUDENT.enum_types = {}
-slot51[1] = slot31
-slot51[2] = slot32
-NAVALACADEMY_STUDENT.fields = {}
+NAVALACADEMY_STUDENT.fields = {
+	slot31,
+	slot32
+}
 NAVALACADEMY_STUDENT.is_extendable = false
 NAVALACADEMY_STUDENT.extensions = {}
 slot33.name = "ship_id"
@@ -515,10 +528,11 @@ CLASS_EXP_REWARD.name = "class_exp_reward"
 CLASS_EXP_REWARD.full_name = ".p22.class_exp_reward"
 CLASS_EXP_REWARD.nested_types = {}
 CLASS_EXP_REWARD.enum_types = {}
-slot51[1] = slot33
-slot51[2] = slot34
-slot51[3] = slot35
-CLASS_EXP_REWARD.fields = {}
+CLASS_EXP_REWARD.fields = {
+	slot33,
+	slot34,
+	slot35
+}
 CLASS_EXP_REWARD.is_extendable = false
 CLASS_EXP_REWARD.extensions = {}
 slot36.name = "lv"
@@ -571,12 +585,13 @@ SHOPPINGSTREET.name = "shoppingstreet"
 SHOPPINGSTREET.full_name = ".p22.shoppingstreet"
 SHOPPINGSTREET.nested_types = {}
 SHOPPINGSTREET.enum_types = {}
-slot51[1] = slot36
-slot51[2] = slot37
-slot51[3] = slot38
-slot51[4] = slot39
-slot51[5] = slot40
-SHOPPINGSTREET.fields = {}
+SHOPPINGSTREET.fields = {
+	slot36,
+	slot37,
+	slot38,
+	slot39,
+	slot40
+}
 SHOPPINGSTREET.is_extendable = false
 SHOPPINGSTREET.extensions = {}
 slot41.name = "goods_id"
@@ -610,10 +625,11 @@ STREETGOODS.name = "streetgoods"
 STREETGOODS.full_name = ".p22.streetgoods"
 STREETGOODS.nested_types = {}
 STREETGOODS.enum_types = {}
-slot51[1] = slot41
-slot51[2] = slot42
-slot51[3] = slot43
-STREETGOODS.fields = {}
+STREETGOODS.fields = {
+	slot41,
+	slot42,
+	slot43
+}
 STREETGOODS.is_extendable = false
 STREETGOODS.extensions = {}
 slot44.name = "room_id"
@@ -674,13 +690,14 @@ SKILL_CLASS.name = "skill_class"
 SKILL_CLASS.full_name = ".p22.skill_class"
 SKILL_CLASS.nested_types = {}
 SKILL_CLASS.enum_types = {}
-slot51[1] = slot44
-slot51[2] = slot45
-slot51[3] = slot46
-slot51[4] = slot47
-slot51[5] = slot48
-slot51[6] = slot49
-SKILL_CLASS.fields = {}
+SKILL_CLASS.fields = {
+	slot44,
+	slot45,
+	slot46,
+	slot47,
+	slot48,
+	slot49
+}
 SKILL_CLASS.is_extendable = false
 SKILL_CLASS.extensions = {}
 class_exp_reward = slot0.Message(CLASS_EXP_REWARD)
@@ -700,3 +717,5 @@ sc_22204 = slot0.Message(SC_22204)
 shoppingstreet = slot0.Message(SHOPPINGSTREET)
 skill_class = slot0.Message(SKILL_CLASS)
 streetgoods = slot0.Message(STREETGOODS)
+
+return

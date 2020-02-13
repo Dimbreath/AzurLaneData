@@ -1,6 +1,4 @@
-slot0 = ys
-slot0 = slot0 or {}
-ys = slot0
+ys = ys or {}
 slot0 = ys
 slot1 = slot0.Battle
 slot2 = singletonClass
@@ -17,7 +15,7 @@ slot1 = slot0.Battle
 slot1 = slot1.BattleGravitationBulletFactory
 
 function slot2(slot0)
-	slot1 = uv0
+	slot1 = slot0
 	slot1 = slot1.super
 	slot1 = slot1.Ctor
 	slot2 = slot0
@@ -28,7 +26,7 @@ end
 slot1.Ctor = slot2
 
 function slot2(slot0)
-	slot1 = uv0
+	slot1 = slot0
 	slot1 = slot1.Battle
 	slot1 = slot1.BattleTorpedoBullet
 	slot1 = slot1.New
@@ -55,7 +53,7 @@ function slot2(slot0, slot1, slot2)
 	slot4 = slot3.GetTemplate
 	slot4 = slot4(slot5)
 	slot5 = slot4.hit_type
-	slot6 = uv0
+	slot6 = slot0
 	slot6 = slot6.GetDataProxy
 	slot6 = slot6()
 	slot8 = slot0
@@ -64,7 +62,7 @@ function slot2(slot0, slot1, slot2)
 	slot9 = slot7
 	slot8 = slot7.GetTemplate
 	slot8 = slot8(slot9)
-	slot9 = uv1
+	slot9 = slot1
 	slot9 = slot9.Battle
 	slot9 = slot9.PlayBattleSFX
 	slot10 = slot8.hit_sfx
@@ -87,7 +85,7 @@ function slot2(slot0, slot1, slot2)
 	slot11 = slot11.buff_id
 
 	function slot12(slot0)
-		slot1 = uv0
+		slot1 = slot0
 		slot2 = slot1
 		slot1 = slot1.CanDealDamage
 		slot1 = slot1(slot2)
@@ -101,7 +99,7 @@ function slot2(slot0, slot1, slot2)
 				slot6 = slot5.Active
 
 				if slot6 then
-					slot6 = uv1
+					slot6 = slot1
 					slot7 = slot6
 					slot6 = slot6.GetSceneMediator
 					slot6 = slot6(slot7)
@@ -117,7 +115,7 @@ function slot2(slot0, slot1, slot2)
 					slot8 = slot6.GetCurrentOxyState
 					slot8 = slot8(slot9)
 					slot9 = ipairs
-					slot10 = uv2
+					slot10 = slot2
 					slot9, slot10, slot11 = slot9(slot10)
 
 					for slot12, slot13 in slot9, slot10, slot11 do
@@ -127,11 +125,11 @@ function slot2(slot0, slot1, slot2)
 					end
 
 					if not slot7 then
-						slot9 = uv3
+						slot9 = slot3
 						slot9 = slot9.Battle
 						slot9 = slot9.BattleBuffUnit
 						slot9 = slot9.New
-						slot10 = uv4
+						slot10 = slot4
 						slot9 = slot9(slot10)
 						slot11 = slot6
 						slot10 = slot6.AddBuff
@@ -139,10 +137,10 @@ function slot2(slot0, slot1, slot2)
 
 						slot10(slot11, slot12)
 
-						slot10 = uv5
+						slot10 = slot5
 						slot11 = slot10
 						slot10 = slot10.HandleDamage
-						slot12 = uv0
+						slot12 = slot0
 						slot13 = slot6
 
 						slot10(slot11, slot12, slot13)
@@ -150,7 +148,7 @@ function slot2(slot0, slot1, slot2)
 						slot10 = pg
 						slot10 = slot10.Tool
 						slot10 = slot10.FilterY
-						slot11 = uv6
+						slot11 = slot6
 						slot13 = slot6
 						slot12 = slot6.GetPosition
 						slot12 = slot12(slot13)
@@ -180,7 +178,7 @@ function slot2(slot0, slot1, slot2)
 				end
 			end
 
-			slot1 = uv0
+			slot1 = slot0
 			slot2 = slot1
 			slot1 = slot1.DealDamage
 
@@ -192,7 +190,7 @@ function slot2(slot0, slot1, slot2)
 		slot1 = slot0.Active
 
 		if slot1 then
-			slot1 = uv0
+			slot1 = slot0
 			slot2 = slot1
 			slot1 = slot1.GetSceneMediator
 			slot1 = slot1(slot2)
@@ -205,14 +203,14 @@ function slot2(slot0, slot1, slot2)
 			slot1 = slot1(slot2)
 			slot3 = slot1
 			slot2 = slot1.RemoveBuff
-			slot4 = uv1
+			slot4 = slot1
 
 			slot2(slot3, slot4)
 		end
 	end
 
 	function slot14(slot0)
-		slot1 = uv0
+		slot1 = slot0
 		slot2 = slot1
 		slot1 = slot1.GetTemplate
 		slot1 = slot1(slot2)
@@ -226,7 +224,7 @@ function slot2(slot0, slot1, slot2)
 			slot7 = slot6.Active
 
 			if slot7 then
-				slot7 = uv1
+				slot7 = slot1
 				slot8 = slot7
 				slot7 = slot7.GetSceneMediator
 				slot7 = slot7(slot8)
@@ -242,7 +240,7 @@ function slot2(slot0, slot1, slot2)
 				slot9 = slot7.GetCurrentOxyState
 				slot9 = slot9(slot10)
 				slot10 = ipairs
-				slot11 = uv2
+				slot11 = slot2
 				slot10, slot11, slot12 = slot10(slot11)
 
 				for slot13, slot14 in slot10, slot11, slot12 do
@@ -252,12 +250,12 @@ function slot2(slot0, slot1, slot2)
 				end
 
 				if not slot8 then
-					slot10 = uv3
+					slot10 = slot3
 					slot11 = slot10
 					slot10 = slot10.HandleDirectDamage
 					slot12 = slot7
 					slot13 = slot1
-					slot14 = uv0
+					slot14 = slot0
 
 					slot10(slot11, slot12, slot13, slot14)
 
@@ -267,7 +265,7 @@ function slot2(slot0, slot1, slot2)
 					slot12 = slot7
 					slot11 = slot7.GetPosition
 					slot11 = slot11(slot12)
-					slot12 = uv4
+					slot12 = slot4
 					slot11 = slot11 - slot12
 					slot10 = slot10(slot11)
 					slot12 = slot7
@@ -281,19 +279,19 @@ function slot2(slot0, slot1, slot2)
 
 					slot12 = slot7
 					slot11 = slot7.RemoveBuff
-					slot13 = uv5
+					slot13 = slot5
 
 					slot11(slot12, slot13)
 				end
 			end
 		end
 
-		slot2 = uv1
+		slot2 = slot1
 		slot2 = slot2.GetFXPool
 		slot2 = slot2()
 		slot3 = slot2
 		slot2 = slot2.GetFX
-		slot4 = uv6
+		slot4 = slot6
 		slot5 = slot4
 		slot4 = slot4.GetMissFXID
 		slot2, slot3 = slot2(slot3, slot4(slot5))
@@ -306,16 +304,16 @@ function slot2(slot0, slot1, slot2)
 		slot6 = slot2
 		slot8 = slot3
 		slot7 = slot3.Add
-		slot9 = uv4
+		slot9 = slot4
 		slot7 = slot7(slot8, slot9)
 		slot8 = true
 
 		slot4(slot5, slot6, slot7, slot8)
 
-		slot4 = uv3
+		slot4 = slot3
 		slot5 = slot4
 		slot4 = slot4.RemoveBulletUnit
-		slot6 = uv0
+		slot6 = slot0
 		slot7 = slot6
 		slot6 = slot6.GetUniqueID
 
@@ -352,7 +350,7 @@ end
 slot1.onBulletHitFunc = slot2
 
 function slot2(slot0)
-	slot1 = uv0
+	slot1 = slot0
 	slot1 = slot1.onBulletHitFunc
 	slot2 = slot0
 
@@ -381,31 +379,31 @@ function slot2(slot0, slot1, slot2)
 	slot8 = slot8(slot9)
 
 	function slot9(slot0)
-		slot1 = uv0
+		slot1 = slot0
 		slot2 = slot1
 		slot1 = slot1.AddModel
 		slot3 = slot0
 		slot1 = slot1(slot2, slot3)
 
 		if slot1 then
-			slot1 = uv1
+			slot1 = slot1
 			slot1 = slot1.track_fx
 
 			if slot1 ~= "" then
-				slot1 = uv2
+				slot1 = slot2
 				slot2 = slot1
 				slot1 = slot1.GetFXPool
 				slot1 = slot1(slot2)
 				slot2 = slot1
 				slot1 = slot1.GetFX
-				slot3 = uv0
+				slot3 = slot0
 				slot4 = slot3
 				slot3 = slot3.GetTrackFXID
 				slot1, slot2 = slot1(slot2, slot3(slot4))
-				slot3 = uv2
+				slot3 = slot2
 				slot4 = slot3
 				slot3 = slot3.MakeTrack
-				slot5 = uv0
+				slot5 = slot0
 				slot6 = slot1
 				slot7 = slot2
 
@@ -476,3 +474,5 @@ function slot2(slot0, slot1, slot2)
 end
 
 slot1.MakeModel = slot2
+
+return

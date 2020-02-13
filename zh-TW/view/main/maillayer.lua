@@ -89,7 +89,7 @@ function slot0.setOrMovePanelState(slot0, slot1, slot2)
 	elseif slot1 == slot0.panelStateList[1] then
 		LeanTween.moveX(rtf(slot0.mainPanel), 0, 0.2)
 		LeanTween.moveX(rtf(slot0.letterPanel), 0, 0.2):setOnComplete(System.Action(function ()
-			SetActive(uv0.letterPanel, false)
+			SetActive(slot0.letterPanel, false)
 		end))
 	end
 
@@ -99,40 +99,39 @@ end
 function slot0.didEnter(slot0)
 	slot0:setOrMovePanelState(slot0.panelState, true)
 	onButton(slot0, slot0._tf, function ()
-		uv0:emit(uv1.ON_CLOSE)
+		slot0:emit(slot1.ON_CLOSE)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.closeButton, function ()
-		triggerButton(uv0._tf)
+		triggerButton(slot0._tf)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.deleteAllButton, function ()
-		if uv0.totalCount == 0 then
+		if slot0.totalCount == 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("main_mailLayer_mailBoxClear"))
 
 			return
 		end
 
-		slot2.content = i18n("main_mailLayer_quest_clear")
-
-		function slot2.onYes()
-			uv0:emit(MailMediator.ON_DELETE_ALL)
-		end
-
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("main_mailLayer_quest_clear"),
+			onYes = function ()
+				slot0:emit(MailMediator.ON_DELETE_ALL)
+			end
+		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.takeAllButton, function ()
-		if uv0.totalCount == 0 then
+		if slot0.totalCount == 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("main_mailLayer_mailBoxClear"))
 
 			return
 		end
 
-		uv0:emit(MailMediator.ON_TAKE_ALL)
+		slot0:emit(MailMediator.ON_TAKE_ALL)
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.toggleNormal, function (slot0)
-		uv0:updateMailList()
+		slot0:updateMailList()
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.toggleMatter, function (slot0)
-		uv0:updateMailList()
+		slot0:updateMailList()
 	end, SFX_PANEL)
 
 	slot1 = slot0.mailPanel:GetComponent("UIPullToRefreshTrigger")
@@ -142,21 +141,21 @@ function slot0.didEnter(slot0)
 	pg.DelegateInfo.Add(slot0, slot1.onValueChanged)
 	slot1.onValueChanged:AddListener(function (slot0)
 		if slot0 > 0 then
-			uv0.alpha = slot0 * slot0
+			slot0.alpha = slot0 * slot0
 		else
-			uv0.alpha = 0
+			slot0.alpha = 0
 		end
 
-		if slot0 < 0 and #uv1.mailVOs < uv1.totalCount then
-			uv2.alpha = slot0 * slot0
+		if slot0 < 0 and #slot1.mailVOs < slot1.totalCount then
+			slot2.alpha = slot0 * slot0
 		else
-			uv2.alpha = 0
+			slot2.alpha = 0
 		end
 	end)
 	pg.DelegateInfo.Add(slot0, slot1.onRefreshTop)
 	slot1.onRefreshTop:AddListener(function ()
-		if #uv0.mailVOs < uv0.totalCount and uv0.unreadCount > 0 then
-			uv0:emit(MailMediator.ON_MORE_NEWER)
+		if #slot0.mailVOs < slot0.totalCount and slot0.unreadCount > 0 then
+			slot0:emit(MailMediator.ON_MORE_NEWER)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("main_mailLayer_noNewMail"))
 		end
@@ -166,8 +165,8 @@ function slot0.didEnter(slot0)
 
 	pg.DelegateInfo.Add(slot0, slot1.onDragEnd)
 	slot1.onDragEnd:AddListener(function ()
-		if uv0.verticalNormalizedPosition <= 0.1 and #uv1.mailVOs < uv1.totalCount then
-			uv1:emit(MailMediator.ON_MORE_OLDER)
+		if slot0.verticalNormalizedPosition <= 0.1 and #slot1.mailVOs < slot1.totalCount then
+			slot1:emit(MailMediator.ON_MORE_OLDER)
 		end
 	end)
 end
@@ -179,7 +178,9 @@ end
 function slot0.updateMailList(slot0)
 	table.sort(slot0.mailVOs, Mail.sortByTime)
 
-	if not getToggleState(slot0.toggleNormal) and not getToggleState(slot0.toggleMatter) then
+	slot3 = not getToggleState(slot0.toggleNormal) and not getToggleState(slot0.toggleMatter)
+
+	if slot3 then
 		slot0.toggleNormal:GetComponent(typeof(Toggle)).isOn = true
 		slot0.toggleMatter:GetComponent(typeof(Toggle)).isOn = true
 	end
@@ -196,7 +197,7 @@ function slot0.updateMailList(slot0)
 			slot0:updateMail(slot10)
 		end
 
-		setActive(slot11, slot10.importantFlag ~= 1 and slot4 or slot10.importantFlag == 1 and slot5)
+		setActive(slot11, (slot10.importantFlag ~= 1 and slot4) or (slot10.importantFlag == 1 and slot5))
 	end
 
 	setActive(slot0.deleteAllButton, slot4 or not slot5)
@@ -212,7 +213,7 @@ end
 
 function slot0.updateMailCount(slot0)
 	setText(slot0.mailCount, slot0.totalCount .. "<color=#B1BAC9FF>/1000</color>")
-	slot0.showMailTip(slot0, #slot0.mailVOs ~= slot0.totalCount)
+	slot0:showMailTip(#slot0.mailVOs ~= slot0.totalCount)
 end
 
 function slot0.showMailTip(slot0, slot1)
@@ -247,9 +248,7 @@ function slot0.setLetterContent(slot0, slot1)
 end
 
 function slot0.openMail(slot0, slot1)
-	slot2 = slot0.mailTFsById[slot1.id]
-
-	setActive(slot2:Find("check_mark"), true)
+	setActive(slot0.mailTFsById[slot1.id]:Find("check_mark"), true)
 
 	if slot0.preCheckMark and slot0.preCheckMark ~= slot2 then
 		setActive(slot0.preCheckMark, false)
@@ -258,16 +257,13 @@ function slot0.openMail(slot0, slot1)
 	slot0.preCheckMark = slot2
 
 	slot0:setOrMovePanelState("openMail")
-
-	slot3 = slot0.letterPanel
-
 	setText(findTF(slot3, "panel/main/contant/title"), slot1.title)
 	setText(findTF(slot3, "panel/main/contant/title"), i18n2(slot1.title))
 	setText(findTF(slot3, "panel/main/contant/date/date_bg/text"), os.date("%Y-%m-%d", slot1.date))
 	setText(findTF(slot3, "from/text"), slot1.sender)
 	slot0:setLetterContent(slot1.content)
-	onButton(slot0, findTF(slot3, "get_button"), function ()
-		uv0:emit(MailMediator.ON_TAKE, uv1.id)
+	onButton(slot0, slot4, function ()
+		slot0:emit(MailMediator.ON_TAKE, slot1.id)
 	end, SFX_PANEL)
 
 	slot5 = 0
@@ -277,7 +273,7 @@ function slot0.openMail(slot0, slot1)
 
 		slot5 = 1
 	else
-		slot5 = slot1.attachFlag == slot1.ATTACHMENT_NONE and 2 or 3
+		slot5 = (slot1.attachFlag == slot1.ATTACHMENT_NONE and 2) or 3
 
 		setButtonEnabled(slot4, false)
 	end
@@ -287,7 +283,7 @@ function slot0.openMail(slot0, slot1)
 	setActive(findTF(slot4, "got"), slot5 == 3)
 	setActive(findTF(slot4, "mask"), slot5 ~= 1)
 	setActive(slot0.letterContant, true)
-	removeAllChildren(findTF(slot0.letterContant, "attachments"))
+	removeAllChildren(setActive)
 
 	slot7 = false
 
@@ -301,16 +297,12 @@ function slot0.openMail(slot0, slot1)
 	setActive(slot0.radioImp:Find("on"), slot1.importantFlag == 1)
 	setActive(slot0.radioImp:Find("off"), slot1.importantFlag == 0)
 	onButton(slot0, slot0.radioImp, function ()
-		slot0 = pg.MsgboxMgr.GetInstance()
-		slot2.content = i18n(uv0.importantFlag == 1 and "mail_confirm_cancel_important_flag" or "mail_confirm_set_important_flag")
-
-		function slot2.onYes()
-			slot0 = uv0
-
-			slot0.emit(slot0, MailMediator.ON_CHANGE_IMP, uv1.id, uv1.importantFlag == 1 and 0 or 1)
-		end
-
-		slot0.ShowMsgBox(slot0, {})
+		slot0(pg.MsgboxMgr.GetInstance(), {
+			content = i18n((slot0.importantFlag == 1 and "mail_confirm_cancel_important_flag") or "mail_confirm_set_important_flag"),
+			onYes = function ()
+				slot0.emit(slot1, MailMediator.ON_CHANGE_IMP, slot1.id, (slot1.importantFlag == 1 and 0) or 1)
+			end
+		})
 	end, SFX_PANEL)
 
 	slot0.lastOpenMailId = slot1.id
@@ -318,38 +310,37 @@ end
 
 function slot0.setAttachment(slot0, slot1, slot2, slot3)
 	setActive(slot1:Find("mask"), slot3)
-
-	slot6.type = slot2.dropType
-	slot6.id = slot2.id
-	slot6.count = slot2.count
-
-	updateDrop(slot1, {})
+	updateDrop(slot1, {
+		type = slot2.dropType,
+		id = slot2.id,
+		count = slot2.count
+	})
 	onButton(slot0, slot1, function ()
-		if uv0.dropType == DROP_TYPE_RESOURCE then
-			uv1:emit(uv2.ON_ITEM, id2ItemId(uv0.id))
-		elseif uv0.dropType == DROP_TYPE_ITEM or uv0.dropType == DROP_TYPE_SHIP then
-			slot3.type = uv0.dropType
-			slot3.id = uv0.id
-			slot3.count = uv0.count
-
-			uv1:emit(uv2.ON_DROP, {})
-		elseif uv0.dropType == DROP_TYPE_FURNITURE then
-			slot2.type = MSGBOX_TYPE_SINGLE_ITEM
-			slot3.type = DROP_TYPE_FURNITURE
-			slot3.id = uv0.id
-			slot3.cfg = pg.furniture_data_template[uv0.id]
-			slot2.drop = {}
-
+		if slot0.dropType == DROP_TYPE_RESOURCE then
+			slot1:emit(slot2.ON_ITEM, id2ItemId(slot0.id))
+		elseif slot0.dropType == DROP_TYPE_ITEM or slot0.dropType == DROP_TYPE_SHIP then
+			slot1:emit(slot2.ON_DROP, {
+				type = slot0.dropType,
+				id = slot0.id,
+				count = slot0.count
+			})
+		elseif slot0.dropType == DROP_TYPE_FURNITURE then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				yesText = "text_confirm",
 				hideNo = true,
-				content = ""
+				content = "",
+				type = MSGBOX_TYPE_SINGLE_ITEM,
+				drop = {
+					type = DROP_TYPE_FURNITURE,
+					id = slot0.id,
+					cfg = pg.furniture_data_template[slot0.id]
+				}
 			})
-		elseif uv0.dropType == DROP_TYPE_EQUIP then
-			slot3.equipmentId = uv0.id
-			slot3.type = EquipmentInfoMediator.TYPE_DISPLAY
-
-			uv1:emit(uv2.ON_EQUIPMENT, {})
+		elseif slot0.dropType == DROP_TYPE_EQUIP then
+			slot1:emit(slot2.ON_EQUIPMENT, {
+				equipmentId = slot0.id,
+				type = EquipmentInfoMediator.TYPE_DISPLAY
+			})
 		end
 	end)
 end
@@ -363,29 +354,26 @@ function slot0.updateMail(slot0, slot1)
 
 	if slot0.mailTFsById[slot1.id] then
 		onButton(slot0, slot2, function ()
-			uv0:emit(MailMediator.ON_OPEN, uv1.id)
+			slot0:emit(MailMediator.ON_OPEN, slot1.id)
 		end, SFX_PANEL)
-
-		slot3 = slot2:Find("check_mark")
-
 		setActive(slot3, false)
 		onButton(slot0, slot3, function ()
-			setActive(uv0, false)
-			uv1:setOrMovePanelState("initial")
+			setActive(setActive, false)
+			setActive:setOrMovePanelState("initial")
 
-			uv1.lastOpenMailId = nil
+			setActive.lastOpenMailId = nil
 		end, SFX_PANEL)
+
+		slot4 = slot0:findTF("mask", slot2)
+
 		setActive(findTF(slot2, "tip_bg"), slot1.attachFlag ~= slot1.ATTACHMENT_NONE)
+		setActive(findTF(slot2, "tip_bg"), not (slot1.attachFlag ~= slot1.ATTACHMENT_NONE))
+		setActive(findTF(slot2, "icon"), slot1.attachFlag ~= slot1.ATTACHMENT_NONE)
 
-		slot5 = slot1.attachFlag ~= slot1.ATTACHMENT_NONE
-
-		setActive(findTF(slot2, "res_icon"), not slot5)
-		setActive(findTF(slot2, "icon"), slot5)
-
-		if slot5 then
+		if slot1.attachFlag ~= slot1.ATTACHMENT_NONE then
 			setText(findTF(slot2, "tip_bg/Text"), #slot1.attachments)
-			slot0.setAttachment(slot0, slot7, slot1.attachments[1], slot1.attachFlag == 2)
-			setActive(slot0:findTF("mask", slot2), slot1.readFlag == 2 and slot1.attachFlag == slot1.ATTACHMENT_TAKEN)
+			slot0:setAttachment(slot7, slot1.attachments[1], slot1.attachFlag == 2)
+			setActive(slot4, slot1.readFlag == 2 and slot1.attachFlag == slot1.ATTACHMENT_TAKEN)
 		else
 			if slot1.readFlag == 2 then
 				slot0:setSpriteTo("resources/mail_read", slot6, true)
@@ -396,8 +384,8 @@ function slot0.updateMail(slot0, slot1)
 			setActive(slot4, slot1.readFlag == 2)
 		end
 
-		setText(findTF(slot2, "title"), shortenString(i18n2(slot1.title), 15))
-		setText(findTF(slot2, "date"), os.date("%Y-%m-%d %H:%M:%S", slot1.date))
+		setText(slot8, shortenString(i18n2(slot1.title), 15))
+		setText(slot9, os.date("%Y-%m-%d %H:%M:%S", slot1.date))
 		setActive(slot2:Find("star"), slot1.importantFlag == 1)
 
 		if slot0.lastOpenMailId == slot1.id then
@@ -436,21 +424,19 @@ end
 
 function slot0.onDelete(slot0, slot1)
 	if slot1.attachFlag == slot1.ATTACHMENT_EXIST then
-		slot4.content = i18n("main_mailLayer_quest_deleteNotTakeAttach")
-
-		function slot4.onYes()
-			uv0:emit(MailMediator.ON_DELETE, uv1.id)
-		end
-
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("main_mailLayer_quest_deleteNotTakeAttach"),
+			onYes = function ()
+				slot0:emit(MailMediator.ON_DELETE, slot1.id)
+			end
+		})
 	elseif slot1.attachFlag == slot1.ATTACHMENT_EXIST then
-		slot4.content = i18n("main_mailLayer_quest_deleteNotRead")
-
-		function slot4.onYes()
-			uv0:emit(MailMediator.ON_DELETE, uv1.id)
-		end
-
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("main_mailLayer_quest_deleteNotRead"),
+			onYes = function ()
+				slot0:emit(MailMediator.ON_DELETE, slot1.id)
+			end
+		})
 	else
 		slot0:emit(MailMediator.ON_DELETE, slot1.id)
 	end
@@ -461,24 +447,26 @@ function slot0.showMsgBox(slot0, slot1)
 
 	setActive(slot0.msgBoxTF, true)
 	onButton(slot0, slot0.msgCancelBtn, function ()
-		uv0:closeMsgBox()
+		slot0:closeMsgBox()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.msgConfirmBtn, function ()
-		if uv0.onYes then
-			uv0.onYes()
+		if slot0.onYes then
+			slot0.onYes()
 		end
 
-		uv1:closeMsgBox()
+		slot1:closeMsgBox()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.msgBoxTF, function ()
-		uv0:closeMsgBox()
+		slot0:closeMsgBox()
 	end, SFX_PANEL)
 	onButton(slot0, slot0:findTF("window/top/btnBack", slot0.msgBoxTF), function ()
-		uv0:closeMsgBox()
+		slot0:closeMsgBox()
 	end, SFX_PANEL)
 	removeAllChildren(slot0.msgItemContainerTF)
 
-	for slot6, slot7 in pairs(slot1.items or {}) do
+	slot2 = slot1.items or {}
+
+	for slot6, slot7 in pairs(slot2) do
 		updateDrop(cloneTplTo(slot0.msgItemTF, slot0.msgItemContainerTF), slot7)
 	end
 

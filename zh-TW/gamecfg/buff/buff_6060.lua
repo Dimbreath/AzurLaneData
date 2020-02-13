@@ -1,5 +1,3 @@
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "SG雷达T3",
@@ -10,5 +8,6 @@ return {
 	stack = 1,
 	color = "yellow",
 	icon = 6060,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {}
 }

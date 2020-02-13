@@ -1,10 +1,7 @@
-slot0 = class("AutoSubCommand", pm.SimpleCommand)
+class("AutoSubCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	slot4 = slot1:getBody().toggle
 
-function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
-	slot4 = slot2.toggle
-
-	PlayerPrefs.SetInt("autoSubIsAcitve", not slot2.isActiveSub and 1 or 0)
+	PlayerPrefs.SetInt("autoSubIsAcitve", (not slot1.getBody().isActiveSub and 1) or 0)
 end
 
-return slot0
+return class("AutoSubCommand", pm.SimpleCommand)

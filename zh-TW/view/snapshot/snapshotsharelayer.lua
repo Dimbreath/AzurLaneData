@@ -25,7 +25,7 @@ end
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.shareBtnTrans, function ()
 		if not PlayerPrefs.GetInt("snapshotAgress") or slot0 <= 0 then
-			uv0:showUserAgreement(function ()
+			slot0:showUserAgreement(function ()
 				PlayerPrefs.SetInt("snapshotAgress", 1)
 				pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypePhoto)
 			end)
@@ -36,16 +36,17 @@ function slot0.didEnter(slot0)
 	onButton(slot0, slot0.confirmBtnTrans, function ()
 		slot0 = pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t")
 
-		NativeGallery.SaveImageToGallery(uv0.bytes, "Camera", "azur" .. slot0.year .. slot0.month .. slot0.day .. slot0.hour .. slot0.min .. slot0.sec .. ".png")
+		NativeGallery.SaveImageToGallery(slot0.bytes, "Camera", slot1)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("word_save_ok"))
-		uv0:closeView()
+		slot0:closeView()
 	end)
 	onButton(slot0, slot0.cancelBtnTrans, function ()
-		uv0:closeView()
+		slot0:closeView()
 	end)
 end
 
 function slot0.willExit(slot0)
+	return
 end
 
 function slot0.showUserAgreement(slot0, slot1)
@@ -58,17 +59,17 @@ function slot0.showUserAgreement(slot0, slot1)
 	setActive(slot0.userAgreenTF, true)
 	setText(slot0.userAgreenTF:Find("window/container/scrollrect/content/Text"), i18n("word_snapshot_share_agreement"))
 	onButton(slot0, slot0.userRefuseConfirmTF, function ()
-		setActive(uv0.userAgreenTF, false)
+		setActive(slot0.userAgreenTF, false)
 	end)
 	onButton(slot0, slot0.userAgreenConfirmTF, function ()
-		setActive(uv0.userAgreenTF, false)
+		setActive(slot0.userAgreenTF, false)
 
-		if uv1 then
-			uv1()
+		if slot0.userAgreenTF then
+			slot1()
 		end
 	end)
 	onButton(slot0, slot0.closeUserAgreenTF, function ()
-		setActive(uv0.userAgreenTF, false)
+		setActive(slot0.userAgreenTF, false)
 	end)
 end
 

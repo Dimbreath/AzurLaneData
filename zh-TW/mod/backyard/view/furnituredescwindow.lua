@@ -23,48 +23,45 @@ end
 
 function slot0.Init(slot0)
 	onButton(slot0, slot0.descPanel, function ()
-		uv0:Close()
+		slot0:Close()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.maxFrame, function ()
-		uv0:Close()
+		slot0:Close()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.maxPanel:Find("ok_btn"), function ()
-		uv0:Close()
+		slot0:Close()
 	end, SFX_PANEL)
 end
 
 function slot0.Show(slot0, slot1, slot2)
 	slot0.furnitureVO = slot1
-	slot4 = slot1:descVoiceType()
 
-	setActive(slot0.descPanelVoiceBtn, slot1:existVoice() and slot4 == BackYardConst.SOUND_TYPE_EFFECT)
-	setActive(slot0.descPanelBgVoiceBtn, slot3 and slot4 == BackYardConst.SOUND_TYPE_BG)
+	setActive(slot0.descPanelVoiceBtn, slot1:existVoice() and slot1:descVoiceType() == BackYardConst.SOUND_TYPE_EFFECT)
+	setActive(slot0.descPanelBgVoiceBtn, slot3 and slot1.descVoiceType() == BackYardConst.SOUND_TYPE_BG)
 	setActive(slot0.descPanel, true)
 	SetActive(slot0.maxFrame, false)
 
 	if slot3 and slot4 == BackYardConst.SOUND_TYPE_EFFECT then
 		onButton(slot0, slot0.descPanelVoiceBtn, function ()
-			uv0:playFurnitureVoice(uv1)
+			slot0:playFurnitureVoice(slot0)
 
-			if uv2 then
-				uv2(true)
+			if slot0 then
+				slot2(true)
 			end
 		end, SFX_PANEL)
 	elseif slot3 and slot4 == BackYardConst.SOUND_TYPE_BG then
 		onToggle(slot0, slot0.descPanelBgVoiceBtn, function (slot0)
-			if slot0 then
-				playBGM(uv0:getVoice() or "backyard")
+			playBGM((slot0 and slot0:getVoice()) or "backyard")
 
-				if uv1 then
-					uv1(slot0)
-				end
+			if (slot0 and slot0.getVoice()) or "backyard" then
+				slot1(slot0)
 			end
 		end, SFX_PANEL)
 	end
 
 	LoadSpriteAsync("FurnitureIcon/" .. slot1:getConfig("icon"), function (slot0)
-		if not uv0.exited then
-			uv0.maxIcon.sprite = slot0
+		if not slot0.exited then
+			slot0.maxIcon.sprite = slot0
 		end
 	end)
 	setActive(slot0.maxFrame, true)
@@ -86,23 +83,27 @@ function slot0.Close(slot0)
 end
 
 function slot0.playFurnitureVoice(slot0)
-	slot2 = slot0.furnitureVO:getVoice()
+	slot2 = slot0.furnitureVO.getVoice(slot1)
+
+	function slot3()
+		slot0:stopCV()
+
+		slot0.stopCV.currVoice = playSoundEffect(playSoundEffect)
+	end
 
 	if slot0.loadedBank then
-		function ()
-			uv0:stopCV()
-
-			uv0.currVoice = playSoundEffect(uv1)
-		end()
+		slot3()
 	else
 		pg.CriMgr.GetInstance():LoadCV("furniture", function ()
-			if uv1.exited then
-				pg.CriMgr.UnloadCVBank(pg.CriMgr.GetCVBankName(uv0))
-			else
-				uv2()
+			slot0 = pg.CriMgr.GetCVBankName(pg.CriMgr.GetCVBankName)
 
-				if uv1.currVoice then
-					uv1.loadedBank = slot0
+			if pg.CriMgr.GetCVBankName.exited then
+				pg.CriMgr.UnloadCVBank(slot0)
+			else
+				slot2()
+
+				if slot2.currVoice then
+					slot1.loadedBank = slot0
 				end
 			end
 		end)

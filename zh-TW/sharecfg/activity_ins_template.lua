@@ -1,3 +1,6 @@
 pg = pg or {}
-slot1.all = {}
-pg.activity_ins_template = {}
+pg.activity_ins_template = {
+	all = {}
+}
+
+return

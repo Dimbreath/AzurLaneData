@@ -1,568 +1,572 @@
-slot3[1] = {
-	"穿越彼方的水线\n\n<size=45>五　{namecode:175}SIDE</size>",
-	1
-}
-slot2.sequence = {}
-slot1[1] = {
-	mode = 1,
-	stopbgm = true
-}
-slot3.alpha = {
-	0,
-	1
-}
-slot2.flashout = {
-	dur = 1,
-	black = true
-}
-slot3.alpha = {
-	1,
-	0
-}
-slot2.flashin = {
-	delay = 1,
-	dur = 1,
-	black = true
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[2] = {
-	bgName = "bg_story_nepu2",
-	side = 2,
-	dir = 1,
-	bgmDelay = 2,
-	bgm = "cw-level",
-	actor = 305110,
-	nameColor = "#a9f548",
-	say = "演习辛苦了，{namecode:22}、{namecode:97}、还有{namecode:175}。指挥官也赞扬了这次的联合演习哦。"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot3[1] = {
-	y = 30,
-	type = "shake",
-	delay = 0,
-	dur = 0.15,
-	x = 0,
-	number = 2
-}
-slot2.action = {}
-slot1[3] = {
-	side = 2,
-	bgName = "bg_story_nepu2",
-	dir = 1,
-	actor = 301160,
-	nameColor = "#a9f548",
-	say = "真是的……最后简直一团乱嘛！演习用的是模拟弹真是万幸啊！"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[4] = {
-	actor = 307070,
-	side = 2,
-	bgName = "bg_story_nepu2",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "竟然冲到离指挥官大人那么近的地方……{namecode:175}，下次绝对要跟我换啊！"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[5] = {
-	actor = 305110,
-	side = 2,
-	bgName = "bg_story_nepu2",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "哈哈哈，演习刚刚结束却还这么精神，可真是再好不过了！我看，不如让{namecode:55}将诸位的活跃大书特书一笔吧？"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[6] = {
-	expression = 4,
-	side = 2,
-	bgName = "bg_story_nepu2",
-	dir = 1,
-	actor = 900200,
-	nameColor = "#a9f548",
-	say = "………………！？！？"
-}
-slot2.dialogShake = {
-	speed = 0.09,
-	x = 8.5,
-	number = 2
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot3[1] = {
-	y = 30,
-	type = "shake",
-	delay = 0,
-	dur = 0.15,
-	x = 0,
-	number = 2
-}
-slot2.action = {}
-slot1[7] = {
-	expression = 3,
-	side = 2,
-	bgName = "bg_story_nepu2",
-	dir = 1,
-	actor = 900200,
-	nameColor = "#a9f548",
-	say = "请容我坚——————————————决拒绝！！"
-}
-slot3.alpha = {
-	0,
-	1
-}
-slot2.flashout = {
-	dur = 1,
-	black = true
-}
-slot3.alpha = {
-	1,
-	0
-}
-slot2.flashin = {
-	delay = 1,
-	dur = 1,
-	black = true
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[8] = {
-	expression = 1,
-	side = 2,
-	dir = 1,
-	blackBg = true,
-	bgm = "story-2",
-	actor = 900200,
-	nameColor = "#a9f548",
-	say = "（回想起来，真是没想到会变成这样呢……）"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[9] = {
-	actor = 900200,
-	side = 2,
-	nameColor = "#a9f548",
-	dir = 1,
-	blackBg = true,
-	say = "因此，在{namecode:82}大人的裁夺下，重樱舰队方的“指挥官”角色，并非从本港区的成员中选出，而是由我来担任。"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[10] = {
-	expression = 4,
-	side = 2,
-	dir = 1,
-	blackBg = true,
-	actor = 900200,
-	nameColor = "#a9f548",
-	say = "（明明以为只是个门面职位，才随便答允下来的——！）"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[11] = {
-	actor = 301160,
-	side = 2,
-	nameColor = "#a9f548",
-	dir = 1,
-	blackBg = true,
-	say = "哼哼！不需要使什么小手段！只要还有{namecode:22}大人的幸运加持，这点小事不成问题哒！"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[12] = {
-	expression = 4,
-	side = 2,
-	dir = 1,
-	blackBg = true,
-	actor = 900200,
-	nameColor = "#a9f548",
-	say = "（真是够了，我最不擅长应对这种脑子空空行事随便的家伙了！）"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[13] = {
-	expression = 3,
-	side = 2,
-	dir = 1,
-	blackBg = true,
-	actor = 900200,
-	nameColor = "#a9f548",
-	say = "（但不管怎么说都是同伴啊？又不能放着不管对吧？结果还是只能靠这边努力想办法了不是嘛！）"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[14] = {
-	actor = 307070,
-	side = 2,
-	nameColor = "#a9f548",
-	dir = 1,
-	blackBg = true,
-	say = "我个人是不介意被指挥官大人打得落花流水，不过确实也关系到重樱这边的面子呢……"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[15] = {
-	expression = 4,
-	side = 2,
-	dir = 1,
-	blackBg = true,
-	actor = 900200,
-	nameColor = "#a9f548",
-	say = "（那还用说吗！谁想到指挥官的舰队竟然强得那么离谱啊！）"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[16] = {
-	expression = 4,
-	side = 2,
-	dir = 1,
-	blackBg = true,
-	actor = 900200,
-	nameColor = "#a9f548",
-	say = "（不出奇招的话，绝对会被秒杀的吧！？这不是没办法嘛！明明没打算引人注目的！）"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[17] = {
-	expression = 4,
-	side = 2,
-	dir = 1,
-	blackBg = true,
-	actor = 900200,
-	nameColor = "#a9f548",
-	say = "（而且如果是其他人来想的话，绝对一下就被指挥官看穿了吧？所以还是得由我这个外人来不是嘛！）"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[18] = {
-	actor = 301160,
-	side = 2,
-	nameColor = "#a9f548",
-	dir = 1,
-	blackBg = true,
-	say = "真是的……最后简直一团乱嘛！演习用的是模拟弹真是万幸啊！"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[19] = {
-	actor = 307070,
-	side = 2,
-	nameColor = "#a9f548",
-	dir = 1,
-	blackBg = true,
-	say = "竟然冲到离指挥官大人那么近的地方……{namecode:175}，下次绝对要跟我换啊！"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[20] = {
-	actor = 900200,
-	side = 2,
-	nameColor = "#a9f548",
-	dir = 1,
-	blackBg = true,
-	say = "（外人……吗……回想起来，这里的各位似乎没把我当作外人……）"
-}
-slot3[1] = {
-	"<size=51>如果在这里的话，说不定我也——</size>",
-	1
-}
-slot2.sequence = {}
-slot1[21] = {
-	stopbgm = true,
-	mode = 1
-}
-slot3.alpha = {
-	0,
-	1
-}
-slot2.flashout = {
-	dur = 1,
-	black = true
-}
-slot3.alpha = {
-	1,
-	0
-}
-slot2.flashin = {
-	delay = 1,
-	dur = 1,
-	black = true
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[22] = {
-	bgName = "bg_story_nepu1",
-	side = 2,
-	dir = 1,
-	bgmDelay = 2,
-	bgm = "cw-story",
-	actor = 305110,
-	nameColor = "#a9f548",
-	say = "没错，就算是没有舰历的舰船，跟港区的大家也不会有隔阂的"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[23] = {
-	actor = 900200,
-	side = 2,
-	bgName = "bg_story_nepu1",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "……是。"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[24] = {
-	actor = 305110,
-	side = 2,
-	bgName = "bg_story_nepu1",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "接下来有什么打算吗？要不，干脆就留在这个港区如何？"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[25] = {
-	expression = 4,
-	side = 2,
-	bgName = "bg_story_nepu1",
-	dir = 1,
-	actor = 900200,
-	nameColor = "#a9f548",
-	say = "我……"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[26] = {
-	actor = 305110,
-	side = 2,
-	bgName = "bg_story_nepu1",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "从这回的演习来看的话，你也许会比其他特别计划舰更快地融入这里呢，哈哈哈"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[27] = {
-	actor = 305110,
-	side = 2,
-	bgName = "bg_story_nepu1",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "没事，时间有的是。好好思考吧，从心底得出答案后，再做决定也不迟。"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[28] = {
-	actor = 900200,
-	side = 2,
-	bgName = "bg_story_nepu1",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "………………"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[29] = {
-	expression = 1,
-	side = 2,
-	bgName = "bg_story_nepu1",
-	dir = 1,
-	actor = 900200,
-	nameColor = "#a9f548",
-	say = "（是啊。如果是这里的话，我，还有“她”也说不定……）"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[30] = {
-	expression = 2,
-	side = 2,
-	bgName = "bg_story_nepu1",
-	dir = 1,
-	blackBg = true,
-	actor = 900200,
-	nameColor = "#a9f548",
-	say = "有缘再相见吧——"
-}
-slot0.scripts = {}
-
 return {
 	fadeOut = 1.5,
 	mode = 2,
 	fadeType = 2,
 	once = true,
 	id = "JUNHEBOSS5",
-	fadein = 1.5
+	fadein = 1.5,
+	scripts = {
+		{
+			mode = 1,
+			stopbgm = true,
+			sequence = {
+				{
+					"穿越彼方的水线\n\n<size=45>五　{namecode:175}SIDE</size>",
+					1
+				}
+			}
+		},
+		{
+			bgName = "bg_story_nepu2",
+			side = 2,
+			dir = 1,
+			bgmDelay = 2,
+			bgm = "cw-level",
+			actor = 305110,
+			nameColor = "#a9f548",
+			say = "演习辛苦了，{namecode:22}、{namecode:97}、还有{namecode:175}。指挥官也赞扬了这次的联合演习哦。",
+			flashout = {
+				dur = 1,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 1,
+				dur = 1,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 301160,
+			nameColor = "#a9f548",
+			say = "真是的……最后简直一团乱嘛！演习用的是模拟弹真是万幸啊！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			actor = 307070,
+			side = 2,
+			bgName = "bg_story_nepu2",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "竟然冲到离指挥官大人那么近的地方……{namecode:175}，下次绝对要跟我换啊！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			bgName = "bg_story_nepu2",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "哈哈哈，演习刚刚结束却还这么精神，可真是再好不过了！我看，不如让{namecode:55}将诸位的活跃大书特书一笔吧？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 900200,
+			nameColor = "#a9f548",
+			say = "………………！？！？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 900200,
+			nameColor = "#a9f548",
+			say = "请容我坚——————————————决拒绝！！",
+			dialogShake = {
+				speed = 0.09,
+				x = 8.5,
+				number = 2
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 30,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			bgm = "story-2",
+			actor = 900200,
+			nameColor = "#a9f548",
+			say = "（回想起来，真是没想到会变成这样呢……）",
+			flashout = {
+				dur = 1,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 1,
+				dur = 1,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900200,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			blackBg = true,
+			say = "因此，在{namecode:82}大人的裁夺下，重樱舰队方的“指挥官”角色，并非从本港区的成员中选出，而是由我来担任。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			actor = 900200,
+			nameColor = "#a9f548",
+			say = "（明明以为只是个门面职位，才随便答允下来的——！）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301160,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			blackBg = true,
+			say = "哼哼！不需要使什么小手段！只要还有{namecode:22}大人的幸运加持，这点小事不成问题哒！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			actor = 900200,
+			nameColor = "#a9f548",
+			say = "（真是够了，我最不擅长应对这种脑子空空行事随便的家伙了！）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			actor = 900200,
+			nameColor = "#a9f548",
+			say = "（但不管怎么说都是同伴啊？又不能放着不管对吧？结果还是只能靠这边努力想办法了不是嘛！）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307070,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			blackBg = true,
+			say = "我个人是不介意被指挥官大人打得落花流水，不过确实也关系到重樱这边的面子呢……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			actor = 900200,
+			nameColor = "#a9f548",
+			say = "（那还用说吗！谁想到指挥官的舰队竟然强得那么离谱啊！）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			actor = 900200,
+			nameColor = "#a9f548",
+			say = "（不出奇招的话，绝对会被秒杀的吧！？这不是没办法嘛！明明没打算引人注目的！）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			actor = 900200,
+			nameColor = "#a9f548",
+			say = "（而且如果是其他人来想的话，绝对一下就被指挥官看穿了吧？所以还是得由我这个外人来不是嘛！）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301160,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			blackBg = true,
+			say = "真是的……最后简直一团乱嘛！演习用的是模拟弹真是万幸啊！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307070,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			blackBg = true,
+			say = "竟然冲到离指挥官大人那么近的地方……{namecode:175}，下次绝对要跟我换啊！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900200,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			blackBg = true,
+			say = "（外人……吗……回想起来，这里的各位似乎没把我当作外人……）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			stopbgm = true,
+			mode = 1,
+			sequence = {
+				{
+					"<size=51>如果在这里的话，说不定我也——</size>",
+					1
+				}
+			}
+		},
+		{
+			bgName = "bg_story_nepu1",
+			side = 2,
+			dir = 1,
+			bgmDelay = 2,
+			bgm = "cw-story",
+			actor = 305110,
+			nameColor = "#a9f548",
+			say = "没错，就算是没有舰历的舰船，跟港区的大家也不会有隔阂的",
+			flashout = {
+				dur = 1,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 1,
+				dur = 1,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900200,
+			side = 2,
+			bgName = "bg_story_nepu1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "……是。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			bgName = "bg_story_nepu1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "接下来有什么打算吗？要不，干脆就留在这个港区如何？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_story_nepu1",
+			dir = 1,
+			actor = 900200,
+			nameColor = "#a9f548",
+			say = "我……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			bgName = "bg_story_nepu1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "从这回的演习来看的话，你也许会比其他特别计划舰更快地融入这里呢，哈哈哈",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			bgName = "bg_story_nepu1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "没事，时间有的是。好好思考吧，从心底得出答案后，再做决定也不迟。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900200,
+			side = 2,
+			bgName = "bg_story_nepu1",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "………………",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_story_nepu1",
+			dir = 1,
+			actor = 900200,
+			nameColor = "#a9f548",
+			say = "（是啊。如果是这里的话，我，还有“她”也说不定……）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_nepu1",
+			dir = 1,
+			blackBg = true,
+			actor = 900200,
+			nameColor = "#a9f548",
+			say = "有缘再相见吧——",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		}
+	}
 }

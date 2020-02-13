@@ -9,44 +9,43 @@ slot7 = FrameTimer
 slot8 = CoTimer
 slot10 = {}
 
-setmetatable({}, {
+setmetatable(slot9, {
 	__mode = "kv"
 })
 
 function coroutine.start(slot0, ...)
-	slot1 = uv0(slot0)
-
-	if uv1() == nil then
-		slot2, slot3 = uv2(slot1, ...)
+	if slot1() == nil then
+		slot2, slot3 = slot2(slot1, ...)
 
 		if not slot2 then
-			uv3(uv4.traceback(slot1, slot3))
+			slot3(slot4.traceback(slot1, slot3))
 		end
 	else
 		slot2 = {
 			...
 		}
-		slot2[MULTRES] = ...
 		slot3 = nil
 
-		if #uv7 > 0 then
-			table.remove(uv7):Reset(function ()
-				uv0[uv1] = nil
-				uv2.func = nil
-				slot0, slot1 = uv3(uv1, uv4(uv5))
+		function slot4()
+			slot0[slot1] = nil
+			slot2.func = nil
+			slot0, slot1 = slot3(nil, slot4(slot5))
 
-				table.insert(uv6, uv2)
+			table.insert(slot6, table.insert)
 
-				if not slot0 then
-					uv2:Stop()
-					uv7(uv8.traceback(uv1, slot1))
-				end
-			end, 0, 1)
-		else
-			slot3 = uv8.New(slot4, 0, 1)
+			if not slot0 then
+				slot2:Stop()
+				slot7(slot8.traceback(slot1, slot1))
+			end
 		end
 
-		uv5[slot1] = slot3
+		if #slot7 > 0 then
+			table.remove(slot7):Reset(slot4, 0, 1)
+		else
+			slot3 = slot8.New(slot4, 0, 1)
+		end
+
+		slot5[slot1] = slot3
 
 		slot3:Start()
 	end
@@ -58,105 +57,59 @@ function coroutine.wait(slot0, slot1, ...)
 	slot2 = {
 		...
 	}
-	slot2[MULTRES] = ...
 	slot3 = nil
-	slot3 = uv6.New(function ()
-		uv0[uv1] = nil
-		uv2.func = nil
-		slot0, slot1 = uv3(uv1, uv4(uv5))
+	slot1 or slot0()[] = slot6.New(slot4, slot0, 1)
 
-		if not slot0 then
-			uv2:Stop()
-			uv6(uv7.traceback(uv1, slot1))
+	slot6.New(slot4, slot0, 1):Start()
 
-			return
-		end
-	end, slot0, 1)
-	uv1[slot1 or uv0()] = slot3
-
-	slot3:Start()
-
-	return uv7()
+	return slot0()
 end
 
 function coroutine.step(slot0, slot1, ...)
 	slot2 = {
 		...
 	}
-	slot2[MULTRES] = ...
-	slot1 = slot1 or uv0()
+	slot1 = slot1 or slot0()
 	slot3 = nil
 
-	if #uv4 > 0 then
-		slot3 = table.remove(uv4)
-
-		slot3.Reset(slot3, function ()
-			uv0[uv1] = nil
-			uv2.func = nil
-			slot0, slot1 = uv3(uv1, uv4(uv5))
-
-			table.insert(uv6, uv2)
-
-			if not slot0 then
-				uv2:Stop()
-				uv7(uv8.traceback(uv1, slot1))
-
-				return
-			end
-		end, slot0 or 1, 1)
+	if #slot4 > 0 then
+		table.remove(slot4):Reset(slot4, slot0 or 1, 1)
 	else
-		slot3 = uv7.New(slot4, slot0 or 1, 1)
+		slot3 = slot7.New(slot4, slot0 or 1, 1)
 	end
 
-	uv1[slot1] = slot3
+	slot1[slot1] = slot3
 
 	slot3:Start()
 
-	return uv8()
+	return slot8()
 end
 
 function coroutine.www(slot0, slot1)
-	slot1 = slot1 or uv0()
+	slot1 = slot1 or slot0()
 	slot2 = nil
 
-	if #uv3 > 0 then
-		table.remove(uv3):Reset(function ()
-			if not uv0.isDone then
-				return
-			end
-
-			uv1[uv2] = nil
-
-			uv3:Stop()
-
-			uv3.func = nil
-			slot0, slot1 = uv4(uv2)
-
-			table.insert(uv5, uv3)
-
-			if not slot0 then
-				uv6(uv7.traceback(uv2, slot1))
-
-				return
-			end
-		end, 1, -1)
+	if #slot3 > 0 then
+		table.remove(slot3):Reset(slot3, 1, -1)
 	else
-		slot2 = uv6.New(slot3, 1, -1)
+		slot2 = slot6.New(slot3, 1, -1)
 	end
 
-	uv1[slot1] = slot2
+	slot1[slot1] = slot2
 
 	slot2:Start()
 
-	return uv7()
+	return slot7()
 end
 
 function coroutine.stop(slot0)
-	if uv0[slot0] ~= nil then
-		uv0[slot0] = nil
+	if slot0[slot0] ~= nil then
+		slot0[slot0] = nil
 
 		slot1:Stop()
 
 		slot1.func = nil
 	end
 end
+
+return

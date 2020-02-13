@@ -1,21 +1,18 @@
-slot0 = class("ExchangeCodeUseCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("ExchangeCodeUseCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot3 = slot1:getBody().key
 
 	if pg.SDKMgr:GetInstance():GetChannelUID() == "" then
 		slot4 = PLATFORM_LOCAL
 	end
 
-	slot8.key = slot3
-	slot8.platform = slot4
-
-	pg.ConnectionMgr.GetInstance():Send(11508, {}, 11509, function (slot0)
+	pg.ConnectionMgr.GetInstance():Send(11508, {
+		key = slot3,
+		platform = slot4
+	}, 11509, function (slot0)
 		if slot0.result == 0 then
-			slot3.content = i18n("exchangecode_use_ok")
-
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				hideNo = true
+				hideNo = true,
+				content = i18n("exchangecode_use_ok")
 			})
 			pg.m02:sendNotification(GAME.EXCHANGECODE_USE_SUCCESS)
 		else
@@ -24,4 +21,4 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-return slot0
+return class("ExchangeCodeUseCommand", pm.SimpleCommand)

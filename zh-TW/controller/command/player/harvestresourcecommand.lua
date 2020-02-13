@@ -1,45 +1,34 @@
-slot0 = class("HarvestResourceCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
-	slot3 = id2res(slot1:getBody())
-	slot5 = getProxy(PlayerProxy):getData()
-
-	if pg.user_level[slot5.level]["max_" .. slot3] <= slot5[slot3] then
+class("HarvestResourceCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	if pg.user_level[getProxy(PlayerProxy).getData(slot4).level]["max_" .. id2res(slot2)] <= getProxy(PlayerProxy).getData(slot4)[id2res(slot2)] then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("player_harvestResource_error_fullBag"))
 
 		return
 	end
 
-	slot10.type = slot2
-
 	pg.ConnectionMgr.GetInstance():Send(11013, {
-		number = 0
+		number = 0,
+		type = slot2
 	}, 11014, function (slot0)
 		if slot0.result == 0 then
-			slot2 = 0
+			if slot0 - slot1[] < slot1[slot2 .. "Field"] then
+				slot1:addResources({
+					[slot2] = slot1
+				})
 
-			if uv0 - uv1[uv2] < uv1[uv2 .. "Field"] then
-				slot2 = slot1
-				slot5[uv2] = slot1
-
-				uv1:addResources({})
-
-				uv1[uv2 .. "Field"] = uv1[uv2 .. "Field"] - slot1
+				slot1[slot2 .. "Field"] = slot1[slot2 .. "Field"] - slot1
 			else
-				slot2 = uv1[uv2 .. "Field"]
-				slot5[uv2] = uv1[uv2 .. "Field"]
+				slot1:addResources({
+					[slot1[slot2 .. "Field"]] = slot1[slot2 .. "Field"]
+				})
 
-				uv1:addResources({})
-
-				uv1[uv2 .. "Field"] = 0
+				slot1[slot2 .. "Field"] = 0
 			end
 
-			uv3:updatePlayer(uv1)
-
-			slot6.type = uv5
-			slot6.outPut = slot2
-
-			uv4:sendNotification(GAME.HARVEST_RES_DONE, {})
+			slot3:updatePlayer(slot1)
+			slot3:sendNotification(GAME.HARVEST_RES_DONE, {
+				type = GAME.HARVEST_RES_DONE,
+				outPut = slot2
+			})
 			playSoundEffect(SFX_UI_ACADEMY_GETMATERIAL)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("player_harvestResource", slot0.result))
@@ -47,4 +36,4 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-return slot0
+return class("HarvestResourceCommand", pm.SimpleCommand)

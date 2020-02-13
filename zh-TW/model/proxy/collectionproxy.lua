@@ -14,68 +14,69 @@ function slot0.register(slot0)
 	slot0.dailyEvaCount = 0
 
 	slot0:on(17001, function (slot0)
-		uv0.shipGroups = {}
+		slot0.shipGroups = {}
 
 		for slot4, slot5 in ipairs(slot0.ship_info_list) do
 			if slot5.id < 99999 or slot5.id > 999999 then
-				uv0.shipGroups[slot5.id] = ShipGroup.New(slot5)
+				slot0.shipGroups[slot5.id] = ShipGroup.New(slot5)
 			end
 		end
 
 		for slot4, slot5 in ipairs(slot0.transform_list) do
-			if uv0.shipGroups[slot5] then
-				uv0.shipGroups[slot5].trans = true
+			if slot0.shipGroups[slot5] then
+				slot0.shipGroups[slot5].trans = true
 			end
 		end
 
-		uv0.awards = {}
+		slot0.awards = {}
 
 		for slot4, slot5 in ipairs(slot0.ship_award_list) do
 			table.sort(slot5.award_index)
 
-			uv0.awards[slot5.id] = slot5.award_index[#slot5.award_index]
+			slot0.awards[slot5.id] = slot5.award_index[#slot5.award_index]
 		end
 
 		for slot4, slot5 in ipairs(slot0.progress_list) do
-			uv0.trophy[slot5.id] = Trophy.New(slot5)
+			slot0.trophy[slot5.id] = Trophy.New(slot5)
 		end
 
-		uv0:bindTrophyGroup()
-		uv0:bindComplexTrophy()
-		uv0:hiddenTrophyAutoClaim()
-		uv0:updateTrophy()
+		slot0:bindTrophyGroup()
+		slot0:bindComplexTrophy()
+		slot0:hiddenTrophyAutoClaim()
+		slot0:updateTrophy()
 	end)
 	slot0:on(17002, function (slot0)
 		for slot4, slot5 in ipairs(slot0.progress_list) do
 			slot6 = false
 
-			if uv0.trophy[slot5.id] then
-				slot8 = uv0.trophy[slot7]
+			if slot0.trophy[slot5.id] then
+				slot9 = slot0.trophy[slot7].canClaimed(slot8)
 
-				slot8:update(slot5)
+				slot0.trophy[slot7].update(slot8, slot5)
 
-				if not slot8:isHide() and slot8:canClaimed() ~= slot8:canClaimed() then
+				slot10 = slot0.trophy[slot7].canClaimed(slot8)
+
+				if not slot0.trophy[slot7]:isHide() and slot9 ~= slot10 then
 					slot6 = true
 				end
 			else
-				uv0.trophy[slot7] = Trophy.New(slot5)
+				slot0.trophy[slot7] = Trophy.New(slot5)
 
-				if uv0.trophy[slot7]:canClaimed() then
+				if slot0.trophy[slot7]:canClaimed() then
 					slot6 = true
 				end
 			end
 
 			if slot6 then
-				uv0:dispatchClaimRemind(slot7)
+				slot0:dispatchClaimRemind(slot7)
 			end
 		end
 
-		uv0:hiddenTrophyAutoClaim()
-		uv0:updateTrophy()
+		slot0:hiddenTrophyAutoClaim()
+		slot0:updateTrophy()
 	end)
 	slot0:on(17004, function (slot0)
-		slot1 = slot0.ship_info
-		uv0.shipGroups[slot1.id] = ShipGroup.New(slot1)
+		slot0.shipGroups[slot0.ship_info.id] = ShipGroup.New(slot0.ship_info)
 	end)
 end
 
@@ -94,7 +95,7 @@ end
 function slot0.updateAward(slot0, slot1, slot2)
 	slot0.awards[slot1] = slot2
 
-	slot0:sendNotification(uv0.AWARDS_UPDATE, Clone(slot0.awards))
+	slot0:sendNotification(slot0.AWARDS_UPDATE, Clone(slot0.awards))
 end
 
 function slot0.getShipGroup(slot0, slot1)
@@ -115,9 +116,9 @@ end
 
 function slot0.hasFinish(slot0)
 	for slot5, slot6 in ipairs(pg.storeup_data_template.all) do
-		slot8.id = slot6
-
-		if Favorite.New({}):canGetRes(slot0.shipGroups, slot0.awards) then
+		if Favorite.New({
+			id = slot6
+		}):canGetRes(slot0.shipGroups, slot0.awards) then
 			return true
 		end
 	end
@@ -126,27 +127,24 @@ function slot0.hasFinish(slot0)
 end
 
 function slot0.getCollectionRate(slot0)
-	slot1 = slot0:getCollectionCount()
-	slot2 = slot0:getCollectionTotal()
-
-	return string.format("%0.3f", slot1 / slot2), slot1, slot2
+	return string.format("%0.3f", slot0:getCollectionCount() / slot0:getCollectionTotal()), slot0.getCollectionCount(), slot0.getCollectionTotal()
 end
 
 function slot0.getCollectionCount(slot0)
 	return _.reduce(_.values(slot0.shipGroups), 0, function (slot0, slot1)
-		return slot0 + (Nation.IsLinkType(slot1:getNation()) and 0 or slot1.trans and 2 or 1)
+		return slot0 + ((Nation.IsLinkType(slot1:getNation()) and 0) or (slot1.trans and 2) or 1)
 	end)
 end
 
 function slot0.getCollectionTotal(slot0)
 	return _.reduce(pg.ship_data_group.all, 0, function (slot0, slot1)
-		return slot0 + (Nation.IsLinkType(ShipGroup.getDefaultShipConfig(pg.ship_data_group[slot1].group_type).nationality) and 0 or 1)
+		return slot0 + ((Nation.IsLinkType(ShipGroup.getDefaultShipConfig(slot2).nationality) and 0) or 1)
 	end) + #pg.ship_data_trans.all
 end
 
 function slot0.getLinkCollectionCount(slot0)
 	return _.reduce(_.values(slot0.shipGroups), 0, function (slot0, slot1)
-		return slot0 + (Nation.IsLinkType(slot1:getNation()) and 1 or 0)
+		return slot0 + ((Nation.IsLinkType(slot1:getNation()) and 1) or 0)
 	end)
 end
 
@@ -154,14 +152,14 @@ function slot0.flushCollection(slot0, slot1)
 	slot3 = nil
 
 	if not slot0:getShipGroup(slot1.groupId) then
-		slot5.id = slot1.groupId
-		slot5.star = slot1:getStar()
-		slot5.marry_flag = slot1.propose and 1 or 0
-		slot5.intimacy_max = slot1.intimacy
 		slot2 = ShipGroup.New({
 			heart_flag = 0,
 			heart_count = 0,
-			lv_max = 1
+			lv_max = 1,
+			id = slot1.groupId,
+			star = slot1:getStar(),
+			marry_flag = (slot1.propose and 1) or 0,
+			intimacy_max = slot1.intimacy
 		})
 
 		if OPEN_TEC_TREE_SYSTEM and table.indexof(pg.fleet_tech_ship_template.all, slot1.groupId, 1) then
@@ -171,25 +169,27 @@ function slot0.flushCollection(slot0, slot1)
 		if OPEN_TEC_TREE_SYSTEM and table.indexof(pg.fleet_tech_ship_template.all, slot1.groupId, 1) then
 			if slot2.star < slot1:getStar() and slot1:getStar() == pg.fleet_tech_ship_template[slot1.groupId].max_star then
 				slot3 = true
-				slot8.point = pg.fleet_tech_ship_template[slot1.groupId].pt_upgrage
 
-				pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_TECPOINT, {})
+				pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_TECPOINT, {
+					point = pg.fleet_tech_ship_template[slot1.groupId].pt_upgrage
+				})
 			end
 
 			if slot2.maxLV < slot1.level and slot1.level == TechnologyConst.MAX_LV then
 				slot3 = true
-				slot11.point = pg.fleet_tech_ship_template[slot1.groupId].pt_level
-				slot11.typeList = pg.fleet_tech_ship_template[slot1.groupId].add_level_shiptype
-				slot11.attr = pg.fleet_tech_ship_template[slot1.groupId].add_level_attr
-				slot11.value = pg.fleet_tech_ship_template[slot1.groupId].add_level_value
 
-				pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_TECPOINT, {})
+				pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_TECPOINT, {
+					point = pg.fleet_tech_ship_template[slot1.groupId].pt_level,
+					typeList = pg.fleet_tech_ship_template[slot1.groupId].add_level_shiptype,
+					attr = pg.fleet_tech_ship_template[slot1.groupId].add_level_attr,
+					value = pg.fleet_tech_ship_template[slot1.groupId].add_level_value
+				})
 			end
 		end
 
 		slot2.star = math.max(slot2.star, slot1:getStar())
 		slot2.maxIntimacy = math.max(slot2.maxIntimacy, slot1.intimacy)
-		slot2.married = math.max(slot2.married, slot1.propose and 1 or 0)
+		slot2.married = math.max(slot2.married, (slot1.propose and 1) or 0)
 		slot2.maxLV = math.max(slot2.maxLV, slot1.level)
 	end
 
@@ -231,17 +231,19 @@ end
 function slot0.hiddenTrophyAutoClaim(slot0)
 	for slot4, slot5 in pairs(slot0.trophy) do
 		if slot5:getHideType() ~= Trophy.ALWAYS_SHOW and slot5:getHideType() ~= Trophy.COMING_SOON and slot5:canClaimed() and not slot5:isClaimed() then
-			slot9.trophyID = slot4
-
-			slot0:sendNotification(GAME.TROPHY_CLAIM, {})
+			slot0:sendNotification(GAME.TROPHY_CLAIM, {
+				trophyID = slot4
+			})
 		end
 	end
 end
 
 function slot0.unclaimTrophyCount(slot0)
+	slot1 = 0
+
 	for slot5, slot6 in pairs(slot0.trophy) do
 		if slot6:getHideType() == Trophy.ALWAYS_SHOW and slot6:canClaimed() and not slot6:isClaimed() then
-			slot1 = 0 + 1
+			slot1 = slot1 + 1
 		end
 	end
 
@@ -249,18 +251,18 @@ function slot0.unclaimTrophyCount(slot0)
 end
 
 function slot0.updateTrophy(slot0)
-	slot0:sendNotification(uv0.TROPHY_UPDATE, Clone(slot0.trophy))
+	slot0:sendNotification(slot0.TROPHY_UPDATE, Clone(slot0.trophy))
 end
 
 function slot0.dispatchClaimRemind(slot0, slot1)
-	slot5.id = slot1
-
-	pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_TROPHY, {})
+	pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_TROPHY, {
+		id = slot1
+	})
 end
 
 function slot0.bindComplexTrophy(slot0)
 	for slot4, slot5 in pairs(slot0.trophyGroup) do
-		for slot10, slot11 in pairs(slot5:getTrophyList()) do
+		for slot10, slot11 in pairs(slot6) do
 			if slot11:isComplexTrophy() then
 				for slot15, slot16 in ipairs(slot11:getTargetID()) do
 					slot11:bindTrophys(slot0.trophy[slot16] or Trophy.generateDummyTrophy(slot16))
@@ -277,8 +279,10 @@ function slot0.bindTrophyGroup(slot0)
 				slot0.trophyGroup[slot8] = TrophyGroup.New(slot8)
 			end
 
+			slot9 = slot0.trophyGroup[slot8]
+
 			if slot0.trophy[slot6] then
-				slot0.trophyGroup[slot8]:addTrophy(slot0.trophy[slot6])
+				slot9:addTrophy(slot0.trophy[slot6])
 			else
 				slot9:addDummyTrophy(slot6)
 			end

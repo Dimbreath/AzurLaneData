@@ -1,25 +1,3 @@
-slot2.trigger = {
-	"onAttach"
-}
-slot2.arg_list = {
-	number = 0.1,
-	attr = "igniteResist"
-}
-slot1[1] = {
-	type = "BattleBuffAddAttr"
-}
-slot2.trigger = {
-	"onAttach"
-}
-slot2.arg_list = {
-	number = 1000,
-	attr = "igniteReduce"
-}
-slot1[2] = {
-	type = "BattleBuffAddAttr"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "灭火器T1",
@@ -30,5 +8,27 @@ return {
 	stack = 1,
 	color = "blue",
 	icon = 6141,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				number = 0.1,
+				attr = "igniteResist"
+			}
+		},
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				number = 1000,
+				attr = "igniteReduce"
+			}
+		}
+	}
 }

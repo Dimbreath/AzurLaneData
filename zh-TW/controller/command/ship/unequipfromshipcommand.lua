@@ -1,10 +1,8 @@
-slot0 = class("UnequipFromShipCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("UnequipFromShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.pos
 	slot5 = slot2.callback
-	slot7 = getProxy(BayProxy):getShipById(slot2.shipId)
+	slot7 = getProxy(BayProxy).getShipById(slot6, slot3)
 
 	if getProxy(PlayerProxy):getData().equip_bag_max <= getProxy(EquipmentProxy):getCapacity() then
 		NoPosMsgBox(i18n("switch_to_shop_tip_noPos"), openDestroyEquip, gotoChargeScene)
@@ -36,36 +34,37 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	slot14.ship_id = slot3
-	slot14.pos = slot4
-
 	pg.ConnectionMgr.GetInstance():Send(12006, {
 		type = 0,
-		equip_id = 0
+		equip_id = 0,
+		ship_id = slot3,
+		pos = slot4
 	}, 12007, function (slot0)
 		if slot0.result == 0 then
-			if uv0:hasSkin() then
-				uv1:updateEquipmentSkin(uv2, 0)
-				getProxy(EquipmentProxy):addEquipmentSkin(uv0.skinId, 1)
+			slot1 = getProxy(EquipmentProxy)
 
-				uv0.skinId = 0
+			if slot0:hasSkin() then
+				slot1:updateEquipmentSkin(slot1.updateEquipmentSkin, 0)
+				slot1:addEquipmentSkin(slot0.skinId, 1)
+
+				slot0.skinId = 0
 
 				pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_unload"))
 			end
 
-			uv1:updateEquip(uv2, nil)
-			uv3:updateShip(uv1)
-			slot1:addEquipment(uv0)
-			uv4:sendNotification(GAME.UNEQUIP_FROM_SHIP_DONE, uv1)
-			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_unequipFromShip_ok", uv0.config.name), "red")
+			slot1:updateEquip(slot1.updateEquip, nil)
+			slot1:updateShip(slot1)
+			slot1:addEquipment(slot0)
+			slot4:sendNotification(GAME.UNEQUIP_FROM_SHIP_DONE, slot1)
+			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_unequipFromShip_ok", slot0.config.name), "red")
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_unequipFromShip", slot0.result))
 		end
 
-		if uv5 then
-			uv5()
+		if slot5 then
+			slot5()
 		end
 	end)
 end
 
-return slot0
+return class("UnequipFromShipCommand", pm.SimpleCommand)

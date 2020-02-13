@@ -1,11 +1,8 @@
-slot0 = class("GetMailListCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
-	slot8.type = slot2.type
-	slot8.split_id = slot2.splitId
-
-	pg.ConnectionMgr.GetInstance():Send(30002, {}, 30003, function (slot0)
+class("GetMailListCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	pg.ConnectionMgr.GetInstance():Send(30002, {
+		type = slot1:getBody().type,
+		split_id = slot1.getBody().splitId
+	}, 30003, function (slot0)
 		slot1 = getProxy(MailProxy)
 
 		if #slot0.mail_list > 0 then
@@ -21,4 +18,4 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-return slot0
+return class("GetMailListCommand", pm.SimpleCommand)

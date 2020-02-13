@@ -1,17 +1,17 @@
-slot0 = class("BYFurnitureCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("BYFurnitureCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	if not slot1:getBody() then
 		return
 	end
 
+	slot4 = getBackYardProxy(BackYardHouseProxy)
+
 	if slot2.name == BACKYARD.FURNITURE_ADD then
-		getBackYardProxy(BackYardHouseProxy):addFurniture(BackyardFurnitureVO.New(slot2.furniture), slot2.callback)
+		slot4:addFurniture(BackyardFurnitureVO.New(slot2.furniture), slot2.callback)
 	elseif slot3 == BACKYARD.CLEAR_FURNITURE then
 		slot4:removeAllFurniture()
 		slot4:removePaper()
 	elseif slot3 == BACKYARD.FURNITURE_CHANGE_DIR then
-		slot6 = slot4:getFurnitureById(slot2.id)
+		slot6 = slot4:getFurnitureById(slot5)
 		slot7 = slot6:getReverseDir()
 
 		if slot4:getData():canRotate(slot6) then
@@ -20,14 +20,16 @@ function slot0.execute(slot0, slot1)
 			pg.backyard:sendNotification(BACKYARD.REMOVE_ITEM, Clone(slot6))
 
 			if slot6:hasStageShip() then
-				for slot14, slot15 in pairs(slot6:getStageShip() or {}) do
+				slot11 = pairs
+				slot12 = slot6:getStageShip() or {}
+
+				for slot14, slot15 in slot11(slot12) do
 					slot16 = nil
 					slot17 = slot6:getPosition()
 					slot18 = slot8:getShipPosById(slot15)
-					slot16 = (slot6.dir ~= 2 or Vector2(slot18.y - slot17.y, slot18.x - slot17.x)) and Vector2(slot18.x - slot17.x, slot18.y - slot17.y)
 					slot19 = nil
 
-					slot4:changeShipPos(slot15, (slot7 ~= 2 or Vector2(slot9.x + slot16.y, slot9.y + slot16.x)) and Vector2(slot9.x + slot16.x, slot9.y + slot16.y))
+					slot4:changeShipPos(slot15, (slot7 ~= 2 or Vector2(slot9.x + (slot6.dir ~= 2 or Vector2(slot18.y - slot17.y, slot18.x - slot17.x)) and Vector2(slot18.x - slot17.x, slot18.y - slot17.y).y, slot9.y + (slot6.dir ~= 2 or Vector2(slot18.y - slot17.y, slot18.x - slot17.x)) and Vector2(slot18.x - slot17.x, slot18.y - slot17.y).x)) and Vector2(slot9.x + (slot6.dir ~= 2 or Vector2(slot18.y - slot17.y, slot18.x - slot17.x)) and Vector2(slot18.x - slot17.x, slot18.y - slot17.y).x, slot9.y + (slot6.dir ~= 2 or Vector2(slot18.y - slot17.y, slot18.x - slot17.x)) and Vector2(slot18.x - slot17.x, slot18.y - slot17.y).y))
 				end
 			end
 
@@ -79,22 +81,14 @@ function slot0.execute(slot0, slot1)
 			end
 
 			slot4:changeFurniturePos(slot5, slot6)
-			function (slot0)
-				for slot4, slot5 in pairs(slot0.child) do
-					slot7 = uv0:getFurnitureById(slot4)
-
-					pg.backyard:sendNotification(BACKYARD.REMOVE_ITEM, Clone(slot7))
-					uv0:changeFurniturePos(slot4, slot0:getChildPosById(slot4))
-					uv1(slot7)
-				end
-			end(slot8)
+			slot11(slot8)
 
 			if slot8:hasStageShip() then
-				for slot16, slot17 in pairs(slot8:getStageShip() or {}) do
-					slot18 = slot10:getShipPosById(slot17)
-					slot19 = Vector2(slot18.x - slot9.x, slot18.y - slot9.y)
+				slot13 = pairs
+				slot14 = slot8:getStageShip() or {}
 
-					slot4:changeShipPos(slot17, Vector2(slot6.x + slot19.x, slot6.y + slot19.y))
+				for slot16, slot17 in slot13(slot14) do
+					slot4:changeShipPos(slot17, Vector2(slot6.x + Vector2(slot10:getShipPosById(slot17).x - slot9.x, slot10.getShipPosById(slot17).y - slot9.y).x, slot6.y + Vector2(slot10.getShipPosById(slot17).x - slot9.x, slot10.getShipPosById(slot17).y - slot9.y).y))
 				end
 			end
 
@@ -102,24 +96,21 @@ function slot0.execute(slot0, slot1)
 		end
 
 		if slot3 == BACKYARD.FURNITURE_REMOVE then
-			slot6 = slot4:getFurnitureById(slot2.id)
-
-			if slot6:hasInterActionShipId() or slot6:getSpineId() or slot6:hasStageShip() then
-				slot9.content = i18n("backyard_ship_on_furnitrue")
-
-				function slot9.onYes()
-					uv0:removeFurniture(uv1)
-				end
-
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+			if slot4:getFurnitureById(slot5):hasInterActionShipId() or slot6:getSpineId() or slot6:hasStageShip() then
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("backyard_ship_on_furnitrue"),
+					onYes = function ()
+						slot0:removeFurniture(slot0)
+					end
+				})
 			else
 				slot4:removeFurniture(slot5)
 			end
 		elseif slot3 == BACKYARD.FURNITURE_SAVE then
-			slot11.furnsPos = slot4:getData():getSaveData()
-			slot11.tip = slot2.tip
-
-			pg.m02:sendNotification(GAME.PUT_FURNITURE, {})
+			pg.m02:sendNotification(GAME.PUT_FURNITURE, {
+				furnsPos = slot4:getData().getSaveData(slot6),
+				tip = slot2.tip
+			})
 			slot4:clearPreRecord()
 			slot4:checkEffect()
 		elseif slot3 == BACKYARD.REPALCE_PAPER then
@@ -127,7 +118,7 @@ function slot0.execute(slot0, slot1)
 		elseif slot3 == BACKYARD.OPEN_DECORATION then
 			slot4:recordPerFurnitures()
 
-			for slot10, slot11 in ipairs(slot4:getData():getMoveableFurnitures()) do
+			for slot10, slot11 in ipairs(slot6) do
 				if slot11:getSpineId() then
 					print("clear..........")
 					slot4:clearSpineInterAction(slot12)
@@ -148,4 +139,4 @@ function slot0.execute(slot0, slot1)
 	end
 end
 
-return slot0
+return class("BYFurnitureCommand", pm.SimpleCommand)

@@ -1,18 +1,19 @@
 slot0 = class("Model")
 
 function slot0.Ctor(slot0, slot1)
-	if uv0.instanceMap[slot1] then
-		error(uv0.MULTITON_MSG)
+	if slot0.instanceMap[slot1] then
+		error(slot0.MULTITON_MSG)
 	end
 
 	slot0.multitonKey = slot1
-	uv0.instanceMap[slot1] = slot0
+	slot0.instanceMap[slot1] = slot0
 	slot0.proxyMap = {}
 
 	slot0:initializeModel()
 end
 
 function slot0.initializeModel(slot0)
+	return
 end
 
 function slot0.getInstance(slot0)
@@ -20,10 +21,10 @@ function slot0.getInstance(slot0)
 		return nil
 	end
 
-	if uv0.instanceMap[slot0] == nil then
-		return uv0.New(slot0)
+	if slot0.instanceMap[slot0] == nil then
+		return slot0:New()
 	else
-		return uv0.instanceMap[slot0]
+		return slot0.instanceMap[slot0]
 	end
 end
 
@@ -54,7 +55,7 @@ function slot0.removeProxy(slot0, slot1)
 end
 
 function slot0.removeModel(slot0)
-	uv0.instanceMap[slot0] = nil
+	slot0.instanceMap[slot0] = nil
 end
 
 slot0.instanceMap = {}

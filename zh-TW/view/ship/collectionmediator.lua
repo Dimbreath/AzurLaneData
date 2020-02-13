@@ -8,49 +8,51 @@ function slot0.register(slot0)
 	slot0.viewComponent:setAwards(slot0.collectionProxy:getAwards())
 	slot0.viewComponent:setCollectionRate(slot0.collectionProxy:getCollectionRate())
 	slot0.viewComponent:setLinkCollectionCount(slot0.collectionProxy:getLinkCollectionCount())
-	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getRawData())
-	slot0.viewComponent:setProposeList(getProxy(BayProxy):getProposeGroupList())
+	slot0.viewComponent:setPlayer(getProxy(PlayerProxy).getRawData(slot1))
+	slot0.viewComponent:setProposeList(getProxy(BayProxy).getProposeGroupList(slot2))
 	slot0:bind(CollectionScene.GET_AWARD, function (slot0, slot1, slot2)
-		slot6.id = slot1
-		slot6.index = slot2
-
-		uv0:sendNotification(GAME.COLLECT_GET_AWARD, {})
+		slot0:sendNotification(GAME.COLLECT_GET_AWARD, {
+			id = slot1,
+			index = slot2
+		})
 	end)
 	slot0:bind(CollectionScene.SHOW_DETAIL, function (slot0, slot1, slot2)
-		slot7.showTrans = slot1
-		slot7.groupId = slot2
-
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.SHIP_PROFILE, {})
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHIP_PROFILE, {
+			showTrans = slot1,
+			groupId = slot2
+		})
 	end)
 	slot0:bind(CollectionScene.ACTIVITY_OP, function (slot0, slot1)
-		uv0:sendNotification(GAME.ACTIVITY_OPERATION, slot1)
+		slot0:sendNotification(GAME.ACTIVITY_OPERATION, slot1)
 	end)
 	slot0:bind(CollectionScene.BEGIN_STAGE, function (slot0, slot1)
-		uv0:sendNotification(GAME.BEGIN_STAGE, slot1)
+		slot0:sendNotification(GAME.BEGIN_STAGE, slot1)
 	end)
 	slot0:bind(CollectionScene.ON_INDEX, function (slot0, slot1)
-		slot5.mediator = IndexMediator
-		slot5.viewComponent = IndexLayer
-		slot5.data = slot1
-
-		uv0:addSubLayers(Context.New({}))
+		slot0:addSubLayers(Context.New({
+			mediator = IndexMediator,
+			viewComponent = IndexLayer,
+			data = slot1
+		}))
 	end)
 	slot0.viewComponent:updateCollectNotices(slot0.collectionProxy:hasFinish())
 end
 
 function slot0.listNotificationInterests(slot0)
-	slot1[1] = CollectionProxy.AWARDS_UPDATE
-	slot1[2] = GAME.COLLECT_GET_AWARD_DONE
-	slot1[3] = PlayerProxy.UPDATED
-	slot1[4] = GAME.BEGIN_STAGE_DONE
-	slot1[5] = uv0.EVENT_OBTAIN_SKIP
-
-	return {}
+	return {
+		CollectionProxy.AWARDS_UPDATE,
+		GAME.COLLECT_GET_AWARD_DONE,
+		PlayerProxy.UPDATED,
+		GAME.BEGIN_STAGE_DONE,
+		slot0.EVENT_OBTAIN_SKIP
+	}
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == CollectionProxy.AWARDS_UPDATE then
-		slot0.viewComponent:setAwards(slot1:getBody())
+		slot0.viewComponent:setAwards(slot3)
 	elseif slot2 == GAME.COLLECT_GET_AWARD_DONE then
 		slot0.viewComponent:sortDisplay()
 		slot0.viewComponent:updateCollectNotices(slot0.collectionProxy:hasFinish())
@@ -59,7 +61,7 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:setPlayer(slot3)
 	elseif slot2 == GAME.BEGIN_STAGE_DONE then
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
-	elseif slot2 == uv0.EVENT_OBTAIN_SKIP then
+	elseif slot2 == slot0.EVENT_OBTAIN_SKIP then
 		slot0.viewComponent:skipIn(slot3.toggle, slot3.displayGroupId)
 	end
 end

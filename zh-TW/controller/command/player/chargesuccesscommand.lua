@@ -1,22 +1,22 @@
-slot0 = class("ChargeSuccessCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("ChargeSuccessCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.payId
 	slot6 = slot2.gem_free
-	slot8.shop_id = slot2.shopId
-	slot7 = Goods.New({}, Goods.TYPE_CHARGE)
+	slot7 = Goods.New({
+		shop_id = slot2.shopId
+	}, Goods.TYPE_CHARGE)
+	slot9 = getProxy(PlayerProxy).getData(slot8)
 
 	if slot2.gem > 0 then
-		slot12.chargeGem = slot5
-
-		getProxy(PlayerProxy):getData():addResources({})
+		slot9:addResources({
+			chargeGem = slot5
+		})
 	end
 
 	if slot6 > 0 then
-		slot12.freeGem = slot6
-
-		slot9:addResources({})
+		slot9:addResources({
+			freeGem = slot6
+		})
 	end
 
 	if slot7:isMonthCard() then
@@ -25,10 +25,10 @@ function slot0.execute(slot0, slot1)
 		if slot9:getCardById(VipCard.MONTH) and slot10.leftDate ~= 0 then
 			slot10.leftDate = slot10.leftDate + 2592000
 		else
-			slot13.type = VipCard.MONTH
-			slot13.left_date = slot11
 			slot10 = VipCard.New({
-				data = 0
+				data = 0,
+				type = VipCard.MONTH,
+				left_date = slot11
 			})
 		end
 
@@ -51,9 +51,9 @@ function slot0.execute(slot0, slot1)
 	end
 
 	if not slot12 then
-		slot14.shop_id = slot3
 		slot11[slot3] = Goods.New({
-			pay_count = 1
+			pay_count = 1,
+			shop_id = slot3
 		}, Goods.TYPE_CHARGE)
 	end
 
@@ -78,4 +78,4 @@ function slot0.execute(slot0, slot1)
 	pg.TipsMgr.GetInstance():ShowTips(i18n("charge_success"))
 end
 
-return slot0
+return class("ChargeSuccessCommand", pm.SimpleCommand)

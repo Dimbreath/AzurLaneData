@@ -1,15 +1,3 @@
-slot2.trigger = {
-	"onAttach"
-}
-slot2.arg_list = {
-	add = 0,
-	mul = 2000
-}
-slot1[1] = {
-	type = "BattleBuffFixVelocity"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "小海狸中队",
@@ -20,5 +8,17 @@ return {
 	stack = 1,
 	color = "yellow",
 	icon = 6001,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffFixVelocity",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				add = 0,
+				mul = 2000
+			}
+		}
+	}
 }

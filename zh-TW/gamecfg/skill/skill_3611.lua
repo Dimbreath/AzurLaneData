@@ -1,13 +1,3 @@
-slot1.offset = {
-	0,
-	-2,
-	0
-}
-slot0.aniEffect = {
-	effect = "jineng"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "狼群战术",
@@ -16,5 +6,14 @@ return {
 	desc = "狼群战术",
 	painting = 1,
 	id = 3611,
-	castCV = "skill"
+	castCV = "skill",
+	aniEffect = {
+		effect = "jineng",
+		offset = {
+			0,
+			-2,
+			0
+		}
+	},
+	effect_list = {}
 }

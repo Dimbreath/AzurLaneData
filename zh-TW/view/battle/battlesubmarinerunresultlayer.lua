@@ -10,9 +10,11 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.setPlayer(slot0)
+	return
 end
 
 function slot0.setShips(slot0)
+	return
 end
 
 function slot0.init(slot0)
@@ -30,28 +32,26 @@ function slot0.init(slot0)
 	slot0._skipBtn = slot0:findTF("skipLayer", slot0._tf)
 	slot0.UIMain = pg.UIMgr.GetInstance().UIMain
 	slot0.overlay = pg.UIMgr.GetInstance().OverlayMain
+	slot1 = {
+		"d",
+		"c",
+		"b",
+		"a",
+		"s"
+	}
 	slot2 = slot0:findTF("grade/Xyz/bg13")
 	slot3 = slot0:findTF("grade/Xyz/bg14")
 	slot4, slot5, slot6 = nil
-	slot8 = slot0.contextData.score > 0
 
-	setActive(slot0:findTF("jieuan01/BG/bg_victory", slot0._bg), slot8)
-	setActive(slot0:findTF("jieuan01/BG/bg_fail", slot0._bg), not slot8)
+	setActive(slot0:findTF("jieuan01/BG/bg_victory", slot0._bg), slot0.contextData.score > 0)
+	setActive(slot0:findTF("jieuan01/BG/bg_fail", slot0._bg), not (slot0.contextData.score > 0))
 
 	if slot8 then
-		slot6 = ({
-			"d",
-			"c",
-			"b",
-			"a",
-			"s"
-		})[slot7 + 1]
 		slot4 = "battlescore/battle_score_" .. slot6 .. "/letter_" .. slot6
-		slot5 = "battlescore/battle_score_" .. slot6 .. "/label_" .. slot6
+		slot5 = "battlescore/battle_score_" .. slot1[slot7 + 1] .. "/label_" .. slot1[slot7 + 1]
 	else
-		slot6 = slot1[1]
 		slot4 = "battlescore/battle_score_" .. slot6 .. "/letter_" .. slot6
-		slot5 = "battlescore/battle_score_" .. slot6 .. "/label_" .. (failLabel or slot6)
+		slot5 = "battlescore/battle_score_" .. slot1[1] .. "/label_" .. (failLabel or slot6)
 	end
 
 	LoadImageSpriteAsync(slot4, slot2, false)
@@ -63,24 +63,23 @@ end
 function slot0.didEnter(slot0)
 	setText(slot0._levelText, pg.expedition_data_template[slot0.contextData.stageId].name)
 
-	slot3 = rtf(slot0._grade)
-	slot0._gradeUpperLeftPos = slot3.localPosition
-	slot3.localPosition = Vector3(0, 25, 0)
+	slot0._gradeUpperLeftPos = rtf(slot0._grade).localPosition
+	rtf(slot0._grade).localPosition = Vector3(0, 25, 0)
 
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
 	slot0._grade.transform.localScale = Vector3(1.5, 1.5, 0)
 
-	LeanTween.scale(slot0._grade, Vector3(0.88, 0.88, 1), uv0.DURATION_WIN_SCALE):setOnComplete(System.Action(function ()
-		SetActive(uv0._levelText, true)
-		uv0:rankAnimaFinish()
+	LeanTween.scale(slot0._grade, Vector3(0.88, 0.88, 1), slot0.DURATION_WIN_SCALE):setOnComplete(System.Action(function ()
+		SetActive(slot0._levelText, true)
+		SetActive:rankAnimaFinish()
 	end))
 
 	slot0._tf:GetComponent(typeof(Image)).color = Color.New(0, 0, 0, 0.5)
 	slot0._stateFlag = BattleResultLayer.STATE_RANK_ANIMA
 
 	onButton(slot0, slot0._skipBtn, function ()
-		uv0:skip()
+		slot0:skip()
 	end, SFX_CONFIRM)
 	slot0:showPainting()
 end
@@ -97,8 +96,8 @@ function slot0.showPainting(slot0)
 	slot0.paintingName = "u556"
 
 	setPaintingPrefabAsync(slot0._painting, slot0.paintingName, "jiesuan", function ()
-		if findTF(uv0._painting, "fitter").childCount > 0 then
-			Ship.SetExpression(findTF(uv0._painting, "fitter"):GetChild(0), uv0.paintingName, "win_mvp")
+		if findTF(slot0._painting, "fitter").childCount > 0 then
+			Ship.SetExpression(findTF(slot0._painting, "fitter"):GetChild(0), slot0.paintingName, "win_mvp")
 		end
 	end)
 	SetActive(slot0._failPainting, false)
@@ -111,9 +110,7 @@ function slot0.showPainting(slot0)
 
 	setText(slot0._chat:Find("Text"), slot2)
 
-	slot4 = slot0._chat:Find("Text")
-
-	if CHAT_POP_STR_LEN < #slot4:GetComponent(typeof(Text)).text then
+	if CHAT_POP_STR_LEN < #slot0._chat:Find("Text"):GetComponent(typeof(Text)).text then
 		slot4.alignment = TextAnchor.MiddleLeft
 	else
 		slot4.alignment = TextAnchor.MiddleCenter
@@ -124,13 +121,12 @@ function slot0.showPainting(slot0)
 	slot0._chat.transform.localScale = Vector3.New(0, 0, 0)
 
 	LeanTween.moveX(rtf(slot0._painting), 50, 0.1):setOnComplete(System.Action(function ()
-		LeanTween.scale(rtf(uv0._chat.gameObject), Vector3.New(1, 1, 1), 0.1):setEase(LeanTweenType.easeOutBack)
+		LeanTween.scale(rtf(slot0._chat.gameObject), Vector3.New(1, 1, 1), 0.1):setEase(LeanTweenType.easeOutBack)
 	end))
 end
 
 function slot0.skip(slot0)
 	if slot0._stateFlag == BattleResultLayer.STATE_RANK_ANIMA then
-		-- Nothing
 	elseif slot0._stateFlag == BattleResultLayer.STATE_REPORTED then
 		slot0:emit(BattleResultMediator.ON_BACK_TO_LEVEL_SCENE)
 	end

@@ -1,29 +1,3 @@
-slot0.castCV = {
-	key = "skill",
-	skinID = 10300060
-}
-slot2.arg_list = {
-	maxHPRatio = 0.02
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillHeal",
-	target_choise = "TargetPlayerMainFleet"
-}
-slot2.target_choise = {
-	"TargetPlayerMainFleet"
-}
-slot2.arg_list = {
-	buff_id = 7562
-}
-slot1[2] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillAddBuff"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "传颂之物开场加血2%",
@@ -32,5 +6,31 @@ return {
 	aniEffect = "",
 	desc = "传颂之物开场加血2%",
 	painting = "fumilulu",
-	id = 7561
+	id = 7561,
+	castCV = {
+		key = "skill",
+		skinID = 10300060
+	},
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillHeal",
+			target_choise = "TargetPlayerMainFleet",
+			arg_list = {
+				maxHPRatio = 0.02
+			}
+		},
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = {
+				"TargetPlayerMainFleet"
+			},
+			arg_list = {
+				buff_id = 7562
+			}
+		}
+	}
 }

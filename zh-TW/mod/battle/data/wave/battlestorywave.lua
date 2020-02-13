@@ -1,21 +1,19 @@
 ys = ys or {}
-slot0 = ys
-slot0.Battle.BattleStoryWave = class("BattleStoryWave", slot0.Battle.BattleWaveInfo)
-slot0.Battle.BattleStoryWave.__name = "BattleStoryWave"
-slot1 = slot0.Battle.BattleStoryWave
+ys.Battle.BattleStoryWave = class("BattleStoryWave", ys.Battle.BattleWaveInfo)
+ys.Battle.BattleStoryWave.__name = "BattleStoryWave"
 
-function slot1.Ctor(slot0)
-	uv0.super.Ctor(slot0)
+function ys.Battle.BattleStoryWave.Ctor(slot0)
+	slot0.super.Ctor(slot0)
 end
 
-function slot1.SetWaveData(slot0, slot1)
-	uv0.super.SetWaveData(slot0, slot1)
+function ys.Battle.BattleStoryWave.SetWaveData(slot0, slot1)
+	slot0.super.SetWaveData(slot0, slot1)
 
 	slot0._storyID = slot0._param.id
 end
 
-function slot1.DoWave(slot0)
-	uv0.super.DoWave(slot0)
+function ys.Battle.BattleStoryWave.DoWave(slot0)
+	slot0.super.DoWave(slot0)
 
 	slot1 = true
 
@@ -32,9 +30,9 @@ function slot1.DoWave(slot0)
 
 		if pg.StoryMgr.GetInstance():Play(slot0._storyID, function (slot0)
 			if slot0 then
-				uv0:doFail()
+				slot0:doFail()
 			else
-				uv0:doPass()
+				slot0:doPass()
 			end
 		end) then
 			gcAll()
@@ -43,3 +41,5 @@ function slot1.DoWave(slot0)
 		slot0:doPass()
 	end
 end
+
+return

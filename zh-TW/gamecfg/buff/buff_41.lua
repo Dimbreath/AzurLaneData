@@ -1,14 +1,3 @@
-slot2.trigger = {
-	"onAttach"
-}
-slot2.arg_list = {
-	ai_onAttach = 40001
-}
-slot1[1] = {
-	type = "BattleBuffNewAI"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "模拟战敌方后排激活buff",
@@ -18,5 +7,16 @@ return {
 	stack = 1,
 	id = 41,
 	icon = 41,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffNewAI",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				ai_onAttach = 40001
+			}
+		}
+	}
 }

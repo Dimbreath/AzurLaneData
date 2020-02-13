@@ -32,26 +32,13 @@ function slot0.register(slot0)
 
 	if pg.activity_event_worldboss[slot1 and slot1:getConfig("config_id")] then
 		slot0.contextData.TicketID = slot4.ticket
-		slot5 = slot0.contextData
-
-		if slot4.time ~= "stop" then
-			slot6 = slot0.timeMgr:parseTimeFromConfig(slot4.time[2])
-		else
-			slot6 = false
-
-			if false then
-				slot6 = true
-			end
-		end
-
-		slot5.BattleEndTimeStamp = slot6
+		slot0.contextData.BattleEndTimeStamp = slot4.time ~= "stop" and slot0.timeMgr:parseTimeFromConfig(slot4.time[2])
 		slot0.contextData.exStageID = slot4.ex_expedition
 		slot0.contextData.normalStageIDs = slot4.normal_expedition or {}
 		slot0.contextData.groupNum = slot4.group_num
 		slot0.contextData.submarineNum = slot4.submarine_num
-		slot6 = slot4.normal_expedition_drop_num or {}
-		slot0.contextData.ticketInitPools = slot6
-		slot0.contextData.DisplayItems = pg.extraenemy_template[slot4.boss_id[1]] and slot6.reward_display or {}
+		slot0.contextData.ticketInitPools = slot4.normal_expedition_drop_num or {}
+		slot0.contextData.DisplayItems = (pg.extraenemy_template[slot4.boss_id[1]] and slot4.normal_expedition_drop_num or .reward_display) or {}
 	end
 
 	slot0.contextData.cbAfterReq = {}
@@ -59,20 +46,17 @@ function slot0.register(slot0)
 	slot0:RequestAndUpdateView()
 
 	slot0.contextData.actFleets = slot2:getActivityFleets()[slot1.id]
-	slot7 = slot0.activityProxy
 
-	if slot7:getActivityById(uv0.PTActID) then
+	if slot0.activityProxy:getActivityById(slot0.PTActID) then
 		slot0.contextData.ptData = ActivityBossPtData.New(slot7)
 	end
 
-	slot8 = slot0.activityProxy
-
-	if slot8:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_RANK) and not slot8:isEnd() then
+	if slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_RANK) and not slot8:isEnd() then
 		if getProxy(BillboardProxy):canFetch(PowerRank.TYPE_ACT_BOSS_BATTLE, slot8.id) then
-			slot15.type = slot10
-			slot15.activityId = slot11
-
-			slot0:sendNotification(GAME.GET_POWERRANK, {})
+			slot0:sendNotification(GAME.GET_POWERRANK, {
+				type = slot10,
+				activityId = slot11
+			})
 		else
 			slot0:UpdateRankData(slot9:getRankList(slot10, slot11))
 		end
@@ -83,19 +67,19 @@ function slot0.BindEvent(slot0)
 	slot1 = getProxy(FleetProxy)
 	slot2 = slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2)
 
-	slot0:bind(uv0.ON_RANK, function (slot0)
-		slot5.index = BillboardLayer.PAGE_BOSS_BATTLE
-
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.BILLBOARD, {})
+	slot0:bind(slot0.ON_RANK, function (slot0)
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.BILLBOARD, {
+			index = BillboardLayer.PAGE_BOSS_BATTLE
+		})
 	end)
 	slot0:bind(ActivityMediator.EVENT_PT_OPERATION, function (slot0, slot1)
-		uv0:sendNotification(GAME.ACT_NEW_PT, slot1)
+		slot0:sendNotification(GAME.ACT_NEW_PT, slot1)
 	end)
-	slot0:bind(uv0.ON_SUBMIT_TASK, function (slot0, slot1)
-		uv0:sendNotification(GAME.SUBMIT_TASK, slot1)
+	slot0:bind(slot0.ON_SUBMIT_TASK, function (slot0, slot1)
+		slot0:sendNotification(GAME.SUBMIT_TASK, slot1)
 	end)
-	slot0:bind(uv0.ON_PRECOMBAT, function (slot0, slot1)
-		if not uv0:getActivityFleets()[uv1.id] then
+	slot0:bind(slot0.ON_PRECOMBAT, function (slot0, slot1)
+		if not slot0:getActivityFleets()[slot1.id] then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("elite_disable_no_fleet"))
 
 			return
@@ -118,73 +102,76 @@ function slot0.BindEvent(slot0)
 		end
 
 		slot5, slot6 = nil
-		slot7[1] = slot2[slot1]
+		slot7 = {
+			slot2[slot1]
+		}
 		slot5 = SYSTEM_ACT_BOSS
-		slot6 = uv2.contextData.normalStageIDs[slot1]
+		slot6 = slot2.contextData.normalStageIDs[slot1]
 
 		slot2[slot1 + 10]:RemoveUnusedItems()
 
 		if slot2[slot1 + 10]:isLegalToFight() == true then
-			table.insert({}, slot2[slot1 + 10])
+			table.insert(slot7, slot2[slot1 + 10])
 		end
 
-		uv2:RequestAndUpdateView(function ()
-			slot3.mediator = PreCombatMediator
-			slot3.viewComponent = PreCombatLayer
-			slot4.system = uv1
-			slot4.stageId = uv2
-			slot4.actID = uv3.id
-			slot4.fleets = uv4
+		slot2:RequestAndUpdateView(function ()
+			slot0:addSubLayers(Context.New({
+				mediator = PreCombatMediator,
+				viewComponent = PreCombatLayer,
+				data = {
+					system = slot1,
+					stageId = slot2,
+					actID = slot3.id,
+					fleets = slot4,
+					OnConfirm = function (slot0)
+						slot2 = getProxy(PlayerProxy):getRawData():getResource(slot0.contextData.TicketID) > 0 and (slot0.contextData.stageTickets[getProxy(SettingsProxy):isTipActBossExchangeTicket()] or 0) <= 0
 
-			function slot4.OnConfirm(slot0)
-				if not getProxy(SettingsProxy):isTipActBossExchangeTicket() and (getProxy(PlayerProxy):getRawData():getResource(uv0.contextData.TicketID) > 0 and (uv0.contextData.stageTickets[uv1] or 0) <= 0) then
-					slot5.content = i18n("tip_exchange_ticket", i18n(uv2[uv3]))
+						if not slot1 and slot2 then
+							pg.MsgboxMgr.GetInstance():ShowMsgBox({
+								yesText = "text_consume",
+								noText = "text_inconsume",
+								content = i18n("tip_exchange_ticket", i18n(slot2[pg.MsgboxMgr.GetInstance().ShowMsgBox])),
+								onYes = function ()
+									if pg.MsgboxMgr.GetInstance().stopRemindToggle.isOn then
+									end
 
-					function slot5.onYes()
-						if pg.MsgboxMgr.GetInstance().stopRemindToggle.isOn then
-							-- Nothing
+									slot0.contextData.ready2battleCb = slot0.contextData
+
+									slot0:sendNotification(GAME.ACT_BOSS_EXCHANGE_TICKET, {
+										stageId = slot0
+									})
+								end,
+								yesBtnType = pg.MsgboxMgr.BUTTON_BLUE_WITH_ICON,
+								onNo = function ()
+									if pg.MsgboxMgr.GetInstance().stopRemindToggle.isOn then
+									end
+
+									slot0()
+								end,
+								onClose = function ()
+									return
+								end
+							})
+						else
+							slot3 = slot1 == 1
+
+							if slot2 and slot3 then
+								slot0.contextData.ready2battleCb = slot0
+
+								slot0:sendNotification(GAME.ACT_BOSS_EXCHANGE_TICKET, {
+									stageId = slot1
+								})
+							else
+								slot0()
+							end
 						end
-
-						uv0.contextData.ready2battleCb = uv1
-						slot4.stageId = uv2
-
-						uv0:sendNotification(GAME.ACT_BOSS_EXCHANGE_TICKET, {})
 					end
-
-					slot5.yesBtnType = pg.MsgboxMgr.BUTTON_BLUE_WITH_ICON
-
-					function slot5.onNo()
-						if pg.MsgboxMgr.GetInstance().stopRemindToggle.isOn then
-							-- Nothing
-						end
-
-						uv0()
-					end
-
-					function slot5.onClose()
-					end
-
-					pg.MsgboxMgr.GetInstance():ShowMsgBox({
-						yesText = "text_consume",
-						noText = "text_inconsume"
-					})
-				elseif slot2 and slot1 == 1 then
-					uv0.contextData.ready2battleCb = slot0
-					slot7.stageId = uv1
-
-					uv0:sendNotification(GAME.ACT_BOSS_EXCHANGE_TICKET, {})
-				else
-					slot0()
-				end
-			end
-
-			slot3.data = {}
-
-			uv0:addSubLayers(Context.New({}))
+				}
+			}))
 		end)
 	end)
-	slot0:bind(uv0.ON_EX_PRECOMBAT, function (slot0, slot1, slot2)
-		if not uv0:getActivityFleets()[uv1.id] then
+	slot0:bind(slot0.ON_EX_PRECOMBAT, function (slot0, slot1, slot2)
+		if not slot0:getActivityFleets()[slot1.id] then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("elite_disable_no_fleet"))
 
 			return
@@ -206,390 +193,1408 @@ function slot0.BindEvent(slot0)
 			return
 		end
 
-		slot7[1] = function (slot0)
-			if not uv0 then
-				if not pg.StoryMgr.GetInstance():IsPlayed("NG0017") then
-					slot4.helps = pg.gametip.worldbossex_help.tip
-					slot4.type = MSGBOX_TYPE_HELP
-					slot4.stopRamindContent = i18n("dont_remind")
+		seriesAsync({
+			function (slot0)
+				slot1 = "NG0017"
 
-					function slot4.onYes()
-						if pg.MsgboxMgr.GetInstance().stopRemindToggle.isOn then
-							slot4.storyId = uv0
-
-							pg.m02:sendNotification(GAME.STORY_UPDATE, {})
-						end
-
-						uv1()
-					end
-
-					function slot4.onNo()
-						if pg.MsgboxMgr.GetInstance().stopRemindToggle.isOn then
-							slot4.storyId = uv0
-
-							pg.m02:sendNotification(GAME.STORY_UPDATE, {})
-						end
-					end
-
+				if not slot0 and not pg.StoryMgr.GetInstance():IsPlayed(slot1) then
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
 						hideYes = false,
 						showStopRemind = true,
-						hideNo = false
+						hideNo = false,
+						helps = pg.gametip.worldbossex_help.tip,
+						type = MSGBOX_TYPE_HELP,
+						stopRamindContent = i18n("dont_remind"),
+						onYes = function ()
+							if pg.MsgboxMgr.GetInstance().stopRemindToggle.isOn then
+								pg.m02:sendNotification(GAME.STORY_UPDATE, {
+									storyId = slot0
+								})
+							end
+
+							slot1()
+						end,
+						onNo = function ()
+							if pg.MsgboxMgr.GetInstance().stopRemindToggle.isOn then
+								pg.m02:sendNotification(GAME.STORY_UPDATE, {
+									storyId = slot0
+								})
+							end
+						end
 					})
-				end
-			else
-				slot0()
-			end
-		end
-
-		slot7[2] = function (slot0)
-			slot1, slot2 = nil
-			slot3[1] = uv0[uv1]
-			slot1 = uv2 and SYSTEM_BOSS_EXPERIMENT or SYSTEM_HP_SHARE_ACT_BOSS
-			slot2 = uv3.contextData.exStageID
-
-			uv0[uv1 + 10]:RemoveUnusedItems()
-
-			if uv0[uv1 + 10]:isLegalToFight() == true then
-				table.insert({}, uv0[uv1 + 10])
-			end
-
-			uv3:RequestAndUpdateView(function ()
-				slot3.mediator = PreCombatMediator
-				slot3.viewComponent = PreCombatLayer
-				slot4.system = uv1
-				slot4.stageId = uv2
-				slot4.actID = uv3.id
-				slot4.fleets = uv4
-
-				function slot4.OnConfirm(slot0)
-					if not uv0:CheckInTime() then
-						return
-					end
-
+				else
 					slot0()
 				end
+			end,
+			function (slot0)
 
-				slot3.data = {}
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 1-9, warpins: 1 ---
+				slot5, slot4 = nil
+				slot3 = {
+					slot0[slot1]
+				}
+				slot1 = (slot2 and SYSTEM_BOSS_EXPERIMENT) or SYSTEM_HP_SHARE_ACT_BOSS
+				slot2 = ()["contextData"].exStageID
 
-				uv0:addSubLayers(Context.New({}))
-			end)
-		end
+				slot0[((slot2 and SYSTEM_BOSS_EXPERIMENT) or SYSTEM_HP_SHARE_ACT_BOSS) + 10]:RemoveUnusedItems()
 
-		seriesAsync({})
+				--- END OF BLOCK #0 ---
+
+				FLOW; TARGET BLOCK #2
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #1 10-12, warpins: 1 ---
+				if not SYSTEM_BOSS_EXPERIMENT then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 13-13, warpins: 2 ---
+					slot1 = SYSTEM_HP_SHARE_ACT_BOSS
+					--- END OF BLOCK #0 ---
+
+
+
+				end
+
+				--- END OF BLOCK #1 ---
+
+				FLOW; TARGET BLOCK #2
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #2 14-32, warpins: 2 ---
+				if slot0[slot1 + 10]:isLegalToFight() == true then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 33-40, warpins: 1 ---
+					table.insert(slot3, slot0[slot1 + 10])
+					--- END OF BLOCK #0 ---
+
+
+
+				end
+
+				--- END OF BLOCK #2 ---
+
+				FLOW; TARGET BLOCK #3
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #3 41-47, warpins: 2 ---
+				slot3:RequestAndUpdateView(function ()
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 1-26, warpins: 1 ---
+					slot0:addSubLayers(Context.New({
+						mediator = PreCombatMediator,
+						viewComponent = PreCombatLayer,
+						data = {
+							system = slot1,
+							stageId = slot2,
+							actID = slot3.id,
+							fleets = slot4,
+							OnConfirm = function (slot0)
+
+								-- Decompilation error in this vicinity:
+								--- BLOCK #0 1-6, warpins: 1 ---
+								if not slot0:CheckInTime() then
+
+									-- Decompilation error in this vicinity:
+									--- BLOCK #0 7-7, warpins: 1 ---
+									return
+									--- END OF BLOCK #0 ---
+
+
+
+								end
+
+								--- END OF BLOCK #0 ---
+
+								FLOW; TARGET BLOCK #1
+
+
+
+								-- Decompilation error in this vicinity:
+								--- BLOCK #1 8-10, warpins: 2 ---
+								slot0()
+
+								return
+								--- END OF BLOCK #1 ---
+
+
+
+							end
+						}
+					}))
+
+					return
+					--- END OF BLOCK #0 ---
+
+
+
+				end)
+
+				return
+				--- END OF BLOCK #3 ---
+
+
+
+			end
+		})
 	end)
-	slot0:bind(uv0.ON_COMMIT_FLEET, function ()
-		uv0:commitActivityFleet(uv1.id)
+	slot0:bind(slot0.ON_COMMIT_FLEET, function ()
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-7, warpins: 1 ---
+		slot0:commitActivityFleet(slot1.id)
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end)
-	slot0:bind(uv0.ON_FLEET_RECOMMEND, function (slot0, slot1)
-		uv0.activityProxy:recommendActivityFleet(uv1.id, slot1)
+	slot0:bind(slot0.ON_FLEET_RECOMMEND, function (slot0, slot1)
 
-		uv0.contextData.actFleets = uv2:getActivityFleets()[uv1.id]
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-24, warpins: 1 ---
+		slot0.activityProxy:recommendActivityFleet(slot1.id, slot1)
 
-		uv0.viewComponent:updateEditPanel()
+		slot0.contextData.actFleets = slot0.activityProxy.recommendActivityFleet:getActivityFleets()[slot1.id]
+
+		slot0.viewComponent:updateEditPanel()
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end)
-	slot0:bind(uv0.ON_FLEET_CLEAR, function (slot0, slot1)
-		slot3 = uv0:getActivityFleets()[uv1.id]
+	slot0:bind(slot0.ON_FLEET_CLEAR, function (slot0, slot1)
 
-		slot3[slot1]:clearFleet()
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-20, warpins: 1 ---
+		slot2 = slot0:getActivityFleets()
 
-		uv2.contextData.actFleets = slot3
+		slot2[slot1.id][slot1].clearFleet(slot4)
 
-		uv2.viewComponent:updateEditPanel()
+		slot2.contextData.actFleets = slot2[slot1.id]
+
+		slot2.viewComponent:updateEditPanel()
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end)
-	slot0:bind(uv0.ON_OPEN_DOCK, function (slot0, slot1)
+	slot0:bind(slot0.ON_OPEN_DOCK, function (slot0, slot1)
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-16, warpins: 1 ---
 		slot2 = slot1.fleetIndex
 		slot3 = slot1.shipVO
 		slot4 = slot1.fleet
+		slot5 = slot1.teamType
 		slot8 = {}
 		slot9 = {}
 
-		for slot13, slot14 in pairs(getProxy(BayProxy):getRawData()) do
-			if slot14:getTeamType() ~= slot1.teamType then
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 17-25, warpins: 0 ---
+		for slot13, slot14 in pairs(slot7) do
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 17-21, warpins: 1 ---
+			if slot14:getTeamType() ~= slot5 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 22-23, warpins: 1 ---
 				slot9[slot13] = true
+				--- END OF BLOCK #0 ---
+
+
+
 			end
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 24-25, warpins: 3 ---
+			--- END OF BLOCK #1 ---
+
+
+
 		end
 
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 26-29, warpins: 1 ---
+		--- END OF BLOCK #2 ---
+
+		FLOW; TARGET BLOCK #3
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #3 30-38, warpins: 0 ---
 		for slot13, slot14 in pairs(slot4) do
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 30-31, warpins: 1 ---
 			if slot3 and slot14 ~= slot3.id then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 35-36, warpins: 1 ---
 				slot9[slot14] = true
+				--- END OF BLOCK #0 ---
+
+
+
 			end
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 37-38, warpins: 4 ---
+			--- END OF BLOCK #1 ---
+
+
+
 		end
 
+		--- END OF BLOCK #3 ---
+
+		FLOW; TARGET BLOCK #4
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #4 39-42, warpins: 1 ---
+		--- END OF BLOCK #4 ---
+
+		FLOW; TARGET BLOCK #5
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #5 43-49, warpins: 0 ---
 		for slot13, slot14 in pairs(slot9) do
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 43-47, warpins: 1 ---
 			table.insert(slot8, slot13)
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 48-49, warpins: 2 ---
+			--- END OF BLOCK #1 ---
+
+
+
 		end
 
+		--- END OF BLOCK #5 ---
+
+		FLOW; TARGET BLOCK #6
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #6 50-52, warpins: 1 ---
 		slot10, slot11 = nil
 
 		if slot3 == nil then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 53-55, warpins: 1 ---
 			slot10 = false
 			slot11 = nil
+			--- END OF BLOCK #0 ---
+
+
+
 		else
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 56-57, warpins: 1 ---
 			slot10 = true
 			slot11 = slot3.id
+			--- END OF BLOCK #0 ---
+
+
+
 		end
 
-		slot20.onShip, slot20.confirmSelect, slot20.onSelected = uv0.getDockCallbackFuncs4ActicityFleet(slot3, slot2, slot5)
-		slot20.ignoredIds = slot8
-		slot20.activeShipId = slot11
-		slot20.leastLimitMsg = i18n("ship_formationMediator_leastLimit")
-		slot20.quitTeam = slot10
-		slot20.leftTopInfo = i18n("word_formation")
-		slot20.flags = {
-			inExercise = false,
-			inChapter = false,
-			inPvp = false,
-			inFleet = false,
-			inClass = false,
-			inTactics = false,
-			inBackyard = false,
-			inSham = false,
-			inEvent = true,
-			inAdmiral = false
-		}
+		--- END OF BLOCK #6 ---
 
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
+		FLOW; TARGET BLOCK #7
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #7 58-89, warpins: 2 ---
+		slot20.onShip, slot20.confirmSelect, slot20.onSelected = slot0.getDockCallbackFuncs4ActicityFleet(slot3, slot2, slot5)
+
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			selectedMin = 0,
 			skipSelect = true,
-			selectedMax = 1
+			selectedMax = 1,
+			ignoredIds = slot8,
+			activeShipId = slot11,
+			leastLimitMsg = i18n("ship_formationMediator_leastLimit"),
+			quitTeam = slot10,
+			leftTopInfo = i18n("word_formation"),
+			onShip = slot13,
+			confirmSelect = slot14,
+			onSelected = slot15,
+			flags = {
+				inExercise = false,
+				inChapter = false,
+				inPvp = false,
+				inFleet = false,
+				inClass = false,
+				inTactics = false,
+				inBackyard = false,
+				inSham = false,
+				inEvent = true,
+				inAdmiral = false
+			}
 		})
-	end)
-	slot0:bind(uv0.ON_FLEET_SHIPINFO, function (slot0, slot1)
-		slot6.shipId = slot1.shipId
-		slot6.shipVOs = slot1.shipVOs
 
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {})
+		return
+		--- END OF BLOCK #7 ---
+
+
+
 	end)
-	slot0:bind(uv0.ON_SELECT_COMMANDER, function (slot0, slot1, slot2)
-		slot3 = uv0
-		slot5 = slot1 < Fleet.SUBMARINE_FLEET_ID and slot1 or slot1 - 10
+	slot0:bind(slot0.ON_FLEET_SHIPINFO, function (slot0, slot1)
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-14, warpins: 1 ---
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {
+			shipId = slot1.shipId,
+			shipVOs = slot1.shipVOs
+		})
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
+	end)
+	slot0:bind(slot0.ON_SELECT_COMMANDER, function (slot0, slot1, slot2)
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-12, warpins: 1 ---
+		slot4 = slot0:getActivityFleets()[slot1.id][slot1]
+
+		if slot1 >= Fleet.SUBMARINE_FLEET_ID or not slot1 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 15-15, warpins: 2 ---
+			slot5 = slot1 - 10
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 16-29, warpins: 2 ---
 		slot6 = {
 			[slot5] = slot3[slot5],
 			[slot5 + 10] = slot3[slot5 + 10]
 		}
 		slot8 = nil
 
-		if slot3:getActivityFleets()[uv1.id][slot1]:getCommanders()[slot2] then
+		if slot4:getCommanders()[slot2] then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 30-30, warpins: 1 ---
 			slot8 = slot7[slot2]
+			--- END OF BLOCK #0 ---
+
+
+
 		end
 
-		slot13.mode = CommandRoomScene.MODE_SELECT
-		slot13.activeCommander = slot8
-		slot13.ignoredIds = {}
+		--- END OF BLOCK #1 ---
 
-		function slot13.onCommander(slot0)
-			return true
-		end
+		FLOW; TARGET BLOCK #2
 
-		function slot13.onSelected(slot0, slot1)
-			slot4 = getProxy(CommanderProxy):getCommanderById(slot0[1])
 
-			for slot8, slot9 in pairs(uv0) do
-				if slot8 == uv1 then
-					for slot13, slot14 in pairs(uv2) do
-						if slot14.groupId == slot4.groupId and slot13 ~= uv3 then
-							pg.TipsMgr.GetInstance():ShowTips(i18n("commander_can_not_select_same_group"))
 
-							return
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 31-53, warpins: 2 ---
+		slot2:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
+			maxCount = 1,
+			mode = CommandRoomScene.MODE_SELECT,
+			activeCommander = slot8,
+			ignoredIds = {},
+			onCommander = function (slot0)
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 1-2, warpins: 1 ---
+				return true
+				--- END OF BLOCK #0 ---
+
+
+
+			end,
+			onSelected = function (slot0, slot1)
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 1-12, warpins: 1 ---
+				slot4 = getProxy(CommanderProxy).getCommanderById(slot3, slot2)
+
+				--- END OF BLOCK #0 ---
+
+				FLOW; TARGET BLOCK #1
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #1 13-65, warpins: 0 ---
+				for slot8, slot9 in pairs(slot0) do
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 13-15, warpins: 1 ---
+					if slot8 == slot1 then
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 16-19, warpins: 1 ---
+						--- END OF BLOCK #0 ---
+
+						FLOW; TARGET BLOCK #1
+
+
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #1 20-39, warpins: 0 ---
+						for slot13, slot14 in pairs(slot2) do
+
+							-- Decompilation error in this vicinity:
+							--- BLOCK #0 20-23, warpins: 1 ---
+							if slot14.groupId == slot4.groupId and slot13 ~= slot3 then
+
+								-- Decompilation error in this vicinity:
+								--- BLOCK #0 27-37, warpins: 1 ---
+								pg.TipsMgr.GetInstance():ShowTips(i18n("commander_can_not_select_same_group"))
+
+								return
+								--- END OF BLOCK #0 ---
+
+
+
+							end
+							--- END OF BLOCK #0 ---
+
+							FLOW; TARGET BLOCK #1
+
+
+
+							-- Decompilation error in this vicinity:
+							--- BLOCK #1 38-39, warpins: 4 ---
+							--- END OF BLOCK #1 ---
+
+
+
 						end
-					end
-				else
-					for slot14, slot15 in pairs(slot9:getCommanders()) do
-						if slot2 == slot15.id then
-							pg.TipsMgr.GetInstance():ShowTips(i18n("commander_is_in_fleet_already"))
+						--- END OF BLOCK #1 ---
 
-							return
+						FLOW; TARGET BLOCK #2
+
+
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #2 40-40, warpins: 1 ---
+						--- END OF BLOCK #2 ---
+
+
+
+					else
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 41-47, warpins: 1 ---
+						--- END OF BLOCK #0 ---
+
+						FLOW; TARGET BLOCK #1
+
+
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #1 48-63, warpins: 0 ---
+						for slot14, slot15 in pairs(slot10) do
+
+							-- Decompilation error in this vicinity:
+							--- BLOCK #0 48-50, warpins: 1 ---
+							if slot2 == slot15.id then
+
+								-- Decompilation error in this vicinity:
+								--- BLOCK #0 51-61, warpins: 1 ---
+								pg.TipsMgr.GetInstance():ShowTips(i18n("commander_is_in_fleet_already"))
+
+								return
+								--- END OF BLOCK #0 ---
+
+
+
+							end
+							--- END OF BLOCK #0 ---
+
+							FLOW; TARGET BLOCK #1
+
+
+
+							-- Decompilation error in this vicinity:
+							--- BLOCK #1 62-63, warpins: 3 ---
+							--- END OF BLOCK #1 ---
+
+
+
 						end
+						--- END OF BLOCK #1 ---
+
+
+
 					end
+					--- END OF BLOCK #0 ---
+
+					FLOW; TARGET BLOCK #1
+
+
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #1 64-65, warpins: 3 ---
+					--- END OF BLOCK #1 ---
+
+
+
 				end
+
+				--- END OF BLOCK #1 ---
+
+				FLOW; TARGET BLOCK #2
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #2 66-82, warpins: 1 ---
+				slot4:updateCommanderByPos(slot3, slot4)
+				slot4.updateCommanderByPos:updateActivityFleet(slot6.id, slot1, slot4)
+				slot1()
+
+				return
+				--- END OF BLOCK #2 ---
+
+
+
+			end,
+			onQuit = function (slot0)
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 1-17, warpins: 1 ---
+				slot0:updateCommanderByPos(slot0.updateCommanderByPos, nil)
+				slot0:updateActivityFleet(slot0.updateCommanderByPos.id, nil, slot0)
+				slot0()
+
+				return
+				--- END OF BLOCK #0 ---
+
+
+
 			end
-
-			uv4:updateCommanderByPos(uv3, slot4)
-			uv5:updateActivityFleet(uv6.id, uv1, uv4)
-			slot1()
-		end
-
-		function slot13.onQuit(slot0)
-			uv0:updateCommanderByPos(uv1, nil)
-			uv2:updateActivityFleet(uv3.id, uv4, uv0)
-			slot0()
-		end
-
-		uv2:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
-			maxCount = 1
 		})
+
+		return
+		--- END OF BLOCK #2 ---
+
+
+
 	end)
 end
 
 function slot0.listNotificationInterests(slot0)
-	slot1[1] = ActivityProxy.ACTIVITY_ADDED
-	slot1[2] = ActivityProxy.ACTIVITY_UPDATED
-	slot1[3] = GAME.SUBMIT_TASK_DONE
-	slot1[4] = PlayerProxy.UPDATED
-	slot1[5] = GAME.BEGIN_STAGE_DONE
-	slot1[6] = GAME.ACT_NEW_PT_DONE
-	slot1[7] = GAME.ACT_BOSS_EXCHANGE_TICKET_DONE
-	slot1[8] = GAME.GET_POWERRANK_DONE
 
-	return {}
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-26, warpins: 1 ---
+	return {
+		ActivityProxy.ACTIVITY_ADDED,
+		ActivityProxy.ACTIVITY_UPDATED,
+		GAME.SUBMIT_TASK_DONE,
+		PlayerProxy.UPDATED,
+		GAME.BEGIN_STAGE_DONE,
+		GAME.ACT_NEW_PT_DONE,
+		GAME.ACT_BOSS_EXCHANGE_TICKET_DONE,
+		GAME.GET_POWERRANK_DONE
+	}
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.handleNotification(slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-10, warpins: 1 ---
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == ActivityProxy.ACTIVITY_ADDED or slot2 == ActivityProxy.ACTIVITY_UPDATED then
-		if slot3.id == uv0.PTActID then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 15-19, warpins: 2 ---
+		if slot3.id == slot0.PTActID then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 20-23, warpins: 1 ---
 			if slot0.contextData.ptData then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 24-30, warpins: 1 ---
 				slot0.contextData.ptData:Update(slot3)
+				--- END OF BLOCK #0 ---
+
+
+
 			else
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 31-36, warpins: 1 ---
 				slot0.contextData.ptData = ActivityBossPtData.New(slot3)
+				--- END OF BLOCK #0 ---
+
+
+
 			end
 
-			slot4 = slot0.contextData.ptData.count
-			slot5 = slot0.activityProxy
+			--- END OF BLOCK #0 ---
 
-			if slot5:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_RANK) and slot5.data1 ~= slot4 then
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 37-47, warpins: 2 ---
+			slot4 = slot0.contextData.ptData.count
+
+			if slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_RANK) and slot5.data1 ~= slot4 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 51-56, warpins: 1 ---
 				slot5.data1 = slot4
 
 				slot0.activityProxy:updateActivity(slot5)
+				--- END OF BLOCK #0 ---
+
+
+
 			end
 
+			--- END OF BLOCK #1 ---
+
+			FLOW; TARGET BLOCK #2
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #2 57-60, warpins: 3 ---
 			slot0:UpdateView()
-		elseif slot3.id == slot0.contextData.activityID then
-			slot0.contextData.bossHP = slot3.data1
-			slot0.contextData.mileStones = slot3.data1_list
-			slot0.contextData.stageTickets = {}
-			slot4 = slot0.contextData.stageTickets
+			--- END OF BLOCK #2 ---
 
-			for slot8, slot9 in pairs(slot3.data1KeyValueList) do
-				for slot13, slot14 in pairs(slot9) do
-					slot4[slot13] = (slot4[slot13] or 0) + slot14
+
+
+		else
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 61-65, warpins: 1 ---
+			if slot3.id == slot0.contextData.activityID then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 66-80, warpins: 1 ---
+				slot0.contextData.bossHP = slot3.data1
+				slot0.contextData.mileStones = slot3.data1_list
+				slot0.contextData.stageTickets = {}
+				slot4 = slot0.contextData.stageTickets
+
+				--- END OF BLOCK #0 ---
+
+				FLOW; TARGET BLOCK #1
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #1 81-94, warpins: 0 ---
+				for slot8, slot9 in pairs(slot3.data1KeyValueList) do
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 81-84, warpins: 1 ---
+					--- END OF BLOCK #0 ---
+
+					FLOW; TARGET BLOCK #1
+
+
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #1 85-92, warpins: 0 ---
+					for slot13, slot14 in pairs(slot9) do
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 85-87, warpins: 1 ---
+						if not slot4[slot13] then
+
+							-- Decompilation error in this vicinity:
+							--- BLOCK #0 88-88, warpins: 1 ---
+							slot15 = 0
+							--- END OF BLOCK #0 ---
+
+
+
+						end
+
+						--- END OF BLOCK #0 ---
+
+						FLOW; TARGET BLOCK #1
+
+
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #1 89-90, warpins: 2 ---
+						slot4[slot13] = slot15 + slot14
+						--- END OF BLOCK #1 ---
+
+						FLOW; TARGET BLOCK #2
+
+
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #2 91-92, warpins: 2 ---
+						--- END OF BLOCK #2 ---
+
+
+
+					end
+					--- END OF BLOCK #1 ---
+
+					FLOW; TARGET BLOCK #2
+
+
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #2 93-94, warpins: 2 ---
+					--- END OF BLOCK #2 ---
+
+
+
 				end
+
+				--- END OF BLOCK #1 ---
+
+				FLOW; TARGET BLOCK #2
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #2 95-100, warpins: 1 ---
+				if #slot0.contextData.cbAfterReq > 0 then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 101-105, warpins: 1 ---
+					--- END OF BLOCK #0 ---
+
+					FLOW; TARGET BLOCK #1
+
+
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #1 106-109, warpins: 0 ---
+					for slot8, slot9 in ipairs(slot0.contextData.cbAfterReq) do
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 106-107, warpins: 1 ---
+						slot9()
+						--- END OF BLOCK #0 ---
+
+						FLOW; TARGET BLOCK #1
+
+
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #1 108-109, warpins: 2 ---
+						--- END OF BLOCK #1 ---
+
+
+
+					end
+
+					--- END OF BLOCK #1 ---
+
+					FLOW; TARGET BLOCK #2
+
+
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #2 110-115, warpins: 1 ---
+					--- END OF BLOCK #2 ---
+
+					FLOW; TARGET BLOCK #3
+
+
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #3 116-122, warpins: 0 ---
+					for slot8 = #slot0.contextData.cbAfterReq, 1, -1 do
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 116-122, warpins: 2 ---
+						table.remove(slot0.contextData.cbAfterReq, slot8)
+						--- END OF BLOCK #0 ---
+
+
+
+					end
+					--- END OF BLOCK #3 ---
+
+
+
+				end
+
+				--- END OF BLOCK #2 ---
+
+				FLOW; TARGET BLOCK #3
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #3 123-126, warpins: 2 ---
+				slot0:UpdateView()
+				--- END OF BLOCK #3 ---
+
+
+
 			end
+			--- END OF BLOCK #0 ---
 
-			if #slot0.contextData.cbAfterReq > 0 then
-				for slot8, slot9 in ipairs(slot0.contextData.cbAfterReq) do
-					slot9()
+
+
+		end
+		--- END OF BLOCK #0 ---
+
+
+
+	else
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 127-130, warpins: 1 ---
+		if slot2 == PlayerProxy.UPDATED then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 131-134, warpins: 1 ---
+			slot0:RequestAndUpdateView()
+			--- END OF BLOCK #0 ---
+
+
+
+		else
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 135-138, warpins: 1 ---
+			if slot2 == GAME.BEGIN_STAGE_DONE then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 139-141, warpins: 1 ---
+				if slot0.contextData then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 142-144, warpins: 1 ---
+					slot0.contextData.editFleet = nil
+					--- END OF BLOCK #0 ---
+
+
+
 				end
 
-				for slot8 = #slot0.contextData.cbAfterReq, 1, -1 do
-					table.remove(slot0.contextData.cbAfterReq, slot8)
+				--- END OF BLOCK #0 ---
+
+				FLOW; TARGET BLOCK #1
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #1 145-153, warpins: 2 ---
+				if not getProxy(ContextProxy):getContextByMediator(PreCombatMediator) then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 154-162, warpins: 1 ---
+					slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
+					--- END OF BLOCK #0 ---
+
+
+
 				end
+				--- END OF BLOCK #1 ---
+
+
+
+			else
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 163-166, warpins: 1 ---
+				if slot2 == GAME.ACT_BOSS_EXCHANGE_TICKET_DONE then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 167-170, warpins: 1 ---
+					if slot0.contextData.ready2battleCb then
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 171-177, warpins: 1 ---
+						slot0.contextData.ready2battleCb()
+
+						slot0.contextData.ready2battleCb = nil
+						--- END OF BLOCK #0 ---
+
+
+
+					end
+					--- END OF BLOCK #0 ---
+
+
+
+				else
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 178-181, warpins: 1 ---
+					if slot2 == GAME.GET_POWERRANK_DONE then
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 182-186, warpins: 1 ---
+						if slot3.type == PowerRank.TYPE_ACT_BOSS_BATTLE then
+
+							-- Decompilation error in this vicinity:
+							--- BLOCK #0 187-191, warpins: 1 ---
+							slot0:UpdateRankData(slot3.list)
+							--- END OF BLOCK #0 ---
+
+
+
+						end
+						--- END OF BLOCK #0 ---
+
+
+
+					else
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 192-195, warpins: 1 ---
+						if slot2 == GAME.ACT_NEW_PT_DONE then
+
+							-- Decompilation error in this vicinity:
+							--- BLOCK #0 196-202, warpins: 1 ---
+							slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
+							--- END OF BLOCK #0 ---
+
+
+
+						end
+						--- END OF BLOCK #0 ---
+
+
+
+					end
+					--- END OF BLOCK #0 ---
+
+
+
+				end
+				--- END OF BLOCK #0 ---
+
+
+
 			end
+			--- END OF BLOCK #0 ---
 
-			slot0:UpdateView()
-		end
-	elseif slot2 == PlayerProxy.UPDATED then
-		slot0:RequestAndUpdateView()
-	elseif slot2 == GAME.BEGIN_STAGE_DONE then
-		if slot0.contextData then
-			slot0.contextData.editFleet = nil
-		end
 
-		if not getProxy(ContextProxy):getContextByMediator(PreCombatMediator) then
-			slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
-		end
-	elseif slot2 == GAME.ACT_BOSS_EXCHANGE_TICKET_DONE then
-		if slot0.contextData.ready2battleCb then
-			slot0.contextData.ready2battleCb()
 
-			slot0.contextData.ready2battleCb = nil
 		end
-	elseif slot2 == GAME.GET_POWERRANK_DONE then
-		if slot3.type == PowerRank.TYPE_ACT_BOSS_BATTLE then
-			slot0:UpdateRankData(slot3.list)
-		end
-	elseif slot2 == GAME.ACT_NEW_PT_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 203-203, warpins: 12 ---
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot0.RequestAndUpdateView(slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-5, warpins: 1 ---
 	slot0:RequestNewData(slot1)
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.RequestNewData(slot0, slot1)
-	slot5.activity_id = slot0.contextData.activityID
 
-	slot0:sendNotification(GAME.ACTIVITY_BOSS_PAGE_UPDATE, {})
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-16, warpins: 1 ---
+	slot0:sendNotification(GAME.ACTIVITY_BOSS_PAGE_UPDATE, {
+		activity_id = slot0.contextData.activityID
+	})
 	table.insert(slot0.contextData.cbAfterReq, slot1)
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.UpdateView(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-5, warpins: 1 ---
 	slot0.viewComponent:UpdateView()
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.CheckInTime(slot0)
-	slot1 = slot0.activityProxy
 
-	if not slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) or slot1:isEnd() then
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-8, warpins: 1 ---
+	if not slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) or slot1:isEnd() then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 14-25, warpins: 2 ---
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 		return false
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
-	if slot0.contextData.BattleEndTimeStamp then
-		if slot0.contextData.BattleEndTimeStamp <= slot0.timeMgr:GetServerTime() then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+	--- END OF BLOCK #0 ---
 
-			return false
-		end
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 26-29, warpins: 2 ---
+	if not slot0.contextData.BattleEndTimeStamp or slot0.contextData.BattleEndTimeStamp <= slot0.timeMgr:GetServerTime() then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 38-49, warpins: 2 ---
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
+		return false
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 50-51, warpins: 2 ---
 	return true
+	--- END OF BLOCK #2 ---
+
+
+
 end
 
 function slot0.UpdateRankData(slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-6, warpins: 1 ---
 	slot0.viewComponent:UpdateRank(slot1)
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.getDockCallbackFuncs4ActicityFleet(slot0, slot1, slot2)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-28, warpins: 1 ---
 	slot3 = getProxy(BayProxy)
-	slot8 = getProxy(FleetProxy):getActivityFleets()[getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2).id][slot1]
+	slot8 = getProxy(FleetProxy).getActivityFleets(slot4)[getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2).id][slot1]
 
 	return function (slot0, slot1)
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-9, warpins: 1 ---
 		slot2, slot3 = Ship.ShipStateConflict("inActivity", slot0)
 
 		if slot2 == Ship.STATE_CHANGE_FAIL then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 10-15, warpins: 1 ---
 			return false, i18n(slot3)
-		elseif slot2 == Ship.STATE_CHANGE_CHECK then
-			return Ship.ChangeStateCheckBox(slot3, slot0, slot1)
-		end
+			--- END OF BLOCK #0 ---
 
-		if uv0 then
-			if uv0:isSameKind(slot0) then
-				return true
+
+
+		else
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 16-19, warpins: 1 ---
+			if slot2 == Ship.STATE_CHANGE_CHECK then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 20-25, warpins: 1 ---
+				return Ship.ChangeStateCheckBox(slot3, slot0, slot1)
+				--- END OF BLOCK #0 ---
+
+
+
 			end
+			--- END OF BLOCK #0 ---
+
+
+
 		end
 
-		for slot7, slot8 in ipairs(uv1.ships) do
-			if slot0:isSameKind(uv2:getShipById(slot8)) then
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 26-28, warpins: 3 ---
+		if slot0 and slot0:isSameKind(slot0) then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 36-37, warpins: 1 ---
+			return true
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 38-42, warpins: 3 ---
+		--- END OF BLOCK #2 ---
+
+		FLOW; TARGET BLOCK #3
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #3 43-59, warpins: 0 ---
+		for slot7, slot8 in ipairs(slot1.ships) do
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 43-52, warpins: 1 ---
+			if slot0:isSameKind(slot2:getShipById(slot8)) then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 53-57, warpins: 1 ---
 				return false, i18n("event_same_type_not_allowed")
+				--- END OF BLOCK #0 ---
+
+
+
 			end
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 58-59, warpins: 3 ---
+			--- END OF BLOCK #1 ---
+
+
+
 		end
 
+		--- END OF BLOCK #3 ---
+
+		FLOW; TARGET BLOCK #4
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #4 60-61, warpins: 1 ---
 		return true
+		--- END OF BLOCK #4 ---
+
+
+
 	end, function (slot0, slot1, slot2)
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-3, warpins: 1 ---
 		slot1()
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end, function (slot0)
-		if uv0 then
-			uv1:removeShip(uv0)
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-3, warpins: 1 ---
+		if slot0 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 4-8, warpins: 1 ---
+			slot1:removeShip(slot0)
+			--- END OF BLOCK #0 ---
+
+
+
 		end
 
-		if #slot0 > 0 then
-			slot1 = uv2
+		--- END OF BLOCK #0 ---
 
-			if not uv1:containShip(slot1:getShipById(slot0[1])) then
-				uv1:insertShip(slot1, nil, uv3)
-			elseif uv0 then
-				uv1:insertShip(uv0, nil, uv3)
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 9-12, warpins: 2 ---
+		if #slot0 > 0 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 13-24, warpins: 1 ---
+			if not slot1:containShip(slot2:getShipById(slot0[1])) then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 25-32, warpins: 1 ---
+				slot1:insertShip(slot1, nil, slot1)
+				--- END OF BLOCK #0 ---
+
+
+
+			else
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 33-35, warpins: 1 ---
+				if slot0 then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 36-42, warpins: 1 ---
+					slot1:insertShip(slot0, nil, slot1)
+					--- END OF BLOCK #0 ---
+
+
+
+				end
+				--- END OF BLOCK #0 ---
+
+
+
 			end
 
-			uv1:RemoveUnusedItems()
-			uv4:updateActivityFleet(uv5.id, uv6, uv1)
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 43-54, warpins: 3 ---
+			slot1:RemoveUnusedItems()
+			slot4:updateActivityFleet(slot5.id, slot6, slot1)
+			--- END OF BLOCK #1 ---
+
+
+
 		end
+
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 55-55, warpins: 2 ---
+		return
+		--- END OF BLOCK #2 ---
+
+
+
 	end
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 return slot0

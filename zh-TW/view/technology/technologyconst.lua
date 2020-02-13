@@ -12,16 +12,17 @@ slot0.FINISH_UP_TEC = "TechnologyConst:FINISH_UP_TEC"
 slot0.FINISH_TEC_SUCCESS = "TechnologyConst:FINISH_TEC_SUCCESS"
 slot0.MAX_LV = 120
 slot0.AtlasName = "ui/technologytreeui_atlas"
-slot1[1] = Nation.US
-slot1[2] = Nation.EN
-slot1[3] = Nation.JP
-slot1[4] = Nation.DE
-slot1[5] = Nation.CN
-slot1[6] = Nation.SN
-slot1[7] = Nation.FF
-slot1[8] = Nation.MNF
-slot1[9] = Nation.ITA
-slot0.NationOrder = {}
+slot0.NationOrder = {
+	Nation.US,
+	Nation.EN,
+	Nation.JP,
+	Nation.DE,
+	Nation.CN,
+	Nation.SN,
+	Nation.FF,
+	Nation.MNF,
+	Nation.ITA
+}
 slot0.NationResName = {
 	"nation_all_",
 	"nation_baiying_",
@@ -34,44 +35,53 @@ slot0.NationResName = {
 	"nation_weixi_",
 	"nation_sading_"
 }
-slot1[1] = AttributeType.Durability
-slot1[2] = AttributeType.Cannon
-slot1[3] = AttributeType.Torpedo
-slot1[4] = AttributeType.AntiAircraft
-slot1[5] = AttributeType.Air
-slot1[6] = AttributeType.Reload
-slot1[7] = AttributeType.Armor
-slot1[8] = AttributeType.Hit
-slot1[9] = AttributeType.Dodge
-slot1[10] = AttributeType.Speed
-slot1[11] = AttributeType.Luck
-slot1[12] = AttributeType.AntiSub
-slot0.TECH_NATION_ATTRS = {}
+slot0.TECH_NATION_ATTRS = {
+	AttributeType.Durability,
+	AttributeType.Cannon,
+	AttributeType.Torpedo,
+	AttributeType.AntiAircraft,
+	AttributeType.Air,
+	AttributeType.Reload,
+	AttributeType.Armor,
+	AttributeType.Hit,
+	AttributeType.Dodge,
+	AttributeType.Speed,
+	AttributeType.Luck,
+	AttributeType.AntiSub
+}
 
 function slot0.GetNationSpriteByIndex(slot0)
-	return GetSpriteFromAtlas(uv0.AtlasName, uv0.NationResName[slot0] .. "01", true), GetSpriteFromAtlas(uv0.AtlasName, uv0.NationResName[slot0] .. "02", true)
+	return GetSpriteFromAtlas(slot0.AtlasName, slot0.NationResName[slot0] .. "01", true), GetSpriteFromAtlas(slot0.AtlasName, slot0.NationResName[slot0] .. "02", true)
 end
 
-slot2[1] = ShipType.QuZhu
-slot1[1] = {}
-slot2[1] = ShipType.QingXun
-slot1[2] = {}
-slot2[1] = ShipType.ZhongXun
-slot2[2] = ShipType.ChaoXun
-slot1[3] = {}
-slot2[1] = ShipType.QingHang
-slot2[2] = ShipType.ZhengHang
-slot1[4] = {}
-slot2[1] = ShipType.ZhanXun
-slot2[2] = ShipType.ZhanLie
-slot1[5] = {}
-slot2[1] = ShipType.QianTing
-slot2[2] = ShipType.QianMu
-slot1[6] = {}
-slot2[1] = ShipType.WeiXiu
-slot2[2] = ShipType.ZhongPao
-slot1[7] = {}
-slot0.TypeOrder = {}
+slot0.TypeOrder = {
+	{
+		ShipType.QuZhu
+	},
+	{
+		ShipType.QingXun
+	},
+	{
+		ShipType.ZhongXun,
+		ShipType.ChaoXun
+	},
+	{
+		ShipType.QingHang,
+		ShipType.ZhengHang
+	},
+	{
+		ShipType.ZhanXun,
+		ShipType.ZhanLie
+	},
+	{
+		ShipType.QianTing,
+		ShipType.QianMu
+	},
+	{
+		ShipType.WeiXiu,
+		ShipType.ZhongPao
+	}
+}
 slot0.TypeResName = {
 	"type_qvzhu_",
 	"type_qingxun_",
@@ -84,7 +94,7 @@ slot0.TypeResName = {
 }
 
 function slot0.GetTypeSpriteByIndex(slot0)
-	return GetSpriteFromAtlas(uv0.AtlasName, uv0.TypeResName[slot0] .. "01", true), GetSpriteFromAtlas(uv0.AtlasName, uv0.TypeResName[slot0] .. "02", true)
+	return GetSpriteFromAtlas(slot0.AtlasName, slot0.TypeResName[slot0] .. "01", true), GetSpriteFromAtlas(slot0.AtlasName, slot0.TypeResName[slot0] .. "02", true)
 end
 
 function slot0.ClassToGroupIDList()
@@ -94,8 +104,9 @@ function slot0.ClassToGroupIDList()
 		if slot0[pg.fleet_tech_ship_template[slot5].class] then
 			table.insert(slot0[slot6], slot5)
 		else
-			slot7[1] = slot5
-			slot0[slot6] = {}
+			slot0[slot6] = {
+				slot5
+			}
 		end
 	end
 
@@ -112,7 +123,11 @@ function slot0.GetOrderClassList()
 	table.sort(slot0, function (slot0, slot1)
 		slot4 = nil
 
-		return pg.fleet_tech_ship_class[slot0].t_level == pg.fleet_tech_ship_class[slot1].t_level and slot3.t_level_1 < slot2.t_level_1 or slot3.t_level < slot2.t_level
+		if pg.fleet_tech_ship_class[slot0].t_level == pg.fleet_tech_ship_class[slot1].t_level then
+			slot4 = slot3.t_level_1 < slot2.t_level_1
+		else
+			return slot3.t_level < slot2.t_level
+		end
 	end)
 
 	return slot0

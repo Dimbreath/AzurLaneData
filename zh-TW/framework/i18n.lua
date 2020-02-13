@@ -1,15 +1,17 @@
 slot1 = require("Framework/lang/" .. "zh-cn")
 
 function l10n(slot0)
-	return uv0[slot0] or slot0
+	return slot0[slot0] or slot0
 end
 
 function i18n(slot0, ...)
 	if pg.gametip[slot0] then
-		slot4[MULTRES] = ...
+		slot2 = slot1.tip
 
-		for slot6, slot7 in ipairs({}) do
-			slot2 = string.gsub(slot1.tip, "$" .. slot6, slot7)
+		for slot6, slot7 in ipairs({
+			...
+		}) do
+			slot2 = string.gsub(slot2, "$" .. slot6, slot7)
 		end
 
 		return slot2
@@ -28,10 +30,12 @@ end
 
 function i18n2(slot0, ...)
 	if pg.gameset_language_client[slot0] then
-		slot4[MULTRES] = ...
+		slot2 = slot1.value
 
-		for slot6, slot7 in ipairs({}) do
-			slot2 = string.gsub(slot1.value, "$" .. slot6, slot7)
+		for slot6, slot7 in ipairs({
+			...
+		}) do
+			slot2 = string.gsub(slot2, "$" .. slot6, slot7)
 		end
 
 		return slot2
@@ -39,3 +43,5 @@ function i18n2(slot0, ...)
 		return slot0
 	end
 end
+
+return

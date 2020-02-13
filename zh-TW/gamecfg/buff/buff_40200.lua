@@ -1,14 +1,3 @@
-slot2.trigger = {
-	"onFlagShip"
-}
-slot2.arg_list = {
-	skill_id = 40200
-}
-slot1[1] = {
-	type = "BattleBuffCastSkill"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "与主力舰队交战时，旗舰受到伤害降低，依据战术属性",
@@ -19,5 +8,16 @@ return {
 	stack = 1,
 	color = "yellow",
 	icon = 40200,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onFlagShip"
+			},
+			arg_list = {
+				skill_id = 40200
+			}
+		}
+	}
 }

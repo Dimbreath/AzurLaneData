@@ -1,18 +1,3 @@
-slot2.target_choise = {
-	"TargetAllHelp",
-	"TargetNationality"
-}
-slot2.arg_list = {
-	buff_id = 40051,
-	nationality = 2
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillAddBuff"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "战术-炮击II",
@@ -21,5 +6,20 @@ return {
 	aniEffect = "",
 	desc = "战术-炮击II",
 	painting = 1,
-	id = 40050
+	id = 40050,
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = {
+				"TargetAllHelp",
+				"TargetNationality"
+			},
+			arg_list = {
+				buff_id = 40051,
+				nationality = 2
+			}
+		}
+	}
 }

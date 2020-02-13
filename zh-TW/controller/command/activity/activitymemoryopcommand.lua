@@ -1,12 +1,8 @@
-slot0 = class("ActivityMemoryOPCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
-	slot3 = slot2.id
+class("ActivityMemoryOPCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	slot3 = slot1:getBody().id
 	slot5 = getProxy(ActivityProxy)
-	slot6 = getProxy(ActivityProxy)
 
-	if not slot6:getActivityById(slot2.actId) or slot6:isEnd() then
+	if not getProxy(ActivityProxy):getActivityById(slot1.getBody().actId) or slot6:isEnd() then
 		return
 	end
 
@@ -18,21 +14,20 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	slot10.activity_id = slot4
-	slot10.arg1 = slot3
-
 	pg.ConnectionMgr.GetInstance():Send(11202, {
 		cmd = 2,
-		arg2 = 0
+		arg2 = 0,
+		activity_id = slot4,
+		arg1 = slot3
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
-			table.insert(uv0.data2_list, uv1)
-			uv2:updateActivity(uv0)
-			uv3:sendNotification(GAME.MEMORYBOOK_UNLOCK_DONE, uv1)
+			table.insert(slot0.data2_list, table.insert)
+			slot0.data2_list:updateActivity(slot0)
+			slot3:sendNotification(GAME.MEMORYBOOK_UNLOCK_DONE, slot3.sendNotification)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
 		end
 	end)
 end
 
-return slot0
+return class("ActivityMemoryOPCommand", pm.SimpleCommand)

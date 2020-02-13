@@ -36,3 +36,5 @@ end
 function OnPermissionReject(slot0)
 	pg.m02:sendNotification(PERMISSION_REJECT, slot0)
 end
+
+return

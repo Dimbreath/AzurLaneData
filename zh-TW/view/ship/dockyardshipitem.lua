@@ -22,44 +22,159 @@ slot1 = 0.8
 function slot2(slot0, slot1, slot2)
 	slot0.go = slot1
 	slot0.showTagNoBlock = slot2 or false
-	slot0.tr = slot1.transform
-	slot0.btn = GetOrAddComponent(slot1, "Button")
-	slot0.content = findTF(slot0.tr, "content").gameObject
+	slot3 = slot1.transform
+	slot0.tr = slot3
+	slot3 = GetOrAddComponent
+	slot4 = slot1
+	slot5 = "Button"
+	slot3 = slot3(slot4, slot5)
+	slot0.btn = slot3
+	slot3 = findTF
+	slot4 = slot0.tr
+	slot5 = "content"
+	slot3 = slot3(slot4, slot5)
+	slot3 = slot3.gameObject
+	slot0.content = slot3
+	slot3 = setActive
+	slot4 = findTF
+	slot5 = slot0.content
+	slot6 = "dockyard"
+	slot4 = slot4(slot5, slot6)
+	slot5 = true
 
-	setActive(findTF(slot0.content, "dockyard"), true)
-	setActive(findTF(slot0.content, "collection"), false)
+	slot3(slot4, slot5)
 
-	slot0.quit = findTF(slot0.tr, "quit_button").gameObject
-	slot0.detail = findTF(slot0.tr, "content/dockyard/detail").gameObject
-	slot0.detailLayoutTr = findTF(slot0.detail, "layout")
+	slot3 = setActive
+	slot4 = findTF
+	slot5 = slot0.content
+	slot6 = "collection"
+	slot4 = slot4(slot5, slot6)
+	slot5 = false
+
+	slot3(slot4, slot5)
+
+	slot3 = findTF
+	slot4 = slot0.tr
+	slot5 = "quit_button"
+	slot3 = slot3(slot4, slot5)
+	slot3 = slot3.gameObject
+	slot0.quit = slot3
+	slot3 = findTF
+	slot4 = slot0.tr
+	slot5 = "content/dockyard/detail"
+	slot3 = slot3(slot4, slot5)
+	slot3 = slot3.gameObject
+	slot0.detail = slot3
+	slot3 = findTF
+	slot4 = slot0.detail
+	slot5 = "layout"
+	slot3 = slot3(slot4, slot5)
+	slot0.detailLayoutTr = slot3
 	slot3 = slot0.quit
-	slot0.imageQuit = slot3.GetComponent(slot3, "Image")
-	slot3 = findTF(slot0.tr, "content/front/frame")
-	slot0.imageFrame = slot3.GetComponent(slot3, "Image")
-	slot0.nameTF = findTF(slot0.tr, "content/info/name_mask/name")
-	slot0.npc = findTF(slot0.tr, "content/dockyard/npc")
+	slot4 = slot3
+	slot3 = slot3.GetComponent
+	slot5 = "Image"
+	slot3 = slot3(slot4, slot5)
+	slot0.imageQuit = slot3
+	slot3 = findTF
+	slot4 = slot0.tr
+	slot5 = "content/front/frame"
+	slot3 = slot3(slot4, slot5)
+	slot4 = slot3
+	slot3 = slot3.GetComponent
+	slot5 = "Image"
+	slot3 = slot3(slot4, slot5)
+	slot0.imageFrame = slot3
+	slot3 = findTF
+	slot4 = slot0.tr
+	slot5 = "content/info/name_mask/name"
+	slot3 = slot3(slot4, slot5)
+	slot0.nameTF = slot3
+	slot3 = findTF
+	slot4 = slot0.tr
+	slot5 = "content/dockyard/npc"
+	slot3 = slot3(slot4, slot5)
+	slot0.npc = slot3
+	slot3 = setActive
+	slot4 = slot0.npc
+	slot5 = false
 
-	setActive(slot0.npc, false)
+	slot3(slot4, slot5)
 
-	slot0.lock = findTF(slot0.tr, "content/dockyard/container/lock")
-	slot0.maskStatusOb = findTF(slot0.tr, "content/front/status_mask")
-	slot3 = findTF(slot0.tr, "content/dockyard/status")
-	slot0.iconStatus = slot3.GetComponent(slot3, "Image")
-	slot3 = findTF(slot0.tr, "content/dockyard/status/Text")
-	slot0.iconStatusTxt = slot3.GetComponent(slot3, "Text")
-	slot0.selectedGo = findTF(slot0.tr, "content/front/selected").gameObject
-	slot0.energyTF = findTF(slot0.tr, "content/dockyard/container/energy")
-	slot0.proposeTF = findTF(slot0.tr, "content/dockyard/propose")
+	slot3 = findTF
+	slot4 = slot0.tr
+	slot5 = "content/dockyard/container/lock"
+	slot3 = slot3(slot4, slot5)
+	slot0.lock = slot3
+	slot3 = findTF
+	slot4 = slot0.tr
+	slot5 = "content/front/status_mask"
+	slot3 = slot3(slot4, slot5)
+	slot0.maskStatusOb = slot3
+	slot3 = findTF
+	slot4 = slot0.tr
+	slot5 = "content/dockyard/status"
+	slot3 = slot3(slot4, slot5)
+	slot4 = slot3
+	slot3 = slot3.GetComponent
+	slot5 = "Image"
+	slot3 = slot3(slot4, slot5)
+	slot0.iconStatus = slot3
+	slot3 = findTF
+	slot4 = slot0.tr
+	slot5 = "content/dockyard/status/Text"
+	slot3 = slot3(slot4, slot5)
+	slot4 = slot3
+	slot3 = slot3.GetComponent
+	slot5 = "Text"
+	slot3 = slot3(slot4, slot5)
+	slot0.iconStatusTxt = slot3
+	slot3 = findTF
+	slot4 = slot0.tr
+	slot5 = "content/front/selected"
+	slot3 = slot3(slot4, slot5)
+	slot3 = slot3.gameObject
+	slot0.selectedGo = slot3
+	slot3 = findTF
+	slot4 = slot0.tr
+	slot5 = "content/dockyard/container/energy"
+	slot3 = slot3(slot4, slot5)
+	slot0.energyTF = slot3
+	slot3 = findTF
+	slot4 = slot0.tr
+	slot5 = "content/dockyard/propose"
+	slot3 = slot3(slot4, slot5)
+	slot0.proposeTF = slot3
 	slot3 = slot0.selectedGo
+	slot4 = slot3
+	slot3 = slot3.SetActive
+	slot5 = false
 
-	slot3.SetActive(slot3, false)
+	slot3(slot4, slot5)
 
-	slot0.hpBar = findTF(slot0.tr, "content/dockyard/blood")
-	slot0.duang6tuzhi = findTF(slot0.tr, "content/duang_6_tuzhi")
-	slot0.expBuff = findTF(slot0.tr, "content/expbuff")
-	slot0.detailType = uv0.DetailType0
+	slot3 = findTF
+	slot4 = slot0.tr
+	slot5 = "content/dockyard/blood"
+	slot3 = slot3(slot4, slot5)
+	slot0.hpBar = slot3
+	slot3 = findTF
+	slot4 = slot0.tr
+	slot5 = "content/duang_6_tuzhi"
+	slot3 = slot3(slot4, slot5)
+	slot0.duang6tuzhi = slot3
+	slot3 = findTF
+	slot4 = slot0.tr
+	slot5 = "content/expbuff"
+	slot3 = slot3(slot4, slot5)
+	slot0.expBuff = slot3
+	slot3 = slot0
+	slot3 = slot3.DetailType0
+	slot0.detailType = slot3
+	slot3 = slot0.proposeTF
+	slot3 = slot3.childCount
+	slot4 = 0
 
-	if slot0.proposeTF.childCount > 0 then
+	if slot3 > slot4 then
 		slot3 = slot0.proposeTF
 		slot4 = slot3
 		slot3 = slot3.GetChild
@@ -115,7 +230,7 @@ function slot2(slot0, slot1)
 		slot4 = slot4.Action_float
 
 		function slot5(slot0)
-			slot1 = uv0
+			slot1 = slot0
 			slot1 = slot1.sg
 			slot2 = Color
 			slot2 = slot2.New
@@ -184,7 +299,7 @@ function slot2(slot0, slot1)
 			slot3 = slot0.selectedGo
 			slot3 = slot3.transform
 			slot4 = 0.5
-			slot5 = uv0
+			slot5 = slot0
 			slot2 = slot2(slot3, slot4, slot5)
 			slot3 = slot2
 			slot2 = slot2.setFrom
@@ -238,51 +353,24 @@ function slot2(slot0)
 
 		if slot4 then
 			slot5 = slot4.class == WorldMapShip
+
+			flushShipCard(slot0.tr, slot1, function (slot0, slot1)
+				if slot0.shipVO.configId == slot1 then
+					findTF(slot0.tr, "content/ship_icon"):GetComponent("Image").sprite = slot0
+				end
+			end)
+			setActive(slot0.npc, slot1:isActivityNpc())
+
+			slot7 = slot0.lock
 		end
-
-		slot6 = flushShipCard
-		slot7 = slot0.tr
-		slot8 = slot1
-
-		function slot9(slot0, slot1)
-			slot2 = uv0
-			slot2 = slot2.shipVO
-			slot2 = slot2.configId
-
-			if slot2 == slot1 then
-				slot2 = findTF
-				slot3 = uv0
-				slot3 = slot3.tr
-				slot4 = "content/ship_icon"
-				slot2 = slot2(slot3, slot4)
-				slot3 = slot2
-				slot2 = slot2.GetComponent
-				slot4 = "Image"
-				slot2 = slot2(slot3, slot4)
-				slot2.sprite = slot0
-			end
-		end
-
-		slot6(slot7, slot8, slot9)
-
-		slot7 = slot1
-		slot6 = slot1.isActivityNpc
-		slot6 = slot6(slot7)
-		slot7 = setActive
-		slot8 = slot0.npc
-		slot9 = slot6
-
-		slot7(slot8, slot9)
-
-		slot7 = slot0.lock
 
 		if slot7 then
-			slot7 = slot0.lock.gameObject
-
-			slot7.SetActive(slot7, slot1.GetLockState(slot1) == Ship.LOCK_STATE_LOCK)
+			slot0.lock.gameObject:SetActive(slot1:GetLockState() == Ship.LOCK_STATE_LOCK)
 		end
 
-		if slot1.energy <= Ship.ENERGY_MID then
+		slot7 = slot1.energy <= Ship.ENERGY_MID
+
+		if slot7 then
 			slot8 = GetSpriteFromAtlas
 			slot9 = "energy"
 			slot11 = slot1
@@ -304,11 +392,12 @@ function slot2(slot0)
 		end
 
 		setActive(slot0.energyTF, slot7)
-		setText(slot0.nameTF, shortenString(slot1.getName(slot1), 7))
+		setText(slot0.nameTF, shortenString(slot1:getName(), 7))
 
-		slot8 = slot1.getFleetId(slot1) == FleetProxy.PVP_FLEET_ID
+		slot8 = slot1:getFleetId() == FleetProxy.PVP_FLEET_ID
+		slot9 = ShipStatus.ShipStatu2Bg(slot1)
 
-		if ShipStatus.ShipStatu2Bg(slot1) then
+		if slot9 then
 			slot10 = slot0.iconStatus
 			slot11 = GetSpriteFromAtlas
 			slot12 = "shipstatus"
@@ -418,21 +507,21 @@ function slot2(slot0)
 													slot13 = slot13 .. slot14
 
 													function slot14(slot0)
-														slot1 = uv0
+														slot1 = slot0
 														slot1 = slot1.iconStatus
 
 														if slot1 then
-															slot1 = uv0
+															slot1 = slot0
 															slot1 = slot1.iconStatus
 															slot1.sprite = slot0
-															slot1 = uv0
+															slot1 = slot0
 															slot1 = slot1.iconStatus
 															slot2 = slot1
 															slot1 = slot1.SetNativeSize
 
 															slot1(slot2)
 
-															slot1 = uv0
+															slot1 = slot0
 															slot1 = slot1.iconStatusTxt
 															slot2 = ""
 															slot1.text = slot2
@@ -588,21 +677,16 @@ function slot2(slot0)
 
 		if slot5 then
 			setActive(slot0.hpBar, true)
+			setActive(slot13, slot4:IsHpSafe())
+			setActive(slot14, not slot4:IsHpSafe())
 
-			slot13 = slot0.hpBar
-			slot13 = slot13.Find(slot13, "fillarea/green")
-			slot14 = slot0.hpBar
-			slot14 = slot14.Find(slot14, "fillarea/red")
-
-			setActive(slot13, slot4.IsHpSafe(slot4))
-			setActive(slot14, not slot4.IsHpSafe(slot4))
-
-			slot15 = slot0.hpBar
-			slot15.GetComponent(slot15, typeof(Slider)).fillRect = slot4.IsHpSafe(slot4) and slot13 or slot14
+			slot0.hpBar:GetComponent(typeof(Slider)).fillRect = (slot4:IsHpSafe() and slot0.hpBar:Find("fillarea/green")) or slot0.hpBar:Find("fillarea/red")
 
 			setSlider(slot0.hpBar, 0, 10000, slot4.hpRant)
 
-			if slot0.maskStatusOb then
+			slot15 = slot0.maskStatusOb
+
+			if slot15 then
 				slot15 = setActive
 				slot16 = slot0.maskStatusOb
 				slot18 = slot4
@@ -663,7 +747,7 @@ function slot2(slot0)
 
 	if slot2 then
 		slot3 = slot0.detailType
-		slot4 = uv0
+		slot4 = slot0
 		slot4 = slot4.DetailType0
 
 		if slot4 < slot3 then
@@ -715,7 +799,7 @@ function slot2(slot0)
 			slot5 = slot5(slot6)
 			slot6, slot7 = nil
 			slot8 = slot0.detailType
-			slot9 = uv0
+			slot9 = slot0
 			slot9 = slot9.DetailType3
 
 			if slot8 == slot9 then
@@ -764,7 +848,7 @@ function slot2(slot0)
 				slot16 = slot4[slot16]
 				slot16 = slot16[slot11]
 				slot17 = slot0.detailType
-				slot18 = uv0
+				slot18 = slot0
 				slot18 = slot18.DetailType1
 
 				if slot17 == slot18 then
@@ -810,7 +894,7 @@ function slot2(slot0)
 					end
 				else
 					slot17 = slot0.detailType
-					slot18 = uv0
+					slot18 = slot0
 					slot18 = slot18.DetailType2
 
 					if slot17 == slot18 then
@@ -869,7 +953,7 @@ function slot2(slot0)
 						end
 					else
 						slot17 = slot0.detailType
-						slot18 = uv0
+						slot18 = slot0
 						slot18 = slot18.DetailType3
 
 						if slot17 == slot18 then
@@ -884,11 +968,12 @@ function slot2(slot0)
 									slot18 = slot18.max_level
 
 									if slot18 ~= 1 then
-										slot18 = slot1.skills[slot17]
 										slot14.alignment = TextAnchor.MiddleLeft
-										slot14.text = setColorStr(i18n("skill") .. slot11, uv0.SKILL_COLOR[pg.skill_data_template[slot18.id].type] or COLOR_WHITE)
+										slot14.text = setColorStr(i18n("skill") .. slot11, slot0.SKILL_COLOR[pg.skill_data_template[slot1.skills[slot17].id].type] or COLOR_WHITE)
+										slot20 = slot1.skills[slot17].level
+										slot21 = slot7[slot17].max_level
 
-										if slot18.level == slot7[slot17].max_level then
+										if slot20 == slot21 then
 											slot20 = "Lv.Max"
 										else
 											slot20 = "Lv."
@@ -924,10 +1009,10 @@ function slot2(slot0)
 	slot3 = slot3.SetActive
 
 	if slot2 then
-		slot5 = uv0.DetailType0 < slot0.detailType
-	end
+		slot3(slot4, slot0.DetailType0 < slot0.detailType)
 
-	slot3(slot4, slot5)
+		return
+	end
 end
 
 slot0.flushDetail = slot2
@@ -969,13 +1054,11 @@ function slot2(slot0, slot1, slot2, slot3)
 				slot5 = 100
 
 				if slot4 < slot5 then
-					slot5 = slot1.getModAttrBaseMax(slot1, slot2)
+					slot5 = slot1:getModAttrBaseMax(slot2)
 
-					if slot1.level == slot1.getMaxLevel(slot1) then
-						slot6 = slot5 <= slot3[slot2]
+					if slot1.level == slot1:getMaxLevel() then
+						return slot5 <= slot3[slot2]
 					end
-
-					return slot6
 				end
 			end
 		end
@@ -1001,11 +1084,7 @@ end
 slot0.updateBlackBlock = slot2
 
 function slot2(slot0)
-	slot1 = slot0.shipVO
-	slot2 = slot0.activityProxy
-	slot3 = slot2.getBuffShipList(slot2)[slot1.getGroupId(slot1)]
-
-	setActive(slot0.expBuff, slot3 ~= nil)
+	setActive(slot0.expBuff, slot0.activityProxy:getBuffShipList()[slot0.shipVO.getGroupId(slot1)] ~= nil)
 
 	if slot3 then
 		slot4 = slot3 / 100

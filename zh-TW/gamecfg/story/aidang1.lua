@@ -1,254 +1,257 @@
-slot3[1] = {
-	"和姐姐的一日约会\n\n<size=45>一 约会的邀请</size>",
-	1
-}
-slot2.sequence = {}
-slot1[1] = {
-	mode = 1,
-	stopbgm = true
-}
-slot3.alpha = {
-	0,
-	1
-}
-slot2.flashout = {
-	dur = 1,
-	black = true
-}
-slot3.alpha = {
-	1,
-	0
-}
-slot2.flashin = {
-	delay = 1,
-	dur = 1,
-	black = true
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot1[2] = {
-	bgName = "bg_story_task",
-	side = 2,
-	dir = 1,
-	bgmDelay = 2,
-	bgm = "story-1",
-	say = "港区·指挥室"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot1[3] = {
-	side = 2,
-	bgName = "bg_story_task",
-	dir = 1,
-	say = "值班——也是指挥官和秘书舰的工作之一。"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot1[4] = {
-	side = 2,
-	bgName = "bg_story_task",
-	dir = 1,
-	say = "这是为了让平时住在基地之外的将官们能在紧急时刻及时应对，而让他们留在基地过夜的一种制度，但是……"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot1[5] = {
-	side = 2,
-	bgName = "bg_story_task",
-	dir = 1,
-	say = "如果隔天是休息日，只要遵守了“指挥官和秘书舰两天内保持共同行动”这一条，不管是出门还是休息，据说都没问题。"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot1[6] = {
-	actor = 303120,
-	nameColor = "#a9f548",
-	bgName = "bg_story_task",
-	side = 2,
-	dir = 1,
-	actorName = "{namecode:67}",
-	say = "指挥官？都0点了，你是不是该睡了？"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot3[1] = {
-	content = "向{namecode:67}提出明天的邀约。",
-	flag = 1
-}
-slot2.options = {}
-slot1[7] = {
-	nameColor = "#a9f548",
-	side = 2,
-	bgName = "bg_story_task",
-	dir = 1,
-	actor = 303120,
-	actorName = "{namecode:67}",
-	say = "明天不用值班，你只管休息，夜班就交给姐姐我吧。"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[8] = {
-	nameColor = "#a9f548",
-	side = 2,
-	bgName = "bg_story_task",
-	dir = 1,
-	actor = 303120,
-	actorName = "{namecode:67}",
-	say = "啊啦，约会？……开玩笑的。"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[9] = {
-	nameColor = "#a9f548",
-	side = 2,
-	bgName = "bg_story_task",
-	dir = 1,
-	actor = 303120,
-	actorName = "{namecode:67}",
-	say = "不过“明天陪我去买东西吧”这种话，未免太无趣了吧？姐姐想听的是别的话呢。"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[10] = {
-	nameColor = "#a9f548",
-	side = 2,
-	bgName = "bg_story_task",
-	dir = 1,
-	actor = 303120,
-	actorName = "{namecode:67}",
-	say = "反正明天看来也没什么事，什么时候回去都没关系，陪陪你也行啊。"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot3[1] = {
-	content = "把事先准备好的购物清单拿给{namecode:67}看。",
-	flag = 1
-}
-slot2.options = {}
-slot1[11] = {
-	nameColor = "#a9f548",
-	side = 2,
-	bgName = "bg_story_task",
-	dir = 1,
-	actor = 303120,
-	actorName = "{namecode:67}",
-	say = "然后呢，你想买什么？"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[12] = {
-	nameColor = "#a9f548",
-	side = 2,
-	bgName = "bg_story_task",
-	dir = 1,
-	actor = 303120,
-	actorName = "{namecode:67}",
-	say = "唔，还真是“港区买不到但也不至于出远门网购又太麻烦的”东西大集合啊……"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[13] = {
-	nameColor = "#a9f548",
-	side = 2,
-	bgName = "bg_story_task",
-	dir = 1,
-	actor = 303120,
-	actorName = "{namecode:67}",
-	say = "你还真是准备充分呢，这样一来姐姐也可以放心让你带路啦。"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[14] = {
-	nameColor = "#a9f548",
-	side = 2,
-	bgName = "bg_story_task",
-	dir = 1,
-	actor = 303120,
-	actorName = "{namecode:67}",
-	say = "好了，明天还要早起，今天你就早点睡吧。"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[15] = {
-	nameColor = "#a9f548",
-	side = 2,
-	bgName = "bg_story_task",
-	dir = 1,
-	actor = 303120,
-	actorName = "{namecode:67}",
-	say = "我很期待和指挥官逛街哦♪"
-}
-slot0.scripts = {}
-
 return {
 	fadeOut = 1.5,
 	mode = 2,
 	fadeType = 1,
 	once = true,
 	id = "AIDANG1",
-	fadein = 1.5
+	fadein = 1.5,
+	scripts = {
+		{
+			mode = 1,
+			stopbgm = true,
+			sequence = {
+				{
+					"和姐姐的一日約會\n\n<size=45>一 約會的邀請</size>",
+					1
+				}
+			}
+		},
+		{
+			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
+			bgmDelay = 2,
+			bgm = "story-1",
+			say = "港區·指揮室",
+			flashout = {
+				dur = 1,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				delay = 1,
+				dur = 1,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "值班——也是指揮官和秘書艦的工作之一。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "這是為了讓平時住在基地之外的將官們能在緊急時刻及時應對，而讓他們留在基地過夜的一種制度，但是……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "如果隔天是休息日，只要遵守了“指揮官和秘書艦兩天內保持共同行動”這一條，不管是出門還是休息，據說都沒問題。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 303120,
+			nameColor = "#a9f548",
+			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
+			actorName = "{namecode:67}",
+			say = "指揮官？都0點了，你是不是該睡了？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 303120,
+			actorName = "{namecode:67}",
+			say = "明天不用值班，你只管休息，夜班就交給姐姐我吧。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			options = {
+				{
+					content = "向{namecode:67}提出明天的邀約。",
+					flag = 1
+				}
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 303120,
+			actorName = "{namecode:67}",
+			say = "啊啦，約會？……開玩笑的。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 303120,
+			actorName = "{namecode:67}",
+			say = "不過“明天陪我去買東西吧”這種話，未免太無趣了吧？姐姐想聽的是別的話呢。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 303120,
+			actorName = "{namecode:67}",
+			say = "反正明天看來也沒什麼事，什麼時候回去都沒關係，陪陪你也行啊。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 303120,
+			actorName = "{namecode:67}",
+			say = "然後呢，你想買什麼？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			options = {
+				{
+					content = "把事先準備好的購物清單拿給{namecode:67}看。",
+					flag = 1
+				}
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 303120,
+			actorName = "{namecode:67}",
+			say = "唔，還真是“港區買不到但也不至於出遠門網購又太麻煩的”東西大集合啊……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 303120,
+			actorName = "{namecode:67}",
+			say = "你還真是準備充分呢，這樣一來姐姐也可以放心讓你帶路啦。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 303120,
+			actorName = "{namecode:67}",
+			say = "好了，明天還要早起，今天你就早點睡吧。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 303120,
+			actorName = "{namecode:67}",
+			say = "我很期待和指揮官逛街哦♪",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		}
+	}
 }

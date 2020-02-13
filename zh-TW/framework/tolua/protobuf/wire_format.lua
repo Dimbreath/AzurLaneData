@@ -35,9 +35,7 @@ function PackTag(slot0, slot1)
 end
 
 function UnpackTag(slot0)
-	slot1 = slot0 % 8
-
-	return (slot0 - slot1) / 8, slot1
+	return (slot0 - slot0 % 8) / 8, slot0 % 8
 end
 
 ZigZagEncode32 = slot0.zig_zag_encode32
@@ -50,7 +48,7 @@ function Int32ByteSize(slot0, slot1)
 end
 
 function Int32ByteSizeNoTag(slot0)
-	return uv0(slot0)
+	return slot0(slot0)
 end
 
 function Int64ByteSize(slot0, slot1)
@@ -62,7 +60,7 @@ function UInt32ByteSize(slot0, slot1)
 end
 
 function UInt64ByteSize(slot0, slot1)
-	return TagByteSize(slot0) + uv0(slot1)
+	return TagByteSize(slot0) + slot0(slot1)
 end
 
 function SInt32ByteSize(slot0, slot1)
@@ -110,19 +108,19 @@ function StringByteSize(slot0, slot1)
 end
 
 function BytesByteSize(slot0, slot1)
-	return TagByteSize(slot0) + uv0(#slot1) + #slot1
+	return TagByteSize(slot0) + slot0(#slot1) + #slot1
 end
 
 function MessageByteSize(slot0, slot1)
-	return TagByteSize(slot0) + uv0(slot1.ByteSize()) + slot1.ByteSize()
+	return TagByteSize(slot0) + slot0(slot1.ByteSize()) + slot1.ByteSize()
 end
 
 function MessageSetItemByteSize(slot0, slot1)
-	slot3 = slot1.ByteSize()
-
-	return 2 * TagByteSize(1) + TagByteSize(2) + TagByteSize(3) + uv0(slot0) + uv0(slot3) + slot3
+	return 2 * TagByteSize(1) + TagByteSize(2) + TagByteSize(3) + slot0(slot0) + slot0(slot1.ByteSize()) + slot1.ByteSize()
 end
 
 function TagByteSize(slot0)
-	return uv0(PackTag(slot0, 0))
+	return slot0(PackTag(slot0, 0))
 end
+
+return

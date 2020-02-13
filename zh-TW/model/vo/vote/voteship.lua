@@ -14,9 +14,10 @@ function slot0.Ctor(slot0, slot1)
 		end
 	end
 
-	slot3.id = slot0.configId
-	slot3.configId = slot0.configId
-	slot0.shipVO = Ship.New({})
+	slot0.shipVO = Ship.New({
+		id = slot0.configId,
+		configId = slot0.configId
+	})
 end
 
 function slot0.bindConfigTable(slot0)
@@ -55,7 +56,7 @@ function slot0.getPainting(slot0)
 end
 
 function slot0.GetDesc(slot0)
-	return ShipWordHelper.RawGetWord(slot0.shipVO:getConfig("skin_id"), ShipWordHelper.WORD_TYPE_PROFILE)
+	return HXSet.hxLan(ShipWordHelper.RawGetWord(slot0.shipVO:getConfig("skin_id"), ShipWordHelper.WORD_TYPE_PROFILE))
 end
 
 function slot0.getScore(slot0)

@@ -1,10 +1,7 @@
-slot0 = class("ChargeFailedCommand", pm.SimpleCommand)
+class("ChargeFailedCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	slot4 = slot1:getBody().code
 
-function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
-	slot4 = slot2.code
-
-	if not slot2.payId then
+	if not slot1.getBody().payId then
 		return
 	end
 
@@ -12,10 +9,10 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	slot8.pay_id = tostring(slot3)
-	slot8.code = math.abs(slot4)
-
-	pg.ConnectionMgr.GetInstance():Send(11510, {})
+	pg.ConnectionMgr.GetInstance():Send(11510, {
+		pay_id = tostring(slot3),
+		code = math.abs(slot4)
+	})
 end
 
-return slot0
+return class("ChargeFailedCommand", pm.SimpleCommand)

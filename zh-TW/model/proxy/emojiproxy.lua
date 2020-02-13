@@ -28,17 +28,19 @@ function slot0.addToEmojiIDLIst(slot0, slot1)
 end
 
 function slot0.saveNewEmojiIDList(slot0)
+	slot1 = {}
+
 	for slot5, slot6 in pairs(slot0._newIDList) do
-		table.insert({}, slot6)
+		table.insert(slot1, slot6)
 	end
 
-	PlayerPrefs.SetString(uv0.NEW_EMOJI_SAVE_TAG .. getProxy(PlayerProxy):getRawData().id, table.concat(slot1, ":"))
+	PlayerPrefs.SetString(slot0.NEW_EMOJI_SAVE_TAG .. slot2, table.concat(slot1, ":"))
 end
 
 function slot0.loadNewEmojiIDList(slot0)
 	slot0._newIDList = {}
 
-	if #string.split(PlayerPrefs.GetString(uv0.NEW_EMOJI_SAVE_TAG .. getProxy(PlayerProxy):getRawData().id) or "", ":") > 0 then
+	if #string.split(PlayerPrefs.GetString(slot0.NEW_EMOJI_SAVE_TAG .. getProxy(PlayerProxy):getRawData().id) or "", ":") > 0 then
 		for slot6, slot7 in pairs(slot2) do
 			table.insert(slot0._newIDList, tonumber(slot7))
 		end
@@ -57,7 +59,6 @@ end
 
 function slot0.removeNewEmojiID(slot0, slot1)
 	if not table.indexof(slot0._newIDList, slot1, 1) then
-		-- Nothing
 	else
 		table.remove(slot0._newIDList, slot2)
 	end
@@ -70,8 +71,9 @@ function slot0.fliteNewEmojiDataByType(slot0)
 
 	for slot5, slot6 in pairs(slot0._newIDList) do
 		if not slot1[pg.emoji_template[slot6].type[1]] then
-			slot9[1] = slot7
-			slot1[slot8] = {}
+			slot1[slot8] = {
+				slot7
+			}
 		else
 			table.insert(slot1[slot8], slot7)
 		end
@@ -81,9 +83,11 @@ function slot0.fliteNewEmojiDataByType(slot0)
 end
 
 function slot0.getEmojiDataByType(slot0, slot1)
+	slot2 = {}
+
 	for slot6, slot7 in pairs(slot0._emojiIDList) do
 		if table.contains(pg.emoji_template[slot7].type, slot1) then
-			table.insert({}, slot8)
+			table.insert(slot2, slot8)
 		end
 	end
 
@@ -91,9 +95,11 @@ function slot0.getEmojiDataByType(slot0, slot1)
 end
 
 function slot0.getExEmojiDataByType(slot0, slot1)
+	slot2 = {}
+
 	for slot6, slot7 in pairs(slot0._emojiIDList) do
 		if not table.contains(slot0._newIDList, slot7) and table.contains(pg.emoji_template[slot7].type, slot1) then
-			table.insert({}, slot8)
+			table.insert(slot2, slot8)
 		end
 	end
 

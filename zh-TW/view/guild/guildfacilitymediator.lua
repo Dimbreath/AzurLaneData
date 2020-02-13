@@ -3,30 +3,32 @@ slot0.ON_UPGRADE = "GuildFacilityMediator:ON_UPGRADE"
 slot0.ON_CONTRIBUTE = "GuildFacilityMediator:ON_CONTRIBUTE"
 
 function slot0.register(slot0)
-	slot0:bind(uv0.ON_UPGRADE, function (slot0, slot1)
-		uv0:sendNotification(GAME.GUILD_FACILITY_UPGRADE, slot1)
+	slot0:bind(slot0.ON_UPGRADE, function (slot0, slot1)
+		slot0:sendNotification(GAME.GUILD_FACILITY_UPGRADE, slot1)
 	end)
-	slot0:bind(uv0.ON_CONTRIBUTE, function (slot0, slot1)
-		slot5.id = slot1
-
-		uv0:sendNotification(GAME.GUILD_CONTRIBUTE_RES, {})
+	slot0:bind(slot0.ON_CONTRIBUTE, function (slot0, slot1)
+		slot0:sendNotification(GAME.GUILD_CONTRIBUTE_RES, {
+			id = slot1
+		})
 	end)
-	slot0.viewComponent:setPlayerVO(getProxy(PlayerProxy):getData())
+	slot0.viewComponent:setPlayerVO(slot1)
 	slot0.viewComponent:setGuildVO(getProxy(GuildProxy):getData())
 end
 
 function slot0.listNotificationInterests(slot0)
-	slot1[1] = GuildProxy.GUILD_UPDATED
-	slot1[2] = PlayerProxy.UPDATED
-	slot1[3] = GuildProxy.UPDATE_FACILITYLOG
-	slot1[4] = GAME.GUILD_CONTRIBUTE_RES_DONE
-
-	return {}
+	return {
+		GuildProxy.GUILD_UPDATED,
+		PlayerProxy.UPDATED,
+		GuildProxy.UPDATE_FACILITYLOG,
+		GAME.GUILD_CONTRIBUTE_RES_DONE
+	}
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if GuildProxy.GUILD_UPDATED == slot1:getName() then
-		slot0.viewComponent:setGuildVO(slot1:getBody())
+		slot0.viewComponent:setGuildVO(slot3)
 		slot0.viewComponent:updateFacilitys()
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:setPlayerVO(slot3)

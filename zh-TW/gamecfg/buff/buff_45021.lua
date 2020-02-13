@@ -1,16 +1,3 @@
-slot2.trigger = {
-	"onAttach",
-	"onStack"
-}
-slot2.arg_list = {
-	number = 0.03,
-	attr = "damageRatioBullet"
-}
-slot1[1] = {
-	type = "BattleBuffAddAttr"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "指挥喵天赋-侵略如火",
@@ -20,5 +7,18 @@ return {
 	stack = 2,
 	id = 45021,
 	icon = 45020,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach",
+				"onStack"
+			},
+			arg_list = {
+				number = 0.03,
+				attr = "damageRatioBullet"
+			}
+		}
+	}
 }

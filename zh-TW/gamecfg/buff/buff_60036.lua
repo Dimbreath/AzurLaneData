@@ -1,15 +1,3 @@
-slot2.trigger = {
-	"onUpdate"
-}
-slot2.arg_list = {
-	buff_id = 60037,
-	time = 10
-}
-slot1[1] = {
-	type = "BattleBuffAddBuff"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "测试-运输船-AI切换",
@@ -19,5 +7,17 @@ return {
 	stack = 1,
 	id = 60036,
 	icon = 60036,
-	last_effect = "lingxing"
+	last_effect = "lingxing",
+	effect_list = {
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onUpdate"
+			},
+			arg_list = {
+				buff_id = 60037,
+				time = 10
+			}
+		}
+	}
 }

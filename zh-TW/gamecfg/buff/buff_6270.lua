@@ -1,16 +1,3 @@
-slot2.trigger = {
-	"onUpdate"
-}
-slot2.arg_list = {
-	buff_id = 6271,
-	target = "TargetSelf",
-	time = 20
-}
-slot1[1] = {
-	type = "BattleBuffAddBuff"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "机动回避",
@@ -21,5 +8,18 @@ return {
 	stack = 1,
 	color = "yellow",
 	icon = 6270,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onUpdate"
+			},
+			arg_list = {
+				buff_id = 6271,
+				target = "TargetSelf",
+				time = 20
+			}
+		}
+	}
 }

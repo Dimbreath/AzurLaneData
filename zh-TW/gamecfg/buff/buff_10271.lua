@@ -1,176 +1,174 @@
-slot0.blink = {
-	1,
-	0,
-	0,
-	0.3,
-	0.3
-}
-slot2.trigger = {
-	"onBulletCreate"
-}
-slot3.index = {
-	1
-}
-slot2.arg_list = {
-	number = 0.1,
-	attr = "damageRatioBullet"
-}
-slot1[1] = {
-	type = "BattleBuffAddBulletAttr"
-}
-slot0.effect_list = {}
-slot3.trigger = {
-	"onBulletCreate"
-}
-slot4.index = {
-	1
-}
-slot3.arg_list = {
-	number = 0.1,
-	attr = "damageRatioBullet"
-}
-slot2[1] = {
-	type = "BattleBuffAddBulletAttr"
-}
-slot1.effect_list = {}
-slot0[1] = {}
-slot3.trigger = {
-	"onBulletCreate"
-}
-slot4.index = {
-	1
-}
-slot3.arg_list = {
-	number = 0.105,
-	attr = "damageRatioBullet"
-}
-slot2[1] = {
-	type = "BattleBuffAddBulletAttr"
-}
-slot1.effect_list = {}
-slot0[2] = {}
-slot3.trigger = {
-	"onBulletCreate"
-}
-slot4.index = {
-	1
-}
-slot3.arg_list = {
-	number = 0.11,
-	attr = "damageRatioBullet"
-}
-slot2[1] = {
-	type = "BattleBuffAddBulletAttr"
-}
-slot1.effect_list = {}
-slot0[3] = {}
-slot3.trigger = {
-	"onBulletCreate"
-}
-slot4.index = {
-	1
-}
-slot3.arg_list = {
-	number = 0.115,
-	attr = "damageRatioBullet"
-}
-slot2[1] = {
-	type = "BattleBuffAddBulletAttr"
-}
-slot1.effect_list = {}
-slot0[4] = {}
-slot3.trigger = {
-	"onBulletCreate"
-}
-slot4.index = {
-	1
-}
-slot3.arg_list = {
-	number = 0.12,
-	attr = "damageRatioBullet"
-}
-slot2[1] = {
-	type = "BattleBuffAddBulletAttr"
-}
-slot1.effect_list = {}
-slot0[5] = {}
-slot3.trigger = {
-	"onBulletCreate"
-}
-slot4.index = {
-	1
-}
-slot3.arg_list = {
-	number = 0.125,
-	attr = "damageRatioBullet"
-}
-slot2[1] = {
-	type = "BattleBuffAddBulletAttr"
-}
-slot1.effect_list = {}
-slot0[6] = {}
-slot3.trigger = {
-	"onBulletCreate"
-}
-slot4.index = {
-	1
-}
-slot3.arg_list = {
-	number = 0.13,
-	attr = "damageRatioBullet"
-}
-slot2[1] = {
-	type = "BattleBuffAddBulletAttr"
-}
-slot1.effect_list = {}
-slot0[7] = {}
-slot3.trigger = {
-	"onBulletCreate"
-}
-slot4.index = {
-	1
-}
-slot3.arg_list = {
-	number = 0.135,
-	attr = "damageRatioBullet"
-}
-slot2[1] = {
-	type = "BattleBuffAddBulletAttr"
-}
-slot1.effect_list = {}
-slot0[8] = {}
-slot3.trigger = {
-	"onBulletCreate"
-}
-slot4.index = {
-	1
-}
-slot3.arg_list = {
-	number = 0.14,
-	attr = "damageRatioBullet"
-}
-slot2[1] = {
-	type = "BattleBuffAddBulletAttr"
-}
-slot1.effect_list = {}
-slot0[9] = {}
-slot3.trigger = {
-	"onBulletCreate"
-}
-slot4.index = {
-	1
-}
-slot3.arg_list = {
-	number = 0.15,
-	attr = "damageRatioBullet"
-}
-slot2[1] = {
-	type = "BattleBuffAddBulletAttr"
-}
-slot1.effect_list = {}
-slot0[10] = {}
-
 return {
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.1,
+					attr = "damageRatioBullet",
+					index = {
+						1
+					}
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.105,
+					attr = "damageRatioBullet",
+					index = {
+						1
+					}
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.11,
+					attr = "damageRatioBullet",
+					index = {
+						1
+					}
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.115,
+					attr = "damageRatioBullet",
+					index = {
+						1
+					}
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.12,
+					attr = "damageRatioBullet",
+					index = {
+						1
+					}
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.125,
+					attr = "damageRatioBullet",
+					index = {
+						1
+					}
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.13,
+					attr = "damageRatioBullet",
+					index = {
+						1
+					}
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.135,
+					attr = "damageRatioBullet",
+					index = {
+						1
+					}
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.14,
+					attr = "damageRatioBullet",
+					index = {
+						1
+					}
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddBulletAttr",
+				trigger = {
+					"onBulletCreate"
+				},
+				arg_list = {
+					number = 0.15,
+					attr = "damageRatioBullet",
+					index = {
+						1
+					}
+				}
+			}
+		}
+	},
 	name = "最后的荣耀",
 	init_effect = "jinengchufared",
 	time = 8,
@@ -179,5 +177,27 @@ return {
 	stack = 1,
 	id = 10271,
 	icon = 10271,
-	last_effect = ""
+	last_effect = "",
+	blink = {
+		1,
+		0,
+		0,
+		0.3,
+		0.3
+	},
+	effect_list = {
+		{
+			type = "BattleBuffAddBulletAttr",
+			trigger = {
+				"onBulletCreate"
+			},
+			arg_list = {
+				number = 0.1,
+				attr = "damageRatioBullet",
+				index = {
+					1
+				}
+			}
+		}
+	}
 }

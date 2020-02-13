@@ -1,15 +1,3 @@
-slot2.trigger = {
-	"onAttach",
-	"onRemove"
-}
-slot2.arg_list = {
-	tag = "wushuang"
-}
-slot1[1] = {
-	type = "BattleBuffAddTag"
-}
-slot0.effect_list = {}
-
 return {
 	time = 15,
 	name = "双影无双",
@@ -19,5 +7,17 @@ return {
 	stack = 1,
 	id = 103081,
 	icon = 103080,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "wushuang"
+			}
+		}
+	}
 }
