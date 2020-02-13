@@ -47,11 +47,12 @@ function slot0.HandleBulletHit(slot0, slot1, slot2)
 
 	slot1:Hit(slot2:GetUniqueID(), slot2:GetUnitType())
 
-	slot5._bullet = slot1
 	slot6 = slot1:GetWeapon()
-	slot5.equipIndex = slot6:GetEquipmentIndex()
 
-	slot1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_COLLIDE, {})
+	slot1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_COLLIDE, {
+		_bullet = slot1,
+		equipIndex = slot6:GetEquipmentIndex()
+	})
 
 	if slot2:GetUnitType() == uv1.UnitType.PLAYER_UNIT and slot2:GetIFF() == uv2.FRIENDLY_CODE then
 		slot6 = ys.Battle.BattleCameraUtil.GetInstance()
@@ -68,10 +69,11 @@ function slot0.HandleDamage(slot0, slot1, slot2, slot3)
 	end
 
 	slot5 = slot1:GetWeapon()
-	slot7.weaponType = slot5:GetTemplateData().attack_attribute
-	slot7.bulletType = slot1:GetType()
 
-	slot2:TriggerBuff(uv2.BuffEffectType.ON_BULLET_HIT_BEFORE, {})
+	slot2:TriggerBuff(uv2.BuffEffectType.ON_BULLET_HIT_BEFORE, {
+		weaponType = slot5:GetTemplateData().attack_attribute,
+		bulletType = slot1:GetType()
+	})
 
 	if uv3.IsInvincible(slot2) then
 		return
@@ -86,6 +88,7 @@ function slot0.HandleDamage(slot0, slot1, slot2, slot3)
 
 	slot16 = {
 		target = slot2,
+		damage = slot8,
 		weaponType = slot6.type,
 		equipIndex = slot5:GetEquipmentIndex()
 	}
@@ -94,12 +97,11 @@ function slot0.HandleDamage(slot0, slot1, slot2, slot3)
 		slot2:TriggerBuff(uv2.BuffEffectType.ON_DAMAGE_PREVENT, {})
 	end
 
-	slot17.isMiss = slot11
-	slot17.isCri = slot12
-	slot17.attr = slot13
-
 	slot2:UpdateHP(slot8 * -1, {
-		isHeal = false
+		isHeal = false,
+		isMiss = slot11,
+		isCri = slot12,
+		attr = slot13
 	}, slot1:GetPosition(), slot10)
 	slot0:DamageStatistics(slot1:GetAttrByName("id"), slot2:GetAttrByName("id"), slot8)
 
@@ -143,13 +145,13 @@ function slot0.HandleMeteoDamage(slot0, slot1, slot2)
 end
 
 function slot0.HandleDirectDamage(slot0, slot1, slot2, slot3, slot4)
-	slot5.damageReason = slot4
 	slot6 = slot1:GetAttrByName("id")
 
 	slot1:UpdateHP(slot2 * -1, {
 		isMiss = false,
 		isCri = false,
-		isHeal = false
+		isHeal = false,
+		damageReason = slot4
 	})
 
 	slot7 = slot1:IsAlive()
@@ -178,26 +180,26 @@ function slot0.obituary(slot0, slot1, slot2, slot3)
 		if slot8 ~= slot1 then
 			if slot8:GetIFF() == slot1:GetIFF() then
 				if slot2 then
-					slot13.unit = slot1
-					slot13.killer = slot3
-
-					slot8:TriggerBuff(uv0.BuffEffectType.ON_FRIENDLY_AIRCRAFT_DYING, {})
+					slot8:TriggerBuff(uv0.BuffEffectType.ON_FRIENDLY_AIRCRAFT_DYING, {
+						unit = slot1,
+						killer = slot3
+					})
 				else
-					slot13.unit = slot1
-					slot13.killer = slot3
-
-					slot8:TriggerBuff(uv0.BuffEffectType.ON_FRIENDLY_SHIP_DYING, {})
+					slot8:TriggerBuff(uv0.BuffEffectType.ON_FRIENDLY_SHIP_DYING, {
+						unit = slot1,
+						killer = slot3
+					})
 				end
 			elseif slot2 then
-				slot13.unit = slot1
-				slot13.killer = slot3
-
-				slot8:TriggerBuff(uv0.BuffEffectType.ON_FOE_AIRCRAFT_DYING, {})
+				slot8:TriggerBuff(uv0.BuffEffectType.ON_FOE_AIRCRAFT_DYING, {
+					unit = slot1,
+					killer = slot3
+				})
 			else
-				slot13.unit = slot1
-				slot13.killer = slot3
-
-				slot8:TriggerBuff(uv0.BuffEffectType.ON_FOE_DYING, {})
+				slot8:TriggerBuff(uv0.BuffEffectType.ON_FOE_DYING, {
+					unit = slot1,
+					killer = slot3
+				})
 			end
 		end
 	end

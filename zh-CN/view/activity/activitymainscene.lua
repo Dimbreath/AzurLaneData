@@ -206,223 +206,223 @@ slot1 = {
 	[ActivityConst.CARDPAIR_ZQ] = {
 		className = "CardPairZQPage",
 		uiName = "cardpairzqpage"
+	},
+	[ActivityConst.ACTIVITY_ID_ATRE_FURNITURE] = {
+		className = "AtreFurniturePage",
+		uiName = "atrefurniturepage"
+	},
+	[ActivityConst.CHUIXUE_RE_PT] = {
+		className = "ChuixuePTRePage",
+		uiName = "chuixueptrepage"
+	},
+	[ActivityConst.SHANCHENG_PT_OIL] = {
+		className = "ShanchengPTOilPage",
+		uiName = "shanchengptoilpage"
+	},
+	[ActivityConst.DACHAOLIFU_SKIN] = {
+		className = "DachaolifuSkinPage",
+		uiName = "dachaolifuskinpage"
+	},
+	[ActivityConst.SECOND_ANNIVERSARY_COLLECT] = {
+		className = "SecondAnniversaryCollectPage",
+		uiName = "secondanniversarycollectpage"
+	},
+	[ActivityConst.ACTIVITY_JAMAICA_SKIN_PAGE] = {
+		className = "JamaicaSkinPage",
+		uiName = "jamaicaskinpage"
+	},
+	[ActivityConst.TWCELEBRATION_1] = {
+		className = "TWCelebrationPage1",
+		uiName = "twcelebration1"
+	},
+	[ActivityConst.TWCELEBRATION_2] = {
+		className = "TWCelebrationPage2",
+		uiName = "twcelebration2"
+	},
+	[ActivityConst.TWCELEBRATION_3] = {
+		className = "TWCelebrationPage3",
+		uiName = "twcelebration3"
+	},
+	[ActivityConst.TWCELEBRATION_4] = {
+		className = "TWCelebrationPage4",
+		uiName = "twcelebration4"
+	},
+	[ActivityConst.MIKASA_REPAIRE_ACTIVITY] = {
+		className = "MikasaRepairePage",
+		uiName = "mikasarepairePage"
+	},
+	[ActivityConst.MIKASA_MAIN_ACTIVITY] = {
+		className = "MikasaPreviewPage",
+		uiName = "mikasamainPage"
+	},
+	[ActivityConst.CYGENT_SWIMSUIT] = {
+		className = "CygentSwimsuitPage",
+		uiName = "cygentswimsuit"
+	},
+	[ActivityConst.ACTIVITY_U110_BATTLE_PAGE] = {
+		className = "U110BattlePage",
+		uiName = "U110BattlePage"
+	},
+	[ActivityConst.LINDONG_REMAKE_KR] = {
+		className = "LindongMainPage",
+		uiName = "lindongmainpage"
+	},
+	[ActivityConst.TWHALLOWEENSKIN] = {
+		className = "HalloweenSkinPage",
+		uiName = "HalloweenSkinUI"
+	},
+	[ActivityConst.BAILEY_HALLOWEEN_REMAKE] = {
+		className = "BaileyHalloweenPage",
+		uiName = "baileyhalloweenpage"
+	},
+	[ActivityConst.MEMPHIS_HALLOWEEN] = {
+		className = "MemphisHalloweenPage",
+		uiName = "memphishalloweenpage"
+	},
+	[ActivityConst.BAILEY_HALLOWEEN] = {
+		className = "BaileyHalloweenPage",
+		uiName = "baileyhalloweenpage"
+	},
+	[ActivityConst.IDOL_PT_ID] = {
+		className = "IdolPTPage",
+		uiName = "idolptpage"
+	},
+	[ActivityConst.MUSIC_CHUIXUE7DAY_ID] = {
+		className = "Chuixue7daySkinPage",
+		uiName = "chuixue7dayskinpage"
+	},
+	[ActivityConst.ANIME_LOGIN] = {
+		className = "AnimeLoginPage",
+		uiName = "AnimeLoginPage"
+	},
+	[ActivityConst.MUSIC_FESTIVAL_ID] = {
+		className = "XiefeierIdolMusicPage",
+		uiName = "xiefeieridolmusicpage"
+	},
+	[ActivityConst.POCKY_LOGIN] = {
+		className = "PockyPage",
+		uiName = "pockypage"
+	},
+	[ActivityConst.POCKY_SKIN_LOGIN] = {
+		className = "PockySkinPage",
+		uiName = "PockySkinPage"
+	},
+	[ActivityConst.WARSPITE_TRANS] = {
+		className = "WarspiteTransformationPage",
+		uiName = "WarspiteTransformationPage"
+	},
+	[ActivityConst.HOLOLIVE_PT_ID] = {
+		className = "HoloLivePTPage",
+		uiName = "HoloLivePTPage"
+	},
+	[ActivityConst.HOLOLIVE_MORNING_ID] = {
+		className = "HoloLiveMorningPage",
+		uiName = "HoloLiveMorningPage"
+	},
+	[ActivityConst.HOLOLIVE_MAIN] = {
+		className = "HoloLivePage",
+		uiName = "HoloLivePage"
+	},
+	[ActivityConst.HOLOLIVE_MIO_ID] = {
+		className = "HoloLiveMioPage",
+		uiName = "HoloLiveMioPage"
+	},
+	[ActivityConst.ZPROJECT_TW] = {
+		className = "ZProjectPage",
+		uiName = "zprojectpage"
+	},
+	[ActivityConst.JP_SKIRMISH_HEADFRAME_ID] = {
+		className = "JPSkirmishHeadFramePage",
+		uiName = "JPSkirmishHeadFramePage"
+	},
+	[ActivityConst.WAKABA_CHRIS_SKIN_ID] = {
+		className = "WakabaChrisSkinPage",
+		uiName = "WakabaChrisSkinPage"
+	},
+	[ActivityConst.SHIO_SKIN_RE_ID] = {
+		className = "ShioSkinRePage",
+		uiName = "ShioSkinRePage"
+	},
+	[ActivityConst.ANIME_MIDTERM_LOGIN] = {
+		className = "AnimeMidtermLoginPage",
+		uiName = "AnimeMidtermLoginPage"
+	},
+	[ActivityConst.NEWYEAR_SHRINE_PAGE_ID] = {
+		className = "NewYearShrinePage",
+		uiName = "NewYearShrinePage"
+	},
+	[ActivityConst.CYGNET_BATHROBE_PAGE_ID] = {
+		className = "CygnetBathrobePage",
+		uiName = "CygnetBathrobePage"
+	},
+	[ActivityConst.JAPANESE_NEWYEAR] = {
+		className = "JapaneseNewyearPage",
+		uiName = "JapaneseNewyearPage"
+	},
+	[ActivityConst.NEW_JAPANESE_PT] = {
+		className = "JapanesePTPage",
+		uiName = "JapanesePTPage"
+	},
+	[ActivityConst.SKIN_GELIDELI] = {
+		className = "SkinGelideliPage",
+		uiName = "SkinGelideliPage"
+	},
+	[ActivityConst.BEAT_MONSTER_NIAN_2020] = {
+		className = "BeatMonsterNian.BeatMonsterPage",
+		uiName = "BeatMonsterPage"
+	},
+	[ActivityConst.SKIN_KISARAGI] = {
+		className = "SkinKisaragiPage",
+		uiName = "SkinKisaragiPage"
+	},
+	[ActivityConst.MONOPOLY_2020] = {
+		className = "Monopoly.MonopolyPage",
+		uiName = "MonopolyPage"
+	},
+	[ActivityConst.MUTSUKI_NEWYEAR_SKIN_ID] = {
+		className = "MutsukiNewYearSkinPage",
+		uiName = "MutsukiNewYearSkinPage"
+	},
+	[ActivityConst.MORAN_KR_PT_ID] = {
+		className = "MoranPtPage",
+		uiName = "MoranPtPage"
+	},
+	[ActivityConst.MORAN_KR_PREVIEW_ID] = {
+		className = "MoranMainPage",
+		uiName = "MoranMainPage"
+	},
+	[ActivityConst.UNICORN_STARDUST] = {
+		className = "UnicornStardustPage",
+		uiName = "UnicornStardustPage"
+	},
+	[ActivityConst.TEATIME_TW] = {
+		className = "TeaTimePuzzlePage",
+		uiName = "TeaTimePuzzlePage"
+	},
+	[ActivityConst.SPRING_FES_MAIN_TW] = {
+		className = "SpringFesMainPage",
+		uiName = "SpringFesMainPage"
+	},
+	[ActivityConst.SICHUANOPERA] = {
+		className = "SiChuanOperaPage",
+		uiName = "SichuanOperaPage"
+	},
+	[ActivityConst.VALENTINE] = {
+		className = "ValentinePage",
+		uiName = "ValentinePage"
+	},
+	[ActivityConst.CARD_PAIR_FX_PAGE] = {
+		className = "CardPairFXPage",
+		uiName = "CardPairFXPage"
 	}
 }
 slot1[ActivityConst.AVRORA_TW_CBT] = {
 	className = "AvroraTWCBTPage",
 	uiName = "avroratwcbtpage"
 }
-slot1[ActivityConst.ACTIVITY_ID_ATRE_FURNITURE] = {
-	className = "AtreFurniturePage",
-	uiName = "atrefurniturepage"
-}
-slot1[ActivityConst.CHUIXUE_RE_PT] = {
-	className = "ChuixuePTRePage",
-	uiName = "chuixueptrepage"
-}
-slot1[ActivityConst.SHANCHENG_PT_OIL] = {
-	className = "ShanchengPTOilPage",
-	uiName = "shanchengptoilpage"
-}
-slot1[ActivityConst.DACHAOLIFU_SKIN] = {
-	className = "DachaolifuSkinPage",
-	uiName = "dachaolifuskinpage"
-}
-slot1[ActivityConst.SECOND_ANNIVERSARY_COLLECT] = {
-	className = "SecondAnniversaryCollectPage",
-	uiName = "secondanniversarycollectpage"
-}
-slot1[ActivityConst.ACTIVITY_JAMAICA_SKIN_PAGE] = {
-	className = "JamaicaSkinPage",
-	uiName = "jamaicaskinpage"
-}
-slot1[ActivityConst.TWCELEBRATION_1] = {
-	className = "TWCelebrationPage1",
-	uiName = "twcelebration1"
-}
-slot1[ActivityConst.TWCELEBRATION_2] = {
-	className = "TWCelebrationPage2",
-	uiName = "twcelebration2"
-}
-slot1[ActivityConst.TWCELEBRATION_3] = {
-	className = "TWCelebrationPage3",
-	uiName = "twcelebration3"
-}
-slot1[ActivityConst.TWCELEBRATION_4] = {
-	className = "TWCelebrationPage4",
-	uiName = "twcelebration4"
-}
-slot1[ActivityConst.MIKASA_REPAIRE_ACTIVITY] = {
-	className = "MikasaRepairePage",
-	uiName = "mikasarepairePage"
-}
-slot1[ActivityConst.MIKASA_MAIN_ACTIVITY] = {
-	className = "MikasaPreviewPage",
-	uiName = "mikasamainPage"
-}
 slot1[ActivityConst.CYGENT_SWIMSUIT] = {
 	className = "CygentSwimsuitPage",
 	uiName = "cygentswimsuit"
-}
-slot1[ActivityConst.ACTIVITY_U110_BATTLE_PAGE] = {
-	className = "U110BattlePage",
-	uiName = "U110BattlePage"
-}
-slot1[ActivityConst.LINDONG_REMAKE_KR] = {
-	className = "LindongMainPage",
-	uiName = "lindongmainpage"
-}
-slot1[ActivityConst.CYGENT_SWIMSUIT] = {
-	className = "CygentSwimsuitPage",
-	uiName = "cygentswimsuit"
-}
-slot1[ActivityConst.TWHALLOWEENSKIN] = {
-	className = "HalloweenSkinPage",
-	uiName = "HalloweenSkinUI"
-}
-slot1[ActivityConst.BAILEY_HALLOWEEN_REMAKE] = {
-	className = "BaileyHalloweenPage",
-	uiName = "baileyhalloweenpage"
-}
-slot1[ActivityConst.MEMPHIS_HALLOWEEN] = {
-	className = "MemphisHalloweenPage",
-	uiName = "memphishalloweenpage"
-}
-slot1[ActivityConst.BAILEY_HALLOWEEN] = {
-	className = "BaileyHalloweenPage",
-	uiName = "baileyhalloweenpage"
-}
-slot1[ActivityConst.IDOL_PT_ID] = {
-	className = "IdolPTPage",
-	uiName = "idolptpage"
-}
-slot1[ActivityConst.MUSIC_CHUIXUE7DAY_ID] = {
-	className = "Chuixue7daySkinPage",
-	uiName = "chuixue7dayskinpage"
-}
-slot1[ActivityConst.ANIME_LOGIN] = {
-	className = "AnimeLoginPage",
-	uiName = "AnimeLoginPage"
-}
-slot1[ActivityConst.MUSIC_FESTIVAL_ID] = {
-	className = "XiefeierIdolMusicPage",
-	uiName = "xiefeieridolmusicpage"
-}
-slot1[ActivityConst.POCKY_LOGIN] = {
-	className = "PockyPage",
-	uiName = "pockypage"
-}
-slot1[ActivityConst.POCKY_SKIN_LOGIN] = {
-	className = "PockySkinPage",
-	uiName = "PockySkinPage"
-}
-slot1[ActivityConst.WARSPITE_TRANS] = {
-	className = "WarspiteTransformationPage",
-	uiName = "WarspiteTransformationPage"
-}
-slot1[ActivityConst.HOLOLIVE_PT_ID] = {
-	className = "HoloLivePTPage",
-	uiName = "HoloLivePTPage"
-}
-slot1[ActivityConst.HOLOLIVE_MORNING_ID] = {
-	className = "HoloLiveMorningPage",
-	uiName = "HoloLiveMorningPage"
-}
-slot1[ActivityConst.HOLOLIVE_MAIN] = {
-	className = "HoloLivePage",
-	uiName = "HoloLivePage"
-}
-slot1[ActivityConst.HOLOLIVE_MIO_ID] = {
-	className = "HoloLiveMioPage",
-	uiName = "HoloLiveMioPage"
-}
-slot1[ActivityConst.ZPROJECT_TW] = {
-	className = "ZProjectPage",
-	uiName = "zprojectpage"
-}
-slot1[ActivityConst.JP_SKIRMISH_HEADFRAME_ID] = {
-	className = "JPSkirmishHeadFramePage",
-	uiName = "JPSkirmishHeadFramePage"
-}
-slot1[ActivityConst.WAKABA_CHRIS_SKIN_ID] = {
-	className = "WakabaChrisSkinPage",
-	uiName = "WakabaChrisSkinPage"
-}
-slot1[ActivityConst.SHIO_SKIN_RE_ID] = {
-	className = "ShioSkinRePage",
-	uiName = "ShioSkinRePage"
-}
-slot1[ActivityConst.ANIME_MIDTERM_LOGIN] = {
-	className = "AnimeMidtermLoginPage",
-	uiName = "AnimeMidtermLoginPage"
-}
-slot1[ActivityConst.NEWYEAR_SHRINE_PAGE_ID] = {
-	className = "NewYearShrinePage",
-	uiName = "NewYearShrinePage"
-}
-slot1[ActivityConst.CYGNET_BATHROBE_PAGE_ID] = {
-	className = "CygnetBathrobePage",
-	uiName = "CygnetBathrobePage"
-}
-slot1[ActivityConst.JAPANESE_NEWYEAR] = {
-	className = "JapaneseNewyearPage",
-	uiName = "JapaneseNewyearPage"
-}
-slot1[ActivityConst.NEW_JAPANESE_PT] = {
-	className = "JapanesePTPage",
-	uiName = "JapanesePTPage"
-}
-slot1[ActivityConst.SKIN_GELIDELI] = {
-	className = "SkinGelideliPage",
-	uiName = "SkinGelideliPage"
-}
-slot1[ActivityConst.BEAT_MONSTER_NIAN_2020] = {
-	className = "BeatMonsterNian.BeatMonsterPage",
-	uiName = "BeatMonsterPage"
-}
-slot1[ActivityConst.SKIN_KISARAGI] = {
-	className = "SkinKisaragiPage",
-	uiName = "SkinKisaragiPage"
-}
-slot1[ActivityConst.MONOPOLY_2020] = {
-	className = "Monopoly.MonopolyPage",
-	uiName = "MonopolyPage"
-}
-slot1[ActivityConst.MUTSUKI_NEWYEAR_SKIN_ID] = {
-	className = "MutsukiNewYearSkinPage",
-	uiName = "MutsukiNewYearSkinPage"
-}
-slot1[ActivityConst.MORAN_KR_PT_ID] = {
-	className = "MoranPtPage",
-	uiName = "MoranPtPage"
-}
-slot1[ActivityConst.MORAN_KR_PREVIEW_ID] = {
-	className = "MoranMainPage",
-	uiName = "MoranMainPage"
-}
-slot1[ActivityConst.UNICORN_STARDUST] = {
-	className = "UnicornStardustPage",
-	uiName = "UnicornStardustPage"
-}
-slot1[ActivityConst.TEATIME_TW] = {
-	className = "TeaTimePuzzlePage",
-	uiName = "TeaTimePuzzlePage"
-}
-slot1[ActivityConst.SPRING_FES_MAIN_TW] = {
-	className = "SpringFesMainPage",
-	uiName = "SpringFesMainPage"
-}
-slot1[ActivityConst.SICHUANOPERA] = {
-	className = "SiChuanOperaPage",
-	uiName = "SichuanOperaPage"
-}
-slot1[ActivityConst.VALENTINE] = {
-	className = "ValentinePage",
-	uiName = "ValentinePage"
-}
-slot1[ActivityConst.CARD_PAIR_FX_PAGE] = {
-	className = "CardPairFXPage",
-	uiName = "CardPairFXPage"
 }
 slot2 = {
 	[ActivityConst.IDOL_INS_ID] = ActivityConst.IDOL_PT_ID,

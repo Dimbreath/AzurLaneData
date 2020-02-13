@@ -624,30 +624,34 @@ function slot5.GetRotateScript(slot0, slot1, slot2)
 end
 
 function slot5.GetCommonResource()
-	slot0[1] = uv0.GetFXPath(uv1.Battle.BattleCharacterFactory.MOVE_WAVE_FX_NAME)
-	slot0[2] = uv0.GetFXPath(uv1.Battle.BattleCharacterFactory.BOMB_FX_NAME)
-	slot0[3] = uv0.GetFXPath(uv1.Battle.BattleBossCharacterFactory.BOMB_FX_NAME)
-	slot0[4] = uv0.GetFXPath(uv1.Battle.BattleAircraftCharacterFactory.BOMB_FX_NAME)
-	slot0[5] = uv0.GetFXPath("AlertArea")
-	slot0[6] = uv0.GetFXPath("TorAlert")
-	slot0[7] = uv0.GetFXPath("SquareAlert")
-	slot0[8] = uv0.GetFXPath("AntiAirArea")
-	slot0[9] = uv0.GetFXPath("AntiSubArea")
-	slot0[10] = uv0.GetFXPath("shock")
-	slot0[11] = uv0.GetFXPath("qianting_chushui")
-	slot0[12] = uv0.GetFXPath(uv2.PLAYER_SUB_BUBBLE_FX)
-	slot0[13] = uv0.GetUIPath("SkillPainting")
-	slot0[14] = uv0.GetUIPath("CombatHPBar")
 	slot0[MULTRES] = uv0.GetUIPath("CombatHPPop")
 
-	return {}
+	return {
+		uv0.GetFXPath(uv1.Battle.BattleCharacterFactory.MOVE_WAVE_FX_NAME),
+		uv0.GetFXPath(uv1.Battle.BattleCharacterFactory.BOMB_FX_NAME),
+		uv0.GetFXPath(uv1.Battle.BattleBossCharacterFactory.BOMB_FX_NAME),
+		uv0.GetFXPath(uv1.Battle.BattleAircraftCharacterFactory.BOMB_FX_NAME),
+		uv0.GetFXPath("AlertArea"),
+		uv0.GetFXPath("TorAlert"),
+		uv0.GetFXPath("SquareAlert"),
+		uv0.GetFXPath("AntiAirArea"),
+		uv0.GetFXPath("AntiSubArea"),
+		uv0.GetFXPath("shock"),
+		uv0.GetFXPath("qianting_chushui"),
+		uv0.GetFXPath(uv2.PLAYER_SUB_BUBBLE_FX),
+		uv0.GetUIPath("SkillPainting"),
+		uv0.GetUIPath("CombatHPBar"),
+		uv0.GetUIPath("CombatHPPop")
+	}
 end
 
 function slot5.GetDisplayCommonResource()
-	slot0[1] = uv0.GetFXPath(uv1.Battle.BattleCharacterFactory.MOVE_WAVE_FX_NAME)
 	slot0[MULTRES] = uv0.GetFXPath(uv1.Battle.BattleCharacterFactory.BOMB_FX_NAME)
 
-	return {}
+	return {
+		uv0.GetFXPath(uv1.Battle.BattleCharacterFactory.MOVE_WAVE_FX_NAME),
+		uv0.GetFXPath(uv1.Battle.BattleCharacterFactory.BOMB_FX_NAME)
+	}
 end
 
 function slot5.GetMapResource(slot0)
@@ -1012,11 +1016,12 @@ function slot5.GetEquipSkinPreviewRes(slot0)
 	end
 
 	slot4, slot5, slot6, slot7 = uv0.GetEquipSkin(slot0)
-	slot8[1] = EquipType.FighterAircraft
-	slot8[2] = EquipType.TorpedoAircraft
-	slot8[3] = EquipType.BomberAircraft
 
-	if _.any({}, function (slot0)
+	if _.any({
+		EquipType.FighterAircraft,
+		EquipType.TorpedoAircraft,
+		EquipType.BomberAircraft
+	}, function (slot0)
 		return table.contains(uv0.equip_type, slot0)
 	end) then
 		slot1[#slot1 + 1] = uv1.GetCharacterGoPath(slot4)

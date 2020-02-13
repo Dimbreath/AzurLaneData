@@ -272,29 +272,32 @@ slot0.INSTAGRAM_OP_COMMENT = 2
 slot0.INSTAGRAM_OP_LIKE = 3
 slot0.INSTAGRAM_OP_SHARE = 4
 slot0.INSTAGRAM_OP_MARK_READ = 5
-slot3[1] = {
-	2018,
-	5,
-	16
+slot0.LIMIT_SKIN_SHOP_TIME = {
+	{
+		{
+			2018,
+			5,
+			16
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	{
+		{
+			2019,
+			11,
+			14
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
 }
-slot3[2] = {
-	0,
-	0,
-	0
-}
-slot2[1] = {}
-slot3[1] = {
-	2019,
-	11,
-	14
-}
-slot3[2] = {
-	0,
-	0,
-	0
-}
-slot2[2] = {}
-slot0.LIMIT_SKIN_SHOP_TIME = {}
 
 function slot0.BBRule(slot0)
 	_.each(slot0, function (slot0)
