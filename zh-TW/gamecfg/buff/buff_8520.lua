@@ -1,16 +1,3 @@
-slot2.trigger = {
-	"onAttach",
-	"onRemove"
-}
-slot2.arg_list = {
-	number = 1,
-	attr = "immuneMaxAreaLimit"
-}
-slot1[1] = {
-	type = "BattleBuffAddAttr"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "免疫阵营移动限制",
@@ -20,5 +7,18 @@ return {
 	stack = 1,
 	id = 8520,
 	icon = 8520,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				number = 1,
+				attr = "immuneMaxAreaLimit"
+			}
+		}
+	}
 }

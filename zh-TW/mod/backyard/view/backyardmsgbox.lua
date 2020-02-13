@@ -19,36 +19,29 @@ end
 
 function slot0.Show(slot0, slot1, slot2, slot3)
 	setActive(slot0.msgBoxPanel, true)
-
-	slot4 = pg.UIMgr.GetInstance()
-
-	slot4:BlurPanel(slot0.msgBoxPanel)
-
-	slot4.type = DROP_TYPE_ITEM
-	slot4.id = slot2.id
-
+	pg.UIMgr.GetInstance():BlurPanel(slot0.msgBoxPanel)
 	setText(slot0.text1, slot1.text1)
 	setText(slot0.text2, setColorStr(slot1.text2, COLOR_GREEN))
 	setText(slot0.text3, slot1.text3)
 	setText(slot0.text4, slot1.text4)
 	slot0:updateItemCount(slot1.text5)
 	setText(slot0.text5, slot1.text6)
-	updateDrop(slot0.itemTF, {})
+	updateDrop(slot0.itemTF, slot4)
 	onButton(slot0, slot0.okBtn, function ()
-		if uv0 then
-			uv0()
+		if slot0 then
+			slot0()
 		end
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.cancelBtn, function ()
-		uv0:Close()
+		slot0:Close()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.msgBoxPanel, function ()
-		uv0:Close()
+		slot0:Close()
 	end, SFX_CANCEL)
 end
 
 function slot0.updateItemCount(slot0, slot1)
-	setText(slot0.valueTxt, tonumber(slot1) <= 0 and setColorStr(slot1, COLOR_RED) or setColorStr(slot1, COLOR_GREEN))
+	setText(slot0.valueTxt, (tonumber(slot1) <= 0 and setColorStr(slot1, COLOR_RED)) or setColorStr(slot1, COLOR_GREEN))
 end
 
 function slot0.Close(slot0)

@@ -1,5 +1,3 @@
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "偶像灯光特效",
@@ -10,5 +8,6 @@ return {
 	stack = 1,
 	color = "yellow",
 	icon = 8650,
-	last_effect = "juguangdeng_STG"
+	last_effect = "juguangdeng_STG",
+	effect_list = {}
 }

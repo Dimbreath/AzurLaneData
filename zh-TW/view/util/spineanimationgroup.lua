@@ -33,21 +33,21 @@ function slot0.Set(slot0, slot1)
 		slot0.lastLoadRequest:Stop()
 	end
 
-	slot0.lastLoadRequest = uv0.New(slot1, function (slot0)
-		if uv0.lastClearRequest then
-			uv0.lastClearRequest()
+	slot0.lastLoadRequest = slot0.New(slot1, function (slot0)
+		if slot0.lastClearRequest then
+			slot0.lastClearRequest()
 		end
 
-		uv0.lastLoadRequest = nil
-		uv0.model = slot0
-		uv0.anim = slot0:GetComponent("SpineAnimUI")
+		slot0.lastLoadRequest = nil
+		slot0.model = slot0
+		slot0.anim = slot0:GetComponent("SpineAnimUI")
 
-		setParent(slot0, uv0.parent)
+		setParent(slot0, slot0.parent)
 
-		slot0.transform.anchoredPosition = uv0.position
-		slot0.transform.localScale = uv0.scale
+		slot0.transform.anchoredPosition = slot0.position
+		slot0.transform.localScale = slot0.scale
 
-		uv0:PlayAction(uv0.AnimIndex)
+		slot0:PlayAction(slot0.AnimIndex)
 	end)
 
 	slot0.lastLoadRequest()
@@ -56,7 +56,10 @@ end
 function slot0.SetRoutine(slot0, slot1)
 	table.clear(slot0.group)
 
-	for slot5, slot6 in ipairs(slot1 or {}) do
+	slot2 = ipairs
+	slot3 = slot1 or {}
+
+	for slot5, slot6 in slot2(slot3) do
 		slot0.group[slot5] = slot6
 	end
 
@@ -81,21 +84,17 @@ function slot0.PlayAction(slot0, slot1)
 		return
 	end
 
-	slot2 = slot0.group[slot1]
-
 	slot0:ClearTimer()
 
 	slot0.timer = Timer.New(function ()
-		uv0 = uv0 + 1
-
-		if uv0 > #uv1.group then
-			uv0 = math.min(#uv1.group, 1)
+		if slot0 + 1 > #slot1.group then
+			slot0 = math.min(#slot1.group, 1)
 		end
 
-		uv1:PlayAction(uv0)
-	end, slot2.duration)
+		slot1:PlayAction(slot1.PlayAction)
+	end, slot0.group[slot1].duration)
 
-	slot0.anim:SetAction(slot2.action, 0)
+	slot0.anim:SetAction(slot0.group[slot1].action, 0)
 	slot0.timer:Start()
 
 	slot0.AnimIndexPlaying = slot1
@@ -103,9 +102,9 @@ end
 
 function slot0.ClearModel(slot0)
 	if slot0.model and not slot0.lastClearRequest then
-		slot0.lastClearRequest = uv0.New(slot0.name, slot0.model, function ()
-			uv0.model = nil
-			uv0.anim = nil
+		slot0.lastClearRequest = slot0.New(slot0.name, slot0.model, function ()
+			slot0.model = nil
+			slot0.anim = nil
 		end)
 	end
 end

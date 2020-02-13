@@ -10,26 +10,27 @@ function slot0.bindConfigTable(slot0)
 end
 
 function slot0.getName(slot0)
-	slot3.id = slot0:getConfig("use_item")
-
-	return slot0:getConfig("name") or Item.New({}):getConfig("name") or ""
+	return slot0:getConfig("name") or Item.New({
+		id = slot0:getConfig("use_item")
+	}):getConfig("name") or ""
 end
 
 function slot0.getConsume(slot0)
-	slot4[2] = slot0:getConfig("use_item")
-	slot4[3] = slot0:getConfig("number_1")
-	slot3[1] = {
-		2
+	return {
+		{
+			2,
+			slot0:getConfig("use_item"),
+			slot0:getConfig("number_1")
+		}
 	}
-
-	return {}
 end
 
 function slot0.getConsumeDesc(slot0)
 	slot1 = slot0:getConfig("use_gold")
-	slot5.id = slot0:getConfig("use_item")
 
-	return i18n("commander_build_pool_tip", Item.New({}):getConfig("name"), slot0:getConfig("number_1"))
+	return i18n("commander_build_pool_tip", Item.New({
+		id = slot0:getConfig("use_item")
+	}).getConfig(slot4, "name"), slot0:getConfig("number_1"))
 end
 
 function slot0.getPrint(slot0)

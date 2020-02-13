@@ -12,8 +12,12 @@ end
 function slot0.OnFirstFlush(slot0)
 	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 
-	for slot6, slot7 in ipairs(slot0.activity:getData1List() or {}) do
-		table.insert({}, slot7 - 59800)
+	slot2 = {}
+	slot3 = ipairs
+	slot4 = slot0.activity:getData1List() or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		table.insert(slot2, slot7 - 59800)
 	end
 
 	slot3 = {}
@@ -25,17 +29,16 @@ function slot0.OnFirstFlush(slot0)
 	end
 
 	onButton(slot0, slot0.GOBtn, function ()
-		slot0 = uv0:getTasks()
-
-		if not uv1:getActivityById(ActivityConst.TEATIME_TW) or slot1:isEnd() then
+		if not slot0:getTasks():getActivityById(ActivityConst.TEATIME_TW) or slot1:isEnd() then
 			return
 		end
 
+		slot2 = slot1:getConfig("config_data")
 		slot3 = false
 
 		for slot7, slot8 in pairs(slot0) do
-			if _.any(_.flatten(slot1:getConfig("config_data")), function (slot0)
-				return slot0 == uv0.id
+			if _.any(_.flatten(slot2), function (slot0)
+				return slot0 == slot0.id
 			end) then
 				slot3 = true
 
@@ -44,35 +47,33 @@ function slot0.OnFirstFlush(slot0)
 		end
 
 		if slot3 then
-			uv2:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.TASK, {
+			slot2:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.TASK, {
 				page = "activity"
 			})
 		else
-			uv2:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.NAVALACADEMYSCENE)
+			slot2:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.NAVALACADEMYSCENE)
 		end
 	end, SFX_PANEL)
 
-	slot6 = getProxy(TaskProxy):getTasks()
-	slot8 = getProxy(ActivityProxy):getActivityById(ActivityConst.TEATIME_TW):isEnd()
+	slot6 = getProxy(TaskProxy).getTasks(slot4)
 
-	setActive(slot0.GOBtn, not slot8)
+	setActive(slot0.GOBtn, not getProxy(ActivityProxy).getActivityById(slot5, ActivityConst.TEATIME_TW).isEnd(slot7))
 	setActive(slot0.got, slot8)
 
 	slot0.Text.text = "<color=#A9F548FF>" .. #slot2 .. "</color>/" .. slot0.total
-	slot10.go = slot0.container
-	slot10.list = slot2
-	slot10.descs = slot3
-	slot10.fetch = slot0.activity.data1 == 1
 	slot0.puzzlaView = PuzzlaView.New({
-		bg = "bg_1"
+		bg = "bg_1",
+		go = slot0.container,
+		list = slot2,
+		descs = slot3,
+		fetch = slot0.activity.data1 == 1
 	}, nil)
 
 	function slot0.puzzlaView.onFinish()
-		if uv0.activity.data1 ~= 1 then
-			slot3.activity_id = uv0.activity.id
-
-			uv0:emit(ActivityMediator.EVENT_OPERATION, {
-				cmd = 1
+		if slot0.activity.data1 ~= 1 then
+			slot0:emit(ActivityMediator.EVENT_OPERATION, {
+				cmd = 1,
+				activity_id = slot0.activity.id
 			})
 		end
 	end

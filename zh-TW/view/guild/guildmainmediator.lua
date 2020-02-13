@@ -23,9 +23,9 @@ slot0.OPEN_EMOJI = "GuildMainMediator:OPEN_EMOJI"
 function slot0.register(slot0)
 	slot1 = getProxy(GuildProxy)
 
-	slot0.viewComponent:setGuildVO(slot1:getData())
-	slot0.viewComponent:setChatMsgs(slot1:getChatMsgs())
-	slot0.viewComponent:setPlayerVO(getProxy(PlayerProxy):getData())
+	slot0.viewComponent:setGuildVO(slot2)
+	slot0.viewComponent:setChatMsgs(slot3)
+	slot0.viewComponent:setPlayerVO(slot5)
 
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_GUILD) and not slot7:isEnd() then
 		slot0.viewComponent:setActivity(slot7)
@@ -37,106 +37,104 @@ function slot0.register(slot0)
 		slot0.viewComponent:setGuildEvent(slot8)
 	end
 
-	slot0:bind(uv0.OPEN_FACILITY, function (slot0, slot1)
-		slot2 = uv0
-		slot5.viewComponent = GuildFacilityLayer
-		slot5.mediator = GuildFacilityMediator
-		slot5.data = slot1 or {}
-
-		slot2.addSubLayers(slot2, Context.New({}))
+	slot0:bind(slot0.OPEN_FACILITY, function (slot0, slot1)
+		slot0:addSubLayers(Context.New({
+			viewComponent = GuildFacilityLayer,
+			mediator = GuildFacilityMediator,
+			data = slot1 or {}
+		}))
 	end)
-	slot0:bind(uv0.CLOSE_FACILITY, function (slot0)
-		uv0:closePage(GuildFacilityMediator)
+	slot0:bind(slot0.CLOSE_FACILITY, function (slot0)
+		slot0:closePage(GuildFacilityMediator)
 	end)
-	slot0:bind(uv0.ON_BACK, function (slot0)
-		slot2 = getProxy(ContextProxy):getContextByMediator(MainUIMediator)
-
-		if slot2:getContextByMediator(NewGuildMediator) then
+	slot0:bind(slot0.ON_BACK, function (slot0)
+		if getProxy(ContextProxy).getContextByMediator(slot1, MainUIMediator):getContextByMediator(NewGuildMediator) then
 			slot2:removeChild(slot3)
 		end
 
-		uv0:sendNotification(GAME.GO_BACK)
+		slot0:sendNotification(GAME.GO_BACK)
 	end)
-	slot0:bind(uv0.REBUILD_ALL, function (slot0)
-		uv0.viewComponent:updateAllChat(getProxy(GuildProxy):getChatMsgs())
+	slot0:bind(slot0.REBUILD_ALL, function (slot0)
+		slot0.viewComponent:updateAllChat(getProxy(GuildProxy).getChatMsgs(slot1))
 	end)
-	slot0:bind(uv0.OPEN_MEMBER, function ()
-		slot3.viewComponent = GuildMemberLayer
-		slot3.mediator = GuildMemberMediator
-
-		uv0:addSubLayers(Context.New({}))
+	slot0:bind(slot0.OPEN_MEMBER, function ()
+		slot0:addSubLayers(Context.New({
+			viewComponent = GuildMemberLayer,
+			mediator = GuildMemberMediator
+		}))
 	end)
-	slot0:bind(uv0.CLOSE_MEMBER, function ()
-		uv0:closePage(GuildMemberMediator)
+	slot0:bind(slot0.CLOSE_MEMBER, function ()
+		slot0:closePage(GuildMemberMediator)
 	end)
-	slot0:bind(uv0.OPEN_APPLY, function ()
-		slot3.viewComponent = GuildRequestLayer
-		slot3.mediator = GuildRequestMediator
-
-		uv0:addSubLayers(Context.New({}))
+	slot0:bind(slot0.OPEN_APPLY, function ()
+		slot0:addSubLayers(Context.New({
+			viewComponent = GuildRequestLayer,
+			mediator = GuildRequestMediator
+		}))
 	end)
-	slot0:bind(uv0.CLOSE_APPLY, function ()
-		uv0:closePage(GuildRequestMediator)
+	slot0:bind(slot0.CLOSE_APPLY, function ()
+		slot0:closePage(GuildRequestMediator)
 	end)
-	slot0:bind(uv0.OPEN_BOSS_ACTIVITY, function (slot0, slot1)
+	slot0:bind(slot0.OPEN_BOSS_ACTIVITY, function (slot0, slot1)
 		GuildEventLayer.UI_TYPE = slot1
-		slot5.viewComponent = GuildEventLayer
-		slot5.mediator = GuildEventMediator
 
-		uv0:addSubLayers(Context.New({}))
+		slot0:addSubLayers(Context.New({
+			viewComponent = GuildEventLayer,
+			mediator = GuildEventMediator
+		}))
 	end)
-	slot0:bind(uv0.CLOSE_BOSS_ACTIVITY, function (slot0)
-		uv0:closePage(GuildEventMediator)
+	slot0:bind(slot0.CLOSE_BOSS_ACTIVITY, function (slot0)
+		slot0:closePage(GuildEventMediator)
 	end)
-	slot0:bind(uv0.OPEN_ACTIVITY, function (slot0, slot1)
+	slot0:bind(slot0.OPEN_ACTIVITY, function (slot0, slot1)
 		print("todo open")
 	end)
-	slot0:bind(uv0.CLOSE_ACTIVITY, function (slot0, slot1)
+	slot0:bind(slot0.CLOSE_ACTIVITY, function (slot0, slot1)
 		print("todo close")
 	end)
-	slot0:bind(uv0.MODIFY, function (slot0, slot1, slot2, slot3)
-		slot7.type = slot1
-		slot7.int = slot2
-		slot7.string = slot3
-
-		uv0:sendNotification(GAME.MODIFY_GUILD_INFO, {})
+	slot0:bind(slot0.MODIFY, function (slot0, slot1, slot2, slot3)
+		slot0:sendNotification(GAME.MODIFY_GUILD_INFO, {
+			type = slot1,
+			int = slot2,
+			string = slot3
+		})
 	end)
-	slot0:bind(uv0.DISSOLVE, function (slot0, slot1)
-		uv0:sendNotification(GAME.GUILD_DISSOLVE, slot1)
+	slot0:bind(slot0.DISSOLVE, function (slot0, slot1)
+		slot0:sendNotification(GAME.GUILD_DISSOLVE, slot1)
 	end)
-	slot0:bind(uv0.QUIT, function (slot0, slot1)
-		uv0:sendNotification(GAME.GUILD_QUIT, slot1)
+	slot0:bind(slot0.QUIT, function (slot0, slot1)
+		slot0:sendNotification(GAME.GUILD_QUIT, slot1)
 	end)
-	slot0:bind(uv0.ON_REBUILD_LOG_ALL, function (slot0)
-		uv0.viewComponent:updateAllLog(getProxy(GuildProxy):getData():getLogs())
+	slot0:bind(slot0.ON_REBUILD_LOG_ALL, function (slot0)
+		slot0.viewComponent:updateAllLog(getProxy(GuildProxy).getData(slot1).getLogs(slot2))
 	end)
-	slot0:bind(uv0.SEND_MSG, function (slot0, slot1)
-		uv0:sendNotification(GAME.GUILD_SEND_MSG, slot1)
+	slot0:bind(slot0.SEND_MSG, function (slot0, slot1)
+		slot0:sendNotification(GAME.GUILD_SEND_MSG, slot1)
 	end)
-	slot0:bind(uv0.OPEN_SHOP, function (slot0)
-		slot4.viewComponent = ShopsLayer
-		slot4.mediator = ShopsMediator
-		slot5.warp = ShopsLayer.TYPE_GUILD
-		slot4.data = {}
-
-		uv0:addSubLayers(Context.New({}))
+	slot0:bind(slot0.OPEN_SHOP, function (slot0)
+		slot0:addSubLayers(Context.New({
+			viewComponent = ShopsLayer,
+			mediator = ShopsMediator,
+			data = {
+				warp = ShopsLayer.TYPE_GUILD
+			}
+		}))
 	end)
-	slot0:bind(uv0.CLOSE_SHOP, function (slot0)
-		uv0:closePage(ShopsMediator)
+	slot0:bind(slot0.CLOSE_SHOP, function (slot0)
+		slot0:closePage(ShopsMediator)
 	end)
-	slot0:bind(uv0.OPEN_EMOJI, function (slot0, slot1, slot2)
-		slot6.viewComponent = EmojiLayer
-		slot6.mediator = EmojiMediator
-		slot7.pos = slot1
-		slot7.callback = slot2
-
-		function slot7.emojiIconCallback(slot0)
-			uv0.viewComponent:insertEmojiToInputText(slot0)
-		end
-
-		slot6.data = {}
-
-		uv0:addSubLayers(Context.New({}))
+	slot0:bind(slot0.OPEN_EMOJI, function (slot0, slot1, slot2)
+		slot0:addSubLayers(Context.New({
+			viewComponent = EmojiLayer,
+			mediator = EmojiMediator,
+			data = {
+				pos = slot1,
+				callback = slot2,
+				emojiIconCallback = function (slot0)
+					slot0.viewComponent:insertEmojiToInputText(slot0)
+				end
+			}
+		}))
 	end)
 
 	if slot2:getDutyByMemberId(slot5.id) == GuildMember.DUTY_COMMANDER or slot9 == GuildMember.DUTY_DEPUTY_COMMANDER then
@@ -146,35 +144,37 @@ end
 
 function slot0.closePage(slot0, slot1)
 	if getProxy(ContextProxy):getContextByMediator(slot1) then
-		slot7.context = slot3
-
-		slot0:sendNotification(GAME.REMOVE_LAYERS, {})
+		slot0:sendNotification(GAME.REMOVE_LAYERS, {
+			context = slot3
+		})
 	end
 end
 
 function slot0.listNotificationInterests(slot0)
-	slot1[1] = GuildProxy.GUILD_UPDATED
-	slot1[2] = GuildProxy.EXIT_GUILD
-	slot1[3] = GAME.MODIFY_GUILD_INFO_DONE
-	slot1[4] = GuildProxy.NEW_MSG_ADDED
-	slot1[5] = GuildProxy.LOG_ADDED
-	slot1[6] = GuildProxy.REQUEST_COUNT_UPDATED
-	slot1[7] = GuildProxy.REQUEST_DELETED
-	slot1[8] = GAME.GUILD_GET_REQUEST_LIST_DONE
-	slot1[9] = GAME.REMOVE_LAYERS
-	slot1[10] = GuildProxy.ADDED_EVENT
-	slot1[11] = GAME.BOSS_EVENT_START_DONE
-	slot1[12] = PlayerProxy.UPDATED
-
-	return {}
+	return {
+		GuildProxy.GUILD_UPDATED,
+		GuildProxy.EXIT_GUILD,
+		GAME.MODIFY_GUILD_INFO_DONE,
+		GuildProxy.NEW_MSG_ADDED,
+		GuildProxy.LOG_ADDED,
+		GuildProxy.REQUEST_COUNT_UPDATED,
+		GuildProxy.REQUEST_DELETED,
+		GAME.GUILD_GET_REQUEST_LIST_DONE,
+		GAME.REMOVE_LAYERS,
+		GuildProxy.ADDED_EVENT,
+		GAME.BOSS_EVENT_START_DONE,
+		PlayerProxy.UPDATED
+	}
 end
 
 function slot0.handleNotification(slot0, slot1)
+	slot3 = slot1:getBody()
+
 	if slot1:getName() == GuildProxy.GUILD_UPDATED then
-		slot0.viewComponent:setGuildVO(slot1:getBody())
+		slot0.viewComponent:setGuildVO(slot3)
 		slot0.viewComponent:initTheme()
 	elseif slot2 == GuildProxy.EXIT_GUILD then
-		slot0.viewComponent:emit(uv0.ON_BACK)
+		slot0.viewComponent:emit(slot0.ON_BACK)
 	elseif slot2 == GAME.MODIFY_GUILD_INFO_DONE then
 		slot0.viewComponent:closeModifyPanel()
 		slot0.viewComponent:updateBg()

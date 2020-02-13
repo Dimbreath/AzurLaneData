@@ -1,12 +1,11 @@
 ys = ys or {}
-slot0 = ys
-slot1 = slot0.Battle.BattleConst
-slot2 = class("BattleLastingAOEData", slot0.Battle.BattleAOEData)
-slot0.Battle.BattleLastingAOEData = slot2
+slot1 = ys.Battle.BattleConst
+slot2 = class("BattleLastingAOEData", ys.Battle.BattleAOEData)
+ys.Battle.BattleLastingAOEData = slot2
 slot2.__name = "BattleLastingAOEData"
 
 function slot2.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
-	uv0.super.Ctor(slot0, slot1, slot2, slot3, slot5)
+	slot0.super.Ctor(slot0, slot1, slot2, slot3, slot5)
 
 	slot0._exitCldFunc = slot4
 
@@ -27,7 +26,7 @@ function slot2.Dispose(slot0)
 	slot0._exitCldFunc = nil
 	slot0._handledList = nil
 
-	uv0.super.Dispose(slot0)
+	slot0.super.Dispose(slot0)
 end
 
 function slot2.AppendCldObj(slot0, slot1)
@@ -81,3 +80,5 @@ function slot2.frequentlySettle(slot0)
 	slot0.SortCldObjList(slot0._cldObjList)
 	slot0._cldComponent:GetCldData().func(slot0._cldObjList)
 end
+
+return

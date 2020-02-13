@@ -1,12 +1,9 @@
-slot0 = class("CollectionGetAwardCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
+class("CollectionGetAwardCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot5 = false
 	slot6 = 0
 	slot7 = getProxy(PlayerProxy):getData()
 
-	if pg.storeup_data_template[slot2.id].award_display[slot2.index] and slot8[1] == DROP_TYPE_RESOURCE then
+	if pg.storeup_data_template[slot1:getBody().id].award_display[slot1.getBody().index] and slot8[1] == DROP_TYPE_RESOURCE then
 		slot6 = slot8[2]
 		slot5 = true
 	end
@@ -23,47 +20,46 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	slot12.id = slot3
-	slot12.award_index = slot4
-
-	pg.ConnectionMgr.GetInstance():Send(17005, {}, 17006, function (slot0)
+	pg.ConnectionMgr.GetInstance():Send(17005, {
+		id = slot3,
+		award_index = slot4
+	}, 17006, function (slot0)
 		if slot0.result == 0 then
-			getProxy(CollectionProxy):updateAward(uv0, uv1)
+			slot1 = getProxy(CollectionProxy)
 
-			if pg.storeup_data_template[uv0].award_display[uv1][1] == DROP_TYPE_RESOURCE then
+			slot1:updateAward(slot0, slot1)
+
+			if pg.storeup_data_template[slot0].award_display[slot1][1] == DROP_TYPE_RESOURCE then
 				slot4 = getProxy(PlayerProxy)
 				slot5 = slot4:getData()
-				slot8[id2res(slot3[2])] = slot3[3]
 
-				slot5:addResources({})
+				slot5:addResources({
+					[id2res(slot3[2])] = slot3[3]
+				})
 				slot4:updatePlayer(slot5)
 			elseif slot3[1] == DROP_TYPE_ITEM then
 				getProxy(BagProxy):addItemById(slot3[2], slot3[3])
 			elseif slot3[1] == DROP_TYPE_EQUIP then
 				getProxy(EquipmentProxy):addEquipmentById(slot3[2], slot3[3])
 			elseif slot3[1] == DROP_TYPE_SIREN_EQUIP then
-				-- Nothing
 			elseif slot3[1] == DROP_TYPE_SHIP then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("collection_award_ship", pg.ship_data_statistics[slot3[2]].name))
 			elseif slot3[1] == DROP_TYPE_FURNITURE then
-				slot6.id = slot3[2]
-
 				getProxy(DormProxy):addFurniture(Furniture.New({
-					count = 1
+					count = 1,
+					id = slot3[2]
 				}))
 			end
 
-			slot4 = {}
-			slot8.type = slot3[1]
-			slot8.id = slot3[2]
-			slot8.count = slot3[3]
-
-			table.insert(slot4, Item.New({}))
-
-			slot8.id = uv0
-			slot8.items = slot4
-
-			uv2:sendNotification(GAME.COLLECT_GET_AWARD_DONE, {})
+			table.insert(slot4, Item.New({
+				type = slot3[1],
+				id = slot3[2],
+				count = slot3[3]
+			}))
+			slot2:sendNotification(GAME.COLLECT_GET_AWARD_DONE, {
+				id = slot0,
+				items = {}
+			})
 			pg.TipsMgr.GetInstance():ShowTips(i18n("word_takeOk"))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("collection_getResource_error", slot0.result))
@@ -71,4 +67,4 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-return slot0
+return class("CollectionGetAwardCommand", pm.SimpleCommand)

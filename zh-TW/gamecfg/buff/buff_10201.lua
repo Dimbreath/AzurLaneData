@@ -1,45 +1,3 @@
-slot0.blink = {
-	1,
-	0,
-	0,
-	0.3,
-	0.3
-}
-slot2.trigger = {
-	"onAttach",
-	"onRemove"
-}
-slot2.arg_list = {
-	number = 1,
-	attr = "damageRatioBullet"
-}
-slot1[1] = {
-	type = "BattleBuffAddAttr"
-}
-slot2.trigger = {
-	"onAttach",
-	"onRemove"
-}
-slot2.arg_list = {
-	number = 1,
-	attr = "perfectDodge"
-}
-slot1[2] = {
-	type = "BattleBuffAddAttr"
-}
-slot2.trigger = {
-	"onAttach",
-	"onRemove"
-}
-slot2.arg_list = {
-	number = 1,
-	attr = "immuneDirectHit"
-}
-slot1[3] = {
-	type = "BattleBuffAddAttr"
-}
-slot0.effect_list = {}
-
 return {
 	name = "LuckyE",
 	init_effect = "jinengchufared",
@@ -49,5 +7,47 @@ return {
 	stack = 1,
 	id = 10201,
 	icon = 10201,
-	last_effect = ""
+	last_effect = "",
+	blink = {
+		1,
+		0,
+		0,
+		0.3,
+		0.3
+	},
+	effect_list = {
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				number = 1,
+				attr = "damageRatioBullet"
+			}
+		},
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				number = 1,
+				attr = "perfectDodge"
+			}
+		},
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				number = 1,
+				attr = "immuneDirectHit"
+			}
+		}
+	}
 }

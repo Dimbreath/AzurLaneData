@@ -17,21 +17,20 @@ function slot0.Load(slot0, slot1)
 end
 
 function slot0.SetUp(slot0, slot1)
-	slot4[1] = function (slot0)
-		pg.CriMgr:LoadCV(uv0, slot0)
-	end
-
-	slot4[2] = function (slot0)
-		pg.CriMgr:LoadBattleCV(uv0, slot0)
-	end
-
-	seriesAsync({}, function ()
-		if uv1.exited then
-			pg.CriMgr.UnloadCVBank(pg.CriMgr.GetCVBankName(uv0))
-			pg.CriMgr.UnloadCVBank(pg.CriMgr.GetBattleCVBankName(uv0))
+	seriesAsync({
+		function (slot0)
+			pg.CriMgr:LoadCV(slot0, slot0)
+		end,
+		function (slot0)
+			pg.CriMgr:LoadBattleCV(slot0, slot0)
+		end
+	}, function ()
+		if slot1.exited then
+			pg.CriMgr.UnloadCVBank(slot0)
+			pg.CriMgr.UnloadCVBank(slot1)
 		else
-			uv1.loadedCVBankName = slot0
-			uv1.loadedCVBattleBankName = slot1
+			slot1.loadedCVBankName = slot0
+			slot1.loadedCVBattleBankName = slot1
 		end
 	end)
 end
@@ -49,14 +48,20 @@ function slot0.DelayPlaySound(slot0, slot1, slot2, slot3)
 
 	if slot2 > 0 then
 		slot0.timers[slot1] = Timer.New(function ()
-			if uv2 then
-				uv2(uv0:PlaySound(uv1))
+			slot0 = slot0:PlaySound(slot0)
+
+			if slot0 then
+				slot2(slot0)
 			end
 		end, slot2, 1)
 
 		slot0.timers[slot1]:Start()
-	elseif slot3 then
-		slot3(slot0:PlaySound(slot1))
+	else
+		slot4 = slot0:PlaySound(slot1)
+
+		if slot3 then
+			slot3(slot4)
+		end
 	end
 end
 
@@ -65,7 +70,7 @@ function slot0.RawPlaySound(slot0, slot1, slot2)
 
 	if slot2 > 0 then
 		slot0.timers[slot1] = Timer.New(function ()
-			playSoundEffect(uv0)
+			playSoundEffect(playSoundEffect)
 		end, slot2, 1)
 
 		slot0.timers[slot1]:Start()

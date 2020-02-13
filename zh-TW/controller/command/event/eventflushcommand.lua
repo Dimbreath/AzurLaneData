@@ -1,6 +1,4 @@
-slot0 = class("EventFlushCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("EventFlushCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot2 = slot1:getBody()
 
 	pg.ConnectionMgr.GetInstance():Send(13009, {
@@ -15,4 +13,4 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-return slot0
+return class("EventFlushCommand", pm.SimpleCommand)

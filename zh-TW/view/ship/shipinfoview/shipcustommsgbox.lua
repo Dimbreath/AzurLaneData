@@ -21,25 +21,25 @@ function slot0.OnInit(slot0)
 	slot0.settings = {}
 
 	onButton(slot0, slot0.msgBoxConfirmBtn, function ()
-		if uv0.settings.onYes then
-			uv0.settings.onYes()
+		if slot0.settings.onYes then
+			slot0.settings.onYes()
 		else
-			uv0:hideCustomMsgBox()
+			slot0:hideCustomMsgBox()
 		end
 	end, SFX_PANEL)
 	SetActive(slot0.msgBoxCancelBtn, not defaultValue(slot0.settings.hideNO, false))
 	onButton(slot0, slot0.msgBoxCancelBtn, function ()
-		if uv0.settings.onCancel then
-			uv0.settings.onCancel()
+		if slot0.settings.onCancel then
+			slot0.settings.onCancel()
 		else
-			uv0:hideCustomMsgBox()
+			slot0:hideCustomMsgBox()
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.customMsgbox, function ()
-		uv0:hideCustomMsgBox()
+		slot0:hideCustomMsgBox()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.msgBtnBack, function ()
-		uv0:hideCustomMsgBox()
+		slot0:hideCustomMsgBox()
 	end, SFX_CANCEL)
 end
 
@@ -52,17 +52,13 @@ function slot0.showCustomMsgBox(slot0, slot1)
 	slot0.settings = slot1
 
 	setActive(slot0.customMsgbox, true)
+	pg.UIMgr.GetInstance():OverlayPanel(slot0.customMsgbox, {
+		groupName = LayerWeightConst.GROUP_SHIPINFOUI
+	})
+	setActive(slot0.msgBoxItemPanel, slot1.items and #slot1.items > 0)
+	setActive(slot0.msgBoxContent, not (slot1.items and #slot1.items > 0))
 
-	slot5.groupName = LayerWeightConst.GROUP_SHIPINFOUI
-
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.customMsgbox, {})
-
-	slot2 = slot1.items and #slot1.items > 0
-
-	setActive(slot0.msgBoxItemPanel, slot2)
-	setActive(slot0.msgBoxContent, not slot2)
-
-	if slot2 then
+	if slot1.items and #slot1.items > 0 then
 		for slot8 = slot0.msgboxItemContains.childCount + 1, #slot1.items, 1 do
 			cloneTplTo(slot0.msgBoxItemTpl, slot0.msgboxItemContains)
 		end
@@ -71,19 +67,17 @@ function slot0.showCustomMsgBox(slot0, slot1)
 			SetActive(slot0.msgboxItemContains:GetChild(slot8 - 1), slot8 <= #slot3)
 
 			if slot8 <= #slot3 then
-				slot10 = slot3[slot8]
-
 				updateDrop(slot9, slot10)
 
 				slot11 = 0
 
-				if slot10.type == DROP_TYPE_RESOURCE then
+				if slot3[slot8].type == DROP_TYPE_RESOURCE then
 					slot11 = slot0.shareData.player:getResById(slot10.id)
 				elseif slot10.type == DROP_TYPE_ITEM then
 					slot11 = getProxy(BagProxy):getItemCountById(slot10.id)
 				end
 
-				setText(slot9:Find("icon_bg/count"), slot11 .. "/" .. (slot11 < slot10.count and "<color=#D6341DFF>" .. slot10.count .. "</color>" or "<color=#A9F548FF>" .. slot10.count .. "</color>"))
+				setText(slot9:Find("icon_bg/count"), slot11 .. "/" .. ((slot11 < slot10.count and "<color=#D6341DFF>" .. slot10.count .. "</color>") or "<color=#A9F548FF>" .. slot10.count .. "</color>"))
 			end
 		end
 

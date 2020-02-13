@@ -1,7 +1,3 @@
-slot1[1] = SYSTEM_DUEL
-slot0.limit = {}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "",
@@ -12,5 +8,9 @@ return {
 	stack = 1,
 	color = "red",
 	icon = 6400,
-	last_effect = ""
+	last_effect = "",
+	limit = {
+		SYSTEM_DUEL
+	},
+	effect_list = {}
 }

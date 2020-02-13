@@ -1,17 +1,17 @@
 ys = ys or {}
-slot0 = ys
-slot1 = slot0.Battle.BattleDataFunction
-slot2 = slot0.Battle.BattleConst
-slot3 = slot0.Battle.BattleFormulas
-slot4 = slot0.Battle.BattleAttr
-slot5 = slot0.Battle.BattleUnitEvent
-slot0.Battle.BattleNPCUnit = class("BattleNPCUnit", slot0.Battle.BattleEnemyUnit)
+slot1 = ys.Battle.BattleDataFunction
+slot2 = ys.Battle.BattleConst
+slot3 = ys.Battle.BattleFormulas
+slot4 = ys.Battle.BattleAttr
+slot5 = ys.Battle.BattleUnitEvent
+ys.Battle.BattleNPCUnit = class("BattleNPCUnit", ys.Battle.BattleEnemyUnit)
 
-function slot0.Battle.BattleNPCUnit.SetTemplate(slot0, slot1, slot2)
-	uv0.super.SetTemplate(slot0, slot1)
+function ys.Battle.BattleNPCUnit.SetTemplate(slot0, slot1, slot2)
+	slot0.super.SetTemplate(slot0, slot1)
 
-	slot5.__index = uv1.Battle.BattleDataFunction.GetMonsterTmpDataFromID(slot0._tmpID)
-	slot0._tmpData = setmetatable({}, {})
+	slot0._tmpData = setmetatable({}, {
+		__index = slot1.Battle.BattleDataFunction.GetMonsterTmpDataFromID(slot0._tmpID)
+	})
 
 	if slot2.template then
 		for slot6, slot7 in pairs(slot2.template) do
@@ -22,7 +22,7 @@ function slot0.Battle.BattleNPCUnit.SetTemplate(slot0, slot1, slot2)
 	end
 
 	if slot2.attr then
-		uv2.SetAttr(slot0, slot2.attr)
+		slot2.SetAttr(slot0, slot2.attr)
 	else
 		slot0:SetAttr()
 	end
@@ -30,3 +30,5 @@ function slot0.Battle.BattleNPCUnit.SetTemplate(slot0, slot1, slot2)
 	slot0:SetCurrentHP(slot2.currentHP or slot0:GetMaxHP())
 	slot0:InitCldComponent()
 end
+
+return

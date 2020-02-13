@@ -1,28 +1,3 @@
-slot1.offset = {
-	0,
-	-2,
-	0
-}
-slot0.aniEffect = {
-	effect = "jineng"
-}
-slot2.target_choise = {
-	"TargetAllHelp",
-	"TargetShipTag"
-}
-slot3.ship_tag_list = {
-	"μ"
-}
-slot2.arg_list = {
-	buff_id = 12794
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillAddBuff"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "加斯科涅μ2",
@@ -31,5 +6,30 @@ return {
 	desc = "",
 	painting = 1,
 	id = 12782,
-	castCV = "skill"
+	castCV = "skill",
+	aniEffect = {
+		effect = "jineng",
+		offset = {
+			0,
+			-2,
+			0
+		}
+	},
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = {
+				"TargetAllHelp",
+				"TargetShipTag"
+			},
+			arg_list = {
+				buff_id = 12794,
+				ship_tag_list = {
+					"μ"
+				}
+			}
+		}
+	}
 }

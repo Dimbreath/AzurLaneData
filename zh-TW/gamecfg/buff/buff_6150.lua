@@ -1,18 +1,3 @@
-slot2.trigger = {
-	"onStartGame"
-}
-slot3.group = {
-	id = 6140,
-	level = 2
-}
-slot2.arg_list = {
-	skill_id = 6150
-}
-slot1[1] = {
-	type = "BattleBuffCastSkill"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "灭火器T2",
@@ -23,5 +8,20 @@ return {
 	stack = 1,
 	color = "blue",
 	icon = 6150,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onStartGame"
+			},
+			arg_list = {
+				skill_id = 6150,
+				group = {
+					id = 6140,
+					level = 2
+				}
+			}
+		}
+	}
 }

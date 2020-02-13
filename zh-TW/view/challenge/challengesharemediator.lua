@@ -1,20 +1,17 @@
-slot0 = class("ChallengeShareMediator", import("..base.ContextMediator"))
-
-function slot0.register(slot0)
-	slot2 = getProxy(ChallengeProxy):getUserChallengeInfo(slot0.contextData.mode)
+class("ChallengeShareMediator", import("..base.ContextMediator")).register = function (slot0)
+	slot2 = getProxy(ChallengeProxy):getUserChallengeInfo(slot1)
 
 	slot0.viewComponent:setLevel(slot2:getLevel())
-
-	slot3 = {
+	slot0.viewComponent:setFlagShipPaint(({
 		regularFleet = slot2:getRegularFleet(),
 		submarineFleet = slot2:getSubmarineFleet()
-	}
+	})["regularFleet"]:getShipsByTeam(TeamType.Main, true)[1].getPainting(slot4))
 
-	slot0.viewComponent:setFlagShipPaint(slot3.regularFleet:getShipsByTeam(TeamType.Main, true)[1]:getPainting())
+	slot5 = {}
 
-	for slot9, slot10 in ipairs(slot3.regularFleet:getShips(true)) do
+	for slot9, slot10 in ipairs(()["regularFleet"]:getShips(true)) do
 		if slot10.id ~= slot4.id then
-			table.insert({}, slot10:getPainting())
+			table.insert(slot5, slot10:getPainting())
 		end
 	end
 
@@ -27,4 +24,4 @@ function slot0.register(slot0)
 	slot0.viewComponent:setShipPaintList(slot5)
 end
 
-return slot0
+return class("ChallengeShareMediator", import("..base.ContextMediator"))

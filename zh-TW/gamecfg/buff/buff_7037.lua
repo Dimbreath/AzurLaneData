@@ -1,16 +1,3 @@
-slot2.trigger = {
-	"onRemove"
-}
-slot2.arg_list = {
-	buff_id = 7033,
-	rant = 10000,
-	target = "TargetSelf"
-}
-slot1[1] = {
-	type = "BattleBuffAddBuff"
-}
-slot0.effect_list = {}
-
 return {
 	time = 20,
 	name = "序章欧根旋转盾2",
@@ -20,5 +7,18 @@ return {
 	stack = 1,
 	id = 7037,
 	icon = 7037,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onRemove"
+			},
+			arg_list = {
+				buff_id = 7033,
+				rant = 10000,
+				target = "TargetSelf"
+			}
+		}
+	}
 }

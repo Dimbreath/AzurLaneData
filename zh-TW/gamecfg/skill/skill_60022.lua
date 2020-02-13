@@ -1,14 +1,3 @@
-slot2.arg_list = {
-	buff_id = 60041
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillAddBuff",
-	target_choise = "TargetAllHarm"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "随机技能-缩小射线",
@@ -17,5 +6,16 @@ return {
 	aniEffect = "",
 	desc = "缩小射线",
 	painting = 1,
-	id = 60022
+	id = 60022,
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetAllHarm",
+			arg_list = {
+				buff_id = 60041
+			}
+		}
+	}
 }

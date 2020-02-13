@@ -1,31 +1,3 @@
-slot1.offset = {
-	0,
-	-2,
-	0
-}
-slot0.aniEffect = {
-	effect = "jineng"
-}
-slot2.arg_list = {
-	buff_id = 12961
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillAddBuff",
-	target_choise = "TargetHelpLeastHPRatio"
-}
-slot2.arg_list = {
-	buff_id = 12962
-}
-slot1[2] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillAddBuff",
-	target_choise = "TargetSelf"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "比洛克西2",
@@ -34,5 +6,33 @@ return {
 	desc = "",
 	painting = 1,
 	id = 12960,
-	castCV = "skill"
+	castCV = "skill",
+	aniEffect = {
+		effect = "jineng",
+		offset = {
+			0,
+			-2,
+			0
+		}
+	},
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetHelpLeastHPRatio",
+			arg_list = {
+				buff_id = 12961
+			}
+		},
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
+			arg_list = {
+				buff_id = 12962
+			}
+		}
+	}
 }

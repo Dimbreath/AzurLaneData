@@ -1,5 +1,4 @@
 slot0 = require("protobuf")
-slot1 = require("common_pb")
 
 module("p20_pb")
 
@@ -57,8 +56,9 @@ SC_20001.name = "sc_20001"
 SC_20001.full_name = ".p20.sc_20001"
 SC_20001.nested_types = {}
 SC_20001.enum_types = {}
-slot29[1] = slot2
-SC_20001.fields = {}
+SC_20001.fields = {
+	slot2
+}
 SC_20001.is_extendable = false
 SC_20001.extensions = {}
 slot3.name = "id"
@@ -101,11 +101,12 @@ TASK_INFO.name = "task_info"
 TASK_INFO.full_name = ".p20.task_info"
 TASK_INFO.nested_types = {}
 TASK_INFO.enum_types = {}
-slot29[1] = slot3
-slot29[2] = slot4
-slot29[3] = slot5
-slot29[4] = slot6
-TASK_INFO.fields = {}
+TASK_INFO.fields = {
+	slot3,
+	slot4,
+	slot5,
+	slot6
+}
 TASK_INFO.is_extendable = false
 TASK_INFO.extensions = {}
 slot7.name = "info"
@@ -122,8 +123,9 @@ SC_20002.name = "sc_20002"
 SC_20002.full_name = ".p20.sc_20002"
 SC_20002.nested_types = {}
 SC_20002.enum_types = {}
-slot29[1] = slot7
-SC_20002.fields = {}
+SC_20002.fields = {
+	slot7
+}
 SC_20002.is_extendable = false
 SC_20002.extensions = {}
 slot8.name = "id"
@@ -148,9 +150,10 @@ TASK_PROGRESS.name = "task_progress"
 TASK_PROGRESS.full_name = ".p20.task_progress"
 TASK_PROGRESS.nested_types = {}
 TASK_PROGRESS.enum_types = {}
-slot29[1] = slot8
-slot29[2] = slot9
-TASK_PROGRESS.fields = {}
+TASK_PROGRESS.fields = {
+	slot8,
+	slot9
+}
 TASK_PROGRESS.is_extendable = false
 TASK_PROGRESS.extensions = {}
 slot10.name = "info"
@@ -167,8 +170,9 @@ SC_20003.name = "sc_20003"
 SC_20003.full_name = ".p20.sc_20003"
 SC_20003.nested_types = {}
 SC_20003.enum_types = {}
-slot29[1] = slot10
-SC_20003.fields = {}
+SC_20003.fields = {
+	slot10
+}
 SC_20003.is_extendable = false
 SC_20003.extensions = {}
 slot11.name = "id_list"
@@ -184,8 +188,9 @@ SC_20004.name = "sc_20004"
 SC_20004.full_name = ".p20.sc_20004"
 SC_20004.nested_types = {}
 SC_20004.enum_types = {}
-slot29[1] = slot11
-SC_20004.fields = {}
+SC_20004.fields = {
+	slot11
+}
 SC_20004.is_extendable = false
 SC_20004.extensions = {}
 slot12.name = "id"
@@ -204,16 +209,17 @@ slot13.index = 1
 slot13.label = 3
 slot13.has_default_value = false
 slot13.default_value = {}
-slot13.message_type = slot1.DROPINFO
+slot13.message_type = require("common_pb").DROPINFO
 slot13.type = 11
 slot13.cpp_type = 10
 CS_20005.name = "cs_20005"
 CS_20005.full_name = ".p20.cs_20005"
 CS_20005.nested_types = {}
 CS_20005.enum_types = {}
-slot29[1] = slot12
-slot29[2] = slot13
-CS_20005.fields = {}
+CS_20005.fields = {
+	slot12,
+	slot13
+}
 CS_20005.is_extendable = false
 CS_20005.extensions = {}
 slot14.name = "result"
@@ -232,16 +238,17 @@ slot15.index = 1
 slot15.label = 3
 slot15.has_default_value = false
 slot15.default_value = {}
-slot15.message_type = slot1.DROPINFO
+slot15.message_type = require("common_pb").DROPINFO
 slot15.type = 11
 slot15.cpp_type = 10
 SC_20006.name = "sc_20006"
 SC_20006.full_name = ".p20.sc_20006"
 SC_20006.nested_types = {}
 SC_20006.enum_types = {}
-slot29[1] = slot14
-slot29[2] = slot15
-SC_20006.fields = {}
+SC_20006.fields = {
+	slot14,
+	slot15
+}
 SC_20006.is_extendable = false
 SC_20006.extensions = {}
 slot16.name = "id"
@@ -257,8 +264,9 @@ CS_20007.name = "cs_20007"
 CS_20007.full_name = ".p20.cs_20007"
 CS_20007.nested_types = {}
 CS_20007.enum_types = {}
-slot29[1] = slot16
-CS_20007.fields = {}
+CS_20007.fields = {
+	slot16
+}
 CS_20007.is_extendable = false
 CS_20007.extensions = {}
 slot17.name = "result"
@@ -284,9 +292,10 @@ SC_20008.name = "sc_20008"
 SC_20008.full_name = ".p20.sc_20008"
 SC_20008.nested_types = {}
 SC_20008.enum_types = {}
-slot29[1] = slot17
-slot29[2] = slot18
-SC_20008.fields = {}
+SC_20008.fields = {
+	slot17,
+	slot18
+}
 SC_20008.is_extendable = false
 SC_20008.extensions = {}
 slot19.name = "id"
@@ -329,11 +338,12 @@ TASK_ADD.name = "task_add"
 TASK_ADD.full_name = ".p20.task_add"
 TASK_ADD.nested_types = {}
 TASK_ADD.enum_types = {}
-slot29[1] = slot19
-slot29[2] = slot20
-slot29[3] = slot21
-slot29[4] = slot22
-TASK_ADD.fields = {}
+TASK_ADD.fields = {
+	slot19,
+	slot20,
+	slot21,
+	slot22
+}
 TASK_ADD.is_extendable = false
 TASK_ADD.extensions = {}
 slot23.name = "progressinfo"
@@ -350,8 +360,9 @@ CS_20009.name = "cs_20009"
 CS_20009.full_name = ".p20.cs_20009"
 CS_20009.nested_types = {}
 CS_20009.enum_types = {}
-slot29[1] = slot23
-CS_20009.fields = {}
+CS_20009.fields = {
+	slot23
+}
 CS_20009.is_extendable = false
 CS_20009.extensions = {}
 slot24.name = "result"
@@ -367,8 +378,9 @@ SC_20010.name = "sc_20010"
 SC_20010.full_name = ".p20.sc_20010"
 SC_20010.nested_types = {}
 SC_20010.enum_types = {}
-slot29[1] = slot24
-SC_20010.fields = {}
+SC_20010.fields = {
+	slot24
+}
 SC_20010.is_extendable = false
 SC_20010.extensions = {}
 slot25.name = "id"
@@ -402,10 +414,11 @@ TASK_UPDATE.name = "task_update"
 TASK_UPDATE.full_name = ".p20.task_update"
 TASK_UPDATE.nested_types = {}
 TASK_UPDATE.enum_types = {}
-slot29[1] = slot25
-slot29[2] = slot26
-slot29[3] = slot27
-TASK_UPDATE.fields = {}
+TASK_UPDATE.fields = {
+	slot25,
+	slot26,
+	slot27
+}
 TASK_UPDATE.is_extendable = false
 TASK_UPDATE.extensions = {}
 cs_20005 = slot0.Message(CS_20005)
@@ -422,3 +435,5 @@ task_add = slot0.Message(TASK_ADD)
 task_info = slot0.Message(TASK_INFO)
 task_progress = slot0.Message(TASK_PROGRESS)
 task_update = slot0.Message(TASK_UPDATE)
+
+return

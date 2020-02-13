@@ -5,15 +5,16 @@ function slot0.register(slot0)
 
 	slot0:on(11700, function (slot0)
 		for slot4, slot5 in ipairs(slot0.ins_message_list) do
-			slot6 = Instagram.New(slot5)
-			uv0.messages[slot6.id] = slot6
+			slot0.messages[Instagram.New(slot5).id] = Instagram.New(slot5)
 		end
 	end)
 end
 
 function slot0.GetMessages(slot0)
+	slot1 = {}
+
 	for slot5, slot6 in pairs(slot0.messages) do
-		table.insert({}, slot6)
+		table.insert(slot1, slot6)
 	end
 
 	return slot1

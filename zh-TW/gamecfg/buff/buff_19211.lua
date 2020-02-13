@@ -1,29 +1,3 @@
-slot2.trigger = {
-	"onFire"
-}
-slot3.index = {
-	1
-}
-slot2.arg_list = {
-	countTarget = 8,
-	countType = 19210
-}
-slot1[1] = {
-	type = "BattleBuffCount"
-}
-slot2.trigger = {
-	"onBattleBuffCount"
-}
-slot2.arg_list = {
-	skill_id = 19211,
-	target = "TargetSelf",
-	countType = 19210
-}
-slot1[2] = {
-	type = "BattleBuffCastSkill"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "吾妻特殊弹幕I",
@@ -34,5 +8,31 @@ return {
 	stack = 1,
 	color = "red",
 	icon = 19210,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffCount",
+			trigger = {
+				"onFire"
+			},
+			arg_list = {
+				countTarget = 8,
+				countType = 19210,
+				index = {
+					1
+				}
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onBattleBuffCount"
+			},
+			arg_list = {
+				skill_id = 19211,
+				target = "TargetSelf",
+				countType = 19210
+			}
+		}
+	}
 }

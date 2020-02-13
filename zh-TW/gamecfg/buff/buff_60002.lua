@@ -1,18 +1,3 @@
-slot2.trigger = {
-	"onAttach",
-	"onStack",
-	"onRemove"
-}
-slot2.arg_list = {
-	group = 102,
-	number = 100,
-	attr = "loadspeed"
-}
-slot1[1] = {
-	type = "BattleBuffAddAttrRatio"
-}
-slot0.effect_list = {}
-
 return {
 	time = 5,
 	name = "测试2号-百分比攻速",
@@ -22,5 +7,20 @@ return {
 	stack = 1,
 	id = 60002,
 	icon = 60002,
-	last_effect = "lansebuff"
+	last_effect = "lansebuff",
+	effect_list = {
+		{
+			type = "BattleBuffAddAttrRatio",
+			trigger = {
+				"onAttach",
+				"onStack",
+				"onRemove"
+			},
+			arg_list = {
+				group = 102,
+				number = 100,
+				attr = "loadspeed"
+			}
+		}
+	}
 }

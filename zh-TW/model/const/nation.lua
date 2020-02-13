@@ -12,12 +12,12 @@ slot0.MNF = 9
 slot0.LINK = 100
 
 function slot0.IsLinkType(slot0)
-	return uv0.LINK < slot0
+	return slot0.LINK < slot0
 end
 
 function slot0.Nation2Print(slot0)
-	if not uv0.prints then
-		uv0.prints = {
+	if not slot0.prints then
+		slot0.prints = {
 			[0] = "cm",
 			"us",
 			"en",
@@ -36,12 +36,12 @@ function slot0.Nation2Print(slot0)
 		}
 	end
 
-	return uv0.prints[slot0]
+	return slot0.prints[slot0]
 end
 
 function slot0.Nation2Side(slot0)
-	if not uv0.side then
-		uv0.side = {
+	if not slot0.side then
+		slot0.side = {
 			[0] = "West",
 			"West",
 			"West",
@@ -60,12 +60,12 @@ function slot0.Nation2Side(slot0)
 		}
 	end
 
-	return uv0.side[slot0]
+	return slot0.side[slot0]
 end
 
 function slot0.Nation2BG(slot0)
-	if not uv0.bg then
-		uv0.bg = {
+	if not slot0.bg then
+		slot0.bg = {
 			[0] = "bg/bg_church",
 			"bg/bg_church",
 			"bg/bg_church",
@@ -84,53 +84,55 @@ function slot0.Nation2BG(slot0)
 		}
 	end
 
-	return uv0.bg[slot0]
+	return slot0.bg[slot0]
 end
 
 function slot0.Nation2Name(slot0)
-	if not uv0.nationName then
-		slot2[0] = i18n("word_shipNation_other")
-		slot2[1] = i18n("word_shipNation_baiYing")
-		slot2[2] = i18n("word_shipNation_huangJia")
-		slot2[3] = i18n("word_shipNation_chongYing")
-		slot2[4] = i18n("word_shipNation_tieXue")
-		slot2[5] = i18n("word_shipNation_dongHuang")
-		slot2[6] = i18n("word_shipNation_saDing")
-		slot2[7] = i18n("word_shipNation_beiLian")
-		slot2[8] = i18n("word_shipNation_ziyou")
-		slot2[9] = i18n("word_shipNation_weixi")
-		slot2[101] = i18n("word_shipNation_np")
-		slot2[102] = i18n("word_shipNation_bili")
-		slot2[103] = i18n("word_shipNation_um")
-		slot2[104] = i18n("word_shipNation_ai")
-		slot2[105] = i18n("word_shipNation_holo")
-		uv0.nationName = {}
+	if not slot0.nationName then
+		slot0.nationName = {
+			[0] = i18n("word_shipNation_other"),
+			i18n("word_shipNation_baiYing"),
+			i18n("word_shipNation_huangJia"),
+			i18n("word_shipNation_chongYing"),
+			i18n("word_shipNation_tieXue"),
+			i18n("word_shipNation_dongHuang"),
+			i18n("word_shipNation_saDing"),
+			i18n("word_shipNation_beiLian"),
+			i18n("word_shipNation_ziyou"),
+			i18n("word_shipNation_weixi"),
+			[101] = i18n("word_shipNation_np"),
+			[102] = i18n("word_shipNation_bili"),
+			[103] = i18n("word_shipNation_um"),
+			[104] = i18n("word_shipNation_ai"),
+			[105] = i18n("word_shipNation_holo")
+		}
 	end
 
-	return uv0.nationName[slot0]
+	return slot0.nationName[slot0]
 end
 
 function slot0.Nation2facionName(slot0)
-	if not uv0.facionName then
-		slot2[0] = i18n("guild_faction_unknown")
-		slot2[1] = i18n("guild_faction_blhx")
-		slot2[2] = i18n("guild_faction_blhx")
-		slot2[3] = i18n("guild_faction_cszz")
-		slot2[4] = i18n("guild_faction_cszz")
-		slot2[5] = i18n("guild_faction_blhx")
-		slot2[6] = i18n("guild_faction_cszz")
-		slot2[7] = i18n("guild_faction_blhx")
-		slot2[8] = i18n("guild_faction_blhx")
-		slot2[9] = i18n("guild_faction_cszz")
-		slot2[101] = i18n("guild_faction_unknown")
-		slot2[102] = i18n("guild_faction_unknown")
-		slot2[103] = i18n("guild_faction_unknown")
-		slot2[104] = i18n("guild_faction_unknown")
-		slot2[105] = i18n("guild_faction_unknown")
-		uv0.facionName = {}
+	if not slot0.facionName then
+		slot0.facionName = {
+			[0] = i18n("guild_faction_unknown"),
+			i18n("guild_faction_blhx"),
+			i18n("guild_faction_blhx"),
+			i18n("guild_faction_cszz"),
+			i18n("guild_faction_cszz"),
+			i18n("guild_faction_blhx"),
+			i18n("guild_faction_cszz"),
+			i18n("guild_faction_blhx"),
+			i18n("guild_faction_blhx"),
+			i18n("guild_faction_cszz"),
+			[101] = i18n("guild_faction_unknown"),
+			[102] = i18n("guild_faction_unknown"),
+			[103] = i18n("guild_faction_unknown"),
+			[104] = i18n("guild_faction_unknown"),
+			[105] = i18n("guild_faction_unknown")
+		}
 	end
 
-	return uv0.facionName[slot0]
+	return slot0.facionName[slot0]
 end
 
 return slot0

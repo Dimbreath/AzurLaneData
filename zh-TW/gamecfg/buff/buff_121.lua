@@ -1,15 +1,3 @@
-slot2.trigger = {
-	"onAttach"
-}
-slot2.arg_list = {
-	number = 2000,
-	attr = "antiAirPower"
-}
-slot1[1] = {
-	type = "BattleBuffAddAttrRatio"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "轮型阵护卫",
@@ -20,5 +8,17 @@ return {
 	stack = 1,
 	color = "yellow",
 	icon = 121,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddAttrRatio",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				number = 2000,
+				attr = "antiAirPower"
+			}
+		}
+	}
 }

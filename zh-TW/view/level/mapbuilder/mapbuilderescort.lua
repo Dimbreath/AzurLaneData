@@ -1,13 +1,13 @@
 slot1 = class("MapBuilderEscort", import(".MapBuilder"))
 
 function slot1.Ctor(slot0, ...)
-	uv0.super.Ctor(slot0, ...)
+	slot0.super.Ctor(slot0, ...)
 
 	slot0.itemList = nil
 end
 
 function slot1.GetType(slot0)
-	return uv0.TYPEESCORT
+	return slot0.TYPEESCORT
 end
 
 function slot1.OnInit(slot0)
@@ -21,30 +21,27 @@ function slot1.Update(slot0)
 	slot3 = 1
 
 	if slot0.map.rect.width / slot0.map.rect.height < slot0.tfParent.rect.width / slot0.tfParent.rect.height then
-		slot3 = slot0.tfParent.rect.width / 1280
-		slot0.tf.localScale = Vector3(slot3, slot3, 1)
+		slot0.tf.localScale = Vector3(slot0.tfParent.rect.width / 1280, , 1)
 	else
-		slot3 = slot0.tfParent.rect.height / 720
-		slot0.tf.localScale = Vector3(slot3, slot3, 1)
+		slot0.tf.localScale = Vector3(slot0.tfParent.rect.height / 720, , 1)
 	end
 end
 
 function slot1.UpdateEscortInfo(slot0)
 	slot1 = slot0.data
 	slot2 = getProxy(ChapterProxy)
-	slot3 = slot2:getMaxEscortChallengeTimes()
 
-	setText(slot0.sceneParent.escortBar:Find("times/text"), slot3 - slot2.escortChallengeTimes .. "/" .. slot3)
+	setText(slot0.sceneParent.escortBar:Find("times/text"), slot2:getMaxEscortChallengeTimes() - slot2.escortChallengeTimes .. "/" .. slot3)
 	onButton(slot0.sceneParent, slot0.sceneParent.mapHelpBtn, function ()
-		slot3.type = MSGBOX_TYPE_HELP
-		slot3.helps = i18n("levelScene_escort_help_tip")
-
-		uv0:InvokeParent("HandleShowMsgBox", {})
+		slot0:InvokeParent("HandleShowMsgBox", {
+			type = MSGBOX_TYPE_HELP,
+			helps = i18n("levelScene_escort_help_tip")
+		})
 	end, SFX_PANEL)
 end
 
 function slot1.UpdateMapItems(slot0)
-	uv0.super.UpdateMapItems(slot0)
+	slot0.super.UpdateMapItems(slot0)
 	slot0:UpdateEscortInfo()
 	setActive(slot0.sceneParent.escortBar, true)
 	setActive(slot0.sceneParent.mapHelpBtn, true)
@@ -54,30 +51,23 @@ function slot1.UpdateMapItems(slot0)
 	end).chapters
 
 	if not slot0.itemList then
-		slot4 = UIItemList.New(slot0.itemHolder, slot0.tpl)
-
-		slot4:make(function (slot0, slot1, slot2)
+		UIItemList.New(slot0.itemHolder, slot0.tpl):make(function (slot0, slot1, slot2)
 			if slot0 == UIItemList.EventUpdate then
-				slot3 = uv0[slot1 + 1]
-
-				uv1:UpdateEscortItem(slot2, slot3.escortId, slot3.chapter)
+				slot1:UpdateEscortItem(slot2, slot0[slot1 + 1].escortId, slot0[slot1 + 1].chapter)
 			end
 		end)
 
-		slot0.itemList = slot4
+		slot0.itemList = UIItemList.New(slot0.itemHolder, slot0.tpl)
 	end
 
 	slot4:align(#slot3)
 end
 
 function slot1.UpdateEscortItem(slot0, slot1, slot2, slot3)
-	slot4 = pg.escort_template[slot2]
 	slot1.name = "chapter_" .. slot3.id
-	slot7 = GetComponent(slot0.map, "Image")
-	slot1.anchoredPosition = Vector2(slot7.preferredWidth * (tonumber(slot4.pos_x) - 0.5), slot7.preferredHeight * (tonumber(slot4.pos_y) - 0.5))
-	slot9 = getProxy(ChapterProxy):getActiveChapter() and slot6.id == slot3.id
+	slot1.anchoredPosition = Vector2(GetComponent(slot0.map, "Image").preferredWidth * (tonumber(pg.escort_template[slot2].pos_x) - 0.5), GetComponent(slot0.map, "Image").preferredHeight * (tonumber(pg.escort_template[slot2].pos_y) - 0.5))
 
-	setActive(slot1:Find("fighting"), slot9)
+	setActive(slot1:Find("fighting"), getProxy(ChapterProxy).getActiveChapter(slot5) and slot6.id == slot3.id)
 	slot0:DeleteTween("fighting" .. slot3.id)
 
 	if slot9 then
@@ -87,17 +77,20 @@ function slot1.UpdateEscortItem(slot0, slot1, slot2, slot3)
 
 	GetImageSpriteFromAtlasAsync("levelmap/mapquad/" .. slot4.pic, "", slot1, true)
 
-	slot12[1] = Color.green
-	slot12[2] = Color.yellow
-	slot12[3] = Color.red
+	slot10 = slot1:Find("anim")
+	slot13 = ({
+		Color.green,
+		Color.yellow,
+		Color.red
+	})[table.indexof(pg.gameset.gardroad_count.description[1], slot2) or 1]
 
-	for slot18 = 0, slot1:Find("anim"):GetComponentsInChildren(typeof(Image)).Length - 1, 1 do
-		slot14[slot18].color = ({})[table.indexof(pg.gameset.gardroad_count.description[1], slot2) or 1]
+	for slot18 = 0, slot10:GetComponentsInChildren(typeof(Image)).Length - 1, 1 do
+		slot14[slot18].color = slot13
 	end
 
 	setImageColor(slot1, slot13)
 	onButton(slot0.sceneParent, slot1, function ()
-		uv0:InvokeParent("TrySwitchChapter", uv1)
+		slot0:InvokeParent("TrySwitchChapter", slot0)
 	end, SFX_PANEL)
 end
 

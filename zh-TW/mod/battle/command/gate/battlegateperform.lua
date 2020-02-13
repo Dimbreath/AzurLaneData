@@ -3,45 +3,46 @@ ys.Battle.BattleGatePerform = slot0
 slot0.__name = "BattleGatePerform"
 
 function slot0.Entrance(slot0, slot1)
-	slot2 = slot0.stageId
-	slot5.prefabFleet = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(pg.expedition_data_template[slot2].dungeon_id).fleet_prefab
-	slot5.stageId = slot2
-	slot5.system = SYSTEM_PERFORM
-	slot5.memory = slot0.memory
-	slot5.exitCallback = slot0.exitCallback
+	slot5 = {
+		prefabFleet = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(slot3).fleet_prefab,
+		stageId = slot0.stageId,
+		system = SYSTEM_PERFORM,
+		memory = slot0.memory,
+		exitCallback = slot0.exitCallback
+	}
 
 	if slot0.memory then
-		slot1:sendNotification(GAME.BEGIN_STAGE_DONE, {})
+		slot1:sendNotification(GAME.BEGIN_STAGE_DONE, slot5)
 	else
-		slot11[1] = slot2
+		BeginStageCommand.SendRequest(SYSTEM_PERFORM, {}, {
+			slot2
+		}, function (slot0)
+			slot0:sendNotification(GAME.STORY_UPDATE, {
+				storyId = pg.StoryMgr.GetInstance():GetStoryByName("index")[slot1]
+			})
 
-		BeginStageCommand.SendRequest(SYSTEM_PERFORM, {}, {}, function (slot0)
-			slot5.storyId = pg.StoryMgr.GetInstance():GetStoryByName("index")[uv1]
+			slot0.sendNotification.token = slot0.key
 
-			uv0:sendNotification(GAME.STORY_UPDATE, {})
-
-			uv2.token = slot0.key
-
-			uv0:sendNotification(GAME.BEGIN_STAGE_DONE, uv2)
+			slot0:sendNotification(GAME.BEGIN_STAGE_DONE, slot0.sendNotification)
 		end, function (slot0)
-			uv0:RequestFailStandardProcess(slot0)
+			slot0:RequestFailStandardProcess(slot0)
 		end)
 	end
 end
 
 function slot0.Exit(slot0, slot1)
 	if slot0.memory then
-		slot5.system = SYSTEM_PERFORM
-
-		slot1:sendNotification(GAME.FINISH_STAGE_DONE, {})
+		slot1:sendNotification(GAME.FINISH_STAGE_DONE, {
+			system = SYSTEM_PERFORM
+		})
 	else
 		slot1:SendRequest(slot1.GeneralPackage(slot0, {}), function (slot0)
-			slot4.system = SYSTEM_PERFORM
-			slot4.exitCallback = uv1.exitCallback
-
-			uv0:sendNotification(GAME.FINISH_STAGE_DONE, {})
+			slot0:sendNotification(GAME.FINISH_STAGE_DONE, {
+				system = SYSTEM_PERFORM,
+				exitCallback = slot1.exitCallback
+			})
 		end, function (slot0)
-			uv0:RequestFailStandardProcess(slot0)
+			slot0:RequestFailStandardProcess(slot0)
 		end)
 	end
 end
