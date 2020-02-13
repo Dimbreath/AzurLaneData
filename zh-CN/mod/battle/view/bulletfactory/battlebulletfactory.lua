@@ -127,19 +127,19 @@ end
 
 function slot2.GetFactoryList()
 	if uv0._factoryList == nil then
-		uv0._factoryList = {
-			[uv1.BulletType.CANNON] = uv2.Battle.BattleCannonBulletFactory.GetInstance(),
-			[uv1.BulletType.BOMB] = uv2.Battle.BattleBombBulletFactory.GetInstance(),
-			[uv1.BulletType.TORPEDO] = uv2.Battle.BattleTorpedoBulletFactory.GetInstance(),
-			[uv1.BulletType.DIRECT] = uv2.Battle.BattleDirectBulletFactory.GetInstance(),
-			[uv1.BulletType.SHRAPNEL] = uv2.Battle.BattleShrapnelBulletFactory.GetInstance(),
-			[uv1.BulletType.ANTI_AIR] = uv2.Battle.BattleAntiAirBulletFactory.GetInstance(),
-			[uv1.BulletType.ANTI_SEA] = uv2.Battle.BattleAntiSeaBulletFactory.GetInstance(),
-			[uv1.BulletType.STRAY] = uv2.Battle.BattleStrayBulletFactory.GetInstance(),
-			[uv1.BulletType.EFFECT] = uv2.Battle.BattleEffectBulletFactory.GetInstance(),
-			[uv1.BulletType.BEAM] = uv2.Battle.BattleBeamBulletFactory.GetInstance(),
-			[uv1.BulletType.G_BULLET] = uv2.Battle.BattleGravitationBulletFactory.GetInstance()
-		}
+		slot1[uv1.BulletType.CANNON] = uv2.Battle.BattleCannonBulletFactory.GetInstance()
+		slot1[uv1.BulletType.BOMB] = uv2.Battle.BattleBombBulletFactory.GetInstance()
+		slot1[uv1.BulletType.TORPEDO] = uv2.Battle.BattleTorpedoBulletFactory.GetInstance()
+		slot1[uv1.BulletType.DIRECT] = uv2.Battle.BattleDirectBulletFactory.GetInstance()
+		slot1[uv1.BulletType.SHRAPNEL] = uv2.Battle.BattleShrapnelBulletFactory.GetInstance()
+		slot1[uv1.BulletType.ANTI_AIR] = uv2.Battle.BattleAntiAirBulletFactory.GetInstance()
+		slot1[uv1.BulletType.ANTI_SEA] = uv2.Battle.BattleAntiSeaBulletFactory.GetInstance()
+		slot1[uv1.BulletType.STRAY] = uv2.Battle.BattleStrayBulletFactory.GetInstance()
+		slot1[uv1.BulletType.EFFECT] = uv2.Battle.BattleEffectBulletFactory.GetInstance()
+		slot1[uv1.BulletType.BEAM] = uv2.Battle.BattleBeamBulletFactory.GetInstance()
+		slot1[uv1.BulletType.G_BULLET] = uv2.Battle.BattleGravitationBulletFactory.GetInstance()
+		slot1[uv1.BulletType.ELECTRIC_ARC] = uv2.Battle.BattleElectricArcBulletFactory.GetInstance()
+		uv0._factoryList = {}
 	end
 
 	return uv0._factoryList

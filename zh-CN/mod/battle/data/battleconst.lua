@@ -163,7 +163,8 @@ slot0.BulletType = {
 	STRAY = 8,
 	EFFECT = 9,
 	BEAM = 10,
-	G_BULLET = 11
+	G_BULLET = 11,
+	ELECTRIC_ARC = 12
 }
 slot0.BulletDamageType = {
 	NORMAL = 1,

@@ -33,6 +33,7 @@ function slot5.Init(slot0)
 	slot0._aircraftList = {}
 	slot0._areaList = {}
 	slot0._shelterList = {}
+	slot0._arcEffectList = {}
 	slot0._bulletContainer = GameObject.Find("BulletContainer")
 	slot0._fxPool = uv0.Battle.BattleFXPool.GetInstance()
 
@@ -73,17 +74,19 @@ function slot5.InitCharacterFactory(slot0)
 	slot1 = slot0._state:GetUI()
 
 	uv0.Battle.BattleHPBarManager.GetInstance():InitialPoolRoot(slot1:findTF(uv0.Battle.BattleHPBarManager.ROOT_NAME))
-	uv0.Battle.BattleArrowManager.GetInstance():Init(slot1:findTF(uv0.Battle.BattleArrowManager.ROOT_NAME))
 
-	slot0._characterFactoryList = {
-		[uv1.UnitType.PLAYER_UNIT] = uv0.Battle.BattlePlayerCharacterFactory.GetInstance(),
-		[uv1.UnitType.ENEMY_UNIT] = uv0.Battle.BattleEnemyCharacterFactory.GetInstance(),
-		[uv1.UnitType.BOSS_UNIT] = uv0.Battle.BattleBossCharacterFactory.GetInstance(),
-		[uv1.UnitType.NPC_UNIT] = uv0.Battle.BattleNPCCharacterFactory.GetInstance(),
-		[uv1.UnitType.AIRCRAFT_UNIT] = uv0.Battle.BattleAircraftCharacterFactory.GetInstance(),
-		[uv1.UnitType.AIRFIGHTER_UNIT] = uv0.Battle.BattleAirFighterCharacterFactory.GetInstance(),
-		[uv1.UnitType.SUB_UNIT] = uv0.Battle.BattleSubCharacterFactory.GetInstance()
-	}
+	slot2 = uv0.Battle.BattleArrowManager.GetInstance()
+
+	slot2:Init(slot1:findTF(uv0.Battle.BattleArrowManager.ROOT_NAME))
+
+	slot2[uv1.UnitType.PLAYER_UNIT] = uv0.Battle.BattlePlayerCharacterFactory.GetInstance()
+	slot2[uv1.UnitType.ENEMY_UNIT] = uv0.Battle.BattleEnemyCharacterFactory.GetInstance()
+	slot2[uv1.UnitType.BOSS_UNIT] = uv0.Battle.BattleBossCharacterFactory.GetInstance()
+	slot2[uv1.UnitType.NPC_UNIT] = uv0.Battle.BattleNPCCharacterFactory.GetInstance()
+	slot2[uv1.UnitType.AIRCRAFT_UNIT] = uv0.Battle.BattleAircraftCharacterFactory.GetInstance()
+	slot2[uv1.UnitType.AIRFIGHTER_UNIT] = uv0.Battle.BattleAirFighterCharacterFactory.GetInstance()
+	slot2[uv1.UnitType.SUB_UNIT] = uv0.Battle.BattleSubCharacterFactory.GetInstance()
+	slot0._characterFactoryList = {}
 end
 
 function slot5.InitPlayerAntiAirArea(slot0)
@@ -299,6 +302,10 @@ function slot5.Update(slot0)
 		slot5:Update()
 	end
 
+	for slot4, slot5 in ipairs(slot0._arcEffectList) do
+		slot5:Update()
+	end
+
 	slot0._popNumPool:Update()
 	slot0:UpdateAntiAirArea()
 	slot0:UpdateFlagShipMark()
@@ -337,10 +344,26 @@ function slot5.Pause(slot0)
 			slot6[slot10]:Pause()
 		end
 	end
+
+	for slot4, slot5 in ipairs(slot0._arcEffectList) do
+		slot6 = slot5._go
+
+		for slot10 = 0, slot6:GetComponentsInChildren(typeof(ParticleSystem)).Length - 1, 1 do
+			slot6[slot10]:Pause()
+		end
+	end
 end
 
 function slot5.Resume(slot0)
 	for slot4, slot5 in pairs(slot0._areaList) do
+		slot6 = slot5._go
+
+		for slot10 = 0, slot6:GetComponentsInChildren(typeof(ParticleSystem)).Length - 1, 1 do
+			slot6[slot10]:Play()
+		end
+	end
+
+	for slot4, slot5 in ipairs(slot0._arcEffectList) do
 		slot6 = slot5._go
 
 		for slot10 = 0, slot6:GetComponentsInChildren(typeof(ParticleSystem)).Length - 1, 1 do
@@ -485,6 +508,26 @@ function slot5.RemoveArea(slot0, slot1)
 	end
 end
 
+function slot5.AddArcEffect(slot0, slot1, slot2, slot3)
+	slot4 = slot0._fxPool:GetFX(slot1)
+
+	pg.EffectMgr.GetInstance():PlayBattleEffect(slot4, Vector3.zero, true, function ()
+		uv0:RemoveArcEffect(uv1)
+	end)
+	table.insert(slot0._arcEffectList, uv0.Battle.BattleArcEffect.New(slot4, slot2, slot3))
+end
+
+function slot5.RemoveArcEffect(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0._arcEffectList) do
+		if slot6 == slot1 then
+			slot6:Dispose()
+			table.remove(slot0._arcEffectList, slot5)
+
+			break
+		end
+	end
+end
+
 function slot5.Reinitialize(slot0)
 	slot0:Clear()
 	slot0:Init()
@@ -539,6 +582,12 @@ function slot5.Clear(slot0)
 	end
 
 	slot0._areaList = nil
+
+	for slot5, slot6 in ipairs(slot0._arcEffectList) do
+		slot6:Dispose()
+	end
+
+	slot0._arcEffectList = nil
 
 	uv0.Battle.BattleCharacterFXContainersPool.GetInstance():Clear()
 	slot0._popNumPool:Clear()

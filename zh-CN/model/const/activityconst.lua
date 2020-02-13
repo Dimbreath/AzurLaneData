@@ -225,6 +225,7 @@ slot0.BEAT_MONSTER_NIAN_2020 = 470
 slot0.MONOPOLY_2020 = 473
 slot0.SICHUANOPERA = 485
 slot0.LANTERNFESTIVAL = 486
+slot0.VALENTINE = 491
 slot0.SUMMER_REMAKE = 20248
 slot0.SUMMER_REMAKEPT = 20249
 slot0.WUDAOLOGIN_ID = 30186
@@ -235,6 +236,7 @@ slot0.MIKASA_REPAIRE_ACTIVITY = 40015
 slot0.MIKASA_DAILY_TASK_ACTIVITY = 40013
 slot0.SKIN_GELIDELI = 40031
 slot0.SKIN_KISARAGI = 40039
+slot0.CARD_PAIR_FX_PAGE = 40050
 slot0.MORAN_KR_PT_ID = 20346
 slot0.MORAN_KR_PREVIEW_ID = 20345
 slot0.TWCELEBRATION_1 = 40002
@@ -270,32 +272,29 @@ slot0.INSTAGRAM_OP_COMMENT = 2
 slot0.INSTAGRAM_OP_LIKE = 3
 slot0.INSTAGRAM_OP_SHARE = 4
 slot0.INSTAGRAM_OP_MARK_READ = 5
-slot0.LIMIT_SKIN_SHOP_TIME = {
-	{
-		{
-			2018,
-			5,
-			16
-		},
-		{
-			0,
-			0,
-			0
-		}
-	},
-	{
-		{
-			2019,
-			11,
-			14
-		},
-		{
-			0,
-			0,
-			0
-		}
-	}
+slot3[1] = {
+	2018,
+	5,
+	16
 }
+slot3[2] = {
+	0,
+	0,
+	0
+}
+slot2[1] = {}
+slot3[1] = {
+	2019,
+	11,
+	14
+}
+slot3[2] = {
+	0,
+	0,
+	0
+}
+slot2[2] = {}
+slot0.LIMIT_SKIN_SHOP_TIME = {}
 
 function slot0.BBRule(slot0)
 	_.each(slot0, function (slot0)
