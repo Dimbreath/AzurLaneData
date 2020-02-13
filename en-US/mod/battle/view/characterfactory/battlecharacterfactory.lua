@@ -1,6 +1,4 @@
-slot0 = ys
-slot0 = slot0 or {}
-ys = slot0
+ys = ys or {}
 slot0 = ys
 slot1 = singletonClass
 slot2 = "BattleCharacterFactory"
@@ -29,6 +27,7 @@ slot2 = "Bomb"
 slot1.BOMB_FX_NAME = slot2
 
 function slot2(slot0)
+	return
 end
 
 slot1.Ctor = slot2
@@ -62,14 +61,14 @@ end
 slot1.CreateCharacter = slot2
 
 function slot2(slot0)
-	slot1 = uv0
+	slot1 = slot0
 	slot1 = slot1.Battle
 	slot1 = slot1.BattleState
 	slot1 = slot1.GetInstance
 	slot1 = slot1()
 	slot2 = slot1
 	slot1 = slot1.GetMediatorByName
-	slot3 = uv0
+	slot3 = slot0
 	slot3 = slot3.Battle
 	slot3 = slot3.BattleSceneMediator
 	slot3 = slot3.__name
@@ -80,7 +79,7 @@ end
 slot1.GetSceneMediator = slot2
 
 function slot2(slot0)
-	slot1 = uv0
+	slot1 = slot0
 	slot1 = slot1.Battle
 	slot1 = slot1.BattleFXPool
 	slot1 = slot1.GetInstance
@@ -91,7 +90,7 @@ end
 slot1.GetFXPool = slot2
 
 function slot2(slot0)
-	slot1 = uv0
+	slot1 = slot0
 	slot1 = slot1.Battle
 	slot1 = slot1.BattleResourceManager
 	slot1 = slot1.GetInstance
@@ -102,7 +101,7 @@ end
 slot1.GetCharacterPool = slot2
 
 function slot2(slot0)
-	slot1 = uv0
+	slot1 = slot0
 	slot1 = slot1.Battle
 	slot1 = slot1.BattleHPBarManager
 	slot1 = slot1.GetInstance
@@ -113,13 +112,13 @@ end
 slot1.GetHPBarPool = slot2
 
 function slot2(slot0)
-	slot1 = uv0
+	slot1 = slot0
 	slot1 = slot1.Battle
 	slot1 = slot1.BattleDataProxy
 	slot1 = slot1.GetInstance
 	slot1 = slot1()
 	slot1 = slot1._mapId
-	slot2 = uv0
+	slot2 = slot0
 	slot2 = slot2.Battle
 	slot2 = slot2.BattleDataFunction
 	slot2 = slot2.GetDivingFilter
@@ -139,7 +138,7 @@ end
 slot1.GetDivingFilterColor = slot2
 
 function slot2(slot0)
-	slot1 = uv0
+	slot1 = slot0
 	slot1 = slot1.Battle
 	slot1 = slot1.BattleCharacterFXContainersPool
 	slot1 = slot1.GetInstance
@@ -174,39 +173,8 @@ end
 slot1.MakeBloodBar = slot2
 
 function slot2(slot0, slot1, slot2, slot3)
-	slot5 = slot1
-	slot4 = slot1.GetUnitData
-	slot4 = slot4(slot5)
-	slot6 = slot4
-	slot5 = slot4.GetTemplate
-	slot5 = slot5(slot6)
-	slot5 = slot5.hp_bar
-	slot5 = slot5[1]
-	slot6 = slot2.transform
-	slot7 = slot6.rect
-	slot7 = slot7.height
-	slot8 = Vector2
-	slot9 = slot5
-	slot10 = slot7
-	slot8 = slot8(slot9, slot10)
-	slot6.sizeDelta = slot8
-	slot9 = slot6
-	slot8 = slot6.Find
-	slot10 = "blood"
-	slot8 = slot8(slot9, slot10)
-	slot8 = slot8.transform
-	slot9 = slot8.rect
-	slot7 = slot9.height
-	slot9 = Vector2
-	slot10 = slot5 + slot3
-
-	if not slot10 then
-		slot10 = 0
-	end
-
-	slot11 = slot7
-	slot9 = slot9(slot10, slot11)
-	slot8.sizeDelta = slot9
+	slot2.transform.sizeDelta = Vector2(slot5, slot7)
+	slot2.transform.Find(slot6, "blood").transform.sizeDelta = Vector2(slot1:GetUnitData().GetTemplate(slot4).hp_bar[1] + slot3 or 0, slot2.transform.Find(slot6, "blood").transform.rect.height)
 end
 
 slot1.SetHPBarWidth = slot2
@@ -264,7 +232,7 @@ function slot2(slot0, slot1)
 	slot6 = slot6.fx_container
 	slot7 = {}
 	slot8 = ipairs
-	slot9 = uv0
+	slot9 = slot0
 	slot9 = slot9.Battle
 	slot9 = slot9.BattleConst
 	slot9 = slot9.FXContainerIndex
@@ -406,7 +374,7 @@ end
 slot1.MakePopNumPool = slot2
 
 function slot2(slot0, slot1)
-	slot2 = uv0
+	slot2 = slot0
 	slot2 = slot2.Battle
 	slot2 = slot2.BattleLockTag
 	slot2 = slot2.New
@@ -496,14 +464,13 @@ slot1.MakeVigilantBar = slot2
 
 function slot2(slot0, slot1, slot2)
 	if slot2 then
-		slot3 = uv0
+		slot3 = slot0
 		slot3 = slot3.Battle
 		slot3 = slot3.BattleConst
 		slot3 = slot3.UnitDeathReason
 		slot3 = slot3.KILLED
 
 		if slot2 ~= slot3 then
-			-- Nothing
 		end
 	else
 		slot4 = slot0
@@ -547,3 +514,5 @@ function slot2(slot0, slot1, slot2)
 end
 
 slot1.RemoveCharacter = slot2
+
+return

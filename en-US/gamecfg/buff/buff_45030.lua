@@ -1,33 +1,3 @@
-slot2.trigger = {
-	"onFlagShip",
-	"onStack"
-}
-slot2.arg_list = {
-	buff_id = 45031,
-	target = "TargetAllHelp"
-}
-slot1[1] = {
-	type = "BattleBuffAddBuff"
-}
-slot2.trigger = {
-	"onSubLeader ",
-	"onStack"
-}
-slot3.target = {
-	"TargetAllHelp",
-	"TargetShipType"
-}
-slot3.ship_type_list = {
-	8
-}
-slot2.arg_list = {
-	buff_id = 45031
-}
-slot1[2] = {
-	type = "BattleBuffAddBuff"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "指挥喵天赋-不动如山",
@@ -37,5 +7,36 @@ return {
 	stack = 2,
 	id = 45030,
 	icon = 45030,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onFlagShip",
+				"onStack"
+			},
+			arg_list = {
+				buff_id = 45031,
+				target = "TargetAllHelp"
+			}
+		},
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onSubLeader ",
+				"onStack"
+			},
+			arg_list = {
+				buff_id = 45031,
+				target = {
+					"TargetAllHelp",
+					"TargetShipType"
+				},
+				ship_type_list = {
+					8,
+					17
+				}
+			}
+		}
+	}
 }

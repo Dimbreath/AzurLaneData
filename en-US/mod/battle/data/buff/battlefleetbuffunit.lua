@@ -1,25 +1,23 @@
 ys = ys or {}
-slot0 = ys
-slot1 = slot0.Battle.BattleBuffEvent
-slot2 = slot0.Battle.BattleConst.BuffEffectType
+slot1 = ys.Battle.BattleBuffEvent
+slot2 = ys.Battle.BattleConst.BuffEffectType
 slot3 = class("BattleFleetBuffUnit")
-slot0.Battle.BattleFleetBuffUnit = slot3
+ys.Battle.BattleFleetBuffUnit = slot3
 slot3.__name = "BattleFleetBuffUnit"
 
 function slot3.Ctor(slot0, slot1, slot2)
-	slot2 = slot2 or 1
 	slot0._id = slot1
-	slot0._tempData = uv0.Battle.BattleDataFunction.GetBuffTemplate(slot1, slot2)
+	slot0._tempData = slot0.Battle.BattleDataFunction.GetBuffTemplate(slot1, slot2 or 1)
 	slot0._time = slot0._tempData.time
 	slot0._RemoveTime = 0
 	slot0._effectList = {}
 	slot0._triggerSearchTable = {}
-	slot0._level = slot2
+	slot0._level = slot2 or 1
 
 	for slot6, slot7 in ipairs(slot0._tempData.effect_list) do
-		slot0._effectList[slot6] = uv0.Battle[slot7.type].New(slot7)
+		slot0._effectList[slot6] = slot0.Battle[slot7.type].New(slot7)
 
-		for slot13, slot14 in ipairs(slot7.trigger) do
+		for slot13, slot14 in ipairs(slot9) do
 			if slot0._triggerSearchTable[slot14] == nil then
 				slot0._triggerSearchTable[slot14] = {}
 			end
@@ -48,22 +46,23 @@ function slot3.Attach(slot0, slot1)
 	slot0._stack = 1
 
 	slot0:SetArgs(slot1)
-	slot0:onTrigger(uv0.ON_ATTACH, slot1)
+	slot0:onTrigger(slot0.ON_ATTACH, slot1)
 	slot0:setRemoveTime()
 end
 
 function slot3.Stack(slot0, slot1)
 	slot0._stack = math.min(slot0._stack + 1, slot0._tempData.stack)
 
-	slot0:onTrigger(uv0.ON_STACK, slot1)
+	slot0:onTrigger(slot0.ON_STACK, slot1)
 	slot0:setRemoveTime()
 end
 
 function slot3.UpdateStack(slot0, slot1, slot2)
+	return
 end
 
 function slot3.Remove(slot0)
-	slot0:onTrigger(uv0.ON_REMOVE, slot0._host)
+	slot0:onTrigger(slot0.ON_REMOVE, slot0._host)
 
 	slot0._host:GetFleetBuffList()[slot0._id] = nil
 
@@ -74,7 +73,7 @@ function slot3.Update(slot0, slot1, slot2)
 	if slot0:IsTimeToRemove(slot2) then
 		slot0:Remove()
 	else
-		slot0:onTrigger(uv0.ON_UPDATE, slot1, slot2)
+		slot0:onTrigger(slot0.ON_UPDATE, slot1, slot2)
 	end
 end
 
@@ -131,3 +130,5 @@ function slot3.Clear(slot0)
 		slot5:Clear()
 	end
 end
+
+return

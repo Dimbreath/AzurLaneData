@@ -1,16 +1,3 @@
-slot2.trigger = {
-	"onUpdate"
-}
-slot2.arg_list = {
-	time = 3,
-	target = "TargetSelf",
-	maxHPRatio = 0.01
-}
-slot1[1] = {
-	type = "BattleBuffHOT"
-}
-slot0.effect_list = {}
-
 return {
 	time = 3,
 	name = "治疗光环",
@@ -20,5 +7,18 @@ return {
 	stack = 1,
 	id = 350001,
 	icon = 350001,
-	last_effect = "Health"
+	last_effect = "Health",
+	effect_list = {
+		{
+			type = "BattleBuffHOT",
+			trigger = {
+				"onUpdate"
+			},
+			arg_list = {
+				time = 3,
+				target = "TargetSelf",
+				maxHPRatio = 0.01
+			}
+		}
+	}
 }

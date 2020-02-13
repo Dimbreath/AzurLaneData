@@ -1,20 +1,3 @@
-slot0.castCV = {
-	key = "skill",
-	skinID = 10300010
-}
-slot2.target_choise = {
-	"TargetPlayerVanguardFleet"
-}
-slot2.arg_list = {
-	buff_id = 7512
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillAddBuff"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "传颂之物前排减伤3%",
@@ -23,5 +6,22 @@ return {
 	aniEffect = "",
 	desc = "传颂之物前排减伤3%",
 	painting = "jiuyuan",
-	id = 7511
+	id = 7511,
+	castCV = {
+		key = "skill",
+		skinID = 10300010
+	},
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = {
+				"TargetPlayerVanguardFleet"
+			},
+			arg_list = {
+				buff_id = 7512
+			}
+		}
+	}
 }

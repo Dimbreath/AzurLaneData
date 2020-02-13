@@ -37,29 +37,25 @@ function slot0.update(slot0, slot1)
 end
 
 function slot0.flush(slot0)
-	slot1 = slot0.shipVO
-	slot4.x = slot1:isBluePrintShip() and -18 or -7.5
-
-	setAnchoredPosition(slot0.lvTxt.gameObject, {})
+	setAnchoredPosition(slot0.lvTxt.gameObject, {
+		x = (slot0.shipVO:isBluePrintShip() and -18) or -7.5
+	})
 
 	slot0.lvTxt.text = "Lv." .. slot1.level
 	slot3 = slot1:getStar()
 
 	slot0.UIlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setActive(slot2:Find("star"), slot1 < uv0)
+			setActive(slot2:Find("star"), slot1 < slot0)
 		end
 	end)
-	slot0.UIlist:align(slot1:getMaxStar())
+	slot0.UIlist:align(setAnchoredPosition)
 	slot0.nameTxt:setText(slot1:getName())
 	slot0:updateProps({})
 	setPaintingPrefabAsync(slot0.paintingTr, slot1:getPainting(), "biandui")
-
-	slot4 = slot0.shipVO
-
-	setRectShipCardFrame(slot0.frame, slot4:rarity2bgPrint(), slot1.propose and "prop" .. (slot1:isBluePrintShip() and slot4 or "") or nil)
-	GetSpriteFromAtlasAsync("bg/star_level_card_" .. slot4, "", function (slot0)
-		uv0.bgImage.sprite = slot0
+	setRectShipCardFrame(slot0.frame, slot0.shipVO:rarity2bgPrint(), (slot1.propose and "prop" .. ((slot1:isBluePrintShip() and ) or "")) or nil)
+	GetSpriteFromAtlasAsync("bg/star_level_card_" .. , "", function (slot0)
+		slot0.bgImage.sprite = slot0
 	end)
 	setImageSprite(slot0.shipType, GetSpriteFromAtlas("shiptype", shipType2print(slot0.shipVO:getShipType())))
 
@@ -67,21 +63,22 @@ function slot0.flush(slot0)
 	slot7 = false
 
 	if slot1.propose then
-		slot6 = "duang_6_jiehun" .. (slot1:isBluePrintShip() and "_tuzhi" or "") .. "_1"
+		slot6 = "duang_6_jiehun" .. ((slot1:isBluePrintShip() and "_tuzhi") or "") .. "_1"
 	elseif slot1:getRarity() == 6 then
 		slot6 = "duang_6_1"
 	end
 
 	if slot6 then
 		eachChild(slot0.otherBg, function (slot0)
-			setActive(slot0, slot0.name == uv0 .. "(Clone)")
+			setActive(slot0, slot0.name == slot0 .. "(Clone)")
 
-			uv1 = uv1 or slot0.name == uv0 .. "(Clone)"
+			slot1 = setActive or slot0.name == slot0 .. "(Clone)"
+			slot1 = slot1
 		end)
 
 		if not slot7 then
 			PoolMgr.GetInstance():GetPrefab("effect/" .. slot6, "", true, function (slot0)
-				setParent(slot0, uv0.otherBg)
+				setParent(slot0, slot0.otherBg)
 			end)
 		end
 	end

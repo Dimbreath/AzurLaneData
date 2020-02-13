@@ -305,30 +305,31 @@ SHIPINFO.name = "shipinfo"
 SHIPINFO.full_name = ".common.shipinfo"
 SHIPINFO.nested_types = {}
 SHIPINFO.enum_types = {}
-slot75[1] = slot1
-slot75[2] = slot2
-slot75[3] = slot3
-slot75[4] = slot4
-slot75[5] = slot5
-slot75[6] = slot6
-slot75[7] = slot7
-slot75[8] = slot8
-slot75[9] = slot9
-slot75[10] = slot10
-slot75[11] = slot11
-slot75[12] = slot12
-slot75[13] = slot13
-slot75[14] = slot14
-slot75[15] = slot15
-slot75[16] = slot16
-slot75[17] = slot17
-slot75[18] = slot18
-slot75[19] = slot19
-slot75[20] = slot20
-slot75[21] = slot21
-slot75[22] = slot22
-slot75[23] = slot23
-SHIPINFO.fields = {}
+SHIPINFO.fields = {
+	slot1,
+	slot2,
+	slot3,
+	slot4,
+	slot5,
+	slot6,
+	slot7,
+	slot8,
+	slot9,
+	slot10,
+	slot11,
+	slot12,
+	slot13,
+	slot14,
+	slot15,
+	slot16,
+	slot17,
+	slot18,
+	slot19,
+	slot20,
+	slot21,
+	slot22,
+	slot23
+}
 SHIPINFO.is_extendable = false
 SHIPINFO.extensions = {}
 slot24.name = "state"
@@ -380,12 +381,13 @@ SHIPSTATE.name = "shipstate"
 SHIPSTATE.full_name = ".common.shipstate"
 SHIPSTATE.nested_types = {}
 SHIPSTATE.enum_types = {}
-slot75[1] = slot24
-slot75[2] = slot25
-slot75[3] = slot26
-slot75[4] = slot27
-slot75[5] = slot28
-SHIPSTATE.fields = {}
+SHIPSTATE.fields = {
+	slot24,
+	slot25,
+	slot26,
+	slot27,
+	slot28
+}
 SHIPSTATE.is_extendable = false
 SHIPSTATE.extensions = {}
 slot29.name = "id"
@@ -429,11 +431,12 @@ EQUIPINFO.name = "equipinfo"
 EQUIPINFO.full_name = ".common.equipinfo"
 EQUIPINFO.nested_types = {}
 EQUIPINFO.enum_types = {}
-slot75[1] = slot29
-slot75[2] = slot30
-slot75[3] = slot31
-slot75[4] = slot32
-EQUIPINFO.fields = {}
+EQUIPINFO.fields = {
+	slot29,
+	slot30,
+	slot31,
+	slot32
+}
 EQUIPINFO.is_extendable = false
 EQUIPINFO.extensions = {}
 slot33.name = "id"
@@ -458,9 +461,10 @@ AFFIXINFO.name = "affixinfo"
 AFFIXINFO.full_name = ".common.affixinfo"
 AFFIXINFO.nested_types = {}
 AFFIXINFO.enum_types = {}
-slot75[1] = slot33
-slot75[2] = slot34
-AFFIXINFO.fields = {}
+AFFIXINFO.fields = {
+	slot33,
+	slot34
+}
 AFFIXINFO.is_extendable = false
 AFFIXINFO.extensions = {}
 slot35.name = "skill_id"
@@ -494,10 +498,11 @@ SHIPSKILL.name = "shipskill"
 SHIPSKILL.full_name = ".common.shipskill"
 SHIPSKILL.nested_types = {}
 SHIPSKILL.enum_types = {}
-slot75[1] = slot35
-slot75[2] = slot36
-slot75[3] = slot37
-SHIPSKILL.fields = {}
+SHIPSKILL.fields = {
+	slot35,
+	slot36,
+	slot37
+}
 SHIPSKILL.is_extendable = false
 SHIPSKILL.extensions = {}
 slot38.name = "id"
@@ -522,9 +527,10 @@ STRENGTH_INFO.name = "strength_info"
 STRENGTH_INFO.full_name = ".common.strength_info"
 STRENGTH_INFO.nested_types = {}
 STRENGTH_INFO.enum_types = {}
-slot75[1] = slot38
-slot75[2] = slot39
-STRENGTH_INFO.fields = {}
+STRENGTH_INFO.fields = {
+	slot38,
+	slot39
+}
 STRENGTH_INFO.is_extendable = false
 STRENGTH_INFO.extensions = {}
 slot40.name = "id"
@@ -549,9 +555,10 @@ TRANSFORM_INFO.name = "transform_info"
 TRANSFORM_INFO.full_name = ".common.transform_info"
 TRANSFORM_INFO.nested_types = {}
 TRANSFORM_INFO.enum_types = {}
-slot75[1] = slot40
-slot75[2] = slot41
-TRANSFORM_INFO.fields = {}
+TRANSFORM_INFO.fields = {
+	slot40,
+	slot41
+}
 TRANSFORM_INFO.is_extendable = false
 TRANSFORM_INFO.extensions = {}
 slot42.name = "type"
@@ -585,10 +592,11 @@ DROPINFO.name = "dropinfo"
 DROPINFO.full_name = ".common.dropinfo"
 DROPINFO.nested_types = {}
 DROPINFO.enum_types = {}
-slot75[1] = slot42
-slot75[2] = slot43
-slot75[3] = slot44
-DROPINFO.fields = {}
+DROPINFO.fields = {
+	slot42,
+	slot43,
+	slot44
+}
 DROPINFO.is_extendable = false
 DROPINFO.extensions = {}
 slot45.name = "id"
@@ -704,19 +712,20 @@ COMMANDERINFO.name = "commanderinfo"
 COMMANDERINFO.full_name = ".common.commanderinfo"
 COMMANDERINFO.nested_types = {}
 COMMANDERINFO.enum_types = {}
-slot75[1] = slot45
-slot75[2] = slot46
-slot75[3] = slot47
-slot75[4] = slot48
-slot75[5] = slot49
-slot75[6] = slot50
-slot75[7] = slot51
-slot75[8] = slot52
-slot75[9] = slot53
-slot75[10] = slot54
-slot75[11] = slot55
-slot75[12] = slot56
-COMMANDERINFO.fields = {}
+COMMANDERINFO.fields = {
+	slot45,
+	slot46,
+	slot47,
+	slot48,
+	slot49,
+	slot50,
+	slot51,
+	slot52,
+	slot53,
+	slot54,
+	slot55,
+	slot56
+}
 COMMANDERINFO.is_extendable = false
 COMMANDERINFO.extensions = {}
 slot57.name = "id"
@@ -741,9 +750,10 @@ SKILLINFO.name = "skillinfo"
 SKILLINFO.full_name = ".common.skillinfo"
 SKILLINFO.nested_types = {}
 SKILLINFO.enum_types = {}
-slot75[1] = slot57
-slot75[2] = slot58
-SKILLINFO.fields = {}
+SKILLINFO.fields = {
+	slot57,
+	slot58
+}
 SKILLINFO.is_extendable = false
 SKILLINFO.extensions = {}
 slot59.name = "pos"
@@ -768,9 +778,10 @@ COMMANDERSINFO.name = "commandersinfo"
 COMMANDERSINFO.full_name = ".common.commandersinfo"
 COMMANDERSINFO.nested_types = {}
 COMMANDERSINFO.enum_types = {}
-slot75[1] = slot59
-slot75[2] = slot60
-COMMANDERSINFO.fields = {}
+COMMANDERSINFO.fields = {
+	slot59,
+	slot60
+}
 COMMANDERSINFO.is_extendable = false
 COMMANDERSINFO.extensions = {}
 slot61.name = "id"
@@ -814,11 +825,12 @@ USERSIMPLEINFO.name = "usersimpleinfo"
 USERSIMPLEINFO.full_name = ".common.usersimpleinfo"
 USERSIMPLEINFO.nested_types = {}
 USERSIMPLEINFO.enum_types = {}
-slot75[1] = slot61
-slot75[2] = slot62
-slot75[3] = slot63
-slot75[4] = slot64
-USERSIMPLEINFO.fields = {}
+USERSIMPLEINFO.fields = {
+	slot61,
+	slot62,
+	slot63,
+	slot64
+}
 USERSIMPLEINFO.is_extendable = false
 USERSIMPLEINFO.extensions = {}
 slot65.name = "icon"
@@ -888,14 +900,15 @@ DISPLAYINFO.name = "displayinfo"
 DISPLAYINFO.full_name = ".common.displayinfo"
 DISPLAYINFO.nested_types = {}
 DISPLAYINFO.enum_types = {}
-slot75[1] = slot65
-slot75[2] = slot66
-slot75[3] = slot67
-slot75[4] = slot68
-slot75[5] = slot69
-slot75[6] = slot70
-slot75[7] = slot71
-DISPLAYINFO.fields = {}
+DISPLAYINFO.fields = {
+	slot65,
+	slot66,
+	slot67,
+	slot68,
+	slot69,
+	slot70,
+	slot71
+}
 DISPLAYINFO.is_extendable = false
 DISPLAYINFO.extensions = {}
 slot72.name = "id"
@@ -920,9 +933,10 @@ IDTIMEINFO.name = "idtimeinfo"
 IDTIMEINFO.full_name = ".common.idtimeinfo"
 IDTIMEINFO.nested_types = {}
 IDTIMEINFO.enum_types = {}
-slot75[1] = slot72
-slot75[2] = slot73
-IDTIMEINFO.fields = {}
+IDTIMEINFO.fields = {
+	slot72,
+	slot73
+}
 IDTIMEINFO.is_extendable = false
 IDTIMEINFO.extensions = {}
 affixinfo = slot0.Message(AFFIXINFO)
@@ -939,3 +953,5 @@ skillinfo = slot0.Message(SKILLINFO)
 strength_info = slot0.Message(STRENGTH_INFO)
 transform_info = slot0.Message(TRANSFORM_INFO)
 usersimpleinfo = slot0.Message(USERSIMPLEINFO)
+
+return

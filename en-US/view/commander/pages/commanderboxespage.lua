@@ -18,15 +18,15 @@ function slot0.OnInit(slot0)
 
 	setActive(slot0.mask, false)
 	onButton(slot0, slot0.closeBtn, function ()
-		uv0:Hide()
+		slot0:Hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0._tf, function ()
-		uv0:Hide()
+		slot0:Hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.startBtn, function ()
-		for slot4, slot5 in ipairs(uv0.boxes) do
+		for slot4, slot5 in ipairs(slot0.boxes) do
 			if slot5:getState() == CommanderBox.STATE_EMPTY then
-				slot0 = 0 + 1
+				slot0 = slot0 + 1
 			end
 		end
 
@@ -36,15 +36,15 @@ function slot0.OnInit(slot0)
 			return
 		end
 
-		uv0.buildPoolPanel:Show(uv0.pools, slot0)
+		slot0.buildPoolPanel:Show(slot0.pools, slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.finishBtn, function ()
-		if #uv0.boxes <= 0 then
+		if #slot0.boxes <= 0 then
 			return
 		end
 
-		scrollTo(uv0.scrollRect, 0, 1)
-		uv0:emit(CommandRoomMediator.ON_BATCH_GET, uv0.boxes)
+		scrollTo(slot0.scrollRect, 0, 1)
+		scrollTo:emit(CommandRoomMediator.ON_BATCH_GET, slot0.boxes)
 	end, SFX_PANEL)
 	setActive(slot0._tf:Find("frame"), true)
 end
@@ -52,11 +52,6 @@ end
 function slot0.Update(slot0, slot1, slot2)
 	slot0.boxes = slot1
 	slot0.pools = slot2
-	slot3 = _.map(slot0.boxes, function (slot0)
-		slot0.state = slot0:getState()
-
-		return slot0
-	end)
 
 	table.sort(slot3, function (slot0, slot1)
 		if slot0.state == slot1.state then
@@ -67,10 +62,10 @@ function slot0.Update(slot0, slot1, slot2)
 	end)
 	slot0.boxesList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0[slot1 + 1]
+			slot3 = slot0[slot1 + 1]
 
-			if not uv1.boxCards[slot1] then
-				uv1.boxCards[slot1] = CommanderBoxCard.New(uv1, slot2)
+			if not slot1.boxCards[slot1] then
+				slot1.boxCards[slot1] = CommanderBoxCard.New(slot1, slot2)
 			end
 
 			if not (slot1 > 3 and slot3.state == CommanderBox.STATE_EMPTY) then
@@ -82,7 +77,11 @@ function slot0.Update(slot0, slot1, slot2)
 			setActive(slot2, not slot5)
 		end
 	end)
-	slot0.boxesList:align(#slot3)
+	slot0.boxesList:align(#_.map(slot0.boxes, function (slot0)
+		slot0.state = slot0:getState()
+
+		return slot0
+	end))
 	slot0:Show()
 	slot0:updateCntLabel()
 end
@@ -92,14 +91,14 @@ function slot0.updateCntLabel(slot0)
 		slot0.state = slot0:getState()
 
 		if slot0.state == CommanderBox.STATE_WAITING then
-			uv0 = uv0 + 1
+			slot0 = slot0 + 1
 		elseif slot0.state == CommanderBox.STATE_STARTING then
-			uv1 = uv1 + 1
+			slot1 = slot1 + 1
 		end
 	end)
 
-	slot0.traningCnt.text = 0 .. "/" .. CommanderProxy.MAX_WORK_COUNT
-	slot0.waitCnt.text = 0 .. "/" .. CommanderProxy.MAX_SLOT - CommanderProxy.MAX_WORK_COUNT
+	slot0.traningCnt.text = slot1 .. "/" .. CommanderProxy.MAX_WORK_COUNT
+	slot0.waitCnt.text = slot2 .. "/" .. CommanderProxy.MAX_SLOT - CommanderProxy.MAX_WORK_COUNT
 end
 
 function slot0.Show(slot0)
@@ -151,7 +150,10 @@ end
 function slot0.OnDestroy(slot0)
 	slot0:Hide()
 
-	for slot4, slot5 in pairs(slot0.boxCards or {}) do
+	slot1 = pairs
+	slot2 = slot0.boxCards or {}
+
+	for slot4, slot5 in slot1(slot2) do
 		slot5:Destroy()
 	end
 

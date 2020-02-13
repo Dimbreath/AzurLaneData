@@ -1,10 +1,7 @@
-slot0 = class("FetchNpcShipCommand", pm.SimpleCommand)
+class("FetchNpcShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	slot4 = slot1:getBody().callback
 
-function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
-	slot4 = slot2.callback
-
-	if not getProxy(TaskProxy):getTaskById(slot2.taskId) then
+	if not getProxy(TaskProxy):getTaskById(slot1.getBody().taskId) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("task_is_not_existence", slot3))
 
 		return
@@ -16,31 +13,32 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	slot10.id = slot6.id
-	slot10.choice_award = {}
-
-	pg.ConnectionMgr.GetInstance():Send(20005, {}, 20006, function (slot0)
+	pg.ConnectionMgr.GetInstance():Send(20005, {
+		id = slot6.id,
+		choice_award = {}
+	}, 20006, function (slot0)
 		if slot0.result == 0 then
-			for slot5, slot6 in ipairs(slot0.award_list) do
-				slot10.type = slot6.type
-				slot10.id = slot6.id
-				slot10.count = slot6.number or slot6.count
+			slot1 = {}
 
-				table.insert({}, Item.New({}))
+			for slot5, slot6 in ipairs(slot0.award_list) do
+				table.insert(slot1, Item.New({
+					type = slot6.type,
+					id = slot6.id,
+					count = slot6.number or slot6.count
+				}))
 			end
 
-			uv0.submitTime = 1
+			slot0.submitTime = 1
 
-			uv1:updateTask(uv0)
-
-			slot5.items = slot1
-			slot5.callback = uv3
-
-			uv2:sendNotification(GAME.FETCH_NPC_SHIP_DONE, {})
+			slot1:updateTask(slot0)
+			slot1.updateTask:sendNotification(GAME.FETCH_NPC_SHIP_DONE, {
+				items = slot1,
+				callback = slot1.updateTask
+			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("task_submitTask", slot0.result))
 		end
 	end)
 end
 
-return slot0
+return class("FetchNpcShipCommand", pm.SimpleCommand)

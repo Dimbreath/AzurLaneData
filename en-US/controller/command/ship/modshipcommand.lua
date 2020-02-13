@@ -1,12 +1,8 @@
-slot0 = class("ModShipCommand", pm.SimpleCommand)
+class("ModShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	slot4 = slot1:getBody().shipIds or {}
+	slot7 = Clone(getProxy(BayProxy).getShipById(slot5, slot1.getBody().shipId))
 
-function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
-	slot4 = slot2.shipIds or {}
-	slot6 = getProxy(BayProxy):getShipById(slot2.shipId)
-	slot7 = Clone(slot6)
-
-	if not slot6 then
+	if not getProxy(BayProxy).getShipById(slot5, slot1.getBody().shipId) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_error_noShip", slot3))
 
 		return
@@ -30,17 +26,16 @@ function slot0.execute(slot0, slot1)
 		table.insert(slot8, slot14)
 	end
 
-	slot12.ship_id = slot3
-	slot12.material_id_list = slot4
-
-	pg.ConnectionMgr.GetInstance():Send(12017, {}, 12018, function (slot0)
+	pg.ConnectionMgr.GetInstance():Send(12017, {
+		ship_id = slot3,
+		material_id_list = slot4
+	}, 12018, function (slot0)
 		if slot0.result == 0 then
-			pg.TrackerMgr.GetInstance():Tracking(TRACKING_SHIP_INTENSIFY, #uv0)
+			pg.TrackerMgr.GetInstance():Tracking(TRACKING_SHIP_INTENSIFY, #slot0)
 
-			slot1 = {}
 			slot2 = getProxy(EquipmentProxy)
 
-			for slot6, slot7 in ipairs(uv1) do
+			for slot6, slot7 in ipairs(slot1) do
 				for slot11, slot12 in ipairs(slot7.equipments) do
 					if slot12 then
 						if slot12:hasSkin() then
@@ -61,24 +56,23 @@ function slot0.execute(slot0, slot1)
 					end
 				end
 
-				uv2:removeShip(slot7)
+				slot2:removeShip(slot7)
 			end
 
-			for slot7, slot8 in pairs(ShipModLayer.getModExpAdditions(uv3, uv1)) do
-				uv3:addModAttrExp(slot7, slot8)
+			for slot7, slot8 in pairs(slot3) do
+				slot3:addModAttrExp(slot7, slot8)
 			end
 
-			uv2:updateShip(uv3)
-
-			slot7.oldShip = uv5
-			slot7.newShip = uv3
-			slot7.equipments = slot1
-
-			uv4:sendNotification(GAME.MOD_SHIP_DONE, {})
+			slot2:updateShip(slot3)
+			slot2.updateShip:sendNotification(GAME.MOD_SHIP_DONE, {
+				oldShip = slot5,
+				newShip = slot3,
+				equipments = slot1
+			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_modShip_error", slot0.result))
 		end
 	end)
 end
 
-return slot0
+return class("ModShipCommand", pm.SimpleCommand)

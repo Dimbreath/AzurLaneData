@@ -1,6 +1,4 @@
-slot0 = class("EquipToShipCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("EquipToShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.equipmentId
 	slot5 = slot2.pos
@@ -16,7 +14,7 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	slot11, slot12 = slot8:canEquipAtPos(getProxy(EquipmentProxy):getEquipmentById(slot3), slot5)
+	slot11, slot12 = slot8:canEquipAtPos(getProxy(EquipmentProxy).getEquipmentById(slot9, slot3), slot5)
 
 	if not slot11 then
 		pg.TipsMgr.GetInstance():ShowTips(slot12)
@@ -34,43 +32,43 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	slot16.equip_id = slot3
-	slot16.ship_id = slot4
-	slot16.pos = slot5
-	slot16.type = slot10:GetCategory()
-
-	pg.ConnectionMgr.GetInstance():Send(12006, {}, 12007, function (slot0)
+	pg.ConnectionMgr.GetInstance():Send(12006, {
+		equip_id = slot3,
+		ship_id = slot4,
+		pos = slot5,
+		type = slot10:GetCategory()
+	}, 12007, function (slot0)
 		if slot0.result == 0 then
-			slot1 = uv0
-			slot2 = uv2
-			slot2:getEquipmentById(uv3).count = 1
+			slot0:getEquipmentById(slot0).count = 1
 
-			if slot1:getEquip(uv1) then
+			if slot0:getEquip(slot0.getEquip) then
+				slot3 = pg.equip_skin_template
+
 				if slot1:hasSkin() then
-					if _.any(pg.equip_skin_template[slot1.skinId].equip_type, function (slot0)
-						return slot0 == uv0.config.type
+					if _.any(slot3[slot1.skinId].equip_type, function (slot0)
+						return slot0 == slot0.config.type
 					end) then
 						slot2.skinId = slot1.skinId
 					else
-						uv2:addEquipmentSkin(slot1.skinId, 1)
+						slot2:addEquipmentSkin(slot1.skinId, 1)
 						pg.TipsMgr.GetInstance():ShowTips(i18n("equipment_skin_unmatch_equipment"))
 					end
 
 					slot1.skinId = 0
 				end
 
-				uv2:addEquipment(slot1)
+				slot2:addEquipment(slot1)
 			end
 
-			uv0:updateEquip(uv1, slot2)
-			uv4:updateShip(uv0)
-			uv2:removeEquipmentById(uv3, 1)
-			uv5:sendNotification(GAME.EQUIP_TO_SHIP_DONE, uv0)
+			slot0:updateEquip(slot1, slot2)
+			slot0:updateShip(slot0)
+			slot2:removeEquipmentById(slot2.removeEquipmentById, 1)
+			slot5:sendNotification(GAME.EQUIP_TO_SHIP_DONE, slot0)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_equipToShip_ok", slot2.config.name), "green")
 			playSoundEffect(SFX_UI_DOCKYARD_EQUIPON)
 
-			if uv6 then
-				uv6()
+			if "green" then
+				slot6()
 			end
 
 			return
@@ -78,10 +76,10 @@ function slot0.execute(slot0, slot1)
 
 		pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_equipToShip", slot0.result))
 
-		if uv6 then
-			uv6()
+		if slot6 then
+			slot6()
 		end
 	end)
 end
 
-return slot0
+return class("EquipToShipCommand", pm.SimpleCommand)

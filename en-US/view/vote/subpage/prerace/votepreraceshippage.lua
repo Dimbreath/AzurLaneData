@@ -9,11 +9,11 @@ function slot0.OnInit(slot0)
 	slot0.voteItems = {}
 
 	function slot0.scrollRect.onInitItem(slot0)
-		uv0:onInitItem(slot0)
+		slot0:onInitItem(slot0)
 	end
 
 	function slot0.scrollRect.onUpdateItem(slot0, slot1)
-		uv0:onUpdateItem(slot0, slot1)
+		slot0:onUpdateItem(slot0, slot1)
 	end
 
 	setActive(slot0._tf, true)
@@ -21,15 +21,13 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.onInitItem(slot0, slot1)
-	slot2 = VoteShipItem.New(slot1)
-
-	onButton(slot0, slot2.go, function ()
-		if uv0.phase == VoteGroup.VOTE_STAGE then
-			uv0.CallBack(uv1)
+	onButton(slot0, VoteShipItem.New(slot1).go, function ()
+		if slot0.phase == VoteGroup.VOTE_STAGE then
+			slot0.CallBack(slot1)
 		end
 	end, SFX_PANEL)
 
-	slot0.voteItems[slot1] = slot2
+	slot0.voteItems[slot1] = VoteShipItem.New(slot1)
 end
 
 function slot0.SetCallBack(slot0, slot1)
@@ -73,6 +71,7 @@ function slot0.UpdateShips(slot0)
 end
 
 function slot0.OnDestroy(slot0)
+	return
 end
 
 return slot0

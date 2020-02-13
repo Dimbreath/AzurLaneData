@@ -181,11 +181,11 @@ slot0.ACTIVITY_U110_BUILD = 30249
 slot0.BAILEY_HALLOWEEN_REMAKE = 30245
 slot0.MEMPHIS_HALLOWEEN = 30264
 slot0.ANIME_LOGIN = 30258
-slot0.IDOL_PT_ID = 409
-slot0.IDOL_INS_ID = 415
-slot0.IDOL_MEDAL_COLLECTION = 413
-slot0.MUSIC_FESTIVAL_ID = 414
-slot0.MUSIC_CHUIXUE7DAY_ID = 416
+slot0.IDOL_PT_ID = 30326
+slot0.IDOL_INS_ID = 30332
+slot0.IDOL_MEDAL_COLLECTION = 30330
+slot0.MUSIC_FESTIVAL_ID = 30331
+slot0.MUSIC_CHUIXUE7DAY_ID = 30333
 slot0.POCKY_LOGIN = 30265
 slot0.POCKY_SKIN_PT = 30267
 slot0.POCKY_SKIN_LOGIN = 30268
@@ -228,6 +228,7 @@ slot0.BEAT_MONSTER_NIAN_2020 = 30306
 slot0.MONOPOLY_2020 = 30309
 slot0.SICHUANOPERA = 30319
 slot0.LANTERNFESTIVAL = 30320
+slot0.VALENTINE = 30322
 slot0.WUDAOLOGIN_ID = 30192
 slot0.SUMMER_REMAKE = 30253
 slot0.SUMMER_REMAKEPT = 30254
@@ -238,6 +239,7 @@ slot0.MIKASA_REPAIRE_ACTIVITY = 30241
 slot0.MIKASA_DAILY_TASK_ACTIVITY = 30239
 slot0.SKIN_GELIDELI = 40031
 slot0.SKIN_KISARAGI = 40039
+slot0.CARD_PAIR_FX_PAGE = 40050
 slot0.MORAN_KR_PT_ID = 20346
 slot0.MORAN_KR_PREVIEW_ID = 20345
 slot0.TWCELEBRATION_1 = 40002
@@ -273,33 +275,36 @@ slot0.INSTAGRAM_OP_COMMENT = 2
 slot0.INSTAGRAM_OP_LIKE = 3
 slot0.INSTAGRAM_OP_SHARE = 4
 slot0.INSTAGRAM_OP_MARK_READ = 5
-slot3[1] = {
-	2018,
-	5,
-	16
+slot0.LIMIT_SKIN_SHOP_TIME = {
+	{
+		{
+			2018,
+			5,
+			16
+		},
+		{
+			0,
+			0,
+			0
+		}
+	},
+	{
+		{
+			2019,
+			11,
+			14
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
 }
-slot3[2] = {
-	0,
-	0,
-	0
-}
-slot2[1] = {}
-slot3[1] = {
-	2019,
-	11,
-	14
-}
-slot3[2] = {
-	0,
-	0,
-	0
-}
-slot2[2] = {}
-slot0.LIMIT_SKIN_SHOP_TIME = {}
 
 function slot0.BBRule(slot0)
 	_.each(slot0, function (slot0)
-		uv0[slot0] = uv0[slot0] + 1
+		slot0[slot0] = slot0[slot0] + 1
 	end)
 
 	slot2 = 7

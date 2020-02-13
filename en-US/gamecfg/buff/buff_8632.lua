@@ -1,22 +1,3 @@
-slot0.blink = {
-	1,
-	0,
-	0,
-	0.3,
-	0.3
-}
-slot2.trigger = {
-	"onAttach"
-}
-slot2.arg_list = {
-	number = 0.3,
-	attr = "damageRatioBullet"
-}
-slot1[1] = {
-	type = "BattleBuffAddAttr"
-}
-slot0.effect_list = {}
-
 return {
 	name = "伤害上升",
 	init_effect = "jinengchufared",
@@ -26,5 +7,24 @@ return {
 	stack = 1,
 	id = 8632,
 	icon = 8632,
-	last_effect = ""
+	last_effect = "",
+	blink = {
+		1,
+		0,
+		0,
+		0.3,
+		0.3
+	},
+	effect_list = {
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				number = 0.3,
+				attr = "damageRatioBullet"
+			}
+		}
+	}
 }

@@ -35,7 +35,7 @@ function slot0.update(slot0, slot1, slot2, slot3, slot4, slot5)
 		slot0.showTrans = slot3
 		slot0.propose = slot4
 		slot0.state = slot6
-		slot0.config = uv0[slot5]
+		slot0.config = slot0[slot5]
 
 		slot0:flush()
 	end
@@ -49,22 +49,22 @@ function slot0.flush(slot0)
 	setActive(slot0.heart, slot0.state == ShipGroup.STATE_UNLOCK)
 
 	if slot0.state == ShipGroup.STATE_UNLOCK then
-		slot0.labelHeart.text = slot1.hearts > 999 and "999" or tostring(slot1.hearts)
+		slot0.labelHeart.text = (slot1.hearts > 999 and "999") or tostring(slot1.hearts)
 
 		setActive(slot0.labelHeartPlus, slot1.hearts > 999)
 
-		slot0.labelHeart.color = slot1.iheart and Color.New(1, 0.6, 0.6) or Color.New(1, 1, 1)
-		slot0.labelHeartIcon.color = slot1.iheart and Color.New(1, 0.6, 0.6) or Color.New(1, 1, 1)
-		slot0.labelHeartPlus.color = slot1.iheart and Color.New(1, 0.6, 0.6) or Color.New(1, 1, 1)
+		slot0.labelHeart.color = (slot1.iheart and Color.New(1, 0.6, 0.6)) or Color.New(1, 1, 1)
+		slot0.labelHeartIcon.color = (slot1.iheart and Color.New(1, 0.6, 0.6)) or Color.New(1, 1, 1)
+		slot0.labelHeartPlus.color = (slot1.iheart and Color.New(1, 0.6, 0.6)) or Color.New(1, 1, 1)
 
 		slot0:loadImage(slot0.shipGroup)
 	elseif slot0.state == ShipGroup.STATE_NOTGET then
-		slot3.id = slot0.config.group_type
-		slot0.shipGroup = ShipGroup.New({})
+		slot0.shipGroup = ShipGroup.New({
+			id = slot0.config.group_type
+		})
 
 		slot0:loadImage(slot0.shipGroup)
 	elseif slot0.state == ShipGroup.STATE_LOCK then
-		-- Nothing
 	end
 
 	setActive(slot0.content, slot0.state == ShipGroup.STATE_NOTGET or slot0.state == ShipGroup.STATE_UNLOCK)
@@ -74,20 +74,19 @@ function slot0.flush(slot0)
 end
 
 function slot0.loadImage(slot0, slot1)
-	slot3 = (slot1:isBluePrintGroup() and "0" or "") .. shipRarity2bgPrint(slot1:getRarity(slot0.showTrans))
-	slot0.imageBg.sprite = GetSpriteFromAtlas("bg/star_level_card_" .. slot3, "")
+	slot0.imageBg.sprite = GetSpriteFromAtlas("bg/star_level_card_" .. ((slot1:isBluePrintGroup() and "0") or ""), "")
 	slot0.iconShip.sprite = GetSpriteFromAtlas("shipYardIcon/unknown", "")
 
-	LoadSpriteAsync("shipYardIcon/" .. slot1:getPainting(slot0.showTrans), function (slot0)
-		if not IsNil(uv0.go) then
-			uv0.iconShip.sprite = slot0
+	LoadSpriteAsync("shipYardIcon/" .. slot4, function (slot0)
+		if not IsNil(slot0.go) then
+			slot0.iconShip.sprite = slot0
 		end
 	end)
 
 	slot0.iconType.sprite = GetSpriteFromAtlas("shiptype", shipType2print(slot1:getShipType(slot0.showTrans)))
 
 	slot0.labelName:setText(slot1:getName(slot0.showTrans))
-	setShipCardFrame(slot0.shipFrameImg, slot3)
+	setShipCardFrame(slot0.shipFrameImg, ((slot1.isBluePrintGroup() and "0") or "") .. shipRarity2bgPrint(slot1:getRarity(slot0.showTrans)))
 end
 
 function slot0.clear(slot0)

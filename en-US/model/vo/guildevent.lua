@@ -16,12 +16,13 @@ end
 
 function slot0.initTasks(slot0, slot1)
 	for slot6, slot7 in pairs(pg.guild_boss_award.all) do
-		slot10.id = slot7
-		slot10.isFetched = table.contains(slot1, slot7)
-		slot9 = GuildTask.New({})
+		slot11 = getProxy(GuildProxy):getData()
 
-		if slot9:getConfig("type") == GuildTask.TYPE_DEMAGE then
-			slot9:setProgress(getProxy(GuildProxy):getData().totalDamage)
+		if GuildTask.New({
+			id = slot7,
+			isFetched = table.contains(slot1, slot7)
+		}).getConfig(slot9, "type") == GuildTask.TYPE_DEMAGE then
+			slot9:setProgress(slot11.totalDamage)
 		elseif slot10 == GuildTask.TYPE_ATTACK_COUNT then
 			slot9:setProgress(slot0.attackCount)
 		end
@@ -45,11 +46,13 @@ end
 function slot0.updateTask(slot0, slot1)
 	slot0.taskList[slot1.id] = slot1
 
-	pg.m02:sendNotification(uv0.TASK_UPDATED, slot1)
+	pg.m02:sendNotification(slot0.TASK_UPDATED, slot1)
 end
 
 function slot0.isEnd(slot0)
-	if slot0.endTime > 0 and slot0.endTime < pg.TimeMgr.GetInstance():GetServerTime() then
+	slot1 = pg.TimeMgr.GetInstance():GetServerTime()
+
+	if slot0.endTime > 0 and slot0.endTime < slot1 then
 		return true
 	end
 

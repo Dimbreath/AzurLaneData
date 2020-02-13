@@ -1,9 +1,5 @@
-slot0 = class("RemoveLayersCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
-	slot2 = slot1:getBody()
-
-	pg.SceneMgr.GetInstance():removeLayer(slot0.facade, slot2.context, slot2.callback)
+class("RemoveLayersCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+	pg.SceneMgr.GetInstance():removeLayer(slot0.facade, slot1:getBody().context, slot1.getBody().callback)
 end
 
-return slot0
+return class("RemoveLayersCommand", pm.SimpleCommand)

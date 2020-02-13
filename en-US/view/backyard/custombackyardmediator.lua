@@ -5,10 +5,11 @@ function slot0.register(slot0)
 	slot5 = {}
 	slot6, slot7 = nil
 
-	for slot11, slot12 in pairs(require("GameCfg.backyardTheme.theme_" .. 9)["furnitures_" .. 4]) do
+	for slot11, slot12 in pairs(slot4) do
 		slot13 = Furniture.New(slot12)
+		slot14 = slot13:getConfig("type")
 
-		if slot13.position and slot13:getConfig("type") == Furniture.TYPE_WALLPAPER then
+		if slot13.position and slot14 == Furniture.TYPE_WALLPAPER then
 			slot6 = BackyardFurnitureVO.New(slot13)
 		elseif slot13.position and slot14 == Furniture.TYPE_FLOORPAPER then
 			slot7 = BackyardFurnitureVO.New(slot13)
@@ -17,67 +18,68 @@ function slot0.register(slot0)
 		end
 	end
 
-	slot9.ships = slot1
-	slot9.furnitures = slot5
-	slot9.level = slot3
-	slot9.wallPaper = slot6
-	slot9.floorPaper = slot7
-	slot0.contextData.house = BackYardHouseVO.New({})
+	slot0.contextData.house = BackYardHouseVO.New({
+		ships = slot1,
+		furnitures = slot5,
+		level = slot3,
+		wallPaper = slot6,
+		floorPaper = slot7
+	})
 	slot9 = slot0:getFacade()
 
 	slot9:registerProxy(BackYardHouseProxy.New(slot0.contextData.house))
 	slot9:registerCommand(BACKYARD.COMMAND_BACKYARD_BOAT, BYBoatCommand)
-	slot0.viewComponent:setHouse(slot9:retrieveProxy(BackYardHouseProxy.__cname):getData())
+	slot0.viewComponent:setHouse(slot9:retrieveProxy(BackYardHouseProxy.__cname).getData(slot10))
 	slot0:bind(BackyardMainMediator.END_DRAG_SHIP, function (slot0, slot1, slot2)
-		slot6.name = BACKYARD.END_DRAG_BOAT
-		slot6.id = slot1
-		slot6.pos = slot2
-
-		uv0:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {})
+		slot0:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
+			name = BACKYARD.END_DRAG_BOAT,
+			id = slot1,
+			pos = slot2
+		})
 	end)
 	slot0:bind(BackyardMainMediator.ADD_BOAT_MOVE, function (slot0, slot1)
-		slot5.name = BACKYARD.ADD_BOAT_MOVE
-		slot5.id = slot1
-
-		uv0:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {})
+		slot0:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
+			name = BACKYARD.ADD_BOAT_MOVE,
+			id = slot1
+		})
 	end)
 	slot0:bind(BackyardMainMediator.CANCEL_SHIP_MOVE, function (slot0, slot1)
-		slot5.name = BACKYARD.CANCEL_BOAT_MOVE
-		slot5.id = slot1
-
-		uv0:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {})
+		slot0:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
+			name = BACKYARD.CANCEL_BOAT_MOVE,
+			id = slot1
+		})
 	end)
 	slot0:bind(BackyardMainMediator.INTERACTION, function (slot0, slot1, slot2)
-		slot6.name = BACKYARD.INTERACTION
-		slot6.shipId = slot1
-		slot6.furnitureId = slot2
-
-		uv0:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {})
+		slot0:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
+			name = BACKYARD.INTERACTION,
+			shipId = slot1,
+			furnitureId = slot2
+		})
 	end)
 	slot0:bind(BackyardMainMediator.INTERACTION_SPINE, function (slot0, slot1, slot2)
-		slot6.name = BACKYARD.INTERACTION_SPINE
-		slot6.shipId = slot1
-		slot6.furnitureId = slot2
-
-		uv0:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {})
+		slot0:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
+			name = BACKYARD.INTERACTION_SPINE,
+			shipId = slot1,
+			furnitureId = slot2
+		})
 	end)
 	slot0:bind(BackyardMainMediator.CLEAR_SPINE, function (slot0, slot1)
-		slot5.name = BACKYARD.CLEAR_SPINE
-		slot5.shipId = slot1
-
-		uv0:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {})
+		slot0:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
+			name = BACKYARD.CLEAR_SPINE,
+			shipId = slot1
+		})
 	end)
 end
 
 function slot0.listNotificationInterests(slot0)
-	slot1[1] = BackYardHouseProxy.BACKYARD_SHIP_MOVE
-	slot1[2] = BackYardHouseProxy.BACKYARD_EXIT_SHIP
-	slot1[3] = BackYardHouseProxy.SHIP_POS_CHANGE
-	slot1[4] = BackYardHouseProxy.CANCEL_SHIP_MOVE
-	slot1[5] = BackYardHouseProxy.BACKYARD_INTERACTION_DONE
-	slot1[6] = BackYardHouseProxy.SPINE_INTERACTION_START
-
-	return {}
+	return {
+		BackYardHouseProxy.BACKYARD_SHIP_MOVE,
+		BackYardHouseProxy.BACKYARD_EXIT_SHIP,
+		BackYardHouseProxy.SHIP_POS_CHANGE,
+		BackYardHouseProxy.CANCEL_SHIP_MOVE,
+		BackYardHouseProxy.BACKYARD_INTERACTION_DONE,
+		BackYardHouseProxy.SPINE_INTERACTION_START
+	}
 end
 
 function slot0.handleNotification(slot0, slot1)

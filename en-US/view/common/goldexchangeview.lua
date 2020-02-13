@@ -12,10 +12,10 @@ slot0.gemNum = {
 }
 
 function slot0.Ctor(slot0)
-	uv0.super.Ctor(slot0)
+	slot0.super.Ctor(slot0)
 	PoolMgr.GetInstance():GetUI("GoldExchangeWindow", false, function (slot0)
 		slot0.transform:SetParent(pg.UIMgr.GetInstance().UIMain.transform, false)
-		uv0:onUILoaded(slot0)
+		slot0:onUILoaded(slot0)
 	end)
 end
 
@@ -55,8 +55,8 @@ function slot0.initUI(slot0)
 	slot0.goldTF[1].selectedTF = slot0:findTF("item/selected", slot0.goldTF_1)
 	slot0.goldTF[1].selectedNumTF = slot0:findTF("reduce/Text", slot0.goldTF[1].selectedTF)
 
-	setText(slot0.goldTF[1].countTF, uv0.goldNum[1])
-	setText(slot0.goldTF[1].priceTF, uv0.gemNum[1])
+	setText(slot0.goldTF[1].countTF, slot0.goldNum[1])
+	setText(slot0.goldTF[1].priceTF, slot0.gemNum[1])
 
 	slot0.goldTF[2] = {}
 	slot0.goldTF_2 = slot0:findTF("Gold2", slot0.contentTF)
@@ -66,8 +66,8 @@ function slot0.initUI(slot0)
 	slot0.goldTF[2].selectedTF = slot0:findTF("item/selected", slot0.goldTF_2)
 	slot0.goldTF[2].selectedNumTF = slot0:findTF("reduce/Text", slot0.goldTF[2].selectedTF)
 
-	setText(slot0.goldTF[2].countTF, uv0.goldNum[2])
-	setText(slot0.goldTF[2].priceTF, uv0.gemNum[2])
+	setText(slot0.goldTF[2].countTF, slot0.goldNum[2])
+	setText(slot0.goldTF[2].priceTF, slot0.gemNum[2])
 
 	slot0.gemCountText = slot0:findTF("Tip/DiamondCount", slot0.contentTF)
 	slot0.goldCountText = slot0:findTF("Tip/GoldCount", slot0.contentTF)
@@ -77,52 +77,50 @@ end
 
 function slot0.addListener(slot0)
 	onButton(slot0, slot0.bg, function ()
-		uv0:exit()
+		slot0:exit()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.btnBack, function ()
-		uv0:exit()
+		slot0:exit()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.shopBtn, function ()
 		if getProxy(ContextProxy):getContextByMediator(ChargeMediator) then
-			uv0:exit()
+			slot0:exit()
 		else
-			slot6.wrap = ChargeScene.TYPE_ITEM
-
-			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {})
+			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
+				wrap = ChargeScene.TYPE_ITEM
+			})
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.confirmBtn, function ()
-		slot0 = nil
-
-		if uv0.selectedIndex == 1 then
-			slot0 = uv1.itemid1
-		elseif uv0.selectedIndex == 2 then
-			slot0 = uv1.itemid2
+		if slot0.selectedIndex == 1 then
+			slot0 = slot1.itemid1
+		elseif slot0.selectedIndex == 2 then
+			slot0 = slot1.itemid2
 		end
 
-		slot4.id = slot0
-		slot4.count = uv0.selectedNum
-
-		pg.m02:sendNotification(GAME.SHOPPING, {})
-		uv0:exit()
+		pg.m02:sendNotification(GAME.SHOPPING, {
+			id = slot0,
+			count = slot0.selectedNum
+		})
+		slot0:exit()
 	end, SFX_PANEL)
 
 	for slot4 = 1, 2, 1 do
 		onButton(slot0, slot0.goldTF[slot4].itemTF, function ()
-			if uv0.selectedIndex == uv1 then
-				uv0.selectedNum = math.min(uv0.selectedNum + 1, uv0.selectedMax)
+			if slot0.selectedIndex == slot1 then
+				slot0.selectedNum = math.min(slot0.selectedNum + 1, slot0.selectedMax)
 			else
-				uv0.selectedIndex = uv1
-				uv0.selectedNum = 1
+				slot0.selectedIndex = slot1
+				slot0.selectedNum = 1
 			end
 
-			uv0:updateView()
+			slot0:updateView()
 		end, SFX_PANEL)
 		onButton(slot0, slot0.goldTF[slot4].selectedTF, function ()
-			if uv0.selectedNum > 1 then
-				uv0.selectedNum = uv0.selectedNum - 1
+			if slot0.selectedNum > 1 then
+				slot0.selectedNum = slot0.selectedNum - 1
 
-				uv0:updateView()
+				slot0:updateView()
 			end
 		end, SFX_PANEL)
 	end
@@ -139,12 +137,11 @@ function slot0.updateView(slot0)
 	end
 
 	slot1, slot2 = nil
-	slot1 = uv0.gemNum[slot0.selectedIndex] * slot0.selectedNum
-	slot2 = uv0.goldNum[slot0.selectedIndex] * slot0.selectedNum
+	slot2 = slot0.goldNum[slot0.selectedIndex] * slot0.selectedNum
 
-	setText(slot0.gemCountText, slot1)
+	setText(slot0.gemCountText, slot0.gemNum[slot0.selectedIndex] * slot0.selectedNum)
 
-	if slot0.player:getTotalGem() < slot1 then
+	if slot0.player:getTotalGem() < slot0.gemNum[slot0.selectedIndex] * slot0.selectedNum then
 		setTextColor(slot0.gemCountText, Color.red)
 	else
 		setTextColor(slot0.gemCountText, Color.yellow)
@@ -155,9 +152,9 @@ end
 
 function slot0.overLayMyself(slot0, slot1)
 	if slot1 == true then
-		slot6.weight = LayerWeightConst.TOP_LAYER
-
-		pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {})
+		pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+			weight = LayerWeightConst.TOP_LAYER
+		})
 	else
 		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 	end

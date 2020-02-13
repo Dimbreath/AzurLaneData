@@ -1,6 +1,4 @@
-slot0 = class("ChallengeStrategyCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("ChallengeStrategyCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot3 = Challenge.CHALLENGE_OP_STRATEGY
 	slot4 = slot1:getBody().arg1
 
@@ -8,17 +6,18 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	slot10.act = Challenge.CHALLENGE_OP_STRATEGY
-	slot11[1] = slot4
-	slot10.act_arg1 = {}
-	slot10.activity_id = slot6.id
-
-	pg.ConnectionMgr.GetInstance():Send(24004, {}, 24005, function (slot0)
+	pg.ConnectionMgr.GetInstance():Send(24004, {
+		act = Challenge.CHALLENGE_OP_STRATEGY,
+		act_arg1 = {
+			slot4
+		},
+		activity_id = slot6.id
+	}, 24005, function (slot0)
 		if slot0.result == 0 then
 			slot1 = getProxy(ChallengeProxy)
 
-			if uv0 == Challenge.CHALLENGE_OP_STRATEGY then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("chapter_tip_use", pg.strategy_data_template[uv1].name))
+			if slot0 == Challenge.CHALLENGE_OP_STRATEGY then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("chapter_tip_use", pg.strategy_data_template[slot1].name))
 			end
 
 			slot1:updateChallenge(Challenge.New(slot0.challenge_update))
@@ -26,4 +25,4 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-return slot0
+return class("ChallengeStrategyCommand", pm.SimpleCommand)

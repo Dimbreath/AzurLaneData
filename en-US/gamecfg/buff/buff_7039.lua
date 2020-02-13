@@ -1,15 +1,3 @@
-slot2.trigger = {
-	"onUpdate"
-}
-slot2.arg_list = {
-	buff_id = 7040,
-	time = 36
-}
-slot1[1] = {
-	type = "BattleBuffAddBuff"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "序章俾斯麦必杀走位",
@@ -19,5 +7,17 @@ return {
 	stack = 1,
 	id = 7039,
 	icon = 7039,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onUpdate"
+			},
+			arg_list = {
+				buff_id = 7040,
+				time = 36
+			}
+		}
+	}
 }

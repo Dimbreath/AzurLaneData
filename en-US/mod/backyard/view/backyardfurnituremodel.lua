@@ -58,16 +58,16 @@ function slot0.PlayEffect(slot0, slot1)
 		slot0.loading = slot1
 
 		PoolMgr.GetInstance():GetUI(slot1, true, function (slot0)
-			if IsNil(uv0._tf) or not uv0.loading then
+			if IsNil(slot0._tf) or not slot0.loading then
 				return
 			end
 
-			uv0.effects[uv1] = slot0
+			slot0.effects[] = slot0
 
-			SetParent(slot0, uv0.iconTF)
+			SetParent(slot0, slot0.iconTF)
 			setActive(slot0, true)
 
-			uv0.loading = nil
+			slot0.loading = nil
 		end)
 	end
 end
@@ -84,7 +84,14 @@ end
 
 function slot0.UpdateScale(slot0, slot1)
 	slot2 = 1
-	slot0._tf.localScale = Vector3((not slot0.furnitureVO:isFloor() or uv0.getSign(slot0.furnitureVO.dir == 2)) and uv0.getSign(BackyardFurnitureVO.isRightWall(slot1)), 1, 1)
+
+	if slot0.furnitureVO:isFloor() then
+		slot2 = slot0.getSign(slot0.furnitureVO.dir == 2)
+	else
+		slot2 = slot0.getSign(BackyardFurnitureVO.isRightWall(slot1))
+	end
+
+	slot0._tf.localScale = Vector3(slot2, 1, 1)
 end
 
 function slot0.UpdateFurnitureVO(slot0, slot1)
@@ -97,7 +104,7 @@ end
 
 function slot0.SetPosition(slot0, slot1)
 	slot2 = slot0.furnitureVO
-	slot0._tf.localPosition = uv0.getLocalPos(slot0.furnitureVO:getPosition())
+	slot0._tf.localPosition = slot0.getLocalPos(slot0.furnitureVO:getPosition())
 
 	if #slot0.grids == 0 then
 		slot0:initGrids()
@@ -109,40 +116,38 @@ function slot0.SetPosition(slot0, slot1)
 end
 
 function slot0.SetTargetPosition(slot0, slot1, slot2)
-	slot3 = uv0.getLocalPos(slot2)
+	slot3 = slot0.getLocalPos(slot2)
 
 	if slot1 then
-		slot4 = slot1:getConfig("offset")
-		slot0._tf.localPosition = Vector2(slot3.x + slot4[1], slot3.y + slot4[2])
+		slot0._tf.localPosition = Vector2(slot3.x + slot1:getConfig("offset")[1], slot3.y + slot1.getConfig("offset")[2])
 	else
 		slot0._tf.localPosition = slot3
 	end
 end
 
 function slot0.FallBackAnim(slot0, slot1, slot2)
-	slot4 = uv0.getLocalPos(slot0.furnitureVO:getPosition())
-
-	LeanTween.moveLocal(go(slot0._tf), Vector3(slot4.x, slot4.y, 0), 0.1):setOnComplete(System.Action(function ()
-		if uv0 then
-			slot0 = uv0:getConfig("offset")
-			slot1 = uv1._tf.localPosition
-			uv1._tf.localPosition = Vector2(slot1.x + slot0[1], slot1.y + slot0[2])
+	LeanTween.moveLocal(go(slot0._tf), Vector3(slot0.getLocalPos(slot3).x, slot0.getLocalPos(slot3).y, 0), 0.1):setOnComplete(System.Action(function ()
+		if slot0 then
+			slot1._tf.localPosition = Vector2(slot0._tf.localPosition.x + slot0:getConfig("offset")[1], slot0._tf.localPosition.y + slot0.getConfig("offset")[2])
 		end
 
-		uv2()
+		slot2()
 	end))
 end
 
 function slot0.initGrids(slot0)
-	for slot9, slot10 in ipairs(slot1:getOccupyGrid(slot1.position)) do
-		slot11 = slot0.gridsTF:GetChild(0)
+	slot3 = slot0.gridsTF
+	slot4 = slot0.furnitureVO.isFloor(slot1)
+
+	for slot9, slot10 in ipairs(slot5) do
+		slot11 = slot3:GetChild(0)
 
 		SetParent(slot11, slot0._tf.parent)
 
 		slot0.grids[slot9] = slot11
-		slot11.localPosition = uv0.getLocalPos(slot10)
+		slot11.localPosition = slot0.getLocalPos(slot10)
 
-		if not slot0.furnitureVO:isFloor() and BackyardFurnitureVO.isRightWall(slot2) then
+		if not slot4 and BackyardFurnitureVO.isRightWall(slot2) then
 			slot11.localScale = Vector3(1, 1, 1)
 		end
 
@@ -152,18 +157,18 @@ function slot0.initGrids(slot0)
 end
 
 function slot0.changeGridColor(slot0, slot1, slot2)
-	for slot7, slot8 in pairs(slot0.grids) do
-		uv0.changeGridColor(slot8, BackYardConst.BACKYARD_GREEN)
+	for slot7, slot8 in pairs(slot3) do
+		slot0.changeGridColor(slot8, BackYardConst.BACKYARD_GREEN)
 	end
 
 	if slot2 then
 		for slot7, slot8 in ipairs(slot3) do
-			uv0.changeGridColor(slot8, BackYardConst.BACKYARD_BLUE)
+			slot0.changeGridColor(slot8, BackYardConst.BACKYARD_BLUE)
 		end
 	end
 
 	for slot7, slot8 in pairs(slot1) do
-		uv0.changeGridColor(slot3[slot8], BackYardConst.BACKYARD_RED)
+		slot0.changeGridColor(slot3[slot8], BackYardConst.BACKYARD_RED)
 	end
 end
 
@@ -180,8 +185,7 @@ function slot0.SetSiblingIndex(slot0, slot1)
 end
 
 function slot0.ReserseDir(slot0)
-	slot1 = slot0._tf.localScale
-	slot0._tf.localScale = Vector3(-slot1.x, slot1.y, slot1.z)
+	slot0._tf.localScale = Vector3(-slot0._tf.localScale.x, slot0._tf.localScale.y, slot0._tf.localScale.z)
 end
 
 function slot0.EnableTouch(slot0, slot1)
@@ -190,17 +194,15 @@ end
 
 function slot0.TouchAnim(slot0)
 	if not LeanTween.isTweening(go(slot0._tf)) then
-		slot1 = slot0._tf.localScale
-
-		LeanTween.scale(slot0._tf, Vector3(slot1.x - 0.05, slot1.y - 0.05, slot1.z - 0.05), 0.01):setOnComplete(System.Action(function ()
-			LeanTween.scale(uv0._tf, uv1, 0.1)
+		LeanTween.scale(slot0._tf, Vector3(slot0._tf.localScale.x - 0.05, slot0._tf.localScale.y - 0.05, slot0._tf.localScale.z - 0.05), 0.01):setOnComplete(System.Action(function ()
+			LeanTween.scale(slot0._tf, , 0.1)
 		end))
 	end
 end
 
 function slot0.LoadingAnim(slot0, slot1)
 	LeanTween.scale(rtf(slot0._tf), Vector3(slot0._tf.localScale.x + 0.2, slot0._tf.localScale.y + 0.2, 1), 0.2):setFrom(0):setOnComplete(System.Action(function ()
-		LeanTween.scale(rtf(uv0._tf), Vector3(uv1, uv2, 1), 0.1):setOnComplete(System.Action(uv3))
+		LeanTween.scale(rtf(slot0._tf), Vector3(slot1, Vector3, 1), 0.1):setOnComplete(System.Action(0.1))
 	end))
 end
 
@@ -210,54 +212,54 @@ function slot0.TouchSpineAnim(slot0, slot1, slot2, slot3)
 	end
 
 	slot5 = slot0.spineAnimUI
-	slot6, slot7, slot8, slot9, slot10 = slot0.furnitureVO:getTouchSpineConfig()
+	slot6, slot7, slot8, slot9, slot10 = slot0.furnitureVO.getTouchSpineConfig(slot4)
 
 	function slot11()
-		if not uv0 and uv1.touchSwitch then
+		if not slot0 and slot1.touchSwitch then
 			return
 		end
 
-		if uv1.touchSwitch and uv0 then
-			if uv2 then
-				uv2(false)
+		if slot1.touchSwitch and slot0 then
+			if slot2 then
+				slot2(false)
 			end
 
-			uv3:SetAction("normal", 0)
+			slot3:SetAction("normal", 0)
 
-			if uv4:isMoveable() then
-				uv5()
+			if slot4:isMoveable() then
+				slot5()
 			end
 
-			uv1.touchSwitch = false
+			slot1.touchSwitch = false
 
 			return
 		end
 
-		uv3:SetActionCallBack(function (slot0)
-			if slot0 == "finish" and not uv0 then
-				uv1:SetAction("normal", 0)
+		slot3:SetActionCallBack(function (slot0)
+			if slot0 == "finish" and not slot0 then
+				slot1:SetAction("normal", 0)
 
-				if uv2:isMoveable() then
-					uv3()
+				if slot1:isMoveable() then
+					slot3()
 				end
 
-				uv1:SetActionCallBack(nil)
+				slot1:SetActionCallBack(nil)
 
-				uv4.touchSwitch = false
+				slot4.touchSwitch = false
 			end
 		end)
 
-		if uv6 then
-			if uv2 then
-				uv2(true)
+		if slot6 then
+			if slot2 then
+				slot2(true)
 			end
 
-			uv3:SetAction(uv6, 0)
+			slot3:SetAction(slot6, 0)
 
-			uv1.touchSwitch = true
+			slot3.touchSwitch = true
 
-			if uv4:isMoveable() then
-				uv7()
+			if slot4:isMoveable() then
+				slot7()
 			end
 		end
 	end
@@ -267,10 +269,10 @@ function slot0.TouchSpineAnim(slot0, slot1, slot2, slot3)
 
 		slot5:SetActionCallBack(function (slot0)
 			if slot0 == "finish" then
-				uv0.inPreAction = false
+				slot0.inPreAction = false
 
-				uv1:SetActionCallBack(nil)
-				uv2()
+				slot0:SetActionCallBack(nil)
+				slot0()
 			end
 		end)
 		slot5:SetAction(slot10, 0)
@@ -284,21 +286,25 @@ function slot0.TouchSpineAnim(slot0, slot1, slot2, slot3)
 end
 
 function slot0.playFurnitureVoice(slot0, slot1)
-	if slot0.loadedBank then
-		function ()
-			uv0:stopCV()
+	function slot2()
+		slot0:stopCV()
 
-			uv0.currVoice = playSoundEffect(uv1)
-		end()
+		slot0.stopCV.currVoice = playSoundEffect(playSoundEffect)
+	end
+
+	if slot0.loadedBank then
+		slot2()
 	else
 		pg.CriMgr.GetInstance():LoadCV("furniture", function ()
-			if uv1.exited then
-				pg.CriMgr.UnloadCVBank(pg.CriMgr.GetCVBankName(uv0))
-			else
-				uv2()
+			slot0 = pg.CriMgr.GetCVBankName(pg.CriMgr.GetCVBankName)
 
-				if uv1.currVoice then
-					uv1.loadedBank = slot0
+			if pg.CriMgr.GetCVBankName.exited then
+				pg.CriMgr.UnloadCVBank(slot0)
+			else
+				slot2()
+
+				if slot2.currVoice then
+					slot1.loadedBank = slot0
 				end
 			end
 		end)
@@ -324,9 +330,9 @@ function slot0.MoveToTarget(slot0, slot1, slot2)
 		LeanTween.cancel(go(slot0._tf))
 	end
 
-	LeanTween.moveLocal(go(slot0._tf), slot3(slot0._tf.localPosition, uv0.getLocalPos(slot4:getPosition())), slot1 / 2):setOnComplete(System.Action(function ()
-		uv0()
-		LeanTween.moveLocal(go(uv1._tf), uv2, uv3 / 2)
+	LeanTween.moveLocal(go(slot0._tf), slot7, slot1 / 2):setOnComplete(System.Action(function ()
+		slot0()
+		LeanTween.moveLocal(go(slot1._tf), slot1._tf, slot3 / 2)
 	end))
 end
 
@@ -335,16 +341,14 @@ function slot0.AddItem(slot0, slot1)
 		return
 	end
 
-	slot3 = slot2:getPosition()
 	slot8, slot9 = slot2:getSize()
-	slot10.id = slot2.id
-	slot6 = slot1:CreateItem(slot4, slot5, {
-		isBoat = false
-	})
 
-	slot1:PlaceItem(slot3.x + 1, slot3.y + 1, slot6)
+	slot1:PlaceItem(slot2:getPosition().x + 1, slot2.getPosition().y + 1, slot1:CreateItem(slot4, slot5, {
+		isBoat = false,
+		id = slot2.id
+	}))
 
-	slot0.item = slot6
+	slot0.item = slot1.CreateItem(slot4, slot5, )
 end
 
 function slot0.RemoveItem(slot0, slot1)
@@ -372,26 +376,22 @@ function slot0.Clear(slot0)
 		LeanTween.cancel(go(slot0._tf))
 	end
 
-	for slot6, slot7 in pairs(slot0.grids or {}) do
-		slot0.poolmgr:Enqueue(slot0.furnitureVO:isFloor() and BackyardPoolMgr.POOL_NAME.GRID or BackyardPoolMgr.POOL_NAME.WALL, slot7.gameObject)
+	slot2 = (slot0.furnitureVO:isFloor() and BackyardPoolMgr.POOL_NAME.GRID) or BackyardPoolMgr.POOL_NAME.WALL
+	slot3 = pairs
+	slot4 = slot0.grids or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		slot0.poolmgr:Enqueue(slot2, slot7.gameObject)
 	end
 
-	slot3[1] = {
-		"grids",
-		"childs",
-		"mask"
-	}
-	slot3[2] = {
-		"drag"
-	}
-	slot4 = _.flatten({})
+	slot4 = _.flatten(slot3)
 
 	eachChild(slot0._tf, function (slot0)
-		if not table.contains(uv0, go(slot0).name) then
+		if not table.contains(slot0, go(slot0).name) then
 			Destroy(slot0)
 		end
 
-		if table.contains(uv1[1], go(slot0).name) then
+		if table.contains(slot1[1], go(slot0).name) then
 			removeAllChildren(slot0)
 		end
 	end)

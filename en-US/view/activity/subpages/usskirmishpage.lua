@@ -12,11 +12,12 @@ end
 
 function slot0.OnUpdateFlush(slot0)
 	for slot4, slot5 in ipairs(slot0.taskVOList) do
-		slot7 = slot0.progress:GetChild(slot4 - 1)
+		slot8 = slot0:findTF("Empty", slot7)
+		slot9 = slot0:findTF("Full", slot0.progress:GetChild(slot4 - 1))
 
 		if slot5.state < SkirmishVO.StateClear then
-			setActive(slot0:findTF("Empty", slot7), true)
-			setActive(slot0:findTF("Full", slot7), false)
+			setActive(slot8, true)
+			setActive(slot9, false)
 		else
 			setActive(slot8, false)
 			setActive(slot9, true)
@@ -44,17 +45,17 @@ end
 function slot0.addListener(slot0)
 	onButton(slot0, slot0.helpBtn, function ()
 		if pg.gametip.help_tempesteve then
-			slot2.type = MSGBOX_TYPE_HELP
-			slot2.helps = pg.gametip.help_tempesteve.tip
-			slot2.weight = LayerWeightConst.TOP_LAYER
-
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_HELP,
+				helps = pg.gametip.help_tempesteve.tip,
+				weight = LayerWeightConst.TOP_LAYER
+			})
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.battleBtn, function ()
-		slot4.mapIdx = SkirmishProxy.SkirmishMap
-
-		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {})
+		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
+			mapIdx = SkirmishProxy.SkirmishMap
+		})
 	end, SFX_PANEL)
 end
 

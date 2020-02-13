@@ -24,7 +24,9 @@ PLATFORM_CODE = PLATFORM_US
 SDK_EXIT_CODE = 99
 
 function luaIdeDebugFunc()
-	breakInfoFun = require("LuaDebugjit")("localhost", 7003)
+	breakInfoFun = 
+	-- Decompilation error in this vicinity:
+	require("LuaDebugjit")("localhost", 7003)
 	time = Timer.New(breakInfoFun, 0.5, -1, 1)
 
 	time:Start()
@@ -107,9 +109,8 @@ function OnApplicationExit()
 		return
 	end
 
-	slot11 = slot10.viewComponent
-	slot12 = slot11._tf.parent
-	slot13 = slot11._tf:GetSiblingIndex()
+	slot12 = slot10.viewComponent._tf.parent
+	slot13 = slot10.viewComponent._tf:GetSiblingIndex()
 	slot14 = -1
 	slot15 = nil
 
@@ -135,91 +136,75 @@ function OnApplicationExit()
 end
 
 function OnReceiveMemoryWarning()
+	return
 end
 
 function PressBack()
 	if not IsNil(pg.MsgboxMgr.GetInstance()._go) then
-		slot2.content = i18n("confirm_app_exit")
-
-		function slot2.onYes()
-			Application.Quit()
-		end
-
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("confirm_app_exit"),
+			onYes = function ()
+				Application.Quit()
+			end
+		})
 	end
 end
 
 slot2 = os.clock()
 
-slot4[1] = function (slot0)
-	pg.LayerWeightMgr.GetInstance():Init()
-	pg.UIMgr.GetInstance():Init(slot0)
-end
-
-slot4[2] = function (slot0)
-	slot2[1] = function (slot0)
-		pg.FontMgr.GetInstance():Init(slot0)
+seriesAsync({
+	function (slot0)
+		pg.LayerWeightMgr.GetInstance():Init()
+		pg.UIMgr.GetInstance():Init(slot0)
+	end,
+	function (slot0)
+		parallelAsync({
+			function (slot0)
+				pg.FontMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.ShaderMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.CriMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.PoolMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.TipsMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.MsgboxMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.StoryMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.SystemOpenMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.SystemGuideMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.GuideMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.SeriesGuideMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.ToastMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.SecondaryPWDMgr.GetInstance():Init(slot0)
+			end
+		}, slot0)
 	end
-
-	slot2[2] = function (slot0)
-		pg.ShaderMgr.GetInstance():Init(slot0)
-	end
-
-	slot2[3] = function (slot0)
-		pg.CriMgr.GetInstance():Init(slot0)
-	end
-
-	slot2[4] = function (slot0)
-		pg.PoolMgr.GetInstance():Init(slot0)
-	end
-
-	slot2[5] = function (slot0)
-		pg.TipsMgr.GetInstance():Init(slot0)
-	end
-
-	slot2[6] = function (slot0)
-		pg.MsgboxMgr.GetInstance():Init(slot0)
-	end
-
-	slot2[7] = function (slot0)
-		pg.StoryMgr.GetInstance():Init(slot0)
-	end
-
-	slot2[8] = function (slot0)
-		pg.SystemOpenMgr.GetInstance():Init(slot0)
-	end
-
-	slot2[9] = function (slot0)
-		pg.SystemGuideMgr.GetInstance():Init(slot0)
-	end
-
-	slot2[10] = function (slot0)
-		pg.GuideMgr.GetInstance():Init(slot0)
-	end
-
-	slot2[11] = function (slot0)
-		pg.SeriesGuideMgr.GetInstance():Init(slot0)
-	end
-
-	slot2[12] = function (slot0)
-		pg.ToastMgr.GetInstance():Init(slot0)
-	end
-
-	slot2[13] = function (slot0)
-		pg.SecondaryPWDMgr.GetInstance():Init(slot0)
-	end
-
-	parallelAsync({}, slot0)
-end
-
-seriesAsync({}, function (slot0)
+}, function (slot0)
 	pg.SdkMgr.GetInstance():QueryWithProduct()
-	print("loading cost: " .. os.clock() - uv0)
+	print("loading cost: " .. os.clock() - slot0)
 	CameraUtil.SetOnlyAdaptMainCam(true)
-
-	slot1 = VersionMgr.Inst
-
-	slot1:DestroyUI()
+	VersionMgr.Inst:DestroyUI()
 
 	if not IsNil(GameObject.Find("OverlayCamera/Overlay/UIMain/ServerChoosePanel")) then
 		Object.Destroy(slot1)
@@ -251,3 +236,5 @@ seriesAsync({}, function (slot0)
 		end)
 	end
 end)
+
+return

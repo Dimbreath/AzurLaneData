@@ -28,7 +28,7 @@ function slot0.onBackPressed(slot0)
 	end
 
 	if not slot1 then
-		slot0:emit(uv0.ON_BACK)
+		slot0:emit(slot0.ON_BACK)
 	end
 end
 
@@ -38,11 +38,11 @@ function slot0.findUI(slot0)
 
 	onButton(slot0, slot0.helpBtn, function ()
 		if pg.gametip.pray_build_help then
-			slot2.type = MSGBOX_TYPE_HELP
-			slot2.helps = pg.gametip.pray_build_help.tip
-			slot2.weight = LayerWeightConst.TOP_LAYER
-
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_HELP,
+				helps = pg.gametip.pray_build_help.tip,
+				weight = LayerWeightConst.TOP_LAYER
+			})
 		end
 	end)
 end
@@ -54,22 +54,23 @@ function slot0.initData(slot0)
 	slot0.prayPoolSelectShipView = PrayPoolSelectShipView.New(slot0.subViewContainer, slot0.event, slot0.contextData)
 	slot0.PrayPoolSuccessView = PrayPoolSuccessView.New(slot0.subViewContainer, slot0.event, slot0.contextData)
 	slot0.curSubView = nil
-	slot1[PrayProxy.STATE_HOME] = slot0.prayPoolHomeView
-	slot1[PrayProxy.STATE_SELECT_POOL] = slot0.prayPoolSelectPoolView
-	slot1[PrayProxy.STAGE_SELECT_SHIP] = slot0.prayPoolSelectShipView
-	slot1[PrayProxy.STAGE_BUILD_SUCCESS] = slot0.PrayPoolSuccessView
-	slot0.subViewList = {}
+	slot0.subViewList = {
+		[PrayProxy.STATE_HOME] = slot0.prayPoolHomeView,
+		[PrayProxy.STATE_SELECT_POOL] = slot0.prayPoolSelectPoolView,
+		[PrayProxy.STAGE_SELECT_SHIP] = slot0.prayPoolSelectShipView,
+		[PrayProxy.STAGE_BUILD_SUCCESS] = slot0.PrayPoolSuccessView
+	}
 end
 
 function slot0.initEvents(slot0)
 	slot0:bind(PrayPoolConst.SWITCH_TO_SELECT_POOL_PAGE, function (slot0, slot1)
-		uv0:switchPage(slot1)
+		slot0:switchPage(slot1)
 	end)
 	slot0:bind(PrayPoolConst.SWITCH_TO_SELECT_SHIP_PAGE, function (slot0, slot1)
-		uv0:switchPage(slot1)
+		slot0:switchPage(slot1)
 	end)
 	slot0:bind(PrayPoolConst.SWITCH_TO_HOME_PAGE, function (slot0, slot1)
-		uv0:switchPage(slot1)
+		slot0:switchPage(slot1)
 	end)
 end
 

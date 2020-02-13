@@ -2,9 +2,10 @@ slot0 = class("HaloAttachmentView")
 
 function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.tf = slot1
-	slot4.row = slot2
-	slot4.column = slot3
-	slot0.line = {}
+	slot0.line = {
+		row = slot2,
+		column = slot3
+	}
 end
 
 function slot0.getLine(slot0)

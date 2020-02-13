@@ -1,6 +1,5 @@
 ys = ys or {}
-slot0 = ys
-slot0.Battle.BattleBuffEvent = {
+ys.Battle.BattleBuffEvent = {
 	UPDATE_VELOCITY = "UPDATE_VELOCITY",
 	UPDATE_ATTACKRATING = "UPDATE_ATTACKRATING",
 	BUFF_ATTACH = "BUFF_ATTACH",
@@ -10,3 +9,5 @@ slot0.Battle.BattleBuffEvent = {
 	BUFF_EFFECT_CHNAGE_SIZE = "BUFF_EFFECT_CHANGE_SIZE",
 	BUFF_EFFECT_NEW_WEAPON = "BUFF_EFFECT_NEW_WEAPON"
 }
+
+return

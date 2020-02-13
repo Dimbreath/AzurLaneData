@@ -1,19 +1,5 @@
-slot2.trigger = {
-	"onSubmarineRaid",
-	"onSubmarineFreeSpecial"
-}
-slot2.arg_list = {
-	quota = 1,
-	skill_id = 23311,
-	target = "TargetSelf"
-}
-slot1[1] = {
-	type = "BattleBuffCastSkill"
-}
-slot0.effect_list = {}
-slot0[1] = {}
-
 return {
+	{},
 	time = 0,
 	name = "全弹发射",
 	init_effect = "",
@@ -23,5 +9,19 @@ return {
 	stack = 1,
 	color = "red",
 	icon = 20300,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onSubmarineRaid",
+				"onSubmarineFreeSpecial"
+			},
+			arg_list = {
+				quota = 1,
+				skill_id = 23311,
+				target = "TargetSelf"
+			}
+		}
+	}
 }

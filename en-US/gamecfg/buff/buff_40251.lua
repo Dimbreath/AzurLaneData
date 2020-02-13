@@ -1,17 +1,3 @@
-slot2.trigger = {
-	"onAttach",
-	"onRemove"
-}
-slot2.arg_list = {
-	ability = "support",
-	convertRate = -0.00018,
-	convertAttr = "injureRatio"
-}
-slot1[1] = {
-	type = "BattleBuffAddAttrCommander"
-}
-slot0.effect_list = {}
-
 return {
 	time = 30,
 	name = "",
@@ -22,5 +8,19 @@ return {
 	stack = 1,
 	color = "yellow",
 	icon = 40250,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddAttrCommander",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				ability = "support",
+				convertRate = -0.00018,
+				convertAttr = "injureRatio"
+			}
+		}
+	}
 }

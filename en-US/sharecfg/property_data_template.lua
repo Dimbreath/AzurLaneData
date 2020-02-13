@@ -1,82 +1,85 @@
 pg = pg or {}
-slot1.durability = {
-	view = "durability",
-	name = "HP",
-	icon = "durability"
+pg.property_data_template = {
+	durability = {
+		view = "durability",
+		name = "HP",
+		icon = "durability"
+	},
+	cannon = {
+		view = "cannon",
+		name = "Firepower",
+		icon = "cannon"
+	},
+	torpedo = {
+		view = "torpedo",
+		name = "Torpedo",
+		icon = "torpedo"
+	},
+	antiaircraft = {
+		view = "antiaircraft",
+		name = "Anti-Air",
+		icon = "antiaircraft"
+	},
+	air = {
+		view = "air",
+		name = "Aviation",
+		icon = "air"
+	},
+	reload = {
+		view = "reload",
+		name = "Reload",
+		icon = "reload"
+	},
+	range_view = {
+		view = "range_view",
+		name = "Range",
+		icon = "range"
+	},
+	armor = {
+		view = "armor",
+		name = "Armor",
+		icon = "armor"
+	},
+	hit = {
+		view = "hit",
+		name = "Hit",
+		icon = "hit"
+	},
+	dodge = {
+		view = "dodge",
+		name = "Evasion",
+		icon = "dodge"
+	},
+	speed = {
+		view = "speed",
+		name = "Speed",
+		icon = "speed"
+	},
+	luck = {
+		view = "luck",
+		name = "Luck",
+		icon = "luck"
+	},
+	damage = {
+		view = "damage",
+		name = "Firepower",
+		icon = "cannon"
+	},
+	healthy = {
+		view = "healthy",
+		name = "Healing",
+		icon = "durability"
+	},
+	cd = {
+		view = "cd",
+		name = "FR",
+		icon = "reload"
+	},
+	speciality = {
+		view = "speciality",
+		name = "Special",
+		icon = "damage"
+	}
 }
-slot1.cannon = {
-	view = "cannon",
-	name = "Firepower",
-	icon = "cannon"
-}
-slot1.torpedo = {
-	view = "torpedo",
-	name = "Torpedo",
-	icon = "torpedo"
-}
-slot1.antiaircraft = {
-	view = "antiaircraft",
-	name = "Anti-Air",
-	icon = "antiaircraft"
-}
-slot1.air = {
-	view = "air",
-	name = "Aviation",
-	icon = "air"
-}
-slot1.reload = {
-	view = "reload",
-	name = "Reload",
-	icon = "reload"
-}
-slot1.range_view = {
-	view = "range_view",
-	name = "Range",
-	icon = "range"
-}
-slot1.armor = {
-	view = "armor",
-	name = "Armor",
-	icon = "armor"
-}
-slot1.hit = {
-	view = "hit",
-	name = "Hit",
-	icon = "hit"
-}
-slot1.dodge = {
-	view = "dodge",
-	name = "Evasion",
-	icon = "dodge"
-}
-slot1.speed = {
-	view = "speed",
-	name = "Speed",
-	icon = "speed"
-}
-slot1.luck = {
-	view = "luck",
-	name = "Luck",
-	icon = "luck"
-}
-slot1.damage = {
-	view = "damage",
-	name = "Firepower",
-	icon = "cannon"
-}
-slot1.healthy = {
-	view = "healthy",
-	name = "Healing",
-	icon = "durability"
-}
-slot1.cd = {
-	view = "cd",
-	name = "FR",
-	icon = "reload"
-}
-slot1.speciality = {
-	view = "speciality",
-	name = "Special",
-	icon = "damage"
-}
-pg.property_data_template = {}
+
+return

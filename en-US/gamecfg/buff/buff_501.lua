@@ -1,15 +1,3 @@
-slot2.trigger = {
-	"onAttach"
-}
-slot2.arg_list = {
-	number = 0.03,
-	attr = "damageRatioBullet"
-}
-slot1[1] = {
-	type = "BattleBuffAddAttr"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "活动buff-祭典祈愿效果-战斗伤害提高",
@@ -20,5 +8,17 @@ return {
 	stack = 1,
 	color = "yellow",
 	icon = 501,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				number = 0.03,
+				attr = "damageRatioBullet"
+			}
+		}
+	}
 }

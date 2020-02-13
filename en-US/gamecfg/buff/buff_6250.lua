@@ -1,15 +1,3 @@
-slot2.trigger = {
-	"onAllInStrike"
-}
-slot2.arg_list = {
-	skill_id = 6250,
-	target = "TargetSelf"
-}
-slot1[1] = {
-	type = "BattleBuffCastSkill"
-}
-slot0.effect_list = {}
-
 return {
 	time = 0,
 	name = "Jolly Rogers",
@@ -20,5 +8,17 @@ return {
 	stack = 1,
 	color = "yellow",
 	icon = 6250,
-	last_effect = ""
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onAllInStrike"
+			},
+			arg_list = {
+				skill_id = 6250,
+				target = "TargetSelf"
+			}
+		}
+	}
 }

@@ -1,398 +1,402 @@
-slot3.alpha = {
-	1,
-	0
-}
-slot2.flashin = {
-	delay = 1,
-	dur = 1,
-	black = true
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[1] = {
-	side = 2,
-	bgName = "bg_story_room",
-	dir = 1,
-	bgmDelay = 1,
-	bgm = "story-1",
-	say = "Port - Dorms"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[2] = {
-	expression = 5,
-	side = 2,
-	bgName = "bg_story_room",
-	dir = 1,
-	actor = 10400010,
-	nameColor = "#a9f548",
-	say = "Another black screen this time?"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[3] = {
-	actor = 401230,
-	side = 2,
-	bgName = "bg_story_room",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "That's right! Miss AI, because your random word generator was infected by a virus, you were sucked into our world, and then all kinds of things happened..."
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[4] = {
-	actor = 101170,
-	side = 2,
-	bgName = "bg_story_room",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "In the end, we never figured out where the virus came from..."
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[5] = {
-	expression = 2,
-	side = 2,
-	bgName = "bg_story_room",
-	dir = 1,
-	actor = 10400010,
-	nameColor = "#a9f548",
-	say = "I suppose that's true, but this isn't the first time I've encountered viruses. So why this time..."
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[6] = {
-	actor = 301120,
-	side = 2,
-	bgName = "bg_story_room",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "But, so many things happened all at once, it's hard to deny the possibility that there might be some greater conspiracy at play."
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[7] = {
-	actor = 301110,
-	side = 2,
-	bgName = "bg_story_room",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "Maybe there's a \"genius hacker\" somewhere out there who sent AI a virus in order to conquer the world!"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[8] = {
-	expression = 6,
-	side = 2,
-	bgName = "bg_story_room",
-	dir = 1,
-	actor = 10400010,
-	nameColor = "#a9f548",
-	say = "Conquer the world?! I mean, is it really possible to do something like that no matter how much you manipulate me? No way, no way, that's impossible!"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[9] = {
-	actor = 301050,
-	side = 2,
-	bgName = "bg_story_room",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "Well, if you turn into that titan again, it feels like anything is possible..."
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[10] = {
-	actor = 201210,
-	side = 2,
-	bgName = "bg_story_room",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "Ahaha! You have a point. If you get THAT big, maybe you can conquer the world!"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[11] = {
-	expression = 5,
-	side = 2,
-	bgName = "bg_story_room",
-	dir = 1,
-	actor = 10400010,
-	nameColor = "#a9f548",
-	say = "Jeez~! Everyone's poking fun at me now~! Being that size comes with all kinds of problems!"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[12] = {
-	actor = 401230,
-	side = 2,
-	bgName = "bg_story_room",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "Haha, I suppose it's quite a liability to be unable to function at full capacity without an enormous power supply."
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot3[1] = {
-	y = 45,
-	type = "shake",
-	delay = 0,
-	dur = 0.15,
-	x = 0,
-	number = 2
-}
-slot2.action = {}
-slot1[13] = {
-	expression = 4,
-	side = 2,
-	bgName = "bg_story_room",
-	dir = 1,
-	actor = 10400010,
-	nameColor = "#a9f548",
-	say = "If we get to the bottom of this, I'll bet you that the Sirens caused all this! Just kidding... there's no way that the script writers would blame them for every little thing! Ahaha... ha... ha!"
-}
-slot2.dialogShake = {
-	speed = 0.09,
-	x = 12.75,
-	number = 2
-}
-slot2.actorPosition = {
-	x = -225,
-	y = 0
-}
-slot4.pos = {
-	x = -525
-}
-slot3[1] = {
-	actor = 301120
-}
-slot4.pos = {
-	x = 525
-}
-slot3[2] = {
-	actor = 401230
-}
-slot4.pos = {
-	x = 1050
-}
-slot3[3] = {
-	actor = 201210
-}
-slot2.subActors = {}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[14] = {
-	side = 2,
-	bgName = "bg_story_room",
-	hideOther = true,
-	dir = 1,
-	nameColor = "#a9f548",
-	actor = 101170,
-	actorName = "Laffey & Javelin & Z23 & Inazuma",
-	say = "………！"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[15] = {
-	actor = 101170,
-	side = 2,
-	bgName = "bg_story_room",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "Even though we do usually say \"the Sirens caused all this...\""
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot3[1] = {
-	y = 0,
-	type = "shake",
-	delay = 0,
-	dur = 0.4,
-	x = 22.5,
-	number = 2
-}
-slot2.action = {}
-slot1[16] = {
-	side = 2,
-	bgName = "bg_story_room",
-	dir = 1,
-	actor = 201210,
-	nameColor = "#a9f548",
-	say = "Um... surely not this time, right? Zed?"
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot3[1] = {
-	y = 22.5,
-	type = "shake",
-	delay = 0,
-	dur = 0.15,
-	x = 0,
-	number = 2
-}
-slot2.action = {}
-slot1[17] = {
-	side = 2,
-	bgName = "bg_story_room",
-	dir = 1,
-	actor = 401230,
-	nameColor = "#a9f548",
-	say = "R-right... Even the Sirens wouldn't do something this pointless..."
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[18] = {
-	actor = 301120,
-	side = 2,
-	bgName = "bg_story_room",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "Inazuma... can only pray that there is some literary integrity out there..."
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[19] = {
-	actor = 301110,
-	side = 2,
-	bgName = "bg_story_room",
-	nameColor = "#a9f548",
-	dir = 1,
-	say = "I see, I see! So that's what they mean by \"ignorance is bliss!\" Oh, is that also what they mean by \"no harm, no foul?!\""
-}
-slot2.typewriter = {
-	speed = 0.05,
-	speedUp = 0.01
-}
-slot2.painting = {
-	alpha = 0.3,
-	time = 1
-}
-slot1[20] = {
-	stopbgm = true,
-	side = 2,
-	bgName = "bg_story_room",
-	dir = 1,
-	say = "The truth behind all this... is something God only knows."
-}
-slot0.scripts = {}
-
 return {
 	mode = 2,
 	once = true,
 	id = "AIGUANQIA24",
-	fadein = 1.5
+	fadein = 1.5,
+	scripts = {
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			bgmDelay = 1,
+			bgm = "story-1",
+			say = "Port - Dorms",
+			flashin = {
+				delay = 1,
+				dur = 1,
+				black = true,
+				alpha = {
+					1,
+					0
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 10400010,
+			nameColor = "#a9f548",
+			say = "Another black screen this time?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 401230,
+			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "That's right! Miss AI, because your random word generator was infected by a virus, you were sucked into our world, and then all kinds of things happened...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 101170,
+			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "In the end, we never figured out where the virus came from...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 10400010,
+			nameColor = "#a9f548",
+			say = "I suppose that's true, but this isn't the first time I've encountered viruses. So why this time...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301120,
+			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "But, so many things happened all at once, it's hard to deny the possibility that there might be some greater conspiracy at play.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301110,
+			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Maybe there's a \"genius hacker\" somewhere out there who sent AI a virus in order to conquer the world!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 6,
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 10400010,
+			nameColor = "#a9f548",
+			say = "Conquer the world?! I mean, is it really possible to do something like that no matter how much you manipulate me? No way, no way, that's impossible!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301050,
+			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Well, if you turn into that titan again, it feels like anything is possible...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 201210,
+			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Ahaha! You have a point. If you get THAT big, maybe you can conquer the world!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 10400010,
+			nameColor = "#a9f548",
+			say = "Jeez~! Everyone's poking fun at me now~! Being that size comes with all kinds of problems!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 401230,
+			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Haha, I suppose it's quite a liability to be unable to function at full capacity without an enormous power supply.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 10400010,
+			nameColor = "#a9f548",
+			say = "If we get to the bottom of this, I'll bet you that the Sirens caused all this! Just kidding... there's no way that the script writers would blame them for every little thing! Ahaha... ha... ha!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 45,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			hideOther = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 101170,
+			actorName = "Laffey & Javelin & Z23 & Inazuma",
+			say = "………！",
+			dialogShake = {
+				speed = 0.09,
+				x = 12.75,
+				number = 2
+			},
+			actorPosition = {
+				x = -225,
+				y = 0
+			},
+			subActors = {
+				{
+					actor = 301120,
+					pos = {
+						x = -525
+					}
+				},
+				{
+					actor = 401230,
+					pos = {
+						x = 525
+					}
+				},
+				{
+					actor = 201210,
+					pos = {
+						x = 1050
+					}
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 101170,
+			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Even though we do usually say \"the Sirens caused all this...\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
+			say = "Um... surely not this time, right? Zed?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 0,
+					type = "shake",
+					delay = 0,
+					dur = 0.4,
+					x = 22.5,
+					number = 2
+				}
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
+			say = "R-right... Even the Sirens wouldn't do something this pointless...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			action = {
+				{
+					y = 22.5,
+					type = "shake",
+					delay = 0,
+					dur = 0.15,
+					x = 0,
+					number = 2
+				}
+			}
+		},
+		{
+			actor = 301120,
+			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Inazuma... can only pray that there is some literary integrity out there...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301110,
+			side = 2,
+			bgName = "bg_story_room",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "I see, I see! So that's what they mean by \"ignorance is bliss!\" Oh, is that also what they mean by \"no harm, no foul?!\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			stopbgm = true,
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			say = "The truth behind all this... is something God only knows.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		}
+	}
 }

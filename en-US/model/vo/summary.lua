@@ -2,11 +2,9 @@ slot0 = class("Summary", import(".BaseVO"))
 
 function slot0.Ctor(slot0, slot1)
 	slot0.name = getProxy(PlayerProxy):getData().name
-	slot0.registerTime = pg.TimeMgr.GetInstance():STimeDescC(slot1.register_date, "%Y/%m/%d")
-	slot0.days = math.ceil((getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SUMMARY):getStartTime() - slot1.register_date) / 86400) + 1
-	slot5 = getProxy(UserProxy)
-	slot6 = getProxy(ServerProxy):getRawData()
-	slot0.serverName = slot6[slot5:getRawData() and slot5.server or 0] and slot6.name or ""
+	slot0.registerTime = pg.TimeMgr.GetInstance().STimeDescC(slot2, slot1.register_date, "%Y/%m/%d")
+	slot0.days = math.ceil((getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SUMMARY).getStartTime(slot3) - slot1.register_date) / 86400) + 1
+	slot0.serverName = (getProxy(ServerProxy):getRawData()[(getProxy(UserProxy):getRawData() and slot5.server) or 0] and getProxy(ServerProxy).getRawData().name) or ""
 	slot8 = pg.chapter_template[math.max(slot1.chapter_id, 101)]
 
 	if PLATFORM_CODE == PLATFORM_US and slot8.model == ChapterConst.TypeMainSub then
@@ -26,8 +24,9 @@ function slot0.Ctor(slot0, slot1)
 	slot0.firstProposeName = ""
 
 	if slot0.firstLadyId > 0 then
-		slot10.configId = slot0.firstLadyId
-		slot0.firstProposeName = Ship.New({}):getConfig("name")
+		slot0.firstProposeName = Ship.New({
+			configId = slot0.firstLadyId
+		}):getConfig("name")
 	end
 
 	if slot1.first_lady_name ~= "" then

@@ -1,14 +1,3 @@
-slot2.arg_list = {
-	buff_id = 40221
-}
-slot1[1] = {
-	targetAniEffect = "",
-	casterAniEffect = "",
-	type = "BattleSkillAddBuff",
-	target_choise = "TargetPlayerFlagShip"
-}
-slot0.effect_list = {}
-
 return {
 	uiEffect = "",
 	name = "奥古喵：战列命中提高",
@@ -17,5 +6,16 @@ return {
 	aniEffect = "",
 	desc = "奥古喵：战列命中提高",
 	painting = 1,
-	id = 40220
+	id = 40220,
+	effect_list = {
+		{
+			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetPlayerFlagShip",
+			arg_list = {
+				buff_id = 40221
+			}
+		}
+	}
 }

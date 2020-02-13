@@ -1,13 +1,9 @@
-slot0 = class("ActivityBossNormalUpdateCommand", pm.SimpleCommand)
-
-function slot0.execute(slot0, slot1)
+class("ActivityBossNormalUpdateCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	if not slot1:getBody().stageId then
 		return
 	end
 
-	slot4 = getProxy(ActivityProxy)
-
-	if not slot4:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) or slot4:isEnd() then
+	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) or slot4:isEnd() then
 		return
 	end
 
@@ -16,8 +12,10 @@ function slot0.execute(slot0, slot1)
 	end
 
 	slot6 = {}
+	slot7 = pairs
+	slot8 = slot5.normal_expedition_drop_num or {}
 
-	for slot10, slot11 in pairs(slot5.normal_expedition_drop_num or {}) do
+	for slot10, slot11 in slot7(slot8) do
 		for slot15, slot16 in pairs(slot11[1]) do
 			if slot16 == slot3 then
 				for slot20, slot21 in pairs(slot11[1]) do
@@ -49,4 +47,4 @@ function slot0.execute(slot0, slot1)
 	end
 end
 
-return slot0
+return class("ActivityBossNormalUpdateCommand", pm.SimpleCommand)

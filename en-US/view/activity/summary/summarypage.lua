@@ -14,6 +14,7 @@ function slot0.Init(slot0, slot1)
 end
 
 function slot0.OnInit(slot0)
+	return
 end
 
 function slot0.Show(slot0, slot1)
@@ -33,9 +34,11 @@ function slot0.Hide(slot0, slot1)
 end
 
 function slot0.inAnim(slot0)
+	return
 end
 
 function slot0.Clear(slot0)
+	return
 end
 
 function slot0.Dispose(slot0)

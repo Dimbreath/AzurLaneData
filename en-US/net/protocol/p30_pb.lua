@@ -75,9 +75,10 @@ SC_30001.name = "sc_30001"
 SC_30001.full_name = ".p30.sc_30001"
 SC_30001.nested_types = {}
 SC_30001.enum_types = {}
-slot37[1] = slot2
-slot37[2] = slot3
-SC_30001.fields = {}
+SC_30001.fields = {
+	slot2,
+	slot3
+}
 SC_30001.is_extendable = false
 SC_30001.extensions = {}
 slot4.name = "type"
@@ -102,9 +103,10 @@ CS_30002.name = "cs_30002"
 CS_30002.full_name = ".p30.cs_30002"
 CS_30002.nested_types = {}
 CS_30002.enum_types = {}
-slot37[1] = slot4
-slot37[2] = slot5
-CS_30002.fields = {}
+CS_30002.fields = {
+	slot4,
+	slot5
+}
 CS_30002.is_extendable = false
 CS_30002.extensions = {}
 slot6.name = "mail_list"
@@ -121,8 +123,9 @@ SC_30003.name = "sc_30003"
 SC_30003.full_name = ".p30.sc_30003"
 SC_30003.nested_types = {}
 SC_30003.enum_types = {}
-slot37[1] = slot6
-SC_30003.fields = {}
+SC_30003.fields = {
+	slot6
+}
 SC_30003.is_extendable = false
 SC_30003.extensions = {}
 slot7.name = "id"
@@ -138,8 +141,9 @@ CS_30004.name = "cs_30004"
 CS_30004.full_name = ".p30.cs_30004"
 CS_30004.nested_types = {}
 CS_30004.enum_types = {}
-slot37[1] = slot7
-CS_30004.fields = {}
+CS_30004.fields = {
+	slot7
+}
 CS_30004.is_extendable = false
 CS_30004.extensions = {}
 slot8.name = "attachment_list"
@@ -156,8 +160,9 @@ SC_30005.name = "sc_30005"
 SC_30005.full_name = ".p30.sc_30005"
 SC_30005.nested_types = {}
 SC_30005.enum_types = {}
-slot37[1] = slot8
-SC_30005.fields = {}
+SC_30005.fields = {
+	slot8
+}
 SC_30005.is_extendable = false
 SC_30005.extensions = {}
 slot9.name = "id"
@@ -173,8 +178,9 @@ CS_30006.name = "cs_30006"
 CS_30006.full_name = ".p30.cs_30006"
 CS_30006.nested_types = {}
 CS_30006.enum_types = {}
-slot37[1] = slot9
-CS_30006.fields = {}
+CS_30006.fields = {
+	slot9
+}
 CS_30006.is_extendable = false
 CS_30006.extensions = {}
 slot10.name = "id_list"
@@ -190,8 +196,9 @@ SC_30007.name = "sc_30007"
 SC_30007.full_name = ".p30.sc_30007"
 SC_30007.nested_types = {}
 SC_30007.enum_types = {}
-slot37[1] = slot10
-SC_30007.fields = {}
+SC_30007.fields = {
+	slot10
+}
 SC_30007.is_extendable = false
 SC_30007.extensions = {}
 slot11.name = "id"
@@ -207,8 +214,9 @@ CS_30008.name = "cs_30008"
 CS_30008.full_name = ".p30.cs_30008"
 CS_30008.nested_types = {}
 CS_30008.enum_types = {}
-slot37[1] = slot11
-CS_30008.fields = {}
+CS_30008.fields = {
+	slot11
+}
 CS_30008.is_extendable = false
 CS_30008.extensions = {}
 slot12.name = "detail_info"
@@ -225,8 +233,9 @@ SC_30009.name = "sc_30009"
 SC_30009.full_name = ".p30.sc_30009"
 SC_30009.nested_types = {}
 SC_30009.enum_types = {}
-slot37[1] = slot12
-SC_30009.fields = {}
+SC_30009.fields = {
+	slot12
+}
 SC_30009.is_extendable = false
 SC_30009.extensions = {}
 slot13.name = "id"
@@ -251,9 +260,10 @@ CS_30010.name = "cs_30010"
 CS_30010.full_name = ".p30.cs_30010"
 CS_30010.nested_types = {}
 CS_30010.enum_types = {}
-slot37[1] = slot13
-slot37[2] = slot14
-CS_30010.fields = {}
+CS_30010.fields = {
+	slot13,
+	slot14
+}
 CS_30010.is_extendable = false
 CS_30010.extensions = {}
 slot15.name = "result"
@@ -269,8 +279,9 @@ SC_30011.name = "sc_30011"
 SC_30011.full_name = ".p30.sc_30011"
 SC_30011.nested_types = {}
 SC_30011.enum_types = {}
-slot37[1] = slot15
-SC_30011.fields = {}
+SC_30011.fields = {
+	slot15
+}
 SC_30011.is_extendable = false
 SC_30011.extensions = {}
 slot16.name = "id"
@@ -341,14 +352,15 @@ MAIL_SIGLE.name = "mail_sigle"
 MAIL_SIGLE.full_name = ".p30.mail_sigle"
 MAIL_SIGLE.nested_types = {}
 MAIL_SIGLE.enum_types = {}
-slot37[1] = slot16
-slot37[2] = slot17
-slot37[3] = slot18
-slot37[4] = slot19
-slot37[5] = slot20
-slot37[6] = slot21
-slot37[7] = slot22
-MAIL_SIGLE.fields = {}
+MAIL_SIGLE.fields = {
+	slot16,
+	slot17,
+	slot18,
+	slot19,
+	slot20,
+	slot21,
+	slot22
+}
 MAIL_SIGLE.is_extendable = false
 MAIL_SIGLE.extensions = {}
 slot23.name = "id"
@@ -383,10 +395,11 @@ MAIL_DETAIL.name = "mail_detail"
 MAIL_DETAIL.full_name = ".p30.mail_detail"
 MAIL_DETAIL.nested_types = {}
 MAIL_DETAIL.enum_types = {}
-slot37[1] = slot23
-slot37[2] = slot24
-slot37[3] = slot25
-MAIL_DETAIL.fields = {}
+MAIL_DETAIL.fields = {
+	slot23,
+	slot24,
+	slot25
+}
 MAIL_DETAIL.is_extendable = false
 MAIL_DETAIL.extensions = {}
 slot26.name = "type"
@@ -420,10 +433,11 @@ ATTACHMENT.name = "attachment"
 ATTACHMENT.full_name = ".p30.attachment"
 ATTACHMENT.nested_types = {}
 ATTACHMENT.enum_types = {}
-slot37[1] = slot26
-slot37[2] = slot27
-slot37[3] = slot28
-ATTACHMENT.fields = {}
+ATTACHMENT.fields = {
+	slot26,
+	slot27,
+	slot28
+}
 ATTACHMENT.is_extendable = false
 ATTACHMENT.extensions = {}
 slot29.name = "act_id"
@@ -449,9 +463,10 @@ CS_30101.name = "cs_30101"
 CS_30101.full_name = ".p30.cs_30101"
 CS_30101.nested_types = {}
 CS_30101.enum_types = {}
-slot37[1] = slot29
-slot37[2] = slot30
-CS_30101.fields = {}
+CS_30101.fields = {
+	slot29,
+	slot30
+}
 CS_30101.is_extendable = false
 CS_30101.extensions = {}
 slot31.name = "result"
@@ -477,9 +492,10 @@ SC_30102.name = "sc_30102"
 SC_30102.full_name = ".p30.sc_30102"
 SC_30102.nested_types = {}
 SC_30102.enum_types = {}
-slot37[1] = slot31
-slot37[2] = slot32
-SC_30102.fields = {}
+SC_30102.fields = {
+	slot31,
+	slot32
+}
 SC_30102.is_extendable = false
 SC_30102.extensions = {}
 slot33.name = "id"
@@ -513,10 +529,11 @@ ANSWER.name = "answer"
 ANSWER.full_name = ".p30.answer"
 ANSWER.nested_types = {}
 ANSWER.enum_types = {}
-slot37[1] = slot33
-slot37[2] = slot34
-slot37[3] = slot35
-ANSWER.fields = {}
+ANSWER.fields = {
+	slot33,
+	slot34,
+	slot35
+}
 ANSWER.is_extendable = false
 ANSWER.extensions = {}
 answer = slot0.Message(ANSWER)
@@ -536,3 +553,5 @@ sc_30007 = slot0.Message(SC_30007)
 sc_30009 = slot0.Message(SC_30009)
 sc_30011 = slot0.Message(SC_30011)
 sc_30102 = slot0.Message(SC_30102)
+
+return
