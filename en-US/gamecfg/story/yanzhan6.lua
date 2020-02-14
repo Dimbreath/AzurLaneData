@@ -225,7 +225,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "(I do find myself more relaxed when chatting when the Commander. All the stress of the day washes right away.)",
+			say = "(I do find myself more relaxed when chatting with the Commander. All the stress of the day washes right away.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
