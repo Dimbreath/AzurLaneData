@@ -32205,6 +32205,119 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[202232] = {
+		name = "백옥의 미녀 ",
+		bullet_skin_main = "",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "虽、虽然尝试了东煌风格的打扮，不过…果然我还是不适合这种华丽的服装吧…欸？很、很吸引人？！谢、谢谢你，指挥官，即便只是安慰我也很满足了…",
+		bullet_skin_secondary = "",
+		ship_group = 20223,
+		painting = "quejie_3",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 3,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "128",
+		isSwimsuit = 0,
+		skin_type = 0,
+		id = 202232,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "quejie_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70304,
+		voice_actor = 188,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.04,
+					1,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.07,
+					0.99,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.01,
+					1.03,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.61,
+							2.29,
+							-0.568
+						}
+					}
+				}
+			}
+		}
+	},
 	[202240] = {
 		name = "블랙 프린스",
 		bullet_skin_main = "",
@@ -103637,6 +103750,9 @@ pg.ship_skin_template = {
 			202241,
 			202242
 		},
+		[20223] = {
+			202232
+		},
 		[20220] = {
 			202200,
 			202201,
@@ -104505,6 +104621,7 @@ pg.ship_skin_template = {
 		202200,
 		202201,
 		202203,
+		202232,
 		202240,
 		202241,
 		202242,

@@ -6117,7 +6117,11 @@ pg.transform_data_template = {
 		id = 8110,
 		icon = "mt_blue",
 		skill_id = 0,
-		descrip = "",
+		descrip = [[
+근대화 개조 완료，대잠+40，대공+10
+
+개조 후<color=#92fc63>【어뢰 발사 수-1】</color>
+개조 후<color=#92fc63>【대공포 발사 수+1】</color> ]],
 		condition_id = {
 			8108,
 			8109
