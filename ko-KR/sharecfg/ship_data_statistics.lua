@@ -69459,6 +69459,486 @@ pg.ship_data_statistics = {
 			"Dido_class"
 		}
 	},
+	[202231] = {
+		oxy_max = 0,
+		type = 2,
+		name = "스위프트슈어 ",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 202231,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Swiftsure",
+		oxy_cost = 0,
+		skin_id = 202230,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			650,
+			30,
+			69,
+			57,
+			0,
+			70,
+			0,
+			56,
+			28,
+			32,
+			44,
+			36
+		},
+		attrs_growth = {
+			15845,
+			298,
+			682,
+			1124,
+			0,
+			346,
+			0,
+			828,
+			408,
+			0,
+			0,
+			356
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			211
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.45,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202232] = {
+		oxy_max = 0,
+		type = 2,
+		name = "스위프트슈어 ",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 202232,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Swiftsure",
+		oxy_cost = 0,
+		skin_id = 202230,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			808,
+			37,
+			86,
+			71,
+			0,
+			70,
+			0,
+			56,
+			28,
+			32,
+			44,
+			45
+		},
+		attrs_growth = {
+			15845,
+			298,
+			682,
+			1124,
+			0,
+			346,
+			0,
+			828,
+			408,
+			0,
+			0,
+			356
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			212
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.45,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202233] = {
+		oxy_max = 0,
+		type = 2,
+		name = "스위프트슈어 ",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 202233,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Swiftsure",
+		oxy_cost = 0,
+		skin_id = 202230,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1125,
+			52,
+			120,
+			99,
+			0,
+			70,
+			0,
+			56,
+			28,
+			32,
+			44,
+			63
+		},
+		attrs_growth = {
+			15845,
+			298,
+			682,
+			1124,
+			0,
+			346,
+			0,
+			828,
+			408,
+			0,
+			0,
+			356
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			213
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.55,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[202234] = {
+		oxy_max = 0,
+		type = 2,
+		name = "스위프트슈어 ",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 202234,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Swiftsure",
+		oxy_cost = 0,
+		skin_id = 202230,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1601,
+			75,
+			171,
+			141,
+			0,
+			70,
+			0,
+			56,
+			28,
+			32,
+			44,
+			89
+		},
+		attrs_growth = {
+			15845,
+			298,
+			682,
+			1124,
+			0,
+			346,
+			0,
+			828,
+			408,
+			0,
+			0,
+			356
+		},
+		attrs_growth_extra = {
+			4754,
+			707,
+			1208,
+			602,
+			0,
+			824,
+			0,
+			-8,
+			732,
+			0,
+			0,
+			421
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			214
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1.55,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[202241] = {
 		oxy_max = 0,
 		type = 2,
@@ -214842,6 +215322,10 @@ pg.ship_data_statistics = {
 		202202,
 		202203,
 		202204,
+		202231,
+		202232,
+		202233,
+		202234,
 		202241,
 		202242,
 		202243,

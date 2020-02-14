@@ -7546,6 +7546,65 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[201511] = {
+		use_gold = 300,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 20101,
+		breakout_id = 201512,
+		breakout_view = "스킬 습득 - 전탄 발사 I / 주포 효율 +5%",
+		id = 201511,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			71011
+		}
+	},
+	[201512] = {
+		use_gold = 800,
+		pre_id = 201511,
+		use_char_num = 1,
+		use_char = 20101,
+		breakout_id = 201513,
+		breakout_view = "어뢰 발사 수 +1 / 어뢰 탑재량 +1 / 주포 효율 +10%",
+		id = 201512,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[201513] = {
+		use_gold = 1500,
+		pre_id = 201512,
+		use_char_num = 2,
+		use_char = 20101,
+		breakout_id = 201514,
+		breakout_view = "전탄 발사 스킬 강화 / 모든 무기 효율 +5%",
+		id = 201513,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			71012
+		}
+	},
+	[201514] = {
+		use_gold = 0,
+		pre_id = 201513,
+		use_char_num = 0,
+		use_char = 20101,
+		breakout_id = 0,
+		breakout_view = "없음",
+		id = 201514,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[202011] = {
 		use_gold = 100,
 		pre_id = 0,
@@ -23893,6 +23952,10 @@ pg.ship_data_breakout = {
 		201292,
 		201293,
 		201294,
+		201511,
+		201512,
+		201513,
+		201514,
 		202011,
 		202012,
 		202013,
