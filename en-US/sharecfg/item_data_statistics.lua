@@ -12479,7 +12479,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		display = "海王星赠送的情人节礼物",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12495,7 +12495,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		display = "君主赠送的情人节礼物",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12511,7 +12511,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		display = "{namecode:152}赠送的情人节礼物",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12527,7 +12527,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		display = "{namecode:151}赠送的情人节礼物",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12543,7 +12543,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		display = "罗恩赠送的情人节礼物",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12559,7 +12559,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		display = "路易九世赠送的情人节礼物",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12572,10 +12572,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41601] = {
-		display = "泛用型布里赠送的情人节礼物",
+		display = "A Valentine Gift from UniversalBulin",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12588,10 +12588,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41602] = {
-		display = "试作型布里MKII赠送的情人节礼物",
+		display = "A Valentine Gift from PrototypeBulinMKII",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12604,10 +12604,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41603] = {
-		display = "卡辛赠送的情人节礼物",
+		display = "A Valentine Gift from Cassin",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12620,10 +12620,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41604] = {
-		display = "唐斯赠送的情人节礼物",
+		display = "A Valentine Gift from Downes",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12636,10 +12636,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41605] = {
-		display = "格里德利赠送的情人节礼物",
+		display = "A Valentine Gift from Gridley",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12652,10 +12652,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41606] = {
-		display = "克雷文赠送的情人节礼物",
+		display = "A Valentine Gift from Craven",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12668,10 +12668,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41607] = {
-		display = "麦考尔赠送的情人节礼物",
+		display = "A Valentine Gift from McCall",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12684,10 +12684,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41608] = {
-		display = "莫里赠送的情人节礼物",
+		display = "A Valentine Gift from Maury",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12700,10 +12700,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41609] = {
-		display = "弗莱彻赠送的情人节礼物",
+		display = "A Valentine Gift from Fletcher",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12716,10 +12716,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41610] = {
-		display = "查尔斯·奥斯本赠送的情人节礼物",
+		display = "A Valentine Gift from CharlesAusburne",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12732,10 +12732,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41611] = {
-		display = "撒切尔赠送的情人节礼物",
+		display = "A Valentine Gift from Thatcher",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12748,10 +12748,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41612] = {
-		display = "奥利克赠送的情人节礼物",
+		display = "A Valentine Gift from Aulick",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12764,10 +12764,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41613] = {
-		display = "富特赠送的情人节礼物",
+		display = "A Valentine Gift from Foote",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12780,10 +12780,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41614] = {
-		display = "斯彭斯赠送的情人节礼物",
+		display = "A Valentine Gift from Spence",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12796,10 +12796,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41615] = {
-		display = "本森赠送的情人节礼物",
+		display = "A Valentine Gift from Benson",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12812,10 +12812,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41616] = {
-		display = "拉菲赠送的情人节礼物",
+		display = "A Valentine Gift from Laffey",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12828,10 +12828,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41617] = {
-		display = "西姆斯赠送的情人节礼物",
+		display = "A Valentine Gift from Sims",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12844,10 +12844,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41618] = {
-		display = "哈曼赠送的情人节礼物",
+		display = "A Valentine Gift from Hammann",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12860,10 +12860,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41619] = {
-		display = "埃尔德里奇赠送的情人节礼物",
+		display = "A Valentine Gift from Eldridge",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12876,10 +12876,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41620] = {
-		display = "奥马哈赠送的情人节礼物",
+		display = "A Valentine Gift from Omaha",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12892,10 +12892,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41621] = {
-		display = "罗利赠送的情人节礼物",
+		display = "A Valentine Gift from Raleigh",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12908,10 +12908,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41622] = {
-		display = "布鲁克林赠送的情人节礼物",
+		display = "A Valentine Gift from Brooklyn",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12924,10 +12924,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41623] = {
-		display = "菲尼克斯赠送的情人节礼物",
+		display = "A Valentine Gift from Phoenix",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12940,10 +12940,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41624] = {
-		display = "海伦娜赠送的情人节礼物",
+		display = "A Valentine Gift from Helena",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12956,10 +12956,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41625] = {
-		display = "亚特兰大赠送的情人节礼物",
+		display = "A Valentine Gift from Atlanta",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12972,10 +12972,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41626] = {
-		display = "朱诺赠送的情人节礼物",
+		display = "A Valentine Gift from Juneau",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -12988,10 +12988,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41627] = {
-		display = "圣地亚哥赠送的情人节礼物",
+		display = "A Valentine Gift from SanDiego",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13004,10 +13004,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41628] = {
-		display = "克利夫兰赠送的情人节礼物",
+		display = "A Valentine Gift from Cleveland",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13020,10 +13020,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41629] = {
-		display = "哥伦比亚赠送的情人节礼物",
+		display = "A Valentine Gift from Columbia",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13036,10 +13036,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41630] = {
-		display = "彭萨科拉赠送的情人节礼物",
+		display = "A Valentine Gift from Pensacola",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13052,10 +13052,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41631] = {
-		display = "盐湖城赠送的情人节礼物",
+		display = "A Valentine Gift from SaltLakeCity",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13068,10 +13068,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41632] = {
-		display = "北安普敦赠送的情人节礼物",
+		display = "A Valentine Gift from Northampton",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13084,10 +13084,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41633] = {
-		display = "芝加哥赠送的情人节礼物",
+		display = "A Valentine Gift from Chicago",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13100,10 +13100,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41634] = {
-		display = "休斯敦赠送的情人节礼物",
+		display = "A Valentine Gift from Houston",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13116,10 +13116,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41635] = {
-		display = "波特兰赠送的情人节礼物",
+		display = "A Valentine Gift from Portland",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13132,10 +13132,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41636] = {
-		display = "印第安纳波利斯赠送的情人节礼物",
+		display = "A Valentine Gift from Indianapolis",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13148,10 +13148,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41637] = {
-		display = "阿斯托利亚赠送的情人节礼物",
+		display = "A Valentine Gift from Astoria",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13164,10 +13164,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41638] = {
-		display = "昆西赠送的情人节礼物",
+		display = "A Valentine Gift from Quincy",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13180,10 +13180,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41639] = {
-		display = "文森斯赠送的情人节礼物",
+		display = "A Valentine Gift from Vincennes",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13196,10 +13196,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41640] = {
-		display = "威奇塔赠送的情人节礼物",
+		display = "A Valentine Gift from Wichita",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13212,10 +13212,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41641] = {
-		display = "内华达赠送的情人节礼物",
+		display = "A Valentine Gift from Nevada",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13228,10 +13228,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41642] = {
-		display = "俄克拉荷马赠送的情人节礼物",
+		display = "A Valentine Gift from Oklahoma",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13244,10 +13244,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41643] = {
-		display = "宾夕法尼亚赠送的情人节礼物",
+		display = "A Valentine Gift from Pennsylvania",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13260,10 +13260,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41644] = {
-		display = "亚利桑那赠送的情人节礼物",
+		display = "A Valentine Gift from Arizona",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13276,10 +13276,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41645] = {
-		display = "田纳西赠送的情人节礼物",
+		display = "A Valentine Gift from Tennessee",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13292,10 +13292,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41646] = {
-		display = "加利福尼亚赠送的情人节礼物",
+		display = "A Valentine Gift from California",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13308,10 +13308,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41647] = {
-		display = "科罗拉多赠送的情人节礼物",
+		display = "A Valentine Gift from Colorado",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13324,10 +13324,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41648] = {
-		display = "马里兰赠送的情人节礼物",
+		display = "A Valentine Gift from Maryland",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13340,10 +13340,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41649] = {
-		display = "西弗吉尼亚赠送的情人节礼物",
+		display = "A Valentine Gift from WestVirginia",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13356,10 +13356,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41650] = {
-		display = "北卡罗来纳赠送的情人节礼物",
+		display = "A Valentine Gift from NorthCarolina",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13372,10 +13372,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41651] = {
-		display = "华盛顿赠送的情人节礼物",
+		display = "A Valentine Gift from Washington",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13388,10 +13388,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41652] = {
-		display = "南达科他赠送的情人节礼物",
+		display = "A Valentine Gift from SouthDakota",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13404,10 +13404,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41653] = {
-		display = "长岛赠送的情人节礼物",
+		display = "A Valentine Gift from LongIsland",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13420,10 +13420,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41654] = {
-		display = "博格赠送的情人节礼物",
+		display = "A Valentine Gift from Bogue",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13436,10 +13436,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41655] = {
-		display = "兰利赠送的情人节礼物",
+		display = "A Valentine Gift from Langley",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13452,10 +13452,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41656] = {
-		display = "列克星敦赠送的情人节礼物",
+		display = "A Valentine Gift from Lexington",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13468,10 +13468,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41657] = {
-		display = "萨拉托加赠送的情人节礼物",
+		display = "A Valentine Gift from Saratoga",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13484,10 +13484,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41658] = {
-		display = "突击者赠送的情人节礼物",
+		display = "A Valentine Gift from Ranger",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13500,10 +13500,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41659] = {
-		display = "约克城赠送的情人节礼物",
+		display = "A Valentine Gift from Yorktown",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13516,10 +13516,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41660] = {
-		display = "企业赠送的情人节礼物",
+		display = "A Valentine Gift from Enterprise",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13532,10 +13532,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41661] = {
-		display = "大黄蜂赠送的情人节礼物",
+		display = "A Valentine Gift from Hornet",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13548,10 +13548,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41662] = {
-		display = "胡蜂赠送的情人节礼物",
+		display = "A Valentine Gift from Wasp",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13564,10 +13564,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41663] = {
-		display = "女灶神赠送的情人节礼物",
+		display = "A Valentine Gift from Vestal",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13580,10 +13580,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41664] = {
-		display = "女将赠送的情人节礼物",
+		display = "A Valentine Gift from Amazon",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13596,10 +13596,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41665] = {
-		display = "阿卡司塔赠送的情人节礼物",
+		display = "A Valentine Gift from Acasta",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13612,10 +13612,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41666] = {
-		display = "热心赠送的情人节礼物",
+		display = "A Valentine Gift from Ardent",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13628,10 +13628,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41667] = {
-		display = "小猎兔犬赠送的情人节礼物",
+		display = "A Valentine Gift from Beagle",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13644,10 +13644,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41668] = {
-		display = "大斗犬赠送的情人节礼物",
+		display = "A Valentine Gift from Bulldog",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13660,10 +13660,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41669] = {
-		display = "彗星赠送的情人节礼物",
+		display = "A Valentine Gift from Comet",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13676,10 +13676,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41670] = {
-		display = "{namecode:125}赠送的情人节礼物",
+		display = "A Valentine Gift from Crescent",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13692,10 +13692,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41671] = {
-		display = "小天鹅赠送的情人节礼物",
+		display = "A Valentine Gift from Cygnet",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13708,10 +13708,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41672] = {
-		display = "狐提赠送的情人节礼物",
+		display = "A Valentine Gift from Foxhound",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13724,10 +13724,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41673] = {
-		display = "命运女神赠送的情人节礼物",
+		display = "A Valentine Gift from Fortune",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13740,10 +13740,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41674] = {
-		display = "格伦维尔赠送的情人节礼物",
+		display = "A Valentine Gift from Grenville",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13756,10 +13756,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41675] = {
-		display = "萤火虫赠送的情人节礼物",
+		display = "A Valentine Gift from Glowworm",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13772,10 +13772,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41676] = {
-		display = "标枪赠送的情人节礼物",
+		display = "A Valentine Gift from Javelin",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13788,10 +13788,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41677] = {
-		display = "天后赠送的情人节礼物",
+		display = "A Valentine Gift from Juno",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13804,10 +13804,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41678] = {
-		display = "吸血鬼赠送的情人节礼物",
+		display = "A Valentine Gift from Vampire",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13820,10 +13820,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41679] = {
-		display = "利安得赠送的情人节礼物",
+		display = "A Valentine Gift from Leander",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13836,10 +13836,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41680] = {
-		display = "阿基里斯赠送的情人节礼物",
+		display = "A Valentine Gift from Achilles",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13852,10 +13852,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41681] = {
-		display = "阿贾克斯赠送的情人节礼物",
+		display = "A Valentine Gift from Ajax",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13868,10 +13868,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41682] = {
-		display = "谢菲尔德赠送的情人节礼物",
+		display = "A Valentine Gift from Sheffield",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13884,10 +13884,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41683] = {
-		display = "爱丁堡赠送的情人节礼物",
+		display = "A Valentine Gift from Edinburgh",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13900,10 +13900,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41684] = {
-		display = "贝尔法斯特赠送的情人节礼物",
+		display = "A Valentine Gift from Belfast",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13916,10 +13916,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41685] = {
-		display = "阿瑞托莎赠送的情人节礼物",
+		display = "A Valentine Gift from Arethusa",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13932,10 +13932,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41686] = {
-		display = "加拉蒂亚赠送的情人节礼物",
+		display = "A Valentine Gift from Galatea",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13948,10 +13948,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41687] = {
-		display = "欧若拉赠送的情人节礼物",
+		display = "A Valentine Gift from Aurora",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13964,10 +13964,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41688] = {
-		display = "伦敦赠送的情人节礼物",
+		display = "A Valentine Gift from London",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13980,10 +13980,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41689] = {
-		display = "什罗普郡赠送的情人节礼物",
+		display = "A Valentine Gift from Shropshire",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -13996,10 +13996,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41690] = {
-		display = "肯特赠送的情人节礼物",
+		display = "A Valentine Gift from Kent",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14012,10 +14012,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41691] = {
-		display = "萨福克赠送的情人节礼物",
+		display = "A Valentine Gift from Suffolk",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14028,10 +14028,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41692] = {
-		display = "诺福克赠送的情人节礼物",
+		display = "A Valentine Gift from Norfolk",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14044,10 +14044,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41693] = {
-		display = "多塞特郡赠送的情人节礼物",
+		display = "A Valentine Gift from Dorsetshire",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14060,10 +14060,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41694] = {
-		display = "约克赠送的情人节礼物",
+		display = "A Valentine Gift from York",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14076,10 +14076,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41695] = {
-		display = "埃克塞特赠送的情人节礼物",
+		display = "A Valentine Gift from Exeter",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14092,10 +14092,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41696] = {
-		display = "苏塞克斯赠送的情人节礼物",
+		display = "A Valentine Gift from Sussex",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14108,10 +14108,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41697] = {
-		display = "声望赠送的情人节礼物",
+		display = "A Valentine Gift from Renown",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14124,10 +14124,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41698] = {
-		display = "反击赠送的情人节礼物",
+		display = "A Valentine Gift from Repulse",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14140,10 +14140,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41699] = {
-		display = "胡德赠送的情人节礼物",
+		display = "A Valentine Gift from Hood",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14156,10 +14156,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41700] = {
-		display = "伊丽莎白女王赠送的情人节礼物",
+		display = "A Valentine Gift from QueenElizabeth",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14172,10 +14172,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41701] = {
-		display = "厌战赠送的情人节礼物",
+		display = "A Valentine Gift from Warspite",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14188,10 +14188,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41702] = {
-		display = "纳尔逊赠送的情人节礼物",
+		display = "A Valentine Gift from Nelson",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14204,10 +14204,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41703] = {
-		display = "罗德尼赠送的情人节礼物",
+		display = "A Valentine Gift from Rodney",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14220,10 +14220,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41704] = {
-		display = "威尔士亲王赠送的情人节礼物",
+		display = "A Valentine Gift from Prince of Wales",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14236,10 +14236,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41705] = {
-		display = "约克公爵赠送的情人节礼物",
+		display = "A Valentine Gift from DukeofYork",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14252,10 +14252,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41706] = {
-		display = "竞技神赠送的情人节礼物",
+		display = "A Valentine Gift from Hermes",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14268,10 +14268,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41707] = {
-		display = "独角兽赠送的情人节礼物",
+		display = "A Valentine Gift from Unicorn",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14284,10 +14284,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41708] = {
-		display = "皇家方舟赠送的情人节礼物",
+		display = "A Valentine Gift from ArkRoyal",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14300,10 +14300,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41709] = {
-		display = "光辉赠送的情人节礼物",
+		display = "A Valentine Gift from Illustrious",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14316,10 +14316,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41710] = {
-		display = "胜利赠送的情人节礼物",
+		display = "A Valentine Gift from Victorious",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14332,10 +14332,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41711] = {
-		display = "光荣赠送的情人节礼物",
+		display = "A Valentine Gift from Glorious",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14348,10 +14348,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41712] = {
-		display = "黑暗界赠送的情人节礼物",
+		display = "A Valentine Gift from Erebus",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14364,10 +14364,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41713] = {
-		display = "恐怖赠送的情人节礼物",
+		display = "A Valentine Gift from Terror",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14380,10 +14380,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41714] = {
-		display = "阿贝克隆比赠送的情人节礼物",
+		display = "A Valentine Gift from Abercrombie",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14396,10 +14396,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41715] = {
-		display = "{namecode:2}赠送的情人节礼物",
+		display = "A Valentine Gift from Fubuki",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14412,10 +14412,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41716] = {
-		display = "{namecode:6}赠送的情人节礼物",
+		display = "A Valentine Gift from Ayanami",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14428,10 +14428,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41717] = {
-		display = "{namecode:11}赠送的情人节礼物",
+		display = "A Valentine Gift from Akatsuki",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14444,10 +14444,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41718] = {
-		display = "{namecode:13}赠送的情人节礼物",
+		display = "A Valentine Gift from Ikazuchi",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14460,10 +14460,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41719] = {
-		display = "{namecode:14}赠送的情人节礼物",
+		display = "A Valentine Gift from Inazuma",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14476,10 +14476,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41720] = {
-		display = "{namecode:15}赠送的情人节礼物",
+		display = "A Valentine Gift from Shiratsuyu",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14492,10 +14492,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41721] = {
-		display = "{namecode:16}赠送的情人节礼物",
+		display = "A Valentine Gift from Yuudachi",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14508,10 +14508,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41722] = {
-		display = "{namecode:17}赠送的情人节礼物",
+		display = "A Valentine Gift from Shigure",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14524,10 +14524,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41723] = {
-		display = "{namecode:22}赠送的情人节礼物",
+		display = "A Valentine Gift from Yukikaze",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14540,10 +14540,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41724] = {
-		display = "{namecode:19}赠送的情人节礼物",
+		display = "A Valentine Gift from Kagerou",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14556,10 +14556,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41725] = {
-		display = "{namecode:20}赠送的情人节礼物",
+		display = "A Valentine Gift from Shiranui",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14572,10 +14572,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41726] = {
-		display = "{namecode:24}赠送的情人节礼物",
+		display = "A Valentine Gift from Nowaki",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14588,10 +14588,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41727] = {
-		display = "{namecode:30}赠送的情人节礼物",
+		display = "A Valentine Gift from Hatsuharu",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14604,10 +14604,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41728] = {
-		display = "{namecode:141}赠送的情人节礼物",
+		display = "A Valentine Gift from Wakaba",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14620,10 +14620,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41729] = {
-		display = "{namecode:129}赠送的情人节礼物",
+		display = "A Valentine Gift from Hatsushimo",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14636,10 +14636,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41730] = {
-		display = "{namecode:31}赠送的情人节礼物",
+		display = "A Valentine Gift from Ariake",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14652,10 +14652,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41731] = {
-		display = "{namecode:32}赠送的情人节礼物",
+		display = "A Valentine Gift from Yuugure",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14668,10 +14668,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41732] = {
-		display = "{namecode:21}赠送的情人节礼物",
+		display = "A Valentine Gift from Kuroshio",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14684,10 +14684,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41733] = {
-		display = "{namecode:135}赠送的情人节礼物",
+		display = "A Valentine Gift from Oyashio",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14700,10 +14700,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41734] = {
-		display = "{namecode:37}赠送的情人节礼物",
+		display = "A Valentine Gift from Yuubari",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14716,10 +14716,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41735] = {
-		display = "{namecode:46}赠送的情人节礼物",
+		display = "A Valentine Gift from Nagara",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14732,10 +14732,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41736] = {
-		display = "{namecode:48}赠送的情人节礼物",
+		display = "A Valentine Gift from Isuzu",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14748,10 +14748,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41737] = {
-		display = "{namecode:47}赠送的情人节礼物",
+		display = "A Valentine Gift from Abukuma",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14764,10 +14764,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41738] = {
-		display = "{namecode:57}赠送的情人节礼物",
+		display = "A Valentine Gift from Mogami",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14780,10 +14780,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41739] = {
-		display = "{namecode:58}赠送的情人节礼物",
+		display = "A Valentine Gift from Mikuma",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14796,10 +14796,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41740] = {
-		display = "{namecode:53}赠送的情人节礼物",
+		display = "A Valentine Gift from Furutaka",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14812,10 +14812,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41741] = {
-		display = "{namecode:54}赠送的情人节礼物",
+		display = "A Valentine Gift from Kako",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14828,10 +14828,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41742] = {
-		display = "{namecode:55}赠送的情人节礼物",
+		display = "A Valentine Gift from Aoba",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14844,10 +14844,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41743] = {
-		display = "{namecode:56}赠送的情人节礼物",
+		display = "A Valentine Gift from Kinugasa",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14860,10 +14860,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41744] = {
-		display = "{namecode:63}赠送的情人节礼物",
+		display = "A Valentine Gift from Myoukou",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14876,10 +14876,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41745] = {
-		display = "{namecode:64}赠送的情人节礼物",
+		display = "A Valentine Gift from Nachi",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14892,10 +14892,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41746] = {
-		display = "{namecode:144}赠送的情人节礼物",
+		display = "A Valentine Gift from Ashigara",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14908,10 +14908,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41747] = {
-		display = "{namecode:66}赠送的情人节礼物",
+		display = "A Valentine Gift from Takao",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14924,10 +14924,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41748] = {
-		display = "{namecode:67}赠送的情人节礼物",
+		display = "A Valentine Gift from Atago",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14940,10 +14940,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41749] = {
-		display = "{namecode:68}赠送的情人节礼物",
+		display = "A Valentine Gift from Maya",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14956,10 +14956,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41750] = {
-		display = "{namecode:69}赠送的情人节礼物",
+		display = "A Valentine Gift from Choukai",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14972,10 +14972,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41751] = {
-		display = "{namecode:70}赠送的情人节礼物",
+		display = "A Valentine Gift from Kongou",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -14988,10 +14988,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41752] = {
-		display = "{namecode:71}赠送的情人节礼物",
+		display = "A Valentine Gift from Hiei",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15004,10 +15004,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41753] = {
-		display = "{namecode:72}赠送的情人节礼物",
+		display = "A Valentine Gift from Haruna",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15020,10 +15020,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41754] = {
-		display = "{namecode:73}赠送的情人节礼物",
+		display = "A Valentine Gift from Kirishima",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15036,10 +15036,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41755] = {
-		display = "{namecode:161}赠送的情人节礼物",
+		display = "A Valentine Gift from Amagi",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15052,10 +15052,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41756] = {
-		display = "{namecode:78}赠送的情人节礼物",
+		display = "A Valentine Gift from Fusou",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15068,10 +15068,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41757] = {
-		display = "{namecode:79}赠送的情人节礼物",
+		display = "A Valentine Gift from Yamashiro",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15084,10 +15084,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41758] = {
-		display = "{namecode:76}赠送的情人节礼物",
+		display = "A Valentine Gift from Ise",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15100,10 +15100,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41759] = {
-		display = "{namecode:77}赠送的情人节礼物",
+		display = "A Valentine Gift from Hyuuga",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15116,10 +15116,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41760] = {
-		display = "{namecode:74}赠送的情人节礼物",
+		display = "A Valentine Gift from Nagato",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15132,10 +15132,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41761] = {
-		display = "{namecode:75}赠送的情人节礼物",
+		display = "A Valentine Gift from Mutsu",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15148,10 +15148,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41762] = {
-		display = "{namecode:92}赠送的情人节礼物",
+		display = "A Valentine Gift from Kaga(BB)",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15164,10 +15164,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41763] = {
-		display = "{namecode:85}赠送的情人节礼物",
+		display = "A Valentine Gift from Hiyou",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15180,10 +15180,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41764] = {
-		display = "{namecode:86}赠送的情人节礼物",
+		display = "A Valentine Gift from Junyou",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15196,10 +15196,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41765] = {
-		display = "{namecode:89}赠送的情人节礼物",
+		display = "A Valentine Gift from Houshou",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15212,10 +15212,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41766] = {
-		display = "{namecode:87}赠送的情人节礼物",
+		display = "A Valentine Gift from Shouhou",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15228,10 +15228,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41767] = {
-		display = "{namecode:90}赠送的情人节礼物",
+		display = "A Valentine Gift from Ryuujou",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15244,10 +15244,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41768] = {
-		display = "{namecode:91}赠送的情人节礼物",
+		display = "A Valentine Gift from Akagi",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15260,10 +15260,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41769] = {
-		display = "{namecode:92}赠送的情人节礼物",
+		display = "A Valentine Gift from Kaga",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15276,10 +15276,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41770] = {
-		display = "{namecode:93}赠送的情人节礼物",
+		display = "A Valentine Gift from Souryuu",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15292,10 +15292,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41771] = {
-		display = "{namecode:94}赠送的情人节礼物",
+		display = "A Valentine Gift from Hiryuu",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15308,10 +15308,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41772] = {
-		display = "{namecode:95}赠送的情人节礼物",
+		display = "A Valentine Gift from Shoukaku",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15324,10 +15324,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41773] = {
-		display = "{namecode:96}赠送的情人节礼物",
+		display = "A Valentine Gift from Zuikaku",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15340,10 +15340,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41774] = {
-		display = "{namecode:97}赠送的情人节礼物",
+		display = "A Valentine Gift from Taihou",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15356,10 +15356,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41775] = {
-		display = "{namecode:98}赠送的情人节礼物",
+		display = "A Valentine Gift from Akashi",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15372,10 +15372,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41776] = {
-		display = "Z1赠送的情人节礼物",
+		display = "A Valentine Gift from LeberechtMaass(Z1)",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15388,10 +15388,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41777] = {
-		display = "Z23赠送的情人节礼物",
+		display = "A Valentine Gift from Z23",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15404,10 +15404,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41778] = {
-		display = "Z25赠送的情人节礼物",
+		display = "A Valentine Gift from Z25",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15420,10 +15420,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41779] = {
-		display = "柯尼斯堡赠送的情人节礼物",
+		display = "A Valentine Gift from K?nigsberg",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15436,10 +15436,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41780] = {
-		display = "卡尔斯鲁厄赠送的情人节礼物",
+		display = "A Valentine Gift from Karlsruhe",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15452,10 +15452,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41781] = {
-		display = "科隆赠送的情人节礼物",
+		display = "A Valentine Gift from K?ln",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15468,10 +15468,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41782] = {
-		display = "莱比锡赠送的情人节礼物",
+		display = "A Valentine Gift from Leipzig",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15484,10 +15484,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41783] = {
-		display = "希佩尔海军上将赠送的情人节礼物",
+		display = "A Valentine Gift from AdmiralHipper",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15500,10 +15500,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41784] = {
-		display = "欧根亲王赠送的情人节礼物",
+		display = "A Valentine Gift from PrinzEugen",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15516,10 +15516,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41785] = {
-		display = "德意志赠送的情人节礼物",
+		display = "A Valentine Gift from Deutschland",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15532,10 +15532,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41786] = {
-		display = "斯佩伯爵海军上将赠送的情人节礼物",
+		display = "A Valentine Gift from AdmiralGrafSpee",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15548,10 +15548,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41787] = {
-		display = "沙恩霍斯特赠送的情人节礼物",
+		display = "A Valentine Gift from Scharnhorst",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15564,10 +15564,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41788] = {
-		display = "格奈森瑙赠送的情人节礼物",
+		display = "A Valentine Gift from Gneisenau",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15580,10 +15580,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41789] = {
-		display = "提尔比茨赠送的情人节礼物",
+		display = "A Valentine Gift from Tirpitz",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15596,10 +15596,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41790] = {
-		display = "齐柏林伯爵赠送的情人节礼物",
+		display = "A Valentine Gift from GrafZeppelin",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15612,10 +15612,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41791] = {
-		display = "鞍山赠送的情人节礼物",
+		display = "A Valentine Gift from AnShan",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15628,10 +15628,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41792] = {
-		display = "抚顺赠送的情人节礼物",
+		display = "A Valentine Gift from FuShun",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15644,10 +15644,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41793] = {
-		display = "长春赠送的情人节礼物",
+		display = "A Valentine Gift from ChangChun",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15660,10 +15660,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41794] = {
-		display = "太原赠送的情人节礼物",
+		display = "A Valentine Gift from TaiYuan",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15676,10 +15676,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41795] = {
-		display = "逸仙赠送的情人节礼物",
+		display = "A Valentine Gift from YatSen",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15692,10 +15692,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41796] = {
-		display = "宁海赠送的情人节礼物",
+		display = "A Valentine Gift from Ninghai",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15708,10 +15708,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41797] = {
-		display = "平海赠送的情人节礼物",
+		display = "A Valentine Gift from Pinghai",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15724,10 +15724,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41798] = {
-		display = "阿芙乐尔赠送的情人节礼物",
+		display = "A Valentine Gift from Avrora",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15740,10 +15740,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41799] = {
-		display = "贝利赠送的情人节礼物",
+		display = "A Valentine Gift from Bailey",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15756,10 +15756,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41800] = {
-		display = "Z19赠送的情人节礼物",
+		display = "A Valentine Gift from HermannKünne(Z19)",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15772,10 +15772,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41801] = {
-		display = "Z20赠送的情人节礼物",
+		display = "A Valentine Gift from KarlGaster(Z20)",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15788,10 +15788,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41802] = {
-		display = "Z21赠送的情人节礼物",
+		display = "A Valentine Gift from WilhelmHeidkamp(Z21)",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15804,10 +15804,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41803] = {
-		display = "Z46赠送的情人节礼物",
+		display = "A Valentine Gift from Z46",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15820,10 +15820,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41804] = {
-		display = "{namecode:124}赠送的情人节礼物",
+		display = "A Valentine Gift from Kamikaze",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15836,10 +15836,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41805] = {
-		display = "{namecode:134}赠送的情人节礼物",
+		display = "A Valentine Gift from Matsukaze",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15852,10 +15852,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41806] = {
-		display = "{namecode:33}赠送的情人节礼物",
+		display = "A Valentine Gift from Mutsuki",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15868,10 +15868,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41807] = {
-		display = "{namecode:34}赠送的情人节礼物",
+		display = "A Valentine Gift from Kisaragi",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15884,10 +15884,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41808] = {
-		display = "{namecode:137}赠送的情人节礼物",
+		display = "A Valentine Gift from Uzuki",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15900,10 +15900,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41809] = {
-		display = "{namecode:133}赠送的情人节礼物",
+		display = "A Valentine Gift from Minazuki",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15916,10 +15916,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41810] = {
-		display = "{namecode:159}赠送的情人节礼物",
+		display = "A Valentine Gift from Fumizuki",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15932,10 +15932,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41811] = {
-		display = "{namecode:160}赠送的情人节礼物",
+		display = "A Valentine Gift from Nagatsuki",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15948,10 +15948,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41812] = {
-		display = "{namecode:126}赠送的情人节礼物",
+		display = "A Valentine Gift from Mikazuki",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15964,10 +15964,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41813] = {
-		display = "{namecode:158}赠送的情人节礼物",
+		display = "A Valentine Gift from Kawakaze",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15980,10 +15980,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41814] = {
-		display = "{namecode:125}赠送的情人节礼物",
+		display = "A Valentine Gift from Niizuki",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -15996,10 +15996,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41815] = {
-		display = "{namecode:157}赠送的情人节礼物",
+		display = "A Valentine Gift from Harutsuki",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16012,10 +16012,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41816] = {
-		display = "{namecode:28}赠送的情人节礼物",
+		display = "A Valentine Gift from Yoizuki",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16028,10 +16028,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41817] = {
-		display = "拉德福特赠送的情人节礼物",
+		display = "A Valentine Gift from Radford",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16044,10 +16044,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41818] = {
-		display = "杰金斯赠送的情人节礼物",
+		display = "A Valentine Gift from Jenkins",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16060,10 +16060,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41819] = {
-		display = "尼古拉斯赠送的情人节礼物",
+		display = "A Valentine Gift from Nicholas",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16076,10 +16076,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41820] = {
-		display = "里士满赠送的情人节礼物",
+		display = "A Valentine Gift from Richmond",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16092,10 +16092,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41821] = {
-		display = "火奴鲁鲁赠送的情人节礼物",
+		display = "A Valentine Gift from Honolulu",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16108,10 +16108,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41822] = {
-		display = "圣路易斯赠送的情人节礼物",
+		display = "A Valentine Gift from St.Louis",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16124,10 +16124,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41823] = {
-		display = "丘比特赠送的情人节礼物",
+		display = "A Valentine Gift from Jupiter",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16140,10 +16140,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41824] = {
-		display = "泽西赠送的情人节礼物",
+		display = "A Valentine Gift from Jersey",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16156,10 +16156,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41825] = {
-		display = "{namecode:38}赠送的情人节礼物",
+		display = "A Valentine Gift from Sendai",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16172,10 +16172,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41826] = {
-		display = "{namecode:39}赠送的情人节礼物",
+		display = "A Valentine Gift from Jintsuu",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16188,10 +16188,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41827] = {
-		display = "{namecode:40}赠送的情人节礼物",
+		display = "A Valentine Gift from Naka",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16204,10 +16204,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41828] = {
-		display = "{namecode:142}赠送的情人节礼物",
+		display = "A Valentine Gift from Urakaze",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16220,10 +16220,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41829] = {
-		display = "{namecode:143}赠送的情人节礼物",
+		display = "A Valentine Gift from Isokaze",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16236,10 +16236,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41830] = {
-		display = "{namecode:128}赠送的情人节礼物",
+		display = "A Valentine Gift from Hamakaze",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16252,10 +16252,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41831] = {
-		display = "{namecode:127}赠送的情人节礼物",
+		display = "A Valentine Gift from Tanikaze",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16268,10 +16268,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41832] = {
-		display = "{namecode:82}赠送的情人节礼物",
+		display = "A Valentine Gift from Mikasa",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16284,10 +16284,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41833] = {
-		display = "{namecode:49}赠送的情人节礼物",
+		display = "A Valentine Gift from Agano",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16300,10 +16300,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41834] = {
-		display = "无敌赠送的情人节礼物",
+		display = "A Valentine Gift from Matchless",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16316,10 +16316,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41835] = {
-		display = "火枪手赠送的情人节礼物",
+		display = "A Valentine Gift from Musketeer",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16332,10 +16332,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41836] = {
-		display = "斐济赠送的情人节礼物",
+		display = "A Valentine Gift from Fiji",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16348,10 +16348,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41837] = {
-		display = "牙买加赠送的情人节礼物",
+		display = "A Valentine Gift from Jamaica",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16364,10 +16364,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41838] = {
-		display = "蒙彼利埃赠送的情人节礼物",
+		display = "A Valentine Gift from Montpelier",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16380,10 +16380,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41839] = {
-		display = "丹佛赠送的情人节礼物",
+		display = "A Valentine Gift from Denver",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16396,10 +16396,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41840] = {
-		display = "{namecode:145}赠送的情人节礼物",
+		display = "A Valentine Gift from Asashio",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16412,10 +16412,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41841] = {
-		display = "{namecode:146}赠送的情人节礼物",
+		display = "A Valentine Gift from Ooshio",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16428,10 +16428,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41842] = {
-		display = "{namecode:147}赠送的情人节礼物",
+		display = "A Valentine Gift from Michishio",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16444,10 +16444,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41843] = {
-		display = "{namecode:148}赠送的情人节礼物",
+		display = "A Valentine Gift from Arashio",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16460,10 +16460,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41844] = {
-		display = "小贝法赠送的情人节礼物",
+		display = "A Valentine Gift from Belchan",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16476,10 +16476,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41845] = {
-		display = "{namecode:154}赠送的情人节礼物",
+		display = "A Valentine Gift from I-19",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16492,10 +16492,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41846] = {
-		display = "{namecode:155}赠送的情人节礼物",
+		display = "A Valentine Gift from I-26",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16508,10 +16508,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41847] = {
-		display = "{namecode:156}赠送的情人节礼物",
+		display = "A Valentine Gift from I-58",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16524,10 +16524,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41848] = {
-		display = "U-81赠送的情人节礼物",
+		display = "A Valentine Gift from U-81",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16540,10 +16540,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41849] = {
-		display = "鲦鱼赠送的情人节礼物",
+		display = "A Valentine Gift from Dace",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16556,10 +16556,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41850] = {
-		display = "U-47赠送的情人节礼物",
+		display = "A Valentine Gift from U-47",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16572,10 +16572,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41851] = {
-		display = "U-557赠送的情人节礼物",
+		display = "A Valentine Gift from U-557",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16588,10 +16588,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41852] = {
-		display = "Z35赠送的情人节礼物",
+		display = "A Valentine Gift from Z35",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16604,10 +16604,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41853] = {
-		display = "Z18赠送的情人节礼物",
+		display = "A Valentine Gift from Z18",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16620,10 +16620,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41854] = {
-		display = "凯旋赠送的情人节礼物",
+		display = "A Valentine Gift from LeTriomphant",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16636,10 +16636,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41855] = {
-		display = "福尔班赠送的情人节礼物",
+		display = "A Valentine Gift from Forbin",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16652,10 +16652,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41856] = {
-		display = "埃米尔·贝尔汀赠送的情人节礼物",
+		display = "A Valentine Gift from EmileBertin",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16668,10 +16668,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41857] = {
-		display = "絮库夫赠送的情人节礼物",
+		display = "A Valentine Gift from Surcouf",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16684,10 +16684,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41858] = {
-		display = "勒马尔赠送的情人节礼物",
+		display = "A Valentine Gift from LeMars",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16700,10 +16700,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41859] = {
-		display = "敦刻尔克赠送的情人节礼物",
+		display = "A Valentine Gift from Dunkerque",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16716,10 +16716,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41860] = {
-		display = "让·巴尔赠送的情人节礼物",
+		display = "A Valentine Gift from JeanBart",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16732,10 +16732,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41861] = {
-		display = "马萨诸塞赠送的情人节礼物",
+		display = "A Valentine Gift from Massachusetts",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16748,10 +16748,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41862] = {
-		display = "布什赠送的情人节礼物",
+		display = "A Valentine Gift from Bush",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16764,10 +16764,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41863] = {
-		display = "半人马赠送的情人节礼物",
+		display = "A Valentine Gift from Centaur",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16780,10 +16780,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41864] = {
-		display = "埃塞克斯赠送的情人节礼物",
+		display = "A Valentine Gift from Essex",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16796,10 +16796,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41865] = {
-		display = "大青花鱼赠送的情人节礼物",
+		display = "A Valentine Gift from Albacore",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16812,10 +16812,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41866] = {
-		display = "鲁莽赠送的情人节礼物",
+		display = "A Valentine Gift from LeTemeraire",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16828,10 +16828,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41867] = {
-		display = "孟菲斯赠送的情人节礼物",
+		display = "A Valentine Gift from Memphis",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16844,10 +16844,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41868] = {
-		display = "纽卡斯尔赠送的情人节礼物",
+		display = "A Valentine Gift from Newcastle",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16860,10 +16860,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41869] = {
-		display = "霍比赠送的情人节礼物",
+		display = "A Valentine Gift from Hobby",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16876,10 +16876,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41870] = {
-		display = "科尔克赠送的情人节礼物",
+		display = "A Valentine Gift from Kalk",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16892,10 +16892,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41871] = {
-		display = "明尼阿波利斯赠送的情人节礼物",
+		display = "A Valentine Gift from Minneapolis",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16908,10 +16908,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41872] = {
-		display = "黑泽伍德赠送的情人节礼物",
+		display = "A Valentine Gift from Hazelwood",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16924,10 +16924,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41873] = {
-		display = "康克德赠送的情人节礼物",
+		display = "A Valentine Gift from Concord",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16940,10 +16940,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41874] = {
-		display = "{namecode:140}赠送的情人节礼物",
+		display = "A Valentine Gift from Hatakaze",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16956,10 +16956,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41875] = {
-		display = "{namecode:162}赠送的情人节礼物",
+		display = "A Valentine Gift from Makinami",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16972,10 +16972,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41876] = {
-		display = "天狼星赠送的情人节礼物",
+		display = "A Valentine Gift from Sirius",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -16988,10 +16988,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41877] = {
-		display = "库拉索赠送的情人节礼物",
+		display = "A Valentine Gift from Curacao",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17004,10 +17004,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41878] = {
-		display = "杓鹬赠送的情人节礼物",
+		display = "A Valentine Gift from Curlew",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17020,10 +17020,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41879] = {
-		display = "金伯利赠送的情人节礼物",
+		display = "A Valentine Gift from Kimberly",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17036,10 +17036,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41880] = {
-		display = "马拉尼赠送的情人节礼物",
+		display = "A Valentine Gift from Mullany",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17052,10 +17052,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41881] = {
-		display = "追赶者赠送的情人节礼物",
+		display = "A Valentine Gift from Chaser",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17068,10 +17068,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41882] = {
-		display = "海王星赠送的情人节礼物",
+		display = "A Valentine Gift from Neptune",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17084,10 +17084,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41883] = {
-		display = "君主赠送的情人节礼物",
+		display = "A Valentine Gift from Monarch",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17100,10 +17100,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41884] = {
-		display = "{namecode:152}赠送的情人节礼物",
+		display = "A Valentine Gift from Ibuki",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17116,10 +17116,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41885] = {
-		display = "{namecode:151}赠送的情人节礼物",
+		display = "A Valentine Gift from Izumo",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17132,10 +17132,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41886] = {
-		display = "罗恩赠送的情人节礼物",
+		display = "A Valentine Gift from Roon",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17148,10 +17148,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41887] = {
-		display = "路易九世赠送的情人节礼物",
+		display = "A Valentine Gift from Saint-Louis",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17164,10 +17164,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41888] = {
-		display = "杜威赠送的情人节礼物",
+		display = "A Valentine Gift from Dewey",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17180,10 +17180,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41889] = {
-		display = "艾尔温赠送的情人节礼物",
+		display = "A Valentine Gift from Aylwin",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17196,10 +17196,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41890] = {
-		display = "贝奇赠送的情人节礼物",
+		display = "A Valentine Gift from Bache",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17212,10 +17212,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41891] = {
-		display = "斯坦利赠送的情人节礼物",
+		display = "A Valentine Gift from Stanly",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17228,10 +17228,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41892] = {
-		display = "斯莫利赠送的情人节礼物",
+		display = "A Valentine Gift from Smalley",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17244,10 +17244,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41893] = {
-		display = "哈尔西·鲍威尔赠送的情人节礼物",
+		display = "A Valentine Gift from Halsey Powell",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17260,10 +17260,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41894] = {
-		display = "小海伦娜赠送的情人节礼物",
+		display = "A Valentine Gift from Lena",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17276,10 +17276,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41895] = {
-		display = "圣胡安赠送的情人节礼物",
+		display = "A Valentine Gift from San Juan",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17292,10 +17292,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41896] = {
-		display = "小圣地亚哥赠送的情人节礼物",
+		display = "A Valentine Gift from Li'l Sandy",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17308,10 +17308,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41897] = {
-		display = "伯明翰赠送的情人节礼物",
+		display = "A Valentine Gift from Birmingham",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17324,10 +17324,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41898] = {
-		display = "比洛克西赠送的情人节礼物",
+		display = "A Valentine Gift from Biloxi",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17340,10 +17340,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41899] = {
-		display = "小克利夫兰赠送的情人节礼物",
+		display = "A Valentine Gift from Clevelad",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17356,10 +17356,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41900] = {
-		display = "克利夫兰(μ兵装)赠送的情人节礼物",
+		display = "A Valentine Gift from Cleveland μ",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17372,10 +17372,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41901] = {
-		display = "巴尔的摩赠送的情人节礼物",
+		display = "A Valentine Gift from Baltimore",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17388,10 +17388,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41902] = {
-		display = "阿拉巴马赠送的情人节礼物",
+		display = "A Valentine Gift from Alabama",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17404,10 +17404,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41903] = {
-		display = "邦克山赠送的情人节礼物",
+		display = "A Valentine Gift from Bunker Hill",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17420,10 +17420,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41904] = {
-		display = "独立赠送的情人节礼物",
+		display = "A Valentine Gift from Independence",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17436,10 +17436,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41905] = {
-		display = "巴丹赠送的情人节礼物",
+		display = "A Valentine Gift from Bataan",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17452,10 +17452,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41906] = {
-		display = "香格里拉赠送的情人节礼物",
+		display = "A Valentine Gift from Shangri-La",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17468,10 +17468,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41907] = {
-		display = "棘鳍赠送的情人节礼物",
+		display = "A Valentine Gift from Cavalla",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17484,10 +17484,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41908] = {
-		display = "回声赠送的情人节礼物",
+		display = "A Valentine Gift from Echo",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17500,10 +17500,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41909] = {
-		display = "勇敢赠送的情人节礼物",
+		display = "A Valentine Gift from Hardy",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17516,10 +17516,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41910] = {
-		display = "猎人赠送的情人节礼物",
+		display = "A Valentine Gift from Hunter",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17532,10 +17532,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41911] = {
-		display = "南安普顿赠送的情人节礼物",
+		display = "A Valentine Gift from Southampton",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17548,10 +17548,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41912] = {
-		display = "格拉斯哥赠送的情人节礼物",
+		display = "A Valentine Gift from Glasgow",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17564,10 +17564,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41913] = {
-		display = "格罗斯特赠送的情人节礼物",
+		display = "A Valentine Gift from Gloucester",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17580,10 +17580,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41914] = {
-		display = "谢菲尔德(μ兵装)赠送的情人节礼物",
+		display = "A Valentine Gift from Sheffield μ",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17596,10 +17596,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41915] = {
-		display = "黛朵赠送的情人节礼物",
+		display = "A Valentine Gift from Dido",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17612,10 +17612,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41916] = {
-		display = "黑太子赠送的情人节礼物",
+		display = "A Valentine Gift from Black Prince",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17628,10 +17628,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41917] = {
-		display = "确捷赠送的情人节礼物",
+		display = "A Valentine Gift from Swiftsure",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17644,10 +17644,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41918] = {
-		display = "英王乔治五世赠送的情人节礼物",
+		display = "A Valentine Gift from King George V",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17660,10 +17660,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41919] = {
-		display = "可畏赠送的情人节礼物",
+		display = "A Valentine Gift from Formidable",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17676,10 +17676,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41921] = {
-		display = "{namecode:184}赠送的情人节礼物",
+		display = "A Valentine Gift from Uranami",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17692,10 +17692,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41922] = {
-		display = "{namecode:12}赠送的情人节礼物",
+		display = "A Valentine Gift from Hibiki",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17708,10 +17708,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41923] = {
-		display = "{namecode:180}赠送的情人节礼物",
+		display = "A Valentine Gift from Kasumi",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17724,10 +17724,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41924] = {
-		display = "{namecode:174}赠送的情人节礼物",
+		display = "A Valentine Gift from Kiyonami",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17740,10 +17740,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41925] = {
-		display = "{namecode:181}赠送的情人节礼物",
+		display = "A Valentine Gift from Kinu",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17756,10 +17756,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41926] = {
-		display = "{namecode:59}赠送的情人节礼物",
+		display = "A Valentine Gift from Suzuya",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17772,10 +17772,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41927] = {
-		display = "{namecode:50}赠送的情人节礼物",
+		display = "A Valentine Gift from Noshiro",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17788,10 +17788,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41928] = {
-		display = "{namecode:169}赠送的情人节礼物",
+		display = "A Valentine Gift from Baby Huey ",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17804,10 +17804,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41929] = {
-		display = "{namecode:175}赠送的情人节礼物",
+		display = "A Valentine Gift from Suruga ",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17820,10 +17820,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41930] = {
-		display = "{namecode:179}赠送的情人节礼物",
+		display = "A Valentine Gift from Ryuuhou",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17836,10 +17836,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41931] = {
-		display = "{namecode:170}赠送的情人节礼物",
+		display = "A Valentine Gift from Akagi Pickles ",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17852,10 +17852,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41932] = {
-		display = "{namecode:176}赠送的情人节礼物",
+		display = "A Valentine Gift from Akagiμ",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17868,10 +17868,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41933] = {
-		display = "伊25赠送的情人节礼物",
+		display = "A Valentine Gift from I-25",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17884,10 +17884,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41934] = {
-		display = "伊56赠送的情人节礼物",
+		display = "A Valentine Gift from I-56",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17900,10 +17900,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41935] = {
-		display = "伊168赠送的情人节礼物",
+		display = "A Valentine Gift from I-168",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17916,10 +17916,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41936] = {
-		display = "{namecode:163}赠送的情人节礼物",
+		display = "A Valentine Gift from I-13",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17932,10 +17932,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41937] = {
-		display = "Z2赠送的情人节礼物",
+		display = "A Valentine Gift from Z2",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17948,10 +17948,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41938] = {
-		display = "Z36赠送的情人节礼物",
+		display = "A Valentine Gift from Z36",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17964,10 +17964,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41939] = {
-		display = "希佩尔海军上将(μ兵装)赠送的情人节礼物",
+		display = "A Valentine Gift from Admiral Hipper μ",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17980,10 +17980,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41940] = {
-		display = "俾斯麦赠送的情人节礼物",
+		display = "A Valentine Gift from Bismarck",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -17996,10 +17996,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41941] = {
-		display = "小齐柏林赠送的情人节礼物",
+		display = "A Valentine Gift from Zeppy",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -18012,10 +18012,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41942] = {
-		display = "U-73赠送的情人节礼物",
+		display = "A Valentine Gift from U-73",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -18028,10 +18028,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41943] = {
-		display = "U-101赠送的情人节礼物",
+		display = "A Valentine Gift from U-101",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -18044,10 +18044,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41944] = {
-		display = "U-110赠送的情人节礼物",
+		display = "A Valentine Gift from U-110",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -18060,10 +18060,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41945] = {
-		display = "U-522赠送的情人节礼物",
+		display = "A Valentine Gift from U-522",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -18076,10 +18076,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41946] = {
-		display = "U-556赠送的情人节礼物",
+		display = "A Valentine Gift from U-556",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -18092,10 +18092,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41947] = {
-		display = "龙骑兵赠送的情人节礼物",
+		display = "A Valentine Gift from Carabiniere",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -18108,10 +18108,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41948] = {
-		display = "特伦托赠送的情人节礼物",
+		display = "A Valentine Gift from Trento",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -18124,10 +18124,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41949] = {
-		display = "扎拉赠送的情人节礼物",
+		display = "A Valentine Gift from Zara",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -18140,10 +18140,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41950] = {
-		display = "利托里奥赠送的情人节礼物",
+		display = "A Valentine Gift from Littorio",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -18156,10 +18156,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41951] = {
-		display = "加富尔伯爵赠送的情人节礼物",
+		display = "A Valentine Gift from Conte di Cavour",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -18172,10 +18172,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41952] = {
-		display = "朱利奥·凯撒赠送的情人节礼物",
+		display = "A Valentine Gift from Giulio Cesare",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -18188,10 +18188,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41953] = {
-		display = "倔强赠送的情人节礼物",
+		display = "A Valentine Gift from L'Opiniâtre",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -18204,10 +18204,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41954] = {
-		display = "恶毒赠送的情人节礼物",
+		display = "A Valentine Gift from Le Malin",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -18220,10 +18220,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41955] = {
-		display = "加斯科涅(μ兵装)赠送的情人节礼物",
+		display = "A Valentine Gift from Gascogne μ",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -18236,10 +18236,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41956] = {
-		display = "西雅图赠送的情人节礼物",
+		display = "A Valentine Gift from Seattle",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -18252,10 +18252,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41957] = {
-		display = "佐治亚赠送的情人节礼物",
+		display = "A Valentine Gift from Georgia",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -18268,10 +18268,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41958] = {
-		display = "{namecode:164}赠送的情人节礼物",
+		display = "A Valentine Gift from Kitakaze",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -18284,10 +18284,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41959] = {
-		display = "{namecode:165}赠送的情人节礼物",
+		display = "A Valentine Gift from Azuma",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -18300,10 +18300,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41960] = {
-		display = "腓特烈大帝赠送的情人节礼物",
+		display = "A Valentine Gift from Friedrich der Grosse",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
@@ -18316,10 +18316,10 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		index = {}
 	},
 	[41961] = {
-		display = "加斯科涅赠送的情人节礼物",
+		display = "A Valentine Gift from Gascogne",
 		rarity = 8,
 		type = 1,
-		name = "情人节礼物",
+		name = "Valentine Gift ",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,
