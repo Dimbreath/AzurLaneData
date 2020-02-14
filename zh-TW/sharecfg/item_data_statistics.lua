@@ -54836,10 +54836,10 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[59824] = {
-		display = "用于参加投票大战的投票次数，每轮投票结束时次数清零",
+		display = "用於參加投票大戰的投票次數，每輪投票結束時次數歸零",
 		rarity = 4,
 		type = 0,
-		name = "投票次数",
+		name = "投票次數",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 2,
