@@ -53698,119 +53698,6 @@ pg.ship_skin_template = {
 			}
 		}
 	},
-	[302041] = {
-		name = "悠闲春日",
-		bullet_skin_main = "",
-		group_index = 1,
-		illustrator2 = -1,
-		desc = "啊，指挥官，你好呀。嗯？你说房间吗？啊，这些是我在{namecode:98}那里购买的东煌风装饰哦？春节期间特卖，我感觉很漂亮，就买下来了~欸嘿嘿",
-		bullet_skin_secondary = "",
-		ship_group = 30204,
-		painting = "changliang_2",
-		painting_hx = "",
-		air_bullet_skin = "",
-		bg_sp = "",
-		shop_type_id = 3,
-		hand_id = 14,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		bg = "128",
-		isSwimsuit = 0,
-		skin_type = 0,
-		id = 302041,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "changliang_2",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 82,
-		air_bomb_skin = "",
-		illustrator = 2,
-		rarity_bg = "",
-		isHX = 0,
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.09,
-					1.41,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.17,
-					1.48,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.03,
-					0.03,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.2,
-					1.53,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							2.31,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[302050] = {
 		name = "이스즈",
 		bullet_skin_main = "",
@@ -103395,8 +103282,7 @@ pg.ship_skin_template = {
 			302052
 		},
 		[30204] = {
-			302040,
-			302041
+			302040
 		},
 		[30201] = {
 			302010,
@@ -104812,7 +104698,6 @@ pg.ship_skin_template = {
 		302010,
 		302019,
 		302040,
-		302041,
 		302050,
 		302051,
 		302052,

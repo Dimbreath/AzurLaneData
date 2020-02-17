@@ -319,7 +319,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "즈이카쿠가 막아서려는 순간, 강렬한 한기가 느+D737껴져 멈출 수밖에 없었다.",
+			say = "즈이카쿠가 막아서려는 순간, 강렬한 한기가 느껴져 멈출 수밖에 없었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			say = "미안, 또 넘어졌네.(XP ",
+			say = "미안, 또 넘어졌네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -15770,7 +15770,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[41798] = {
-		display = "오로라에게 받은 발렌타인 데이 선물",
+		display = "아브로라에게 받은 발렌타인 데이 선물",
 		rarity = 8,
 		type = 1,
 		name = "발렌타인 데이 선물",
