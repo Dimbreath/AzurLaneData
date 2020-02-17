@@ -45,7 +45,7 @@ pg.strategy_data_template = {
 		type = 2,
 		id = 9,
 		icon = "9",
-		desc = "잠수함 범위 밖에서 지원 가능",
+		desc = "아군의 위치 교환 ",
 		arg = {
 			exchange
 		}
@@ -56,7 +56,7 @@ pg.strategy_data_template = {
 		type = 4,
 		id = 10,
 		icon = "10",
-		desc = "잠수함 범위 이동",
+		desc = "잠수함 범위 밖에서 지원 가능",
 		arg = {
 			map_call
 		}
@@ -67,7 +67,7 @@ pg.strategy_data_template = {
 		type = 3,
 		id = 11,
 		icon = "11",
-		desc = "移动潜艇的狩猎范围",
+		desc = "잠수함 범위 이동",
 		arg = {
 			sub_move,
 			1.1
