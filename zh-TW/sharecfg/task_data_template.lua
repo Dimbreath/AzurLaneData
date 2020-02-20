@@ -31396,6 +31396,617 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[50100] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 9301,
+		type = 6,
+		name = "『墜落之翼』-前篇",
+		count_inherit = 0,
+		desc = "通關A1或C1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "50101",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 50100,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1150001,
+			1150011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[50101] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9302,
+		type = 6,
+		name = "『墜落之翼』-前篇",
+		count_inherit = 0,
+		desc = "通關A2或C2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "50102",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 50101,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1150002,
+			1150012
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[50102] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9303,
+		type = 6,
+		name = "『墜落之翼』-前篇",
+		count_inherit = 0,
+		desc = "通關A3或C3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "50103",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 50102,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1150003,
+			1150013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
+	[50103] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9304,
+		type = 6,
+		name = "『墜落之翼』-後篇",
+		count_inherit = 0,
+		desc = "通關B1或D1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "50104",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 50103,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1150004,
+			1150014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[50104] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9305,
+		type = 6,
+		name = "『墜落之翼』-後篇",
+		count_inherit = 0,
+		desc = "通關B2或D2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "[50105,50106]",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 50104,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1150005,
+			1150015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[50105] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9306,
+		type = 6,
+		name = "『墜落之翼』-後篇",
+		count_inherit = 0,
+		desc = "通關B3或D3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 50105,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1150006,
+			1150016
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
+	[50106] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9307,
+		type = 6,
+		name = "『墜落之翼』-勳章",
+		count_inherit = 0,
+		desc = "通關D3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 50106,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1150016",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				117,
+				1
+			}
+		}
+	},
+	[50107] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 9308,
+		type = 6,
+		name = "『墜落之翼』-前篇",
+		count_inherit = 0,
+		desc = "完成A1或C1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "50108",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 50107,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1150001,
+			1150011
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		}
+	},
+	[50108] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9309,
+		type = 6,
+		name = "『墜落之翼』-前篇",
+		count_inherit = 0,
+		desc = "完成A2或C2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "50109",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 50108,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1150002,
+			1150012
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		}
+	},
+	[50109] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9310,
+		type = 6,
+		name = "『墜落之翼』-前篇",
+		count_inherit = 0,
+		desc = "完成A3或C3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "50110",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 50109,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1150003,
+			1150013
+		},
+		open_need = {},
+		award_display = {
+			{
+				3,
+				14340,
+				1
+			}
+		}
+	},
+	[50110] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9311,
+		type = 6,
+		name = "『墜落之翼』-後篇",
+		count_inherit = 0,
+		desc = "完成B1或D1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "50111",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 50110,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1150004,
+			1150014
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		}
+	},
+	[50111] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9312,
+		type = 6,
+		name = "『墜落之翼』-後篇",
+		count_inherit = 0,
+		desc = "完成B2或D2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "50112",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 50111,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1150005,
+			1150015
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		}
+	},
+	[50112] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 9313,
+		type = 6,
+		name = "『墜落之翼』-後篇",
+		count_inherit = 0,
+		desc = "完成B3或D3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 50112,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1150006,
+			1150016
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				105111,
+				1
+			}
+		}
+	},
+	[50113] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 9314,
+		type = 36,
+		name = "『墜落之翼』日常建造",
+		count_inherit = 0,
+		desc = "建造艦船3次。",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 50113,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				114,
+				300
+			}
+		}
+	},
+	[50114] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 9314,
+		type = 36,
+		name = "『墜落之翼』日常出擊",
+		count_inherit = 0,
+		desc = "艦隊出征，獲得15次勝利。",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 50114,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				114,
+				300
+			}
+		}
+	},
+	[50115] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 9315,
+		type = 36,
+		name = "『墜落之翼』日常困難本",
+		count_inherit = 0,
+		desc = "通關1次任意主線困難關卡",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 50115,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				114,
+				100
+			}
+		}
+	},
 	[52001] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -36032,6 +36643,22 @@ pg.task_data_template = {
 		50061,
 		50062,
 		50063,
+		50100,
+		50101,
+		50102,
+		50103,
+		50104,
+		50105,
+		50106,
+		50107,
+		50108,
+		50109,
+		50110,
+		50111,
+		50112,
+		50113,
+		50114,
+		50115,
 		52001,
 		52002,
 		52003,

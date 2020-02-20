@@ -787,6 +787,7 @@ pg.activity_template = {
 	[486] = {
 		mark = 20200206,
 		title_res_tag = "",
+		time = "stop",
 		type = 57,
 		login_pop = 0,
 		config_id = 6,
@@ -794,34 +795,7 @@ pg.activity_template = {
 		config_client = "",
 		bg = "",
 		id = 486,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					2,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					2,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[491] = {
 		mark = 20200213,
@@ -2778,6 +2752,7 @@ pg.activity_template = {
 	[40051] = {
 		mark = 20200210,
 		title_res_tag = "",
+		time = "stop",
 		type = 29,
 		login_pop = 0,
 		config_id = 15,
@@ -2787,33 +2762,6 @@ pg.activity_template = {
 		id = 40051,
 		config_data = {
 			31201
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					2,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					2,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[40052] = {
@@ -3808,6 +3756,288 @@ pg.activity_template = {
 			}
 		}
 	},
+	[40078] = {
+		mark = 20200207,
+		title_res_tag = "FallingWing",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		config_client = "",
+		id = 40078,
+		config_data = {
+			1150001,
+			1150002,
+			1150003,
+			1150011,
+			1150012,
+			1150013
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					2,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/fallenwing_bg",
+			{
+				380,
+				-238
+			},
+			{
+				-116,
+				-123.5
+			}
+		}
+	},
+	[40079] = {
+		mark = 20200207,
+		title_res_tag = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 40079,
+		config_data = {
+			1150004,
+			1150005,
+			1150006,
+			1150014,
+			1150015,
+			1150016
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					2,
+					21
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40080] = {
+		mark = 20200207,
+		title_res_tag = "",
+		type = 22,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		bg = "",
+		id = 40080,
+		config_data = {
+			9,
+			10,
+			11,
+			12
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					2,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			resId = 114
+		}
+	},
+	[40081] = {
+		mark = 20200207,
+		title_res_tag = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 114,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		bg = "",
+		id = 40081,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					2,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40082] = {
+		mark = 20200207,
+		title_res_tag = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 40082,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					2,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40083] = {
+		mark = 20200207,
+		title_res_tag = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 40083,
+		config_data = {
+			50100,
+			50101,
+			50102,
+			50103,
+			50104,
+			50105,
+			50106,
+			50107,
+			50108,
+			50109,
+			50110,
+			50111,
+			50112,
+			50113,
+			50114,
+			50115
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					2,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[45000] = {
 		mark = 20191004,
 		title_res_tag = "",
@@ -3928,6 +4158,12 @@ pg.activity_template = {
 		40074,
 		40075,
 		40076,
+		40078,
+		40079,
+		40080,
+		40081,
+		40082,
+		40083,
 		45000
 	}
 }

@@ -10,7 +10,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "SG的屏幕上依然显示出大量光点，敌人数量有增无减!",
+			say = "SG的螢幕上依然顯示出大量光點，敵人數量有增無減!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "居然还有这么多的塞壬涌上来……",
+			say = "居然還有這麼多的塞壬湧上來……",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -44,7 +44,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来敌人是打算以数量来压倒我们呢。",
+			say = "看來敵人是打算以數量來壓倒我們呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，看来想要突破塞壬的包围网也不太容易了。",
+			say = "哼，看來想要突破塞壬的包圍網也不太容易了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "管它的，在打光最后一发炮弹之前，把眼前的塞壬都送入海底，这就是我们现在要做的事情！",
+			say = "管它的，在打光最後一發炮彈之前，把眼前的塞壬都送入海底，這就是我們現在要做的事情！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等等，附近海域敌人的反应……突然急剧减少！",
+			say = "等等，附近海域敵人的反應……突然急劇減少！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对空雷达上发现大量空中单位…但是无法识别其机型！",
+			say = "對空雷達上發現大量空中單位…但是無法識別其機型！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

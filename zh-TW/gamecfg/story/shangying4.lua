@@ -227,7 +227,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "晓姐姐…留下了“我去买点赏樱时可以吃的零食”的字条就出门了（远目",
+			say = "{namecode:11}姐姐…留下了“我去買點賞櫻時可以吃的零食”的字條就出門了（遠目",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

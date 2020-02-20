@@ -14,7 +14,7 @@ return {
 			blackBg = true,
 			actor = 0,
 			actorName = "？？？",
-			say = "目前仍未找到特殊观察对象“关键点G”…并且…白鹰的特遣舰队已经开始介入了",
+			say = "目前仍未找到特殊觀察對象“關鍵點G”…並且…白鷹的特遣艦隊已經開始介入了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,7 +25,7 @@ return {
 			}
 		},
 		{
-			say = "看来是“关键点G”偷偷发出的秘密信号引来了蜜蜂们啊",
+			say = "看來是“關鍵點G”偷偷發出的秘密信號引來了蜜蜂們啊",
 			side = 1,
 			actorName = "？？？",
 			withoutPainting = true,
@@ -54,7 +54,7 @@ return {
 			blackBg = true,
 			actor = 0,
 			actorName = "？？？",
-			say = "“执行者”系列已经部署到了目标海域，虽然都是些旧型号了，但应该还是可以应对局面的",
+			say = "“執行者”系列已經部署到了目標海域，雖然都是些舊型號了，但應該還是可以應對局面的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			blackBg = true,
 			actor = 0,
 			actorName = "？？？",
-			say = "“应该可以”是什么概念？在我们的词汇里没有这么主观的概念…",
+			say = "“應該可以”是什麼概念？在我們的詞彙裡沒有這麼主觀的概念…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			blackBg = true,
 			actor = 0,
 			actorName = "？？？",
-			say = "不要小看了她们，还是把搜索工作放在第一优先进程…",
+			say = "不要小看了她們，還是把搜索工作放在第一優先進程…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			blackBg = true,
 			actor = 0,
 			actorName = "？？？",
-			say = "至于白鹰的那帮牛仔们…作为一次新的实战测试岂不一举两得",
+			say = "至於白鷹的那幫牛仔們…作為一次新的實戰測試豈不一舉兩得",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			blackBg = true,
 			actor = 0,
 			actorName = "？？？",
-			say = "了解，立刻开始重新分配系统资源",
+			say = "瞭解，立刻開始重新分配系統資源",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			blackBg = true,
 			actor = 0,
 			actorName = "？？？",
-			say = "那么…“关键点G”……这一次要怎么样才能再把你引诱出来呢？呵呵呵…",
+			say = "那麼…“關鍵點G”……這一次要怎麼樣才能再把你引誘出來呢？呵呵呵…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

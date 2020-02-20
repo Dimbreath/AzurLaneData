@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里就是神秘信号所指示的海域吗……看样子我们还是来迟了一步",
+			say = "這裡就是神秘信號所指示的海域嗎……看樣子我們還是來遲了一步",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "真是过分啊，已经完全化作一片废墟了",
+			say = "真是過分啊，已經完全化作一片廢墟了",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -45,7 +45,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "究竟是什么人……居然能把塞壬的试验场摧毁成这样…",
+			say = "究竟是什麼人……居然能把塞壬的試驗場摧毀成這樣…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "会不会是之前“新生重樱联合”的那些家伙们干的？",
+			say = "會不會是之前“新生重櫻聯合”的那些傢伙們幹的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "从破坏的痕迹来看——不像是重樱或者皇家的武器…倒不如说…更像是我们的火力所造成的",
+			say = "從破壞的痕跡來看——不像是重櫻或者皇家的武器…倒不如說…更像是我們的火力所造成的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊啊！！真是一头雾水！！",
+			say = "啊啊啊！！真是一頭霧水！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过算了，不管怎样，省下了和敌人折腾的时间，还真是得好好感谢下这位“神秘人”先生了",
+			say = "不過算了，不管怎樣，省下了和敵人折騰的時間，還真是得好好感謝下這位“神秘人”先生了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总之先四处探索一下，看有没可收集的情报吧——",
+			say = "總之先四處探索一下，看有沒可收集的情報吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

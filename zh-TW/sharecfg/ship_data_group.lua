@@ -644,6 +644,68 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[362] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 16,
+		group_type = 10136,
+		code = 362,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：墜落之翼",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[363] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 17,
+		group_type = 10137,
+		code = 363,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：墜落之翼",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[11] = {
 		type = 1,
 		trans_skin = 0,
@@ -2097,6 +2159,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[364] = {
+		type = 3,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 68,
+		group_type = 10313,
+		code = 364,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：墜落之翼",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[49] = {
 		type = 3,
 		trans_skin = 0,
@@ -2456,6 +2549,161 @@ pg.ship_data_group = {
 						projectName = "heavy",
 						page = 1
 					}
+				},
+				0
+			}
+		}
+	},
+	[60] = {
+		type = 5,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 79,
+		group_type = 10509,
+		code = 60,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：墜落之翼",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[61] = {
+		type = 5,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 80,
+		group_type = 10510,
+		code = 61,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：墜落之翼",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[62] = {
+		type = 5,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 81,
+		group_type = 10511,
+		code = 62,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：墜落之翼",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[63] = {
+		type = 5,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 82,
+		group_type = 10512,
+		code = 63,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"B",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：墜落之翼",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[64] = {
+		type = 5,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 83,
+		group_type = 10513,
+		code = 64,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"B",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：墜落之翼",
+				{
+					""
 				},
 				0
 			}
@@ -2956,6 +3204,37 @@ pg.ship_data_group = {
 						projectName = "special",
 						page = 1
 					}
+				},
+				0
+			}
+		}
+	},
+	[79] = {
+		type = 7,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 95,
+		group_type = 10708,
+		code = 79,
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：墜落之翼",
+				{
+					""
 				},
 				0
 			}
@@ -3753,6 +4032,37 @@ pg.ship_data_group = {
 		index_id = 124,
 		group_type = 20124,
 		code = 306,
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"月度簽到",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[307] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 2,
+		hide = 0,
+		index_id = 125,
+		group_type = 20125,
+		code = 307,
 		property_hexagon = {
 			"D",
 			"B",
@@ -8430,6 +8740,8 @@ pg.ship_data_group = {
 		18,
 		19,
 		263,
+		362,
+		363,
 		11,
 		299,
 		300,
@@ -8460,6 +8772,7 @@ pg.ship_data_group = {
 		43,
 		44,
 		45,
+		364,
 		49,
 		52,
 		53,
@@ -8467,6 +8780,11 @@ pg.ship_data_group = {
 		55,
 		58,
 		59,
+		60,
+		61,
+		62,
+		63,
+		64,
 		65,
 		70,
 		71,
@@ -8476,6 +8794,7 @@ pg.ship_data_group = {
 		75,
 		76,
 		77,
+		79,
 		78,
 		80,
 		103,
@@ -8491,6 +8810,7 @@ pg.ship_data_group = {
 		101,
 		102,
 		306,
+		307,
 		372,
 		373,
 		104,

@@ -422,6 +422,18 @@ slot1 = {
 	[ActivityConst.CARD_PAIR_FX_PAGE] = {
 		className = "CardPairFXPage",
 		uiName = "CardPairFXPage"
+	},
+	[ActivityConst.MAOZI_PT] = {
+		className = "MaoziPtPage",
+		uiName = "MaoziPtPage"
+	},
+	[ActivityConst.SANDIEGO_REFORM_RE] = {
+		className = "SandiegoReformPage",
+		uiName = "sandiegoreformpage"
+	},
+	[ActivityConst.FALLENWING_CHT] = {
+		className = "FallenWingMainPage",
+		uiName = "FallenWingMainPage"
 	}
 }
 slot2 = {

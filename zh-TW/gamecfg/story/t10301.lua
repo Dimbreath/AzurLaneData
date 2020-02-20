@@ -7,7 +7,7 @@ return {
 			actor = -1,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "來犯之敵，你們已經入侵了我們的自由領土，立刻彙報身份並解除武裝！",
+			say = "來犯之敵，你們已經入侵了我們的自由領土，立刻匯報身份並解除武裝！",
 			shake = {
 				speed = 1,
 				number = 3
