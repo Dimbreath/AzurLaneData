@@ -510,47 +510,41 @@ pg.activity_random_award_item = {
 		commodity_id = 20001,
 		num = 1
 	},
-	{
-		id = 86,
-		resource_category = 2,
-		commodity_id = 15008,
-		num = 10
-	},
-	{
+	[87] = {
 		id = 87,
 		resource_category = 2,
 		commodity_id = 20011,
 		num = 1
 	},
-	{
+	[88] = {
 		id = 88,
 		resource_category = 2,
 		commodity_id = 20012,
 		num = 1
 	},
-	{
+	[89] = {
 		id = 89,
 		resource_category = 2,
 		commodity_id = 42000,
 		num = 1
 	},
-	{
+	[90] = {
 		id = 90,
 		resource_category = 1,
 		commodity_id = 1,
 		num = 20
 	},
-	{
+	[91] = {
 		id = 91,
 		resource_category = 1,
 		commodity_id = 2,
 		num = 20
 	},
-	{
+	[92] = {
 		id = 92,
 		resource_category = 2,
 		commodity_id = 42000,
-		num = 3
+		num = 1
 	},
 	[3027] = {
 		id = 3027,
@@ -954,18 +948,6 @@ pg.activity_random_award_item = {
 		commodity_id = 105121,
 		num = 1
 	},
-	[100012] = {
-		id = 100012,
-		resource_category = 3,
-		commodity_id = 29200,
-		num = 1
-	},
-	[100013] = {
-		id = 100013,
-		resource_category = 3,
-		commodity_id = 28200,
-		num = 1
-	},
 	[100014] = {
 		id = 100014,
 		resource_category = 3,
@@ -982,36 +964,6 @@ pg.activity_random_award_item = {
 		id = 100016,
 		resource_category = 3,
 		commodity_id = 26240,
-		num = 1
-	},
-	[100017] = {
-		id = 100017,
-		resource_category = 4,
-		commodity_id = 205071,
-		num = 1
-	},
-	[100018] = {
-		id = 100018,
-		resource_category = 5,
-		commodity_id = 22108,
-		num = 1
-	},
-	[100019] = {
-		id = 100019,
-		resource_category = 5,
-		commodity_id = 22103,
-		num = 1
-	},
-	[100020] = {
-		id = 100020,
-		resource_category = 5,
-		commodity_id = 22306,
-		num = 1
-	},
-	[100021] = {
-		id = 100021,
-		resource_category = 5,
-		commodity_id = 22118,
 		num = 1
 	},
 	[100022] = {
@@ -1049,12 +1001,6 @@ pg.activity_random_award_item = {
 		resource_category = 2,
 		commodity_id = 18013,
 		num = 3
-	},
-	[100028] = {
-		id = 100028,
-		resource_category = 4,
-		commodity_id = 201131,
-		num = 1
 	},
 	[100029] = {
 		id = 100029,
@@ -1154,7 +1100,6 @@ pg.activity_random_award_item = {
 		83,
 		84,
 		85,
-		86,
 		87,
 		88,
 		89,
@@ -1228,23 +1173,15 @@ pg.activity_random_award_item = {
 		100009,
 		100010,
 		100011,
-		100012,
-		100013,
 		100014,
 		100015,
 		100016,
-		100017,
-		100018,
-		100019,
-		100020,
-		100021,
 		100022,
 		100023,
 		100024,
 		100025,
 		100026,
 		100027,
-		100028,
 		100029,
 		100030
 	}

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接收到了奇怪的加密电文…发信源不明…正在尝试解密…",
+			say = "接收到了奇怪的加密電文…發信源不明…正在嘗試解密…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "在这个地方能接收到友军的信号？不会是陷阱吧…",
+			say = "在這個地方能接收到友軍的信號？不會是陷阱吧…",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -45,7 +45,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "加密电码充满无法理解的词句……比较可以确认的是【Falling】…….坠落？",
+			say = "加密電碼充滿無法理解的詞句……比較可以確認的是【Falling】…….墜落？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "完全不明白是什么意思呢…",
+			say = "完全不明白是什麼意思呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "先是捉迷藏，现在又来猜字谜游戏么？这位“神秘人”先生可真是爱玩游戏啊。",
+			say = "先是捉迷藏，現在又來猜字謎遊戲麼？這位“神秘人”先生可真是愛玩遊戲啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "不如我们直接把他揪出来胖揍一顿如何？之后他就会“好心”的给我们解答了吧呵呵呵",
+			say = "不如我們直接把他揪出來胖揍一頓如何？之後他就會“好心”的給我們解答了吧呵呵呵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…不管怎样，先把目前的发现汇报回去吧，光是这些新型的敌人就够让人头疼的了",
+			say = "…不管怎樣，先把目前的發現匯報回去吧，光是這些新型的敵人就夠讓人頭疼的了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "已经在第一时间向总部汇报了哟",
+			say = "已經在第一時間向總部匯報了喲",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "海伦娜小姐还是一如既往的可靠呀~",
+			say = "海倫娜小姐還是一如既往的可靠呀~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，继续往信号源的方向前进吧",
+			say = "那麼，繼續往信號源的方向前進吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

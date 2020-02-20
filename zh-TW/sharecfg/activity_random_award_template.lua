@@ -640,7 +640,7 @@ pg.activity_random_award_template = {
 		}
 	},
 	[9] = {
-		activity = 0,
+		activity = 40080,
 		resource_category = 1,
 		resource_type = 114,
 		id = 9,
@@ -667,20 +667,8 @@ pg.activity_random_award_template = {
 				50
 			},
 			{
-				87,
-				2
-			},
-			{
-				88,
-				4
-			},
-			{
-				86,
-				10
-			},
-			{
 				92,
-				2
+				5
 			},
 			{
 				23,
@@ -749,6 +737,26 @@ pg.activity_random_award_template = {
 			{
 				80,
 				5
+			},
+			{
+				53,
+				1
+			},
+			{
+				59,
+				1
+			},
+			{
+				62,
+				1
+			},
+			{
+				51,
+				5
+			},
+			{
+				54,
+				5
 			}
 		},
 		main_item = {
@@ -757,7 +765,7 @@ pg.activity_random_award_template = {
 		}
 	},
 	[10] = {
-		activity = 0,
+		activity = 40080,
 		resource_category = 1,
 		resource_type = 114,
 		id = 10,
@@ -768,7 +776,7 @@ pg.activity_random_award_template = {
 				1
 			},
 			{
-				100024,
+				83,
 				1
 			},
 			{
@@ -792,20 +800,12 @@ pg.activity_random_award_template = {
 				50
 			},
 			{
-				87,
-				1
-			},
-			{
-				88,
-				4
-			},
-			{
-				86,
-				30
-			},
-			{
 				92,
-				4
+				10
+			},
+			{
+				25,
+				5
 			},
 			{
 				23,
@@ -820,35 +820,35 @@ pg.activity_random_award_template = {
 				20
 			},
 			{
-				52,
+				53,
 				2
+			},
+			{
+				56,
+				2
+			},
+			{
+				59,
+				2
+			},
+			{
+				62,
+				2
+			},
+			{
+				52,
+				5
 			},
 			{
 				55,
-				2
+				5
 			},
 			{
 				58,
-				2
+				5
 			},
 			{
 				61,
-				2
-			},
-			{
-				51,
-				5
-			},
-			{
-				54,
-				5
-			},
-			{
-				57,
-				5
-			},
-			{
-				60,
 				5
 			},
 			{
@@ -893,23 +893,23 @@ pg.activity_random_award_template = {
 			},
 			{
 				36,
-				4
+				5
 			},
 			{
 				39,
-				4
+				5
 			},
 			{
 				42,
-				4
+				5
 			},
 			{
 				45,
-				4
+				5
 			},
 			{
 				48,
-				4
+				5
 			},
 			{
 				71,
@@ -929,19 +929,19 @@ pg.activity_random_award_template = {
 			},
 			{
 				69,
-				20
+				25
 			},
 			{
 				64,
-				20
+				25
 			},
 			{
 				74,
-				20
+				25
 			},
 			{
 				79,
-				20
+				25
 			},
 			{
 				29,
@@ -949,7 +949,7 @@ pg.activity_random_award_template = {
 			},
 			{
 				32,
-				3
+				2
 			},
 			{
 				35,
@@ -970,11 +970,11 @@ pg.activity_random_award_template = {
 		},
 		main_item = {
 			100022,
-			100024
+			100010
 		}
 	},
 	[11] = {
-		activity = 0,
+		activity = 40080,
 		resource_category = 1,
 		resource_type = 114,
 		id = 11,
@@ -1022,23 +1022,15 @@ pg.activity_random_award_template = {
 			},
 			{
 				90,
-				210
-			},
-			{
-				87,
-				4
-			},
-			{
-				88,
-				2
-			},
-			{
-				86,
-				80
+				231
 			},
 			{
 				92,
-				4
+				10
+			},
+			{
+				25,
+				5
 			},
 			{
 				23,
@@ -1047,6 +1039,10 @@ pg.activity_random_award_template = {
 			{
 				22,
 				30
+			},
+			{
+				21,
+				7
 			},
 			{
 				52,
@@ -1062,6 +1058,22 @@ pg.activity_random_award_template = {
 			},
 			{
 				61,
+				5
+			},
+			{
+				51,
+				5
+			},
+			{
+				54,
+				5
+			},
+			{
+				57,
+				5
+			},
+			{
+				60,
 				5
 			},
 			{
@@ -1129,16 +1141,28 @@ pg.activity_random_award_template = {
 				5
 			},
 			{
+				29,
+				4
+			},
+			{
+				32,
+				4
+			},
+			{
+				35,
+				4
+			},
+			{
 				28,
-				3
+				8
 			},
 			{
 				31,
-				3
+				8
 			},
 			{
 				34,
-				3
+				8
 			}
 		},
 		main_item = {
@@ -1147,7 +1171,7 @@ pg.activity_random_award_template = {
 		}
 	},
 	[12] = {
-		activity = 0,
+		activity = 40080,
 		resource_category = 1,
 		resource_type = 114,
 		id = 12,
@@ -1167,15 +1191,11 @@ pg.activity_random_award_template = {
 			},
 			{
 				90,
-				190
+				235
 			},
 			{
-				87,
-				4
-			},
-			{
-				86,
-				80
+				92,
+				5
 			},
 			{
 				23,
@@ -1187,7 +1207,23 @@ pg.activity_random_award_template = {
 			},
 			{
 				21,
-				85
+				80
+			},
+			{
+				53,
+				1
+			},
+			{
+				56,
+				2
+			},
+			{
+				59,
+				1
+			},
+			{
+				62,
+				1
 			},
 			{
 				52,
@@ -1207,19 +1243,19 @@ pg.activity_random_award_template = {
 			},
 			{
 				51,
-				15
+				20
 			},
 			{
 				54,
-				15
+				20
 			},
 			{
 				57,
-				15
+				25
 			},
 			{
 				60,
-				15
+				25
 			},
 			{
 				38,
@@ -1263,23 +1299,23 @@ pg.activity_random_award_template = {
 			},
 			{
 				36,
-				26
+				25
 			},
 			{
 				39,
-				26
+				25
 			},
 			{
 				42,
-				26
+				25
 			},
 			{
 				45,
-				26
+				25
 			},
 			{
 				48,
-				26
+				25
 			},
 			{
 				70,
@@ -1299,19 +1335,19 @@ pg.activity_random_award_template = {
 			},
 			{
 				69,
-				80
+				75
 			},
 			{
 				64,
-				80
+				75
 			},
 			{
 				74,
-				80
+				75
 			},
 			{
 				79,
-				80
+				75
 			},
 			{
 				29,
@@ -1319,11 +1355,23 @@ pg.activity_random_award_template = {
 			},
 			{
 				32,
-				3
+				2
 			},
 			{
 				35,
 				3
+			},
+			{
+				28,
+				10
+			},
+			{
+				31,
+				10
+			},
+			{
+				34,
+				10
 			},
 			{
 				27,

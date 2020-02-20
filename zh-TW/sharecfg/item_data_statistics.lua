@@ -10932,17 +10932,17 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "濃濃的愛意和巧克力更速配哦～ <color=#A9F548>（提高經驗加成5%，持續60分鐘）</color>",
+		display = "甜咖喱還是辣咖喱，這是一個問題！ <color=#A9F548>（提高經驗加成5%，持續60分鐘）</color>",
 		rarity = 2,
 		type = 3,
-		name = "愛心巧克力 ",
+		name = "海軍咖喱",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		virtual_type = 0,
 		replace_item = 0,
 		link_id = 0,
 		id = 50004,
-		icon = "Props/chocolate",
+		icon = "Props/haijungali",
 		display_icon = {},
 		price = {
 			1,

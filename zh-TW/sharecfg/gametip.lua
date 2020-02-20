@@ -7958,7 +7958,7 @@ $3]],
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "長春、太原、馬拉尼、追趕者、金伯利、庫拉索、杓鷸出現機率UP!",
+		tip = "華盛頓、明尼阿波利斯、馬里蘭、科羅拉多、科爾克出現機率UP!",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -8417,7 +8417,7 @@ $3]],
 		key = "commander_rename_success_tip"
 	},
 	amercian_notice_1 = {
-		tip = "確定消耗<color=#A9F548>$1</color>個女王的恩典\n用於抽取<color=#A9F548>$2</color>次補給？",
+		tip = "確定消耗<color=#A9F548>$1</color>個戰鬥之星\n用於抽取<color=#A9F548>$2</color>次補給？",
 		key = "amercian_notice_1"
 	},
 	amercian_notice_2 = {
@@ -8429,7 +8429,7 @@ $3]],
 		key = "amercian_notice_3"
 	},
 	amercian_notice_4 = {
-		tip = "女王的恩典",
+		tip = "戰鬥之星",
 		key = "amercian_notice_4"
 	},
 	amercian_notice_5 = {
@@ -9832,6 +9832,11 @@ TIPS：
 　第7章……270
 　第8章……350
 　第9章……450　
+限時活動關卡：
+　A圖……180
+　B圖……270
+　C圖……450
+　D圖……700
 
 · 每日前兩次<color=#92fc63>應援資格</color>在完成關卡時必定獲得，<color=#92fc63>應援資格</color>
 過期不會計入次數

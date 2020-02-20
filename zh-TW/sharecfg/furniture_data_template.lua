@@ -936,6 +936,42 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[117] = {
+		advice = 0,
+		describe = "遺落在戰火燃燒的廢墟中，經指揮部回收後，贈與部分在作戰中做出傑出貢獻的指揮官。彷彿能從中感受到白鷹眾人們的堅定意志\n\t\t\t<color=#fad545>——參與墜落之翼作戰的最高榮譽</color>",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "白鷹勳章",
+		is_get_time_note = 1,
+		rarity = 5,
+		gain_by = "墜落之翼",
+		themeId = 0,
+		icon = "2017dhicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 117,
+		picture = "chuanmo/2017dh",
+		comfortable = 5,
+		tag = 6,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
 	[152] = {
 		advice = 0,
 		describe = "參與《巴哈姆特》論壇活動的紀念",
@@ -9184,6 +9220,140 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[12107] = {
+		advice = 0,
+		describe = "累的話就好好休息下吧",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "小床鋪",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 0,
+		icon = "chuangr2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 12107,
+		picture = "r2/chuangr2",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					2,
+					31
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[12108] = {
+		advice = 0,
+		describe = "喵喵喵！",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "肥喵",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 0,
+		icon = "feir2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 12108,
+		picture = "r2/feir2",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[12110] = {
+		advice = 0,
+		describe = "財源廣進",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "招財貓",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 0,
+		icon = "zhaocaimaor2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 12110,
+		picture = "r2/zhaocaimaor2",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-20,
+					-12
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[12201] = {
 		advice = 0,
 		describe = "這是一條失去了夢想的鹹魚",
@@ -9211,6 +9381,42 @@ pg.furniture_data_template = {
 		tag = 5,
 		size = {
 			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[12202] = {
+		advice = 0,
+		describe = "嫌悶就去庭院透透氣吧",
+		count = 2,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "庭院大門",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 0,
+		icon = "menr2icon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 12202,
+		picture = "r2/menr2",
+		comfortable = 4,
+		tag = 5,
+		size = {
+			10,
 			6
 		},
 		offset = {},
@@ -28622,6 +28828,7 @@ pg.furniture_data_template = {
 		106,
 		107,
 		112,
+		117,
 		152,
 		154,
 		158,
@@ -28828,7 +29035,11 @@ pg.furniture_data_template = {
 		12104,
 		12105,
 		12106,
+		12107,
+		12108,
+		12110,
 		12201,
+		12202,
 		13001,
 		13002,
 		13101,

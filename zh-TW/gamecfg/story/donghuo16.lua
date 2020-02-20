@@ -25,7 +25,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "发生了什么…",
+			say = "發生了什麼…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么回事…我明明只击中了对面那个最大个的家伙…",
+			say = "怎麼回事…我明明只擊中了對面那個最大個的傢伙…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "目视范围内的塞壬已经全部清理完毕了。海伦娜，你那边有什么发现吗？",
+			say = "目視範圍內的塞壬已經全部清理完畢了。海倫娜，你那邊有什麼發現嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "SG上显示的敌人反应已经全部消失。",
+			say = "SG上顯示的敵人反應已經全部消失。",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不，还有一个敌人在看着我们。",
+			say = "不，還有一個敵人在看著我們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂，刚刚一直藏在那边的家伙，出来露个脸吧！我的主炮雷达已经锁定了你的位置了！要来堂堂正正的战一场吗？",
+			say = "喂，剛剛一直藏在那邊的傢伙，出來露個臉吧！我的主炮雷達已經鎖定了你的位置了！要來堂堂正正的戰一場嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有人能逃出我的MK3雷达，全舰炮瞄准——",
+			say = "沒有人能逃出我的MK3雷達，全艦炮瞄準——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgName = "bg_story_wing3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个单位发出的信号与之前的加密电文一致，但是…",
+			say = "這個單位發出的信號與之前的加密電文一致，但是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			bgName = "bg_story_wing3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "(SG雷达上居然完全无法发现这个单位……是出现故障了吗？)",
+			say = "(SG雷達上居然完全無法發現這個單位……是出現故障了嗎？)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么嘛，原来“神秘人”先生就是你呀，这么鬼鬼祟祟的出现是很容易被误伤的",
+			say = "什麼嘛，原來“神秘人”先生就是你呀，這麼鬼鬼祟祟的出現是很容易被誤傷的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，我们是接收到了你发出的加密信号后前来调查的白鹰第16特遣舰队——也请报上你的情报及所属",
+			say = "那麼，我們是接收到了你發出的加密信號後前來調查的白鷹第16特遣艦隊——也請報上你的情報及所屬",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			side = 1,
 			nameColor = "#D6341DFF",
 			dir = 1,
-			say = "我只想跟你们确认件事情",
+			say = "我只想跟你們確認件事情",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "居然无视我的问题吗？",
+			say = "居然無視我的問題嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			side = 1,
 			nameColor = "#D6341DFF",
 			dir = 1,
-			say = "告诉我…你们指挥官的名字……",
+			say = "告訴我…你們指揮官的名字……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在确认你的身份之前，我们没有回答这个问题的义务，而且这可是最高机密",
+			say = "在確認你的身份之前，我們沒有回答這個問題的義務，而且這可是最高機密",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			side = 1,
 			nameColor = "#D6341DFF",
 			dir = 1,
-			say = "……又是这样吗（转身）……我会自己确认的",
+			say = "……這樣嗎（轉身）……我會自己確認的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个塞壬的基地是被你一个人摧毁的吗？…你究竟是…",
+			say = "這個塞壬的基地是被你一個人摧毀的嗎？…你究竟是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（等等…这个披风？…怎么可能）",
+			say = "（等等…這個披風？…怎麼可能）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企、企业？！",
+			say = "企、企業？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			side = 1,
 			nameColor = "#D6341DFF",
 			dir = 1,
-			say = "不…你认错人了",
+			say = "不…你認錯人了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,31 +415,27 @@ return {
 			sequence = {
 				{
 					"<size=51> </size>",
-					2
+					2.5
 				},
 				{
-					"<size=51>“我们人类，其实是很卑微的存在”</size>",
-					4
+					"<size=51>“我們人類，其實是很卑微的存在”</size>",
+					4.5
 				},
 				{
-					"<size=51>“但是，在我们渺小的躯壳里却装载着无限大的期望和理想”</size>",
-					6
+					"<size=51>“但是，在我們渺小的軀殼裡卻裝載著無限大的期望和理想”</size>",
+					7
 				},
 				{
-					"<size=51>“我们常常将自己的期望和理想，塑造成自己希望的模样”</size>",
-					8
+					"<size=51>“我們常常將自己的期望和理想，塑造成自己希望的模樣，希望他們是永恆、並且強大的”</size>",
+					9
 				},
 				{
-					"<size=51>“希望他们是永恒、并且强大的”</size>",
-					10
-				},
-				{
-					"<size=51>“强大到，可以替代我们有形且短暂的个体存在，成为一种无限的精神寄托”</size> ",
+					"<size=51>“強大到，可以替代我們有形且短暫的個體存在，成為一種無限的精神寄託”</size> ",
 					12
 				},
 				{
-					"<size=51>“这也正是你名字的意义”</size>",
-					14
+					"<size=51>“這也正是你名字的意義”</size>",
+					14.5
 				}
 			}
 		},
@@ -451,15 +447,15 @@ return {
 					2
 				},
 				{
-					"<size=51>“我们人类舍弃了自己最骄傲的理想，甚至走上了与之相悖的道路”</size>",
+					"<size=51>“我們人類捨棄了自己最驕傲的理想，甚至走上了與之相悖的道路”</size>",
 					4
 				},
 				{
-					"<size=51>“你愿意…</size>",
+					"<size=51>“你願意…</size>",
 					6
 				},
 				{
-					"<size=51>  …帮我们纠正错误的未来吗？”</size>",
+					"<size=51>  …幫我們糾正錯誤的未來嗎？”</size>",
 					8
 				}
 			}

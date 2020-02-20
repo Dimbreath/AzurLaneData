@@ -85,7 +85,7 @@ pg.voice_actor_CN = {
 		code = 21
 	},
 	{
-		actor_name = "三宅麻里奈",
+		actor_name = "三宅麻理惠",
 		code = 22
 	},
 	{
@@ -863,6 +863,14 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "武田麻里子",
 		code = 216
+	},
+	{
+		actor_name = "小松郁",
+		code = 217
+	},
+	{
+		actor_name = "桃河里香",
+		code = 218
 	}
 }
 

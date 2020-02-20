@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "SG雷达有反应，发现未知型号的塞壬舰船！",
+			say = "SG雷達有反應，發現未知型號的塞壬艦船！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是…运输船？",
+			say = "這是…運輸船？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "哦？难道塞壬也有运输船吗？哈哈哈哈哈哈，这也算是钓到大鱼了吧 ",
+			say = "哦？難道塞壬也有運輸船嗎？哈哈哈哈哈哈，這也算是釣到大魚了吧 ",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -60,7 +60,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对方开始撤离战场了，速度很快！",
+			say = "對方開始撤離戰場了，速度很快！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，既然被发现了，就别想走了！各舰进入战斗位置，开始拦截敌人的运输船！嘿嘿，是时候好好活动一下了。",
+			say = "哼，既然被發現了，就別想走了！各艦進入戰鬥位置，開始攔截敵人的運輸船！嘿嘿，是時候好好活動一下了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…该说不愧是塞壬技术吗…以这样的相对速度，光靠舰炮射击还是不太够呢…",
+			say = "嗯…該說不愧是塞壬技術嗎…以這樣的相對速度，光靠艦炮射擊還是不太夠呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过这次出发的时候，正好从{namecode:98}那里接收了一批新“玩具”，呵呵，看来是派得上用场了～",
+			say = "不過這次出發的時候，正好從{namecode:98}那裡接收了一批新“玩具”，呵呵，看來是派得上用場了～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "新玩具？这是…水雷？",
+			say = "新玩具？這是…水雷？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正解。使用水雷封锁对方的撤离路线，这样应该能确保万无一失了～",
+			say = "正解。使用水雷封鎖對方的撤離路線，這樣應該能確保萬無一失了～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，听起来挺有趣的嘛！好，就让我们来一次愉快的追逐战吧！",
+			say = "嘿嘿，聽起來挺有趣的嘛！好，就讓我們來一次愉快的追逐戰吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -36,7 +36,7 @@ return {
 			}
 		},
 		{
-			say = "Warning. Warning——第五防卫机构被突破——Warning. Warning",
+			say = "Warning. Warning——第五防衛機構被突破——Warning. Warning",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -50,14 +50,14 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "Warning. Warning——执行者机关毁坏率超过82%——Warning. Warning",
+			say = "Warning. Warning——執行者機關毀壞率超過82%——Warning. Warning",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "我曾经尝试温柔的对待这个世界，没想到这却是对它最大的伤害…",
+			say = "我曾經嘗試溫柔的對待這個世界，沒想到這卻是對它最大的傷害…",
 			side = 1,
 			actorName = "???",
 			dir = 1,
@@ -71,7 +71,7 @@ return {
 			}
 		},
 		{
-			say = "…现在的我们就算借用海洋的优势也根本没有战胜它们的能力…",
+			say = "…現在的我們就算借用海洋的優勢也根本沒有戰勝它們的能力…",
 			side = 1,
 			actorName = "???",
 			dir = 1,
@@ -85,7 +85,7 @@ return {
 			}
 		},
 		{
-			say = "所谓进化其实就是一个自然筛选的过程，给予越为严苛的环境，能生存下来的样本就是越强的【模因】",
+			say = "所謂進化其實就是一個自然篩選的過程，給予越為嚴苛的環境，能生存下來的樣本就是越強的【模因】",
 			side = 0,
 			actorName = "???",
 			dir = 1,
@@ -99,7 +99,7 @@ return {
 			}
 		},
 		{
-			say = "弱肉强食、优胜劣汰，天经地义",
+			say = "弱肉強食、優勝劣汰，天經地義",
 			side = 0,
 			actorName = "???",
 			dir = 1,
@@ -113,7 +113,7 @@ return {
 			}
 		},
 		{
-			say = "看到了吗？这就是你的软弱所带来的凄惨结局——",
+			say = "看到了嗎？這就是你的軟弱所帶來的淒慘結局——",
 			side = 0,
 			actorName = "???",
 			dir = 1,
@@ -149,7 +149,7 @@ return {
 			}
 		},
 		{
-			say = "Warning. Warning——第二数据中心发生事故——Warning. Warning",
+			say = "Warning. Warning——第二資料中心發生事故——Warning. Warning",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -163,14 +163,14 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "Warning. Warning——观察系统前端分支受到重创——Warning. Warning",
+			say = "Warning. Warning——觀察系統前端分支受到重創——Warning. Warning",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "至少…在最后，我们还有机会尝试修正错误的历史…",
+			say = "至少…在最後，我們還有機會嘗試修正錯誤的歷史…",
 			side = 0,
 			actorName = "???",
 			dir = 1,
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			say = "...玲",
+			say = "...零",
 			side = 0,
 			actorName = "???",
 			dir = 1,
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900136,
-			actorName = "观察者-零",
+			actorName = "觀察者-零",
 			say = "在",
 			typewriter = {
 				speed = 0.05,
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			say = "重启【审判者】计划",
+			say = "重啟【審判者】計畫",
 			side = 0,
 			actorName = "???",
 			dir = 1,
@@ -230,7 +230,7 @@ return {
 			}
 		},
 		{
-			say = "未来……不…",
+			say = "未來……不…",
 			side = 0,
 			actorName = "???",
 			dir = 1,
@@ -244,7 +244,7 @@ return {
 			}
 		},
 		{
-			say = "人类的过去…就交给你们了",
+			say = "人類的過去…就交給你們了",
 			side = 0,
 			actorName = "???",
 			dir = 1,
@@ -260,7 +260,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actorName = "观察者-零",
+			actorName = "觀察者-零",
 			dir = 1,
 			blackBg = true,
 			actor = 900136,
@@ -278,12 +278,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actorName = "观察者-零",
+			actorName = "觀察者-零",
 			dir = 1,
 			blackBg = true,
 			actor = 900136,
 			nameColor = "#a9f548",
-			say = "——【审判者】大人",
+			say = "——【審判者】大人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			}
 		},
 		{
-			say = "那么~至少在最后，该来个漂亮的谢幕烟火了——",
+			say = "那麼~至少在最後，該來個漂亮的謝幕煙火了——",
 			side = 0,
 			actorName = "???",
 			dir = 1,

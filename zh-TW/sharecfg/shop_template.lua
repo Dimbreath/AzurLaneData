@@ -4376,6 +4376,114 @@ pg.shop_template = {
 			}
 		}
 	},
+	[60142] = {
+		group_type = 0,
+		resource_num = 120,
+		desc = "120鑽石購買限時攻略補給",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60142,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				5
+			}
+		},
+		effect_args = {
+			40117
+		},
+		time = {
+			{
+				{
+					2020,
+					2,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[60143] = {
+		group_type = 0,
+		resource_num = 980,
+		desc = "980鑽石購買限時建造補給",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60143,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			40118
+		},
+		time = {
+			{
+				{
+					2020,
+					2,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[60146] = {
 		group_type = 0,
 		resource_num = 500,
@@ -4728,9 +4836,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 1,
 		time_second = 0,
-		order = 4,
+		order = 60,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -7442,6 +7550,153 @@ pg.shop_template = {
 			301091
 		}
 	},
+	[70111] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "購買造型:霍比造型",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 5,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70111,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			101361
+		},
+		time = {
+			{
+				{
+					2020,
+					2,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70112] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "購買造型:科爾克造型",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 5,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70112,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			101371
+		},
+		time = {
+			{
+				{
+					2020,
+					2,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70113] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "購買造型:明尼阿波利斯造型",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 3,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70113,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			103131
+		},
+		time = {
+			{
+				{
+					2020,
+					2,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[70114] = {
 		group_type = 0,
 		resource_num = 700,
@@ -9100,6 +9355,8 @@ pg.shop_template = {
 		60105,
 		60114,
 		60141,
+		60142,
+		60143,
 		60146,
 		60150,
 		61001,
@@ -9165,6 +9422,9 @@ pg.shop_template = {
 		70089,
 		70095,
 		70108,
+		70111,
+		70112,
+		70113,
 		70114,
 		70115,
 		70116,

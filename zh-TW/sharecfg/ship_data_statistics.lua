@@ -21026,6 +21026,482 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[103131] = {
+		oxy_max = 0,
+		type = 3,
+		name = "明尼阿波利斯",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 103131,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Minneapolis",
+		oxy_cost = 0,
+		skin_id = 103130,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			717,
+			48,
+			0,
+			46,
+			0,
+			67,
+			0,
+			42,
+			9,
+			26.16,
+			76,
+			0
+		},
+		attrs_growth = {
+			17490,
+			474,
+			0,
+			908,
+			0,
+			334,
+			0,
+			624,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.65,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103132] = {
+		oxy_max = 0,
+		type = 3,
+		name = "明尼阿波利斯",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 103132,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Minneapolis",
+		oxy_cost = 0,
+		skin_id = 103130,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			892,
+			60,
+			0,
+			57,
+			0,
+			67,
+			0,
+			42,
+			9,
+			26.16,
+			76,
+			0
+		},
+		attrs_growth = {
+			17490,
+			474,
+			0,
+			908,
+			0,
+			334,
+			0,
+			624,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			0.65,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103133] = {
+		oxy_max = 0,
+		type = 3,
+		name = "明尼阿波利斯",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 103133,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Minneapolis",
+		oxy_cost = 0,
+		skin_id = 103130,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1242,
+			84,
+			0,
+			80,
+			0,
+			67,
+			0,
+			42,
+			9,
+			26.16,
+			76,
+			0
+		},
+		attrs_growth = {
+			17490,
+			474,
+			0,
+			908,
+			0,
+			334,
+			0,
+			624,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			0.65,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
+	[103134] = {
+		oxy_max = 0,
+		type = 3,
+		name = "明尼阿波利斯",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 103134,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Minneapolis",
+		oxy_cost = 0,
+		skin_id = 103130,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1766,
+			119,
+			0,
+			114,
+			0,
+			67,
+			0,
+			42,
+			9,
+			26.16,
+			76,
+			0
+		},
+		attrs_growth = {
+			17490,
+			474,
+			0,
+			908,
+			0,
+			334,
+			0,
+			624,
+			138,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			3496,
+			1084,
+			0,
+			607,
+			0,
+			791,
+			0,
+			241,
+			1422,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			0.7,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Astoria-Class"
+		}
+	},
 	[105011] = {
 		oxy_max = 0,
 		type = 5,
@@ -23776,6 +24252,2346 @@ pg.ship_data_statistics = {
 			0,
 			297,
 			734,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[105091] = {
+		oxy_max = 0,
+		type = 5,
+		name = "科羅拉多",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 105091,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Colorado",
+		oxy_cost = 0,
+		skin_id = 105090,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1241,
+			78,
+			0,
+			40,
+			0,
+			55,
+			0,
+			22,
+			4,
+			21,
+			67,
+			0
+		},
+		attrs_growth = {
+			30270,
+			772,
+			0,
+			792,
+			0,
+			272,
+			0,
+			324,
+			66,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[105092] = {
+		oxy_max = 0,
+		type = 5,
+		name = "科羅拉多",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 105092,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Colorado",
+		oxy_cost = 0,
+		skin_id = 105090,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1544,
+			97,
+			0,
+			50,
+			0,
+			55,
+			0,
+			22,
+			4,
+			21,
+			67,
+			0
+		},
+		attrs_growth = {
+			30270,
+			772,
+			0,
+			792,
+			0,
+			272,
+			0,
+			324,
+			66,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[105093] = {
+		oxy_max = 0,
+		type = 5,
+		name = "科羅拉多",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 105093,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Colorado",
+		oxy_cost = 0,
+		skin_id = 105090,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			2149,
+			136,
+			0,
+			70,
+			0,
+			55,
+			0,
+			22,
+			4,
+			21,
+			67,
+			0
+		},
+		attrs_growth = {
+			30270,
+			772,
+			0,
+			792,
+			0,
+			272,
+			0,
+			324,
+			66,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[105094] = {
+		oxy_max = 0,
+		type = 5,
+		name = "科羅拉多",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 105094,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Colorado",
+		oxy_cost = 0,
+		skin_id = 105090,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			3057,
+			194,
+			0,
+			99,
+			0,
+			55,
+			0,
+			22,
+			4,
+			21,
+			67,
+			0
+		},
+		attrs_growth = {
+			30270,
+			772,
+			0,
+			792,
+			0,
+			272,
+			0,
+			324,
+			66,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			18761,
+			1193,
+			0,
+			536,
+			0,
+			643,
+			0,
+			246,
+			834,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[105101] = {
+		oxy_max = 0,
+		type = 5,
+		name = "馬里蘭",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 105101,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Maryland",
+		oxy_cost = 0,
+		skin_id = 105100,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1251,
+			77,
+			0,
+			40,
+			0,
+			54,
+			0,
+			20,
+			4,
+			21.2,
+			70,
+			0
+		},
+		attrs_growth = {
+			30500,
+			764,
+			0,
+			792,
+			0,
+			268,
+			0,
+			300,
+			66,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[105102] = {
+		oxy_max = 0,
+		type = 5,
+		name = "馬里蘭",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 105102,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Maryland",
+		oxy_cost = 0,
+		skin_id = 105100,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1556,
+			96,
+			0,
+			50,
+			0,
+			54,
+			0,
+			20,
+			4,
+			21.2,
+			70,
+			0
+		},
+		attrs_growth = {
+			30500,
+			764,
+			0,
+			792,
+			0,
+			268,
+			0,
+			300,
+			66,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[105103] = {
+		oxy_max = 0,
+		type = 5,
+		name = "馬里蘭",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 105103,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Maryland",
+		oxy_cost = 0,
+		skin_id = 105100,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			2166,
+			134,
+			0,
+			70,
+			0,
+			54,
+			0,
+			20,
+			4,
+			21.2,
+			70,
+			0
+		},
+		attrs_growth = {
+			30500,
+			764,
+			0,
+			792,
+			0,
+			268,
+			0,
+			300,
+			66,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[105104] = {
+		oxy_max = 0,
+		type = 5,
+		name = "馬里蘭",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 105104,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Maryland",
+		oxy_cost = 0,
+		skin_id = 105100,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			3081,
+			192,
+			0,
+			99,
+			0,
+			54,
+			0,
+			20,
+			4,
+			21.2,
+			70,
+			0
+		},
+		attrs_growth = {
+			30500,
+			764,
+			0,
+			792,
+			0,
+			268,
+			0,
+			300,
+			66,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			18910,
+			1195,
+			0,
+			536,
+			0,
+			632,
+			0,
+			245,
+			834,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[105111] = {
+		oxy_max = 0,
+		type = 5,
+		name = "西維吉尼亞",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 105111,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS West Virginia",
+		oxy_cost = 0,
+		skin_id = 105110,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1241,
+			78,
+			0,
+			40,
+			0,
+			55,
+			0,
+			22,
+			4,
+			21,
+			61,
+			0
+		},
+		attrs_growth = {
+			30270,
+			772,
+			0,
+			792,
+			0,
+			272,
+			0,
+			330,
+			66,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[105112] = {
+		oxy_max = 0,
+		type = 5,
+		name = "西維吉尼亞",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 105112,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS West Virginia",
+		oxy_cost = 0,
+		skin_id = 105110,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1544,
+			97,
+			0,
+			50,
+			0,
+			55,
+			0,
+			22,
+			4,
+			21,
+			61,
+			0
+		},
+		attrs_growth = {
+			30270,
+			772,
+			0,
+			792,
+			0,
+			272,
+			0,
+			330,
+			66,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[105113] = {
+		oxy_max = 0,
+		type = 5,
+		name = "西維吉尼亞",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 105113,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS West Virginia",
+		oxy_cost = 0,
+		skin_id = 105110,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			2149,
+			136,
+			0,
+			70,
+			0,
+			55,
+			0,
+			22,
+			4,
+			21,
+			61,
+			0
+		},
+		attrs_growth = {
+			30270,
+			772,
+			0,
+			792,
+			0,
+			272,
+			0,
+			330,
+			66,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[105114] = {
+		oxy_max = 0,
+		type = 5,
+		name = "西維吉尼亞",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 105114,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS West Virginia",
+		oxy_cost = 0,
+		skin_id = 105110,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			3057,
+			194,
+			0,
+			99,
+			0,
+			55,
+			0,
+			22,
+			4,
+			21,
+			61,
+			0
+		},
+		attrs_growth = {
+			30270,
+			772,
+			0,
+			792,
+			0,
+			272,
+			0,
+			330,
+			66,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			18761,
+			1193,
+			0,
+			536,
+			0,
+			643,
+			0,
+			240,
+			834,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[105121] = {
+		oxy_max = 0,
+		type = 5,
+		name = "北卡羅來納",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 105121,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS North Carolina",
+		oxy_cost = 0,
+		skin_id = 105120,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1315,
+			82,
+			0,
+			79,
+			0,
+			58,
+			0,
+			22,
+			7,
+			28,
+			81,
+			0
+		},
+		attrs_growth = {
+			32070,
+			808,
+			0,
+			1540,
+			0,
+			290,
+			0,
+			330,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[105122] = {
+		oxy_max = 0,
+		type = 5,
+		name = "北卡羅來納",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 105122,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS North Carolina",
+		oxy_cost = 0,
+		skin_id = 105120,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1636,
+			102,
+			0,
+			98,
+			0,
+			58,
+			0,
+			22,
+			7,
+			28,
+			81,
+			0
+		},
+		attrs_growth = {
+			32070,
+			808,
+			0,
+			1540,
+			0,
+			290,
+			0,
+			330,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[105123] = {
+		oxy_max = 0,
+		type = 5,
+		name = "北卡羅來納",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 105123,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS North Carolina",
+		oxy_cost = 0,
+		skin_id = 105120,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			2277,
+			143,
+			0,
+			137,
+			0,
+			58,
+			0,
+			22,
+			7,
+			28,
+			81,
+			0
+		},
+		attrs_growth = {
+			32070,
+			808,
+			0,
+			1540,
+			0,
+			290,
+			0,
+			330,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[105124] = {
+		oxy_max = 0,
+		type = 5,
+		name = "北卡羅來納",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 105124,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS North Carolina",
+		oxy_cost = 0,
+		skin_id = 105120,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			3239,
+			203,
+			0,
+			195,
+			0,
+			58,
+			0,
+			22,
+			7,
+			28,
+			81,
+			0
+		},
+		attrs_growth = {
+			32070,
+			808,
+			0,
+			1540,
+			0,
+			290,
+			0,
+			330,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			17633,
+			875,
+			0,
+			0,
+			0,
+			685,
+			0,
+			240,
+			577,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[105131] = {
+		oxy_max = 0,
+		type = 5,
+		name = "華盛頓",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 105131,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Washington",
+		oxy_cost = 0,
+		skin_id = 105130,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1353,
+			82,
+			0,
+			79,
+			0,
+			58,
+			0,
+			22,
+			7,
+			28,
+			89,
+			0
+		},
+		attrs_growth = {
+			33000,
+			808,
+			0,
+			1540,
+			0,
+			290,
+			0,
+			330,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[105132] = {
+		oxy_max = 0,
+		type = 5,
+		name = "華盛頓",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 105132,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Washington",
+		oxy_cost = 0,
+		skin_id = 105130,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1683,
+			102,
+			0,
+			98,
+			0,
+			58,
+			0,
+			22,
+			7,
+			28,
+			89,
+			0
+		},
+		attrs_growth = {
+			33000,
+			808,
+			0,
+			1540,
+			0,
+			290,
+			0,
+			330,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[105133] = {
+		oxy_max = 0,
+		type = 5,
+		name = "華盛頓",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 105133,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Washington",
+		oxy_cost = 0,
+		skin_id = 105130,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			2343,
+			143,
+			0,
+			137,
+			0,
+			58,
+			0,
+			22,
+			7,
+			28,
+			89,
+			0
+		},
+		attrs_growth = {
+			33000,
+			808,
+			0,
+			1540,
+			0,
+			290,
+			0,
+			330,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[105134] = {
+		oxy_max = 0,
+		type = 5,
+		name = "華盛頓",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 105134,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Washington",
+		oxy_cost = 0,
+		skin_id = 105130,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			3333,
+			203,
+			0,
+			195,
+			0,
+			58,
+			0,
+			22,
+			7,
+			28,
+			89,
+			0
+		},
+		attrs_growth = {
+			33000,
+			808,
+			0,
+			1540,
+			0,
+			290,
+			0,
+			330,
+			108,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			18150,
+			875,
+			0,
+			0,
+			0,
+			685,
+			0,
+			240,
+			577,
 			0,
 			0,
 			0
@@ -28440,6 +31256,474 @@ pg.ship_data_statistics = {
 			0,
 			0,
 			762,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.25,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107081] = {
+		oxy_max = 0,
+		type = 7,
+		name = "胡蜂",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 107081,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Wasp",
+		oxy_cost = 0,
+		skin_id = 107080,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			816,
+			0,
+			0,
+			51,
+			62,
+			43,
+			0,
+			30,
+			12,
+			29.5,
+			20,
+			0
+		},
+		attrs_growth = {
+			19905,
+			0,
+			0,
+			1000,
+			612,
+			216,
+			0,
+			450,
+			180,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.1,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107082] = {
+		oxy_max = 0,
+		type = 7,
+		name = "胡蜂",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 107082,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Wasp",
+		oxy_cost = 0,
+		skin_id = 107080,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1015,
+			0,
+			0,
+			64,
+			77,
+			43,
+			0,
+			30,
+			12,
+			29.5,
+			20,
+			0
+		},
+		attrs_growth = {
+			19905,
+			0,
+			0,
+			1000,
+			612,
+			216,
+			0,
+			450,
+			180,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.13,
+			1.13,
+			1.13
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107083] = {
+		oxy_max = 0,
+		type = 7,
+		name = "胡蜂",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 107083,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Wasp",
+		oxy_cost = 0,
+		skin_id = 107080,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1413,
+			0,
+			0,
+			89,
+			108,
+			43,
+			0,
+			30,
+			12,
+			29.5,
+			20,
+			0
+		},
+		attrs_growth = {
+			19905,
+			0,
+			0,
+			1000,
+			612,
+			216,
+			0,
+			450,
+			180,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.18,
+			1.18,
+			1.18
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[107084] = {
+		oxy_max = 0,
+		type = 7,
+		name = "胡蜂",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 107084,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Wasp",
+		oxy_cost = 0,
+		skin_id = 107080,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			2010,
+			0,
+			0,
+			126,
+			154,
+			43,
+			0,
+			30,
+			12,
+			29.5,
+			20,
+			0
+		},
+		attrs_growth = {
+			19905,
+			0,
+			0,
+			1000,
+			612,
+			216,
+			0,
+			450,
+			180,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			11937,
+			0,
+			0,
+			617,
+			1193,
+			504,
+			0,
+			0,
+			765,
 			0,
 			0,
 			0
@@ -35113,6 +38397,474 @@ pg.ship_data_statistics = {
 		tag_list = {
 			"Jersey Skill"
 		}
+	},
+	[201251] = {
+		oxy_max = 0,
+		type = 1,
+		name = "澤西",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 201251,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Jersey",
+		oxy_cost = 0,
+		skin_id = 201250,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			248,
+			14,
+			69,
+			29,
+			0,
+			74,
+			0,
+			71,
+			78,
+			43.2,
+			20,
+			52
+		},
+		attrs_growth = {
+			6040,
+			142,
+			680,
+			568,
+			0,
+			366,
+			0,
+			1050,
+			1158,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.35,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201252] = {
+		oxy_max = 0,
+		type = 1,
+		name = "澤西",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 201252,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Jersey",
+		oxy_cost = 0,
+		skin_id = 201250,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			308,
+			18,
+			86,
+			36,
+			0,
+			74,
+			0,
+			71,
+			78,
+			43.2,
+			20,
+			65
+		},
+		attrs_growth = {
+			6040,
+			142,
+			680,
+			568,
+			0,
+			366,
+			0,
+			1050,
+			1158,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.35,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201253] = {
+		oxy_max = 0,
+		type = 1,
+		name = "澤西",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 201253,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Jersey",
+		oxy_cost = 0,
+		skin_id = 201250,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			429,
+			25,
+			120,
+			50,
+			0,
+			74,
+			0,
+			71,
+			78,
+			43.2,
+			20,
+			90
+		},
+		attrs_growth = {
+			6040,
+			142,
+			680,
+			568,
+			0,
+			366,
+			0,
+			1050,
+			1158,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.35,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201254] = {
+		oxy_max = 0,
+		type = 1,
+		name = "澤西",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 201254,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Jersey",
+		oxy_cost = 0,
+		skin_id = 201250,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			610,
+			35,
+			171,
+			72,
+			0,
+			74,
+			0,
+			71,
+			78,
+			43.2,
+			20,
+			129
+		},
+		attrs_growth = {
+			6040,
+			142,
+			680,
+			568,
+			0,
+			366,
+			0,
+			1050,
+			1158,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			6030,
+			331,
+			1210,
+			392,
+			0,
+			872,
+			0,
+			-615,
+			-878,
+			0,
+			0,
+			448
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.4,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
 	},
 	[202011] = {
 		oxy_max = 0,
@@ -111222,6 +114974,10 @@ pg.ship_data_statistics = {
 		103112,
 		103113,
 		103114,
+		103131,
+		103132,
+		103133,
+		103134,
 		105011,
 		105012,
 		105013,
@@ -111246,6 +115002,26 @@ pg.ship_data_statistics = {
 		105082,
 		105083,
 		105084,
+		105091,
+		105092,
+		105093,
+		105094,
+		105101,
+		105102,
+		105103,
+		105104,
+		105111,
+		105112,
+		105113,
+		105114,
+		105121,
+		105122,
+		105123,
+		105124,
+		105131,
+		105132,
+		105133,
+		105134,
 		105141,
 		105142,
 		105143,
@@ -111286,6 +115062,10 @@ pg.ship_data_statistics = {
 		107072,
 		107073,
 		107074,
+		107081,
+		107082,
+		107083,
+		107084,
 		112011,
 		112012,
 		112013,
@@ -111342,6 +115122,10 @@ pg.ship_data_statistics = {
 		201242,
 		201243,
 		201244,
+		201251,
+		201252,
+		201253,
+		201254,
 		202011,
 		202012,
 		202013,
