@@ -250,6 +250,11 @@ pg.player_resource = {
 		name = "xinrixi_pt",
 		itemid = 59147
 	},
+	[142] = {
+		id = 142,
+		name = "xunliandianshu_r",
+		itemid = 59148
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -311,7 +316,8 @@ pg.player_resource = {
 			141
 		},
 		xunliandianshu_r = {
-			140
+			140,
+			142
 		},
 		dashenling_pt = {
 			139
@@ -509,6 +515,7 @@ pg.player_resource = {
 		139,
 		140,
 		141,
+		142,
 		950,
 		1001,
 		2001,

@@ -808,6 +808,18 @@ function slot1(slot0)
 			slot6 = slot3
 			slot5 = slot3.GetContent
 			slot5 = slot5(slot6)
+			slot6 = PLATFORM_CODE
+			slot7 = PLATFORM_US
+
+			if slot6 ~= slot7 then
+				slot7 = slot5
+				slot6 = slot5.gsub
+				slot8 = "%s"
+				slot9 = " "
+				slot6 = slot6(slot7, slot8, slot9)
+				slot5 = slot6
+			end
+
 			slot6 = setText
 			slot8 = slot2
 			slot7 = slot2.Find
@@ -1047,6 +1059,18 @@ function slot1(slot0, slot1, slot2)
 			slot5 = slot3
 			slot4 = slot3.GetContent
 			slot4 = slot4(slot5)
+			slot5 = PLATFORM_CODE
+			slot6 = PLATFORM_US
+
+			if slot5 ~= slot6 then
+				slot6 = slot4
+				slot5 = slot4.gsub
+				slot7 = "%s"
+				slot8 = " "
+				slot5 = slot5(slot6, slot7, slot8)
+				slot4 = slot5
+			end
+
 			slot5 = setText
 			slot7 = slot2
 			slot6 = slot2.Find

@@ -88,6 +88,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>\"With this offering, we pray for a bright future for the Sakura Empire.\"</color>\nAvailable during the \"Swirling Cherry Blossoms\" event. ",
 		scene = {}
 	},
+	[306] = {
+		name = "Proof of Solidarity",
+		time_second = 0,
+		id = 306,
+		time_limit_type = 0,
+		desc = "Can be obtained during a subsequent event",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -99,7 +107,8 @@ pg.item_data_frame = {
 		302,
 		303,
 		304,
-		305
+		305,
+		306
 	}
 }
 

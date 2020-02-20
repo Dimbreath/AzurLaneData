@@ -37,6 +37,7 @@ end
 
 function ys.Battle.BattleSkillView.InitBtns(slot0)
 	slot0._skillBtnList = {}
+	slot0._activeBtnList = {}
 	slot0._fleetVO = slot0._mediator._dataProxy:GetFleetByIFF(slot0.Battle.BattleConfig.FRIENDLY_CODE)
 	slot0._chargeBtn = slot0.Battle.BattleWeaponButton.New()
 
@@ -123,9 +124,10 @@ function ys.Battle.BattleSkillView.InitBtns(slot0)
 
 		slot47 = slot42:GetComponent(typeof(Animator))
 
-		slot42:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
+		slot42:GetComponent(typeof(DftAniEvent)).SetEndEvent(slot48, function (slot0)
 			slot0.enabled = false
 		end)
+		table.insert(slot0._activeBtnList, slot0._subStriveBtn)
 	end
 
 	slot0._boostBtn:SetActive(false)
@@ -150,6 +152,9 @@ function ys.Battle.BattleSkillView.NormalButton(slot0)
 	slot0._floatBtn:SetActive(false)
 	slot0._specialBtn:SetActive(false)
 	slot0._shiftBtn:SetActive(false)
+	table.insert(slot0._activeBtnList, slot0._chargeBtn)
+	table.insert(slot0._activeBtnList, slot0._torpedoBtn)
+	table.insert(slot0._activeBtnList, slot0._airStrikeBtn)
 end
 
 function ys.Battle.BattleSkillView.SubmarineButton(slot0)
@@ -159,6 +164,10 @@ function ys.Battle.BattleSkillView.SubmarineButton(slot0)
 	slot0._boostBtn:SetActive(true)
 	slot0._diveBtn:SetActive(true)
 	slot0._floatBtn:SetActive(true)
+	table.insert(slot0._activeBtnList, slot0._diveBtn)
+	table.insert(slot0._activeBtnList, slot0._torpedoBtn)
+	table.insert(slot0._activeBtnList, slot0._boostBtn)
+	table.insert(slot0._activeBtnList, slot0._floatBtn)
 
 	slot0._torpedoBtn:GetSkin().transform.anchorMin = Vector2(slot0.SKILL_BUTTON_DEFAULT_PREFERENCE[2].x, slot0.SKILL_BUTTON_DEFAULT_PREFERENCE[2].y)
 	slot0._torpedoBtn.GetSkin().transform.anchorMax = Vector2(slot0.SKILL_BUTTON_DEFAULT_PREFERENCE[2].x, slot0.SKILL_BUTTON_DEFAULT_PREFERENCE[2].y)
@@ -173,6 +182,11 @@ function ys.Battle.BattleSkillView.SubRoutineButton(slot0)
 	slot0._floatBtn:SetActive(true)
 	slot0._specialBtn:SetActive(true)
 	slot0._shiftBtn:SetActive(true)
+	table.insert(slot0._activeBtnList, slot0._diveBtn)
+	table.insert(slot0._activeBtnList, slot0._torpedoBtn)
+	table.insert(slot0._activeBtnList, slot0._specialBtn)
+	table.insert(slot0._activeBtnList, slot0._floatBtn)
+	table.insert(slot0._activeBtnList, slot0._shiftBtn)
 	slot0:setSkillButtonPreferences(slot0._diveBtn:GetSkin(), 1)
 	slot0:setSkillButtonPreferences(slot0._floatBtn:GetSkin(), 1)
 	slot0:setSkillButtonPreferences(slot0._torpedoBtn:GetSkin(), 2)
@@ -181,8 +195,8 @@ function ys.Battle.BattleSkillView.SubRoutineButton(slot0)
 end
 
 function ys.Battle.BattleSkillView.HideSkillButton(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0._skillBtnList) do
-		slot6:SetHide(slot1)
+	for slot5, slot6 in ipairs(slot0._activeBtnList) do
+		slot6:SetActive(not slot1)
 	end
 end
 
@@ -197,6 +211,8 @@ function ys.Battle.BattleSkillView.OnSkillCd(slot0, slot1)
 end
 
 function ys.Battle.BattleSkillView.Dispose(slot0)
+	slot0._activeBtnList = nil
+
 	for slot4, slot5 in ipairs(slot0._skillBtnList) do
 		slot5:Dispose()
 	end

@@ -2090,11 +2090,11 @@ pg.skill_data_display = {
 	},
 	[12680] = {
 		id = 12680,
-		name = "风雨舞踏"
+		name = "Rain and Snow "
 	},
 	[12681] = {
 		id = 12681,
-		name = "风雨舞踏"
+		name = "Rain and Snow "
 	},
 	[12690] = {
 		id = 12690,

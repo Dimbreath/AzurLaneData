@@ -2447,21 +2447,21 @@ Current expansions: <color=#92fc63>$3</color>
 5. Paint can be obtained by completing event missions to consume a total amount of oil. 
 6. Completing pages in the Coloring Book will grant rewards. 
 7. The rewards for completing each page are as follows: 
-	 Complete Page 1: Random T3 Skill Book x2
-	 Complete Page 2: Red Envelope x1
-	 Complete Page 3: T3 Main Gun Part X2
-	 Complete Page 4: Red Envelope x1
-	 Complete Page 5: T3 General Part x3
-	 Complete Page 6: Red Envelope x1
-	 Complete Page 7: Dragon Empery DD - An Shan
+	 Complete Page 1: Random T2 Skill Book x2, Coins x300
+	 Complete Page 2: T2 Mystery Retrofit Blueprint x2, Oil x100
+	 Complete Page 3: T2 Mystery Gear Part x3, Coins x300
+	 Complete Page 4: T3 Offensive Skill Book x2, Oil x100
+	 Complete Page 5: T3 Defensive Skill Book, Coins x300
+	 Complete Page 6: T3 General Part, Oil x100
+	 Complete Page 7: Z23 skin - The Eyecatch in the Rye?
 8. Unlock an extra blank drawing page after completing the first 8 pages in the Coloring Book. 
 9. There are no restrictions on which colors can be used in the blank coloring page, and no paint will be consumed. 
 10. The "Eraser" and "Clear All" functions can be used on the extra blank page. 
 11. The "Eraser" tool can erase a single cell. 
 12. The "Clear All" function will erase all colored cells on the extra page. 
 13. After the event ends, all unused paint will be removed. 
-14. A new page will be unlocked every day until January 27th.
-15. The extra blank page will be available after January 28th.]]
+14. A new page will be unlocked every day until February 26th.
+15. The extra blank page will be available after February 27th.]]
 			}
 		}
 	},

@@ -6879,7 +6879,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 218,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -6981,7 +6981,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70313,
-		voice_actor = -1,
+		voice_actor = 218,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -12032,7 +12032,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 217,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -12134,7 +12134,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70310,
-		voice_actor = -1,
+		voice_actor = 217,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -43712,6 +43712,108 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[301159] = {
+		name = "Shigure (Retrofit)",
+		ship_group = 30115,
+		group_index = 9,
+		illustrator2 = -1,
+		desc = "Heheh~ Retrofitting the mighty Shigure proves that you are quite perceptive! Aren't you glad that you get to rely on me more, you lucky idiot of a commander~♪",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "shiyu_g",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 14,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = 2,
+		id = 301159,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "shiyu_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 13,
+		air_bomb_skin = "",
+		illustrator = 10,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.065,
+					1.181,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.069,
+					1.196,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.327,
+							2.24,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301160] = {
 		name = "Yukikaze ",
 		ship_group = 30116,
@@ -46022,6 +46124,115 @@ pg.ship_skin_template = {
 				{
 					1.014,
 					0.768,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.47,
+							2.29,
+							-0.99
+						}
+					}
+				}
+			}
+		}
+	},
+	[301269] = {
+		name = "Yuugure (Retrofit)",
+		ship_group = 30126,
+		group_index = 9,
+		illustrator2 = -1,
+		desc = "Ariake-class destroyer, Yuugure, has completed retrofitting. Ehehe, from now on... Ariake and I will be in your care once more, Commander.",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "ximu_g",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 14,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = 2,
+		id = 301269,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "ximu_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 51,
+		air_bomb_skin = "",
+		illustrator = 27,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.512,
+					0.78,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.513,
+					0.83,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.038,
+					-0.043,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.577,
+					0.804,
 					0
 				}
 			}
@@ -51325,7 +51536,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 217,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -51434,7 +51645,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70317,
-		voice_actor = -1,
+		voice_actor = 217,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -52363,14 +52574,14 @@ pg.ship_skin_template = {
 			cannon = {
 				{
 					1.09,
-					1.41,
+					1.07,
 					0
 				}
 			},
 			vicegun = {
 				{
 					1.17,
-					1.48,
+					1.094,
 					0
 				}
 			},
@@ -52384,7 +52595,7 @@ pg.ship_skin_template = {
 			antiaircraft = {
 				{
 					1.2,
-					1.53,
+					1.043,
 					0
 				}
 			}
@@ -52397,7 +52608,7 @@ pg.ship_skin_template = {
 						"smoke",
 						{
 							-0.46,
-							2.31,
+							2.202,
 							0
 						}
 					}
@@ -68474,6 +68685,115 @@ pg.ship_skin_template = {
 						{
 							-0.473,
 							2.485,
+							-0.38
+						}
+					}
+				}
+			}
+		}
+	},
+	[401237] = {
+		name = "The Eyecatch in the Rye?",
+		ship_group = 40123,
+		group_index = 7,
+		illustrator2 = -1,
+		desc = "Commander, please help hold onto the ladder. I've almost got the book... Just a little more... All right... C-Commander?! Please don't look up!",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "z23_6",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 9999,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = 0,
+		id = 401237,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "z23_6",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 3,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.07,
+					1.07,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.11,
+					1.02,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.01,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.07,
+					1.01,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.473,
+							2.15,
 							-0.38
 						}
 					}
@@ -97979,6 +98299,7 @@ pg.ship_skin_template = {
 			401233,
 			401234,
 			401236,
+			401237,
 			401239
 		},
 		[40121] = {
@@ -98374,7 +98695,8 @@ pg.ship_skin_template = {
 			301260,
 			301261,
 			301262,
-			301263
+			301263,
+			301269
 		},
 		[30125] = {
 			301250
@@ -98412,7 +98734,8 @@ pg.ship_skin_template = {
 		[30115] = {
 			301150,
 			301151,
-			301152
+			301152,
+			301159
 		},
 		[30114] = {
 			301140,
@@ -99578,6 +99901,7 @@ pg.ship_skin_template = {
 		301150,
 		301151,
 		301152,
+		301159,
 		301160,
 		301161,
 		301162,
@@ -99599,6 +99923,7 @@ pg.ship_skin_template = {
 		301261,
 		301262,
 		301263,
+		301269,
 		301270,
 		301280,
 		301300,
@@ -99806,6 +100131,7 @@ pg.ship_skin_template = {
 		401233,
 		401234,
 		401236,
+		401237,
 		401239,
 		401250,
 		401251,

@@ -863,6 +863,14 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Takeda Mariko",
 		code = 216
+	},
+	{
+		actor_name = "Komatsu Kaoru",
+		code = 217
+	},
+	{
+		actor_name = "Rika Momokawa",
+		code = 218
 	}
 }
 
