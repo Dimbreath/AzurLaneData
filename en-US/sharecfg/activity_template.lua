@@ -10678,6 +10678,7 @@ pg.activity_template = {
 	[30320] = {
 		mark = 20200206,
 		title_res_tag = "",
+		time = "stop",
 		type = 57,
 		login_pop = 0,
 		config_id = 6,
@@ -10685,38 +10686,12 @@ pg.activity_template = {
 		config_client = "",
 		bg = "",
 		id = 30320,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					2,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					2,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[30321] = {
 		mark = 20200214,
 		title_res_tag = "",
+		time = "stop",
 		type = 29,
 		login_pop = 0,
 		config_id = 15,
@@ -10726,33 +10701,6 @@ pg.activity_template = {
 		id = 30321,
 		config_data = {
 			31201
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					2,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					2,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[30322] = {
@@ -11480,6 +11428,218 @@ pg.activity_template = {
 					2020,
 					2,
 					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30336] = {
+		mark = 20200220,
+		title_res_tag = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 30336,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					2,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[30337] = {
+		mark = 20200220,
+		title_res_tag = "xunliandianshu_m",
+		type = 54,
+		login_pop = 0,
+		config_id = 30337,
+		is_show = 57,
+		config_client = "",
+		id = 30337,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					2,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_xunliandianshu_m"
+		}
+	},
+	[30338] = {
+		mark = 20200220,
+		title_res_tag = "z23tianse",
+		type = 43,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 30338,
+		config_data = {
+			{
+				47,
+				92589
+			},
+			{
+				48,
+				92590
+			},
+			{
+				49,
+				92591
+			},
+			{
+				50,
+				92592
+			},
+			{
+				51,
+				92593
+			},
+			{
+				52,
+				92594
+			},
+			{
+				53,
+				92595
+			},
+			{
+				54,
+				0
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					2,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_z23tianse"
+		}
+	},
+	[30339] = {
+		mark = 20200220,
+		title_res_tag = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 30339,
+		config_data = {
+			15350,
+			15351,
+			15352,
+			15353,
+			15354,
+			15355,
+			15356,
+			15357,
+			15358,
+			15359,
+			15360,
+			15361,
+			15362,
+			15363,
+			15364,
+			15365,
+			15366,
+			15367
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					2,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					5
 				},
 				{
 					23,
@@ -12494,6 +12654,10 @@ pg.activity_template = {
 		30333,
 		30334,
 		30335,
+		30336,
+		30337,
+		30338,
+		30339,
 		30500,
 		30501,
 		30502,

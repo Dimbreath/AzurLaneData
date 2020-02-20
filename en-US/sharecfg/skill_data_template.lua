@@ -26619,8 +26619,8 @@ pg.skill_data_template = {
 	},
 	[12680] = {
 		desc_get = "",
-		name = "风雨舞踏",
-		desc = "战斗开始时，若队伍中存在{namecode:22}，自身雷击属性提高$1，本场战斗中每20秒有$2概率发射一轮强力弹幕；若队伍中不存在{namecode:22}，本场战斗自身存活时，减少除自身外所有舰队成员受到的伤害$3，除自身外的舰队成员受到伤害导致耐久低于20%时，回复其$4耐久，回复效果每场战斗限1次",
+		name = "Rain and Snow ",
+		desc = "If Yukikaze is afloat in your fleet at the start of the battle, activates the following buffs: increases this ship's TRP by $1 and has a $2 chance to fire a powerful barrage every 20s; if Yukikaze is not in your fleet: as long as Shigure is afloat, decreases the DMG your ships (excluding this one) take by $3 and, once per battle when the HP of another ship in your fleet falls below 20.0%, restores $4 of said ship's max HP. ",
 		type = 3,
 		max_level = 10,
 		id = 12680,

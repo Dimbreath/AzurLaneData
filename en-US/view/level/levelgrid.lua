@@ -3384,7 +3384,7 @@ function slot5(slot0, slot1)
 					end
 				end
 			end
-		else
+		elseif slot8 then
 			slot9 = setActive
 			slot10 = slot8
 			slot11 = false
