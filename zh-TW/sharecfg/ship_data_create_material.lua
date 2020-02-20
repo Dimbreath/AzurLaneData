@@ -55,14 +55,14 @@ pg.ship_data_create_material = {
 		}
 	},
 	{
-		use_gold = 600,
+		use_gold = 1500,
 		name = "限時建造",
 		build_anim = "building",
 		type = 2,
 		ship_icon = "1",
 		build_voice = "",
 		use_item = 20001,
-		number_1 = 1,
+		number_1 = 2,
 		id = 4,
 		icon = "build_4",
 		rate_tip = {
