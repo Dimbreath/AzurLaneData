@@ -7234,7 +7234,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 218,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -7335,7 +7335,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70313,
-		voice_actor = -1,
+		voice_actor = 218,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -12442,7 +12442,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 217,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -12543,7 +12543,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70310,
-		voice_actor = -1,
+		voice_actor = 217,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -50612,7 +50612,7 @@ pg.ship_skin_template = {
 		bg_sp = "",
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "喵喵女仆，长月，闪亮登场！在这极具破坏力的女仆装面前，指挥官可要加油别被诱惑了哦！嘻嘻",
+		desc = "喵喵女仆，{namecode:160}，闪亮登场！在这极具破坏力的女仆装面前，指挥官可要加油别被诱惑了哦！嘻嘻",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "changyue_2",
@@ -53692,7 +53692,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 217,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -53780,7 +53780,7 @@ pg.ship_skin_template = {
 		bg_sp = "",
 		group_index = 1,
 		illustrator2 = -1,
-		desc = "是雪……！浦波已经准备好了…！出发！",
+		desc = "是雪……！{namecode:184}已经准备好了…！出发！",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "pubo_2",
@@ -53800,7 +53800,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70317,
-		voice_actor = -1,
+		voice_actor = 217,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -54721,14 +54721,14 @@ pg.ship_skin_template = {
 			cannon = {
 				{
 					1.09,
-					1.41,
+					1.07,
 					0
 				}
 			},
 			vicegun = {
 				{
 					1.17,
-					1.48,
+					1.094,
 					0
 				}
 			},
@@ -54742,7 +54742,7 @@ pg.ship_skin_template = {
 			antiaircraft = {
 				{
 					1.2,
-					1.53,
+					1.043,
 					0
 				}
 			}
@@ -54755,7 +54755,7 @@ pg.ship_skin_template = {
 						"smoke",
 						{
 							-0.46,
-							2.31,
+							2.202,
 							0
 						}
 					}
