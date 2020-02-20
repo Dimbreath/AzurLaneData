@@ -15,7 +15,7 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.init(slot0)
-	slot0.backBtn = slot0:findTF("top/back")
+	slot0.backBtn = slot0:findTF("BackBtn")
 	slot0.helpBtn = slot0:findTF("top/help_btn")
 	slot0.resetBtn = slot0:findTF("info/reset_button")
 	slot0.awardTxt = slot0:findTF("info/award_txt")
@@ -28,6 +28,11 @@ function slot0.init(slot0)
 	slot0.result = slot0:findTF("result")
 	slot0.countDown = slot0:findTF("count_down")
 	slot0.resource = slot0:findTF("resource")
+	slot0.bestTitleText = slot0:findTF("info/BestTitle")
+	slot0.curTitleText = slot0:findTF("info/CurTitle")
+
+	setText(slot0.bestTitleText, i18n("LinkLinkGame_BestTime"))
+	setText(slot0.curTitleText, i18n("LinkLinkGame_CurTime"))
 end
 
 function slot0.didEnter(slot0)
@@ -57,7 +62,17 @@ function slot0.SetPlayer(slot0, slot1)
 end
 
 function slot0.SetActivity(slot0, slot1)
-	return
+	slot0.activity = slot1
+	slot0.activityAchieved = slot1.data1
+	slot0.activityProgress = slot1.data2
+	slot0.activityStartTime = slot1.data3
+	slot0.activityBestRecord = slot1.data4
+	slot3 = pg.TimeMgr.GetInstance()
+	slot0.activityRestTimes = (slot3:DiffDay(slot0.activityStartTime, slot3:GetServerTime()) + 1) - slot0.activityProgress
+	slot0.activityRestTimes = math.clamp(slot0.activityRestTimes, 0, #slot0.activity:getConfig("config_client")[3] - slot0.activityProgress)
+
+	setText(slot0.awardTxt, (slot0.activityRestTimes > 0 and slot2[slot0.activityProgress + 1]) or 0)
+	setText(slot0.bestTxt, slot0:FormatRecordTime(slot0.activityBestRecord))
 end
 
 function slot0.SetState(slot0, slot1)

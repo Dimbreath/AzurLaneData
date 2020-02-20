@@ -104,6 +104,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「奉纳信仰，为重樱之未来祈愿光明」</color>\n「浮樱影华」活动获取",
 		scene = {}
 	},
+	[306] = {
+		name = "团结之证",
+		time_second = 0,
+		id = 306,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>通过后续活动获取</color>",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂纪念：企业",
 		time_second = 0,
@@ -142,6 +150,7 @@ pg.item_data_frame = {
 		303,
 		304,
 		305,
+		306,
 		401,
 		402,
 		404

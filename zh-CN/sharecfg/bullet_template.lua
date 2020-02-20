@@ -117691,63 +117691,7 @@ pg.bullet_template = {
 		extra_param = {},
 		push_power = {}
 	},
-	[9991114] = {
-		range_offset = 0,
-		modle_ID = "electricarc",
-		type = 12,
-		antisub_enhancement = 0,
-		nobreakdown_sfx = "",
-		alert_fx = "",
-		nobreakdown_fx = "huohua",
-		out_bound = 1,
-		miss_fx = "ShellMiss",
-		miss_sfx = "battle/sink",
-		hit_fx = "BlueHit",
-		range = 90,
-		effect_type = 1,
-		hit_sfx = "battle/hit",
-		track_fx = "",
-		pierce_count = 0,
-		ammo_type = 1,
-		id = 9991114,
-		velocity = 6,
-		damage_type = {
-			1,
-			0.8,
-			0.6
-		},
-		DMG_font = {
-			{
-				1,
-				1
-			},
-			{
-				1,
-				1
-			},
-			{
-				1,
-				1
-			}
-		},
-		acceleration = {},
-		cld_box = {
-			2,
-			2,
-			2
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		hit_type = {},
-		attach_buff = {},
-		extra_param = {},
-		push_power = {}
-	},
 	all = {
-		9991114,
 		100,
 		101,
 		102,

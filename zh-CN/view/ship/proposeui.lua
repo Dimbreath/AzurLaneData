@@ -3911,11 +3911,11 @@ function slot2(slot0, slot1)
 	function slot2()
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-14, warpins: 1 ---
-		slot0 = ResourceMgr
-		slot0 = slot0.Inst
-		slot1 = slot0
-		slot0 = slot0.AssetExist
+		--- BLOCK #0 1-15, warpins: 1 ---
+		slot0 = PathMgr
+		slot0 = slot0.FileExists
+		slot1 = PathMgr
+		slot1 = slot1.getAssetBundle
 		slot2 = "live2d/"
 		slot3 = string
 		slot3 = slot3.lower
@@ -3923,12 +3923,12 @@ function slot2(slot0, slot1)
 		slot4 = slot4.paintingName
 		slot3 = slot3(slot4)
 		slot2 = slot2 .. slot3
-		slot0 = slot0(slot1, slot2)
+		slot0 = slot0(slot1(slot2))
 
 		if slot0 then
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 15-20, warpins: 1 ---
+			--- BLOCK #0 16-21, warpins: 1 ---
 			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.showLive2D
@@ -3942,7 +3942,7 @@ function slot2(slot0, slot1)
 		else
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 21-26, warpins: 1 ---
+			--- BLOCK #0 22-27, warpins: 1 ---
 			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.showPainting
@@ -3963,7 +3963,7 @@ function slot2(slot0, slot1)
 
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #1 27-80, warpins: 2 ---
+		--- BLOCK #1 28-81, warpins: 2 ---
 		slot0 = ShipGroup
 		slot0 = slot0.getDefaultShipNameByGroupID
 		slot1 = slot0
@@ -4844,7 +4844,7 @@ function slot2(slot0, slot1, slot2, slot3)
 
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #2 58-79, warpins: 3 ---
+		--- BLOCK #2 58-80, warpins: 3 ---
 		slot6 = PoolMgr
 		slot6 = slot6.GetInstance
 		slot6 = slot6()
@@ -4964,22 +4964,22 @@ function slot2(slot0, slot1, slot2, slot3)
 
 		slot6(slot7, slot8, slot9, slot10)
 
-		slot6 = ResourceMgr
-		slot6 = slot6.Inst
-		slot7 = slot6
-		slot6 = slot6.AssetExist
+		slot6 = PathMgr
+		slot6 = slot6.FileExists
+		slot7 = PathMgr
+		slot7 = slot7.getAssetBundle
 		slot8 = "live2d/"
 		slot9 = string
 		slot9 = slot9.lower
 		slot10 = slot0.paintingName
 		slot9 = slot9(slot10)
 		slot8 = slot8 .. slot9
-		slot6 = slot6(slot7, slot8)
+		slot6 = slot6(slot7(slot8))
 
 		if slot6 then
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 80-84, warpins: 1 ---
+			--- BLOCK #0 81-85, warpins: 1 ---
 			slot7 = slot0
 			slot6 = slot0.createLive2D
 			slot8 = slot0.paintingName
@@ -4997,7 +4997,7 @@ function slot2(slot0, slot1, slot2, slot3)
 	else
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 85-86, warpins: 1 ---
+		--- BLOCK #0 86-87, warpins: 1 ---
 		slot5 = slot4
 
 		slot5()
@@ -5014,7 +5014,7 @@ function slot2(slot0, slot1, slot2, slot3)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #3 87-88, warpins: 3 ---
+	--- BLOCK #3 88-89, warpins: 3 ---
 	return
 	--- END OF BLOCK #3 ---
 

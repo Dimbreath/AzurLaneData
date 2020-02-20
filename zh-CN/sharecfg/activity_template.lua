@@ -2944,6 +2944,7 @@ pg.activity_template = {
 	[486] = {
 		mark = 20200206,
 		title_res_tag = "",
+		time = "stop",
 		type = 57,
 		login_pop = 0,
 		config_id = 6,
@@ -2951,38 +2952,12 @@ pg.activity_template = {
 		config_client = "",
 		bg = "",
 		id = 486,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					2,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					2,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[490] = {
 		mark = 20200214,
 		title_res_tag = "",
+		time = "stop",
 		type = 29,
 		login_pop = 0,
 		config_id = 15,
@@ -2992,33 +2967,6 @@ pg.activity_template = {
 		id = 490,
 		config_data = {
 			31201
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					2,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					2,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[491] = {
@@ -3060,6 +3008,167 @@ pg.activity_template = {
 		},
 		bg = {
 			"clutter/valentine_login"
+		}
+	},
+	[492] = {
+		mark = 20190220,
+		title_res_tag = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 492,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					2,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[493] = {
+		mark = 20190220,
+		title_res_tag = "xunliandianshu_m",
+		type = 54,
+		login_pop = 0,
+		config_id = 493,
+		is_show = 6,
+		config_client = "",
+		id = 493,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					2,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_xunliandianshu_m"
+		}
+	},
+	[494] = {
+		mark = 20200220,
+		title_res_tag = "shengdiyagefuke",
+		type = 45,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		id = 494,
+		config_data = {
+			{
+				{
+					59788,
+					18
+				}
+			},
+			8912,
+			{
+				8974,
+				8975,
+				8976,
+				8977,
+				8978,
+				8979,
+				8980
+			},
+			7
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					2,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_shengdiyagefuke"
+		},
+		config_client = {
+			{
+				"SHENGDIYAGEGAI1",
+				nil,
+				"SHENGDIYAGEGAI2",
+				nil,
+				"SHENGDIYAGEGAI3",
+				nil,
+				nil,
+				"SHENGDIYAGEGAI4"
+			},
+			{},
+			{
+				1,
+				1,
+				1,
+				1,
+				2,
+				3,
+				9
+			},
+			{}
 		}
 	},
 	[2001] = {
@@ -3877,6 +3986,9 @@ pg.activity_template = {
 		486,
 		490,
 		491,
+		492,
+		493,
+		494,
 		2001,
 		2002,
 		2003,

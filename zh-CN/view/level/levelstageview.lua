@@ -3771,8 +3771,19 @@ function slot0.tryAutoAction(slot0, slot1)
 						if slot0:getSpAppearGuide() and #slot0 > 0 then
 
 							-- Decompilation error in this vicinity:
-							--- BLOCK #0 11-23, warpins: 1 ---
-							pg.GuideMgr.GetInstance():play(slot0, nil, onNextTick(pg.GuideMgr.GetInstance().play))
+							--- BLOCK #0 11-21, warpins: 1 ---
+							pg.SystemGuideMgr.GetInstance():PlayByGuideId(slot0, nil, function ()
+
+								-- Decompilation error in this vicinity:
+								--- BLOCK #0 1-4, warpins: 1 ---
+								onNextTick(onNextTick)
+
+								return
+								--- END OF BLOCK #0 ---
+
+
+
+							end)
 							--- END OF BLOCK #0 ---
 
 
@@ -3780,7 +3791,7 @@ function slot0.tryAutoAction(slot0, slot1)
 						else
 
 							-- Decompilation error in this vicinity:
-							--- BLOCK #0 24-26, warpins: 2 ---
+							--- BLOCK #0 22-24, warpins: 2 ---
 							onNextTick(onNextTick)
 							--- END OF BLOCK #0 ---
 
@@ -3795,7 +3806,7 @@ function slot0.tryAutoAction(slot0, slot1)
 
 
 						-- Decompilation error in this vicinity:
-						--- BLOCK #1 27-27, warpins: 2 ---
+						--- BLOCK #1 25-25, warpins: 2 ---
 						return
 						--- END OF BLOCK #1 ---
 
