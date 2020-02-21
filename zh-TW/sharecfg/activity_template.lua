@@ -3971,8 +3971,8 @@ pg.activity_template = {
 			{
 				{
 					2020,
-					3,
-					5
+					2,
+					20
 				},
 				{
 					23,
@@ -4017,6 +4017,45 @@ pg.activity_template = {
 					2020,
 					2,
 					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40085] = {
+		mark = 20200207,
+		title_res_tag = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 5,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 40085,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					2,
+					21
 				},
 				{
 					0,
@@ -4164,6 +4203,7 @@ pg.activity_template = {
 		40081,
 		40082,
 		40083,
+		40085,
 		45000
 	}
 }

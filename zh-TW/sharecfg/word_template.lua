@@ -21220,11 +21220,6 @@ pg.word_template = {
 				}
 			}
 		},
-		盛 = {
-			顿 = {
-				this = true
-			}
-		},
 		雪 = {
 			和 = {
 				新 = {
@@ -46331,11 +46326,6 @@ pg.word_template = {
 						this = true
 					}
 				}
-			}
-		},
-		盛 = {
-			頓 = {
-				this = true
 			}
 		},
 		語 = {

@@ -8425,7 +8425,7 @@ $3]],
 		key = "amercian_notice_2"
 	},
 	amercian_notice_3 = {
-		tip = "獎勵獲取時間：2019.1.24~2.20",
+		tip = "獎勵獲取時間：2020.2.21~3.11",
 		key = "amercian_notice_3"
 	},
 	amercian_notice_4 = {
