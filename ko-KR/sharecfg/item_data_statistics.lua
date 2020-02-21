@@ -18804,17 +18804,17 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[50004] = {
-		display = "모두가 좋아하는 전통 음식! <color=#92fc63>(60분간 경험치 5% 증가)</color> ",
+		display = "사랑을 듬뿍 담은 초콜렛이 더 잘 어울리네요~<color=#92fc63>(60분간 경험치 5% 증가)</color> ",
 		rarity = 2,
 		type = 3,
-		name = "만두 ",
+		name = "하트 초콜렛 ",
 		shop_id = 50007,
 		shiptrans_id = 0,
 		virtual_type = 0,
 		replace_item = 0,
 		link_id = 0,
 		id = 50004,
-		icon = "Props/dumpling",
+		icon = "Props/chocolate",
 		display_icon = {},
 		price = {
 			1,
