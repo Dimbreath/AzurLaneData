@@ -2246,6 +2246,236 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[162] = {
+		advice = 0,
+		describe = "쿵푸차 나왔습니다…쥬!",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "찻물 만쥬",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "chuanju_jiuicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 162,
+		picture = "chuanmo/chuanju_jiu",
+		comfortable = 5,
+		tag = 6,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[163] = {
+		advice = 0,
+		describe = "각양각색의 가면. 대체 어떻게 변하는 걸까?",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "가면 벽장식",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "chuanju_bianlianicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 163,
+		picture = "",
+		comfortable = 5,
+		tag = 6,
+		size = {
+			14,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chuanju_bianlianB",
+				"normal"
+			},
+			{
+				"chuanju_bianlianT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"chuanju_bianlianCharControl"
+			},
+			[3] = {
+				{
+					73,
+					80
+				},
+				{
+					55.5,
+					-18.9
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[164] = {
+		advice = 0,
+		describe = "차를 곁들인 연극이라니, 호화롭다 쥬!",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "무대 탁자",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "chuanju_chazhuoicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 164,
+		picture = "",
+		comfortable = 5,
+		tag = 6,
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chuanju_chazhuoB",
+				"normal"
+			},
+			{
+				"chuanju_chazhuoT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_action_replace = {
+			{
+				"sit",
+				{
+					202153
+				},
+				"fengcha"
+			}
+		},
+		animator = {
+			{
+				"chuanju_chazhuoCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[165] = {
+		advice = 0,
+		describe = "두두두두둥~ 내 변검을 보라 쥬!",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "천극 무대",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "chuanju_faceicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 165,
+		picture = "chuanmo/chuanju_face",
+		comfortable = 5,
+		tag = 6,
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		advice = 0,
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
@@ -62379,6 +62609,10 @@ pg.furniture_data_template = {
 		155,
 		157,
 		160,
+		162,
+		163,
+		164,
+		165,
 		100002,
 		100003,
 		100004,

@@ -576,7 +576,7 @@ pg.expedition_data_by_map = {
 		bg = "map_10",
 		destory_icon_suffix = "blue",
 		animtor = 0,
-		bind_map = 0,
+		bind_map = 210,
 		clouds_pos = {
 			{
 				76,
@@ -1135,6 +1135,51 @@ pg.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		animtor = 0,
 		bind_map = 9,
+		clouds_pos = {
+			{
+				76,
+				263
+			},
+			{
+				881,
+				44
+			},
+			{
+				23,
+				-143
+			},
+			{
+				473,
+				163
+			},
+			{
+				514,
+				-245
+			},
+			{
+				830,
+				-109
+			}
+		}
+	},
+	[210] = {
+		map = 210,
+		name = "콜롬방가라섬의 야전",
+		bgm = "level",
+		type = 2,
+		on_activity = 0,
+		title = "10",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 45,
+		uifx = "UIhuohua2",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "purple",
+		bg = "Map_210",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 10,
 		clouds_pos = {
 			{
 				76,
@@ -5484,6 +5529,7 @@ pg.expedition_data_by_map = {
 		207,
 		208,
 		209,
+		210,
 		10000,
 		70000,
 		1040000,

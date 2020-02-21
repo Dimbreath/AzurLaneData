@@ -22003,6 +22003,119 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[201022] = {
+		name = "대보름의 등불축제",
+		bullet_skin_main = "",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "음… 이스트 글림의 대보름은 이렇게 등불을 잔뜩 거는 것이라고 들었는데… 열렬한 꼬드김에 못이겨서 해봤어… 어때, 괜찮을까? … 물론 등불을 말하는 거지만…",
+		bullet_skin_secondary = "",
+		ship_group = 20102,
+		painting = "akasita_3",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 9999,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "102",
+		isSwimsuit = 0,
+		skin_type = 0,
+		id = 201022,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "akasita_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70315,
+		voice_actor = 110,
+		air_bomb_skin = "",
+		illustrator = 38,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.108,
+					0.97,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.117,
+					0.921,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.027,
+					-0.005,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.087,
+					1.027,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.591,
+							2.235,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[201029] = {
 		name = "아카스타·改",
 		bullet_skin_main = "",
@@ -25079,7 +25192,7 @@ pg.ship_skin_template = {
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bgm = "",
-		bg = "",
+		bg = "109",
 		isSwimsuit = 0,
 		skin_type = 4,
 		id = 201215,
@@ -30303,6 +30416,155 @@ pg.ship_skin_template = {
 						}
 					}
 				}
+			}
+		}
+	},
+	[202153] = {
+		name = "투성의 비기",
+		bullet_skin_main = "",
+		group_index = 3,
+		illustrator2 = -1,
+		desc = "‘다음은 오로라가 이스트 글림에 내려오는 비기, 천극 변검을 선보이겠습니다! 채널 고정, 잊지 마세요!’ ——우후후, 지휘관님. 이런 느낌은 어떠신가요?",
+		bullet_skin_secondary = "",
+		ship_group = 20215,
+		painting = "ouruola_4",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 9999,
+		hand_id = 1,
+		lip_smoothing = 0,
+		bgm = "",
+		bg = "128",
+		isSwimsuit = 0,
+		skin_type = 0,
+		id = 202153,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "ouruola_4",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70314,
+		voice_actor = 90,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		isHX = 0,
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			4
+		},
+		live2d_offset = {
+			48,
+			-169,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.1,
+					1.08,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.11,
+					1.08,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.03,
+					0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.09,
+					1.07,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.47,
+							2.2,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			main_2 = 0,
+			login = 12.58,
+			main_1 = 0.73,
+			mission_complete = 1.58,
+			expendition = 1.67,
+			propose = 5,
+			home = 3.68,
+			mission = 1.77,
+			touch2 = 6,
+			mail = 1.78,
+			touch = 0,
+			main_3 = 0.58
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-30,
+				30
+			},
+			ParamBodyAngleX = {
+				-5,
+				5
 			}
 		}
 	},
@@ -103673,7 +103935,8 @@ pg.ship_skin_template = {
 		[20215] = {
 			202150,
 			202151,
-			202152
+			202152,
+			202153
 		},
 		[20214] = {
 			202140
@@ -103806,6 +104069,7 @@ pg.ship_skin_template = {
 		[20102] = {
 			201020,
 			201021,
+			201022,
 			201029
 		},
 		[20101] = {
@@ -104418,6 +104682,7 @@ pg.ship_skin_template = {
 		201019,
 		201020,
 		201021,
+		201022,
 		201029,
 		201030,
 		201039,
@@ -104490,6 +104755,7 @@ pg.ship_skin_template = {
 		202150,
 		202151,
 		202152,
+		202153,
 		202160,
 		202170,
 		202171,

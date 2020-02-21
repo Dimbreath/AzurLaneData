@@ -21371,6 +21371,108 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70314] = {
+		group_type = 0,
+		resource_num = 1100,
+		desc = "购买皮肤：欧若拉川剧皮肤",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 775,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 70314,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			202153
+		},
+		time = {
+			{
+				{
+					2020,
+					2,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70315] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：阿卡斯塔元宵节",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 775,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 70315,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			201022
+		},
+		time = {
+			{
+				{
+					2020,
+					2,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[70316] = {
 		group_type = 0,
 		resource_num = 780,
@@ -23423,6 +23525,8 @@ pg.shop_template = {
 		70311,
 		70312,
 		70313,
+		70314,
+		70315,
 		70316,
 		70317,
 		90001,

@@ -12841,6 +12841,7 @@ pg.activity_template = {
 	[20378] = {
 		mark = 20200214,
 		title_res_tag = "",
+		time = "stop",
 		type = 29,
 		login_pop = 0,
 		config_id = 15,
@@ -12850,33 +12851,6 @@ pg.activity_template = {
 		id = 20378,
 		config_data = {
 			31201
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					2,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					2,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[20379] = {
@@ -12918,6 +12892,86 @@ pg.activity_template = {
 		},
 		bg = {
 			"clutter/valentine_login"
+		}
+	},
+	[20380] = {
+		mark = 20200220,
+		title_res_tag = "chuanjudenglu",
+		type = 3,
+		login_pop = 3,
+		config_id = 16,
+		is_show = 52,
+		config_client = "",
+		id = 20380,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					2,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/chuanju_login"
+		}
+	},
+	[20381] = {
+		mark = 20200220,
+		title_res_tag = "",
+		type = 57,
+		login_pop = 0,
+		config_id = 6,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 20381,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					2,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[25000] = {
@@ -13828,6 +13882,8 @@ pg.activity_template = {
 		20377,
 		20378,
 		20379,
+		20380,
+		20381,
 		25000,
 		25001,
 		25002,
