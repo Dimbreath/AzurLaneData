@@ -25,7 +25,7 @@ function slot0.PackData(slot0)
 
 	if slot0:GetMGData():GetRuntimeData("elements") and #slot3 > 0 then
 		slot4 = _.slice(slot3, 1, slot1)
-		slot5 = _.slice(slot3, slot1 + 1, #slot3 - slot1)
+		slot5 = _.slice(slot3, slot1 + 1, slot2.usedtime)
 	else
 		slot4 = {}
 

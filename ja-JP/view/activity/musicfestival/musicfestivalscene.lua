@@ -316,9 +316,9 @@ function slot0.UpdateView(slot0)
 	--- BLOCK #1 21-36, warpins: 3 ---
 	setActive(slot0._modeltip, slot3)
 	setActive(slot0.btn_actskin:Find("tip"), slot1:getActivityById(ActivityConst.MUSIC_CHUIXUE7DAY_ID) and not slot5:isEnd() and slot5:readyToAchieve())
-	setActive(slot0.btn_ins:Find("tip"), slot1:getActivityById(ActivityConst.IDOL_INS_ID) and not slot7:isEnd() and slot7:ShouldShowTip())
-	setActive(slot8, slot1.getActivityById(ActivityConst.IDOL_INS_ID) and not slot7.isEnd() and slot7.ShouldShowTip())
-	setActive(slot9, slot1.getActivityById(ActivityConst.IDOL_INS_ID) and not slot7.isEnd() and slot7.ShouldShowTip())
+	setActive(slot6, slot7)
+	setActive(slot8, slot7)
+	setActive(slot9, slot7)
 	setActive(slot0.stage:Find("tip"), getProxy(MiniGameProxy).GetHubByHubId(slot11, slot0.HUB_ID).count > 0)
 
 	return
@@ -329,7 +329,7 @@ function slot0.UpdateView(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #2 50-65, warpins: 4 ---
+	--- BLOCK #2 50-110, warpins: 4 ---
 	--- END OF BLOCK #2 ---
 
 	FLOW; TARGET BLOCK #3
@@ -337,16 +337,8 @@ function slot0.UpdateView(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #3 79-124, warpins: 4 ---
+	--- BLOCK #3 114-118, warpins: 2 ---
 	--- END OF BLOCK #3 ---
-
-	FLOW; TARGET BLOCK #4
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #4 128-132, warpins: 2 ---
-	--- END OF BLOCK #4 ---
 
 
 

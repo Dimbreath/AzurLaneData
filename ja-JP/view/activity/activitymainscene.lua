@@ -410,6 +410,22 @@ slot1 = {
 	[ActivityConst.SICHUANOPERA] = {
 		className = "SiChuanOperaPage",
 		uiName = "SichuanOperaPage"
+	},
+	[ActivityConst.VALENTINE] = {
+		className = "ValentinePage",
+		uiName = "ValentinePage"
+	},
+	[ActivityConst.CARD_PAIR_FX_PAGE] = {
+		className = "CardPairFXPage",
+		uiName = "CardPairFXPage"
+	},
+	[ActivityConst.MAOZI_PT] = {
+		className = "MaoziPtPage",
+		uiName = "MaoziPtPage"
+	},
+	[ActivityConst.SANDIEGO_REFORM_RE] = {
+		className = "SandiegoReformPage",
+		uiName = "sandiegoreformpage"
 	}
 }
 slot2 = {

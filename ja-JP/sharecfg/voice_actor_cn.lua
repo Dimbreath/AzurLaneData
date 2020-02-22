@@ -843,6 +843,14 @@ pg.voice_actor_CN = {
 	[216] = {
 		actor_name = "たけだまりこ",
 		code = 216
+	},
+	[217] = {
+		actor_name = "小松郁",
+		code = 217
+	},
+	[218] = {
+		actor_name = "桃河りか",
+		code = 218
 	}
 }
 

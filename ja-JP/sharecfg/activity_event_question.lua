@@ -77,7 +77,7 @@ pg.activity_event_question = {
 		type = 2,
 		id = 8,
 		wrong_time = 300,
-		answer_false3 = "ウイチタ",
+		answer_false3 = "ウィチタ",
 		answer_false2 = "ロンドン "
 	},
 	{
