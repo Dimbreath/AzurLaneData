@@ -2590,6 +2590,236 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[162] = {
+		advice = 0,
+		describe = "東煌仕込みの茶芸をお見せするピョ！",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "茶芸饅頭",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "chuanju_jiuicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 162,
+		picture = "chuanmo/chuanju_jiu",
+		comfortable = 5,
+		tag = 6,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[163] = {
+		advice = 0,
+		describe = "饅頭劇団が変顔を披露するピョ！",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "梨園饅頭",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "chuanju_bianlianicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 163,
+		picture = "",
+		comfortable = 5,
+		tag = 6,
+		size = {
+			14,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chuanju_bianlianB",
+				"normal"
+			},
+			{
+				"chuanju_bianlianT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"chuanju_bianlianCharControl"
+			},
+			[3] = {
+				{
+					73,
+					80
+				},
+				{
+					55.5,
+					-18.9
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[164] = {
+		advice = 0,
+		describe = "お茶を飲みながら劇を楽しむ――活神仙（生き仙人）の生活だピョ！",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "饅頭観劇席",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "chuanju_chazhuoicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 164,
+		picture = "",
+		comfortable = 5,
+		tag = 6,
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chuanju_chazhuoB",
+				"normal"
+			},
+			{
+				"chuanju_chazhuoT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_action_replace = {
+			{
+				"sit",
+				{
+					202153
+				},
+				"fengcha"
+			}
+		},
+		animator = {
+			{
+				"chuanju_chazhuoCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[165] = {
+		advice = 0,
+		describe = "実際使用されている臉譜（れんぷ＝隈取）が展示されている",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "臉譜展示",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "chuanju_faceicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 165,
+		picture = "chuanmo/chuanju_face",
+		comfortable = 5,
+		tag = 6,
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		advice = 0,
 		describe = "ゆゆゆ友情パワーだぴょぴょぴょぴょ………",
@@ -62963,6 +63193,1007 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[59001] = {
+		advice = 0,
+		describe = "白とピンク基調の甘々フロア",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "スウィーティーフロア",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 59,
+		icon = "dibanvt2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 59001,
+		picture = "valentine2/dibanvt2",
+		comfortable = 4,
+		tag = 4,
+		size = {
+			2,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59002] = {
+		advice = 0,
+		describe = "ピンク基調の美味しそうな壁紙",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "スウィーティーウォール",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 59,
+		icon = "qiangbivt2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 59002,
+		picture = "valentine2/qiangbivt2",
+		comfortable = 4,
+		tag = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59101] = {
+		advice = 0,
+		describe = "「冷蔵庫そのものが糖分に見えるデザインだよ…」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "スウィーティーフリッジ",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 59,
+		icon = "bingxiangvt2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 59101,
+		picture = "valentine2/bingxiangvt2",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59102] = {
+		advice = 0,
+		describe = "ヘッドボードが饅頭になっている可愛らしいダブルベッド",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "ピンクダブルベッド",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 59,
+		icon = "chuangvt2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 59102,
+		picture = "valentine2/chuangvt2",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-46.2,
+					-7.8
+				},
+				{
+					1,
+					1
+				},
+				"valentine2/chuangvt2_using"
+			},
+			{
+				"sleep",
+				{
+					42,
+					-45
+				},
+				{
+					1,
+					1
+				},
+				"valentine2/chuangvt2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59103] = {
+		advice = 0,
+		describe = "全然柔らかくないが、座ると柔らかい気持ちになるらしい",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "クリームチェア",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 59,
+		icon = "dengzivt2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 59103,
+		picture = "valentine2/dengzivt2",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-21,
+					15
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59104] = {
+		advice = 0,
+		describe = "可愛らしいデザインの収納",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "スウィーティー収納",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 59,
+		icon = "guizivt2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 59104,
+		picture = "valentine2/guizivt2",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59105] = {
+		advice = 0,
+		describe = "艦船と指揮官をダメにする饅頭クッション。なぜか顔が不機嫌",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "饅頭ビーズクッション",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 59,
+		icon = "lanyivt2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 59105,
+		picture = "valentine2/lanyivt2",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					21,
+					15
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59106] = {
+		advice = 0,
+		describe = "貴方と一緒に愛の階段を登りたい――",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "ロマンの階段",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 59,
+		icon = "loutivt2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 59106,
+		picture = "valentine2/loutivt2",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59107] = {
+		advice = 0,
+		describe = "あなたの愛を備え付けの饅頭が代わりに伝えてくれる…らしい",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "ハートガーデン饅頭",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 59,
+		icon = "meiguivt2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 59107,
+		picture = "valentine2/meiguivt2",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59108] = {
+		advice = 0,
+		describe = "饅頭が楽しそうにバルーンの中で微笑んでいる",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "バルーン饅頭",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 59,
+		icon = "qiqiuvt2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 59108,
+		picture = "valentine2/qiqiuvt2",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59109] = {
+		advice = 0,
+		describe = "負けた人は今日の日直だぞー",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "飛行機チェス",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 59,
+		icon = "qizivt2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 59109,
+		picture = "valentine2/qizivt2",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59110] = {
+		advice = 0,
+		describe = "今日のデートはどの服で行こうかな？",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "ロマンクローゼット",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 59,
+		icon = "yiguivt2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 59110,
+		picture = "valentine2/yiguivt2",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			7,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59111] = {
+		advice = 0,
+		describe = "艦船と指揮官をダメにする饅頭クッション。顔が普通で安心できる",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "饅頭ビーズソファ",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 59,
+		icon = "yizi2vt2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 59111,
+		picture = "valentine2/yizi2vt2",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					9,
+					38
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59112] = {
+		advice = 0,
+		describe = "「どれ、このウォースパイトの修行をシミュレーションしてやろう」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "舟形バスセット",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 59,
+		icon = "zaopengvt2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 59112,
+		picture = "valentine2/zaopengvt2",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-60,
+					-25
+				},
+				{
+					1,
+					1
+				},
+				"valentine2/zaopengvt2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59113] = {
+		advice = 0,
+		describe = "一緒に作業すると効率が上がりそうなオフィスセット",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "ツインズワークショップ",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 59,
+		icon = "zhuozi2vt2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 59113,
+		picture = "valentine2/zhuozi2vt2",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-60,
+					-10
+				},
+				{
+					-1,
+					1
+				},
+				"valentine2/zhuozi2vt2_using"
+			},
+			{
+				"sit",
+				{
+					78,
+					0
+				},
+				{
+					1,
+					1
+				},
+				"valentine2/zhuozi2vt2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59114] = {
+		advice = 0,
+		describe = "特別なディナーを貴方にお届け！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "パーティーの食卓",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 59,
+		icon = "zhuozivt2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 59114,
+		picture = "valentine2/zhuozivt2",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59115] = {
+		advice = 0,
+		describe = "指輪を渡される逆シチュエーションも狙い目？！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "指輪のSP箱",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 59,
+		icon = "jiezhivt2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 59115,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"duijie",
+				"normal",
+				{
+					"action",
+					flase
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[59116] = {
+		advice = 0,
+		describe = "回るメリーゴーランド。守ってくれるあの子とともに",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "メリーゴーランド",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 59,
+		icon = "mumavt2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		id = 59116,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xuanzhuanmumaB",
+				"normal"
+			},
+			{
+				"xuanzhuanmumaT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"xuanzhuanmumaCharcontrol",
+				"xuanzhuanmumaCharcontrol2"
+			}
+		},
+		interAction_group = {}
+	},
+	[59117] = {
+		advice = 0,
+		describe = "愛の天使饅頭が祝福してくれると言われている",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "饅頭オラクル",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 59,
+		icon = "tingzivt2icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		id = 59117,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xiaotingziB",
+				"normal"
+			},
+			{
+				"xiaotingziT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"xiaotingziCharControl",
+				"xiaotingziCharControl2"
+			}
+		},
+		interAction_group = {}
+	},
+	[59301] = {
+		advice = 0,
+		describe = "饅頭が愛の記念品を管理してくれる",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "ハート壁収納",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 59,
+		icon = "aixinvt2icon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 59301,
+		picture = "valentine2/aixinvt2",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59302] = {
+		advice = 0,
+		describe = "カーテンを開くと每日がいい天気！",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "スウィーティーバルコニー",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 59,
+		icon = "chuanghuvt2icon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 59302,
+		picture = "valentine2/chuanghuvt2",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[59303] = {
+		advice = 0,
+		describe = "愛の大勝利！",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "LOVE壁収納",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 59,
+		icon = "lovevt2icon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 4,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 59303,
+		picture = "valentine2/lovevt2",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -63021,6 +64252,10 @@ pg.furniture_data_template = {
 		155,
 		157,
 		160,
+		162,
+		163,
+		164,
+		165,
 		100002,
 		100003,
 		100004,
@@ -64415,7 +65650,29 @@ pg.furniture_data_template = {
 		58301,
 		58302,
 		58303,
-		58304
+		58304,
+		59001,
+		59002,
+		59101,
+		59102,
+		59103,
+		59104,
+		59105,
+		59106,
+		59107,
+		59108,
+		59109,
+		59110,
+		59111,
+		59112,
+		59113,
+		59114,
+		59115,
+		59116,
+		59117,
+		59301,
+		59302,
+		59303
 	}
 }
 

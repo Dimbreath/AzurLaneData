@@ -32,6 +32,7 @@ function slot5.Init(slot0)
 	slot0._aircraftList = {}
 	slot0._areaList = {}
 	slot0._shelterList = {}
+	slot0._arcEffectList = {}
 	slot0._bulletContainer = GameObject.Find("BulletContainer")
 	slot0._fxPool = slot0.Battle.BattleFXPool.GetInstance()
 
@@ -289,6 +290,10 @@ function slot5.Update(slot0)
 		slot5:Update()
 	end
 
+	for slot4, slot5 in ipairs(slot0._arcEffectList) do
+		slot5:Update()
+	end
+
 	slot0._popNumPool:Update()
 	slot0:UpdateAntiAirArea()
 	slot0:UpdateFlagShipMark()
@@ -325,10 +330,22 @@ function slot5.Pause(slot0)
 			slot6[slot10]:Pause()
 		end
 	end
+
+	for slot4, slot5 in ipairs(slot0._arcEffectList) do
+		for slot10 = 0, slot5._go:GetComponentsInChildren(typeof(ParticleSystem)).Length - 1, 1 do
+			slot6[slot10]:Pause()
+		end
+	end
 end
 
 function slot5.Resume(slot0)
 	for slot4, slot5 in pairs(slot0._areaList) do
+		for slot10 = 0, slot5._go:GetComponentsInChildren(typeof(ParticleSystem)).Length - 1, 1 do
+			slot6[slot10]:Play()
+		end
+	end
+
+	for slot4, slot5 in ipairs(slot0._arcEffectList) do
 		for slot10 = 0, slot5._go:GetComponentsInChildren(typeof(ParticleSystem)).Length - 1, 1 do
 			slot6[slot10]:Play()
 		end
@@ -471,6 +488,24 @@ function slot5.RemoveArea(slot0, slot1)
 	end
 end
 
+function slot5.AddArcEffect(slot0, slot1, slot2, slot3)
+	pg.EffectMgr.GetInstance():PlayBattleEffect(slot4, Vector3.zero, true, function ()
+		slot0:RemoveArcEffect(slot0)
+	end)
+	table.insert(slot0._arcEffectList, slot0.Battle.BattleArcEffect.New(slot4, slot2, slot3))
+end
+
+function slot5.RemoveArcEffect(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0._arcEffectList) do
+		if slot6 == slot1 then
+			slot6:Dispose()
+			table.remove(slot0._arcEffectList, slot5)
+
+			break
+		end
+	end
+end
+
 function slot5.Reinitialize(slot0)
 	slot0:Clear()
 	slot0:Init()
@@ -525,6 +560,12 @@ function slot5.Clear(slot0)
 	end
 
 	slot0._areaList = nil
+
+	for slot5, slot6 in ipairs(slot0._arcEffectList) do
+		slot6:Dispose()
+	end
+
+	slot0._arcEffectList = nil
 
 	slot0.Battle.BattleCharacterFXContainersPool.GetInstance():Clear()
 	slot0._popNumPool:Clear()

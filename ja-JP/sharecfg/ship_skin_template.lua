@@ -7124,7 +7124,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 218,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -7225,7 +7225,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70313,
-		voice_actor = -1,
+		voice_actor = 218,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -9494,6 +9494,116 @@ pg.ship_skin_template = {
 						{
 							0.53,
 							0.47,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[102101] = {
+		ship_group = 10210,
+		name = "下校前のオデット",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "指揮官、ほら、私の手作りチョコだよ～もう、焦らさないで早く受け取って？王子様待ちってのはそこそこ恥ずかしいんだよ？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "gelunbiya_2",
+		air_bullet_skin = "",
+		shop_type_id = 4,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "103",
+		skin_type = 0,
+		id = 102101,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "gelunbiya_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70318,
+		voice_actor = 40,
+		air_bomb_skin = "",
+		illustrator = 8,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.14,
+					1.07,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.09,
+					1.04,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.08,
+					1.07,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.02,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.03,
 							0
 						}
 					}
@@ -12227,7 +12337,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 217,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -12328,7 +12438,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70310,
-		voice_actor = -1,
+		voice_actor = 217,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -21837,6 +21947,116 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[201031] = {
+		ship_group = 20103,
+		name = "バレンタインの熱心",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "えへへ、どうかな指揮官？制服姿のアーデントと、アーデントの作ったチョコレート――「可愛い」だけだとどっちなのかわからないよ…",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "rexin_2",
+		air_bullet_skin = "",
+		shop_type_id = 4,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "103",
+		skin_type = 0,
+		id = 201031,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "rexin_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70319,
+		voice_actor = 111,
+		air_bomb_skin = "",
+		illustrator = 38,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.09,
+					1.08,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.09,
+					1.01,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.03,
+					0.02,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.14,
+					1.01,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.16,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[201039] = {
 		ship_group = 20103,
 		name = "アーデント改",
@@ -24592,6 +24812,107 @@ pg.ship_skin_template = {
 						{
 							-0.43,
 							2.5,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201215] = {
+		ship_group = 20121,
+		name = "枕投げ大戦！",
+		bg_sp = "",
+		group_index = 5,
+		illustrator2 = -1,
+		desc = "ラフィーちゃん、ニーミちゃん、綾波ちゃん、ユニコーンちゃんも！えへへ、今日は絶対に負けないよ～",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "biaoqiang_7",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "109",
+		skin_type = 4,
+		id = 201215,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "biaoqiang_7",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 23,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.735,
+					0.871,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.007,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.72,
+					0.863,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.559,
+							2.269,
 							0
 						}
 					}
@@ -29823,6 +30144,153 @@ pg.ship_skin_template = {
 						}
 					}
 				}
+			}
+		}
+	},
+	[202153] = {
+		ship_group = 20215,
+		name = "渝城秘技",
+		bg_sp = "",
+		group_index = 3,
+		illustrator2 = -1,
+		desc = "「東煌（どんふぁん）に伝わる歴史ある川劇（せんげき）の秘技・変面（へんめん）、今ここに！」――ふふ、指揮官さん、こんな感じであってるのでしょうか？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "ouruola_4",
+		air_bullet_skin = "",
+		shop_type_id = 9999,
+		hand_id = 1,
+		bgm = "",
+		lip_smoothing = 0,
+		bg = "128",
+		skin_type = 0,
+		id = 202153,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "ouruola_4",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70314,
+		voice_actor = 90,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			4
+		},
+		live2d_offset = {
+			48,
+			-169,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.1,
+					1.08,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.11,
+					1.08,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.03,
+					0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.09,
+					1.07,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.47,
+							2.2,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			main_2 = 0,
+			login = 12.58,
+			main_1 = 0.73,
+			mission_complete = 1.58,
+			expendition = 1.67,
+			propose = 5,
+			home = 3.68,
+			mission = 1.77,
+			touch2 = 6,
+			mail = 1.78,
+			touch = 0,
+			main_3 = 0.58
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-30,
+				30
+			},
+			ParamBodyAngleX = {
+				-5,
+				5
 			}
 		}
 	},
@@ -49341,6 +49809,109 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[301391] = {
+		ship_group = 30139,
+		name = "ニャンニャンメイド",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "ニャンニャンめいど長月とうじょう♪しきかんはこのメイドふくにユウワクされないようにがんばってね！ニヒヒ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "changyue_2",
+		air_bullet_skin = "",
+		shop_type_id = 9999,
+		hand_id = 6,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "104",
+		skin_type = 0,
+		id = 301391,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "changyue_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70316,
+		voice_actor = 125,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.88,
+					1.02,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.91,
+					1.02,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.43,
+							2,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301410] = {
 		ship_group = 30141,
 		name = "三日月",
@@ -52324,7 +52895,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 217,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -52399,6 +52970,114 @@ pg.ship_skin_template = {
 						{
 							-0.53,
 							1.99,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301721] = {
+		ship_group = 30172,
+		name = "スノーヴァンガード",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "雪だ……！浦波、発進ヨーイ…発進……！",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "pubo_2",
+		air_bullet_skin = "",
+		shop_type_id = 9999,
+		hand_id = 6,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 0,
+		id = 301721,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "pubo_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70317,
+		voice_actor = 217,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.42,
+					1.08,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.31,
+					1.09,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.04,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.35,
+					1.08,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.53,
+							2.02,
 							0
 						}
 					}
@@ -53245,14 +53924,14 @@ pg.ship_skin_template = {
 			cannon = {
 				{
 					1.09,
-					1.41,
+					1.07,
 					0
 				}
 			},
 			vicegun = {
 				{
 					1.17,
-					1.48,
+					1.094,
 					0
 				}
 			},
@@ -53266,7 +53945,7 @@ pg.ship_skin_template = {
 			antiaircraft = {
 				{
 					1.2,
-					1.53,
+					1.043,
 					0
 				}
 			}
@@ -53279,7 +53958,7 @@ pg.ship_skin_template = {
 						"smoke",
 						{
 							-0.46,
-							2.31,
+							2.202,
 							0
 						}
 					}
@@ -77407,7 +78086,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70289,
-		voice_actor = 43,
+		voice_actor = 22,
 		air_bomb_skin = "",
 		illustrator = 5,
 		rarity_bg = "",
@@ -78091,7 +78770,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70288,
-		voice_actor = 43,
+		voice_actor = 11,
 		air_bomb_skin = "",
 		illustrator = 5,
 		rarity_bg = "",
@@ -100469,7 +101148,8 @@ pg.ship_skin_template = {
 			301790
 		},
 		[30172] = {
-			301720
+			301720,
+			301721
 		},
 		[30166] = {
 			301660
@@ -100528,7 +101208,8 @@ pg.ship_skin_template = {
 			301411
 		},
 		[30139] = {
-			301390
+			301390,
+			301391
 		},
 		[30138] = {
 			301380,
@@ -100848,7 +101529,8 @@ pg.ship_skin_template = {
 		[20215] = {
 			202150,
 			202151,
-			202152
+			202152,
+			202153
 		},
 		[20214] = {
 			202140
@@ -100931,6 +101613,7 @@ pg.ship_skin_template = {
 			201212,
 			201213,
 			201214,
+			201215,
 			201216,
 			201218,
 			201219
@@ -100979,6 +101662,7 @@ pg.ship_skin_template = {
 		},
 		[20103] = {
 			201030,
+			201031,
 			201039
 		},
 		[20102] = {
@@ -101221,7 +101905,8 @@ pg.ship_skin_template = {
 			102110
 		},
 		[10210] = {
-			102100
+			102100,
+			102101
 		},
 		[10209] = {
 			102090,
@@ -101486,6 +102171,7 @@ pg.ship_skin_template = {
 		102094,
 		102098,
 		102100,
+		102101,
 		102110,
 		102120,
 		102121,
@@ -101602,6 +102288,7 @@ pg.ship_skin_template = {
 		201022,
 		201029,
 		201030,
+		201031,
 		201039,
 		201060,
 		201070,
@@ -101627,6 +102314,7 @@ pg.ship_skin_template = {
 		201212,
 		201213,
 		201214,
+		201215,
 		201216,
 		201218,
 		201219,
@@ -101673,6 +102361,7 @@ pg.ship_skin_template = {
 		202150,
 		202151,
 		202152,
+		202153,
 		202160,
 		202161,
 		202170,
@@ -101850,6 +102539,7 @@ pg.ship_skin_template = {
 		301380,
 		301381,
 		301390,
+		301391,
 		301410,
 		301411,
 		301490,
@@ -101879,6 +102569,7 @@ pg.ship_skin_template = {
 		301650,
 		301660,
 		301720,
+		301721,
 		301790,
 		301800,
 		301810,

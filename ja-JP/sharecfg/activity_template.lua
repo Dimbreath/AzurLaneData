@@ -2616,6 +2616,7 @@ pg.activity_template = {
 	[482] = {
 		mark = 20190121,
 		title_res_tag = "",
+		time = "stop",
 		type = 60,
 		login_pop = 0,
 		config_id = 0,
@@ -2647,14 +2648,25 @@ pg.activity_template = {
 			58,
 			59,
 			60
-		},
+		}
+	},
+	[485] = {
+		mark = 20200213,
+		title_res_tag = "chuanjudenglu",
+		type = 3,
+		login_pop = 3,
+		config_id = 16,
+		is_show = 1,
+		config_client = "https://www.bilibili.com/video/av87674822",
+		id = 485,
+		config_data = {},
 		time = {
 			timer,
 			{
 				{
 					2020,
-					1,
-					21
+					2,
+					13
 				},
 				{
 					0,
@@ -2666,7 +2678,118 @@ pg.activity_template = {
 				{
 					2020,
 					2,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/chuanju_login"
+		}
+	},
+	[486] = {
+		mark = 20200206,
+		title_res_tag = "",
+		time = "stop",
+		type = 57,
+		login_pop = 0,
+		config_id = 6,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 486,
+		config_data = {}
+	},
+	[490] = {
+		mark = 20200214,
+		title_res_tag = "",
+		time = "stop",
+		type = 29,
+		login_pop = 0,
+		config_id = 15,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 490,
+		config_data = {
+			31201
+		}
+	},
+	[491] = {
+		mark = 20200213,
+		title_res_tag = "valentine_login",
+		type = 3,
+		login_pop = 0,
+		config_id = 17,
+		is_show = 2,
+		config_client = "",
+		id = 491,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					2,
 					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/valentine_login"
+		}
+	},
+	[492] = {
+		mark = 20190220,
+		title_res_tag = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 492,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					2,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					27
 				},
 				{
 					23,
@@ -2676,16 +2799,15 @@ pg.activity_template = {
 			}
 		}
 	},
-	[486] = {
-		mark = 20200206,
-		title_res_tag = "",
-		type = 57,
+	[493] = {
+		mark = 20190220,
+		title_res_tag = "xunliandianshu_m",
+		type = 54,
 		login_pop = 0,
-		config_id = 6,
-		is_show = 0,
+		config_id = 493,
+		is_show = 6,
 		config_client = "",
-		bg = "",
-		id = 486,
+		id = 493,
 		config_data = {},
 		time = {
 			timer,
@@ -2693,7 +2815,7 @@ pg.activity_template = {
 				{
 					2020,
 					2,
-					6
+					20
 				},
 				{
 					0,
@@ -2704,8 +2826,8 @@ pg.activity_template = {
 			{
 				{
 					2020,
-					2,
-					20
+					3,
+					18
 				},
 				{
 					23,
@@ -2713,6 +2835,90 @@ pg.activity_template = {
 					59
 				}
 			}
+		},
+		bg = {
+			"clutter/activity_bg_xunliandianshu_m"
+		}
+	},
+	[494] = {
+		mark = 20200220,
+		title_res_tag = "shengdiyagefuke",
+		type = 45,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		id = 494,
+		config_data = {
+			{
+				{
+					59788,
+					18
+				}
+			},
+			8912,
+			{
+				8974,
+				8975,
+				8976,
+				8977,
+				8978,
+				8979,
+				8980
+			},
+			7
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					2,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_shengdiyagefuke"
+		},
+		config_client = {
+			{
+				"SHENGDIYAGEGAI1",
+				nil,
+				"SHENGDIYAGEGAI2",
+				nil,
+				"SHENGDIYAGEGAI3",
+				nil,
+				nil,
+				"SHENGDIYAGEGAI4"
+			},
+			{},
+			{
+				1,
+				1,
+				1,
+				1,
+				2,
+				3,
+				9
+			},
+			{}
 		}
 	},
 	[10006] = {
@@ -3830,7 +4036,13 @@ pg.activity_template = {
 		480,
 		481,
 		482,
+		485,
 		486,
+		490,
+		491,
+		492,
+		493,
+		494,
 		10006,
 		10056,
 		10123,

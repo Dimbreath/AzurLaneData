@@ -821,6 +821,11 @@ slot6 = slot1.BulletType
 slot6 = slot6.G_BULLET
 slot7 = slot4._createGravitationBullet
 slot5[slot6] = slot7
+slot5 = slot4.generateBulletFuncs
+slot6 = slot1.BulletType
+slot6 = slot6.ELECTRIC_ARC
+slot7 = slot4._createDirectBullet
+slot5[slot6] = slot7
 
 function slot5()
 
@@ -1009,7 +1014,7 @@ FLOW; TARGET BLOCK #3
 
 
 -- Decompilation error in this vicinity:
---- BLOCK #3 19-118, warpins: 2 ---
+--- BLOCK #3 19-123, warpins: 2 ---
 --- END OF BLOCK #3 ---
 
 

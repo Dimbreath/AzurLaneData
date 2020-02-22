@@ -104,6 +104,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「願いを込めて、信仰を奉り、重桜の未来に光を」</color>\n――「翳りし満ちる影の華」イベントで入手可能",
 		scene = {}
 	},
+	[306] = {
+		name = "連合の証",
+		time_second = 0,
+		id = 306,
+		time_limit_type = 0,
+		desc = "後日イベントで入手可能",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂入り：エンタープライズ",
 		time_second = 0,
@@ -142,6 +150,7 @@ pg.item_data_frame = {
 		303,
 		304,
 		305,
+		306,
 		401,
 		402,
 		403

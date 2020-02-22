@@ -446,7 +446,7 @@ function slot0.IncreaseRound(slot0)
 end
 
 function slot0.existMoveLimit(slot0)
-	return slot0:getConfig("limit_move") == 1
+	return slot0:getConfig("limit_move") == 1 or slot0:existOni()
 end
 
 function slot0.getChapterCell(slot0, slot1, slot2)

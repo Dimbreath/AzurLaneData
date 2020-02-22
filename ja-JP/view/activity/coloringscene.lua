@@ -459,7 +459,7 @@ end
 function slot0.TryPlayStory(slot0)
 	slot2 = slot0.selectedIndex
 
-	table.eachAsync(pg.gameset.coloring_story.description, function (slot0, slot1, slot2)
+	table.eachAsync({}, function (slot0, slot1, slot2)
 		if slot0 <= slot0 and slot1 then
 			pg.StoryMgr.GetInstance():Play(slot1, slot2)
 		else

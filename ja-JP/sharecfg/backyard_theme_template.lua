@@ -2187,6 +2187,40 @@ pg.backyard_theme_template = {
 			58304
 		}
 	},
+	[59] = {
+		Cfg_1 = 5,
+		name = "スウィーティーデイ",
+		desc = "貴方と一緒にいる、激甘で幸せそうな每日",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 59,
+		icon = "vt2themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			59001,
+			59002,
+			59101,
+			59103,
+			59104,
+			59105,
+			59106,
+			59107,
+			59108,
+			59109,
+			59111,
+			59112,
+			59113,
+			59114,
+			59301,
+			59302,
+			59303
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2234,7 +2268,8 @@ pg.backyard_theme_template = {
 		55,
 		56,
 		57,
-		58
+		58,
+		59
 	}
 }
 

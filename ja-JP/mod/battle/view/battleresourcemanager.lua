@@ -715,7 +715,7 @@ function slot5.GetWeaponResource(slot0, slot1)
 		return slot2
 	end
 
-	if slot0:GetWeaponPropertyDataFromID().type == slot1.EquipmentType.MAIN_CANNON or slot3.type == slot1.EquipmentType.SUB_CANNON or slot3.type == slot1.EquipmentType.TORPEDO or slot3.type == slot1.EquipmentType.ANTI_AIR or slot3.type == slot1.EquipmentType.POINT_HIT_AND_LOCK or slot3.type == slot1.EquipmentType.BOMBER_PRE_CAST_ALERT or slot3.type == slot1.EquipmentType.DEPTH_CHARGE or slot3.type == slot1.EquipmentType.MANUAL_TORPEDO or slot3.type == slot1.EquipmentType.DISPOSABLE_TORPEDO or slot3.type == slot1.EquipmentType.BEAM then
+	if slot0:GetWeaponPropertyDataFromID().type == slot1.EquipmentType.MAIN_CANNON or slot3.type == slot1.EquipmentType.SUB_CANNON or slot3.type == slot1.EquipmentType.TORPEDO or slot3.type == slot1.EquipmentType.ANTI_AIR or slot3.type == slot1.EquipmentType.ANTI_SEA or slot3.type == slot1.EquipmentType.POINT_HIT_AND_LOCK or slot3.type == slot1.EquipmentType.BOMBER_PRE_CAST_ALERT or slot3.type == slot1.EquipmentType.DEPTH_CHARGE or slot3.type == slot1.EquipmentType.MANUAL_TORPEDO or slot3.type == slot1.EquipmentType.DISPOSABLE_TORPEDO or slot3.type == slot1.EquipmentType.BEAM then
 		for slot7, slot8 in ipairs(slot3.bullet_ID) do
 			for slot13, slot14 in ipairs(slot9) do
 				slot2[#slot2 + 1] = slot14
@@ -773,7 +773,7 @@ function slot5.GetBulletResource(slot0, slot1)
 	slot4 = nil
 	slot4 = ((slot1 or 0) == 0 or slot0.GetEquipSkin(slot1 or 0)) and slot0:GetBulletTmpDataFromID().modle_ID
 
-	if slot3.type == slot1.BulletType.BEAM then
+	if slot3.type == slot1.BulletType.BEAM or slot3.type == slot1.BulletType.ELECTRIC_ARC then
 		slot2[#slot2 + 1] = slot2.GetFXPath(slot3.modle_ID)
 	else
 		slot2[#slot2 + 1] = slot2.GetBulletPath(slot4)

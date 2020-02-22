@@ -71,8 +71,14 @@ function slot0.GetSaveData(slot0)
 
 	table.insert(slot1, slot0.model.lockTime)
 
-	for slot5, slot6 in ipairs(slot0.model.finishList) do
-		table.insert(slot1, slot6)
+	slot2 = slot0.model.finishCount
+
+	for slot6, slot7 in ipairs(slot0.model.finishList) do
+		if slot2 > 0 then
+			table.insert(slot1, slot7)
+
+			slot2 = slot2 - 1
+		end
 	end
 
 	return slot1
