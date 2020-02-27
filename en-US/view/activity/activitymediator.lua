@@ -30,10 +30,19 @@ slot0.MUSIC_GAME_OPERATOR = "get music game final prize"
 slot0.SHOW_NEXT_ACTIVITY = "show next activity"
 slot0.OPEN_RED_PACKET_LAYER = "ActivityMediator:OPEN_RED_PACKET_LAYER"
 slot0.GO_MINI_GAME = "ActivityMediator.GO_MINI_GAME"
+slot0.GO_DECODE_MINI_GAME = "ActivityMediator:GO_DECODE_MINI_GAME"
 
 function slot0.register(slot0)
 	slot0.UIAvalibleCallbacks = {}
 
+	slot0:bind(slot0.GO_DECODE_MINI_GAME, function (slot0)
+		pg.m02:sendNotification(GAME.REQUEST_MINI_GAME, {
+			type = MiniGameRequestCommand.REQUEST_HUB_DATA,
+			callback = function ()
+				pg.m02:sendNotification(GAME.GO_MINI_GAME, 11)
+			end
+		})
+	end)
 	slot0:bind(slot0.GO_MINI_GAME, function (slot0, slot1)
 		pg.m02:sendNotification(GAME.GO_MINI_GAME, slot1)
 	end)

@@ -515,6 +515,216 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[705010] = {
+		feeling3 = "",
+		upgrade = "",
+		id = 705010,
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = "",
+		detail = "",
+		main = {
+			{
+				1100,
+				"Comrade~ have a bit more to drink~ That Marat can't keep up with me~ C'mon, keep me company until dawn.|nil|No strong enemies around? I feel your frustration, comrade... Well then, come at me. Let's make life worth living!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"I see, I see, so you want to fully grasp the extent of my rigging. Very well! I have no objections, for your courage is commendable as well!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"You are forgiven, comrade! Such courage deserves to be rewarded! Come, put your hands all over me until you've had your fill!"
+			}
+		}
+	},
+	[702030] = {
+		feeling3 = "",
+		upgrade = "",
+		id = 702030,
+		expedition = "",
+		mission = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"Welcome, Commander. Time for another day of hard work. By the way... Have you been wearing your bridle like we talked about?"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Hehehe, I'm happy if you are."
+			}
+		},
+		home = {
+			{
+				1100,
+				"You did so well on that sortie... Now you just let me take care of everything."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Полный ход!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Commander, are you hungry? Well, you'll just have to wait. Once I say 'okay,' then you can eat."
+			}
+		},
+		main = {
+			{
+				1100,
+				"Commander, what's wrong? I'm here, and I'm not going anywhere.|It's a big responsibility to have someone trust you so much. But don't worry, I'm holding your reins tightly.|Just let me know when you'd like to talk to another girl. You'd be very embarrassed to be seen like this, hm? Hehe, I think it's fine if somebody sees, actually."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Hehe, I think I want to touch you too, Commander."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Hehe, I'll join you in a minute, okay?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Still feeling a little uneasy? Just wait a bit longer. You need to stay bound to me like this for now, but sooner or later you won't have to think anymore, you won't have to worry, and you can forget all that pain."
+			}
+		}
+	},
+	[702020] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		id = 702020,
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"So, what are we starting the day with, darling? ♪"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"You wanna know more about the war I fought so hard in, darling? Heheh! Maybe I should brief you then~ Not that I have to, someone else can tell you of my exploits."
+			}
+		},
+		main = {
+			{
+				1100,
+				"Secretary work, huh... I'll do it if you can beat me at a game. Although you have any chance of winning anyway♪|Mh...! I think I just strained my back... N-no, I didn't say anything!|nil"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"You love it when they're big, don'tcha? And I love you"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I may look young, but I've got a rich history and a vast repertoire of knowledge, which is how I know your mind like the back of my hand, darling♪ \"Wisdom really comes with age\"... We're not touching that topic! Ever! That has nothing to do with it, stupid!"
+			}
+		}
+	},
+	[705050] = {
+		feeling3 = "",
+		upgrade = "",
+		id = 705050,
+		expedition = "",
+		win_mvp = "",
+		mission = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = "",
+		home = {
+			{
+				1100,
+				"Comrade Commander, please eat this. Think nothing of it. Call it a personal supplement."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"This port has such abundance. That leaves me one core duty. I must bring emotional enrichment to your life."
+			}
+		},
+		main = {
+			{
+				1100,
+				"I need only focus my attentions on battle? That is a reasonable decision... But does it mean my clerical skills did not pass muster?|nil|nil "
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Comrade Commander, today's handshake. Mmm. Let us properly follow proper protocols today."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Is this what the Iris would call a \"breach of etiquette?\""
+			}
+		}
+	},
 	all = {
 		999010,
 		108030,
@@ -524,7 +734,11 @@ pg.ship_skin_words_extra = {
 		305140,
 		306070,
 		301260,
-		202100
+		202100,
+		705010,
+		702030,
+		702020,
+		705050
 	}
 }
 

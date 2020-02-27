@@ -93,7 +93,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 306,
 		time_limit_type = 0,
-		desc = "Can be obtained during a subsequent event",
+		desc = "<color=#ffffff>\"Unite, comrades! The world is ours to change!\"</color>\n――Can be obtained during the \"Northern Overture\" event. ",
 		scene = {}
 	},
 	all = {

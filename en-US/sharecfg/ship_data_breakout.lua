@@ -20302,6 +20302,183 @@ pg.ship_data_breakout = {
 		use_item = {},
 		weapon_ids = {}
 	},
+	[701021] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 70102,
+		breakout_id = 701022,
+		breakout_view = "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+		id = 701021,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			76011
+		}
+	},
+	[701022] = {
+		use_gold = 1500,
+		pre_id = 701021,
+		use_char_num = 1,
+		use_char = 70102,
+		breakout_id = 701023,
+		breakout_view = "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
+		id = 701022,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[701023] = {
+		use_gold = 2500,
+		pre_id = 701022,
+		use_char_num = 2,
+		use_char = 70102,
+		breakout_id = 701024,
+		breakout_view = "Improve All Out Assault/All weapons' efficiency +5%",
+		id = 701023,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			76012
+		}
+	},
+	[701024] = {
+		use_gold = 0,
+		pre_id = 701023,
+		use_char_num = 0,
+		use_char = 70102,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 701024,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[701031] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 70103,
+		breakout_id = 701032,
+		breakout_view = "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+		id = 701031,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			76021
+		}
+	},
+	[701032] = {
+		use_gold = 1500,
+		pre_id = 701031,
+		use_char_num = 1,
+		use_char = 70103,
+		breakout_id = 701033,
+		breakout_view = "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
+		id = 701032,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[701033] = {
+		use_gold = 2500,
+		pre_id = 701032,
+		use_char_num = 2,
+		use_char = 70103,
+		breakout_id = 701034,
+		breakout_view = "Improve All Out Assault/All weapons' efficiency +5%",
+		id = 701033,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			76022
+		}
+	},
+	[701034] = {
+		use_gold = 0,
+		pre_id = 701033,
+		use_char_num = 0,
+		use_char = 70103,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 701034,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[701041] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 70104,
+		breakout_id = 701042,
+		breakout_view = "Unlock EX Barrage Ⅰ/Main gun efficiency +5%",
+		id = 701041,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			79501
+		}
+	},
+	[701042] = {
+		use_gold = 3000,
+		pre_id = 701041,
+		use_char_num = 1,
+		use_char = 70104,
+		breakout_id = 701043,
+		breakout_view = "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
+		id = 701042,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[701043] = {
+		use_gold = 10000,
+		pre_id = 701042,
+		use_char_num = 2,
+		use_char = 70104,
+		breakout_id = 701044,
+		breakout_view = "Improve EX Barrage/All weapons' efficiency +5%",
+		id = 701043,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			79502
+		}
+	},
+	[701044] = {
+		use_gold = 0,
+		pre_id = 701043,
+		use_char_num = 0,
+		use_char = 70104,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 701044,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
 	[702011] = {
 		use_gold = 1000,
 		pre_id = 0,
@@ -20356,6 +20533,250 @@ pg.ship_data_breakout = {
 		breakout_id = 0,
 		breakout_view = "N/A",
 		id = 702014,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[702021] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 70202,
+		breakout_id = 702022,
+		breakout_view = "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+		id = 702021,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			76111
+		}
+	},
+	[702022] = {
+		use_gold = 1500,
+		pre_id = 702021,
+		use_char_num = 1,
+		use_char = 70202,
+		breakout_id = 702023,
+		breakout_view = "Main gun base +1/Main gun efficiency +10%",
+		id = 702022,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			7000,
+			7000
+		}
+	},
+	[702023] = {
+		use_gold = 2500,
+		pre_id = 702022,
+		use_char_num = 2,
+		use_char = 70202,
+		breakout_id = 702024,
+		breakout_view = "Improve All Out Assault/Main gun efficiency +15%",
+		id = 702023,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			76112
+		}
+	},
+	[702024] = {
+		use_gold = 0,
+		pre_id = 702023,
+		use_char_num = 0,
+		use_char = 70202,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 702024,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[702031] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 70203,
+		breakout_id = 702032,
+		breakout_view = "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+		id = 702031,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			79511
+		}
+	},
+	[702032] = {
+		use_gold = 3000,
+		pre_id = 702031,
+		use_char_num = 1,
+		use_char = 70203,
+		breakout_id = 702033,
+		breakout_view = "Main gun base +1/Main gun efficiency +10%",
+		id = 702032,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			85120,
+			85120
+		}
+	},
+	[702033] = {
+		use_gold = 10000,
+		pre_id = 702032,
+		use_char_num = 2,
+		use_char = 70203,
+		breakout_id = 702034,
+		breakout_view = "Improve All Out Assault/Main gun efficiency +15%",
+		id = 702033,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			79512
+		}
+	},
+	[702034] = {
+		use_gold = 0,
+		pre_id = 702033,
+		use_char_num = 0,
+		use_char = 70203,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 702034,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[705011] = {
+		use_gold = 500,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 70501,
+		breakout_id = 705012,
+		breakout_view = "Main gun base +1/Main gun efficiency +5%",
+		id = 705011,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			85420,
+			85420
+		}
+	},
+	[705012] = {
+		use_gold = 1500,
+		pre_id = 705011,
+		use_char_num = 1,
+		use_char = 70501,
+		breakout_id = 705013,
+		breakout_view = "Auxiliary gun base +2/Main gun efficiency +10%",
+		id = 705012,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			101,
+			101,
+			101
+		}
+	},
+	[705013] = {
+		use_gold = 2500,
+		pre_id = 705012,
+		use_char_num = 2,
+		use_char = 70501,
+		breakout_id = 705014,
+		breakout_view = "Main gun base +1/Main gun efficiency +15%",
+		id = 705013,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			85420,
+			85420,
+			85420
+		}
+	},
+	[705014] = {
+		use_gold = 0,
+		pre_id = 705013,
+		use_char_num = 0,
+		use_char = 70501,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 705014,
+		icon = "10001",
+		level = 0,
+		use_item = {},
+		weapon_ids = {}
+	},
+	[705051] = {
+		use_gold = 1000,
+		pre_id = 0,
+		use_char_num = 1,
+		use_char = 70505,
+		breakout_id = 705052,
+		breakout_view = "Main gun base +1/Main gun efficiency +5%",
+		id = 705051,
+		icon = "10001",
+		level = 10,
+		use_item = {},
+		weapon_ids = {
+			85300,
+			85300
+		}
+	},
+	[705052] = {
+		use_gold = 3000,
+		pre_id = 705051,
+		use_char_num = 1,
+		use_char = 70505,
+		breakout_id = 705053,
+		breakout_view = "Auxiliary gun base +2/Main gun efficiency +10%",
+		id = 705052,
+		icon = "10001",
+		level = 30,
+		use_item = {},
+		weapon_ids = {
+			101,
+			101,
+			101
+		}
+	},
+	[705053] = {
+		use_gold = 10000,
+		pre_id = 705052,
+		use_char_num = 2,
+		use_char = 70505,
+		breakout_id = 705054,
+		breakout_view = "Main gun base +1/Main gun efficiency +15%",
+		id = 705053,
+		icon = "10001",
+		level = 70,
+		use_item = {},
+		weapon_ids = {
+			85300,
+			85300,
+			85300
+		}
+	},
+	[705054] = {
+		use_gold = 0,
+		pre_id = 705053,
+		use_char_num = 0,
+		use_char = 70505,
+		breakout_id = 0,
+		breakout_view = "N/A",
+		id = 705054,
 		icon = "10001",
 		level = 0,
 		use_item = {},
@@ -24118,10 +24539,38 @@ pg.ship_data_breakout = {
 		605062,
 		605063,
 		605064,
+		701021,
+		701022,
+		701023,
+		701024,
+		701031,
+		701032,
+		701033,
+		701034,
+		701041,
+		701042,
+		701043,
+		701044,
 		702011,
 		702012,
 		702013,
 		702014,
+		702021,
+		702022,
+		702023,
+		702024,
+		702031,
+		702032,
+		702033,
+		702034,
+		705011,
+		705012,
+		705013,
+		705014,
+		705051,
+		705052,
+		705053,
+		705054,
 		801011,
 		801012,
 		801013,

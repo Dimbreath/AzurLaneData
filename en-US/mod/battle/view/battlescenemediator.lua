@@ -469,15 +469,22 @@ function slot5.AddAirCraftCharacter(slot0, slot1)
 end
 
 function slot5.AddArea(slot0, slot1, slot2, slot3)
-	slot5 = slot0.Battle.BattleEffectArea.New(slot0._fxPool:GetFX(slot2), slot1)
+	slot4 = slot0._fxPool:GetFX(slot2)
+	slot6 = false
 
-	if slot3 then
-		slot5:SetStatic()
-	else
-		slot5:ResetScale()
+	if pg.effect_offset[slot2] and slot5.top_cover_offset == true then
+		slot6 = true
 	end
 
-	slot0._areaList[slot1:GetUniqueID()] = slot5
+	slot7 = slot0.Battle.BattleEffectArea.New(slot4, slot1, slot6)
+
+	if slot3 then
+		slot7:SetStatic()
+	else
+		slot7:ResetScale()
+	end
+
+	slot0._areaList[slot1:GetUniqueID()] = slot7
 end
 
 function slot5.RemoveArea(slot0, slot1)
@@ -488,11 +495,11 @@ function slot5.RemoveArea(slot0, slot1)
 	end
 end
 
-function slot5.AddArcEffect(slot0, slot1, slot2, slot3)
-	pg.EffectMgr.GetInstance():PlayBattleEffect(slot4, Vector3.zero, true, function ()
+function slot5.AddArcEffect(slot0, slot1, slot2, slot3, slot4)
+	pg.EffectMgr.GetInstance():PlayBattleEffect(slot5, Vector3.zero, true, function ()
 		slot0:RemoveArcEffect(slot0)
 	end)
-	table.insert(slot0._arcEffectList, slot0.Battle.BattleArcEffect.New(slot4, slot2, slot3))
+	table.insert(slot0._arcEffectList, slot0.Battle.BattleArcEffect.New(slot5, slot2, slot3, slot4))
 end
 
 function slot5.RemoveArcEffect(slot0, slot1)

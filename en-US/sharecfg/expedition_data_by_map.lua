@@ -4438,6 +4438,252 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1310001] = {
+		map = 1310001,
+		name = "Northern Overture - Pt. 1|| ||CHAPTER EX||E.X.",
+		bgm = "bgm-cccp3",
+		type = 4,
+		on_activity = 30340,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "MAOZIHUODONG1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1290001",
+		cloud_suffix = "",
+		bg = "Map_1290001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1310011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1310002] = {
+		map = 1310002,
+		name = "Northern Overture - Pt. 2|| ||CHAPTER EX||E.X.",
+		bgm = "xinnong-3",
+		type = 4,
+		on_activity = 30341,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "MAOZIHUODONG15",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1290002",
+		cloud_suffix = "",
+		bg = "Map_1290002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1310012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1310011] = {
+		map = 1310011,
+		name = "Northern Overture - Pt. 1|| ||CHAPTER EX||E.X.",
+		bgm = "bgm-cccp3",
+		type = 5,
+		on_activity = 30340,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "MAOZIHUODONG1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1290003",
+		cloud_suffix = "",
+		bg = "Map_1290003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1310001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1310012] = {
+		map = 1310012,
+		name = "Northern Overture - Pt. 2|| ||CHAPTER EX||E.X.",
+		bgm = "xinnong-3",
+		type = 5,
+		on_activity = 30341,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "MAOZIHUODONG15",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1290004",
+		cloud_suffix = "",
+		bg = "Map_1290004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1310002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1310025] = {
+		map = 1310025,
+		name = "Northern Overture - SP|| ||CHAPTER EX||E.X.",
+		bgm = "bgm-cccp",
+		type = 8,
+		on_activity = 30341,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1290004",
+		cloud_suffix = "",
+		bg = "Map_1290004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1310012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1310026] = {
+		map = 1310026,
+		name = "Northern Overture - EX|| ||CHAPTER EX||E.X.",
+		bgm = "bgm-cccp",
+		type = 8,
+		on_activity = 30341,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Map_1290004",
+		cloud_suffix = "",
+		bg = "Map_1290004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 1310012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
@@ -4851,6 +5097,12 @@ pg.expedition_data_by_map = {
 		1300012,
 		1300025,
 		1300026,
+		1310001,
+		1310002,
+		1310011,
+		1310012,
+		1310025,
+		1310026,
 		2100000,
 		2100001,
 		2100010,

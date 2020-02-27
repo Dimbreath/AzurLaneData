@@ -384,7 +384,7 @@ pg.gameset = {
 	activity_res_id = {
 		description = "PT",
 		key = "activity_res_id",
-		key_value = 137
+		key_value = 143
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -773,7 +773,7 @@ pg.gameset = {
 	skin_ticket = {
 		description = "",
 		key = "skin_ticket",
-		key_value = 136
+		key_value = 144
 	},
 	order_pt_max = {
 		key = "order_pt_max",

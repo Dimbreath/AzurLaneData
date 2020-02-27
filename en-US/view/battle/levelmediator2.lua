@@ -44,6 +44,7 @@ slot0.ON_COMMANDER_OP = "LevelMediator2:ON_COMMANDER_OP"
 slot0.CLICK_CHALLENGE_BTN = "LevelMediator2:CLICK_CHALLENGE_BTN"
 slot0.ON_SUBMIT_TASK = "LevelMediator2:ON_SUBMIT_TASK"
 slot0.ON_VOTE_BOOK = "LevelMediator2:ON_VOTE_BOOK"
+slot0.CHAPTER_RETREAT = "LevelMediator2:CHAPTER_RETREAT"
 
 function slot0.register(slot0)
 	slot1 = getProxy(PlayerProxy)
@@ -614,6 +615,10 @@ function slot0.register(slot0)
 		end, function (slot0)
 			setParent(slot0, slot0.viewComponent._tf)
 		end)
+	end
+
+	if slot0.contextData.targetChapter and slot0.contextData.targetMap then
+		slot0:openTargetChapter(slot0.contextData.targetChapter, slot0.contextData.targetMap)
 	end
 end
 
@@ -1269,6 +1274,12 @@ function slot0.duplicateEliteFleet(slot0, slot1)
 			slot8:setEliteCommanders(slot1:getEliteFleetCommanders())
 		end
 	end
+end
+
+function slot0.openTargetChapter(slot0, slot1, slot2)
+	slot0.contextData.openChapterId = slot1.configId
+
+	slot0.viewComponent:setMap(slot2.configId)
 end
 
 return slot0

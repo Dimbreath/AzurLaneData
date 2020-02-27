@@ -757,6 +757,10 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.REMOVE_LAYERS then
 		if slot3.context.mediator == ShopsMediator or slot3.context.mediator == LotteryMediator then
 			slot0.viewComponent:activeEffect(true)
+
+			if slot3.context.mediator == LotteryMediator then
+				slot0.viewComponent:UpdateActivityBtn("activity_actpool")
+			end
 		elseif slot3.context.mediator == LevelDifficultySelMediator then
 			setActive(slot0.viewComponent.effectTF, slot0.viewComponent.flagShip and slot0.viewComponent.flagShip.propose)
 		elseif slot3.context.mediator == BulletinBoardMediator then

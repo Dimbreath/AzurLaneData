@@ -438,6 +438,14 @@ slot1 = {
 	[ActivityConst.FALLENWING_CHT] = {
 		className = "FallenWingMainPage",
 		uiName = "FallenWingMainPage"
+	},
+	[ActivityConst.SN_MAIN_PAGE] = {
+		className = "SNMainPage",
+		uiName = "SNMainPage"
+	},
+	[ActivityConst.SN_PT_PAGE] = {
+		className = "SNPtPage",
+		uiName = "SNPtPage"
 	}
 }
 slot2 = {

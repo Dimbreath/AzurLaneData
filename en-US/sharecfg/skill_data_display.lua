@@ -392,6 +392,14 @@ pg.skill_data_display = {
 		id = 4141,
 		name = "Swift Defender"
 	},
+	[4150] = {
+		id = 4150,
+		name = "Mobility Mastery "
+	},
+	[4151] = {
+		id = 4151,
+		name = "Mobility Mastery "
+	},
 	[5001] = {
 		id = 5001,
 		name = "Interference"
@@ -2332,9 +2340,69 @@ pg.skill_data_display = {
 		id = 12970,
 		name = "Practical Instruction"
 	},
+	[12980] = {
+		id = 12980,
+		name = "The Blue Cruiser"
+	},
+	[12982] = {
+		id = 12982,
+		name = "The Blue Cruiser"
+	},
+	[12990] = {
+		id = 12990,
+		name = "Trajectory Marking"
+	},
+	[12992] = {
+		id = 12992,
+		name = "Trajectory Marking"
+	},
+	[13000] = {
+		id = 13000,
+		name = "Cavalier of the Ether"
+	},
+	[13010] = {
+		id = 13010,
+		name = "Cavalier's Acumen"
+	},
+	[13020] = {
+		id = 13020,
+		name = "Lod Obstrel"
+	},
+	[13025] = {
+		id = 13025,
+		name = "Lod Obstrel"
+	},
+	[13030] = {
+		id = 13030,
+		name = "Warcry of Unity"
+	},
+	[13031] = {
+		id = 13031,
+		name = "Warcry of Unity"
+	},
+	[13040] = {
+		id = 13040,
+		name = "Mercurial Memories"
+	},
+	[13041] = {
+		id = 13041,
+		name = "Mercurial Memories"
+	},
+	[13050] = {
+		id = 13050,
+		name = "Long Live the Revolution!"
+	},
+	[13051] = {
+		id = 13051,
+		name = "Long Live the Revolution!"
+	},
+	[13060] = {
+		id = 13060,
+		name = "Icebreaker"
+	},
 	[18010] = {
 		id = 18010,
-		name = "MKV-Class AP Shell +"
+		name = "MKV-Class AP Shells 194/160+ "
 	},
 	[18040] = {
 		id = 18040,
@@ -3192,6 +3260,30 @@ pg.skill_data_display = {
 		id = 25222,
 		name = "All Out Assault Ⅱ"
 	},
+	[26011] = {
+		id = 26011,
+		name = "All Out Assault Ⅰ"
+	},
+	[26012] = {
+		id = 26012,
+		name = "All Out Assault Ⅱ"
+	},
+	[26021] = {
+		id = 26021,
+		name = "All Out Assault Ⅰ"
+	},
+	[26022] = {
+		id = 26022,
+		name = "All Out Assault Ⅱ"
+	},
+	[26111] = {
+		id = 26111,
+		name = "All Out Assault Ⅰ"
+	},
+	[26112] = {
+		id = 26112,
+		name = "All Out Assault Ⅱ"
+	},
 	[28011] = {
 		id = 28011,
 		name = "All Out Assault Ⅰ"
@@ -3494,11 +3586,11 @@ pg.skill_data_display = {
 	},
 	[29361] = {
 		id = 29361,
-		name = "All Out Assault: Sirius I "
+		name = "All Out Assault Ⅰ"
 	},
 	[29362] = {
 		id = 29362,
-		name = "All Out Assault: Sirius II "
+		name = "All Out Assault Ⅱ"
 	},
 	[29381] = {
 		id = 29381,
@@ -3542,27 +3634,27 @@ pg.skill_data_display = {
 	},
 	[29451] = {
 		id = 29451,
-		name = "专属弹幕-克利夫兰(μ兵装)I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29452] = {
 		id = 29452,
-		name = "专属弹幕-克利夫兰(μ兵装)II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29461] = {
 		id = 29461,
-		name = "专属弹幕-谢菲尔德(μ兵装)I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29462] = {
 		id = 29462,
-		name = "专属弹幕-谢菲尔德(μ兵装)II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29471] = {
 		id = 29471,
-		name = "专属弹幕-希佩尔海军上将(μ兵装)I"
+		name = "All Out Assault Ⅰ"
 	},
 	[29472] = {
 		id = 29472,
-		name = "专属弹幕-希佩尔海军上将(μ兵装)II"
+		name = "All Out Assault Ⅱ"
 	},
 	[29481] = {
 		id = 29481,
@@ -3578,6 +3670,22 @@ pg.skill_data_display = {
 	},
 	[29492] = {
 		id = 29492,
+		name = "All Out Assault Ⅱ"
+	},
+	[29501] = {
+		id = 29501,
+		name = "All Out Assault Ⅰ"
+	},
+	[29502] = {
+		id = 29502,
+		name = "All Out Assault Ⅱ"
+	},
+	[29511] = {
+		id = 29511,
+		name = "All Out Assault Ⅰ"
+	},
+	[29512] = {
+		id = 29512,
 		name = "All Out Assault Ⅱ"
 	},
 	[101010] = {
@@ -3943,6 +4051,8 @@ pg.skill_data_display = {
 		4130,
 		4131,
 		4141,
+		4150,
+		4151,
 		5001,
 		5011,
 		5021,
@@ -4428,6 +4538,21 @@ pg.skill_data_display = {
 		12951,
 		12960,
 		12970,
+		12980,
+		12982,
+		12990,
+		12992,
+		13000,
+		13010,
+		13020,
+		13025,
+		13030,
+		13031,
+		13040,
+		13041,
+		13050,
+		13051,
+		13060,
 		18010,
 		18040,
 		18041,
@@ -4643,6 +4768,12 @@ pg.skill_data_display = {
 		25212,
 		25221,
 		25222,
+		26011,
+		26012,
+		26021,
+		26022,
+		26111,
+		26112,
 		28011,
 		28012,
 		28021,
@@ -4740,6 +4871,10 @@ pg.skill_data_display = {
 		29482,
 		29491,
 		29492,
+		29501,
+		29502,
+		29511,
+		29512,
 		101010,
 		101020,
 		101030,

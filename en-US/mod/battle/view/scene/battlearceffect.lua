@@ -5,12 +5,13 @@ slot3 = class("BattleArcEffect")
 ys.Battle.BattleArcEffect = slot3
 slot3.__name = "BattleArcEffect"
 
-function slot3.Ctor(slot0, slot1, slot2, slot3)
+function slot3.Ctor(slot0, slot1, slot2, slot3, slot4)
 	slot0._go = slot1
-	slot0._unitA = slot2
+	slot0._characterA = slot2
 	slot0._unitB = slot3
+	slot0._boundBone = slot4
 	slot0._material = slot0._go.transform:GetComponent(typeof(Renderer)).material
-	slot0._vectorA = Vector4.New(slot0._unitA:GetPosition().x, 5, slot0._unitA.GetPosition().z, 1)
+	slot0._vectorA = Vector4.New(slot0._characterA:GetBonePos(slot0._boundBone).x, 5, slot0._characterA.GetBonePos(slot0._boundBone).z, 1)
 	slot0._vectorB = Vector4.New(slot0._unitB:GetPosition().x, 5, slot0._unitB.GetPosition().z, 1)
 
 	slot0._material:SetVector("_PosBegin", slot0._vectorA)
@@ -18,8 +19,8 @@ function slot3.Ctor(slot0, slot1, slot2, slot3)
 end
 
 function slot3.Update(slot0)
-	slot0._vectorA.x = slot0._unitA:GetPosition().x
-	slot0._vectorA.z = slot0._unitA.GetPosition().z
+	slot0._vectorA.x = slot0._characterA:GetBonePos(slot0._boundBone).x
+	slot0._vectorA.z = slot0._characterA.GetBonePos(slot0._boundBone).z
 	slot0._vectorB.x = slot0._unitB:GetPosition().x
 	slot0._vectorB.z = slot0._unitB.GetPosition().z
 

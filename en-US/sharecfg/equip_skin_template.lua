@@ -4369,6 +4369,489 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[220] = {
+		icon = "92011",
+		bullet_name = "zidan_shoukao",
+		name = "Handcuffs Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Used to detain criminals or indulge deviants.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 16,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 220,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[221] = {
+		icon = "92012",
+		bullet_name = "zidan_tieqiu",
+		name = "Ball and Chain Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Someone interpreted the phrase \"cast your shackles aside\" a little too literally.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 16,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 221,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[222] = {
+		icon = "92013",
+		bullet_name = "zidan_bingkuai",
+		name = "Ice Cube Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "While we're at it, let's get vanilla ice up in here.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 16,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 222,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[223] = {
+		icon = "92014",
+		bullet_name = "paodan_chuizi",
+		name = "Hammer Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "There are better ways to get hammered, but each to their own.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 16,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 223,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[224] = {
+		icon = "92015",
+		bullet_name = "paodan_liandao",
+		name = "Sickle Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "One revolution later, and everyone knows this humble farming tool.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 16,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 224,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[225] = {
+		icon = "92016",
+		bullet_name = "paodan_kongjianzhan",
+		name = "Soyuz Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "♪ Sputniks and Mutniks flying through the air ♪",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 16,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 225,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[226] = {
+		icon = "92021",
+		bullet_name = "yulei_futejia",
+		name = "Vodka Torpedo",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "\"Ah, my favorite! Vodka-brand vodka!\"",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 16,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 226,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[227] = {
+		icon = "92022",
+		bullet_name = "yulei_dongyumi",
+		name = "Frozen Corn Torpedo",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "More like cold on the cob.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 16,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 227,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[228] = {
+		icon = "92023",
+		bullet_name = "yulei_dongtudou",
+		name = "Frozen Potato Torpedo",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "\"I have a potato, I have a torpedo. Ahh! Potatorpedo!\"",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 16,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 228,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[229] = {
+		icon = "92031",
+		bullet_name = "feiji_yujing",
+		name = "Airborne Guard Manjuu",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Every breath you take, every move you make, it'll be watching you.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 16,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 229,
+		derivate_torpedo = "yulei_dongtudou",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[230] = {
+		icon = "92031",
+		bullet_name = "feiji_yujing",
+		name = "Airborne Guard Manjuu",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Every breath you take, every move you make, it'll be watching you.",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_shoukao",
+		themeid = 16,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 230,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[231] = {
+		icon = "92031",
+		bullet_name = "feiji_yujing",
+		name = "Airborne Guard Manjuu",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Every breath you take, every move you make, it'll be watching you.",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_shoukao",
+		themeid = 16,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 231,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[232] = {
+		icon = "92032",
+		bullet_name = "feiji_taoyu",
+		name = "Airborne Escapee Manjuu",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "This Manjuu's well past the highway to the danger zone.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 16,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 232,
+		derivate_torpedo = "yulei_futejia",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[233] = {
+		icon = "92032",
+		bullet_name = "feiji_taoyu",
+		name = "Airborne Escapee Manjuu",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "This Manjuu's well past the highway to the danger zone.",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_tieqiu",
+		themeid = 16,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 233,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[234] = {
+		icon = "92032",
+		bullet_name = "feiji_taoyu",
+		name = "Airborne Escapee Manjuu",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "This Manjuu's well past the highway to the danger zone.",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_tieqiu",
+		themeid = 16,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 234,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[235] = {
+		icon = "92033",
+		bullet_name = "feiji_maoxiong",
+		name = "Airbearn Ursus Manjuu",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Half Manjuu, half bear, and half jet...",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 16,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 235,
+		derivate_torpedo = "yulei_dongyumi",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[236] = {
+		icon = "92033",
+		bullet_name = "feiji_maoxiong",
+		name = "Airbearn Ursus Manjuu",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Half Manjuu, half bear, and half jet...",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_bingkuai",
+		themeid = 16,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 236,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[237] = {
+		icon = "92033",
+		bullet_name = "feiji_maoxiong",
+		name = "Airbearn Ursus Manjuu",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Half Manjuu, half bear, and half jet...",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_bingkuai",
+		themeid = 16,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 237,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		icon = "90640",
 		bullet_name = "Nep_bullet_shizi",
@@ -5450,6 +5933,24 @@ pg.equip_skin_template = {
 		215,
 		216,
 		217,
+		220,
+		221,
+		222,
+		223,
+		224,
+		225,
+		226,
+		227,
+		228,
+		229,
+		230,
+		231,
+		232,
+		233,
+		234,
+		235,
+		236,
+		237,
 		1001,
 		1002,
 		1003,

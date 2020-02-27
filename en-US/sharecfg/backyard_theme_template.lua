@@ -1987,6 +1987,52 @@ pg.backyard_theme_template = {
 			59303
 		}
 	},
+	[60] = {
+		Cfg_1 = 5,
+		name = "Polar Penitentiary",
+		desc = "Get out your blanket, borscht, and harmonica, because you'll be staying here a while.",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 60,
+		icon = "elsthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			60001,
+			60002,
+			60101,
+			60102,
+			60103,
+			60104,
+			60105,
+			60106,
+			60107,
+			60108,
+			60109,
+			60110,
+			60111,
+			60112,
+			60113,
+			60114,
+			60115,
+			60116,
+			60117,
+			60119,
+			60121,
+			60122,
+			60123,
+			60124,
+			60301,
+			60302,
+			60303,
+			60304,
+			60305
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2029,7 +2075,8 @@ pg.backyard_theme_template = {
 		56,
 		57,
 		58,
-		59
+		59,
+		60
 	}
 }
 

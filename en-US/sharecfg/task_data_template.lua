@@ -25120,6 +25120,7 @@ pg.task_data_template = {
 		sub_type = 1020,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "10422",
@@ -25142,9 +25143,6 @@ pg.task_data_template = {
 				1,
 				600
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[10422] = {
@@ -25159,6 +25157,7 @@ pg.task_data_template = {
 		sub_type = 1020,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "10423",
@@ -25181,9 +25180,6 @@ pg.task_data_template = {
 				1,
 				600
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[10423] = {
@@ -25198,6 +25194,7 @@ pg.task_data_template = {
 		sub_type = 1020,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "0",
@@ -25220,9 +25217,6 @@ pg.task_data_template = {
 				1,
 				1500
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[10424] = {
@@ -25237,6 +25231,7 @@ pg.task_data_template = {
 		sub_type = 1021,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "10425",
@@ -25259,9 +25254,6 @@ pg.task_data_template = {
 				18012,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[10425] = {
@@ -25276,6 +25268,7 @@ pg.task_data_template = {
 		sub_type = 1021,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "10426",
@@ -25298,9 +25291,6 @@ pg.task_data_template = {
 				18012,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[10426] = {
@@ -25315,6 +25305,7 @@ pg.task_data_template = {
 		sub_type = 1021,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "0",
@@ -25337,9 +25328,6 @@ pg.task_data_template = {
 				18013,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[10427] = {
@@ -25354,6 +25342,7 @@ pg.task_data_template = {
 		sub_type = 21,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "0",
@@ -25371,9 +25360,6 @@ pg.task_data_template = {
 				18012,
 				2
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[10428] = {
@@ -25388,6 +25374,7 @@ pg.task_data_template = {
 		sub_type = 21,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "0",
@@ -25405,9 +25392,6 @@ pg.task_data_template = {
 				18012,
 				2
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[10429] = {
@@ -25422,6 +25406,7 @@ pg.task_data_template = {
 		sub_type = 21,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "0",
@@ -25439,9 +25424,6 @@ pg.task_data_template = {
 				18013,
 				2
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[10430] = {
@@ -25456,6 +25438,7 @@ pg.task_data_template = {
 		sub_type = 21,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "0",
@@ -25473,9 +25456,6 @@ pg.task_data_template = {
 				403051,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[10441] = {
@@ -28173,7 +28153,7 @@ pg.task_data_template = {
 		name = "红染PT任务1",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -28183,7 +28163,7 @@ pg.task_data_template = {
 		next_task = "13422",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13421,
 		target_num = 500,
 		fix_task = 0,
@@ -28205,7 +28185,7 @@ pg.task_data_template = {
 		name = "红染PT任务2",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -28215,7 +28195,7 @@ pg.task_data_template = {
 		next_task = "13423",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13422,
 		target_num = 1000,
 		fix_task = 0,
@@ -28237,7 +28217,7 @@ pg.task_data_template = {
 		name = "红染PT任务3",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -28247,7 +28227,7 @@ pg.task_data_template = {
 		next_task = "13424",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13423,
 		target_num = 1500,
 		fix_task = 0,
@@ -28269,7 +28249,7 @@ pg.task_data_template = {
 		name = "红染PT任务4",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -28279,7 +28259,7 @@ pg.task_data_template = {
 		next_task = "13425",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13424,
 		target_num = 2000,
 		fix_task = 0,
@@ -28301,7 +28281,7 @@ pg.task_data_template = {
 		name = "红染PT任务5",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -28311,7 +28291,7 @@ pg.task_data_template = {
 		next_task = "13426",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13425,
 		target_num = 2500,
 		fix_task = 0,
@@ -28333,7 +28313,7 @@ pg.task_data_template = {
 		name = "红染PT任务6",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -28343,7 +28323,7 @@ pg.task_data_template = {
 		next_task = "13427",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13426,
 		target_num = 3000,
 		fix_task = 0,
@@ -28365,7 +28345,7 @@ pg.task_data_template = {
 		name = "红染PT任务7",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -28375,7 +28355,7 @@ pg.task_data_template = {
 		next_task = "13428",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13427,
 		target_num = 4000,
 		fix_task = 0,
@@ -28397,7 +28377,7 @@ pg.task_data_template = {
 		name = "红染PT任务8",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -28407,7 +28387,7 @@ pg.task_data_template = {
 		next_task = "13429",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13428,
 		target_num = 5000,
 		fix_task = 0,
@@ -28429,7 +28409,7 @@ pg.task_data_template = {
 		name = "红染PT任务9",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -28439,7 +28419,7 @@ pg.task_data_template = {
 		next_task = "13430",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13429,
 		target_num = 6000,
 		fix_task = 0,
@@ -28461,7 +28441,7 @@ pg.task_data_template = {
 		name = "红染PT任务10",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -28471,7 +28451,7 @@ pg.task_data_template = {
 		next_task = "13431",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13430,
 		target_num = 8000,
 		fix_task = 0,
@@ -28493,7 +28473,7 @@ pg.task_data_template = {
 		name = "红染PT任务11",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -28503,7 +28483,7 @@ pg.task_data_template = {
 		next_task = "13432",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13431,
 		target_num = 10000,
 		fix_task = 0,
@@ -28525,7 +28505,7 @@ pg.task_data_template = {
 		name = "红染PT任务12",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -28535,7 +28515,7 @@ pg.task_data_template = {
 		next_task = "13433",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13432,
 		target_num = 12500,
 		fix_task = 0,
@@ -28557,7 +28537,7 @@ pg.task_data_template = {
 		name = "红染PT任务13",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -28567,7 +28547,7 @@ pg.task_data_template = {
 		next_task = "13434",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13433,
 		target_num = 15000,
 		fix_task = 0,
@@ -28589,7 +28569,7 @@ pg.task_data_template = {
 		name = "红染PT任务14",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -28599,7 +28579,7 @@ pg.task_data_template = {
 		next_task = "13435",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13434,
 		target_num = 17500,
 		fix_task = 0,
@@ -28621,7 +28601,7 @@ pg.task_data_template = {
 		name = "红染PT任务15",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -28631,7 +28611,7 @@ pg.task_data_template = {
 		next_task = "13436",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13435,
 		target_num = 20000,
 		fix_task = 0,
@@ -28653,7 +28633,7 @@ pg.task_data_template = {
 		name = "红染PT任务16",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -28663,7 +28643,7 @@ pg.task_data_template = {
 		next_task = "13437",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13436,
 		target_num = 22500,
 		fix_task = 0,
@@ -28685,7 +28665,7 @@ pg.task_data_template = {
 		name = "红染PT任务17",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -28695,7 +28675,7 @@ pg.task_data_template = {
 		next_task = "13438",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13437,
 		target_num = 25000,
 		fix_task = 0,
@@ -28717,7 +28697,7 @@ pg.task_data_template = {
 		name = "红染PT任务18",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -28727,7 +28707,7 @@ pg.task_data_template = {
 		next_task = "13439",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13438,
 		target_num = 27500,
 		fix_task = 0,
@@ -28749,7 +28729,7 @@ pg.task_data_template = {
 		name = "红染PT任务19",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -28759,7 +28739,7 @@ pg.task_data_template = {
 		next_task = "13440",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13439,
 		target_num = 30000,
 		fix_task = 0,
@@ -28781,7 +28761,7 @@ pg.task_data_template = {
 		name = "红染PT任务20",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -28791,7 +28771,7 @@ pg.task_data_template = {
 		next_task = "13441",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13440,
 		target_num = 32500,
 		fix_task = 0,
@@ -28813,7 +28793,7 @@ pg.task_data_template = {
 		name = "红染PT任务21",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -28823,7 +28803,7 @@ pg.task_data_template = {
 		next_task = "13442",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13441,
 		target_num = 35000,
 		fix_task = 0,
@@ -28845,7 +28825,7 @@ pg.task_data_template = {
 		name = "红染PT任务22",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -28855,7 +28835,7 @@ pg.task_data_template = {
 		next_task = "13443",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13442,
 		target_num = 37500,
 		fix_task = 0,
@@ -28877,7 +28857,7 @@ pg.task_data_template = {
 		name = "红染PT任务23",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -28887,7 +28867,7 @@ pg.task_data_template = {
 		next_task = "13444",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13443,
 		target_num = 40000,
 		fix_task = 0,
@@ -28909,7 +28889,7 @@ pg.task_data_template = {
 		name = "红染PT任务24",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -28919,7 +28899,7 @@ pg.task_data_template = {
 		next_task = "13445",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13444,
 		target_num = 45000,
 		fix_task = 0,
@@ -28941,7 +28921,7 @@ pg.task_data_template = {
 		name = "红染PT任务25",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -28951,7 +28931,7 @@ pg.task_data_template = {
 		next_task = "13446",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13445,
 		target_num = 50000,
 		fix_task = 0,
@@ -28973,7 +28953,7 @@ pg.task_data_template = {
 		name = "红染PT任务26",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -28983,7 +28963,7 @@ pg.task_data_template = {
 		next_task = "13447",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13446,
 		target_num = 60000,
 		fix_task = 0,
@@ -29005,7 +28985,7 @@ pg.task_data_template = {
 		name = "红染PT任务27",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -29015,7 +28995,7 @@ pg.task_data_template = {
 		next_task = "13448",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13447,
 		target_num = 70000,
 		fix_task = 0,
@@ -29037,7 +29017,7 @@ pg.task_data_template = {
 		name = "红染PT任务28",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -29047,7 +29027,7 @@ pg.task_data_template = {
 		next_task = "13449",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13448,
 		target_num = 80000,
 		fix_task = 0,
@@ -29069,7 +29049,7 @@ pg.task_data_template = {
 		name = "红染PT任务29",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -29079,7 +29059,7 @@ pg.task_data_template = {
 		next_task = "13450",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13449,
 		target_num = 90000,
 		fix_task = 0,
@@ -29101,7 +29081,7 @@ pg.task_data_template = {
 		name = "红染PT任务30",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30099",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -29111,7 +29091,7 @@ pg.task_data_template = {
 		next_task = "0",
 		visibility = 0,
 		story_id = "",
-		target_id_for_client = 103,
+		target_id_for_client = 106,
 		id = 13450,
 		target_num = 100000,
 		fix_task = 0,
@@ -29709,10 +29689,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积1",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13513",
@@ -29730,9 +29711,6 @@ pg.task_data_template = {
 				54005,
 				5
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13513] = {
@@ -29743,10 +29721,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积2",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13514",
@@ -29764,9 +29743,6 @@ pg.task_data_template = {
 				18012,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13514] = {
@@ -29777,10 +29753,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积3",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13515",
@@ -29798,9 +29775,6 @@ pg.task_data_template = {
 				18022,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13515] = {
@@ -29811,10 +29785,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积4",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13516",
@@ -29832,9 +29807,6 @@ pg.task_data_template = {
 				1,
 				3000
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13516] = {
@@ -29845,10 +29817,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积5",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13517",
@@ -29866,9 +29839,6 @@ pg.task_data_template = {
 				15008,
 				200
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13517] = {
@@ -29879,10 +29849,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积6",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13518",
@@ -29900,9 +29871,6 @@ pg.task_data_template = {
 				1,
 				3000
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13518] = {
@@ -29913,10 +29881,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积7",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13519",
@@ -29934,9 +29903,6 @@ pg.task_data_template = {
 				18012,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13519] = {
@@ -29947,10 +29913,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积8",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13520",
@@ -29968,9 +29935,6 @@ pg.task_data_template = {
 				18022,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13520] = {
@@ -29981,10 +29945,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积9",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13521",
@@ -30002,9 +29967,6 @@ pg.task_data_template = {
 				1,
 				4000
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13521] = {
@@ -30015,10 +29977,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积10",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13522",
@@ -30036,9 +29999,6 @@ pg.task_data_template = {
 				15008,
 				300
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13522] = {
@@ -30049,10 +30009,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积11",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13523",
@@ -30070,9 +30031,6 @@ pg.task_data_template = {
 				18012,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13523] = {
@@ -30083,10 +30041,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积12",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13524",
@@ -30104,9 +30063,6 @@ pg.task_data_template = {
 				18022,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13524] = {
@@ -30117,10 +30073,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积13",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13525",
@@ -30138,9 +30095,6 @@ pg.task_data_template = {
 				16003,
 				2
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13525] = {
@@ -30151,10 +30105,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积14",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13526",
@@ -30172,9 +30127,6 @@ pg.task_data_template = {
 				15008,
 				300
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13526] = {
@@ -30185,10 +30137,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积15",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13527",
@@ -30206,9 +30159,6 @@ pg.task_data_template = {
 				18013,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13527] = {
@@ -30219,10 +30169,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积16",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13528",
@@ -30240,9 +30191,6 @@ pg.task_data_template = {
 				18023,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13528] = {
@@ -30253,10 +30201,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积17",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13529",
@@ -30274,9 +30223,6 @@ pg.task_data_template = {
 				16023,
 				2
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13529] = {
@@ -30287,10 +30233,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积18",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13530",
@@ -30308,9 +30255,6 @@ pg.task_data_template = {
 				15008,
 				300
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13530] = {
@@ -30321,10 +30265,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积19",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13531",
@@ -30342,9 +30287,6 @@ pg.task_data_template = {
 				18013,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13531] = {
@@ -30355,10 +30297,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积20",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13532",
@@ -30376,9 +30319,6 @@ pg.task_data_template = {
 				18023,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13532] = {
@@ -30389,10 +30329,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积21",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13533",
@@ -30410,9 +30351,6 @@ pg.task_data_template = {
 				16013,
 				2
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13533] = {
@@ -30423,10 +30361,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积22",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13534",
@@ -30444,9 +30383,6 @@ pg.task_data_template = {
 				15008,
 				300
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13534] = {
@@ -30457,10 +30393,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积23",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13535",
@@ -30478,9 +30415,6 @@ pg.task_data_template = {
 				305061,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13535] = {
@@ -30491,10 +30425,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积24",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13536",
@@ -30512,9 +30447,6 @@ pg.task_data_template = {
 				54006,
 				2
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13536] = {
@@ -30525,10 +30457,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积25",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13537",
@@ -30546,9 +30479,6 @@ pg.task_data_template = {
 				15008,
 				500
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13537] = {
@@ -30559,10 +30489,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积26",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13538",
@@ -30580,9 +30511,6 @@ pg.task_data_template = {
 				18013,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13538] = {
@@ -30593,10 +30521,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积27",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13539",
@@ -30614,9 +30543,6 @@ pg.task_data_template = {
 				18023,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13539] = {
@@ -30627,10 +30553,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积28",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13540",
@@ -30648,9 +30575,6 @@ pg.task_data_template = {
 				305061,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13540] = {
@@ -30661,10 +30585,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积29",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13541",
@@ -30682,9 +30607,6 @@ pg.task_data_template = {
 				30035,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13541] = {
@@ -30695,10 +30617,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积30",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13542",
@@ -30716,9 +30639,6 @@ pg.task_data_template = {
 				54050,
 				2
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13542] = {
@@ -30729,10 +30649,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积31",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13543",
@@ -30750,9 +30671,6 @@ pg.task_data_template = {
 				15008,
 				500
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13543] = {
@@ -30763,10 +30681,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积32",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13544",
@@ -30784,9 +30703,6 @@ pg.task_data_template = {
 				54005,
 				5
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13544] = {
@@ -30797,10 +30713,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积33",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13545",
@@ -30818,9 +30735,6 @@ pg.task_data_template = {
 				305061,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13545] = {
@@ -30831,10 +30745,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积34",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13546",
@@ -30852,9 +30767,6 @@ pg.task_data_template = {
 				54050,
 				2
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13546] = {
@@ -30865,10 +30777,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积35",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13547",
@@ -30886,9 +30799,6 @@ pg.task_data_template = {
 				54005,
 				5
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13547] = {
@@ -30899,10 +30809,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积36",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13548",
@@ -30920,9 +30831,6 @@ pg.task_data_template = {
 				54050,
 				2
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13548] = {
@@ -30933,10 +30841,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积37",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13549",
@@ -30954,9 +30863,6 @@ pg.task_data_template = {
 				305061,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13549] = {
@@ -30967,10 +30873,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积38",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13550",
@@ -30988,9 +30895,6 @@ pg.task_data_template = {
 				30035,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13550] = {
@@ -31001,10 +30905,11 @@ pg.task_data_template = {
 		name = "『长门陆奥活动』-PT累积39",
 		count_inherit = 0,
 		desc = "PTクエスト",
-		target_id_2 = "30106",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "13551",
@@ -31022,9 +30927,6 @@ pg.task_data_template = {
 				30035,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[13577] = {
@@ -34846,7 +34748,7 @@ pg.task_data_template = {
 		name = "小贝法复刻活动兑换1",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30116",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -34878,7 +34780,7 @@ pg.task_data_template = {
 		name = "小贝法复刻活动兑换2",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30116",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -34910,7 +34812,7 @@ pg.task_data_template = {
 		name = "小贝法复刻活动兑换3",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30116",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -34942,7 +34844,7 @@ pg.task_data_template = {
 		name = "小贝法复刻活动兑换4",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30116",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -34974,7 +34876,7 @@ pg.task_data_template = {
 		name = "小贝法复刻活动兑换5",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30116",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -35006,7 +34908,7 @@ pg.task_data_template = {
 		name = "小贝法复刻活动兑换6",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30116",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -35038,7 +34940,7 @@ pg.task_data_template = {
 		name = "小贝法复刻活动兑换7",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30116",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -35070,7 +34972,7 @@ pg.task_data_template = {
 		name = "小贝法复刻活动兑换8",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30116",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -35102,7 +35004,7 @@ pg.task_data_template = {
 		name = "小贝法复刻活动兑换9",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30116",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -35134,7 +35036,7 @@ pg.task_data_template = {
 		name = "小贝法复刻活动兑换10",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30116",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -35166,7 +35068,7 @@ pg.task_data_template = {
 		name = "小贝法复刻活动兑换11",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30116",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -35198,7 +35100,7 @@ pg.task_data_template = {
 		name = "小贝法复刻活动兑换12",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30116",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -35230,7 +35132,7 @@ pg.task_data_template = {
 		name = "小贝法复刻活动兑换13",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30116",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -35262,7 +35164,7 @@ pg.task_data_template = {
 		name = "小贝法复刻活动兑换14",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30116",
+		target_id_2 = "",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -35959,10 +35861,10 @@ pg.task_data_template = {
 		}
 	},
 	[13760] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 0,
-		type = 6,
+		type = 26,
 		name = "驱逐修复1",
 		count_inherit = 0,
 		desc = "驱逐修复1",
@@ -35991,10 +35893,10 @@ pg.task_data_template = {
 		}
 	},
 	[13761] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 0,
-		type = 6,
+		type = 26,
 		name = "驱逐修复2",
 		count_inherit = 0,
 		desc = "驱逐修复2",
@@ -36023,10 +35925,10 @@ pg.task_data_template = {
 		}
 	},
 	[13762] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 0,
-		type = 6,
+		type = 26,
 		name = "驱逐修复3",
 		count_inherit = 0,
 		desc = "驱逐修复3",
@@ -36055,10 +35957,10 @@ pg.task_data_template = {
 		}
 	},
 	[13763] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 8796,
-		type = 6,
+		type = 26,
 		name = "驱逐修复总",
 		count_inherit = 0,
 		desc = "驱逐修复总",
@@ -36091,10 +35993,10 @@ pg.task_data_template = {
 		}
 	},
 	[13764] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 0,
-		type = 6,
+		type = 26,
 		name = "巡洋修复1",
 		count_inherit = 0,
 		desc = "巡洋修复1",
@@ -36123,10 +36025,10 @@ pg.task_data_template = {
 		}
 	},
 	[13765] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 0,
-		type = 6,
+		type = 26,
 		name = "巡洋修复2",
 		count_inherit = 0,
 		desc = "巡洋修复2",
@@ -36155,10 +36057,10 @@ pg.task_data_template = {
 		}
 	},
 	[13766] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 0,
-		type = 6,
+		type = 26,
 		name = "巡洋修复3",
 		count_inherit = 0,
 		desc = "巡洋修复3",
@@ -36187,10 +36089,10 @@ pg.task_data_template = {
 		}
 	},
 	[13767] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 8797,
-		type = 6,
+		type = 26,
 		name = "巡洋修复总",
 		count_inherit = 0,
 		desc = "巡洋修复总",
@@ -36223,10 +36125,10 @@ pg.task_data_template = {
 		}
 	},
 	[13768] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 0,
-		type = 6,
+		type = 26,
 		name = "战列修复1",
 		count_inherit = 0,
 		desc = "战列修复1",
@@ -36255,10 +36157,10 @@ pg.task_data_template = {
 		}
 	},
 	[13769] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 0,
-		type = 6,
+		type = 26,
 		name = "战列修复2",
 		count_inherit = 0,
 		desc = "战列修复2",
@@ -36287,10 +36189,10 @@ pg.task_data_template = {
 		}
 	},
 	[13770] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 0,
-		type = 6,
+		type = 26,
 		name = "战列修复3",
 		count_inherit = 0,
 		desc = "战列修复3",
@@ -36319,10 +36221,10 @@ pg.task_data_template = {
 		}
 	},
 	[13771] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 8798,
-		type = 6,
+		type = 26,
 		name = "战列修复总",
 		count_inherit = 0,
 		desc = "战列修复总",
@@ -36355,10 +36257,10 @@ pg.task_data_template = {
 		}
 	},
 	[13772] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 0,
-		type = 6,
+		type = 26,
 		name = "航母修复1",
 		count_inherit = 0,
 		desc = "航母修复1",
@@ -36387,10 +36289,10 @@ pg.task_data_template = {
 		}
 	},
 	[13773] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 0,
-		type = 6,
+		type = 26,
 		name = "航母修复2",
 		count_inherit = 0,
 		desc = "航母修复2",
@@ -36419,10 +36321,10 @@ pg.task_data_template = {
 		}
 	},
 	[13774] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 0,
-		type = 6,
+		type = 26,
 		name = "航母修复3",
 		count_inherit = 0,
 		desc = "航母修复3",
@@ -36451,10 +36353,10 @@ pg.task_data_template = {
 		}
 	},
 	[13775] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 8799,
-		type = 6,
+		type = 26,
 		name = "航母修复总",
 		count_inherit = 0,
 		desc = "航母修复总",
@@ -36487,10 +36389,10 @@ pg.task_data_template = {
 		}
 	},
 	[13776] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 8791,
-		type = 6,
+		type = 26,
 		name = "三笠船模任务",
 		count_inherit = 0,
 		desc = "三笠船模任务",
@@ -42613,6 +42515,7 @@ pg.task_data_template = {
 		sub_type = 1020,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "14016",
@@ -42635,9 +42538,6 @@ pg.task_data_template = {
 				1,
 				600
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[14016] = {
@@ -42652,6 +42552,7 @@ pg.task_data_template = {
 		sub_type = 1020,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "14017",
@@ -42674,9 +42575,6 @@ pg.task_data_template = {
 				1,
 				600
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[14017] = {
@@ -42691,6 +42589,7 @@ pg.task_data_template = {
 		sub_type = 1020,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "0",
@@ -42713,9 +42612,6 @@ pg.task_data_template = {
 				1,
 				1500
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[14018] = {
@@ -42730,6 +42626,7 @@ pg.task_data_template = {
 		sub_type = 1021,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "14019",
@@ -42752,9 +42649,6 @@ pg.task_data_template = {
 				18012,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[14019] = {
@@ -42769,6 +42663,7 @@ pg.task_data_template = {
 		sub_type = 1021,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "14020",
@@ -42791,9 +42686,6 @@ pg.task_data_template = {
 				18012,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[14020] = {
@@ -42808,6 +42700,7 @@ pg.task_data_template = {
 		sub_type = 1021,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "0",
@@ -42830,9 +42723,6 @@ pg.task_data_template = {
 				18013,
 				1
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[14021] = {
@@ -42843,7 +42733,7 @@ pg.task_data_template = {
 		name = "龙骧-PT累积1",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30075",
+		target_id_2 = "200",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -42877,7 +42767,7 @@ pg.task_data_template = {
 		name = "龙骧-PT累积2",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30075",
+		target_id_2 = "200",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -42911,7 +42801,7 @@ pg.task_data_template = {
 		name = "龙骧-PT累积3",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30075",
+		target_id_2 = "200",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -42945,7 +42835,7 @@ pg.task_data_template = {
 		name = "龙骧-PT累积4",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30075",
+		target_id_2 = "200",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -42979,7 +42869,7 @@ pg.task_data_template = {
 		name = "龙骧-PT累积5",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30075",
+		target_id_2 = "200",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -43013,7 +42903,7 @@ pg.task_data_template = {
 		name = "龙骧-PT累积6",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30075",
+		target_id_2 = "200",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -43047,7 +42937,7 @@ pg.task_data_template = {
 		name = "龙骧-PT累积7",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30075",
+		target_id_2 = "200",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -43081,7 +42971,7 @@ pg.task_data_template = {
 		name = "龙骧-PT累积8",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30075",
+		target_id_2 = "200",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -43115,7 +43005,7 @@ pg.task_data_template = {
 		name = "龙骧-PT累积9",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30075",
+		target_id_2 = "200",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -43149,7 +43039,7 @@ pg.task_data_template = {
 		name = "龙骧-PT累积10",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30075",
+		target_id_2 = "200",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -43183,7 +43073,7 @@ pg.task_data_template = {
 		name = "龙骧-PT累积11",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30075",
+		target_id_2 = "200",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -43217,7 +43107,7 @@ pg.task_data_template = {
 		name = "龙骧-PT累积12",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30075",
+		target_id_2 = "200",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -43251,7 +43141,7 @@ pg.task_data_template = {
 		name = "龙骧-PT累积13",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30075",
+		target_id_2 = "200",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -43285,7 +43175,7 @@ pg.task_data_template = {
 		name = "龙骧-PT累积14",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30075",
+		target_id_2 = "200",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -44198,7 +44088,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积1",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -44232,7 +44122,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积2",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -44266,7 +44156,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积3",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -44300,7 +44190,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积4",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -44334,7 +44224,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积5",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -44368,7 +44258,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积6",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -44402,7 +44292,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积7",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -44436,7 +44326,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积8",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -44470,7 +44360,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积9",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -44504,7 +44394,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积10",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -44538,7 +44428,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积11",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -44572,7 +44462,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积12",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -44606,7 +44496,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积13",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -44640,7 +44530,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积14",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -44674,7 +44564,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积15",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -44708,7 +44598,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积16",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -44742,7 +44632,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积17",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -44776,7 +44666,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积18",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -44810,7 +44700,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积19",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -44844,7 +44734,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积20",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -44878,7 +44768,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积21",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -44912,7 +44802,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积22",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -44946,7 +44836,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积23",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -44980,7 +44870,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积24",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -45014,7 +44904,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积25",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -45048,7 +44938,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积26",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -45082,7 +44972,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积27",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -45116,7 +45006,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积28",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -45150,7 +45040,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积29",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -45184,7 +45074,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积30",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -45218,7 +45108,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积31",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -45252,7 +45142,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积32",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -45286,7 +45176,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积33",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -45320,7 +45210,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积34",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -45354,7 +45244,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积35",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -45388,7 +45278,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积36",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -45422,7 +45312,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积37",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -45456,7 +45346,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积38",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -45490,7 +45380,7 @@ pg.task_data_template = {
 		name = "『天城活动』-PT累积39",
 		count_inherit = 0,
 		desc = "PT",
-		target_id_2 = "30054",
+		target_id_2 = "211",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -62106,7 +61996,7 @@ pg.task_data_template = {
 		scene = {
 			"ACTIVITY",
 			{
-				id = 30282
+				id = 437
 			}
 		}
 	},
@@ -62152,7 +62042,7 @@ pg.task_data_template = {
 		name = "hololive大佬章解锁任务3",
 		count_inherit = 0,
 		desc = "Collect 24,000 P-TNT and claim the reward. ",
-		target_id_2 = "30273",
+		target_id_2 = "428",
 		sub_type = 1001,
 		added_tip = 0,
 		story_icon = "",
@@ -62177,7 +62067,7 @@ pg.task_data_template = {
 		scene = {
 			"ACTIVITY",
 			{
-				id = 30275
+				id = 430
 			}
 		}
 	},
@@ -62214,7 +62104,7 @@ pg.task_data_template = {
 		scene = {
 			"ACTIVITY",
 			{
-				id = 30274
+				id = 429
 			}
 		}
 	},
@@ -62394,7 +62284,7 @@ pg.task_data_template = {
 		scene = {
 			"ACTIVITY",
 			{
-				id = 30284
+				id = 425
 			}
 		}
 	},
@@ -69199,6 +69089,1128 @@ pg.task_data_template = {
 		},
 		scene = {
 			"LEVEL"
+		}
+	},
+	[15368] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92596,
+		type = 6,
+		name = "『毛系活动』角色收集：塔什干",
+		count_inherit = 0,
+		desc = "Fully Limit Break Tashkent.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 701044,
+		id = 15368,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "701044",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59148,
+				600
+			}
+		}
+	},
+	[15369] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92597,
+		type = 6,
+		name = "『毛系活动』角色收集：恰巴耶夫",
+		count_inherit = 0,
+		desc = "Fully Limit Break Chapayev.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 702034,
+		id = 15369,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "702034",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59148,
+				600
+			}
+		}
+	},
+	[15370] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92598,
+		type = 6,
+		name = "『毛系活动』角色收集：苏维埃罗希娅",
+		count_inherit = 0,
+		desc = "Fully Limit Break Sovetskaya Rossiya.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 705054,
+		id = 15370,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "705054",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59148,
+				600
+			}
+		}
+	},
+	[15371] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92599,
+		type = 6,
+		name = "『毛系活动』角色收集：甘古特",
+		count_inherit = 0,
+		desc = "Fully Limit Break Gangut.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 705014,
+		id = 15371,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "705014",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59148,
+				400
+			}
+		}
+	},
+	[15372] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92600,
+		type = 6,
+		name = "『毛系活动』角色收集：威严",
+		count_inherit = 0,
+		desc = "Fully Limit Break Grozny.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 701024,
+		id = 15372,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "701024",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59148,
+				400
+			}
+		}
+	},
+	[15373] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92601,
+		type = 6,
+		name = "『毛系活动』角色收集：水星纪念",
+		count_inherit = 0,
+		desc = "Fully Limit Break Pamiat Merkuria.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 702024,
+		id = 15373,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "702024",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59148,
+				400
+			}
+		}
+	},
+	[15374] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92602,
+		type = 6,
+		name = "『毛系活动』角色收集：明斯克",
+		count_inherit = 0,
+		desc = "Fully Limit Break Minsk.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 701034,
+		id = 15374,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "701034",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59148,
+				400
+			}
+		}
+	},
+	[15375] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92603,
+		type = 6,
+		name = "『毛系活动』角色刷关：菲尼克斯",
+		count_inherit = 0,
+		desc = "Clear A2 or C2 10 times with Phoenix at max Limit Break in your fleet. Phoenix must not sink in battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15375,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1330113,
+			1332113
+		},
+		target_id_2 = {
+			102044
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59148,
+				100
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15376] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92604,
+		type = 6,
+		name = "『毛系活动』角色刷关：波特兰",
+		count_inherit = 0,
+		desc = "Clear A3 or C3 10 times with Portland at max Limit Break in your fleet. Portland must not sink in battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15376,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1330213,
+			1332213
+		},
+		target_id_2 = {
+			103064
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59148,
+				100
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15377] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92605,
+		type = 6,
+		name = "『毛系活动』角色刷关：南达科他",
+		count_inherit = 0,
+		desc = "Clear B2 or D2 10 times with South Dakota at max Limit Break in your fleet. South Dakota must not sink in battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15377,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1331113,
+			1333113
+		},
+		target_id_2 = {
+			105144
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59148,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15378] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92606,
+		type = 6,
+		name = "『毛系活动』角色刷关：企业",
+		count_inherit = 0,
+		desc = "Clear B3 or D3 10 times with Enterprise at max Limit Break in your fleet. Enterprise must not sink in battle.",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15378,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1331213,
+			1333213
+		},
+		target_id_2 = {
+			107064
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59148,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15379] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92614,
+		type = 36,
+		name = "『毛系活动』-日常建造",
+		count_inherit = 0,
+		desc = "Build 3 ships.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15379,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59149,
+				300
+			}
+		}
+	},
+	[15380] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92615,
+		type = 36,
+		name = "『毛系活动』-日常出击",
+		count_inherit = 0,
+		desc = "Sortie and obtain 15 victories.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15380,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59149,
+				300
+			}
+		}
+	},
+	[15381] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92616,
+		type = 36,
+		name = "『毛系活动』-日常困难本",
+		count_inherit = 0,
+		desc = "Sortie and clear 1 non-event Hard Mode Stage.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15381,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59149,
+				150
+			}
+		}
+	},
+	[15382] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92617,
+		type = 6,
+		name = "『毛系活动』通关A1/C1",
+		count_inherit = 0,
+		desc = "Clear A1 or C1.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15383",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15382,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1310001,
+			1310021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59149,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15383] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92618,
+		type = 6,
+		name = "『毛系活动』通关A2/C2",
+		count_inherit = 0,
+		desc = "Clear A2 or C2.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15384",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15383,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1310002,
+			1310022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59149,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15384] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92619,
+		type = 6,
+		name = "『毛系活动』通关A3/C3",
+		count_inherit = 0,
+		desc = "Clear A3 or C3.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15385",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15384,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1310003,
+			1310023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59149,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15385] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92620,
+		type = 6,
+		name = "『毛系活动』通关B1/D1",
+		count_inherit = 0,
+		desc = "Clear B1 or D1.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15386",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15385,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1310004,
+			1310024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59149,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15386] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92621,
+		type = 6,
+		name = "『毛系活动』通关B2/D2",
+		count_inherit = 0,
+		desc = "Clear B2 or D2.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15387",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15386,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1310005,
+			1310025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59149,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15387] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92622,
+		type = 6,
+		name = "『毛系活动』通关B3/D3",
+		count_inherit = 0,
+		desc = "Clear B3 or D3.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15388",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15387,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1310006,
+			1310026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59149,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15388] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92623,
+		type = 6,
+		name = "『毛系活动』通关SP",
+		count_inherit = 0,
+		desc = "Clear SP.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1310041,
+		id = 15388,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1310041",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15389] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92624,
+		type = 6,
+		name = "『毛系活动』通关D3",
+		count_inherit = 0,
+		desc = "Clear D3.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1310026,
+		id = 15389,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1310026",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				167,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15390] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92625,
+		type = 6,
+		name = "『毛系活动』A1/C1的3星",
+		count_inherit = 0,
+		desc = "Complete A1 or C1 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15391",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15390,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1310001,
+			1310021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15391] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92626,
+		type = 6,
+		name = "『毛系活动』A2/C2的3星",
+		count_inherit = 0,
+		desc = "Complete A2 or C2 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15392",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15391,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1310002,
+			1310022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15392] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92627,
+		type = 6,
+		name = "『毛系活动』A3/C3的3星",
+		count_inherit = 0,
+		desc = "Complete A3 or C3 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15393",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15392,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1310003,
+			1310023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15393] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92628,
+		type = 6,
+		name = "『毛系活动』B1/D1的3星",
+		count_inherit = 0,
+		desc = "Complete B1 or D1 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15394",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15393,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1310004,
+			1310024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15394] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92629,
+		type = 6,
+		name = "『毛系活动』B2/D2的3星",
+		count_inherit = 0,
+		desc = "Complete B2 or D2 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15395",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15394,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1310005,
+			1310025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15395] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92630,
+		type = 6,
+		name = "『毛系活动』B3/D3的3星",
+		count_inherit = 0,
+		desc = "Complete B3 or D3 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15395,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1310006,
+			1310026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15396] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92670,
+		type = 6,
+		name = "登录送皮肤体验券活动",
+		count_inherit = 0,
+		desc = "Login to the game.",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15396,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				144,
+				2
+			}
 		}
 	},
 	[31013] = {
@@ -79465,6 +80477,35 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		15365,
 		15366,
 		15367,
+		15368,
+		15369,
+		15370,
+		15371,
+		15372,
+		15373,
+		15374,
+		15375,
+		15376,
+		15377,
+		15378,
+		15379,
+		15380,
+		15381,
+		15382,
+		15383,
+		15384,
+		15385,
+		15386,
+		15387,
+		15388,
+		15389,
+		15390,
+		15391,
+		15392,
+		15393,
+		15394,
+		15395,
+		15396,
 		31013,
 		31014,
 		31015,

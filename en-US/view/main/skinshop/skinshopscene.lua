@@ -162,9 +162,7 @@ function slot0.initSkinPage(slot0)
 	end
 
 	for slot4, slot5 in ipairs(slot0.skinGoodsVOs) do
-		print(slot5:getSkinId())
-
-		slot0.countByIds[(slot1[slot5.getSkinId()].shop_type_id == 0 and 9999) or slot7] = slot0.countByIds[(slot1[slot5.getSkinId()].shop_type_id == 0 and 9999) or slot7] + 1
+		slot0.countByIds[(slot1[slot5:getSkinId()].shop_type_id == 0 and 9999) or slot7] = slot0.countByIds[(slot1[slot5.getSkinId()].shop_type_id == 0 and 9999) or slot7] + 1
 	end
 
 	slot1 = slot0:findTF("toggles/mask/content", slot0.leftPanel)
