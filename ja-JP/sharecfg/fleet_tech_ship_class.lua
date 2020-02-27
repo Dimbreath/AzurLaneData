@@ -1823,6 +1823,39 @@ pg.fleet_tech_ship_class = {
 			60506
 		}
 	},
+	[70101] = {
+		shiptype = 1,
+		name = "グネフヌイ級",
+		t_level = 4,
+		id = 70101,
+		t_level_1 = 136,
+		nation = 7,
+		ships = {
+			70102
+		}
+	},
+	[70102] = {
+		shiptype = 1,
+		name = "レニングラード級",
+		t_level = 5,
+		id = 70102,
+		t_level_1 = 134,
+		nation = 7,
+		ships = {
+			70103
+		}
+	},
+	[70103] = {
+		shiptype = 1,
+		name = "タシュケント級",
+		t_level = 8,
+		id = 70103,
+		t_level_1 = 130,
+		nation = 7,
+		ships = {
+			70104
+		}
+	},
 	[70201] = {
 		shiptype = 2,
 		name = "パルラーダ級",
@@ -1832,6 +1865,50 @@ pg.fleet_tech_ship_class = {
 		nation = 7,
 		ships = {
 			70201
+		}
+	},
+	[70202] = {
+		shiptype = 2,
+		name = "ボガトィーリ級",
+		t_level = 1,
+		id = 70202,
+		t_level_1 = 132,
+		nation = 7,
+		ships = {
+			70202
+		}
+	},
+	[70203] = {
+		shiptype = 2,
+		name = "チャパエフ級",
+		t_level = 7,
+		id = 70203,
+		t_level_1 = 135,
+		nation = 7,
+		ships = {
+			70203
+		}
+	},
+	[70501] = {
+		shiptype = 5,
+		name = "ガングート級",
+		t_level = 5,
+		id = 70501,
+		t_level_1 = 135,
+		nation = 7,
+		ships = {
+			70501
+		}
+	},
+	[70502] = {
+		shiptype = 5,
+		name = "ソビエツキー・ソユーズ級",
+		t_level = 8,
+		id = 70502,
+		t_level_1 = 131,
+		nation = 7,
+		ships = {
+			70505
 		}
 	},
 	[80101] = {
@@ -2096,7 +2173,14 @@ pg.fleet_tech_ship_class = {
 		60302,
 		60501,
 		60502,
+		70101,
+		70102,
+		70103,
 		70201,
+		70202,
+		70203,
+		70501,
+		70502,
 		80101,
 		80102,
 		80103,

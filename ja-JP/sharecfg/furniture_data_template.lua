@@ -2820,6 +2820,94 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[166] = {
+		advice = 0,
+		describe = "ねじれゼンマイ!発射せよ饅頭!フォロワー数50万人突破おめでとう!",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "50式撥条饅頭謝状砲",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "qidiicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 166,
+		picture = "",
+		comfortable = 5,
+		tag = 6,
+		size = {
+			7,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qidi",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[167] = {
+		advice = 0,
+		describe = "共同作戦成功の記念として作られた彫刻。北方連合の鋼の精神を感じ取れる――「Ура!」",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "凍海の記念",
+		is_get_time_note = 1,
+		rarity = 5,
+		gain_by = "凍絶の北海",
+		themeId = 0,
+		icon = "maozixunzhangicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 167,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"maozixunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		advice = 0,
 		describe = "ゆゆゆ友情パワーだぴょぴょぴょぴょ………",
@@ -3612,6 +3700,76 @@ pg.furniture_data_template = {
 					"Houzhai_snow01",
 					"action1"
 				}
+			}
+		},
+		interAction_group = {}
+	},
+	[100012] = {
+		advice = 0,
+		describe = "「中に入ると饅頭にされちゃうぞ～なんてね♪」",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "子年変身装置",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 0,
+		icon = "bianhuaxiangicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 100012,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			5,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bianhuaxiangB",
+				"normal"
+			},
+			{
+				"bianhuaxiangT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"bianhuaxiangCharControl"
 			}
 		},
 		interAction_group = {}
@@ -63761,7 +63919,7 @@ pg.furniture_data_template = {
 			{
 				"wash",
 				{
-					-60,
+					-47.3,
 					-25
 				},
 				{
@@ -64194,6 +64352,1267 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[60001] = {
+		advice = 0,
+		describe = "ピョ！逃げられないピョ！",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "収容所の床",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 60,
+		icon = "dibanelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60001,
+		picture = "els/dibanels",
+		comfortable = 4,
+		tag = 4,
+		size = {
+			2,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60002] = {
+		advice = 0,
+		describe = "ピョ！逃げられないピョ！",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "収容所の壁",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 60,
+		icon = "qiangbielsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60002,
+		picture = "els/qiangbiels",
+		comfortable = 4,
+		tag = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60101] = {
+		advice = 0,
+		describe = "シャワー中に北方連合の冷風に冷凍された饅頭",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "フリーズ饅頭",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 60,
+		icon = "bingelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60101,
+		picture = "els/bingels",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60102] = {
+		advice = 0,
+		describe = "私語禁止だピョ！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "収容所食事テーブル",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 60,
+		icon = "canzhuoelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 60102,
+		picture = "els/canzhuoels",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-18.5,
+					114
+				},
+				{
+					1,
+					1
+				},
+				"els/canzhuoels_using"
+			},
+			{
+				"sit",
+				{
+					-128,
+					44.4
+				},
+				{
+					1,
+					1
+				},
+				"els/canzhuoels_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60103] = {
+		advice = 0,
+		describe = "快適に寝れる極上のフレームベッド。別に収容所用ではない",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "収容所ベッド",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 60,
+		icon = "chuangelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 60103,
+		picture = "els/chuangels",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					17.4,
+					31.6
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60104] = {
+		advice = 0,
+		describe = "とにかく万能な椅子。見た目は地味だが",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "収容所椅子",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 60,
+		icon = "dengzielsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 60104,
+		picture = "els/dengziels",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-1.6,
+					55.1
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60105] = {
+		advice = 0,
+		describe = "（本当はただの倉庫でした）",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "特別部屋への道",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 60,
+		icon = "dijiaoelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60105,
+		picture = "els/dijiaoels",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60106] = {
+		advice = 0,
+		describe = "セントラルヒーティング。北方連合と東煌の一部地域ではよく見かける",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "特製湯暖房",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 60,
+		icon = "dinuanelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60106,
+		picture = "els/dinuanels",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60107] = {
+		advice = 0,
+		describe = "「ピロシキと同じモフモフですね～」",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "ブラウンカーペット",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 60,
+		icon = "ditanelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60107,
+		picture = "els/ditanels",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60108] = {
+		advice = 0,
+		describe = "「あははは！これで野菜をやこうではないか」「食べたぁい！」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "焼き入れ銛",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 60,
+		icon = "huoluelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60108,
+		picture = "els/huoluels",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60109] = {
+		advice = 0,
+		describe = "お触り禁止・30分毎休憩・食事補助あり――実は好待遇だピョ",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "囚人風饅頭",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 60,
+		icon = "jiaojiaelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60109,
+		picture = "els/jiaojiaels",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60110] = {
+		advice = 0,
+		describe = "スピリタスでもどうだピョ？",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "バーテンダー饅頭",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 60,
+		icon = "jiubaelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60110,
+		picture = "els/jiubaels",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60111] = {
+		advice = 0,
+		describe = "「アルコール15%…んー酒じゃなくて普通の飲み物ですね…」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "北方連合酒棚",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 60,
+		icon = "jiujiaelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60111,
+		picture = "els/jiujiaels",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60112] = {
+		advice = 0,
+		describe = "「脱出はさせん！」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "檻の扉",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 60,
+		icon = "laomenelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60112,
+		picture = "els/laomenels",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60113] = {
+		advice = 0,
+		describe = "饅頭スタッフたちの出勤時に使われる",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "収容所の階段",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 60,
+		icon = "loutielsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60113,
+		picture = "els/loutiels",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60114] = {
+		advice = 0,
+		describe = "流すことで饅頭を異世界に転送――しないウォッシュレット",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "饅頭ウォシュレット",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 60,
+		icon = "matongelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60114,
+		picture = "els/matongels",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60115] = {
+		advice = 0,
+		describe = "「檻をペロペロするのは自殺行為よ。絶対にしないでね」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "禁則告知板",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 60,
+		icon = "paizielsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60115,
+		picture = "els/paiziels",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60116] = {
+		advice = 0,
+		describe = "収容所のボスだけが座る場所だピョ！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "所長の執務机",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 60,
+		icon = "zhuozielsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 60116,
+		picture = "els/zhuoziels",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-71.5,
+					67.9
+				},
+				{
+					1,
+					1
+				},
+				"els/zhuoziels_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60117] = {
+		advice = 0,
+		describe = "凍る冷風を纏う収容所の檻。そんなに丈夫ではない",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "収容所の檻",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 60,
+		icon = "tieqiangelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60117,
+		picture = "els/tieqiangels",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60119] = {
+		advice = 0,
+		describe = "ウォッカの水割り――酔わされるだけでは済まされない",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "ウォッカ風呂",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 60,
+		icon = "vodkaelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 1,
+		id = 60119,
+		picture = "els/vodkaels",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					60,
+					-43.2
+				},
+				{
+					1,
+					1
+				},
+				"els/vodkaels_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60121] = {
+		advice = 0,
+		describe = "新じゃがの入荷よー",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "補給品の箱",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 60,
+		icon = "xiangelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60121,
+		picture = "els/xiangels",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60122] = {
+		advice = 0,
+		describe = "こんななりでもマッサージチェア",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "尋問椅子",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 60,
+		icon = "xingyielsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 60122,
+		picture = "els/xingyiels",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-10.6,
+					1
+				},
+				{
+					-1,
+					1
+				},
+				"els/xingyiels_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60123] = {
+		advice = 0,
+		describe = "どんどん稼いでもらうピョ",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "饅頭作業台",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 60,
+		icon = "xjtelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60123,
+		picture = "els/xjtels",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60124] = {
+		advice = 0,
+		describe = "作業饅頭たちを監視する饅頭。一番ノリノリの奴である",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "監視饅頭",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 60,
+		icon = "yujingelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60124,
+		picture = "els/yujingels",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60118] = {
+		advice = 0,
+		describe = "バーと言えばビリヤードだピョ！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "収容所ビリヤード",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 60,
+		icon = "tqzelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60118,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			5,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"taiqiuelsB",
+				"normal"
+			},
+			{
+				"taiqiuelsT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"hit",
+						0,
+						"sit"
+					},
+					{
+						"normal",
+						0,
+						"yun"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"taiqiuelsCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[60120] = {
+		advice = 0,
+		describe = "閉じ込めるには、羽根が美しすぎる饅頭もいる",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "脱出饅頭",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 60,
+		icon = "wakengelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60120,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wakengels",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[60301] = {
+		advice = 0,
+		describe = "最近起きたことを知らせてくれる",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "収容所の回覧板",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 60,
+		icon = "banzielsicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60301,
+		picture = "els/banziels",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60302] = {
+		advice = 0,
+		describe = "新情報はないかな……",
+		count = 3,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "壁貼りお知らせ",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 60,
+		icon = "zibaoelsicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60302,
+		picture = "els/zibaoels",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60303] = {
+		advice = 0,
+		describe = "鉄格子の窓。ガラスもちゃんとある",
+		count = 2,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "収容所の窓",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 60,
+		icon = "chuangzielsicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60303,
+		picture = "els/chuangziels",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60304] = {
+		advice = 0,
+		describe = "「うむ、叙情的な風景だ」",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "北連記念写真集",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 60,
+		icon = "qiangshielsicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60304,
+		picture = "els/qiangshiels",
+		comfortable = 3,
+		tag = 5,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60305] = {
+		advice = 0,
+		describe = "別に雪に覆われているから雪色なわけではない",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "雪色の机",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 60,
+		icon = "qzhuoelsicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60305,
+		picture = "els/qzhuoels",
+		comfortable = 1,
+		tag = 5,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -64256,6 +65675,8 @@ pg.furniture_data_template = {
 		163,
 		164,
 		165,
+		166,
+		167,
 		100002,
 		100003,
 		100004,
@@ -64266,6 +65687,7 @@ pg.furniture_data_template = {
 		100009,
 		100010,
 		100011,
+		100012,
 		1001,
 		1002,
 		1101,
@@ -65672,7 +67094,38 @@ pg.furniture_data_template = {
 		59117,
 		59301,
 		59302,
-		59303
+		59303,
+		60001,
+		60002,
+		60101,
+		60102,
+		60103,
+		60104,
+		60105,
+		60106,
+		60107,
+		60108,
+		60109,
+		60110,
+		60111,
+		60112,
+		60113,
+		60114,
+		60115,
+		60116,
+		60117,
+		60119,
+		60121,
+		60122,
+		60123,
+		60124,
+		60118,
+		60120,
+		60301,
+		60302,
+		60303,
+		60304,
+		60305
 	}
 }
 

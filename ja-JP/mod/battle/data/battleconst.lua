@@ -308,7 +308,9 @@ ys.Battle.BattleConst.EnviroumentBehaviour = {
 	DAMAGE = 2,
 	BUFF = 3,
 	MOVEMENT = 4,
-	FORCE = 5
+	FORCE = 5,
+	SPAWN = 6,
+	PLAY_SFX = 7
 }
 
 return

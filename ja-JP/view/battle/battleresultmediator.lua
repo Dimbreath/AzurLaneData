@@ -8,6 +8,7 @@ slot0.ON_NEXT_CHALLENGE = "BattleResultMediator.ON_NEXT_CHALLENGE"
 slot0.ON_CHALLENGE_RANK = "BattleResultMediator:ON_CHALLENGE_RANK"
 slot0.ON_CHALLENGE_SHARE = "BattleResultMediator:ON_CHALLENGE_SHARE"
 slot0.ON_CHALLENGE_DEFEAT_SCENE = "BattleResultMediator:ON_CHALLENGE_DEFEAT_SCENE"
+slot0.CHAPTER_RETREAT = "BattleResultMediator:CHAPTER_RETREAT"
 
 function slot0.register(slot0)
 	slot1 = PlayerPrefs.GetInt(AUTO_BATTLE_LABEL, 0) > 0
@@ -203,6 +204,19 @@ function slot0.register(slot0)
 
 		slot1:sendNotification(GAME.GO_BACK)
 	end)
+	slot0:bind(slot0.CHAPTER_RETREAT, function (slot0, slot1)
+		slot5 = {}
+
+		for slot9, slot10 in ipairs(slot4) do
+			slot5[#slot5 + 1] = slot10.id
+		end
+
+		slot0.tempShipIDList = slot5
+
+		slot0:sendNotification(GAME.CHAPTER_OP, {
+			type = ChapterConst.OpRetreat
+		})
+	end)
 	slot0:bind(slot0.ON_GO_TO_MAIN_SCENE, function (slot0)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.MAINUI)
 	end)
@@ -263,7 +277,8 @@ end
 
 function slot0.listNotificationInterests(slot0)
 	return {
-		GAME.BEGIN_STAGE_DONE
+		GAME.BEGIN_STAGE_DONE,
+		GAME.CHAPTER_OP_DONE
 	}
 end
 
@@ -272,6 +287,61 @@ function slot0.handleNotification(slot0, slot1)
 
 	if slot1:getName() == GAME.BEGIN_STAGE_DONE then
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
+	elseif slot2 == GAME.CHAPTER_OP_DONE then
+		if slot0.viewComponent.lastClickBtn == BattleResultLayer.PowerUpBtn.ShipLevelUp then
+			if getProxy(ContextProxy):getContextByMediator(LevelMediator2) and slot5:getContextByMediator(ChapterPreCombatMediator) then
+				slot5:removeChild(slot6)
+			end
+
+			slot12.targetChapter, slot12.targetMap = getProxy(ChapterProxy).getHigestClearChapterAndMap(slot6)
+
+			slot0:sendNotification(GAME.GO_BACK, {
+				targetChapter = slot7,
+				targetMap = slot8
+			})
+		elseif slot0.viewComponent.lastClickBtn == BattleResultLayer.PowerUpBtn.EquipLevelUp then
+			if getProxy(ContextProxy):getContextByMediator(LevelMediator2) and slot5:getContextByMediator(ChapterPreCombatMediator) then
+				slot5:removeChild(slot6)
+			end
+
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
+				prevFlag = false,
+				priorEquipUpShipIDList = slot0.tempShipIDList,
+				mode = DockyardScene.MODE_OVERVIEW,
+				onClick = function (slot0, slot1)
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {
+						openEquipUpgrade = true,
+						shipId = slot0.id,
+						shipVOs = slot1
+					})
+				end
+			})
+		elseif slot0.viewComponent.lastClickBtn == BattleResultLayer.PowerUpBtn.SkillLevelUp then
+			if getProxy(ContextProxy):getContextByMediator(LevelMediator2) and slot5:getContextByMediator(ChapterPreCombatMediator) then
+				slot5:removeChild(slot6)
+			end
+
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.NAVALTACTICS)
+		elseif slot0.viewComponent.lastClickBtn == BattleResultLayer.PowerUpBtn.ShipBreakUp then
+			if getProxy(ContextProxy):getContextByMediator(LevelMediator2) and slot5:getContextByMediator(ChapterPreCombatMediator) then
+				slot5:removeChild(slot6)
+			end
+
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
+				prevFlag = false,
+				priorEquipUpShipIDList = slot0.tempShipIDList,
+				mode = DockyardScene.MODE_OVERVIEW,
+				onClick = function (slot0, slot1)
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {
+						shipId = slot0.id,
+						shipVOs = slot1,
+						page = ShipViewConst.PAGE.INTENSIFY
+					})
+				end
+			})
+		end
+
+		slot0.tempShipIDList = nil
 	end
 end
 

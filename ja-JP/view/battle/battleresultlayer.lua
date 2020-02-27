@@ -20,6 +20,12 @@ slot0.ObjectiveList = {
 	"battle_preCombatLayer_damage_before_end",
 	"battle_result_defeat_all_enemys"
 }
+slot0.PowerUpBtn = {
+	EquipLevelUp = 2,
+	SkillLevelUp = 3,
+	ShipBreakUp = 4,
+	ShipLevelUp = 1
+}
 
 function slot0.getUIName(slot0)
 	return "BattleResultUI"

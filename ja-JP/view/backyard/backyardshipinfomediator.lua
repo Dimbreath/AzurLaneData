@@ -243,6 +243,16 @@ function slot0.onSelecte(slot0, slot1, slot2, slot3)
 	}
 
 	if slot1 == BackYardShipInfoLayer.SHIP_TRAIN_TYPE or slot1 == BackYardShipInfoLayer.SHIP_REST_TYPE then
+		slot20.priorEquipUpShipIDList = {}
+
+		for slot24, slot25 in pairs(slot0.viewComponent.trainShipVOs) do
+			table.insert(slot20.priorEquipUpShipIDList, slot24)
+		end
+
+		for slot24, slot25 in pairs(slot0.viewComponent.restShipVOs) do
+			table.insert(slot20.priorEquipUpShipIDList, slot24)
+		end
+
 		slot20.isLayer = true
 
 		slot0:addSubLayers(Context.New({
