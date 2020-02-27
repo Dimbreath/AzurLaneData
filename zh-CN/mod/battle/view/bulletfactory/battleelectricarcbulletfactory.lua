@@ -32,7 +32,7 @@ function ys.Battle.BattleElectricArcBulletFactory.CreateBullet(slot0, slot1, slo
 		slot0:GetDataProxy():HandleDamage(slot2, slot6)
 
 		if slot2:GetWeapon():GetHost() then
-			slot0:GetSceneMediator():AddArcEffect(slot2:GetTemplate().modle_ID, slot10, slot6)
+			slot0:GetSceneMediator():AddArcEffect(slot2:GetTemplate().modle_ID, slot0:GetSceneMediator():GetCharacter(slot10:GetUniqueID()), slot6, slot2:GetWeapon():GetTemplateData().spawn_bound)
 		end
 	end
 end

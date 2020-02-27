@@ -814,6 +814,64 @@ function slot0.getUseableMaxEliteMap(slot0)
 	return slot1[1]
 end
 
+function slot0.getAnyPassedChapterMapList(slot0)
+	slot2 = {}
+
+	for slot6, slot7 in pairs(slot1) do
+		if slot7:getMapType() == Map.SCENARIO then
+			for slot12, slot13 in pairs(slot8) do
+				if slot13:isClear() then
+					slot2[#slot2 + 1] = slot7
+				end
+			end
+		end
+	end
+
+	return slot2
+end
+
+function slot0.getHigestAnyPassedChapterMap(slot0)
+	if #slot0:getAnyPassedChapterMapList() == 0 then
+		return false
+	end
+
+	table.sort(slot1, function (slot0, slot1)
+		return slot1.configId < slot0.configId
+	end)
+
+	return slot1[1]
+end
+
+function slot0.getHigestClearChapterAndMap(slot0)
+	if slot0:getHigestAnyPassedChapterMap() then
+		slot2 = {}
+
+		for slot7, slot8 in pairs(slot3) do
+			if slot8:isClear() then
+				slot2[#slot2 + 1] = slot8
+			end
+		end
+
+		table.sort(slot2, function (slot0, slot1)
+			return slot1.configId < slot0.configId
+		end)
+
+		return slot2[1], slot1
+	else
+		slot4 = {}
+
+		for slot9, slot10 in pairs(slot5) do
+			slot4[#slot4 + 1] = slot10
+		end
+
+		table.sort(slot4, function (slot0, slot1)
+			return slot0.configId < slot1.configId
+		end)
+
+		return slot4[1], slot3
+	end
+end
+
 function slot0.eliteFleetRecommend(slot0, slot1, slot2)
 	slot3 = getProxy(BayProxy)
 	slot4 = slot1:getEliteFleetList()[slot2]

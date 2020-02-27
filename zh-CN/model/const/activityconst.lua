@@ -228,6 +228,8 @@ slot0.LANTERNFESTIVAL = 486
 slot0.VALENTINE = 491
 slot0.MAOZI_PT = 493
 slot0.SANDIEGO_REFORM_RE = 494
+slot0.SN_MAIN_PAGE = 500
+slot0.SN_PT_PAGE = 506
 slot0.SUMMER_REMAKE = 20248
 slot0.SUMMER_REMAKEPT = 20249
 slot0.WUDAOLOGIN_ID = 30186
@@ -278,9 +280,9 @@ slot0.INSTAGRAM_OP_MARK_READ = 5
 slot0.LIMIT_SKIN_SHOP_TIME = {
 	{
 		{
-			2018,
-			5,
-			16
+			2020,
+			2,
+			27
 		},
 		{
 			0,
@@ -290,14 +292,14 @@ slot0.LIMIT_SKIN_SHOP_TIME = {
 	},
 	{
 		{
-			2019,
-			11,
-			14
+			2020,
+			3,
+			11
 		},
 		{
-			0,
-			0,
-			0
+			23,
+			59,
+			59
 		}
 	}
 }

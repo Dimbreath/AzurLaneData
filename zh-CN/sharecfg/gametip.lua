@@ -7891,7 +7891,7 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 		}
 	},
 	shop_street_activity_tip = {
-		tip = "*活动期间(<color=#A1E400FF>19.12.26-20.1.8</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>",
+		tip = "*活动期间(<color=#A1E400FF>20.2.27-20.3.11</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>",
 		key = "shop_street_activity_tip"
 	},
 	battle_result_boss_destruct = {
@@ -9092,7 +9092,7 @@ $3]],
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "{namecode:175}、{namecode:179}等角色出现概率UP！",
+		tip = "塔什干、苏维埃罗西亚等角色出现概率UP！",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -12538,6 +12538,90 @@ TIPS：
 	LinkLinkGame_CurTime = {
 		tip = "当前用时:",
 		key = "LinkLinkGame_CurTime"
+	},
+	sort_attribute = {
+		tip = "属性",
+		key = "sort_attribute"
+	},
+	sort_intimacy = {
+		tip = "好感",
+		key = "sort_intimacy"
+	},
+	index_skin = {
+		tip = "可换装",
+		key = "index_skin"
+	},
+	index_reform = {
+		tip = "可改造",
+		key = "index_reform"
+	},
+	index_strengthen = {
+		tip = "可强化",
+		key = "index_strengthen"
+	},
+	decodegame_gametip = {
+		key = "decodegame_gametip",
+		tip = {
+			{
+				info = [[
+活动简介：
+ 1.活动期间，每获得<color=#92fc63>200点</color>「情报PT」，可以获得1点情
+报点，最多可获得60点 
+ 2.每次点击情报页的单元格进行破译，需要消耗1点情报
+点
+ 3.完成一定次数的情报破译即可获得如下奖励：
+ 完成10次：物资*1000
+ 完成20次：T3通用改造部件*5
+ 完成30次：物资*1000
+ 完成40次：T3攻击教材*2
+ 完成50次：T3随机改造图纸*2
+ 完成60次：T3支援教材*2 
+ 4.3张情报页全部破译后，会出现密码页按钮，点击密码
+页按钮可进入解密模式，解密模式下再次点击情报页可进
+行比对，比对后每张情报页可以获取三个密码，点击密码
+所在单元格可进行输入,<color=#92fc63>9位密码全部输入正确后可获取
+最终奖励</color>
+5.9位密码每3个为一组，每组密码都属于同一张情报页
+6.当密码输入错误时，左侧红灯会亮起，当密码输入正确
+时，右侧绿灯会亮起同时将密码保存在密码框中]]
+			}
+		}
+	},
+	indexsort_sort = {
+		tip = "排序",
+		key = "indexsort_sort"
+	},
+	indexsort_index = {
+		tip = "索引",
+		key = "indexsort_index"
+	},
+	indexsort_camp = {
+		tip = "阵营",
+		key = "indexsort_camp"
+	},
+	indexsort_rarity = {
+		tip = "稀有度",
+		key = "indexsort_rarity"
+	},
+	indexsort_extraindex = {
+		tip = "附加索引",
+		key = "indexsort_extraindex"
+	},
+	indexsort_sorteng = {
+		tip = "SORT",
+		key = "indexsort_sorteng"
+	},
+	indexsort_indexeng = {
+		tip = "INDEX",
+		key = "indexsort_indexeng"
+	},
+	indexsort_campeng = {
+		tip = "CAMP",
+		key = "indexsort_campeng"
+	},
+	indexsort_rarityeng = {
+		tip = "RARITY",
+		key = "indexsort_rarityeng"
 	}
 }
 
