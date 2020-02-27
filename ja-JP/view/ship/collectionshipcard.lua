@@ -62,6 +62,7 @@ function slot0.flush(slot0)
 		slot0.shipGroup = ShipGroup.New({
 			id = slot0.config.group_type
 		})
+		slot0.shipGroup.trans = true
 
 		slot0:loadImage(slot0.shipGroup)
 	elseif slot0.state == ShipGroup.STATE_LOCK then

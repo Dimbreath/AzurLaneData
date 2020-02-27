@@ -109,7 +109,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 306,
 		time_limit_type = 0,
-		desc = "後日イベントで入手可能",
+		desc = "<color=#ffffff>「同志たち、団結せよ！世界は我々が変える！」</color>\n――「凍絶の北海」イベントで入手可能",
 		scene = {}
 	},
 	[401] = {

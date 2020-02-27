@@ -66,6 +66,7 @@ function slot3.initBehaviours(slot0)
 	for slot5, slot6 in ipairs(slot1) do
 		slot7 = slot0.Battle.BattleEnvironmentBehaviour.CreateBehaviour(slot6)
 
+		slot7:SetUnitRef(slot0)
 		slot7:SetTemplate(slot6)
 		table.insert(slot0._behaviours, slot7)
 	end

@@ -426,6 +426,14 @@ slot1 = {
 	[ActivityConst.SANDIEGO_REFORM_RE] = {
 		className = "SandiegoReformPage",
 		uiName = "sandiegoreformpage"
+	},
+	[ActivityConst.SN_MAIN_PAGE] = {
+		className = "SNMainPage",
+		uiName = "SNMainPage"
+	},
+	[ActivityConst.SN_PT_PAGE] = {
+		className = "SNPtPage",
+		uiName = "SNPtPage"
 	}
 }
 slot2 = {

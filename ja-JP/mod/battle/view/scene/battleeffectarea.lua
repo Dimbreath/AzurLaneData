@@ -6,9 +6,10 @@ ys.Battle.BattleEffectArea = slot3
 slot3.__name = "BattleEffectArea"
 slot4 = Vector3(0, 3.5, -5)
 
-function slot3.Ctor(slot0, slot1, slot2)
+function slot3.Ctor(slot0, slot1, slot2, slot3)
 	slot0._go = slot1
 	slot0._aoeData = slot2
+	slot0._topCover = slot3
 
 	slot0:Init()
 end
@@ -44,6 +45,7 @@ end
 
 function slot3.Update(slot0)
 	if not slot0._static then
+		slot0:UpdateScale()
 		slot0:UpdatePosition()
 		slot0:UpdateRotation()
 	end
@@ -58,7 +60,11 @@ function slot3.updateColumnScale(slot0)
 end
 
 function slot3.UpdatePosition(slot0)
-	slot0._tf.position = slot0._aoeData:GetPosition() + slot0
+	if slot0._topCover then
+		slot0._tf.position = slot0._aoeData:GetPosition() + slot0
+	else
+		slot0._tf.position = slot0._aoeData:GetPosition()
+	end
 end
 
 function slot3.UpdateRotation(slot0)

@@ -10,6 +10,10 @@ function slot3.Ctor(slot0, slot1, slot2)
 	slot0._cldUnitList = {}
 end
 
+function slot3.SetUnitRef(slot0, slot1)
+	slot0._unit = slot1
+end
+
 function slot3.SetTemplate(slot0, slot1)
 	slot0._tmpData = slot1
 	slot0._state = slot0.STATE_READY
@@ -67,9 +71,13 @@ function slot3.doBehaviour(slot0)
 end
 
 slot3.BehaviourClassEnum = {
-	[ys.Battle.BattleConst.EnviroumentBehaviour.PLAY_FX] = nil,
+	[ys.Battle.BattleConst.EnviroumentBehaviour.PLAY_FX] = "BattleEnvironmentBehaviourPlayFX",
 	[ys.Battle.BattleConst.EnviroumentBehaviour.DAMAGE] = "BattleEnvironmentBehaviourDamage",
-	[ys.Battle.BattleConst.EnviroumentBehaviour.BUFF] = "BattleEnvironmentBehaviourBuff"
+	[ys.Battle.BattleConst.EnviroumentBehaviour.BUFF] = "BattleEnvironmentBehaviourBuff",
+	[ys.Battle.BattleConst.EnviroumentBehaviour.MOVEMENT] = "BattleEnvironmentBehaviourMovement",
+	[ys.Battle.BattleConst.EnviroumentBehaviour.FORCE] = "BattleEnvironmentBehaviourForce",
+	[ys.Battle.BattleConst.EnviroumentBehaviour.SPAWN] = "BattleEnvironmentBehaviourSpawn",
+	[ys.Battle.BattleConst.EnviroumentBehaviour.PLAY_SFX] = "BattleEnvironmentBehaviourPlaySFX"
 }
 
 function slot3.CreateBehaviour(slot0)

@@ -1,127 +1,49 @@
 
 -- Decompilation error in this vicinity:
 --- BLOCK #0 1-3, warpins: 1 ---
---- END OF BLOCK #0 ---
+slot0 = ys or {}
+ys = ys or 
+slot1 = ys.Battle.BattleConst
+slot2 = ys.Battle.BattleConfig
+slot3 = pg.ship_data_statistics
+slot4 = pg.ship_data_template
+slot5 = pg.ship_skin_template
+slot6 = pg.enemy_data_statistics
+slot7 = pg.weapon_property
+slot8 = pg.formation_template
+slot9 = pg.auto_pilot_template
+slot10 = pg.aircraft_template
+slot11 = pg.ship_skin_words
+slot12 = pg.equip_data_statistics
+slot13 = pg.equip_data_template
+slot14 = pg.enemy_data_skill
+slot15 = pg.ship_data_personality
+slot16 = pg.enemy_data_by_type
+slot17 = pg.ship_data_by_type
+slot18 = pg.ship_level
+slot19 = pg.skill_data_template
+slot20 = pg.ship_data_trans
+slot21 = pg.equip_skin_template
+slot22 = pg.activity_template
+slot23 = pg.activity_event_worldboss
+slot24 = pg.map_data
+ys.Battle.BattleDataFunction = ys.Battle.BattleDataFunction or {}
 
-FLOW; TARGET BLOCK #1
-
-
-
--- Decompilation error in this vicinity:
---- BLOCK #1 5-59, warpins: 2 ---
-slot0 = ys
-
-if not slot0 then
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 4-4, warpins: 1 ---
-	slot0 = {}
-	--- END OF BLOCK #0 ---
-
-
-
-end
-
-ys = slot0
-slot0 = ys
-slot1 = slot0.Battle
-slot1 = slot1.BattleConst
-slot2 = slot0.Battle
-slot2 = slot2.BattleConfig
-slot3 = pg
-slot3 = slot3.ship_data_statistics
-slot4 = pg
-slot4 = slot4.ship_data_template
-slot5 = pg
-slot5 = slot5.ship_skin_template
-slot6 = pg
-slot6 = slot6.enemy_data_statistics
-slot7 = pg
-slot7 = slot7.weapon_property
-slot8 = pg
-slot8 = slot8.formation_template
-slot9 = pg
-slot9 = slot9.auto_pilot_template
-slot10 = pg
-slot10 = slot10.aircraft_template
-slot11 = pg
-slot11 = slot11.ship_skin_words
-slot12 = pg
-slot12 = slot12.equip_data_statistics
-slot13 = pg
-slot13 = slot13.equip_data_template
-slot14 = pg
-slot14 = slot14.enemy_data_skill
-slot15 = pg
-slot15 = slot15.ship_data_personality
-slot16 = pg
-slot16 = slot16.enemy_data_by_type
-slot17 = pg
-slot17 = slot17.ship_data_by_type
-slot18 = pg
-slot18 = slot18.ship_level
-slot19 = pg
-slot19 = slot19.skill_data_template
-slot20 = pg
-slot20 = slot20.ship_data_trans
-slot21 = pg
-slot21 = slot21.equip_skin_template
-slot22 = pg
-slot22 = slot22.activity_template
-slot23 = pg
-slot23 = slot23.activity_event_worldboss
-slot24 = pg
-slot24 = slot24.map_data
-slot25 = slot0.Battle
-slot26 = slot0.Battle
-slot26 = slot26.BattleDataFunction
-slot26 = slot26 or {}
-slot25.BattleDataFunction = slot26
-slot25 = slot0.Battle
-slot25 = slot25.BattleDataFunction
-
-function slot26(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10, slot11, slot12)
+ys or .Battle.BattleDataFunction.CreateBattleUnitData = function (slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10, slot11, slot12)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-6, warpins: 1 ---
 	slot13, slot14 = nil
-	slot15 = slot0
-	slot15 = slot15.UnitType
-	slot15 = slot15.PLAYER_UNIT
 
-	if slot1 == slot15 then
+	if slot1 == slot0.UnitType.PLAYER_UNIT then
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 7-30, warpins: 1 ---
-		slot15 = slot1
-		slot15 = slot15.Battle
-		slot15 = slot15.BattlePlayerUnit
-		slot15 = slot15.New
-		slot16 = slot0
-		slot17 = slot2
-		slot15 = slot15(slot16, slot17)
-		slot13 = slot15
-		slot16 = slot13
-		slot15 = slot13.SetSkinId
-		slot17 = slot4
+		slot1.Battle.BattlePlayerUnit.New(slot0, slot2).SetSkinId(slot13, slot4)
+		slot1.Battle.BattlePlayerUnit.New(slot0, slot2).SetRepressReduce(slot13, slot9)
+		slot1.Battle.BattlePlayerUnit.New(slot0, slot2):SetWeaponInfo(slot11, slot12)
 
-		slot15(slot16, slot17)
-
-		slot16 = slot13
-		slot15 = slot13.SetRepressReduce
-		slot17 = slot9
-
-		slot15(slot16, slot17)
-
-		slot16 = slot13
-		slot15 = slot13.SetWeaponInfo
-		slot17 = slot11
-		slot18 = slot12
-
-		slot15(slot16, slot17, slot18)
-
-		slot15 = Ship
-		slot14 = slot15.WEAPON_COUNT
+		slot14 = Ship.WEAPON_COUNT
 		--- END OF BLOCK #0 ---
 
 
@@ -130,43 +52,15 @@ function slot26(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, s
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 31-35, warpins: 1 ---
-		slot15 = slot0
-		slot15 = slot15.UnitType
-		slot15 = slot15.SUB_UNIT
-
-		if slot1 == slot15 then
+		if slot1 == slot0.UnitType.SUB_UNIT then
 
 			-- Decompilation error in this vicinity:
 			--- BLOCK #0 36-59, warpins: 1 ---
-			slot15 = slot1
-			slot15 = slot15.Battle
-			slot15 = slot15.BattleSubUnit
-			slot15 = slot15.New
-			slot16 = slot0
-			slot17 = slot2
-			slot15 = slot15(slot16, slot17)
-			slot13 = slot15
-			slot16 = slot13
-			slot15 = slot13.SetSkinId
-			slot17 = slot4
+			slot1.Battle.BattleSubUnit.New(slot0, slot2).SetSkinId(slot13, slot4)
+			slot1.Battle.BattleSubUnit.New(slot0, slot2).SetRepressReduce(slot13, slot9)
+			slot1.Battle.BattleSubUnit.New(slot0, slot2):SetWeaponInfo(slot11, slot12)
 
-			slot15(slot16, slot17)
-
-			slot16 = slot13
-			slot15 = slot13.SetRepressReduce
-			slot17 = slot9
-
-			slot15(slot16, slot17)
-
-			slot16 = slot13
-			slot15 = slot13.SetWeaponInfo
-			slot17 = slot11
-			slot18 = slot12
-
-			slot15(slot16, slot17, slot18)
-
-			slot15 = Ship
-			slot14 = slot15.WEAPON_COUNT
+			slot14 = Ship.WEAPON_COUNT
 			--- END OF BLOCK #0 ---
 
 
@@ -175,27 +69,11 @@ function slot26(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, s
 
 			-- Decompilation error in this vicinity:
 			--- BLOCK #0 60-64, warpins: 1 ---
-			slot15 = slot0
-			slot15 = slot15.UnitType
-			slot15 = slot15.ENEMY_UNIT
-
-			if slot1 == slot15 then
+			if slot1 == slot0.UnitType.ENEMY_UNIT then
 
 				-- Decompilation error in this vicinity:
 				--- BLOCK #0 65-77, warpins: 1 ---
-				slot15 = slot1
-				slot15 = slot15.Battle
-				slot15 = slot15.BattleEnemyUnit
-				slot15 = slot15.New
-				slot16 = slot0
-				slot17 = slot2
-				slot15 = slot15(slot16, slot17)
-				slot13 = slot15
-				slot16 = slot13
-				slot15 = slot13.SetRepress
-				slot17 = slot8
-
-				slot15(slot16, slot17)
+				slot1.Battle.BattleEnemyUnit.New(slot0, slot2):SetRepress(slot8)
 				--- END OF BLOCK #0 ---
 
 
@@ -204,27 +82,11 @@ function slot26(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, s
 
 				-- Decompilation error in this vicinity:
 				--- BLOCK #0 78-82, warpins: 1 ---
-				slot15 = slot0
-				slot15 = slot15.UnitType
-				slot15 = slot15.BOSS_UNIT
-
-				if slot1 == slot15 then
+				if slot1 == slot0.UnitType.BOSS_UNIT then
 
 					-- Decompilation error in this vicinity:
 					--- BLOCK #0 83-95, warpins: 1 ---
-					slot15 = slot1
-					slot15 = slot15.Battle
-					slot15 = slot15.BattleBossUnit
-					slot15 = slot15.New
-					slot16 = slot0
-					slot17 = slot2
-					slot15 = slot15(slot16, slot17)
-					slot13 = slot15
-					slot16 = slot13
-					slot15 = slot13.SetRepress
-					slot17 = slot8
-
-					slot15(slot16, slot17)
+					slot1.Battle.BattleBossUnit.New(slot0, slot2):SetRepress(slot8)
 					--- END OF BLOCK #0 ---
 
 
@@ -233,22 +95,11 @@ function slot26(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, s
 
 					-- Decompilation error in this vicinity:
 					--- BLOCK #0 96-100, warpins: 1 ---
-					slot15 = slot0
-					slot15 = slot15.UnitType
-					slot15 = slot15.NPC_UNIT
-
-					if slot1 == slot15 then
+					if slot1 == slot0.UnitType.NPC_UNIT then
 
 						-- Decompilation error in this vicinity:
 						--- BLOCK #0 101-108, warpins: 1 ---
-						slot15 = slot1
-						slot15 = slot15.Battle
-						slot15 = slot15.BattleNPCUnit
-						slot15 = slot15.New
-						slot16 = slot0
-						slot17 = slot2
-						slot15 = slot15(slot16, slot17)
-						slot13 = slot15
+						slot13 = slot1.Battle.BattleNPCUnit.New(slot0, slot2)
 						--- END OF BLOCK #0 ---
 
 
@@ -283,42 +134,13 @@ function slot26(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, s
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #1 109-118, warpins: 6 ---
-	slot16 = slot13
-	slot15 = slot13.SetTemplate
-	slot17 = slot3
-	slot18 = slot6
+	slot13:SetTemplate(slot3, slot6)
 
-	slot15(slot16, slot17, slot18)
-
-	slot15 = slot0
-	slot15 = slot15.UnitType
-	slot15 = slot15.ENEMY_UNIT
-
-	if slot1 ~= slot15 then
+	if slot1 == slot0.UnitType.ENEMY_UNIT or slot1 == slot0.UnitType.BOSS_UNIT then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 119-123, warpins: 1 ---
-		slot15 = slot0
-		slot15 = slot15.UnitType
-		slot15 = slot15.BOSS_UNIT
-
-		if slot1 == slot15 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 124-130, warpins: 2 ---
-			slot16 = slot13
-			slot15 = slot13.SetCurrentHP
-			slot18 = slot13
-			slot17 = slot13.GetMaxHP
-			slot17 = slot17(slot18)
-			slot17 = slot17 * slot10
-
-			slot15(slot16, slot17)
-			--- END OF BLOCK #0 ---
-
-
-
-		end
+		--- BLOCK #0 124-130, warpins: 2 ---
+		slot13:SetCurrentHP(slot13:GetMaxHP() * slot10)
 		--- END OF BLOCK #0 ---
 
 
@@ -334,26 +156,30 @@ function slot26(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, s
 	-- Decompilation error in this vicinity:
 	--- BLOCK #2 131-136, warpins: 2 ---
 	slot15 = {}
-	slot16 = slot0
-	slot16 = slot16.UnitType
-	slot16 = slot16.ENEMY_UNIT
 
-	if slot1 ~= slot16 then
+	if slot1 == slot0.UnitType.ENEMY_UNIT or slot1 == slot0.UnitType.BOSS_UNIT then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 137-141, warpins: 1 ---
-		slot16 = slot0
-		slot16 = slot16.UnitType
-		slot16 = slot16.BOSS_UNIT
+		--- BLOCK #0 142-145, warpins: 2 ---
+		--- END OF BLOCK #0 ---
 
-		if slot1 == slot16 then
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 146-157, warpins: 0 ---
+		for slot19, slot20 in ipairs(slot5) do
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 142-145, warpins: 2 ---
-			slot16 = ipairs
-			slot17 = slot5
-			slot16, slot17, slot18 = slot16(slot17)
-
+			--- BLOCK #0 146-155, warpins: 1 ---
+			slot15[#slot15 + 1] = {
+				equipment = {
+					weapon_id = {
+						slot20.id
+					}
+				}
+			}
 			--- END OF BLOCK #0 ---
 
 			FLOW; TARGET BLOCK #1
@@ -361,21 +187,68 @@ function slot26(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, s
 
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #1 146-157, warpins: 0 ---
-			for slot19, slot20 in slot16, slot17, slot18 do
+			--- BLOCK #1 156-157, warpins: 2 ---
+			--- END OF BLOCK #1 ---
+
+
+
+		end
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 158-158, warpins: 1 ---
+		--- END OF BLOCK #2 ---
+
+
+
+	else
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 159-162, warpins: 1 ---
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 163-215, warpins: 0 ---
+		for slot19, slot20 in ipairs(slot5) do
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 163-165, warpins: 1 ---
+			if not slot20.id then
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #0 146-155, warpins: 1 ---
-				slot21 = #slot15
-				slot21 = slot21 + 1
-				slot22 = {}
-				slot23 = {}
-				slot24 = {}
-				slot25 = slot20.id
-				slot24[1] = slot25
-				slot23.weapon_id = slot24
-				slot22.equipment = slot23
-				slot15[slot21] = slot22
+				--- BLOCK #0 166-172, warpins: 1 ---
+				slot15[#slot15 + 1] = {
+					equipment = false,
+					torpedoAmmo = 0,
+					skin = slot20.skin
+				}
+				--- END OF BLOCK #0 ---
+
+
+
+			else
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 173-175, warpins: 1 ---
+				if not slot20.equipmentInfo or not slot20.equipmentInfo.config.torpedo_ammo then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 181-181, warpins: 2 ---
+					slot21 = 0
+					--- END OF BLOCK #0 ---
+
+
+
+				end
+
 				--- END OF BLOCK #0 ---
 
 				FLOW; TARGET BLOCK #1
@@ -383,59 +256,16 @@ function slot26(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, s
 
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #1 156-157, warpins: 2 ---
-				--- END OF BLOCK #1 ---
-
-
-
-			end
-			--- END OF BLOCK #1 ---
-
-			FLOW; TARGET BLOCK #2
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #2 158-158, warpins: 1 ---
-			--- END OF BLOCK #2 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 159-162, warpins: 1 ---
-			slot16 = ipairs
-			slot17 = slot5
-			slot16, slot17, slot18 = slot16(slot17)
-
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 163-215, warpins: 0 ---
-			for slot19, slot20 in slot16, slot17, slot18 do
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 163-165, warpins: 1 ---
-				slot21 = slot20.id
-
-				if not slot21 then
+				--- BLOCK #1 182-183, warpins: 2 ---
+				if not slot14 or slot19 <= slot14 or #slot2.GetWeaponDataFromID(slot20.id).weapon_id then
 
 					-- Decompilation error in this vicinity:
-					--- BLOCK #0 166-172, warpins: 1 ---
-					slot21 = #slot15
-					slot21 = slot21 + 1
-					slot22 = {
-						equipment = false,
-						torpedoAmmo = 0
+					--- BLOCK #0 194-206, warpins: 3 ---
+					slot15[#slot15 + 1] = {
+						equipment = slot2.GetWeaponDataFromID(slot20.id),
+						skin = slot20.skin,
+						torpedoAmmo = slot21
 					}
-					slot23 = slot20.skin
-					slot22.skin = slot23
-					slot15[slot21] = slot22
 					--- END OF BLOCK #0 ---
 
 
@@ -443,119 +273,36 @@ function slot26(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, s
 				else
 
 					-- Decompilation error in this vicinity:
-					--- BLOCK #0 173-175, warpins: 1 ---
-					slot21 = slot20.equipmentInfo
-
-					if slot21 then
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 176-180, warpins: 1 ---
-						slot21 = slot20.equipmentInfo
-						slot21 = slot21.config
-						slot21 = slot21.torpedo_ammo
-
-						if not slot21 then
-
-							-- Decompilation error in this vicinity:
-							--- BLOCK #0 181-181, warpins: 2 ---
-							slot21 = 0
-							--- END OF BLOCK #0 ---
-
-
-
-						end
-						--- END OF BLOCK #0 ---
-
-
-
-					end
-
+					--- BLOCK #0 207-213, warpins: 1 ---
+					slot15[#slot15 + 1] = {
+						equipment = false,
+						skin = slot20.skin,
+						torpedoAmmo = slot21
+					}
 					--- END OF BLOCK #0 ---
-
-					FLOW; TARGET BLOCK #1
-
-
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #1 182-183, warpins: 2 ---
-					if slot14 and slot19 > slot14 then
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 186-193, warpins: 1 ---
-						slot22 = slot2
-						slot22 = slot22.GetWeaponDataFromID
-						slot23 = slot20.id
-						slot22 = slot22(slot23)
-						slot22 = slot22.weapon_id
-						slot22 = #slot22
-
-						if slot22 then
-
-							-- Decompilation error in this vicinity:
-							--- BLOCK #0 194-206, warpins: 3 ---
-							slot22 = slot2
-							slot22 = slot22.GetWeaponDataFromID
-							slot23 = slot20.id
-							slot22 = slot22(slot23)
-							slot23 = #slot15
-							slot23 = slot23 + 1
-							slot24 = {}
-							slot24.equipment = slot22
-							slot25 = slot20.skin
-							slot24.skin = slot25
-							slot24.torpedoAmmo = slot21
-							slot15[slot23] = slot24
-							--- END OF BLOCK #0 ---
-
-
-
-						else
-
-							-- Decompilation error in this vicinity:
-							--- BLOCK #0 207-213, warpins: 1 ---
-							slot22 = #slot15
-							slot22 = slot22 + 1
-							slot23 = {
-								equipment = false
-							}
-							slot24 = slot20.skin
-							slot23.skin = slot24
-							slot23.torpedoAmmo = slot21
-							slot15[slot22] = slot23
-							--- END OF BLOCK #0 ---
-
-
-
-						end
-						--- END OF BLOCK #0 ---
-
-
-
-					end
-					--- END OF BLOCK #1 ---
 
 
 
 				end
-				--- END OF BLOCK #0 ---
-
-				FLOW; TARGET BLOCK #1
-
-
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #1 214-215, warpins: 4 ---
 				--- END OF BLOCK #1 ---
 
 
 
 			end
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 214-215, warpins: 4 ---
 			--- END OF BLOCK #1 ---
 
 
 
 		end
-		--- END OF BLOCK #0 ---
+		--- END OF BLOCK #1 ---
 
 
 
@@ -569,17 +316,8 @@ function slot26(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, s
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #3 216-224, warpins: 2 ---
-	slot17 = slot13
-	slot16 = slot13.SetProficiencyList
-	slot18 = slot7
-
-	slot16(slot17, slot18)
-
-	slot17 = slot13
-	slot16 = slot13.SetEquipment
-	slot18 = slot15
-
-	slot16(slot17, slot18)
+	slot13:SetProficiencyList(slot7)
+	slot13:SetEquipment(slot15)
 
 	return slot13
 	--- END OF BLOCK #3 ---
@@ -588,15 +326,11 @@ function slot26(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, s
 
 end
 
-slot25.CreateBattleUnitData = slot26
-
-function slot26(slot0, slot1)
+ys or .Battle.BattleDataFunction.InitUnitSkill = function (slot0, slot1)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-3, warpins: 1 ---
-	slot2 = slot0.skills
-
-	if not slot2 then
+	if not slot0.skills then
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 4-4, warpins: 1 ---
@@ -615,10 +349,6 @@ function slot26(slot0, slot1)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #1 5-8, warpins: 2 ---
-	slot3 = pairs
-	slot4 = slot2
-	slot3, slot4, slot5 = slot3(slot4)
-
 	--- END OF BLOCK #1 ---
 
 	FLOW; TARGET BLOCK #2
@@ -627,23 +357,11 @@ function slot26(slot0, slot1)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #2 9-22, warpins: 0 ---
-	for slot6, slot7 in slot3, slot4, slot5 do
+	for slot6, slot7 in pairs(slot2) do
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 9-20, warpins: 1 ---
-		slot8 = slot0
-		slot8 = slot8.Battle
-		slot8 = slot8.BattleBuffUnit
-		slot8 = slot8.New
-		slot9 = slot7.id
-		slot10 = slot7.level
-		slot11 = slot1
-		slot8 = slot8(slot9, slot10, slot11)
-		slot10 = slot1
-		slot9 = slot1.AddBuff
-		slot11 = slot8
-
-		slot9(slot10, slot11)
+		slot1:AddBuff(slot0.Battle.BattleBuffUnit.New(slot7.id, slot7.level, slot1))
 		--- END OF BLOCK #0 ---
 
 		FLOW; TARGET BLOCK #1
@@ -673,18 +391,12 @@ function slot26(slot0, slot1)
 
 end
 
-slot25.InitUnitSkill = slot26
-
-function slot26(slot0)
+ys or .Battle.BattleDataFunction.GetEquipSkill = function (slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-7, warpins: 1 ---
-	slot1 = Ship
-	slot1 = slot1.WEAPON_COUNT
+	slot1 = Ship.WEAPON_COUNT
 	slot2 = {}
-	slot3 = ipairs
-	slot4 = slot0
-	slot3, slot4, slot5 = slot3(slot4)
 
 	--- END OF BLOCK #0 ---
 
@@ -694,13 +406,11 @@ function slot26(slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #1 8-56, warpins: 0 ---
-	for slot6, slot7 in slot3, slot4, slot5 do
+	for slot6, slot7 in ipairs(slot0) do
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 8-10, warpins: 1 ---
-		slot8 = slot7.id
-
-		if slot8 then
+		if slot7.id then
 
 			-- Decompilation error in this vicinity:
 			--- BLOCK #0 11-13, warpins: 1 ---
@@ -710,12 +420,7 @@ function slot26(slot0)
 
 				-- Decompilation error in this vicinity:
 				--- BLOCK #0 16-21, warpins: 1 ---
-				slot10 = slot0
-				slot10 = slot10.GetWeaponDataFromID
-				slot11 = slot8
-				slot10 = slot10(slot11)
-
-				if slot10 ~= nil then
+				if slot0.GetWeaponDataFromID(slot8) ~= nil then
 
 					-- Decompilation error in this vicinity:
 					--- BLOCK #0 22-23, warpins: 1 ---
@@ -733,11 +438,7 @@ function slot26(slot0)
 
 				-- Decompilation error in this vicinity:
 				--- BLOCK #0 24-28, warpins: 2 ---
-				slot10 = slot0
-				slot10 = slot10.GetWeaponDataFromID
-				slot11 = slot8
-				slot10 = slot10(slot11)
-				slot9 = slot10.skill_id
+				slot9 = slot0.GetWeaponDataFromID(slot8).skill_id
 				--- END OF BLOCK #0 ---
 
 
@@ -752,24 +453,11 @@ function slot26(slot0)
 
 			-- Decompilation error in this vicinity:
 			--- BLOCK #1 29-33, warpins: 3 ---
-			slot10 = type
-			slot11 = slot7.equipmentInfo
-			slot10 = slot10(slot11)
-
-			if slot10 == "table" then
+			if type(slot7.equipmentInfo) == "table" then
 
 				-- Decompilation error in this vicinity:
 				--- BLOCK #0 34-43, warpins: 1 ---
-				slot10 = table
-				slot10 = slot10.merge
-				slot11 = slot9
-				slot12 = slot7.equipmentInfo
-				slot13 = slot12
-				slot12 = slot12.GetAffixBuffList
-				slot12 = slot12(slot13)
-				slot13 = true
-				slot10 = slot10(slot11, slot12, slot13)
-				slot9 = slot10
+				slot9 = table.merge(slot9, slot7.equipmentInfo:GetAffixBuffList(), true)
 				--- END OF BLOCK #0 ---
 
 
@@ -784,10 +472,6 @@ function slot26(slot0)
 
 			-- Decompilation error in this vicinity:
 			--- BLOCK #2 44-47, warpins: 2 ---
-			slot10 = ipairs
-			slot11 = slot9
-			slot10, slot11, slot12 = slot10(slot11)
-
 			--- END OF BLOCK #2 ---
 
 			FLOW; TARGET BLOCK #3
@@ -796,16 +480,11 @@ function slot26(slot0)
 
 			-- Decompilation error in this vicinity:
 			--- BLOCK #3 48-54, warpins: 0 ---
-			for slot13, slot14 in slot10, slot11, slot12 do
+			for slot13, slot14 in ipairs(slot9) do
 
 				-- Decompilation error in this vicinity:
 				--- BLOCK #0 48-52, warpins: 1 ---
-				slot15 = table
-				slot15 = slot15.insert
-				slot16 = slot2
-				slot17 = slot14
-
-				slot15(slot16, slot17)
+				table.insert(slot2, slot14)
 				--- END OF BLOCK #0 ---
 
 				FLOW; TARGET BLOCK #1
@@ -853,20 +532,10 @@ function slot26(slot0)
 
 end
 
-slot25.GetEquipSkill = slot26
-
-function slot26(slot0, slot1)
+ys or .Battle.BattleDataFunction.InitEquipSkill = function (slot0, slot1)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-8, warpins: 1 ---
-	slot2 = slot0
-	slot2 = slot2.GetEquipSkill
-	slot3 = slot0
-	slot2 = slot2(slot3)
-	slot3 = ipairs
-	slot4 = slot2
-	slot3, slot4, slot5 = slot3(slot4)
-
 	--- END OF BLOCK #0 ---
 
 	FLOW; TARGET BLOCK #1
@@ -875,23 +544,11 @@ function slot26(slot0, slot1)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #1 9-22, warpins: 0 ---
-	for slot6, slot7 in slot3, slot4, slot5 do
+	for slot6, slot7 in ipairs(slot2) do
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 9-20, warpins: 1 ---
-		slot8 = slot1
-		slot8 = slot8.Battle
-		slot8 = slot8.BattleBuffUnit
-		slot8 = slot8.New
-		slot9 = slot7
-		slot10 = 1
-		slot11 = slot1
-		slot8 = slot8(slot9, slot10, slot11)
-		slot10 = slot1
-		slot9 = slot1.AddBuff
-		slot11 = slot8
-
-		slot9(slot10, slot11)
+		slot1:AddBuff(slot1.Battle.BattleBuffUnit.New(slot7, 1, slot1))
 		--- END OF BLOCK #0 ---
 
 		FLOW; TARGET BLOCK #1
@@ -921,9 +578,7 @@ function slot26(slot0, slot1)
 
 end
 
-slot25.InitEquipSkill = slot26
-
-function slot26(slot0, slot1)
+ys or .Battle.BattleDataFunction.InitCommanderSkill = function (slot0, slot1)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-2, warpins: 1 ---
@@ -946,17 +601,7 @@ function slot26(slot0, slot1)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #1 4-15, warpins: 2 ---
-	slot2 = slot0
-	slot2 = slot2.Battle
-	slot2 = slot2.BattleState
-	slot2 = slot2.GetInstance
-	slot2 = slot2()
-	slot3 = slot2
-	slot2 = slot2.GetBattleType
-	slot2 = slot2(slot3)
-	slot3 = pairs
-	slot4 = slot0
-	slot3, slot4, slot5 = slot3(slot4)
+	slot2 = slot0.Battle.BattleState.GetInstance():GetBattleType()
 
 	--- END OF BLOCK #1 ---
 
@@ -966,28 +611,16 @@ function slot26(slot0, slot1)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #2 16-56, warpins: 0 ---
-	for slot6, slot7 in slot3, slot4, slot5 do
+	for slot6, slot7 in pairs(slot0) do
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 16-26, warpins: 1 ---
-		slot8 = slot0
-		slot8 = slot8.Battle
-		slot8 = slot8.BattleDataFunction
-		slot8 = slot8.GetBuffTemplate
-		slot9 = slot7.id
-		slot10 = slot7.level
-		slot8 = slot8(slot9, slot10)
-		slot8 = slot8.limit
 		slot9 = false
 
-		if slot8 then
+		if slot0.Battle.BattleDataFunction.GetBuffTemplate(slot7.id, slot7.level).limit then
 
 			-- Decompilation error in this vicinity:
 			--- BLOCK #0 27-30, warpins: 1 ---
-			slot10 = ipairs
-			slot11 = slot8
-			slot10, slot11, slot12 = slot10(slot11)
-
 			--- END OF BLOCK #0 ---
 
 			FLOW; TARGET BLOCK #1
@@ -996,7 +629,7 @@ function slot26(slot0, slot1)
 
 			-- Decompilation error in this vicinity:
 			--- BLOCK #1 31-36, warpins: 0 ---
-			for slot13, slot14 in slot10, slot11, slot12 do
+			for slot13, slot14 in ipairs(slot8) do
 
 				-- Decompilation error in this vicinity:
 				--- BLOCK #0 31-32, warpins: 1 ---
@@ -1051,25 +684,10 @@ function slot26(slot0, slot1)
 
 			-- Decompilation error in this vicinity:
 			--- BLOCK #0 39-54, warpins: 1 ---
-			slot10 = slot0
-			slot10 = slot10.Battle
-			slot10 = slot10.BattleBuffUnit
-			slot10 = slot10.New
-			slot11 = slot7.id
-			slot12 = slot7.level
-			slot13 = slot1
-			slot10 = slot10(slot11, slot12, slot13)
-			slot12 = slot10
-			slot11 = slot10.SetCommander
-			slot13 = slot7.commander
+			slot10 = slot0.Battle.BattleBuffUnit.New(slot7.id, slot7.level, slot1)
 
-			slot11(slot12, slot13)
-
-			slot12 = slot1
-			slot11 = slot1.AddBuff
-			slot13 = slot10
-
-			slot11(slot12, slot13)
+			slot10:SetCommander(slot7.commander)
+			slot1:AddBuff(slot10)
 			--- END OF BLOCK #0 ---
 
 
@@ -1104,9 +722,7 @@ function slot26(slot0, slot1)
 
 end
 
-slot25.InitCommanderSkill = slot26
-
-function slot26(slot0, slot1, slot2, slot3, slot4)
+ys or .Battle.BattleDataFunction.CreateWeaponUnit = function (slot0, slot1, slot2, slot3, slot4)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-2, warpins: 1 ---
@@ -1129,14 +745,9 @@ function slot26(slot0, slot1, slot2, slot3, slot4)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #1 4-13, warpins: 2 ---
-	slot6 = slot1
-	slot5 = slot1.GetUnitType
-	slot5 = slot5(slot6)
+	slot5 = slot1:GetUnitType()
 	slot6 = nil
-	slot7 = slot0
-	slot7 = slot7.GetWeaponPropertyDataFromID
-	slot8 = slot0
-	slot7 = slot7(slot8)
+	slot7 = slot0:GetWeaponPropertyDataFromID()
 
 	if not slot4 then
 
@@ -1157,20 +768,11 @@ function slot26(slot0, slot1, slot2, slot3, slot4)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #2 15-19, warpins: 2 ---
-	slot9 = slot1
-	slot9 = slot9.EquipmentType
-	slot9 = slot9.MAIN_CANNON
-
-	if slot8 == slot9 then
+	if slot8 == slot1.EquipmentType.MAIN_CANNON then
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 20-26, warpins: 1 ---
-		slot9 = slot2
-		slot9 = slot9.Battle
-		slot9 = slot9.BattleWeaponUnit
-		slot9 = slot9.New
-		slot9 = slot9()
-		slot6 = slot9
+		slot6 = slot2.Battle.BattleWeaponUnit.New()
 		--- END OF BLOCK #0 ---
 
 
@@ -1179,20 +781,11 @@ function slot26(slot0, slot1, slot2, slot3, slot4)
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 27-31, warpins: 1 ---
-		slot9 = slot1
-		slot9 = slot9.EquipmentType
-		slot9 = slot9.SUB_CANNON
-
-		if slot8 == slot9 then
+		if slot8 == slot1.EquipmentType.SUB_CANNON then
 
 			-- Decompilation error in this vicinity:
 			--- BLOCK #0 32-38, warpins: 1 ---
-			slot9 = slot2
-			slot9 = slot9.Battle
-			slot9 = slot9.BattleWeaponUnit
-			slot9 = slot9.New
-			slot9 = slot9()
-			slot6 = slot9
+			slot6 = slot2.Battle.BattleWeaponUnit.New()
 			--- END OF BLOCK #0 ---
 
 
@@ -1201,20 +794,11 @@ function slot26(slot0, slot1, slot2, slot3, slot4)
 
 			-- Decompilation error in this vicinity:
 			--- BLOCK #0 39-43, warpins: 1 ---
-			slot9 = slot1
-			slot9 = slot9.EquipmentType
-			slot9 = slot9.TORPEDO
-
-			if slot8 == slot9 then
+			if slot8 == slot1.EquipmentType.TORPEDO then
 
 				-- Decompilation error in this vicinity:
 				--- BLOCK #0 44-50, warpins: 1 ---
-				slot9 = slot2
-				slot9 = slot9.Battle
-				slot9 = slot9.BattleTorpedoUnit
-				slot9 = slot9.New
-				slot9 = slot9()
-				slot6 = slot9
+				slot6 = slot2.Battle.BattleTorpedoUnit.New()
 				--- END OF BLOCK #0 ---
 
 
@@ -1223,20 +807,11 @@ function slot26(slot0, slot1, slot2, slot3, slot4)
 
 				-- Decompilation error in this vicinity:
 				--- BLOCK #0 51-55, warpins: 1 ---
-				slot9 = slot1
-				slot9 = slot9.EquipmentType
-				slot9 = slot9.MANUAL_TORPEDO
-
-				if slot8 == slot9 then
+				if slot8 == slot1.EquipmentType.MANUAL_TORPEDO then
 
 					-- Decompilation error in this vicinity:
 					--- BLOCK #0 56-62, warpins: 1 ---
-					slot9 = slot2
-					slot9 = slot9.Battle
-					slot9 = slot9.BattleManualTorpedoUnit
-					slot9 = slot9.New
-					slot9 = slot9()
-					slot6 = slot9
+					slot6 = slot2.Battle.BattleManualTorpedoUnit.New()
 					--- END OF BLOCK #0 ---
 
 
@@ -1245,20 +820,11 @@ function slot26(slot0, slot1, slot2, slot3, slot4)
 
 					-- Decompilation error in this vicinity:
 					--- BLOCK #0 63-67, warpins: 1 ---
-					slot9 = slot1
-					slot9 = slot9.EquipmentType
-					slot9 = slot9.ANTI_AIR
-
-					if slot8 == slot9 then
+					if slot8 == slot1.EquipmentType.ANTI_AIR then
 
 						-- Decompilation error in this vicinity:
 						--- BLOCK #0 68-74, warpins: 1 ---
-						slot9 = slot2
-						slot9 = slot9.Battle
-						slot9 = slot9.BattleAntiAirUnit
-						slot9 = slot9.New
-						slot9 = slot9()
-						slot6 = slot9
+						slot6 = slot2.Battle.BattleAntiAirUnit.New()
 						--- END OF BLOCK #0 ---
 
 
@@ -1267,20 +833,11 @@ function slot26(slot0, slot1, slot2, slot3, slot4)
 
 						-- Decompilation error in this vicinity:
 						--- BLOCK #0 75-79, warpins: 1 ---
-						slot9 = slot1
-						slot9 = slot9.EquipmentType
-						slot9 = slot9.FLEET_ANTI_AIR
-
-						if slot8 == slot9 then
+						if slot8 == slot1.EquipmentType.FLEET_ANTI_AIR then
 
 							-- Decompilation error in this vicinity:
 							--- BLOCK #0 80-86, warpins: 1 ---
-							slot9 = slot2
-							slot9 = slot9.Battle
-							slot9 = slot9.BattleWeaponUnit
-							slot9 = slot9.New
-							slot9 = slot9()
-							slot6 = slot9
+							slot6 = slot2.Battle.BattleWeaponUnit.New()
 							--- END OF BLOCK #0 ---
 
 
@@ -1289,28 +846,24 @@ function slot26(slot0, slot1, slot2, slot3, slot4)
 
 							-- Decompilation error in this vicinity:
 							--- BLOCK #0 87-91, warpins: 1 ---
-							slot9 = slot1
-							slot9 = slot9.EquipmentType
-							slot9 = slot9.SCOUT
-
-							if slot8 ~= slot9 then
+							if slot8 == slot1.EquipmentType.SCOUT or slot8 == slot1.EquipmentType.PASSIVE_SCOUT then
 
 								-- Decompilation error in this vicinity:
-								--- BLOCK #0 92-96, warpins: 1 ---
-								slot9 = slot1
-								slot9 = slot9.EquipmentType
-								slot9 = slot9.PASSIVE_SCOUT
+								--- BLOCK #0 97-103, warpins: 2 ---
+								slot6 = slot2.Battle.BattleHiveUnit.New()
+								--- END OF BLOCK #0 ---
 
-								if slot8 == slot9 then
+
+
+							else
+
+								-- Decompilation error in this vicinity:
+								--- BLOCK #0 104-108, warpins: 1 ---
+								if slot8 == slot1.EquipmentType.SPECIAL then
 
 									-- Decompilation error in this vicinity:
-									--- BLOCK #0 97-103, warpins: 2 ---
-									slot9 = slot2
-									slot9 = slot9.Battle
-									slot9 = slot9.BattleHiveUnit
-									slot9 = slot9.New
-									slot9 = slot9()
-									slot6 = slot9
+									--- BLOCK #0 109-115, warpins: 1 ---
+									slot6 = slot2.Battle.BattleSpecialWeapon.New()
 									--- END OF BLOCK #0 ---
 
 
@@ -1318,21 +871,12 @@ function slot26(slot0, slot1, slot2, slot3, slot4)
 								else
 
 									-- Decompilation error in this vicinity:
-									--- BLOCK #0 104-108, warpins: 1 ---
-									slot9 = slot1
-									slot9 = slot9.EquipmentType
-									slot9 = slot9.SPECIAL
-
-									if slot8 == slot9 then
+									--- BLOCK #0 116-120, warpins: 1 ---
+									if slot8 == slot1.EquipmentType.ANTI_SEA then
 
 										-- Decompilation error in this vicinity:
-										--- BLOCK #0 109-115, warpins: 1 ---
-										slot9 = slot2
-										slot9 = slot9.Battle
-										slot9 = slot9.BattleSpecialWeapon
-										slot9 = slot9.New
-										slot9 = slot9()
-										slot6 = slot9
+										--- BLOCK #0 121-127, warpins: 1 ---
+										slot6 = slot2.Battle.BattleDirectHitWeaponUnit.New()
 										--- END OF BLOCK #0 ---
 
 
@@ -1340,21 +884,12 @@ function slot26(slot0, slot1, slot2, slot3, slot4)
 									else
 
 										-- Decompilation error in this vicinity:
-										--- BLOCK #0 116-120, warpins: 1 ---
-										slot9 = slot1
-										slot9 = slot9.EquipmentType
-										slot9 = slot9.ANTI_SEA
-
-										if slot8 == slot9 then
+										--- BLOCK #0 128-132, warpins: 1 ---
+										if slot8 == slot1.EquipmentType.HAMMER_HEAD then
 
 											-- Decompilation error in this vicinity:
-											--- BLOCK #0 121-127, warpins: 1 ---
-											slot9 = slot2
-											slot9 = slot9.Battle
-											slot9 = slot9.BattleDirectHitWeaponUnit
-											slot9 = slot9.New
-											slot9 = slot9()
-											slot6 = slot9
+											--- BLOCK #0 133-139, warpins: 1 ---
+											slot6 = slot2.Battle.BattleHammerHeadWeaponUnit.New()
 											--- END OF BLOCK #0 ---
 
 
@@ -1362,21 +897,12 @@ function slot26(slot0, slot1, slot2, slot3, slot4)
 										else
 
 											-- Decompilation error in this vicinity:
-											--- BLOCK #0 128-132, warpins: 1 ---
-											slot9 = slot1
-											slot9 = slot9.EquipmentType
-											slot9 = slot9.HAMMER_HEAD
-
-											if slot8 == slot9 then
+											--- BLOCK #0 140-144, warpins: 1 ---
+											if slot8 == slot1.EquipmentType.BOMBER_PRE_CAST_ALERT then
 
 												-- Decompilation error in this vicinity:
-												--- BLOCK #0 133-139, warpins: 1 ---
-												slot9 = slot2
-												slot9 = slot9.Battle
-												slot9 = slot9.BattleHammerHeadWeaponUnit
-												slot9 = slot9.New
-												slot9 = slot9()
-												slot6 = slot9
+												--- BLOCK #0 145-151, warpins: 1 ---
+												slot6 = slot2.Battle.BattleBombWeaponUnit.New()
 												--- END OF BLOCK #0 ---
 
 
@@ -1384,21 +910,12 @@ function slot26(slot0, slot1, slot2, slot3, slot4)
 											else
 
 												-- Decompilation error in this vicinity:
-												--- BLOCK #0 140-144, warpins: 1 ---
-												slot9 = slot1
-												slot9 = slot9.EquipmentType
-												slot9 = slot9.BOMBER_PRE_CAST_ALERT
-
-												if slot8 == slot9 then
+												--- BLOCK #0 152-156, warpins: 1 ---
+												if slot8 == slot1.EquipmentType.POINT_HIT_AND_LOCK then
 
 													-- Decompilation error in this vicinity:
-													--- BLOCK #0 145-151, warpins: 1 ---
-													slot9 = slot2
-													slot9 = slot9.Battle
-													slot9 = slot9.BattleBombWeaponUnit
-													slot9 = slot9.New
-													slot9 = slot9()
-													slot6 = slot9
+													--- BLOCK #0 157-163, warpins: 1 ---
+													slot6 = slot2.Battle.BattlePointHitWeaponUnit.New()
 													--- END OF BLOCK #0 ---
 
 
@@ -1406,21 +923,12 @@ function slot26(slot0, slot1, slot2, slot3, slot4)
 												else
 
 													-- Decompilation error in this vicinity:
-													--- BLOCK #0 152-156, warpins: 1 ---
-													slot9 = slot1
-													slot9 = slot9.EquipmentType
-													slot9 = slot9.POINT_HIT_AND_LOCK
-
-													if slot8 == slot9 then
+													--- BLOCK #0 164-168, warpins: 1 ---
+													if slot8 == slot1.EquipmentType.BEAM then
 
 														-- Decompilation error in this vicinity:
-														--- BLOCK #0 157-163, warpins: 1 ---
-														slot9 = slot2
-														slot9 = slot9.Battle
-														slot9 = slot9.BattlePointHitWeaponUnit
-														slot9 = slot9.New
-														slot9 = slot9()
-														slot6 = slot9
+														--- BLOCK #0 169-175, warpins: 1 ---
+														slot6 = slot2.Battle.BattleLaserUnit.New()
 														--- END OF BLOCK #0 ---
 
 
@@ -1428,21 +936,12 @@ function slot26(slot0, slot1, slot2, slot3, slot4)
 													else
 
 														-- Decompilation error in this vicinity:
-														--- BLOCK #0 164-168, warpins: 1 ---
-														slot9 = slot1
-														slot9 = slot9.EquipmentType
-														slot9 = slot9.BEAM
-
-														if slot8 == slot9 then
+														--- BLOCK #0 176-180, warpins: 1 ---
+														if slot8 == slot1.EquipmentType.DEPTH_CHARGE then
 
 															-- Decompilation error in this vicinity:
-															--- BLOCK #0 169-175, warpins: 1 ---
-															slot9 = slot2
-															slot9 = slot9.Battle
-															slot9 = slot9.BattleLaserUnit
-															slot9 = slot9.New
-															slot9 = slot9()
-															slot6 = slot9
+															--- BLOCK #0 181-187, warpins: 1 ---
+															slot6 = slot2.Battle.BattleDepthChargeUnit.New()
 															--- END OF BLOCK #0 ---
 
 
@@ -1450,21 +949,12 @@ function slot26(slot0, slot1, slot2, slot3, slot4)
 														else
 
 															-- Decompilation error in this vicinity:
-															--- BLOCK #0 176-180, warpins: 1 ---
-															slot9 = slot1
-															slot9 = slot9.EquipmentType
-															slot9 = slot9.DEPTH_CHARGE
-
-															if slot8 == slot9 then
+															--- BLOCK #0 188-192, warpins: 1 ---
+															if slot8 == slot1.EquipmentType.REPEATER_ANTI_AIR then
 
 																-- Decompilation error in this vicinity:
-																--- BLOCK #0 181-187, warpins: 1 ---
-																slot9 = slot2
-																slot9 = slot9.Battle
-																slot9 = slot9.BattleDepthChargeUnit
-																slot9 = slot9.New
-																slot9 = slot9()
-																slot6 = slot9
+																--- BLOCK #0 193-199, warpins: 1 ---
+																slot6 = slot2.Battle.BattleRepeaterAntiAirUnit.New()
 																--- END OF BLOCK #0 ---
 
 
@@ -1472,48 +962,12 @@ function slot26(slot0, slot1, slot2, slot3, slot4)
 															else
 
 																-- Decompilation error in this vicinity:
-																--- BLOCK #0 188-192, warpins: 1 ---
-																slot9 = slot1
-																slot9 = slot9.EquipmentType
-																slot9 = slot9.REPEATER_ANTI_AIR
-
-																if slot8 == slot9 then
+																--- BLOCK #0 200-204, warpins: 1 ---
+																if slot8 == slot1.EquipmentType.DISPOSABLE_TORPEDO then
 
 																	-- Decompilation error in this vicinity:
-																	--- BLOCK #0 193-199, warpins: 1 ---
-																	slot9 = slot2
-																	slot9 = slot9.Battle
-																	slot9 = slot9.BattleRepeaterAntiAirUnit
-																	slot9 = slot9.New
-																	slot9 = slot9()
-																	slot6 = slot9
-																	--- END OF BLOCK #0 ---
-
-
-
-																else
-
-																	-- Decompilation error in this vicinity:
-																	--- BLOCK #0 200-204, warpins: 1 ---
-																	slot9 = slot1
-																	slot9 = slot9.EquipmentType
-																	slot9 = slot9.DISPOSABLE_TORPEDO
-
-																	if slot8 == slot9 then
-
-																		-- Decompilation error in this vicinity:
-																		--- BLOCK #0 205-210, warpins: 1 ---
-																		slot9 = slot2
-																		slot9 = slot9.Battle
-																		slot9 = slot9.BattleDisposableTorpedoUnit
-																		slot9 = slot9.New
-																		slot9 = slot9()
-																		slot6 = slot9
-																		--- END OF BLOCK #0 ---
-
-
-
-																	end
+																	--- BLOCK #0 205-210, warpins: 1 ---
+																	slot6 = slot2.Battle.BattleDisposableTorpedoUnit.New()
 																	--- END OF BLOCK #0 ---
 
 
@@ -1603,50 +1057,20 @@ function slot26(slot0, slot1, slot2, slot3, slot4)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #3 211-231, warpins: 17 ---
-	slot10 = slot6
-	slot9 = slot6.SetPotentialFactor
-	slot11 = slot2
+	slot6:SetPotentialFactor(slot2)
+	slot6:SetEquipmentIndex(slot3)
+	slot6:SetTemplateData(slot7)
+	slot6:SetHostData(slot1)
 
-	slot9(slot10, slot11)
-
-	slot10 = slot6
-	slot9 = slot6.SetEquipmentIndex
-	slot11 = slot3
-
-	slot9(slot10, slot11)
-
-	slot10 = slot6
-	slot9 = slot6.SetTemplateData
-	slot11 = slot7
-
-	slot9(slot10, slot11)
-
-	slot10 = slot6
-	slot9 = slot6.SetHostData
-	slot11 = slot1
-
-	slot9(slot10, slot11)
-
-	slot9 = slot1
-	slot9 = slot9.UnitType
-	slot9 = slot9.PLAYER_UNIT
-
-	if slot5 == slot9 then
+	if slot5 == slot1.UnitType.PLAYER_UNIT then
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 232-235, warpins: 1 ---
-		slot9 = slot7.auto_aftercast
-		slot10 = 0
-
-		if slot9 > slot10 then
+		if slot7.auto_aftercast > 0 then
 
 			-- Decompilation error in this vicinity:
 			--- BLOCK #0 236-240, warpins: 1 ---
-			slot10 = slot6
-			slot9 = slot6.OverrideGCD
-			slot11 = slot7.auto_aftercast
-
-			slot9(slot10, slot11)
+			slot6:OverrideGCD(slot7.auto_aftercast)
 			--- END OF BLOCK #0 ---
 
 
@@ -1660,31 +1084,11 @@ function slot26(slot0, slot1, slot2, slot3, slot4)
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 241-245, warpins: 1 ---
-		slot9 = slot1
-		slot9 = slot9.UnitType
-		slot9 = slot9.ENEMY_UNIT
-
-		if slot5 ~= slot9 then
+		if slot5 == slot1.UnitType.ENEMY_UNIT or slot1.UnitType.BOSS_UNIT then
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 246-250, warpins: 1 ---
-			slot9 = slot1
-			slot9 = slot9.UnitType
-			slot9 = slot9.BOSS_UNIT
-
-			if slot9 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 251-253, warpins: 2 ---
-				slot10 = slot6
-				slot9 = slot6.HostOnEnemy
-
-				slot9(slot10)
-				--- END OF BLOCK #0 ---
-
-
-
-			end
+			--- BLOCK #0 251-253, warpins: 2 ---
+			slot6:HostOnEnemy()
 			--- END OF BLOCK #0 ---
 
 
@@ -1704,33 +1108,11 @@ function slot26(slot0, slot1, slot2, slot3, slot4)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #4 254-259, warpins: 4 ---
-	slot9 = slot7.type
-	slot10 = slot1
-	slot10 = slot10.EquipmentType
-	slot10 = slot10.SCOUT
-
-	if slot9 ~= slot10 then
+	if slot7.type == slot1.EquipmentType.SCOUT or slot7.type == slot1.EquipmentType.PASSIVE_SCOUT then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 260-265, warpins: 1 ---
-		slot9 = slot7.type
-		slot10 = slot1
-		slot10 = slot10.EquipmentType
-		slot10 = slot10.PASSIVE_SCOUT
-
-		if slot9 == slot10 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 266-268, warpins: 2 ---
-			slot10 = slot6
-			slot9 = slot6.EnterCoolDown
-
-			slot9(slot10)
-			--- END OF BLOCK #0 ---
-
-
-
-		end
+		--- BLOCK #0 266-268, warpins: 2 ---
+		slot6:EnterCoolDown()
 		--- END OF BLOCK #0 ---
 
 
@@ -1752,39 +1134,21 @@ function slot26(slot0, slot1, slot2, slot3, slot4)
 
 end
 
-slot25.CreateWeaponUnit = slot26
-
-function slot26(slot0, slot1, slot2, slot3)
+ys or .Battle.BattleDataFunction.CreateAircraftUnit = function (slot0, slot1, slot2, slot3)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-10, warpins: 1 ---
 	slot4 = nil
-	slot5 = slot0
-	slot5 = slot5.GetAircraftTmpDataFromID
-	slot6 = slot1
-	slot5 = slot5(slot6)
-	slot6 = type
-	slot7 = slot5.funnel_behavior
-	slot6 = slot6(slot7)
 
-	if slot6 == "table" then
+	if type(slot0.GetAircraftTmpDataFromID(slot1).funnel_behavior) == "table" then
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 11-14, warpins: 1 ---
-		slot6 = slot5.funnel_behavior
-		slot6 = slot6.hover_range
-
-		if slot6 then
+		if slot5.funnel_behavior.hover_range then
 
 			-- Decompilation error in this vicinity:
 			--- BLOCK #0 15-22, warpins: 1 ---
-			slot6 = slot1
-			slot6 = slot6.Battle
-			slot6 = slot6.BattelUAVUnit
-			slot6 = slot6.New
-			slot7 = slot0
-			slot6 = slot6(slot7)
-			slot4 = slot6
+			slot4 = slot1.Battle.BattelUAVUnit.New(slot0)
 			--- END OF BLOCK #0 ---
 
 
@@ -1793,13 +1157,7 @@ function slot26(slot0, slot1, slot2, slot3)
 
 			-- Decompilation error in this vicinity:
 			--- BLOCK #0 23-30, warpins: 1 ---
-			slot6 = slot1
-			slot6 = slot6.Battle
-			slot6 = slot6.BattleFunnelUnit
-			slot6 = slot6.New
-			slot7 = slot0
-			slot6 = slot6(slot7)
-			slot4 = slot6
+			slot4 = slot1.Battle.BattleFunnelUnit.New(slot0)
 			--- END OF BLOCK #0 ---
 
 
@@ -1813,13 +1171,7 @@ function slot26(slot0, slot1, slot2, slot3)
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 31-37, warpins: 1 ---
-		slot6 = slot1
-		slot6 = slot6.Battle
-		slot6 = slot6.BattleAircraftUnit
-		slot6 = slot6.New
-		slot7 = slot0
-		slot6 = slot6(slot7)
-		slot4 = slot6
+		slot4 = slot1.Battle.BattleAircraftUnit.New(slot0)
 		--- END OF BLOCK #0 ---
 
 
@@ -1834,23 +1186,9 @@ function slot26(slot0, slot1, slot2, slot3)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #1 38-50, warpins: 3 ---
-	slot7 = slot4
-	slot6 = slot4.SetMotherUnit
-	slot8 = slot2
-
-	slot6(slot7, slot8)
-
-	slot7 = slot4
-	slot6 = slot4.SetWeanponPotential
-	slot8 = slot3
-
-	slot6(slot7, slot8)
-
-	slot7 = slot4
-	slot6 = slot4.SetTemplate
-	slot8 = slot5
-
-	slot6(slot7, slot8)
+	slot4:SetMotherUnit(slot2)
+	slot4:SetWeanponPotential(slot3)
+	slot4:SetTemplate(slot5)
 
 	return slot4
 	--- END OF BLOCK #1 ---
@@ -1859,24 +1197,12 @@ function slot26(slot0, slot1, slot2, slot3)
 
 end
 
-slot25.CreateAircraftUnit = slot26
-
-function slot26(slot0)
+ys or .Battle.BattleDataFunction.CreateAllInStrike = function (slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-13, warpins: 1 ---
-	slot2 = slot0
-	slot1 = slot0.GetTemplateID
-	slot1 = slot1(slot2)
-	slot2 = slot0
-	slot2 = slot2.GetPlayerShipModelFromID
-	slot3 = slot1
-	slot2 = slot2(slot3)
 	slot3 = 0
 	slot4 = {}
-	slot5 = ipairs
-	slot6 = slot2.airassist_time
-	slot5, slot6, slot7 = slot5(slot6)
 
 	--- END OF BLOCK #0 ---
 
@@ -1886,21 +1212,13 @@ function slot26(slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #1 14-26, warpins: 0 ---
-	for slot8, slot9 in slot5, slot6, slot7 do
+	for slot8, slot9 in ipairs(slot0.GetPlayerShipModelFromID(slot1).airassist_time) do
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 14-24, warpins: 1 ---
-		slot10 = slot1
-		slot10 = slot10.Battle
-		slot10 = slot10.BattleAllInStrike
-		slot10 = slot10.New
-		slot11 = slot9
-		slot10 = slot10(slot11)
-		slot12 = slot10
-		slot11 = slot10.SetHost
-		slot13 = slot0
+		slot10 = slot1.Battle.BattleAllInStrike.New(slot9)
 
-		slot11(slot12, slot13)
+		slot10:SetHost(slot0)
 
 		slot4[slot8] = slot10
 		--- END OF BLOCK #0 ---
@@ -1932,73 +1250,22 @@ function slot26(slot0)
 
 end
 
-slot25.CreateAllInStrike = slot26
-
-function slot26(slot0)
+ys or .Battle.BattleDataFunction.ExpandAllinStrike = function (slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-12, warpins: 1 ---
-	slot2 = slot0
-	slot1 = slot0.GetTemplateID
-	slot1 = slot1(slot2)
-	slot2 = slot0
-	slot2 = slot2.GetPlayerShipModelFromID
-	slot3 = slot1
-	slot2 = slot2(slot3)
-	slot3 = slot2.airassist_time
-	slot4 = #slot3
-	slot5 = 0
-
-	if slot4 > slot5 then
+	if #slot0.GetPlayerShipModelFromID(slot1).airassist_time > 0 then
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 13-50, warpins: 1 ---
-		slot4 = #slot3
-		slot4 = slot3[slot4]
-		slot5 = slot1
-		slot5 = slot5.Battle
-		slot5 = slot5.BattleAllInStrike
-		slot5 = slot5.New
-		slot6 = slot4
-		slot5 = slot5(slot6)
-		slot7 = slot5
-		slot6 = slot5.SetHost
-		slot8 = slot0
+		slot5 = slot1.Battle.BattleAllInStrike.New(slot4)
 
-		slot6(slot7, slot8)
+		slot5:SetHost(slot0)
+		slot0:GetFleetVO():GetAirAssistVO():AppendWeapon(slot5)
+		slot5:OverHeat()
+		slot0:GetAirAssistQueue():AppendWeapon(slot5)
 
-		slot7 = slot0
-		slot6 = slot0.GetFleetVO
-		slot6 = slot6(slot7)
-		slot7 = slot6
-		slot6 = slot6.GetAirAssistVO
-		slot6 = slot6(slot7)
-		slot7 = slot6
-		slot6 = slot6.AppendWeapon
-		slot8 = slot5
-
-		slot6(slot7, slot8)
-
-		slot7 = slot5
-		slot6 = slot5.OverHeat
-
-		slot6(slot7)
-
-		slot7 = slot0
-		slot6 = slot0.GetAirAssistQueue
-		slot6 = slot6(slot7)
-		slot7 = slot6
-		slot6 = slot6.AppendWeapon
-		slot8 = slot5
-
-		slot6(slot7, slot8)
-
-		slot7 = slot0
-		slot6 = slot0.GetAirAssistList
-		slot6 = slot6(slot7)
-		slot7 = #slot6
-		slot7 = slot7 + 1
-		slot6[slot7] = slot5
+		slot0:GetAirAssistList()[#slot0.GetAirAssistList() + 1] = slot5
 		--- END OF BLOCK #0 ---
 
 
@@ -2020,165 +1287,94 @@ function slot26(slot0)
 
 end
 
-slot25.ExpandAllinStrike = slot26
-
-function slot26(slot0, slot1)
+ys or .Battle.BattleDataFunction.CreateAirFighterUnit = function (slot0, slot1)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-21, warpins: 1 ---
-	slot2 = nil
-	slot3 = slot0
-	slot3 = slot3.GetAircraftTmpDataFromID
-	slot4 = slot1.templateID
-	slot3 = slot3(slot4)
-	slot4 = slot1
-	slot4 = slot4.Battle
-	slot4 = slot4.BattleAirFighterUnit
-	slot4 = slot4.New
-	slot5 = slot0
-	slot4 = slot4(slot5)
-	slot2 = slot4
-	slot5 = slot2
-	slot4 = slot2.SetWeaponTemplateID
-	slot6 = slot1.weaponID
+	slot1.Battle.BattleAirFighterUnit.New(slot0).SetWeaponTemplateID(nil, slot1.weaponID)
+	slot1.Battle.BattleAirFighterUnit.New(slot0):SetTemplate(slot0.GetAircraftTmpDataFromID(slot1.templateID))
 
-	slot4(slot5, slot6)
-
-	slot5 = slot2
-	slot4 = slot2.SetTemplate
-	slot6 = slot3
-
-	slot4(slot5, slot6)
-
-	return slot2
+	return slot1.Battle.BattleAirFighterUnit.New(slot0)
 	--- END OF BLOCK #0 ---
 
 
 
 end
 
-slot25.CreateAirFighterUnit = slot26
-
-function slot26(slot0)
+ys or .Battle.BattleDataFunction.GetPlayerShipTmpDataFromID = function (slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-4, warpins: 1 ---
-	slot1 = Clone
-	slot2 = slot0
-	slot2 = slot2[slot0]
-
-	return slot1(slot2)
+	return Clone(slot0[slot0])
 	--- END OF BLOCK #0 ---
 
 
 
 end
 
-slot25.GetPlayerShipTmpDataFromID = slot26
-
-function slot26(slot0)
+ys or .Battle.BattleDataFunction.GetPlayerShipModelFromID = function (slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-3, warpins: 1 ---
-	slot1 = slot0
-	slot1 = slot1[slot0]
-
-	return slot1
+	return slot0[slot0]
 	--- END OF BLOCK #0 ---
 
 
 
 end
 
-slot25.GetPlayerShipModelFromID = slot26
-
-function slot26(slot0)
+ys or .Battle.BattleDataFunction.GetPlayerShipSkinDataFromID = function (slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-3, warpins: 1 ---
-	slot1 = slot0
-	slot1 = slot1[slot0]
-
-	return slot1
+	return slot0[slot0]
 	--- END OF BLOCK #0 ---
 
 
 
 end
 
-slot25.GetPlayerShipSkinDataFromID = slot26
-
-function slot26(slot0)
+ys or .Battle.BattleDataFunction.GetShipTypeTmp = function (slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-3, warpins: 1 ---
-	slot1 = slot0
-	slot1 = slot1[slot0]
-
-	return slot1
+	return slot0[slot0]
 	--- END OF BLOCK #0 ---
 
 
 
 end
 
-slot25.GetShipTypeTmp = slot26
-
-function slot26(slot0)
+ys or .Battle.BattleDataFunction.GetMonsterTmpDataFromID = function (slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-3, warpins: 1 ---
-	slot1 = slot0
-	slot1 = slot1[slot0]
-
-	return slot1
+	return slot0[slot0]
 	--- END OF BLOCK #0 ---
 
 
 
 end
 
-slot25.GetMonsterTmpDataFromID = slot26
-
-function slot26(slot0)
+ys or .Battle.BattleDataFunction.GetAircraftTmpDataFromID = function (slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-3, warpins: 1 ---
-	slot1 = slot0
-	slot1 = slot1[slot0]
-
-	return slot1
+	return slot0[slot0]
 	--- END OF BLOCK #0 ---
 
 
 
 end
 
-slot25.GetAircraftTmpDataFromID = slot26
-
-function slot26(slot0)
+ys or .Battle.BattleDataFunction.GetWeaponDataFromID = function (slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-4, warpins: 1 ---
-	slot1 = Equipment
-	slot1 = slot1.EQUIPMENT_STATE_EMPTY
-
-	if slot0 ~= slot1 then
+	if slot0 ~= Equipment.EQUIPMENT_STATE_EMPTY and slot0 ~= Equipment.EQUIPMENT_STATE_LOCK then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 5-8, warpins: 1 ---
-		slot1 = Equipment
-		slot1 = slot1.EQUIPMENT_STATE_LOCK
-
-		if slot0 ~= slot1 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 9-9, warpins: 1 ---
-			--- END OF BLOCK #0 ---
-
-
-
-		end
+		--- BLOCK #0 9-9, warpins: 1 ---
 		--- END OF BLOCK #0 ---
 
 
@@ -2193,174 +1389,108 @@ function slot26(slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #1 9-11, warpins: 3 ---
-	slot1 = slot0
-	slot1 = slot1[slot0]
-
-	return slot1
+	return slot0[slot0]
 	--- END OF BLOCK #1 ---
 
 
 
 end
 
-slot25.GetWeaponDataFromID = slot26
-
-function slot26(slot0)
+ys or .Battle.BattleDataFunction.GetEquipDataTemplate = function (slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-3, warpins: 1 ---
-	slot1 = slot0
-	slot1 = slot1[slot0]
-
-	return slot1
+	return slot0[slot0]
 	--- END OF BLOCK #0 ---
 
 
 
 end
 
-slot25.GetEquipDataTemplate = slot26
-
-function slot26(slot0)
+ys or .Battle.BattleDataFunction.GetWeaponPropertyDataFromID = function (slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-3, warpins: 1 ---
-	slot1 = slot0
-	slot1 = slot1[slot0]
-
-	return slot1
+	return slot0[slot0]
 	--- END OF BLOCK #0 ---
 
 
 
 end
 
-slot25.GetWeaponPropertyDataFromID = slot26
-
-function slot26(slot0)
+ys or .Battle.BattleDataFunction.GetFormationTmpDataFromID = function (slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-3, warpins: 1 ---
-	slot1 = slot0
-	slot1 = slot1[slot0]
-
-	return slot1
+	return slot0[slot0]
 	--- END OF BLOCK #0 ---
 
 
 
 end
 
-slot25.GetFormationTmpDataFromID = slot26
-
-function slot26(slot0)
+ys or .Battle.BattleDataFunction.GetAITmpDataFromID = function (slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-3, warpins: 1 ---
-	slot1 = slot0
-	slot1 = slot1[slot0]
-
-	return slot1
+	return slot0[slot0]
 	--- END OF BLOCK #0 ---
 
 
 
 end
 
-slot25.GetAITmpDataFromID = slot26
-
-function slot26(slot0)
+ys or .Battle.BattleDataFunction.GetShipPersonality = function (slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-3, warpins: 1 ---
-	slot1 = slot0
-	slot1 = slot1[slot0]
-
-	return slot1
+	return slot0[slot0]
 	--- END OF BLOCK #0 ---
 
 
 
 end
 
-slot25.GetShipPersonality = slot26
-
-function slot26(slot0)
+ys or .Battle.BattleDataFunction.GetEnemyTypeDataByType = function (slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-3, warpins: 1 ---
-	slot1 = slot0
-	slot1 = slot1[slot0]
-
-	return slot1
+	return slot0[slot0]
 	--- END OF BLOCK #0 ---
 
 
 
 end
 
-slot25.GetEnemyTypeDataByType = slot26
-
-function slot26(slot0)
+ys or .Battle.BattleDataFunction.GetArenaBuffByShipType = function (slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-6, warpins: 1 ---
-	slot1 = slot0
-	slot1 = slot1.GetShipTypeTmp
-	slot2 = slot0
-	slot1 = slot1(slot2)
-	slot1 = slot1.arena_buff
-
-	return slot1
+	return slot0:GetShipTypeTmp().arena_buff
 	--- END OF BLOCK #0 ---
 
 
 
 end
 
-slot25.GetArenaBuffByShipType = slot26
-
-function slot26(slot0, slot1)
+ys or .Battle.BattleDataFunction.GetPlayerUnitDurabilityExtraAddition = function (slot0, slot1)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-3, warpins: 1 ---
-	slot2 = SYSTEM_DUEL
-
-	if slot0 ~= slot2 then
+	if slot0 == SYSTEM_DUEL or slot0 == SYSTEM_SHAM then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 4-6, warpins: 1 ---
-		slot2 = SYSTEM_SHAM
-
-		if slot0 == slot2 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 7-14, warpins: 2 ---
-			slot2 = slot0
-			slot2 = slot2[slot1]
-			slot2 = slot2.arena_durability_ratio
-			slot3 = slot0
-			slot3 = slot3[slot1]
-			slot3 = slot3.arena_durability_add
-
-			return slot2, slot3
-			--- END OF BLOCK #0 ---
+		--- BLOCK #0 7-14, warpins: 2 ---
+		return slot0[slot1].arena_durability_ratio, slot0[slot1].arena_durability_add
+		--- END OF BLOCK #0 ---
 
 
 
-		else
+	else
 
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 15-17, warpins: 1 ---
-			slot2 = 1
-			slot3 = 0
-
-			return slot2, slot3
-			--- END OF BLOCK #0 ---
-
-
-
-		end
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 15-17, warpins: 1 ---
+		return 1, 0
 		--- END OF BLOCK #0 ---
 
 
@@ -2382,95 +1512,55 @@ function slot26(slot0, slot1)
 
 end
 
-slot25.GetPlayerUnitDurabilityExtraAddition = slot26
-
-function slot26(slot0)
+ys or .Battle.BattleDataFunction.GetSkillDataTemplate = function (slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-3, warpins: 1 ---
-	slot1 = slot0
-	slot1 = slot1[slot0]
-
-	return slot1
+	return slot0[slot0]
 	--- END OF BLOCK #0 ---
 
 
 
 end
 
-slot25.GetSkillDataTemplate = slot26
-
-function slot26(slot0)
+ys or .Battle.BattleDataFunction.GetShipTransformDataTemplate = function (slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-8, warpins: 1 ---
-	slot1 = slot0
-	slot1 = slot1.GetPlayerShipModelFromID
-	slot2 = slot0
-	slot1 = slot1(slot2)
-	slot2 = slot1
-	slot3 = slot1.group_type
-	slot2 = slot2[slot3]
-
-	return slot2
+	return slot1[slot0:GetPlayerShipModelFromID().group_type]
 	--- END OF BLOCK #0 ---
 
 
 
 end
 
-slot25.GetShipTransformDataTemplate = slot26
-
-function slot26(slot0)
+ys or .Battle.BattleDataFunction.GetEquipSkinDataFromID = function (slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-3, warpins: 1 ---
-	slot1 = slot0
-	slot1 = slot1[slot0]
-
-	return slot1
+	return slot0[slot0]
 	--- END OF BLOCK #0 ---
 
 
 
 end
 
-slot25.GetEquipSkinDataFromID = slot26
-
-function slot26(slot0)
+ys or .Battle.BattleDataFunction.GetEquipSkin = function (slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-7, warpins: 1 ---
-	slot1 = slot0
-	slot1 = slot1[slot0]
-	slot2 = slot1.bullet_name
-	slot3 = slot1.derivate_bullet
-	slot4 = slot1.derivate_torpedo
-	slot5 = slot1.derivate_boom
-
-	return slot2, slot3, slot4, slot5
+	return slot0[slot0].bullet_name, slot0[slot0].derivate_bullet, slot0[slot0].derivate_torpedo, slot0[slot0].derivate_boom
 	--- END OF BLOCK #0 ---
 
 
 
 end
 
-slot25.GetEquipSkin = slot26
-
-function slot26(slot0, slot1)
+ys or .Battle.BattleDataFunction.GetSpecificEnemyList = function (slot0, slot1)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-11, warpins: 1 ---
-	slot2 = slot0
-	slot2 = slot2[slot0]
-	slot3 = slot1
-	slot4 = slot2.config_id
-	slot3 = slot3[slot4]
-	slot4 = slot3.ex_expedition_enemy
 	slot5 = nil
-	slot6 = ipairs
-	slot7 = slot4
-	slot6, slot7, slot8 = slot6(slot7)
 
 	--- END OF BLOCK #0 ---
 
@@ -2480,13 +1570,11 @@ function slot26(slot0, slot1)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #1 12-18, warpins: 0 ---
-	for slot9, slot10 in slot6, slot7, slot8 do
+	for slot9, slot10 in ipairs(slot4) do
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 12-14, warpins: 1 ---
-		slot11 = slot10[1]
-
-		if slot11 == slot1 then
+		if slot10[1] == slot1 then
 
 			-- Decompilation error in this vicinity:
 			--- BLOCK #0 15-16, warpins: 1 ---
@@ -2535,16 +1623,10 @@ function slot26(slot0, slot1)
 
 end
 
-slot25.GetSpecificEnemyList = slot26
-
-function slot26(slot0, slot1, slot2)
+ys or .Battle.BattleDataFunction.IncreaseAttributes = function (slot0, slot1, slot2)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-4, warpins: 1 ---
-	slot3 = ipairs
-	slot4 = slot2
-	slot3, slot4, slot5 = slot3(slot4)
-
 	--- END OF BLOCK #0 ---
 
 	FLOW; TARGET BLOCK #1
@@ -2553,31 +1635,15 @@ function slot26(slot0, slot1, slot2)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #1 5-16, warpins: 0 ---
-	for slot6, slot7 in slot3, slot4, slot5 do
+	for slot6, slot7 in ipairs(slot2) do
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 5-7, warpins: 1 ---
-		slot8 = slot7[slot1]
-
-		if slot8 ~= nil then
+		if slot7[slot1] ~= nil and type(slot7[slot1]) == "number" then
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 8-12, warpins: 1 ---
-			slot8 = type
-			slot9 = slot7[slot1]
-			slot8 = slot8(slot9)
-
-			if slot8 == "number" then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 13-14, warpins: 1 ---
-				slot8 = slot7[slot1]
-				slot0 = slot0 + slot8
-				--- END OF BLOCK #0 ---
-
-
-
-			end
+			--- BLOCK #0 13-14, warpins: 1 ---
+			slot0 = slot0 + slot7[slot1]
 			--- END OF BLOCK #0 ---
 
 
@@ -2612,32 +1678,17 @@ function slot26(slot0, slot1, slot2)
 
 end
 
-slot25.IncreaseAttributes = slot26
-
-function slot26(slot0, slot1, slot2, slot3)
+ys or .Battle.BattleDataFunction.CreateAirFighterWeaponUnit = function (slot0, slot1, slot2, slot3)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-11, warpins: 1 ---
 	slot4 = nil
-	slot5 = slot0
-	slot5 = slot5.GetWeaponPropertyDataFromID
-	slot6 = slot0
-	slot5 = slot5(slot6)
-	slot6 = slot5.type
-	slot7 = slot1
-	slot7 = slot7.EquipmentType
-	slot7 = slot7.MAIN_CANNON
 
-	if slot6 == slot7 then
+	if slot0:GetWeaponPropertyDataFromID().type == slot1.EquipmentType.MAIN_CANNON then
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 12-18, warpins: 1 ---
-		slot6 = slot2
-		slot6 = slot6.Battle
-		slot6 = slot6.BattleWeaponUnit
-		slot6 = slot6.New
-		slot6 = slot6()
-		slot4 = slot6
+		slot4 = slot2.Battle.BattleWeaponUnit.New()
 		--- END OF BLOCK #0 ---
 
 
@@ -2646,21 +1697,11 @@ function slot26(slot0, slot1, slot2, slot3)
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 19-24, warpins: 1 ---
-		slot6 = slot5.type
-		slot7 = slot1
-		slot7 = slot7.EquipmentType
-		slot7 = slot7.SUB_CANNON
-
-		if slot6 == slot7 then
+		if slot5.type == slot1.EquipmentType.SUB_CANNON then
 
 			-- Decompilation error in this vicinity:
 			--- BLOCK #0 25-31, warpins: 1 ---
-			slot6 = slot2
-			slot6 = slot6.Battle
-			slot6 = slot6.BattleWeaponUnit
-			slot6 = slot6.New
-			slot6 = slot6()
-			slot4 = slot6
+			slot4 = slot2.Battle.BattleWeaponUnit.New()
 			--- END OF BLOCK #0 ---
 
 
@@ -2669,21 +1710,11 @@ function slot26(slot0, slot1, slot2, slot3)
 
 			-- Decompilation error in this vicinity:
 			--- BLOCK #0 32-37, warpins: 1 ---
-			slot6 = slot5.type
-			slot7 = slot1
-			slot7 = slot7.EquipmentType
-			slot7 = slot7.TORPEDO
-
-			if slot6 == slot7 then
+			if slot5.type == slot1.EquipmentType.TORPEDO then
 
 				-- Decompilation error in this vicinity:
 				--- BLOCK #0 38-44, warpins: 1 ---
-				slot6 = slot2
-				slot6 = slot6.Battle
-				slot6 = slot6.BattleTorpedoUnit
-				slot6 = slot6.New
-				slot6 = slot6()
-				slot4 = slot6
+				slot4 = slot2.Battle.BattleTorpedoUnit.New()
 				--- END OF BLOCK #0 ---
 
 
@@ -2692,21 +1723,11 @@ function slot26(slot0, slot1, slot2, slot3)
 
 				-- Decompilation error in this vicinity:
 				--- BLOCK #0 45-50, warpins: 1 ---
-				slot6 = slot5.type
-				slot7 = slot1
-				slot7 = slot7.EquipmentType
-				slot7 = slot7.ANTI_AIR
-
-				if slot6 == slot7 then
+				if slot5.type == slot1.EquipmentType.ANTI_AIR then
 
 					-- Decompilation error in this vicinity:
 					--- BLOCK #0 51-57, warpins: 1 ---
-					slot6 = slot2
-					slot6 = slot6.Battle
-					slot6 = slot6.BattleAntiAirUnit
-					slot6 = slot6.New
-					slot6 = slot6()
-					slot4 = slot6
+					slot4 = slot2.Battle.BattleAntiAirUnit.New()
 					--- END OF BLOCK #0 ---
 
 
@@ -2715,21 +1736,11 @@ function slot26(slot0, slot1, slot2, slot3)
 
 					-- Decompilation error in this vicinity:
 					--- BLOCK #0 58-63, warpins: 1 ---
-					slot6 = slot5.type
-					slot7 = slot1
-					slot7 = slot7.EquipmentType
-					slot7 = slot7.ANTI_SEA
-
-					if slot6 == slot7 then
+					if slot5.type == slot1.EquipmentType.ANTI_SEA then
 
 						-- Decompilation error in this vicinity:
 						--- BLOCK #0 64-70, warpins: 1 ---
-						slot6 = slot2
-						slot6 = slot6.Battle
-						slot6 = slot6.BattleDirectHitWeaponUnit
-						slot6 = slot6.New
-						slot6 = slot6()
-						slot4 = slot6
+						slot4 = slot2.Battle.BattleDirectHitWeaponUnit.New()
 						--- END OF BLOCK #0 ---
 
 
@@ -2738,21 +1749,11 @@ function slot26(slot0, slot1, slot2, slot3)
 
 						-- Decompilation error in this vicinity:
 						--- BLOCK #0 71-76, warpins: 1 ---
-						slot6 = slot5.type
-						slot7 = slot1
-						slot7 = slot7.EquipmentType
-						slot7 = slot7.HAMMER_HEAD
-
-						if slot6 == slot7 then
+						if slot5.type == slot1.EquipmentType.HAMMER_HEAD then
 
 							-- Decompilation error in this vicinity:
 							--- BLOCK #0 77-83, warpins: 1 ---
-							slot6 = slot2
-							slot6 = slot6.Battle
-							slot6 = slot6.BattleHammerHeadWeaponUnit
-							slot6 = slot6.New
-							slot6 = slot6()
-							slot4 = slot6
+							slot4 = slot2.Battle.BattleHammerHeadWeaponUnit.New()
 							--- END OF BLOCK #0 ---
 
 
@@ -2761,21 +1762,11 @@ function slot26(slot0, slot1, slot2, slot3)
 
 							-- Decompilation error in this vicinity:
 							--- BLOCK #0 84-89, warpins: 1 ---
-							slot6 = slot5.type
-							slot7 = slot1
-							slot7 = slot7.EquipmentType
-							slot7 = slot7.BOMBER_PRE_CAST_ALERT
-
-							if slot6 == slot7 then
+							if slot5.type == slot1.EquipmentType.BOMBER_PRE_CAST_ALERT then
 
 								-- Decompilation error in this vicinity:
 								--- BLOCK #0 90-96, warpins: 1 ---
-								slot6 = slot2
-								slot6 = slot6.Battle
-								slot6 = slot6.BattleBombWeaponUnit
-								slot6 = slot6.New
-								slot6 = slot6()
-								slot4 = slot6
+								slot4 = slot2.Battle.BattleBombWeaponUnit.New()
 								--- END OF BLOCK #0 ---
 
 
@@ -2784,21 +1775,11 @@ function slot26(slot0, slot1, slot2, slot3)
 
 								-- Decompilation error in this vicinity:
 								--- BLOCK #0 97-102, warpins: 1 ---
-								slot6 = slot5.type
-								slot7 = slot1
-								slot7 = slot7.EquipmentType
-								slot7 = slot7.DEPTH_CHARGE
-
-								if slot6 == slot7 then
+								if slot5.type == slot1.EquipmentType.DEPTH_CHARGE then
 
 									-- Decompilation error in this vicinity:
 									--- BLOCK #0 103-108, warpins: 1 ---
-									slot6 = slot2
-									slot6 = slot6.Battle
-									slot6 = slot6.BattleDepthChargeUnit
-									slot6 = slot6.New
-									slot6 = slot6()
-									slot4 = slot6
+									slot4 = slot2.Battle.BattleDepthChargeUnit.New()
 									--- END OF BLOCK #0 ---
 
 
@@ -2848,29 +1829,12 @@ function slot26(slot0, slot1, slot2, slot3)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #1 109-127, warpins: 9 ---
-	slot7 = slot4
-	slot6 = slot4.SetPotentialFactor
-	slot8 = slot3
+	slot4:SetPotentialFactor(slot3)
 
-	slot6(slot7, slot8)
+	Clone(slot5).spawn_bound = "weapon"
 
-	slot6 = Clone
-	slot7 = slot5
-	slot6 = slot6(slot7)
-	slot7 = "weapon"
-	slot6.spawn_bound = slot7
-	slot8 = slot4
-	slot7 = slot4.SetTemplateData
-	slot9 = slot6
-
-	slot7(slot8, slot9)
-
-	slot8 = slot4
-	slot7 = slot4.SetHostData
-	slot9 = slot1
-	slot10 = slot2
-
-	slot7(slot8, slot9, slot10)
+	slot4:SetTemplateData(slot6)
+	slot4:SetHostData(slot1, slot2)
 
 	return slot4
 	--- END OF BLOCK #1 ---
@@ -2879,24 +1843,11 @@ function slot26(slot0, slot1, slot2, slot3)
 
 end
 
-slot25.CreateAirFighterWeaponUnit = slot26
-
-function slot26(slot0, slot1, slot2)
+ys or .Battle.BattleDataFunction.GetWords = function (slot0, slot1, slot2)
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-12, warpins: 1 ---
-	slot3 = ShipWordHelper
-	slot3 = slot3.GetWordAndCV
-	slot4 = slot0
-	slot5 = slot1
-	slot6 = 1
-	slot7 = true
-	slot8 = slot2
-	slot3, slot4, slot5 = slot3(slot4, slot5, slot6, slot7, slot8)
-	slot6 = print
-	slot7 = slot5
-
-	slot6(slot7)
+	--- BLOCK #0 1-9, warpins: 1 ---
+	slot3, slot4, slot5 = ShipWordHelper.GetWordAndCV(slot0, slot1, 1, true, slot2)
 
 	return slot5
 	--- END OF BLOCK #0 ---
@@ -2905,20 +1856,11 @@ function slot26(slot0, slot1, slot2)
 
 end
 
-slot25.GetWords = slot26
-
-function slot26(slot0, slot1)
+ys or .Battle.BattleDataFunction.SkillTranform = function (slot0, slot1)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-8, warpins: 1 ---
-	slot2 = slot0
-	slot2 = slot2.GetSkillDataTemplate
-	slot3 = slot1
-	slot2 = slot2(slot3)
-	slot3 = slot2.system_transform
-	slot4 = slot3[slot0]
-
-	if slot4 == nil then
+	if slot0.GetSkillDataTemplate(slot1).system_transform[slot0] == nil then
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 9-10, warpins: 1 ---
@@ -2931,9 +1873,7 @@ function slot26(slot0, slot1)
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 11-12, warpins: 1 ---
-		slot4 = slot3[slot0]
-
-		return slot4
+		return slot3[slot0]
 		--- END OF BLOCK #0 ---
 
 
@@ -2955,21 +1895,11 @@ function slot26(slot0, slot1)
 
 end
 
-slot25.SkillTranform = slot26
-
-function slot26(slot0)
+ys or .Battle.BattleDataFunction.GenerateHiddenBuff = function (slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-10, warpins: 1 ---
-	slot1 = slot0
-	slot1 = slot1.GetPlayerShipModelFromID
-	slot2 = slot0
-	slot1 = slot1(slot2)
-	slot1 = slot1.hide_buff_list
 	slot2 = {}
-	slot3 = ipairs
-	slot4 = slot1
-	slot3, slot4, slot5 = slot3(slot4)
 
 	--- END OF BLOCK #0 ---
 
@@ -2979,15 +1909,14 @@ function slot26(slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #1 11-17, warpins: 0 ---
-	for slot6, slot7 in slot3, slot4, slot5 do
+	for slot6, slot7 in ipairs(slot1) do
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 11-15, warpins: 1 ---
-		slot8 = {}
-		slot9 = 1
-		slot8.level = slot9
-		slot8.id = slot7
-		slot2[slot7] = slot8
+		slot2[slot7] = {
+			level = 1,
+			id = slot7
+		}
 		--- END OF BLOCK #0 ---
 
 		FLOW; TARGET BLOCK #1
@@ -3017,97 +1946,97 @@ function slot26(slot0)
 
 end
 
-slot25.GenerateHiddenBuff = slot26
-
-function slot26(slot0)
+ys or .Battle.BattleDataFunction.GetDivingFilter = function (slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-4, warpins: 1 ---
-	slot1 = slot0
-	slot1 = slot1[slot0]
-	slot1 = slot1.diving_filter
-
-	return slot1
+	return slot0[slot0].diving_filter
 	--- END OF BLOCK #0 ---
 
 
 
 end
 
-slot25.GetDivingFilter = slot26
-
-function slot26(slot0, slot1, slot2, slot3, slot4)
+ys or .Battle.BattleDataFunction.GeneratePlayerSubmarinPhase = function (slot0, slot1, slot2, slot3, slot4)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-17, warpins: 1 ---
-	slot5 = slot0 - slot2
-	slot6 = {}
-	slot7 = {
-		index = 0,
-		switchType = 3,
-		switchTo = 1
+	return {
+		{
+			index = 0,
+			switchType = 3,
+			switchTo = 1,
+			switchParam = slot0 - slot2
+		},
+		{
+			index = 1,
+			dive = "STATE_RAID",
+			switchTo = 2,
+			switchType = 1,
+			switchParamFunc = slot3
+		},
+		{
+			switchType = 1,
+			dive = "STATE_FLOAT",
+			switchTo = 3,
+			index = 2,
+			switchParam = slot4
+		},
+		{
+			switchType = 4,
+			dive = "STATE_RETREAT",
+			switchTo = 4,
+			index = 3,
+			switchParam = slot1
+		},
+		{
+			index = 4,
+			retreat = true
+		}
 	}
-	slot7.switchParam = slot5
-	slot6[1] = slot7
-	slot7 = {
-		index = 1,
-		dive = "STATE_RAID",
-		switchTo = 2,
-		switchType = 1
-	}
-	slot7.switchParamFunc = slot3
-	slot6[2] = slot7
-	slot7 = {
-		switchType = 1,
-		dive = "STATE_FLOAT",
-		switchTo = 3,
-		index = 2
-	}
-	slot7.switchParam = slot4
-	slot6[3] = slot7
-	slot7 = {
-		switchType = 4,
-		dive = "STATE_RETREAT",
-		switchTo = 4,
-		index = 3
-	}
-	slot7.switchParam = slot1
-	slot6[4] = slot7
-	slot7 = {
-		index = 4,
-		retreat = true
-	}
-	slot6[5] = slot7
-
-	return slot6
 	--- END OF BLOCK #0 ---
 
 
 
 end
 
-slot25.GeneratePlayerSubmarinPhase = slot26
-
 return
 
+--- END OF BLOCK #0 ---
+
+FLOW; TARGET BLOCK #2
+
+
+
+-- Decompilation error in this vicinity:
+--- BLOCK #1 4-4, warpins: 1 ---
+slot0 = 
 --- END OF BLOCK #1 ---
 
-FLOW; TARGET BLOCK #3
+FLOW; TARGET BLOCK #2
 
 
 
 -- Decompilation error in this vicinity:
---- BLOCK #2 60-60, warpins: 1 ---
-slot26 = 
+--- BLOCK #2 5-59, warpins: 2 ---
 --- END OF BLOCK #2 ---
 
-FLOW; TARGET BLOCK #3
+FLOW; TARGET BLOCK #4
 
 
 
 -- Decompilation error in this vicinity:
---- BLOCK #3 61-139, warpins: 2 ---
+--- BLOCK #3 60-60, warpins: 1 ---
+slot26 = 
 --- END OF BLOCK #3 ---
+
+FLOW; TARGET BLOCK #4
+
+
+
+-- Decompilation error in this vicinity:
+--- BLOCK #4 61-139, warpins: 2 ---
+--- END OF BLOCK #4 ---
 
 
 

@@ -7675,7 +7675,7 @@ No.7 駆逐艦「鞍山」
 		key = "activity_switch_award_pool_failed"
 	},
 	shop_street_activity_tip = {
-		tip = "*<color=#A1E400FF>19.12.26-20.1.8</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します",
+		tip = "*<color=#A1E400FF>20.2.27-20.3.11</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します",
 		key = "shop_street_activity_tip"
 	},
 	twitter_link_title = {
@@ -8928,7 +8928,7 @@ No.7 駆逐艦「鞍山」
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "イベント期間、「龍鳳」、「駿河」 などの出現率UP！",
+		tip = "イベント期間、「タシュケント」 などの出現率UP！",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -12731,6 +12731,123 @@ GET!
 	LinkLinkGame_CurTime = {
 		tip = "所要時間:",
 		key = "LinkLinkGame_CurTime"
+	},
+	sort_attribute = {
+		tip = "ｽﾃｰﾀｽ",
+		key = "sort_attribute"
+	},
+	sort_intimacy = {
+		tip = "親密度",
+		key = "sort_intimacy"
+	},
+	index_skin = {
+		tip = "着替所持",
+		key = "index_skin"
+	},
+	index_reform = {
+		tip = "改造実装",
+		key = "index_reform"
+	},
+	index_strengthen = {
+		tip = "強化可能",
+		key = "index_strengthen"
+	},
+	decodegame_gametip = {
+		key = "decodegame_gametip",
+		tip = {
+			{
+				info = [[
+■情報解読
+情報解読では、「情報画面」をタップし情報解読する
+ことで「暗号ページ」を解禁し、「暗号ページ」の暗号
+の「情報画面」をタップすることで、報酬を入手できる
+ミニイベントになります。
+情報を解読するには、イベント「凍絶の北海」で「pt情
+報子」を入手する必要があります。]]
+			},
+			{
+				info = [[
+■画面紹介
+画面左側に、現在の「情報解読可能回数」が表示されま
+す。画面右側のスイッチをタップすることで、表示され
+る「解読情報」を変更することができます。
+画面中央の「情報画面」の未解読（ノイズ状の表示）箇
+所をタップすることで、情報を解読できます。
+画面右下のボタンをタップすることで「暗号ページ」を
+開けます。
+情報解読が完了した場合、画面左下から最終報酬アイテ
+ムを受け取ることができます。]]
+			},
+			{
+				info = [[
+■遊び方
+1 イベント「凍絶の北海」の限定海域や、限定任務をク
+リアすることで、「pt情報子」を入手することができま
+す。「pt情報子」を累計で<color=#92fc63>200</color>獲得するたびに、情報解
+読可能回数が1回増えます。
+2 画面右側のスイッチをタップすると、「解読情報」が
+表示され、また未解読（ノイズ状の表示）箇所をタップ
+することで、情報を解読できます。解読するたびに、情
+報解読可能回数が1回消費されます。
+3 情報が全箇所解読されると、情報が完全に解読され、
+画面のノイズが消失します。その場合、画面右のスイッ
+チをタップすることで別の「解読情報」に切り替えるこ
+とができます。
+4 情報が全部解読されると、画面右下の「暗号ページ」
+が開放されます。
+5 暗号ページを一度開くと、各「解読情報」ページで「
+暗号」が表示されます。
+6 「解読情報」の「情報画面」で暗号を順番通り入力す
+ると、画面左上の信号が緑になります。
+7 3つの「解読情報」で暗号を全部正確に入力すると、
+報酬アイテムを画面左下から受け取ることができます。
+8 また、情報解読を行った回数に応じて、下記の報酬を
+受け取ることができます。
+　10回：資金*1000
+　20回：汎用改造素材T3*5
+　30回：資金*1000
+　40回：攻撃教科書T3*2
+　50回：ランダム改造図T3*2
+　60回：支援教科書T3*2
+]]
+			}
+		}
+	},
+	indexsort_sort = {
+		tip = "ソート",
+		key = "indexsort_sort"
+	},
+	indexsort_index = {
+		tip = "フィルター",
+		key = "indexsort_index"
+	},
+	indexsort_camp = {
+		tip = "陣営",
+		key = "indexsort_camp"
+	},
+	indexsort_rarity = {
+		tip = "レア度",
+		key = "indexsort_rarity"
+	},
+	indexsort_extraindex = {
+		tip = "絞り込み",
+		key = "indexsort_extraindex"
+	},
+	indexsort_sorteng = {
+		tip = "SORT",
+		key = "indexsort_sorteng"
+	},
+	indexsort_indexeng = {
+		tip = "INDEX",
+		key = "indexsort_indexeng"
+	},
+	indexsort_campeng = {
+		tip = "CAMP",
+		key = "indexsort_campeng"
+	},
+	indexsort_rarityeng = {
+		tip = "RARITY",
+		key = "indexsort_rarityeng"
 	}
 }
 
