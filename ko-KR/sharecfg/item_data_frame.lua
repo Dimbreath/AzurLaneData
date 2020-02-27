@@ -40,6 +40,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>모든 용기를 내어 극한에 도전하는 지휘관 여러분께 바칩니다.</color>\n「한계 챌린지」 참여를 통해 획득할 수 있습니다. （19.10.10-19.12.08）",
 		scene = {}
 	},
+	[204] = {
+		name = "한계 챌린저 IV",
+		time_second = 0,
+		id = 204,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>모든 용기를 내어 극한에 도전하는 지휘관 여러분께 바칩니다.</color>\n「한계 챌린지」 참여를 통해 획득할 수 있습니다. （20.02.27-20.05.27）",
+		scene = {}
+	},
 	[300] = {
 		name = "소환자",
 		time_second = 2592000,
@@ -88,18 +96,28 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「신앙을 받들어 사쿠라 엠파이어의 미래의 광명을 기원해요.」</color>\n「빛나는 벚꽃의 그림자」 이벤트 획득 ",
 		scene = {}
 	},
+	[306] = {
+		name = "연합의 증명",
+		time_second = 0,
+		id = 306,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>후속 이벤트를 통해 획득</color>",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
 		201,
 		202,
 		203,
+		204,
 		300,
 		301,
 		302,
 		303,
 		304,
-		305
+		305,
+		306
 	}
 }
 

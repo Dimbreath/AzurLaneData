@@ -1127,13 +1127,79 @@ return {
 
 		end
 	},
+	{
+		Tip = "tip",
+		Image = "event_LanternFestival",
+		ButtonName = "activity_actpool",
+		UpdateButton = function (slot0, slot1)
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-10, warpins: 1 ---
+			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOTTERY) then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 11-14, warpins: 1 ---
+				slot3 = not slot2:isEnd()
+				--- END OF BLOCK #0 ---
+
+
+
+			end
+
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 15-20, warpins: 2 ---
+			setActive(slot1, slot3)
+
+			if slot3 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 21-26, warpins: 1 ---
+				onButton(slot0, slot1, function ()
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 1-9, warpins: 1 ---
+					slot0:emit(MainUIMediator.ON_LOTTERY, slot1.id)
+
+					return
+					--- END OF BLOCK #0 ---
+
+
+
+				end, SFX_PANEL)
+				--- END OF BLOCK #0 ---
+
+
+
+			end
+
+			--- END OF BLOCK #1 ---
+
+			FLOW; TARGET BLOCK #2
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #2 27-28, warpins: 2 ---
+			return
+			--- END OF BLOCK #2 ---
+
+
+
+		end
+	},
 	LayoutProperty = {
 		CellSize = Vector2(208, 215)
 	},
 	CurrentEntrancesList = {
 		1,
 		2,
-		7,
+		8,
 		5,
 		6
 	}

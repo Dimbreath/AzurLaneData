@@ -20,10 +20,6 @@ function slot1.SetActive(slot0, slot1)
 	SetActive(slot0._skin, slot1)
 end
 
-function slot1.SetHide(slot0, slot1)
-	GetOrAddComponent(slot0._skin, typeof(Canvas)).enabled = not slot1
-end
-
 function slot1.ConfigSkin(slot0, slot1)
 	slot0._skin = slot1
 	slot0._btn = slot1:Find("ActCtl")

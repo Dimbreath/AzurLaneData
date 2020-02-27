@@ -58847,6 +58847,38 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[14673] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91193,
+		type = 6,
+		name = "『限界挑战4』-积分任务",
+		count_inherit = 0,
+		desc = "PT",
+		target_id_2 = "",
+		sub_type = 103,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14673,
+		target_num = 8800,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				14,
+				204,
+				1
+			}
+		}
+	},
 	[14757] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -83778,6 +83810,7 @@ pg.task_data_template = {
 		14670,
 		14671,
 		14672,
+		14673,
 		14757,
 		14758,
 		14759,
