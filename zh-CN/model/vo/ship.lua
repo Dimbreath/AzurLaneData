@@ -2007,6 +2007,10 @@ end
 function slot0.isIntensifyMax(slot0)
 	slot1 = intProperties(slot0:getShipProperties())
 
+	if slot0:isBluePrintShip() then
+		return true
+	end
+
 	for slot5, slot6 in pairs(ShipModAttr.ID_TO_ATTR) do
 		if slot0:getModAttrBaseMax(slot6) ~= slot1[slot6] then
 			return false

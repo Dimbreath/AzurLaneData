@@ -173,13 +173,19 @@ function slot0.init(slot0)
 	slot0.counter = slot0:findTF("main/frame/top/value/Text"):GetComponent(typeof(Text))
 	slot0.uiList = UIItemList.New(slot0:findTF("main/frame/panel/scrollview/ships"), slot0:findTF("main/frame/panel/scrollview/ships/tpl"))
 	slot0.panelDesc = slot0:findTF("main/frame/panel/desc"):GetComponent(typeof(Text))
-	slot0.backyardMain = GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui")
-	slot0.prevPos = tf(slot0.backyardMain).localPosition
+
+	if slot0.contextData.type ~= slot1.SHIP_CLASS_TYPE then
+		slot0.backyardMain = GameObject.Find("/UICamera/Canvas/UIMain/BackYardUI(Clone)/backyardmainui")
+		slot0.prevPos = tf(slot0.backyardMain).localPosition
+	end
 end
 
 function slot0.EnableUI(slot0, slot1)
 	GetOrAddComponent(slot0._tf, typeof(CanvasGroup)).blocksRaycasts = slot1
-	tf(slot0.backyardMain).localPosition = (slot1 and slot0.prevPos) or Vector3(10000, 10000, 0)
+
+	if slot0.contextData.type ~= slot0.SHIP_CLASS_TYPE then
+		tf(slot0.backyardMain).localPosition = (slot1 and slot0.prevPos) or Vector3(10000, 10000, 0)
+	end
 end
 
 function slot0.didEnter(slot0)

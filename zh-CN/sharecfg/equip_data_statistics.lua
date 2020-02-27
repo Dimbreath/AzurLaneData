@@ -66515,7 +66515,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 35,
 		icon = "85000",
-		value_1 = "5 x 6",
+		value_1 = "6 x 6",
 		attribute_2 = "cannon",
 		avoid_extra = 0,
 		rarity = 5,
@@ -66550,7 +66550,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[85041] = {
-		value_1 = "5 x 6",
+		value_1 = "6 x 6",
 		id = 85041,
 		base = 85040,
 		is_siren = 0,
@@ -66561,7 +66561,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[85042] = {
-		value_1 = "6 x 6",
+		value_1 = "7 x 6",
 		id = 85042,
 		base = 85040,
 		is_siren = 0,
@@ -66572,7 +66572,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[85043] = {
-		value_1 = "7 x 6",
+		value_1 = "8 x 6",
 		id = 85043,
 		base = 85040,
 		is_siren = 0,
@@ -66583,7 +66583,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[85044] = {
-		value_1 = "8 x 6",
+		value_1 = "9 x 6",
 		id = 85044,
 		base = 85040,
 		is_siren = 0,
@@ -66594,7 +66594,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[85045] = {
-		value_1 = "9 x 6",
+		value_1 = "10 x 6",
 		id = 85045,
 		base = 85040,
 		is_siren = 0,
@@ -66605,7 +66605,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[85046] = {
-		value_1 = "10 x 6",
+		value_1 = "11 x 6",
 		id = 85046,
 		base = 85040,
 		is_siren = 0,
@@ -66616,7 +66616,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[85047] = {
-		value_1 = "11 x 6",
+		value_1 = "12 x 6",
 		id = 85047,
 		base = 85040,
 		is_siren = 0,
@@ -66627,7 +66627,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[85048] = {
-		value_1 = "12 x 6",
+		value_1 = "13 x 6",
 		id = 85048,
 		base = 85040,
 		is_siren = 0,
@@ -66638,7 +66638,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[85049] = {
-		value_1 = "13 x 6",
+		value_1 = "14 x 6",
 		id = 85049,
 		base = 85040,
 		is_siren = 0,
@@ -66649,7 +66649,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[85050] = {
-		value_1 = "14 x 6",
+		value_1 = "15 x 6",
 		id = 85050,
 		base = 85040,
 		is_siren = 0,
