@@ -133,7 +133,7 @@ pg.gameset_language_client = {
 		key = "ins_discuss_2_3"
 	},
 	ins_3 = {
-		value = "赤城の愛情を込めました♥",
+		value = "赤城の愛情を込めました♡",
 		key = "ins_3"
 	},
 	ins_discuss_3_1 = {
@@ -1489,7 +1489,7 @@ pg.gameset_language_client = {
 		key = "ins_op_39_1_1"
 	},
 	op_reply_39_1_1 = {
-		value = "あああ指揮官さま赤城のことを心配していますか？？指揮官さまの気持ちだけで、赤城はもう全回復しましたわ❤",
+		value = "あああ指揮官さま赤城のことを心配していますか？？指揮官さまの気持ちだけで、赤城はもう全回復しましたわ♡",
 		key = "op_reply_39_1_1"
 	},
 	ins_40 = {
@@ -2221,7 +2221,7 @@ pg.gameset_language_client = {
 		key = "op_reply_53_1_2"
 	},
 	ins_54 = {
-		value = "露天温泉最高❤",
+		value = "露天温泉最高♡",
 		key = "ins_54"
 	},
 	ins_discuss_54_1 = {
@@ -2249,7 +2249,7 @@ pg.gameset_language_client = {
 		key = "ins_op_54_1_2"
 	},
 	op_reply_54_1_1 = {
-		value = "指揮官様、大鳳と一緒に温泉に入りませんか？大鳳はいつでも大歓迎ですわ❤",
+		value = "指揮官様、大鳳と一緒に温泉に入りませんか？大鳳はいつでも大歓迎ですわ♡",
 		key = "op_reply_54_1_1"
 	},
 	op_reply_54_1_2 = {
