@@ -3392,6 +3392,12 @@ function slot5(slot0, slot1)
 
 				slot9(slot10, slot11)
 			end
+		elseif slot8 then
+			slot9 = setActive
+			slot10 = slot8
+			slot11 = false
+
+			slot9(slot10, slot11)
 		end
 
 		slot9 = slot3.tf

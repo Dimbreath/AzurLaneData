@@ -2313,13 +2313,13 @@ pg.gametip = {
 				info = " 게임 규칙\n"
 			},
 			{
-				info = "1. 이벤트 기간 동안, 매일 00시 정각에 [샌디에이고 스타] 를 획득할\n수 있는 기회가 1번 추가 됩니다.；"
+				info = "1. 이벤트 기간 동안, 매일 00시 정각에 [샌디에이고 스타] 를 \n획득할수 있는 기회가 1번 추가 됩니다.；"
 			},
 			{
 				info = "2. [샌디에이고 스타] 를 획득할 수 있는 기회는 7번 까지,\n설령 전날에 완료하지 못 하더라도 누적됩니다.；"
 			},
 			{
-				info = "3. 같은 아이콘 2개를 선으로 이으면, 아이콘이 사라지게 됩니다.；"
+				info = "3. 같은 아이콘 2개를 선으로 이으면, 아이콘이 사라지게 \n됩니다.；"
 			},
 			{
 				info = "4. 아이콘 사이를 잇는 연결선의 방향은 2번 이상 꺾을 수 \n없습니다.；"
@@ -12307,6 +12307,14 @@ TIPS:
 	LanternRiddle_wait_time_tip = {
 		tip = "재답변 시간:",
 		key = "LanternRiddle_wait_time_tip"
+	},
+	LinkLinkGame_BestTime = {
+		tip = "최고 기록:",
+		key = "LinkLinkGame_BestTime"
+	},
+	LinkLinkGame_CurTime = {
+		tip = "소요 시간:",
+		key = "LinkLinkGame_CurTime"
 	}
 }
 

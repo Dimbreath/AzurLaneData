@@ -157688,6 +157688,1146 @@ pg.expedition_data_template = {
 		},
 		bufficon = {}
 	},
+	[1060420] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1060400,
+		exp = 229,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 35,
+		map_id = 50006,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1060420,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57182
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1060421] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1060401,
+		exp = 250,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 38,
+		map_id = 50006,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1060421,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57183
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1060422] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1060402,
+		exp = 250,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 38,
+		map_id = 50006,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1060422,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57183
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1060423] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1060403,
+		exp = 310,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 47,
+		map_id = 50006,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1060423,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57184
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1060424] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1060404,
+		exp = 310,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 47,
+		map_id = 50006,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1060424,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57184
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1060425] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1060405,
+		exp = 358,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 54,
+		map_id = 50006,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1060425,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57185
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1060426] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1060406,
+		exp = 358,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 54,
+		map_id = 50006,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1060426,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57185
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1060427] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1060407,
+		exp = 391,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 59,
+		map_id = 50006,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1060427,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57186
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1060428] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1060408,
+		exp = 391,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 59,
+		map_id = 50006,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1060428,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57186
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1060429] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 0,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1060409,
+		exp = 391,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 59,
+		map_id = 50006,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1060429,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57186
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54012
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1060430] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1060410,
+		exp = 601,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 79,
+		map_id = 50006,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1060430,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57212
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1060431] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1060411,
+		exp = 634,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 84,
+		map_id = 50006,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1060431,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57213
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1060432] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1060412,
+		exp = 634,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 84,
+		map_id = 50006,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1060432,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57213
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1060433] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1060413,
+		exp = 655,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 87,
+		map_id = 50006,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1060433,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57214
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1060434] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1060414,
+		exp = 655,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 87,
+		map_id = 50006,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1060434,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57214
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1060435] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1060415,
+		exp = 682,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 91,
+		map_id = 50006,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1060435,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57215
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1060436] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1060416,
+		exp = 682,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 91,
+		map_id = 50006,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1060436,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57215
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1060437] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1060417,
+		exp = 702,
+		icon = "sairenquzhu",
+		difficulty = 2,
+		level = 94,
+		map_id = 50006,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1060437,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57216
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1060438] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1060418,
+		exp = 702,
+		icon = "sairenqingxun",
+		difficulty = 2,
+		level = 94,
+		map_id = 50006,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1060438,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57216
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1060439] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 98,
+		ai_mov = 0,
+		add_icon = "",
+		name = "精英舰队",
+		exp_commander = 1,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1060419,
+		exp = 702,
+		icon = "sairenzhongxun",
+		difficulty = 2,
+		level = 94,
+		map_id = 50006,
+		limit_type = 1,
+		icon_type = 2,
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1060439,
+		scale = 80,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				57216
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
 	[1060500] = {
 		sink_limit = 1,
 		ai = 0,
@@ -316261,6 +317401,26 @@ pg.expedition_data_template = {
 		1060417,
 		1060418,
 		1060419,
+		1060420,
+		1060421,
+		1060422,
+		1060423,
+		1060424,
+		1060425,
+		1060426,
+		1060427,
+		1060428,
+		1060429,
+		1060430,
+		1060431,
+		1060432,
+		1060433,
+		1060434,
+		1060435,
+		1060436,
+		1060437,
+		1060438,
+		1060439,
 		1060500,
 		1060600,
 		1071010,

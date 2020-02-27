@@ -5,16 +5,25 @@ slot3 = "..base.BaseUI"
 slot0 = slot0(slot1, slot2(slot3))
 slot1 = pg
 slot1 = slot1.activity_random_award_template
+slot2 = true
 
-function slot2(slot0)
-	slot1 = "LotteryUI"
+function slot3(slot0)
+	slot1 = slot0
 
-	return slot1
+	if slot1 then
+		slot1 = "LotteryForCHTUI"
+
+		return slot1
+	else
+		slot1 = "LotteryUI"
+
+		return slot1
+	end
 end
 
-slot0.getUIName = slot2
+slot0.getUIName = slot3
 
-function slot2(slot0, slot1)
+function slot3(slot0, slot1)
 	slot0.playerVO = slot1
 	slot3 = slot0
 	slot2 = slot0.updateResource
@@ -22,9 +31,9 @@ function slot2(slot0, slot1)
 	slot2(slot3)
 end
 
-slot0.setPlayerVO = slot2
+slot0.setPlayerVO = slot3
 
-function slot2(slot0)
+function slot3(slot0)
 	slot1 = slot0.playerVO
 	slot2 = id2res
 	slot3 = slot0.resId
@@ -42,9 +51,9 @@ function slot2(slot0)
 	slot1(slot2, slot3)
 end
 
-slot0.updateResource = slot2
+slot0.updateResource = slot3
 
-function slot2(slot0, slot1)
+function slot3(slot0, slot1)
 	slot0.activityVO = slot1
 	slot2 = slot0.activityVO
 	slot3 = slot2
@@ -63,9 +72,9 @@ function slot2(slot0, slot1)
 	slot2(slot3)
 end
 
-slot0.setActivity = slot2
+slot0.setActivity = slot3
 
-function slot2(slot0)
+function slot3(slot0)
 	slot1 = {}
 	slot0.activityPools = slot1
 	slot1 = slot0.activityVO
@@ -114,9 +123,9 @@ function slot2(slot0)
 	slot0.activityPool = slot0.activityPools[slot0.activityVO.data1 or slot1[1]]
 end
 
-slot0.initActivityPools = slot2
+slot0.initActivityPools = slot3
 
-function slot2(slot0)
+function slot3(slot0)
 	slot2 = slot0
 	slot1 = slot0.findTF
 	slot3 = "left_panel/pool_list/content"
@@ -177,6 +186,22 @@ function slot2(slot0)
 	slot0.launchTenBtnTxt = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
+	slot3 = "left_panel/launch_max_btn"
+	slot1 = slot1(slot2, slot3)
+	slot0.launchMaxBtn = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "res/Text"
+	slot4 = slot0.launchMaxBtn
+	slot1 = slot1(slot2, slot3, slot4)
+	slot2 = slot1
+	slot1 = slot1.GetComponent
+	slot3 = typeof
+	slot4 = Text
+	slot1 = slot1(slot2, slot3(slot4))
+	slot0.launchMaxBtnTxt = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
 	slot3 = "right_panel/count_container/Text"
 	slot1 = slot1(slot2, slot3)
 	slot2 = slot1
@@ -222,9 +247,9 @@ function slot2(slot0)
 	slot0.nameTxtsN = slot1
 end
 
-slot0.init = slot2
+slot0.init = slot3
 
-function slot2(slot0)
+function slot3(slot0)
 	slot1 = onButton
 	slot2 = slot0
 	slot4 = slot0
@@ -581,24 +606,6 @@ function slot2(slot0)
 		end
 	end
 
-	slot3 = GetImageSpriteFromAtlasAsync
-	slot4 = pg
-	slot4 = slot4.item_data_statistics
-	slot5 = id2ItemId
-	slot6 = slot0.resId
-	slot5 = slot5(slot6)
-	slot4 = slot4[slot5]
-	slot4 = slot4.icon
-	slot5 = ""
-	slot6 = slot0.resource
-	slot7 = slot6
-	slot6 = slot6.Find
-	slot8 = "icon"
-	slot6 = slot6(slot7, slot8)
-	slot7 = true
-
-	slot3(slot4, slot5, slot6, slot7)
-
 	slot4 = slot0
 	slot3 = slot0.updateResource
 
@@ -624,9 +631,9 @@ function slot2(slot0)
 	slot3(slot4, slot5)
 end
 
-slot0.didEnter = slot2
+slot0.didEnter = slot3
 
-function slot2(slot0, slot1)
+function slot3(slot0, slot1)
 	slot3 = slot0
 	slot2 = slot0.setActivity
 	slot4 = slot1
@@ -645,9 +652,9 @@ function slot2(slot0, slot1)
 	slot2(slot3, slot4)
 end
 
-slot0.onActivityUpdated = slot2
+slot0.onActivityUpdated = slot3
 
-function slot2(slot0)
+function slot3(slot0)
 	slot1 = {}
 	slot0.activityPoolTFs = slot1
 	slot1 = pairs
@@ -713,9 +720,9 @@ function slot2(slot0)
 	end
 end
 
-slot0.initPoolTFs = slot2
+slot0.initPoolTFs = slot3
 
-function slot2(slot0)
+function slot3(slot0)
 	slot1 = pairs
 	slot2 = slot0.activityPools
 	slot1, slot2, slot3 = slot1(slot2)
@@ -740,10 +747,64 @@ function slot2(slot0)
 			slot7 = true
 		end
 
-		setActive(slot6:Find("bg/unlock"), slot7)
-		setActive(slot6:Find("bg/lock"), not slot7)
-		setActive(slot6:Find("selected/unlock"), slot7)
-		setActive(slot6:Find("selected/lock"), not slot7)
+		slot8 = setActive
+		slot10 = slot6
+		slot9 = slot6.Find
+		slot11 = "bg/unlock"
+		slot9 = slot9(slot10, slot11)
+		slot10 = slot7
+
+		slot8(slot9, slot10)
+
+		slot8 = setActive
+		slot10 = slot6
+		slot9 = slot6.Find
+		slot11 = "bg/lock"
+		slot9 = slot9(slot10, slot11)
+		slot10 = not slot7
+
+		slot8(slot9, slot10)
+
+		slot8 = setActive
+		slot10 = slot6
+		slot9 = slot6.Find
+		slot11 = "selected/unlock"
+		slot9 = slot9(slot10, slot11)
+		slot10 = slot7
+
+		slot8(slot9, slot10)
+
+		slot8 = setActive
+		slot10 = slot6
+		slot9 = slot6.Find
+		slot11 = "selected/lock"
+		slot9 = slot9(slot10, slot11)
+		slot10 = not slot7
+
+		slot8(slot9, slot10)
+
+		slot8 = slot0
+
+		if slot8 then
+			slot8 = setActive
+			slot10 = slot6
+			slot9 = slot6.Find
+			slot11 = "icon"
+			slot9 = slot9(slot10, slot11)
+			slot10 = slot7
+
+			slot8(slot9, slot10)
+
+			slot8 = setActive
+			slot10 = slot6
+			slot9 = slot6.Find
+			slot11 = "icon_g"
+			slot9 = slot9(slot10, slot11)
+			slot10 = not slot7
+
+			slot8(slot9, slot10)
+		end
+
 		setActive(slot6:Find("finish"), slot5:getleftItemCount() == 0)
 
 		slot9 = slot0.attrTFs[slot5.index - 1]
@@ -761,9 +822,9 @@ function slot2(slot0)
 	end
 end
 
-slot0.updateActivityPoolState = slot2
+slot0.updateActivityPoolState = slot3
 
-function slot2(slot0, slot1)
+function slot3(slot0, slot1)
 	slot2 = slot0.activityPools
 	slot2 = slot2[slot1]
 	slot3 = slot0.activityPoolTFs
@@ -784,12 +845,24 @@ function slot2(slot0, slot1)
 	slot4 = slot4[slot1]
 
 	if not slot4 then
-		slot5 = LoadSprite
-		slot6 = "lotterybg/kr_re_"
-		slot7 = slot2.index
-		slot6 = slot6 .. slot7
-		slot5 = slot5(slot6)
-		slot4 = slot5
+		slot5 = slot0
+
+		if slot5 then
+			slot5 = LoadSprite
+			slot6 = "lotterybg/cht_"
+			slot7 = slot2.index
+			slot6 = slot6 .. slot7
+			slot5 = slot5(slot6)
+			slot4 = slot5
+		else
+			slot5 = LoadSprite
+			slot6 = "lotterybg/kr_re_"
+			slot7 = slot2.index
+			slot6 = slot6 .. slot7
+			slot5 = slot5(slot6)
+			slot4 = slot5
+		end
+
 		slot5 = slot0.bgs
 		slot5[slot1] = slot4
 	end
@@ -834,9 +907,9 @@ function slot2(slot0, slot1)
 	slot0.showActivityPool = slot8
 end
 
-slot0.switchToPool = slot2
+slot0.switchToPool = slot3
 
-function slot2(slot0, slot1)
+function slot3(slot0, slot1)
 	slot2 = slot0.awardsCounttxt
 
 	if slot2 then
@@ -860,9 +933,9 @@ function slot2(slot0, slot1)
 	end
 end
 
-slot0.updateAwardsFetchedCount = slot2
+slot0.updateAwardsFetchedCount = slot3
 
-function slot2(slot0, slot1)
+function slot3(slot0, slot1)
 	slot3 = slot1
 	slot2 = slot1.getMainItems
 	slot2 = slot2(slot3)
@@ -916,9 +989,9 @@ function slot2(slot0, slot1)
 	end
 end
 
-slot0.updateMainItems = slot2
+slot0.updateMainItems = slot3
 
-function slot2(slot0, slot1, slot2)
+function slot3(slot0, slot1, slot2)
 	slot3 = setActive
 	slot4 = slot0.bonusWindow
 	slot5 = true
@@ -1013,9 +1086,9 @@ function slot2(slot0, slot1, slot2)
 	slot3(slot4, slot5)
 end
 
-slot0.showBonus = slot2
+slot0.showBonus = slot3
 
-function slot2(slot0, slot1, slot2, slot3, slot4, slot5)
+function slot3(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = UIItemList
 	slot6 = slot6.EventUpdate
 
@@ -1056,9 +1129,9 @@ function slot2(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 end
 
-slot0.updateDrop = slot2
+slot0.updateDrop = slot3
 
-function slot2(slot0, slot1)
+function slot3(slot0, slot1)
 	if not slot1 then
 		return
 	end
@@ -1087,9 +1160,9 @@ function slot2(slot0, slot1)
 	end
 end
 
-slot0.clearAllNameTxt = slot2
+slot0.clearAllNameTxt = slot3
 
-function slot2(slot0)
+function slot3(slot0)
 	slot1 = nil
 	slot0.bgs = slot1
 	slot2 = slot0
@@ -1105,6 +1178,6 @@ function slot2(slot0)
 	slot1(slot2, slot3)
 end
 
-slot0.willExit = slot2
+slot0.willExit = slot3
 
 return slot0
