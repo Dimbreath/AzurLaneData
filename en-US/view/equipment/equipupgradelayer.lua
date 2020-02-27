@@ -54,7 +54,12 @@ function slot0.updateAll(slot0)
 
 	if slot0.contextData.shipVO then
 		slot0:displayEquipments()
-		triggerButton(slot0.equipmentTFs[slot0.contextData.pos])
+
+		if slot0.contextData.pos then
+			triggerButton(slot0.equipmentTFs[slot0.contextData.pos])
+		else
+			triggerButton(slot0.equipmentContain:GetChild(0))
+		end
 	else
 		slot0:updateEquipment()
 		slot0:updateMaterials()
@@ -79,12 +84,14 @@ function slot0.displayEquipments(slot0)
 			end
 
 			onButton(slot0, slot7, function ()
-				setActive(slot0.equipmentTFs[slot0.contextData.pos]:Find("selected"), false)
-				slot1(slot0.equipmentTFs[slot0.contextData.pos]:Find("tip"), slot0:isMaterialEnough(slot1:getEquip(slot0.contextData.pos)) and slot1:getEquip(slot0).config.next ~= 0)
+				if slot0.contextData.pos then
+					setActive(slot0.equipmentTFs[slot0]:Find("selected"), false)
+					slot1(slot0.equipmentTFs[slot0]:Find("tip"), slot0:isMaterialEnough(slot1:getEquip(slot0)) and slot1:getEquip(slot0).config.next ~= 0)
+				end
 
-				slot0.contextData.pos = slot0.equipmentTFs[slot0.contextData.pos].Find("tip")
-				slot0.contextData.equipmentId = slot0.isMaterialEnough(slot1.getEquip(slot0.contextData.pos)) and slot1.getEquip(slot0).config.next ~= 0.id
-				slot0.contextData.equipmentVO = slot0.isMaterialEnough(slot1.getEquip(slot0.contextData.pos)) and slot1.getEquip(slot0).config.next ~= 0
+				slot0.contextData.pos = slot2
+				slot0.contextData.equipmentId = slot3.id
+				slot0.contextData.equipmentVO = slot3
 
 				setActive(slot0.equipmentTFs[slot0.contextData.pos]:Find("selected"), true)
 				setActive(slot0.equipmentTFs[slot0.contextData.pos]:Find("tip"), false)

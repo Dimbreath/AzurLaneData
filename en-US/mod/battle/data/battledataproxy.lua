@@ -2990,7 +2990,7 @@ function slot8.SpawnEnvironment(slot0, slot1)
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 47-64, warpins: 1 ---
-		slot12 = slot0:SpawnLastingColumnArea(slot9, slot10, slot5, slot1.cld_data[1], slot11, slot6, slot7, false, slot1.prefab, true, slot8)
+		slot12 = slot0:SpawnLastingColumnArea(slot9, slot10, slot5, slot1.cld_data[1], slot11, slot6, slot7, false, slot1.prefab, false, slot8)
 		--- END OF BLOCK #0 ---
 
 
@@ -2999,7 +2999,7 @@ function slot8.SpawnEnvironment(slot0, slot1)
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 65-84, warpins: 1 ---
-		slot12 = slot0:SpawnLastingCubeArea(slot9, slot10, slot5, slot1.cld_data[1], slot1.cld_data[2], slot11, slot6, slot7, false, slot1.prefab, true, slot8)
+		slot12 = slot0:SpawnLastingCubeArea(slot9, slot10, slot5, slot1.cld_data[1], slot1.cld_data[2], slot11, slot6, slot7, false, slot1.prefab, false, slot8)
 		--- END OF BLOCK #0 ---
 
 

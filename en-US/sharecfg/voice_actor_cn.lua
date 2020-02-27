@@ -871,6 +871,26 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Rika Momokawa",
 		code = 218
+	},
+	{
+		actor_name = "Maya Yoshioka",
+		code = 219
+	},
+	{
+		actor_name = "Shiori Izawa",
+		code = 220
+	},
+	{
+		actor_name = "Chiyo Tomaru",
+		code = 221
+	},
+	{
+		actor_name = "Fuyuka Ono",
+		code = 222
+	},
+	{
+		actor_name = "Masumi Tazawa",
+		code = 223
 	}
 }
 

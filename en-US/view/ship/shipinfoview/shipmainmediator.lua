@@ -26,6 +26,7 @@ slot0.ON_UPGRADE_MAX_LEVEL = "ShipMainMediator:ON_UPGRADE_MAX_LEVEL"
 slot0.ON_TECHNOLOGY = "ShipMainMediator:ON_TECHNOLOGY"
 slot0.OPEN_SHIPPROFILE = "ShipMainMediator:OPEN_SHIPPROFILE"
 slot0.ON_SEL_COMMANDER = "ShipMainMediator:ON_SEL_COMMANDER"
+slot0.OPEN_EQUIP_UPGRADE = "ShipMainMediator:OPEN_EQUIP_UPGRADE"
 
 function slot0.register(slot0)
 	slot0.bayProxy = getProxy(BayProxy)
@@ -248,6 +249,15 @@ function slot0.register(slot0)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHIPBLUEPRINT, {
 			shipId = slot1.id
 		})
+	end)
+	slot0:bind(slot0.OPEN_EQUIP_UPGRADE, function (slot0, slot1)
+		slot0:addSubLayers(Context.New({
+			mediator = EquipUpgradeMediator,
+			viewComponent = EquipUpgradeLayer,
+			data = {
+				shipId = slot1
+			}
+		}))
 	end)
 
 	if slot0.contextData.selectedId then

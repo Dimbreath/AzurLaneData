@@ -5330,6 +5330,109 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[4151] = {
+		desc_get = "",
+		name = "Mobility Mastery ",
+		desc = "Decreases this ship's DMG taken from enemy DD guns and torpedoes by $1. Every 20s: increases this ship's Speed by 5 and FP by $2 for 10s. ",
+		type = 2,
+		max_level = 10,
+		id = 4151,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"10.0%"
+			},
+			{
+				"5.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%",
+					"+0.5%"
+				},
+				{
+					"8.5%",
+					"+0.5%"
+				},
+				{
+					"9.0%",
+					"+1%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.6%"
+				},
+				{
+					"6.6%",
+					"+1.6%"
+				},
+				{
+					"8.2%",
+					"+1.8%"
+				},
+				{
+					"10.0%",
+					"+1.6%"
+				},
+				{
+					"11.6%",
+					"+1.6%"
+				},
+				{
+					"13.2%",
+					"+1.8%"
+				},
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.8%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
 	[5001] = {
 		desc_get = "Every 20s: 25.0% chance to pick one enemy at random (prioritizes humanoid enemies) and decrease their Fire Rate and DMG for 5s (10s when fully upgraded.) Does not stack with the same skill.",
 		name = "Interference",
@@ -27018,7 +27121,7 @@ pg.skill_data_template = {
 	[12730] = {
 		desc_get = "",
 		name = "Shining Steps",
-		desc = "At the start of the battle, if this ship is in the frontmost position in your Vanguard and there are at least 2 ships in your Vanguard: $2 chance to decrease any instance of DMG taken by $1 for all ships in your Vanguard.",
+		desc = "At the start of the battle, if this ship is in the backmost position in your Vanguard and there are at least 2 ships in your Vanguard: $2 chance to decrease any instance of DMG taken by $1 for all ships in your Vanguard.",
 		type = 2,
 		max_level = 10,
 		id = 12730,
@@ -29170,10 +29273,939 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[12980] = {
+		desc_get = "",
+		name = "The Blue Cruiser",
+		desc = "At the start of the battle: increases this ship's FP by $1 and spawns Snezhinka, a summon which fights for $2s and lowers the Speed of enemies hit by it (its DMG dealt and active duration is based on the skill's level.) Additionally, when this ship sinks an enemy: increases this ship's FP by $3 (can be stacked up to 5 times.)",
+		type = 1,
+		max_level = 10,
+		id = 12980,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"20",
+				"50"
+			},
+			{
+				"0.5%",
+				"2.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"20",
+					"+2"
+				},
+				{
+					"22",
+					"+2"
+				},
+				{
+					"24",
+					"+2"
+				},
+				{
+					"26",
+					"+4"
+				},
+				{
+					"30",
+					"+4"
+				},
+				{
+					"34",
+					"+4"
+				},
+				{
+					"38",
+					"+4"
+				},
+				{
+					"42",
+					"+4"
+				},
+				{
+					"46",
+					"+4"
+				},
+				{
+					"50"
+				}
+			},
+			{
+				{
+					"0.5%",
+					"+0.1%"
+				},
+				{
+					"0.6%",
+					"+0.1%"
+				},
+				{
+					"0.7%",
+					"+0.1%"
+				},
+				{
+					"0.8%",
+					"+0.15%"
+				},
+				{
+					"0.95%",
+					"+0.15%"
+				},
+				{
+					"1.1%",
+					"+0.15%"
+				},
+				{
+					"1.25%",
+					"+0.2%"
+				},
+				{
+					"1.45%",
+					"+0.25%"
+				},
+				{
+					"1.7%",
+					"+0.3%"
+				},
+				{
+					"2.0%"
+				}
+			}
+		}
+	},
+	[12990] = {
+		desc_get = "",
+		name = "Trajectory Marking",
+		desc = "At the start of the battle, increases Main Gun Efficiency by $1 and Accuracy by $2 for all your Northern Parliament DDs that have a Northern Parliament Main Gun equipped.",
+		type = 3,
+		max_level = 10,
+		id = 12990,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[13000] = {
+		desc_get = "",
+		name = "Cavalier of the Ether",
+		desc = "Every 15s: $1 chance to fire a special barrage and inflict Burn for 6s to all enemies hit by it (barrage DMG is based on the skill's level.)",
+		type = 1,
+		max_level = 10,
+		id = 13000,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"40.0%",
+				"70.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			}
+		}
+	},
+	[13010] = {
+		desc_get = "",
+		name = "Cavalier's Acumen",
+		desc = "Increases this ship's Crit Rate by $1, DMG dealt to enemy DDs by $2, and Main Gun shell velocity by 15.0%. Additionally, decreases the Evasion Rate of enemy DDs by $3.",
+		type = 3,
+		max_level = 10,
+		id = 13010,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"5.0%",
+				"20.0%"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.6%"
+				},
+				{
+					"6.6%",
+					"+1.6%"
+				},
+				{
+					"8.2%",
+					"+1.8%"
+				},
+				{
+					"10.0%",
+					"+1.6%"
+				},
+				{
+					"11.6%",
+					"+1.6%"
+				},
+				{
+					"13.2%",
+					"+1.8%"
+				},
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.8%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[13020] = {
+		desc_get = "",
+		name = "Lod Obstrel",
+		desc = "When this ship fires a Salvo: $1 chance to fire a special barrage. Barrage DMG is based on the skill's level.",
+		type = 1,
+		max_level = 10,
+		id = 13020,
+		system_transform = {
+			[3.0] = 13025
+		},
+		desc_get_add = {
+			{
+				"45.0%",
+				"75.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"45.0%",
+					"+3.3%"
+				},
+				{
+					"48.3%",
+					"+3.3%"
+				},
+				{
+					"51.6%",
+					"+3.3%"
+				},
+				{
+					"54.9%",
+					"+3.3%"
+				},
+				{
+					"58.2%",
+					"+3.3%"
+				},
+				{
+					"61.5%",
+					"+3.3%"
+				},
+				{
+					"64.8%",
+					"+3.3%"
+				},
+				{
+					"68.1%",
+					"+3.3%"
+				},
+				{
+					"71.4%",
+					"+3.6%"
+				},
+				{
+					"75.0%"
+				}
+			}
+		}
+	},
+	[13030] = {
+		desc_get = "",
+		name = "Warcry of Unity",
+		desc = "For each Northern Parliament and/or Dragon Empery ship in the same fleet as this ship: increases this ship's FP and Accuracy by $1 (can be stacked up to 4 times.) This skill only works for the first 2 battles of each sortie this ship takes part in.",
+		type = 1,
+		max_level = 10,
+		id = 13030,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"1.0%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	},
+	[13040] = {
+		desc_get = "",
+		name = "Mercurial Memories",
+		desc = "Increases this ship's DMG dealt to BBs and CAs by $1. When this ship takes DMG: 15.0% chance to for it to evade all enemy attacks for $2s (has a 20s cooldown when activated.)",
+		type = 1,
+		max_level = 10,
+		id = 13040,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"20.0%"
+			},
+			{
+				"5.0",
+				"10.0"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.6%"
+				},
+				{
+					"6.6%",
+					"+1.6%"
+				},
+				{
+					"8.2%",
+					"+1.8%"
+				},
+				{
+					"10.0%",
+					"+1.6%"
+				},
+				{
+					"11.6%",
+					"+1.6%"
+				},
+				{
+					"13.2%",
+					"+1.8%"
+				},
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.8%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"5.0",
+					"+0.5"
+				},
+				{
+					"5.5",
+					"+0.5"
+				},
+				{
+					"6.0",
+					"+0.5"
+				},
+				{
+					"6.5",
+					"+0.5"
+				},
+				{
+					"7.0",
+					"+0.5"
+				},
+				{
+					"7.5",
+					"+0.5"
+				},
+				{
+					"8.0",
+					"+0.5"
+				},
+				{
+					"8.5",
+					"+0.5"
+				},
+				{
+					"9.0",
+					"+1"
+				},
+				{
+					"10.0"
+				}
+			}
+		}
+	},
+	[13050] = {
+		desc_get = "",
+		name = "Long Live the Revolution!",
+		desc = "When this ship fires a Salvo: increases the FP, TRP, AA, and RLD of all your Northern Parliament ships by $1 for 10s. While this ship has the Triple 305mm Main Gun (M1907) equipped: increases this ship's Main Gun Efficiency by $2 and decreases its reload time by $3 for the first 4 reloads.",
+		type = 1,
+		max_level = 10,
+		id = 13050,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"8.0%",
+				"18.0%"
+			},
+			{
+				"50.0%",
+				"80.0%"
+			},
+			{
+				"20.0%",
+				"35.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"8.0%",
+					"+1.1%"
+				},
+				{
+					"9.1%",
+					"+1.1%"
+				},
+				{
+					"10.2%",
+					"+1.1%"
+				},
+				{
+					"11.3%",
+					"+1.1%"
+				},
+				{
+					"12.4%",
+					"+1.1%"
+				},
+				{
+					"13.5%",
+					"+1.1%"
+				},
+				{
+					"14.6%",
+					"+1.1%"
+				},
+				{
+					"15.7%",
+					"+1.1%"
+				},
+				{
+					"16.8%",
+					"+1.2%"
+				},
+				{
+					"18.0%"
+				}
+			},
+			{
+				{
+					"50.0%",
+					"+3.0%"
+				},
+				{
+					"53.0%",
+					"+3.0%"
+				},
+				{
+					"56.0%",
+					"+4.0%"
+				},
+				{
+					"60.0%",
+					"+3.0%"
+				},
+				{
+					"63.0%",
+					"+3.0%"
+				},
+				{
+					"66.0%",
+					"+4.0%"
+				},
+				{
+					"70.0%",
+					"+3.0%"
+				},
+				{
+					"73.0%",
+					"+3.0%"
+				},
+				{
+					"76.0%",
+					"+4.0%"
+				},
+				{
+					"80.0%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+1.6%"
+				},
+				{
+					"21.6%",
+					"+1.6%"
+				},
+				{
+					"23.2%",
+					"+1.6%"
+				},
+				{
+					"24.8%",
+					"+1.6%"
+				},
+				{
+					"26.4%",
+					"+1.6%"
+				},
+				{
+					"28.0%",
+					"+1.6%"
+				},
+				{
+					"29.6%",
+					"+1.8%"
+				},
+				{
+					"31.4%",
+					"+1.8%"
+				},
+				{
+					"33.2%",
+					"+1.8%"
+				},
+				{
+					"35.0%"
+				}
+			}
+		}
+	},
+	[13060] = {
+		desc_get = "",
+		name = "Icebreaker",
+		desc = "Once per battle, when this ship's HP falls below 30.0%: decreases this ship's DMG taken by $1 and decreases your DDs' DMG taken by $2 until the end of the battle.",
+		type = 2,
+		max_level = 10,
+		id = 13060,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"5.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%",
+					"+0.5%"
+				},
+				{
+					"8.5%",
+					"+0.5%"
+				},
+				{
+					"9.0%",
+					"+1%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
-		name = "MKV-Class AP Shell +",
-		desc = "Increases this ship's DMG with AP ammo by $1.",
+		name = "MKV-Class AP Shells 194/160+",
+		desc = "Increases this ship's DMG with AP by $1.",
 		type = 1,
 		max_level = 10,
 		id = 18010,
@@ -31379,18 +32411,6 @@ pg.skill_data_template = {
 		}
 	},
 	[19240] = {
-		{
-			{
-				"4.0%",
-				"10.0%"
-			}
-		},
-		{
-			{
-				"10.0%",
-				"20.0%"
-			}
-		},
 		desc_get = "",
 		name = "Rhapsody of Darkness",
 		desc = "Applies a buff to this ship based on its HP remaining. When between 100% and 70%: increases FP by $1; when between 70% and 30%: increases FP by $2 and decreases DMG taken by $2; when less than 30%: decreases DMG taken by $3.",
@@ -31399,6 +32419,14 @@ pg.skill_data_template = {
 		id = 19240,
 		system_transform = {},
 		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			},
 			{
 				"10.0%",
 				"20.0%"
@@ -33486,6 +34514,72 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[26011] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Gnevny once every 15 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 26011,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[26012] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Gnevny once every 10 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 26012,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[26021] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Minsk once every 15 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 26021,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[26022] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Minsk once every 10 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 26022,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[26111] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Kagul Class once every 12 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 26111,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[26112] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Kagul Class once every 8 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 26112,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[28011] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
@@ -34553,6 +35647,50 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 29492,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29501] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Tashkent once every 15 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 29501,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29502] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Tashkent once every 10 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 29502,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29511] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Chapayev once every 15 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 29511,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29512] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Chapayev once every 10 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 29512,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -37795,6 +38933,7 @@ pg.skill_data_template = {
 		4121,
 		4131,
 		4141,
+		4151,
 		5001,
 		5011,
 		5021,
@@ -38144,6 +39283,15 @@ pg.skill_data_template = {
 		12950,
 		12960,
 		12970,
+		12980,
+		12990,
+		13000,
+		13010,
+		13020,
+		13030,
+		13040,
+		13050,
+		13060,
 		18010,
 		18040,
 		18050,
@@ -38342,6 +39490,12 @@ pg.skill_data_template = {
 		25212,
 		25221,
 		25222,
+		26011,
+		26012,
+		26021,
+		26022,
+		26111,
+		26112,
 		28011,
 		28012,
 		28021,
@@ -38439,6 +39593,10 @@ pg.skill_data_template = {
 		29482,
 		29491,
 		29492,
+		29501,
+		29502,
+		29511,
+		29512,
 		101010,
 		101020,
 		101030,

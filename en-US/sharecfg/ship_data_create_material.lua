@@ -70,10 +70,12 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Elite</color>：12%",
 			"<color=#3dc6ff>Rare</color>：51%",
 			"Common：30%",
-			"<color=#ffde38>Gascogne μ</color>：2%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>Akagi μ</color>：2%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>Cleveland  μ</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>Admiral Hipper μ</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>Sovetskaya Rossiya</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Tashkent</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Avrora</color>：1.5%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Chapayev</color>：0.5%",
+			"<color=#d797ff>Grozny</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>Pamiat Merkuria</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

@@ -2404,6 +2404,48 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[167] = {
+		advice = 0,
+		describe = "A commemorative piece to celebrate a great joint victory achieved in the Arctic North. You can feel the unity of the Northern Parliament pulsing within this medal. \"Ура! Ура! Ура!\"",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "Northern Front Medal",
+		is_get_time_note = 1,
+		rarity = 5,
+		gain_by = "Northern Overture ",
+		themeId = 0,
+		icon = "maozixunzhangicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 167,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"maozixunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		advice = 0,
 		describe = "Watch out for splinters.",
@@ -54437,7 +54479,7 @@ pg.furniture_data_template = {
 			{
 				"wash",
 				{
-					-60,
+					-47.3,
 					-25
 				},
 				{
@@ -54870,6 +54912,1267 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[60001] = {
+		advice = 0,
+		describe = "Pros: cools your feet during summer. Cons: gives you frostbite during winter.",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "Penitentiary Flooring",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 60,
+		icon = "dibanelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60001,
+		picture = "els/dibanels",
+		comfortable = 4,
+		tag = 4,
+		size = {
+			2,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60002] = {
+		advice = 0,
+		describe = "Not much to look at, but requires practically no maintenance.",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "Penitentiary Wallpaper",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 60,
+		icon = "qiangbielsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60002,
+		picture = "els/qiangbiels",
+		comfortable = 4,
+		tag = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60101] = {
+		advice = 0,
+		describe = "It might be cold in here, but at least you're not this Manjuu.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Frozen Manjuu",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 60,
+		icon = "bingelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60101,
+		picture = "els/bingels",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60102] = {
+		advice = 0,
+		describe = "No chatting between inmates!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Penitentiary Dining Table",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 60,
+		icon = "canzhuoelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 60102,
+		picture = "els/canzhuoels",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-18.5,
+					114
+				},
+				{
+					1,
+					1
+				},
+				"els/canzhuoels_using"
+			},
+			{
+				"sit",
+				{
+					-128,
+					44.4
+				},
+				{
+					1,
+					1
+				},
+				"els/canzhuoels_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60103] = {
+		advice = 0,
+		describe = "It's very comfy for a penitentiary bed. Also much better than sleeping on the floor.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Penitentiary Bed",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 60,
+		icon = "chuangelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 60103,
+		picture = "els/chuangels",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					17.4,
+					31.6
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60104] = {
+		advice = 0,
+		describe = "An all-purpose chair, albeit without a backrest. Maybe not so all-purpose.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Penitentiary Chair",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 60,
+		icon = "dengzielsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 60104,
+		picture = "els/dengziels",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-1.6,
+					55.1
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60105] = {
+		advice = 0,
+		describe = "We're sorry to disappoint if you were expecting it to lead to a dank dungeon. ",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Storage Room Staircase",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 60,
+		icon = "dijiaoelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60105,
+		picture = "els/dijiaoels",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60106] = {
+		advice = 0,
+		describe = "Many take heating for granted until their fellow inmates start hogging this thing.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Penitentiary Radiator",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 60,
+		icon = "dinuanelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60106,
+		picture = "els/dinuanels",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60107] = {
+		advice = 0,
+		describe = "It looks alluring, but is just as cold as everything else here.",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "Brown Carpet",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 60,
+		icon = "ditanelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60107,
+		picture = "els/ditanels",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60108] = {
+		advice = 0,
+		describe = "What are they for? Let's just say... roasting marshmallows.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Branding Iron Pot",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 60,
+		icon = "huoluelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60108,
+		picture = "els/huoluels",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60109] = {
+		advice = 0,
+		describe = "Some prefer calling it rehabilitation rather than punishment.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Restrained Manjuu",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 60,
+		icon = "jiaojiaelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60109,
+		picture = "els/jiaojiaels",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60110] = {
+		advice = 0,
+		describe = "\"Got some spirits that oughta warm ya up, pal.\"",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Bartender Manjuu",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 60,
+		icon = "jiubaelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60110,
+		picture = "els/jiubaels",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60111] = {
+		advice = 0,
+		describe = "\"Sub-15% ABV? Might as well be drinking water.\"",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Liquor Shelf",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 60,
+		icon = "jiujiaelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60111,
+		picture = "els/jiujiaels",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60112] = {
+		advice = 0,
+		describe = "Relax, they won't lock you up and throw away the key. Keys cost money.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Cell Door",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 60,
+		icon = "laomenelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60112,
+		picture = "els/laomenels",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60113] = {
+		advice = 0,
+		describe = "Watch out for the icicles.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Penitentiary Staircase",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 60,
+		icon = "loutielsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60113,
+		picture = "els/loutiels",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60114] = {
+		advice = 0,
+		describe = "No toilet paper; that's what the bidet is for.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Manjuu Washlet",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 60,
+		icon = "matongelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60114,
+		picture = "els/matongels",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60115] = {
+		advice = 0,
+		describe = "If you like your tongue where it is, you should probably heed the warning.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Warning Sign",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 60,
+		icon = "paizielsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60115,
+		picture = "els/paiziels",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60116] = {
+		advice = 0,
+		describe = "Where an eccentric individual in a purple suit used to sit before they fired him.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Warden's Desk",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 60,
+		icon = "zhuozielsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 60116,
+		picture = "els/zhuoziels",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-71.5,
+					67.9
+				},
+				{
+					1,
+					1
+				},
+				"els/zhuoziels_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60117] = {
+		advice = 0,
+		describe = "Not as handy as handlebars nor as tasty as chocolate bars.",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Cell Bars",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 60,
+		icon = "tieqiangelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60117,
+		picture = "els/tieqiangels",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60119] = {
+		advice = 0,
+		describe = "This is what happens when you ask for a shot and don't specify how big.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Vodka Bath",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 60,
+		icon = "vodkaelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 1,
+		id = 60119,
+		picture = "els/vodkaels",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					60,
+					-43.2
+				},
+				{
+					1,
+					1
+				},
+				"els/vodkaels_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60121] = {
+		advice = 0,
+		describe = "Contains mostly 'taters.",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Supply Box",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 60,
+		icon = "xiangelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60121,
+		picture = "els/xiangels",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60122] = {
+		advice = 0,
+		describe = "It's like an intense massage chair once you get used to it.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Questioning Chair",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 60,
+		icon = "xingyielsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 60122,
+		picture = "els/xingyiels",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-10.6,
+					1
+				},
+				{
+					-1,
+					1
+				},
+				"els/xingyiels_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60123] = {
+		advice = 0,
+		describe = "\"Work\" and \"bench\" might be embellishing it a bit.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Penitentiary Workbench",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 60,
+		icon = "xjtelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60123,
+		picture = "els/xjtels",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60124] = {
+		advice = 0,
+		describe = "Makes sure all the inmates behave, a job which this Manjuu seems to love.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Manjuu Guard",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 60,
+		icon = "yujingelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60124,
+		picture = "els/yujingels",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60118] = {
+		advice = 0,
+		describe = "Do as you're told and you'll get to play a round or two.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Penitentiary Pool Table",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 60,
+		icon = "tqzelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60118,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			5,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"taiqiuelsB",
+				"normal"
+			},
+			{
+				"taiqiuelsT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"hit",
+						0,
+						"sit"
+					},
+					{
+						"normal",
+						0,
+						"yun"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"taiqiuelsCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[60120] = {
+		advice = 0,
+		describe = "Is it digging an escape hole, or its own grave? Only time will tell.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Digging Manjuu",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 60,
+		icon = "wakengelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60120,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wakengels",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[60301] = {
+		advice = 0,
+		describe = "Has info on all the latest happenings.",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "Penitentiary Signboard",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 60,
+		icon = "banzielsicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60301,
+		picture = "els/banziels",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60302] = {
+		advice = 0,
+		describe = "Has info on all the latest happenings from a few years ago.",
+		count = 3,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "Penitentiary Leaflets",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 60,
+		icon = "zibaoelsicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60302,
+		picture = "els/zibaoels",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60303] = {
+		advice = 0,
+		describe = "Looking through it confirms one thing: life on the outside ain't what it used to be.",
+		count = 2,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "Penitentiary Window",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 60,
+		icon = "chuangzielsicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60303,
+		picture = "els/chuangziels",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60304] = {
+		advice = 0,
+		describe = "A picture's worth a thousand words. A bear, even more.",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "Northern Parliament Photographs",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 60,
+		icon = "qiangshielsicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60304,
+		picture = "els/qiangshiels",
+		comfortable = 3,
+		tag = 5,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60305] = {
+		advice = 0,
+		describe = "Not made by a princess, nor covered in snow. It's just an aesthetic choice.",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "Snow White Minitable",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 60,
+		icon = "qzhuoelsicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60305,
+		picture = "els/qzhuoels",
+		comfortable = 1,
+		tag = 5,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -54924,6 +56227,7 @@ pg.furniture_data_template = {
 		163,
 		164,
 		165,
+		167,
 		1001,
 		1002,
 		1101,
@@ -56149,7 +57453,38 @@ pg.furniture_data_template = {
 		59117,
 		59301,
 		59302,
-		59303
+		59303,
+		60001,
+		60002,
+		60101,
+		60102,
+		60103,
+		60104,
+		60105,
+		60106,
+		60107,
+		60108,
+		60109,
+		60110,
+		60111,
+		60112,
+		60113,
+		60114,
+		60115,
+		60116,
+		60117,
+		60119,
+		60121,
+		60122,
+		60123,
+		60124,
+		60118,
+		60120,
+		60301,
+		60302,
+		60303,
+		60304,
+		60305
 	}
 }
 

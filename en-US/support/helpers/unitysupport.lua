@@ -31,6 +31,13 @@ end
 destroy = Destroy
 
 function SetActive(slot0, slot1)
+	if IsNil(slot0) then
+		print("===SetActive error===")
+		print(debug.traceback())
+
+		return
+	end
+
 	go(slot0):SetActive(tobool(slot1))
 end
 

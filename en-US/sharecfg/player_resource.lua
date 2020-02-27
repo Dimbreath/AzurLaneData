@@ -252,8 +252,18 @@ pg.player_resource = {
 	},
 	[142] = {
 		id = 142,
-		name = "xunliandianshu_r",
+		name = "xunliandianshu_m",
 		itemid = 59148
+	},
+	[143] = {
+		id = 143,
+		name = "maoxi_pt",
+		itemid = 59149
+	},
+	[144] = {
+		id = 144,
+		name = "skinTicket3",
+		itemid = 59150
 	},
 	[950] = {
 		id = 950,
@@ -312,12 +322,20 @@ pg.player_resource = {
 		yisegefuke_pt1 = {
 			950
 		},
+		skinTicket3 = {
+			144
+		},
+		maoxi_pt = {
+			143
+		},
+		xunliandianshu_m = {
+			142
+		},
 		xinrixi_pt = {
 			141
 		},
 		xunliandianshu_r = {
-			140,
-			142
+			140
 		},
 		dashenling_pt = {
 			139
@@ -516,6 +534,8 @@ pg.player_resource = {
 		140,
 		141,
 		142,
+		143,
+		144,
 		950,
 		1001,
 		2001,

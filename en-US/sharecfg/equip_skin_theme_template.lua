@@ -263,6 +263,30 @@ pg.equip_skin_theme_template = {
 			217
 		}
 	},
+	[17] = {
+		id = 17,
+		name = "Northern Parliament Style ",
+		ids = {
+			220,
+			221,
+			222,
+			223,
+			224,
+			225,
+			226,
+			227,
+			228,
+			229,
+			230,
+			231,
+			232,
+			233,
+			234,
+			235,
+			236,
+			237
+		}
+	},
 	all = {
 		1,
 		2,
@@ -277,7 +301,8 @@ pg.equip_skin_theme_template = {
 		11,
 		13,
 		14,
-		16
+		16,
+		17
 	}
 }
 

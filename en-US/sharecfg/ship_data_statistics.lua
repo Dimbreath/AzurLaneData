@@ -11082,6 +11082,482 @@ pg.ship_data_statistics = {
 			"Fletcher"
 		}
 	},
+	[101341] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Hazelwood",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 101341,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Hazelwood",
+		oxy_cost = 0,
+		skin_id = 101340,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			331,
+			16,
+			53,
+			32,
+			0,
+			72,
+			0,
+			72,
+			59,
+			42,
+			75,
+			54
+		},
+		attrs_growth = {
+			8075,
+			156,
+			520,
+			632,
+			0,
+			360,
+			0,
+			1068,
+			876,
+			0,
+			0,
+			536
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.2,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
+	[101342] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Hazelwood",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 101342,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Hazelwood",
+		oxy_cost = 0,
+		skin_id = 101340,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			412,
+			20,
+			66,
+			40,
+			0,
+			72,
+			0,
+			72,
+			59,
+			42,
+			75,
+			67
+		},
+		attrs_growth = {
+			8075,
+			156,
+			520,
+			632,
+			0,
+			360,
+			0,
+			1068,
+			876,
+			0,
+			0,
+			536
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.12,
+			1.22,
+			1.22
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
+	[101343] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Hazelwood",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 101343,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Hazelwood",
+		oxy_cost = 0,
+		skin_id = 101340,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			573,
+			28,
+			92,
+			56,
+			0,
+			72,
+			0,
+			72,
+			59,
+			42,
+			75,
+			94
+		},
+		attrs_growth = {
+			8075,
+			156,
+			520,
+			632,
+			0,
+			360,
+			0,
+			1068,
+			876,
+			0,
+			0,
+			536
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.25,
+			1.25
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
+	[101344] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Hazelwood",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 101344,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Hazelwood",
+		oxy_cost = 0,
+		skin_id = 101340,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			816,
+			39,
+			131,
+			79,
+			0,
+			72,
+			0,
+			72,
+			59,
+			42,
+			75,
+			134
+		},
+		attrs_growth = {
+			8075,
+			156,
+			520,
+			632,
+			0,
+			360,
+			0,
+			1068,
+			876,
+			0,
+			0,
+			536
+		},
+		attrs_growth_extra = {
+			8075,
+			369,
+			1136,
+			426,
+			0,
+			848,
+			0,
+			-626,
+			-614,
+			0,
+			0,
+			440
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			108,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.3,
+			1.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fletcher"
+		}
+	},
 	[101351] = {
 		oxy_max = 0,
 		type = 1,
@@ -165070,6 +165546,1418 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[701021] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Grozny",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 701021,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Grozny",
+		oxy_cost = 0,
+		skin_id = 701020,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			402,
+			23,
+			33,
+			38,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			60,
+			49
+		},
+		attrs_growth = {
+			9810,
+			226,
+			326,
+			744,
+			0,
+			364,
+			0,
+			990,
+			906,
+			0,
+			0,
+			484
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			0.95,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[701022] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Grozny",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 701022,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Grozny",
+		oxy_cost = 0,
+		skin_id = 701020,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			500,
+			29,
+			41,
+			47,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			60,
+			61
+		},
+		attrs_growth = {
+			9810,
+			226,
+			326,
+			744,
+			0,
+			364,
+			0,
+			990,
+			906,
+			0,
+			0,
+			484
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			0.95,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[701023] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Grozny",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 701023,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Grozny",
+		oxy_cost = 0,
+		skin_id = 701020,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			696,
+			40,
+			57,
+			66,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			60,
+			85
+		},
+		attrs_growth = {
+			9810,
+			226,
+			326,
+			744,
+			0,
+			364,
+			0,
+			990,
+			906,
+			0,
+			0,
+			484
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.5,
+			0.95,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[701024] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Grozny",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 701024,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Grozny",
+		oxy_cost = 0,
+		skin_id = 701020,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			991,
+			57,
+			82,
+			94,
+			0,
+			73,
+			0,
+			67,
+			61,
+			45.6,
+			60,
+			122
+		},
+		attrs_growth = {
+			9810,
+			226,
+			326,
+			744,
+			0,
+			364,
+			0,
+			990,
+			906,
+			0,
+			0,
+			484
+		},
+		attrs_growth_extra = {
+			9810,
+			539,
+			777,
+			509,
+			0,
+			866,
+			0,
+			-578,
+			-631,
+			0,
+			0,
+			448
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[701031] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Minsk",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 701031,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Minsk",
+		oxy_cost = 0,
+		skin_id = 701030,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			421,
+			27,
+			42,
+			32,
+			0,
+			74,
+			0,
+			67,
+			65,
+			48,
+			58,
+			50
+		},
+		attrs_growth = {
+			10265,
+			264,
+			416,
+			628,
+			0,
+			366,
+			0,
+			990,
+			966,
+			0,
+			0,
+			492
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.05,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[701032] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Minsk",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 701032,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Minsk",
+		oxy_cost = 0,
+		skin_id = 701030,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			524,
+			34,
+			52,
+			40,
+			0,
+			74,
+			0,
+			67,
+			65,
+			48,
+			58,
+			62
+		},
+		attrs_growth = {
+			10265,
+			264,
+			416,
+			628,
+			0,
+			366,
+			0,
+			990,
+			966,
+			0,
+			0,
+			492
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.05,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[701033] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Minsk",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 701033,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Minsk",
+		oxy_cost = 0,
+		skin_id = 701030,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			729,
+			47,
+			73,
+			56,
+			0,
+			74,
+			0,
+			67,
+			65,
+			48,
+			58,
+			87
+		},
+		attrs_growth = {
+			10265,
+			264,
+			416,
+			628,
+			0,
+			366,
+			0,
+			990,
+			966,
+			0,
+			0,
+			492
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.5,
+			1.05,
+			0.95
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[701034] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Minsk",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 701034,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Minsk",
+		oxy_cost = 0,
+		skin_id = 701030,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1037,
+			67,
+			104,
+			79,
+			0,
+			74,
+			0,
+			67,
+			65,
+			48,
+			58,
+			124
+		},
+		attrs_growth = {
+			10265,
+			264,
+			416,
+			628,
+			0,
+			366,
+			0,
+			990,
+			966,
+			0,
+			0,
+			492
+		},
+		attrs_growth_extra = {
+			10265,
+			629,
+			987,
+			430,
+			0,
+			872,
+			0,
+			-578,
+			-666,
+			0,
+			0,
+			448
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1.1,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[701041] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Tashkent",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 701041,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Tashkent",
+		oxy_cost = 0,
+		skin_id = 701040,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			427,
+			33,
+			52,
+			33,
+			0,
+			75,
+			0,
+			68,
+			66,
+			51.24,
+			86,
+			51
+		},
+		attrs_growth = {
+			10410,
+			328,
+			514,
+			644,
+			0,
+			374,
+			0,
+			1008,
+			978,
+			0,
+			0,
+			508
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Tashkent"
+		}
+	},
+	[701042] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Tashkent",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 701042,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Tashkent",
+		oxy_cost = 0,
+		skin_id = 701040,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			531,
+			41,
+			65,
+			41,
+			0,
+			75,
+			0,
+			68,
+			66,
+			51.24,
+			86,
+			64
+		},
+		attrs_growth = {
+			10410,
+			328,
+			514,
+			644,
+			0,
+			374,
+			0,
+			1008,
+			978,
+			0,
+			0,
+			508
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.5,
+			1.2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Tashkent"
+		}
+	},
+	[701043] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Tashkent",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 701043,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Tashkent",
+		oxy_cost = 0,
+		skin_id = 701040,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			739,
+			58,
+			91,
+			57,
+			0,
+			75,
+			0,
+			68,
+			66,
+			51.24,
+			86,
+			89
+		},
+		attrs_growth = {
+			10410,
+			328,
+			514,
+			644,
+			0,
+			374,
+			0,
+			1008,
+			978,
+			0,
+			0,
+			508
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.6,
+			1.2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Tashkent"
+		}
+	},
+	[701044] = {
+		oxy_max = 0,
+		type = 1,
+		name = "Tashkent",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 701044,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Tashkent",
+		oxy_cost = 0,
+		skin_id = 701040,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1052,
+			82,
+			129,
+			81,
+			0,
+			75,
+			0,
+			68,
+			66,
+			51.24,
+			86,
+			127
+		},
+		attrs_growth = {
+			10410,
+			328,
+			514,
+			644,
+			0,
+			374,
+			0,
+			1008,
+			978,
+			0,
+			0,
+			508
+		},
+		attrs_growth_extra = {
+			10410,
+			775,
+			1125,
+			436,
+			0,
+			886,
+			0,
+			-591,
+			-673,
+			0,
+			0,
+			445
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.65,
+			1.25,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Tashkent"
+		}
+	},
 	[702011] = {
 		oxy_max = 0,
 		type = 2,
@@ -165542,6 +167430,1894 @@ pg.ship_data_statistics = {
 			1.25,
 			0.8,
 			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[702021] = {
+		oxy_max = 0,
+		type = 2,
+		name = "Pamiat' Merkuria",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 702021,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Pamiat' Merkuria",
+		oxy_cost = 0,
+		skin_id = 702020,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			531,
+			15,
+			26,
+			27,
+			0,
+			51,
+			0,
+			47,
+			27,
+			23,
+			88,
+			13
+		},
+		attrs_growth = {
+			12945,
+			152,
+			262,
+			532,
+			0,
+			254,
+			0,
+			690,
+			396,
+			0,
+			0,
+			130
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			261
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.9,
+			1.2,
+			0.8,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[702022] = {
+		oxy_max = 0,
+		type = 2,
+		name = "Pamiat' Merkuria",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 702022,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Pamiat' Merkuria",
+		oxy_cost = 0,
+		skin_id = 702020,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			660,
+			19,
+			33,
+			34,
+			0,
+			51,
+			0,
+			47,
+			27,
+			23,
+			88,
+			16
+		},
+		attrs_growth = {
+			12945,
+			152,
+			262,
+			532,
+			0,
+			254,
+			0,
+			690,
+			396,
+			0,
+			0,
+			130
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			262
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			1.2,
+			0.8,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[702023] = {
+		oxy_max = 0,
+		type = 2,
+		name = "Pamiat' Merkuria",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 702023,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Pamiat' Merkuria",
+		oxy_cost = 0,
+		skin_id = 702020,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			919,
+			26,
+			46,
+			47,
+			0,
+			51,
+			0,
+			47,
+			27,
+			23,
+			88,
+			23
+		},
+		attrs_growth = {
+			12945,
+			152,
+			262,
+			532,
+			0,
+			254,
+			0,
+			690,
+			396,
+			0,
+			0,
+			130
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			263
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.2,
+			0.8,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[702024] = {
+		oxy_max = 0,
+		type = 2,
+		name = "Pamiat' Merkuria",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 702024,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Pamiat' Merkuria",
+		oxy_cost = 0,
+		skin_id = 702020,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1308,
+			38,
+			65,
+			67,
+			0,
+			51,
+			0,
+			47,
+			27,
+			23,
+			88,
+			33
+		},
+		attrs_growth = {
+			12945,
+			152,
+			262,
+			532,
+			0,
+			254,
+			0,
+			690,
+			396,
+			0,
+			0,
+			130
+		},
+		attrs_growth_extra = {
+			1942,
+			358,
+			608,
+			361,
+			0,
+			601,
+			0,
+			-5,
+			434,
+			0,
+			0,
+			208
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			264
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.2,
+			0.8,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[702031] = {
+		oxy_max = 0,
+		type = 2,
+		name = "Chapayev",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 702031,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Chapayev",
+		oxy_cost = 0,
+		skin_id = 702030,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			758,
+			32,
+			0,
+			63,
+			0,
+			72,
+			0,
+			56,
+			30,
+			33.5,
+			68,
+			36
+		},
+		attrs_growth = {
+			18495,
+			312,
+			0,
+			1240,
+			0,
+			356,
+			0,
+			828,
+			444,
+			0,
+			0,
+			352
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.75,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[702032] = {
+		oxy_max = 0,
+		type = 2,
+		name = "Chapayev",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 702032,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Chapayev",
+		oxy_cost = 0,
+		skin_id = 702030,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			943,
+			40,
+			0,
+			79,
+			0,
+			72,
+			0,
+			56,
+			30,
+			33.5,
+			68,
+			45
+		},
+		attrs_growth = {
+			18495,
+			312,
+			0,
+			1240,
+			0,
+			356,
+			0,
+			828,
+			444,
+			0,
+			0,
+			352
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.75,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[702033] = {
+		oxy_max = 0,
+		type = 2,
+		name = "Chapayev",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 702033,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Chapayev",
+		oxy_cost = 0,
+		skin_id = 702030,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1313,
+			55,
+			0,
+			110,
+			0,
+			72,
+			0,
+			56,
+			30,
+			33.5,
+			68,
+			62
+		},
+		attrs_growth = {
+			18495,
+			312,
+			0,
+			1240,
+			0,
+			356,
+			0,
+			828,
+			444,
+			0,
+			0,
+			352
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			0.75,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[702034] = {
+		oxy_max = 0,
+		type = 2,
+		name = "Chapayev",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 702034,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Chapayev",
+		oxy_cost = 0,
+		skin_id = 702030,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1868,
+			79,
+			0,
+			156,
+			0,
+			72,
+			0,
+			56,
+			30,
+			33.5,
+			68,
+			89
+		},
+		attrs_growth = {
+			18495,
+			312,
+			0,
+			1240,
+			0,
+			356,
+			0,
+			828,
+			444,
+			0,
+			0,
+			352
+		},
+		attrs_growth_extra = {
+			1850,
+			738,
+			0,
+			574,
+			0,
+			844,
+			0,
+			0,
+			271,
+			0,
+			0,
+			421
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			0.75,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[705011] = {
+		oxy_max = 0,
+		type = 5,
+		name = "Gangut",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 705011,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Gangut",
+		oxy_cost = 0,
+		skin_id = 705010,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1082,
+			62,
+			0,
+			32,
+			0,
+			55,
+			0,
+			20,
+			6,
+			24.1,
+			85,
+			0
+		},
+		attrs_growth = {
+			26395,
+			614,
+			0,
+			636,
+			0,
+			272,
+			0,
+			294,
+			84,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.8,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[705012] = {
+		oxy_max = 0,
+		type = 5,
+		name = "Gangut",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 705012,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Gangut",
+		oxy_cost = 0,
+		skin_id = 705010,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1346,
+			77,
+			0,
+			40,
+			0,
+			55,
+			0,
+			20,
+			6,
+			24.1,
+			85,
+			0
+		},
+		attrs_growth = {
+			26395,
+			614,
+			0,
+			636,
+			0,
+			272,
+			0,
+			294,
+			84,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.85,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[705013] = {
+		oxy_max = 0,
+		type = 5,
+		name = "Gangut",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 705013,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Gangut",
+		oxy_cost = 0,
+		skin_id = 705010,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1874,
+			108,
+			0,
+			56,
+			0,
+			55,
+			0,
+			20,
+			6,
+			24.1,
+			85,
+			0
+		},
+		attrs_growth = {
+			26395,
+			614,
+			0,
+			636,
+			0,
+			272,
+			0,
+			294,
+			84,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[705014] = {
+		oxy_max = 0,
+		type = 5,
+		name = "Gangut",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 705014,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Gangut",
+		oxy_cost = 0,
+		skin_id = 705010,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			2666,
+			154,
+			0,
+			80,
+			0,
+			55,
+			0,
+			20,
+			6,
+			24.1,
+			85,
+			0
+		},
+		attrs_growth = {
+			26395,
+			614,
+			0,
+			636,
+			0,
+			272,
+			0,
+			294,
+			84,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			15837,
+			891,
+			0,
+			429,
+			0,
+			643,
+			0,
+			151,
+			786,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[705051] = {
+		oxy_max = 0,
+		type = 5,
+		name = "Sovetskaya Rossiya",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 705051,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Sovetskaya Rossiya",
+		oxy_cost = 0,
+		skin_id = 705050,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1382,
+			82,
+			0,
+			46,
+			0,
+			51,
+			0,
+			19,
+			8,
+			28,
+			46,
+			0
+		},
+		attrs_growth = {
+			33705,
+			808,
+			0,
+			904,
+			0,
+			254,
+			0,
+			282,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[705052] = {
+		oxy_max = 0,
+		type = 5,
+		name = "Sovetskaya Rossiya",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 705052,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Sovetskaya Rossiya",
+		oxy_cost = 0,
+		skin_id = 705050,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			1719,
+			102,
+			0,
+			57,
+			0,
+			51,
+			0,
+			19,
+			8,
+			28,
+			46,
+			0
+		},
+		attrs_growth = {
+			33705,
+			808,
+			0,
+			904,
+			0,
+			254,
+			0,
+			282,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[705053] = {
+		oxy_max = 0,
+		type = 5,
+		name = "Sovetskaya Rossiya",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 705053,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Sovetskaya Rossiya",
+		oxy_cost = 0,
+		skin_id = 705050,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			2393,
+			143,
+			0,
+			80,
+			0,
+			51,
+			0,
+			19,
+			8,
+			28,
+			46,
+			0
+		},
+		attrs_growth = {
+			33705,
+			808,
+			0,
+			904,
+			0,
+			254,
+			0,
+			282,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			2,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[705054] = {
+		oxy_max = 0,
+		type = 5,
+		name = "Sovetskaya Rossiya",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 705054,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "SN Sovetskaya Rossiya",
+		oxy_cost = 0,
+		skin_id = 705050,
+		attack_duration = 0,
+		nationality = 7,
+		oxy_recovery_bench = 0,
+		armor_type = 3,
+		attrs = {
+			3404,
+			203,
+			0,
+			114,
+			0,
+			51,
+			0,
+			19,
+			8,
+			28,
+			46,
+			0
+		},
+		attrs_growth = {
+			33705,
+			808,
+			0,
+			904,
+			0,
+			254,
+			0,
+			282,
+			114,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			21902,
+			1175,
+			0,
+			611,
+			0,
+			601,
+			0,
+			148,
+			581,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			2,
+			1
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -204816,6 +208592,10 @@ pg.ship_data_statistics = {
 		101332,
 		101333,
 		101334,
+		101341,
+		101342,
+		101343,
+		101344,
 		101351,
 		101352,
 		101353,
@@ -206050,10 +209830,38 @@ pg.ship_data_statistics = {
 		605062,
 		605063,
 		605064,
+		701021,
+		701022,
+		701023,
+		701024,
+		701031,
+		701032,
+		701033,
+		701034,
+		701041,
+		701042,
+		701043,
+		701044,
 		702011,
 		702012,
 		702013,
 		702014,
+		702021,
+		702022,
+		702023,
+		702024,
+		702031,
+		702032,
+		702033,
+		702034,
+		705011,
+		705012,
+		705013,
+		705014,
+		705051,
+		705052,
+		705053,
+		705054,
 		801011,
 		801012,
 		801013,
