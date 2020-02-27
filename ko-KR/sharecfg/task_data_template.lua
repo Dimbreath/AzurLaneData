@@ -17810,7 +17810,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -22122,7 +22123,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -22866,7 +22868,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -24790,7 +24793,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -25182,7 +25186,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -25286,7 +25291,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -25390,7 +25396,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -25494,7 +25501,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -25598,7 +25606,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -25702,7 +25711,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -25806,7 +25816,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -25910,7 +25921,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -26014,7 +26026,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -26118,7 +26131,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -26222,7 +26236,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -26326,7 +26341,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -26430,7 +26446,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -26534,7 +26551,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -32939,7 +32957,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -33587,7 +33606,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -36328,7 +36348,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -36656,7 +36677,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -36984,7 +37006,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -37312,7 +37335,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -37640,7 +37664,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -41721,7 +41746,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -42536,7 +42562,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -43172,7 +43199,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -44888,7 +44916,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -46834,7 +46863,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -50916,7 +50946,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -53185,7 +53216,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -54557,7 +54589,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -54661,7 +54694,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -54765,7 +54799,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -54869,7 +54904,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -54973,7 +55009,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -55077,7 +55114,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -55181,7 +55219,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -55285,7 +55324,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -55389,7 +55429,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -55493,7 +55534,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -55597,7 +55639,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -55701,7 +55744,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -55805,7 +55849,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -55909,7 +55954,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -56621,7 +56667,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -60244,7 +60291,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -61435,7 +61483,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -62497,7 +62546,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -62601,7 +62651,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -62705,7 +62756,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -62809,7 +62861,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -62913,7 +62966,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -63017,7 +63071,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -63121,7 +63176,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -63225,7 +63281,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -63329,7 +63386,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -63433,7 +63491,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -63537,7 +63596,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -63641,7 +63701,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -63745,7 +63806,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -63849,7 +63911,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -65854,7 +65917,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -65926,7 +65990,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -67016,7 +67081,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -68300,7 +68366,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -68436,7 +68503,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -71878,7 +71946,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -72686,7 +72755,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -75177,7 +75247,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -75249,7 +75320,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -75719,7 +75791,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -75887,7 +75960,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -76119,7 +76193,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -76447,7 +76522,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
@@ -77097,7 +77173,8 @@ pg.task_data_template = {
 			10904,
 			11001,
 			11002,
-			11003
+			11003,
+			11004
 		},
 		open_need = {},
 		award_display = {
