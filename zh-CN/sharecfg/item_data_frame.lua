@@ -109,7 +109,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 306,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>通过后续活动获取</color>",
+		desc = "<color=#ffffff>「同志们，团结起来吧！世界将在我们手中改变！」</color>\n「北境序曲」活动获取",
 		scene = {}
 	},
 	[401] = {

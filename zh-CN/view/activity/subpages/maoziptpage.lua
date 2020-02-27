@@ -13,6 +13,7 @@ function slot0.OnFirstFlush(slot0)
 	slot0.step = slot0:findTF("AD/switcher/phase2/Image/step")
 	slot0.progress = slot0:findTF("AD/switcher/phase2/Image/progress")
 	slot0.switchBtn = slot0:findTF("AD/switcher/switch_btn")
+	slot0.bar = slot0:findTF("AD/switcher/phase2/Image/bar")
 	slot0.phases = {
 		slot0:findTF("AD/switcher/phase1"),
 		slot0:findTF("AD/switcher/phase2")
@@ -67,6 +68,7 @@ function slot0.OnUpdateFlush(slot0)
 
 	setText(slot0.step, (slot7 >= 1 and setColorStr(slot5, "#487CFFFF")) or slot5)
 	setText(slot0.progress, "/" .. slot6)
+	setFillAmount(slot0.bar, slot5 / slot6)
 end
 
 return slot0

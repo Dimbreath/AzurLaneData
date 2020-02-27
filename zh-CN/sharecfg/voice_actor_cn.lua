@@ -871,6 +871,26 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "桃河里香",
 		code = 218
+	},
+	{
+		actor_name = "吉冈麻耶",
+		code = 219
+	},
+	{
+		actor_name = "井泽诗织",
+		code = 220
+	},
+	{
+		actor_name = "都丸千代",
+		code = 221
+	},
+	{
+		actor_name = "绪乃冬华",
+		code = 222
+	},
+	{
+		actor_name = "田泽茉纯",
+		code = 223
 	}
 }
 

@@ -4,6 +4,29 @@ function slot0.getUIName(slot0)
 	return "IndexUI"
 end
 
+slot0.panelNames = {
+	{
+		"indexsort_sort",
+		"indexsort_sorteng"
+	},
+	{
+		"indexsort_index",
+		"indexsort_indexeng"
+	},
+	{
+		"indexsort_camp",
+		"indexsort_campeng"
+	},
+	{
+		"indexsort_rarity",
+		"indexsort_rarityeng"
+	},
+	{
+		"indexsort_extraindex",
+		"indexsort_indexeng"
+	}
+}
+
 function slot0.init(slot0)
 	slot0.panel = slot0:findTF("index_panel")
 	slot0.displayTFs = {
@@ -13,12 +36,29 @@ function slot0.init(slot0)
 		slot0:findTF("layout/rarity", slot0.panel),
 		slot0:findTF("layout/EquipSkinSort", slot0.panel),
 		slot0:findTF("layout/EquipSkinIndex", slot0.panel),
-		slot0:findTF("layout/EquipSkinTheme", slot0.panel)
+		slot0:findTF("layout/EquipSkinTheme", slot0.panel),
+		slot0:findTF("layout/extra", slot0.panel)
 	}
 
 	_.each(slot0.displayTFs, function (slot0)
 		setActive(slot0, false)
 	end)
+
+	slot1 = {
+		slot0:findTF("layout/sort", slot0.panel),
+		slot0:findTF("layout/index", slot0.panel),
+		slot0:findTF("layout/camp", slot0.panel),
+		slot0:findTF("layout/rarity", slot0.panel),
+		slot0:findTF("layout/extra", slot0.panel),
+		slot0:findTF("layout/EquipSkinSort", slot0.panel),
+		slot0:findTF("layout/EquipSkinIndex", slot0.panel),
+		slot0:findTF("layout/EquipSkinTheme", slot0.panel)
+	}
+
+	for slot5 = 1, #slot0.panelNames, 1 do
+		setText(slot1[slot5]:Find("title1/Image"), i18n(slot0.panelNames[slot5][1]))
+		setText(slot1[slot5]:Find("title1/Image_en"), i18n(slot0.panelNames[slot5][2]))
+	end
 
 	slot0.displayList = {}
 	slot0.typeList = {}
@@ -66,7 +106,8 @@ function slot0.initDisplays(slot0)
 		"rarity",
 		"equipSkinSort",
 		"equipSkinIndex",
-		"equipSkinTheme"
+		"equipSkinTheme",
+		"extra"
 	}
 
 	for slot5, slot6 in ipairs(slot0.displayTFs) do
