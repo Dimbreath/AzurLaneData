@@ -52,12 +52,11 @@ return {
 			}
 		},
 		{
-			expression = 4,
+			actor = 105140,
 			side = 2,
 			bgName = "bg_cccp_6",
-			dir = 1,
-			actor = 105140,
 			nameColor = "#a9f548",
+			dir = 1,
 			say = "……たしかに、向こうの敵がさっきよりだいぶ手強い",
 			typewriter = {
 				speed = 0.05,
@@ -135,7 +134,7 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_cccp_6",
 			nameColor = "#a9f548",
@@ -151,7 +150,7 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_cccp_6",
 			nameColor = "#a9f548",
