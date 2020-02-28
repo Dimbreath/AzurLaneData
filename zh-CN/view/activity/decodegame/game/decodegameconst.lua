@@ -166,8 +166,8 @@ slot0.HELP_BGS = {
 	{
 		"decode_helper_1",
 		{
-			1546,
-			769
+			1714,
+			796
 		},
 		{
 			1,
@@ -177,7 +177,7 @@ slot0.HELP_BGS = {
 	{
 		"decode_helper_2",
 		{
-			1714,
+			1546,
 			769
 		},
 		{

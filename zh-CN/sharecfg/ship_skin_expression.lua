@@ -13176,7 +13176,7 @@ pg.ship_skin_expression = {
 		detail = "1"
 	},
 	tashigan_2 = {
-		default = "",
+		default = "0",
 		feeling3 = "1",
 		main_1 = "2",
 		touch = "",

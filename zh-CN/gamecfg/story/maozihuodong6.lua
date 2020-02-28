@@ -52,12 +52,11 @@ return {
 			}
 		},
 		{
-			expression = 4,
+			actor = 105140,
 			side = 2,
 			bgName = "bg_cccp_6",
-			dir = 1,
-			actor = 105140,
 			nameColor = "#a9f548",
+			dir = 1,
 			say = "这里的敌人强度确实不是那么容易就能够解决的…",
 			typewriter = {
 				speed = 0.05,
@@ -135,12 +134,12 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_cccp_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没事啦，大家都是盟友。北方联合长久以来都是抵抗塞壬进攻的最前线，你们已经做出足够的献贡献，也付出足够多的牺牲了。",
+			say = "没事啦，大家都是盟友。北方联合长久以来都是抵抗塞壬进攻的最前线，你们已经做出足够的贡献，也付出足够多的牺牲了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +150,7 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			actor = 107030,
 			side = 2,
 			bgName = "bg_cccp_6",
 			nameColor = "#a9f548",

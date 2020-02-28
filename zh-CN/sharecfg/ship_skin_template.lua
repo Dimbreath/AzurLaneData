@@ -67463,7 +67463,7 @@ pg.ship_skin_template = {
 		bg_sp = "",
 		group_index = 2,
 		illustrator2 = -1,
-		desc = "呵呵呵，特意放过圣诞节和新年，隐忍到东煌的春节再一口气抓住指挥官大人眼球，正是{namecode:97}的秘策——指挥官大人，请欣赏{namecode:97}为您带来的表演吧❤",
+		desc = "呵呵呵，特意放过圣诞节和新年，隐忍到东煌的春节再一口气抓住指挥官大人眼球，正是{namecode:97}的秘策——指挥官大人，请欣赏{namecode:97}为您带来的表演吧♡",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "dafeng_4",
@@ -81636,7 +81636,7 @@ pg.ship_skin_template = {
 	[701041] = {
 		ship_group = 70104,
 		name = "受缚的巡洋舰",
-		bg_sp = "",
+		bg_sp = "1102",
 		group_index = 1,
 		illustrator2 = -1,
 		desc = "……哈啊，没想到会被这些小家伙反将一军…同志酱，塔什干非得参加这种演习不可吗？",
@@ -81867,7 +81867,7 @@ pg.ship_skin_template = {
 	[702011] = {
 		ship_group = 70201,
 		name = "囚塔中的曙光公主",
-		bg_sp = "1100",
+		bg_sp = "1102",
 		group_index = 1,
 		illustrator2 = -1,
 		desc = "「我是阿芙乐尔，被囚禁于高塔的不幸公主…心爱的人啊，请尽快将我拯救出去吧…」",
@@ -82257,29 +82257,29 @@ pg.ship_skin_template = {
 		bound_bone = {
 			cannon = {
 				{
-					1.057,
-					1.026,
+					1.451,
+					1.429,
 					0
 				}
 			},
 			vicegun = {
 				{
-					1.055,
-					0.95,
+					1.467,
+					1.436,
 					0
 				}
 			},
 			torpedo = {
 				{
-					-0.013,
-					0.032,
+					0,
+					0,
 					0
 				}
 			},
 			antiaircraft = {
 				{
-					1.065,
-					0.979,
+					1.423,
+					1.511,
 					0
 				}
 			}
@@ -82291,8 +82291,8 @@ pg.ship_skin_template = {
 					{
 						"smoke",
 						{
-							-0.38,
-							2.35,
+							-0.513,
+							2.157,
 							0
 						}
 					}
@@ -82303,7 +82303,7 @@ pg.ship_skin_template = {
 	[702031] = {
 		ship_group = 70203,
 		name = "拘束的白骑兵",
-		bg_sp = "",
+		bg_sp = "1102",
 		group_index = 1,
 		illustrator2 = -1,
 		desc = "指挥官，这究竟是要做什么？难道…我做错了什么吗…？这应该…只是单纯的演习吧？",
@@ -82739,7 +82739,7 @@ pg.ship_skin_template = {
 	[705051] = {
 		ship_group = 70505,
 		name = "怠惰的监视者",
-		bg_sp = "",
+		bg_sp = "1102",
 		group_index = 1,
 		illustrator2 = -1,
 		desc = "”设施各区域未发现异常“——哦，是你啊。我刚在和明斯克进行日常联络。有什么事？",

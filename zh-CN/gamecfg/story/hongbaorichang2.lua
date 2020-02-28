@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			actor = 307072,
 			nameColor = "#a9f548",
-			say = "(这次一定要一口气抓住指挥官大人眼球！指挥官大人，敬请期待{namecode:97}为您带来的表演吧❤)",
+			say = "(这次一定要一口气抓住指挥官大人眼球！指挥官大人，敬请期待{namecode:97}为您带来的表演吧♡)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
