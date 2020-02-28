@@ -45,10 +45,16 @@ function slot0.managedTween(slot0, slot1, slot2, ...)
 	return slot3
 end
 
-function slot0.cleanManagedTween(slot0)
-	for slot4, slot5 in ipairs(slot0.tweenIdList) do
-		LeanTween.cancel(slot5)
+function slot0.cleanManagedTween(slot0, slot1)
+	slot1 = defaultValue(slot1, false)
+
+	for slot5, slot6 in ipairs(slot0.tweenIdList) do
+		LeanTween.cancel(slot6, slot1)
 	end
+end
+
+function slot0.AddLeanTween(slot0, slot1)
+	slot0.tweenIdList[#slot0.tweenIdList + 1] = slot1().uniqueId
 end
 
 return slot0

@@ -133,7 +133,7 @@ pg.gameset_language_client = {
 		key = "ins_discuss_2_3"
 	},
 	ins_3 = {
-		value = "加入了满·满·的·爱·意~马上送去给指挥官尝尝好了♥",
+		value = "加入了满·满·的·爱·意~马上送去给指挥官尝尝好了♡",
 		key = "ins_3"
 	},
 	ins_discuss_3_1 = {
@@ -197,11 +197,11 @@ pg.gameset_language_client = {
 		key = "ins_discuss_4_4"
 	},
 	op_reply_4_1_1 = {
-		value = "有指挥官的鼓励，{namecode:91}…感觉又有动力了♥",
+		value = "有指挥官的鼓励，{namecode:91}…感觉又有动力了♡",
 		key = "op_reply_4_1_1"
 	},
 	op_reply_4_1_2 = {
-		value = "请等着，指挥官，练习一结束，{namecode:91}就马上飞到指挥官的身边~♥",
+		value = "请等着，指挥官，练习一结束，{namecode:91}就马上飞到指挥官的身边~♡",
 		key = "op_reply_4_1_2"
 	},
 	ins_5 = {
@@ -2221,7 +2221,7 @@ pg.gameset_language_client = {
 		key = "op_reply_53_1_2"
 	},
 	ins_54 = {
-		value = "冬天的露天温泉果然是最棒的❤",
+		value = "冬天的露天温泉果然是最棒的♡",
 		key = "ins_54"
 	},
 	ins_discuss_54_1 = {
@@ -2229,7 +2229,7 @@ pg.gameset_language_client = {
 		key = "ins_discuss_54_1"
 	},
 	ins_reply_54_1_1 = {
-		value = "甚至让人有种酥酥麻麻的感觉❤",
+		value = "甚至让人有种酥酥麻麻的感觉♡",
 		key = "ins_reply_54_1_1"
 	},
 	ins_discuss_54_2 = {
@@ -2249,7 +2249,7 @@ pg.gameset_language_client = {
 		key = "ins_op_54_1_2"
 	},
 	op_reply_54_1_1 = {
-		value = "指挥官大人要一起泡温泉吗！？{namecode:97}随时等着指挥官大人哦❤",
+		value = "指挥官大人要一起泡温泉吗！？{namecode:97}随时等着指挥官大人哦♡",
 		key = "op_reply_54_1_1"
 	},
 	op_reply_54_1_2 = {
