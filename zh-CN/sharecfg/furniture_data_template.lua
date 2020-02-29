@@ -72451,7 +72451,7 @@ pg.furniture_data_template = {
 	},
 	[60123] = {
 		advice = 0,
-		describe = "可以保证“工作”顺利进行的工作台冰冷的狱中少有的娱乐之一",
+		describe = "可以保证“工作”顺利进行的工作台",
 		count = 1,
 		type = 2,
 		dir = 0,
