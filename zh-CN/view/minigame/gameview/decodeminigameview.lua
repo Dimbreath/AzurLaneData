@@ -21,12 +21,14 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.PackData(slot0)
+	slot2 = slot0:GetMGHubData()
+
 	return {
 		mapId = PlayerPrefs.GetInt("DecodeGameMapId", 1),
-		unlocks = slot0:GetMGData():GetRuntimeData("elements"),
-		canUseCnt = slot0:GetMGHubData().count,
+		unlocks = _.slice(slot3, 1, math.min(DecodeGameConst.MAP_ROW * DecodeGameConst.MAP_COLUMN * DecodeGameConst.MAX_MAP_COUNT - slot2.count, #slot0:GetMGData():GetRuntimeData("elements"))),
+		canUseCnt = slot2.count,
 		passwords = DecodeGameConst.MAPS_PASSWORD,
-		isFinished = slot0:GetMGHubData().ultimate > 0
+		isFinished = slot2.ultimate > 0
 	}
 end
 

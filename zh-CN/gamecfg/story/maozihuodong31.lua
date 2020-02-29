@@ -7,29 +7,12 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
+			say = "数日后·纽约司令部",
 			side = 2,
 			bgName = "bg_story_newyork",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level02",
-			say = "数日后·纽约司令部",
-			flashout = {
-				dur = 1,
-				black = true,
-				alpha = {
-					0,
-					1
-				}
-			},
-			flashin = {
-				delay = 1,
-				dur = 1,
-				black = true,
-				alpha = {
-					1,
-					0
-				}
-			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
