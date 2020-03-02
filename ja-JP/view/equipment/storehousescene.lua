@@ -695,7 +695,7 @@ function slot0.filterEquipment(slot0)
 
 	if slot0.page == slot0 then
 		for slot8, slot9 in pairs(slot0.equipmentVOs) do
-			if slot9.isSkin then
+			if slot9.isSkin and slot9.count > 0 then
 				table.insert(slot0.pageEquipments, slot9)
 			end
 		end
