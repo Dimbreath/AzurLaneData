@@ -7,29 +7,12 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			bgmDelay = 2,
-			side = 2,
-			dir = 1,
-			blackBg = true,
-			bgm = "bgm-cccp2",
 			say = "北方連合・某所 ",
-			flashout = {
-				dur = 1,
-				black = true,
-				alpha = {
-					0,
-					1
-				}
-			},
-			flashin = {
-				delay = 1,
-				dur = 1,
-				black = true,
-				alpha = {
-					1,
-					0
-				}
-			},
+			side = 2,
+			blackBg = true,
+			dir = 1,
+			bgmDelay = 2,
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
