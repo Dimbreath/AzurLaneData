@@ -179,11 +179,15 @@ function slot0.setShip(slot0, slot1)
 	slot0._dialogue.transform.localScale = Vector3(0, 1, 1)
 
 	SetActive(slot0._dialogue, false)
-	LeanTween.delayedCall(0.5, System.Action(function ()
-		SetActive(slot0._dialogue, true)
-		LeanTween.scale(slot0._dialogue, Vector3(1, 1, 1), 0.1)
-		LeanTween.scale:voice(LeanTween.scale)
-	end))
+	slot0:AddLeanTween(function ()
+		return LeanTween.delayedCall(0.5, System.Action(function ()
+			SetActive(slot0._dialogue, true)
+			SetActive:AddLeanTween(function ()
+				return LeanTween.scale(slot0._dialogue, Vector3(1, 1, 1), 0.1)
+			end)
+			SetActive.AddLeanTween:voice(SetActive.AddLeanTween)
+		end))
+	end)
 
 	slot6 = slot1:getRarity()
 	slot8 = slot0._shipVO:getStar()
@@ -218,11 +222,13 @@ function slot0.setShip(slot0, slot1)
 
 	slot0.inAnimating = true
 
-	LeanTween.delayedCall(0.5, System.Action(function ()
-		setActive(setActive, true)
-		setActive(setActive.rarityTF, true)
-		setActive.rarityTF:starsAnimation()
-	end))
+	slot0:AddLeanTween(function ()
+		return LeanTween.delayedCall(0.5, System.Action(function ()
+			setActive(setActive, true)
+			setActive(setActive.rarityTF, true)
+			setActive.rarityTF:starsAnimation()
+		end))
+	end)
 
 	slot18 = slot0._shake:Find("ship_type"):Find("stars/startpl")
 
@@ -285,8 +291,12 @@ function slot0.switch2Property(slot0)
 	setActive(slot0.rarityTF, false)
 	setActive(slot0._shake:Find("rarity/nation"), false)
 	setActive(slot1, true)
-	LeanTween.move(rtf(slot1), Vector3(0, -149.55, 0), 0.3)
-	LeanTween.move(rtf(slot0._paintingTF), Vector3(-59, 21, 0), 0.2)
+	slot0:AddLeanTween(function ()
+		return LeanTween.move(rtf(slot0), Vector3(0, -149.55, 0), 0.3)
+	end)
+	slot0:AddLeanTween(function ()
+		return LeanTween.move(rtf(slot0._paintingTF), Vector3(-59, 21, 0), 0.2)
+	end)
 	slot0:DisplayNewShipDocumentView()
 end
 
@@ -438,7 +448,9 @@ function slot0.paintView(slot0)
 	slot13, slot14 = nil
 
 	if not LeanTween.isTweening(go(slot0._paintingTF)) then
-		LeanTween.moveX(rtf(slot4), 150, 0.5):setEase(LeanTweenType.easeInOutSine)
+		slot0:AddLeanTween(function ()
+			return LeanTween.moveX(rtf(slot0), 150, 0.5):setEase(LeanTweenType.easeInOutSine)
+		end)
 	end
 
 	slot15 = GetOrAddComponent(slot0._drag, "MultiTouchZoom")
@@ -527,9 +539,11 @@ function slot0.starsAnimation(slot0)
 	slot2 = slot0._tf:GetComponent(typeof(DftAniEvent))
 
 	slot2:SetTriggerEvent(function (slot0)
-		LeanTween.scale(rtf(slot0.starsCont), Vector3.one, 0):setOnComplete(System.Action(function ()
-			setActive(slot0.starsCont, true)
-		end))
+		slot0:AddLeanTween(function ()
+			return LeanTween.scale(rtf(slot0.starsCont), Vector3.one, 0):setOnComplete(System.Action(function ()
+				setActive(slot0.starsCont, true)
+			end))
+		end)
 
 		slot1 = slot0.STAR_ANIMATION_DUR1
 
@@ -538,10 +552,17 @@ function slot0.starsAnimation(slot0)
 
 			setActive(slot7, false)
 			setActive(slot8, false)
-			LeanTween.scale(rtf(slot7), Vector3(1.8, 1.8, 1.8), 0):setDelay(slot9):setOnComplete(System.Action(function ()
-				setActive(setActive, true)
-				LeanTween.scale(rtf(slot0), Vector3(1, 1, 1), )
-			end))
+
+			slot9 = slot5 * slot1
+
+			slot0:AddLeanTween(function ()
+				return LeanTween.scale(rtf(slot0), Vector3(1.8, 1.8, 1.8), 0):setDelay(LeanTween.scale(rtf(slot0), Vector3(1.8, 1.8, 1.8), 0)):setOnComplete(System.Action(function ()
+					setActive(setActive, true)
+					setActive:AddLeanTween(function ()
+						return LeanTween.scale(rtf(slot0), Vector3(1, 1, 1), )
+					end)
+				end))
+			end)
 		end
 
 		slot3 = slot0.STAR_ANIMATION_DUR2
@@ -550,67 +571,100 @@ function slot0.starsAnimation(slot0)
 		for slot8 = 0, slot0._shipVO:getStar() - 1, 1 do
 			slot9 = slot0.starsCont:GetChild(slot8)
 			slot10 = slot9:Find("star_empty")
+			slot11 = slot9:Find("star")
+			slot12 = slot1 * slot0.starsCont.childCount + slot8 * slot3
 
-			LeanTween.scale(rtf(slot11), Vector3(1.8, 1.8, 1.8), 0):setDelay(slot12):setOnStart(System.Action(function ()
-				playSoundEffect(SFX_UI_DOCKYARD_STAR)
-			end)):setOnComplete(System.Action(function ()
-				setActive(setActive, false)
-				setActive(setActive, true)
-				LeanTween.scale(rtf(rtf), Vector3(1, 1, 1), )
-			end))
+			slot0:AddLeanTween(function ()
+				return LeanTween.scale(rtf(slot0), Vector3(1.8, 1.8, 1.8), 0):setDelay(LeanTween.scale(rtf(slot0), Vector3(1.8, 1.8, 1.8), 0)):setOnStart(System.Action(function ()
+					playSoundEffect(SFX_UI_DOCKYARD_STAR)
+				end)):setOnComplete(System.Action(function ()
+					setActive(setActive, false)
+					setActive(setActive, true)
+					slot2:AddLeanTween(function ()
+						return LeanTween.scale(rtf(slot0), Vector3(1, 1, 1), )
+					end)
+				end))
+			end)
 
 			if slot9:Find("light") then
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #0 144-196, warpins: 1 ---
-				LeanTween.delayedCall(slot12, System.Action(function ()
+				--- BLOCK #0 89-110, warpins: 1 ---
+				slot0:AddLeanTween(function ()
 
 					-- Decompilation error in this vicinity:
-					--- BLOCK #0 1-4, warpins: 1 ---
-					if slot0.exited then
+					--- BLOCK #0 1-9, warpins: 1 ---
+					return LeanTween.delayedCall(LeanTween.delayedCall, System.Action(function ()
 
 						-- Decompilation error in this vicinity:
-						--- BLOCK #0 5-5, warpins: 1 ---
+						--- BLOCK #0 1-4, warpins: 1 ---
+						if slot0.exited then
+
+							-- Decompilation error in this vicinity:
+							--- BLOCK #0 5-5, warpins: 1 ---
+							return
+							--- END OF BLOCK #0 ---
+
+
+
+						end
+
+						--- END OF BLOCK #0 ---
+
+						FLOW; TARGET BLOCK #1
+
+
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #1 6-10, warpins: 2 ---
+						setActive(slot1, true)
+
+						return
+						--- END OF BLOCK #1 ---
+
+
+
+					end))
+					--- END OF BLOCK #0 ---
+
+
+
+				end)
+				slot0:AddLeanTween(function ()
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 1-20, warpins: 1 ---
+					return LeanTween.alpha(rtf(slot0), 0, ):setDelay(0):setOnComplete(System.Action(function ()
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 1-13, warpins: 1 ---
+						SetActive(SetActive, false)
+						LeanTween.alpha(rtf(slot0), 1, 0)
+
 						return
 						--- END OF BLOCK #0 ---
 
 
 
-					end
-
-					--- END OF BLOCK #0 ---
-
-					FLOW; TARGET BLOCK #1
-
-
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #1 6-10, warpins: 2 ---
-					setActive(slot1, true)
-
-					return
-					--- END OF BLOCK #1 ---
-
-
-
-				end))
-				LeanTween.alpha(rtf(slot13), 0, slot4):setDelay(slot12):setOnComplete(System.Action(function ()
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 1-13, warpins: 1 ---
-					SetActive(SetActive, false)
-					LeanTween.alpha(rtf(slot0), 1, 0)
-
-					return
+					end))
 					--- END OF BLOCK #0 ---
 
 
 
-				end))
+				end)
 
 				slot13.transform.localScale = Vector3(1, 1, 1)
 
-				LeanTween.scale(rtf(slot13), Vector3(0.5, 1, 1), slot0.STAR_ANIMATION_DUR4):setDelay(slot12 + (slot4 * 1) / 3)
+				slot0:AddLeanTween(function ()
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 1-21, warpins: 1 ---
+					return LeanTween.scale(rtf(slot0), Vector3(0.5, 1, 1), slot1.STAR_ANIMATION_DUR4):setDelay(Vector3(0.5, 1, 1) + (slot1.STAR_ANIMATION_DUR4 * 1) / 3)
+					--- END OF BLOCK #0 ---
+
+
+
+				end)
 				--- END OF BLOCK #0 ---
 
 
@@ -639,7 +693,7 @@ function slot0.skipAnimation(slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-5, warpins: 1 ---
-	LeanTween.cancelAll(true)
+	slot0:cleanManagedTween(true)
 
 	return
 	--- END OF BLOCK #0 ---

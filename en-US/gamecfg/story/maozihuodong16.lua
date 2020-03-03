@@ -492,7 +492,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "Before I saw them in action today, I always had been lead to believe that they were a collection of peculiar personalities that couldn't hold their own compared to the other major factions.",
+			say = "Before I saw them in action today, I always had been led to believe that they were a collection of peculiar personalities that couldn't hold their own compared to the other major factions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

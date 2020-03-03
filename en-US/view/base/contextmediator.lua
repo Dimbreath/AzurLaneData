@@ -133,24 +133,31 @@ function slot0.onRegister(slot0)
 					onYes = BaseUI.ON_AWARD
 				})
 				coroutine.yield()
-				_.each(slot1, function (slot0)
+
+				slot3 = getProxy(BayProxy).getNewShip(slot2, true)
+
+				_.each(_.filter(slot0, function (slot0)
+					return slot0.type == DROP_TYPE_NPC_SHIP
+				end), function (slot0)
 					table.insert(slot0, slot1:getShipById(slot0.id))
 				end)
 
-				for slot7 = math.max(1, #getProxy(BayProxy).getNewShip(slot2, true) - (#_.filter(_.filter, function (slot0)
+				if #_.filter(_.filter, function (slot0)
 					return slot0.type == DROP_TYPE_SHIP
 				end) + #_.filter(slot0, function (slot0)
 					return slot0.type == DROP_TYPE_NPC_SHIP
-				end)) + 1), #getProxy(BayProxy).getNewShip(slot2, true), 1 do
-					slot1:addSubLayers(Context.New({
-						mediator = NewShipMediator,
-						viewComponent = NewShipLayer,
-						data = {
-							ship = slot3[slot7]
-						},
-						onRemoved = slot2
-					}))
-					coroutine.yield()
+				end) <= 20 or PLATFORM_CODE ~= PLATFORM_CH then
+					for slot7 = math.max(1, #slot3 - slot0 + 1), #slot3, 1 do
+						slot1:addSubLayers(Context.New({
+							mediator = NewShipMediator,
+							viewComponent = NewShipLayer,
+							data = {
+								ship = slot3[slot7]
+							},
+							onRemoved = slot2
+						}))
+						coroutine.yield()
+					end
 				end
 
 				for slot7, slot8 in pairs(slot0) do

@@ -709,7 +709,7 @@ pg.ship_skin_words_extra = {
 		main = {
 			{
 				1100,
-				"I need only focus my attentions on battle? That is a reasonable decision... But does it mean my clerical skills did not pass muster?|nil|nil "
+				"I need only focus my attentions on battle? That is a reasonable decision... But does it mean my clerical skills did not pass muster?|nil|nil"
 			}
 		},
 		touch = {
