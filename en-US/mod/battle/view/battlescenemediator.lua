@@ -496,10 +496,10 @@ function slot5.RemoveArea(slot0, slot1)
 end
 
 function slot5.AddArcEffect(slot0, slot1, slot2, slot3, slot4)
-	pg.EffectMgr.GetInstance():PlayBattleEffect(slot5, Vector3.zero, true, function ()
-		slot0:RemoveArcEffect(slot0)
-	end)
-	table.insert(slot0._arcEffectList, slot0.Battle.BattleArcEffect.New(slot5, slot2, slot3, slot4))
+	slot6 = slot0.Battle.BattleArcEffect.New(slot5, slot2, slot3, slot4)
+
+	slot6:ConfigCallback(slot7)
+	table.insert(slot0._arcEffectList, slot6)
 end
 
 function slot5.RemoveArcEffect(slot0, slot1)

@@ -76703,11 +76703,6 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			},
 			{
 				4,
-				103011,
-				1
-			},
-			{
-				4,
 				103021,
 				1
 			},
@@ -76821,11 +76816,6 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			{
 				4,
 				101071,
-				1
-			},
-			{
-				4,
-				103011,
 				1
 			},
 			{
@@ -76957,11 +76947,6 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			},
 			{
 				4,
-				103011,
-				1
-			},
-			{
-				4,
 				103021,
 				1
 			},
@@ -77075,11 +77060,6 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			{
 				4,
 				101071,
-				1
-			},
-			{
-				4,
-				103011,
 				1
 			},
 			{
@@ -77211,11 +77191,6 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			},
 			{
 				4,
-				103011,
-				1
-			},
-			{
-				4,
 				103021,
 				1
 			},
@@ -77334,11 +77309,6 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			{
 				4,
 				101071,
-				1
-			},
-			{
-				4,
-				103011,
 				1
 			},
 			{
@@ -77545,11 +77515,6 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 			{
 				4,
 				101071,
-				1
-			},
-			{
-				4,
-				103011,
 				1
 			},
 			{
@@ -78260,7 +78225,7 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		display = "Used to exchange for a portrait frame. Expires after the event ends. ",
 		rarity = 2,
 		type = 98,
-		name = "训练点数",
+		name = "Training Points",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,

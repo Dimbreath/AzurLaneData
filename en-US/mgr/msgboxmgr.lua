@@ -5870,15 +5870,19 @@ function slot13(slot0)
 		if slot2 then
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 143-155, warpins: 1 ---
-			slot2 = setParent
-			slot3 = slot0._tf
-			slot4 = slot0
-			slot4 = slot4.UIMgr
-			slot4 = slot4.GetInstance
-			slot4 = slot4()
-			slot4 = slot4.OverlayMain
-			slot5 = false
+			--- BLOCK #0 143-159, warpins: 1 ---
+			slot2 = slot0
+			slot2 = slot2.UIMgr
+			slot2 = slot2.GetInstance
+			slot2 = slot2()
+			slot3 = slot2
+			slot2 = slot2.UnblurPanel
+			slot4 = slot0._tf
+			slot5 = slot0
+			slot5 = slot5.UIMgr
+			slot5 = slot5.GetInstance
+			slot5 = slot5()
+			slot5 = slot5.OverlayMain
 
 			slot2(slot3, slot4, slot5)
 
@@ -5888,7 +5892,7 @@ function slot13(slot0)
 			if slot2 then
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #0 156-164, warpins: 1 ---
+				--- BLOCK #0 160-168, warpins: 1 ---
 				slot2 = GetComponent
 				slot3 = slot0._tf
 				slot4 = typeof
@@ -5913,7 +5917,7 @@ function slot13(slot0)
 	else
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 165-177, warpins: 2 ---
+		--- BLOCK #0 169-181, warpins: 2 ---
 		slot2 = slot0
 		slot2 = slot2.UIMgr
 		slot2 = slot2.GetInstance
@@ -5941,7 +5945,7 @@ function slot13(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #9 178-186, warpins: 3 ---
+	--- BLOCK #9 182-190, warpins: 3 ---
 	slot2 = slot0.contentText
 	slot3 = slot2
 	slot2 = slot2.RemoveAllListeners
