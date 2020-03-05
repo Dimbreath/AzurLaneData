@@ -13,15 +13,19 @@ function slot0.OnFirstFlush(slot0)
 	slot0.step = slot0:findTF("AD/switcher/phase2/Image/step")
 	slot0.progress = slot0:findTF("AD/switcher/phase2/Image/progress")
 	slot0.switchBtn = slot0:findTF("AD/switcher/switch_btn")
+	slot0.bar = slot0:findTF("AD/switcher/phase2/Image/bar")
 	slot0.phases = {
 		slot0:findTF("AD/switcher/phase1"),
 		slot0:findTF("AD/switcher/phase2")
 	}
+	slot0.inPhase2 = false
 
 	onToggle(slot0, slot0.switchBtn, function (slot0)
 		if slot0.isSwitching then
 			return
 		end
+
+		slot0.inPhase2 = slot0
 
 		slot0:Switch(slot0)
 	end, SFX_PANEL)
@@ -56,17 +60,23 @@ function slot0.Switch(slot0, slot1)
 		slot0.phases[2] = slot0.phases[1]
 		slot0.phases[1] = slot0.phases[2]
 	end))
+	slot0:UpdateAwardGot()
+end
+
+function slot0.UpdateAwardGot(slot0)
+	setActive(slot0:findTF("switcher/phase2/got", slot0.bg), not slot0.ptData:CanGetNextAward() and slot0.inPhase2)
 end
 
 function slot0.OnUpdateFlush(slot0)
 	slot0.super.OnUpdateFlush(slot0)
 	setActive(slot0.battleBtn, slot3)
-	setActive(slot4, not slot0.ptData:CanGetNextAward())
+	slot0:UpdateAwardGot()
 
-	slot5, slot6, slot7 = slot0.ptData:GetResProgress()
+	slot4, slot5, slot6 = slot0.ptData:GetResProgress()
 
-	setText(slot0.step, (slot7 >= 1 and setColorStr(slot5, "#487CFFFF")) or slot5)
-	setText(slot0.progress, "/" .. slot6)
+	setText(slot0.step, (slot6 >= 1 and setColorStr(slot4, "#487CFFFF")) or slot4)
+	setText(slot0.progress, "/" .. slot5)
+	setFillAmount(slot0.bar, slot4 / slot5)
 end
 
 return slot0

@@ -101,7 +101,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 306,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>후속 이벤트를 통해 획득</color>",
+		desc = "<color=#ffffff>「동지들이여! 힘을 모으자! 이 세계를 우리 손으로 바꾸자!」 </color>\n「동절의 북해」 이벤트 획득 ",
 		scene = {}
 	},
 	all = {

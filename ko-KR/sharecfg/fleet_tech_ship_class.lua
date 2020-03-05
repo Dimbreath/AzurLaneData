@@ -1810,6 +1810,39 @@ pg.fleet_tech_ship_class = {
 			60506
 		}
 	},
+	[70101] = {
+		shiptype = 1,
+		name = "그녜브니급",
+		t_level = 4,
+		id = 70101,
+		t_level_1 = 136,
+		nation = 7,
+		ships = {
+			70102
+		}
+	},
+	[70102] = {
+		shiptype = 1,
+		name = "레닌그라드",
+		t_level = 5,
+		id = 70102,
+		t_level_1 = 134,
+		nation = 7,
+		ships = {
+			70103
+		}
+	},
+	[70103] = {
+		shiptype = 1,
+		name = "타슈켄트급",
+		t_level = 8,
+		id = 70103,
+		t_level_1 = 130,
+		nation = 7,
+		ships = {
+			70104
+		}
+	},
 	[70201] = {
 		shiptype = 2,
 		name = "디아나급 ",
@@ -1819,6 +1852,50 @@ pg.fleet_tech_ship_class = {
 		nation = 7,
 		ships = {
 			70201
+		}
+	},
+	[70202] = {
+		shiptype = 2,
+		name = "바가티르급",
+		t_level = 1,
+		id = 70202,
+		t_level_1 = 132,
+		nation = 7,
+		ships = {
+			70202
+		}
+	},
+	[70203] = {
+		shiptype = 2,
+		name = "차파예프급",
+		t_level = 7,
+		id = 70203,
+		t_level_1 = 135,
+		nation = 7,
+		ships = {
+			70203
+		}
+	},
+	[70501] = {
+		shiptype = 5,
+		name = "강구트급",
+		t_level = 5,
+		id = 70501,
+		t_level_1 = 135,
+		nation = 7,
+		ships = {
+			70501
+		}
+	},
+	[70502] = {
+		shiptype = 5,
+		name = "소비에츠카야 소유즈급",
+		t_level = 8,
+		id = 70502,
+		t_level_1 = 131,
+		nation = 7,
+		ships = {
+			70505
 		}
 	},
 	[80101] = {
@@ -2070,7 +2147,14 @@ pg.fleet_tech_ship_class = {
 		60302,
 		60501,
 		60502,
+		70101,
+		70102,
+		70103,
 		70201,
+		70202,
+		70203,
+		70501,
+		70502,
 		80101,
 		80102,
 		80103,

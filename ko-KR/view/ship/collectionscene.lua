@@ -328,8 +328,14 @@ function slot0.onInitCard(slot0, slot1)
 
 				slot0.contextData:emit(slot1.SHOW_DETAIL, slot2.showTrans, slot2.shipGroup.id)
 			end))
-		elseif slot0.state == ShipGroup.STATE_NOTGET and slot0.config then
-			slot1:showObtain(slot0.config.description, slot0.shipGroup:getShipConfigId())
+		elseif slot0.state == ShipGroup.STATE_NOTGET then
+			if slot0.showTrans == true and slot0.shipGroup.trans == true then
+				return
+			end
+
+			if slot0.config then
+				slot1:showObtain(slot0.config.description, slot0.shipGroup:getShipConfigId())
+			end
 		end
 	end, SOUND_BACK)
 

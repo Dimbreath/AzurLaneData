@@ -27,7 +27,7 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.getBGM(slot0)
-	return ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(slot1).bgm or slot0.super.getBGM(slot0)
+	return (pg.expedition_data_template[slot0.contextData.stageId].bgm ~= "" and slot1.bgm) or slot0.super.getBGM(slot0)
 end
 
 function slot0.init(slot0)

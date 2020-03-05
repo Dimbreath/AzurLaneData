@@ -339,6 +339,19 @@ pg.mini_game = {
 		hub_id = 6,
 		request_data = 1
 	},
+	{
+		name = "解密游戏",
+		view_name = "DecodeMiniGameView",
+		mediator_name = "MiniHubMediator",
+		type = 2,
+		simple_config_data = "",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 11,
+		hub_id = 7,
+		request_data = 1
+	},
 	all = {
 		1,
 		2,
@@ -349,7 +362,8 @@ pg.mini_game = {
 		7,
 		8,
 		9,
-		10
+		10,
+		11
 	}
 }
 

@@ -18,6 +18,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._maxDistance = slot3.max_distance
 	slot0._checkTargetMaxDistance = slot3.checkTargetMaxDistance
 	slot0._isBuffStackByCheckTarget = slot3.isBuffStackByCheckTarget
+	slot0._isUpdateAura = slot3.FAura
 	slot4 = true
 
 	if (type(slot0._target) == "string" and slot0._target == "TargetAllHarm") or (slot5 == "table" and table.contains(slot0._target, "TargetAllHarm")) then
@@ -46,15 +47,34 @@ function slot1.SetArgs(slot0, slot1, slot2)
 				end
 			end
 		end
-	end, slot4)
+	end, slot4, nil, false, (slot0._isUpdateAura and function (slot0)
+		if slot0.Active then
+			for slot5, slot6 in ipairs(slot1) do
+				if slot6.GetUniqueID() == slot0.UID then
+					slot6.RemoveBuff(slot0._auraBuffID)
+
+					break
+				end
+			end
+		end
+	end) or nil)
 end
 
 function slot1.Clear(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-13, warpins: 1 ---
 	slot0._aura:SetActiveFlag(false)
 
 	slot0._aura = nil
 
 	slot0.super.Clear(slot0)
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 return

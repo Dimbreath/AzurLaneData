@@ -38,7 +38,7 @@ slot1 = pg.ship_data_group
 function slot0.getState(slot0, slot1, slot2)
 	if slot0.ENABLE_SKIP_TO_CHAPTER then
 		if slot2 and not slot1 then
-			return slot0.STATE_LOCK
+			return slot0.STATE_NOTGET
 		end
 
 		if slot1[slot0] then

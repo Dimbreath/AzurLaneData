@@ -2476,6 +2476,48 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[167] = {
+		advice = 0,
+		describe = "연합 작전의 성공을 기념하기 위해 만든 특별한 조각. 노스 유니온의 강철과 같은 정신을 느낄 수 있다——「Ура!Ура!Ура!」",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "북해의 기념",
+		is_get_time_note = 1,
+		rarity = 5,
+		gain_by = "동절의 북해",
+		themeId = 0,
+		icon = "maozixunzhangicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 167,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"maozixunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		advice = 0,
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
@@ -62124,7 +62166,7 @@ pg.furniture_data_template = {
 			{
 				"wash",
 				{
-					-60,
+					-47.3,
 					-25
 				},
 				{
@@ -62557,6 +62599,1267 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[60001] = {
+		advice = 0,
+		describe = "후후후. 탈출할 생각은 마시지!",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "만쥬 수용소 바닥",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 60,
+		icon = "dibanelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60001,
+		picture = "els/dibanels",
+		comfortable = 4,
+		tag = 4,
+		size = {
+			2,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60002] = {
+		advice = 0,
+		describe = "후후후. 탈출할 생각은 마시지!",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "만쥬 수용소 벽지",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 60,
+		icon = "qiangbielsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60002,
+		picture = "els/qiangbiels",
+		comfortable = 4,
+		tag = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60101] = {
+		advice = 0,
+		describe = "씻다가 잠들어 버렸어… 쥬…",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "냉동 만쥬",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 60,
+		icon = "bingelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60101,
+		picture = "els/bingels",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60102] = {
+		advice = 0,
+		describe = "식사 시간에는 잡담 금지!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "수용소 식탁",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 60,
+		icon = "canzhuoelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 60102,
+		picture = "els/canzhuoels",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-18.5,
+					114
+				},
+				{
+					1,
+					1
+				},
+				"els/canzhuoels_using"
+			},
+			{
+				"sit",
+				{
+					-128,
+					44.4
+				},
+				{
+					1,
+					1
+				},
+				"els/canzhuoels_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60103] = {
+		advice = 0,
+		describe = "이불 덮기 전 창문 닫는 것을 잊지 마. 그렇지 않다면…",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "수용소 베드",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 60,
+		icon = "chuangelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 60103,
+		picture = "els/chuangels",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					17.4,
+					31.6
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60104] = {
+		advice = 0,
+		describe = "마음에 들지는 않지만 괜찮은 의자",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "세발 의자",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 60,
+		icon = "dengzielsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 60104,
+		picture = "els/dengziels",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-1.6,
+					55.1
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60105] = {
+		advice = 0,
+		describe = "들어가기 전 마음의 준비는 필수! 헤헤…",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "지하실 계단",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 60,
+		icon = "dijiaoelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60105,
+		picture = "els/dijiaoels",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60106] = {
+		advice = 0,
+		describe = "특별한 죄수만 사용할 수 있는 라디에이터",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "라디에이터",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 60,
+		icon = "dinuanelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60106,
+		picture = "els/dinuanels",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60107] = {
+		advice = 0,
+		describe = "추운 감옥에서 느낄 수 있는 따뜻함",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "원형 러그",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 60,
+		icon = "ditanelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60107,
+		picture = "els/ditanels",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60108] = {
+		advice = 0,
+		describe = "후후후~ 이걸 사용하면 어떤 대가를 치룰 것 같아?",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "인두",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 60,
+		icon = "huoluelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60108,
+		picture = "els/huoluels",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60109] = {
+		advice = 0,
+		describe = "나, 나는 아무것도 모른다…쥬!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "죄수 만쥬",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 60,
+		icon = "jiaojiaelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60109,
+		picture = "els/jiaojiaels",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60110] = {
+		advice = 0,
+		describe = "손님, 스피리터스는 어떠십니까…쥬?",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "바텐더 만쥬",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 60,
+		icon = "jiubaelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60110,
+		picture = "els/jiubaels",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60111] = {
+		advice = 0,
+		describe = "도수 16.5% 이하의 술은 놓을 수 없음!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "노스 유니온 셀러",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 60,
+		icon = "jiujiaelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60111,
+		picture = "els/jiujiaels",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60112] = {
+		advice = 0,
+		describe = "이 문을 나갈 수 있는 사람은 없을걸?",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "감옥 철문",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 60,
+		icon = "laomenelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60112,
+		picture = "els/laomenels",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60113] = {
+		advice = 0,
+		describe = "줄 지어서 빠르게! 우물거리지 마! 쥬!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "수용소 나선 계단",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 60,
+		icon = "loutielsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60113,
+		picture = "els/loutiels",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60114] = {
+		advice = 0,
+		describe = "여기에 들어가도 이세계로 갈 수는 없어요",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "수용소 변기",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 60,
+		icon = "matongelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60114,
+		picture = "els/matongels",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60115] = {
+		advice = 0,
+		describe = "핥기 금지! 뒷 일은 자신이 책임질 것!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "수용소 경고판",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 60,
+		icon = "paizielsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60115,
+		picture = "els/paiziels",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60116] = {
+		advice = 0,
+		describe = "수용소의 보스만이 앉을 수 있는 자리!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "감옥장 데스크",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 60,
+		icon = "zhuozielsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 60116,
+		picture = "els/zhuoziels",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-71.5,
+					67.9
+				},
+				{
+					1,
+					1
+				},
+				"els/zhuoziels_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60117] = {
+		advice = 0,
+		describe = "한기를 가득 담고 있는 철창. 핥으면 안 된다!",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "감옥 철창",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 60,
+		icon = "tieqiangelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60117,
+		picture = "els/tieqiangels",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60119] = {
+		advice = 0,
+		describe = "보드카 한 잔보다 훨씬 더 매력적인 건… 아마도 보드카 한 병?",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "온천 「Водка」",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 60,
+		icon = "vodkaelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 1,
+		id = 60119,
+		picture = "els/vodkaels",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					60,
+					-43.2
+				},
+				{
+					1,
+					1
+				},
+				"els/vodkaels_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60121] = {
+		advice = 0,
+		describe = "오오! 감자가 잔뜩이다!",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "보급 상자",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 60,
+		icon = "xiangelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60121,
+		picture = "els/xiangels",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60122] = {
+		advice = 0,
+		describe = "평소에는 안마기 대용으로도 사용할 수 있다",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "고문 의자",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 60,
+		icon = "xingyielsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 60122,
+		picture = "els/xingyiels",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-10.6,
+					1
+				},
+				{
+					-1,
+					1
+				},
+				"els/xingyiels_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60123] = {
+		advice = 0,
+		describe = "‘일’을 순조롭게 마무리 짓는 것은 수용소의 유일한 낙",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "수용소 작업대",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 60,
+		icon = "xjtelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60123,
+		picture = "els/xjtels",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60124] = {
+		advice = 0,
+		describe = "어디 보자, 누가 소란을 피우고 있지 쥬?",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "간수 만쥬",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 60,
+		icon = "yujingelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60124,
+		picture = "els/yujingels",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60118] = {
+		advice = 0,
+		describe = "수용소의 유일한 낙",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "수용소 당구대",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 60,
+		icon = "tqzelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60118,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			5,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"taiqiuelsB",
+				"normal"
+			},
+			{
+				"taiqiuelsT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"hit",
+						0,
+						"sit"
+					},
+					{
+						"normal",
+						0,
+						"yun"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"taiqiuelsCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[60120] = {
+		advice = 0,
+		describe = "가둬 두기에는 너무나 아름다운 만쥬도 있는 법",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "탈옥 만쥬",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 60,
+		icon = "wakengelsicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60120,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wakengels",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[60301] = {
+		advice = 0,
+		describe = "주의! 순찰 강화 기간! 쥬!",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "수용소 칠판",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 60,
+		icon = "banzielsicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60301,
+		picture = "els/banziels",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60302] = {
+		advice = 0,
+		describe = "오늘은 새로운 소식이 있나…?",
+		count = 3,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "수용소 게시물",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 60,
+		icon = "zibaoelsicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60302,
+		picture = "els/zibaoels",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60303] = {
+		advice = 0,
+		describe = "안도 바깥도 춥구나",
+		count = 2,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "수용소 창살",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 60,
+		icon = "chuangzielsicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60303,
+		picture = "els/chuangziels",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60304] = {
+		advice = 0,
+		describe = "이걸로 바깥의 빛을 막는 걸까…",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "수용소 반사벽",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 60,
+		icon = "qiangshielsicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60304,
+		picture = "els/qiangshiels",
+		comfortable = 3,
+		tag = 5,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[60305] = {
+		advice = 0,
+		describe = "원래 하얀색이지 절대 눈이 쌓인 것이 아니다",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "수용소 탁자",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 60,
+		icon = "qzhuoelsicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 60305,
+		picture = "els/qzhuoels",
+		comfortable = 1,
+		tag = 5,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -62613,6 +63916,7 @@ pg.furniture_data_template = {
 		163,
 		164,
 		165,
+		167,
 		100002,
 		100003,
 		100004,
@@ -64001,7 +65305,38 @@ pg.furniture_data_template = {
 		59117,
 		59301,
 		59302,
-		59303
+		59303,
+		60001,
+		60002,
+		60101,
+		60102,
+		60103,
+		60104,
+		60105,
+		60106,
+		60107,
+		60108,
+		60109,
+		60110,
+		60111,
+		60112,
+		60113,
+		60114,
+		60115,
+		60116,
+		60117,
+		60119,
+		60121,
+		60122,
+		60123,
+		60124,
+		60118,
+		60120,
+		60301,
+		60302,
+		60303,
+		60304,
+		60305
 	}
 }
 
