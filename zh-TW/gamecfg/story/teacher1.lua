@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"36年Z组 Z23老师\n\n<size=45>一 问题儿童都来自——</size>",
+					"36年Z組 Z23老師\n\n<size=45>一 問題兒童都來自——</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "某日的港区·学院",
+			say = "某日的港區·學院",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊…这个实在是……",
+			say = "哈啊…這個實在是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			say = "嗯……就连我也想不出什么好办法呢……",
+			say = "嗯……就連我也想不出什麼好辦法呢……",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然无论是哪里的学校，都会有这么一群呢……",
+			say = "果然無論是哪裡的學校，都會有這麼一群呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然还是应该严厉地给她们一点“教育”啊…就用我这教鞭，哼哼——",
+			say = "果然還是應該嚴厲地給她們一點“教育”啊…就用我這教鞭，哼哼——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐、姐姐…你的“教育“还是稍微收敛一点……",
+			say = "姐、姐姐…你的“教育”還是稍微收斂一點……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…哈啊…究竟该怎么做才好呢……",
+			say = "不過…哈啊…究竟該怎麼做才好呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对于这群“问题儿童“们——",
+			say = "對於這群“問題兒童”們——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "老师们的烦恼，我全都听到了！",
+			say = "老師們的煩惱，我全都聽到了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "问题儿童什么的，就交给我Z23吧！",
+			say = "問題兒童什麼的，就交給我Z23吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“学习”的重要和乐趣，就让我来教给她们吧！",
+			say = "“學習”的重要和樂趣，就讓我來教給她們吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

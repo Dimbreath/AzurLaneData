@@ -60,6 +60,12 @@ pg.skin_page_template = {
 		res = "live",
 		english_name = "live"
 	},
+	[12] = {
+		id = 12,
+		name = "特别演习 ",
+		res = "laoyuyanxi",
+		english_name = "Prison Exerciese"
+	},
 	[9999] = {
 		id = 9999,
 		name = "其他",
@@ -77,6 +83,7 @@ pg.skin_page_template = {
 		9,
 		10,
 		11,
+		12,
 		9999
 	}
 }

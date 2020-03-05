@@ -238,6 +238,60 @@ pg.backyard_theme_template = {
 			8307
 		}
 	},
+	[9] = {
+		Cfg_1 = 5,
+		name = "繪畫教室",
+		desc = "開學啦！快來上課！",
+		deblocking = 1,
+		new = 1,
+		hot = 0,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 9,
+		icon = "schoolthemeicon",
+		comfortable = 77,
+		discount_time = "",
+		ids = {
+			9001,
+			9002,
+			9101,
+			9102,
+			9103,
+			9104,
+			9106,
+			9107,
+			9108,
+			9109,
+			9110,
+			9111,
+			9112,
+			9113,
+			9114,
+			9116,
+			9117,
+			9118,
+			9119,
+			9120,
+			9121,
+			9122,
+			9123,
+			9201,
+			9202,
+			9203,
+			9204,
+			9205,
+			9206,
+			9207,
+			9208,
+			9209,
+			9301,
+			9302,
+			9303,
+			9304,
+			9306
+		}
+	},
 	[11] = {
 		Cfg_1 = 5,
 		name = "午後茶會",
@@ -354,7 +408,7 @@ pg.backyard_theme_template = {
 		desc = "深邃廣袤的夜空，隱藏著無盡的祕密",
 		deblocking = 1,
 		new = 0,
-		hot = 1,
+		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
 		discount = 0,
@@ -537,11 +591,10 @@ pg.backyard_theme_template = {
 		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
-		discount = 0,
+		discount = 20,
 		id = 19,
 		icon = "cjthemeicon",
 		comfortable = 0,
-		discount_time = "",
 		ids = {
 			19001,
 			19002,
@@ -573,6 +626,32 @@ pg.backyard_theme_template = {
 			19305,
 			19306,
 			19307
+		},
+		discount_time = {
+			{
+				{
+					2020,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[20] = {
@@ -773,8 +852,8 @@ pg.backyard_theme_template = {
 		name = "豬突猛進！",
 		desc = "新的一年也要快樂！用豬突猛進的氣勢gogogo~",
 		deblocking = 1,
-		new = 1,
-		hot = 1,
+		new = 0,
+		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
 		discount = 20,
@@ -856,15 +935,14 @@ pg.backyard_theme_template = {
 		name = "粉粉豬年",
 		desc = "源自東煌的傳統傢俱風格，為港區帶來節日的喜慶與祥和。",
 		deblocking = 1,
-		new = 1,
+		new = 0,
 		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
-		discount = 0,
+		discount = 20,
 		id = 39,
 		icon = "znthemeicon",
 		comfortable = 0,
-		discount_time = "",
 		ids = {
 			39001,
 			39002,
@@ -903,6 +981,32 @@ pg.backyard_theme_template = {
 			39305,
 			39306,
 			39307
+		},
+		discount_time = {
+			{
+				{
+					2020,
+					1,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[40] = {
@@ -1098,6 +1202,7 @@ pg.backyard_theme_template = {
 		4,
 		5,
 		8,
+		9,
 		11,
 		13,
 		14,

@@ -3677,6 +3677,7 @@ pg.ship_data_template = {
 		buff_list_display = {
 			10750,
 			2011,
+			11480,
 			20041
 		},
 		hide_buff_list = {}
@@ -3723,6 +3724,7 @@ pg.ship_data_template = {
 		buff_list_display = {
 			10750,
 			2011,
+			11480,
 			20041
 		},
 		hide_buff_list = {}
@@ -3769,6 +3771,7 @@ pg.ship_data_template = {
 		buff_list_display = {
 			10750,
 			2011,
+			11480,
 			20041
 		},
 		hide_buff_list = {}
@@ -3815,6 +3818,7 @@ pg.ship_data_template = {
 		buff_list_display = {
 			10750,
 			2011,
+			11480,
 			20042
 		},
 		hide_buff_list = {}
@@ -6302,6 +6306,189 @@ pg.ship_data_template = {
 		buff_list_display = {
 			1002,
 			20112
+		},
+		hide_buff_list = {}
+	},
+	[102131] = {
+		oil_at_start = 1,
+		max_level = 70,
+		equip_id_3 = 16200,
+		oil_at_end = 4,
+		type = 2,
+		energy = 150,
+		name = "聖路易斯",
+		can_get_proficency = 0,
+		star = 2,
+		star_max = 5,
+		strengthen_id = 10213,
+		equip_id_2 = 0,
+		equip_id_1 = 12100,
+		group_type = 10213,
+		id = 102131,
+		equip_1 = {
+			2
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			10880,
+			4091
+		},
+		buff_list_display = {
+			10880,
+			4091,
+			20121
+		},
+		hide_buff_list = {}
+	},
+	[102132] = {
+		oil_at_start = 1,
+		max_level = 80,
+		equip_id_3 = 0,
+		oil_at_end = 6,
+		type = 2,
+		energy = 150,
+		name = "聖路易斯",
+		can_get_proficency = 0,
+		star = 3,
+		star_max = 5,
+		strengthen_id = 10213,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 10213,
+		id = 102132,
+		equip_1 = {
+			2
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			10880,
+			4091,
+			20121
+		},
+		buff_list_display = {
+			10880,
+			4091,
+			20121
+		},
+		hide_buff_list = {}
+	},
+	[102133] = {
+		oil_at_start = 1,
+		max_level = 90,
+		equip_id_3 = 0,
+		oil_at_end = 8,
+		type = 2,
+		energy = 150,
+		name = "聖路易斯",
+		can_get_proficency = 0,
+		star = 4,
+		star_max = 5,
+		strengthen_id = 10213,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 10213,
+		id = 102133,
+		equip_1 = {
+			2
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			10880,
+			4091,
+			20121
+		},
+		buff_list_display = {
+			10880,
+			4091,
+			20121
+		},
+		hide_buff_list = {}
+	},
+	[102134] = {
+		oil_at_start = 1,
+		max_level = 100,
+		equip_id_3 = 0,
+		oil_at_end = 10,
+		type = 2,
+		energy = 150,
+		name = "聖路易斯",
+		can_get_proficency = 1,
+		star = 5,
+		star_max = 5,
+		strengthen_id = 10213,
+		equip_id_2 = 0,
+		equip_id_1 = 0,
+		group_type = 10213,
+		id = 102134,
+		equip_1 = {
+			2
+		},
+		equip_2 = {
+			1
+		},
+		equip_3 = {
+			6
+		},
+		equip_4 = {
+			10,
+			14
+		},
+		equip_5 = {
+			10,
+			14
+		},
+		airassist_time = {},
+		buff_list = {
+			10880,
+			4091,
+			20122
+		},
+		buff_list_display = {
+			10880,
+			4091,
+			20122
 		},
 		hide_buff_list = {}
 	},
@@ -35994,6 +36181,10 @@ pg.ship_data_template = {
 		102112,
 		102113,
 		102114,
+		102131,
+		102132,
+		102133,
+		102134,
 		102181,
 		102182,
 		102183,

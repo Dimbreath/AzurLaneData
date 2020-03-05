@@ -10,8 +10,12 @@ function slot1.GetType(slot0)
 	return slot0.TYPEESCORT
 end
 
+function slot1.GetUIName(slot0)
+	return "escort_levels"
+end
+
 function slot1.OnInit(slot0)
-	slot0.tpl = slot0.tf:Find("level_tpl")
+	slot0.tpl = slot0.tf:Find("escort_level_tpl")
 	slot0.itemHolder = slot0.tf:Find("items")
 end
 

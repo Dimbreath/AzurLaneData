@@ -471,7 +471,7 @@ pg.collection_template = {
 		drop_display = {
 			{
 				id = 59000,
-				nums = "360",
+				nums = "720",
 				type = 2
 			},
 			{
@@ -1193,7 +1193,7 @@ pg.collection_template = {
 		title = "保衛運輸部隊Ⅰ",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
-		exp = 570,
+		exp = 600,
 		oil = 5,
 		id = 10103,
 		icon = "jianduixunlian",
@@ -1225,7 +1225,7 @@ pg.collection_template = {
 		title = "解救商船Ⅰ",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
-		exp = 840,
+		exp = 900,
 		oil = 5,
 		id = 10104,
 		icon = "jianduixunlian",

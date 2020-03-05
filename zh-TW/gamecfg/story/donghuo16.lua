@@ -157,7 +157,7 @@ return {
 			}
 		},
 		{
-			actorName = "海伦娜",
+			actorName = "海倫娜",
 			side = 0,
 			bgName = "bg_story_wing3",
 			nameColor = "#a9f548",
@@ -169,7 +169,7 @@ return {
 			}
 		},
 		{
-			actorName = "海伦娜",
+			actorName = "海倫娜",
 			side = 0,
 			bgName = "bg_story_wing3",
 			nameColor = "#a9f548",

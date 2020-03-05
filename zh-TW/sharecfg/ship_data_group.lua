@@ -831,7 +831,7 @@ pg.ship_data_group = {
 	},
 	[301] = {
 		type = 1,
-		trans_skin = 0,
+		trans_skin = 101319,
 		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
@@ -848,8 +848,17 @@ pg.ship_data_group = {
 			"C",
 			"C"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_skill = {
+			11480
+		},
 		description = {
 			{
 				"推薦探索關卡9-3",
@@ -1510,6 +1519,41 @@ pg.ship_data_group = {
 				},
 				0
 			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
+	[305] = {
+		type = 2,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 44,
+		group_type = 10213,
+		code = 305,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
 			{
 				"進行輕型艦建造",
 				{
@@ -8499,7 +8543,7 @@ pg.ship_data_group = {
 		redirect_id = 101,
 		nationality = 7,
 		hide = 0,
-		index_id = 338,
+		index_id = 341,
 		group_type = 70201,
 		code = 262,
 		property_hexagon = {
@@ -8760,6 +8804,7 @@ pg.ship_data_group = {
 		366,
 		31,
 		32,
+		305,
 		33,
 		34,
 		35,

@@ -55,14 +55,14 @@ pg.ship_data_create_material = {
 		}
 	},
 	{
-		use_gold = 600,
+		use_gold = 1500,
 		name = "限時建造",
 		build_anim = "building",
 		type = 2,
 		ship_icon = "1",
 		build_voice = "",
 		use_item = 20001,
-		number_1 = 1,
+		number_1 = 2,
 		id = 4,
 		icon = "build_4",
 		rate_tip = {
@@ -101,16 +101,16 @@ pg.ship_data_create_material = {
 		}
 	},
 	{
-		use_gold = 1500,
+		use_gold = 600,
 		name = "特型舰祈愿",
 		build_anim = "building",
 		type = 2,
-		ship_icon = "1",
+		ship_icon = "2",
 		build_voice = "",
 		use_item = 20001,
-		number_1 = 2,
+		number_1 = 1,
 		id = 6,
-		icon = "build_6",
+		icon = "build_4",
 		rate_tip = {
 			"<color=#ffde38>超稀有艦船</color>：7%",
 			"<color=#d797ff>精銳艦船</color>：12%",
@@ -119,21 +119,39 @@ pg.ship_data_create_material = {
 		}
 	},
 	{
-		use_gold = 600,
+		use_gold = 1500,
 		name = "轻型舰祈愿",
+		build_anim = "building",
+		type = 2,
+		ship_icon = "1",
+		build_voice = "",
+		use_item = 20001,
+		number_1 = 2,
+		id = 7,
+		icon = "build_6",
+		rate_tip = {
+			"<color=#ffde38>超稀有艦船</color>：7%",
+			"<color=#d797ff>精銳艦船</color>：12%",
+			"<color=#3dc6ff>稀有艦船</color>：26%",
+			"普通艦船：55%"
+		}
+	},
+	{
+		use_gold = 600,
+		name = "重型舰祈愿",
 		build_anim = "building",
 		type = 2,
 		ship_icon = "2",
 		build_voice = "",
 		use_item = 20001,
 		number_1 = 1,
-		id = 7,
+		id = 8,
 		icon = "build_7",
 		rate_tip = {
 			"<color=#ffde38>超稀有艦船</color>：7%",
 			"<color=#d797ff>精銳艦船</color>：12%",
-			"<color=#3dc6ff>稀有艦船</color>：26%",
-			"普通艦船：55%"
+			"<color=#3dc6ff>稀有艦船</color>：51%",
+			"普通艦船：30%"
 		}
 	},
 	{
@@ -145,13 +163,13 @@ pg.ship_data_create_material = {
 		build_voice = "",
 		use_item = 20001,
 		number_1 = 2,
-		id = 8,
+		id = 9,
 		icon = "build_8",
 		rate_tip = {
-			"<color=#ffde38>超稀有艦船</color>：7%",
-			"<color=#d797ff>精銳艦船</color>：12%",
-			"<color=#3dc6ff>稀有艦船</color>：51%",
-			"普通艦船：30%"
+			"<color=#ffde38>超稀有舰船</color>：7%",
+			"<color=#d797ff>精锐舰船</color>：12%",
+			"<color=#3dc6ff>稀有舰船</color>：51%",
+			"普通舰船：30%"
 		}
 	},
 	all = {
@@ -162,7 +180,8 @@ pg.ship_data_create_material = {
 		5,
 		6,
 		7,
-		8
+		8,
+		9
 	}
 }
 

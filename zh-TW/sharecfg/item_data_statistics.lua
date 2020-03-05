@@ -4370,6 +4370,11 @@ pg.item_data_statistics = {
 				9,
 				65,
 				1
+			},
+			{
+				9,
+				66,
+				1
 			}
 		},
 		price = {

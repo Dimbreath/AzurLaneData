@@ -1008,6 +1008,458 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[50] = {
+		icon = "91021",
+		bullet_name = "Torpedo_shudi",
+		name = "豎笛魚雷",
+		type = 10,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "豎笛形狀的魚雷，會爆炸、請注意",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 8,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 50,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[51] = {
+		icon = "91022",
+		bullet_name = "Torpedo_xiangpi",
+		name = "橡皮擦魚雷",
+		type = 10,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "把不想憶起的往事，還有黑歷史，一起擦掉吧",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 8,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 51,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[52] = {
+		icon = "91023",
+		bullet_name = "Torpedo_pencil",
+		name = "鉛筆魚雷",
+		type = 10,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "祕技！鉛筆占卜！這題答案選C！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 8,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 52,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[53] = {
+		icon = "91014",
+		bullet_name = "school_bullet_fenbi",
+		name = "粉筆子彈",
+		type = 10,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "上課分心的話，當心粉筆伺候唷！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 8,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 53,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[54] = {
+		icon = "91015",
+		bullet_name = "school_bullet_huaban",
+		name = "花瓣子彈",
+		type = 10,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "「你知道嗎？櫻花飄落的速度是——」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 8,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 54,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[55] = {
+		icon = "91016",
+		bullet_name = "school_liangjiaoqipaodan",
+		name = "量角器炮彈",
+		type = 10,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "角度完美～朝向45度方向～發射！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 8,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 55,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[56] = {
+		icon = "91017",
+		bullet_name = "school_heibancapaodan",
+		name = "板擦炮彈",
+		type = 10,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "板擦造型的炮彈，會爆炸、請注意",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 8,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 56,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[57] = {
+		icon = "91018",
+		bullet_name = "school_biandangpaodan",
+		name = "便當炮彈",
+		type = 10,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "美味的便當中暗藏著殺機",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 8,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 57,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[58] = {
+		icon = "91032",
+		bullet_name = "plane_zhifeiji",
+		name = "白色紙飛機(魚雷)",
+		type = 10,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "白色的紙飛機，可以飛很遠",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 8,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 58,
+		derivate_torpedo = "Torpedo_pencil",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[59] = {
+		icon = "91032",
+		bullet_name = "plane_zhifeiji",
+		name = "白色紙飛機(戰鬥)",
+		type = 10,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "白色的紙飛機，可以飛很遠",
+		ship_config_id = 100011,
+		derivate_boom = "school_heibancapaodan",
+		themeid = 8,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 59,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[60] = {
+		icon = "91032",
+		bullet_name = "plane_zhifeiji",
+		name = "白色紙飛機(轟炸)",
+		type = 10,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "白色的紙飛機，可以飛很遠",
+		ship_config_id = 100011,
+		derivate_boom = "school_heibancapaodan",
+		themeid = 8,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 60,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[61] = {
+		icon = "91031",
+		bullet_name = "plane_sakura",
+		name = "櫻色紙飛機(魚雷)",
+		type = 10,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "櫻色的紙飛機，可以調整飛行軌跡",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 8,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 61,
+		derivate_torpedo = "Torpedo_shudi",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[62] = {
+		icon = "91031",
+		bullet_name = "plane_sakura",
+		name = "櫻色紙飛機(戰鬥)",
+		type = 10,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "櫻色的紙飛機，可以調整飛行軌跡",
+		ship_config_id = 100011,
+		derivate_boom = "school_biandangpaodan",
+		themeid = 8,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 62,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[63] = {
+		icon = "91031",
+		bullet_name = "plane_sakura",
+		name = "櫻色紙飛機(轟炸)",
+		type = 10,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "櫻色的紙飛機，可以調整飛行軌跡",
+		ship_config_id = 100011,
+		derivate_boom = "school_biandangpaodan",
+		themeid = 8,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 63,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[64] = {
+		icon = "91033",
+		bullet_name = "plane_book",
+		name = "教科書飛機(魚雷)",
+		type = 10,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "今天也要好好學習",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 8,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 64,
+		derivate_torpedo = "Torpedo_xiangpi",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[65] = {
+		icon = "91033",
+		bullet_name = "plane_book",
+		name = "教科書飛機(戰鬥)",
+		type = 10,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "今天也要好好學習",
+		ship_config_id = 100011,
+		derivate_boom = "school_liangjiaoqipaodan",
+		themeid = 8,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 65,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[66] = {
+		icon = "91033",
+		bullet_name = "plane_book",
+		name = "教科書飛機(轟炸)",
+		type = 10,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "今天也要好好學習",
+		ship_config_id = 100011,
+		derivate_boom = "school_liangjiaoqipaodan",
+		themeid = 8,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 66,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[120] = {
 		icon = "91211",
 		bullet_name = "zidan_ya",
@@ -1527,6 +1979,23 @@ pg.equip_skin_template = {
 		36,
 		37,
 		38,
+		50,
+		51,
+		52,
+		53,
+		54,
+		55,
+		56,
+		57,
+		58,
+		59,
+		60,
+		61,
+		62,
+		63,
+		64,
+		65,
+		66,
 		120,
 		121,
 		122,
