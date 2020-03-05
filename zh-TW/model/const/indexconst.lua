@@ -618,4 +618,52 @@ function slot0.sortForGuider(slot0, slot1)
 	}, slot0.configId) and 1) or 0) > ((table.contains(slot2, slot1.configId) and 1) or 0)
 end
 
+function slot0.sortByIntimacy(slot0, slot1)
+	slot2 = slot0:getDockSortValue()
+	slot3 = slot1:getDockSortValue()
+
+	if slot0.intimacy ~= slot1.intimacy then
+		return slot1.intimacy < slot0.intimacy
+	end
+
+	if slot0.propose ~= slot1.propose then
+		return slot0.propose
+	end
+
+	if slot2 ~= slot3 then
+		return slot3 < slot2
+	end
+
+	if slot0.configId ~= slot1.configId then
+		return slot0.configId < slot1.configId
+	end
+
+	return slot1.level < slot0.level
+end
+
+function slot0.sortByIntimacyAsc(slot0, slot1)
+	slot2 = slot0:getDockSortValue()
+	slot3 = slot1:getDockSortValue()
+
+	if slot0.intimacy ~= slot1.intimacy then
+		return slot0.intimacy < slot1.intimacy
+	end
+
+	if slot0.propose ~= slot1.propose then
+		return slot1.propose
+	end
+
+	if slot2 ~= slot3 then
+		return slot3 < slot2
+	end
+
+	if slot0.configId ~= slot1.configId then
+		return slot0.configId < slot1.configId
+	end
+
+	if slot0.level ~= slot1.level then
+		return slot1.level < slot0.level
+	end
+end
+
 return slot0

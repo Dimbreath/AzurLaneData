@@ -33,6 +33,7 @@ slot0.ON_CHECK_EFFECT = "BackyardMainMediator:ON_CHECK_EFFECT"
 slot0.INTERACTION_TRANSPORT = "BackyardMainMediator:INTERACTION_TRANSPORT"
 slot0.INTERACTION_TRANSPORT_AGAIN = "BackyardMainMediator:INTERACTION_TRANSPORT_AGAIN"
 slot0.INTERACTION_TRANSPORT_END = "BackyardMainMediator:INTERACTION_TRANSPORT_END"
+slot0.RESET_BOAT_POS = "BackyardMainMediator:RESET_BOAT_POS"
 
 function slot0.Ctor(slot0, slot1)
 	slot0.super.Ctor(slot0, nil, slot1)
@@ -48,6 +49,12 @@ function slot0.onRegister(slot0)
 			name = BACKYARD.INTERACTION_TRANSPORT,
 			shipId = slot1,
 			furnitureId = slot2
+		})
+	end)
+	slot0:bind(slot0.RESET_BOAT_POS, function (slot0, slot1)
+		pg.backyard:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
+			name = BACKYARD.RESET_BOAT_POS,
+			id = slot1
 		})
 	end)
 	slot0:bind(slot0.INTERACTION_TRANSPORT_AGAIN, function (slot0, slot1, slot2)

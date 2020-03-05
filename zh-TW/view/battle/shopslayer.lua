@@ -46,6 +46,11 @@ function slot1(slot0)
 	slot0.goodActivityTF = slot1
 	slot2 = slot0
 	slot1 = slot0.findTF
+	slot3 = "frame/item_sham_tpl"
+	slot1 = slot1(slot2, slot3)
+	slot0.goodShamTF = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
 	slot3 = "frame/item_fragment_tpl"
 	slot1 = slot1(slot2, slot3)
 	slot0.goodFragTF = slot1
@@ -200,6 +205,17 @@ function slot1(slot0)
 
 	slot1 = setText
 	slot2 = slot0.goodActivityTF
+	slot3 = slot2
+	slot2 = slot2.Find
+	slot4 = "mask/tag/sellout_tag"
+	slot2 = slot2(slot3, slot4)
+	slot3 = i18n
+	slot4 = "word_sell_out"
+
+	slot1(slot2, slot3(slot4))
+
+	slot1 = setText
+	slot2 = slot0.goodShamTF
 	slot3 = slot2
 	slot2 = slot2.Find
 	slot4 = "mask/tag/sellout_tag"
@@ -2727,56 +2743,56 @@ function slot3(slot0, slot1)
 
 	slot4 = slot2
 	slot3 = slot2.getBgPath
-	slot3, slot4 = slot3(slot4)
-	slot6 = slot2
-	slot5 = slot2.getSortGoods
-	slot5 = slot5(slot6)
-	slot6 = slot0.activityCards
+	slot3, slot4, slot5 = slot3(slot4)
+	slot7 = slot2
+	slot6 = slot2.getSortGoods
+	slot6 = slot6(slot7)
+	slot7 = slot0.activityCards
 
-	if slot6 then
-		slot6 = slot0.activityCards
-		slot6 = #slot6
-		slot7 = 0
+	if slot7 then
+		slot7 = slot0.activityCards
+		slot7 = #slot7
+		slot8 = 0
 
-		if slot6 > slot7 then
-			slot6 = _
-			slot6 = slot6.each
-			slot7 = slot0.activityCards
+		if slot7 > slot8 then
+			slot7 = _
+			slot7 = slot7.each
+			slot8 = slot0.activityCards
 
-			function slot8(slot0)
+			function slot9(slot0)
 				slot2 = slot0
 				slot1 = slot0.dispose
 
 				slot1(slot2)
 			end
 
-			slot6(slot7, slot8)
+			slot7(slot8, slot9)
 		end
 	end
 
-	slot6 = {}
-	slot0.activityCards = slot6
-	slot6 = slot0.uilist
+	slot7 = {}
+	slot0.activityCards = slot7
+	slot7 = slot0.uilist
 
-	if not slot6 then
-		slot7 = slot0
-		slot6 = slot0.findTF
-		slot8 = "scrollView/view"
-		slot9 = slot0.activityShopTF
-		slot6 = slot6(slot7, slot8, slot9)
-		slot7 = UIItemList
-		slot7 = slot7.New
-		slot8 = slot6
-		slot9 = slot0.goodActivityTF
-		slot7 = slot7(slot8, slot9)
-		slot0.uilist = slot7
+	if not slot7 then
+		slot8 = slot0
+		slot7 = slot0.findTF
+		slot9 = "scrollView/view"
+		slot10 = slot0.activityShopTF
+		slot7 = slot7(slot8, slot9, slot10)
+		slot8 = UIItemList
+		slot8 = slot8.New
+		slot9 = slot7
+		slot10 = slot0.goodActivityTF
+		slot8 = slot8(slot9, slot10)
+		slot0.uilist = slot8
 	end
 
-	slot6 = slot0.uilist
-	slot8 = slot6
-	slot7 = slot6.make
+	slot7 = slot0.uilist
+	slot9 = slot7
+	slot8 = slot7.make
 
-	function slot9(slot0, slot1, slot2)
+	function slot10(slot0, slot1, slot2)
 		slot3 = UIItemList
 		slot3 = slot3.EventUpdate
 
@@ -2793,19 +2809,20 @@ function slot3(slot0, slot1)
 			slot7 = slot3
 			slot8 = nil
 			slot9 = slot1
+			slot10 = slot2
 
-			slot5(slot6, slot7, slot8, slot9)
+			slot5(slot6, slot7, slot8, slot9, slot10)
 
 			slot5 = table
 			slot5 = slot5.insert
-			slot6 = slot2
+			slot6 = slot3
 			slot6 = slot6.activityCards
 			slot7 = slot4
 
 			slot5(slot6, slot7)
 
 			slot5 = onButton
-			slot6 = slot2
+			slot6 = slot3
 			slot7 = slot4.tr
 
 			function slot8()
@@ -2823,110 +2840,110 @@ function slot3(slot0, slot1)
 		end
 	end
 
-	slot7(slot8, slot9)
+	slot8(slot9, slot10)
 
-	slot8 = slot6
-	slot7 = slot6.align
-	slot9 = #slot5
-
-	slot7(slot8, slot9)
-
-	slot0.currActivityShop = slot2
-	slot7 = setText
-	slot9 = slot0
-	slot8 = slot0.findTF
-	slot10 = "Text"
-	slot11 = slot0.activityShopTF
-	slot8 = slot8(slot9, slot10, slot11)
-	slot9 = i18n
-	slot10 = "activity_shop_lable"
-	slot12 = slot2
-	slot11 = slot2.getOpenTime
-
-	slot7(slot8, slot9(slot10, slot11(slot12)))
-
-	slot8 = slot2
-	slot7 = slot2.getResId
-	slot7 = slot7(slot8)
-	slot8 = setText
-	slot10 = slot0
-	slot9 = slot0.findTF
-	slot11 = "res_battery/Text"
-	slot12 = slot0.top
-	slot9 = slot9(slot10, slot11, slot12)
-	slot10 = slot0.player
-	slot11 = slot10
-	slot10 = slot10.getResource
-	slot12 = slot7
-
-	slot8(slot9, slot10(slot11, slot12))
-
-	slot8 = setText
-	slot10 = slot0
-	slot9 = slot0.findTF
-	slot11 = "res_battery/label"
-	slot12 = slot0.top
-	slot9 = slot9(slot10, slot11, slot12)
-	slot10 = pg
-	slot10 = slot10.item_data_statistics
-	slot11 = id2ItemId
-	slot12 = slot7
-	slot11 = slot11(slot12)
-	slot10 = slot10[slot11]
-	slot10 = slot10.name
+	slot9 = slot7
+	slot8 = slot7.align
+	slot10 = #slot6
 
 	slot8(slot9, slot10)
 
-	slot9 = slot0
-	slot8 = slot0.findTF
-	slot10 = "res_battery/icon"
-	slot11 = slot0.top
-	slot8 = slot8(slot9, slot10, slot11)
-	slot9 = slot8
-	slot8 = slot8.GetComponent
-	slot10 = typeof
-	slot11 = Image
-	slot8 = slot8(slot9, slot10(slot11))
-	slot9 = GetSpriteFromAtlas
-	slot10 = pg
-	slot10 = slot10.item_data_statistics
-	slot11 = id2ItemId
-	slot12 = slot7
-	slot11 = slot11(slot12)
-	slot10 = slot10[slot11]
-	slot10 = slot10.icon
-	slot11 = ""
-	slot9 = slot9(slot10, slot11)
-	slot8.sprite = slot9
-	slot10 = slot0.bgs
-	slot11 = slot2.activityId
-	slot10 = slot10[slot11]
-	slot11 = nil
+	slot0.currActivityShop = slot2
+	slot8 = setText
+	slot10 = slot0
+	slot9 = slot0.findTF
+	slot11 = "Text"
+	slot12 = slot0.activityShopTF
+	slot9 = slot9(slot10, slot11, slot12)
+	slot10 = i18n
+	slot11 = "activity_shop_lable"
+	slot13 = slot2
+	slot12 = slot2.getOpenTime
 
-	if slot10 then
-		slot11 = slot10
+	slot8(slot9, slot10(slot11, slot12(slot13)))
+
+	slot9 = slot2
+	slot8 = slot2.getResId
+	slot8 = slot8(slot9)
+	slot9 = setText
+	slot11 = slot0
+	slot10 = slot0.findTF
+	slot12 = "res_battery/Text"
+	slot13 = slot0.top
+	slot10 = slot10(slot11, slot12, slot13)
+	slot11 = slot0.player
+	slot12 = slot11
+	slot11 = slot11.getResource
+	slot13 = slot8
+
+	slot9(slot10, slot11(slot12, slot13))
+
+	slot9 = setText
+	slot11 = slot0
+	slot10 = slot0.findTF
+	slot12 = "res_battery/label"
+	slot13 = slot0.top
+	slot10 = slot10(slot11, slot12, slot13)
+	slot11 = pg
+	slot11 = slot11.item_data_statistics
+	slot12 = id2ItemId
+	slot13 = slot8
+	slot12 = slot12(slot13)
+	slot11 = slot11[slot12]
+	slot11 = slot11.name
+
+	slot9(slot10, slot11)
+
+	slot10 = slot0
+	slot9 = slot0.findTF
+	slot11 = "res_battery/icon"
+	slot12 = slot0.top
+	slot9 = slot9(slot10, slot11, slot12)
+	slot10 = slot9
+	slot9 = slot9.GetComponent
+	slot11 = typeof
+	slot12 = Image
+	slot9 = slot9(slot10, slot11(slot12))
+	slot10 = GetSpriteFromAtlas
+	slot11 = pg
+	slot11 = slot11.item_data_statistics
+	slot12 = id2ItemId
+	slot13 = slot8
+	slot12 = slot12(slot13)
+	slot11 = slot11[slot12]
+	slot11 = slot11.icon
+	slot12 = ""
+	slot10 = slot10(slot11, slot12)
+	slot9.sprite = slot10
+	slot11 = slot0.bgs
+	slot12 = slot2.activityId
+	slot11 = slot11[slot12]
+	slot12 = nil
+
+	if slot11 then
+		slot12 = slot11
 	else
-		slot12 = GetSpriteFromAtlas
-		slot13 = slot3
-		slot14 = ""
-		slot12 = slot12(slot13, slot14)
-		slot11 = slot12
-		slot12 = slot0.bgs
-		slot13 = slot2.activityId
-		slot12[slot13] = slot11
+		slot13 = GetSpriteFromAtlas
+		slot14 = slot3
+		slot15 = ""
+		slot13 = slot13(slot14, slot15)
+		slot12 = slot13
+		slot13 = slot0.bgs
+		slot14 = slot2.activityId
+		slot13[slot14] = slot12
 	end
 
-	slot12 = setImageSprite
-	slot13 = slot0.activityBg
-	slot14 = slot11
+	slot13 = setImageSprite
+	slot14 = slot0.activityBg
+	slot15 = slot12
 
-	slot12(slot13, slot14)
+	slot13(slot14, slot15)
 
-	slot12 = setActive
-	slot13 = slot0.activityBg
-	slot14 = true
+	slot13 = setActive
+	slot14 = slot0.activityBg
+	slot15 = true
 
-	slot12(slot13, slot14)
+	slot13(slot14, slot15)
 end
 
 slot0.intActivityShop = slot3
@@ -4281,7 +4298,7 @@ function slot3(slot0)
 		slot2 = UIItemList
 		slot2 = slot2.New
 		slot3 = slot1
-		slot4 = slot0.goodActivityTF
+		slot4 = slot0.goodShamTF
 		slot2 = slot2(slot3, slot4)
 		slot0.shamItemList = slot2
 	end

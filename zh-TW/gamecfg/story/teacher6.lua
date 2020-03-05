@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"36年Z组 Z23老师\n\n<size=45>六 奔跑吧，Z23</size>",
+					"36年Z組 Z23老師\n\n<size=45>六 奔跑吧，Z23</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 401230,
 			nameColor = "#a9f548",
-			say = "对方的世界吗……好！首先是——",
+			say = "對方的世界嗎……好！首先是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			actor = 401230,
 			nameColor = "#a9f548",
-			say = "长岛！来一决胜负吧！",
+			say = "長島！來一決勝負吧！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			say = "诶？",
+			say = "欸？",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -92,7 +92,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "用游戏！",
+			say = "用遊戲！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶诶诶？哼、哼哼、哼哼哼…竟敢对我这个“游戏之神”长岛发起挑战，真是有勇气啊～好！我就接受你的挑战了！",
+			say = "欸欸欸？哼、哼哼、哼哼哼…竟敢對我這個“遊戲之神”長島發起挑戰，真是有勇氣啊～好！我就接受你的挑戰了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我赢了的话，就乖乖接受辅导吧！",
+			say = "我贏了的話，就乖乖接受輔導吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等你赢了再说吧～",
+			say = "等你贏了再說吧～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			actor = 106011,
 			nameColor = "#a9f548",
-			say = "输、输了……",
+			say = "輸、輸了……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -184,7 +184,7 @@ return {
 			}
 		},
 		{
-			say = "嘿嘿，说话要算话哦～",
+			say = "嘿嘿，說話要算話哦～",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没想到我会犯下这么低级的错误，让对面选游戏……数独什么的……",
+			say = "沒想到我會犯下這麼低級的錯誤，讓對面選遊戲……數獨什麼的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咕…我知道了啦…补习我会去的啦！",
+			say = "咕…我知道了啦…補習我會去的啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			actor = 102080,
 			nameColor = "#a9f548",
-			say = "什么～？有好玩的～？",
+			say = "什麼～？有好玩的～？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -269,7 +269,7 @@ return {
 			}
 		},
 		{
-			say = "嗯～之前是我太急了～圣地亚哥的话…就从简单的内容开始学起吧～",
+			say = "嗯～之前是我太急了～聖地牙哥的話…就從簡單的內容開始學起吧～",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -294,7 +294,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨拉小姐也会一起哦",
+			say = "薩拉小姐也會一起哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "yahoo～又可以和萨拉一起玩啦～",
+			say = "yahoo～又可以和薩拉一起玩啦～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "对不起啦Z23，刚才的恶作剧只是跟你开开玩笑而已～",
+			say = "對不起啦Z23，剛才的惡作劇只是跟你開開玩笑而已～",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -354,7 +354,7 @@ return {
 			}
 		},
 		{
-			say = "没关系啦…不过，双重恶作剧吗，萨拉小姐还真是有趣呢…",
+			say = "沒關係啦…不過，雙重惡作劇嗎，薩拉小姐還真是有趣呢…",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -379,7 +379,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，就是因为好玩所以恶作剧才让人乐此不疲呀～",
+			say = "嘿嘿，就是因為好玩所以惡作劇才讓人樂此不疲呀～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔、（左顾右盼）姐、姐姐不在吧…被听到又要被教育一顿了——",
+			say = "唔、（左顧右盼）姐、姐姐不在吧…被聽到又要被教育一頓了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噗…比起提心吊胆地恶作剧，不如更加光明正大的做一些有趣又不用担心被教育的事情怎么样？",
+			say = "噗…比起提心吊膽地惡作劇，不如更加光明正大的做一些有趣又不用擔心被教育的事情怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶～有这么好的事情吗？",
+			say = "誒～有這麼好的事情嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比如打着教学实验的旗号用舰载机玩点人工降雨还是人造彩虹什么的……？",
+			say = "比如打著教學實驗的旗號用艦載機玩點人工降雨還是人造彩虹什麼的……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "听起来好像挺有趣的耶～",
+			say = "聽起來好像挺有趣的耶～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些都是在学习中能得到的乐趣哟～所以，要来参加辅导哦！",
+			say = "這些都是在學習中能得到的樂趣喲～所以，要來參加輔導哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…总觉得被套进去了…好、好吧——",
+			say = "唔…總覺得被套進去了…好、好吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			dir = 1,
 			actor = 401230,
 			nameColor = "#a9f548",
-			say = "好！这次一定能顺利进行！",
+			say = "好！這次一定能順利進行！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -540,7 +540,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家准备好了吗～课后特别辅导，现在就要开始咯——",
+			say = "大家準備好了嗎～課後特別輔導，現在就要開始囉——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

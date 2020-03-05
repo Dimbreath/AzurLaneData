@@ -567,6 +567,15 @@ function slot0.addShipMove(slot0, slot1, slot2)
 	end
 end
 
+function slot0.ResetShipPos(slot0, slot1)
+	if not slot0:GetCanWalkGrid(slot0.data.ships[slot1]) then
+		return
+	end
+
+	slot0:changeShipPos(slot2.id, slot3)
+	slot0:shipRomdonMove(slot2)
+end
+
 function slot0.shipSeriesMove(slot0, slot1, slot2, slot3)
 	slot5 = #slot2
 	slot6 = 0
@@ -603,6 +612,22 @@ function slot0.shipSeriesMove(slot0, slot1, slot2, slot3)
 	slot0.timer[slot4].func()
 end
 
+function slot0.GetCanWalkGrid(slot0, slot1)
+	slot3 = {}
+
+	for slot7, slot8 in ipairs(slot2) do
+		if slot0.data:canMoveBoat(id, slot8) then
+			table.insert(slot3, slot8)
+		end
+	end
+
+	if #slot3 == 0 then
+		return nil
+	end
+
+	return slot3[math.random(1, #slot3)]
+end
+
 function slot0.shipRomdonMove(slot0, slot1, slot2)
 	slot4 = 0
 	slot5 = math.random(1, 5)
@@ -617,15 +642,11 @@ function slot0.shipRomdonMove(slot0, slot1, slot2)
 			slot0.moveNextTimer[slot1].func()
 		end
 
-		slot2 = slot2:getPosition()
-
-		if slot0:randomInterAction(slot2:getSurroundGrid(), ) then
+		if slot0:randomInterAction(slot0.randomInterAction, slot2:getSurroundGrid()) then
 			return
 		end
 
-		slot3()
-
-		if #slot0 == 0 then
+		if not slot0:GetCanWalkGrid(slot0) then
 			slot0:sendNotification(slot3.CANCEL_SHIP_MOVE, {
 				id = slot1
 			})
@@ -633,16 +654,14 @@ function slot0.shipRomdonMove(slot0, slot1, slot2)
 			return
 		end
 
-		slot4 = slot4 + 1
-
-		slot0:moveShip(slot1, slot5, slot5)
-		slot6(slot0, slot3.BACKYARD_SHIP_MOVE, {
+		slot0:moveShip(slot1, slot1, )
+		slot0.sendNotification(slot3, slot4 + 1, {
 			id = slot1,
-			pos = slot0[math.random(1, #slot0)],
-			isLastStep = slot0.sendNotification <= math.random(1, #slot0)
+			pos = slot1,
+			isLastStep = slot3.BACKYARD_SHIP_MOVE <= 
 		})
 
-		if slot4 <=  then
+		if slot6 <= slot4 then
 			slot2:riseRate()
 			slot0.timer[slot1]:Stop()
 

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"36年Z组 Z23老师\n\n<size=45>四 禁忌·双重恶作剧！</size>",
+					"36年Z組 Z23老師\n\n<size=45>四 禁忌·雙重惡作劇！</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 401230,
 			nameColor = "#a9f548",
-			say = "呜、呜呜…这、这次一定能顺利——",
+			say = "嗚、嗚嗚…這、這次一定能順利——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我看看……接下来的是……啊，是萨拉托加小姐吗 ",
+			say = "我看看……接下來的是……啊，是薩拉托加小姐嗎 ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“非常喜欢恶作剧，要注意”吗…好！",
+			say = "“非常喜歡惡作劇，要注意”嗎…好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "数分钟后，辅导教室外",
+			say = "數分鐘後，輔導教室外",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -93,7 +93,7 @@ return {
 			}
 		},
 		{
-			say = "好了，萨拉小姐在里面等着，准备进去吧——",
+			say = "好了，薩拉小姐在裡面等著，準備進去吧——",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？半开的门…门板上这个是…黑板擦？",
+			say = "嗯？半開的門…門板上這個是…黑板擦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "非常喜欢恶作剧……吗，还真是传统的恶作剧啊……哈哈……我都想被打中以表敬意了……",
+			say = "非常喜歡惡作劇……嗎，還真是傳統的惡作劇啊……哈哈……我都想被打中以表敬意了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过！今天的目的正在于纠正这些“问题儿童”们！",
+			say = "不過！今天的目的正在於糾正這些“問題兒童”們！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要让萨拉小姐知道，教室是神圣的学习场所，可不是玩恶作剧的地方！",
+			say = "要讓薩拉小姐知道，教室是神聖的學習場所，可不是玩惡作劇的地方！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里只要小心避开黑板擦的位置开门——",
+			say = "這裡只要小心避開黑板擦的位置開門——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			}
 		},
 		{
-			say = "经典的门板陷阱只是假象！真正的陷阱是载着黑板擦的舰载机的精准空投！萨拉托加独创，禁忌·双重恶作剧！嘿嘿，有没有吓一跳呀～",
+			say = "經典的門板陷阱只是假象！真正的陷阱是載著黑板擦的艦載機的精準空投！薩拉托加獨創，禁忌·雙重惡作劇！嘿嘿，有沒有嚇一跳呀～",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -244,7 +244,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "萨～拉～小～姐——",
+			say = "薩～拉～小～姐——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这、这声音，难道是—我、我要先走了！（从教室后门一溜烟跑走）",
+			say = "這、這聲音，難道是—我、我要先走了！（從教室後門一溜煙跑走）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊…萨拉这孩子，又对别人恶作剧了，Z23，没事吧？",
+			say = "哈啊…薩拉這孩子，又對別人惡作劇了，Z23，沒事吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这次一定要好好“教育”一下这个妹妹呢，真是抱歉了呀，等我找到萨拉妹妹，再让她来跟你好好道歉……",
+			say = "這次一定要好好“教育”一下這個妹妹呢，真是抱歉了呀，等我找到薩拉妹妹，再讓她來跟你好好道歉……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说好的辅导…又泡汤了呜呜——",
+			say = "說好的輔導…又泡湯了嗚嗚——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

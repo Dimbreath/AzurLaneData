@@ -2772,6 +2772,83 @@ pg.memory_template = {
 		icon = "mikasa",
 		is_open = 0
 	},
+	[10029] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "問題兒童都來自——",
+		condition = "解鎖「Z23老師」DAY1",
+		story = "TEACHER1",
+		id = 10029,
+		icon = "z23",
+		is_open = 0
+	},
+	[10030] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "尼特最後的尊嚴",
+		condition = "解鎖「Z23老師」DAY2",
+		story = "TEACHER2",
+		id = 10030,
+		icon = "z23",
+		is_open = 0
+	},
+	[10031] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "這是誰，我在哪裡？",
+		condition = "解鎖「Z23老師」DAY3",
+		story = "TEACHER3",
+		id = 10031,
+		icon = "z23",
+		is_open = 0
+	},
+	[10032] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "禁忌·雙重惡作劇！",
+		condition = "解鎖「Z23老師」DAY5",
+		story = "TEACHER4",
+		id = 10032,
+		icon = "z23",
+		is_open = 0
+	},
+	[10033] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "Z23的煩惱",
+		condition = "解鎖「Z23老師」DAY7",
+		story = "TEACHER5",
+		id = 10033,
+		icon = "z23",
+		is_open = 0
+	},
+	[10034] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "奔跑吧，Z23",
+		condition = "解鎖「Z23老師」DAY9",
+		story = "TEACHER6",
+		id = 10034,
+		icon = "z23",
+		is_open = 0
+	},
+	[10035] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "教教我吧，Z23老師！",
+		condition = "解鎖「Z23老師」DAY10",
+		story = "TEACHER7",
+		id = 10035,
+		icon = "z23",
+		is_open = 0
+	},
 	all = {
 		1,
 		2,
@@ -3024,7 +3101,14 @@ pg.memory_template = {
 		10015,
 		10016,
 		10017,
-		10018
+		10018,
+		10029,
+		10030,
+		10031,
+		10032,
+		10033,
+		10034,
+		10035
 	}
 }
 

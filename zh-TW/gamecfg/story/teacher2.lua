@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"36年Z组 Z23老师\n\n<size=45>二 尼特最后的尊严</size>",
+					"36年Z組 Z23老師\n\n<size=45>二 尼特最後的尊嚴</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 106011,
 			nameColor = "#a9f548",
-			say = "嗯…这里要这样！然后是这样！",
+			say = "嗯…這裡要這樣！然後是這樣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			actor = 106011,
 			nameColor = "#a9f548",
-			say = "啊啊啊！危险！",
+			say = "啊啊啊！危險！",
 			flashout = {
 				dur = 0.75,
 				black = true,
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			actor = 106011,
 			nameColor = "#a9f548",
-			say = "啊啊～又gameover了，果然最高难度还是需要多加练习啊～",
+			say = "啊啊～又gameover了，果然最高難度還是需要多加練習啊～",
 			flashout = {
 				dur = 0.75,
 				black = true,
@@ -100,7 +100,7 @@ return {
 			}
 		},
 		{
-			say = "这……这是……在这样的环境下竟然还能生存……",
+			say = "這……這是……在這樣的環境下竟然還能生存……",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "努努努——嗯？啊，是铁血的……嗯……我想想，Z23？",
+			say = "努努努——嗯？啊，是鐵血的……嗯……我想想，Z23？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正是！长岛！身为港区的一员，参加学习即是权力也是义务！",
+			say = "正是！長島！身為港區的一員，參加學習即是權利也是義務！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来吧！告别糜烂的尼特生活，和我踏上共同进步的道路吧！",
+			say = "來吧！告別糜爛的尼特生活，和我踏上共同進步的道路吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶～～好麻烦——",
+			say = "誒～～好麻煩——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "平常的出击都已经够累人的了～难得的休假竟然还要学习～我才不要咧！",
+			say = "平常的出擊都已經夠累人的了～難得的休假竟然還要學習～我才不要咧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咕……学、学习也是一种放松的方式……",
+			say = "咕……學、學習也是一種放鬆的方式……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我已经不会像之前那样被指挥官牵着走了！不管怎么说——",
+			say = "我已經不會像之前那樣被指揮官牽著走了！不管怎麼說——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这是身为尼特最后的尊严！",
+			say = "這是身為尼特最後的尊嚴！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

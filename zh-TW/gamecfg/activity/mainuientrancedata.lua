@@ -1196,6 +1196,148 @@ return {
 
 		end
 	},
+	{
+		Tip = "tip",
+		Image = "main_decodegame",
+		ButtonName = "activity_decode",
+		UpdateButton = function (slot0, slot1)
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-10, warpins: 1 ---
+			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 11-14, warpins: 1 ---
+				slot3 = not slot2:isEnd()
+				--- END OF BLOCK #0 ---
+
+
+
+			end
+
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 15-20, warpins: 2 ---
+			setActive(slot1, false)
+
+			if slot3 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 21-35, warpins: 1 ---
+				slot6 = setActive
+				slot7 = slot1
+
+				if getProxy(MiniGameProxy).GetHubByHubId(slot4, slot2:getConfig("config_id")).id ~= 7 then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 36-37, warpins: 1 ---
+					slot8 = false
+					--- END OF BLOCK #0 ---
+
+
+
+				else
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 38-38, warpins: 1 ---
+					slot8 = true
+					--- END OF BLOCK #0 ---
+
+
+
+				end
+
+				--- END OF BLOCK #0 ---
+
+				FLOW; TARGET BLOCK #1
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #1 39-43, warpins: 2 ---
+				slot6(slot7, slot8)
+
+				if slot5.count <= 0 then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 44-45, warpins: 1 ---
+					slot6 = false
+					--- END OF BLOCK #0 ---
+
+
+
+				else
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 46-46, warpins: 1 ---
+					slot6 = true
+					--- END OF BLOCK #0 ---
+
+
+
+				end
+
+				--- END OF BLOCK #1 ---
+
+				FLOW; TARGET BLOCK #2
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #2 47-59, warpins: 2 ---
+				setActive(slot1:Find("Tip"), slot6)
+				onButton(slot0, slot1, function ()
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 1-14, warpins: 1 ---
+					pg.m02:sendNotification(GAME.REQUEST_MINI_GAME, {
+						type = MiniGameRequestCommand.REQUEST_HUB_DATA,
+						callback = function ()
+
+							-- Decompilation error in this vicinity:
+							--- BLOCK #0 1-9, warpins: 1 ---
+							pg.m02:sendNotification(GAME.GO_MINI_GAME, 11)
+
+							return
+							--- END OF BLOCK #0 ---
+
+
+
+						end
+					})
+
+					return
+					--- END OF BLOCK #0 ---
+
+
+
+				end, SFX_PANEL)
+				--- END OF BLOCK #2 ---
+
+
+
+			end
+
+			--- END OF BLOCK #1 ---
+
+			FLOW; TARGET BLOCK #2
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #2 60-60, warpins: 2 ---
+			return
+			--- END OF BLOCK #2 ---
+
+
+
+		end
+	},
 	LayoutProperty = {
 		CellSize = Vector2(208, 215)
 	},
@@ -1204,6 +1346,6 @@ return {
 		2,
 		8,
 		6,
-		10
+		11
 	}
 }

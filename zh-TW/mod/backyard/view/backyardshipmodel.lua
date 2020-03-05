@@ -61,6 +61,18 @@ slot5 = {
 	100009
 }
 slot4[9] = slot5
+slot5 = {
+	"sit",
+	3.33,
+	60118
+}
+slot4[10] = slot5
+slot5 = {
+	"yun",
+	5.17,
+	60118
+}
+slot4[11] = slot5
 
 function slot5(slot0, slot1, slot2)
 	slot3 = pg
@@ -2510,13 +2522,12 @@ function slot5(slot0, slot1)
 					slot4 = slot3
 					slot3 = slot3.emit
 					slot5 = BackyardMainMediator
-					slot5 = slot5.ADD_BOAT_MOVE
+					slot5 = slot5.RESET_BOAT_POS
 					slot6 = slot4
 					slot6 = slot6.boatVO
 					slot6 = slot6.id
-					slot7 = true
 
-					slot3(slot4, slot5, slot6, slot7)
+					slot3(slot4, slot5, slot6)
 				end
 			end
 		else
@@ -2916,13 +2927,12 @@ function slot5(slot0, slot1)
 					slot4 = slot3
 					slot3 = slot3.emit
 					slot5 = BackyardMainMediator
-					slot5 = slot5.ADD_BOAT_MOVE
+					slot5 = slot5.RESET_BOAT_POS
 					slot6 = slot1
 					slot6 = slot6.boatVO
 					slot6 = slot6.id
-					slot7 = true
 
-					slot3(slot4, slot5, slot6, slot7)
+					slot3(slot4, slot5, slot6)
 				end
 			end
 		end

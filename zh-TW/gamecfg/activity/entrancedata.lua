@@ -192,5 +192,26 @@ return {
 				return getProxy(MiniGameProxy).GetHubByHubId(slot1, slot0:getConfig("config_id")).count > 0 and slot2.usedtime < 7
 			end
 		end
+	},
+	{
+		banner = "encode_game",
+		event = ActivityMediator.GO_DECODE_MINI_GAME,
+		data = {
+			11
+		},
+		isShow = function ()
+			return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and not slot0:isEnd() and 
+			-- Decompilation error in this vicinity:
+			function ()
+				slot0 = getProxy(MiniGameProxy)
+
+				return slot0:GetHubByHubId(slot0:getConfig("config_id")) and slot1.id == 7
+			end()
+		end,
+		isTip = function ()
+			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MINIGAME) and not slot0:isEnd() then
+				return getProxy(MiniGameProxy):GetHubByHubId(slot0:getConfig("config_id")) and slot2.id == 7 and slot2.count > 0
+			end
+		end
 	}
 }

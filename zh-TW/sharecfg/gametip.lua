@@ -6889,7 +6889,7 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 		key = "activity_switch_award_pool_failed"
 	},
 	shop_street_activity_tip = {
-		tip = "*活動期間(<color=#A1E400FF>20.1.21-20.2.5</COLOR>)每次重整必定出現<color=#A1E400FF>外觀裝備箱</color>",
+		tip = "*活動期間(<color=#A1E400FF>20.3.5-20.3.11</COLOR>)每次重整必定出現<color=#A1E400FF>外觀裝備箱</color>",
 		key = "shop_street_activity_tip"
 	},
 	twitter_link_title = {
@@ -7962,15 +7962,15 @@ $3]],
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
-		tip = "阿貝克隆比、蘇塞克斯建造追加！",
+		tip = "愛宕、威爾斯親王建造追加！",
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "康克德建造追加！",
+		tip = "聖路易斯、吸血鬼、班森建造追加！",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "特型艦: 特型艦船的建造，包含重巡、輕航、正航、維修等艦船",
+		tip = "愛宕建造追加！",
 		key = "buildship_special_tip"
 	},
 	world_log_1 = {
@@ -10735,6 +10735,62 @@ TIPS：
 	LanternRiddle_wait_time_tip = {
 		tip = "再次答題時間：",
 		key = "LanternRiddle_wait_time_tip"
+	},
+	sort_attribute = {
+		tip = "屬性",
+		key = "sort_attribute"
+	},
+	sort_intimacy = {
+		tip = "好感",
+		key = "sort_intimacy"
+	},
+	index_skin = {
+		tip = "可換裝",
+		key = "index_skin"
+	},
+	index_reform = {
+		tip = "可改造",
+		key = "index_reform"
+	},
+	index_strengthen = {
+		tip = "可強化",
+		key = "index_strengthen"
+	},
+	indexsort_sort = {
+		tip = "排序",
+		key = "indexsort_sort"
+	},
+	indexsort_index = {
+		tip = "索引",
+		key = "indexsort_index"
+	},
+	indexsort_camp = {
+		tip = "阵营",
+		key = "indexsort_camp"
+	},
+	indexsort_rarity = {
+		tip = "稀有度",
+		key = "indexsort_rarity"
+	},
+	indexsort_extraindex = {
+		tip = "附加索引",
+		key = "indexsort_extraindex"
+	},
+	indexsort_sorteng = {
+		tip = "SORT",
+		key = "indexsort_sorteng"
+	},
+	indexsort_indexeng = {
+		tip = "INDEX",
+		key = "indexsort_indexeng"
+	},
+	indexsort_campeng = {
+		tip = "CAMP",
+		key = "indexsort_campeng"
+	},
+	indexsort_rarityeng = {
+		tip = "RARITY",
+		key = "indexsort_rarityeng"
 	}
 }
 

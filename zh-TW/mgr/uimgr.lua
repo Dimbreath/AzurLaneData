@@ -525,15 +525,14 @@ function pg.UIMgr.UnblurPanel(slot0, slot1, slot2)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #1 6-14, warpins: 2 ---
+	--- BLOCK #1 6-15, warpins: 2 ---
 	slot0[slot1] = nil
 
-	if slot1 - 1 == 0 then
+	if slot1 - 1 < 0 then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 15-20, warpins: 1 ---
-		slot0._staticBlur.enabled = false
-		slot0._cameraBlur.enabled = false
+		--- BLOCK #0 16-16, warpins: 1 ---
+		slot1 = 0
 		--- END OF BLOCK #0 ---
 
 
@@ -547,11 +546,19 @@ function pg.UIMgr.UnblurPanel(slot0, slot1, slot2)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #2 21-29, warpins: 2 ---
-	slot2.LayerWeightMgr.GetInstance():DelFromOverlay(slot1, slot2 or slot0.UIMain)
-	slot0:UpdatePBEnable()
+	--- BLOCK #2 17-19, warpins: 2 ---
+	if slot1 == 0 then
 
-	return
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 20-25, warpins: 1 ---
+		slot0._staticBlur.enabled = false
+		slot0._cameraBlur.enabled = false
+		--- END OF BLOCK #0 ---
+
+
+
+	end
+
 	--- END OF BLOCK #2 ---
 
 	FLOW; TARGET BLOCK #3
@@ -559,8 +566,20 @@ function pg.UIMgr.UnblurPanel(slot0, slot1, slot2)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #3 31-35, warpins: 2 ---
+	--- BLOCK #3 26-34, warpins: 2 ---
+	slot2.LayerWeightMgr.GetInstance():DelFromOverlay(slot1, slot2 or slot0.UIMain)
+	slot0:UpdatePBEnable()
+
+	return
 	--- END OF BLOCK #3 ---
+
+	FLOW; TARGET BLOCK #4
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #4 36-40, warpins: 2 ---
+	--- END OF BLOCK #4 ---
 
 
 

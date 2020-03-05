@@ -275,10 +275,6 @@ slot1 = {
 		className = "HalloweenSkinPage",
 		uiName = "HalloweenSkinUI"
 	},
-	[ActivityConst.BAILEY_HALLOWEEN] = {
-		className = "BaileyHalloweenPage",
-		uiName = "baileyhalloweenpage"
-	},
 	[ActivityConst.MEMPHIS_HALLOWEEN] = {
 		className = "MemphisHalloweenPage",
 		uiName = "memphishalloweenpage"
@@ -434,6 +430,14 @@ slot1 = {
 	[ActivityConst.FALLENWING_CHT] = {
 		className = "FallenWingMainPage",
 		uiName = "FallenWingMainPage"
+	},
+	[ActivityConst.SN_MAIN_PAGE] = {
+		className = "SNMainPage",
+		uiName = "SNMainPage"
+	},
+	[ActivityConst.SN_PT_PAGE] = {
+		className = "SNPtPage",
+		uiName = "SNPtPage"
 	}
 }
 slot2 = {
@@ -541,6 +545,11 @@ end
 
 function slot0.setActivities(slot0, slot1)
 	slot0.activities = slot1 or {}
+
+	for slot5, slot6 in pairs(slot1) do
+		print(slot5, slot6.id)
+	end
+
 	slot0.activity = nil
 
 	table.sort(slot0.activities, function (slot0, slot1)
