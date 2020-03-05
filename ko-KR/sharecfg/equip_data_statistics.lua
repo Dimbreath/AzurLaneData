@@ -3937,6 +3937,132 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[780] = {
+		name = "기밀 문서·극지 해협 ",
+		type = 10,
+		id = 780,
+		tech = 0,
+		speciality = "없음",
+		range = 0,
+		scatter = "없음",
+		ambush_extra = 0,
+		value_2 = 100,
+		icon = "780",
+		value_1 = "10",
+		attribute_2 = "durability",
+		avoid_extra = 0,
+		rarity = 4,
+		angle = 0,
+		nationality = 0,
+		ammo = "없음",
+		is_siren = 0,
+		descrip = "빙설 요새 전투에서 얻은 정보를 해석한 뒤 정리해서 얻은 기밀 보고서 ",
+		value_3 = 0,
+		attribute_1 = "cannon",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6440
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[781] = {
+		is_siren = 0,
+		id = 781,
+		base = 780,
+		value_2 = 105,
+		value_1 = "11",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[782] = {
+		is_siren = 0,
+		id = 782,
+		base = 780,
+		value_2 = 110,
+		value_1 = "12",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[783] = {
+		is_siren = 0,
+		id = 783,
+		base = 780,
+		value_2 = 115,
+		value_1 = "13",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[784] = {
+		is_siren = 0,
+		id = 784,
+		base = 780,
+		value_2 = 120,
+		value_1 = "14",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[785] = {
+		is_siren = 0,
+		id = 785,
+		base = 780,
+		value_2 = 125,
+		value_1 = "15",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[786] = {
+		is_siren = 0,
+		id = 786,
+		base = 780,
+		value_2 = 135,
+		value_1 = "16",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[787] = {
+		is_siren = 0,
+		id = 787,
+		base = 780,
+		value_2 = 150,
+		value_1 = "17",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[788] = {
+		is_siren = 0,
+		id = 788,
+		base = 780,
+		value_2 = 160,
+		value_1 = "18",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[789] = {
+		is_siren = 0,
+		id = 789,
+		base = 780,
+		value_2 = 170,
+		value_1 = "19",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[790] = {
+		is_siren = 0,
+		id = 790,
+		base = 780,
+		value_2 = 180,
+		value_1 = "20",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[1000] = {
 		name = "함정 수리설비",
 		type = 10,
@@ -10695,7 +10821,7 @@ pg.equip_data_statistics = {
 		id = 3300,
 		tech = 0,
 		nationality = 5,
-		speciality = "无",
+		speciality = "없음",
 		range = 0,
 		ambush_extra = 0,
 		value_2 = 0,
@@ -10704,9 +10830,9 @@ pg.equip_data_statistics = {
 		angle = 0,
 		avoid_extra = 0,
 		rarity = 5,
-		scatter = "无",
+		scatter = "없음",
 		is_siren = 0,
-		ammo = "无",
+		ammo = "없음",
 		descrip = "雕刻着东煌古国四神兽的玉器，似乎蕴含着来自东方的神秘力量",
 		value_3 = 0,
 		attribute_1 = "durability",
@@ -33306,7 +33432,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 30,
 		icon = "21500",
-		value_1 = "53/轮",
+		value_1 = "53/회",
 		attribute_2 = "antiaircraft",
 		avoid_extra = 0,
 		range = 35,
@@ -33334,7 +33460,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[26641] = {
-		value_1 = "61/轮",
+		value_1 = "61/회",
 		id = 26641,
 		base = 26640,
 		is_siren = 0,
@@ -33345,7 +33471,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26642] = {
-		value_1 = "68/轮",
+		value_1 = "68/회",
 		id = 26642,
 		base = 26640,
 		is_siren = 0,
@@ -33356,7 +33482,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26643] = {
-		value_1 = "76/轮",
+		value_1 = "76/회",
 		id = 26643,
 		base = 26640,
 		is_siren = 0,
@@ -33367,7 +33493,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26644] = {
-		value_1 = "84/轮",
+		value_1 = "84/회",
 		id = 26644,
 		base = 26640,
 		is_siren = 0,
@@ -33378,7 +33504,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26645] = {
-		value_1 = "92/轮",
+		value_1 = "92/회",
 		id = 26645,
 		base = 26640,
 		is_siren = 0,
@@ -33389,7 +33515,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26646] = {
-		value_1 = "100/轮",
+		value_1 = "100/회",
 		id = 26646,
 		base = 26640,
 		is_siren = 0,
@@ -33400,7 +33526,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26647] = {
-		value_1 = "108/轮",
+		value_1 = "108/회",
 		id = 26647,
 		base = 26640,
 		is_siren = 0,
@@ -33411,7 +33537,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26648] = {
-		value_1 = "116/轮",
+		value_1 = "116/회",
 		id = 26648,
 		base = 26640,
 		is_siren = 0,
@@ -33422,7 +33548,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26649] = {
-		value_1 = "124/轮",
+		value_1 = "124/회",
 		id = 26649,
 		base = 26640,
 		is_siren = 0,
@@ -33433,7 +33559,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[26650] = {
-		value_1 = "132/轮",
+		value_1 = "132/회",
 		id = 26650,
 		base = 26640,
 		is_siren = 0,
@@ -37653,7 +37779,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 5,
 		icon = "31200",
-		value_1 = "4 x 2",
+		value_1 = "4 x 4",
 		attribute_2 = "cannon",
 		avoid_extra = 0,
 		rarity = 2,
@@ -37698,7 +37824,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31202] = {
-		value_1 = "5 x 2",
+		value_1 = "5 x 4",
 		id = 31202,
 		base = 31200,
 		is_siren = 0,
@@ -37709,7 +37835,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31203] = {
-		value_1 = "5 x 2",
+		value_1 = "5 x 4",
 		id = 31203,
 		base = 31200,
 		is_siren = 0,
@@ -37730,7 +37856,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 12,
 		icon = "31200",
-		value_1 = "4 x 2",
+		value_1 = "4 x 4",
 		attribute_2 = "cannon",
 		avoid_extra = 0,
 		rarity = 3,
@@ -37775,7 +37901,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31222] = {
-		value_1 = "5 x 2",
+		value_1 = "4 x 4",
 		id = 31222,
 		base = 31220,
 		is_siren = 0,
@@ -37786,7 +37912,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31223] = {
-		value_1 = "5 x 2",
+		value_1 = "4 x 4",
 		id = 31223,
 		base = 31220,
 		is_siren = 0,
@@ -37797,7 +37923,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31224] = {
-		value_1 = "7 x 2",
+		value_1 = "7 x 4",
 		id = 31224,
 		base = 31220,
 		is_siren = 0,
@@ -37808,7 +37934,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31225] = {
-		value_1 = "7 x 2",
+		value_1 = "7 x 4",
 		id = 31225,
 		base = 31220,
 		is_siren = 0,
@@ -37819,7 +37945,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31226] = {
-		value_1 = "8 x 2",
+		value_1 = "8 x 4",
 		id = 31226,
 		base = 31220,
 		is_siren = 0,
@@ -37840,7 +37966,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 25,
 		icon = "31200",
-		value_1 = "4 x 2",
+		value_1 = "4 x 4",
 		attribute_2 = "cannon",
 		avoid_extra = 0,
 		rarity = 4,
@@ -37886,7 +38012,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31242] = {
-		value_1 = "5 x 2",
+		value_1 = "5 x 4",
 		id = 31242,
 		base = 31240,
 		is_siren = 0,
@@ -37897,7 +38023,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31243] = {
-		value_1 = "5 x 2",
+		value_1 = "5 x 4",
 		id = 31243,
 		base = 31240,
 		is_siren = 0,
@@ -37908,7 +38034,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31244] = {
-		value_1 = "8 x 2",
+		value_1 = "8 x 4",
 		id = 31244,
 		base = 31240,
 		is_siren = 0,
@@ -37919,7 +38045,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31245] = {
-		value_1 = "8 x 2",
+		value_1 = "8 x 4",
 		id = 31245,
 		base = 31240,
 		is_siren = 0,
@@ -37930,7 +38056,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31246] = {
-		value_1 = "9 x 2",
+		value_1 = "9 x 4",
 		id = 31246,
 		base = 31240,
 		is_siren = 0,
@@ -37941,7 +38067,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31247] = {
-		value_1 = "10 x 2",
+		value_1 = "10 x 4",
 		id = 31247,
 		base = 31240,
 		is_siren = 0,
@@ -37952,7 +38078,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31248] = {
-		value_1 = "10 x 2",
+		value_1 = "10 x 4",
 		id = 31248,
 		base = 31240,
 		is_siren = 0,
@@ -37963,7 +38089,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31249] = {
-		value_1 = "11 x 2",
+		value_1 = "11 x 4",
 		id = 31249,
 		base = 31240,
 		is_siren = 0,
@@ -37974,7 +38100,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31250] = {
-		value_1 = "12 x 2",
+		value_1 = "12 x 4",
 		id = 31250,
 		base = 31240,
 		is_siren = 0,
@@ -59520,7 +59646,7 @@ pg.equip_data_statistics = {
 		name = "航空攻击展示-时乃空I",
 		type = 99,
 		nationality = 0,
-		speciality = "无",
+		speciality = "없음",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -59532,7 +59658,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		ammo = "无",
+		ammo = "없음",
 		descrip = "航母空袭展示用",
 		value_3 = 0,
 		id = 60431,
@@ -59574,7 +59700,7 @@ pg.equip_data_statistics = {
 		name = "航空攻击展示-紫咲诗音I",
 		type = 99,
 		nationality = 0,
-		speciality = "无",
+		speciality = "없음",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -59586,7 +59712,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		ammo = "无",
+		ammo = "없음",
 		descrip = "航母空袭展示用",
 		value_3 = 0,
 		id = 60441,
@@ -59628,7 +59754,7 @@ pg.equip_data_statistics = {
 		name = "航空攻击展示-大神澪I",
 		type = 99,
 		nationality = 0,
-		speciality = "无",
+		speciality = "없음",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -59640,7 +59766,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		ammo = "无",
+		ammo = "없음",
 		descrip = "航母空袭展示用",
 		value_3 = 0,
 		id = 60451,
@@ -59682,7 +59808,7 @@ pg.equip_data_statistics = {
 		name = "航空攻击展示-白上吹雪III",
 		type = 99,
 		nationality = 0,
-		speciality = "无",
+		speciality = "없음",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -59694,7 +59820,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		ammo = "无",
+		ammo = "없음",
 		descrip = "航母空袭展示用",
 		value_3 = 0,
 		id = 60461,
@@ -59714,7 +59840,7 @@ pg.equip_data_statistics = {
 		name = "航空攻击展示-龙凤I",
 		type = 99,
 		nationality = 0,
-		speciality = "无",
+		speciality = "없음",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -59726,7 +59852,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		ammo = "无",
+		ammo = "없음",
 		descrip = "航母空袭展示用",
 		value_3 = 0,
 		id = 60471,
@@ -62929,7 +63055,7 @@ pg.equip_data_statistics = {
 		nationality = 0,
 		rarity = 1,
 		tech = 1,
-		speciality = "无",
+		speciality = "없음",
 		base = 72251,
 		ambush_extra = 0,
 		value_2 = 0,
@@ -62940,7 +63066,7 @@ pg.equip_data_statistics = {
 		range = 0,
 		scatter = "0",
 		is_siren = 0,
-		ammo = "无",
+		ammo = "없음",
 		descrip = "技能弹幕",
 		value_3 = 0,
 		id = 72256,
@@ -63444,7 +63570,7 @@ pg.equip_data_statistics = {
 		name = "全弹发射-Type IXB型I",
 		type = 1,
 		nationality = 0,
-		speciality = "无",
+		speciality = "없음",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -63456,7 +63582,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		ammo = "无",
+		ammo = "없음",
 		descrip = "技能弹幕",
 		value_3 = 0,
 		id = 73321,
@@ -63824,6 +63950,135 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		weapon_id = {
 			75222
+		},
+		property_rate = {}
+	},
+	[76011] = {
+		name = "全弹发射-愤怒级I",
+		type = 1,
+		nationality = 0,
+		speciality = "없음",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		ammo = "없음",
+		descrip = "技能弹幕",
+		value_3 = 0,
+		id = 76011,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			76011
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[76012] = {
+		id = 76012,
+		name = "全弹发射-愤怒级II",
+		base = 76011,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			76012
+		},
+		property_rate = {}
+	},
+	[76021] = {
+		name = "全弹发射-明斯克级I",
+		type = 1,
+		nationality = 0,
+		speciality = "없음",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		ammo = "없음",
+		descrip = "技能弹幕",
+		value_3 = 0,
+		id = 76021,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			76021
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[76022] = {
+		id = 76022,
+		name = "全弹发射-明斯克级II",
+		base = 76021,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			76022
+		},
+		property_rate = {}
+	},
+	[76111] = {
+		name = "全弹发射-博加特里级I",
+		type = 1,
+		nationality = 0,
+		speciality = "없음",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		ammo = "없음",
+		descrip = "技能弹幕",
+		value_3 = 0,
+		id = 76111,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			76111
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[76112] = {
+		id = 76112,
+		name = "全弹发射-博加特里级II",
+		base = 76111,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			76112
 		},
 		property_rate = {}
 	},
@@ -65379,7 +65634,7 @@ pg.equip_data_statistics = {
 		name = "专属弹幕-天狼星I",
 		type = 1,
 		nationality = 0,
-		speciality = "无",
+		speciality = "없음",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -65391,7 +65646,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		ammo = "无",
+		ammo = "없음",
 		descrip = "技能弹幕",
 		value_3 = 0,
 		id = 79361,
@@ -65422,7 +65677,7 @@ pg.equip_data_statistics = {
 		name = "专属弹幕-I13I",
 		type = 1,
 		nationality = 0,
-		speciality = "无",
+		speciality = "없음",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -65434,7 +65689,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		ammo = "无",
+		ammo = "없음",
 		descrip = "技能弹幕",
 		value_3 = 0,
 		id = 79371,
@@ -65809,7 +66064,7 @@ pg.equip_data_statistics = {
 		name = "全弹发射-克利夫兰μI",
 		type = 1,
 		nationality = 0,
-		speciality = "无",
+		speciality = "없음",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -65821,7 +66076,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		ammo = "无",
+		ammo = "없음",
 		descrip = "技能弹幕",
 		value_3 = 0,
 		id = 79451,
@@ -65852,7 +66107,7 @@ pg.equip_data_statistics = {
 		name = "全弹发射-南安普顿μI",
 		type = 1,
 		nationality = 0,
-		speciality = "无",
+		speciality = "없음",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -65864,7 +66119,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		ammo = "无",
+		ammo = "없음",
 		descrip = "技能弹幕",
 		value_3 = 0,
 		id = 79461,
@@ -65895,7 +66150,7 @@ pg.equip_data_statistics = {
 		name = "全弹发射-希佩尔海军上将μI",
 		type = 1,
 		nationality = 0,
-		speciality = "无",
+		speciality = "없음",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -65907,7 +66162,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		ammo = "无",
+		ammo = "없음",
 		descrip = "技能弹幕",
 		value_3 = 0,
 		id = 79471,
@@ -65938,7 +66193,7 @@ pg.equip_data_statistics = {
 		name = "专属弹幕-能代I",
 		type = 1,
 		nationality = 0,
-		speciality = "无",
+		speciality = "없음",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -65950,7 +66205,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		ammo = "无",
+		ammo = "없음",
 		descrip = "技能弹幕",
 		value_3 = 0,
 		id = 79481,
@@ -65981,7 +66236,7 @@ pg.equip_data_statistics = {
 		name = "专属弹幕-黛朵I",
 		type = 1,
 		nationality = 0,
-		speciality = "无",
+		speciality = "없음",
 		range = 0,
 		angle = 0,
 		tech = 1,
@@ -65993,7 +66248,7 @@ pg.equip_data_statistics = {
 		rarity = 1,
 		is_siren = 0,
 		scatter = "0",
-		ammo = "无",
+		ammo = "없음",
 		descrip = "技能弹幕",
 		value_3 = 0,
 		id = 79491,
@@ -66017,6 +66272,2263 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		weapon_id = {
 			79492
+		},
+		property_rate = {}
+	},
+	[79501] = {
+		name = "专属弹幕-塔什干I",
+		type = 1,
+		nationality = 0,
+		speciality = "없음",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		ammo = "없음",
+		descrip = "技能弹幕",
+		value_3 = 0,
+		id = 79501,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			79501
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[79502] = {
+		id = 79502,
+		name = "专属弹幕-塔什干II",
+		base = 79501,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			79502
+		},
+		property_rate = {}
+	},
+	[79511] = {
+		name = "专属弹幕-恰巴耶夫I",
+		type = 1,
+		nationality = 0,
+		speciality = "없음",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		ammo = "없음",
+		descrip = "技能弹幕",
+		value_3 = 0,
+		id = 79511,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			79511
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[79512] = {
+		id = 79512,
+		name = "专属弹幕-恰巴耶夫II",
+		base = 79511,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			79512
+		},
+		property_rate = {}
+	},
+	[85000] = {
+		name = "B-13 연장 130mm 주포 B-2LM ",
+		type = 1,
+		id = 85000,
+		tech = 1,
+		speciality = "추적",
+		range = 55,
+		scatter = "12°",
+		ambush_extra = 0,
+		value_2 = 12,
+		icon = "85000",
+		value_1 = "3 x 6",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		rarity = 3,
+		angle = 200,
+		nationality = 7,
+		ammo = "통상탄",
+		is_siren = 0,
+		descrip = "노스 유니온이 개발한 연장 130mm 함포. 대 해양 성능이 뛰어나다. ",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			85000
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			4,
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		}
+	},
+	[85001] = {
+		value_1 = "3 x 6",
+		id = 85001,
+		base = 85000,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85001
+		},
+		property_rate = {}
+	},
+	[85002] = {
+		value_1 = "4 x 6",
+		id = 85002,
+		base = 85000,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85002
+		},
+		property_rate = {}
+	},
+	[85003] = {
+		value_1 = "4 x 6",
+		id = 85003,
+		base = 85000,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85003
+		},
+		property_rate = {}
+	},
+	[85004] = {
+		value_1 = "5 x 6",
+		id = 85004,
+		base = 85000,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85004
+		},
+		property_rate = {}
+	},
+	[85005] = {
+		value_1 = "6 x 6",
+		id = 85005,
+		base = 85000,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85005
+		},
+		property_rate = {}
+	},
+	[85006] = {
+		value_1 = "7 x 6",
+		id = 85006,
+		base = 85000,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85006
+		},
+		property_rate = {}
+	},
+	[85040] = {
+		name = "B-13 연장 130mm 주포 B-2LM ",
+		type = 1,
+		id = 85040,
+		tech = 3,
+		speciality = "추적",
+		range = 65,
+		scatter = "12°",
+		ambush_extra = 0,
+		value_2 = 35,
+		icon = "85000",
+		value_1 = "6 x 6",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		rarity = 5,
+		angle = 200,
+		nationality = 7,
+		ammo = "통상탄",
+		is_siren = 0,
+		descrip = "노스 유니온이 개발한 연장 130mm 함포. 대 해양 성능이 뛰어나다. ",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			85040
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			4,
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"DD",
+			"MG"
+		}
+	},
+	[85041] = {
+		value_1 = "6 x 6",
+		id = 85041,
+		base = 85040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85041
+		},
+		property_rate = {}
+	},
+	[85042] = {
+		value_1 = "7 x 6",
+		id = 85042,
+		base = 85040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85042
+		},
+		property_rate = {}
+	},
+	[85043] = {
+		value_1 = "8 x 6",
+		id = 85043,
+		base = 85040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85043
+		},
+		property_rate = {}
+	},
+	[85044] = {
+		value_1 = "9 x 6",
+		id = 85044,
+		base = 85040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85044
+		},
+		property_rate = {}
+	},
+	[85045] = {
+		value_1 = "10 x 6",
+		id = 85045,
+		base = 85040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85045
+		},
+		property_rate = {}
+	},
+	[85046] = {
+		value_1 = "11 x 6",
+		id = 85046,
+		base = 85040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85046
+		},
+		property_rate = {}
+	},
+	[85047] = {
+		value_1 = "12 x 6",
+		id = 85047,
+		base = 85040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85047
+		},
+		property_rate = {}
+	},
+	[85048] = {
+		value_1 = "13 x 6",
+		id = 85048,
+		base = 85040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85048
+		},
+		property_rate = {}
+	},
+	[85049] = {
+		value_1 = "14 x 6",
+		id = 85049,
+		base = 85040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85049
+		},
+		property_rate = {}
+	},
+	[85050] = {
+		value_1 = "15 x 6",
+		id = 85050,
+		base = 85040,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85050
+		},
+		property_rate = {}
+	},
+	[85060] = {
+		name = "연장 100mm대공포 SM-5-1s",
+		type = 6,
+		id = 85060,
+		tech = 1,
+		speciality = "대공",
+		range = 34,
+		scatter = "없음",
+		ambush_extra = 0,
+		value_2 = 12,
+		icon = "85060",
+		value_1 = "35/회",
+		attribute_2 = "antiaircraft",
+		avoid_extra = 0,
+		rarity = 3,
+		angle = 360,
+		nationality = 7,
+		ammo = "통상탄",
+		is_siren = 0,
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			85060
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
+	[85061] = {
+		value_1 = "40/회",
+		id = 85061,
+		base = 85060,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85061
+		},
+		property_rate = {}
+	},
+	[85062] = {
+		value_1 = "45/회",
+		id = 85062,
+		base = 85060,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85062
+		},
+		property_rate = {}
+	},
+	[85063] = {
+		value_1 = "51/회",
+		id = 85063,
+		base = 85060,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85063
+		},
+		property_rate = {}
+	},
+	[85064] = {
+		value_1 = "57/회",
+		id = 85064,
+		base = 85060,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85064
+		},
+		property_rate = {}
+	},
+	[85065] = {
+		value_1 = "63/회",
+		id = 85065,
+		base = 85060,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85065
+		},
+		property_rate = {}
+	},
+	[85066] = {
+		value_1 = "70/회",
+		id = 85066,
+		base = 85060,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85066
+		},
+		property_rate = {}
+	},
+	[85120] = {
+		name = "B-38 3연장 152mm 주포 MK5 ",
+		type = 2,
+		id = 85120,
+		tech = 1,
+		speciality = "추적",
+		range = 65,
+		scatter = "18°",
+		ambush_extra = 0,
+		value_2 = 12,
+		icon = "85120",
+		value_1 = "5 x 6",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		rarity = 3,
+		angle = 110,
+		nationality = 7,
+		ammo = "통상탄",
+		is_siren = 0,
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			85120
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"CL",
+			"MG"
+		}
+	},
+	[85121] = {
+		value_1 = "5 x 6",
+		id = 85121,
+		base = 85120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85121
+		},
+		property_rate = {}
+	},
+	[85122] = {
+		value_1 = "6 x 6",
+		id = 85122,
+		base = 85120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85122
+		},
+		property_rate = {}
+	},
+	[85123] = {
+		value_1 = "7 x 6",
+		id = 85123,
+		base = 85120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85123
+		},
+		property_rate = {}
+	},
+	[85124] = {
+		value_1 = "8 x 6",
+		id = 85124,
+		base = 85120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85124
+		},
+		property_rate = {}
+	},
+	[85125] = {
+		value_1 = "9 x 6",
+		id = 85125,
+		base = 85120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85125
+		},
+		property_rate = {}
+	},
+	[85126] = {
+		value_1 = "10 x 6",
+		id = 85126,
+		base = 85120,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85126
+		},
+		property_rate = {}
+	},
+	[85140] = {
+		name = "B-38 3연장 152mm 주포 MK5",
+		type = 2,
+		id = 85140,
+		tech = 2,
+		speciality = "추적",
+		range = 65,
+		scatter = "18°",
+		ambush_extra = 0,
+		value_2 = 25,
+		icon = "85120",
+		value_1 = "6 x 6",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		rarity = 4,
+		angle = 110,
+		nationality = 7,
+		ammo = "고폭탄",
+		is_siren = 0,
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		weapon_id = {
+			85140
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"CL",
+			"MG",
+			"HE"
+		}
+	},
+	[85141] = {
+		value_1 = "6 x 6",
+		id = 85141,
+		base = 85140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85141
+		},
+		property_rate = {}
+	},
+	[85142] = {
+		value_1 = "7 x 6",
+		id = 85142,
+		base = 85140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85142
+		},
+		property_rate = {}
+	},
+	[85143] = {
+		value_1 = "8 x 6",
+		id = 85143,
+		base = 85140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85143
+		},
+		property_rate = {}
+	},
+	[85144] = {
+		value_1 = "9 x 6",
+		id = 85144,
+		base = 85140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85144
+		},
+		property_rate = {}
+	},
+	[85145] = {
+		value_1 = "10 x 6",
+		id = 85145,
+		base = 85140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85145
+		},
+		property_rate = {}
+	},
+	[85146] = {
+		value_1 = "11 x 6",
+		id = 85146,
+		base = 85140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85146
+		},
+		property_rate = {}
+	},
+	[85147] = {
+		value_1 = "12 x 6",
+		id = 85147,
+		base = 85140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85147
+		},
+		property_rate = {}
+	},
+	[85148] = {
+		value_1 = "13 x 6",
+		id = 85148,
+		base = 85140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85148
+		},
+		property_rate = {}
+	},
+	[85149] = {
+		value_1 = "14 x 6",
+		id = 85149,
+		base = 85140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85149
+		},
+		property_rate = {}
+	},
+	[85150] = {
+		value_1 = "15 x 6",
+		id = 85150,
+		base = 85140,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85150
+		},
+		property_rate = {}
+	},
+	[85160] = {
+		name = "B-38 3연장 152mm 주포 MK5",
+		type = 2,
+		id = 85160,
+		tech = 3,
+		speciality = "추적",
+		range = 65,
+		scatter = "18°",
+		ambush_extra = 0,
+		value_2 = 45,
+		icon = "85120",
+		value_1 = "7 x 6",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		rarity = 5,
+		angle = 110,
+		nationality = 7,
+		ammo = "고폭탄",
+		is_siren = 0,
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		weapon_id = {
+			85160
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"CL",
+			"MG",
+			"HE"
+		}
+	},
+	[85161] = {
+		value_1 = "7 x 6",
+		id = 85161,
+		base = 85160,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85161
+		},
+		property_rate = {}
+	},
+	[85162] = {
+		value_1 = "8 x 6",
+		id = 85162,
+		base = 85160,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85162
+		},
+		property_rate = {}
+	},
+	[85163] = {
+		value_1 = "9 x 6",
+		id = 85163,
+		base = 85160,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85163
+		},
+		property_rate = {}
+	},
+	[85164] = {
+		value_1 = "10 x 6",
+		id = 85164,
+		base = 85160,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85164
+		},
+		property_rate = {}
+	},
+	[85165] = {
+		value_1 = "11 x 6",
+		id = 85165,
+		base = 85160,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85165
+		},
+		property_rate = {}
+	},
+	[85166] = {
+		value_1 = "12 x 6",
+		id = 85166,
+		base = 85160,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85166
+		},
+		property_rate = {}
+	},
+	[85167] = {
+		value_1 = "13 x 6",
+		id = 85167,
+		base = 85160,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85167
+		},
+		property_rate = {}
+	},
+	[85168] = {
+		value_1 = "14 x 6",
+		id = 85168,
+		base = 85160,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85168
+		},
+		property_rate = {}
+	},
+	[85169] = {
+		value_1 = "15 x 6",
+		id = 85169,
+		base = 85160,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85169
+		},
+		property_rate = {}
+	},
+	[85170] = {
+		value_1 = "16 x 6",
+		id = 85170,
+		base = 85160,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85170
+		},
+		property_rate = {}
+	},
+	[85180] = {
+		name = "37mm대공炮70-K",
+		type = 6,
+		id = 85180,
+		tech = 1,
+		speciality = "대공",
+		range = 26,
+		scatter = "없음",
+		ambush_extra = 0,
+		value_2 = 5,
+		icon = "85180",
+		value_1 = "9/회",
+		attribute_2 = "antiaircraft",
+		avoid_extra = 0,
+		rarity = 2,
+		angle = 360,
+		nationality = 7,
+		ammo = "통상탄",
+		is_siren = 0,
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			85180
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
+	[85181] = {
+		value_1 = "11/회",
+		id = 85181,
+		base = 85180,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85181
+		},
+		property_rate = {}
+	},
+	[85182] = {
+		value_1 = "13/회",
+		id = 85182,
+		base = 85180,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85182
+		},
+		property_rate = {}
+	},
+	[85183] = {
+		value_1 = "16/회",
+		id = 85183,
+		base = 85180,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85183
+		},
+		property_rate = {}
+	},
+	[85200] = {
+		name = "37mm대공炮70-K",
+		type = 6,
+		id = 85200,
+		tech = 2,
+		speciality = "대공",
+		range = 26,
+		scatter = "없음",
+		ambush_extra = 0,
+		value_2 = 12,
+		icon = "85180",
+		value_1 = "11/회",
+		attribute_2 = "antiaircraft",
+		avoid_extra = 0,
+		rarity = 3,
+		angle = 360,
+		nationality = 7,
+		ammo = "통상탄",
+		is_siren = 0,
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			85200
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
+	[85201] = {
+		value_1 = "13/회",
+		id = 85201,
+		base = 85200,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85201
+		},
+		property_rate = {}
+	},
+	[85202] = {
+		value_1 = "16/회",
+		id = 85202,
+		base = 85200,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85202
+		},
+		property_rate = {}
+	},
+	[85203] = {
+		value_1 = "19/회",
+		id = 85203,
+		base = 85200,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85203
+		},
+		property_rate = {}
+	},
+	[85204] = {
+		value_1 = "22/회",
+		id = 85204,
+		base = 85200,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85204
+		},
+		property_rate = {}
+	},
+	[85205] = {
+		value_1 = "25/회",
+		id = 85205,
+		base = 85200,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85205
+		},
+		property_rate = {}
+	},
+	[85206] = {
+		value_1 = "28/회",
+		id = 85206,
+		base = 85200,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85206
+		},
+		property_rate = {}
+	},
+	[85220] = {
+		name = "37mm대공炮70-K",
+		type = 6,
+		id = 85220,
+		tech = 3,
+		speciality = "대공",
+		range = 26,
+		scatter = "없음",
+		ambush_extra = 0,
+		value_2 = 25,
+		icon = "85180",
+		value_1 = "14/회",
+		attribute_2 = "antiaircraft",
+		avoid_extra = 0,
+		rarity = 4,
+		angle = 360,
+		nationality = 7,
+		ammo = "통상탄",
+		is_siren = 0,
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			85220
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
+	[85221] = {
+		value_1 = "17/회",
+		id = 85221,
+		base = 85220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85221
+		},
+		property_rate = {}
+	},
+	[85222] = {
+		value_1 = "20/회",
+		id = 85222,
+		base = 85220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85222
+		},
+		property_rate = {}
+	},
+	[85223] = {
+		value_1 = "23/회",
+		id = 85223,
+		base = 85220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85223
+		},
+		property_rate = {}
+	},
+	[85224] = {
+		value_1 = "26/회",
+		id = 85224,
+		base = 85220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85224
+		},
+		property_rate = {}
+	},
+	[85225] = {
+		value_1 = "29/회",
+		id = 85225,
+		base = 85220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85225
+		},
+		property_rate = {}
+	},
+	[85226] = {
+		value_1 = "32/회",
+		id = 85226,
+		base = 85220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85226
+		},
+		property_rate = {}
+	},
+	[85227] = {
+		value_1 = "35/회",
+		id = 85227,
+		base = 85220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85227
+		},
+		property_rate = {}
+	},
+	[85228] = {
+		value_1 = "38/회",
+		id = 85228,
+		base = 85220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85228
+		},
+		property_rate = {}
+	},
+	[85229] = {
+		value_1 = "41/회",
+		id = 85229,
+		base = 85220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85229
+		},
+		property_rate = {}
+	},
+	[85230] = {
+		value_1 = "44/회",
+		id = 85230,
+		base = 85220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85230
+		},
+		property_rate = {}
+	},
+	[85260] = {
+		name = "B-54 100mm 연장 대공포 ",
+		type = 6,
+		id = 85260,
+		tech = 2,
+		speciality = "대공",
+		range = 32,
+		scatter = "없음",
+		ambush_extra = 0,
+		value_2 = 12,
+		icon = "85240",
+		value_1 = "36/회",
+		attribute_2 = "antiaircraft",
+		avoid_extra = 0,
+		rarity = 3,
+		angle = 360,
+		nationality = 7,
+		ammo = "통상탄",
+		is_siren = 0,
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			85260
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
+	[85261] = {
+		value_1 = "41/회",
+		id = 85261,
+		base = 85260,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85261
+		},
+		property_rate = {}
+	},
+	[85262] = {
+		value_1 = "47/회",
+		id = 85262,
+		base = 85260,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85262
+		},
+		property_rate = {}
+	},
+	[85263] = {
+		value_1 = "52/회",
+		id = 85263,
+		base = 85260,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85263
+		},
+		property_rate = {}
+	},
+	[85264] = {
+		value_1 = "59/회",
+		id = 85264,
+		base = 85260,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85264
+		},
+		property_rate = {}
+	},
+	[85265] = {
+		value_1 = "66/회",
+		id = 85265,
+		base = 85260,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85265
+		},
+		property_rate = {}
+	},
+	[85266] = {
+		value_1 = "73/회",
+		id = 85266,
+		base = 85260,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85266
+		},
+		property_rate = {}
+	},
+	[85280] = {
+		name = "B-54 100mm 연장 대공포 ",
+		type = 6,
+		id = 85280,
+		tech = 3,
+		speciality = "대공",
+		range = 32,
+		scatter = "없음",
+		ambush_extra = 0,
+		value_2 = 25,
+		icon = "85240",
+		value_1 = "43/회",
+		attribute_2 = "antiaircraft",
+		avoid_extra = 0,
+		rarity = 4,
+		angle = 360,
+		nationality = 7,
+		ammo = "통상탄",
+		is_siren = 0,
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			85280
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
+	[85281] = {
+		value_1 = "48/회",
+		id = 85281,
+		base = 85280,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85281
+		},
+		property_rate = {}
+	},
+	[85282] = {
+		value_1 = "54/회",
+		id = 85282,
+		base = 85280,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85282
+		},
+		property_rate = {}
+	},
+	[85283] = {
+		value_1 = "61/회",
+		id = 85283,
+		base = 85280,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85283
+		},
+		property_rate = {}
+	},
+	[85284] = {
+		value_1 = "68/회",
+		id = 85284,
+		base = 85280,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85284
+		},
+		property_rate = {}
+	},
+	[85285] = {
+		value_1 = "75/회",
+		id = 85285,
+		base = 85280,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85285
+		},
+		property_rate = {}
+	},
+	[85286] = {
+		value_1 = "82/회",
+		id = 85286,
+		base = 85280,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85286
+		},
+		property_rate = {}
+	},
+	[85287] = {
+		value_1 = "89/회",
+		id = 85287,
+		base = 85280,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85287
+		},
+		property_rate = {}
+	},
+	[85288] = {
+		value_1 = "96/회",
+		id = 85288,
+		base = 85280,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85288
+		},
+		property_rate = {}
+	},
+	[85289] = {
+		value_1 = "103/회",
+		id = 85289,
+		base = 85280,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85289
+		},
+		property_rate = {}
+	},
+	[85290] = {
+		value_1 = "110/회",
+		id = 85290,
+		base = 85280,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85290
+		},
+		property_rate = {}
+	},
+	[85300] = {
+		name = "B-37 3연장 406mm 주포 MK-1 ",
+		type = 4,
+		id = 85300,
+		tech = 1,
+		speciality = "투사",
+		range = 200,
+		scatter = "22",
+		ambush_extra = 0,
+		value_2 = 12,
+		icon = "85300",
+		value_1 = "50 x 3",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		rarity = 3,
+		angle = 50,
+		nationality = 7,
+		ammo = "통상탄",
+		is_siren = 0,
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			85300
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"BB",
+			"MG"
+		}
+	},
+	[85301] = {
+		value_1 = "59 x 3",
+		id = 85301,
+		base = 85300,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85301
+		},
+		property_rate = {}
+	},
+	[85302] = {
+		value_1 = "67 x 3",
+		id = 85302,
+		base = 85300,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85302
+		},
+		property_rate = {}
+	},
+	[85303] = {
+		value_1 = "76 x 3",
+		id = 85303,
+		base = 85300,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85303
+		},
+		property_rate = {}
+	},
+	[85304] = {
+		value_1 = "84 x 3",
+		id = 85304,
+		base = 85300,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85304
+		},
+		property_rate = {}
+	},
+	[85305] = {
+		value_1 = "92 x 3",
+		id = 85305,
+		base = 85300,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85305
+		},
+		property_rate = {}
+	},
+	[85306] = {
+		value_1 = "101 x 3",
+		id = 85306,
+		base = 85300,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85306
+		},
+		property_rate = {}
+	},
+	[85320] = {
+		name = "B-37 3연장 406mm 주포 MK-1 ",
+		type = 4,
+		id = 85320,
+		tech = 2,
+		speciality = "투사",
+		range = 200,
+		scatter = "22",
+		ambush_extra = 0,
+		value_2 = 25,
+		icon = "85300",
+		value_1 = "56 x 3",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		rarity = 4,
+		angle = 50,
+		nationality = 7,
+		ammo = "통상탄",
+		is_siren = 0,
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			85320
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"BB",
+			"MG",
+			"AP"
+		}
+	},
+	[85321] = {
+		value_1 = "65 x 3",
+		id = 85321,
+		base = 85320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85321
+		},
+		property_rate = {}
+	},
+	[85322] = {
+		value_1 = "73 x 3",
+		id = 85322,
+		base = 85320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85322
+		},
+		property_rate = {}
+	},
+	[85323] = {
+		value_1 = "83 x 3",
+		id = 85323,
+		base = 85320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85323
+		},
+		property_rate = {}
+	},
+	[85324] = {
+		value_1 = "92 x 3",
+		id = 85324,
+		base = 85320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85324
+		},
+		property_rate = {}
+	},
+	[85325] = {
+		value_1 = "102 x 3",
+		id = 85325,
+		base = 85320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85325
+		},
+		property_rate = {}
+	},
+	[85326] = {
+		value_1 = "112 x 3",
+		id = 85326,
+		base = 85320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85326
+		},
+		property_rate = {}
+	},
+	[85327] = {
+		value_1 = "120 x 3",
+		id = 85327,
+		base = 85320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85327
+		},
+		property_rate = {}
+	},
+	[85328] = {
+		value_1 = "129 x 3",
+		id = 85328,
+		base = 85320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85328
+		},
+		property_rate = {}
+	},
+	[85329] = {
+		value_1 = "139 x 3",
+		id = 85329,
+		base = 85320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85329
+		},
+		property_rate = {}
+	},
+	[85330] = {
+		value_1 = "149 x 3",
+		id = 85330,
+		base = 85320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85330
+		},
+		property_rate = {}
+	},
+	[85360] = {
+		name = "B-34 100mm 연장 대공포 MZ-14 ",
+		type = 6,
+		id = 85360,
+		tech = 1,
+		speciality = "대공",
+		range = 33,
+		scatter = "없음",
+		ambush_extra = 0,
+		value_2 = 5,
+		icon = "85360",
+		value_1 = "14/회",
+		attribute_2 = "antiaircraft",
+		avoid_extra = 0,
+		rarity = 2,
+		angle = 360,
+		nationality = 7,
+		ammo = "통상탄",
+		is_siren = 0,
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			85360
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
+	[85361] = {
+		value_1 = "16/회",
+		id = 85361,
+		base = 85360,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85361
+		},
+		property_rate = {}
+	},
+	[85362] = {
+		value_1 = "19/회",
+		id = 85362,
+		base = 85360,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85362
+		},
+		property_rate = {}
+	},
+	[85363] = {
+		value_1 = "22/회",
+		id = 85363,
+		base = 85360,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85363
+		},
+		property_rate = {}
+	},
+	[85380] = {
+		name = "B-34 100mm 연장 대공포 MZ-14 ",
+		type = 6,
+		id = 85380,
+		tech = 2,
+		speciality = "대공",
+		range = 33,
+		scatter = "없음",
+		ambush_extra = 0,
+		value_2 = 12,
+		icon = "85360",
+		value_1 = "33/회",
+		attribute_2 = "antiaircraft",
+		avoid_extra = 0,
+		rarity = 3,
+		angle = 360,
+		nationality = 7,
+		ammo = "통상탄",
+		is_siren = 0,
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			85380
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
+	[85381] = {
+		value_1 = "36/회",
+		id = 85381,
+		base = 85380,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85381
+		},
+		property_rate = {}
+	},
+	[85382] = {
+		value_1 = "41/회",
+		id = 85382,
+		base = 85380,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85382
+		},
+		property_rate = {}
+	},
+	[85383] = {
+		value_1 = "45/회",
+		id = 85383,
+		base = 85380,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85383
+		},
+		property_rate = {}
+	},
+	[85384] = {
+		value_1 = "51/회",
+		id = 85384,
+		base = 85380,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85384
+		},
+		property_rate = {}
+	},
+	[85385] = {
+		value_1 = "57/회",
+		id = 85385,
+		base = 85380,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85385
+		},
+		property_rate = {}
+	},
+	[85386] = {
+		value_1 = "64/회",
+		id = 85386,
+		base = 85380,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85386
+		},
+		property_rate = {}
+	},
+	[85400] = {
+		name = "B-34 100mm 연장 대공포 MZ-14 ",
+		type = 6,
+		id = 85400,
+		tech = 3,
+		speciality = "대공",
+		range = 33,
+		scatter = "없음",
+		ambush_extra = 0,
+		value_2 = 25,
+		icon = "85360",
+		value_1 = "38/회",
+		attribute_2 = "antiaircraft",
+		avoid_extra = 0,
+		rarity = 4,
+		angle = 360,
+		nationality = 7,
+		ammo = "통상탄",
+		is_siren = 0,
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			85400
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"ST",
+			"AA"
+		}
+	},
+	[85401] = {
+		value_1 = "42/회",
+		id = 85401,
+		base = 85400,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85401
+		},
+		property_rate = {}
+	},
+	[85402] = {
+		value_1 = "47/회",
+		id = 85402,
+		base = 85400,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85402
+		},
+		property_rate = {}
+	},
+	[85403] = {
+		value_1 = "53/회",
+		id = 85403,
+		base = 85400,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85403
+		},
+		property_rate = {}
+	},
+	[85404] = {
+		value_1 = "59/회",
+		id = 85404,
+		base = 85400,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85404
+		},
+		property_rate = {}
+	},
+	[85405] = {
+		value_1 = "65/회",
+		id = 85405,
+		base = 85400,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85405
+		},
+		property_rate = {}
+	},
+	[85406] = {
+		value_1 = "71/회",
+		id = 85406,
+		base = 85400,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85406
+		},
+		property_rate = {}
+	},
+	[85407] = {
+		value_1 = "77/회",
+		id = 85407,
+		base = 85400,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85407
+		},
+		property_rate = {}
+	},
+	[85408] = {
+		value_1 = "83/회",
+		id = 85408,
+		base = 85400,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85408
+		},
+		property_rate = {}
+	},
+	[85409] = {
+		value_1 = "89/회",
+		id = 85409,
+		base = 85400,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85409
+		},
+		property_rate = {}
+	},
+	[85410] = {
+		value_1 = "96/회",
+		id = 85410,
+		base = 85400,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85410
+		},
+		property_rate = {}
+	},
+	[85420] = {
+		name = "3연장 305mm 주포 Model1907 ",
+		type = 4,
+		id = 85420,
+		tech = 0,
+		speciality = "투사",
+		range = 200,
+		scatter = "20",
+		ambush_extra = 0,
+		value_2 = 12,
+		icon = "85420",
+		value_1 = "54 x 3",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		rarity = 3,
+		angle = 50,
+		nationality = 7,
+		ammo = "고폭탄",
+		is_siren = 0,
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		weapon_id = {
+			85420
+		},
+		skill_id = {},
+		part_main = {
+			4,
+			5
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"BB",
+			"MG",
+			"GangutMG"
+		}
+	},
+	[85421] = {
+		value_1 = "59 x 3",
+		id = 85421,
+		base = 85420,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85421
+		},
+		property_rate = {}
+	},
+	[85422] = {
+		value_1 = "64 x 3",
+		id = 85422,
+		base = 85420,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85422
+		},
+		property_rate = {}
+	},
+	[85423] = {
+		value_1 = "70 x 3",
+		id = 85423,
+		base = 85420,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85423
+		},
+		property_rate = {}
+	},
+	[85424] = {
+		value_1 = "76 x 3",
+		id = 85424,
+		base = 85420,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85424
+		},
+		property_rate = {}
+	},
+	[85425] = {
+		value_1 = "84 x 3",
+		id = 85425,
+		base = 85420,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85425
+		},
+		property_rate = {}
+	},
+	[85426] = {
+		value_1 = "92 x 3",
+		id = 85426,
+		base = 85420,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85426
+		},
+		property_rate = {}
+	},
+	[85440] = {
+		name = "연장 152mm 주포 Model1892 ",
+		type = 2,
+		id = 85440,
+		tech = 3,
+		speciality = "추적",
+		range = 60,
+		scatter = "28°",
+		ambush_extra = 0,
+		value_2 = 12,
+		icon = "85440",
+		value_1 = "8 x 4",
+		attribute_2 = "cannon",
+		avoid_extra = 0,
+		rarity = 3,
+		angle = 120,
+		nationality = 7,
+		ammo = "통상탄",
+		is_siren = 0,
+		descrip = "说明未填写",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			85440
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"SN",
+			"CL",
+			"MG"
+		}
+	},
+	[85441] = {
+		value_1 = "9 x 4",
+		id = 85441,
+		base = 85440,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85441
+		},
+		property_rate = {}
+	},
+	[85442] = {
+		value_1 = "10 x 4",
+		id = 85442,
+		base = 85440,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85442
+		},
+		property_rate = {}
+	},
+	[85443] = {
+		value_1 = "11 x 4",
+		id = 85443,
+		base = 85440,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85443
+		},
+		property_rate = {}
+	},
+	[85444] = {
+		value_1 = "12 x 4",
+		id = 85444,
+		base = 85440,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85444
+		},
+		property_rate = {}
+	},
+	[85445] = {
+		value_1 = "13 x 4",
+		id = 85445,
+		base = 85440,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85445
+		},
+		property_rate = {}
+	},
+	[85446] = {
+		value_1 = "14 x 4",
+		id = 85446,
+		base = 85440,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			85446
 		},
 		property_rate = {}
 	},
@@ -71813,6 +74325,17 @@ pg.equip_data_statistics = {
 		768,
 		769,
 		770,
+		780,
+		781,
+		782,
+		783,
+		784,
+		785,
+		786,
+		787,
+		788,
+		789,
+		790,
 		1000,
 		1001,
 		1002,
@@ -75808,6 +78331,12 @@ pg.equip_data_statistics = {
 		75212,
 		75221,
 		75222,
+		76011,
+		76012,
+		76021,
+		76022,
+		76111,
+		76112,
 		78011,
 		78012,
 		78021,
@@ -75910,6 +78439,158 @@ pg.equip_data_statistics = {
 		79482,
 		79491,
 		79492,
+		79501,
+		79502,
+		79511,
+		79512,
+		85000,
+		85001,
+		85002,
+		85003,
+		85004,
+		85005,
+		85006,
+		85040,
+		85041,
+		85042,
+		85043,
+		85044,
+		85045,
+		85046,
+		85047,
+		85048,
+		85049,
+		85050,
+		85060,
+		85061,
+		85062,
+		85063,
+		85064,
+		85065,
+		85066,
+		85120,
+		85121,
+		85122,
+		85123,
+		85124,
+		85125,
+		85126,
+		85140,
+		85141,
+		85142,
+		85143,
+		85144,
+		85145,
+		85146,
+		85147,
+		85148,
+		85149,
+		85150,
+		85160,
+		85161,
+		85162,
+		85163,
+		85164,
+		85165,
+		85166,
+		85167,
+		85168,
+		85169,
+		85170,
+		85180,
+		85181,
+		85182,
+		85183,
+		85200,
+		85201,
+		85202,
+		85203,
+		85204,
+		85205,
+		85206,
+		85220,
+		85221,
+		85222,
+		85223,
+		85224,
+		85225,
+		85226,
+		85227,
+		85228,
+		85229,
+		85230,
+		85260,
+		85261,
+		85262,
+		85263,
+		85264,
+		85265,
+		85266,
+		85280,
+		85281,
+		85282,
+		85283,
+		85284,
+		85285,
+		85286,
+		85287,
+		85288,
+		85289,
+		85290,
+		85300,
+		85301,
+		85302,
+		85303,
+		85304,
+		85305,
+		85306,
+		85320,
+		85321,
+		85322,
+		85323,
+		85324,
+		85325,
+		85326,
+		85327,
+		85328,
+		85329,
+		85330,
+		85360,
+		85361,
+		85362,
+		85363,
+		85380,
+		85381,
+		85382,
+		85383,
+		85384,
+		85385,
+		85386,
+		85400,
+		85401,
+		85402,
+		85403,
+		85404,
+		85405,
+		85406,
+		85407,
+		85408,
+		85409,
+		85410,
+		85420,
+		85421,
+		85422,
+		85423,
+		85424,
+		85425,
+		85426,
+		85440,
+		85441,
+		85442,
+		85443,
+		85444,
+		85445,
+		85446,
 		89000,
 		89001,
 		89002,

@@ -13,6 +13,8 @@ function slot0.execute(slot0, slot1)
 		slot4:shipHarvest(BackyardBoatVO.New(slot5))
 	elseif slot3 == BACKYARD.CANCEL_BOAT_MOVE then
 		slot4:cancelShipMove(slot2.id)
+	elseif slot3 == BACKYARD.RESET_BOAT_POS then
+		slot4:ResetShipPos(slot2.id)
 	elseif slot3 == BACKYARD.END_DRAG_BOAT then
 		slot5 = slot2.id
 

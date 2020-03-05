@@ -4369,6 +4369,489 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[220] = {
+		icon = "92011",
+		bullet_name = "zidan_shoukao",
+		name = "수갑 포탄",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "움직이지 마! 가만히 있어!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 17,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 220,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[221] = {
+		icon = "92012",
+		bullet_name = "zidan_tieqiu",
+		name = "쇠공 포탄",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "포탄이지만 장난치는 건 아니야",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 17,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 221,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[222] = {
+		icon = "92013",
+		bullet_name = "zidan_bingkuai",
+		name = "얼음 포탄",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "냉혹하고 무정하니 맞아도 아프다는 말은 할 필요가 없다",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 17,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 222,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[223] = {
+		icon = "92014",
+		bullet_name = "paodan_chuizi",
+		name = "철퇴 포탄",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "노스 유니온산 정의의 철퇴를 받아라!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 17,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 223,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[224] = {
+		icon = "92015",
+		bullet_name = "paodan_liandao",
+		name = "낫 포탄",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "노스 유니온산 정의의 낫을 받아라!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 17,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 224,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[225] = {
+		icon = "92016",
+		bullet_name = "paodan_kongjianzhan",
+		name = "우주 정거장 포탄",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "우주 정거장과 위성은 모두 그냥 버리면 안 돼",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 17,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 225,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[226] = {
+		icon = "92021",
+		bullet_name = "yulei_futejia",
+		name = "어뢰 「Водка」",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "노스 유니온의 맛을 보라고!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 17,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 226,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[227] = {
+		icon = "92022",
+		bullet_name = "yulei_dongyumi",
+		name = "얼음 옥수수 어뢰",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "꽁꽁 언 옥수수의 살상력은 2배!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 17,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 227,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[228] = {
+		icon = "92023",
+		bullet_name = "yulei_dongtudou",
+		name = "얼음 감자 어뢰",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "노스 유니온 산맥의 특산품 감자——를 본따 만든 어뢰",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 17,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 228,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[229] = {
+		icon = "92031",
+		bullet_name = "feiji_yujing",
+		name = "추적자 만쥬",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "「반드시 잡고 말겠어! 쥬!」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 17,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 229,
+		derivate_torpedo = "yulei_dongtudou",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[230] = {
+		icon = "92031",
+		bullet_name = "feiji_yujing",
+		name = "추적자 만쥬",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "「반드시 잡고 말겠어! 쥬!」",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_shoukao",
+		themeid = 17,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 230,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[231] = {
+		icon = "92031",
+		bullet_name = "feiji_yujing",
+		name = "추적자 만쥬",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "「반드시 잡고 말겠어! 쥬!」",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_shoukao",
+		themeid = 17,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 231,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[232] = {
+		icon = "92032",
+		bullet_name = "feiji_taoyu",
+		name = "도망자 만쥬",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "「순순히 잡혀줄 줄 알고! 쥬!」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 17,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 232,
+		derivate_torpedo = "yulei_futejia",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[233] = {
+		icon = "92032",
+		bullet_name = "feiji_taoyu",
+		name = "도망자 만쥬",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "「순순히 잡혀줄 줄 알고! 쥬!」",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_tieqiu",
+		themeid = 17,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 233,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[234] = {
+		icon = "92032",
+		bullet_name = "feiji_taoyu",
+		name = "도망자 만쥬",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "「순순히 잡혀줄 줄 알고! 쥬!」",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_tieqiu",
+		themeid = 17,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 234,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[235] = {
+		icon = "92033",
+		bullet_name = "feiji_maoxiong",
+		name = "베어 만쥬",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "「Ура! Ура! Ура! 우리는 무적! 쥬!」",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 17,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 235,
+		derivate_torpedo = "yulei_dongyumi",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[236] = {
+		icon = "92033",
+		bullet_name = "feiji_maoxiong",
+		name = "베어 만쥬",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "「Ура! Ура! Ура! 우리는 무적! 쥬!」",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_bingkuai",
+		themeid = 17,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 236,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[237] = {
+		icon = "92033",
+		bullet_name = "feiji_maoxiong",
+		name = "베어 만쥬",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "「Ура! Ура! Ура! 우리는 무적! 쥬!」",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_bingkuai",
+		themeid = 17,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 237,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		icon = "90640",
 		bullet_name = "Nep_bullet_shizi",
@@ -5933,6 +6416,24 @@ pg.equip_skin_template = {
 		215,
 		216,
 		217,
+		220,
+		221,
+		222,
+		223,
+		224,
+		225,
+		226,
+		227,
+		228,
+		229,
+		230,
+		231,
+		232,
+		233,
+		234,
+		235,
+		236,
+		237,
 		1001,
 		1002,
 		1003,

@@ -2024,4 +2024,37 @@ function slot0.GetSkinBgm(slot0)
 	end
 end
 
+function slot0.isIntensifyMax(slot0)
+	slot1 = intProperties(slot0:getShipProperties())
+
+	if slot0:isBluePrintShip() then
+		return true
+	end
+
+	for slot5, slot6 in pairs(ShipModAttr.ID_TO_ATTR) do
+		if slot0:getModAttrBaseMax(slot6) ~= slot1[slot6] then
+			return false
+		end
+	end
+
+	return true
+end
+
+function slot0.isRemouldable(slot0)
+	return not slot0:isTestShip() and not slot0:isBluePrintShip() and pg.ship_data_trans[slot0.groupId]
+end
+
+function slot0.hasAvailiableSkin(slot0)
+	slot2 = getProxy(ShipSkinProxy):getSkinList()
+	slot3 = 0
+
+	for slot7, slot8 in ipairs(slot1) do
+		if slot0:proposeSkinOwned(slot8) or table.contains(slot2, slot8.id) then
+			slot3 = slot3 + 1
+		end
+	end
+
+	return slot3 > 0
+end
+
 return slot0

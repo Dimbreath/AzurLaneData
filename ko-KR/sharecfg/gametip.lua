@@ -7621,7 +7621,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "activity_switch_award_pool_failed"
 	},
 	shop_street_activity_tip = {
-		tip = "·이벤트 기간(<color=#A1E400FF>2019.12.26-2020.01.08</COLOR>)에는 갱신 시마다\n반드시 <color=#A1E400FF>장비 스킨 상자</COLOR>가 출현합니다.",
+		tip = "·이벤트 기간(<color=#A1E400FF>2020.03.05-2020.03.18</COLOR>)에는 갱신 시마다\n반드시 <color=#A1E400FF>장비 스킨 상자</COLOR>가 출현합니다.",
 		key = "shop_street_activity_tip"
 	},
 	twitter_link_title = {
@@ -8878,7 +8878,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "{namecode:175}、{namecode:179}、카스미 출현 확률UP！",
+		tip = "타슈켄트、소비에츠카야 러시아 등 캐릭터 출현 확률UP！ ",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -12315,6 +12315,92 @@ TIPS:
 	LinkLinkGame_CurTime = {
 		tip = "소요 시간:",
 		key = "LinkLinkGame_CurTime"
+	},
+	sort_attribute = {
+		tip = "스탯",
+		key = "sort_attribute"
+	},
+	sort_intimacy = {
+		tip = "호감도",
+		key = "sort_intimacy"
+	},
+	index_skin = {
+		tip = "스킨 교체 가능",
+		key = "index_skin"
+	},
+	index_reform = {
+		tip = "개조 가능",
+		key = "index_reform"
+	},
+	index_strengthen = {
+		tip = "강화 가능",
+		key = "index_strengthen"
+	},
+	decodegame_gametip = {
+		key = "decodegame_gametip",
+		tip = {
+			{
+				info = [[
+이벤트 소개:
+ 1. 이벤트 기간 동안 「정보 PT」 <color=#92fc63>200P</color> 획득 시 1 정
+보 포인트를 획득합니다. 최대 60P까지 획득할 수 있습니다.
+ 2. 정보 페이지를 터치해 해독할 때마다 1P가 소모됩니
+다.
+ 3. 정보를 일정 횟수 해독하면 보상을 획득합니다:
+ 10회: 물자*1000
+ 20회: 범용 개조 부품 T3*5
+ 30회: 연료*1000
+ 40회: 공격 교본 T3*2
+ 50회: 랜덤 개조 도면 T3*2
+ 60회: 지원 교본 T3*2 
+ 4. 정보 페이지 3장을 모두 해독하면 암호 페이지 버튼이 
+활성화 됩니다. 페이지 를 터치해 해제할 수 있으며, 다시 정보 
+페이지를 터치하면 비교 할 수 있습니다. 비교 후 각 정보 
+페이지마다 3개의 암호를 획득할 수 있습니다. 암호가
+있는 셀을 터치해 암호를 입력할 수 있고, <color=#92fc63>9자리 암호를 모두 
+정확히 입력하면 최종 보상을 획득합니다.</color>
+5. 9자리 암호는 3개가 1세트로, 같은 정보 페이지에서 획득할 
+수 있습니다.
+6. 암호를 잘못 입력하면 좌측에 빨간불이 들어옵니다. 정확한 
+암호를 입력하면 우측에 초록불이 들어오고 암호가 확정됩니다.]]
+			}
+		}
+	},
+	indexsort_sort = {
+		tip = "정렬",
+		key = "indexsort_sort"
+	},
+	indexsort_index = {
+		tip = "색인",
+		key = "indexsort_index"
+	},
+	indexsort_camp = {
+		tip = "진영",
+		key = "indexsort_camp"
+	},
+	indexsort_rarity = {
+		tip = "레어도",
+		key = "indexsort_rarity"
+	},
+	indexsort_extraindex = {
+		tip = "추가 색인",
+		key = "indexsort_extraindex"
+	},
+	indexsort_sorteng = {
+		tip = "SORT",
+		key = "indexsort_sorteng"
+	},
+	indexsort_indexeng = {
+		tip = "INDEX",
+		key = "indexsort_indexeng"
+	},
+	indexsort_campeng = {
+		tip = "CAMP",
+		key = "indexsort_campeng"
+	},
+	indexsort_rarityeng = {
+		tip = "RARITY",
+		key = "indexsort_rarityeng"
 	}
 }
 
