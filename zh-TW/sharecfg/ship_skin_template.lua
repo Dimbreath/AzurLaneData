@@ -7757,7 +7757,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[103061] = {
-		name = "與印地一起的校園生活",
+		name = "與印第一起的校園生活",
 		ship_group = 10306,
 		group_index = 1,
 		illustrator2 = -1,

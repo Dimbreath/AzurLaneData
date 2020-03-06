@@ -650,6 +650,47 @@ pg.activity_template = {
 			}
 		}
 	},
+	[458] = {
+		mark = 20191226,
+		title_res_tag = "donghuadenglu",
+		type = 3,
+		login_pop = 3,
+		config_id = 15,
+		is_show = 1,
+		config_client = "",
+		id = 458,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					1,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/donghuacb_login"
+		}
+	},
 	[470] = {
 		mark = 20190121,
 		title_res_tag = "beatmonster",
@@ -4043,6 +4084,7 @@ pg.activity_template = {
 		422,
 		423,
 		424,
+		458,
 		470,
 		471,
 		472,
