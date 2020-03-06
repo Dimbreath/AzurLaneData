@@ -50052,11 +50052,6 @@ pg.word_template = {
 	跫 = {
 		this = true
 	},
-	路 = {
-		易 = {
-			this = true
-		}
-	},
 	跳 = {
 		大 = {
 			神 = {
