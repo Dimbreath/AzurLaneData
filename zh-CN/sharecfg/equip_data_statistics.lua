@@ -37811,7 +37811,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 5,
 		icon = "31200",
-		value_1 = "4 x 2",
+		value_1 = "4 x 4",
 		attribute_2 = "cannon",
 		avoid_extra = 0,
 		rarity = 2,
@@ -37856,7 +37856,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31202] = {
-		value_1 = "5 x 2",
+		value_1 = "5 x 4",
 		id = 31202,
 		base = 31200,
 		is_siren = 0,
@@ -37867,7 +37867,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31203] = {
-		value_1 = "5 x 2",
+		value_1 = "5 x 4",
 		id = 31203,
 		base = 31200,
 		is_siren = 0,
@@ -37888,7 +37888,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 12,
 		icon = "31200",
-		value_1 = "4 x 2",
+		value_1 = "4 x 4",
 		attribute_2 = "cannon",
 		avoid_extra = 0,
 		rarity = 3,
@@ -37933,7 +37933,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31222] = {
-		value_1 = "5 x 2",
+		value_1 = "5 x 4",
 		id = 31222,
 		base = 31220,
 		is_siren = 0,
@@ -37944,7 +37944,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31223] = {
-		value_1 = "5 x 2",
+		value_1 = "5 x 4",
 		id = 31223,
 		base = 31220,
 		is_siren = 0,
@@ -37955,7 +37955,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31224] = {
-		value_1 = "7 x 2",
+		value_1 = "7 x 4",
 		id = 31224,
 		base = 31220,
 		is_siren = 0,
@@ -37966,7 +37966,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31225] = {
-		value_1 = "7 x 2",
+		value_1 = "7 x 4",
 		id = 31225,
 		base = 31220,
 		is_siren = 0,
@@ -37977,7 +37977,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31226] = {
-		value_1 = "8 x 2",
+		value_1 = "8 x 4",
 		id = 31226,
 		base = 31220,
 		is_siren = 0,
@@ -37998,7 +37998,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 25,
 		icon = "31200",
-		value_1 = "4 x 2",
+		value_1 = "4 x 4",
 		attribute_2 = "cannon",
 		avoid_extra = 0,
 		rarity = 4,
@@ -38044,7 +38044,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31242] = {
-		value_1 = "5 x 2",
+		value_1 = "5 x 4",
 		id = 31242,
 		base = 31240,
 		is_siren = 0,
@@ -38055,7 +38055,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31243] = {
-		value_1 = "5 x 2",
+		value_1 = "5 x 4",
 		id = 31243,
 		base = 31240,
 		is_siren = 0,
@@ -38066,7 +38066,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31244] = {
-		value_1 = "8 x 2",
+		value_1 = "8 x 4",
 		id = 31244,
 		base = 31240,
 		is_siren = 0,
@@ -38077,7 +38077,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31245] = {
-		value_1 = "8 x 2",
+		value_1 = "8 x 4",
 		id = 31245,
 		base = 31240,
 		is_siren = 0,
@@ -38088,7 +38088,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31246] = {
-		value_1 = "9 x 2",
+		value_1 = "9 x 4",
 		id = 31246,
 		base = 31240,
 		is_siren = 0,
@@ -38099,7 +38099,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31247] = {
-		value_1 = "10 x 2",
+		value_1 = "10 x 4",
 		id = 31247,
 		base = 31240,
 		is_siren = 0,
@@ -38110,7 +38110,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31248] = {
-		value_1 = "10 x 2",
+		value_1 = "10 x 4",
 		id = 31248,
 		base = 31240,
 		is_siren = 0,
@@ -38121,7 +38121,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31249] = {
-		value_1 = "11 x 2",
+		value_1 = "11 x 4",
 		id = 31249,
 		base = 31240,
 		is_siren = 0,
@@ -38132,7 +38132,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[31250] = {
-		value_1 = "12 x 2",
+		value_1 = "12 x 4",
 		id = 31250,
 		base = 31240,
 		is_siren = 0,
@@ -68465,7 +68465,7 @@ pg.equip_data_statistics = {
 		ambush_extra = 0,
 		value_2 = 12,
 		icon = "85440",
-		value_1 = "8 x 2",
+		value_1 = "8 x 4",
 		attribute_2 = "cannon",
 		avoid_extra = 0,
 		rarity = 3,
@@ -68499,7 +68499,7 @@ pg.equip_data_statistics = {
 		}
 	},
 	[85441] = {
-		value_1 = "9 x 2",
+		value_1 = "9 x 4",
 		id = 85441,
 		base = 85440,
 		is_siren = 0,
@@ -68510,7 +68510,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[85442] = {
-		value_1 = "10 x 2",
+		value_1 = "10 x 4",
 		id = 85442,
 		base = 85440,
 		is_siren = 0,
@@ -68521,7 +68521,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[85443] = {
-		value_1 = "11 x 2",
+		value_1 = "11 x 4",
 		id = 85443,
 		base = 85440,
 		is_siren = 0,
@@ -68532,7 +68532,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[85444] = {
-		value_1 = "12 x 2",
+		value_1 = "12 x 4",
 		id = 85444,
 		base = 85440,
 		is_siren = 0,
@@ -68543,7 +68543,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[85445] = {
-		value_1 = "13 x 2",
+		value_1 = "13 x 4",
 		id = 85445,
 		base = 85440,
 		is_siren = 0,
@@ -68554,7 +68554,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[85446] = {
-		value_1 = "14 x 2",
+		value_1 = "14 x 4",
 		id = 85446,
 		base = 85440,
 		is_siren = 0,
