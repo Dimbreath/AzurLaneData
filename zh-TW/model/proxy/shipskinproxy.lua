@@ -62,11 +62,11 @@ function slot0.getSkinById(slot0, slot1)
 end
 
 function slot0.addExpireTimer(slot0, slot1)
+	slot0:removeExpireTimer(slot1.id)
+
 	if not slot1:isExpireType() then
 		return
 	end
-
-	slot0:removeExpireTimer(slot1.id)
 
 	function slot2()
 		table.insert(slot0.cacheSkins, )

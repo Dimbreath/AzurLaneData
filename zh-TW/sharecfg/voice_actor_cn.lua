@@ -885,12 +885,16 @@ pg.voice_actor_CN = {
 		code = 221
 	},
 	{
-		actor_name = "緒乃冬華",
+		actor_name = "绪乃冬华",
 		code = 222
 	},
 	{
-		actor_name = "田澤茉純",
+		actor_name = "田泽茉纯",
 		code = 223
+	},
+	{
+		actor_name = "中村櫻",
+		code = 224
 	}
 }
 

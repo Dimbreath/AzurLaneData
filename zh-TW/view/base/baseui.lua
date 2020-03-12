@@ -278,13 +278,17 @@ function slot0.attach(slot0, slot1)
 	return
 end
 
+function slot0.ClearTweens(slot0, slot1)
+	slot0:cleanManagedTween(slot1)
+end
+
 function slot0.detach(slot0, slot1)
 	slot0._isLoaded = false
 
 	pg.LayerWeightMgr.GetInstance():DelFromOverlay(slot0._tf)
 	pg.DynamicBgMgr.GetInstance():ClearBg(slot0:getUIName())
 	slot0:disposeEvent()
-	slot0:cleanManagedTween()
+	slot0:ClearTweens(false)
 
 	slot0._tf = nil
 

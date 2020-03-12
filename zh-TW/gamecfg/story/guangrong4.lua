@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"荣光的间奏曲\n\n<size=45>四 女王事件Ⅱ</size>",
+					"榮光的間奏曲\n\n<size=45>四 女王事件Ⅱ</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "我之所以敢说皇家方舟是清白的，理由有三——",
+			say = "我之所以敢說皇家方舟是清白的，理由有三——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "第一，皇家方舟本来要来我们演习场，刚好与任务归来的委托组同路，就顺便护送她们一程。",
+			say = "第一，皇家方舟本來要來我們演習場，剛好與任務歸來的委託組同路，就順便護送她們一程。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "第二，就算皇家方舟真的是在跟踪，厌战大人不可能看不出来这一行为。",
+			say = "第二，就算皇家方舟真的是在跟蹤，厭戰大人不可能看不出來這一行為。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最后是动机问题……我认为皇家方舟的内心是光明磊落、毫无任何邪念的！",
+			say = "最後是動機問題……我認為皇家方舟的內心是光明磊落、毫無任何邪念的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			actor = 205020,
 			nameColor = "#a9f548",
-			say = "诶。",
+			say = "欸。",
 			action = {
 				{
 					y = 7.5,
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "诶。",
+			say = "欸。",
 			action = {
 				{
 					y = 7.5,
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			actor = 202120,
 			nameColor = "#a9f548",
-			say = "诶。",
+			say = "欸。",
 			action = {
 				{
 					y = 7.5,
@@ -167,7 +167,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			actorName = "一同",
-			say = "诶诶诶！？",
+			say = "欸欸欸！？",
 			dialogShake = {
 				speed = 0.1,
 				x = 8.5,
@@ -202,7 +202,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "光荣前辈……你……",
+			say = "光榮前輩……你……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			}
 		},
 		{
-			say = "我也有像可爱的妹妹一样——不，比妹妹更重要的伙伴。",
+			say = "我也有像可愛的妹妹一樣——不，比妹妹更重要的夥伴。",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -238,7 +238,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以我明白，就像爱护美丽的花朵一样，爱护着驱逐舰们的皇家方舟的心情！",
+			say = "所以我明白，就像愛護美麗的花朵一樣，愛護著驅逐艦們的皇家方舟的心情！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“尽职尽责，保护同伴”——这不光是主力舰的责任，也是我们皇家海军的美德啊！",
+			say = "“盡職盡責，保護同伴”——這不光是主力艦的責任，也是我們皇家海軍的美德啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家方舟也一定是怀着这样崇高的感情以自己的方式努力了，尽量避免伤害厌战大人的自尊！",
+			say = "皇家方舟也一定是懷著這樣崇高的感情以自己的方式努力了，儘量避免傷害厭戰大人的自尊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼、哼！好吧！证据也不够充分，今天就先放你一马！皇家方舟，你走吧！",
+			say = "哼、哼！好吧！證據也不夠充分，今天就先放你一馬！皇家方舟，你走吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,8 +335,8 @@ return {
 			actor = 205020,
 			dir = 1,
 			hideOther = true,
-			actorName = "厌战＆贝尔法斯特",
-			say = "感谢陛下明察。",
+			actorName = "厭戰＆貝爾法斯特",
+			say = "感謝陛下明察。",
 			subActors = {
 				{
 					actor = 202120,
@@ -361,7 +361,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈！光荣，太感谢了！",
+			say = "哈哈！光榮，太感謝了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			}
 		},
 		{
-			say = "不必客气！小事一桩。……皇家方舟你能被无罪释放真是太好了。",
+			say = "不必客氣！小事一樁。……皇家方舟你能被無罪釋放真是太好了。",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "二人之间结下了奇妙的友情（？）。",
+			say = "二人之間結下了奇妙的友情（？）。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

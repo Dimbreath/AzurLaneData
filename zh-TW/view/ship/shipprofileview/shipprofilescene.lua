@@ -382,11 +382,15 @@ function slot0.ReturnModel(slot0)
 end
 
 function slot0.CreateLive2D(slot0)
+	slot0.live2DBtn:SetEnable(false)
+
 	if slot0.l2dChar then
 		slot0.l2dChar:Dispose()
 	end
 
-	slot0.l2dChar = Live2D.New(slot2)
+	slot0.l2dChar = Live2D.New(slot2, function ()
+		slot0.live2DBtn:SetEnable(true)
+	end)
 
 	if isHalfBodyLive2D(slot0.skin.prefab) then
 		setAnchoredPosition(slot0.l2dRoot, {

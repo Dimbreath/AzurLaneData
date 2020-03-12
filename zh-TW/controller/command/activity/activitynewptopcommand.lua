@@ -1,5 +1,7 @@
 class("ActivityNewPtOPCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	if not getProxy(ActivityProxy):getActivityById(slot1:getBody().activity_id) or slot4:isEnd() then
+	slot3 = slot1:getBody().callback
+
+	if not getProxy(ActivityProxy):getActivityById(slot1.getBody().activity_id) or slot5:isEnd() then
 		return
 	end
 
@@ -26,7 +28,8 @@ class("ActivityNewPtOPCommand", pm.SimpleCommand).execute = function (slot0, slo
 
 			slot3:updateActivity(slot3.updateActivity)
 			slot1:sendNotification(GAME.ACT_NEW_PT_DONE, {
-				awards = slot1
+				awards = slot1,
+				callback = GAME.ACT_NEW_PT_DONE
 			})
 		else
 			print(errorTip("", slot0.result))

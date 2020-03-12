@@ -13,7 +13,7 @@ return {
 			actor = 404020,
 			nameColor = "#D6341D",
 			stopBGM = true,
-			say = "希佩尔，“区区皇家杂鱼，我一个人就能轻松解决掉”，这句话不是从你口里说出来的吗？",
+			say = "希佩爾，“區區皇家雜魚，我一個人就能輕鬆解決掉”，這句話不是從你口裡說出來的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			}
 		},
 		{
-			say = "咕……嘁，谁知道对面会跑得那么干脆啦…任务失败就是失败了，要惩罚还是什么的，随你吧！",
+			say = "咕……嘁，誰知道對面會跑得那麼乾脆啦…任務失敗就是失敗了，要懲罰還是什麼的，隨你吧！",
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -49,7 +49,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "还是老样子，性急而冲动…下次能学会向同伴求助就好了……",
+			say = "還是老樣子，性急而衝動…下次能學會向同伴求助就好了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "哈？谁要向你求助啊！",
+			say = "哈？誰要向你求助啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "总之……姐姐，我们也开始搜索吧，她们应该还没走远。希佩尔未完成的任务，就由我们来善后吧 ",
+			say = "總之……姐姐，我們也開始搜索吧，她們應該還沒走遠。希佩爾未完成的任務，就由我們來善後吧 ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 1,
 			dir = -1,
 			blackBg = true,
-			say = "哼哼，有战斗当然没问题~希佩尔的仇，就由我来报吧！",
+			say = "哼哼，有戰鬥當然沒問題~希佩爾的仇，就由我來報吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			blackBg = true,
 			actor = 403010,
 			nameColor = "#D6341D",
-			say = "别说的我好像死了一样！而且谁要你们帮我报仇了！喂，听我说话啊！",
+			say = "別說的我好像死了一樣！而且誰要你們幫我報仇了！喂，聽我說話啊！",
 			shake = {
 				speed = 8,
 				number = 2

@@ -1266,10 +1266,10 @@ pg.expedition_data_by_map = {
 	},
 	[1050010] = {
 		map = 1050010,
-		name = "朱諾行動|| ||CHAPTER SP||S.P.",
+		name = "光榮的一戰|| ||CHAPTER SP||S.P.",
 		bgm = "level02",
 		type = 3,
-		on_activity = 0,
+		on_activity = 40088,
 		title = "SP",
 		drop_by_map_display = "",
 		enter_story = "ZHUNUO1",

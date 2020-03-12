@@ -615,7 +615,22 @@ pg.item_data_template = {
 			0
 		}
 	},
-	[43] = {
+	{
+		limit = "[]",
+		display_effect = "",
+		other_resource_cost = "[]",
+		usage = "usage_undefined",
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		id = 42,
+		compose_number = 0,
+		target_id = 0,
+		open_ui = {
+			0,
+			0
+		}
+	},
+	{
 		limit = "[]",
 		display_effect = "",
 		other_resource_cost = "[]",
@@ -630,7 +645,7 @@ pg.item_data_template = {
 			0
 		}
 	},
-	[44] = {
+	{
 		limit = "[]",
 		display_effect = "",
 		other_resource_cost = "[]",
@@ -8985,6 +9000,21 @@ pg.item_data_template = {
 			0
 		}
 	},
+	[70051] = {
+		limit = "[]",
+		display_effect = "",
+		other_resource_cost = "[]",
+		usage = "usage_drop",
+		other_item_cost = "[]",
+		usage_arg = "300038",
+		id = 70051,
+		compose_number = 0,
+		target_id = 0,
+		open_ui = {
+			0,
+			0
+		}
+	},
 	all = {
 		1,
 		2,
@@ -9027,6 +9057,7 @@ pg.item_data_template = {
 		39,
 		40,
 		41,
+		42,
 		43,
 		44,
 		1001,
@@ -9577,7 +9608,8 @@ pg.item_data_template = {
 		59823,
 		59900,
 		60011,
-		60012
+		60012,
+		70051
 	}
 }
 

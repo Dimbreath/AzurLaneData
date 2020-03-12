@@ -800,6 +800,7 @@ pg.activity_template = {
 	[491] = {
 		mark = 20200213,
 		title_res_tag = "valentine_login",
+		time = "stop",
 		type = 3,
 		login_pop = 0,
 		config_id = 17,
@@ -807,13 +808,27 @@ pg.activity_template = {
 		config_client = "",
 		id = 491,
 		config_data = {},
+		bg = {
+			"clutter/valentine_login"
+		}
+	},
+	[525] = {
+		mark = 20200312,
+		title_res_tag = "sofmap",
+		type = 54,
+		login_pop = 0,
+		config_id = 525,
+		is_show = 10,
+		config_client = "",
+		id = 525,
+		config_data = {},
 		time = {
 			timer,
 			{
 				{
 					2020,
-					2,
-					13
+					3,
+					12
 				},
 				{
 					0,
@@ -824,8 +839,8 @@ pg.activity_template = {
 			{
 				{
 					2020,
-					2,
-					27
+					4,
+					1
 				},
 				{
 					23,
@@ -835,7 +850,126 @@ pg.activity_template = {
 			}
 		},
 		bg = {
-			"clutter/valentine_login"
+			"clutter/activity_bg_sofmap"
+		}
+	},
+	[526] = {
+		mark = 20200312,
+		title_res_tag = "3match",
+		type = 57,
+		login_pop = 0,
+		config_id = 8,
+		is_show = 9,
+		id = 526,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					3,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_3match"
+		},
+		config_client = {
+			gameId = 12,
+			drop = {
+				{
+					1,
+					1,
+					200
+				},
+				{
+					1,
+					2,
+					200
+				},
+				{
+					2,
+					54005,
+					3
+				},
+				{
+					2,
+					54016,
+					5
+				},
+				{
+					2,
+					54051,
+					3
+				},
+				{
+					2,
+					54006,
+					3
+				},
+				{
+					5,
+					169,
+					1
+				}
+			}
+		}
+	},
+	[527] = {
+		mark = 20200312,
+		title_res_tag = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 146,
+		is_show = 0,
+		config_data = "0",
+		config_client = "",
+		bg = "",
+		id = 527,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					3,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[999] = {
@@ -906,6 +1040,22 @@ pg.activity_template = {
 		config_client = "",
 		bg = "",
 		id = 2007,
+		config_data = {
+			0,
+			{}
+		}
+	},
+	[2008] = {
+		mark = 20180510,
+		title_res_tag = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5121,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 2008,
 		config_data = {
 			0,
 			{}
@@ -4051,6 +4201,201 @@ pg.activity_template = {
 			}
 		}
 	},
+	[40088] = {
+		mark = 20200301,
+		title_res_tag = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 40088,
+		config_data = {
+			1050011,
+			1050012,
+			1050013
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					3,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/zhunuof"
+		}
+	},
+	[40089] = {
+		mark = 20200301,
+		title_res_tag = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 40089,
+		config_data = {
+			10471,
+			10472,
+			10473,
+			10474,
+			10475,
+			10476
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					3,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[40090] = {
+		mark = 20200301,
+		title_res_tag = "glory",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		config_client = "",
+		id = 40090,
+		config_data = {
+			10477,
+			10478,
+			10479,
+			10480,
+			10481,
+			10482,
+			10483,
+			10484,
+			10485,
+			10486,
+			10487,
+			10488
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					3,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/glorytaskpage"
+		}
+	},
+	[40091] = {
+		mark = 20200301,
+		title_res_tag = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_40091",
+		bg = "",
+		id = 40091,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					3,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 1,
+			bg = "loadingbg/bg_build_1_act",
+			buildship_tip = "光榮建造機率UP！",
+			rate_tip = {
+				"<color=#ffde38>超稀有艦船</color>：7%",
+				"<color=#d797ff>精銳艦船</color>：12%",
+				"<color=#3dc6ff>稀有艦船</color>：51%",
+				"普通艦船：30%",
+				"<color=#d797ff>光榮</color>：1.4%(<color=#92fc63>up!</color>)"
+			}
+		}
+	},
 	[45000] = {
 		mark = 20191004,
 		title_res_tag = "",
@@ -4090,9 +4435,13 @@ pg.activity_template = {
 		472,
 		486,
 		491,
+		525,
+		526,
+		527,
 		999,
 		2001,
 		2007,
+		2008,
 		2010,
 		2011,
 		2018,
@@ -4180,6 +4529,10 @@ pg.activity_template = {
 		40085,
 		40086,
 		40087,
+		40088,
+		40089,
+		40090,
+		40091,
 		45000
 	}
 }

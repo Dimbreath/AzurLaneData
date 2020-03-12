@@ -122,7 +122,7 @@ pg.ship_data_statistics = {
 		huntingrange_level = 0,
 		star = 5,
 		oxy_recovery = 0,
-		backyard_speed = "0.3",
+		backyard_speed = "0.6",
 		rarity = 5,
 		ammo = 0,
 		id = 100011,
@@ -33230,6 +33230,942 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[201021] = {
+		oxy_max = 0,
+		type = 1,
+		name = "阿卡司塔",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 201021,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Acasta",
+		oxy_cost = 0,
+		skin_id = 201020,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			221,
+			13,
+			68,
+			29,
+			0,
+			71,
+			0,
+			63,
+			78,
+			42,
+			43,
+			42
+		},
+		attrs_growth = {
+			5390,
+			124,
+			674,
+			560,
+			0,
+			352,
+			0,
+			930,
+			1152,
+			0,
+			0,
+			418
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.3,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201022] = {
+		oxy_max = 0,
+		type = 1,
+		name = "阿卡司塔",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 201022,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Acasta",
+		oxy_cost = 0,
+		skin_id = 201020,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			275,
+			16,
+			85,
+			36,
+			0,
+			71,
+			0,
+			63,
+			78,
+			42,
+			43,
+			52
+		},
+		attrs_growth = {
+			5390,
+			124,
+			674,
+			560,
+			0,
+			352,
+			0,
+			930,
+			1152,
+			0,
+			0,
+			418
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.3,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201023] = {
+		oxy_max = 0,
+		type = 1,
+		name = "阿卡司塔",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 201023,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Acasta",
+		oxy_cost = 0,
+		skin_id = 201020,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			383,
+			22,
+			119,
+			50,
+			0,
+			71,
+			0,
+			63,
+			78,
+			42,
+			43,
+			73
+		},
+		attrs_growth = {
+			5390,
+			124,
+			674,
+			560,
+			0,
+			352,
+			0,
+			930,
+			1152,
+			0,
+			0,
+			418
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.4,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201024] = {
+		oxy_max = 0,
+		type = 1,
+		name = "阿卡司塔",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 201024,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Acasta",
+		oxy_cost = 0,
+		skin_id = 201020,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			544,
+			32,
+			169,
+			71,
+			0,
+			71,
+			0,
+			63,
+			78,
+			42,
+			43,
+			105
+		},
+		attrs_growth = {
+			5390,
+			124,
+			674,
+			560,
+			0,
+			352,
+			0,
+			930,
+			1152,
+			0,
+			0,
+			418
+		},
+		attrs_growth_extra = {
+			5380,
+			296,
+			1206,
+			385,
+			0,
+			833,
+			0,
+			-543,
+			-872,
+			0,
+			0,
+			443
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.45,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201031] = {
+		oxy_max = 0,
+		type = 1,
+		name = "熱心",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 201031,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Ardent",
+		oxy_cost = 0,
+		skin_id = 201030,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			221,
+			13,
+			68,
+			29,
+			0,
+			71,
+			0,
+			63,
+			78,
+			42,
+			35,
+			42
+		},
+		attrs_growth = {
+			5390,
+			124,
+			674,
+			560,
+			0,
+			352,
+			0,
+			930,
+			1152,
+			0,
+			0,
+			418
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.3,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201032] = {
+		oxy_max = 0,
+		type = 1,
+		name = "熱心",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 201032,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Ardent",
+		oxy_cost = 0,
+		skin_id = 201030,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			275,
+			16,
+			85,
+			36,
+			0,
+			71,
+			0,
+			63,
+			78,
+			42,
+			35,
+			52
+		},
+		attrs_growth = {
+			5390,
+			124,
+			674,
+			560,
+			0,
+			352,
+			0,
+			930,
+			1152,
+			0,
+			0,
+			418
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.35,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201033] = {
+		oxy_max = 0,
+		type = 1,
+		name = "熱心",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 201033,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Ardent",
+		oxy_cost = 0,
+		skin_id = 201030,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			383,
+			22,
+			119,
+			50,
+			0,
+			71,
+			0,
+			63,
+			78,
+			42,
+			35,
+			73
+		},
+		attrs_growth = {
+			5390,
+			124,
+			674,
+			560,
+			0,
+			352,
+			0,
+			930,
+			1152,
+			0,
+			0,
+			418
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.35,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[201034] = {
+		oxy_max = 0,
+		type = 1,
+		name = "熱心",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 201034,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Ardent",
+		oxy_cost = 0,
+		skin_id = 201030,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			544,
+			32,
+			169,
+			71,
+			0,
+			71,
+			0,
+			63,
+			78,
+			42,
+			35,
+			105
+		},
+		attrs_growth = {
+			5390,
+			124,
+			674,
+			560,
+			0,
+			352,
+			0,
+			930,
+			1152,
+			0,
+			0,
+			418
+		},
+		attrs_growth_extra = {
+			5380,
+			296,
+			1206,
+			385,
+			0,
+			833,
+			0,
+			-543,
+			-872,
+			0,
+			0,
+			443
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.4,
+			1.05
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[201061] = {
 		oxy_max = 0,
 		type = 1,
@@ -54502,6 +55438,474 @@ pg.ship_data_statistics = {
 			1.35,
 			1.35,
 			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[207061] = {
+		oxy_max = 0,
+		type = 7,
+		name = "光榮",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 207061,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Glorious",
+		oxy_cost = 0,
+		skin_id = 207060,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1062,
+			0,
+			0,
+			55,
+			68,
+			40,
+			0,
+			30,
+			12,
+			30,
+			32,
+			0
+		},
+		attrs_growth = {
+			25895,
+			0,
+			0,
+			1076,
+			672,
+			200,
+			0,
+			450,
+			180,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			113,
+			114,
+			114
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.1,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[207062] = {
+		oxy_max = 0,
+		type = 7,
+		name = "光榮",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 207062,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Glorious",
+		oxy_cost = 0,
+		skin_id = 207060,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1321,
+			0,
+			0,
+			68,
+			85,
+			40,
+			0,
+			30,
+			12,
+			30,
+			32,
+			0
+		},
+		attrs_growth = {
+			25895,
+			0,
+			0,
+			1076,
+			672,
+			200,
+			0,
+			450,
+			180,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			113,
+			114,
+			114
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.1,
+			1.1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[207063] = {
+		oxy_max = 0,
+		type = 7,
+		name = "光榮",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 207063,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Glorious",
+		oxy_cost = 0,
+		skin_id = 207060,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1839,
+			0,
+			0,
+			95,
+			118,
+			40,
+			0,
+			30,
+			12,
+			30,
+			32,
+			0
+		},
+		attrs_growth = {
+			25895,
+			0,
+			0,
+			1076,
+			672,
+			200,
+			0,
+			450,
+			180,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			113,
+			114,
+			114
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.15,
+			1.15
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[207064] = {
+		oxy_max = 0,
+		type = 7,
+		name = "光榮",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 207064,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "HMS Glorious",
+		oxy_cost = 0,
+		skin_id = 207060,
+		attack_duration = 0,
+		nationality = 2,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			2616,
+			0,
+			0,
+			136,
+			169,
+			40,
+			0,
+			30,
+			12,
+			30,
+			32,
+			0
+		},
+		attrs_growth = {
+			25895,
+			0,
+			0,
+			1076,
+			672,
+			200,
+			0,
+			450,
+			180,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			12948,
+			0,
+			0,
+			612,
+			1208,
+			468,
+			0,
+			0,
+			765,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			113,
+			114,
+			114
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.15,
+			1.15
 		},
 		strategy_list = {},
 		strategy_list_ai = {},
@@ -115550,6 +116954,14 @@ pg.ship_data_statistics = {
 		201012,
 		201013,
 		201014,
+		201021,
+		201022,
+		201023,
+		201024,
+		201031,
+		201032,
+		201033,
+		201034,
 		201061,
 		201062,
 		201063,
@@ -115730,6 +117142,10 @@ pg.ship_data_statistics = {
 		207032,
 		207033,
 		207034,
+		207061,
+		207062,
+		207063,
+		207064,
 		213011,
 		213012,
 		213013,

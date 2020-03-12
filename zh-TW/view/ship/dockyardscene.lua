@@ -15,6 +15,8 @@ slot0.TITLE_CN_DESTROY = i18n("word_dockyardDestroy")
 slot0.TITLE_EN_OVERVIEW = "dockyard"
 slot0.TITLE_EN_UPGRADE = "modernization"
 slot0.TITLE_EN_DESTROY = "retirement"
+slot0.PRIOR_MODE_EQUIP_UP = 1
+slot0.PRIOR_MODE_SHIP_UP = 2
 slot4 = {
 	"index_all",
 	"index_fleetfront",
@@ -170,6 +172,10 @@ function slot0.init(slot0)
 	slot0.energyDescTextTF = slot0:findTF("energy_desc/Text")
 	slot0.awardTF = slot0:findTF("select_panel/bottom_info/bg_award")
 	slot0.modAttrsTF = slot0:findTF("select_panel/bottom_info/bg_mod")
+	slot0.tipPanel = slot0:findTF("TipPanel")
+
+	setActive(slot0.tipPanel, false)
+
 	slot0.isRemouldOrUpgradeMode = slot0.contextData.mode == slot0.MODE_REMOULD or slot0.contextData.mode == slot0.MODE_UPGRADE
 
 	setActive(slot0.preferenceBtn, not slot0.isRemouldOrUpgradeMode)
@@ -200,6 +206,14 @@ function slot0.init(slot0)
 		setActive(slot0.selectPanel, false)
 	else
 		slot0.selecteEnabled = true
+	end
+
+	if slot0.contextData.priorEquipUpShipIDList and slot0.contextData.priorMode then
+		setActive(slot0.tipPanel, true)
+		setText(slot2, i18n("fightfail_choiceequip"))
+		setText(slot3, i18n("fightfail_choicestrengthen"))
+		setActive(slot0:findTF("EquipUP", slot0.tipPanel), slot0.contextData.priorMode == slot0.PRIOR_MODE_EQUIP_UP)
+		setActive(slot3, slot0.contextData.priorMode == slot0.PRIOR_MODE_SHIP_UP)
 	end
 
 	slot0.shipContainer = (slot0.contextData.selectFriend and slot0:findTF("main/friend_container"):GetComponent("LScrollRect")) or slot0:findTF("main/ship_container"):GetComponent("LScrollRect")

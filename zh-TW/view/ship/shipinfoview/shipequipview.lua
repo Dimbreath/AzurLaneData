@@ -144,6 +144,23 @@ function slot0.UpdateEquipments(slot0, slot1)
 	if slot0.equipSkinLogicPanel then
 		slot0.equipSkinLogicPanel:updateAll(slot1)
 	end
+
+	if slot0.contextData.openEquipUpgrade == true then
+		slot0.contextData.openEquipUpgrade = false
+		slot3 = 0
+
+		for slot9, slot10 in ipairs(slot5) do
+			if slot10 then
+				slot3 = slot3 + 1
+			end
+		end
+
+		if slot3 > 0 then
+			slot0:emit(ShipMainMediator.OPEN_EQUIP_UPGRADE, slot0:GetShipVO().id)
+		else
+			pg.TipsMgr:GetInstance():ShowTips(i18n("fightfail_noequip"))
+		end
+	end
 end
 
 function slot0.UpdateEquipmentPanel(slot0, slot1, slot2, slot3)

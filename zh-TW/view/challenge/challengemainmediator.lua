@@ -113,7 +113,7 @@ function slot0.register(slot0)
 		slot2:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
 			maxCount = 1,
 			mode = CommandRoomScene.MODE_SELECT,
-			activeCommanderId = slot4:getCommanders()[pos],
+			activeCommander = slot4:getCommanders()[slot2],
 			ignoredIds = {},
 			onCommander = function (slot0)
 				return true

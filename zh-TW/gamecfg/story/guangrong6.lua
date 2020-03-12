@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"荣光的间奏曲\n\n<size=45>六 于她而言的荣光·上</size>",
+					"榮光的間奏曲\n\n<size=45>六 於她而言的榮光·上</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "哈……总算告一段落了……",
+			say = "哈……總算告一段落了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,18 +37,18 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "大约完成一半进度以后，光荣疲惫地靠在巨大的舣装上。",
+			say = "大約完成一半進度以後，光榮疲憊地靠在巨大的艤裝上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "慰劳光荣",
+					content = "慰勞光榮",
 					flag = 1
 				},
 				{
-					content = "默默地把冷却水递给她",
+					content = "默默地把冷卻水遞給她",
 					flag = 2
 				}
 			}
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢、谢谢！对不起，都是我太没用了……",
+			say = "謝、謝謝！對不起，都是我太沒用了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？你是说“早知道这样的话就该多叫几个人来了”？",
+			say = "嗯？你是說“早知道這樣的話就該多叫幾個人來了”？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那可不行！最近大家要为重要作战做准备，这才是最重要的！",
+			say = "那可不行！最近大家要為重要作戰做準備，這才是最重要的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "其实本来我连热心和阿卡斯塔也不想让她们来，怎么说她们都不听……",
+			say = "其實本來我連熱心和阿卡司塔也不想讓她們來，怎麼說她們都不聽……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			},
 			options = {
 				{
-					content = "告诉她不可勉强",
+					content = "告訴她不可勉強",
 					flag = 1
 				}
 			}
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没，我没有勉强……",
+			say = "沒，我沒有勉強……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "散发着疲倦的气场？呃……这我还真无话可说了……",
+			say = "散發著疲倦的氣場？呃……這我還真無話可說了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，作为皇家的荣光和大家信赖的空母，做这种工作应该首当其冲才对！",
+			say = "不過，作為皇家的榮光和大家信賴的航母，做這種工作應該首當其衝才對！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "光荣极力地在逞强。既然这样——",
+			say = "光榮極力地在逞強。既然這樣——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,23 +187,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是！有什么命令尽管吩咐！光荣一定不辱使命！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 207060,
-			side = 2,
-			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "“禁止逞强”……？这是……指挥官命令吗？……这……",
+			say = "是！有什麼命令儘管吩咐！光榮一定不辱使命！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +203,23 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……因为我本来就笨手笨脚，战斗的时候也派不上什么用场，至少应该努力不拖大家后腿才对！",
+			say = "“禁止逞強”……？這是……指揮官命令嗎？……這……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 207060,
+			side = 2,
+			bgName = "bg_story_outdoor",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "……因為我本來就笨手笨腳，戰鬥的時候也派不上什麼用場，至少應該努力不拖大家後腿才對！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			blackBg = true,
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "就算是指挥官的命令……我也……！",
+			say = "就算是指揮官的命令……我也……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

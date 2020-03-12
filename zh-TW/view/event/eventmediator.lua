@@ -41,7 +41,7 @@ function slot0.register(slot0)
 				inEvent = true,
 				inAdmiral = true
 			},
-			blackBlockShipIds = slot2:getBlackBlackShipIds(slot0.__cname)
+			blackBlockShipIds = slot2:GetBlackBlockShipIDsForEvent()
 		})
 	end)
 	slot0:bind(EventConst.EVENT_FLUSH, function (slot0)

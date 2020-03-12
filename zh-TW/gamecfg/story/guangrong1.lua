@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"荣光的间奏曲\n\n<size=45>一 其名为光荣</size>",
+					"榮光的間奏曲\n\n<size=45>一 其名為光榮</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家舰队航空母舰光荣报到，今天也由我担任你的秘书舰！",
+			say = "皇家艦隊航航母艦光榮報到，今天也由我擔任你的秘書艦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，我会全力配合你的，请多指教！",
+			say = "指揮官，我會全力配合你的，請多指教！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "和在那片海域的时候不同，这次我不会掉以轻心了！",
+			say = "和在那片海域的時候不同，這次我不會掉以輕心了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "一小时后——",
+			say = "一小時後——",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，下午的安排是……是……是的！我记得的！是演习吧！我也会参加的！",
+			say = "嗯，下午的安排是……是……是的！我記得的！是演習吧！我也會參加的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "备用物资……应该送到了，热心帮我确认过了大概没问题……呜…没什么把握……",
+			say = "備用物資……應該送到了，熱心幫我確認過了大概沒問題……嗚…沒什麼把握……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这些文件我已经全都整理完了！是的，所有的都在这里了！……纳尔维克的观测报告？呃，嗯，不记得了，好像做完了……",
+			say = "這些檔我已經全都整理完了！是的，所有的都在這裡了！……納爾維克的觀測報告？呃，嗯，不記得了，好像做完了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "（小声）不行啊光荣，要有点皇家荣光的样子……！舰历上我可是最资深的……！",
+			say = "（小聲）不行啊光榮，要有點皇家榮光的樣子……！艦歷上我可是最資深的……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,11 +176,11 @@ return {
 			},
 			options = {
 				{
-					content = "怎么在发抖……？",
+					content = "怎麼在發抖……？",
 					flag = 1
 				},
 				{
-					content = "是不是太紧张了……？",
+					content = "是不是太緊張了……？",
 					flag = 2
 				}
 			}
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "没、没有紧张！……找、找到了！观测报告在这里！",
+			say = "沒、沒有緊張！……找、找到了！觀測報告在這裡！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "明明观测报告好好完成了，为什么会忘记了呢……",
+			say = "明明觀測報告好好完成了，為什麼會忘記了呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官果然是把我误会成那片海域的我了吧。你的心情不是不能理解，但——",
+			say = "指揮官果然是把我誤會成那片海域的我了吧。你的心情不是不能理解，但——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为了皇家之光而获得新生的光荣（glorius），一定会成为指挥官你最高的荣耀！",
+			say = "為了皇家之光而獲得新生的光榮（glorious），一定會成為指揮官你最高的榮耀！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "（闪——）",
+			say = "（閃——）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "光荣仿佛是自带特效一般的闪耀着。",
+			say = "光榮仿佛是自帶特效一般的閃耀著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
