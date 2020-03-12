@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然没那么简单就能逃跑吗……真是麻烦啊。",
+			say = "果然沒那麼簡單就能逃跑嗎……真是麻煩啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			nameColor = "#D6341D",
 			side = 1,
 			dir = -1,
-			say = "被追上了还能保持这副游刃有余的样子，不愧是皇家的前辈……",
+			say = "被追上了還能保持這副遊刃有餘的樣子，不愧是皇家的前輩……",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -45,7 +45,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，你比刚才的小女孩要讨人喜欢多了嘛……格奈森瑙……么，经常听到的名字呢……你看起来比较像能讲道理的样子嘛，不知道能不能就这样放我们一马呢？",
+			say = "哎呀，你比剛才的小女孩要討人喜歡多了嘛……格奈森瑙……嗎，經常聽到的名字呢……你看起來比較像能講道理的樣子嘛，不知道能不能就這樣放我們一馬呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 1,
 			nameColor = "#D6341D",
 			dir = -1,
-			say = "哎呀，能被对手记住，还真是荣幸啊。不知道你的这份从容能坚持到什么时候呢～",
+			say = "哎呀，能被對手記住，還真是榮幸啊。不知道你的這份從容能堅持到什麼時候呢～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唉……真是麻烦啊……",
+			say = "唉……真是麻煩啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

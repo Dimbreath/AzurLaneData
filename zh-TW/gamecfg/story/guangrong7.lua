@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"荣光的间奏曲\n\n<size=45>七 于她而言的荣光·下</size>",
+					"榮光的間奏曲\n\n<size=45>七 於她而言的榮光·下</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "于她而言，作为给人们带去胜利，被大家所依赖的“光荣”是最重要的事。但——",
+			say = "於她而言，作為給人們帶去勝利，被大家所依賴的“光榮”是最重要的事。但——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“至少和指挥官单独在一起的时候不要逞强”吗……",
+			say = "“至少和指揮官單獨在一起的時候不要逞強”嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官觉得，我还是无法成为你的荣耀吗……？",
+			say = "指揮官覺得，我還是無法成為你的榮耀嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "没有的事。",
+			say = "沒有的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那……我该怎么办……",
+			say = "那……我該怎麼辦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在大家面前尽情闪耀，在指挥官面前就不用了……？",
+			say = "在大家面前盡情閃耀，在指揮官面前就不用了……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "拉过她的手，让她坐到身旁。",
+			say = "拉過她的手，讓她坐到身旁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "其实刚才偷偷和正在开会的大家联系过，让她们开完会就过来帮忙。",
+			say = "其實剛才偷偷和正在開會的大家聯繫過，讓她們開完會就過來幫忙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在指挥官面前可以软弱，可以不那么可靠，可以撒娇——",
+			say = "在指揮官面前可以軟弱，可以不那麼可靠，可以撒嬌——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样光荣才能在大家面前继续闪耀下去——",
+			say = "這樣光榮才能在大家面前繼續閃耀下去——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "笨手笨脚又不小心的光荣（glorius），也能成为指挥官的光荣吗……？",
+			say = "笨手笨腳又不小心的光榮（glorious），也能成為指揮官的光榮嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "光荣的声音里有一丝颤抖。",
+			say = "光榮的聲音裡有一絲顫抖。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我明白了。既然是指挥官的命令——",
+			say = "我明白了。既然是指揮官的命令——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "她轻轻地反握了一下牵着的手。肩膀上能感受到来自少女的重量。",
+			say = "她輕輕地反握了一下牽著的手。肩膀上能感受到來自少女的重量。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "命令收到。……作为你的荣光，我、我就撒一会儿娇。",
+			say = "命令收到。……作為你的榮光，我、我就撒一會兒嬌。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家过来之前……能让我……休息一会儿吗？",
+			say = "大家過來之前……能讓我……休息一會兒嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "安睡的呼吸声在静谧的工厂里回响着…",
+			say = "安睡的呼吸聲在靜謐的工廠裡迴響著…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

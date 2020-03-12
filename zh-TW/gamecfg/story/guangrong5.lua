@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"荣光的间奏曲\n\n<size=45>五 和驱逐舰们一起</size>",
+					"榮光的間奏曲\n\n<size=45>五 和驅逐艦們一起</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "港区·工厂",
+			say = "港區·工廠",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "今天接到{namecode:98}的委托，来工厂整理备用品和装备。",
+			say = "今天接到{namecode:98}的委託，來工廠整理備用品和裝備。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			actor = 201030,
 			nameColor = "#a9f548",
-			say = "阿卡斯塔，不要偷懒，快来帮忙啦！我们答应了光荣要帮忙不是嘛！",
+			say = "阿卡司塔，不要偷懶，快來幫忙啦！我們答應了光榮要幫忙不是嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			}
 		},
 		{
-			say = "呵啊……我有在做啊……这边的灰尘也太多了……",
+			say = "呵啊……我有在做啊……這邊的灰塵也太多了……",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "等一下，那边我自己打扫就好，热心和阿卡斯塔先检查一下备用品清单吧。",
+			say = "等一下，那邊我自己打掃就好，熱心和阿卡司塔先檢查一下備用品清單吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			}
 		},
 		{
-			say = "感觉全都是光荣一个人在忙……明明我们是来帮忙的，这算帮忙吗……",
+			say = "感覺全都是光榮一個人在忙……明明我們是來幫忙的，這算幫忙嗎……",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = -1,
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们不用在意。这边本来就是脏活，我来干就好了。再说还有指挥官呢。",
+			say = "你們不用在意。這邊本來就是髒活，我來幹就好了。再說還有指揮官呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = -1,
 			actor = 201030,
 			nameColor = "#a9f548",
-			say = "光荣你真的不要紧吗？这活可不轻啊。",
+			say = "光榮你真的不要緊嗎？這活可不輕啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,11 +151,11 @@ return {
 			},
 			options = {
 				{
-					content = "自己和光荣两个人就能解决",
+					content = "自己和光榮兩個人就能解決",
 					flag = 1
 				},
 				{
-					content = "还是拜托驱逐舰们帮忙",
+					content = "還是拜託驅逐艦們幫忙",
 					flag = 2
 				}
 			}
@@ -167,7 +167,7 @@ return {
 			optionFlag = 1,
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "没事，你看指挥官不也说了吗。",
+			say = "沒事，你看指揮官不也說了嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			optionFlag = 1,
 			actor = 201030,
 			nameColor = "#a9f548",
-			say = "不过……",
+			say = "不過……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			optionFlag = 1,
 			actor = 201020,
 			nameColor = "#a9f548",
-			say = "交给指挥官就行了吧。热心，咱们可以先忙完那边再回来啊。",
+			say = "交給指揮官就行了吧。熱心，咱們可以先忙完那邊再回來啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			optionFlag = 2,
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "指挥官，她们还有那边要忙，这里有我们俩就够了吧……",
+			say = "指揮官，她們還有那邊要忙，這裡有我們倆就夠了吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			optionFlag = 2,
 			actor = 201030,
 			nameColor = "#a9f548",
-			say = "我们没事的！本来就是我们自己说要给光荣帮忙的……",
+			say = "我們沒事的！本來就是我們自己說要給光榮幫忙的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			optionFlag = 2,
 			actor = 201020,
 			nameColor = "#a9f548",
-			say = "热心你过来……（窃窃私语）……好了，我们就先去收拾那边了。",
+			say = "熱心你過來……（竊竊私語）……好了，我們就先去收拾那邊了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拜托你们啦。……好了，指挥官我们也干活吧！",
+			say = "拜託你們啦。……好了，指揮官我們也幹活吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "要做的事情本身并没有难度，但是这么多的大型装备，就算是空母光荣也有些吃不消。……感觉驱逐舰们确实帮不上什么忙。",
+			say = "要做的事情本身並沒有難度，但是這麼多的大型裝備，就算是航母光榮也有些吃不消。……感覺驅逐艦們確實幫不上什麼忙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "光荣她没事吧……",
+			say = "光榮她沒事吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

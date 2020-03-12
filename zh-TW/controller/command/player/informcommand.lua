@@ -7,6 +7,12 @@ class("InformCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		return
 	end
 
+	if getProxy(PlayerProxy):getRawData().level < 20 then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("inform_level_limit"))
+
+		return
+	end
+
 	pg.ConnectionMgr.GetInstance():Send(50111, {
 		id = slot3,
 		info = slot4,

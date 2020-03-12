@@ -344,7 +344,7 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.SHARE_TASK_FINISHED then
 		slot0.viewComponent:updateTaskLayers()
 	elseif slot2 == GAME.ACT_NEW_PT_DONE then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
+		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot3.callback)
 	elseif slot2 == GAME.BEGIN_STAGE_DONE then
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
 	elseif slot2 == GAME.RETURN_AWARD_OP_DONE then

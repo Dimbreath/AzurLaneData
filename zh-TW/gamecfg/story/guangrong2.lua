@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"荣光的间奏曲\n\n<size=45>二 演习海域上</size>",
+					"榮光的間奏曲\n\n<size=45>二 演習海域上</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "港区近海·演习场",
+			say = "港區近海·演習場",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯，最终确认一下，今天的白鹰对皇家的空母运用演习，目标是将蛮啾驾驶的目标舰全部击破。",
+			say = "嗯，最終確認一下，今天的白鷹對皇家的航母運用演習，目標是將蠻啾駕駛的目標艦全部擊破。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "了解！擅长空母运用的白鹰机动队的各位，请务必让我学习一下！",
+			say = "瞭解！擅長航母運用的白鷹機動隊的各位，請務必讓我學習一下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "好啊好啊！就让我萨拉托加给你表演一下什么叫空母运用♪",
+			say = "好啊好啊！就讓我薩拉托加給你表演一下什麼叫航母運用♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			}
 		},
 		{
-			say = "呵呵，萨拉老师还是一如既往呢～",
+			say = "呵呵，薩拉老師還是一如既往呢～",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = -1,
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "先放出索敌机把目标……光荣？！",
+			say = "先放出索敵機把目標……光榮？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "虽然舰载机的搭载数量稍逊一筹，用我的38.1cm炮来场炮击战的话……咦？我不是空母吗……",
+			say = "雖然艦載機的搭載數量稍遜一籌，用我的38.1cm炮來場炮擊戰的話……咦？我不是航母嗎……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "诶，我怎么一个人先冲出来了啊！",
+			say = "欸，我怎麼一個人先衝出來了啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			}
 		},
 		{
-			say = "光荣，你跑得太快了啊！",
+			say = "光榮，你跑得太快了啊！",
 			side = 1,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_story_nepu1",
 			side = 2,
 			dir = 1,
-			say = "几小时后",
+			say = "幾小時後",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "舰载机回收OK！很好，今天的萨拉托加也是状态绝佳！看你们谁敢再说我“修理厂的偶像”！",
+			say = "艦載機回收OK！很好，今天的薩拉托加也是狀態絕佳！看你們誰敢再說我“修理廠的偶像”！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊……光荣你没事吧？",
+			say = "啊……光榮你沒事吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			}
 		},
 		{
-			say = "没、没事！总算把目标舰都击沉了！",
+			say = "沒、沒事！總算把目標艦都擊沉了！",
 			side = 0,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们可是捏了把冷汗啊……",
+			say = "我們可是捏了把冷汗啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "抱歉，给各位添麻烦了……",
+			say = "抱歉，給各位添麻煩了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			blackBg = true,
 			actor = 207060,
 			nameColor = "#a9f548",
-			say = "这么说来，皇家方舟还没到吗？她和我说过今天晚些时候会来参加的……",
+			say = "這麼說來，皇家方舟還沒到嗎？她和我說過今天晚些時候會來參加的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

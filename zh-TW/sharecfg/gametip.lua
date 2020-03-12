@@ -8828,15 +8828,15 @@ $3]],
 		tip = {
 			{
 				info = [[
-海域達成<color=#A9F548>三星條件</color>並達成<color=#A9F548>安全海域</color>後可開啟<color=#A9F548>周回模式</color>
+海域達成<color=#92fc63>三星條件</color>並達成<color=#92fc63>安全海域</color>後可開啟<color=#92fc63>周回模式</color>
 
 啟用周回模式後，海域將有以下變化：
 
-1 <color=#A9F548>通常海域（主線關卡）</color>
-困難模式中<color=#A9F548>不會出現</color>敵人護衛艦隊
-2 <color=#A9F548>活動關卡（特殊作戰）</color>
-1）敵人設置將會出現一部分變化，但仍然會出現護衛艦
-2）我方的移動格數<color=#A9F548>不會受到移動力限制</color>，可自由移動]]
+1 通常海域困難模式中<color=#92fc63>不會出現</color>敵人護衛艦隊
+2 活動關卡的敵人設置將會出現一部分變化
+3 活動關卡中我方的移動格數<color=#92fc63>不會受到移動力限制</color>，可自
+由移動
+4 關卡內會開啟<color=#92fc63>陣容鎖定</color>模式]]
 			}
 		}
 	},
@@ -9424,7 +9424,7 @@ Bofors 四聯40mm對空機炮？</color></size>]],
 		key = "attire_time_stamp"
 	},
 	pass_times = {
-		tip = "通关次数",
+		tip = "通關次數",
 		key = "pass_times"
 	},
 	list_empty_tip_billboardui = {
@@ -10765,7 +10765,7 @@ TIPS：
 		key = "indexsort_index"
 	},
 	indexsort_camp = {
-		tip = "陣營",
+		tip = "阵营",
 		key = "indexsort_camp"
 	},
 	indexsort_rarity = {
@@ -10791,6 +10791,96 @@ TIPS：
 	indexsort_rarityeng = {
 		tip = "RARITY",
 		key = "indexsort_rarityeng"
+	},
+	fightfail_up = {
+		tip = "是否退出本次戰鬥以前往其他關卡進行戰鬥<color=#92fc63>提升等級</color>？",
+		key = "fightfail_up"
+	},
+	fightfail_equip = {
+		tip = "是否退出本次戰鬥並前往船塢進行<color=#92fc63>裝備強化</color>？",
+		key = "fightfail_equip"
+	},
+	fight_strengthen = {
+		tip = "是否退出本次戰鬥並前往船塢進行<color=#92fc63>強化和突破</color>？",
+		key = "fight_strengthen"
+	},
+	fightfail_noequip = {
+		tip = "當前沒有裝備任何裝備，無法強化",
+		key = "fightfail_noequip"
+	},
+	fightfail_choiceequip = {
+		tip = "請點擊出擊艦船以對其進行<color=#92fc63>裝備強化</color>",
+		key = "fightfail_choiceequip"
+	},
+	fightfail_choicestrengthen = {
+		tip = "請點擊出擊艦船以對其進行<color=#92fc63>強化和突破</color>",
+		key = "fightfail_choicestrengthen"
+	},
+	sofmap_attention = {
+		key = "sofmap_attention",
+		tip = {
+			{
+				info = "通關下列指定關卡會獲得不同數量<color=#92fc63>「明石的禮品券」</color>\n 1.三章及以後的普通主線海域\n 2.活動關卡SP1、SP2、SP3"
+			}
+		}
+	},
+	sofmapsd_1 = {
+		tip = "呼喵？！準備好的禮品券丟了喵！\n指揮官，快幫幫{namecode:98}喵！",
+		key = "sofmapsd_1"
+	},
+	sofmapsd_2 = {
+		tip = "快幫{namecode:98}投放禮品券喵！\n會給指揮官報酬的喵！",
+		key = "sofmapsd_2"
+	},
+	sofmapsd_3 = {
+		tip = "呼喵！營業額提升了喵！\n感謝指揮官喵！",
+		key = "sofmapsd_3"
+	},
+	sofmapsd_4 = {
+		tip = "營業額目標達成喵！\n感謝指揮官喵！",
+		key = "sofmapsd_4"
+	},
+	inform_level_limit = {
+		tip = "檢舉將在指揮官等級達到20級後開放",
+		key = "inform_level_limit"
+	},
+	3match_tip = {
+		key = "3match_tip",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/3match_1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/3match_2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/3match_3"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	}
 }
 

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样就行了，我们的目的本来就不是胜利。热心，阿卡司塔，保护好运输船，改变航向，准备撤退！ ",
+			say = "這樣就行了，我們的目的本來就不是勝利。熱心，阿卡司塔，保護好運輸船，改變航向，準備撤退！ ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 		{
 			actorShadow = true,
 			side = 0,
-			actorName = "热心&阿卡司塔",
+			actorName = "熱心&阿卡司塔",
 			actor = 201030,
 			dir = -1,
 			hideOther = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然有我松懈的原因在，不过还是干得不错啊，铁血的小女孩，我们有机会再见吧～",
+			say = "雖然有我鬆懈的原因在，不過還是幹得不錯啊，鐵血的小女孩，我們有機會再見吧～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#D6341D",
 			side = 1,
 			dir = 1,
-			say = "啊啊啊啊！！可恶，竟然小看我……给我等着！",
+			say = "啊啊啊啊！！可惡，竟然小看我……給我等著！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

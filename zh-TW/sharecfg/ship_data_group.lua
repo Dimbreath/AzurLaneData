@@ -3488,6 +3488,86 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[82] = {
+		type = 1,
+		trans_skin = 201029,
+		trans_type = 1,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 2,
+		hide = 0,
+		index_id = 108,
+		group_type = 20102,
+		code = 82,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_skill = {
+			5051
+		},
+		description = {
+			{
+				"限時活動：光榮的一戰",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[83] = {
+		type = 1,
+		trans_skin = 201039,
+		trans_type = 1,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 2,
+		hide = 0,
+		index_id = 109,
+		group_type = 20103,
+		code = 83,
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_skill = {
+			1081
+		},
+		description = {
+			{
+				"限時活動：光榮的一戰",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[86] = {
 		type = 1,
 		trans_skin = 0,
@@ -5699,6 +5779,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[148] = {
+		type = 7,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 2,
+		hide = 0,
+		index_id = 178,
+		group_type = 20706,
+		code = 148,
+		property_hexagon = {
+			"E",
+			"E",
+			"B",
+			"D",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：光榮的一戰",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[149] = {
 		type = 13,
 		trans_skin = 0,
@@ -6114,7 +6225,7 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"進行輕型艦建造",
 				{
 					"GETBOAT",
 					{
@@ -8860,6 +8971,8 @@ pg.ship_data_group = {
 		80,
 		103,
 		81,
+		82,
+		83,
 		86,
 		87,
 		88,
@@ -8904,6 +9017,7 @@ pg.ship_data_group = {
 		376,
 		144,
 		145,
+		148,
 		149,
 		150,
 		336,

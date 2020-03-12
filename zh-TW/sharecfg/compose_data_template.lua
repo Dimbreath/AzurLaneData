@@ -287,14 +287,21 @@ pg.compose_data_template = {
 		id = 41,
 		material_num = 5
 	},
-	[43] = {
+	{
+		equip_id = 27240,
+		material_id = 42,
+		gold_num = 60,
+		id = 42,
+		material_num = 5
+	},
+	{
 		equip_id = 5340,
 		material_id = 43,
 		gold_num = 60,
 		id = 43,
 		material_num = 5
 	},
-	[44] = {
+	{
 		equip_id = 6140,
 		material_id = 44,
 		gold_num = 60,
@@ -1239,6 +1246,7 @@ pg.compose_data_template = {
 		39,
 		40,
 		41,
+		42,
 		43,
 		44,
 		10000,

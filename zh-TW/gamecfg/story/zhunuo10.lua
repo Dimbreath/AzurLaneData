@@ -12,7 +12,7 @@ return {
 			side = 2,
 			dir = 1,
 			stopbgm = true,
-			say = "（看起来不能遵守和皇家方舟的约定了……）",
+			say = "（看起來不能遵守和皇家方舟的約定了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（虽然嘴上这么说，但要是一开始我不放松警惕，没有松懈索敌，甚至我没有申请单独行动的话，事情就不会变成这样子吧……）",
+			say = "（雖然嘴上這麼說，但要是一開始我不放鬆警惕，沒有鬆懈索敵，甚至我沒有申請單獨行動的話，事情就不會變成這樣子吧……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（热心，阿卡司塔，两个好孩子，是姐姐对不起你们……）",
+			say = "（熱心，阿卡司塔，兩個好孩子，是姐姐對不起你們……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（我至少……没有给大家丢脸吧？）",
+			say = "（我至少……沒有給大家丟臉吧？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "愿荣光……与女王……同在！",
+			say = "願榮光……與女王……同在！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#D6341D",
 			dir = 1,
-			say = "你们没事吧——喂，怎么打成这样。",
+			say = "你們沒事吧——喂，怎麼打成這樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			nameColor = "#D6341D",
 			side = 0,
 			dir = 1,
-			say = "嗯？啊……没什么，没想到会这么难缠而已，真是个不错的对手……格奈森瑙，你没事吧？",
+			say = "嗯？啊……沒什麼，沒想到會這麼難纏而已，真是個不錯的對手……格奈森瑙，你沒事吧？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -121,7 +121,7 @@ return {
 			side = 1,
 			nameColor = "#D6341D",
 			dir = -1,
-			say = "嗯？啊，没事……战斗力毕竟有限，想要战胜我们是不可能的，但是……",
+			say = "嗯？啊，沒事……戰鬥力畢竟有限，想要戰勝我們是不可能的，但是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 1,
 			nameColor = "#D6341D",
 			dir = -1,
-			say = "但是我完全没有赢了的感觉……",
+			say = "但是我完全沒有贏了的感覺……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

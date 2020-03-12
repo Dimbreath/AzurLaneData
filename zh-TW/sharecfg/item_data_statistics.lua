@@ -656,7 +656,23 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
-	[43] = {
+	{
+		display = "海鬥士艦載戰鬥機T3設計圖",
+		rarity = 2,
+		type = 9,
+		name = "海鬥士艦載戰鬥機T3設計圖",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 42,
+		icon = "Equips/27200",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	{
 		display = "雙聯裝550mm魚雷T3設計圖",
 		rarity = 2,
 		type = 9,
@@ -672,7 +688,7 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
-	[44] = {
+	{
 		display = "雙聯裝100mm高炮T3設計圖",
 		rarity = 2,
 		type = 9,
@@ -53784,6 +53800,22 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59152] = {
+		display = "{namecode:98}特意準備的禮品券，不小心遺落在了各個出擊海域，回收後投入使用可提高商店營業額，活動結束後將會消失",
+		rarity = 2,
+		type = 98,
+		name = "{namecode:98}的禮品券",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59152,
+		icon = "Props/sofmap_pt",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		display = "三笠收藏的驅逐船模-茳",
 		rarity = 2,
@@ -55148,6 +55180,43 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[70051] = {
+		display = "可以獲得一個隨機T4裝備箱",
+		rarity = 4,
+		type = 5,
+		name = "隨機T4裝備箱",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 70051,
+		icon = "Props/30004",
+		display_icon = {
+			{
+				2,
+				30014,
+				1
+			},
+			{
+				2,
+				30024,
+				1
+			},
+			{
+				2,
+				30034,
+				1
+			},
+			{
+				2,
+				30044,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	all = {
 		1,
 		2,
@@ -55190,6 +55259,7 @@ pg.item_data_statistics = {
 		39,
 		40,
 		41,
+		42,
 		43,
 		44,
 		1001,
@@ -56367,6 +56437,7 @@ pg.item_data_statistics = {
 		59122,
 		59123,
 		59136,
+		59152,
 		59601,
 		59602,
 		59603,
@@ -56449,7 +56520,8 @@ pg.item_data_statistics = {
 		60021,
 		69908,
 		69909,
-		70050
+		70050,
+		70051
 	}
 }
 

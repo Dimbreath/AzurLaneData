@@ -5,9 +5,10 @@ function slot0.OnFirstFlush(slot0)
 	setActive(slot0.displayBtn, false)
 	setActive(slot0.awardTF, false)
 	onButton(slot0, slot0.battleBtn, function ()
-		slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.TASK, {
-			page = "activity"
-		})
+		slot0:emit(ActivityMediator.OPEN_LAYER, Context.New({
+			viewComponent = Match3GameView,
+			mediator = ContextMediator
+		}))
 	end, SFX_PANEL)
 
 	slot0.step = slot0:findTF("AD/switcher/phase2/Image/step")

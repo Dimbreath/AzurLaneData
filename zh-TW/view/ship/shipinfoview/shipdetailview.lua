@@ -242,22 +242,6 @@ function slot0.UpdateEquipments(slot0, slot1)
 			end, SFX_UI_DOCKYARD_EQUIPADD)
 		end
 	end
-
-	if slot0.contextData.openEquipUpgrade == true then
-		slot3 = 0
-
-		for slot9, slot10 in ipairs(slot5) do
-			if slot10 then
-				slot3 = slot3 + 1
-			end
-		end
-
-		if slot3 > 0 then
-			slot0:emit(ShipMainMediator.OPEN_EQUIP_UPGRADE, slot0:GetShipVO().id)
-		else
-			pg.TipsMgr:GetInstance():ShowTips("没有装备任何装备，无法强化")
-		end
-	end
 end
 
 function slot0.UpdateLock(slot0)

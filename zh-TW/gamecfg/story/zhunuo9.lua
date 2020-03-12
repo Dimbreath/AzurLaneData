@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比预想的要快呢……而且这次是两个吗……看起来是跑不掉了呢……",
+			say = "比預想的要快呢……而且這次是兩個嗎……看起來是跑不掉了呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "……你为什么还能这么冷静？",
+			say = "……你為什麼還能這麼冷靜？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -45,7 +45,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……该说任务完成……了吗？我所护送的目标已经和我们分开走向了另一条航道，你们出现在这里，就意味着那边已经安全了吧",
+			say = "嗯……該說任務完成……了嗎？我所護送的目標已經和我們分開走向了另一條航道，你們出現在這裡，就意味著那邊已經安全了吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "另外，现在告诉你们也无妨了吧。虽然不小心被你们抓到破绽，但从另一方面说也算是成功拖住你们了吧……那一边的行动……应该已经顺利完成了吧……",
+			say = "另外，現在告訴你們也無妨了吧。雖然不小心被你們抓到破綻，但從另一方面說也算是成功拖住你們了吧……那一邊的行動……應該已經順利完成了吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对我来说唯一的遗憾……就是要这两个孩子为我的失策买单了呢……",
+			say = "對我來說唯一的遺憾……就是要這兩個孩子為我的失策買單了呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我才不要抛下光荣姐姐不管！",
+			say = "我才不要拋下光榮姐姐不管！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "我也，不想一个人逃跑……",
+			say = "我也，不想一個人逃跑……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……我现在似乎有点理解皇家方舟了……",
+			say = "……我現在似乎有點理解皇家方舟了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 1,
 			nameColor = "#D6341D",
 			dir = -1,
-			say = "皇家的行动？！ 嘁……原来是这样吗！姐姐！我们没时间在这里浪费了！",
+			say = "皇家的行動？！ 嘁……原來是這樣嗎！姐姐！我們沒時間在這裡浪費了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 0,
 			nameColor = "#D6341D",
 			dir = 1,
-			say = "欸？！不打了吗？",
+			say = "欸？！不打了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "去或者留，就由不得你们了！",
+			say = "去或者留，就由不得你們了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 1,
 			nameColor = "#D6341D",
 			dir = -1,
-			say = "啧，难缠的家伙…没想到会变成这种状况……明明老鹰捕兔，却被蛇给缠住了……",
+			say = "嘖，難纏的傢伙…沒想到會變成這種狀況……明明老鷹捕兔，卻被蛇給纏住了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 0,
 			nameColor = "#D6341D",
 			dir = 1,
-			say = "管他是蛇还是兔子，只要解决掉就好了吧！",
+			say = "管他是蛇還是兔子，只要解決掉就好了吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 1,
 			nameColor = "#D6341D",
 			dir = -1,
-			say = "也只能这样了……",
+			say = "也只能這樣了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

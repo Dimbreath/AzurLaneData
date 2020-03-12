@@ -142,11 +142,11 @@ function slot0.onRegister(slot0)
 					table.insert(slot0, slot1:getShipById(slot0.id))
 				end)
 
-				if (#_.filter(_.filter, function (slot0)
+				if #_.filter(_.filter, function (slot0)
 					return slot0.type == DROP_TYPE_SHIP
 				end) + #_.filter(slot0, function (slot0)
 					return slot0.type == DROP_TYPE_NPC_SHIP
-				end) <= 20 and slot1.__cname == "MailMediator") or PLATFORM_CODE ~= PLATFORM_CH then
+				end) <= 20 or PLATFORM_CODE ~= PLATFORM_CH then
 					for slot7 = math.max(1, #slot3 - slot0 + 1), #slot3, 1 do
 						slot1:addSubLayers(Context.New({
 							mediator = NewShipMediator,

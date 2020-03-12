@@ -270,6 +270,11 @@ pg.player_resource = {
 		name = "longxiang2",
 		itemid = 59151
 	},
+	[146] = {
+		id = 146,
+		name = "sofmap_pt",
+		itemid = 59152
+	},
 	[1001] = {
 		id = 1001,
 		name = "vote2019_pt",
@@ -334,6 +339,9 @@ pg.player_resource = {
 		},
 		vote2019_pt = {
 			1001
+		},
+		sofmap_pt = {
+			146
 		},
 		longxiang2 = {
 			145
@@ -553,6 +561,7 @@ pg.player_resource = {
 		143,
 		144,
 		145,
+		146,
 		1001,
 		2001,
 		2002,

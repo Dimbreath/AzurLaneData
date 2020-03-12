@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#D6341D",
 			dir = 1,
-			say = "啧，还以为钓到了大鱼……结果只是三条小鱼吗……",
+			say = "嘖，還以為釣到了大魚……結果只是三條小魚嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = -1,
-			say = "堂堂皇家空母光荣在现在的后辈眼里只是小鱼了吗？",
+			say = "堂堂皇家航母光榮在現在的後輩眼裡只是小魚了嗎？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -45,7 +45,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "在我看来，铁血竟然只派这点程度的来拦截我们才是真的可笑呢！",
+			say = "在我看來，鐵血竟然只派這點程度的來攔截我們才是真的可笑呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 0,
 			nameColor = "#D6341D",
 			dir = 1,
-			say = "哈？真敢说啊…去死吧！",
+			say = "哈？真敢說啊…去死吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "做得到的话就试看看吧！",
+			say = "做得到的話就試看看吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

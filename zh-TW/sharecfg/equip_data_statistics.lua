@@ -25542,6 +25542,266 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[27200] = {
+		name = "海鬥士",
+		type = 7,
+		id = 27200,
+		tech = 1,
+		nationality = 2,
+		speciality = "空戰",
+		range = 90,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "27200",
+		value_1 = "13/輪",
+		angle = 30,
+		avoid_extra = 0,
+		rarity = 1,
+		scatter = "無",
+		is_siren = 0,
+		ammo = "通常",
+		descrip = "說明未填寫",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			27200,
+			82200
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		}
+	},
+	[27201] = {
+		value_1 = "14/輪",
+		id = 27201,
+		base = 27200,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27201,
+			82201
+		},
+		property_rate = {}
+	},
+	[27202] = {
+		value_1 = "16/輪",
+		id = 27202,
+		base = 27200,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27202,
+			82202
+		},
+		property_rate = {}
+	},
+	[27203] = {
+		value_1 = "18/輪",
+		id = 27203,
+		base = 27200,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27203,
+			82203
+		},
+		property_rate = {}
+	},
+	[27220] = {
+		name = "海鬥士",
+		type = 7,
+		id = 27220,
+		tech = 2,
+		speciality = "空戰",
+		range = 90,
+		scatter = "無",
+		ambush_extra = 0,
+		value_2 = 5,
+		icon = "27200",
+		value_1 = "14/輪",
+		attribute_2 = "air",
+		avoid_extra = 0,
+		rarity = 2,
+		angle = 30,
+		nationality = 2,
+		ammo = "通常",
+		is_siren = 0,
+		descrip = "說明未填寫",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			27220,
+			82220
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		}
+	},
+	[27221] = {
+		value_1 = "15/輪",
+		id = 27221,
+		base = 27220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27221,
+			82221
+		},
+		property_rate = {}
+	},
+	[27222] = {
+		value_1 = "17/輪",
+		id = 27222,
+		base = 27220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27222,
+			82222
+		},
+		property_rate = {}
+	},
+	[27223] = {
+		value_1 = "19/輪",
+		id = 27223,
+		base = 27220,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27223,
+			82223
+		},
+		property_rate = {}
+	},
+	[27240] = {
+		name = "海鬥士",
+		type = 7,
+		id = 27240,
+		tech = 3,
+		speciality = "空戰",
+		range = 90,
+		scatter = "無",
+		ambush_extra = 0,
+		value_2 = 12,
+		icon = "27200",
+		value_1 = "16/輪",
+		attribute_2 = "air",
+		avoid_extra = 0,
+		rarity = 3,
+		angle = 30,
+		nationality = 2,
+		ammo = "通常",
+		is_siren = 0,
+		descrip = "說明未填寫",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			27240,
+			82240
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"FT"
+		}
+	},
+	[27241] = {
+		value_1 = "18/輪",
+		id = 27241,
+		base = 27240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27241,
+			82241
+		},
+		property_rate = {}
+	},
+	[27242] = {
+		value_1 = "20/輪",
+		id = 27242,
+		base = 27240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27242,
+			82242
+		},
+		property_rate = {}
+	},
+	[27243] = {
+		value_1 = "22/輪",
+		id = 27243,
+		base = 27240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27243,
+			82243
+		},
+		property_rate = {}
+	},
+	[27244] = {
+		value_1 = "24/輪",
+		id = 27244,
+		base = 27240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27244,
+			82244
+		},
+		property_rate = {}
+	},
+	[27245] = {
+		value_1 = "27/輪",
+		id = 27245,
+		base = 27240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27245,
+			82245
+		},
+		property_rate = {}
+	},
+	[27246] = {
+		value_1 = "30/輪",
+		id = 27246,
+		base = 27240,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			27246,
+			82246
+		},
+		property_rate = {}
+	},
 	[28000] = {
 		name = "劍魚",
 		type = 8,
@@ -54298,6 +54558,21 @@ pg.equip_data_statistics = {
 		27148,
 		27149,
 		27150,
+		27200,
+		27201,
+		27202,
+		27203,
+		27220,
+		27221,
+		27222,
+		27223,
+		27240,
+		27241,
+		27242,
+		27243,
+		27244,
+		27245,
+		27246,
 		28000,
 		28001,
 		28002,
