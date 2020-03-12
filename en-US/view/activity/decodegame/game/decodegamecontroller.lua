@@ -199,6 +199,8 @@ function slot0.UnlockMapItem(slot0, slot1)
 	if slot0.model.canUseCnt > 0 and not slot0.model:IsUnlock(slot1) then
 		seriesAsync({
 			function (slot0)
+				slot0.inSwitching = true
+
 				slot0.model:UnlockMapItem(slot0.model.UnlockMapItem)
 				slot0.view:UnlockMapItem(slot0.view.UnlockMapItem, slot0)
 			end,
@@ -214,6 +216,8 @@ function slot0.UnlockMapItem(slot0, slot1)
 					if slot0.saveDataCallback then
 						slot0.saveDataCallback()
 					end
+
+					slot0.inSwitching = nil
 				end
 
 				slot0:ShowTip()
@@ -245,6 +249,8 @@ function slot0.RepairMap(slot0)
 			if slot0.model:GetUnlockMapCnt() == DecodeGameConst.MAX_MAP_COUNT then
 				slot0.view:ShowHelper(2, slot0)
 			end
+
+			slot0.inSwitching = nil
 		end
 	})
 end

@@ -1973,6 +1973,21 @@ pg.memory_group = {
 			906
 		}
 	},
+	[547] = {
+		title = "Avrora and Her Jovial Friends ",
+		type = 3,
+		id = 547,
+		icon = "title_chara_afuleer",
+		memories = {
+			1142,
+			1143,
+			1144,
+			1145,
+			1146,
+			1147,
+			1148
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2091,7 +2106,8 @@ pg.memory_group = {
 		543,
 		544,
 		545,
-		546
+		546,
+		547
 	}
 }
 

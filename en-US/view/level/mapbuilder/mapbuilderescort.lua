@@ -10,28 +10,33 @@ function slot1.GetType(slot0)
 	return slot0.TYPEESCORT
 end
 
+function slot1.GetUIName(slot0)
+	return "escort_levels"
+end
+
 function slot1.OnInit(slot0)
-	slot0.tpl = slot0.tf:Find("level_tpl")
+	slot0.tpl = slot0.tf:Find("escort_level_tpl")
 	slot0.itemHolder = slot0.tf:Find("items")
 end
 
-function slot1.Update(slot0)
+function slot1.Update(slot0, slot1)
 	slot0.map.pivot = Vector2(0.5, 0.5)
 	slot0.float.pivot = Vector2(0.5, 0.5)
-	slot3 = 1
+	slot4 = 1
 
 	if slot0.map.rect.width / slot0.map.rect.height < slot0.tfParent.rect.width / slot0.tfParent.rect.height then
 		slot0.tf.localScale = Vector3(slot0.tfParent.rect.width / 1280, , 1)
 	else
 		slot0.tf.localScale = Vector3(slot0.tfParent.rect.height / 720, , 1)
 	end
+
+	slot0.super.Update(slot0, slot1)
 end
 
 function slot1.UpdateEscortInfo(slot0)
-	slot1 = slot0.data
-	slot2 = getProxy(ChapterProxy)
+	slot1 = getProxy(ChapterProxy)
 
-	setText(slot0.sceneParent.escortBar:Find("times/text"), slot2:getMaxEscortChallengeTimes() - slot2.escortChallengeTimes .. "/" .. slot3)
+	setText(slot0.sceneParent.escortBar:Find("times/text"), slot1:getMaxEscortChallengeTimes() - slot1.escortChallengeTimes .. "/" .. slot2)
 	onButton(slot0.sceneParent, slot0.sceneParent.mapHelpBtn, function ()
 		slot0:InvokeParent("HandleShowMsgBox", {
 			type = MSGBOX_TYPE_HELP,
@@ -43,11 +48,14 @@ end
 function slot1.UpdateMapItems(slot0)
 	slot0.super.UpdateMapItems(slot0)
 	slot0:UpdateEscortInfo()
+
+	slot1 = slot0.data
+
 	setActive(slot0.sceneParent.escortBar, true)
 	setActive(slot0.sceneParent.mapHelpBtn, true)
 
-	slot3 = _.detect(getProxy(ChapterProxy).escortMaps, function (slot0)
-		return slot0.id == map.id
+	slot4 = _.detect(getProxy(ChapterProxy).escortMaps, function (slot0)
+		return slot0.id == slot0.id
 	end).chapters
 
 	if not slot0.itemList then
@@ -60,7 +68,7 @@ function slot1.UpdateMapItems(slot0)
 		slot0.itemList = UIItemList.New(slot0.itemHolder, slot0.tpl)
 	end
 
-	slot4:align(#slot3)
+	slot5:align(#slot4)
 end
 
 function slot1.UpdateEscortItem(slot0, slot1, slot2, slot3)

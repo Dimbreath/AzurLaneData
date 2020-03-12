@@ -47,7 +47,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 				end
 			end
 		end
-	end, slot4, nil, false, (slot0._isUpdateAura and function (slot0)
+	end, slot4, nil, (slot0._isUpdateAura and function (slot0)
 		if slot0.Active then
 			for slot5, slot6 in ipairs(slot1) do
 				if slot6.GetUniqueID() == slot0.UID then

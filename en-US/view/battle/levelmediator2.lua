@@ -44,7 +44,6 @@ slot0.ON_COMMANDER_OP = "LevelMediator2:ON_COMMANDER_OP"
 slot0.CLICK_CHALLENGE_BTN = "LevelMediator2:CLICK_CHALLENGE_BTN"
 slot0.ON_SUBMIT_TASK = "LevelMediator2:ON_SUBMIT_TASK"
 slot0.ON_VOTE_BOOK = "LevelMediator2:ON_VOTE_BOOK"
-slot0.CHAPTER_RETREAT = "LevelMediator2:CHAPTER_RETREAT"
 
 function slot0.register(slot0)
 	slot1 = getProxy(PlayerProxy)

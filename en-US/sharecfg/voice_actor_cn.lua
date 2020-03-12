@@ -891,6 +891,10 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Masumi Tazawa",
 		code = 223
+	},
+	{
+		actor_name = "Sakura Nakamura",
+		code = 224
 	}
 }
 
