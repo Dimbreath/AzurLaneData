@@ -10765,7 +10765,7 @@ TIPS：
 		key = "indexsort_index"
 	},
 	indexsort_camp = {
-		tip = "阵营",
+		tip = "陣營",
 		key = "indexsort_camp"
 	},
 	indexsort_rarity = {
