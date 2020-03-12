@@ -87,6 +87,10 @@ pg.voice_bgm = {
 	SpringFestivalTownScene = {
 		scene = "SpringFestivalTownScene",
 		bgm = "story-china"
+	},
+	Match3GameUI = {
+		scene = "Match3GameUI",
+		bgm = "backyard"
 	}
 }
 

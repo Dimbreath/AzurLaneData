@@ -477,8 +477,7 @@ function slot5(slot0, slot1)
 	slot21 = slot3
 	slot22 = false
 	slot23 = slot5.modle_ID
-	slot24 = false
-	slot12 = slot12(slot13, slot14, slot15, slot16, slot17, slot18, slot19, slot20, slot21, slot22, slot23, slot24)
+	slot12 = slot12(slot13, slot14, slot15, slot16, slot17, slot18, slot19, slot20, slot21, slot22, slot23)
 	slot13 = slot2
 	slot13 = slot13.FRIENDLY_CODE
 
@@ -500,6 +499,12 @@ function slot5(slot0, slot1)
 			slot13(slot14, slot15)
 		end
 	end
+
+	slot14 = slot12
+	slot13 = slot12.SetFXStatic
+	slot15 = true
+
+	slot13(slot14, slot15)
 
 	slot14 = slot1
 	slot13 = slot1.SetAoeData

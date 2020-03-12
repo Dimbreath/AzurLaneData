@@ -181,7 +181,7 @@ function slot5.onRemoveBullet(slot0, slot1)
 end
 
 function slot5.onAddArea(slot0, slot1)
-	slot0:AddArea(slot1.Data.area, slot1.Data.FXID, slot1.Data.isStatic)
+	slot0:AddArea(slot1.Data.area, slot1.Data.FXID)
 end
 
 function slot5.onRemoveArea(slot0, slot1)
@@ -468,23 +468,15 @@ function slot5.AddAirCraftCharacter(slot0, slot1)
 	slot0._aircraftList[slot1:GetUnitData():GetUniqueID()] = slot1
 end
 
-function slot5.AddArea(slot0, slot1, slot2, slot3)
-	slot4 = slot0._fxPool:GetFX(slot2)
-	slot6 = false
+function slot5.AddArea(slot0, slot1, slot2)
+	slot3 = slot0._fxPool:GetFX(slot2)
+	slot5 = false
 
-	if pg.effect_offset[slot2] and slot5.top_cover_offset == true then
-		slot6 = true
+	if pg.effect_offset[slot2] and slot4.top_cover_offset == true then
+		slot5 = true
 	end
 
-	slot7 = slot0.Battle.BattleEffectArea.New(slot4, slot1, slot6)
-
-	if slot3 then
-		slot7:SetStatic()
-	else
-		slot7:ResetScale()
-	end
-
-	slot0._areaList[slot1:GetUniqueID()] = slot7
+	slot0._areaList[slot1:GetUniqueID()] = slot0.Battle.BattleEffectArea.New(slot3, slot1, slot5)
 end
 
 function slot5.RemoveArea(slot0, slot1)
@@ -496,10 +488,10 @@ function slot5.RemoveArea(slot0, slot1)
 end
 
 function slot5.AddArcEffect(slot0, slot1, slot2, slot3, slot4)
-	pg.EffectMgr.GetInstance():PlayBattleEffect(slot5, Vector3.zero, true, function ()
-		slot0:RemoveArcEffect(slot0)
-	end)
-	table.insert(slot0._arcEffectList, slot0.Battle.BattleArcEffect.New(slot5, slot2, slot3, slot4))
+	slot6 = slot0.Battle.BattleArcEffect.New(slot5, slot2, slot3, slot4)
+
+	slot6:ConfigCallback(slot7)
+	table.insert(slot0._arcEffectList, slot6)
 end
 
 function slot5.RemoveArcEffect(slot0, slot1)

@@ -139,7 +139,7 @@ function slot0.register(slot0)
 			end
 		end
 
-		slot21.onShip, slot21.confirmSelect, slot21.onSelected = slot1.getDockCallbackFuncs(slot0, slot1, slot2, slot4)
+		slot20.onShip, slot20.confirmSelect, slot20.onSelected = slot1.getDockCallbackFuncs(slot0, slot1, slot2, slot4)
 
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			selectedMax = 1,
@@ -154,12 +154,7 @@ function slot0.register(slot0)
 			confirmSelect = slot14,
 			onSelected = slot15,
 			flags = slot8,
-			preView = slot0.viewComponent.__cname,
-			blackBlockShipIds = getProxy(BayProxy):getBlackBlackShipIds(slot0.__cname, {
-				fleetId = slot2.id,
-				team = slot4,
-				activeShipId = slot7
-			})
+			preView = slot0.viewComponent.__cname
 		})
 	end)
 	slot0:bind(slot0.ON_SELECT_COMMANDER, function (slot0, slot1, slot2)
@@ -298,28 +293,6 @@ function slot0.checkChangeShip(slot0, slot1, slot2)
 	slot8 = getProxy(FleetProxy):getFleetByShip(slot2) and slot7.id == slot0.id
 
 	if not slot8 and (not slot1 or not slot1:isSameKind(slot2)) then
-		for slot12, slot13 in ipairs(slot0.ships) do
-			if slot5[slot13]:isSameKind(slot2) then
-				return false, i18n("ship_formationMediator_changeNameError_sameShip")
-			end
-		end
-	end
-
-	return true
-end
-
-function slot0.checkChangeShipForExercise(slot0, slot1, slot2)
-	slot5 = getProxy(BayProxy).getRawData(slot3)
-	slot6 = slot2.configId
-	slot7 = nil
-
-	for slot11, slot12 in pairs(getProxy(FleetProxy).getData(slot4)) do
-		if slot12:containShip(slot2) then
-			slot7 = slot12
-		end
-	end
-
-	if not (slot7 and slot7.id == slot0.id) and (not slot1 or not slot1:isSameKind(slot2)) then
 		for slot12, slot13 in ipairs(slot0.ships) do
 			if slot5[slot13]:isSameKind(slot2) then
 				return false, i18n("ship_formationMediator_changeNameError_sameShip")
@@ -513,7 +486,7 @@ function slot0.getDockCallbackFuncsForExercise(slot0, slot1, slot2, slot3)
 			end
 		end
 
-		slot3, slot4 = slot0.checkChangeShipForExercise(slot1, slot2, slot0)
+		slot3, slot4 = slot0.checkChangeShip(slot1, slot2, slot0)
 
 		if not slot3 then
 			return false, slot4

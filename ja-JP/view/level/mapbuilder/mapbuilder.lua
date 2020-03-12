@@ -5,9 +5,9 @@ slot0.TYPESKIRMISH = 3
 slot0.StateCtor = 1
 slot0.StateLoading = 2
 slot0.StateInit = 3
-slot0.StateShow = 4
-slot0.StateBlocked = 5
-slot0.StateDestroy = 6
+slot0.StateDestroy = 4
+slot0.StateShow = 1
+slot0.StateBlocked = 2
 
 function slot0.Ctor(slot0, slot1, slot2)
 	slot0.tfParent = slot1
@@ -15,6 +15,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.map = slot1:Find("map")
 	slot0.float = slot1:Find("float")
 	slot0.state = slot0.StateCtor
+	slot0.activeState = slot0.StateShow
 	slot0.tweens = {}
 	slot0.mapWidth = 1920
 	slot0.mapHeight = 1440
@@ -39,13 +40,11 @@ function slot0.Load(slot0, slot1)
 		slot0.name = slot0:GetUIName()
 		slot0.tf = tf(slot0)
 
-		if slot0.state < slot1.StateBlocked then
+		if slot0.state < slot1.StateInit then
 			slot0:Init()
 			slot0()
-		elseif slot0.state < slot1.StateDestroy then
-			slot0:Init()
 		else
-			PoolMgr.GetInstance:ReturnUI(slot0:GetUIName(), slot0)
+			PoolMgr.GetInstance():ReturnUI(slot0:GetUIName(), slot0)
 		end
 	end)
 
@@ -61,6 +60,10 @@ function slot0.Init(slot0)
 	slot0:OnInit()
 
 	slot0.state = slot0.StateInit
+
+
+	-- Decompilation error in this vicinity:
+	(slot0.activeState == slot0.StateShow and slot0.Show) or slot0.Hide(slot0)
 end
 
 function slot0.OnInit(slot0)
@@ -78,7 +81,7 @@ function slot0.Destroy(slot0)
 
 		slot0.tweens = nil
 
-		PoolMgr.GetInstance:ReturnUI(slot0:GetUIName(), go(slot0.tf))
+		PoolMgr.GetInstance():ReturnUI(slot0:GetUIName(), go(slot0.tf))
 	end
 
 	slot0.state = slot0.StateDestroy
@@ -98,7 +101,7 @@ function slot0.Show(slot0)
 		slot0:OnShow()
 	end
 
-	slot0.state = slot0.StateShow
+	slot0.activeState = slot0.StateShow
 end
 
 function slot0.OnShow(slot0)
@@ -122,7 +125,7 @@ function slot0.Hide(slot0)
 		setActive(slot0.tf, false)
 	end
 
-	slot0.state = slot0.StateBlocked
+	slot0.activeState = slot0.StateBlocked
 end
 
 function slot0.OnHide(slot0)
@@ -131,6 +134,10 @@ end
 
 function slot0.Update(slot0, slot1)
 	slot0.data = slot1
+end
+
+function slot0.RefreshMapItems(slot0)
+	return
 end
 
 function slot0.UpdateMapItems(slot0)
