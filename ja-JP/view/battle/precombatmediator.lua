@@ -160,7 +160,7 @@ function slot0.register(slot0)
 			activeShipId = slot6,
 			leastLimitMsg = i18n("battle_preCombatMediator_leastLimit"),
 			quitTeam = slot5,
-			blackBlockShipIds = getProxy(BayProxy):getBlackBlackShipIds(slot0.__cname, {
+			blackBlockShipIds = getProxy(BayProxy):GetBlackBlockShipIDsForFormation({
 				fleetId = slot2.id,
 				team = slot3,
 				activeShipId = slot6

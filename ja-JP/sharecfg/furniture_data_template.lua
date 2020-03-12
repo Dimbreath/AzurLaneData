@@ -1623,7 +1623,7 @@ pg.furniture_data_template = {
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
-		name = "桜花の勲章 ",
+		name = "桜花の勲章",
 		is_get_time_note = 1,
 		rarity = 5,
 		gain_by = "墨染まりし鋼の桜",
@@ -1745,7 +1745,7 @@ pg.furniture_data_template = {
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
-		name = "アイリスベル ",
+		name = "アイリスベル",
 		is_get_time_note = 1,
 		rarity = 5,
 		gain_by = "光と影のアイリス",
@@ -1781,7 +1781,7 @@ pg.furniture_data_template = {
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
-		name = "お祭り舞台 ",
+		name = "お祭り舞台",
 		is_get_time_note = 1,
 		rarity = 3,
 		gain_by = "",
@@ -1844,7 +1844,7 @@ pg.furniture_data_template = {
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
-		name = "ろーるぺーぱー ",
+		name = "ろーるぺーぱー",
 		is_get_time_note = 1,
 		rarity = 2,
 		gain_by = "",
@@ -2304,12 +2304,12 @@ pg.furniture_data_template = {
 	},
 	[149] = {
 		advice = 0,
-		describe = "東煌の伝統芸能「皮影（ピーイン）」をご覧あれー！ ",
+		describe = "東煌の伝統芸能「皮影（ピーイン）」をご覧あれー！",
 		count = 1,
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
-		name = "芝居舞台 ",
+		name = "芝居舞台",
 		is_get_time_note = 1,
 		rarity = 5,
 		gain_by = "",
@@ -2427,7 +2427,7 @@ pg.furniture_data_template = {
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
-		name = "帝国大記念章 ",
+		name = "帝国大記念章",
 		is_get_time_note = 1,
 		rarity = 5,
 		gain_by = "悲歎せし焔海の詩",
@@ -2501,6 +2501,76 @@ pg.furniture_data_template = {
 					"action",
 					true
 				}
+			}
+		},
+		interAction_group = {}
+	},
+	[156] = {
+		advice = 0,
+		describe = "これでムフフの写真を撮るのかにゃ～？",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "例の壁（公認）",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "soft_furicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 156,
+		picture = "",
+		comfortable = 5,
+		tag = 6,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"soft_furB",
+				"normal"
+			},
+			{
+				"soft_furT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"soft_furCharControl"
 			}
 		},
 		interAction_group = {}
@@ -2908,6 +2978,109 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[169] = {
+		advice = 0,
+		describe = "メンタルキューブ技術を利用した新装置。カワイイは全部、思った通り！",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "メンタルゆるメーカー",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 0,
+		icon = "3Dprinticon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 169,
+		picture = "",
+		comfortable = 4,
+		tag = 6,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"3Dprint",
+				"normal",
+				{
+					"wawa1",
+					false,
+					{
+						"wawa2",
+						"wawa3",
+						"wawa4",
+						"wawa5",
+						"break"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[171] = {
+		advice = 0,
+		describe = "ソフマップへようこそ！ピョ",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "ソフマップ饅頭支店",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "sofmapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 171,
+		picture = "",
+		comfortable = 5,
+		tag = 6,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"sofmap",
+				"normal",
+				{
+					"stand1",
+					true,
+					{
+						"stand14",
+						"stand18"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		advice = 0,
 		describe = "ゆゆゆ友情パワーだぴょぴょぴょぴょ………",
@@ -2994,7 +3167,7 @@ pg.furniture_data_template = {
 	},
 	[100003] = {
 		advice = 0,
-		describe = "空を自由に飛びたい夢――今、叶う！ ",
+		describe = "空を自由に飛びたい夢――今、叶う！",
 		count = 1,
 		type = 11,
 		dir = 0,
@@ -64946,12 +65119,12 @@ pg.furniture_data_template = {
 	},
 	[60114] = {
 		advice = 0,
-		describe = "流すことで饅頭を異世界に転送――しないウォッシュレット",
+		describe = "流すことで饅頭を異世界に転送――しないアイテム",
 		count = 1,
 		type = 2,
 		dir = 0,
 		dorm_id = 0,
-		name = "饅頭ウォシュレット",
+		name = "饅頭トイレ",
 		is_get_time_note = 0,
 		rarity = 2,
 		gain_by = "",
@@ -65669,6 +65842,7 @@ pg.furniture_data_template = {
 		150,
 		151,
 		155,
+		156,
 		157,
 		160,
 		162,
@@ -65677,6 +65851,8 @@ pg.furniture_data_template = {
 		165,
 		166,
 		167,
+		169,
+		171,
 		100002,
 		100003,
 		100004,

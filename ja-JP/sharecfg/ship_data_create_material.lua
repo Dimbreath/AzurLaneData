@@ -15,7 +15,8 @@ pg.ship_data_create_material = {
 			"<color=#ffde38>SSレア</color>：7%",
 			"<color=#d797ff>Sレア</color>：12%",
 			"<color=#3dc6ff>レア</color>：51%",
-			"ノーマル：30%"
+			"ノーマル：30%",
+			"<color=#d797ff>龍驤</color>：1.4%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{
@@ -155,6 +156,24 @@ pg.ship_data_create_material = {
 			"ノーマル：30%"
 		}
 	},
+	{
+		use_gold = 600,
+		name = "小型艦・期間限定",
+		build_anim = "building",
+		type = 2,
+		ship_icon = "2",
+		build_voice = "",
+		use_item = 20001,
+		number_1 = 1,
+		id = 9,
+		icon = "build_4",
+		rate_tip = {
+			"<color=#ffde38>SSレア</color>：7%",
+			"<color=#d797ff>Sレア</color>：12%",
+			"<color=#3dc6ff>レア</color>：26%",
+			"ノーマル：55%"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -163,7 +182,8 @@ pg.ship_data_create_material = {
 		5,
 		6,
 		7,
-		8
+		8,
+		9
 	}
 }
 

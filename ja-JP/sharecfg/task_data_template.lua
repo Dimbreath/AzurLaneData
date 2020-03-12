@@ -18360,6 +18360,262 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5491] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5359,
+		type = 5,
+		name = "勝利の暁",
+		count_inherit = 0,
+		desc = "魚雷天ぷらを3個準備する（消費）",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "afuleer",
+		award_choice = "",
+		level = 1,
+		next_task = "5492",
+		visibility = 1,
+		story_id = "AFULEER1",
+		target_id_for_client = 50003,
+		id = 5491,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5492] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5360,
+		type = 5,
+		name = "ノスタルジック",
+		count_inherit = 0,
+		desc = "任意の艦を10回強化する",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "afuleer",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5493",
+		visibility = 1,
+		story_id = "AFULEER2",
+		target_id_for_client = 0,
+		id = 5492,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5493] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5361,
+		type = 5,
+		name = "歓迎会",
+		count_inherit = 0,
+		desc = "アヴローラを含めた艦隊で出撃し、20回勝利する",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "afuleer",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5494",
+		visibility = 1,
+		story_id = "AFULEER3",
+		target_id_for_client = 70201,
+		id = 5493,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "70201",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5494] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5362,
+		type = 5,
+		name = "老兵として",
+		count_inherit = 0,
+		desc = "アヴローラを含めた艦隊で3回デイリーチャレンジをクリアする",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "afuleer",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5495",
+		visibility = 1,
+		story_id = "AFULEER4",
+		target_id_for_client = 70201,
+		id = 5494,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "70201",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5495] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5363,
+		type = 5,
+		name = "アレスティング・ワイヤー",
+		count_inherit = 0,
+		desc = "アヴローラの親密度が100に到達",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "afuleer",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5496",
+		visibility = 1,
+		story_id = "AFULEER5",
+		target_id_for_client = 70201,
+		id = 5495,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "70201",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16022,
+				1
+			}
+		}
+	},
+	[5496] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5364,
+		type = 5,
+		name = "本当の力",
+		count_inherit = 0,
+		desc = "アヴローラを3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "afuleer",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5497",
+		visibility = 1,
+		story_id = "AFULEER6",
+		target_id_for_client = 702014,
+		id = 5496,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "702014",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5497] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5365,
+		type = 5,
+		name = "暁の光",
+		count_inherit = 0,
+		desc = "アヴローラのレベルが100に到達",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "afuleer",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "AFULEER7",
+		target_id_for_client = 70201,
+		id = 5497,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "70201",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		}
+	},
 	[6001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -83954,6 +84210,240 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[15415] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92715,
+		type = 6,
+		name = "【龙骧复刻】地图任务1",
+		count_inherit = 0,
+		desc = "SP1をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15416",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1320001,
+		id = 15415,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1320001",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15416] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92716,
+		type = 6,
+		name = "【龙骧复刻】地图任务2",
+		count_inherit = 0,
+		desc = "SP2をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15417",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1320002,
+		id = 15416,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1320002",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15417] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92717,
+		type = 6,
+		name = "【龙骧复刻】地图任务3",
+		count_inherit = 0,
+		desc = "SP3をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1320003,
+		id = 15417,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1320003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15418] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92718,
+		type = 6,
+		name = "【龙骧复刻】地图任务4",
+		count_inherit = 0,
+		desc = "SP1の☆3を達成",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15419",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1320001,
+		id = 15418,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1320001",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15419] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92719,
+		type = 6,
+		name = "【龙骧复刻】地图任务5",
+		count_inherit = 0,
+		desc = "SP2の☆3を達成",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15420",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1320002,
+		id = 15419,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1320002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15420] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92720,
+		type = 6,
+		name = "【龙骧复刻】地图任务6",
+		count_inherit = 0,
+		desc = "SP3の☆3を達成",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1320003,
+		id = 15420,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1320003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
 	[30201] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -92085,6 +92575,13 @@ pg.task_data_template = {
 		5485,
 		5486,
 		5487,
+		5491,
+		5492,
+		5493,
+		5494,
+		5495,
+		5496,
+		5497,
 		6001,
 		6002,
 		6003,
@@ -93888,6 +94385,12 @@ pg.task_data_template = {
 		15394,
 		15395,
 		15396,
+		15415,
+		15416,
+		15417,
+		15418,
+		15419,
+		15420,
 		30201,
 		30202,
 		31001,

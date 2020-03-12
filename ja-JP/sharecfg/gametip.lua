@@ -3082,7 +3082,7 @@ No.7 駆逐艦「鞍山」
 				info = "海上護衛の遊び方 "
 			},
 			{
-				info = "    1.開催期間：6月13日～27日；"
+				info = "    1.開催期間：3月19日～26日；"
 			},
 			{
 				info = "    2.海上護衛は、出現する敵艦隊と機雷に対処し、輸\n送船団が目標地点に辿り着くまで護衛するステージです\n；"
@@ -8936,11 +8936,11 @@ No.7 駆逐艦「鞍山」
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "「三隈」、「長月」常設追加！",
+		tip = "「アヴローラ」常設追加！",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "「大鳳」常設追加！",
+		tip = "「龍驤」の出現率UP!",
 		key = "buildship_special_tip"
 	},
 	open_skill_pos = {
@@ -9878,7 +9878,8 @@ No.7 駆逐艦「鞍山」
 2.イベントステージの敵の配置・行動ロジックが変化し
 ます。
 3.イベントステージで味方の<color=#92fc63>移動制限が解除され</color>、海域
-マップで自由に移動できます。]]
+マップで自由に移動できます。
+4.周回モードでは、「出撃確認skip」機能を使用できます]]
 			}
 		}
 	},
@@ -12848,6 +12849,96 @@ GET!
 	indexsort_rarityeng = {
 		tip = "RARITY",
 		key = "indexsort_rarityeng"
+	},
+	fightfail_up = {
+		tip = "全艦隊を海域から引き上げ（撤退）、海域選択画面に戻りますか？",
+		key = "fightfail_up"
+	},
+	fightfail_equip = {
+		tip = "全艦隊を海域から引き上げ（撤退）、ドックで装備を強化しますか？",
+		key = "fightfail_equip"
+	},
+	fight_strengthen = {
+		tip = "全艦隊を海域から引き上げ（撤退）、ドックで艦船の強化・限界突破を行いますか？",
+		key = "fight_strengthen"
+	},
+	fightfail_noequip = {
+		tip = "兵装が装備されていません",
+		key = "fightfail_noequip"
+	},
+	fightfail_choiceequip = {
+		tip = "装備を強化したい艦船を選択してください",
+		key = "fightfail_choiceequip"
+	},
+	fightfail_choicestrengthen = {
+		tip = "強化・限界突破する艦船を選んでください",
+		key = "fightfail_choicestrengthen"
+	},
+	sofmap_attention = {
+		key = "sofmap_attention",
+		tip = {
+			{
+				info = "通关下列指定关卡会获得不同数量的代金券\n    三章及以后的普通主线海域\n   活动关卡SP1、SP2、SP3"
+			}
+		}
+	},
+	sofmapsd_1 = {
+		tip = "うにゃ！？クーポンを海域に\n落としたにゃ！指揮官、助けて\nにゃ！",
+		key = "sofmapsd_1"
+	},
+	sofmapsd_2 = {
+		tip = "クーポンを明石に渡して、\nご褒美を受け取ってにゃ！",
+		key = "sofmapsd_2"
+	},
+	sofmapsd_3 = {
+		tip = "ムフフ、これで売上がUPにゃ！",
+		key = "sofmapsd_3"
+	},
+	sofmapsd_4 = {
+		tip = "営業目標達成にゃ！\n指揮官、ありがとにゃ！",
+		key = "sofmapsd_4"
+	},
+	inform_level_limit = {
+		tip = "指揮官レベル20で開放されます",
+		key = "inform_level_limit"
+	},
+	3match_tip = {
+		key = "3match_tip",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/3match_1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/3match_2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/3match_3"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	}
 }
 

@@ -347,7 +347,7 @@ end
 
 function slot0.initTestShowDrop(slot0, slot1, slot2)
 	if Application.isEditor then
-		if IsNil(GameObject.Find("OverlayCamera/Overlay/UIMain/Msgbox(Clone)").transform:Find("button_test_show_drop")) then
+		if IsNil(pg.MsgboxMgr.GetInstance()._go.transform:Find("button_test_show_drop")) then
 			GameObject.New("button_test_show_drop").AddComponent(slot4, typeof(Button))
 			GameObject.New("button_test_show_drop").AddComponent(slot4, typeof(RectTransform))
 			GameObject.New("button_test_show_drop"):AddComponent(typeof(Image))
@@ -374,7 +374,7 @@ function slot0.initTestShowDrop(slot0, slot1, slot2)
 end
 
 function slot0.clearTestShowDrop(slot0)
-	if Application.isEditor and not IsNil(GameObject.Find("OverlayCamera/Overlay/UIMain/Msgbox(Clone)").transform:Find("button_test_show_drop")) then
+	if Application.isEditor and not IsNil(pg.MsgboxMgr.GetInstance()._go.transform:Find("button_test_show_drop")) then
 		Destroy(slot2)
 	end
 end
