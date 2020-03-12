@@ -15,7 +15,8 @@ pg.ship_data_create_material = {
 			"<color=#ffde38>超稀有舰船</color>：7%",
 			"<color=#d797ff>精锐舰船</color>：12%",
 			"<color=#3dc6ff>稀有舰船</color>：51%",
-			"普通舰船：30%"
+			"普通舰船：30%",
+			"<color=#d797ff>{namecode:90}</color>：1.4%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{
@@ -155,6 +156,24 @@ pg.ship_data_create_material = {
 			"普通舰船：30%"
 		}
 	},
+	{
+		use_gold = 600,
+		name = "轻型限时建造",
+		build_anim = "building",
+		type = 2,
+		ship_icon = "2",
+		build_voice = "",
+		use_item = 20001,
+		number_1 = 1,
+		id = 9,
+		icon = "build_4",
+		rate_tip = {
+			"<color=#ffde38>超稀有舰船</color>：7%",
+			"<color=#d797ff>精锐舰船</color>：12%",
+			"<color=#3dc6ff>稀有舰船</color>：26%",
+			"普通舰船：55%"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -163,7 +182,8 @@ pg.ship_data_create_material = {
 		5,
 		6,
 		7,
-		8
+		8,
+		9
 	}
 }
 

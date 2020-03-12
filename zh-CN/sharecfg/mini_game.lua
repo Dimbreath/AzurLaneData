@@ -352,6 +352,19 @@ pg.mini_game = {
 		hub_id = 7,
 		request_data = 1
 	},
+	{
+		name = "消消乐",
+		view_name = "Match3GameView",
+		mediator_name = "MiniHubMediator",
+		type = 2,
+		simple_config_data = "",
+		config_csv_key = "",
+		config_data = "",
+		config_csv = "",
+		id = 12,
+		hub_id = 8,
+		request_data = 1
+	},
 	all = {
 		1,
 		2,
@@ -363,7 +376,8 @@ pg.mini_game = {
 		8,
 		9,
 		10,
-		11
+		11,
+		12
 	}
 }
 

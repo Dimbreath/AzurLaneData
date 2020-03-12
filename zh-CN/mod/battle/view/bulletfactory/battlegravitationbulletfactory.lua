@@ -341,10 +341,9 @@ function slot2(slot0, slot1, slot2)
 	slot26 = slot0
 	slot25 = slot0.GetFXID
 	slot25 = slot25(slot26)
-	slot26 = false
-	slot27 = slot14
+	slot26 = slot14
 
-	slot15(slot16, slot17, slot18, slot19, slot20, slot21, slot22, slot23, slot24, slot25, slot26, slot27)
+	slot15(slot16, slot17, slot18, slot19, slot20, slot21, slot22, slot23, slot24, slot25, slot26)
 end
 
 slot1.onBulletHitFunc = slot2

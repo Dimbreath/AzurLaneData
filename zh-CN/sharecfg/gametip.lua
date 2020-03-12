@@ -3052,7 +3052,7 @@ pg.gametip = {
 				info = "护航关卡说明 "
 			},
 			{
-				info = "    1. 商路护航的开放时间为6月13日~6月27日；"
+				info = "    1. 商路护航的开放时间为3月19日~3月26日；"
 			},
 			{
 				info = "    2.每日有一次挑战机会，不可累积，进入关卡时扣除次\n数。关卡分为简单，普通，困难三个难度，玩家进入关卡\n即消耗挑战次数；"
@@ -6660,7 +6660,7 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 		key = "longxiang_total_count"
 	},
 	pt_count = {
-		tip = "目标$1：",
+		tip = "$1：",
 		key = "pt_count"
 	},
 	pt_total_count = {
@@ -9100,11 +9100,11 @@ $3]],
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "{namecode:58}、{namecode:160}建造追加！",
+		tip = "阿芙乐尔 建造追加！",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "{namecode:97} 建造追加！",
+		tip = "{namecode:90} 限时建造！",
 		key = "buildship_special_tip"
 	},
 	open_skill_pos = {
@@ -9998,7 +9998,8 @@ $3]],
 1 通常海域困难模式中<color=#92fc63>不会出现</color>敌人护卫舰队
 2 活动关卡的敌人设置将会出现一部分变化
 3 活动关卡中我方的移动格数<color=#92fc63>不会受到移动力限制</color>，可自
-由移动]]
+由移动
+4 关卡内会开启<color=#92fc63>阵容锁定</color>模式]]
 			}
 		}
 	},
@@ -12622,6 +12623,96 @@ TIPS：
 	indexsort_rarityeng = {
 		tip = "RARITY",
 		key = "indexsort_rarityeng"
+	},
+	fightfail_up = {
+		tip = "是否退出本次战斗以前往其他关卡进行战斗<color=#92fc63>提升等级</color>？",
+		key = "fightfail_up"
+	},
+	fightfail_equip = {
+		tip = "是否退出本次战斗并前往船坞进行<color=#92fc63>装备强化</color>？",
+		key = "fightfail_equip"
+	},
+	fight_strengthen = {
+		tip = "是否退出本次战斗并前往船坞进行<color=#92fc63>强化和突破</color>？",
+		key = "fight_strengthen"
+	},
+	fightfail_noequip = {
+		tip = "当前没有装备任何装备，无法强化",
+		key = "fightfail_noequip"
+	},
+	fightfail_choiceequip = {
+		tip = "请点击出击舰船以对其进行<color=#92fc63>装备强化</color>",
+		key = "fightfail_choiceequip"
+	},
+	fightfail_choicestrengthen = {
+		tip = "请点击出击舰船以对其进行<color=#92fc63>强化和突破</color>",
+		key = "fightfail_choicestrengthen"
+	},
+	sofmap_attention = {
+		key = "sofmap_attention",
+		tip = {
+			{
+				info = "通关下列指定关卡会获得不同数量<color=#92fc63>「茗的礼品券」</color>\n    1.三章及以后的普通主线海域\n    2.活动关卡SP1、SP2、SP3"
+			}
+		}
+	},
+	sofmapsd_1 = {
+		tip = "呼喵？！准备好的礼品券丢了喵！\n指挥官，快帮帮{namecode:98}喵！ ",
+		key = "sofmapsd_1"
+	},
+	sofmapsd_2 = {
+		tip = "快帮{namecode:98}投放礼品券喵！\n会给指挥官报酬的喵！",
+		key = "sofmapsd_2"
+	},
+	sofmapsd_3 = {
+		tip = "呼喵！营业额提升了喵！\n感谢指挥官喵！ ",
+		key = "sofmapsd_3"
+	},
+	sofmapsd_4 = {
+		tip = "营业额目标达成喵！\n感谢指挥官喵！",
+		key = "sofmapsd_4"
+	},
+	inform_level_limit = {
+		tip = "举报将在指挥官等级达到20级后开放 ",
+		key = "inform_level_limit"
+	},
+	3match_tip = {
+		key = "3match_tip",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/3match_1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/3match_2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/3match_3"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	}
 }
 
