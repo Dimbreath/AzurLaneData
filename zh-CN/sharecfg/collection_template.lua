@@ -488,7 +488,7 @@ pg.collection_template = {
 		drop_display = {
 			{
 				id = 59000,
-				nums = "360",
+				nums = "720",
 				type = 2
 			},
 			{
@@ -1234,7 +1234,7 @@ pg.collection_template = {
 		title = "保卫运输部队Ⅰ",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
-		exp = 570,
+		exp = 600,
 		oil = 5,
 		id = 10103,
 		icon = "jianduixunlian",
@@ -1268,7 +1268,7 @@ pg.collection_template = {
 		title = "解救商船Ⅰ",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
-		exp = 840,
+		exp = 900,
 		oil = 5,
 		id = 10104,
 		icon = "jianduixunlian",
@@ -5958,11 +5958,11 @@ pg.collection_template = {
 		ship_num = 3,
 		time = 0,
 		type = 5,
-		collect_time = 18000,
+		collect_time = 21600,
 		title = "小型商船护卫",
-		drop_gold_max = 350,
+		drop_gold_max = 450,
 		drop_oil_max = 0,
-		exp = 600,
+		exp = 720,
 		oil = 0,
 		id = 40101,
 		icon = "jianduixunlian",
@@ -5976,17 +5976,17 @@ pg.collection_template = {
 		drop_display = {
 			{
 				id = 59000,
-				nums = "600",
+				nums = "720",
 				type = 2
 			},
 			{
 				id = 59001,
-				nums = "210~350",
+				nums = "260~450",
 				type = 2
 			},
 			{
 				id = 59006,
-				nums = "6~9",
+				nums = "7~10",
 				type = 2
 			}
 		},
@@ -6000,11 +6000,11 @@ pg.collection_template = {
 		ship_num = 2,
 		time = 0,
 		type = 5,
-		collect_time = 18000,
+		collect_time = 21600,
 		title = "近海防卫巡逻",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
-		exp = 1880,
+		exp = 2240,
 		oil = 0,
 		id = 40102,
 		icon = "jianduixunlian",
@@ -6019,7 +6019,7 @@ pg.collection_template = {
 		drop_display = {
 			{
 				id = 59000,
-				nums = "1880",
+				nums = "2240",
 				type = 2
 			}
 		},
@@ -6108,11 +6108,11 @@ pg.collection_template = {
 		ship_num = 3,
 		time = 0,
 		type = 5,
-		collect_time = 18000,
+		collect_time = 21600,
 		title = "小型商船护卫",
-		drop_gold_max = 350,
+		drop_gold_max = 450,
 		drop_oil_max = 0,
-		exp = 600,
+		exp = 720,
 		oil = 0,
 		id = 40105,
 		icon = "jianduixunlian",
@@ -6126,17 +6126,17 @@ pg.collection_template = {
 		drop_display = {
 			{
 				id = 59000,
-				nums = "600",
+				nums = "720",
 				type = 2
 			},
 			{
 				id = 59001,
-				nums = "210~350",
+				nums = "260~450",
 				type = 2
 			},
 			{
 				id = 59006,
-				nums = "6~9",
+				nums = "7~10",
 				type = 2
 			}
 		},
@@ -6190,11 +6190,11 @@ pg.collection_template = {
 		ship_num = 4,
 		time = 0,
 		type = 5,
-		collect_time = 21600,
+		collect_time = 25200,
 		title = "中型商船护卫",
-		drop_gold_max = 450,
+		drop_gold_max = 550,
 		drop_oil_max = 0,
-		exp = 720,
+		exp = 840,
 		oil = 0,
 		id = 40201,
 		icon = "jianduixunlian",
@@ -6209,17 +6209,17 @@ pg.collection_template = {
 		drop_display = {
 			{
 				id = 59000,
-				nums = "720",
+				nums = "840",
 				type = 2
 			},
 			{
 				id = 59001,
-				nums = "260~450",
+				nums = "300~550",
 				type = 2
 			},
 			{
 				id = 59006,
-				nums = "7~10",
+				nums = "9~13",
 				type = 2
 			}
 		},
@@ -6233,11 +6233,11 @@ pg.collection_template = {
 		ship_num = 4,
 		time = 0,
 		type = 5,
-		collect_time = 19800,
+		collect_time = 25200,
 		title = "海域浮标检查作业",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
-		exp = 2080,
+		exp = 2600,
 		oil = 0,
 		id = 40202,
 		icon = "jianduixunlian",
@@ -6252,7 +6252,7 @@ pg.collection_template = {
 		drop_display = {
 			{
 				id = 59000,
-				nums = "2080",
+				nums = "2600",
 				type = 2
 			}
 		},
@@ -6338,11 +6338,11 @@ pg.collection_template = {
 		ship_num = 4,
 		time = 0,
 		type = 5,
-		collect_time = 21600,
+		collect_time = 25200,
 		title = "中型商船护卫",
-		drop_gold_max = 450,
+		drop_gold_max = 550,
 		drop_oil_max = 0,
-		exp = 720,
+		exp = 840,
 		oil = 0,
 		id = 40205,
 		icon = "jianduixunlian",
@@ -6357,17 +6357,17 @@ pg.collection_template = {
 		drop_display = {
 			{
 				id = 59000,
-				nums = "720",
+				nums = "840",
 				type = 2
 			},
 			{
 				id = 59001,
-				nums = "260~450",
+				nums = "300~550",
 				type = 2
 			},
 			{
 				id = 59006,
-				nums = "7~10",
+				nums = "9~13",
 				type = 2
 			}
 		},
@@ -6464,11 +6464,11 @@ pg.collection_template = {
 		ship_num = 5,
 		time = 0,
 		type = 5,
-		collect_time = 21600,
+		collect_time = 28800,
 		title = "前沿基地防卫巡逻",
 		drop_gold_max = 0,
 		drop_oil_max = 0,
-		exp = 2240,
+		exp = 3000,
 		oil = 0,
 		id = 40302,
 		icon = "jianduixunlian",
@@ -6485,7 +6485,7 @@ pg.collection_template = {
 		drop_display = {
 			{
 				id = 59000,
-				nums = "2240",
+				nums = "3000",
 				type = 2
 			}
 		},

@@ -91,6 +91,10 @@ function slot0.Disable(slot0)
 	end
 end
 
+function slot0.SetEnable(slot0, slot1)
+	setButtonEnabled(slot0.live2dBtn, slot1)
+end
+
 function slot0.AddListener(slot0, slot1)
 	slot0.callback = slot1
 end

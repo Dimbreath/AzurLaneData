@@ -43178,6 +43178,114 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[301056] = {
+		ship_group = 30105,
+		name = "特殊潜入作战披风",
+		bg_sp = "1102",
+		group_index = 6,
+		illustrator2 = -1,
+		desc = "这里是{namecode:6}，成功潜入指挥室。…啊，被指挥官发现了， 作战失败…的说",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "lingbo_9",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 14,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 4,
+		id = 301056,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "lingbo_9",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 32,
+		air_bomb_skin = "",
+		illustrator = 2,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1,
+					1.007,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.05,
+					0.977,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.03,
+					0.08,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.99,
+					1.01,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.55,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301057] = {
 		ship_group = 30105,
 		name = "冷静偶像·迷惑中",
@@ -63748,7 +63856,7 @@ pg.ship_skin_template = {
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "{namecode:136}级战列舰二番舰—{namecode:82}",
+		desc = "{namecode:136}级战列舰四番舰—{namecode:82}",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "sanli",
@@ -65120,6 +65228,102 @@ pg.ship_skin_template = {
 						{
 							-0.52,
 							2.27,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[306061] = {
+		ship_group = 30606,
+		name = "干物武士？",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "呼啊，睡得好饱…继续把昨晚的RPG游戏给……欸欸欸欸，主公，您您您您为什么会在这里！吾、吾绝没有懈怠，只、只是，呜……",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "longxiang_2",
+		air_bullet_skin = "",
+		shop_type_id = 9,
+		hand_id = 14,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "109",
+		skin_type = 0,
+		id = 306061,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "longxiang_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70124,
+		voice_actor = 163,
+		air_bomb_skin = "",
+		illustrator = 24,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.241,
+					1.062,
+					0
+				}
+			},
+			plane = {
+				{
+					1.194,
+					1.109,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.205,
+							2.353,
 							0
 						}
 					}
@@ -69339,6 +69543,114 @@ pg.ship_skin_template = {
 				{
 					1.007,
 					1.008,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.47,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[312014] = {
+		ship_group = 31201,
+		name = "欢迎光临Sofmap！",
+		bg_sp = "",
+		group_index = 4,
+		illustrator2 = -1,
+		desc = "呼呼呼，欢迎光临喵！想要找什么喵？让亲切待人又知识丰富的导购{namecode:98}来给你详细的建议喵！",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "mingshi_5",
+		air_bullet_skin = "",
+		shop_type_id = 9999,
+		hand_id = 14,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 0,
+		id = 312014,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "mingshi_5",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 28,
+		air_bomb_skin = "",
+		illustrator = 10,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.036,
+					1.416,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.039,
+					1.394,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.001,
+					0.001,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.074,
+					1.26,
 					0
 				}
 			}
@@ -80092,7 +80404,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 224,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -80200,7 +80512,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70231,
-		voice_actor = -1,
+		voice_actor = 224,
 		air_bomb_skin = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -81867,7 +82179,7 @@ pg.ship_skin_template = {
 	[702011] = {
 		ship_group = 70201,
 		name = "囚塔中的曙光公主",
-		bg_sp = "1102",
+		bg_sp = "1100",
 		group_index = 1,
 		illustrator2 = -1,
 		desc = "「我是阿芙乐尔，被囚禁于高塔的不幸公主…心爱的人啊，请尽快将我拯救出去吧…」",
@@ -104566,7 +104878,8 @@ pg.ship_skin_template = {
 			312010,
 			312011,
 			312012,
-			312013
+			312013,
+			312014
 		},
 		[30806] = {
 			308060,
@@ -104639,7 +104952,8 @@ pg.ship_skin_template = {
 			306071
 		},
 		[30606] = {
-			306060
+			306060,
+			306061
 		},
 		[30605] = {
 			306050,
@@ -105018,6 +105332,7 @@ pg.ship_skin_template = {
 			301053,
 			301054,
 			301055,
+			301056,
 			301057,
 			301058,
 			301059,
@@ -106174,6 +106489,7 @@ pg.ship_skin_template = {
 		301053,
 		301054,
 		301055,
+		301056,
 		301057,
 		301058,
 		301059,
@@ -106375,6 +106691,7 @@ pg.ship_skin_template = {
 		306051,
 		306059,
 		306060,
+		306061,
 		306070,
 		306071,
 		307010,
@@ -106417,6 +106734,7 @@ pg.ship_skin_template = {
 		312011,
 		312012,
 		312013,
+		312014,
 		317010,
 		331050,
 		401010,

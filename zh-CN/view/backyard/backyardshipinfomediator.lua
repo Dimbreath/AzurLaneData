@@ -67,11 +67,11 @@ function slot0.onSelecte(slot0, slot1, slot2, slot3)
 	if slot1 == BackYardShipInfoLayer.SHIP_TRAIN_TYPE then
 		slot14 = slot8
 		slot15 = slot9
-		slot13 = slot12:getBlackBlackShipIds(slot0.__cname)
+		slot13 = slot12:GetBlackBlockShipIDsForBackYard()
 	elseif slot1 == BackYardShipInfoLayer.SHIP_REST_TYPE then
 		slot14 = slot9
 		slot15 = slot8
-		slot13 = slot12:getBlackBlackShipIds(slot0.__cname)
+		slot13 = slot12:GetBlackBlockShipIDsForBackYard()
 	elseif slot1 == BackYardShipInfoLayer.SHIP_CLASS_TYPE then
 		slot6 = nil
 		slot5 = false
@@ -81,7 +81,7 @@ function slot0.onSelecte(slot0, slot1, slot2, slot3)
 		slot16 = _.filter(_.values(slot17), function (slot0)
 			return slot0.level < pg.gameset.level_get_proficency.key_value and table.contains(slot0, slot0:getShipType())
 		end)
-		slot13 = slot12:getBlackBlackShipIds(ClassMediator.__cname)
+		slot13 = slot12:GetBlackBlockShipIDsForClass()
 	end
 
 	slot17 = {}

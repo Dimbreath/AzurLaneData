@@ -442,6 +442,18 @@ slot1 = {
 	[ActivityConst.SN_PT_PAGE] = {
 		className = "SNPtPage",
 		uiName = "SNPtPage"
+	},
+	[ActivityConst.LONGXIANG_ACTIVITY_PT_ID] = {
+		className = "RyujoPtPage",
+		uiName = "ryujoptpage"
+	},
+	[ActivityConst.SOFMAP_PT_PAGE] = {
+		className = "SofmapPTPage",
+		uiName = "SofmapPTPage"
+	},
+	[ActivityConst.MATCH3_PAGE] = {
+		className = "Match3Page",
+		uiName = "match3page"
 	}
 }
 slot2 = {

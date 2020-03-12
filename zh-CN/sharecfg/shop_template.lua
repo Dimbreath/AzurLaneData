@@ -7954,6 +7954,60 @@ pg.shop_template = {
 			}
 		}
 	},
+	[60188] = {
+		group_type = 0,
+		resource_num = 120,
+		desc = "120钻石购买限时攻略补给",
+		type = 2,
+		is_auto_use = 1,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 1,
+		time_second = 0,
+		order = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 60188,
+		genre = "gift_package",
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				2
+			}
+		},
+		effect_args = {
+			40117
+		},
+		time = {
+			{
+				{
+					2020,
+					3,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[61001] = {
 		group_type = 0,
 		resource_num = 200,
@@ -14776,6 +14830,55 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70124] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：龙骧睡衣",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 1,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70124,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			306061
+		},
+		time = {
+			{
+				{
+					2020,
+					3,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[70125] = {
 		group_type = 0,
 		resource_num = 700,
@@ -16499,9 +16602,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 99,
+		order = 2,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -16516,9 +16619,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2019,
-					9,
-					19
+					2020,
+					3,
+					12
 				},
 				{
 					0,
@@ -16528,9 +16631,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2019,
-					10,
-					9
+					2020,
+					3,
+					18
 				},
 				{
 					23,
@@ -25679,6 +25782,7 @@ pg.shop_template = {
 		60185,
 		60186,
 		60187,
+		60188,
 		61001,
 		61002,
 		61003,
@@ -25811,6 +25915,7 @@ pg.shop_template = {
 		70121,
 		70122,
 		70123,
+		70124,
 		70125,
 		70126,
 		70127,

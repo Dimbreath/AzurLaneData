@@ -91,6 +91,7 @@ end
 function slot2.SetBossData(slot0, slot1)
 	slot0._bossBarInfoList = {}
 	slot0._HPBarTotalCount = slot1.hpBarNum or 1
+	slot0._hideBarNum = slot1.hideBarNum
 	slot0._bossIcon = slot0:GetUnitData():GetTemplate().icon
 	slot0._bossIndex = slot1.bossCount
 end
@@ -309,11 +310,37 @@ end
 function slot2.SetHPBarCountText(slot0)
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-6, warpins: 1 ---
-	slot0._HPBarCountText.text = "X " .. slot0._currentIndex
+	--- BLOCK #0 1-3, warpins: 1 ---
+	if slot0._hideBarNum then
 
-	return
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 4-7, warpins: 1 ---
+		slot0._HPBarCountText.text = "X??"
+		--- END OF BLOCK #0 ---
+
+
+
+	else
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 8-12, warpins: 1 ---
+		slot0._HPBarCountText.text = "X " .. slot0._currentIndex
+		--- END OF BLOCK #0 ---
+
+
+
+	end
+
 	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 13-13, warpins: 2 ---
+	return
+	--- END OF BLOCK #1 ---
 
 
 
