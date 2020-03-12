@@ -42,7 +42,7 @@ function slot1.spawnArea(slot0, slot1)
 		if slot0.Active then
 			slot0._battleProxy:GetUnitList()[slot0.UID]:RemoveBuff(slot0._battleProxy.GetUnitList()[slot0.UID])
 		end
-	end, slot0.GetTemplate().attach_buff[1].friendly, slot0.GetTemplate().attach_buff[1].effect_id, not slot1)
+	end, slot0.GetTemplate().attach_buff[1].friendly, slot0.GetTemplate().attach_buff[1].effect_id)
 
 	if slot1 then
 		slot0._flare = slot8

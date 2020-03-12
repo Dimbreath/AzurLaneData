@@ -200,6 +200,14 @@ function slot2.SetAnchorPointAlignment(slot0, slot1)
 	end
 end
 
+function slot2.GetFXStatic(slot0)
+	return slot0._fxStatic
+end
+
+function slot2.SetFXStatic(slot0, slot1)
+	slot0._fxStatic = slot1
+end
+
 function slot2.InitCldComponent(slot0)
 	if slot0._areaType == slot0.AreaType.CUBE then
 		slot0._cldComponent = slot1.Battle.BattleCubeCldComponent.New(slot0._width, slot0._tickness, slot0._height, 0, 0)

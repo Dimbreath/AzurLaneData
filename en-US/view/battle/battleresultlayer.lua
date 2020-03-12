@@ -20,12 +20,6 @@ slot0.ObjectiveList = {
 	"battle_preCombatLayer_damage_before_end",
 	"battle_result_defeat_all_enemys"
 }
-slot0.PowerUpBtn = {
-	EquipLevelUp = 2,
-	SkillLevelUp = 3,
-	ShipBreakUp = 4,
-	ShipLevelUp = 1
-}
 
 function slot0.getUIName(slot0)
 	return "BattleResultUI"
@@ -168,6 +162,10 @@ function slot0.setGradeLabel(slot0)
 
 	LoadImageSpriteAsync(slot4, slot2, false)
 	LoadImageSpriteAsync(slot5, slot3, false)
+
+	if (slot0.contextData.system == SYSTEM_SCENARIO or slot10 == SYSTEM_ROUTINE or slot10 == SYSTEM_SUB_ROUTINE or slot10 == SYSTEM_DUEL) and (slot6 == slot1[1] or slot6 == slot1[2]) then
+		slot0.failTag = true
+	end
 end
 
 function slot0.displayerCommanders(slot0, slot1)
@@ -2196,8 +2194,26 @@ function slot0.showRightBottomPanel(slot0)
 		if slot0.contextData.system == SYSTEM_DUEL then
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 7-13, warpins: 1 ---
-			slot0:emit(BattleResultMediator.ON_BACK_TO_DUEL_SCENE)
+			--- BLOCK #0 7-10, warpins: 1 ---
+			if slot0.failTag == true then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 11-17, warpins: 1 ---
+				slot0:emit(BattleResultMediator.OPEN_FAIL_TIP_LAYER)
+				--- END OF BLOCK #0 ---
+
+
+
+			else
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 18-24, warpins: 1 ---
+				slot0:emit(BattleResultMediator.ON_BACK_TO_DUEL_SCENE)
+				--- END OF BLOCK #0 ---
+
+
+
+			end
 			--- END OF BLOCK #0 ---
 
 
@@ -2205,8 +2221,26 @@ function slot0.showRightBottomPanel(slot0)
 		else
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 14-19, warpins: 1 ---
-			slot0:emit(BattleResultMediator.ON_BACK_TO_LEVEL_SCENE)
+			--- BLOCK #0 25-28, warpins: 1 ---
+			if slot0.failTag == true then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 29-35, warpins: 1 ---
+				slot0:emit(BattleResultMediator.OPEN_FAIL_TIP_LAYER)
+				--- END OF BLOCK #0 ---
+
+
+
+			else
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 36-41, warpins: 1 ---
+				slot0:emit(BattleResultMediator.ON_BACK_TO_LEVEL_SCENE)
+				--- END OF BLOCK #0 ---
+
+
+
+			end
 			--- END OF BLOCK #0 ---
 
 
@@ -2220,7 +2254,7 @@ function slot0.showRightBottomPanel(slot0)
 
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #1 20-20, warpins: 2 ---
+		--- BLOCK #1 42-42, warpins: 4 ---
 		return
 		--- END OF BLOCK #1 ---
 

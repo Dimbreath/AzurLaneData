@@ -2089,6 +2089,76 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[156] = {
+		advice = 0,
+		describe = "How would you like your picture taken today, nya~?",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "Photography Wall",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "soft_furicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 156,
+		picture = "",
+		comfortable = 5,
+		tag = 6,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"soft_furB",
+				"normal"
+			},
+			{
+				"soft_furT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"soft_furCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[157] = {
 		advice = 0,
 		describe = "\"We're glad to have communities as awesome as Azur Lane's and Hololive's!\"        <color=#ffde38>–A medal given for participating in \"The Duet of Falsehood and Truth\" event. </color> ",
@@ -2442,6 +2512,109 @@ pg.furniture_data_template = {
 			{
 				"maozixunzhang",
 				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[169] = {
+		advice = 0,
+		describe = "It's never been easier to make your dreams come true!",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "Dream Manifestation Device",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 0,
+		icon = "3Dprinticon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 169,
+		picture = "",
+		comfortable = 4,
+		tag = 6,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"3Dprint",
+				"normal",
+				{
+					"wawa1",
+					false,
+					{
+						"wawa2",
+						"wawa3",
+						"wawa4",
+						"wawa5",
+						"break"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[171] = {
+		advice = 0,
+		describe = "Welcome to Sofmap, peep!",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "Sofmap Manjuu Branch",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "sofmapicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 171,
+		picture = "",
+		comfortable = 5,
+		tag = 6,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"sofmap",
+				"normal",
+				{
+					"stand1",
+					true,
+					{
+						"stand14",
+						"stand18"
+					}
+				}
 			}
 		},
 		interAction_group = {}
@@ -56221,6 +56394,7 @@ pg.furniture_data_template = {
 		149,
 		151,
 		155,
+		156,
 		157,
 		160,
 		162,
@@ -56228,6 +56402,8 @@ pg.furniture_data_template = {
 		164,
 		165,
 		167,
+		169,
+		171,
 		1001,
 		1002,
 		1101,

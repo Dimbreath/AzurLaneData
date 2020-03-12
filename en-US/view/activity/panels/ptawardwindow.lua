@@ -22,7 +22,7 @@ function slot1(slot0, slot1, slot2, slot3)
 		if slot0 == UIItemList.EventUpdate then
 			setText(slot2:Find("title/Text"), "PHASE " .. slot1 + 1)
 			setText(slot2:Find("target/Text"), slot4)
-			setText(slot2:Find("target/title"), slot2.resTitle)
+			setText(slot2:Find("target/title"), HXSet.hxLan(slot2.resTitle))
 			updateDrop(slot2:Find("award"), slot5, {
 				hideName = true
 			})
@@ -56,7 +56,7 @@ function slot0.Show(slot0, slot1)
 	slot0(slot0, slot2, slot3, slot4)
 
 	slot0.totalTxt.text = slot5
-	slot0.totalTitleTxt.text = slot0.cntTitle
+	slot0.totalTitleTxt.text = HXSet.hxLan(slot0.cntTitle)
 
 	Canvas.ForceUpdateCanvases()
 	setActive(slot0._tf, true)

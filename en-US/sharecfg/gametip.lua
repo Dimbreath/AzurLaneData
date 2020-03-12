@@ -8886,7 +8886,7 @@ Combat Details:
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "Light: Destroyers, Light Cruisers,Repair Ships and more!",
+		tip = "Avrora is now permanently available! ",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
@@ -12120,6 +12120,96 @@ Event Rules:
 	indexsort_rarityeng = {
 		tip = "Rarity",
 		key = "indexsort_rarityeng"
+	},
+	fightfail_up = {
+		tip = "Would you like to retreat and return to the map select screen?",
+		key = "fightfail_up"
+	},
+	fightfail_equip = {
+		tip = "Would you like to retreat and go to the Dock to enhance gear?",
+		key = "fightfail_equip"
+	},
+	fight_strengthen = {
+		tip = "Would you like to retreat and go to the Dock to enhance or Limit Break ships?",
+		key = "fight_strengthen"
+	},
+	fightfail_noequip = {
+		tip = "No gear has been equipped.",
+		key = "fightfail_noequip"
+	},
+	fightfail_choiceequip = {
+		tip = "Select a ship with gear you would like to enhance.",
+		key = "fightfail_choiceequip"
+	},
+	fightfail_choicestrengthen = {
+		tip = "Select a ship that you would like to enhance or Limit Break.",
+		key = "fightfail_choicestrengthen"
+	},
+	sofmap_attention = {
+		key = "sofmap_attention",
+		tip = {
+			{
+				info = "Clear the following stages to earn different amounts of <color=#92fc63>\"Akashi Coupons\"</color>\n-Main Campaign stages after Chapter 3 \n-SP1, SP2, or SP3"
+			}
+		}
+	},
+	sofmapsd_1 = {
+		tip = "Oh nyeow! \nI've dropped my coupons in the ocean, nya! Help me out, Commander! ",
+		key = "sofmapsd_1"
+	},
+	sofmapsd_2 = {
+		tip = "Hand them in to me, \nand I'll give you some rewards, nya!",
+		key = "sofmapsd_2"
+	},
+	sofmapsd_3 = {
+		tip = "Hehehe! This'll boost my sales, nya!",
+		key = "sofmapsd_3"
+	},
+	sofmapsd_4 = {
+		tip = "We've hit our sales goal, nya! \nThanks a bunch, Commander!",
+		key = "sofmapsd_4"
+	},
+	inform_level_limit = {
+		tip = "Reporting is available after reaching Commander Lv. 20 ",
+		key = "inform_level_limit"
+	},
+	3match_tip = {
+		key = "3match_tip",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/3match_1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/3match_2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/3match_3"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	}
 }
 
