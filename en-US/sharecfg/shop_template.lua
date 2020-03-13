@@ -10329,7 +10329,7 @@ pg.shop_template = {
 		time = "always",
 		group = 0,
 		num = 1,
-		discount = 20,
+		discount = 0,
 		resource_type = 14,
 		id = 70125,
 		genre = "skin_shop",
@@ -11995,7 +11995,7 @@ pg.shop_template = {
 				{
 					2020,
 					3,
-					25
+					18
 				},
 				{
 					23,
