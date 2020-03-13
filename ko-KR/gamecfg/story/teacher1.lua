@@ -91,7 +91,7 @@ return {
 		{
 			actor = 402030,
 			side = 0,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "어, 언니… 그 '조교' 라는 건 역시 자제하는 편이……",
 			typewriter = {
@@ -136,7 +136,7 @@ return {
 		{
 			actor = 402030,
 			side = 0,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "우리 '문제아' 들은……",
 			typewriter = {

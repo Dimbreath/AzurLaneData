@@ -2527,7 +2527,7 @@ function slot8.SpawnCubeArea(slot0, slot1, slot2, slot3, slot4, slot5, slot6, sl
 
 end
 
-function slot8.SpawnLastingColumnArea(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10, slot11)
+function slot8.SpawnLastingColumnArea(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-2, warpins: 1 ---
@@ -2550,24 +2550,23 @@ function slot8.SpawnLastingColumnArea(slot0, slot1, slot2, slot3, slot4, slot5, 
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #1 4-48, warpins: 2 ---
-	slot13 = slot0.Battle.BattleLastingAOEData.New(slot12, slot2, slot6, slot7, slot11)
+	slot12 = slot0.Battle.BattleLastingAOEData.New(slot11, slot2, slot6, slot7, slot10)
 
-	slot13:SetPosition(slot3)
-	slot13:SetRange(slot4)
-	slot13:SetAreaType(slot1.AreaType.COLUMN)
-	slot13:SetLifeTime(slot5)
-	slot13:SetFieldType(slot1)
-	slot13:SetOpponentAffected(not slot8)
-	slot0:CreateAreaOfEffect(slot13)
+	slot12:SetPosition(slot3)
+	slot12:SetRange(slot4)
+	slot12:SetAreaType(slot1.AreaType.COLUMN)
+	slot12:SetLifeTime(slot5)
+	slot12:SetFieldType(slot1)
+	slot12:SetOpponentAffected(not slot8)
+	slot0:CreateAreaOfEffect(slot12)
 
 	if slot9 and slot9 ~= "" then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 51-64, warpins: 1 ---
+		--- BLOCK #0 51-63, warpins: 1 ---
 		slot0:DispatchEvent(slot0.Event.New(slot2.ADD_AREA, {
-			area = slot13,
-			FXID = slot9,
-			isStatic = slot10
+			area = slot12,
+			FXID = slot9
 		}))
 		--- END OF BLOCK #0 ---
 
@@ -2582,15 +2581,15 @@ function slot8.SpawnLastingColumnArea(slot0, slot1, slot2, slot3, slot4, slot5, 
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #2 65-65, warpins: 3 ---
-	return slot13
+	--- BLOCK #2 64-64, warpins: 3 ---
+	return slot12
 	--- END OF BLOCK #2 ---
 
 
 
 end
 
-function slot8.SpawnLastingCubeArea(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10, slot11, slot12)
+function slot8.SpawnLastingCubeArea(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10, slot11)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-2, warpins: 1 ---
@@ -2613,25 +2612,24 @@ function slot8.SpawnLastingCubeArea(slot0, slot1, slot2, slot3, slot4, slot5, sl
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #1 4-52, warpins: 2 ---
-	slot14 = slot0.Battle.BattleLastingAOEData.New(slot13, slot2, slot7, slot8, slot12)
+	slot13 = slot0.Battle.BattleLastingAOEData.New(slot12, slot2, slot7, slot8, slot11)
 
-	slot14:SetPosition(slot3)
-	slot14:SetWidth(slot4)
-	slot14:SetHeight(slot5)
-	slot14:SetAreaType(slot1.AreaType.CUBE)
-	slot14:SetLifeTime(slot6)
-	slot14:SetFieldType(slot1)
-	slot14:SetOpponentAffected(not slot9)
-	slot0:CreateAreaOfEffect(slot14)
+	slot13:SetPosition(slot3)
+	slot13:SetWidth(slot4)
+	slot13:SetHeight(slot5)
+	slot13:SetAreaType(slot1.AreaType.CUBE)
+	slot13:SetLifeTime(slot6)
+	slot13:SetFieldType(slot1)
+	slot13:SetOpponentAffected(not slot9)
+	slot0:CreateAreaOfEffect(slot13)
 
 	if slot10 and slot10 ~= "" then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 55-68, warpins: 1 ---
+		--- BLOCK #0 55-67, warpins: 1 ---
 		slot0:DispatchEvent(slot0.Event.New(slot2.ADD_AREA, {
-			area = slot14,
-			FXID = slot10,
-			isStatic = slot11
+			area = slot13,
+			FXID = slot10
 		}))
 		--- END OF BLOCK #0 ---
 
@@ -2646,8 +2644,8 @@ function slot8.SpawnLastingCubeArea(slot0, slot1, slot2, slot3, slot4, slot5, sl
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #2 69-69, warpins: 3 ---
-	return slot14
+	--- BLOCK #2 68-68, warpins: 3 ---
+	return slot13
 	--- END OF BLOCK #2 ---
 
 
@@ -2989,8 +2987,8 @@ function slot8.SpawnEnvironment(slot0, slot1)
 	if #slot1.cld_data == 1 then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 47-64, warpins: 1 ---
-		slot12 = slot0:SpawnLastingColumnArea(slot9, slot10, slot5, slot1.cld_data[1], slot11, slot6, slot7, false, slot1.prefab, false, slot8)
+		--- BLOCK #0 47-63, warpins: 1 ---
+		slot12 = slot0:SpawnLastingColumnArea(slot9, slot10, slot5, slot1.cld_data[1], slot11, slot6, slot7, false, slot1.prefab, slot8)
 		--- END OF BLOCK #0 ---
 
 
@@ -2998,8 +2996,8 @@ function slot8.SpawnEnvironment(slot0, slot1)
 	else
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 65-84, warpins: 1 ---
-		slot12 = slot0:SpawnLastingCubeArea(slot9, slot10, slot5, slot1.cld_data[1], slot1.cld_data[2], slot11, slot6, slot7, false, slot1.prefab, false, slot8)
+		--- BLOCK #0 64-82, warpins: 1 ---
+		slot12 = slot0:SpawnLastingCubeArea(slot9, slot10, slot5, slot1.cld_data[1], slot1.cld_data[2], slot11, slot6, slot7, false, slot1.prefab, slot8)
 		--- END OF BLOCK #0 ---
 
 
@@ -3013,7 +3011,7 @@ function slot8.SpawnEnvironment(slot0, slot1)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #3 85-92, warpins: 2 ---
+	--- BLOCK #3 83-90, warpins: 2 ---
 	slot3:SetAOEData(slot12)
 
 	slot0._environmentList[slot2] = slot3

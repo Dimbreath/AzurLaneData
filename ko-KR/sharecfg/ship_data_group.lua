@@ -6504,6 +6504,41 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[393] = {
+		type = 2,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 2,
+		hide = 0,
+		index_id = 150,
+		group_type = 20223,
+		code = 393,
+		property_hexagon = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
 	[119] = {
 		type = 3,
 		trans_skin = 203019,
@@ -8687,6 +8722,41 @@ pg.ship_data_group = {
 		index_id = 201,
 		group_type = 30123,
 		code = 173,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
+	[174] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 202,
+		group_type = 30124,
+		code = 174,
 		property_hexagon = {
 			"D",
 			"A",
@@ -15477,6 +15547,7 @@ pg.ship_data_group = {
 		408,
 		327,
 		328,
+		393,
 		119,
 		120,
 		337,
@@ -15527,6 +15598,7 @@ pg.ship_data_group = {
 		162,
 		171,
 		173,
+		174,
 		175,
 		176,
 		163,

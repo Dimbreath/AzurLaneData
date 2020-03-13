@@ -16108,6 +16108,57 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70196] = {
+		group_type = 0,
+		resource_num = 880,
+		desc = "购买皮肤：确捷",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 773,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 70196,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			202231
+		},
+		time = {
+			{
+				{
+					2020,
+					3,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[70203] = {
 		group_type = 0,
 		resource_num = 880,
@@ -21106,6 +21157,57 @@ pg.shop_template = {
 			}
 		}
 	},
+	[70304] = {
+		group_type = 0,
+		resource_num = 900,
+		desc = "购买皮肤：确捷旗袍",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 773,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 70304,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			202232
+		},
+		time = {
+			{
+				{
+					2020,
+					3,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[70305] = {
 		group_type = 0,
 		resource_num = 900,
@@ -21760,6 +21862,108 @@ pg.shop_template = {
 					2020,
 					2,
 					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70318] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：哥伦比亚情人节",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 773,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 70318,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			102101
+		},
+		time = {
+			{
+				{
+					2020,
+					3,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70319] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "购买皮肤：热心情人节",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 773,
+		group = 0,
+		num = 1,
+		isHX = 0,
+		showInAudit = 0,
+		discount = 0,
+		resource_type = 14,
+		id = 70319,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			201031
+		},
+		time = {
+			{
+				{
+					2020,
+					3,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					18
 				},
 				{
 					23,
@@ -24177,6 +24381,7 @@ pg.shop_template = {
 		70190,
 		70191,
 		70192,
+		70196,
 		70203,
 		70204,
 		70205,
@@ -24275,6 +24480,7 @@ pg.shop_template = {
 		70301,
 		70302,
 		70303,
+		70304,
 		70305,
 		70306,
 		70307,
@@ -24288,6 +24494,8 @@ pg.shop_template = {
 		70315,
 		70316,
 		70317,
+		70318,
+		70319,
 		70320,
 		70321,
 		70322,

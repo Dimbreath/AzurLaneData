@@ -742,44 +742,46 @@ function slot0.fileterShips(slot0, slot1)
 	return slot2
 end
 
-function slot0.getBlackBlackShipIds(slot0, slot1, slot2)
-	slot3 = {}
+function slot0.GetBlackBlockShipIDsForFormation(slot0, slot1)
+	slot2 = slot0:fileterShips({
+		inEvent = true
+	})
+	slot6 = slot0.data[slot1.activeShipId]
+	slot8 = getProxy(FleetProxy):getFleetById(slot3).getTeamByName(slot7, slot4)
 
-	if slot1 == FormationMediator.__cname or slot1 == PreCombatMediator.__cname then
-		slot3 = slot0:fileterShips({
-			inEvent = true
-		})
-		slot7 = slot0.data[slot2.activeShipId]
-		slot9 = getProxy(FleetProxy):getFleetById(slot4).getTeamByName(slot8, slot5)
+	for slot12, slot13 in pairs(slot0.data) do
+		for slot17, slot18 in pairs(slot8) do
+			slot19 = slot0.data[slot18]
 
-		for slot13, slot14 in pairs(slot0.data) do
-			for slot18, slot19 in pairs(slot9) do
-				slot20 = slot0.data[slot19]
-
-				if slot7 and slot7:isSameKind(slot14) then
-				elseif slot20:isSameKind(slot14) and slot20.id ~= slot14.id then
-					table.insert(slot3, slot14.id)
-				end
+			if slot6 and slot6:isSameKind(slot13) then
+			elseif slot19:isSameKind(slot13) and slot19.id ~= slot13.id then
+				table.insert(slot2, slot13.id)
 			end
 		end
-	elseif slot1 == EventMediator.__cname then
-		slot3 = slot0:fileterShips({
-			inSham = true,
-			inChapter = true,
-			inChallenge = true,
-			inEvent = true
-		})
-	elseif slot1 == BackYardShipInfoMediator.__cname then
-		slot3 = slot0:fileterShips({
-			inClass = true
-		})
-	elseif slot1 == ClassMediator.__cname then
-		slot3 = slot0:fileterShips({
-			inClass = true
-		})
 	end
 
-	return slot3
+	return slot2
+end
+
+function slot0.GetBlackBlockShipIDsForEvent(slot0)
+	return slot0:fileterShips({
+		inSham = true,
+		inChapter = true,
+		inChallenge = true,
+		inEvent = true
+	})
+end
+
+function slot0.GetBlackBlockShipIDsForBackYard(slot0)
+	return slot0:fileterShips({
+		inClass = true
+	})
+end
+
+function slot0.GetBlackBlockShipIDsForClass(slot0)
+	return slot0:fileterShips({
+		inClass = true
+	})
 end
 
 return slot0

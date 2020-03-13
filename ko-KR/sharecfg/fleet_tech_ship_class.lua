@@ -692,6 +692,17 @@ pg.fleet_tech_ship_class = {
 			29901
 		}
 	},
+	[20209] = {
+		shiptype = 2,
+		name = "스위프트슈어급 ",
+		t_level = 7,
+		id = 20209,
+		t_level_1 = 1,
+		nation = 2,
+		ships = {
+			20223
+		}
+	},
 	[20210] = {
 		shiptype = 2,
 		name = "글로스터급 ",
@@ -1006,6 +1017,7 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			30121,
 			30123,
+			30124,
 			30125,
 			30126
 		}
@@ -2054,6 +2066,7 @@ pg.fleet_tech_ship_class = {
 		20206,
 		20207,
 		20208,
+		20209,
 		20210,
 		20301,
 		20302,

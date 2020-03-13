@@ -5307,9 +5307,9 @@ pg.activity_template = {
 			timer,
 			{
 				{
-					2019,
-					12,
-					20
+					2020,
+					3,
+					13
 				},
 				{
 					0,
@@ -5319,9 +5319,9 @@ pg.activity_template = {
 			},
 			{
 				{
-					2019,
-					12,
-					29
+					2020,
+					3,
+					22
 				},
 				{
 					23,
@@ -12694,6 +12694,7 @@ pg.activity_template = {
 	[20384] = {
 		mark = 20200227,
 		title_res_tag = "shengdiyagefuke",
+		time = "stop",
 		type = 45,
 		login_pop = 0,
 		config_id = 0,
@@ -12717,33 +12718,6 @@ pg.activity_template = {
 				8980
 			},
 			7
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					2,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					3,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		bg = {
 			"clutter/activity_bg_shengdiyagefuke"
@@ -13461,6 +13435,128 @@ pg.activity_template = {
 					59
 				}
 			}
+		}
+	},
+	[20400] = {
+		mark = 20200312,
+		title_res_tag = "3match",
+		type = 57,
+		login_pop = 0,
+		config_id = 8,
+		is_show = 56,
+		id = 20400,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					3,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_3match"
+		},
+		config_client = {
+			gameId = 12,
+			drop = {
+				{
+					1,
+					1,
+					200
+				},
+				{
+					1,
+					2,
+					200
+				},
+				{
+					2,
+					54005,
+					3
+				},
+				{
+					2,
+					54016,
+					5
+				},
+				{
+					2,
+					54051,
+					3
+				},
+				{
+					2,
+					54006,
+					3
+				},
+				{
+					5,
+					169,
+					1
+				}
+			}
+		}
+	},
+	[20401] = {
+		mark = 20200312,
+		title_res_tag = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_20401",
+		bg = "",
+		id = 20401,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					3,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 2,
+			bg = "loadingbg/bg_build_2_act"
 		}
 	},
 	[25000] = {
@@ -14391,6 +14487,8 @@ pg.activity_template = {
 		20397,
 		20398,
 		20399,
+		20400,
+		20401,
 		25000,
 		25001,
 		25002,

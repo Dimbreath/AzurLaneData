@@ -4594,30 +4594,18 @@ function slot0.DoBreakAction(slot0)
 		function slot5(slot0)
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 1-9, warpins: 1 ---
-			if slot0:getDefeatStory(slot0.defeatCount) and type(slot2) == "number" and not pg.StoryMgr.GetInstance():IsPlayed(slot2) then
+			--- BLOCK #0 1-18, warpins: 1 ---
+			slot2 = slot0:getConfig("defeat_story")
+
+			table.eachAsync(slot0:getConfig("defeat_story_count"), function (slot0, slot1, slot2)
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #0 25-43, warpins: 1 ---
-				pg.m02:sendNotification(GAME.STORY_UPDATE, {
-					storyId = slot2
-				})
-				slot1:emit(LevelMediator2.ON_PERFORM_COMBAT, slot2, slot0)
-
-				return
-				--- END OF BLOCK #0 ---
-
-
-
-			else
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 44-45, warpins: 3 ---
-				if slot2 and type(slot2) == "string" then
+				--- BLOCK #0 1-4, warpins: 1 ---
+				if slot0.defeatCount < slot1 then
 
 					-- Decompilation error in this vicinity:
-					--- BLOCK #0 51-60, warpins: 1 ---
-					pg.StoryMgr.GetInstance():Play(slot2, slot0)
+					--- BLOCK #0 5-7, warpins: 1 ---
+					slot2()
 
 					return
 					--- END OF BLOCK #0 ---
@@ -4625,24 +4613,73 @@ function slot0.DoBreakAction(slot0)
 
 
 				end
+
 				--- END OF BLOCK #0 ---
 
-
-
-			end
-
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
+				FLOW; TARGET BLOCK #1
 
 
 
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 61-63, warpins: 4 ---
-			slot0()
+				-- Decompilation error in this vicinity:
+				--- BLOCK #1 8-11, warpins: 2 ---
+				if slot1[slot0] and type(slot3) == "number" and not pg.StoryMgr.GetInstance():IsPlayed(slot3) then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 27-44, warpins: 1 ---
+					pg.m02:sendNotification(GAME.STORY_UPDATE, {
+						storyId = slot3
+					})
+					slot2:emit(LevelMediator2.ON_PERFORM_COMBAT, slot3, slot2)
+					--- END OF BLOCK #0 ---
+
+
+
+				else
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 45-46, warpins: 3 ---
+					if slot3 and type(slot3) == "string" then
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 52-61, warpins: 1 ---
+						pg.StoryMgr.GetInstance():Play(slot3, slot2)
+						--- END OF BLOCK #0 ---
+
+
+
+					else
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 62-63, warpins: 2 ---
+						slot2()
+						--- END OF BLOCK #0 ---
+
+
+
+					end
+					--- END OF BLOCK #0 ---
+
+
+
+				end
+
+				--- END OF BLOCK #1 ---
+
+				FLOW; TARGET BLOCK #2
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #2 64-64, warpins: 3 ---
+				return
+				--- END OF BLOCK #2 ---
+
+
+
+			end, slot0)
 
 			return
-			--- END OF BLOCK #1 ---
+			--- END OF BLOCK #0 ---
 
 
 

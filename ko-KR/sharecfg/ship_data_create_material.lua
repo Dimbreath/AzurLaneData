@@ -33,7 +33,9 @@ pg.ship_data_create_material = {
 			"<color=#ffde38>SS Rare</color>：7%",
 			"<color=#d797ff>S Rare</color>：12%",
 			"<color=#3dc6ff>Rare</color>：26%",
-			"Normal：55%"
+			"Normal：55%",
+			"<color=#ffde38>스위프트슈어</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#3dc6ff>하츠시모</color>：5.0%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{
@@ -155,6 +157,24 @@ pg.ship_data_create_material = {
 			"Normal：30%"
 		}
 	},
+	{
+		use_gold = 600,
+		name = "소형함 한정건조",
+		build_anim = "building",
+		type = 2,
+		ship_icon = "2",
+		build_voice = "",
+		use_item = 20001,
+		number_1 = 1,
+		id = 9,
+		icon = "build_4",
+		rate_tip = {
+			"<color=#ffde38>SS Rare</color>：7%",
+			"<color=#d797ff>S Rare</color>：12%",
+			"<color=#3dc6ff>Rare</color>：26%",
+			"Normal：55%"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -163,7 +183,8 @@ pg.ship_data_create_material = {
 		5,
 		6,
 		7,
-		8
+		8,
+		9
 	}
 }
 

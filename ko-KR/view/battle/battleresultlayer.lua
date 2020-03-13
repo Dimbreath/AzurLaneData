@@ -20,12 +20,6 @@ slot0.ObjectiveList = {
 	"battle_preCombatLayer_damage_before_end",
 	"battle_result_defeat_all_enemys"
 }
-slot0.PowerUpBtn = {
-	EquipLevelUp = 2,
-	SkillLevelUp = 3,
-	ShipBreakUp = 4,
-	ShipLevelUp = 1
-}
 
 function slot0.getUIName(slot0)
 	return "BattleResultUI"
@@ -789,7 +783,13 @@ function slot0.showRightBottomPanel(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0._confirmBtn, function ()
 		if slot0.contextData.system == SYSTEM_DUEL then
-			slot0:emit(BattleResultMediator.ON_BACK_TO_DUEL_SCENE)
+			if slot0.failTag == true then
+				slot0:emit(BattleResultMediator.OPEN_FAIL_TIP_LAYER)
+			else
+				slot0:emit(BattleResultMediator.ON_BACK_TO_DUEL_SCENE)
+			end
+		elseif slot0.failTag == true then
+			slot0:emit(BattleResultMediator.OPEN_FAIL_TIP_LAYER)
 		else
 			slot0:emit(BattleResultMediator.ON_BACK_TO_LEVEL_SCENE)
 		end
