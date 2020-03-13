@@ -6632,7 +6632,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "longxiang_total_count"
 	},
 	pt_count = {
-		tip = "목표 $1",
+		tip = "$1：",
 		key = "pt_count"
 	},
 	pt_total_count = {
@@ -8886,7 +8886,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "유키카제 상시건조 추가",
+		tip = "하츠시모、스위프트슈어 상시건조 추가",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
@@ -12401,6 +12401,96 @@ TIPS:
 	indexsort_rarityeng = {
 		tip = "RARITY",
 		key = "indexsort_rarityeng"
+	},
+	fightfail_up = {
+		tip = "퇴각하고 다른 스테이지로 이동해 <color=#92fc63>레벨업</color>하시겠습니까?",
+		key = "fightfail_up"
+	},
+	fightfail_equip = {
+		tip = "퇴각하고 도크에서 <color=#92fc63>장비 강화</color>를 진행하시겠습니까?",
+		key = "fightfail_equip"
+	},
+	fight_strengthen = {
+		tip = "퇴각하고 도크에서 <color=#92fc63>강화 및 한계돌파</color>를 진행하시겠습니까?",
+		key = "fight_strengthen"
+	},
+	fightfail_noequip = {
+		tip = "강화 불가. 현재 아무 장비도 착용하고 있지 않습니다.",
+		key = "fightfail_noequip"
+	},
+	fightfail_choiceequip = {
+		tip = "함선을 터치하여 <color=#92fc63>장비 강화</color>를 진행하세요.",
+		key = "fightfail_choiceequip"
+	},
+	fightfail_choicestrengthen = {
+		tip = "함선을 터치하여 <color=#92fc63>강화 및 한계돌파</color>를 진행하세요.",
+		key = "fightfail_choicestrengthen"
+	},
+	sofmap_attention = {
+		key = "sofmap_attention",
+		tip = {
+			{
+				info = "다음의 지정 스테이지 클리어 시 각각 다른 수량의 <color=#92fc63>「아카시의 상품권」</color>을 획득합니다.\n 1. 제3장 및 이후의 일반 메인 해역\n 2. 이벤트 스테이지 SP1, SP2, SP3"
+			}
+		}
+	},
+	sofmapsd_1 = {
+		tip = "냐앙!? 준비한 상품권을 잃어버렸다냥!\n지휘관, 어서 {namecode:98}를 도와줘냥!",
+		key = "sofmapsd_1"
+	},
+	sofmapsd_2 = {
+		tip = "어서 {namecode:98}를 도와 상품권을 넣어 달라냥!\n지휘관에게 보수를 줄 것이다냥!",
+		key = "sofmapsd_2"
+	},
+	sofmapsd_3 = {
+		tip = "냐앙! 매출 금액이 상승했다냥!\n지휘관, 감사하다냥!",
+		key = "sofmapsd_3"
+	},
+	sofmapsd_4 = {
+		tip = "매출 금액이 목표를 달성했다냥!\n지휘관, 감사하다냥!",
+		key = "sofmapsd_4"
+	},
+	inform_level_limit = {
+		tip = "신고는 지휘관 레벨 20 달성 후 오픈됩니다.",
+		key = "inform_level_limit"
+	},
+	3match_tip = {
+		key = "3match_tip",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/3match_1"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/3match_2"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/3match_3"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	}
 }
 

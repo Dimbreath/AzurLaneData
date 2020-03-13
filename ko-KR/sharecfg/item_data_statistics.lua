@@ -3937,10 +3937,10 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[13000] = {
-		display = "381mm 연장 주포 개조 T0 설계도",
+		display = "381mm 연장포·改 T0 설계도",
 		rarity = 4,
 		type = 9,
-		name = "381mm 연장 주포 개조 T0 설계도",
+		name = "381mm 연장포·改 T0 설계도",
 		shop_id = -1,
 		shiptrans_id = 0,
 		virtual_type = 0,

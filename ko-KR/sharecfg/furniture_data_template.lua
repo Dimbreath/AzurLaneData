@@ -2518,6 +2518,59 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[169] = {
+		advice = 0,
+		describe = "상상을 현실로! 쥬!",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "매직 드림 머신",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 0,
+		icon = "3Dprinticon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 169,
+		picture = "",
+		comfortable = 4,
+		tag = 6,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"3Dprint",
+				"normal",
+				{
+					"wawa1",
+					false,
+					{
+						"wawa2",
+						"wawa3",
+						"wawa4",
+						"wawa5",
+						"break"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		advice = 0,
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
@@ -58168,12 +58221,12 @@ pg.furniture_data_template = {
 	},
 	[55120] = {
 		advice = 0,
-		describe = "hololive 테마의 냉장고. 물고기 말고도 미지의 생물이 있을지도……?",
+		describe = "hololive 테마의 수족관. 물고기 말고도 미지의 생물이 있을지도……?",
 		count = 1,
 		type = 2,
 		dir = 0,
 		dorm_id = 0,
-		name = "holo 냉장고",
+		name = "holo 수족관",
 		is_get_time_note = 0,
 		rarity = 4,
 		gain_by = "",
@@ -63917,6 +63970,7 @@ pg.furniture_data_template = {
 		164,
 		165,
 		167,
+		169,
 		100002,
 		100003,
 		100004,

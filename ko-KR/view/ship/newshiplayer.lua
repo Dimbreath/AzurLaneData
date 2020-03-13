@@ -688,7 +688,7 @@ function slot0.starsAnimation(slot0)
 	end)
 end
 
-function slot0.skipAnimation(slot0)
+function slot0.ClearTweens(slot0, slot1)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-5, warpins: 1 ---
@@ -810,11 +810,11 @@ function slot0.willExit(slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #5 48-50, warpins: 2 ---
-	if slot0.inAnimating then
+	if not slot0.isRemoulded then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 51-53, warpins: 1 ---
-		slot0:skipAnimation()
+		--- BLOCK #0 51-73, warpins: 1 ---
+		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_newShipLayer_get", pg.ship_data_by_type[slot0._shipVO:getShipType()].type_name, slot0._shipVO:getName()), COLOR_GREEN)
 		--- END OF BLOCK #0 ---
 
 
@@ -828,12 +828,15 @@ function slot0.willExit(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #6 54-56, warpins: 2 ---
-	if not slot0.isRemoulded then
+	--- BLOCK #6 74-87, warpins: 2 ---
+	slot0:recyclePainting()
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+
+	if slot0._currentVoice then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 57-79, warpins: 1 ---
-		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_newShipLayer_get", pg.ship_data_by_type[slot0._shipVO:getShipType()].type_name, slot0._shipVO:getName()), COLOR_GREEN)
+		--- BLOCK #0 88-92, warpins: 1 ---
+		slot0._currentVoice:Stop(true)
 		--- END OF BLOCK #0 ---
 
 
@@ -847,15 +850,16 @@ function slot0.willExit(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #7 80-93, warpins: 2 ---
-	slot0:recyclePainting()
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
+	--- BLOCK #7 93-97, warpins: 2 ---
+	slot0._currentVoice = nil
 
-	if slot0._currentVoice then
+	if slot0.loadedCVBankName then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 94-98, warpins: 1 ---
-		slot0._currentVoice:Stop(true)
+		--- BLOCK #0 98-104, warpins: 1 ---
+		pg.CriMgr.UnloadCVBank(slot0.loadedCVBankName)
+
+		slot0.loadedCVBankName = nil
 		--- END OF BLOCK #0 ---
 
 
@@ -869,16 +873,12 @@ function slot0.willExit(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #8 99-103, warpins: 2 ---
-	slot0._currentVoice = nil
-
-	if slot0.loadedCVBankName then
+	--- BLOCK #8 105-112, warpins: 2 ---
+	if LeanTween.isTweening(go(slot0.rarityTF)) then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 104-110, warpins: 1 ---
-		pg.CriMgr.UnloadCVBank(slot0.loadedCVBankName)
-
-		slot0.loadedCVBankName = nil
+		--- BLOCK #0 113-118, warpins: 1 ---
+		LeanTween.cancel(go(slot0.rarityTF))
 		--- END OF BLOCK #0 ---
 
 
@@ -892,17 +892,8 @@ function slot0.willExit(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #9 111-118, warpins: 2 ---
-	if LeanTween.isTweening(go(slot0.rarityTF)) then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 119-124, warpins: 1 ---
-		LeanTween.cancel(go(slot0.rarityTF))
-		--- END OF BLOCK #0 ---
-
-
-
-	end
+	--- BLOCK #9 119-125, warpins: 2 ---
+	cameraPaintViewAdjust(false)
 
 	--- END OF BLOCK #9 ---
 
@@ -911,25 +902,15 @@ function slot0.willExit(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #10 125-131, warpins: 2 ---
-	cameraPaintViewAdjust(false)
-
-	--- END OF BLOCK #10 ---
-
-	FLOW; TARGET BLOCK #11
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #11 132-142, warpins: 0 ---
+	--- BLOCK #10 126-136, warpins: 0 ---
 	for slot4, slot5 in ipairs(slot0.hideParentList) do
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 132-136, warpins: 1 ---
+		--- BLOCK #0 126-130, warpins: 1 ---
 		if not IsNil(slot5) then
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 137-140, warpins: 1 ---
+			--- BLOCK #0 131-134, warpins: 1 ---
 			setActive(slot5, true)
 			--- END OF BLOCK #0 ---
 
@@ -943,23 +924,23 @@ function slot0.willExit(slot0)
 
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #1 141-142, warpins: 3 ---
+		--- BLOCK #1 135-136, warpins: 3 ---
 		--- END OF BLOCK #1 ---
 
 
 
 	end
 
-	--- END OF BLOCK #11 ---
+	--- END OF BLOCK #10 ---
 
-	FLOW; TARGET BLOCK #12
+	FLOW; TARGET BLOCK #11
 
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #12 143-143, warpins: 1 ---
+	--- BLOCK #11 137-137, warpins: 1 ---
 	return
-	--- END OF BLOCK #12 ---
+	--- END OF BLOCK #11 ---
 
 
 

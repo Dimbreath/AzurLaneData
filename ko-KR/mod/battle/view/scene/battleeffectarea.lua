@@ -14,10 +14,6 @@ function slot3.Ctor(slot0, slot1, slot2, slot3)
 	slot0:Init()
 end
 
-function slot3.SetStatic(slot0)
-	slot0._static = true
-end
-
 function slot3.Init(slot0)
 	slot0._tf = slot0._go.transform
 	slot0._areaType = slot0._aoeData:GetAreaType()
@@ -30,7 +26,7 @@ function slot3.Init(slot0)
 
 	if slot0._aoeData:GetIFF() == slot1.FOE_CODE then
 		function slot0.GetAngle()
-			return 180 - slot0._aoeData:GetAngle()
+			return slot0._aoeData:GetAngle() * -1
 		end
 	else
 		function slot0.GetAngle()
@@ -38,25 +34,40 @@ function slot3.Init(slot0)
 		end
 	end
 
+	slot0:Update()
+end
+
+function slot3.Update(slot0)
 	slot0:UpdateScale()
 	slot0:UpdatePosition()
 	slot0:UpdateRotation()
 end
 
-function slot3.Update(slot0)
-	if not slot0._static then
-		slot0:UpdateScale()
-		slot0:UpdatePosition()
-		slot0:UpdateRotation()
-	end
-end
-
 function slot3.updateCubeScale(slot0)
-	slot0._tf.localScale = Vector3(slot0._aoeData:GetWidth() * slot0._aoeData:GetIFF(), 0, slot0._aoeData:GetHeight())
+	slot1 = 1
+	slot2 = 1
+
+	if not slot0._aoeData:GetFXStatic() then
+		slot1 = slot0._aoeData:GetWidth()
+		slot2 = slot0._aoeData:GetHeight()
+	end
+
+	if slot1 * slot0._aoeData:GetIFF() == slot0._preWidth and slot2 == slot0._preHeight then
+		return
+	end
+
+	slot0._tf.localScale = Vector3(slot1, 0, slot2)
+	slot0._preWidth = slot1
+	slot0._preHeight = slot2
 end
 
 function slot3.updateColumnScale(slot0)
-	slot0._tf.localScale = Vector3(slot0._aoeData:GetRange(), 1, )
+	if slot0._aoeData:GetRange() == slot0._preRange then
+		return
+	end
+
+	slot0._tf.localScale = Vector3(slot1, 1, slot1)
+	slot0._preRange = slot1
 end
 
 function slot3.UpdatePosition(slot0)
@@ -68,17 +79,18 @@ function slot3.UpdatePosition(slot0)
 end
 
 function slot3.UpdateRotation(slot0)
-	slot0._tf.localEulerAngles = Vector3(0, slot0:GetAngle(), 0)
+	if slot0._preAngle == slot0:GetAngle() then
+		return
+	end
+
+	slot0._tf.localEulerAngles = Vector3(0, slot1, 0)
+	slot0._preAngle = slot1
 end
 
 function slot3.Dispose(slot0)
 	slot0.Battle.BattleResourceManager.GetInstance():DestroyOb(slot0._go)
 
 	slot0._go = nil
-end
-
-function slot3.ResetScale(slot0)
-	slot0._tf.localScale = Vector3(1, 1, 1)
 end
 
 return
