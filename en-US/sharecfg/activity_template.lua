@@ -10593,7 +10593,7 @@ pg.activity_template = {
 				{
 					2020,
 					3,
-					18
+					23
 				},
 				{
 					23,
@@ -10623,7 +10623,7 @@ pg.activity_template = {
 				{
 					2020,
 					3,
-					18
+					23
 				},
 				{
 					23,
@@ -10775,7 +10775,6 @@ pg.activity_template = {
 	[30343] = {
 		mark = 20200227,
 		title_res_tag = "",
-		time = "stop",
 		type = 57,
 		login_pop = 0,
 		config_id = 7,
@@ -10783,7 +10782,34 @@ pg.activity_template = {
 		config_client = "",
 		bg = "",
 		id = 30343,
-		config_data = {}
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					2,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[30344] = {
 		mark = 20200227,
@@ -10826,7 +10852,7 @@ pg.activity_template = {
 				{
 					2020,
 					3,
-					18
+					23
 				},
 				{
 					23,
