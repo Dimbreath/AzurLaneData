@@ -19,6 +19,22 @@ function slot0.OnFirstFlush(slot0)
 			return
 		end
 	end, SFX_PANEL)
+	onButton(slot0, slot0.battleBtn, function ()
+		slot0:emit(ActivityMediator.GO_SHOPS_LAYER, {
+			warp = ShopsLayer.TYPE_ACTIVITY,
+			actId = _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
+				return slot0:getConfig("config_client").pt_id == pg.gameset.activity_res_id.key_value
+			end) and slot0.id
+		})
+	end, SFX_PANEL)
+	onButton(slot0, slot0.gotBtn, function ()
+		slot0:emit(ActivityMediator.GO_SHOPS_LAYER, {
+			warp = ShopsLayer.TYPE_ACTIVITY,
+			actId = _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
+				return slot0:getConfig("config_client").pt_id == pg.gameset.activity_res_id.key_value
+			end) and slot0.id
+		})
+	end, SFX_PANEL)
 end
 
 function slot0.OnUpdateFlush(slot0)
