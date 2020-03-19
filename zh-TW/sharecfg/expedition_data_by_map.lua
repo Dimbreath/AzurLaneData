@@ -560,6 +560,100 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	{
+		map = 10,
+		name = "科隆班加拉島夜戰",
+		bgm = "level",
+		type = 1,
+		on_activity = 0,
+		title = "10",
+		enter_story = "",
+		level_limit = 45,
+		uifx = "",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "purple",
+		bg = "map_10",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				76,
+				263
+			},
+			{
+				881,
+				44
+			},
+			{
+				23,
+				-143
+			},
+			{
+				473,
+				163
+			},
+			{
+				514,
+				-245
+			},
+			{
+				830,
+				-109
+			}
+		},
+		drop_by_map_display = {
+			{
+				{
+					2,
+					53070
+				}
+			},
+			{
+				{
+					2,
+					53071
+				}
+			},
+			{
+				{
+					2,
+					53072
+				}
+			},
+			{
+				{
+					2,
+					53073
+				}
+			},
+			{
+				{
+					2,
+					53074
+				}
+			},
+			{
+				{
+					2,
+					53075
+				}
+			},
+			{
+				{
+					2,
+					53076
+				}
+			},
+			{
+				{
+					2,
+					53077
+				}
+			}
+		}
+	},
 	[201] = {
 		map = 201,
 		name = "虎！虎！虎！",
@@ -829,47 +923,6 @@ pg.expedition_data_by_map = {
 		ani_name = "",
 		cloud_suffix = "white",
 		bg = "map_10000",
-		destory_icon_suffix = "blue",
-		animtor = 0,
-		bind_map = 0,
-		clouds_pos = {
-			{
-				332,
-				271
-			},
-			{
-				896,
-				110
-			},
-			{
-				-280,
-				0
-			},
-			{
-				990,
-				-90
-			},
-			{
-				0,
-				-465
-			}
-		}
-	},
-	[70000] = {
-		map = 70000,
-		name = "大西洋商路",
-		bgm = "level",
-		type = 9,
-		on_activity = 0,
-		title = "CE",
-		drop_by_map_display = "",
-		enter_story = "",
-		level_limit = 40,
-		uifx = "UIhuohua2",
-		guide_id = "",
-		ani_name = "",
-		cloud_suffix = "white",
-		bg = "Map_70000",
 		destory_icon_suffix = "blue",
 		animtor = 0,
 		bind_map = 0,
@@ -3361,6 +3414,7 @@ pg.expedition_data_by_map = {
 		7,
 		8,
 		9,
+		10,
 		201,
 		202,
 		203,
@@ -3368,7 +3422,6 @@ pg.expedition_data_by_map = {
 		205,
 		206,
 		10000,
-		70000,
 		90000,
 		90001,
 		1000000,

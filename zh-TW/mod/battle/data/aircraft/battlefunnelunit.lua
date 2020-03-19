@@ -125,7 +125,7 @@ function ys.Battle.BattleFunnelUnit._updateStop(slot0, slot1)
 	if slot0:getStopDuration() < pg.TimeMgr.GetInstance():GetCombatTime() then
 		slot0:changePartolState(slot0.MOVE_STATE)
 	else
-		slot0:UpdateWeapon(slot0.MOVE_STATE)
+		slot0:UpdateWeapon()
 	end
 end
 

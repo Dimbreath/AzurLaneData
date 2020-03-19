@@ -33,7 +33,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家艦隊航航母艦光榮報到，今天也由我擔任你的秘書艦！",
+			say = "皇家艦隊航空母艦光榮報到，今天也由我擔任你的秘書艦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

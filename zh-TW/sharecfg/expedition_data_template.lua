@@ -46113,6 +46113,3622 @@ pg.expedition_data_template = {
 		},
 		bufficon = {}
 	},
+	[1001010] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001110,
+		exp = 540,
+		icon = "qz1",
+		difficulty = 1,
+		level = 96,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1001010,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55537
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1001020] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001120,
+		exp = 594,
+		icon = "qz1",
+		difficulty = 1,
+		level = 96,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1001020,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55537
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1001030] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001130,
+		exp = 648,
+		icon = "qz1",
+		difficulty = 1,
+		level = 96,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1001030,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55537
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1001040] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001210,
+		exp = 540,
+		icon = "zl1",
+		difficulty = 1,
+		level = 96,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1001040,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55537
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1001050] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001220,
+		exp = 594,
+		icon = "zl1",
+		difficulty = 1,
+		level = 96,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1001050,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55537
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1001060] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001230,
+		exp = 648,
+		icon = "zl1",
+		difficulty = 1,
+		level = 96,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1001060,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55537
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1001070] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001310,
+		exp = 540,
+		icon = "hm1",
+		difficulty = 1,
+		level = 96,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1001070,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55537
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1001080] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001320,
+		exp = 594,
+		icon = "hm1",
+		difficulty = 1,
+		level = 96,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1001080,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55537
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1001090] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001330,
+		exp = 648,
+		icon = "hm1",
+		difficulty = 1,
+		level = 96,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1001090,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55537
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1001100] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001410,
+		exp = 540,
+		icon = "ys1",
+		difficulty = 1,
+		level = 96,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1001100,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1001110] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001420,
+		exp = 594,
+		icon = "ys1",
+		difficulty = 1,
+		level = 96,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1001110,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1001120] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001430,
+		exp = 648,
+		icon = "ys1",
+		difficulty = 1,
+		level = 96,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1001120,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1001210] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001120,
+		exp = 594,
+		icon = "qz1",
+		difficulty = 1,
+		level = 96,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "伏擊艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1001210,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56501
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1001211] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001220,
+		exp = 594,
+		icon = "zl1",
+		difficulty = 1,
+		level = 96,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "伏擊艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1001211,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56501
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1001212] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001320,
+		exp = 594,
+		icon = "hm1",
+		difficulty = 1,
+		level = 96,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "伏擊艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1001212,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56501
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1001000] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 1005100,
+		exp = 790,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 97,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "敵方旗艦",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1001000,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55037
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1002010] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001110,
+		exp = 545,
+		icon = "qz1",
+		difficulty = 1,
+		level = 97,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1002010,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55538
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1002020] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001120,
+		exp = 600,
+		icon = "qz1",
+		difficulty = 1,
+		level = 97,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1002020,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55538
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1002030] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001130,
+		exp = 654,
+		icon = "qz1",
+		difficulty = 1,
+		level = 97,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1002030,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55538
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1002040] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001210,
+		exp = 545,
+		icon = "zl1",
+		difficulty = 1,
+		level = 97,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1002040,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55538
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1002050] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001220,
+		exp = 600,
+		icon = "zl1",
+		difficulty = 1,
+		level = 97,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1002050,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55538
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1002060] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001230,
+		exp = 654,
+		icon = "zl1",
+		difficulty = 1,
+		level = 97,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1002060,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55538
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1002070] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001310,
+		exp = 545,
+		icon = "hm1",
+		difficulty = 1,
+		level = 97,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1002070,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55538
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1002080] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001320,
+		exp = 600,
+		icon = "hm1",
+		difficulty = 1,
+		level = 97,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1002080,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55538
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1002090] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001330,
+		exp = 654,
+		icon = "hm1",
+		difficulty = 1,
+		level = 97,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1002090,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55538
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1002100] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001410,
+		exp = 545,
+		icon = "ys1",
+		difficulty = 1,
+		level = 97,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1002100,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1002110] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001420,
+		exp = 600,
+		icon = "ys1",
+		difficulty = 1,
+		level = 97,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1002110,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1002120] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001430,
+		exp = 654,
+		icon = "ys1",
+		difficulty = 1,
+		level = 97,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1002120,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1002210] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001120,
+		exp = 600,
+		icon = "qz1",
+		difficulty = 1,
+		level = 97,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "伏擊艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1002210,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56501
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1002211] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001220,
+		exp = 600,
+		icon = "zl1",
+		difficulty = 1,
+		level = 97,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "伏擊艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1002211,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56501
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1002212] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001320,
+		exp = 600,
+		icon = "hm1",
+		difficulty = 1,
+		level = 97,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "伏擊艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1002212,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56501
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1002000] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 1005200,
+		exp = 798,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 98,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "敵方旗艦",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1002000,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55038
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1003010] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001110,
+		exp = 555,
+		icon = "qz1",
+		difficulty = 1,
+		level = 99,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1003010,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55539
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1003020] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001120,
+		exp = 610,
+		icon = "qz1",
+		difficulty = 1,
+		level = 99,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1003020,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55539
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1003030] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001130,
+		exp = 666,
+		icon = "qz1",
+		difficulty = 1,
+		level = 99,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1003030,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55539
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1003040] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001210,
+		exp = 555,
+		icon = "zl1",
+		difficulty = 1,
+		level = 99,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1003040,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55539
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1003050] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001220,
+		exp = 610,
+		icon = "zl1",
+		difficulty = 1,
+		level = 99,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1003050,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55539
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1003060] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001230,
+		exp = 666,
+		icon = "zl1",
+		difficulty = 1,
+		level = 99,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1003060,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55539
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1003070] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001310,
+		exp = 555,
+		icon = "hm1",
+		difficulty = 1,
+		level = 99,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1003070,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55539
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1003080] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001320,
+		exp = 610,
+		icon = "hm1",
+		difficulty = 1,
+		level = 99,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1003080,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55539
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1003090] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001330,
+		exp = 666,
+		icon = "hm1",
+		difficulty = 1,
+		level = 99,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1003090,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55539
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1003100] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001410,
+		exp = 555,
+		icon = "ys1",
+		difficulty = 1,
+		level = 99,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1003100,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1003110] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001420,
+		exp = 610,
+		icon = "ys1",
+		difficulty = 1,
+		level = 99,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1003110,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1003120] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001430,
+		exp = 666,
+		icon = "ys1",
+		difficulty = 1,
+		level = 99,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1003120,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1003210] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001120,
+		exp = 610,
+		icon = "qz1",
+		difficulty = 1,
+		level = 99,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "伏擊艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1003210,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56501
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1003211] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001220,
+		exp = 610,
+		icon = "zl1",
+		difficulty = 1,
+		level = 99,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "伏擊艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1003211,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56501
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1003212] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001320,
+		exp = 610,
+		icon = "hm1",
+		difficulty = 1,
+		level = 99,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "伏擊艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1003212,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56501
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1003000] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 1005300,
+		exp = 812,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 100,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "敵方旗艦",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1003000,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55039
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1004010] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 1,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001110,
+		exp = 565,
+		icon = "qz1",
+		difficulty = 1,
+		level = 101,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1004010,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55540
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1004020] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001120,
+		exp = 621,
+		icon = "qz1",
+		difficulty = 1,
+		level = 101,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1004020,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55540
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1004030] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 3,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001130,
+		exp = 678,
+		icon = "qz1",
+		difficulty = 1,
+		level = 101,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型偵查艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1004030,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55540
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1004040] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 4,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001210,
+		exp = 565,
+		icon = "zl1",
+		difficulty = 1,
+		level = 101,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1004040,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55540
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1004050] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001220,
+		exp = 621,
+		icon = "zl1",
+		difficulty = 1,
+		level = 101,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1004050,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55540
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1004060] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 6,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001230,
+		exp = 678,
+		icon = "zl1",
+		difficulty = 1,
+		level = 101,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型主力艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1004060,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55540
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1004070] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 7,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001310,
+		exp = 565,
+		icon = "hm1",
+		difficulty = 1,
+		level = 101,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1004070,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55540
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1004080] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001320,
+		exp = 621,
+		icon = "hm1",
+		difficulty = 1,
+		level = 101,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1004080,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55540
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1004090] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 9,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001330,
+		exp = 678,
+		icon = "hm1",
+		difficulty = 1,
+		level = 101,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型航空艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1004090,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55540
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1004100] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 10,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001410,
+		exp = 565,
+		icon = "ys1",
+		difficulty = 1,
+		level = 101,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "小型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1004100,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1004110] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 11,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001420,
+		exp = 621,
+		icon = "ys1",
+		difficulty = 1,
+		level = 101,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "中型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1004110,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1004120] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 12,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001430,
+		exp = 678,
+		icon = "ys1",
+		difficulty = 1,
+		level = 101,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "大型運輸艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1004120,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54013
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1004210] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 2,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001120,
+		exp = 621,
+		icon = "qz1",
+		difficulty = 1,
+		level = 101,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "伏擊艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1004210,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56501
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17023
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1004211] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 5,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001220,
+		exp = 621,
+		icon = "zl1",
+		difficulty = 1,
+		level = 101,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "伏擊艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1004211,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56501
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17013
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1004212] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 8,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 30,
+		dungeon_id = 1001320,
+		exp = 621,
+		icon = "hm1",
+		difficulty = 1,
+		level = 101,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "伏擊艦隊",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1004212,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56501
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				17003
+			},
+			{
+				2,
+				17043
+			},
+			{
+				2,
+				17033
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
+	[1004000] = {
+		sink_limit = 1,
+		ai = 0,
+		guide_desc = "",
+		type = 99,
+		ai_mov = 0,
+		add_icon = "",
+		bgm = "battle-1",
+		exp_commander = 2,
+		time_limit = 120,
+		exp_commander_ratio = 50,
+		dungeon_id = 1005400,
+		exp = 826,
+		icon = "bossicon",
+		difficulty = 1,
+		level = 102,
+		map_id = 10006,
+		limit_type = 1,
+		icon_type = 1,
+		name = "敵方旗艦",
+		effect_prefab = "",
+		plot_type = 0,
+		id = 1004000,
+		scale = 100,
+		award_display = {
+			{
+				2,
+				56500
+			},
+			{
+				2,
+				55040
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
+			}
+		},
+		objective_1 = {
+			1
+		},
+		objective_2 = {
+			2
+		},
+		objective_3 = {
+			5,
+			120
+		},
+		bufficon = {}
+	},
 	[10101010] = {
 		sink_limit = 1,
 		ai = 0,
@@ -187155,6 +190771,70 @@ pg.expedition_data_template = {
 		904211,
 		904212,
 		904000,
+		1001010,
+		1001020,
+		1001030,
+		1001040,
+		1001050,
+		1001060,
+		1001070,
+		1001080,
+		1001090,
+		1001100,
+		1001110,
+		1001120,
+		1001210,
+		1001211,
+		1001212,
+		1001000,
+		1002010,
+		1002020,
+		1002030,
+		1002040,
+		1002050,
+		1002060,
+		1002070,
+		1002080,
+		1002090,
+		1002100,
+		1002110,
+		1002120,
+		1002210,
+		1002211,
+		1002212,
+		1002000,
+		1003010,
+		1003020,
+		1003030,
+		1003040,
+		1003050,
+		1003060,
+		1003070,
+		1003080,
+		1003090,
+		1003100,
+		1003110,
+		1003120,
+		1003210,
+		1003211,
+		1003212,
+		1003000,
+		1004010,
+		1004020,
+		1004030,
+		1004040,
+		1004050,
+		1004060,
+		1004070,
+		1004080,
+		1004090,
+		1004100,
+		1004110,
+		1004120,
+		1004210,
+		1004211,
+		1004212,
+		1004000,
 		10101010,
 		10101011,
 		10101012,

@@ -489,11 +489,10 @@ function pg.ShareMgr.Share(slot0, slot1, slot2)
 	if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and slot0.SdkMgr.GetInstance():GetIsPlatform() then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 255-292, warpins: 1 ---
-		slot0.SdkMgr.GetInstance():GameShare(slot3.description, slot14)
+		--- BLOCK #0 255-284, warpins: 1 ---
+		slot0.SdkMgr.GetInstance():GameShare(slot3.description, slot13:EncodeToJPG(slot13:TakePhoto(slot11)))
 		slot0.UIMgr.GetInstance():LoadingOn()
-
-		time = Timer.New(function ()
+		onDelayTick(function ()
 
 			-- Decompilation error in this vicinity:
 			--- BLOCK #0 1-8, warpins: 1 ---
@@ -504,9 +503,7 @@ function pg.ShareMgr.Share(slot0, slot1, slot2)
 
 
 
-		end, 2, 0, 1)
-
-		time:Start()
+		end, 2)
 		--- END OF BLOCK #0 ---
 
 
@@ -514,11 +511,11 @@ function pg.ShareMgr.Share(slot0, slot1, slot2)
 	else
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 293-296, warpins: 2 ---
+		--- BLOCK #0 285-288, warpins: 2 ---
 		if PLATFORM_CODE == PLATFORM_CHT then
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 297-311, warpins: 1 ---
+			--- BLOCK #0 289-303, warpins: 1 ---
 			slot13:Take(slot11, slot0.screenshot)
 			slot0.SdkMgr.GetInstance():ShareImg(slot0.screenshot, function ()
 
@@ -537,11 +534,11 @@ function pg.ShareMgr.Share(slot0, slot1, slot2)
 		else
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 312-318, warpins: 1 ---
+			--- BLOCK #0 304-310, warpins: 1 ---
 			if slot13:Take(slot11, slot0.screenshot) then
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #0 319-328, warpins: 1 ---
+				--- BLOCK #0 311-320, warpins: 1 ---
 				print("截图位置: " .. slot0.screenshot)
 				slot0:Show(slot3)
 				--- END OF BLOCK #0 ---
@@ -551,7 +548,7 @@ function pg.ShareMgr.Share(slot0, slot1, slot2)
 			else
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #0 329-336, warpins: 1 ---
+				--- BLOCK #0 321-328, warpins: 1 ---
 				slot0.TipsMgr.GetInstance():ShowTips("截圖失敗")
 				--- END OF BLOCK #0 ---
 
@@ -576,7 +573,7 @@ function pg.ShareMgr.Share(slot0, slot1, slot2)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #16 337-364, warpins: 4 ---
+	--- BLOCK #16 329-356, warpins: 4 ---
 	SetParent(slot9, slot0.tr, false)
 	_.each(slot0.cacheComps, function (slot0)
 

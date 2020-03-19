@@ -204,23 +204,72 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:removeTask(slot3)
 	elseif slot2 == slot0.TASK_FILTER then
 		slot0.viewComponent:GoToFilter(slot3)
-	elseif slot2 == GAME.SUBMIT_TASK_DONE then
-		slot4 = getProxy(TaskProxy)
-		slot0.viewComponent.onShowAwards = true
+	else
+		if slot2 == GAME.SUBMIT_TASK_DONE then
+			slot4 = slot1:getType()
+			slot5 = getProxy(TaskProxy)
+			slot0.viewComponent.onShowAwards = true
 
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3, function ()
-			slot0.viewComponent.onShowAwards = nil
+			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3, function ()
+				slot0.viewComponent.onShowAwards = nil
 
-			slot0.viewComponent:accepetActivityTask()
-			slot0.viewComponent.accepetActivityTask.viewComponent:updateOneStepBtn()
-		end)
-	elseif slot2 == GAME.BEGIN_STAGE_DONE then
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
+				slot0.viewComponent:accepetActivityTask()
+				slot0.viewComponent.accepetActivityTask.viewComponent:updateOneStepBtn()
+
+				slot0 = {}
+
+				for slot4, slot5 in ipairs(ipairs) do
+					table.insert(slot0, function (slot0)
+						slot0:PlayStoryForTaskAct(slot0.PlayStoryForTaskAct, slot0)
+					end)
+				end
+
+				if #slot0 > 0 then
+					seriesAsync(slot0)
+				end
+			end)
+
+			return
+		end
+
+		if slot2 == GAME.BEGIN_STAGE_DONE then
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
+		end
 	end
 end
 
 function slot0.accepetActivityTask(slot0)
 	slot0:sendNotification(GAME.ACCEPT_ACTIVITY_TASK)
+end
+
+function slot0.PlayStoryForTaskAct(slot0, slot1, slot2)
+	slot4 = nil
+
+	for slot8, slot9 in ipairs(slot3) do
+		if slot9 and not slot9:isEnd() then
+			slot11 = 0
+			slot12 = 0
+
+			for slot16, slot17 in ipairs(slot10) do
+				for slot21, slot22 in ipairs(slot17) do
+					if slot22 == slot1 then
+						slot11 = slot16
+						slot12 = slot21
+					end
+				end
+			end
+
+			if slot9:getConfig("config_client").story or {}[slot11] and slot13[slot11][slot12] and not pg.StoryMgr.GetInstance():IsPlayed(slot14) then
+				slot4 = slot14
+			end
+		end
+	end
+
+	if slot4 then
+		pg.StoryMgr.GetInstance():Play(slot4, slot2)
+	else
+		slot2()
+	end
 end
 
 return slot0

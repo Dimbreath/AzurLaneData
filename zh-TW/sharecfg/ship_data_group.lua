@@ -1536,6 +1536,40 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[304] = {
+		type = 2,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 43,
+		group_type = 10212,
+		code = 304,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"推薦探索關卡10-2",
+				{
+					"LEVEL",
+					{
+						chapterid = 1002
+					}
+				},
+				0
+			}
+		}
+	},
 	[305] = {
 		type = 2,
 		trans_skin = 0,
@@ -1565,6 +1599,16 @@ pg.ship_data_group = {
 					{
 						projectName = "light",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"推薦探索關卡10-3",
+				{
+					"LEVEL",
+					{
+						chapterid = 1003
 					}
 				},
 				0
@@ -6148,6 +6192,74 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[276] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 188,
+		group_type = 30137,
+		code = 276,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"推薦探索關卡10-1",
+				{
+					"LEVEL",
+					{
+						chapterid = 1001
+					}
+				},
+				0
+			}
+		}
+	},
+	[280] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 191,
+		group_type = 30141,
+		code = 280,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"推薦探索關卡10-1",
+				{
+					"LEVEL",
+					{
+						chapterid = 1001
+					}
+				},
+				0
+			}
+		}
+	},
 	[151] = {
 		type = 1,
 		trans_skin = 0,
@@ -6876,6 +6988,49 @@ pg.ship_data_group = {
 					{
 						projectName = "heavy",
 						page = 1
+					}
+				},
+				0
+			}
+		}
+	},
+	[309] = {
+		type = 2,
+		trans_skin = 302139,
+		trans_type = 2,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 235,
+		group_type = 30213,
+		code = 309,
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {
+			"C",
+			"A",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		trans_skill = {
+			10890
+		},
+		description = {
+			{
+				"推薦探索關卡10-4",
+				{
+					"LEVEL",
+					{
+						chapterid = 1004
 					}
 				},
 				0
@@ -8931,6 +9086,7 @@ pg.ship_data_group = {
 		366,
 		31,
 		32,
+		304,
 		305,
 		33,
 		34,
@@ -9026,6 +9182,8 @@ pg.ship_data_group = {
 		271,
 		272,
 		274,
+		276,
+		280,
 		151,
 		155,
 		159,
@@ -9047,6 +9205,7 @@ pg.ship_data_group = {
 		183,
 		187,
 		179,
+		309,
 		190,
 		191,
 		192,

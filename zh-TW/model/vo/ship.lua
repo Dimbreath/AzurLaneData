@@ -1202,7 +1202,9 @@ function slot0.getShipAmmo(slot0)
 
 	for slot5, slot6 in pairs(slot0:getAllSkills()) do
 		for slot10, slot11 in pairs(pg.skill_benefit_template) do
-			if slot11.skill_id == slot6.id and slot11.lv == slot6.level then
+			slot12 = slot11.type
+
+			if slot11.skill_id == slot6.id and slot11.lv == slot6.level and (slot12 == slot0.BENEFIT_EQUIP or slot12 == slot0.BENEFIT_SKILL) then
 				if slot0:IsBenefitSkillActive(slot11) then
 					slot1 = slot1 + slot11.effect[1]
 				end
@@ -1226,7 +1228,9 @@ function slot0.getHuntingLv(slot0)
 
 	for slot5, slot6 in pairs(slot0:getAllSkills()) do
 		for slot10, slot11 in pairs(pg.skill_benefit_template) do
-			if slot11.skill_id == slot6.id and slot11.lv == slot6.level then
+			slot12 = slot11.type
+
+			if slot11.skill_id == slot6.id and slot11.lv == slot6.level and (slot12 == slot0.BENEFIT_EQUIP or slot12 == slot0.BENEFIT_SKILL) then
 				if slot0:IsBenefitSkillActive(slot11) then
 					slot1 = slot1 + slot11.effect[2]
 				end
@@ -1245,8 +1249,32 @@ function slot0.getHuntingLv(slot0)
 	return math.min(slot1, slot0:getMaxHuntingLv())
 end
 
+function slot0.getMapAuras(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0:getAllSkills()) do
+		for slot10, slot11 in pairs(pg.skill_benefit_template) do
+			slot12 = slot11.type
+
+			if slot11.skill_id == slot6.id and slot12 == slot0.BENEFIT_MAP_AURA then
+				if slot0:IsBenefitSkillActive(slot11) then
+					table.insert(slot1, {
+						id = slot11.effect[1],
+						level = slot6.level
+					})
+				end
+
+				break
+			end
+		end
+	end
+
+	return slot1
+end
+
 slot0.BENEFIT_SKILL = 2
 slot0.BENEFIT_EQUIP = 3
+slot0.BENEFIT_MAP_AURA = 4
 
 function slot0.IsBenefitSkillActive(slot0, slot1)
 	slot2 = false
@@ -1265,6 +1293,8 @@ function slot0.IsBenefitSkillActive(slot0, slot1)
 				break
 			end
 		end
+	elseif slot1.type == slot0.BENEFIT_MAP_AURA and slot0.hpRant and slot0.hpRant > 0 then
+		return true
 	end
 
 	return slot2

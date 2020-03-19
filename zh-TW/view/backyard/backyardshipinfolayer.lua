@@ -252,7 +252,13 @@ function slot0.updateSlots(slot0, slot1)
 		slot6:Dispose()
 	end
 
-	slot2, slot3, slot7 = slot0:getSlotsInfo(slot1 or slot0.contextData.type)
+	slot2, slot3, slot4 = slot0:getSlotsInfo(slot1 or slot0.contextData.type)
+
+	if slot4 == 6 then
+		slot0.uiList.container.localScale = Vector3(0.95, 0.95, 1)
+	else
+		slot0.uiList.container.localScale = Vector3(1, 1, 1)
+	end
 
 	slot0.uiList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -282,7 +288,7 @@ function slot0.updateSlots(slot0, slot1)
 		end
 	end)
 
-	slot0.contextData.type = slot1 or slot0.contextData.type
+	slot0.contextData.type = slot1
 
 	slot0.uiList:align(slot4)
 

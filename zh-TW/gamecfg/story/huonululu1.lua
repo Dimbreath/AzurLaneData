@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"有关火奴鲁鲁的二三事\n\n<size=45>一　爱生气的火奴鲁鲁？</size>",
+					"有關火奴魯魯的二三事\n\n<size=45>一　愛生氣的火奴魯魯？</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,7 +52,7 @@ return {
 			withoutActorName = true,
 			actor = 102120,
 			nameColor = "#a9f548",
-			say = "火奴鲁鲁正站在文件架前整理资料",
+			say = "火奴魯魯正站在文件架前整理資料",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我说…能不能不要这样盯着我看，影响到我的工作了。",
+			say = "我說…能不能不要這樣盯著我看，影響到我的工作了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			withoutActorName = true,
 			actor = 102120,
 			nameColor = "#a9f548",
-			say = "…………（沉默着别开视线）",
+			say = "…………（沉默著別開視線）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这部分的文件这样就可以了吧？",
+			say = "這部分的文件這樣就可以了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			withoutActorName = true,
 			actor = 102120,
 			nameColor = "#a9f548",
-			say = "…………（沉默着点头）",
+			say = "…………（沉默著點頭）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "整备？不做奇怪的事的话倒是无所谓。",
+			say = "整備？不做奇怪的事的話倒是無所謂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			withoutActorName = true,
 			actor = 102120,
 			nameColor = "#a9f548",
-			say = "…………（沉默着离开位置）",
+			say = "…………（沉默著離開位置）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还愣着干什么…？委托已经完成了。",
+			say = "還愣著幹什麼…？委託已經完成了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			withoutActorName = true,
 			actor = 102120,
 			nameColor = "#a9f548",
-			say = "…………（沉默着前去确认）",
+			say = "…………（沉默著前去確認）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "由火奴鲁鲁担任秘书舰也有一段时间了，彼此也稍微熟悉了些。",
+			say = "由火奴魯魯擔任秘書艦也有一段時間了，彼此也稍微熟悉了些。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -242,14 +242,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "虽然工作都能好好完成，但总有种她在生气的感觉。",
+			say = "雖然工作都能好好完成，但總有種她在生氣的感覺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "稍微问一下吧",
+					content = "稍微問一下吧",
 					flag = 1
 				}
 			}
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "别一脸理所当然地碰别人……有什么事吗？",
+			say = "別一臉理所當然地碰別人……有什麼事嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……我没有生气，也没有什么烦心事。",
+			say = "……我沒有生氣，也沒有什麼煩心事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也不是讨厌你…只是性格就是这样。",
+			say = "也不是討厭你…只是性格就是這樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要是让你不高兴了，不如让其他更可爱的孩子来做秘书怎么样？",
+			say = "要是讓你不高興了，不如讓其他更可愛的孩子來做秘書怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "<size=33>……（小声）还是说，你就这么喜欢胸部么。</size>",
+			say = "<size=33>……（小聲）還是說，你就這麼喜歡胸部嗎。</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,7 +334,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "虽然有点话中带刺，倒也确实没有在生气的样子。",
+			say = "雖然有點話中帶刺，倒也確實沒有在生氣的樣子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "硬要说的话，更像是单纯的不擅长交流？",
+			say = "硬要說的話，更像是單純的不擅長交流？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "……稍微对她产生了一点好奇。",
+			say = "……稍微對她產生了一點好奇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

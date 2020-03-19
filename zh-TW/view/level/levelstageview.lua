@@ -5121,56 +5121,15 @@ function slot0.SafeCheck(slot0)
 	--- BLOCK #0 1-11, warpins: 1 ---
 	slot2 = slot0.contextData.chapterVO.getDataType(slot1)
 	slot3 = slot0.contextData.chapterVO.fleet
-	slot4, slot5 = slot0.contextData.chapterVO.CheckChapterWin(slot1)
 
-	if slot4 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 12-14, warpins: 1 ---
-		return true, slot5
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 15-19, warpins: 2 ---
-	slot6, slot7 = slot1:CheckChapterLose()
-
-	if slot6 then
+	if slot0.contextData.chapterVO:existOni() then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 20-22, warpins: 1 ---
-		return true, slot7
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 23-27, warpins: 2 ---
-	if slot1:existOni() then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 28-32, warpins: 1 ---
+		--- BLOCK #0 12-16, warpins: 1 ---
 		if slot1:checkOniState() == 1 then
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 33-37, warpins: 1 ---
+			--- BLOCK #0 17-21, warpins: 1 ---
 			return true, ChapterConst.ReasonVictoryOni
 			--- END OF BLOCK #0 ---
 
@@ -5179,12 +5138,21 @@ function slot0.SafeCheck(slot0)
 		else
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 38-39, warpins: 1 ---
-			if slot8 == 2 then
+			--- BLOCK #0 22-23, warpins: 1 ---
+			if slot4 == 2 then
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #0 40-44, warpins: 1 ---
+				--- BLOCK #0 24-28, warpins: 1 ---
 				return true, ChapterConst.ReasonDefeatOni
+				--- END OF BLOCK #0 ---
+
+
+
+			else
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 29-31, warpins: 1 ---
+				return false
 				--- END OF BLOCK #0 ---
 
 
@@ -5202,17 +5170,77 @@ function slot0.SafeCheck(slot0)
 	else
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 45-49, warpins: 1 ---
-		if slot1:isPlayingWithBombEnemy() and slot1:getBombChapterInfo().action_times * 2 <= slot1.roundIndex then
+		--- BLOCK #0 32-36, warpins: 1 ---
+		if slot1:isPlayingWithBombEnemy() then
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 58-61, warpins: 1 ---
-			return true, ChapterConst.ReasonDefeatBomb
+			--- BLOCK #0 37-44, warpins: 1 ---
+			if slot1:getBombChapterInfo().action_times * 2 <= slot1.roundIndex then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 45-49, warpins: 1 ---
+				return true, ChapterConst.ReasonDefeatBomb
+				--- END OF BLOCK #0 ---
+
+
+
+			else
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 50-51, warpins: 1 ---
+				return false
+				--- END OF BLOCK #0 ---
+
+
+
+			end
 			--- END OF BLOCK #0 ---
 
 
 
 		end
+		--- END OF BLOCK #0 ---
+
+
+
+	end
+
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 52-56, warpins: 6 ---
+	slot4, slot5 = slot1:CheckChapterWin()
+
+	if slot4 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 57-59, warpins: 1 ---
+		return true, slot5
+		--- END OF BLOCK #0 ---
+
+
+
+	end
+
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 60-64, warpins: 2 ---
+	slot6, slot7 = slot1:CheckChapterLose()
+
+	if slot6 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 65-67, warpins: 1 ---
+		return true, slot7
 		--- END OF BLOCK #0 ---
 
 
@@ -5226,15 +5254,15 @@ function slot0.SafeCheck(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #3 62-65, warpins: 6 ---
+	--- BLOCK #3 68-71, warpins: 2 ---
 	if slot2 == ChapterConst.TypeSham then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 66-70, warpins: 1 ---
+		--- BLOCK #0 72-76, warpins: 1 ---
 		if ChapterConst.ShamEnemyLimit <= slot1.progress then
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 71-75, warpins: 1 ---
+			--- BLOCK #0 77-81, warpins: 1 ---
 			return true, ChapterConst.ReasonVictorySham
 			--- END OF BLOCK #0 ---
 
@@ -5243,11 +5271,11 @@ function slot0.SafeCheck(slot0)
 		else
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 76-80, warpins: 1 ---
+			--- BLOCK #0 82-86, warpins: 1 ---
 			if not slot3:isValid() then
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #0 81-84, warpins: 1 ---
+				--- BLOCK #0 87-90, warpins: 1 ---
 				return true, ChapterConst.ReasonDefeatSham
 				--- END OF BLOCK #0 ---
 
@@ -5272,11 +5300,11 @@ function slot0.SafeCheck(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #4 85-89, warpins: 4 ---
+	--- BLOCK #4 91-95, warpins: 4 ---
 	if not slot1:inWartime() then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 90-93, warpins: 1 ---
+		--- BLOCK #0 96-99, warpins: 1 ---
 		return true, ChapterConst.ReasonOutTime
 		--- END OF BLOCK #0 ---
 
@@ -5291,13 +5319,13 @@ function slot0.SafeCheck(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #5 94-104, warpins: 2 ---
+	--- BLOCK #5 100-110, warpins: 2 ---
 	slot8 = slot1:getConfig("act_id")
 
 	if not slot0.contextData.map:isRemaster() and slot8 ~= 0 and (not getProxy(ActivityProxy):getActivityById(slot8) or slot10:isEnd()) then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 121-124, warpins: 2 ---
+		--- BLOCK #0 127-130, warpins: 2 ---
 		return true, ChapterConst.ReasonActivityOutTime
 		--- END OF BLOCK #0 ---
 
@@ -5312,7 +5340,7 @@ function slot0.SafeCheck(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #6 125-126, warpins: 4 ---
+	--- BLOCK #6 131-132, warpins: 4 ---
 	return false
 	--- END OF BLOCK #6 ---
 

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"有关火奴鲁鲁的二三事\n\n<size=45>四　关心人的火奴鲁鲁</size>",
+					"有關火奴魯魯的二三事\n\n<size=45>四　關心人的火奴魯魯</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·广场",
+			say = "港區·廣場",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "远远地看到了海伦娜和火奴鲁鲁在一起散步。",
+			say = "遠遠地看到了海倫娜和火奴魯魯在一起散步。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			}
 		},
 		{
-			say = "海伦娜，怎么了？",
+			say = "海倫娜，怎麼了？",
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -97,7 +97,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？啊，没什么啦。",
+			say = "嗯？啊，沒什麼啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是、是吗，那，你最近有……",
+			say = "是、是嗎，那，你最近有……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……没什么，今天吃的还好吗？",
+			say = "……沒什麼，今天吃的還好嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "挺好呀，火奴鲁鲁你呢？",
+			say = "挺好呀，火奴魯魯你呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……我也吃的挺饱的。",
+			say = "嗯……我也吃的挺飽的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，克利夫兰在那边等我，我先过去了。",
+			say = "啊，克里夫蘭在那邊等我，我先過去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "又没有把话说出来，唉……",
+			say = "又沒有把話說出來，唉……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			actor = 102120,
 			nameColor = "#a9f548",
-			say = "我真是个笨蛋……",
+			say = "我真是個笨蛋……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官你从哪……算了，总觉得你什么时候出现在我身边我都不奇怪了。",
+			say = "指揮官你從哪……算了，總覺得你什麼時候出現在我身邊我都不奇怪了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			withoutActorName = true,
 			actor = 102120,
 			nameColor = "#a9f548",
-			say = "火奴鲁鲁长长地叹了一口气。",
+			say = "火奴魯魯長長地歎了一口氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			actor = 102120,
 			nameColor = "#a9f548",
-			say = "就算你说这不怪我，但我连关心海伦娜都做不到，我不是个笨蛋还能是什么呢……",
+			say = "就算你說這不怪我，但我連關心海倫娜都做不到，我不是個笨蛋還能是什麼呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示或许可以帮她",
+					content = "表示或許可以幫她",
 					flag = 1
 				}
 			}
@@ -376,7 +376,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为什么我非要依靠你不可啊…",
+			say = "為什麼我非要依靠你不可啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			withoutActorName = true,
 			actor = 102120,
 			nameColor = "#a9f548",
-			say = "火奴鲁鲁下意识地把头偏到一边去，不过看起来并没有在生气。",
+			say = "火奴魯魯下意識地把頭偏到一邊去，不過看起來並沒有在生氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……不过，真不可思议……感觉如果是你的话，或许确实能说这些也说不定。",
+			say = "……不過，真不可思議……感覺如果是你的話，或許確實能說這些也說不定。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			blackBg = true,
 			actor = 102120,
 			nameColor = "#a9f548",
-			say = "指挥官，能听我说两句吗？",
+			say = "指揮官，能聽我說兩句嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
