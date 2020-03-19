@@ -1,4 +1,4 @@
-slot0 = class("PileGameView")
+slot0 = class("PileGameBgMgr")
 slot0.bgMaps = {
 	"1",
 	"2",

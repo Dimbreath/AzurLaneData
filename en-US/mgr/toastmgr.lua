@@ -260,7 +260,7 @@ function pg.ToastMgr.Dispose(slot0)
 	setActive(slot0._tf, false)
 	slot0:ResetUIDandHistory()
 
-	for slot4, slot5 in paris(slot0.pools) do
+	for slot4, slot5 in pairs(slot0.pools) do
 		slot5:Clear(false)
 	end
 end

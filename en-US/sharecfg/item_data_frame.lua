@@ -96,6 +96,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>\"Unite, comrades! The world is ours to change!\"</color>\n――Can be obtained during the \"Northern Overture\" event. ",
 		scene = {}
 	},
+	[307] = {
+		name = "Wings of Lightning ",
+		time_second = 0,
+		id = 307,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>Can be obtained during a subsequent event.</color>",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -108,7 +116,8 @@ pg.item_data_frame = {
 		303,
 		304,
 		305,
-		306
+		306,
+		307
 	}
 }
 

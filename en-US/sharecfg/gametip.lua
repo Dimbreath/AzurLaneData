@@ -3221,7 +3221,7 @@ Current expansions: <color=#92fc63>$3</color>
 				info = "About Maritime Escort:"
 			},
 			{
-				info = "1. This game mode will be available from August 15th to September 4th"
+				info = "1. This game mode will be available from March 19th to March 26th"
 			},
 			{
 				info = "2. In this game mode, you'll play on a map where your goal is to neutralize the sea mines and enemy fleets in your way and escort the Transport Ship to its destination."
@@ -9738,7 +9738,10 @@ disappear, leaving only the Boss Fleet</color>.
 fleets will change.
 3. On event Stages, <color=#92fc63>the movement restriction placed on your 
 fleets is removed</color>, allowing you to move freely around the 
-map.]]
+map.
+4. In normal stages, the chance for ambushes and
+ map airstrikes to occur will be removed. 
+5. Formation lock mode will be enabled.]]
 			}
 		}
 	},
@@ -12210,6 +12213,10 @@ Event Rules:
 				y = 1024
 			}
 		}
+	},
+	undermist_tip = {
+		tip = "No available missions. Please wait until tomorrow to unlock more.",
+		key = "undermist_tip"
 	}
 }
 

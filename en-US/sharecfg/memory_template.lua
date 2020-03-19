@@ -10780,6 +10780,50 @@ pg.memory_template = {
 		icon = "memory_afuleer",
 		is_open = 0
 	},
+	[1149] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "Redeployment",
+		condition = "Complete \"Under the Mist\" Mission 1.",
+		story = "MIWUZHIXIA1",
+		id = 1149,
+		icon = "memory_miwuzhixia",
+		is_open = 0
+	},
+	[1150] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "The Mist",
+		condition = "Complete \"Under the Mist\" Mission 2.",
+		story = "MIWUZHIXIA2",
+		id = 1150,
+		icon = "memory_miwuzhixia",
+		is_open = 0
+	},
+	[1151] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "Misdirection",
+		condition = "Complete \"Under the Mist\" Mission 3.",
+		story = "MIWUZHIXIA3",
+		id = 1151,
+		icon = "memory_miwuzhixia",
+		is_open = 0
+	},
+	[1152] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "Lost at Sea",
+		condition = "Complete \"Under the Mist\" Mission 4.",
+		story = "MIWUZHIXIA4",
+		id = 1152,
+		icon = "memory_miwuzhixia",
+		is_open = 0
+	},
 	[10011] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -12388,6 +12432,10 @@ pg.memory_template = {
 		1146,
 		1147,
 		1148,
+		1149,
+		1150,
+		1151,
+		1152,
 		10011,
 		10012,
 		10013,

@@ -40,7 +40,7 @@ function slot0.OnFirstFlush(slot0)
 	end)
 	onButton(slot0, slot0.btnMatsuri, function ()
 		slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SHOP, {
-			warp = ShopsLayer.TYPE_ACTIVITY
+			warp = ShopsScene.TYPE_ACTIVITY
 		})
 	end)
 end

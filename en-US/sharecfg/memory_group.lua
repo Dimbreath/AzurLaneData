@@ -1330,6 +1330,18 @@ pg.memory_group = {
 			1141
 		}
 	},
+	[182] = {
+		title = "Under the Mist ",
+		type = 2,
+		id = 182,
+		icon = "title_event",
+		memories = {
+			1149,
+			1150,
+			1151,
+			1152
+		}
+	},
 	[501] = {
 		title = "{namecode:98}'s Commission",
 		type = 3,
@@ -2065,6 +2077,7 @@ pg.memory_group = {
 		179,
 		180,
 		181,
+		182,
 		501,
 		502,
 		503,

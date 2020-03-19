@@ -72,7 +72,9 @@ class("SubmitTaskOneStepCommand", pm.SimpleCommand).execute = function (slot0, s
 				end
 
 				if slot4 == #slot5 then
-					slot2:sendNotification(GAME.SUBMIT_TASK_DONE, slot1)
+					slot2:sendNotification(GAME.SUBMIT_TASK_DONE, slot1, _.map(slot2, function (slot0)
+						return slot0.id
+					end))
 				end
 			else
 				pg.TipsMgr.GetInstance():ShowTips(errorTip("task_submitTask", slot0.result))

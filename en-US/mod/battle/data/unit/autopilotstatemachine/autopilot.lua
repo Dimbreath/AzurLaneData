@@ -25,6 +25,18 @@ function slot2.InputWeaponStateChange(slot0)
 	return
 end
 
+function slot2.SetHiveUnit(slot0, slot1)
+	slot0._hiveUnit = slot1
+end
+
+function slot2.GetHiveUnit(slot0)
+	return slot0._hiveUnit
+end
+
+function slot2.OnHiveUnitDead(slot0)
+	slot0._target:OnMotherDead()
+end
+
 function slot2.NextStep(slot0)
 	if slot0._stepList[slot0._currentStep:GetToIndex()] == nil then
 		slot1 = slot0._aiCfg.default
@@ -56,6 +68,10 @@ function slot2.generateList(slot0)
 			slot6 = slot1.Battle.AutoPilotCircle.New(slot7, slot0)
 		elseif slot9 == slot0.RELATIVE_BROWNIAN then
 			slot6 = slot1.Battle.AutoPilotRelativeBrownian.New(slot7, slot0)
+		elseif slot9 == slot0.HIVE_STAY then
+			slot6 = slot1.Battle.AutoPilotHiveRelativeStay.New(slot7, slot0)
+		elseif slot9 == slot0.HIVE_CIRCLE then
+			slot6 = slot1.Battle.AutoPilotHiveRelativeCircle.New(slot7, slot0)
 		end
 
 		slot6:SetParameter(slot10, slot8)
