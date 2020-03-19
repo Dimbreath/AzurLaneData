@@ -19,7 +19,7 @@ slot0.ON_SHIP_DETAIL = "MainUIMediator:ON_SHIP_DETAIL"
 slot0.OPEN_COLLECT_SHIP = "MainUIMediator:OPEN_COLLECT_SHIP"
 slot0.OPEN_ACTIVITY_PANEL = "MainUIMediator:OPEN_ACTIVITY_PANEL"
 slot0.OPEN_EVENT = "MainUIMediator:OPEN_EVENT"
-slot0.GO_SCENE = "MainUIMediator:OPEN_SCENE"
+slot0.GO_SCENE = "MainUIMediator:GO_SCENE"
 slot0.OPEN_FRIEND = "MainUIMediator.OPEN_FRIEND"
 slot0.GO_MALL = "MainUIMediator:GO_MALL"
 slot0.OPEN_COMMISSION_INFO = "MainUIMediator:OPEN_COMMISSION_INFO"
@@ -300,13 +300,9 @@ function slot0.register(slot0)
 		}))
 	end)
 	slot0:bind(slot0.OPEN_SHOP_LAYER, function (slot0, slot1)
-		slot0:addSubLayers(Context.New({
-			mediator = ShopsMediator,
-			viewComponent = ShopsLayer,
-			data = {
-				warp = slot1 or ShopsLayer.TYPE_ACTIVITY
-			}
-		}))
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, {
+			warp = slot1 or ShopsScene.TYPE_ACTIVITY
+		})
 	end)
 	slot0:bind(slot0.OPEN_MONTH_CARD_SET, function (slot0)
 		if getProxy(PlayerProxy).getRawData(slot1):getCardById(VipCard.MONTH) and not slot3:isExpire() then
@@ -652,7 +648,6 @@ function slot0.listNotificationInterests(slot0)
 		ServerNoticeProxy.SERVER_NOTICES_UPDATE,
 		DormProxy.INIMACY_AND_MONEY_ADD,
 		GAME.REMOVE_LAYERS,
-		ShopsMediator.OPEN,
 		LotteryMediator.OPEN,
 		GAME.BOSS_EVENT_START_DONE,
 		GuildProxy.NEW_MSG_ADDED,
@@ -749,7 +744,7 @@ function slot0.handleNotification(slot0, slot1)
 		slot0:updateGuildNotices()
 	elseif slot2 == ServerNoticeProxy.SERVER_NOTICES_UPDATE then
 		slot0:updateSeverNotices()
-	elseif slot2 == ShopsMediator.OPEN or slot2 == LotteryMediator.OPEN then
+	elseif slot2 == LotteryMediator.OPEN then
 		slot0.viewComponent:activeEffect(false)
 	elseif slot2 == GAME.REMOVE_LAYERS then
 		if slot3.context.mediator == ShopsMediator or slot3.context.mediator == LotteryMediator then

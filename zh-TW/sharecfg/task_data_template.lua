@@ -1658,6 +1658,174 @@ pg.task_data_template = {
 			}
 		}
 	},
+	{
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 40,
+		type = 1,
+		name = "第十章·再次出擊，再次！",
+		count_inherit = 0,
+		desc = "通關10-1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "[41,3037]",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1001,
+		id = 40,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1001",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				300
+			},
+			{
+				1,
+				2,
+				50
+			}
+		}
+	},
+	{
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 41,
+		type = 1,
+		name = "第十章·先發制人",
+		count_inherit = 0,
+		desc = "通關10-2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "[42,3038]",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1002,
+		id = 41,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				300
+			},
+			{
+				1,
+				2,
+				50
+			}
+		}
+	},
+	{
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 42,
+		type = 1,
+		name = "第十章·乘勝追擊",
+		count_inherit = 0,
+		desc = "通關10-3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "[43,3039]",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1003,
+		id = 42,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				300
+			},
+			{
+				1,
+				2,
+				50
+			}
+		}
+	},
+	{
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 43,
+		type = 1,
+		name = "第十章·回馬槍",
+		count_inherit = 0,
+		desc = "通關10-4",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "[44,3040]",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1004,
+		id = 43,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1004",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				1,
+				2,
+				150
+			}
+		}
+	},
 	[1001] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -5175,6 +5343,154 @@ pg.task_data_template = {
 		target_num = 1,
 		fix_task = 0,
 		target_id = "904",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4,
+				100
+			},
+			{
+				4,
+				100011,
+				1
+			}
+		}
+	},
+	[3037] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 3037,
+		type = 2,
+		name = "第十章·再次出擊，再次！",
+		count_inherit = 0,
+		desc = "完成10-1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1001,
+		id = 3037,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1001",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4,
+				50
+			},
+			{
+				2,
+				54034,
+				1
+			}
+		}
+	},
+	[3038] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 3038,
+		type = 2,
+		name = "第十章·先發制人",
+		count_inherit = 0,
+		desc = "完成10-2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1002,
+		id = 3038,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1002",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4,
+				50
+			},
+			{
+				4,
+				100001,
+				1
+			}
+		}
+	},
+	[3039] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 3039,
+		type = 2,
+		name = "第十章·乘勝追擊",
+		count_inherit = 0,
+		desc = "完成10-3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1003,
+		id = 3039,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				4,
+				50
+			},
+			{
+				2,
+				54035,
+				1
+			}
+		}
+	},
+	[3040] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 3040,
+		type = 2,
+		name = "第十章·回馬槍",
+		count_inherit = 0,
+		desc = "完成10-4的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1004,
+		id = 3040,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1004",
 		open_need = {},
 		award_display = {
 			{
@@ -29017,6 +29333,38 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[14847] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91508,
+		type = 6,
+		name = "登录赠送皮影戏家具",
+		count_inherit = 0,
+		desc = "感谢指挥官一直以来的支持喵~",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14847,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				149,
+				1
+			}
+		}
+	},
 	[15181] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -37093,6 +37441,10 @@ pg.task_data_template = {
 		37,
 		38,
 		39,
+		40,
+		41,
+		42,
+		43,
 		1001,
 		1011,
 		1012,
@@ -37187,6 +37539,10 @@ pg.task_data_template = {
 		3034,
 		3035,
 		3036,
+		3037,
+		3038,
+		3039,
+		3040,
 		5001,
 		5002,
 		5003,
@@ -37846,6 +38202,7 @@ pg.task_data_template = {
 		14844,
 		14845,
 		14846,
+		14847,
 		15181,
 		15182,
 		15183,

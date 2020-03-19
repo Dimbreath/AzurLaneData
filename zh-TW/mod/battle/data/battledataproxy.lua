@@ -48,28 +48,43 @@ end
 
 function slot8.TirggerBattleStartBuffs(slot0)
 	for slot4, slot5 in pairs(slot0._fleetList) do
-		slot7 = slot5:GetFlagShip()
-		slot8 = slot5:GetScoutList()
-		slot9 = slot8[1]
-		slot10 = slot8[#slot8]
+		slot6 = slot5:GetUnitList()
+		slot8 = slot5:GetScoutList()[1]
+		slot9 = (#slot5.GetScoutList() > 1 and slot7[#slot7]) or nil
+		slot10 = (#slot7 == 3 and slot7[2]) or nil
+		slot11 = slot5:GetMainList()
+		slot12 = slot11[1]
+		slot13 = slot11[2]
+		slot14 = slot11[3]
 
-		for slot14, slot15 in ipairs(slot6) do
+		for slot18, slot19 in ipairs(slot6) do
 			underscore.each(slot0._battleInitData.ChapterBuffIDs or {}, function (slot0)
 				slot1:AddBuff(slot0.Battle.BattleBuffUnit.New(slot0))
 			end)
 			underscore.each(slot0._battleInitData.GlobalBuffIDs or {}, function (slot0)
 				slot1:AddBuff(slot0.Battle.BattleBuffUnit.New(slot0))
 			end)
-			slot15:TriggerBuff(slot1.BuffEffectType.ON_START_GAME)
 
-			if slot15 == slot7 then
-				slot15:TriggerBuff(slot1.BuffEffectType.ON_FLAG_SHIP)
-			elseif slot15 == slot9 then
-				slot15:TriggerBuff(slot1.BuffEffectType.ON_LEADER)
-			elseif slot15 == slot10 then
-				slot15:TriggerBuff(slot1.BuffEffectType.ON_REAR)
-			else
-				slot15:TriggerBuff(slot1.BuffEffectType.ON_CONSORT)
+			if slot0._battleInitData.MapAuraSkills then
+				for slot23, slot24 in ipairs(slot0._battleInitData.MapAuraSkills) do
+					slot19:AddBuff(slot0.Battle.BattleBuffUnit.New(slot24.id, slot24.level))
+				end
+			end
+
+			slot19:TriggerBuff(slot1.BuffEffectType.ON_START_GAME)
+
+			if slot19 == slot12 then
+				slot19:TriggerBuff(slot1.BuffEffectType.ON_FLAG_SHIP)
+			elseif slot19 == slot13 then
+				slot19:TriggerBuff(slot1.BuffEffectType.ON_UPPER_CONSORT)
+			elseif slot19 == slot14 then
+				slot19:TriggerBuff(slot1.BuffEffectType.ON_LOWER_CONSORT)
+			elseif slot19 == slot8 then
+				slot19:TriggerBuff(slot1.BuffEffectType.ON_LEADER)
+			elseif slot19 == slot10 then
+				slot19:TriggerBuff(slot1.BuffEffectType.ON_CENTER)
+			elseif slot19 == slot9 then
+				slot19:TriggerBuff(slot1.BuffEffectType.ON_REAR)
 			end
 		end
 	end
@@ -3285,7 +3300,7 @@ function slot8.SubmarineStrike(slot0, slot1)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #4 39-55, warpins: 0 ---
+	--- BLOCK #4 39-66, warpins: 0 ---
 	for slot8, slot9 in ipairs(slot4) do
 
 		-- Decompilation error in this vicinity:
@@ -3302,8 +3317,35 @@ function slot8.SubmarineStrike(slot0, slot1)
 		else
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 48-53, warpins: 1 ---
-			slot9:TriggerBuff(slot0.BuffEffectType.ON_SUB_CONSORT)
+			--- BLOCK #0 48-49, warpins: 1 ---
+			if slot8 == 2 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 50-56, warpins: 1 ---
+				slot9:TriggerBuff(slot0.BuffEffectType.ON_UPPER_SUB_CONSORT)
+				--- END OF BLOCK #0 ---
+
+
+
+			else
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 57-58, warpins: 1 ---
+				if slot8 == 3 then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 59-64, warpins: 1 ---
+					slot9:TriggerBuff(slot0.BuffEffectType.ON_LOWER_SUB_CONSORT)
+					--- END OF BLOCK #0 ---
+
+
+
+				end
+				--- END OF BLOCK #0 ---
+
+
+
+			end
 			--- END OF BLOCK #0 ---
 
 
@@ -3316,7 +3358,7 @@ function slot8.SubmarineStrike(slot0, slot1)
 
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #1 54-55, warpins: 3 ---
+		--- BLOCK #1 65-66, warpins: 5 ---
 		--- END OF BLOCK #1 ---
 
 
@@ -3330,7 +3372,7 @@ function slot8.SubmarineStrike(slot0, slot1)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #5 56-63, warpins: 1 ---
+	--- BLOCK #5 67-74, warpins: 1 ---
 	slot5 = slot4[1]
 
 	slot2:GetSubAidVO():Cast()

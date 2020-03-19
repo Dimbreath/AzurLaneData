@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"有关火奴鲁鲁的二三事\n\n<size=45>三　火奴鲁鲁不好相处？</size>",
+					"有關火奴魯魯的二三事\n\n<size=45>三　火奴魯魯不好相處？</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "和火奴鲁鲁、利安得来到了附近的小店。",
+			say = "和火奴魯魯、利安得來到了附近的小店。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢谢你招待我来喝茶，利安得。",
+			say = "謝謝你招待我來喝茶，利安得。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			say = "哪里哪里，你能来才是我的荣幸呢。",
+			say = "哪裡哪裡，你能來才是我的榮幸呢。",
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = 1,
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			actor = 102120,
 			nameColor = "#a9f548",
-			say = "……但是指挥官你为什么又在这里？",
+			say = "……但是指揮官你為什麼又在這裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			},
 			options = {
 				{
-					content = "热情地打招呼",
+					content = "熱情地打招呼",
 					flag = 1
 				}
 			}
@@ -109,7 +109,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "算了……你高兴就好。",
+			say = "算了……你高興就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，邀请指挥官的时候，指挥官说想要一起邀请你。",
+			say = "呵呵，邀請指揮官的時候，指揮官說想要一起邀請你。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也一直想要和火奴鲁鲁聊聊天，正好借这个机会和你亲近一下呢~",
+			say = "我也一直想要和火奴魯魯聊聊天，正好借這個機會和你親近一下呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 0,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			say = "火奴鲁鲁把头别到一边去，不过看起来并没有真的生气。",
+			say = "火奴魯魯把頭別到一邊去，不過看起來並沒有真的生氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵…我刚才点了这里的饼干，两位还请不要客气~",
+			say = "呵呵…我剛才點了這裡的餅乾，兩位還請不要客氣~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			say = "于是开始了愉快的下午茶时间",
+			say = "於是開始了愉快的下午茶時間",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			actor = 202010,
 			nameColor = "#a9f548",
-			say = "不过，感觉火奴鲁鲁你平时不大与人来往呢？",
+			say = "不過，感覺火奴魯魯你平時不大與人來往呢？",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -242,7 +242,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……嗯，毕竟我的性格，也不太招人喜欢。",
+			say = "……嗯，畢竟我的性格，也不太招人喜歡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 		},
 		{
 			bgName = "star_level_bg_104",
-			say = "火奴鲁鲁显得有些低落。",
+			say = "火奴魯魯顯得有些低落。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那真是遗憾呢，明明火奴鲁鲁你这么漂亮，再有自信一点也没关系哦。",
+			say = "那真是遺憾呢，明明火奴魯魯你這麼漂亮，再有自信一點也沒關係哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			}
 		},
 		{
-			say = "漂、漂亮，我吗？",
+			say = "漂、漂亮，我嗎？",
 			side = 0,
 			bgName = "star_level_bg_104",
 			dir = 1,
@@ -312,7 +312,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊，刚才也说了，因为过去的缘分，我一直想要和火奴鲁鲁你友好相处。",
+			say = "是啊，剛才也說了，因為過去的緣分，我一直想要和火奴魯魯你友好相處。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "像现在这样坐下聊天后，就能感觉到，火奴鲁鲁你果然是个好漂亮的女孩子呢。",
+			say = "像現在這樣坐下聊天後，就能感覺到，火奴魯魯你果然是個好漂亮的女孩子呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "连同为女性的我都忍不住有些羡慕了。",
+			say = "連同為女性的我都忍不住有些羡慕了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………谢、谢谢。",
+			say = "…………謝、謝謝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			say = "被这么直接地赞美，一直都是逆来顺受的火奴鲁鲁反而有些窘迫了起来。",
+			say = "被這麼直接地讚美，一直都是逆來順受的火奴魯魯反而有些窘迫了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = 1,
-			say = "果然，让火奴鲁鲁和利安得交朋友是对的。",
+			say = "果然，讓火奴魯魯和利安得交朋友是對的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……指挥官，你干什么用那种欣慰的眼光看着我。",
+			say = "……指揮官，你幹什麼用那種欣慰的眼光看著我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			bgName = "star_level_bg_104",
 			dir = 1,
 			blackBg = true,
-			say = "火奴鲁鲁又把头别到一边去，不过这次看起来只是想掩饰羞涩而已。",
+			say = "火奴魯魯又把頭別到一邊去，不過這次看起來只是想掩飾羞澀而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

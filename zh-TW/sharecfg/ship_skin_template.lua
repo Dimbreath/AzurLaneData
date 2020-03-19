@@ -4046,6 +4046,108 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[101311] = {
+		name = "尼古納斯",
+		ship_group = 10131,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "我喜歡護士這個身份……不用出門也不用訓練，只需要照顧病人就好~治療？只要好好地休息，病情一定會康復啦",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "nigulasi_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = 0,
+		id = 101311,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "nigulasi_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70049,
+		voice_actor = 116,
+		air_bomb_skin = "",
+		illustrator = 26,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.313,
+					1.543,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.313,
+					1.516,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.151,
+					0.049,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.495,
+							2.302,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[101319] = {
 		name = "尼古拉斯.改",
 		ship_group = 10131,
@@ -6718,6 +6820,115 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[102120] = {
+		name = "火奴魯魯",
+		ship_group = 10212,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "布魯克林級輕巡洋艦—火奴魯魯，舷號CL-48",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "huonululu",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 102120,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "huonululu",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 114,
+		air_bomb_skin = "",
+		illustrator = 30,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.37,
+					0.73,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.37,
+					0.73,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.17,
+					0.16,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.37,
+					0.73,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.34,
+							2.5,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[102130] = {
 		name = "聖路易斯",
 		ship_group = 10213,
@@ -6825,6 +7036,134 @@ pg.ship_skin_template = {
 					}
 				}
 			}
+		}
+	},
+	[102131] = {
+		name = "春之華",
+		ship_group = 10213,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "指揮官，這身異國的衣服怎麼樣？嘻嘻，再一次對我一見鍾情了嗎？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "shengluyisi_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 3,
+		hand_id = 9,
+		lip_smoothing = 0,
+		bgm = "",
+		bg = "102",
+		skin_type = 0,
+		id = 102131,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "shengluyisi_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70047,
+		voice_actor = 114,
+		air_bomb_skin = "",
+		illustrator = 30,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			59,
+			-162,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.21,
+					0.72,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.14,
+					0.81,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.17,
+					-0.06,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					2,
+					0.69,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.66,
+							2.7,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			propose = 2.5
 		}
 	},
 	[102180] = {
@@ -29627,6 +29966,115 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[301410] = {
+		name = "{namecode:126}",
+		ship_group = 30141,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "{namecode:33}級驅逐艦十番艦—{namecode:126}",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "sanriyue",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 6,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 301410,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "sanriyue",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 119,
+		air_bomb_skin = "",
+		illustrator = 34,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.88,
+					0.61,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.88,
+					0.61,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.26,
+					0.12,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.88,
+					0.61,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301560] = {
 		name = "{namecode:125}",
 		ship_group = 30156,
@@ -30867,6 +31315,224 @@ pg.ship_skin_template = {
 							-0.35,
 							2.34,
 							-0.34
+						}
+					}
+				}
+			}
+		}
+	},
+	[302130] = {
+		name = "{namecode:39}",
+		ship_group = 30213,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "{namecode:38}級輕巡洋艦二番艦——{namecode:39}",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "shentong",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 302130,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "shentong",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 77,
+		air_bomb_skin = "",
+		illustrator = 41,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.16,
+					0.66,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.16,
+					0.66,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.12,
+					0.02,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.16,
+					0.66,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.54,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[302139] = {
+		name = "{namecode:39}.改",
+		ship_group = 30213,
+		group_index = 9,
+		illustrator2 = -1,
+		desc = "逐漸習慣和指揮官相處了，趁著改造的機會就稍微放鬆了一些……舞蹈？呵呵，不是那麼簡單就給人看的東西哦",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "shentong_g",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = 2,
+		id = 302139,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "shentong_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 77,
+		air_bomb_skin = "",
+		illustrator = 41,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.07,
+					0.81,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.07,
+					0.81,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.22,
+					0.08,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.07,
+					0.81,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.54,
+							2.43,
+							0
 						}
 					}
 				}
@@ -52055,6 +52721,10 @@ pg.ship_skin_template = {
 			303010,
 			303019
 		},
+		[30213] = {
+			302130,
+			302139
+		},
 		[30210] = {
 			302100
 		},
@@ -52079,6 +52749,9 @@ pg.ship_skin_template = {
 		},
 		[30156] = {
 			301560
+		},
+		[30141] = {
+			301410
 		},
 		[30137] = {
 			301370
@@ -52506,7 +53179,11 @@ pg.ship_skin_template = {
 			102181
 		},
 		[10213] = {
-			102130
+			102130,
+			102131
+		},
+		[10212] = {
+			102120
 		},
 		[10211] = {
 			102110
@@ -52561,6 +53238,7 @@ pg.ship_skin_template = {
 		},
 		[10131] = {
 			101310,
+			101311,
 			101319
 		},
 		[10130] = {
@@ -52680,6 +53358,7 @@ pg.ship_skin_template = {
 		101290,
 		101300,
 		101310,
+		101311,
 		101319,
 		101360,
 		101361,
@@ -52704,7 +53383,9 @@ pg.ship_skin_template = {
 		102094,
 		102098,
 		102110,
+		102120,
 		102130,
+		102131,
 		102180,
 		102181,
 		103010,
@@ -52907,6 +53588,7 @@ pg.ship_skin_template = {
 		301350,
 		301351,
 		301370,
+		301410,
 		301560,
 		301610,
 		301611,
@@ -52918,6 +53600,8 @@ pg.ship_skin_template = {
 		302090,
 		302099,
 		302100,
+		302130,
+		302139,
 		303010,
 		303019,
 		303020,

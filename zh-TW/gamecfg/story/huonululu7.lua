@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"有关火奴鲁鲁的二三事\n\n<size=45>七　火奴鲁鲁的约会·下</size>",
+					"有關火奴魯魯的二三事\n\n<size=45>七　火奴魯魯的約會·下</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "火奴鲁鲁一脸狐疑地看着包装好的礼物盒。",
+			say = "火奴魯魯一臉狐疑地看著包裝好的禮物盒。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -46,7 +46,7 @@ return {
 			},
 			options = {
 				{
-					content = "送给火奴鲁鲁",
+					content = "送給火奴魯魯",
 					flag = 1
 				}
 			}
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……欸？给我的？",
+			say = "……欸？給我的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不、不会是整人箱之类的吧…",
+			say = "不、不會是整人箱之類的吧…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "火奴鲁鲁将雷达抱枕放到一边，接过礼物盒，有些难以置信地拆开——",
+			say = "火奴魯魯將雷達抱枕放到一邊，接過禮物盒，有些難以置信地拆開——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			actor = 102120,
 			nameColor = "#a9f548",
-			say = "！这是…刚才的玩具熊布偶？！",
+			say = "！這是…剛才的玩具熊布偶？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，你走的时候特意折回去就是去买这个了吗？",
+			say = "指揮官，你走的時候特意折回去就是去買這個了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……谢谢。",
+			say = "……謝謝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgm = "story-2",
 			actor = 102120,
 			nameColor = "#a9f548",
-			say = "火奴鲁鲁将玩具熊抱在怀里。",
+			say = "火奴魯魯將玩具熊抱在懷裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			withoutActorName = true,
 			actor = 102120,
 			nameColor = "#a9f548",
-			say = "然后，像是下定了什么决心一样，她深呼吸了一口气。",
+			say = "然後，像是下定了什麼決心一樣，她深呼吸了一口氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，之前谈心的时候没有告诉你……",
+			say = "指揮官，之前談心的時候沒有告訴你……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一开始你总是出现在我面前时，我会想，对我这个除了胸部之外毫无特色的家伙这么好，你就这么喜欢胸部吗？",
+			say = "一開始你總是出現在我面前時，我會想，對我這個除了胸部之外毫無特色的傢伙這麼好，你就這麼喜歡胸部嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,40 +224,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "后来，就逐渐变成了……不管你是不是只喜欢我的胸部，我都……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_school",
-			withoutActorName = true,
-			actor = 102120,
-			nameColor = "#a9f548",
-			say = "说话间，火奴鲁鲁的脸红的就像她那头鲜艳的头发一样。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 102120,
-			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "……都、都已经喜欢上你了。",
+			say = "後來，就逐漸變成了……不管你是不是只喜歡我的胸部，我都……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +241,40 @@ return {
 			withoutActorName = true,
 			actor = 102120,
 			nameColor = "#a9f548",
-			say = "说完这句话，似乎耗尽了所有的勇气，她把脸藏到了布偶后面，不敢再看过来。",
+			say = "說話間，火奴魯魯的臉紅的就像她那頭鮮豔的頭髮一樣。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 102120,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "……都、都已經喜歡上你了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_school",
+			withoutActorName = true,
+			actor = 102120,
+			nameColor = "#a9f548",
+			say = "說完這句話，似乎耗盡了所有的勇氣，她把臉藏到了布偶後面，不敢再看過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			},
 			options = {
 				{
-					content = "抱住火奴鲁鲁",
+					content = "抱住火奴魯魯",
 					flag = 1
 				}
 			}
@@ -331,7 +331,7 @@ return {
 			blackBg = true,
 			actor = 102120,
 			nameColor = "#a9f548",
-			say = "……谢谢。",
+			say = "……謝謝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

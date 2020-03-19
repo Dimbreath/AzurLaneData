@@ -355,6 +355,49 @@ pg.activity_template = {
 			}
 		}
 	},
+	[358] = {
+		mark = 20200313,
+		title_res_tag = "py",
+		type = 13,
+		login_pop = 1,
+		config_id = 0,
+		is_show = 10,
+		config_client = "https://www.bilibili.com/video/av65727525/",
+		id = 358,
+		config_data = {
+			14847
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					3,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					3,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/shadow_play"
+		}
+	},
 	[419] = {
 		mark = 20191114,
 		title_res_tag = "pocky_login",
@@ -818,7 +861,7 @@ pg.activity_template = {
 		type = 54,
 		login_pop = 0,
 		config_id = 525,
-		is_show = 10,
+		is_show = 9,
 		config_client = "",
 		id = 525,
 		config_data = {},
@@ -859,7 +902,7 @@ pg.activity_template = {
 		type = 57,
 		login_pop = 0,
 		config_id = 8,
-		is_show = 9,
+		is_show = 8,
 		id = 526,
 		config_data = {},
 		time = {
@@ -1104,6 +1147,22 @@ pg.activity_template = {
 		config_client = "",
 		bg = "",
 		id = 2018,
+		config_data = {
+			0,
+			{}
+		}
+	},
+	[2025] = {
+		mark = 20181011,
+		title_res_tag = "",
+		time = "always",
+		type = 17,
+		login_pop = 0,
+		config_id = 5291,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 2025,
 		config_data = {
 			0,
 			{}
@@ -4113,6 +4172,7 @@ pg.activity_template = {
 	[40087] = {
 		mark = 20200224,
 		title_res_tag = "z23teacher",
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 2,
@@ -4158,33 +4218,6 @@ pg.activity_template = {
 			{
 				10459,
 				10460
-			}
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					3,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					3,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		bg = {
@@ -4424,6 +4457,7 @@ pg.activity_template = {
 		21,
 		164,
 		355,
+		358,
 		419,
 		421,
 		422,
@@ -4445,6 +4479,7 @@ pg.activity_template = {
 		2010,
 		2011,
 		2018,
+		2025,
 		2026,
 		2027,
 		2028,

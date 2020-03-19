@@ -394,6 +394,40 @@ pg.technology_data_template = {
 			}
 		}
 	},
+	[18] = {
+		id = 18,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "B-164-MI",
+		lv_limit = 70,
+		desc = "工程師們在對心智魔方的研究過程中，提出了大量天馬行空般的設想。該科研項目致力於透過實戰的手段，收集各種實驗數據以驗證實驗設想。",
+		condition = 52008,
+		bg = "2",
+		blueprint_version = 1,
+		sub_name = "中型项目",
+		label = "tag_red",
+		bg_icon = "battle_2",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52001,
+				1
+			},
+			{
+				2,
+				52002,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
 	[21] = {
 		id = 21,
 		rarity = 1,
@@ -2774,6 +2808,7 @@ pg.technology_data_template = {
 		15,
 		16,
 		17,
+		18,
 		21,
 		22,
 		23,

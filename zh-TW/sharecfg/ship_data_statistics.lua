@@ -16802,6 +16802,478 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[102121] = {
+		oxy_max = 0,
+		type = 2,
+		name = "火奴魯魯",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 102121,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Honolulu",
+		oxy_cost = 0,
+		skin_id = 102120,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			595,
+			30,
+			0,
+			58,
+			0,
+			66,
+			0,
+			54,
+			28,
+			32.5,
+			50,
+			24
+		},
+		attrs_growth = {
+			14510,
+			300,
+			0,
+			1132,
+			0,
+			330,
+			0,
+			804,
+			414,
+			0,
+			0,
+			234
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.65,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[102122] = {
+		oxy_max = 0,
+		type = 2,
+		name = "火奴魯魯",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 102122,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Honolulu",
+		oxy_cost = 0,
+		skin_id = 102120,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			740,
+			38,
+			0,
+			72,
+			0,
+			66,
+			0,
+			54,
+			28,
+			32.5,
+			50,
+			30
+		},
+		attrs_growth = {
+			14510,
+			300,
+			0,
+			1132,
+			0,
+			330,
+			0,
+			804,
+			414,
+			0,
+			0,
+			234
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			0.65,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[102123] = {
+		oxy_max = 0,
+		type = 2,
+		name = "火奴魯魯",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 102123,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Honolulu",
+		oxy_cost = 0,
+		skin_id = 102120,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1030,
+			53,
+			0,
+			100,
+			0,
+			66,
+			0,
+			54,
+			28,
+			32.5,
+			50,
+			42
+		},
+		attrs_growth = {
+			14510,
+			300,
+			0,
+			1132,
+			0,
+			330,
+			0,
+			804,
+			414,
+			0,
+			0,
+			234
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			0.65,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[102124] = {
+		oxy_max = 0,
+		type = 2,
+		name = "火奴魯魯",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 3,
+		ammo = 0,
+		id = 102124,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "USS Honolulu",
+		oxy_cost = 0,
+		skin_id = 102120,
+		attack_duration = 0,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1466,
+			75,
+			0,
+			143,
+			0,
+			66,
+			0,
+			54,
+			28,
+			32.5,
+			50,
+			59
+		},
+		attrs_growth = {
+			14510,
+			300,
+			0,
+			1132,
+			0,
+			330,
+			0,
+			804,
+			414,
+			0,
+			0,
+			234
+		},
+		attrs_growth_extra = {
+			4063,
+			705,
+			0,
+			605,
+			0,
+			780,
+			0,
+			0,
+			426,
+			0,
+			0,
+			337
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			0.65,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[102131] = {
 		oxy_max = 0,
 		type = 2,
@@ -66739,6 +67211,942 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[301371] = {
+		oxy_max = 0,
+		type = 1,
+		name = "水無月",
+		huntingrange_level = 0,
+		star = 1,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 2,
+		ammo = 0,
+		id = 301371,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Minazuki",
+		oxy_cost = 0,
+		skin_id = 301370,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			240,
+			11,
+			82,
+			26,
+			0,
+			72,
+			0,
+			65,
+			72,
+			44.7,
+			45,
+			41
+		},
+		attrs_growth = {
+			5845,
+			108,
+			808,
+			500,
+			0,
+			360,
+			0,
+			960,
+			1062,
+			0,
+			0,
+			406
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.25,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301372] = {
+		oxy_max = 0,
+		type = 1,
+		name = "水無月",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 2,
+		ammo = 0,
+		id = 301372,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Minazuki",
+		oxy_cost = 0,
+		skin_id = 301370,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			298,
+			14,
+			102,
+			32,
+			0,
+			72,
+			0,
+			65,
+			72,
+			44.7,
+			45,
+			51
+		},
+		attrs_growth = {
+			5845,
+			108,
+			808,
+			500,
+			0,
+			360,
+			0,
+			960,
+			1062,
+			0,
+			0,
+			406
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.3,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301373] = {
+		oxy_max = 0,
+		type = 1,
+		name = "水無月",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 2,
+		ammo = 0,
+		id = 301373,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Minazuki",
+		oxy_cost = 0,
+		skin_id = 301370,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			415,
+			19,
+			143,
+			45,
+			0,
+			72,
+			0,
+			65,
+			72,
+			44.7,
+			45,
+			71
+		},
+		attrs_growth = {
+			5845,
+			108,
+			808,
+			500,
+			0,
+			360,
+			0,
+			960,
+			1062,
+			0,
+			0,
+			406
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.4,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301374] = {
+		oxy_max = 0,
+		type = 1,
+		name = "水無月",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 2,
+		ammo = 0,
+		id = 301374,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Minazuki",
+		oxy_cost = 0,
+		skin_id = 301370,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			591,
+			27,
+			203,
+			64,
+			0,
+			72,
+			0,
+			65,
+			72,
+			44.7,
+			45,
+			102
+		},
+		attrs_growth = {
+			5845,
+			108,
+			808,
+			500,
+			0,
+			360,
+			0,
+			960,
+			1062,
+			0,
+			0,
+			406
+		},
+		attrs_growth_extra = {
+			5845,
+			252,
+			1175,
+			348,
+			0,
+			848,
+			0,
+			-560,
+			-770,
+			0,
+			0,
+			441
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.45,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301411] = {
+		oxy_max = 0,
+		type = 1,
+		name = "三日月",
+		huntingrange_level = 0,
+		star = 1,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 2,
+		ammo = 0,
+		id = 301411,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Mikazuki",
+		oxy_cost = 0,
+		skin_id = 301410,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			240,
+			11,
+			82,
+			26,
+			0,
+			72,
+			0,
+			65,
+			72,
+			44.7,
+			40,
+			45
+		},
+		attrs_growth = {
+			5845,
+			108,
+			808,
+			500,
+			0,
+			360,
+			0,
+			960,
+			1062,
+			0,
+			0,
+			442
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.25,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301412] = {
+		oxy_max = 0,
+		type = 1,
+		name = "三日月",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 2,
+		ammo = 0,
+		id = 301412,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Mikazuki",
+		oxy_cost = 0,
+		skin_id = 301410,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			298,
+			14,
+			102,
+			32,
+			0,
+			72,
+			0,
+			65,
+			72,
+			44.7,
+			40,
+			56
+		},
+		attrs_growth = {
+			5845,
+			108,
+			808,
+			500,
+			0,
+			360,
+			0,
+			960,
+			1062,
+			0,
+			0,
+			442
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.3,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301413] = {
+		oxy_max = 0,
+		type = 1,
+		name = "三日月",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 2,
+		ammo = 0,
+		id = 301413,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Mikazuki",
+		oxy_cost = 0,
+		skin_id = 301410,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			415,
+			19,
+			143,
+			45,
+			0,
+			72,
+			0,
+			65,
+			72,
+			44.7,
+			40,
+			78
+		},
+		attrs_growth = {
+			5845,
+			108,
+			808,
+			500,
+			0,
+			360,
+			0,
+			960,
+			1062,
+			0,
+			0,
+			442
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.4,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[301414] = {
+		oxy_max = 0,
+		type = 1,
+		name = "三日月",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 2,
+		ammo = 0,
+		id = 301414,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Mikazuki",
+		oxy_cost = 0,
+		skin_id = 301410,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			591,
+			27,
+			203,
+			64,
+			0,
+			72,
+			0,
+			65,
+			72,
+			44.7,
+			40,
+			111
+		},
+		attrs_growth = {
+			5845,
+			108,
+			808,
+			500,
+			0,
+			360,
+			0,
+			960,
+			1062,
+			0,
+			0,
+			442
+		},
+		attrs_growth_extra = {
+			5845,
+			252,
+			1175,
+			348,
+			0,
+			848,
+			0,
+			-560,
+			-770,
+			0,
+			0,
+			446
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.45,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[301561] = {
 		oxy_max = 0,
 		type = 1,
@@ -69586,6 +70994,486 @@ pg.ship_data_statistics = {
 			1.1,
 			1.6,
 			1.25,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302131] = {
+		oxy_max = 0,
+		type = 2,
+		name = "神通",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 302131,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Jintsū",
+		oxy_cost = 0,
+		skin_id = 302130,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			447,
+			29,
+			65,
+			53,
+			0,
+			70,
+			0,
+			52,
+			29,
+			35.3,
+			38,
+			24
+		},
+		attrs_growth = {
+			10895,
+			284,
+			648,
+			1048,
+			0,
+			350,
+			0,
+			768,
+			426,
+			0,
+			0,
+			236
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			321
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.4,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302132] = {
+		oxy_max = 0,
+		type = 2,
+		name = "神通",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 302132,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Jintsū",
+		oxy_cost = 0,
+		skin_id = 302130,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			556,
+			36,
+			81,
+			66,
+			0,
+			70,
+			0,
+			52,
+			29,
+			35.3,
+			38,
+			30
+		},
+		attrs_growth = {
+			10895,
+			284,
+			648,
+			1048,
+			0,
+			350,
+			0,
+			768,
+			426,
+			0,
+			0,
+			236
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			322
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.4,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302133] = {
+		oxy_max = 0,
+		type = 2,
+		name = "神通",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 302133,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Jintsū",
+		oxy_cost = 0,
+		skin_id = 302130,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			774,
+			50,
+			114,
+			92,
+			0,
+			70,
+			0,
+			52,
+			29,
+			35.3,
+			38,
+			42
+		},
+		attrs_growth = {
+			10895,
+			284,
+			648,
+			1048,
+			0,
+			350,
+			0,
+			768,
+			426,
+			0,
+			0,
+			236
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			323
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.5,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302134] = {
+		oxy_max = 0,
+		type = 2,
+		name = "神通",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 302134,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Jintsū",
+		oxy_cost = 0,
+		skin_id = 302130,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			1101,
+			72,
+			162,
+			132,
+			0,
+			70,
+			0,
+			52,
+			29,
+			35.3,
+			38,
+			59
+		},
+		attrs_growth = {
+			10895,
+			284,
+			648,
+			1048,
+			0,
+			350,
+			0,
+			768,
+			426,
+			0,
+			0,
+			236
+		},
+		attrs_growth_extra = {
+			3486,
+			676,
+			703,
+			612,
+			0,
+			828,
+			0,
+			0,
+			1129,
+			0,
+			0,
+			335
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			324
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.65,
+			1.15,
 			0.3
 		},
 		strategy_list = {},
@@ -116814,6 +118702,10 @@ pg.ship_data_statistics = {
 		102112,
 		102113,
 		102114,
+		102121,
+		102122,
+		102123,
+		102124,
 		102131,
 		102132,
 		102133,
@@ -117238,6 +119130,14 @@ pg.ship_data_statistics = {
 		301352,
 		301353,
 		301354,
+		301371,
+		301372,
+		301373,
+		301374,
+		301411,
+		301412,
+		301413,
+		301414,
 		301561,
 		301562,
 		301563,
@@ -117262,6 +119162,10 @@ pg.ship_data_statistics = {
 		302092,
 		302093,
 		302094,
+		302131,
+		302132,
+		302133,
+		302134,
 		303011,
 		303012,
 		303013,

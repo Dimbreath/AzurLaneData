@@ -112,16 +112,10 @@ function slot0.register(slot0)
 		slot0:sendNotification(GAME.GUILD_SEND_MSG, slot1)
 	end)
 	slot0:bind(slot0.OPEN_SHOP, function (slot0)
-		slot0:addSubLayers(Context.New({
-			viewComponent = ShopsLayer,
-			mediator = ShopsMediator,
-			data = {
-				warp = ShopsLayer.TYPE_GUILD
-			}
-		}))
+		print("todo open")
 	end)
 	slot0:bind(slot0.CLOSE_SHOP, function (slot0)
-		slot0:closePage(ShopsMediator)
+		print("todo close")
 	end)
 	slot0:bind(slot0.OPEN_EMOJI, function (slot0, slot1, slot2)
 		slot0:addSubLayers(Context.New({

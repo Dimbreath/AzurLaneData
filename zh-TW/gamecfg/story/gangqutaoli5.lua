@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			actor = 407020,
 			nameColor = "#a9f548",
-			say = "不可能…明明是铁血第一艘空母…结果竟然有“两个“…吗？",
+			say = "不可能…明明是铁血第一艘空母…结果竟然有“两个”…吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
