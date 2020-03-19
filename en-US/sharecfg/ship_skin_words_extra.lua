@@ -511,7 +511,7 @@ pg.ship_skin_words_extra = {
 		feeling5 = {
 			{
 				1100,
-				"主人，您已经足够优秀了，我对此感到很骄傲。不过请放心，一旦出现了新的问题，我会继续帮主人您指出来的。"
+				"Master, you are already the paragon of excellence, for which I am extremely proud. But worry not, Master, in order to ensure that you are not at risk of making any mistakes... please allow me to handle *all* your affairs."
 			}
 		}
 	},

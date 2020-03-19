@@ -17,25 +17,12 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(slot0.GO_SHOPS_LAYER, function ()
-		slot0:addSubLayers(Context.New({
-			mediator = ShopsMediator,
-			viewComponent = ShopsLayer,
-			data = {
-				warp = ShopsLayer.TYPE_ACTIVITY
-			}
-		}))
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, {
+			warp = ShopsScene.TYPE_ACTIVITY
+		})
 	end)
 	slot0:bind(slot0.OPEN_SCENE, function (slot0, slot1)
-		if slot1[1] == SCENE.SHOP then
-			slot0:sendNotification(GAME.CLOSE_SHOPS)
-			slot0:addSubLayers(Context.New({
-				mediator = ShopsMediator,
-				viewComponent = ShopsLayer,
-				data = slot1[2]
-			}))
-		else
-			slot0:sendNotification(GAME.GO_SCENE, slot1[1], slot1[2])
-		end
+		slot0:sendNotification(GAME.GO_SCENE, slot1[1], slot1[2])
 	end)
 	slot0.viewComponent:setSkins(slot1)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())

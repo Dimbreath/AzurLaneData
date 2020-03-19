@@ -70,7 +70,9 @@ class("SubmitTaskCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				slot0:updateTask(slot0)
 			end
 
-			slot1:sendNotification(GAME.SUBMIT_TASK_DONE, slot1)
+			slot1:sendNotification(GAME.SUBMIT_TASK_DONE, slot1, {
+				slot0.id
+			})
 
 			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST_MONITOR) and not slot3:isEnd() and table.contains(slot3:getConfig("config_data")[1] or {}, slot0.id) then
 				slot2:monitorTaskList(slot3)

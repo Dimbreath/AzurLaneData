@@ -451,11 +451,10 @@ function pg.ShareMgr.Share(slot0, slot1, slot2)
 	if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and slot0.SdkMgr.GetInstance():GetIsPlatform() then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 229-266, warpins: 1 ---
-		slot0.SdkMgr.GetInstance():GameShare(slot3.description, slot14)
+		--- BLOCK #0 229-258, warpins: 1 ---
+		slot0.SdkMgr.GetInstance():GameShare(slot3.description, slot13:EncodeToJPG(slot13:TakePhoto(slot11)))
 		slot0.UIMgr.GetInstance():LoadingOn()
-
-		time = Timer.New(function ()
+		onDelayTick(function ()
 
 			-- Decompilation error in this vicinity:
 			--- BLOCK #0 1-8, warpins: 1 ---
@@ -466,9 +465,7 @@ function pg.ShareMgr.Share(slot0, slot1, slot2)
 
 
 
-		end, 2, 0, 1)
-
-		time:Start()
+		end, 2)
 		--- END OF BLOCK #0 ---
 
 
@@ -476,11 +473,11 @@ function pg.ShareMgr.Share(slot0, slot1, slot2)
 	else
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 267-273, warpins: 2 ---
+		--- BLOCK #0 259-265, warpins: 2 ---
 		if slot13:Take(slot11, slot0.screenshot) then
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 274-283, warpins: 1 ---
+			--- BLOCK #0 266-275, warpins: 1 ---
 			print("截图位置: " .. slot0.screenshot)
 			slot0:Show(slot3)
 			--- END OF BLOCK #0 ---
@@ -490,7 +487,7 @@ function pg.ShareMgr.Share(slot0, slot1, slot2)
 		else
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 284-291, warpins: 1 ---
+			--- BLOCK #0 276-283, warpins: 1 ---
 			slot0.TipsMgr.GetInstance():ShowTips("截图失败")
 			--- END OF BLOCK #0 ---
 
@@ -510,7 +507,7 @@ function pg.ShareMgr.Share(slot0, slot1, slot2)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #15 292-319, warpins: 3 ---
+	--- BLOCK #15 284-311, warpins: 3 ---
 	SetParent(slot9, slot0.tr, false)
 	_.each(slot0.cacheComps, function (slot0)
 
@@ -568,7 +565,7 @@ function pg.ShareMgr.Share(slot0, slot1, slot2)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #16 320-320, warpins: 2 ---
+	--- BLOCK #16 312-312, warpins: 2 ---
 	--- END OF BLOCK #16 ---
 
 

@@ -146,6 +146,8 @@ function slot0.didEnter(slot0)
 
 	if slot0.contextData.wrap ~= nil then
 		slot0:switchPage(slot0.contextData.wrap)
+
+		slot0.contextData.wrap = nil
 	else
 		slot0:switchPage(slot0.TYPE_MENU)
 	end

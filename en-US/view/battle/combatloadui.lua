@@ -116,18 +116,19 @@ function slot0.Preload(slot0)
 
 			slot0.addCommanderBuffRes(slot10)
 			slot0.addChapterBuffRes(slot9)
+			slot0.addChapterAuraRes(slot11)
 
-			slot11, slot12 = slot5.getSubAidFlag(slot6)
+			slot12, slot13 = slot5.getSubAidFlag(slot6)
 
-			if slot11 == true or slot11 > 0 then
-				for slot17, slot18 in ipairs(slot13) do
-					table.insert(slot3, slot18)
+			if slot12 == true or slot12 > 0 then
+				for slot18, slot19 in ipairs(slot14) do
+					table.insert(slot3, slot19)
 				end
 
-				slot17, slot17 = slot6:getFleetBattleBuffs(slot12)
+				slot18, slot18 = slot6:getFleetBattleBuffs(slot13)
 
-				slot0.addCommanderBuffRes(slot15)
-				slot0.addChapterBuffRes(slot14)
+				slot0.addCommanderBuffRes(slot16)
+				slot0.addChapterBuffRes(slot15)
 			end
 		elseif slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS or slot0.contextData.system == SYSTEM_ACT_BOSS or slot0.contextData.system == SYSTEM_BOSS_EXPERIMENT then
 			if getProxy(FleetProxy).getActivityFleets(slot5)[slot0.contextData.actId][slot0.contextData.mainFleetId] then
@@ -303,6 +304,16 @@ function slot0.addCommanderBuffRes(slot0)
 end
 
 function slot0.addChapterBuffRes(slot0)
+	slot1 = ys.Battle.BattleResourceManager.GetInstance()
+
+	for slot5, slot6 in ipairs(slot0) do
+		for slot11, slot12 in ipairs(slot7) do
+			slot1:AddPreloadResource(slot12)
+		end
+	end
+end
+
+function slot0.addChapterAuraRes(slot0)
 	slot1 = ys.Battle.BattleResourceManager.GetInstance()
 
 	for slot5, slot6 in ipairs(slot0) do

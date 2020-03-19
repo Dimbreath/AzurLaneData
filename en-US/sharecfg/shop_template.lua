@@ -10274,7 +10274,7 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 2,
+		tag = 0,
 		time_second = 0,
 		order = 8972,
 		group = 0,
@@ -12257,9 +12257,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 0,
+		tag = 1,
 		time_second = 0,
-		order = 9891,
+		order = 8971,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -12274,9 +12274,9 @@ pg.shop_template = {
 		time = {
 			{
 				{
-					2019,
-					11,
-					21
+					2020,
+					3,
+					19
 				},
 				{
 					0,
@@ -12286,9 +12286,9 @@ pg.shop_template = {
 			},
 			{
 				{
-					2019,
-					12,
-					4
+					2020,
+					4,
+					8
 				},
 				{
 					23,
