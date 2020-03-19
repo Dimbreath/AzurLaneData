@@ -8882,15 +8882,15 @@ B평가:<color=#92fc63>70</color>점
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
-		tip = "키리시마 건조추가",
+		tip = "키리시마 건조 추가!",
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "하츠시모、스위프트슈어 상시건조 추가",
+		tip = "아브로라 건조 추가!",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "다이호 상시건조 추가",
+		tip = "류조 한정 건조! ",
 		key = "buildship_special_tip"
 	},
 	open_skill_pos = {
@@ -9821,7 +9821,9 @@ B평가:<color=#92fc63>70</color>점
 <color=#92fc63>출현하지 않게 됩니다</color>.
 2. 이벤트 스테이지의 적 배치 및 행동 로직이 변화합니다.
 3. 이벤트 스테이지에서 아군의<color=#92fc63> 이동 제한이 해제되며</color>, 
-해역 지도에서 자유롭게 이동할 수 있습니다.]]
+해역 지도에서 자유롭게 이동할 수 있습니다.
+4. 메인 스테이지 중 <color=#92fc63>매복과 공습은 취소됩니다.</color>
+5. 스테이지 내에서는 <color=#92fc63>편대 고정</color> 모드가 오픈됩니다.]]
 			}
 		}
 	},
@@ -12430,7 +12432,11 @@ TIPS:
 		key = "sofmap_attention",
 		tip = {
 			{
-				info = "다음의 지정 스테이지 클리어 시 각각 다른 수량의 <color=#92fc63>「아카시의 상품권」</color>을 획득합니다.\n 1. 제3장 및 이후의 일반 메인 해역\n 2. 이벤트 스테이지 SP1, SP2, SP3"
+				info = [[
+다음의 지정 스테이지 클리어 시 각각 다른 수량의 
+<color=#92fc63>「아카시의 상품권」</color>을 획득합니다.
+ 1. 제3장 및 이후의 일반 메인 해역
+ 2. 이벤트 스테이지 SP1, SP2, SP3]]
 			}
 		}
 	},
@@ -12491,6 +12497,10 @@ TIPS:
 				y = 1024
 			}
 		}
+	},
+	undermist_tip = {
+		tip = "현재 임무 완성. 내일 해제되니 기다려주세요. ",
+		key = "undermist_tip"
 	}
 }
 

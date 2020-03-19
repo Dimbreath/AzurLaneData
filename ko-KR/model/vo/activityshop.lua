@@ -75,7 +75,12 @@ function slot0.getBgPath(slot0)
 		255,
 		255,
 		255
-	}[1], pg.activity_template[slot0.activityId].config_client[2] or [2], pg.activity_template[slot0.activityId].config_client[2] or [3], pg.activity_template[slot0.activityId].config_client[2] or [4])
+	}[1], pg.activity_template[slot0.activityId].config_client[2] or [2], pg.activity_template[slot0.activityId].config_client[2] or [3], pg.activity_template[slot0.activityId].config_client[2] or [4]), Color.New(slot1.config_client.outline or {
+		0,
+		0,
+		0,
+		1
+	}[1], slot1.config_client.outline or [2], slot1.config_client.outline or [3], slot1.config_client.outline or [4])
 end
 
 function slot0.getToggleImage(slot0)

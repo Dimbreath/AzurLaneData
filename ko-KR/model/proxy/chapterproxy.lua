@@ -237,6 +237,7 @@ function slot0.register(slot0)
 	slot0.subProgress = 1
 	slot0.defeatedEnemiesBuffer = {}
 	slot0.comboHistoryBuffer = {}
+	slot0.justClearChapters = {}
 end
 
 function slot0.buildRemasterMaps(slot0)
@@ -1145,6 +1146,18 @@ function slot0.getSubAidFlag(slot0)
 	end
 end
 
+function slot0.GetChapterAuraBuffs(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(slot0.fleets) do
+		for slot11, slot12 in ipairs(slot7) do
+			table.insert(slot1, slot12)
+		end
+	end
+
+	return slot1
+end
+
 function slot0.RecordLastDefeatedEnemy(slot0, slot1, slot2)
 	if not slot1 or slot1 <= 0 then
 		return
@@ -1159,6 +1172,18 @@ function slot0.RecordComboHistory(slot0, slot1, slot2)
 	end
 
 	slot0.comboHistoryBuffer[slot1] = slot2
+end
+
+function slot0.RecordJustClearChapters(slot0, slot1, slot2)
+	if not slot1 or slot1 <= 0 then
+		return
+	end
+
+	slot0.justClearChapters[slot1] = slot2
+end
+
+function slot0.GetJustClearChapters(slot0, slot1)
+	return slot0.justClearChapters[slot1]
 end
 
 function slot0.ifShowRemasterTip(slot0)

@@ -30770,12 +30770,12 @@ pg.ship_skin_template = {
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
-			main_2 = 0,
+			main_2 = 0.5,
 			login = 12.58,
 			main_1 = 0.73,
 			mission_complete = 1.58,
 			expendition = 1.67,
-			propose = 5,
+			propose = 2.5,
 			home = 3.68,
 			mission = 1.77,
 			touch2 = 6,
@@ -65170,6 +65170,105 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[306061] = {
+		name = "건어물 무사? ",
+		bullet_skin_main = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "후아암, 잘 잤다... 어제 하던 RPG 게임을 계속 해볼...... 으아아앗, 주군, 왜왜왜왜 여기에 계신가요! 저, 전 절대 게으름을 피운게 아니라, 그, 그저, 으...... ",
+		bullet_skin_secondary = "",
+		ship_group = 30606,
+		painting = "longxiang_2",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 9,
+		hand_id = 14,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "109",
+		isSwimsuit = 0,
+		skin_type = 0,
+		id = 306061,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "longxiang_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70124,
+		voice_actor = 163,
+		air_bomb_skin = "",
+		illustrator = 24,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.241,
+					1.062,
+					0
+				}
+			},
+			plane = {
+				{
+					1.194,
+					1.109,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.205,
+							2.353,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[306070] = {
 		name = "류호 ",
 		bullet_skin_main = "",
@@ -69510,6 +69609,117 @@ pg.ship_skin_template = {
 				{
 					1.007,
 					1.008,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.47,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[312014] = {
+		name = "어서와냥 Sofmap!",
+		bullet_skin_main = "",
+		group_index = 4,
+		illustrator2 = -1,
+		desc = "후후훗, 어서 오라냥! 뭐가 필요해냥? 친절하고 지식도 풍부한 쇼핑 도우미 {namecode:98}가 추천해 줄게냥!",
+		bullet_skin_secondary = "",
+		ship_group = 31201,
+		painting = "mingshi_5",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 9999,
+		hand_id = 14,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		isSwimsuit = 0,
+		skin_type = 0,
+		id = 312014,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "mingshi_5",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 28,
+		air_bomb_skin = "",
+		illustrator = 10,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.036,
+					1.416,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.039,
+					1.394,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.001,
+					0.001,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.074,
+					1.26,
 					0
 				}
 			}
@@ -106879,7 +107089,8 @@ pg.ship_skin_template = {
 			312010,
 			312011,
 			312012,
-			312013
+			312013,
+			312014
 		},
 		[30806] = {
 			308060,
@@ -106952,7 +107163,8 @@ pg.ship_skin_template = {
 			306071
 		},
 		[30606] = {
-			306060
+			306060,
+			306061
 		},
 		[30605] = {
 			306050,
@@ -108654,6 +108866,7 @@ pg.ship_skin_template = {
 		306051,
 		306059,
 		306060,
+		306061,
 		306070,
 		306071,
 		307010,
@@ -108696,6 +108909,7 @@ pg.ship_skin_template = {
 		312011,
 		312012,
 		312013,
+		312014,
 		317010,
 		331050,
 		401010,

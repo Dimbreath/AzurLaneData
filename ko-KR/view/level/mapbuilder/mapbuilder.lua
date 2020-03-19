@@ -136,10 +136,6 @@ function slot0.Update(slot0, slot1)
 	slot0.data = slot1
 end
 
-function slot0.RefreshMapItems(slot0)
-	return
-end
-
 function slot0.UpdateMapItems(slot0)
 	slot0:Show()
 end

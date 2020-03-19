@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"阿芙乐尔和愉快的伙伴们\n\n<size=45>三、特别的欢迎会</size>",
+					"아브로라와 유쾌한 동료들\n\n<size=45>3. 특별한 환영회</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "某日",
+			say = "어느 날",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？为什么门底下会有一封信？我看看……",
+			say = "어라? 문 밑에 편지가? 어디 보자……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“亲启 阿芙乐尔女士”……看来是给我的呢。内容是——",
+			say = "‘아브로라님께’…… 저에게 온 것 같네요. 내용은——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来是这样啊。看来不得不去一趟了呢。",
+			say = "그렇구나. 아무래도 가봐야겠네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			actor = 702010,
 			nameColor = "#a9f548",
-			say = "……有人吗？",
+			say = "……계세요?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -136,7 +136,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "门好像没锁呢……那我就进来咯。",
+			say = "문이 잠겨있지 않아서…… 들어갈게요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actorName = "???",
-			say = "阿芙乐尔来了！",
+			say = "왔구나!",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -180,12 +180,12 @@ return {
 			}
 		},
 		{
-			actorName = "北方联合众人",
+			actorName = "노스 유니온",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "阿芙乐尔！",
+			say = "아브로라!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "随着两声炮响，礼花与丝带在房间里飘散开来。",
+			say = "폭죽 소리가 난 뒤 온 방안에 꽃가루가 흩날렸다.",
 			effects = {
 				{
 					active = true,
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			actor = 702020,
 			nameColor = "#a9f548",
-			say = "哈哈，没想到阿芙乐尔居然把指挥官带来了呢～不错嘛♪",
+			say = "하하, 아브로라가 지휘관까지 데리고 왔네. 좋잖아♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊呀，这是——",
+			say = "아, 이건——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			actor = 705050,
 			nameColor = "#a9f548",
-			say = "阿芙乐尔同志，我们为你准备了一个特别的欢迎会！",
+			say = "아브로라 동지. 특별한 환영회를 준비했다!",
 			effects = {
 				{
 					active = false,
@@ -325,7 +325,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对于好久不见的老同志，不进行一点热烈的表示怎么行嘛！",
+			say = "오래된 동지를 간만에 보는데 제대로 환영을 해야하지 않겠나!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欢迎会？但是，对这个港区而言，该被欢迎的不是你们才对吗？",
+			say = "환영회요? 하지만 이 모항에서 환영을 받아야 하는 것은 여러분 아닐까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			actor = 701030,
 			nameColor = "#a9f548",
-			say = "啊啊，这个欢迎会是我提出来的。关于这个问题其实我也想过。",
+			say = "아아, 이번 환영회는 내가 생각해낸 거야. 그 문제에 대해서도 생각해 봤지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			actor = 701030,
 			nameColor = "#a9f548",
-			say = "不过，反正都是欢迎，与其让阿芙乐尔为我们大家办欢迎会，不如就让我们为阿芙乐尔办一个欢迎会嘛！对吧？",
+			say = "하지만 어쨌든 환영해야 한다면 아브로라가 우리를 위해 준비하는 것보다 우리가 하는게 좋지 않겠어? 그렇지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			actor = 701030,
 			nameColor = "#a9f548",
-			say = "而且，这个欢迎会也能看作是“欢迎阿芙乐尔同志回归”的欢迎会！我说的没错吧？嘿嘿~",
+			say = "그리고 이 환영회는 ‘아브로라 동지의 귀환’을 환영하는 것이기도 하니까! 그렇지? 헤헤~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			actor = 701040,
 			nameColor = "#a9f548",
-			say = "塔什干也觉得这个想法很棒，所以和大家一起准备了这个欢迎会。",
+			say = "타슈켄트도 좋다고 생각해. 그래서 다 같이 환영회를 준비했어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们……",
+			say = "여러분……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "阿芙乐尔脸上露出了会心的微笑。",
+			say = "아브로라의 얼굴에 회심의 미소가 떠올랐다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那，我就恭敬不如从命了呢。对了，既然是欢迎会，“那个”也带上了吧？",
+			say = "그렇다면 즐겁게 받아들이도록 할까요. 그래요, 환영회니까 ‘그것’도 가져 왔겠죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			actor = 701020,
 			nameColor = "#a9f548",
-			say = "嗯，可可也有很多很多呢。",
+			say = "응. 코코아도 엄청 많아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			actor = 701020,
 			nameColor = "#a9f548",
-			say = "咕嘟咕嘟~",
+			say = "꿀꺽꿀꺽~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			actor = 702030,
 			nameColor = "#a9f548",
-			say = "威严，慢点喝～",
+			say = "그로즈니, 천천히 마셔.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，既然如此，那就让我们大家一起举杯吧！",
+			say = "후후, 그렇다면 같이 건배하죠!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			dir = 1,
 			actor = 702010,
 			nameColor = "#a9f548",
-			say = "γpa！",
+			say = "γpa!",
 			effects = {
 				{
 					active = true,
@@ -580,8 +580,8 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			blackBg = true,
-			actorName = "北方联合众人",
-			say = "γpa！",
+			actorName = "노스 유니온",
+			say = "γpa!",
 			effects = {
 				{
 					active = false,

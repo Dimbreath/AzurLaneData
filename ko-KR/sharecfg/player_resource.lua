@@ -275,6 +275,16 @@ pg.player_resource = {
 		name = "sofmap_pt",
 		itemid = 59152
 	},
+	[147] = {
+		id = 147,
+		name = "battery2",
+		itemid = 59153
+	},
+	[148] = {
+		id = 148,
+		name = "xunliandianshu_v3",
+		itemid = 59154
+	},
 	[1001] = {
 		id = 1001,
 		name = "vote2019_pt",
@@ -331,6 +341,12 @@ pg.player_resource = {
 		},
 		vote2019_pt = {
 			1001
+		},
+		xunliandianshu_v3 = {
+			148
+		},
+		battery2 = {
+			147
 		},
 		sofmap_pt = {
 			146
@@ -554,6 +570,8 @@ pg.player_resource = {
 		144,
 		145,
 		146,
+		147,
+		148,
 		1001,
 		950,
 		2001,
