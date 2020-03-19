@@ -89102,6 +89102,7 @@ pg.task_data_template = {
 		sub_type = 16,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "0",
@@ -89125,9 +89126,6 @@ pg.task_data_template = {
 				59148,
 				100
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[15376] = {
@@ -89141,6 +89139,7 @@ pg.task_data_template = {
 		sub_type = 16,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "0",
@@ -89164,9 +89163,6 @@ pg.task_data_template = {
 				59148,
 				100
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[15377] = {
@@ -89180,6 +89176,7 @@ pg.task_data_template = {
 		sub_type = 16,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "0",
@@ -89203,9 +89200,6 @@ pg.task_data_template = {
 				59148,
 				300
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[15378] = {
@@ -89219,6 +89213,7 @@ pg.task_data_template = {
 		sub_type = 16,
 		added_tip = 0,
 		story_icon = "",
+		scene = "",
 		award_choice = "",
 		level = 1,
 		next_task = "0",
@@ -89242,9 +89237,6 @@ pg.task_data_template = {
 				59148,
 				300
 			}
-		},
-		scene = {
-			"ACTIVITY_MAP"
 		}
 	},
 	[15379] = {
