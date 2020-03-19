@@ -497,14 +497,25 @@ function slot0.transFilter(slot0)
 		end
 	else
 		for slot7 = slot2, slot3, 1 do
-			if pg.ship_data_group[slot7] and slot0.shipGroups[slot8.group_type] and slot9.trans and IndexConst.filterByIndex(slot9, slot0.ShipIndex.index) and IndexConst.filterByRarity(slot9, slot0.ShipIndex.rarity) and IndexConst.filterByCamp(slot9, slot0.ShipIndex.camp) then
-				slot0.codeShips[#slot0.codeShips + 1] = {
-					showTrans = true,
-					id = slot7,
-					code = 3000 + slot7,
-					group = slot9,
-					index_id = slot8.index_id
-				}
+			if pg.ship_data_group[slot7] then
+				if slot0.shipGroups[slot8.group_type] and slot9.trans and IndexConst.filterByIndex(slot9, slot0.ShipIndex.index) and IndexConst.filterByRarity(slot9, slot0.ShipIndex.rarity) and IndexConst.filterByCamp(slot9, slot0.ShipIndex.camp) then
+					slot0.codeShips[#slot0.codeShips + 1] = {
+						showTrans = true,
+						id = slot7,
+						code = 3000 + slot7,
+						group = slot9,
+						index_id = slot8.index_id
+					}
+				elseif pg.ship_data_trans[slot8.group_type] and IndexConst.filterByIndex(ShipGroup.New({
+					id = slot8.group_type
+				}), slot0.ShipIndex.index) and IndexConst.filterByRarity(slot10, slot0.ShipIndex.rarity) and IndexConst.filterByCamp(slot10, slot0.ShipIndex.camp) then
+					slot0.codeShips[#slot0.codeShips + 1] = {
+						showTrans = true,
+						id = slot7,
+						code = 3000 + slot7,
+						index_id = slot8.index_id
+					}
+				end
 			end
 		end
 	end

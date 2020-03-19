@@ -107,7 +107,8 @@ function slot0.listNotificationInterests(slot0)
 		MailProxy.MAIL_REMOVED,
 		BayProxy.SHIP_ADDED,
 		GAME.OPEN_MAIL_ATTACHMENT_DONE,
-		GAME.CHANGE_MAIL_IMP_FLAG_DONE
+		GAME.CHANGE_MAIL_IMP_FLAG_DONE,
+		GAME.USE_ITEM_DONE
 	}
 end
 
@@ -138,6 +139,11 @@ function slot0.handleNotification(slot0, slot1)
 		NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene, openDockyardIntensify)
 	elseif slot2 == GAME.CHANGE_MAIL_IMP_FLAG_DONE then
 		slot0.viewComponent:updateMailList()
+	elseif slot2 == GAME.USE_ITEM_DONE and table.getCount(slot3) ~= 0 then
+		slot0.viewComponent:emit(BaseUI.ON_AWARD, {
+			animation = true,
+			items = slot3
+		})
 	end
 end
 

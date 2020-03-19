@@ -1275,25 +1275,10 @@ function shoppingBatch(slot0, slot1, slot2, slot3, slot4)
 end
 
 function gotoChargeScene(slot0, slot1)
-	if pg.m02:hasMediator(ChargeMediator.__cname) then
-		if getProxy(ContextProxy).getCurrentContext(slot2):getContextByMediator(ShopsMediator) then
-			pg.m02:sendNotification(GAME.REMOVE_LAYERS, {
-				context = slot4
-			})
-		end
-
-		if slot0 then
-			pg.m02:sendNotification(PlayerResource.GO_MALL, {
-				type = slot0,
-				noRes = slot1
-			})
-		end
-	else
-		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
-			wrap = slot0 or ChargeScene.TYPE_ITEM,
-			noRes = slot1
-		})
-	end
+	pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
+		wrap = slot0 or ChargeScene.TYPE_ITEM,
+		noRes = slot1
+	})
 end
 
 function clearDrop(slot0)
@@ -5697,15 +5682,15 @@ function checkExist(slot0, ...)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-8, warpins: 1 ---
-	function slot1(slot0, slot1, ...)
+	function slot1(slot0, slot1, slot2, ...)
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-5, warpins: 1 ---
-		if type(slot0[slot1]) == "function" then
+		--- BLOCK #0 1-2, warpins: 1 ---
+		if slot2 then
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 6-10, warpins: 1 ---
-			return slot0[slot1](slot0, ...)
+			--- BLOCK #0 3-6, warpins: 1 ---
+			return slot0[slot1](...)
 			--- END OF BLOCK #0 ---
 
 
@@ -5713,8 +5698,8 @@ function checkExist(slot0, ...)
 		else
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 11-12, warpins: 1 ---
-			return slot0[slot1]
+			--- BLOCK #0 7-10, warpins: 1 ---
+			return slot0[slot1](slot0, ...)
 			--- END OF BLOCK #0 ---
 
 
@@ -5728,7 +5713,7 @@ function checkExist(slot0, ...)
 
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #1 13-13, warpins: 2 ---
+		--- BLOCK #1 11-11, warpins: 2 ---
 		return
 		--- END OF BLOCK #1 ---
 
@@ -5743,15 +5728,15 @@ function checkExist(slot0, ...)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #1 9-31, warpins: 0 ---
+	--- BLOCK #1 9-36, warpins: 0 ---
 	for slot6, slot7 in ipairs(slot2) do
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 9-10, warpins: 1 ---
-		if not slot0 or type(slot0) ~= "table" then
+		if not slot0 then
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 16-18, warpins: 2 ---
+			--- BLOCK #0 11-13, warpins: 1 ---
 			return false
 			--- END OF BLOCK #0 ---
 
@@ -5766,23 +5751,51 @@ function checkExist(slot0, ...)
 
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #1 19-25, warpins: 2 ---
-		slot8 = slot1
-		slot9 = slot0
-		slot10 = slot7[1]
-		slot11 = unpack
-
-		if not slot7[2] then
+		--- BLOCK #1 14-19, warpins: 2 ---
+		if type(slot0[slot7[1]]) == "function" then
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 26-26, warpins: 1 ---
-			slot12 = {}
+			--- BLOCK #0 20-27, warpins: 1 ---
+			slot8 = slot1
+			slot9 = slot0
+			slot10 = slot7[1]
+			slot11 = slot7[3]
+			slot12 = unpack
+
+			if not slot7[2] then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 28-28, warpins: 1 ---
+				slot13 = {}
+				--- END OF BLOCK #0 ---
+
+
+
+			end
+
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 29-32, warpins: 2 ---
+			slot0 = slot8(slot9, slot10, slot11, slot12(slot13))
+			--- END OF BLOCK #1 ---
+
+
+
+		else
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 33-34, warpins: 1 ---
+			slot0 = slot0[slot7[1]]
 			--- END OF BLOCK #0 ---
 
 
 
 		end
-
 		--- END OF BLOCK #1 ---
 
 		FLOW; TARGET BLOCK #2
@@ -5790,17 +5803,8 @@ function checkExist(slot0, ...)
 
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #2 27-29, warpins: 2 ---
-		slot0 = slot8(slot9, slot10, slot11(slot12))
+		--- BLOCK #2 35-36, warpins: 3 ---
 		--- END OF BLOCK #2 ---
-
-		FLOW; TARGET BLOCK #3
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #3 30-31, warpins: 2 ---
-		--- END OF BLOCK #3 ---
 
 
 
@@ -5813,7 +5817,7 @@ function checkExist(slot0, ...)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #2 32-33, warpins: 1 ---
+	--- BLOCK #2 37-38, warpins: 1 ---
 	return slot0
 	--- END OF BLOCK #2 ---
 

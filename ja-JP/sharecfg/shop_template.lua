@@ -14270,7 +14270,7 @@ pg.shop_template = {
 		group_buy_count = 0,
 		tag = 2,
 		time_second = 0,
-		order = 1,
+		order = 2,
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -16455,6 +16455,55 @@ pg.shop_template = {
 					2019,
 					10,
 					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70170] = {
+		group_type = 0,
+		resource_num = 800,
+		desc = "购买皮肤：光辉韩服",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 1,
+		group = 0,
+		num = 1,
+		discount = 0,
+		resource_type = 14,
+		id = 70170,
+		genre = "skin_shop",
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			207033
+		},
+		time = {
+			{
+				{
+					2020,
+					3,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					4,
+					8
 				},
 				{
 					23,
@@ -25368,6 +25417,7 @@ pg.shop_template = {
 		70166,
 		70167,
 		70168,
+		70170,
 		70173,
 		70174,
 		70175,

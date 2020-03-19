@@ -13,7 +13,7 @@ slot0.ACTIVITY_OP = "NavalAcademyMediator:ACTIVITY_OP"
 slot0.TASK_GO = "NavalAcademyMediator:TASK_GO"
 slot0.GO_TASK_SCENE = "NavalAcademyMediator:GO_TASK_SCENE"
 slot0.OPEN_CLASS = "NavalAcademyMediator:OPEN_CLASS"
-slot0.GO_SCENE = "NavalAcademyMediator:OPEN_SCENE"
+slot0.GO_SCENE = "NavalAcademyMediator:GO_SCENE"
 slot0.OPEN_ACTIVITY_PANEL = "NavalAcademyMediator:OPEN_ACTIVITY_PANEL"
 slot0.OPEN_ACTIVITY_SHOP = "NavalAcademyMediator:OPEN_ACTIVITY_SHOP"
 slot0.OPEN_SCROLL = "NavalAcademyMediator:OPEN_SCROLL"
@@ -55,17 +55,9 @@ function slot0.register(slot0)
 		}))
 	end)
 	slot0:bind(slot0.GO_SHOP, function (slot0)
-		slot0:addSubLayers(Context.New({
-			mediator = ShopsMediator,
-			viewComponent = ShopsLayer,
-			data = {
-				fromCharge = false,
-				warp = ShopsLayer.TYPE_SHOP_STREET
-			},
-			onRemoved = function ()
-				slot0.viewComponent:activeSakura(true)
-			end
-		}))
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, {
+			warp = ShopsScene.TYPE_SHOP_STREET
+		})
 	end)
 	slot0:bind(slot0.GET_RES, function (slot0, slot1)
 		slot0:sendNotification(GAME.HARVEST_RES, slot1)
@@ -124,13 +116,9 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(slot0.OPEN_ACTIVITY_SHOP, function (slot0)
-		slot0:addSubLayers(Context.New({
-			mediator = ShopsMediator,
-			viewComponent = ShopsLayer,
-			data = {
-				warp = ShopsLayer.TYPE_ACTIVITY
-			}
-		}))
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, {
+			warp = ShopsScene.TYPE_ACTIVITY
+		})
 	end)
 	slot0:bind(slot0.OPEN_SCROLL, function (slot0, slot1)
 		slot0:addSubLayers(Context.New({
@@ -156,7 +144,6 @@ function slot0.listNotificationInterests(slot0)
 		GAME.HARVEST_RES_DONE,
 		PlayerProxy.UPDATED,
 		GAME.REMOVE_LAYERS,
-		ShopsMediator.OPEN,
 		ActivityProxy.ACTIVITY_OPERATION_DONE,
 		GAME.BEGIN_STAGE_DONE,
 		CollectionProxy.TROPHY_UPDATE
@@ -178,8 +165,6 @@ function slot0.handleNotification(slot0, slot1)
 
 		slot0.viewComponent:SetPlayerInfo(getProxy(PlayerProxy).getData(slot5), slot4:GetOilVO(), slot4:GetGoldVO(), slot4:GetClassVO())
 		slot0.viewComponent:OpenResourcePanel(slot3.resVO)
-	elseif slot2 == ShopsMediator.OPEN then
-		slot0.viewComponent:activeSakura(false)
 	elseif slot2 ~= NavalAcademyProxy.START_LEARN_TACTICS then
 		if slot2 == NavalAcademyProxy.CANCEL_LEARN_TACTICS then
 		elseif slot2 == ActivityProxy.ACTIVITY_OPERATION_DONE then

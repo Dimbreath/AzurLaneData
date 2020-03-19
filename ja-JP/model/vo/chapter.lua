@@ -2212,12 +2212,17 @@ function slot0.writeBack(slot0, slot1, slot2)
 			end
 
 			slot0.progress = math.min(slot0.progress + slot0:getConfig("progress_boss"), 100)
+
+			if slot0.progress < 100 and slot8 >= 100 then
+				getProxy(ChapterProxy):RecordJustClearChapters(slot0.id, true)
+			end
+
 			slot0.defeatCount = slot0.defeatCount + 1
 
 			if not slot0:isActivity() then
 				if slot0:getMapType() == Map.ELITE then
 					pg.TrackerMgr.GetInstance():Tracking(TRACKING_HARD_CHAPTER, slot0.id)
-				elseif slot7 == Map.SCENARIO then
+				elseif slot9 == Map.SCENARIO then
 					if slot0.progress == 100 and slot0.passCount == 0 then
 						pg.TrackerMgr.GetInstance():Tracking(TRACKING_HIGHEST_CHAPTER, slot0.id)
 					end

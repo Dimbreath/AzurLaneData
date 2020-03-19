@@ -18053,6 +18053,107 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[107032] = {
+		ship_group = 10703,
+		name = "異国風衣装",
+		bg_sp = "",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "Hey！今回のテーマは異国風のシスター・サラだよ！指揮官、どう？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "salatuojia_3",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 5,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 0,
+		id = 107032,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "salatuojia_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 28,
+		air_bomb_skin = "",
+		illustrator = 10,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.9,
+					1.26,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.95,
+					1.29,
+					0
+				}
+			},
+			plane = {
+				{
+					0.9,
+					1.25,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.61,
+							2.26,
+							-0.6
+						}
+					}
+				}
+			}
+		}
+	},
 	[107033] = {
 		ship_group = 10703,
 		name = "バーチャルアイドル",
@@ -30270,12 +30371,12 @@ pg.ship_skin_template = {
 			"touch_head"
 		},
 		l2d_voice_calibrate = {
-			main_2 = 0,
+			main_2 = 0.5,
 			login = 12.58,
 			main_1 = 0.73,
 			mission_complete = 1.58,
 			expendition = 1.67,
-			propose = 5,
+			propose = 2.5,
 			home = 3.68,
 			mission = 1.77,
 			touch2 = 6,
@@ -39674,6 +39775,100 @@ pg.ship_skin_template = {
 				{
 					1.01,
 					1.35,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.24,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[207033] = {
+		ship_group = 20703,
+		name = "異国風衣装",
+		bg_sp = "",
+		group_index = 3,
+		illustrator2 = -1,
+		desc = "異国風の衣装ははじめてですね…ふふふ、指揮官さまがお気に召したようでしたら、しばらくはこの格好でお出かけしませんか？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "guanghui_4",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 1,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = 0,
+		id = 207033,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "guanghui_4",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70170,
+		voice_actor = 6,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.07,
+					1.1,
+					0
+				}
+			},
+			plane = {
+				{
+					1.11,
+					1.15,
 					0
 				}
 			}
@@ -95977,6 +96172,113 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[900228] = {
+		ship_group = 900228,
+		name = "？？？",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "？？？",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "lansaiyu",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 0,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 900228,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "lansaiyu",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 31,
+		air_bomb_skin = "",
+		illustrator = 8,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					-0.34,
+					0.39,
+					0
+				}
+			},
+			plane = {
+				{
+					-0.37,
+					0.39,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.967,
+							0.38,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.14,
+							0.832,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[10100010] = {
 		ship_group = 1010001,
 		name = "ネプテューヌ",
@@ -103448,6 +103750,9 @@ pg.ship_skin_template = {
 		[1010001] = {
 			10100010
 		},
+		[900228] = {
+			900228
+		},
 		[900227] = {
 			900227
 		},
@@ -104521,6 +104826,7 @@ pg.ship_skin_template = {
 			207030,
 			207031,
 			207032,
+			207033,
 			207035,
 			207038
 		},
@@ -104884,6 +105190,7 @@ pg.ship_skin_template = {
 		[10703] = {
 			107030,
 			107031,
+			107032,
 			107033,
 			107034,
 			107039
@@ -105398,6 +105705,7 @@ pg.ship_skin_template = {
 		107021,
 		107030,
 		107031,
+		107032,
 		107033,
 		107034,
 		107039,
@@ -105595,6 +105903,7 @@ pg.ship_skin_template = {
 		207030,
 		207031,
 		207032,
+		207033,
 		207035,
 		207038,
 		207040,
@@ -106112,6 +106421,7 @@ pg.ship_skin_template = {
 		900225,
 		900226,
 		900227,
+		900228,
 		10100010,
 		10100020,
 		10100030,
