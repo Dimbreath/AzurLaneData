@@ -31651,7 +31651,7 @@ pg.skill_data_template = {
 		}
 	},
 	[18120] = {
-		desc_get = "항속을 <color=#92fc63FF>3</color>(최대 <color=#92fc63FF>8</color>) 증가시키고, 전투 시작 시 50초 동안 회피를 <color=#92fc63FF>15%</color>(최대 <color=#92fc63FF>35%</color>) 증가시킨다.",
+		desc_get = "항속을 <color=#92fc63FF>3</color>(최대 <color=#92fc63FF>8</color>) 증가시키고, 전투 시작 시 50초 동안 기동을 <color=#92fc63FF>15%</color>(최대 <color=#92fc63FF>35%</color>) 증가시킨다.",
 		name = "엔진 부스트 +",
 		desc = "항속을 $1 증가시키고, 전투 시작 시 50초 동안 기동 수치를 $2 증가시킨다.",
 		type = 2,

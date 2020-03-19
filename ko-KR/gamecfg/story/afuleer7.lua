@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"阿芙乐尔和愉快的伙伴们\n\n<size=45>七、总能见到曙光</size>",
+					"아브로라와 유쾌한 동료들\n\n<size=45>7. 그래도 서광은 비춘다</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "level02",
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "哼哼，没想到吧！萨拉托加的秘密武器！",
+			say = "후후, 이건 몰랐지! 새러토가의 비밀 무기!",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "不过呢萨拉妹妹毕竟还是不能打正面啦，所以才需要战舰来护航才对……哇哇！",
+			say = "그렇지만 말야, 새러는 정면 싸움은 할 수 없으니까 전함의 호위가 반드시…… 으악!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，看来和你说的一样，确实需要有战舰护航才好呢",
+			say = "네. 방금 말한 것 처럼 전함의 호위가 반드시 필요하죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "倒不是什么可以自夸的，不过北方联合在和塞壬的大舰队战斗的时候，经常会用到这个战术哦",
+			say = "자랑은 아니지만, 노스 유니온은 세이렌과의 전투에서 이런 전술을 자주 사용했답니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "战术……？",
+			say = "전술……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯嗯，这是我们北方联合的“舰船”最擅长的——敌方指挥单位位置确认，北方联合，前进！！！！",
+			say = "네. 노스 유니온 ‘함선’들의 특기죠. 적 기함, 확인했습니다. 노스 유니온, 전진하세요!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "在水平线彼方和白鹰护卫舰队交战的炮火中，突然出现了一艘以异常速度冲向这边来的白色身影——",
+			say = "이글 유니온의 호위 함대가 쏟아 붓는 포화 사이로 한 하얀 물체가 수평선 너머에서 빠르게 달려오고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "那是……苏维埃罗西亚！！",
+			say = "저건…… 소비에츠카야 러시아!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "距离进入射程还有3、2、1……这样就结束了呢~",
+			say = "사정거리 진입까지 3, 2, 1…… 이러면 끝이네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "伴随着白鹰方旗舰被判定击沉，对抗演习也最终落下了帷幕。",
+			say = "이글 유니온의 기함이 격침 판정을 받으면서 연습이 순조롭게 막을 내렸다.",
 			flashN = {
 				color = {
 					1,
@@ -262,7 +262,7 @@ return {
 			bgm = "story-1",
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "呜呜呜，萨拉妹妹输了，大家对不起……",
+			say = "우우우. 새러, 져버렸어. 미안해……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -295,7 +295,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不，这应该是我的责任。没想到会被对面的舰队拖那么久",
+			say = "아니, 내 책임이다. 상대의 함대에게 그렇게 발목이 잡힐 줄이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "白鹰这次演习只派出了一艘战列舰，若是按照常规的编队，我恐怕一点机会都没有吧。",
+			say = "이글 유니온은 이번 연습에 전함을 한 척만 내보냈죠. 만약 평소와 같았다면 기회조차 없었을 거에요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			actor = 705050,
 			nameColor = "#a9f548",
-			say = "确实，正面只是一个南达科他就已经够难应付的了……如果萨拉托加旁边还有一艘战舰的话，不管是我还是阿芙乐尔同志都没法将接近她",
+			say = "확실히 정면은 사우스다코타 하나로도 버거웠다…… 만약 새러토가 곁에 다른 전함이 있었다면 아무리 나나 아브로라 동지라도 가까이 다가갈 수 없었겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "利用敌人部署的间隙或薄弱部位插入其纵深，打乱分割敌人部署后以波状攻击歼灭敌人的“对塞壬纵深穿插战术”……",
+			say = "상대의 배치나 취약점을 노려 침투한 뒤 대열을 흐트러뜨려 섬멸하는 ‘대 세이렌 종심 돌파 전술’……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，很久没听过这个了。阿芙乐尔，这次演习达到目标了吗？",
+			say = "하하하, 오랜만에 듣는군. 아브로라, 이번 연습은 목적을 달성했나?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，我想想啊……",
+			say = "음, 어디볼까요……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "北方联合确实需要接受新的理念了……",
+			say = "노스 유니온은 새로운 전술을 받아들여야해요. 그렇죠, 러시아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			actor = 705050,
 			nameColor = "#a9f548",
-			say = "嗯，航空母舰超视距打击的能力不可小觑，这点我们都见识到了。",
+			say = "그래. 항공모함의 원거리 포격을 얕봐선 안되겠더군. 이번 기회에 모두가 보았지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们北方联合看来没什么问题呢、白鹰那边也没有问题的话……",
+			say = "우리 노스 유니온은 괜찮은 것 같네요. 이글 유니온만 괜찮다면……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			actor = 702010,
 			nameColor = "#a9f548",
-			say = "双方加深互信，增进团结，向着光辉的未来更进一步——演习圆满成功。就是这样♪",
+			say = "서로를 향한 믿음으로 단결해 빛나는 미래를 향해 나아갈 수 있겠어요—— 목적 달성이네요. 네, 맞아요♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，我已经拜托了港区的同伴们，在这场对抗演习结束之后举办一个联谊会。稍作休整之后，我们就一起参加吧？",
+			say = "그래요. 연습이 끝나면 친목의 자리를 가지자고 모항의 동료들에게 이야기를 해두었답니다. 잠시 쉰 이후에 우리도 가볼까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,12 +478,12 @@ return {
 			}
 		},
 		{
-			actorName = "众人",
+			actorName = "모두들",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦哦！！",
+			say = "오오!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			dir = 1,
 			actor = 705010,
 			nameColor = "#a9f548",
-			say = "哈哈哈！今晚不喝个痛快可不行！",
+			say = "하하하! 오늘은 제대로 마실 수 있겠군!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			dir = 1,
 			actor = 701020,
 			nameColor = "#a9f548",
-			say = "又可以咕嘟咕嘟了呢——",
+			say = "또 꿀꺽꿀꺽 할 수 있구나——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "萨拉妹妹也要参加哦！",
+			say = "새러도 갈래!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……今天大家也很努力呢。看来可以在联谊会的时候多喝点了",
+			say = "……오늘은 모두 수고가 많았으니, 잠시 뒤에는 잔뜩 마시도록 해요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是阿芙乐尔你啊。即使退居二线，也还能这么出色的率领北方联合的年轻人们",
+			say = "2선으로 물러났지만 이렇게 훌륭하게 노스 유니온의 젊은이들을 이끌다니, 역시 아브로라야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样吗？{namecode:82}你不也是在带领重樱的孩子们吗？",
+			say = "그런가요? 미카사도 사쿠라 엠파이어의 아이들을 이끌고 있지 않나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			dir = 1,
 			actor = 305110,
 			nameColor = "#a9f548",
-			say = "我不过是在后面监督她们不要误入歧途。成为她们的破晓之光、照耀她们的未来这种事——只有你才能办到",
+			say = "나는 그 아이들이 잘못된 길로 들어서지 않게 잡아주기만 하고 있지. 빛이 되어 미래를 비추는 것은 너만이 할 수 있는 일이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -647,7 +647,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，多谢夸奖～",
+			say = "후후, 칭찬 고마워요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -662,7 +662,7 @@ return {
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			blackBg = true,
-			say = "这是，身为“破晓之光”的她的一件轶事。",
+			say = "이것이 바로 ‘새벽의 빛’이라는 이름을 가진 함선의 이야기이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

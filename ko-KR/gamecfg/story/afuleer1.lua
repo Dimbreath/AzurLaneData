@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"阿芙乐尔和愉快的伙伴们\n\n<size=45>一、胜利的曙光（？）</size>",
+					"아브로라와 유쾌한 동료들\n\n<size=45>1. 승리의 서광</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-2",
-			say = "轻型巡洋舰演习中",
+			say = "경순양함 연습 중",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			actor = 102060,
 			nameColor = "#a9f548",
-			say = "啊，不好！可恶，我也被判定击沉了么……",
+			say = "아, 큰일이다! 이런, 나도 격침 판정인가……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "又有同伴被“击沉”了……再这样下去的话，队伍就要撑不住了啊！",
+			say = "또 동료가 '격침'당했나…… 계속 이러다간 함대가 버틸 수 없을거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "该，该不会是{namecode:98}他们一时糊涂，把敌人的参数给弄错了吧！没听说过这次的演习难度有这么高呀？",
+			say = "아, 아카시 일행이 잠깐 착각해서 적의 파라미터를 잘못 입력한 것은 아니겠죠! 이번 연습의 난이도가 이렇게 높다고는 듣지 못했는걸요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐，不专心点的话，下一个被“击沉”的可就是你了。",
+			say = "언니, 집중하지 않는다면 다음 번 ‘격침’당하는 건 언니일 겁니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "正在演习的众人们陷入了苦战。",
+			say = "연습 훈련 중인 일행은 고전 중이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐，我们该怎么办？",
+			say = "언니, 이제 어떡해?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			actor = 502020,
 			nameColor = "#a9f548",
-			say = "总，总之先努力规避敌人的攻击吧！但是，这个状况实在是……",
+			say = "어, 어쨌든 먼저 열심히 적의 공격을 피하자고! 하지만 이런 상황은 역시……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			actor = 702010,
 			nameColor = "#a9f548",
-			say = "大家，不要放弃！",
+			say = "여러분, 포기하지 마세요!",
 			effects = {
 				{
 					active = true,
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
-			say = "突然之间，海面上响起阿芙乐尔的声音，洪亮而富有穿透力。",
+			say = "갑자기 바다에서 호소력 짙은 아브로라의 목소리가 들려왔다.",
 			effects = {
 				{
 					active = false,
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我曾经在北方联合对塞壬的战斗中面对过比这更糟糕的情况。但是，我和我的同伴们都在那次战斗中坚持了下来。",
+			say = "저는 노스 유니온과 세이렌의 전투에서 이것보다 더 심각한 일을 겪었어요. 하지만 저와 제 동료들은 그 전투에서도 견뎌냈지요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以，大家，不要放弃！就把这当成是真正的战场，放手一搏吧！",
+			say = "그러니 여러분, 포기하지 마세요! 실전이라고 생각하고 싸우세요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊，既然阿芙乐尔前辈都这么说了——",
+			say = "아아, 아브로라 선배가 이렇게 말 한다면야——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那我们这些后辈们可不能示弱啊。白鹰的海上骑士，你还有余力吧？",
+			say = "우리 후배들이 나약한 모습을 보여서는 안 되겠지요. 해상의 기사, 아직 힘이 남아 있습니까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			say = "那是当然！上了！",
+			say = "물론! 가자!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "平海，要上了！跟上我！",
+			say = "핑하이, 가자! 따라와!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			actor = 502030,
 			nameColor = "#a9f548",
-			say = "噢噢！",
+			say = "오오!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			dir = 1,
 			actor = 202110,
 			nameColor = "#a9f548",
-			say = "别说着漂亮话然后就冲上去了呀！",
+			say = "그렇게 허울 좋은 말 하고 뛰쳐나가지 말라고요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真，真是的！既然大家都这样的话，那我也——！",
+			say = "정, 정말이지! 모두가 이렇게 나온다면 저도——!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就应该有这样的干劲，不是么？呵呵~",
+			say = "이정도의 의욕은 있어야하지 않겠어요? 후후~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			bgName = "bg_story_nepu2",
 			side = 2,
 			dir = 1,
-			say = "最终，在阿芙乐尔激起了大家的斗志之后，所有演习的敌人都被顺利消灭了，可喜可贺。",
+			say = "아브로라가 모두의 투지를 끌어올린 이후 연습 훈련의 적을 순조롭게 무찔렀다.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -458,7 +458,7 @@ return {
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			blackBg = true,
-			say = "顺便一提，把敌人参数弄错的正是{namecode:98}。作为补偿，每个人都得到了一张{namecode:98}商店的优惠券（一次性）。",
+			say = "물론 적의 파라미터를 잘못 입력한 것은 아카시였다. 보상으로 모두가 아카시 상점의 우대권(1회용)을 한장씩 받게 되었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

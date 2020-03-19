@@ -162,6 +162,10 @@ function slot0.setGradeLabel(slot0)
 
 	LoadImageSpriteAsync(slot4, slot2, false)
 	LoadImageSpriteAsync(slot5, slot3, false)
+
+	if (slot0.contextData.system == SYSTEM_SCENARIO or slot10 == SYSTEM_ROUTINE or slot10 == SYSTEM_SUB_ROUTINE or slot10 == SYSTEM_DUEL) and (slot6 == slot1[1] or slot6 == slot1[2]) then
+		slot0.failTag = true
+	end
 end
 
 function slot0.displayerCommanders(slot0, slot1)

@@ -454,6 +454,14 @@ slot1 = {
 	[ActivityConst.MATCH3_PAGE] = {
 		className = "Match3Page",
 		uiName = "match3page"
+	},
+	[ActivityConst.SARATOGA_SKIN] = {
+		className = "SaratogaSkinPage",
+		uiName = "saratogaskinpage"
+	},
+	[ActivityConst.OUTPOST_PT] = {
+		className = "OutPostPtPage",
+		uiName = "OutPostPtPage"
 	}
 }
 slot2 = {

@@ -5364,6 +5364,47 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1320001] = {
+		map = 1320001,
+		name = "솔로몬의 무사|| ||SP. CHAPTER||SP. ",
+		bgm = "level",
+		type = 3,
+		on_activity = 20405,
+		title = "SP",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "white",
+		bg = "map_5",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 1320001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『홍염의 방문자』-전편|| ||CHAPTER EX||E.X.",
@@ -5882,6 +5923,7 @@ pg.expedition_data_by_map = {
 		1310012,
 		1310025,
 		1310026,
+		1320001,
 		2100000,
 		2100001,
 		2100010,

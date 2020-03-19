@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"阿芙乐尔和愉快的伙伴们\n\n<size=45>二、思乡</size>",
+					"아브로라와 유쾌한 동료들\n\n<size=45>2. 그리운 고향</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "和阿芙乐尔谈到了上次演习的事情。",
+			say = "아브로라에게서 지난번 연습 전투에 관한 것을 물어보았다.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "其实我没有做什么哦？我只是激发了大家心中的曙光而已。真正战胜强敌的还是她们自己。",
+			say = "사실 별로 한 것도 없답니다. 그저 모두의 가슴 속에 잠들어 있던 서광을 깨운 것뿐이지요. 정말로 적을 이긴 것은 그들이에요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这么说可能有点说不明白？嗯……那要从什么地方说明才好呢…",
+			say = "약간 알아듣기 힘들죠? 음…… 그렇다면 어떻게 얘기해야 할까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "阿芙乐尔拿过来了两个装着透明液体的不锈钢杯",
+			say = "아브로라는 투명한 액체가 담긴 스테인리스 컵 두 개를 가져왔다.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要说起来可能会很长呢。指挥官，来点喝的吧。",
+			say = "꽤나 긴 얘기가 될 것 같네요. 지휘관님, 한 잔 하시겠어요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "机会难得，要不要尝试一下北方联合的特产呢？",
+			say = "노스 유니온의 특산품을 한번 맛보시는 건 어떨까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "北方联合的特产……应该指的就是那个了吧。",
+			say = "노스 유니온의 특산품이라…… 역시 그걸 말하는 건가.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "刚才阿芙乐尔开的那个玻璃瓶，上面的标签上没记错应该是……",
+			say = "방금 아브로라가 열었던 그 유리병에 쓰여져 있던 것을 잘못 보지 않았다면 역시……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			actor = 702010,
 			nameColor = "#a9f548",
-			say = "指挥官，请吧~",
+			say = "지휘관님, 드세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "面对眼前的这小杯透明的，看起来和纯净水无异的液体——",
+			say = "눈 앞에 놓인 투명하고 깨끗한 물과 다름 없는 액체를——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,11 +213,11 @@ return {
 			},
 			options = {
 				{
-					content = "小心翼翼地尝一点",
+					content = "조심스럽게 마신다",
 					flag = 1
 				},
 				{
-					content = "直接仰头喝下全部",
+					content = "단숨에 마셔버린다",
 					flag = 2
 				}
 			}
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "仅仅是品尝了一点点，强烈的酒精味道便在口腔中扩散开来。",
+			say = "조금 맛을 보았을 뿐인데 강한 알코올향이 입 안에 퍼졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "口中像是燃起了纯净的火焰一般。先是火星，再是火把，最后是烈焰，直到燃尽口腔里的一切之后慢慢熄去……",
+			say = "입에 불이 난 것 같다. 처음에는 불티, 그 다음은 횃불, 마지막으로 화염이 입 안의 모든 것을 태운 뒤 천천히 꺼져갔다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			optionFlag = 1,
 			actor = 702010,
 			nameColor = "#a9f548",
-			say = "指挥官，你还好么？",
+			say = "지휘관님, 괜찮으세요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			say = "在酒进入身体的那一瞬间，体内像是燃起了一把火。",
+			say = "술을 마신 그 순간부터 몸 안이 불타는 것 같다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			say = "那火焰饥渴，暴躁，肆虐，像是要蚕食喉咙里，甚至是整个身体的一切，大脑也变得恍惚起来……",
+			say = "그 불길은 거친 갈증처럼 난폭하게 목구멍을 훑고 내려가 온 몸을 잠식하다 못해 뇌를 뒤흔들었다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			say = "终于，那狂暴的火焰被身体安抚着，逐渐冷却下来。",
+			say = "결국 그 난폭한 불길은 몸 전체를 흔들고 나서야 가라앉았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			optionFlag = 2,
 			actor = 702010,
 			nameColor = "#a9f548",
-			say = "指挥官，你没事吧？",
+			say = "지휘관님, 괜찮으세요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "心中的曙光，还有我们北方联合舰船的历史和革命……",
+			say = "마음 속의 서광, 그리고 우리 노스 유니온 함선의 역사와 혁명을……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我就好好给指挥官介绍一下吧",
+			say = "지휘관님께 천천히 소개해 드릴게요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-2",
-			say = "阿芙乐尔讲起了她的故事。",
+			say = "아브로라는 자신의 이야기를 하기 시작했다.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -410,7 +410,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在聊起北方联合伙伴们的趣事时，她毫不掩饰自己的开心。",
+			say = "노스 유니온의 동료들 이야기를 하는 동안, 아브로라는 즐거움을 감추지 않았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在说到北方联合与塞壬的战事时，她的目光显得坚定无比。",
+			say = "노스 유니온과 세이렌의 전투에 관한 이야기를 하는 아브로라의 눈빛은 결연하기 그지 없었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在提到北方联合的景色时，她的眼神又充满了思念。",
+			say = "그리고 노스 유니온의 풍경에 대해 이야기 할 때, 그 눈에 가득찬 것은 그리움이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "直到故事的最后一个句点落下，那瓶伏特加已然是空空如也。",
+			say = "이야기가 끝날때 쯤, 보드카 병은 거의 다 비어 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵~有机会的话，真想和指挥官一起在北方联合旅行看看呢",
+			say = "후후. 기회가 있다면 지휘관님과 함께 노스 유니온에 여행을 가고 싶네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "阿芙乐尔的健谈，就像她的酒量一样，深不见底。",
+			say = "아브로라의 입담은 주량 만큼이나 대단했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

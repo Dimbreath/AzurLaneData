@@ -16056,6 +16056,262 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5491] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5359,
+		type = 5,
+		name = "승리의 서광",
+		count_inherit = 0,
+		desc = "어뢰 튀김을 3개 제출한다",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "afuleer",
+		award_choice = "",
+		level = 1,
+		next_task = "5492",
+		visibility = 1,
+		story_id = "AFULEER1",
+		target_id_for_client = 50003,
+		id = 5491,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5492] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5360,
+		type = 5,
+		name = "그리운 고향",
+		count_inherit = 0,
+		desc = "임의의 함선소녀를 10회 강화한다",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "afuleer",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5493",
+		visibility = 1,
+		story_id = "AFULEER2",
+		target_id_for_client = 0,
+		id = 5492,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5493] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5361,
+		type = 5,
+		name = "특별한 환영회",
+		count_inherit = 0,
+		desc = "아브로라를 포함한 함대를 출격시켜\n20회 승리한다",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "afuleer",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5494",
+		visibility = 1,
+		story_id = "AFULEER3",
+		target_id_for_client = 70201,
+		id = 5493,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "70201",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5494] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5362,
+		type = 5,
+		name = "똑같은 ‘노병’",
+		count_inherit = 0,
+		desc = "아브로라를 포함한 함대로 데일리 챌린지를\n3회 클리어한다",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "afuleer",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5495",
+		visibility = 1,
+		story_id = "AFULEER4",
+		target_id_for_client = 70201,
+		id = 5494,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "70201",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5495] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5363,
+		type = 5,
+		name = "브레이크",
+		count_inherit = 0,
+		desc = "아브로라의 호감도를 100까지 달성한다",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "afuleer",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5496",
+		visibility = 1,
+		story_id = "AFULEER5",
+		target_id_for_client = 70201,
+		id = 5495,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "70201",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16022,
+				1
+			}
+		}
+	},
+	[5496] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5364,
+		type = 5,
+		name = "진정한 실력",
+		count_inherit = 0,
+		desc = "아브로라의 한계돌파를 3회 진행한다",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "afuleer",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5497",
+		visibility = 1,
+		story_id = "AFULEER6",
+		target_id_for_client = 702014,
+		id = 5496,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "702014",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5497] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5365,
+		type = 5,
+		name = "그래도 서광은 비춘다",
+		count_inherit = 0,
+		desc = "아브로라의 레벨을 100까지 달성한다",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "afuleer",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "AFULEER7",
+		target_id_for_client = 70201,
+		id = 5497,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "70201",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		}
+	},
 	[6001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -76568,6 +76824,1136 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[15415] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92715,
+		type = 6,
+		name = "【龙骧复刻】地图任务1",
+		count_inherit = 0,
+		desc = "SP1을 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15416",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1320001,
+		id = 15415,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1320001",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15416] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92716,
+		type = 6,
+		name = "【龙骧复刻】地图任务2",
+		count_inherit = 0,
+		desc = "SP2를 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15417",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1320002,
+		id = 15416,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1320002",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15417] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92717,
+		type = 6,
+		name = "【龙骧复刻】地图任务3",
+		count_inherit = 0,
+		desc = "SP3를 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1320003,
+		id = 15417,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1320003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15418] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92718,
+		type = 6,
+		name = "【龙骧复刻】地图任务4",
+		count_inherit = 0,
+		desc = "SP1을 ☆3으로 클리어",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15419",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1320001,
+		id = 15418,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1320001",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15419] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92719,
+		type = 6,
+		name = "【龙骧复刻】地图任务5",
+		count_inherit = 0,
+		desc = "SP2를 ☆3으로 클리어",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15420",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1320002,
+		id = 15419,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1320002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15420] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92720,
+		type = 6,
+		name = "【龙骧复刻】地图任务6",
+		count_inherit = 0,
+		desc = "SP3를 ☆3으로 클리어",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1320003,
+		id = 15420,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1320003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15450] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92750,
+		type = 6,
+		name = "萨拉托加韩服复刻任务战斗胜利I",
+		count_inherit = 0,
+		desc = "함대를 출격시켜, 전투에서 50번 승리하라!",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15450,
+		target_num = 50,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				100
+			}
+		}
+	},
+	[15451] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92751,
+		type = 6,
+		name = "萨拉托加韩服复刻任务战斗胜利II",
+		count_inherit = 0,
+		desc = "함대를 출격시켜, 전투에서 80번 승리하라!",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15451,
+		target_num = 80,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				150
+			}
+		}
+	},
+	[15452] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92752,
+		type = 6,
+		name = "萨拉托加韩服复刻任务战斗胜利III",
+		count_inherit = 0,
+		desc = "함대를 출격시켜, 전투에서 120번 승리하라!",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15452,
+		target_num = 120,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				200
+			}
+		}
+	},
+	[15453] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92753,
+		type = 6,
+		name = "萨拉托加韩服复刻任务战斗胜利IV",
+		count_inherit = 0,
+		desc = "함대를 출격시켜, 전투에서 200번 승리하라!",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15453,
+		target_num = 200,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				300
+			}
+		}
+	},
+	[15454] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92754,
+		type = 6,
+		name = "萨拉托加韩服复刻任务消灭旗舰I",
+		count_inherit = 0,
+		desc = "함대를 출격시켜, 적 중요함대를 10번 격퇴하라!",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15454,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				100
+			}
+		}
+	},
+	[15455] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92755,
+		type = 6,
+		name = "萨拉托加韩服复刻任务消灭旗舰II",
+		count_inherit = 0,
+		desc = "함대를 출격시켜, 적 중요함대를 20번 격퇴하라!",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15455,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				150
+			}
+		}
+	},
+	[15456] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92756,
+		type = 6,
+		name = "萨拉托加韩服复刻任务消灭旗舰III",
+		count_inherit = 0,
+		desc = "함대를 출격시켜, 적 중요함대를 30번 격퇴하라!",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15456,
+		target_num = 30,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				200
+			}
+		}
+	},
+	[15457] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92757,
+		type = 6,
+		name = "萨拉托加韩服复刻任务消灭旗舰IV",
+		count_inherit = 0,
+		desc = "함대를 출격시켜, 적 중요함대를 50번 격퇴하라!",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15457,
+		target_num = 50,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				300
+			}
+		}
+	},
+	[15458] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92758,
+		type = 6,
+		name = "萨拉托加韩服复刻任务建造I",
+		count_inherit = 0,
+		desc = "함선 건조를 5회 진행한다",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15458,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				100
+			}
+		}
+	},
+	[15459] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92759,
+		type = 6,
+		name = "萨拉托加韩服复刻任务建造II",
+		count_inherit = 0,
+		desc = "함선 건조를 20회 진행한다",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15459,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				300
+			}
+		}
+	},
+	[15460] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92760,
+		type = 6,
+		name = "萨拉托加韩服复刻任务强化I",
+		count_inherit = 0,
+		desc = "함선 강화를 15회 진행한다",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15460,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				100
+			}
+		}
+	},
+	[15461] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92761,
+		type = 6,
+		name = "萨拉托加韩服复刻任务强化II",
+		count_inherit = 0,
+		desc = "함선 강화를 30회 진행한다",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15461,
+		target_num = 30,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				150
+			}
+		}
+	},
+	[15462] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92762,
+		type = 6,
+		name = "萨拉托加韩服复刻任务强化III",
+		count_inherit = 0,
+		desc = "함선 강화를 50회 진행한다",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15462,
+		target_num = 50,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				200
+			}
+		}
+	},
+	[15463] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92763,
+		type = 6,
+		name = "萨拉托加韩服复刻任务强化IV",
+		count_inherit = 0,
+		desc = "함선 강화를 80회 진행한다",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15463,
+		target_num = 80,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				300
+			}
+		}
+	},
+	[15464] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92764,
+		type = 6,
+		name = "萨拉托加韩服复刻任务退役I",
+		count_inherit = 0,
+		desc = "함선 퇴역을 5회 진행한다",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15464,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				100
+			}
+		}
+	},
+	[15465] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92765,
+		type = 6,
+		name = "萨拉托加韩服复刻任务退役II",
+		count_inherit = 0,
+		desc = "함선 퇴역을 10회 진행한다",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15465,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				150
+			}
+		}
+	},
+	[15466] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92766,
+		type = 6,
+		name = "萨拉托加韩服复刻任务退役III",
+		count_inherit = 0,
+		desc = "함선 퇴역을 15회 진행한다",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15466,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				200
+			}
+		}
+	},
+	[15467] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92767,
+		type = 6,
+		name = "萨拉托加韩服复刻任务退役IV",
+		count_inherit = 0,
+		desc = "함선 퇴역을 20회 진행한다",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15467,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				300
+			}
+		}
+	},
+	[15468] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92768,
+		type = 6,
+		name = "萨拉托加韩服复刻任务委托I",
+		count_inherit = 0,
+		desc = "군사의뢰를 10번 진행한다",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15468,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				100
+			}
+		}
+	},
+	[15469] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92769,
+		type = 6,
+		name = "萨拉托加韩服复刻任务委托II",
+		count_inherit = 0,
+		desc = "군사의뢰를 20번 진행한다",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15469,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				150
+			}
+		}
+	},
+	[15470] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92770,
+		type = 6,
+		name = "萨拉托加韩服复刻任务委托III",
+		count_inherit = 0,
+		desc = "군사의뢰를 30번 진행한다",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15470,
+		target_num = 30,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				200
+			}
+		}
+	},
+	[15471] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92771,
+		type = 6,
+		name = "萨拉托加韩服复刻任务委托IV",
+		count_inherit = 0,
+		desc = "군사의뢰를 50번 진행한다",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15471,
+		target_num = 50,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				300
+			}
+		}
+	},
+	[15472] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92772,
+		type = 36,
+		name = "萨拉托加韩服复刻任务战斗胜利-日常",
+		count_inherit = 0,
+		desc = "함대를 출격시켜, 전투에서 25번 승리하라!",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15472,
+		target_num = 25,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				60
+			}
+		}
+	},
+	[15473] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92773,
+		type = 36,
+		name = "萨拉托加韩服复刻任务消灭旗舰-日常",
+		count_inherit = 0,
+		desc = "함대를 출격시켜, 적 중요함대를 5번 격퇴하라!",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15473,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				60
+			}
+		}
+	},
+	[15474] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92774,
+		type = 36,
+		name = "萨拉托加韩服复刻任务建造-日常",
+		count_inherit = 0,
+		desc = "함선 건조를 3회 진행한다",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15474,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				60
+			}
+		}
+	},
+	[15475] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92775,
+		type = 36,
+		name = "萨拉托加韩服复刻任务强化-日常",
+		count_inherit = 0,
+		desc = "함선 강화를 8회 진행한다",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15475,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				60
+			}
+		}
+	},
+	[15476] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92776,
+		type = 36,
+		name = "萨拉托加韩服复刻任务退役-日常",
+		count_inherit = 0,
+		desc = "함선 퇴역을 3회 진행한다",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15476,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				60
+			}
+		}
+	},
+	[15477] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92777,
+		type = 36,
+		name = "萨拉托加韩服复刻任务委托-日常",
+		count_inherit = 0,
+		desc = "군사의뢰를 5번 진행한다",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15477,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				60
+			}
+		}
+	},
 	[30201] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -83734,6 +85120,13 @@ pg.task_data_template = {
 		5485,
 		5486,
 		5487,
+		5491,
+		5492,
+		5493,
+		5494,
+		5495,
+		5496,
+		5497,
 		6001,
 		6002,
 		6003,
@@ -85387,6 +86780,40 @@ pg.task_data_template = {
 		15394,
 		15395,
 		15396,
+		15415,
+		15416,
+		15417,
+		15418,
+		15419,
+		15420,
+		15450,
+		15451,
+		15452,
+		15453,
+		15454,
+		15455,
+		15456,
+		15457,
+		15458,
+		15459,
+		15460,
+		15461,
+		15462,
+		15463,
+		15464,
+		15465,
+		15466,
+		15467,
+		15468,
+		15469,
+		15470,
+		15471,
+		15472,
+		15473,
+		15474,
+		15475,
+		15476,
+		15477,
 		30201,
 		30202,
 		30203,

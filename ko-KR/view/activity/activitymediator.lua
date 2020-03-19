@@ -142,22 +142,14 @@ function slot0.register(slot0)
 			return
 		end
 
-		slot0:addSubLayers(Context.New({
-			mediator = ShopsMediator,
-			viewComponent = ShopsLayer,
-			data = slot1 or {
-				warp = ShopsLayer.TYPE_ACTIVITY
-			}
-		}))
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, slot1 or {
+			warp = ShopsScene.TYPE_ACTIVITY
+		})
 	end)
 	slot0:bind(slot0.GO_SHOPS_LAYER_STEEET, function (slot0, slot1)
-		slot0:addSubLayers(Context.New({
-			mediator = ShopsMediator,
-			viewComponent = ShopsLayer,
-			data = slot1 or {
-				warp = ShopsLayer.TYPE_SHOP_STREET
-			}
-		}))
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, slot1 or {
+			warp = ShopsScene.TYPE_SHOP_STREET
+		})
 	end)
 	slot0:bind(slot0.BATTLE_OPERA, function ()
 		slot0, slot1 = getProxy(ChapterProxy):getLastMapForActivity()

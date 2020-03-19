@@ -21,7 +21,8 @@ slot1 = {
 		Nation.DE,
 		Nation.CN,
 		Nation.SN,
-		Nation.FF
+		Nation.FF,
+		Nation.MNF
 	},
 	rarity = {
 		{

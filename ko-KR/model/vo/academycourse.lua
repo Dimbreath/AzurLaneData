@@ -37,7 +37,13 @@ function slot0.getDay(slot0)
 		slot1 = pg.TimeMgr.GetInstance():GetServerTime()
 	end
 
-	return pg.TimeMgr.GetInstance():GetServerTimestampWeek(slot1)
+	slot3 = pg.TimeMgr.GetInstance():GetServerTimestampWeek(slot1)
+
+	if slot2 and slot3 == 7 then
+		return 6
+	end
+
+	return slot3
 end
 
 function slot0.getExtraRate(slot0)
@@ -45,7 +51,7 @@ function slot0.getExtraRate(slot0)
 end
 
 function slot0.existCourse(slot0)
-	return slot0:bindConfigTable()[slot0:getDay()] and slot2.id and slot2.id > 0
+	return (slot0:bindConfigTable()[slot0:getDay()] and slot2.id and slot2.id > 0) or table.getCount(slot0.students) > 0
 end
 
 function slot0.inClass(slot0)

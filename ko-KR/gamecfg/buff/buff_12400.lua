@@ -24,7 +24,8 @@ return {
 		{
 			type = "BattleBuffAddBuff",
 			trigger = {
-				"onSubConsort"
+				"onUpperSubConsort",
+				"onLowerSubConsort"
 			},
 			arg_list = {
 				buff_id = 12403,
