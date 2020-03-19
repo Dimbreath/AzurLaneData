@@ -17,10 +17,7 @@ slot0.BUY_FRAG_ITEM = "BUY_FRAG_ITEM"
 
 function slot0.register(slot0)
 	slot0:bind(slot0.ON_SKIN_SHOP, function (slot0, slot1)
-		if getProxy(ContextProxy):getCurrentContext() and slot3.scene == SCENE.NAVALACADEMYSCENE then
-		elseif slot3 and slot3.scene == SCENE.CHARGE then
-			slot0.viewComponent:closeView()
-		end
+		getProxy(ContextProxy).getCurrentContext(slot2).ignoreBack = true
 
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP)
 	end)
@@ -51,7 +48,20 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(slot0.GO_MALL, function (slot0, slot1)
-		gotoChargeScene(slot1)
+		slot2 = getProxy(ContextProxy)
+
+		if slot0.contextData.fromCharge then
+			slot2:getContextByMediator(ChargeMediator).extendData(slot3, {
+				wrap = slot1
+			})
+			slot0.viewComponent:closeView()
+		else
+			slot2:getCurrentContext().ignoreBack = true
+
+			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
+				wrap = slot1
+			})
+		end
 	end)
 	slot0:bind(slot0.ACTIVITY_OPERATION, function (slot0, slot1, slot2, slot3, slot4)
 		slot0:sendNotification(GAME.ACTIVITY_OPERATION, {
@@ -129,7 +139,6 @@ function slot0.listNotificationInterests(slot0)
 		GAME.GET_MILITARY_SHOP_DONE,
 		GAME.REFRESH_MILITARY_SHOP_DONE,
 		ShopsProxy.SHOPPINGSTREET_UPDATE,
-		PlayerResource.GO_MALL,
 		ShopsProxy.ACTIVITY_SHOP_UPDATED,
 		ActivityProxy.ACTIVITY_SHOP_SHOW_AWARDS,
 		ShopsProxy.GUILD_SHOP_ADDED,
@@ -209,8 +218,6 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.viewComponent:updateShopStreet(slot3.shopStreet)
 			slot0.viewComponent:closeMsgBox()
 		end
-	elseif slot2 == PlayerResource.GO_MALL then
-		slot0.viewComponent:emit(slot0.viewComponent.ON_CLOSE)
 	elseif slot2 == ShopsProxy.ACTIVITY_SHOPS_UPDATED then
 		slot0.viewComponent:setActivityShops(getProxy(ShopsProxy):getActivityShops())
 	elseif slot2 == ShopsProxy.ACTIVITY_SHOP_UPDATED then

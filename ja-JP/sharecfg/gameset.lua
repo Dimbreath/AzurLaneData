@@ -383,9 +383,9 @@ pg.gameset = {
 		key_value = 3000000
 	},
 	activity_res_id = {
-		description = "情报PT",
+		description = "萨拉托加韩服pt",
 		key = "activity_res_id",
-		key_value = 143
+		key_value = 147
 	},
 	chapter_move_speed_1 = {
 		description = "",

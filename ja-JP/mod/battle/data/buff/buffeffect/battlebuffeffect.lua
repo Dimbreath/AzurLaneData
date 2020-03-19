@@ -283,11 +283,19 @@ function ys.Battle.BattleBuffEffect.onFlagShip(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function ys.Battle.BattleBuffEffect.onConsort(slot0, slot1, slot2)
+function ys.Battle.BattleBuffEffect.onUpperConsort(slot0, slot1, slot2)
+	slot0:onTrigger(slot1, slot2)
+end
+
+function ys.Battle.BattleBuffEffect.onLowerConsort(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
 function ys.Battle.BattleBuffEffect.onLeader(slot0, slot1, slot2)
+	slot0:onTrigger(slot1, slot2)
+end
+
+function ys.Battle.BattleBuffEffect.onCenter(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
@@ -299,7 +307,11 @@ function ys.Battle.BattleBuffEffect.onSubLeader(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 
-function ys.Battle.BattleBuffEffect.onSubConsort(slot0, slot1, slot2)
+function ys.Battle.BattleBuffEffect.onUpperSubConsort(slot0, slot1, slot2)
+	slot0:onTrigger(slot1, slot2)
+end
+
+function ys.Battle.BattleBuffEffect.onLowerSubConsort(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 

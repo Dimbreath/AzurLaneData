@@ -202,13 +202,13 @@ class("TaskGoCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	elseif slot13 == 12 then
 		if slot14 == 0 then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, {
-				warp = ShopsLayer.TYPE_SHAM_SHOP
+				warp = ShopsScene.TYPE_SHAM_SHOP
 			})
 		elseif slot14 == 1 then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot11)
 		elseif slot14 == 2 then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, {
-				warp = ShopsLayer.TYPE_SHOP_STREET
+				warp = ShopsScene.TYPE_SHOP_STREET
 			})
 		end
 	elseif slot13 == 13 then
