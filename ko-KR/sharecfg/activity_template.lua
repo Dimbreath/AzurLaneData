@@ -172,6 +172,19 @@ pg.activity_template = {
 			}
 		}
 	},
+	[100001] = {
+		mark = 20190530,
+		title_res_tag = "",
+		time = "stop",
+		type = 13,
+		login_pop = 0,
+		config_id = 5461,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 100001,
+		config_data = {}
+	},
 	[20001] = {
 		mark = 20180316,
 		title_res_tag = "",
@@ -14312,6 +14325,7 @@ pg.activity_template = {
 		7,
 		9,
 		21,
+		100001,
 		20001,
 		20002,
 		20003,
