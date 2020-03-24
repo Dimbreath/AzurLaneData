@@ -123,12 +123,19 @@ end
 
 function slot0.UpdateMode(slot0)
 	slot1 = slot0.voteGroup:isResurrectionRace()
+	slot2 = slot0.voteGroup:isFinalsRace()
 
-	setActive(slot0.filterBtn, not slot1)
-	setActive(slot0.urlBtn, slot1)
-	setActive(slot0.titleBg1, not slot1 and not slot0.voteGroup:isFinalsRace())
+	if PLATFORM_CODE == PLATFORM_CHT then
+		setActive(slot0.filterBtn, true)
+		setActive(slot0.urlBtn, false)
+	else
+		setActive(slot0.filterBtn, not slot1)
+		setActive(slot0.urlBtn, slot1)
+	end
+
+	setActive(slot0.titleBg1, not slot1 and not slot2)
 	setActive(slot0.titleBg2, slot1)
-	setActive(slot0.titleBg3, slot0.voteGroup.isFinalsRace())
+	setActive(slot0.titleBg3, slot2)
 end
 
 function slot0.OnVote(slot0, slot1, slot2)
