@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"天狼星改造计划\n\n<size=45>四 来自Big seven的建议</size>",
+					"天狼星改造計畫\n\n<size=45>四 來自Big seven的建議</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 202200,
 			nameColor = "#a9f548",
-			say = "纳尔逊、罗德尼，拜托你们了",
+			say = "納爾遜、羅德尼，拜託你們了",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然不知道我们的建议能派上多少用场，姑且说说吧",
+			say = "雖然不知道我們的建議能派上多少用場，姑且說說吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐，既然是指挥官拜托我们的，认真一点比较好吧？",
+			say = "姐姐，既然是指揮官拜託我們的，認真一點比較好吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "请来了纳尔逊与罗德尼，给天狼星提供一些关于上流宴会的建议。",
+			say = "請來了納爾遜與羅德尼，給天狼星提供一些關於上流宴會的建議。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "首先……先整理一下情况，宴会准备得怎么样了？",
+			say = "首先……先整理一下情況，宴會準備得怎麼樣了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下有厌战陪伴在旁，所以准备以保护主人为中心——",
+			say = "陛下有厭戰陪伴在旁，所以準備以保護主人為中心——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#a9f548",
-			say = "参加者个人信息的调查已经过了一遍，警卫是否有欠缺以及紧急情况时的逃脱路线的调查已经完成了九成",
+			say = "參加者個人資訊的調查已經過了一遍，警衛是否有欠缺以及緊急情況時的逃脫路線的調查已經完成了九成",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#a9f548",
-			say = "主人参会用的物品、车上与港区联络手段的设置、备用衣物、饮酒时的常备药等也已经准备好了",
+			say = "主人參會用的物品、車上與港區聯絡手段的設置、備用衣物、飲酒時的常備藥等也已經準備好了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "连备用衣物和醒酒药都准备好了，看来贝尔法斯特等人的指导确实起到了效果。",
+			say = "連備用衣物和醒酒藥都準備好了，看來貝爾法斯特等人的指導確實起到了效果。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这，这样啊……确实准备得很全……",
+			say = "這，這樣啊……確實準備得很全……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#a9f548",
-			say = "如果还有什么不备之处请尽管明言（低头",
+			say = "如果還有什麼不備之處請儘管明言（低頭",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……姐姐，还是先从基础的东西开始教她比较好？",
+			say = "嗯……姐姐，還是先從基礎的東西開始教她比較好？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			actor = 205040,
 			nameColor = "#a9f548",
-			say = "大概就是这些了。说起来，好像忘了一件很重要的事……礼裙怎么办？",
+			say = "大概就是這些了。說起來，好像忘了一件很重要的事……禮裙怎麼辦？",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			actor = 205030,
 			nameColor = "#a9f548",
-			say = "果然……我去商店那边问问吧。从各种意义上你和光辉她们的身材差不多，{namecode:98}的话说不定立刻能准备好",
+			say = "果然……我去商店那邊問問吧。從各種意義上你和光輝她們的身材差不多，{namecode:98}的話說不定立刻能準備好",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			},
 			options = {
 				{
-					content = "同意纳尔逊的话",
+					content = "同意納爾遜的話",
 					flag = 1
 				}
 			}
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#a9f548",
-			say = "纳尔逊、主人，太感谢了！",
+			say = "納爾遜、主人，太感謝了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "……真是帮大忙了。",
+			say = "……真是幫大忙了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

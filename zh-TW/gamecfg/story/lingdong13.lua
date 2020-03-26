@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "特攻舰队全员注意，虽然之前遭到了一点小小的骚扰，我们也失去了同司令部的联系…",
+			say = "特攻艦隊全員注意，雖然之前遭到了一點小小的騷擾，我們也失去了同司令部的聯繫…",
 			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是，不明的攻击同时也帮我们打散了北海的这片大雾，现在正是最好的机会！",
+			say = "但是，不明的攻擊同時也幫我們打散了北海的這片大霧，現在正是最好的機會！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现决定，继续执行“钨”行动——",
+			say = "現決定，繼續執行“鎢”行動——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "立刻调动剩余所有可使用的舰载机，预定于20分钟后开始行动！",
+			say = "立刻調動剩餘所有可使用的艦載機，預定於20分鐘後開始行動！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

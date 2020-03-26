@@ -1517,9 +1517,10 @@ function slot0.UpdateTwAccountPanel(slot0)
 	if PLATFORM == PLATFORM_ANDROID then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 5-21, warpins: 1 ---
+		--- BLOCK #0 5-29, warpins: 1 ---
 		setActive(slot0.accountTw:Find("page1/bind_google"), true)
 		setActive(slot0.accountTw:Find("page1/bind_gamecenter"), false)
+		setActive(slot0.accountTw:Find("page1/bind_apple"), false)
 		--- END OF BLOCK #0 ---
 
 
@@ -1527,9 +1528,10 @@ function slot0.UpdateTwAccountPanel(slot0)
 	else
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 22-37, warpins: 1 ---
+		--- BLOCK #0 30-53, warpins: 1 ---
 		setActive(slot0.accountTw:Find("page1/bind_google"), true)
 		setActive(slot0.accountTw:Find("page1/bind_gamecenter"), false)
+		setActive(slot0.accountTw:Find("page1/bind_apple"), false)
 		--- END OF BLOCK #0 ---
 
 
@@ -1543,13 +1545,14 @@ function slot0.UpdateTwAccountPanel(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #1 38-87, warpins: 2 ---
+	--- BLOCK #1 54-111, warpins: 2 ---
 	slot2 = pg.SdkMgr.GetInstance()
 	slot7 = {
 		slot2:IsBindFaceBook(),
 		slot2:IsBindGoogle(),
 		slot2:IsBindPhone(),
-		slot2:IsBindGameCenter()
+		slot2:IsBindGameCenter(),
+		isBindApple
 	}
 
 	--- END OF BLOCK #1 ---
@@ -1559,11 +1562,11 @@ function slot0.UpdateTwAccountPanel(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #2 88-112, warpins: 0 ---
+	--- BLOCK #2 112-136, warpins: 0 ---
 	for slot11, slot12 in ipairs(slot1) do
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 88-110, warpins: 1 ---
+		--- BLOCK #0 112-134, warpins: 1 ---
 		setActive(slot12:Find("unbind"), not slot7[slot11])
 		setActive(slot12:Find("bind"), slot13)
 		onButton(slot0, slot12, function ()
@@ -1602,7 +1605,7 @@ function slot0.UpdateTwAccountPanel(slot0)
 
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #1 111-112, warpins: 2 ---
+		--- BLOCK #1 135-136, warpins: 2 ---
 		--- END OF BLOCK #1 ---
 
 
@@ -1616,7 +1619,7 @@ function slot0.UpdateTwAccountPanel(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #3 113-114, warpins: 1 ---
+	--- BLOCK #3 137-138, warpins: 1 ---
 	return
 	--- END OF BLOCK #3 ---
 

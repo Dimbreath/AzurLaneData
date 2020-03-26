@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"天狼星改造计划\n\n<size=45>二 陛下的最高指令</size>",
+					"天狼星改造計畫\n\n<size=45>二 陛下的最高指令</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "就在烦恼要如何让天狼星的努力有所回报时——",
+			say = "就在煩惱要如何讓天狼星的努力有所回報時——",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "这次各个阵营的联谊，仆人你也要参加！",
+			say = "這次各個陣營的聯誼，僕人你也要參加！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "本王会带着厌战去参加！仆人你也记得带个伴来！",
+			say = "本王會帶著厭戰去參加！僕人你也記得帶個伴來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			actor = 205010,
 			nameColor = "#a9f548",
-			say = "……可不准不来哦！",
+			say = "……可不准不來哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "就这样，从娇小陛下那里受到了“参加联谊”这个最高指令。",
+			say = "就這樣，從嬌小陛下那裡受到了“參加聯誼”這個最高指令。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "这次宴会的规格貌似还挺高的，还要与女伴跳舞……",
+			say = "這次宴會的規格貌似還挺高的，還要與女伴跳舞……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#a9f548",
-			say = "我在这里，请您放心吧，我骄傲的主人。",
+			say = "我在這裡，請您放心吧，我驕傲的主人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…符合宴会的装扮……吗？您对这身女仆装有什么不满吗？",
+			say = "…符合宴會的裝扮……嗎？您對這身女僕裝有什麼不滿嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……如果天狼星引人注目的话，主人被盯上的危险就会降低。从这一点考虑，我也觉得以这身装扮出席宴会的话其实更好。",
+			say = "……如果天狼星引人注目的話，主人被盯上的危險就會降低。從這一點考慮，我也覺得以這身裝扮出席宴會的話其實更好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "以她平时的着装去参加宴会的话确实各种意义上都很显眼就是了……",
+			say = "以她平時的著裝去參加宴會的話確實各種意義上都很顯眼就是了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当您宴会的女伴……吗？",
+			say = "當您宴會的女伴……嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#a9f548",
-			say = "区区女仆，想要当主人的女伴…还是不太合适吧…",
+			say = "區區女僕，想要當主人的女伴…還是不太合適吧…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "即便是女仆，若是女仆长或者库拉索还好，让从来没有以“参加者”的身份公开活动的我来担任女伴，这个……",
+			say = "即便是女僕，若是女僕長或者庫拉索還好，讓從來沒有以“參加者”的身份公開活動的我來擔任女伴，這個……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "这时候，就算勉强也要让天狼星成为女伴！",
+			say = "這時候，就算勉強也要讓天狼星成為女伴！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "您是说可以同时保护陛下和主人……吗？",
+			say = "您是說可以同時保護陛下和主人……嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#a9f548",
-			say = "实在抱歉！天狼星没能参透主人的意思，说了不该说的话……",
+			say = "實在抱歉！天狼星沒能參透主人的意思，說了不該說的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#a9f548",
-			say = "请惩罚愚钝的女仆吧！",
+			say = "請懲罰愚鈍的女僕吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "……其实真正的目的是趁着宴会的机会让她好好学习一番的,不过现在就先不说了吧",
+			say = "……其實真正的目的是趁著宴會的機會讓她好好學習一番的，不過現在就先不說了吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

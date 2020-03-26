@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "特攻舰队全员注意，我们已经重创了提尔比茨这匹北方的孤狼，作战目标基本达成",
+			say = "特攻艦隊全員注意，我們已經重創了鐵必制這匹北方的孤狼，作戰目標基本達成",
 			bgm = "story-5",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "由于塞壬的介入，出于安全考虑，本次“钨”作战提前结束，全体成员准备返航！",
+			say = "由於塞壬的介入，出於安全考慮，本次“鎢”作戰提前結束，全體成員準備返航！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…居然连汝出手都没能击沉提尔比茨，她的底力真是出人意料呀",
+			say = "不過…居然連汝出手都沒能擊沉鐵必制，她的底力真是出人意料呀",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "汝大可不必如此消沉，某种程度上也是我们错误评估了敌方的实力，未来仍有机会——",
+			say = "汝大可不必如此消沉，某種程度上也是我們錯誤評估了敵方的實力，未來仍有機會——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "！！外围护航的侦察机被不明目标击落，3点钟方向可能有不明目标存在！",
+			say = "！！週邊護航的偵察機被不明目標擊落，3點鐘方向可能有不明目標存在！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "是来自塞壬说的那个“奇异点”的方向么？",
+			say = "是來自塞壬說的那個“奇異點”的方向嗎？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -147,7 +147,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的，还没来得及发现目标就被…目前已经派遣其他侦察机前往侦查了",
+			say = "是的，還沒來得及發現目標就被…目前已經派遣其他偵察機前往偵查了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…放任北方海域给塞壬如此肆无忌惮的出入也实在有损皇家威名",
+			say = "…放任北方海域給塞壬如此肆無忌憚的出入也實在有損皇家威名",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "特攻舰队全员注意，作战目标临时变更——调查不明海域情报，请各位随时做好迎击塞壬的准备",
+			say = "特攻艦隊全員注意，作戰目標臨時變更——調查不明海域情報，請各位隨時做好迎擊塞壬的準備",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，胜利…",
+			say = "對了，勝利…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你看那个“奇异点”…",
+			say = "你看那個“奇異點”…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "像不像女王头上戴的王冠呢？",
+			say = "像不像女王頭上戴的王冠呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

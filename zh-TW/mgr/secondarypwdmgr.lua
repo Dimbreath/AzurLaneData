@@ -82,6 +82,7 @@ function pg.SecondaryPWDMgr.ChangeSetting(slot0, slot1, slot2)
 
 	if not slot5 then
 		slot0:ShowWarningWindow()
+		slot0.m02:sendNotification(GAME.CANCEL_LIMITED_OPERATION)
 
 		return
 	end
@@ -91,7 +92,7 @@ function pg.SecondaryPWDMgr.ChangeSetting(slot0, slot1, slot2)
 		viewComponent = SecondaryPasswordLayer,
 		data = {
 			mode = SecondaryPasswordLayer.InputView,
-			type = (#slot1 == 0 and slot0.CLOSE_PASSWORD) or slot0.CHANGE_SETTING,
+			type = (#slot1 == 0 and slot1.CLOSE_PASSWORD) or slot1.CHANGE_SETTING,
 			settings = slot1,
 			callback = slot2
 		}

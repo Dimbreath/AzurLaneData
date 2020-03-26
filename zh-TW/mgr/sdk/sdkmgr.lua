@@ -286,6 +286,12 @@ function pg.SdkMgr.IsBindFaceBook(slot0)
 	end
 end
 
+function pg.SdkMgr.IsBindApple(slot0)
+	if PLATFORM_CODE == PLATFORM_CHT then
+		return slot0:Get("IsBindApple")
+	end
+end
+
 function pg.SdkMgr.IsBindGoogle(slot0)
 	if PLATFORM_CODE == PLATFORM_CHT then
 		return slot0:Get("IsBindGoogle")
@@ -324,6 +330,8 @@ function pg.SdkMgr.BindSocial(slot0, slot1)
 	elseif slot1 == 3 then
 		slot0:BindPhone()
 	elseif slot1 == 4 then
+	elseif slot1 == 5 then
+		slot0:BindApple()
 	end
 end
 
@@ -340,6 +348,10 @@ end
 
 function pg.SdkMgr.BindFaceBook(slot0)
 	slot0:Call("BindFaceBook")
+end
+
+function pg.SdkMgr.BindApple(slot0)
+	slot0:Call("BindApple")
 end
 
 function pg.SdkMgr.BindGoogle(slot0)

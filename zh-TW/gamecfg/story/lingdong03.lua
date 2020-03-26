@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "荣耀归于皇家，赐予汝身华美的消亡，God save the queen",
+			say = "榮耀歸於皇家，賜予汝身華美的消亡，God save the queen",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家都辛苦了，这一战只是有惊无险~",
+			say = "大家都辛苦了，這一戰只是有驚無險~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "呼呼，塞壬的新型机也没有想象中的那么可怕嘛嘻嘻，还是说其实是我们太强了？",
+			say = "呼呼，塞壬的新型機也沒有想像中的那麼可怕嘛嘻嘻，還是說其實是我們太強了？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -82,7 +82,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不管怎样，终于...可以继续启程了吗？",
+			say = "不管怎樣，終於...可以繼續啟程了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "...等一下...收到了来自司令部的紧急电报",
+			say = "...等一下...收到了來自司令部的緊急電報",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "...看来，我们要绕次远路了...",
+			say = "...看來，我們要繞次遠路了...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

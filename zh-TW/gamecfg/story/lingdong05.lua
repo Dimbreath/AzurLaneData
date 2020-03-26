@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "又见面了啊，皇家的贵妇人们",
+			say = "又見面了啊，皇家的貴婦人們",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "皇家战斗女仆团在此向贵舰献上午后的问候~",
+			say = "皇家戰鬥女僕團在此向貴艦獻上午後的問候~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -45,7 +45,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要不是您的突然造访，我们现在也许正在斯卡帕湾的港口边享受着午后的红茶呢~",
+			say = "要不是您的突然造訪，我們現在也許正在斯卡帕灣的港口邊享受著午後的紅茶呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所以，能麻烦您在此立刻沉没吗（笑",
+			say = "所以，能麻煩您在此立刻沉沒嗎（笑",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "依然是这么咄咄逼人的架势呀，看来一场战斗又无可避免了",
+			say = "依然是這麼咄咄逼人的架勢呀，看來一場戰鬥又無可避免了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "也好，也该热热这快被冰海冻僵的身躯了",
+			say = "也好，也該熱熱這快被冰海凍僵的身軀了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "沙恩霍斯特号——迎敌！",
+			say = "沙恩霍斯特號——迎敵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

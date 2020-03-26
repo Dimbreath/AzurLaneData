@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"这个女仆不太冷\n\n<size=45>六 谢菲尔德的心意·上</size>",
+					"這個女僕不太冷\n\n<size=45>六 謝菲爾德的心意·上</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·卧室",
+			say = "港區·臥室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			actor = 202080,
 			nameColor = "#a9f548",
-			say = "早上好，主人。早饭已经准备好了，请洗漱吧。",
+			say = "早上好，主人。早飯已經準備好了，請洗漱吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请不要带着奇怪的高扬感来打招呼，您就这么期待着我来吗",
+			say = "請不要帶著奇怪的高揚感來打招呼，您就這麼期待著我來嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,23 +91,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在逐渐习惯了谢菲的打扫服务之后，每到休息日甚至开始有些期待起睁开眼能够见到谢菲了",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202080,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "……没想到主人居然会这么堕落，大意了",
+			say = "在逐漸習慣了謝菲的打掃服務之後，每到休息日甚至開始有些期待起睜開眼能夠見到謝菲了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +107,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不能这么惯着主人，今天早饭吃完后的餐具自己收拾吧",
+			say = "……沒想到主人居然會這麼墮落，大意了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +123,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还是说您就像成为一个永远要靠女仆收拾屋子照顾的废柴主人吗？",
+			say = "不能這麼慣著主人，今天早飯吃完後的餐具自己收拾吧",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202080,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "還是說您就像成為一個永遠要靠女僕收拾屋子照顧的廢柴主人嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "（要是这样的生活能持续下去就好了……）",
+			say = "（要是這樣的生活能持續下去就好了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			stopbgm = true,
-			say = "数日后，港区·卧室",
+			say = "數日後，港區·臥室",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -199,7 +199,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "早晨醒得早了些，时间…似乎还很早，应该还能睡会……",
+			say = "早晨醒得早了些，時間…似乎還很早，應該還能睡會……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "朦胧中听到房门外似乎有谈话声——",
+			say = "朦朧中聽到房門外似乎有談話聲——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,12 +224,12 @@ return {
 			}
 		},
 		{
-			actorName = "纽卡斯尔",
+			actorName = "紐卡斯爾",
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "……真的好吗？",
+			say = "……真的好嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,12 +240,12 @@ return {
 			}
 		},
 		{
-			actorName = "谢菲尔德",
+			actorName = "謝菲爾德",
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "女仆就该是这个样子的，我可没有贝尔法斯特那么贪心。",
+			say = "女僕就該是這個樣子的，我可沒有貝爾法斯特那麼貪心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,12 +256,12 @@ return {
 			}
 		},
 		{
-			actorName = "纽卡斯尔",
+			actorName = "紐卡斯爾",
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "……但是谢菲“想要这样”的心情是不会就这样平复的哦",
+			say = "……但是謝菲“想要這樣”的心情是不會就這樣平復的哦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			}
 		},
 		{
-			actorName = "谢菲尔德",
+			actorName = "謝菲爾德",
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -288,12 +288,12 @@ return {
 			}
 		},
 		{
-			actorName = "纽卡斯尔",
+			actorName = "紐卡斯爾",
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "即便是要追求平稳，我还是觉得能够不用隐藏自己心情的“平稳”才是更好的吧",
+			say = "即便是要追求平穩，我還是覺得能夠不用隱藏自己心情的“平穩”才是更好的吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "似乎听到了一些很难懂的对话……",
+			say = "似乎聽到了一些很難懂的對話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

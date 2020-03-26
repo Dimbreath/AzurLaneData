@@ -369,7 +369,7 @@ pg.voice_actor_CN = {
 		code = 92
 	},
 	{
-		actor_name = "小瓶由布子",
+		actor_name = "三瓶由布子",
 		code = 93
 	},
 	{
@@ -895,6 +895,30 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "中村櫻",
 		code = 224
+	},
+	{
+		actor_name = "法伊魯茲·愛",
+		code = 225
+	},
+	{
+		actor_name = "長穀川育美",
+		code = 226
+	},
+	{
+		actor_name = "首藤志奈",
+		code = 227
+	},
+	{
+		actor_name = "原優子",
+		code = 228
+	},
+	{
+		actor_name = "岡咲美保",
+		code = 229
+	},
+	{
+		actor_name = "武田羅梨沙多胡",
+		code = 230
 	}
 }
 

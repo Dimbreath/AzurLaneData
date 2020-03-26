@@ -9,7 +9,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "发现正溃散至海域各处的敌量产型舰队！",
+			say = "發現正潰散至海域各處的敵量產型艦隊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,7 +22,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "失去指挥系统的敌舰已无法对前线作战部队产生威胁。",
+			say = "失去指揮系統的敵艦已無法對前線作戰部隊產生威脅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "接近敌方溃散舰队，在其完全撤离之前，尽可能多的消灭敌人。",
+			say = "接近敵方潰散艦隊，在其完全撤離之前，盡可能多的消滅敵人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "司令部将根据消灭的敌舰队的类型与数量统计战果，在战后给予额外奖励。",
+			say = "司令部將根據消滅的敵艦隊的類型與數量統計戰果，在戰後給予額外獎勵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "此时正是扩大战果的最好时机，尽情的收割残敌吧！",
+			say = "此時正是擴大戰果的最好時機，盡情的收割殘敵吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

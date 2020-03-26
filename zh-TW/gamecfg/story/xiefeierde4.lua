@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"这个女仆不太冷\n\n<size=45>四 习惯成自然</size>",
+					"這個女僕不太冷\n\n<size=45>四 習慣成自然</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "主人，请把脚稍微抬一下。",
+			say = "主人，請把腳稍微抬一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,51 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在处理秘书舰的工作之余，谢菲尔德一如既往地热衷于指挥室的清扫中",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202080,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "清扫很快乐，没有比看到一切都井井有条更让人高兴的事了",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "确实，自从谢菲尔德担任秘书舰以来，指挥室的环境一直是干净的地板能反光的状态",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "工作效率也确实提高了，不过……",
+			say = "在處理秘書艦的工作之餘，謝菲爾德一如既往地熱衷於指揮室的清掃中",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +85,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "顺便一提，唯一不井井有条的就只有时不时会发呆的主人您了。",
+			say = "清掃很快樂，沒有比看到一切都井井有條更讓人高興的事了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +99,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不知该说是环境的整洁还是谢菲尔德的严格带来的效率呢……",
+			say = "確實，自從謝菲爾德擔任秘書艦以來，指揮室的環境一直是乾淨的地板能反光的狀態",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,44 +110,10 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "打扰了，主人。贝尔法斯特拜托我把这份文件转交给您。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202190,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "不用客气，这是我分内的事情，另外也是顺便来看看女仆队的同僚…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202190,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "谢菲，看起来秘书舰的工作相当合你的心意呢",
+			say = "工作效率也確實提高了，不過……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +129,21 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请不要突然说一些不着边际的话。",
+			say = "順便一提，唯一不井井有條的就只有時不時會發呆的主人您了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "不知該說是環境的整潔還是謝菲爾德的嚴格帶來的效率呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +159,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，原本还有些不放心，现在看来是不用操心了呢~",
+			say = "打擾了，主人。貝爾法斯特拜託我把這份文件轉交給您。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +175,71 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "主人，虽然谢菲平时说话很不客气，不过正因如此，她是绝不会做自己不喜欢做的事情的",
+			say = "不用客氣，這是我分內的事情，另外也是順便來看看女僕隊的同僚…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202190,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "謝菲，看起來秘書艦的工作相當合你的心意呢",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202080,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "請不要突然說一些不著邊際的話。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202190,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "呵呵，原本還有些不放心，現在看來是不用操心了呢~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202190,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "主人，雖然謝菲平時說話很不客氣，不過正因如此，她是絕不會做自己不喜歡做的事情的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…也就是说",
+			say = "…也就是說",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里、稍微、有些脏了",
+			say = "這裡、稍微、有些髒了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "感觉到一阵凉风从耳边吹过，刚才那个，是清洁弹…吧？",
+			say = "感覺到一陣涼風從耳邊吹過，剛才那個，是清潔彈…吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "谢菲尔德一脸平静地走向射击的位置",
+			say = "謝菲爾德一臉平靜地走向射擊的位置",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚刚才清洁过这里？不，还是有些灰尘，看来我还是不够仔细呢",
+			say = "剛剛才清潔過這裡？不，還是有些灰塵，看來我還是不夠仔細呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵…看来我说了多余的话呢，主人、谢菲，就请你们继续好好相处咯？",
+			say = "呵呵…看來我說了多餘的話呢，主人、謝菲，就請你們繼續好好相處囉？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "纽卡斯尔带着颇有深意的笑容走出了指挥室",
+			say = "紐卡斯爾帶著頗有深意的笑容走出了指揮室",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

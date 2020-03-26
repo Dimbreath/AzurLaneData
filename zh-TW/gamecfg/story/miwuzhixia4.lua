@@ -470,7 +470,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_3",
 			dir = 1,
-			say = "随着净化着的又一声响指，浓密的海雾重新覆盖了天空与海面",
+			say = "随着净化者的又一声响指，浓密的海雾重新覆盖了天空与海面",
 			effects = {
 				{
 					active = true,

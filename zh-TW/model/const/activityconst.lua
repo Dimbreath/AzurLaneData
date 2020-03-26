@@ -210,6 +210,8 @@ slot0.MUTSUKI_NEWYEAR_SKIN_ID = 474
 slot0.ACTIVITY_BOSS_SPF_PT = 477
 slot0.ACTIVITY_478 = 478
 slot0.SOFMAP_PT_PAGE = 525
+slot0.AMERICAN_MAIN = 541
+slot0.AMERICAN_PT = 545
 slot0.LINDONG_REMAKE_KR = 40092
 slot0.TWHALLOWEENSKIN = 0
 slot0.VOTE_ORDER_BOOK_PHASE_1 = 40061
@@ -279,9 +281,9 @@ slot0.RETURN_AWARD_OP_SHOW_RETURNER_AWARD_OVERVIEW = 21
 slot0.LIMIT_SKIN_SHOP_TIME = {
 	{
 		{
-			2018,
-			5,
-			16
+			2020,
+			3,
+			26
 		},
 		{
 			0,
@@ -291,9 +293,9 @@ slot0.LIMIT_SKIN_SHOP_TIME = {
 	},
 	{
 		{
-			2018,
-			7,
-			11
+			2020,
+			4,
+			8
 		},
 		{
 			23,
