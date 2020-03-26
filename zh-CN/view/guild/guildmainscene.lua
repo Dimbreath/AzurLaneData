@@ -233,7 +233,6 @@ function slot0.openPage(slot0, slot1)
 	elseif slot1 == slot4 then
 		slot0:emit(GuildMainMediator.OPEN_BOSS_ACTIVITY, slot0.guildVO.faction)
 	elseif slot1 == slot5 then
-		slot0:unblurView()
 		slot0:emit(GuildMainMediator.OPEN_SHOP)
 	elseif slot1 == slot6 then
 		slot0:emit(GuildMainMediator.OPEN_FACILITY)
@@ -257,7 +256,6 @@ function slot0.closePage(slot0, slot1)
 	elseif slot1 == slot4 then
 		slot0:emit(GuildMainMediator.CLOSE_BOSS_ACTIVITY)
 	elseif slot1 == slot5 then
-		slot0:blurView()
 		slot0:emit(GuildMainMediator.CLOSE_SHOP)
 	elseif slot1 == slot6 then
 		slot0:emit(GuildMainMediator.CLOSE_FACILITY)
@@ -358,7 +356,6 @@ function slot0.updateAdmin(slot0)
 end
 
 function slot0.showModifyPanel(slot0)
-	slot0:unblurView()
 	pg.UIMgr.GetInstance():BlurPanel(slot0.modifyPanel)
 
 	slot0.isShowModify = true
@@ -547,7 +544,6 @@ end
 function slot0.closeModifyPanel(slot0)
 	if slot0.isShowModify then
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.modifyPanel, slot0.themePanel)
-		slot0:blurView()
 
 		slot0.isShowModify = nil
 
@@ -893,28 +889,6 @@ function slot0.appendLog(slot0, slot1, slot2)
 
 end
 
-function slot0.unblurView(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-1, warpins: 1 ---
-	return
-	--- END OF BLOCK #0 ---
-
-
-
-end
-
-function slot0.blurView(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-1, warpins: 1 ---
-	return
-	--- END OF BLOCK #0 ---
-
-
-
-end
-
 function slot0.willExit(slot0)
 
 	-- Decompilation error in this vicinity:
@@ -958,9 +932,8 @@ function slot0.willExit(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #2 26-33, warpins: 2 ---
+	--- BLOCK #2 26-30, warpins: 2 ---
 	setParent(slot0.blurPanel, slot0._tf)
-	slot0:unblurView()
 
 	return
 	--- END OF BLOCK #2 ---

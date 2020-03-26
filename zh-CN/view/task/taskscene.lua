@@ -97,9 +97,36 @@ function slot0.filterTasks(slot0, slot1)
 	end
 
 	slot0:sortTasks()
-	slot0._scrollView:SetTotalCount(#slot0.taskVOs)
+	slot0._scrollView:SetTotalCount(#slot0.taskVOs, -1)
+
+	if slot0:GetSliderValue() > 0 then
+		slot0._scrollView:ScrollTo(slot3)
+	end
+
 	setActive(slot0.listEmptyTF, #slot0.taskVOs <= 0)
 	slot0:updateOneStepBtn()
+end
+
+function slot0.GetSliderValue(slot0)
+	slot1 = -1
+
+	if slot0.contextData.targetId then
+		slot2 = nil
+
+		for slot6, slot7 in ipairs(slot0.taskVOs) do
+			if slot7.id == slot0.contextData.targetId then
+				slot2 = slot6 - 1
+
+				break
+			end
+		end
+
+		if slot2 then
+			slot1 = slot0._scrollView:HeadIndexToValue(slot2)
+		end
+	end
+
+	return slot1
 end
 
 function slot0.sortTasks(slot0)

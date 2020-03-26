@@ -34,7 +34,8 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onConsort"
+				"onUpperConsort",
+				"onLowerConsort"
 			},
 			arg_list = {
 				skill_id = 11981,

@@ -383,9 +383,9 @@ pg.gameset = {
 		key_value = 3000000
 	},
 	activity_res_id = {
-		description = "情报pt",
+		description = "美系V3PT",
 		key = "activity_res_id",
-		key_value = 143
+		key_value = 149
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -783,7 +783,7 @@ pg.gameset = {
 	skin_ticket = {
 		description = "",
 		key = "skin_ticket",
-		key_value = 144
+		key_value = 150
 	},
 	order_pt_max = {
 		key = "order_pt_max",

@@ -4,16 +4,12 @@ slot0.CHARGE = "ChargeMediator:CHARGE"
 slot0.BUY_ITEM = "ChargeMediator:BUY_ITEM"
 slot0.CLICK_MING_SHI = "ChargeMediator:CLICK_MING_SHI"
 slot0.GET_CHARGE_LIST = "ChargeMediator:GET_CHARGE_LIST"
-slot0.GO_SHOPS_LAYER = "ChargeMediator:GO_SHOPS_LAYER"
 slot0.OPEN_ACTIVITY = "ChargeMediator:OPEN_ACTIVITY"
-slot0.OPEN_SCENE = "ChargeMediator:OPEN_SCENE"
 slot0.ON_SKIN_SHOP = "ChargeMediator:ON_SKIN_SHOP"
 
 function slot0.register(slot0)
 	slot0:bind(slot0.ON_SKIN_SHOP, function ()
-		slot0.contextData.wrap = ChargeScene.TYPE_MENU
-
-		slot0.contextData:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP)
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP)
 	end)
 	slot0:bind(slot0.GET_CHARGE_LIST, function (slot0)
 		slot0:sendNotification(GAME.GET_CHARGE_LIST)
@@ -48,13 +44,7 @@ function slot0.register(slot0)
 	slot0:bind(slot0.SWITCH_TO_SHOP, function (slot0, slot1)
 		slot1.fromCharge = true
 
-		slot0:addSubLayers(Context.New({
-			mediator = ShopsMediator,
-			viewComponent = ShopsLayer,
-			data = slot1
-		}), false, function ()
-			setActive(slot0.viewComponent._tf, false)
-		end)
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, slot1)
 	end)
 	slot0:bind(slot0.CHARGE, function (slot0, slot1)
 		slot0:sendNotification(GAME.CHARGE_OPERATION, {
@@ -70,30 +60,10 @@ function slot0.register(slot0)
 	slot0:bind(slot0.CLICK_MING_SHI, function (slot0)
 		slot0:sendNotification(GAME.CLICK_MING_SHI)
 	end)
-	slot0:bind(slot0.GO_SHOPS_LAYER, function ()
-		slot0:addSubLayers(Context.New({
-			mediator = ShopsMediator,
-			viewComponent = ShopsLayer,
-			data = {
-				warp = ShopsLayer.TYPE_ACTIVITY
-			}
-		}))
-	end)
 	slot0:bind(slot0.OPEN_ACTIVITY, function (slot0, slot1)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
 			id = slot1
 		})
-	end)
-	slot0:bind(slot0.OPEN_SCENE, function (slot0, slot1)
-		if slot1[1] == SCENE.SHOP then
-			slot0:addSubLayers(Context.New({
-				mediator = ShopsMediator,
-				viewComponent = ShopsLayer,
-				data = slot1[2]
-			}))
-		else
-			slot0:sendNotification(GAME.GO_SCENE, slot1[1], slot1[2])
-		end
 	end)
 end
 
@@ -184,10 +154,6 @@ function slot0.handleNotification(slot0, slot1)
 		end
 	elseif slot2 == GAME.CLICK_MING_SHI_SUCCESS then
 		slot0.viewComponent:playHeartEffect()
-	elseif slot2 == GAME.REMOVE_LAYERS then
-		if slot3.context.mediator == ShopsMediator then
-			setActive(slot0.viewComponent._tf, true)
-		end
 	elseif slot2 == PlayerResource.GO_MALL then
 		slot4 = ChargeScene.TYPE_DIAMOND
 

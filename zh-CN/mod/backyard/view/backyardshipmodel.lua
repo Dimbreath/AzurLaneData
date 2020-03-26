@@ -62,17 +62,47 @@ slot5 = {
 }
 slot4[9] = slot5
 slot5 = {
+	"stand2",
+	2.33,
+	100013
+}
+slot4[10] = slot5
+slot5 = {
+	"tuozhuai2",
+	9.33,
+	100013
+}
+slot4[11] = slot5
+slot5 = {
+	"stand2",
+	4,
+	61125
+}
+slot4[12] = slot5
+slot5 = {
+	"yun",
+	3,
+	61125
+}
+slot4[13] = slot5
+slot5 = {
+	"motou",
+	3,
+	61125
+}
+slot4[14] = slot5
+slot5 = {
 	"sit",
 	3.33,
 	60118
 }
-slot4[10] = slot5
+slot4[15] = slot5
 slot5 = {
 	"yun",
 	5.17,
 	60118
 }
-slot4[11] = slot5
+slot4[16] = slot5
 
 function slot5(slot0, slot1, slot2)
 	slot3 = pg

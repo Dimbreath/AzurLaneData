@@ -14,11 +14,20 @@ class("OpenAttachmentCommand", pm.SimpleCommand).execute = function (slot0, slot
 		end
 	end
 
-	slot9 = getProxy(BayProxy)
-	slot10 = {}
+	slot9 = {}
+
+	for slot13 = #slot3, 1, -1 do
+		if slot3[slot13].type == DROP_TYPE_ITEM and table.contains(ITEM_ID_MULTI_NORMAL, slot14.id) then
+			table.insert(slot9, slot14)
+			table.remove(slot3, slot13)
+		end
+	end
+
+	slot10 = getProxy(BayProxy)
+	slot11 = {}
 
 	if #slot3 > 0 then
-		table.insert(slot10, function (slot0)
+		table.insert(slot11, function (slot0)
 			slot0:sendNotification(GAME.OPEN_MAIL_ATTACHMENT_DONE, {
 				items = slot0.sendNotification,
 				callback = slot0
@@ -27,9 +36,9 @@ class("OpenAttachmentCommand", pm.SimpleCommand).execute = function (slot0, slot
 	end
 
 	if #slot8 > 0 then
-		for slot14, slot15 in ipairs(slot8) do
-			for slot19 = 1, slot15.count, 1 do
-				table.insert(slot10, function (slot0)
+		for slot15, slot16 in ipairs(slot8) do
+			for slot20 = 1, slot16.count, 1 do
+				table.insert(slot11, function (slot0)
 					slot0:sendNotification(GAME.USE_FUDAI_ITEM, {
 						count = 1,
 						id = slot1.id,
@@ -49,7 +58,19 @@ class("OpenAttachmentCommand", pm.SimpleCommand).execute = function (slot0, slot
 		end
 	end
 
-	seriesAsync(slot10)
+	if #slot9 > 0 then
+		for slot15, slot16 in ipairs(slot9) do
+			table.insert(slot11, function (slot0)
+				slot0:sendNotification(GAME.USE_ITEM, {
+					id = slot1.id,
+					count = slot1.count,
+					callback = slot0
+				})
+			end)
+		end
+	end
+
+	seriesAsync(slot11)
 end
 
 return class("OpenAttachmentCommand", pm.SimpleCommand)

@@ -15,8 +15,7 @@ pg.ship_data_create_material = {
 			"<color=#ffde38>超稀有舰船</color>：7%",
 			"<color=#d797ff>精锐舰船</color>：12%",
 			"<color=#3dc6ff>稀有舰船</color>：51%",
-			"普通舰船：30%",
-			"<color=#d797ff>{namecode:90}</color>：1.4%(<color=#92fc63>up!</color>)"
+			"普通舰船：30%"
 		}
 	},
 	{
@@ -71,17 +70,15 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>精锐舰船</color>：12%",
 			"<color=#3dc6ff>稀有舰船</color>：51%",
 			"普通舰船：30%",
-			"<color=#ffde38>苏维埃罗西亚</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>无畏</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>塔什干</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>里诺</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>阿芙乐尔</color>：1.5%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>布莱默顿</color>：0.5%",
 			" ",
-			"<color=#ffde38>恰巴耶夫</color>：0.5%",
+			"<color=#d797ff>库珀</color>：2.5%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#d797ff>威严</color>：2.5%(<color=#92fc63>up!</color>)",
-			" ",
-			"<color=#d797ff>水星纪念</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#3dc6ff>马布尔黑德</color>：5.0%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

@@ -351,7 +351,7 @@ return {
 				},
 				skills = {
 					{
-						id = 19221,
+						id = 19220,
 						level = 10
 					},
 					{

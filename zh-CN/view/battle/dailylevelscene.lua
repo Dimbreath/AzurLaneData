@@ -76,11 +76,13 @@ function slot0.didEnter(slot0)
 		slot0:flipToSpecificCard(slot0:getNextCardId(false))
 	end)
 	slot0:displayDailyLevels()
-	slot0:enableDescMode(false, function ()
-		if slot0.contextData.dailyLevelId then
-			slot0:tryOpenDesc(slot0.contextData.dailyLevelId)
-		end
-	end)
+
+	if slot0.contextData.dailyLevelId then
+		slot0:tryOpenDesc(slot0.contextData.dailyLevelId)
+	else
+		slot0:enableDescMode(false)
+	end
+
 	slot0:tryPlayGuide()
 end
 
