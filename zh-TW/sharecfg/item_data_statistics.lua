@@ -53784,6 +53784,22 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59128] = {
+		display = "用於『限時體驗商店』兌換角色限時換裝，2020年4月8日後將無法使用 ",
+		rarity = 4,
+		type = 98,
+		name = "換裝體驗券",
+		shop_id = 1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 59128,
+		icon = "Props/skinTicket",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59136] = {
 		display = "『Azurlane人氣投票2020』活動累計獲得投票，每輪投票結束時次數歸零",
 		rarity = 2,
@@ -56436,6 +56452,7 @@ pg.item_data_statistics = {
 		59121,
 		59122,
 		59123,
+		59128,
 		59136,
 		59152,
 		59601,

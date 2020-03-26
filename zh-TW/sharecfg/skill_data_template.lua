@@ -33533,6 +33533,28 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[20081] = {
+		desc_get = "",
+		name = "全弹发射I",
+		desc = "主炮每进行15次攻击，触发全弹发射-艾伦·萨姆纳级I",
+		type = 1,
+		max_level = 1,
+		id = 20081,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[20082] = {
+		desc_get = "",
+		name = "全弹发射II",
+		desc = "主炮每进行10次攻击，触发全弹发射-艾伦·萨姆纳级II",
+		type = 1,
+		max_level = 1,
+		id = 20082,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[20111] = {
 		desc_get = "",
 		name = "全彈發射I",
@@ -36437,6 +36459,28 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 29512,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29521] = {
+		desc_get = "",
+		name = "专属弹幕-里诺I",
+		desc = "主炮每进行15次攻击，触发专属弹幕-里诺I",
+		type = 1,
+		max_level = 1,
+		id = 29521,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29531] = {
+		desc_get = "",
+		name = "专属弹幕-里诺II",
+		desc = "使用驱逐主炮时，提升自身主炮效率10%，主炮每进行10次攻击，触发专属弹幕-里诺II；使用轻巡主炮时，专属弹幕触发所需主炮攻击次数降低为8",
+		type = 1,
+		max_level = 1,
+		id = 29531,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -39786,6 +39830,8 @@ pg.skill_data_template = {
 		20062,
 		20071,
 		20072,
+		20081,
+		20082,
 		20111,
 		20112,
 		20121,
@@ -40050,6 +40096,8 @@ pg.skill_data_template = {
 		29502,
 		29511,
 		29512,
+		29521,
+		29531,
 		101010,
 		101020,
 		101030,

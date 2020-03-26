@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"这个女仆不太冷\n\n<size=45>二 一切为了“清扫”</size>",
+					"這個女僕不太冷\n\n<size=45>二 一切為了“清掃”</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·商店",
+			say = "港區·商店",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "因为补给确认方面的事务来到了{namecode:98}的商店，不过似乎有人先来了的样子",
+			say = "因為補給確認方面的事務來到了{namecode:98}的商店，不過似乎有人先來了的樣子",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "谢菲尔德的要求真的差点难倒{namecode:98}了喵！不过…哼哼，最后还是完成了喵！",
+			say = "謝菲爾德的要求真的差點難倒{namecode:98}了喵！不過…哼哼，最後還是完成了喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "将将——这就是“{namecode:98}特制清洁弹“喵！",
+			say = "將將——這就是“{namecode:98}特製清潔彈”喵！",
 			effects = {
 				{
 					active = true,
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "似乎能感觉到谢菲尔德淡漠的眼神中闪耀着一丝兴奋的光芒，不过…",
+			say = "似乎能感覺到謝菲爾德淡漠的眼神中閃耀著一絲興奮的光芒，不過…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问清洁弹是什么",
+					content = "詢問清潔彈是什麼",
 					flag = 1
 				}
 			}
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…是主人吗",
+			say = "…是主人嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼哼，那边的客人，你看起来一脸困惑的样子喵？那就让{namecode:98}来——",
+			say = "哼哼哼，那邊的客人，你看起來一臉困惑的樣子喵？那就讓{namecode:98}來——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "谢菲尔德直接往墙角开了一枪",
+			say = "謝菲爾德直接往牆角開了一槍",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			say = "喵！？吓了一跳喵！谢菲尔德你也太直接了喵！",
+			say = "喵！？嚇了一跳喵！謝菲爾德你也太直接了喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "与其解释那么多，不如直接实践一下更方便",
+			say = "與其解釋那麼多，不如直接實踐一下更方便",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "谢菲尔德射击的地方出现了些许蓝色的泡沫，难道说……",
+			say = "謝菲爾德射擊的地方出現了些許藍色的泡沫，難道說……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，我拜托{namecode:98}小姐制作了包含清洁剂的子弹",
+			say = "嗯，我拜託{namecode:98}小姐製作了包含清潔劑的子彈",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "弹头是特殊材料制成的喵，一旦受到冲击就会释放出清洁剂喵！",
+			say = "彈頭是特殊材料製成的喵，一旦受到衝擊就會釋放出清潔劑喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这样一来，平时一些不好打扫的地方也能到轻易地解决了",
+			say = "這樣一來，平時一些不好打掃的地方也能到輕易地解決了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "感觉又是好像很厉害，又好像没什么所谓的道具…",
+			say = "感覺又是好像很厲害，又好像沒什麼所謂的道具…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "不过，难得看到谢菲尔德高兴(?)的样子，就这样吧",
+			say = "不過，難得看到謝菲爾德高興(?)的樣子，就這樣吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

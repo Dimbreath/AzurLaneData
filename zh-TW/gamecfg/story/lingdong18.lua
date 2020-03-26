@@ -12,8 +12,8 @@ return {
 			dir = 1,
 			bgm = "battle-boss-6",
 			actor = 900021,
-			actorName = "净化者",
-			say = "哈哈~好久没有打得这么尽兴了！心智魔方真是充满了无穷的潜力啊——",
+			actorName = "淨化者",
+			say = "哈哈~好久沒有打得這麼盡興了！心智魔方真是充滿了無窮的潛力啊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,8 +28,8 @@ return {
 			nameColor = "#ff0000",
 			side = 2,
 			dir = 1,
-			actorName = "净化者",
-			say = "记住，我们塞壬是你们的敌人，是侵占你们海权、引发战争的大恶人~",
+			actorName = "淨化者",
+			say = "記住，我們塞壬是你們的敵人，是侵佔你們海權、引發戰爭的大惡人~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,8 +44,8 @@ return {
 			nameColor = "#ff0000",
 			side = 2,
 			dir = 1,
-			actorName = "净化者",
-			say = "我们还有更多，更强的怪物在等着你们~努力变得更强吧，我们还会再见面的",
+			actorName = "淨化者",
+			say = "我們還有更多，更強的怪物在等著你們~努力變得更強吧，我們還會再見面的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			soundeffect = "event:/battle/boom1",
 			actor = 205070,
 			nameColor = "#a9f548",
-			say = "赐予汝鲜血的消亡！回到冰冷的海底去吧——",
+			say = "賜予汝鮮血的消亡！回到冰冷的海底去吧——",
 			flash = {
 				wait = 0.5,
 				delay = 0.3,
@@ -86,7 +86,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "呼…终于胜利了哦，海域已经恢复了平静…司令部也联系上了",
+			say = "呼…終於勝利了哦，海域已經恢復了平靜…司令部也聯繫上了",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -105,7 +105,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这一连串的行动，全部都超出了预期…",
+			say = "這一連串的行動，全部都超出了預期…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "幸好，最后还是获得了意外的战果，也获得了大量和塞壬有关的情报",
+			say = "幸好，最後還是獲得了意外的戰果，也獲得了大量和塞壬有關的情報",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "尊贵的女士，您的表现令人惊叹，与您并肩作战是吾辈的荣幸",
+			say = "尊貴的女士，您的表現令人驚歎，與您並肩作戰是吾輩的榮幸",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "另外，司令部通告说，提尔比茨将交给陆航的重型轰炸机接手",
+			say = "另外，司令部通告說，鐵必制將交給陸航的重型轟炸機接手",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们——可以回家了！",
+			say = "我們——可以回家了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "被夺走了皇冠的北方女王吗…如果这就是你所期望的宿命",
+			say = "被奪走了皇冠的北方女王嗎…如果這就是你所期望的宿命",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…呵呵，我在想什么呢",
+			say = "…呵呵，我在想什麼呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,14 +236,14 @@ return {
 			}
 		},
 		{
-			actorName = "测试者",
+			actorName = "測試者",
 			side = 2,
 			dir = -1,
 			blackBg = true,
 			stopbgm = true,
 			actor = 900011,
 			nameColor = "#ff0000",
-			say = "故意击落胜利的侦察机来把她吸引过来吗——真是巧妙的计策呀",
+			say = "故意擊落勝利的偵察機來把她吸引過來嗎——真是巧妙的計策呀",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -271,9 +271,9 @@ return {
 			}
 		},
 		{
-			say = "要应付关键点G只能这样做了，幸好所有这一切最后都没有产生太大的偏差",
+			say = "要應付關鍵點G只能這樣做了，幸好所有這一切最後都沒有產生太大的偏差",
 			side = 1,
-			actorName = "观察者",
+			actorName = "觀察者",
 			dir = 1,
 			blackBg = true,
 			actor = 900012,
@@ -297,8 +297,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900012,
-			actorName = "观察者",
-			say = "能把战损控制到一只净化者型以内，已经是最好的结果了",
+			actorName = "觀察者",
+			say = "能把戰損控制到一隻淨化者型以內，已經是最好的結果了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,8 +314,8 @@ return {
 			dir = -1,
 			blackBg = true,
 			actor = 900011,
-			actorName = "测试者",
-			say = "那么，你也该回到新的载体了吧——净化者",
+			actorName = "測試者",
+			say = "那麼，你也該回到新的載體了吧——淨化者",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,8 +331,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900021,
-			actorName = "净化者",
-			say = "锵——这一次玩得很开心哦，战斗经验也跟着提升了！",
+			actorName = "淨化者",
+			say = "鏘——這一次玩得很開心哦，戰鬥經驗也跟著提升了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,8 +348,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900021,
-			actorName = "净化者",
-			say = "皇家的那群孩子们已经逐步觉醒，成长得亭亭玉立了，北海区域看来暂时不用担心啦",
+			actorName = "淨化者",
+			say = "皇家的那群孩子們已經逐步覺醒，成長得亭亭玉立了，北海區域看來暫時不用擔心啦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,8 +365,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900021,
-			actorName = "净化者",
-			say = "快点快点，可以派我去下一个任务地点啦",
+			actorName = "淨化者",
+			say = "快點快點，可以派我去下一個任務地點啦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,9 +377,9 @@ return {
 			}
 		},
 		{
-			say = "下一个任务地点吗？…",
+			say = "下一個任務地點嗎？…",
 			side = 1,
-			actorName = "观察者",
+			actorName = "觀察者",
 			dir = 1,
 			blackBg = true,
 			actor = 900012,
@@ -403,8 +403,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900012,
-			actorName = "观察者",
-			say = "——嗯…想要去赏赏樱花吗？",
+			actorName = "觀察者",
+			say = "——嗯…想要去賞賞櫻花嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

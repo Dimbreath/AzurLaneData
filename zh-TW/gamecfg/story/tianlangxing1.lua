@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"天狼星改造计划\n\n<size=45>一 身为女仆……</size>",
+					"天狼星改造計畫\n\n<size=45>一 身為女僕……</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "偶然得到贝尔法斯特的推荐，任命了原来在女仆队中负责警备工作的天狼星为秘书舰",
+			say = "偶然得到貝爾法斯特的推薦，任命了原來在女僕隊中負責警備工作的天狼星為秘書艦",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天也请允许天狼星作为秘书舰协助您，我骄傲的主人",
+			say = "今天也請允許天狼星作為秘書艦協助您，我驕傲的主人",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#a9f548",
-			say = "如果有什么天狼星能做的，请您尽管开口。虽然远不及女仆长能干，但是天狼星会全力以赴，定不负您的期待！",
+			say = "如果有什麼天狼星能做的，請您儘管開口。雖然遠不及女僕長能幹，但是天狼星會全力以赴，定不負您的期待！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "试着把工作交给这位举止飒爽、努力上进的女仆……",
+			say = "試著把工作交給這位舉止颯爽、努力上進的女僕……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			withoutActorName = true,
 			actor = 202200,
 			nameColor = "#a9f548",
-			say = "天狼星疑惑地歪了歪头。",
+			say = "天狼星疑惑地歪了歪頭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "您说昨天的演习报告……吗？",
+			say = "您說昨天的演習報告……嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#a9f548",
-			say = "十分抱歉……昨天以为主人已经过目，就擅自处理了……",
+			say = "十分抱歉……昨天以為主人已經過目，就擅自處理了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#a9f548",
-			say = "我、我这就去找！",
+			say = "我、我這就去找！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "天狼星慌慌张张地跪在堆成小山的废纸堆前翻找起来。",
+			say = "天狼星慌慌張張地跪在堆成小山的廢紙堆前翻找起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#a9f548",
-			say = "不好意思主人，打扫要从哪里开始比较好……？",
+			say = "不好意思主人，打掃要從哪裡開始比較好……？",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#a9f548",
-			say = "非常抱歉，泡茶一直是由女仆队的其他伙伴负责的，天狼星没有做过……",
+			say = "非常抱歉，泡茶一直是由女僕隊的其他夥伴負責的，天狼星沒有做過……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -322,7 +322,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "作为护卫（Secret Service）的她确实无懈可击，\n但是在普通事务方面却是仅仅及格的水准，实在很难令人开口夸赞。",
+			say = "作為護衛（Secret Service）的她確實無懈可擊，\n但是在普通事務方面卻是僅僅及格的水準，實在很難令人開口誇讚。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "万分抱歉，天狼星身为秘书舰，不但无法胜任工作，还占用了骄傲的主人很多时间……",
+			say = "萬分抱歉，天狼星身為秘書艦，不但無法勝任工作，還佔用了驕傲的主人很多時間……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			actor = 202200,
 			nameColor = "#a9f548",
-			say = "请……请惩罚犯了错误的女仆吧！",
+			say = "請……請懲罰犯了錯誤的女僕吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "天狼星深深低头，拼命道歉。",
+			say = "天狼星深深低頭，拼命道歉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "看着她这么努力的样子，让人忍不住想要为她做点什么",
+			say = "看著她這麼努力的樣子，讓人忍不住想要為她做點什麼",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

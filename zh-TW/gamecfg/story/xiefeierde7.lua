@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"这个女仆不太冷\n\n<size=45>七 谢菲尔德的心意·下</size>",
+					"這個女僕不太冷\n\n<size=45>七 謝菲爾德的心意·下</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·卧室",
+			say = "港區·臥室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天您竟然醒的这么早，难道太阳从西边出来了吗。",
+			say = "今天您竟然醒的這麼早，難道太陽從西邊出來了嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……其实是没有睡着。",
+			say = "……其實是沒有睡著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "想起刚才朦胧中听到的对话",
+			say = "想起剛才朦朧中聽到的對話",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示谢菲今天可以给自己放个假。",
+					content = "表示謝菲今天可以給自己放個假。",
 					flag = 1
 				}
 			}
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "不知为何，谢菲原本流畅的动作忽然停住了。",
+			say = "不知為何，謝菲原本流暢的動作忽然停住了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…回想起来，自己确实在不知不觉中太过依赖谢菲尔德了，却一直没有关注过“她真正想要做的事情”，所以——",
+			say = "…回想起來，自己確實在不知不覺中太過依賴謝菲爾德了，卻一直沒有關注過“她真正想要做的事情”，所以——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			withoutActorName = true,
 			actor = 202080,
 			nameColor = "#a9f548",
-			say = "谢菲忽然走到自己身边，并用手搭上自己的额头",
+			say = "謝菲忽然走到自己身邊，並用手搭上自己的額頭",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……并没有发烧呢，难道是在哪里敲到脑袋了？",
+			say = "……並沒有發燒呢，難道是在哪裡敲到腦袋了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			withoutActorName = true,
 			actor = 202080,
 			nameColor = "#a9f548",
-			say = "似乎被很失礼地担心了。",
+			say = "似乎被很失禮地擔心了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			},
 			options = {
 				{
-					content = "说明理由",
+					content = "說明理由",
 					flag = 1
 				}
 			}
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "原来如此，您听到了刚才我和纽卡斯尔的交谈吗……",
+			say = "原來如此，您聽到了剛才我和紐卡斯爾的交談嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，明明没听到或者全部听到就不会有这种误解，真是让人没辙的主人。",
+			say = "真是的，明明沒聽到或者全部聽到就不會有這種誤解，真是讓人沒轍的主人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,37 +235,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "谢菲不知为何叹了一口气。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202080,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "刚才的谈话，其实是恋爱方面的谈心",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "……！！？？恋爱方面？",
+			say = "謝菲不知為何嘆了一口氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +251,21 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "纽卡斯尔告诉我，既然爱慕您的话，就应该更勇敢地告诉您。",
+			say = "剛才的談話，其實是戀愛方面的談心",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "……！！？？戀愛方面？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,21 +281,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "但我觉得，像这样待在您的身边就已经满足了，却没想到会导致您的这番行动，那就没有办法了……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "谢菲突然直视着自己的双眼。",
+			say = "紐卡斯爾告訴我，既然愛慕您的話，就應該更勇敢地告訴您。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +297,21 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "主人，谢菲尔德平时的言行有令您困扰吗？",
+			say = "但我覺得，像這樣待在您的身邊就已經滿足了，卻沒想到會導致您的這番行動，那就沒有辦法了……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "謝菲突然直視著自己的雙眼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +327,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果有的话，您可以理解为这是我的爱情表现",
+			say = "主人，謝菲爾德平時的言行有令您困擾嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +343,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对我来说，能够这样永远侍奉您就是我的愿望，我的幸福",
+			say = "如果有的話，您可以理解為這是我的愛情表現",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +359,23 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——我深爱着您，主人。",
+			say = "對我來說，能夠這樣永遠侍奉您就是我的願望，我的幸福",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202080,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "——我深愛著您，主人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "虽然绕了一些弯路，不过看来，问题的答案很明显呢，当然是——",
+			say = "雖然繞了一些彎路，不過看來，問題的答案很明顯呢，當然是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

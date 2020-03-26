@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "虽然是负隅顽抗，但也算是战斗到了最后一刻呢",
+			say = "雖然是負隅頑抗，但也算是戰鬥到了最後一刻呢",
 			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家的姐妹们！与沙恩霍斯特的战斗以我们的胜利而告终！",
+			say = "皇家的姐妹們！與沙恩霍斯特的戰鬥以我們的勝利而告終！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我希望在将来，你们中的任何人面对强大于自己数倍的对手时，会像今天沙恩霍斯特一样勇敢作战！",
+			say = "我希望在將來，你們中的任何人面對強大於自己數倍的對手時，會像今天沙恩霍斯特一樣勇敢作戰！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好了，孩子们，该回家了~接下来，还有一系列的作战行动呢",
+			say = "好了，孩子們，該回家了~接下來，還有一系列的作戰行動呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,13 +87,13 @@ return {
 			}
 		},
 		{
-			actorName = "测试者",
+			actorName = "測試者",
 			side = 2,
 			dir = -1,
 			blackBg = true,
 			actor = 900011,
 			nameColor = "#ff0000",
-			say = "沙恩霍斯特的信号在北海消失了",
+			say = "沙恩霍斯特的信號在北海消失了",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -121,13 +121,13 @@ return {
 			}
 		},
 		{
-			say = "嗯，依然和过去一样，就算给予了更强的力量也不足以改变既定的结果",
+			say = "嗯，依然和過去一樣，就算給予了更強的力量也不足以改變既定的結果",
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
 			actor = 900012,
-			actorName = "观察者",
+			actorName = "觀察者",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -147,8 +147,8 @@ return {
 			dir = -1,
 			blackBg = true,
 			actor = 900011,
-			actorName = "测试者",
-			say = "除此之外，这一次出现了一个很令人在意的分歧奇点...",
+			actorName = "測試者",
+			say = "除此之外，這一次出現了一個很令人在意的分歧奇點...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,8 +164,8 @@ return {
 			dir = -1,
 			blackBg = true,
 			actor = 900011,
-			actorName = "测试者",
-			say = "——皇家送往北方联合的第二批物资船队在护航舰队追击沙恩霍斯特时，被舰载机击沉了",
+			actorName = "測試者",
+			say = "——皇家送往北方聯合的第二批物資船隊在護航艦隊追擊沙恩霍斯特時，被艦載機擊沉了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,8 +181,8 @@ return {
 			dir = -1,
 			blackBg = true,
 			actor = 900011,
-			actorName = "测试者",
-			say = "现在局势下的铁血并没有在北海执行大规模空袭的能力，究竟是...",
+			actorName = "測試者",
+			say = "現在局勢下的鐵血並沒有在北海執行大規模空襲的能力，究竟是...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,8 +198,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900012,
-			actorName = "观察者",
-			say = "按照原定的剧本...皇家的孩子们现在应该正在筹备着下一个更大的空袭作战吧",
+			actorName = "觀察者",
+			say = "按照原定的劇本...皇家的孩子們現在應該正在籌備著下一個更大的空襲作戰吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,8 +215,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900012,
-			actorName = "观察者",
-			say = "你发现的这个情报，确实也有必要详细观察一下...",
+			actorName = "觀察者",
+			say = "你發現的這個情報，確實也有必要詳細觀察一下...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,8 +232,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900012,
-			actorName = "观察者",
-			say = "那么，北海区域就交给你负责了——「净化者」",
+			actorName = "觀察者",
+			say = "那麼，北海區域就交給你負責了——「淨化者」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,8 +249,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900021,
-			actorName = "净化者",
-			say = "哎呀呀，终于轮到我出场了吗！~",
+			actorName = "淨化者",
+			say = "哎呀呀，終於輪到我出場了嗎！~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,13 +261,13 @@ return {
 			}
 		},
 		{
-			say = "如果是那个家伙在捣蛋的话，你知道该如何处理...",
+			say = "如果是那個傢伙在搗蛋的話，你知道該如何處理...",
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
 			actor = 900012,
-			actorName = "观察者",
+			actorName = "觀察者",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -287,8 +287,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900021,
-			actorName = "净化者",
-			say = "好呀好呀！我一定会陪她们好好玩玩的！呵呵呵呵~",
+			actorName = "淨化者",
+			say = "好呀好呀！我一定會陪她們好好玩玩的！呵呵呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

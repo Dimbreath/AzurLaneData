@@ -28317,6 +28317,619 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[14152] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90476,
+		type = 6,
+		name = "『凜冬王冠復刻』通關A1/C1",
+		count_inherit = 0,
+		desc = "通關A1或C1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14153",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14152,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1190001,
+			1190011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[14153] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90477,
+		type = 6,
+		name = "『凜冬王冠復刻』通關A2/C2",
+		count_inherit = 0,
+		desc = "通關A2或C2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14154",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14153,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1190002,
+			1190012
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[14154] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90478,
+		type = 6,
+		name = "『凜冬王冠復刻』通關A3/C3",
+		count_inherit = 0,
+		desc = "通關A3或C3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14155",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14154,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1190003,
+			1190013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
+	[14155] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90479,
+		type = 6,
+		name = "『凜冬王冠復刻』通關B1/D1",
+		count_inherit = 0,
+		desc = "通關B1或D1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14156",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14155,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1190004,
+			1190014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[14156] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90480,
+		type = 6,
+		name = "『凜冬王冠復刻』通關B2/D2",
+		count_inherit = 0,
+		desc = "通關B2或D2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14157",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14156,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1190005,
+			1190015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[14157] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90481,
+		type = 6,
+		name = "『凜冬王冠復刻』通關B3/D3",
+		count_inherit = 0,
+		desc = "通關B3或D3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14157,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1190006,
+			1190016
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
+	[14158] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90482,
+		type = 6,
+		name = "『凜冬王冠復刻』通關EX",
+		count_inherit = 0,
+		desc = "通關EX關卡",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1190017,
+		id = 14158,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1190017",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				119,
+				1
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	},
+	[14159] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90483,
+		type = 6,
+		name = "『凜冬王冠復刻』A1/C1的3星",
+		count_inherit = 0,
+		desc = "完成A1或C1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14160",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14159,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1190001,
+			1190011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18001,
+				1
+			}
+		}
+	},
+	[14160] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90484,
+		type = 6,
+		name = "『凜冬王冠復刻』A2/C2的3星",
+		count_inherit = 0,
+		desc = "完成A2或C2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14161",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14160,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1190002,
+			1190012
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[14161] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90485,
+		type = 6,
+		name = "『凜冬王冠復刻』A3/C3的3星",
+		count_inherit = 0,
+		desc = "完成A3或C3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14162",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14161,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1190003,
+			1190013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				2
+			}
+		}
+	},
+	[14162] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90486,
+		type = 6,
+		name = "『凜冬王冠復刻』B1/D1的3星",
+		count_inherit = 0,
+		desc = "完成B1或D1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14163",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14162,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1190004,
+			1190014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[14163] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90487,
+		type = 6,
+		name = "『凜冬王冠復刻』B2/D2的3星",
+		count_inherit = 0,
+		desc = "完成B2或D2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14164",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14163,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1190005,
+			1190015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		}
+	},
+	[14164] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 90488,
+		type = 6,
+		name = "『凜冬王冠復刻』B3/D3的3星",
+		count_inherit = 0,
+		desc = "完成B3或D3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14164,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1190006,
+			1190016
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				201271,
+				1
+			}
+		}
+	},
+	[14165] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90489,
+		type = 36,
+		name = "『凜冬王冠復刻』日常建造",
+		count_inherit = 0,
+		desc = "建造艦船3次。",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14165,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59121,
+				300
+			}
+		}
+	},
+	[14166] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90490,
+		type = 36,
+		name = "『凜冬王冠復刻』日常出擊",
+		count_inherit = 0,
+		desc = "艦隊出征，獲得15次勝利。",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14166,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59121,
+				300
+			}
+		}
+	},
+	[14167] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 90491,
+		type = 36,
+		name = "『凜冬王冠復刻』日常困難本",
+		count_inherit = 0,
+		desc = "通關1次主線困難關卡 ",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14167,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59121,
+				100
+			}
+		}
+	},
 	[14168] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -37401,6 +38014,38 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[80128] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 300039,
+		type = 6,
+		name = "登录送皮肤体验券活动",
+		count_inherit = 0,
+		desc = "登入遊戲",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 80128,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				125,
+				2
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -38177,6 +38822,22 @@ pg.task_data_template = {
 		13974,
 		13975,
 		13976,
+		14152,
+		14153,
+		14154,
+		14155,
+		14156,
+		14157,
+		14158,
+		14159,
+		14160,
+		14161,
+		14162,
+		14163,
+		14164,
+		14165,
+		14166,
+		14167,
 		14168,
 		14169,
 		14170,
@@ -38438,7 +39099,8 @@ pg.task_data_template = {
 		80124,
 		80125,
 		80126,
-		80127
+		80127,
+		80128
 	}
 }
 

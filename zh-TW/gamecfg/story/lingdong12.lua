@@ -11,7 +11,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "“报告司令部，特攻舰队在30分钟前遭到塞壬和不明武器的攻击…阵型被打散”",
+			say = "“報告司令部，特攻艦隊在30分鐘前遭到塞壬和不明武器的攻擊…陣型被打散”",
 			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“目前虽然已经重新合流…但是…舰队受创率超过40%，继续执行“钨”行动将会有很大的风险”",
+			say = "“目前雖然已經重新合流…但是…艦隊受創率超過40%，繼續執行“鎢”行動將會有很大的風險”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "“请司令部反馈接下来的行动方案——”",
+			say = "“請司令部回饋接下來的行動方案——”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可恶…信号还是发不出去吗",
+			say = "可惡…信號還是發不出去嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "嗯…和当时在镜面海域时一样的情况呢…接下来只能靠我们自己啦",
+			say = "嗯…和當時在鏡面海域時一樣的情況呢…接下來只能靠我們自己啦",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -121,7 +121,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "万幸的是，多亏了这层装甲，舰载机孩子们基本都完好无损呢~",
+			say = "萬幸的是，多虧了這層裝甲，艦載機孩子們基本都完好無損呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不愧是皇家引以为傲的装甲航母姐妹啊，汝的意思是作战依然可以继续？",
+			say = "不愧是皇家引以為傲的裝甲航母姐妹啊，汝的意思是作戰依然可以繼續？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的，都好不容易来到这里了，不会会那位“北方的女王”不就太可惜了吗？~",
+			say = "是的，都好不容易來到這裡了，不會會那位“北方的女王”不就太可惜了嗎？~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "对了，我也给她准备了从世界另一头带来的礼物哦——",
+			say = "對了，我也給她準備了從世界另一頭帶來的禮物哦——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,14 +177,14 @@ return {
 			}
 		},
 		{
-			actorName = "净化者",
+			actorName = "淨化者",
 			side = 2,
 			dir = 1,
 			blackBg = true,
 			stopbgm = true,
 			actor = 900021,
 			nameColor = "#ff0000",
-			say = "真是奇怪啊，这么大个的奇异点，却没有出现任何目标…",
+			say = "真是奇怪啊，這麼大個的奇異點，卻沒有出現任何目標…",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -217,8 +217,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900021,
-			actorName = "净化者",
-			say = "还以为能和传说中的她见上一面呢…",
+			actorName = "淨化者",
+			say = "還以為能和傳說中的她見上一面呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,8 +234,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900021,
-			actorName = "净化者",
-			say = "嘛，还是跟观察者同步一下信息吧~",
+			actorName = "淨化者",
+			say = "嘛，還是跟觀察者同步一下資訊吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

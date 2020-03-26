@@ -34,7 +34,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "报告司令部“我舰将战至最后一弹，沙恩霍斯特永远向前！”",
+			say = "報告司令部“我艦將戰至最後一彈，沙恩霍斯特永遠向前！”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "炮台“凯撒”，继续瞄准敌舰约克公爵，开火！",
+			say = "炮臺“凱撒”，繼續瞄準敵艦約克公爵，開火！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "够了，是时候偿还欠下的罪孽了，安安心心的沉没吧——",
+			say = "夠了，是時候償還欠下的罪孽了，安安心心的沉沒吧——",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "哈哈哈，驰骋北海一生，被人挂上“丑陋姐妹”的名号",
+			say = "哈哈哈，馳騁北海一生，被人掛上“醜陋姐妹”的名號",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "无数次死里逃生，最终却败在了你这个鲁莽的小家伙手上，",
+			say = "無數次死裡逃生，最終卻敗在了你這個魯莽的小傢伙手上，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "到了最后也还是这么咄咄逼人...",
+			say = "到了最後也還是這麼咄咄逼人...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
-			say = "不过，这也正是你最迷人的一点呀...",
+			say = "不過，這也正是你最迷人的一點呀...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
-			say = "——皇家的女仆小姐",
+			say = "——皇家的女僕小姐",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

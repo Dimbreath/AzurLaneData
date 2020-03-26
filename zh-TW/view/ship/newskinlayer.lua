@@ -94,22 +94,49 @@ function slot0.voice(slot0, slot1)
 end
 
 function slot0.setSkin(slot0, slot1)
+	slot0.cg = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
+	slot0.cg.alpha = 0
+
+	setActive(slot0._shade, true)
+
+	slot0._shade:GetComponent(typeof(Image)).color = Color.New(0, 0, 0, 1)
+
+	if PathMgr.FileExists(PathMgr.getAssetBundle("ui/" .. "star_level_unlock_anim_" .. slot1)) then
+		slot0:playOpening(false, function ()
+			slot0:setSkinPri(slot0)
+		end, slot2)
+	else
+		slot0:setSkinPri(slot1)
+	end
+end
+
+function slot0.setSkinPri(slot0, slot1)
+	slot2 = slot0:loadUISync("getrole")
+	slot2.layer = LayerMask.NameToLayer("UI")
+	slot2.transform.localPosition = Vector3(0, 0, -10)
+
+	setParent(slot2, slot0._tf, false)
+	playSoundEffect(SFX_UI_DOCKYARD_CHARGET)
+
+	slot0.cg.alpha = 1
+	slot0._shade:GetComponent(typeof(Image)).color = Color.New(0, 0, 0, 0)
+
 	slot0:recyclePainting()
 
 	slot0._skinConfig = pg.ship_skin_template[slot1]
-	slot2 = pg.ship_skin_template[slot1].ship_group
-	slot3 = pg.ship_data_statistics[slot0._skinConfig.ship_group * 10 + 1]
-	slot4 = nil
-	slot4 = (not slot0._skinConfig.bg_sp or slot0._skinConfig.bg_sp == "" or slot0._skinConfig.bg_sp) and ((slot0._skinConfig.bg and #slot0._skinConfig.bg > 0 and slot0._skinConfig.bg) or (slot0._skinConfig.rarity_bg and #slot0._skinConfig.rarity_bg > 0 and slot0._skinConfig.rarity_bg))
+	slot3 = pg.ship_skin_template[slot1].ship_group
+	slot4 = pg.ship_data_statistics[slot0._skinConfig.ship_group * 10 + 1]
+	slot5 = nil
+	slot5 = (not slot0._skinConfig.bg_sp or slot0._skinConfig.bg_sp == "" or slot0._skinConfig.bg_sp) and ((slot0._skinConfig.bg and #slot0._skinConfig.bg > 0 and slot0._skinConfig.bg) or (slot0._skinConfig.rarity_bg and #slot0._skinConfig.rarity_bg > 0 and slot0._skinConfig.rarity_bg))
 
-	if slot4 then
-		pg.DynamicBgMgr.GetInstance():LoadBg(slot0, slot4, slot0._bg, slot0._staticBg, function (slot0)
+	if slot5 then
+		pg.DynamicBgMgr.GetInstance():LoadBg(slot0, slot5, slot0._bg, slot0._staticBg, function (slot0)
 			slot0.isLoadBg = true
 		end, function (slot0)
 			slot0.isLoadBg = true
 		end)
 	else
-		GetSpriteFromAtlasAsync("newshipbg/bg_" .. ((ShipGroup.IsBluePrintGroup(slot2) and "0") or "") .. ShipRarity.Rarity2Print(slot3.rarity), "", function (slot0)
+		GetSpriteFromAtlasAsync("newshipbg/bg_" .. ((ShipGroup.IsBluePrintGroup(slot3) and "0") or "") .. ShipRarity.Rarity2Print(slot4.rarity), "", function (slot0)
 			setImageSprite(slot0._staticBg, slot0, true)
 
 			slot0.isLoadBg = true
@@ -119,17 +146,17 @@ function slot0.setSkin(slot0, slot1)
 	setPaintingPrefabAsync(slot0._paintingTF, slot0._skinConfig.painting, "huode")
 
 	slot0._skinName.text = i18n("ship_newSkin_name", HXSet.hxLan(slot0._skinConfig.name))
-	slot5 = nil
-	slot6 = ""
-	slot7 = nil
+	slot6 = nil
+	slot7 = ""
+	slot8 = nil
 
 	if ShipWordHelper.RawGetWord(slot1, ShipWordHelper.WORD_TYPE_UNLOCK) == "" then
-		slot5, slot7, slot6 = ShipWordHelper.GetWordAndCV(slot1, ShipWordHelper.WORD_TYPE_DROP)
+		slot6, slot8, slot7 = ShipWordHelper.GetWordAndCV(slot1, ShipWordHelper.WORD_TYPE_DROP)
 	else
-		slot5, slot7, slot6 = ShipWordHelper.GetWordAndCV(slot1, ShipWordHelper.WORD_TYPE_UNLOCK)
+		slot6, slot8, slot7 = ShipWordHelper.GetWordAndCV(slot1, ShipWordHelper.WORD_TYPE_UNLOCK)
 	end
 
-	setWidgetText(slot0._dialogue, slot6, "desc/Text")
+	setWidgetText(slot0._dialogue, slot7, "desc/Text")
 
 	slot0._dialogue.transform.localScale = Vector3(0, 1, 1)
 
@@ -178,13 +205,6 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 	triggerToggle(slot0.flagShipToggle, slot2)
 	slot0:onSwitch(slot0.changeSkinBtn, table.getCount(slot0.sameShipVOs) > 0)
-
-	slot3 = slot0:loadUISync("getrole")
-	slot3.layer = LayerMask.NameToLayer("UI")
-	slot3.transform.localPosition = Vector3(0, 0, -10)
-
-	setParent(slot3, slot0._tf, false)
-	playSoundEffect(SFX_UI_DOCKYARD_CHARGET)
 end
 
 function slot0.onBackPressed(slot0)
@@ -427,7 +447,87 @@ function slot0.closeSelectPanel(slot0)
 	end
 end
 
+function slot0.playOpening(slot0, slot1, slot2, slot3)
+	slot0.onPlayingOP = true
+
+	function slot4()
+		if not slot0.openingTF then
+			return
+		end
+
+		setActive(slot0.openingTF, false)
+
+		setActive.openingAni.enabled = false
+
+		if setActive.openingAni.criAni then
+			slot0.criAni:Stop()
+		end
+
+		if slot0.openingTF then
+			pg.UIMgr.GetInstance():UnOverlayPanel(slot0.openingTF.transform, slot0._tf)
+			Destroy(slot0.openingTF)
+
+			Destroy.openingTF = nil
+		end
+
+		if slot1 then
+			slot1()
+		end
+	end
+
+	function slot5()
+		if not slot0.cg then
+			slot0.cg = GetOrAddComponent(slot0._tf, "CanvasGroup")
+		end
+
+		slot0.cg.alpha = 0
+		slot0.cg.openingAni.enabled = true
+
+		onButton(onButton, slot0.openingTF, function ()
+			if slot0 then
+				slot1()
+			end
+		end)
+
+		slot0 = onButton.openingTF:GetComponent("DftAniEvent")
+
+		slot0:SetStartEvent(function (slot0)
+			if slot0.criAni then
+				slot0.criAni:Play()
+			end
+		end)
+		slot0:SetEndEvent(function (slot0)
+			slot0()
+		end)
+		setActive(slot0.openingTF, true)
+	end
+
+	if IsNil(slot0.openingTF) then
+		LoadAndInstantiateAsync("ui", slot3, function (slot0)
+			slot0:SetActive(false)
+
+			slot0.openingTF = slot0
+
+			pg.UIMgr.GetInstance():OverlayPanel(slot0.openingTF.transform)
+
+			slot0.criAni = tf(slot0.openingTF):Find("usm"):GetComponent("CriManaEffectUI")
+
+			setActive(slot0.openingTF, false)
+
+			slot0.openingAni = slot0.openingTF:GetComponent("Animator")
+
+			slot0()
+		end)
+	else
+		slot5()
+	end
+end
+
 function slot0.willExit(slot0)
+	if slot0.openingTF then
+		SetParent(slot0.openingTF, slot0._tf)
+	end
+
 	pg.TipsMgr.GetInstance():ShowTips(i18n("ship_newSkinLayer_get", pg.ship_data_statistics[slot0._skinConfig.ship_group * 10 + 1].name, HXSet.hxLan(slot0._skinConfig.name)), COLOR_GREEN)
 	slot0:recyclePainting()
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)

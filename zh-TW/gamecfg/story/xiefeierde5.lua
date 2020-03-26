@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"这个女仆不太冷\n\n<size=45>五 休息日的约定</size>",
+					"這個女僕不太冷\n\n<size=45>五 休息日的約定</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "港区·卧室",
+			say = "港區·臥室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -69,7 +69,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "……没办法——",
+			say = "……沒辦法——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			}
 		},
 		{
-			say = "敌、敌袭？！！",
+			say = "敵、敵襲？！！",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -159,7 +159,7 @@ return {
 			withoutActorName = true,
 			actor = 202080,
 			nameColor = "#a9f548",
-			say = "睁开眼看到的，是谢菲尔德冷淡的表情，看来响声是她开的枪",
+			say = "睜開眼看到的，是謝菲爾德冷淡的表情，看來響聲是她開的槍",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			},
 			options = {
 				{
-					content = "询问谢菲尔德为何在这里",
+					content = "詢問謝菲爾德為何在這裡",
 					flag = 1
 				}
 			}
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "主人，您睡迷糊了吗，从这个休息日起，您的房间就由我来打扫了。",
+			say = "主人，您睡迷糊了嗎，從這個休息日起，您的房間就由我來打掃了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "这么说来……",
+			say = "這麼說來……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			actor = 202080,
 			nameColor = "#a9f548",
-			say = "主人的房间想必也是和主人一样乱糟糟的，不好好清扫一番可不行。",
+			say = "主人的房間想必也是和主人一樣亂糟糟的，不好好清掃一番可不行。",
 			effects = {
 				{
 					active = true,
@@ -231,7 +231,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "好像确实有这么一回事",
+			say = "好像確實有這麼一回事",
 			effects = {
 				{
 					active = false,
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是让人没辙的主人。另外，顺便帮您做了一些简单的早餐",
+			say = "真是讓人沒轍的主人。另外，順便幫您做了一些簡單的早餐",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然不如贝尔法斯特丰盛，不过应付主人应该足够了",
+			say = "雖然不如貝爾法斯特豐盛，不過應付主人應該足夠了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…难怪刚才就闻到了一股香味",
+			say = "…難怪剛才就聞到了一股香味",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……虽然谢菲尔德那么说，果然还是很美味的早餐。",
+			say = "……雖然謝菲爾德那麼說，果然還是很美味的早餐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "主人，用餐完毕了吗，请不要乱动，餐具等会我再收拾，交给主人只会把一切搞得更乱",
+			say = "主人，用餐完畢了嗎，請不要亂動，餐具等會我再收拾，交給主人只會把一切搞得更亂",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在客厅中打扫的谢菲尔德看了这边一眼，就回到了工作之中。",
+			say = "在客廳中打掃的謝菲爾德看了這邊一眼，就回到了工作之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…不愧是谢菲尔德，感觉整个房间都焕然一新了",
+			say = "…不愧是謝菲爾德，感覺整個房間都煥然一新了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示感谢",
+					content = "表示感謝",
 					flag = 1
 				}
 			}
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这只是女仆的职责。另外……",
+			say = "這只是女僕的職責。另外……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看起来接下来和主人的接触会越来越多，方便起见——",
+			say = "看起來接下來和主人的接觸會越來越多，方便起見——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			blackBg = true,
 			actor = 202080,
 			nameColor = "#a9f548",
-			say = "主人就用谢菲来称呼我吧。",
+			say = "主人就用謝菲來稱呼我吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -34,7 +34,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "…这次的炸弹…该说果然不愧是特制的吗…",
+			say = "…這次的炸彈…該說果然不愧是特製的嗎…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "！！！为什么，都已经被炸成这样了还不肯投降！再这样下去你真的会沉的！",
+			say = "！！！為什麼，都已經被炸成這樣了還不肯投降！再這樣下去你真的會沉的！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -68,7 +68,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "…投降…吗？",
+			say = "…投降…嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "对不起，比起投降，作为战舰战斗到最后一刻可能才是我们的夙愿…",
+			say = "對不起，比起投降，作為戰艦戰鬥到最後一刻可能才是我們的夙願…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为什么你们这些铁血的死脑筋都这么顽固，和之前那位一模一样！",
+			say = "為什麼你們這些鐵血的死腦筋都這麼頑固，和之前那位一模一樣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "你…你见过我的姐姐？",
+			say = "你…你見過我的姐姐？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊！当时几乎整个皇家舰队都被调动起来了，我也不例外，虽然只是从远处观察到了战情而已…",
+			say = "是啊！當時幾乎整個皇家艦隊都被調動起來了，我也不例外，雖然只是從遠處觀察到了戰情而已…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们说的话，几乎一模一样！",
+			say = "你們說的話，幾乎一模一樣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "皇家的小姐…谢谢你",
+			say = "皇家的小姐…謝謝你",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "我的姐姐，她实在太优秀了，她贯彻了自己的理念并且收获了至高的战果",
+			say = "我的姐姐，她實在太優秀了，她貫徹了自己的理念並且收穫了至高的戰果",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "就算是在百年后，应该依然会有人类记得她的名字并且津津乐道吧~",
+			say = "就算是在百年後，應該依然會有人類記得她的名字並且津津樂道吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "作为一艘铁血战舰，最可悲的无非是一生默默无闻、被人遗忘，最后等待他人处置的命运…",
+			say = "作為一艘鐵血戰艦，最可悲的無非是一生默默無聞、被人遺忘，最後等待他人處置的命運…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "而你们的出现，至少又给了我一次主炮齐射的机会——",
+			say = "而你們的出現，至少又給了我一次主炮齊射的機會——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "…就这样战斗到最后也不错呢！",
+			say = "…就這樣戰鬥到最後也不錯呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "什么嘛…你这样也太狡猾了！",
+			say = "什麼嘛…你這樣也太狡猾了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真当自己是悲情英雄吗！真当这样很潇洒吗！？…明明可以有继续活下去的机会！",
+			say = "真當自己是悲情英雄嗎！真當這樣很瀟灑嗎！？…明明可以有繼續活下去的機會！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "搞得人家就像个大恶人一样……",
+			say = "搞得人家就像個大惡人一樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼！真是的…没心情了，航向180度，半速撤离海域——",
+			say = "哼！真是的…沒心情了，航向180度，半速撤離海域——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "…这样真的好吗？这可是你收获战功、名留青史最好的机会",
+			say = "…這樣真的好嗎？這可是你收穫戰功、名留青史最好的機會",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "功名什么的…我也很想要啊！可是可是…我只是不希望…",
+			say = "功名什麼的…我也很想要啊！可是可是…我只是不希望…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不，人家只是...舰载机没燃料了！...哼，算你运气好！",
+			say = "不，人家只是...艦載機沒燃料了！...哼，算你運氣好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "回报旗舰约克公爵号：“钨”行动失败",
+			say = "回報旗艦約克公爵號：“鎢”行動失敗",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——我们重创但仍未能击沉北方的女王…",
+			say = "——我們重創但仍未能擊沉北方的女王…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			blackBg = true,
 			actor = 405020,
 			nameColor = "#ff0000",
-			say = "……真是个令人捉摸不透的皇家大小姐呀…",
+			say = "……真是個令人捉摸不透的皇家大小姐呀…",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -477,7 +477,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "…想必未来也没有机会再见面了吧…",
+			say = "…想必未來也沒有機會再見面了吧…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "带着这份天真的你究竟能走得多远呢，如果有机会，真是想好好看看呀——（笑）",
+			say = "帶著這份天真的你究竟能走得多遠呢，如果有機會，真是想好好看看呀——（笑）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

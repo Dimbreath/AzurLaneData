@@ -948,6 +948,18 @@ pg.activity_random_award_item = {
 		commodity_id = 105121,
 		num = 1
 	},
+	[100012] = {
+		id = 100012,
+		resource_category = 3,
+		commodity_id = 29200,
+		num = 1
+	},
+	[100013] = {
+		id = 100013,
+		resource_category = 3,
+		commodity_id = 28200,
+		num = 1
+	},
 	[100014] = {
 		id = 100014,
 		resource_category = 3,
@@ -964,6 +976,36 @@ pg.activity_random_award_item = {
 		id = 100016,
 		resource_category = 3,
 		commodity_id = 26240,
+		num = 1
+	},
+	[100017] = {
+		id = 100017,
+		resource_category = 4,
+		commodity_id = 205071,
+		num = 1
+	},
+	[100018] = {
+		id = 100018,
+		resource_category = 5,
+		commodity_id = 22108,
+		num = 1
+	},
+	[100019] = {
+		id = 100019,
+		resource_category = 5,
+		commodity_id = 22103,
+		num = 1
+	},
+	[100020] = {
+		id = 100020,
+		resource_category = 5,
+		commodity_id = 22306,
+		num = 1
+	},
+	[100021] = {
+		id = 100021,
+		resource_category = 5,
+		commodity_id = 22118,
 		num = 1
 	},
 	[100022] = {
@@ -1013,6 +1055,12 @@ pg.activity_random_award_item = {
 		resource_category = 2,
 		commodity_id = 18023,
 		num = 3
+	},
+	[900001] = {
+		id = 900001,
+		resource_category = 4,
+		commodity_id = 201261,
+		num = 1
 	},
 	all = {
 		1,
@@ -1173,9 +1221,16 @@ pg.activity_random_award_item = {
 		100009,
 		100010,
 		100011,
+		100012,
+		100013,
 		100014,
 		100015,
 		100016,
+		100017,
+		100018,
+		100019,
+		100020,
+		100021,
 		100022,
 		100023,
 		100024,
@@ -1183,7 +1238,8 @@ pg.activity_random_award_item = {
 		100026,
 		100027,
 		100029,
-		100030
+		100030,
+		900001
 	}
 }
 

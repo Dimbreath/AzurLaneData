@@ -264,11 +264,11 @@ function slot2(slot0, slot1, slot2)
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 17-20, warpins: 1 ---
-		if slot0 == YongshiSdkUserBindInfo.GOOGLE then
+		if slot0 == YongshiSdkUserBindInfo.APPLE then
 
 			-- Decompilation error in this vicinity:
 			--- BLOCK #0 21-32, warpins: 1 ---
-			pg.TipsMgr.GetInstance():ShowTips(slot1 .. "google" .. slot2)
+			pg.TipsMgr.GetInstance():ShowTips(slot1 .. "Apple Id" .. slot2)
 			--- END OF BLOCK #0 ---
 
 
@@ -277,39 +277,57 @@ function slot2(slot0, slot1, slot2)
 
 			-- Decompilation error in this vicinity:
 			--- BLOCK #0 33-36, warpins: 1 ---
-			if slot0 == YongshiSdkUserBindInfo.PHONE then
+			if slot0 == YongshiSdkUserBindInfo.GOOGLE then
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #0 37-38, warpins: 1 ---
-				if slot1 == "解綁" then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 39-39, warpins: 1 ---
-					slot1 = "换绑"
-					--- END OF BLOCK #0 ---
-
-
-
-				end
-
+				--- BLOCK #0 37-48, warpins: 1 ---
+				pg.TipsMgr.GetInstance():ShowTips(slot1 .. "google" .. slot2)
 				--- END OF BLOCK #0 ---
-
-				FLOW; TARGET BLOCK #1
-
-
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #1 40-51, warpins: 2 ---
-				pg.TipsMgr.GetInstance():ShowTips(slot1 .. "手機" .. slot2)
-				--- END OF BLOCK #1 ---
 
 
 
 			else
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #0 52-54, warpins: 1 ---
-				print("this platform is not supported")
+				--- BLOCK #0 49-52, warpins: 1 ---
+				if slot0 == YongshiSdkUserBindInfo.PHONE then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 53-54, warpins: 1 ---
+					if slot1 == "解綁" then
+
+						-- Decompilation error in this vicinity:
+						--- BLOCK #0 55-55, warpins: 1 ---
+						slot1 = "换绑"
+						--- END OF BLOCK #0 ---
+
+
+
+					end
+
+					--- END OF BLOCK #0 ---
+
+					FLOW; TARGET BLOCK #1
+
+
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #1 56-67, warpins: 2 ---
+					pg.TipsMgr.GetInstance():ShowTips(slot1 .. "手機" .. slot2)
+					--- END OF BLOCK #1 ---
+
+
+
+				else
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 68-70, warpins: 1 ---
+					print("this platform is not supported")
+					--- END OF BLOCK #0 ---
+
+
+
+				end
 				--- END OF BLOCK #0 ---
 
 
@@ -333,7 +351,7 @@ function slot2(slot0, slot1, slot2)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #1 55-55, warpins: 4 ---
+	--- BLOCK #1 71-71, warpins: 5 ---
 	return
 	--- END OF BLOCK #1 ---
 
@@ -533,6 +551,16 @@ return {
 
 
 	end,
+	IsBindApple = function ()
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-5, warpins: 1 ---
+		return slot0.bindInfo:IsBindApple()
+		--- END OF BLOCK #0 ---
+
+
+
+	end,
 	IsBindFaceBook = function ()
 
 		-- Decompilation error in this vicinity:
@@ -558,6 +586,18 @@ return {
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 1-5, warpins: 1 ---
 		return slot0.bindInfo:IsBindPhone()
+		--- END OF BLOCK #0 ---
+
+
+
+	end,
+	BindApple = function ()
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-5, warpins: 1 ---
+		slot0:BindApple()
+
+		return
 		--- END OF BLOCK #0 ---
 
 
@@ -604,6 +644,18 @@ return {
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 1-5, warpins: 1 ---
 		slot0:UnBindPhone()
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
+	end,
+	UnBindApple = function ()
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-5, warpins: 1 ---
+		slot0:UnBindApple()
 
 		return
 		--- END OF BLOCK #0 ---

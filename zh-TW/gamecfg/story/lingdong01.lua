@@ -15,7 +15,7 @@ return {
 				}
 			},
 			signDate = {
-				"——极北之北，摩尔曼斯克，北方联合境内",
+				"——極北之北，摩爾曼斯克，北方聯合境內",
 				0.2,
 				{
 					600,
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，这批女王特供的物资，已经确实的送到了贵国手上",
+			say = "那麼，這批女王特供的物資，已經確實的送到了貴國手上",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "后续还有一批船队也将在今日抵达，请务必做好接应准备",
+			say = "後續還有一批船隊也將在今日抵達，請務必做好接應準備",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "感谢贵国的物资支援~这将成为我们联手抗击赤色中轴的又一利刃",
+			say = "感謝貴國的物資支援~這將成為我們聯手抗擊赤色中軸的又一利刃",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -77,7 +77,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "请代我向女王陛下献上最高的问候~愿曙光照耀你们",
+			say = "請代我向女王陛下獻上最高的問候~願曙光照耀你們",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，期待未来贵国的表现~God save the queen",
+			say = "那麼，期待未來貴國的表現~God save the queen",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			actor = 203050,
 			nameColor = "#a9f548",
-			say = "呜...这样一来就算完成物资船队的护航任务了，终于可以回家咯~",
+			say = "嗚...這樣一來就算完成物資船隊的護航任務了，終於可以回家囉~",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一想到又可以喝到贝尔法斯特亲手煮的红茶，浑身就充满了动力~",
+			say = "一想到又可以喝到貝爾法斯特親手煮的紅茶，渾身就充滿了動力~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "不许那么早就松懈了！返航的路途依然充满了危险",
+			say = "不許那麼早就鬆懈了！返航的路途依然充滿了危險",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -173,7 +173,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不论是北海的寒风还是...来自水下的威胁....",
+			say = "不論是北海的寒風還是...來自水下的威脅....",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么了，谢菲尔德，一直默不出声",
+			say = "怎麼了，謝菲爾德，一直默不出聲",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "刚才那位女士的笑容...不是发自内心的",
+			say = "剛才那位女士的笑容...不是發自內心的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "北方联合的人...不能完全信任",
+			say = "北方聯合的人...不能完全信任",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你多心啦，既然现在大家已经携手组成了联盟，就应该相信彼此和互相照应",
+			say = "你多心啦，既然現在大家已經攜手組成了聯盟，就應該相信彼此和互相照應",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "作为皇家舰队的一员，侍奉女王、相信指挥官的选择可是作为女仆的信仰哦~",
+			say = "作為皇家艦隊的一員，侍奉女王、相信指揮官的選擇可是作為女僕的信仰哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = ".......嗯...希望是我多虑了",
+			say = ".......嗯...希望是我多慮了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，返航的路上可能还会遇到小型塞壬的骚扰，全员打起劲来，拔锚起航！",
+			say = "那麼，返航的路上可能還會遇到小型塞壬的騷擾，全員打起勁來，拔錨起航！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

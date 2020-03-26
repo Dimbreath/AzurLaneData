@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"这个女仆不太冷\n\n<size=45>三 女仆的兴趣</size>",
+					"這個女僕不太冷\n\n<size=45>三 女僕的興趣</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			say = "主人对我们女仆队平时的生活状态有兴趣？",
+			say = "主人對我們女僕隊平時的生活狀態有興趣？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -62,7 +62,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…既然如此，请在假日的时候来看看吧，毕竟是主人，还是会招待您一下的——",
+			say = "…既然如此，請在假日的時候來看看吧，畢竟是主人，還是會招待您一下的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "如此这般，在休息日敲响了谢菲尔德宿舍的门",
+			say = "如此這般，在休息日敲響了謝菲爾德宿舍的門",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…是主人啊，姑且问一句，来找我有什么事吗？",
+			say = "…是主人啊，姑且問一句，來找我有什麼事嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "开玩笑的，请进吧",
+			say = "開玩笑的，請進吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "不愧是谢菲尔德的房间，整洁无比，看不到一丝污垢",
+			say = "不愧是謝菲爾德的房間，整潔無比，看不到一絲污垢",
 			flashout = {
 				dur = 0.25,
 				black = true,
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "主人，请用红茶",
+			say = "主人，請用紅茶",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,37 +211,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……不愧是皇家女仆，泡出来的红茶水平都有水准以上",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202080,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "那么，请您自便，主人。想要待多久就待多久吧",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "总觉得自己完全没被当成主人看待？",
+			say = "……不愧是皇家女僕，泡出來的紅茶水準都有水準以上",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +227,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…您想多了，“想待多久就呆多久”可是主人的特权",
+			say = "那麼，請您自便，主人。想要待多久就待多久吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,21 +241,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…也就是说是其他人就会直接送客吗，不愧是谢菲尔德。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			say = "桌上似乎放着什么，这是…拆卸到一半的手枪？",
+			say = "總覺得自己完全沒被當成主人看待？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +257,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "枪械也是需要保养的，如果不保养，就会像懒惰的主人一样慢慢生锈。",
+			say = "…您想多了，“想待多久就待多久”可是主人的特權",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,39 +271,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "…还是一如既往地不客气啊……不过，这手枪和谢菲尔德的舰装有点像呢",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202080,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "枪械只是一点点个人的兴趣而已，不过如果主人有兴趣的话……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202080,
-			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "我来教您“工作用”枪械的选择、分解、维护、配件和射击的技巧吧",
+			say = "…也就是說是其他人就會直接送客嗎，不愧是謝菲爾德。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +285,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "谢菲尔德的教学吗…似乎还挺有趣的…",
+			say = "桌上似乎放著什麼，這是…拆卸到一半的手槍？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +301,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…是吗，既然如此，请做好心理准备吧，我会一点一滴、好好地“锻炼”您的",
+			say = "槍械也是需要保養的，如果不保養，就會像懶惰的主人一樣慢慢生銹。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +315,83 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "感觉到谢菲尔德背后有火焰在静静地燃烧…",
+			say = "…還是一如既往地不客氣啊……不過，這手槍和謝菲爾德的艦裝有點像呢",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202080,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "槍械只是一點點個人的興趣而已，不過如果主人有興趣的話……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202080,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "我來教您“工作用”槍械的選擇、分解、維護、配件和射擊的技巧吧",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "謝菲爾德的教學嗎…似乎還挺有趣的…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202080,
+			side = 2,
+			bgName = "bg_story_task",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "…是嗎，既然如此，請做好心理準備吧，我會一點一滴、好好地“鍛煉”您的",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			say = "感覺到謝菲爾德背後有火焰在靜靜地燃燒…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "于是，休息日多了一门枪械课程",
+			say = "於是，休息日多了一門槍械課程",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

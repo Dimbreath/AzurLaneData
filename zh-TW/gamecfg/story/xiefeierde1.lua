@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"这个女仆不太冷\n\n<size=45>一 女仆队，清扫中</size>",
+					"這個女僕不太冷\n\n<size=45>一 女僕隊，清掃中</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "虽然是休息日，不过也没有特别想做的事情，就在港区随便逛逛吧",
+			say = "雖然是休息日，不過也沒有特別想做的事情，就在港區隨便逛逛吧",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actorName = "？？？",
-			say = "萨福克，我们来比比谁先跑到那边的走廊吧！",
+			say = "薩福克，我們來比比誰先跑到那邊的走廊吧！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -88,7 +88,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸，我才不要，反正我也跑不过你，让我再发会儿呆…",
+			say = "欸，我才不要，反正我也跑不過你，讓我再發會兒呆…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们两个，我只是稍微离开了一会儿就变成这样了……",
+			say = "你們兩個，我只是稍微離開了一會兒就變成這樣了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "皇家的宿舍里传来了萨福克和肯特的声音，还有一个声音是——",
+			say = "皇家的宿舍裡傳來了薩福克和肯特的聲音，還有一個聲音是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			},
 			options = {
 				{
-					content = "过去看看",
+					content = "過去看看",
 					flag = 1
 				}
 			}
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			actor = 202080,
 			nameColor = "#a9f548",
-			say = "肯特，虽然你跑得很勤，但是在拖过的地面上跑多少次都不会变干净的。",
+			say = "肯特，雖然你跑得很勤，但是在拖過的地面上跑多少次都不會變乾淨的。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			actor = 203030,
 			nameColor = "#a9f548",
-			say = "呜！…是——",
+			say = "嗚！…是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…萨福克，我刚才离开的时候你就已经在那里了吧？",
+			say = "…薩福克，我剛才離開的時候你就已經在那裡了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			actor = 203040,
 			nameColor = "#a9f548",
-			say = "诶？怎怎怎么会呢！我已经动过了哦！",
+			say = "欸？怎怎怎麼會呢！我已經動過了哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "果然，是最近担任秘书舰的谢菲尔德",
+			say = "果然，是最近擔任秘書艦的謝菲爾德",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…？是主人啊…有什么事吗？",
+			say = "…？是主人啊…有什麼事嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……只是随便逛逛吗",
+			say = "……只是隨便逛逛嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那请您后退几步，那里的地板刚刚拖过",
+			say = "那請您後退幾步，那裡的地板剛剛拖過",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,23 +302,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "和工作的时候一样，毫不留情呢…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202080,
-			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "另外，若只是闲逛的话，请随便找个别的地方去，现在这一带正在清扫中",
+			say = "和工作的時候一樣，毫不留情呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +318,23 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……要是大约一小时后回来的话，我还能为您泡一杯红茶或是准备一些点心，或许",
+			say = "另外，若只是閒逛的話，請隨便找個別的地方去，現在這一帶正在清掃中",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202080,
+			side = 2,
+			bgName = "bg_story_school",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "……要是大約一小時後回來的話，我還能為您泡一杯紅茶或是準備一些點心，或許",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "说着谢菲尔德又开始了清扫，不愧是连贝尔法斯特都赞不绝口的职业精神…",
+			say = "說著謝菲爾德又開始了清掃，不愧是連貝爾法斯特都讚不絕口的職業精神…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "……似乎确实也没什么事，稍后再来吧",
+			say = "……似乎確實也沒什麼事，稍後再來吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

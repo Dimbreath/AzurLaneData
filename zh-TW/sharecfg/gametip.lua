@@ -3125,31 +3125,13 @@ pg.gametip = {
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/sphunt_1"
+					atlas = "helpbg/spboom_1"
 				}
 			},
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/sphunt_2"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/sphunt_3"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/sphunt_4"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/sphunt_5"
+					atlas = "helpbg/spboom_2"
 				}
 			},
 			disableScroll = true,
@@ -6889,7 +6871,7 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 		key = "activity_switch_award_pool_failed"
 	},
 	shop_street_activity_tip = {
-		tip = "*活動期間(<color=#A1E400FF>20.3.5-20.3.11</COLOR>)每次重整必定出現<color=#A1E400FF>外觀裝備箱</color>",
+		tip = "*活動期間(<color=#A1E400FF>2020.3.26-4.8</COLOR>)每次重整必定出現<color=#A1E400FF>外觀裝備箱</color>",
 		key = "shop_street_activity_tip"
 	},
 	twitter_link_title = {
@@ -7958,7 +7940,7 @@ $3]],
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "華盛頓、明尼阿波利斯、馬里蘭、科羅拉多、科爾克出現機率UP!",
+		tip = "勝利、天狼星、謝菲爾德、格倫維爾、牙買加出現機率UP!",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -8417,7 +8399,7 @@ $3]],
 		key = "commander_rename_success_tip"
 	},
 	amercian_notice_1 = {
-		tip = "確定消耗<color=#A9F548>$1</color>個戰鬥之星\n用於抽取<color=#A9F548>$2</color>次補給？",
+		tip = "確定消耗<color=#A9F548>$1</color>個女王的恩典\n用於抽取<color=#A9F548>$2</color>次補給？",
 		key = "amercian_notice_1"
 	},
 	amercian_notice_2 = {
@@ -9385,15 +9367,15 @@ Bofors 四聯40mm對空機炮？</color></size>]],
 		key = "change_display_medal_success"
 	},
 	limit_skin_time_day = {
-		tip = "剩余時間:$1天",
+		tip = "剩餘時間:$1天",
 		key = "limit_skin_time_day"
 	},
 	limit_skin_time_day_min = {
-		tip = "剩余時間:$1小時$2分鐘",
+		tip = "剩餘時間:$1小時$2分鐘",
 		key = "limit_skin_time_day_min"
 	},
 	limit_skin_time_min = {
-		tip = "剩余時間:$1分鐘",
+		tip = "剩餘時間:$1分鐘",
 		key = "limit_skin_time_min"
 	},
 	limit_skin_time_overtime = {
@@ -9419,6 +9401,10 @@ Bofors 四聯40mm對空機炮？</color></size>]],
 	already_have_the_skin = {
 		tip = "已經擁有該換裝",
 		key = "already_have_the_skin"
+	},
+	exchange_limit_skin_tip = {
+		tip = "是否消耗換裝體驗券x$1\n兌換[$2] $3天$4小時體驗 ",
+		key = "exchange_limit_skin_tip"
 	},
 	attire_time_stamp = {
 		tip = "$1天$2小时$3分钟",
@@ -9731,13 +9717,13 @@ TIPS：
 3.单击食物选择，再次单击该食物可以取消选择，
 选择好三种食物后自动提交结果
 4.倒计时未用尽的情况下，选好三种食物会进入结算界面
-，选出的正确食物会增加剩余时间和积分，可以选择继续
+，选出的正确食物会增加剩餘时间和积分，可以选择继续
 游戏或者游戏结算，增加时间和积分规则如下：
-选中3个正确的食物： 剩余时间增加5秒  积分增加5分
-选中2个正确的食物： 剩余时间增加2秒  积分增加2分
-选中1个正确的食物： 剩余时间增加1秒  积分增加1分
-选中0个正确的食物： 剩余时间增加0秒  积分增加0分   
-5.如果选择继续游戏则保留剩余时间和积分，并继续选出
+选中3个正确的食物： 剩餘时间增加5秒  积分增加5分
+选中2个正确的食物： 剩餘时间增加2秒  积分增加2分
+选中1个正确的食物： 剩餘时间增加1秒  积分增加1分
+选中0个正确的食物： 剩餘时间增加0秒  积分增加0分   
+5.如果选择继续游戏则保留剩餘时间和积分，并继续选出
 符合左侧角色想要的三种食物
 6.如果倒计时用尽或者主动选择游戏结算，则会消耗游戏
 券获得印花、并根据获得的积分获得不同的奖励：
@@ -9835,9 +9821,10 @@ TIPS：
 　第9章……450
 　第10章……550
 限時活動關卡：
-　SP1……180
-　SP2……220
-　SP3……270
+　A圖……180
+　B圖……270
+　C圖……450
+　D圖……700
 
 · 每日前兩次<color=#92fc63>應援資格</color>在完成關卡時必定獲得，<color=#92fc63>應援資格</color>
 過期不會計入次數
@@ -10882,6 +10869,10 @@ TIPS：
 				y = 1024
 			}
 		}
+	},
+	retire_selectzero = {
+		tip = "沒找到符合條件的艦船",
+		key = "retire_selectzero"
 	},
 	undermist_tip = {
 		tip = "当前任务已完成，请等待明日解锁",

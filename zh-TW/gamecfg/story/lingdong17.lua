@@ -12,8 +12,8 @@ return {
 			dir = 1,
 			bgm = "story-8",
 			actor = 900021,
-			actorName = "净化者",
-			say = "我们其实一开始就发现您最近出现在这片海域了~",
+			actorName = "淨化者",
+			say = "我們其實一開始就發現您最近出現在這片海域了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,8 +28,8 @@ return {
 			nameColor = "#ff0000",
 			side = 2,
 			dir = 1,
-			actorName = "净化者",
-			say = "没想到居然还弄出了这么显眼的大动作，究竟是想要做什么，关键点G？",
+			actorName = "淨化者",
+			say = "沒想到居然還弄出了這麼顯眼的大動作，究竟是想要做什麼，關鍵點G？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			nameColor = "#D6341DFF",
 			dir = 1,
-			say = "…这与你们无关",
+			say = "…這與你們無關",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,12 +55,12 @@ return {
 			}
 		},
 		{
-			say = "不不不，经过计算，万一这个尺寸的“奇异点”坍缩，估计半个北方联合都会被炸上天…",
+			say = "不不不，經過計算，萬一這個尺寸的“奇異點”坍縮，估計半個北方聯合都會被炸上天…",
 			side = 1,
 			nameColor = "#ff0000",
 			dir = 1,
 			actor = 900021,
-			actorName = "净化者",
+			actorName = "淨化者",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -79,8 +79,8 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actorName = "净化者",
-			say = "这对整个时间奇点和我们的计划都是个大麻烦，所以…能麻烦你停手吗？",
+			actorName = "淨化者",
+			say = "這對整個時間奇點和我們的計畫都是個大麻煩，所以…能麻煩你停手嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 0,
 			nameColor = "#D6341DFF",
 			dir = 1,
-			say = "…（转头",
+			say = "…（轉頭",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,8 +110,8 @@ return {
 			nameColor = "#ff0000",
 			side = 1,
 			dir = 1,
-			actorName = "净化者",
-			say = "如果是这样，作为子程序的一环，我会尽力阻止你的——",
+			actorName = "淨化者",
+			say = "如果是這樣，作為副程式的一環，我會盡力阻止你的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "确认命中目标，舰队全员继续开火！",
+			say = "確認命中目標，艦隊全員繼續開火！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,8 +163,8 @@ return {
 			nameColor = "#ff0000",
 			side = 2,
 			dir = 1,
-			actorName = "净化者",
-			say = "嗯哼...终于赶上了吗",
+			actorName = "淨化者",
+			say = "嗯哼...終於趕上了嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "梭鱼式舰载机起飞！目标——塞壬大型单位…",
+			say = "梭魚式艦載機起飛！目標——塞壬大型單位…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，还有一个没有见过的目标…雷达上完全没有发现？？",
+			say = "咦，還有一個沒有見過的目標…雷達上完全沒有發現？？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "海盗式，改变目标——未知塞壬单位",
+			say = "海盜式，改變目標——未知塞壬單位",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "海盗式…全数被击落？",
+			say = "海盜式…全數被擊落？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "而且…对方用的居然是一样的舰载机…你究竟是！？",
+			say = "而且…對方用的居然是一樣的艦載機…你究竟是！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			side = 2,
 			nameColor = "#D6341DFF",
 			dir = 1,
-			say = "…居然是你吗…",
+			say = "…居然是你嗎…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "那个…我们有见过面吗？你究竟是敌是友？…",
+			say = "那個…我們有見過面嗎？你究竟是敵是友？…",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -325,7 +325,7 @@ return {
 			side = 1,
 			nameColor = "#D6341DFF",
 			dir = 1,
-			say = "看来出了点计算外的失误…",
+			say = "看來出了點計算外的失誤…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			side = 2,
 			nameColor = "#D6341DFF",
 			dir = 1,
-			say = "净化者，告诉你们的终端，以后如果再这样把不关联的人牵扯进来，我会很生气的——",
+			say = "淨化者，告訴你們的終端，以後如果再這樣把不關聯的人牽扯進來，我會很生氣的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,12 +351,12 @@ return {
 			}
 		},
 		{
-			say = "嘿嘿~要阻止你，我们只能想到这样的办法了~",
+			say = "嘿嘿~要阻止你，我們只能想到這樣的辦法了~",
 			side = 1,
 			nameColor = "#ff0000",
 			dir = -1,
 			actor = 900021,
-			actorName = "净化者",
+			actorName = "淨化者",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -375,7 +375,7 @@ return {
 			side = 2,
 			nameColor = "#D6341DFF",
 			dir = 1,
-			say = "胜利——",
+			say = "勝利——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "诶…诶？",
+			say = "誒…誒？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -409,7 +409,7 @@ return {
 			side = 1,
 			nameColor = "#D6341DFF",
 			dir = 1,
-			say = "很高兴能再见到你…（转身）",
+			say = "很高興能再見到你…（轉身）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			side = 1,
 			nameColor = "#D6341DFF",
 			dir = 1,
-			say = "虽然现在你可能无法理解…但…未来的你一定会成为一名出色的战士",
+			say = "雖然現在你可能無法理解…但…未來的你一定會成為一名出色的戰士",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…谢…谢？",
+			say = "…謝…謝？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "诶..等..等等！！这家伙怎么丢下这些莫名其妙的话就跑了！？",
+			say = "誒..等..等等！！這傢伙怎麼丟下這些莫名其妙的話就跑了！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,8 +469,8 @@ return {
 			nameColor = "#ff0000",
 			side = 2,
 			dir = 1,
-			actorName = "净化者",
-			say = "别追了，你们是追不上那家伙的——况且，你们的对手应该是我~",
+			actorName = "淨化者",
+			say = "別追了，你們是追不上那傢伙的——況且，你們的對手應該是我~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,8 +485,8 @@ return {
 			nameColor = "#ff0000",
 			side = 2,
 			dir = 1,
-			actorName = "净化者",
-			say = "不过，多亏了你们的出现，算是解决了一次大的危机~",
+			actorName = "淨化者",
+			say = "不過，多虧了你們的出現，算是解決了一次大的危機~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,8 +501,8 @@ return {
 			nameColor = "#ff0000",
 			side = 2,
 			dir = 1,
-			actorName = "净化者",
-			say = "作为谢礼，就让我来陪你们玩玩吧——",
+			actorName = "淨化者",
+			say = "作為謝禮，就讓我來陪你們玩玩吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "小心，这个型号的塞壬是会使用光线武器的敌人，注意迎战！",
+			say = "小心，這個型號的塞壬是會使用光線武器的敵人，注意迎戰！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
