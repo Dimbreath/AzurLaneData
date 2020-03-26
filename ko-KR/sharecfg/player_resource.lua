@@ -295,6 +295,11 @@ pg.player_resource = {
 		name = "yisegefuke_pt1",
 		itemid = 59111
 	},
+	[951] = {
+		id = 951,
+		name = "unionkr_pt",
+		itemid = 99950
+	},
 	[2001] = {
 		id = 2001,
 		name = "contribution_worldboss",
@@ -320,7 +325,15 @@ pg.player_resource = {
 		name = "nvpu_ticket",
 		itemid = 59968
 	},
+	[2006] = {
+		id = 2006,
+		name = "skinTicketkr",
+		itemid = 99951
+	},
 	get_id_list_by_name = {
+		skinTicketkr = {
+			2006
+		},
 		nvpu_ticket = {
 			2005
 		},
@@ -335,6 +348,9 @@ pg.player_resource = {
 		},
 		contribution_worldboss = {
 			2001
+		},
+		unionkr_pt = {
+			951
 		},
 		yisegefuke_pt1 = {
 			950
@@ -574,11 +590,13 @@ pg.player_resource = {
 		148,
 		1001,
 		950,
+		951,
 		2001,
 		2002,
 		2003,
 		2004,
-		2005
+		2005,
+		2006
 	}
 }
 

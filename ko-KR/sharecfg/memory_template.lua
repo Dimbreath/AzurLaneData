@@ -10923,6 +10923,50 @@ pg.memory_template = {
 		icon = "memory_afuleer",
 		is_open = 0
 	},
+	[1149] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "전근",
+		condition = "「언더 더 미스트 1」 개시",
+		story = "MIWUZHIXIA1",
+		id = 1149,
+		icon = "memory_miwuzhixia",
+		is_open = 0
+	},
+	[1150] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "해무",
+		condition = "「언더 더 미스트 2」 개시",
+		story = "MIWUZHIXIA2",
+		id = 1150,
+		icon = "memory_miwuzhixia",
+		is_open = 0
+	},
+	[1151] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "역행",
+		condition = "「언더 더 미스트 3」 개시",
+		story = "MIWUZHIXIA3",
+		id = 1151,
+		icon = "memory_miwuzhixia",
+		is_open = 0
+	},
+	[1152] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "분실",
+		condition = "「언더 더 미스트 4」 개시",
+		story = "MIWUZHIXIA4",
+		id = 1152,
+		icon = "memory_miwuzhixia",
+		is_open = 0
+	},
 	[10000] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -12654,6 +12698,10 @@ pg.memory_template = {
 		1146,
 		1147,
 		1148,
+		1149,
+		1150,
+		1151,
+		1152,
 		10000,
 		10001,
 		10002,

@@ -9,6 +9,8 @@ slot0.ASSISTS_TYPE_GUILD = 1
 slot0.CHANGE_NAME_KEY = 1
 
 function id2res(slot0)
+	print(slot0)
+
 	return slot0[slot0].name
 end
 

@@ -56,6 +56,7 @@ function slot0.initSummaryInfo(slot0)
 		SummaryPage3.New(slot0:findTF("page3", slot0.pageContainer)),
 		SummaryPage4.New(slot0:findTF("page4", slot0.pageContainer)),
 		SummaryPage4.New(slot0:findTF("page4_1", slot0.pageContainer)),
+		SummaryPage4.New(slot0:findTF("page4_2", slot0.pageContainer)),
 		SummaryPage5.New(slot0:findTF("page5", slot0.pageContainer))
 	}
 

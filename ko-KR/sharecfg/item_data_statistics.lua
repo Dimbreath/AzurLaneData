@@ -84445,6 +84445,38 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[99950] = {
+		display = "[사령부 동원지령] 이벤트 누적 보상에 사용되며, 이벤트 종료 후 사라집니다. ",
+		rarity = 2,
+		type = 98,
+		name = "집결 포인트 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 99950,
+		icon = "Props/union_pt",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[99951] = {
+		display = "[한정 스킨 상점]에서 한정 스킨으로 교환가능합니다. ",
+		rarity = 4,
+		type = 98,
+		name = "스킨 체험권",
+		shop_id = 1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 99951,
+		icon = "Props/skinTicket",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	all = {
 		1,
 		2,
@@ -86664,7 +86696,9 @@ pg.item_data_statistics = {
 		70044,
 		70045,
 		70046,
-		70047
+		70047,
+		99950,
+		99951
 	}
 }
 
