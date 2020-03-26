@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_newyork",
-			say = "白鹰·纽约司令部 稍早之前 ",
+			say = "이글 유니온·뉴욕 사령부, 조금 전. ",
 			dir = 1,
 			bgm = "level02",
 			typewriter = {
@@ -28,7 +28,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！天气晴朗，风速平稳，今天是个出航的好天气呢",
+			say = "음~! 날씨 맑고, 바람 평온하고, 오늘은 출항하기 좋은 날씨네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "巴拿马要塞是连接大洋的重要通道，一定要确保它的安全，之后就拜托你们了哦~",
+			say = "파나마 요새는 대양을 연결하는 중요한 통로야. 반드시 안전을 확보해야해, 그 다음은 너희에게 맡길게~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最近我和萨拉托加都有任务在身，塞壬很可能抓住我们防线薄弱的时候发动进攻，驻防的时候千万小心",
+			say = "나와 새러토가는 모두 맡은 임무가 있어. 세이렌은 아마 우리의 방어선이 얇아진 틈을 노려 공격해올거야. 주둔할 때 꼭 조심해야해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "放心放心~如果有塞壬趁机来“拜访”，我一定用主炮好好“招待”它们",
+			say = "안심해~ 세이렌이 틈을 타고 \"방문\"한다면 주포로 아주 잘 \"접대\"해줄테니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			say = "各位，出航的时间到了，准备完毕之后就动身吧",
+			say = "모두, 출항한 시간이야. 준비 완료됐으면 바로 움직여!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么我们出发了…企业、萨拉托加，你们也要注意安全",
+			say = "그럼 우린 출발할게... 엔터프라이즈, 새러토가, 너희도 안전에 주의해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那些都是毛毛雨啦，不用担心。大家一路顺风哦~",
+			say = "별거 아니니까 걱정말고 모두 잘 다녀와~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_story_newyork",
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "企业，我也该出发和指挥官汇合了",
+			say = "엔터프라이즈, 나도 출발해서 지휘관과 합류해야겠어.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "白令海的冰雪要塞攻略作战终于要开始了么？",
+			say = "베링해의 얼음 요새 공략 작전, 드디어 시작하는거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "一贯冰冷的北方联合这么热情的邀请我们进行联合作战，还推荐指挥官前去指挥，总感觉有一丝阴谋的味道呢…",
+			say = "한결같이 차가운 노스 유니온이 이렇게 열정적으로 우리를 연합 작전에 초청하고, 지휘관더러 전방에서 지휘하도록 하는게, 무슨 음모가 있을 것 같은 느낌이...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "这次作战一定有哪个环节不对劲，我一定要去亲自看看",
+			say = "이번 작전은 분명 석연치 않은 부분이 있어. 반드시 직접 가서 살펴봐야겠어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业就按之前说好的就坐镇纽约司令部，等着我们凯旋的好消息吧~",
+			say = "엔터프라이즈는 전에 얘기한대로 뉴욕 사령부에서 좋은 소식이나 기다리고 있으라고~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "预祝你们作战顺利，顺便帮我向指挥官带个好",
+			say = "작전이 순조롭길 바란다. 그리고 나 대신 지휘관을 잘 부탁해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			blackBg = true,
 			actor = 107030,
 			nameColor = "#a9f548",
-			say = "收到~",
+			say = "접수~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

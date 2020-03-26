@@ -9,7 +9,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_battle_night",
-			say = "要塞东侧外海？·海雾中",
+			say = "요새 동쪽 외해?·해무 속",
 			dir = 1,
 			bgm = "story-6",
 			effects = {
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
-			say = "白色。放眼望去，视野中只有纯粹的白色",
+			say = "흰 색. 아무리 보아도, 시야에는 오직 새하얀 흰 색 뿐.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "可恶……又在耍这些小把戏！",
+			say = "젠장...... 또 이런 잔재주를 피우다니!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "大家彼此保持距离，小心从浓雾中袭来的攻击！",
+			say = "모두 서로 거리를 유지해. 안개 속에서 습격해올 수 있으니 조심하고!",
 			flashN = {
 				color = {
 					1,
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
-			say = "白鹰舰队在浓烈的海雾中前进着，从四面八方袭来的炮弹和鱼雷来看，潜伏在周边的塞壬数量十分可观",
+			say = "이글 유니온 함대는 짙은 안개 속에서 전진하고 있다. 사방에서 날아오는 포탄과 어뢰로 봤을 때, 주위에 매복한 세이렌의 수는 그야말로 가관이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "海伦娜，雷达索敌的情况怎么样？",
+			say = "헬레나, 레이더에 적 탐색 상황은 어때?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			dir = 1,
 			actor = 102050,
 			nameColor = "#a9f548",
-			say = "还是和之前一样，雷达上什么都看不到…",
+			say = "똑같아. 레이더 상으론 아무것도 안보여...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "塞壬的军舰明明到处都是，雷达上居然什么都看不到么…！",
+			say = "분명 어디를 가도 세이렌 군함이 깔려 있는데, 레이더로는 탐지가 안된다니, 이게 대체 무슨 일이야!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -196,7 +196,7 @@ return {
 			dir = 1,
 			actor = 102050,
 			nameColor = "#a9f548",
-			say = "“海雾”本身也许就是塞壬的陷阱，通过某种手段干扰了雷达系统…",
+			say = "“해무” 자체가 아마 세이렌의 함정일거야. 무슨 수단을 써서 레이더 시스템을 방해한거야...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			actor = 102050,
 			nameColor = "#a9f548",
-			say = "而且它们好像可以透过海雾掌握到我们的动向…这样下去会变成单方面挨打的",
+			say = "게다가 해무를 통해 우리의 동향을 파악할 수 있는 것 같아... 계속 이러다간 일방적으로 당할거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			say = "在收到气象部门有海雾正在蔓延的情报的时候，就在想有没有可能是塞壬的袭击…",
+			say = "기상청에서 해무가 점점 퍼지고 있다는 소식을 들었을 때, 세이렌의 습격이 아닌가하고 생각했었는데...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看来猜中了开头，没猜中展开啊…",
+			say = "설마 진짜였을 줄이야...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抱歉…这次直接驶入海雾是我大意了。没想到塞壬可以在镜面海域之外引起这么大规模的气象变化",
+			say = "미안... 이번에 해무로 곧바로 들어온 것은 나의 부주의다. 세이렌이 거울 해역 밖에서도 이렇게 대규모로 기상 변화를 가져올 수 있을줄 몰랐어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			say = "完全被摆了一道呢…接下来怎么办…？",
+			say = "완전히 당했어... 이제 어떻게 하지...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "bg_battle_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那还用说？打得过就打，打不过就撤呗~我们应该只是在换防途中恰好撞上塞壬进攻要塞的主力部队了",
+			say = "어쩌긴, 이길 수 있으면 싸우고, 질 것 같으면 철수해야지~ 우린 방어 교대 도중에 마침 딱 세이렌의 요새 공격 주력 함대를 맞닥뜨린 것 뿐야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			say = "正确的判断~在塞壬主场里白白牺牲可谈不上什么高明的选择",
+			say = "정확한 판단이야~ 세이렌의 홈 그라운드에서 헛되이 희생하는 것은 좋은 선택이라고 할 수 없지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			say = "海伦娜，拜托你向巴拿马要塞发出警报，让要塞准备迎接伴随海雾而来的袭击",
+			say = "헬레나, 파나마 요새를 향해 경보를 발송해줘. 요새에서 해무를 따라오는 습격을 맞이할 준비하도록.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			actor = 102050,
 			nameColor = "#a9f548",
-			say = "刚刚已经…发送完毕了！海雾好像没有干扰我们的通讯系统",
+			say = "방금 이미... 발송했어! 해무가 통신 시스템을 방해하는 것 같진 않네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			blackBg = true,
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "好样的！大家相互掩护继续向要塞前进，和驻防舰队汇合之后依托防御体系收拾它们吧！",
+			say = "좋아! 모두들 서로 엄호하며 요새를 향해 계속 전진! 주둔 함대와 합류한 후에 방어 시스템으로 세이렌을 무찌르자고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
