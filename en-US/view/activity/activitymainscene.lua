@@ -466,6 +466,14 @@ slot1 = {
 	[ActivityConst.SARATOGA_SKIN] = {
 		className = "SaratogaSkinPage",
 		uiName = "saratogaskinpage"
+	},
+	[ActivityConst.AMERICAN_MAIN] = {
+		className = "AmericanMainPage",
+		uiName = "AmericanMainPage"
+	},
+	[ActivityConst.AMERICAN_PT] = {
+		className = "AmericanPtPage",
+		uiName = "AmericanPtPage"
 	}
 }
 slot2 = {

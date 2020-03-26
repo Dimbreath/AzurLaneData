@@ -285,6 +285,16 @@ pg.player_resource = {
 		name = "xunliandianshu_v3",
 		itemid = 59154
 	},
+	[149] = {
+		id = 149,
+		name = "meixiv3_pt",
+		itemid = 59155
+	},
+	[150] = {
+		id = 150,
+		name = "skinTicket4",
+		itemid = 59156
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -341,6 +351,12 @@ pg.player_resource = {
 		},
 		yisegefuke_pt1 = {
 			950
+		},
+		skinTicket4 = {
+			150
+		},
+		meixiv3_pt = {
+			149
 		},
 		xunliandianshu_v3 = {
 			148
@@ -572,6 +588,8 @@ pg.player_resource = {
 		146,
 		147,
 		148,
+		149,
+		150,
 		950,
 		1001,
 		2001,

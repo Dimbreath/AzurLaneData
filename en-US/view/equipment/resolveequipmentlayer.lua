@@ -72,10 +72,6 @@ function slot0.didEnter(slot0)
 	end, SFX_CANCEL)
 	onButton(slot0, findTF(slot0.destroyConfirm, "actions/destroy_button"), function ()
 		slot0:emit(ResolveEquipmentMediator.ON_RESOLVE, slot0.selectedIds)
-		setActive(slot0.destroyConfirm, false)
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.destroyConfirm, slot0._tf)
-		setActive(slot0.mainPanel, false)
-		setActive:unselecteAllEquips()
 	end, SFX_UI_EQUIPMENT_RESOLVE)
 	onToggle(slot0, slot0.selecteAllTF, function (slot0)
 		if slot0.isManual then
@@ -88,6 +84,13 @@ function slot0.didEnter(slot0)
 			slot0:unselecteAllEquips()
 		end
 	end, SFX_PANEL)
+end
+
+function slot0.OnResolveEquipDone(slot0)
+	setActive(slot0.destroyConfirm, false)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0.destroyConfirm, slot0._tf)
+	setActive(slot0.mainPanel, false)
+	slot0:unselecteAllEquips()
 end
 
 function slot0.onBackPressed(slot0)

@@ -725,6 +725,351 @@ pg.ship_skin_words_extra = {
 			}
 		}
 	},
+	[106550] = {
+		feeling3 = "",
+		upgrade = "",
+		id = 106550,
+		expedition = "",
+		win_mvp = "",
+		mission = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"This is Casablanca. Proceeding to aid the Commander. Hehe~ Let's give it our all today."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back, Commander. I returned the movie we finished the other day. Hehe~ It's okay if you forget; I always remember it."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"If the Commander wants a victory... then I won't allow defeat!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"A bar located in a town on the border between the desert and the sea; the nostalgic Iris Libre countryside; memories passing by as the time flows. A beautiful scene, wouldn't you agree, Commander?"
+			}
+		},
+		main = {
+			{
+				1100,
+				"Commander, have you made sure that our supply lines are secure?|Commander, what do you say we spectate Bogue's next baseball game?|\"The Port's Carrier Weekly\"? It's featuring one of my sister ships? Th-that's a little embarrassing for me..."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Commander, your tie is loose. Hehe~ This time, I noticed it before you did."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"C-Commander... Things of this nature are inappropriate here. We should relocate to somewhere else, like... Ahh, I can't believe what I'm saying!"
+			}
+		}
+	},
+	[103240] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		id = 103240,
+		expedition = "",
+		win_mvp = "",
+		mission = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Mornin', Commander. Let's see what's new on Juustagram... Wait, no. First, it's time to hear your orders!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"*sigh*... I always ask myself if you have to go into battle every time I see you leave, but at the same time, I wish I could be styling with you on the battlefield... Guess my feelings are pretty mixed on this."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Oh, you here to help out with my counseling corner, Commander? Sorry, but you can't. I appreciate the thought, but girly problems require girly solutions."
+			}
+		},
+		main = {
+			{
+				1100,
+				"Here ya go! A drink, a small packed lunch, and some snacks from a bunch of peeps. Might be a bit much all in all, but think of it as proof of how much people love you!|nil|I see Baltimore's out there being a hero, like always... She should take a break sometime to focus more on fashion and other stuff girls do."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Hohoh! You like that, huh~ You wanted to feel it for youself, am I right?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Commander, you wanna go hang after we're done with work? Where? You decide♪ Hehehe~ Don't let me down now. Pick a good place and take me there~"
+			}
+		}
+	},
+	[102270] = {
+		feeling3 = "",
+		upgrade = "",
+		id = 102270,
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mission = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Your horoscope for today promises... mega good luck!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Commander, you've *gotta* read this great book... It's on administration and philosophy, what about it?"
+			}
+		},
+		main = {
+			{
+				1100,
+				"Yo, Commander, the port's 7 mysteries are some seriously interesting stuff. Let's go check one out the next time you're off duty~|Maybe I'm a bit garish, but don't underestimate my smarts! Lemme see what part you're stuck on~|nil"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Come a little closer, Commander. I'mma take a picture of you~"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Smokin' bod I've got, am I right? Heehee!"
+			}
+		}
+	},
+	[107110] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		id = 107110,
+		expedition = "",
+		win_mvp = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		profile = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Commander, who do you plan on sortieing today? Why don't I offer you some suggestions?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Good work out there, Commander! ...Oww, sorry, I bumped into my own rigging... After all, I always get stoked when I see you! Ahaha..."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"♪~"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"No matter how strong the enemy, I have absolute confidence that you will be able to draw out my full power! Come on, add me to the next sortie roster!"
+			}
+		},
+		main = {
+			{
+				1100,
+				"If you ever fall into the ocean, I'll come to save you, Commander. Just send me your general location, and I'll find you as quick as Mercury and Gemini in the night sky.|Essex is always working hard, but she seems obsessed with how people commend Enterprise's achievements... What do you think of others' assessments, Commander?|Aaahh... I need to stretch... Hey, Commander, is there anything over there that looks like it could get in the way?"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Having trouble with your missions? Well, let's work on 'em together!"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Mission accomplished! See, two heads are better than one!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"I-I won't give in, no matter how many times you attack!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Gotcha, Commander! Heheh, even if these hands will never be able to hold the stars in the sky, at least I can have you~ Just kidding. In any case, wanna go watch a movie? Naturally, we'll be holding hands, hehe~"
+			}
+		}
+	},
+	[207020] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		id = 207020,
+		expedition = "",
+		home = "",
+		mission = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"Commander, I am ready to act. I mean ready to fight, of course! Let us show the enemy the might of a Royal Navy aircraft carrier!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"It is thanks to the Commander's guidance that I reach my full potential and seize victory!"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Fulmar squadron, Swordfish squadron, prepare to launch!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Commander, I'll take care of the destroyers... Err, WE'LL take care of the destroyers! As long as we're around, no one can do them harm!"
+			}
+		},
+		main = {
+			{
+				1100,
+				"What am I thinking? Oh, just about you, and the fleet.|You want to call the destroyer girls here to your office, do you...? Commander, this is a task you must entrust to me, Ark Royal!|The outfit Glorious, Acasta, and Ardent recommended... should go like this. One must be more careful next time.|That little submarine is missing again. Heavens, she's always stealing away into other people's rooms to play hide and seek..."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Commander! N-not here...!"
+			}
+		}
+	},
+	[105030] = {
+		feeling3 = "",
+		upgrade = "",
+		id = 105030,
+		expedition = "",
+		win_mvp = "",
+		mission = "",
+		feeling1 = "",
+		unlock = "",
+		feeling4 = "",
+		mail = "",
+		lose = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Commander, if there's anything I can help with, just say the word."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Cheers! I'll save the champagne until our next magnificent victory."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Have you been getting enough food, Commander? What? Am I not allowed to be concerned for you? How rude of you."
+			}
+		},
+		main = {
+			{
+				1100,
+				"There, you deserve a patting. Heheh... Feeling better? You're not a puppy; that's all you're getting for now.|Arizona, I was thinking we could have lunch later. You'll come along, won't you?|Hey...! Downes! Don't throw stuff at me, even if I can catch it in time! I know you won't listen to me, but still..."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"What can Sister Penn do for you?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Hey...! Why so restless all of a sudden?"
+			}
+		}
+	},
 	all = {
 		999010,
 		108030,
@@ -738,7 +1083,13 @@ pg.ship_skin_words_extra = {
 		705010,
 		702030,
 		702020,
-		705050
+		705050,
+		106550,
+		103240,
+		102270,
+		107110,
+		207020,
+		105030
 	}
 }
 

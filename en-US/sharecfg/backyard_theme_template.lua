@@ -2033,6 +2033,52 @@ pg.backyard_theme_template = {
 			60305
 		}
 	},
+	[61] = {
+		Cfg_1 = 5,
+		name = "Manjuu Sports Meet",
+		desc = "Running! Jumping! Ballgames of all kinds! There's something for everyone here.",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		id = 61,
+		icon = "ydthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			61001,
+			61002,
+			61101,
+			61102,
+			61103,
+			61104,
+			61105,
+			61106,
+			61107,
+			61108,
+			61109,
+			61110,
+			61111,
+			61112,
+			61113,
+			61114,
+			61115,
+			61116,
+			61117,
+			61118,
+			61119,
+			61120,
+			61121,
+			61123,
+			61124,
+			61126,
+			61301,
+			61302,
+			61303
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2076,7 +2122,8 @@ pg.backyard_theme_template = {
 		57,
 		58,
 		59,
-		60
+		60,
+		61
 	}
 }
 

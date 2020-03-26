@@ -138,6 +138,15 @@ pg.strategy_data_template = {
 		desc = "Due to a highly reactive Wisdom Cube, the entire fleet's DMG increases by 20%, but their DMG taken also increases by 20%.",
 		arg = {}
 	},
+	[9502] = {
+		buff_id = 9502,
+		name = "Heavy Mist",
+		type = 10,
+		id = 9502,
+		icon = "9502",
+		desc = "An ominous mist surrounds the battlefield. The Accuracy of all your ships is decreased by 5%.",
+		arg = {}
+	},
 	[10001] = {
 		buff_id = 200,
 		name = "Adequate Ammo",
@@ -226,6 +235,7 @@ pg.strategy_data_template = {
 		93,
 		8650,
 		9500,
+		9502,
 		10001,
 		10002,
 		10011,

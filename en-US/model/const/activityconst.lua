@@ -212,6 +212,8 @@ slot0.NEW_JAPANESE_PT = 30302
 slot0.MUTSUKI_NEWYEAR_SKIN_ID = 30310
 slot0.ACTIVITY_BOSS_SPF_PT = 30313
 slot0.ACTIVITY_478 = 30314
+slot0.AMERICAN_MAIN = 30370
+slot0.AMERICAN_PT = 30374
 slot0.SOFMAP_PT_PAGE = 30357
 slot0.LINDONG_REMAKE_KR = 0
 slot0.TWHALLOWEENSKIN = 0
@@ -289,8 +291,8 @@ slot0.LIMIT_SKIN_SHOP_TIME = {
 	{
 		{
 			2020,
-			2,
-			27
+			3,
+			26
 		},
 		{
 			0,
@@ -301,8 +303,8 @@ slot0.LIMIT_SKIN_SHOP_TIME = {
 	{
 		{
 			2020,
-			3,
-			11
+			4,
+			8
 		},
 		{
 			23,

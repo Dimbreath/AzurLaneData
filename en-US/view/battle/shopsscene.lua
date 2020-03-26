@@ -140,6 +140,16 @@ function slot1(slot0)
 
 	slot2 = slot0
 	slot1 = slot0.findTF
+	slot3 = "frame/bottom/left_arr"
+	slot1 = slot1(slot2, slot3)
+	slot0.leftArr = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
+	slot3 = "frame/bottom/right_arr"
+	slot1 = slot1(slot2, slot3)
+	slot0.rightArr = slot1
+	slot2 = slot0
+	slot1 = slot0.findTF
 	slot3 = "frame"
 	slot1 = slot1(slot2, slot3)
 	slot0.frame = slot1
@@ -538,54 +548,48 @@ function slot1(slot0)
 
 			function slot13(slot0)
 				if slot0 then
-					slot1 = print
-					slot2 = slot0
-					slot2 = slot2.activityId
-
-					slot1(slot2)
-
-					slot1 = slot1
+					slot1 = slot0
 					slot2 = slot1
 					slot1 = slot1.clearShipWord
 
 					slot1(slot2)
 
-					slot1 = slot1
+					slot1 = slot0
 					slot1 = slot1.activityShops
-					slot2 = slot0
+					slot2 = slot1
 					slot2 = slot2.activityId
 					slot1 = slot1[slot2]
-					slot2 = slot1
+					slot2 = slot0
 					slot3 = slot2
 					slot2 = slot2.PlayActivityShopEnterVoice
 					slot4 = slot1
 
 					slot2(slot3, slot4)
 
-					slot2 = slot1
+					slot2 = slot0
 					slot3 = slot2
 					slot3 = slot3.TYPE_ACTIVITY
 					slot2.curPage = slot3
-					slot2 = slot1
+					slot2 = slot0
 					slot3 = slot2
 					slot2 = slot2.intActivityShop
-					slot4 = slot0
+					slot4 = slot1
 					slot4 = slot4.activityId
 
 					slot2(slot3, slot4)
 
-					slot2 = slot1
+					slot2 = slot0
 					slot3 = slot2
 					slot2 = slot2.updatePainting
 					slot4 = slot2
 					slot4 = slot4.TYPE_ACTIVITY
-					slot5 = slot0
+					slot5 = slot1
 					slot5 = slot5.activityId
 
 					slot2(slot3, slot4, slot5)
 				else
 					slot1 = setActive
-					slot2 = slot1
+					slot2 = slot0
 					slot2 = slot2.biliBg
 					slot3 = false
 
@@ -1383,9 +1387,94 @@ function slot1(slot0)
 	slot6 = slot0.blurView
 
 	slot6(slot7)
+
+	slot7 = slot0
+	slot6 = slot0.AddDragEvent
+
+	slot6(slot7)
 end
 
 slot0.didEnter = slot1
+
+function slot1(slot0)
+	slot1 = slot0.bottomPanel
+	slot2 = slot1
+	slot1 = slot1.Find
+	slot3 = "scrollrect"
+	slot1 = slot1(slot2, slot3)
+	slot3 = slot1
+	slot2 = slot1.Find
+	slot4 = "toggle_list"
+	slot2 = slot2(slot3, slot4)
+	slot3 = 0
+	slot4 = 1
+	slot5 = slot2.childCount
+	slot6 = 1
+
+	for slot7 = slot4, slot5, slot6 do
+		slot8 = isActive
+		slot10 = slot2
+		slot9 = slot2.GetChild
+		slot11 = slot7 - 1
+		slot8 = slot8(slot9(slot10, slot11))
+
+		if slot8 then
+			slot3 = slot3 + 1
+		end
+	end
+
+	slot4 = 5
+
+	if slot3 > slot4 then
+		slot4 = -1
+		slot0.prevPos = slot4
+		slot4 = onScroll
+		slot5 = slot0
+		slot6 = slot1
+
+		function slot7(slot0)
+			slot1 = math
+			slot1 = slot1.abs
+			slot2 = slot0
+			slot2 = slot2.prevPos
+			slot3 = slot0.x
+			slot2 = slot2 - slot3
+			slot1 = slot1(slot2)
+			slot2 = 0.1
+
+			if slot1 > slot2 then
+				slot0.prevPos = slot0.x
+
+				setActive(slot0.rightArr, slot0.x >= 0.9)
+				setActive(slot0.leftArr, slot0.x <= 0.1)
+			end
+		end
+
+		slot4(slot5, slot6, slot7)
+	end
+
+	slot1:GetComponent(typeof(ScrollRect)).enabled = slot3 > 5
+	slot4 = scrollTo
+	slot5 = slot1
+	slot6 = 1
+	slot7 = 0
+
+	slot4(slot5, slot6, slot7)
+
+	slot4 = setActive
+	slot5 = slot1
+	slot6 = false
+
+	slot4(slot5, slot6)
+
+	slot4 = setActive
+	slot5 = slot1
+	slot6 = true
+
+	slot4(slot5, slot6)
+end
+
+slot0.AddDragEvent = slot1
 
 function slot1(slot0, slot1, slot2)
 	slot3 = slot0.patingName

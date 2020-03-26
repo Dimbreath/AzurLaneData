@@ -13,19 +13,25 @@ end
 
 function slot0.listNotificationInterests(slot0)
 	return {
-		GAME.DESTROY_EQUIPMENTS_DONE
+		GAME.DESTROY_EQUIPMENTS_DONE,
+		GAME.CANCEL_LIMITED_OPERATION
 	}
 end
 
 function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
-	if slot1:getName() == GAME.DESTROY_EQUIPMENTS_DONE and table.getCount(slot3) ~= 0 then
-		slot0.viewComponent:emit(BaseUI.ON_AWARD, {
-			items = slot3
-		}, AwardInfoLayer.TITLE.ITEM, function ()
-			slot0.viewComponent:emit(BaseUI.ON_CLOSE)
-		end)
+	if slot1:getName() == GAME.DESTROY_EQUIPMENTS_DONE then
+		slot0.viewComponent:OnResolveEquipDone()
+
+		if table.getCount(slot3) ~= 0 then
+			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
+				items = slot3
+			}, AwardInfoLayer.TITLE.ITEM, function ()
+				slot0.viewComponent:emit(BaseUI.ON_CLOSE)
+			end)
+		end
+	elseif slot2 == GAME.CANCEL_LIMITED_OPERATION then
 	end
 end
 

@@ -3447,6 +3447,121 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[700] = {
+		name = "Type 98 Delayed Firing Device ",
+		type = 10,
+		id = 700,
+		tech = 0,
+		nationality = 3,
+		speciality = "N/A",
+		range = 0,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "700",
+		value_1 = "12",
+		angle = 0,
+		avoid_extra = 0,
+		rarity = 4,
+		scatter = "N/A",
+		is_siren = 0,
+		ammo = "N/A",
+		descrip = "This device delays the firing of all main guns by a miniscule amount, reducing the effect that the shockwave has on the gun's accuracy and decreasing its spread. ",
+		value_3 = 0,
+		attribute_1 = "cannon",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6360
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[701] = {
+		id = 701,
+		base = 700,
+		is_siren = 0,
+		value_1 = "14",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[702] = {
+		id = 702,
+		base = 700,
+		is_siren = 0,
+		value_1 = "16",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[703] = {
+		id = 703,
+		base = 700,
+		is_siren = 0,
+		value_1 = "18",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[704] = {
+		id = 704,
+		base = 700,
+		is_siren = 0,
+		value_1 = "20",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[705] = {
+		id = 705,
+		base = 700,
+		is_siren = 0,
+		value_1 = "22",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[706] = {
+		id = 706,
+		base = 700,
+		is_siren = 0,
+		value_1 = "24",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[707] = {
+		id = 707,
+		base = 700,
+		is_siren = 0,
+		value_1 = "26",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[708] = {
+		id = 708,
+		base = 700,
+		is_siren = 0,
+		value_1 = "28",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[709] = {
+		id = 709,
+		base = 700,
+		is_siren = 0,
+		value_1 = "30",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[710] = {
+		id = 710,
+		base = 700,
+		is_siren = 0,
+		value_1 = "32",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[720] = {
 		name = "Certificate of Sponsorship",
 		type = 10,
@@ -6988,6 +7103,130 @@ pg.equip_data_statistics = {
 		base = 1940,
 		value_2 = 44,
 		value_1 = "17",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1960] = {
+		name = "Marinière Camouflage ",
+		type = 10,
+		id = 1960,
+		tech = 0,
+		speciality = "N/A",
+		range = 0,
+		scatter = "N/A",
+		ambush_extra = 0,
+		value_2 = 35,
+		icon = "1960",
+		value_1 = "8",
+		attribute_2 = "durability",
+		avoid_extra = 0,
+		rarity = 4,
+		angle = 0,
+		nationality = 7,
+		ammo = "N/A",
+		is_siren = 0,
+		descrip = "Stripe pattern camouflage that increases a ship's evasiveness. ",
+		value_3 = 0,
+		attribute_1 = "dodge",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[1961] = {
+		is_siren = 0,
+		id = 1961,
+		base = 1960,
+		value_2 = 40,
+		value_1 = "9",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1962] = {
+		is_siren = 0,
+		id = 1962,
+		base = 1960,
+		value_2 = 45,
+		value_1 = "10",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1963] = {
+		is_siren = 0,
+		id = 1963,
+		base = 1960,
+		value_2 = 50,
+		value_1 = "11",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1964] = {
+		is_siren = 0,
+		id = 1964,
+		base = 1960,
+		value_2 = 55,
+		value_1 = "12",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1965] = {
+		is_siren = 0,
+		id = 1965,
+		base = 1960,
+		value_2 = 60,
+		value_1 = "13",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1966] = {
+		is_siren = 0,
+		id = 1966,
+		base = 1960,
+		value_2 = 65,
+		value_1 = "14",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1967] = {
+		is_siren = 0,
+		id = 1967,
+		base = 1960,
+		value_2 = 70,
+		value_1 = "15",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1968] = {
+		is_siren = 0,
+		id = 1968,
+		base = 1960,
+		value_2 = 80,
+		value_1 = "16",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1969] = {
+		is_siren = 0,
+		id = 1969,
+		base = 1960,
+		value_2 = 90,
+		value_1 = "17",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[1970] = {
+		is_siren = 0,
+		id = 1970,
+		base = 1960,
+		value_2 = 100,
+		value_1 = "18",
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
@@ -10574,6 +10813,123 @@ pg.equip_data_statistics = {
 		value_1 = "520",
 		torpedo_ammo = 0,
 		equip_parameters = {},
+		property_rate = {}
+	},
+	[3300] = {
+		name = "Seal of the Four Gods ",
+		type = 10,
+		id = 3300,
+		tech = 0,
+		nationality = 5,
+		speciality = "N/A",
+		range = 0,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "3300",
+		value_1 = "250",
+		angle = 0,
+		avoid_extra = 0,
+		rarity = 5,
+		scatter = "N/A",
+		is_siren = 0,
+		ammo = "N/A",
+		descrip = "A Dragon Empery amulet with the seals of four divine beasts inscribed onto it. It hides a mysterious power. ",
+		value_3 = 0,
+		attribute_1 = "durability",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6480
+		},
+		part_main = {
+			1
+		},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[3301] = {
+		id = 3301,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "280",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3302] = {
+		id = 3302,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "310",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3303] = {
+		id = 3303,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "340",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3304] = {
+		id = 3304,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "370",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3305] = {
+		id = 3305,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "400",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3306] = {
+		id = 3306,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "430",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3307] = {
+		id = 3307,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "460",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3308] = {
+		id = 3308,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "490",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3309] = {
+		id = 3309,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "520",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[3310] = {
+		id = 3310,
+		base = 3300,
+		is_siren = 0,
+		value_1 = "550",
+		torpedo_ammo = 0,
 		property_rate = {}
 	},
 	[4000] = {
@@ -20400,6 +20756,146 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[15500] = {
+		name = "PBY-5A Catalina ",
+		type = 10,
+		id = 15500,
+		tech = 0,
+		speciality = "N/A",
+		range = 0,
+		scatter = "N/A",
+		ambush_extra = 1000,
+		value_2 = 10,
+		icon = "15500",
+		value_1 = "14",
+		attribute_2 = "antisub",
+		avoid_extra = 1000,
+		rarity = 4,
+		angle = 0,
+		nationality = 1,
+		ammo = "N/A",
+		is_siren = 0,
+		descrip = "A flying boat that is often used during anti-submarine patrols and air-sea rescues. It might do something special in the hands of a certain ship. ",
+		value_3 = 0,
+		attribute_1 = "hit",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6530
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {
+			avoid_extra = 1000,
+			ambush_extra = 1000
+		},
+		label = {
+			"USS",
+			"DEV"
+		}
+	},
+	[15501] = {
+		value_2 = 12,
+		value_1 = "16",
+		base = 15500,
+		is_siren = 0,
+		id = 15501,
+		torpedo_ammo = 0,
+		weapon_id = {},
+		property_rate = {}
+	},
+	[15502] = {
+		value_2 = 14,
+		value_1 = "18",
+		base = 15500,
+		is_siren = 0,
+		id = 15502,
+		torpedo_ammo = 0,
+		weapon_id = {},
+		property_rate = {}
+	},
+	[15503] = {
+		value_2 = 16,
+		value_1 = "20",
+		base = 15500,
+		is_siren = 0,
+		id = 15503,
+		torpedo_ammo = 0,
+		weapon_id = {},
+		property_rate = {}
+	},
+	[15504] = {
+		value_2 = 18,
+		value_1 = "22",
+		base = 15500,
+		is_siren = 0,
+		id = 15504,
+		torpedo_ammo = 0,
+		weapon_id = {},
+		property_rate = {}
+	},
+	[15505] = {
+		value_2 = 20,
+		value_1 = "24",
+		base = 15500,
+		is_siren = 0,
+		id = 15505,
+		torpedo_ammo = 0,
+		weapon_id = {},
+		property_rate = {}
+	},
+	[15506] = {
+		value_2 = 22,
+		value_1 = "26",
+		base = 15500,
+		is_siren = 0,
+		id = 15506,
+		torpedo_ammo = 0,
+		weapon_id = {},
+		property_rate = {}
+	},
+	[15507] = {
+		value_2 = 24,
+		value_1 = "28",
+		base = 15500,
+		is_siren = 0,
+		id = 15507,
+		torpedo_ammo = 0,
+		weapon_id = {},
+		property_rate = {}
+	},
+	[15508] = {
+		value_2 = 26,
+		value_1 = "30",
+		base = 15500,
+		is_siren = 0,
+		id = 15508,
+		torpedo_ammo = 0,
+		weapon_id = {},
+		property_rate = {}
+	},
+	[15509] = {
+		value_2 = 28,
+		value_1 = "32",
+		base = 15500,
+		is_siren = 0,
+		id = 15509,
+		torpedo_ammo = 0,
+		weapon_id = {},
+		property_rate = {}
+	},
+	[15510] = {
+		value_2 = 30,
+		value_1 = "35",
+		base = 15500,
+		is_siren = 0,
+		id = 15510,
+		torpedo_ammo = 0,
+		weapon_id = {},
+		property_rate = {}
+	},
 	[16000] = {
 		name = "20mm AA Oerlikon",
 		type = 6,
@@ -22275,7 +22771,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[17060] = {
-		name = "F2A水牛(萨奇队)",
+		name = "Brewster F2A Buffalo (Thach Squadron) ",
 		type = 7,
 		id = 17060,
 		tech = 0,
@@ -22293,7 +22789,7 @@ pg.equip_data_statistics = {
 		nationality = 1,
 		ammo = "Normal",
 		is_siren = 0,
-		descrip = "“萨奇剪”战术发明者约翰·史密斯·萨奇的座驾",
+		descrip = "A fighter squadron that utilizes the Thach Weave tactic, developed by John Smith Thach. ",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -24622,6 +25118,156 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		weapon_id = {
 			18150
+		},
+		property_rate = {}
+	},
+	[18180] = {
+		name = "TBM Avenger (VT-18 Squadron) ",
+		type = 8,
+		id = 18180,
+		tech = 0,
+		speciality = "Torpedo",
+		range = 90,
+		scatter = "N/A",
+		ambush_extra = 0,
+		value_2 = 45,
+		icon = "18180",
+		value_1 = "127 x 3",
+		attribute_2 = "air",
+		avoid_extra = 0,
+		rarity = 5,
+		angle = 90,
+		nationality = 1,
+		ammo = "Normal",
+		is_siren = 0,
+		descrip = "A squadron that saw service together with the aircraft carrier Intrepid. ",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			18180
+		},
+		skill_id = {
+			6540
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
+	},
+	[18181] = {
+		value_1 = "148 x 3",
+		id = 18181,
+		base = 18180,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			18181
+		},
+		property_rate = {}
+	},
+	[18182] = {
+		value_1 = "169 x 3",
+		id = 18182,
+		base = 18180,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			18182
+		},
+		property_rate = {}
+	},
+	[18183] = {
+		value_1 = "190 x 3",
+		id = 18183,
+		base = 18180,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			18183
+		},
+		property_rate = {}
+	},
+	[18184] = {
+		value_1 = "211 x 3",
+		id = 18184,
+		base = 18180,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			18184
+		},
+		property_rate = {}
+	},
+	[18185] = {
+		value_1 = "232 x 3",
+		id = 18185,
+		base = 18180,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			18185
+		},
+		property_rate = {}
+	},
+	[18186] = {
+		value_1 = "253 x 3",
+		id = 18186,
+		base = 18180,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			18186
+		},
+		property_rate = {}
+	},
+	[18187] = {
+		value_1 = "274 x 3",
+		id = 18187,
+		base = 18180,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			18187
+		},
+		property_rate = {}
+	},
+	[18188] = {
+		value_1 = "295 x 3",
+		id = 18188,
+		base = 18180,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			18188
+		},
+		property_rate = {}
+	},
+	[18189] = {
+		value_1 = "316 x 3",
+		id = 18189,
+		base = 18180,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			18189
+		},
+		property_rate = {}
+	},
+	[18190] = {
+		value_1 = "337 x 3",
+		id = 18190,
+		base = 18180,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			18190
 		},
 		property_rate = {}
 	},
@@ -34266,7 +34912,7 @@ pg.equip_data_statistics = {
 		nationality = 2,
 		ammo = "Normal",
 		is_siren = 0,
-		descrip = "No description",
+		descrip = "A Royal Navy plane that was equipped with a reciprocating engine. It was renowned for its dogfighting ability. ",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -35298,7 +35944,7 @@ pg.equip_data_statistics = {
 		nationality = 2,
 		ammo = "Normal",
 		is_siren = 0,
-		descrip = "No description",
+		descrip = "Originally designed as a pure fighter, this aircraft was given further torpedo bombing potential and redesigned into a strike fighter. ",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -36340,7 +36986,7 @@ pg.equip_data_statistics = {
 		nationality = 2,
 		ammo = "Normal",
 		is_siren = 0,
-		descrip = "No description",
+		descrip = "This aircraft was developed as a successor to the Fairey Fulmar. There are many variants on the Firefly design; this is the basic model that features four 20mm cannons and two 1,000-pound bombs. ",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -36470,11 +37116,11 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[29300] = {
-		name = "梭鱼(831中队)",
+		name = "Fairey Barracuda (831 Squadron) ",
 		type = 9,
 		id = 29300,
 		tech = 0,
-		speciality = "轰炸",
+		speciality = "Bomber",
 		range = 90,
 		scatter = "8",
 		ambush_extra = 0,
@@ -36488,7 +37134,7 @@ pg.equip_data_statistics = {
 		nationality = 2,
 		ammo = "Normal",
 		is_siren = 0,
-		descrip = "钨作战中轰炸提尔比茨的梭鱼831中队，搭载730kg穿甲航弹",
+		descrip = "Aircraft from the 831 Naval Air Squadron, equipped with 1,600-pound armor-piercing bombs which were dropped on Tirpitz during Operation Tungsten. ",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -59534,6 +60180,60 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[60491] = {
+		name = "航空攻击展示-卡萨布兰卡I",
+		type = 99,
+		nationality = 0,
+		speciality = "N/A",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		ammo = "N/A",
+		descrip = "航母空袭展示用",
+		value_3 = 0,
+		id = 60491,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			60491
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60492] = {
+		id = 60492,
+		name = "航空攻击展示-卡萨布兰卡II",
+		base = 60491,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			60492
+		},
+		property_rate = {}
+	},
+	[60493] = {
+		id = 60493,
+		name = "航空攻击展示-卡萨布兰卡III",
+		base = 60491,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			60493
+		},
+		property_rate = {}
+	},
 	[61007] = {
 		name = "0",
 		type = 1,
@@ -60324,6 +61024,49 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		weapon_id = {
 			70072
+		},
+		property_rate = {}
+	},
+	[70081] = {
+		name = "全弹发射-艾伦·萨姆那级I",
+		type = 1,
+		nationality = 0,
+		speciality = "N/A",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		ammo = "N/A",
+		descrip = "Barrage",
+		value_3 = 0,
+		id = 70081,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			70081
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[70082] = {
+		id = 70082,
+		name = "全弹发射-艾伦·萨姆那级II",
+		base = 70081,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			70082
 		},
 		property_rate = {}
 	},
@@ -66002,6 +66745,49 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		weapon_id = {
 			79512
+		},
+		property_rate = {}
+	},
+	[79521] = {
+		name = "专属弹幕-里诺I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		ammo = "无",
+		descrip = "技能弹幕",
+		value_3 = 0,
+		id = 79521,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			79521
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[79522] = {
+		id = 79522,
+		name = "专属弹幕-里诺II",
+		base = 79521,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			79522
 		},
 		property_rate = {}
 	},
@@ -74191,6 +74977,17 @@ pg.equip_data_statistics = {
 		688,
 		689,
 		690,
+		700,
+		701,
+		702,
+		703,
+		704,
+		705,
+		706,
+		707,
+		708,
+		709,
+		710,
 		720,
 		721,
 		722,
@@ -74488,6 +75285,17 @@ pg.equip_data_statistics = {
 		1944,
 		1945,
 		1946,
+		1960,
+		1961,
+		1962,
+		1963,
+		1964,
+		1965,
+		1966,
+		1967,
+		1968,
+		1969,
+		1970,
 		2000,
 		2001,
 		2002,
@@ -74792,6 +75600,17 @@ pg.equip_data_statistics = {
 		3228,
 		3229,
 		3230,
+		3300,
+		3301,
+		3302,
+		3303,
+		3304,
+		3305,
+		3306,
+		3307,
+		3308,
+		3309,
+		3310,
 		4000,
 		4001,
 		4002,
@@ -75435,6 +76254,17 @@ pg.equip_data_statistics = {
 		15148,
 		15149,
 		15150,
+		15500,
+		15501,
+		15502,
+		15503,
+		15504,
+		15505,
+		15506,
+		15507,
+		15508,
+		15509,
+		15510,
 		16000,
 		16001,
 		16002,
@@ -75714,6 +76544,17 @@ pg.equip_data_statistics = {
 		18148,
 		18149,
 		18150,
+		18180,
+		18181,
+		18182,
+		18183,
+		18184,
+		18185,
+		18186,
+		18187,
+		18188,
+		18189,
+		18190,
 		19000,
 		19001,
 		19002,
@@ -78024,6 +78865,9 @@ pg.equip_data_statistics = {
 		60471,
 		60472,
 		60473,
+		60491,
+		60492,
+		60493,
 		61007,
 		61008,
 		61009,
@@ -78056,6 +78900,8 @@ pg.equip_data_statistics = {
 		70062,
 		70071,
 		70072,
+		70081,
+		70082,
 		70111,
 		70112,
 		70121,
@@ -78320,6 +79166,8 @@ pg.equip_data_statistics = {
 		79502,
 		79511,
 		79512,
+		79521,
+		79522,
 		85000,
 		85001,
 		85002,

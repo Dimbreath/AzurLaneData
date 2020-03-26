@@ -1,6 +1,7 @@
 slot0 = class("SecondaryPasswordMediator", import("view.base.ContextMediator"))
 slot0.CONFIRM_PASSWORD = "SecondaryPasswordMediator:CONFIRM_PASSWORD"
 slot0.SET_PASSWORD = "SecondaryPasswordMediator:SET_PASSWORD"
+slot0.CANCEL_OPERATION = "SecondaryPasswordMediator:CANCEL_OPERATION"
 
 function slot0.register(slot0)
 	slot0:bind(slot0.CONFIRM_PASSWORD, function (slot0, slot1)
@@ -22,6 +23,9 @@ function slot0.register(slot0)
 			settings = slot1.contextData.settings
 		})
 	end)
+	slot0:bind(slot0.CANCEL_OPERATION, function ()
+		slot0:sendNotification(GAME.CANCEL_LIMITED_OPERATION)
+	end)
 end
 
 function slot0.listNotificationInterests(slot0)
@@ -39,6 +43,7 @@ function slot0.handleNotification(slot0, slot1)
 
 	if slot1:getName() == GAME.FETCH_PASSWORD_STATE_DONE then
 		if not slot4:GetPermissionState() then
+			slot0:sendNotification(GAME.CANCEL_LIMITED_OPERATION)
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				title = "warning",
 				mode = "showresttime",

@@ -290,7 +290,9 @@ ys.Battle.BattleAttr = {
 
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #2 23-27, warpins: 2 ---
+		--- BLOCK #2 23-31, warpins: 2 ---
+		slot3 = slot0.GetAttr(slot1)
+
 		--- END OF BLOCK #2 ---
 
 		FLOW; TARGET BLOCK #3
@@ -298,12 +300,12 @@ ys.Battle.BattleAttr = {
 
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #3 28-32, warpins: 0 ---
-		for slot6, slot7 in ipairs(slot0.AttrListInheritance) do
+		--- BLOCK #3 32-35, warpins: 0 ---
+		for slot7, slot8 in ipairs(slot0.AttrListInheritance) do
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 28-30, warpins: 1 ---
-			slot2[slot7] = slot1._attr[slot7]
+			--- BLOCK #0 32-33, warpins: 1 ---
+			slot2[slot8] = slot3[slot8]
 			--- END OF BLOCK #0 ---
 
 			FLOW; TARGET BLOCK #1
@@ -311,7 +313,7 @@ ys.Battle.BattleAttr = {
 
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #1 31-32, warpins: 2 ---
+			--- BLOCK #1 34-35, warpins: 2 ---
 			--- END OF BLOCK #1 ---
 
 
@@ -325,7 +327,51 @@ ys.Battle.BattleAttr = {
 
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #4 33-47, warpins: 1 ---
+		--- BLOCK #4 36-39, warpins: 1 ---
+		--- END OF BLOCK #4 ---
+
+		FLOW; TARGET BLOCK #5
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #5 40-51, warpins: 0 ---
+		for slot7, slot8 in pairs(slot3) do
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 40-47, warpins: 1 ---
+			if string.find(slot7, slot0.TAG_EHC_KEY) then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 48-49, warpins: 1 ---
+				slot2[key] = slot8
+				--- END OF BLOCK #0 ---
+
+
+
+			end
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 50-51, warpins: 3 ---
+			--- END OF BLOCK #1 ---
+
+
+
+		end
+
+		--- END OF BLOCK #5 ---
+
+		FLOW; TARGET BLOCK #6
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #6 52-66, warpins: 1 ---
 		slot2.armorType = 0
 		slot2.labelTag = setmetatable({}, {
 			__index = slot1._attr.labelTag
@@ -333,7 +379,7 @@ ys.Battle.BattleAttr = {
 		slot2.comboTag = "combo_" .. slot2.hostUID
 
 		return
-		--- END OF BLOCK #4 ---
+		--- END OF BLOCK #6 ---
 
 
 

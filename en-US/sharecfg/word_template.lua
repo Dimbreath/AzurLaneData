@@ -361,6 +361,21 @@ pg.word_template = {
 		h = {
 			i = {
 				n = {
+					g = {
+						[" "] = {
+							c = {
+								h = {
+									o = {
+										n = {
+											g = {
+												this = true
+											}
+										}
+									}
+								}
+							}
+						}
+					},
 					k = {
 						this = true,
 						s = {
