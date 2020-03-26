@@ -15,8 +15,7 @@ pg.ship_data_create_material = {
 			"<color=#ffde38>SSレア</color>：7%",
 			"<color=#d797ff>Sレア</color>：12%",
 			"<color=#3dc6ff>レア</color>：51%",
-			"ノーマル：30%",
-			"<color=#d797ff>龍驤</color>：1.4%(<color=#92fc63>up!</color>)"
+			"ノーマル：30%"
 		}
 	},
 	{
@@ -71,17 +70,15 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Sレア</color>：12%",
 			"<color=#3dc6ff>レア</color>：51%",
 			"ノーマル：30%",
-			"<color=#ffde38>ソビエツカヤ・ロシア</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>イントレピッド</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>タシュケント</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>リノ</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>アヴローラ</color>：1.5%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>ブレマートン</color>：0.5%",
 			" ",
-			"<color=#ffde38>チャパエフ</color>：0.5%",
+			"<color=#d797ff>クーパー</color>：2.5%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#d797ff>グロズヌイ</color>：2.5%(<color=#92fc63>up!</color>)",
-			" ",
-			"<color=#d797ff>パーミャチ・メルクーリヤ</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#3dc6ff>マーブルヘッド</color>：5.0%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

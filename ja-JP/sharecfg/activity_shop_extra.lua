@@ -1334,7 +1334,7 @@ pg.activity_shop_extra = {
 		commodity_id = 312014,
 		scene = "",
 		id = 47,
-		order = 3,
+		order = 9,
 		time = {
 			{
 				{
@@ -1370,7 +1370,7 @@ pg.activity_shop_extra = {
 		commodity_id = 401231,
 		scene = "",
 		id = 48,
-		order = 2,
+		order = 9,
 		time = {
 			{
 				{
@@ -1406,7 +1406,7 @@ pg.activity_shop_extra = {
 		commodity_id = 107032,
 		scene = "",
 		id = 49,
-		order = 2,
+		order = 9,
 		time = {
 			{
 				{

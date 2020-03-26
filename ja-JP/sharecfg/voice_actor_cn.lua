@@ -875,6 +875,30 @@ pg.voice_actor_CN = {
 	[224] = {
 		actor_name = "中村桜",
 		code = 224
+	},
+	[225] = {
+		actor_name = "ファイルーズあい",
+		code = 225
+	},
+	[226] = {
+		actor_name = "長谷川育美",
+		code = 226
+	},
+	[227] = {
+		actor_name = "首藤志奈",
+		code = 227
+	},
+	[228] = {
+		actor_name = "原優子",
+		code = 228
+	},
+	[229] = {
+		actor_name = "岡咲美保",
+		code = 229
+	},
+	[230] = {
+		actor_name = "武田羅梨沙多胡",
+		code = 230
 	}
 }
 

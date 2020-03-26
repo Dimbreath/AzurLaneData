@@ -3031,6 +3031,56 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[170] = {
+		advice = 0,
+		describe = "",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "愚人盒",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "yurenheicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 170,
+		picture = "",
+		comfortable = 5,
+		tag = 6,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yurenhe",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[171] = {
 		advice = 0,
 		describe = "ソフマップへようこそ！ピョ",
@@ -3078,6 +3128,42 @@ pg.furniture_data_template = {
 					}
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[173] = {
+		advice = 0,
+		describe = "大洋をつなぐ運河に位置する要塞のミニチュア。再現度の高さが広く評価されている――「闇靄払う銀翼」に参加した指揮官に贈る",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "運河記念",
+		is_get_time_note = 1,
+		rarity = 5,
+		gain_by = "闇靄払う銀翼",
+		themeId = 0,
+		icon = "usver3xunzhangicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 173,
+		picture = "chuanmo/usver3xunzhang",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
 		},
 		interAction_group = {}
 	},
@@ -3943,6 +4029,87 @@ pg.furniture_data_template = {
 		animator = {
 			{
 				"bianhuaxiangCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[100013] = {
+		advice = 0,
+		describe = "豆の木が育つ…どこまでもなぁ……",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "饅頭と豆の木",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "modouicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 100013,
+		picture = "",
+		comfortable = 5,
+		tag = 6,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"modouB",
+				"normal"
+			},
+			{
+				"modouT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"action",
+						0,
+						"stand2"
+					},
+					{
+						"action2",
+						0,
+						"tuozhuai2"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"modouCharControl"
 			}
 		},
 		interAction_group = {}
@@ -65943,6 +66110,1245 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[61001] = {
+		advice = 0,
+		describe = "これで室内でも陸上できるよね！",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "競技場の床",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 61,
+		icon = "dibanydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61001,
+		picture = "yd/dibanyd",
+		comfortable = 4,
+		tag = 4,
+		size = {
+			2,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61002] = {
+		advice = 0,
+		describe = "今日は運動会だ！",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "競技場風壁紙",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 61,
+		icon = "qiangbiydicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61002,
+		picture = "yd/qiangbiyd",
+		comfortable = 4,
+		tag = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61101] = {
+		advice = 0,
+		describe = "どの種目に参加するピョ？",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "運動会エントリー",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 61,
+		icon = "baomingydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61101,
+		picture = "yd/baomingyd",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61102] = {
+		advice = 0,
+		describe = "「あの馬鹿、『早いぞー』って言ってる代わりに出発が遅れたじゃない…」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "踏切板①",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 61,
+		icon = "biaopai1ydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 61102,
+		picture = "yd/biaopai1yd",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61103] = {
+		advice = 0,
+		describe = "「早い？…あっそ。タシュケントも負けないから」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "踏切板②",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 61,
+		icon = "biaopai2ydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 61103,
+		picture = "yd/biaopai2yd",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61104] = {
+		advice = 0,
+		describe = "「さあ、エレガントに走りますわ！」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "踏切板③",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 61,
+		icon = "biaopai3ydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 61104,
+		picture = "yd/biaopai3yd",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61105] = {
+		advice = 0,
+		describe = "「短距離走ならぼくも…！」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "踏切板④",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 61,
+		icon = "biaopai4ydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 61105,
+		picture = "yd/biaopai4yd",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61106] = {
+		advice = 0,
+		describe = "「ふふん、また新しい走法をひらめいたぞ！」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "踏切板⑤",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 61,
+		icon = "biaopai5ydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 61106,
+		picture = "yd/biaopai5yd",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61107] = {
+		advice = 0,
+		describe = "「アイリス…ではなく、スポーツ精神のもとに公正にジャッジしよう」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "審判台",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 61,
+		icon = "caipanaydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 61107,
+		picture = "yd/caipanayd",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					14.5,
+					31.2
+				},
+				{
+					1,
+					1
+				},
+				"yd/caipanayd_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61108] = {
+		advice = 0,
+		describe = "監視員ならもっと高い場所に配置したほうがいいのでは…？",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "審判席",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 61,
+		icon = "caipanbydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 61108,
+		picture = "yd/caipanbyd",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					22.3,
+					10.1
+				},
+				{
+					1,
+					1
+				},
+				"yd/caipanbyd_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61109] = {
+		advice = 0,
+		describe = "広告枠絶賛出稿募集中！",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "広告板",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 61,
+		icon = "dangydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 61109,
+		picture = "yd/dangyd",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61110] = {
+		advice = 0,
+		describe = "饅頭によるマスゲームは人数不足で結構困難な模様",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "饅頭観客席",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 61,
+		icon = "guanxiydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 1,
+		id = 61110,
+		picture = "yd/guanxiyd",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			8,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					41.5,
+					120.3
+				},
+				{
+					1,
+					1
+				},
+				"yd/guanxiyd_using2"
+			},
+			{
+				"sit",
+				{
+					190.1,
+					4.3
+				},
+				{
+					1,
+					1
+				},
+				"yd/guanxiyd_using1"
+			},
+			{
+				"sit",
+				{
+					58.6,
+					-56.9
+				},
+				{
+					1,
+					1
+				},
+				"yd/guanxiyd_using1"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61111] = {
+		advice = 0,
+		describe = "「やばっ、ボルチモアには全然勝てそうにない……っ」",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "テニスフェンス",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 61,
+		icon = "hulanydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61111,
+		picture = "yd/hulanyd",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61112] = {
+		advice = 0,
+		describe = "跳躍力が求められる",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "陸上ハードル",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 61,
+		icon = "kualanydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61112,
+		picture = "yd/kualanyd",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61113] = {
+		advice = 0,
+		describe = "位置につけー、よーい！",
+		count = 3,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "レーンカーペット",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 61,
+		icon = "paodaoydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61113,
+		picture = "yd/paodaoyd",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61114] = {
+		advice = 0,
+		describe = "空母の転落防止ネットにも劣らない強度を持つという",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "テニスネット",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 61,
+		icon = "qiuwangydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61114,
+		picture = "yd/qiuwangyd",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			7,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61115] = {
+		advice = 0,
+		describe = "安心して任せられない気がしなくもない",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "ホイッスル饅頭",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 61,
+		icon = "shaojiydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61115,
+		picture = "yd/shaojiyd",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61116] = {
+		advice = 0,
+		describe = "母港の学園にもある桜の木",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "学園の桜",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 61,
+		icon = "shuydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61116,
+		picture = "yd/shuyd",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61117] = {
+		advice = 0,
+		describe = "「潜水艦の子たち、流石にズルくない？」",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "競技用プール",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 61,
+		icon = "yongchiydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 61117,
+		picture = "yd/yongchiyd",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-10.6,
+					-15
+				},
+				{
+					-1,
+					1
+				},
+				"yd/yongchiyd_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61118] = {
+		advice = 0,
+		describe = "完走おめでとう！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "ゴールテープ",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 61,
+		icon = "zdxydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61118,
+		picture = "yd/zdxyd",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61119] = {
+		advice = 0,
+		describe = "「浮標を避けることよりマシっての！」",
+		count = 3,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "障害物競走備品",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 61,
+		icon = "zhangydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61119,
+		picture = "yd/zhangyd",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61120] = {
+		advice = 0,
+		describe = "謎の助っ人の乱入で試合が大逆転だピョ！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "生中継饅頭",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 61,
+		icon = "zhiboydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61120,
+		picture = "yd/zhiboyd",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61121] = {
+		advice = 0,
+		describe = "「運動会記念アイテム…一儲けでございます」",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "運動場自販機",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 61,
+		icon = "zifanydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 61121,
+		picture = "yd/zifanyd",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61122] = {
+		advice = 0,
+		describe = "ディフェンスオブ饅頭！ピョ！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "ゴールキーパー饅頭",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 61,
+		icon = "zuqiuydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61122,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			9,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zuqiuyd",
+				"normal",
+				{
+					"kick3",
+					false,
+					{
+						"kick1",
+						"kick2",
+						"kick4"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[61123] = {
+		advice = 0,
+		describe = "どこまで遠く跳べるぴょ？",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "走幅跳饅頭",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 61,
+		icon = "tiaoyuanydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 61123,
+		picture = "yd/tiaoyuanyd",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61124] = {
+		advice = 0,
+		describe = "記録更新するピョ！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "棒高跳饅頭",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 61,
+		icon = "tiaogaoydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 1,
+		id = 61124,
+		picture = "yd/tiaogaoyd",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					66.7,
+					-54.2
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61125] = {
+		advice = 0,
+		describe = "１ポイントシュートを練習するピョ！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "バスケ饅頭",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 61,
+		icon = "lanqiuydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 61125,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			9,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lanqiuB",
+				"normal",
+				{
+					"lose",
+					false,
+					{
+						"win",
+						"draw1",
+						"draw2"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[61126] = {
+		advice = 0,
+		describe = "バッターの練習をするピョ！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "バッティング饅頭",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 61,
+		icon = "bangqiuydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61126,
+		picture = "yd/bangqiuyd",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61301] = {
+		advice = 0,
+		describe = "サッカー用の電光掲示板",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "スコアボード①",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 61,
+		icon = "fenban1ydicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 4,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 61301,
+		picture = "yd/fenban1yd",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61302] = {
+		advice = 0,
+		describe = "バスケットボール用の電光掲示板",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "スコアボード②",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 61,
+		icon = "fenban2ydicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 4,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 61302,
+		picture = "yd/fenban2yd",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61303] = {
+		advice = 0,
+		describe = "野球用の電光掲示板",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "スコアボード③",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 61,
+		icon = "fenban3ydicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 3,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 61303,
+		picture = "yd/fenban3yd",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -66009,7 +67415,9 @@ pg.furniture_data_template = {
 		166,
 		167,
 		169,
+		170,
 		171,
+		173,
 		100002,
 		100003,
 		100004,
@@ -66021,6 +67429,7 @@ pg.furniture_data_template = {
 		100010,
 		100011,
 		100012,
+		100013,
 		1001,
 		1002,
 		1101,
@@ -67462,7 +68871,38 @@ pg.furniture_data_template = {
 		60302,
 		60303,
 		60304,
-		60305
+		60305,
+		61001,
+		61002,
+		61101,
+		61102,
+		61103,
+		61104,
+		61105,
+		61106,
+		61107,
+		61108,
+		61109,
+		61110,
+		61111,
+		61112,
+		61113,
+		61114,
+		61115,
+		61116,
+		61117,
+		61118,
+		61119,
+		61120,
+		61121,
+		61122,
+		61123,
+		61124,
+		61125,
+		61126,
+		61301,
+		61302,
+		61303
 	}
 }
 

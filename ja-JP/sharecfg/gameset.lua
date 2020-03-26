@@ -383,9 +383,9 @@ pg.gameset = {
 		key_value = 3000000
 	},
 	activity_res_id = {
-		description = "萨拉托加韩服pt",
+		description = "美系V3PT",
 		key = "activity_res_id",
-		key_value = 147
+		key_value = 149
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -783,7 +783,7 @@ pg.gameset = {
 	skin_ticket = {
 		description = "",
 		key = "skin_ticket",
-		key_value = 144
+		key_value = 150
 	},
 	order_pt_max = {
 		key = "order_pt_max",
@@ -814,6 +814,11 @@ pg.gameset = {
 				5
 			}
 		}
+	},
+	award_ship_limit = {
+		description = "奖励超过20只就不一个一个展示获得界面，直接显示全部获得",
+		key = "award_ship_limit",
+		key_value = 20
 	}
 }
 

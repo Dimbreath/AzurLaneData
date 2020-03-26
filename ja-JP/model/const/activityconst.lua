@@ -218,6 +218,8 @@ slot0.SARATOGA_SKIN = 530
 slot0.SKIN_Z23 = 532
 slot0.OUTPOST_PT = 534
 slot0.OUTPOST_TASK = 536
+slot0.AMERICAN_MAIN = 541
+slot0.AMERICAN_PT = 545
 slot0.VOTE_ORDER_BOOK_PHASE_1 = 1020
 slot0.VOTE_ORDER_BOOK_PHASE_2 = 1021
 slot0.VOTE_ORDER_BOOK_PHASE_3 = 1022
@@ -280,8 +282,8 @@ slot0.LIMIT_SKIN_SHOP_TIME = {
 	{
 		{
 			2020,
-			2,
-			27
+			3,
+			26
 		},
 		{
 			0,
@@ -292,8 +294,8 @@ slot0.LIMIT_SKIN_SHOP_TIME = {
 	{
 		{
 			2020,
-			3,
-			11
+			4,
+			8
 		},
 		{
 			23,
