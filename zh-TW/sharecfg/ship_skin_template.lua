@@ -26015,7 +26015,7 @@ pg.ship_skin_template = {
 		}
 	},
 	[207041] = {
-		name = "女神的休憩日",
+		name = "女神的休息日",
 		ship_group = 20704,
 		group_index = 1,
 		illustrator2 = -1,
