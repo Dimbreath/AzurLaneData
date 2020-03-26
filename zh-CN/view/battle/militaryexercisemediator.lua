@@ -29,13 +29,9 @@ function slot0.register(slot0)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.EXERCISEFORMATION)
 	end)
 	slot0:bind(slot0.OPEN_SHOP, function (slot0)
-		slot0:addSubLayers(Context.New({
-			mediator = ShopsMediator,
-			viewComponent = ShopsLayer,
-			data = {
-				warp = ShopsLayer.TYPE_MILITARY_SHOP
-			}
-		}))
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, data or {
+			warp = ShopsScene.TYPE_MILITARY_SHOP
+		})
 	end)
 	slot0:bind(slot0.REPLACE_RIVALS, function (slot0)
 		slot0:sendNotification(GAME.REPLACE_RIVALS)

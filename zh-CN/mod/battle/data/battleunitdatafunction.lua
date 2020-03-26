@@ -1156,8 +1156,26 @@ ys or .Battle.BattleDataFunction.CreateAircraftUnit = function (slot0, slot1, sl
 		else
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 23-30, warpins: 1 ---
-			slot4 = slot1.Battle.BattleFunnelUnit.New(slot0)
+			--- BLOCK #0 23-26, warpins: 1 ---
+			if slot5.funnel_behavior.AI then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 27-34, warpins: 1 ---
+				slot4 = slot1.Battle.BattlePatternFunnelUnit.New(slot0)
+				--- END OF BLOCK #0 ---
+
+
+
+			else
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 35-42, warpins: 1 ---
+				slot4 = slot1.Battle.BattleFunnelUnit.New(slot0)
+				--- END OF BLOCK #0 ---
+
+
+
+			end
 			--- END OF BLOCK #0 ---
 
 
@@ -1170,7 +1188,7 @@ ys or .Battle.BattleDataFunction.CreateAircraftUnit = function (slot0, slot1, sl
 	else
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 31-37, warpins: 1 ---
+		--- BLOCK #0 43-49, warpins: 1 ---
 		slot4 = slot1.Battle.BattleAircraftUnit.New(slot0)
 		--- END OF BLOCK #0 ---
 
@@ -1185,7 +1203,7 @@ ys or .Battle.BattleDataFunction.CreateAircraftUnit = function (slot0, slot1, sl
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #1 38-50, warpins: 3 ---
+	--- BLOCK #1 50-62, warpins: 4 ---
 	slot4:SetMotherUnit(slot2)
 	slot4:SetWeanponPotential(slot3)
 	slot4:SetTemplate(slot5)

@@ -1,4 +1,5 @@
 slot0 = class("ShipProfileMediator", import("...base.ContextMediator"))
+slot0.CLICK_ROTATE_BTN = "ShipProfileMediator:CLICK_ROTATE_BTN"
 
 function slot0.register(slot0)
 	slot0.showTrans = slot0.contextData.showTrans
@@ -7,6 +8,20 @@ function slot0.register(slot0)
 	slot0.viewComponent:setShipGroup(slot3)
 	slot0.viewComponent:setShowTrans(slot0.showTrans)
 	slot0.viewComponent:setOwnedSkinList(getProxy(ShipSkinProxy).getSkinList(slot2))
+	slot0:bind(slot0.CLICK_ROTATE_BTN, function (slot0, slot1, slot2, slot3)
+		slot0:addSubLayers(Context.New({
+			mediator = ShipRotateMediator,
+			viewComponent = ShipRotateLayer,
+			data = {
+				shipGroup = slot1,
+				showTrans = slot2,
+				skin = slot3
+			},
+			onRemoved = function ()
+				setActive(slot0.viewComponent._tf, true)
+			end
+		}))
+	end)
 	slot0:bind(ShipProfileScene.SHOW_SKILL_INFO, function (slot0, slot1, slot2)
 		slot0:addSubLayers(Context.New({
 			mediator = SkillInfoMediator,

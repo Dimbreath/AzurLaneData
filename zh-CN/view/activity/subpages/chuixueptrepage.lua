@@ -7,7 +7,7 @@ function slot0.OnFirstFlush(slot0)
 
 	onButton(slot0, slot0.battleBtn, function ()
 		slot0:emit(ActivityMediator.GO_SHOPS_LAYER_STEEET, {
-			warp = ShopsLayer.TYPE_SHOP_STREET,
+			warp = ShopsScene.TYPE_SHOP_STREET,
 			actId = slot0.activity:getConfig("config_client").id
 		})
 	end)

@@ -141,13 +141,70 @@ function slot1(slot0)
 	slot3 = slot0.battleBtn
 
 	function slot4()
-		slot0 = slot0
-		slot1 = slot0
-		slot0 = slot0.emit
-		slot2 = ActivityMediator
-		slot2 = slot2.BATTLE_OPERA
+		slot0, slot1 = nil
+		slot2 = slot0
+		slot2 = slot2.activity
+		slot3 = slot2
+		slot2 = slot2.getConfig
+		slot4 = "config_client"
+		slot2 = slot2(slot3, slot4)
 
-		slot0(slot1, slot2)
+		if slot2 ~= "" then
+			slot3 = slot0
+			slot3 = slot3.activity
+			slot4 = slot3
+			slot3 = slot3.getConfig
+			slot5 = "config_client"
+			slot3 = slot3(slot4, slot5)
+			slot0 = slot3.linkActID
+
+			if slot0 then
+				slot3 = getProxy
+				slot4 = ActivityProxy
+				slot3 = slot3(slot4)
+				slot4 = slot3
+				slot3 = slot3.getActivityById
+				slot5 = slot0
+				slot3 = slot3(slot4, slot5)
+				slot1 = slot3
+			end
+		end
+
+		if not slot0 then
+			slot3 = slot0
+			slot4 = slot3
+			slot3 = slot3.emit
+			slot5 = ActivityMediator
+			slot5 = slot5.BATTLE_OPERA
+
+			slot3(slot4, slot5)
+		elseif slot1 then
+			slot4 = slot1
+			slot3 = slot1.isEnd
+			slot3 = slot3(slot4)
+
+			if not slot3 then
+				slot3 = slot0
+				slot4 = slot3
+				slot3 = slot3.emit
+				slot5 = ActivityMediator
+				slot5 = slot5.BATTLE_OPERA
+
+				slot3(slot4, slot5)
+			end
+		else
+			slot3 = pg
+			slot3 = slot3.TipsMgr
+			slot4 = slot3
+			slot3 = slot3.GetInstance
+			slot3 = slot3(slot4)
+			slot4 = slot3
+			slot3 = slot3.ShowTips
+			slot5 = i18n
+			slot6 = "common_activity_end"
+
+			slot3(slot4, slot5(slot6))
+		end
 	end
 
 	slot5 = SFX_PANEL

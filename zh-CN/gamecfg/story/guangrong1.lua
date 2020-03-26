@@ -258,7 +258,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为了皇家之光而获得新生的光荣（glorius），一定会成为指挥官你最高的荣耀！",
+			say = "为了皇家之光而获得新生的光荣（glorious），一定会成为指挥官你最高的荣耀！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

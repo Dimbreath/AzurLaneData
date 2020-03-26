@@ -120,6 +120,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「同志们，团结起来吧！世界将在我们手中改变！」</color>\n「北境序曲」活动获取",
 		scene = {}
 	},
+	[307] = {
+		name = "闪耀之翼",
+		time_second = 0,
+		id = 307,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>「无畏的闪电划破黑暗，照亮我们前进的方向」</color>\n「微层混合」活动获取",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂纪念：企业",
 		time_second = 0,
@@ -160,6 +168,7 @@ pg.item_data_frame = {
 		304,
 		305,
 		306,
+		307,
 		401,
 		402,
 		404

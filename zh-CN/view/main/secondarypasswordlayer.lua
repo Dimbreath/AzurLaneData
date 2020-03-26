@@ -217,6 +217,10 @@ function slot0.InitInteractable(slot0)
 		setActive(slot0.btnshow, slot0.inputMode)
 	end)
 	onButton(slot0, slot0.btnclose, function ()
+		if slot0.mode == slot1.InputView then
+			slot0:emit(SecondaryPasswordMediator.CANCEL_OPERATION)
+		end
+
 		slot0:emit(slot1.ON_CLOSE)
 	end, SOUND_BACK)
 	onButton(slot0, slot0._tf, function ()

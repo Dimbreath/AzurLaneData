@@ -7891,7 +7891,7 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 		}
 	},
 	shop_street_activity_tip = {
-		tip = "*活动期间(<color=#A1E400FF>20.2.27-20.3.11</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>",
+		tip = "*活动期间(<color=#A1E400FF>20.3.26-20.4.8</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>",
 		key = "shop_street_activity_tip"
 	},
 	battle_result_boss_destruct = {
@@ -9092,7 +9092,7 @@ $3]],
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "塔什干、苏维埃罗西亚等角色出现概率UP！",
+		tip = "无畏、布莱默顿等角色限时建造！",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -9104,7 +9104,7 @@ $3]],
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "{namecode:90} 限时建造！",
+		tip = "{namecode:97} 建造追加！",
 		key = "buildship_special_tip"
 	},
 	open_skill_pos = {
@@ -9999,7 +9999,8 @@ $3]],
 2 活动关卡的敌人设置将会出现一部分变化
 3 活动关卡中我方的移动格数<color=#92fc63>不会受到移动力限制</color>，可自
 由移动
-4 关卡内会开启<color=#92fc63>阵容锁定</color>模式]]
+4 通常海域关卡中<color=#92fc63>取消伏击与空袭</color>
+5 关卡内会开启<color=#92fc63>阵容锁定</color>模式]]
 			}
 		}
 	},
@@ -12713,6 +12714,14 @@ TIPS：
 				y = 1024
 			}
 		}
+	},
+	retire_selectzero = {
+		tip = "没找到符合条件的舰船",
+		key = "retire_selectzero"
+	},
+	undermist_tip = {
+		tip = "当前任务已完成，请等待明日解锁",
+		key = "undermist_tip"
 	}
 }
 

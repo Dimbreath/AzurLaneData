@@ -90219,6 +90219,2837 @@ pg.task_data_template = {
 			"ACTIVITY_MAP"
 		}
 	},
+	[15450] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92750,
+		type = 6,
+		name = "萨拉托加韩服复刻任务战斗胜利I",
+		count_inherit = 0,
+		desc = "出征获得50次胜利",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15450,
+		target_num = 50,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				100
+			}
+		}
+	},
+	[15451] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92751,
+		type = 6,
+		name = "萨拉托加韩服复刻任务战斗胜利II",
+		count_inherit = 0,
+		desc = "出征获得80次胜利",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15451,
+		target_num = 80,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				150
+			}
+		}
+	},
+	[15452] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92752,
+		type = 6,
+		name = "萨拉托加韩服复刻任务战斗胜利III",
+		count_inherit = 0,
+		desc = "出征获得120次胜利",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15452,
+		target_num = 120,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				200
+			}
+		}
+	},
+	[15453] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92753,
+		type = 6,
+		name = "萨拉托加韩服复刻任务战斗胜利IV",
+		count_inherit = 0,
+		desc = "出征获得200次胜利",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15453,
+		target_num = 200,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				300
+			}
+		}
+	},
+	[15454] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92754,
+		type = 6,
+		name = "萨拉托加韩服复刻任务消灭旗舰I",
+		count_inherit = 0,
+		desc = "出征消灭敌方旗舰10次",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15454,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				100
+			}
+		}
+	},
+	[15455] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92755,
+		type = 6,
+		name = "萨拉托加韩服复刻任务消灭旗舰II",
+		count_inherit = 0,
+		desc = "出征消灭敌方旗舰20次",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15455,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				150
+			}
+		}
+	},
+	[15456] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92756,
+		type = 6,
+		name = "萨拉托加韩服复刻任务消灭旗舰III",
+		count_inherit = 0,
+		desc = "出征消灭敌方旗舰30次",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15456,
+		target_num = 30,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				200
+			}
+		}
+	},
+	[15457] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92757,
+		type = 6,
+		name = "萨拉托加韩服复刻任务消灭旗舰IV",
+		count_inherit = 0,
+		desc = "出征消灭敌方旗舰50次",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15457,
+		target_num = 50,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				300
+			}
+		}
+	},
+	[15458] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92758,
+		type = 6,
+		name = "萨拉托加韩服复刻任务建造I",
+		count_inherit = 0,
+		desc = "建造舰船5次。",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15458,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				100
+			}
+		}
+	},
+	[15459] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92759,
+		type = 6,
+		name = "萨拉托加韩服复刻任务建造II",
+		count_inherit = 0,
+		desc = "建造舰船20次。",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15459,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				300
+			}
+		}
+	},
+	[15460] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92760,
+		type = 6,
+		name = "萨拉托加韩服复刻任务强化I",
+		count_inherit = 0,
+		desc = "舰船强化15次。",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15460,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				100
+			}
+		}
+	},
+	[15461] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92761,
+		type = 6,
+		name = "萨拉托加韩服复刻任务强化II",
+		count_inherit = 0,
+		desc = "舰船强化30次。",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15461,
+		target_num = 30,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				150
+			}
+		}
+	},
+	[15462] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92762,
+		type = 6,
+		name = "萨拉托加韩服复刻任务强化III",
+		count_inherit = 0,
+		desc = "舰船强化50次。",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15462,
+		target_num = 50,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				200
+			}
+		}
+	},
+	[15463] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92763,
+		type = 6,
+		name = "萨拉托加韩服复刻任务强化IV",
+		count_inherit = 0,
+		desc = "舰船强化80次。",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15463,
+		target_num = 80,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				300
+			}
+		}
+	},
+	[15464] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92764,
+		type = 6,
+		name = "萨拉托加韩服复刻任务退役I",
+		count_inherit = 0,
+		desc = "舰船退役5次。",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15464,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				100
+			}
+		}
+	},
+	[15465] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92765,
+		type = 6,
+		name = "萨拉托加韩服复刻任务退役II",
+		count_inherit = 0,
+		desc = "舰船退役10次。",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15465,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				150
+			}
+		}
+	},
+	[15466] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92766,
+		type = 6,
+		name = "萨拉托加韩服复刻任务退役III",
+		count_inherit = 0,
+		desc = "舰船退役15次。",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15466,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				200
+			}
+		}
+	},
+	[15467] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92767,
+		type = 6,
+		name = "萨拉托加韩服复刻任务退役IV",
+		count_inherit = 0,
+		desc = "舰船退役20次。",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15467,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				300
+			}
+		}
+	},
+	[15468] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92768,
+		type = 6,
+		name = "萨拉托加韩服复刻任务委托I",
+		count_inherit = 0,
+		desc = "执行军事委托10次。",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15468,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				100
+			}
+		}
+	},
+	[15469] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92769,
+		type = 6,
+		name = "萨拉托加韩服复刻任务委托II",
+		count_inherit = 0,
+		desc = "执行军事委托20次。",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15469,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				150
+			}
+		}
+	},
+	[15470] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92770,
+		type = 6,
+		name = "萨拉托加韩服复刻任务委托III",
+		count_inherit = 0,
+		desc = "执行军事委托30次。",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15470,
+		target_num = 30,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				200
+			}
+		}
+	},
+	[15471] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92771,
+		type = 6,
+		name = "萨拉托加韩服复刻任务委托IV",
+		count_inherit = 0,
+		desc = "执行军事委托50次。",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15471,
+		target_num = 50,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				300
+			}
+		}
+	},
+	[15472] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92772,
+		type = 36,
+		name = "萨拉托加韩服复刻任务战斗胜利-日常",
+		count_inherit = 0,
+		desc = "舰队出征，获得25次胜利。",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15472,
+		target_num = 25,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				60
+			}
+		}
+	},
+	[15473] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92773,
+		type = 36,
+		name = "萨拉托加韩服复刻任务消灭旗舰-日常",
+		count_inherit = 0,
+		desc = "舰队出征，消灭敌方旗舰5次。",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15473,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				60
+			}
+		}
+	},
+	[15474] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92774,
+		type = 36,
+		name = "萨拉托加韩服复刻任务建造-日常",
+		count_inherit = 0,
+		desc = "建造舰船3次。",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15474,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				60
+			}
+		}
+	},
+	[15475] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92775,
+		type = 36,
+		name = "萨拉托加韩服复刻任务强化-日常",
+		count_inherit = 0,
+		desc = "舰船强化8次。",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15475,
+		target_num = 8,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				60
+			}
+		}
+	},
+	[15476] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92776,
+		type = 36,
+		name = "萨拉托加韩服复刻任务退役-日常",
+		count_inherit = 0,
+		desc = "舰船退役3次。",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15476,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				60
+			}
+		}
+	},
+	[15477] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92777,
+		type = 36,
+		name = "萨拉托加韩服复刻任务委托-日常",
+		count_inherit = 0,
+		desc = "执行军事委托5次。",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15477,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59153,
+				60
+			}
+		}
+	},
+	[15480] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92780,
+		type = 26,
+		name = "z23皮肤活动复刻1",
+		count_inherit = 0,
+		desc = "舰队出征，以S评价通关10次",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15480,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				5
+			}
+		}
+	},
+	[15481] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92781,
+		type = 26,
+		name = "z23皮肤活动复刻2",
+		count_inherit = 0,
+		desc = "进行2次装备强化",
+		target_id_2 = "",
+		sub_type = 40,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15481,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15482] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92782,
+		type = 26,
+		name = "z23皮肤活动复刻3",
+		count_inherit = 0,
+		desc = "进行2次委托 ",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15482,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15483] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92783,
+		type = 26,
+		name = "z23皮肤活动复刻4",
+		count_inherit = 0,
+		desc = "进行2次演习",
+		target_id_2 = "",
+		sub_type = 27,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15483,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				100
+			}
+		}
+	},
+	[15484] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92784,
+		type = 26,
+		name = "z23皮肤活动复刻5",
+		count_inherit = 0,
+		desc = "退役2艘舰船",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15484,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15485] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92785,
+		type = 26,
+		name = "z23皮肤活动复刻6",
+		count_inherit = 0,
+		desc = "完成3次每日挑战 ",
+		target_id_2 = "",
+		sub_type = 26,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15485,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54012,
+				5
+			}
+		}
+	},
+	[15486] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92786,
+		type = 26,
+		name = "z23皮肤活动复刻7",
+		count_inherit = 0,
+		desc = "进行战术训练2次",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15486,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15487] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92787,
+		type = 26,
+		name = "z23皮肤活动复刻8",
+		count_inherit = 0,
+		desc = "舰船强化5次",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15487,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54021,
+				5
+			}
+		}
+	},
+	[15488] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92788,
+		type = 26,
+		name = "z23皮肤活动复刻9",
+		count_inherit = 0,
+		desc = "击沉任意敌人20艘",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15488,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15489] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92789,
+		type = 26,
+		name = "z23皮肤活动复刻10",
+		count_inherit = 0,
+		desc = "后宅补充食物5次",
+		target_id_2 = "",
+		sub_type = 61,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15489,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				50003,
+				5
+			}
+		}
+	},
+	[15490] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92790,
+		type = 26,
+		name = "z23皮肤活动复刻11",
+		count_inherit = 0,
+		desc = "舰队出征，通过任意困难关卡2次",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15490,
+		target_num = 2,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15491] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92791,
+		type = 26,
+		name = "z23皮肤活动复刻12",
+		count_inherit = 0,
+		desc = "打开任意科技箱1个",
+		target_id_2 = "",
+		sub_type = 50,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15491,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54001,
+				5
+			}
+		}
+	},
+	[15492] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92792,
+		type = 26,
+		name = "z23皮肤活动复刻13",
+		count_inherit = 0,
+		desc = "舰队出征，消灭敌方旗舰3次",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15492,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15493] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92793,
+		type = 26,
+		name = "z23皮肤活动复刻14",
+		count_inherit = 0,
+		desc = "进行战术训练2次",
+		target_id_2 = "",
+		sub_type = 71,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15493,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54050,
+				2
+			}
+		}
+	},
+	[15494] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92794,
+		type = 26,
+		name = "z23皮肤活动复刻15",
+		count_inherit = 0,
+		desc = "舰队出征，以S评价通关10次",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15494,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15495] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92795,
+		type = 26,
+		name = "z23皮肤活动复刻16",
+		count_inherit = 0,
+		desc = "分解5件装备",
+		target_id_2 = "",
+		sub_type = 41,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15495,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15003,
+				3
+			}
+		}
+	},
+	[15496] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92796,
+		type = 26,
+		name = "z23皮肤活动复刻17",
+		count_inherit = 0,
+		desc = "进行2次建造",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15496,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15497] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92797,
+		type = 26,
+		name = "z23皮肤活动复刻18",
+		count_inherit = 0,
+		desc = "退役2艘舰船",
+		target_id_2 = "",
+		sub_type = 31,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15497,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			}
+		}
+	},
+	[15498] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92798,
+		type = 26,
+		name = "z23皮肤活动复刻19",
+		count_inherit = 0,
+		desc = "进行2次装备强化",
+		target_id_2 = "",
+		sub_type = 40,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15498,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15499] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92799,
+		type = 26,
+		name = "z23皮肤活动复刻20",
+		count_inherit = 0,
+		desc = "进行2次委托 ",
+		target_id_2 = "",
+		sub_type = 80,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15499,
+		target_num = 2,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				7,
+				401231,
+				1
+			}
+		}
+	},
+	[15500] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92800,
+		type = 6,
+		name = "『美系V3』角色收集：无畏",
+		count_inherit = 0,
+		desc = "[无畏]突破至满星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 107114,
+		id = 15500,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "107114",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59154,
+				600
+			}
+		}
+	},
+	[15501] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92801,
+		type = 6,
+		name = "『美系V3』角色收集：布莱默顿",
+		count_inherit = 0,
+		desc = "[布莱默顿]突破至满星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 103244,
+		id = 15501,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "103244",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59154,
+				600
+			}
+		}
+	},
+	[15502] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92803,
+		type = 6,
+		name = "『美系V3』角色收集：里诺",
+		count_inherit = 0,
+		desc = "[里诺]突破至满星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 102264,
+		id = 15502,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "102264",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59154,
+				600
+			}
+		}
+	},
+	[15503] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92802,
+		type = 6,
+		name = "『美系V3』角色收集：库珀",
+		count_inherit = 0,
+		desc = "[库珀]突破至满星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 101444,
+		id = 15503,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "101444",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59154,
+				400
+			}
+		}
+	},
+	[15504] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92804,
+		type = 6,
+		name = "『美系V3』角色收集：蓝鳃鱼",
+		count_inherit = 0,
+		desc = "[蓝鳃鱼]突破至满星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 108044,
+		id = 15504,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "108044",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59154,
+				400
+			}
+		}
+	},
+	[15505] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92805,
+		type = 6,
+		name = "『美系V3』角色收集：马布尔黑德",
+		count_inherit = 0,
+		desc = "[马布尔黑德]突破至满星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 102274,
+		id = 15505,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "102274",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59154,
+				200
+			}
+		}
+	},
+	[15506] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92806,
+		type = 6,
+		name = "『美系V3』角色收集：卡萨布兰卡",
+		count_inherit = 0,
+		desc = "[卡萨布兰卡]突破至满星",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 106554,
+		id = 15506,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "106554",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59154,
+				200
+			}
+		}
+	},
+	[15507] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92807,
+		type = 6,
+		name = "『美系V3』角色刷关：圣地亚哥",
+		count_inherit = 0,
+		desc = "使用满星圣地亚哥击败B3或D3敌方旗舰10次且存活",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15507,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1351213,
+			1353213
+		},
+		target_id_2 = {
+			102084
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59154,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15508] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92808,
+		type = 6,
+		name = "『美系V3』角色刷关：萨拉托加",
+		count_inherit = 0,
+		desc = "使用满星萨拉托加击败B2或D2敌方旗舰10次且存活",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15508,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1351113,
+			1353113
+		},
+		target_id_2 = {
+			107034
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59154,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15509] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92809,
+		type = 6,
+		name = "『美系V3』角色刷关：海伦娜",
+		count_inherit = 0,
+		desc = "使用满星海伦娜击败A3或C3敌方旗舰10次且存活",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15509,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1350213,
+			1352213
+		},
+		target_id_2 = {
+			102054
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59154,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15510] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92810,
+		type = 6,
+		name = "『美系V3』角色刷关：孟菲斯",
+		count_inherit = 0,
+		desc = "使用满星孟菲斯击败A2或C2敌方旗舰10次且存活",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15510,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1350113,
+			1352113
+		},
+		target_id_2 = {
+			102164
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59154,
+				100
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15511] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92812,
+		type = 26,
+		name = "『美系V3』前哨站zero1",
+		count_inherit = 15512,
+		desc = "迷雾之下——累计获得S胜5次",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15511,
+		target_num = 5,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15512] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92813,
+		type = 26,
+		name = "『美系V3』前哨站zero2",
+		count_inherit = 15513,
+		desc = "迷雾之下——累计获得S胜10次",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15512,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				50
+			}
+		}
+	},
+	[15513] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92814,
+		type = 26,
+		name = "『美系V3』前哨站zero3",
+		count_inherit = 15514,
+		desc = "迷雾之下——累计获得S胜15次",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15513,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				200
+			}
+		}
+	},
+	[15514] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92815,
+		type = 26,
+		name = "『美系V3』前哨站zero4",
+		count_inherit = 0,
+		desc = "迷雾之下——累计获得S胜20次",
+		target_id_2 = "",
+		sub_type = 24,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15514,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				100
+			}
+		}
+	},
+	[15518] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92819,
+		type = 36,
+		name = "『美系V3』-日常建造",
+		count_inherit = 0,
+		desc = "建造舰船3次。",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15518,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59155,
+				300
+			}
+		}
+	},
+	[15519] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92820,
+		type = 36,
+		name = "『美系V3』-日常出击",
+		count_inherit = 0,
+		desc = "舰队出征，获得15次胜利。",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15519,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59155,
+				300
+			}
+		}
+	},
+	[15520] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92821,
+		type = 36,
+		name = "『美系V3』-日常困难本",
+		count_inherit = 0,
+		desc = "通关1次任意困难关卡 ",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15520,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59155,
+				150
+			}
+		}
+	},
+	[15521] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92822,
+		type = 6,
+		name = "『美系V3』通关A1/C1",
+		count_inherit = 0,
+		desc = "通关A1或C1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15522",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15521,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1330001,
+			1330021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59155,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15522] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92823,
+		type = 6,
+		name = "『美系V3』通关A2/C2",
+		count_inherit = 0,
+		desc = "通关A2或C2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15523",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15522,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1330002,
+			1330022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59155,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15523] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92824,
+		type = 6,
+		name = "『美系V3』通关A3/C3",
+		count_inherit = 0,
+		desc = "通关A3或C3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15524",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15523,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1330003,
+			1330023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59155,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15524] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92825,
+		type = 6,
+		name = "『美系V3』通关B1/D1",
+		count_inherit = 0,
+		desc = "通关B1或D1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15525",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15524,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1330004,
+			1330024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59155,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15525] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92826,
+		type = 6,
+		name = "『美系V3』通关B2/D2",
+		count_inherit = 0,
+		desc = "通关B2或D2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15526",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15525,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1330005,
+			1330025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59155,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15526] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92827,
+		type = 6,
+		name = "『美系V3』通关B3/D3",
+		count_inherit = 0,
+		desc = "通关B3或D3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15527",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15526,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1330006,
+			1330026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59155,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15527] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92828,
+		type = 6,
+		name = "『美系V3』通关SP",
+		count_inherit = 0,
+		desc = "通关SP",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1330041,
+		id = 15527,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1330041",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15528] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92829,
+		type = 6,
+		name = "『美系V3』通关D3",
+		count_inherit = 0,
+		desc = "通关D3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1330026,
+		id = 15528,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1330026",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				173,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15529] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92830,
+		type = 6,
+		name = "『美系V3』A1/C1的3星",
+		count_inherit = 0,
+		desc = "完成A1或C1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15530",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15529,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1330001,
+			1330021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15530] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92831,
+		type = 6,
+		name = "『美系V3』A2/C2的3星",
+		count_inherit = 0,
+		desc = "完成A2或C2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15531",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15530,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1330002,
+			1330022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15531] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92832,
+		type = 6,
+		name = "『美系V3』A3/C3的3星",
+		count_inherit = 0,
+		desc = "完成A3或C3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15532",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15531,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1330003,
+			1330023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15532] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92833,
+		type = 6,
+		name = "『美系V3』B1/D1的3星",
+		count_inherit = 0,
+		desc = "完成B1或D1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15533",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15532,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1330004,
+			1330024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15533] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92834,
+		type = 6,
+		name = "『美系V3』B2/D2的3星",
+		count_inherit = 0,
+		desc = "完成B2或D2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15534",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15533,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1330005,
+			1330025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15534] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92835,
+		type = 6,
+		name = "『美系V3』B3/D3的3星",
+		count_inherit = 0,
+		desc = "完成B3或D3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15534,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1330006,
+			1330026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15535] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92875,
+		type = 6,
+		name = "登录送皮肤体验券活动",
+		count_inherit = 0,
+		desc = "登录游戏",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15535,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				150,
+				2
+			}
+		}
+	},
 	[30101] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -100159,6 +102990,87 @@ pg.task_data_template = {
 		15418,
 		15419,
 		15420,
+		15450,
+		15451,
+		15452,
+		15453,
+		15454,
+		15455,
+		15456,
+		15457,
+		15458,
+		15459,
+		15460,
+		15461,
+		15462,
+		15463,
+		15464,
+		15465,
+		15466,
+		15467,
+		15468,
+		15469,
+		15470,
+		15471,
+		15472,
+		15473,
+		15474,
+		15475,
+		15476,
+		15477,
+		15480,
+		15481,
+		15482,
+		15483,
+		15484,
+		15485,
+		15486,
+		15487,
+		15488,
+		15489,
+		15490,
+		15491,
+		15492,
+		15493,
+		15494,
+		15495,
+		15496,
+		15497,
+		15498,
+		15499,
+		15500,
+		15501,
+		15502,
+		15503,
+		15504,
+		15505,
+		15506,
+		15507,
+		15508,
+		15509,
+		15510,
+		15511,
+		15512,
+		15513,
+		15514,
+		15518,
+		15519,
+		15520,
+		15521,
+		15522,
+		15523,
+		15524,
+		15525,
+		15526,
+		15527,
+		15528,
+		15529,
+		15530,
+		15531,
+		15532,
+		15533,
+		15534,
+		15535,
 		30101,
 		30102,
 		30103,
