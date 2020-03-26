@@ -16,6 +16,14 @@ pg.item_data_chat = {
 		desc = "1년 동안 분투 하신 지휘관님들께 바침.\n<color=#A7A7AAFF> [재탄생의 새벽]을 개시하면 기념 코인을 획득.</color>",
 		scene = {}
 	},
+	[102] = {
+		name = "2주년 기념",
+		time_second = 0,
+		id = 102,
+		time_limit_type = 0,
+		desc = "2년 동안 분투 하신 지휘관님들께 바침.\n<color=#A7A7AAFF>2주년 한정 이벤트에 참여하면 획득할 수 있습니다.</color>",
+		scene = {}
+	},
 	[300] = {
 		name = "소집자",
 		time_second = 2592000,
@@ -35,6 +43,7 @@ pg.item_data_chat = {
 	all = {
 		0,
 		101,
+		102,
 		300,
 		301
 	}

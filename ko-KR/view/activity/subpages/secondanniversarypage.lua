@@ -7,12 +7,8 @@ function slot0.OnInit(slot0)
 	slot0.btn1 = slot0:findTF("1", slot0.btnContainer)
 	slot0.btn2 = slot0:findTF("2", slot0.btnContainer)
 	slot0.btn3 = slot0:findTF("3", slot0.btnContainer)
-	slot0.btn4 = slot0:findTF("4", slot0.btnContainer)
 	slot0.btn5 = slot0:findTF("5", slot0.btnContainer)
-	slot0.btn6 = slot0:findTF("6", slot0.btnContainer)
-	slot0.btn7 = slot0:findTF("7", slot0.btnContainer)
 	slot0.btn8 = slot0:findTF("8", slot0.btnContainer)
-	slot0.btn9 = slot0:findTF("9", slot0.btnContainer)
 	slot0.btnList1 = {
 		slot0.btn1,
 		slot0.btn2,
@@ -65,27 +61,13 @@ function slot0.initBtn(slot0, slot1)
 	onButton(slot0, slot1[3], function ()
 		slot0:emit(ActivityMediator.SELECT_ACTIVITY, ActivityConst.ACTIVITY_TYPE_RETURN_AWARD_ID)
 	end, SFX_PANEL)
-	onButton(slot0, slot1[4], function ()
-		slot0:emit(ActivityMediator.SELECT_ACTIVITY, ActivityConst.XIMU_LOGIN_ID)
-	end, SFX_PANEL)
 	onButton(slot0, slot1[5], function ()
 		slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.CHARGE, {
 			wrap = ChargeScene.TYPE_DIAMOND
 		})
 	end, SFX_PANEL)
-	onButton(slot0, slot1[6], function ()
-		slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.GETBOAT, {
-			projectName = "light"
-		})
-	end, SFX_PANEL)
-	onButton(slot0, slot1[7], function ()
-		slot0:emit(ActivityMediator.SELECT_ACTIVITY, ActivityConst.SANDIEGO_PT_ID)
-	end, SFX_PANEL)
 	onButton(slot0, slot1[8], function ()
 		slot0:emit(ActivityMediator.SELECT_ACTIVITY, ActivityConst.SKIN_U73)
-	end, SFX_PANEL)
-	onButton(slot0, slot1[9], function ()
-		pg.TipsMgr.GetInstance():ShowTips("即将开放，敬请期待！")
 	end, SFX_PANEL)
 end
 

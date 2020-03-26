@@ -30,6 +30,8 @@ function slot1.Update(slot0, slot1)
 		slot0.tf.localScale = Vector3(slot0.tfParent.rect.height / 720, , 1)
 	end
 
+	slot0.scaleRatio = slot4
+
 	slot0.super.Update(slot0, slot1)
 end
 
@@ -73,7 +75,7 @@ end
 
 function slot1.UpdateEscortItem(slot0, slot1, slot2, slot3)
 	slot1.name = "chapter_" .. slot3.id
-	slot1.anchoredPosition = Vector2(GetComponent(slot0.map, "Image").preferredWidth * (tonumber(pg.escort_template[slot2].pos_x) - 0.5), GetComponent(slot0.map, "Image").preferredHeight * (tonumber(pg.escort_template[slot2].pos_y) - 0.5))
+	slot1.anchoredPosition = Vector2(slot0.map.rect.width / slot0.scaleRatio * (tonumber(pg.escort_template[slot2].pos_x) - 0.5), slot0.map.rect.height / slot0.scaleRatio * (tonumber(pg.escort_template[slot2].pos_y) - 0.5))
 
 	setActive(slot1:Find("fighting"), getProxy(ChapterProxy).getActiveChapter(slot5) and slot6.id == slot3.id)
 	slot0:DeleteTween("fighting" .. slot3.id)

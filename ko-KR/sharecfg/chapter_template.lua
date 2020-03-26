@@ -65280,6 +65280,1555 @@ pg.chapter_template = {
 		land_based = {},
 		chapter_buff = {}
 	},
+	[20007] = {
+		mine_id = 2001,
+		progress_boss = 100,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.2046875",
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 0,
+		best_air_dominance = 0,
+		count = 0,
+		id = 20007,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		chapter_tag = 0,
+		pre_chapter = 0,
+		star_require_1 = 0,
+		pos_y = "0.258333333",
+		num_1 = 0,
+		model = 3,
+		investigation_ratio = 0,
+		num_2 = 0,
+		num_3 = 0,
+		unlocklevel = 0,
+		boss_refresh_special = 0,
+		uifx = "",
+		name = "상선 호위 EASY",
+		chapter_name = "CE1",
+		type = 1,
+		act_id = 0,
+		enter_story = "",
+		boss_refresh = 0,
+		event_skip = 0,
+		friendly_id = 7,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		map = 70000,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "적의 기뢰 망과 통상파괴함대에 대처하여, 수송 임무를 담당하는 선단이 목표 지점에 도착할 때까지 지켜내라! 출격 버튼을 누르면 <color=#92fc63>횟수가 소비되며, 퇴각해도 회복되지 않습니다</color>.(퇴각한 경우에도 일정한 보상을 획득합니다）",
+		difficulty = 4,
+		avoid_ratio = 0,
+		star_require_2 = 0,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 0,
+		scale = {
+			0.55,
+			0.5,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				5000045,
+				18,
+				0
+			},
+			{
+				5000046,
+				32,
+				0
+			},
+			{
+				5000047,
+				24,
+				1
+			},
+			{
+				5000048,
+				18,
+				0
+			},
+			{
+				5000049,
+				25,
+				0
+			},
+			{
+				5000050,
+				18,
+				1
+			},
+			{
+				5000051,
+				0,
+				0
+			},
+			{
+				5000052,
+				35,
+				0
+			},
+			{
+				5000053,
+				16,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			5000054,
+			5000055,
+			5000056
+		},
+		elite_expedition_list = {
+			5000045,
+			5000048,
+			5000051
+		},
+		ai_expedition_list = {
+			5000020,
+			5000021,
+			5000022,
+			5000023,
+			5000024
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			0
+		},
+		enemy_refresh = {
+			0,
+			1,
+			1
+		},
+		elite_refresh = {
+			2
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				3,
+				0
+			}
+		},
+		win_condition_display = {
+			"상선이 지정 위치 도착"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
+		},
+		icon = {
+			"Z46"
+		},
+		awards = {
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				1
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				17
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				12
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				7
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				1
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				7
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				7
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				18
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				1,
+				"1x1depot_day",
+				-13,
+				24
+			},
+			{
+				4,
+				6,
+				"1x1NormalIsland_2",
+				0,
+				0
+			},
+			{
+				3,
+				3,
+				"1x3NormalIsland_2",
+				0,
+				0
+			},
+			{
+				1,
+				4,
+				"1x1NormalIsland_1",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			0,
+			0,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			8,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[20008] = {
+		mine_id = 2001,
+		progress_boss = 100,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.2546875",
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 0,
+		best_air_dominance = 0,
+		count = 0,
+		id = 20008,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		chapter_tag = 0,
+		pre_chapter = 0,
+		star_require_1 = 0,
+		pos_y = "0.041666667",
+		num_1 = 0,
+		model = 3,
+		investigation_ratio = 0,
+		num_2 = 0,
+		num_3 = 0,
+		unlocklevel = 0,
+		boss_refresh_special = 0,
+		uifx = "",
+		name = "상선 호위 NORMAL",
+		chapter_name = "CE2",
+		type = 1,
+		act_id = 0,
+		enter_story = "",
+		boss_refresh = 0,
+		event_skip = 0,
+		friendly_id = 8,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		map = 70000,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "적의 기뢰 망과 통상파괴함대에 대처하여, 수송 임무를 담당하는 선단이 목표 지점에 도착할 때까지 지켜내라! 출격 버튼을 누르면 <color=#92fc63>횟수가 소비되며, 퇴각해도 회복되지 않습니다</color>.(퇴각한 경우에도 일정한 보상을 획득합니다）",
+		difficulty = 4,
+		avoid_ratio = 0,
+		star_require_2 = 0,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 0,
+		scale = {
+			0.36,
+			0.64,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				5000057,
+				10,
+				0
+			},
+			{
+				5000058,
+				28,
+				0
+			},
+			{
+				5000059,
+				28,
+				1
+			},
+			{
+				5000060,
+				14,
+				0
+			},
+			{
+				5000061,
+				29,
+				0
+			},
+			{
+				5000062,
+				22,
+				1
+			},
+			{
+				5000063,
+				0,
+				0
+			},
+			{
+				5000064,
+				39,
+				0
+			},
+			{
+				5000065,
+				22,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			5000066,
+			5000067,
+			5000068
+		},
+		elite_expedition_list = {
+			5000057,
+			5000060,
+			5000063
+		},
+		ai_expedition_list = {
+			5000030,
+			5000031,
+			5000032,
+			5000033,
+			5000034
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			0
+		},
+		enemy_refresh = {
+			0,
+			1,
+			1
+		},
+		elite_refresh = {
+			2
+		},
+		ai_refresh = {
+			1,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				3,
+				0
+			}
+		},
+		win_condition_display = {
+			"상선이 지정 위치 도착"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
+		},
+		icon = {
+			"qibolin"
+		},
+		awards = {
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				5,
+				true,
+				18
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				12
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				4
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				12
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				7
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				1
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				7
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				1
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				7
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				6
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				17
+			}
+		},
+		float_items = {
+			{
+				6,
+				4,
+				"1x1depot_day",
+				-12,
+				25
+			},
+			{
+				6,
+				0,
+				"1x1NormalIsland_2",
+				0,
+				0
+			},
+			{
+				4,
+				5,
+				"1x1NormalIsland_2",
+				0,
+				0
+			},
+			{
+				3,
+				3,
+				"2x2NormalIsland_1",
+				-39,
+				-40
+			},
+			{
+				3,
+				2,
+				"1x1Rock_1",
+				-30,
+				17
+			},
+			{
+				1,
+				4,
+				"1x1NormalIsland_1",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			20,
+			0,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			8,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[20009] = {
+		mine_id = 2001,
+		progress_boss = 100,
+		oil = 10,
+		group_num = 2,
+		pos_x = "0.6015625",
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 0,
+		best_air_dominance = 0,
+		count = 0,
+		id = 20009,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		chapter_tag = 0,
+		pre_chapter = 0,
+		star_require_1 = 0,
+		pos_y = "0.153125",
+		num_1 = 0,
+		model = 3,
+		investigation_ratio = 0,
+		num_2 = 0,
+		num_3 = 0,
+		unlocklevel = 0,
+		boss_refresh_special = 0,
+		uifx = "",
+		name = "상선 호위 HARD",
+		chapter_name = "CE3",
+		type = 1,
+		act_id = 0,
+		enter_story = "",
+		boss_refresh = 0,
+		event_skip = 0,
+		friendly_id = 9,
+		mitigation_rate = 0,
+		mitigation_level = 0,
+		ammo_total = 5,
+		map = 70000,
+		enter_story_limit = "",
+		star_require_3 = 0,
+		profiles = "적의 기뢰 망과 통상파괴함대에 대처하여, 수송 임무를 담당하는 선단이 목표 지점에 도착할 때까지 지켜내라! 출격 버튼을 누르면 <color=#92fc63>횟수가 소비되며, 퇴각해도 회복되지 않습니다</color>.(퇴각한 경우에도 일정한 보상을 획득합니다）",
+		difficulty = 4,
+		avoid_ratio = 0,
+		star_require_2 = 0,
+		time = 43200,
+		limit_move = 1,
+		submarine_num = 0,
+		scale = {
+			0.338,
+			0.43,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				5000069,
+				12,
+				0
+			},
+			{
+				5000070,
+				20,
+				0
+			},
+			{
+				5000071,
+				30,
+				0
+			},
+			{
+				5000072,
+				13,
+				0
+			},
+			{
+				5000073,
+				34,
+				0
+			},
+			{
+				5000074,
+				24,
+				1
+			},
+			{
+				5000075,
+				0,
+				0
+			},
+			{
+				5000076,
+				34,
+				0
+			},
+			{
+				5000077,
+				25,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			5000078,
+			5000079,
+			5000080
+		},
+		elite_expedition_list = {
+			5000069,
+			5000072,
+			5000075
+		},
+		ai_expedition_list = {
+			5000040,
+			5000041,
+			5000042,
+			5000043,
+			5000044
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			0
+		},
+		enemy_refresh = {
+			1,
+			2,
+			1
+		},
+		elite_refresh = {
+			2
+		},
+		ai_refresh = {
+			2,
+			1,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				3,
+				0
+			}
+		},
+		win_condition_display = {
+			"상선이 지정 위치 도착"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"아군 함대 전멸"
+		},
+		icon = {
+			"tierbici"
+		},
+		awards = {
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				true,
+				18
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				7
+			},
+			{
+				6,
+				5,
+				true,
+				7
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				1
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				7
+			},
+			{
+				4,
+				8,
+				true,
+				7
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				7
+			},
+			{
+				4,
+				5,
+				true,
+				7
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				12
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				17
+			},
+			{
+				2,
+				8,
+				true,
+				7
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				12
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				1
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				12
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				4,
+				"1x1NormalIsland_1",
+				0,
+				0
+			},
+			{
+				5,
+				6,
+				"1x1NormalIsland_2",
+				0,
+				0
+			},
+			{
+				4,
+				2,
+				"1x3NormalIsland_2",
+				0,
+				0
+			},
+			{
+				2,
+				5,
+				"2x2NormalIsland_1",
+				70,
+				-35
+			},
+			{
+				2,
+				2,
+				"2x1NormalIsland_1",
+				-20,
+				0
+			},
+			{
+				2,
+				1,
+				"1x1Rock_1",
+				-12,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_day",
+			45,
+			20,
+			0,
+			0,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			8,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_buff = {}
+	},
 	[1040001] = {
 		mine_id = 2001,
 		progress_boss = 50,
@@ -159521,8 +161070,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 90,
+		best_air_dominance = 120,
 		count = 0,
 		id = 1190001,
 		icon_outline = 0,
@@ -160009,8 +161558,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 120,
+		best_air_dominance = 160,
 		count = 0,
 		id = 1190002,
 		icon_outline = 0,
@@ -160559,8 +162108,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 160,
+		best_air_dominance = 210,
 		count = 0,
 		id = 1190003,
 		icon_outline = 0,
@@ -161199,8 +162748,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 200,
+		best_air_dominance = 260,
 		count = 0,
 		id = 1190004,
 		icon_outline = 0,
@@ -161862,8 +163411,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 260,
+		best_air_dominance = 340,
 		count = 0,
 		id = 1190005,
 		icon_outline = 0,
@@ -162543,8 +164092,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 320,
+		best_air_dominance = 420,
 		count = 0,
 		id = 1190006,
 		icon_outline = 0,
@@ -163399,8 +164948,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 320,
+		best_air_dominance = 420,
 		count = 0,
 		id = 1190011,
 		icon_outline = 0,
@@ -163928,8 +165477,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 360,
+		best_air_dominance = 470,
 		count = 0,
 		id = 1190012,
 		icon_outline = 0,
@@ -164519,8 +166068,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 400,
+		best_air_dominance = 520,
 		count = 0,
 		id = 1190013,
 		icon_outline = 0,
@@ -165200,8 +166749,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 490,
+		best_air_dominance = 635,
 		count = 0,
 		id = 1190014,
 		icon_outline = 0,
@@ -165904,8 +167453,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 580,
+		best_air_dominance = 755,
 		count = 0,
 		id = 1190015,
 		icon_outline = 0,
@@ -166626,8 +168175,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 680,
+		best_air_dominance = 885,
 		count = 0,
 		id = 1190016,
 		icon_outline = 0,
@@ -167523,8 +169072,8 @@ pg.chapter_template = {
 		ammo_submarine = 0,
 		ammo_cost = 1,
 		collection_team = 0,
-		air_dominance = 0,
-		best_air_dominance = 0,
+		air_dominance = 620,
+		best_air_dominance = 810,
 		count = 0,
 		id = 1190017,
 		icon_outline = 0,
@@ -276663,6 +278212,9 @@ pg.chapter_template = {
 		20004,
 		20005,
 		20006,
+		20007,
+		20008,
+		20009,
 		1040001,
 		1040002,
 		1040003,

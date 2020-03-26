@@ -945,7 +945,7 @@ pg.activity_month_sign = {
 		day21 = {
 			{
 				5,
-				100004,
+				100013,
 				1
 			}
 		},
@@ -1200,7 +1200,7 @@ pg.activity_month_sign = {
 		day21 = {
 			{
 				5,
-				100005,
+				100006,
 				1
 			}
 		},
@@ -1710,7 +1710,7 @@ pg.activity_month_sign = {
 		day21 = {
 			{
 				5,
-				100006,
+				100007,
 				1
 			}
 		},
@@ -1965,7 +1965,7 @@ pg.activity_month_sign = {
 		day21 = {
 			{
 				5,
-				100007,
+				100008,
 				1
 			}
 		},
@@ -2287,7 +2287,13 @@ pg.activity_month_sign = {
 				450
 			}
 		},
-		day31 = {}
+		day31 = {
+			{
+				1,
+				1,
+				1
+			}
+		}
 	},
 	{
 		id = 10,
@@ -2469,7 +2475,7 @@ pg.activity_month_sign = {
 		day21 = {
 			{
 				5,
-				100008,
+				100009,
 				1
 			}
 		},
@@ -2724,7 +2730,7 @@ pg.activity_month_sign = {
 		day21 = {
 			{
 				5,
-				100009,
+				100010,
 				1
 			}
 		},
@@ -2791,7 +2797,13 @@ pg.activity_month_sign = {
 				450
 			}
 		},
-		day31 = {}
+		day31 = {
+			{
+				1,
+				1,
+				1
+			}
+		}
 	},
 	{
 		id = 12,
@@ -2973,7 +2985,7 @@ pg.activity_month_sign = {
 		day21 = {
 			{
 				5,
-				100010,
+				100011,
 				1
 			}
 		},
@@ -3030,7 +3042,7 @@ pg.activity_month_sign = {
 			{
 				2,
 				30045,
-				2
+				1
 			}
 		},
 		day30 = {

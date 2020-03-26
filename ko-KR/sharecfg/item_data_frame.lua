@@ -16,6 +16,14 @@ pg.item_data_frame = {
 		desc = "항구에서 1년 동안 계속해서 분투를 하신 지휘관 님들께 바칩니다.\n<color=#A7A7AAFF> [재탄생의 새벽]을 개시하면 기념 코인을 획득.</color>",
 		scene = {}
 	},
+	[102] = {
+		name = "2주년 기념",
+		time_second = 0,
+		id = 102,
+		time_limit_type = 0,
+		desc = "항구에서 2년 동안 계속해서 분투를 하신 지휘관 님들께 바칩니다.\n<color=#A7A7AAFF>2주년 한정 이벤트에 참여하면 획득할 수 있습니다.</color>",
+		scene = {}
+	},
 	[201] = {
 		name = "한계 챌린저 ",
 		time_second = 0,
@@ -104,9 +112,18 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「동지들이여! 힘을 모으자! 이 세계를 우리 손으로 바꾸자!」 </color>\n「동절의 북해」 이벤트 획득 ",
 		scene = {}
 	},
+	[307] = {
+		name = "빛나는 날개",
+		time_second = 0,
+		id = 307,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>후속 이벤트를 통해 획득</color>",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
+		102,
 		201,
 		202,
 		203,
@@ -117,7 +134,8 @@ pg.item_data_frame = {
 		303,
 		304,
 		305,
-		306
+		306,
+		307
 	}
 }
 

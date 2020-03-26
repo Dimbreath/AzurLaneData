@@ -2163,12 +2163,12 @@ pg.furniture_data_template = {
 	},
 	[156] = {
 		advice = 0,
-		describe = "어떤 사진을 찍어줄까냥? ",
+		describe = "要拍什么样的照片喵？",
 		count = 1,
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
-		name = "포토존 ",
+		name = "摄影墙",
 		is_get_time_note = 0,
 		rarity = 5,
 		gain_by = "",
@@ -2643,12 +2643,12 @@ pg.furniture_data_template = {
 	},
 	[171] = {
 		advice = 0,
-		describe = "어서와냥 sofmap! 쥬! ",
+		describe = "欢迎光临sofmap！啾！",
 		count = 1,
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
-		name = "sofmap상점 ",
+		name = "sofmap商店",
 		is_get_time_note = 0,
 		rarity = 5,
 		gain_by = "",
@@ -3553,6 +3553,87 @@ pg.furniture_data_template = {
 		animator = {
 			{
 				"bianhuaxiangCharControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[100013] = {
+		advice = 0,
+		describe = "씨앗을 심으면 커다란 나무 한 그루로 자랄거에요. 높이높이~",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "마법의 콩나무",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "modouicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 100013,
+		picture = "",
+		comfortable = 5,
+		tag = 6,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"modouB",
+				"normal"
+			},
+			{
+				"modouT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"action",
+						0,
+						"stand2"
+					},
+					{
+						"action2",
+						0,
+						"tuozhuai2"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		animator = {
+			{
+				"modouCharControl"
 			}
 		},
 		interAction_group = {}
@@ -64104,6 +64185,7 @@ pg.furniture_data_template = {
 		100010,
 		100011,
 		100012,
+		100013,
 		1001,
 		1002,
 		1101,
