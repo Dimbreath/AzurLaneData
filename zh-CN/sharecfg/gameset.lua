@@ -814,6 +814,11 @@ pg.gameset = {
 				5
 			}
 		}
+	},
+	award_ship_limit = {
+		description = "奖励超过20只就不一个一个展示获得界面，直接显示全部获得",
+		key = "award_ship_limit",
+		key_value = 20
 	}
 }
 
