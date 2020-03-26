@@ -7675,7 +7675,7 @@ No.7 駆逐艦「鞍山」
 		key = "activity_switch_award_pool_failed"
 	},
 	shop_street_activity_tip = {
-		tip = "*<color=#A1E400FF>20.2.27-20.3.11</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します",
+		tip = "*<color=#A1E400FF>20.3.26-20.4.8</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します",
 		key = "shop_street_activity_tip"
 	},
 	twitter_link_title = {
@@ -8928,7 +8928,7 @@ No.7 駆逐艦「鞍山」
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "イベント期間、「タシュケント」 などの出現率UP！",
+		tip = "イベント期間、「イントレピッド」 などの出現率UP！",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -8940,7 +8940,7 @@ No.7 駆逐艦「鞍山」
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "「龍驤」の出現率UP!",
+		tip = "「大鳳」常設追加！",
 		key = "buildship_special_tip"
 	},
 	open_skill_pos = {
@@ -12941,6 +12941,10 @@ GET!
 				y = 1024
 			}
 		}
+	},
+	retire_selectzero = {
+		tip = "一括退役できる艦船が存在しません",
+		key = "retire_selectzero"
 	},
 	undermist_tip = {
 		tip = "次の任務は明日に開放されます",

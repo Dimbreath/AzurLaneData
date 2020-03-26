@@ -117,7 +117,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 307,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>後日イベントで入手可能</color>",
+		desc = "<color=#ffffff>「恐れなき自由の雷よ、暗闇を払い行き先を示せ！」</color>\n――「闇靄払う銀翼 」イベントで入手可能",
 		scene = {}
 	},
 	[401] = {

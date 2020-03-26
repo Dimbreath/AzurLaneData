@@ -454,6 +454,14 @@ slot1 = {
 	[ActivityConst.OUTPOST_PT] = {
 		className = "OutPostPtPage",
 		uiName = "OutPostPtPage"
+	},
+	[ActivityConst.AMERICAN_MAIN] = {
+		className = "AmericanMainPage",
+		uiName = "AmericanMainPage"
+	},
+	[ActivityConst.AMERICAN_PT] = {
+		className = "AmericanPtPage",
+		uiName = "AmericanPtPage"
 	}
 }
 slot2 = {
