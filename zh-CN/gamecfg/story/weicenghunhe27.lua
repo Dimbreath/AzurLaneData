@@ -95,7 +95,22 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 106550,
-			say = "航空巡洋舰，恐怕只有重樱才会继续研发那种型号了。从实战性能来说，航空巡洋舰的各方面均不出众，并不是一个好的选择。",
+			say = "如果是水上飞机还好说。如果是航空母舰用的舰载机的话，还是考虑改装成航空巡洋舰比较好哦…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 102270,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "说的也是呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +156,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "孟菲斯每天都泡在公文里难得出来一次，本来约好了这次带她在巴拿马好好放松一下呢。",
+			say = "孟菲斯每天都泡在公文里难得出来一次，本来约好了这次顺便带她在巴拿马放松一下呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +313,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 106550,
-			say = "咳…你没事了就好。这片区域已经探测不到潜艇的反应了，我们向下一片区域转移吧~",
+			say = "咳…你没事了就好。我们继续向下一片区域转移吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -4,7 +4,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
 					number = 450,
@@ -14,7 +15,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
 					number = 500,
@@ -28,7 +30,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
 					number = 530,
@@ -38,7 +41,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
 					number = 550,
@@ -52,7 +56,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
 					number = 610,
@@ -62,7 +67,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
 					number = 600,
@@ -76,7 +82,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
 					number = 700,
@@ -86,7 +93,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
 					number = 650,
@@ -100,7 +108,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
 					number = 780,
@@ -110,7 +119,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
 					number = 700,
@@ -124,7 +134,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
 					number = 860,
@@ -134,7 +145,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
 					number = 750,
@@ -148,7 +160,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
 					number = 950,
@@ -158,7 +171,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
 					number = 800,
@@ -172,7 +186,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
 					number = 1030,
@@ -182,7 +197,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
 					number = 850,
@@ -196,7 +212,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
 					number = 1110,
@@ -206,7 +223,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
 					number = 900,
@@ -220,7 +238,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
 					number = 1200,
@@ -230,7 +249,8 @@ return {
 			{
 				type = "BattleBuffAddAttrRatio",
 				trigger = {
-					"onAttach"
+					"onAttach",
+					"onRemove"
 				},
 				arg_list = {
 					number = 1000,
@@ -260,7 +280,8 @@ return {
 		{
 			type = "BattleBuffAddAttrRatio",
 			trigger = {
-				"onAttach"
+				"onAttach",
+				"onRemove"
 			},
 			arg_list = {
 				number = 450,
@@ -270,7 +291,8 @@ return {
 		{
 			type = "BattleBuffAddAttrRatio",
 			trigger = {
-				"onAttach"
+				"onAttach",
+				"onRemove"
 			},
 			arg_list = {
 				number = 500,

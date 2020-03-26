@@ -20,9 +20,16 @@ return {
 			targetAniEffect = "",
 			casterAniEffect = "",
 			type = "BattleSkillAddBuff",
-			target_choise = "TargetSelf",
+			target_choise = {
+				"TargetAllHelp",
+				"TargetShipType"
+			},
 			arg_list = {
-				buff_id = 4163
+				buff_id = 4160,
+				ship_type_list = {
+					6,
+					7
+				}
 			}
 		},
 		{
@@ -34,7 +41,8 @@ return {
 				"TargetShipType"
 			},
 			arg_list = {
-				buff_id = 4160,
+				buff_id = 4163,
+				delay = 3,
 				ship_type_list = {
 					6,
 					7

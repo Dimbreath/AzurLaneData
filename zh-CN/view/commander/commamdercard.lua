@@ -62,7 +62,7 @@ function slot0.update(slot0, slot1)
 	setActive(slot0.infoTF, slot1 and slot1.id ~= 0)
 	setActive(slot0.emptyTF, not slot1)
 	setActive(slot0.quitTF, slot1 and slot1.id == 0)
-	setActive(slot0.tip, slot1 and slot1:getTalentPoint() > 0 and not LOCK_COMMANDER_TALENT_TIP)
+	setActive(slot0.tip, slot1 and slot1.id ~= 0 and slot1:getTalentPoint() > 0 and not LOCK_COMMANDER_TALENT_TIP)
 end
 
 function slot0.updateCommander(slot0)

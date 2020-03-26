@@ -95,7 +95,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "堪比龙颚的强敌…！",
+			say = "毫无疑问，是强敌…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

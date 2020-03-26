@@ -176,7 +176,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103240,
-			say = "里诺还是一贯的有活力啊…",
+			say = "里诺还是一贯的有活力…很有成为拉拉队员的素质啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
