@@ -7741,7 +7741,7 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		key = "activity_switch_award_pool_failed"
 	},
 	shop_street_activity_tip = {
-		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during\n(<color=#A1E400FF>2.27 – 3.11</COLOR>)!",
+		tip = "※<color=#A1E400FF>Gear Skins</color> are purchasable during\n(<color=#A1E400FF>3.26 – 4.8</COLOR>)!",
 		key = "shop_street_activity_tip"
 	},
 	twitter_link_title = {
@@ -8878,7 +8878,7 @@ Combat Details:
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "Rate Up characters: Tashkent, Sovetskaya Rossiya, etc.",
+		tip = "Intrepid and Bremerton are now available in limited construction! ",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -8890,7 +8890,7 @@ Combat Details:
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "Special: Heavy Cruisers, Light Carriers, Carriers, Repair Ships, Submarine and more!",
+		tip = "{namecode:97} has been added to construction!",
 		key = "buildship_special_tip"
 	},
 	world_log_1 = {
@@ -12213,6 +12213,10 @@ Event Rules:
 				y = 1024
 			}
 		}
+	},
+	retire_selectzero = {
+		tip = "No ships fit the specified conditions for quick retire. ",
+		key = "retire_selectzero"
 	},
 	undermist_tip = {
 		tip = "No available missions. Please wait until tomorrow to unlock more.",

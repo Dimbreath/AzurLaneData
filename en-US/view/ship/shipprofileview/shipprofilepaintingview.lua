@@ -30,6 +30,10 @@ function slot0.SetHideObject(slot0)
 	end
 end
 
+function slot0.setBGCallback(slot0, slot1)
+	slot0.bgCallback = slot1
+end
+
 function slot0.Start(slot0)
 	slot0.cg.blocksRaycasts = false
 
@@ -87,7 +91,13 @@ function slot0.TweenObjects(slot0)
 	slot0.bgBtn.enabled = true
 
 	onButton(slot0, slot0.bg, function ()
-		slot0:Finish()
+		if slot0.bgCallback then
+			if slot0.exitFlag then
+				slot0.bgCallback()
+			end
+		else
+			slot0:Finish()
+		end
 	end, SFX_CANCEL)
 end
 

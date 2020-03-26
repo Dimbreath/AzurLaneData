@@ -4852,6 +4852,489 @@ pg.equip_skin_template = {
 			54014
 		}
 	},
+	[240] = {
+		icon = "92111",
+		bullet_name = "zidan_ganlanqiu",
+		name = "Football Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "It's sure to be an explosive kickoff today.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 18,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 240,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[241] = {
+		icon = "92112",
+		bullet_name = "zidan_bangqiu",
+		name = "Baseball Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Watch out, this one's a curveball.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 18,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 241,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[242] = {
+		icon = "92113",
+		bullet_name = "zidan_lanqiu",
+		name = "Basketball Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Just wait until you see the rebound!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 18,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 242,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[243] = {
+		icon = "92114",
+		bullet_name = "paodan_hanbao",
+		name = "Burger Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "If the impact doesn't do them in, the cholesterol will.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 18,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 243,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[244] = {
+		icon = "92115",
+		bullet_name = "paodan_zhaji",
+		name = "Deep-Fried Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Taste that pleases the tongue, momentum that breaks the jaw.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 18,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 244,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[245] = {
+		icon = "92116",
+		bullet_name = "paodan_kele",
+		name = "Soda Shell",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "\"You want a soda with that? Sure, have 5!\"",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 18,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 245,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[246] = {
+		icon = "92121",
+		bullet_name = "yulei_huoju",
+		name = "Torch Torpedo",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Ms. Liberty would be proud.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 18,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 246,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[247] = {
+		icon = "92122",
+		bullet_name = "yulei_aosika",
+		name = "Golden Statue Torpedo",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Some Leo fella worked hard to get one of these, apparently.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 18,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 247,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[248] = {
+		icon = "92123",
+		bullet_name = "yulei_jiutong",
+		name = "Prohibition Casket Torpedo",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "\"Those were dark times,\" Laffey whispers to herself.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 18,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 248,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[249] = {
+		icon = "92131",
+		bullet_name = "feiji_eagle",
+		name = "Bald Eagle",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Prefers being called \"Eagle\" over \"Baldie.\"",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 18,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 249,
+		derivate_torpedo = "yulei_huoju",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[250] = {
+		icon = "92131",
+		bullet_name = "feiji_eagle",
+		name = "Bald Eagle",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Prefers being called \"Eagle\" over \"Baldie.\"",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_lanqiu",
+		themeid = 18,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 250,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[251] = {
+		icon = "92131",
+		bullet_name = "feiji_eagle",
+		name = "Bald Eagle",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "Prefers being called \"Eagle\" over \"Baldie.\"",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_lanqiu",
+		themeid = 18,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 251,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[252] = {
+		icon = "92132",
+		bullet_name = "feiji_cowboy",
+		name = "Cowboy Manjuu",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "This is his last bombing run before retiring to become a mango farmer.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 18,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 252,
+		derivate_torpedo = "yulei_jiutong",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[253] = {
+		icon = "92132",
+		bullet_name = "feiji_cowboy",
+		name = "Cowboy Manjuu",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "This is his last bombing run before retiring to become a mango farmer.",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_ganlanqiu",
+		themeid = 18,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 253,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[254] = {
+		icon = "92132",
+		bullet_name = "feiji_cowboy",
+		name = "Cowboy Manjuu",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "This is his last bombing run before retiring to become a mango farmer.",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_ganlanqiu",
+		themeid = 18,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 254,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[255] = {
+		icon = "92133",
+		bullet_name = "feiji_super",
+		name = "Super Manjuu",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "It's a bird! It's a plane! Wait... it's both!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		themeid = 18,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 255,
+		derivate_torpedo = "yulei_aosika",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[256] = {
+		icon = "92133",
+		bullet_name = "feiji_super",
+		name = "Super Manjuu",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "It's a bird! It's a plane! Wait... it's both!",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_bangqiu",
+		themeid = 18,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 256,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[257] = {
+		icon = "92133",
+		bullet_name = "feiji_super",
+		name = "Super Manjuu",
+		type = 1,
+		attachment_cusual = "",
+		attachment_combat_ui = "",
+		attachment_combat_scene = "",
+		desc = "It's a bird! It's a plane! Wait... it's both!",
+		ship_config_id = 100011,
+		derivate_boom = "zidan_bangqiu",
+		themeid = 18,
+		rarity = 4,
+		attachment_key = 0,
+		derivate_bullet = "",
+		id = 257,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
 	[1001] = {
 		icon = "90640",
 		bullet_name = "Nep_bullet_shizi",
@@ -5951,6 +6434,24 @@ pg.equip_skin_template = {
 		235,
 		236,
 		237,
+		240,
+		241,
+		242,
+		243,
+		244,
+		245,
+		246,
+		247,
+		248,
+		249,
+		250,
+		251,
+		252,
+		253,
+		254,
+		255,
+		256,
+		257,
 		1001,
 		1002,
 		1003,

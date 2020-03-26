@@ -5433,6 +5433,210 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[4161] = {
+		desc_get = "",
+		name = "Supporting Wings ",
+		desc = "The following buffs are active as long as this ship is afloat: 1) At the start of the battle, increases AVI by $1 and RLD by $2 for all CVs and CVLs in the same fleet this ship is in, and decreases the load time of this ship's first Airstrike by $3. 2) At the start of the battle, increases RLD by $4 for all CVs and CVLs in the fleet this ship is NOT in. Effect does not stack with the same skill. ",
+		type = 3,
+		max_level = 10,
+		id = 4161,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"5.0%",
+				"10.0%"
+			},
+			{
+				"10.0%",
+				"25.0%"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.8%"
+				},
+				{
+					"5.3%",
+					"+0.8%"
+				},
+				{
+					"6.1%",
+					"+0.9%"
+				},
+				{
+					"7.0%",
+					"+0.8%"
+				},
+				{
+					"7.8%",
+					"+0.8%"
+				},
+				{
+					"8.6%",
+					"+0.9%"
+				},
+				{
+					"9.5%",
+					"+0.8%"
+				},
+				{
+					"10.3%",
+					"+0.8%"
+				},
+				{
+					"11.1%",
+					"+0.9%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%",
+					"+0.5%"
+				},
+				{
+					"8.5%",
+					"+0.5%"
+				},
+				{
+					"9.0%",
+					"+1%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.5%"
+				},
+				{
+					"11.5%",
+					"+1.5%"
+				},
+				{
+					"13%",
+					"+1.5%"
+				},
+				{
+					"14.5%",
+					"+1.6%"
+				},
+				{
+					"16.1%",
+					"+1.6%"
+				},
+				{
+					"17.7%",
+					"+1.7%"
+				},
+				{
+					"19.4%",
+					"+1.8%"
+				},
+				{
+					"21.2%",
+					"+1.8%"
+				},
+				{
+					"23%",
+					"+2%"
+				},
+				{
+					"25.0%"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
+	},
+	[4171] = {
+		desc_get = "",
+		name = "空域辅助-共通效果占用id",
+		desc = "",
+		type = 3,
+		max_level = 10,
+		id = 4171,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[5001] = {
 		desc_get = "Every 20s: 25.0% chance to pick one enemy at random (prioritizes humanoid enemies) and decrease their Fire Rate and DMG for 5s (10s when fully upgraded.) Does not stack with the same skill.",
 		name = "Interference",
@@ -6411,6 +6615,17 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6360] = {
+		desc_get = "",
+		name = "Delayed Firing ",
+		desc = "Decreases Main Gun Spread Range by 2 for the ship equipping this gear. ",
+		type = 0,
+		max_level = 0,
+		id = 6360,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[6380] = {
 		desc_get = "",
 		name = "Random Word Generator",
@@ -6477,6 +6692,28 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6420] = {
+		desc_get = "",
+		name = "Armor-Piercing Bombs ",
+		desc = "When this aircraft hits an enemy: 24.0% chance to inflict Armor Break to the target. Armor Break debuff does not stack. ",
+		type = 0,
+		max_level = 0,
+		id = 6420,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6430] = {
+		desc_get = "",
+		name = "Thach Weave ",
+		desc = "Increases the efficiency of all your Fighters by 4.0%. This buff cannot be stacked; only the strongest buff will take effect. ",
+		type = 0,
+		max_level = 0,
+		id = 6430,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[6440] = {
 		desc_get = "",
 		name = "Anti-Siren Tactics Ⅰ ",
@@ -6521,6 +6758,17 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[6480] = {
+		desc_get = "",
+		name = "Crest of the Four Gods ",
+		desc = "When equipped by an An Shan-class ship: increases their Main Gun DMG by 16.0% and improves their All Out Assault. ",
+		type = 0,
+		max_level = 0,
+		id = 6480,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[6490] = {
 		desc_get = "",
 		name = "Team Emblem",
@@ -6561,6 +6809,28 @@ pg.skill_data_template = {
 		type = 0,
 		max_level = 0,
 		id = 6520,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6530] = {
+		desc_get = "",
+		name = "PBY Aerial Recon ",
+		desc = "Provides aerial reconnaissance, decreasing Ambush chance by 10.0% and increasing Ambush evasion chance by 10.0%. Effect does not stack. ",
+		type = 0,
+		max_level = 0,
+		id = 6530,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6540] = {
+		desc_get = "",
+		name = "Battleship Strikeforce ",
+		desc = "Increases DMG against enemy BBs and BCs by 3.0% for the ship equipping this aircraft. When this aircraft hits an enemy BB, BC, or BBV: 60.0% chance to inflict the Flood debuff to them for 9s. Flood DMG is based on the AVI stat of the ship equipping this aircraft. ",
+		type = 0,
+		max_level = 0,
+		id = 6540,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -8366,7 +8636,7 @@ pg.skill_data_template = {
 				},
 				{
 					"17",
-					"1"
+					"-1"
 				},
 				{
 					"16",
@@ -30202,6 +30472,872 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[13070] = {
+		desc_get = "",
+		name = "Soaring Silver Wings",
+		desc = "After this ship finishes loading an Airstrike: launches an additional $1 SB2C Helldiver airstrike (DMG is based on the skill's level.) This airstrike inflicts Armor Break to all BBs, BCs, and BBVs hit by it. Armor Break debuff does not stack.",
+		type = 1,
+		max_level = 10,
+		id = 13070,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[13080] = {
+		desc_get = "",
+		name = "Formation Shift",
+		desc = "On the 1st, 3rd, and 5th battles of each sortie that this ship takes part in: increases this ship's AVI by $1. On the 2nd, 4th, and 6th battles: decreases this ship's DMG taken by $2.",
+		type = 3,
+		max_level = 10,
+		id = 13080,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	},
+	[13090] = {
+		desc_get = "",
+		name = "The Fearless Fighting I",
+		desc = "Once per battle, when this ship's HP falls below 20.0%, activates the following buffs: 1) Decreases this ship's DMG taken by $1 for 20s. 2) This ship takes 0 Burn DMG for 30s.",
+		type = 2,
+		max_level = 10,
+		id = 13090,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"15.0%",
+				"25.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
+				}
+			}
+		}
+	},
+	[13100] = {
+		desc_get = "",
+		name = "Blazing Burst Wings",
+		desc = "1) When this ship fires its Main Guns: $1 chance to increase this ship's Main Gun DMG to 130.0% for 3s (this buff has a 5s cooldown between activations.) 2) When this ship fires its Main Guns: $2 chance to fire a special barrage that Burns targets hit by it for 6s (this barrage has a 10s cooldown between activations)",
+		type = 1,
+		max_level = 10,
+		id = 13100,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"15.0%",
+				"30.0%"
+			},
+			{
+				"40.0%",
+				"70.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.6%"
+				},
+				{
+					"19.8%",
+					"+1.6%"
+				},
+				{
+					"21.4%",
+					"+1.6%"
+				},
+				{
+					"23.0%",
+					"+1.6%"
+				},
+				{
+					"24.6%",
+					"+1.8%"
+				},
+				{
+					"26.4%",
+					"+1.8%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			}
+		}
+	},
+	[13110] = {
+		desc_get = "",
+		name = "One for the Team",
+		desc = "At the start of the battle, if this ship is in the frontmost position of your Vanguard: decreases this ship's DMG taken by $1 for 30s; If not in this position, increases this ship's AA by $2 until the end of the battle.",
+		type = 2,
+		max_level = 10,
+		id = 13110,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"20.0%"
+			},
+			{
+				"15.0%",
+				"25.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.6%"
+				},
+				{
+					"6.6%",
+					"+1.6%"
+				},
+				{
+					"8.2%",
+					"+1.8%"
+				},
+				{
+					"10.0%",
+					"+1.6%"
+				},
+				{
+					"11.6%",
+					"+1.6%"
+				},
+				{
+					"13.2%",
+					"+1.8%"
+				},
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.8%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
+				}
+			}
+		}
+	},
+	[13120] = {
+		desc_get = "",
+		name = "Vigilant Supporter ",
+		desc = "At the start of the battle, if there is a CV or CVL afloat in the same fleet as this ship: increases this ship's Crit Rate by $1. For each CV or CVL in the same fleet: increases this ship's DMG to enemy DDs and CLs by $2. For the 1st and 2nd battles of each sortie that this ship takes part in: decreases DMG taken by $3 for all CVs and CVLs in the same fleet. ",
+		type = 1,
+		max_level = 10,
+		id = 13120,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"1.5%",
+				"6.0%"
+			},
+			{
+				"5.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%",
+					"+0.5%"
+				},
+				{
+					"8.5%",
+					"+0.5%"
+				},
+				{
+					"9.0%",
+					"+1%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[13130] = {
+		desc_get = "",
+		name = "Black Cat Cyclone ",
+		desc = "1) Every 20s: increases this ship's FP by $2 for 10s, reveals the location of all enemy SSs for 10s, and launches a $1 seaplane airstrike. 2) Once per battle, if this ship has the PBY-5A Catalina equipped when its HP falls below 40.0%: launches a special seaplane airstrike. Airstrike DMG is based on the skill's level. ",
+		type = 1,
+		max_level = 10,
+		id = 13130,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[13140] = {
+		desc_get = "",
+		name = "Reno Reactor ",
+		desc = "At the start of the battle: increases this ship's AA by $1 and FP by $2. Every third time a ship in your Main Fleet takes DMG: increases this ship's AA and FP by $3 (can be stacked up to 2 times) until the end of the battle. ",
+		type = 3,
+		max_level = 10,
+		id = 13140,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"1.5%",
+				"6.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%"
+				}
+			}
+		}
+	},
+	[13150] = {
+		desc_get = "",
+		name = "Blue Hunter ",
+		desc = "Increases this boat's DMG against enemy DDs and CLs by $1. ",
+		type = 3,
+		max_level = 10,
+		id = 13150,
+		system_transform = {
+			[11.0] = 3500
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shells 194/160+",
@@ -32871,6 +34007,28 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 20072,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[20081] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Allen M. Sumner-class once every 15 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 20081,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[20082] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Allen M. Sumner-class once every 10 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 20082,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -35691,6 +36849,28 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 29512,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29521] = {
+		desc_get = "",
+		name = "Reno Barrage Ⅰ",
+		desc = "While equipping a DD Main Gun: increases this ship's Main Gun efficiency by 10.0%. Activates Reno Barrage Ⅰ once every 15 times (12 if equipping a DD Main Gun) the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 29521,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[29531] = {
+		desc_get = "",
+		name = "Reno Barrage Ⅱ",
+		desc = "While equipping a DD Main Gun: increases this ship's Main Gun efficiency by 10.0%. Activates Reno Barrage Ⅱ once every 10 times (8 if equipping a DD Main Gun) the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 29531,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -38934,6 +40114,8 @@ pg.skill_data_template = {
 		4131,
 		4141,
 		4151,
+		4161,
+		4171,
 		5001,
 		5011,
 		5021,
@@ -38977,20 +40159,26 @@ pg.skill_data_template = {
 		6291,
 		6300,
 		6310,
+		6360,
 		6380,
 		6390,
 		6400,
 		6410,
 		6411,
 		6415,
+		6420,
+		6430,
 		6440,
 		6450,
 		6460,
 		6470,
+		6480,
 		6490,
 		6500,
 		6510,
 		6520,
+		6530,
+		6540,
 		7000,
 		9010,
 		9020,
@@ -39292,6 +40480,15 @@ pg.skill_data_template = {
 		13040,
 		13050,
 		13060,
+		13070,
+		13080,
+		13090,
+		13100,
+		13110,
+		13120,
+		13130,
+		13140,
+		13150,
 		18010,
 		18040,
 		18050,
@@ -39341,6 +40538,8 @@ pg.skill_data_template = {
 		20062,
 		20071,
 		20072,
+		20081,
+		20082,
 		20111,
 		20112,
 		20121,
@@ -39597,6 +40796,8 @@ pg.skill_data_template = {
 		29502,
 		29511,
 		29512,
+		29521,
+		29531,
 		101010,
 		101020,
 		101030,

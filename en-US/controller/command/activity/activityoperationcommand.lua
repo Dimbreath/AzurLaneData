@@ -412,12 +412,27 @@ function slot0.performance(slot0, slot1, slot2, slot3, slot4)
 				pg.StoryMgr.GetInstance():Play(slot1, pg.StoryMgr.GetInstance().Play)
 				coroutine.yield()
 			end
-		elseif slot0 == ActivityConst.ACTIVITY_TYPE_DODGEM and slot5.cmd == 2 and slot4.number[3] > 0 then
-			table.insert(slot6, {
-				type = slot1:getConfig("config_client")[1][1],
-				id = slot1.getConfig("config_client")[1][2],
-				count = slot1.getConfig("config_client")[1][3]
-			})
+		elseif slot0 == ActivityConst.ACTIVITY_TYPE_DODGEM then
+			if slot5.cmd == 2 and slot4.number[3] > 0 then
+				table.insert(slot6, {
+					type = slot1:getConfig("config_client")[1][1],
+					id = slot1.getConfig("config_client")[1][2],
+					count = slot1.getConfig("config_client")[1][3]
+				})
+			end
+		elseif slot0 == ActivityConst.ACTIVITY_TYPE_SHOP and #slot6 == 1 and slot6[1].type == DROP_TYPE_ITEM then
+			slot1 = Item.EQUIPMENT_SKIN_BOX == pg.item_data_statistics[slot6[1].id].type
+
+			if slot0.type == DROP_TYPE_ITEM and slot1 then
+				slot6 = {}
+
+				slot3:sendNotification(GAME.USE_ITEM, {
+					skip_check = true,
+					id = slot0.id,
+					count = slot0.count
+				})
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_success"))
+			end
 		end
 
 		if #slot6 > 0 then

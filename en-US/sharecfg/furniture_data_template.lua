@@ -2619,6 +2619,126 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[173] = {
+		advice = 0,
+		describe = "A very detailed model of a stronghold located by the canal that connects two oceans. – Awarded to commanders who participated in the \"Microlayer Medley\" event.",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "Canal Medal",
+		is_get_time_note = 1,
+		rarity = 5,
+		gain_by = "Microlayer Medley ",
+		themeId = 0,
+		icon = "usver3xunzhangicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 173,
+		picture = "chuanmo/usver3xunzhang",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
+	[100002] = {
+		advice = 0,
+		describe = "飞高高～飞高高～…唔！？太高了太高了！！QAQ",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "友情的打气筒",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 0,
+		icon = "19.01.15icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		id = 100002,
+		picture = "qiandao/yiyue",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			7,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"201901login",
+				"normal"
+			},
+			[3] = {
+				{
+					0,
+					0
+				},
+				{
+					{
+						"yun"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			[4] = {},
+			[5] = {
+				-25.8,
+				11.1
+			},
+			[6] = {
+				1,
+				1
+			}
+		},
+		spine_extra = {
+			{
+				{},
+				{
+					21.2,
+					-11
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		animator = {
+			{
+				"201901loginCharControl",
+				"201901loginCharControl2"
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		advice = 0,
 		describe = "Watch out for splinters.",
@@ -56346,6 +56466,1245 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[61001] = {
+		advice = 0,
+		describe = "Made with authentic fake grass!",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "Stadium Flooring",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 61,
+		icon = "dibanydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61001,
+		picture = "yd/dibanyd",
+		comfortable = 4,
+		tag = 4,
+		size = {
+			2,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61002] = {
+		advice = 0,
+		describe = "Clear skies and sunshine. Perfect weather for any kind of sport.",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "Stadium Wallpaper",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 61,
+		icon = "qiangbiydicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61002,
+		picture = "yd/qiangbiyd",
+		comfortable = 4,
+		tag = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61101] = {
+		advice = 0,
+		describe = "Grab a bottle of water and head on in.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Sports Meet Booth",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 61,
+		icon = "baomingydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61101,
+		picture = "yd/baomingyd",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61102] = {
+		advice = 0,
+		describe = "First up: Shimakaze. She's so fast she finished the race without even attending!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Position Marker 1",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 61,
+		icon = "biaopai1ydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 61102,
+		picture = "yd/biaopai1yd",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61103] = {
+		advice = 0,
+		describe = "Second: Tashkent. Though called a \"cruiser,\" she gives even the lightest of cruisers a run for their money!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Position Marker 2",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 61,
+		icon = "biaopai2ydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 61103,
+		picture = "yd/biaopai2yd",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61104] = {
+		advice = 0,
+		describe = "Third: Kongou. She's quick, she's elegant, she can sip a cup of tea while she speeds along!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Position Marker 3",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 61,
+		icon = "biaopai3ydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 61104,
+		picture = "yd/biaopai3yd",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61105] = {
+		advice = 0,
+		describe = "Fourth: Maury. Also known as Hurricane Maury, she'll leave you in the dust if you don't hurry!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Position Marker 4",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 61,
+		icon = "biaopai4ydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 61105,
+		picture = "yd/biaopai4yd",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61106] = {
+		advice = 0,
+		describe = "Fifth: Charles Ausburne. Watch out; when she gets going, she *really* gets going!",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Position Marker 5",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 61,
+		icon = "biaopai5ydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 61106,
+		picture = "yd/biaopai5yd",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61107] = {
+		advice = 0,
+		describe = "\"Foul play? Tell it to the judge.\"",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Referee Tower",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 61,
+		icon = "caipanaydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 61107,
+		picture = "yd/caipanayd",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					14.5,
+					31.2
+				},
+				{
+					1,
+					1
+				},
+				"yd/caipanayd_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61108] = {
+		advice = 0,
+		describe = "Gets you closer to the action, albeit with a worse view of it.",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Referee Chair",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 61,
+		icon = "caipanbydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 61108,
+		picture = "yd/caipanbyd",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					22.3,
+					10.1
+				},
+				{
+					1,
+					1
+				},
+				"yd/caipanbyd_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61109] = {
+		advice = 0,
+		describe = "Want your ad here? Call 1-800-MANJUU.",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Billboard",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 61,
+		icon = "dangydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 61109,
+		picture = "yd/dangyd",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			4,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61110] = {
+		advice = 0,
+		describe = "Not particularly packed, but they'll cheer extra loud to make up for it.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Manjuu Stands",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 61,
+		icon = "guanxiydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 1,
+		id = 61110,
+		picture = "yd/guanxiyd",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			8,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					41.5,
+					120.3
+				},
+				{
+					1,
+					1
+				},
+				"yd/guanxiyd_using2"
+			},
+			{
+				"sit",
+				{
+					190.1,
+					4.3
+				},
+				{
+					1,
+					1
+				},
+				"yd/guanxiyd_using1"
+			},
+			{
+				"sit",
+				{
+					58.6,
+					-56.9
+				},
+				{
+					1,
+					1
+				},
+				"yd/guanxiyd_using1"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61111] = {
+		advice = 0,
+		describe = "On today's list of satisfying noises: this fence when a ball hits it.",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Tennis Fence",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 61,
+		icon = "hulanydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61111,
+		picture = "yd/hulanyd",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61112] = {
+		advice = 0,
+		describe = "♪ It's time to jump up in the air ♪",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Track Hurdle",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 61,
+		icon = "kualanydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61112,
+		picture = "yd/kualanyd",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61113] = {
+		advice = 0,
+		describe = "The race track. Where speedruns take place.",
+		count = 3,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "Running Track Carpet",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 61,
+		icon = "paodaoydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61113,
+		picture = "yd/paodaoyd",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61114] = {
+		advice = 0,
+		describe = "If you tore one of these using tennis equipment, would that be racketeering?",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Tennis Net",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 61,
+		icon = "qiuwangydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61114,
+		picture = "yd/qiuwangyd",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			7,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61115] = {
+		advice = 0,
+		describe = "This Manjuu's job is to call out and blow the whistle on you.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Manjuu w/ Whistle",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 61,
+		icon = "shaojiydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61115,
+		picture = "yd/shaojiyd",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61116] = {
+		advice = 0,
+		describe = "You'll find a few of these around the Academy too.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Cherry Blossom Tree",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 61,
+		icon = "shuydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61116,
+		picture = "yd/shuyd",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61117] = {
+		advice = 0,
+		describe = "It takes a brave soul to compete in this sport against the naturally talented submarines.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Competition Swimming Pool",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 61,
+		icon = "yongchiydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 61117,
+		picture = "yd/yongchiyd",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-10.6,
+					-15
+				},
+				{
+					-1,
+					1
+				},
+				"yd/yongchiyd_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61118] = {
+		advice = 0,
+		describe = "Sweet, sweet victory.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Goal Tape",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 61,
+		icon = "zdxydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61118,
+		picture = "yd/zdxyd",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61119] = {
+		advice = 0,
+		describe = "\"For the last time, San Diego! Running *over* them gets you *disqualified*!\"",
+		count = 3,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Obstacle Race Cone",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 61,
+		icon = "zhangydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61119,
+		picture = "yd/zhangyd",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61120] = {
+		advice = 0,
+		describe = "You wouldn't believe how expensive high-end cameras made for a Manjuu can get.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Camera Manjuu",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 61,
+		icon = "zhiboydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61120,
+		picture = "yd/zhiboyd",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61121] = {
+		advice = 0,
+		describe = "\"Ah, a free bottle at the entrance, then the vending machine charges you for more... That's how they get you.\"",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Vending Machine",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 61,
+		icon = "zifanydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 61121,
+		picture = "yd/zifanyd",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61122] = {
+		advice = 0,
+		describe = "\"Dibs on goal!\"",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Manjuu Goalkeeper",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 61,
+		icon = "zuqiuydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61122,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			9,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zuqiuyd",
+				"normal",
+				{
+					"kick3",
+					false,
+					{
+						"kick1",
+						"kick2",
+						"kick4"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[61123] = {
+		advice = 0,
+		describe = "Just don't botch the landing. Or do, if you want to end up in a sports fails compilation.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Long Jump Sand Patch",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 61,
+		icon = "tiaoyuanydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 61123,
+		picture = "yd/tiaoyuanyd",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61124] = {
+		advice = 0,
+		describe = "This will either be the hardest jump or the easiest limbo walk of your life.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Pole Vault Mat",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 61,
+		icon = "tiaogaoydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 1,
+		id = 61124,
+		picture = "yd/tiaogaoyd",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					66.7,
+					-54.2
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61125] = {
+		advice = 0,
+		describe = "Ahlly-yoop for the slam-dunk.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Basketball Rig",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 61,
+		icon = "lanqiuydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 61125,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			9,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lanqiuB",
+				"normal",
+				{
+					"lose",
+					false,
+					{
+						"win",
+						"draw1",
+						"draw2"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[61126] = {
+		advice = 0,
+		describe = "Watch where you swing or you *will* bat an eye.",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "Batting Manjuu",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 61,
+		icon = "bangqiuydicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 61126,
+		picture = "yd/bangqiuyd",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61301] = {
+		advice = 0,
+		describe = "Whether you're playing football or soccer, this board's got your scores covered.",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "Seven-Segment Display",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 61,
+		icon = "fenban1ydicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 4,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 61301,
+		picture = "yd/fenban1yd",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61302] = {
+		advice = 0,
+		describe = "Good to have when you're shooting some b-ball outside of the school.",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "Basketball Scoreboard",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 61,
+		icon = "fenban2ydicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 4,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 61302,
+		picture = "yd/fenban2yd",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[61303] = {
+		advice = 0,
+		describe = "Disappointingly, it's not the classic green design.",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "Baseball Scoreboard",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 61,
+		icon = "fenban3ydicon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 3,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 61303,
+		picture = "yd/fenban3yd",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	all = {
 		1,
 		2,
@@ -56404,6 +57763,8 @@ pg.furniture_data_template = {
 		167,
 		169,
 		171,
+		173,
+		100002,
 		1001,
 		1002,
 		1101,
@@ -57660,7 +59021,38 @@ pg.furniture_data_template = {
 		60302,
 		60303,
 		60304,
-		60305
+		60305,
+		61001,
+		61002,
+		61101,
+		61102,
+		61103,
+		61104,
+		61105,
+		61106,
+		61107,
+		61108,
+		61109,
+		61110,
+		61111,
+		61112,
+		61113,
+		61114,
+		61115,
+		61116,
+		61117,
+		61118,
+		61119,
+		61120,
+		61121,
+		61122,
+		61123,
+		61124,
+		61125,
+		61126,
+		61301,
+		61302,
+		61303
 	}
 }
 

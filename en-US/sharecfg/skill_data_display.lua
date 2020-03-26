@@ -400,6 +400,14 @@ pg.skill_data_display = {
 		id = 4151,
 		name = "Mobility Mastery "
 	},
+	[4160] = {
+		id = 4160,
+		name = "Supporting Wings "
+	},
+	[4161] = {
+		id = 4161,
+		name = "Supporting Wings "
+	},
 	[5001] = {
 		id = 5001,
 		name = "Interference"
@@ -631,6 +639,10 @@ pg.skill_data_display = {
 	[8664] = {
 		id = 8664,
 		name = "Royal Maids Support - \"B\" Mode"
+	},
+	[8671] = {
+		id = 8671,
+		name = "水面航行模式"
 	},
 	[9010] = {
 		id = 9010,
@@ -1604,12 +1616,28 @@ pg.skill_data_display = {
 		id = 11980,
 		name = "Task Force Leader"
 	},
+	[11981] = {
+		id = 11981,
+		name = "Task Force Leader"
+	},
 	[11990] = {
 		id = 11990,
 		name = "Unwavering Resolution"
 	},
+	[11991] = {
+		id = 11991,
+		name = "Unwavering Resolution"
+	},
+	[11992] = {
+		id = 11992,
+		name = "Unwavering Resolution"
+	},
 	[12000] = {
 		id = 12000,
+		name = "Here to Help"
+	},
+	[12001] = {
+		id = 12001,
 		name = "Here to Help"
 	},
 	[12040] = {
@@ -2400,6 +2428,66 @@ pg.skill_data_display = {
 		id = 13060,
 		name = "Icebreaker"
 	},
+	[13070] = {
+		id = 13070,
+		name = "Soaring Silver Wings "
+	},
+	[13080] = {
+		id = 13080,
+		name = "Formation Shift "
+	},
+	[13081] = {
+		id = 13081,
+		name = "Formation Shift "
+	},
+	[13090] = {
+		id = 13090,
+		name = "The Fearless Fighting I "
+	},
+	[13100] = {
+		id = 13100,
+		name = "Blazing Burst Wings "
+	},
+	[13101] = {
+		id = 13101,
+		name = "Blazing Burst Wings "
+	},
+	[13110] = {
+		id = 13110,
+		name = "One for the Team "
+	},
+	[13111] = {
+		id = 13111,
+		name = "One for the Team "
+	},
+	[13120] = {
+		id = 13120,
+		name = "Vigilant Supporter "
+	},
+	[13121] = {
+		id = 13121,
+		name = "Vigilant Supporter "
+	},
+	[13130] = {
+		id = 13130,
+		name = "Black Cat Cyclone "
+	},
+	[13131] = {
+		id = 13131,
+		name = "Black Cat Cyclone "
+	},
+	[13140] = {
+		id = 13140,
+		name = "Reno Reactor "
+	},
+	[13142] = {
+		id = 13142,
+		name = "Reno Reactor "
+	},
+	[13150] = {
+		id = 13150,
+		name = "Blue Hunter "
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+ "
@@ -2670,6 +2758,14 @@ pg.skill_data_display = {
 	},
 	[20072] = {
 		id = 20072,
+		name = "All Out Assault Ⅱ"
+	},
+	[20081] = {
+		id = 20081,
+		name = "All Out Assault Ⅰ"
+	},
+	[20082] = {
+		id = 20082,
 		name = "All Out Assault Ⅱ"
 	},
 	[20111] = {
@@ -3688,6 +3784,22 @@ pg.skill_data_display = {
 		id = 29512,
 		name = "All Out Assault Ⅱ"
 	},
+	[29521] = {
+		id = 29521,
+		name = "Reno Barrage Ⅰ"
+	},
+	[29523] = {
+		id = 29523,
+		name = "Reno Barrage Ⅱ"
+	},
+	[29531] = {
+		id = 29531,
+		name = "Reno Barrage Ⅰ"
+	},
+	[29533] = {
+		id = 29533,
+		name = "Reno Barrage Ⅱ"
+	},
 	[101010] = {
 		id = 101010,
 		name = "Protagonist Aura"
@@ -4053,6 +4165,8 @@ pg.skill_data_display = {
 		4141,
 		4150,
 		4151,
+		4160,
+		4161,
 		5001,
 		5011,
 		5021,
@@ -4111,6 +4225,7 @@ pg.skill_data_display = {
 		8662,
 		8663,
 		8664,
+		8671,
 		9010,
 		9020,
 		9030,
@@ -4354,8 +4469,12 @@ pg.skill_data_display = {
 		11890,
 		11900,
 		11980,
+		11981,
 		11990,
+		11991,
+		11992,
 		12000,
+		12001,
 		12040,
 		12041,
 		12042,
@@ -4553,6 +4672,21 @@ pg.skill_data_display = {
 		13050,
 		13051,
 		13060,
+		13070,
+		13080,
+		13081,
+		13090,
+		13100,
+		13101,
+		13110,
+		13111,
+		13120,
+		13121,
+		13130,
+		13131,
+		13140,
+		13142,
+		13150,
 		18010,
 		18040,
 		18041,
@@ -4621,6 +4755,8 @@ pg.skill_data_display = {
 		20062,
 		20071,
 		20072,
+		20081,
+		20082,
 		20111,
 		20112,
 		20121,
@@ -4875,6 +5011,10 @@ pg.skill_data_display = {
 		29502,
 		29511,
 		29512,
+		29521,
+		29523,
+		29531,
+		29533,
 		101010,
 		101020,
 		101030,

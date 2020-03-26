@@ -101,7 +101,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 307,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>Can be obtained during a subsequent event.</color>",
+		desc = "<color=#ffffff>\"O, fearless thunderbolts of liberty! Guide us through the darkness!\"</color>\n――Can be obtained during the \"Microlayer Medley\" event. ",
 		scene = {}
 	},
 	all = {
