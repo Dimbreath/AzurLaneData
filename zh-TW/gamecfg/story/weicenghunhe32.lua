@@ -220,7 +220,7 @@ return {
 			bgName = "bg_banama_5",
 			dir = 1,
 			actorName = "卡萨布兰卡",
-			say = "…巨大机械触手从海底伸出水面…简直和恐怖电影的桥段一样！",
+			say = "…机械触手？！这种东西怎么会从水面下出来啊…！简直和恐怖电影的桥段一样！",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_banama_5",
 			dir = 1,
 			actorName = "马布尔黑德",
-			say = "塞壬居然连这种送东西都能造出来？太犯规了吧！！",
+			say = "这个触手水压什么的摩擦系数什么的这个都完全说不通吧！",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -517,7 +517,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107060,
-			say = "…………",
+			say = "……嗯，走吧。大家都没事真是太好了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

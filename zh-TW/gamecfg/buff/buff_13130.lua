@@ -41,7 +41,7 @@ return {
 				quota = 1,
 				minWeaponNumber = 1,
 				check_weapon = true,
-				hpUpperBound = 0.2,
+				hpUpperBound = 0.4,
 				skill_id = 13131,
 				weapon_group = {
 					15500

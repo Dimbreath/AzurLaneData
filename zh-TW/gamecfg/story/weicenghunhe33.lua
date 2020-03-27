@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			say = "请问，这里是什么地方？",
+			say = "请问！你知道这些海雾究竟是什么东西么…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			dir = 1,
 			actor = 900135,
 			actorName = "？？？",
-			say = "…百慕大中心",
+			say = "…塞壬用来掩护行军和围困敌人的把戏。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			dir = 1,
 			actor = 102050,
 			nameColor = "#a9f548",
-			say = "怎么会！我们在迷雾中走出了这么远么？！",
+			say = "居然在迷雾中偏航了这么远，明明就算通过海水的变化也应该早就能察觉到的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			actor = 900135,
 			actorName = "？？？",
-			say = "整天被那些家伙耍，什么时候才能涨点记性…海雾，你们就没发现问题么。",
+			say = "「微层化混合物」，这片海雾的正式名字。整天被那些家伙耍，什么时候才能成长些啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "果然是这片海雾干的好事么，可恶…！",
+			say = "果然是这片海雾干的好事啊…糟糕了。",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -553,7 +553,7 @@ return {
 			blackBg = true,
 			actor = 900135,
 			actorName = "？？？",
-			say = "唉…海雾的操作方法，我记得是…………",
+			say = "唉…之前看到的侦察机飞来的方向，我记得是…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
