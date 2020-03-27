@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "hunhe-level",
-			say = "？？？·？？？",
+			say = "？？？・？？？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -44,7 +44,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "谁躲在那里，快出来！",
+			say = "誰だ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "就当我是背景的旁白吧。",
+			say = "背景にいる、モブ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "看到什么钟意的内容了么？",
+			say = "今の映像を見て、気になったこととかある？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "这些幻影，究竟是什么东西…？",
+			say = "映像？この「影」たちのことか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "记录。",
+			say = "「キオク」。つまりログ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "什么地方，什么时候的记录？",
+			say = "ログ？記憶？誰の？いつのものだ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "存在于彼方，又存在于此处。既是过去的刻印，又是未来的预兆。",
+			say = "あなたのも、「彼女」のも。未来でも、過去でも",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "现在，也存在于你的心里了。",
+			say = "それは今、あなたのものよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "……我没时间和你打哑谜，为什么要给我看这些虚假的闹剧？",
+			say = "また訳のわからないことを…デタラメの映像を見せて揺さぶりをかける気か？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "记录是不会说谎的。",
+			say = "ログはウソを付かない",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "看，她来了。",
+			say = "来たね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "企业身边的幻影突然全部消失，然后一个新的身影从迷雾中浮现出来。",
+			say = "――霧の中から、新しい「影」が現れた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "一位头顶蓝色水母顶盖，手拿玩偶乘坐在巨大舰装上的少女。",
+			say = "今まで出会った、そして記録にあるどの人型個体とも違う異様な雰囲気を出す存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "这个是…？！",
+			say = "あなたは…",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			stopbgm = true,
-			say = "轰----------------！！！！",
+			say = "――――！",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -292,7 +292,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "伴随着一声巨响，海水和空气突然发生了巨大震动，仿佛空间本身被撕裂开了个大口子一样。",
+			say = "巨大な轟音が響く。まるで空間そのものが引き裂かれたかのような激震に襲われ、海が荒れ出す。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "啧。",
+			say = "……っ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "未知的声音留下一声不甘心的叹息，随即停止了呢喃。",
+			say = "今までの「影」と違って、視線を明確にエンタープライズに向けたセイレーンは、言葉を発することなく霧に溶け込んでいった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "海雾也开始逐渐散去，露出了在四周潜伏多时的塞壬舰队。",
+			say = "まるで彼女の行動に呼応するかのように、霧が薄れていき――そして無数の量産型セイレーンが姿を現した。",
 			effects = {
 				{
 					active = false,
@@ -360,7 +360,7 @@ return {
 			bgm = "hunhe-battle",
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "…说了这么多，果然对付塞壬还是需要通过用战斗收场么。",
+			say = "結局戦うしかないか…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			bgName = "bg_banama_2",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "轰----！",
+			say = "いくらエンタープライズでも、一人でこの数のセイレーン相手では無理だと分かっている。",
 			flashN = {
 				color = {
 					1,
@@ -427,7 +427,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "又是一声巨响从近处传来，这个声音是…",
+			say = "しかし――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "哟，这不是企业么！没想到在这里遇到你了，需要帮助么~",
+			say = "エンタープライズ！助けは要るか！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "巴尔的摩？！还有……",
+			say = "ボルチモア！みんな！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			say = "啊，我知道你有很多疑问，实际上我们自己也没搞清楚状况，不过---",
+			say = "ずっと霧の中で迷っていたけど、どうやら脱出できたみたいかしら！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			actor = 102050,
 			nameColor = "#a9f548",
-			say = "我们平安脱困了，企业。",
+			say = "今はセイレーンの撃退を…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "失去联络数日的调防舰队居然突然在这里出现了！",
+			say = "思わぬ援軍の到来、そして行方不明になった仲間の無事――エンタープライズは胸を撫で下ろした。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "嗯？背后刚刚好像还有个身影一闪而过…那个是？！",
+			say = "みんな、よく無事で……！今のは…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			blackBg = true,
 			actor = 900227,
 			actorName = "？？？",
-			say = "不在这里么…",
+			say = "「指揮官」…ここにいないか……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

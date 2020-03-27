@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "企业紧跟着皇家方舟的幻影，来到了一片全新的区域。",
+			say = "「影」が消えた方向を辿って別の場所に踏み入ったようだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "白鹰、皇家、重樱、铁血…居然有这么多人在这里？",
+			say = "……これは……各陣営の……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "简直像记录里的碧蓝航线成立大会一样。大家上一次这么聚在一起，是多久之前了呢……",
+			say = "識別信号を探知できない。これがすべて「幻」だというのか",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			actor = 207020,
 			nameColor = "#ffa500",
-			say = "噢？！重樱的各位也来了……只有你们到了么？",
+			say = "……いまので全部か？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,12 +102,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#ffa500",
+			side = 2,
+			bgName = "bg_banama_2",
+			dir = 1,
 			actor = 303110,
-			side = 2,
-			bgName = "bg_banama_2",
-			nameColor = "#ffa500",
-			dir = 1,
-			say = "目前为止，是的…{namecode:91}她们在路上发生了点意外，等解决之后应该就会赶来和我们汇合了。",
+			actorName = "高雄？",
+			say = "今の所はな。合流できない者もいる",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,12 +119,13 @@ return {
 			}
 		},
 		{
-			actor = 307040,
+			nameColor = "#ffa500",
 			side = 2,
 			bgName = "bg_banama_2",
-			nameColor = "#ffa500",
 			dir = 1,
-			say = "你们皇家的伊丽莎白也没来么…唉，看来现在各家情况都很惨啊。",
+			actor = 307040,
+			actorName = "？？？",
+			say = "……厳しい状況ですね。この戦いは",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,10 +139,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_2",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 207020,
-			nameColor = "#ffa500",
-			say = "………伊丽莎白陛下那边暂时无法脱身，我们还在努力中…",
+			actorName = "アーク・ロイヤル？",
+			say = "できればこっちからも救出したかったが、組織的な動きができない以上、合流を優先せざるを得ない",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +160,7 @@ return {
 			dir = 1,
 			actor = 207020,
 			nameColor = "#ffa500",
-			say = "哎，大家打起精神来，现在不是还有企业在这儿嘛！今后的事肯定都会好起来啦~",
+			say = "落ち込んでいてもしかたない。エンタープライズがここにいるんだ。きっと上手くいく",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +186,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "希望如此吧…该谈正事了。企业，组织的名字你想好了么？",
+			say = "そうなると良いがな。エンタープライズ殿、早速だが、「名前」を伺っても良いか",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +203,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "……名字？",
+			say = "……「名前」？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +219,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "“火炬”啊…黑暗中的一丝光明，照亮前进的道路。不错，我喜欢。",
+			say = "うむ、「炬火（きょか）」か。拙者たちに気を使わずとも構わないが…いずれにしても、いい名前だ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,12 +230,13 @@ return {
 			}
 		},
 		{
-			actor = 307040,
+			nameColor = "#ffa500",
 			side = 2,
 			bgName = "bg_banama_2",
-			nameColor = "#ffa500",
 			dir = 1,
-			say = "我们真的要和那群家伙合作么…？“它们”原本是作为我们的替代品被制造出来的吧。",
+			actor = 307040,
+			actorName = "？？？",
+			say = "それより本当にあいつらと協力するんですか？あいつら、「セイレーン」は本来、私たちに代わって戦う存在として――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +253,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "？！！“它们”难道是！",
+			say = "……！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +269,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffa500",
 			dir = 1,
-			say = "原来是这样……如果是这个理由的话…就看看它们的表现吧。",
+			say = "そういうことか。ここは一旦彼らの動きを見極めるとしよう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +285,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "喂！到底是怎么回事，你们打算做什么？！",
+			say = "セイレーンと…艦船（KAN-SEN）！？お前たちは一体何者だ！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -300,7 +304,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "当然，企业的提问没有得到任何幻影的回应。",
+			say = "「影」は消え、エンタープライズはただ一人、静かな海に取り残された。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			bgName = "bg_cccp_7",
 			dir = 1,
 			bgm = "airRaidAlarm",
-			say = "又是硝烟和死亡的味道……这里是战场。",
+			say = "炎と硝煙、破壊と暴力に満ち溢れる赤い海。",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			bgName = "bg_cccp_7",
 			dir = 1,
-			say = "海面上漂浮着无数残骸，远方闪耀着无数火光。",
+			say = "破れた旗、数え切れないほどの残骸、倒れる「ヒト」たち。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#ffa500",
-			say = "这里是…哪里？",
+			say = "ここは…どこだ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_cccp_7",
 			dir = 1,
-			say = "四面八方都在战斗着，有熟悉的身影，也有陌生的身影。",
+			say = "彼女たちの戦闘が続いている。知った顔も、知らない顔も。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#ffa500",
-			say = "白鹰、皇家、重樱、铁血…来了不少人啊。",
+			say = "……各、陣営の……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			bgName = "bg_cccp_7",
 			dir = 1,
-			say = "然而，她们战斗的对象，却不是塞壬。",
+			say = "しかし、向かい撃つ敵は「セイレーン」ではない",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#ffa500",
-			say = "对面的敌人是…北方联合…？！",
+			say = "敵は……北方連合の量産艦たち…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#ffa500",
-			say = "不对…虽然风格有点接近，但是不是。那些不是北方联合的舰队。",
+			say = "違う。シルエットこそ似ているが、塗装も兵装も何もかもまるで違う…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			bgName = "bg_cccp_7",
 			dir = 1,
-			say = "娇小的身影一个接一个的倒了下去，有些挣扎着爬了起来，有些则慢慢沉入了水下。",
+			say = "「フネ」の攻撃で「ヒト」が次々と海へと――ひざまずく。倒れ込む。沈む。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#ffa500",
-			say = "…得赶快去帮忙才行！",
+			say = "助けないと……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,24 +185,7 @@ return {
 			side = 2,
 			bgName = "bg_cccp_7",
 			dir = 1,
-			say = "可是身体却完全动不了，仿佛从来就不属于自己一样。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_cccp_7",
-			dir = 1,
-			actor = 107060,
-			nameColor = "#ffa500",
-			say = "天上飞的是什么，流星群？",
+			say = "しかし体が思うように動かない。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +202,24 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#ffa500",
-			say = "好美啊…………",
+			say = "…夜空を駆ける――流星…か？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_cccp_7",
+			dir = 1,
+			actor = 107060,
+			nameColor = "#ffa500",
+			say = "数え切れないほどの流星が、大きく……こっちに……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			blackBg = true,
 			actor = 107060,
 			nameColor = "#ffa500",
-			say = "刚刚的是…梦？",
+			say = "今のは……夢か…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

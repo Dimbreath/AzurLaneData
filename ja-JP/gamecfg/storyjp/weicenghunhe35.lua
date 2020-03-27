@@ -9,12 +9,12 @@ return {
 		{
 			stopbgm = true,
 			side = 2,
-			actorName = "构建者",
+			actorName = "コンパイラー",
 			dir = 1,
 			blackBg = true,
 			actor = 900230,
 			nameColor = "#ff5c5c",
-			say = "就算把海雾和镜面海域叠加在一起，也只坚持了不到一秒就崩溃了。",
+			say = "海霧に鏡面海域の防御システム加算。１秒で崩壊",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -40,8 +40,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900230,
-			actorName = "构建者",
-			say = "你的计划失败了，观察者。",
+			actorName = "コンパイラー",
+			say = "オブザーバー、失敗",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,8 +57,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900232,
-			actorName = "观察者",
-			say = "果然…依靠我们的力量，连拖延「关键点G」行动的脚步都做不到么…",
+			actorName = "オブザーバー",
+			say = "「コードG」を足止めすることすら叶わないのかしら…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,8 +74,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900232,
-			actorName = "观察者",
-			say = "辛苦了，构建者。",
+			actorName = "オブザーバー",
+			say = "よくやったわ。子プログラム",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,8 +91,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900230,
-			actorName = "构建者",
-			say = "我的白令海实验场还在遭受攻击，先走一步。",
+			actorName = "コンパイラー",
+			say = "極北の氷山要塞、攻撃を受けている",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,13 +105,13 @@ return {
 		{
 			blackBg = true,
 			side = 2,
-			actorName = "观察者",
+			actorName = "オブザーバー",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "bsm-2",
 			actor = 900232,
 			nameColor = "#ff5c5c",
-			say = "呵呵呵…海雾的计划，很成功哦。",
+			say = "…いいえ、私の計画は成功したわ。ふふふ",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -136,8 +136,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900232,
-			actorName = "观察者",
-			say = "「关键点G」的坚定意志来自于拒绝一切外部干涉的冷漠。",
+			actorName = "オブザーバー",
+			say = "「コードG」の強さは、深層精神系統の外部遮断から来ているの",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,8 +153,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900232,
-			actorName = "观察者",
-			say = "可是现在，混合成功了……",
+			actorName = "オブザーバー",
+			say = "しかし、今は「つながっている」のよ。「エンタープライズ」と",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,8 +170,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900232,
-			actorName = "观察者",
-			say = "…………不对，我能计算到的事，其他实验场的“我”也能计算到。",
+			actorName = "オブザーバー",
+			say = "…………しかしほかの時間軸の私もこの攻略法、簡単に思いつくはず",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,8 +187,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900232,
-			actorName = "观察者",
-			say = "为什么迄今为止的所有努力都失败了呢…",
+			actorName = "オブザーバー",
+			say = "アクセス可能のログでは今までの全ての実験が失敗に終わっているのは、一体なぜ……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,8 +204,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900232,
-			actorName = "观察者",
-			say = "果然还是因为这里有“指挥官”这一变量存在…",
+			actorName = "オブザーバー",
+			say = "なるほど、「指揮官」の存在ねぇ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,8 +221,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900232,
-			actorName = "观察者",
-			say = "零，你究竟还隐瞒了多少东西…",
+			actorName = "オブザーバー",
+			say = "零はあとどれだけ隠しているのかしら",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,8 +238,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900232,
-			actorName = "观察者",
-			say = "呵呵呵呵………",
+			actorName = "オブザーバー",
+			say = "興味が尽きないわ。ふふふふ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

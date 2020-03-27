@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgm = "hunhe-boss",
-			say = "密集的火力向着下潜中的塞壬指挥舰倾泻着，似乎终于起到了效果。",
+			say = "イントレピッドたちの集中攻撃により、セイレーンは変形が阻止され、大ダメージを受けたように見えた。",
 			flashN = {
 				color = {
 					1,
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102260,
-			say = "没错，大家集中火力攻击变形的关节处，这样就能减缓变形的速度了~",
+			say = "（フィギュアもガジェットも可動部とか接続部とかが一番強度が弱いから！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102260,
-			say = "对于变形系装甲的弱点，我可是再清楚不过了！",
+			say = "そのまま関節部を狙い続けて！そうすれば敵の変形を阻止できるよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 106550,
-			say = "哎？里诺小姐，你对机械学还有研究么！",
+			say = "リノ、機械にも詳しいのですか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎嘿嘿，算是吧~",
+			say = "え？あはは…そ、そうかもね！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			actor = 900234,
 			actorName = "？？？",
-			say = "……真是麻烦。",
+			say = "……しょうがない",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "轰隆隆------",
+			say = "！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,8 +156,8 @@ return {
 			side = 2,
 			bgName = "bg_banama_5",
 			dir = 1,
-			actorName = "蓝鳃鱼",
-			say = "埃塞克斯，布莱默顿，水面上的任何人，能听到么！！",
+			actorName = "ブルーギル",
+			say = "エセックス、ブレマートン、水上にいる皆聞こえてる！？",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -177,8 +177,8 @@ return {
 			side = 2,
 			bgName = "bg_banama_5",
 			dir = 1,
-			actorName = "蓝鳃鱼",
-			say = "超超超超超恐怖的东西从水下出现了，正在向水面方向快速移动中，大家注意水下，小心规避！！！！",
+			actorName = "ブルーギル",
+			say = "今すごくやばいものが向こうから近づいているよ！海面下に気をつけて回避して！！",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -198,8 +198,8 @@ return {
 			side = 2,
 			bgName = "bg_banama_5",
 			dir = 1,
-			actorName = "马布尔黑德",
-			say = "唔哇！这、这些……这些是什么啊！！！！！",
+			actorName = "マーブルヘッド",
+			say = "ってもう来ていますけど！！なにこれ？！",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -219,8 +219,8 @@ return {
 			side = 2,
 			bgName = "bg_banama_5",
 			dir = 1,
-			actorName = "卡萨布兰卡",
-			say = "…机械触手？！这种东西怎么会从水面下出来啊…！简直和恐怖电影的桥段一样！",
+			actorName = "カサブランカ",
+			say = "機械の触手！？…ど、どこから！？",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -240,8 +240,8 @@ return {
 			side = 2,
 			bgName = "bg_banama_5",
 			dir = 1,
-			actorName = "马布尔黑德",
-			say = "这个触手水压什么的摩擦系数什么的这个都完全说不通吧！",
+			actorName = "マーブルヘッド",
+			say = "いくらなんでも水圧とか摩擦とか計算が合わないじゃありませんかーーー！",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -261,8 +261,8 @@ return {
 			side = 2,
 			bgName = "bg_banama_5",
 			dir = 1,
-			actorName = "埃塞克斯",
-			say = "大家优先注意规避，千万别被这些东西卷进去了！",
+			actorName = "エセックス",
+			say = "このままでは攻撃できない…！くっ…！",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -285,7 +285,7 @@ return {
 			bgm = "hunhe-battle",
 			actor = 106550,
 			nameColor = "#a9f548",
-			say = "明明就差一步，还是让它趁乱逃跑了…",
+			say = "ふぅ……あのセイレーンに逃げられてしまいましたね……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -318,7 +318,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102260,
-			say = "这个敌人和测试者净化者给人的感觉都不一样，我完全没有从它那里感受到斗志的存在。",
+			say = "でもちょっと妙だったね…殺気とか全然感じられなかったし……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101440,
-			say = "就这么结束了…？刚刚的那些究竟是什么东西啊…",
+			say = "よくわからない触手を避けるのに気を取られたし…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "雷达通讯导航恢复正常了，迷雾正在消散，塞壬舰队也开始撤退了，应该是结束了。",
+			say = "セイレーンたち、撤退し始めているよ。通信もそろそろ回復するところかな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "不管怎么说，本次塞壬袭击被成功挫败，巴拿马要塞安全了。",
+			say = "ここの場所は…よし！とにかくこれで要塞は大丈夫なはず！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来，改继续寻找失踪的企业前辈和调防舰队了……哎？！",
+			say = "うん、次はエンタープライズ先輩とボルチモアたちの捜索…えええ？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "企业前辈？！！",
+			say = "エンタープライズ先輩！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107170,
-			say = "失踪的巴尔的摩她们也在？！从什么地方出现的……",
+			say = "ボルチモアもいる！？いつの間に……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103160,
-			say = "哟，不好意思啊，路上花了点时间。看来你们这儿也经历了场大战啊…",
+			say = "突然で悪かったな。すまん、ちょっとセイレーンの追撃を撒くのに時間をかけすぎた",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "究竟发生了什么事----",
+			say = "一体何があったの？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就说来话长了，从哪儿开始呢…",
+			say = "ん？ああ、迷っていたらよくわからないやつが現れて、そしてエンタープライズと出会って、そのままここまで来ただけさ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103160,
-			say = "总而言之，大家都平安无事真是可喜可贺！之后的事，我们回去慢慢聊吧…",
+			say = "まあ話すとまた長くなるから、みんなまずは要塞に戻ろう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103160,
-			say = "走吧，企业。",
+			say = "エンタープライズも、ほら",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107060,
-			say = "……嗯，走吧。大家都没事真是太好了…",
+			say = "ああ、帰ろう。みんな、無事で良かった",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

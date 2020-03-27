@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			side = 2,
-			say = "巴拿马要塞东侧？·迷雾中",
+			say = "運河要塞？・外洋？",
 			dir = 1,
 			bgm = "hunhe-battle",
 			effects = {
@@ -28,7 +28,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "千钧一发之际出现的蓝鳃鱼，将被巨浪拍入水中的无畏救了上来。",
+			say = "波の壁がそのまま通り過ぎ、まるで何事も起きなかったかのように海は元に戻っていた。霧に覆われ続けている以外は。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "然后不知何时，巨浪也如同出现时那么突然，迅速的平息了。",
+			say = "ブルーギルに救出されたイントレピッドは――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "咳…咳咳……得救了。",
+			say = "げほげほ……助かった……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107090,
-			say = "无畏，没事吧！！",
+			say = "イントレピッド、大丈夫？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "没事没事，就是稍微呛了点水…咳咳…",
+			say = "だ、大丈夫。ちょっと溺れて……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "蓝鳃鱼，Nice，回来的时机很完美！",
+			say = "ブルーギル、ナイスタイミング！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，执行侦察任务的蓝鳃鱼，现在完成任务归队！",
+			say = "ブルーギル、パトロールから帰還した！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 108040,
-			say = "在侦查途中遭到塞壬舰队的拦截，回来迟了…本来想报告敌情的，看来大家已经和塞壬交战了啊！",
+			say = "セイレーンの大群に遭遇して、そして大きな波に巻き込まれて気づいたらここに…みんなはもうセイレーンと戦っていたの？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "平安回来就好，现在每一份力量都很宝贵。很遗憾现在没有休息的时间，立刻归队和我们一起迎击塞壬吧。",
+			say = "えっ…さっきからずっと戦いっぱなしだけど、ブルーギルはそうじゃなかったの？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "等等，有轮机声正在靠近…",
+			say = "（こっちは結構派手に戦ってたのに、気づかないなんてことはないはず…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102270,
-			say = "又有塞壬包抄过来了么，接招~！",
+			say = "あっちからなにかが近づいて来ますよ。とりあえずこれで……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			}
 		},
 		{
-			say = "轰---！",
+			say = "――！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			actor = 102260,
 			nameColor = "#a9f548",
-			say = "喂~~大家都还好么~听到请回话~~~呀啊！！！",
+			say = "あわわ！みんな大丈夫？！ちょっと返事して！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			actor = 102270,
 			nameColor = "#a9f548",
-			say = "里、里诺？！！你怎么会在这里啊！",
+			say = "リノ？なんでここに？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			actor = 102260,
 			nameColor = "#a9f548",
-			say = "是马布尔黑德！？！",
+			say = "マーブルヘッド！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			actor = 102260,
 			nameColor = "#a9f548",
-			say = "我说！刚才的一连串炮击是怎么回事呀…！要不是空包弹的话我就开火还击了哎！",
+			say = "…って、なんでいきなり撃ってきたの！空砲だからセイレーンじゃないってのは分かったけど…",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -358,7 +358,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102270,
-			say = "呼呼，毕竟要排除一下塞壬的棋子趁乱靠近的可能性嘛，诶嘿~☆",
+			say = "まあ、セイレーンの「駒」って可能性もありますしぃ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……里诺你不是在要塞西侧驻防么，怎么跑到这里来了？",
+			say = "あれ？リノはバンカー・ヒルたちとは別行動を取っていたんじゃなかった？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102260,
-			say = "哎？！不是你们跑来西侧了么！",
+			say = "え！そっちこそなんで要塞の湾内まで戻ってきたの？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101440,
-			say = "虽说刚刚我们在浓雾中遭遇了一股巨浪，但就算浪再大也不至于把我们都冲到要塞西边来吧…",
+			say = "さ、流石に今の波で要塞近くまで押し返されたわけじゃないよね…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102260,
-			say = "啊~布莱默顿、卡萨布兰卡、邦克山这边这边~！看我发现谁了。",
+			say = "ブレマートン！カサブランカ！バンカー・ヒル！こっちこっちー",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "西侧驻防舰队全员都到这里了？！",
+			say = "みんなもいるの？",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -458,7 +458,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103240,
-			say = "哟，一会不见，大家都…挂了点彩呢，嘿嘿。",
+			say = "あ、捜索チームのみんな！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 106550,
-			say = "突然出现又突然消失的巨浪结束后，原本位于运河两侧的舰队汇合了…绝对不是自然现象呢。",
+			say = "どうやらみんな同じ異常気象？の波に遭遇したようですね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102270,
-			say = "难道果然…迷雾内部是连通的？",
+			say = "ブルーギルも大きな波に押されて気づいたら違う場所にいた…ってもしかしたら私たち、セイレーンに「転移」させられたってこと？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然难以置信，不过迷雾若是塞壬设下的机关，倒也不是完全不可能。",
+			say = "にわかに信じがたいが、可能性を否定できないな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "那我们现在到底在哪里？要塞的东侧还是西侧…？",
+			say = "つまり…今の場所は要塞周辺海域でいうどの辺なの？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不清楚，如果迷雾真能联通要塞东西两侧的话，哪边也就不重要了……你们还是没找到企业么？",
+			say = "それがわからないんだ。さっきから計器が狂いっぱなしでな。鏡面海域の中にいる、ってのもありうる",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有…想必企业前辈现在也在迷雾中的某处战斗吧。",
+			say = "エンタープライズ先輩とボルチモアも見つかっていないまま、ね…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103240,
-			say = "巴尔的摩她们也有可能被困在场迷雾之中…只要我们破坏了生成迷雾的装置，大家应该就能回来了！",
+			say = "まあでも、合流できたのは戦力的に嬉しいことじゃない？ここでやるべきことは――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			soundeffect = "event:/battle/plane",
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "事不宜迟，赶紧出发吧~前进的方向呢，对，就向着敌人最密集的方向前进吧！",
+			say = "この霧の発生源を見つけること！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgm = "hunhe-battle",
 			nameColor = "#a9f548",
-			say = "历尽千难万险，分散在各处的英雄们重新联合起来吹响反攻的号角…",
+			say = "散り散りになったヒーローたちが合流してスーパーヴィランに挑む…",
 			effects = {
 				{
 					active = true,
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "简直就像超级英雄剧一样的展开，令人热血沸腾啊！",
+			say = "ちょっとベタだけど盛り上がる展開だね！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我懂这种感觉！！正义的英雄大团结！",
+			say = "正義のヒーロー大集合！クライマックス！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦？你们都很喜欢超级英雄呀~",
+			say = "確かに熱いわね！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102260,
-			say = "超喜欢~！超级英雄拯救世界的英姿…守护同伴的身影…真是太帅了！",
+			say = "ん？クーパーちゃんもヒーロードラマが好きなの？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错没错~库珀也要像英雄们一样，为了伙伴们和世界的明天而战斗~",
+			say = "もちろん！世界を華麗に救うヒーローたち、ぼくと同じでカッコいいもん！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼~大家看我的手甲，如果按下这个按钮的话…",
+			say = "（リノと同じ趣味？！）あ、それならこのガジェットを見せるね！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103240,
-			say = "发、发出了强光？！",
+			say = "あのガントレットっぽいもの、光るものなんだ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102260,
-			say = "不止如此哦，如果再摁下这个按钮的话---",
+			say = "ふふん、それとここを押せば！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			soundeffect = "event:/battle/cannon-main-prepared",
 			actor = 101440,
 			nameColor = "#a9f548",
-			say = "变形了？！太厉害了~！",
+			say = "変形した？！凄い！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，超级英雄的装备只有你们想不到，没有我没有的~！",
+			say = "これは全てリノの手作り！ふふん、凄いでしょ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101440,
-			say = "震惊！！里诺你真的很喜欢英雄呢！",
+			say = "ぼくもほしいなぁ～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102260,
-			say = "呼呼呼~虽然这次没有见到传说中的指挥官，有点遗憾。",
+			say = "今度作ってあげてもいいよ。ギミックとか、予算とか教えてくれたら",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102260,
-			say = "不过面对不利局面依然奋战在第一线的各位，对我来说已经就像英雄一样了哦。",
+			say = "しかし、まさかここでヒーロー好きに出会えるとは思わなかったね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			actor = 102260,
 			nameColor = "#a9f548",
-			say = "能这么近距离支援大家的战斗，我也感到十分开心！",
+			say = "リノ、帰ったらすぐコレクションを見せたい気分！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101440,
-			say = "哎？里诺，你没有想过成为英雄的一员么？",
+			say = "本当？！運河要塞に戻ったら見せて見せて！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102260,
-			say = "我不是能做英雄的类型啦。能作为英雄的粉丝在这么近距离的为英雄加油打气就已经很满足了~",
+			say = "おう！ヒーローのサポーター・このリノの秘蔵ガジェットたちを存分にご覧あれ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101440,
-			say = "唔…里诺一路上出色的护航，让我们的战斗压力少了很多！我觉得里诺已经是出色的英雄了哦！",
+			say = "そしてぼくのガジェットを作ってくれ！必殺技があってもガジェットがないってずっと悩んでたよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102260,
-			say = "只是成为超级英雄团队里的一员，不代表能成为超级英雄，我是这么认为的…",
+			say = "まあまあ、ヒーローのシンボルはそれぞれ、ガジェットがなくてもアビリティだけで有名なヒーローもいるし",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103240,
-			say = "有句话说得好，“他们成为英雄不是因为他们有特殊能力，而是因为他们选择用这些能力来做什么”",
+			say = "「特殊能力あってのヒーローではなく、なす事あってのヒーロー」ってことね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			actor = 102260,
 			nameColor = "#a9f548",
-			say = "…哎？！布莱默顿也听说过这句话么！",
+			say = "…あれ？今のドラマで聞いたことあるような気がする",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103240,
-			say = "我偶尔也会跟着巴尔的摩一起看看关于英雄的作品啦。",
+			say = "私もたまにボルチモアと一緒に見るんだけどね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103240,
-			say = "如果你一直紧随英雄的脚步，你终究会变为英雄的一份子，巴尔的摩是这么认为的。",
+			say = "ヒーロー談義するほどじゃないけど、まああれね？たしか…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也觉得现在的里诺完全符合英雄的定义哦！",
+			say = "「ヒーローでありたいのではなく、ヒーローのすべきことをしよう！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错没错，库珀也赞同~感觉之后会和巴尔的摩很很合得来呢！",
+			say = "お！それそれ！ぼくもそう思う！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102260,
-			say = "好像…确实是这样哎！",
+			say = "そして今ヒーローのすべきことは――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101440,
-			say = "那接下来的战斗护航也都拜托你了哦，英雄里诺~",
+			say = "リノは敵の艦載機を警戒して！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼呼，不论是天上飞的还是水里游的，都放心包在我身上吧，英雄库珀~！",
+			say = "クーパーちゃんは敵の潜水艦を警戒する！ってね☆",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

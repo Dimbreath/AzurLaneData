@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			side = 2,
-			say = "嗡---------",
+			say = "――――",
 			dir = 1,
 			soundeffect = "event:/battle/plane",
 			bgm = "hunhe-battle",
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬轰炸机，从什么时候绕过来的？！",
+			say = "セイレーンの艦載機か！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 102260,
 			nameColor = "#a9f548",
-			say = "休想得逞，看招！",
+			say = "ここはリノに任せて！",
 			flashN = {
 				color = {
 					1,
@@ -98,7 +98,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "数架利用迷雾掩护的轰炸机试图对邦克山发动最后的偷袭，然后在里诺及时而凶猛对空火力下变为了一团团燃烧的残渣。",
+			say = "奇襲してきた数機のセイレーンの艦載機はアトランタ級――オークランド級の彼女に撃破された。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107170,
-			say = "多谢，在战斗结束的时候因为偷袭挂彩可划不来。",
+			say = "助かったな。感謝する、リノ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103240,
-			say = "我这也搞定了！刚刚那招很帅哦，里诺！",
+			say = "こっちも敵を片付けたわよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102260,
-			say = "我可是专防空特化的亚特兰大级，英雄们的后背放心交给我来守护吧。",
+			say = "敵影なし、っと…結局今のは敵の中枢艦でした？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 106550,
-			say = "周围没有发现更多塞壬靠近的迹象了，战斗暂时结束。要先回要塞补给一下么？",
+			say = "「ハズレ」のようですね。霧がまだ消えていませんから",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "迷雾还没消散，恐怕没这么简单…听----",
+			say = "むっ、要塞に戻るにしても、この状況では…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102260,
-			say = "唔，这个声音…是Last Boss登场的声音么？",
+			say = "しっ。今変な声が…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不对，声音越来越大了。这个声音是…波涛的咆哮声！大家稳住，巨浪要来了--！",
+			say = "こっちも聞こえた。これは…波の音にしてはちょっと距離感が掴めな……なっ！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			actor = 106550,
 			nameColor = "#a9f548",
-			say = "哎哎？！怎么平白无故海面上会出现滔天巨浪啊！",
+			say = "津波…波の壁！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			actor = 103240,
 			nameColor = "#a9f548",
-			say = "总感觉是冲着我们来的，大家注意规避，千万别被卷到海底进去哦！",
+			say = "こんな波が普通突然現れるわけないっしょ！皆、注意して！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "滔天的巨浪与浓密的海雾，仿佛整片大海都成为了敌人。众人就像落入了捕食者的巨口中一样，全力避免着被吞噬的命运…",
+			say = "セイレーンの量産艦を文字通り「飲み込んだ」波に、艦船たちは慌てながらも――必死に対処していた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

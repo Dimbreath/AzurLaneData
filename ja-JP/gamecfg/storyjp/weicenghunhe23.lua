@@ -14,7 +14,7 @@ return {
 			bgm = "hunhe-level",
 			actor = 207020,
 			nameColor = "#ffa500",
-			say = "企业，它们来了。",
+			say = "エンタープライズ、くるぞ",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "不知何时，一位“不速之客”加入了这场对话中。",
+			say = "いつの間にか「影」たちの会話に、新たな存在が加わっていた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "塞壬……？！！",
+			say = "セイレーン……？！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			say = "突然出现的塞壬让企业条件反射般放出了舰载机，然后子弹穿过幻影消逝在远方的迷雾中。",
+			say = "今まで何度も対峙していた危険な敵を目視したエンタープライズはすぐさま戦闘態勢を取った。",
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
@@ -96,8 +96,8 @@ return {
 			bgName = "bg_banama_2",
 			dir = 1,
 			actor = 900232,
-			actorName = "观察者",
-			say = "「关键点G」，向你致以审判者大人的问候。",
+			actorName = "オブザーバー",
+			say = "「シンパンシャ」様に代わって挨拶を申し上げるわ。「コードG」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "「关键点G」…审判者…",
+			say = "「コードG」……「シンパンシャ」……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,8 +130,8 @@ return {
 			bgName = "bg_banama_2",
 			dir = 1,
 			actor = 900232,
-			actorName = "观察者",
-			say = "“拉普拉斯妖”应该为全体人类服务，而不是作为战争的工具，造物主大人应该也是如此认为的。",
+			actorName = "オブザーバー",
+			say = "量子時間跳躍装置は人類全体の存続のためにあるべきだと…「ソウゾウシュ」様も同意見だわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,8 +147,8 @@ return {
 			bgName = "bg_banama_2",
 			dir = 1,
 			actor = 900232,
-			actorName = "观察者",
-			say = "所以，我们会提供活动基地。而你们，需要保证这里的研究不会落入不应得到之人手中。",
+			actorName = "オブザーバー",
+			say = "必要な設備ならいつでもあなた達に提供する用意はできているの",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,8 +164,8 @@ return {
 			bgName = "bg_banama_2",
 			dir = 1,
 			actor = 900232,
-			actorName = "观察者",
-			say = "我们也有我们的立场，有些时候无法随意行动。",
+			actorName = "オブザーバー",
+			say = "――研究の成果が望ましくない存在の手に落ちないよう、その保証としてね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,13 +176,13 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "オブザーバー",
 			side = 2,
 			dir = 1,
 			bgName = "bg_banama_2",
 			actor = 900232,
 			nameColor = "#ffff4d",
-			say = "不要说出名字来。用代号称呼更有神秘感，审判者大人是这么认为的。",
+			say = "お互い立場があるけど、協力できる余地はあるはずよ",
 			flashout = {
 				dur = 0.25,
 				black = true,
@@ -210,13 +210,13 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "オブザーバー",
 			side = 2,
 			dir = 1,
 			bgName = "bg_banama_2",
 			actor = 900232,
 			nameColor = "#ffff4d",
-			say = "请放心，按照协议，我们会参与营救计划。",
+			say = "……では計画通り、こちらも協力するわ",
 			flashout = {
 				dur = 0.25,
 				black = true,
@@ -249,8 +249,8 @@ return {
 			bgName = "bg_banama_2",
 			dir = 1,
 			actor = 900232,
-			actorName = "观察者",
-			say = "因为这是造物主大人与审判者大人共同的期望。",
+			actorName = "オブザーバー",
+			say = "これは「ソウゾウシュ」様、そして「シンパンシャ」様の総意だと認識して頂戴",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,8 +266,8 @@ return {
 			bgName = "bg_banama_2",
 			dir = 1,
 			actor = 900232,
-			actorName = "观察者",
-			say = "至此，谈妥了。执行者舰队的配属坐标将在稍后向你们同步，记得在行动中避开。",
+			actorName = "オブザーバー",
+			say = "「アビータ」の座標も共有するわ。あの子たちを上手く回避して",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "在与塞壬协商合作…？这些…到底是什么……",
+			say = "セイレーンと協力？これは一体……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "当然，面对企业的提问面前的幻影们依然没有做出任何-------",
+			say = "「影」たちは誰一人エンタープライズの問いに反応しないまま、霧の中へと溶け込んだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "这些都是，往昔的碎片哦。",
+			say = "「キオク」再生、完了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

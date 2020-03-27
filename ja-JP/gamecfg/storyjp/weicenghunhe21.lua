@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			side = 2,
-			say = "巴拿马要塞西侧？ 迷雾中",
+			say = "運河要塞？・外洋？",
 			dir = 1,
 			bgm = "hunhe-battle",
 			effects = {
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103240,
-			say = "吃我一炮，再见了哟！",
+			say = "んじゃ、さいなら！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			}
 		},
 		{
-			say = "轰----！",
+			say = "―――！！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 106550,
-			say = "疑似目标排除，塞壬指挥系统…未发现异常。",
+			say = "目標撃破しました！セイレーンの動き…変化なしです！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "又错了么…这是排除的第多少个疑似目标了？",
+			say = "また「ハズレ」か…！今ので何体目？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 106550,
-			say = "二十一个…",
+			say = "に、21体目です！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103240,
-			say = "没想到会在这里碰上塞壬的新型号啊…每一艘看上去都好可疑！",
+			say = "まさかセイレーンの新型まで現れるとはね…全員が全員怪しく見えますけど…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家加油，加油~打起精神来！只要坚持下去，总会找到我们的目标哦！",
+			say = "みんな、諦めないで！最後に笑うのはヒーローサイドよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103240,
-			say = "里诺还是一贯的有活力…很有成为拉拉队员的素质啊。",
+			say = "リノってチアやる素質がありそうね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102260,
-			say = "在乐观这一点上，我还是很有自信的~这种时候就让我为大家加油打气吧，Fight~！",
+			say = "チアダンスをやるのは色々とねえ…でもこういうのはたしかに嫌いじゃないよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也是…如果分不清指挥舰的话，就这么沿路全部干掉就是了~",
+			say = "まあ、中枢艦がわからなければ、このまま全員倒せばいいだけだわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103240,
-			say = "用巴尔的摩的话来讲就是---英雄可不能临阵退缩啊！",
+			say = "ボルチモアに言わせてみれば、「戦わなければ生き残れない」ってね！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102260,
-			say = "哦？！就是这种感觉，布莱默顿小姐，Cool~!",
+			say = "うんうん、その通り！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，又来了一个目标，感觉这个也很像指挥舰，要上了哦！",
+			say = "次の中枢艦らしいものも見っけ！やるわよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
