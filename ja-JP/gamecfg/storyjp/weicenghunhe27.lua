@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			side = 2,
-			say = "巴拿马要塞西侧？东侧？·迷雾中",
+			say = "運河要塞？・外洋？",
 			dir = 1,
 			bgm = "hunhe-battle",
 			effects = {
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			dir = 1,
 			expression = 2,
-			say = "就是这样…一旦被反潜机咬住，潜艇就无路可逃了。",
+			say = "対潜哨戒の艦載機が敵を発見し次第、位置を連絡して…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 106550,
-			say = "事先带了反潜机真是太好了，有备无患。没想到塞壬居然会出动这么多潜艇。",
+			say = "ふぅ、潜水艦対策をしておいてよかったです。まさかセイレーンの潜水艦がこんなに…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102270,
-			say = "真好啊~既能对空也能反潜，还能做侦查，要是我也能带舰载机就好了~",
+			say = "護衛空母なのに戦おうとするなんて凄いですねーあたしも艦載機を装備できればね～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102270,
-			say = "最好能让舰载机冲开迷雾，将失踪的同伴们都找回来…",
+			say = "霧があるとはいえ、やっぱりちょっと高いところから偵察してみたいってカンジ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,22 +95,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 106550,
-			say = "如果是水上飞机还好说。如果是航空母舰用的舰载机的话，还是考虑改装成航空巡洋舰比较好哦…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 102270,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "说的也是呢…",
+			say = "ええと、水上機ならまだしも、空母艦載機の運用までとなりますと、航空巡洋艦に改造したほうが良さそうですよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +110,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "………",
+			say = "……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +126,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 106550,
-			say = "你的姐妹舰孟菲斯也在失踪的舰队里…很担心她么？",
+			say = "マーブルヘッドはメンフィスのことが心配ですか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +141,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "孟菲斯每天都泡在公文里难得出来一次，本来约好了这次顺便带她在巴拿马放松一下呢。",
+			say = "そうですねーメンフィスって苦労人気質じゃないですかー",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +157,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102270,
-			say = "欣赏一下雨林风光，或者去感受一下热带的阳光与沙滩…",
+			say = "運河要塞回りの観光スポットも紹介して、非番の日にはリラックスしてもらおうと思ってましたけどぉ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +173,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102270,
-			say = "我们奥马哈级的性能并不是很出色，她现在会不会已经出事了呢，我总忍不住会想到一些糟糕的结局…",
+			say = "流石にこの様子だとちょっと無理そうですね…あははは",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +189,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 106550,
-			say = "若是论性能，我与企业或者埃塞克斯她们完全无法相比。但我仍在尽我所能的战斗，然后平安的存在于这里。",
+			say = "私もエンタープライズさんとボルチモアさんたちのことが心配です",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +204,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然不能向你证明，不过既然同为奥马哈级的你还在拼命战斗着，我想孟菲斯自己也一定不会轻易放弃吧。",
+			say = "姉妹艦ではないからマーブルヘッドとは違うかもしれませんけど、同じユニオンの仲間として、みんなの無事を祈る気持ちは同じです",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +220,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 106550,
-			say = "还是笑容更适合你哦，马布尔黑德。",
+			say = "だからマーブルヘッドがあの…「チャラい」感じのままでいられるよう、私も頑張りたいと思います",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +236,7 @@ return {
 			dir = 1,
 			actor = 102270,
 			nameColor = "#a9f548",
-			say = "哎，直球冲击？！噗……谢谢，卡萨布兰卡，我感觉好多了。",
+			say = "言いますね～マジメな子だと思ってたのに意外と冗談が通じるタイプ？",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -272,7 +257,7 @@ return {
 			dir = 1,
 			actor = 106550,
 			nameColor = "#a9f548",
-			say = "（Yes！这么电影感的台词，早就想说一次看看了！）",
+			say = "意外でしたか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +282,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说的也是，现在应该打起精神来，全力fight才行~",
+			say = "まぁ、お互いぼちぼち頑張りましょー",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +298,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 106550,
-			say = "咳…你没事了就好。我们继续向下一片区域转移吧~",
+			say = "うん！みんなと一緒に頑張りましょう！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -314,7 +314,7 @@ return {
 			}
 		},
 		{
-			actorName = "バンカー·ヒル",
+			actorName = "バンカー・ヒル",
 			side = 2,
 			bgName = "bg_banama_3",
 			nameColor = "#a9f548",

@@ -7,14 +7,14 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actorName = "净化者",
+			actorName = "ピュリファイアー",
 			side = 2,
 			dir = 1,
 			blackBg = true,
 			bgm = "xinnong-3",
 			actor = 900231,
 			nameColor = "#ff5c5c",
-			say = "啊---累--死--我--了----",
+			say = "んああああ疲れたああああああ！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -46,7 +46,7 @@ return {
 			blackBg = true,
 			actor = 900229,
 			actorName = "？？？",
-			say = "居然回来了。",
+			say = "戻ったか",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,8 +62,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900231,
-			actorName = "净化者",
-			say = "不是有那句话么，只要不想赢，就不会输咯~",
+			actorName = "ピュリファイアー",
+			say = "「」って聞いたことないの？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			blackBg = true,
 			actor = 900229,
 			actorName = "？？？",
-			say = "哦。",
+			say = "ない",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,8 +96,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900231,
-			actorName = "净化者",
-			say = "话说为什么这里也被迷雾遮起来了啊，完全没必要吧……",
+			actorName = "ピュリファイアー",
+			say = "にしてもさあ、なんでここまで霧で覆ってんの？リソースの無駄じゃない？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			blackBg = true,
 			actor = 900229,
 			actorName = "？？？",
-			say = "神秘感。",
+			say = "ミステリアスの演出",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,8 +130,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900231,
-			actorName = "净化者",
-			say = "………",
+			actorName = "ピュリファイアー",
+			say = "…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			blackBg = true,
 			actor = 900229,
 			actorName = "？？？",
-			say = "…",
+			say = "……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,8 +164,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900231,
-			actorName = "净化者",
-			say = "我说……！现在难得有一次像这样的多系统联合行动，不要这么冷淡好不好啊！",
+			actorName = "ピュリファイアー",
+			say = "子プログラムの分際でよくもまあそんな態度取れるなぁ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			blackBg = true,
 			actor = 900229,
 			actorName = "？？？",
-			say = "我不是很喜欢出来活动。",
+			say = "無駄に動かない。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			blackBg = true,
 			actor = 900229,
 			actorName = "？？？",
-			say = "而且…通讯BLOCK，导航BLOCK，雷达BLOCK，雾气浓度30%增大，混合率50%提高…",
+			say = "通信、ナビゲーション、磁気ジャミング適用、海霧濃度30％増大、化合率50％向上",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			blackBg = true,
 			actor = 900229,
 			actorName = "？？？",
-			say = "现在工作中。",
+			say = "以上。指差し確認",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			blackBg = true,
 			actor = 900229,
 			actorName = "？？？",
-			say = "那么闲的话，再出去拖延一阵怎么样？",
+			say = "アイドリング中ならもう一度時間稼ぎすれば？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,8 +259,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900231,
-			actorName = "净化者",
-			say = "哎？我可不要~这次任务我已经圆满完成了，该去下一个有意思的地方咯~",
+			actorName = "ピュリファイアー",
+			say = "嫌よ。こっちの仕事はもう終わってんの。早く次行きたいもん",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			blackBg = true,
 			actor = 900229,
 			actorName = "？？？",
-			say = "那就快走，别干扰我工作。",
+			say = "行って。邪魔しないで",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,8 +303,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 900231,
-			actorName = "净化者",
-			say = "是是是~！！",
+			actorName = "ピュリファイアー",
+			say = "言われなくても出ていってやるよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			blackBg = true,
 			actor = 900229,
 			actorName = "？？？",
-			say = "接下来，就用这一段吧……",
+			say = "記録再生。次の「キオク」を",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,7 +12,7 @@ return {
 			bgmDelay = 1,
 			bgm = "xinnong-3",
 			nameColor = "#a9f548",
-			say = "巴拿马要塞东侧？ 稍早前",
+			say = "運河要塞？・外洋？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,7 +36,7 @@ return {
 			side = 2,
 			bgName = "bg_underwater",
 			dir = 1,
-			say = "水面之下，蓝鳃鱼正向着要塞的方向狂奔着。",
+			say = "イントレピッドたちが運河要塞に到着する前――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			say = "终……终于甩掉了么，太好了！得赶紧告大家塞壬在水下的行动-----",
+			say = "よ、ようやく撒いた…早くみんなにセイレーンの状況を知らせなくちゃ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			bgName = "bg_underwater",
 			dir = 1,
-			say = "嗖—-嗖——-！",
+			say = "―――・―――・―――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			say = "这些声音是…什么？！",
+			say = "あれは‥…！！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_4",
 			dir = 1,
-			say = "深渊之中，无数的塞壬潜艇正结成长队正向要塞的方向移动着。",
+			say = "妖しい光を放つ漆黒の影――無数のセイレーン潜水艦が運河要塞に向かおうとしていた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_4",
 			dir = 1,
-			say = "仿佛迁徙中的深海鱼群一样无穷无尽，稍微盯着看一会，就会由心底感到毛骨悚然。",
+			say = "……量産型セイレーンがまるで回遊魚群のように同じ方向に向かって行進しているその様は、なんともおぞましい光景だった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,42 +132,12 @@ return {
 			}
 		},
 		{
-			actorName = "蓝鳃鱼",
-			side = 2,
-			bgName = "bg_banama_4",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "什么时候绕到前面来的？！……完了……这怎么办啊。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_banama_4",
-			dir = 1,
-			say = "这里距离要塞应该不远了，可是，由无数塞壬潜艇组成的屏障无论如何不可能突破过去的…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "蓝鳃鱼",
+			actorName = "ブルーギル",
 			side = 2,
 			bgName = "bg_banama_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么办，就算在这里和塞壬同归于尽也帮不上要塞的大家多少忙啊，呜呜呜…",
+			say = "いつ回り込んだの？！どうしよう……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,12 +148,10 @@ return {
 			}
 		},
 		{
-			actorName = "蓝鳃鱼",
 			side = 2,
 			bgName = "bg_banama_4",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "不对不对，这群塞壬好像还没有发现我的行踪，难道说…其实我现在的位置才是最安全的？",
+			say = "運河要塞からそう遠くない距離かもしれない。だがセイレーンの「魚群」にバレずに追い越すのは、間違いなく不可能だ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,12 +162,44 @@ return {
 			}
 		},
 		{
-			actorName = "蓝鳃鱼",
+			actorName = "ブルーギル",
 			side = 2,
 			bgName = "bg_banama_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎嘿嘿，这样的话……",
+			say = "ここでセイレーンと戦ったら、仲間たちに情報を伝えられない！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "ブルーギル",
+			side = 2,
+			bgName = "bg_banama_4",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "…んん？よく考えたら、あのセイレーンにはブルーギルがいることがバレていない！つまりこのままこっそり…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "ブルーギル",
+			side = 2,
+			bgName = "bg_banama_4",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "いた！あの一回り大きなセイレーンはたしか…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			dir = 1,
-			say = "蓝鳃鱼躲在礁石的阴影中凝视着塞壬的潜艇群，终于，她发现了一个异常的目标。",
+			say = "岩礁の裏に隠れ、小さな狩人が狙いを定めた。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -246,28 +246,7 @@ return {
 			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			say = "好大…！这个就是指挥系统吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			shake = {
-				speed = 1,
-				number = 3
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_underwater",
-			dir = 1,
-			actor = 108040,
-			nameColor = "#a9f548",
-			say = "如果我在这里把塞壬的指挥官解决掉，进攻要塞的塞壬变得群龙无首，我们不就赢定了嘛！",
+			say = "噂の中枢艦に違いない！あいつさえ倒せばセイレーンたちの指揮系統が動かなくなって、そうなったらこっちの勝ちだ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +267,7 @@ return {
 			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			say = "以后这场战斗都会被大家称为“蓝鳃鱼式的胜利”了，哎嘿嘿嘿----",
+			say = "そう！この勝利は「ブルーギル・スナイプ・ヴィクトリー」と呼ぶことにする！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +287,7 @@ return {
 			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			say = "咦？起雾了…？不可能不可能，海水里怎么会起雾啊！",
+			say = "あ、あれ？この白い靄は一体…なんで海の中でもこんな霧みたいのがあるの！？",
 			effects = {
 				{
 					active = true,
@@ -335,7 +314,7 @@ return {
 			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			say = "这究竟是------",
+			say = "一体……わわわ！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +335,7 @@ return {
 			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			say = "哇啊啊啊啊啊啊----------------------",
+			say = "うわああああああ！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +359,7 @@ return {
 			side = 2,
 			bgName = "bg_underwater",
 			dir = 1,
-			say = "在发动攻击之前，蓝鳃鱼的视野被突然出现的白色覆盖，然后身体就像被扔进了滚桶中一样，天旋地转起来。",
+			say = "視界が真っ白になり、まるで渦の中に放り込まれたかのように激流に襲われる。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +373,7 @@ return {
 			side = 2,
 			bgName = "bg_underwater",
 			dir = 1,
-			say = "等再次回过神来的时候…",
+			say = "そしてしばらくして海が鎮まり――",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -434,7 +413,7 @@ return {
 			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			say = "疼疼疼…塞壬舰队怎么不见了…这是在哪儿啊…",
+			say = "あいててて…あれ？セイレーン艦隊は？ここは一体…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +433,7 @@ return {
 			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			say = "哎？！喂~~~喂~~~~！？前方正在游泳的是无畏么？！",
+			say = "あそこにいるのは…イントレピッドさん！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

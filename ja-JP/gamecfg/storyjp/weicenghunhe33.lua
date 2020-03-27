@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-3",
-			say = "要塞东侧外海？·海雾中",
+			say = "バミューダ海域・海霧",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_3",
 			dir = 1,
-			say = "巴尔的摩带领的调防舰队正在迷雾中与净化者激烈战斗着----",
+			say = "ボルチモア艦隊がピュリファイアーと戦っていた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,8 +57,8 @@ return {
 			bgName = "bg_xiangting_3",
 			dir = 1,
 			actor = 900021,
-			actorName = "净化者",
-			say = "才怪呢~！",
+			actorName = "ピュリファイアー",
+			say = "アタラナイヨ―",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			bgName = "bg_xiangting_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂，不要躲躲闪闪的，来和我正面战斗啊！",
+			say = "ちっ、ちまちま逃げるんじゃなく、正々堂々と戦え！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,8 +91,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 900021,
-			actorName = "净化者",
-			say = "才不要~这次可不是为了收集数据，我才不想浪费无谓的力气呢。",
+			actorName = "ピュリファイアー",
+			say = "ダーメ。こっちはデータ収集がメインなんだから、無駄な出力を出したくないもん～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			say = "明明是这么明目张胆的拖延战术…可是我们却一点办法都没有……！",
+			say = "さっきの波の壁が現れてからピュリファイアーは時間稼ぎしているとしか思えないわ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_xiangting_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "轰-----！",
+			say = "―――！！",
 			flashN = {
 				color = {
 					1,
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			actor = 102050,
 			nameColor = "#a9f548",
-			say = "这片海域里，还有人在战斗！",
+			say = "今のは…戦闘の音？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,8 +195,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 900021,
-			actorName = "净化者",
-			say = "（诱饵舰队被摧毁了，终于上钩了么）",
+			actorName = "ピュリファイアー",
+			say = "（お。ついに餌に食いついたかな）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,8 +213,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 900021,
-			actorName = "净化者",
-			say = "啊--这-可-不-太-妙---要-撤-退-了----（棒读）",
+			actorName = "ピュリファイアー",
+			say = "あら大変～これは逃げないと駄目のようだね～オボエテイロヨ―（棒読み）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "等-----！",
+			say = "待て！……今度は後ろか！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_3",
 			dir = 1,
-			say = "几乎在净化者驶出视野的同时，一个“熟悉”的身影伴随着爆炸的余音从迷雾中出现了。",
+			say = "霧の中から現れたのは――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			actor = 900135,
 			actorName = "？？？",
-			say = "………",
+			say = "…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "…余、余烬--？！！",
+			say = "「余燼」…か",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			actor = 900135,
 			actorName = "？？？",
-			say = "这次你们的指挥官没跟着一起来么。",
+			say = "指揮官は一緒じゃなかったのか",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "……无可奉告",
+			say = "…君に言うことはなにもないよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			actor = 900135,
 			actorName = "？？？",
-			say = "这样啊………（转身）",
+			say = "そうか……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			say = "请…请等一下！谢谢你出来帮助我们！",
+			say = "待ちなさい！…ううん、助けてくれて感謝するわ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			say = "请问！你知道这些海雾究竟是什么东西么…",
+			say = "しかし、ここは一体どの海域なのかしら…私たち、一体どうすれば…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			dir = 1,
 			actor = 900135,
 			actorName = "？？？",
-			say = "…塞壬用来掩护行军和围困敌人的把戏。",
+			say = "お前たちが行きたい場所からそう遠くは離れていない。セイレーンも雑な仕事をしてくれる",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			dir = 1,
 			actor = 102050,
 			nameColor = "#a9f548",
-			say = "居然在迷雾中偏航了这么远，明明就算通过海水的变化也应该早就能察觉到的…",
+			say = "私たち、この海霧の中を「移動させられている」ってこと？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			actor = 900135,
 			actorName = "？？？",
-			say = "「微层化混合物」，这片海雾的正式名字。整天被那些家伙耍，什么时候才能成长些啊…",
+			say = "…またセイレーンに翻弄されているのか。『微層化混合物』のジャミングフォッグごときに",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "果然是这片海雾干的好事啊…糟糕了。",
+			say = "ああ、悪かったな…",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -502,7 +502,7 @@ return {
 			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			say = "那…请问我们能回去了么？我们还有很紧急的任务要做…",
+			say = "私たち、どうすれば帰れるのかしら…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			bgName = "bg_xiangting_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然，如果要选择打一场的话，我们也奉陪哦！",
+			say = "海霧を解除しない限り無理だろうな。もっとも、こいつが戦う気なら――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			actor = 900135,
 			actorName = "？？？",
-			say = "……真麻烦。",
+			say = "……ジャミングフォッグの発生機構……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			blackBg = true,
 			actor = 900135,
 			actorName = "？？？",
-			say = "唉…之前看到的侦察机飞来的方向，我记得是…………",
+			say = "……ふっ。お前たちの仲間が放った「空の目」を借りるとしよう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,7 +10,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_banama_6",
-			say = "巴拿马要塞西侧？东侧？·迷雾中",
+			say = "運河要塞？・外洋？",
 			bgm = "hunhe-battle",
 			typewriter = {
 				speed = 0.05,
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_6",
 			dir = 1,
-			say = "联合舰队依然在迷雾中战斗着。",
+			say = "霧が薄くなっていく中、イントレピッドたちが次々と現れるセイレーンの大群相手に激戦を繰り広げていた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_6",
 			dir = 1,
-			say = "已经持续了多久了呢…迷雾中的敌人仿佛无穷无尽一般，前赴后继的涌来。",
+			say = "敵の攻勢が確かに強くなったものの、海霧で全力出せずにいた空母たちもまた猛威を振るい始める。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,28 +50,12 @@ return {
 			}
 		},
 		{
-			actorName = "邦克山",
-			side = 2,
-			bgName = "bg_banama_6",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "真是夸张的数量，塞壬已经看穿我们的企图了么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "埃塞克斯",
+			actorName = "バンカー・ヒル",
 			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很有可能…从空中海面水下发动的全方位立体式攻击，再加上这些碍事迷雾的掩护…",
+			say = "とんでもない数だ。「あたり」が近いとでもいうのか",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,12 +66,12 @@ return {
 			}
 		},
 		{
-			actorName = "埃塞克斯",
+			actorName = "エセックス",
 			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "根本寻找不到塞壬的主攻方向…！",
+			say = "かもしれないわね。艦載機に量産艦に潜水艦、そして霧の影響…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,12 +82,12 @@ return {
 			}
 		},
 		{
-			actorName = "无畏",
+			actorName = "エセックス",
 			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果继续这样下去的话，大家就都危险了！都怪我的作战计划太鲁莽了…",
+			say = "セイレーンの中枢艦を撃破するまでの勝負ってことね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,12 +98,12 @@ return {
 			}
 		},
 		{
-			actorName = "埃塞克斯",
+			actorName = "イントレピッド",
 			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你在说什么呢，无畏。塞壬能投入这种程度的部队拼命抵抗，恰好说明你判断的方向是正确的。",
+			say = "このままではこちらが不利になる可能性が高い…どうすれば…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,12 +114,12 @@ return {
 			}
 		},
 		{
-			actorName = "埃塞克斯",
+			actorName = "エセックス",
 			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "开战的时候你不是还想劝我要自信点么，现在先对自己失去信心了？",
+			say = "どうするもこうするもない。ここを切り抜けないといずれ全滅するもの",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,12 +130,12 @@ return {
 			}
 		},
 		{
-			actorName = "无畏",
+			actorName = "エセックス",
 			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "被你发现了么……",
+			say = "ほら、しゃんとして！恐れなきイントレピッドでしょ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,12 +146,12 @@ return {
 			}
 		},
 		{
-			actorName = "埃塞克斯",
+			actorName = "イントレピッド",
 			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那是当然~拿出自信来，企业前辈现在不在，只能依靠我们自己了。",
+			say = "……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,12 +162,12 @@ return {
 			}
 		},
 		{
-			actorName = "邦克山",
+			actorName = "エセックス",
 			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在如同黎明之前的最后一刻黑夜，只要突破困境，胜利的曙光就在眼前。",
+			say = "エンタープライズ先輩がいない今、私たちが頑張るしかない！…ううん、私たちが先輩たちを助ける！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,12 +178,12 @@ return {
 			}
 		},
 		{
-			actorName = "邦克山",
+			actorName = "バンカー・ヒル",
 			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无畏，这是你的作战计划，决定我们接下来的方向吧。",
+			say = "そしてボルチモアたち、当然だが運河要塞もだ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,12 +194,12 @@ return {
 			}
 		},
 		{
-			actorName = "无畏",
+			actorName = "バンカー・ヒル",
 			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们也知道我的运气…现在情况危急，要是在这时候选错方向……",
+			say = "みんなを心配してくれるのは嬉しいが、ここはあなたの前向きさを活かす番だな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,12 +210,12 @@ return {
 			}
 		},
 		{
-			actorName = "邦克山",
+			actorName = "イントレピッド",
 			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "无妨。选错了方向，我们再杀几个来回就是了。",
+			say = "……エセックス、バンカー・ヒル……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,12 +226,12 @@ return {
 			}
 		},
 		{
-			actorName = "无畏",
+			actorName = "バンカー・ヒル",
 			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊……有时候我真的觉得，我这么倒霉是不是因为我在作为埃塞克斯级诞生的时候就用光了全部的运气！",
+			say = "ああ、「とにかく突っ込む」はなしだな。エンタープライズさんだって状況を見ずに無闇に突進したりはしない",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,12 +242,28 @@ return {
 			}
 		},
 		{
-			actorName = "无畏",
+			actorName = "イントレピッド",
 			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我知道了！让我想一想………………",
+			say = "しないよそんなの！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "イントレピッド",
+			side = 2,
+			bgName = "bg_banama_6",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "（でも、この状況をどうすれば……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgm = "hunhe-eagle",
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "唔…你们发现了么，从刚才开始，雾气有点点变淡了。",
+			say = "あ！そういえばさっきから霧が少しずつ薄くなってきているわね",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -319,7 +319,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错。拜此所赐舰载机的战斗效率也提升了。",
+			say = "ああ、おかげさまで出せる艦載機も多くなったな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "邦克山，你能用舰载机侦查一下周围雾气的密度变化么？不需要特别精确，只要有变化趋势就可以！",
+			say = "バンカー・ヒル、偵察機で霧の濃度を調べられない？見晴らしの良さ程度でいいから！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没问题，不过你打算做什么…？",
+			say = "……もちろんだ。しかしどうしてそれを…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107090,
-			say = "如果海雾是从同一处地方产生的话，消散的时候浓度的变化也不会是均匀的！",
+			say = "霧が一箇所から発生するのなら、薄くなる時に濃度が均等には変化しないはず！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "没错，可以通过这一特性定位到真正的发生源！",
+			say = "そうよ！つまり発生源の方向を特定できるってことよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "太棒了！只要等待侦查结果回来，进攻方向就决定了呢~",
+			say = "やったわねイントレピッド！これでどこへ進めばいいか分かる！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "接下来就是决定进攻战术…",
+			say = "よし、次はどうやって敵の中枢艦に接近するかだけど……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,8 +429,8 @@ return {
 			actor = 107170,
 			dir = 1,
 			hideOther = true,
-			actorName = "邦克山&埃塞克斯",
-			say = "没时间迂回了，从正面突破吧！\n从正面强攻！",
+			actorName = "バンカー・ヒル&エセックス",
+			say = "時間がないから、とにかく突っ込め！",
 			subActors = {
 				{
 					actor = 107090,
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "噗…大家都说没有两艘完全一样的埃塞克斯级。",
+			say = "えええ！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "不过在面对的敌人时候，我们的选择完全一致呢！",
+			say = "……ふふ、やっぱりみんなエセックス級だね！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			soundeffect = "event:/battle/plane",
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "大家都做好挂更多彩的准备~机会难得，就用这些新型塞壬展示一下埃塞克斯级编队的力量吧！",
+			say = "さあ、偵察機、かっとべ！敵の中枢艦に私たちを導いて！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
