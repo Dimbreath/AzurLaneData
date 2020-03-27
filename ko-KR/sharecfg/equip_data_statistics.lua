@@ -67152,7 +67152,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[85180] = {
-		name = "37mm대공炮70-K",
+		name = "37mm대공포 70-K",
 		type = 6,
 		id = 85180,
 		tech = 1,
@@ -67223,7 +67223,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[85200] = {
-		name = "37mm대공炮70-K",
+		name = "37mm대공포 70-K",
 		type = 6,
 		id = 85200,
 		tech = 2,
@@ -67327,7 +67327,7 @@ pg.equip_data_statistics = {
 		property_rate = {}
 	},
 	[85220] = {
-		name = "37mm대공炮70-K",
+		name = "37mm대공포 70-K",
 		type = 6,
 		id = 85220,
 		tech = 3,
