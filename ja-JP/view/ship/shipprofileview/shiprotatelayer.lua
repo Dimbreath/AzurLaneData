@@ -39,11 +39,6 @@ end
 
 function slot0.SetPainting(slot0, slot1, slot2)
 	slot0:RecyclePainting()
-
-	if slot2 and slot0.shipGroup.trans then
-		slot1 = slot0.shipGroup.groupConfig.trans_skin
-	end
-
 	setPaintingPrefabAsync(slot0.painting, pg.ship_skin_template[slot1].painting, "chuanwu")
 
 	slot0.paintingName = pg.ship_skin_template[slot1].painting

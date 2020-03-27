@@ -899,6 +899,10 @@ pg.voice_actor_CN = {
 	[230] = {
 		actor_name = "武田羅梨沙多胡",
 		code = 230
+	},
+	[231] = {
+		actor_name = "川﨑芽衣子",
+		code = 231
 	}
 }
 
