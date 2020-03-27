@@ -21,14 +21,12 @@ function ys.Battle.BattleBuffDOT.SetArgs(slot0, slot1, slot2)
 	if slot0._orb then
 		slot2:SetOrbDuration(slot4)
 
-		slot0._damageEnhance = slot0.CaclulateDOTDamageEnhanceRate(slot0._tempData, slot0._orb, slot1)
 		slot0._igniteAttr = slot0._tempData.arg_list.attr
 		slot0._igniteCoefficient = slot0._tempData.arg_list.k
 		slot0._igniteDMG = slot0.CalculateIgniteDamage(slot0._orb, slot0._igniteAttr, slot0._igniteCoefficient)
 		slot0._igniteDMG = slot0._igniteDMG
 	else
 		slot0._igniteDMG = 0
-		slot0._damageEnhance = 1
 	end
 end
 
@@ -53,9 +51,15 @@ function ys.Battle.BattleBuffDOT.onRemove(slot0, slot1, slot2)
 end
 
 function ys.Battle.BattleBuffDOT.CalcNumber(slot0, slot1, slot2)
-	slot3, slot4 = slot1:GetHP()
+	slot3 = 0
 
-	return math.max(0, math.floor(math.min(slot3 - slot4 * slot0._minRestHPRatio, (slot3 * slot0._currentHPRatio + slot4 * slot0._maxHPRatio + slot0._number + slot0._igniteDMG) * (1 + slot0._damageEnhance) * slot2._stack * slot0.GetCurrent(slot1, "repressReduce"))))
+	if slot0._orb then
+		slot3 = slot0.CaclulateDOTDamageEnhanceRate(slot0._tempData, slot0._orb, slot1)
+	end
+
+	slot4, slot5 = slot1:GetHP()
+
+	return math.max(0, math.floor(math.min(slot4 - slot5 * slot0._minRestHPRatio, (slot4 * slot0._currentHPRatio + slot5 * slot0._maxHPRatio + slot0._number + slot0._igniteDMG) * (1 + slot3) * slot2._stack * slot1:GetCurrent("repressReduce"))))
 end
 
 function ys.Battle.BattleBuffDOT.SetOrb(slot0, slot1, slot2, slot3)

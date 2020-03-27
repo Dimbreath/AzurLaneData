@@ -8644,11 +8644,11 @@ pg.ship_data_group = {
 			"C"
 		},
 		trans_radar_chart = {
-			"C",
 			"B",
+			"A",
 			"E",
 			"B",
-			"C",
+			"A",
 			"C"
 		},
 		trans_skill = {

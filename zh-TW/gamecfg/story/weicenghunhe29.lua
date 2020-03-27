@@ -247,7 +247,7 @@ return {
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊……有时候我真的觉得，我这么倒霉是不因为我在作为埃塞克斯级降生的时候就用光了全部的运气！",
+			say = "哈啊……有时候我真的觉得，我这么倒霉是不是因为我在作为埃塞克斯级诞生的时候就用光了全部的运气！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgm = "hunhe-eagle",
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "唔…你们发现了么，塞壬好像不会受到这些迷雾的影响。",
+			say = "唔…你们发现了么，从刚才开始，雾气有点点变淡了。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -319,7 +319,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那是当然的，迷雾本身不就是塞壬设置的陷阱么。",
+			say = "没错。拜此所赐舰载机的战斗效率也提升了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "可是…虽然水面上的塞壬在装作从四面八方包围的样子，水下的潜艇部队都是从一个方向来的哦！",
+			say = "邦克山，你能用舰载机侦查一下周围雾气的密度变化么？不需要特别精确，只要有变化趋势就可以！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,23 +350,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "因为潜艇的航速问题没办法像水面舰艇一样灵活部署么？!",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 1,
-			nameColor = "#a9f548",
-			side = 2,
-			dir = 1,
-			actor = 107170,
-			say = "你居然会注意潜艇移动的位置…这一点是我看漏了。",
+			say = "没问题，不过你打算做什么…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +366,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107090,
-			say = "这么说…潜艇进攻的方向就是塞壬指挥机关所在的真正方向？！",
+			say = "如果海雾是从同一处地方产生的话，消散的时候浓度的变化也不会是均匀的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +382,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "蓝鳃鱼不是也说了么，在水下潜艇群中看到了巨大塞壬指挥舰。潜艇进攻的方向就是敌军指挥舰的真正方向错不了！",
+			say = "没错，可以通过这一特性定位到真正的发生源！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +397,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "很好！进攻方向决定，至少不用像无头苍蝇一样乱转了。",
+			say = "太棒了！只要等待侦查结果回来，进攻方向就决定了呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
