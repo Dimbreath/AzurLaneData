@@ -3778,7 +3778,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10000,
 		resource_num = 800,
-		order = 0
+		order = 2
 	},
 	[10001] = {
 		commodity_id = 2640,
@@ -3790,7 +3790,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10001,
 		resource_num = 1500,
-		order = 0
+		order = 3
 	},
 	[10002] = {
 		commodity_id = 24340,
@@ -3802,7 +3802,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10002,
 		resource_num = 800,
-		order = 0
+		order = 4
 	},
 	[10003] = {
 		commodity_id = 30015,
@@ -3814,7 +3814,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10003,
 		resource_num = 500,
-		order = 0
+		order = 8
 	},
 	[10004] = {
 		commodity_id = 30025,
@@ -3826,7 +3826,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10004,
 		resource_num = 500,
-		order = 0
+		order = 8
 	},
 	[10005] = {
 		commodity_id = 30035,
@@ -3838,7 +3838,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10005,
 		resource_num = 500,
-		order = 0
+		order = 8
 	},
 	[10006] = {
 		commodity_id = 30045,
@@ -3850,7 +3850,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10006,
 		resource_num = 500,
-		order = 0
+		order = 8
 	},
 	[10007] = {
 		commodity_id = 30014,
@@ -3862,7 +3862,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10007,
 		resource_num = 100,
-		order = 0
+		order = 8
 	},
 	[10008] = {
 		commodity_id = 30024,
@@ -3874,7 +3874,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10008,
 		resource_num = 100,
-		order = 0
+		order = 8
 	},
 	[10009] = {
 		commodity_id = 30034,
@@ -3886,7 +3886,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10009,
 		resource_num = 100,
-		order = 0
+		order = 8
 	},
 	[10010] = {
 		commodity_id = 30044,
@@ -3898,7 +3898,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10010,
 		resource_num = 100,
-		order = 0
+		order = 8
 	},
 	[10011] = {
 		commodity_id = 30013,
@@ -3910,7 +3910,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10011,
 		resource_num = 25,
-		order = 0
+		order = 8
 	},
 	[10012] = {
 		commodity_id = 30023,
@@ -3922,7 +3922,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10012,
 		resource_num = 25,
-		order = 0
+		order = 8
 	},
 	[10013] = {
 		commodity_id = 30033,
@@ -3934,7 +3934,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10013,
 		resource_num = 25,
-		order = 0
+		order = 8
 	},
 	[10014] = {
 		commodity_id = 30043,
@@ -3946,7 +3946,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10014,
 		resource_num = 25,
-		order = 0
+		order = 8
 	},
 	[10015] = {
 		commodity_id = 33060,
@@ -3958,7 +3958,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10015,
 		resource_num = 800,
-		order = 0
+		order = 3
 	},
 	[10016] = {
 		commodity_id = 600,
@@ -3970,7 +3970,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10016,
 		resource_num = 800,
-		order = 0
+		order = 3
 	},
 	[10017] = {
 		commodity_id = 620,
@@ -3982,7 +3982,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10017,
 		resource_num = 800,
-		order = 0
+		order = 3
 	},
 	[10018] = {
 		commodity_id = 28060,
@@ -3994,7 +3994,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10018,
 		resource_num = 800,
-		order = 0
+		order = 3
 	},
 	[10019] = {
 		commodity_id = 19060,
@@ -4006,7 +4006,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10019,
 		resource_num = 800,
-		order = 0
+		order = 3
 	},
 	[10020] = {
 		commodity_id = 17400,
@@ -4018,7 +4018,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10020,
 		resource_num = 500,
-		order = 0
+		order = 5
 	},
 	[10021] = {
 		commodity_id = 403041,
@@ -4030,7 +4030,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10021,
 		resource_num = 1000,
-		order = 0
+		order = 2
 	},
 	[10022] = {
 		commodity_id = 15008,
@@ -4042,7 +4042,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10022,
 		resource_num = 35,
-		order = 0
+		order = 7
 	},
 	[10023] = {
 		commodity_id = 2800,
@@ -4054,7 +4054,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10023,
 		resource_num = 300,
-		order = 0
+		order = 6
 	},
 	[10024] = {
 		commodity_id = 4340,
@@ -4066,7 +4066,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10024,
 		resource_num = 500,
-		order = 0
+		order = 4
 	},
 	[10025] = {
 		commodity_id = 3120,
@@ -4078,7 +4078,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10025,
 		resource_num = 800,
-		order = 0
+		order = 3
 	},
 	[10026] = {
 		commodity_id = 3140,
@@ -4090,7 +4090,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10026,
 		resource_num = 800,
-		order = 0
+		order = 3
 	},
 	[10027] = {
 		commodity_id = 301091,
@@ -4102,7 +4102,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10027,
 		resource_num = 1000,
-		order = 0
+		order = 1
 	},
 	[10028] = {
 		commodity_id = 660,
@@ -4114,7 +4114,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10028,
 		resource_num = 500,
-		order = 0
+		order = 4
 	},
 	[10029] = {
 		commodity_id = 680,
@@ -4126,7 +4126,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10029,
 		resource_num = 500,
-		order = 0
+		order = 4
 	},
 	[10030] = {
 		commodity_id = 700,
@@ -4138,7 +4138,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10030,
 		resource_num = 500,
-		order = 0
+		order = 4
 	},
 	[10034] = {
 		commodity_id = 17060,
@@ -4150,7 +4150,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10034,
 		resource_num = 800,
-		order = 0
+		order = 3
 	},
 	[10035] = {
 		commodity_id = 29300,
@@ -4162,7 +4162,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10035,
 		resource_num = 800,
-		order = 0
+		order = 3
 	},
 	[10036] = {
 		commodity_id = 404011,
@@ -4186,7 +4186,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10037,
 		resource_num = 800,
-		order = 0
+		order = 3
 	},
 	[10038] = {
 		commodity_id = 29200,
@@ -4198,7 +4198,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10038,
 		resource_num = 800,
-		order = 0
+		order = 3
 	},
 	[10039] = {
 		commodity_id = 28200,
@@ -4210,7 +4210,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10039,
 		resource_num = 800,
-		order = 0
+		order = 3
 	},
 	[10040] = {
 		commodity_id = 1960,
@@ -4222,7 +4222,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10040,
 		resource_num = 500,
-		order = 0
+		order = 4
 	},
 	[50001] = {
 		commodity_id = 405021,
@@ -4234,7 +4234,7 @@ pg.activity_shop_template = {
 		resource_type = 950,
 		id = 50001,
 		resource_num = 8000,
-		order = 1
+		order = 0
 	},
 	[50002] = {
 		commodity_id = 404021,
@@ -4246,7 +4246,7 @@ pg.activity_shop_template = {
 		resource_type = 950,
 		id = 50002,
 		resource_num = 4000,
-		order = 2
+		order = 0
 	},
 	[50004] = {
 		commodity_id = 45240,
@@ -4258,7 +4258,7 @@ pg.activity_shop_template = {
 		resource_type = 950,
 		id = 50004,
 		resource_num = 6000,
-		order = 4
+		order = 0
 	},
 	[50005] = {
 		commodity_id = 44140,
@@ -4270,7 +4270,7 @@ pg.activity_shop_template = {
 		resource_type = 950,
 		id = 50005,
 		resource_num = 2000,
-		order = 5
+		order = 0
 	},
 	[50006] = {
 		commodity_id = 45140,
@@ -4282,7 +4282,7 @@ pg.activity_shop_template = {
 		resource_type = 950,
 		id = 50006,
 		resource_num = 2000,
-		order = 6
+		order = 0
 	},
 	[50007] = {
 		commodity_id = 47140,
@@ -4294,7 +4294,7 @@ pg.activity_shop_template = {
 		resource_type = 950,
 		id = 50007,
 		resource_num = 2000,
-		order = 7
+		order = 0
 	},
 	[50008] = {
 		commodity_id = 3100,
@@ -4306,7 +4306,7 @@ pg.activity_shop_template = {
 		resource_type = 950,
 		id = 50008,
 		resource_num = 1000,
-		order = 8
+		order = 0
 	},
 	[50009] = {
 		commodity_id = 4240,
@@ -4318,7 +4318,7 @@ pg.activity_shop_template = {
 		resource_type = 950,
 		id = 50009,
 		resource_num = 1000,
-		order = 9
+		order = 0
 	},
 	[50010] = {
 		commodity_id = 15008,
@@ -4330,7 +4330,7 @@ pg.activity_shop_template = {
 		resource_type = 950,
 		id = 50010,
 		resource_num = 300,
-		order = 10
+		order = 0
 	},
 	[50011] = {
 		commodity_id = 42000,
@@ -4342,7 +4342,7 @@ pg.activity_shop_template = {
 		resource_type = 950,
 		id = 50011,
 		resource_num = 500,
-		order = 11
+		order = 0
 	},
 	[50012] = {
 		commodity_id = 8103,
@@ -4354,7 +4354,7 @@ pg.activity_shop_template = {
 		resource_type = 950,
 		id = 50012,
 		resource_num = 2000,
-		order = 12
+		order = 0
 	},
 	[50013] = {
 		commodity_id = 8118,
@@ -4366,7 +4366,7 @@ pg.activity_shop_template = {
 		resource_type = 950,
 		id = 50013,
 		resource_num = 1200,
-		order = 13
+		order = 0
 	},
 	[50014] = {
 		commodity_id = 8106,
@@ -4378,7 +4378,7 @@ pg.activity_shop_template = {
 		resource_type = 950,
 		id = 50014,
 		resource_num = 300,
-		order = 14
+		order = 0
 	},
 	[50015] = {
 		commodity_id = 8107,
@@ -4390,7 +4390,7 @@ pg.activity_shop_template = {
 		resource_type = 950,
 		id = 50015,
 		resource_num = 300,
-		order = 15
+		order = 0
 	},
 	[50016] = {
 		commodity_id = 8111,
@@ -4402,7 +4402,7 @@ pg.activity_shop_template = {
 		resource_type = 950,
 		id = 50016,
 		resource_num = 300,
-		order = 16
+		order = 0
 	},
 	[50017] = {
 		commodity_id = 2,
@@ -4414,7 +4414,7 @@ pg.activity_shop_template = {
 		resource_type = 950,
 		id = 50017,
 		resource_num = 450,
-		order = 17
+		order = 0
 	},
 	[50018] = {
 		commodity_id = 50004,
@@ -4426,7 +4426,7 @@ pg.activity_shop_template = {
 		resource_type = 950,
 		id = 50018,
 		resource_num = 50,
-		order = 18
+		order = 0
 	},
 	[50020] = {
 		commodity_id = 403041,
@@ -4438,7 +4438,7 @@ pg.activity_shop_template = {
 		resource_type = 950,
 		id = 50020,
 		resource_num = 4000,
-		order = 3
+		order = 0
 	},
 	all = {
 		201,
