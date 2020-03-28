@@ -239,7 +239,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102260,
-			say = "Woah, that feels really heroic. Very cool, Bremerton!~!",
+			say = "Woah, that feels really heroic. Very cool, Bremerton!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

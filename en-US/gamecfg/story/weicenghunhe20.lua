@@ -36,7 +36,7 @@ return {
 			side = 2,
 			bgName = "bg_underwater",
 			dir = 1,
-			say = "Right before Intrepid and the others arrived at the Canal Stronghold...。",
+			say = "Right before Intrepid and the others arrived at the Canal Stronghold...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_4",
 			dir = 1,
-			say = "The mass-produced Sirens, moving like a school of fish, was an undeniably terrifying sight.。",
+			say = "The mass-produced Sirens, moving like a school of fish, was an undeniably terrifying sight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			dir = 1,
-			say = "Concealed behind a reef, the small hunter carefully took aim.。",
+			say = "Concealed behind a reef, the small hunter carefully took aim.",
 			flashout = {
 				dur = 0.5,
 				black = true,

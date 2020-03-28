@@ -192,7 +192,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102270,
-			say = "Watch out! Something's approaching! Hurry up and...！",
+			say = "Watch out! Something's approaching! Hurry up and...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

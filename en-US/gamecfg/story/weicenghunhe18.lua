@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "She followed the direction that the shadow was facing before it disappeared.。",
+			say = "She followed the direction that the shadow was facing before it disappeared.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "Once again, the shadows disappeared, leaving Enterprise alone in the still sea.。",
+			say = "Once again, the shadows disappeared, leaving Enterprise alone in the still sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

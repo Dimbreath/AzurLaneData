@@ -78,7 +78,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错~Even superheroes need to rest after all. I'd love to go to the top of a skyscraper and look all the way around, so I totally get it.",
+			say = "Even superheroes need to rest after all. I'd love to go to the top of a skyscraper and look all the way around, so I totally get it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

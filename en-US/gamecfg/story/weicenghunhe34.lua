@@ -11,7 +11,7 @@ return {
 			bgName = "bg_cccp_7",
 			dir = 1,
 			bgm = "airRaidAlarm",
-			say = "A sea, dyed a dark red by flames and smoke. Tarnished by wanton violence and destruction.。",
+			say = "A sea, dyed a dark red by flames and smoke. Tarnished by wanton violence and destruction.",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			bgName = "bg_cccp_7",
 			dir = 1,
-			say = "Tattered flags floated in the water. Debris and bodies alike were strewn everywhere unceremoniously.。",
+			say = "Tattered flags floated in the water. Debris and bodies alike were strewn everywhere unceremoniously.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_cccp_7",
 			dir = 1,
-			say = "They are still fighting. Among them are faces that she recognizes, and some that she doesn't.。",
+			say = "They are still fighting. Among them are faces that she recognizes, and some that she doesn't.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			bgName = "bg_cccp_7",
 			dir = 1,
-			say = "But, it is not Sirens that they raise their weapons against.。",
+			say = "But, it is not Sirens that they raise their weapons against.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			bgName = "bg_cccp_7",
 			dir = 1,
-			say = "But her body would not obey her.。",
+			say = "But her body would not obey her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

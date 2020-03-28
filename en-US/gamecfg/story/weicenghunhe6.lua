@@ -219,7 +219,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Now now, this was bound to happen sooner or later. If you're worried about it, then you should hurry up and smash these Sirens to bits.~",
+			say = "Now now, this was bound to happen sooner or later. If you're worried about it, then you should hurry up and smash these Sirens to bits.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

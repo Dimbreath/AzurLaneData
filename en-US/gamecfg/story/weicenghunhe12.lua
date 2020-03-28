@@ -42,7 +42,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "...A lone ship continued to sail through the fog.。",
+			say = "...A lone ship continued to sail through the fog.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "...How much time had passed? Then, a shadow coalesced in front of Enterprise.。",
+			say = "...How much time had passed? Then, a shadow coalesced in front of Enterprise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "The shadow turned around and spoke.。",
+			say = "The shadow turned around and spoke.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "The shadow turned her back and stepped forward into the fog.。",
+			say = "The shadow turned her back and stepped forward into the fog.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -14,7 +14,7 @@ return {
 			bgm = "hunhe-level",
 			actor = 207020,
 			nameColor = "#ffa500",
-			say = "They're here, Enterprise.。",
+			say = "They're here, Enterprise.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			say = "Before her was an enemy who Enterprise had faced off against many times. Reflexively, she poised herself for battle.。",
+			say = "Before her was an enemy who Enterprise had faced off against many times. Reflexively, she poised herself for battle.",
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
