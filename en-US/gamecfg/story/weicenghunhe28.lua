@@ -207,7 +207,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "Come. She is here.。",
+			say = "Come. She is here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "The very land roars. The ocean waters rage and space itself seems to unravel as if split by an earthquake.。",
+			say = "The very land roars. The ocean waters rage and space itself seems to unravel as if split by an earthquake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "......。",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

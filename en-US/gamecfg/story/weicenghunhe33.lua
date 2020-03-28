@@ -263,7 +263,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_3",
 			dir = 1,
-			say = "Another figure emerged from the mist...。",
+			say = "Another figure emerged from the mist...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11672,9 +11672,13 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Time-Limited Build",
+				"Special Construction",
 				{
-					""
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}

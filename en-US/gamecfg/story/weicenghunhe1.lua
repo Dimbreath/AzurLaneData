@@ -14,7 +14,7 @@ return {
 			bgmDelay = 1,
 			bgm = "level02",
 			actorName = "Communication",
-			say = "This is NY City. Requesting status report, over.。",
+			say = "This is NY City. Requesting status report, over.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "NY City copies. We've received your location. Keep the channels open, over.。",
+			say = "NY City copies. We've received your location. Keep the channels open, over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actorName = "Communication",
-			say = "This is NY City. Requesting status report, over.。",
+			say = "This is NY City. Requesting status report, over.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "That's good... But according to our weather reports, a strange mist has been forming along your route, over.。",
+			say = "That's good... But according to our weather reports, a strange mist has been forming along your route, over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Understood. We'll keep our eyes peeled, over.。",
+			say = "Understood. We'll keep our eyes peeled, over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actorName = "Communication",
-			say = "This is NY City. Requesting status report, over.。",
+			say = "This is NY City. Requesting status report, over.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Baltimore Fleet, this is NY City. Requesting response, over.。",
+			say = "Baltimore Fleet, this is NY City. Requesting response, over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "This is NY City. Baltimore Fleet, do you copy? Over.。",
+			say = "This is NY City. Baltimore Fleet, do you copy? Over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Baltimore, Helena, Memphis, this is NY City. Requesting response, over.。",
+			say = "Baltimore, Helena, Memphis, this is NY City. Requesting response, over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

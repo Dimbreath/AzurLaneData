@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgm = "hunhe-boss",
-			say = "After receiving the focused fire from Intrepid and the others, the Siren was unable to complete her transformation and appeared heavily damaged.。",
+			say = "After receiving the focused fire from Intrepid and the others, the Siren was unable to complete her transformation and appeared heavily damaged.",
 			flashN = {
 				color = {
 					1,

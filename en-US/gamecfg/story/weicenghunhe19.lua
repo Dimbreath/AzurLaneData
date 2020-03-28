@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_1",
 			dir = 1,
-			say = "Under the cover of the mist, the Siren forces encroached upon the Canal Stronghold.。",
+			say = "Under the cover of the mist, the Siren forces encroached upon the Canal Stronghold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

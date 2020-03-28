@@ -196,7 +196,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "Marblehead, locating the Siren submarines, dropped a large number of depth charges.。",
+			say = "Marblehead, locating the Siren submarines, dropped a large number of depth charges.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

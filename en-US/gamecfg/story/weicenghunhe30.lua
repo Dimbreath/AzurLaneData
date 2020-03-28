@@ -29,7 +29,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "The very land roars. The ocean waters rage and space itself seems to unravel as if split by an earthquake.。",
+			say = "The very land roars. The ocean waters rage and space itself seems to unravel as if split by an earthquake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "Accompanying a massive submarine was a humanoid Siren, clad in an alien-looking rigging with a bored expression on her face.。",
+			say = "Accompanying a massive submarine was a humanoid Siren, clad in an alien-looking rigging with a bored expression on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "......。",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

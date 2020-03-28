@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "A few days ago, a patrol fleet lead by Baltimore suddenly went missing in a mysterious fog en route to the Canal Stronghold..",
+			say = "A few days ago, a patrol fleet lead by Baltimore suddenly went missing in a mysterious fog en route to the Canal Stronghold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "A rescue fleet was immediately formed to locate the missing fleet, and to lend aid to the stronghold. .",
+			say = "A rescue fleet was immediately formed to locate the missing fleet, and to lend aid to the stronghold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

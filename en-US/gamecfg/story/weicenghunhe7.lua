@@ -89,7 +89,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "This is turning out to be quite the mystery... Luckily, Detective Cooper is on the case!~",
+			say = "This is turning out to be quite the mystery... Luckily, Detective Cooper is on the case!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

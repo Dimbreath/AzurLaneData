@@ -141,7 +141,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "Suddenly, the surface of the ocean trembled as a thunderous roar swallowed the bold words that were just uttered...。",
+			say = "Suddenly, the surface of the ocean trembled as a thunderous roar swallowed the bold words that were just uttered...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Out of nowhere, a massive wave rose out of the thick mist, the surface undulating turbulently as if seized by a storm.。",
+			say = "Out of nowhere, a massive wave rose out of the thick mist, the surface undulating turbulently as if seized by a storm.",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
