@@ -51,7 +51,9 @@ function ys.Battle.BattleSkillUnit.Cast(slot0, slot1, slot2)
 	if type(slot0._tempData.castCV) == "string" then
 		slot1:DispatchVoice(slot0._tempData.castCV)
 	elseif slot5 == "table" then
-		playSoundEffect(Ship.getCVPath(slot0._tempData.castCV.skinID, slot0._tempData.castCV.key))
+		slot6, slot10, slot8 = ShipWordHelper.GetWordAndCV(slot0._tempData.castCV.skinID, slot0._tempData.castCV.key)
+
+		playSoundEffect(slot7)
 	end
 
 	slot6 = slot0._attachData

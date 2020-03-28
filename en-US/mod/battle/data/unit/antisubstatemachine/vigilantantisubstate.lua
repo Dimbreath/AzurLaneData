@@ -43,7 +43,7 @@ function ys.Battle.VigilantAntiSubState.GetMeterSpeed(slot0)
 end
 
 function ys.Battle.VigilantAntiSubState.DecayDuration(slot0)
-	return 3
+	return 2
 end
 
 return

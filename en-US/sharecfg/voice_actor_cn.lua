@@ -919,6 +919,10 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Takeda Rarisa Tago ",
 		code = 230
+	},
+	{
+		actor_name = "Meiko Kawasaki",
+		code = 231
 	}
 }
 

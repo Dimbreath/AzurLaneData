@@ -1,13 +1,15 @@
 ys = ys or {}
-slot1 = class("BattleBuffAddBuff", ys.Battle.BattleBuffEffect)
-ys.Battle.BattleBuffAddBuff = slot1
-slot1.__name = "BattleBuffAddBuff"
+slot1 = ys.Battle.BattleDataFunction
+slot2 = ys.Battle.BattleFormulas
+slot3 = class("BattleBuffAddBuff", ys.Battle.BattleBuffEffect)
+ys.Battle.BattleBuffAddBuff = slot3
+slot3.__name = "BattleBuffAddBuff"
 
-function slot1.Ctor(slot0, slot1)
+function slot3.Ctor(slot0, slot1)
 	slot0.Battle.BattleBuffAddBuff.super.Ctor(slot0, slot1)
 end
 
-function slot1.SetArgs(slot0, slot1, slot2)
+function slot3.SetArgs(slot0, slot1, slot2)
 	slot0._level = slot2:GetLv()
 	slot0._buff_id = slot0._tempData.arg_list.buff_id
 	slot0._target = slot0._tempData.arg_list.target or "TargetSelf"
@@ -22,33 +24,27 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._weaponType = slot0._tempData.arg_list.weaponType
 end
 
-function slot1.onUpdate(slot0, slot1, slot2, slot3)
+function slot3.onUpdate(slot0, slot1, slot2, slot3)
 	if slot0._nextEffectTime <= slot3 then
-		slot4 = slot0.Battle.BattleBuffUnit.New(slot0._buff_id, slot0._level, slot0._caster)
-
-		slot4:SetCommander(slot0._commander)
-		slot1:AddBuff(slot4)
+		slot0:attachBuff(slot0._buff_id, slot0._level, slot1)
 
 		slot0._nextEffectTime = slot3 + slot0._time
 	end
 end
 
-function slot1.onBulletHit(slot0, slot1, slot2, slot3)
+function slot3.onBulletHit(slot0, slot1, slot2, slot3)
 	if not slot0:equipIndexRequire(slot3.equipIndex) then
 		return
 	end
 
 	slot4 = slot3.target
 
-	if (not slot0._weaponType or slot3.weaponType == slot0._weaponType) and slot0.Battle.BattleFormulas.IsHappen(slot0._rant) and slot4:IsAlive() then
-		slot5 = slot0.Battle.BattleBuffUnit.New(slot0._buff_id, slot0._level, slot0._caster)
-
-		slot5:SetCommander(slot0._commander)
-		slot4:AddBuff(slot5)
+	if (not slot0._weaponType or slot3.weaponType == slot0._weaponType) and slot4:IsAlive() then
+		slot0:attachBuff(slot0._buff_id, slot0._level, slot4)
 	end
 end
 
-function slot1.onBulletCreate(slot0, slot1, slot2, slot3)
+function slot3.onBulletCreate(slot0, slot1, slot2, slot3)
 	if not slot0:equipIndexRequire(slot3.equipIndex) then
 		return
 	end
@@ -57,19 +53,16 @@ function slot1.onBulletCreate(slot0, slot1, slot2, slot3)
 	slot6 = slot0._level
 
 	slot3._bullet:SetBuffFun(slot0._tempData.arg_list.bulletTrigger, function (slot0, slot1)
-		slot2 = slot0.Battle.BattleBuffUnit.New(slot1, slot0.Battle.BattleBuffUnit.New, slot3._caster)
-
-		slot2:SetCommander(slot3._commander)
-		slot0:AddBuff(slot2)
+		slot0:attachBuff(slot1, slot0.attachBuff, slot0)
 	end)
 end
 
-function slot1.onTrigger(slot0, slot1, slot2, slot3)
+function slot3.onTrigger(slot0, slot1, slot2, slot3)
 	slot0.super.onTrigger(slot0, slot1, slot2, slot3)
 	slot0:AddBuff(slot1)
 end
 
-function slot1.AddBuff(slot0, slot1)
+function slot3.AddBuff(slot0, slot1)
 	if not slot0:ammoRequire(slot1) then
 		return
 	end
@@ -80,24 +73,35 @@ function slot1.AddBuff(slot0, slot1)
 				if slot0._isBuffStackByCheckTarget then
 					slot9:SetBuffStack(slot0._buff_id, slot0._level, slot3)
 				else
-					slot10 = slot0.Battle.BattleBuffUnit.New(slot0._buff_id, slot0._level, slot0._caster)
-
-					slot10:SetCommander(slot0._commander)
-					slot9:AddBuff(slot10)
+					slot0:attachBuff(slot0._buff_id, slot0._level, slot9)
 				end
 			end
 		end
 	else
 		for slot6, slot7 in ipairs(slot2) do
-			slot8 = slot0.Battle.BattleBuffUnit.New(slot0._buff_id, slot0._level, slot0._caster)
-
-			slot8:SetCommander(slot0._commander)
-			slot7:AddBuff(slot8)
+			slot0:attachBuff(slot0._buff_id, slot0._level, slot7)
 		end
 	end
 end
 
-function slot1.Dispose(slot0)
+function slot3.attachBuff(slot0, slot1, slot2, slot3)
+	slot6 = nil
+
+	if #slot0.GetBuffTemplate(slot1).effect_list == 1 and slot5[1].type == "BattleBuffDOT" then
+		if slot1.CaclulateDOTPlace(slot0._rant, slot5[1], slot0._caster, slot3) then
+			slot2.Battle.BattleBuffUnit.New(slot1, nil, slot0._caster):SetOrb(slot0._caster, 1)
+		end
+	elseif slot1.IsHappen(slot0._rant) then
+		slot6 = slot2.Battle.BattleBuffUnit.New(slot1, slot2, slot0._caster)
+	end
+
+	if slot6 then
+		slot6:SetCommander(slot0._commander)
+		slot3:AddBuff(slot6)
+	end
+end
+
+function slot3.Dispose(slot0)
 	slot0.Battle.BattleBuffAddBuff.super:Dispose()
 	pg.TimeMgr.GetInstance():RemoveBattleTimer(slot0._timer)
 
