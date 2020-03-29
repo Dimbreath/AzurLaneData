@@ -482,8 +482,8 @@ pg.name_code = {
 	},
 	{
 		id = 97,
-		name = "Taiho",
-		code = "Taiho"
+		name = "Taihou",
+		code = "Taihou"
 	},
 	{
 		id = 98,
