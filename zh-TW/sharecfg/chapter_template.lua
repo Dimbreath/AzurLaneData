@@ -88320,23 +88320,7 @@ pg.chapter_template = {
 				}
 			}
 		},
-		property_limitation = {
-			{
-				"level",
-				1,
-				95
-			},
-			{
-				"cannon",
-				1,
-				1500
-			},
-			{
-				"antiaircraft",
-				1,
-				2500
-			}
-		},
+		property_limitation = {},
 		expedition_id_weight_list = {},
 		ambush_expedition_list = {},
 		guarder_expedition_list = {
