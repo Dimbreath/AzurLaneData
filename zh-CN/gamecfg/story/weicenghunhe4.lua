@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "遭了，果然是塞壬的--------",
+			say = "糟了，果然是塞壬的--------",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

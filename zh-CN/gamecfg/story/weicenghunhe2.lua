@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			actor = 106550,
 			nameColor = "#a9f548",
-			say = "尤其是对于后勤运输系统来说，简直可以堪称枢纽通道哦。",
+			say = "尤其是对于后勤运输系统来说，简直可以称作枢纽通道哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
