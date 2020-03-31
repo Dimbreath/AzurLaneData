@@ -196,7 +196,7 @@ function slot0.warnFunc(slot0, slot1)
 		modal = true,
 		hideYes = true,
 		hideNo = true,
-		content = (slot0.contextData.system ~= SYSTEM_CHALLENGE or i18n("battle_battleMediator_clear_warning")) and (slot3 ~= SYSTEM_SIMULATION or i18n("tech_simulate_quit")) and i18n("battle_battleMediator_quest_exist"),
+		content = (not slot0.contextData.warnMsg or #slot6 <= 0 or i18n(slot6)) and (slot0.contextData.system ~= SYSTEM_CHALLENGE or i18n("battle_battleMediator_clear_warning")) and (slot0.contextData.system ~= SYSTEM_SIMULATION or i18n("tech_simulate_quit")) and i18n("battle_battleMediator_quest_exist"),
 		onClose = slot1,
 		custom = {
 			{

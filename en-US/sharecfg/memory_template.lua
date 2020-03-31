@@ -11209,6 +11209,39 @@ pg.memory_template = {
 		icon = "memory_weicenghunhe",
 		is_open = 0
 	},
+	[1188] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "The Golden Doubulin, Part I",
+		condition = "Log in to the game",
+		story = "HUANGJINDEMIBAO1",
+		id = 1188,
+		icon = "memory_huangjindemibao",
+		is_open = 0
+	},
+	[1189] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "The Golden Doubulin, Part II",
+		condition = "Fight the boss in \"The Golden Doubulin\"",
+		story = "HUANGJINDEMIBAO2",
+		id = 1189,
+		icon = "memory_huangjindemibao",
+		is_open = 0
+	},
+	[1190] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "The Golden Doubulin, Part III",
+		condition = "Clear \"The Golden Doubulin\"",
+		story = "HUANGJINDEMIBAO3",
+		id = 1190,
+		icon = "memory_huangjindemibao",
+		is_open = 0
+	},
 	[10011] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -12856,6 +12889,9 @@ pg.memory_template = {
 		1185,
 		1186,
 		1187,
+		1188,
+		1189,
+		1190,
 		10011,
 		10012,
 		10013,

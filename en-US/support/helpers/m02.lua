@@ -2442,50 +2442,11 @@ function wordLegalMatch(slot0, slot1, slot2, slot3, slot4)
 	if slot6 then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 16-19, warpins: 1 ---
-		slot7 = true
-
-		if slot2 < #slot0 then
+		--- BLOCK #0 16-18, warpins: 1 ---
+		if slot6.this then
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 20-23, warpins: 1 ---
-			if slot0[slot2 + 1] ~= " " then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 24-25, warpins: 1 ---
-				slot7 = false
-				--- END OF BLOCK #0 ---
-
-
-
-			else
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 26-26, warpins: 1 ---
-				slot7 = true
-				--- END OF BLOCK #0 ---
-
-
-
-			end
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 27-29, warpins: 3 ---
-		if slot6.this and slot7 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 32-41, warpins: 1 ---
+			--- BLOCK #0 19-28, warpins: 1 ---
 			return wordLegalMatch(slot0, slot6, slot2 + 1, true, slot4 .. slot5)
 			--- END OF BLOCK #0 ---
 
@@ -2494,21 +2455,21 @@ function wordLegalMatch(slot0, slot1, slot2, slot3, slot4)
 		else
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 42-51, warpins: 2 ---
+			--- BLOCK #0 29-38, warpins: 1 ---
 			return wordLegalMatch(slot0, slot6, slot2 + 1, false, slot4 .. slot5)
 			--- END OF BLOCK #0 ---
 
 
 
 		end
-		--- END OF BLOCK #1 ---
+		--- END OF BLOCK #0 ---
 
 
 
 	else
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 52-55, warpins: 1 ---
+		--- BLOCK #0 39-42, warpins: 1 ---
 		return slot3, slot2, slot4
 		--- END OF BLOCK #0 ---
 
@@ -2523,7 +2484,7 @@ function wordLegalMatch(slot0, slot1, slot2, slot3, slot4)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #3 56-56, warpins: 3 ---
+	--- BLOCK #3 43-43, warpins: 3 ---
 	return
 	--- END OF BLOCK #3 ---
 
@@ -2553,38 +2514,19 @@ function wordVerMatch(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #1 8-15, warpins: 2 ---
-	if not slot1[string.lower(slot0[slot3])] then
+	--- BLOCK #1 8-11, warpins: 2 ---
+	if slot1[slot0[slot3]] then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 16-20, warpins: 1 ---
-		slot9 = slot1[string.upper(slot8)]
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 21-22, warpins: 2 ---
-	if slot9 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 23-25, warpins: 1 ---
+		--- BLOCK #0 12-14, warpins: 1 ---
 		if slot9.this then
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 26-28, warpins: 1 ---
+			--- BLOCK #0 15-17, warpins: 1 ---
 			if slot2.isReplace then
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #0 29-43, warpins: 1 ---
+				--- BLOCK #0 18-32, warpins: 1 ---
 				return wordVerMatch(slot0, slot9, slot2, slot3 + 1, slot4 .. slot2.replaceWord, true, slot3 + 1, slot4 .. slot2.replaceWord)
 				--- END OF BLOCK #0 ---
 
@@ -2593,7 +2535,7 @@ function wordVerMatch(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 			else
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #0 44-54, warpins: 1 ---
+				--- BLOCK #0 33-43, warpins: 1 ---
 				return wordVerMatch(slot0, slot9, slot2, slot3 + 1, slot4, true, slot3 + 1, slot4)
 				--- END OF BLOCK #0 ---
 
@@ -2607,11 +2549,11 @@ function wordVerMatch(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 		else
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 55-57, warpins: 1 ---
+			--- BLOCK #0 44-46, warpins: 1 ---
 			if slot2.isReplace then
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #0 58-70, warpins: 1 ---
+				--- BLOCK #0 47-59, warpins: 1 ---
 				return wordVerMatch(slot0, slot9, slot2, slot3 + 1, slot4 .. slot2.replaceWord, slot5, slot6, slot7)
 				--- END OF BLOCK #0 ---
 
@@ -2620,7 +2562,7 @@ function wordVerMatch(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 			else
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #0 71-81, warpins: 1 ---
+				--- BLOCK #0 60-70, warpins: 1 ---
 				return wordVerMatch(slot0, slot9, slot2, slot3 + 1, slot4, slot5, slot6, slot7)
 				--- END OF BLOCK #0 ---
 
@@ -2639,7 +2581,7 @@ function wordVerMatch(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	else
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 82-85, warpins: 1 ---
+		--- BLOCK #0 71-74, warpins: 1 ---
 		return slot5, slot6, slot7
 		--- END OF BLOCK #0 ---
 
@@ -2647,16 +2589,16 @@ function wordVerMatch(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 
 	end
 
-	--- END OF BLOCK #2 ---
+	--- END OF BLOCK #1 ---
 
-	FLOW; TARGET BLOCK #3
+	FLOW; TARGET BLOCK #2
 
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #3 86-86, warpins: 5 ---
+	--- BLOCK #2 75-75, warpins: 5 ---
 	return
-	--- END OF BLOCK #3 ---
+	--- END OF BLOCK #2 ---
 
 
 

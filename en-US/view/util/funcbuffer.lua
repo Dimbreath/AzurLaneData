@@ -35,6 +35,10 @@ function slot0.ExcuteAll(slot0)
 	end
 end
 
+function slot0.Clear(slot0)
+	table.clear(slot0.buffers)
+end
+
 function slot0.__index(slot0, slot1)
 	return rawget(slot0, slot1) or slot0[slot1] or function (slot0, ...)
 		slot0:Push(slot0.Push, ...)

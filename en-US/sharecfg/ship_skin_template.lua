@@ -115,6 +115,108 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[100001] = {
+		name = "Universal Enhanced Rigging (Experimental) +α",
+		ship_group = 10000,
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "Buli? Did I just get an upgrade buli? Now, I can fight too buli!",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "gin_2",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = 4,
+		id = 100001,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "gin_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 72,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.129,
+					1.027,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.001,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.129,
+					1.063,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.461,
+							2.161,
+							-0.15
+						}
+					}
+				}
+			}
+		}
+	},
 	[100010] = {
 		name = "Prototype Bulin MKII",
 		ship_group = 10001,
@@ -97792,6 +97894,121 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[900235] = {
+		name = "泛用型布里",
+		ship_group = 900235,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "泛用型布里，可以用于精锐以下所有角色的突破",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "gin",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 900235,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "gin",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 72,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.35,
+					0.67,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.13,
+					0.25,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.35,
+					0.67,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.09,
+							0.59,
+							-0.15
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.83,
+							2.24,
+							-0.59
+						}
+					}
+				}
+			}
+		}
+	},
 	[10100010] = {
 		name = "Neptune",
 		ship_group = 1010001,
@@ -104074,6 +104291,9 @@ pg.ship_skin_template = {
 		[1010001] = {
 			10100010
 		},
+		[900235] = {
+			900235
+		},
 		[900234] = {
 			900234
 		},
@@ -105886,11 +106106,13 @@ pg.ship_skin_template = {
 			100010
 		},
 		[10000] = {
-			100000
+			100000,
+			100001
 		}
 	},
 	all = {
 		100000,
+		100001,
 		100010,
 		101020,
 		101022,
@@ -106778,6 +107000,7 @@ pg.ship_skin_template = {
 		900232,
 		900233,
 		900234,
+		900235,
 		10100010,
 		10100020,
 		10100030,
