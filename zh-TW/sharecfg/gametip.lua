@@ -10601,6 +10601,68 @@ TIPS：
 			}
 		}
 	},
+	bulin_help = {
+		key = "bulin_help",
+		tip = {
+			{
+				info = [[
+活動說明：
+1.活動期間，在特定介面或關卡中可收集相應的密碼
+2.當收集密碼遇到困難時，可以點擊密碼格解鎖提示
+注意：20分鐘內只能解鎖一個提示哦
+3.密碼收集完成可以開啟特別關卡，挑戰特別關卡並取
+得勝利可以獲得特殊獎勵]]
+			}
+		}
+	},
+	bulin_tip1 = {
+		tip = "出擊喵！目標1-2喵！",
+		key = "bulin_tip1"
+	},
+	bulin_tip2 = {
+		tip = "堆積的道具要注意整理喵！",
+		key = "bulin_tip2"
+	},
+	bulin_tip3 = {
+		tip = "出擊喵！目標2-2喵！",
+		key = "bulin_tip3"
+	},
+	bulin_tip4 = {
+		tip = "呼喵？是不是該去船塢看看了喵？",
+		key = "bulin_tip4"
+	},
+	bulin_tip5 = {
+		tip = "出擊喵！目標1-4喵！",
+		key = "bulin_tip5"
+	},
+	bulin_tip6 = {
+		tip = "要隨時記得補充食物喵！",
+		key = "bulin_tip6"
+	},
+	bulin_tip7 = {
+		tip = "出擊喵！目標2-4喵！",
+		key = "bulin_tip7"
+	},
+	bulin_tip8 = {
+		tip = "去櫻花飄散的校園看看喵！",
+		key = "bulin_tip8"
+	},
+	bulin_tip9 = {
+		tip = "沒事多來光顧買點東西喵！",
+		key = "bulin_tip9"
+	},
+	bulin_tip_other1 = {
+		tip = "是否解鎖提示？20分鐘內只能解鎖一個提示",
+		key = "bulin_tip_other1"
+	},
+	bulin_tip_other2 = {
+		tip = "解鎖提示冷卻中",
+		key = "bulin_tip_other2"
+	},
+	bulin_tip_other3 = {
+		tip = "是否退出關卡？退出關卡將無法獲得獎勵。",
+		key = "bulin_tip_other3"
+	},
 	monopoly_left_count = {
 		tip = " ",
 		key = "monopoly_left_count"
@@ -10877,6 +10939,26 @@ TIPS：
 	undermist_tip = {
 		tip = "当前任务已完成，请等待明日解锁",
 		key = "undermist_tip"
+	},
+	retire_1 = {
+		tip = "僅選擇至少有一艘鎖定的同名艦船",
+		key = "retire_1"
+	},
+	retire_2 = {
+		tip = "僅選擇至少有一艘滿星的同名艦船",
+		key = "retire_2"
+	},
+	retire_3 = {
+		tip = "僅選擇LV.1的艦船",
+		key = "retire_3"
+	},
+	retire_rarity = {
+		tip = "選擇優先順序$1",
+		key = "retire_rarity"
+	},
+	retire_title = {
+		tip = "一鍵退役設置",
+		key = "retire_title"
 	}
 }
 

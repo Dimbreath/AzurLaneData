@@ -100,5 +100,16 @@ return {
 				return {}
 			end
 		}
+	},
+	DockyardScene = {
+		{
+			id = "NG0019",
+			condition = function ()
+				return true
+			end,
+			args = function ()
+				return {}
+			end
+		}
 	}
 }

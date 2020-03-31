@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "数日前的，前往巴拿马要塞的支援舰队在发出了一封增援请求的电文后便失去了联络.",
+			say = "数日前，前往巴拿马要塞的支援舰队在发出了一封增援请求的电文后便失去了联络.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			actor = 106550,
 			nameColor = "#a9f548",
-			say = "尤其是对于后勤运输系统来说，简直可以堪称枢纽通道哦。",
+			say = "尤其是对于后勤运输系统来说，简直可以称作枢纽通道哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

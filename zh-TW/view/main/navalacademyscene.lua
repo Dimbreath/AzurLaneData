@@ -163,6 +163,8 @@ function slot0.didEnter(slot0)
 	blinkAni(go(slot0:findTF("blur_container/resource_panel/store/pre_value")), 0.8)
 	slot0:updateStudents()
 	slot0:updateTrophyReminder()
+
+	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, 60037)
 end
 
 function slot0.SetPlayerInfo(slot0, slot1, slot2, slot3, slot4)
@@ -1828,8 +1830,19 @@ end
 function slot0.willExit(slot0)
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-13, warpins: 1 ---
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._blurLayer, slot0._tf)
+	--- BLOCK #0 1-3, warpins: 1 ---
+	if slot0.bulinTip then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 4-9, warpins: 1 ---
+		slot0.bulinTip:Destroy()
+
+		slot0.bulinTip = nil
+		--- END OF BLOCK #0 ---
+
+
+
+	end
 
 	--- END OF BLOCK #0 ---
 
@@ -1838,25 +1851,8 @@ function slot0.willExit(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #1 14-23, warpins: 0 ---
-	for slot4, slot5 in ipairs(slot0._panelTimer) do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 14-21, warpins: 1 ---
-		pg.TimeMgr.GetInstance():RemoveTimer(slot5)
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 22-23, warpins: 2 ---
-		--- END OF BLOCK #1 ---
-
-
-
-	end
+	--- BLOCK #1 10-22, warpins: 2 ---
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._blurLayer, slot0._tf)
 
 	--- END OF BLOCK #1 ---
 
@@ -1865,19 +1861,11 @@ function slot0.willExit(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #2 24-27, warpins: 1 ---
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 28-37, warpins: 0 ---
-	for slot4, slot5 in pairs(slot0._buildingTimers) do
+	--- BLOCK #2 23-32, warpins: 0 ---
+	for slot4, slot5 in ipairs(slot0._panelTimer) do
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 28-35, warpins: 1 ---
+		--- BLOCK #0 23-30, warpins: 1 ---
 		pg.TimeMgr.GetInstance():RemoveTimer(slot5)
 		--- END OF BLOCK #0 ---
 
@@ -1886,13 +1874,21 @@ function slot0.willExit(slot0)
 
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #1 36-37, warpins: 2 ---
+		--- BLOCK #1 31-32, warpins: 2 ---
 		--- END OF BLOCK #1 ---
 
 
 
 	end
 
+	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 33-36, warpins: 1 ---
 	--- END OF BLOCK #3 ---
 
 	FLOW; TARGET BLOCK #4
@@ -1900,15 +1896,21 @@ function slot0.willExit(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #4 38-40, warpins: 1 ---
-	if slot0._chatTimer then
+	--- BLOCK #4 37-46, warpins: 0 ---
+	for slot4, slot5 in pairs(slot0._buildingTimers) do
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 41-46, warpins: 1 ---
-		slot0._chatTimer:Stop()
-
-		slot0._chatTimer = nil
+		--- BLOCK #0 37-44, warpins: 1 ---
+		pg.TimeMgr.GetInstance():RemoveTimer(slot5)
 		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 45-46, warpins: 2 ---
+		--- END OF BLOCK #1 ---
 
 
 
@@ -1921,12 +1923,14 @@ function slot0.willExit(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #5 47-51, warpins: 2 ---
-	if not IsNil(slot0._resourceLayer) then
+	--- BLOCK #5 47-49, warpins: 1 ---
+	if slot0._chatTimer then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 52-55, warpins: 1 ---
-		setActive(slot0._resourceLayer, false)
+		--- BLOCK #0 50-55, warpins: 1 ---
+		slot0._chatTimer:Stop()
+
+		slot0._chatTimer = nil
 		--- END OF BLOCK #0 ---
 
 
@@ -1940,14 +1944,12 @@ function slot0.willExit(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #6 56-58, warpins: 2 ---
-	if slot0._resPanel then
+	--- BLOCK #6 56-60, warpins: 2 ---
+	if not IsNil(slot0._resourceLayer) then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 59-64, warpins: 1 ---
-		slot0._resPanel:exit()
-
-		slot0._resPanel = nil
+		--- BLOCK #0 61-64, warpins: 1 ---
+		setActive(slot0._resourceLayer, false)
 		--- END OF BLOCK #0 ---
 
 
@@ -1962,11 +1964,13 @@ function slot0.willExit(slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #7 65-67, warpins: 2 ---
-	if slot0.tweens then
+	if slot0._resPanel then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 68-70, warpins: 1 ---
-		cancelTweens(slot0.tweens)
+		--- BLOCK #0 68-73, warpins: 1 ---
+		slot0._resPanel:exit()
+
+		slot0._resPanel = nil
 		--- END OF BLOCK #0 ---
 
 
@@ -1980,11 +1984,30 @@ function slot0.willExit(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #8 71-74, warpins: 2 ---
+	--- BLOCK #8 74-76, warpins: 2 ---
+	if slot0.tweens then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 77-79, warpins: 1 ---
+		cancelTweens(slot0.tweens)
+		--- END OF BLOCK #0 ---
+
+
+
+	end
+
+	--- END OF BLOCK #8 ---
+
+	FLOW; TARGET BLOCK #9
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #9 80-83, warpins: 2 ---
 	slot0:clearStudents()
 
 	return
-	--- END OF BLOCK #8 ---
+	--- END OF BLOCK #9 ---
 
 
 

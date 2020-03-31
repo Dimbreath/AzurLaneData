@@ -120324,6 +120324,121 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[900235] = {
+		oxy_max = 0,
+		type = 2,
+		name = "泛用型布里 ",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 900235,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "UNIV Universal Bulin",
+		oxy_cost = 0,
+		skin_id = 100000,
+		attack_duration = 0,
+		nationality = 0,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			175643,
+			50,
+			45,
+			133,
+			0,
+			64,
+			0,
+			46,
+			10,
+			28.4,
+			65,
+			0
+		},
+		attrs_growth = {
+			15110,
+			312,
+			0,
+			1168,
+			0,
+			340,
+			0,
+			888,
+			414,
+			0,
+			0,
+			262
+		},
+		attrs_growth_extra = {
+			3778,
+			738,
+			0,
+			597,
+			0,
+			800,
+			0,
+			0,
+			426,
+			0,
+			0,
+			353
+		},
+		lock = {},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			630012,
+			630011,
+			16450
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1,
+			1
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[901001] = {
 		oxy_max = 0,
 		type = 12,
@@ -124318,6 +124433,7 @@ pg.ship_data_statistics = {
 		900176,
 		900177,
 		900178,
+		900235,
 		901001,
 		299011,
 		299012,
