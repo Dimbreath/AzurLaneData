@@ -12551,6 +12551,39 @@ pg.memory_template = {
 		icon = "memory_weicenghunhe",
 		is_open = 0
 	},
+	[1188] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "黄金的秘宝·上篇",
+		condition = "活动期间登录游戏",
+		story = "HUANGJINDEMIBAO1",
+		id = 1188,
+		icon = "memory_huangjindemibao",
+		is_open = 0
+	},
+	[1189] = {
+		mask = "bg/bg_story_outdoor",
+		subtitle = "",
+		type = 1,
+		title = "黄金的秘宝·中篇",
+		condition = "遭遇「黄金的秘宝」 BOSS",
+		story = "HUANGJINDEMIBAO2",
+		id = 1189,
+		icon = "memory_huangjindemibao",
+		is_open = 0
+	},
+	[1190] = {
+		mask = "bg/bg_story_outdoor",
+		subtitle = "",
+		type = 1,
+		title = "黄金的秘宝·下篇",
+		condition = "通过「黄金的秘宝」",
+		story = "HUANGJINDEMIBAO3",
+		id = 1190,
+		icon = "memory_huangjindemibao",
+		is_open = 0
+	},
 	[10011] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -14320,6 +14353,9 @@ pg.memory_template = {
 		1185,
 		1186,
 		1187,
+		1188,
+		1189,
+		1190,
 		10011,
 		10012,
 		10013,

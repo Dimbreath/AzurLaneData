@@ -12419,6 +12419,68 @@ TIPS：
 		tip = "[朴的可爱<怪奇>生物图鉴No.7]\n彩虹香肠喵：睡觉时会流下彩虹口水的彩虹超长猫，有着奇怪的睡姿",
 		key = "special_animal7"
 	},
+	bulin_help = {
+		key = "bulin_help",
+		tip = {
+			{
+				info = [[
+活动说明：
+1.活动期间，在特定界面或关卡中可收集相应的密码
+2.当收集密码遇到困难时，可以点击密码格解锁提示
+注意：20分钟内只能解锁一个提示哦
+3.密码收集完成可以开启特别关卡，挑战特别关卡并取
+得胜利可以获得特殊奖励]]
+			}
+		}
+	},
+	bulin_tip1 = {
+		tip = "出击喵！目标1-2喵！ ",
+		key = "bulin_tip1"
+	},
+	bulin_tip2 = {
+		tip = "堆积的道具要注意整理喵！ ",
+		key = "bulin_tip2"
+	},
+	bulin_tip3 = {
+		tip = "出击喵！目标2-2喵！ ",
+		key = "bulin_tip3"
+	},
+	bulin_tip4 = {
+		tip = "呼喵？是不是该去船坞看看了喵？ ",
+		key = "bulin_tip4"
+	},
+	bulin_tip5 = {
+		tip = "出击喵！目标1-4喵！ ",
+		key = "bulin_tip5"
+	},
+	bulin_tip6 = {
+		tip = "要随时记得补充食物喵！ ",
+		key = "bulin_tip6"
+	},
+	bulin_tip7 = {
+		tip = "出击喵！目标2-4喵！",
+		key = "bulin_tip7"
+	},
+	bulin_tip8 = {
+		tip = "去樱花飘散的校园看看喵！ ",
+		key = "bulin_tip8"
+	},
+	bulin_tip9 = {
+		tip = "没事多来光顾买点东西喵！",
+		key = "bulin_tip9"
+	},
+	bulin_tip_other1 = {
+		tip = "是否解锁提示？20分钟内只能解锁一个提示",
+		key = "bulin_tip_other1"
+	},
+	bulin_tip_other2 = {
+		tip = "解锁提示冷却中",
+		key = "bulin_tip_other2"
+	},
+	bulin_tip_other3 = {
+		tip = "是否退出关卡？退出关卡将无法获得奖励。 ",
+		key = "bulin_tip_other3"
+	},
 	monopoly_left_count = {
 		tip = "剩余次数:",
 		key = "monopoly_left_count"
@@ -12722,6 +12784,26 @@ TIPS：
 	undermist_tip = {
 		tip = "当前任务已完成，请等待明日解锁",
 		key = "undermist_tip"
+	},
+	retire_1 = {
+		tip = "仅选择至少有一艘锁定的同名舰船",
+		key = "retire_1"
+	},
+	retire_2 = {
+		tip = "仅选择至少有一艘满星的同名舰船",
+		key = "retire_2"
+	},
+	retire_3 = {
+		tip = "仅选择LV.1的舰船",
+		key = "retire_3"
+	},
+	retire_rarity = {
+		tip = "选择优先级$1",
+		key = "retire_rarity"
+	},
+	retire_title = {
+		tip = "一键退役设置",
+		key = "retire_title"
 	}
 }
 

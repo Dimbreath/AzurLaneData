@@ -1392,6 +1392,14 @@ function slot1(slot0)
 	slot6 = slot0.AddDragEvent
 
 	slot6(slot7)
+
+	slot6 = AprilFoolBulinSubView
+	slot6 = slot6.ShowAprilFoolBulin
+	slot7 = slot0
+	slot8 = 60038
+	slot9 = slot0.viewContainer
+	slot6 = slot6(slot7, slot8, slot9)
+	slot0.bulinTip = slot6
 end
 
 slot0.didEnter = slot1
@@ -4718,6 +4726,19 @@ end
 slot0.OnActivtyShopPurchaseDone = slot3
 
 function slot3(slot0)
+	slot1 = slot0.bulinTip
+
+	if slot1 then
+		slot1 = slot0.bulinTip
+		slot2 = slot1
+		slot1 = slot1.Destroy
+
+		slot1(slot2)
+
+		slot1 = nil
+		slot0.bulinTip = slot1
+	end
+
 	slot2 = slot0
 	slot1 = slot0.stopCV
 

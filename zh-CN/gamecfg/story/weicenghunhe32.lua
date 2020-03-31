@@ -380,7 +380,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "接下来，改继续寻找失踪的企业前辈和调防舰队了……哎？！",
+			say = "接下来，该继续寻找失踪的企业前辈和调防舰队了……哎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
