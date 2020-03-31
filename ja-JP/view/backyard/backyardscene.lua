@@ -113,6 +113,8 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 	slot0:setMode()
 	slot0:displayBuff()
+
+	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, 60035)
 end
 
 slot1 = 0.5
@@ -1800,8 +1802,19 @@ end
 function slot0.willExit(slot0)
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-12, warpins: 1 ---
-	pg.TimeMgr.GetInstance():RemoveTimer(slot0.calFoodTimer)
+	--- BLOCK #0 1-3, warpins: 1 ---
+	if slot0.bulinTip then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 4-9, warpins: 1 ---
+		slot0.bulinTip:Destroy()
+
+		slot0.bulinTip = nil
+		--- END OF BLOCK #0 ---
+
+
+
+	end
 
 	--- END OF BLOCK #0 ---
 
@@ -1810,25 +1823,8 @@ function slot0.willExit(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #1 13-17, warpins: 0 ---
-	for slot4, slot5 in pairs(slot0.buffTimer) do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 13-15, warpins: 1 ---
-		slot5:Stop()
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 16-17, warpins: 2 ---
-		--- END OF BLOCK #1 ---
-
-
-
-	end
+	--- BLOCK #1 10-21, warpins: 2 ---
+	pg.TimeMgr.GetInstance():RemoveTimer(slot0.calFoodTimer)
 
 	--- END OF BLOCK #1 ---
 
@@ -1837,13 +1833,21 @@ function slot0.willExit(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #2 18-20, warpins: 1 ---
-	if slot0.isOpenNofoodBox then
+	--- BLOCK #2 22-26, warpins: 0 ---
+	for slot4, slot5 in pairs(slot0.buffTimer) do
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 21-23, warpins: 1 ---
-		slot0:closeNofoodBox()
+		--- BLOCK #0 22-24, warpins: 1 ---
+		slot5:Stop()
 		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 25-26, warpins: 2 ---
+		--- END OF BLOCK #1 ---
 
 
 
@@ -1856,11 +1860,11 @@ function slot0.willExit(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #3 24-26, warpins: 2 ---
+	--- BLOCK #3 27-29, warpins: 1 ---
 	if slot0.isOpenNofoodBox then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 27-29, warpins: 1 ---
+		--- BLOCK #0 30-32, warpins: 1 ---
 		slot0:closeNofoodBox()
 		--- END OF BLOCK #0 ---
 
@@ -1875,12 +1879,12 @@ function slot0.willExit(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #4 30-32, warpins: 2 ---
-	if slot0.comforTableChat and LeanTween.isTweening(go(slot0.comforTableChat)) then
+	--- BLOCK #4 33-35, warpins: 2 ---
+	if slot0.isOpenNofoodBox then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 41-46, warpins: 1 ---
-		LeanTween.cancel(go(slot0.comforTableChat))
+		--- BLOCK #0 36-38, warpins: 1 ---
+		slot0:closeNofoodBox()
 		--- END OF BLOCK #0 ---
 
 
@@ -1894,12 +1898,12 @@ function slot0.willExit(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #5 47-49, warpins: 3 ---
-	if slot0.buffTip and LeanTween.isTweening(go(slot0.buffTip)) then
+	--- BLOCK #5 39-41, warpins: 2 ---
+	if slot0.comforTableChat and LeanTween.isTweening(go(slot0.comforTableChat)) then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 58-63, warpins: 1 ---
-		LeanTween.cancel(go(slot0.buffTip))
+		--- BLOCK #0 50-55, warpins: 1 ---
+		LeanTween.cancel(go(slot0.comforTableChat))
 		--- END OF BLOCK #0 ---
 
 
@@ -1913,7 +1917,26 @@ function slot0.willExit(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #6 64-77, warpins: 3 ---
+	--- BLOCK #6 56-58, warpins: 3 ---
+	if slot0.buffTip and LeanTween.isTweening(go(slot0.buffTip)) then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 67-72, warpins: 1 ---
+		LeanTween.cancel(go(slot0.buffTip))
+		--- END OF BLOCK #0 ---
+
+
+
+	end
+
+	--- END OF BLOCK #6 ---
+
+	FLOW; TARGET BLOCK #7
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #7 73-86, warpins: 3 ---
 	slot0:hideLoading()
 	slot0:closeRenameBox()
 	slot0:closeFloorSel()
@@ -1922,7 +1945,7 @@ function slot0.willExit(slot0)
 	slot0.buffTimer = nil
 
 	return
-	--- END OF BLOCK #6 ---
+	--- END OF BLOCK #7 ---
 
 
 

@@ -46079,6 +46079,265 @@ pg.enemy_data_statistics = {
 		},
 		equipment_list = {}
 	},
+	[435] = {
+		cannon = 0,
+		name = "ブリドリル",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 98,
+		icon_type = 0,
+		type = 16,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "zibao_zuantou",
+		star = 0,
+		battle_unit_type = 49,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		friendly_cld = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 30,
+		armor = 0,
+		id = 435,
+		scale = 200,
+		drop_id = 0,
+		wave_fx = "danchuanlanghuaxiao2",
+		prefab = "zibao_zuantou",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		bubble_fx = "",
+		dodge = 0,
+		bubble_initial = 0,
+		reload_growth = 0,
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 1,
+		cld_box = {
+			5.5,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0,
+					1,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							0.112,
+							0.664,
+							0
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.473,
+							1.283,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				-0.82,
+				0
+			},
+			{
+				0,
+				0,
+				0.358
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {}
+	},
+	[436] = {
+		cannon = 0,
+		name = "試作型ブリMKII",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 98,
+		icon_type = 1,
+		type = 1,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "kin",
+		star = 0,
+		battle_unit_type = 49,
+		antisub_growth = 0,
+		air_growth = 0,
+		antisub = 0,
+		friendly_cld = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 15,
+		armor = 0,
+		id = 436,
+		scale = 150,
+		drop_id = 0,
+		wave_fx = "movewave",
+		prefab = "kin",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		bubble_fx = "",
+		dodge = 0,
+		bubble_initial = 0,
+		reload_growth = 0,
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 1,
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.23,
+					0.74,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.52,
+					0.3,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.23,
+							0.55,
+							-0.07
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.4,
+							2.39,
+							1.02
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {}
+	},
 	[500] = {
 		cannon = 0,
 		name = "量産型自爆ボート",
@@ -213513,6 +213772,159 @@ pg.enemy_data_statistics = {
 			620509
 		}
 	},
+	[13400001] = {
+		cannon = 130,
+		luck_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		hit_growth = 0,
+		nationality = 1,
+		id = 13400001,
+		dodge_growth = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 436,
+		durability = 150000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		bubble_interval = 0,
+		speed = 35,
+		antisub = 0,
+		scale = 250,
+		wave_fx = "movewave",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 9999,
+		torpedo = 250,
+		durability_growth = 0,
+		antiaircraft = 200,
+		battle_unit_type = 90,
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		specific_fx_scale = {},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							0.293,
+							0.826,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.559,
+							2.57,
+							-0.13
+						}
+					}
+				}
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.37,
+					0.97,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.53,
+					0.39,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.37,
+					0.97,
+					0
+				}
+			}
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {
+			630001,
+			630002,
+			630003,
+			630004,
+			630005,
+			630006
+		}
+	},
+	[13400002] = {
+		cannon = 100,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		armor = 0,
+		air = 0,
+		air_growth = 0,
+		hit_growth = 1200,
+		antisub = 0,
+		bubble_fx = "",
+		bubble_initial = 0,
+		dodge_growth = 0,
+		star = 1,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 435,
+		durability = 50000,
+		armor_growth = 0,
+		torpedo_growth = 900,
+		bubble_interval = 0,
+		speed = 40,
+		luck = 0,
+		id = 13400002,
+		scale = 220,
+		cannon_growth = 0,
+		pilot_ai_template_id = 80000,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 81,
+		torpedo = 180,
+		durability_growth = 2550,
+		antiaircraft = 0,
+		battle_unit_type = 15,
+		appear_fx = {
+			"appearsmall",
+			"dianliu_DD"
+		},
+		specific_fx_scale = {
+			dianliu_DD = 1.5
+		},
+		equipment_list = {}
+	},
 	[900001] = {
 		name = "ラフィー",
 		luck = 0,
@@ -218919,6 +219331,8 @@ pg.enemy_data_statistics = {
 		437,
 		438,
 		439,
+		435,
+		436,
 		500,
 		501,
 		502,
@@ -222416,6 +222830,8 @@ pg.enemy_data_statistics = {
 		13300517,
 		13300561,
 		13300601,
+		13400001,
+		13400002,
 		900001,
 		900002,
 		900003,

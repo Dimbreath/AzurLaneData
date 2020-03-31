@@ -175,7 +175,7 @@ function ys.Battle.BattleDataProxy.CalcSingleDungeonScoreAtEnd(slot0, slot1)
 	elseif slot0._countDown <= 0 then
 		slot0._statistics._battleScore = slot0.BattleScore.C
 		slot0._statistics._boss_destruct = 1
-	elseif not slot6:IsAlive() then
+	elseif slot6 and not slot6:IsAlive() then
 		slot0._statistics._battleScore = slot0.BattleScore.D
 		slot0._statistics._boss_destruct = 1
 		slot0._statistics._scoreMark = slot0.DEAD_FLAG

@@ -10,8 +10,6 @@ return {
 	"feijiyingzi",
 	"Darkness",
 	"hongsebuff",
-	"ginbuli_skill",
-	"kinbuli_skill",
 	"EVDdowm",
 	"Pojia01"
 }

@@ -215,6 +215,7 @@ class("PrepControllerCommand", pm.SimpleCommand).execute = function (slot0, slot
 	slot0.facade:registerCommand(GAME.ACT_INSTAGRAM_OP, InstagramActivityCommand)
 	slot0.facade:registerCommand(GAME.ACT_INSTAGRAM_FETCH, InstagramFetchCommand)
 	slot0.facade:registerCommand(GAME.ACT_BEAT_MONSTER_NIAN, ActivityBeatMonsterNianCommand)
+	slot0.facade:registerCommand(GAME.PUZZLE_PIECE_OP, ActivityPuzzlePicecOPCommand)
 	slot0.facade:registerCommand(GAME.SHAM_CHANGE_MY_ASSIST, ShamChangeMyAssistCommand)
 	slot0.facade:registerCommand(GAME.SHAM_CHANGE_FORMATION, ShamChangeFormationCommand)
 	slot0.facade:registerCommand(GAME.SHAM_ENTER, ShamEnterCommand)

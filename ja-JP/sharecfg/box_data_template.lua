@@ -322,6 +322,34 @@ pg.box_data_template = {
 		icon = "event5",
 		effect_id = 92027
 	},
+	[10110] = {
+		name = "ヒント箱",
+		type = 1,
+		id = 10110,
+		icon = "event6",
+		effect_id = 92880
+	},
+	[10111] = {
+		name = "ヒント箱",
+		type = 1,
+		id = 10111,
+		icon = "event6",
+		effect_id = 92882
+	},
+	[10112] = {
+		name = "ヒント箱",
+		type = 1,
+		id = 10112,
+		icon = "event6",
+		effect_id = 92884
+	},
+	[10113] = {
+		name = "ヒント箱",
+		type = 1,
+		id = 10113,
+		icon = "event6",
+		effect_id = 92886
+	},
 	[20001] = {
 		name = "威嚇水雷",
 		type = 0,
@@ -376,6 +404,10 @@ pg.box_data_template = {
 		10107,
 		10108,
 		10109,
+		10110,
+		10111,
+		10112,
+		10113,
 		20001
 	}
 }

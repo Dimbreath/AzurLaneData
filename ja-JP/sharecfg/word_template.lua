@@ -1,6 +1,12 @@
 pg = pg or {}
-pg.word_template = {
-	A = {
+pg.word_template = {}
+slot1 = pg.word_template
+slot2 = nil
+
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.A = {
 		N = {
 			A = {
 				L = {
@@ -29,8 +35,12 @@ pg.word_template = {
 				this = true
 			}
 		}
-	},
-	B = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.B = {
 		I = {
 			T = {
 				C = {
@@ -68,8 +78,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	C = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.C = {
 		H = {
 			I = {
 				N = {
@@ -144,8 +158,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	D = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.D = {
 		I = {
 			C = {
 				K = {
@@ -176,8 +194,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	F = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.F = {
 		["."] = {
 			U = {
 				["."] = {
@@ -220,8 +242,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	H = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.H = {
 		A = {
 			N = {
 				D = {
@@ -253,8 +279,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	J = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.J = {
 		A = {
 			P = {
 				this = true
@@ -272,8 +302,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	K = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.K = {
 		A = {
 			F = {
 				F = {
@@ -292,8 +326,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	L = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.L = {
 		E = {
 			S = {
 				B = {
@@ -303,8 +341,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	M = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.M = {
 		A = {
 			N = {
 				K = {
@@ -342,8 +384,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	N = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.N = {
 		A = {
 			Z = {
 				I = {
@@ -371,8 +417,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	P = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.P = {
 		A = {
 			E = {
 				D = {
@@ -457,8 +507,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	Q = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.Q = {
 		U = {
 			E = {
 				E = {
@@ -477,8 +531,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	R = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.R = {
 		A = {
 			P = {
 				E = {
@@ -499,8 +557,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	S = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.S = {
 		C = {
 			R = {
 				O = {
@@ -568,8 +630,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	T = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.T = {
 		I = {
 			T = {
 				S = {
@@ -584,8 +650,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	V = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.V = {
 		A = {
 			G = {
 				I = {
@@ -606,8 +676,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	W = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.W = {
 		A = {
 			N = {
 				K = {
@@ -648,8 +722,12 @@ pg.word_template = {
 				this = true
 			}
 		}
-	},
-	c = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.c = {
 		h = {
 			i = {
 				n = {
@@ -662,8 +740,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	い = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.い = {
 		て = {
 			ま = {
 				う = {
@@ -678,22 +760,34 @@ pg.word_template = {
 				this = true
 			}
 		}
-	},
-	う = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.う = {
 		ん = {
 			こ = {
 				this = true
 			}
 		}
-	},
-	え = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.え = {
 		っ = {
 			ち = {
 				this = true
 			}
 		}
-	},
-	お = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.お = {
 		ま = {
 			と = {
 				め = {
@@ -717,15 +811,23 @@ pg.word_template = {
 				this = true
 			}
 		}
-	},
-	か = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.か = {
 		た = {
 			わ = {
 				this = true
 			}
 		}
-	},
-	き = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.き = {
 		ょ = {
 			う = {
 				じ = {
@@ -743,8 +845,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	く = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.く = {
 		ろ = {
 			ん = {
 				ぼ = {
@@ -752,8 +858,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	し = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.し = {
 		ね = {
 			this = true
 		},
@@ -768,8 +878,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	じ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.じ = {
 		ゃ = {
 			っ = {
 				ぷ = {
@@ -777,8 +891,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	す = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.す = {
 		か = {
 			と = {
 				ろ = {
@@ -786,8 +904,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	せ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.せ = {
 		む = {
 			し = {
 				this = true
@@ -811,15 +933,23 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	ぜ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ぜ = {
 		ん = {
 			ら = {
 				this = true
 			}
 		}
-	},
-	ち = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ち = {
 		え = {
 			お = {
 				く = {
@@ -864,22 +994,34 @@ pg.word_template = {
 				this = true
 			}
 		}
-	},
-	つ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.つ = {
 		ん = {
 			ぼ = {
 				this = true
 			}
 		}
-	},
-	と = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.と = {
 		さ = {
 			つ = {
 				this = true
 			}
 		}
-	},
-	ど = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ど = {
 		か = {
 			た = {
 				this = true
@@ -890,8 +1032,12 @@ pg.word_template = {
 				this = true
 			}
 		}
-	},
-	に = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.に = {
 		ぐ = {
 			ろ = {
 				this = true
@@ -906,8 +1052,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	は = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.は = {
 		く = {
 			ち = {
 				this = true
@@ -925,15 +1075,23 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	ひ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ひ = {
 		に = {
 			ん = {
 				this = true
 			}
 		}
-	},
-	び = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.び = {
 		っ = {
 			こ = {
 				this = true
@@ -942,8 +1100,12 @@ pg.word_template = {
 				this = true
 			}
 		}
-	},
-	ふ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ふ = {
 		ぇ = {
 			ら = {
 				this = true,
@@ -963,8 +1125,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	ぶ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ぶ = {
 		っ = {
 			か = {
 				け = {
@@ -972,15 +1138,23 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	ぺ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ぺ = {
 		に = {
 			す = {
 				this = true
 			}
 		}
-	},
-	ぽ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ぽ = {
 		ん = {
 			び = {
 				き = {
@@ -988,22 +1162,34 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	ま = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ま = {
 		ん = {
 			こ = {
 				this = true
 			}
 		}
-	},
-	め = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.め = {
 		く = {
 			ら = {
 				this = true
 			}
 		}
-	},
-	や = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.や = {
 		り = {
 			ま = {
 				ん = {
@@ -1011,15 +1197,23 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	よ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.よ = {
 		り = {
 			め = {
 				this = true
 			}
 		}
-	},
-	り = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.り = {
 		ょ = {
 			う = {
 				じ = {
@@ -1031,22 +1225,34 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	れ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.れ = {
 		い = {
 			ぷ = {
 				this = true
 			}
 		}
-	},
-	わ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.わ = {
 		き = {
 			が = {
 				this = true
 			}
 		}
-	},
-	ア = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ア = {
 		ダ = {
 			ル = {
 				ト = {
@@ -1105,8 +1311,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	イ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.イ = {
 		ラ = {
 			マ = {
 				チ = {
@@ -1121,13 +1331,21 @@ pg.word_template = {
 				this = true
 			}
 		}
-	},
-	ウ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ウ = {
 		リ = {
 			this = true
 		}
-	},
-	エ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.エ = {
 		イ = {
 			ズ = {
 				this = true
@@ -1168,8 +1386,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	オ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.オ = {
 		ナ = {
 			ニ = {
 				ー = {
@@ -1193,8 +1415,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	カ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.カ = {
 		ジ = {
 			ノ = {
 				this = true
@@ -1203,15 +1429,23 @@ pg.word_template = {
 		ス = {
 			this = true
 		}
-	},
-	ガ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ガ = {
 		イ = {
 			ジ = {
 				this = true
 			}
 		}
-	},
-	キ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.キ = {
 		チ = {
 			ガ = {
 				イ = {
@@ -1235,8 +1469,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	ク = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ク = {
 		ソ = {
 			this = true
 		},
@@ -1263,8 +1501,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	グ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.グ = {
 		ラ = {
 			ビ = {
 				ア = {
@@ -1272,20 +1514,32 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	ゲ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ゲ = {
 		ス = {
 			this = true
 		}
-	},
-	コ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.コ = {
 		ス = {
 			メ = {
 				this = true
 			}
 		}
-	},
-	サ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.サ = {
 		イ = {
 			ト = {
 				比 = {
@@ -1310,8 +1564,12 @@ pg.word_template = {
 				this = true
 			}
 		}
-	},
-	ジ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ジ = {
 		ャ = {
 			ッ = {
 				プ = {
@@ -1319,8 +1577,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	ス = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ス = {
 		カ = {
 			ト = {
 				ロ = {
@@ -1373,8 +1635,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	セ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.セ = {
 		ッ = {
 			ク = {
 				ス = {
@@ -1398,15 +1664,23 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	ゼ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ゼ = {
 		ン = {
 			ラ = {
 				this = true
 			}
 		}
-	},
-	チ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.チ = {
 		ェ = {
 			ン = {
 				メ = {
@@ -1456,8 +1730,12 @@ pg.word_template = {
 				this = true
 			}
 		}
-	},
-	テ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.テ = {
 		ク = {
 			ノ = {
 				ス = {
@@ -1482,8 +1760,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	デ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.デ = {
 		ブ = {
 			this = true
 		},
@@ -1494,15 +1776,23 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	ナ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ナ = {
 		ン = {
 			パ = {
 				this = true
 			}
 		}
-	},
-	ニ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ニ = {
 		ガ = {
 			ー = {
 				this = true
@@ -1516,8 +1806,12 @@ pg.word_template = {
 		ダ = {
 			this = true
 		}
-	},
-	ハ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ハ = {
 		ッ = {
 			ピ = {
 				ー = {
@@ -1557,15 +1851,23 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	バ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.バ = {
 		イ = {
 			ブ = {
 				this = true
 			}
 		}
-	},
-	パ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.パ = {
 		チ = {
 			ス = {
 				ロ = {
@@ -1578,8 +1880,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	ビ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ビ = {
 		ッ = {
 			チ = {
 				this = true
@@ -1594,8 +1900,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	フ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.フ = {
 		ァ = {
 			シ = {
 				ス = {
@@ -1625,8 +1935,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	ブ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ブ = {
 		ウ = {
 			ヨ = {
 				this = true
@@ -1642,8 +1956,12 @@ pg.word_template = {
 				this = true
 			}
 		}
-	},
-	プ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.プ = {
 		レ = {
 			ゼ = {
 				ン = {
@@ -1663,8 +1981,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	ホ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ホ = {
 		ス = {
 			ト = {
 				this = true
@@ -1677,8 +1999,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	ボ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ボ = {
 		ケ = {
 			this = true
 		},
@@ -1691,8 +2017,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	ポ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ポ = {
 		ル = {
 			ノ = {
 				this = true
@@ -1705,8 +2035,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	マ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.マ = {
 		イ = {
 			ミ = {
 				ク = {
@@ -1735,29 +2069,45 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	メ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.メ = {
 		ル = {
 			友 = {
 				this = true
 			}
 		}
-	},
-	ラ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ラ = {
 		ブ = {
 			ホ = {
 				this = true
 			}
 		}
-	},
-	リ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.リ = {
 		ア = {
 			友 = {
 				this = true
 			}
 		}
-	},
-	レ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.レ = {
 		イ = {
 			ジ = {
 				ョ = {
@@ -1782,8 +2132,12 @@ pg.word_template = {
 		ズ = {
 			this = true
 		}
-	},
-	ロ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ロ = {
 		ー = {
 			シ = {
 				ョ = {
@@ -1793,28 +2147,44 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	万 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.万 = {
 		円 = {
 			this = true
 		}
-	},
-	三 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.三 = {
 		国 = {
 			人 = {
 				this = true
 			}
 		}
-	},
-	下 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.下 = {
 		流 = {
 			this = true
 		},
 		着 = {
 			this = true
 		}
-	},
-	不 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.不 = {
 		可 = {
 			触 = {
 				民 = {
@@ -1827,15 +2197,23 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	中 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.中 = {
 		出 = {
 			し = {
 				this = true
 			}
 		}
-	},
-	九 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.九 = {
 		評 = {
 			論 = {
 				共 = {
@@ -1847,18 +2225,30 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	乱 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.乱 = {
 		交 = {
 			this = true
 		}
-	},
-	交 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.交 = {
 		際 = {
 			this = true
 		}
-	},
-	人 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.人 = {
 		體 = {
 			實 = {
 				驗 = {
@@ -1866,8 +2256,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	会 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.会 = {
 		え = {
 			る = {
 				this = true
@@ -1880,8 +2274,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	低 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.低 = {
 		学 = {
 			歴 = {
 				this = true
@@ -1890,18 +2288,30 @@ pg.word_template = {
 		脳 = {
 			this = true
 		}
-	},
-	便 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.便 = {
 		秘 = {
 			this = true
 		}
-	},
-	倭 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.倭 = {
 		人 = {
 			this = true
 		}
-	},
-	健 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.健 = {
 		康 = {
 			器 = {
 				具 = {
@@ -1909,13 +2319,21 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	傴 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.傴 = {
 		僂 = {
 			this = true
 		}
-	},
-	億 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.億 = {
 		万 = {
 			長 = {
 				者 = {
@@ -1923,16 +2341,24 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	儲 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.儲 = {
 		か = {
 			this = true
 		},
 		け = {
 			this = true
 		}
-	},
-	六 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.六 = {
 		合 = {
 			彩 = {
 				this = true
@@ -1941,34 +2367,58 @@ pg.word_template = {
 		四 = {
 			this = true
 		}
-	},
-	円 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.円 = {
 		光 = {
 			this = true
 		}
-	},
-	処 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.処 = {
 		女 = {
 			this = true
 		}
-	},
-	出 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.出 = {
 		会 = {
 			this = true
 		},
 		版 = {
 			this = true
 		}
-	},
-	分 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.分 = {
 		際 = {
 			this = true
 		}
-	},
-	刷 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.刷 = {
 		this = true
-	},
-	副 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.副 = {
 		収 = {
 			入 = {
 				this = true
@@ -1977,13 +2427,21 @@ pg.word_template = {
 		業 = {
 			this = true
 		}
-	},
-	包 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.包 = {
 		茎 = {
 			this = true
 		}
-	},
-	北 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.北 = {
 		京 = {
 			之 = {
 				春 = {
@@ -1991,26 +2449,42 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	南 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.南 = {
 		京 = {
 			this = true
 		}
-	},
-	占 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.占 = {
 		["?"] = {
 			this = true
 		},
 		い = {
 			this = true
 		}
-	},
-	即 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.即 = {
 		金 = {
 			this = true
 		}
-	},
-	友 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.友 = {
 		達 = {
 			紹 = {
 				介 = {
@@ -2018,13 +2492,21 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	合 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.合 = {
 		法 = {
 			this = true
 		}
-	},
-	告 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.告 = {
 		ら = {
 			れ = {
 				レ = {
@@ -2034,8 +2516,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	和 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.和 = {
 		平 = {
 			演 = {
 				變 = {
@@ -2043,31 +2529,55 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	咥 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.咥 = {
 		this = true
-	},
-	商 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.商 = {
 		材 = {
 			this = true
 		}
-	},
-	喘 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.喘 = {
 		ぎ = {
 			this = true
 		}
-	},
-	国 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.国 = {
 		服 = {
 			this = true
 		}
-	},
-	在 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.在 = {
 		宅 = {
 			this = true
 		}
-	},
-	売 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.売 = {
 		女 = {
 			this = true
 		},
@@ -2076,8 +2586,12 @@ pg.word_template = {
 				this = true
 			}
 		}
-	},
-	多 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.多 = {
 		重 = {
 			債 = {
 				務 = {
@@ -2085,8 +2599,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	大 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.大 = {
 		["?"] = {
 			this = true
 		},
@@ -2106,70 +2624,114 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	天 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.天 = {
 		安 = {
 			門 = {
 				this = true
 			}
 		}
-	},
-	奇 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.奇 = {
 		形 = {
 			児 = {
 				this = true
 			}
 		}
-	},
-	姦 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.姦 = {
 		this = true,
 		通 = {
 			this = true
 		}
-	},
-	子 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.子 = {
 		大 = {
 			this = true
 		},
 		校 = {
 			this = true
 		}
-	},
-	官 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.官 = {
 		能 = {
 			this = true
 		}
-	},
-	宝 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.宝 = {
 		く = {
 			じ = {
 				this = true
 			}
 		}
-	},
-	家 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.家 = {
 		出 = {
 			this = true
 		}
-	},
-	寄 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.寄 = {
 		生 = {
 			虫 = {
 				this = true
 			}
 		}
-	},
-	射 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.射 = {
 		精 = {
 			this = true
 		}
-	},
-	專 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.專 = {
 		制 = {
 			this = true
 		}
-	},
-	小 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.小 = {
 		児 = {
 			病 = {
 				this = true
@@ -2183,34 +2745,54 @@ pg.word_template = {
 		遣 = {
 			this = true
 		}
-	},
-	尻 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.尻 = {
 		軽 = {
 			this = true
 		}
-	},
-	屏 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.屏 = {
 		蔽 = {
 			["?"] = {
 				this = true
 			}
 		}
-	},
-	工 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.工 = {
 		作 = {
 			員 = {
 				this = true
 			}
 		}
-	},
-	帰 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.帰 = {
 		化 = {
 			人 = {
 				this = true
 			}
 		}
-	},
-	強 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.強 = {
 		制 = {
 			堕 = {
 				胎 = {
@@ -2226,8 +2808,12 @@ pg.word_template = {
 		姦 = {
 			this = true
 		}
-	},
-	彼 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.彼 = {
 		女 = {
 			募 = {
 				集 = {
@@ -2235,15 +2821,23 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	待 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.待 = {
 		ち = {
 			合 = {
 				this = true
 			}
 		}
-	},
-	心 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.心 = {
 		障 = {
 			児 = {
 				this = true
@@ -2252,8 +2846,12 @@ pg.word_template = {
 				this = true
 			}
 		}
-	},
-	性 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.性 = {
 		交 = {
 			this = true
 		},
@@ -2269,8 +2867,12 @@ pg.word_template = {
 		癖 = {
 			this = true
 		}
-	},
-	情 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.情 = {
 		報 = {
 			商 = {
 				材 = {
@@ -2278,21 +2880,33 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	愛 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.愛 = {
 		人 = {
 			this = true
 		},
 		液 = {
 			this = true
 		}
-	},
-	感 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.感 = {
 		染 = {
 			this = true
 		}
-	},
-	慰 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.慰 = {
 		安 = {
 			["?"] = {
 				this = true
@@ -2301,40 +2915,68 @@ pg.word_template = {
 				this = true
 			}
 		}
-	},
-	手 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.手 = {
 		淫 = {
 			this = true
 		}
-	},
-	指 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.指 = {
 		マ = {
 			ン = {
 				this = true
 			}
 		}
-	},
-	接 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.接 = {
 		写 = {
 			this = true
 		}
-	},
-	提 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.提 = {
 		携 = {
 			this = true
 		}
-	},
-	換 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.換 = {
 		金 = {
 			this = true
 		}
-	},
-	援 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.援 = {
 		助 = {
 			this = true
 		}
-	},
-	携 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.携 = {
 		帯 = {
 			サ = {
 				イ = {
@@ -2344,11 +2986,19 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	操 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.操 = {
 		this = true
-	},
-	支 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.支 = {
 		那 = {
 			this = true,
 			人 = {
@@ -2368,28 +3018,44 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	整 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.整 = {
 		体 = {
 			this = true
 		}
-	},
-	文 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.文 = {
 		盲 = {
 			this = true
 		},
 		通 = {
 			this = true
 		}
-	},
-	族 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.族 = {
 		淨 = {
 			化 = {
 				this = true
 			}
 		}
-	},
-	日 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.日 = {
 		和 = {
 			見 = {
 				this = true
@@ -2401,50 +3067,86 @@ pg.word_template = {
 		給 = {
 			this = true
 		}
-	},
-	春 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.春 = {
 		畫 = {
 			this = true
 		}
-	},
-	月 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.月 = {
 		収 = {
 			this = true
 		}
-	},
-	本 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.本 = {
 		番 = {
 			this = true
 		}
-	},
-	李 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.李 = {
 		洪 = {
 			志 = {
 				this = true
 			}
 		}
-	},
-	歯 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.歯 = {
 		科 = {
 			this = true
 		}
-	},
-	死 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.死 = {
 		ね = {
 			this = true
 		}
-	},
-	殺 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.殺 = {
 		す = {
 			this = true
 		}
-	},
-	毒 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.毒 = {
 		品 = {
 			this = true
 		}
-	},
-	毛 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.毛 = {
 		唐 = {
 			人 = {
 				this = true
@@ -2453,13 +3155,21 @@ pg.word_template = {
 		髪 = {
 			this = true
 		}
-	},
-	池 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.池 = {
 		沼 = {
 			this = true
 		}
-	},
-	法 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.法 = {
 		輪 = {
 			功 = {
 				this = true
@@ -2470,13 +3180,21 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	海 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.海 = {
 		豹 = {
 			this = true
 		}
-	},
-	消 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.消 = {
 		費 = {
 			者 = {
 				金 = {
@@ -2486,8 +3204,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	淫 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.淫 = {
 		this = true,
 		乱 = {
 			this = true
@@ -2498,8 +3220,12 @@ pg.word_template = {
 		語 = {
 			this = true
 		}
-	},
-	激 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.激 = {
 		流 = {
 			中 = {
 				國 = {
@@ -2507,13 +3233,21 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	火 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.火 = {
 		病 = {
 			this = true
 		}
-	},
-	無 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.無 = {
 		修 = {
 			正 = {
 				this = true
@@ -2533,83 +3267,143 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	爆 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.爆 = {
 		乳 = {
 			this = true
 		}
-	},
-	特 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.特 = {
 		亜 = {
 			this = true
 		}
-	},
-	犬 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.犬 = {
 		食 = {
 			い = {
 				this = true
 			}
 		}
-	},
-	王 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.王 = {
 		丹 = {
 			this = true
 		}
-	},
-	現 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.現 = {
 		金 = {
 			this = true
 		}
-	},
-	痴 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.痴 = {
 		this = true
-	},
-	癩 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.癩 = {
 		病 = {
 			this = true
 		}
-	},
-	白 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.白 = {
 		痴 = {
 			this = true
 		},
 		豚 = {
 			this = true
 		}
-	},
-	盗 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.盗 = {
 		撮 = {
 			this = true
 		}
-	},
-	着 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.着 = {
 		エ = {
 			ロ = {
 				this = true
 			}
 		}
-	},
-	知 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.知 = {
 		障 = {
 			this = true
 		}
-	},
-	矯 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.矯 = {
 		正 = {
 			this = true
 		}
-	},
-	破 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.破 = {
 		産 = {
 			this = true
 		}
-	},
-	社 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.社 = {
 		會 = {
 			this = true
 		}
-	},
-	稼 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.稼 = {
 		い = {
 			this = true
 		},
@@ -2619,23 +3413,39 @@ pg.word_template = {
 		げ = {
 			this = true
 		}
-	},
-	穢 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.穢 = {
 		多 = {
 			this = true
 		}
-	},
-	童 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.童 = {
 		貞 = {
 			this = true
 		}
-	},
-	競 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.競 = {
 		馬 = {
 			this = true
 		}
-	},
-	精 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.精 = {
 		力 = {
 			this = true
 		},
@@ -2654,56 +3464,100 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	糞 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.糞 = {
 		尿 = {
 			this = true
 		}
-	},
-	美 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.美 = {
 		容 = {
 			this = true
 		}
-	},
-	老 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.老 = {
 		害 = {
 			this = true
 		}
-	},
-	聊 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.聊 = {
 		this = true
-	},
-	肅 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.肅 = {
 		清 = {
 			this = true
 		}
-	},
-	肉 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.肉 = {
 		棒 = {
 			this = true
 		}
-	},
-	胡 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.胡 = {
 		耀 = {
 			邦 = {
 				this = true
 			}
 		}
-	},
-	脱 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.脱 = {
 		毛 = {
 			this = true
 		}
-	},
-	腋 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.腋 = {
 		臭 = {
 			this = true
 		}
-	},
-	膣 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.膣 = {
 		this = true
-	},
-	自 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.自 = {
 		動 = {
 			相 = {
 				互 = {
@@ -2718,28 +3572,48 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	舐 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.舐 = {
 		this = true
-	},
-	花 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.花 = {
 		粉 = {
 			this = true
 		}
-	},
-	英 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.英 = {
 		会 = {
 			話 = {
 				this = true
 			}
 		}
-	},
-	蛮 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.蛮 = {
 		啾 = {
 			this = true
 		}
-	},
-	裏 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.裏 = {
 		ビ = {
 			デ = {
 				オ = {
@@ -2757,42 +3631,70 @@ pg.word_template = {
 				this = true
 			}
 		}
-	},
-	裸 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.裸 = {
 		this = true
-	},
-	見 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.見 = {
 		放 = {
 			題 = {
 				this = true
 			}
 		}
-	},
-	訳 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.訳 = {
 		あ = {
 			り = {
 				this = true
 			}
 		}
-	},
-	証 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.証 = {
 		拠 = {
 			金 = {
 				this = true
 			}
 		}
-	},
-	誘 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.誘 = {
 		拐 = {
 			this = true
 		}
-	},
-	謝 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.謝 = {
 		礼 = {
 			this = true
 		}
-	},
-	買 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.買 = {
 		賣 = {
 			人 = {
 				口 = {
@@ -2800,23 +3702,39 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	賎 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.賎 = {
 		民 = {
 			this = true
 		}
-	},
-	賣 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.賣 = {
 		淫 = {
 			this = true
 		}
-	},
-	賭 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.賭 = {
 		博 = {
 			this = true
 		}
-	},
-	赤 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.赤 = {
 		["→"] = {
 			あ = {
 				な = {
@@ -2828,38 +3746,66 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	走 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.走 = {
 		私 = {
 			this = true
 		}
-	},
-	趙 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.趙 = {
 		紫 = {
 			陽 = {
 				this = true
 			}
 		}
-	},
-	辱 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.辱 = {
 		this = true
-	},
-	退 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.退 = {
 		党 = {
 			this = true
 		}
-	},
-	逆 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.逆 = {
 		援 = {
 			this = true
 		}
-	},
-	遊 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.遊 = {
 		進 = {
 			this = true
 		}
-	},
-	還 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.還 = {
 		政 = {
 			於 = {
 				民 = {
@@ -2867,33 +3813,57 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	阿 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.阿 = {
 		片 = {
 			this = true
 		}
-	},
-	陵 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.陵 = {
 		辱 = {
 			this = true
 		}
-	},
-	隠 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.隠 = {
 		坊 = {
 			this = true
 		}
-	},
-	露 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.露 = {
 		出 = {
 			this = true
 		}
-	},
-	非 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.非 = {
 		洲 = {
 			this = true
 		}
-	},
-	頭 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.頭 = {
 		お = {
 			か = {
 				し = {
@@ -2903,58 +3873,94 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	顔 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.顔 = {
 		射 = {
 			this = true
 		}
-	},
-	風 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.風 = {
 		俗 = {
 			this = true
 		}
-	},
-	馬 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.馬 = {
 		鹿 = {
 			this = true
 		}
-	},
-	驚 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.驚 = {
 		異 = {
 			this = true
 		}
-	},
-	高 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.高 = {
 		額 = {
 			this = true
 		}
-	},
-	魏 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.魏 = {
 		京 = {
 			生 = {
 				this = true
 			}
 		}
-	},
-	鮮 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.鮮 = {
 		人 = {
 			this = true
 		}
-	},
-	Ｊ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.Ｊ = {
 		Ａ = {
 			Ｐ = {
 				this = true
 			}
 		}
-	},
-	Ｓ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.Ｓ = {
 		Ｅ = {
 			Ｘ = {
 				this = true
 			}
 		}
 	}
-}
+end()
 
 return

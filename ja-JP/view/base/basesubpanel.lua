@@ -147,11 +147,13 @@ function slot0.Destroy(slot0)
 	slot0:Hide()
 	slot0:OnDestroy()
 	slot0.loader:Clear()
+	slot0.buffer:Clear()
 	pg.DelegateInfo.Dispose(slot0)
 	setParent(slot0._tf, pg.UIMgr.GetInstance().UIMain, false)
 	slot0:DisposeGO(slot0:GetUIName(), slot0._go)
 
 	slot0._go = nil
+	slot0._tf = nil
 	slot0._state = slot0.STATES.DESTROY
 end
 
