@@ -62,7 +62,7 @@ pg.voice_bgm = {
 	},
 	LoginScene = {
 		scene = "LoginScene",
-		bgm = "US20200401"
+		bgm = "login"
 	},
 	NewPlayerScene = {
 		scene = "NewPlayerScene",
