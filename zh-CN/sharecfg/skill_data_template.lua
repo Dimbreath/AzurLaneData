@@ -1,5 +1,27 @@
 pg = pg or {}
 pg.skill_data_template = {
+	{
+		desc_get = "",
+		name = "战列底座用",
+		desc = "",
+		type = 0,
+		max_level = 0,
+		id = 1,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	{
+		desc_get = "",
+		name = "战列底座用",
+		desc = "",
+		type = 0,
+		max_level = 0,
+		id = 2,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[10] = {
 		desc_get = "",
 		name = "维修Lv1",
@@ -29,6 +51,17 @@ pg.skill_data_template = {
 		type = 0,
 		max_level = 0,
 		id = 12,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[13] = {
+		desc_get = "",
+		name = "维修Lv4",
+		desc = "每5秒回复20点耐久，同类效果取最大值，不可叠加",
+		type = 0,
+		max_level = 0,
+		id = 13,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -22926,6 +22959,17 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[12020] = {
+		desc_get = "",
+		name = "潜母飞机用",
+		desc = "",
+		type = 0,
+		max_level = 0,
+		id = 12020,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[12030] = {
 		desc_get = "",
 		name = "划破夜空之火",
@@ -42532,9 +42576,12 @@ pg.skill_data_template = {
 		}
 	},
 	all = {
+		1,
+		2,
 		10,
 		11,
 		12,
+		13,
 		14,
 		15,
 		1001,
@@ -42918,6 +42965,7 @@ pg.skill_data_template = {
 		11990,
 		12000,
 		12010,
+		12020,
 		12030,
 		12040,
 		12050,

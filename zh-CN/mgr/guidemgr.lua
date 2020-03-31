@@ -1691,7 +1691,72 @@ function slot7(slot0, slot1)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #20 126-133, warpins: 2 ---
+	--- BLOCK #20 126-129, warpins: 2 ---
+	slot13 = slot0
+	slot13 = slot13.MODE1
+
+	if slot4 == slot13 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 130-132, warpins: 1 ---
+		slot7:Find("char").localPosition = Vector3(slot2.charPos or {
+			x = -388,
+			y = -100.1717
+		}.x, slot2.charPos or .y, 0)
+		slot7:Find("hand").localPosition = Vector3(slot2.hand or {
+			w = 0,
+			x = -267,
+			y = -96
+		}.x, slot2.hand or .y, 0)
+		slot7:Find("hand").eulerAngles = Vector3(0, 0, slot2.hand or .w)
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 133-133, warpins: 1 ---
+		slot13 = 
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 134-146, warpins: 2 ---
+		--- END OF BLOCK #2 ---
+
+		FLOW; TARGET BLOCK #4
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #3 147-147, warpins: 1 ---
+		slot14 = 
+		--- END OF BLOCK #3 ---
+
+		FLOW; TARGET BLOCK #4
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #4 148-167, warpins: 2 ---
+		--- END OF BLOCK #4 ---
+
+
+
+	end
+
+	--- END OF BLOCK #20 ---
+
+	FLOW; TARGET BLOCK #21
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #21 168-175, warpins: 2 ---
 	slot13 = setAnchoredPosition
 	slot14 = slot0.guiderTF
 	slot15 = Vector2
@@ -1701,7 +1766,7 @@ function slot7(slot0, slot1)
 	slot13(slot14, slot15(slot16, slot17))
 
 	return
-	--- END OF BLOCK #20 ---
+	--- END OF BLOCK #21 ---
 
 
 

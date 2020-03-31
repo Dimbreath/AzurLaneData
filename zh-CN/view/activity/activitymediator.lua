@@ -21,6 +21,7 @@ slot0.RETURN_AWARD_OP = "event return award op"
 slot0.SHOW_AWARD_WINDOW = "event show award window"
 slot0.GO_DODGEM = "event go dodgem"
 slot0.GO_SUBMARINE_RUN = "event go sumbarine run"
+slot0.ON_SIMULATION_COMBAT = "event perform combat"
 slot0.SPECIAL_BATTLE_OPERA = "special battle opera"
 slot0.GO_PRAY_POOL = "go pray pool"
 slot0.SELECT_ACTIVITY = "event select activity"
@@ -62,6 +63,14 @@ function slot0.register(slot0)
 		slot0:sendNotification(GAME.BEGIN_STAGE, {
 			system = SYSTEM_DODGEM,
 			stageId = ys.Battle.BattleConfig.BATTLE_DODGEM_STAGES[math.random(#ys.Battle.BattleConfig.BATTLE_DODGEM_STAGES)]
+		})
+	end)
+	slot0:bind(slot0.ON_SIMULATION_COMBAT, function (slot0, slot1, slot2)
+		slot0:sendNotification(GAME.BEGIN_STAGE, {
+			system = SYSTEM_SIMULATION,
+			stageId = slot1.stageId,
+			warnMsg = slot1.warnMsg,
+			exitCallback = slot2
 		})
 	end)
 	slot0:bind(slot0.RETURN_AWARD_OP, function (slot0, slot1)

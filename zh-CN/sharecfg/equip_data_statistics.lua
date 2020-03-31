@@ -74407,6 +74407,82 @@ pg.equip_data_statistics = {
 		equip_parameters = {},
 		label = {}
 	},
+	[630011] = {
+		name = "【愚人节活动】紫布里武器",
+		type = 2,
+		nationality = 1,
+		speciality = "锁定",
+		range = 60,
+		angle = 120,
+		tech = 3,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "12100",
+		value_1 = "0",
+		avoid_extra = 0,
+		rarity = 4,
+		is_siren = 0,
+		scatter = "42°",
+		ammo = "高爆弹",
+		descrip = "说明未填写",
+		value_3 = 0,
+		id = 630011,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		weapon_id = {
+			630011
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[630012] = {
+		name = "【愚人节活动】紫布里武器",
+		type = 2,
+		nationality = 1,
+		speciality = "锁定",
+		range = 60,
+		angle = 120,
+		tech = 3,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "12100",
+		value_1 = "0",
+		avoid_extra = 0,
+		rarity = 4,
+		is_siren = 0,
+		scatter = "42°",
+		ammo = "高爆弹",
+		descrip = "说明未填写",
+		value_3 = 0,
+		id = 630012,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		weapon_id = {
+			630012
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {}
+	},
 	[800000] = {
 		id = 800000,
 		name = "【三笠剧情】驱逐武器",
@@ -79456,6 +79532,8 @@ pg.equip_data_statistics = {
 		594017,
 		594018,
 		594019,
+		630011,
+		630012,
 		800000,
 		800001,
 		800002,

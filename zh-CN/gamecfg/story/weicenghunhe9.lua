@@ -253,7 +253,7 @@ return {
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "卡萨布兰卡，你去引导商船避难，里诺留在防空阵地附近，一艘飞机都不能放过去。",
+			say = "卡萨布兰卡，你去引导商船避难，里诺留在防空阵地附近，一架飞机都不能放过去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
