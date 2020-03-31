@@ -2695,7 +2695,7 @@ function slot2(slot0)
 			function slot7(slot0)
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #0 1-71, warpins: 1 ---
+				--- BLOCK #0 1-76, warpins: 1 ---
 				slot1 = slot0
 				slot2 = tf
 				slot3 = slot0
@@ -2708,6 +2708,13 @@ function slot2(slot0)
 				slot3 = slot3.proposePanel
 
 				slot1(slot2, slot3)
+
+				slot1 = slot0
+				slot1 = slot1.transHand
+				slot2 = slot1
+				slot1 = slot1.SetAsFirstSibling
+
+				slot1(slot2)
 
 				slot1 = slot0
 				slot2 = slot0
@@ -3248,7 +3255,7 @@ function slot2(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #1 5-29, warpins: 1 ---
+	--- BLOCK #1 5-30, warpins: 1 ---
 	slot1 = setActive
 	slot2 = slot0.ringTipTF
 	slot3 = false
@@ -3357,7 +3364,30 @@ function slot2(slot0)
 
 	slot2(slot3, slot4)
 
-	return
+	slot2 = slot0.handId
+
+	if slot2 == "101" then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 31-42, warpins: 1 ---
+		slot2 = GetOrAddComponent
+		slot3 = slot0.handTF
+		slot4 = typeof
+		slot5 = CanvasGroup
+		slot2 = slot2(slot3, slot4(slot5))
+		slot3 = LeanTween
+		slot3 = slot3.alphaCanvas
+		slot4 = slot2
+		slot5 = 0
+		slot6 = 2
+
+		slot3(slot4, slot5, slot6)
+		--- END OF BLOCK #0 ---
+
+
+
+	end
+
 	--- END OF BLOCK #1 ---
 
 	FLOW; TARGET BLOCK #2
@@ -3365,8 +3395,17 @@ function slot2(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #2 30-30, warpins: 2 ---
+	--- BLOCK #2 43-44, warpins: 2 ---
+	return
 	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 45-45, warpins: 2 ---
+	--- END OF BLOCK #3 ---
 
 
 

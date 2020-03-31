@@ -5055,6 +5055,622 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70078] = {
+		id = 70078,
+		name = "构建者第一波浮游炮1",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 3,
+					z = -50,
+					x = 2
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 3
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 5
+				}
+			}
+		}
+	},
+	[70079] = {
+		id = 70079,
+		name = "构建者第一波浮游炮2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 3,
+					z = -30,
+					x = 2
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 3
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 25
+				}
+			}
+		}
+	},
+	[70080] = {
+		id = 70080,
+		name = "构建者第一波浮游炮3",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 3,
+					z = -10,
+					x = 2
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 3
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 45
+				}
+			}
+		}
+	},
+	[70081] = {
+		id = 70081,
+		name = "构建者第一波浮游炮4",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 3,
+					z = 10,
+					x = 2
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 3
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 65
+				}
+			}
+		}
+	},
+	[70082] = {
+		id = 70082,
+		name = "构建者第二波浮游炮1",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 3,
+					z = -30,
+					x = -7
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 1,
+				param = {
+					x = -5,
+					z = 65
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 1,
+				param = {
+					x = -5,
+					z = 5
+				}
+			},
+			{
+				index = 4,
+				to = 5,
+				type = 1,
+				param = {
+					x = -5,
+					z = 65
+				}
+			},
+			{
+				index = 5,
+				to = 6,
+				type = 1,
+				param = {
+					x = -5,
+					z = 5
+				}
+			},
+			{
+				index = 6,
+				to = 7,
+				type = 1,
+				param = {
+					x = -5,
+					z = 65
+				}
+			},
+			{
+				index = 7,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 65
+				}
+			}
+		}
+	},
+	[70083] = {
+		id = 70083,
+		name = "构建者第二波浮游炮2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 3,
+					z = -10,
+					x = -7
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 1,
+				param = {
+					x = -5,
+					z = 5
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 1,
+				param = {
+					x = -5,
+					z = 65
+				}
+			},
+			{
+				index = 4,
+				to = 5,
+				type = 1,
+				param = {
+					x = -5,
+					z = 5
+				}
+			},
+			{
+				index = 5,
+				to = 6,
+				type = 1,
+				param = {
+					x = -5,
+					z = 65
+				}
+			},
+			{
+				index = 6,
+				to = 7,
+				type = 1,
+				param = {
+					x = -5,
+					z = 5
+				}
+			},
+			{
+				index = 7,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 5
+				}
+			}
+		}
+	},
+	[70084] = {
+		id = 70084,
+		name = "构建者第二波浮游炮3",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 3,
+					z = -50,
+					x = -17
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 1,
+				param = {
+					x = -70,
+					z = 5
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 1,
+				param = {
+					x = 2,
+					z = 5
+				}
+			},
+			{
+				index = 4,
+				to = 5,
+				type = 1,
+				param = {
+					x = -70,
+					z = 5
+				}
+			},
+			{
+				index = 5,
+				to = 6,
+				type = 1,
+				param = {
+					x = 2,
+					z = 5
+				}
+			},
+			{
+				index = 6,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 5
+				}
+			}
+		}
+	},
+	[70085] = {
+		id = 70085,
+		name = "构建者第二波浮游炮4",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 3,
+					z = 10,
+					x = -8
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 1,
+				param = {
+					x = -70,
+					z = 65
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 1,
+				param = {
+					x = 2,
+					z = 65
+				}
+			},
+			{
+				index = 4,
+				to = 5,
+				type = 1,
+				param = {
+					x = -70,
+					z = 65
+				}
+			},
+			{
+				index = 5,
+				to = 6,
+				type = 1,
+				param = {
+					x = 2,
+					z = 65
+				}
+			},
+			{
+				index = 6,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 65
+				}
+			}
+		}
+	},
+	[70086] = {
+		id = 70086,
+		name = "常规BOSS返回中间",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 1,
+				param = {
+					x = -15,
+					z = 55
+				}
+			}
+		}
+	},
+	[70087] = {
+		id = 70087,
+		name = "EX构建者第一波浮游炮1",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 2,
+					z = -5,
+					x = 5
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 4,
+				param = {
+					radius = 25,
+					z = 35,
+					antiClockWise = false,
+					duration = 9,
+					x = -10
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 155
+				}
+			}
+		}
+	},
+	[70088] = {
+		id = 70088,
+		name = "EX构建者第一波浮游炮2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 6,
+				param = {
+					duration = 2,
+					z = -35,
+					x = 5
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 4,
+				param = {
+					radius = 25,
+					z = 35,
+					antiClockWise = false,
+					duration = 9,
+					x = -10
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = -45
+				}
+			}
+		}
+	},
+	[70089] = {
+		id = 70089,
+		name = "EX构建者第四波浮游炮1",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -30,
+					z = 5
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 1,
+				param = {
+					x = 0,
+					z = 5
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 1,
+				param = {
+					x = 0,
+					z = 65
+				}
+			},
+			{
+				index = 4,
+				to = 5,
+				type = 1,
+				param = {
+					x = -78,
+					z = 65
+				}
+			},
+			{
+				index = 5,
+				to = 6,
+				type = 1,
+				param = {
+					x = -78,
+					z = 5
+				}
+			},
+			{
+				index = 6,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 5
+				}
+			}
+		}
+	},
+	[70090] = {
+		id = 70090,
+		name = "EX构建者第四波浮游炮2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -30,
+					z = 65
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 1,
+				param = {
+					x = 0,
+					z = 65
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 1,
+				param = {
+					x = 0,
+					z = 5
+				}
+			},
+			{
+				index = 4,
+				to = 5,
+				type = 1,
+				param = {
+					x = -78,
+					z = 5
+				}
+			},
+			{
+				index = 5,
+				to = 6,
+				type = 1,
+				param = {
+					x = -78,
+					z = 65
+				}
+			},
+			{
+				index = 6,
+				to = 1,
+				type = 1,
+				param = {
+					x = -100,
+					z = 65
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

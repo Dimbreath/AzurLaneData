@@ -78789,6 +78789,38 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[15535] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92875,
+		type = 6,
+		name = "登录送皮肤体验券活动",
+		count_inherit = 0,
+		desc = "登录游戏",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15535,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				150,
+				2
+			}
+		}
+	},
 	[30201] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -90168,6 +90200,7 @@ pg.task_data_template = {
 		15512,
 		15513,
 		15514,
+		15535,
 		30201,
 		30202,
 		30203,

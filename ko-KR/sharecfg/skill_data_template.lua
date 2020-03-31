@@ -1,5 +1,27 @@
 pg = pg or {}
 pg.skill_data_template = {
+	{
+		desc_get = "",
+		name = "战列底座用",
+		desc = "",
+		type = 0,
+		max_level = 0,
+		id = 1,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	{
+		desc_get = "",
+		name = "战列底座用",
+		desc = "",
+		type = 0,
+		max_level = 0,
+		id = 2,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[10] = {
 		desc_get = "",
 		name = "함선 수리 Lv.1",
@@ -29,6 +51,17 @@ pg.skill_data_template = {
 		type = 0,
 		max_level = 0,
 		id = 12,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[13] = {
+		desc_get = "",
+		name = "维修Lv4",
+		desc = "每5秒回复20点耐久，同类效果取最大值，不可叠加",
+		type = 0,
+		max_level = 0,
+		id = 13,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -5433,6 +5466,17 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[4171] = {
+		desc_get = "",
+		name = "空域辅助-共通效果占用id",
+		desc = "",
+		type = 3,
+		max_level = 10,
+		id = 4171,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[5001] = {
 		desc_get = "20초마다 25% 확률로 발동. 5초(Max Lv : 10초) 동안 랜덤한 적 1기(적 함선 소녀 우선)의 사속과 대미지를 크게 감소시킨다. 동일한 스킬 효과는 중첩되지 않는다.",
 		name = "교란 사격",
@@ -6818,6 +6862,28 @@ pg.skill_data_template = {
 		type = 0,
 		max_level = 0,
 		id = 6520,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6530] = {
+		desc_get = "",
+		name = "空中侦察",
+		desc = "卡特琳娜水上机进行协助侦察，受到伏击概率降低10%，规避伏击概率提高10%，效果不可叠加",
+		type = 0,
+		max_level = 0,
+		id = 6530,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[6540] = {
+		desc_get = "",
+		name = "猎杀战列",
+		desc = "装备时，自身对敌方战列、战巡伤害提高3.0%；该舰载机编队命中敌方战列、战巡、航战时，有60%概率造成进水，持续9秒(进水伤害依据航空属性)",
+		type = 0,
+		max_level = 0,
+		id = 6540,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -8601,7 +8667,7 @@ pg.skill_data_template = {
 				},
 				{
 					"17",
-					"1"
+					"-1"
 				},
 				{
 					"16",
@@ -22553,6 +22619,17 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[12020] = {
+		desc_get = "",
+		name = "潜母飞机用",
+		desc = "",
+		type = 0,
+		max_level = 0,
+		id = 12020,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[12030] = {
 		desc_get = "",
 		name = "밤하늘을 가르는 불꽃 ",
@@ -31318,6 +31395,100 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[13130] = {
+		desc_get = "",
+		name = "CHANGE NEKO!",
+		desc = "战斗中每20秒触发一次，10秒内提升自身炮击$2并召唤一架PBY卡特琳娜水上飞机，该水上飞机入场后点亮敌方潜艇单位10秒，并进行一次反潜投弹$1；自身装备【PBY-5A卡特琳娜】时，在战斗中受到伤害，导致血量低于40%时，立刻召唤PBY卡特琳娜进行一次航空轰炸$1，航空轰炸每场战斗最多发动1次(反潜投弹及航空轰炸威力依据技能等级)",
+		type = 1,
+		max_level = 10,
+		id = 13130,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV 철갑탄 +",
@@ -33987,6 +34158,28 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 20072,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[20081] = {
+		desc_get = "",
+		name = "全弹发射I",
+		desc = "主炮每进行15次攻击，触发全弹发射-艾伦·萨姆纳级I",
+		type = 1,
+		max_level = 1,
+		id = 20081,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[20082] = {
+		desc_get = "",
+		name = "全弹发射II",
+		desc = "主炮每进行10次攻击，触发全弹发射-艾伦·萨姆纳级II",
+		type = 1,
+		max_level = 1,
+		id = 20082,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -40700,9 +40893,12 @@ pg.skill_data_template = {
 		}
 	},
 	all = {
+		1,
+		2,
 		10,
 		11,
 		12,
+		13,
 		14,
 		15,
 		1001,
@@ -40790,6 +40986,7 @@ pg.skill_data_template = {
 		4131,
 		4141,
 		4151,
+		4171,
 		5001,
 		5011,
 		5021,
@@ -40862,6 +41059,8 @@ pg.skill_data_template = {
 		6500,
 		6510,
 		6520,
+		6530,
+		6540,
 		7000,
 		9030,
 		9031,
@@ -41077,6 +41276,7 @@ pg.skill_data_template = {
 		11990,
 		12000,
 		12010,
+		12020,
 		12030,
 		12040,
 		12050,
@@ -41170,6 +41370,7 @@ pg.skill_data_template = {
 		13040,
 		13050,
 		13060,
+		13130,
 		18010,
 		18040,
 		18050,
@@ -41219,6 +41420,8 @@ pg.skill_data_template = {
 		20062,
 		20071,
 		20072,
+		20081,
+		20082,
 		20111,
 		20112,
 		20121,

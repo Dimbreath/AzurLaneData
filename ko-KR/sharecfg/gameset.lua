@@ -385,7 +385,7 @@ pg.gameset = {
 	activity_res_id = {
 		description = "pt",
 		key = "activity_res_id",
-		key_value = 147
+		key_value = 149
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -800,6 +800,11 @@ pg.gameset = {
 				5
 			}
 		}
+	},
+	award_ship_limit = {
+		description = "奖励超过20只就不一个一个展示获得界面，直接显示全部获得",
+		key = "award_ship_limit",
+		key_value = 20
 	}
 }
 

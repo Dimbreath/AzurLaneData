@@ -10967,6 +10967,39 @@ pg.memory_template = {
 		icon = "memory_miwuzhixia",
 		is_open = 0
 	},
+	[1188] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "황금의 보물·상편",
+		condition = "이벤트 기간 내 게임 로그인",
+		story = "HUANGJINDEMIBAO1",
+		id = 1188,
+		icon = "memory_huangjindemibao",
+		is_open = 0
+	},
+	[1189] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "황금의 보물·중편",
+		condition = "「황금의 보물」 BOSS 조우",
+		story = "HUANGJINDEMIBAO2",
+		id = 1189,
+		icon = "memory_huangjindemibao",
+		is_open = 0
+	},
+	[1190] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "황금의 보물·하편",
+		condition = "「황금의 보물」 통과",
+		story = "HUANGJINDEMIBAO3",
+		id = 1190,
+		icon = "memory_huangjindemibao",
+		is_open = 0
+	},
 	[10000] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -12702,6 +12735,9 @@ pg.memory_template = {
 		1150,
 		1151,
 		1152,
+		1188,
+		1189,
+		1190,
 		10000,
 		10001,
 		10002,

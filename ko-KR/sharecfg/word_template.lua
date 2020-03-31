@@ -1,6 +1,12 @@
 pg = pg or {}
-pg.word_template = {
-	G = {
+pg.word_template = {}
+slot1 = pg.word_template
+slot2 = nil
+
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.G = {
 		A = {
 			M = {
 				E = {
@@ -42,8 +48,12 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	g = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.g = {
 		a = {
 			m = {
 				e = {
@@ -66,15 +76,23 @@ pg.word_template = {
 		m = {
 			this = true
 		}
-	},
-	j = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.j = {
 		i = {
 			랄 = {
 				this = true
 			}
 		}
-	},
-	s = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.s = {
 		m = {
 			녀 = {
 				왕 = {
@@ -82,23 +100,35 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	z = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.z = {
 		i = {
 			랄 = {
 				this = true
 			}
 		}
-	},
-	ㅂ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ㅂ = {
 		ㅅ = {
 			this = true
 		},
 		ㅈ = {
 			this = true
 		}
-	},
-	ㅆ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ㅆ = {
 		ㅂ = {
 			this = true
 		},
@@ -107,8 +137,12 @@ pg.word_template = {
 				this = true
 			}
 		}
-	},
-	ㅇ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ㅇ = {
 		[" "] = {
 			ㅐ = {
 				[" "] = {
@@ -145,26 +179,42 @@ pg.word_template = {
 				this = true
 			}
 		}
-	},
-	ㅈ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ㅈ = {
 		ㅈ = {
 			this = true
 		}
-	},
-	간 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.간 = {
 		살 = {
 			this = true
 		},
 		오 = {
 			this = true
 		}
-	},
-	강 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.강 = {
 		간 = {
 			this = true
 		}
-	},
-	개 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.개 = {
 		["!"] = {
 			새 = {
 				끼 = {
@@ -228,26 +278,42 @@ pg.word_template = {
 		좆 = {
 			this = true
 		}
-	},
-	거 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.거 = {
 		유 = {
 			this = true
 		}
-	},
-	구 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.구 = {
 		려 = {
 			this = true
 		},
 		리 = {
 			this = true
 		}
-	},
-	귀 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.귀 = {
 		두 = {
 			this = true
 		}
-	},
-	까 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.까 = {
 		대 = {
 			this = true
 		},
@@ -262,13 +328,21 @@ pg.word_template = {
 				this = true
 			}
 		}
-	},
-	남 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.남 = {
 		노 = {
 			this = true
 		}
-	},
-	노 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.노 = {
 		무 = {
 			현 = {
 				this = true
@@ -277,18 +351,30 @@ pg.word_template = {
 		예 = {
 			this = true
 		}
-	},
-	놈 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.놈 = {
 		현 = {
 			this = true
 		}
-	},
-	눈 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.눈 = {
 		깔 = {
 			this = true
 		}
-	},
-	니 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.니 = {
 		기 = {
 			미 = {
 				this = true
@@ -300,31 +386,47 @@ pg.word_template = {
 				this = true
 			}
 		}
-	},
-	닝 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.닝 = {
 		기 = {
 			미 = {
 				this = true
 			}
 		}
-	},
-	닥 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.닥 = {
 		쳐 = {
 			this = true
 		},
 		쵸 = {
 			this = true
 		}
-	},
-	닭 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.닭 = {
 		쳐 = {
 			this = true
 		},
 		쵸 = {
 			this = true
 		}
-	},
-	대 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.대 = {
 		가 = {
 			리 = {
 				this = true
@@ -333,23 +435,39 @@ pg.word_template = {
 		갈 = {
 			this = true
 		}
-	},
-	뒤 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.뒤 = {
 		져 = {
 			this = true
 		}
-	},
-	때 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.때 = {
 		끼 = {
 			this = true
 		}
-	},
-	똥 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.똥 = {
 		꼬 = {
 			this = true
 		}
-	},
-	띠 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.띠 = {
 		발 = {
 			this = true
 		},
@@ -394,18 +512,30 @@ pg.word_template = {
 		풀 = {
 			this = true
 		}
-	},
-	륜 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.륜 = {
 		간 = {
 			this = true
 		}
-	},
-	매 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.매 = {
 		음 = {
 			this = true
 		}
-	},
-	미 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.미 = {
 		["!"] = {
 			친 = {
 				this = true
@@ -429,13 +559,21 @@ pg.word_template = {
 				this = true
 			}
 		}
-	},
-	발 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.발 = {
 		기 = {
 			this = true
 		}
-	},
-	병 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.병 = {
 		신 = {
 			this = true,
 			새 = {
@@ -444,16 +582,24 @@ pg.word_template = {
 				}
 			}
 		}
-	},
-	보 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.보 = {
 		쥐 = {
 			this = true
 		},
 		지 = {
 			this = true
 		}
-	},
-	빠 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.빠 = {
 		구 = {
 			리 = {
 				this = true
@@ -462,13 +608,21 @@ pg.word_template = {
 		굴 = {
 			this = true
 		}
-	},
-	뽀 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.뽀 = {
 		작 = {
 			this = true
 		}
-	},
-	새 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.새 = {
 		꺄 = {
 			this = true
 		},
@@ -478,8 +632,12 @@ pg.word_template = {
 		키 = {
 			this = true
 		}
-	},
-	색 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.색 = {
 		끼 = {
 			this = true
 		},
@@ -498,13 +656,21 @@ pg.word_template = {
 		욕 = {
 			this = true
 		}
-	},
-	샙 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.샙 = {
 		새 = {
 			this = true
 		}
-	},
-	성 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.성 = {
 		교 = {
 			this = true
 		},
@@ -517,13 +683,21 @@ pg.word_template = {
 		욕 = {
 			this = true
 		}
-	},
-	세 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.세 = {
 		끼 = {
 			this = true
 		}
-	},
-	섹 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.섹 = {
 		수 = {
 			this = true
 		},
@@ -536,15 +710,23 @@ pg.word_template = {
 		쓰 = {
 			this = true
 		}
-	},
-	소 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.소 = {
 		라 = {
 			넷 = {
 				this = true
 			}
 		}
-	},
-	쇅 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.쇅 = {
 		수 = {
 			this = true
 		},
@@ -557,21 +739,33 @@ pg.word_template = {
 		쓰 = {
 			this = true
 		}
-	},
-	수 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.수 = {
 		욕 = {
 			this = true
 		},
 		음 = {
 			this = true
 		}
-	},
-	숙 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.숙 = {
 		부 = {
 			this = true
 		}
-	},
-	쉑 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.쉑 = {
 		수 = {
 			this = true
 		},
@@ -584,8 +778,12 @@ pg.word_template = {
 		쓰 = {
 			this = true
 		}
-	},
-	쉬 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.쉬 = {
 		발 = {
 			this = true
 		},
@@ -642,16 +840,24 @@ pg.word_template = {
 		풀 = {
 			this = true
 		}
-	},
-	스 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.스 = {
 		바 = {
 			this = true
 		},
 		펄 = {
 			this = true
 		}
-	},
-	시 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.시 = {
 		끼 = {
 			this = true
 		},
@@ -699,13 +905,21 @@ pg.word_template = {
 		풀 = {
 			this = true
 		}
-	},
-	신 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.신 = {
 		음 = {
 			this = true
 		}
-	},
-	십 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.십 = {
 		때 = {
 			끼 = {
 				this = true
@@ -719,13 +933,21 @@ pg.word_template = {
 		쉐 = {
 			this = true
 		}
-	},
-	싯 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.싯 = {
 		팔 = {
 			this = true
 		}
-	},
-	쌍 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.쌍 = {
 		것 = {
 			this = true
 		},
@@ -738,16 +960,24 @@ pg.word_template = {
 		놈 = {
 			this = true
 		}
-	},
-	쌔 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.쌔 = {
 		끼 = {
 			this = true
 		},
 		키 = {
 			this = true
 		}
-	},
-	쌕 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.쌕 = {
 		수 = {
 			this = true
 		},
@@ -760,19 +990,31 @@ pg.word_template = {
 		쓰 = {
 			this = true
 		}
-	},
-	썅 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.썅 = {
 		this = true,
 		놈 = {
 			this = true
 		}
-	},
-	쎄 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.쎄 = {
 		끼 = {
 			this = true
 		}
-	},
-	쎅 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.쎅 = {
 		수 = {
 			this = true
 		},
@@ -785,8 +1027,12 @@ pg.word_template = {
 		쓰 = {
 			this = true
 		}
-	},
-	쐑 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.쐑 = {
 		수 = {
 			this = true
 		},
@@ -799,8 +1045,12 @@ pg.word_template = {
 		쓰 = {
 			this = true
 		}
-	},
-	쒝 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.쒝 = {
 		수 = {
 			this = true
 		},
@@ -810,8 +1060,12 @@ pg.word_template = {
 		쓰 = {
 			this = true
 		}
-	},
-	쒸 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.쒸 = {
 		발 = {
 			this = true
 		},
@@ -865,8 +1119,12 @@ pg.word_template = {
 		풀 = {
 			this = true
 		}
-	},
-	쓰 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.쓰 = {
 		벌 = {
 			this = true
 		},
@@ -881,14 +1139,26 @@ pg.word_template = {
 				this = true
 			}
 		}
-	},
-	씝 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.씝 = {
 		this = true
-	},
-	씞 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.씞 = {
 		this = true
-	},
-	씨 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.씨 = {
 		["!"] = {
 			발 = {
 				this = true
@@ -971,8 +1241,12 @@ pg.word_template = {
 		풀 = {
 			this = true
 		}
-	},
-	씹 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.씹 = {
 		새 = {
 			this = true
 		},
@@ -982,11 +1256,19 @@ pg.word_template = {
 		탱 = {
 			this = true
 		}
-	},
-	씺 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.씺 = {
 		this = true
-	},
-	아 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.아 = {
 		가 = {
 			리 = {
 				this = true
@@ -1003,15 +1285,23 @@ pg.word_template = {
 				this = true
 			}
 		}
-	},
-	안 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.안 = {
 		마 = {
 			봉 = {
 				this = true
 			}
 		}
-	},
-	애 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.애 = {
 		미 = {
 			this = true,
 			보 = {
@@ -1029,44 +1319,68 @@ pg.word_template = {
 		자 = {
 			this = true
 		}
-	},
-	월 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.월 = {
 		경 = {
 			this = true
 		}
-	},
-	유 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.유 = {
 		두 = {
 			this = true
 		},
 		방 = {
 			this = true
 		}
-	},
-	육 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.육 = {
 		구 = {
 			this = true
 		},
 		봉 = {
 			this = true
 		}
-	},
-	음 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.음 = {
 		경 = {
 			this = true
 		},
 		탕 = {
 			this = true
 		}
-	},
-	이 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.이 = {
 		기 = {
 			야 = {
 				this = true
 			}
 		}
-	},
-	자 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.자 = {
 		궁 = {
 			this = true
 		},
@@ -1076,23 +1390,39 @@ pg.word_template = {
 		지 = {
 			this = true
 		}
-	},
-	잠 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.잠 = {
 		지 = {
 			this = true
 		}
-	},
-	저 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.저 = {
 		까 = {
 			this = true
 		}
-	},
-	전 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.전 = {
 		라 = {
 			this = true
 		}
-	},
-	젓 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.젓 = {
 		가 = {
 			튼 = {
 				this = true
@@ -1109,8 +1439,12 @@ pg.word_template = {
 		밥 = {
 			this = true
 		}
-	},
-	정 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.정 = {
 		색 = {
 			this = true
 		},
@@ -1120,31 +1454,51 @@ pg.word_template = {
 		자 = {
 			this = true
 		}
-	},
-	젖 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.젖 = {
 		까 = {
 			this = true
 		},
 		밥 = {
 			this = true
 		}
-	},
-	조 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.조 = {
 		까 = {
 			this = true
 		}
-	},
-	족 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.족 = {
 		밥 = {
 			this = true
 		}
-	},
-	존 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.존 = {
 		나 = {
 			this = true
 		}
-	},
-	좃 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.좃 = {
 		this = true,
 		까 = {
 			this = true
@@ -1152,8 +1506,12 @@ pg.word_template = {
 		밥 = {
 			this = true
 		}
-	},
-	좆 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.좆 = {
 		this = true,
 		가 = {
 			this = true
@@ -1167,16 +1525,28 @@ pg.word_template = {
 		밥 = {
 			this = true
 		}
-	},
-	좇 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.좇 = {
 		this = true
-	},
-	죽 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.죽 = {
 		어 = {
 			this = true
 		}
-	},
-	지 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.지 = {
 		랄 = {
 			this = true,
 			하 = {
@@ -1189,64 +1559,104 @@ pg.word_template = {
 				this = true
 			}
 		}
-	},
-	짜 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.짜 = {
 		져 = {
 			this = true
 		}
-	},
-	짬 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.짬 = {
 		지 = {
 			this = true
 		}
-	},
-	쪼 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.쪼 = {
 		까 = {
 			튼 = {
 				this = true
 			}
 		}
-	},
-	찌 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.찌 = {
 		랄 = {
 			this = true
 		}
-	},
-	창 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.창 = {
 		녀 = {
 			this = true
 		}
-	},
-	쳐 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.쳐 = {
 		먹 = {
 			this = true,
 			어 = {
 				this = true
 			}
 		}
-	},
-	초 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.초 = {
 		대 = {
 			남 = {
 				this = true
 			}
 		}
-	},
-	항 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.항 = {
 		문 = {
 			this = true
 		}
-	},
-	허 = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.허 = {
 		접 = {
 			this = true
 		}
-	},
-	Ｇ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.Ｇ = {
 		Ｍ = {
 			this = true
 		}
 	}
-}
+end()
 
 return

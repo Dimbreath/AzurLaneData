@@ -342,8 +342,6 @@ function ys.Battle.BattleBuffEffect.onBulletHitBefore(slot0, slot1, slot2, slot3
 end
 
 function ys.Battle.BattleBuffEffect.onBulletCreate(slot0, slot1, slot2, slot3)
-	print(slot0:equipIndexRequire(slot3.equipIndex))
-
 	if not slot0:equipIndexRequire(slot3.equipIndex) then
 		return
 	end
