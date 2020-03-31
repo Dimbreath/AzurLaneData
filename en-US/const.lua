@@ -298,7 +298,7 @@ SPECIAL_DATE = {
 		"20200401",
 		"login",
 		"loginbg_0401",
-		"login_0401"
+		"US20200401"
 	}
 }
 SPECIAL_PROPOSE = {
@@ -646,7 +646,7 @@ SPECIAL_PROPOSE = {
 		}
 	}
 }
-CRI_BG_FLAG = true
+CRI_BG_FLAG = false
 OPEN_ESCORT = false
 OPEN_REMASTER = true
 AUTO_LINKLINK = false
