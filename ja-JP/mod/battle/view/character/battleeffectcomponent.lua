@@ -2,6 +2,7 @@ ys = ys or {}
 slot1 = ys.Battle.BattleBuffEvent
 slot2 = ys.Battle.BattleUnitEvent
 slot3 = ys.Battle.BattleResourceManager
+slot4 = ys.Battle.BattleDataFunction
 ys.Battle.BattleEffectComponent = class("BattleEffectComponent")
 ys.Battle.BattleEffectComponent.__name = "BattleEffectComponent"
 
@@ -76,8 +77,14 @@ function ys.Battle.BattleEffectComponent.onBuffAdd(slot0, slot1)
 end
 
 function ys.Battle.BattleEffectComponent.DoWhenAddBuff(slot0, slot1)
-	if slot0.Battle.BattleDataFunction.GetBuffTemplate(slot2).init_effect and slot3.init_effect ~= "" then
-		slot0._owner:AddFX(slot3.init_effect)
+	if slot0.GetBuffTemplate(slot2).init_effect and slot3.init_effect ~= "" then
+		slot4 = slot3.init_effect
+
+		if slot3.skin_adapt then
+			slot4 = slot0.SkinAdaptFXID(slot4, slot0._owner:GetUnitData():GetSkinID())
+		end
+
+		slot0._owner:AddFX(slot4)
 	end
 
 	if slot3.last_effect ~= nil and slot3.last_effect ~= "" then

@@ -156,6 +156,14 @@ function slot0.init(slot0)
 	slot0.onSelected = slot1.onSelected or function ()
 		warning("not implemented.")
 	end
+	slot0.settingBtn = slot0:findTF("blur_panel/adapt/left_length/frame/setting")
+	slot0.settingPanel = DockyardQuickSelectSettingPage.New(slot0._tf, slot0.event)
+
+	slot0.settingPanel:Load()
+	slot0.settingPanel:OnSettingChanged(function ()
+		slot0:unselecteAllShips()
+	end)
+
 	slot0.blurPanel = slot0:findTF("blur_panel")
 	slot0.topPanel = slot0:findTF("blur_panel/adapt/top")
 	slot0.sortBtn = slot0:findTF("sort_button", slot0.topPanel)
@@ -315,11 +323,14 @@ function slot0.init(slot0)
 		slot0.selectPanel:GetComponent("HorizontalLayoutGroup").padding.right = 50
 
 		setActive(slot0.selectPanel:Find("quick_select"), true)
+		setActive(slot0.settingBtn, true)
 	else
 		slot0.selectPanel:GetComponent("HorizontalLayoutGroup").padding.right = 250
 
 		setActive(slot0.selectPanel:Find("quick_select"), false)
 	end
+
+	setActive(slot0.settingBtn, false)
 end
 
 function slot0.setShipsCount(slot0, slot1)
@@ -1223,35 +1234,48 @@ function slot0.didEnter(slot0)
 			return
 		end
 
-		slot1 = {}
+		slot0 = PlayerPrefs.GetInt("QuickSelectRequireLvOne", 1) == 1
+		slot1 = PlayerPrefs.GetInt("QuickSelectRequireMaxstar", 0) == 1
+		slot2 = PlayerPrefs.GetInt("QuickSelectRequireLockAtLeastOne", 1) == 1
+		slot4 = 3
+		slot5 = {}
 
-		for slot5, slot6 in pairs(slot0) do
-			if slot6:GetLockState() == Ship.LOCK_STATE_LOCK then
-				slot1[slot6:getGroupId()] = true
+		for slot9, slot10 in pairs(slot3) do
+			if slot10 ~= 0 then
+				slot5[slot10] = slot5[slot10] or slot4
+				slot4 = slot4 - 1
+			end
+		end
+
+		slot7 = {}
+		slot8 = {}
+
+		for slot12, slot13 in pairs(slot6) do
+			if slot13:GetLockState() == Ship.LOCK_STATE_LOCK then
+				slot8[slot13:getGroupId()] = true
+			end
+		end
+
+		for slot12, slot13 in pairs(slot6) do
+			if slot13:isMaxStar() then
+				slot7[slot13:getGroupId()] = true
 			end
 		end
 
 		if not _.all(_.select(slot0.shipVOs, function (slot0)
-			return slot0.configId ~= 100001 and slot0.configId ~= 100011 and slot0:GetLockState() == Ship.LOCK_STATE_UNLOCK and slot0.level == 1 and slot0:getRarity() < 5 and slot0[slot0:getGroupId()] and not table.contains(slot1.selectedIds, slot0.id) and not slot0.inFleet and not slot0.inChapter and not slot0.inWorld and not slot0.inEvent and not slot0.inBackyard and not slot0.inClass and not slot0.inTactics and not slot0.inExercise and not slot0.inAdmiral and not slot0.inSham and not slot0.inElite and not slot0.inActivity
+			return slot0.configId ~= 100001 and slot0.configId ~= 100011 and slot0:GetLockState() == Ship.LOCK_STATE_UNLOCK and table.contains(slot0, slot0:getRarity()) and (not slot1 or slot0.level == 1) and (not slot2 or slot3[slot0:getGroupId()]) and (not slot4 or slot5[slot0:getGroupId()]) and not table.contains(slot6.selectedIds, slot0.id) and not slot0.inFleet and not slot0.inChapter and not slot0.inWorld and not slot0.inEvent and not slot0.inBackyard and not slot0.inClass and not slot0.inTactics and not slot0.inExercise and not slot0.inAdmiral and not slot0.inSham and not slot0.inElite and not slot0.inActivity
 		end), function (slot0)
 			return slot0.blacklist[slot0:getGroupId()]
 		end) then
-			slot2 = _.select(slot2, function (slot0)
+			slot9 = _.select(slot9, function (slot0)
 				return not slot0.blacklist[slot0:getGroupId()]
 			end)
 		elseif #slot0.selectedIds > 0 then
-			slot2 = {}
+			slot9 = {}
 		end
 
-		slot3 = {
-			nil,
-			1,
-			3,
-			2
-		}
-
-		table.sort(slot2, function (slot0, slot1)
-			if slot0[slot0:getRarity()] == slot0[slot1:getRarity()] then
+		table.sort(slot9, function (slot0, slot1)
+			if (slot0[slot0:getRarity()] or 0) == (slot0[slot1:getRarity()] or 0) then
 				if slot0:getGroupId() == slot1:getGroupId() then
 					return slot1.createTime < slot0.createTime
 				end
@@ -1262,36 +1286,36 @@ function slot0.didEnter(slot0)
 			end
 		end)
 
-		slot4 = 0
-		slot5 = false
-		slot6 = false
+		slot10 = 0
+		slot11 = false
+		slot12 = false
 
-		for slot10 = 1, slot0.selectedMax - #slot0.selectedIds, 1 do
-			if slot2[slot10] then
-				slot11 = 0
-				slot12 = 0
+		for slot16 = 1, slot0.selectedMax - #slot0.selectedIds, 1 do
+			if slot9[slot16] then
+				slot17 = 0
+				slot18 = 0
 
-				for slot16, slot17 in ipairs(slot0.selectedIds) do
-					slot19, slot20 = slot0.shipVOsById[slot17].calReturnRes(slot18)
-					slot11 = slot11 + slot19
-					slot12 = slot12 + slot20
+				for slot22, slot23 in ipairs(slot0.selectedIds) do
+					slot25, slot26 = slot0.shipVOsById[slot23].calReturnRes(slot24)
+					slot17 = slot17 + slot25
+					slot18 = slot18 + slot26
 				end
 
-				slot13, slot14 = slot2[slot10]:calReturnRes()
-				slot5 = slot0.player:OilMax(slot12)
+				slot19, slot20 = slot9[slot16]:calReturnRes()
+				slot11 = slot0.player:OilMax(slot18)
 
-				if slot0.player:GoldMax(slot11 + slot13) then
+				if slot0.player:GoldMax(slot17 + slot19) then
 					break
 				end
 
-				slot4 = slot4 + 1
+				slot10 = slot10 + 1
 
-				slot0:selectShip(slot2[slot10], true)
+				slot0:selectShip(slot9[slot16], true)
 			end
 		end
 
-		if slot4 == 0 then
-			if slot6 then
+		if slot10 == 0 then
+			if slot12 then
 				if #slot0.selectedIds == 0 then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_retire"))
 				else
@@ -1302,7 +1326,7 @@ function slot0.didEnter(slot0)
 			else
 				pg.TipsMgr.GetInstance():ShowTips(i18n("retire_selectzero"))
 			end
-		elseif slot5 then
+		elseif slot11 then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("oil_max_tip_title") .. i18n("resource_max_tip_retire_1"),
 				onYes = function ()
@@ -1318,6 +1342,8 @@ function slot0.didEnter(slot0)
 
 	if slot0.contextData.mode == slot0.MODE_WORLD then
 		slot0:initWorldPanel()
+	elseif slot0.contextData.mode == slot0.MODE_DESTROY and not LOCK_DESTROY_GUIDE then
+		pg.SystemGuideMgr:GetInstance():Play(slot0)
 	end
 
 	if not slot0.contextData.selectFriend then
@@ -1364,6 +1390,12 @@ function slot0.didEnter(slot0)
 		table.insert(slot0.selectedIds, slot0.contextData.selectShipId)
 		slot0:updateSelected()
 	end
+
+	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, 60033)
+
+	onButton(slot0, slot0.settingBtn, function ()
+		slot0.settingPanel:Show()
+	end)
 end
 
 function slot0.OnSwitch(slot0, slot1, slot2, slot3)
@@ -1753,6 +1785,10 @@ function slot0.willExit(slot0)
 	slot0:closeModAttr()
 	slot0:ClearShipsBlackBlock()
 
+	if slot0.settingPanel then
+		slot0.settingPanel:Destroy()
+	end
+
 	if slot0.mode == slot0.MODE_MOD then
 	elseif not slot0.contextData.sortData then
 		if _G[slot0.contextData.preView] then
@@ -1790,6 +1826,12 @@ function slot0.willExit(slot0)
 
 		slot1:SetDockYardLockBtnFlag(slot0.isFilterLockForMod)
 		slot1:SetDockYardLevelBtnFlag(slot0.isFilterLevelForMod)
+	end
+
+	if slot0.bulinTip then
+		slot0.bulinTip:Destroy()
+
+		slot0.bulinTip = nil
 	end
 end
 

@@ -12089,6 +12089,39 @@ pg.memory_template = {
 		icon = "memory_weicenghunhe",
 		is_open = 0
 	},
+	[1188] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "ブリと黄金の秘宝・上",
+		condition = "イベント期間中ログイン",
+		story = "HUANGJINDEMIBAO1",
+		id = 1188,
+		icon = "memory_huangjindemibao",
+		is_open = 0
+	},
+	[1189] = {
+		mask = "bg/bg_story_outdoor",
+		subtitle = "",
+		type = 1,
+		title = "ブリと黄金の秘宝・中",
+		condition = "ボスに遭遇",
+		story = "HUANGJINDEMIBAO2",
+		id = 1189,
+		icon = "memory_huangjindemibao",
+		is_open = 0
+	},
+	[1190] = {
+		mask = "bg/bg_story_outdoor",
+		subtitle = "",
+		type = 1,
+		title = "ブリと黄金の秘宝・下",
+		condition = "ボス撃破",
+		story = "HUANGJINDEMIBAO3",
+		id = 1190,
+		icon = "memory_huangjindemibao",
+		is_open = 0
+	},
 	[10000] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -14080,6 +14113,9 @@ pg.memory_template = {
 		1185,
 		1186,
 		1187,
+		1188,
+		1189,
+		1190,
 		10000,
 		10001,
 		10002,

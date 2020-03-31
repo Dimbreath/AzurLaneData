@@ -2480,6 +2480,88 @@ pg.activity_template = {
 			}
 		}
 	},
+	[548] = {
+		mark = 20200331,
+		title_res_tag = "",
+		type = 23,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 548,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					4,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[549] = {
+		mark = 20200331,
+		title_res_tag = "",
+		type = 21,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 8,
+		bg = "",
+		id = 549,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					4,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			{},
+			"HUANGJINDEMIBAO1",
+			guideName = "HJDMB001"
+		}
+	},
 	[10006] = {
 		mark = 20170726,
 		title_res_tag = "",
@@ -3604,6 +3686,8 @@ pg.activity_template = {
 		545,
 		546,
 		547,
+		548,
+		549,
 		10006,
 		10056,
 		10123,

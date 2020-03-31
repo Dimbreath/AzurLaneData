@@ -1,6 +1,12 @@
 pg = pg or {}
-pg.word_legal_template = {
-	ア = {
+pg.word_legal_template = {}
+slot1 = pg.word_legal_template
+slot2 = nil
+
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.ア = {
 		カ = {
 			ス = {
 				タ = {
@@ -8,19 +14,12 @@ pg.word_legal_template = {
 				}
 			}
 		}
-	},
-	エ = {
-		セ = {
-			ッ = {
-				ク = {
-					ス = {
-						this = true
-					}
-				}
-			}
-		}
-	},
-	サ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.エ = {
 		セ = {
 			ッ = {
 				ク = {
@@ -31,6 +30,21 @@ pg.word_legal_template = {
 			}
 		}
 	}
-}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.サ = {
+		セ = {
+			ッ = {
+				ク = {
+					ス = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end()
 
 return
