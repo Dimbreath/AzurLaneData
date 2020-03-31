@@ -1691,7 +1691,72 @@ function slot7(slot0, slot1)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #20 126-133, warpins: 2 ---
+	--- BLOCK #20 126-129, warpins: 2 ---
+	slot13 = slot0
+	slot13 = slot13.MODE1
+
+	if slot4 == slot13 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 130-132, warpins: 1 ---
+		slot7:Find("char").localPosition = Vector3(slot2.charPos or {
+			x = -388,
+			y = -100.1717
+		}.x, slot2.charPos or .y, 0)
+		slot7:Find("hand").localPosition = Vector3(slot2.hand or {
+			w = 0,
+			x = -267,
+			y = -96
+		}.x, slot2.hand or .y, 0)
+		slot7:Find("hand").eulerAngles = Vector3(0, 0, slot2.hand or .w)
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 133-133, warpins: 1 ---
+		slot13 = 
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 134-146, warpins: 2 ---
+		--- END OF BLOCK #2 ---
+
+		FLOW; TARGET BLOCK #4
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #3 147-147, warpins: 1 ---
+		slot14 = 
+		--- END OF BLOCK #3 ---
+
+		FLOW; TARGET BLOCK #4
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #4 148-167, warpins: 2 ---
+		--- END OF BLOCK #4 ---
+
+
+
+	end
+
+	--- END OF BLOCK #20 ---
+
+	FLOW; TARGET BLOCK #21
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #21 168-175, warpins: 2 ---
 	slot13 = setAnchoredPosition
 	slot14 = slot0.guiderTF
 	slot15 = Vector2
@@ -1701,7 +1766,7 @@ function slot7(slot0, slot1)
 	slot13(slot14, slot15(slot16, slot17))
 
 	return
-	--- END OF BLOCK #20 ---
+	--- END OF BLOCK #21 ---
 
 
 
@@ -3098,21 +3163,88 @@ function slot7(slot0, slot1, slot2)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #2 43-45, warpins: 2 ---
-	slot7 = slot0.cloneTarget
+	--- BLOCK #2 43-50, warpins: 2 ---
+	slot7 = Vector3
+	slot8 = 0
+	slot9 = 0
+	slot10 = 0
+	slot7 = slot7(slot8, slot9, slot10)
+	slot8 = slot2.fingerPos
 
-	if slot7 then
+	if slot8 then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 46-51, warpins: 1 ---
-		slot7 = slot0.fingerTF
-		slot8 = slot7
-		slot7 = slot7.SetParent
-		slot9 = slot0.cloneTarget
-		slot10 = false
+		--- BLOCK #0 51-55, warpins: 1 ---
+		slot8 = Vector3
+		slot9 = slot2.fingerPos
+		slot9 = slot9.rotateX
 
-		slot7(slot8, slot9, slot10)
+		if not slot9 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 56-56, warpins: 1 ---
+			slot9 = 0
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+
 		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 57-60, warpins: 2 ---
+		slot10 = slot2.fingerPos
+		slot10 = slot10.rotateY
+
+		if not slot10 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 61-61, warpins: 1 ---
+			slot10 = 0
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 62-65, warpins: 2 ---
+		slot11 = slot2.fingerPos
+		slot11 = slot11.rotateZ
+
+		if not slot11 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 66-66, warpins: 1 ---
+			slot11 = 0
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+
+		--- END OF BLOCK #2 ---
+
+		FLOW; TARGET BLOCK #3
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #3 67-68, warpins: 2 ---
+		slot8 = slot8(slot9, slot10, slot11)
+		slot7 = slot8
+		--- END OF BLOCK #3 ---
 
 
 
@@ -3125,15 +3257,45 @@ function slot7(slot0, slot1, slot2)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #3 52-56, warpins: 2 ---
-	slot7 = setAnchoredPosition
-	slot8 = slot0.fingerTF
-	slot9 = slot6
+	--- BLOCK #3 69-71, warpins: 2 ---
+	slot8 = slot0.cloneTarget
 
-	slot7(slot8, slot9)
+	if slot8 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 72-77, warpins: 1 ---
+		slot8 = slot0.fingerTF
+		slot9 = slot8
+		slot8 = slot8.SetParent
+		slot10 = slot0.cloneTarget
+		slot11 = false
+
+		slot8(slot9, slot10, slot11)
+		--- END OF BLOCK #0 ---
+
+
+
+	end
+
+	--- END OF BLOCK #3 ---
+
+	FLOW; TARGET BLOCK #4
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #4 78-84, warpins: 2 ---
+	slot8 = setAnchoredPosition
+	slot9 = slot0.fingerTF
+	slot10 = slot6
+
+	slot8(slot9, slot10)
+
+	slot8 = slot0.fingerTF
+	slot8.localEulerAngles = slot7
 
 	return
-	--- END OF BLOCK #3 ---
+	--- END OF BLOCK #4 ---
 
 
 

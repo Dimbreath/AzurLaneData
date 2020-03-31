@@ -7261,6 +7261,116 @@ pg.item_data_statistics = {
 		},
 		index = {}
 	},
+	[30318] = {
+		display = "可以获得一件随机的白鹰风格外观装备",
+		rarity = 4,
+		type = 11,
+		name = "外观装备箱(白鹰)",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 0,
+		replace_item = 0,
+		link_id = 0,
+		id = 30318,
+		icon = "Props/appearanceboxbaiying",
+		display_icon = {
+			{
+				9,
+				240,
+				1
+			},
+			{
+				9,
+				241,
+				1
+			},
+			{
+				9,
+				242,
+				1
+			},
+			{
+				9,
+				243,
+				1
+			},
+			{
+				9,
+				244,
+				1
+			},
+			{
+				9,
+				245,
+				1
+			},
+			{
+				9,
+				246,
+				1
+			},
+			{
+				9,
+				247,
+				1
+			},
+			{
+				9,
+				248,
+				1
+			},
+			{
+				9,
+				249,
+				1
+			},
+			{
+				9,
+				250,
+				1
+			},
+			{
+				9,
+				251,
+				1
+			},
+			{
+				9,
+				252,
+				1
+			},
+			{
+				9,
+				253,
+				1
+			},
+			{
+				9,
+				254,
+				1
+			},
+			{
+				9,
+				255,
+				1
+			},
+			{
+				9,
+				256,
+				1
+			},
+			{
+				9,
+				257,
+				1
+			}
+		},
+		price = {
+			1,
+			7000
+		},
+		index = {}
+	},
 	[40004] = {
 		display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
 		rarity = 4,
@@ -83457,6 +83567,150 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[60030] = {
+		display = "「황금의 보물」 이벤트 아이템",
+		rarity = 4,
+		type = 0,
+		name = "단서「M」",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20433,
+		id = 60030,
+		icon = "Props/zuantou",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60031] = {
+		display = "「황금의 보물」 이벤트 아이템",
+		rarity = 4,
+		type = 0,
+		name = "단서「E」",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20433,
+		id = 60031,
+		icon = "Props/zuantou",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60032] = {
+		display = "「황금의 보물」 이벤트 아이템",
+		rarity = 4,
+		type = 0,
+		name = "단서「G」",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20433,
+		id = 60032,
+		icon = "Props/zuantou",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60033] = {
+		display = "「황금의 보물」 이벤트 아이템",
+		rarity = 4,
+		type = 0,
+		name = "단서「A」",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20433,
+		id = 60033,
+		icon = "Props/zuantou",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60034] = {
+		display = "「황금의 보물」 이벤트 아이템",
+		rarity = 4,
+		type = 0,
+		name = "단서「B」",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20433,
+		id = 60034,
+		icon = "Props/zuantou",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60035] = {
+		display = "「황금의 보물」 이벤트 아이템",
+		rarity = 4,
+		type = 0,
+		name = "단서「U」",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20433,
+		id = 60035,
+		icon = "Props/zuantou",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60036] = {
+		display = "「황금의 보물」 이벤트 아이템",
+		rarity = 4,
+		type = 0,
+		name = "단서「R」",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20433,
+		id = 60036,
+		icon = "Props/zuantou",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60037] = {
+		display = "「황금의 보물」 이벤트 아이템",
+		rarity = 4,
+		type = 0,
+		name = "단서「I」",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20433,
+		id = 60037,
+		icon = "Props/zuantou",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[60038] = {
+		display = "「황금의 보물」 이벤트 아이템",
+		rarity = 4,
+		type = 0,
+		name = "단서「N」",
+		shop_id = -1,
+		shiptrans_id = 0,
+		virtual_type = 1,
+		replace_item = 0,
+		link_id = 20433,
+		id = 60038,
+		icon = "Props/zuantou",
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[69901] = {
 		display = "랜덤으로 '신년 테마' 스킨을 하나 획득한다냥! (만약 이미 보유 중인 스킨이 나오는 경우엔, 자동으로 상응하는 가격의 다이아로 변환된다냥)",
 		rarity = 4,
@@ -84832,6 +85086,7 @@ pg.item_data_statistics = {
 		30315,
 		30316,
 		30317,
+		30318,
 		40004,
 		40005,
 		40006,
@@ -86641,6 +86896,15 @@ pg.item_data_statistics = {
 		60011,
 		60012,
 		60021,
+		60030,
+		60031,
+		60032,
+		60033,
+		60034,
+		60035,
+		60036,
+		60037,
+		60038,
 		69901,
 		69902,
 		69903,

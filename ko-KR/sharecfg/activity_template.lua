@@ -14199,6 +14199,88 @@ pg.activity_template = {
 			"clutter/activity_bg_erzhounian"
 		}
 	},
+	[20432] = {
+		mark = 20200331,
+		title_res_tag = "",
+		type = 23,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 20432,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					4,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[20433] = {
+		mark = 20200331,
+		title_res_tag = "",
+		type = 21,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 65,
+		bg = "",
+		id = 20433,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					4,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			{},
+			"HUANGJINDEMIBAO1",
+			guideName = "HJDMB001"
+		}
+	},
 	[25000] = {
 		mark = 20188020,
 		title_res_tag = "",
@@ -15165,6 +15247,8 @@ pg.activity_template = {
 		20419,
 		20420,
 		20421,
+		20432,
+		20433,
 		25000,
 		25001,
 		25002,

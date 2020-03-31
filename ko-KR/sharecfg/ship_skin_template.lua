@@ -117,6 +117,110 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[100001] = {
+		name = "범용형 강화 장비(업무용)",
+		bullet_skin_main = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "푸링? 나 새로운 장비를 얻은 것 같은데, 푸링? 이러면 푸링도 싸울 수 있겠어, 푸링!",
+		bullet_skin_secondary = "",
+		ship_group = 10000,
+		painting = "gin_2",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		isSwimsuit = 0,
+		skin_type = 4,
+		id = 100001,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "gin_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 72,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.129,
+					1.027,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.001,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.129,
+					1.063,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.461,
+							2.161,
+							-0.15
+						}
+					}
+				}
+			}
+		}
+	},
 	[100010] = {
 		name = "시제형 부린 MKⅡ",
 		bullet_skin_main = "",
@@ -8231,6 +8335,110 @@ pg.ship_skin_template = {
 						{
 							-0.627,
 							2.291,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[102059] = {
+		name = "海伦娜改",
+		bullet_skin_main = "",
+		group_index = 9,
+		illustrator2 = -1,
+		desc = "海伦娜改",
+		bullet_skin_secondary = "",
+		ship_group = 10205,
+		painting = "hailunna_g",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		isSwimsuit = 0,
+		skin_type = 2,
+		id = 102059,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "hailunna_g",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 34,
+		air_bomb_skin = "",
+		illustrator = 7,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.262,
+					1.072,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.32,
+					1.085,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.275,
+					1.091,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.53,
+							2.289,
 							0
 						}
 					}
@@ -17192,6 +17400,118 @@ pg.ship_skin_template = {
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
 		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.46,
+					0.49,
+					0
+				}
+			},
+			plane = {
+				{
+					0.46,
+					0.49,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							0.509,
+							0.442,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.416,
+							0.493,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[106012] = {
+		name = "长岛啦啦队",
+		bullet_skin_main = "",
+		group_index = 2,
+		illustrator2 = -1,
+		desc = "长岛啦啦队",
+		bullet_skin_secondary = "",
+		ship_group = 10601,
+		painting = "changdao_3",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		isSwimsuit = 0,
+		skin_type = 0,
+		id = 106012,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "changdao_3",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70338,
+		voice_actor = 45,
+		air_bomb_skin = "",
+		illustrator = 13,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
 		live2d_offset = {
 			0,
 			0,
@@ -81936,7 +82256,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = -1,
+		voice_actor = 228,
 		air_bomb_skin = "",
 		illustrator = 1,
 		rarity_bg = "",
@@ -82047,7 +82367,7 @@ pg.ship_skin_template = {
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 70324,
-		voice_actor = -1,
+		voice_actor = 228,
 		air_bomb_skin = "",
 		illustrator = 1,
 		rarity_bg = "",
@@ -96774,37 +97094,37 @@ pg.ship_skin_template = {
 			}
 		}
 	},
-	[900228] = {
-		name = "？？？",
+	[900235] = {
+		name = "泛用型布里",
 		bullet_skin_main = "",
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "蓝腮鱼",
+		desc = "泛用型布里，可以用于精锐以下所有角色的突破",
 		bullet_skin_secondary = "",
-		ship_group = 900228,
-		painting = "lansaiyu",
+		ship_group = 900235,
+		painting = "gin",
 		painting_hx = "",
 		air_bullet_skin = "",
 		bg_sp = "",
 		shop_type_id = 0,
-		hand_id = 0,
+		hand_id = 5,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bgm = "",
 		bg = "",
 		isSwimsuit = 0,
 		skin_type = -1,
-		id = 900228,
+		id = 900235,
 		voice_actor_2 = -1,
 		air_torpedo_skin = "",
-		prefab = "lansaiyu",
+		prefab = "gin",
 		l2d_se = "",
 		aircraft_skin = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = 31,
+		voice_actor = 72,
 		air_bomb_skin = "",
-		illustrator = 8,
+		illustrator = 1,
 		rarity_bg = "",
 		isHX = 0,
 		l2d_para_range = "",
@@ -96840,17 +97160,24 @@ pg.ship_skin_template = {
 			}
 		},
 		bound_bone = {
-			antiaircraft = {
+			cannon = {
 				{
-					-0.34,
-					0.39,
+					0.35,
+					0.67,
 					0
 				}
 			},
-			plane = {
+			torpedo = {
 				{
-					-0.37,
-					0.39,
+					0.13,
+					0.25,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.35,
+					0.67,
 					0
 				}
 			}
@@ -96862,9 +97189,9 @@ pg.ship_skin_template = {
 					{
 						"smoke",
 						{
-							-0.967,
-							0.38,
-							0
+							-0.09,
+							0.59,
+							-0.15
 						}
 					}
 				}
@@ -96875,9 +97202,9 @@ pg.ship_skin_template = {
 					{
 						"smoke",
 						{
-							-0.14,
-							0.832,
-							0
+							-0.83,
+							2.24,
+							-0.59
 						}
 					}
 				}
@@ -106631,8 +106958,8 @@ pg.ship_skin_template = {
 		[900094] = {
 			900094
 		},
-		[900228] = {
-			900228
+		[900235] = {
+			900235
 		},
 		[900227] = {
 			900227
@@ -108071,6 +108398,7 @@ pg.ship_skin_template = {
 		[10601] = {
 			106010,
 			106011,
+			106012,
 			106019
 		},
 		[10520] = {
@@ -108246,7 +108574,8 @@ pg.ship_skin_template = {
 		[10205] = {
 			102050,
 			102051,
-			102052
+			102052,
+			102059
 		},
 		[10204] = {
 			102040
@@ -108395,11 +108724,13 @@ pg.ship_skin_template = {
 			100010
 		},
 		[10000] = {
-			100000
+			100000,
+			100001
 		}
 	},
 	all = {
 		100000,
+		100001,
 		100010,
 		101020,
 		101021,
@@ -108473,6 +108804,7 @@ pg.ship_skin_template = {
 		102050,
 		102051,
 		102052,
+		102059,
 		102060,
 		102070,
 		102080,
@@ -108553,6 +108885,7 @@ pg.ship_skin_template = {
 		105200,
 		106010,
 		106011,
+		106012,
 		106019,
 		106020,
 		106029,
@@ -109262,7 +109595,7 @@ pg.ship_skin_template = {
 		900225,
 		900226,
 		900227,
-		900228,
+		900235,
 		900094,
 		900095,
 		900096,

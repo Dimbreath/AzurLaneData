@@ -378,6 +378,10 @@ function slot0.onBuyDone(slot0, slot1)
 	end) then
 		slot0:updateBuyBtn(slot2)
 		slot0:updatePrice(slot2)
+		slot0:removeShopTimer()
+		slot0:addShopTimer({
+			goodsVO = slot2
+		})
 	end
 end
 

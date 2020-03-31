@@ -7621,7 +7621,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "activity_switch_award_pool_failed"
 	},
 	shop_street_activity_tip = {
-		tip = "·이벤트 기간(<color=#A1E400FF>2020.03.05-2020.03.18</COLOR>)에는 갱신 시마다\n반드시 <color=#A1E400FF>장비 스킨 상자</COLOR>가 출현합니다.",
+		tip = "·이벤트 기간(<color=#A1E400FF>2020.04.02-2020.04.15</COLOR>)에는 갱신 시마다\n반드시 <color=#A1E400FF>장비 스킨 상자</COLOR>가 출현합니다.",
 		key = "shop_street_activity_tip"
 	},
 	twitter_link_title = {
@@ -12194,6 +12194,70 @@ TIPS:
 		tip = "[우라나미의 귀여운 <기괴> 생물 도감 No.7]\n레인보우 롱캣: 잘 때 무지개색 침을 흘리는 고양이. 이상한 자세로 잠을 잔다.",
 		key = "special_animal7"
 	},
+	bulin_help = {
+		key = "bulin_help",
+		tip = {
+			{
+				info = [[
+이벤트 설명:
+1. 이벤트 기간 동안, 특정 화면 또는 스테이즈에서 비밀 번호를 
+수집할 수 있습니다.
+2. 비밀 번호 수집이 어렵다면, 비밀 번호 슬롯을 터치해 힌트를 
+해제할 수 있습니다.
+주의: 힌트는 20분마다 한 번만 해제 가능.
+3. 비밀 번호를 수집 완료하면 특별 스테이지를 해제할 수 있으며, 
+특별 스테이지에 도전해 승리 시 특별 보상을 획득합니다.]]
+			}
+		}
+	},
+	bulin_tip1 = {
+		tip = "출격이다냥! 목표는 1-2다냥!",
+		key = "bulin_tip1"
+	},
+	bulin_tip2 = {
+		tip = "모아둔 아이템은 잘 정리해야해냥!",
+		key = "bulin_tip2"
+	},
+	bulin_tip3 = {
+		tip = "출격이다냥! 목표는 2-2다냥!",
+		key = "bulin_tip3"
+	},
+	bulin_tip4 = {
+		tip = "냥? 도크로 이동해서 확인해야 할까냥?",
+		key = "bulin_tip4"
+	},
+	bulin_tip5 = {
+		tip = "출격이다냥! 목표는 1-4다냥!",
+		key = "bulin_tip5"
+	},
+	bulin_tip6 = {
+		tip = "항상 식량 보충하는 것을 기억해야해냥!",
+		key = "bulin_tip6"
+	},
+	bulin_tip7 = {
+		tip = "출격이다냥! 목표는 2-4다냥!",
+		key = "bulin_tip7"
+	},
+	bulin_tip8 = {
+		tip = "벚꽃이 흩날리는 스쿨에서 확인해봐냥!",
+		key = "bulin_tip8"
+	},
+	bulin_tip9 = {
+		tip = "할 거 없으면 자주 찾아와서 물건 좀 사달라냥!",
+		key = "bulin_tip9"
+	},
+	bulin_tip_other1 = {
+		tip = "힌트를 해제하시겠습니까? 힌트는 20분마다 한 번만 해제 가능합니다.",
+		key = "bulin_tip_other1"
+	},
+	bulin_tip_other2 = {
+		tip = "힌트 해제 사용 대기 중",
+		key = "bulin_tip_other2"
+	},
+	bulin_tip_other3 = {
+		tip = "퇴각하시겠습니까? 퇴각하면 보상을 획득할 수 없습니다.",
+		key = "bulin_tip_other3"
+	},
 	monopoly_left_count = {
 		tip = "잔여 횟수:",
 		key = "monopoly_left_count"
@@ -12498,9 +12562,33 @@ TIPS:
 			}
 		}
 	},
+	retire_selectzero = {
+		tip = "没找到符合条件的舰船",
+		key = "retire_selectzero"
+	},
 	undermist_tip = {
 		tip = "현재 임무 완성. 내일 해제되니 기다려주세요. ",
 		key = "undermist_tip"
+	},
+	retire_1 = {
+		tip = "한 척이라도 잠금 상태인 동명의 함선만 선택",
+		key = "retire_1"
+	},
+	retire_2 = {
+		tip = "한 척이라도 풀강화 상태인 동명의 함선만 선택",
+		key = "retire_2"
+	},
+	retire_3 = {
+		tip = "LV.1 함선만 선택",
+		key = "retire_3"
+	},
+	retire_rarity = {
+		tip = "우선 순위 $1 선택",
+		key = "retire_rarity"
+	},
+	retire_title = {
+		tip = "일괄 퇴역 설정",
+		key = "retire_title"
 	}
 }
 

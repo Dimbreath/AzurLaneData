@@ -895,6 +895,34 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "Sakura Nakamura",
 		code = 224
+	},
+	{
+		actor_name = "Ai Fairouz",
+		code = 225
+	},
+	{
+		actor_name = "Ikumi Hasegawa",
+		code = 226
+	},
+	{
+		actor_name = "Yukina Shuto",
+		code = 227
+	},
+	{
+		actor_name = "Yuuko Hara",
+		code = 228
+	},
+	{
+		actor_name = "Miho Okasaki",
+		code = 229
+	},
+	{
+		actor_name = "Takeda Rarisa Tago ",
+		code = 230
+	},
+	{
+		actor_name = "川崎芽衣子",
+		code = 231
 	}
 }
 

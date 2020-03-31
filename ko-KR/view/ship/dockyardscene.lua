@@ -309,6 +309,17 @@ function slot0.init(slot0)
 	slot0.listEmptyTxt = slot0:findTF("Text", slot0.listEmptyTF)
 
 	setText(slot0.listEmptyTxt, i18n("list_empty_tip_dockyardui"))
+
+	if slot0.contextData.mode == slot0.MODE_DESTROY then
+		slot0.blacklist = {}
+		slot0.selectPanel:GetComponent("HorizontalLayoutGroup").padding.right = 50
+
+		setActive(slot0.selectPanel:Find("quick_select"), true)
+	else
+		slot0.selectPanel:GetComponent("HorizontalLayoutGroup").padding.right = 250
+
+		setActive(slot0.selectPanel:Find("quick_select"), false)
+	end
 end
 
 function slot0.setShipsCount(slot0, slot1)
@@ -661,7 +672,6 @@ function slot0.initIndex(slot0)
 			slot0.indexTFAll3 = slot0:findTF("all", slot0.indexs3)
 
 			setText(findTF(slot0.indexTFAll3, "Image"), i18n(slot2[slot4]))
-			slot0.indexTFAll3:GetComponent("Image"):SetNativeSize()
 			onButton(slot0, slot0.indexTFAll3, function ()
 				for slot3, slot4 in pairs(slot0.indexTFs3) do
 					triggerToggle(slot4, false)
@@ -1090,11 +1100,6 @@ function slot0.didEnter(slot0)
 	setActive(go(slot0.shipContainer).transform:Find("ships"), true)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel)
 	setActive(slot0:findTF("stamp", slot0.topPanel), getProxy(TaskProxy):mingshiTouchFlagEnabled())
-
-	if LOCK_CLICK_MINGSHI then
-		setActive(slot0:findTF("stamp", slot0.topPanel), false)
-	end
-
 	onButton(slot0, slot0:findTF("stamp", slot0.topPanel), function ()
 		getProxy(TaskProxy):dealMingshiTouchFlag(1)
 	end, SFX_CONFIRM)
@@ -1213,6 +1218,101 @@ function slot0.didEnter(slot0)
 			return
 		end
 	end, SFX_CONFIRM)
+	onButton(slot0, findTF(slot0.selectPanel, "quick_select"), function ()
+		if slot0.animating then
+			return
+		end
+
+		slot1 = {}
+
+		for slot5, slot6 in pairs(slot0) do
+			if slot6:GetLockState() == Ship.LOCK_STATE_LOCK then
+				slot1[slot6:getGroupId()] = true
+			end
+		end
+
+		if not _.all(_.select(slot0.shipVOs, function (slot0)
+			return slot0.configId ~= 100001 and slot0.configId ~= 100011 and slot0:GetLockState() == Ship.LOCK_STATE_UNLOCK and slot0.level == 1 and slot0:getRarity() < 5 and slot0[slot0:getGroupId()] and not table.contains(slot1.selectedIds, slot0.id) and not slot0.inFleet and not slot0.inChapter and not slot0.inWorld and not slot0.inEvent and not slot0.inBackyard and not slot0.inClass and not slot0.inTactics and not slot0.inExercise and not slot0.inAdmiral and not slot0.inSham and not slot0.inElite and not slot0.inActivity
+		end), function (slot0)
+			return slot0.blacklist[slot0:getGroupId()]
+		end) then
+			slot2 = _.select(slot2, function (slot0)
+				return not slot0.blacklist[slot0:getGroupId()]
+			end)
+		elseif #slot0.selectedIds > 0 then
+			slot2 = {}
+		end
+
+		slot3 = {
+			nil,
+			1,
+			3,
+			2
+		}
+
+		table.sort(slot2, function (slot0, slot1)
+			if slot0[slot0:getRarity()] == slot0[slot1:getRarity()] then
+				if slot0:getGroupId() == slot1:getGroupId() then
+					return slot1.createTime < slot0.createTime
+				end
+
+				return slot1.configId < slot0.configId
+			else
+				return slot3 < slot2
+			end
+		end)
+
+		slot4 = 0
+		slot5 = false
+		slot6 = false
+
+		for slot10 = 1, slot0.selectedMax - #slot0.selectedIds, 1 do
+			if slot2[slot10] then
+				slot11 = 0
+				slot12 = 0
+
+				for slot16, slot17 in ipairs(slot0.selectedIds) do
+					slot19, slot20 = slot0.shipVOsById[slot17].calReturnRes(slot18)
+					slot11 = slot11 + slot19
+					slot12 = slot12 + slot20
+				end
+
+				slot13, slot14 = slot2[slot10]:calReturnRes()
+				slot5 = slot0.player:OilMax(slot12)
+
+				if slot0.player:GoldMax(slot11 + slot13) then
+					break
+				end
+
+				slot4 = slot4 + 1
+
+				slot0:selectShip(slot2[slot10], true)
+			end
+		end
+
+		if slot4 == 0 then
+			if slot6 then
+				if #slot0.selectedIds == 0 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_retire"))
+				else
+					pg.TipsMgr.GetInstance():ShowTips(i18n("retire_overgold"))
+				end
+			elseif #slot0.selectedIds > 0 then
+				slot0:displayDestroyPanel()
+			else
+				pg.TipsMgr.GetInstance():ShowTips(i18n("retire_selectzero"))
+			end
+		elseif slot5 then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("oil_max_tip_title") .. i18n("resource_max_tip_retire_1"),
+				onYes = function ()
+					slot0:displayDestroyPanel()
+				end
+			})
+		else
+			slot0:displayDestroyPanel()
+		end
+	end, SFX_CONFIRM)
 	slot0:filter()
 	slot0:updateBarInfo()
 
@@ -1264,6 +1364,8 @@ function slot0.didEnter(slot0)
 		table.insert(slot0.selectedIds, slot0.contextData.selectShipId)
 		slot0:updateSelected()
 	end
+
+	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, 60033)
 end
 
 function slot0.OnSwitch(slot0, slot1, slot2, slot3)
@@ -1362,8 +1464,8 @@ function slot0.checkDestroyGold(slot0, slot1)
 	return true, not slot4
 end
 
-function slot0.selectShip(slot0, slot1)
-	function slot2()
+function slot0.selectShip(slot0, slot1, slot2)
+	function slot3()
 		slot1 = nil
 
 		for slot5, slot6 in ipairs(slot0.selectedIds) do
@@ -1378,7 +1480,7 @@ function slot0.selectShip(slot0, slot1)
 		return slot0, slot1
 	end
 
-	function slot3()
+	function slot4()
 		slot0, slot1 = slot0()
 
 		if not slot0 then
@@ -1437,13 +1539,13 @@ function slot0.selectShip(slot0, slot1)
 	end
 
 	if slot0.mode == slot0.MODE_DESTROY then
-		slot4, slot5 = slot0:checkDestroyGold(slot1)
+		slot5, slot6 = slot0:checkDestroyGold(slot1)
 
-		if not slot4 then
+		if not slot5 then
 			return
 		end
 
-		if not slot5 and not slot2() then
+		if not slot6 and not slot3() and not slot2 then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("oil_max_tip_title") .. i18n("resource_max_tip_retire_1"),
 				onYes = function ()
@@ -1455,7 +1557,7 @@ function slot0.selectShip(slot0, slot1)
 		end
 	end
 
-	slot3()
+	slot4()
 end
 
 function slot0.updateBlackBlocks(slot0, slot1)
@@ -1691,6 +1793,12 @@ function slot0.willExit(slot0)
 		slot1:SetDockYardLockBtnFlag(slot0.isFilterLockForMod)
 		slot1:SetDockYardLevelBtnFlag(slot0.isFilterLevelForMod)
 	end
+
+	if slot0.bulinTip then
+		slot0.bulinTip:Destroy()
+
+		slot0.bulinTip = nil
+	end
 end
 
 function slot0.animationOut(slot0)
@@ -1839,6 +1947,9 @@ function slot0.initDestoryShips(slot0)
 						slot1:clear()
 						setActive(slot1.go, false)
 						table.remove(slot0.selectedIds, slot3)
+
+						slot0.blacklist[slot1.shipVO:getGroupId()] = true
+
 						slot0:updateDestroyRes(true)
 						slot0:updateDestroyRes()
 						slot0:updateSelected()

@@ -20756,6 +20756,146 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[15500] = {
+		name = "PBY-5A卡特琳娜水上机",
+		type = 10,
+		id = 15500,
+		tech = 0,
+		speciality = "无",
+		range = 0,
+		scatter = "无",
+		ambush_extra = 1000,
+		value_2 = 10,
+		icon = "15500",
+		value_1 = "14",
+		attribute_2 = "antisub",
+		avoid_extra = 1000,
+		rarity = 4,
+		angle = 0,
+		nationality = 1,
+		ammo = "无",
+		is_siren = 0,
+		descrip = "在反潜警戒、人员救援中有着出色表现的多用途飞机",
+		value_3 = 0,
+		attribute_1 = "hit",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6530
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {
+			avoid_extra = 1000,
+			ambush_extra = 1000
+		},
+		label = {
+			"USS",
+			"DEV"
+		}
+	},
+	[15501] = {
+		value_2 = 12,
+		value_1 = "16",
+		base = 15500,
+		is_siren = 0,
+		id = 15501,
+		torpedo_ammo = 0,
+		weapon_id = {},
+		property_rate = {}
+	},
+	[15502] = {
+		value_2 = 14,
+		value_1 = "18",
+		base = 15500,
+		is_siren = 0,
+		id = 15502,
+		torpedo_ammo = 0,
+		weapon_id = {},
+		property_rate = {}
+	},
+	[15503] = {
+		value_2 = 16,
+		value_1 = "20",
+		base = 15500,
+		is_siren = 0,
+		id = 15503,
+		torpedo_ammo = 0,
+		weapon_id = {},
+		property_rate = {}
+	},
+	[15504] = {
+		value_2 = 18,
+		value_1 = "22",
+		base = 15500,
+		is_siren = 0,
+		id = 15504,
+		torpedo_ammo = 0,
+		weapon_id = {},
+		property_rate = {}
+	},
+	[15505] = {
+		value_2 = 20,
+		value_1 = "24",
+		base = 15500,
+		is_siren = 0,
+		id = 15505,
+		torpedo_ammo = 0,
+		weapon_id = {},
+		property_rate = {}
+	},
+	[15506] = {
+		value_2 = 22,
+		value_1 = "26",
+		base = 15500,
+		is_siren = 0,
+		id = 15506,
+		torpedo_ammo = 0,
+		weapon_id = {},
+		property_rate = {}
+	},
+	[15507] = {
+		value_2 = 24,
+		value_1 = "28",
+		base = 15500,
+		is_siren = 0,
+		id = 15507,
+		torpedo_ammo = 0,
+		weapon_id = {},
+		property_rate = {}
+	},
+	[15508] = {
+		value_2 = 26,
+		value_1 = "30",
+		base = 15500,
+		is_siren = 0,
+		id = 15508,
+		torpedo_ammo = 0,
+		weapon_id = {},
+		property_rate = {}
+	},
+	[15509] = {
+		value_2 = 28,
+		value_1 = "32",
+		base = 15500,
+		is_siren = 0,
+		id = 15509,
+		torpedo_ammo = 0,
+		weapon_id = {},
+		property_rate = {}
+	},
+	[15510] = {
+		value_2 = 30,
+		value_1 = "35",
+		base = 15500,
+		is_siren = 0,
+		id = 15510,
+		torpedo_ammo = 0,
+		weapon_id = {},
+		property_rate = {}
+	},
 	[16000] = {
 		name = "20mm 엘리콘 기관포",
 		type = 6,
@@ -24978,6 +25118,156 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		weapon_id = {
 			18150
+		},
+		property_rate = {}
+	},
+	[18180] = {
+		name = "TBM复仇者(VT-18中队)",
+		type = 8,
+		id = 18180,
+		tech = 0,
+		speciality = "雷击",
+		range = 90,
+		scatter = "无",
+		ambush_extra = 0,
+		value_2 = 45,
+		icon = "18180",
+		value_1 = "127 x 3",
+		attribute_2 = "air",
+		avoid_extra = 0,
+		rarity = 5,
+		angle = 90,
+		nationality = 1,
+		ammo = "通常",
+		is_siren = 0,
+		descrip = "曾经服役于无畏号航空母舰的鱼雷机中队",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			18180
+		},
+		skill_id = {
+			6540
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"TB"
+		}
+	},
+	[18181] = {
+		value_1 = "148 x 3",
+		id = 18181,
+		base = 18180,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			18181
+		},
+		property_rate = {}
+	},
+	[18182] = {
+		value_1 = "169 x 3",
+		id = 18182,
+		base = 18180,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			18182
+		},
+		property_rate = {}
+	},
+	[18183] = {
+		value_1 = "190 x 3",
+		id = 18183,
+		base = 18180,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			18183
+		},
+		property_rate = {}
+	},
+	[18184] = {
+		value_1 = "211 x 3",
+		id = 18184,
+		base = 18180,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			18184
+		},
+		property_rate = {}
+	},
+	[18185] = {
+		value_1 = "232 x 3",
+		id = 18185,
+		base = 18180,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			18185
+		},
+		property_rate = {}
+	},
+	[18186] = {
+		value_1 = "253 x 3",
+		id = 18186,
+		base = 18180,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			18186
+		},
+		property_rate = {}
+	},
+	[18187] = {
+		value_1 = "274 x 3",
+		id = 18187,
+		base = 18180,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			18187
+		},
+		property_rate = {}
+	},
+	[18188] = {
+		value_1 = "295 x 3",
+		id = 18188,
+		base = 18180,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			18188
+		},
+		property_rate = {}
+	},
+	[18189] = {
+		value_1 = "316 x 3",
+		id = 18189,
+		base = 18180,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			18189
+		},
+		property_rate = {}
+	},
+	[18190] = {
+		value_1 = "337 x 3",
+		id = 18190,
+		base = 18180,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			18190
 		},
 		property_rate = {}
 	},
@@ -34622,7 +34912,7 @@ pg.equip_data_statistics = {
 		nationality = 2,
 		ammo = "통상탄",
 		is_siren = 0,
-		descrip = "0",
+		descrip = "로열 해군 최후의 프로펠러 전투기. 전투 중 양호한 활약으로 널리 호평을 받았다. ",
 		value_3 = 0,
 		attribute_1 = "damage",
 		torpedo_ammo = 0,
@@ -59890,6 +60180,60 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[60491] = {
+		name = "航空攻击展示-卡萨布兰卡I",
+		type = 99,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		ammo = "无",
+		descrip = "航母空袭展示用",
+		value_3 = 0,
+		id = 60491,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			60491
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[60492] = {
+		id = 60492,
+		name = "航空攻击展示-卡萨布兰卡II",
+		base = 60491,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			60492
+		},
+		property_rate = {}
+	},
+	[60493] = {
+		id = 60493,
+		name = "航空攻击展示-卡萨布兰卡III",
+		base = 60491,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			60493
+		},
+		property_rate = {}
+	},
 	[61007] = {
 		name = "0",
 		type = 1,
@@ -60680,6 +61024,49 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		weapon_id = {
 			70072
+		},
+		property_rate = {}
+	},
+	[70081] = {
+		name = "全弹发射-艾伦·萨姆那级I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		ammo = "无",
+		descrip = "技能弹幕",
+		value_3 = 0,
+		id = 70081,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			70081
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[70082] = {
+		id = 70082,
+		name = "全弹发射-艾伦·萨姆那级II",
+		base = 70081,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			70082
 		},
 		property_rate = {}
 	},
@@ -66358,6 +66745,49 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		weapon_id = {
 			79512
+		},
+		property_rate = {}
+	},
+	[79521] = {
+		name = "专属弹幕-里诺I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		avoid_extra = 0,
+		rarity = 1,
+		is_siren = 0,
+		scatter = "0",
+		ammo = "无",
+		descrip = "技能弹幕",
+		value_3 = 0,
+		id = 79521,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			79521
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[79522] = {
+		id = 79522,
+		name = "专属弹幕-里诺II",
+		base = 79521,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			79522
 		},
 		property_rate = {}
 	},
@@ -73945,6 +74375,82 @@ pg.equip_data_statistics = {
 		equip_parameters = {},
 		label = {}
 	},
+	[630011] = {
+		name = "【愚人节活动】紫布里武器",
+		type = 2,
+		nationality = 1,
+		speciality = "锁定",
+		range = 60,
+		angle = 120,
+		tech = 3,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "12100",
+		value_1 = "0",
+		avoid_extra = 0,
+		rarity = 4,
+		is_siren = 0,
+		scatter = "42°",
+		ammo = "高爆弹",
+		descrip = "说明未填写",
+		value_3 = 0,
+		id = 630011,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		weapon_id = {
+			630011
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {}
+	},
+	[630012] = {
+		name = "【愚人节活动】紫布里武器",
+		type = 2,
+		nationality = 1,
+		speciality = "锁定",
+		range = 60,
+		angle = 120,
+		tech = 3,
+		ambush_extra = 0,
+		value_2 = 0,
+		icon = "12100",
+		value_1 = "0",
+		avoid_extra = 0,
+		rarity = 4,
+		is_siren = 0,
+		scatter = "42°",
+		ammo = "高爆弹",
+		descrip = "说明未填写",
+		value_3 = 0,
+		id = 630012,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		weapon_id = {
+			630012
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {}
+	},
 	[800000] = {
 		id = 800000,
 		name = "【三笠剧情】驱逐武器",
@@ -75558,6 +76064,17 @@ pg.equip_data_statistics = {
 		15148,
 		15149,
 		15150,
+		15500,
+		15501,
+		15502,
+		15503,
+		15504,
+		15505,
+		15506,
+		15507,
+		15508,
+		15509,
+		15510,
 		16000,
 		16001,
 		16002,
@@ -75837,6 +76354,17 @@ pg.equip_data_statistics = {
 		18148,
 		18149,
 		18150,
+		18180,
+		18181,
+		18182,
+		18183,
+		18184,
+		18185,
+		18186,
+		18187,
+		18188,
+		18189,
+		18190,
 		19000,
 		19001,
 		19002,
@@ -78147,6 +78675,9 @@ pg.equip_data_statistics = {
 		60471,
 		60472,
 		60473,
+		60491,
+		60492,
+		60493,
 		61007,
 		61008,
 		61009,
@@ -78179,6 +78710,8 @@ pg.equip_data_statistics = {
 		70062,
 		70071,
 		70072,
+		70081,
+		70082,
 		70111,
 		70112,
 		70121,
@@ -78443,6 +78976,8 @@ pg.equip_data_statistics = {
 		79502,
 		79511,
 		79512,
+		79521,
+		79522,
 		85000,
 		85001,
 		85002,
@@ -78964,6 +79499,8 @@ pg.equip_data_statistics = {
 		594017,
 		594018,
 		594019,
+		630011,
+		630012,
 		800000,
 		800001,
 		800002,

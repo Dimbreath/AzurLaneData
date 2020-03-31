@@ -3,9 +3,7 @@ slot0 = class("OutPostPtPage", import(".MaoziPtPage"))
 function slot0.OnInit(slot0)
 	slot0.super.OnInit(slot0)
 
-	slot0.getBtn = slot0:findTF("AD/switcher/phase2/get_btn")
-
-	print(slot0.getBtn)
+	slot0.getBtn1 = slot0:findTF("AD/switcher/phase2/get_btn")
 end
 
 function slot0.OnFirstFlush(slot0)
@@ -37,6 +35,14 @@ function slot0.OnFirstFlush(slot0)
 			})
 		end
 	end, SFX_PANEL)
+	onButton(slot0, slot0.getBtn1, function ()
+		triggerButton(slot0.getBtn)
+	end, SFX_PANEL)
+end
+
+function slot0.OnUpdateFlush(slot0)
+	slot0.super.OnUpdateFlush(slot0)
+	setActive(slot0.getBtn1, slot0.ptData:CanGetAward())
 end
 
 function slot0.GetActTask(slot0)

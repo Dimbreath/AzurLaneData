@@ -445,9 +445,9 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 32,
 		nation = 1,
 		ships = {
-			10801,
 			10802,
-			10803
+			10803,
+			10801
 		}
 	},
 	[11201] = {
