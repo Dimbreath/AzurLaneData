@@ -769,1083 +769,1083 @@ pg.gameset_language_client = {
 		key = "ins_reply_36_2_1"
 	},
 	ins_38 = {
-		value = "#假期棒球赛#漂亮的全垒打！",
+		value = "#VacationLeagues# Home Run!!",
 		key = "ins_38"
 	},
 	ins_discuss_38_1 = {
-		value = "咻咻~不愧是大姐头！",
+		value = "Woohoo! Way to go, Cleve!",
 		key = "ins_discuss_38_1"
 	},
 	ins_reply_38_1_1 = {
-		value = "嘿嘿~全力挥棒的感觉还是很舒服的！",
+		value = "Hehe~! Nothing beats the feeling of a clean hit on the sweet spot!",
 		key = "ins_reply_38_1_1"
 	},
 	ins_discuss_38_2 = {
-		value = "驰骋于战场的大姐头…！",
+		value = "Cleve conquers every battlefield she steps onto!",
 		key = "ins_discuss_38_2"
 	},
 	ins_reply_38_2_1 = {
-		value = "不不…只是球场而已啦球场！",
+		value = "Hold up, it's just fun and games here!",
 		key = "ins_reply_38_2_1"
 	},
 	ins_discuss_38_3 = {
-		value = "不过…那个球最后是飞到哪里去了呢？",
+		value = "How far did that ball end up flying?",
 		key = "ins_discuss_38_3"
 	},
 	ins_reply_38_3_1 = {
-		value = "啊…！糟了！难道说…！？",
+		value = "Ah, crap... Now that I think about it...",
 		key = "ins_reply_38_3_1"
 	},
 	ins_op_38_1_1 = {
-		value = "棒球好像很有趣呢",
+		value = "Baseball is pretty neat, isn't it?",
 		key = "ins_op_38_1_1"
 	},
 	ins_op_38_1_2 = {
-		value = "哦哦…王牌打击手！",
+		value = "Ooh! Nice hit!",
 		key = "ins_op_38_1_2"
 	},
 	op_reply_38_1_1 = {
-		value = "嘿嘿，下次指挥官也一起来参加呗？",
+		value = "Hehe. Commander, wanna come with next time?",
 		key = "op_reply_38_1_1"
 	},
 	op_reply_38_1_2 = {
-		value = "哈哈，偶尔运气好而已啦~偶尔~",
+		value = "Haha! I just got lucky! Beginner's luck, y'know!",
 		key = "op_reply_38_1_2"
 	},
 	ins_39 = {
-		value = "#历史性的瞬间#前辈啊啊啊…!（噗",
+		value = "#SenpaiMakesHistory# ayyy lmao",
 		key = "ins_39"
 	},
 	ins_discuss_39_1 = {
-		value = "{namecode:95}、{namecode:95}姐…这个是不是有点…",
+		value = "Sis... isn't that a bit rude...?",
 		key = "ins_discuss_39_1"
 	},
 	ins_reply_39_1_1 = {
-		value = "究竟是谁竟敢偷袭前辈？！一定不能放过！（噗…",
+		value = "who dares impugn senpai's repulation?! i won't forgive them lmfao",
 		key = "ins_reply_39_1_1"
 	},
 	ins_discuss_39_2 = {
-		value = "呵…呵呵…看来港区需要来点“用力”的“扫除”才行了啊，呵呵呵呵呵……",
+		value = "Heh... seems like the new year brought in some filth that simply must be cleaned up... ahahahaha...",
 		key = "ins_discuss_39_2"
 	},
 	ins_reply_39_2_1 = {
-		value = "姐、姐姐！？凶手就让我去找，你休息一下，还是让{namecode:98}来看一下吧…？",
+		value = "Akagi, calm down! I'll look for the culprit...! Or we can let Akashi handle this...",
 		key = "ins_reply_39_2_1"
 	},
 	ins_discuss_39_3 = {
-		value = "啊！？抱歉抱歉！是我的…我我现在就过去当面道歉！！",
+		value = "I'm so sorry! It was my fault! I'm heading over to apologize in person right now!",
 		key = "ins_discuss_39_3"
 	},
 	ins_reply_39_3_1 = {
-		value = "*发言已删除",
+		value = "(This comment has been deleted.)",
 		key = "ins_reply_39_3_1"
 	},
 	ins_reply_39_3_2 = {
-		value = "对哦，今天好像白鹰那边在搞棒球比赛…",
+		value = "Oh right, you guys were having a baseball game today...",
 		key = "ins_reply_39_3_2"
 	},
 	ins_reply_39_3_3 = {
-		value = "……",
+		value = "...",
 		key = "ins_reply_39_3_3"
 	},
 	ins_reply_39_3_4 = {
-		value = "真、真的是对不起了！！",
+		value = "I'm really, really sorry!",
 		key = "ins_reply_39_3_4"
 	},
 	ins_op_39_1_1 = {
-		value = "没事吧！？",
+		value = "Is everything okay here?",
 		key = "ins_op_39_1_1"
 	},
 	op_reply_39_1_1 = {
-		value = "啊啊啊啊…指挥官是在担心{namecode:91}吗~？有指挥官的关心，{namecode:91}的心早就痊愈了~",
+		value = "Oh my, were you worried about me, Commander? I'm feeling so much better now because of your thoughtfulness <3",
 		key = "op_reply_39_1_1"
 	},
 	ins_40 = {
-		value = "#采购#惯例的口粮补充时间",
+		value = "#FoodDiary A day in the life ",
 		key = "ins_40"
 	},
 	ins_discuss_40_1 = {
-		value = "企业姐还是老样子呢，对伙食不在意到一定程度反而变成了奇怪的坚持的感觉…",
+		value = "Enterprise's usual lack of concern for food has warped into something different altogether...",
 		key = "ins_discuss_40_1"
 	},
 	ins_reply_40_1_1 = {
-		value = "食物只要能补充能量，填饱肚子，就够了。尤其是忙的时候",
+		value = "As long as it fills the belly, it's good enough for me.",
 		key = "ins_reply_40_1_1"
 	},
 	ins_discuss_40_2 = {
-		value = "军用口粮吗…难道这就是前辈强大的秘诀之一！？",
+		value = "Rations...?! Is this the secret behind your strength...?!",
 		key = "ins_discuss_40_2"
 	},
 	ins_reply_40_2_1 = {
-		value = "…只是单纯这样比较方便而已。成天这么吃自然是不行的",
+		value = "...Uh, they're just easier to eat.",
 		key = "ins_reply_40_2_1"
 	},
 	ins_reply_40_2_2 = {
-		value = "我懂！",
+		value = "^ +1",
 		key = "ins_reply_40_2_2"
 	},
 	ins_discuss_40_3 = {
-		value = "真是的，成天买这样的口粮，当心又被人误解哦",
+		value = "Good grief, you should know better than to neglect your health like this... But by the looks of things...",
 		key = "ins_discuss_40_3"
 	},
 	ins_reply_40_3_1 = {
-		value = "唔，这么说好像也是…",
+		value = "Huh...?",
 		key = "ins_reply_40_3_1"
 	},
 	ins_reply_40_3_2 = {
-		value = "你看，照片的远处~",
+		value = "Look who's in the background~",
 		key = "ins_reply_40_3_2"
 	},
 	ins_reply_40_3_3 = {
-		value = "贝尔法斯特？",
+		value = "Oh...",
 		key = "ins_reply_40_3_3"
 	},
 	ins_op_40_1_1 = {
-		value = "要不要给你做一顿好的？",
+		value = "Should I whip up something tasty for you? ",
 		key = "ins_op_40_1_1"
 	},
 	ins_op_40_1_2 = {
-		value = "好吃吗…？",
+		value = "Does that even taste good...? ",
 		key = "ins_op_40_1_2"
 	},
 	op_reply_40_1_1 = {
-		value = "指挥官还是把精力放在港区的工作上比较好",
+		value = "Thanks for the offer, but your time would probably be better spent managing the port. ",
 		key = "op_reply_40_1_1"
 	},
 	op_reply_40_1_2 = {
-		value = "无所谓好不好吃，只要能吃饱就行了",
+		value = "I don't really care if it's tasty or not. As long as it fills the belly. ",
 		key = "op_reply_40_1_2"
 	},
 	op_reply_40_1_3 = {
-		value = "明明每次指挥官给你做的时候都那么期待呢～",
+		value = "Really? You're always looking forward to Commander's cooking though~",
 		key = "op_reply_40_1_3"
 	},
 	op_reply_40_1_4 = {
-		value = "……只是最近做的还没吃完而已…",
+		value = "...I still have leftovers from last time",
 		key = "op_reply_40_1_4"
 	},
 	op_reply_40_1_5 = {
-		value = "企业？女灶神不是都教你做饭了嘛…",
+		value = "Enty, Vestal went through all that trouble to teach you...",
 		key = "op_reply_40_1_5"
 	},
 	op_reply_40_1_6 = {
-		value = "我也不是不做饭啦，之前不是还帮指挥官做了吃的了么",
+		value = "It's not like I refuse to cook. Didn't I whip something up at Commander's request last time?",
 		key = "op_reply_40_1_6"
 	},
 	ins_41 = {
-		value = "#女仆的营养学#用餐时合理的膳食纤维摄入，是保持身体健康的诀窍之一~",
+		value = "#MaidNutritionTips# Proper fiber intake is a crucial component of a healthy diet. ",
 		key = "ins_41"
 	},
 	ins_discuss_41_1 = {
-		value = "呣…虽然不讨厌吃蔬菜，不过还是军用口粮更方便……",
+		value = "I have nothing against rabbit food, but MREs are just so much more convenient...",
 		key = "ins_discuss_41_1"
 	},
 	ins_reply_41_1_1 = {
-		value = "您想把那样的东西称作“进餐”吗，企业大人？",
+		value = "Surely you did not mistake that pile of... stuff there as a proper meal, Miss Enteprise.",
 		key = "ins_reply_41_1_1"
 	},
 	ins_reply_41_1_2 = {
-		value = "好好好……这个菜谱是谁想的？",
+		value = "Fine... But who came up with this \"meal\" anyway?",
 		key = "ins_reply_41_1_2"
 	},
 	ins_reply_41_1_3 = {
-		value = "是内华达大人给我的哦。“不要挑食”——她是这么说的",
+		value = "Miss Nevada gave me this recipe. Her instructions were: \"Who cares if she likes it or not, just make her get it down.\"",
 		key = "ins_reply_41_1_3"
 	},
 	ins_reply_41_1_4 = {
-		value = "…那家伙有点太担心别人了",
+		value = "Where are my rights...",
 		key = "ins_reply_41_1_4"
 	},
 	ins_discuss_41_2 = {
-		value = "真好啊~贝法~也给姐姐做点吃的嘛，蛋糕什么的~",
+		value = "Bellll~ I want to make something for you too~ How about cake~?",
 		key = "ins_discuss_41_2"
 	},
 	ins_reply_41_2_1 = {
-		value = "过多的糖分摄入对身体也是没什么好处的哦，姐姐",
+		value = "#MaidNutritionTips Excess sugar is bad for health. Keep consumption of candy and cake to a minimum.",
 		key = "ins_reply_41_2_1"
 	},
 	ins_reply_41_2_2 = {
-		value = "欸~在这里也要这么讲究的吗！？",
+		value = "Ehh? Why are you sending those here?!",
 		key = "ins_reply_41_2_2"
 	},
 	ins_discuss_41_3 = {
-		value = "话说，为什么是贝尔法斯特在喂企业姐？",
+		value = "btw, why is Belfast cooking for you?",
 		key = "ins_discuss_41_3"
 	},
 	ins_reply_41_3_1 = {
-		value = "“如果我做的话，可能厨房冒烟的时候企业酱就知道我要来了，麻烦你看好她哦”—女灶神是这么说的",
+		value = "Vestal informed me that Miss Enterprise would bolt as soon as she noticed smoke coming from the kitchen, and thus entrusted the responsibility to me.",
 		key = "ins_reply_41_3_1"
 	},
 	ins_reply_41_3_2 = {
-		value = "为什么做个沙拉都能冒烟啊！？",
+		value = "How do you burn salad?!",
 		key = "ins_reply_41_3_2"
 	},
 	ins_reply_41_3_3 = {
-		value = "抱歉，我也不是很明白…",
+		value = "How do you think I feel...",
 		key = "ins_reply_41_3_3"
 	},
 	ins_op_41_1_1 = {
-		value = "女、女仆还要研究营养学的吗！？",
+		value = "I see the Royal Maids even study nutrition... ",
 		key = "ins_op_41_1_1"
 	},
 	ins_op_41_1_2 = {
-		value = "肉呢？",
+		value = "What about meat? ",
 		key = "ins_op_41_1_2"
 	},
 	op_reply_41_1_1 = {
-		value = "保证诸位的身体健康也是女仆的职责哦",
+		value = "Ensuring everyone's health and well-being is also a part of a maid's duties. ",
 		key = "op_reply_41_1_1"
 	},
 	op_reply_41_1_2 = {
-		value = "重要的是合理的荤素搭配哦",
+		value = "Miss Enterprise is accustomed to consuming rations, which are densely packed with protein and carbohydrates. We will have to correct this imbalance for now. ",
 		key = "op_reply_41_1_2"
 	},
 	op_reply_41_1_3 = {
-		value = "就算是女灶神拜托你的，也没必要这样押着我吃吧…",
+		value = "Since when is force-feeding considered \"ensuring everyone's well-being\"...? ",
 		key = "op_reply_41_1_3"
 	},
 	op_reply_41_1_4 = {
-		value = "有道理，牛排就留到周六好了",
+		value = "She's confiscating my steaks until Saturday. ",
 		key = "op_reply_41_1_4"
 	},
 	ins_42 = {
-		value = "#散步时间#偶尔还是得活动一下身体才行呢，哼哼！",
+		value = "#VacationTime# It's time to walk the dog!",
 		key = "ins_42"
 	},
 	ins_discuss_42_1 = {
-		value = "好像很开心呢，姐姐",
+		value = "You look like you're having a good time.",
 		key = "ins_discuss_42_1"
 	},
 	ins_reply_42_1_1 = {
-		value = "偶尔做点低等动物们会做的行为，也不失为一种不错的调剂吧，哈哈哈！",
+		value = "This is the kind of activity that a lowly animal would do, but my magnanimity knows no bounds! Ahahaha!",
 		key = "ins_reply_42_1_1"
 	},
 	ins_discuss_42_2 = {
-		value = "呼呼…真是可爱呢",
+		value = "Hehe... Deutschland, you're so cute~",
 		key = "ins_discuss_42_2"
 	},
 	ins_reply_42_2_1 = {
-		value = "说什么可爱，无论是德意志大人还是德意志大人的汪汪，都是帅气的顶点！",
+		value = "Spiritual leaders are not supposed to be \"cute.\" You should use that word to praise Spee.",
 		key = "ins_reply_42_2_1"
 	},
 	ins_reply_42_2_2 = {
-		value = "就是这点显得更可爱了啊，呵呵呵",
+		value = "Yes, yes, that's what makes you so cute~",
 		key = "ins_reply_42_2_2"
 	},
 	ins_reply_42_2_3 = {
-		value = "戏弄同僚也要适可而止啊，欧根",
+		value = "Eugen, you shouldn't tease your friends so much.",
 		key = "ins_reply_42_2_3"
 	},
 	ins_reply_42_2_4 = {
-		value = "哎呀？小希佩尔嫉妒了？放心吧，在我眼中，你才是最可爱的~",
+		value = "Oh my, dear sister. Are you jealous? But don't worry, you'll always be cutest in my eyes~",
 		key = "ins_reply_42_2_4"
 	},
 	ins_reply_42_2_5 = {
-		value = "哈、哈啊！？谁嫉妒了啊！！！？",
+		value = "H-haah?! Jealous of what?!",
 		key = "ins_reply_42_2_5"
 	},
 	ins_reply_42_2_6 = {
-		value = "哼，还真是愉快的一对姐妹啊",
+		value = "You two sure get along well...",
 		key = "ins_reply_42_2_6"
 	},
 	ins_op_42_1_1 = {
-		value = "今天天气不错啊",
+		value = "The weather's great today!",
 		key = "ins_op_42_1_1"
 	},
 	ins_op_42_1_2 = {
-		value = "那玩意儿果然是会自己动的吗…",
+		value = "Does that thing move on its own?",
 		key = "ins_op_42_1_2"
 	},
 	op_reply_42_1_1 = {
-		value = "与其说这些蠢话，不如来帮我牵绳！",
+		value = "Lowly animal, stop your blathering and come help me!",
 		key = "op_reply_42_1_1"
 	},
 	op_reply_42_1_2 = {
-		value = "这小家伙精神着呢，你也多学习学习如何，低等动物？哼哼",
+		value = "The little one sure is energetic. Do you want to learn more about these lowly animals? Ahaha!",
 		key = "op_reply_42_1_2"
 	},
 	ins_43 = {
-		value = "#酒后真言#重樱也不容易呢…下次再一起喝酒吧~",
+		value = "#SakeParty# You guys sure have your fair share of problems too in the Sakura Empire. How about we go for a drink together next time?",
 		key = "ins_43"
 	},
 	ins_discuss_43_1 = {
-		value = "唔…这是什么时候拍的…",
+		value = "When did you take this...?!",
 		key = "ins_discuss_43_1"
 	},
 	ins_reply_43_1_1 = {
-		value = "在那天晚上{namecode:92}灌了不知道多少杯啤酒以后，一边嚼着鸡肉串，一边喊着奇怪的牢骚的时候…哈哈哈哈",
+		value = "Did you already forget? You were totally sloshed and complaining like an old man while slamming down those chicken skewers.",
 		key = "ins_reply_43_1_1"
 	},
 	ins_reply_43_1_2 = {
-		value = "…那只是一时的…",
+		value = "I was just having a bad day.",
 		key = "ins_reply_43_1_2"
 	},
 	ins_discuss_43_2 = {
-		value = "{namecode:92}前辈平时那么冷静又游刃有余的样子…其实还是积累了不少压力啊…",
+		value = "Kaga always plays it cool, but there has to be a lot of stressful stuff she deals with...",
 		key = "ins_discuss_43_2"
 	},
 	ins_reply_43_2_1 = {
-		value = "所以说那只是一时的…",
+		value = "Nonsense. I told you, I was just having a bad day.",
 		key = "ins_reply_43_2_1"
 	},
 	ins_discuss_43_3 = {
-		value = "{namecode:92}，有什么烦恼的话，尽管跟我说哦",
+		value = "Kaga, I'm always there for you if you have anything on your mind.",
 		key = "ins_discuss_43_3"
 	},
 	ins_reply_43_3_1 = {
-		value = "姐、姐姐…",
+		value = "Akagi...",
 		key = "ins_reply_43_3_1"
 	},
 	ins_reply_43_3_2 = {
-		value = "{namecode:92}前辈的烦恼之源，说不定其实就是{namecode:91}前辈吧？噗~",
+		value = "maybe ur the reason she's so stressed lmao",
 		key = "ins_reply_43_3_2"
 	},
 	ins_reply_43_3_3 = {
-		value = "姐、姐姐…我觉得大概不只是那样吧…",
+		value = "Shoukaku... I don't think that's the case...",
 		key = "ins_reply_43_3_3"
 	},
 	ins_op_43_1_1 = {
-		value = "酒会啊…真不错",
+		value = "A sake party? Now that's a good idea!",
 		key = "ins_op_43_1_1"
 	},
 	ins_op_43_1_2 = {
-		value = "{namecode:92}…有什么烦恼吗？",
+		value = "Kaga, is something bothering you...?",
 		key = "ins_op_43_1_2"
 	},
 	op_reply_43_1_1 = {
-		value = "指挥官也一起来吗？我会好好聆听你的烦恼的，哈哈",
+		value = "Commander, you're here too? I'd be glad to listen to your troubles as well, hehe~",
 		key = "op_reply_43_1_1"
 	},
 	op_reply_43_1_2 = {
-		value = "没有，只是一时的…情绪释放而已",
+		value = "Nah I'm fine... Just needed to blow off some steam.",
 		key = "op_reply_43_1_2"
 	},
 	ins_44 = {
-		value = "嘻嘻，糖果糖果，要乖乖哦，长大后结出好多好多的糖果~",
+		value = "(Created with voice input) Ehehe candies candies when I grow up I want to make a lot of candies",
 		key = "ins_44"
 	},
 	ins_discuss_44_1 = {
-		value = "欸！？真的能结果吗！？",
+		value = "(Created with voice input) Will it really get bigger",
 		key = "ins_discuss_44_1"
 	},
 	ins_reply_44_1_1 = {
-		value = "{namecode:33}也不确定，试试看吧！",
+		value = "(Created with voice input) No clue",
 		key = "ins_reply_44_1_1"
 	},
 	ins_reply_44_1_2 = {
-		value = "加、加油，{namecode:33}酱！",
+		value = "(Created with voice input) Do your best mute ski chant",
 		key = "ins_reply_44_1_2"
 	},
 	ins_reply_44_1_3 = {
-		value = "嗯！",
+		value = "(Created with voice input) Yeah",
 		key = "ins_reply_44_1_3"
 	},
 	ins_discuss_44_2 = {
-		value = "啊哈哈…心诚则灵，有那颗勇于尝试的心才是最重要的啊~",
+		value = "Ahaha! If you maie a wish from the bottom od your heart it'll surely come true!",
 		key = "ins_discuss_44_2"
 	},
 	ins_reply_44_2_1 = {
-		value = "虽然没听太懂，不过{namecode:33}会加油的！",
+		value = "(Created with voice input) Really I'll do my best",
 		key = "ins_reply_44_2_1"
 	},
 	ins_op_44_1_1 = {
-		value = "要吃糖吗？我这里还准备了一些",
+		value = "I brought some candy for you this time.",
 		key = "ins_op_44_1_1"
 	},
 	ins_op_44_1_2 = {
-		value = "期待结出果实的一天",
+		value = "I'll be waiting for your candy tree to bear fruit!",
 		key = "ins_op_44_1_2"
 	},
 	op_reply_44_1_1 = {
-		value = "哇啊！谢谢指挥官！",
+		value = "(Created with voice input) Thanks command deer",
 		key = "op_reply_44_1_1"
 	},
 	op_reply_44_1_2 = {
-		value = "嘿嘿~到时候也分给指挥官一颗！",
+		value = "(Created with voice input) You can have some candy when it grows nice and big",
 		key = "op_reply_44_1_2"
 	},
 	ins_45 = {
-		value = "新买的特制平底锅爆炸啦！",
+		value = "my new frying pan freaking exploded (ﾉ °益°)ﾉ 彡 ┻━┻",
 		key = "ins_45"
 	},
 	ins_discuss_45_1 = {
-		value = "呼喵！？不、不可能，一定是使用方法不对喵！",
+		value = "Nya?! Impossible! You must have been using it wrong, nya!",
 		key = "ins_discuss_45_1"
 	},
 	ins_reply_45_1_1 = {
-		value = "原来是{namecode:98}的新产品吗…",
+		value = "Is that one of your new products, Akashi?",
 		key = "ins_reply_45_1_1"
 	},
 	ins_reply_45_1_2 = {
-		value = "“特制·自热平底锅”什么的…想说尝试一下，没想到…orz",
+		value = "it's that new \"prototype self-heating frying pan\" thinger. I wanted to give it a try, but...",
 		key = "ins_reply_45_1_2"
 	},
 	ins_reply_45_1_3 = {
-		value = "一、一定是有什么误会喵，等{namecode:98}去调查一下喵…！",
+		value = "I'm sure it's some sort of misunderstanding, nya! I'll come take a look right meow!",
 		key = "ins_reply_45_1_3"
 	},
 	ins_discuss_45_2 = {
-		value = "「料理就是爆炸！」……？",
+		value = "To cook is to explode...?",
 		key = "ins_discuss_45_2"
 	},
 	ins_reply_45_2_1 = {
-		value = "才不要爆炸啦！",
+		value = "i'd rather not explode. also, did she just say right meow?",
 		key = "ins_reply_45_2_1"
 	},
 	ins_discuss_45_3 = {
-		value = "荷包蛋…走好…（远目",
+		value = "Good night, sweet fried eggs; And flights of angels sing thee to thy rest.",
 		key = "ins_discuss_45_3"
 	},
 	ins_reply_45_3_1 = {
-		value = "呜…",
+		value = "T^T",
 		key = "ins_reply_45_3_1"
 	},
 	ins_op_45_1_1 = {
-		value = "人、人没事吧？！",
+		value = "Did anyone get hurt?!",
 		key = "ins_op_45_1_1"
 	},
 	ins_op_45_1_2 = {
-		value = "荷包蛋…还能吃吗？",
+		value = "This thing's not edible anymore, right...",
 		key = "ins_op_45_1_2"
 	},
 	op_reply_45_1_1 = {
-		value = "呜…虽然吓了一跳，不过没什么事…",
+		value = "Mm... I was scared for a second, but looks like things are fine...",
 		key = "op_reply_45_1_1"
 	},
 	op_reply_45_1_2 = {
-		value = "虽、虽然有点焦，不过…指挥官要试试吗？后果自负哦…！",
+		value = "it's a bit burnt around the edges... but it's still good! commander, want to try?! =≡Σ((( つ•̀ω•́)つ",
 		key = "op_reply_45_1_2"
 	},
 	ins_46 = {
-		value = "现行犯捕获",
+		value = "We caught her red-handed.",
 		key = "ins_46"
 	},
 	ins_discuss_46_1 = {
-		value = "所、所以说是误会啊！！我只是受人委托帮忙拍照而已啊！",
+		value = "You've got it all wrong! She asked me to take her picture, that's all!",
 		key = "ins_discuss_46_1"
 	},
 	ins_reply_46_1_1 = {
-		value = "你的表情出卖了你…",
+		value = "Then explain that look on your face!",
 		key = "ins_reply_46_1_1"
 	},
 	ins_reply_46_1_2 = {
-		value = "我只对驱逐妹妹发…咳咳，发乎情止乎礼啊…！",
+		value = "My niche only includes destroyers, nothing more! I just happened to look at another photo whilst taking that one!",
 		key = "ins_reply_46_1_2"
 	},
 	ins_discuss_46_2 = {
-		value = "啊…确实是委托了皇家方舟给女仆队的孩子们拍照…",
+		value = "It is indeed correct that a Royal Maid asked Ark Royal to take a picture of them.",
 		key = "ins_discuss_46_2"
 	},
 	ins_reply_46_2_1 = {
-		value = "是、是这样么…",
+		value = "Really, huh...",
 		key = "ins_reply_46_2_1"
 	},
 	ins_reply_46_2_2 = {
-		value = "呜…我、我只是有点紧张…",
+		value = "My apologies. I was a little nervous back then.",
 		key = "ins_reply_46_2_2"
 	},
 	ins_reply_46_2_3 = {
-		value = "不过皇家方舟这气势确实让人有点…",
+		value = "However, it is natural for misunderstandings to arise when you make an expression like that, Ms. Ark Royal.",
 		key = "ins_reply_46_2_3"
 	},
 	ins_reply_46_2_4 = {
-		value = "啊！怎么连贝尔法斯特都这么说！？",
+		value = "Et tu, Belfast?!",
 		key = "ins_reply_46_2_4"
 	},
 	ins_op_46_1_1 = {
-		value = "皇家方舟…节哀(拍肩",
+		value = "It's been nice knowing you, Ark Royal...",
 		key = "ins_op_46_1_1"
 	},
 	ins_op_46_1_2 = {
-		value = "小贝法…没问题吧？",
+		value = "Is Bel okay?",
 		key = "ins_op_46_1_2"
 	},
 	op_reply_46_1_1 = {
-		value = "我明明…只是想好好帮忙拍个照而已…OTL",
+		value = "I was just trying to take a nice picture...",
 		key = "op_reply_46_1_1"
 	},
 	op_reply_46_1_2 = {
-		value = "没、没事了…只是一时太紧张了…",
+		value = "I am fine! I just felt a little nervous...",
 		key = "op_reply_46_1_2"
 	},
 	ins_47 = {
-		value = "呼呼…照顾后辈是身为前辈应该做的事情~",
+		value = "Good friends take care of each other when they get sick~",
 		key = "ins_47"
 	},
 	ins_discuss_47_1 = {
-		value = "救、救命…前辈…我真的不需要打针啦！！",
+		value = "u really dont need to! i'm scared of needles! STOP PLS I'M BEGGING U!",
 		key = "ins_discuss_47_1"
 	},
 	ins_reply_47_1_1 = {
-		value = "呵呵呵…不打针怎么能好得快呢~",
+		value = "Don't worry, this little shot will have you feeling much better soon~",
 		key = "ins_reply_47_1_1"
 	},
 	ins_discuss_47_2 = {
-		value = "姐、姐姐…前辈的热情，你就…接受了吧",
+		value = "Just let her do it, she's being nice after all.",
 		key = "ins_discuss_47_2"
 	},
 	ins_reply_47_2_1 = {
-		value = "我已经不知道是生病发冷还是因为前辈而发冷了…",
+		value = "i can't even tell anymore if i'm feeling sick because i'm ill or bcuase of akagi's \"treatment\"",
 		key = "ins_reply_47_2_1"
 	},
 	ins_discuss_47_3 = {
-		value = "没想到姐姐也能像这样照顾后辈了…",
+		value = "Friends like you are in short supply these days, dear sister.",
 		key = "ins_discuss_47_3"
 	},
 	ins_reply_47_3_1 = {
-		value = "{namecode:92}如果生病了，我也会用心照顾你的哦~",
+		value = "Don't worry, you're on the nursing list as well, Kaga. If you fall ill, I'll be there~",
 		key = "ins_reply_47_3_1"
 	},
 	ins_reply_47_3_2 = {
-		value = "姐、姐姐…！",
+		value = "Oh, Akagi...!",
 		key = "ins_reply_47_3_2"
 	},
 	ins_op_47_1_1 = {
-		value = "真是令人感动的画面…！",
+		value = "What an emotion-packed exchange.",
 		key = "ins_op_47_1_1"
 	},
 	ins_op_47_1_2 = {
-		value = "要、要不要喊{namecode:98}或者女灶神去看看…",
+		value = "Shouldn't we ask Akashi or Vestal for help instead?",
 		key = "ins_op_47_1_2"
 	},
 	op_reply_47_1_1 = {
-		value = "呜呜…指挥官…救命……",
+		value = "PLS SAVE ME COMMANDER!!",
 		key = "op_reply_47_1_1"
 	},
 	op_reply_47_1_2 = {
-		value = "请、请务必！！",
+		value = "ANYTHING BUT THIS!!!",
 		key = "op_reply_47_1_2"
 	},
 	ins_48 = {
-		value = "平海的功夫练习",
+		value = "Ping Hai's kung fu challenge",
 		key = "ins_48"
 	},
 	ins_discuss_48_1 = {
-		value = "欸？平海和宁海不是出去海外旅游了吗？",
+		value = "Huh? I thought Ning and Ping were still on vacation?",
 		key = "ins_discuss_48_1"
 	},
 	ins_reply_48_1_1 = {
-		value = "呵呵…这个是之前拍的，觉得挺有意思的，就发出来了",
+		value = "Oh, we took this picture before they went off. I thought it was amusing, so I decided to upload it.",
 		key = "ins_reply_48_1_1"
 	},
 	ins_discuss_48_2 = {
-		value = "啊哈哈，好像很好玩欸！鞍山姐，我们也来玩这种练习吧！",
+		value = "Looks fun! We should give that a try too, An Shan!",
 		key = "ins_discuss_48_2"
 	},
 	ins_reply_48_2_1 = {
-		value = "自己玩去！…不过，逸仙还真是淡定啊…",
+		value = "No, we shouldn't! By the way, Yat Sen, you look really calm in that picture.",
 		key = "ins_reply_48_2_1"
 	},
 	ins_reply_48_2_2 = {
-		value = "呵呵，因为信任平海吧~",
+		value = "I have faith in Ping, which is why.",
 		key = "ins_reply_48_2_2"
 	},
 	ins_discuss_48_3 = {
-		value = "原来那时候拍照了吗…",
+		value = "You took a picture of it? Seriously?",
 		key = "ins_discuss_48_3"
 	},
 	ins_reply_48_3_1 = {
-		value = "海外旅行有趣吗！",
+		value = "How are you enjoying your vacation?",
 		key = "ins_reply_48_3_1"
 	},
 	ins_reply_48_3_2 = {
-		value = "嗯！很好吃！！",
+		value = "I've gotten to eat tons of yummy food!",
 		key = "ins_reply_48_3_2"
 	},
 	ins_reply_48_3_3 = {
-		value = "就知道吃吃吃！我们会给大家带礼物回去的，敬请期待！",
+		value = "Food this, food that! Enough! Anyway, we're off to buy cool souvenirs for everyone!",
 		key = "ins_reply_48_3_3"
 	},
 	ins_op_48_1_1 = {
-		value = "功、功夫…！？",
+		value = "Kung fu?",
 		key = "ins_op_48_1_1"
 	},
 	ins_op_48_1_2 = {
-		value = "突然想喝可乐了…",
+		value = "I'm in the mood for some soda now.",
 		key = "ins_op_48_1_2"
 	},
 	op_reply_48_1_1 = {
-		value = "呵呵，只是平海宁海锻炼身体的方式而已~",
+		value = "Kung fu is a Dragon Empery martial art, and also Ning and Ping's pastime.",
 		key = "op_reply_48_1_1"
 	},
 	op_reply_48_1_2 = {
-		value = "平海也饿了！",
+		value = "And I'm hungry!",
 		key = "op_reply_48_1_2"
 	},
 	op_reply_48_1_3 = {
-		value = "…行行行，我们去吃饭！",
+		value = "Fine, let's go get something to eat then!",
 		key = "op_reply_48_1_3"
 	},
 	ins_49 = {
-		value = "#搞砸了#非、非常抱歉，{namecode:82}大人！！",
+		value = "#PublicApology Lady Mikasa, I am deeply sorry for what happened!",
 		key = "ins_49"
 	},
 	ins_discuss_49_1 = {
-		value = "感觉我的收藏好像很容易遭殃…OTL",
+		value = "Why must nisforyune always strike my poor collectiom...",
 		key = "ins_discuss_49_1"
 	},
 	ins_reply_49_1_1 = {
-		value = "非、非常抱歉！天狼星会想办法修复的！",
+		value = "I am truly, truly sorry! Please, allow me to repair the damage caused!",
 		key = "ins_reply_49_1_1"
 	},
 	ins_reply_49_1_2 = {
-		value = "{namecode:82}前辈的收藏又坏掉了吗？{namecode:33}也来帮忙修理！！",
+		value = "(Created with voice input) Did serious break your collection? I can help repair it",
 		key = "ins_reply_49_1_2"
 	},
 	ins_reply_49_1_3 = {
-		value = "啊哈哈…小{namecode:33}有这个心就很好了。天狼星…也别太放心上了，本来也是我请你们来帮忙打扫的……",
+		value = "Hah thanks for the offer but it's fine. You don't beed to feel sorry either sirius. I'm partly to blame for not rxplaining how to handle my collection itemd properly.",
 		key = "ins_reply_49_1_3"
 	},
 	ins_discuss_49_2 = {
-		value = "非常抱歉，{namecode:82}大人。请放心，您的船模，皇家女仆队一定会为您完美修复的",
+		value = "As a representative of the Royal Maids, I would like to sincerely apologize on Sirius' behalf. We shall take responsibility and repair your model ships.",
 		key = "ins_discuss_49_2"
 	},
 	ins_reply_49_2_1 = {
-		value = "哦、哦哦…这话从女仆队长嘴里说出来就很有说服力呢…那就拜托了！",
+		value = "Getting rhe Royal Maids' help feels very reassuring! I'm counting on ypu!",
 		key = "ins_reply_49_2_1"
 	},
 	ins_op_49_1_1 = {
-		value = "{namecode:82}的博物馆…又遭殃了吗……",
+		value = "Has another tragedy befallen Mikasa's Model Museum?",
 		key = "ins_op_49_1_1"
 	},
 	ins_op_49_1_2 = {
-		value = "我也来帮忙修复吧…？",
+		value = "I'd also like to help out in any way I can.",
 		key = "ins_op_49_1_2"
 	},
 	op_reply_49_1_1 = {
-		value = "OTL…",
+		value = "It seems so :(",
 		key = "op_reply_49_1_1"
 	},
 	op_reply_49_1_2 = {
-		value = "请、请惩罚又搞砸了的天狼星吧！",
+		value = "I've committed such a grave mistake that even my honourable Master must get involved... Please, punish this clumsy maid for her terrible misconduct!",
 		key = "op_reply_49_1_2"
 	},
 	ins_50 = {
-		value = "夏天时的有趣回忆",
+		value = "Summer memories. Good times.",
 		key = "ins_50"
 	},
 	ins_discuss_50_1 = {
-		value = "哼，这时候才把那时的回忆拿出来吗…不得不说，即便是我，在那瞬间也感觉到了一阵寒冬般的凉意啊",
+		value = "You captured a photo of that moment in time? Hmph. Merely looking back at it makes dark chills run up my spine...",
 		key = "ins_discuss_50_1"
 	},
 	ins_reply_50_1_1 = {
-		value = "抱歉，当时有点…太专注于手上的球棒上了",
+		value = "My apologies to all. This item in my hand that I held was guided by carelessness as it propelled.",
 		key = "ins_reply_50_1_1"
 	},
 	ins_discuss_50_2 = {
-		value = "一点小事，像低等动物那般一惊一乍的成何体统！",
+		value = "That's all it takes to frighten you people? Hah! What are you? Lowly animals?",
 		key = "ins_discuss_50_2"
 	},
 	ins_reply_50_2_1 = {
-		value = "姐姐当时也吓了一跳…吧，当Z46的球棒在耳边砸下的时候",
+		value = "Weren't you pretty nervous too when Viersechs swung that thing downwards?",
 		key = "ins_reply_50_2_1"
 	},
 	ins_reply_50_2_2 = {
-		value = "那、那只是配合气氛，堂堂德意志大人怎么可能因为这点小事就慌慌张张！",
+		value = "A-Absolutely not! I was just putting on a show! How would that harmless thing ever frighten ME?!",
 		key = "ins_reply_50_2_2"
 	},
 	ins_discuss_50_3 = {
-		value = "看着那副场景还能不慌不忙的拍下这张照片的欧根才是…哈啊…都有点佩服你了",
+		value = "And while everyone freaks out, Eugen is casually taking a picture of it... I'll admit, you've got nerves of steel.",
 		key = "ins_discuss_50_3"
 	},
 	ins_reply_50_3_1 = {
-		value = "呵呵呵~这么有趣的场景，怎么能错过嘛~可惜没拍下后来德意志的精彩表情…遗憾",
+		value = "How could I NOT immortalize this hilarious scene? It's a real shame I couldn't get a followup picture of Deutschland's reaction.",
 		key = "ins_reply_50_3_1"
 	},
 	ins_op_50_1_1 = {
-		value = "德意志…后来没事吧？",
+		value = "How'd Deutschland get out of that without a scratch?",
 		key = "ins_op_50_1_1"
 	},
 	ins_op_50_1_2 = {
-		value = "欧根…是怎么抓拍到这一刻的？",
+		value = "Eugen, what drove you to take that picture...?",
 		key = "ins_op_50_1_2"
 	},
 	op_reply_50_1_1 = {
-		value = "哼，低等动物就是喜欢一惊一乍的，当然没什么事了！",
+		value = "Easily! I am superior to the lowly animals that surround me!",
 		key = "op_reply_50_1_1"
 	},
 	op_reply_50_1_2 = {
-		value = "呵呵~精彩不容错过呀~",
+		value = "Dunno really. Maybe I have a spidey-sense for taking amusing pictures?",
 		key = "op_reply_50_1_2"
 	},
 	ins_51 = {
-		value = "半夜最大的“惊喜”…",
+		value = "Who went and turned this refrigerator into a miniature recreational space...",
 		key = "ins_51"
 	},
 	ins_discuss_51_1 = {
-		value = "呵呵~偶尔也会想缅怀下故乡的寒冷和烈酒~",
+		value = "Sorry, that would be me. I longed to feel the cool air of my motherland again...",
 		key = "ins_discuss_51_1"
 	},
 	ins_reply_51_1_1 = {
-		value = "那个冰箱是什么时候被改造成了小休息室的…",
+		value = "But how did you go about doing it?",
 		key = "ins_reply_51_1_1"
 	},
 	ins_reply_51_1_2 = {
-		value = "只是简单把冰箱里的酒都解决了，自然就有空间了~",
+		value = "How? I just drank all the vodka stored inside, then went in. What about it?",
 		key = "ins_reply_51_1_2"
 	},
 	ins_discuss_51_2 = {
-		value = "不、不愧是来自北方联合的…",
+		value = "You drank EVERYTHING inside and live to tell the tale?!",
 		key = "ins_discuss_51_2"
 	},
 	ins_discuss_51_3 = {
-		value = "吨吨吨的感觉…拉菲懂…！",
+		value = "I am THIS close to cracking open a cold one right now...",
 		key = "ins_discuss_51_3"
 	},
 	ins_op_51_1_1 = {
-		value = "北方联合…厉害…！",
+		value = "Note to self: never challenge Avrora to a drinking game...",
 		key = "ins_op_51_1_1"
 	},
 	ins_op_51_1_2 = {
-		value = "Z23…辛苦了…",
+		value = "Nice catch, Z23.",
 		key = "ins_op_51_1_2"
 	},
 	op_reply_51_1_1 = {
-		value = "指挥官也要来一瓶伏特加吗，呵呵~",
+		value = "Care for a shot, Commander? The offer is always there for you.",
 		key = "op_reply_51_1_1"
 	},
 	op_reply_51_1_2 = {
-		value = "是、是真的吓了一大跳啊…",
+		value = "I was totally stunned to find it like this...",
 		key = "op_reply_51_1_2"
 	},
 	ins_52 = {
-		value = "久违的忍者特训…是也！",
+		value = "I'm doing ninja training for the first time in a long while!",
 		key = "ins_52"
 	},
 	ins_discuss_52_1 = {
-		value = "哦哦…原来如此，这就是所谓的“excite”吧！",
+		value = "I see! Looks thrilling!",
 		key = "ins_discuss_52_1"
 	},
 	ins_reply_52_1_1 = {
-		value = "没错，正是激动人心的锻炼是也！",
+		value = "It is! Thrilling, stimulating, but also intense!",
 		key = "ins_reply_52_1_1"
 	},
 	ins_discuss_52_2 = {
-		value = "呼呼~像这样在清晨吹吹风的感觉还是挺不错的呢！",
+		value = "Yeah, I hear you. Few things feel as good as going on a jog on a windy morning!",
 		key = "ins_discuss_52_2"
 	},
 	ins_reply_52_2_1 = {
-		value = "感谢{namecode:73}陪伴在下进行特训！",
+		value = "Indeed! Thank you for your guidance, Master Kirishima!",
 		key = "ins_reply_52_2_1"
 	},
 	ins_reply_52_2_2 = {
-		value = "{namecode:11}…没有迷路吧…？",
+		value = "You didn't get lost, did you, Akatsuki?",
 		key = "ins_reply_52_2_2"
 	},
 	ins_reply_52_2_3 = {
-		value = "咳、咳咳…有{namecode:73}在，在下是不会轻易迷路的！",
+		value = "Absolutely not! It will be long before I get lost whilst I have Master Kirishima accompanying me! Well, probably!",
 		key = "ins_reply_52_2_3"
 	},
 	ins_op_52_1_1 = {
-		value = "迷路…啊，有{namecode:73}在应该没关系了吧…",
+		value = "Kirishima would never let anyone in her company get lost.",
 		key = "ins_op_52_1_1"
 	},
 	ins_op_52_1_2 = {
-		value = "哦哦！跑步！运动！好像很畅快！",
+		value = "Seconding Kirishima! Jogging is great!",
 		key = "ins_op_52_1_2"
 	},
 	op_reply_52_1_1 = {
-		value = "就、就算是一个人在下也没那么容易迷路的！大概…",
+		value = "Of course, but it's not like I would DEFINITELY get lost without her! Probably!",
 		key = "op_reply_52_1_1"
 	},
 	op_reply_52_1_2 = {
-		value = "哈哈~指挥官也要一起来运动一番吗~？",
+		value = "You wanna join us next time, Commander?",
 		key = "op_reply_52_1_2"
 	},
 	ins_53 = {
-		value = "#港区P图大赛#誓约戒指火热销售中喵！",
+		value = "#PromotionalMaterial People are loving the new Promise Ring ads, nya!",
 		key = "ins_53"
 	},
 	ins_discuss_53_1 = {
-		value = "竟、竟然能有这么直球的广告…不愧是你…！",
+		value = "Why am I not surprised... It is just like our feline friend here to go for such an unsophisticated sales pitch devoid of subtlety...",
 		key = "ins_discuss_53_1"
 	},
 	ins_reply_53_1_1 = {
-		value = "商店生意变好了，指挥官开心，{namecode:98}也开心喵！大家都会开心的喵！",
+		value = "If it increases sales and everyone's happy with the product, then I'm happy too, nya!",
 		key = "ins_reply_53_1_1"
 	},
 	ins_discuss_53_2 = {
-		value = "促销…不打折？",
+		value = "Are you not offering a discount on them?",
 		key = "ins_discuss_53_2"
 	},
 	ins_reply_53_2_1 = {
-		value = "小、小本生意不好做喵…！",
+		value = "Luxury items come with hefty price tags, nya!",
 		key = "ins_reply_53_2_1"
 	},
 	ins_op_53_1_1 = {
-		value = "P图技术一流…！",
+		value = "Putting those Manjuu to work doing stuff like this, huh...",
 		key = "ins_op_53_1_1"
 	},
 	ins_op_53_1_2 = {
-		value = "不打折啊…",
+		value = "So, no discount?",
 		key = "ins_op_53_1_2"
 	},
 	op_reply_53_1_1 = {
-		value = "这点小事还难不倒{namecode:98}喵！",
+		value = "That's how it goes in this industry, nya!",
 		key = "op_reply_53_1_1"
 	},
 	op_reply_53_1_2 = {
-		value = "这、这是代表指挥官的心意，怎么能轻易打折喵！",
+		value = "Love is too sacred for discounts, nya! Besides, you wouldn't give a CHEAP ring to your sweetheart, would you, nya?",
 		key = "op_reply_53_1_2"
 	},
 	ins_54 = {
-		value = "冬天的露天温泉果然是最棒的❤",
+		value = "Open-air hot springs are the best~♡",
 		key = "ins_54"
 	},
 	ins_discuss_54_1 = {
-		value = "嗯，埃尔德里奇，完全放松…",
+		value = "Mm... Eldridge is melting...",
 		key = "ins_discuss_54_1"
 	},
 	ins_reply_54_1_1 = {
-		value = "甚至让人有种酥酥麻麻的感觉❤",
+		value = "My body's going numb... am I just imagining things?",
 		key = "ins_reply_54_1_1"
 	},
 	ins_discuss_54_2 = {
-		value = "从寒冷的外面一口气跳进热水里~嘿嘿，超刺激！",
+		value = "It's freakin' cold outside! Cannonball!! Ahhhh~ that felt great!",
 		key = "ins_discuss_54_2"
 	},
 	ins_reply_54_2_1 = {
-		value = "…原来那个水花是你搞的吗！？",
+		value = "So you were the one who got my hair wet?!",
 		key = "ins_reply_54_2_1"
 	},
 	ins_op_54_1_1 = {
-		value = "温泉…真好啊",
+		value = "Hot springs... really are nice...",
 		key = "ins_op_54_1_1"
 	},
 	ins_op_54_1_2 = {
-		value = "电、电击…似乎不是一般人能泡的啊…",
+		value = "Eldridge's shocking hot springs... I won't be able to do this without some special training first...!",
 		key = "ins_op_54_1_2"
 	},
 	op_reply_54_1_1 = {
-		value = "指挥官大人要一起泡温泉吗！？{namecode:97}随时等着指挥官大人哦❤",
+		value = "Darling, did you come to bathe with me? Taihou is always waiting for you~♡",
 		key = "op_reply_54_1_1"
 	},
 	op_reply_54_1_2 = {
-		value = "哔哩哔哩…很舒服？",
+		value = "Feels nice... It'll send shivers down your spine... Bzzt...",
 		key = "op_reply_54_1_2"
 	},
 	ins_55 = {
-		value = "新作品…完成！",
+		value = "It's finally finished...!",
 		key = "ins_55"
 	},
 	ins_discuss_55_1 = {
-		value = "比照“后现代”数据库…认可此作品为“艺术”",
+		value = "Querying \"Postmodern Art Database\" for matches... Not recognized as \"Art.\"",
 		key = "ins_discuss_55_1"
 	},
 	ins_reply_55_1_1 = {
-		value = "欸嘿嘿…是独角兽用心做出来的哦",
+		value = "Ehehe... Unicorn poured her heart and soul into sculpting this though~",
 		key = "ins_reply_55_1_1"
 	},
 	ins_discuss_55_2 = {
-		value = "哎呀，做得真好呢~",
+		value = "Oh my, what a wonderful work of art~",
 		key = "ins_discuss_55_2"
 	},
 	ins_reply_55_2_1 = {
-		value = "是独角兽的优酱…！",
+		value = "It's a sculpture of Yuni...!",
 		key = "ins_reply_55_2_1"
 	},
 	ins_reply_55_2_2 = {
-		value = "这、这是优酱吗…？",
+		value = "Really? This is... Yuni?!",
 		key = "ins_reply_55_2_2"
 	},
 	ins_reply_55_2_3 = {
-		value = "嗯…！是优酱哦？不像…吗？",
+		value = "Yes...? You don't see it...?",
 		key = "ins_reply_55_2_3"
 	},
 	ins_op_55_1_1 = {
-		value = "超、超熟练！？",
+		value = "Wow, this looks professional!",
 		key = "ins_op_55_1_1"
 	},
 	ins_op_55_1_2 = {
-		value = "新、新艺术诞生！？",
+		value = "Am I witnessing the birth of a new artform...?!",
 		key = "ins_op_55_1_2"
 	},
 	op_reply_55_1_1 = {
-		value = "欸嘿嘿…谢谢哥哥…",
+		value = "Ehehe... Thank you, big brother!",
 		key = "op_reply_55_1_1"
 	},
 	op_reply_55_1_2 = {
-		value = "欸嘿嘿…只是看着优酱雕刻的而已…",
+		value = "Ehehe... I was just looking at Yuni while I worked~",
 		key = "op_reply_55_1_2"
 	},
 	ins_56 = {
-		value = "为什么指挥喵都这么爱乱窜啊！",
+		value = "Why are the meowfficers being so rowdy?!",
 		key = "ins_56"
 	},
 	ins_discuss_56_1 = {
-		value = "辛苦了喵！帮大忙了喵！",
+		value = "Hang in there, nya! You're doing us a huge favor, nya!",
 		key = "ins_discuss_56_1"
 	},
 	ins_reply_56_1_1 = {
-		value = "哼、哼…看在你们百般恳求的份上，哈曼才勉为其难帮忙的！",
+		value = "Hmph! ...You really looked like you needed the help. That's the only reason I volunteered!",
 		key = "ins_reply_56_1_1"
 	},
 	ins_discuss_56_2 = {
-		value = "呵呵~其实还是很开心的吧，哈曼~？",
+		value = "But you look like you're having fun, Hammann~",
 		key = "ins_discuss_56_2"
 	},
 	ins_reply_56_2_1 = {
-		value = "呣……",
+		value = "Uguu...",
 		key = "ins_reply_56_2_1"
 	},
 	ins_op_56_1_1 = {
-		value = "辛、辛苦了！",
+		value = "You're a lifesaver!",
 		key = "ins_op_56_1_1"
 	},
 	ins_op_56_1_2 = {
-		value = "交到新朋友了呢，太好了",
+		value = "And I'm sure you've made some new friends",
 		key = "ins_op_56_1_2"
 	},
 	op_reply_56_1_1 = {
-		value = "还、还可以吧！",
+		value = "I wouldn't go that far >.>",
 		key = "op_reply_56_1_1"
 	},
 	op_reply_56_1_2 = {
-		value = "哈、哈曼才没有说“好想要交到新朋友”呢！",
+		value = "I didn't ask for any new friends!",
 		key = "op_reply_56_1_2"
 	},
 	ins_57 = {
-		value = "大家的合照！",
+		value = "Got a group photo with everyone!",
 		key = "ins_57"
 	},
 	ins_discuss_57_1 = {
-		value = "呣…果然还是好困",
+		value = "Oh, Laffey fell asleep...",
 		key = "ins_discuss_57_1"
 	},
 	ins_discuss_57_2 = {
-		value = "{namecode:6}…有好好露出笑容…的说？",
+		value = "Ayanami did her best to smile.",
 		key = "ins_discuss_57_2"
 	},
 	ins_discuss_57_3 = {
-		value = "嘿嘿，有好好地喊出“茄子”呢！",
+		value = "Hehe, cheeeese~! Everyone looks so cute~!",
 		key = "ins_discuss_57_3"
 	},
 	ins_discuss_57_4 = {
-		value = "呜…果然还是有点害羞……",
+		value = "That was a little embarrassing...",
 		key = "ins_discuss_57_4"
 	},
 	ins_op_57_1_1 = {
-		value = "远处的…皇家方舟？",
+		value = "Is that... Ark Royal in the corner?",
 		key = "ins_op_57_1_1"
 	},
 	ins_op_57_1_2 = {
-		value = "让人会心一笑的场景呢",
+		value = "You all look like you're having a great time.",
 		key = "ins_op_57_1_2"
 	},
 	op_reply_57_1_1 = {
-		value = "驱逐妹妹们聚在一起的模样…棒！",
+		value = "Cute destroyers having fun together... saved!",
 		key = "op_reply_57_1_1"
 	},
 	op_reply_57_1_2 = {
-		value = "帮、帮大家拍照还是挺不容易的…",
+		value = "That was the hardest group photo of my life though...",
 		key = "op_reply_57_1_2"
 	},
 	ins_58 = {
-		value = "#最近有趣的梦##港区P图大赛#发现{namecode:98}私藏的技能书！",
+		value = "I found Akashi hiding all our training manuals! #CatBurglar #PortxivArtContest",
 		key = "ins_58"
 	},
 	ins_discuss_58_1 = {
-		value = "{namecode:98}、{namecode:98}才没有私藏喵！",
+		value = "Wait, I'm innocent, nya!",
 		key = "ins_discuss_58_1"
 	},
 	ins_reply_58_1_1 = {
-		value = "（盯——）",
+		value = "Doubt",
 		key = "ins_reply_58_1_1"
 	},
 	ins_discuss_58_2 = {
-		value = "真有这么多存货还不赶紧拿出来卖了，是准备留着过春节吗…",
+		value = "You were just getting ready for a big sale, right...",
 		key = "ins_discuss_58_2"
 	},
 	ins_reply_58_2_1 = {
-		value = "所、所以说才没有私藏喵！！",
+		value = "That's right, nya! I have nothing to hide, nya!",
 		key = "ins_reply_58_2_1"
 	},
 	ins_op_58_1_1 = {
-		value = "什么时候开始的大赛！？",
+		value = "#CatBurglar #Apologems",
 		key = "ins_op_58_1_1"
 	},
 	ins_op_58_1_2 = {
-		value = "{namecode:98}囤货？！",
+		value = "Akashi's panic buying now?!",
 		key = "ins_op_58_1_2"
 	},
 	op_reply_58_1_1 = {
-		value = "只、只是觉得这样还挺有趣啦…",
+		value = "I'll need to go buy some now!",
 		key = "op_reply_58_1_1"
 	},
 	op_reply_58_1_2 = {
-		value = "才没有喵！",
+		value = "No! I'm not, nya! They were just on sale!",
 		key = "op_reply_58_1_2"
 	},
 	ins_59 = {
-		value = "#最近有趣的梦##港区P图大赛#新能源get！",
+		value = "Got myself a new power source! #PortxivArtContest",
 		key = "ins_59"
 	},
 	ins_discuss_59_1 = {
-		value = "埃尔德里奇…电量不足…？",
+		value = "Eldridge... powering down...",
 		key = "ins_discuss_59_1"
 	},
 	ins_reply_59_1_1 = {
-		value = "啊哈哈…抱歉抱歉，虽然只是个奇怪的梦…",
+		value = "Ahaha... Sorry 'bout that... ",
 		key = "ins_reply_59_1_1"
 	},
 	ins_discuss_59_2 = {
-		value = "唔…？不过…似乎可以研究下其中的可行性……",
+		value = "Hmm, I think I might be able to make that happen...",
 		key = "ins_discuss_59_2"
 	},
 	ins_reply_59_2_1 = {
-		value = "出、出现了！？疯狂科学家！",
+		value = "Gah! She's here! The mad scientist!",
 		key = "ins_reply_59_2_1"
 	},
 	ins_op_59_1_1 = {
-		value = "需、需要充电？",
+		value = "Eldridge, do you need to recharge?",
 		key = "ins_op_59_1_1"
 	},
 	ins_op_59_1_2 = {
-		value = "做梦都在玩游戏啊…",
+		value = "She's always thinking about games, huh...",
 		key = "ins_op_59_1_2"
 	},
 	op_reply_59_1_1 = {
-		value = "埃尔德里奇不需要充电哦",
+		value = "Not really... it wasn't real anyway...",
 		key = "op_reply_59_1_1"
 	},
 	op_reply_59_1_2 = {
-		value = "嘿嘿~我是一名发自内心的Gamer！",
+		value = "Of course I am! I'm a true gamer, and I'm proud of it!",
 		key = "op_reply_59_1_2"
 	},
 	ins_60 = {
-		value = "#最近有趣的梦##港区P图大赛#与前辈一起出击！",
+		value = "Sortieing with Enterprise! #PortxivArtContest",
 		key = "ins_60"
 	},
 	ins_discuss_60_1 = {
-		value = "…想法挺有创意的",
+		value = "You have quite the vivid imagination.",
 		key = "ins_discuss_60_1"
 	},
 	ins_reply_60_1_1 = {
-		value = "欸？！这算是被前辈夸奖了吗！？",
+		value = "Eh? You liked it?!",
 		key = "ins_reply_60_1_1"
 	},
 	ins_discuss_60_2 = {
-		value = "哈哈哈哈，这个好！新战术诞生！",
+		value = "Ahaha! That's neat! I'd like to give that a try!",
 		key = "ins_discuss_60_2"
 	},
 	ins_reply_60_2_1 = {
-		value = "…",
+		value = "...There's no way that's possible...",
 		key = "ins_reply_60_2_1"
 	},
 	ins_reply_60_2_2 = {
-		value = "开、开开玩笑而已嘛…",
+		value = "Ahaha! It's just make-believe anyway!",
 		key = "ins_reply_60_2_2"
 	},
 	ins_op_60_1_1 = {
-		value = "埃塞克斯还有这样的特技！？",
+		value = "Essex, is there anything you can't do?!",
 		key = "ins_op_60_1_1"
 	},
 	op_reply_60_1_1 = {
-		value = "我、我会努力试看看的！",
+		value = "I... I'll give it my best shot!",
 		key = "op_reply_60_1_1"
 	},
 	op_reply_60_1_2 = {
-		value = "不，这个大概不是努力就能做到的吧…",
+		value = "I don't think this is a matter of giving it your best shot... ",
 		key = "op_reply_60_1_2"
 	}
 }

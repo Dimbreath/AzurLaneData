@@ -11924,6 +11924,68 @@ Please note that you can only receive Stamps through the Manjuu Tower minigame. 
 		tip = "[Uranami's Collection of Cuties - #7] Meunchkus: it secretes a rainbow-colored liquid through its mouth. Accounts from people who'd rather remain anonymous claim \"it also tastes like a rainbow.\"",
 		key = "special_animal7"
 	},
+	bulin_help = {
+		key = "bulin_help",
+		tip = {
+			{
+				info = [[
+Info:
+1: During the event, find and collect clues across various screens and stages.
+2. If you have trouble finding clues, tap the clue box for a hint.
+Note: You may only get one hint every 20 minutes.
+3. Collecting all the clues will unlock a special stage. Complete that stage
+to earn special rewards.]]
+			}
+		}
+	},
+	bulin_tip1 = {
+		tip = "Sortie nya! Target 1-2 nya!",
+		key = "bulin_tip1"
+	},
+	bulin_tip2 = {
+		tip = "Make sure you clean up your item stash nya!",
+		key = "bulin_tip2"
+	},
+	bulin_tip3 = {
+		tip = "Sortie nya! Target 2-2 nya!",
+		key = "bulin_tip3"
+	},
+	bulin_tip4 = {
+		tip = "Nya? Maybe check the dockyard nya?",
+		key = "bulin_tip4"
+	},
+	bulin_tip5 = {
+		tip = "Sortie nya! Target 1-4 nya!",
+		key = "bulin_tip5"
+	},
+	bulin_tip6 = {
+		tip = "Don't forget to feed the kids nya!",
+		key = "bulin_tip6"
+	},
+	bulin_tip7 = {
+		tip = "Sortie nya! Target 2-4 nya!",
+		key = "bulin_tip7"
+	},
+	bulin_tip8 = {
+		tip = "Check out the cherry blossoms in the schoolyard nya!",
+		key = "bulin_tip8"
+	},
+	bulin_tip9 = {
+		tip = "Drop by the store and get some more goodies nya!",
+		key = "bulin_tip9"
+	},
+	bulin_tip_other1 = {
+		tip = "Get a hint? You can only get one every 20 minutes.",
+		key = "bulin_tip_other1"
+	},
+	bulin_tip_other2 = {
+		tip = "Hints are on cooldown.",
+		key = "bulin_tip_other2"
+	},
+	bulin_tip_other3 = {
+		tip = "Quit the stage? You won't get any rewards.",
+		key = "bulin_tip_other3"
+	},
 	monopoly_left_count = {
 		tip = "Dice: ",
 		key = "monopoly_left_count"
@@ -12221,6 +12283,26 @@ Event Rules:
 	undermist_tip = {
 		tip = "No available missions. Please wait until tomorrow to unlock more.",
 		key = "undermist_tip"
+	},
+	retire_1 = {
+		tip = "Priotize ships with a locked copy",
+		key = "retire_1"
+	},
+	retire_2 = {
+		tip = "Prioritize ships with a fully limit broken copy",
+		key = "retire_2"
+	},
+	retire_3 = {
+		tip = "Prioritize Level 1 ships",
+		key = "retire_3"
+	},
+	retire_rarity = {
+		tip = "Prioritize Rarity $1",
+		key = "retire_rarity"
+	},
+	retire_title = {
+		tip = "Quick Retire Options",
+		key = "retire_title"
 	}
 }
 

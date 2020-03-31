@@ -1385,6 +1385,17 @@ pg.memory_group = {
 			1187
 		}
 	},
+	[184] = {
+		title = "The Golden Doubulin ",
+		type = 2,
+		id = 184,
+		icon = "title_event",
+		memories = {
+			1188,
+			1189,
+			1190
+		}
+	},
 	[501] = {
 		title = "{namecode:98}'s Commission",
 		type = 3,
@@ -2122,6 +2133,7 @@ pg.memory_group = {
 		181,
 		182,
 		183,
+		184,
 		501,
 		502,
 		503,

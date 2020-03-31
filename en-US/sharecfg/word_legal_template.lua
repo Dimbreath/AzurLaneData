@@ -1,6 +1,12 @@
 pg = pg or {}
-pg.word_legal_template = {
-	E = {
+pg.word_legal_template = {}
+slot1 = pg.word_legal_template
+slot2 = nil
+
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.E = {
 		S = {
 			S = {
 				E = {
@@ -19,8 +25,12 @@ pg.word_legal_template = {
 				}
 			}
 		}
-	},
-	K = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.K = {
 		ö = {
 			l = {
 				n = {
@@ -28,8 +38,12 @@ pg.word_legal_template = {
 				}
 			}
 		}
-	},
-	M = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.M = {
 		A = {
 			S = {
 				S = {
@@ -80,8 +94,12 @@ pg.word_legal_template = {
 				}
 			}
 		}
-	},
-	T = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.T = {
 		o = {
 			r = {
 				p = {
@@ -95,8 +113,12 @@ pg.word_legal_template = {
 				}
 			}
 		}
-	},
-	e = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.e = {
 		s = {
 			s = {
 				e = {
@@ -106,8 +128,12 @@ pg.word_legal_template = {
 				}
 			}
 		}
-	},
-	m = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.m = {
 		a = {
 			s = {
 				s = {
@@ -133,8 +159,12 @@ pg.word_legal_template = {
 				}
 			}
 		}
-	},
-	サ = {
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.サ = {
 		セ = {
 			ッ = {
 				ク = {
@@ -145,6 +175,6 @@ pg.word_legal_template = {
 			}
 		}
 	}
-}
+end()
 
 return

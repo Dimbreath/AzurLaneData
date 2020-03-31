@@ -1364,6 +1364,8 @@ function slot0.didEnter(slot0)
 		table.insert(slot0.selectedIds, slot0.contextData.selectShipId)
 		slot0:updateSelected()
 	end
+
+	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, 60033)
 end
 
 function slot0.OnSwitch(slot0, slot1, slot2, slot3)
@@ -1790,6 +1792,12 @@ function slot0.willExit(slot0)
 
 		slot1:SetDockYardLockBtnFlag(slot0.isFilterLockForMod)
 		slot1:SetDockYardLevelBtnFlag(slot0.isFilterLevelForMod)
+	end
+
+	if slot0.bulinTip then
+		slot0.bulinTip:Destroy()
+
+		slot0.bulinTip = nil
 	end
 end
 
