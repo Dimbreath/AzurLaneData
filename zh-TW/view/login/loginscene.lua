@@ -5,6 +5,14 @@ function slot0.getUIName(slot0)
 	return "LoginUI2"
 end
 
+function slot0.getBGM(slot0)
+	if slot0.specialPara and slot1[4] and slot1[4] ~= "" then
+		return slot1[4]
+	end
+
+	return slot0.super.getBGM(slot0)
+end
+
 function slot0.preload(slot0, slot1)
 	slot0.iconSpries = {}
 
@@ -21,6 +29,7 @@ function slot0.preload(slot0, slot1)
 end
 
 function slot0.init(slot0)
+	slot0.specialPara = slot0:getSpecialDatePara()
 	slot0.version = slot0:findTF("version")
 	slot0.version:GetComponent("Text").text = "ver " .. UpdateMgr.Inst.currentVersion:ToString()
 	slot0.bgLay = slot0:findTF("bg_lay")
@@ -211,21 +220,34 @@ function slot0.showUserAgreement(slot0, slot1)
 	end)
 end
 
+function slot0.getSpecialDatePara(slot0)
+	slot1 = pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y%m%d")
+
+	for slot5, slot6 in ipairs(SPECIAL_DATE) do
+		if slot6[1] == slot1 then
+			return slot6
+		end
+	end
+
+	return nil
+end
+
 function slot0.setBg(slot0)
 	slot1 = "login"
-	slot2 = pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y%m%d")
 
-	for slot6, slot7 in ipairs(SPECIAL_DATE) do
-		if slot7[1] == slot2 then
-			slot1 = slot7[2]
+	if slot0.specialPara then
+		slot1 = slot2[2]
+
+		if slot2[3] and slot2[3] ~= "" then
+			slot0:setCriBg(slot2[3])
 		end
 	end
 
 	setImageSprite(slot0.bgImg, LoadSprite("loadingbg/" .. slot1))
 end
 
-function slot0.setCriBg(slot0)
-	LoadAndInstantiateAsync("effect", "loginbg", function (slot0)
+function slot0.setCriBg(slot0, slot1)
+	LoadAndInstantiateAsync("effect", slot1 or "loginbg", function (slot0)
 		if slot0 then
 			slot0.transform.SetParent(slot1, slot0.bgImg.transform, false)
 			slot0.transform:SetAsFirstSibling()

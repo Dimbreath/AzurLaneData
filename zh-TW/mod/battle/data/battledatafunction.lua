@@ -453,12 +453,12 @@ ys or .Battle.BattleDataFunction.ConvertBuffTemplate = function ()
 
 end
 
-ys or .Battle.BattleDataFunction.GetBuffBulletRes = function (slot0, slot1, slot2)
+ys or .Battle.BattleDataFunction.GetBuffBulletRes = function (slot0, slot1, slot2, slot3)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-4, warpins: 1 ---
-	slot3 = {}
 	slot4 = {}
+	slot5 = {}
 
 	if not slot1 then
 
@@ -478,7 +478,13 @@ ys or .Battle.BattleDataFunction.GetBuffBulletRes = function (slot0, slot1, slot
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #1 6-14, warpins: 2 ---
+	--- BLOCK #1 6-22, warpins: 2 ---
+	slot6 = slot0:GetPlayerShipModelFromID()
+	slot7 = slot6.buff_list
+
+	slot8(slot6.buff_list)
+	slot8(slot6.hide_buff_list)
+
 	--- END OF BLOCK #1 ---
 
 	FLOW; TARGET BLOCK #2
@@ -486,17 +492,69 @@ ys or .Battle.BattleDataFunction.GetBuffBulletRes = function (slot0, slot1, slot
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #2 15-44, warpins: 0 ---
-	for slot10, slot11 in ipairs(slot6) do
+	--- BLOCK #2 23-37, warpins: 0 ---
+	for slot13, slot14 in ipairs(slot9) do
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 15-18, warpins: 1 ---
-		slot12 = nil
+		--- BLOCK #0 23-30, warpins: 1 ---
+		--- END OF BLOCK #0 ---
 
-		if slot1[slot11] then
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 31-35, warpins: 0 ---
+		for slot19, slot20 in ipairs(slot15) do
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 19-21, warpins: 1 ---
+			--- BLOCK #0 31-33, warpins: 1 ---
+			slot4[#slot4 + 1] = slot20
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 34-35, warpins: 2 ---
+			--- END OF BLOCK #1 ---
+
+
+
+		end
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 36-37, warpins: 2 ---
+		--- END OF BLOCK #2 ---
+
+
+
+	end
+
+	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 38-43, warpins: 1 ---
+	if slot0:GetShipTransformDataTemplate() and slot10.skill_id ~= 0 and pg.transform_data_template[slot10.skill_id].skill_id ~= 0 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 54-62, warpins: 1 ---
+		slot12 = nil
+
+		if slot1[pg.transform_data_template[slot10.skill_id].skill_id] then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 63-65, warpins: 1 ---
 			slot12 = slot1[slot11].level
 			--- END OF BLOCK #0 ---
 
@@ -505,7 +563,7 @@ ys or .Battle.BattleDataFunction.GetBuffBulletRes = function (slot0, slot1, slot
 		else
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 22-22, warpins: 1 ---
+			--- BLOCK #0 66-66, warpins: 1 ---
 			slot12 = 1
 			--- END OF BLOCK #0 ---
 
@@ -520,7 +578,7 @@ ys or .Battle.BattleDataFunction.GetBuffBulletRes = function (slot0, slot1, slot
 
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #1 23-37, warpins: 2 ---
+		--- BLOCK #1 67-77, warpins: 2 ---
 		--- END OF BLOCK #1 ---
 
 		FLOW; TARGET BLOCK #2
@@ -528,12 +586,12 @@ ys or .Battle.BattleDataFunction.GetBuffBulletRes = function (slot0, slot1, slot
 
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #2 38-42, warpins: 0 ---
-		for slot18, slot19 in ipairs(slot14) do
+		--- BLOCK #2 78-82, warpins: 0 ---
+		for slot17, slot18 in ipairs(slot13) do
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 38-40, warpins: 1 ---
-			slot3[#slot3 + 1] = slot19
+			--- BLOCK #0 78-80, warpins: 1 ---
+			slot4[#slot4 + 1] = slot18
 			--- END OF BLOCK #0 ---
 
 			FLOW; TARGET BLOCK #1
@@ -541,7 +599,7 @@ ys or .Battle.BattleDataFunction.GetBuffBulletRes = function (slot0, slot1, slot
 
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #1 41-42, warpins: 2 ---
+			--- BLOCK #1 81-82, warpins: 2 ---
 			--- END OF BLOCK #1 ---
 
 
@@ -549,26 +607,10 @@ ys or .Battle.BattleDataFunction.GetBuffBulletRes = function (slot0, slot1, slot
 		end
 		--- END OF BLOCK #2 ---
 
-		FLOW; TARGET BLOCK #3
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #3 43-44, warpins: 2 ---
-		--- END OF BLOCK #3 ---
-
 
 
 	end
 
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 45-49, warpins: 1 ---
 	--- END OF BLOCK #3 ---
 
 	FLOW; TARGET BLOCK #4
@@ -576,151 +618,25 @@ ys or .Battle.BattleDataFunction.GetBuffBulletRes = function (slot0, slot1, slot
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #4 50-64, warpins: 0 ---
-	for slot11, slot12 in ipairs(slot7) do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 50-57, warpins: 1 ---
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 58-62, warpins: 0 ---
-		for slot17, slot18 in ipairs(slot13) do
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 58-60, warpins: 1 ---
-			slot3[#slot3 + 1] = slot18
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 61-62, warpins: 2 ---
-			--- END OF BLOCK #1 ---
-
-
-
-		end
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 63-64, warpins: 2 ---
-		--- END OF BLOCK #2 ---
-
-
-
-	end
-
+	--- BLOCK #4 83-84, warpins: 4 ---
+	return slot4
 	--- END OF BLOCK #4 ---
-
-	FLOW; TARGET BLOCK #5
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #5 65-70, warpins: 1 ---
-	if slot0:GetShipTransformDataTemplate() and slot8.skill_id ~= 0 and pg.transform_data_template[slot8.skill_id].skill_id ~= 0 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 81-89, warpins: 1 ---
-		slot10 = nil
-
-		if slot1[pg.transform_data_template[slot8.skill_id].skill_id] then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 90-92, warpins: 1 ---
-			slot10 = slot1[slot9].level
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 93-93, warpins: 1 ---
-			slot10 = 1
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 94-103, warpins: 2 ---
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 104-108, warpins: 0 ---
-		for slot15, slot16 in ipairs(slot11) do
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 104-106, warpins: 1 ---
-			slot3[#slot3 + 1] = slot16
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 107-108, warpins: 2 ---
-			--- END OF BLOCK #1 ---
-
-
-
-		end
-		--- END OF BLOCK #2 ---
-
-
-
-	end
-
-	--- END OF BLOCK #5 ---
-
-	FLOW; TARGET BLOCK #6
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #6 109-109, warpins: 4 ---
-	return slot3
-	--- END OF BLOCK #6 ---
 
 
 
 end
 
-ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
+ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2, slot3)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-8, warpins: 1 ---
-	slot3 = {}
+	slot4 = {}
 
 	if slot2[slot0 .. "_" .. slot1] then
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 9-10, warpins: 1 ---
-		return slot3
+		return slot4
 		--- END OF BLOCK #0 ---
 
 
@@ -729,7 +645,7 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 11-12, warpins: 1 ---
-		slot2[slot4] = true
+		slot2[slot5] = true
 		--- END OF BLOCK #0 ---
 
 
@@ -744,12 +660,33 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #1 13-20, warpins: 2 ---
-	if slot0:GetBuffTemplate(slot1).init_effect and slot5.init_effect ~= "" then
+	if slot0:GetBuffTemplate(slot1).init_effect and slot6.init_effect ~= "" then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 24-32, warpins: 1 ---
-		slot3[#slot3 + 1] = slot1.Battle.BattleResourceManager.GetFXPath(slot5.init_effect)
+		--- BLOCK #0 24-27, warpins: 1 ---
+		slot7 = slot6.init_effect
+
+		if slot6.skin_adapt then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 28-33, warpins: 1 ---
+			slot7 = slot0.SkinAdaptFXID(slot7, slot3)
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+
 		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 34-42, warpins: 2 ---
+		slot4[#slot4 + 1] = slot1.Battle.BattleResourceManager.GetFXPath(slot7)
+		--- END OF BLOCK #1 ---
 
 
 
@@ -762,12 +699,12 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #2 33-35, warpins: 3 ---
-	if slot5.last_effect and slot5.last_effect ~= "" then
+	--- BLOCK #2 43-45, warpins: 3 ---
+	if slot6.last_effect and slot6.last_effect ~= "" then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 39-47, warpins: 1 ---
-		slot3[#slot3 + 1] = slot1.Battle.BattleResourceManager.GetFXPath(slot5.last_effect)
+		--- BLOCK #0 49-57, warpins: 1 ---
+		slot4[#slot4 + 1] = slot1.Battle.BattleResourceManager.GetFXPath(slot6.last_effect)
 		--- END OF BLOCK #0 ---
 
 
@@ -781,7 +718,7 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #3 48-51, warpins: 3 ---
+	--- BLOCK #3 58-61, warpins: 3 ---
 	--- END OF BLOCK #3 ---
 
 	FLOW; TARGET BLOCK #4
@@ -789,15 +726,15 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #4 52-187, warpins: 0 ---
-	for slot9, slot10 in ipairs(slot5.effect_list) do
+	--- BLOCK #4 62-198, warpins: 0 ---
+	for slot10, slot11 in ipairs(slot6.effect_list) do
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 52-55, warpins: 1 ---
-		if slot10.arg_list.skill_id ~= nil then
+		--- BLOCK #0 62-65, warpins: 1 ---
+		if slot11.arg_list.skill_id ~= nil then
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 56-65, warpins: 1 ---
+			--- BLOCK #0 66-75, warpins: 1 ---
 			--- END OF BLOCK #0 ---
 
 			FLOW; TARGET BLOCK #1
@@ -805,12 +742,12 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #1 66-70, warpins: 0 ---
-			for slot16, slot17 in ipairs(slot12) do
+			--- BLOCK #1 76-80, warpins: 0 ---
+			for slot17, slot18 in ipairs(slot13) do
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #0 66-68, warpins: 1 ---
-				slot3[#slot3 + 1] = slot17
+				--- BLOCK #0 76-78, warpins: 1 ---
+				slot4[#slot4 + 1] = slot18
 				--- END OF BLOCK #0 ---
 
 				FLOW; TARGET BLOCK #1
@@ -818,7 +755,7 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #1 69-70, warpins: 2 ---
+				--- BLOCK #1 79-80, warpins: 2 ---
 				--- END OF BLOCK #1 ---
 
 
@@ -837,11 +774,11 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #1 71-74, warpins: 2 ---
-		if slot10.arg_list.skill_id_list ~= nil then
+		--- BLOCK #1 81-84, warpins: 2 ---
+		if slot11.arg_list.skill_id_list ~= nil then
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 75-78, warpins: 1 ---
+			--- BLOCK #0 85-88, warpins: 1 ---
 			--- END OF BLOCK #0 ---
 
 			FLOW; TARGET BLOCK #1
@@ -849,11 +786,11 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #1 79-95, warpins: 0 ---
-			for slot16, slot17 in ipairs(slot12) do
+			--- BLOCK #1 89-105, warpins: 0 ---
+			for slot17, slot18 in ipairs(slot13) do
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #0 79-88, warpins: 1 ---
+				--- BLOCK #0 89-98, warpins: 1 ---
 				--- END OF BLOCK #0 ---
 
 				FLOW; TARGET BLOCK #1
@@ -861,12 +798,12 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #1 89-93, warpins: 0 ---
-				for slot22, slot23 in ipairs(slot18) do
+				--- BLOCK #1 99-103, warpins: 0 ---
+				for slot23, slot24 in ipairs(slot19) do
 
 					-- Decompilation error in this vicinity:
-					--- BLOCK #0 89-91, warpins: 1 ---
-					slot3[#slot3 + 1] = slot23
+					--- BLOCK #0 99-101, warpins: 1 ---
+					slot4[#slot4 + 1] = slot24
 					--- END OF BLOCK #0 ---
 
 					FLOW; TARGET BLOCK #1
@@ -874,7 +811,7 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 
 
 					-- Decompilation error in this vicinity:
-					--- BLOCK #1 92-93, warpins: 2 ---
+					--- BLOCK #1 102-103, warpins: 2 ---
 					--- END OF BLOCK #1 ---
 
 
@@ -887,7 +824,7 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #2 94-95, warpins: 2 ---
+				--- BLOCK #2 104-105, warpins: 2 ---
 				--- END OF BLOCK #2 ---
 
 
@@ -906,11 +843,11 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #2 96-99, warpins: 2 ---
-		if slot10.arg_list.bullet_id then
+		--- BLOCK #2 106-109, warpins: 2 ---
+		if slot11.arg_list.bullet_id then
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 100-109, warpins: 1 ---
+			--- BLOCK #0 110-119, warpins: 1 ---
 			--- END OF BLOCK #0 ---
 
 			FLOW; TARGET BLOCK #1
@@ -918,12 +855,12 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #1 110-114, warpins: 0 ---
-			for slot18, slot19 in ipairs(slot14) do
+			--- BLOCK #1 120-124, warpins: 0 ---
+			for slot19, slot20 in ipairs(slot15) do
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #0 110-112, warpins: 1 ---
-				slot3[#slot3 + 1] = slot19
+				--- BLOCK #0 120-122, warpins: 1 ---
+				slot4[#slot4 + 1] = slot20
 				--- END OF BLOCK #0 ---
 
 				FLOW; TARGET BLOCK #1
@@ -931,7 +868,7 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #1 113-114, warpins: 2 ---
+				--- BLOCK #1 123-124, warpins: 2 ---
 				--- END OF BLOCK #1 ---
 
 
@@ -950,11 +887,11 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #3 115-118, warpins: 2 ---
-		if slot10.arg_list.skin_id then
+		--- BLOCK #3 125-128, warpins: 2 ---
+		if slot11.arg_list.skin_id then
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 119-128, warpins: 1 ---
+			--- BLOCK #0 129-138, warpins: 1 ---
 			--- END OF BLOCK #0 ---
 
 			FLOW; TARGET BLOCK #1
@@ -962,12 +899,12 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #1 129-133, warpins: 0 ---
-			for slot19, slot20 in ipairs(slot15) do
+			--- BLOCK #1 139-143, warpins: 0 ---
+			for slot20, slot21 in ipairs(slot16) do
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #0 129-131, warpins: 1 ---
-				slot3[#slot3 + 1] = slot20
+				--- BLOCK #0 139-141, warpins: 1 ---
+				slot4[#slot4 + 1] = slot21
 				--- END OF BLOCK #0 ---
 
 				FLOW; TARGET BLOCK #1
@@ -975,7 +912,7 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #1 132-133, warpins: 2 ---
+				--- BLOCK #1 142-143, warpins: 2 ---
 				--- END OF BLOCK #1 ---
 
 
@@ -994,11 +931,11 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #4 134-137, warpins: 2 ---
-		if slot10.arg_list.buff_id then
+		--- BLOCK #4 144-147, warpins: 2 ---
+		if slot11.arg_list.buff_id then
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 138-147, warpins: 1 ---
+			--- BLOCK #0 148-158, warpins: 1 ---
 			--- END OF BLOCK #0 ---
 
 			FLOW; TARGET BLOCK #1
@@ -1006,16 +943,16 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #1 148-172, warpins: 0 ---
-			for slot20, slot21 in ipairs(slot16) do
+			--- BLOCK #1 159-183, warpins: 0 ---
+			for slot21, slot22 in ipairs(slot17) do
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #0 148-152, warpins: 1 ---
-				if type(slot21) == "string" then
+				--- BLOCK #0 159-163, warpins: 1 ---
+				if type(slot22) == "string" then
 
 					-- Decompilation error in this vicinity:
-					--- BLOCK #0 153-156, warpins: 1 ---
-					slot3[#slot3 + 1] = slot21
+					--- BLOCK #0 164-167, warpins: 1 ---
+					slot4[#slot4 + 1] = slot22
 					--- END OF BLOCK #0 ---
 
 
@@ -1023,11 +960,11 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 				else
 
 					-- Decompilation error in this vicinity:
-					--- BLOCK #0 157-161, warpins: 1 ---
-					if type(slot21) == "table" then
+					--- BLOCK #0 168-172, warpins: 1 ---
+					if type(slot22) == "table" then
 
 						-- Decompilation error in this vicinity:
-						--- BLOCK #0 162-165, warpins: 1 ---
+						--- BLOCK #0 173-176, warpins: 1 ---
 						--- END OF BLOCK #0 ---
 
 						FLOW; TARGET BLOCK #1
@@ -1035,12 +972,12 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 
 
 						-- Decompilation error in this vicinity:
-						--- BLOCK #1 166-170, warpins: 0 ---
-						for slot25, slot26 in ipairs(slot21) do
+						--- BLOCK #1 177-181, warpins: 0 ---
+						for slot26, slot27 in ipairs(slot22) do
 
 							-- Decompilation error in this vicinity:
-							--- BLOCK #0 166-168, warpins: 1 ---
-							slot3[#slot3 + 1] = slot26
+							--- BLOCK #0 177-179, warpins: 1 ---
+							slot4[#slot4 + 1] = slot27
 							--- END OF BLOCK #0 ---
 
 							FLOW; TARGET BLOCK #1
@@ -1048,7 +985,7 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 
 
 							-- Decompilation error in this vicinity:
-							--- BLOCK #1 169-170, warpins: 2 ---
+							--- BLOCK #1 180-181, warpins: 2 ---
 							--- END OF BLOCK #1 ---
 
 
@@ -1071,7 +1008,7 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #1 171-172, warpins: 4 ---
+				--- BLOCK #1 182-183, warpins: 4 ---
 				--- END OF BLOCK #1 ---
 
 
@@ -1090,12 +1027,12 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #5 173-176, warpins: 2 ---
-		if slot10.arg_list.effect then
+		--- BLOCK #5 184-187, warpins: 2 ---
+		if slot11.arg_list.effect then
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 177-185, warpins: 1 ---
-			slot3[#slot3 + 1] = slot1.Battle.BattleResourceManager.GetFXPath(slot16)
+			--- BLOCK #0 188-196, warpins: 1 ---
+			slot4[#slot4 + 1] = slot1.Battle.BattleResourceManager.GetFXPath(slot17)
 			--- END OF BLOCK #0 ---
 
 
@@ -1108,7 +1045,7 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #6 186-187, warpins: 3 ---
+		--- BLOCK #6 197-198, warpins: 3 ---
 		--- END OF BLOCK #6 ---
 
 
@@ -1122,8 +1059,8 @@ ys or .Battle.BattleDataFunction.GetResFromBuff = function (slot0, slot1, slot2)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #5 188-188, warpins: 1 ---
-	return slot3
+	--- BLOCK #5 199-199, warpins: 1 ---
+	return slot4
 	--- END OF BLOCK #5 ---
 
 
@@ -1754,6 +1691,17 @@ ys or .Battle.BattleDataFunction.NeedSkillPainting = function (slot0)
 
 end
 
+ys or .Battle.BattleDataFunction.SkinAdaptFXID = function (slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-5, warpins: 1 ---
+	return slot0 .. "_" .. slot1
+	--- END OF BLOCK #0 ---
+
+
+
+end
+
 ys or .Battle.BattleDataFunction.GetFleetReload = function (slot0)
 
 	-- Decompilation error in this vicinity:
@@ -1861,7 +1809,7 @@ FLOW; TARGET BLOCK #4
 
 
 -- Decompilation error in this vicinity:
---- BLOCK #4 17-51, warpins: 2 ---
+--- BLOCK #4 17-53, warpins: 2 ---
 --- END OF BLOCK #4 ---
 
 

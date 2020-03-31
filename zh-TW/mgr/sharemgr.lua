@@ -128,7 +128,7 @@ function pg.ShareMgr.Share(slot0, slot1, slot2)
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 6-21, warpins: 1 ---
 		slot0.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n1("指揮官，碧藍航向需要存儲權限才能分享是否打開？"),
+			content = i18n1("指揮官，碧藍航線需要存儲權限才能分享是否打開？"),
 			onYes = function ()
 
 				-- Decompilation error in this vicinity:
@@ -156,7 +156,7 @@ function pg.ShareMgr.Share(slot0, slot1, slot2)
 
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 43-52, warpins: 1 ---
-		slot0.TipsMgr.GetInstance():ShowTips("指挥官，当前平台暂不支持分享功能哦")
+		slot0.TipsMgr.GetInstance():ShowTips("指揮官，當前平台暫不支持分享功能哦")
 
 		return
 		--- END OF BLOCK #0 ---

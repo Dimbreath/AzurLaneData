@@ -466,6 +466,10 @@ slot1 = {
 	[ActivityConst.AMERICAN_PT] = {
 		className = "AmericanPtPage",
 		uiName = "AmericanPtPage"
+	},
+	[ActivityConst.APRILFOOL_DISCOVERY] = {
+		className = "AprilFoolDiscoveryPage",
+		uiName = "AprilFoolDiscoveryPage"
 	}
 }
 slot2 = {

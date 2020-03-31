@@ -939,6 +939,88 @@ pg.activity_template = {
 		bg = "",
 		id = 527
 	},
+	[548] = {
+		mark = 20200331,
+		title_res_tag = "",
+		type = 23,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 548,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					4,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[549] = {
+		mark = 20200331,
+		title_res_tag = "bulifool",
+		type = 21,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 20,
+		bg = "",
+		id = 549,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					4,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			{},
+			"HUANGJINDEMIBAO1",
+			guideName = "HJDMB001"
+		}
+	},
 	[999] = {
 		mark = 20191226,
 		title_res_tag = "",
@@ -2533,215 +2615,6 @@ pg.activity_template = {
 				configId = 206031,
 				id = 10000020603.0,
 				skin_id = 206031
-			}
-		}
-	},
-	[40042] = {
-		mark = 20200109,
-		title_res_tag = "teatime",
-		type = 21,
-		login_pop = 0,
-		config_id = 8122,
-		is_show = 1,
-		config_client = "",
-		id = 40042,
-		config_data = {
-			59801,
-			59802,
-			59803,
-			59804,
-			59805,
-			59806,
-			59807,
-			59808,
-			59809,
-			59810,
-			59811,
-			59812,
-			59813,
-			59814,
-			59815
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					1,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					1,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		bg = {
-			"clutter/teatime_puzzle"
-		}
-	},
-	[40043] = {
-		mark = 20200109,
-		title_res_tag = "",
-		type = 18,
-		login_pop = 0,
-		config_id = 0,
-		is_show = 0,
-		bg = "",
-		id = 40043,
-		config_data = {
-			{
-				10057,
-				10058
-			},
-			{
-				10059,
-				10060
-			},
-			{
-				10061,
-				10062
-			},
-			10063
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					1,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					1,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		config_client = {
-			{
-				groupId = 20703,
-				configId = 207031,
-				id = 10000207031.0,
-				skin_id = 207031
-			},
-			{
-				groupId = 30111,
-				configId = 301111,
-				id = 10000301111.0,
-				skin_id = 301111
-			},
-			{
-				groupId = 30112,
-				configId = 301121,
-				id = 10000301121.0,
-				skin_id = 301121
-			}
-		}
-	},
-	[40044] = {
-		mark = 20200109,
-		title_res_tag = "",
-		type = 13,
-		login_pop = 0,
-		config_id = 0,
-		is_show = 0,
-		config_client = "",
-		bg = "",
-		id = 40044,
-		config_data = {
-			10064
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					1,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					1,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[40045] = {
-		mark = 20200109,
-		title_res_tag = "",
-		type = 23,
-		login_pop = 0,
-		config_id = 0,
-		is_show = 0,
-		config_data = "",
-		config_client = "",
-		bg = "",
-		id = 40045,
-		time = {
-			timer,
-			{
-				{
-					2020,
-					1,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					1,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		}
 	},
@@ -4725,6 +4598,8 @@ pg.activity_template = {
 		525,
 		526,
 		527,
+		548,
+		549,
 		999,
 		2001,
 		2007,
@@ -4776,10 +4651,6 @@ pg.activity_template = {
 		40039,
 		40040,
 		40041,
-		40042,
-		40043,
-		40044,
-		40045,
 		40046,
 		40047,
 		40048,

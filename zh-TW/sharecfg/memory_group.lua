@@ -409,6 +409,17 @@ pg.memory_group = {
 			683
 		}
 	},
+	[184] = {
+		title = "黃金的秘寶 ",
+		type = 2,
+		id = 184,
+		icon = "title_event",
+		memories = {
+			1188,
+			1189,
+			1190
+		}
+	},
 	[501] = {
 		title = "{namecode:98}的委託",
 		type = 3,
@@ -659,6 +670,7 @@ pg.memory_group = {
 		136,
 		141,
 		149,
+		184,
 		501,
 		502,
 		503,

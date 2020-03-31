@@ -49,6 +49,7 @@ function pg.SecondaryPWDMgr.LimitedOperation(slot0, slot1, slot2, slot3)
 
 	if not slot6 then
 		slot0:ShowWarningWindow()
+		slot0.m02:sendNotification(GAME.CANCEL_LIMITED_OPERATION)
 
 		return
 	end

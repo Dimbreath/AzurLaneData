@@ -1223,7 +1223,7 @@ return {
 
 			-- Decompilation error in this vicinity:
 			--- BLOCK #1 15-20, warpins: 2 ---
-			setActive(slot1, false)
+			setActive(slot1, slot3)
 
 			if slot3 then
 
@@ -1338,6 +1338,105 @@ return {
 
 		end
 	},
+	{
+		Tip = "tip",
+		Image = "event_aprilFool",
+		ButtonName = "activity_aprilFool",
+		UpdateButton = function (slot0, slot1)
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-10, warpins: 1 ---
+			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA) then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 11-14, warpins: 1 ---
+				slot3 = not slot2:isEnd()
+				--- END OF BLOCK #0 ---
+
+
+
+			end
+
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 15-20, warpins: 2 ---
+			setActive(slot1, slot3)
+
+			if slot3 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 21-23, warpins: 1 ---
+				if slot2.data1 ~= 1 then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 24-25, warpins: 1 ---
+					slot4 = false
+					--- END OF BLOCK #0 ---
+
+
+
+				else
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 26-26, warpins: 1 ---
+					slot4 = true
+					--- END OF BLOCK #0 ---
+
+
+
+				end
+
+				--- END OF BLOCK #0 ---
+
+				FLOW; TARGET BLOCK #1
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #1 27-44, warpins: 2 ---
+				slot5 = pg.activity_event_picturepuzzle[slot2.id]
+
+				setActive(slot1:Find("Tip"), slot6)
+				onButton(slot0, slot1, function ()
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 1-14, warpins: 1 ---
+					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
+						id = slot0.id
+					})
+
+					return
+					--- END OF BLOCK #0 ---
+
+
+
+				end, SFX_PANEL)
+				--- END OF BLOCK #1 ---
+
+
+
+			end
+
+			--- END OF BLOCK #1 ---
+
+			FLOW; TARGET BLOCK #2
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #2 45-46, warpins: 2 ---
+			return
+			--- END OF BLOCK #2 ---
+
+
+
+		end
+	},
 	LayoutProperty = {
 		CellSize = Vector2(208, 215)
 	},
@@ -1347,6 +1446,7 @@ return {
 		8,
 		6,
 		10,
-		11
+		11,
+		12
 	}
 }
