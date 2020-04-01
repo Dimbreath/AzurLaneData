@@ -2492,6 +2492,106 @@ function wordLegalMatch(slot0, slot1, slot2, slot3, slot4)
 
 end
 
+slot14 = string.byte("a")
+slot15 = string.byte("z")
+slot16 = string.byte("A")
+slot17 = string.byte("Z")
+
+function slot18(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-2, warpins: 1 ---
+	if not slot0 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 3-3, warpins: 1 ---
+		return slot0
+		--- END OF BLOCK #0 ---
+
+
+
+	end
+
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 4-10, warpins: 2 ---
+	if string.byte(slot0) > 128 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 11-11, warpins: 1 ---
+		return
+		--- END OF BLOCK #0 ---
+
+
+
+	end
+
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 12-14, warpins: 2 ---
+	if slot0 <= slot1 and slot1 <= slot1 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 18-22, warpins: 1 ---
+		return string.char(slot1 - 32)
+		--- END OF BLOCK #0 ---
+
+
+
+	else
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 23-25, warpins: 2 ---
+		if slot2 <= slot1 and slot1 <= slot3 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 29-33, warpins: 1 ---
+			return string.char(slot1 + 32)
+			--- END OF BLOCK #0 ---
+
+
+
+		else
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 34-34, warpins: 2 ---
+			return slot0
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+		--- END OF BLOCK #0 ---
+
+
+
+	end
+
+	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 35-35, warpins: 3 ---
+	return
+	--- END OF BLOCK #3 ---
+
+
+
+end
+
 function wordVerMatch(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 
 	-- Decompilation error in this vicinity:
@@ -2518,72 +2618,102 @@ function wordVerMatch(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	if slot1[slot0[slot3]] then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 12-14, warpins: 1 ---
-		if slot9.this then
+		--- BLOCK #0 12-19, warpins: 1 ---
+		slot10 = wordVerMatch
+		slot11 = slot0
+		slot12 = slot9
+		slot13 = slot2
+		slot14 = slot3 + 1
+
+		if not slot2.isReplace or not (slot4 .. slot2.replaceWord) then
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 15-17, warpins: 1 ---
-			if slot2.isReplace then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 18-32, warpins: 1 ---
-				return wordVerMatch(slot0, slot9, slot2, slot3 + 1, slot4 .. slot2.replaceWord, true, slot3 + 1, slot4 .. slot2.replaceWord)
-				--- END OF BLOCK #0 ---
-
-
-
-			else
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 33-43, warpins: 1 ---
-				return wordVerMatch(slot0, slot9, slot2, slot3 + 1, slot4, true, slot3 + 1, slot4)
-				--- END OF BLOCK #0 ---
-
-
-
-			end
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 44-46, warpins: 1 ---
-			if slot2.isReplace then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 47-59, warpins: 1 ---
-				return wordVerMatch(slot0, slot9, slot2, slot3 + 1, slot4 .. slot2.replaceWord, slot5, slot6, slot7)
-				--- END OF BLOCK #0 ---
-
-
-
-			else
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 60-70, warpins: 1 ---
-				return wordVerMatch(slot0, slot9, slot2, slot3 + 1, slot4, slot5, slot6, slot7)
-				--- END OF BLOCK #0 ---
-
-
-
-			end
+			--- BLOCK #0 25-25, warpins: 2 ---
+			slot15 = slot4
 			--- END OF BLOCK #0 ---
 
 
 
 		end
+
 		--- END OF BLOCK #0 ---
 
+		FLOW; TARGET BLOCK #1
 
 
-	else
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 71-74, warpins: 1 ---
-		return slot5, slot6, slot7
-		--- END OF BLOCK #0 ---
+		--- BLOCK #1 26-28, warpins: 2 ---
+		if not slot9.this then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 29-29, warpins: 1 ---
+			slot16 = slot5
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 30-32, warpins: 2 ---
+		if not slot9.this or not (slot3 + 1) then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 36-36, warpins: 2 ---
+			slot17 = slot6
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+
+		--- END OF BLOCK #2 ---
+
+		FLOW; TARGET BLOCK #3
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #3 37-39, warpins: 2 ---
+		if not slot9.this or ((not slot2.isReplace or not (slot4 .. slot2.replaceWord)) and not slot4) then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 50-50, warpins: 2 ---
+			slot18 = slot7
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+
+		--- END OF BLOCK #3 ---
+
+		FLOW; TARGET BLOCK #4
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #4 51-53, warpins: 3 ---
+		slot10, slot11, slot12 = slot10(slot11, slot12, slot13, slot14, slot15, slot16, slot17, slot18)
+
+		if slot10 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 54-57, warpins: 1 ---
+			return slot10, slot11, slot12
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+		--- END OF BLOCK #4 ---
 
 
 
@@ -2596,9 +2726,123 @@ function wordVerMatch(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #2 75-75, warpins: 5 ---
-	return
+	--- BLOCK #2 58-63, warpins: 3 ---
+	slot9 = slot1[slot0(slot8)]
+
+	if slot0(slot8) ~= slot8 and slot9 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 66-73, warpins: 1 ---
+		slot11 = wordVerMatch
+		slot12 = slot0
+		slot13 = slot9
+		slot14 = slot2
+		slot15 = slot3 + 1
+
+		if not slot2.isReplace or not (slot4 .. slot2.replaceWord) then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 79-79, warpins: 2 ---
+			slot16 = slot4
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 80-82, warpins: 2 ---
+		if not slot9.this then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 83-83, warpins: 1 ---
+			slot17 = slot5
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 84-86, warpins: 2 ---
+		if not slot9.this or not (slot3 + 1) then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 90-90, warpins: 2 ---
+			slot18 = slot6
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+
+		--- END OF BLOCK #2 ---
+
+		FLOW; TARGET BLOCK #3
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #3 91-93, warpins: 2 ---
+		if not slot9.this or ((not slot2.isReplace or not (slot4 .. slot2.replaceWord)) and not slot4) then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 104-104, warpins: 2 ---
+			slot19 = slot7
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+
+		--- END OF BLOCK #3 ---
+
+		FLOW; TARGET BLOCK #4
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #4 105-107, warpins: 3 ---
+		slot11, slot12, slot13 = slot11(slot12, slot13, slot14, slot15, slot16, slot17, slot18, slot19)
+
+		if slot11 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 108-111, warpins: 1 ---
+			return slot11, slot12, slot13
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+		--- END OF BLOCK #4 ---
+
+
+
+	end
+
 	--- END OF BLOCK #2 ---
+
+	FLOW; TARGET BLOCK #3
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #3 112-115, warpins: 4 ---
+	return slot5, slot6, slot7
+	--- END OF BLOCK #3 ---
 
 
 
@@ -6449,7 +6693,7 @@ function checkBirthFormat(slot0)
 
 end
 
-slot14 = xpcall
+slot19 = xpcall
 
 function TryCall(slot0, slot1, ...)
 
