@@ -701,779 +701,779 @@ pg.gameset_language_client = {
 		key = "op_reply_20_1_1"
 	},
 	ins_21 = {
-		value = "【新年】正在装饰门松的{namecode:74}大人。今年也期待各位为了重樱舰队而努力奋斗",
+		value = "[새해] 문을 꾸미고 있는 {namecode:74}님. 올해도 사쿠라 엠파이어 함대를 위해 모두 힘내주길.",
 		key = "ins_21"
 	},
 	ins_discuss_21_1 = {
-		value = "新年快乐！",
+		value = "새해 복 많이 받아!",
 		key = "ins_discuss_21_1"
 	},
 	ins_reply_21_1_1 = {
-		value = "辛苦了。来年也期待汝的努力奋斗",
+		value = "수고했다. 내년에도 기대하지.",
 		key = "ins_reply_21_1_1"
 	},
 	ins_reply_21_1_2 = {
-		value = "也期待你的皇家特产哦！",
+		value = "로열 기념품도 기대하고 있어!",
 		key = "ins_reply_21_1_2"
 	},
 	ins_discuss_21_2 = {
-		value = "代替陛下向重樱诸位送上新年的祝福",
+		value = "폐하를 대신해 로열의 모두에게 새해 인사를 보냅니다.",
 		key = "ins_discuss_21_2"
 	},
 	ins_reply_21_2_1 = {
-		value = "哦！谢谢！不过为什么你要带着相机窝在体育馆拍东西？快跟我说说有什么好玩的！",
+		value = "오! 고마워! 그런데 왜 체육관에 숨어서 사진을 찍고 있던 거야? 뭐 재미있는 거 있었는지 얼른 말해!",
 		key = "ins_reply_21_2_1"
 	},
 	ins_discuss_21_3 = {
-		value = "新年快乐！",
+		value = "새해 복 많이 받아!",
 		key = "ins_discuss_21_3"
 	},
 	ins_reply_21_3_1 = {
-		value = "希望在舰队中，也能见识到联合演习上的那份实力。期待汝之活跃！",
+		value = "합동 훈련에서의 저력을 함대에서도 보기를 바라! 기대하고 있다고!",
 		key = "ins_reply_21_3_1"
 	},
 	ins_op_21_1_1 = {
-		value = "新年快乐！",
+		value = "새해 복 많이 받아!",
 		key = "ins_op_21_1_1"
 	},
 	ins_op_21_1_2 = {
-		value = "咦？这个账号是{namecode:74}？还是有其他人在……",
+		value = "에? 이 계정은 {namecode:74}의? 그리고 다른 사람들도……",
 		key = "ins_op_21_1_2"
 	},
 	op_reply_21_1_1 = {
-		value = "为了重樱和舰队再接再励吧",
+		value = "사쿠라 엠파이어와 함대를 위해 더 노력하자.",
 		key = "op_reply_21_1_1"
 	},
 	op_reply_21_1_2 = {
-		value = "是由{namecode:74}大人和{namecode:75}大人，和我({namecode:158})共同管理的",
+		value = "{namecode:74}님과 {namecode:75}님, 그리고 저 {namecode:158}가 함께 관리하고 있습니다.",
 		key = "op_reply_21_1_2"
 	},
 	ins_22 = {
-		value = "【新年】从{namecode:82}大人那收到压岁钱的{namecode:74}大人。今天也心情绝佳的样子",
+		value = "[새해] {namecode:82}님에게서 세뱃돈을 받는 {namecode:74}님. 오늘도 기분은 최절정.",
 		key = "ins_22"
 	},
 	ins_discuss_22_1 = {
-		value = "{namecode:75}也从{namecode:74}那里收到压岁钱了！开心！",
+		value = "{namecode:75}도 {namecode:74}에게 세뱃돈을 받았구나! 즐거워!",
 		key = "ins_discuss_22_1"
 	},
 	ins_reply_22_1_1 = {
-		value = "{namecode:75}大人，感想请用另外准备的账号发送，用这个账号发有点不太……",
+		value = "{namecode:75}님, 감상은 다른 계정으로 보내주시길. 이 계정은 조금……",
 		key = "ins_reply_22_1_1"
 	},
 	ins_reply_22_1_2 = {
-		value = "为什么？这个账号也没有写着“我是{namecode:74}姐”嘛？？？",
+		value = "왜? 이 계정에 ‘내가 {namecode:74} 언니’라고 쓰여있지도 않잖아???",
 		key = "ins_reply_22_1_2"
 	},
 	ins_reply_22_1_3 = {
-		value = "这个姑且是重樱用来发公告用的…",
+		value = "이것은 사쿠라 엠파이어의 공지용인지라…",
 		key = "ins_reply_22_1_3"
 	},
 	ins_reply_22_1_4 = {
-		value = "但是，{namecode:74}姐姐也直接用这个在给指挥官回复啊？",
+		value = "?? 이게 무슨 일…?",
 		key = "ins_reply_22_1_4"
 	},
 	ins_reply_22_1_5 = {
-		value = "？？这是什么情况…？",
+		value = "?? 이게 무슨 일…?",
 		key = "ins_reply_22_1_5"
 	},
 	ins_op_22_1_1 = {
-		value = "这边也准备了压岁钱哦",
+		value = "여기도 세뱃돈을 준비했어.",
 		key = "ins_op_22_1_1"
 	},
 	ins_op_22_1_2 = {
-		value = "很高兴的样子嘛",
+		value = "즐거워 보이네.",
 		key = "ins_op_22_1_2"
 	},
 	op_reply_22_1_1 = {
-		value = "汝也把吾当作小孩子吗！吾才不想要！",
+		value = "나를 어린애 취급하는 거냐! 필요 없다!",
 		key = "op_reply_22_1_1"
 	},
 	op_reply_22_1_2 = {
-		value = "吾可是{namecode:74}！才不会为了区区压岁钱觉得高兴呢！",
+		value = "나는 {namecode:74}란 말이다! 세뱃돈 따위로 즐거워하지 않아!",
 		key = "op_reply_22_1_2"
 	},
 	ins_23 = {
-		value = "☆推荐！☆{namecode:71}特制即席料理套餐！重樱宴会上才能品尝到的美味料理也能轻松再现！这才是御召舰品质！",
+		value = "☆추천! ☆ {namecode:71} 특제 즉석요리 세트! 사쿠라 엠파이어의 연회에서 맛보던 요리를 집에서도 편리하게! 이것이 바로 어소함의 맛!",
 		key = "ins_23"
 	},
 	ins_discuss_23_1 = {
-		value = "噗噗好像也很感兴趣…能要一份嘛？",
+		value = "둥실이가 궁금해해… 살 수 있어?",
 		key = "ins_discuss_23_1"
 	},
 	ins_reply_23_1_1 = {
-		value = "没问题！一会就给驱逐舰的各位带过去！",
+		value = "얼마든지! 곧 구축함들이 배송해줄 거야!",
 		key = "ins_reply_23_1_1"
 	},
 	ins_discuss_23_2 = {
-		value = "不知不觉间已经有这样的产品了？？？",
+		value = "어느새 이런 물건이 생겼어???",
 		key = "ins_discuss_23_2"
 	},
 	ins_reply_23_2_1 = {
-		value = "并没有这样的产品哦，{namecode:70}姐，开玩笑的而已哈哈",
+		value = "있을 리가 없잖아, {namecode:70} 언니. 장난일 뿐이야. 하하하.",
 		key = "ins_reply_23_2_1"
 	},
 	ins_op_23_1_1 = {
-		value = "所以？要在哪里付钱买这个呢？",
+		value = "그래서? 어디에 돈을 내면 되지?",
 		key = "ins_op_23_1_1"
 	},
 	ins_op_23_1_2 = {
-		value = "账号被黑了…？",
+		value = "계정이 해킹당했어…?",
 		key = "ins_op_23_1_2"
 	},
 	op_reply_23_1_1 = {
-		value = "请联系重樱的{namecode:73}谢谢！哈哈哈",
+		value = "사쿠라 엠파이어의 {namecode:73}에게 연락주세요. 감사합니다! 하하하",
 		key = "op_reply_23_1_1"
 	},
 	op_reply_23_1_2 = {
-		value = "没有啦！只是卖个傻而已，哈哈哈",
+		value = "아냐! 모른 척 한 거라고! 하하하",
 		key = "op_reply_23_1_2"
 	},
 	ins_24 = {
-		value = "和{namecode:2}她们一起打年糕…有点用力过猛了…的说",
+		value = "{namecode:2} 일행과 함께 떡 만들기… 조금 힘이 든다…예요.",
 		key = "ins_24"
 	},
 	ins_discuss_24_1 = {
-		value = "太厉害了！在鬼神{namecode:6}的全力一击下断成两片了！咦？这个是不是可以直接退换啊？",
+		value = "대단해! 귀신 {namecode:6}의 풀파워 한 방으로 두 동강이 났어! 에? 이거 그냥 교환할 수 있는 거 아니야?",
 		key = "ins_discuss_24_1"
 	},
 	ins_reply_24_1_1 = {
-		value = "不愧是{namecode:12}，瞬间就想到“可以靠这漂亮的切面抓住{namecode:98}的弱点”！",
+		value = "역시 {namecode:12}, 순간 ‘이렇게 예쁜 절단면으로 {namecode:98}의 약점을 잡자’ 라는 생각을 해내다니!",
 		key = "ins_reply_24_1_1"
 	},
 	ins_reply_24_1_2 = {
-		value = "原来如此！这就是所谓的“而已索赔”吧！",
+		value = "그랬군요! 이게 바로 \"배상 따위\"라는 건가요!?",
 		key = "ins_reply_24_1_2"
 	},
 	ins_reply_24_1_3 = {
-		value = "能换吗！？",
+		value = "바꿀 수 있겠냐! ",
 		key = "ins_reply_24_1_3"
 	},
 	ins_reply_24_1_4 = {
-		value = "大概不行…的说",
+		value = "안 될 것 같다…예요.",
 		key = "ins_reply_24_1_4"
 	},
 	ins_discuss_24_2 = {
-		value = "这个…好像是我的…（泪",
+		value = "이거… 아무래도 내…(눈물",
 		key = "ins_discuss_24_2"
 	},
 	ins_reply_24_2_1 = {
-		value = "{namecode:2}…抱歉…的说",
+		value = "{namecode:2}… 미안하다…예요.",
 		key = "ins_reply_24_2_1"
 	},
 	ins_op_24_1_1 = {
-		value = "别放在心上！",
+		value = "신경 쓰지 마!",
 		key = "ins_op_24_1_1"
 	},
 	ins_op_24_1_2 = {
-		value = "还可以从{namecode:20}那里拿，没关系！",
+		value = "{namecode:20}에게 또 받을 수 있으니까, 괜찮아!",
 		key = "ins_op_24_1_2"
 	},
 	op_reply_24_1_1 = {
-		value = "对不起的说。我会再试一次的",
+		value = "미안하다…예요. 한 번 더 해볼게요.",
 		key = "op_reply_24_1_1"
 	},
 	op_reply_24_1_2 = {
-		value = "指挥官…谢谢的说",
+		value = "지휘관님, 고맙다…예요.",
 		key = "op_reply_24_1_2"
 	},
 	ins_25 = {
-		value = "呼呼…这是准备给指挥官的礼物呢~",
+		value = "후후… 지휘관님을 위한 선물~",
 		key = "ins_25"
 	},
 	ins_discuss_25_1 = {
-		value = "好厉害！我要不要也跟{namecode:66}借个笔来写写看呢？",
+		value = "대단해! 나도 {namecode:96}에게 붓을 빌려서 써볼까?",
 		key = "ins_discuss_25_1"
 	},
 	ins_reply_25_1_1 = {
-		value = "重樱的书房就有笔哦，另外公共休息室的话，也有纸和笔呢",
+		value = "붓이라면 사쿠라 엠파이어의 서재에 있는걸. 그리고 공용 휴게실에도 종이와 붓 정도는 있어.",
 		key = "ins_reply_25_1_1"
 	},
 	ins_discuss_25_2 = {
-		value = "真羡慕啊~我就只能做点甜点什么的…",
+		value = "부럽다~ 나는 디저트 정도밖에 못 만드는데…",
 		key = "ins_discuss_25_2"
 	},
 	ins_discuss_25_3 = {
-		value = "是不是该送点萨丁的特产什么的呢~",
+		value = "샤르데냐의 기념품을 선물해야 할까…",
 		key = "ins_discuss_25_3"
 	},
 	ins_discuss_25_4 = {
-		value = "这、这组合是什么情况！？",
+		value = "이, 이건 무슨 조합?!",
 		key = "ins_discuss_25_4"
 	},
 	ins_op_25_1_1 = {
-		value = "达、达人的笔法！",
+		value = "달, 달인의 서예법!",
 		key = "ins_op_25_1_1"
 	},
 	ins_op_25_1_2 = {
-		value = "哦哦……！",
+		value = "오오……!",
 		key = "ins_op_25_1_2"
 	},
 	op_reply_25_1_1 = {
-		value = "呵呵，多谢夸奖，孩子~",
+		value = "후후, 칭찬 고마워.",
 		key = "op_reply_25_1_1"
 	},
 	op_reply_25_1_2 = {
-		value = "要挂在房间里的话说一声就好，我直接给你拿过去~",
+		value = "방에 걸고 싶다면 말해줘. 직접 가져다줄 테니까.",
 		key = "op_reply_25_1_2"
 	},
 	ins_26 = {
-		value = "这破魔矢，好像和重樱本岛的有些不太一样？？？",
+		value = "이 파마의 화살, 사쿠라 엠파이어 본섬의 것과는 다른 것 같은데???",
 		key = "ins_26"
 	},
 	ins_discuss_26_1 = {
-		value = "光看照片的话，外形和装饰都和重樱原本的一样吧…",
+		value = "사진으로만 봤을 땐 겉모습이나 장식 모두 사쿠라 엠파이어 본섬의 것과 같단 말이지…",
 		key = "ins_discuss_26_1"
 	},
 	ins_reply_26_1_1 = {
-		value = "这样看来，不一样的，大概是材料了…",
+		value = "이렇게 보니까 다른 건 역시 재료이려나…",
 		key = "ins_reply_26_1_1"
 	},
 	ins_discuss_26_2 = {
-		value = "没、没有吧？怎么看都再正常不过了吧！",
+		value = "아, 아니지? 아무리 봐도 정상적인데!",
 		key = "ins_discuss_26_2"
 	},
 	ins_reply_26_2_1 = {
-		value = "为啥{namecode:155}跑来回复了…？",
+		value = "왜 {namecode:155}의 댓글이 달리는 거야…?",
 		key = "ins_reply_26_2_1"
 	},
 	ins_discuss_26_3 = {
-		value = "啊…不会是{namecode:98}在制作材料上又抠了吧……",
+		value = "아… 설마 {namecode:98}, 만들 때 또 재료를 아낀 건가……",
 		key = "ins_discuss_26_3"
 	},
 	ins_op_26_1_1 = {
-		value = "具体说说？",
+		value = "어떻게?",
 		key = "ins_op_26_1_1"
 	},
 	ins_op_26_1_2 = {
-		value = "被动过手脚了？",
+		value = "누군가 손을 댔어?",
 		key = "ins_op_26_1_2"
 	},
 	op_reply_26_1_1 = {
-		value = "不知道怎么说，总觉得好像有点…轻？",
+		value = "왠지는 모르겠지만, 조금… 가볍달까?",
 		key = "op_reply_26_1_1"
 	},
 	op_reply_26_1_2 = {
-		value = "欸！？我马上检查看看！",
+		value = "에엣?! 얼른 가서 볼게!",
 		key = "op_reply_26_1_2"
 	},
 	ins_27 = {
-		value = "和大家一起玩“强手棋”！好紧张…！",
+		value = "모두와 하는 보드게임! 긴장돼…!",
 		key = "ins_27"
 	},
 	ins_discuss_27_1 = {
-		value = "【魔眼的神托】得快点把卡片用掉才行呢",
+		value = "[마안의 신탁] 카드를 빨리 털어버려야 해",
 		key = "ins_discuss_27_1"
 	},
 	ins_reply_27_1_1 = {
-		value = "Z36为什么不教教我嘛~我是初学者啊~",
+		value = "Z36, 왜 안 가르쳐주는 거야. 난 초보란 말야!",
 		key = "ins_reply_27_1_1"
 	},
 	ins_reply_27_1_2 = {
-		value = "【魔眼的神托】(我也是初学者来着……）",
+		value = "[마안의 신탁] (나도 초보란 말이야……)",
 		key = "ins_reply_27_1_2"
 	},
 	ins_discuss_27_2 = {
-		value = "Z35是想什么都会表现在脸上的类型啊？手上有什么卡片一目了然呢~",
+		value = "Z35는 뭐든 얼굴에 다 티 나는 타입이구나? 무슨 카드를 들고 있는지 다 보인다구~",
 		key = "ins_discuss_27_2"
 	},
 	ins_reply_27_2_1 = {
-		value = "这种事就不要说出来了！（泪",
+		value = "그런 건 말 하지 마! (눈물",
 		key = "ins_reply_27_2_1"
 	},
 	ins_reply_27_2_2 = {
-		value = "像萨拉托加说的一样，稍微控制一下表情比较好哦？",
+		value = "새러토가가 말한 것처럼 조금 표정 관리를 하는 건 어때?",
 		key = "ins_reply_27_2_2"
 	},
 	ins_reply_27_2_3 = {
-		value = "话是这么说，Z23其实也没比我好到哪里去吧？",
+		value = "Z23이 나보다 나은 건 없을 텐데?!",
 		key = "ins_reply_27_2_3"
 	},
 	ins_op_27_1_1 = {
-		value = "祝你好运！",
+		value = "행운을 빌어!",
 		key = "ins_op_27_1_1"
 	},
 	ins_op_27_1_2 = {
-		value = "和东煌玩的那个一样？",
+		value = "이스트 글림의 것과 같은 건가?",
 		key = "ins_op_27_1_2"
 	},
 	op_reply_27_1_1 = {
-		value = "被祝福了！（其实还挺开心的！",
+		value = "축복받았다! (사실 엄청 즐거워!",
 		key = "op_reply_27_1_1"
 	},
 	op_reply_27_1_2 = {
-		value = "和白鹰玩的更像吧~原来指挥官也玩过啊……",
+		value = "유니온이랑 비슷하지. 지휘관도 해봤구나……",
 		key = "op_reply_27_1_2"
 	},
 	ins_28 = {
-		value = "自拍…第一次尝试……",
+		value = "첫…… 셀카……",
 		key = "ins_28"
 	},
 	ins_discuss_28_1 = {
-		value = "拍得不错呢！",
+		value = "잘 찍었네!",
 		key = "ins_discuss_28_1"
 	},
 	ins_reply_28_1_1 = {
-		value = "Z23耐心地教会了独角兽…谢谢…！",
+		value = "Z23이 열심히 가르쳐줬어… 고마워…!",
 		key = "ins_reply_28_1_1"
 	},
 	ins_discuss_28_2 = {
-		value = "对电子机械不太擅长，没能帮上忙，抱歉了",
+		value = "전자기기에는 익숙지 않아 도움이 되지 못했습니다. 죄송합니다.",
 		key = "ins_discuss_28_2"
 	},
 	ins_reply_28_2_1 = {
-		value = "贝尔法斯特也帮了独角兽很多…谢谢！",
+		value = "유니콘, 벨파스트에게도 도움을 많이 받았어… 고마워!",
 		key = "ins_reply_28_2_1"
 	},
 	ins_op_28_1_1 = {
-		value = "可爱！",
+		value = "귀여워!",
 		key = "ins_op_28_1_1"
 	},
 	ins_op_28_1_2 = {
-		value = "光辉…？",
+		value = "일러스트리어스…?",
 		key = "ins_op_28_1_2"
 	},
 	op_reply_28_1_1 = {
-		value = "欸嘿嘿…要发给哥哥…吗？",
+		value = "에헤헤…… 오빠… 보내줄까?",
 		key = "op_reply_28_1_1"
 	},
 	op_reply_28_1_2 = {
-		value = "嗯…一个人拍感觉…有点可怕…就约了光辉姐姐……一起",
+		value = "응… 혼자 사진 찍는 건… 무서워서… 일러스트리어스 언니랑…… 같이……",
 		key = "op_reply_28_1_2"
 	},
 	ins_29 = {
-		value = "优酱…用冰做了个角♪",
+		value = "유쨩… 얼음으로 뿔 만들었다♪",
 		key = "ins_29"
 	},
 	ins_discuss_29_1 = {
-		value = "看起来就好冷…下次出去记得穿暖一点哦！",
+		value = "추워 보여요… 다음번에는 좀 더 따뜻하게!",
 		key = "ins_discuss_29_1"
 	},
 	ins_reply_29_1_1 = {
-		value = "谢谢爱丁堡的关心…不过…独角兽…没问题的！",
+		value = "에든버러, 고마워… 하지만… 유니콘, 괜찮아!",
 		key = "ins_reply_29_1_1"
 	},
 	ins_discuss_29_2 = {
-		value = "优酱…果然是奇怪的生物…的说",
+		value = "유쨩… 이상한 생물이었다…예요.",
 		key = "ins_discuss_29_2"
 	},
 	ins_reply_29_2_1 = {
-		value = "？？优酱是玩偶哦…？",
+		value = "?? 유쨩은 장난감인데…?",
 		key = "ins_reply_29_2_1"
 	},
 	ins_op_29_1_1 = {
-		value = "可爱！",
+		value = "귀여워!",
 		key = "ins_op_29_1_1"
 	},
 	ins_op_29_1_2 = {
-		value = "优酱好灵巧！",
+		value = "유쨩 대단해!",
 		key = "ins_op_29_1_2"
 	},
 	op_reply_29_1_1 = {
-		value = "欸嘿嘿…谢谢哥哥…！",
+		value = "에헤헤… 오빠, 고마워…!",
 		key = "op_reply_29_1_1"
 	},
 	op_reply_29_1_2 = {
-		value = "欸嘿嘿…优酱…可以做好多事情哦…？",
+		value = "에헤헤… 유쨩… 많은 걸 할 수 있다구…?",
 		key = "op_reply_29_1_2"
 	},
 	ins_30 = {
-		value = "跨年荞麦面…好像应该不是这样的，就当是吧",
+		value = "설맞이 메밀국수… 이런 거겠지.",
 		key = "ins_30"
 	},
 	ins_discuss_30_1 = {
-		value = "约指挥官一起吃多好~",
+		value = "지휘관이랑 같이 먹을 수 있으면 좋을 텐데~",
 		key = "ins_discuss_30_1"
 	},
 	ins_reply_30_1_1 = {
-		value = "是你自己想约吧…现在正是最忙的时候，不会给指挥官添麻烦吗？",
+		value = "그건 네 생각이겠지… 이렇게 바쁠 때 지휘관에게 폐를 끼치면 안 돼?",
 		key = "ins_reply_30_1_1"
 	},
 	ins_reply_30_1_2 = {
-		value = "也没关系吧~",
+		value = "괜찮잖아~",
 		key = "ins_reply_30_1_2"
 	},
 	ins_discuss_30_2 = {
-		value = "这照片和平时感觉不太一样呢",
+		value = "이 사진, 평소랑 느낌이 좀 다른걸?",
 		key = "ins_discuss_30_2"
 	},
 	ins_reply_30_2_1 = {
-		value = "果然看得出来吗，是{namecode:49}拍的",
+		value = "역시 알아차렸네. {namecode:49}가 찍은 거야.",
 		key = "ins_reply_30_2_1"
 	},
 	ins_discuss_30_3 = {
-		value = "{namecode:37}也想吃",
+		value = "{namecode:37}도 먹고 싶어.",
 		key = "ins_discuss_30_3"
 	},
 	ins_reply_30_3_1 = {
-		value = "晚点分你一些吧？作为平时装备检修的答谢",
+		value = "조금 남겨줄까? 평소에 장비 점검을 해줬던 답례로.",
 		key = "ins_reply_30_3_1"
 	},
 	ins_op_30_1_1 = {
-		value = "又到了这时候了啊",
+		value = "또 이 시기가 왔네.",
 		key = "ins_op_30_1_1"
 	},
 	ins_op_30_1_2 = {
-		value = "新年快乐！",
+		value = "새해 복 많이 받아!",
 		key = "ins_op_30_1_2"
 	},
 	op_reply_30_1_1 = {
-		value = "所以才要吃荞麦面…呢",
+		value = "그래서 메밀국수…인가.",
 		key = "op_reply_30_1_1"
 	},
 	op_reply_30_1_2 = {
-		value = "祝指挥官过个好年！",
+		value = "지휘관도 새해 복 많이 받아!",
 		key = "op_reply_30_1_2"
 	},
 	ins_31 = {
-		value = "放风筝真开心~！",
+		value = "연날리기 재밌어~!",
 		key = "ins_31"
 	},
 	ins_discuss_31_1 = {
-		value = "很有趣的样子……",
+		value = "재미있어 보이네……",
 		key = "ins_discuss_31_1"
 	},
 	ins_reply_31_1_1 = {
-		value = "下次也借你玩吧！啊，是不是顺便教教你怎么放比较好啊？明天一起来吧？",
+		value = "다음 번에 빌려줄게! 아, 어떻게 날리는지 알려주는 편이 좋으려나? 내일 같이 할까?",
 		key = "ins_reply_31_1_1"
 	},
 	ins_reply_31_1_2 = {
-		value = "嗯…！谢谢！",
+		value = "응…! 고마워!",
 		key = "ins_reply_31_1_2"
 	},
 	ins_discuss_31_2 = {
-		value = "等明天的演习任务结束以后一起来？",
+		value = "내일 연습 전투가 끝나면 같이 오자?",
 		key = "ins_discuss_31_2"
 	},
 	ins_reply_31_2_1 = {
-		value = "好！一定要来哦！",
+		value = "좋아! 꼭이야!",
 		key = "ins_reply_31_2_1"
 	},
 	ins_op_31_1_1 = {
-		value = "好开心！",
+		value = "즐거워!",
 		key = "ins_op_31_1_1"
 	},
 	ins_op_31_1_2 = {
-		value = "是南安普顿自己做的吗？",
+		value = "사우스햄튼이 직접 만든 거야?",
 		key = "ins_op_31_1_2"
 	},
 	op_reply_31_1_1 = {
-		value = "指挥官下次一起呗？啊，当然要假日才行！",
+		value = "지휘관님도 같이 가실래요? 아, 물론 휴일에!",
 		key = "op_reply_31_1_1"
 	},
 	op_reply_31_1_2 = {
-		value = "啊，不是哦。是{namecode:98}店里买的~",
+		value = "아니요. {namecode:98}의 가게에서 샀죠~",
 		key = "op_reply_31_1_2"
 	},
 	ins_32 = {
-		value = "港区警戒哨，到达指定地点待机中",
+		value = "모항 경계 초소. 현재 대기 중.",
 		key = "ins_32"
 	},
 	ins_discuss_32_1 = {
-		value = "啊，对不起，皇家方舟小姐！好像发错照片了！我重新传一张……",
+		value = "아, 미안해요 아크로열! 사진을 잘못 보낸 것 같아요! 다시 보내줄게요……",
 		key = "ins_discuss_32_1"
 	},
 	ins_reply_32_1_1 = {
-		value = "拜托了！",
+		value = "부탁해!",
 		key = "ins_reply_32_1_1"
 	},
 	ins_discuss_32_2 = {
-		value = "照片我都已经检查过了。不好意思失礼了",
+		value = "사진은 이미 다 확인했어요. 미안해요.",
 		key = "ins_discuss_32_2"
 	},
 	ins_reply_32_2_1 = {
-		value = "没事没事，也麻烦你了，非常感谢~",
+		value = "괜찮아, 괜찮아. 고마워~",
 		key = "ins_reply_32_2_1"
 	},
 	ins_op_32_1_1 = {
-		value = "这是谁拍的…？",
+		value = "누가 찍은 거지…?",
 		key = "ins_op_32_1_1"
 	},
 	ins_op_32_1_2 = {
-		value = "是想拍谁啊…？",
+		value = "누구를 찍으려고 한 거지…?",
 		key = "ins_op_32_1_2"
 	},
 	op_reply_32_1_1 = {
-		value = "是一位志同道合的友人。不用太在意",
+		value = "나와 마음이 맞는 친구가? 신경 쓰지 마.",
 		key = "op_reply_32_1_1"
 	},
 	op_reply_32_1_2 = {
-		value = "是我想要守护的同伴。可没有什么邪念哦！",
+		value = "내가 지키고 싶은 동료일 뿐이야. 흑심 같은 건 없다고!",
 		key = "op_reply_32_1_2"
 	},
 	ins_33 = {
-		value = "耶~烤年糕~来啦！！━━━(ﾟ∀ﾟ)━━━！！",
+		value = "예~ 구운 떡~ 등장!! ━━━(ﾟ∀ﾟ)━━━！！",
 		key = "ins_33"
 	},
 	ins_discuss_33_1 = {
-		value = "原来如此！这就是“深夜放毒”吧！",
+		value = "역시! 이게 바로 ‘위꼴’이러는 건가!",
 		key = "ins_discuss_33_1"
 	},
 	ins_reply_33_1_1 = {
-		value = "请务必给在下留一点！",
+		value = "나도 남겨줘!",
 		key = "ins_reply_33_1_1"
 	},
 	ins_reply_33_1_2 = {
-		value = "已经给{namecode:11}留好了哦",
+		value = "{namecode:11}의 몫은 이미 남겨뒀지.",
 		key = "ins_reply_33_1_2"
 	},
 	ins_reply_33_1_3 = {
-		value = "好，拜托了",
+		value = "좋아, 부탁해!",
 		key = "ins_reply_33_1_3"
 	},
 	ins_discuss_33_2 = {
-		value = "大前辈也做了这个！",
+		value = "선배도 만들었구나!",
 		key = "ins_discuss_33_2"
 	},
 	ins_reply_33_2_1 = {
-		value = "当心别噎着了哦！",
+		value = "목 막히지 않게 조심!",
 		key = "ins_reply_33_2_1"
 	},
 	ins_op_33_1_1 = {
-		value = "来啦━━━(Дﾟ(○=(ﾟ∀ﾟ)=○)Дﾟ)━━━!!! ",
+		value = "왔다━━━(Дﾟ(○=(ﾟ∀ﾟ)=○)Дﾟ)━━━!!!",
 		key = "ins_op_33_1_1"
 	},
 	ins_op_33_1_2 = {
-		value = "很好吃的样子！",
+		value = "맛있어 보여!",
 		key = "ins_op_33_1_2"
 	},
 	op_reply_33_1_1 = {
-		value = "指挥官━━(ﾟдﾟ；)))━━!!??",
+		value = "지휘관━━(ﾟдﾟ；)))━━!!??",
 		key = "op_reply_33_1_1"
 	},
 	op_reply_33_1_2 = {
-		value = "别小看了{namecode:12}的美食频道哦！嘿嘿~",
+		value = "{namecode:12}의 음식 채널, 엿보지 마! 헤헤~",
 		key = "op_reply_33_1_2"
 	},
 	ins_34 = {
-		value = "大概就这样吧",
+		value = "아마도 이런 거겠지.",
 		key = "ins_34"
 	},
 	ins_discuss_34_1 = {
-		value = "那个发光的…不会是朱诺的吧？",
+		value = "저 빛나는 건… 설마 유노?",
 		key = "ins_discuss_34_1"
 	},
 	ins_reply_34_1_1 = {
-		value = "没想到{namecode:181}是会做这种事的孩子……",
+		value = "{namecode:181}도 이런 일을 할 수 있다니……",
 		key = "ins_reply_34_1_1"
 	},
 	ins_reply_34_1_2 = {
-		value = "只是从她那里借来用一下而已！也有给她看照片啦！",
+		value = "빌려온 것뿐이야! 사진도 보여줬어!",
 		key = "ins_reply_34_1_2"
 	},
 	ins_discuss_34_2 = {
-		value = "收拾的时候叫上我哦",
+		value = "치울 때 불러줘.",
 		key = "ins_discuss_34_2"
 	},
 	ins_reply_34_2_1 = {
-		value = "欸？已经到这时候了？",
+		value = "에? 벌써 이런 시간?",
 		key = "ins_reply_34_2_1"
 	},
 	ins_op_34_1_1 = {
-		value = "品味不错",
+		value = "멋있네.",
 		key = "ins_op_34_1_1"
 	},
 	ins_op_34_1_2 = {
-		value = "起名为…《雪之大鬼》？",
+		value = "이름은… <눈의 귀신>?",
 		key = "ins_op_34_1_2"
 	},
 	op_reply_34_1_1 = {
-		value = "哦？指挥官也懂吗？难得找到一个懂得欣赏的啊",
+		value = "어라? 지휘관도 이해했구나? 오래간만에 이해해주는 사람을 만났네.",
 		key = "op_reply_34_1_1"
 	},
 	op_reply_34_1_2 = {
-		value = "要我起的话…《白令的冰鬼》…什么的…果然还是太过了吧",
+		value = "나라면… <베링의 망령>이라던가… 생각이… 너무 나갔나.",
 		key = "op_reply_34_1_2"
 	},
 	ins_35 = {
-		value = "果然还是赢不过本家啊……",
+		value = "역시 이길 수 없다니까……",
 		key = "ins_35"
 	},
 	ins_discuss_35_1 = {
-		value = "都跟你说过了:3",
+		value = "그러길래 내가 뭐랬어:3",
 		key = "ins_discuss_35_1"
 	},
 	ins_discuss_35_2 = {
-		value = "把我打得体无完肤的大姐头竟然…重樱，太可怕了…！",
+		value = "사정을 봐주지 않는 큰언니라니… 사쿠라 엠파이어… 무서워!",
 		key = "ins_discuss_35_2"
 	},
 	ins_reply_35_2_1 = {
-		value = " @Cleve-FC.4  要为大姐头报仇…！",
+		value = " @Cleve-FC.4, 큰언니의 복수를…!",
 		key = "ins_reply_35_2_1"
 	},
 	ins_reply_35_2_2 = {
-		value = "明白",
+		value = "오케이",
 		key = "ins_reply_35_2_2"
 	},
 	ins_reply_35_2_3 = {
-		value = "别报仇啦！",
+		value = "복수하지 마!",
 		key = "ins_reply_35_2_3"
 	},
 	ins_op_35_1_1 = {
-		value = "为什么特意上传这样的照片…？",
+		value = "왜 이런 사진을 올리는 건데…?",
 		key = "ins_op_35_1_1"
 	},
 	ins_op_35_1_2 = {
-		value = "加油Fight！",
+		value = "파이팅!",
 		key = "ins_op_35_1_2"
 	},
 	op_reply_35_1_1 = {
-		value = "为了提醒自己不要忘记这屈辱的失败…！绝对不是因为惩罚游戏的要求哦！",
+		value = "이 굴욕적인 패배를 잊지 않기 위해서…! 절대 벌칙 같은 거 아니니까!",
 		key = "op_reply_35_1_1"
 	},
 	op_reply_35_1_2 = {
-		value = "谢啦！待会陪我练习吧！",
+		value = "땡큐! 나중에 대련해줘!",
 		key = "op_reply_35_1_2"
 	},
 	ins_36 = {
-		value = "新年就是要睡懒觉！被炉太棒了~",
+		value = "새해에는 역시 늦잠! 난로 최고야~",
 		key = "ins_36"
 	},
 	ins_discuss_36_1 = {
-		value = "集中供暖也不错吧？",
+		value = "중앙난방도 괜찮지?",
 		key = "ins_discuss_36_1"
 	},
 	ins_reply_36_1_1 = {
-		value = "要对整个宿舍进行改装也太折腾了……",
+		value = "기숙사 전체 보수는 조금 어려워……",
 		key = "ins_reply_36_1_1"
 	},
 	ins_reply_36_1_2 = {
-		value = "真纠结啊＞w＜",
+		value = "딜레마네＞w＜",
 		key = "ins_reply_36_1_2"
 	},
 	ins_reply_36_1_3 = {
-		value = "这、这是什么颜文字！？",
+		value = "이, 이건 무슨 이모티콘?!",
 		key = "ins_reply_36_1_3"
 	},
 	ins_discuss_36_2 = {
-		value = "要加入午睡部吗？",
+		value = "낮잠부 가입할래?",
 		key = "ins_discuss_36_2"
 	},
 	ins_op_36_1_1 = {
-		value = "被炉是最强的！",
+		value = "난로는 최강!",
 		key = "ins_op_36_1_1"
 	},
 	ins_op_36_1_2 = {
-		value = "暖气才是王道…！",
+		value = "최고는 라디에이터지…!",
 		key = "ins_op_36_1_2"
 	},
 	op_reply_36_1_1 = {
-		value = "千万不能在指挥室放啊！真的会无心工作的！",
+		value = "지휘실에는 안 놔줘. 일을 못할 거잖아!",
 		key = "op_reply_36_1_1"
 	},
 	op_reply_36_1_2 = {
-		value = "那也不错就是…不过，就我个人而言还是更喜欢被炉就是了",
+		value = "그것도 좋지만… 그래도 나는 난로가 더 좋은걸.",
 		key = "op_reply_36_1_2"
 	},
 	ins_37 = {
-		value = "堆雪人、滚雪球、打雪仗…和噗噗一起…",
+		value = "둥실이랑 같이 눈사람, 눈덩이, 눈싸움…",
 		key = "ins_37"
 	},
 	ins_discuss_37_1 = {
-		value = "揉雪球应该不用把啾啾给揉进去…吧",
+		value = "눈덩이에 만쥬를 넣을 필요는 없지… 않을까?",
 		key = "ins_discuss_37_1"
 	},
 	ins_reply_37_1_1 = {
-		value = "是吗？",
+		value = "진짜?",
 		key = "ins_reply_37_1_1"
 	},
 	ins_discuss_37_2 = {
-		value = "意外地挺疼的…{namecode:180}…你是不是太认真了点？",
+		value = "의외로 아픈데… {namecode:180}… 너무 진심 아니야?",
 		key = "ins_discuss_37_2"
 	},
 	ins_op_37_1_1 = {
-		value = "噗噗…在哪里……？",
+		value = "둥실이… 어딨어……?",
 		key = "ins_op_37_1_1"
 	},
 	ins_op_37_1_2 = {
-		value = "好像很开心呢！",
+		value = "재밌어 보이네!",
 		key = "ins_op_37_1_2"
 	},
 	op_reply_37_1_1 = {
-		value = "指挥官…看不见吗？",
+		value = "지휘관… 안 보여?",
 		key = "op_reply_37_1_1"
 	},
 	op_reply_37_1_2 = {
-		value = "指挥官也一起的话，会更开心……",
+		value = "지휘관이랑 같이 하면 더 재밌을 거야……",
 		key = "op_reply_37_1_2"
 	},
 	ins_reply_36_2_1 = {
-		value = "还、还有这种部！？",
+		value = "그, 그런 부도 있어?",
 		key = "ins_reply_36_2_1"
 	},
 	ins_38 = {
-		value = "#假期棒球赛#漂亮的全垒打！",
+		value = "#연휴야구대회#완벽한 홈런!",
 		key = "ins_38"
 	},
 	ins_discuss_38_1 = {
-		value = "咻咻~不愧是大姐头！",
+		value = "휘유~ 역시 큰언니!",
 		key = "ins_discuss_38_1"
 	},
 	ins_reply_38_1_1 = {
-		value = "嘿嘿~全力挥棒的感觉还是很舒服的！",
+		value = "에헤헤… 열심히 하는 느낌은 역시 최고야!",
 		key = "ins_reply_38_1_1"
 	},
 	ins_discuss_38_2 = {
-		value = "驰骋于战场的大姐头…！",
+		value = "전장을 휩쓰는 큰언니…!",
 		key = "ins_discuss_38_2"
 	},
 	ins_reply_38_2_1 = {
-		value = "不不…只是球场而已啦球场！",
+		value = "아니라구… 그냥 야구장이야, 야구장!",
 		key = "ins_reply_38_2_1"
 	},
 	ins_discuss_38_3 = {
-		value = "不过…那个球最后是飞到哪里去了呢？",
+		value = "그런데… 저 공… 어디로 날아가는 거지/",
 		key = "ins_discuss_38_3"
 	},
 	ins_reply_38_3_1 = {
-		value = "啊…！糟了！难道说…！？",
+		value = "아…! 망했다! 설마…?!",
 		key = "ins_reply_38_3_1"
 	},
 	ins_op_38_1_1 = {
-		value = "棒球好像很有趣呢",
+		value = "야구 재밌어 보이네",
 		key = "ins_op_38_1_1"
 	},
 	ins_op_38_1_2 = {
-		value = "哦哦…王牌打击手！",
+		value = "오오… 4번 타자!",
 		key = "ins_op_38_1_2"
 	},
 	op_reply_38_1_1 = {
-		value = "嘿嘿，下次指挥官也一起来参加呗？",
+		value = "에헤헤… 다음번에는 지휘관도 같이하자?",
 		key = "op_reply_38_1_1"
 	},
 	op_reply_38_1_2 = {
-		value = "哈哈，偶尔运气好而已啦~偶尔~",
+		value = "하하, 운이 좋았어, 운이~",
 		key = "op_reply_38_1_2"
 	},
 	ins_39 = {
-		value = "#历史性的瞬间#前辈啊啊啊…!（噗",
+		value = "#역사적인순간#선배애애애…!",
 		key = "ins_39"
 	},
 	ins_discuss_39_1 = {
-		value = "{namecode:95}、{namecode:95}姐…这个是不是有点…",
+		value = "{namecode:95}, {namecode:95} 언니… 이건 조금…",
 		key = "ins_discuss_39_1"
 	},
 	ins_reply_39_1_1 = {
-		value = "究竟是谁竟敢偷袭前辈？！一定不能放过！（噗…",
+		value = "대체 누가 선배 도촬을?! 가만 안 둬 !",
 		key = "ins_reply_39_1_1"
 	},
 	ins_discuss_39_2 = {
-		value = "呵…呵呵…看来港区需要来点“用力”的“扫除”才行了啊，呵呵呵呵呵……",
+		value = "후… 후후… 모항에 조금 ‘청소’가 필요한 모양이네. 후후후후……",
 		key = "ins_discuss_39_2"
 	},
 	ins_reply_39_2_1 = {
-		value = "姐、姐姐！？凶手就让我去找，你休息一下，还是让{namecode:98}来看一下吧…？",
+		value = "언, 언니?! 범인 찾기는 나에게 맡기고 쉬는 게…? 역시 {namecode:98}에게 부탁하자…?",
 		key = "ins_reply_39_2_1"
 	},
 	ins_discuss_39_3 = {
-		value = "啊！？抱歉抱歉！是我的…我我现在就过去当面道歉！！",
+		value = "아?! 미안, 미안! 그… 그거 난데… 지금 가서 사과할게!!",
 		key = "ins_discuss_39_3"
 	},
 	ins_reply_39_3_1 = {
-		value = "*发言已删除",
+		value = "*삭제된 메세지입니다.",
 		key = "ins_reply_39_3_1"
 	},
 	ins_reply_39_3_2 = {
-		value = "对哦，今天好像白鹰那边在搞棒球比赛…",
+		value = "맞아. 그러고 보니 오늘 이글 유니온에서 야구 대회를 한다던데…",
 		key = "ins_reply_39_3_2"
 	},
 	ins_reply_39_3_3 = {
@@ -1481,567 +1481,567 @@ pg.gameset_language_client = {
 		key = "ins_reply_39_3_3"
 	},
 	ins_reply_39_3_4 = {
-		value = "真、真的是对不起了！！",
+		value = "미… 미안합니다!!",
 		key = "ins_reply_39_3_4"
 	},
 	ins_op_39_1_1 = {
-		value = "没事吧！？",
+		value = "괜찮아?!",
 		key = "ins_op_39_1_1"
 	},
 	op_reply_39_1_1 = {
-		value = "啊啊啊啊…指挥官是在担心{namecode:91}吗~？有指挥官的关心，{namecode:91}的心早就痊愈了~",
+		value = "아아아아… 지휘관님도 {namecode:91}의 걱정을! 지휘관님의 사랑 덕분에 {namecode:91}… 벌써 다 나았답니다!",
 		key = "op_reply_39_1_1"
 	},
 	ins_40 = {
-		value = "#采购#惯例的口粮补充时间",
+		value = "#쇼핑#언제나의 식량 보충.",
 		key = "ins_40"
 	},
 	ins_discuss_40_1 = {
-		value = "企业姐还是老样子呢，对伙食不在意到一定程度反而变成了奇怪的坚持的感觉…",
+		value = "엔터프라이즈 언니는 여전하네. 먹는 것에 전혀 신경을 쓰지 않으면서 그냥 버티는 이상한 느낌…",
 		key = "ins_discuss_40_1"
 	},
 	ins_reply_40_1_1 = {
-		value = "食物只要能补充能量，填饱肚子，就够了。尤其是忙的时候",
+		value = "음식은 에너지 보충용일 뿐, 배를 채울 수 있으면 그걸로 충분해. 특히 바쁠 때 말이야.",
 		key = "ins_reply_40_1_1"
 	},
 	ins_discuss_40_2 = {
-		value = "军用口粮吗…难道这就是前辈强大的秘诀之一！？",
+		value = "군용 식량인가… 설마 선배의 강함은 여기서?!",
 		key = "ins_discuss_40_2"
 	},
 	ins_reply_40_2_1 = {
-		value = "…只是单纯这样比较方便而已。成天这么吃自然是不行的",
+		value = "…편리해서일 뿐이야. 이렇게만 먹으면 당연히 안되지.",
 		key = "ins_reply_40_2_1"
 	},
 	ins_reply_40_2_2 = {
-		value = "我懂！",
+		value = "맞아!",
 		key = "ins_reply_40_2_2"
 	},
 	ins_discuss_40_3 = {
-		value = "真是的，成天买这样的口粮，当心又被人误解哦",
+		value = "정말이지, 이런 식량만 사다니. 또 다른 오해를 받을 수 있으니 조심해.",
 		key = "ins_discuss_40_3"
 	},
 	ins_reply_40_3_1 = {
-		value = "唔，这么说好像也是…",
+		value = "음, 그렇게 말하고 나니깐...",
 		key = "ins_reply_40_3_1"
 	},
 	ins_reply_40_3_2 = {
-		value = "你看，照片的远处~",
+		value = "봐봐, 저기 뒤에~",
 		key = "ins_reply_40_3_2"
 	},
 	ins_reply_40_3_3 = {
-		value = "贝尔法斯特？",
+		value = "벨파스트?",
 		key = "ins_reply_40_3_3"
 	},
 	ins_op_40_1_1 = {
-		value = "要不要给你做一顿好的？",
+		value = "내가 뭐라도 해줄까?",
 		key = "ins_op_40_1_1"
 	},
 	ins_op_40_1_2 = {
-		value = "好吃吗…？",
+		value = "맛있어…?",
 		key = "ins_op_40_1_2"
 	},
 	op_reply_40_1_1 = {
-		value = "指挥官还是把精力放在港区的工作上比较好",
+		value = "그럴 힘이 있으면 지휘관은 모항의 일에 신경 쓰는 게 좋겠어.",
 		key = "op_reply_40_1_1"
 	},
 	op_reply_40_1_2 = {
-		value = "无所谓好不好吃，只要能吃饱就行了",
+		value = "맛은 상관없어. 먹을 수만 있으면 되니까.",
 		key = "op_reply_40_1_2"
 	},
 	op_reply_40_1_3 = {
-		value = "明明每次指挥官给你做的时候都那么期待呢～",
+		value = "분명 지휘관이 요리해줄 때마다 엄청 기대했는데~",
 		key = "op_reply_40_1_3"
 	},
 	op_reply_40_1_4 = {
-		value = "……只是最近做的还没吃完而已…",
+		value = "......요즘 한 것들을 전부 다 먹어보지 않았을 뿐이야...",
 		key = "op_reply_40_1_4"
 	},
 	op_reply_40_1_5 = {
-		value = "企业？女灶神不是都教你做饭了嘛…",
+		value = "엔터프라이즈? 베스탈이 요리 가르쳐주지 않았어...?",
 		key = "op_reply_40_1_5"
 	},
 	op_reply_40_1_6 = {
-		value = "我也不是不做饭啦，之前不是还帮指挥官做了吃的了么",
+		value = "나도 요리해. 전에 지휘관을 도와서도 요리 했었다고.",
 		key = "op_reply_40_1_6"
 	},
 	ins_41 = {
-		value = "#女仆的营养学#用餐时合理的膳食纤维摄入，是保持身体健康的诀窍之一~",
+		value = "#메이드의영양학#골고루 먹는 것이 건강 유지의 비결입니다.",
 		key = "ins_41"
 	},
 	ins_discuss_41_1 = {
-		value = "呣…虽然不讨厌吃蔬菜，不过还是军用口粮更方便……",
+		value = "윽… 야채가 싫은 건 아니지만, 역시 군용 식량 쪽이 더 편리해……",
 		key = "ins_discuss_41_1"
 	},
 	ins_reply_41_1_1 = {
-		value = "您想把那样的东西称作“进餐”吗，企业大人？",
+		value = "엔터프라이즈님, 그런 것을 ‘식사'라고 하실 참입니까?",
 		key = "ins_reply_41_1_1"
 	},
 	ins_reply_41_1_2 = {
-		value = "好好好……这个菜谱是谁想的？",
+		value = "알았어, 알았어... 이 메뉴는 누가 생각한거야?",
 		key = "ins_reply_41_1_2"
 	},
 	ins_reply_41_1_3 = {
-		value = "是内华达大人给我的哦。“不要挑食”——她是这么说的",
+		value = "네바다님이 준거야. \"편식 하지마\"라고 말했어.",
 		key = "ins_reply_41_1_3"
 	},
 	ins_reply_41_1_4 = {
-		value = "…那家伙有点太担心别人了",
+		value = "...그녀석은 남을 너무 걱정하는 거 같아.",
 		key = "ins_reply_41_1_4"
 	},
 	ins_discuss_41_2 = {
-		value = "真好啊~贝法~也给姐姐做点吃的嘛，蛋糕什么的~",
+		value = "대단하네, 벨파스트~ 언니한테도 만들어줘. 케이크라거나?",
 		key = "ins_discuss_41_2"
 	},
 	ins_reply_41_2_1 = {
-		value = "过多的糖分摄入对身体也是没什么好处的哦，姐姐",
+		value = "과도한 당분 섭취는 몸에 좋지 않습니다, 언니.",
 		key = "ins_reply_41_2_1"
 	},
 	ins_reply_41_2_2 = {
-		value = "欸~在这里也要这么讲究的吗！？",
+		value = "에~ 여기에서도 잔소리인 거야?!",
 		key = "ins_reply_41_2_2"
 	},
 	ins_discuss_41_3 = {
-		value = "话说，为什么是贝尔法斯特在喂企业姐？",
+		value = "그런데, 왜 벨파스트가 엔터 언니를 먹여주는 거야?",
 		key = "ins_discuss_41_3"
 	},
 	ins_reply_41_3_1 = {
-		value = "“如果我做的话，可能厨房冒烟的时候企业酱就知道我要来了，麻烦你看好她哦”—女灶神是这么说的",
+		value = "\"만약 내가 한다면, 주방에서 연기가 날 때 엔터쨩은 내가 금방 올거란 걸 알거야. 잘 좀 봐줘.\"라고 베스탈이 말했었어.",
 		key = "ins_reply_41_3_1"
 	},
 	ins_reply_41_3_2 = {
-		value = "为什么做个沙拉都能冒烟啊！？",
+		value = "왜 샐러드를 만드는데 연기가 나!?",
 		key = "ins_reply_41_3_2"
 	},
 	ins_reply_41_3_3 = {
-		value = "抱歉，我也不是很明白…",
+		value = "미안, 그건 나도 잘 모르겠다...",
 		key = "ins_reply_41_3_3"
 	},
 	ins_op_41_1_1 = {
-		value = "女、女仆还要研究营养学的吗！？",
+		value = "메, 메이드는 영양학 공부도 해야 하는 건가?!",
 		key = "ins_op_41_1_1"
 	},
 	ins_op_41_1_2 = {
-		value = "肉呢？",
+		value = "고기는?",
 		key = "ins_op_41_1_2"
 	},
 	op_reply_41_1_1 = {
-		value = "保证诸位的身体健康也是女仆的职责哦",
+		value = "여러분의 건강을 책임지는 것도 메이드의 의무입니다.",
 		key = "op_reply_41_1_1"
 	},
 	op_reply_41_1_2 = {
-		value = "重要的是合理的荤素搭配哦",
+		value = "중요한 영양소는 모두 들어 있습니다.",
 		key = "op_reply_41_1_2"
 	},
 	op_reply_41_1_3 = {
-		value = "就算是女灶神拜托你的，也没必要这样押着我吃吧…",
+		value = "베스탈이 너에게 부탁하긴 했어도, 꼭 이렇게 억지로 먹일 필요는 없지 않나...",
 		key = "op_reply_41_1_3"
 	},
 	op_reply_41_1_4 = {
-		value = "有道理，牛排就留到周六好了",
+		value = "일리 있어. 스테이크는 토요일까지 남겨 놓으면 되겠다.",
 		key = "op_reply_41_1_4"
 	},
 	ins_42 = {
-		value = "#散步时间#偶尔还是得活动一下身体才行呢，哼哼！",
+		value = "#산책시간#가끔 나와서 몸을 움직여줘야지. 으흥!",
 		key = "ins_42"
 	},
 	ins_discuss_42_1 = {
-		value = "好像很开心呢，姐姐",
+		value = "언니, 즐거워 보이네.",
 		key = "ins_discuss_42_1"
 	},
 	ins_reply_42_1_1 = {
-		value = "偶尔做点低等动物们会做的行为，也不失为一种不错的调剂吧，哈哈哈！",
+		value = "가끔은 하등 생물들이 하는 일을 하는 것도 기분 전환에 괜찮은걸? 하하하!",
 		key = "ins_reply_42_1_1"
 	},
 	ins_discuss_42_2 = {
-		value = "呼呼…真是可爱呢",
+		value = "후후… 귀엽네.",
 		key = "ins_discuss_42_2"
 	},
 	ins_reply_42_2_1 = {
-		value = "说什么可爱，无论是德意志大人还是德意志大人的汪汪，都是帅气的顶点！",
+		value = "누가 귀엽다는 거지? 도이칠란트님이던, 도이칠란트의 멍멍이던 모두 멋있단 말이다!",
 		key = "ins_reply_42_2_1"
 	},
 	ins_reply_42_2_2 = {
-		value = "就是这点显得更可爱了啊，呵呵呵",
+		value = "이런 점이 귀엽다는 거야. 후후후.",
 		key = "ins_reply_42_2_2"
 	},
 	ins_reply_42_2_3 = {
-		value = "戏弄同僚也要适可而止啊，欧根",
+		value = "오이겐, 장난은 거기까지 해.",
 		key = "ins_reply_42_2_3"
 	},
 	ins_reply_42_2_4 = {
-		value = "哎呀？小希佩尔嫉妒了？放心吧，在我眼中，你才是最可爱的~",
+		value = "어라? 히퍼쨩, 질투? 걱정 마. 내 눈에는 네가 제일 귀여우니까.",
 		key = "ins_reply_42_2_4"
 	},
 	ins_reply_42_2_5 = {
-		value = "哈、哈啊！？谁嫉妒了啊！！！？",
+		value = "하, 하아?! 누가 질투한다는 거야?!!!!",
 		key = "ins_reply_42_2_5"
 	},
 	ins_reply_42_2_6 = {
-		value = "哼，还真是愉快的一对姐妹啊",
+		value = "흥, 역시나 웃긴 자매들이군.",
 		key = "ins_reply_42_2_6"
 	},
 	ins_op_42_1_1 = {
-		value = "今天天气不错啊",
+		value = "날씨 좋네.",
 		key = "ins_op_42_1_1"
 	},
 	ins_op_42_1_2 = {
-		value = "那玩意儿果然是会自己动的吗…",
+		value = "그런 걸로 움직이는 거냐고…",
 		key = "ins_op_42_1_2"
 	},
 	op_reply_42_1_1 = {
-		value = "与其说这些蠢话，不如来帮我牵绳！",
+		value = "헛소리 그만하고 와서 줄이나 잡아!",
 		key = "op_reply_42_1_1"
 	},
 	op_reply_42_1_2 = {
-		value = "这小家伙精神着呢，你也多学习学习如何，低等动物？哼哼",
+		value = "이 녀석 똑똑하거든. 너도 열심히 공부해야지, 하등 생물? 후후.",
 		key = "op_reply_42_1_2"
 	},
 	ins_43 = {
-		value = "#酒后真言#重樱也不容易呢…下次再一起喝酒吧~",
+		value = "#취중진담#사쿠라 엠파이어 대단하네… 다음번에도 마시자고~",
 		key = "ins_43"
 	},
 	ins_discuss_43_1 = {
-		value = "唔…这是什么时候拍的…",
+		value = "으… 언제 찍은 거야…",
 		key = "ins_discuss_43_1"
 	},
 	ins_reply_43_1_1 = {
-		value = "在那天晚上{namecode:92}灌了不知道多少杯啤酒以后，一边嚼着鸡肉串，一边喊着奇怪的牢骚的时候…哈哈哈哈",
+		value = "그날 밤 {namecode:92}쨩이 취해서 닭다리 뜯고 이상한 소리 할 때 찍었지… 하하하하",
 		key = "ins_reply_43_1_1"
 	},
 	ins_reply_43_1_2 = {
-		value = "…那只是一时的…",
+		value = "…그 잠깐 사이에…",
 		key = "ins_reply_43_1_2"
 	},
 	ins_discuss_43_2 = {
-		value = "{namecode:92}前辈平时那么冷静又游刃有余的样子…其实还是积累了不少压力啊…",
+		value = "{namecode:92}선배, 평소에는 냉정하고 침착하지만… 역시 스트레스받고 있던 걸까…",
 		key = "ins_discuss_43_2"
 	},
 	ins_reply_43_2_1 = {
-		value = "所以说那只是一时的…",
+		value = "그러니까 잠깐이었다고…",
 		key = "ins_reply_43_2_1"
 	},
 	ins_discuss_43_3 = {
-		value = "{namecode:92}，有什么烦恼的话，尽管跟我说哦",
+		value = "{namecode:92}, 걱정이 있으면 들어줄게.",
 		key = "ins_discuss_43_3"
 	},
 	ins_reply_43_3_1 = {
-		value = "姐、姐姐…",
+		value = "언, 언니…",
 		key = "ins_reply_43_3_1"
 	},
 	ins_reply_43_3_2 = {
-		value = "{namecode:92}前辈的烦恼之源，说不定其实就是{namecode:91}前辈吧？噗~",
+		value = "{namecode:92} 선배의 스트레스는 사실 {namecode:91} 선배 때문 아닐까? 흠~",
 		key = "ins_reply_43_3_2"
 	},
 	ins_reply_43_3_3 = {
-		value = "姐、姐姐…我觉得大概不只是那样吧…",
+		value = "언, 언니… 그건 아닌 것 같아…",
 		key = "ins_reply_43_3_3"
 	},
 	ins_op_43_1_1 = {
-		value = "酒会啊…真不错",
+		value = "술인가… 좋네",
 		key = "ins_op_43_1_1"
 	},
 	ins_op_43_1_2 = {
-		value = "{namecode:92}…有什么烦恼吗？",
+		value = "{namecode:92}… 고민이라도 있어?",
 		key = "ins_op_43_1_2"
 	},
 	op_reply_43_1_1 = {
-		value = "指挥官也一起来吗？我会好好聆听你的烦恼的，哈哈",
+		value = "지휘관도 같이 마실래? 고민 있으면 들어줄 테니까. 하하.",
 		key = "op_reply_43_1_1"
 	},
 	op_reply_43_1_2 = {
-		value = "没有，只是一时的…情绪释放而已",
+		value = "아니, 그냥 잠시… 하이해졌을 뿐이야…",
 		key = "op_reply_43_1_2"
 	},
 	ins_44 = {
-		value = "嘻嘻，糖果糖果，要乖乖哦，长大后结出好多好多的糖果~",
+		value = "에헤헤, 사탕이 크면 더 많은 사탕이 생기겠지!",
 		key = "ins_44"
 	},
 	ins_discuss_44_1 = {
-		value = "欸！？真的能结果吗！？",
+		value = "에엣?! 정말 생기는 거야?!",
 		key = "ins_discuss_44_1"
 	},
 	ins_reply_44_1_1 = {
-		value = "{namecode:33}也不确定，试试看吧！",
+		value = "{namecode:33}도 몰라. 해보는 거야!",
 		key = "ins_reply_44_1_1"
 	},
 	ins_reply_44_1_2 = {
-		value = "加、加油，{namecode:33}酱！",
+		value = "힘, 힘내. {namecode:33}쨩!",
 		key = "ins_reply_44_1_2"
 	},
 	ins_reply_44_1_3 = {
-		value = "嗯！",
+		value = "응!",
 		key = "ins_reply_44_1_3"
 	},
 	ins_discuss_44_2 = {
-		value = "啊哈哈…心诚则灵，有那颗勇于尝试的心才是最重要的啊~",
+		value = "아하하… 대단하네. 그런 발상이 가장 중요한 거지!",
 		key = "ins_discuss_44_2"
 	},
 	ins_reply_44_2_1 = {
-		value = "虽然没听太懂，不过{namecode:33}会加油的！",
+		value = "무슨 소린지 모르겠어… 그래도 {namecode:33} 힘낼게!",
 		key = "ins_reply_44_2_1"
 	},
 	ins_op_44_1_1 = {
-		value = "要吃糖吗？我这里还准备了一些",
+		value = "사탕 먹을래? 가진 게 좀 있는데.",
 		key = "ins_op_44_1_1"
 	},
 	ins_op_44_1_2 = {
-		value = "期待结出果实的一天",
+		value = "사탕 열리는 날, 기다릴게.",
 		key = "ins_op_44_1_2"
 	},
 	op_reply_44_1_1 = {
-		value = "哇啊！谢谢指挥官！",
+		value = "우와! 지히간, 고마워!",
 		key = "op_reply_44_1_1"
 	},
 	op_reply_44_1_2 = {
-		value = "嘿嘿~到时候也分给指挥官一颗！",
+		value = "에헤헤~ 지히간도 나눠줄게!",
 		key = "op_reply_44_1_2"
 	},
 	ins_45 = {
-		value = "新买的特制平底锅爆炸啦！",
+		value = "새로 산 프라이팬 폭발했다!",
 		key = "ins_45"
 	},
 	ins_discuss_45_1 = {
-		value = "呼喵！？不、不可能，一定是使用方法不对喵！",
+		value = "우냥?! 그, 그럴 리 없다냥! 분명 잘못 사용한 거다냥!",
 		key = "ins_discuss_45_1"
 	},
 	ins_reply_45_1_1 = {
-		value = "原来是{namecode:98}的新产品吗…",
+		value = "{namecode:98}의 신상품이었냐…",
 		key = "ins_reply_45_1_1"
 	},
 	ins_reply_45_1_2 = {
-		value = "“特制·自热平底锅”什么的…想说尝试一下，没想到…orz",
+		value = "‘특제 발열 프라이팬’… 써보고 싶었는데 이럴 수가…OTZ",
 		key = "ins_reply_45_1_2"
 	},
 	ins_reply_45_1_3 = {
-		value = "一、一定是有什么误会喵，等{namecode:98}去调查一下喵…！",
+		value = "오, 오해다냥! {namecode:98}가 확인해보겠다냥…!",
 		key = "ins_reply_45_1_3"
 	},
 	ins_discuss_45_2 = {
-		value = "「料理就是爆炸！」……？",
+		value = "「폭발하는 요리」……?",
 		key = "ins_discuss_45_2"
 	},
 	ins_reply_45_2_1 = {
-		value = "才不要爆炸啦！",
+		value = "폭발 안 했어!",
 		key = "ins_reply_45_2_1"
 	},
 	ins_discuss_45_3 = {
-		value = "荷包蛋…走好…（远目",
+		value = "계란 프라이… 안녕… (먼산",
 		key = "ins_discuss_45_3"
 	},
 	ins_reply_45_3_1 = {
-		value = "呜…",
+		value = "음…",
 		key = "ins_reply_45_3_1"
 	},
 	ins_op_45_1_1 = {
-		value = "人、人没事吧？！",
+		value = "안, 안 다쳤어?!",
 		key = "ins_op_45_1_1"
 	},
 	ins_op_45_1_2 = {
-		value = "荷包蛋…还能吃吗？",
+		value = "계란 프라이… 먹을 수 있을까?",
 		key = "ins_op_45_1_2"
 	},
 	op_reply_45_1_1 = {
-		value = "呜…虽然吓了一跳，不过没什么事…",
+		value = "으… 깜짝 놀랐지만 괜찮아…",
 		key = "op_reply_45_1_1"
 	},
 	op_reply_45_1_2 = {
-		value = "虽、虽然有点焦，不过…指挥官要试试吗？后果自负哦…！",
+		value = "조… 조금 탔지만… 지휘관, 먹어볼래? 뒷 일은 책임 안 질 거지만!",
 		key = "op_reply_45_1_2"
 	},
 	ins_46 = {
-		value = "现行犯捕获",
+		value = "현행범 체포.",
 		key = "ins_46"
 	},
 	ins_discuss_46_1 = {
-		value = "所、所以说是误会啊！！我只是受人委托帮忙拍照而已啊！",
+		value = "오, 오해라니까! 난 부탁받은 것뿐이라고!",
 		key = "ins_discuss_46_1"
 	},
 	ins_reply_46_1_1 = {
-		value = "你的表情出卖了你…",
+		value = "얼굴에 다 써있어…",
 		key = "ins_reply_46_1_1"
 	},
 	ins_reply_46_1_2 = {
-		value = "我只对驱逐妹妹发…咳咳，发乎情止乎礼啊…！",
+		value = "난 그저 구축함들에게… 흠흠, 아주 잘해주고 있단 말이야…!",
 		key = "ins_reply_46_1_2"
 	},
 	ins_discuss_46_2 = {
-		value = "啊…确实是委托了皇家方舟给女仆队的孩子们拍照…",
+		value = "아… 확실히 메이드단의 사진을 부탁한 것은 아크로열입니다만…",
 		key = "ins_discuss_46_2"
 	},
 	ins_reply_46_2_1 = {
-		value = "是、是这样么…",
+		value = "그, 그런 건가…",
 		key = "ins_reply_46_2_1"
 	},
 	ins_reply_46_2_2 = {
-		value = "呜…我、我只是有点紧张…",
+		value = "으… 조, 조금 긴장돼서…",
 		key = "ins_reply_46_2_2"
 	},
 	ins_reply_46_2_3 = {
-		value = "不过皇家方舟这气势确实让人有点…",
+		value = "하지만 아크로열의 기세는 역시 좀…",
 		key = "ins_reply_46_2_3"
 	},
 	ins_reply_46_2_4 = {
-		value = "啊！怎么连贝尔法斯特都这么说！？",
+		value = "아! 벨파스트마저 이런 말을?!",
 		key = "ins_reply_46_2_4"
 	},
 	ins_op_46_1_1 = {
-		value = "皇家方舟…节哀(拍肩",
+		value = "아크로열… RIP(토닥",
 		key = "ins_op_46_1_1"
 	},
 	ins_op_46_1_2 = {
-		value = "小贝法…没问题吧？",
+		value = "벨파스트… 괜찮겠지?",
 		key = "ins_op_46_1_2"
 	},
 	op_reply_46_1_1 = {
-		value = "我明明…只是想好好帮忙拍个照而已…OTL",
+		value = "분명… 사진 찍는 걸 도와주고 싶었을 뿐이었는데… OTL",
 		key = "op_reply_46_1_1"
 	},
 	op_reply_46_1_2 = {
-		value = "没、没事了…只是一时太紧张了…",
+		value = "괜, 괜찮아… 긴장해서 그래…",
 		key = "op_reply_46_1_2"
 	},
 	ins_47 = {
-		value = "呼呼…照顾后辈是身为前辈应该做的事情~",
+		value = "후후… 후배를 챙기는 것은 선배의 의무!",
 		key = "ins_47"
 	},
 	ins_discuss_47_1 = {
-		value = "救、救命…前辈…我真的不需要打针啦！！",
+		value = "살, 살려줘… 선배… 주사 안 맞아도 돼!!",
 		key = "ins_discuss_47_1"
 	},
 	ins_reply_47_1_1 = {
-		value = "呵呵呵…不打针怎么能好得快呢~",
+		value = "후후후… 주사 안 맞고 어떻게 나아?",
 		key = "ins_reply_47_1_1"
 	},
 	ins_discuss_47_2 = {
-		value = "姐、姐姐…前辈的热情，你就…接受了吧",
+		value = "언, 언니… 선배의 열정… 그냥 받아들여…",
 		key = "ins_discuss_47_2"
 	},
 	ins_reply_47_2_1 = {
-		value = "我已经不知道是生病发冷还是因为前辈而发冷了…",
+		value = "아파서 추운 건지 선배 때문에 추운 건지 모르겠어…",
 		key = "ins_reply_47_2_1"
 	},
 	ins_discuss_47_3 = {
-		value = "没想到姐姐也能像这样照顾后辈了…",
+		value = "언니가 이렇게 후배를 돌봐줄 수도 있구나…",
 		key = "ins_discuss_47_3"
 	},
 	ins_reply_47_3_1 = {
-		value = "{namecode:92}如果生病了，我也会用心照顾你的哦~",
+		value = "{namecode:92}, 아프면 내가 돌봐줄게!",
 		key = "ins_reply_47_3_1"
 	},
 	ins_reply_47_3_2 = {
-		value = "姐、姐姐…！",
+		value = "언, 언니…!",
 		key = "ins_reply_47_3_2"
 	},
 	ins_op_47_1_1 = {
-		value = "真是令人感动的画面…！",
+		value = "감동적인 장면…!",
 		key = "ins_op_47_1_1"
 	},
 	ins_op_47_1_2 = {
-		value = "要、要不要喊{namecode:98}或者女灶神去看看…",
+		value = "역시 {namecode:98} 아니면 베스탈을 부르는 편이…",
 		key = "ins_op_47_1_2"
 	},
 	op_reply_47_1_1 = {
-		value = "呜呜…指挥官…救命……",
+		value = "으으… 지휘관… 살려줘……",
 		key = "op_reply_47_1_1"
 	},
 	op_reply_47_1_2 = {
-		value = "请、请务必！！",
+		value = "제발, 꼭!",
 		key = "op_reply_47_1_2"
 	},
 	ins_48 = {
-		value = "平海的功夫练习",
+		value = "핑하이의 쿵후 연습",
 		key = "ins_48"
 	},
 	ins_discuss_48_1 = {
-		value = "欸？平海和宁海不是出去海外旅游了吗？",
+		value = "에? 핑하이랑 닝하이, 해외여행 간 거 아니었어?",
 		key = "ins_discuss_48_1"
 	},
 	ins_reply_48_1_1 = {
-		value = "呵呵…这个是之前拍的，觉得挺有意思的，就发出来了",
+		value = "후후… 그 전에 찍은 거랍니다. 귀여워서 올렸지요.",
 		key = "ins_reply_48_1_1"
 	},
 	ins_discuss_48_2 = {
-		value = "啊哈哈，好像很好玩欸！鞍山姐，我们也来玩这种练习吧！",
+		value = "아하하, 재밌어보이네! 안샨 언니. 우리도 이런 연습 하자!",
 		key = "ins_discuss_48_2"
 	},
 	ins_reply_48_2_1 = {
-		value = "自己玩去！…不过，逸仙还真是淡定啊…",
+		value = "너희끼리 해! 하지만 얏센도 꽤 침착하잖아.",
 		key = "ins_reply_48_2_1"
 	},
 	ins_reply_48_2_2 = {
-		value = "呵呵，因为信任平海吧~",
+		value = "후후, 핑하이를 믿으니까요.",
 		key = "ins_reply_48_2_2"
 	},
 	ins_discuss_48_3 = {
-		value = "原来那时候拍照了吗…",
+		value = "그때 찍은 건가…",
 		key = "ins_discuss_48_3"
 	},
 	ins_reply_48_3_1 = {
-		value = "海外旅行有趣吗！",
+		value = "해외여행 재밌어?",
 		key = "ins_reply_48_3_1"
 	},
 	ins_reply_48_3_2 = {
-		value = "嗯！很好吃！！",
+		value = "응! 맛있어!!",
 		key = "ins_reply_48_3_2"
 	},
 	ins_reply_48_3_3 = {
-		value = "就知道吃吃吃！我们会给大家带礼物回去的，敬请期待！",
+		value = "먹는 것밖에 모르지! 기념품 사가지고 갈게. 기다려줘!",
 		key = "ins_reply_48_3_3"
 	},
 	ins_op_48_1_1 = {
-		value = "功、功夫…！？",
+		value = "쿵, 쿵후…?!",
 		key = "ins_op_48_1_1"
 	},
 	ins_op_48_1_2 = {
-		value = "突然想喝可乐了…",
+		value = "갑자기 콜라 마시고 싶어졌다…",
 		key = "ins_op_48_1_2"
 	},
 	op_reply_48_1_1 = {
-		value = "呵呵，只是平海宁海锻炼身体的方式而已~",
+		value = "후후, 핑하이와 닝하이의 연습일 뿐이랍니다.",
 		key = "op_reply_48_1_1"
 	},
 	op_reply_48_1_2 = {
-		value = "平海也饿了！",
+		value = "핑하이도 배고파!",
 		key = "op_reply_48_1_2"
 	},
 	op_reply_48_1_3 = {
-		value = "…行行行，我们去吃饭！",
+		value = "…그래그래, 밥 먹으러 가자!",
 		key = "op_reply_48_1_3"
 	},
 	ins_49 = {
-		value = "#搞砸了#非、非常抱歉，{namecode:82}大人！！",
+		value = "#와장창#죄, 죄송합니다 {namecode:82}님!!",
 		key = "ins_49"
 	},
 	ins_discuss_49_1 = {
-		value = "感觉我的收藏好像很容易遭殃…OTL",
+		value = "내 수집품은 쉽게 망가지는 것 같네…OTL",
 		key = "ins_discuss_49_1"
 	},
 	ins_reply_49_1_1 = {
-		value = "非、非常抱歉！天狼星会想办法修复的！",
+		value = "죄, 죄송합니다! 시리우스가 어떻게든 되돌려 놓겠습니다!",
 		key = "ins_reply_49_1_1"
 	},
 	ins_reply_49_1_2 = {
-		value = "{namecode:82}前辈的收藏又坏掉了吗？{namecode:33}也来帮忙修理！！",
+		value = "{namecode:82} 선배의 수집품, 또 망가졌어? {namecode:33}도 도와줄게!",
 		key = "ins_reply_49_1_2"
 	},
 	ins_reply_49_1_3 = {
-		value = "啊哈哈…小{namecode:33}有这个心就很好了。天狼星…也别太放心上了，本来也是我请你们来帮忙打扫的……",
+		value = "아하하… {namecode:33}의 마음으로 충분해. 시리우스… 너무 마음에 담아두지 말거라. 청소를 부탁한 것은 이쪽이니까……",
 		key = "ins_reply_49_1_3"
 	},
 	ins_discuss_49_2 = {
-		value = "非常抱歉，{namecode:82}大人。请放心，您的船模，皇家女仆队一定会为您完美修复的",
+		value = "죄송합니다, {namecode:82}님. 걱정 마시길. 프라모델은 로열 메이드단이 반드시 고쳐놓겠습니다.",
 		key = "ins_discuss_49_2"
 	},
 	ins_reply_49_2_1 = {
-		value = "哦、哦哦…这话从女仆队长嘴里说出来就很有说服力呢…那就拜托了！",
+		value = "오, 오오… 메이드가 하는 말이라 묘한 설득력이… 그럼 부탁하지.",
 		key = "ins_reply_49_2_1"
 	},
 	ins_op_49_1_1 = {
-		value = "{namecode:82}的博物馆…又遭殃了吗……",
+		value = "{namecode:82} 선배의 박물관… 또 난리가 났구나……",
 		key = "ins_op_49_1_1"
 	},
 	ins_op_49_1_2 = {
-		value = "我也来帮忙修复吧…？",
+		value = "나도 도와줄까…?",
 		key = "ins_op_49_1_2"
 	},
 	op_reply_49_1_1 = {
@@ -2049,415 +2049,415 @@ pg.gameset_language_client = {
 		key = "op_reply_49_1_1"
 	},
 	op_reply_49_1_2 = {
-		value = "请、请惩罚又搞砸了的天狼星吧！",
+		value = "시, 시리우스에게 벌을 주세요!",
 		key = "op_reply_49_1_2"
 	},
 	ins_50 = {
-		value = "夏天时的有趣回忆",
+		value = "여름날의 즐거운 기억",
 		key = "ins_50"
 	},
 	ins_discuss_50_1 = {
-		value = "哼，这时候才把那时的回忆拿出来吗…不得不说，即便是我，在那瞬间也感觉到了一阵寒冬般的凉意啊",
+		value = "흠, 이제야 그때의 추억을 꺼내놓다니… 아무리 나라도 그때는 서늘한 한기가 느껴졌는데.",
 		key = "ins_discuss_50_1"
 	},
 	ins_reply_50_1_1 = {
-		value = "抱歉，当时有点…太专注于手上的球棒上了",
+		value = "미안, 그때는… 배트에 집중하고 있어서.",
 		key = "ins_reply_50_1_1"
 	},
 	ins_discuss_50_2 = {
-		value = "一点小事，像低等动物那般一惊一乍的成何体统！",
+		value = "사소한 일에 하등 생물처럼 놀라다니, 이게 무슨 꼴인지!",
 		key = "ins_discuss_50_2"
 	},
 	ins_reply_50_2_1 = {
-		value = "姐姐当时也吓了一跳…吧，当Z46的球棒在耳边砸下的时候",
+		value = "언니도 그때 깜짝 놀랐…지. Z46의 공이 귓가에 스쳐 지나갔을 때.",
 		key = "ins_reply_50_2_1"
 	},
 	ins_reply_50_2_2 = {
-		value = "那、那只是配合气氛，堂堂德意志大人怎么可能因为这点小事就慌慌张张！",
+		value = "그, 그건 분위기에 휩쓸렸을 뿐이다. 이 도이칠란트님이 그런 사소한 것으로 놀랄 리가!",
 		key = "ins_reply_50_2_2"
 	},
 	ins_discuss_50_3 = {
-		value = "看着那副场景还能不慌不忙的拍下这张照片的欧根才是…哈啊…都有点佩服你了",
+		value = "그런 상황에서도 놀라지 않고 사진을 찍었던 오이겐이야 말로… 하아…대단하다니까.",
 		key = "ins_discuss_50_3"
 	},
 	ins_reply_50_3_1 = {
-		value = "呵呵呵~这么有趣的场景，怎么能错过嘛~可惜没拍下后来德意志的精彩表情…遗憾",
+		value = "우후후~ 이렇게 재밌는 모습을 놓칠 리가. 그 뒤에 도이칠란트의 표정을 찍지 못한게… 조금 유감인걸.",
 		key = "ins_reply_50_3_1"
 	},
 	ins_op_50_1_1 = {
-		value = "德意志…后来没事吧？",
+		value = "도이칠란트… 괜찮았어?",
 		key = "ins_op_50_1_1"
 	},
 	ins_op_50_1_2 = {
-		value = "欧根…是怎么抓拍到这一刻的？",
+		value = "오이겐… 사진은 어떻게 찍은거야?",
 		key = "ins_op_50_1_2"
 	},
 	op_reply_50_1_1 = {
-		value = "哼，低等动物就是喜欢一惊一乍的，当然没什么事了！",
+		value = "흥, 내가 놀란 것이 즐겁지? 이 하등 생물. 별일 없었다.",
 		key = "op_reply_50_1_1"
 	},
 	op_reply_50_1_2 = {
-		value = "呵呵~精彩不容错过呀~",
+		value = "후후~ 재밌는 걸 놓칠 수 없으니까.",
 		key = "op_reply_50_1_2"
 	},
 	ins_51 = {
-		value = "半夜最大的“惊喜”…",
+		value = "한밤중의 서프라이즈…",
 		key = "ins_51"
 	},
 	ins_discuss_51_1 = {
-		value = "呵呵~偶尔也会想缅怀下故乡的寒冷和烈酒~",
+		value = "후후~ 가끔은 고향의 추위와 위스키가 생각나는걸~",
 		key = "ins_discuss_51_1"
 	},
 	ins_reply_51_1_1 = {
-		value = "那个冰箱是什么时候被改造成了小休息室的…",
+		value = "그 냉장고, 언제 휴게실로 개조한 거죠…",
 		key = "ins_reply_51_1_1"
 	},
 	ins_reply_51_1_2 = {
-		value = "只是简单把冰箱里的酒都解决了，自然就有空间了~",
+		value = "냉장고에 있던 술만 간단히 해결하고 나면, 공간이 생기니까~",
 		key = "ins_reply_51_1_2"
 	},
 	ins_discuss_51_2 = {
-		value = "不、不愧是来自北方联合的…",
+		value = "역, 역시 노스 유니온…",
 		key = "ins_discuss_51_2"
 	},
 	ins_discuss_51_3 = {
-		value = "吨吨吨的感觉…拉菲懂…！",
+		value = "이 느낌… 라피 알고 있어…!",
 		key = "ins_discuss_51_3"
 	},
 	ins_op_51_1_1 = {
-		value = "北方联合…厉害…！",
+		value = "노스 유니온… 대단해…!",
 		key = "ins_op_51_1_1"
 	},
 	ins_op_51_1_2 = {
-		value = "Z23…辛苦了…",
+		value = "Z23… 수고했어…",
 		key = "ins_op_51_1_2"
 	},
 	op_reply_51_1_1 = {
-		value = "指挥官也要来一瓶伏特加吗，呵呵~",
+		value = "지휘관도 보드카 한 잔 어때? 후후~",
 		key = "op_reply_51_1_1"
 	},
 	op_reply_51_1_2 = {
-		value = "是、是真的吓了一大跳啊…",
+		value = "정, 정말 놀랐습니다…",
 		key = "op_reply_51_1_2"
 	},
 	ins_52 = {
-		value = "久违的忍者特训…是也！",
+		value = "오래간만의 닌자 특훈… 좋아!",
 		key = "ins_52"
 	},
 	ins_discuss_52_1 = {
-		value = "哦哦…原来如此，这就是所谓的“excite”吧！",
+		value = "오오… 이게 바로 ‘익사이트’라는 건가!",
 		key = "ins_discuss_52_1"
 	},
 	ins_reply_52_1_1 = {
-		value = "没错，正是激动人心的锻炼是也！",
+		value = "맞아. 두근거리는 훈련이지!",
 		key = "ins_reply_52_1_1"
 	},
 	ins_discuss_52_2 = {
-		value = "呼呼~像这样在清晨吹吹风的感觉还是挺不错的呢！",
+		value = "후후~ 이렇게 새벽바람을 쐬는 것도 좋은 기분인걸!",
 		key = "ins_discuss_52_2"
 	},
 	ins_reply_52_2_1 = {
-		value = "感谢{namecode:73}陪伴在下进行特训！",
+		value = "같이 가줘서 고마워, {namecode:73}!",
 		key = "ins_reply_52_2_1"
 	},
 	ins_reply_52_2_2 = {
-		value = "{namecode:11}…没有迷路吧…？",
+		value = "{namecode:11}… 길을 잃은 건 아니겠지…?",
 		key = "ins_reply_52_2_2"
 	},
 	ins_reply_52_2_3 = {
-		value = "咳、咳咳…有{namecode:73}在，在下是不会轻易迷路的！",
+		value = "흠, 흠흠… {namecode:73} 곁에 있으면 길 같은 건 잃지 않아!",
 		key = "ins_reply_52_2_3"
 	},
 	ins_op_52_1_1 = {
-		value = "迷路…啊，有{namecode:73}在应该没关系了吧…",
+		value = "길을 잃는다라… {namecode:73}가 있으면 문제없겠지…",
 		key = "ins_op_52_1_1"
 	},
 	ins_op_52_1_2 = {
-		value = "哦哦！跑步！运动！好像很畅快！",
+		value = "오오! 산책! 운동! 엄청 개운하지!",
 		key = "ins_op_52_1_2"
 	},
 	op_reply_52_1_1 = {
-		value = "就、就算是一个人在下也没那么容易迷路的！大概…",
+		value = "혼, 혼자라도 길은 잃지 않으니까! 아마도…",
 		key = "op_reply_52_1_1"
 	},
 	op_reply_52_1_2 = {
-		value = "哈哈~指挥官也要一起来运动一番吗~？",
+		value = "하하~ 지휘관도 같이 운동할래?",
 		key = "op_reply_52_1_2"
 	},
 	ins_53 = {
-		value = "#港区P图大赛#誓约戒指火热销售中喵！",
+		value = "#사진수정대회#서약 반지 절찬 판매중이다냥!",
 		key = "ins_53"
 	},
 	ins_discuss_53_1 = {
-		value = "竟、竟然能有这么直球的广告…不愧是你…！",
+		value = "이, 이런 직접적인 광고라니… 역시…!",
 		key = "ins_discuss_53_1"
 	},
 	ins_reply_53_1_1 = {
-		value = "商店生意变好了，指挥官开心，{namecode:98}也开心喵！大家都会开心的喵！",
+		value = "장사가 잘되면 지휘관도 {namecode:98}도 즐겁다냥! 모두가 즐거워진다냥!",
 		key = "ins_reply_53_1_1"
 	},
 	ins_discuss_53_2 = {
-		value = "促销…不打折？",
+		value = "판촉… 할인은 없어?",
 		key = "ins_discuss_53_2"
 	},
 	ins_reply_53_2_1 = {
-		value = "小、小本生意不好做喵…！",
+		value = "장, 장사 힘들다냥!",
 		key = "ins_reply_53_2_1"
 	},
 	ins_op_53_1_1 = {
-		value = "P图技术一流…！",
+		value = "수정 기술 최고…!",
 		key = "ins_op_53_1_1"
 	},
 	ins_op_53_1_2 = {
-		value = "不打折啊…",
+		value = "할인 없구나…",
 		key = "ins_op_53_1_2"
 	},
 	op_reply_53_1_1 = {
-		value = "这点小事还难不倒{namecode:98}喵！",
+		value = "이런 건 {namecode:98}에게는 식은 죽 먹기다냥!",
 		key = "op_reply_53_1_1"
 	},
 	op_reply_53_1_2 = {
-		value = "这、这是代表指挥官的心意，怎么能轻易打折喵！",
+		value = "지, 지휘관의 성의인데 할인을 할 수 있을 리가 없지 않냥!",
 		key = "op_reply_53_1_2"
 	},
 	ins_54 = {
-		value = "冬天的露天温泉果然是最棒的❤",
+		value = "겨울의 노천 온천은 역시 최고❤",
 		key = "ins_54"
 	},
 	ins_discuss_54_1 = {
-		value = "嗯，埃尔德里奇，完全放松…",
+		value = "응, 엘드릿지 노곤해…",
 		key = "ins_discuss_54_1"
 	},
 	ins_reply_54_1_1 = {
-		value = "甚至让人有种酥酥麻麻的感觉❤",
+		value = "찌릿찌릿한 느낌이 들어❤",
 		key = "ins_reply_54_1_1"
 	},
 	ins_discuss_54_2 = {
-		value = "从寒冷的外面一口气跳进热水里~嘿嘿，超刺激！",
+		value = "추운 밖에 있다가 뜨거운 온천물에 퐁당이라니~ 에헤헤, 최고!",
 		key = "ins_discuss_54_2"
 	},
 	ins_reply_54_2_1 = {
-		value = "…原来那个水花是你搞的吗！？",
+		value = "…그 물벼락, 네 짓이었구나?!",
 		key = "ins_reply_54_2_1"
 	},
 	ins_op_54_1_1 = {
-		value = "温泉…真好啊",
+		value = "온천… 좋겠다.",
 		key = "ins_op_54_1_1"
 	},
 	ins_op_54_1_2 = {
-		value = "电、电击…似乎不是一般人能泡的啊…",
+		value = "전, 전기… 들어가면 안 되는 거 아닌가…",
 		key = "ins_op_54_1_2"
 	},
 	op_reply_54_1_1 = {
-		value = "指挥官大人要一起泡温泉吗！？{namecode:97}随时等着指挥官大人哦❤",
+		value = "지휘관님도 같이 온천 하시겠어요?! {namecode:97}는 언제나 기다리고 있답니다❤",
 		key = "op_reply_54_1_1"
 	},
 	op_reply_54_1_2 = {
-		value = "哔哩哔哩…很舒服？",
+		value = "찌릿찌릿… 편하지?",
 		key = "op_reply_54_1_2"
 	},
 	ins_55 = {
-		value = "新作品…完成！",
+		value = "신작… 완성!",
 		key = "ins_55"
 	},
 	ins_discuss_55_1 = {
-		value = "比照“后现代”数据库…认可此作品为“艺术”",
+		value = "‘포스트 모던’ 데이터베이스 대조… 이 작품을’예술’로 인정합니다.",
 		key = "ins_discuss_55_1"
 	},
 	ins_reply_55_1_1 = {
-		value = "欸嘿嘿…是独角兽用心做出来的哦",
+		value = "에헤헤… 유니콘, 열심히 만들었어.",
 		key = "ins_reply_55_1_1"
 	},
 	ins_discuss_55_2 = {
-		value = "哎呀，做得真好呢~",
+		value = "와~ 대단해.",
 		key = "ins_discuss_55_2"
 	},
 	ins_reply_55_2_1 = {
-		value = "是独角兽的优酱…！",
+		value = "이건 유니콘의 유쨩…!",
 		key = "ins_reply_55_2_1"
 	},
 	ins_reply_55_2_2 = {
-		value = "这、这是优酱吗…？",
+		value = "이, 이게 유쨩…?",
 		key = "ins_reply_55_2_2"
 	},
 	ins_reply_55_2_3 = {
-		value = "嗯…！是优酱哦？不像…吗？",
+		value = "응…! 유쨩이야! 안 닮았…어?",
 		key = "ins_reply_55_2_3"
 	},
 	ins_op_55_1_1 = {
-		value = "超、超熟练！？",
+		value = "대단해!",
 		key = "ins_op_55_1_1"
 	},
 	ins_op_55_1_2 = {
-		value = "新、新艺术诞生！？",
+		value = "새, 새로운 예술인가?!",
 		key = "ins_op_55_1_2"
 	},
 	op_reply_55_1_1 = {
-		value = "欸嘿嘿…谢谢哥哥…",
+		value = "에헤헤… 오빠, 고마워…",
 		key = "op_reply_55_1_1"
 	},
 	op_reply_55_1_2 = {
-		value = "欸嘿嘿…只是看着优酱雕刻的而已…",
+		value = "에헤헤… 유쨩을 보고 조각했는걸…",
 		key = "op_reply_55_1_2"
 	},
 	ins_56 = {
-		value = "为什么指挥喵都这么爱乱窜啊！",
+		value = "지휘냥 녀석들, 왜 이렇게 도망 다니는 거야!",
 		key = "ins_56"
 	},
 	ins_discuss_56_1 = {
-		value = "辛苦了喵！帮大忙了喵！",
+		value = "수고했다냥! 덕분에 도움이 됐다냥!",
 		key = "ins_discuss_56_1"
 	},
 	ins_reply_56_1_1 = {
-		value = "哼、哼…看在你们百般恳求的份上，哈曼才勉为其难帮忙的！",
+		value = "흥, 흥… 도와달라고 하도 매달려서 도와준 것 뿐이야!",
 		key = "ins_reply_56_1_1"
 	},
 	ins_discuss_56_2 = {
-		value = "呵呵~其实还是很开心的吧，哈曼~？",
+		value = "후후~ 허먼, 사실은 재밌었지?",
 		key = "ins_discuss_56_2"
 	},
 	ins_reply_56_2_1 = {
-		value = "呣……",
+		value = "으……",
 		key = "ins_reply_56_2_1"
 	},
 	ins_op_56_1_1 = {
-		value = "辛、辛苦了！",
+		value = "수, 수고했어!",
 		key = "ins_op_56_1_1"
 	},
 	ins_op_56_1_2 = {
-		value = "交到新朋友了呢，太好了",
+		value = "새 친구가 많이 생겼네. 잘 됐다.",
 		key = "ins_op_56_1_2"
 	},
 	op_reply_56_1_1 = {
-		value = "还、还可以吧！",
+		value = "그, 그런 거지!",
 		key = "op_reply_56_1_1"
 	},
 	op_reply_56_1_2 = {
-		value = "哈、哈曼才没有说“好想要交到新朋友”呢！",
+		value = "‘새 친구가 사귀고 싶다’라고 말한 적 없거든!",
 		key = "op_reply_56_1_2"
 	},
 	ins_57 = {
-		value = "大家的合照！",
+		value = "단체 사진!",
 		key = "ins_57"
 	},
 	ins_discuss_57_1 = {
-		value = "呣…果然还是好困",
+		value = "아… 역시 피곤해.",
 		key = "ins_discuss_57_1"
 	},
 	ins_discuss_57_2 = {
-		value = "{namecode:6}…有好好露出笑容…的说？",
+		value = "{namecode:6}… 제대로 웃었다…예요.",
 		key = "ins_discuss_57_2"
 	},
 	ins_discuss_57_3 = {
-		value = "嘿嘿，有好好地喊出“茄子”呢！",
+		value = "헤헤, 제대로 치즈 했다구!",
 		key = "ins_discuss_57_3"
 	},
 	ins_discuss_57_4 = {
-		value = "呜…果然还是有点害羞……",
+		value = "으… 역시 조금 부끄러워……",
 		key = "ins_discuss_57_4"
 	},
 	ins_op_57_1_1 = {
-		value = "远处的…皇家方舟？",
+		value = "저기 뒤에 있는 건… 아크로열?",
 		key = "ins_op_57_1_1"
 	},
 	ins_op_57_1_2 = {
-		value = "让人会心一笑的场景呢",
+		value = "웃음이 절로 나오는 모습이네.",
 		key = "ins_op_57_1_2"
 	},
 	op_reply_57_1_1 = {
-		value = "驱逐妹妹们聚在一起的模样…棒！",
+		value = "구축함들이 모여있는 모습… 최고!",
 		key = "op_reply_57_1_1"
 	},
 	op_reply_57_1_2 = {
-		value = "帮、帮大家拍照还是挺不容易的…",
+		value = "사, 사진 찍어주는 건 쉬운 일이 아니었어…",
 		key = "op_reply_57_1_2"
 	},
 	ins_58 = {
-		value = "#最近有趣的梦##港区P图大赛#发现{namecode:98}私藏的技能书！",
+		value = "#재미있는꿈##사진수정대회#{namecode:98} 비장의 스킬북, 발견!",
 		key = "ins_58"
 	},
 	ins_discuss_58_1 = {
-		value = "{namecode:98}、{namecode:98}才没有私藏喵！",
+		value = "{namecode:98}, {namecode:98} 숨긴 적 없다냥!",
 		key = "ins_discuss_58_1"
 	},
 	ins_reply_58_1_1 = {
-		value = "（盯——）",
+		value = "(빤히——)",
 		key = "ins_reply_58_1_1"
 	},
 	ins_discuss_58_2 = {
-		value = "真有这么多存货还不赶紧拿出来卖了，是准备留着过春节吗…",
+		value = "이렇게 재고를 쌓아두기만 하다니, 설날을 대비하는 건가…",
 		key = "ins_discuss_58_2"
 	},
 	ins_reply_58_2_1 = {
-		value = "所、所以说才没有私藏喵！！",
+		value = "그러니까 숨긴 거 아니다냥!",
 		key = "ins_reply_58_2_1"
 	},
 	ins_op_58_1_1 = {
-		value = "什么时候开始的大赛！？",
+		value = "대회는 언제 시작이야?!",
 		key = "ins_op_58_1_1"
 	},
 	ins_op_58_1_2 = {
-		value = "{namecode:98}囤货？！",
+		value = "{namecode:98}, 사재기야?!",
 		key = "ins_op_58_1_2"
 	},
 	op_reply_58_1_1 = {
-		value = "只、只是觉得这样还挺有趣啦…",
+		value = "이, 이러면 재밌을 거라고 생각했는데…",
 		key = "op_reply_58_1_1"
 	},
 	op_reply_58_1_2 = {
-		value = "才没有喵！",
+		value = "아니다냥!",
 		key = "op_reply_58_1_2"
 	},
 	ins_59 = {
-		value = "#最近有趣的梦##港区P图大赛#新能源get！",
+		value = "#재미있는꿈##사진수정대회#새로운 에너지 GET!",
 		key = "ins_59"
 	},
 	ins_discuss_59_1 = {
-		value = "埃尔德里奇…电量不足…？",
+		value = "엘드릿지… 전력 부족…?",
 		key = "ins_discuss_59_1"
 	},
 	ins_reply_59_1_1 = {
-		value = "啊哈哈…抱歉抱歉，虽然只是个奇怪的梦…",
+		value = "아하하… 미안, 미안. 그냥 이상한 꿈이었지만…",
 		key = "ins_reply_59_1_1"
 	},
 	ins_discuss_59_2 = {
-		value = "唔…？不过…似乎可以研究下其中的可行性……",
+		value = "에…? 그래도… 연구 타당성은 있는 것 같은데……",
 		key = "ins_discuss_59_2"
 	},
 	ins_reply_59_2_1 = {
-		value = "出、出现了！？疯狂科学家！",
+		value = "나, 나타났다?! 매드 사이언티스트!",
 		key = "ins_reply_59_2_1"
 	},
 	ins_op_59_1_1 = {
-		value = "需、需要充电？",
+		value = "충, 충전이 필요한가?",
 		key = "ins_op_59_1_1"
 	},
 	ins_op_59_1_2 = {
-		value = "做梦都在玩游戏啊…",
+		value = "꿈속에서도 게임이냐…",
 		key = "ins_op_59_1_2"
 	},
 	op_reply_59_1_1 = {
-		value = "埃尔德里奇不需要充电哦",
+		value = "엘드릿지, 충전 필요 없어.",
 		key = "op_reply_59_1_1"
 	},
 	op_reply_59_1_2 = {
-		value = "嘿嘿~我是一名发自内心的Gamer！",
+		value = "에헤헤~ 나는 뼛속까지 게이머니까!",
 		key = "op_reply_59_1_2"
 	},
 	ins_60 = {
-		value = "#最近有趣的梦##港区P图大赛#与前辈一起出击！",
+		value = "#재미있는꿈##사진수정대회#선배와 함께 출격!",
 		key = "ins_60"
 	},
 	ins_discuss_60_1 = {
-		value = "…想法挺有创意的",
+		value = "…독특한 생각이네.",
 		key = "ins_discuss_60_1"
 	},
 	ins_reply_60_1_1 = {
-		value = "欸？！这算是被前辈夸奖了吗！？",
+		value = "에?! 선배에게 칭찬받은 거지 이거?!",
 		key = "ins_reply_60_1_1"
 	},
 	ins_discuss_60_2 = {
-		value = "哈哈哈哈，这个好！新战术诞生！",
+		value = "아하하하, 좋아! 새로운 전술, 탄생!",
 		key = "ins_discuss_60_2"
 	},
 	ins_reply_60_2_1 = {
@@ -2465,19 +2465,19 @@ pg.gameset_language_client = {
 		key = "ins_reply_60_2_1"
 	},
 	ins_reply_60_2_2 = {
-		value = "开、开开玩笑而已嘛…",
+		value = "장, 장난이야…",
 		key = "ins_reply_60_2_2"
 	},
 	ins_op_60_1_1 = {
-		value = "埃塞克斯还有这样的特技！？",
+		value = "에식스에게 이런 특기가?!",
 		key = "ins_op_60_1_1"
 	},
 	op_reply_60_1_1 = {
-		value = "我、我会努力试看看的！",
+		value = "열, 열심히 노력해 볼게!",
 		key = "op_reply_60_1_1"
 	},
 	op_reply_60_1_2 = {
-		value = "不，这个大概不是努力就能做到的吧…",
+		value = "아니, 이건 노력으로는 안 되는 일이야…",
 		key = "op_reply_60_1_2"
 	}
 }
