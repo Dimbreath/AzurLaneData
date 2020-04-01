@@ -17368,118 +17368,6 @@ pg.ship_skin_template = {
 			}
 		}
 	},
-	[106012] = {
-		name = "长岛啦啦队",
-		bullet_skin_main = "",
-		group_index = 2,
-		illustrator2 = -1,
-		desc = "长岛啦啦队",
-		bullet_skin_secondary = "",
-		ship_group = 10601,
-		painting = "changdao_3",
-		painting_hx = "",
-		air_bullet_skin = "",
-		bg_sp = "",
-		shop_type_id = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		bg = "",
-		isSwimsuit = 0,
-		skin_type = 0,
-		id = 106012,
-		voice_actor_2 = -1,
-		air_torpedo_skin = "",
-		prefab = "changdao_3",
-		l2d_se = "",
-		aircraft_skin = "",
-		main_UI_FX = "",
-		shop_id = 70338,
-		voice_actor = 45,
-		air_bomb_skin = "",
-		illustrator = 13,
-		rarity_bg = "",
-		isHX = 0,
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.46,
-					0.49,
-					0
-				}
-			},
-			plane = {
-				{
-					0.46,
-					0.49,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.509,
-							0.442,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.416,
-							0.493,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[106019] = {
 		name = "롱 아일랜드·改",
 		bullet_skin_main = "",
@@ -108294,7 +108182,6 @@ pg.ship_skin_template = {
 		[10601] = {
 			106010,
 			106011,
-			106012,
 			106019
 		},
 		[10520] = {
@@ -108779,7 +108666,6 @@ pg.ship_skin_template = {
 		105200,
 		106010,
 		106011,
-		106012,
 		106019,
 		106020,
 		106029,
