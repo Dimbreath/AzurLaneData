@@ -13211,6 +13211,7 @@ pg.activity_template = {
 	[20406] = {
 		mark = 20200319,
 		title_res_tag = "ryujo_pt",
+		time = "stop",
 		type = 54,
 		login_pop = 0,
 		config_id = 20406,
@@ -13218,33 +13219,6 @@ pg.activity_template = {
 		config_client = "",
 		id = 20406,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					3,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/ryujo_pt"
 		}
