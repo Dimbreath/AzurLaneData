@@ -6117,7 +6117,14 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		id = 8110,
 		icon = "mt_blue",
 		skill_id = 0,
-		descrip = "",
+		descrip = [[
+The effects of fully retrofitting this ship:
+
+- This ship will gain <color=#A9F548>+40 ASW and +10 AA.</color>
+
+This ship will receive <color=#92fc63>Torpedo base -1</color>
+
+<color=#92fc63>Anti-Air Gun base +1</color>]],
 		condition_id = {
 			8108,
 			8109

@@ -642,7 +642,7 @@ pg.skill_data_display = {
 	},
 	[8671] = {
 		id = 8671,
-		name = "水面航行模式"
+		name = "Surface Mode "
 	},
 	[9010] = {
 		id = 9010,
