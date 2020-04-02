@@ -28,7 +28,7 @@ return {
 			dir = 1,
 			actor = 103240,
 			nameColor = "#a9f548",
-			say = "Man, this canal really is a feat of engineering, any way you look kat it.",
+			say = "Man, this canal really is a feat of engineering, any way you look at it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
