@@ -103,6 +103,17 @@ pg.fleet_tech_ship_class = {
 			10126
 		}
 	},
+	[10108] = {
+		shiptype = 1,
+		name = "알렌 M. 섬너급 ",
+		t_level = 9,
+		id = 10108,
+		t_level_1 = 4,
+		nation = 1,
+		ships = {
+			10144
+		}
+	},
 	[10201] = {
 		shiptype = 2,
 		name = "애틀란타급",
@@ -114,7 +125,8 @@ pg.fleet_tech_ship_class = {
 			10206,
 			10207,
 			10208,
-			10222
+			10222,
+			10226
 		}
 	},
 	[10202] = {
@@ -145,7 +157,8 @@ pg.fleet_tech_ship_class = {
 			10202,
 			10211,
 			10216,
-			10218
+			10218,
+			10227
 		}
 	},
 	[10204] = {
@@ -244,7 +257,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 20,
 		nation = 1,
 		ships = {
-			10316
+			10316,
+			10324
 		}
 	},
 	[10501] = {
@@ -388,6 +402,17 @@ pg.fleet_tech_ship_class = {
 			10729
 		}
 	},
+	[10607] = {
+		shiptype = 6,
+		name = "카사블랑카급 ",
+		t_level = 3,
+		id = 10607,
+		t_level_1 = 31,
+		nation = 1,
+		ships = {
+			10655
+		}
+	},
 	[10701] = {
 		shiptype = 7,
 		name = "렉싱턴급",
@@ -433,6 +458,7 @@ pg.fleet_tech_ship_class = {
 		nation = 1,
 		ships = {
 			10709,
+			10711,
 			10717,
 			10738
 		}
@@ -447,6 +473,7 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			10802,
 			10803,
+			10804,
 			10801
 		}
 	},
@@ -2018,6 +2045,7 @@ pg.fleet_tech_ship_class = {
 		10105,
 		10106,
 		10107,
+		10108,
 		10201,
 		10202,
 		10203,
@@ -2041,6 +2069,7 @@ pg.fleet_tech_ship_class = {
 		10604,
 		10605,
 		10606,
+		10607,
 		10701,
 		10702,
 		10703,

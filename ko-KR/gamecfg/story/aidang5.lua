@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"和姐姐的一日约会\n\n<size=45>五 黑暗之中</size>",
+					"누나와의 일일 데이트\n\n<size=45>5. 어둠 속</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "（咔嚓咔嚓咔嚓）",
+			say = "(덜컥 덜컥 덜컥)",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -50,7 +50,7 @@ return {
 			blackBg = true,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "……………",
+			say = "....................",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "（咕咚咕咚咕咚）",
+			say = "(쿠궁 쿠궁 쿠궁)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "（无声）",
+			say = "(조용)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "（我——好——恨——）",
+			say = "(대——체——왜——)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			blackBg = true,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "！！！！！",
+			say = "!!!!!!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			},
 			options = {
 				{
-					content = "好痛痛痛！",
+					content = "아아악!",
 					flag = 1
 				}
 			},
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "突然被坐在身边的{namecode:67}用力捏住了手。",
+			say = "갑자기 옆에 앉아 있던 {namecode:67}가 손을 세게 꽉 쥐었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			blackBg = true,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "（哆哆嗦嗦……）",
+			say = "(바들바들......)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,18 +187,18 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "回头一看，她一声不吭地低着头——在发抖。",
+			say = "돌아보니, 그녀는 소리 없이 고개를 숙인채——떨고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "用力回握她的手",
+					content = "그녀의 손을 꽉 잡는다.",
 					flag = 1
 				},
 				{
-					content = "将{namecode:67}搂过来",
+					content = "{namecode:67}를 끌어 안는다.",
 					flag = 2
 				}
 			}
@@ -211,7 +211,7 @@ return {
 			optionFlag = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "……………！",
+			say = "...............!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "她回握的力气也更大了。",
+			say = "그녀는 손을 더 꽉 쥐었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "无暇在意电影的内容，我们只能以紧握的手感受彼此的体温。",
+			say = "영화 내용은 신경쓸 겨를도 없이, 우리는 맞잡은 손으로 서로의 체온을 느낄 수 있을 뿐이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			optionFlag = 2,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "…………指挥官……？",
+			say = ".............지휘관.....?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			blackBg = true,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "…………嗯……我不怕，不怕……",
+			say = ".............응...... 나 안 무서워, 안 무서워......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "时而英气，时而魅惑，但总是不慌不忙的{namecode:67}……此时显得柔弱了不少。",
+			say = "때로는 용맹하고 때로는 매혹적이지만, 항상 침착한 {namecode:67}가...... 지금은 너무 연약해 보였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "电影结束的时候，能听到在怀中睡着的{namecode:67}微微的呼吸声。",
+			say = "영화가 끝나고 품에서 잠이든 {namecode:67}의 작은 호흡 소리가 들려왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "（一小时后）",
+			say = "(한 시간 후)",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "刚才谢谢啦。就算是姐姐我，对幽灵也是有点怕的……",
+			say = "방금 고마웠어. 이 누나라도, 귀신은 무섭더라고......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "不是有这么个说法，再完美的人也会有一两个弱点嘛？",
+			say = "이런 말도 있잖아. 정말 완벽한 사람도 약점 한두개 정도는 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "姐姐我也一样啊。倒是指挥官你，能了解到我的另一面也挺好不是吗？",
+			say = "누나도 똑같아. 지휘관 너도 나의 또 다른 면을 알 수 있었으니까 좋은거지. 안 그래?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "啊不过，千万别告诉其他人哦？除了{namecode:66}……",
+			say = "아 근데, 다른 사람들에게는 절대 말하면 안돼? {namecode:66} 빼고......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "又恢复到往常的{namecode:67}了。",
+			say = "다시 평상시의 {namecode:67}로 돌아왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			blackBg = true,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "只有指挥官一个人知道的“秘密”，很珍贵对吧？呵呵。",
+			say = "지휘관 혼자만 아는 \"비밀\"이야. 아주 소중한. 그렇지? 후훗.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

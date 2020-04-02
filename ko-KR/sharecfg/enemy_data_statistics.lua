@@ -45824,7 +45824,7 @@ pg.enemy_data_statistics = {
 	},
 	[438] = {
 		cannon = 0,
-		name = "构建者",
+		name = "컴파일러 ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -45954,7 +45954,7 @@ pg.enemy_data_statistics = {
 	},
 	[439] = {
 		cannon = 0,
-		name = "潜艇「Assassin」",
+		name = "잠수함 「Assassin」 ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

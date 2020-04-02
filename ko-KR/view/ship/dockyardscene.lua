@@ -309,6 +309,17 @@ function slot0.init(slot0)
 	slot0.listEmptyTxt = slot0:findTF("Text", slot0.listEmptyTF)
 
 	setText(slot0.listEmptyTxt, i18n("list_empty_tip_dockyardui"))
+
+	if slot0.contextData.mode == slot0.MODE_DESTROY then
+		slot0.blacklist = {}
+		slot0.selectPanel:GetComponent("HorizontalLayoutGroup").padding.right = 50
+
+		setActive(slot0.selectPanel:Find("quick_select"), true)
+	else
+		slot0.selectPanel:GetComponent("HorizontalLayoutGroup").padding.right = 250
+
+		setActive(slot0.selectPanel:Find("quick_select"), false)
+	end
 end
 
 function slot0.setShipsCount(slot0, slot1)

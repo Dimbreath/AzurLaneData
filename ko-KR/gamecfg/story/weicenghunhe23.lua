@@ -14,7 +14,7 @@ return {
 			bgm = "hunhe-level",
 			actor = 207020,
 			nameColor = "#ffa500",
-			say = "企业，它们来了。",
+			say = "엔터프라이즈, 그들이 왔네.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "不知何时，一位“不速之客”加入了这场对话中。",
+			say = "어느새 두 ‘불청객’이 대화에 끼어들었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "塞壬……？！！",
+			say = "세이렌……?!!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			say = "突然出现的塞壬让企业条件反射般放出了舰载机，然后子弹穿过幻影消逝在远方的迷雾中。",
+			say = "갑자기 나타난 세이렌을 향해 엔터프라이즈는 조건반사적으로 함재기를 불렀지만, 쏘아진 포탄은 환영을 넘어 안개 속으로 사라졌다.",
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
@@ -96,8 +96,8 @@ return {
 			bgName = "bg_banama_2",
 			dir = 1,
 			actor = 900232,
-			actorName = "观察者",
-			say = "「关键点G」，向你致以审判者大人的问候。",
+			actorName = "옵저버",
+			say = "「코드-G」, 심판자 님의 인사를 전하지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "「关键点G」…审判者…",
+			say = "「코드-G」… 심판자…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,8 +130,8 @@ return {
 			bgName = "bg_banama_2",
 			dir = 1,
 			actor = 900232,
-			actorName = "观察者",
-			say = "“拉普拉斯妖”应该为全体人类服务，而不是作为战争的工具，造物主大人应该也是如此认为的。",
+			actorName = "옵저버",
+			say = "‘라플라스의 도깨비’는 전쟁의 도구가 아닌 인간을 위해 봉사해야 해. 조물주 님도 같은 의견이지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,8 +147,8 @@ return {
 			bgName = "bg_banama_2",
 			dir = 1,
 			actor = 900232,
-			actorName = "观察者",
-			say = "所以，我们会提供活动基地。而你们，需要保证这里的研究不会落入不应得到之人手中。",
+			actorName = "옵저버",
+			say = "그러니까 우리가 활동 기지를 제공하겠어. 그리고 너희는 이 연구가 인간의 손에 들어가지 않으리라는 것을 보증해야겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,8 +164,8 @@ return {
 			bgName = "bg_banama_2",
 			dir = 1,
 			actor = 900232,
-			actorName = "观察者",
-			say = "我们也有我们的立场，有些时候无法随意行动。",
+			actorName = "옵저버",
+			say = "우리도 우리의 입장이 있으니, 가끔은 마음대로 행동할 수 없거든.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,13 +176,13 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "옵저버",
 			side = 2,
 			dir = 1,
 			bgName = "bg_banama_2",
 			actor = 900232,
 			nameColor = "#ffff4d",
-			say = "不要说出名字来。用代号称呼更有神秘感，审判者大人是这么认为的。",
+			say = "이름은 말하지 마. 코드로 말하는 게 더 신비감이 있잖아? 심판자 님은 그렇게 생각하시거든.",
 			flashout = {
 				dur = 0.25,
 				black = true,
@@ -210,13 +210,13 @@ return {
 			}
 		},
 		{
-			actorName = "观察者",
+			actorName = "옵저버",
 			side = 2,
 			dir = 1,
 			bgName = "bg_banama_2",
 			actor = 900232,
 			nameColor = "#ffff4d",
-			say = "请放心，按照协议，我们会参与营救计划。",
+			say = "걱정 마. 계획대로 이쪽도 구조 계획에 참여하겠어.",
 			flashout = {
 				dur = 0.25,
 				black = true,
@@ -249,8 +249,8 @@ return {
 			bgName = "bg_banama_2",
 			dir = 1,
 			actor = 900232,
-			actorName = "观察者",
-			say = "因为这是造物主大人与审判者大人共同的期望。",
+			actorName = "옵저버",
+			say = "심판자 님과 조물주 님이 원하시기 때문이지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,8 +266,8 @@ return {
 			bgName = "bg_banama_2",
 			dir = 1,
 			actor = 900232,
-			actorName = "观察者",
-			say = "至此，谈妥了。执行者舰队的配属坐标将在稍后向你们同步，记得在行动中避开。",
+			actorName = "옵저버",
+			say = "그럼 이렇게 하지. 아비터의 좌표를 너희에게 넘겨주겠어. 알아서 잘 피하도록 해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "在与塞壬协商合作…？这些…到底是什么……",
+			say = "세이렌과 협력한다고…? 이건… 대체……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "当然，面对企业的提问面前的幻影们依然没有做出任何-------",
+			say = "물론, 엔터프라이즈의 질문에 환영들은 아무런-------",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "这些都是，往昔的碎片哦。",
+			say = "이건 전부 과거의 조각들이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

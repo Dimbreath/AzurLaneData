@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			bgm = "hunhe-battle",
 			nameColor = "#a9f548",
-			say = "这次是真的全部解决了~！用飞机打潜艇也意外的有趣呢。",
+			say = "이번에는 정말로 다 해치웠어! 함재기로 잠수함을 상대하는 것도 재밌는걸.",
 			effects = {
 				{
 					active = true,
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "要不然以后认真考虑一下做做反潜任务好了…",
+			say = "대 잠수함 임무에 지원하는 걸 진지하게 생각해봐야 할지도…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107090,
-			say = "总感觉比上次见你的时候更厉害了，背地里看来没少努力啊。",
+			say = "지난번에 봤을 때보다 더 강해진 것 같네요. 분명 많은 노력을 했겠죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "嘿嘿，我在维修期间的时候也没闲着，姑且各方面的理论知识都储备了不少哦。",
+			say = "후후, 수리를 받는 동안에도 쉬지 않고 여러 가지 지식들을 많이 쌓아뒀지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "可惜一直没什么好的实践机会…要是我没有总是那么倒霉就好了（小声）",
+			say = "아쉽게도 실전에 쓸 기회가 없어서… 재수가 없지 않았더라면 좋았을 텐데.(작은 소리)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101440,
-			say = "不要灰心嘛~运气只是实力的一部分！运气缺失掉的部分，用更强的实力弥补就好啦！",
+			say = "너무 그러지 마. 운도 실력의 일부니까! 운이 조금 모자라면 실력으로 채우면 돼!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你看这次作战，到目前为止不还是很顺利么。",
+			say = "이번 작전도 지금까지 꽤 순조롭잖아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "确实呢…歼灭敌人的战斗很顺利，前进途中也很顺利，只要能这么继续顺利下去-------",
+			say = "그렇지… 섬멸 작전은 순조로워. 통제 장치가 있는 곳으로도 순조롭게 가고 있어. 계속 이렇게 순조로우면 좋겠는데-------",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "从远方突然传来的巨大拍击声，打断了无畏刚刚有些自信的话语。",
+			say = "먼 곳에서 갑자기 들려온 커다란 파열음이 인트레피드의 자신만만한 말을 끊었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后几乎顷刻之间，滔天巨浪一排排的向着众人袭来，整个海面仿佛遭受风暴袭击一般，剧烈的上下抖动起来。",
+			say = "그리고 얼마 뒤, 거대한 파도가 일행을 향해 밀려와 폭풍이 일어난 것처럼 온 바다를 뒤흔들기 시작했다.",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -176,7 +176,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "风暴？哎不对，是海面擅自变的波涛汹涌了？！大家小心规避，千万别被巨浪卷下水了！",
+			say = "폭풍? 아니, 아니야. 파도가 제멋대로 거세지고 있어요?! 모두 조심하세요. 파도에 휩쓸리면 안 돼요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "提醒得……有些晚了…埃塞克斯………咕噜咕噜……咕噜……",
+			say = "조금 늦게…… 알려준 것…… 같아…… 에식스……… 꼬르륵…… 꼬르륵……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "一个在近处生成的巨浪，将躲闪不及的无畏一口卷入了水面之下。",
+			say = "근처에서 일어난 거대한 파도가 미처 피하지 못한 에식스를 덮쳤다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgm = "xinnong-3",
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "……咕噜，咕噜咕噜……咕噜咕噜…！（……好强大的冲击力！身体被拍到水下了……怎么还会有这种事…！）",
+			say = "……꼬르륵, 꼬르륵…… 꼬르르륵! (……엄청난 충격이야! 몸이 물속으로 잠겨버렸어…… 어떻게 이런 일이…!)",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			bgName = "bg_underwater",
 			dir = 1,
-			say = "无畏挣扎着尝试向水面方向游动，然而身体却事与愿违的下坠着。",
+			say = "인트레피드는 허우적대며 수면 위로 올라가려고 했지만 몸부림치면 칠수록 가라앉을 뿐이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "（…航母的舰装无法在水下自由行动，没用的知识增加了…）",
+			say = "(…항공모함의 장비로는 물 아래에서 자유롭게 행동할 수 없다. 쓸모없는 지식이 또 늘었네…)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_underwater",
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "（…真是的，明明到刚才为止还那么顺利…）",
+			say = "(…정말이지, 방금 전까지는 모든 게 다 순조로웠는데…)",
 			flashout = {
 				dur = 0.25,
 				black = true,
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "（……还想着这次终于能帅气的大显身手了呢）",
+			say = "(……이번에는 정말 멋지게 활약할 수 있을 거로 생각했는데.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "（为什么，我总是这么倒霉啊………）",
+			say = "(대체 왜, 나는 항상 이렇게 운이 없는 거야……)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			say = "哎？！喂~~~喂~~~~！？前方正在游泳的是无畏么？！",
+			say = "에?! 저기, 저기이~?! 거기 헤엄치는 거, 인트레피드 씨야?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -430,7 +430,7 @@ return {
 			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "（……？！出去侦察的蓝鳃鱼居然在这个时候赶回来了么，千钧一发啊！）",
+			say = "(……?! 정찰을 나갔던 블루길이 이때 돌아오다니, 덕분에 살았어!)",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "快点…咕噜咕噜…救我上去…！",
+			say = "얼른… 꼬르륵… 나 좀 구해줘…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			say = "无畏…你你你变成潜艇了么？！（震惊）",
+			say = "인트레피드… 서, 설마 잠수함이 된 거야?! (경악)",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "……咕噜咕噜，咕……咕噜咕噜咕噜…！（…怎么可能啊笨蛋！我明显是遇难了啊！）",
+			say = "……꼬르륵, 꼬륵…… 꼬륵꼬륵…! (…그럴 리 없잖아, 이 바보야! 지금 큰일 난 거 안 보여?!)",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			say = "哇啊啊？！！坚、坚持住无畏，我马上就救你上去！！！",
+			say = "우와아?! 조, 조금만 참아. 인트레피드! 금방 구해줄게!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

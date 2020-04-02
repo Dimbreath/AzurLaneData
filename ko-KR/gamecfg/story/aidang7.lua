@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"和姐姐的一日约会\n\n<size=45>七 勇往直前</size>",
+					"누나와의 일일 데이트\n\n<size=45>7. 용감히 전진하다</size>",
 					1
 				}
 			}
@@ -21,19 +21,19 @@ return {
 			bgm = "story-2",
 			sequence = {
 				{
-					"当时……如果舰队那艘果断坚定的旗舰还健在的话。",
+					"당시...... 만약 함대의 그 단호하고 확고한 기함이 건재했다면.",
 					1
 				},
 				{
-					"就算是充满牺牲的道路,",
+					"수많은 희생이 따르는 길이라고 하더라도,",
 					4
 				},
 				{
-					"也一定会毫不回头地前进到最后一刻。",
+					"조금도 고개를 돌리지 않고 마지막 순간까지 전진할 것이다.",
 					7
 				},
 				{
-					"所以这次，我——",
+					"그러니까 이번엔, 나는——",
 					10
 				}
 			}
@@ -46,7 +46,7 @@ return {
 			actorName = "{namecode:67}",
 			actor = 303120,
 			nameColor = "#92fc63",
-			say = "我最想要的，就是你呀，指挥官。",
+			say = "내가 가장 원하는 것. 바로 너야. 지휘관.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "我当然明白，要独占你很难，虽然我很想。",
+			say = "물론 잘 알아. 널 독점하는 것은 어렵다는걸, 정말 원하더라도",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "不过姐姐我就是这个性子，指挥官也明白的吧。",
+			say = "근데 이 누나는 바로 이런 성격이야. 지휘관도 잘 알지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "眼前一黑，伴随着柔软的触感。",
+			say = "눈 앞이 캄캄해지더니, 부드러운 촉감이 느껴졌다.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -141,7 +141,7 @@ return {
 			blackBg = true,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "没关系，也不是非得今天才行。",
+			say = "괜찮아. 굳이 오늘이 아니더라도.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			blackBg = true,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "只要将来某个时刻能答应我，就算是最后的最后——这场战争结束以后，也行。",
+			say = "미래에 언젠가 내게 답해줄 수만 있다면. 마지막의 마지막이더라도.——이 전쟁이 끝난 이후라도. 괜찮아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			blackBg = true,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "为了那一刻，我什么都能做，多久都能等。",
+			say = "그 순간을 위해, 난 뭐든지 해낼거야, 얼마든지 기다릴 수 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			blackBg = true,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "让指挥官属于我——只要这个目标还在，姐姐就能战斗下去。",
+			say = "나만의 지휘관——단지 이 목표만 있다면, 누나는 싸워 나갈 수 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "这并不是疯狂，也不是执着，对她而言这是“目标”，是“生存下去的力量”，仅此而已。",
+			say = "이는 절대 미친 것이 아니며, 집착도 아니다. 그녀에게 이는 \"목표\"이고, \"살아가게 하는 힘\"이다. 단지 그 뿐이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,24 +219,7 @@ return {
 			blackBg = true,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "所以让我再说一次吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#92fc63",
-			side = 2,
-			dir = 1,
-			blackBg = true,
-			actor = 303120,
-			actorName = "{namecode:67}",
-			say = "呐，指挥官，成为只属于姐姐的存在吧。你只要听姐姐的话，什么都不用想……",
+			say = "그러니까 한 마디 하게 해줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +236,24 @@ return {
 			blackBg = true,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "因为这次，我绝不会放过你的♪",
+			say = "자, 지휘관, 이 누나만의 존재가 되어줘. 누나 말만 들으면, 아무것도 생각할 필요 없어......",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#92fc63",
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			actor = 303120,
+			actorName = "{namecode:67}",
+			say = "이번만큼은, 절대 놓아주지 않겠어♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

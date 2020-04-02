@@ -337,7 +337,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 18,
-		name = "白鹰风格",
+		name = "이글 유니온 스타일 ",
 		ids = {
 			240,
 			241,

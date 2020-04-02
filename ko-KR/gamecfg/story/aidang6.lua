@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"和姐姐的一日约会\n\n<size=45>六 夕阳下的礼物</size>",
+					"누나와의 일일 데이트\n\n<size=45>6. 석양 아래에서의 선물</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区附近的高处",
+			say = "항구 근처 높은 곳",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "指挥官，今天辛苦你了。",
+			say = "지휘관, 오늘 수고했어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "虽然也有突发情况，姐姐还是挺开心的。",
+			say = "돌발 상황도 있었지만, 누나는 엄청 즐거웠어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "指挥官觉得今天的约会怎么样？开心吗？",
+			say = "지휘관은 오늘 데이트 어땠어? 즐거웠어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			},
 			options = {
 				{
-					content = "很开心",
+					content = "정말 즐거웠어.",
 					flag = 1
 				}
 			}
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "呵呵，谢谢咯。话说回来，这片海永远都是这么美啊。",
+			say = "후훗, 고마워. 그런데, 이 바다는 영원히 이렇게 아름답네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "有时候会记不起自己是为什么而战，可一来到这里看到这片海，就能想起来。",
+			say = "가끔은 자신이 무엇 때문에 싸우는지 생각이 나지 않을 때도 있어. 하지만 여기에 와서 바다를 보고 있으면, 생각이 나.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "——我，是为了自己最想要的东西而战斗着的。",
+			say = "——나는, 내 자신이 가장 원하는 것을 위해 싸우는 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "……至少现在我是这么确信的。",
+			say = "...... 적어도 지금의 나는 그렇게 확신해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "姐姐觉得啊，人活着绝不能失去目标。",
+			say = "누나는 말이야, 사람은 살아가면서 절대 목표를 잃어선 안된다고 생각해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "一旦决定了一个目标，就一定要完成到最后。就算这是条走向毁灭的路，也必须一直向前。",
+			say = "일단 한 목표를 결정했다면, 반드시 최후까지 완성해야해. 가령 그것이 파멸로 향하는 길이라해도 반드시 앞을 향해야해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "如果有一天回了头，从那一刻起你就无法再前进了。别看我这样，姐姐可是个执着的人啊。",
+			say = "만약 어느 날 고개를 돌렸다면, 그 순간부터는 다시 전진할 수 없어. 나를 그렇게 보지마. 누나는 엄청 집착하는 사람이니까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			nameColor = "#92fc63",
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "说得没错，有时候确实自己也会忘记本来的目的。",
+			say = "틀리지 않았다. 가끔은 정말 자신도 본래의 목적을 잊곤 한다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,27 +237,10 @@ return {
 			nameColor = "#92fc63",
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "跨越了各个势力间的隔阂而聚集到港区来的大家，她们的信念究竟会如何……",
+			say = "각 세력 간의 장벽을 뛰어넘고 항구에 모인 모두들, 그녀의 신념은 과연 어떨까......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#92fc63",
-			side = 2,
-			bgName = "bg_story_outdoor",
-			dir = 1,
-			actor = 303120,
-			actorName = "{namecode:67}",
-			say = "今天过去以后，明天就回到日常了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
 			}
 		},
 		{
@@ -267,7 +250,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "可能我已经不是秘书舰，指挥官也会和其他人有所交集。",
+			say = "오늘이 지나고 나면, 내일은 일상으로 돌아가야해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +267,24 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "所以在那之前——",
+			say = "난 비서함이 아닐지도 모르고, 지휘관도 다른 사람과 어느 정도 어울리겠지.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#92fc63",
+			side = 2,
+			bgName = "bg_story_outdoor",
+			dir = 1,
+			actor = 303120,
+			actorName = "{namecode:67}",
+			say = "그러니까 그 전에——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			blackBg = true,
 			actor = 303120,
 			nameColor = "#92fc63",
-			say = "我此时此刻最想要的东西——你能送给我吗？",
+			say = "내가 지금 이 순간 가장 갖고 싶은 것——나한테 줄 수 있어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

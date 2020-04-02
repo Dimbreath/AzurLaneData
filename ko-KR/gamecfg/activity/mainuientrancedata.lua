@@ -1443,7 +1443,6 @@ return {
 	CurrentEntrancesList = {
 		1,
 		2,
-		4,
 		8,
 		6,
 		12

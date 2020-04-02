@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			side = 2,
-			say = "嗡---------",
+			say = "웅---------",
 			dir = 1,
 			soundeffect = "event:/battle/plane",
 			bgm = "hunhe-battle",
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬轰炸机，从什么时候绕过来的？！",
+			say = "세이렌 폭격기? 언제 돌아온 거지?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 102260,
 			nameColor = "#a9f548",
-			say = "休想得逞，看招！",
+			say = "그렇게는 안 돼! 받아라!",
 			flashN = {
 				color = {
 					1,
@@ -98,7 +98,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "数架利用迷雾掩护的轰炸机试图对邦克山发动最后的偷袭，然后在里诺及时而凶猛对空火力下变为了一团团燃烧的残渣。",
+			say = "안개를 틈타 폭격기가 벙커힐을 기습하려고 했다. 하지만 때마침 발사한 리노의 대공 폭격에 재가 되어 사라졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107170,
-			say = "多谢，在战斗结束的时候因为偷袭挂彩可划不来。",
+			say = "고맙다. 전투가 끝날 때 기습으로 부상을 당하면 계산이 맞질 않지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103240,
-			say = "我这也搞定了！刚刚那招很帅哦，里诺！",
+			say = "나도 한 건 했어! 방금은 엄청 멋있었다고, 리노!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102260,
-			say = "我可是专防空特化的亚特兰大级，英雄们的后背放心交给我来守护吧。",
+			say = "대공에 특화된 애틀란타급이라고? 히어로의 등 뒤는 나에게 맡겨줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 106550,
-			say = "周围没有发现更多塞壬靠近的迹象了，战斗暂时结束。要先回要塞补给一下么？",
+			say = "주변에 더 다가오는 세이렌의 흔적은 없네요. 이걸로 전투는 잠시 끝인 것 같아요. 일단 요새로 돌아가 보급을 할까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "迷雾还没消散，恐怕没这么简单…听----",
+			say = "안개가 아직 남아있다. 그렇게 쉽지는 않을 것 같은데… 잠깐.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102260,
-			say = "唔，这个声音…是Last Boss登场的声音么？",
+			say = "어, 이 목소리는… 최종 보스가 나오는 소리인가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不对，声音越来越大了。这个声音是…波涛的咆哮声！大家稳住，巨浪要来了--！",
+			say = "아니, 소리가 점점 커진다. 이 소리는… 파도 소리! 모두 진정해. 큰 파도가 온다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			actor = 106550,
 			nameColor = "#a9f548",
-			say = "哎哎？！怎么平白无故海面上会出现滔天巨浪啊！",
+			say = "에에?! 아무런 이유도 없이 큰 파도가 온다니요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			actor = 103240,
 			nameColor = "#a9f548",
-			say = "总感觉是冲着我们来的，大家注意规避，千万别被卷到海底进去哦！",
+			say = "어쨌든 우리에게 다가오는 것 같아. 다들 조심해서 피해! 말려 들어 가면 큰일이야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "滔天的巨浪与浓密的海雾，仿佛整片大海都成为了敌人。众人就像落入了捕食者的巨口中一样，全力避免着被吞噬的命运…",
+			say = "집채만한 파도와 짙은 바다 안개 탓인지 온 바다가 적이 된 것 같은 기분이었다. 일행은 포식자의 입에 떨어진 것 마냥 전력을 다해 삼켜질 운명에 저항했다…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

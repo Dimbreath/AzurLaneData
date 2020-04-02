@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-3",
-			say = "要塞东侧外海？·海雾中",
+			say = "요새 동쪽 외해?· 바다 안개 속",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_3",
 			dir = 1,
-			say = "巴尔的摩带领的调防舰队正在迷雾中与净化者激烈战斗着----",
+			say = "볼티모어가 이끄는 함대는 현재 안개 속에서 격렬한 전투를 치르는 중이었다----",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,8 +57,8 @@ return {
 			bgName = "bg_xiangting_3",
 			dir = 1,
 			actor = 900021,
-			actorName = "净化者",
-			say = "才怪呢~！",
+			actorName = "퓨리파이어",
+			say = "이상하네~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			bgName = "bg_xiangting_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂，不要躲躲闪闪的，来和我正面战斗啊！",
+			say = "저기, 숨지 말고 제대로 싸우자고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,8 +91,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 900021,
-			actorName = "净化者",
-			say = "才不要~这次可不是为了收集数据，我才不想浪费无谓的力气呢。",
+			actorName = "퓨리파이어",
+			say = "싫어~ 이번에는 데이터 수집을 하려고 온 거라 힘 빼기 싫은걸.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			say = "明明是这么明目张胆的拖延战术…可是我们却一点办法都没有……！",
+			say = "이렇게 대담한 지연 전술인데… 전혀 상대할 방법이 없어……!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_xiangting_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "轰-----！",
+			say = "펑------!",
 			flashN = {
 				color = {
 					1,
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			actor = 102050,
 			nameColor = "#a9f548",
-			say = "这片海域里，还有人在战斗！",
+			say = "이 해역에서 누군가 또 싸우는 모양이야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,8 +195,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 900021,
-			actorName = "净化者",
-			say = "（诱饵舰队被摧毁了，终于上钩了么）",
+			actorName = "퓨리파이어",
+			say = "(미끼로 보낸 함대가 당했나. 드디어 걸려들었네.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,8 +213,8 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 900021,
-			actorName = "净化者",
-			say = "啊--这-可-不-太-妙---要-撤-退-了----（棒读）",
+			actorName = "퓨리파이어",
+			say = "아-큰-일-이-다아-- 후-퇴-해-야-지--- (국어책 읽기)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "等-----！",
+			say = "기다려-----!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			bgName = "bg_xiangting_3",
 			dir = 1,
-			say = "几乎在净化者驶出视野的同时，一个“熟悉”的身影伴随着爆炸的余音从迷雾中出现了。",
+			say = "퓨리파이어가 시선에서 사라짐과 동시에 ‘익숙한’ 그림자 하나가 폭발음과 함께 안개 속에서 모습을 드러냈다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "…余、余烬--？！！",
+			say = "…잔, 잔해…?!!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			actor = 900135,
 			actorName = "？？？",
-			say = "这次你们的指挥官没跟着一起来么。",
+			say = "너희의 지휘관은 같이 오지 않은 모양인가.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "……无可奉告",
+			say = "……말할 수 없어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			actor = 900135,
 			actorName = "？？？",
-			say = "这样啊………（转身）",
+			say = "그런가……(돌아섬)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			say = "请…请等一下！谢谢你出来帮助我们！",
+			say = "잠… 잠깐만! 도와줘서 고마워!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			say = "请问！你知道这些海雾究竟是什么东西么…",
+			say = "저기, 여기는 어디야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			dir = 1,
 			actor = 900135,
 			actorName = "？？？",
-			say = "…塞壬用来掩护行军和围困敌人的把戏。",
+			say = "…버뮤다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			dir = 1,
 			actor = 102050,
 			nameColor = "#a9f548",
-			say = "居然在迷雾中偏航了这么远，明明就算通过海水的变化也应该早就能察觉到的…",
+			say = "그럴 리가! 안개 속에서 이렇게 멀리까지 왔다고?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			actor = 900135,
 			actorName = "？？？",
-			say = "「微层化混合物」，这片海雾的正式名字。整天被那些家伙耍，什么时候才能成长些啊…",
+			say = "하루 종일 그 녀석에게 농락당하기나 하고. 기억력은 언제 좋아질 건지… 안개, 이상한 점을 발견하지 못했어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "果然是这片海雾干的好事啊…糟糕了。",
+			say = "역시 이 안개가 범인이었군. 젠장…!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -502,7 +502,7 @@ return {
 			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			say = "那…请问我们能回去了么？我们还有很紧急的任务要做…",
+			say = "그러면… 돌아갈 수는 있는 거야? 급한 임무가 있는데…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			bgName = "bg_xiangting_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "当然，如果要选择打一场的话，我们也奉陪哦！",
+			say = "물론, 싸움을 원하는 거면 물러서지 않겠어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			actor = 900135,
 			actorName = "？？？",
-			say = "……真麻烦。",
+			say = "……귀찮아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			blackBg = true,
 			actor = 900135,
 			actorName = "？？？",
-			say = "唉…之前看到的侦察机飞来的方向，我记得是…………",
+			say = "그러니까… 안개 조종 방법이………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

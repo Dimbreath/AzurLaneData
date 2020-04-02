@@ -12,7 +12,7 @@ return {
 			bgmDelay = 1,
 			bgm = "hunhe-level",
 			nameColor = "#a9f548",
-			say = "？？？·？？？",
+			say = "???·???",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -38,7 +38,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "唔，究竟发生了什么事…？",
+			say = "윽, 대체 무슨 일이지…?",
 			effects = {
 				{
 					active = true,
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "随着海雾的逐渐消散，企业发现身处的环境发生了变化。",
+			say = "바다 안개가 차차 걷히면서 엔터프라이즈의 주변도 변화가 생겼다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,39 +74,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "周围的景色有些熟悉，但又有些陌生……仿佛在看一张毫无印象的个人照。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_banama_2",
-			dir = 1,
-			actor = 107060,
-			nameColor = "#a9f548",
-			say = "看起来是巴拿马要塞附近……应该没错。可是空气中的味道和感觉…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_banama_2",
-			dir = 1,
-			say = "硝烟、鲜血与死亡的气息随着空气进入鼻腔，这里恐怕在不久前刚经历过一场惨烈的战斗。",
+			say = "주변의 풍경은 아무런 인상도 없는 누군가의 사진을 보는 듯 익숙하지만 낯설었다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +91,39 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "这里恐怕已经……不是我所熟悉的巴拿马要塞近海了。",
+			say = "파나마 요새 근처인 것은…… 맞는 것 같군. 하지만 공기에서 느껴지는 느낌은…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_banama_2",
+			dir = 1,
+			say = "포연과 피 냄새가 섞인 죽음의 기운이 코끝을 감돌았다. 격렬한 전투가 일어난 지 얼마 지나지 않은 듯했다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_banama_2",
+			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
+			say = "여기는 아마도…… 내가 알고 있는 파나마 요새 근처는 아닌 것 같은데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "又起雾了…刚刚的景色是故意展示给我看？",
+			say = "또 안개인가… 방금 그 풍경은 일부러 보여준 건가?",
 			effects = {
 				{
 					active = false,
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "仿佛是回应了企业的自言自语一样，寂静的海雾中传出了缥缈但刺耳的轮机声。",
+			say = "엔터프라이즈의 혼잣말에 대답이라도 하는 듯, 바다 안개 속에서 귀를 찢는 듯한 엔진 소리가 들려왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "还有谁也被困在这里了么？！没办法，去看一看吧。",
+			say = "또 누군가 여기에 갇혀있는 건가?! 어쩔 수 없지. 가봐야겠군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

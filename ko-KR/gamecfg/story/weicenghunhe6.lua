@@ -8,7 +8,7 @@ return {
 		{
 			nameColor = "#a9f548",
 			side = 2,
-			say = "巴拿马要塞东侧·外海",
+			say = "파나마 요새 서쪽·외해",
 			dir = 1,
 			bgm = "hunhe-battle",
 			typewriter = {
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，无畏，你在这里啊。来的正好，我们发现塞壬准备展开袭击正在部署呢。",
+			say = "아, 인트레피드. 여기 있었군요. 마침 잘 왔어요. 세이렌이 습격하려는 정황을 발견했습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			expression = 2,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "在要塞附近战斗的话难免会对要塞本身有所损伤。进攻是最好的防守，我在想是不是由我们主动进攻消灭敌人比较好。",
+			say = "요새 근처에서 싸운다면 분명 큰 손해가 일어날 거예요. 공격은 최선의 방어라고 하죠. 그러니 우리가 먼저 적을 공격하는 것이 좋을 것 같네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107090,
-			say = "…哎？企业前辈呢，你不是去找她了么？",
+			say = "…에? 엔터프라이즈 선배는요? 찾으러 간 것 아니었나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "抱歉，企业前辈现在行踪不明……",
+			say = "미안, 엔터프라이즈 선배가 사라졌어……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………什么？",
+			say = "…………뭐라고요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			actor = 101440,
 			nameColor = "#a9f548",
-			say = "企业也失踪了？！而且在距离要塞这么近的地方？！",
+			say = "엔터프라이즈도 사라졌어?! 요새에서 이렇게 가까운데?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102270,
-			say = "…会不会和现在塞壬的袭击有关？企业在调查途中与塞壬交火，然后进入镜面海域导致通讯中断？",
+			say = "…지금 습격해온 세이렌과 관련이 있는 걸까요? 엔터프라이즈가 조사하는 중에 세이렌과 교전이 일어났고, 거울 해역에 들어가 통신이 두절됐다던가요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "希望只是这样吧…看来司令部的判断不错，塞壬确实在打巴拿马要塞的主意。",
+			say = "그러길 바라야지… 사령부의 판단이 맞은 것 같네. 세이렌은 확실히 파나마 요새를 공격하려고 해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "只不过没想到巴尔的摩舰队甚至企业前辈都在战斗前失去了联系…",
+			say = "그저 볼티모어 함대나 엔터프라이즈 선배가 전투도 치르기 전에 실종될 줄 몰랐을 뿐이지…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101440,
-			say = "这次作战就开局来说也太不走运了啊~",
+			say = "이번 작전은 시작부터 운이 좋지 않네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "绝对不是我的霉运传染给作战了之类的哦…！",
+			say = "절대로 내 불운이 작전에 옮은 건 아니니까…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "噗，无畏还真是可爱啊~大家也别愁眉苦脸了企业那么强，绝对不会有事的~",
+			say = "풋, 인트레피드는 정말 귀엽다니까요. 모두 걱정 마세요. 엔터프라이즈는 강하니까 별일 없을 거예요.~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……嗯，大敌当前，没有犹豫的时间了。",
+			say = "……네. 적이 눈앞까지 왔으니 고민할 시간은 없겠죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果企业前辈真的被塞壬困入在镜面海域的话，那我们要担心的就是别在我们到达之前塞壬就被她消灭干净了~",
+			say = "만약 엔터프라이즈 선배가 거울 해역에 말려 들어 갔다면, 우리가 도착하기 전에 선배가 세이렌을 전부 해치워버리지 않길 바라야지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "西侧舰队现在由我指挥。全员注意，由我们这边主动发起进攻，准备战斗！",
+			say = "서쪽 함대는 지금부터 제가 지휘합니다. 모두 주의하세요. 이쪽에서 먼저 공격합니다. 준비하세요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

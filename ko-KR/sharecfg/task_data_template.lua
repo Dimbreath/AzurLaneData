@@ -8344,6 +8344,262 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5141] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5114,
+		type = 5,
+		name = "데이트 신청",
+		count_inherit = 0,
+		desc = "어뢰 튀김을 3개 제출한다",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "aidang",
+		award_choice = "",
+		level = 1,
+		next_task = "5142",
+		visibility = 1,
+		story_id = "AIDANG1",
+		target_id_for_client = 50003,
+		id = 5141,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5142] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5115,
+		type = 5,
+		name = "출발!",
+		count_inherit = 0,
+		desc = "임의의 함선소녀를 10회 강화한다",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "aidang",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5143",
+		visibility = 1,
+		story_id = "AIDANG2",
+		target_id_for_client = 0,
+		id = 5142,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5143] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5116,
+		type = 5,
+		name = "쇼핑 중 사건 발생",
+		count_inherit = 0,
+		desc = "{namecode:67}를 포함한 함대를 출격시켜\n20회 승리한다",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "aidang",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5144",
+		visibility = 1,
+		story_id = "AIDANG3",
+		target_id_for_client = 30312,
+		id = 5143,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "30312",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5144] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5117,
+		type = 5,
+		name = "휴식 시간, 그 후——",
+		count_inherit = 0,
+		desc = "{namecode:67}를 포함한 함대로 데일리 챌린지를\n3회 클리어한다",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "aidang",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5145",
+		visibility = 1,
+		story_id = "AIDANG4",
+		target_id_for_client = 30312,
+		id = 5144,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "30312",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5145] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5118,
+		type = 5,
+		name = "어둠 속",
+		count_inherit = 0,
+		desc = "{namecode:67}의 호감도를 100까지 달성한다",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "aidang",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5146",
+		visibility = 1,
+		story_id = "AIDANG5",
+		target_id_for_client = 30312,
+		id = 5145,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "30312",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5146] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5119,
+		type = 5,
+		name = "석양 아래에서의 선물",
+		count_inherit = 0,
+		desc = "{namecode:67}의 한계돌파를 3회 진행한다",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "aidang",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5147",
+		visibility = 1,
+		story_id = "AIDANG6",
+		target_id_for_client = 303124,
+		id = 5146,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "303124",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5147] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5120,
+		type = 5,
+		name = "용감히 전진하다",
+		count_inherit = 0,
+		desc = "{namecode:67}의 레벨을 100까지 달성한다",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "aidang",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "AIDANG7",
+		target_id_for_client = 30312,
+		id = 5147,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "30312",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		}
+	},
 	[5151] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -78661,6 +78917,387 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[15500] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92800,
+		type = 6,
+		name = "『美系V3』角色收集：无畏",
+		count_inherit = 0,
+		desc = "[인트레피드]의 한계돌파를 3회 진행한다.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 107114,
+		id = 15500,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "107114",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59154,
+				600
+			}
+		}
+	},
+	[15501] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92801,
+		type = 6,
+		name = "『美系V3』角色收集：布莱默顿",
+		count_inherit = 0,
+		desc = "[브레머튼]의 한계돌파를 3회 진행한다.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 103244,
+		id = 15501,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "103244",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59154,
+				600
+			}
+		}
+	},
+	[15502] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92803,
+		type = 6,
+		name = "『美系V3』角色收集：里诺",
+		count_inherit = 0,
+		desc = "[쿠퍼]의 한계돌파를 3회 진행한다.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 102264,
+		id = 15502,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "102264",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59154,
+				600
+			}
+		}
+	},
+	[15503] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92802,
+		type = 6,
+		name = "『美系V3』角色收集：库珀",
+		count_inherit = 0,
+		desc = "[리노]의 한계돌파를 3회 진행한다.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 101444,
+		id = 15503,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "101444",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59154,
+				400
+			}
+		}
+	},
+	[15504] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92804,
+		type = 6,
+		name = "『美系V3』角色收集：蓝鳃鱼",
+		count_inherit = 0,
+		desc = "[블루길]의 한계돌파를 3회 진행한다.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 108044,
+		id = 15504,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "108044",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59154,
+				400
+			}
+		}
+	},
+	[15505] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92805,
+		type = 6,
+		name = "『美系V3』角色收集：马布尔黑德",
+		count_inherit = 0,
+		desc = "[마블헤드]의 한계돌파를 3회 진행한다.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 102274,
+		id = 15505,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "102274",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59154,
+				200
+			}
+		}
+	},
+	[15506] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92806,
+		type = 6,
+		name = "『美系V3』角色收集：卡萨布兰卡",
+		count_inherit = 0,
+		desc = "[민스크]의 한계돌파를 3회 진행한다.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 106554,
+		id = 15506,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "106554",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59154,
+				200
+			}
+		}
+	},
+	[15507] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92807,
+		type = 6,
+		name = "『美系V3』角色刷关：圣地亚哥",
+		count_inherit = 0,
+		desc = "한계돌파를 달성한 샌디에이고로 B3 혹은 D3의 적 기함을 10회 격파하고 생존",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15507,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1351213,
+			1353213
+		},
+		target_id_2 = {
+			102084,
+			102174
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59154,
+				300
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15508] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92808,
+		type = 6,
+		name = "『美系V3』角色刷关：萨拉托加",
+		count_inherit = 0,
+		desc = "한계돌파를 달성한 새러토가를 사용해 B2 혹은 D2의 적 기함을 10회 격파하고 생존",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15508,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1351113,
+			1353113
+		},
+		target_id_2 = {
+			107034
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59154,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15509] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92809,
+		type = 6,
+		name = "『美系V3』角色刷关：海伦娜",
+		count_inherit = 0,
+		desc = "한계돌파를 달성한 헬레나를 사용해 A3 혹은 C3의 적 기함을 10회 격파하고 생존",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15509,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1350213,
+			1352213
+		},
+		target_id_2 = {
+			102054
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59154,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15510] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92810,
+		type = 6,
+		name = "『美系V3』角色刷关：孟菲斯",
+		count_inherit = 0,
+		desc = "한계돌파를 달성한 멤피스를 사용해 A2 혹은 C2의 적 기함을 10회 격파하고 생존",
+		sub_type = 16,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15510,
+		target_num = 10,
+		fix_task = 0,
+		target_id = {
+			1350113,
+			1352113
+		},
+		target_id_2 = {
+			102164
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59154,
+				100
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
 	[15511] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -78789,6 +79426,720 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[15518] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92819,
+		type = 36,
+		name = "『美系V3』-日常建造",
+		count_inherit = 0,
+		desc = "함선을 3척 건조하라!",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15518,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59155,
+				300
+			}
+		}
+	},
+	[15519] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92820,
+		type = 36,
+		name = "『美系V3』-日常出击",
+		count_inherit = 0,
+		desc = "함대를 출격시켜, 전투에서 15번 승리하라!",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15519,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59155,
+				300
+			}
+		}
+	},
+	[15520] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92821,
+		type = 36,
+		name = "『美系V3』-日常困难本",
+		count_inherit = 0,
+		desc = "임의의 어려움 스테이지 1회 클리어",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15520,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59155,
+				150
+			}
+		}
+	},
+	[15521] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92822,
+		type = 6,
+		name = "『美系V3』通关A1/C1",
+		count_inherit = 0,
+		desc = "A1 혹은 C1 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15522",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15521,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1330001,
+			1330021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59155,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15522] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92823,
+		type = 6,
+		name = "『美系V3』通关A2/C2",
+		count_inherit = 0,
+		desc = "A2 혹은 C2 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15523",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15522,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1330002,
+			1330022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59155,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15523] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92824,
+		type = 6,
+		name = "『美系V3』通关A3/C3",
+		count_inherit = 0,
+		desc = "A3 혹은 C3 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15524",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15523,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1330003,
+			1330023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59155,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15524] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92825,
+		type = 6,
+		name = "『美系V3』通关B1/D1",
+		count_inherit = 0,
+		desc = "B1 혹은 D1 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15525",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15524,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1330004,
+			1330024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59155,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15525] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92826,
+		type = 6,
+		name = "『美系V3』通关B2/D2",
+		count_inherit = 0,
+		desc = "B2 혹은 D2 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15526",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15525,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1330005,
+			1330025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59155,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15526] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92827,
+		type = 6,
+		name = "『美系V3』通关B3/D3",
+		count_inherit = 0,
+		desc = "B3 혹은 D3 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15527",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15526,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1330006,
+			1330026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59155,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15527] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92828,
+		type = 6,
+		name = "『美系V3』通关SP",
+		count_inherit = 0,
+		desc = "SP 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1330041,
+		id = 15527,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1330041",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15528] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92829,
+		type = 6,
+		name = "『美系V3』通关D3",
+		count_inherit = 0,
+		desc = "D3 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1330026,
+		id = 15528,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1330026",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				173,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15529] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92830,
+		type = 6,
+		name = "『美系V3』A1/C1的3星",
+		count_inherit = 0,
+		desc = "A1 혹은 C1의 3성 수집 완료",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15530",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15529,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1330001,
+			1330021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15530] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92831,
+		type = 6,
+		name = "『美系V3』A2/C2的3星",
+		count_inherit = 0,
+		desc = "A2 혹은 C2의 3성 수집 완료",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15531",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15530,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1330002,
+			1330022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15531] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92832,
+		type = 6,
+		name = "『美系V3』A3/C3的3星",
+		count_inherit = 0,
+		desc = "A3 혹은 C3의 3성 수집 완료",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15532",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15531,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1330003,
+			1330023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15532] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92833,
+		type = 6,
+		name = "『美系V3』B1/D1的3星",
+		count_inherit = 0,
+		desc = "B1 혹은 D1의 3성 수집 완료",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15533",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15532,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1330004,
+			1330024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15533] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92834,
+		type = 6,
+		name = "『美系V3』B2/D2的3星",
+		count_inherit = 0,
+		desc = "B2 혹은 D2의 3성 수집 완료",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15534",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15533,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1330005,
+			1330025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15534] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92835,
+		type = 6,
+		name = "『美系V3』B3/D3的3星",
+		count_inherit = 0,
+		desc = "B3 혹은 D3의 3성 수집 완료",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15534,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1330006,
+			1330026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
 	[15535] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -78796,7 +80147,7 @@ pg.task_data_template = {
 		type = 6,
 		name = "登录送皮肤体验券活动",
 		count_inherit = 0,
-		desc = "登录游戏",
+		desc = "게임에 로그인하기",
 		target_id_2 = "",
 		sub_type = 1011,
 		added_tip = 0,
@@ -88271,6 +89622,13 @@ pg.task_data_template = {
 		5125,
 		5126,
 		5127,
+		5141,
+		5142,
+		5143,
+		5144,
+		5145,
+		5146,
+		5147,
 		5151,
 		5152,
 		5153,
@@ -90196,10 +91554,38 @@ pg.task_data_template = {
 		15497,
 		15498,
 		15499,
+		15500,
+		15501,
+		15502,
+		15503,
+		15504,
+		15505,
+		15506,
+		15507,
+		15508,
+		15509,
+		15510,
 		15511,
 		15512,
 		15513,
 		15514,
+		15518,
+		15519,
+		15520,
+		15521,
+		15522,
+		15523,
+		15524,
+		15525,
+		15526,
+		15527,
+		15528,
+		15529,
+		15530,
+		15531,
+		15532,
+		15533,
+		15534,
 		15535,
 		30201,
 		30202,

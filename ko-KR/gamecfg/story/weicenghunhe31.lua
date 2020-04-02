@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#a9f548",
-			say = "轰----！",
+			say = "펑----!",
 			flashN = {
 				color = {
 					1,
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 106550,
-			say = "这个战斗能力和防护力，果然不能单纯当成潜艇来对待…！",
+			say = "이 전투력과 방어력이라니, 평범한 잠수함은 아니군요…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103240,
-			say = "把这种拥有舰载机群、大口主炮和无数鱼雷管，还有超强护盾存在的东西，硬分类成潜艇我也无法接受啊…",
+			say = "함재기를 가지고 있으면서도 대형 주포와 어뢰까지 사용하고, 강력한 실드도 있다니… 잠수함이라고 생각할 수는 없겠어…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "毫无疑问，是强敌…！",
+			say = "확실히 강적이군…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "大家再加把劲，我感觉差一点点就能击穿它的护盾了！",
+			say = "모두 조금만 더 힘내. 저 실드를 파괴할 방법이 생각날 것 같아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			actor = 900234,
 			actorName = "？？？",
-			say = "警告，护盾即将过载。模式切换。潜航模式，ON。",
+			say = "실드 과열. 모드 체인지. 잠수함 모드, ON.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107090,
-			say = "舰装正在……变形？不好，敌人想下潜到水面之下！",
+			say = "장비가…… 변하고 있어요? 안 돼. 적이 잠수하려고 해요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			soundeffect = "event:/battle/plane",
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "果然它的护盾快撑不住了！休想得逞，起飞准备完成——舰载机队，去吧！Roll out！",
+			say = "역시 실드가 버티지 못한 거야! 도망갈 생각은 마시지! 이륙 준비 완료—— 함재기 부대, 가라! 롤 아웃!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "里诺和马布尔黑德掩护无畏前进，蓝鳃鱼，去水下尽可能阻拦敌人下潜！",
+			say = "리노와 마블헤드는 인트레피드의 엄호를! 블루길, 적의 잠수를 최대한 막으세요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "收到~包在我身上。",
+			say = "라져! 맡겨줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "白鹰的巴拿马要塞可不是塞壬想来就来想走就能走的地方。今天一定要让你为进攻行为付出代价！",
+			say = "이글 유니온의 파나마 요새는 너희가 마음대로 드나들 수 있는 곳이 아니야. 이번 공격의 대가를 톡톡히 받아내겠어!",
 			effects = {
 				{
 					active = true,
