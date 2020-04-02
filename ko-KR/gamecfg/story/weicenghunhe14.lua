@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			bgm = "hunhe-battle",
 			nameColor = "#a9f548",
-			say = "“这里是执行侦察任务中的库珀，前方出现的塞壬浑身散发着紫色光芒，看起来好帅，也许是新型号”",
+			say = "‘여기는 정찰 임무 중인 쿠퍼. 전방에 보라색 빛이 나는 세이렌 발견. 엄청 멋있는데 아무래도 신형인 것으로 추정.’",
 			effects = {
 				{
 					active = true,
@@ -33,7 +33,7 @@ return {
 			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "“不但火力变强了，而且装甲也变厚了，我的龙卷…”，咳……！",
+			say = "‘강할 뿐 아니라 장갑도 두꺼워 보임. 나의 사이클론…’ 크흠……!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "“我的‘龙卷风爆裂射击’造成的损伤也明显变小了，请求迅速增援”",
+			say = "‘나의 사이클론 스매셔로도 큰 타격을 입히지 못하니 빠른 지원 바람!’",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "库珀刚刚用侦察机传来了这样的消息哎…",
+			say = "이라고 방금 쿠퍼의 정찰기가 보내온 소식인데…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "战斗力更强的新型塞壬…理论上来说应该会守卫着重要目标吧。",
+			say = "강한 신형 세이렌이라니… 이론적으로는 분명 중요한 것을 지키고 있겠죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "Bingo~！看来我们判断的没错，中大奖了。",
+			say = "빙고~! 우리 생각이 맞은 모양이에요. 당첨이군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家准备支援库珀。向新型塞壬出现的方向进攻，迷雾生成的秘密肯定就在那里！",
+			say = "쿠퍼를 지원할 준비를 해주세요. 신형 세이렌이 있는 곳을 공격합니다. 안개의 비밀도 분명 거기에 있을 거예요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			soundeffect = "event:/battle/plane",
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "收到~无畏、Getting on!",
+			say = "라져! 인트레피드, Getting on!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,7 +12,7 @@ return {
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "hunhe-level",
-			say = "？？？·？？？",
+			say = "???·???",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -44,7 +44,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "谁躲在那里，快出来！",
+			say = "거기 누구지? 당장 나와!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "就当我是背景的旁白吧。",
+			say = "나는 나레이션이라고 생각해줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "看到什么钟意的内容了么？",
+			say = "뭔가 신경 쓰이는 거라도 발견했어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "这些幻影，究竟是什么东西…？",
+			say = "이 환영은, 대체 뭐지…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "记录。",
+			say = "기록.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "什么地方，什么时候的记录？",
+			say = "언제, 어디서의 기록이지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "存在于彼方，又存在于此处。既是过去的刻印，又是未来的预兆。",
+			say = "이곳과 저곳. 그리고 과거의 각인이자 미래의 예지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "现在，也存在于你的心里了。",
+			say = "그리고 지금 네 마음속에도 있지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "……我没时间和你打哑谜，为什么要给我看这些虚假的闹剧？",
+			say = "……헛소리 들어줄 시간은 없다. 왜 나에게 이런 거짓된 연극을 보여주는 거지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "记录是不会说谎的。",
+			say = "기록은 거짓말을 하지 않아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "看，她来了。",
+			say = "봐, 왔어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "企业身边的幻影突然全部消失，然后一个新的身影从迷雾中浮现出来。",
+			say = "엔터프라이즈의 곁에 있던 환영이 전부 사라진 뒤, 새로운 그림자가 안개에서 나왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "一位头顶蓝色水母顶盖，手拿玩偶乘坐在巨大舰装上的少女。",
+			say = "거기에 서 있는 것은 푸른색 모자를 쓰고 손에는 거대한 장비를 든 소녀였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "这个是…？！",
+			say = "이건…?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			stopbgm = true,
-			say = "轰----------------！！！！",
+			say = "펑----!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -292,7 +292,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "伴随着一声巨响，海水和空气突然发生了巨大震动，仿佛空间本身被撕裂开了个大口子一样。",
+			say = "굉음과 함께 공간이 찢어지는 것처럼 해수면과 공기에 거대한 떨림이 일어났다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			say = "啧。",
+			say = "쯧.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "未知的声音留下一声不甘心的叹息，随即停止了呢喃。",
+			say = "알 수 없는 목소리는 마음에 들지 않는다는 듯 혀를 차고 입을 닫아버렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "海雾也开始逐渐散去，露出了在四周潜伏多时的塞壬舰队。",
+			say = "바다 안개가 걷힌 자리에는 기습을 노리는 세이렌 함대로 가득했다.",
 			effects = {
 				{
 					active = false,
@@ -360,7 +360,7 @@ return {
 			bgm = "hunhe-battle",
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "…说了这么多，果然对付塞壬还是需要通过用战斗收场么。",
+			say = "…역시 세이렌을 상대하려면 전투가 답인 건가.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			bgName = "bg_banama_2",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
-			say = "轰----！",
+			say = "펑----!",
 			flashN = {
 				color = {
 					1,
@@ -427,7 +427,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "又是一声巨响从近处传来，这个声音是…",
+			say = "또 다른 굉음이 들려왔다. 이 소리는…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			say = "哟，这不是企业么！没想到在这里遇到你了，需要帮助么~",
+			say = "오, 엔터프라이즈잖아! 여기서 만날 줄은 몰랐네. 도움이 필요해?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "巴尔的摩？！还有……",
+			say = "볼티모어?! 그리고……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			say = "啊，我知道你有很多疑问，实际上我们自己也没搞清楚状况，不过---",
+			say = "아. 궁금한 게 많을 거라는 건 알아. 사실 우리도 무슨 상황인지 잘 모르거든. 하지만---",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			dir = 1,
 			actor = 102050,
 			nameColor = "#a9f548",
-			say = "我们平安脱困了，企业。",
+			say = "일단 이 상황을 벗어나도록 하자, 엔터프라이즈.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
-			say = "失去联络数日的调防舰队居然突然在这里出现了！",
+			say = "연락이 두절된 지 한참 된 함대가 나타났다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "嗯？背后刚刚好像还有个身影一闪而过…那个是？！",
+			say = "음? 등 뒤에 누군가 지나간 것 같은데… 저건?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			blackBg = true,
 			actor = 900227,
 			actorName = "？？？",
-			say = "不在这里么…",
+			say = "여기에 없나…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

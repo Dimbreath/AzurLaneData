@@ -1516,6 +1516,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[444] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 35,
+		group_type = 10144,
+		code = 444,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 어둠을 쫓는 은익",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[28] = {
 		type = 1,
 		trans_skin = 0,
@@ -1724,6 +1755,37 @@ pg.ship_data_group = {
 						projectName = "light",
 						page = 1
 					}
+				},
+				0
+			}
+		}
+	},
+	[448] = {
+		type = 2,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 41,
+		group_type = 10227,
+		code = 448,
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 어둠을 쫓는 은익",
+				{
+					""
 				},
 				0
 			}
@@ -2236,6 +2298,37 @@ pg.ship_data_group = {
 		description = {
 			{
 				"한정 이벤트 : 샌드 플레이",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[445] = {
+		type = 2,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 53,
+		group_type = 10226,
+		code = 445,
+		property_hexagon = {
+			"D",
+			"D",
+			"E",
+			"B",
+			"S",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 어둠을 쫓는 은익",
 				{
 					""
 				},
@@ -3121,6 +3214,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[443] = {
+		type = 3,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 76,
+		group_type = 10324,
+		code = 443,
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 어둠을 쫓는 은익",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[52] = {
 		type = 5,
 		trans_skin = 105019,
@@ -3848,6 +3972,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[447] = {
+		type = 6,
+		trans_skin = 0,
+		trans_type = 6,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 93,
+		group_type = 10655,
+		code = 447,
+		property_hexagon = {
+			"E",
+			"E",
+			"B",
+			"D",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 어둠을 쫓는 은익",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[72] = {
 		type = 6,
 		trans_skin = 107019,
@@ -4312,6 +4467,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[442] = {
+		type = 7,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 103,
+		group_type = 10711,
+		code = 442,
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 어둠을 쫓는 은익",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[380] = {
 		type = 7,
 		trans_skin = 0,
@@ -4470,6 +4656,37 @@ pg.ship_data_group = {
 			},
 			{
 				"한정 이벤트 : 알바코어의 팔레트",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[446] = {
+		type = 8,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 1,
+		hide = 0,
+		index_id = 109,
+		group_type = 10804,
+		code = 446,
+		property_hexagon = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 어둠을 쫓는 은익",
 				{
 					""
 				},
@@ -15444,11 +15661,13 @@ pg.ship_data_group = {
 		15,
 		13,
 		427,
+		444,
 		28,
 		29,
 		30,
 		303,
 		366,
+		448,
 		360,
 		31,
 		32,
@@ -15460,6 +15679,7 @@ pg.ship_data_group = {
 		35,
 		36,
 		404,
+		445,
 		392,
 		37,
 		38,
@@ -15482,6 +15702,7 @@ pg.ship_data_group = {
 		48,
 		49,
 		50,
+		443,
 		52,
 		53,
 		54,
@@ -15498,6 +15719,7 @@ pg.ship_data_group = {
 		401,
 		70,
 		71,
+		447,
 		72,
 		73,
 		74,
@@ -15507,11 +15729,13 @@ pg.ship_data_group = {
 		79,
 		78,
 		357,
+		442,
 		380,
 		377,
 		403,
 		378,
 		358,
+		446,
 		402,
 		342,
 		80,

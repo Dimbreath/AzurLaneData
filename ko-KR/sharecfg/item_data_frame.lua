@@ -117,7 +117,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 307,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>후속 이벤트를 통해 획득</color>",
+		desc = "<Color=#ffffff>「두려움을 모르는 번개가 어둠을 가르고 우리가 나아갈 방향을 밝게 비춘다」</color>\n「어둠을 쫓는 은익」이벤트 획득 ",
 		scene = {}
 	},
 	all = {

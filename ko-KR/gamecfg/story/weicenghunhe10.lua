@@ -8,7 +8,7 @@ return {
 		{
 			nameColor = "#a9f548",
 			side = 2,
-			say = "巴拿马要塞西侧·外海",
+			say = "파나마 요새 동쪽·외해",
 			dir = 1,
 			bgm = "hunhe-battle",
 			typewriter = {
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一边微笑着，一边把敌人全都轰飞了…",
+			say = "웃으면서 적을 모두 날려버린다니…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103240,
-			say = "哎？我的实战经验不是很丰富啦，刚刚有哪里做得不对么…？",
+			say = "에? 나는 실전 경험이 많지 않은 편이라서, 설마 방금 전에 뭘 잘못했나…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不，做得很出色。近距离看下来，巴尔的摩级的性能果然很优秀。用性能弥补了实战经验的不足么？",
+			say = "아주 잘했지. 가까이서 보니 볼티모어급의 성능은 역시 우수하군. 성능으로 실전 경험 부족을 커버하는 건가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103240,
-			say = "哼哼，性能上来说我可是很自信的哦~而且，我可是进行过超多超严格的演习磨练的！",
+			say = "흐흥, 성능에는 자신 있지. 그리고 굉장히 엄격한 연습과 테스트를 거쳤다고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103240,
-			say = "本来想着终于有机会和巴尔的摩并肩作战了呢…",
+			say = "사실은 드디어 볼티모어와 나란히 작전을 수행하겠구나 기대했었는데…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…很担心她么？",
+			say = "…걱정되나?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103240,
-			say = "当然，怎么可能不担心呢……",
+			say = "그럼. 어떻게 걱정을 안 하겠어…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "布莱默顿面色凝重了一下，不过随即又露出了灿烂的笑容.",
+			say = "브레머튼의 얼굴이 잠시 어두워졌다 이내 다시 환한 미소가 번졌다..",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103240,
-			say = "不过巴尔的摩比我还要强哦，现在肯定已经在塞壬家里闹得天翻地覆了吧！",
+			say = "하지만 볼티모어는 나보다 강하니까 분명 지금쯤 세이렌의 본진을 뒤집어 놓고 있을 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也相信她们一定会没事的。",
+			say = "나도 무사할 거라고 믿는다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107170,
-			say = "嗯？海雾…？",
+			say = "아? 바다 안개…?",
 			effects = {
 				{
 					active = true,
@@ -202,7 +202,7 @@ return {
 			soundeffect = "event:/ui/noice",
 			actor = 106550,
 			nameColor = "#a9f548",
-			say = "……【杂音】…听得到么…【杂音】…",
+			say = "…… [잡음] ……들리십니까… [잡음] …",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			soundeffect = "event:/ui/noice",
 			actor = 106550,
 			nameColor = "#a9f548",
-			say = "…【杂音】…塞壬随着海雾…【杂音】…新一轮进攻",
+			say = "… [잡음] …세이렌은 바다 안개와 함께… [잡음] …다시 공격을…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			soundeffect = "event:/ui/noice",
 			actor = 106550,
 			nameColor = "#a9f548",
-			say = "…远离海雾…【杂音】…返回近海…",
+			say = "… 바다 안개에서 떨어져서… [잡음] …근해로 돌아가…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 		},
 		{
 			soundeffect = "event:/ui/noice",
-			actorName = "通讯器",
+			actorName = "통신기",
 			side = 2,
 			dir = 1,
 			nameColor = "#a9f548",
@@ -267,7 +267,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "通讯中断了。被刚刚出现的海雾干扰了…？",
+			say = "통신이 끊겼다… 설마 이 바다 안개에 교란을 당한 건가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,8 +282,8 @@ return {
 			side = 2,
 			bgName = "bg_banama_3",
 			dir = 1,
-			actorName = "布莱默顿",
-			say = "真是步步紧逼，一刻也不得闲啊…大家都在各处战斗，相互担心也解决不了问题。",
+			actorName = "브레머튼",
+			say = "숨 돌릴 틈도 없이 몰아치네… 모두 각자의 싸움을 하고 있으니 걱정을 하는 거로는 문제를 해결할 수 없겠어.",
 			effects = {
 				{
 					active = false,
@@ -300,12 +300,12 @@ return {
 			}
 		},
 		{
-			actorName = "布莱默顿",
+			actorName = "브레머튼",
 			side = 2,
 			bgName = "bg_banama_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们现在能做的就是，保护好巴拿马要塞，挫败塞壬的袭击计划。然后——相信同伴吧。",
+			say = "우리가 지금 할 수 있는 일은 파나마 요새를 지키고 세이렌의 습격 계획을 막는 거야. 그리고—— 동료를 믿는 거겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,12 +316,12 @@ return {
 			}
 		},
 		{
-			actorName = "邦克山",
+			actorName = "벙커힐",
 			side = 2,
 			bgName = "bg_banama_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说得好！虽然战场历练得少，到底还是白鹰优秀的战士。很荣幸与你并肩战斗，巴尔的摩级的布莱默顿。",
+			say = "맞는 말이다. 실전 경험은 적지만, 역시 이글 유니온의 우수한 전함이로군. 너와 함께 싸울 수 있어서 영광이다. 볼티모어급의 브레머튼.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,8 +337,8 @@ return {
 			bgName = "bg_banama_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "布莱默顿",
-			say = "彼此彼此~很荣幸能同你并肩战斗，埃塞克斯级的邦克山小姐~",
+			actorName = "브레머튼",
+			say = "나도 함께 싸울 수 있어서 영광이야. 에식스급의 벙커힐 씨.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,8 +354,8 @@ return {
 			bgName = "bg_banama_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "布莱默顿",
-			say = "（巴尔的摩…一定要平安无事啊）",
+			actorName = "브레머튼",
+			say = "(볼티모어… 무사해야 해.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

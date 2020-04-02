@@ -9,7 +9,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_guild_blue",
-			say = "巴拿马要塞·会议室",
+			say = "파나마 요새·회의실",
 			dir = 1,
 			bgm = "hunhe-story",
 			typewriter = {
@@ -28,7 +28,7 @@ return {
 			dir = 1,
 			actor = 102270,
 			nameColor = "#a9f548",
-			say = "呵啊唔……等得好无聊啊。结果企业到最后也没有来呢……",
+			say = "후아암…… 기다리는 것도 지겹네요. 결국 엔터프라이즈는 오지 않았죠……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			actor = 103240,
 			nameColor = "#a9f548",
-			say = "也许是看着巴拿马的风景入迷了，或者太累了在途中多休息了一会儿吧。",
+			say = "어쩌면 파나마의 풍경에 푹 빠졌을지도. 아니면 너무 피곤해서 중간에 쉬고 있는 걸지도 몰라.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			actor = 103240,
 			nameColor = "#a9f548",
-			say = "企业一直都那么紧绷着神经，如果能在这里稍微放松一下也不错嘛。",
+			say = "엔터프라이즈도 계속 긴장하고 있었으니까, 여기서라도 조금 편하게 있을 수 있다면 다행이지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错~就算是超级英雄也需要偶尔休息一下的！",
+			say = "맞아. 슈퍼 히어로에게도 휴식은 필요하니까!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			actor = 107170,
 			nameColor = "#a9f548",
-			say = "那么会议现在结束，驻防分配就这么决定了。",
+			say = "그러면 회의는 여기까지. 배치는 그렇게 결정하는 것으로 하지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要塞西侧的舰队由布莱默顿和我负责指挥，东侧的舰队由企业和埃塞克斯负责指挥。",
+			say = "요새 서쪽은 브레머튼과 내가, 동쪽은 엔터프라이즈와 에식스가 지휘한다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家按照驻防分配前往岗位吧，不能让防御空出来太久给予敌人可乘之机。",
+			say = "모두 배치에 따라 위치로. 자리를 오래 비워 적에게 틈을 줘서는 안 된다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_guild_blue",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "前往西侧的舰队请随我来，东侧的话，库珀会向你们介绍防御设施的。",
+			say = "서쪽에 배치된 자는 나를 따라 와라. 동쪽은 쿠퍼가 방어 시설을 설명해줄 거다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			actor = 101440,
 			nameColor = "#a9f548",
-			say = "嘿嘿，包在我身上~不光是防御设施，风景介绍也包在我身上咯~",
+			say = "헤헤, 맡겨줘. 방어 시설뿐 아니라 풍경까지 소개해줄게!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			say = "唔，我果然还是不太放心企业前辈，我去稍微找找看！",
+			say = "음, 역시 엔터프라이즈 선배가 걱정되네요. 한번 둘러보고 오겠습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "（埃塞克斯还是老样子，每次遇到和企业前辈有关的事，就会变得沉不住气啊）",
+			say = "(에식스는 여전하네. 항상 엔터프라이즈 선배와 관련된 일이라면 안절부절못한다니까.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "交给我吧，埃塞克斯。你现在刚刚接手西侧的指挥，还是先去熟悉一下要塞比较好哦。",
+			say = "나한테 맡겨줘, 에식스. 방금 서쪽 함대의 지휘를 맡았잖아? 그러니 지금은 요새에 익숙해지는 게 중요해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "企业前辈~企业前辈~你在哪儿呢。",
+			say = "엔터프라이즈 선배~ 엔터프라이즈 선배~ 어디 있어?",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -269,7 +269,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "我带来了马布尔黑德推荐的巴拿马特制的咖啡很提神哦，来一杯吧。",
+			say = "마블헤드가 추천해준 정신이 번쩍 드는 파나마 특제 커피를 가져왔다고. 한잔해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "……咦？",
+			say = "……에?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "这里是无畏，企业前辈，收到请回话。",
+			say = "여기는 인트레피드, 엔터프라이즈 선배. 응답해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 		},
 		{
 			soundeffect = "event:/ui/noice",
-			actorName = "通讯器",
+			actorName = "통신기",
 			side = 2,
 			dir = 1,
 			nameColor = "#a9f548",
@@ -333,7 +333,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "这个时候通讯器突然坏了…？应该不会这么倒霉吧。",
+			say = "하필 이때 통신기 고장이라고…? 설마 그렇게 재수가 없을까.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "果然没坏……也就是说！",
+			say = "고장은 나지 않았어… 그렇다는 건!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -365,8 +365,8 @@ return {
 			}
 		},
 		{
-			say = "全体人员注意，要塞周边海域发现塞壬袭击迹象。",
-			actorName = "通讯器",
+			say = "전원 주의. 요새 주변에 세이렌이 습격한 흔적을 발견했다.",
+			actorName = "통신기",
 			side = 2,
 			dir = 1,
 			nameColor = "#a9f548",
@@ -381,11 +381,11 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "통신기",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "敌方舰队正在从两侧远海同时向要塞方向接近。请各战斗人员迅速归位，准备战斗。",
+			say = "적 함대, 현재 양쪽 먼바다에서 요새를 향해 접근 중. 모든 전투원은 신속히 제 위치로 돌아가 전투를 준비하라.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "在这个时候发动袭击！？…刚才来的时候连个影子都没有，从哪儿冒出来这么多啊！！",
+			say = "이럴 때 습격이라고?! … 방금 올 때는 그림자도 없었는데, 대체 어디서 온 거지?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

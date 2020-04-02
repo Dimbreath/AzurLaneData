@@ -12,7 +12,7 @@ return {
 			bgm = "hunhe-battle",
 			actor = 101440,
 			nameColor = "#a9f548",
-			say = "不值一提，不值一提~塞壬舰队全部消灭干净咯~",
+			say = "쉬워, 너무 쉬워. 세이렌 소탕 완료야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "嗯…无畏收到，企业前辈行踪也麻烦你们留意一下。",
+			say = "음… 인트레피드, 라져. 엔터프라이즈 선배의 수색도 좀 부탁할게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "埃塞克斯，布莱默顿发来消息，西侧来袭的敌人也被清理干净了。",
+			say = "에식스, 서쪽의 세이렌 함대는 모두 깔끔하게 처리했다고 브레머튼이 알려왔어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "奇怪…敌人都消灭干净了也没看到企业前辈呢…",
+			say = "이상하네요… 적은 확실히 처리했는데, 엔터프라이즈 선배가 보이질 않아요.…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "已经让布莱默顿她们留意企业前辈的动向了，不过要塞方面汇报这段时间并没有前辈通过运河的迹象…",
+			say = "브레머튼 일행에게도 엔터프라이즈 선배의 수색을 부탁해 뒀어. 하지만 선배가 운하를 통과한 흔적을 발견하지 못했다고 요새 쪽에서는 알려왔는데…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "巴拿马附近海域我很熟的，不论是企业还是巴尔的摩她们，搜查就放心交给我库珀吧~",
+			say = "파나마 인근 해역은 우리가 잘 알아. 엔터프라이즈든 볼티모어 일행이든, 수색은 쿠퍼에게 맡겨줘!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			actor = 101440,
 			nameColor = "#a9f548",
-			say = "哎、哎？奇怪，以今天的天气来说，现在不该出现这么浓厚的海雾啊。",
+			say = "에, 에? 이상하네. 오늘 일기 예보에서 이렇게 짙은 바다 안개가 낀다는 얘기는 없었는데?",
 			effects = {
 				{
 					active = true,
@@ -135,7 +135,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
-			say = "不知不觉中，原本晴朗的海面被厚重的海雾覆盖了。",
+			say = "정신을 차려보니 맑았던 하늘에 바다 안개가 짙게 껴 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "海雾出现的速度太快了…这不符合常理啊！",
+			say = "안개가 끼는 속도가 너무 빨라… 뭔가 이상해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			say = "巴尔的摩舰队失踪之前也曾经遭遇了大面积的海雾…难道说？！",
+			say = "볼티모어 함대가 실종되기 전에도 이렇게 짙은 바다 안개를 만났었지… 설마?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,

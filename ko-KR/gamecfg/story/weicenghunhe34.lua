@@ -11,7 +11,7 @@ return {
 			bgName = "bg_cccp_7",
 			dir = 1,
 			bgm = "airRaidAlarm",
-			say = "又是硝烟和死亡的味道……这里是战场。",
+			say = "또다시 포연과 죽음의 냄새가 가득하다…… 여기는 전장이다.",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			bgName = "bg_cccp_7",
 			dir = 1,
-			say = "海面上漂浮着无数残骸，远方闪耀着无数火光。",
+			say = "해수면에 수많은 잔해가 떠다니고, 먼 곳에서는 빛이 반짝인다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#ffa500",
-			say = "这里是…哪里？",
+			say = "여기는… 어디지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_cccp_7",
 			dir = 1,
-			say = "四面八方都在战斗着，有熟悉的身影，也有陌生的身影。",
+			say = "사방에서 전투가 벌어지고 있다. 익숙한 모습도, 낯선 모습도 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#ffa500",
-			say = "白鹰、皇家、重樱、铁血…来了不少人啊。",
+			say = "이글 유니온, 로열 네이비, 사쿠라 엠파이어, 메탈 블러드… 많이도 왔군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			bgName = "bg_cccp_7",
 			dir = 1,
-			say = "然而，她们战斗的对象，却不是塞壬。",
+			say = "하지만 그들이 싸우는 상대는 세이렌이 아니었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#ffa500",
-			say = "对面的敌人是…北方联合…？！",
+			say = "적은… 노스 유니온…?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#ffa500",
-			say = "不对…虽然风格有点接近，但是不是。那些不是北方联合的舰队。",
+			say = "아니… 스타일은 비슷하지만 달라. 노스 유니온의 함대가 아니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 2,
 			bgName = "bg_cccp_7",
 			dir = 1,
-			say = "娇小的身影一个接一个的倒了下去，有些挣扎着爬了起来，有些则慢慢沉入了水下。",
+			say = "작은 그림자가 하나둘 쓰러져갔다. 누군가는 기어오르려고 발버둥 쳤고, 누군가는 조용히 물속으로 가라앉았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#ffa500",
-			say = "…得赶快去帮忙才行！",
+			say = "…당장 도와야 해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,24 +185,7 @@ return {
 			side = 2,
 			bgName = "bg_cccp_7",
 			dir = 1,
-			say = "可是身体却完全动不了，仿佛从来就不属于自己一样。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_cccp_7",
-			dir = 1,
-			actor = 107060,
-			nameColor = "#ffa500",
-			say = "天上飞的是什么，流星群？",
+			say = "하지만 몸은 자신의 것이 아닌 것처럼 움직이지 않았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +202,24 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#ffa500",
-			say = "好美啊…………",
+			say = "머리 위에는, 별똥별?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_cccp_7",
+			dir = 1,
+			actor = 107060,
+			nameColor = "#ffa500",
+			say = "아름답군………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#ffa500",
-			say = "？！！！",
+			say = "?!!!",
 			effects = {
 				{
 					active = false,
@@ -297,7 +297,7 @@ return {
 			blackBg = true,
 			actor = 107060,
 			nameColor = "#ffa500",
-			say = "刚刚的是…梦？",
+			say = "방금 그건… 꿈?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

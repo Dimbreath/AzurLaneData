@@ -8878,7 +8878,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "타슈켄트、소비에츠카야 러시아 등 캐릭터 출현 확률UP！ ",
+		tip = "인트레피드, 브레머튼 등 캐릭터 한정 건조 추가! ",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -12563,7 +12563,7 @@ TIPS:
 		}
 	},
 	retire_selectzero = {
-		tip = "没找到符合条件的舰船",
+		tip = "조건에 부합하는 함선을 찾을 수 없습니다. ",
 		key = "retire_selectzero"
 	},
 	undermist_tip = {

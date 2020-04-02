@@ -55,6 +55,17 @@ pg.task_data_trigger = {
 			}
 		}
 	},
+	[13] = {
+		group_id = 30312,
+		id = 13,
+		activity_id = 25034,
+		args = {
+			{
+				1,
+				5141
+			}
+		}
+	},
 	[14] = {
 		group_id = 40146,
 		id = 14,
@@ -402,6 +413,7 @@ pg.task_data_trigger = {
 		3,
 		4,
 		11,
+		13,
 		14,
 		16,
 		17,

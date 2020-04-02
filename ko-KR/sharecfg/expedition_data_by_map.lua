@@ -5407,7 +5407,7 @@ pg.expedition_data_by_map = {
 	},
 	[1330001] = {
 		map = 1330001,
-		name = "微层混合·上篇|| ||CHAPTER EX||E.X.",
+		name = "어둠을 쫓는 은익·상|| ||CHAPTER EX||E.X.",
 		bgm = "hunhe-story",
 		type = 4,
 		on_activity = 20425,
@@ -5448,7 +5448,7 @@ pg.expedition_data_by_map = {
 	},
 	[1330002] = {
 		map = 1330002,
-		name = "微层混合·下篇| ||CHAPTER EX||E.X.",
+		name = "어둠을 쫓는 은익·하|| ||CHAPTER EX||E.X.",
 		bgm = "hunhe-level",
 		type = 4,
 		on_activity = 20426,
@@ -5489,7 +5489,7 @@ pg.expedition_data_by_map = {
 	},
 	[1330011] = {
 		map = 1330011,
-		name = "微层混合·上篇|| ||CHAPTER EX||E.X.",
+		name = "어둠을 쫓는 은익·상|| ||CHAPTER EX||E.X.",
 		bgm = "hunhe-story",
 		type = 5,
 		on_activity = 20425,
@@ -5530,7 +5530,7 @@ pg.expedition_data_by_map = {
 	},
 	[1330012] = {
 		map = 1330012,
-		name = "微层混合·下篇| ||CHAPTER EX||E.X.",
+		name = "어둠을 쫓는 은익·하|| ||CHAPTER EX||E.X.",
 		bgm = "hunhe-level",
 		type = 5,
 		on_activity = 20426,
@@ -5571,7 +5571,7 @@ pg.expedition_data_by_map = {
 	},
 	[1330025] = {
 		map = 1330025,
-		name = "微层混合·SP|| ||CHAPTER EX||E.X.",
+		name = "어둠을 쫓는 은익·SP|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-4",
 		type = 8,
 		on_activity = 20426,
@@ -5612,7 +5612,7 @@ pg.expedition_data_by_map = {
 	},
 	[1330026] = {
 		map = 1330026,
-		name = "微层混合·EX|| ||CHAPTER EX||E.X.",
+		name = "어둠을 쫓는 은익·EX|| ||CHAPTER EX||E.X.",
 		bgm = "xinnong-4",
 		type = 8,
 		on_activity = 20426,

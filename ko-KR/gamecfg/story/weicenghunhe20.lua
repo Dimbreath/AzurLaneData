@@ -12,7 +12,7 @@ return {
 			bgmDelay = 1,
 			bgm = "xinnong-3",
 			nameColor = "#a9f548",
-			say = "巴拿马要塞东侧？ 稍早前",
+			say = "파나마 요새 서쪽·외해, 조금 전",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,7 +36,7 @@ return {
 			side = 2,
 			bgName = "bg_underwater",
 			dir = 1,
-			say = "水面之下，蓝鳃鱼正向着要塞的方向狂奔着。",
+			say = "블루길은 물 밑에서 요새를 향해 빠르게 이동하고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			say = "终……终于甩掉了么，太好了！得赶紧告大家塞壬在水下的行动-----",
+			say = "드…… 드디어 벗어났다! 다행이야! 어서 모두에게 세이렌의 상황에 대해 알려야-----",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			bgName = "bg_underwater",
 			dir = 1,
-			say = "嗖—-嗖——-！",
+			say = "윙—-윙——-!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			say = "这些声音是…什么？！",
+			say = "이 소리는… 뭐지?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_4",
 			dir = 1,
-			say = "深渊之中，无数的塞壬潜艇正结成长队正向要塞的方向移动着。",
+			say = "앞에 보이는 심연에서 엄청난 수의 세이렌 잠수함이 요새를 향해 줄지어 이동하고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_4",
 			dir = 1,
-			say = "仿佛迁徙中的深海鱼群一样无穷无尽，稍微盯着看一会，就会由心底感到毛骨悚然。",
+			say = "이동 중인 심해어 무리 마냥 끝이 보이지 않는 그 행렬은 보고만 있어도 소름이 돋는 듯했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,42 +132,12 @@ return {
 			}
 		},
 		{
-			actorName = "蓝鳃鱼",
-			side = 2,
-			bgName = "bg_banama_4",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "什么时候绕到前面来的？！……完了……这怎么办啊。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_banama_4",
-			dir = 1,
-			say = "这里距离要塞应该不远了，可是，由无数塞壬潜艇组成的屏障无论如何不可能突破过去的…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actorName = "蓝鳃鱼",
+			actorName = "블루길",
 			side = 2,
 			bgName = "bg_banama_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么办，就算在这里和塞壬同归于尽也帮不上要塞的大家多少忙啊，呜呜呜…",
+			say = "대체 언제 앞으로 돌아온 거지?! …… 큰일 났다…… 이걸 어떡한다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,12 +148,10 @@ return {
 			}
 		},
 		{
-			actorName = "蓝鳃鱼",
 			side = 2,
 			bgName = "bg_banama_4",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "不对不对，这群塞壬好像还没有发现我的行踪，难道说…其实我现在的位置才是最安全的？",
+			say = "요새는 지척에 있었다. 하지만 이렇게 많은 세이렌 잠수함을 뚫고 들어가는 것은 불가능에 가까워 보였다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,12 +162,44 @@ return {
 			}
 		},
 		{
-			actorName = "蓝鳃鱼",
+			actorName = "블루길",
 			side = 2,
 			bgName = "bg_banama_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎嘿嘿，这样的话……",
+			say = "어떡하지? 여기서 세이렌과 함께 폭사하는 것도 별다른 도움이 되지 않을 것 같은데. 으으으…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "블루길",
+			side = 2,
+			bgName = "bg_banama_4",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "아니야. 세이렌이 나를 발견하지 못한 것 같으니까… 그렇다면… 여기가 제일 안전한 거 아닐까?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "블루길",
+			side = 2,
+			bgName = "bg_banama_4",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "에헤헤, 그렇단 말이지……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_underwater",
 			side = 2,
 			dir = 1,
-			say = "蓝鳃鱼躲在礁石的阴影中凝视着塞壬的潜艇群，终于，她发现了一个异常的目标。",
+			say = "암초 그림자에 숨어 세이렌 잠수함을 가만히 바라보던 블루길은 이상한 점을 하나 발견했다.",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			say = "好大…！这个就是指挥系统吧。",
+			say = "커…! 저게 지휘 시스템이겠지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			say = "如果我在这里把塞壬的指挥官解决掉，进攻要塞的塞壬变得群龙无首，我们不就赢定了嘛！",
+			say = "커…! 저게 지휘 시스템이겠지? 만약 내가 여기서 세이렌 지휘관을 해치워 버린다면… 지휘관을 잃은 세이렌은 오합지졸이 될 테고, 그러면 이긴 거나 마찬가지잖아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			say = "以后这场战斗都会被大家称为“蓝鳃鱼式的胜利”了，哎嘿嘿嘿----",
+			say = "나중에 이 전투는 분명 ‘블루길식 승리’라고 불릴 거야. 에헤헤헤----",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			say = "咦？起雾了…？不可能不可能，海水里怎么会起雾啊！",
+			say = "에? 안개…? 그럴 리가 없는데? 바닷속에 어떻게 안개가 껴!",
 			effects = {
 				{
 					active = true,
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			say = "这究竟是------",
+			say = "이건 대체------",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			say = "哇啊啊啊啊啊啊----------------------",
+			say = "으아아아아아아----------------------",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			side = 2,
 			bgName = "bg_underwater",
 			dir = 1,
-			say = "在发动攻击之前，蓝鳃鱼的视野被突然出现的白色覆盖，然后身体就像被扔进了滚桶中一样，天旋地转起来。",
+			say = "공격을 하기 직전 블루길의 눈앞이 하얗게 변했다. 그리곤 하늘로 던져진 드럼통처럼 몸이 빙글빙글 돌기 시작했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			side = 2,
 			bgName = "bg_underwater",
 			dir = 1,
-			say = "等再次回过神来的时候…",
+			say = "다시 정신을 차렸을 때는…",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			say = "疼疼疼…塞壬舰队怎么不见了…这是在哪儿啊…",
+			say = "아야야… 세이렌 함대가 없네… 여긴 또 어디지…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			say = "哎？！喂~~~喂~~~~！？前方正在游泳的是无畏么？！",
+			say = "에?! 저기, 저기이~?! 거기 헤엄치는 거, 인트레피드 씨야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#a9f548",
-			say = "轰----！",
+			say = "펑----!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -29,7 +29,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "伴随着一声巨响，海水和空气突然发生了巨大震动，仿佛空间本身被撕裂开了个大口子一样。",
+			say = "굉음과 함께 공간이 찢어지는 것처럼 해수면과 공기에 거대한 떨림이 일어났다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			actor = 101440,
 			nameColor = "#a9f548",
-			say = "哇啊啊啊啊！！这次又出什么事了！？",
+			say = "으아아아아! 이번엔 또 무슨 일이야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102270,
-			say = "海雾开始消散了……大家快看前方，有什么东西浮上来了哦？！",
+			say = "안개가 걷히고 있어요…… 앞을 보세요! 뭔가 다가오고 있어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 		{
 			side = 2,
 			dir = 1,
-			say = "一艘塞壬“潜艇”正伴随着极具威压感的庞大身躯缓缓浮出水面。",
+			say = "세이렌 잠수함 하나가 엄청난 위압감을 뽐내며 천천히 수면 위로 떠올랐다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 106550,
-			say = "海雾似乎就是以它为中心逐步向四周消散的。",
+			say = "안개는 아무래도 저기를 중심으로 퍼지는 것 같군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103240,
-			say = "作为指挥舰的同时，又搭载着迷雾生成装置么…又是记录中都没见过的全新型号。",
+			say = "지휘함이면서 안개 생성 장치라는 건가… 기록에서는 본 적 없는 새로운 함종이네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "啧。",
+			say = "쯧.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂，你就是这次塞壬舰队进攻的指挥？迷雾和失踪舰队都是你搞出来的把戏吧！",
+			say = "당신이 이번 세이렌 함대의 지휘함인가요? 안개와 실종된 함대 모두 당신이 꾸민 짓이죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			side = 2,
-			say = "企业前辈她们在哪儿？！",
+			say = "엔터프라이즈 선배 일행은 어디에 있죠?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -185,7 +185,7 @@ return {
 			soundeffect = "event:/battle/plane",
 			actor = 900234,
 			actorName = "？？？",
-			say = "真麻烦……",
+			say = "귀찮아……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			actor = 103240,
 			nameColor = "#a9f548",
-			say = "舰…舰载机群？！不好大家不要被潜艇的外表骗了！敌人是毫无疑问的塞壬人型指挥单位！",
+			say = "함…함재기?! 잠수함 같은 외형에 속았어! 적은 세이렌의 인간형 지휘 유닛인 것 같아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "水面战斗模式，ON。",
+			say = "수면 전투 모드, ON.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "沉默寡言的类型么，也好。既然是敌人，放马过来就是，何须言语交谈！",
+			say = "과묵한 타입인가, 상관없다. 긴 말은 필요없지. 적이라면 싸울 수밖에!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "？？？",
-			say = "输出功率70%，ON。",
+			say = "출력 70%, ON.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "目标发动进攻了！大家注意，敌人似乎可以同时进行雷击战炮击战和航空战，准备迎敌！",
+			say = "공격해온다! 조심해. 적은 뇌격과 포격, 그리고 항공전까지 전부 동시에 할 수 있는 것 같아! 준비해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

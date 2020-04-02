@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"和姐姐的一日约会\n\n<size=45>三 购物事件</size>",
+					"누나와의 일일 데이트\n\n<size=45>3. 쇼핑 중 사건 발생</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区附近的街道",
+			say = "항구 근처 거리",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "感觉好久没来买东西了呢……指挥官你还好吧？还拿得动吗？",
+			say = "엄청 오랜만에 쇼핑한 것 같네...... 지휘관 괜찮니? 아직 들 수 있지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "呵呵，抱歉啊，这种时候要是我拿太多的话，会被人用奇怪的眼光盯着的~",
+			say = "후훗, 미안~ 이럴 때 내가 너무 많이 들면, 다른 사람들이 이상한 시선으로 볼 수 있다고~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "不过话说回来……",
+			say = "그런데 말이야......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			actor = 303140,
 			actorName = "{namecode:69}",
-			say = "那是……{namecode:67}前辈？前辈——！",
+			say = "저건......{namecode:67} 선배? 선배——!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			actor = 303130,
 			actorName = "{namecode:68}",
-			say = "哇……",
+			say = "와......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "啊啦，这不是{namecode:69}和{namecode:68}嘛。你们也来买东西？",
+			say = "어머, {namecode:69}랑 {namecode:68}잖아. 너희도 쇼핑하러 온거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			actor = 303140,
 			actorName = "{namecode:69}",
-			say = "是的！今天我们来买新衣服！啊，指挥官你也辛苦了！",
+			say = "응! 옷 좀 사려고! 앗, 지휘관도 고생이 많네!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			actor = 303140,
 			actorName = "{namecode:69}",
-			say = "啊，{namecode:67}前辈！听说这附近新开了一家自助餐厅诶！要不等会儿你和指挥官一起去看看吧！",
+			say = "아, {namecode:67} 선배! 이 근처에 새로 개업한 뷔페가 있다던데! 좀이따 지휘관이랑 가 봐!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			actor = 303140,
 			actorName = "{namecode:69}",
-			say = "那我们就先走了……{namecode:68}也别杵着了，快去看下一家！",
+			say = "그럼 우린 먼저 갈게...... {namecode:68} 빨리 가자!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			actor = 303130,
 			actorName = "{namecode:68}",
-			say = "我又不是非要买东西……好了别拉拉扯扯了！我去总行了吧！去就去！",
+			say = "난 뭐 사지도 않을건데...... 알았어, 잡아 끌지마! 이거놔! 간다고 가!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			actor = 303140,
 			actorName = "{namecode:69}",
-			say = "真不好意思……",
+			say = "정말 미안......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "{namecode:68}这么不高兴倒是挺少见的，怎么了吗？",
+			say = "{namecode:68}가 이렇게 기분 나빠하는 건 거의 본 적이 없는데, 어떻게 된거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			actor = 303140,
 			actorName = "{namecode:69}",
-			say = "呃，就是刚才我们试内衣的时候，试衣间只剩一间空着了，就两个人一起进去了……结果出来以后就一直这样了……",
+			say = "음, 그러니까 방금 속옷을 입어봤는데, 탈의실이 하나 밖에 안남아서 둘이 같이 들어갔었거든...... 그리고 나오고 나서부터 계속 이러네......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "这样啊……{namecode:68}啊，像我们这样的，怎么说呢，虽然是不太发育……但体型还是有可能会变化的哦？",
+			say = "그랬구나...... {namecode:68}, 우리 같은 이런, 뭐랄까, 발육은 그다지 좋진 않지만...... 체형은 변할 수 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			actor = 303130,
 			actorName = "{namecode:68}",
-			say = "话虽这么说……我也不知道为什么自己会是这样的……",
+			say = "그렇게 말해도...... 나도 모르겠어. 왜 나는 이런건지......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			},
 			options = {
 				{
-					content = "给{namecode:68}圆场",
+					content = "{namecode:68}를 진정시킨다.",
 					flag = 1
 				}
 			}
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			actor = 303130,
 			actorName = "{namecode:68}",
-			say = "就算你这么说……唉……{namecode:67}前辈一开始就很大所以完全不用操心啊……",
+			say = "네가 그렇게 말한다면...... 아...... {namecode:67} 선배는 처음부터 컸으니까 아무런 걱정할 필요가 없지......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "（惊）你刚刚说什么？",
+			say = "(깜짝) 방금 뭐라고?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			actor = 303130,
 			actorName = "{namecode:68}",
-			say = "什、什么也没说！{namecode:69}我们走！",
+			say = "아, 아무것도 아니야! {namecode:69} 가자!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "两人迅速地离开了。",
+			say = "두 사람은 빠르게 자리를 떴다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

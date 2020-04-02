@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"和姐姐的一日约会\n\n<size=45>一 约会的邀请</size>",
+					"누나와의 일일 데이트\n\n<size=45>1. 데이트 신청</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "항구·지휘실",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "值班——也是指挥官和秘书舰的工作之一。",
+			say = "당직도 지휘관과 비서함의 업무 중 하나이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "这是为了让平时住在基地之外的将官们能在紧急时刻及时应对，而让他们留在基地过夜的一种制度，但是……",
+			say = "이는 평상시에 기지 밖에 있는 장교들이 긴급 상황 시에 즉각 대응할 수 있도록 기지에 남아 밤을 새우는 제도이다. 하지만......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "如果隔天是休息日，只要遵守了“指挥官和秘书舰两天内保持共同行动”这一条，不管是出门还是休息，据说都没问题。",
+			say = "격일이 휴일이라면, \"지휘관과 비서함은 이틀 동안 공동으로 행동한다\"는 규칙만 준수한다면, 외출하거나 휴식을 취해도 아무런 문제가 없다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:67}",
-			say = "指挥官？都0点了，你是不是该睡了？",
+			say = "지휘관? 벌써 밤 12시야. 자야하지 않겠어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "明天不用值班，你只管休息，夜班就交给姐姐我吧。",
+			say = "내일은 당직 설 필요 없어. 쉬기만 해, 야근은 이 누나한테 맡기렴.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			},
 			options = {
 				{
-					content = "向{namecode:67}提出明天的邀约。",
+					content = "{namecode:67}에게 내일 만나자고 한다.",
 					flag = 1
 				}
 			}
@@ -118,7 +118,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "啊啦，约会？……开玩笑的。",
+			say = "어머, 데이트? ...... 농담이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "不过“明天陪我去买东西吧”这种话，未免太无趣了吧？姐姐想听的是别的话呢。",
+			say = "그런데 “내일 나랑 쇼핑가자”라는 말은, 너무 식상하지 않아? 누나는 다른 말이 듣고 싶은데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "反正明天看来也没什么事，什么时候回去都没关系，陪陪你也行啊。",
+			say = "어쨌든 내일 특별한 일도 없는 것 같으니까 아무 때나 돌아와도 상관 없겠다. 같이 가줄게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "然后呢，你想买什么？",
+			say = "뭐 사고 싶어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			},
 			options = {
 				{
-					content = "把事先准备好的购物清单拿给{namecode:67}看。",
+					content = "미리 준비해둔 쇼핑 리스트를 {namecode:67}에게 보여준다.",
 					flag = 1
 				}
 			}
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "唔，还真是“港区买不到但也不至于出远门网购又太麻烦的”东西大集合啊……",
+			say = "흠, 정말 “항구에선 못 구하지만, 멀리까지 찾아갈만하진 않고, 인터넷으로 구매하긴 귀찮은” 것들만 모아놨구나......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "你还真是准备充分呢，这样一来姐姐也可以放心让你带路啦。",
+			say = "정말 꼼꼼히 준비했네. 이러면 누나도 안심하고 같이 가줄 수 있겠어",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "好了，明天还要早起，今天你就早点睡吧。",
+			say = "좋아, 내일 일찍 일어나야 하니까 오늘은 그만 자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "我很期待和指挥官逛街哦♪",
+			say = "지휘관과 쇼핑이라니 기대되네♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

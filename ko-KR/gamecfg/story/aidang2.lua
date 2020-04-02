@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"和姐姐的一日约会\n\n<size=45>二 出发！</size>",
+					"누나와의 일일 데이트\n\n<size=45>2. 출발</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "次日·早晨",
+			say = "다음 날·이른 아침",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "哎呀？指挥官，早安。今天来的挺早啊。",
+			say = "어머? 지휘관, 좋은 아침. 엄청 일찍왔네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "比约定的时间早了半个小时？你该不会是……觉得姐姐我是和你一样守规矩又懂礼貌的好孩子？",
+			say = "약속 시간보다 30분이나 일찍 왔다고? 너 설마...... 누나가 너처럼 규칙도 잘 지키고 예의도 바른 착한 아이라고 착각하는거 아니겠지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "那你可就误会了哦？姐姐来得早是因为……你看那边。",
+			say = "절대 오해하지마. 이 누나가 일찍 온 이유는...... 저기 봐봐.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_outdoor",
 			actor = 303110,
 			nameColor = "#92fc63",
-			say = "{namecode:67}？还有……指挥官？你们也是来晨练的吗？",
+			say = "{namecode:67}? 그리고...... 지휘관  나리? 새벽 훈련을 온 것인가?",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "不是。啊，这个先给你。",
+			say = "아니야. 아, 이거 우선 받아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "{namecode:67}拿出一瓶运动饮料，递给{namecode:66}。",
+			say = "{namecode:67}가 스포츠 드링크를 꺼내 {namecode:66}에게 건네줬다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			actor = 303110,
 			actorName = "{namecode:66}",
-			say = "多谢。指挥官，其实{namecode:67}每天早上都会在晨练的时候给我送这个。相当于是日课吧。",
+			say = "고맙군. 지휘관 나리, 사실 {namecode:67}는 매일 새벽 훈련할 때마다 이것을 소인에게 준다네. 일과와도 같지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			actor = 303110,
 			actorName = "{namecode:66}",
-			say = "刚，刚开始我是有拒绝的，但是她怎么说都不听……",
+			say = "처, 처음에는 거절했지만, 어떻게 말을 해도 듣지 않더군......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "啊啦，是谁说什么只要有拼搏精神就足够了，连口水都不肯喝一个劲死练，最后演习的时候中暑累趴下了？",
+			say = "어멋, 누가 투혼만 있으면 충분하다고 물도 마시지 않고 죽어라 연습했다가, 마지막 연습 때 더위에 지쳐서 나자빠졌더라?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			actor = 303110,
 			actorName = "{namecode:66}",
-			say = "……咳咳！话说回来，指挥官今天不是休息吗？",
+			say = "...... 크흠! 어쨌든, 지휘관 나리는 오늘 쉬는 날 아닌가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "呵呵，{namecode:66}很在意吗？其实呢……",
+			say = "후훗, {namecode:66}, 신경 쓰는거야? 사실은......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "{namecode:67}凑到{namecode:66}耳边窃窃私语了一番。",
+			say = "{namecode:67}는 {namecode:66}의 귓가에 대고 소곤거렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			actor = 303110,
 			actorName = "{namecode:66}",
-			say = "什么！？指挥官！就、就算是休息，作、作为军人，这不太合适吧！",
+			say = "뭣!? 지휘관 나리! 휴, 휴식이라고 해도, 구, 군인으로서 이건 아니지 않나!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			actor = 303120,
 			actorName = "{namecode:67}",
-			say = "{namecode:66}也想来的我们三个人一起做也可以哦？",
+			say = "{namecode:66}도 같이 가고 싶으면 우리 셋이 같이해도 괜찮아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			actor = 303110,
 			actorName = "{namecode:66}",
-			say = "在下还是免了吧！",
+			say = "소인은 됐네!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "不知为何变得气呼呼的{namecode:66}，揣着刀一路跑开了。",
+			say = "왜인지 모르게 화가 난  {namecode:66}는 검을 거두고 뛰어가버렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "到底{namecode:67}对她说了什么……",
+			say = "도대체 {namecode:67}는 뭐라고 말한걸까......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

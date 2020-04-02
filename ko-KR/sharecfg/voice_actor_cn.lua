@@ -921,7 +921,7 @@ pg.voice_actor_CN = {
 		code = 230
 	},
 	{
-		actor_name = "川崎芽衣子",
+		actor_name = "Meiko Kawasaki",
 		code = 231
 	}
 }

@@ -9,7 +9,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_banama_1",
-			say = "巴拿马要塞东侧·外海",
+			say = "파나마 요새 동쪽·외해",
 			dir = 1,
 			bgm = "hunhe-story",
 			typewriter = {
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			bgName = "bg_banama_1",
 			dir = 1,
-			say = "企业一个人向着外海驶去，四周如同来的时候那样风平浪静，柔和的阳光洒在略带温热的水面上。",
+			say = "엔터프라이즈는 홀로 외해로 향했다. 온 사방이 올 때와 같이 평화로웠다. 부드러운 햇살이 따뜻한 해수면에 내리쬐고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "………失踪舰队和求救通讯。",
+			say = "……실종된 함대와 구조 요청이라.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "明明收到求援通讯，却没有发现任何战斗痕迹…",
+			say = "구조 요청이 들어왔지만 전투의 흔적이 없다…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "如果塞壬想要切断通讯的话，怎么可能偏偏漏过最重要的救援通讯。",
+			say = "만약 세이렌이 통신을 끊으려고 했다면, 왜 가장 중요한 구조 요청을 놓쳤을 리가 없다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "是为了把我们调离NY司令部么？",
+			say = "우리를 NY 사령부에서 떨어뜨려 놓기 위함인가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "不对…NY司令部在遭受袭击后现在的防守已经堪称密不透风了。更何况现在也没什么袭击价值…",
+			say = "아니… NY 사령부의 방어는 습격 이후 바늘 하나 들어가지 않을 정도로 견고해졌다. 게다가 지금은 습격할 가치도 없지…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "总觉得，有哪一环很奇怪……",
+			say = "아무리 생각해도 뭔가 이상해……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "海雾……嗯？海雾……？",
+			say = "바다 안개…… 음? 바다 안개……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "舰队在失踪之前，好像遇到了大面积的海雾。",
+			say = "함대가 실종되기 전에 짙은 바다 안개를 만났다고 했지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "如果在海雾中遭遇敌人的话，确实可能会发出求援通讯。然后紧接着，通讯就被干扰了……",
+			say = "만약 바다 안개 속에서 적에게 습격을 당했다면, 구조 요청을 보낼 수 있었을 터. 그리고 바로 뒤에 통신 교란이 일어났다면……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "看来所谓海雾不单纯就是“海雾”而已呢。",
+			say = "아무래도 그 바다 안개는 단순한 ‘바다 안개'가 아니었나 보군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			bgm = "xinnong-3",
 			nameColor = "#a9f548",
-			say = "就在企业沉思时，企业连同身边的海面在内，被不知不觉中出现的海雾包围了。",
+			say = "엔터프라이즈가 생각에 잠겨있을 때, 그 주변으로 어느새 짙은 바다 안개가 끼기 시작했다.",
 			effects = {
 				{
 					active = true,
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "？！这些海雾是什么时候出现的？！",
+			say = "?! 대체 언제부터 안개가 끼기 시작한 거지?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			say = "糟了，果然是塞壬的--------",
+			say = "이런, 역시 세이렌의--------",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

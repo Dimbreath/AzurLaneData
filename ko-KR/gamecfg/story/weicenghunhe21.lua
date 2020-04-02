@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			side = 2,
-			say = "巴拿马要塞西侧？ 迷雾中",
+			say = "파나마 요새 서쪽? 안개 속",
 			dir = 1,
 			bgm = "hunhe-battle",
 			effects = {
@@ -31,7 +31,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103240,
-			say = "吃我一炮，再见了哟！",
+			say = "받아라! 잘 가라고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			}
 		},
 		{
-			say = "轰----！",
+			say = "펑----!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 106550,
-			say = "疑似目标排除，塞壬指挥系统…未发现异常。",
+			say = "목표 제거. 세이렌 지휘 시스템에는… 이상 없네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "又错了么…这是排除的第多少个疑似目标了？",
+			say = "또 틀렸나… 이게 몇 번째 목표였지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 106550,
-			say = "二十一个…",
+			say = "21번째였죠…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103240,
-			say = "没想到会在这里碰上塞壬的新型号啊…每一艘看上去都好可疑！",
+			say = "여기서 신형 세이렌을 만날 줄은 몰랐으니… 전부 다 수상하게 보인다고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家加油，加油~打起精神来！只要坚持下去，总会找到我们的目标哦！",
+			say = "모두 파이팅, 힘내! 집중하자! 버티면 언젠가 목표를 찾을 수 있을 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103240,
-			say = "里诺还是一贯的有活力…很有成为拉拉队员的素质啊。",
+			say = "리노는 역시나 활기차네…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102260,
-			say = "在乐观这一点上，我还是很有自信的~这种时候就让我为大家加油打气吧，Fight~！",
+			say = "낙천적인 점에서는 자신 있으니까! 이럴 때야말로 내가 모두에게 힘을 불어넣어 줘야해. 파이팅!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "也是…如果分不清指挥舰的话，就这么沿路全部干掉就是了~",
+			say = "그렇네… 만약 지휘함을 찾지 못한다면 전부 다 해치워버려도 되는 거잖아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103240,
-			say = "用巴尔的摩的话来讲就是---英雄可不能临阵退缩啊！",
+			say = "볼티모어의 말을 빌리면--- ‘영웅에게 후퇴란 없다!’",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102260,
-			say = "哦？！就是这种感觉，布莱默顿小姐，Cool~!",
+			say = "에?! 바로 그런 느낌이야. 브레머튼 씨, 멋있네!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，又来了一个目标，感觉这个也很像指挥舰，要上了哦！",
+			say = "헤헤, 목표 하나 더 발견! 이번에도 지휘함 같은걸. 간다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

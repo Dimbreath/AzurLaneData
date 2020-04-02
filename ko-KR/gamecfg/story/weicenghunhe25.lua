@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			bgm = "hunhe-battle",
 			nameColor = "#a9f548",
-			say = "对了，大家听我说！刚刚我在来的路上，在水下看到这次塞壬的总指挥了！",
+			say = "그래, 다들 들어봐! 방금 오던 길에 물밑에서 세이렌의 총 지휘함을 발견했어!",
 			effects = {
 				{
 					active = true,
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 108040,
-			say = "是一艘好大好大好大的……唔…潜艇？！",
+			say = "아주아주 큰…… 음…… 잠수함?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我正准备朝它发射鱼雷，结果周围突然出现了像白雾一样的东西把我甩了出去！",
+			say = "어뢰를 발사하려고 하는데 주변이 안개가 낀 것처럼 하얘지더니 날려져 버렸어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 108040,
-			say = "等我回过神来看清楚周围，就看到落水的无畏了。",
+			say = "정신을 차리고 주변을 둘러보니까 인트레피드 씨가 있더라고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嚯，原来如此。时间轴上来看……",
+			say = "아, 그랬군. 시간적으로는……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…我们遭受巨浪袭击的秘密解开了呢……",
+			say = "…파도가 일어난 이유를 드디어 알아냈군요……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "盯……",
+			say = "음……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			say = "哎哎哎？！为什么都看着我呀！",
+			say = "에에에?! 왜 다들 그렇게 보는 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 106550,
-			say = "这么看来，突然袭来的巨浪很有可能是塞壬指挥舰在受到威胁时的紧急防卫手段。",
+			say = "그렇다면 그 거대한 파도는 세이렌 지휘함이 위협을 받았을 때 사용하는 긴급 방어 수단이겠네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 101440,
-			say = "也就是说我们把它逼到绝境了？",
+			say = "그렇다는 건 우리가 궁지에 몰아넣었다는 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "把我们直接聚集在一起，一鼓作气消灭我们的可能性更高吧…",
+			say = "우리를 한데 몰아넣은 뒤 한번에 처리하겠다는 가능성이 더 높죠…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 103240,
-			say = "刚才开始周围都出现的都是没见过的新型塞壬，不论如何，我们都应该距离敌人的指挥舰越来越近了。",
+			say = "방금 전에는 전혀 본 적 없었던 신형 세이렌이 잔뜩이었어. 어쨌든 적의 지휘함과 점점 가까워지고 있다는 뜻이겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "多亏蓝鳃鱼的情报，我们对于敌人的偷袭企图可以有所防备了~",
+			say = "블루길이 준 정보 덕분이야. 적의 기습 계획에 대해서 대비할 수 있게 됐네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 107110,
-			say = "大家组成反潜队形吧，重点注意来自水下的攻击！",
+			say = "다들 대잠 진형을 갖추자고. 물 밑에서 오는 공격을 조심해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，我也会在水下保护大家的，蓝鳃鱼，全速下潜！",
+			say = "헤헤, 나도 물 밑에서 모두를 지켜줄게. 블루길, 전속력으로 잠수!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
