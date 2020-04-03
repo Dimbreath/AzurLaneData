@@ -14576,6 +14576,47 @@ pg.activity_template = {
 			guideName = "HJDMB001"
 		}
 	},
+	[20434] = {
+		mark = 20200326,
+		title_res_tag = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 20434,
+		config_data = {
+			1000030
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					3,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					4,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[25000] = {
 		mark = 20188020,
 		title_res_tag = "",
@@ -15570,6 +15611,7 @@ pg.activity_template = {
 		20431,
 		20432,
 		20433,
+		20434,
 		25000,
 		25001,
 		25002,
