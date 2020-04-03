@@ -89404,6 +89404,38 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[1000030] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 1000010,
+		type = 6,
+		name = "二周年登录送气泡",
+		count_inherit = 0,
+		desc = "게임 로그인하기",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 1000030,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				15,
+				102,
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -91837,7 +91869,8 @@ pg.task_data_template = {
 		1000026,
 		1000027,
 		1000028,
-		1000029
+		1000029,
+		1000030
 	}
 }
 

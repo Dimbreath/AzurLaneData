@@ -21,7 +21,7 @@ pg.item_data_chat = {
 		time_second = 0,
 		id = 102,
 		time_limit_type = 0,
-		desc = "2년 동안 분투 하신 지휘관님들께 바침.\n<color=#A7A7AAFF>2주년 한정 이벤트에 참여하면 획득할 수 있습니다.</color>",
+		desc = "2년 동안 분투 하신 지휘관님들께 바침.\n<color=#A7A7AAFF>한정 이벤트에 참여하면 획득 가능.</color>",
 		scene = {}
 	},
 	[300] = {
