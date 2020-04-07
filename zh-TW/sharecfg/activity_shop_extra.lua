@@ -812,7 +812,7 @@ pg.activity_shop_extra = {
 				{
 					2020,
 					4,
-					9
+					10
 				},
 				{
 					23,
