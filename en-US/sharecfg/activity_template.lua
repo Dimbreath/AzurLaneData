@@ -11925,7 +11925,7 @@ pg.activity_template = {
 				"<color=#ffde38>Super Rare</color>：7%",
 				"<color=#d797ff>Elite</color>：12%",
 				"<color=#3dc6ff>Rare</color>：51%",
-				"Common：55%",
+				"Common：30%",
 				"<color=#ffde38>Minneapolis</color>：2%(<color=#92fc63>up!</color>)",
 				"<color=#ffde38>North Carolina</color>：2%(<color=#92fc63>up!</color>)",
 				"<color=#ffde38>Washington</color>：2%(<color=#92fc63>up!</color>)",
