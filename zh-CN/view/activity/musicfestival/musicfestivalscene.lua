@@ -152,7 +152,7 @@ function slot0.didEnter(slot0)
 		-- Decompilation error in this vicinity:
 		--- BLOCK #0 1-13, warpins: 1 ---
 		slot0:emit(MusicFestivalMediator.GO_SCENE, SCENE.SHOP, {
-			warp = ShopsScene.TYPE_ACTIVITY
+			warp = NewShopsScene.TYPE_ACTIVITY
 		})
 
 		return

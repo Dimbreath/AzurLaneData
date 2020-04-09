@@ -19,6 +19,24 @@ class("TakeAllAttachmentCommand", pm.SimpleCommand).execute = function (slot0, s
 		return
 	end
 
+	slot14 = _.detect(slot12, function (slot0)
+		slot2, slot3 = slot0:getMailById(slot0).IsFudaiAndFullCapcity(slot1)
+
+		if not slot2 then
+			slot1 = slot3
+
+			return true
+		else
+			return false
+		end
+	end)
+
+	if nil then
+		pg.TipsMgr.GetInstance():ShowTips(slot13)
+
+		return
+	end
+
 	pg.ConnectionMgr.GetInstance():Send(30004, {
 		id = slot12
 	}, 30005, function (slot0)

@@ -5,9 +5,14 @@ slot0.INVISIBLE_TYPE = {
 	9
 }
 slot0.PUZZLA_TYPE = 0
+slot0.EQUIPMENT_BOX_TYPE_5 = 5
 slot0.EQUIPMENT_SKIN_BOX = 11
 slot0.BLUEPRINT_TYPE = 12
 slot0.ASSIGNED_TYPE = 13
+slot0.GOLD_BOX_TYPE = 14
+slot0.OIL_BOX_TYPE = 15
+slot0.EQUIPMENT_ASSIGNED_TYPE = 16
+slot0.GIFT_BOX = 17
 
 function itemId2icon(slot0)
 	return pg.item_data_statistics[slot0].icon
@@ -41,6 +46,10 @@ function slot0.Ctor(slot0, slot1)
 			return slot0[slot1]
 		end
 	})
+end
+
+function slot0.CanOpen(slot0)
+	return slot0:getConfig("type") == slot0.EQUIPMENT_BOX_TYPE_5 or slot1 == slot0.EQUIPMENT_SKIN_BOX or slot1 == slot0.GOLD_BOX_TYPE or slot1 == slot0.OIL_BOX_TYPE or slot1 == slot0.GIFT_BOX
 end
 
 function slot0.bindConfigTable(slot0)

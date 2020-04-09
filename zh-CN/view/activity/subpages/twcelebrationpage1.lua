@@ -14,7 +14,7 @@ function slot0.OnFirstFlush(slot0)
 
 	onButton(slot0, slot0.shop, function ()
 		slot0.emit(slot1, ActivityMediator.GO_SHOPS_LAYER, {
-			warp = ShopsScene.TYPE_ACTIVITY,
+			warp = NewShopsScene.TYPE_ACTIVITY,
 			actId = slot0.emit and slot1.id
 		})
 	end)
