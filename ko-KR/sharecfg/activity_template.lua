@@ -13120,6 +13120,7 @@ pg.activity_template = {
 	[20402] = {
 		mark = 20200319,
 		title_res_tag = "sofmap",
+		time = "stop",
 		type = 54,
 		login_pop = 0,
 		config_id = 20402,
@@ -13127,33 +13128,6 @@ pg.activity_template = {
 		config_client = "",
 		id = 20402,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					3,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/activity_bg_sofmap"
 		}
@@ -13342,6 +13316,7 @@ pg.activity_template = {
 	[20410] = {
 		mark = 20200319,
 		title_res_tag = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -13378,38 +13353,12 @@ pg.activity_template = {
 			15475,
 			15476,
 			15477
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					3,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[20411] = {
 		mark = 20200326,
 		title_res_tag = "z23teacher",
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
@@ -13455,33 +13404,6 @@ pg.activity_template = {
 			{
 				15498,
 				15499
-			}
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					3,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		bg = {
@@ -14497,6 +14419,7 @@ pg.activity_template = {
 	[20432] = {
 		mark = 20200331,
 		title_res_tag = "",
+		time = "stop",
 		type = 23,
 		login_pop = 0,
 		config_id = 0,
@@ -14504,38 +14427,12 @@ pg.activity_template = {
 		config_client = "",
 		bg = "",
 		id = 20432,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[20433] = {
 		mark = 20200331,
 		title_res_tag = "",
+		time = "stop",
 		type = 21,
 		login_pop = 0,
 		config_id = 0,
@@ -14543,33 +14440,6 @@ pg.activity_template = {
 		bg = "",
 		id = 20433,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			{},
 			"HUANGJINDEMIBAO1",
