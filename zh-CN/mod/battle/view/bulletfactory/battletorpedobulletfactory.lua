@@ -240,33 +240,8 @@ function slot2(slot0, slot1, slot2)
 		slot2 = slot1
 		slot1 = slot1.AddModel
 		slot3 = slot0
-		slot1 = slot1(slot2, slot3)
 
-		if slot1 then
-			slot1 = slot1
-			slot1 = slot1.track_fx
-
-			if slot1 ~= "" then
-				slot1 = slot2
-				slot2 = slot1
-				slot1 = slot1.GetFXPool
-				slot1 = slot1(slot2)
-				slot2 = slot1
-				slot1 = slot1.GetFX
-				slot3 = slot0
-				slot4 = slot3
-				slot3 = slot3.GetTrackFXID
-				slot1, slot2 = slot1(slot2, slot3(slot4))
-				slot3 = slot2
-				slot4 = slot3
-				slot3 = slot3.MakeTrack
-				slot5 = slot0
-				slot6 = slot1
-				slot7 = slot2
-
-				slot3(slot4, slot5, slot6, slot7)
-			end
-		end
+		slot1(slot2, slot3)
 	end
 
 	slot6 = slot6(slot7, slot8, slot9)

@@ -2063,11 +2063,11 @@ pg.gametip = {
 		key = "mail_count"
 	},
 	mail_takeAttachment_error_magazine_full = {
-		tip = "<color=#92fc63>领取失败</color>\n\n您的<color=#92fc63>装备仓库已满</color>",
+		tip = "<color=#92fc63>领取失败</color>您的<color=#92fc63>装备仓库已满</color>",
 		key = "mail_takeAttachment_error_magazine_full"
 	},
 	mail_takeAttachment_error_dockYrad_full = {
-		tip = "<color=#92fc63>领取失败</color>\n\n您的<color=#92fc63>船坞已满</color>",
+		tip = "<color=#92fc63>领取失败</color>您的<color=#92fc63>船坞已满</color>",
 		key = "mail_takeAttachment_error_dockYrad_full"
 	},
 	mail_confirm_set_important_flag = {
@@ -5897,11 +5897,11 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 		key = "battle_repair_special_name"
 	},
 	oil_max_tip_title = {
-		tip = "石油已经达到上限，",
+		tip = "石油已经达到上限",
 		key = "oil_max_tip_title"
 	},
 	gold_max_tip_title = {
-		tip = "物资已经达到上限，",
+		tip = "物资已经达到上限",
 		key = "gold_max_tip_title"
 	},
 	resource_max_tip_shop = {
@@ -7891,7 +7891,7 @@ NPC角色说明：<color=#92fc63>(NPC角色不可参与部分港区功能,详见
 		}
 	},
 	shop_street_activity_tip = {
-		tip = "*活动期间(<color=#A1E400FF>20.3.26-20.4.8</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>",
+		tip = "*活动期间(<color=#A1E400FF>20.3.26-20.4.9</COLOR>)每次刷新必定出现<color=#A1E400FF>外观装备箱</color>",
 		key = "shop_street_activity_tip"
 	},
 	battle_result_boss_destruct = {
@@ -12786,11 +12786,11 @@ TIPS：
 		key = "undermist_tip"
 	},
 	retire_1 = {
-		tip = "仅选择至少有一艘锁定的同名舰船",
+		tip = "<color=#92fc63>「拥有」</color>满星的同名舰船时，保留几艘<color=#92fc63>符合退役条件</color>的同名舰船",
 		key = "retire_1"
 	},
 	retire_2 = {
-		tip = "仅选择至少有一艘满星的同名舰船",
+		tip = "<color=#ff5c5c>「没有」</color>满星的同名舰船时，保留几艘<color=#92fc63>符合退役条件</color>的同名舰船",
 		key = "retire_2"
 	},
 	retire_3 = {
@@ -12804,6 +12804,44 @@ TIPS：
 	retire_title = {
 		tip = "一键退役设置",
 		key = "retire_title"
+	},
+	retire_setting_help = {
+		key = "retire_setting_help",
+		tip = {
+			{
+				info = [[
+ ·一键退役条件：
+ 1.稀有度为SR、R、N
+ 2.未锁定的舰船
+ 3.等级为1级
+ 4.不是布里
+ 5.未处于编队中、秘书舰等特殊状态的舰船
+ ·同名船是否保留的规则只针对船坞中<color=#92fc63>符合上述1~5规则
+的舰船</color>
+ ·默认优先级排序为R、SR、N
+ ·可通过<color=#92fc63>选择优先级</color>改变稀有度排序或去除稀有度]]
+			}
+		}
+	},
+	activity_shop_exchange_count = {
+		tip = "可兑换次数",
+		key = "activity_shop_exchange_count"
+	},
+	shops_msgbox_exchange_count = {
+		tip = "兑换数量:",
+		key = "shops_msgbox_exchange_count"
+	},
+	shops_msgbox_output = {
+		tip = "将获得：",
+		key = "shops_msgbox_output"
+	},
+	shop_word_exchange = {
+		tip = "兑 换",
+		key = "shop_word_exchange"
+	},
+	shop_word_cancel = {
+		tip = "取 消",
+		key = "shop_word_cancel"
 	}
 }
 

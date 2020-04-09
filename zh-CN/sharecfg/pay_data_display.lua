@@ -1151,6 +1151,295 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[20] = {
+		limit_arg = 1,
+		descrip_extra = "*支援包将发送到邮箱，请注意查收。",
+		name = "新晋指挥官支援包·I ",
+		descrip = "可获得180钻，石油储备箱(1000)x2和其他奖励",
+		subject = "新晋指挥官支援包·I ",
+		extra_service = 3,
+		money = 18,
+		tag = 1,
+		gem = 0,
+		limit_type = 2,
+		time = "always",
+		picture = "support1",
+		id_str = "com.bilibili.blhx.libao101",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 20,
+		airijp_id = "com.yostarjp.azurlane.package101",
+		extra_service_item = {
+			{
+				1,
+				14,
+				180
+			},
+			{
+				2,
+				30121,
+				2
+			},
+			{
+				4,
+				100001,
+				1
+			},
+			{
+				2,
+				15001,
+				30
+			},
+			{
+				2,
+				16002,
+				4
+			},
+			{
+				2,
+				16012,
+				4
+			},
+			{
+				2,
+				16022,
+				4
+			},
+			{
+				2,
+				30112,
+				30
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				180
+			},
+			{
+				2,
+				30121,
+				2
+			},
+			{
+				4,
+				100001,
+				1
+			}
+		}
+	},
+	[21] = {
+		limit_arg = 1,
+		descrip_extra = "*支援包将发送到邮箱，请注意查收。",
+		name = "新晋指挥官支援包·II ",
+		descrip = "可获得780钻，定向装备箱·超稀有x2，石油储备箱(1000)x4和其他奖励",
+		subject = "新晋指挥官支援包·II ",
+		extra_service = 3,
+		money = 78,
+		tag = 1,
+		gem = 0,
+		limit_type = 2,
+		time = "always",
+		picture = "support2",
+		id_str = "com.bilibili.blhx.libao102",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 21,
+		airijp_id = "com.yostarjp.azurlane.package102",
+		extra_service_item = {
+			{
+				1,
+				14,
+				780
+			},
+			{
+				2,
+				30202,
+				2
+			},
+			{
+				2,
+				30121,
+				4
+			},
+			{
+				4,
+				100001,
+				1
+			},
+			{
+				2,
+				15001,
+				50
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			},
+			{
+				2,
+				16002,
+				3
+			},
+			{
+				2,
+				16012,
+				3
+			},
+			{
+				2,
+				16022,
+				3
+			},
+			{
+				2,
+				30113,
+				30
+			},
+			{
+				2,
+				30112,
+				50
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				780
+			},
+			{
+				2,
+				30202,
+				2
+			},
+			{
+				2,
+				30121,
+				4
+			}
+		}
+	},
+	[22] = {
+		limit_arg = 1,
+		descrip_extra = "*支援包将发送到邮箱，请注意查收。",
+		name = "新晋指挥官支援包·III ",
+		descrip = "可获得1680钻，定向装备箱·超稀有x4，石油储备箱(1000)x8和其他奖励",
+		subject = "新晋指挥官支援包·III ",
+		extra_service = 3,
+		money = 168,
+		tag = 1,
+		gem = 0,
+		limit_type = 2,
+		time = "always",
+		picture = "support3",
+		id_str = "com.bilibili.blhx.libao103",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 22,
+		airijp_id = "com.yostarjp.azurlane.package103",
+		extra_service_item = {
+			{
+				1,
+				14,
+				1680
+			},
+			{
+				2,
+				30202,
+				4
+			},
+			{
+				2,
+				30121,
+				8
+			},
+			{
+				4,
+				100011,
+				1
+			},
+			{
+				2,
+				59900,
+				1000
+			},
+			{
+				2,
+				15001,
+				80
+			},
+			{
+				2,
+				16003,
+				5
+			},
+			{
+				2,
+				16013,
+				5
+			},
+			{
+				2,
+				16023,
+				5
+			},
+			{
+				2,
+				16002,
+				5
+			},
+			{
+				2,
+				16012,
+				5
+			},
+			{
+				2,
+				16022,
+				5
+			},
+			{
+				2,
+				30113,
+				100
+			},
+			{
+				2,
+				30112,
+				100
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				1680
+			},
+			{
+				2,
+				30202,
+				4
+			},
+			{
+				2,
+				30121,
+				8
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1169,7 +1458,10 @@ pg.pay_data_display = {
 		16,
 		17,
 		18,
-		19
+		19,
+		20,
+		21,
+		22
 	}
 }
 

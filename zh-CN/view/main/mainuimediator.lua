@@ -301,7 +301,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.OPEN_SHOP_LAYER, function (slot0, slot1)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, {
-			warp = slot1 or ShopsScene.TYPE_ACTIVITY
+			warp = slot1 or NewShopsScene.TYPE_ACTIVITY
 		})
 	end)
 	slot0:bind(slot0.OPEN_MONTH_CARD_SET, function (slot0)
@@ -752,7 +752,7 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == LotteryMediator.OPEN then
 		slot0.viewComponent:activeEffect(false)
 	elseif slot2 == GAME.REMOVE_LAYERS then
-		if slot3.context.mediator == ShopsMediator or slot3.context.mediator == LotteryMediator then
+		if slot3.context.mediator == LotteryMediator then
 			slot0.viewComponent:activeEffect(true)
 
 			if slot3.context.mediator == LotteryMediator then
@@ -858,7 +858,8 @@ function slot0.handleEnterMainUI(slot0)
 		end
 
 		coroutine.resume(coroutine.create(function ()
-			slot0:playStroys(function ()
+			slot0.viewComponent:PlayBGM()
+			slot0.viewComponent.PlayBGM:playStroys(function ()
 				onNextTick(onNextTick)
 			end)
 			coroutine.yield()

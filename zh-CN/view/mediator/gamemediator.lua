@@ -127,8 +127,8 @@ function slot0.handleNotification(slot0, slot1)
 			slot4.mediator = BillboardMediator
 			slot4.viewComponent = BillboardScene
 		elseif slot3 == SCENE.SHOP then
-			slot4.mediator = ShopsMediator
-			slot4.viewComponent = ShopsScene
+			slot4.mediator = NewShopsMediator
+			slot4.viewComponent = NewShopsScene
 		elseif slot3 == SCENE.VOTE then
 			slot4.mediator = VoteMediator
 			slot4.viewComponent = VoteScene

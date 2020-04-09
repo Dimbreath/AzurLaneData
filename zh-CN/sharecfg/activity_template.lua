@@ -134,7 +134,7 @@ pg.activity_template = {
 		}
 	},
 	[40] = {
-		mark = 20200312,
+		mark = 20200409,
 		title_res_tag = "",
 		type = 0,
 		login_pop = 0,
@@ -149,8 +149,8 @@ pg.activity_template = {
 			{
 				{
 					2020,
-					3,
-					13
+					4,
+					10
 				},
 				{
 					0,
@@ -161,8 +161,8 @@ pg.activity_template = {
 			{
 				{
 					2020,
-					3,
-					22
+					4,
+					19
 				},
 				{
 					23,
@@ -1733,11 +1733,12 @@ pg.activity_template = {
 	},
 	[530] = {
 		mark = 20200319,
-		title_res_tag = "saratogakr",
+		title_res_tag = "",
 		type = 14,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 6,
+		is_show = 0,
+		bg = "",
 		id = 530,
 		config_data = {
 			1058,
@@ -1793,9 +1794,6 @@ pg.activity_template = {
 				}
 			}
 		},
-		bg = {
-			"clutter/saratoga_skin"
-		},
 		config_client = {
 			"commonbg/bg_pt_salatuojia",
 			{
@@ -1816,13 +1814,12 @@ pg.activity_template = {
 	},
 	[531] = {
 		mark = 20200319,
-		title_res_tag = "",
+		title_res_tag = "saratogakr",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 0,
+		is_show = 6,
 		config_client = "",
-		bg = "",
 		id = 531,
 		config_data = {
 			15450,
@@ -1880,6 +1877,9 @@ pg.activity_template = {
 					59
 				}
 			}
+		},
+		bg = {
+			"clutter/saratoga_skin"
 		}
 	},
 	[532] = {
@@ -2551,7 +2551,7 @@ pg.activity_template = {
 		type = 54,
 		login_pop = 0,
 		config_id = 545,
-		is_show = 9,
+		is_show = 7,
 		config_client = "",
 		id = 545,
 		config_data = {},
@@ -2746,6 +2746,238 @@ pg.activity_template = {
 			{},
 			"HUANGJINDEMIBAO1",
 			guideName = "HJDMB001"
+		}
+	},
+	[555] = {
+		mark = 20200409,
+		title_res_tag = "donghuawanbo",
+		type = 3,
+		login_pop = 3,
+		config_id = 18,
+		is_show = 5,
+		config_client = "",
+		id = 555,
+		config_data = {},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					4,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					5,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/donghuawanbo_login"
+		}
+	},
+	[556] = {
+		mark = 20200409,
+		title_res_tag = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_556",
+		bg = "",
+		id = 556,
+		time = {
+			timer,
+			{
+				{
+					2020,
+					4,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					4,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 3,
+			bg = "loadingbg/bg_build_3_act",
+			buildship_tip = "明尼阿波利斯等角色建造概率UP！",
+			rate_tip = {
+				"<color=#ffde38>超稀有舰船</color>：7%",
+				"<color=#d797ff>精锐舰船</color>：12%",
+				"<color=#3dc6ff>稀有舰船</color>：51%",
+				"普通舰船：30%",
+				"<color=#ffde38>明尼阿波利斯</color>：2%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>北卡罗来纳</color>：2%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#ffde38>华盛顿</color>：2%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#d797ff>科罗拉多</color>：2.5%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#d797ff>马里兰</color>：2.5%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#3dc6ff>霍比</color>：5.0%(<color=#92fc63>up!</color>)",
+				" ",
+				"<color=#3dc6ff>科尔克</color>：5.0%(<color=#92fc63>up!</color>)"
+			}
+		}
+	},
+	[557] = {
+		mark = 20200409,
+		title_res_tag = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 557,
+		config_data = {
+			14674
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					4,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[558] = {
+		mark = 20200409,
+		title_res_tag = "",
+		type = 24,
+		login_pop = 0,
+		config_id = 559,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 558,
+		config_data = {
+			7
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					4,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					4,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			},
+			1,
+			1,
+			{
+				times,
+				13
+			}
+		}
+	},
+	[559] = {
+		mark = 20200409,
+		title_res_tag = "",
+		type = 37,
+		login_pop = 0,
+		config_id = 5,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 559,
+		config_data = {
+			557
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					4,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					7,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[2001] = {
@@ -3569,6 +3801,11 @@ pg.activity_template = {
 		547,
 		548,
 		549,
+		555,
+		556,
+		557,
+		558,
+		559,
 		2001,
 		2002,
 		2003,

@@ -1,4 +1,6 @@
-class("ShoppingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("ShoppingCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	slot4 = slot1:getBody().count
 	slot5 = pg.shop_template[slot1.getBody().id]
 	slot7 = getProxy(PlayerProxy).getData(slot6)
@@ -112,6 +114,14 @@ class("ShoppingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		return
 	end
 
+	slot13, slot14 = slot0:CheckGiftPackage(slot5)
+
+	if not slot13 then
+		slot14()
+
+		return
+	end
+
 	pg.ConnectionMgr.GetInstance():Send(16001, {
 		id = slot3,
 		number = slot4
@@ -173,7 +183,7 @@ class("ShoppingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				slot3 = slot4.type
 
 				slot4:getGoodsById(slot4).reduceBuyCount(slot5)
-				slot5:setShopStreet(slot4)
+				slot5:UpdateShopStreet(slot4)
 
 				if slot1[1].type == DROP_TYPE_ITEM and slot6:isEquipmentSkinBox() then
 					slot1:sendNotification(GAME.USE_ITEM, {
@@ -244,4 +254,64 @@ class("ShoppingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end)
 end
 
-return class("ShoppingCommand", pm.SimpleCommand)
+function slot0.CheckGiftPackage(slot0, slot1)
+	function slot2(slot0)
+		slot1 = 0
+		slot2 = 0
+		slot3 = 0
+		slot4 = 0
+
+		for slot8, slot9 in ipairs(slot0) do
+			if DROP_TYPE_RESOURCE == slot9[1] then
+				if slot9[2] == 1 then
+					slot2 = slot2 + slot9[3]
+				elseif slot9[2] == 2 then
+					slot1 = slot1 + slot9[3]
+				end
+			elseif DROP_TYPE_EQUIP == slot9[1] then
+				slot3 = slot3 + slot9[3]
+			elseif DROP_TYPE_SHIP == slot9[1] then
+				slot4 = slot4 + slot9[3]
+			end
+		end
+
+		return slot1, slot2, slot3, slot4
+	end
+
+	if slot1.genre == ShopArgs.GiftPackage then
+		slot5, slot6, slot7, slot8 = slot2(slot4)
+		slot9 = getProxy(PlayerProxy):getRawData()
+
+		if slot5 > 0 and slot9:OilMax(slot5) then
+			return false, function ()
+				pg.TipsMgr.GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_shop"))
+			end
+		end
+
+		if slot6 > 0 and slot9:GoldMax(slot6) then
+			return false, function ()
+				pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_shop"))
+			end
+		end
+
+		slot10 = getProxy(EquipmentProxy):getCapacity()
+
+		if slot7 > 0 and slot9.equip_bag_max < slot10 + slot7 then
+			return false, function ()
+				NoPosMsgBox(i18n("switch_to_shop_tip_noPos"), openDestroyEquip, gotoChargeScene)
+			end
+		end
+
+		slot11 = getProxy(BayProxy):getShipCount()
+
+		if slot8 > 0 and slot9.ship_bag_max < slot11 + slot8 then
+			return false, function ()
+				NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene, openDockyardIntensify)
+			end
+		end
+	end
+
+	return true
+end
+
+return slot0

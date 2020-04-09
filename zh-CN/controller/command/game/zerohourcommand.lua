@@ -50,9 +50,9 @@ class("ZeroHourCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 	if slot13.day == 1 then
 		slot5.shamShop:update(slot13.month, {})
-		slot5:updateShamShop(slot5.shamShop)
+		slot5:AddShamShop(slot5.shamShop)
 		slot5.fragmentShop:update(slot13.month, {})
-		slot5:updateFragmentShop(slot5.fragmentShop)
+		slot5:AddFragmentShop(slot5.fragmentShop)
 	end
 
 	for slot18, slot19 in ipairs(getProxy(ActivityProxy).getPanelActivities(slot14)) do
