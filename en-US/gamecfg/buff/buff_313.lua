@@ -1,5 +1,5 @@
 return {
-	time = 24,
+	time = 24.1,
 	name = "进水",
 	init_effect = "",
 	picture = "",

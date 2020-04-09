@@ -462,14 +462,6 @@ function ys.Battle.BattleBulletUnit.GetEffectField(slot0)
 	return slot0._field
 end
 
-function ys.Battle.BattleBulletUnit.GetPushPower(slot0)
-	if slot0:GetTemplate().push_power == "" then
-		return nil
-	else
-		return slot1
-	end
-end
-
 function ys.Battle.BattleBulletUnit.SetDiverFilter(slot0, slot1)
 	if slot1 == nil then
 		slot0._diveFilter = slot0._tempData.extra_param.diveFilter or {

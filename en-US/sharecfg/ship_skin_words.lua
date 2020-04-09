@@ -5378,15 +5378,15 @@ pg.ship_skin_words = {
 		touch = "Now that I'm all sweaty and gross, I can't just ask to lean on your shoulder, can I? Ahaha...",
 		feeling3 = "",
 		upgrade = "",
-		expedition = "",
+		expedition = "That commission team's come back! This is your chance to charm 'em, Coach!",
 		win_mvp = "",
 		home = "*pant* *pant*...Unlike Baltimore, I guess I'm really not built for this kind of exercise...",
 		mission = "",
-		touch2 = "",
+		touch2 = "I was an idiot for thinkin' you wouldn't try something when my guard is down...",
 		feeling1 = "",
 		skill = "",
 		drop_descrip = "*pant*... *pant*... Man, it's so sunny today... Commander, or should I say, \"Coach,\" could ya lend me your parasol? I'm starting to feel my brains melting away...",
-		mail = "",
+		mail = "Got a letter for you, Coach. If it's nothing important, I could read it for ya.",
 		lose = "",
 		propose = "",
 		hp_warning = "",
@@ -5573,11 +5573,11 @@ pg.ship_skin_words = {
 		couple_encourage = {
 			{
 				{
-					10703,
-					30505
+					30505,
+					10703
 				},
 				1,
-				"作为大人，让我来保护你们！",
+				"As an adult, let me protect you!",
 				0
 			}
 		}
@@ -7339,7 +7339,7 @@ pg.ship_skin_words = {
 		mail = "There's new mail for you. Here you go.",
 		lose = "I won't let it end like this... I swear it!",
 		propose = "Once you've experienced the happiness of two people supporting each other, it becomes something you can't live without. Thank you, Commander. I no longer have to walk alone in my quest to prove my worth. I promise to always be at your side, wherever you go.",
-		hp_warning = "战斗…才刚刚开始！",
+		hp_warning = "",
 		id = 107090,
 		voice_key = 10709,
 		feeling5 = "I might never be able to become a hero like Enterprise... But when I'm with you, I feel like I can do so much more than just that...",

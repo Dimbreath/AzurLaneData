@@ -139,7 +139,9 @@ function slot0.setItem(slot0, slot1)
 			slot2 = false
 		end
 
-		if slot0.itemVO:getConfig("type") == slot0 or slot1 == slot4 then
+		slot4 = slot0.itemVO:getConfig("type")
+
+		if slot0.itemVO:CanOpen() then
 			setActive(slot0.useBtn, true)
 			setText(slot0.useBtn:Find("text"), 1)
 

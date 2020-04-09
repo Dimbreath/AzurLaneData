@@ -40,6 +40,14 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Clear Challenge Mode for the first time to obtain.</color>\n（19.12.19-20.03.29）",
 		scene = {}
 	},
+	[204] = {
+		name = "Achievement Chat Bubbles",
+		time_second = 0,
+		id = 204,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>Clear Challenge Mode for the first time to obtain.</color>\n（20.04.09-20.07.05）",
+		scene = {}
+	},
 	[300] = {
 		name = "Leader ",
 		time_second = 2592000,
@@ -110,6 +118,7 @@ pg.item_data_frame = {
 		201,
 		202,
 		203,
+		204,
 		300,
 		301,
 		302,

@@ -6,7 +6,7 @@ end
 
 function slot0.OnInit(slot0)
 	slot0:InitUI()
-	setActive(slot0._tf, true)
+	slot0:Show()
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
@@ -132,7 +132,7 @@ function slot0.flush(slot0, slot1)
 		end, SFX_PANEL)
 	end
 
-	triggerToggle(slot5[slot1 or 1], true)
+	triggerToggle(slot5[(slot1 and 2) or 1], true)
 end
 
 return slot0

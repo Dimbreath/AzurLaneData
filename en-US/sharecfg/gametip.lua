@@ -12285,11 +12285,11 @@ Event Rules:
 		key = "undermist_tip"
 	},
 	retire_1 = {
-		tip = "Priotize ships with a locked copy",
+		tip = "If you <color=#92fc63>own a ship</color> that has been <color=#92fc63>fully Limit Broken</color>, this option determines what you want to do with the corresponding duplicate ships.",
 		key = "retire_1"
 	},
 	retire_2 = {
-		tip = "Prioritize ships with a fully limit broken copy",
+		tip = "If you <color=#ff5c5c>own multiple copies of a ship</color> that <color=#92fc63>has not been fully Limit Broken</color>, this option determines what you want to do with those copies.",
 		key = "retire_2"
 	},
 	retire_3 = {
@@ -12303,6 +12303,43 @@ Event Rules:
 	retire_title = {
 		tip = "Quick Retire Options",
 		key = "retire_title"
+	},
+	retire_setting_help = {
+		key = "retire_setting_help",
+		tip = {
+			{
+				info = [[
+By tapping the “Quick Retire” button to the bottom left of the Retire interface, you can quickly retire ships that meet all of the following conditions:
+ 1. Must be level 1.
+ 2. Must not be locked.
+ 3. Must already own another locked copy of that ship.
+ 4. Rarity must be Elite or below (can be toggled through the Quick Retire Settings).
+ 5. Must not be sortieing, on commission, assigned to a formation, or in an exercise.
+ 6. Must not be assigned to the Lecture Hall, Tactical Class, Dorm, or be set as secretary. Quick Retire can also exclude certain ships based upon the following criteria that can toggled in Settings:
+ -Duplicates of ships that have already been fully limit broken.
+ -Duplicates of ships that have not been fully limit broken.]]
+			}
+		}
+	},
+	activity_shop_exchange_count = {
+		tip = "Limit:",
+		key = "activity_shop_exchange_count"
+	},
+	shops_msgbox_exchange_count = {
+		tip = "Purchase amount:",
+		key = "shops_msgbox_exchange_count"
+	},
+	shops_msgbox_output = {
+		tip = "Will get:",
+		key = "shops_msgbox_output"
+	},
+	shop_word_exchange = {
+		tip = "Confirm",
+		key = "shop_word_exchange"
+	},
+	shop_word_cancel = {
+		tip = "Cancel",
+		key = "shop_word_cancel"
 	}
 }
 

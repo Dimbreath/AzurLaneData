@@ -5135,6 +5135,170 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2100060] = {
+		map = 2100060,
+		name = "Fallen Wings: Prequel || || S.P. || E.X.",
+		bgm = "Story-6",
+		type = 4,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "DONGHUO01",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "feixu",
+		cloud_suffix = "",
+		bg = "Map_1060000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100070,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100061] = {
+		map = 2100061,
+		name = "Fallen Wings: Sequel || || S.P. || E.X.",
+		bgm = "Story-6",
+		type = 4,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "DONGHUO08",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "feixu",
+		cloud_suffix = "",
+		bg = "Map_1060000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100071,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100070] = {
+		map = 2100070,
+		name = "Fallen Wings: Prequel || || S.P. || E.X.",
+		bgm = "Story-6",
+		type = 5,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "DONGHUO01",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "feixu_hard",
+		cloud_suffix = "",
+		bg = "Map_1060001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100060,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100071] = {
+		map = 2100071,
+		name = "Fallen Wings: Sequel || || S.P. || E.X.",
+		bgm = "Story-6",
+		type = 5,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "DONGHUO08",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "feixu_hard",
+		cloud_suffix = "",
+		bg = "Map_1060001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100061,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[9920001] = {
 		map = 9920001,
 		name = "Operation Divergent Chessboard Prequel|| S.P. || E.X.",
@@ -5401,6 +5565,10 @@ pg.expedition_data_by_map = {
 		2100001,
 		2100010,
 		2100011,
+		2100060,
+		2100061,
+		2100070,
+		2100071,
 		9920001,
 		9920002,
 		9920011,
