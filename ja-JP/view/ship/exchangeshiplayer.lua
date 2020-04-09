@@ -282,7 +282,13 @@ function slot0.updateMainShip(slot0, slot1, slot2)
 	end
 
 	slot0.shipTypeTF.sprite = slot5
-	slot0.nameTF.text = slot3:getConfig("name")
+
+	if not slot0._scrollNameText then
+		slot0._scrollNameText = ScrollTxt:changeToScroll(slot0.nameTF)
+	end
+
+	slot0._scrollNameText:setText(slot3:getConfig("name"))
+
 	slot0.resCountTF.text = slot4
 end
 
@@ -354,6 +360,10 @@ function slot0.activeExchangeShip(slot0, slot1, slot2)
 end
 
 function slot0.willExit(slot0)
+	if slot0._scrollNameText then
+		slot0._scrollNameText:destroy()
+	end
+
 	if slot0.itemScrolltxt then
 		for slot4, slot5 in pairs(slot0.itemScrolltxt) do
 			slot5:destroy()

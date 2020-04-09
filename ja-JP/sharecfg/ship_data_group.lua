@@ -6,7 +6,7 @@ pg.ship_data_group = {
 		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		nationality = 1,
+		nationality = 98,
 		hide = 0,
 		index_id = 1,
 		group_type = 10000,
@@ -47,7 +47,7 @@ pg.ship_data_group = {
 		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		nationality = 1,
+		nationality = 98,
 		hide = 0,
 		index_id = 2,
 		group_type = 10001,
@@ -736,6 +736,17 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
+			},
+			{
 				"イベント：闇に堕ちた青き翼",
 				{
 					""
@@ -766,6 +777,17 @@ pg.ship_data_group = {
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
+			},
 			{
 				"イベント：闇に堕ちた青き翼",
 				{
@@ -3048,6 +3070,17 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
+			},
+			{
 				"イベント：闇に堕ちた青き翼",
 				{
 					""
@@ -3585,6 +3618,17 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
+			},
+			{
 				"イベント：闇に堕ちた青き翼",
 				{
 					""
@@ -3615,6 +3659,17 @@ pg.ship_data_group = {
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
+			},
 			{
 				"イベント：闇に堕ちた青き翼",
 				{
@@ -3652,6 +3707,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"コアショップ",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -3677,6 +3742,17 @@ pg.ship_data_group = {
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
+			},
 			{
 				"イベント：闇に堕ちた青き翼",
 				{
@@ -3708,6 +3784,17 @@ pg.ship_data_group = {
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
+			},
 			{
 				"イベント：闇に堕ちた青き翼",
 				{
@@ -4347,6 +4434,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"コアショップ",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -4799,6 +4896,16 @@ pg.ship_data_group = {
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
+			{
+				"支援要請（ランダム出現）",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
+			},
 			{
 				"小型艦建造",
 				{
@@ -7718,6 +7825,16 @@ pg.ship_data_group = {
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
+			{
+				"支援要請（ランダム出現）",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
+			},
 			{
 				"大型艦建造",
 				{
@@ -10865,6 +10982,16 @@ pg.ship_data_group = {
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
+			{
+				"支援要請（ランダム出現）",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
+			},
 			{
 				"大型艦建造、特型艦建造",
 				{

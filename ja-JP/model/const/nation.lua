@@ -9,6 +9,7 @@ slot0.ITA = 6
 slot0.SN = 7
 slot0.FF = 8
 slot0.MNF = 9
+slot0.BURIN = 98
 slot0.LINK = 100
 
 function slot0.IsLinkType(slot0)
@@ -28,9 +29,10 @@ function slot0.Nation2Print(slot0)
 			"sn",
 			"ff",
 			"mnf",
-			[101.0] = "np",
+			[98.0] = "cm",
 			[102.0] = "bili",
 			[104.0] = "um",
+			[101.0] = "np",
 			[103.0] = "um",
 			[105.0] = "um"
 		}
@@ -52,9 +54,10 @@ function slot0.Nation2Side(slot0)
 			"West",
 			"West",
 			"West",
-			[101.0] = "Jp",
+			[98.0] = "West",
 			[102.0] = "Cn",
 			[104.0] = "West",
+			[101.0] = "Jp",
 			[103.0] = "Jp",
 			[105.0] = "Jp"
 		}
@@ -76,9 +79,10 @@ function slot0.Nation2BG(slot0)
 			"bg/bg_church",
 			"bg/bg_church",
 			"bg/bg_church",
-			[101.0] = "bg/bg_church",
+			[98.0] = "bg/bg_church",
 			[102.0] = "bg/bg_church",
 			[104.0] = "bg/bg_church",
+			[101.0] = "bg/bg_church",
 			[103.0] = "bg/bg_church",
 			[105.0] = "bg/bg_church"
 		}
@@ -100,6 +104,7 @@ function slot0.Nation2Name(slot0)
 			i18n("word_shipNation_beiLian"),
 			i18n("word_shipNation_ziyou"),
 			i18n("word_shipNation_weixi"),
+			[98] = i18n("word_shipNation_other"),
 			[101] = i18n("word_shipNation_np"),
 			[102] = i18n("word_shipNation_bili"),
 			[103] = i18n("word_shipNation_um"),
@@ -124,6 +129,7 @@ function slot0.Nation2facionName(slot0)
 			i18n("guild_faction_blhx"),
 			i18n("guild_faction_blhx"),
 			i18n("guild_faction_cszz"),
+			[98] = i18n("guild_faction_unknown"),
 			[101] = i18n("guild_faction_unknown"),
 			[102] = i18n("guild_faction_unknown"),
 			[103] = i18n("guild_faction_unknown"),

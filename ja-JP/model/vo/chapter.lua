@@ -1275,7 +1275,7 @@ function slot0.getDragExtend(slot0)
 		end
 	end
 
-	return math.max(10 * slot1.cellSize + slot1.cellSpace.x - math.max((slot5 - (slot5 + slot3) * 0.5 - 0) * slot1.cellSize + slot1.cellSpace.x, 0), 0), math.max((slot5 - (slot5 + slot3) * 0.5 - 0) * slot1.cellSize + slot1.cellSpace.x, 0), math.max((ChapterConst.MaxRow * 0.5 - slot2) * slot1.cellSize + slot1.cellSpace.y, 0), math.max((slot4 - ChapterConst.MaxRow * 0.5) * slot1.cellSize + slot1.cellSpace.y, 0)
+	return math.max(((slot5 + slot3) * 0.5 - slot3 + 1) * slot1.cellSize + slot1.cellSpace.x, 0), math.max((slot5 - (slot5 + slot3) * 0.5 + 1) * slot1.cellSize + slot1.cellSpace.x, 0), math.max(((slot4 + slot2) * 0.5 - slot2) * slot1.cellSize + slot1.cellSpace.y, 0), math.max((slot4 - (slot4 + slot2) * 0.5) * slot1.cellSize + slot1.cellSpace.y, 0)
 end
 
 function slot0.getPoisonArea(slot0, slot1)
