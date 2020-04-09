@@ -6,7 +6,7 @@ pg.ship_data_group = {
 		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		nationality = 1,
+		nationality = 98,
 		hide = 0,
 		index_id = 1,
 		group_type = 10000,
@@ -47,7 +47,7 @@ pg.ship_data_group = {
 		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		nationality = 1,
+		nationality = 98,
 		hide = 0,
 		index_id = 2,
 		group_type = 10001,
@@ -763,6 +763,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -792,6 +803,17 @@ pg.ship_data_group = {
 				"Event: Fallen Wings",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -3064,6 +3086,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -3601,6 +3634,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -3630,6 +3674,17 @@ pg.ship_data_group = {
 				"Event: Fallen Wings",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -3663,6 +3718,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Core Data Exchange",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -3694,6 +3759,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -3723,6 +3799,17 @@ pg.ship_data_group = {
 				"Event: Fallen Wings",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -4358,6 +4445,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Core Data Exchange",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -4762,6 +4859,16 @@ pg.ship_data_group = {
 					{
 						projectName = "light",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"Honor medal exchange",
+				{
+					"GETBOAT",
+					{
+						page = 3
 					}
 				},
 				0
@@ -7532,6 +7639,16 @@ pg.ship_data_group = {
 					{
 						projectName = "heavy",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"Honor medal exchange",
+				{
+					"GETBOAT",
+					{
+						page = 3
 					}
 				},
 				0
@@ -10539,6 +10656,16 @@ pg.ship_data_group = {
 					{
 						projectName = "heavy",
 						page = 1
+					}
+				},
+				0
+			},
+			{
+				"Honor medal exchange",
+				{
+					"GETBOAT",
+					{
+						page = 3
 					}
 				},
 				0

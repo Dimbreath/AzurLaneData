@@ -195,7 +195,7 @@ function slot0.Resetresolve(slot0)
 		slot0:Back()
 	end)
 	onButton(slot0, slot1:Find("destroy_button"), function ()
-		slot0:emit(ShopsMediator.SELL_BLUEPRINT, slot0.resolveItems)
+		slot0:emit(NewShopsMediator.SELL_BLUEPRINT, slot0.resolveItems)
 	end)
 end
 

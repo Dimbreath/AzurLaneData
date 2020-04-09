@@ -19,7 +19,8 @@ class("RefreshMilitaryShopCommand", pm.SimpleCommand).execute = function (slot0,
 			end
 
 			slot2:updateAllGoods(slot7)
-			slot1:updateMeritorousShop(slot2)
+			slot1:addMeritorousShop(slot2)
+			pg.TipsMgr.GetInstance():ShowTips(i18n("refresh_shopStreet_ok"))
 			slot0:sendNotification(GAME.REFRESH_MILITARY_SHOP_DONE, Clone(slot2))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))

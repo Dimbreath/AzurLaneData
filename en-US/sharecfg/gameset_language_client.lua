@@ -68,705 +68,749 @@ pg.gameset_language_client = {
 		value = "ttttttttttt17",
 		key = "アニメキャラソン特典寮舎家具⑰"
 	},
+	op_reply_1_1_1 = {
+		value = "Looks delicious!",
+		key = "op_reply_1_1_1"
+	},
+	op_reply_1_1_2 = {
+		value = "Don't eat the poor things!",
+		key = "op_reply_1_1_2"
+	},
+	ins_1 = {
+		value = "Would you like one, my dear Commander? Open your mouth and I'll feed you~",
+		key = "ins_1"
+	},
+	ins_discuss_1_1 = {
+		value = "Would you like one, my dear Commander? Open your mouth and I'll feed you~",
+		key = "ins_discuss_1_1"
+	},
+	ins_discuss_1_2 = {
+		value = "I'm surprised how good these things are. To eat. Starting from the head, working my way down, ahahaha...",
+		key = "ins_discuss_1_2"
+	},
+	ins_discuss_1_3 = {
+		value = "Hang on, you can EAT those?!",
+		key = "ins_discuss_1_3"
+	},
+	ins_reply_1_3_1 = {
+		value = "Assessment: Manjuu are inedible. Photograph depicts a stylized confectionery, likely a bun.",
+		key = "ins_reply_1_3_1"
+	},
+	ins_reply_1_3_2 = {
+		value = "I've come up with a new recipe: Commander buns. If anyone wants to make some later, do let me know.",
+		key = "ins_reply_1_3_2"
+	},
+	op_reply_2_1_1 = {
+		value = "Commander buns? I'm all in... Give me the ingredients and I'll have 500 ready by tomorrow~",
+		key = "op_reply_2_1_1"
+	},
+	ins_2 = {
+		value = "No, we're not baking! Stop messing around!",
+		key = "ins_2"
+	},
+	ins_discuss_2_1 = {
+		value = "That's nice.",
+		key = "ins_discuss_2_1"
+	},
+	ins_reply_2_1_1 = {
+		value = "Why don't you buy one as well, Commander? Then we can move on to the next step: tying the knot~",
+		key = "ins_reply_2_1_1"
+	},
+	ins_reply_2_1_2 = {
+		value = "My fortune slip says my luck will be excellent~! What fortuitous things could happen today? A liaison with the Commander, perhaps~?",
+		key = "ins_reply_2_1_2"
+	},
+	ins_discuss_2_2 = {
+		value = "You should refrain from making blog posts like this, dear sister...",
+		key = "ins_discuss_2_2"
+	},
+	ins_reply_2_2_1 = {
+		value = "And why should I refrain from expressing my love for the Commander, Kaga?",
+		key = "ins_reply_2_2_1"
+	},
+	ins_discuss_2_3 = {
+		value = "Please, let's stick to using our usernames...",
+		key = "ins_discuss_2_3"
+	},
+	ins_3 = {
+		value = "Business as usual for Akagi I guess xD",
+		key = "ins_3"
+	},
+	ins_discuss_3_1 = {
+		value = "You too. Usernames, got it?",
+		key = "ins_discuss_3_1"
+	},
+	ins_reply_3_1_1 = {
+		value = "Maybe I'll buy a fortune slip sometime later too. Not that I'm curious in any way.",
+		key = "ins_reply_3_1_1"
+	},
+	ins_reply_3_1_2 = {
+		value = "Baked with love by yours truly ♥",
+		key = "ins_reply_3_1_2"
+	},
+	ins_discuss_3_2 = {
+		value = "You made these, Akagi? Wow, sweet baking skills :O",
+		key = "ins_discuss_3_2"
+	},
+	ins_reply_3_2_1 = {
+		value = "Thank you. With my love for the Commander, I can make anything amazing.",
+		key = "ins_reply_3_2_1"
+	},
+	ins_reply_3_2_2 = {
+		value = "Maybe I should pick up a recipe book and bake something too... You know, just try something girly for once I guess ^^'",
+		key = "ins_reply_3_2_2"
+	},
+	op_reply_3_1_1 = {
+		value = "Oh my, I didn't know you had a girlish side, senpai~ Hopefully you didn't mistake the salt for the sugar again~",
+		key = "op_reply_3_1_1"
+	},
+	ins_4 = {
+		value = "Sis, please... Stop trying to troll her...",
+		key = "ins_4"
+	},
+	ins_discuss_4_1 = {
+		value = "Oh, I'm not angry, I can take a jab or two from my friends. Vixens who dare whisper lies about me to the Commander, on the other hand...",
+		key = "ins_discuss_4_1"
+	},
+	ins_discuss_4_2 = {
+		value = "They look really tasty.",
+		key = "ins_discuss_4_2"
+	},
+	ins_reply_4_2_1 = {
+		value = "Please stay right there and I'll go deliver them to you, Commander!",
+		key = "ins_reply_4_2_1"
+	},
+	ins_reply_4_2_2 = {
+		value = "It's late and I'm in the practice room, but I just can't get fired up without the Commander by my side...",
+		key = "ins_reply_4_2_2"
+	},
+	ins_reply_4_2_3 = {
+		value = "Please practice without the Master in attendance. We *all* need to rehearse.",
+		key = "ins_reply_4_2_3"
+	},
+	ins_discuss_4_3 = {
+		value = "If you say you're gonna do something, do it right! Don't make excuses!",
+		key = "ins_discuss_4_3"
+	},
+	ins_discuss_4_4 = {
+		value = "My, you seem very serious about this. Pardon me if I'm mistaken, but didn't a certain somebody say, \"It's not like this is worth getting worked up over or anything\"",
+		key = "ins_discuss_4_4"
+	},
+	op_reply_4_1_1 = {
+		value = "Excuse me?! When did I ever say something like that?! You're TOTALLY wrong AND misremembering!",
+		key = "op_reply_4_1_1"
+	},
+	op_reply_4_1_2 = {
+		value = "*Sigh*... If only the Commander was here for me...",
+		key = "op_reply_4_1_2"
+	},
+	ins_5 = {
+		value = "Assessment: \"practice\" seems entertaining.",
+		key = "ins_5"
+	},
+	ins_discuss_5_1 = {
+		value = "I know you're doing your best in there, Akagi! Keep it up! ^.^",
+		key = "ins_discuss_5_1"
+	},
+	ins_reply_5_1_1 = {
+		value = "Give it your all out there.",
+		key = "ins_reply_5_1_1"
+	},
+	ins_reply_5_1_2 = {
+		value = "THE COMMANDER REPLIED! Yes, I promise! I'm feeling much more motivated already!",
+		key = "ins_reply_5_1_2"
+	},
+	ins_reply_5_1_3 = {
+		value = "Sorry I can't be there in person.",
+		key = "ins_reply_5_1_3"
+	},
+	ins_discuss_5_2 = {
+		value = "It's okay, Commander! The moment I'm finished, I'll go straight to your office so we can be together!",
+		key = "ins_discuss_5_2"
+	},
+	ins_reply_5_2_1 = {
+		value = "Orders received from Master: \"do whatever you want.\" Attention: unable to deduce meaning of said phrase.",
+		key = "ins_reply_5_2_1"
+	},
+	ins_reply_5_2_2 = {
+		value = "We have the day off, just play around and have some fun! :D",
+		key = "ins_reply_5_2_2"
+	},
+	op_reply_5_1_1 = {
+		value = "Requesting examples of activities classified as \"playing around and having fun.\"",
+		key = "op_reply_5_1_1"
+	},
+	op_reply_5_1_2 = {
+		value = "Examples? Umm, surfing or sunbathing I guess? Maybe building a sandcastle? I think you'd like that",
+		key = "op_reply_5_1_2"
+	},
+	ins_6 = {
+		value = "\"Build a sandcastle.\" Interest piqued...",
+		key = "ins_6"
+	},
+	ins_discuss_6_1 = {
+		value = "Are you SERIOUSLY chilling on the beach? We've got stuff to do.",
+		key = "ins_discuss_6_1"
+	},
+	ins_reply_6_1_1 = {
+		value = "Cmon, don't be the no-fun police! It's our day off, let loose a little! > <",
+		key = "ins_reply_6_1_1"
+	},
+	ins_reply_6_1_2 = {
+		value = "Let loose?! Are you implying I'm all wound up?!",
+		key = "ins_reply_6_1_2"
+	},
+	ins_discuss_6_2 = {
+		value = "Just do whatever you think will be fun.",
+		key = "ins_discuss_6_2"
+	},
+	ins_reply_6_2_1 = {
+		value = "Requesting list of conditions necessary for \"fun\" to take place.",
+		key = "ins_reply_6_2_1"
+	},
+	ins_reply_6_2_2 = {
+		value = "Building a sandcastle sounds like a good idea!",
+		key = "ins_reply_6_2_2"
+	},
+	ins_reply_6_2_3 = {
+		value = "Orders received, directive updated. Commencing sandcastle construction.",
+		key = "ins_reply_6_2_3"
+	},
+	ins_reply_6_2_4 = {
+		value = "Sandcastle construction complete.",
+		key = "ins_reply_6_2_4"
+	},
+	op_reply_6_1_1 = {
+		value = "wtf...",
+		key = "op_reply_6_1_1"
+	},
+	ins_7 = {
+		value = "Emotion experienced during construction process identified as \"enjoyment.\"",
+		key = "ins_7"
+	},
+	ins_discuss_7_1 = {
+		value = "Haha! Sounds like you had fun!",
+		key = "ins_discuss_7_1"
+	},
+	ins_reply_7_1_1 = {
+		value = "Okay, I'll admit it looks cool. But it's not AMAZING or anything.",
+		key = "ins_reply_7_1_1"
+	},
+	ins_discuss_7_2 = {
+		value = "I saw you tried to make a sandcastle too, but couldn't even manage to built a small tower. You have my sympathies.",
+		key = "ins_discuss_7_2"
+	},
+	ins_discuss_7_3 = {
+		value = "Who asked for YOUR sympathy? I sure didn't!",
+		key = "ins_discuss_7_3"
+	},
+	op_reply_7_1_1 = {
+		value = "Assistance with sandcastle construction is available, Hipper.",
+		key = "op_reply_7_1_1"
+	},
+	ins_8 = {
+		value = "Keep it! I don't need your help!",
+		key = "ins_8"
+	},
+	ins_discuss_8_1 = {
+		value = "Awesome sandcastle!",
+		key = "ins_discuss_8_1"
+	},
+	ins_reply_8_1_1 = {
+		value = "Conditions for experiencing the emotion known as \"fun\" have been met.",
+		key = "ins_reply_8_1_1"
+	},
+	ins_discuss_8_2 = {
+		value = "#TrainingGascogne is self-evaluating ability to sing with emotion.",
+		key = "ins_discuss_8_2"
+	},
+	ins_discuss_8_3 = {
+		value = "What you need is love. Yes, love. LOVE makes everything possible!",
+		key = "ins_discuss_8_3"
+	},
+	op_reply_8_1_1 = {
+		value = "Topic: \"love\" identified. Attention: database lacking in records on this emotion.",
+		key = "op_reply_8_1_1"
+	},
+	op_reply_8_1_2 = {
+		value = "Just follow your heart and do what feels right! No regrets or second guessing!",
+		key = "op_reply_8_1_2"
+	},
+	ins_9 = {
+		value = "Cleve's right. I'd take her words to heart if I were you.",
+		key = "ins_9"
+	},
+	ins_discuss_9_1 = {
+		value = "You're a great singer, Gascogne.",
+		key = "ins_discuss_9_1"
+	},
+	ins_discuss_9_2 = {
+		value = "Assessment: interpreting praise of singing ability as equal to praise of emotional capacity may cause disruptions in analytic systems...",
+		key = "ins_discuss_9_2"
+	},
+	ins_discuss_9_3 = {
+		value = "Unable to assess degree of necessity for depicted items.",
+		key = "ins_discuss_9_3"
+	},
+	ins_discuss_9_4 = {
+		value = "High! Isn't it for granted that we as girls, not just idols, would want to make ourselves beautiful?",
+		key = "ins_discuss_9_4"
+	},
+	op_reply_9_1_1 = {
+		value = "Straight to the point, I see.",
+		key = "op_reply_9_1_1"
+	},
+	ins_10 = {
+		value = "I'm certainly not an expert at applying makeup, but I could gladly help you with it.",
+		key = "ins_10"
+	},
+	ins_discuss_10_1 = {
+		value = "Uhh... Sry, but I know nothing about makeup. I'll ask Helena about it next time, ok?",
+		key = "ins_discuss_10_1"
+	},
+	ins_reply_10_1_1 = {
+		value = "You're amazing just the way you are.",
+		key = "ins_reply_10_1_1"
+	},
+	ins_discuss_10_2 = {
+		value = "Match with song lyrics detected. Requesting clarification on intent.",
+		key = "ins_discuss_10_2"
+	},
+	ins_discuss_10_3 = {
+		value = "You'll always be you, no matter what, Gascogne.",
+		key = "ins_discuss_10_3"
+	},
+	ins_reply_10_3_1 = {
+		value = "Detecting disruptions within emotion capacitor...",
+		key = "ins_reply_10_3_1"
+	},
+	ins_reply_10_3_2 = {
+		value = "#lunch #burgersBought lunch for everyone! This stuff was HEAVY!",
+		key = "ins_reply_10_3_2"
+	},
+	ins_reply_10_3_3 = {
+		value = "You carried that fast food like a boss, sis!",
+		key = "ins_reply_10_3_3"
+	},
+	op_reply_10_1_1 = {
+		value = "I would've gone with you if you'd told me...!",
+		key = "op_reply_10_1_1"
+	},
+	ins_11 = {
+		value = "Way to go, Cleve! We'll buy for you next time!",
+		key = "ins_11"
+	},
+	ins_discuss_11_1 = {
+		value = "Aww, what a sweet big sister.",
+		key = "ins_discuss_11_1"
+	},
+	ins_reply_11_1_1 = {
+		value = "Heavy? As in, on the arteries?",
+		key = "ins_reply_11_1_1"
+	},
+	ins_reply_11_1_2 = {
+		value = "Lol, kinda. One burger every now and then has never killed anyone tho :D",
+		key = "ins_reply_11_1_2"
+	},
+	ins_discuss_11_2 = {
+		value = "#gardening #flowers Wow this is starting to look real good now!",
+		key = "ins_discuss_11_2"
+	},
+	ins_reply_11_2_1 = {
+		value = "You have an interest in not just growing bonsai, but gardening in general?",
+		key = "ins_reply_11_2_1"
+	},
+	ins_discuss_11_3 = {
+		value = "Yup! Gardening and bonsai growing are sorta similar!",
+		key = "ins_discuss_11_3"
+	},
+	ins_reply_11_3_1 = {
+		value = "Detecting floral lifeforms in bloom.",
+		key = "ins_reply_11_3_1"
+	},
+	op_reply_11_1_1 = {
+		value = "How about trying your hand at a more beautiful flower? If so, may I suggest... the red spider lily?",
+		key = "op_reply_11_1_1"
+	},
+	ins_12 = {
+		value = "Seriously? That's way too advanced for a beginner. A gerbera, cosmos, or viola would be more her level.",
+		key = "ins_12"
+	},
+	ins_discuss_12_1 = {
+		value = "Wow, I didn't know you knew so much about gardening! Are you into it too?",
+		key = "ins_discuss_12_1"
+	},
+	ins_reply_12_1_1 = {
+		value = "Not really? That's all just common knowledge.",
+		key = "ins_reply_12_1_1"
+	},
+	ins_discuss_12_2 = {
+		value = "Cleveland, the green-fingered light cruiser!",
+		key = "ins_discuss_12_2"
+	},
+	ins_reply_12_2_1 = {
+		value = "LOL I'm just a beginner! This is nothing special ^^'",
+		key = "ins_reply_12_2_1"
+	},
+	ins_discuss_12_3 = {
+		value = "#growingbonsai I heard if you play music to plants they'll grow faster. Maybe it likes rock?",
+		key = "ins_discuss_12_3"
+	},
+	ins_reply_12_3_1 = {
+		value = "Huh? Maybe a beanstalk from some fairytale would.",
+		key = "ins_reply_12_3_1"
+	},
+	ins_reply_12_3_2 = {
+		value = "Scientific consensus on the practice of using sound waves to stimulate organic growth: unproven.",
+		key = "ins_reply_12_3_2"
+	},
+	op_reply_12_1_1 = {
+		value = "Well maybe it'll work anyway...",
+		key = "op_reply_12_1_1"
+	},
+	op_reply_12_1_2 = {
+		value = "Perhaps the bond between us will grow faster if I sing to the Commander every day...",
+		key = "op_reply_12_1_2"
+	},
+	ins_13 = {
+		value = "Ahaha... I guess?",
+		key = "ins_13"
+	},
+	ins_discuss_13_1 = {
+		value = "With you caring for it, it will surely grow into a wonderful bonsai whether you play music to it or not.",
+		key = "ins_discuss_13_1"
+	},
+	ins_discuss_13_2 = {
+		value = "True! I take good care of my little plants.",
+		key = "ins_discuss_13_2"
+	},
+	ins_reply_13_2_1 = {
+		value = "It could work, maybe.",
+		key = "ins_reply_13_2_1"
+	},
+	ins_reply_13_2_2 = {
+		value = "You really think so? :o",
+		key = "ins_reply_13_2_2"
+	},
+	op_reply_13_1_1 = {
+		value = "#rehearsal #justidolstuff Phew! I love working up a sweat on stage, cause it means I'm giving it my all!",
+		key = "op_reply_13_1_1"
+	},
+	op_reply_13_1_2 = {
+		value = "You were amazing, Cleve! I wish I'd brought a camera to record it!",
+		key = "op_reply_13_1_2"
+	},
+	ins_14 = {
+		value = "Thanks, but I wouldn't say amazing ^^'",
+		key = "ins_14"
+	},
+	ins_discuss_14_1 = {
+		value = "You're the EMBODIMENT of amazing! You're awesomely amazing!",
+		key = "ins_discuss_14_1"
+	},
+	ins_reply_14_1_1 = {
+		value = "I appreciate it, but people are gonna start calling you a shill lol",
+		key = "ins_reply_14_1_1"
+	},
+	ins_reply_14_1_2 = {
+		value = "I've gotta jump in on this convo! You're the awesomest amazingest cutest ever, sis!",
+		key = "ins_reply_14_1_2"
+	},
+	ins_discuss_14_2 = {
+		value = "OMG PLEASE STOOOOOOP",
+		key = "ins_discuss_14_2"
+	},
+	op_reply_14_1_1 = {
+		value = "Must be nice having such, uh, supportive sisters.",
+		key = "op_reply_14_1_1"
+	},
+	ins_15 = {
+		value = "IN CLEVE WE BELIEVE!",
+		key = "ins_15"
+	},
+	ins_discuss_15_1 = {
+		value = "Even YOU'RE doing it Commander?! Cmon, stop, I mean it!",
+		key = "ins_discuss_15_1"
+	},
+	ins_discuss_15_2 = {
+		value = "I get you. Nothing beats a good drumming session!",
+		key = "ins_discuss_15_2"
+	},
+	ins_discuss_15_3 = {
+		value = "Heck yeah! I knew you'd understand, Commander!",
+		key = "ins_discuss_15_3"
+	},
+	ins_reply_15_3_1 = {
+		value = "#Microphone #disassembly I was interested to see how a microphone looks on the inside. This is what I found.",
+		key = "ins_reply_15_3_1"
+	},
+	op_reply_15_1_1 = {
+		value = "STOP! You're gonna break it if you go any further!",
+		key = "op_reply_15_1_1"
+	},
+	ins_16 = {
+		value = "Somehow not surprised to see Sheffy picking stuff apart. Dunno why O_o",
+		key = "ins_16"
+	},
+	ins_discuss_16_1 = {
+		value = "Ah, the thrill of breaking things. I share Sheffield's sentiment~",
+		key = "ins_discuss_16_1"
+	},
+	ins_reply_16_1_1 = {
+		value = "You too! STOP!",
+		key = "ins_reply_16_1_1"
+	},
+	ins_discuss_16_2 = {
+		value = "Stop! Think of the poor mic!",
+		key = "ins_discuss_16_2"
+	},
+	ins_reply_16_2_1 = {
+		value = "Hmph. Very well.",
+		key = "ins_reply_16_2_1"
+	},
+	ins_reply_16_2_2 = {
+		value = "Your disassembly looks really professional.",
+		key = "ins_reply_16_2_2"
+	},
+	op_reply_16_1_1 = {
+		value = "Ah, do you enjoy breaking down things into their basic components as well, Master?",
+		key = "op_reply_16_1_1"
+	},
+	ins_17 = {
+		value = "#Night_battle Fly me to the moon, and let me play among the stars.",
+		key = "ins_17"
+	},
+	ins_discuss_17_1 = {
+		value = "Uh, what?",
+		key = "ins_discuss_17_1"
+	},
+	ins_reply_17_1_1 = {
+		value = "Starting simulation to calculate amount of energy required to travel to and play among celestial bodies...",
+		key = "ins_reply_17_1_1"
+	},
+	ins_reply_17_1_2 = {
+		value = "Uhh... what?",
+		key = "ins_reply_17_1_2"
+	},
+	ins_reply_17_1_3 = {
+		value = "Let me see what spring is like on Jupiter and Mars... Such romantic lyrics.",
+		key = "ins_reply_17_1_3"
+	},
+	ins_discuss_17_2 = {
+		value = "Want me to ask Akashi how much it'd cost to go to space?",
+		key = "ins_discuss_17_2"
+	},
+	ins_discuss_17_3 = {
+		value = "It is painfully evident that you have no sense of romance, Master.",
+		key = "ins_discuss_17_3"
+	},
+	op_reply_17_1_1 = {
+		value = "#BehindTheScenes #BackstageI would like to thank everyone working behind the scenes. They help make our performances truly special.",
+		key = "op_reply_17_1_1"
+	},
+	ins_18 = {
+		value = "Yeah, props to them! Keep up the great work!",
+		key = "ins_18"
+	},
+	ins_discuss_18_1 = {
+		value = "A lot of their work goes unnoticed, but they deserve a huge thanks.",
+		key = "ins_discuss_18_1"
+	},
+	ins_reply_18_1_1 = {
+		value = "As the head maid, I am honoured to be of your assistance. We hope to provide our services to you again in the future.",
+		key = "ins_reply_18_1_1"
+	},
+	ins_reply_18_1_2 = {
+		value = "Certainly, Belfast... I will try my best as well.",
+		key = "ins_reply_18_1_2"
+	},
+	ins_discuss_18_2 = {
+		value = "Rock the stage, Sheffield!",
+		key = "ins_discuss_18_2"
+	},
+	ins_discuss_18_3 = {
+		value = "I am already rocking the stage, Master. You need not order me to.",
+		key = "ins_discuss_18_3"
+	},
+	op_reply_18_1_1 = {
+		value = "#Practice I am practicing my part. It is not quite satisfactory yet.",
+		key = "op_reply_18_1_1"
+	},
+	op_reply_18_1_2 = {
+		value = "What? You're plenty good already, Sheffy!",
+		key = "op_reply_18_1_2"
+	},
+	ins_19 = {
+		value = "Music, much like cleaning, are skills that can always be improved. I am far from perfect.",
+		key = "ins_19"
+	},
+	ins_discuss_19_1 = {
+		value = "Sure. At least get good enough to not drag everyone else down!",
+		key = "ins_discuss_19_1"
+	},
+	ins_discuss_19_2 = {
+		value = "Certainly. But perhaps you should take your own advice, Hipper.",
+		key = "ins_discuss_19_2"
+	},
+	ins_reply_19_2_1 = {
+		value = "Excuse me? I AM practicing! Geez!",
+		key = "ins_reply_19_2_1"
+	},
+	ins_reply_19_2_2 = {
+		value = "I'd love to hear your singing, live.",
+		key = "ins_reply_19_2_2"
+	},
+	ins_reply_19_2_3 = {
+		value = "That can be arranged, Master. Would you mind if I sing a song that also places a curse on you? ...I am joking, of course.",
+		key = "ins_reply_19_2_3"
+	},
+	op_reply_19_1_1 = {
+		value = "#hobbyhour #guitarI'm feeling it! My guitar and I are in perfect sync today!",
+		key = "op_reply_19_1_1"
+	},
+	op_reply_19_1_2 = {
+		value = "Wow! Your guitar looks AWESOME! :D",
+		key = "op_reply_19_1_2"
+	},
+	ins_20 = {
+		value = "Uh, sure... But I'm not fishing for compliments here! I'm so NOT happy you think it looks cool!",
+		key = "ins_20"
+	},
+	ins_discuss_20_1 = {
+		value = "What was it Eugen said about tradition? Blonde, flat as a board, has attitude problems?",
+		key = "ins_discuss_20_1"
+	},
+	ins_reply_20_1_1 = {
+		value = "EXCUSE ME?! Are you saying I'm an ARCHETYPE?! Oh, you're gonna get it...",
+		key = "ins_reply_20_1_1"
+	},
+	ins_discuss_20_2 = {
+		value = "Proposal: repaint guitar with colors associated with the Vichya Dominion.",
+		key = "ins_discuss_20_2"
+	},
+	ins_reply_20_2_1 = {
+		value = "Your guitar is such a gorgeous shade of red...",
+		key = "ins_reply_20_2_1"
+	},
+	ins_discuss_20_3 = {
+		value = "Rock 'n roll, Hipper!",
+		key = "ins_discuss_20_3"
+	},
+	op_reply_20_1_1 = {
+		value = "Huh? What's this all of a sudden?",
+		key = "op_reply_20_1_1"
+	},
 	ins_21 = {
-		value = "【新年】正在装饰门松的{namecode:74}大人。今年也期待各位为了重樱舰队而努力奋斗",
+		value = "#out-of-season-oktoberfestNothing goes together like beer and bratwurst!",
 		key = "ins_21"
 	},
 	ins_discuss_21_1 = {
-		value = "新年快乐！",
+		value = "Not nagging for 5 seconds and actually enjoying yourself? Who are you and what have you done to Hipper?",
 		key = "ins_discuss_21_1"
 	},
 	ins_reply_21_1_1 = {
-		value = "辛苦了。来年也期待汝的努力奋斗",
+		value = "Excuse me? Who said I'm enjoying myself? And don't you have something better to do?",
 		key = "ins_reply_21_1_1"
 	},
 	ins_reply_21_1_2 = {
-		value = "也期待你的皇家特产哦！",
+		value = "There, that's more like it! I was starting to worry that you'd deviated from your archetype.",
 		key = "ins_reply_21_1_2"
 	},
 	ins_discuss_21_2 = {
-		value = "代替陛下向重樱诸位送上新年的祝福",
+		value = "Normally, I feel awkward at parties... but being with my Iron Blood friends makes it easier.",
 		key = "ins_discuss_21_2"
 	},
 	ins_reply_21_2_1 = {
-		value = "哦！谢谢！不过为什么你要带着相机窝在体育馆拍东西？快跟我说说有什么好玩的！",
+		value = "It's nice to have a celebration every once in a while... Plus it offers Spee many opportunities to socialize and have fun! Ahahahah!",
 		key = "ins_reply_21_2_1"
 	},
 	ins_discuss_21_3 = {
-		value = "新年快乐！",
+		value = "Those sausages look yummy.",
 		key = "ins_discuss_21_3"
 	},
 	ins_reply_21_3_1 = {
-		value = "希望在舰队中，也能见识到联合演习上的那份实力。期待汝之活跃！",
+		value = "It sounds like you really wish you were here, am I right? Maybe we'll let you join us at some point!",
 		key = "ins_reply_21_3_1"
 	},
 	ins_op_21_1_1 = {
-		value = "新年快乐！",
+		value = "Prost!",
 		key = "ins_op_21_1_1"
 	},
 	ins_op_21_1_2 = {
-		value = "咦？这个账号是{namecode:74}？还是有其他人在……",
+		value = "Uh, yeah, prost. It's a shame you're not here to enjoy it, isn't it? Who knows, maybe SOMEONE will let you join us!",
 		key = "ins_op_21_1_2"
 	},
 	op_reply_21_1_1 = {
-		value = "为了重樱和舰队再接再励吧",
+		value = "#plushie #manjuuLook at this cute little thing!",
 		key = "op_reply_21_1_1"
 	},
 	op_reply_21_1_2 = {
-		value = "是由{namecode:74}大人和{namecode:75}大人，和我({namecode:158})共同管理的",
+		value = "Everyone likes cute plushies. Even Hipper, it seems.",
 		key = "op_reply_21_1_2"
 	},
 	ins_22 = {
-		value = "【新年】从{namecode:82}大人那收到压岁钱的{namecode:74}大人。今天也心情绝佳的样子",
+		value = "Wait, you like cute things Hipper? I didn't know that :o",
 		key = "ins_22"
 	},
 	ins_discuss_22_1 = {
-		value = "{namecode:75}也从{namecode:74}那里收到压岁钱了！开心！",
+		value = "Uh, no?! Someone just took my phone and used it to make this post, that's all!",
 		key = "ins_discuss_22_1"
 	},
 	ins_reply_22_1_1 = {
-		value = "{namecode:75}大人，感想请用另外准备的账号发送，用这个账号发有点不太……",
+		value = "You're following your archetype quite well today.",
 		key = "ins_reply_22_1_1"
 	},
 	ins_reply_22_1_2 = {
-		value = "为什么？这个账号也没有写着“我是{namecode:74}姐”嘛？？？",
+		value = "OMG! STOP PARROTING EUGEN ALL THE TIME!!!",
 		key = "ins_reply_22_1_2"
 	},
 	ins_reply_22_1_3 = {
-		value = "这个姑且是重樱用来发公告用的…",
+		value = "You're right, it IS cute!",
 		key = "ins_reply_22_1_3"
 	},
 	ins_reply_22_1_4 = {
-		value = "但是，{namecode:74}姐姐也直接用这个在给指挥官回复啊？",
+		value = "Whatever!",
 		key = "ins_reply_22_1_4"
 	},
 	ins_reply_22_1_5 = {
-		value = "？？这是什么情况…？",
+		value = "You should buy one for yourself.",
 		key = "ins_reply_22_1_5"
 	},
 	ins_op_22_1_1 = {
-		value = "这边也准备了压岁钱哦",
+		value = "Why would I?!",
 		key = "ins_op_22_1_1"
 	},
 	ins_op_22_1_2 = {
-		value = "很高兴的样子嘛",
+		value = "#coffeebreak #getsmegoing A nice cup of coffee after work really hits the spot.",
 		key = "ins_op_22_1_2"
 	},
 	op_reply_22_1_1 = {
-		value = "汝也把吾当作小孩子吗！吾才不想要！",
+		value = "I'm more of a tea person, myself.",
 		key = "op_reply_22_1_1"
 	},
 	op_reply_22_1_2 = {
-		value = "吾可是{namecode:74}！才不会为了区区压岁钱觉得高兴呢！",
+		value = "Okay? Coffee boosts your alertness way more than tea does.",
 		key = "op_reply_22_1_2"
 	},
 	ins_23 = {
-		value = "☆推荐！☆{namecode:71}特制即席料理套餐！重樱宴会上才能品尝到的美味料理也能轻松再现！这才是御召舰品质！",
+		value = "I'm baffled by how some people unironically enjoy drinking something that tastes like burnt dishwater.",
 		key = "ins_23"
 	},
 	ins_discuss_23_1 = {
-		value = "噗噗好像也很感兴趣…能要一份嘛？",
+		value = "YOU baffle ME! EVERYONE drinks coffee! You just have no idea how to brew it!",
 		key = "ins_discuss_23_1"
 	},
 	ins_reply_23_1_1 = {
-		value = "没问题！一会就给驱逐舰的各位带过去！",
+		value = "I guess you could say it's not her cup of tea... How about an ice cold Oxy-cola to help cool down?",
 		key = "ins_reply_23_1_1"
 	},
 	ins_discuss_23_2 = {
-		value = "不知不觉间已经有这样的产品了？？？",
+		value = "Do you like it black?",
 		key = "ins_discuss_23_2"
 	},
 	ins_reply_23_2_1 = {
-		value = "并没有这样的产品哦，{namecode:70}姐，开玩笑的而已哈哈",
+		value = "Yeah, I guess?",
 		key = "ins_reply_23_2_1"
-	},
-	ins_op_23_1_1 = {
-		value = "所以？要在哪里付钱买这个呢？",
-		key = "ins_op_23_1_1"
-	},
-	ins_op_23_1_2 = {
-		value = "账号被黑了…？",
-		key = "ins_op_23_1_2"
-	},
-	op_reply_23_1_1 = {
-		value = "请联系重樱的{namecode:73}谢谢！哈哈哈",
-		key = "op_reply_23_1_1"
-	},
-	op_reply_23_1_2 = {
-		value = "没有啦！只是卖个傻而已，哈哈哈",
-		key = "op_reply_23_1_2"
-	},
-	ins_24 = {
-		value = "和{namecode:2}她们一起打年糕…有点用力过猛了…的说",
-		key = "ins_24"
-	},
-	ins_discuss_24_1 = {
-		value = "太厉害了！在鬼神{namecode:6}的全力一击下断成两片了！咦？这个是不是可以直接退换啊？",
-		key = "ins_discuss_24_1"
-	},
-	ins_reply_24_1_1 = {
-		value = "不愧是{namecode:12}，瞬间就想到“可以靠这漂亮的切面抓住{namecode:98}的弱点”！",
-		key = "ins_reply_24_1_1"
-	},
-	ins_reply_24_1_2 = {
-		value = "原来如此！这就是所谓的“而已索赔”吧！",
-		key = "ins_reply_24_1_2"
-	},
-	ins_reply_24_1_3 = {
-		value = "能换吗！？",
-		key = "ins_reply_24_1_3"
-	},
-	ins_reply_24_1_4 = {
-		value = "大概不行…的说",
-		key = "ins_reply_24_1_4"
-	},
-	ins_discuss_24_2 = {
-		value = "这个…好像是我的…（泪",
-		key = "ins_discuss_24_2"
-	},
-	ins_reply_24_2_1 = {
-		value = "{namecode:2}…抱歉…的说",
-		key = "ins_reply_24_2_1"
-	},
-	ins_op_24_1_1 = {
-		value = "别放在心上！",
-		key = "ins_op_24_1_1"
-	},
-	ins_op_24_1_2 = {
-		value = "还可以从{namecode:20}那里拿，没关系！",
-		key = "ins_op_24_1_2"
-	},
-	op_reply_24_1_1 = {
-		value = "对不起的说。我会再试一次的",
-		key = "op_reply_24_1_1"
-	},
-	op_reply_24_1_2 = {
-		value = "指挥官…谢谢的说",
-		key = "op_reply_24_1_2"
-	},
-	ins_25 = {
-		value = "呼呼…这是准备给指挥官的礼物呢~",
-		key = "ins_25"
-	},
-	ins_discuss_25_1 = {
-		value = "好厉害！我要不要也跟{namecode:66}借个笔来写写看呢？",
-		key = "ins_discuss_25_1"
-	},
-	ins_reply_25_1_1 = {
-		value = "重樱的书房就有笔哦，另外公共休息室的话，也有纸和笔呢",
-		key = "ins_reply_25_1_1"
-	},
-	ins_discuss_25_2 = {
-		value = "真羡慕啊~我就只能做点甜点什么的…",
-		key = "ins_discuss_25_2"
-	},
-	ins_discuss_25_3 = {
-		value = "是不是该送点萨丁的特产什么的呢~",
-		key = "ins_discuss_25_3"
-	},
-	ins_discuss_25_4 = {
-		value = "这、这组合是什么情况！？",
-		key = "ins_discuss_25_4"
-	},
-	ins_op_25_1_1 = {
-		value = "达、达人的笔法！",
-		key = "ins_op_25_1_1"
-	},
-	ins_op_25_1_2 = {
-		value = "哦哦……！",
-		key = "ins_op_25_1_2"
-	},
-	op_reply_25_1_1 = {
-		value = "呵呵，多谢夸奖，孩子~",
-		key = "op_reply_25_1_1"
-	},
-	op_reply_25_1_2 = {
-		value = "要挂在房间里的话说一声就好，我直接给你拿过去~",
-		key = "op_reply_25_1_2"
-	},
-	ins_26 = {
-		value = "这破魔矢，好像和重樱本岛的有些不太一样？？？",
-		key = "ins_26"
-	},
-	ins_discuss_26_1 = {
-		value = "光看照片的话，外形和装饰都和重樱原本的一样吧…",
-		key = "ins_discuss_26_1"
-	},
-	ins_reply_26_1_1 = {
-		value = "这样看来，不一样的，大概是材料了…",
-		key = "ins_reply_26_1_1"
-	},
-	ins_discuss_26_2 = {
-		value = "没、没有吧？怎么看都再正常不过了吧！",
-		key = "ins_discuss_26_2"
-	},
-	ins_reply_26_2_1 = {
-		value = "为啥{namecode:155}跑来回复了…？",
-		key = "ins_reply_26_2_1"
-	},
-	ins_discuss_26_3 = {
-		value = "啊…不会是{namecode:98}在制作材料上又抠了吧……",
-		key = "ins_discuss_26_3"
-	},
-	ins_op_26_1_1 = {
-		value = "具体说说？",
-		key = "ins_op_26_1_1"
-	},
-	ins_op_26_1_2 = {
-		value = "被动过手脚了？",
-		key = "ins_op_26_1_2"
-	},
-	op_reply_26_1_1 = {
-		value = "不知道怎么说，总觉得好像有点…轻？",
-		key = "op_reply_26_1_1"
-	},
-	op_reply_26_1_2 = {
-		value = "欸！？我马上检查看看！",
-		key = "op_reply_26_1_2"
-	},
-	ins_27 = {
-		value = "和大家一起玩“强手棋”！好紧张…！",
-		key = "ins_27"
-	},
-	ins_discuss_27_1 = {
-		value = "【魔眼的神托】得快点把卡片用掉才行呢",
-		key = "ins_discuss_27_1"
-	},
-	ins_reply_27_1_1 = {
-		value = "Z36为什么不教教我嘛~我是初学者啊~",
-		key = "ins_reply_27_1_1"
-	},
-	ins_reply_27_1_2 = {
-		value = "【魔眼的神托】(我也是初学者来着……）",
-		key = "ins_reply_27_1_2"
-	},
-	ins_discuss_27_2 = {
-		value = "Z35是想什么都会表现在脸上的类型啊？手上有什么卡片一目了然呢~",
-		key = "ins_discuss_27_2"
-	},
-	ins_reply_27_2_1 = {
-		value = "这种事就不要说出来了！（泪",
-		key = "ins_reply_27_2_1"
-	},
-	ins_reply_27_2_2 = {
-		value = "像萨拉托加说的一样，稍微控制一下表情比较好哦？",
-		key = "ins_reply_27_2_2"
-	},
-	ins_reply_27_2_3 = {
-		value = "话是这么说，Z23其实也没比我好到哪里去吧？",
-		key = "ins_reply_27_2_3"
-	},
-	ins_op_27_1_1 = {
-		value = "祝你好运！",
-		key = "ins_op_27_1_1"
-	},
-	ins_op_27_1_2 = {
-		value = "和东煌玩的那个一样？",
-		key = "ins_op_27_1_2"
-	},
-	op_reply_27_1_1 = {
-		value = "被祝福了！（其实还挺开心的！",
-		key = "op_reply_27_1_1"
-	},
-	op_reply_27_1_2 = {
-		value = "和白鹰玩的更像吧~原来指挥官也玩过啊……",
-		key = "op_reply_27_1_2"
-	},
-	ins_28 = {
-		value = "自拍…第一次尝试……",
-		key = "ins_28"
-	},
-	ins_discuss_28_1 = {
-		value = "拍得不错呢！",
-		key = "ins_discuss_28_1"
-	},
-	ins_reply_28_1_1 = {
-		value = "Z23耐心地教会了独角兽…谢谢…！",
-		key = "ins_reply_28_1_1"
-	},
-	ins_discuss_28_2 = {
-		value = "对电子机械不太擅长，没能帮上忙，抱歉了",
-		key = "ins_discuss_28_2"
-	},
-	ins_reply_28_2_1 = {
-		value = "贝尔法斯特也帮了独角兽很多…谢谢！",
-		key = "ins_reply_28_2_1"
-	},
-	ins_op_28_1_1 = {
-		value = "可爱！",
-		key = "ins_op_28_1_1"
-	},
-	ins_op_28_1_2 = {
-		value = "光辉…？",
-		key = "ins_op_28_1_2"
-	},
-	op_reply_28_1_1 = {
-		value = "欸嘿嘿…要发给哥哥…吗？",
-		key = "op_reply_28_1_1"
-	},
-	op_reply_28_1_2 = {
-		value = "嗯…一个人拍感觉…有点可怕…就约了光辉姐姐……一起",
-		key = "op_reply_28_1_2"
-	},
-	ins_29 = {
-		value = "优酱…用冰做了个角♪",
-		key = "ins_29"
-	},
-	ins_discuss_29_1 = {
-		value = "看起来就好冷…下次出去记得穿暖一点哦！",
-		key = "ins_discuss_29_1"
-	},
-	ins_reply_29_1_1 = {
-		value = "谢谢爱丁堡的关心…不过…独角兽…没问题的！",
-		key = "ins_reply_29_1_1"
-	},
-	ins_discuss_29_2 = {
-		value = "优酱…果然是奇怪的生物…的说",
-		key = "ins_discuss_29_2"
-	},
-	ins_reply_29_2_1 = {
-		value = "？？优酱是玩偶哦…？",
-		key = "ins_reply_29_2_1"
-	},
-	ins_op_29_1_1 = {
-		value = "可爱！",
-		key = "ins_op_29_1_1"
-	},
-	ins_op_29_1_2 = {
-		value = "优酱好灵巧！",
-		key = "ins_op_29_1_2"
-	},
-	op_reply_29_1_1 = {
-		value = "欸嘿嘿…谢谢哥哥…！",
-		key = "op_reply_29_1_1"
-	},
-	op_reply_29_1_2 = {
-		value = "欸嘿嘿…优酱…可以做好多事情哦…？",
-		key = "op_reply_29_1_2"
-	},
-	ins_30 = {
-		value = "跨年荞麦面…好像应该不是这样的，就当是吧",
-		key = "ins_30"
-	},
-	ins_discuss_30_1 = {
-		value = "约指挥官一起吃多好~",
-		key = "ins_discuss_30_1"
-	},
-	ins_reply_30_1_1 = {
-		value = "是你自己想约吧…现在正是最忙的时候，不会给指挥官添麻烦吗？",
-		key = "ins_reply_30_1_1"
-	},
-	ins_reply_30_1_2 = {
-		value = "也没关系吧~",
-		key = "ins_reply_30_1_2"
-	},
-	ins_discuss_30_2 = {
-		value = "这照片和平时感觉不太一样呢",
-		key = "ins_discuss_30_2"
-	},
-	ins_reply_30_2_1 = {
-		value = "果然看得出来吗，是{namecode:49}拍的",
-		key = "ins_reply_30_2_1"
-	},
-	ins_discuss_30_3 = {
-		value = "{namecode:37}也想吃",
-		key = "ins_discuss_30_3"
-	},
-	ins_reply_30_3_1 = {
-		value = "晚点分你一些吧？作为平时装备检修的答谢",
-		key = "ins_reply_30_3_1"
-	},
-	ins_op_30_1_1 = {
-		value = "又到了这时候了啊",
-		key = "ins_op_30_1_1"
-	},
-	ins_op_30_1_2 = {
-		value = "新年快乐！",
-		key = "ins_op_30_1_2"
-	},
-	op_reply_30_1_1 = {
-		value = "所以才要吃荞麦面…呢",
-		key = "op_reply_30_1_1"
-	},
-	op_reply_30_1_2 = {
-		value = "祝指挥官过个好年！",
-		key = "op_reply_30_1_2"
-	},
-	ins_31 = {
-		value = "放风筝真开心~！",
-		key = "ins_31"
-	},
-	ins_discuss_31_1 = {
-		value = "很有趣的样子……",
-		key = "ins_discuss_31_1"
-	},
-	ins_reply_31_1_1 = {
-		value = "下次也借你玩吧！啊，是不是顺便教教你怎么放比较好啊？明天一起来吧？",
-		key = "ins_reply_31_1_1"
-	},
-	ins_reply_31_1_2 = {
-		value = "嗯…！谢谢！",
-		key = "ins_reply_31_1_2"
-	},
-	ins_discuss_31_2 = {
-		value = "等明天的演习任务结束以后一起来？",
-		key = "ins_discuss_31_2"
-	},
-	ins_reply_31_2_1 = {
-		value = "好！一定要来哦！",
-		key = "ins_reply_31_2_1"
-	},
-	ins_op_31_1_1 = {
-		value = "好开心！",
-		key = "ins_op_31_1_1"
-	},
-	ins_op_31_1_2 = {
-		value = "是南安普顿自己做的吗？",
-		key = "ins_op_31_1_2"
-	},
-	op_reply_31_1_1 = {
-		value = "指挥官下次一起呗？啊，当然要假日才行！",
-		key = "op_reply_31_1_1"
-	},
-	op_reply_31_1_2 = {
-		value = "啊，不是哦。是{namecode:98}店里买的~",
-		key = "op_reply_31_1_2"
-	},
-	ins_32 = {
-		value = "港区警戒哨，到达指定地点待机中",
-		key = "ins_32"
-	},
-	ins_discuss_32_1 = {
-		value = "啊，对不起，皇家方舟小姐！好像发错照片了！我重新传一张……",
-		key = "ins_discuss_32_1"
-	},
-	ins_reply_32_1_1 = {
-		value = "拜托了！",
-		key = "ins_reply_32_1_1"
-	},
-	ins_discuss_32_2 = {
-		value = "照片我都已经检查过了。不好意思失礼了",
-		key = "ins_discuss_32_2"
-	},
-	ins_reply_32_2_1 = {
-		value = "没事没事，也麻烦你了，非常感谢~",
-		key = "ins_reply_32_2_1"
-	},
-	ins_op_32_1_1 = {
-		value = "这是谁拍的…？",
-		key = "ins_op_32_1_1"
-	},
-	ins_op_32_1_2 = {
-		value = "是想拍谁啊…？",
-		key = "ins_op_32_1_2"
-	},
-	op_reply_32_1_1 = {
-		value = "是一位志同道合的友人。不用太在意",
-		key = "op_reply_32_1_1"
-	},
-	op_reply_32_1_2 = {
-		value = "是我想要守护的同伴。可没有什么邪念哦！",
-		key = "op_reply_32_1_2"
-	},
-	ins_33 = {
-		value = "耶~烤年糕~来啦！！━━━(ﾟ∀ﾟ)━━━！！",
-		key = "ins_33"
-	},
-	ins_discuss_33_1 = {
-		value = "原来如此！这就是“深夜放毒”吧！",
-		key = "ins_discuss_33_1"
-	},
-	ins_reply_33_1_1 = {
-		value = "请务必给在下留一点！",
-		key = "ins_reply_33_1_1"
-	},
-	ins_reply_33_1_2 = {
-		value = "已经给{namecode:11}留好了哦",
-		key = "ins_reply_33_1_2"
-	},
-	ins_reply_33_1_3 = {
-		value = "好，拜托了",
-		key = "ins_reply_33_1_3"
-	},
-	ins_discuss_33_2 = {
-		value = "大前辈也做了这个！",
-		key = "ins_discuss_33_2"
-	},
-	ins_reply_33_2_1 = {
-		value = "当心别噎着了哦！",
-		key = "ins_reply_33_2_1"
-	},
-	ins_op_33_1_1 = {
-		value = "来啦━━━(Дﾟ(○=(ﾟ∀ﾟ)=○)Дﾟ)━━━!!! ",
-		key = "ins_op_33_1_1"
-	},
-	ins_op_33_1_2 = {
-		value = "很好吃的样子！",
-		key = "ins_op_33_1_2"
-	},
-	op_reply_33_1_1 = {
-		value = "指挥官━━(ﾟдﾟ；)))━━!!??",
-		key = "op_reply_33_1_1"
-	},
-	op_reply_33_1_2 = {
-		value = "别小看了{namecode:12}的美食频道哦！嘿嘿~",
-		key = "op_reply_33_1_2"
-	},
-	ins_34 = {
-		value = "大概就这样吧",
-		key = "ins_34"
-	},
-	ins_discuss_34_1 = {
-		value = "那个发光的…不会是朱诺的吧？",
-		key = "ins_discuss_34_1"
-	},
-	ins_reply_34_1_1 = {
-		value = "没想到{namecode:181}是会做这种事的孩子……",
-		key = "ins_reply_34_1_1"
-	},
-	ins_reply_34_1_2 = {
-		value = "只是从她那里借来用一下而已！也有给她看照片啦！",
-		key = "ins_reply_34_1_2"
-	},
-	ins_discuss_34_2 = {
-		value = "收拾的时候叫上我哦",
-		key = "ins_discuss_34_2"
-	},
-	ins_reply_34_2_1 = {
-		value = "欸？已经到这时候了？",
-		key = "ins_reply_34_2_1"
-	},
-	ins_op_34_1_1 = {
-		value = "品味不错",
-		key = "ins_op_34_1_1"
-	},
-	ins_op_34_1_2 = {
-		value = "起名为…《雪之大鬼》？",
-		key = "ins_op_34_1_2"
-	},
-	op_reply_34_1_1 = {
-		value = "哦？指挥官也懂吗？难得找到一个懂得欣赏的啊",
-		key = "op_reply_34_1_1"
-	},
-	op_reply_34_1_2 = {
-		value = "要我起的话…《白令的冰鬼》…什么的…果然还是太过了吧",
-		key = "op_reply_34_1_2"
-	},
-	ins_35 = {
-		value = "果然还是赢不过本家啊……",
-		key = "ins_35"
-	},
-	ins_discuss_35_1 = {
-		value = "都跟你说过了:3",
-		key = "ins_discuss_35_1"
-	},
-	ins_discuss_35_2 = {
-		value = "把我打得体无完肤的大姐头竟然…重樱，太可怕了…！",
-		key = "ins_discuss_35_2"
-	},
-	ins_reply_35_2_1 = {
-		value = " @Cleve-FC.4  要为大姐头报仇…！",
-		key = "ins_reply_35_2_1"
-	},
-	ins_reply_35_2_2 = {
-		value = "明白",
-		key = "ins_reply_35_2_2"
-	},
-	ins_reply_35_2_3 = {
-		value = "别报仇啦！",
-		key = "ins_reply_35_2_3"
-	},
-	ins_op_35_1_1 = {
-		value = "为什么特意上传这样的照片…？",
-		key = "ins_op_35_1_1"
-	},
-	ins_op_35_1_2 = {
-		value = "加油Fight！",
-		key = "ins_op_35_1_2"
-	},
-	op_reply_35_1_1 = {
-		value = "为了提醒自己不要忘记这屈辱的失败…！绝对不是因为惩罚游戏的要求哦！",
-		key = "op_reply_35_1_1"
-	},
-	op_reply_35_1_2 = {
-		value = "谢啦！待会陪我练习吧！",
-		key = "op_reply_35_1_2"
-	},
-	ins_36 = {
-		value = "新年就是要睡懒觉！被炉太棒了~",
-		key = "ins_36"
-	},
-	ins_discuss_36_1 = {
-		value = "集中供暖也不错吧？",
-		key = "ins_discuss_36_1"
-	},
-	ins_reply_36_1_1 = {
-		value = "要对整个宿舍进行改装也太折腾了……",
-		key = "ins_reply_36_1_1"
-	},
-	ins_reply_36_1_2 = {
-		value = "真纠结啊＞w＜",
-		key = "ins_reply_36_1_2"
-	},
-	ins_reply_36_1_3 = {
-		value = "这、这是什么颜文字！？",
-		key = "ins_reply_36_1_3"
-	},
-	ins_discuss_36_2 = {
-		value = "要加入午睡部吗？",
-		key = "ins_discuss_36_2"
-	},
-	ins_op_36_1_1 = {
-		value = "被炉是最强的！",
-		key = "ins_op_36_1_1"
-	},
-	ins_op_36_1_2 = {
-		value = "暖气才是王道…！",
-		key = "ins_op_36_1_2"
-	},
-	op_reply_36_1_1 = {
-		value = "千万不能在指挥室放啊！真的会无心工作的！",
-		key = "op_reply_36_1_1"
-	},
-	op_reply_36_1_2 = {
-		value = "那也不错就是…不过，就我个人而言还是更喜欢被炉就是了",
-		key = "op_reply_36_1_2"
-	},
-	ins_37 = {
-		value = "堆雪人、滚雪球、打雪仗…和噗噗一起…",
-		key = "ins_37"
-	},
-	ins_discuss_37_1 = {
-		value = "揉雪球应该不用把啾啾给揉进去…吧",
-		key = "ins_discuss_37_1"
-	},
-	ins_reply_37_1_1 = {
-		value = "是吗？",
-		key = "ins_reply_37_1_1"
-	},
-	ins_discuss_37_2 = {
-		value = "意外地挺疼的…{namecode:180}…你是不是太认真了点？",
-		key = "ins_discuss_37_2"
-	},
-	ins_op_37_1_1 = {
-		value = "噗噗…在哪里……？",
-		key = "ins_op_37_1_1"
-	},
-	ins_op_37_1_2 = {
-		value = "好像很开心呢！",
-		key = "ins_op_37_1_2"
-	},
-	op_reply_37_1_1 = {
-		value = "指挥官…看不见吗？",
-		key = "op_reply_37_1_1"
-	},
-	op_reply_37_1_2 = {
-		value = "指挥官也一起的话，会更开心……",
-		key = "op_reply_37_1_2"
-	},
-	ins_reply_36_2_1 = {
-		value = "还、还有这种部！？",
-		key = "ins_reply_36_2_1"
 	},
 	ins_38 = {
 		value = "#VacationLeagues# Home Run!!",

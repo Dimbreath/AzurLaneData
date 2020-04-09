@@ -361,7 +361,7 @@ function slot0.register(slot0)
 	slot0:bind(slot0.ON_OPEN_SHAM_SHOP, function ()
 		if getProxy(ShopsProxy).getShamShop(slot0):isOpen() then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, {
-				warp = ShopsScene.TYPE_SHAM_SHOP
+				warp = NewShopsScene.TYPE_SHAM_SHOP
 			})
 		end
 	end)
@@ -384,13 +384,14 @@ function slot0.register(slot0)
 	slot0:bind(slot0.GO_ACT_SHOP, function ()
 		slot0, slot1 = nil
 		slot2 = {}
+		slot3 = pg.gameset.activity_res_id.key_value
 
-		if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOTTERY) and not slot3:isEnd() then
+		if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOTTERY) and slot4:getConfig("config_client").resId == slot3 and not slot4:isEnd() then
 			slot0:addSubLayers(Context.New({
 				mediator = LotteryMediator,
 				viewComponent = LotteryLayer,
 				data = {
-					activityId = slot3.id
+					activityId = slot4.id
 				},
 				onRemoved = function ()
 					slot0.viewComponent:onSubLayerClose()
@@ -400,9 +401,9 @@ function slot0.register(slot0)
 			end)
 		else
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, {
-				warp = ShopsScene.TYPE_ACTIVITY,
+				warp = NewShopsScene.TYPE_ACTIVITY,
 				actId = _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
-					return slot0:getConfig("config_client").pt_id == pg.gameset.activity_res_id.key_value
+					return slot0:getConfig("config_client").pt_id == slot0
 				end).id
 			})
 		end
