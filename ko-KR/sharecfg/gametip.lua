@@ -8882,15 +8882,15 @@ B평가:<color=#92fc63>70</color>점
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
-		tip = "키리시마 건조 추가!",
+		tip = "듀크 오브 요크 건조 추가! ",
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "아브로라 건조 추가!",
+		tip = "시리우스, 셰필드, 체이서, 매치리스, 퀴라소, 컬루, 자메이카 건조 추가! ",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "류조 한정 건조! ",
+		tip = "빅토리어스, 체이서 건조 추가! ",
 		key = "buildship_special_tip"
 	},
 	open_skill_pos = {

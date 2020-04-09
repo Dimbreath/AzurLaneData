@@ -5815,6 +5815,170 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2100020] = {
+		map = 2100020,
+		name = "싸늘한 겨울의 왕관 - 전편|| ||EXTRA CHAPTER||EX.",
+		bgm = "Story-6",
+		type = 4,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "LINGDONG01",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "icestorm",
+		cloud_suffix = "",
+		bg = "Map_1090000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100030,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100021] = {
+		map = 2100021,
+		name = "싸늘한 겨울의 왕관 - 후편|| ||EXTRA CHAPTER||EX.",
+		bgm = "level03",
+		type = 4,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "LINGDONG11",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "icestorm_hard",
+		cloud_suffix = "",
+		bg = "Map_1090001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100031,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100030] = {
+		map = 2100030,
+		name = "싸늘한 겨울의 왕관 - 전편|| ||EXTRA CHAPTER||EX.",
+		bgm = "Story-6",
+		type = 5,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "LINGDONG01",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "icestorm",
+		cloud_suffix = "",
+		bg = "Map_1090000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100020,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100031] = {
+		map = 2100031,
+		name = "싸늘한 겨울의 왕관 - 후편|| ||EXTRA CHAPTER||EX.",
+		bgm = "level03",
+		type = 5,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "LINGDONG11",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "icestorm_hard",
+		cloud_suffix = "",
+		bg = "Map_1090001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100021,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2200000] = {
 		map = 2200000,
 		name = "노력, 희망과 계획 || ||SP. CHAPTER||SP.",
@@ -6180,6 +6344,10 @@ pg.expedition_data_by_map = {
 		2100001,
 		2100010,
 		2100011,
+		2100020,
+		2100021,
+		2100030,
+		2100031,
 		2200000,
 		2200010,
 		9920001,
