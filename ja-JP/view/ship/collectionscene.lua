@@ -124,12 +124,12 @@ function slot0.init(slot0)
 		slot0:onReturnMemory(slot0, slot1)
 	end
 
+	slot0.memoryViewport = slot0:findTF("main/list_memory/viewport")
+	slot0.memoriesGrid = slot0:findTF("main/list_memory/viewport/memories"):GetComponent(typeof(GridLayoutGroup))
 	slot0.memoryItems = {}
-	slot0.memoryContent = slot0:findTF("viewport/memories", slot0.memoryList)
-	slot0.memoryItem = slot0:findTF("memory", slot0.memoryList)
 	slot0.memoryMask = slot0:findTF("blur_panel/adapt/story_mask")
 
-	setActive(slot0.memoryItem, false)
+	setActive(slot2, false)
 	setActive(slot0.memoryMask, false)
 
 	slot0.memoryTogGroup = slot0:findTF("memory", slot0.top)
@@ -699,11 +699,30 @@ function slot0.showSubMemories(slot0, slot1)
 	setActive(slot0:findTF("memory", slot0.top), false)
 end
 
+slot1 = 3
+
 function slot0.return2MemoryGroup(slot0)
 	slot0.contextData.memoryGroup = nil
 	slot0.memories = nil
+	slot2 = 0
 
-	slot0.memoryList:SetTotalCount(#slot0.memoryGroups, 0)
+	if slot0.contextData.memoryGroup then
+		slot3 = 0
+
+		for slot7, slot8 in ipairs(slot0.memoryGroups) do
+			if slot8.id == slot1 then
+				slot3 = slot7
+
+				break
+			end
+		end
+
+		if slot3 >= 0 then
+			slot2 = Mathf.Clamp01(((slot0.memoriesGrid.cellSize.y + slot0.memoriesGrid.spacing.y) * math.floor((slot3 - 1) / slot0) + slot0.memoryList.paddingFront) / ((slot0.memoriesGrid.cellSize.y + slot0.memoriesGrid.spacing.y) * math.floor((#slot0.memoryGroups - 1) / slot0 + 1) - slot0.memoryViewport.rect.height))
+		end
+	end
+
+	slot0.memoryList:SetTotalCount(#slot0.memoryGroups, slot2)
 	setActive(slot0:findTF("memory", slot0.top), true)
 end
 

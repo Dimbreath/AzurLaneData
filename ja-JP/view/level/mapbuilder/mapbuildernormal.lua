@@ -73,12 +73,13 @@ end
 function slot1.UpdateMapItems(slot0)
 	slot0.super.UpdateMapItems(slot0)
 
-	slot1 = slot0.data
+	slot1 = getProxy(ChapterProxy)
+	slot2 = slot0.data
 
 	table.clear(slot0.chapterTFsById)
 	_.each(Chapter.bindConfigTable().all, function (slot0)
-		if slot0:getChapter(slot0) and slot1:getConfig("map") == slot0.id and (slot1:isUnlock() or slot1:activeAlways()) and slot1:isValid() and not slot1:ifNeedHide() then
-			table.insert(slot1, slot1)
+		if slot0:getChapter(slot0) and slot1:getConfig("map") == slot0.id and (slot1:isUnlock() or slot1:activeAlways()) and slot1:isValid() and (not slot1:ifNeedHide() or slot1:GetJustClearChapters(slot1.id)) then
+			table.insert(table.insert, slot1)
 		end
 	end)
 	slot0:StopMapItemTimers()
@@ -91,18 +92,16 @@ function slot1.UpdateMapItems(slot0)
 		end
 	end)
 
-	slot4 = {}
-
-	for slot8, slot9 in pairs(slot3) do
-		slot4[slot9:getConfigTable().pos_x] = slot4[slot9.getConfigTable().pos_x] or {}
-		slot9.getConfigTable().pos_x[slot10.pos_y] = slot4[slot10.pos_x][slot10.pos_y] or {}
-
-		table.insert(slot9.getConfigTable().pos_x[slot10.pos_y], slot9)
-	end
-
-	slot5 = getProxy(ChapterProxy)
+	slot5 = {}
 
 	for slot9, slot10 in pairs(slot4) do
+		slot5[slot10:getConfigTable().pos_x] = slot5[slot10.getConfigTable().pos_x] or {}
+		slot10.getConfigTable().pos_x[slot11.pos_y] = slot5[slot11.pos_x][slot11.pos_y] or {}
+
+		table.insert(slot10.getConfigTable().pos_x[slot11.pos_y], slot10)
+	end
+
+	for slot9, slot10 in pairs(slot5) do
 		for slot14, slot15 in pairs(slot10) do
 			slot16 = {}
 
@@ -111,7 +110,7 @@ function slot1.UpdateMapItems(slot0)
 					slot1 = 0
 
 					for slot5, slot6 in pairs(slot0) do
-						if slot1:GetJustClearChapters(slot6.id) and slot6:ifNeedHide() then
+						if slot6:ifNeedHide() and slot1:GetJustClearChapters(slot6.id) then
 							setActive(slot2.chapterTFsById[slot6.id], true)
 							slot2:PlayChapterItemAnimationBackward(slot2.chapterTFsById[slot6.id], slot6, function ()
 								slot0 = slot0 - 1
@@ -273,7 +272,9 @@ function slot1.UpdateMapItem(slot0, slot1, slot2)
 		setActive(slot24, not slot0.data.isRemaster() and slot22 > 0 and math.max(slot22 - slot2.todayDefeatCount, 0) > 0)
 
 		if slot26 then
-			slot28 = slot24.anchoredPosition.y
+			slot0.sceneParent.loader:GetSprite("ui/levelmainscene_atlas", (slot0.sceneParent.contextData.map:getConfig("type") == Map.ACTIVITY_HARD and "bonus_us_hard") or "bonus_us", slot24:Find("bonus"))
+
+			slot30 = slot24.anchoredPosition.y
 			slot24:GetComponent(typeof(CanvasGroup)).alpha = 0
 
 			LeanTween.cancel(go(slot24))

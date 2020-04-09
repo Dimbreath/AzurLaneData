@@ -6365,6 +6365,170 @@ pg.expedition_data_by_map = {
 		bind_map = 2100041,
 		clouds_pos = {}
 	},
+	[2100060] = {
+		map = 2100060,
+		name = "闇に堕ちた青き翼-前編|| ||CHAPTER EX||E.X.",
+		bgm = "Story-6",
+		type = 4,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "DONGHUO01",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "feixu",
+		cloud_suffix = "",
+		bg = "Map_1060000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100070,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100061] = {
+		map = 2100061,
+		name = "闇に堕ちた青き翼-後編|| ||CHAPTER EX||E.X.",
+		bgm = "Story-6",
+		type = 4,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "DONGHUO08",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "feixu",
+		cloud_suffix = "",
+		bg = "Map_1060000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100071,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100070] = {
+		map = 2100070,
+		name = "闇に堕ちた青き翼-前編|| ||CHAPTER EX||E.X.",
+		bgm = "Story-6",
+		type = 5,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "DONGHUO01",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "feixu_hard",
+		cloud_suffix = "",
+		bg = "Map_1060001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100060,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100071] = {
+		map = 2100071,
+		name = "闇に堕ちた青き翼-後編|| ||CHAPTER EX||E.X.",
+		bgm = "Story-6",
+		type = 5,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "DONGHUO08",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "feixu_hard",
+		cloud_suffix = "",
+		bg = "Map_1060001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100061,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2200000] = {
 		map = 2200000,
 		name = "努力、希望と計画|| ||CHAPTER SP||S.P.",
@@ -6605,6 +6769,10 @@ pg.expedition_data_by_map = {
 		2100041,
 		2100050,
 		2100051,
+		2100060,
+		2100061,
+		2100070,
+		2100071,
 		2200000,
 		2200010
 	}

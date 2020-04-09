@@ -187,13 +187,12 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 		slot8 = getProxy(ShopsProxy)
 		slot9 = slot8:getActivityShopById(slot3.id)
 
-		slot9:getGoodsById(slot1.arg1).addBuyCount(slot10, slot1.arg2)
-		slot8:updateActivityShop(slot3.id, slot9)
+		slot8:UpdateActivityGoods(slot3.id, slot1.arg1, slot1.arg2)
 
 		if table.contains(slot3.data1_list, slot1.arg1) then
-			for slot14, slot15 in ipairs(slot3.data1_list) do
-				if slot15 == slot1.arg1 then
-					slot3.data2_list[slot14] = slot3.data2_list[slot14] + slot1.arg2
+			for slot13, slot14 in ipairs(slot3.data1_list) do
+				if slot14 == slot1.arg1 then
+					slot3.data2_list[slot13] = slot3.data2_list[slot13] + slot1.arg2
 
 					break
 				end
@@ -203,12 +202,12 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 			table.insert(slot3.data2_list, slot1.arg2)
 		end
 
-		slot13 = slot6:getData()
+		slot12 = slot6:getData()
 
-		slot13:consume({
+		slot12:consume({
 			[id2res(slot9:bindConfigTable()[slot1.arg1].resource_type)] = slot9.bindConfigTable()[slot1.arg1].resource_num * slot1.arg2
 		})
-		slot6:updatePlayer(slot13)
+		slot6:updatePlayer(slot12)
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_ZPROJECT then
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_TASK_LIST then
 		if slot1.cmd == 1 then

@@ -13032,11 +13032,11 @@ GET!
 		key = "undermist_tip"
 	},
 	retire_1 = {
-		tip = "保護済みの艦船の同名キャラのみを対象",
+		tip = "<color=#ff5c5c>3回限界突破</color>を行った艦船を<color=#ff5c5c>所持している</color>場合、その艦船と同名の艦船は",
 		key = "retire_1"
 	},
 	retire_2 = {
-		tip = "最大値まで限界突破した艦船の同名キャラのみを対象",
+		tip = "<color=#ff5c5c>3回限界突破</color>を行った艦船を<color=#ff5c5c>所持していない</color>場合、その艦船と同名の艦船は",
 		key = "retire_2"
 	},
 	retire_3 = {
@@ -13050,6 +13050,49 @@ GET!
 	retire_title = {
 		tip = "一括退役設定",
 		key = "retire_title"
+	},
+	retire_setting_help = {
+		key = "retire_setting_help",
+		tip = {
+			{
+				info = [[
+ ·退役画面右下の「一括退役」をタップすると、下記の
+条件をすべて満たす艦船（ブリを除く）を自動で選択
+できます。
+ 1.艦船レベルが1
+ 2.ロック（保護）状態ではない
+ 3.ロック状態の艦船一隻を所持
+ 4.レアリティはN・R・SR（自動選択の優先順位は
+ 「一括退役設定」で設定できます）
+ 5.出撃中・編成中・委託中・演習中の状態ではない
+ 6.秘書艦・大講堂・戦術教室・寮舎に設定されていない
+ ※「一括設定」にて下記の条件を満たさない艦船を選択
+対象から除外することが出来ます
+・限界突破を3回行った同名艦が存在しない艦船
+・限界突破を3回行った同名艦が存在し、同名艦の所持
+数が4隻以下の艦船]]
+			}
+		}
+	},
+	activity_shop_exchange_count = {
+		tip = "交換可能",
+		key = "activity_shop_exchange_count"
+	},
+	shops_msgbox_exchange_count = {
+		tip = "交換数量:",
+		key = "shops_msgbox_exchange_count"
+	},
+	shops_msgbox_output = {
+		tip = "入手：",
+		key = "shops_msgbox_output"
+	},
+	shop_word_exchange = {
+		tip = "交 換",
+		key = "shop_word_exchange"
+	},
+	shop_word_cancel = {
+		tip = "戻 る",
+		key = "shop_word_cancel"
 	}
 }
 

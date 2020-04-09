@@ -27,6 +27,14 @@ class("TakeAttachmentCommand", pm.SimpleCommand).execute = function (slot0, slot
 		return
 	end
 
+	slot14, slot15 = slot4:IsFudaiAndFullCapcity()
+
+	if not slot14 then
+		pg.TipsMgr.GetInstance():ShowTips(slot15)
+
+		return
+	end
+
 	pg.ConnectionMgr.GetInstance():Send(30004, {
 		id = {
 			slot4.id
