@@ -23,7 +23,7 @@ return {
 			bgm = "story-1",
 			actor = 301150,
 			nameColor = "#a9f548",
-			say = "本大人在后宅捡到傢俱币了！还不跪谢！",
+			say = "本大人在後宅撿到傢俱幣了！還不跪謝！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			bgm = "story-1",
 			actor = 301160,
 			nameColor = "#a9f548",
-			say = "我在后宅捡到傢俱币了呦，笨蛋指挥官♪",
+			say = "我在後宅撿到傢俱幣了呦，笨蛋指揮官♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			actor = 301150,
 			nameColor = "#a9f548",
-			say = "什么啊！为什么{namecode:22}也在这里啊！",
+			say = "什麼啊！為什麼{namecode:22}也在這裡啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			}
 		},
 		{
-			say = "怎么回事！为什么这家伙会比作为秘书舰的{namecode:22}大人先报告！",
+			say = "怎麼回事！為什麼這傢伙會比作為秘書艦的{namecode:22}大人先報告！",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			actor = 301150,
 			nameColor = "#a9f548",
-			say = "可恶，没想到{namecode:22}这个笨蛋在……",
+			say = "可惡，沒想到{namecode:22}這個笨蛋在……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			}
 		},
 		{
-			say = "呃呃呃…居然{namecode:17}这家伙会出现……",
+			say = "呃呃呃…居然{namecode:17}這傢伙會出現……",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			hideOther = true,
 			actorName = "{namecode:17}",
-			say = "忍不下去了！{namecode:22}！一决胜负吧！",
+			say = "忍不下去了！{namecode:22}！一決勝負吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			say = "啊哈哈哈！连一次都没有赢过本大人的家伙居然说要一决胜负！哼！尽管放马过来吧！",
+			say = "啊哈哈哈！連一次都沒有贏過本大人的傢伙居然說要一決勝負！哼！儘管放馬過來吧！",
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			actor = 301130,
 			actorName = "{namecode:15}",
-			say = "时、{namecode:17}酱，不要吵架啦……",
+			say = "時、{namecode:17}醬，不要吵架啦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			}
 		},
 		{
-			say = "这不是挺好的嘛！我家的年轻人也很精神呢！",
+			say = "這不是挺好的嘛！我家的年輕人也很精神呢！",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			actor = 301130,
 			actorName = "{namecode:15}",
-			say = "{namecode:19}、{namecode:19}和{namecode:24}你们也来劝劝啊……",
+			say = "{namecode:19}、{namecode:19}和{namecode:24}你們也來勸勸啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			dir = 1,
 			actor = 301170,
 			actorName = "{namecode:19}",
-			say = "哈哈哈！你看指挥官不也在看戏嘛！",
+			say = "哈哈哈！你看指揮官不也在看戲嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			actorName = "{namecode:17}",
 			actor = 301150,
 			nameColor = "#a9f548",
-			say = "哈…哈…没想到这家伙这么厉害……说你光运气好是错怪你了呢……",
+			say = "哈…哈…沒想到這傢伙這麼厲害……說你光運氣好是錯怪你了呢……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -467,7 +467,7 @@ return {
 			}
 		},
 		{
-			say = "还、还没完呢！{namecode:24}！快拿秘制冷却水过来！",
+			say = "還、還沒完呢！{namecode:24}！快拿秘製冷卻水過來！",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -505,7 +505,7 @@ return {
 			}
 		},
 		{
-			say = "原来如此！这就是所谓的「不共戴天」吧！",
+			say = "原來如此！這就是所謂的「不共戴天」吧！",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
@@ -533,7 +533,7 @@ return {
 			blackBg = true,
 			actor = 301120,
 			actorName = "{namecode:14}",
-			say = "但是为什么抽个签就能弄到这么累呢？{namecode:14}酱不明白……",
+			say = "但是為什麼抽個簽就能弄到這麼累呢？{namecode:14}醬不明白……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

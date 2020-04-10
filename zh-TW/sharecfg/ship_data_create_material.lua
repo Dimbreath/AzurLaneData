@@ -70,11 +70,13 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>精銳艦船</color>：12%",
 			"<color=#3dc6ff>稀有艦船</color>：51%",
 			"普通艦船：30%",
-			"<color=#ffde38>勝利</color>：2.25%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>天狼星</color>：2%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>謝菲爾德</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#d797ff>格倫維爾</color>：2.5%(<color=#92fc63>up!</color>)",
-			"<color=#3dc6ff>牙買加</color>：5%(<color=#92fc63>up!</color>)"
+			"<color=#ffde38>翔鶴</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>瑞鶴</color>：0.7%",
+			"<color=#ffde38>雪風</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>野分</color>：4%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>最上</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#3dc6ff>伊勢</color>：6.75%(<color=#92fc63>up!</color>)",
+			"<color=#3dc6ff>日向</color>：6.75%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

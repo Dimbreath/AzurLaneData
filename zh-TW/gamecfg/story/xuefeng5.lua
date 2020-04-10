@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"叫我{namecode:22}大人！\n\n<size=45>五　{namecode:22}和游乐园·上</size>",
+					"叫我{namecode:22}大人！\n\n<size=45>五　{namecode:22}和遊樂園·上</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "想去游乐园了？哼，那种地方我{namecode:22}大人怎么会喜……呃呃呃……",
+			say = "想去遊樂園了？哼，那種地方我{namecode:22}大人怎麼會喜……呃呃呃……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "……哼，这可是指挥官实在想去{namecode:22}大人迫不得已才跟着你去的哦！",
+			say = "……哼，這可是指揮官實在想去{namecode:22}大人迫不得已才跟著你去的哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "哼！好好感谢本大人吧！",
+			say = "哼！好好感謝本大人吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "于是休息日去了游乐园——",
+			say = "於是休息日去了遊樂園——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actorName = "{namecode:22}",
 			actor = 301160,
 			nameColor = "#a9f548",
-			say = "旋转木马？那种幼稚的玩意儿{namecode:22}大人是肯定不会去玩的！",
+			say = "旋轉木馬？那種幼稚的玩意兒{namecode:22}大人是肯定不會去玩的！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -119,7 +119,7 @@ return {
 			actorName = "{namecode:22}",
 			actor = 301160,
 			nameColor = "#a9f548",
-			say = "过山车？和海上的大浪比起来只不过算是鸡毛蒜皮罢了！",
+			say = "雲霄飛車？和海上的大浪比起來只不過算是雞毛蒜皮罷了！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -153,7 +153,7 @@ return {
 			actorName = "{namecode:22}",
 			actor = 301160,
 			nameColor = "#a9f548",
-			say = "摩天轮！？那、那个不是约会的时候坐的东西吗！？雪、{namecode:22}大人倒是不——",
+			say = "摩天輪！？那、那個不是約會的時候坐的東西嗎！？雪、{namecode:22}大人倒是不——",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "嗯？要去那个鬼屋挑战一下吗？",
+			say = "嗯？要去那個鬼屋挑戰一下嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "啊～哈哈哈！这种骗小孩的玩意，{namecode:22}大人是不会害怕的啦！！",
+			say = "啊～哈哈哈！這種騙小孩的玩意，{namecode:22}大人是不會害怕的啦！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "5分钟后",
+			say = "5分鐘後",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -248,7 +248,7 @@ return {
 			blackBg = true,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "呜哇啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！！！！",
+			say = "嗚哇啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			blackBg = true,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "（颤抖）……好、好可怕……！不不不不要松开手啊啊啊啊啊啊 ――！",
+			say = "（顫抖）……好、好可怕……！不不不不要鬆開手啊啊啊啊啊啊 ――！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			blackBg = true,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "指挥官！救救我啊啊啊啊啊啊！",
+			say = "指揮官！救救我啊啊啊啊啊啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "指、指挥官……呜呜呜呜……",
+			say = "指、指揮官……嗚嗚嗚嗚……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "不经意间发现{namecode:22}紧紧抱住了自己。",
+			say = "不經意間發現{namecode:22}緊緊抱住了自己。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

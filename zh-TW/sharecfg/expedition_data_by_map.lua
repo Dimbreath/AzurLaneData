@@ -3404,6 +3404,211 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[5100000] = {
+		map = 5100000,
+		name = "『紅染的參訪者』-前篇|| ||CHAPTER EX||E.X.",
+		bgm = "level02",
+		type = 4,
+		on_activity = 40101,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "GUOQING1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "fengshan_1",
+		cloud_suffix = "white",
+		bg = "Map_1040000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 5100010,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[5100001] = {
+		map = 5100001,
+		name = "『紅染的參訪者』-後篇|| ||CHAPTER EX||E.X.",
+		bgm = "level02",
+		type = 4,
+		on_activity = 40102,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "GUOQING11",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "fengshan",
+		cloud_suffix = "white",
+		bg = "Map_1040001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 5100011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[5100010] = {
+		map = 5100010,
+		name = "『紅染的參訪者』-前篇|| ||CHAPTER EX||E.X.",
+		bgm = "level02",
+		type = 5,
+		on_activity = 40101,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "GUOQING1",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "fengshan_1",
+		cloud_suffix = "white",
+		bg = "Map_1040000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 5100000,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[5100011] = {
+		map = 5100011,
+		name = "『紅染的參訪者』-後篇|| ||CHAPTER EX||E.X.",
+		bgm = "level02",
+		type = 5,
+		on_activity = 40102,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "GUOQING11",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "fengshan",
+		cloud_suffix = "white",
+		bg = "Map_1040001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 5100001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[5100013] = {
+		map = 5100013,
+		name = "『紅染的參訪者』·EX|| ||CHAPTER EX||E.X.",
+		bgm = "level02",
+		type = 8,
+		on_activity = 40102,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "fengshan_1",
+		cloud_suffix = "white",
+		bg = "Map_1040001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 5100011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3486,7 +3691,12 @@ pg.expedition_data_by_map = {
 		2100000,
 		2100001,
 		2100010,
-		2100011
+		2100011,
+		5100000,
+		5100001,
+		5100010,
+		5100011,
+		5100013
 	}
 }
 

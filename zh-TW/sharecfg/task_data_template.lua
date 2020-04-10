@@ -20920,6 +20920,552 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[10401] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8123,
+		type = 6,
+		name = "復刻『紅染的參訪者』-前篇",
+		count_inherit = 0,
+		desc = "通關A1或C1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "10402",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10401,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			5100001,
+			5100011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[10402] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8124,
+		type = 6,
+		name = "復刻『紅染的參訪者』-前篇",
+		count_inherit = 0,
+		desc = "通關A2或C2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "10403",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10402,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			5100002,
+			5100012
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[10403] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8125,
+		type = 6,
+		name = "復刻『紅染的參訪者』-前篇",
+		count_inherit = 0,
+		desc = "通關A3或C3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "10404",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10403,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			5100003,
+			5100013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
+	[10404] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8126,
+		type = 6,
+		name = "復刻『紅染的參訪者』-後篇",
+		count_inherit = 0,
+		desc = "通關B1或D1",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "10405",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10404,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			5100004,
+			5100014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[10405] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8127,
+		type = 6,
+		name = "復刻『紅染的參訪者』-後篇",
+		count_inherit = 0,
+		desc = "通關B2或D2",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "[10406,10407]",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10405,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			5100005,
+			5100015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[10406] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8128,
+		type = 6,
+		name = "復刻『紅染的參訪者』-後篇",
+		count_inherit = 0,
+		desc = "通關B3或D3",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10406,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			5100006,
+			5100016
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
+	[10407] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8129,
+		type = 6,
+		name = "復刻『紅染的參訪者』-勳章",
+		count_inherit = 0,
+		desc = "通關D3<color=#A9F548>（勳章無法重複獲得）</color>",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1040016,
+		id = 10407,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "5100016",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				112,
+				1
+			}
+		}
+	},
+	[10408] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8130,
+		type = 6,
+		name = "復刻『紅染的參訪者』-前篇",
+		count_inherit = 0,
+		desc = "完成A1或C1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "10409",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10408,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			5100001,
+			5100011
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		}
+	},
+	[10409] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8131,
+		type = 6,
+		name = "復刻『紅染的參訪者』-前篇",
+		count_inherit = 0,
+		desc = "完成A2或C2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "10410",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10409,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			5100002,
+			5100012
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		}
+	},
+	[10410] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8132,
+		type = 6,
+		name = "復刻『紅染的參訪者』-前篇",
+		count_inherit = 0,
+		desc = "完成A3或C3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "10411",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10410,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			5100003,
+			5100013
+		},
+		open_need = {},
+		award_display = {
+			{
+				3,
+				39240,
+				1
+			}
+		}
+	},
+	[10411] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8133,
+		type = 6,
+		name = "復刻『紅染的參訪者』-後篇",
+		count_inherit = 0,
+		desc = "完成B1或D1的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "10412",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10411,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			5100004,
+			5100014
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		}
+	},
+	[10412] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8134,
+		type = 6,
+		name = "復刻『紅染的參訪者』-後篇",
+		count_inherit = 0,
+		desc = "完成B2或D2的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "10413",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10412,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			5100005,
+			5100015
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		}
+	},
+	[10413] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 8135,
+		type = 6,
+		name = "復刻『紅染的參訪者』-後篇",
+		count_inherit = 0,
+		desc = "完成B3或D3的3星收集",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10413,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			5100006,
+			5100016
+		},
+		open_need = {},
+		award_display = {
+			{
+				3,
+				38240,
+				1
+			}
+		}
+	},
+	[10414] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8136,
+		type = 36,
+		name = "復刻『紅染的參訪者』-日常建造",
+		count_inherit = 0,
+		desc = "建造艦船3次。",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10414,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59107,
+				200
+			}
+		}
+	},
+	[10415] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 8137,
+		type = 36,
+		name = "復刻『紅染的參訪者』-日常出擊",
+		count_inherit = 0,
+		desc = "艦隊出征，獲得15次勝利。",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 10415,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59107,
+				200
+			}
+		}
+	},
 	[10441] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -38617,6 +39163,21 @@ pg.task_data_template = {
 		10278,
 		10279,
 		10280,
+		10401,
+		10402,
+		10403,
+		10404,
+		10405,
+		10406,
+		10407,
+		10408,
+		10409,
+		10410,
+		10411,
+		10412,
+		10413,
+		10414,
+		10415,
 		10441,
 		10442,
 		10443,

@@ -153,12 +153,12 @@ function slot0.register(slot0)
 		end
 
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, slot1 or {
-			warp = ShopsScene.TYPE_ACTIVITY
+			warp = NewShopsScene.TYPE_ACTIVITY
 		})
 	end)
 	slot0:bind(slot0.GO_SHOPS_LAYER_STEEET, function (slot0, slot1)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, slot1 or {
-			warp = ShopsScene.TYPE_SHOP_STREET
+			warp = NewShopsScene.TYPE_SHOP_STREET
 		})
 	end)
 	slot0:bind(slot0.BATTLE_OPERA, function ()

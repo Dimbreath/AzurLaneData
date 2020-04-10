@@ -478,6 +478,21 @@ pg.memory_group = {
 			252
 		}
 	},
+	[504] = {
+		title = "叫我{namecode:22}大人！",
+		type = 3,
+		id = 504,
+		icon = "title_chara_xuefeng",
+		memories = {
+			260,
+			261,
+			262,
+			263,
+			264,
+			265,
+			266
+		}
+	},
 	[509] = {
 		title = "雨過天晴",
 		type = 3,
@@ -674,6 +689,7 @@ pg.memory_group = {
 		501,
 		502,
 		503,
+		504,
 		509,
 		510,
 		512,

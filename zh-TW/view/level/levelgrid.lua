@@ -548,8 +548,9 @@ function slot5(slot0)
 end
 
 slot0.clearAll = slot5
+slot5 = 640
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = pg
 	slot1 = slot1.UIMgr
 	slot1 = slot1.GetInstance
@@ -569,16 +570,14 @@ function slot5(slot0)
 	slot8 = math
 	slot8 = slot8.tan
 	slot9 = math
-	slot9 = slot9.pi
-	slot9 = slot9 / 180
+	slot9 = slot9.deg2Rad
 	slot10 = slot6.fov
 	slot9 = slot9 * slot10
 	slot9 = slot9 * 0.5
 	slot8 = slot8(slot9)
 	slot7 = slot7 / slot8
 	slot8 = math
-	slot8 = slot8.pi
-	slot8 = slot8 / 180
+	slot8 = slot8.deg2Rad
 	slot9 = slot6.angle
 	slot8 = slot8 * slot9
 	slot9 = Vector3
@@ -595,18 +594,13 @@ function slot5(slot0)
 	slot12 = -slot12
 	slot9 = slot9(slot10, slot11, slot12)
 	slot10 = Vector3
-	slot11 = 0
+	slot11 = slot6.offsetx
 	slot12 = slot6.offsety
-	slot13 = slot0
-	slot13 = slot13.MapDefaultPos
-	slot13 = slot13.y
-	slot12 = slot12 + slot13
 	slot13 = slot6.offsetz
-	slot14 = slot0
-	slot14 = slot14.MapDefaultPos
-	slot14 = slot14.z
-	slot13 = slot13 + slot14
 	slot10 = slot10(slot11, slot12, slot13)
+	slot11 = slot0
+	slot11 = slot11.MapDefaultPos
+	slot10 = slot10 + slot11
 	slot11 = Vector3
 	slot11 = slot11.Dot
 	slot12 = slot9
@@ -620,35 +614,62 @@ function slot5(slot0)
 	slot15 = 1
 	slot12 = slot12(slot13, slot14, slot15)
 	slot4 = slot4 * slot12
-	slot13 = slot5
-	slot12 = slot5.getDragExtend
-	slot12, slot13, slot14, slot15 = slot12(slot13)
-	slot0.bottomExtend = slot15
-	slot0.topExtend = slot14
-	slot0.rightExtend = slot13
-	slot0.leftExtend = slot12
-	slot12 = slot0._tf
-	slot13 = Vector2
-	slot14 = slot2 * 2
-	slot15 = slot3 * 2
-	slot13 = slot13(slot14, slot15)
-	slot12.sizeDelta = slot13
-	slot12 = GetOrAddComponent
-	slot13 = slot0._tf
-	slot14 = "EventTriggerListener"
-	slot12 = slot12(slot13, slot14)
-	slot0.dragTrigger = slot12
-	slot12 = slot0.dragTrigger
-	slot13 = true
-	slot12.enabled = slot13
-	slot12 = slot0.dragTrigger
+	slot12 = slot0.plane
 	slot13 = slot12
-	slot12 = slot12.AddDragFunc
+	slot12 = slot12.Find
+	slot14 = "display"
+	slot12 = slot12(slot13, slot14)
+	slot13 = slot12.anchoredPosition
+	slot14 = slot1
+	slot15 = slot10.x
+	slot14 = slot14 - slot15
+	slot15 = slot13.x
+	slot14 = slot14 - slot15
+	slot15 = slot0
+	slot15 = slot15.MapDefaultPos
+	slot15 = slot15.y
+	slot16 = slot10.y
+	slot15 = slot15 - slot16
+	slot16 = slot13.y
+	slot15 = slot15 - slot16
+	slot17 = slot5
+	slot16 = slot5.getDragExtend
+	slot16, slot17, slot18, slot19 = slot16(slot17)
+	slot20 = slot14 - slot17
+	slot0.leftBound = slot20
+	slot20 = slot14 + slot16
+	slot0.rightBound = slot20
+	slot20 = slot15 + slot19
+	slot0.topBound = slot20
+	slot20 = slot15 - slot18
+	slot0.bottomBound = slot20
+	slot20 = Vector3
+	slot21 = slot14
+	slot22 = slot15
+	slot23 = 0
+	slot20 = slot20(slot21, slot22, slot23)
+	slot21 = slot0._tf
+	slot22 = Vector2
+	slot23 = slot2 * 2
+	slot24 = slot3 * 2
+	slot22 = slot22(slot23, slot24)
+	slot21.sizeDelta = slot22
+	slot21 = GetOrAddComponent
+	slot22 = slot0._tf
+	slot23 = "EventTriggerListener"
+	slot21 = slot21(slot22, slot23)
+	slot0.dragTrigger = slot21
+	slot21 = slot0.dragTrigger
+	slot22 = true
+	slot21.enabled = slot22
+	slot21 = slot0.dragTrigger
+	slot22 = slot21
+	slot21 = slot21.AddDragFunc
 
-	function slot14(slot0, slot1)
+	function slot23(slot0, slot1)
 		slot2 = slot0
 		slot2 = slot2._tf
-		slot2 = slot2.localPosition
+		slot2 = slot2.anchoredPosition
 		slot3 = math
 		slot3 = slot3.clamp
 		slot4 = slot2.x
@@ -659,10 +680,9 @@ function slot5(slot0)
 		slot5 = slot5 * slot6
 		slot4 = slot4 + slot5
 		slot5 = slot0
-		slot5 = slot5.rightExtend
-		slot5 = -slot5
+		slot5 = slot5.leftBound
 		slot6 = slot0
-		slot6 = slot6.leftExtend
+		slot6 = slot6.rightBound
 		slot3 = slot3(slot4, slot5, slot6)
 		slot2.x = slot3
 		slot3 = math
@@ -680,23 +700,22 @@ function slot5(slot0)
 		slot5 = slot5 / slot6
 		slot4 = slot4 + slot5
 		slot5 = slot0
-		slot5 = slot5.topExtend
-		slot5 = -slot5
+		slot5 = slot5.bottomBound
 		slot6 = slot0
-		slot6 = slot6.bottomExtend
+		slot6 = slot6.topBound
 		slot3 = slot3(slot4, slot5, slot6)
 		slot2.y = slot3
 		slot3 = slot0
 		slot3 = slot3._tf
-		slot3.localPosition = slot2
+		slot3.anchoredPosition = slot2
 	end
 
-	slot12(slot13, slot14)
+	slot21(slot22, slot23)
 end
 
-slot0.initDrag = slot5
+slot0.initDrag = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot2 = slot1.theme
@@ -732,19 +751,12 @@ function slot5(slot0)
 	slot4(slot5, slot6, slot7)
 
 	slot4 = Vector3
-	slot5 = 0
+	slot5 = slot2.offsetx
 	slot6 = slot2.offsety
 	slot7 = slot2.offsetz
 	slot4 = slot4(slot5, slot6, slot7)
-	slot5 = Vector3
-	slot6 = 0
-	slot7 = slot0
-	slot7 = slot7.MapDefaultPos
-	slot7 = slot7.y
-	slot8 = slot0
-	slot8 = slot8.MapDefaultPos
-	slot8 = slot8.z
-	slot5 = slot5(slot6, slot7, slot8)
+	slot5 = slot0
+	slot5 = slot5.MapDefaultPos
 	slot4 = slot4 + slot5
 	slot3.anchoredPosition3D = slot4
 	slot5 = slot3
@@ -1367,9 +1379,9 @@ function slot5(slot0)
 	end
 end
 
-slot0.initPlane = slot5
+slot0.initPlane = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.findTF
 	slot3 = "plane/display/mask"
@@ -1390,9 +1402,9 @@ function slot5(slot0)
 	slot2.texture = slot3
 end
 
-slot0.updatePoisonArea = slot5
+slot0.updatePoisonArea = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot3 = slot0
@@ -1508,9 +1520,9 @@ function slot5(slot0)
 	return slot6
 end
 
-slot0.getPoisonTex = slot5
+slot0.getPoisonTex = slot6
 
-function slot5(slot0, slot1, slot2)
+function slot6(slot0, slot1, slot2)
 	slot3 = slot0.contextData
 	slot3 = slot3.chapterVO
 	slot4 = slot3.fleets
@@ -1528,9 +1540,9 @@ function slot5(slot0, slot1, slot2)
 	end
 end
 
-slot0.showFleetPoisonDamage = slot5
+slot0.showFleetPoisonDamage = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 	slot2 = slot0
 	slot1 = slot0.killQuadTws
 
@@ -1614,9 +1626,9 @@ function slot5(slot0)
 	slot3(slot4, slot5, slot6, slot7)
 end
 
-slot0.clearPlane = slot5
+slot0.clearPlane = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.cellFleets
 
 	if slot1 then
@@ -1640,9 +1652,9 @@ function slot5(slot0)
 	end
 end
 
-slot0.initFleets = slot5
+slot0.initFleets = slot6
 
-function slot5(slot0, slot1)
+function slot6(slot0, slot1)
 	slot2 = slot0.contextData
 	slot2 = slot2.chapterVO
 	slot4 = slot2
@@ -1762,9 +1774,9 @@ function slot5(slot0, slot1)
 	slot8(slot9, slot10, slot11)
 end
 
-slot0.InitFleetCell = slot5
+slot0.InitFleetCell = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.cellFleets
 
 	if not slot1 then
@@ -1839,9 +1851,9 @@ function slot5(slot0)
 	end
 end
 
-slot0.RefreshFleetCells = slot5
+slot0.RefreshFleetCells = slot6
 
-function slot5(slot0, slot1, slot2)
+function slot6(slot0, slot1, slot2)
 	slot3 = slot0.contextData
 	slot3 = slot3.chapterVO
 	slot5 = slot3
@@ -1950,9 +1962,9 @@ function slot5(slot0, slot1, slot2)
 	slot9(slot10, slot11)
 end
 
-slot0.RefreshFleetCell = slot5
+slot0.RefreshFleetCell = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.cellFleets
 
 	if slot1 then
@@ -1973,9 +1985,9 @@ function slot5(slot0)
 	end
 end
 
-slot0.clearFleets = slot5
+slot0.clearFleets = slot6
 
-function slot5(slot0, slot1)
+function slot6(slot0, slot1)
 	slot2 = slot0.cellFleets
 	slot2 = slot2[slot1]
 
@@ -2039,9 +2051,9 @@ function slot5(slot0, slot1)
 	slot4[slot1] = slot5
 end
 
-slot0.ClearFleetCell = slot5
+slot0.ClearFleetCell = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot2 = pairs
@@ -2062,9 +2074,9 @@ function slot5(slot0)
 	slot2(slot3)
 end
 
-slot0.updateFleets = slot5
+slot0.updateFleets = slot6
 
-function slot5(slot0, slot1)
+function slot6(slot0, slot1)
 	slot2 = slot0.contextData
 	slot2 = slot2.chapterVO
 	slot4 = slot2
@@ -2722,9 +2734,9 @@ function slot5(slot0, slot1)
 	end
 end
 
-slot0.updateFleet = slot5
+slot0.updateFleet = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot2 = cloneTplTo
@@ -2748,9 +2760,9 @@ function slot5(slot0)
 	slot2(slot3, slot4)
 end
 
-slot0.initTargetArrow = slot5
+slot0.initTargetArrow = slot6
 
-function slot5(slot0, slot1)
+function slot6(slot0, slot1)
 	slot2 = slot0.contextData
 	slot2 = slot2.chapterVO
 	slot3 = ChapterCell
@@ -2823,9 +2835,9 @@ function slot5(slot0, slot1)
 	end
 end
 
-slot0.updateTargetArrow = slot5
+slot0.updateTargetArrow = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = IsNil
 	slot2 = slot0.arrowTarget
 	slot1 = slot1(slot2)
@@ -2841,9 +2853,9 @@ function slot5(slot0)
 	end
 end
 
-slot0.clearTargetArrow = slot5
+slot0.clearTargetArrow = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = cloneTplTo
 	slot2 = slot0.destinationMarkTpl
 	slot3 = slot0._tf
@@ -2873,9 +2885,9 @@ function slot5(slot0)
 	slot0.destinationMark = slot3
 end
 
-slot0.InitDestinationMark = slot5
+slot0.InitDestinationMark = slot6
 
-function slot5(slot0, slot1)
+function slot6(slot0, slot1)
 	if not slot1 then
 		slot2 = slot0.destinationMark
 		slot3 = slot2
@@ -2933,9 +2945,9 @@ function slot5(slot0, slot1)
 	slot5.localPosition = slot6
 end
 
-slot0.UpdateDestinationMark = slot5
+slot0.UpdateDestinationMark = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = IsNil
 	slot2 = slot0.destinationMark
 	slot1 = slot1(slot2)
@@ -2951,9 +2963,9 @@ function slot5(slot0)
 	end
 end
 
-slot0.ClearDestinationMark = slot5
+slot0.ClearDestinationMark = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.cellChampions
 
 	if slot1 then
@@ -3153,9 +3165,9 @@ function slot5(slot0)
 	slot3(slot4)
 end
 
-slot0.initChampions = slot5
+slot0.initChampions = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot2 = ipairs
@@ -3176,9 +3188,9 @@ function slot5(slot0)
 	slot2(slot3)
 end
 
-slot0.updateChampions = slot5
+slot0.updateChampions = slot6
 
-function slot5(slot0, slot1)
+function slot6(slot0, slot1)
 	slot2 = slot0.contextData
 	slot2 = slot2.chapterVO
 	slot3 = slot0.cellChampions
@@ -3485,9 +3497,9 @@ function slot5(slot0, slot1)
 	end
 end
 
-slot0.updateChampion = slot5
+slot0.updateChampion = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot2 = nil
@@ -3516,9 +3528,9 @@ function slot5(slot0)
 	end
 end
 
-slot0.updateOni = slot5
+slot0.updateOni = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.cellChampions
 
 	if slot1 then
@@ -3600,9 +3612,9 @@ function slot5(slot0)
 	end
 end
 
-slot0.clearChampions = slot5
+slot0.clearChampions = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.sortFunc
 
 	if not slot1 then
@@ -3769,9 +3781,9 @@ function slot5(slot0)
 	slot1()
 end
 
-slot0.sortItems = slot5
+slot0.sortItems = slot6
 
-function slot5(slot0, slot1, slot2)
+function slot6(slot0, slot1, slot2)
 	slot3 = slot0.contextData
 	slot3 = slot3.chapterVO
 	slot5 = slot3
@@ -4045,9 +4057,9 @@ function slot5(slot0, slot1, slot2)
 	end
 end
 
-slot0.initCell = slot5
+slot0.initCell = slot6
 
-function slot5(slot0, slot1, slot2)
+function slot6(slot0, slot1, slot2)
 	slot3 = slot0.contextData
 	slot3 = slot3.chapterVO
 	slot5 = slot3
@@ -4385,9 +4397,9 @@ function slot5(slot0, slot1, slot2)
 	end
 end
 
-slot0.clearCell = slot5
+slot0.clearCell = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = 0
 	slot2 = ChapterConst
 	slot2 = slot2.MaxRow
@@ -4429,9 +4441,9 @@ function slot5(slot0)
 	slot1(slot2)
 end
 
-slot0.updateAttachments = slot5
+slot0.updateAttachments = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot2 = slot1.cells
@@ -4622,9 +4634,9 @@ function slot5(slot0)
 	end
 end
 
-slot0.updateCellFlagList = slot5
+slot0.updateCellFlagList = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot2 = slot1.cellAttachments
@@ -4707,9 +4719,9 @@ function slot5(slot0)
 	end
 end
 
-slot0.updateExtraAttachments = slot5
+slot0.updateExtraAttachments = slot6
 
-function slot5(slot0, slot1)
+function slot6(slot0, slot1)
 	slot2 = slot0.contextData
 	slot2 = slot2.chapterVO
 	slot4 = slot2
@@ -4975,9 +4987,9 @@ function slot5(slot0, slot1)
 	end
 end
 
-slot0.updateAreaAttachment = slot5
+slot0.updateAreaAttachment = slot6
 
-function slot5(slot0, slot1, slot2)
+function slot6(slot0, slot1, slot2)
 	slot3 = slot0.contextData
 	slot3 = slot3.chapterVO
 	slot5 = slot3
@@ -6272,9 +6284,9 @@ function slot5(slot0, slot1, slot2)
 	end
 end
 
-slot0.updateAttachment = slot5
+slot0.updateAttachment = slot6
 
-function slot5(slot0, slot1, ...)
+function slot6(slot0, slot1, ...)
 	if not slot1 then
 		slot2 = ChapterConst
 		slot1 = slot2.QuadStateNormal
@@ -6323,9 +6335,9 @@ function slot5(slot0, slot1, ...)
 	end
 end
 
-slot0.updateQuadCells = slot5
+slot0.updateQuadCells = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot2 = slot1.fleet
@@ -6686,9 +6698,9 @@ function slot5(slot0)
 	end
 end
 
-slot0.updateQuadBase = slot5
+slot0.updateQuadBase = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot2 = slot1.fleet
@@ -6874,9 +6886,9 @@ function slot5(slot0)
 	end
 end
 
-slot0.UpdateQuadStateNormal = slot5
+slot0.UpdateQuadStateNormal = slot6
 
-function slot5(slot0, ...)
+function slot6(slot0, ...)
 	slot2 = slot0.contextData.chapterVO.fleet
 	slot0.quadClickProxy = ({
 		...
@@ -7000,9 +7012,9 @@ function slot5(slot0, ...)
 	end
 end
 
-slot0.UpdateQuadStateStrategy = slot5
+slot0.UpdateQuadStateStrategy = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot2 = _
@@ -7151,9 +7163,9 @@ function slot5(slot0)
 	slot5(slot6, slot7)
 end
 
-slot0.UpdateQuadStateTeleportSub = slot5
+slot0.UpdateQuadStateTeleportSub = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = slot0.contextData
 	slot1 = slot1.chapterVO
 	slot3 = slot1
@@ -7252,9 +7264,9 @@ function slot5(slot0)
 	slot8(slot9)
 end
 
-slot0.PrepareSubTeleport = slot5
+slot0.PrepareSubTeleport = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 	slot0.subTeleportTargetLine = nil
 
 	slot0:hideQuadMark(ChapterConst.MarkMovePathArrow)
@@ -7298,9 +7310,9 @@ function slot5(slot0)
 	slot6(slot7)
 end
 
-slot0.TurnOffSubTeleport = slot5
+slot0.TurnOffSubTeleport = slot6
 
-function slot5(slot0, slot1)
+function slot6(slot0, slot1)
 	slot2 = slot0.contextData
 	slot2 = slot2.chapterVO
 	slot4 = slot2
@@ -7396,9 +7408,9 @@ function slot5(slot0, slot1)
 	end
 end
 
-slot0.OnTeleportConfirm = slot5
+slot0.OnTeleportConfirm = slot6
 
-function slot5(slot0, slot1)
+function slot6(slot0, slot1)
 	slot2 = slot0.contextData
 	slot2 = slot2.chapterVO
 	slot3, slot4 = nil
@@ -7489,9 +7501,9 @@ function slot5(slot0, slot1)
 	end
 end
 
-slot0.ShowPathInArrows = slot5
+slot0.ShowPathInArrows = slot6
 
-function slot5(slot0, slot1, slot2, slot3, slot4)
+function slot6(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot0.presentTws
 	slot5 = slot5[slot1]
 
@@ -7545,9 +7557,9 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-slot0.startQuadTween = slot5
+slot0.startQuadTween = slot6
 
-function slot5(slot0, slot1, slot2)
+function slot6(slot0, slot1, slot2)
 	slot3 = slot0.quadTws
 	slot3 = slot3[slot1]
 
@@ -7573,9 +7585,9 @@ function slot5(slot0, slot1, slot2)
 	slot3(slot4, slot5)
 end
 
-slot0.cancelQuadTween = slot5
+slot0.cancelQuadTween = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = pairs
 	slot2 = slot0.quadTws
 	slot1, slot2, slot3 = slot1(slot2)
@@ -7592,9 +7604,9 @@ function slot5(slot0)
 	slot0.quadTws = slot1
 end
 
-slot0.killQuadTws = slot5
+slot0.killQuadTws = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 	slot1 = pairs
 	slot2 = slot0.presentTws
 	slot1, slot2, slot3 = slot1(slot2)
@@ -7611,9 +7623,9 @@ function slot5(slot0)
 	slot0.presentTws = slot1
 end
 
-slot0.killPresentTws = slot5
+slot0.killPresentTws = slot6
 
-function slot5(slot0, slot1, slot2, slot3, slot4)
+function slot6(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot0.markTws
 	slot5 = slot5[slot1]
 
@@ -7627,9 +7639,9 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-slot0.startMarkTween = slot5
+slot0.startMarkTween = slot6
 
-function slot5(slot0, slot1, slot2, slot3)
+function slot6(slot0, slot1, slot2, slot3)
 	slot4 = slot0.markTws
 	slot4 = slot4[slot1]
 
@@ -7658,9 +7670,9 @@ function slot5(slot0, slot1, slot2, slot3)
 	slot4(slot5, slot6)
 end
 
-slot0.cancelMarkTween = slot5
+slot0.cancelMarkTween = slot6
 
-function slot5(slot0, slot1, slot2, slot3, slot4)
+function slot6(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot0.contextData
 	slot5 = slot5.chapterVO
 	slot7 = slot5
@@ -7866,9 +7878,9 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 	slot13(slot14, slot15, slot16, slot17, slot18, slot19, slot20)
 end
 
-slot0.moveFleet = slot5
+slot0.moveFleet = slot6
 
-function slot5(slot0, slot1, slot2, slot3, slot4)
+function slot6(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot0.contextData
 	slot5 = slot5.chapterVO
 	slot6 = slot5.fleets
@@ -7964,9 +7976,9 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 	slot12(slot13, slot14, slot15, slot16, slot17, slot18, slot19)
 end
 
-slot0.moveSub = slot5
+slot0.moveSub = slot6
 
-function slot5(slot0, slot1, slot2, slot3, slot4)
+function slot6(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot0.contextData
 	slot5 = slot5.chapterVO
 	slot6 = slot5.champions
@@ -8074,9 +8086,9 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-slot0.moveChampion = slot5
+slot0.moveChampion = slot6
 
-function slot5(slot0, slot1, slot2, slot3, slot4)
+function slot6(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot0.contextData
 	slot5 = slot5.chapterVO
 	slot6 = slot5.fleets
@@ -8150,9 +8162,9 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 	slot11(slot12, slot13, slot14, slot15, slot16, slot17, slot18)
 end
 
-slot0.moveTransport = slot5
+slot0.moveTransport = slot6
 
-function slot5(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+function slot6(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot7 = slot0.contextData
 	slot7 = slot7.chapterVO
 	slot8 = nil
@@ -8228,9 +8240,9 @@ function slot5(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot9()
 end
 
-slot0.moveCellView = slot5
+slot0.moveCellView = slot6
 
-function slot5(slot0, slot1, slot2, slot3, slot4, slot5)
+function slot6(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = slot0.contextData
 	slot6 = slot6.chapterVO
 	slot8 = slot6
@@ -8354,9 +8366,9 @@ function slot5(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot14(slot15, slot16(slot17))
 end
 
-slot0.moveStep = slot5
+slot0.moveStep = slot6
 
-function slot5(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+function slot6(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot7 = slot0.contextData
 	slot7 = slot7.chapterVO
 
@@ -8409,9 +8421,9 @@ function slot5(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot9(slot10, slot11, slot12, slot13)
 end
 
-slot0.teleportSubView = slot5
+slot0.teleportSubView = slot6
 
-function slot5(slot0, slot1, slot2, slot3)
+function slot6(slot0, slot1, slot2, slot3)
 	slot4 = slot0.contextData
 	slot4 = slot4.chapterVO
 	slot6 = slot4
@@ -8456,9 +8468,9 @@ function slot5(slot0, slot1, slot2, slot3)
 	slot7(slot8, slot9, slot10, slot11)
 end
 
-slot0.PlayChampionSubmarineAnimation = slot5
+slot0.PlayChampionSubmarineAnimation = slot6
 
-function slot5(slot0, slot1, slot2, slot3)
+function slot6(slot0, slot1, slot2, slot3)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-5, warpins: 1 ---
@@ -8701,9 +8713,9 @@ function slot5(slot0, slot1, slot2, slot3)
 
 end
 
-slot0.PlaySubAnimation = slot5
+slot0.PlaySubAnimation = slot6
 
-function slot5(slot0)
+function slot6(slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-10, warpins: 1 ---
@@ -8747,9 +8759,9 @@ function slot5(slot0)
 
 end
 
-slot0.adjustCameraFocus = slot5
+slot0.adjustCameraFocus = slot6
 
-function slot5(slot0, slot1, slot2)
+function slot6(slot0, slot1, slot2)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-16, warpins: 1 ---
@@ -8777,12 +8789,12 @@ function slot5(slot0, slot1, slot2)
 
 end
 
-slot0.focusOnCell = slot5
+slot0.focusOnCell = slot6
 
-function slot5(slot0, slot1, slot2)
+function slot6(slot0, slot1, slot2)
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-85, warpins: 1 ---
+	--- BLOCK #0 1-83, warpins: 1 ---
 	slot3 = slot0.contextData
 	slot3 = slot3.chapterVO
 	slot4 = slot3.theme
@@ -8825,18 +8837,16 @@ function slot5(slot0, slot1, slot2)
 	slot7 = slot7.clamp
 	slot8 = slot6.x
 	slot8 = -slot8
-	slot9 = slot0.rightExtend
-	slot9 = -slot9
-	slot10 = slot0.leftExtend
+	slot9 = slot0.leftBound
+	slot10 = slot0.rightBound
 	slot7 = slot7(slot8, slot9, slot10)
 	slot6.x = slot7
 	slot7 = math
 	slot7 = slot7.clamp
 	slot8 = slot6.y
 	slot8 = -slot8
-	slot9 = slot0.topExtend
-	slot9 = -slot9
-	slot10 = slot0.bottomExtend
+	slot9 = slot0.bottomBound
+	slot10 = slot0.topBound
 	slot7 = slot7(slot8, slot9, slot10)
 	slot6.y = slot7
 	slot7 = 0
@@ -8919,9 +8929,9 @@ function slot5(slot0, slot1, slot2)
 
 end
 
-slot0.cameraFocus = slot5
+slot0.cameraFocus = slot6
 
-function slot5(slot0, slot1, slot2)
+function slot6(slot0, slot1, slot2)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-66, warpins: 1 ---
@@ -8998,30 +9008,30 @@ function slot5(slot0, slot1, slot2)
 
 end
 
-slot0.CellToScreen = slot5
-slot5 = {}
-slot6 = {
+slot0.CellToScreen = slot6
+slot6 = {}
+slot7 = {
 	-1,
 	0
 }
-slot5[1] = slot6
-slot6 = {
+slot6[1] = slot7
+slot7 = {
 	0,
 	1
 }
-slot5[2] = slot6
-slot6 = {
+slot6[2] = slot7
+slot7 = {
 	1,
 	0
 }
-slot5[3] = slot6
-slot6 = {
+slot6[3] = slot7
+slot7 = {
 	0,
 	-1
 }
-slot5[4] = slot6
+slot6[4] = slot7
 
-function slot6(slot0, slot1, slot2, slot3, slot4)
+function slot7(slot0, slot1, slot2, slot3, slot4)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-6, warpins: 1 ---
@@ -9117,9 +9127,9 @@ function slot6(slot0, slot1, slot2, slot3, slot4)
 
 end
 
-slot0.AddCellEdge = slot6
+slot0.AddCellEdge = slot7
 
-function slot6(slot0)
+function slot7(slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-5, warpins: 1 ---
@@ -9162,9 +9172,9 @@ function slot6(slot0)
 
 end
 
-slot0.isHuntingRangeVisible = slot6
+slot0.isHuntingRangeVisible = slot7
 
-function slot6(slot0)
+function slot7(slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-13, warpins: 1 ---
@@ -9228,9 +9238,9 @@ function slot6(slot0)
 
 end
 
-slot0.toggleHuntingRange = slot6
+slot0.toggleHuntingRange = slot7
 
-function slot6(slot0)
+function slot7(slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-7, warpins: 1 ---
@@ -9319,9 +9329,9 @@ function slot6(slot0)
 
 end
 
-slot0.ShowHuntingRange = slot6
+slot0.ShowHuntingRange = slot7
 
-function slot6(slot0, slot1, slot2)
+function slot7(slot0, slot1, slot2)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-20, warpins: 1 ---
@@ -9375,9 +9385,9 @@ function slot6(slot0, slot1, slot2)
 
 end
 
-slot0.RefreshHuntingRange = slot6
+slot0.RefreshHuntingRange = slot7
 
-function slot6(slot0)
+function slot7(slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-18, warpins: 1 ---
@@ -9487,9 +9497,9 @@ function slot6(slot0)
 
 end
 
-slot0.ShowStaticHuntingRange = slot6
+slot0.ShowStaticHuntingRange = slot7
 
-function slot6(slot0, slot1)
+function slot7(slot0, slot1)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-37, warpins: 1 ---
@@ -9698,9 +9708,9 @@ function slot6(slot0, slot1)
 
 end
 
-slot0.ShowTargetHuntingRange = slot6
+slot0.ShowTargetHuntingRange = slot7
 
-function slot6(slot0)
+function slot7(slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-7, warpins: 1 ---
@@ -9816,9 +9826,9 @@ function slot6(slot0)
 
 end
 
-slot0.OnChangeSubAutoAttack = slot6
+slot0.OnChangeSubAutoAttack = slot7
 
-function slot6(slot0)
+function slot7(slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-26, warpins: 1 ---
@@ -9874,9 +9884,9 @@ function slot6(slot0)
 
 end
 
-slot0.displayEscapeGrid = slot6
+slot0.displayEscapeGrid = slot7
 
-function slot6(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+function slot7(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-11, warpins: 1 ---
@@ -9899,9 +9909,9 @@ function slot6(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 
 end
 
-slot0.showQuadMark = slot6
+slot0.showQuadMark = slot7
 
-function slot6(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+function slot7(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-11, warpins: 1 ---
@@ -9924,9 +9934,9 @@ function slot6(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 
 end
 
-slot0.ShowTopQuadMark = slot6
+slot0.ShowTopQuadMark = slot7
 
-function slot6(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
+function slot7(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-6, warpins: 1 ---
@@ -10185,9 +10195,9 @@ function slot6(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 
 end
 
-slot0.ShowAnyQuadMark = slot6
+slot0.ShowAnyQuadMark = slot7
 
-function slot6(slot0, slot1)
+function slot7(slot0, slot1)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-4, warpins: 1 ---
@@ -10295,9 +10305,9 @@ function slot6(slot0, slot1)
 
 end
 
-slot0.hideQuadMark = slot6
+slot0.hideQuadMark = slot7
 
-function slot6(slot0, slot1, slot2, slot3, slot4)
+function slot7(slot0, slot1, slot2, slot3, slot4)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-3, warpins: 1 ---
@@ -10665,9 +10675,9 @@ function slot6(slot0, slot1, slot2, slot3, slot4)
 
 end
 
-slot0.CreateEdge = slot6
+slot0.CreateEdge = slot7
 
-function slot6(slot0, slot1)
+function slot7(slot0, slot1)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-11, warpins: 1 ---
@@ -10765,9 +10775,9 @@ function slot6(slot0, slot1)
 
 end
 
-slot0.ClearEdge = slot6
+slot0.ClearEdge = slot7
 
-function slot6(slot0)
+function slot7(slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-7, warpins: 1 ---
@@ -10871,9 +10881,9 @@ function slot6(slot0)
 
 end
 
-slot0.ClearEdges = slot6
+slot0.ClearEdges = slot7
 
-function slot6(slot0, slot1, slot2, slot3)
+function slot7(slot0, slot1, slot2, slot3)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-11, warpins: 1 ---
@@ -11232,9 +11242,9 @@ function slot6(slot0, slot1, slot2, slot3)
 
 end
 
-slot0.shiningTarget = slot6
+slot0.shiningTarget = slot7
 
-function slot6(slot0, slot1, slot2)
+function slot7(slot0, slot1, slot2)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-15, warpins: 1 ---
@@ -11484,9 +11494,9 @@ function slot6(slot0, slot1, slot2)
 
 end
 
-slot0.shakeCell = slot6
+slot0.shakeCell = slot7
 
-function slot6(slot0)
+function slot7(slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-24, warpins: 1 ---
@@ -11524,9 +11534,9 @@ function slot6(slot0)
 
 end
 
-slot0.updateCoastalGunAttachArea = slot6
+slot0.updateCoastalGunAttachArea = slot7
 
-function slot6(slot0)
+function slot7(slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-8, warpins: 1 ---
@@ -11663,9 +11673,9 @@ function slot6(slot0)
 
 end
 
-slot0.UpdateIdolsAnim = slot6
+slot0.UpdateIdolsAnim = slot7
 
-function slot6(slot0)
+function slot7(slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-5, warpins: 1 ---
@@ -11748,9 +11758,9 @@ function slot6(slot0)
 
 end
 
-slot0.ClearIdolsAnim = slot6
+slot0.ClearIdolsAnim = slot7
 
-function slot6(slot0, slot1, slot2, slot3, slot4, slot5)
+function slot7(slot0, slot1, slot2, slot3, slot4, slot5)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-14, warpins: 1 ---
@@ -11828,9 +11838,9 @@ function slot6(slot0, slot1, slot2, slot3, slot4, slot5)
 
 end
 
-slot0.PlayAttachmentEffect = slot6
+slot0.PlayAttachmentEffect = slot7
 
-function slot6(slot0, slot1, slot2, slot3, slot4)
+function slot7(slot0, slot1, slot2, slot3, slot4)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-14, warpins: 1 ---
@@ -11964,9 +11974,9 @@ function slot6(slot0, slot1, slot2, slot3, slot4)
 
 end
 
-slot0.PlayParticleSystem = slot6
+slot0.PlayParticleSystem = slot7
 
-function slot6(slot0, slot1, slot2, slot3, slot4)
+function slot7(slot0, slot1, slot2, slot3, slot4)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-8, warpins: 1 ---
@@ -12115,9 +12125,9 @@ function slot6(slot0, slot1, slot2, slot3, slot4)
 
 end
 
-slot0.PlayChampionInsideEffect = slot6
+slot0.PlayChampionInsideEffect = slot7
 
-function slot6(slot0, slot1, slot2, slot3)
+function slot7(slot0, slot1, slot2, slot3)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-14, warpins: 1 ---
@@ -12273,9 +12283,9 @@ function slot6(slot0, slot1, slot2, slot3)
 
 end
 
-slot0.PlayInsideParticleSystem = slot6
+slot0.PlayInsideParticleSystem = slot7
 
-function slot6(slot0, slot1, slot2)
+function slot7(slot0, slot1, slot2)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-2, warpins: 1 ---
@@ -12307,9 +12317,9 @@ function slot6(slot0, slot1, slot2)
 
 end
 
-slot0.PlaySonarDetectAnim = slot6
+slot0.PlaySonarDetectAnim = slot7
 
-function slot6(slot0)
+function slot7(slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-8, warpins: 1 ---
@@ -12545,9 +12555,9 @@ function slot6(slot0)
 
 end
 
-slot0.PlaySpotLigthsEffect = slot6
+slot0.PlaySpotLigthsEffect = slot7
 
-function slot6(slot0, slot1, slot2)
+function slot7(slot0, slot1, slot2)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-7, warpins: 1 ---
@@ -12630,9 +12640,9 @@ function slot6(slot0, slot1, slot2)
 
 end
 
-slot0.SetSpineVisible = slot6
+slot0.SetSpineVisible = slot7
 
-function slot6(slot0, slot1)
+function slot7(slot0, slot1)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-28, warpins: 1 ---
@@ -12671,9 +12681,9 @@ function slot6(slot0, slot1)
 
 end
 
-slot0.TransformLine2PlanePos = slot6
+slot0.TransformLine2PlanePos = slot7
 
-function slot6(slot0, slot1, slot2)
+function slot7(slot0, slot1, slot2)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-5, warpins: 1 ---
@@ -12800,9 +12810,9 @@ function slot6(slot0, slot1, slot2)
 
 end
 
-slot0.AlignListContainer = slot6
+slot0.AlignListContainer = slot7
 
-function slot6(slot0, slot1)
+function slot7(slot0, slot1)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-6, warpins: 1 ---
@@ -12820,9 +12830,9 @@ function slot6(slot0, slot1)
 
 end
 
-slot0.frozen = slot6
+slot0.frozen = slot7
 
-function slot6(slot0)
+function slot7(slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-3, warpins: 1 ---
@@ -12860,9 +12870,9 @@ function slot6(slot0)
 
 end
 
-slot0.unfrozen = slot6
+slot0.unfrozen = slot7
 
-function slot6(slot0)
+function slot7(slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-5, warpins: 1 ---
@@ -12905,9 +12915,9 @@ function slot6(slot0)
 
 end
 
-slot0.isfrozen = slot6
+slot0.isfrozen = slot7
 
-function slot6(slot0)
+function slot7(slot0)
 
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-4, warpins: 1 ---
@@ -12923,6 +12933,6 @@ function slot6(slot0)
 
 end
 
-slot0.clear = slot6
+slot0.clear = slot7
 
 return slot0

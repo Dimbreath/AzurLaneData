@@ -48,9 +48,10 @@ function slot0.execute(slot0, slot1)
 
 			slot3:addBuyCount(slot1)
 			slot3:updateFragmentShop(slot2)
-			reducePlayerOwn(slot0.resource_category, slot0.resource_type, slot0.resource_num * {})
+			reducePlayerOwn(slot0.resource_category, slot0.resource_type, slot0.resource_num * slot1)
 			slot2:sendNotification(GAME.FRAG_SHOPPING_DONE, {
-				awards = 
+				awards = {},
+				id = slot2.sendNotification
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))

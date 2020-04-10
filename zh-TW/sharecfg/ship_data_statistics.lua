@@ -18,7 +18,7 @@ pg.ship_data_statistics = {
 		oxy_cost = 0,
 		skin_id = 100000,
 		attack_duration = 0,
-		nationality = 0,
+		nationality = 98,
 		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
@@ -133,7 +133,7 @@ pg.ship_data_statistics = {
 		oxy_cost = 0,
 		skin_id = 100010,
 		attack_duration = 0,
-		nationality = 0,
+		nationality = 98,
 		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
@@ -65855,6 +65855,482 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[301161] = {
+		oxy_max = 0,
+		type = 1,
+		name = "雪風",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 301161,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Yukikaze",
+		oxy_cost = 0,
+		skin_id = 301160,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			359,
+			13,
+			101,
+			30,
+			0,
+			82,
+			0,
+			71,
+			71,
+			42.6,
+			93,
+			52
+		},
+		attrs_growth = {
+			8750,
+			124,
+			1004,
+			588,
+			0,
+			408,
+			0,
+			1056,
+			1056,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.3,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yukikaze"
+		}
+	},
+	[301162] = {
+		oxy_max = 0,
+		type = 1,
+		name = "雪風",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 301162,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Yukikaze",
+		oxy_cost = 0,
+		skin_id = 301160,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			447,
+			16,
+			126,
+			37,
+			0,
+			82,
+			0,
+			71,
+			71,
+			42.6,
+			93,
+			65
+		},
+		attrs_growth = {
+			8750,
+			124,
+			1004,
+			588,
+			0,
+			408,
+			0,
+			1056,
+			1056,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yukikaze"
+		}
+	},
+	[301163] = {
+		oxy_max = 0,
+		type = 1,
+		name = "雪風",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 301163,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Yukikaze",
+		oxy_cost = 0,
+		skin_id = 301160,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			622,
+			22,
+			176,
+			52,
+			0,
+			82,
+			0,
+			71,
+			71,
+			42.6,
+			93,
+			90
+		},
+		attrs_growth = {
+			8750,
+			124,
+			1004,
+			588,
+			0,
+			408,
+			0,
+			1056,
+			1056,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.7,
+			1.45,
+			0.7
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yukikaze"
+		}
+	},
+	[301164] = {
+		oxy_max = 0,
+		type = 1,
+		name = "雪風",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 301164,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Yukikaze",
+		oxy_cost = 0,
+		skin_id = 301160,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			884,
+			32,
+			252,
+			74,
+			0,
+			82,
+			0,
+			71,
+			71,
+			42.6,
+			93,
+			129
+		},
+		attrs_growth = {
+			8750,
+			124,
+			1004,
+			588,
+			0,
+			408,
+			0,
+			1056,
+			1056,
+			0,
+			0,
+			510
+		},
+		attrs_growth_extra = {
+			8750,
+			296,
+			1251,
+			402,
+			0,
+			965,
+			0,
+			-619,
+			-769,
+			0,
+			0,
+			448
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.5,
+			0.75
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yukikaze"
+		}
+	},
 	[301171] = {
 		oxy_max = 0,
 		type = 1,
@@ -75739,6 +76215,966 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[302101] = {
+		oxy_max = 0,
+		type = 2,
+		name = "最上",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 302101,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Mogami",
+		oxy_cost = 0,
+		skin_id = 302100,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			686,
+			37,
+			34,
+			35,
+			0,
+			69,
+			0,
+			51,
+			14,
+			29.6,
+			14,
+			11
+		},
+		attrs_growth = {
+			16735,
+			368,
+			340,
+			680,
+			0,
+			344,
+			0,
+			756,
+			204,
+			0,
+			0,
+			108
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			321
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.4,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302102] = {
+		oxy_max = 0,
+		type = 2,
+		name = "最上",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 302102,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Mogami",
+		oxy_cost = 0,
+		skin_id = 302100,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			853,
+			46,
+			43,
+			44,
+			0,
+			69,
+			0,
+			51,
+			14,
+			29.6,
+			14,
+			14
+		},
+		attrs_growth = {
+			16735,
+			368,
+			340,
+			680,
+			0,
+			344,
+			0,
+			756,
+			204,
+			0,
+			0,
+			108
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			322
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.45,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302103] = {
+		oxy_max = 0,
+		type = 2,
+		name = "最上",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 302103,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Mogami",
+		oxy_cost = 0,
+		skin_id = 302100,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1188,
+			65,
+			60,
+			61,
+			0,
+			69,
+			0,
+			51,
+			14,
+			29.6,
+			14,
+			19
+		},
+		attrs_growth = {
+			16735,
+			368,
+			340,
+			680,
+			0,
+			344,
+			0,
+			756,
+			204,
+			0,
+			0,
+			108
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			323
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.45,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302104] = {
+		oxy_max = 0,
+		type = 2,
+		name = "最上",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 302104,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Mogami",
+		oxy_cost = 0,
+		skin_id = 302100,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1690,
+			92,
+			85,
+			86,
+			0,
+			69,
+			0,
+			51,
+			14,
+			29.6,
+			14,
+			27
+		},
+		attrs_growth = {
+			16735,
+			368,
+			340,
+			680,
+			0,
+			344,
+			0,
+			756,
+			204,
+			0,
+			0,
+			108
+		},
+		attrs_growth_extra = {
+			5352,
+			870,
+			800,
+			468,
+			0,
+			819,
+			0,
+			0,
+			1966,
+			0,
+			0,
+			170
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			324
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.6,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302111] = {
+		oxy_max = 0,
+		type = 2,
+		name = "三隈",
+		huntingrange_level = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 302111,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Mikuma",
+		oxy_cost = 0,
+		skin_id = 302110,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			686,
+			37,
+			35,
+			35,
+			0,
+			69,
+			0,
+			51,
+			14,
+			29.6,
+			13,
+			11
+		},
+		attrs_growth = {
+			16735,
+			368,
+			342,
+			680,
+			0,
+			344,
+			0,
+			756,
+			204,
+			0,
+			0,
+			108
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			321
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.4,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302112] = {
+		oxy_max = 0,
+		type = 2,
+		name = "三隈",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 302112,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Mikuma",
+		oxy_cost = 0,
+		skin_id = 302110,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			853,
+			46,
+			44,
+			44,
+			0,
+			69,
+			0,
+			51,
+			14,
+			29.6,
+			13,
+			14
+		},
+		attrs_growth = {
+			16735,
+			368,
+			342,
+			680,
+			0,
+			344,
+			0,
+			756,
+			204,
+			0,
+			0,
+			108
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			322
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.45,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302113] = {
+		oxy_max = 0,
+		type = 2,
+		name = "三隈",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 302113,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Mikuma",
+		oxy_cost = 0,
+		skin_id = 302110,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1188,
+			65,
+			61,
+			61,
+			0,
+			69,
+			0,
+			51,
+			14,
+			29.6,
+			13,
+			19
+		},
+		attrs_growth = {
+			16735,
+			368,
+			342,
+			680,
+			0,
+			344,
+			0,
+			756,
+			204,
+			0,
+			0,
+			108
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			323
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.45,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[302114] = {
+		oxy_max = 0,
+		type = 2,
+		name = "三隈",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 302114,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Mikuma",
+		oxy_cost = 0,
+		skin_id = 302110,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1690,
+			92,
+			86,
+			86,
+			0,
+			69,
+			0,
+			51,
+			14,
+			29.6,
+			13,
+			27
+		},
+		attrs_growth = {
+			16735,
+			368,
+			342,
+			680,
+			0,
+			344,
+			0,
+			756,
+			204,
+			0,
+			0,
+			108
+		},
+		attrs_growth_extra = {
+			5352,
+			870,
+			806,
+			468,
+			0,
+			819,
+			0,
+			0,
+			1966,
+			0,
+			0,
+			170
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			324
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.6,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[302131] = {
 		oxy_max = 0,
 		type = 2,
@@ -80494,6 +81930,125 @@ pg.ship_data_statistics = {
 			1.25,
 			1.7,
 			1.2,
+			0.3
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[303154] = {
+		oxy_max = 0,
+		type = 3,
+		name = "最上.改",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		ammo = 0,
+		id = 303154,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "IJN Mogami",
+		oxy_cost = 0,
+		skin_id = 302100,
+		attack_duration = 0,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		armor_type = 2,
+		attrs = {
+			1840,
+			105,
+			89,
+			89,
+			0,
+			66,
+			0,
+			44,
+			13,
+			28.4,
+			14,
+			0
+		},
+		attrs_growth = {
+			18210,
+			418,
+			352,
+			704,
+			0,
+			330,
+			0,
+			654,
+			198,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			4553,
+			992,
+			833,
+			481,
+			0,
+			780,
+			0,
+			0,
+			1962,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			324
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.6,
+			1,
 			0.3
 		},
 		strategy_list = {},
@@ -123969,6 +125524,10 @@ pg.ship_data_statistics = {
 		301152,
 		301153,
 		301154,
+		301161,
+		301162,
+		301163,
+		301164,
 		301171,
 		301172,
 		301173,
@@ -124053,6 +125612,14 @@ pg.ship_data_statistics = {
 		302092,
 		302093,
 		302094,
+		302101,
+		302102,
+		302103,
+		302104,
+		302111,
+		302112,
+		302113,
+		302114,
 		302131,
 		302132,
 		302133,
@@ -124093,6 +125660,7 @@ pg.ship_data_statistics = {
 		303132,
 		303133,
 		303134,
+		303154,
 		304021,
 		304022,
 		304023,

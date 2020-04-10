@@ -386,7 +386,7 @@ pg.gameset = {
 	activity_res_id = {
 		description = "",
 		key = "activity_res_id",
-		key_value = 119
+		key_value = 103
 	},
 	chapter_move_speed_1 = {
 		description = "",

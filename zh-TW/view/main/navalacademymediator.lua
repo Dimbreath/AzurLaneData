@@ -56,7 +56,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.GO_SHOP, function (slot0)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, {
-			warp = ShopsScene.TYPE_SHOP_STREET
+			warp = NewShopsScene.TYPE_SHOP_STREET
 		})
 	end)
 	slot0:bind(slot0.GET_RES, function (slot0, slot1)
@@ -117,7 +117,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.OPEN_ACTIVITY_SHOP, function (slot0)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, {
-			warp = ShopsScene.TYPE_ACTIVITY
+			warp = NewShopsScene.TYPE_ACTIVITY
 		})
 	end)
 	slot0:bind(slot0.OPEN_SCROLL, function (slot0, slot1)

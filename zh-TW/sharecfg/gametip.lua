@@ -2041,11 +2041,11 @@ pg.gametip = {
 		key = "mail_count"
 	},
 	mail_takeAttachment_error_magazine_full = {
-		tip = "<color=#A9F548>領取失敗</color>\n\n您的<color=#A9F548>裝備倉庫已滿</color>",
+		tip = "<color=#92fc63>領取失敗</color>您的<color=#92fc63>裝備倉庫已滿</color>",
 		key = "mail_takeAttachment_error_magazine_full"
 	},
 	mail_takeAttachment_error_dockYrad_full = {
-		tip = "<color=#A9F548>領取失敗</color>\n\n您的<color=#A9F548>船塢已滿</color>",
+		tip = "<color=#92fc63>領取失敗</color>您的<color=#92fc63>船塢已滿</color>",
 		key = "mail_takeAttachment_error_dockYrad_full"
 	},
 	mail_confirm_set_important_flag = {
@@ -5450,11 +5450,11 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 		key = "battle_repair_special_name"
 	},
 	oil_max_tip_title = {
-		tip = "石油已經達到上限，",
+		tip = "石油已經達到上限",
 		key = "oil_max_tip_title"
 	},
 	gold_max_tip_title = {
-		tip = "物資已經達到上限，",
+		tip = "物資已經達到上限",
 		key = "gold_max_tip_title"
 	},
 	resource_max_tip_shop = {
@@ -5897,10 +5897,10 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 	},
 	ship_remould_warning_303154 = {
 		tip = [[
-此次改造操作將導致<color=#A9F548>$1</color>艦艇類型變化
-<color=#A9F548>【主武器（輕巡主炮）】</color>變更為
-<color=# A9F548>【主武器（重巡主炮）】</color>欄位<color=#A9F548><material=underline c=#A9F548 event=clickDetail>查看詳情</material></color>
-<color =#A9F548>【主武器】</color>欄的裝備將被卸下
+此次改造操作將導致<color=#92fc63>$1</color>艦艇類型變化
+<color=#92fc63>【主武器（輕巡主炮）】</color>變更為
+<color=#92fc63>【主武器（重巡主炮）】</color>欄位<color=#92fc63><material=underline c=#92fc63 event=clickDetail>查看詳情</material></color>
+<color=#92fc63>【主武器】</color>欄的裝備將被卸下
 是否確認繼續操作？]],
 		key = "ship_remould_warning_303154"
 	},
@@ -7940,7 +7940,7 @@ $3]],
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "勝利、天狼星、謝菲爾德、格倫維爾、牙買加出現機率UP!",
+		tip = "翔鶴、雪風、野分、最上、伊勢、日向出現機率UP!",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -10941,11 +10941,11 @@ TIPS：
 		key = "undermist_tip"
 	},
 	retire_1 = {
-		tip = "僅選擇至少有一艘鎖定的同名艦船",
+		tip = "<color=#92fc63>「擁有」</color>滿星的同名艦船時，保留幾艘<color=#92fc63>符合退役條件</color>的同名艦船",
 		key = "retire_1"
 	},
 	retire_2 = {
-		tip = "僅選擇至少有一艘滿星的同名艦船",
+		tip = "<color=#ff5c5c>「沒有」</color>滿星的同名艦船時，保留幾艘<color=#92fc63>符合退役條件</color>的同名艦船",
 		key = "retire_2"
 	},
 	retire_3 = {
@@ -10959,6 +10959,44 @@ TIPS：
 	retire_title = {
 		tip = "一鍵退役設置",
 		key = "retire_title"
+	},
+	retire_setting_help = {
+		key = "retire_setting_help",
+		tip = {
+			{
+				info = [[
+ ·一鍵退役條件：
+ 1.稀有度為SR、R、N
+ 2.未鎖定的艦船
+ 3.等級為1級
+ 4.不是布裡
+ 5.未處於編隊中、秘書艦等特殊狀態的艦船
+ ·同名船是否保留的規則只針對船塢中<color=#92fc63>符合上述1~5規則
+的艦船</color>
+ ·預設優先順序排序為R、SR、N
+ ·可通過<color=#92fc63>選擇優先順序</color>改變稀有度排序或去除稀有度]]
+			}
+		}
+	},
+	activity_shop_exchange_count = {
+		tip = "可兌換次數",
+		key = "activity_shop_exchange_count"
+	},
+	shops_msgbox_exchange_count = {
+		tip = "兌換數量:",
+		key = "shops_msgbox_exchange_count"
+	},
+	shops_msgbox_output = {
+		tip = "將獲得：",
+		key = "shops_msgbox_output"
+	},
+	shop_word_exchange = {
+		tip = "兌 換",
+		key = "shop_word_exchange"
+	},
+	shop_word_cancel = {
+		tip = "取 消",
+		key = "shop_word_cancel"
 	}
 }
 
