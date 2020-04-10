@@ -45,6 +45,63 @@ function slot0.getAttatchmentsCount(slot0, slot1, slot2)
 	return slot3
 end
 
+function slot0.IsFudaiAndFullCapcity(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0.attachments) do
+		if slot6.type == DROP_TYPE_ITEM and table.contains(ITEM_ID_FUDAIS, slot6.id) then
+			table.insert(slot1, slot6)
+		end
+	end
+
+	slot2 = 0
+	slot3 = 0
+	slot4 = 0
+	slot5 = 0
+
+	if #slot1 then
+		for slot9, slot10 in ipairs(slot1) do
+			for slot15, slot16 in ipairs(pg.item_data_statistics[slot10.id].display_icon) do
+				if slot16[1] == DROP_TYPE_RESOURCE then
+					if slot16[2] == 1 then
+						slot2 = slot2 + slot16[3]
+					elseif slot16[2] == 2 then
+						slot3 = slot3 + slot16[3]
+					end
+				elseif slot16[1] == DROP_TYPE_EQUIP then
+					slot4 = slot4 + slot16[3]
+				elseif slot16[1] == DROP_TYPE_SHIP then
+					slot5 = slot5 + slot16[3]
+				end
+			end
+		end
+	end
+
+	slot6 = getProxy(PlayerProxy):getRawData()
+
+	if slot3 > 0 and slot6:OilMax(slot3) then
+		return false, i18n("oil_max_tip_title")
+	end
+
+	if slot2 > 0 and slot6:GoldMax(slot2) then
+		return false, i18n("gold_max_tip_title")
+	end
+
+	slot7 = getProxy(EquipmentProxy):getCapacity()
+
+	if slot4 > 0 and slot6.equip_bag_max < slot4 + slot7 then
+		return false, i18n("mail_takeAttachment_error_magazine_full")
+	end
+
+	slot8 = getProxy(BayProxy):getShipCount()
+
+	if slot5 > 0 and slot6.ship_bag_max < slot5 + slot8 then
+		return false, i18n("mail_takeAttachment_error_dockYrad_full")
+	end
+
+	return true
+end
+
 function slot0.sortByTime(slot0, slot1)
 	if slot0.readFlag == slot1.readFlag then
 		if ((slot0.attachFlag == slot0.ATTACHMENT_EXIST and 1) or 0) == ((slot1.attachFlag == slot0.ATTACHMENT_EXIST and 1) or 0) then

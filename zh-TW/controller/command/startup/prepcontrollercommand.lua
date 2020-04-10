@@ -104,6 +104,7 @@ class("PrepControllerCommand", pm.SimpleCommand).execute = function (slot0, slot
 	slot0.facade:registerCommand(GAME.EXTEND, ExtendCommand)
 	slot0.facade:registerCommand(GAME.FRAG_SHOPPING, FragmentShoppingCommand)
 	slot0.facade:registerCommand(GAME.FRAG_SELL, FragmentSellCommand)
+	slot0.facade:registerCommand(GAME.GET_OPEN_SHOPS, GetOpeningUpShopCommand)
 	slot0.facade:registerCommand(GAME.USE_ITEM, UseItemCommand)
 	slot0.facade:registerCommand(GAME.USE_FUDAI_ITEM, UseFudaiItemCommand)
 	slot0.facade:registerCommand(GAME.COMPOSE_ITEM, ComposeItemCommand)

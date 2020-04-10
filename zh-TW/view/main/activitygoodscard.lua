@@ -1,6 +1,6 @@
 slot0 = class("ActivityGoodsCard")
 slot0.Color = {
-	[ShopsScene.TYPE_SHAM_SHOP] = {
+	[3] = {
 		0.8745098039215686,
 		0.9294117647058824,
 		1
@@ -29,6 +29,7 @@ function slot0.Ctor(slot0, slot1)
 
 	slot0.limitCountTF = findTF(slot0.tr, "item/count_contain/count"):GetComponent(typeof(Text))
 	slot0.limitCountLabelTF = findTF(slot0.tr, "item/count_contain/label"):GetComponent(typeof(Text))
+	slot0.limitCountLabelTF.text = i18n("activity_shop_exchange_count")
 end
 
 function slot0.update(slot0, slot1, slot2, slot3, slot4)

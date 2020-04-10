@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"叫我{namecode:22}大人！\n\n<size=45>四　{namecode:22}粉丝团？</size>",
+					"叫我{namecode:22}大人！\n\n<size=45>四　{namecode:22}粉絲團？</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "你知道吗？蹭蹭{namecode:22}的尾巴据说就能提升运气呢！",
+			say = "你知道嗎？蹭蹭{namecode:22}的尾巴據說就能提升運氣呢！",
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			actor = 0,
 			actorName = "？？？",
-			say = "好棒！不愧是幸运舰！我下次也去拜托{namecode:22}试试…",
+			say = "好棒！不愧是幸運艦！我下次也去拜託{namecode:22}試試…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			actorName = "{namecode:22}",
 			actor = 301160,
 			nameColor = "#a9f548",
-			say = "哼，本大人在港区可是超人气的！",
+			say = "哼，本大人在港區可是超人氣的！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -104,7 +104,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "指挥官只要你对{namecode:22}摇摇尾巴，{namecode:22}的尾巴也会给你摸两下的哟――嗯！？",
+			say = "指揮官只要你對{namecode:22}搖搖尾巴，{namecode:22}的尾巴也會給你摸兩下的喲――嗯！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "哒哒哒（脚步声）――",
+			say = "噠噠噠（腳步聲）――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "有了有了！{namecode:22}酱在这里！",
+			say = "有了有了！{namecode:22}醬在這裡！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			}
 		},
 		{
-			say = "谢谢反击！有了{namecode:22}酱，这回一定要让姐姐力更强大——",
+			say = "謝謝反擊！有了{namecode:22}醬，這回一定要讓姐姐力更強大——",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = -1,
-			say = "姐姐她听说圣地亚哥的运气很好所以……{namecode:22}酱，对不起……！",
+			say = "姐姐她聽說聖地牙哥的運氣很好所以……{namecode:22}醬，對不起……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			actor = 301330,
 			actorName = "{namecode:34}",
-			say = "{namecode:34}…也想要运气……",
+			say = "{namecode:34}…也想要運氣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "哼哼哼，东方之国的冰风暴<SnowFrost>呦！把你的好运<RealLuck>贡献给我吧！",
+			say = "哼哼哼，東方之國的冰風暴<SnowFrost>呦！把你的好運<RealLuck>貢獻給我吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = -1,
-			say = "啊哈哈哈！也算我一个！",
+			say = "啊哈哈哈！也算我一個！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			actor = 205060,
 			nameColor = "#a9f548",
-			say = "好啦好啦，大家排队",
+			say = "好啦好啦，大家排隊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			},
 			options = {
 				{
-					content = "这是…什么情况…",
+					content = "這是...什麼情況...",
 					flag = 1
 				}
 			}
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "哼！不、不过是蹭蹭尾巴毛罢了，本大人就满足你们——！",
+			say = "哼！不、不過是蹭蹭尾巴毛罷了，本大人就滿足你們——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			actorName = "{namecode:78}",
 			actor = 305010,
 			nameColor = "#a9f548",
-			say = "{namecode:22}酱果然是超人气呢……不过那样也很辛苦吧……",
+			say = "{namecode:22}醬果然是超人氣呢……不過那樣也很辛苦吧……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -309,7 +309,7 @@ return {
 			}
 		},
 		{
-			say = "殿下知道吗？{namecode:22}酱她只要拜托一下什么都会做哦？",
+			say = "殿下知道嗎？{namecode:22}醬她只要拜託一下什麼都會做哦？",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -330,7 +330,7 @@ return {
 			},
 			options = {
 				{
-					content = "这不就是老好人吗……",
+					content = "這不就是老好人嗎……",
 					flag = 1
 				}
 			}

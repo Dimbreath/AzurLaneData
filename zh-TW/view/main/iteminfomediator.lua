@@ -27,9 +27,8 @@ function slot0.register(slot0)
 
 		if slot2 then
 			slot0:bind(slot0.USE_ITEM, function (slot0, slot1, slot2)
-				if getProxy(BagProxy):getItemById(slot1).getTempCfgTable(slot3).usage == ItemUsage.DROP and slot3:getConfig("type") ~= Item.EQUIPMENT_SKIN_BOX and getProxy(PlayerProxy).getData(slot7).equip_bag_max < getProxy(EquipmentProxy).getCapacity(slot5) + slot2 then
-					NoPosMsgBox(i18n("switch_to_shop_tip_noPos"), openDestroyEquip, gotoChargeScene)
-					slot0.viewComponent:doClose()
+				if not UseItemCommand.Check(getProxy(BagProxy):getItemById(slot1), slot2) then
+					slot0.viewComponent:emit(BaseUI.ON_CLOSE)
 
 					return
 				end

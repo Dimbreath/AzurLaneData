@@ -6,7 +6,7 @@ pg.ship_data_group = {
 		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		nationality = 1,
+		nationality = 98,
 		hide = 0,
 		index_id = 1,
 		group_type = 10000,
@@ -47,7 +47,7 @@ pg.ship_data_group = {
 		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		nationality = 1,
+		nationality = 98,
 		hide = 0,
 		index_id = 2,
 		group_type = 10001,
@@ -3934,7 +3934,7 @@ pg.ship_data_group = {
 	},
 	[91] = {
 		type = 1,
-		trans_skin = 0,
+		trans_skin = 201119,
 		trans_type = 1,
 		handbook_type = 0,
 		redirect_id = 101,
@@ -3951,8 +3951,17 @@ pg.ship_data_group = {
 			"D",
 			"D"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"C",
+			"B",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_skill = {
+			1061
+		},
 		description = {
 			{
 				"榮譽勳章兌換（機率刷新）",
@@ -7070,6 +7079,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[166] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 225,
+		group_type = 30116,
+		code = 166,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：紅染的參訪者",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[318] = {
 		type = 1,
 		trans_skin = 301619,
@@ -7360,6 +7400,77 @@ pg.ship_data_group = {
 					{
 						chapterid = 1004
 					}
+				},
+				0
+			}
+		}
+	},
+	[188] = {
+		type = 2,
+		trans_skin = 302109,
+		trans_type = 3,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 244,
+		group_type = 30210,
+		code = 188,
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {
+			"A",
+			"C",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		trans_skill = {
+			11220
+		},
+		description = {
+			{
+				"限時活動：紅染的參訪者",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[189] = {
+		type = 2,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 245,
+		group_type = 30211,
+		code = 189,
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：紅染的參訪者",
+				{
+					""
 				},
 				0
 			}
@@ -9536,6 +9647,7 @@ pg.ship_data_group = {
 		168,
 		177,
 		178,
+		166,
 		318,
 		170,
 		295,
@@ -9544,6 +9656,8 @@ pg.ship_data_group = {
 		187,
 		179,
 		309,
+		188,
+		189,
 		190,
 		191,
 		192,

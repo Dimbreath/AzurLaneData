@@ -317,36 +317,8 @@ function slot3(slot0, slot1, slot2, slot3, slot4)
 		slot2 = slot1
 		slot1 = slot1.AddModel
 		slot3 = slot0
-		slot1 = slot1(slot2, slot3)
 
-		if slot1 == true then
-			slot2 = slot1
-			slot3 = slot2
-			slot2 = slot2.GetTemplate
-			slot2 = slot2(slot3)
-			slot2 = slot2.track_fx
-
-			if slot2 ~= "" then
-				slot2 = slot2
-				slot3 = slot2
-				slot2 = slot2.GetFXPool
-				slot2 = slot2(slot3)
-				slot3 = slot2
-				slot2 = slot2.GetFX
-				slot4 = slot0
-				slot5 = slot4
-				slot4 = slot4.GetTrackFXID
-				slot2, slot3 = slot2(slot3, slot4(slot5))
-				slot4 = slot2
-				slot5 = slot4
-				slot4 = slot4.MakeTrack
-				slot6 = slot0
-				slot7 = slot2
-				slot8 = slot3
-
-				slot4(slot5, slot6, slot7, slot8)
-			end
-		end
+		slot1(slot2, slot3)
 	end
 
 	slot7 = slot7(slot8, slot9, slot10)

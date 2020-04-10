@@ -470,6 +470,10 @@ slot1 = {
 	[ActivityConst.APRILFOOL_DISCOVERY] = {
 		className = "AprilFoolDiscoveryPage",
 		uiName = "AprilFoolDiscoveryPage"
+	},
+	[ActivityConst.ANIME_END] = {
+		className = "AnimeEndPage",
+		uiName = "AnimeEndPage"
 	}
 }
 slot2 = {

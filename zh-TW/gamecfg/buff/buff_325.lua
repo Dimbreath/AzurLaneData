@@ -1,5 +1,5 @@
 return {
-	time = 6,
+	time = 6.1,
 	name = "起火",
 	init_effect = "",
 	picture = "",

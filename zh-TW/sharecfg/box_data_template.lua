@@ -1,7 +1,6 @@
 pg = pg or {}
 pg.box_data_template = {
 	{
-		activity_id = 0,
 		name = "物資箱",
 		type = 1,
 		id = 1,
@@ -9,7 +8,6 @@ pg.box_data_template = {
 		effect_id = 10001
 	},
 	{
-		activity_id = 0,
 		name = "物資箱",
 		type = 1,
 		id = 2,
@@ -17,7 +15,6 @@ pg.box_data_template = {
 		effect_id = 10002
 	},
 	{
-		activity_id = 0,
 		name = "物資箱",
 		type = 1,
 		id = 3,
@@ -25,7 +22,6 @@ pg.box_data_template = {
 		effect_id = 10003
 	},
 	{
-		activity_id = 0,
 		name = "物資箱",
 		type = 1,
 		id = 4,
@@ -33,7 +29,6 @@ pg.box_data_template = {
 		effect_id = 10004
 	},
 	{
-		activity_id = 0,
 		name = "物資箱",
 		type = 1,
 		id = 5,
@@ -41,7 +36,6 @@ pg.box_data_template = {
 		effect_id = 10005
 	},
 	{
-		activity_id = 0,
 		name = "物資箱",
 		type = 1,
 		id = 6,
@@ -49,7 +43,6 @@ pg.box_data_template = {
 		effect_id = 10006
 	},
 	{
-		activity_id = 0,
 		name = "物資箱",
 		type = 1,
 		id = 7,
@@ -57,7 +50,6 @@ pg.box_data_template = {
 		effect_id = 10007
 	},
 	{
-		activity_id = 0,
 		name = "物資箱",
 		type = 1,
 		id = 8,
@@ -65,7 +57,6 @@ pg.box_data_template = {
 		effect_id = 10008
 	},
 	{
-		activity_id = 0,
 		name = "物資箱",
 		type = 1,
 		id = 9,
@@ -73,7 +64,6 @@ pg.box_data_template = {
 		effect_id = 10009
 	},
 	{
-		activity_id = 0,
 		name = "物資箱",
 		type = 1,
 		id = 10,
@@ -81,7 +71,6 @@ pg.box_data_template = {
 		effect_id = 10010
 	},
 	[21] = {
-		activity_id = 0,
 		name = "食物箱",
 		type = 1,
 		id = 21,
@@ -89,7 +78,6 @@ pg.box_data_template = {
 		effect_id = 10021
 	},
 	[22] = {
-		activity_id = 0,
 		name = "食物箱",
 		type = 1,
 		id = 22,
@@ -97,7 +85,6 @@ pg.box_data_template = {
 		effect_id = 10022
 	},
 	[23] = {
-		activity_id = 0,
 		name = "食物箱",
 		type = 1,
 		id = 23,
@@ -105,7 +92,6 @@ pg.box_data_template = {
 		effect_id = 10023
 	},
 	[24] = {
-		activity_id = 0,
 		name = "食物箱",
 		type = 1,
 		id = 24,
@@ -113,7 +99,6 @@ pg.box_data_template = {
 		effect_id = 10024
 	},
 	[101] = {
-		activity_id = 0,
 		name = "裝備箱",
 		type = 1,
 		id = 101,
@@ -121,7 +106,6 @@ pg.box_data_template = {
 		effect_id = 10101
 	},
 	[102] = {
-		activity_id = 0,
 		name = "裝備箱",
 		type = 1,
 		id = 102,
@@ -129,7 +113,6 @@ pg.box_data_template = {
 		effect_id = 10102
 	},
 	[103] = {
-		activity_id = 0,
 		name = "裝備箱",
 		type = 1,
 		id = 103,
@@ -137,7 +120,6 @@ pg.box_data_template = {
 		effect_id = 10103
 	},
 	[104] = {
-		activity_id = 0,
 		name = "裝備箱",
 		type = 1,
 		id = 104,
@@ -145,7 +127,6 @@ pg.box_data_template = {
 		effect_id = 10104
 	},
 	[105] = {
-		activity_id = 0,
 		name = "裝備箱",
 		type = 1,
 		id = 105,
@@ -153,7 +134,6 @@ pg.box_data_template = {
 		effect_id = 10105
 	},
 	[1001] = {
-		activity_id = 0,
 		name = "事件",
 		type = 2,
 		id = 1001,
@@ -161,7 +141,6 @@ pg.box_data_template = {
 		effect_id = 1
 	},
 	[1002] = {
-		activity_id = 0,
 		name = "事件",
 		type = 2,
 		id = 1002,
@@ -169,7 +148,6 @@ pg.box_data_template = {
 		effect_id = 2
 	},
 	[1003] = {
-		activity_id = 0,
 		name = "事件",
 		type = 2,
 		id = 1003,
@@ -177,7 +155,6 @@ pg.box_data_template = {
 		effect_id = 3
 	},
 	[1004] = {
-		activity_id = 0,
 		name = "事件",
 		type = 2,
 		id = 1004,
@@ -185,7 +162,6 @@ pg.box_data_template = {
 		effect_id = 4
 	},
 	[2001] = {
-		activity_id = 0,
 		name = "觸雷",
 		type = 7,
 		id = 2001,
@@ -193,7 +169,6 @@ pg.box_data_template = {
 		effect_id = 5
 	},
 	[3001] = {
-		activity_id = 0,
 		name = "空襲",
 		type = 4,
 		id = 3001,
@@ -201,7 +176,6 @@ pg.box_data_template = {
 		effect_id = 5
 	},
 	[4001] = {
-		activity_id = 0,
 		name = "刷怪",
 		type = 5,
 		id = 4001,
@@ -209,7 +183,6 @@ pg.box_data_template = {
 		effect_id = 0
 	},
 	[5001] = {
-		activity_id = 0,
 		name = "彈藥補給",
 		type = 6,
 		id = 5001,
@@ -217,7 +190,6 @@ pg.box_data_template = {
 		effect_id = 1
 	},
 	[6001] = {
-		activity_id = 0,
 		name = "绊爱空袭",
 		type = 8,
 		id = 6001,
@@ -225,7 +197,6 @@ pg.box_data_template = {
 		effect_id = 5
 	},
 	[6002] = {
-		activity_id = 0,
 		name = "holo岩浆",
 		type = 9,
 		id = 6002,
@@ -233,7 +204,6 @@ pg.box_data_template = {
 		effect_id = 5
 	},
 	[10001] = {
-		activity_id = 40045,
 		name = "拼圖箱",
 		type = 1,
 		id = 10001,
@@ -241,7 +211,6 @@ pg.box_data_template = {
 		effect_id = 8106
 	},
 	[10002] = {
-		activity_id = 40045,
 		name = "拼圖箱",
 		type = 1,
 		id = 10002,
@@ -249,7 +218,6 @@ pg.box_data_template = {
 		effect_id = 8107
 	},
 	[10003] = {
-		activity_id = 40045,
 		name = "拼圖箱",
 		type = 1,
 		id = 10003,
@@ -257,7 +225,6 @@ pg.box_data_template = {
 		effect_id = 8108
 	},
 	[10004] = {
-		activity_id = 40045,
 		name = "拼圖箱",
 		type = 1,
 		id = 10004,
@@ -265,7 +232,6 @@ pg.box_data_template = {
 		effect_id = 8109
 	},
 	[10005] = {
-		activity_id = 40045,
 		name = "拼圖箱",
 		type = 1,
 		id = 10005,
@@ -273,7 +239,6 @@ pg.box_data_template = {
 		effect_id = 8110
 	},
 	[10006] = {
-		activity_id = 40045,
 		name = "拼圖箱",
 		type = 1,
 		id = 10006,
@@ -281,7 +246,6 @@ pg.box_data_template = {
 		effect_id = 8111
 	},
 	[10007] = {
-		activity_id = 40045,
 		name = "拼圖箱",
 		type = 1,
 		id = 10007,
@@ -289,7 +253,6 @@ pg.box_data_template = {
 		effect_id = 8112
 	},
 	[10008] = {
-		activity_id = 40045,
 		name = "拼圖箱",
 		type = 1,
 		id = 10008,
@@ -297,7 +260,6 @@ pg.box_data_template = {
 		effect_id = 8113
 	},
 	[10101] = {
-		activity_id = 0,
 		name = "港区回忆NO.17",
 		type = 1,
 		id = 10101,
@@ -305,7 +267,6 @@ pg.box_data_template = {
 		effect_id = 90828
 	},
 	[10102] = {
-		activity_id = 0,
 		name = "港区回忆NO.18",
 		type = 1,
 		id = 10102,
@@ -313,7 +274,6 @@ pg.box_data_template = {
 		effect_id = 90829
 	},
 	[10103] = {
-		activity_id = 0,
 		name = "港区回忆NO.19",
 		type = 1,
 		id = 10103,
@@ -321,7 +281,6 @@ pg.box_data_template = {
 		effect_id = 90830
 	},
 	[10104] = {
-		activity_id = 0,
 		name = "港区回忆NO.20",
 		type = 1,
 		id = 10104,
@@ -329,7 +288,6 @@ pg.box_data_template = {
 		effect_id = 90831
 	},
 	[10105] = {
-		activity_id = 0,
 		name = "徽章·克利夫兰",
 		type = 1,
 		id = 10105,
@@ -337,7 +295,6 @@ pg.box_data_template = {
 		effect_id = 92023
 	},
 	[10106] = {
-		activity_id = 0,
 		name = "徽章·谢菲尔德",
 		type = 1,
 		id = 10106,
@@ -345,7 +302,6 @@ pg.box_data_template = {
 		effect_id = 92024
 	},
 	[10107] = {
-		activity_id = 0,
 		name = "徽章·{namecode:91}",
 		type = 1,
 		id = 10107,
@@ -353,7 +309,6 @@ pg.box_data_template = {
 		effect_id = 92025
 	},
 	[10108] = {
-		activity_id = 0,
 		name = "徽章·希佩尔",
 		type = 1,
 		id = 10108,
@@ -361,7 +316,6 @@ pg.box_data_template = {
 		effect_id = 92026
 	},
 	[10109] = {
-		activity_id = 0,
 		name = "徽章·加斯科涅",
 		type = 1,
 		id = 10109,
@@ -369,7 +323,6 @@ pg.box_data_template = {
 		effect_id = 92027
 	},
 	[10110] = {
-		activity_id = 548,
 		name = "密碼箱",
 		type = 1,
 		id = 10110,
@@ -377,7 +330,6 @@ pg.box_data_template = {
 		effect_id = 92880
 	},
 	[10111] = {
-		activity_id = 548,
 		name = "密碼箱",
 		type = 1,
 		id = 10111,
@@ -385,7 +337,6 @@ pg.box_data_template = {
 		effect_id = 92882
 	},
 	[10112] = {
-		activity_id = 548,
 		name = "密碼箱",
 		type = 1,
 		id = 10112,
@@ -393,7 +344,6 @@ pg.box_data_template = {
 		effect_id = 92884
 	},
 	[10113] = {
-		activity_id = 548,
 		name = "密碼箱",
 		type = 1,
 		id = 10113,
@@ -401,7 +351,6 @@ pg.box_data_template = {
 		effect_id = 92886
 	},
 	[20001] = {
-		activity_id = 0,
 		name = "障礙物",
 		type = 0,
 		id = 20001,

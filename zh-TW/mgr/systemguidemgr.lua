@@ -71,7 +71,7 @@ function pg.SystemGuideMgr.Play(slot0, slot1, slot2)
 	end
 
 	if not _.detect(slot3, function (slot0)
-		return not slot0(slot0.id) and slot0.condition()
+		return not slot0(slot0.id) and slot0.condition(slot1)
 	end) then
 		slot1(slot2)
 

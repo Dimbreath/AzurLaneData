@@ -906,7 +906,7 @@ function slot0.initItem(slot0, slot1)
 				itemVO = slot0.itemVO,
 				open_ui = slot0.itemVO:getTempCfgTable().open_ui[1]
 			})
-		elseif slot0.itemVO:getConfig("type") == Item.ASSIGNED_TYPE then
+		elseif slot0.itemVO:getConfig("type") == Item.ASSIGNED_TYPE or slot0.itemVO:getConfig("type") == Item.EQUIPMENT_ASSIGNED_TYPE then
 			slot1.assignedItemView = AssignedItemView.New(slot1.topItems, slot1.event)
 
 			slot1.assignedItemView:Load()

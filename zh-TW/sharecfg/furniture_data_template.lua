@@ -21726,6 +21726,1632 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[24001] = {
+		advice = 0,
+		describe = "印著可愛的貓咪花紋的地板",
+		count = 1,
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		name = "喵喵咖啡地板",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 24,
+		icon = "dibancficon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 24001,
+		picture = "cafe/dibancf",
+		comfortable = 4,
+		tag = 4,
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24002] = {
+		advice = 0,
+		describe = "精緻可愛的咖啡館牆壁",
+		count = 1,
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		name = "喵喵咖啡牆壁",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 24,
+		icon = "qiangbicficon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 24002,
+		picture = "cafe/qiangbicf",
+		comfortable = 4,
+		tag = 3,
+		size = {},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24101] = {
+		advice = 0,
+		describe = "要來一杯藍山？還是曼特寧喵？",
+		count = 2,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "咖啡吧台",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 24,
+		icon = "bataicficon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 24101,
+		picture = "cafe/bataicf",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24102] = {
+		advice = 0,
+		describe = "呼呼…看書看累了就睡覺吧，晚安喵…",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "雙層書屋",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 24,
+		icon = "chuang2cficon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 24102,
+		picture = "cafe/chuang2cf",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					19,
+					-98
+				},
+				{
+					-1,
+					1
+				},
+				"cafe/chuang2cf_using"
+			},
+			{
+				"sleep",
+				{
+					-10,
+					38
+				},
+				{
+					-1,
+					1
+				},
+				"cafe/chuang2cf_using2"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24103] = {
+		advice = 0,
+		describe = "不可以隨便扯尾巴哦？",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "吧台座位",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 24,
+		icon = "dengzi2cficon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 24103,
+		picture = "cafe/dengzi2cf",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					6,
+					63
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24104] = {
+		advice = 0,
+		describe = "享受加大版的貓爪治癒喵",
+		count = 4,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "貓爪座椅",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 24,
+		icon = "dengzicficon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 24104,
+		picture = "cafe/dengzicf",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-7,
+					25
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24105] = {
+		advice = 0,
+		describe = "請輕踩喵…",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "貓耳地毯",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 24,
+		icon = "ditan1cficon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 24105,
+		picture = "cafe/ditan1cf",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24106] = {
+		advice = 0,
+		describe = "地毯沒特色怎麼辦？按幾個貓爪印上去！",
+		count = 1,
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		name = "爪印地毯",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 24,
+		icon = "ditan2cficon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 24106,
+		picture = "cafe/ditan2cf",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			7,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24107] = {
+		advice = 0,
+		describe = "要、要沉下去了喵！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "巨大咖啡杯",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 24,
+		icon = "kafeibeicficon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 24107,
+		picture = "cafe/kafeibeicf",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-34,
+					-9
+				},
+				{
+					1,
+					1
+				},
+				"cafe/kafeibeicf_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24108] = {
+		advice = 0,
+		describe = "給喵喵們玩樂的大貓爬架，甚至可以坐在上面。",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "貓咪樂園",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 24,
+		icon = "maojiacficon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 24108,
+		picture = "cafe/maojiacf",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					55,
+					73
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				"stand2",
+				{
+					114,
+					-131
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24109] = {
+		advice = 0,
+		describe = "看起來…很好吃喵？",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "袋裝貓糧",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 24,
+		icon = "maoliangcficon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 24109,
+		picture = "cafe/maoliangcf",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24110] = {
+		advice = 0,
+		describe = "喵嗚！（撲）",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "磨爪架",
+		is_get_time_note = 0,
+		rarity = 1,
+		gain_by = "",
+		themeId = 24,
+		icon = "pajiacficon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 24110,
+		picture = "cafe/pajiacf",
+		comfortable = 1,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24111] = {
+		advice = 0,
+		describe = "製造廢人的機器·紅色",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "懶人沙發·紅",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 24,
+		icon = "shafa1cficon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 24111,
+		picture = "cafe/shafa1cf",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-15,
+					19
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24112] = {
+		advice = 0,
+		describe = "製造廢人的機器·藍色",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "懶人沙發·藍",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 24,
+		icon = "shafa2cficon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 24112,
+		picture = "cafe/shafa2cf",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-15,
+					19
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24113] = {
+		advice = 0,
+		describe = "製造廢人的機器·黃色",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "懶人沙發·黃",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 24,
+		icon = "shafa3cficon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 24113,
+		picture = "cafe/shafa3cf",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					7.8,
+					26
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24114] = {
+		advice = 0,
+		describe = "不要跟喵喵搶窩喵！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "超大貓窩",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 24,
+		icon = "wocficon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 24114,
+		picture = "cafe/wocf",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-20,
+					-11
+				},
+				{
+					1,
+					1
+				},
+				"cafe/wocf_using",
+				0,
+				{
+					{
+						38,
+						38
+					},
+					{
+						276,
+						251
+					}
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24115] = {
+		advice = 0,
+		describe = "喵喵們喝水的地方",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "飲水器",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 24,
+		icon = "yinshuiqicficon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 24115,
+		picture = "cafe/yinshuiqicf",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24116] = {
+		advice = 0,
+		describe = "美味的魚罐頭喵！美味…大概……",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "鯡魚罐頭",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 24,
+		icon = "feiyuguantouicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 24116,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"feiyuguantouB",
+				"normal"
+			},
+			{
+				"feiyuguantouT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				25,
+				-75
+			}
+		},
+		interAction_group = {}
+	},
+	[24117] = {
+		advice = 0,
+		describe = "大型機關的核心部分喵！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "喵喵嚇人箱·核心",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 24,
+		icon = "amazingbox_icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 24117,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"maoxianghexin",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[24118] = {
+		advice = 0,
+		describe = "好想鑽進去喵…",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "紙袋",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 24,
+		icon = "zhidaicficon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 24118,
+		picture = "cafe/zhidaicf",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-13,
+					31
+				},
+				{
+					1,
+					1
+				},
+				"cafe/zhidaicf_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24119] = {
+		advice = 0,
+		describe = "好想！鑽進去！喵！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "紙箱",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 24,
+		icon = "zhixiangcficon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 24119,
+		picture = "cafe/zhixiangcf",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-15,
+					27
+				},
+				{
+					1,
+					1
+				},
+				"cafe/zhixiangcf_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24120] = {
+		advice = 0,
+		describe = "我開動了喵！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "大餐桌(貓用)",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 24,
+		icon = "zhuozi2cficon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 24120,
+		picture = "cafe/zhuozi2cf",
+		comfortable = 3,
+		tag = 1,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24121] = {
+		advice = 0,
+		describe = "喵喵們進餐的地方",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "貓食盆",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 24,
+		icon = "shipencficon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 24121,
+		picture = "cafe/shipencf",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24122] = {
+		advice = 0,
+		describe = "喵臉形狀的桌子",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "喵喵圓桌",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 24,
+		icon = "zhuozicficon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 24122,
+		picture = "cafe/zhuozicf",
+		comfortable = 2,
+		tag = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {
+			0,
+			-6.34
+		},
+		canputonGrid = {
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24123] = {
+		advice = 0,
+		describe = "嚇你一跳喵！",
+		count = 3,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "喵喵嚇人箱·褐",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 24,
+		icon = "amazingbox_brwon_icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 24123,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"amazingboxbrownB",
+				"normal"
+			},
+			{
+				"amazingboxbrownT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"yun"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					0,
+					170
+				},
+				{
+					504,
+					504
+				},
+				"cafe/maoxiang_mask"
+			},
+			{
+				0,
+				-55
+			}
+		},
+		animator = {
+			{
+				"amazingboxcolorControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[24124] = {
+		advice = 0,
+		describe = "嚇你一跳喵！",
+		count = 3,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "喵喵嚇人箱·灰",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 24,
+		icon = "amazingbox_gray_icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 24124,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"amazingboxgrayB",
+				"normal"
+			},
+			{
+				"amazingboxgrayT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"yun"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					0,
+					170
+				},
+				{
+					504,
+					504
+				},
+				"cafe/maoxiang_mask"
+			},
+			{
+				0,
+				-55
+			}
+		},
+		animator = {
+			{
+				"amazingboxcolorControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[24125] = {
+		advice = 0,
+		describe = "嚇你一跳喵！",
+		count = 3,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "喵喵嚇人箱·彩",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 24,
+		icon = "amazingbox_color_icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 24125,
+		picture = "",
+		comfortable = 4,
+		tag = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"amazingboxcolorB",
+				"normal"
+			},
+			{
+				"amazingboxcolorT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"yun"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					0,
+					170
+				},
+				{
+					504,
+					504
+				},
+				"cafe/maoxiang_mask"
+			},
+			{
+				0,
+				-55
+			}
+		},
+		animator = {
+			{
+				"amazingboxcolorControl"
+			}
+		},
+		interAction_group = {}
+	},
+	[24201] = {
+		advice = 0,
+		describe = "喵喵咖啡特供餅乾喵",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "喵喵餅乾",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 24,
+		icon = "binggancficon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 24201,
+		picture = "cafe/binggancf",
+		comfortable = 2,
+		tag = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24202] = {
+		advice = 0,
+		describe = "才、才沒有偷吃喵!",
+		count = 1,
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		name = "草莓蛋糕",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 24,
+		icon = "dangaocficon",
+		deblocking = 1,
+		level = 2,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 24202,
+		picture = "cafe/dangaocf",
+		comfortable = 2,
+		tag = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24301] = {
+		advice = 0,
+		describe = "要來一點喵喵嗎？",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "點單餐牌",
+		is_get_time_note = 0,
+		rarity = 2,
+		gain_by = "",
+		themeId = 24,
+		icon = "canpaicficon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 4,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 24301,
+		picture = "cafe/canpaicf",
+		comfortable = 2,
+		tag = 5,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24302] = {
+		advice = 0,
+		describe = "這裡是喵喵們的特等席喵!",
+		count = 2,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "窗台榻榻米",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 24,
+		icon = "chuanghucficon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 24302,
+		picture = "cafe/chuanghucf",
+		comfortable = 3,
+		tag = 5,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24303] = {
+		advice = 0,
+		describe = "看起來很開心的樣子……",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "掛畫：毛線團",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 24,
+		icon = "guahuacficon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 24303,
+		picture = "cafe/guahuacf",
+		comfortable = 3,
+		tag = 5,
+		size = {
+			2,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24304] = {
+		advice = 0,
+		describe = "掛在牆壁上的貓窩，要跳上去可不容易",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "壁掛式貓窩",
+		is_get_time_note = 0,
+		rarity = 3,
+		gain_by = "",
+		themeId = 24,
+		icon = "maoguacficon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 24304,
+		picture = "cafe/maoguacf",
+		comfortable = 3,
+		tag = 5,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24305] = {
+		advice = 0,
+		describe = "歡迎光臨喵！",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "喵喵咖啡正門",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 24,
+		icon = "mencficon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 24305,
+		picture = "cafe/mencf",
+		comfortable = 4,
+		tag = 5,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[24306] = {
+		advice = 0,
+		describe = "一起曬太陽喵",
+		count = 1,
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		name = "喵喵庭院",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 24,
+		icon = "yangtaicficon",
+		deblocking = 1,
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 24306,
+		picture = "cafe/yangtaicf",
+		comfortable = 4,
+		tag = 5,
+		size = {
+			8,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[35001] = {
 		advice = 0,
 		describe = "鬼魂荒野之地",
@@ -32753,6 +34379,41 @@ pg.furniture_data_template = {
 		22304,
 		22305,
 		22306,
+		24001,
+		24002,
+		24101,
+		24102,
+		24103,
+		24104,
+		24105,
+		24106,
+		24107,
+		24108,
+		24109,
+		24110,
+		24111,
+		24112,
+		24113,
+		24114,
+		24115,
+		24116,
+		24117,
+		24118,
+		24119,
+		24120,
+		24121,
+		24122,
+		24123,
+		24124,
+		24125,
+		24201,
+		24202,
+		24301,
+		24302,
+		24303,
+		24304,
+		24305,
+		24306,
 		35001,
 		35002,
 		35101,

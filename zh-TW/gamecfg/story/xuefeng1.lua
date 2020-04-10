@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"叫我{namecode:22}大人！\n\n<size=45>一　{namecode:22}大人登场</size>",
+					"叫我{namecode:22}大人！\n\n<size=45>一　{namecode:22}大人登場</size>",
 					1
 				}
 			}
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "？？？",
-			say = "听好了，我乃高贵的，幸运的，无敌的，{namecode:22}·Eight·{namecode:19}The.Geni……",
+			say = "聽好了，我乃高貴的，幸運的，無敵的，{namecode:22}·Eight·{namecode:19}The.Geni……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "？？？",
-			say = "Ge、Geni、Geni什么来着……总、总之是{namecode:22}大人啦！",
+			say = "Ge、Geni、Geni什麼來著……總、總之是{namecode:22}大人啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "居然能做这种自我介绍…果然是天才吗…",
+					content = "居然能做這種自我介紹…果然是天才嗎…",
 					flag = 2
 				}
 			}
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "总之{namecode:22}大人驾临到你的舰队了！努力发挥{namecode:22}大人的实力吧",
+			say = "總之{namecode:22}大人駕臨到你的艦隊了！努力發揮{namecode:22}大人的實力吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "(闪闪！)",
+			say = "(閃閃！)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "哼，给{namecode:22}大人跪好了吗？接下来就把{namecode:22}大人作为你舰队主力中的主力吧！",
+			say = "哼，給{namecode:22}大人跪好了嗎？接下來就把{namecode:22}大人作為你艦隊主力中的主力吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_story_school",
 			actor = 301160,
 			nameColor = "#a9f548",
-			say = "被{namecode:22}大人的威严吓得连话都说不出来了吗？果然还是贫弱的人类嘛！",
+			say = "被{namecode:22}大人的威嚴嚇得連話都說不出來了嗎？果然還是貧弱的人類嘛！",
 			effects = {
 				{
 					active = false,
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "一阵风吹过。",
+			say = "一陣風吹過。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			actor = 301610,
 			actorName = "{namecode:128}",
-			say = "那个……指挥官石化了……",
+			say = "那個……指揮官石化了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			}
 		},
 		{
-			say = "那、那个，{namecode:22}酱就是这样的…不要太惊讶……吧？",
+			say = "那、那個，{namecode:22}醬就是這樣的…不要太驚訝……吧？",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
@@ -285,7 +285,7 @@ return {
 			dir = -1,
 			actor = 301600,
 			actorName = "{namecode:143}",
-			say = "好、好帅……{namecode:142}，也给{namecode:143}做一个这样的“南蛮风自我介绍”吧！",
+			say = "好、好帥……{namecode:142}，也給{namecode:143}做一個這樣的“南蠻風自我介紹”吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = -1,
 			actor = 301590,
 			actorName = "{namecode:142}",
-			say = "诶！？我、我怎么会做这个啊！？指挥官，不理{namecode:22}真的没问题吗？",
+			say = "誒！？我、我怎麼會做這個啊！？指揮官，不理{namecode:22}真的沒問題嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			},
 			options = {
 				{
-					content = "忘了该说什么了……",
+					content = "忘了該說什麼了……",
 					flag = 1
 				}
 			}
@@ -326,7 +326,7 @@ return {
 			blackBg = true,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "呃呃呃…！居然敢无视{namecode:22}大人……你这是万死之罪口牙！",
+			say = "呃呃呃…！居然敢無視{namecode:22}大人……你這是萬死之罪口牙！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -2328,6 +2328,138 @@ pg.activity_shop_template = {
 		resource_num = 15,
 		order = 0
 	},
+	[5127] = {
+		commodity_id = 307061,
+		resource_category = 1,
+		activity = 40104,
+		num = 1,
+		num_limit = 1,
+		commodity_type = 4,
+		resource_type = 103,
+		id = 5127,
+		resource_num = 8000,
+		order = 0
+	},
+	[5128] = {
+		commodity_id = 2640,
+		resource_category = 1,
+		activity = 40104,
+		num = 1,
+		num_limit = 1,
+		commodity_type = 3,
+		resource_type = 103,
+		id = 5128,
+		resource_num = 6000,
+		order = 0
+	},
+	[5129] = {
+		commodity_id = 34160,
+		resource_category = 1,
+		activity = 40104,
+		num = 1,
+		num_limit = 1,
+		commodity_type = 3,
+		resource_type = 103,
+		id = 5129,
+		resource_num = 2500,
+		order = 0
+	},
+	[5130] = {
+		commodity_id = 37340,
+		resource_category = 1,
+		activity = 40104,
+		num = 1,
+		num_limit = 1,
+		commodity_type = 3,
+		resource_type = 103,
+		id = 5130,
+		resource_num = 2500,
+		order = 0
+	},
+	[5131] = {
+		commodity_id = 12104,
+		resource_category = 1,
+		activity = 40104,
+		num = 1,
+		num_limit = 1,
+		commodity_type = 5,
+		resource_type = 103,
+		id = 5131,
+		resource_num = 1200,
+		order = 0
+	},
+	[5132] = {
+		commodity_id = 12105,
+		resource_category = 1,
+		activity = 40104,
+		num = 1,
+		num_limit = 1,
+		commodity_type = 5,
+		resource_type = 103,
+		id = 5132,
+		resource_num = 1200,
+		order = 0
+	},
+	[5133] = {
+		commodity_id = 12106,
+		resource_category = 1,
+		activity = 40104,
+		num = 1,
+		num_limit = 1,
+		commodity_type = 5,
+		resource_type = 103,
+		id = 5133,
+		resource_num = 1200,
+		order = 0
+	},
+	[5134] = {
+		commodity_id = 12201,
+		resource_category = 1,
+		activity = 40104,
+		num = 1,
+		num_limit = 1,
+		commodity_type = 5,
+		resource_type = 103,
+		id = 5134,
+		resource_num = 300,
+		order = 0
+	},
+	[5135] = {
+		commodity_id = 30034,
+		resource_category = 1,
+		activity = 40104,
+		num = 1,
+		num_limit = 10,
+		commodity_type = 2,
+		resource_type = 103,
+		id = 5135,
+		resource_num = 300,
+		order = 0
+	},
+	[5136] = {
+		commodity_id = 50004,
+		resource_category = 1,
+		activity = 40104,
+		num = 1,
+		num_limit = 10,
+		commodity_type = 2,
+		resource_type = 103,
+		id = 5136,
+		resource_num = 50,
+		order = 0
+	},
+	[5137] = {
+		commodity_id = 50001,
+		resource_category = 1,
+		activity = 40104,
+		num = 1,
+		num_limit = 100,
+		commodity_type = 2,
+		resource_type = 103,
+		id = 5137,
+		resource_num = 15,
+		order = 0
+	},
 	all = {
 		101,
 		102,
@@ -2522,7 +2654,18 @@ pg.activity_shop_template = {
 		5034,
 		5035,
 		5036,
-		5037
+		5037,
+		5127,
+		5128,
+		5129,
+		5130,
+		5131,
+		5132,
+		5133,
+		5134,
+		5135,
+		5136,
+		5137
 	}
 }
 
