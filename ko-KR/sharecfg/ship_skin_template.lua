@@ -3068,6 +3068,112 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[101175] = {
+		name = "피크닉 해프닝?",
+		bullet_skin_main = "",
+		group_index = 5,
+		illustrator2 = -1,
+		desc = "지휘관, 하암——... 라피는, 지휘관이 먹여주는거 전혀 원하지 않아.... 응, 라피가 지휘관을 먹여주는게 맞지...",
+		bullet_skin_secondary = "",
+		ship_group = 10117,
+		painting = "lafei_8",
+		painting_hx = "",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "113",
+		isSwimsuit = 0,
+		skin_type = 4,
+		id = 101175,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "lafei_8",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 35,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		isHX = 0,
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.454,
+					1.293,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.01,
+					-0.006,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.537,
+					1.166,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.33,
+							2.42,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[101176] = {
 		name = "토끼 아이돌・나른나른",
 		bullet_skin_main = "",
@@ -27450,7 +27556,9 @@ pg.ship_skin_template = {
 		lip_sync_gain = 0,
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
-		tag = {},
+		tag = {
+			2
+		},
 		live2d_offset = {
 			0,
 			0,
@@ -111773,6 +111881,7 @@ pg.ship_skin_template = {
 			101172,
 			101173,
 			101174,
+			101175,
 			101176,
 			101178,
 			101179
@@ -111861,6 +111970,7 @@ pg.ship_skin_template = {
 		101172,
 		101173,
 		101174,
+		101175,
 		101176,
 		101178,
 		101179,
