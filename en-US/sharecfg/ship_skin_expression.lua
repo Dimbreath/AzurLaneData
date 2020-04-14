@@ -14042,6 +14042,37 @@ pg.ship_skin_expression = {
 		battle = "1",
 		login = "5",
 		detail = ""
+	},
+	lafei_8 = {
+		default = "",
+		feeling3 = "1",
+		main_1 = "1",
+		touch = "5",
+		expedition = "",
+		win_mvp = "1",
+		home = "",
+		unlock = "",
+		touch2 = "2",
+		mail = "",
+		painting = "lafei_8",
+		mission = "2",
+		main_2 = "",
+		lose = "5",
+		main_3 = "3",
+		feeling1 = "3",
+		profile = "",
+		feeling4 = "3",
+		feeling5 = "1",
+		propose = "1",
+		hp_warning = "2",
+		upgrade = "3",
+		mission_complete = "1",
+		headtouch = "1",
+		feeling2 = "",
+		skill = "2",
+		battle = "2",
+		login = "4",
+		detail = "4"
 	}
 }
 
