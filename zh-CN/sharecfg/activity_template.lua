@@ -2789,23 +2789,45 @@ pg.activity_template = {
 			"clutter/donghuawanbo_login"
 		}
 	},
-	[556] = {
-		mark = 20200409,
-		title_res_tag = "",
-		type = 26,
+	[560] = {
+		mark = 20200416,
+		title_res_tag = "yamaijia_fuke",
+		type = 18,
 		login_pop = 0,
-		config_id = 0,
-		is_show = 0,
-		config_data = "activity_drop_556",
-		bg = "",
-		id = 556,
+		config_id = 3,
+		is_show = 11,
+		config_client = "",
+		id = 560,
+		config_data = {
+			{
+				15540
+			},
+			{
+				15541
+			},
+			{
+				15542
+			},
+			{
+				15543
+			},
+			{
+				15544
+			},
+			{
+				15545
+			},
+			{
+				15546
+			}
+		},
 		time = {
 			timer,
 			{
 				{
 					2020,
 					4,
-					9
+					16
 				},
 				{
 					0,
@@ -2817,7 +2839,7 @@ pg.activity_template = {
 				{
 					2020,
 					4,
-					16
+					29
 				},
 				{
 					23,
@@ -2826,6 +2848,21 @@ pg.activity_template = {
 				}
 			}
 		},
+		bg = {
+			"clutter/activity_bg_yamaijiafuke"
+		}
+	},
+	[556] = {
+		mark = 20200409,
+		title_res_tag = "",
+		time = "stop",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_556",
+		bg = "",
+		id = 556,
 		config_client = {
 			id = 3,
 			bg = "loadingbg/bg_build_3_act",
@@ -3802,6 +3839,7 @@ pg.activity_template = {
 		548,
 		549,
 		555,
+		560,
 		556,
 		557,
 		558,

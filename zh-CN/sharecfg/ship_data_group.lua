@@ -736,11 +736,11 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"进行重型舰建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
+						projectName = "light",
 						page = 1
 					}
 				},
@@ -778,11 +778,11 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"进行重型舰建造",
+				"进行轻型舰建造",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
+						projectName = "light",
 						page = 1
 					}
 				},
@@ -4525,9 +4525,13 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时建造",
+				"进行特型舰建造",
 				{
-					""
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}

@@ -32,6 +32,7 @@ slot0.SHOW_NEXT_ACTIVITY = "show next activity"
 slot0.OPEN_RED_PACKET_LAYER = "ActivityMediator:OPEN_RED_PACKET_LAYER"
 slot0.GO_MINI_GAME = "ActivityMediator.GO_MINI_GAME"
 slot0.GO_DECODE_MINI_GAME = "ActivityMediator:GO_DECODE_MINI_GAME"
+slot0.ON_MONTH_ACHIEVE = "on month achieve"
 
 function slot0.register(slot0)
 	slot0.UIAvalibleCallbacks = {}
@@ -320,7 +321,13 @@ function slot0.handleNotification(slot0, slot1)
 
 		slot0:showNextActivity()
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_AWARDS then
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot3.callback)
+		if slot3.activityId == ActivityConst.MONTH_SIGN_ACTIVITY_ID then
+			slot0.viewComponent:setSelectOpenHandle(slot3.activityId, function (slot0)
+				slot0.viewComponent:emit(ActivityMediator.ON_MONTH_ACHIEVE, slot1.awards, slot1.callback)
+			end)
+		else
+			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot3.callback)
+		end
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_BB_RESULT then
 		slot0.viewComponent:displayBBResult(slot3.numbers, slot3.callback)
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_LOTTERY_AWARD_RESULT then
@@ -379,10 +386,16 @@ function slot0.showNextActivity(slot0)
 	if slot1:findNextAutoActivity() then
 		slot0.viewComponent:verifyTabs(slot2.id)
 
-		if slot2:getConfig("type") == ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN or slot3 == ActivityConst.ACTIVITY_TYPE_MONTHSIGN then
+		if slot2:getConfig("type") == ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN then
 			slot0:sendNotification(GAME.ACTIVITY_OPERATION, {
 				cmd = 1,
 				activity_id = slot2.id
+			})
+		elseif slot3 == ActivityConst.ACTIVITY_TYPE_MONTHSIGN then
+			slot0:sendNotification(GAME.ACTIVITY_OPERATION, {
+				activity_id = slot2.id,
+				cmd = (slot2:getSpecialData("reMonthSignDay") ~= nil and 3) or 1,
+				arg1 = slot2:getSpecialData("reMonthSignDay")
 			})
 		elseif slot3 == ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN then
 			slot0:sendNotification(GAME.ACTIVITY_OPERATION, {
