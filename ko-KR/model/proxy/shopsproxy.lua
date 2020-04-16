@@ -9,8 +9,9 @@ slot0.ACTIVITY_SHOP_UPDATED = "ShopsProxy:ACTIVITY_SHOP_UPDATED"
 slot0.GUILD_SHOP_ADDED = "ShopsProxy:GUILD_SHOP_ADDED"
 slot0.GUILD_SHOP_UPDATED = "ShopsProxy:GUILD_SHOP_UPDATED"
 slot0.ACTIVITY_SHOPS_UPDATED = "ShopsProxy:ACTIVITY_SHOPS_UPDATED"
-slot0.SHAM_SHOP_UPDATED = "SHAM_SHOP_UPDATED"
-slot0.FRAGMENT_SHOP_UPDATED = "FRAGMENT_SHOP_UPDATED"
+slot0.SHAM_SHOP_UPDATED = "ShopsProxy:SHAM_SHOP_UPDATED"
+slot0.FRAGMENT_SHOP_UPDATED = "ShopsProxy:FRAGMENT_SHOP_UPDATED"
+slot0.ACTIVITY_SHOP_GOODS_UPDATED = "ShopsProxy:ACTIVITY_SHOP_GOODS_UPDATED"
 
 function slot0.register(slot0)
 	slot0.shopStreet = nil
@@ -18,7 +19,7 @@ function slot0.register(slot0)
 	slot0.guildShop = nil
 
 	slot0:on(22102, function (slot0)
-		getProxy(ShopsProxy):setShopStreet(ShoppingStreet.New(slot0.street), true)
+		getProxy(ShopsProxy):setShopStreet(ShoppingStreet.New(slot0.street))
 	end)
 	slot0:on(60034, function (slot0)
 		slot1 = GuildShop.New(slot0.info)
@@ -41,13 +42,16 @@ function slot0.register(slot0)
 	slot0.timers = {}
 end
 
-function slot0.setShopStreet(slot0, slot1, slot2)
+function slot0.setShopStreet(slot0, slot1)
 	slot0.shopStreet = slot1
 
 	slot0:sendNotification(slot0.SHOPPINGSTREET_UPDATE, {
-		shopStreet = Clone(slot0.shopStreet),
-		reset = slot2
+		shopStreet = Clone(slot0.shopStreet)
 	})
+end
+
+function slot0.UpdateShopStreet(slot0, slot1)
+	slot0.shopStreet = slot1
 end
 
 function slot0.getShopStreet(slot0)
@@ -60,12 +64,12 @@ end
 
 function slot0.addMeritorousShop(slot0, slot1)
 	slot0.meritorousShop = slot1
+
+	slot0:sendNotification(slot0.MERITOROUS_SHOP_UPDATED, Clone(slot1))
 end
 
 function slot0.updateMeritorousShop(slot0, slot1)
 	slot0.meritorousShop = slot1
-
-	slot0:sendNotification(slot0.MERITOROUS_SHOP_UPDATED, Clone(slot1))
 end
 
 function slot0.setNormalList(slot0, slot1)
@@ -138,6 +142,19 @@ function slot0.updateActivityShop(slot0, slot1, slot2)
 	slot0:sendNotification(slot0.ACTIVITY_SHOP_UPDATED, {
 		activityId = slot1,
 		shop = slot2:clone()
+	})
+end
+
+function slot0.UpdateActivityGoods(slot0, slot1, slot2, slot3)
+	slot4 = slot0:getActivityShopById(slot1)
+
+	slot4:getGoodsById(slot2).addBuyCount(slot5, slot3)
+
+	slot0.activityShops[slot1] = slot4
+
+	slot0:sendNotification(slot0.ACTIVITY_SHOP_GOODS_UPDATED, {
+		activityId = slot1,
+		goodsId = slot2
 	})
 end
 
@@ -262,20 +279,28 @@ function slot0.updateGuildShop(slot0, slot1, slot2)
 	})
 end
 
-function slot0.updateShamShop(slot0, slot1)
+function slot0.AddShamShop(slot0, slot1)
 	slot0.shamShop = slot1
 
 	slot0:sendNotification(slot0.SHAM_SHOP_UPDATED, slot1)
+end
+
+function slot0.updateShamShop(slot0, slot1)
+	slot0.shamShop = slot1
 end
 
 function slot0.getShamShop(slot0)
 	return slot0.shamShop
 end
 
-function slot0.updateFragmentShop(slot0, slot1)
+function slot0.AddFragmentShop(slot0, slot1)
 	slot0.fragmentShop = slot1
 
 	slot0:sendNotification(slot0.FRAGMENT_SHOP_UPDATED, slot1)
+end
+
+function slot0.updateFragmentShop(slot0, slot1)
+	slot0.fragmentShop = slot1
 end
 
 function slot0.getFragmentShop(slot0)

@@ -10,7 +10,7 @@ function slot0.OnFirstFlush(slot0)
 	slot0.super.OnFirstFlush(slot0)
 	onButton(slot0, slot0.shopBtn, function ()
 		slot0:emit(ActivityMediator.GO_SHOPS_LAYER, {
-			warp = ShopsScene.TYPE_ACTIVITY,
+			warp = NewShopsScene.TYPE_ACTIVITY,
 			actId = slot0.activity.id
 		})
 	end)

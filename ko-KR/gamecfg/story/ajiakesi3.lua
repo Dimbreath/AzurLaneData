@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"我的美好回忆\n\n<size=45>三 秘书舰的责任</size>",
+					"나의 아름다운 기억\n\n<size=45>3. 비서함의 책임</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "以上就是今天的事务和演习的安排，以及各个警戒海域的情况报告。",
+			say = "이상이 바로 오늘의 업무와 훈련 일정, 그리고 각 경계 해역의 상황 보고입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "学院的物资库存统计、商店到货商品的入库申请、接到的军事委托的整理、兵装的制造进度、设计图仓库的清点、",
+			say = "학원의 물자 창고 저장 통계, 상점 내 상품 입고 신청, 접수한 군사 의뢰 정리, 장비 제조 진도, 설계도 창고 정리,",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "塞壬观测数据的提交、心智魔方的维护、最后是伊丽莎白陛下的公务辅助安排……",
+			say = "세이렌 관측 데이터 제출, 성정 큐브 점검, 그리고 퀸 엘리자베스 폐하의 공무 보조 일정......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "全都如报告书所述，顺利进行中。",
+			say = "모두 보고서에 기술되어 있는대로, 순조롭게 진행 중입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			actor = 202030,
 			nameColor = "#92fc63",
-			say = "好了，今天的秘书舰工作到此结束。指挥官，辛苦啦。",
+			say = "이상입니다. 오늘의 비서함 업무는 이로써 끝입니다. 지휘관, 수고하세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			},
 			options = {
 				{
-					content = "向阿贾克斯道谢",
+					content = "에이잭스에게 감사를 표한다.",
 					flag = 1
 				}
 			}
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "呵呵。这就是秘书舰的工作。指挥官只要放心坐在这里就行啦。",
+			say = "하하. 이게 비서함의 일이죠. 지휘관은 마음 놓고 여기 앉아 계시면 돼요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "……晚饭和明天的早饭，你会做的吧？还有房间的打扫",
+			say = "...... 저녁 식사와 내일 아침 식사는, 할 수 있죠? 그리고, 방 청소도.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "明天是休息日，我打算和阿基里斯去买东西呢，麻烦你早一点哦。",
+			say = "내일은 휴일이라서, 아킬레스와 쇼핑을 갈 거에요. 일찍 준비해주세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "阿贾克斯完成工作非常出色，但她作为秘书舰最大的特点却是——",
+			say = "에이잭스는 일을 매우 잘한다. 하지만 그녀가 비서함일 때의 가장 큰 특징은——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "属于“打杂”范围的业务真的一点都不碰。",
+			say = "“잡일꾼” 범주에 속하는 일은 정말 조금도 손대지 않는다는 것이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "有什么不满吗？“秘书舰”份内的工作我可是都有好好完成的呢。",
+			say = "불만 있으신가요? “비서함”의 일은 모두 잘 마무리했는데요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "还是说，指挥官想让我打杂？",
+			say = "아니면, 지휘관은 저에게 잡일을 시키고 싶으신가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "呵呵，我也不是不能帮你做一点点……不过指挥官的评分会掉哦？",
+			say = "하하, 뭐 도와줄 수 없는 것은 아닌데...... 지휘관의 점수가 깎일 수 있어요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "再不然，让女仆队她们做也行啊？那样的话…就是不但把杂活推给秘书舰，连女仆队也不放过…了，是吧♪",
+			say = "아니면, 메이드들에게 시켜도 되지요? 그러면... 잡일을 비서함에게 맡기면서 메이드도... 놓치지 않게 되겠죠, 그쵸?♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			say = "这种事呀，应该是满怀喜悦地主动去做的才对吧？小猪仔♪",
+			say = "이런 일은, 기쁘게 주동적으로 해야하는 것이 맞겠지요? 아기돼지♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "阿贾克斯，不擅长家务活。",
+			say = "에이잭스는, 가사일에 재능이 없다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

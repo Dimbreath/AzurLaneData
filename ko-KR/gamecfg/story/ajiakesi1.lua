@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"我的美好回忆\n\n<size=45>一 小小的午餐会</size>",
+					"나의 아름다운 기억\n\n<size=45>1. 소소한 오찬회</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "某日，港区・学园中庭",
+			say = "어느 날, 항구・학원 정원",
 			bgName = "bg_story_school",
 			bgm = "story-1",
 			typewriter = {
@@ -31,7 +31,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "大家好久没一起吃午饭了呢——",
+			say = "다들 같이 점심 먹는 거 엄청 오랜만이다~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			}
 		},
 		{
-			say = "利安得做的菜果然还是那么好吃呢。",
+			say = "리엔더가 만든 음식은 역시 맛있네요.",
 			side = 0,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			actor = 202010,
 			nameColor = "#92fc63",
-			say = "阿贾克斯你也该学学做饭了吧？每次都让指挥官做…",
+			say = "에이잭스도 요리 배우셔야 하지 않나요? 매번 지휘관님께 만들어달라...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,11 +79,11 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "乐意之至！Your Highness!"
+					content = "기꺼이 하죠! Your Highness!"
 				},
 				{
 					flag = 2,
-					content = "可、可恶！但是不知不觉就…！"
+					content = "이, 이런! 나도 모르게 그만...!"
 				}
 			}
 		},
@@ -94,7 +94,7 @@ return {
 			optionFlag = 1,
 			actor = 202020,
 			nameColor = "#92fc63",
-			say = "不过本人也乐在其中，其实也没什么不好的嘛？",
+			say = "근데 본인이 즐거워하니까, 사실 나쁠 건 없지 않아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			optionFlag = 1,
 			actor = 202030,
 			nameColor = "#92fc63",
-			say = "对吧？别看这样，我家的指挥官可是很能干的呢。",
+			say = "그렇죠? 그렇게 보지 마세요. 우리 지휘관은 솜씨도 좋다구요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			optionFlag = 2,
 			actor = 202020,
 			nameColor = "#92fc63",
-			say = "是、是这样吗…？",
+			say = "그, 그래...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			optionFlag = 2,
 			actor = 202030,
 			nameColor = "#92fc63",
-			say = "呵呵♪究竟是怎么回事呢～？",
+			say = "하하♪ 대체 어떻게 된 일일까요~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "阿贾克斯？不可以再捉弄指挥官了哦？来喝点水吧。",
+			say = "에이잭스? 지휘관님을 조롱하면 안돼요. 물 좀 마셔요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgName = "bg_story_school",
 			side = 0,
 			dir = 1,
-			say = "谢谢…呼。啊，指挥官也口渴了吧？要不要喝点水？",
+			say = "고마워요... 후. 아, 지휘관도 목마르지? 물 마실래?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "阿贾克斯说着把刚喝了一口的塑料水瓶递了过来",
+			say = "에이잭스는 말하면서 방금 마신 플라스틱 물병을 건넸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "这、这难道是……！间接kiss！？",
+			say = "이, 이건 설마......! 간접 kiss!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			actor = 202030,
 			nameColor = "#92fc63",
-			say = "来喝一口？还是说…想要我喂你喝？",
+			say = "마셔요. 아니면... 먹여 드려야 하나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			},
 			options = {
 				{
-					content = "（咽口水）",
+					content = "(물을 마신다)",
 					flag = 3
 				}
 			}
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_school",
 			side = 1,
 			dir = 1,
-			say = "真是的……虽然不知道你们说的“简洁kiss”是什么…不过阿贾克斯，可不能老为难指挥官哦？",
+			say = "정말이지...... 두 분이 말하는 “간접 kiss”가 뭔지는 모르겠지만... 에이잭스, 지휘관님을 난처하게 하면 안돼요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "好像也有点不对…",
+			say = "뭔가 틀린 듯 한데...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "好了好了，可不能教坏利安得呢",
+			say = "됐어요, 됐어. 리엔더에게 나쁜 것을 가르쳐줄 순 없죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
-			say = "指挥官想喝的话，下次想喝多少我喂你多少～",
+			say = "지휘관, 마시고 싶으면, 다음에 마시고 싶은만큼 먹여줄게요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			blackBg = true,
 			hideOther = true,
 			nameColor = "#92fc63",
-			say = "敬请期待吧，呵呵呵♪",
+			say = "기대해주세요. 하하하♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

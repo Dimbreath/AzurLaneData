@@ -6,7 +6,7 @@ pg.ship_data_group = {
 		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		nationality = 1,
+		nationality = 98,
 		hide = 0,
 		index_id = 1,
 		group_type = 10000,
@@ -47,7 +47,7 @@ pg.ship_data_group = {
 		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		nationality = 1,
+		nationality = 98,
 		hide = 0,
 		index_id = 2,
 		group_type = 10001,
@@ -14217,6 +14217,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[395] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 8,
+		hide = 0,
+		index_id = 355,
+		group_type = 80104,
+		code = 395,
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"A",
+			"B",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"이벤트：빛과 그림자의 아이리스",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[347] = {
 		type = 1,
 		trans_skin = 0,
@@ -14250,7 +14281,7 @@ pg.ship_data_group = {
 	},
 	[349] = {
 		type = 2,
-		trans_skin = 0,
+		trans_skin = 802019,
 		trans_type = 2,
 		handbook_type = 0,
 		redirect_id = 101,
@@ -14267,8 +14298,17 @@ pg.ship_data_group = {
 			"B",
 			"C"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_skill = {
+			12360
+		},
 		description = {
 			{
 				"이벤트：빛과 그림자의 아이리스",
@@ -14340,6 +14380,37 @@ pg.ship_data_group = {
 		trans_skill = {
 			4071
 		},
+		description = {
+			{
+				"이벤트：빛과 그림자의 아이리스",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[394] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 9,
+		hide = 0,
+		index_id = 360,
+		group_type = 90111,
+		code = 394,
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
 		description = {
 			{
 				"이벤트：빛과 그림자의 아이리스",
@@ -15979,10 +16050,12 @@ pg.ship_data_group = {
 		441,
 		348,
 		359,
+		395,
 		347,
 		349,
 		350,
 		351,
+		394,
 		352,
 		353,
 		418,

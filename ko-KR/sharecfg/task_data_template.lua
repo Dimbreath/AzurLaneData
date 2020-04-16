@@ -8088,6 +8088,262 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5071] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5065,
+		type = 5,
+		name = "소소한 오찬회",
+		count_inherit = 0,
+		desc = "어뢰 튀김을 3개 제출한다.",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "ajiakesi",
+		award_choice = "",
+		level = 1,
+		next_task = "5072",
+		visibility = 1,
+		story_id = "AJIAKESI1",
+		target_id_for_client = 50003,
+		id = 5071,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5072] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5066,
+		type = 5,
+		name = "영예의 의미",
+		count_inherit = 0,
+		desc = "임의의 장비를 10회 강화한다.",
+		target_id_2 = "",
+		sub_type = 40,
+		added_tip = 1,
+		story_icon = "ajiakesi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5073",
+		visibility = 1,
+		story_id = "AJIAKESI2",
+		target_id_for_client = 0,
+		id = 5072,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5073] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5067,
+		type = 5,
+		name = "비서함의 책임",
+		count_inherit = 0,
+		desc = "에이잭스를 포함한 함대를 출격시켜\n20회 승리한다.",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "ajiakesi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5074",
+		visibility = 1,
+		story_id = "AJIAKESI3",
+		target_id_for_client = 20203,
+		id = 5073,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "20203",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5074] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5068,
+		type = 5,
+		name = "적인가 아군인가?",
+		count_inherit = 0,
+		desc = "에이잭스를 포함한 함대로 데일리 챌린지를\n3회 클리어한다.",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "ajiakesi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5075",
+		visibility = 1,
+		story_id = "AJIAKESI4",
+		target_id_for_client = 20203,
+		id = 5074,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "20203",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5075] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5069,
+		type = 5,
+		name = "귀여운 아기돼지",
+		count_inherit = 0,
+		desc = "에이잭스의 호감도를 100까지 달성한다.",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "ajiakesi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5076",
+		visibility = 1,
+		story_id = "AJIAKESI5",
+		target_id_for_client = 20203,
+		id = 5075,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "20203",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5076] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5070,
+		type = 5,
+		name = "허세와 진심·상",
+		count_inherit = 0,
+		desc = "에이잭스의 한계돌파를 3회 진행한다.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "ajiakesi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5077",
+		visibility = 1,
+		story_id = "AJIAKESI6",
+		target_id_for_client = 202034,
+		id = 5076,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "202034",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5077] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5071,
+		type = 5,
+		name = "허세와 진심·하",
+		count_inherit = 0,
+		desc = "에이잭스의 레벨을 100까지 달성한다.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "ajiakesi",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "AJIAKESI7",
+		target_id_for_client = 20203,
+		id = 5077,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "20203",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				2
+			}
+		}
+	},
 	[5121] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -59423,6 +59679,692 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[14730] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91250,
+		type = 36,
+		name = "『法系复刻活动』-日常建造",
+		count_inherit = 0,
+		desc = "함선을 3회 건조한다.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14730,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59133,
+				300
+			}
+		}
+	},
+	[14731] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91251,
+		type = 36,
+		name = "『法系复刻活动』-日常出击",
+		count_inherit = 0,
+		desc = "함대를 출격시켜 15회 승리한다.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14731,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59133,
+				300
+			}
+		}
+	},
+	[14732] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91252,
+		type = 36,
+		name = "『法系复刻活动』-日常困难本",
+		count_inherit = 0,
+		desc = "임의의 어려움 난이도 메인 스테이지를 1회\n클리어한다.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14732,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59133,
+				100
+			}
+		}
+	},
+	[14733] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91253,
+		type = 6,
+		name = "『法系复刻活动』通关A1/C1",
+		count_inherit = 0,
+		desc = "A1 혹은 C1 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14734",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14733,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240001,
+			1240011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59133,
+				200
+			}
+		}
+	},
+	[14734] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91254,
+		type = 6,
+		name = "『法系复刻活动』通关A2/C2",
+		count_inherit = 0,
+		desc = "A2 혹은 C2 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14735",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14734,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240003,
+			1240013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59133,
+				400
+			}
+		}
+	},
+	[14735] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91255,
+		type = 6,
+		name = "『法系复刻活动』通关A3/C3",
+		count_inherit = 0,
+		desc = "A3 혹은 C3 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14736",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14735,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240004,
+			1240014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59133,
+				600
+			}
+		}
+	},
+	[14736] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91256,
+		type = 6,
+		name = "『法系复刻活动』通关B1/D1",
+		count_inherit = 0,
+		desc = "B1 혹은 D1 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14737",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14736,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240005,
+			1240015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59133,
+				400
+			}
+		}
+	},
+	[14737] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91257,
+		type = 6,
+		name = "『法系复刻活动』通关B2/D2",
+		count_inherit = 0,
+		desc = "B2 혹은 D2 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14738",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14737,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240007,
+			1240017
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59133,
+				600
+			}
+		}
+	},
+	[14738] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91258,
+		type = 6,
+		name = "『法系复刻活动』通关B3/D3",
+		count_inherit = 0,
+		desc = "B3 혹은 D3 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14740",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14738,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240008,
+			1240018
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59133,
+				800
+			}
+		}
+	},
+	[14739] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91259,
+		type = 6,
+		name = "『法系复刻活动』通关D3",
+		count_inherit = 0,
+		desc = "D3 클리어 <color=#92fc63>(훈장은 중복 획득할 수 없습니다)</color>",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1240018,
+		id = 14739,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1240018",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				129,
+				1
+			}
+		}
+	},
+	[14740] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91260,
+		type = 6,
+		name = "『法系复刻活动』通关SP",
+		count_inherit = 0,
+		desc = "SP 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1240019,
+		id = 14740,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1240019",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
+	[14741] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91261,
+		type = 6,
+		name = "『法系复刻活动』A1/C1的3星",
+		count_inherit = 0,
+		desc = "A1 혹은 C1의 모든 작전목표(★3)를 달성!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14742",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14741,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240001,
+			1240011
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		}
+	},
+	[14742] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91262,
+		type = 6,
+		name = "『法系复刻活动』A2/C2的3星",
+		count_inherit = 0,
+		desc = "A2 혹은 C2의 모든 작전목표(★3)를 달성!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14743",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14742,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240003,
+			1240013
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		}
+	},
+	[14743] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91263,
+		type = 6,
+		name = "『法系复刻活动』A3/C3的3星",
+		count_inherit = 0,
+		desc = "A3 혹은 C3의 모든 작전목표(★3)를 달성!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14744",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14743,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240004,
+			1240014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		}
+	},
+	[14744] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91264,
+		type = 6,
+		name = "『法系复刻活动』B1/D1的3星",
+		count_inherit = 0,
+		desc = "B1 혹은 D1의 모든 작전목표(★3)를 달성!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14745",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14744,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240005,
+			1240015
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		}
+	},
+	[14745] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91265,
+		type = 6,
+		name = "『法系复刻活动』B2/D2的3星",
+		count_inherit = 0,
+		desc = "B2 혹은 D2의 모든 작전목표(★3)를 달성!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14746",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14745,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240007,
+			1240017
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		}
+	},
+	[14746] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91266,
+		type = 6,
+		name = "『法系复刻活动』B3/D3的3星",
+		count_inherit = 0,
+		desc = "B3 혹은 D3의 모든 작전목표(★3)를 달성!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 14746,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240008,
+			1240018
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		}
+	},
 	[14757] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -86130,6 +87072,692 @@ pg.task_data_template = {
 		open_need = {},
 		award_display = {}
 	},
+	[999933] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91250,
+		type = 36,
+		name = "『法系复刻活动』-日常建造",
+		count_inherit = 0,
+		desc = "함선을 3회 건조한다.",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999933,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59133,
+				300
+			}
+		}
+	},
+	[999934] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91251,
+		type = 36,
+		name = "『法系复刻活动』-日常出击",
+		count_inherit = 0,
+		desc = "함대를 출격시켜 15회 승리한다.",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999934,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59133,
+				300
+			}
+		}
+	},
+	[999935] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91252,
+		type = 36,
+		name = "『法系复刻活动』-日常困难本",
+		count_inherit = 0,
+		desc = "임의의 어려움 난이도 메인 스테이지를 1회\n클리어한다.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999935,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59133,
+				100
+			}
+		}
+	},
+	[999936] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91253,
+		type = 6,
+		name = "『法系复刻活动』通关A1/C1",
+		count_inherit = 0,
+		desc = "A1 혹은 C1 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14734",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999936,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240001,
+			1240011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59133,
+				200
+			}
+		}
+	},
+	[999937] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91254,
+		type = 6,
+		name = "『法系复刻活动』通关A2/C2",
+		count_inherit = 0,
+		desc = "A2 혹은 C2 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14735",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999937,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240003,
+			1240013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59133,
+				400
+			}
+		}
+	},
+	[999938] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91255,
+		type = 6,
+		name = "『法系复刻活动』通关A3/C3",
+		count_inherit = 0,
+		desc = "A3 혹은 C3 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14736",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999938,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240004,
+			1240014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59133,
+				600
+			}
+		}
+	},
+	[999939] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91256,
+		type = 6,
+		name = "『法系复刻活动』通关B1/D1",
+		count_inherit = 0,
+		desc = "B1 혹은 D1 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14737",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999939,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240005,
+			1240015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59133,
+				400
+			}
+		}
+	},
+	[999940] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91257,
+		type = 6,
+		name = "『法系复刻活动』通关B2/D2",
+		count_inherit = 0,
+		desc = "B2 혹은 D2 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14738",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999940,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240007,
+			1240017
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59133,
+				600
+			}
+		}
+	},
+	[999941] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91258,
+		type = 6,
+		name = "『法系复刻活动』通关B3/D3",
+		count_inherit = 0,
+		desc = "B3 혹은 D3 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14740",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999941,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240008,
+			1240018
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59133,
+				800
+			}
+		}
+	},
+	[999942] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91259,
+		type = 6,
+		name = "『法系复刻活动』通关D3",
+		count_inherit = 0,
+		desc = "D3 클리어 <color=#92fc63>(훈장은 중복 획득할 수 없습니다)</color>",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1240018,
+		id = 999942,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1240018",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				129,
+				1
+			}
+		}
+	},
+	[999943] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91260,
+		type = 6,
+		name = "『法系复刻活动』通关SP",
+		count_inherit = 0,
+		desc = "SP 클리어",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1240019,
+		id = 999943,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1240019",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
+	[999944] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 91261,
+		type = 6,
+		name = "『法系复刻活动』A1/C1的3星",
+		count_inherit = 0,
+		desc = "A1 혹은 C1의 모든 작전목표(★3)를 달성!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14742",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999944,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240001,
+			1240011
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		}
+	},
+	[999945] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91262,
+		type = 6,
+		name = "『法系复刻活动』A2/C2的3星",
+		count_inherit = 0,
+		desc = "A2 혹은 C2의 모든 작전목표(★3)를 달성!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14743",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999945,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240003,
+			1240013
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		}
+	},
+	[999946] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91263,
+		type = 6,
+		name = "『法系复刻活动』A3/C3的3星",
+		count_inherit = 0,
+		desc = "A3 혹은 C3의 모든 작전목표(★3)를 달성!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14744",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999946,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240004,
+			1240014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		}
+	},
+	[999947] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91264,
+		type = 6,
+		name = "『法系复刻活动』B1/D1的3星",
+		count_inherit = 0,
+		desc = "B1 혹은 D1의 모든 작전목표(★3)를 달성!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14745",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999947,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240005,
+			1240015
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		}
+	},
+	[999948] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91265,
+		type = 6,
+		name = "『法系复刻活动』B2/D2的3星",
+		count_inherit = 0,
+		desc = "B2 혹은 D2의 모든 작전목표(★3)를 달성!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "14746",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999948,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240007,
+			1240017
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		}
+	},
+	[999949] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 91266,
+		type = 6,
+		name = "『法系复刻活动』B3/D3的3星",
+		count_inherit = 0,
+		desc = "B3 혹은 D3의 모든 작전목표(★3)를 달성!",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 999949,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1240008,
+			1240018
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		}
+	},
 	[999950] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -89647,6 +91275,13 @@ pg.task_data_template = {
 		5065,
 		5066,
 		5067,
+		5071,
+		5072,
+		5073,
+		5074,
+		5075,
+		5076,
+		5077,
 		5121,
 		5122,
 		5123,
@@ -91082,6 +92717,23 @@ pg.task_data_template = {
 		14671,
 		14672,
 		14673,
+		14730,
+		14731,
+		14732,
+		14733,
+		14734,
+		14735,
+		14736,
+		14737,
+		14738,
+		14739,
+		14740,
+		14741,
+		14742,
+		14743,
+		14744,
+		14745,
+		14746,
 		14757,
 		14758,
 		14759,
@@ -91791,6 +93443,23 @@ pg.task_data_template = {
 		60127,
 		60128,
 		60129,
+		999933,
+		999934,
+		999935,
+		999936,
+		999937,
+		999938,
+		999939,
+		999940,
+		999941,
+		999942,
+		999943,
+		999944,
+		999945,
+		999946,
+		999947,
+		999948,
+		999949,
 		999950,
 		999951,
 		999952,

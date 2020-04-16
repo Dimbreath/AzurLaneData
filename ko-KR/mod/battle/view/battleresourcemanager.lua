@@ -782,7 +782,6 @@ function slot5.GetBulletResource(slot0, slot1)
 
 	slot2[#slot2 + 1] = slot2.GetFXPath(slot3.hit_fx)
 	slot2[#slot2 + 1] = slot2.GetFXPath(slot3.miss_fx)
-	slot2[#slot2 + 1] = slot2.GetFXPath(slot3.track_fx)
 	slot2[#slot2 + 1] = slot2.GetFXPath(slot3.alert_fx)
 
 	if slot3.extra_param.shrapnel then
