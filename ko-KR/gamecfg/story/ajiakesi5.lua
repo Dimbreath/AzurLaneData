@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"我的美好回忆\n\n<size=45>五 可爱的小猪仔</size>",
+					"나의 아름다운 기억\n\n<size=45>5. 귀여운 아기돼지</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "醒来时，发现自己躺在房间的床上。",
+			say = "깨어났을 때, 자신이 방의 침대에 누워있다는 것을 발견했다.",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "真是让人伤脑筋的小猪仔啊…我说过让你好好休息的吧？",
+			say = "정말 골치 아프게하는 아기돼지군요... 제가 푹 쉬라고 얘기했죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "都这么照顾你了，再不好好听话之后要给你惩罚了哦？",
+			say = "이렇게 케어해줬으니, 다음에 또 말 안들으면 벌 줄 거에요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "啊~等感冒好了要怎么玩弄你呢…光是想想就很让人兴奋呢~",
+			say = "아~ 감기 나으면 어떻게 놀려줄까나... 상상만으로도 설레네요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,23 +83,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "头很晕。看来是感冒了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202030,
-			nameColor = "#92fc63",
-			bgName = "bg_story_room",
-			side = 2,
-			dir = 1,
-			say = "不过呢，虽说是你在感冒休息，我的工作还是不能不做呢…",
+			say = "머리가 어지럽다. 감기에 걸렸나보다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +99,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "今天就通宵——边工作边照顾你吧。小・猪・仔♪",
+			say = "근데, 지휘관은 감기로 쉬어도, 저의 일은 안할 수가 없네요...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +115,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "为什么要叫你小猪仔？怎么现在才问这种问题？",
+			say = "오늘은 밤을 새죠——일하면서 케어해줄게요. 아・기・돼・지♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,21 +131,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "我捉弄起来好玩的都叫小猪仔哦。…不过宠物小猪仔就稍微不一样了呢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "阿贾克斯换下敷在额头的湿毛巾，还端来了粥碗（和勺子）。",
+			say = "왜 아기돼지라고 부르냐고요? 지금에야 와서 물어보는거에요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +147,37 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "我给你熬了粥，趁热吃吧？",
+			say = "저는 장난칠 때 재밌으면 모두 아기돼지라고 불러요... 하지만 펫 아기돼지는 약간 달라지죠.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			say = "에이잭스는 이마에 덮은 젖은 수건을 교체했다. 죽그릇(과 숟가락)도 들고 왔다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202030,
+			nameColor = "#92fc63",
+			bgName = "bg_story_room",
+			side = 2,
+			dir = 1,
+			say = "죽을 끓였어요. 따뜻할 때 드시죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			actor = 202030,
 			nameColor = "#92fc63",
-			say = "来，张嘴吧？啊——。",
+			say = "자, 입 벌려 보세요. 아——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			},
 			options = {
 				{
-					content = "张嘴",
+					content = "입을 벌린다.",
 					flag = 1
 				}
 			}
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "等等，还有点烫。……呼——",
+			say = "잠시만요, 아직 좀 뜨겁네요...... 후——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			actor = 202030,
 			nameColor = "#92fc63",
-			say = "好了，再来一次，啊～？",
+			say = "됐어요, 다시, 아~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			},
 			options = {
 				{
-					content = "啊——",
+					content = "아——",
 					flag = 1
 				}
 			}
@@ -267,7 +267,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "乖～刚才说到“宠物”是不一样吧，别看我这样，其实我很喜欢宠物的。",
+			say = "착하네요~ 방금 말한 것처럼 \"펫\"은 다르죠? 그렇게 보지마세요. 사실 전 펫을 좋아한답니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "不过我养的宠物呢…呵呵，准确来说其实只有“一个”哦。所以呢……",
+			say = "하지만 제가 기르는 펫은... 하하, 정확히 말하면 사실 \"하나\"뿐이에요. 그러니까......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			blackBg = true,
 			actor = 202030,
 			nameColor = "#92fc63",
-			say = "要快点好起来哦，小猪仔♡",
+			say = "빨리 나으세요. 아기돼지♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

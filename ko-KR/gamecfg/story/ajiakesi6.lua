@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"我的美好回忆\n\n<size=45>六 逞强和真心・上</size>",
+					"나의 아름다운 기억\n\n<size=45>6. 허세와 진심·상</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-2",
 			actor = 202030,
 			nameColor = "#92fc63",
-			say = "阿嚏！……",
+			say = "에췻!......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "盖着被子的阿贾克斯脸上泛红，体温计的温度表明她正在发烧",
+			say = "이불을 덮고 있는 에이잭스의 얼굴이 빨갛다. 온도계의 체온이 그녀가 열이 난다는 걸 보여준다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,23 +51,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "虽说身体构造和人类不同，看来还是会感冒的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202030,
-			nameColor = "#92fc63",
-			bgName = "bg_story_room",
-			side = 2,
-			dir = 1,
-			say = "感冒这东西真是伤脑筋…",
+			say = "신체 구조가 인간과는 다르지만, 감기에 걸린 듯하다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +67,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "秘书舰的工作也落下了，也没法找利安得学做饭…",
+			say = "이 감기, 정말 골머리 아프네요...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +83,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "真是…没半点好处…",
+			say = "비서함의 일도 완수하지 못하고, 리엔더에게 요리를 배우지도 못하고...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,21 +99,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "还要让小猪仔看到这副样子……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "看来主动权不在自己手里就不大乐意……",
+			say = "정말... 좋은 점이 조금도 없네요...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +115,21 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "要是平常…就该是我笑着玩弄病倒的小猪仔才对…",
+			say = "게다가 아기돼지에게 이런 꼴을 보이다니......",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			say = "주동권을 쥐고 있지 않으니 우울해 보인다......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +145,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "现在我反倒成被笑的那个了…今天你就别管我了…嗯，既往不咎…",
+			say = "평상시라면... 제가 웃으면서 아픈 아기돼지에게 장난을 쳐야 맞는건데...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +161,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "还是说…你想着看我现在虚了，想要趁机报复我平常对你的欺负？",
+			say = "지금은 반대로가 되었네요... 오늘 저는 신경쓰지 마세요... 네, 지난일은 잊구요...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +177,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "哼…平时总是欺负你…说白了也是我自作自受。",
+			say = "아니면... 지금 제가 허약해진 틈을 타서 평소의 복수를 하고 싶은가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,21 +193,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "阿嚏！……要杀要剐悉听尊便吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_story_room",
-			dir = 1,
-			say = "轻轻给阿贾克斯的额头敷上湿毛巾。",
+			say = "흥... 평소에 계속 놀려댄건... 사실 제 자업자득이죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +209,37 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "…诶…",
+			say = "엣취!...... 하려면 편하신대로 하세요.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_room",
+			dir = 1,
+			say = "살짝 에이잭스의 이마에 젖은 수건을 덮어줬다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202030,
+			nameColor = "#92fc63",
+			bgName = "bg_story_room",
+			side = 2,
+			dir = 1,
+			say = "...엣...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			dir = 1,
 			actor = 202030,
 			nameColor = "#92fc63",
-			say = "你…为什么…",
+			say = "이걸... 왜...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			},
 			options = {
 				{
-					content = "告诉阿贾克斯这就是报复",
+					content = "에이잭스에게 이게 바로 복수라고 말한다.",
 					flag = 1
 				}
 			}
@@ -277,7 +277,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "真是…随便你了啦…呜…呜呜…",
+			say = "진짜... 맘대로 하세요... 음... 으음...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
-			say = "阿贾克斯把脸埋进了被子里。",
+			say = "에이잭스는 얼굴을 이불 속에 파묻었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

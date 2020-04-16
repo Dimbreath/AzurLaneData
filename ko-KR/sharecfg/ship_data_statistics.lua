@@ -18,7 +18,7 @@ pg.ship_data_statistics = {
 		oxy_cost = 0,
 		skin_id = 100000,
 		attack_duration = 0,
-		nationality = 0,
+		nationality = 98,
 		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
@@ -133,7 +133,7 @@ pg.ship_data_statistics = {
 		oxy_cost = 0,
 		skin_id = 100010,
 		attack_duration = 0,
-		nationality = 0,
+		nationality = 98,
 		oxy_recovery_bench = 0,
 		armor_type = 1,
 		attrs = {
@@ -178774,6 +178774,474 @@ pg.ship_data_statistics = {
 		},
 		tag_list = {}
 	},
+	[901111] = {
+		oxy_max = 0,
+		type = 1,
+		name = "르 말랭 ",
+		huntingrange_level = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 901111,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Le Malin",
+		oxy_cost = 0,
+		skin_id = 901110,
+		attack_duration = 0,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			326,
+			25,
+			51,
+			26,
+			0,
+			76,
+			0,
+			68,
+			79,
+			54,
+			51,
+			47
+		},
+		attrs_growth = {
+			7945,
+			250,
+			500,
+			504,
+			0,
+			376,
+			0,
+			1002,
+			1170,
+			0,
+			0,
+			468
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.2,
+			1.15
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[901112] = {
+		oxy_max = 0,
+		type = 1,
+		name = "르 말랭 ",
+		huntingrange_level = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 901112,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Le Malin",
+		oxy_cost = 0,
+		skin_id = 901110,
+		attack_duration = 0,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			405,
+			31,
+			64,
+			32,
+			0,
+			76,
+			0,
+			68,
+			79,
+			54,
+			51,
+			59
+		},
+		attrs_growth = {
+			7945,
+			250,
+			500,
+			504,
+			0,
+			376,
+			0,
+			1002,
+			1170,
+			0,
+			0,
+			468
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.2,
+			1.15
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[901113] = {
+		oxy_max = 0,
+		type = 1,
+		name = "르 말랭 ",
+		huntingrange_level = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 901113,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Le Malin",
+		oxy_cost = 0,
+		skin_id = 901110,
+		attack_duration = 0,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			564,
+			44,
+			89,
+			45,
+			0,
+			76,
+			0,
+			68,
+			79,
+			54,
+			51,
+			82
+		},
+		attrs_growth = {
+			7945,
+			250,
+			500,
+			504,
+			0,
+			376,
+			0,
+			1002,
+			1170,
+			0,
+			0,
+			468
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.2,
+			1.15
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
+	[901114] = {
+		oxy_max = 0,
+		type = 1,
+		name = "르 말랭 ",
+		huntingrange_level = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		ammo = 0,
+		id = 901114,
+		summon_offset = 0,
+		scale = 100,
+		raid_distance = 0,
+		english_name = "MNF Le Malin",
+		oxy_cost = 0,
+		skin_id = 901110,
+		attack_duration = 0,
+		nationality = 9,
+		oxy_recovery_bench = 0,
+		armor_type = 1,
+		attrs = {
+			803,
+			63,
+			126,
+			64,
+			0,
+			76,
+			0,
+			68,
+			79,
+			54,
+			51,
+			117
+		},
+		attrs_growth = {
+			7945,
+			250,
+			500,
+			504,
+			0,
+			376,
+			0,
+			1002,
+			1170,
+			0,
+			0,
+			468
+		},
+		attrs_growth_extra = {
+			7945,
+			590,
+			1117,
+			344,
+			0,
+			892,
+			0,
+			-585,
+			-835,
+			0,
+			0,
+			448
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.5,
+			1.25,
+			1.2
+		},
+		strategy_list = {},
+		strategy_list_ai = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	},
 	[904011] = {
 		oxy_max = 0,
 		type = 4,
@@ -223317,6 +223785,10 @@ pg.ship_data_statistics = {
 		901012,
 		901013,
 		901014,
+		901111,
+		901112,
+		901113,
+		901114,
 		904011,
 		904012,
 		904013,

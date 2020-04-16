@@ -178,10 +178,6 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:appendLog(slot3, true)
 	elseif slot2 == GuildProxy.REQUEST_COUNT_UPDATED or slot2 == GuildProxy.REQUEST_DELETED or slot2 == GAME.GUILD_GET_REQUEST_LIST_DONE then
 		slot0.viewComponent:updateNotices(getProxy(GuildProxy):isNoticesApply())
-	elseif slot2 == GAME.REMOVE_LAYERS then
-		if slot3.context.mediator == ShopsMediator then
-			slot0.viewComponent:closePage()
-		end
 	elseif slot2 == GuildProxy.ADDED_EVENT then
 		slot0.viewComponent:setGuildEvent(slot3)
 		slot0.viewComponent:updateEventBtn()

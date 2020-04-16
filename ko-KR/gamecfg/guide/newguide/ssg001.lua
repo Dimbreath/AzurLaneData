@@ -104,8 +104,8 @@ return {
 	DockyardScene = {
 		{
 			id = "NG0019",
-			condition = function ()
-				return true
+			condition = function (slot0)
+				return slot0.contextData.mode == DockyardScene.MODE_DESTROY
 			end,
 			args = function ()
 				return {}

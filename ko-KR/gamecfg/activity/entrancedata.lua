@@ -64,7 +64,7 @@ return {
 		event = ActivityMediator.GO_SHOPS_LAYER,
 		data = {
 			{
-				warp = "activity",
+				warp = NewShopsScene.TYPE_ACTIVITY,
 				actId = ActivityConst.BISMARCK_PT_SHOP_ID
 			}
 		},
@@ -77,7 +77,7 @@ return {
 		event = ActivityMediator.GO_SHOPS_LAYER,
 		data = {
 			{
-				warp = "activity",
+				warp = NewShopsScene.TYPE_ACTIVITY,
 				actId = ActivityConst.BILIBILI_PT_SHOP_ID
 			}
 		},
@@ -104,7 +104,7 @@ return {
 		event = ActivityMediator.GO_SHOPS_LAYER,
 		data = {
 			{
-				warp = "activity",
+				warp = NewShopsScene.TYPE_ACTIVITY,
 				actId = ActivityConst.FRANCE_RE_PT_SHOP
 			}
 		},

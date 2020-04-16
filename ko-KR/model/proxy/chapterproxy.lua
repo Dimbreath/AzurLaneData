@@ -240,6 +240,20 @@ function slot0.register(slot0)
 	slot0.justClearChapters = {}
 end
 
+function slot0.IsChapterInRemaster(slot0, slot1)
+	slot2 = pg.TimeMgr.GetInstance()
+
+	return _.detect(pg.re_map_template.all, function (slot0)
+		if pg.re_map_template[slot0].time ~= "always" and (slot0:parseTimeFromConfig(slot2[2], true) > slot0:GetServerTime() or slot0:GetServerTime() > slot0:parseTimeFromConfig(slot2[3], true)) then
+			return false
+		end
+
+		return _.detect(slot1.config_data, function (slot0)
+			return slot0 == slot0
+		end)
+	end)
+end
+
 function slot0.buildRemasterMaps(slot0)
 	slot2 = pg.TimeMgr.GetInstance()
 
@@ -625,7 +639,7 @@ end
 
 function slot0.getActActiveChapter(slot0)
 	for slot4, slot5 in pairs(slot0.data) do
-		if slot5:isActivity() and slot5.active then
+		if slot5.active and slot5:isActivity() and not slot0:IsChapterInRemaster(slot5.id) then
 			return slot5:clone()
 		end
 	end

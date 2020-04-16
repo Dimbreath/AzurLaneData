@@ -12571,11 +12571,11 @@ TIPS:
 		key = "undermist_tip"
 	},
 	retire_1 = {
-		tip = "한 척이라도 잠금 상태인 동명의 함선만 선택",
+		tip = "한계돌파 3회 달성한 동명의 함선 <color=#92fc63>「보유」</color> 시, <color=#92fc63>퇴역 조건에 부합</color>한 동명의 함선을 몇 척 보류",
 		key = "retire_1"
 	},
 	retire_2 = {
-		tip = "한 척이라도 풀강화 상태인 동명의 함선만 선택",
+		tip = "한계돌파 3회 달성한 동명의 함선 <color=#ff5c5c>「미보유」</color> 시, <color=#92fc63>퇴역 조건에 부합</color>한 동명의 함선을 몇 척 보류",
 		key = "retire_2"
 	},
 	retire_3 = {
@@ -12589,6 +12589,44 @@ TIPS:
 	retire_title = {
 		tip = "일괄 퇴역 설정",
 		key = "retire_title"
+	},
+	retire_setting_help = {
+		key = "retire_setting_help",
+		tip = {
+			{
+				info = [[
+ ·일괄 퇴역 조건:
+ 1. 희귀도: SR, R, N
+ 2. 미잠금 상태
+ 3. 1레벨
+ 4. 부린X
+ 5. 편성 중, 비서함 등 특수한 상태가 아닌 함선
+ ·동명의 함선 보류 여부 규칙은, 도크 중 <color=#92fc63>위 조건 1~5에 부합하는
+함선</color>에 대해서만 적용
+ ·기본적인 우선 선택 대상 순서는 R, SR, N
+ ·<color=#92fc63>우선 선택 대상 선택</color>을 통해 희귀도 순서를 변경 또는 삭제 가능]]
+			}
+		}
+	},
+	activity_shop_exchange_count = {
+		tip = "남은 횟수",
+		key = "activity_shop_exchange_count"
+	},
+	shops_msgbox_exchange_count = {
+		tip = "교환수량:",
+		key = "shops_msgbox_exchange_count"
+	},
+	shops_msgbox_output = {
+		tip = "획득 항목：",
+		key = "shops_msgbox_output"
+	},
+	shop_word_exchange = {
+		tip = "교환",
+		key = "shop_word_exchange"
+	},
+	shop_word_cancel = {
+		tip = "취소",
+		key = "shop_word_cancel"
 	}
 }
 

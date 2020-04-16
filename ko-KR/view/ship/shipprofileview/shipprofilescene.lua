@@ -356,6 +356,8 @@ function slot0.ShiftSkin(slot0, slot1)
 	slot3 = nil
 
 	slot0:LoadSkinBg((not slot0.skin.bg_sp or slot0.skin.bg_sp == "" or not (PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot0.skin.painting, 0) == 0) or slot0.skin.bg_sp) and (not slot0.skin.bg or slot0.skin.bg == "" or slot0.skin.bg) and shipRarity2bgPrint(slot0.shipGroup:getRarity(slot0.showTrans), slot0.skin.id, slot0.shipGroup:isBluePrintGroup()))
+
+	slot0.haveOp = PathMgr.FileExists(PathMgr.getAssetBundle("ui/star_level_unlock_anim_" .. slot0.skin.id))
 end
 
 function slot0.LoadModel(slot0, slot1)
@@ -424,35 +426,39 @@ function slot0.OnCVBtnClick(slot0, slot1)
 		return
 	end
 
-	slot2 = slot1.voice
+	function slot3()
+		slot0:UpdatePaintingFace(slot0)
 
-	slot0:UpdatePaintingFace(slot1)
+		if slot0.UpdatePaintingFace.characterModel then
+			slot0.characterModel:GetComponent(typeof(SpineAnimUI)):SetAction(slot0:GetModelAction(slot2), 0)
+		end
 
-	if slot0.characterModel then
-		slot0.characterModel:GetComponent(typeof(SpineAnimUI)):SetAction(slot0:GetModelAction(slot2), 0)
+		if slot0.live2DBtn.isOn and slot0.l2dChar then
+			slot0.l2dActioning = true
+
+			parallelAsync({
+				function (slot0)
+					slot0.l2dChar:TriggerAction(slot1.l2d_action, slot0)
+				end,
+				function (slot0)
+					slot0:PlayVoice(slot0.PlayVoice, slot0)
+					slot0:ShowDailogue(slot0.ShowDailogue, slot0, slot0)
+				end
+			}, function ()
+				slot0.l2dActioning = false
+			end)
+		else
+			slot0:PlayVoice(slot0.PlayVoice, slot0)
+			slot0:ShowDailogue(slot0.ShowDailogue, slot0)
+		end
 	end
 
-	slot3 = {
-		slot0.CHAT_SHOW_TIME
-	}
-
-	if slot0.live2DBtn.isOn and slot0.l2dChar then
-		slot0.l2dActioning = true
-
-		parallelAsync({
-			function (slot0)
-				slot0.l2dChar:TriggerAction(slot1.l2d_action, slot0)
-			end,
-			function (slot0)
-				slot0:PlayVoice(slot0.PlayVoice, slot0)
-				slot0:ShowDailogue(slot0.ShowDailogue, slot0, slot0)
-			end
-		}, function ()
-			slot0.l2dActioning = false
-		end)
+	if slot1.voice.key == "unlock" and slot0.haveOp then
+		slot0:playOpening(true, function ()
+			slot0()
+		end, "star_level_unlock_anim_" .. slot0.skin.id)
 	else
-		slot0:PlayVoice(slot1, slot3)
-		slot0:ShowDailogue(slot1, slot3)
+		slot3()
 	end
 end
 
@@ -711,6 +717,254 @@ function slot0.onBackPressed(slot0)
 	--- BLOCK #1 11-14, warpins: 2 ---
 	triggerButton(slot0.btnBack)
 
+	return
+	--- END OF BLOCK #1 ---
+
+
+
+end
+
+function slot0.playOpening(slot0, slot1, slot2, slot3)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-9, warpins: 1 ---
+	slot0.onPlayingOP = true
+
+	function slot4()
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-4, warpins: 1 ---
+		if not slot0.openingTF then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 5-5, warpins: 1 ---
+			return
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 6-18, warpins: 2 ---
+		setActive(slot0.openingTF, false)
+
+		setActive.openingAni.enabled = false
+
+		if setActive.openingAni.criAni then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 19-23, warpins: 1 ---
+			slot0.criAni:Stop()
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 24-27, warpins: 2 ---
+		if slot0.openingTF then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 28-46, warpins: 1 ---
+			pg.UIMgr.GetInstance():UnOverlayPanel(slot0.openingTF.transform, slot0._tf)
+			Destroy(slot0.openingTF)
+
+			Destroy.openingTF = nil
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+
+		--- END OF BLOCK #2 ---
+
+		FLOW; TARGET BLOCK #3
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #3 47-49, warpins: 2 ---
+		if slot1 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 50-51, warpins: 1 ---
+			slot1()
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+
+		--- END OF BLOCK #3 ---
+
+		FLOW; TARGET BLOCK #4
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #4 52-52, warpins: 2 ---
+		return
+		--- END OF BLOCK #4 ---
+
+
+
+	end
+
+	function slot5()
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-30, warpins: 1 ---
+		slot0.openingAni.enabled = true
+
+		onButton(onButton, slot0.openingTF, function ()
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-3, warpins: 1 ---
+			if slot0 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 4-5, warpins: 1 ---
+				slot1()
+				--- END OF BLOCK #0 ---
+
+
+
+			end
+
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 6-6, warpins: 2 ---
+			return
+			--- END OF BLOCK #1 ---
+
+
+
+		end)
+
+		slot0 = onButton.openingTF:GetComponent("DftAniEvent")
+
+		slot0:SetStartEvent(function (slot0)
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-4, warpins: 1 ---
+			if slot0.criAni then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 5-9, warpins: 1 ---
+				slot0.criAni:Play()
+				--- END OF BLOCK #0 ---
+
+
+
+			end
+
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 10-10, warpins: 2 ---
+			return
+			--- END OF BLOCK #1 ---
+
+
+
+		end)
+		slot0:SetEndEvent(function (slot0)
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-3, warpins: 1 ---
+			slot0()
+
+			return
+			--- END OF BLOCK #0 ---
+
+
+
+		end)
+		setActive(slot0.openingTF, true)
+
+		return
+		--- END OF BLOCK #0 ---
+
+
+
+	end
+
+	if IsNil(slot0.openingTF) then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 10-22, warpins: 1 ---
+		pg.UIMgr.GetInstance():LoadingOn()
+		LoadAndInstantiateAsync("ui", slot3, function (slot0)
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 1-53, warpins: 1 ---
+			slot0:SetActive(false)
+
+			slot0.openingTF = slot0
+
+			pg.UIMgr.GetInstance():OverlayPanel(slot0.openingTF.transform)
+
+			slot0.criAni = tf(slot0.openingTF):Find("usm"):GetComponent("CriManaEffectUI")
+
+			setActive(slot0.openingTF, false)
+
+			slot0.openingAni = slot0.openingTF:GetComponent("Animator")
+
+			slot0()
+			pg.UIMgr.GetInstance():LoadingOff()
+
+			return
+			--- END OF BLOCK #0 ---
+
+
+
+		end)
+		--- END OF BLOCK #0 ---
+
+
+
+	else
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 23-24, warpins: 1 ---
+		slot5()
+		--- END OF BLOCK #0 ---
+
+
+
+	end
+
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 25-26, warpins: 2 ---
 	return
 	--- END OF BLOCK #1 ---
 

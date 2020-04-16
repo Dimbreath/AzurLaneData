@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"我的美好回忆\n\n<size=45>七 逞强和真心・下</size>",
+					"나의 아름다운 기억\n\n<size=45>7. 허세와 진심·하</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "照顾生病的阿贾克斯大约一小时后……",
+			say = "감기 걸린 에이잭스를 돌봐준지 약 1시간 후......",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "呜…呜呜呜…为什么我要被小猪仔这样对待啊……",
+			say = "음... 으으음... 왜 내가 아기돼지에게 이런 대접을......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "我……我……真的是……",
+			say = "난...... 난...... 정말......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			actor = 202030,
 			nameColor = "#92fc63",
-			say = "呜哇啊啊啊……",
+			say = "우와아아아......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			},
 			options = {
 				{
-					content = "捉弄一下阿贾克斯",
+					content = "에이잭스를 놀린다.",
 					flag = 1
 				}
 			}
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "呜呜呜呜呜……为什么我要被小猪捉弄啊！……",
+			say = "우우우우웅......! 왜 내가 아기돼지한테 놀림을 받는거야! ......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "你这…！小猪仔…！等我好了…！等我好了一定要给你好看……",
+			say = "너 이...! 아기돼지...! 내가 낫기만 해봐요...! 다 나으면 꼭......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "阿贾克斯在被窝里耍起了脾气。",
+			say = "에이잭스는 이불 속에서 성질을 부렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "这样子还怎么惩罚小猪仔啊……",
+			say = "이러면 아기돼지에게 어떻게 벌을 주나요......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dir = 1,
 			actor = 202030,
 			nameColor = "#92fc63",
-			say = "呜呜…发生这种事……还怎么可能踩得上去啦……！",
+			say = "으음... 이런 일이 벌어지다니...... 또 어떻게 밟아줄 수 있겠냐구요.....!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "被窝里的动作停了下来。",
+			say = "이불 속의 움직임이 멈췄다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			},
 			options = {
 				{
-					content = "靠近观察阿贾克斯的状况",
+					content = "가까이서 에이잭스의 상태를 살펴본다.",
 					flag = 2
 				}
 			}
@@ -210,7 +210,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "靠近阿贾克斯时，突然被拽进了被窝里。",
+			say = "에이잭스에게 접근했을 때, 갑자기 이불 속으로 끌어당겨졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,23 +224,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "阿贾克斯的呼吸近在咫尺…。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 202030,
-			nameColor = "#92fc63",
-			bgName = "bg_story_room",
-			side = 2,
-			dir = 1,
-			say = "抱歉啊，我…像这样单方面被温柔对待的话可是会活不下去的呢。",
+			say = "에이잭스의 숨결이 아주 가까웠다...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +240,7 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "光是让我一个人脸红，让我一个人示弱……太不公平了。",
+			say = "미안해요. 저는... 이렇게 일방적으로 접대를 받으면 앞으로 살 수 없을 것 같아요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +256,23 @@ return {
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
-			say = "所以……让我们一起感冒吧？",
+			say = "저 혼자만 얼굴이 빨개지게 하고, 혼자만 약한 모습을 보이게 하고...... 너무 불공평하잖아요.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 202030,
+			nameColor = "#92fc63",
+			bgName = "bg_story_room",
+			side = 2,
+			dir = 1,
+			say = "그러니까...... 우리 같이 감기에 걸려요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			blackBg = true,
 			actor = 202030,
 			nameColor = "#92fc63",
-			say = "我可爱的小猪仔♡",
+			say = "저의 귀여운 아기돼지♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

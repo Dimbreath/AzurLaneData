@@ -1075,6 +1075,298 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[20] = {
+		limit_arg = 1,
+		descrip_extra = "*지원 패키지는 우편으로 발송되니, 확인하여 주시기 바랍니다.",
+		name = "신입 지휘관 지원 패키지·I",
+		descrip = "다이아*180, 연료 비축함(1000)*2, 기타 보상 획득",
+		subject = "신입 지휘관 지원 패키지·I",
+		extra_service = 3,
+		id_str_r12 = "alkrgift11",
+		money = 2500,
+		tag = 1,
+		gem = 0,
+		limit_type = 2,
+		time = "stop",
+		picture = "support1",
+		id_str = "alkrgift11",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 20,
+		airijp_id = "com.yostarjp.azurlane.package101",
+		extra_service_item = {
+			{
+				1,
+				14,
+				180
+			},
+			{
+				2,
+				30121,
+				2
+			},
+			{
+				4,
+				100001,
+				1
+			},
+			{
+				2,
+				15001,
+				30
+			},
+			{
+				2,
+				16002,
+				4
+			},
+			{
+				2,
+				16012,
+				4
+			},
+			{
+				2,
+				16022,
+				4
+			},
+			{
+				2,
+				30112,
+				30
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				180
+			},
+			{
+				2,
+				30121,
+				2
+			},
+			{
+				4,
+				100001,
+				1
+			}
+		}
+	},
+	[21] = {
+		limit_arg = 1,
+		descrip_extra = "*지원 패키지는 우편으로 발송되니, 확인하여 주시기 바랍니다.",
+		name = "신입 지휘관 지원 패키지·II",
+		descrip = "다이아*780, 지향형 장비 상자·SSR*2, 연료 비축함(1000)*4, 기타 보상 획득",
+		subject = "신입 지휘관 지원 패키지·II",
+		extra_service = 3,
+		id_str_r12 = "alkrgift12",
+		money = 15000,
+		tag = 1,
+		gem = 0,
+		limit_type = 2,
+		time = "stop",
+		picture = "support2",
+		id_str = "alkrgift12",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 21,
+		airijp_id = "com.yostarjp.azurlane.package102",
+		extra_service_item = {
+			{
+				1,
+				14,
+				780
+			},
+			{
+				2,
+				30202,
+				2
+			},
+			{
+				2,
+				30121,
+				4
+			},
+			{
+				4,
+				100001,
+				1
+			},
+			{
+				2,
+				15001,
+				50
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			},
+			{
+				2,
+				16002,
+				3
+			},
+			{
+				2,
+				16012,
+				3
+			},
+			{
+				2,
+				16022,
+				3
+			},
+			{
+				2,
+				30113,
+				30
+			},
+			{
+				2,
+				30112,
+				50
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				780
+			},
+			{
+				2,
+				30202,
+				2
+			},
+			{
+				2,
+				30121,
+				4
+			}
+		}
+	},
+	[22] = {
+		limit_arg = 1,
+		descrip_extra = "*지원 패키지는 우편으로 발송되니, 확인하여 주시기 바랍니다.",
+		name = "신입 지휘관 지원 패키지·III",
+		descrip = "다이아*1680, 지향형 장비 상자·SSR*4, 연료 비축함(1000)*8, 기타 보상 획득",
+		subject = "신입 지휘관 지원 패키지·III",
+		extra_service = 3,
+		id_str_r12 = "alkrgift13",
+		money = 30000,
+		tag = 1,
+		gem = 0,
+		limit_type = 2,
+		time = "stop",
+		picture = "support3",
+		id_str = "alkrgift13",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 22,
+		airijp_id = "com.yostarjp.azurlane.package103",
+		extra_service_item = {
+			{
+				1,
+				14,
+				1680
+			},
+			{
+				2,
+				30202,
+				4
+			},
+			{
+				2,
+				30121,
+				8
+			},
+			{
+				4,
+				100011,
+				1
+			},
+			{
+				2,
+				59900,
+				1000
+			},
+			{
+				2,
+				15001,
+				80
+			},
+			{
+				2,
+				16003,
+				5
+			},
+			{
+				2,
+				16013,
+				5
+			},
+			{
+				2,
+				16023,
+				5
+			},
+			{
+				2,
+				16002,
+				5
+			},
+			{
+				2,
+				16012,
+				5
+			},
+			{
+				2,
+				16022,
+				5
+			},
+			{
+				2,
+				30113,
+				100
+			},
+			{
+				2,
+				30112,
+				100
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				1680
+			},
+			{
+				2,
+				30202,
+				4
+			},
+			{
+				2,
+				30121,
+				8
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1092,7 +1384,10 @@ pg.pay_data_display = {
 		16,
 		17,
 		18,
-		19
+		19,
+		20,
+		21,
+		22
 	}
 }
 

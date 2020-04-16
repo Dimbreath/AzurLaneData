@@ -30,7 +30,7 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.OPEN_SHOP, function (slot0)
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, data or {
-			warp = ShopsScene.TYPE_MILITARY_SHOP
+			warp = NewShopsScene.TYPE_MILITARY_SHOP
 		})
 	end)
 	slot0:bind(slot0.REPLACE_RIVALS, function (slot0)
@@ -85,7 +85,6 @@ function slot0.handleNotification(slot0, slot1)
 				rivalId = slot3.rivalId
 			}
 		}))
-	elseif slot2 == GAME.REMOVE_LAYERS then
 	elseif slot2 == ActivityProxy.ACTIVITY_UPDATED and slot3.id == ActivityConst.MILITARY_EXERCISE_ACTIVITY_ID then
 		slot0.viewComponent:setActivity(slot3)
 		slot0.viewComponent:updateSeasonLeftTime(slot3.stopTime)

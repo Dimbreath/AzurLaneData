@@ -28566,6 +28566,446 @@ pg.transform_data_template = {
 			50
 		}
 	},
+	[34901] = {
+		use_gold = 400,
+		name = "선체 개수Ⅰ",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 1,
+		star_limit = 2,
+		id = 34901,
+		icon = "hp_1",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {},
+		effect = {
+			{
+				durability = 70
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18011,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[34902] = {
+		use_gold = 600,
+		name = "장전 강화Ⅰ",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 5,
+		star_limit = 2,
+		id = 34902,
+		icon = "rl_1",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			34901
+		},
+		effect = {
+			{
+				reload = 5
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18011,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[34903] = {
+		use_gold = 800,
+		name = "대공포 강화Ⅰ",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 20,
+		star_limit = 3,
+		id = 34903,
+		icon = "aaup_1",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			34901
+		},
+		effect = {
+			{
+				equipment_proficiency_3 = 0.05
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18011,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[34904] = {
+		use_gold = 1000,
+		name = "대공 강화Ⅰ",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 25,
+		star_limit = 3,
+		id = 34904,
+		icon = "aa_1",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			34903
+		},
+		effect = {
+			{
+				antiaircraft = 15
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18011,
+					5
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[34905] = {
+		use_gold = 1200,
+		name = "주포 개수Ⅰ",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 35,
+		star_limit = 4,
+		id = 34905,
+		icon = "mgup_1",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			34903
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.05
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18012,
+					3
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[34906] = {
+		use_gold = 1500,
+		name = "포격 강화Ⅰ",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 40,
+		star_limit = 4,
+		id = 34906,
+		icon = "cn_1",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			34902,
+			34905
+		},
+		effect = {
+			{
+				cannon = 10
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18012,
+					2
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[34907] = {
+		use_gold = 1800,
+		name = "선체 개수Ⅱ",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 50,
+		star_limit = 4,
+		id = 34907,
+		icon = "hp_2",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			34905
+		},
+		effect = {
+			{
+				durability = 70
+			},
+			{
+				durability = 100
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18012,
+					2
+				}
+			},
+			{
+				{
+					18012,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	},
+	[34908] = {
+		use_gold = 2000,
+		name = "명중 강화 I",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 55,
+		star_limit = 4,
+		id = 34908,
+		icon = "hit_1",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			34907
+		},
+		effect = {
+			{
+				hit = 5
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18012,
+					3
+				}
+			}
+		},
+		gear_score = {
+			25
+		}
+	},
+	[34909] = {
+		use_gold = 2500,
+		name = "대공포 강화Ⅱ",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 70,
+		star_limit = 5,
+		id = 34909,
+		icon = "Aaup_2",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			34907
+		},
+		effect = {
+			{
+				equipment_proficiency_3 = 0.05
+			},
+			{
+				equipment_proficiency_3 = 0.05
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18013,
+					1
+				}
+			},
+			{
+				{
+					18013,
+					1
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[34910] = {
+		use_gold = 3000,
+		name = "대공 강화Ⅱ",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 75,
+		star_limit = 5,
+		id = 34910,
+		icon = "Aa_2",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			34904,
+			34909
+		},
+		effect = {
+			{
+				antiaircraft = 15
+			},
+			{
+				antiaircraft = 25
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18013,
+					1
+				},
+				{
+					17033,
+					5
+				}
+			},
+			{
+				{
+					18013,
+					2
+				},
+				{
+					17033,
+					15
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[34911] = {
+		use_gold = 4000,
+		name = "근대화 개수",
+		max_level = 1,
+		skin_id = 802019,
+		use_ship = 1,
+		level_limit = 85,
+		star_limit = 5,
+		id = 34911,
+		icon = "mt_red",
+		skill_id = 0,
+		descrip = "",
+		condition_id = {
+			34909,
+			34910
+		},
+		effect = {
+			{
+				cannon = 20,
+				torpedo = 25
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18013,
+					3
+				}
+			}
+		},
+		gear_score = {
+			50
+		}
+	},
+	[34912] = {
+		use_gold = 3000,
+		name = "전술 확충",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		level_limit = 90,
+		star_limit = 5,
+		id = 34912,
+		icon = "skill_red",
+		skill_id = 12360,
+		descrip = "",
+		condition_id = {
+			34911
+		},
+		effect = {
+			{
+				skill_id = 12360
+			}
+		},
+		ship_id = {},
+		use_item = {
+			{
+				{
+					18013,
+					2
+				},
+				{
+					17003,
+					50
+				}
+			}
+		},
+		gear_score = {
+			30
+		}
+	},
 	[35101] = {
 		use_gold = 300,
 		name = "선체 개수Ⅰ",
@@ -30925,6 +31365,18 @@ pg.transform_data_template = {
 		34809,
 		34810,
 		34811,
+		34901,
+		34902,
+		34903,
+		34904,
+		34905,
+		34906,
+		34907,
+		34908,
+		34909,
+		34910,
+		34911,
+		34912,
 		35101,
 		35102,
 		35103,
