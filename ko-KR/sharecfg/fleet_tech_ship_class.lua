@@ -1939,7 +1939,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[80101] = {
 		shiptype = 1,
-		name = "르 팡타스크급",
+		name = "팡타스크급",
 		t_level = 8,
 		id = 80101,
 		t_level_1 = 132,
@@ -1956,7 +1956,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 133,
 		nation = 8,
 		ships = {
-			80103
+			80103,
+			80104
 		}
 	},
 	[80103] = {
@@ -2001,6 +2002,17 @@ pg.fleet_tech_ship_class = {
 		nation = 8,
 		ships = {
 			80801
+		}
+	},
+	[90101] = {
+		shiptype = 1,
+		name = "팡타스크급",
+		t_level = 8,
+		id = 90101,
+		t_level_1 = 132,
+		nation = 9,
+		ships = {
+			90111
 		}
 	},
 	[90103] = {
@@ -2203,6 +2215,7 @@ pg.fleet_tech_ship_class = {
 		80201,
 		80301,
 		80801,
+		90101,
 		90103,
 		90401,
 		90501
