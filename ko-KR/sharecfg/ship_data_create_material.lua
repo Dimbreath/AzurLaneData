@@ -70,15 +70,19 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>S Rare</color>：12%",
 			"<color=#3dc6ff>Rare</color>：51%",
 			"Normal：30%",
-			"<color=#ffde38>인트레피드</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>르 말랭</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>리노</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>장 바르</color>：1.8%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>브레머튼</color>：0.5%",
+			"<color=#ffde38>매사추세츠</color>：1.8%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#d797ff>쿠퍼</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>로피니아트르</color>：2.5%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#3dc6ff>마블헤드</color>：5.0%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>됭케르크</color>：2.5%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#d797ff>쉬르쿠프 </color>：2.5%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#3dc6ff>포르뱅</color>：5.0%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{
