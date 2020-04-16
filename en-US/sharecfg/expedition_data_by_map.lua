@@ -5299,6 +5299,47 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2200010] = {
+		map = 2200010,
+		name = "The Pursuit of Graf Spee|| | S.P. ||S.P. ",
+		bgm = "level02",
+		type = 3,
+		on_activity = 0,
+		title = "SP",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "purple",
+		bg = "Map_1070000",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[9920001] = {
 		map = 9920001,
 		name = "Operation Divergent Chessboard Prequel|| S.P. || E.X.",
@@ -5569,6 +5610,7 @@ pg.expedition_data_by_map = {
 		2100061,
 		2100070,
 		2100071,
+		2200010,
 		9920001,
 		9920002,
 		9920011,

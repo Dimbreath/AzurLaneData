@@ -48,6 +48,45 @@ pg.re_map_template = {
 			}
 		}
 	},
+	[5] = {
+		activity_type = 2,
+		name = "围剿斯佩伯爵』常驻复刻",
+		memory_group = 117,
+		id = 5,
+		bg = "temp_sipei",
+		config_data = {
+			2200011,
+			2200012,
+			2200013
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					4,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2022,
+					12,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[7] = {
 		activity_type = 1,
 		name = "坠落之翼常驻复刻",
@@ -98,6 +137,7 @@ pg.re_map_template = {
 	},
 	all = {
 		1,
+		5,
 		7
 	}
 }

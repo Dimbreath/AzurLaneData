@@ -1310,15 +1310,25 @@ end
 
 function slot0.initUSAccountPanel(slot0, slot1)
 	slot2 = slot0:findTF("page1", slot1)
-	slot0.btnBindTwitter = slot0:findTF("bind_twitter", slot2)
-	slot0.btnUnlinkTwitter = slot0:findTF("unlink_twitter", slot2)
-	slot0.twitterStatus = slot0:findTF("twitter_status", slot2)
-	slot0.btnBindFacebook = slot0:findTF("bind_facebook", slot2)
-	slot0.btnUnlinkFacebook = slot0:findTF("unlink_facebook", slot2)
-	slot0.facebookStatus = slot0:findTF("facebook_status", slot2)
-	slot0.btnBindYostar = slot0:findTF("bind_yostar", slot2)
-	slot0.btnUnlinkYostar = slot0:findTF("unlink_yostar", slot2)
-	slot0.yostarStatus = slot0:findTF("yostar_status", slot2)
+	slot3 = slot0:findTF("btn_layout/twitter_con", slot2)
+	slot0.btnBindTwitter = slot0:findTF("bind_twitter", slot3)
+	slot0.btnUnlinkTwitter = slot0:findTF("unlink_twitter", slot3)
+	slot0.twitterStatus = slot0:findTF("twitter_status", slot3)
+	slot4 = slot0:findTF("btn_layout/facebook_con", slot2)
+	slot0.btnBindFacebook = slot0:findTF("bind_facebook", slot4)
+	slot0.btnUnlinkFacebook = slot0:findTF("unlink_facebook", slot4)
+	slot0.facebookStatus = slot0:findTF("facebook_status", slot4)
+	slot5 = slot0:findTF("btn_layout/yostar_con", slot2)
+	slot0.btnBindYostar = slot0:findTF("bind_yostar", slot5)
+	slot0.btnUnlinkYostar = slot0:findTF("unlink_yostar", slot5)
+	slot0.yostarStatus = slot0:findTF("yostar_status", slot5)
+	slot6 = slot0:findTF("btn_layout/apple_con", slot2)
+	slot0.btnBindApple = slot0:findTF("bind_apple", slot6)
+	slot0.btnUnlinkApple = slot0:findTF("unlink_apple", slot6)
+	slot0.appleStatus = slot0:findTF("apple_status", slot6)
+
+	setActive(slot6, PLATFORM_CODE == PLATFORM_US and pg.SdkMgr.GetInstance():GetChannelUID() == "1" and CSharpVersion > 36)
+
 	slot0.yostarAlert = slot0:findTF("page2", slot1)
 	slot0.yostarEmailTxt = slot0:findTF("email_input_txt", slot0.yostarAlert)
 	slot0.yostarCodeTxt = slot0:findTF("code_input_txt", slot0.yostarAlert)
@@ -1327,20 +1337,22 @@ function slot0.initUSAccountPanel(slot0, slot1)
 	slot0.yostarSureBtn = slot0:findTF("login_btn", slot0.yostarAlert)
 
 	onButton(slot0, slot0.btnBindTwitter, function ()
-		pg.UIMgr.GetInstance():LoadingOn()
 		pg.SdkMgr.GetInstance():LinkSocial(AIRI_PLATFORM_TWITTER)
 	end)
 	onButton(slot0, slot0.btnUnlinkTwitter, function ()
-		pg.UIMgr.GetInstance():LoadingOn()
 		pg.SdkMgr.GetInstance():UnlinkSocial(AIRI_PLATFORM_TWITTER)
 	end)
 	onButton(slot0, slot0.btnBindFacebook, function ()
-		pg.UIMgr.GetInstance():LoadingOn()
 		pg.SdkMgr.GetInstance():LinkSocial(AIRI_PLATFORM_FACEBOOK)
 	end)
 	onButton(slot0, slot0.btnUnlinkFacebook, function ()
-		pg.UIMgr.GetInstance():LoadingOn()
 		pg.SdkMgr.GetInstance():UnlinkSocial(AIRI_PLATFORM_FACEBOOK)
+	end)
+	onButton(slot0, slot0.btnBindApple, function ()
+		pg.SdkMgr.GetInstance():LinkSocial(AIRI_PLATFORM_APPLE)
+	end)
+	onButton(slot0, slot0.btnUnlinkApple, function ()
+		pg.SdkMgr.GetInstance():UnlinkSocial(AIRI_PLATFORM_APPLE)
 	end)
 	onButton(slot0, slot0.btnBindYostar, function ()
 		pg.UIMgr.GetInstance():BlurPanel(slot0.yostarAlert, false)
@@ -1372,6 +1384,7 @@ function slot0.initUSAccountPanel(slot0, slot1)
 	end)
 	slot0:checkAccountTwitterView_US()
 	slot0:checkAccountFacebookView_US()
+	slot0:checkAccountAppleView_US()
 	slot0:checkAccountYostarView_US()
 
 	if CSharpVersion > 24 then
@@ -1400,6 +1413,18 @@ function slot0.checkAccountFacebookView_US(slot0)
 
 	if slot1 then
 		setText(slot0.facebookStatus, i18n("facebook_link_title", pg.SdkMgr.GetInstance():GetSocialName(AIRI_PLATFORM_FACEBOOK)))
+	end
+end
+
+function slot0.checkAccountAppleView_US(slot0)
+	slot1 = pg.SdkMgr.GetInstance():IsSocialLink(AIRI_PLATFORM_APPLE)
+
+	setActive(slot0.btnUnlinkApple, slot1)
+	setActive(slot0.appleStatus, slot1)
+	setActive(slot0.btnBindApple, not slot1)
+
+	if slot1 then
+		setText(slot0.appleStatus, i18n("apple_link_title", pg.SdkMgr.GetInstance():GetSocialName(AIRI_PLATFORM_APPLE)))
 	end
 end
 

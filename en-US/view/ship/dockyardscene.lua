@@ -1458,6 +1458,12 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
+	if slot0.settingPanel and slot0.settingPanel:isShowing() then
+		slot0.settingPanel:Hide()
+
+		return
+	end
+
 	if slot0.indexPanel and slot0.indexPanel.gameObject.activeSelf then
 		playSoundEffect(SFX_CANCEL)
 		triggerButton(slot0.indexBtn)
