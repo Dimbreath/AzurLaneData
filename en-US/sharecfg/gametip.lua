@@ -1,5 +1,9 @@
 pg = pg or {}
 pg.gametip = {
+	apple_link_title = {
+		tip = "Apple account connected ",
+		key = "apple_link_title"
+	},
 	facebook_link_title = {
 		tip = "Facebook Account:$1",
 		key = "facebook_link_title"
@@ -7223,6 +7227,14 @@ She'll also receive a <color=#a0ff40>3%</color> stats bonus</size>.]],
 		tip = "Facebook login cancelled",
 		key = "new_airi_error_code_100220"
 	},
+	new_airi_error_code_100221 = {
+		tip = "FB authorization failed ",
+		key = "new_airi_error_code_100221"
+	},
+	new_airi_error_code_100222 = {
+		tip = "TW authorization failed",
+		key = "new_airi_error_code_100222"
+	},
 	new_airi_error_code_100230 = {
 		tip = "Initialization failed",
 		key = "new_airi_error_code_100230"
@@ -8882,15 +8894,15 @@ Combat Details:
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
-		tip = "Heavy: Heavy Cruisers, Monitors, Battlecruisers, Battleships, and more!",
+		tip = "Washington, North Carolina, Minneapolis, and others are now available from construction!",
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "Avrora is now permanently available! ",
+		tip = "Hobby and Kalk are now available from construction!",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "{namecode:97} has been added to construction!",
+		tip = "Chaser is now available from construction!",
 		key = "buildship_special_tip"
 	},
 	world_log_1 = {
@@ -12340,6 +12352,10 @@ By tapping the “Quick Retire” button to the bottom left of the Retire interf
 	shop_word_cancel = {
 		tip = "Cancel",
 		key = "shop_word_cancel"
+	},
+	month_sign_resign = {
+		tip = "补签",
+		key = "month_sign_resign"
 	}
 }
 

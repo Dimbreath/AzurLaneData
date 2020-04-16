@@ -1,6 +1,7 @@
 slot0 = class("ActivityMainScene", import("..base.BaseUI"))
 slot0.LOCK_ACT_MAIN = "ActivityMainScene:LOCK_ACT_MAIN"
 slot0.UPDATE_ACTIVITY = "ActivityMainScene:UPDATE_ACTIVITY"
+slot0.SELECT_ACTIVITY_OPEN = "ActivityMainScene:SELECT_ACTIVITY_OPEN"
 slot1 = {
 	[ActivityConst.DAY7_LOGIN_ACTIVITY_ID] = {
 		className = "Day7LoginPage",
@@ -482,6 +483,10 @@ slot1 = {
 	[ActivityConst.ANIME_END] = {
 		className = "AnimeEndPage",
 		uiName = "AnimeEndPage"
+	},
+	[ActivityConst.ACTIVITY_JAMAICA_SKIN_RE_PAGE] = {
+		className = "JamaicaSkinRePage",
+		uiName = "JamaicaSkinRePage"
 	}
 }
 slot2 = {
@@ -564,6 +569,9 @@ function slot0.didEnter(slot0)
 	end)
 	slot0:bind(slot0.UPDATE_ACTIVITY, function (slot0, slot1)
 		slot0:updateActivity(slot1)
+	end)
+	slot0:bind(slot0.SELECT_ACTIVITY_OPEN, function ()
+		slot0:selectActivityOpen()
 	end)
 end
 
@@ -694,6 +702,11 @@ function slot0.selectActivity(slot0, slot1)
 
 		slot0.activity = slot1
 		slot0.contextData.id = slot1.id
+
+		if slot0.openPageId ~= slot1.id then
+			slot0.openPageId = nil
+			slot0.openPageFlag = nil
+		end
 	end
 end
 
@@ -755,6 +768,27 @@ function slot0.HideWindow(slot0, slot1)
 	end
 
 	slot0.windowList[slot2]:Hide()
+end
+
+function slot0.selectActivityOpen(slot0)
+	if slot0.activity ~= nil then
+		slot0.openPageFlag = true
+
+		if slot0.openPageCallBack and slot0.openPageId == slot0.activity.id then
+			slot0.openPageCallBack()
+
+			slot0.openPageCallBack = nil
+		end
+	end
+end
+
+function slot0.setSelectOpenHandle(slot0, slot1, slot2)
+	if slot0.openPageFlag and slot1 == slot0.activity.id then
+		slot2()
+	else
+		slot0.openPageId = slot1
+		slot0.openPageCallBack = slot2
+	end
 end
 
 function slot0.willExit(slot0)

@@ -251,17 +251,6 @@ pg.ship_data_group = {
 					}
 				},
 				0
-			},
-			{
-				"Light ship Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
 			}
 		}
 	},
@@ -524,17 +513,6 @@ pg.ship_data_group = {
 					}
 				},
 				0
-			},
-			{
-				"Light ship Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
 			}
 		}
 	},
@@ -765,11 +743,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Heavy Ship Construction",
+				"Light ship Construction",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
+						projectName = "light",
 						page = 1
 					}
 				},
@@ -807,11 +785,11 @@ pg.ship_data_group = {
 				0
 			},
 			{
-				"Heavy Ship Construction",
+				"Light ship Construction",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
+						projectName = "light",
 						page = 1
 					}
 				},
@@ -1468,17 +1446,6 @@ pg.ship_data_group = {
 					"LEVEL",
 					{
 						chapterid = 302
-					}
-				},
-				0
-			},
-			{
-				"Light ship Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
 					}
 				},
 				0
@@ -4536,9 +4503,13 @@ pg.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Time-Limited Build",
+				"Heavy Ship Construction",
 				{
-					""
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -5552,17 +5523,6 @@ pg.ship_data_group = {
 					}
 				},
 				0
-			},
-			{
-				"Light ship Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
 			}
 		}
 	},
@@ -5658,17 +5618,6 @@ pg.ship_data_group = {
 					"LEVEL",
 					{
 						chapterid = 201
-					}
-				},
-				0
-			},
-			{
-				"Light ship Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
 					}
 				},
 				0
@@ -5858,6 +5807,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -5896,6 +5856,17 @@ pg.ship_data_group = {
 				"Event: Lunar New Year",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -6134,17 +6105,6 @@ pg.ship_data_group = {
 					}
 				},
 				0
-			},
-			{
-				"Light ship Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
 			}
 		}
 	},
@@ -6186,17 +6146,6 @@ pg.ship_data_group = {
 					"LEVEL",
 					{
 						chapterid = 302
-					}
-				},
-				0
-			},
-			{
-				"Light ship Construction",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
 					}
 				},
 				0
@@ -7831,6 +7780,17 @@ pg.ship_data_group = {
 				"Event: Lunar New Year",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Light/Special Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -10221,6 +10181,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -10250,6 +10221,17 @@ pg.ship_data_group = {
 				"Event: Visitors Dyed in Red",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -12700,6 +12682,17 @@ pg.ship_data_group = {
 				"Event: The Pursuit of Graf Spee",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}

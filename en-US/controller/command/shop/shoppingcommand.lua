@@ -31,7 +31,7 @@ function slot0.execute(slot0, slot1)
 	end
 
 	if slot5.type == 1 then
-		if slot5.effect_args[1] == 1 and slot7:GoldMax(slot5.num) then
+		if slot5.effect_args[1] == 1 and slot7:GoldMax(slot5.num * slot4) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_shop"))
 
 			return
@@ -42,7 +42,7 @@ function slot0.execute(slot0, slot1)
 				slot9 = ShopArgs.getOilByLevel(slot7.level)
 			end
 
-			if slot7:OilMax(slot9) then
+			if slot7:OilMax(slot9 * slot4) then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_shop"))
 
 				return
