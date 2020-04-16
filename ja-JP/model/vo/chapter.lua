@@ -879,10 +879,35 @@ function slot0.getFleetBattleBuffs(slot0, slot1)
 	_.each(slot0:getFleetStgIds(slot1), function (slot0)
 		table.insert(slot0, pg.strategy_data_template[slot0].buff_id)
 	end)
-
-	return (slot0.buff_list and {
+	table.insertto((slot0.buff_list and {
 		unpack(slot0.buff_list)
-	}) or {}, slot0:buildBattleBuffList(slot1)
+	}) or {}, slot0:GetAttachmentBuffs(slot1.line.row, slot1.line.column) or {})
+
+	return (slot0.buff_list and ) or , slot0:buildBattleBuffList(slot1)
+end
+
+function slot0.GetAttachmentBuffs(slot0, slot1, slot2)
+	if not _.detect(slot0.cellAttachments, function (slot0)
+		return slot0.row == slot0 and slot0.column == 
+	end) then
+		return
+	end
+
+	if not pg.map_event_template[slot3.attachmentId] then
+		return
+	end
+
+	slot5 = {}
+
+	for slot9, slot10 in ipairs(slot4.effect) do
+		if slot10[1] == "attach_buff" then
+			for slot14 = 2, #slot10, 1 do
+				table.insert(slot5, slot10[slot14])
+			end
+		end
+	end
+
+	return slot5
 end
 
 function slot0.buildBattleBuffList(slot0, slot1)

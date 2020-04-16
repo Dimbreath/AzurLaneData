@@ -1247,10 +1247,18 @@ end
 function slot0.initJPAccountPanel(slot0, slot1)
 	slot0.userProxy = getProxy(UserProxy)
 	slot0.accountTwitterUI = slot0:findTF("page1", slot1)
-	slot0.goTranscodeUIBtn = slot0:findTF("bind_account", slot0.accountTwitterUI)
-	slot0.twitterBtn = slot0:findTF("bind_twitter", slot0.accountTwitterUI)
-	slot0.twitterUnlinkBtn = slot0:findTF("unlink_twitter", slot0.accountTwitterUI)
-	slot0.twitterLinkSign = slot0:findTF("twitter_status", slot0.accountTwitterUI)
+	slot0.goTranscodeUIBtn = slot0:findTF("bind_account", slot2)
+	slot3 = slot0:findTF("btn_layout/twitter_con", slot0.accountTwitterUI)
+	slot0.twitterBtn = slot0:findTF("bind_twitter", slot3)
+	slot0.twitterUnlinkBtn = slot0:findTF("unlink_twitter", slot3)
+	slot0.twitterLinkSign = slot0:findTF("twitter_status", slot3)
+	slot4 = slot0:findTF("btn_layout/apple_con", slot0.accountTwitterUI)
+	slot0.appleBtn = slot0:findTF("bind_apple", slot4)
+	slot0.appleUnlinkBtn = slot0:findTF("unlink_apple", slot4)
+	slot0.appleLinkSign = slot0:findTF("apple_status", slot4)
+
+	setActive(slot4, PLATFORM_CODE == PLATFORM_JP and pg.SdkMgr.GetInstance():GetChannelUID() == "1" and CSharpVersion > 36)
+
 	slot0.transcodeUI = slot0:findTF("page2", slot1)
 	slot0.uidTxt = slot0:findTF("account_name/Text", slot0.transcodeUI)
 	slot0.transcodeTxt = slot0:findTF("password/Text", slot0.transcodeUI)
@@ -1270,12 +1278,19 @@ function slot0.initJPAccountPanel(slot0, slot1)
 	onButton(slot0, slot0.twitterUnlinkBtn, function ()
 		pg.SdkMgr.GetInstance():UnlinkSocial(AIRI_PLATFORM_TWITTER)
 	end)
+	onButton(slot0, slot0.appleBtn, function ()
+		pg.SdkMgr.GetInstance():LinkSocial(AIRI_PLATFORM_APPLE)
+	end)
+	onButton(slot0, slot0.appleUnlinkBtn, function ()
+		pg.SdkMgr.GetInstance():UnlinkSocial(AIRI_PLATFORM_APPLE)
+	end)
 	onButton(slot0, slot0.goTranscodeUIBtn, function ()
 		setActive(slot0.accountTwitterUI, false)
 		setActive(slot0.transcodeUI, true)
 	end)
 	slot0:checkTranscodeView()
 	slot0:checkAccountTwitterView()
+	slot0:checkAccountAppleView()
 end
 
 function slot0.showTranscode(slot0, slot1)
@@ -1308,6 +1323,18 @@ function slot0.checkAccountTwitterView(slot0)
 
 	if slot1 then
 		setText(slot0.twitterLinkSign, i18n("twitter_link_title", pg.SdkMgr.GetInstance():GetSocialName(AIRI_PLATFORM_TWITTER)))
+	end
+end
+
+function slot0.checkAccountAppleView(slot0)
+	slot1 = pg.SdkMgr.GetInstance():IsSocialLink(AIRI_PLATFORM_APPLE)
+
+	setActive(slot0.appleUnlinkBtn, slot1)
+	setActive(slot0.appleLinkSign, slot1)
+	setActive(slot0.appleBtn, not slot1)
+
+	if isTwitterLinked then
+		setText(slot0.appleLinkSign, i18n("apple_link_title", pg.SdkMgr.GetInstance():GetSocialName(AIRI_PLATFORM_APPLE)))
 	end
 end
 

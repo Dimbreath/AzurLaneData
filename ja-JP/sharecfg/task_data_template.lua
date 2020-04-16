@@ -1841,7 +1841,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[45,3041]",
+		next_task = "[45,3041,6041]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 1101,
@@ -1883,7 +1883,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[46,3042]",
+		next_task = "[46,3042,6042]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 1102,
@@ -1925,7 +1925,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[47,3043]",
+		next_task = "[47,3043,6043]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 1103,
@@ -1967,7 +1967,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[48,3044]",
+		next_task = "[48,3044,6044]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 1104,
@@ -19976,6 +19976,154 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[6041] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6041,
+		type = 2,
+		name = "困難・夜明けの上陸作戦",
+		count_inherit = 0,
+		desc = "ハード・11-1の作戦目標（星3つ）をすべて達成せよ！",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 11101,
+		id = 6041,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "11101",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				2
+			},
+			{
+				2,
+				15008,
+				250
+			}
+		}
+	},
+	[6042] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6042,
+		type = 2,
+		name = "困難・嵐の夜",
+		count_inherit = 0,
+		desc = "ハード・11-2の作戦目標（星3つ）をすべて達成せよ！",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 11102,
+		id = 6042,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "11102",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				2
+			},
+			{
+				2,
+				15008,
+				350
+			}
+		}
+	},
+	[6043] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6043,
+		type = 2,
+		name = "困難・海上騎士団",
+		count_inherit = 0,
+		desc = "ハード・11-3の作戦目標（星3つ）をすべて達成せよ！",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 11103,
+		id = 6043,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "11103",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				2
+			},
+			{
+				2,
+				15008,
+				450
+			}
+		}
+	},
+	[6044] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 6044,
+		type = 2,
+		name = "困難・夜を切り裂いて",
+		count_inherit = 0,
+		desc = "ハード・11-4の作戦目標（星3つ）をすべて達成せよ！",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 11104,
+		id = 6044,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "11104",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				2
+			},
+			{
+				2,
+				15008,
+				550
+			}
+		}
+	},
 	[7001] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -20371,7 +20519,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -25206,7 +25358,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -25951,7 +26107,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -27602,7 +27762,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -28879,7 +29043,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -29272,7 +29440,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -29377,7 +29549,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -29482,7 +29658,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -29587,7 +29767,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -29692,7 +29876,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -29797,7 +29985,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -29902,7 +30094,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -30007,7 +30203,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -30112,7 +30312,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -30217,7 +30421,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -30322,7 +30530,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -30427,7 +30639,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -30532,7 +30748,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -30637,7 +30857,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -31030,7 +31254,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -39672,7 +39900,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -40321,7 +40553,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -43703,7 +43939,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -44032,7 +44272,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -44361,7 +44605,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -44690,7 +44938,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -45019,7 +45271,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -49078,7 +49334,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -49894,7 +50154,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -50531,7 +50795,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -51864,7 +52132,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -52737,7 +53009,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -55083,7 +55359,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -60467,7 +60747,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -61840,7 +62124,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -61945,7 +62233,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -62050,7 +62342,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -62155,7 +62451,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -62260,7 +62560,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -62365,7 +62669,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -62470,7 +62778,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -62575,7 +62887,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -62680,7 +62996,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -62785,7 +63105,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -62890,7 +63214,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -62995,7 +63323,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -63100,7 +63432,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -63205,7 +63541,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -63918,7 +64258,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -66247,7 +66591,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -68252,7 +68600,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -69412,7 +69764,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -70475,7 +70831,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -70580,7 +70940,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -70685,7 +71049,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -70790,7 +71158,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -70895,7 +71267,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -71000,7 +71376,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -71105,7 +71485,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -71210,7 +71594,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -71315,7 +71703,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -71420,7 +71812,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -71525,7 +71921,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -71630,7 +72030,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -71735,7 +72139,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -71840,7 +72248,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -73846,7 +74258,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -73919,7 +74335,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -75010,7 +75430,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -76295,7 +76719,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -76432,7 +76860,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -79875,7 +80307,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -80684,7 +81120,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -82954,7 +83394,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -83027,7 +83471,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -83614,7 +84062,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -85746,7 +86198,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -86680,7 +87136,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -87297,6 +87757,230 @@ pg.task_data_template = {
 				1,
 				150,
 				2
+			}
+		}
+	},
+	[15540] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92920,
+		type = 26,
+		name = "牙买加皮肤任务复刻1",
+		count_inherit = 0,
+		desc = "任意の敵艦を100隻撃破する",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15540,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[15541] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92921,
+		type = 26,
+		name = "牙买加皮肤任务复刻2",
+		count_inherit = 0,
+		desc = "任意の敵艦を150隻撃破する",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15541,
+		target_num = 150,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				5
+			}
+		}
+	},
+	[15542] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92922,
+		type = 26,
+		name = "牙买加皮肤任务复刻3",
+		count_inherit = 0,
+		desc = "任意の敵艦を150隻撃破する",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15542,
+		target_num = 150,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				300
+			}
+		}
+	},
+	[15543] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92923,
+		type = 26,
+		name = "牙买加皮肤任务复刻4",
+		count_inherit = 0,
+		desc = "任意の敵艦を200隻撃破する",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15543,
+		target_num = 200,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				5
+			}
+		}
+	},
+	[15544] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92924,
+		type = 26,
+		name = "牙买加皮肤任务复刻5",
+		count_inherit = 0,
+		desc = "任意の敵艦を250隻撃破する",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15544,
+		target_num = 250,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				500
+			}
+		}
+	},
+	[15545] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92925,
+		type = 26,
+		name = "牙买加皮肤任务复刻6",
+		count_inherit = 0,
+		desc = "任意の敵艦を300隻撃破する",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15545,
+		target_num = 300,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				10
+			}
+		}
+	},
+	[15546] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92926,
+		type = 26,
+		name = "牙买加皮肤任务复刻7",
+		count_inherit = 0,
+		desc = "任意の敵艦を300隻撃破する",
+		target_id_2 = "",
+		sub_type = 11,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15546,
+		target_num = 300,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				7,
+				202172,
+				1
 			}
 		}
 	},
@@ -88130,7 +88814,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -88299,7 +88987,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -88468,7 +89160,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -88765,7 +89461,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -88966,7 +89666,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -89871,7 +90575,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -90746,7 +91454,11 @@ pg.task_data_template = {
 			11001,
 			11002,
 			11003,
-			11004
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
 		},
 		open_need = {},
 		award_display = {
@@ -95478,6 +96190,10 @@ pg.task_data_template = {
 		6038,
 		6039,
 		6040,
+		6041,
+		6042,
+		6043,
+		6044,
 		7001,
 		7002,
 		7003,
@@ -97329,6 +98045,13 @@ pg.task_data_template = {
 		15533,
 		15534,
 		15535,
+		15540,
+		15541,
+		15542,
+		15543,
+		15544,
+		15545,
+		15546,
 		30201,
 		30202,
 		31001,

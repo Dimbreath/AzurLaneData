@@ -17,6 +17,8 @@ function slot0.OnLoaded(slot0)
 	slot0.uilist = UIItemList.New(slot0:findTF("scrollView/view"), slot0:findTF("tpl"))
 	slot0.timerTF = slot0:findTF("timer_bg/Text"):GetComponent(typeof(Text))
 	slot0.refreshBtn = slot0:findTF("refresh_btn")
+
+	setText(slot0:findTF("tpl/mask/tag/sellout_tag"), i18n("word_sell_out"))
 end
 
 function slot0.OnInit(slot0)

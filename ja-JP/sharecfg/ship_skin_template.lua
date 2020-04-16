@@ -2987,6 +2987,109 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[101175] = {
+		ship_group = 10117,
+		name = "ピクニック・ハプニング？",
+		bg_sp = "",
+		group_index = 5,
+		illustrator2 = -1,
+		desc = "指揮官、あーん…ラフィー、指揮官に食べさせてもらうとは思ってない…うん。ラフィーは指揮官を食べさせる…",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "lafei_8",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "113",
+		skin_type = 4,
+		id = 101175,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "lafei_8",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 35,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.454,
+					1.293,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.01,
+					-0.006,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.537,
+					1.166,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.33,
+							2.42,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[101176] = {
 		ship_group = 10117,
 		name = "ウサウサアイドル・てきとー",
@@ -26910,7 +27013,9 @@ pg.ship_skin_template = {
 		lip_sync_gain = 0,
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
-		tag = {},
+		tag = {
+			2
+		},
 		live2d_offset = {
 			0,
 			0,
@@ -57138,7 +57243,7 @@ pg.ship_skin_template = {
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "最上型重巡洋艦一番艦・最上",
+		desc = "最上型軽巡洋艦一番艦・最上",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "zuishang",
@@ -57354,7 +57459,7 @@ pg.ship_skin_template = {
 		bg_sp = "",
 		group_index = 0,
 		illustrator2 = -1,
-		desc = "最上型重巡洋艦二番艦・三隈",
+		desc = "最上型軽巡洋艦二番艦・三隈",
 		bullet_skin_secondary = "",
 		bullet_skin_main = "",
 		painting = "sanwei",
@@ -108367,6 +108472,7 @@ pg.ship_skin_template = {
 			101172,
 			101173,
 			101174,
+			101175,
 			101176,
 			101178,
 			101179
@@ -108455,6 +108561,7 @@ pg.ship_skin_template = {
 		101172,
 		101173,
 		101174,
+		101175,
 		101176,
 		101178,
 		101179,
