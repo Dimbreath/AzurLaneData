@@ -296,14 +296,25 @@ return {
 					}
 				},
 				{
+					triggerType = 3,
+					waveIndex = 501,
+					preWaves = {
+						101,
+						102,
+						103,
+						400
+					},
+					triggerParams = {
+						id = "ZHUXIAN040102"
+					}
+				},
+				{
 					triggerType = 0,
 					key = true,
 					waveIndex = 104,
 					conditionType = 0,
 					preWaves = {
-						101,
-						102,
-						103
+						501
 					},
 					triggerParam = {},
 					spawn = {

@@ -4,6 +4,7 @@ slot3 = AiriJPSdkMgr.AiriSdkDataInst
 AIRI_PLATFORM_FACEBOOK = "facebook"
 AIRI_PLATFORM_TWITTER = "twitter"
 AIRI_PLATFORM_YOSTAR = "yostar"
+AIRI_PLATFORM_APPLE = "apple"
 AIRI_SDK_INITED = false
 
 function GoLoginScene()
@@ -155,6 +156,8 @@ return {
 			slot0:LoginWithTW()
 		elseif slot0 == AIRI_PLATFORM_YOSTAR then
 			slot0:LoginWithSDKAccount(slot1, slot2)
+		elseif slot0 == AIRI_PLATFORM_APPLE then
+			slot0:LoginWithApple()
 		end
 	end,
 	LoginWithTranscode = function (slot0, slot1)
@@ -185,6 +188,8 @@ return {
 			slot1:LinkSocial(Airisdk.LoginPlatform.TWITTER)
 		elseif slot0 == AIRI_PLATFORM_YOSTAR then
 			slot1:LinkSocial(Airisdk.LoginPlatform.YOSTAR, slot1, slot2)
+		elseif slot0 == AIRI_PLATFORM_APPLE then
+			slot1:LinkSocial(Airisdk.LoginPlatform.APPLE)
 		end
 	end,
 	UnlinkSocial = function (slot0)
@@ -194,6 +199,8 @@ return {
 			slot1:UnlinkSocial(Airisdk.LoginPlatform.FACEBOOK)
 		elseif slot0 == AIRI_PLATFORM_TWITTER then
 			slot1:UnlinkSocial(Airisdk.LoginPlatform.TWITTER)
+		elseif slot0 == AIRI_PLATFORM_APPLE then
+			slot1:UnlinkSocial(Airisdk.LoginPlatform.APPLE)
 		end
 	end,
 	IsSocialLink = function (slot0)
@@ -207,6 +214,8 @@ return {
 			return slot1:CheckPlatformLink(Airisdk.LoginPlatform.TWITTER)
 		elseif slot0 == AIRI_PLATFORM_YOSTAR then
 			return slot1:CheckPlatformLink(Airisdk.LoginPlatform.YOSTAR)
+		elseif slot0 == AIRI_PLATFORM_APPLE and CSharpVersion > 36 then
+			return slot1:CheckPlatformLink(Airisdk.LoginPlatform.APPLE)
 		end
 
 		return false
@@ -218,6 +227,8 @@ return {
 			return slot0.loginRet.TWITTER_NAME
 		elseif slot0 == AIRI_PLATFORM_YOSTAR then
 			return slot0.loginRet.SDK_NAME
+		elseif slot0 == AIRI_PLATFORM_APPLE then
+			return slot0.loginRet.APPLE_ID
 		end
 
 		return ""

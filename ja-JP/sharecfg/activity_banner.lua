@@ -5,17 +5,15 @@ pg.activity_banner = {
 		id = 1,
 		pic = "temp1",
 		param = {
-			"scene get boat",
-			{
-				projectName = "heavy"
-			}
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
 				{
 					2020,
 					4,
-					9
+					16
 				},
 				{
 					0,
@@ -27,7 +25,7 @@ pg.activity_banner = {
 				{
 					2020,
 					4,
-					16
+					29
 				},
 				{
 					23,
@@ -38,22 +36,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "560",
+		type = 3,
 		id = 2,
 		pic = "temp2",
-		param = {
-			"scene level",
-			{
-				open_remaster = true,
-				isSP = false
-			}
-		},
 		time = {
 			{
 				{
 					2020,
 					4,
-					9
+					16
 				},
 				{
 					0,
@@ -65,7 +57,7 @@ pg.activity_banner = {
 				{
 					2020,
 					4,
-					16
+					29
 				},
 				{
 					23,
@@ -78,6 +70,40 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 3,
+		pic = "temp4",
+		param = {
+			"scene back yard"
+		},
+		time = {
+			{
+				{
+					2020,
+					4,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					4,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 4,
 		pic = "temp3",
 		param = {
 			"scene level",
@@ -100,7 +126,7 @@ pg.activity_banner = {
 				{
 					2020,
 					4,
-					16
+					19
 				},
 				{
 					23,
@@ -113,7 +139,8 @@ pg.activity_banner = {
 	all = {
 		1,
 		2,
-		3
+		3,
+		4
 	}
 }
 

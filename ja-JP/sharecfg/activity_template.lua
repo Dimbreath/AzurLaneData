@@ -2372,6 +2372,7 @@ pg.activity_template = {
 	[556] = {
 		mark = 20200409,
 		title_res_tag = "",
+		time = "stop",
 		type = 26,
 		login_pop = 0,
 		config_id = 0,
@@ -2379,33 +2380,6 @@ pg.activity_template = {
 		config_data = "activity_drop_556",
 		bg = "",
 		id = 556,
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 3,
 			bg = "loadingbg/bg_build_3_act",
@@ -2558,6 +2532,69 @@ pg.activity_template = {
 					59
 				}
 			}
+		}
+	},
+	[560] = {
+		mark = 20200416,
+		title_res_tag = "yamaijia_fuke",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 11,
+		config_client = "",
+		id = 560,
+		config_data = {
+			{
+				15540
+			},
+			{
+				15541
+			},
+			{
+				15542
+			},
+			{
+				15543
+			},
+			{
+				15544
+			},
+			{
+				15545
+			},
+			{
+				15546
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					4,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					4,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_yamaijiafuke"
 		}
 	},
 	[10006] = {
@@ -3691,6 +3728,7 @@ pg.activity_template = {
 		557,
 		558,
 		559,
+		560,
 		10006,
 		10056,
 		10123,

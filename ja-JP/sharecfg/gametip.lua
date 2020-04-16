@@ -8932,15 +8932,15 @@ No.7 駆逐艦「鞍山」
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
-		tip = "「霧島」常設追加！",
+		tip = "「ワシントン」、「ノースカロライナ」、「ミネアポリス」など常設追加！",
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "「アヴローラ」常設追加！",
+		tip = "「ホビー」、「カーク」常設追加！",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "「大鳳」常設追加！",
+		tip = "「エセックス」常設追加！",
 		key = "buildship_special_tip"
 	},
 	open_skill_pos = {
@@ -13031,6 +13031,10 @@ GET!
 		tip = "次の任務は明日に開放されます",
 		key = "undermist_tip"
 	},
+	apple_link_title = {
+		tip = "連携中のアカウント完了",
+		key = "apple_link_title"
+	},
 	retire_1 = {
 		tip = "<color=#ff5c5c>3回限界突破</color>を行った艦船を<color=#ff5c5c>所持している</color>場合、その艦船と同名の艦船は",
 		key = "retire_1"
@@ -13093,6 +13097,10 @@ GET!
 	shop_word_cancel = {
 		tip = "戻 る",
 		key = "shop_word_cancel"
+	},
+	month_sign_resign = {
+		tip = "补签",
+		key = "month_sign_resign"
 	}
 }
 
