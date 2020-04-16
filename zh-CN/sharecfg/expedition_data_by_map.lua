@@ -670,7 +670,7 @@ pg.expedition_data_by_map = {
 		bg = "map_11",
 		destory_icon_suffix = "blue",
 		animtor = 0,
-		bind_map = 0,
+		bind_map = 211,
 		clouds_pos = {
 			{
 				332,
@@ -1204,6 +1204,47 @@ pg.expedition_data_by_map = {
 			{
 				830,
 				-109
+			}
+		}
+	},
+	[211] = {
+		map = 211,
+		name = "奥古斯塔皇后湾海战",
+		bgm = "level",
+		type = 2,
+		on_activity = 0,
+		title = "11",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 70,
+		uifx = "UIhuohua2",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "white",
+		bg = "Map_211",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 11,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
 			}
 		}
 	},
@@ -7008,6 +7049,7 @@ pg.expedition_data_by_map = {
 		208,
 		209,
 		210,
+		211,
 		10000,
 		70000,
 		80000,

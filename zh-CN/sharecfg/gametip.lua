@@ -9096,15 +9096,15 @@ $3]],
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
-		tip = "{namecode:73} 建造追加！",
+		tip = "华盛顿、北卡罗来纳、明尼阿波利斯等角色建造追加！",
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "阿芙乐尔 建造追加！",
+		tip = "霍比、科尔克 建造追加！",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "{namecode:97} 建造追加！",
+		tip = "埃塞克斯 建造追加！",
 		key = "buildship_special_tip"
 	},
 	open_skill_pos = {
@@ -12842,6 +12842,10 @@ TIPS：
 	shop_word_cancel = {
 		tip = "取 消",
 		key = "shop_word_cancel"
+	},
+	month_sign_resign = {
+		tip = "由于4月4日全港区停服，为指挥官补发一日签到奖励",
+		key = "month_sign_resign"
 	}
 }
 

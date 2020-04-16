@@ -105,7 +105,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "看指挥官你这么识时务，{namecode:22}大人就再稍稍微努力一点好了！",
+			say = "看指挥官你这么识时务，{namecode:22}大人就再稍微努力一点好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

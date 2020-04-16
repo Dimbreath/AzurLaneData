@@ -1,9 +1,23 @@
 slot0 = class("MonthSignPage", import("...base.BaseActivityPage"))
+slot0.SHOW_RE_MONTH_SIGN = "show re month sign award"
 
 function slot0.OnInit(slot0)
 	slot0.bg = slot0:findTF("bg")
 	slot0.items = slot0:findTF("items")
 	slot0.item = slot0:findTF("item", slot0.items)
+	slot0.monthSignPageTool = MonthSignPageTool.New(slot0._event)
+	slot0.monthSignReSignUI = MonthSignReSignUI.New(slot0._tf, slot0._event, nil)
+
+	slot0:bind(ActivityMediator.ON_MONTH_ACHIEVE, function (slot0, slot1, slot2)
+		slot0.monthSignPageTool:onAcheve(slot1, slot2)
+	end)
+	slot0:bind(slot0.SHOW_RE_MONTH_SIGN, function (slot0, slot1, slot2)
+		if not slot0.monthSignReSignUI:GetLoaded() then
+			slot0.monthSignReSignUI:Load()
+		end
+
+		slot0.monthSignReSignUI:ActionInvoke("setAwardShow", slot1, slot2)
+	end)
 end
 
 function slot0.OnDataSetting(slot0)
@@ -20,6 +34,8 @@ function slot0.OnDataSetting(slot0)
 		slot0.specialDay = pg.activity_template[ActivityConst.MONTH_SIGN_ACTIVITY_ID].config_client[2]
 		slot0.isShowFrame = pg.activity_template[ActivityConst.MONTH_SIGN_ACTIVITY_ID].config_client[3]
 	end
+
+	slot0:emit(ActivityMainScene.SELECT_ACTIVITY_OPEN)
 end
 
 function slot0.OnFirstFlush(slot0)
@@ -85,8 +101,14 @@ function slot0.OnUpdateFlush(slot0)
 	end
 end
 
+function slot0.showReMonthSign(slot0)
+	return
+end
+
 function slot0.OnDestroy(slot0)
 	removeAllChildren(slot0.items)
+
+	slot0.monthSignPageTool = nil
 end
 
 return slot0

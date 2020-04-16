@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			actor = 301160,
 			actorName = "{namecode:22}",
-			say = "其、其实在进鬼屋之前也很害怕…但是指挥官想说去的话怎么好拒绝啊……",
+			say = "其、其实在进鬼屋之前也很害怕…但是指挥官说想去的话怎么好拒绝啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
