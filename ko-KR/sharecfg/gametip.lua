@@ -8878,7 +8878,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "인트레피드, 브레머튼 등 캐릭터 한정 건조 추가! ",
+		tip = "르 말랭, 장 바르 등 캐릭터 한정 건조 추가! ",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
