@@ -11647,6 +11647,7 @@ pg.shop_template = {
 		tag = 0,
 		time_second = 0,
 		order = 769,
+		time = "always",
 		group = 0,
 		num = 1,
 		isHX = 0,
@@ -11684,32 +11685,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			301013
-		},
-		time = {
-			{
-				{
-					2020,
-					3,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[70097] = {
@@ -11723,6 +11698,7 @@ pg.shop_template = {
 		tag = 0,
 		time_second = 0,
 		order = 769,
+		time = "always",
 		group = 0,
 		num = 1,
 		isHX = 0,
@@ -11760,32 +11736,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			202152
-		},
-		time = {
-			{
-				{
-					2020,
-					3,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[70098] = {
@@ -11799,6 +11749,7 @@ pg.shop_template = {
 		tag = 0,
 		time_second = 0,
 		order = 769,
+		time = "always",
 		group = 0,
 		num = 1,
 		isHX = 0,
@@ -11836,32 +11787,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			205011
-		},
-		time = {
-			{
-				{
-					2020,
-					3,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[70099] = {
@@ -11875,6 +11800,7 @@ pg.shop_template = {
 		tag = 0,
 		time_second = 0,
 		order = 769,
+		time = "always",
 		group = 0,
 		num = 1,
 		isHX = 0,
@@ -11912,32 +11838,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			202031
-		},
-		time = {
-			{
-				{
-					2020,
-					3,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[70100] = {
@@ -11951,6 +11851,7 @@ pg.shop_template = {
 		tag = 0,
 		time_second = 0,
 		order = 769,
+		time = "always",
 		group = 0,
 		num = 1,
 		isHX = 0,
@@ -11988,32 +11889,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			312012
-		},
-		time = {
-			{
-				{
-					2020,
-					3,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[70101] = {
@@ -12027,6 +11902,7 @@ pg.shop_template = {
 		tag = 0,
 		time_second = 0,
 		order = 769,
+		time = "always",
 		group = 0,
 		num = 1,
 		isHX = 0,
@@ -12064,32 +11940,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			102092
-		},
-		time = {
-			{
-				{
-					2020,
-					3,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[70102] = {
@@ -12103,6 +11953,7 @@ pg.shop_template = {
 		tag = 0,
 		time_second = 0,
 		order = 769,
+		time = "always",
 		group = 0,
 		num = 1,
 		isHX = 0,
@@ -12140,32 +11991,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			201011
-		},
-		time = {
-			{
-				{
-					2020,
-					3,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[70103] = {
@@ -12179,6 +12004,7 @@ pg.shop_template = {
 		tag = 0,
 		time_second = 0,
 		order = 769,
+		time = "always",
 		group = 0,
 		num = 1,
 		isHX = 0,
@@ -12216,32 +12042,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			105141
-		},
-		time = {
-			{
-				{
-					2020,
-					3,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[70104] = {
@@ -12255,6 +12055,7 @@ pg.shop_template = {
 		tag = 0,
 		time_second = 0,
 		order = 769,
+		time = "always",
 		group = 0,
 		num = 1,
 		isHX = 0,
@@ -12292,32 +12093,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			307071
-		},
-		time = {
-			{
-				{
-					2020,
-					3,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[70105] = {
@@ -12331,6 +12106,7 @@ pg.shop_template = {
 		tag = 0,
 		time_second = 0,
 		order = 769,
+		time = "always",
 		group = 0,
 		num = 1,
 		isHX = 0,
@@ -12368,32 +12144,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			408011
-		},
-		time = {
-			{
-				{
-					2020,
-					3,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[70106] = {
@@ -12407,6 +12157,7 @@ pg.shop_template = {
 		tag = 0,
 		time_second = 0,
 		order = 769,
+		time = "always",
 		group = 0,
 		num = 1,
 		isHX = 0,
@@ -12444,32 +12195,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			207032
-		},
-		time = {
-			{
-				{
-					2020,
-					3,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[70107] = {

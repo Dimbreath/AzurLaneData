@@ -92544,6 +92544,24 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[99952] = {
+		display = "오픈 시 SP 해역에서 정상적으로 드랍되지 않은 보상을 획득할 수 있습니다.（S 평가 승리 기준, 1회 한정） ",
+		rarity = 1,
+		type = 5,
+		drop_oil_max = 0,
+		name = "SP 해역 드랍 관련 우편 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 99952,
+		icon = "Props/yaoqinghan",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	all = {
 		1,
 		2,
@@ -94825,7 +94843,8 @@ pg.item_data_statistics = {
 		70046,
 		70047,
 		99950,
-		99951
+		99951,
+		99952
 	}
 }
 
