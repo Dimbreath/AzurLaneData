@@ -73,7 +73,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "Not you too...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -151,6 +151,25 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			say = "... \"The Sakura Empire's future\"... How many times do you think you can fool people with those words?!",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307060,
+			actorName = "{namecode:96}",
+			side = 0,
+			nameColor = "#a9f548",
+			say = "And it doesn't stop at lying! Now you've dragged our people in your twisted experiments!",
 			shake = {
 				speed = 1,
 				number = 3

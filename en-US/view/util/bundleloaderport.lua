@@ -1,5 +1,4 @@
 slot0 = class("BundleLoaderPort")
-slot1 = ResourceMgr.Inst
 
 function slot0.Ctor(slot0, slot1)
 	slot0.pool = slot1 or BundlePool.New()
@@ -21,7 +20,7 @@ function slot0.GetPrefab(slot0, slot1, slot2, slot3, slot4)
 			slot1._returnRequest[slot0] = nil
 		end
 
-		if slot2 and not slot1.stopped then
+		if slot2 then
 			slot2(slot0)
 		end
 	end)
@@ -49,7 +48,7 @@ function slot0.GetSpine(slot0, slot1, slot2, slot3)
 			slot1._returnRequest[slot0] = nil
 		end
 
-		if slot2 and not slot1.stopped then
+		if slot2 then
 			slot2(slot0)
 		end
 	end)
@@ -77,7 +76,7 @@ function slot0.GetPainting(slot0, slot1, slot2, slot3)
 			slot1._returnRequest[slot0] = nil
 		end
 
-		if slot2 and not slot1.stopped then
+		if slot2 then
 			slot2(slot0)
 		end
 	end)
@@ -122,6 +121,8 @@ function slot0.GetOffSpriteRequest(slot0, slot1)
 	slot0:ClearRequest(tf(slot1))
 end
 
+slot1 = ResourceMgr.Inst
+
 function slot0.LoadPrefab(slot0, slot1, slot2, slot3, slot4)
 	slot2 = slot2 or ""
 	slot5 = false
@@ -137,11 +138,15 @@ function slot0.LoadPrefab(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	slot0:getAssetAsync(slot1, slot2, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-		if slot0 or slot1.stopped then
+		if slot0 then
 			return
 		end
 
-		slot0(Object.Instantiate(slot0))
+
+		-- Decompilation error in this vicinity:
+		Object.Instantiate(slot0)(
+		-- Decompilation error in this vicinity:
+		Object.Instantiate(slot0))
 	end), true, false)
 end
 
@@ -194,8 +199,6 @@ function slot0.Clear(slot0)
 	slot0:ClearRequests()
 	slot0.pool:UnBind()
 	table.clear(slot0)
-
-	slot0.stopped = true
 end
 
 return slot0

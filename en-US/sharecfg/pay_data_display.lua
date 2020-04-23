@@ -2089,7 +2089,7 @@ pg.pay_data_display = {
 	[120] = {
 		limit_arg = 1,
 		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack. ",
-		name = "Startup Pack for New Commander ·I",
+		name = "New Commanders Support Pack I",
 		descrip = "Contains 180 Gems, 2x Oil Reserve Supply (1000) Packs, and more!",
 		subject = "New Commanders Support Pack I",
 		extra_service = 3,
@@ -2097,6 +2097,7 @@ pg.pay_data_display = {
 		tag = 1,
 		gem = 0,
 		limit_type = 2,
+		time = "always",
 		picture = "support1",
 		id_str = "com.yostaren.azurlane.diamond130",
 		first_pay_double = 0,
@@ -2145,32 +2146,6 @@ pg.pay_data_display = {
 				30
 			}
 		},
-		time = {
-			{
-				{
-					2020,
-					4,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					4,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		display = {
 			{
 				1,
@@ -2192,7 +2167,7 @@ pg.pay_data_display = {
 	[121] = {
 		limit_arg = 1,
 		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack. ",
-		name = "Startup Pack for New Commander ·II",
+		name = "New Commanders Support Pack II",
 		descrip = "Contains 780 Gems, 2x T4 Gear Development Packs, 4x Oil Reserve Supply (1000) Packs, and more!",
 		subject = "New Commanders Support Pack II",
 		extra_service = 3,
@@ -2200,6 +2175,7 @@ pg.pay_data_display = {
 		tag = 1,
 		gem = 0,
 		limit_type = 2,
+		time = "always",
 		picture = "support2",
 		id_str = "com.yostaren.azurlane.diamond131",
 		first_pay_double = 0,
@@ -2273,32 +2249,6 @@ pg.pay_data_display = {
 				50
 			}
 		},
-		time = {
-			{
-				{
-					2020,
-					4,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					4,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		display = {
 			{
 				1,
@@ -2320,7 +2270,7 @@ pg.pay_data_display = {
 	[122] = {
 		limit_arg = 1,
 		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack. ",
-		name = "Startup Pack for New Commander ·III ",
+		name = "New Commanders Support Pack III",
 		descrip = "Contains 1680 Gems, 4x T4 Gear Development Packs, 8x Oil Reserve Supply (1000) Packs, and more!",
 		subject = "New Commanders Support Pack III",
 		extra_service = 3,
@@ -2328,6 +2278,7 @@ pg.pay_data_display = {
 		tag = 1,
 		gem = 0,
 		limit_type = 2,
+		time = "always",
 		picture = "support3",
 		id_str = "com.yostaren.azurlane.diamond132",
 		first_pay_double = 0,
@@ -2406,32 +2357,6 @@ pg.pay_data_display = {
 				100
 			}
 		},
-		time = {
-			{
-				{
-					2020,
-					4,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					4,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		display = {
 			{
 				1,
@@ -2447,6 +2372,99 @@ pg.pay_data_display = {
 				2,
 				30121,
 				8
+			}
+		}
+	},
+	[123] = {
+		limit_arg = 1,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		name = "Crimson Echoes' Lucky Bag",
+		descrip = "Contains 1 x random Ship skin, 2020 x Gems, and other rewards. ",
+		subject = "Crimson Echoes' Lucky Bag",
+		extra_service = 3,
+		money = 2999,
+		tag = 1,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai61",
+		id_str = "com.yostaren.azurlane.diamond133",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 123,
+		airijp_id = "com.yostaren.azurlane.diamond133",
+		extra_service_item = {
+			{
+				2,
+				69961,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2020,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					5,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69961,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				15008,
+				50
 			}
 		}
 	},
@@ -2481,7 +2499,8 @@ pg.pay_data_display = {
 		119,
 		120,
 		121,
-		122
+		122,
+		123
 	}
 }
 

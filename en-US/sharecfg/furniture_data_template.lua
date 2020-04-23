@@ -2739,6 +2739,82 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100003] = {
+		advice = 0,
+		describe = "Aspiring skyfarers, your dream has come true!",
+		count = 1,
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		name = "Dreamy Propeller",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 0,
+		icon = "19.02.15icon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 100003,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhuqingting",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		animator = {
+			{
+				"zhuqingtingCharControl"
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		advice = 0,
 		describe = "Watch out for splinters.",
@@ -57765,6 +57841,7 @@ pg.furniture_data_template = {
 		171,
 		173,
 		100002,
+		100003,
 		1001,
 		1002,
 		1101,

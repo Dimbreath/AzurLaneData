@@ -23,7 +23,7 @@ function slot0.Set(slot0, slot1)
 
 	slot0:ClearModel()
 
-	for slot5 = #slot0.group, 1, 1 do
+	for slot5 = #slot0.group, 1, -1 do
 		table.remove(slot0.group, slot5)
 	end
 

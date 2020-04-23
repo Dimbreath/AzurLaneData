@@ -31382,6 +31382,655 @@ pg.skill_data_template = {
 			}
 		}
 	},
+	[13160] = {
+		desc_get = "",
+		name = "Accomplish Any Feat!",
+		desc = "When this ship fires a Salvo: $1 chance to fire a special barrage; the barrage is unaffected by this ship's position in your Main Fleet. Barrage DMG is based on the skill's level.",
+		type = 1,
+		max_level = 10,
+		id = 13160,
+		system_transform = {
+			[3.0] = 13165
+		},
+		desc_get_add = {
+			{
+				"45.0%",
+				"75.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"45.0%",
+					"+3.3%"
+				},
+				{
+					"48.3%",
+					"+3.3%"
+				},
+				{
+					"51.6%",
+					"+3.3%"
+				},
+				{
+					"54.9%",
+					"+3.3%"
+				},
+				{
+					"58.2%",
+					"+3.3%"
+				},
+				{
+					"61.5%",
+					"+3.3%"
+				},
+				{
+					"64.8%",
+					"+3.3%"
+				},
+				{
+					"68.1%",
+					"+3.3%"
+				},
+				{
+					"71.4%",
+					"+3.6%"
+				},
+				{
+					"75.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[13170] = {
+		desc_get = "",
+		name = "Crush Any Contender!",
+		desc = "1) When: a) this ship is afloat, b) the fleet this ship is NOT in has a BB as its Flagship, and c) said fleet is engaging in its 3rd, 4th, or 5th battle: launches a special barrage 20s after the other fleet's battle begins. 2) When this ship is in combat and takes DMG or when an enemy comes within close range of this ship: fires a special $1 barrage. Barrage DMG is based on the skill's level and has a cooldown of 15s between activations.",
+		type = 3,
+		max_level = 10,
+		id = 13170,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[13180] = {
+		desc_get = "",
+		name = "Legacy of Lunga Point ",
+		desc = "At the start of the battle, if there are 3 ships afloat in your Vanguard and this ship is in the center of it: increases TRP by $1 and Torpedo Crit Rate by $2 for your DDs and CLs, and also increases the EVA of your DDs by $3. ",
+		type = 3,
+		max_level = 10,
+		id = 13180,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[13190] = {
+		desc_get = "",
+		name = "I'm Not Afraid Anymore! ",
+		desc = "While this ship has a Sakura Empire Main Gun equipped: decreases its DMG taken by $1; while equipping a Main Gun from any other faction: decreases this ship's AA Gun efficiency by 50.0%, but increases its Main Gun efficiency by $2 and Torpedo efficiency by $3, and also fires a special $4 torpedo barrage at the same time as this ship's All Out Assault activates. Torpedo barrage DMG is based on the skill's level. ",
+		type = 1,
+		max_level = 10,
+		id = 13190,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"5.0%",
+				"20.0%"
+			},
+			{
+				"20.0%",
+				"50.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.6%"
+				},
+				{
+					"6.6%",
+					"+1.6%"
+				},
+				{
+					"8.2%",
+					"+1.8%"
+				},
+				{
+					"10.0%",
+					"+1.6%"
+				},
+				{
+					"11.6%",
+					"+1.6%"
+				},
+				{
+					"13.2%",
+					"+1.8%"
+				},
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.8%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+3.3%"
+				},
+				{
+					"23.3%",
+					"+3.3%"
+				},
+				{
+					"26.6%",
+					"+3.3%"
+				},
+				{
+					"29.9%",
+					"+3.3%"
+				},
+				{
+					"33.2%",
+					"+3.3%"
+				},
+				{
+					"36.5%",
+					"+3.3%"
+				},
+				{
+					"39.8%",
+					"+3.3%"
+				},
+				{
+					"43.1%",
+					"+3.3%"
+				},
+				{
+					"46.4%",
+					"+3.3%"
+				},
+				{
+					"50.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[13200] = {
+		desc_get = "",
+		name = "Knight's Shooting Training",
+		desc = "Decreases the loading time of this ship's first 3 Salvos by 40.0%, but DMG dealt will be changed to 40.0%, $1, and $2 each. From the 4th Salvo onwards: this ship deals $2 DMG with its Salvoes.",
+		type = 1,
+		max_level = 10,
+		id = 13200,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"60.0%",
+				"80.0%"
+			},
+			{
+				"100.0%",
+				"120.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"60.0%",
+					"+2.2%"
+				},
+				{
+					"62.2%",
+					"+2.2%"
+				},
+				{
+					"64.4%",
+					"+2.2%"
+				},
+				{
+					"66.6%",
+					"+2.2%"
+				},
+				{
+					"68.8%",
+					"+2.2%"
+				},
+				{
+					"71.0%",
+					"+2.2%"
+				},
+				{
+					"73.2%",
+					"+2.2%"
+				},
+				{
+					"75.4%",
+					"+2.2%"
+				},
+				{
+					"77.6%",
+					"+2.4%"
+				},
+				{
+					"80.0%"
+				}
+			},
+			{
+				{
+					"100.0%",
+					"+2.2%"
+				},
+				{
+					"102.2%",
+					"+2.2%"
+				},
+				{
+					"104.4%",
+					"+2.2%"
+				},
+				{
+					"106.6%",
+					"+2.2%"
+				},
+				{
+					"108.8%",
+					"+2.2%"
+				},
+				{
+					"111.0%",
+					"+2.2%"
+				},
+				{
+					"113.2%",
+					"+2.2%"
+				},
+				{
+					"115.4%",
+					"+2.2%"
+				},
+				{
+					"117.6%",
+					"+2.4%"
+				},
+				{
+					"120.0%"
+				}
+			}
+		}
+	},
+	[13210] = {
+		desc_get = "",
+		name = "Knight's Formation Drill",
+		desc = "At the start of the battle: increases this ship's FP, RLD, and Accuracy by $1 for every Royal Navy ship in the same fleet. Can be stacked up to 4 times.",
+		type = 3,
+		max_level = 10,
+		id = 13210,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"1.0%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	},
+	[13220] = {
+		desc_get = "",
+		name = "Crush Any Contender!",
+		desc = "关卡出击中，其他编队为战列旗舰时，进入战斗后20秒时发动一轮支援炮击",
+		type = 1,
+		max_level = 10,
+		id = 13220,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shells 194/160+",
@@ -40537,6 +41186,13 @@ pg.skill_data_template = {
 		13130,
 		13140,
 		13150,
+		13160,
+		13170,
+		13180,
+		13190,
+		13200,
+		13210,
+		13220,
 		18010,
 		18040,
 		18050,

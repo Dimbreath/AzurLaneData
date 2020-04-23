@@ -142,8 +142,8 @@ pg.name_code = {
 	},
 	{
 		id = 29,
-		name = "Kagetsu",
-		code = "Kagetsu"
+		name = "Hanazuki",
+		code = "Hanazuki"
 	},
 	{
 		id = 30,
@@ -919,6 +919,21 @@ pg.name_code = {
 		id = 184,
 		name = "Uranami",
 		code = "Uranami"
+	},
+	{
+		id = 185,
+		name = "Naganami",
+		code = "Naganami"
+	},
+	{
+		id = 186,
+		name = "冬月",
+		code = "㮔"
+	},
+	{
+		id = 187,
+		name = "满月",
+		code = "槾"
 	}
 }
 

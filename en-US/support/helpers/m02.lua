@@ -18,7 +18,7 @@ function throttle(slot0, slot1, slot2)
 		slot0 = (slot1 and Time.unscaledTime) or 0
 		slot0 = slot0
 		slot2 = nil
-		slot3 = slot4(unpack(slot5))
+		slot3 = slot4(unpack(slot5, 1, slot5.len))
 
 		if not slot5 then
 			slot5 = nil
@@ -31,6 +31,7 @@ function throttle(slot0, slot1, slot2)
 		end
 
 		slot3 = {
+			len = select("#", ...),
 			...
 		}
 
@@ -42,7 +43,7 @@ function throttle(slot0, slot1, slot2)
 			end
 
 			slot0 = slot0
-			slot5 = slot6(unpack(unpack))
+			slot5 = slot6(unpack(unpack, 1, slot3.len))
 
 			if not unpack then
 				slot3 = nil
@@ -65,7 +66,7 @@ function debounce(slot0, slot1, slot2)
 			slot2 = nil
 
 			if not slot4 then
-				slot5 = slot6(unpack(slot7))
+				slot5 = slot6(unpack(slot7, 1, slot7.len))
 
 				if not unpack then
 					slot7 = nil
@@ -78,17 +79,18 @@ function debounce(slot0, slot1, slot2)
 
 	return function (...)
 		slot0 = {
+			len = select("#", ...),
 			...
 		}
 		slot1 = Time.unscaledTime
-		slot0 = slot2 and not slot3
+		slot0 = "#" and not slot3
 
 		if not slot3 then
 			slot3:Start()
 		end
 
 		if slot0 then
-			slot6 = slot7(unpack(slot0))
+			slot6 = slot7(unpack(slot0, 1, slot0.len))
 			slot0 = nil
 		end
 

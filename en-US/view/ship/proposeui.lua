@@ -749,11 +749,31 @@ function slot2(slot0)
 				end
 			end
 
-			setActive(slot0.doneTF, slot0.shipVO.propose)
+			slot7 = setActive
+			slot8 = slot0
+			slot8 = slot8.doneTF
+			slot9 = slot0
+			slot9 = slot9.shipVO
+			slot9 = slot9.propose
 
-			slot0.button:GetComponent(typeof(Button)).interactable = slot6 > 0 and slot5
-			slot7, slot8 = slot0.shipVO:getInitmacyInfo()
-			slot9 = slot0.shipVO.propose
+			slot7(slot8, slot9)
+
+			slot7 = slot0
+			slot7 = slot7.button
+			slot8 = slot7
+			slot7 = slot7.GetComponent
+			slot9 = typeof
+			slot10 = Button
+			slot7 = slot7(slot8, slot9(slot10))
+			slot7.interactable = slot5
+			slot7 = slot0
+			slot7 = slot7.shipVO
+			slot8 = slot7
+			slot7 = slot7.getInitmacyInfo
+			slot7, slot8 = slot7(slot8)
+			slot9 = slot0
+			slot9 = slot9.shipVO
+			slot9 = slot9.propose
 
 			if slot9 then
 				slot9 = slot0
@@ -950,16 +970,10 @@ function slot2(slot0)
 					slot1 = 1
 
 					if slot0 < slot1 then
-						slot0 = pg
-						slot0 = slot0.TipsMgr
-						slot0 = slot0.GetInstance
-						slot0 = slot0()
-						slot1 = slot0
-						slot0 = slot0.ShowTips
-						slot2 = i18n
-						slot3 = "common_no_item_1"
+						slot0 = ItemTipPanel
+						slot0 = slot0.ShowRingBuyTip
 
-						slot0(slot1, slot2(slot3))
+						slot0()
 
 						return
 					end

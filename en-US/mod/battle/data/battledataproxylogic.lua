@@ -62,6 +62,8 @@ function ys.Battle.BattleDataProxy.HandleDamage(slot0, slot1, slot2, slot3)
 		slot0:DispatchEvent(ys.Event.New(slot1.HIT_ENEMY, slot2))
 	end
 
+	slot6 = slot1:GetWeaponHostAttr()
+
 	slot2:TriggerBuff(slot2.BuffEffectType.ON_BULLET_HIT_BEFORE, {
 		weaponType = slot1:GetWeapon().GetTemplateData(slot5).attack_attribute,
 		bulletType = slot1:GetType()
@@ -71,56 +73,56 @@ function ys.Battle.BattleDataProxy.HandleDamage(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	slot16.damage, slot9, slot10 = slot0._calculateDamage(slot1, slot2, slot3)
-	slot11 = slot9.isMiss
-	slot12 = slot9.isCri
-	slot13 = slot9.damageAttr
+	slot17.damage, slot10, slot11 = slot0._calculateDamage(slot1, slot2, slot3)
+	slot12 = slot10.isMiss
+	slot13 = slot10.isCri
+	slot14 = slot10.damageAttr
 
 	slot1:AppendDamageUnit(slot2:GetUniqueID())
 
-	slot16 = {
+	slot17 = {
 		target = slot2,
-		damage = slot8,
-		weaponType = slot6.type,
+		damage = slot9,
+		weaponType = slot7.type,
 		equipIndex = slot5:GetEquipmentIndex()
 	}
 
-	if slot9.isDamagePrevent then
+	if slot10.isDamagePrevent then
 		slot2:TriggerBuff(slot2.BuffEffectType.ON_DAMAGE_PREVENT, {})
 	end
 
-	slot2:UpdateHP(slot8 * -1, slot17, slot1:GetPosition(), slot10)
-	slot0:DamageStatistics(slot1:GetAttrByName("id"), slot2:GetAttrByName("id"), slot8)
+	slot2:UpdateHP(slot9 * -1, slot18, slot1:GetPosition(), slot11)
+	slot0:DamageStatistics(slot6.id, slot2:GetAttrByName("id"), slot9)
 
-	if not slot11 and slot1:GetWeaponTempData().type ~= slot2.EquipmentType.ANTI_AIR then
-		slot1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_HIT, slot16)
+	if not slot12 and slot1:GetWeaponTempData().type ~= slot2.EquipmentType.ANTI_AIR then
+		slot1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_HIT, slot17)
 	end
 
-	slot19 = true
+	slot20 = true
 
-	if slot2:GetUnitType() ~= slot2.UnitType.AIRCRAFT_UNIT and slot18 ~= slot2.UnitType.AIRFIGHTER_UNIT and slot18 ~= slot2.UnitType.FUNNEL_UNIT and slot18 ~= slot2.UnitType.UAV_UNIT then
-		slot19 = false
+	if slot2:GetUnitType() ~= slot2.UnitType.AIRCRAFT_UNIT and slot19 ~= slot2.UnitType.AIRFIGHTER_UNIT and slot19 ~= slot2.UnitType.FUNNEL_UNIT and slot19 ~= slot2.UnitType.UAV_UNIT then
+		slot20 = false
 	end
 
 	if slot2:IsAlive() then
-		if not slot19 then
-			for slot23, slot24 in ipairs(slot1:GetAttachBuff()) do
-				if slot24.hit_ignore or not slot11 then
-					slot4.HandleBuffPlacer(slot24, slot1, slot2)
+		if not slot20 then
+			for slot24, slot25 in ipairs(slot1:GetAttachBuff()) do
+				if slot25.hit_ignore or not slot12 then
+					slot4.HandleBuffPlacer(slot25, slot1, slot2)
 				end
 			end
 		end
 
-		if not slot11 then
-			slot2:TriggerBuff(slot2.BuffEffectType.ON_BE_HIT, slot7)
+		if not slot12 then
+			slot2:TriggerBuff(slot2.BuffEffectType.ON_BE_HIT, slot8)
 		end
 	else
-		slot1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_KILL, slot16)
-		slot0:obituary(slot2, slot19, slot1)
-		slot0:KillCountStatistics(slot1:GetAttrByName("id"), slot2:GetAttrByName("id"))
+		slot1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_KILL, slot17)
+		slot0:obituary(slot2, slot20, slot1)
+		slot0:KillCountStatistics(slot6.id, slot2:GetAttrByName("id"))
 	end
 
-	return slot11, slot12
+	return slot12, slot13
 end
 
 function ys.Battle.BattleDataProxy.HandleMeteoDamage(slot0, slot1, slot2)

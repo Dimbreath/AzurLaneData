@@ -8337,30 +8337,6 @@ Combat Details:
 			{
 				icon = {
 					path = "",
-					atlas = "helpbg/battle_fc_1"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/battle_fc_2"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/battle_ac_1"
-				}
-			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/battle_ac_2"
-				}
-			},
-			{
-				icon = {
-					path = "",
 					atlas = "helpbg/level_ui_help_1"
 				}
 			},
@@ -8890,11 +8866,11 @@ Combat Details:
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "Intrepid and Bremerton are now available in limited construction! ",
+		tip = "Tosa、 Amagi、 Hanazuki、 Naganami are now available in limited construction! ",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
-		tip = "Washington, North Carolina, Minneapolis, and others are now available from construction!",
+		tip = "Hiei-chan added to standard build pool! ",
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
@@ -8902,7 +8878,7 @@ Combat Details:
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "Chaser is now available from construction!",
+		tip = "Akagi-chan and Zeppy added to standard build pool! ",
 		key = "buildship_special_tip"
 	},
 	world_log_1 = {
@@ -12353,9 +12329,37 @@ By tapping the “Quick Retire” button to the bottom left of the Retire interf
 		tip = "Cancel",
 		key = "shop_word_cancel"
 	},
+	title_item_ways = {
+		tip = "<color=#92fc63>$1</color> can be obtained through the following methods ",
+		key = "title_item_ways"
+	},
+	item_lack_title = {
+		tip = "<color=#92fc63>$1</color> can be obtained through the following methods ",
+		key = "item_lack_title"
+	},
+	oil_buy_tip_2 = {
+		tip = "You need <size=28><color=#ff5c5c>$4</color></size> more Oil. Would you like to spend <color=#92fc63>$2</color><icon name=diamond w=0.7 h=0.7/> to purchase more Oil?<size=28><color=#a2a2a2>(Can be purchased <size=28><color=#ff5c5c>$3</color></size> more times today)</color></size> ",
+		key = "oil_buy_tip_2"
+	},
+	target_chapter_is_lock = {
+		tip = "This chapter has not been unlocked yet. ",
+		key = "target_chapter_is_lock"
+	},
+	ship_book = {
+		tip = "<color=#92fc63>Textbook</color>",
+		key = "ship_book"
+	},
 	month_sign_resign = {
 		tip = "补签",
 		key = "month_sign_resign"
+	},
+	collect_tip = {
+		tip = "One of the selected ships is currently in a sortie fleet. Unable to form commission fleet. ",
+		key = "collect_tip"
+	},
+	collect_tip2 = {
+		tip = "One of the selected ships is currently sortieing. Unable to form commission fleet. ",
+		key = "collect_tip2"
 	}
 }
 

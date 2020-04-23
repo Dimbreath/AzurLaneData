@@ -149,7 +149,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "......",
 			shake = {
 				speed = 1,
 				number = 3
