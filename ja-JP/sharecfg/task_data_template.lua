@@ -18616,6 +18616,262 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5501] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5366,
+		type = 5,
+		name = "調子が悪いの？",
+		count_inherit = 0,
+		desc = "魚雷天ぷらを3個準備する（消費）",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "juanbo",
+		award_choice = "",
+		level = 1,
+		next_task = "5502",
+		visibility = 1,
+		story_id = "JUANBO1",
+		target_id_for_client = 50003,
+		id = 5501,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5502] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5367,
+		type = 5,
+		name = "助けるよ！",
+		count_inherit = 0,
+		desc = "任意の艦を10回強化する",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "juanbo",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5503",
+		visibility = 1,
+		story_id = "JUANBO2",
+		target_id_for_client = 0,
+		id = 5502,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5503] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5368,
+		type = 5,
+		name = "応援要請！",
+		count_inherit = 0,
+		desc = "巻波を含めた艦隊で出撃し、20回勝利する",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "juanbo",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5504",
+		visibility = 1,
+		story_id = "JUANBO3",
+		target_id_for_client = 30180,
+		id = 5503,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "30180",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5504] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5369,
+		type = 5,
+		name = "笑わせるよ！",
+		count_inherit = 0,
+		desc = "巻波を含めた艦隊で3回デイリーチャレンジをクリアする",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "juanbo",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5505",
+		visibility = 1,
+		story_id = "JUANBO4",
+		target_id_for_client = 30180,
+		id = 5504,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "30180",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5505] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5370,
+		type = 5,
+		name = "ゆっくりしていってね！",
+		count_inherit = 0,
+		desc = "巻波の親密度が100に到達",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "juanbo",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5506",
+		visibility = 1,
+		story_id = "JUANBO5",
+		target_id_for_client = 30180,
+		id = 5505,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "30180",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5506] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5371,
+		type = 5,
+		name = "一緒にあそぼー！",
+		count_inherit = 0,
+		desc = "巻波を3回限界突破する",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "juanbo",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5507",
+		visibility = 1,
+		story_id = "JUANBO6",
+		target_id_for_client = 301804,
+		id = 5506,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "301804",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[5507] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5372,
+		type = 5,
+		name = "はい、笑ってー！",
+		count_inherit = 0,
+		desc = "巻波のレベルが100に到達",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "juanbo",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "JUANBO7",
+		target_id_for_client = 30180,
+		id = 5507,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "30180",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18002,
+				2
+			}
+		}
+	},
 	[6001] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -87984,6 +88240,723 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[15547] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92927,
+		type = 6,
+		name = "『天城复刻』通关A1/C1",
+		count_inherit = 0,
+		desc = "イベントステージA1かC1をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15548",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15547,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1340001,
+			1340011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59157,
+				200
+			}
+		}
+	},
+	[15548] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92928,
+		type = 6,
+		name = "『天城复刻』通关A2/C2",
+		count_inherit = 0,
+		desc = "イベントステージA2かC2をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15549",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15548,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1340002,
+			1340012
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59157,
+				400
+			}
+		}
+	},
+	[15549] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92929,
+		type = 6,
+		name = "『天城复刻』通关A3/C3",
+		count_inherit = 0,
+		desc = "イベントステージA3かC3をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15550",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15549,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1340003,
+			1340013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59157,
+				600
+			}
+		}
+	},
+	[15550] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92930,
+		type = 6,
+		name = "『天城复刻』通关B1/D1",
+		count_inherit = 0,
+		desc = "イベントステージB1かD1をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15551",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15550,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1340004,
+			1340014
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59157,
+				400
+			}
+		}
+	},
+	[15551] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92931,
+		type = 6,
+		name = "『天城复刻』通关B2/D2",
+		count_inherit = 0,
+		desc = "イベントステージB2かD2をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15552",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15551,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1340005,
+			1340015
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				59157,
+				600
+			}
+		}
+	},
+	[15552] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92932,
+		type = 6,
+		name = "『天城复刻』通关B3/D3",
+		count_inherit = 0,
+		desc = "イベントステージB3かD3をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15552,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1340006,
+			1340016
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				59157,
+				800
+			}
+		}
+	},
+	[15553] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92933,
+		type = 6,
+		name = "『天城复刻』通关D3",
+		count_inherit = 0,
+		desc = "イベントステージD3をクリア(2個目は取得できません)",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1340016,
+		id = 15553,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1340016",
+		open_need = {},
+		award_display = {
+			{
+				5,
+				140,
+				1
+			}
+		}
+	},
+	[15554] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92934,
+		type = 6,
+		name = "『天城复刻』A1/C1的3星",
+		count_inherit = 0,
+		desc = "A1かC1の作戦目標（星3つ）を全て達成！",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15555",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15554,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1340001,
+			1340011
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		}
+	},
+	[15555] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92935,
+		type = 6,
+		name = "『天城复刻』A2/C2的3星",
+		count_inherit = 0,
+		desc = "A2かC2の作戦目標（星3つ）を全て達成！",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15556",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15555,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1340002,
+			1340012
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		}
+	},
+	[15556] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92936,
+		type = 6,
+		name = "『天城复刻』A3/C3的3星",
+		count_inherit = 0,
+		desc = "A3かC3の作戦目標（星3つ）を全て達成！",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15557",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15556,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1340003,
+			1340013
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				1
+			}
+		}
+	},
+	[15557] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92937,
+		type = 6,
+		name = "『天城复刻』B1/D1的3星",
+		count_inherit = 0,
+		desc = "B1かD1の作戦目標（星3つ）を全て達成！",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15558",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15557,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1340004,
+			1340014
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		}
+	},
+	[15558] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92938,
+		type = 6,
+		name = "『天城复刻』B2/D2的3星",
+		count_inherit = 0,
+		desc = "B2かD2の作戦目標（星3つ）を全て達成！",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "15559",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15558,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1340005,
+			1340015
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		}
+	},
+	[15559] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 92939,
+		type = 6,
+		name = "『天城复刻』B3/D3的3星",
+		count_inherit = 0,
+		desc = "B3かD3の作戦目標（星3つ）を全て達成！",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15559,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			1340006,
+			1340016
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				1
+			}
+		}
+	},
+	[15560] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92940,
+		type = 36,
+		name = "『天城复刻』日常建造",
+		count_inherit = 0,
+		desc = "3回建造する",
+		target_id_2 = "",
+		sub_type = 30,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15560,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59157,
+				300
+			}
+		}
+	},
+	[15561] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92941,
+		type = 36,
+		name = "『天城复刻』日常出击",
+		count_inherit = 0,
+		desc = "艦隊を出撃させ、15回勝利せよ！",
+		target_id_2 = "",
+		sub_type = 20,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15561,
+		target_num = 15,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59157,
+				300
+			}
+		}
+	},
+	[15562] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92942,
+		type = 36,
+		name = "『天城复刻』日常困难本",
+		count_inherit = 0,
+		desc = "通常海域ハードを1回クリアする",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 10,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15562,
+		target_num = 1,
+		fix_task = 0,
+		target_id = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10201,
+			10202,
+			10203,
+			10204,
+			10301,
+			10302,
+			10303,
+			10304,
+			10401,
+			10402,
+			10403,
+			10404,
+			10501,
+			10502,
+			10503,
+			10504,
+			10601,
+			10602,
+			10603,
+			10604,
+			10701,
+			10702,
+			10703,
+			10704,
+			10801,
+			10802,
+			10803,
+			10804,
+			10901,
+			10902,
+			10903,
+			10904,
+			11001,
+			11002,
+			11003,
+			11004,
+			11101,
+			11102,
+			11103,
+			11104
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59157,
+				100
+			}
+		}
+	},
+	[15563] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92982,
+		type = 6,
+		name = "小声望npc临时加入",
+		count_inherit = 0,
+		desc = "不该看到",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15563,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				204041,
+				1
+			}
+		}
+	},
+	[15564] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 92990,
+		type = 6,
+		name = "登录送皮肤体验券活动",
+		count_inherit = 0,
+		desc = "ゲームにログインせよ！",
+		target_id_2 = "",
+		sub_type = 1011,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 0,
+		id = 15564,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				153,
+				2
+			}
+		}
+	},
 	[30201] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -96150,6 +97123,13 @@ pg.task_data_template = {
 		5495,
 		5496,
 		5497,
+		5501,
+		5502,
+		5503,
+		5504,
+		5505,
+		5506,
+		5507,
 		6001,
 		6002,
 		6003,
@@ -98052,6 +99032,24 @@ pg.task_data_template = {
 		15544,
 		15545,
 		15546,
+		15547,
+		15548,
+		15549,
+		15550,
+		15551,
+		15552,
+		15553,
+		15554,
+		15555,
+		15556,
+		15557,
+		15558,
+		15559,
+		15560,
+		15561,
+		15562,
+		15563,
+		15564,
 		30201,
 		30202,
 		31001,

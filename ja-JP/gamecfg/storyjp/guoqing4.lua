@@ -98,7 +98,7 @@ return {
 			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
-			say = "！！！何をするの？今の当たりそうじゃない！うわ！あぶなっ……",
+			say = "！！！何をするの？今の当たりそうだったじゃない！うわ！あぶなっ……",
 			soundeffect = "event:/battle/boom2",
 			shake = {
 				speed = 1,
@@ -149,9 +149,10 @@ return {
 		},
 		{
 			actor = 307060,
+			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "暁…どうやら手遅れのようね…この呪いから解放してあげる！",
+			say = "セイレーンの「駒」…暁ちゃんまでコピーしてるとはね…",
 			shake = {
 				speed = 1,
 				number = 3
@@ -167,9 +168,29 @@ return {
 		},
 		{
 			actor = 307060,
+			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "「霊」式、全機発進！",
+			say = "どうやら手遅れのようね…この呪いから解放してあげる！",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307060,
+			actorName = "{namecode:96}",
+			side = 0,
+			nameColor = "#a9f548",
+			say = "艦載機、全機発進！",
 			shake = {
 				speed = 1,
 				number = 3

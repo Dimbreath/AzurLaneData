@@ -1249,6 +1249,295 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	{
+		limit_arg = 1,
+		descrip_extra = "お得パックのアイテムはメールボックスに送られます ",
+		name = "着任応援パック・Ⅰ",
+		descrip = "ダイヤ×180、燃料貯蔵箱(1000)×2などのアイテムを入手可能",
+		subject = "着任応援パック・Ⅰ",
+		extra_service = 3,
+		money = 250,
+		tag = 1,
+		gem = 0,
+		limit_type = 2,
+		time = "always",
+		picture = "support1",
+		id_str = "com.bilibili.blhx.libao101",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 20,
+		airijp_id = "com.yostarjp.azurlane.package101",
+		extra_service_item = {
+			{
+				1,
+				14,
+				180
+			},
+			{
+				2,
+				30121,
+				2
+			},
+			{
+				4,
+				100001,
+				1
+			},
+			{
+				2,
+				15001,
+				30
+			},
+			{
+				2,
+				16002,
+				4
+			},
+			{
+				2,
+				16012,
+				4
+			},
+			{
+				2,
+				16022,
+				4
+			},
+			{
+				2,
+				30112,
+				30
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				180
+			},
+			{
+				2,
+				30121,
+				2
+			},
+			{
+				4,
+				100001,
+				1
+			}
+		}
+	},
+	{
+		limit_arg = 1,
+		descrip_extra = "お得パックのアイテムはメールボックスに送られます ",
+		name = "着任応援パック・Ⅱ",
+		descrip = "ダイヤ×780、SSR選択装備箱×2、燃料貯蔵箱(1000)×4などのアイテムを入手可能",
+		subject = "着任応援パック・Ⅱ",
+		extra_service = 3,
+		money = 1480,
+		tag = 1,
+		gem = 0,
+		limit_type = 2,
+		time = "always",
+		picture = "support2",
+		id_str = "com.bilibili.blhx.libao102",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 21,
+		airijp_id = "com.yostarjp.azurlane.package102",
+		extra_service_item = {
+			{
+				1,
+				14,
+				780
+			},
+			{
+				2,
+				30202,
+				2
+			},
+			{
+				2,
+				30121,
+				4
+			},
+			{
+				4,
+				100001,
+				1
+			},
+			{
+				2,
+				15001,
+				50
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			},
+			{
+				2,
+				16002,
+				3
+			},
+			{
+				2,
+				16012,
+				3
+			},
+			{
+				2,
+				16022,
+				3
+			},
+			{
+				2,
+				30113,
+				30
+			},
+			{
+				2,
+				30112,
+				50
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				780
+			},
+			{
+				2,
+				30202,
+				2
+			},
+			{
+				2,
+				30121,
+				4
+			}
+		}
+	},
+	{
+		limit_arg = 1,
+		descrip_extra = "お得パックのアイテムはメールボックスに送られます ",
+		name = "着任応援パック・Ⅲ",
+		descrip = "ダイヤ×1680、SSR選択装備箱×4、燃料貯蔵箱(1000)×8などのアイテムを入手可能",
+		subject = "着任応援パック・Ⅲ",
+		extra_service = 3,
+		money = 2940,
+		tag = 1,
+		gem = 0,
+		limit_type = 2,
+		time = "always",
+		picture = "support3",
+		id_str = "com.bilibili.blhx.libao103",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 22,
+		airijp_id = "com.yostarjp.azurlane.package103",
+		extra_service_item = {
+			{
+				1,
+				14,
+				1680
+			},
+			{
+				2,
+				30202,
+				4
+			},
+			{
+				2,
+				30121,
+				8
+			},
+			{
+				4,
+				100011,
+				1
+			},
+			{
+				2,
+				59900,
+				1000
+			},
+			{
+				2,
+				15001,
+				80
+			},
+			{
+				2,
+				16003,
+				5
+			},
+			{
+				2,
+				16013,
+				5
+			},
+			{
+				2,
+				16023,
+				5
+			},
+			{
+				2,
+				16002,
+				5
+			},
+			{
+				2,
+				16012,
+				5
+			},
+			{
+				2,
+				16022,
+				5
+			},
+			{
+				2,
+				30113,
+				100
+			},
+			{
+				2,
+				30112,
+				100
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				1680
+			},
+			{
+				2,
+				30202,
+				4
+			},
+			{
+				2,
+				30121,
+				8
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1268,7 +1557,10 @@ pg.pay_data_display = {
 		16,
 		17,
 		18,
-		19
+		19,
+		20,
+		21,
+		22
 	}
 }
 

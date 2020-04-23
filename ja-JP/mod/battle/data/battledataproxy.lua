@@ -27,6 +27,7 @@ function slot8.InitBattle(slot0, slot1)
 	slot0._cameraUtil:Initialize()
 	slot0._cameraUtil:SetMapData(slot0:GetTotalBounds())
 	slot0:InitUserShipsData(slot0._battleInitData.MainUnitList, slot0._battleInitData.VanguardUnitList, slot3.FRIENDLY_CODE, slot0._battleInitData.SubUnitList)
+	slot0:InitUserAidData()
 	slot0:SetSubmarinAidData()
 	slot0._cameraUtil:SetFocusFleet(slot0:GetFleetByIFF(slot3.FRIENDLY_CODE))
 	slot0:StatisticsInit(slot0._fleetList[slot3.FRIENDLY_CODE]:GetUnitList())
@@ -67,6 +68,12 @@ function slot8.TirggerBattleStartBuffs(slot0)
 
 			if slot0._battleInitData.MapAuraSkills then
 				for slot23, slot24 in ipairs(slot0._battleInitData.MapAuraSkills) do
+					slot19:AddBuff(slot0.Battle.BattleBuffUnit.New(slot24.id, slot24.level))
+				end
+			end
+
+			if slot0._battleInitData.MapAidSkills then
+				for slot23, slot24 in ipairs(slot0._battleInitData.MapAidSkills) do
 					slot19:AddBuff(slot0.Battle.BattleBuffUnit.New(slot24.id, slot24.level))
 				end
 			end
@@ -127,6 +134,7 @@ function slot8.InitData(slot0, slot1)
 	slot0._fleetList = {}
 	slot0._freeShipList = {}
 	slot0._teamList = {}
+	slot0._aidUnitList = {}
 	slot0._unitList = {}
 	slot0._unitCount = 0
 	slot0._bulletList = {}
@@ -278,6 +286,12 @@ function slot8.Clear(slot0)
 
 	slot0._fleetList = nil
 
+	for slot4, slot5 in pairs(slot0._aidUnitList) do
+		slot5:Dispose()
+	end
+
+	slot0._aidUnitList = nil
+
 	for slot4, slot5 in pairs(slot0._environmentList) do
 		slot0:RemoveEnvironment(slot5:GetUniqueID())
 	end
@@ -337,6 +351,23 @@ function slot8.InitUserShipsData(slot0, slot1, slot2, slot3, slot4)
 		slot5:ShiftManualSub()
 	else
 		slot5:SetSubUnitData(slot4)
+	end
+end
+
+function slot8.InitUserAidData(slot0)
+	for slot4, slot5 in ipairs(slot0._battleInitData.AidUnitList) do
+		slot5.properties.level = slot5.level
+		slot5.properties.formationID = slot0.FORMATION_ID
+		slot5.properties.id = slot5.id
+
+		slot1.AttrFixer(slot0._battleInitData.battleType, slot5.properties)
+
+		slot9 = slot2.CreateBattleUnitData(slot0:GenerateUnitID(), slot3.UnitType.PLAYER_UNIT, slot0.FRIENDLY_CODE, slot5.tmpID, slot5.skinId, slot5.equipment, slot7, slot5.proficiency or {
+			1,
+			1,
+			1
+		}, slot0._completelyRepress, slot0._repressReduce, nil, slot5.baseList, slot5.preloasList)
+		slot0._aidUnitList[slot9:GetUniqueID()] = slot9
 	end
 end
 
@@ -410,6 +441,10 @@ function slot8.GetFleetByIFF(slot0, slot1)
 	end
 
 	return slot0._fleetList[slot1]
+end
+
+function slot8.GetAidUnit(slot0)
+	return slot0._aidUnitList
 end
 
 function slot8.GetFleetList(slot0)

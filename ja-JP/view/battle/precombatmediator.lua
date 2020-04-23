@@ -9,8 +9,16 @@ slot0.CHANGE_FLEET_SHIPS_ORDER = "PreCombatMediator:CHANGE_FLEET_SHIPS_ORDER"
 slot0.CHANGE_FLEET_SHIP = "PreCombatMediator:CHANGE_FLEET_SHIP"
 slot0.ON_AUTO = "PreCombatMediator:ON_AUTO"
 slot0.ON_SUB_AUTO = "PreCombatMediator:ON_SUB_AUTO"
+slot0.GET_CHAPTER_DROP_SHIP_LIST = "PreCombatMediator:GET_CHAPTER_DROP_SHIP_LIST"
 
 function slot0.register(slot0)
+	slot0:bind(slot0.GET_CHAPTER_DROP_SHIP_LIST, function (slot0, slot1, slot2)
+		slot0:sendNotification(GAME.GET_CHAPTER_DROP_SHIP_LIST, {
+			chapterId = slot1,
+			callback = slot2
+		})
+	end)
+
 	slot1 = getProxy(BayProxy)
 
 	slot1:setSelectShipId(nil)

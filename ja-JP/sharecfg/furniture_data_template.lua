@@ -4064,6 +4064,56 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100014] = {
+		advice = 0,
+		describe = "「桜の色は白いほうがいいのでしょうか…それとも…指揮官、花月はどれを選べば…」",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "饅頭天気ボックス（春）",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 0,
+		icon = "springboxicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 100014,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"springbox",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					"Houzhai_yinghua",
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		advice = 0,
 		describe = "至る所がぼろぼろになっているフローリング。足元注意。",
@@ -67379,6 +67429,7 @@ pg.furniture_data_template = {
 		100011,
 		100012,
 		100013,
+		100014,
 		1001,
 		1002,
 		1101,

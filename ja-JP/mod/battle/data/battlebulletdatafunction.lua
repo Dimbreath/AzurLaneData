@@ -41,7 +41,7 @@ slot4 = slot4.BattleDataFunction
 function slot5(slot0, slot1, slot2, slot3, slot4)
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-33, warpins: 1 ---
+	--- BLOCK #0 1-32, warpins: 1 ---
 	slot5 = slot0
 	slot5 = slot5.GetBulletTmpDataFromID
 	slot6 = slot1
@@ -80,11 +80,53 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 
 	slot9(slot10, slot11)
 
+	if slot3 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 33-37, warpins: 1 ---
+		slot10 = slot3
+		slot9 = slot3.GetStandHost
+		slot9 = slot9(slot10)
+
+		if slot9 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 38-47, warpins: 1 ---
+			slot10 = slot3
+			slot9 = slot3.GetStandHost
+			slot9 = slot9(slot10)
+			slot10 = slot9
+			slot9 = slot9.GetAttr
+			slot9 = slot9(slot10)
+			slot11 = slot7
+			slot10 = slot7.SetStandHostAttr
+			slot12 = slot9
+
+			slot10(slot11, slot12)
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+		--- END OF BLOCK #0 ---
+
+
+
+	end
+
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 48-50, warpins: 3 ---
 	slot9 = slot7
 	slot10 = slot8
 
 	return slot9, slot10
-	--- END OF BLOCK #0 ---
+	--- END OF BLOCK #1 ---
 
 
 

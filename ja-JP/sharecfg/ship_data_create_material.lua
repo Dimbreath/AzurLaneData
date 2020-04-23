@@ -70,15 +70,21 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Sレア</color>：12%",
 			"<color=#3dc6ff>レア</color>：51%",
 			"ノーマル：30%",
-			"<color=#ffde38>イントレピッド</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>土佐</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>リノ</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>天城</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>ブレマートン</color>：0.5%",
+			"<color=#ffde38>加賀（戦艦）</color>：0.5%",
 			" ",
-			"<color=#d797ff>クーパー</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>長波</color>：2.5%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#3dc6ff>マーブルヘッド</color>：5.0%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>花月</color>：2.5%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#d797ff>足柄</color>：2.5%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#3dc6ff>那珂</color>：5.0%(<color=#92fc63>up!</color>)",
+			" ",
+			"<color=#3dc6ff>旗風</color>：5.0%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

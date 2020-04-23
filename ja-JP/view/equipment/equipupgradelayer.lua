@@ -224,62 +224,66 @@ function slot0.updateMaterials(slot0)
 	slot1 = true
 	slot4 = slot0.contextData.equipmentVO.config.trans_use_gold
 	slot3 = defaultValue(slot0.contextData.equipmentVO.config.trans_use_item, {})
+	slot5 = nil
 
-	for slot8 = 1, 3, 1 do
-		setActive(findTF(slot9, "off"), not slot3[slot8])
-		setActive(findTF(slot9, "equiptpl"), slot3[slot8])
+	for slot9 = 1, 3, 1 do
+		setActive(findTF(slot10, "off"), not slot3[slot9])
+		setActive(findTF(slot10, "equiptpl"), slot3[slot9])
 
-		if slot3[slot8] then
-			updateItem(slot11, Item.New({
-				id = slot3[slot8][1]
+		if slot3[slot9] then
+			updateItem(slot12, Item.New({
+				id = slot3[slot9][1]
 			}))
-			onButton(slot0, slot11, function ()
+			onButton(slot0, slot12, function ()
 				slot0:emit(EquipUpgradeMediator.ON_ITEM, slot0)
 			end, SFX_PANEL)
 
-			slot13 = defaultValue(slot0.itemVOs[slot3[slot8][1]], {
+			slot14 = defaultValue(slot0.itemVOs[slot3[slot9][1]], {
 				count = 0
-			}).count .. "/" .. slot3[slot8][2]
+			}).count .. "/" .. slot3[slot9][2]
 
-			if defaultValue(slot0.itemVOs[slot3[slot8][1]], ).count < slot3[slot8][2] then
-				slot13 = setColorStr(slot12.count, COLOR_RED) .. "/" .. slot3[slot8][2]
+			if defaultValue(slot0.itemVOs[slot3[slot9][1]], ).count < slot3[slot9][2] then
+				slot14 = setColorStr(slot13.count, COLOR_RED) .. "/" .. slot3[slot9][2]
 				slot1 = false
+				slot5 = slot3[slot9]
 			end
 
-			setActive(slot14, true)
-			setText(findTF(slot11, "icon_bg/count"), slot13)
+			setActive(slot15, true)
+			setText(findTF(slot12, "icon_bg/count"), slot14)
 		end
 	end
 
 	setText(slot0:findTF("cost/consume", slot0.materialPanel), slot4)
 	setActive(slot0.startBtn, slot3)
 
-	slot5 = Equipment.canUpgrade(slot2.configId)
+	slot6 = Equipment.canUpgrade(slot2.configId)
 
-	setActive(slot0.materialsContain, slot5)
-	setActive(slot0.overLimit, not slot5)
+	setActive(slot0.materialsContain, slot6)
+	setActive(slot0.overLimit, not slot6)
 	onButton(slot0, slot0.startBtn, function ()
 		if not slot0 then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_shipUpgradeLayer2_noMaterail"))
+			if not ItemTipPanel.ShowItemTipbyID(slot1[1]) then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("ship_shipUpgradeLayer2_noMaterail"))
+			end
 
 			return
 		end
 
-		if slot1.playerVO.gold < slot2 then
+		if slot2.playerVO.gold < slot3 then
 			GoShoppingMsgBox(i18n("switch_to_shop_tip_2", i18n("word_gold")), ChargeScene.TYPE_ITEM, {
 				{
 					59001,
-					slot2 - slot1.playerVO.gold,
-					ChargeScene.TYPE_ITEM
+					slot3 - slot2.playerVO.gold,
+
 				}
 			})
 
 			return
 		end
 
-		slot1:emit(EquipUpgradeMediator.EQUIPMENT_UPGRDE)
+		slot2:emit(EquipUpgradeMediator.EQUIPMENT_UPGRDE)
 	end, SFX_UI_DOCKYARD_REINFORCE)
-	setButtonEnabled(slot0.startBtn, slot5)
+	setButtonEnabled(slot0.startBtn, slot6)
 end
 
 function slot0.upgradeFinish(slot0, slot1, slot2)

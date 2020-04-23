@@ -2,6 +2,45 @@ EventConst = require("view/event/EventConst")
 slot0 = class("EventMediator", import("..base.ContextMediator"))
 
 function slot0.register(slot0)
+	slot0:bind(EventConst.EVEN_USE_PREV_FORMATION, function (slot0, slot1, slot2)
+		slot3 = getProxy(EventProxy)
+		slot6 = {}
+		slot7 = false
+		slot8 = false
+
+		slot0:sendNotification(GAME.SET_SHIP_FLAG, {
+			shipsById = getProxy(BayProxy).getData(slot4),
+			flags = slot0.contextData.flags or {},
+			callback = function (slot0)
+				for slot4, slot5 in ipairs(slot0) do
+					slot7, slot8 = Ship.ShipStateConflict("inEvent", slot6)
+
+					if slot7 == Ship.STATE_CHANGE_FAIL then
+						slot1 = true
+					elseif slot7 == Ship.STATE_CHANGE_CHECK then
+						slot2 = true
+					else
+						table.insert(slot3, slot5)
+					end
+				end
+
+				if slot1 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("collect_tip"))
+				end
+
+				if slot2 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("collect_tip2"))
+				end
+
+				slot4.selectedEvent = slot5
+				slot4.selectedEvent.shipIds = slot3
+
+				slot6:updateEventList(true)
+
+				slot4.selectedEvent = nil
+			end
+		})
+	end)
 	slot0:bind(EventConst.EVENT_LIST_UPDATE, function (slot0)
 		slot0:updateEventList(true)
 	end)
