@@ -72,7 +72,7 @@ pg.ship_data_create_material = {
 			"Common：30%",
 			"<color=#ffde38>{namecode:81}</color>：2.0%(<color=#92fc63>up!</color>)",
 			"<color=#ffde38>{namecode:161}</color>：2.0%(<color=#92fc63>up!</color>)",
-			"<color=#ffde38>{namecode:92}(BB))</color>：0.5%",
+			"<color=#ffde38>{namecode:92}(BB)</color>：0.5%",
 			"<color=#d797ff>{namecode:185}</color>：2.5%(<color=#92fc63>up!</color>)",
 			"<color=#d797ff>{namecode:29}</color>：2.5%(<color=#92fc63>up!</color>)",
 			"<color=#d797ff>{namecode:144}</color>：2.5%(<color=#92fc63>up!</color>)",
