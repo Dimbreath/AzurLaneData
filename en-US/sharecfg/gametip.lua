@@ -8866,7 +8866,7 @@ Combat Details:
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "Tosa、 Amagi、 Hanazuki、 Naganami are now available in limited construction! ",
+		tip = "Tosa, Amagi, Hanazuki, Naganami are now available in limited construction! ",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {

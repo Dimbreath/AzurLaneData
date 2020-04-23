@@ -250,16 +250,6 @@ pg.item_lack = {
 					}
 				},
 				0
-			},
-			{
-				"Purchase from the Proto-Shop",
-				{
-					"scene shop",
-					{
-						warp = 5
-					}
-				},
-				0
 			}
 		}
 	},
@@ -279,16 +269,6 @@ pg.item_lack = {
 				"May be available through Research",
 				{
 					"technology"
-				},
-				0
-			},
-			{
-				"Purchase from the Proto-Shop",
-				{
-					"scene shop",
-					{
-						warp = 5
-					}
 				},
 				0
 			}
