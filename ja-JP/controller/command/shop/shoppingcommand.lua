@@ -107,7 +107,7 @@ function slot0.execute(slot0, slot1)
 			})
 		elseif slot5.resource_type == 4 or slot5.resource_type == 14 then
 			GoShoppingMsgBox(i18n("switch_to_shop_tip_3", i18n("word_gem")), ChargeScene.TYPE_DIAMOND)
-		else
+		elseif not ItemTipPanel.ShowItemTip(DROP_TYPE_RESOURCE, slot5.resource_type) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("buyProp_noResource_error", slot13))
 		end
 

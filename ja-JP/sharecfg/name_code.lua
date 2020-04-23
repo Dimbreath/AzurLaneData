@@ -919,6 +919,21 @@ pg.name_code = {
 		id = 184,
 		name = "浦波",
 		code = "浦波"
+	},
+	{
+		id = 185,
+		name = "长波",
+		code = "長波"
+	},
+	{
+		id = 186,
+		name = "冬月",
+		code = "冬月"
+	},
+	{
+		id = 187,
+		name = "满月",
+		code = "満月"
 	}
 }
 

@@ -96,13 +96,23 @@ return {
 			}
 		},
 		{
-			actor = 307050,
-			nameColor = "#a9f548",
 			side = 1,
 			say = "ヤクソク……マモル……ずっと……！",
+			nameColor = "#a9f548",
+			actor = 307050,
+			actorName = "{namecode:95}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
+			},
+			action = {
+				{
+					y = -2500,
+					type = "move",
+					delay = 1.2,
+					dur = 1,
+					x = 0
+				}
 			},
 			shake = {
 				speed = 1,
@@ -119,9 +129,10 @@ return {
 		},
 		{
 			actor = 307060,
+			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "翔鶴姉……",
+			say = "……！",
 			shake = {
 				speed = 1,
 				number = 3
@@ -136,10 +147,71 @@ return {
 			}
 		},
 		{
+			side = 0,
+			actorName = "{namecode:92}",
+			dir = -1,
 			actor = 307020,
 			nameColor = "#ff0000",
-			dir = -1,
+			say = "「駒」が……",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
 			side = 0,
+			actorName = "{namecode:91}",
+			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
+			say = "なるほど、妹をかばおうとしたわね",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 0,
+			actorName = "{namecode:91}",
+			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
+			say = "（例え「駒」でも、大切な存在を守ろうとする…）",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 0,
+			actorName = "{namecode:92}",
+			dir = -1,
+			actor = 307020,
+			nameColor = "#ff0000",
 			say = "これは…「覚醒反応」ということか…然るべき場所で深層精神の伝承を再現した時の…",
 			shake = {
 				speed = 1,
@@ -155,10 +227,11 @@ return {
 			}
 		},
 		{
+			side = 1,
+			actorName = "{namecode:91}",
+			dir = -1,
 			actor = 307010,
 			nameColor = "#ff0000",
-			dir = -1,
-			side = 1,
 			say = "加賀、ここは一旦引きましょう。覚醒した「駒」が現れたら、「ログ」を報告することが最優先よ。",
 			shake = {
 				speed = 1,
@@ -174,10 +247,11 @@ return {
 			}
 		},
 		{
+			side = 0,
+			actorName = "{namecode:92}",
+			dir = -1,
 			actor = 307020,
 			nameColor = "#ff0000",
-			dir = -1,
-			side = 0,
 			say = "了解。",
 			shake = {
 				speed = 1,
@@ -194,6 +268,121 @@ return {
 		},
 		{
 			actor = 307060,
+			actorName = "{namecode:96}",
+			side = 0,
+			nameColor = "#a9f548",
+			say = "…待って！",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307050,
+			actorName = "{namecode:95}",
+			side = 0,
+			nameColor = "#a9f548",
+			say = "……っ……瑞鶴、なの…？",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307060,
+			actorName = "{namecode:96}",
+			side = 0,
+			nameColor = "#a9f548",
+			say = "翔鶴姉！？大丈夫！？赤城先輩たちになにかされたの！？",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307050,
+			actorName = "{namecode:95}",
+			side = 0,
+			nameColor = "#a9f548",
+			say = "なんだか…長い夢を見た気がするわ",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307050,
+			actorName = "{namecode:95}",
+			side = 0,
+			nameColor = "#a9f548",
+			say = "瑞鶴、私は大丈夫よ",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307050,
+			actorName = "{namecode:95}",
+			side = 0,
+			nameColor = "#a9f548",
+			say = "……っ……ごめんなさいね。お姉ちゃんなのに心配かけちゃって",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307060,
+			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
 			say = "翔鶴姉…ごめん…私ずっと成長していなくて…ずっと目先のことばかり見て…",
@@ -212,9 +401,10 @@ return {
 		},
 		{
 			actor = 307050,
+			actorName = "{namecode:95}",
 			side = 1,
 			nameColor = "#a9f548",
-			say = "あなたさえいれば、私たちにはまだ希望があるわ…「あの人」に勝てるのはあなただけだもの……",
+			say = "あなたさえいれば、私たちにはまだ希望があるわ…あまり認めたくないけど、先輩たちにこうして立ち向かえるのはあなただけだもの……",
 			shake = {
 				speed = 1,
 				number = 3
@@ -230,9 +420,10 @@ return {
 		},
 		{
 			actor = 307050,
+			actorName = "{namecode:95}",
 			side = 1,
 			nameColor = "#a9f548",
-			say = "お姉ちゃんはずっとあなたの側で見守っているわ…",
+			say = "……今度は背中を守らせて、ね？",
 			shake = {
 				speed = 1,
 				number = 3
@@ -248,9 +439,10 @@ return {
 		},
 		{
 			actor = 307050,
+			actorName = "{namecode:95}",
 			side = 1,
 			nameColor = "#a9f548",
-			say = "だから、前だけ見て…あの「目標」に向けて進んで…",
+			say = "今は、前だけ見て…あなたの目標に向かって進んで…",
 			shake = {
 				speed = 1,
 				number = 3
@@ -266,6 +458,7 @@ return {
 		},
 		{
 			actor = 307060,
+			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
 			say = "翔鶴姉…",
@@ -284,9 +477,10 @@ return {
 		},
 		{
 			actor = 307050,
+			actorName = "{namecode:95}",
 			side = 1,
 			nameColor = "#a9f548",
-			say = "さあ、赤城と加賀を追いかけるのよ…重桜の未来は「あの人達」に壊させるわけにはいかないわ…",
+			say = "さあ、赤城先輩と加賀先輩を追いかけるのよ…重桜の未来を「あの人達」に壊させるわけにはいかないわ…",
 			shake = {
 				speed = 1,
 				number = 3

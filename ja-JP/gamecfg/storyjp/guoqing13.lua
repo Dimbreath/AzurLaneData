@@ -29,7 +29,7 @@ return {
 			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
-			say = "そんなことないの。相手が悪いだけよ。",
+			say = "そんなことないわ。相手が悪いだけよ。",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -70,7 +70,7 @@ return {
 			actorName = "{namecode:24}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "…私もうっかり「聖域」に迷い込んでしまって…そしたら「あの人達」と出会ったの",
+			say = "…私もうっかり「聖域」に迷い込んでしまって…そしたら赤城さんたちと出会ったの",
 			shake = {
 				speed = 1,
 				number = 3
@@ -86,9 +86,10 @@ return {
 		},
 		{
 			actor = 301200,
+			actorName = "{namecode:24}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "「あの人達」はカミさまから授けてもらった技術を研究して、戦局を挽回したいって……",
+			say = "何でも、カミさまから授けてもらった技術を研究して、戦局を挽回したいって……",
 			shake = {
 				speed = 1,
 				number = 3
@@ -104,9 +105,10 @@ return {
 		},
 		{
 			actor = 307060,
+			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "情報と同じね。どうやらあの話…ウソじゃないわ。",
+			say = "情報と同じね。どうやらあの話…ウソじゃないみたいね。",
 			shake = {
 				speed = 1,
 				number = 3
@@ -142,7 +144,7 @@ return {
 			actor = 301200,
 			side = 1,
 			nameColor = "#ff0000",
-			say = "私、「あの人達」には逆らえないの……",
+			say = "私、赤城さんたちには逆らえないの……御狐さまのこともありますし…",
 			shake = {
 				speed = 1,
 				number = 3
@@ -160,7 +162,7 @@ return {
 			actor = 307060,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "そのカミさまとやらはウソだと言っても？",
+			say = "そのカミさまとやら、どう考えても胡散臭すぎるでしょ？",
 			shake = {
 				speed = 1,
 				number = 3
@@ -178,7 +180,7 @@ return {
 			actor = 301200,
 			side = 1,
 			nameColor = "#ff0000",
-			say = "「あの人達」は希望を与えてくれた…この道が間違いだとしても、私…",
+			say = "赤城さんたちは重桜に希望を与えてくれた…この道が間違いだとしても、私…",
 			shake = {
 				speed = 1,
 				number = 3

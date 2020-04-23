@@ -2080,11 +2080,11 @@ pg.gametip = {
 		key = "mail_count"
 	},
 	mail_takeAttachment_error_magazine_full = {
-		tip = "<color=#92fc63>受取失敗:</color>\n\n<color=#92fc63>装備倉庫が一杯です</color>",
+		tip = "<color=#92fc63>受取失敗:</color><color=#92fc63>装備倉庫が一杯です</color>",
 		key = "mail_takeAttachment_error_magazine_full"
 	},
 	mail_takeAttachment_error_dockYrad_full = {
-		tip = "<color=#92fc63>受取失敗:</color>\n\n<color=#92fc63>ドックが一杯です</color>",
+		tip = "<color=#92fc63>受取失敗:</color><color=#92fc63>ドックが一杯です</color>",
 		key = "mail_takeAttachment_error_dockYrad_full"
 	},
 	mail_confirm_set_important_flag = {
@@ -8928,11 +8928,11 @@ No.7 駆逐艦「鞍山」
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "イベント期間、「イントレピッド」 などの出現率UP！",
+		tip = "イベント期間、「土佐」、「天城」、「花月」、「長波」 などの出現率UP！",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
-		tip = "「ワシントン」、「ノースカロライナ」、「ミネアポリス」など常設追加！",
+		tip = "「比叡ちゃん」常設追加！",
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
@@ -8940,7 +8940,7 @@ No.7 駆逐艦「鞍山」
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "「エセックス」常設追加！",
+		tip = "「赤城ちゃん」、「ツェッペリンちゃん」常設追加！",
 		key = "buildship_special_tip"
 	},
 	open_skill_pos = {
@@ -9527,7 +9527,7 @@ No.7 駆逐艦「鞍山」
 		}
 	},
 	npc_learn_skill_tip = {
-		tip = "イベント終了時「正式加入」していないコラボキャラは母港からいなくなります。※スキル強化に使用したアイテムは返還されません。続けますか？",
+		tip = "イベント終了時「正式加入」していないキャラは母港からいなくなります。※スキル強化に使用したアイテムは返還されません。続けますか？",
 		key = "npc_learn_skill_tip"
 	},
 	npc_upgrade_max_level = {
@@ -9539,11 +9539,11 @@ No.7 駆逐艦「鞍山」
 		key = "npc_propse_tip"
 	},
 	npc_strength_tip = {
-		tip = "イベント終了時「正式加入」していないコラボキャラは母港からいなくなります。※強化・限界突破に使用したアイテムは返還されません。続けますか？",
+		tip = "イベント終了時「正式加入」していないキャラは母港からいなくなります。※強化・限界突破に使用したアイテムは返還されません。続けますか？",
 		key = "npc_strength_tip"
 	},
 	npc_breakout_tip = {
-		tip = "イベント終了時「正式加入」していないコラボキャラは母港からいなくなります。※強化・限界突破に使用したアイテムは返還されません。続けますか？",
+		tip = "イベント終了時「正式加入」していないキャラは母港からいなくなります。※強化・限界突破に使用したアイテムは返還されません。続けますか？",
 		key = "npc_breakout_tip"
 	},
 	word_chuansong = {
@@ -13098,9 +13098,33 @@ GET!
 		tip = "戻 る",
 		key = "shop_word_cancel"
 	},
-	month_sign_resign = {
-		tip = "补签",
-		key = "month_sign_resign"
+	title_item_ways = {
+		tip = "<color=#92fc63>$1</color>は下記の方法で入手可能",
+		key = "title_item_ways"
+	},
+	item_lack_title = {
+		tip = "<color=#92fc63>$1</color>は下記の方法で入手可能",
+		key = "item_lack_title"
+	},
+	oil_buy_tip_2 = {
+		tip = "燃料が<size=28><color=#ff5c5c>$4</color></size>不足しています。<icon name=diamond w=0.7 h=0.7/>を消費し燃料<size=30><color=#92fc63>$2</color></size>を購入しますか？\n\n<size=28><color=#a2a2a2>( 本日購入 <size=28><color=#ff5c5c>$3</color></size>  回 )</color></size>",
+		key = "oil_buy_tip_2"
+	},
+	target_chapter_is_lock = {
+		tip = "この章の海域はまだ開放されていません",
+		key = "target_chapter_is_lock"
+	},
+	ship_book = {
+		tip = "教科書",
+		key = "ship_book"
+	},
+	collect_tip = {
+		tip = "出撃編成中の艦船がいます。委託チームを編成できません",
+		key = "collect_tip"
+	},
+	collect_tip2 = {
+		tip = "出撃中の艦船がいます。委託チームを編成できません ",
+		key = "collect_tip2"
 	}
 }
 

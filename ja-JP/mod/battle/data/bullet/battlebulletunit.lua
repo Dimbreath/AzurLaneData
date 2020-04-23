@@ -225,6 +225,20 @@ function ys.Battle.BattleBulletUnit.GetAttr(slot0)
 	return slot0.Battle.BattleAttr.GetAttr(slot0)
 end
 
+function ys.Battle.BattleBulletUnit.SetStandHostAttr(slot0, slot1)
+	slot0._standUnit = {}
+
+	slot0.Battle.BattleAttr.SetAttr(slot0._standUnit, slot1)
+end
+
+function ys.Battle.BattleBulletUnit.GetWeaponHostAttr(slot0)
+	if slot0._standUnit then
+		return slot0.Battle.BattleAttr.GetAttr(slot0._standUnit)
+	else
+		return slot0:GetAttr()
+	end
+end
+
 function ys.Battle.BattleBulletUnit.SetDamageEnhance(slot0, slot1)
 	slot0._dmgEnhanceRate = slot1
 end

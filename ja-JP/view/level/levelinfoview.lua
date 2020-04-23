@@ -265,23 +265,25 @@ function slot0.updateDrop(slot0, slot1, slot2, slot3)
 			}
 
 			if pg.item_data_statistics[slot0[2]] and slot1[slot0.type] then
-				slot3 = {}
+				slot1:emit(LevelMediator2.GET_CHAPTER_DROP_SHIP_LIST, slot1.chapter.id, function (slot0)
+					slot2 = {}
 
-				for slot7, slot8 in ipairs(slot2) do
-					slot3[#slot3 + 1] = {
-						hideName = true,
-						type = slot9,
-						id = slot8[2],
-						anonymous = slot8[1] == DROP_TYPE_SHIP and not table.contains(slot1.chapter.dropShipIdList, slot8[2])
-					}
-				end
+					for slot6, slot7 in ipairs(slot1) do
+						slot2[#slot2 + 1] = {
+							hideName = true,
+							type = slot8,
+							id = slot7[2],
+							anonymous = slot7[1] == DROP_TYPE_SHIP and not table.contains(slot0, slot7[2])
+						}
+					end
 
-				slot1:emit(BaseUI.ON_DROP_LIST, {
-					item2Row = true,
-					itemList = slot3,
-					content = slot0.display
-				})
-				slot1:initTestShowDrop(slot0, Clone(slot3))
+					slot1:emit(BaseUI.ON_DROP_LIST, {
+						item2Row = true,
+						itemList = slot2,
+						content = slot0.display
+					})
+					slot1:initTestShowDrop(slot0, Clone(slot2))
+				end)
 			else
 				slot1:emit(BaseUI.ON_DROP, slot1.emit)
 			end

@@ -347,6 +347,7 @@ function slot0.updateFinished(slot0, slot1)
 
 		if slot9 <= #slot4 then
 			updateDrop(slot0:findTF("IconTpl", slot10), slot4[slot9])
+			RemoveComponent(slot10, typeof(Button))
 		end
 	end
 
@@ -487,9 +488,29 @@ function slot0.updateProgress(slot0, slot1)
 			slot15 = ""
 
 			if slot7[slot12][1] == id2ItemId(1) then
-				slot15 = setColorStr(slot14[2], (slot0.playerVO.gold < slot14[2] and COLOR_RED) or COLOR_WHITE)
+				slot15 = setColorStr(slot14[2], (slot14[2] <= slot0.playerVO.gold and COLOR_WHITE) or COLOR_RED)
+
+				if slot16 then
+					RemoveComponent(slot13, typeof(Button))
+				else
+					onButton(slot0, slot13, function ()
+						ItemTipPanel.ShowGoldBuyTip(slot0[2])
+					end)
+
+					slot13:GetComponent(typeof(Button)).targetGraphic = slot13:Find("IconTpl/icon_bg/icon"):GetComponent(typeof(Image))
+				end
 			else
-				slot15 = setColorStr(slot0:getItemCount(slot14[1]), (slot0:getItemCount(slot14[1]) < slot14[2] and COLOR_RED) or COLOR_WHITE) .. "/" .. slot14[2]
+				slot15 = setColorStr(slot0:getItemCount(slot14[1]), (slot14[2] <= slot0:getItemCount(slot14[1]) and COLOR_WHITE) or COLOR_RED) .. "/" .. slot14[2]
+
+				if slot16 or not ItemTipPanel.CanShowTip(slot14[1]) then
+					RemoveComponent(slot13, typeof(Button))
+				else
+					onButton(slot0, slot13, function ()
+						ItemTipPanel.ShowItemTipbyID(slot0[1])
+					end)
+
+					slot13:GetComponent(typeof(Button)).targetGraphic = slot13:Find("IconTpl/icon_bg/icon"):GetComponent(typeof(Image))
+				end
 			end
 
 			updateDrop(slot0:findTF("IconTpl", slot13), {

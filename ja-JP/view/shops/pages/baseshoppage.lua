@@ -320,17 +320,30 @@ function slot1(slot0, slot1, slot2)
 		slot4 = slot4 * slot1
 
 		if slot3 < slot4 then
-			slot4 = pg
-			slot4 = slot4.TipsMgr
-			slot4 = slot4.GetInstance
-			slot4 = slot4()
-			slot5 = slot4
-			slot4 = slot4.ShowTips
-			slot6 = i18n
-			slot7 = "common_no_x"
-			slot8 = slot2
+			slot4 = ItemTipPanel
+			slot4 = slot4.ShowItemTip
+			slot6 = slot0
+			slot5 = slot0.getConfig
+			slot7 = "resource_category"
+			slot5 = slot5(slot6, slot7)
+			slot7 = slot0
+			slot6 = slot0.getConfig
+			slot8 = "resource_type"
+			slot4 = slot4(slot5, slot6(slot7, slot8))
 
-			slot4(slot5, slot6(slot7, slot8))
+			if not slot4 then
+				slot4 = pg
+				slot4 = slot4.TipsMgr
+				slot4 = slot4.GetInstance
+				slot4 = slot4()
+				slot5 = slot4
+				slot4 = slot4.ShowTips
+				slot6 = i18n
+				slot7 = "common_no_x"
+				slot8 = slot2
+
+				slot4(slot5, slot6(slot7, slot8))
+			end
 
 			slot4 = false
 

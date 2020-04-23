@@ -280,6 +280,7 @@ function slot0.GenBattleData(slot0)
 		MainUnitList = {},
 		VanguardUnitList = {},
 		SubUnitList = {},
+		AidUnitList = {},
 		SubFlag = -1,
 		ActID = slot0.contextData.actId
 	}
@@ -334,9 +335,19 @@ function slot0.GenBattleData(slot0)
 			end
 		end
 
+		slot1.MapAidSkills = {}
+
+		for slot19, slot20 in pairs(slot15) do
+			table.insert(slot1.AidUnitList, slot23)
+
+			for slot27, slot28 in ipairs(slot20) do
+				table.insert(slot1.MapAidSkills, slot28)
+			end
+		end
+
 		slot0.mainShips = {}
 
-		function slot15(slot0, slot1, slot2)
+		function slot16(slot0, slot1, slot2)
 			slot4 = slot0.hpRant * 0.0001
 
 			if table.contains(slot0, slot0.id) then
@@ -350,16 +361,16 @@ function slot0.GenBattleData(slot0)
 			table.insert(slot2, slot1(slot2, slot0, slot1))
 		end
 
-		for slot19, slot20 in ipairs(slot10) do
-			slot15(slot20, slot8, slot1.MainUnitList)
+		for slot20, slot21 in ipairs(slot10) do
+			slot16(slot21, slot8, slot1.MainUnitList)
 		end
 
-		for slot19, slot20 in ipairs(slot11) do
-			slot15(slot20, slot8, slot1.VanguardUnitList)
+		for slot20, slot21 in ipairs(slot11) do
+			slot16(slot21, slot8, slot1.VanguardUnitList)
 		end
 
-		for slot19, slot20 in ipairs(slot12) do
-			slot15(slot20, slot9, slot1.SubUnitList)
+		for slot20, slot21 in ipairs(slot12) do
+			slot16(slot21, slot9, slot1.SubUnitList)
 		end
 
 		slot0.viewComponent:setFleet(slot10, slot11, slot12)

@@ -6059,6 +6059,247 @@ pg.item_data_statistics = {
 		},
 		index = {}
 	},
+	[30112] = {
+		display = "各種パーツから一つ選択して入手できます",
+		rarity = 2,
+		type = 13,
+		drop_oil_max = 0,
+		name = "指向性強化パーツT2 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 30112,
+		icon = "Props/30112",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				17002,
+				1
+			},
+			{
+				2,
+				17012,
+				1
+			},
+			{
+				2,
+				17022,
+				1
+			},
+			{
+				2,
+				17032,
+				1
+			},
+			{
+				2,
+				17042,
+				0
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[30113] = {
+		display = "各種パーツから一つ選択して入手できます",
+		rarity = 3,
+		type = 13,
+		drop_oil_max = 0,
+		name = "指向性強化パーツT3",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 30113,
+		icon = "Props/30113",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				17003,
+				1
+			},
+			{
+				2,
+				17013,
+				1
+			},
+			{
+				2,
+				17023,
+				1
+			},
+			{
+				2,
+				17033,
+				1
+			},
+			{
+				2,
+				17043,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[30121] = {
+		display = "使用すると、燃料1000を入手出来ます",
+		rarity = 3,
+		type = 15,
+		drop_oil_max = 1000,
+		name = "燃料貯蔵箱（1000）",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 30121,
+		icon = "Props/30121",
+		replace_item = 0,
+		display_icon = {
+			{
+				1,
+				2,
+				1000
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[30202] = {
+		display = "何種類の<color=#ffde38>SSR</color>装備から一つ選択して入手できます",
+		rarity = 4,
+		type = 16,
+		drop_oil_max = 0,
+		name = "SSR選択装備箱",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 30202,
+		icon = "Props/30202",
+		replace_item = 0,
+		display_icon = {
+			{
+				3,
+				1440,
+				1
+			},
+			{
+				3,
+				1540,
+				1
+			},
+			{
+				3,
+				5240,
+				1
+			},
+			{
+				3,
+				11240,
+				1
+			},
+			{
+				3,
+				16440,
+				1
+			},
+			{
+				3,
+				17340,
+				1
+			},
+			{
+				3,
+				24040,
+				1
+			},
+			{
+				3,
+				24240,
+				1
+			},
+			{
+				3,
+				26240,
+				1
+			},
+			{
+				3,
+				26540,
+				1
+			},
+			{
+				3,
+				27140,
+				1
+			},
+			{
+				3,
+				28140,
+				1
+			},
+			{
+				3,
+				31040,
+				1
+			},
+			{
+				3,
+				32240,
+				1
+			},
+			{
+				3,
+				35240,
+				1
+			},
+			{
+				3,
+				37240,
+				1
+			},
+			{
+				3,
+				39140,
+				1
+			},
+			{
+				3,
+				43040,
+				1
+			},
+			{
+				3,
+				44140,
+				1
+			},
+			{
+				3,
+				45140,
+				1
+			},
+			{
+				3,
+				46340,
+				1
+			},
+			{
+				3,
+				47140,
+				1
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[30301] = {
 		display = "タグにこう書いてる——「メリクリにゃ！これからも一緒に頑張るにゃ～」",
 		rarity = 3,
@@ -8250,6 +8491,238 @@ pg.item_data_statistics = {
 				2,
 				16023,
 				3
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[40012] = {
+		display = "お得パック購入でアイテムをGET！ ",
+		rarity = 4,
+		type = 17,
+		drop_oil_max = 0,
+		name = "着任応援パック・Ⅰ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 40012,
+		icon = "Props/support1",
+		replace_item = 0,
+		display_icon = {
+			{
+				1,
+				14,
+				180
+			},
+			{
+				2,
+				30121,
+				2
+			},
+			{
+				4,
+				100001,
+				1
+			},
+			{
+				2,
+				15001,
+				30
+			},
+			{
+				2,
+				16002,
+				4
+			},
+			{
+				2,
+				16012,
+				4
+			},
+			{
+				2,
+				16022,
+				4
+			},
+			{
+				2,
+				30112,
+				30
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[40013] = {
+		display = "お得パック購入でアイテムをGET！ ",
+		rarity = 4,
+		type = 17,
+		drop_oil_max = 0,
+		name = "着任応援パック・Ⅱ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 40013,
+		icon = "Props/support2",
+		replace_item = 0,
+		display_icon = {
+			{
+				1,
+				14,
+				780
+			},
+			{
+				2,
+				30202,
+				2
+			},
+			{
+				2,
+				30121,
+				4
+			},
+			{
+				4,
+				100001,
+				1
+			},
+			{
+				2,
+				15001,
+				50
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			},
+			{
+				2,
+				16002,
+				3
+			},
+			{
+				2,
+				16012,
+				3
+			},
+			{
+				2,
+				16022,
+				3
+			},
+			{
+				2,
+				30113,
+				30
+			},
+			{
+				2,
+				30112,
+				50
+			}
+		},
+		price = {},
+		index = {}
+	},
+	[40014] = {
+		display = "お得パック購入でアイテムをGET！ ",
+		rarity = 4,
+		type = 17,
+		drop_oil_max = 0,
+		name = "着任応援パック・Ⅲ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 40014,
+		icon = "Props/support3",
+		replace_item = 0,
+		display_icon = {
+			{
+				1,
+				14,
+				1680
+			},
+			{
+				2,
+				30202,
+				4
+			},
+			{
+				2,
+				30121,
+				8
+			},
+			{
+				4,
+				100011,
+				1
+			},
+			{
+				2,
+				59900,
+				1000
+			},
+			{
+				2,
+				15001,
+				80
+			},
+			{
+				2,
+				16003,
+				5
+			},
+			{
+				2,
+				16013,
+				5
+			},
+			{
+				2,
+				16023,
+				5
+			},
+			{
+				2,
+				16002,
+				5
+			},
+			{
+				2,
+				16012,
+				5
+			},
+			{
+				2,
+				16022,
+				5
+			},
+			{
+				2,
+				30113,
+				100
+			},
+			{
+				2,
+				30112,
+				100
 			}
 		},
 		price = {},
@@ -93772,6 +94245,60 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59157] = {
+		display = "イベント「縹映る深緋の残響」報酬交換用アイテム。イベント終了後に削除される。",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "Ptバッジ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59157,
+		icon = "Props/tiancheng_fk",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59158] = {
+		display = "イベント「リトル　ロイヤルナイト」・友好度報酬（累計獲得数）",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "友好度",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59158,
+		icon = "Props/xiaoshengwang_pt",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59159] = {
+		display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2020.5.6メンテナンスまで）で削除されます",
+		rarity = 4,
+		type = 98,
+		drop_oil_max = 0,
+		name = "試着貸出チケット（2020.5.6まで）",
+		shop_id = 1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59159,
+		icon = "Props/skinTicket",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		display = "三笠大先輩の蒐集品の一つ。駆逐艦「江風」のモデル",
 		rarity = 2,
@@ -99210,6 +99737,10 @@ pg.item_data_statistics = {
 		30044,
 		30045,
 		30103,
+		30112,
+		30113,
+		30121,
+		30202,
 		30301,
 		30302,
 		30303,
@@ -99236,6 +99767,9 @@ pg.item_data_statistics = {
 		40008,
 		40009,
 		40011,
+		40012,
+		40013,
+		40014,
 		40100,
 		40101,
 		40102,
@@ -101087,6 +101621,9 @@ pg.item_data_statistics = {
 		59154,
 		59155,
 		59156,
+		59157,
+		59158,
+		59159,
 		59601,
 		59602,
 		59603,
