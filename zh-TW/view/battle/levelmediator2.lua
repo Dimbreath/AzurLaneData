@@ -44,10 +44,17 @@ slot0.ON_COMMANDER_OP = "LevelMediator2:ON_COMMANDER_OP"
 slot0.CLICK_CHALLENGE_BTN = "LevelMediator2:CLICK_CHALLENGE_BTN"
 slot0.ON_SUBMIT_TASK = "LevelMediator2:ON_SUBMIT_TASK"
 slot0.ON_VOTE_BOOK = "LevelMediator2:ON_VOTE_BOOK"
+slot0.GET_CHAPTER_DROP_SHIP_LIST = "LevelMediator2:GET_CHAPTER_DROP_SHIP_LIST"
 
 function slot0.register(slot0)
 	slot1 = getProxy(PlayerProxy)
 
+	slot0:bind(slot0.GET_CHAPTER_DROP_SHIP_LIST, function (slot0, slot1, slot2)
+		slot0:sendNotification(GAME.GET_CHAPTER_DROP_SHIP_LIST, {
+			chapterId = slot1,
+			callback = slot2
+		})
+	end)
 	slot0:bind(slot0.ON_VOTE_BOOK, function (slot0)
 		slot0:addSubLayers(Context.New({
 			mediator = VoteOrderBookMediator,
@@ -570,7 +577,7 @@ function slot0.register(slot0)
 	slot12:updateGuildChapterShips()
 	slot0.viewComponent:updateSubInfo(slot12.subRefreshCount, slot12.subProgress)
 
-	slot13 = slot0.viewComponent.maps
+	slot13 = getProxy(ChapterProxy):getMaps()
 	slot14 = slot0.contextData.mapIdx
 	slot15 = slot0.contextData.chapterId
 	slot17 = ChapterConst.TypeNone
@@ -590,23 +597,37 @@ function slot0.register(slot0)
 	slot0.viewComponent:setMaps(slot13)
 
 	if slot0.contextData.chapterVO and slot16.active then
+		slot0.viewComponent:setMap(slot16:getConfig("map"))
+
 		slot0.contextData.isSwitchToChapter = true
 
 		slot0.viewComponent:switchToChapter(slot16, function ()
 			slot0:OnSwitchChapterDone()
 		end)
-	elseif slot0.contextData.map:isSkirmish() then
+
+		return
+	end
+
+	slot18 = nil
+
+	if slot0.contextData.targetChapter and slot0.contextData.targetMap then
+		slot0.contextData.openChapterId = slot0.contextData.targetChapter
+		slot18 = slot0.contextData.targetMap
+		slot0.contextData.targetChapter = nil
+		slot0.contextData.targetMap = nil
+	elseif slot0.contextData.eliteDefault then
+		slot18 = slot12:getUseableMaxEliteMap() and slot19.id
+		slot0.contextData.eliteDefault = nil
+	end
+
+	slot0.viewComponent:setMap(slot18 or slot0.viewComponent:selectMap(slot13))
+
+	if slot0.contextData.map:isSkirmish() then
 		slot0.viewComponent:ShowCurtains(true)
 		slot0.viewComponent:doPlayAnim("TV01", function (slot0)
 			go(slot0):SetActive(false)
 			slot0.viewComponent:ShowCurtains(false)
-		end, function (slot0)
-			setParent(slot0, slot0.viewComponent._tf)
 		end)
-	end
-
-	if slot0.contextData.targetChapter and slot0.contextData.targetMap then
-		slot0:openTargetChapter(slot0.contextData.targetChapter, slot0.contextData.targetMap)
 	end
 end
 
@@ -1267,12 +1288,6 @@ function slot0.duplicateEliteFleet(slot0, slot1)
 			slot8:setEliteCommanders(slot1:getEliteFleetCommanders())
 		end
 	end
-end
-
-function slot0.openTargetChapter(slot0, slot1, slot2)
-	slot0.contextData.openChapterId = slot1.configId
-
-	slot0.viewComponent:setMap(slot2.configId)
 end
 
 return slot0

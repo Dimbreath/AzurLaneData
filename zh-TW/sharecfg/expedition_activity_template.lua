@@ -895,6 +895,26 @@ pg.expedition_activity_template = {
 		pt_drop_display = "",
 		bonus_time = 0
 	},
+	[11101000] = {
+		id = 11101000,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[11102000] = {
+		id = 11102000,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[11103000] = {
+		id = 11103000,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[11104000] = {
+		id = 11104000,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
 	[1000016] = {
 		id = 1000016,
 		bonus_time = 1,
@@ -2959,6 +2979,71 @@ pg.expedition_activity_template = {
 		pt_drop_display = "",
 		bonus_time = 0
 	},
+	[1370013] = {
+		id = 1370013,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1370113] = {
+		id = 1370113,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1370213] = {
+		id = 1370213,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1370313] = {
+		id = 1370313,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1370413] = {
+		id = 1370413,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1370513] = {
+		id = 1370513,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1370613] = {
+		id = 1370613,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1370713] = {
+		id = 1370713,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1370813] = {
+		id = 1370813,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1370913] = {
+		id = 1370913,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1371013] = {
+		id = 1371013,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1371113] = {
+		id = 1371113,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[1371201] = {
+		id = 1371201,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
 	[3000013] = {
 		id = 3000013,
 		bonus_time = 1,
@@ -3384,6 +3469,10 @@ pg.expedition_activity_template = {
 		11002000,
 		11003000,
 		11004000,
+		11101000,
+		11102000,
+		11103000,
+		11104000,
 		1000016,
 		1000032,
 		1000048,
@@ -3646,6 +3735,19 @@ pg.expedition_activity_template = {
 		1353113,
 		1353213,
 		1354013,
+		1370013,
+		1370113,
+		1370213,
+		1370313,
+		1370413,
+		1370513,
+		1370613,
+		1370713,
+		1370813,
+		1370913,
+		1371013,
+		1371113,
+		1371201,
 		3000013,
 		3000113,
 		3000213,

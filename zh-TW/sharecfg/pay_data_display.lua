@@ -417,6 +417,301 @@ pg.pay_data_display = {
 			}
 		}
 	},
+	[20] = {
+		limit_arg = 1,
+		descrip_extra = "*支援包將發送到郵箱，請注意查收。",
+		name = "新晉指揮官支援包·I ",
+		descrip = "可獲得180鑽，石油儲備箱(1000)x2和其他獎勵",
+		subject = "新晉指揮官支援包·I ",
+		extra_service = 3,
+		platform = 0,
+		money = 100,
+		tag = 1,
+		gem = 0,
+		limit_type = 2,
+		time = "always",
+		picture = "support1",
+		display_money = 100,
+		id_str = "com.hkmanjuu.azurlane.libao1",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 20,
+		airijp_id = "com.yostarjp.azurlane.package101",
+		extra_service_item = {
+			{
+				1,
+				14,
+				180
+			},
+			{
+				2,
+				30121,
+				2
+			},
+			{
+				4,
+				100001,
+				1
+			},
+			{
+				2,
+				15001,
+				30
+			},
+			{
+				2,
+				16002,
+				4
+			},
+			{
+				2,
+				16012,
+				4
+			},
+			{
+				2,
+				16022,
+				4
+			},
+			{
+				2,
+				30112,
+				30
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				180
+			},
+			{
+				2,
+				30121,
+				2
+			},
+			{
+				4,
+				100001,
+				1
+			}
+		}
+	},
+	[21] = {
+		limit_arg = 1,
+		descrip_extra = "*支援包將發送到郵箱，請注意查收。",
+		name = "新晉指揮官支援包·II ",
+		descrip = "可獲得780鑽，定向裝備箱·超稀有x2，石油儲備箱(1000)x4和其他獎勵",
+		subject = "新晉指揮官支援包·II ",
+		extra_service = 3,
+		platform = 0,
+		money = 390,
+		tag = 1,
+		gem = 0,
+		limit_type = 2,
+		time = "always",
+		picture = "support2",
+		display_money = 390,
+		id_str = "com.hkmanjuu.azurlane.libao2",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 21,
+		airijp_id = "com.yostarjp.azurlane.package102",
+		extra_service_item = {
+			{
+				1,
+				14,
+				780
+			},
+			{
+				2,
+				30202,
+				2
+			},
+			{
+				2,
+				30121,
+				4
+			},
+			{
+				4,
+				100001,
+				1
+			},
+			{
+				2,
+				15001,
+				50
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			},
+			{
+				2,
+				16002,
+				3
+			},
+			{
+				2,
+				16012,
+				3
+			},
+			{
+				2,
+				16022,
+				3
+			},
+			{
+				2,
+				30113,
+				30
+			},
+			{
+				2,
+				30112,
+				50
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				780
+			},
+			{
+				2,
+				30202,
+				2
+			},
+			{
+				2,
+				30121,
+				4
+			}
+		}
+	},
+	[22] = {
+		limit_arg = 1,
+		descrip_extra = "*支援包將發送到郵箱，請注意查收。",
+		name = "新晉指揮官支援包·III ",
+		descrip = "可獲得1680鑽，定向裝備箱·超稀有x4，石油儲備箱(1000)x8和其他獎勵",
+		subject = "新晉指揮官支援包·III ",
+		extra_service = 3,
+		platform = 0,
+		money = 870,
+		tag = 1,
+		gem = 0,
+		limit_type = 2,
+		time = "always",
+		picture = "support3",
+		display_money = 870,
+		id_str = "com.hkmanjuu.azurlane.libao3",
+		first_pay_double = 0,
+		extra_gem = 0,
+		id = 22,
+		airijp_id = "com.yostarjp.azurlane.package103",
+		extra_service_item = {
+			{
+				1,
+				14,
+				1680
+			},
+			{
+				2,
+				30202,
+				4
+			},
+			{
+				2,
+				30121,
+				8
+			},
+			{
+				4,
+				100011,
+				1
+			},
+			{
+				2,
+				59900,
+				1000
+			},
+			{
+				2,
+				15001,
+				80
+			},
+			{
+				2,
+				16003,
+				5
+			},
+			{
+				2,
+				16013,
+				5
+			},
+			{
+				2,
+				16023,
+				5
+			},
+			{
+				2,
+				16002,
+				5
+			},
+			{
+				2,
+				16012,
+				5
+			},
+			{
+				2,
+				16022,
+				5
+			},
+			{
+				2,
+				30113,
+				100
+			},
+			{
+				2,
+				30112,
+				100
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				1680
+			},
+			{
+				2,
+				30202,
+				4
+			},
+			{
+				2,
+				30121,
+				8
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -427,7 +722,10 @@ pg.pay_data_display = {
 		7,
 		8,
 		16,
-		18
+		18,
+		20,
+		21,
+		22
 	}
 }
 

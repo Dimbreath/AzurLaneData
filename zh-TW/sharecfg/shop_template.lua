@@ -8425,9 +8425,9 @@ pg.shop_template = {
 		is_auto_use = 0,
 		group_limit = 0,
 		group_buy_count = 0,
-		tag = 1,
+		tag = 0,
 		time_second = 0,
-		order = 19,
+		order = 190,
 		time = "always",
 		group = 0,
 		num = 1,
@@ -8464,6 +8464,154 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			301091
+		}
+	},
+	[70109] = {
+		group_type = 0,
+		resource_num = 1080,
+		desc = "購買造型:火奴魯魯造型",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 13,
+		group = 0,
+		num = 1,
+		discount = 10,
+		resource_type = 14,
+		id = 70109,
+		genre = "skin_shop",
+		discount_time = {
+			{
+				{
+					2018,
+					10,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2018,
+					10,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		limit_args = {},
+		effect_args = {
+			102122
+		},
+		time = {
+			{
+				{
+					2020,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					4,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[70110] = {
+		group_type = 0,
+		resource_num = 780,
+		desc = "購買造型:神通造型",
+		type = 6,
+		is_auto_use = 0,
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 2,
+		time_second = 0,
+		order = 18,
+		group = 0,
+		num = 1,
+		discount = 10,
+		resource_type = 14,
+		id = 70110,
+		genre = "skin_shop",
+		discount_time = {
+			{
+				{
+					2018,
+					10,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2018,
+					10,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		limit_args = {},
+		effect_args = {
+			302131
+		},
+		time = {
+			{
+				{
+					2020,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					4,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[70111] = {
@@ -11140,6 +11288,8 @@ pg.shop_template = {
 		70089,
 		70095,
 		70108,
+		70109,
+		70110,
 		70111,
 		70112,
 		70113,

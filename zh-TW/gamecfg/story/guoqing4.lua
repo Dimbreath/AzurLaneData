@@ -157,7 +157,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "看來…還是晚了一步，那麼，就讓我來把你從詛咒解放出來吧",
+			say = "棋子嗎...明明才進入“聖域”沒多久，好快的速度。",
 			shake = {
 				speed = 1,
 				number = 3
@@ -176,7 +176,26 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "“靈”式戰機，全員起飛！",
+			say = "可憐又可憎的人偶...就讓我來把你從詛咒解放出來吧。",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307060,
+			actorName = "{namecode:96}",
+			side = 0,
+			nameColor = "#a9f548",
+			say = "“靈”式戰機，全數起飛！",
 			shake = {
 				speed = 1,
 				number = 3

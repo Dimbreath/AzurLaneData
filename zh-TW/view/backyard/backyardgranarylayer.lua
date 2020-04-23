@@ -398,6 +398,7 @@ function slot0.openFoodShop(slot0, slot1)
 		if slot0.playerVO[id2res(slot0.resourceType)] < slot0.resourceNum * slot0.count then
 			if slot0.resourceType == 4 then
 				GoShoppingMsgBox(i18n("switch_to_shop_tip_3", i18n("word_gem")), ChargeScene.TYPE_DIAMOND)
+			elseif slot0.resourceType == 2 and ItemTipPanel.ShowOilBuyTip(slot0.resourceNum * slot0.count) then
 			else
 				pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_backyardGranaryLayer_error_noResource", pg.item_data_statistics[id2ItemId(slot0.resourceType)].name))
 			end

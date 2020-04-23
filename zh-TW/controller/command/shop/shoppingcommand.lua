@@ -31,7 +31,7 @@ function slot0.execute(slot0, slot1)
 	end
 
 	if slot5.type == 1 then
-		if slot5.effect_args[1] == 1 and slot7:GoldMax(slot5.num) then
+		if slot5.effect_args[1] == 1 and slot7:GoldMax(slot5.num * slot4) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_shop"))
 
 			return
@@ -42,7 +42,7 @@ function slot0.execute(slot0, slot1)
 				slot9 = ShopArgs.getOilByLevel(slot7.level)
 			end
 
-			if slot7:OilMax(slot9) then
+			if slot7:OilMax(slot9 * slot4) then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_shop"))
 
 				return
@@ -107,7 +107,7 @@ function slot0.execute(slot0, slot1)
 			})
 		elseif slot5.resource_type == 4 or slot5.resource_type == 14 then
 			GoShoppingMsgBox(i18n("switch_to_shop_tip_3", i18n("word_gem")), ChargeScene.TYPE_DIAMOND)
-		else
+		elseif not ItemTipPanel.ShowItemTip(DROP_TYPE_RESOURCE, slot5.resource_type) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("buyProp_noResource_error", slot13))
 		end
 

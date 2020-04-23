@@ -12,7 +12,26 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "求救信號居然是…{namecode:76}和{namecode:77}前輩…難道你們也…",
+			say = "求救信號居然是...{namecode:76}和{namecode:77}？！你們沒事-----",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307060,
+			actorName = "{namecode:96}",
+			side = 0,
+			nameColor = "#a9f548",
+			say = "......不只是晓，連你們兩位的冒牌貨都準備好了麼",
 			shake = {
 				speed = 1,
 				number = 3

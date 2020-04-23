@@ -128,10 +128,68 @@ pg.expedition_daily_template = {
 			}
 		}
 	},
+	[601] = {
+		tips = "戰術研修每天開啟",
+		limit_type = 1,
+		limit_time = 3,
+		pic = "daily6",
+		title = "戰術研修",
+		id = 601,
+		des = "強大的特戰敵人出現了！擊破有一定機率獲得戰術升級材料",
+		weekday = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		},
+		expedition_and_lv_limit_list = {
+			{
+				6000,
+				60
+			},
+			{
+				6001,
+				60
+			},
+			{
+				6002,
+				60
+			}
+		}
+	},
+	[701] = {
+		tips = "該副本暫未開放，敬請期待",
+		limit_type = 1,
+		limit_time = 0,
+		pic = "daily4",
+		title = "敬請期待",
+		id = 701,
+		des = "該副本暫未開放，敬請期待",
+		weekday = {},
+		expedition_and_lv_limit_list = {
+			{
+				6000,
+				60
+			},
+			{
+				6001,
+				60
+			},
+			{
+				6002,
+				60
+			}
+		}
+	},
 	all = {
 		201,
 		301,
-		401
+		401,
+		601,
+		701
 	}
 }
 

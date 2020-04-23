@@ -48,8 +48,30 @@ pg.activity_event_picturepuzzle = {
 			}
 		}
 	},
+	[334] = {
+		define = 1,
+		cd = 0,
+		drop = 91334,
+		chapter = 0,
+		id = 334,
+		pickup_picturepuzzle = {},
+		drop_picturepuzzle = {
+			59831,
+			59832,
+			59833,
+			59834,
+			59835,
+			59836,
+			59837,
+			59838,
+			59839
+		},
+		story = {},
+		awards = {}
+	},
 	all = {
-		549
+		549,
+		334
 	}
 }
 

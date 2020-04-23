@@ -5278,6 +5278,596 @@ pg.collection_template = {
 			type = 2
 		}
 	},
+	[30401] = {
+		ship_num = 5,
+		time = 0,
+		type = 6,
+		collect_time = 3600,
+		title = "高階戰術研發I",
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		exp = 180,
+		oil = 0,
+		id = 30401,
+		icon = "faxiankuangmai",
+		lv = 50,
+		ship_lv = 100,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "180",
+				type = 2
+			},
+			{
+				id = 15008,
+				nums = "10~18",
+				type = 2
+			},
+			{
+				id = 59002,
+				nums = "50~80",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "2~4",
+				type = 2
+			}
+		},
+		special_drop = {
+			id = 15003,
+			nums = "隨機獲得",
+			type = 2
+		}
+	},
+	[30402] = {
+		ship_num = 5,
+		time = 0,
+		type = 6,
+		collect_time = 3600,
+		title = "高階戰術研發I",
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		exp = 180,
+		oil = 0,
+		id = 30402,
+		icon = "faxiankuangmai",
+		lv = 50,
+		ship_lv = 100,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "180",
+				type = 2
+			},
+			{
+				id = 15008,
+				nums = "10~18",
+				type = 2
+			},
+			{
+				id = 59002,
+				nums = "50~80",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "2~4",
+				type = 2
+			}
+		},
+		special_drop = {
+			id = 20001,
+			nums = "隨機獲得",
+			type = 2
+		}
+	},
+	[30403] = {
+		ship_num = 5,
+		time = 0,
+		type = 6,
+		collect_time = 3600,
+		title = "高階戰術研發I",
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		exp = 180,
+		oil = 0,
+		id = 30403,
+		icon = "faxiankuangmai",
+		lv = 50,
+		ship_lv = 100,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "180",
+				type = 2
+			},
+			{
+				id = 15008,
+				nums = "10~18",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "50~80",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "2~4",
+				type = 2
+			}
+		},
+		special_drop = {
+			id = 54005,
+			nums = "隨機獲得",
+			type = 2
+		}
+	},
+	[30404] = {
+		ship_num = 5,
+		time = 0,
+		type = 6,
+		collect_time = 3600,
+		title = "高階戰術研發I",
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		exp = 180,
+		oil = 0,
+		id = 30404,
+		icon = "faxiankuangmai",
+		lv = 50,
+		ship_lv = 100,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "180",
+				type = 2
+			},
+			{
+				id = 15008,
+				nums = "10~18",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "50~80",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "2~4",
+				type = 2
+			}
+		},
+		special_drop = {
+			id = 54049,
+			nums = "隨機獲得",
+			type = 2
+		}
+	},
+	[30405] = {
+		ship_num = 5,
+		time = 0,
+		type = 6,
+		collect_time = 3600,
+		title = "高階戰術研發I",
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		exp = 180,
+		oil = 0,
+		id = 30405,
+		icon = "faxiankuangmai",
+		lv = 50,
+		ship_lv = 100,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "180",
+				type = 2
+			},
+			{
+				id = 15008,
+				nums = "10~18",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "50~80",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "2~4",
+				type = 2
+			}
+		},
+		special_drop = {
+			id = 54033,
+			nums = "隨機獲得",
+			type = 2
+		}
+	},
+	[30406] = {
+		ship_num = 5,
+		time = 0,
+		type = 6,
+		collect_time = 7200,
+		title = "高階戰術研發II",
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		exp = 360,
+		oil = 0,
+		id = 30406,
+		icon = "faxiankuangmai",
+		lv = 50,
+		ship_lv = 100,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "360",
+				type = 2
+			},
+			{
+				id = 15008,
+				nums = "24~32",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "100~170",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "4~7",
+				type = 2
+			}
+		},
+		special_drop = {
+			id = 15003,
+			nums = "隨機獲得",
+			type = 2
+		}
+	},
+	[30407] = {
+		ship_num = 5,
+		time = 0,
+		type = 6,
+		collect_time = 7200,
+		title = "高階戰術研發II",
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		exp = 360,
+		oil = 0,
+		id = 30407,
+		icon = "faxiankuangmai",
+		lv = 50,
+		ship_lv = 100,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "360",
+				type = 2
+			},
+			{
+				id = 15008,
+				nums = "24~32",
+				type = 2
+			},
+			{
+				id = 59001,
+				nums = "100~170",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "4~7",
+				type = 2
+			}
+		},
+		special_drop = {
+			id = 20001,
+			nums = "隨機獲得",
+			type = 2
+		}
+	},
+	[30408] = {
+		ship_num = 5,
+		time = 0,
+		type = 6,
+		collect_time = 7200,
+		title = "高階戰術研發II",
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		exp = 360,
+		oil = 0,
+		id = 30408,
+		icon = "faxiankuangmai",
+		lv = 50,
+		ship_lv = 100,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "360",
+				type = 2
+			},
+			{
+				id = 15008,
+				nums = "24~32",
+				type = 2
+			},
+			{
+				id = 59002,
+				nums = "100~170",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "4~7",
+				type = 2
+			}
+		},
+		special_drop = {
+			id = 54005,
+			nums = "隨機獲得",
+			type = 2
+		}
+	},
+	[30409] = {
+		ship_num = 5,
+		time = 0,
+		type = 6,
+		collect_time = 7200,
+		title = "高階戰術研發II",
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		exp = 360,
+		oil = 0,
+		id = 30409,
+		icon = "faxiankuangmai",
+		lv = 50,
+		ship_lv = 100,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "360",
+				type = 2
+			},
+			{
+				id = 15008,
+				nums = "24~32",
+				type = 2
+			},
+			{
+				id = 59002,
+				nums = "100~170",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "4~7",
+				type = 2
+			}
+		},
+		special_drop = {
+			id = 54049,
+			nums = "隨機獲得",
+			type = 2
+		}
+	},
+	[30410] = {
+		ship_num = 5,
+		time = 0,
+		type = 6,
+		collect_time = 7200,
+		title = "高階戰術研發II",
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		exp = 360,
+		oil = 0,
+		id = 30410,
+		icon = "faxiankuangmai",
+		lv = 50,
+		ship_lv = 100,
+		ship_type = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			17,
+			18
+		},
+		drop_display = {
+			{
+				id = 59000,
+				nums = "360",
+				type = 2
+			},
+			{
+				id = 15008,
+				nums = "24~32",
+				type = 2
+			},
+			{
+				id = 59002,
+				nums = "100~170",
+				type = 2
+			},
+			{
+				id = 59006,
+				nums = "4~7",
+				type = 2
+			}
+		},
+		special_drop = {
+			id = 54033,
+			nums = "隨機獲得",
+			type = 2
+		}
+	},
 	[40101] = {
 		ship_num = 3,
 		time = 0,
@@ -6064,6 +6654,16 @@ pg.collection_template = {
 		30308,
 		30309,
 		30310,
+		30401,
+		30402,
+		30403,
+		30404,
+		30405,
+		30406,
+		30407,
+		30408,
+		30409,
+		30410,
 		40101,
 		40102,
 		40103,

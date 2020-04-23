@@ -409,6 +409,19 @@ pg.memory_group = {
 			683
 		}
 	},
+	[160] = {
+		title = "月刊漫畫Javelin ",
+		type = 2,
+		id = 160,
+		icon = "title_event",
+		memories = {
+			825,
+			826,
+			827,
+			828,
+			829
+		}
+	},
 	[184] = {
 		title = "黃金的秘寶 ",
 		type = 2,
@@ -685,6 +698,7 @@ pg.memory_group = {
 		136,
 		141,
 		149,
+		160,
 		184,
 		501,
 		502,

@@ -73,7 +73,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "......棋子...嗎",
 			shake = {
 				speed = 1,
 				number = 3
@@ -112,7 +112,7 @@ return {
 			dir = -1,
 			actor = 307010,
 			nameColor = "#ff0000",
-			say = "為了能讓神明賜予我們更多的恩惠～優質的祭品自然是理所必要的",
+			say = "如果想要神明賜予更多恩惠，獻上優質的祭品是理所應當的吧~",
 			shake = {
 				speed = 1,
 				number = 3
@@ -150,7 +150,26 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "……“重櫻的未來”…這一句話，你們欺騙了我們多少次…",
+			say = "......“重櫻的未來”...呵，這一句話，你們還要欺騙我們多少次...",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307060,
+			actorName = "{namecode:96}",
+			side = 0,
+			nameColor = "#a9f548",
+			say = "居然不惜將同胞作為實驗素材也要得到的力量.....",
 			shake = {
 				speed = 1,
 				number = 3
@@ -188,7 +207,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "自從第一次出手，我就感受到了事情的蹊蹺",
+			say = "從第一次出手，我就隱約察覺了你們的企圖",
 			shake = {
 				speed = 1,
 				number = 3
@@ -247,7 +266,7 @@ return {
 			dir = -1,
 			actor = 307010,
 			nameColor = "#ff0000",
-			say = "她的靈魂，早已經獻給偉大的神明了，而剩下的這副無用的軀殼，將會成為你的終點！",
+			say = "就算是沒有靈魂的軀殼，也將會成為你旅途的終點",
 			shake = {
 				speed = 1,
 				number = 3

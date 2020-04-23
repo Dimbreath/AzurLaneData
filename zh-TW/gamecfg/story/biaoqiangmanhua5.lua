@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"月刊漫画Javelin\n\n<size=45>五　这是什么！</size>",
+					"月刊漫畫Javelin\n\n<size=45>五　這是什麼！</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-1",
 			actor = 401230,
 			nameColor = "#a9f548",
-			say = "……这是什么",
+			say = "……這是什麼",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "到一半就开始变得乱七八糟了、的说。",
+			say = "到一半就開始變得亂七八糟了、的說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "标枪、烂尾了…",
+			say = "標槍、爛尾了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "在漫画社体验入社的时候画了一半，最后部分是其他人完成的啦！",
+			say = "在漫畫社體驗入社的時候畫了一半，最後部分是其他人完成的啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，所以最后才有Z1和圣地亚哥的名字吗…",
+			say = "啊，所以最後才有Z1和聖地牙哥的名字嗎…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没画完的原因，求详细。",
+			say = "沒畫完的原因，求詳細。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			dir = 1,
 			actor = 201210,
 			nameColor = "#a9f548",
-			say = "那、那是…因为画到一半突然不知道要怎么编下去了…后面就这样把素描本忘在社团活动室了…",
+			say = "那、那是…因為畫到一半突然不知道要怎麼編下去了…後面就這樣把素描本忘在社團活動室了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不知什么时候就被大家各种补画完了…",
+			say = "不知什麼時候就被大家各種補畫完了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "制作漫画果然很难的说。",
+			say = "製作漫畫果然很難的說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果叫上我们一起帮忙就好了。",
+			say = "如果叫上我們一起幫忙就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，总会有不顺的时候嘛，下次努力画到最后吧？",
+			say = "不過，總會有不順的時候嘛，下次努力畫到最後吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:6}也想要一起画漫画的说",
+			say = "{namecode:6}也想要一起畫漫畫的說",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "拉菲也要帮忙",
+			say = "拉菲也要幫忙",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家…嗯！下次再一起制作漫画吧！",
+			say = "大家…嗯！下次再一起製作漫畫吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			actor = 101170,
 			dir = 1,
 			hideOther = true,
-			actorName = "全员",
+			actorName = "全員",
 			say = "喔！",
 			dialogShake = {
 				speed = 0.09,
@@ -310,7 +310,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "敬请期待标枪的新作品！",
+			say = "敬請期待標槍的新作品！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
