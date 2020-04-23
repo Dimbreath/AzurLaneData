@@ -71,7 +71,7 @@ end
 function slot0.HandleFuncQueue(slot0)
 	if slot0._state == slot0.STATES.INITED then
 		while #slot0._funcQueue > 0 do
-			slot0[slot0._funcQueue[1].funcName](slot0, unpack(slot0._funcQueue[1].params))
+			slot0[slot0._funcQueue[1].funcName](slot0, unpack(slot0._funcQueue[1].params, 1, slot0._funcQueue[1].params.len))
 			table.remove(slot0._funcQueue, 1)
 		end
 	end
@@ -80,7 +80,7 @@ end
 function slot0.HandleLoadedQueue(slot0)
 	if slot0._state == slot0.STATES.INITED then
 		while #slot0._loadedQueue > 0 do
-			slot0._loadedQueue[1].funcBody(unpack(slot0._loadedQueue[1].params))
+			slot0._loadedQueue[1].funcBody(unpack(slot0._loadedQueue[1].params, 1, slot0._loadedQueue[1].params.len))
 			table.remove(slot0._loadedQueue, 1)
 		end
 	end
@@ -94,6 +94,7 @@ function slot0.ActionInvoke(slot0, slot1, ...)
 	slot0._funcQueue[#slot0._funcQueue + 1] = {
 		funcName = slot1,
 		params = {
+			len = select("#", ...),
 			...
 		}
 	}
@@ -103,11 +104,12 @@ end
 
 function slot0.ExecuteAction(slot0, slot1, ...)
 	slot2 = {
+		len = select("#", ...),
 		...
 	}
 
 	function slot3()
-		slot0:ActionInvoke(slot0, unpack(slot0))
+		slot0:ActionInvoke(slot0, unpack(slot0, 1, slot2.len))
 	end
 
 	if slot0:GetLoaded() then
@@ -130,6 +132,7 @@ function slot0.AddLoadedCallback(slot0, slot1, ...)
 	slot0._loadedQueue[#slot0._loadedQueue + 1] = {
 		funcBody = slot1,
 		params = {
+			len = select("#", ...),
 			...
 		}
 	}

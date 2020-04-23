@@ -73,7 +73,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "......棋子...么",
 			shake = {
 				speed = 1,
 				number = 3
@@ -112,7 +112,7 @@ return {
 			dir = -1,
 			actor = 307010,
 			nameColor = "#ff0000",
-			say = "为了能让神明赐予我们更多的恩惠～优质的祭品自然是理所必要的",
+			say = "如果想要神明赐予更多恩惠，献上优质的祭品是理所应当的吧~",
 			shake = {
 				speed = 1,
 				number = 3
@@ -150,7 +150,26 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "……“重樱的未来”…这一句话，你们欺骗了我们多少次…",
+			say = "......“重樱的未来”...呵，这一句话，你们还要欺骗我们多少次...",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307060,
+			actorName = "{namecode:96}",
+			side = 0,
+			nameColor = "#a9f548",
+			say = "居然不惜将同胞作为实验素材也要得到的力量.....",
 			shake = {
 				speed = 1,
 				number = 3
@@ -188,7 +207,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "自从第一次出手，我就感受到了事情的蹊跷",
+			say = "从第一次出手，我就隐约察觉了你们的企图",
 			shake = {
 				speed = 1,
 				number = 3
@@ -247,7 +266,7 @@ return {
 			dir = -1,
 			actor = 307010,
 			nameColor = "#ff0000",
-			say = "她的灵魂，早已经献给伟大的神明了，而剩下的这副无用的躯壳，将会成为你的终点！",
+			say = "就算是没有灵魂的躯壳，也将会成为你旅途的终点",
 			shake = {
 				speed = 1,
 				number = 3

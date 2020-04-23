@@ -4669,6 +4669,59 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[100015] = {
+		advice = 0,
+		describe = "准备好收下这份激动人心的礼物了吗~？ ",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "「惊喜」礼物 ",
+		is_get_time_note = 0,
+		rarity = 5,
+		gain_by = "",
+		themeId = 0,
+		icon = "yurenheicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 1,
+		spine_extra = "",
+		id = 100015,
+		picture = "",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yurenheB",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			},
+			{
+				"yurenheT"
+			}
+		},
+		interAction_group = {}
+	},
 	[1001] = {
 		advice = 0,
 		describe = "到处都是破洞的地板，注意不要踩到洞里啊",
@@ -74550,6 +74603,7 @@ pg.furniture_data_template = {
 		100012,
 		100013,
 		100014,
+		100015,
 		1001,
 		1002,
 		1101,

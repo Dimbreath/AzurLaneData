@@ -118,17 +118,27 @@ function slot0.Preload(slot0)
 			slot0.addChapterBuffRes(slot9)
 			slot0.addChapterAuraRes(slot11)
 
-			slot12, slot13 = slot5.getSubAidFlag(slot6)
+			slot13 = {}
 
-			if slot12 == true or slot12 > 0 then
-				for slot18, slot19 in ipairs(slot14) do
-					table.insert(slot3, slot19)
+			for slot17, slot18 in pairs(slot12) do
+				for slot22, slot23 in ipairs(slot18) do
+					table.insert(slot13, slot23)
+				end
+			end
+
+			slot0.addChapterAuraRes(slot13)
+
+			slot14, slot15 = slot5.getSubAidFlag(slot6)
+
+			if slot14 == true or slot14 > 0 then
+				for slot20, slot21 in ipairs(slot16) do
+					table.insert(slot3, slot21)
 				end
 
-				slot18, slot18 = slot6:getFleetBattleBuffs(slot13)
+				slot20, slot20 = slot6:getFleetBattleBuffs(slot15)
 
-				slot0.addCommanderBuffRes(slot16)
-				slot0.addChapterBuffRes(slot15)
+				slot0.addCommanderBuffRes(slot18)
+				slot0.addChapterBuffRes(slot17)
 			end
 		elseif slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS or slot0.contextData.system == SYSTEM_ACT_BOSS or slot0.contextData.system == SYSTEM_BOSS_EXPERIMENT then
 			if getProxy(FleetProxy).getActivityFleets(slot5)[slot0.contextData.actId][slot0.contextData.mainFleetId] then

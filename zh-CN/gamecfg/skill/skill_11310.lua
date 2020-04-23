@@ -20,28 +20,9 @@ return {
 			targetAniEffect = "",
 			casterAniEffect = "",
 			type = "BattleSkillAddBuff",
-			target_choise = "TargetNationalityFriendly",
+			target_choise = "TargetSelf",
 			arg_list = {
-				buff_id = 11311,
-				nationality = 3
-			}
-		},
-		{
-			targetAniEffect = "",
-			casterAniEffect = "",
-			type = "BattleSkillAddBuff",
-			target_choise = {
-				"TargetAllHelp",
-				"TargetNationality",
-				"TargetShipType"
-			},
-			arg_list = {
-				buff_id = 11312,
-				nationality = 3,
-				ship_type_list = {
-					6,
-					7
-				}
+				buff_id = 11311
 			}
 		}
 	}

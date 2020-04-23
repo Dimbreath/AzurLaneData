@@ -483,6 +483,18 @@ slot1 = {
 	[ActivityConst.ACTIVITY_JAMAICA_SKIN_RE_PAGE] = {
 		className = "JamaicaSkinRePage",
 		uiName = "JamaicaSkinRePage"
+	},
+	[ActivityConst.TIAN_CHENG_PT_RE_PAGE] = {
+		className = "TianChengPTRePage",
+		uiName = "TianChengPTRePage"
+	},
+	[ActivityConst.TIAN_CHENG_RE_MAIN_PAGE] = {
+		className = "TianChengReMainPage",
+		uiName = "TianChengReMainPage"
+	},
+	[ActivityConst.LITTLE_RENOWN_PAGE] = {
+		className = "LittleRenownPage",
+		uiName = "LittleRenownPage"
 	}
 }
 slot2 = {
