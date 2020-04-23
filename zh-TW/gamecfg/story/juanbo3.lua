@@ -184,7 +184,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "见到{namecode:70}和{namecode:72}的卷波突然就来了精神。",
+			say = "见到{namecode:70}和{namecode:72}的{namecode:162}突然就来了精神。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

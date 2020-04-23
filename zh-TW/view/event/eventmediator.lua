@@ -5,6 +5,8 @@ function slot0.register(slot0)
 	slot0:bind(EventConst.EVEN_USE_PREV_FORMATION, function (slot0, slot1, slot2)
 		slot3 = getProxy(EventProxy)
 		slot6 = {}
+		slot7 = false
+		slot8 = false
 
 		slot0:sendNotification(GAME.SET_SHIP_FLAG, {
 			shipsById = getProxy(BayProxy).getData(slot4),
@@ -14,18 +16,26 @@ function slot0.register(slot0)
 					slot7, slot8 = Ship.ShipStateConflict("inEvent", slot6)
 
 					if slot7 == Ship.STATE_CHANGE_FAIL then
-						pg.TipsMgr.GetInstance():ShowTips(i18n("collect_tip"))
+						slot1 = true
 					elseif slot7 == Ship.STATE_CHANGE_CHECK then
-						pg.TipsMgr.GetInstance():ShowTips(i18n("collect_tip2"))
+						slot2 = true
 					else
-						table.insert(slot1, slot5)
+						table.insert(slot3, slot5)
 					end
 				end
 
-				slot2.selectedEvent = slot3
-				slot2.selectedEvent.shipIds = slot2.selectedEvent
+				if slot1 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("collect_tip"))
+				end
 
-				slot4:updateEventList(true)
+				if slot2 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("collect_tip2"))
+				end
+
+				slot4.selectedEvent = slot5
+				slot4.selectedEvent.shipIds = slot3
+
+				slot6:updateEventList(true)
 
 				slot4.selectedEvent = nil
 			end

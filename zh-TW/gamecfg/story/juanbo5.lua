@@ -355,7 +355,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "看着{namecode:162}的笑容，渐渐地了迷……感觉自己能理解{namecode:162}说的“{namecode:70}姐姐和{namecode:72}姐姐”的状况了。",
+			say = "看着{namecode:162}的笑容，渐渐地入了迷……感觉自己能理解{namecode:162}说的“{namecode:70}姐姐和{namecode:72}姐姐”的状况了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

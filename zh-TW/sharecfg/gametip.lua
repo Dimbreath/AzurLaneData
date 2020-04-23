@@ -1792,7 +1792,7 @@ pg.gametip = {
 		key = "lesson_startToLearn_error"
 	},
 	tactics_lesson_cancel = {
-		tip = "取消訓練將返還部分經驗並<color=#A9F548>消耗課本</color>，是否確認？",
+		tip = "取消訓練將返還部分經驗並<color=#A9F548>消耗教材</color>，是否確認？",
 		key = "tactics_lesson_cancel"
 	},
 	tactics_lesson_system_introduce = {
@@ -1849,7 +1849,7 @@ pg.gametip = {
 		key = "tactics_skill_level_up"
 	},
 	tactics_no_lesson = {
-		tip = "沒有可以使用的課本",
+		tip = "沒有可以使用的教材",
 		key = "tactics_no_lesson"
 	},
 	tactics_lesson_full = {
@@ -11135,7 +11135,7 @@ TIPS：
 		key = "target_chapter_is_lock"
 	},
 	ship_book = {
-		tip = "<color=#92fc63>課本</color>",
+		tip = "<color=#92fc63>教材</color>",
 		key = "ship_book"
 	},
 	month_sign_resign = {

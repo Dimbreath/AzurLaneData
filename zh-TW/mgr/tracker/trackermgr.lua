@@ -60,9 +60,7 @@ end
 
 function pg.TrackerMgr.Call(slot0, slot1, ...)
 	if slot0.instance and slot0.instance[slot1] then
-		slot0.instance[slot1](slot0.instance, unpack({
-			...
-		}))
+		slot0.instance[slot1](slot0.instance, ...)
 	end
 end
 
