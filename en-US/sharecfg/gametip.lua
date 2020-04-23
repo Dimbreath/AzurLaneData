@@ -12354,11 +12354,11 @@ By tapping the “Quick Retire” button to the bottom left of the Retire interf
 		key = "month_sign_resign"
 	},
 	collect_tip = {
-		tip = "One of the selected ships is currently in a sortie fleet. Unable to form commission fleet. ",
+		tip = "Some selected ships are busy. Unable to form commsion fleet. ",
 		key = "collect_tip"
 	},
 	collect_tip2 = {
-		tip = "One of the selected ships is currently sortieing. Unable to form commission fleet. ",
+		tip = "Some selected ships are busy. Unable to form commsion fleet. ",
 		key = "collect_tip2"
 	}
 }
