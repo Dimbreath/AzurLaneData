@@ -272,6 +272,155 @@ pg.activity_template = {
 			}
 		}
 	},
+	[333] = {
+		mark = 20190627,
+		title_res_tag = "javelin_comic",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 2,
+		id = 333,
+		config_data = {
+			{
+				14757,
+				14758
+			},
+			{
+				14759,
+				14760
+			},
+			{
+				14761,
+				14762
+			},
+			{
+				14763,
+				14764
+			},
+			{
+				14765,
+				14766
+			},
+			{
+				14767,
+				14768
+			},
+			{
+				14769,
+				14770
+			},
+			{
+				14771,
+				14772
+			},
+			{
+				14773,
+				14774
+			}
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					5,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		bg = {
+			"clutter/activity_bg_javelin_comic"
+		},
+		config_client = {
+			story = {
+				{
+					"BIAOQIANGMANHUA1"
+				},
+				{},
+				{
+					"BIAOQIANGMANHUA2"
+				},
+				{},
+				{
+					"BIAOQIANGMANHUA3"
+				},
+				{},
+				{
+					"BIAOQIANGMANHUA4"
+				},
+				{},
+				{
+					"BIAOQIANGMANHUA5"
+				}
+			}
+		}
+	},
+	[334] = {
+		mark = 20190627,
+		title_res_tag = "",
+		type = 21,
+		login_pop = 0,
+		config_id = 91334,
+		is_show = 0,
+		config_client = "",
+		bg = "",
+		id = 334,
+		config_data = {
+			59831,
+			59832,
+			59833,
+			59834,
+			59835,
+			59836,
+			59837,
+			59838,
+			59839
+		},
+		time = {
+			timer,
+			{
+				{
+					2020,
+					4,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2020,
+					5,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[355] = {
 		mark = 20190807,
 		title_res_tag = "xixuegui",
@@ -4381,6 +4530,7 @@ pg.activity_template = {
 	[40101] = {
 		mark = 20200409,
 		title_res_tag = "twhongran",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -4395,33 +4545,6 @@ pg.activity_template = {
 			5100012,
 			5100013
 		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/sakura"
 		}
@@ -4429,6 +4552,7 @@ pg.activity_template = {
 	[40102] = {
 		mark = 20200409,
 		title_res_tag = "",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -4444,38 +4568,12 @@ pg.activity_template = {
 			5100015,
 			5100016,
 			5100020
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[40103] = {
 		mark = 20200409,
 		title_res_tag = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -4499,33 +4597,6 @@ pg.activity_template = {
 			10413,
 			10414,
 			10415
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[40104] = {
@@ -4592,6 +4663,7 @@ pg.activity_template = {
 	[40105] = {
 		mark = 20200409,
 		title_res_tag = "",
+		time = "stop",
 		type = 16,
 		login_pop = 0,
 		config_id = 103,
@@ -4599,38 +4671,12 @@ pg.activity_template = {
 		config_data = "100",
 		config_client = "",
 		bg = "",
-		id = 40105,
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 40105
 	},
 	[40106] = {
 		mark = 20200409,
 		title_res_tag = "",
+		time = "stop",
 		type = 36,
 		login_pop = 0,
 		config_id = 0,
@@ -4645,33 +4691,6 @@ pg.activity_template = {
 			0.36,
 			0.6,
 			10
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[40107] = {
@@ -4718,6 +4737,7 @@ pg.activity_template = {
 	[40108] = {
 		mark = 20200409,
 		title_res_tag = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -4725,34 +4745,7 @@ pg.activity_template = {
 		config_client = "",
 		bg = "",
 		id = 40108,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[45000] = {
 		mark = 20191004,
@@ -4781,6 +4774,8 @@ pg.activity_template = {
 		9,
 		21,
 		164,
+		333,
+		334,
 		355,
 		358,
 		419,

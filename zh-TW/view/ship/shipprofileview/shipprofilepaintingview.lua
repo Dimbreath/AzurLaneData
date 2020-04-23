@@ -1,6 +1,6 @@
 slot0 = class("ShipProfilePaintingView")
 
-function slot0.Ctor(slot0, slot1, slot2)
+function slot0.Ctor(slot0, slot1, slot2, slot3)
 	pg.DelegateInfo.New(slot0)
 
 	slot0.prefab = slot1
@@ -15,6 +15,8 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.dragTrigger = GetOrAddComponent(slot0.bg, "EventTriggerListener")
 
 	slot0:SetHideObject()
+
+	slot0.isBanRotate = slot3
 end
 
 function slot0.SetHideObject(slot0)
@@ -53,7 +55,9 @@ function slot0.EnableObjects(slot0, slot1)
 end
 
 function slot0.TweenObjects(slot0)
-	openPortrait(slot0.prefab)
+	if not slot0.isBanRotate then
+		openPortrait(slot0.prefab)
+	end
 
 	slot1 = true
 	slot0.exitFlag = false
@@ -123,7 +127,11 @@ function slot0.Finish(slot0, slot1)
 	_.each(slot0.hideObjList, function (slot0)
 		setActive(slot0, true)
 	end)
-	closePortrait(slot0.prefab)
+
+	if not slot0.isBanRotate then
+		closePortrait(slot0.prefab)
+	end
+
 	slot0:EnableObjects(true)
 
 	slot0.painting.localScale = Vector3(1, 1, 1)

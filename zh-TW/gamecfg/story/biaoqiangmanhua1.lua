@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"月刊漫画Javelin\n\n<size=45>一　标枪，早安！</size>",
+					"月刊漫畫Javelin\n\n<size=45>一　標槍，早安！</size>",
 					1
 				}
 			}
@@ -43,13 +43,13 @@ return {
 					0
 				},
 				{
-					"<size=60>「本作品中的登场角色纯属虚构，与现实的人物、组织没有任何关系…」</size>",
+					"<size=60>「本作品中的登場角色純屬虛構，與現實的人物、組織沒有任何關係…」</size>",
 					0
 				}
 			}
 		},
 		{
-			actorName = "标枪",
+			actorName = "標槍",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
@@ -65,12 +65,12 @@ return {
 			}
 		},
 		{
-			actorName = "朱诺",
+			actorName = "朱諾",
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "标枪…标枪！",
+			say = "標槍…標槍！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgm = "story-1",
 			actor = 201210,
 			nameColor = "#a9f548",
-			say = "…………朱诺…？",
+			say = "…………朱諾…？",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -119,7 +119,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "快起床了！已经到了要去学校的时间了哦…？",
+			say = "快起床了！已經到了要去學校的時間了哦…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			dir = 1,
 			actor = 201210,
 			nameColor = "#a9f548",
-			say = "学校……啊哇哇哇！要迟到了！",
+			say = "學校……啊哇哇哇！要遲到了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			dir = 1,
 			actor = 201210,
 			nameColor = "#a9f548",
-			say = "（我的名字叫标枪，是一名在港区就任的再普通不过的J级驱逐舰！）",
+			say = "（我的名字叫標槍，是一名在港區就任的再普通不過的J級驅逐艦！）",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（将来的梦想是和指挥官……啊，暂时保密！）",
+			say = "（將來的夢想是和指揮官……啊，暫時保密！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好！标枪今天也要全力以……呀啊！？",
+			say = "好！標槍今天也要全力以……呀啊！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_story_school",
 			actor = 900183,
 			nameColor = "#a9f548",
-			say = "「我正在寻找像你这样的女孩子喵」",
+			say = "「我正在尋找像你這樣的女孩子喵」",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -258,7 +258,7 @@ return {
 			dir = 1,
 			actor = 201210,
 			nameColor = "#a9f548",
-			say = "喵喵…说话了！？",
+			say = "喵喵…說話了！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			actor = 900183,
 			actorName = "？？？",
-			say = "「这是预言喵，标枪，你将会——」",
+			say = "「這是預言喵，標槍，你將會——」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			actor = 900183,
 			actorName = "？？？",
-			say = "「在今天遇到命运之人！喵」",
+			say = "「在今天遇到命運之人！喵」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（指挥喵应该是不会说话的吧？）",
+			say = "（指揮喵應該是不會說話的吧？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，大概是{namecode:98}又做了什么奇怪的东西吧~",
+			say = "啊，大概是{namecode:98}又做了什麼奇怪的東西吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇哇，已经这么晚了！要跑步去教室了！",
+			say = "哇哇，已經這麼晚了！要跑步去教室了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			actor = 201210,
 			nameColor = "#a9f548",
-			say = "啊啊啊不行不行！下午还要给指挥官提交报告，不好好整理发型一下可不行——！",
+			say = "啊啊啊不行不行！下午還要給指揮官提交報告，不好好整理髮型一下可不行——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
-			say = "「标枪的故事，仍在继续——」",
+			say = "「標槍的故事，仍在繼續——」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

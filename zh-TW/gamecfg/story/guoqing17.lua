@@ -12,7 +12,7 @@ return {
 			actorName = "{namecode:91}",
 			side = 0,
 			nameColor = "#ff0000",
-			say = "所有的日誌都已經提交給神明了，接下來，就等著神恩降臨吧",
+			say = "所有的日誌都已經交給神明了，接下來，就能獲得更多的力量了吧，呵呵呵~",
 			shake = {
 				speed = 1,
 				number = 3
@@ -31,7 +31,7 @@ return {
 			actorName = "{namecode:92}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "但是，似乎那個煩人的蟲子又朝著我們而來了",
+			say = "但是，五航戰的那孩子還在後面緊追不捨。",
 			shake = {
 				speed = 1,
 				number = 3
@@ -50,7 +50,7 @@ return {
 			actorName = "{namecode:91}",
 			side = 0,
 			nameColor = "#ff0000",
-			say = "反正“那位大人”給予我們的任務已經完成，我們不妨來和她好好的玩上一局～",
+			say = "反正神明給予我們的任務已經完成，我們不妨來和她好好玩上一局吧~",
 			shake = {
 				speed = 1,
 				number = 3

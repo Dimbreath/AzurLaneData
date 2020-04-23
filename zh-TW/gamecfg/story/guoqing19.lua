@@ -13,7 +13,7 @@ return {
 			side = 2,
 			dir = -1,
 			nameColor = "#ff0000",
-			say = "啊啊…神明大人，您看到了嗎…那靈魂碰撞激發出的熠熠光輝…這就是您所期望的「覺醒」嗎？",
+			say = "啊啊…神明大人，您看到了嗎…靈魂間碰撞激發出的熠熠光輝…這也是您所期望的「覺醒」嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 1,
 			dir = -1,
 			nameColor = "#ff0000",
-			say = "是嗎…真遺憾～既然如此，那就準備吧…嘻嘻…前往…新的“聖域”——",
+			say = "是嗎…真遺憾～既然如此，那就準備吧…呵呵…前往…下一處的“聖域”——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,23 @@ return {
 			side = 2,
 			dir = 1,
 			nameColor = "#ff0000",
-			say = "同伴啊，世間萬物一切自有其因果，在無垠的輪回中，我們一直在尋找著另一種可能性",
+			say = "同胞啊，世間萬物一切自有其因果。但是命運果真就是如此既定的麼？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307020,
+			actorName = "{namecode:92}",
+			side = 2,
+			dir = 1,
+			nameColor = "#ff0000",
+			say = "在這無限輪迴的“聖域”中，我們一直在尋找著命運的另一種可能性",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +208,7 @@ return {
 			}
 		},
 		{
-			actorName = "測試者?型",
+			actorName = "測試者",
 			side = 2,
 			blackBg = true,
 			actor = 900011,
@@ -226,25 +242,9 @@ return {
 			actor = 900012,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "觀察者?型",
+			actorName = "觀察者",
 			blackBg = true,
-			say = "嗯？我看看，試驗場γ…啊，原來是“小動物”們那裡嗎，這是……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 900011,
-			nameColor = "#ff0000",
-			side = 2,
-			actorName = "測試者?型",
-			blackBg = true,
-			say = "嗯，“為了擺脫控制和拯救族人所爆發出的能力”…嗎？，算是超出預期的表現",
+			say = "嗯？我看看，試驗場γ…啊，原來是“小動物”們的記錄實驗嗎，這是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,9 +258,9 @@ return {
 			actor = 900012,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "觀察者?型",
+			actorName = "觀察者",
 			blackBg = true,
-			say = "有意思，一群想要掙脫出命運之網而卻不斷作繭自縛的傢伙，以為自己掌控一切，卻又不知從開始的一切就只是假設…",
+			say = "雕刻出的棋子出現了情感反應...？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,9 +274,9 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "測試者?型",
+			actorName = "測試者",
 			blackBg = true,
-			say = "不過，從測試資料來看，她們倒是意外的受到“造物主”大人的青睞呢呵呵呵",
+			say = "為了擺脫控制和拯救族人所爆發出的能力…麼？，算是超出預期的表現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,9 +290,25 @@ return {
 			actor = 900012,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "觀察者?型",
+			actorName = "觀察者",
 			blackBg = true,
-			say = "哼…那不過是“造物主”大人的惡趣味罷了…",
+			say = "想要掙脫出命運之網卻不斷作繭自縛的傢伙。以為自己能掌控一切，卻不知道一切從最初開始就只是假設…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900012,
+			nameColor = "#ff0000",
+			side = 2,
+			actorName = "觀察者",
+			blackBg = true,
+			say = "不過，這種現象真的是“造物主”大人所追尋的心智覺醒嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,9 +322,25 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "測試者?型",
+			actorName = "測試者",
 			blackBg = true,
-			say = "目前看來…還需要更多的歷練，至少……不能讓他們現在就相遇……",
+			say = "不知道。所謂的覺醒現象可能只是錯誤的時間錯誤的調用錯誤的數據而產生的假象。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900011,
+			nameColor = "#ff0000",
+			side = 2,
+			actorName = "測試者",
+			blackBg = true,
+			say = "備受“造物主”大人青睞的她們身上，還有太多的未知等待著我們的研究。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,9 +354,41 @@ return {
 			actor = 900012,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "觀察者?型",
+			actorName = "觀察者",
 			blackBg = true,
-			say = "那麼，所有【棋子】歸位，重置測試資料，提高5個百分點的指數……放出“鑰匙”……開始下一輪測試——",
+			say = "“心智魔方”......“造物主”大人究竟想從中尋找怎樣的可能性呢。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900011,
+			nameColor = "#ff0000",
+			side = 2,
+			actorName = "測試者",
+			blackBg = true,
+			say = "目前看來，還需要更多的實驗和測試。在得到進一步結論之前，變量需要被嚴格控制。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900012,
+			nameColor = "#ff0000",
+			side = 2,
+			actorName = "觀察者",
+			blackBg = true,
+			say = "呵呵呵，也是呢。所有【棋子】歸位，重置測試數據，提高5個百分點的指數……放出“鑰匙”……開始下一輪測試——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

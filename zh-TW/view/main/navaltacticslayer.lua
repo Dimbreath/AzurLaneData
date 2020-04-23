@@ -485,11 +485,28 @@ function slot0.goDockYard(slot0, slot1, slot2)
 	if table.getCount(slot0.itemVOs or {}) <= 0 then
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 11-21, warpins: 1 ---
-		pg.TipsMgr.GetInstance():ShowTips(i18n("tactics_no_lesson"))
+		--- BLOCK #0 11-25, warpins: 1 ---
+		if not ItemTipPanel.ShowItemTipbyID(16001, i18n("item_lack_title", i18n("ship_book"), i18n("ship_book"))) then
 
-		return
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 26-35, warpins: 1 ---
+			pg.TipsMgr.GetInstance():ShowTips(i18n("tactics_no_lesson"))
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+
 		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 36-36, warpins: 2 ---
+		return
+		--- END OF BLOCK #1 ---
 
 
 
@@ -502,7 +519,7 @@ function slot0.goDockYard(slot0, slot1, slot2)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #1 22-26, warpins: 2 ---
+	--- BLOCK #1 37-41, warpins: 2 ---
 	slot3 = {}
 
 	--- END OF BLOCK #1 ---
@@ -512,15 +529,15 @@ function slot0.goDockYard(slot0, slot1, slot2)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #2 27-36, warpins: 0 ---
+	--- BLOCK #2 42-51, warpins: 0 ---
 	for slot7, slot8 in pairs(slot0.studentVOs) do
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 27-33, warpins: 1 ---
+		--- BLOCK #0 42-48, warpins: 1 ---
 		if slot8:getState() == Student.WAIT then
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 34-34, warpins: 1 ---
+			--- BLOCK #0 49-49, warpins: 1 ---
 			slot3[slot7] = slot8
 			--- END OF BLOCK #0 ---
 
@@ -534,7 +551,7 @@ function slot0.goDockYard(slot0, slot1, slot2)
 
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #1 35-36, warpins: 3 ---
+		--- BLOCK #1 50-51, warpins: 3 ---
 		--- END OF BLOCK #1 ---
 
 
@@ -548,7 +565,7 @@ function slot0.goDockYard(slot0, slot1, slot2)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #3 37-45, warpins: 1 ---
+	--- BLOCK #3 52-60, warpins: 1 ---
 	slot0:emit(NavalTacticsMediator.OPEN_DOCKYARD, slot2, slot3, slot1)
 
 	return

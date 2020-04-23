@@ -69,6 +69,7 @@ class("PrepControllerCommand", pm.SimpleCommand).execute = function (slot0, slot
 	slot0.facade:registerCommand(GAME.SUB_CHAPTER_FETCH, FetchSubChapterCommand)
 	slot0.facade:registerCommand(GAME.SUB_CHAPTER_REFRESH, RefreshSubChapterCommand)
 	slot0.facade:registerCommand(GAME.UPDATE_CUSTOM_FLEET, UpdateCustomFleetCommand)
+	slot0.facade:registerCommand(GAME.GET_CHAPTER_DROP_SHIP_LIST, GetChapterDropShipListCommand)
 	slot0.facade:registerCommand(GAME.CHALLENGE2_INITIAL, Challenge2InitialRequestCommand)
 	slot0.facade:registerCommand(GAME.CHALLENGE2_RESET, Challenge2ResetRequestCommand)
 	slot0.facade:registerCommand(GAME.CHALLENGE2_INFO, Challenge2InfoRequestCommand)

@@ -53,16 +53,23 @@ function slot1(slot0, slot1)
 		slot18 = slot17.oil
 
 		if slot18 < slot10 then
-			slot18 = pg
-			slot18 = slot18.TipsMgr
-			slot18 = slot18.GetInstance
-			slot18 = slot18()
-			slot19 = slot18
-			slot18 = slot18.ShowTips
-			slot20 = i18n
-			slot21 = "stage_beginStage_error_noResource"
+			slot18 = ItemTipPanel
+			slot18 = slot18.ShowOilBuyTip
+			slot19 = slot10
+			slot18 = slot18(slot19)
 
-			slot18(slot19, slot20(slot21))
+			if not slot18 then
+				slot18 = pg
+				slot18 = slot18.TipsMgr
+				slot18 = slot18.GetInstance
+				slot18 = slot18()
+				slot19 = slot18
+				slot18 = slot18.ShowTips
+				slot20 = i18n
+				slot21 = "stage_beginStage_error_noResource"
+
+				slot18(slot19, slot20(slot21))
+			end
 
 			return
 		end

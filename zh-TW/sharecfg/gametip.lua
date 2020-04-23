@@ -4282,6 +4282,18 @@ pg.gametip = {
 					atlas = "helpbg/energy"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/maxlevel"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/levelup"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
 			defaultpage = 1,
@@ -4330,6 +4342,18 @@ pg.gametip = {
 				icon = {
 					path = "",
 					atlas = "helpbg/strength"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/maxlevel"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/levelup"
 				}
 			},
 			disableScroll = true,
@@ -4382,6 +4406,18 @@ pg.gametip = {
 					atlas = "helpbg/energy"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/maxlevel"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/levelup"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
 			defaultpage = 1,
@@ -4432,9 +4468,83 @@ pg.gametip = {
 					atlas = "helpbg/energy"
 				}
 			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/maxlevel"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/levelup"
+				}
+			},
 			disableScroll = true,
 			pageMode = true,
 			defaultpage = 1,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	},
+	help_shipinfo_maxlevel = {
+		key = "help_shipinfo_maxlevel",
+		tip = {
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/strength"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/break"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/equip"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/bullet"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/energy"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/maxlevel"
+				}
+			},
+			{
+				icon = {
+					path = "",
+					atlas = "helpbg/levelup"
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			defaultpage = 6,
 			ImageMode = true,
 			windowSize = {
 				x = 1263,
@@ -4710,13 +4820,19 @@ NPC角色正式加入時，保留強化、突破狀態及技能等級；
 		tip = {
 			{
 				info = [[
-商船護送開啟時間為：每週一、週四、週日
+※商船護送開啟時間為：每週一、週四、週日
 
-海域突進開啟時間為：每週二、週五、週日
+※海域突進開啟時間為：每週二、週五、週日
 
-斬首行動開啟時間為：每週三、週六、週日
+※斬首行動開啟時間為：每週三、週六、週日
 
-]]
+※ 戰術研修開啟時間為：每日開放
+◆ <color=#92fc63>航空</color> 敵方旗艦擁有極高的耐久，使用<color=#92fc63>航空兵器</color>能造成
+巨量傷害
+◆ <color=#92fc63>炮擊</color> 敵方旗艦擁有極高的耐久，使用<color=#92fc63>炮擊兵器</color>能造成
+巨量傷害
+◆ <color=#92fc63>雷擊</color> 敵方旗艦擁有極高的耐久，使用<color=#92fc63>魚雷兵器</color>能造成
+巨量傷害]]
 			}
 		}
 	},
@@ -7948,7 +8064,7 @@ $3]],
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
-		tip = "聖路易斯、吸血鬼、班森建造追加！",
+		tip = "蒙彼利埃、丹佛建造追加！",
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
@@ -10997,6 +11113,42 @@ TIPS：
 	shop_word_cancel = {
 		tip = "取 消",
 		key = "shop_word_cancel"
+	},
+	title_item_ways = {
+		tip = "指揮官可通過以下途徑獲取<color=#92fc63>$1</color>",
+		key = "title_item_ways"
+	},
+	item_lack_title = {
+		tip = "<color=#92fc63>$1</color>不足， 可通過以下方式獲取<color=#92fc63>$1</color>",
+		key = "item_lack_title"
+	},
+	oil_buy_tip_2 = {
+		tip = [[
+石油不足，是否<size=30>花費</size><icon name=diamond w=0.7 h=0.7/><size=30><color=#92fc63>$1</color></size> 購買<size=30><color=#92fc63>$2</color></size><size=30> 石油</size><size=28>
+當前還需要<size=28><color=#ff5c5c>$4 </color></size>石油
+
+</size><size=28><color=#a2a2a2>( 今日已經購買<size=28><color=#ff5c5c>$3</color></size> 次)</color></size>]],
+		key = "oil_buy_tip_2"
+	},
+	target_chapter_is_lock = {
+		tip = "目標章節當前未解鎖",
+		key = "target_chapter_is_lock"
+	},
+	ship_book = {
+		tip = "<color=#92fc63>課本</color>",
+		key = "ship_book"
+	},
+	month_sign_resign = {
+		tip = "由於4月4日全港區停服，為指揮官補發一日簽到獎勵",
+		key = "month_sign_resign"
+	},
+	collect_tip = {
+		tip = "队伍中有角色正在出征，无法加入委托阵容",
+		key = "collect_tip"
+	},
+	collect_tip2 = {
+		tip = "隊伍中有角色正處於編隊，無法加入委託陣容",
+		key = "collect_tip2"
 	}
 }
 

@@ -56,7 +56,7 @@ return {
 			dir = -1,
 			actor = 307010,
 			nameColor = "#ff0000",
-			say = "只要繼續獻上更多優質的靈魂就…",
+			say = "只要繼續獻上更多優質的靈魂...“那位大人”就......",
 			shake = {
 				speed = 1,
 				number = 3
@@ -75,7 +75,26 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "這樣輕信歪門邪道出賣自己同伴所獲得的力量，是無法戰勝她，戰勝那個幽靈的",
+			say = "那些東西...才不是什麼神明呢！",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307060,
+			actorName = "{namecode:96}",
+			side = 0,
+			nameColor = "#a9f548",
+			say = "这样轻信歪门邪道出卖自己同胞所获得的力量，是无法战胜她，战胜那个幽灵的",
 			shake = {
 				speed = 1,
 				number = 3

@@ -1978,6 +1978,166 @@ pg.technology_data_template = {
 			}
 		}
 	},
+	[91] = {
+		id = 91,
+		rarity = 1,
+		time = 3600,
+		type = 1,
+		name = "H-387-MI",
+		lv_limit = 30,
+		desc = "雖然至今仍未有成功的記錄。但是對於心智魔方的構造研究，最簡單並且粗暴的方法，就是將心智魔方分解解析。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 1,
+		sub_name = "小型项目",
+		label = "tag_red",
+		bg_icon = "gold_1",
+		label_color = "tag_h",
+		consume = {
+			{
+				2,
+				20001,
+				3
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52001,
+				1
+			},
+			{
+				2,
+				54049,
+				1
+			},
+			{
+				2,
+				15008,
+				1
+			}
+		}
+	},
+	[92] = {
+		id = 92,
+		rarity = 1,
+		time = 3600,
+		type = 1,
+		name = "H-387-MI",
+		lv_limit = 30,
+		desc = "雖然至今仍未有成功的記錄。但是對於心智魔方的構造研究，最簡單並且粗暴的方法，就是將心智魔方分解解析。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 1,
+		sub_name = "小型项目",
+		label = "tag_red",
+		bg_icon = "gold_1",
+		label_color = "tag_h",
+		consume = {
+			{
+				2,
+				20001,
+				3
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52001,
+				1
+			},
+			{
+				2,
+				54049,
+				1
+			},
+			{
+				2,
+				15008,
+				1
+			}
+		}
+	},
+	[93] = {
+		id = 93,
+		rarity = 2,
+		time = 7200,
+		type = 1,
+		name = "H-339-MI",
+		lv_limit = 30,
+		desc = "雖然至今仍未有成功的記錄。但是對於心智魔方的構造研究，最簡單並且粗暴的方法，就是將心智魔方分解解析。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 1,
+		sub_name = "小型项目",
+		label = "tag_red",
+		bg_icon = "gold_2",
+		label_color = "tag_h",
+		consume = {
+			{
+				2,
+				20001,
+				6
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52001,
+				1
+			},
+			{
+				2,
+				54050,
+				1
+			},
+			{
+				2,
+				15008,
+				1
+			}
+		}
+	},
+	[94] = {
+		id = 94,
+		rarity = 2,
+		time = 7200,
+		type = 1,
+		name = "H-339-MI",
+		lv_limit = 30,
+		desc = "雖然至今仍未有成功的記錄。但是對於心智魔方的構造研究，最簡單並且粗暴的方法，就是將心智魔方分解解析。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 1,
+		sub_name = "小型项目",
+		label = "tag_red",
+		bg_icon = "gold_2",
+		label_color = "tag_h",
+		consume = {
+			{
+				2,
+				20001,
+				6
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52001,
+				1
+			},
+			{
+				2,
+				54050,
+				1
+			},
+			{
+				2,
+				15008,
+				1
+			}
+		}
+	},
 	[1001] = {
 		id = 1001,
 		rarity = 3,
@@ -2052,6 +2212,40 @@ pg.technology_data_template = {
 			{
 				2,
 				59001,
+				1
+			}
+		}
+	},
+	[1003] = {
+		id = 1003,
+		rarity = 3,
+		time = 14400,
+		type = 2,
+		name = "B-351-RF",
+		lv_limit = 75,
+		desc = "工程師們在對心智魔方的研究過程中，提出了大量天馬行空般的設想。該科研項目致力於透過實戰的手段，收集各種實驗數據以驗證實驗設想。",
+		condition = 52009,
+		bg = "3",
+		blueprint_version = 1,
+		sub_name = "中型项目",
+		label = "tag_red",
+		bg_icon = "battle_3",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52001,
+				1
+			},
+			{
+				2,
+				52002,
+				1
+			},
+			{
+				2,
+				52003,
 				1
 			}
 		}
@@ -2322,6 +2516,86 @@ pg.technology_data_template = {
 			{
 				2,
 				52003,
+				1
+			}
+		}
+	},
+	[1011] = {
+		id = 1011,
+		rarity = 3,
+		time = 14400,
+		type = 2,
+		name = "H-207-RF",
+		lv_limit = 30,
+		desc = "雖然至今仍未有成功的記錄。但是對於心智魔方的構造研究，最簡單並且粗暴的方法，就是將心智魔方分解解析。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 1,
+		sub_name = "中型项目",
+		label = "tag_red",
+		bg_icon = "gold_3",
+		label_color = "tag_h",
+		consume = {
+			{
+				2,
+				20001,
+				10
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52001,
+				1
+			},
+			{
+				2,
+				54051,
+				1
+			},
+			{
+				2,
+				15008,
+				1
+			}
+		}
+	},
+	[1012] = {
+		id = 1012,
+		rarity = 3,
+		time = 14400,
+		type = 2,
+		name = "H-207-RF",
+		lv_limit = 30,
+		desc = "雖然至今仍未有成功的記錄。但是對於心智魔方的構造研究，最簡單並且粗暴的方法，就是將心智魔方分解解析。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 1,
+		sub_name = "中型项目",
+		label = "tag_red",
+		bg_icon = "gold_3",
+		label_color = "tag_h",
+		consume = {
+			{
+				2,
+				20001,
+				10
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52001,
+				1
+			},
+			{
+				2,
+				54051,
+				1
+			},
+			{
+				2,
+				15008,
 				1
 			}
 		}
@@ -2796,6 +3070,96 @@ pg.technology_data_template = {
 			}
 		}
 	},
+	[1024] = {
+		id = 1024,
+		rarity = 3,
+		time = 1800,
+		type = 2,
+		name = "H-085-UL",
+		lv_limit = 30,
+		desc = "被軍部實驗室列為最高機密的項目，其結果對人類，乃至整個生態圈，都能產生巨大的影響。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 1,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "gold_3",
+		label_color = "tag_sh",
+		consume = {
+			{
+				1,
+				1,
+				8000
+			},
+			{
+				2,
+				20001,
+				3
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52001,
+				1
+			},
+			{
+				2,
+				54051,
+				1
+			},
+			{
+				2,
+				15008,
+				1
+			}
+		}
+	},
+	[1025] = {
+		id = 1025,
+		rarity = 3,
+		time = 1800,
+		type = 2,
+		name = "H-085-UL",
+		lv_limit = 30,
+		desc = "被军部实验室列为最高机密的项目，其结果对人类，乃至整个生态圈，都能产生巨大的影响。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 1,
+		sub_name = "小型项目",
+		label = "tag_blue",
+		bg_icon = "gold_3",
+		label_color = "tag_sh",
+		consume = {
+			{
+				1,
+				1,
+				8000
+			},
+			{
+				2,
+				20001,
+				3
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52001,
+				1
+			},
+			{
+				2,
+				54051,
+				1
+			},
+			{
+				2,
+				15008,
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2847,14 +3211,21 @@ pg.technology_data_template = {
 		83,
 		84,
 		85,
+		91,
+		92,
+		93,
+		94,
 		1001,
 		1002,
+		1003,
 		1005,
 		1006,
 		1007,
 		1008,
 		1009,
 		1010,
+		1011,
+		1012,
 		1013,
 		1014,
 		1015,
@@ -2865,7 +3236,9 @@ pg.technology_data_template = {
 		1020,
 		1021,
 		1022,
-		1023
+		1023,
+		1024,
+		1025
 	}
 }
 

@@ -69,6 +69,10 @@ function slot0.isTransPort(slot0)
 	return slot0:getConfig("type") == Furniture.TYPE_TRANSPORT
 end
 
+function slot0.IsRandomController(slot0)
+	return slot0:getConfig("type") == Furniture.TYPE_RANDOM_CONTROLLER
+end
+
 function slot0.getTransportPoint(slot0)
 	if slot0:isTransPort() then
 		slot1 = slot0:getConfig("spine")[3][1]
@@ -94,6 +98,10 @@ end
 function slot0.getSpineMaxCnt(slot0)
 	if slot0:isTransPort() then
 		return 2
+	end
+
+	if slot0:IsRandomController() then
+		return #slot0:getConfig("animator")[1]
 	end
 
 	slot1 = 0

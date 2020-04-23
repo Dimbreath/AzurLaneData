@@ -567,6 +567,19 @@ function slot6.SetHostData(slot0, slot1)
 
 end
 
+function slot6.SetStandHost(slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-2, warpins: 1 ---
+	slot0._standHost = slot1
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
+end
+
 function slot6.OverrideGCD(slot0, slot1)
 
 	-- Decompilation error in this vicinity:
@@ -3599,6 +3612,17 @@ function slot6.GetHost(slot0)
 	-- Decompilation error in this vicinity:
 	--- BLOCK #0 1-2, warpins: 1 ---
 	return slot0._host
+	--- END OF BLOCK #0 ---
+
+
+
+end
+
+function slot6.GetStandHost(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-2, warpins: 1 ---
+	return slot0._standHost
 	--- END OF BLOCK #0 ---
 
 

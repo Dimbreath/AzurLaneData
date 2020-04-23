@@ -92,4 +92,35 @@ function slot0.getTypesStr(slot0)
 	end
 end
 
+slot1 = "EVENTINFO_FORMATION_KEY_"
+
+function slot0.ExistPrevFormation(slot0)
+	return PlayerPrefs.HasKey(slot0 .. getProxy(PlayerProxy):getRawData().id)
+end
+
+function slot0.GetPrevFormation(slot0)
+	return _.map(string.split(slot2, "#"), function (slot0)
+		return tonumber(slot0)
+	end)
+end
+
+function slot0.SavePrevFormation(slot0)
+	if not slot0:CanRecordPrevFormation() then
+		return
+	end
+
+	if #_.map(slot0.ships, function (slot0)
+		return slot0.id
+	end) == 0 then
+		slot1 = slot0.shipIds
+	end
+
+	PlayerPrefs.SetString(slot0 .. slot3, table.concat(slot1, "#"))
+	PlayerPrefs.Save()
+end
+
+function slot0.CanRecordPrevFormation(slot0)
+	return slot0.template.oil >= 800
+end
+
 return slot0

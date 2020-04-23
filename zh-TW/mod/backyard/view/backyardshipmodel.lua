@@ -2337,16 +2337,192 @@ function slot5(slot0, slot1)
 	end
 
 	slot9 = slot1
-	slot8 = slot1.hasTailAction
+	slot8 = slot1.IsRandomController
 	slot8 = slot8(slot9)
 
 	if slot8 then
-		slot8 = slot0.viewComponent
-		slot9 = true
-		slot8.blockEvent = slot9
+		slot9 = slot0
+		slot8 = slot0.PlayRandomControllerAction
+		slot10 = slot1
+
+		slot8(slot9, slot10)
+	else
+		slot9 = slot0
+		slot8 = slot0.PlaySpineAction
+		slot10 = slot1
+
+		slot8(slot9, slot10)
+	end
+end
+
+slot0.updateSpineInterAction = slot5
+
+function slot5(slot0, slot1)
+	slot3 = slot1
+	slot2 = slot1.getSpineAnims
+	slot2 = slot2(slot3)
+	slot3 = math
+	slot3 = slot3.random
+	slot4 = 1
+	slot5 = #slot2
+	slot3 = slot3(slot4, slot5)
+	slot4 = slot2[slot3]
+	slot5 = slot4[1]
+	slot6 = slot4[2]
+	slot7 = slot4[3]
+
+	function slot8(slot0, slot1, slot2)
+		slot4 = slot0
+		slot3 = slot0.SetActionCallBack
+
+		function slot5(slot0)
+			if slot0 == "finish" then
+				slot1 = slot0
+
+				slot1()
+			end
+		end
+
+		slot3(slot4, slot5)
+
+		slot4 = slot0
+		slot3 = slot0.SetAction
+		slot5 = slot1
+		slot6 = 0
+
+		slot3(slot4, slot5, slot6)
 	end
 
-	function slot8()
+	slot9 = {}
+	slot10 = ipairs
+	slot11 = slot0.roles
+	slot10, slot11, slot12 = slot10(slot11)
+
+	for slot13, slot14 in slot10, slot11, slot12 do
+		if slot13 == 1 then
+			slot16 = slot14
+			slot15 = slot14.SetAction
+			slot17 = slot7
+			slot18 = 0
+
+			slot15(slot16, slot17, slot18)
+		else
+			slot15 = table
+			slot15 = slot15.insert
+			slot16 = slot9
+
+			function slot17(slot0)
+				slot1 = slot0
+				slot2 = slot1
+				slot3 = slot2
+				slot4 = slot0
+
+				slot1(slot2, slot3, slot4)
+			end
+
+			slot15(slot16, slot17)
+		end
+	end
+
+	slot10 = table
+	slot10 = slot10.indexof
+	slot12 = slot1
+	slot11 = slot1.getAnimatorData
+	slot11 = slot11(slot12)
+	slot12 = slot6
+	slot10 = slot10(slot11, slot12)
+	slot12 = slot1
+	slot11 = slot1.getAnimtorControlGoName
+	slot13 = slot10 - 1
+	slot14 = 1
+	slot11 = slot11(slot12, slot13, slot14)
+	slot12 = slot0.viewComponent
+	slot13 = slot12
+	slot12 = slot12.GetFurnitureGo
+	slot14 = slot1.id
+	slot12 = slot12(slot13, slot14)
+	slot14 = slot12
+	slot13 = slot12.Find
+	slot15 = slot11
+	slot13 = slot13(slot14, slot15)
+	slot14 = setParent
+	slot15 = slot0.tf
+	slot16 = slot13
+
+	slot14(slot15, slot16)
+
+	slot14 = setActive
+	slot15 = slot13
+	slot16 = true
+
+	slot14(slot15, slot16)
+
+	slot14 = parallelAsync
+	slot15 = slot9
+
+	function slot16()
+		slot0 = setParent
+		slot1 = slot0
+		slot1 = slot1.tf
+		slot2 = slot1
+
+		slot0(slot1, slot2)
+
+		slot0 = setActive
+		slot1 = slot2
+		slot2 = false
+
+		slot0(slot1, slot2)
+
+		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.clearSpine
+
+		slot0(slot1)
+
+		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.updateShadowTF
+		slot2 = true
+
+		slot0(slot1, slot2)
+
+		slot0 = slot0
+		slot1 = slot0
+		slot0 = slot0.updateShadowPos
+
+		slot0(slot1)
+
+		slot0 = slot0
+		slot0 = slot0.viewComponent
+		slot1 = slot0
+		slot0 = slot0.emit
+		slot2 = BackyardMainMediator
+		slot2 = slot2.RESET_BOAT_POS
+		slot3 = slot0
+		slot3 = slot3.boatVO
+		slot3 = slot3.id
+
+		slot0(slot1, slot2, slot3)
+	end
+
+	slot14(slot15, slot16)
+end
+
+slot0.PlayRandomControllerAction = slot5
+
+function slot5(slot0, slot1)
+	slot3 = slot1
+	slot2 = slot1.hasTailAction
+	slot2 = slot2(slot3)
+
+	if slot2 then
+		slot2 = slot0.viewComponent
+		slot3 = true
+		slot2.blockEvent = slot3
+	end
+
+	function slot2()
 		slot0 = slot0
 		slot1 = slot0
 		slot0 = slot0.hasAnimator
@@ -2383,26 +2559,26 @@ function slot5(slot0, slot1)
 		end
 	end
 
-	slot10 = slot1
-	slot9 = slot1.getPreheatAnim
-	slot9 = slot9(slot10)
+	slot4 = slot1
+	slot3 = slot1.getPreheatAnim
+	slot3 = slot3(slot4)
 
-	if slot9 then
-		slot11 = slot0
-		slot10 = slot0.playPreHeatAnim
-		slot12 = slot1
-		slot13 = slot9
-		slot14 = slot8
+	if slot3 then
+		slot5 = slot0
+		slot4 = slot0.playPreHeatAnim
+		slot6 = slot1
+		slot7 = slot3
+		slot8 = slot2
 
-		slot10(slot11, slot12, slot13, slot14)
+		slot4(slot5, slot6, slot7, slot8)
 	else
-		slot10 = slot8
+		slot4 = slot2
 
-		slot10()
+		slot4()
 	end
 end
 
-slot0.updateSpineInterAction = slot5
+slot0.PlaySpineAction = slot5
 
 function slot5(slot0, slot1, slot2, slot3)
 	slot4 = slot0.roles
@@ -3720,11 +3896,18 @@ function slot5(slot0, slot1)
 	slot6 = 1
 	slot3 = slot3(slot4, slot5, slot6)
 	slot2.localScale = slot3
-	slot3 = slot0
-	slot2 = slot0.endSpineAnimator
-	slot4 = slot0.spineFurniture
+	slot2 = slot0.spineFurniture
+	slot3 = slot2
+	slot2 = slot2.IsRandomController
+	slot2 = slot2(slot3)
 
-	slot2(slot3, slot4)
+	if not slot2 then
+		slot3 = slot0
+		slot2 = slot0.endSpineAnimator
+		slot4 = slot0.spineFurniture
+
+		slot2(slot3, slot4)
+	end
 
 	slot2 = SetParent
 	slot3 = slot0.tf

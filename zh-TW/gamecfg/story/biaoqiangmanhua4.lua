@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"月刊漫画Javelin\n\n<size=45>四　标枪，赶赴最后之战</size>",
+					"月刊漫畫Javelin\n\n<size=45>四　標槍，趕赴最後之戰</size>",
 					1
 				}
 			}
@@ -43,7 +43,7 @@ return {
 					0
 				},
 				{
-					"<size=60>「故事终于来到了最后的战场——」</size>",
+					"<size=60>「故事終於來到了最後的戰場——」</size>",
 					0
 				}
 			}
@@ -56,7 +56,7 @@ return {
 			bgm = "story-5",
 			actor = 900183,
 			actorName = "？？？",
-			say = "「终于来了标枪——别以为能从吾之引力之中逃脱喵」",
+			say = "「終於來了標槍——別以為能從吾之引力之中逃脫喵」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			actor = 900183,
 			actorName = "？？？",
-			say = "「没错，我乃持有模拟再现经由{namecode:37}改造之心智魔方的意识倾向反映机能之力，由你的心愿具象化而生的存在——」",
+			say = "「沒錯，我乃持有模擬再現經由{namecode:37}改造之心智魔方的意識傾向反映機能之力，由你的心願具象化而生的存在——」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			actor = 900183,
 			dir = 1,
 			actorName = "？？？",
-			say = "「指挥喵J是也！喵」",
+			say = "「指揮喵J是也！喵」",
 			effects = {
 				{
 					active = true,
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			actor = 201210,
 			nameColor = "#a9f548",
-			say = "那封信也是你送来的吧！",
+			say = "那封信也是你送來的吧！",
 			effects = {
 				{
 					active = false,
@@ -150,8 +150,8 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 900183,
-			actorName = "指挥喵J",
-			say = "「正是。我乃再现你的内心的期望，将你的命运之人、你的思念和心愿全部实现的存在！喵」",
+			actorName = "指揮喵J",
+			say = "「正是。我乃再現你的內心的期望，將你的命運之人、你的思念和心願全部實現的存在！喵」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,8 +193,8 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 900183,
-			actorName = "指挥喵J",
-			say = "「哈哈哈哈哈！打败我，超越自己吧！喵！否则的话你的成长将永远止步于此！」",
+			actorName = "指揮喵J",
+			say = "「哈哈哈哈哈！打敗我，超越自己吧！喵！否則的話你的成長將永遠止步於此！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "说完，指挥喵向大伙袭来。",
+			say = "說完，指揮喵向大夥襲來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "标枪！撑住啊！马上来帮你了！",
+			say = "標槍！撐住啊！馬上來幫你了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥喵J…最强的敌人…",
+			say = "指揮喵J…最強的敵人…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,8 +324,8 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			actor = 900183,
-			actorName = "指挥喵J",
-			say = "「怎、怎么可能——！喵。{namecode:37}大人赋予的强大力量，竟然这么轻易的就被压制了——！喵。」",
+			actorName = "指揮喵J",
+			say = "「怎、怎麼可能——！喵。{namecode:37}大人賦予的強大力量，竟然這麼輕易的就被壓制了——！喵。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "标枪，最后一击！",
+			say = "標槍，最後一擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			actor = 201210,
 			nameColor = "#a9f548",
-			say = "好！——强袭模式展开，切换为最大出力！接招吧！",
+			say = "好！——強襲模式展開，切換為最大出力！接招吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			}
 		},
 		{
-			actorName = "指挥喵J",
+			actorName = "指揮喵J",
 			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#ff5c5c",
@@ -430,7 +430,7 @@ return {
 			blackBg = true,
 			actor = 401460,
 			nameColor = "#a9f548",
-			say = "…齐柏林，你看到了吗。",
+			say = "…齊柏林，你看到了嗎。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -463,7 +463,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "是啊…她们才是——大海之心。",
+			say = "是啊…她們才是——大海之心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "「就这样，港区的和平被守住了」",
+			say = "「就這樣，港區的和平被守住了」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "「加油吧标枪！碧蓝航线的未来就交给你了！」",
+			say = "「加油吧標槍！碧藍航線的未來就交給你了！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "「作者：标枪(删除线)、Z1、圣地亚哥等」",
+			say = "「作者：標槍(刪除線)、Z1、聖地牙哥等」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

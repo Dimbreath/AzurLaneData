@@ -264,7 +264,7 @@ function slot15(slot0, slot1, slot2)
 	slot15 = slot0:GetTemplate().damage_type
 	slot2 = slot2 or slot0.NUM1
 	slot17 = slot1._attr.armorType
-	slot18 = slot0._attr.formulaLevel - slot1._attr.formulaLevel
+	slot18 = slot0:GetWeaponHostAttr().formulaLevel - slot1._attr.formulaLevel
 	slot19 = slot0.NUM1
 	slot20 = false
 	slot21 = false

@@ -29230,6 +29230,343 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[32300] = {
+		name = "152mm連裝炮",
+		type = 2,
+		id = 32300,
+		tech = 1,
+		speciality = "散射",
+		range = 50,
+		scatter = "28°",
+		angle = 120,
+		value_2 = 5,
+		icon = "32300",
+		value_1 = "6 x 4",
+		attribute_2 = "cannon",
+		rarity = 2,
+		is_siren = 0,
+		nationality = 3,
+		ammo = "通常彈",
+		descrip = "說明未填寫",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			32300
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CL",
+			"MG"
+		}
+	},
+	[32301] = {
+		value_1 = "7 x 4",
+		id = 32301,
+		base = 32300,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			32301
+		},
+		property_rate = {}
+	},
+	[32302] = {
+		value_1 = "8 x 4",
+		id = 32302,
+		base = 32300,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			32302
+		},
+		property_rate = {}
+	},
+	[32303] = {
+		value_1 = "9 x 4",
+		id = 32303,
+		base = 32300,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			32303
+		},
+		property_rate = {}
+	},
+	[32320] = {
+		name = "152mm連裝炮",
+		type = 2,
+		id = 32320,
+		tech = 2,
+		speciality = "散射",
+		range = 50,
+		scatter = "28°",
+		angle = 120,
+		value_2 = 12,
+		icon = "32300",
+		value_1 = "7 x 4",
+		attribute_2 = "cannon",
+		rarity = 3,
+		is_siren = 0,
+		nationality = 3,
+		ammo = "高爆彈",
+		descrip = "說明未填寫",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		weapon_id = {
+			32320
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CL",
+			"MG",
+			"HE"
+		}
+	},
+	[32321] = {
+		value_1 = "8 x 4",
+		id = 32321,
+		base = 32320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			32321
+		},
+		property_rate = {}
+	},
+	[32322] = {
+		value_1 = "9 x 4",
+		id = 32322,
+		base = 32320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			32322
+		},
+		property_rate = {}
+	},
+	[32323] = {
+		value_1 = "10 x 4",
+		id = 32323,
+		base = 32320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			32323
+		},
+		property_rate = {}
+	},
+	[32324] = {
+		value_1 = "11 x 4",
+		id = 32324,
+		base = 32320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			32324
+		},
+		property_rate = {}
+	},
+	[32325] = {
+		value_1 = "12 x 4",
+		id = 32325,
+		base = 32320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			32325
+		},
+		property_rate = {}
+	},
+	[32326] = {
+		value_1 = "13 x 4",
+		id = 32326,
+		base = 32320,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			32326
+		},
+		property_rate = {}
+	},
+	[32340] = {
+		name = "152mm連裝炮",
+		type = 2,
+		id = 32340,
+		tech = 3,
+		speciality = "散射",
+		range = 50,
+		scatter = "28°",
+		angle = 120,
+		value_2 = 25,
+		icon = "32300",
+		value_1 = "8 x 4",
+		attribute_2 = "cannon",
+		rarity = 4,
+		is_siren = 0,
+		nationality = 3,
+		ammo = "高爆彈",
+		descrip = "說明未填寫",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			3
+		},
+		weapon_id = {
+			32340
+		},
+		skill_id = {},
+		part_main = {
+			2
+		},
+		part_sub = {
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"IJN",
+			"CL",
+			"MG",
+			"HE"
+		}
+	},
+	[32341] = {
+		value_1 = "9 x 4",
+		id = 32341,
+		base = 32340,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			32341
+		},
+		property_rate = {}
+	},
+	[32342] = {
+		value_1 = "10 x 4",
+		id = 32342,
+		base = 32340,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			32342
+		},
+		property_rate = {}
+	},
+	[32343] = {
+		value_1 = "11 x 4",
+		id = 32343,
+		base = 32340,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			32343
+		},
+		property_rate = {}
+	},
+	[32344] = {
+		value_1 = "12 x 4",
+		id = 32344,
+		base = 32340,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			32344
+		},
+		property_rate = {}
+	},
+	[32345] = {
+		value_1 = "13 x 4",
+		id = 32345,
+		base = 32340,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			32345
+		},
+		property_rate = {}
+	},
+	[32346] = {
+		value_1 = "14 x 4",
+		id = 32346,
+		base = 32340,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			32346
+		},
+		property_rate = {}
+	},
+	[32347] = {
+		value_1 = "15 x 4",
+		id = 32347,
+		base = 32340,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			32347
+		},
+		property_rate = {}
+	},
+	[32348] = {
+		value_1 = "16 x 4",
+		id = 32348,
+		base = 32340,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			32348
+		},
+		property_rate = {}
+	},
+	[32349] = {
+		value_1 = "17 x 4",
+		id = 32349,
+		base = 32340,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			32349
+		},
+		property_rate = {}
+	},
+	[32350] = {
+		value_1 = "18 x 4",
+		id = 32350,
+		base = 32340,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			32350
+		},
+		property_rate = {}
+	},
 	[33000] = {
 		name = "203mm連裝炮",
 		type = 3,
@@ -54484,6 +54821,28 @@ pg.equip_data_statistics = {
 		32248,
 		32249,
 		32250,
+		32300,
+		32301,
+		32302,
+		32303,
+		32320,
+		32321,
+		32322,
+		32323,
+		32324,
+		32325,
+		32326,
+		32340,
+		32341,
+		32342,
+		32343,
+		32344,
+		32345,
+		32346,
+		32347,
+		32348,
+		32349,
+		32350,
 		33000,
 		33001,
 		33002,

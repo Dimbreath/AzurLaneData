@@ -136,7 +136,7 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -391,7 +391,7 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -693,7 +693,7 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -1088,7 +1088,7 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -1554,7 +1554,7 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -2085,7 +2085,7 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -2593,7 +2593,7 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -3082,8 +3082,8 @@ pg.chapter_template_loop = {
 			"sea_day",
 			40,
 			20,
-			0,
-			0,
+			-250,
+			160,
 			100,
 			100,
 			4,
@@ -3568,7 +3568,7 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			44,
+			-250,
 			90,
 			100,
 			100,
@@ -4090,7 +4090,7 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -4607,8 +4607,8 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
-			0,
+			-210,
+			-140,
 			100,
 			100,
 			4,
@@ -5122,8 +5122,8 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
-			0,
+			-250,
+			80,
 			100,
 			100,
 			4,
@@ -5532,7 +5532,7 @@ pg.chapter_template_loop = {
 			"sea_BW",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -5947,7 +5947,7 @@ pg.chapter_template_loop = {
 			"sea_BW",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -6307,8 +6307,8 @@ pg.chapter_template_loop = {
 			"sea_BW",
 			45,
 			20,
-			0,
-			0,
+			-320,
+			-20,
 			100,
 			100,
 			4,
@@ -6816,7 +6816,7 @@ pg.chapter_template_loop = {
 			"sea_BW",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -7306,7 +7306,7 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -7746,8 +7746,8 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
-			0,
+			-250,
+			20,
 			100,
 			100,
 			4,
@@ -8156,8 +8156,8 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
-			0,
+			-250,
+			-20,
 			100,
 			100,
 			4,
@@ -8603,8 +8603,8 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
-			0,
+			-250,
+			20,
 			100,
 			100,
 			4,
@@ -9031,8 +9031,8 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			20,
-			0,
-			0,
+			-250,
+			-50,
 			100,
 			100,
 			4,
@@ -9580,7 +9580,7 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -10033,8 +10033,8 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			20,
-			0,
-			0,
+			-250,
+			-50,
 			100,
 			100,
 			4,
@@ -10541,8 +10541,8 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			20,
-			0,
-			0,
+			-250,
+			-50,
 			100,
 			100,
 			4,
@@ -10872,8 +10872,8 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			22,
-			0,
-			0,
+			-250,
+			-50,
 			100,
 			100,
 			4,
@@ -11295,8 +11295,8 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			20,
-			0,
-			0,
+			-250,
+			-50,
 			100,
 			100,
 			4,
@@ -11787,7 +11787,7 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -12266,7 +12266,7 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -12611,8 +12611,8 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
-			0,
+			-280,
+			-50,
 			100,
 			100,
 			4,
@@ -13038,8 +13038,8 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
-			0,
+			-250,
+			-50,
 			100,
 			100,
 			4,
@@ -13528,8 +13528,8 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			19,
-			-40,
+			-250,
+			0,
 			100,
 			100,
 			4,
@@ -14081,7 +14081,7 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -14520,7 +14520,7 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			22,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -14993,8 +14993,8 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			20,
-			-72,
-			-13,
+			-280,
+			-20,
 			100,
 			100,
 			4,
@@ -15492,7 +15492,7 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			20,
-			-22,
+			-250,
 			18,
 			100,
 			100,
@@ -16012,8 +16012,2043 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			20,
-			-80,
+			-280,
 			32,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[1001] = {
+		submarine_num = 0,
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 6,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		limit_move = 0,
+		air_dominance = 924,
+		best_air_dominance = 1204,
+		id = 1001,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 1,
+		investigation_ratio = 0,
+		avoid_ratio = 18,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.66,
+			0.34,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1001010,
+				5,
+				0
+			},
+			{
+				1001020,
+				30,
+				0
+			},
+			{
+				1001030,
+				38,
+				0
+			},
+			{
+				1001040,
+				6,
+				0
+			},
+			{
+				1001050,
+				36,
+				0
+			},
+			{
+				1001060,
+				26,
+				0
+			},
+			{
+				1001100,
+				4,
+				0
+			},
+			{
+				1001110,
+				5,
+				0
+			},
+			{
+				1001120,
+				5,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1001100,
+			1001110,
+			1001120
+		},
+		elite_expedition_list = {
+			1001050,
+			1001080
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1001000
+		},
+		enemy_refresh = {
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			4,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				1
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				4
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				8
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				8
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				4
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				4
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				1
+			}
+		},
+		float_items = {
+			{
+				7,
+				7,
+				"1x1depot_night",
+				-10,
+				25
+			},
+			{
+				7,
+				4,
+				"1x1YWIsland_2",
+				0,
+				3
+			},
+			{
+				7,
+				3,
+				"1x2YWIsland_1",
+				0,
+				40
+			},
+			{
+				4,
+				6,
+				"2x2YWIsland_1",
+				-30,
+				-31
+			},
+			{
+				4,
+				5,
+				"1x1YWRock_1",
+				-28,
+				-17
+			},
+			{
+				3,
+				3,
+				"1x2YWIsland_2",
+				5,
+				33
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_YW",
+			45,
+			20,
+			-250,
+			31,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[1002] = {
+		submarine_num = 1,
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 6,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		limit_move = 0,
+		air_dominance = 1000,
+		best_air_dominance = 1300,
+		id = 1002,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 1,
+		investigation_ratio = 0,
+		avoid_ratio = 19,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.55,
+			0.5,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1002010,
+				4,
+				0
+			},
+			{
+				1002020,
+				30,
+				0
+			},
+			{
+				1002030,
+				40,
+				0
+			},
+			{
+				1002040,
+				5,
+				0
+			},
+			{
+				1002050,
+				36,
+				0
+			},
+			{
+				1002060,
+				28,
+				0
+			},
+			{
+				1002100,
+				4,
+				0
+			},
+			{
+				1002110,
+				5,
+				0
+			},
+			{
+				1002120,
+				3,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1002100,
+			1002110,
+			1002120
+		},
+		elite_expedition_list = {
+			1002050,
+			1002080
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1002000
+		},
+		enemy_refresh = {
+			0,
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			4,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				7,
+				8,
+				true,
+				8
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				6
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				4
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				6
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				4
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				1
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				4
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				true,
+				16
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				1
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				8
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				4
+			}
+		},
+		float_items = {
+			{
+				7,
+				6,
+				"1x2YWIsland_2",
+				0,
+				40
+			},
+			{
+				6,
+				3,
+				"1x1YWRock_1",
+				15,
+				0
+			},
+			{
+				6,
+				2,
+				"2x1YWIsland_1",
+				29,
+				1
+			},
+			{
+				5,
+				8,
+				"1x1depot_night",
+				-10,
+				24
+			},
+			{
+				4,
+				8,
+				"1x1YWIsland_2",
+				2,
+				5
+			},
+			{
+				4,
+				4,
+				"2x3YWIsland_1",
+				-47,
+				-35
+			},
+			{
+				3,
+				6,
+				"1x2YWIsland_1",
+				0,
+				34
+			},
+			{
+				3,
+				3,
+				"1x1YWIsland_1",
+				-3,
+				4
+			},
+			{
+				3,
+				2,
+				"1x1YWIsland_2",
+				-4,
+				6
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_YW",
+			45,
+			20,
+			-250,
+			25,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[1003] = {
+		submarine_num = 1,
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 6,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		limit_move = 0,
+		air_dominance = 1076,
+		best_air_dominance = 1400,
+		id = 1003,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 1,
+		investigation_ratio = 0,
+		avoid_ratio = 19,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.36,
+			0.64,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1003010,
+				3,
+				0
+			},
+			{
+				1003020,
+				28,
+				0
+			},
+			{
+				1003030,
+				42,
+				0
+			},
+			{
+				1003040,
+				5,
+				0
+			},
+			{
+				1003050,
+				36,
+				0
+			},
+			{
+				1003060,
+				30,
+				0
+			},
+			{
+				1003100,
+				4,
+				0
+			},
+			{
+				1003110,
+				5,
+				0
+			},
+			{
+				1003120,
+				3,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1003100,
+			1003110,
+			1003120
+		},
+		elite_expedition_list = {
+			1003050,
+			1003060,
+			1003080
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1003000
+		},
+		enemy_refresh = {
+			0,
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			4,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				7,
+				9,
+				true,
+				6
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				4
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				8
+			},
+			{
+				6,
+				8,
+				true,
+				6
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				1
+			},
+			{
+				6,
+				3,
+				true,
+				1
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				4
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				8
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				16
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				4
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				8
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				2
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				8
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				4
+			}
+		},
+		float_items = {
+			{
+				7,
+				1,
+				"1x1YWIsland_1",
+				0,
+				0
+			},
+			{
+				6,
+				6,
+				"1x3YWIsland_2",
+				0,
+				0
+			},
+			{
+				5,
+				9,
+				"1x1YWIsland_2",
+				0,
+				4
+			},
+			{
+				5,
+				3,
+				"2x1YWIsland_1",
+				46,
+				0
+			},
+			{
+				3,
+				7,
+				"1x2YWIsland_2",
+				0,
+				33
+			},
+			{
+				3,
+				3,
+				"1x3YWIsland_1",
+				0,
+				3
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_YW",
+			45,
+			20,
+			-280,
+			27,
+			100,
+			100,
+			4,
+			4
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0,
+			1
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[1004] = {
+		submarine_num = 1,
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 6,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		limit_move = 0,
+		air_dominance = 1152,
+		best_air_dominance = 1500,
+		id = 1004,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 1,
+		investigation_ratio = 0,
+		avoid_ratio = 20,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.338,
+			0.43,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1004010,
+				2,
+				0
+			},
+			{
+				1004020,
+				26,
+				0
+			},
+			{
+				1004030,
+				44,
+				0
+			},
+			{
+				1004040,
+				5,
+				0
+			},
+			{
+				1004050,
+				36,
+				0
+			},
+			{
+				1004060,
+				30,
+				0
+			},
+			{
+				1004100,
+				4,
+				0
+			},
+			{
+				1004110,
+				5,
+				0
+			},
+			{
+				1004120,
+				3,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {
+			1004100,
+			1004110,
+			1004120
+		},
+		elite_expedition_list = {
+			1004050,
+			1004060,
+			1004080,
+			1004090
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1004000
+		},
+		enemy_refresh = {
+			0,
+			2,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			4,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				7,
+				9,
+				true,
+				8
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				4
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				1
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				6
+			},
+			{
+				6,
+				7,
+				true,
+				16
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				4
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				1
+			},
+			{
+				5,
+				9,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				4
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				4
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				16
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				8
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				true,
+				8
+			}
+		},
+		float_items = {
+			{
+				7,
+				6,
+				"1x2YWIsland_1",
+				0,
+				42
+			},
+			{
+				5,
+				8,
+				"1x1YWIsland_1",
+				4,
+				4
+			},
+			{
+				5,
+				2,
+				"1x3YWIsland_2",
+				0,
+				0
+			},
+			{
+				4,
+				6,
+				"1x1YWIsland_2",
+				0,
+				0
+			},
+			{
+				4,
+				5,
+				"1x1YWRock_1",
+				46,
+				44
+			},
+			{
+				3,
+				5,
+				"1x2YWIsland_2",
+				1,
+				34
+			},
+			{
+				3,
+				3,
+				"1x1depot_night",
+				-12,
+				21
+			},
+			{
+				2,
+				9,
+				"2x2YWIsland_1",
+				-21,
+				-29
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {
+			{
+				-20000
+			}
+		},
+		theme = {
+			"sea_YW",
+			45,
+			20,
+			-280,
+			12,
 			100,
 			100,
 			4,
@@ -17289,7 +19324,7 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -17525,7 +19560,7 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -17793,7 +19828,7 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -18089,7 +20124,7 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -18412,7 +20447,7 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -18799,7 +20834,7 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -19163,7 +21198,7 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -19508,8 +21543,8 @@ pg.chapter_template_loop = {
 			"sea_day",
 			40,
 			20,
-			0,
-			0,
+			-250,
+			160,
 			100,
 			100,
 			4,
@@ -19850,7 +21885,7 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			44,
+			-250,
 			90,
 			100,
 			100,
@@ -20228,7 +22263,7 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -20601,8 +22636,8 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
-			0,
+			-210,
+			-140,
 			100,
 			100,
 			4,
@@ -20972,8 +23007,8 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
-			0,
+			-250,
+			80,
 			100,
 			100,
 			4,
@@ -21356,7 +23391,7 @@ pg.chapter_template_loop = {
 			"sea_BW",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -21745,7 +23780,7 @@ pg.chapter_template_loop = {
 			"sea_BW",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -22079,8 +24114,8 @@ pg.chapter_template_loop = {
 			"sea_BW",
 			45,
 			20,
-			0,
-			0,
+			-320,
+			-20,
 			100,
 			100,
 			4,
@@ -22561,7 +24596,7 @@ pg.chapter_template_loop = {
 			"sea_BW",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -23024,7 +25059,7 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -23437,8 +25472,8 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
-			0,
+			-250,
+			20,
 			100,
 			100,
 			4,
@@ -23820,8 +25855,8 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
-			0,
+			-250,
+			-20,
 			100,
 			100,
 			4,
@@ -24240,8 +26275,8 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
-			0,
+			-250,
+			20,
 			100,
 			100,
 			4,
@@ -24641,8 +26676,8 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			20,
-			0,
-			0,
+			-250,
+			-50,
 			100,
 			100,
 			4,
@@ -25164,7 +27199,7 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -25591,8 +27626,8 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			20,
-			0,
-			0,
+			-250,
+			-50,
 			100,
 			100,
 			4,
@@ -26073,8 +28108,8 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			20,
-			0,
-			0,
+			-250,
+			-50,
 			100,
 			100,
 			4,
@@ -26393,8 +28428,8 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			22,
-			0,
-			0,
+			-250,
+			-50,
 			100,
 			100,
 			4,
@@ -26805,8 +28840,8 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			20,
-			0,
-			0,
+			-250,
+			-50,
 			100,
 			100,
 			4,
@@ -27286,7 +29321,7 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -27754,7 +29789,7 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -28088,8 +30123,8 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
-			0,
+			-280,
+			-50,
 			100,
 			100,
 			4,
@@ -28504,8 +30539,8 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
-			0,
+			-250,
+			-50,
 			100,
 			100,
 			4,
@@ -28983,8 +31018,8 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			19,
-			-40,
+			-250,
+			0,
 			100,
 			100,
 			4,
@@ -29525,7 +31560,7 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -29951,7 +31986,7 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			22,
-			0,
+			-250,
 			0,
 			100,
 			100,
@@ -30411,8 +32446,8 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			20,
-			-72,
-			-13,
+			-280,
+			-20,
 			100,
 			100,
 			4,
@@ -30897,7 +32932,7 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			20,
-			-22,
+			-250,
 			18,
 			100,
 			100,
@@ -31404,7 +33439,7 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			20,
-			-80,
+			-280,
 			32,
 			100,
 			100,
@@ -31845,7 +33880,7 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			20,
-			36,
+			-250,
 			31,
 			100,
 			100,
@@ -32343,7 +34378,7 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			20,
-			-20,
+			-250,
 			25,
 			100,
 			100,
@@ -32857,7 +34892,7 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			20,
-			-55,
+			-280,
 			27,
 			100,
 			100,
@@ -33387,7 +35422,7 @@ pg.chapter_template_loop = {
 			"sea_YW",
 			45,
 			20,
-			-45,
+			-280,
 			12,
 			100,
 			100,
@@ -33886,7 +35921,7 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			-26,
+			-250,
 			110,
 			100,
 			100,
@@ -34389,7 +36424,7 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			-65,
+			-250,
 			58,
 			100,
 			100,
@@ -35014,7 +37049,7 @@ pg.chapter_template_loop = {
 			"sea_day",
 			45,
 			20,
-			-69,
+			-250,
 			21,
 			100,
 			100,
@@ -72769,6 +74804,10 @@ pg.chapter_template_loop = {
 		902,
 		903,
 		904,
+		1001,
+		1002,
+		1003,
+		1004,
 		10000,
 		10001,
 		10002,

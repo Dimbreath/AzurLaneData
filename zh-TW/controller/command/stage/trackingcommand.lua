@@ -22,7 +22,9 @@ class("TrackingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	if not getProxy(PlayerProxy).getData(slot12):isEnough({
 		oil = slot8:getConfig("oil")
 	}) then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
+		if not ItemTipPanel.ShowOilBuyTip(slot11) then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
+		end
 
 		return
 	end
@@ -48,13 +50,7 @@ class("TrackingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			slot28 = {}
 
 			for slot32, slot33 in ipairs(slot23) do
-				if pg.ship_data_by_type[slot10[slot33]:getShipType()].team_type == TeamType.Vanguard then
-					slot26[#slot26 + 1] = slot33
-				elseif slot35 == TeamType.Main then
-					slot25[#slot25 + 1] = slot33
-				elseif slot35 == TeamType.Submarine then
-					slot27[#slot27 + 1] = slot33
-				end
+				slot25[#slot25 + 1] = slot33
 			end
 
 			for slot33, slot34 in pairs(slot29) do
@@ -66,15 +62,11 @@ class("TrackingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 			slot24.map_id = slot15
 			slot24.main_id = slot25
-			slot24.scout_id = slot26
-			slot24.submarine_id = slot27
 			slot24.commanders = slot28
 			slot18[#slot18 + 1] = slot24
 		else
 			slot18[#slot18 + 1] = {
 				main_id = {},
-				scout_id = {},
-				submarine_id = {},
 				commanders = {}
 			}
 		end

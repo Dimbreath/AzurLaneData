@@ -127,22 +127,24 @@ function slot0.SetStageID(slot0, slot1)
 			updateDrop(slot10, slot11)
 			onButton(slot0, cloneTplTo(slot0._item, slot0._spoilsContainer), function ()
 				if pg.item_data_statistics[slot0[2]] and slot1[slot0.type] then
-					slot2 = {}
+					slot2:emit(PreCombatMediator.GET_CHAPTER_DROP_SHIP_LIST, slot2.chapter.id, function (slot0)
+						slot2 = {}
 
-					for slot6, slot7 in ipairs(slot1) do
-						slot2[#slot2 + 1] = {
-							hideName = true,
-							type = slot8,
-							id = slot7[2],
-							anonymous = slot7[1] == DROP_TYPE_SHIP and not table.contains(slot2.chapter.dropShipIdList, slot7[2])
-						}
-					end
+						for slot6, slot7 in ipairs(slot1) do
+							slot2[#slot2 + 1] = {
+								hideName = true,
+								type = slot8,
+								id = slot7[2],
+								anonymous = slot7[1] == DROP_TYPE_SHIP and not table.contains(slot0, slot7[2])
+							}
+						end
 
-					slot2:emit(slot3.ON_DROP_LIST, {
-						item2Row = true,
-						itemList = slot2,
-						content = slot0.display
-					})
+						slot1:emit(slot2.ON_DROP_LIST, {
+							item2Row = true,
+							itemList = slot2,
+							content = slot0.display
+						})
+					end)
 				else
 					slot2:emit(slot3.ON_DROP, slot4)
 				end

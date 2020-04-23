@@ -73,7 +73,7 @@ return {
 			actorName = "{namecode:24}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "嗚…人家也是迷迷糊糊的闖進這片“聖域”的，然後…就遇到了“她們”",
+			say = "嗚...人家也是迷迷糊糊進入這片“聖域”的，然後...在這裡見到了失踪多時的{namecode:91}大人和{namecode:92}大人",
 			shake = {
 				speed = 1,
 				number = 3
@@ -92,7 +92,7 @@ return {
 			actorName = "{namecode:24}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "“她們”一直在這裡研究神明所賜予的科技，想要靠它們來扭轉戰局…",
+			say = "{namecode:91}大人一直在這裡研究神明所賜予的科技，想要靠它們來扭轉戰局...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -111,7 +111,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "和情報所說的一樣嗎，看來你沒有撒謊",
+			say = "被帶來的嗎...果然和情報所說的“聖域”一樣。看來你沒有撒謊。",
 			shake = {
 				speed = 1,
 				number = 3
@@ -149,7 +149,7 @@ return {
 			actorName = "{namecode:24}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "我不能違背“她們”的意志…",
+			say = "我不想違背{namecode:91}大人的命令...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -168,7 +168,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "就算“她們”所信仰的神明都是虛假的謊言？",
+			say = "就算她所信仰的神明都是虛假的謊言？",
 			shake = {
 				speed = 1,
 				number = 3
@@ -187,7 +187,7 @@ return {
 			actorName = "{namecode:24}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "“她們”是給予了我們希望的人，就算這條路也許是錯的，我也…",
+			say = "{namecode:91}大人是給予了我們希望的人，就算這條路也許是錯的，我也...",
 			shake = {
 				speed = 1,
 				number = 3

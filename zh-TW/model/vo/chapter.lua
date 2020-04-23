@@ -55,13 +55,6 @@ function slot0.Ctor(slot0, slot1)
 	end
 
 	slot0.dropShipIdList = {}
-	slot5 = ipairs
-	slot6 = slot1.drop_ship_id or {}
-
-	for slot8, slot9 in slot5(slot6) do
-		table.insert(slot0.dropShipIdList, slot9)
-	end
-
 	slot0.eliteFleetList = {
 		{},
 		{},
@@ -116,14 +109,6 @@ function slot0.BuildEliteFleetList(slot0)
 			slot8[#slot8 + 1] = slot13
 		end
 
-		for slot12, slot13 in ipairs(slot7.scout_id) do
-			slot8[#slot8 + 1] = slot13
-		end
-
-		for slot12, slot13 in ipairs(slot7.submarine_id) do
-			slot8[#slot8 + 1] = slot13
-		end
-
 		slot1[slot6] = slot8
 		slot9 = {}
 
@@ -151,6 +136,21 @@ function slot0.getFleetById(slot0, slot1)
 	return _.detect(slot0.fleets, function (slot0)
 		return slot0.id == slot0
 	end)
+end
+
+function slot0.getFleetByShipVO(slot0, slot1)
+	slot2 = slot1.id
+	slot3 = nil
+
+	for slot7, slot8 in ipairs(slot0.fleets) do
+		if slot8:getShip(slot2) then
+			slot3 = slot8
+
+			break
+		end
+	end
+
+	return slot3
 end
 
 function slot0.getMaxCount(slot0)
@@ -879,10 +879,35 @@ function slot0.getFleetBattleBuffs(slot0, slot1)
 	_.each(slot0:getFleetStgIds(slot1), function (slot0)
 		table.insert(slot0, pg.strategy_data_template[slot0].buff_id)
 	end)
-
-	return (slot0.buff_list and {
+	table.insertto((slot0.buff_list and {
 		unpack(slot0.buff_list)
-	}) or {}, slot0:buildBattleBuffList(slot1)
+	}) or {}, slot0:GetAttachmentBuffs(slot1.line.row, slot1.line.column) or {})
+
+	return (slot0.buff_list and ) or , slot0:buildBattleBuffList(slot1)
+end
+
+function slot0.GetAttachmentBuffs(slot0, slot1, slot2)
+	if not _.detect(slot0.cellAttachments, function (slot0)
+		return slot0.row == slot0 and slot0.column == 
+	end) then
+		return
+	end
+
+	if not pg.map_event_template[slot3.attachmentId] then
+		return
+	end
+
+	slot5 = {}
+
+	for slot9, slot10 in ipairs(slot4.effect) do
+		if slot10[1] == "attach_buff" then
+			for slot14 = 2, #slot10, 1 do
+				table.insert(slot5, slot10[slot14])
+			end
+		end
+	end
+
+	return slot5
 end
 
 function slot0.buildBattleBuffList(slot0, slot1)
@@ -1275,7 +1300,7 @@ function slot0.getDragExtend(slot0)
 		end
 	end
 
-	return math.max(((slot5 + slot3) * 0.5 - slot3 + 1) * slot1.cellSize + slot1.cellSpace.x, 0), math.max((slot5 - (slot5 + slot3) * 0.5 + 1) * slot1.cellSize + slot1.cellSpace.x, 0), math.max(((slot4 + slot2) * 0.5 - slot2) * slot1.cellSize + slot1.cellSpace.y, 0), math.max((slot4 - (slot4 + slot2) * 0.5) * slot1.cellSize + slot1.cellSpace.y, 0)
+	return math.max(((slot5 + slot3) * 0.5 - slot3 + 1) * slot1.cellSize + slot1.cellSpace.x, 0), math.max((slot5 - (slot5 + slot3) * 0.5 + 1) * slot1.cellSize + slot1.cellSpace.x, 0), math.max(((slot4 + slot2) * 0.5 - slot2) * slot1.cellSize + slot1.cellSpace.y, 0), math.max((slot4 - (slot4 + slot2) * 0.5 + 1) * slot1.cellSize + slot1.cellSpace.y, 0)
 end
 
 function slot0.getPoisonArea(slot0, slot1)
@@ -2114,6 +2139,18 @@ function slot0.writeDrops(slot0, slot1)
 			table.insert(slot0.dropShipIdList, slot0.id)
 		end
 	end)
+end
+
+function slot0.UpdateDropShipList(slot0, slot1)
+	for slot5, slot6 in ipairs(slot1) do
+		if not table.contains(slot0.dropShipIdList, slot6) then
+			table.insert(slot0.dropShipIdList, slot6)
+		end
+	end
+end
+
+function slot0.GetDropShipList(slot0)
+	return slot0.dropShipIdList
 end
 
 function slot0.writeBack(slot0, slot1, slot2)

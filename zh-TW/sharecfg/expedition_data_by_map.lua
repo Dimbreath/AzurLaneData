@@ -334,7 +334,7 @@ pg.expedition_data_by_map = {
 		bg = "map_7",
 		destory_icon_suffix = "blue",
 		animtor = 0,
-		bind_map = 0,
+		bind_map = 207,
 		clouds_pos = {
 			{
 				76,
@@ -654,6 +654,47 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	{
+		map = 11,
+		name = "奧古斯塔皇后灣海戰",
+		bgm = "level",
+		type = 1,
+		on_activity = 0,
+		title = "11",
+		enter_story = "",
+		level_limit = 70,
+		uifx = "",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "white",
+		bg = "map_11",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		drop_by_map_display = {}
+	},
 	[201] = {
 		map = 201,
 		name = "虎！虎！虎！",
@@ -881,6 +922,51 @@ pg.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		animtor = 0,
 		bind_map = 6,
+		clouds_pos = {
+			{
+				76,
+				263
+			},
+			{
+				881,
+				44
+			},
+			{
+				23,
+				-143
+			},
+			{
+				473,
+				163
+			},
+			{
+				514,
+				-245
+			},
+			{
+				830,
+				-109
+			}
+		}
+	},
+	[207] = {
+		map = 207,
+		name = "混沌之夜",
+		bgm = "level",
+		type = 2,
+		on_activity = 0,
+		title = "7",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 30,
+		uifx = "UIhuohua2",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "purple",
+		bg = "Map_207",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 7,
 		clouds_pos = {
 			{
 				76,
@@ -3620,12 +3706,14 @@ pg.expedition_data_by_map = {
 		8,
 		9,
 		10,
+		11,
 		201,
 		202,
 		203,
 		204,
 		205,
 		206,
+		207,
 		10000,
 		90000,
 		90001,

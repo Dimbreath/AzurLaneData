@@ -1,35 +1,12 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "40101",
-		type = 3,
+		time = "always",
+		type = 2,
 		id = 1,
-		pic = "temp3",
-		time = {
-			{
-				{
-					2020,
-					4,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
+		pic = "temp5",
+		param = {
+			"scene level"
 		}
 	},
 	{
@@ -44,7 +21,7 @@ pg.activity_banner = {
 				{
 					2020,
 					4,
-					10
+					23
 				},
 				{
 					0,
@@ -56,7 +33,7 @@ pg.activity_banner = {
 				{
 					2020,
 					4,
-					22
+					29
 				},
 				{
 					23,
@@ -67,82 +44,17 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "always",
 		type = 2,
 		id = 3,
-		pic = "temp13",
+		pic = "temp6",
 		param = {
-			"scene get boat",
-			{
-				projectName = "new"
-			}
-		},
-		time = {
-			{
-				{
-					2020,
-					4,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
+			"scene dockyard"
 		}
 	},
 	{
 		type = 2,
 		id = 4,
-		pic = "temp12",
-		param = {
-			"scene charge",
-			{
-				wrap = 4
-			}
-		},
-		time = {
-			{
-				{
-					2020,
-					4,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					4,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 5,
 		pic = "temp7",
 		param = {
 			"scene back yard"
@@ -178,8 +90,7 @@ pg.activity_banner = {
 		1,
 		2,
 		3,
-		4,
-		5
+		4
 	}
 }
 

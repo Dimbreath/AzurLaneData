@@ -144,7 +144,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 2,
 			nameColor = "#a9f548",
-			say = "可惡，又被她們暗算了嗎",
+			say = "可惡的前輩，又被她們暗算了嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
