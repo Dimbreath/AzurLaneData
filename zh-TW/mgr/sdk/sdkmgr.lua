@@ -17,16 +17,12 @@ end
 
 function pg.SdkMgr.Call(slot0, slot1, ...)
 	if slot0.instance[slot1] then
-		slot0.instance[slot1](unpack({
-			...
-		}))
+		slot0.instance[slot1](...)
 	end
 end
 
 function pg.SdkMgr.Get(slot0, slot1, ...)
-	return slot0.instance[slot1](unpack({
-		...
-	}))
+	return slot0.instance[slot1](...)
 end
 
 function EnterMultiWindow(slot0)

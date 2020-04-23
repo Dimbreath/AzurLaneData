@@ -386,7 +386,7 @@ return {
 			actor = 301800,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			say = "亲潮讲的故事太有趣了！{namecode:162}还想听一个！",
+			say = "{namecode:135}讲的故事太有趣了！{namecode:162}还想听一个！",
 			flashout = {
 				dur = 0.5,
 				alpha = {

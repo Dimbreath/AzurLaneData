@@ -541,7 +541,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "{namecode:162}喘着粗气，瘫到在了怀里。",
+			say = "{namecode:162}喘着粗气，瘫倒在了怀里。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

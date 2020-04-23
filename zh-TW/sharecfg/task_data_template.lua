@@ -151,7 +151,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[5,1001,1061,1071,1101,1111,1112,1121,1131,1132,1141,1201,2001,2021,2031,2101,2111,2112,2121,2131,2132,2141,2201,2301,3000,3001,6001,5041,5042,5043,5044,7001,7002,7003,7004,7005,7006,7007,7008,7009,7010,7011,7012,7013,7014,7015,7016,7017,7018,7019,7020,7021,7022,7101,7102,7103,7104,7105,7106,7107,7108,7109,7110,7111,7112,7113,7114,7115,7116,7117,7118,7119,7120,7121,10302]",
+		next_task = "[5,1001,1061,1071,1101,1111,1112,1121,1131,1132,1141,1201,2001,2021,2031,2101,2111,2112,2121,2131,2132,2141,2201,2301,3000,3001,6001,5041,5042,7001,7002,7003,7004,7005,7006,7007,7008,7009,7010,7011,7013,7014,7015,7016,7017,7018,7019,7020,7021,7022,7101,7102,7103,7104,7105,7106,7107,7108,7109,7111,7112,7113,7114,7115,7116,7117,7118,7119,7120,7121]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 101,
@@ -1337,7 +1337,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[33,3029,6029]",
+		next_task = "[33,3029]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 801,
@@ -1379,7 +1379,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[34,3030,6030]",
+		next_task = "[34,3030]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 802,
@@ -1421,7 +1421,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[35,3031,6031]",
+		next_task = "[35,3031]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 803,
@@ -1463,7 +1463,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[36,3032,6032]",
+		next_task = "[36,3032]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 804,
@@ -1967,7 +1967,7 @@ pg.task_data_template = {
 		scene = "",
 		award_choice = "",
 		level = 1,
-		next_task = "[48,3044]",
+		next_task = "[3044]",
 		visibility = 1,
 		story_id = "",
 		target_id_for_client = 1104,
@@ -24702,10 +24702,10 @@ pg.task_data_template = {
 		}
 	},
 	[13760] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 0,
-		type = 6,
+		type = 26,
 		name = "驅逐修復1",
 		count_inherit = 0,
 		desc = "驅逐修復1",
@@ -24734,10 +24734,10 @@ pg.task_data_template = {
 		}
 	},
 	[13761] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 0,
-		type = 6,
+		type = 26,
 		name = "驅逐修復2",
 		count_inherit = 0,
 		desc = "驅逐修復2",
@@ -24766,10 +24766,10 @@ pg.task_data_template = {
 		}
 	},
 	[13762] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 0,
-		type = 6,
+		type = 26,
 		name = "驅逐修復3",
 		count_inherit = 0,
 		desc = "驅逐修復3",
@@ -24798,10 +24798,10 @@ pg.task_data_template = {
 		}
 	},
 	[13763] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 8796,
-		type = 6,
+		type = 26,
 		name = "驅逐修復總",
 		count_inherit = 0,
 		desc = "驅逐修復總",
@@ -24834,10 +24834,10 @@ pg.task_data_template = {
 		}
 	},
 	[13764] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 0,
-		type = 6,
+		type = 26,
 		name = "巡洋修復1",
 		count_inherit = 0,
 		desc = "巡洋修復1",
@@ -24866,10 +24866,10 @@ pg.task_data_template = {
 		}
 	},
 	[13765] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 0,
-		type = 6,
+		type = 26,
 		name = "巡洋修復2",
 		count_inherit = 0,
 		desc = "巡洋修復2",
@@ -24898,10 +24898,10 @@ pg.task_data_template = {
 		}
 	},
 	[13766] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 0,
-		type = 6,
+		type = 26,
 		name = "巡洋修復3",
 		count_inherit = 0,
 		desc = "巡洋修復3",
@@ -24930,10 +24930,10 @@ pg.task_data_template = {
 		}
 	},
 	[13767] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 8797,
-		type = 6,
+		type = 26,
 		name = "巡洋修復總",
 		count_inherit = 0,
 		desc = "巡洋修復總",
@@ -24966,10 +24966,10 @@ pg.task_data_template = {
 		}
 	},
 	[13768] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 0,
-		type = 6,
+		type = 26,
 		name = "戰列修復1",
 		count_inherit = 0,
 		desc = "戰列修復1",
@@ -24998,10 +24998,10 @@ pg.task_data_template = {
 		}
 	},
 	[13769] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 0,
-		type = 6,
+		type = 26,
 		name = "戰列修復2",
 		count_inherit = 0,
 		desc = "戰列修復2",
@@ -25030,10 +25030,10 @@ pg.task_data_template = {
 		}
 	},
 	[13770] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 0,
-		type = 6,
+		type = 26,
 		name = "戰列修復3",
 		count_inherit = 0,
 		desc = "戰列修復3",
@@ -25062,10 +25062,10 @@ pg.task_data_template = {
 		}
 	},
 	[13771] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 8798,
-		type = 6,
+		type = 26,
 		name = "戰列修復總",
 		count_inherit = 0,
 		desc = "戰列修復總",
@@ -25098,10 +25098,10 @@ pg.task_data_template = {
 		}
 	},
 	[13772] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 0,
-		type = 6,
+		type = 26,
 		name = "航母修復1",
 		count_inherit = 0,
 		desc = "航母修復1",
@@ -25130,10 +25130,10 @@ pg.task_data_template = {
 		}
 	},
 	[13773] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 0,
-		type = 6,
+		type = 26,
 		name = "航母修復2",
 		count_inherit = 0,
 		desc = "航母修復2",
@@ -25162,10 +25162,10 @@ pg.task_data_template = {
 		}
 	},
 	[13774] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 0,
-		type = 6,
+		type = 26,
 		name = "航母修復3",
 		count_inherit = 0,
 		desc = "航母修復3",
@@ -25194,10 +25194,10 @@ pg.task_data_template = {
 		}
 	},
 	[13775] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 8799,
-		type = 6,
+		type = 26,
 		name = "航母修復總",
 		count_inherit = 0,
 		desc = "航母修復總",
@@ -25230,10 +25230,10 @@ pg.task_data_template = {
 		}
 	},
 	[13776] = {
-		is_head = 1,
+		is_head = 0,
 		guild_coin_award = 0,
 		award = 8791,
-		type = 6,
+		type = 26,
 		name = "三笠船模任務",
 		count_inherit = 0,
 		desc = "三笠船模任務",
