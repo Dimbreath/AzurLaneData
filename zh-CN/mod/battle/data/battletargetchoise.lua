@@ -601,6 +601,15 @@ ys.Battle.BattleTargetChoise = {
 		end
 
 		return slot4
+	end,
+	TargetPlayerAidUnit = function (slot0, slot1)
+		slot3 = {}
+
+		for slot7, slot8 in pairs(slot2) do
+			table.insert(slot3, slot8)
+		end
+
+		return slot3
 	end
 }
 

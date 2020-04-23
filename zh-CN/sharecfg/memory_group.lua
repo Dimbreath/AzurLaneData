@@ -2277,6 +2277,21 @@ pg.memory_group = {
 			1148
 		}
 	},
+	[548] = {
+		title = "笑容Overflow！",
+		type = 3,
+		id = 548,
+		icon = "title_chara_juanbo",
+		memories = {
+			1204,
+			1205,
+			1206,
+			1207,
+			1208,
+			1209,
+			1210
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2412,7 +2427,8 @@ pg.memory_group = {
 		544,
 		545,
 		546,
-		547
+		547,
+		548
 	}
 }
 

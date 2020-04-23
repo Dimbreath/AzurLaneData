@@ -70,7 +70,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			actor = 307060,
 			actorName = "{namecode:96}",
-			say = "……翔…{namecode:95}姐？",
+			say = "……{namecode:95}…{namecode:95}姐？",
 			flashout = {
 				dur = 0.3,
 				alpha = {
@@ -102,12 +102,21 @@ return {
 		{
 			side = 1,
 			say = "…约定……守护…………永远…",
-			actorName = "{namecode:95}",
-			actor = 307050,
 			nameColor = "#a9f548",
+			actor = 307050,
+			actorName = "{namecode:95}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
+			},
+			action = {
+				{
+					y = -2500,
+					type = "move",
+					delay = 1.2,
+					dur = 1,
+					x = 0
+				}
 			},
 			shake = {
 				speed = 1,
@@ -127,7 +136,67 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "{namecode:95}姐…",
+			say = "{namecode:95}姐...？",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 0,
+			actorName = "{namecode:92}",
+			dir = -1,
+			actor = 307020,
+			nameColor = "#ff0000",
+			say = "？！棋子居然……？",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 0,
+			actorName = "{namecode:91}",
+			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
+			say = "呵呵呵，制造出的棋子居然会在这时候选择为“妹妹”挺身而出么。",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 0,
+			actorName = "{namecode:91}",
+			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
+			say = "（只是制造出的棋子，竟然会为了妹妹.....）",
 			shake = {
 				speed = 1,
 				number = 3
@@ -167,7 +236,7 @@ return {
 			dir = -1,
 			actor = 307010,
 			nameColor = "#ff0000",
-			say = "{namecode:92}，先撤退，神谕里有记录，如果有觉醒的【棋子】出现，作为最高优先级上报日志",
+			say = "{namecode:92}、先撤退，如果有棋子出现“觉醒”的反应，按照和神明的约定应当作为最高优先级日志上报",
 			shake = {
 				speed = 1,
 				number = 3
@@ -206,6 +275,120 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
+			say = "...等！",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307050,
+			actorName = "{namecode:95}",
+			side = 0,
+			nameColor = "#a9f548",
+			say = "呜......",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307060,
+			actorName = "{namecode:96}",
+			side = 0,
+			nameColor = "#a9f548",
+			say = "{namecode:95}姐？我终于找到你了，你没事吧！",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307050,
+			actorName = "{namecode:95}",
+			side = 0,
+			nameColor = "#a9f548",
+			say = "{namecode:96}...你来了啊...感觉好像做了一个很长的梦。",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307050,
+			actorName = "{namecode:95}",
+			side = 0,
+			nameColor = "#a9f548",
+			say = "在梦里...我......",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307050,
+			actorName = "{namecode:95}",
+			side = 0,
+			nameColor = "#a9f548",
+			say = "那个棋子...看来都结束了啊...唔，头好痛。",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307060,
+			actorName = "{namecode:96}",
+			side = 0,
+			nameColor = "#a9f548",
 			say = "{namecode:95}姐…对不起，这么久了，我一直没有成长，总是这么鲁莽的只顾看着眼前…",
 			shake = {
 				speed = 1,
@@ -225,7 +408,7 @@ return {
 			actorName = "{namecode:95}",
 			side = 1,
 			nameColor = "#a9f548",
-			say = "只要你能够好好的，我们就还有希望…只有你，能够战胜那个对手…",
+			say = "只要你能够平安无事，我们就还有希望...只有你，能够战胜那个对手....",
 			shake = {
 				speed = 1,
 				number = 3
@@ -244,7 +427,7 @@ return {
 			actorName = "{namecode:95}",
 			side = 1,
 			nameColor = "#a9f548",
-			say = "所以，姐姐还是会一直在你身边…一直守护着你…",
+			say = "在那之前，姐姐会一直在你身边...一直守护着你...",
 			shake = {
 				speed = 1,
 				number = 3

@@ -22,6 +22,7 @@ function coroutine.start(slot0, ...)
 		end
 	else
 		slot2 = {
+			len = select("#", ...),
 			...
 		}
 		slot3 = nil
@@ -29,7 +30,7 @@ function coroutine.start(slot0, ...)
 		function slot4()
 			slot0[slot1] = nil
 			slot2.func = nil
-			slot0, slot1 = slot3(nil, slot4(slot5))
+			slot0, slot1 = slot3(nil, slot4(slot5, 1, slot5.len))
 
 			table.insert(slot6, table.insert)
 
@@ -55,6 +56,7 @@ end
 
 function coroutine.wait(slot0, slot1, ...)
 	slot2 = {
+		len = select("#", ...),
 		...
 	}
 	slot3 = nil
@@ -67,6 +69,7 @@ end
 
 function coroutine.step(slot0, slot1, ...)
 	slot2 = {
+		len = select("#", ...),
 		...
 	}
 	slot1 = slot1 or slot0()

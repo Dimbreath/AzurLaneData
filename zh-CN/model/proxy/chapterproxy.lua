@@ -41,7 +41,7 @@ function slot0.register(slot0)
 
 		for slot6, slot7 in ipairs(slot0.chapter_list) do
 			if not pg.chapter_template[slot7.id] then
-				Debugger.LogError("chapter_template not exist: " .. slot7.id)
+				errorMsg("chapter_template not exist: " .. slot7.id)
 			else
 				slot8 = Chapter.New(slot7)
 
@@ -677,6 +677,42 @@ function slot0.getUnlockActMapBytype(slot0, slot1, slot2, slot3)
 	return slot4[1]
 end
 
+function slot0.getBindActMapBytype(slot0, slot1, slot2, slot3)
+	slot4 = {}
+
+	for slot9, slot10 in pairs(slot5) do
+		if slot10:getConfig("type") == slot2 and slot10:getConfig("on_activity") == slot3 then
+			table.insert(slot4, slot10)
+		end
+	end
+
+	for slot9, slot10 in ipairs(slot4) do
+		if slot10:getActiveChapter() then
+			return slot10
+		end
+	end
+
+	if (slot1 and slot1:getBindMap()) ~= 0 then
+		slot8 = slot5[slot5[slot6].id - 1]
+
+		if slot5[slot6] and slot7:isUnlock() and (not slot8 or slot8:isClearForActivity()) then
+			return slot7
+		end
+	end
+
+	table.sort(slot4, function (slot0, slot1)
+		return slot1.id < slot0.id
+	end)
+
+	for slot10, slot11 in ipairs(slot4) do
+		if (not slot5[slot11.id - 1] or slot12:isClearForActivity()) and slot11:isUnlock() then
+			return slot11
+		end
+	end
+
+	return slot4[#slot4]
+end
+
 function slot0.getLastMapForActivity(slot0)
 	slot2, slot3 = nil
 
@@ -890,103 +926,580 @@ end
 function slot0.eliteFleetRecommend(slot0, slot1, slot2)
 	slot3 = getProxy(BayProxy)
 	slot4 = slot1:getEliteFleetList()[slot2]
-	slot6 = {}
-	slot7 = {}
-	slot8 = {
+
+
+	-- Decompilation error in this vicinity:
+	function (slot0)
+		table.sort(slot0, function (slot0, slot1)
+			if type(slot0) == type(slot1) then
+				return slot3 < slot2
+			elseif slot2 == "string" then
+				return slot1 == 0
+			else
+				return slot0 ~= 0
+			end
+		end)
+	end((slot1:getConfig("limitation")[slot2] and Clone(slot5[1])) or {
 		0,
 		0,
 		0
-	}
+	})
 
-	if slot1:getConfig("limitation")[slot2] then
-		slot6 = Clone(slot5[1])
-		slot7 = Clone(slot5[2])
-	end
+	-- Decompilation error in this vicinity:
+	function (slot0)
+		table.sort(slot0, function (slot0, slot1)
+			if type(slot0) == type(slot1) then
+				return slot3 < slot2
+			elseif slot2 == "string" then
+				return slot1 == 0
+			else
+				return slot0 ~= 0
+			end
+		end)
+	end((slot5 and Clone(slot5[2])) or {
+		0,
+		0,
+		0
+	})
 
-	slot9 = getProxy(BayProxy):getRawData()
+	-- Decompilation error in this vicinity:
+	function (slot0)
+		table.sort(slot0, function (slot0, slot1)
+			if type(slot0) == type(slot1) then
+				return slot3 < slot2
+			elseif slot2 == "string" then
+				return slot1 == 0
+			else
+				return slot0 ~= 0
+			end
+		end)
+	end(slot9)
+
 	slot10 = {}
 
 	for slot14, slot15 in ipairs(slot1:getEliteFleetList()) do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 47-50, warpins: 1 ---
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 51-55, warpins: 0 ---
 		for slot19, slot20 in ipairs(slot15) do
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 51-53, warpins: 1 ---
 			slot10[#slot10 + 1] = slot20
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 54-55, warpins: 2 ---
+			--- END OF BLOCK #1 ---
+
+
+
 		end
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 56-57, warpins: 2 ---
+		--- END OF BLOCK #2 ---
+
+
+
 	end
 
 	slot11 = {
-		[TeamType.Main] = slot6,
-		[TeamType.Vanguard] = slot7,
-		[TeamType.Submarine] = slot8
+		[TeamType.Main] = slot7,
+		[TeamType.Vanguard] = slot8,
+		[TeamType.Submarine] = slot9
 	}
 
-	for slot15, slot16 in ipairs(slot4) do
-		slot20 = 0
-		slot21 = nil
-		slot20 = (table.contains(slot11[pg.ship_data_by_type[slot9[slot16].getShipType(slot17)].team_type], slot9[slot16].getShipType(slot17)) and slot18) or 0
+	function slot12(slot0, slot1)
 
-		for slot25, slot26 in ipairs(slot21) do
-			if slot26 == slot20 then
-				table.remove(slot21, slot25)
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-5, warpins: 1 ---
+		if type(slot1) == "string" then
 
-				break
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 6-13, warpins: 1 ---
+			return table.contains(ShipType.BundleList[slot1], slot0)
+			--- END OF BLOCK #0 ---
+
+
+
+		else
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 14-18, warpins: 1 ---
+			if type(slot1) == "number" then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 19-20, warpins: 1 ---
+				return slot1 == 0 or slot0 == slot1
+				--- END OF BLOCK #0 ---
+
+				FLOW; TARGET BLOCK #1
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #1 26-26, warpins: 2 ---
+				--- END OF BLOCK #1 ---
+
+
+
 			end
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 27-27, warpins: 3 ---
+		return
+		--- END OF BLOCK #1 ---
+
+
+
 	end
 
-	function slot12(slot0)
+	slot13 = getProxy(BayProxy):getRawData()
+
+	for slot17, slot18 in ipairs(slot4) do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 79-92, warpins: 1 ---
+		slot22 = 0
+
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 93-102, warpins: 0 ---
+		for slot27, slot28 in ipairs(slot23) do
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 93-98, warpins: 1 ---
+			if slot12(slot20, slot28) then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 99-100, warpins: 1 ---
+				slot22 = slot28
+
+				--- END OF BLOCK #0 ---
+
+				FLOW; TARGET BLOCK #1
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #1 101-101, warpins: 1 ---
+				break
+				--- END OF BLOCK #1 ---
+
+
+
+			end
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 101-102, warpins: 2 ---
+			--- END OF BLOCK #1 ---
+
+
+
+		end
+
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 103-106, warpins: 2 ---
+		--- END OF BLOCK #2 ---
+
+		FLOW; TARGET BLOCK #3
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #3 107-116, warpins: 0 ---
+		for slot27, slot28 in ipairs(slot23) do
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 107-108, warpins: 1 ---
+			if slot28 == slot22 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 109-114, warpins: 1 ---
+				table.remove(slot23, slot27)
+
+				--- END OF BLOCK #0 ---
+
+				FLOW; TARGET BLOCK #1
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #1 115-115, warpins: 1 ---
+				break
+				--- END OF BLOCK #1 ---
+
+
+
+			end
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 115-116, warpins: 2 ---
+			--- END OF BLOCK #1 ---
+
+
+
+		end
+		--- END OF BLOCK #3 ---
+
+		FLOW; TARGET BLOCK #4
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #4 117-118, warpins: 3 ---
+		--- END OF BLOCK #4 ---
+
+
+
+	end
+
+	function slot14(slot0)
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-8, warpins: 1 ---
 		if slot0:getEliteRecommendShip(slot0, slot0.getEliteRecommendShip) then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 9-19, warpins: 1 ---
 			slot1[#slot1 + 1] = slot1.id
 			slot1.id[#slot2 + 1] = slot1.id
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 20-20, warpins: 2 ---
+		return
+		--- END OF BLOCK #1 ---
+
+
+
 	end
 
 	if slot2 >= 1 and slot2 <= 2 then
-		for slot16, slot17 in ipairs(slot6) do
-			slot18 = nil
 
-			if type(slot17) == "string" then
-				slot18 = Clone(ShipType.BundleList[slot17])
-			elseif type(slot17) == "number" then
-				slot12((slot17 ~= 0 or TeamType.MainShipType) and {
-					slot17
-				})
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 126-129, warpins: 1 ---
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 130-160, warpins: 0 ---
+		for slot18, slot19 in ipairs(slot7) do
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 130-135, warpins: 1 ---
+			slot20 = nil
+
+			if type(slot19) == "string" then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 136-142, warpins: 1 ---
+				slot20 = Clone(ShipType.BundleList[slot19])
+				--- END OF BLOCK #0 ---
+
+
+
+			else
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 143-147, warpins: 1 ---
+				if type(slot19) == "number" then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 148-149, warpins: 1 ---
+					slot14((slot19 ~= 0 or TeamType.MainShipType) and {
+						slot19
+					})
+					--- END OF BLOCK #0 ---
+
+
+
+				end
+				--- END OF BLOCK #0 ---
+
+
+
 			end
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 156-158, warpins: 4 ---
+			--- END OF BLOCK #1 ---
+
+			FLOW; TARGET BLOCK #2
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #2 159-160, warpins: 2 ---
+			--- END OF BLOCK #2 ---
+
+
+
 		end
 
-		for slot16, slot17 in ipairs(slot7) do
-			slot18 = nil
+		--- END OF BLOCK #1 ---
 
-			if type(slot17) == "string" then
-				slot18 = Clone(ShipType.BundleList[slot17])
-			elseif type(slot17) == "number" then
-				slot12((slot17 ~= 0 or TeamType.VanguardShipType) and {
-					slot17
-				})
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 161-164, warpins: 1 ---
+		--- END OF BLOCK #2 ---
+
+		FLOW; TARGET BLOCK #3
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #3 165-195, warpins: 0 ---
+		for slot18, slot19 in ipairs(slot8) do
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 165-170, warpins: 1 ---
+			slot20 = nil
+
+			if type(slot19) == "string" then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 171-177, warpins: 1 ---
+				slot20 = Clone(ShipType.BundleList[slot19])
+				--- END OF BLOCK #0 ---
+
+
+
+			else
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 178-182, warpins: 1 ---
+				if type(slot19) == "number" then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 183-184, warpins: 1 ---
+					slot14((slot19 ~= 0 or TeamType.VanguardShipType) and {
+						slot19
+					})
+					--- END OF BLOCK #0 ---
+
+
+
+				end
+				--- END OF BLOCK #0 ---
+
+
+
 			end
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 191-193, warpins: 4 ---
+			--- END OF BLOCK #1 ---
+
+			FLOW; TARGET BLOCK #2
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #2 194-195, warpins: 2 ---
+			--- END OF BLOCK #2 ---
+
+
+
 		end
+		--- END OF BLOCK #3 ---
+
+		FLOW; TARGET BLOCK #4
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #4 196-196, warpins: 1 ---
+		--- END OF BLOCK #4 ---
+
+
+
 	else
-		for slot16, slot17 in ipairs(slot8) do
-			slot18 = nil
 
-			if type(slot17) == "string" then
-				slot18 = Clone(ShipType.BundleList[slot17])
-			elseif type(slot17) == "number" then
-				slot12((slot17 ~= 0 or TeamType.SubShipType) and {
-					slot17
-				})
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 197-200, warpins: 2 ---
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 201-231, warpins: 0 ---
+		for slot18, slot19 in ipairs(slot9) do
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 201-206, warpins: 1 ---
+			slot20 = nil
+
+			if type(slot19) == "string" then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 207-213, warpins: 1 ---
+				slot20 = Clone(ShipType.BundleList[slot19])
+				--- END OF BLOCK #0 ---
+
+
+
+			else
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 214-218, warpins: 1 ---
+				if type(slot19) == "number" then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 219-220, warpins: 1 ---
+					slot14((slot19 ~= 0 or TeamType.SubShipType) and {
+						slot19
+					})
+					--- END OF BLOCK #0 ---
+
+
+
+				end
+				--- END OF BLOCK #0 ---
+
+
+
 			end
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 227-229, warpins: 4 ---
+			--- END OF BLOCK #1 ---
+
+			FLOW; TARGET BLOCK #2
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #2 230-231, warpins: 2 ---
+			--- END OF BLOCK #2 ---
+
+
+
 		end
+		--- END OF BLOCK #1 ---
+
+
+
 	end
 end
 
 function slot0.isClear(slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-6, warpins: 1 ---
 	return slot0:getChapterById(slot1) and slot2:isClear()
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 10-10, warpins: 2 ---
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot0.getShamChapter(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-3, warpins: 1 ---
 	return Clone(slot0.shamChapter)
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.updateShamChapter(slot0, slot1, slot2)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-23, warpins: 1 ---
 	slot0.shamChapter = slot1
 
 	slot0.facade:sendNotification(slot0.SHAM_CHAPTER_UPDATED, {
@@ -994,38 +1507,108 @@ function slot0.updateShamChapter(slot0, slot1, slot2)
 		dirty = defaultValue(slot2, 0)
 	})
 	slot0.shamChapter.fleet:clearShipHpChange()
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.updateShamChapterShips(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-5, warpins: 1 ---
 	slot0.shamChapter:flushShips()
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.localSaveShamChapter(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-5, warpins: 1 ---
 	slot0.shamChapter:localSaveChapter()
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.resetShamChapter(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-7, warpins: 1 ---
 	slot0.shamChapter.shamResetCount = 0
 	slot0.shamChapter.repairTimes = 0
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.localLoadShamChapter(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-5, warpins: 1 ---
 	slot0.shamChapter:localLoadChapter()
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.getGuildChapter(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-3, warpins: 1 ---
 	return Clone(slot0.guildChapter)
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.localLoadGuildChapter(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-5, warpins: 1 ---
 	slot0.guildChapter:localLoadChapter()
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.localSaveGuildChapter(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-5, warpins: 1 ---
 	slot0.guildChapter:localSaveChapter()
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.updateGuildChapter(slot0, slot1, slot2)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-23, warpins: 1 ---
 	slot0.guildChapter = slot1
 
 	slot0.facade:sendNotification(slot0.GUILD_CHAPTER_UPDATED, {
@@ -1033,201 +1616,1071 @@ function slot0.updateGuildChapter(slot0, slot1, slot2)
 		dirty = defaultValue(slot2, 0)
 	})
 	slot0.guildChapter.fleet:clearShipHpChange()
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.updateGuildChapterShips(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-3, warpins: 1 ---
 	if slot0.guildChapter then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 4-7, warpins: 1 ---
 		slot0.guildChapter:flushShips()
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 8-8, warpins: 2 ---
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot0.getEscortShop(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-3, warpins: 1 ---
 	return Clone(slot0.escortShop)
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.updateEscortShop(slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-2, warpins: 1 ---
 	slot0.escortShop = slot1
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.removeEscortChapter(slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-4, warpins: 1 ---
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 5-23, warpins: 0 ---
 	for slot5, slot6 in pairs(slot0.escortMaps) do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 5-9, warpins: 1 ---
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 10-21, warpins: 0 ---
 		for slot10 = #slot6.chapters, 1, -1 do
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 10-15, warpins: 2 ---
 			if slot6.chapters[slot10].chapter.id == slot1 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 16-20, warpins: 1 ---
 				table.remove(slot6.chapters, slot10)
+				--- END OF BLOCK #0 ---
+
+
+
 			end
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 21-21, warpins: 2 ---
+			--- END OF BLOCK #1 ---
+
+
+
 		end
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 22-23, warpins: 2 ---
+		--- END OF BLOCK #2 ---
+
+
+
 	end
+
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 24-24, warpins: 1 ---
+	return
+	--- END OF BLOCK #2 ---
+
+
+
 end
 
 function slot0.recordLastMap(slot0, slot1, slot2)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-5, warpins: 1 ---
 	slot3 = false
 
 	if slot1 == slot0.LAST_MAP_FOR_ACTIVITY then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 6-9, warpins: 1 ---
 		Map.lastMapForActivity = slot2
 		slot3 = true
-	elseif slot1 == slot0.LAST_MAP and slot2 ~= Map.lastMap then
-		Map.lastMap = slot2
-		slot3 = true
+		--- END OF BLOCK #0 ---
+
+
+
+	else
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 10-13, warpins: 1 ---
+		if slot1 == slot0.LAST_MAP and slot2 ~= Map.lastMap then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 18-20, warpins: 1 ---
+			Map.lastMap = slot2
+			slot3 = true
+			--- END OF BLOCK #0 ---
+
+
+
+		end
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 21-22, warpins: 4 ---
 	if slot3 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 23-38, warpins: 1 ---
 		PlayerPrefs.SetInt(slot1 .. getProxy(PlayerProxy):getRawData().id, slot2)
 		PlayerPrefs.Save()
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 39-39, warpins: 2 ---
+	return
+	--- END OF BLOCK #2 ---
+
+
+
 end
 
 function slot0.getLastMap(slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-14, warpins: 1 ---
 	if PlayerPrefs.GetInt(slot1 .. getProxy(PlayerProxy):getRawData().id) ~= 0 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 15-15, warpins: 1 ---
 		return slot3
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 16-16, warpins: 2 ---
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot0.getChapterCommandes(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-5, warpins: 1 ---
 	slot1 = {}
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 6-27, warpins: 0 ---
 	for slot5, slot6 in pairs(slot0.data) do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 6-12, warpins: 1 ---
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 13-25, warpins: 0 ---
 		for slot11, slot12 in pairs(slot7) do
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 13-16, warpins: 1 ---
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 17-23, warpins: 0 ---
 			for slot16, slot17 in pairs(slot12) do
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 17-21, warpins: 1 ---
 				table.insert(slot1, slot17)
+				--- END OF BLOCK #0 ---
+
+				FLOW; TARGET BLOCK #1
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #1 22-23, warpins: 2 ---
+				--- END OF BLOCK #1 ---
+
+
+
 			end
+			--- END OF BLOCK #1 ---
+
+			FLOW; TARGET BLOCK #2
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #2 24-25, warpins: 2 ---
+			--- END OF BLOCK #2 ---
+
+
+
 		end
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 26-27, warpins: 2 ---
+		--- END OF BLOCK #2 ---
+
+
+
 	end
 
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 28-28, warpins: 1 ---
 	return slot1
+	--- END OF BLOCK #2 ---
+
+
+
 end
 
 function slot0.getFleetCommander(slot0, slot1, slot2)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-4, warpins: 1 ---
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 5-21, warpins: 0 ---
 	for slot6, slot7 in pairs(slot0.data) do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 5-7, warpins: 1 ---
 		if slot7.id == slot1 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 8-14, warpins: 1 ---
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 15-19, warpins: 0 ---
 			for slot12, slot13 in pairs(slot8) do
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 15-16, warpins: 1 ---
 				if slot2 == slot12 then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 17-17, warpins: 1 ---
 					return slot13
+					--- END OF BLOCK #0 ---
+
+
+
 				end
+				--- END OF BLOCK #0 ---
+
+				FLOW; TARGET BLOCK #1
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #1 18-19, warpins: 3 ---
+				--- END OF BLOCK #1 ---
+
+
+
 			end
+			--- END OF BLOCK #1 ---
+
+
+
 		end
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 20-21, warpins: 3 ---
+		--- END OF BLOCK #1 ---
+
+
+
 	end
+
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 22-22, warpins: 1 ---
+	return
+	--- END OF BLOCK #2 ---
+
+
+
 end
 
 function slot0.getOtherFleetCommander(slot0, slot1, slot2)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-5, warpins: 1 ---
 	slot3 = {}
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 6-26, warpins: 0 ---
 	for slot7, slot8 in pairs(slot0.data) do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 6-8, warpins: 1 ---
 		if slot8.id == slot1 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 9-15, warpins: 1 ---
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 16-24, warpins: 0 ---
 			for slot13, slot14 in pairs(slot9) do
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 16-17, warpins: 1 ---
 				if slot2 ~= slot13 then
+
+					-- Decompilation error in this vicinity:
+					--- BLOCK #0 18-22, warpins: 1 ---
 					table.insert(slot3, slot14)
+					--- END OF BLOCK #0 ---
+
+
+
 				end
+				--- END OF BLOCK #0 ---
+
+				FLOW; TARGET BLOCK #1
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #1 23-24, warpins: 3 ---
+				--- END OF BLOCK #1 ---
+
+
+
 			end
+			--- END OF BLOCK #1 ---
+
+
+
 		end
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 25-26, warpins: 3 ---
+		--- END OF BLOCK #1 ---
+
+
+
 	end
 
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 27-27, warpins: 1 ---
 	return slot3
+	--- END OF BLOCK #2 ---
+
+
+
 end
 
 function slot0.getSubAidFlag(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-13, warpins: 1 ---
 	slot1 = ys.Battle.BattleConst.SubAidFlag
 	slot2 = slot0.fleet
 	slot3 = false
 
 	if _.detect(slot0.fleets, function (slot0)
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 1-7, warpins: 1 ---
 		return slot0:getFleetType() == FleetType.Submarine and slot0:isValid()
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 15-15, warpins: 3 ---
+		--- END OF BLOCK #1 ---
+
+
+
 	end) then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 14-22, warpins: 1 ---
 		if slot4:inHuntingRange(slot2.line.row, slot2.line.column) then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 23-24, warpins: 1 ---
 			slot3 = true
-		elseif _.detect(slot4:getStrategies(), function (slot0)
-			return slot0.id == ChapterConst.StrategyCallSubOutofRange
-		end) and slot6.count > 0 then
-			slot3 = true
+			--- END OF BLOCK #0 ---
+
+
+
+		else
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 25-34, warpins: 1 ---
+			if _.detect(slot4:getStrategies(), function (slot0)
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 1-5, warpins: 1 ---
+				return slot0.id == ChapterConst.StrategyCallSubOutofRange
+				--- END OF BLOCK #0 ---
+
+				FLOW; TARGET BLOCK #1
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #1 9-9, warpins: 2 ---
+				--- END OF BLOCK #1 ---
+
+
+
+			end) and slot6.count > 0 then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 39-39, warpins: 1 ---
+				slot3 = true
+				--- END OF BLOCK #0 ---
+
+
+
+			end
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 40-41, warpins: 5 ---
 	if slot3 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 42-58, warpins: 1 ---
 		slot6 = getProxy(PlayerProxy).getRawData(slot5)
 		slot7, slot8 = slot0:getFleetCost(slot2)
 		slot9, slot10 = slot0:getFleetAmmo(slot4)
 
 		if slot10 <= 0 then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 59-62, warpins: 1 ---
 			return slot1.AMMO_EMPTY
-		elseif slot6.oil < slot4:getSummonCost() + slot8.oil then
-			return slot1.OIL_EMPTY
+			--- END OF BLOCK #0 ---
+
+
+
 		else
-			return true, slot4
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 63-70, warpins: 1 ---
+			if slot6.oil < slot4:getSummonCost() + slot8.oil then
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 71-74, warpins: 1 ---
+				return slot1.OIL_EMPTY
+				--- END OF BLOCK #0 ---
+
+
+
+			else
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 75-79, warpins: 1 ---
+				return true, slot4
+				--- END OF BLOCK #0 ---
+
+
+
+			end
+			--- END OF BLOCK #0 ---
+
+
+
 		end
+		--- END OF BLOCK #0 ---
+
+
+
 	else
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 80-82, warpins: 1 ---
 		return slot1.AID_EMPTY
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 83-83, warpins: 4 ---
+	return
+	--- END OF BLOCK #2 ---
+
+
+
 end
 
 function slot0.GetChapterAuraBuffs(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-5, warpins: 1 ---
 	slot1 = {}
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 6-21, warpins: 0 ---
 	for slot5, slot6 in ipairs(slot0.fleets) do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 6-12, warpins: 1 ---
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 13-19, warpins: 0 ---
 		for slot11, slot12 in ipairs(slot7) do
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 13-17, warpins: 1 ---
 			table.insert(slot1, slot12)
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 18-19, warpins: 2 ---
+			--- END OF BLOCK #1 ---
+
+
+
 		end
+		--- END OF BLOCK #1 ---
+
+		FLOW; TARGET BLOCK #2
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #2 20-21, warpins: 2 ---
+		--- END OF BLOCK #2 ---
+
+
+
 	end
 
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 22-22, warpins: 1 ---
 	return slot1
+	--- END OF BLOCK #2 ---
+
+
+
+end
+
+function slot0.GetChapterAidBuffs(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-5, warpins: 1 ---
+	slot1 = {}
+
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 6-20, warpins: 0 ---
+	for slot5, slot6 in ipairs(slot0.fleets) do
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 6-8, warpins: 1 ---
+		if slot6 ~= slot0.fleet then
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #0 9-15, warpins: 1 ---
+			--- END OF BLOCK #0 ---
+
+			FLOW; TARGET BLOCK #1
+
+
+
+			-- Decompilation error in this vicinity:
+			--- BLOCK #1 16-18, warpins: 0 ---
+			for slot11, slot12 in pairs(slot7) do
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #0 16-16, warpins: 1 ---
+				slot1[slot11] = slot12
+				--- END OF BLOCK #0 ---
+
+				FLOW; TARGET BLOCK #1
+
+
+
+				-- Decompilation error in this vicinity:
+				--- BLOCK #1 17-18, warpins: 2 ---
+				--- END OF BLOCK #1 ---
+
+
+
+			end
+			--- END OF BLOCK #1 ---
+
+
+
+		end
+		--- END OF BLOCK #0 ---
+
+		FLOW; TARGET BLOCK #1
+
+
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #1 19-20, warpins: 3 ---
+		--- END OF BLOCK #1 ---
+
+
+
+	end
+
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 21-21, warpins: 1 ---
+	return slot1
+	--- END OF BLOCK #2 ---
+
+
+
 end
 
 function slot0.RecordLastDefeatedEnemy(slot0, slot1, slot2)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-2, warpins: 1 ---
 	if not slot1 or slot1 <= 0 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 6-6, warpins: 2 ---
 		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 7-9, warpins: 2 ---
 	slot0.defeatedEnemiesBuffer[slot1] = slot2
+
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot0.RecordComboHistory(slot0, slot1, slot2)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-2, warpins: 1 ---
 	if not slot1 or slot1 <= 0 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 6-6, warpins: 2 ---
 		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 7-9, warpins: 2 ---
 	slot0.comboHistoryBuffer[slot1] = slot2
+
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot0.RecordJustClearChapters(slot0, slot1, slot2)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-2, warpins: 1 ---
 	if not slot1 or slot1 <= 0 then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 6-6, warpins: 2 ---
 		return
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 7-9, warpins: 2 ---
 	slot0.justClearChapters[slot1] = slot2
+
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 function slot0.GetJustClearChapters(slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-3, warpins: 1 ---
 	return slot0.justClearChapters[slot1]
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.ifShowRemasterTip(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-2, warpins: 1 ---
 	return slot0.remasterTip
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.setRemasterTip(slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-2, warpins: 1 ---
 	slot0.remasterTip = slot1
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.updateRemasterTicketsNum(slot0, slot1)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-2, warpins: 1 ---
 	slot0.remasterTickets = slot1
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.updateDailyCount(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-4, warpins: 1 ---
 	slot0.remasterDailyCount = slot0.remasterDailyCount + 2
+
+	return
+	--- END OF BLOCK #0 ---
+
+
+
 end
 
 function slot0.GetSkipPrecombat(slot0)
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 1-3, warpins: 1 ---
 	if slot0.skipPrecombat == nil then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 4-9, warpins: 1 ---
 		slot0.skipPrecombat = PlayerPrefs.GetInt("chapter_skip_precombat", 0)
+		--- END OF BLOCK #0 ---
+
+
+
 	end
 
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 10-13, warpins: 2 ---
 	return (slot0.skipPrecombat > 0 and true) or false
+	--- END OF BLOCK #1 ---
+
+	FLOW; TARGET BLOCK #2
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #2 17-17, warpins: 2 ---
+	--- END OF BLOCK #2 ---
+
+
+
 end
 
 function slot0.UpdateSkipPrecombat(slot0, slot1)
-	if ((tobool(slot1) and 1) or 0) ~= slot0:GetSkipPrecombat() then
-		PlayerPrefs.SetInt("chapter_skip_precombat", slot2)
 
-		slot0.skipPrecombat = slot2
+	-- Decompilation error in this vicinity:
+	--- BLOCK #0 9-13, warpins: 2 ---
+	if ((tobool(slot1) and 1) or 0) ~= slot0:GetSkipPrecombat() then
+
+		-- Decompilation error in this vicinity:
+		--- BLOCK #0 14-19, warpins: 1 ---
+		PlayerPrefs.SetInt("chapter_skip_precombat", slot1)
+
+		slot0.skipPrecombat = slot1
+		--- END OF BLOCK #0 ---
+
+
+
 	end
+
+	--- END OF BLOCK #0 ---
+
+	FLOW; TARGET BLOCK #1
+
+
+
+	-- Decompilation error in this vicinity:
+	--- BLOCK #1 20-20, warpins: 2 ---
+	return
+	--- END OF BLOCK #1 ---
+
+
+
 end
 
 return slot0

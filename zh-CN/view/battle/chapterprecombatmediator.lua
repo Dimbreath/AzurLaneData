@@ -5,8 +5,15 @@ slot0.ON_SWITCH_FLEET = "ChapterPreCombatMediator:ON_SWITCH_FLEET"
 slot0.ON_OP = "ChapterPreCombatMediator:ON_OP"
 slot0.ON_AUTO = "ChapterPreCombatMediator:ON_AUTO"
 slot0.ON_SUB_AUTO = "ChapterPreCombatMediator:ON_SUB_AUTO"
+slot0.GET_CHAPTER_DROP_SHIP_LIST = "ChapterPreCombatMediator:GET_CHAPTER_DROP_SHIP_LIST"
 
 function slot0.register(slot0)
+	slot0:bind(slot0.GET_CHAPTER_DROP_SHIP_LIST, function (slot0, slot1, slot2)
+		slot0:sendNotification(GAME.GET_CHAPTER_DROP_SHIP_LIST, {
+			chapterId = slot1,
+			callback = slot2
+		})
+	end)
 	slot0:bind(slot0.ON_SWITCH_SHIP, function (slot0, slot1, slot2)
 		slot3 = getProxy(ChapterProxy)
 

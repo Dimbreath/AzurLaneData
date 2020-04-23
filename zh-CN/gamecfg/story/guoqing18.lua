@@ -56,7 +56,26 @@ return {
 			dir = -1,
 			actor = 307010,
 			nameColor = "#ff0000",
-			say = "只要继续献上更多优质的灵魂就…",
+			say = "只要继续献上更多优质的灵魂...“那位大人”就......",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307060,
+			actorName = "{namecode:96}",
+			side = 0,
+			nameColor = "#a9f548",
+			say = "那些东西...才不是什么神明呢！",
 			shake = {
 				speed = 1,
 				number = 3

@@ -1814,7 +1814,7 @@ pg.gametip = {
 		key = "lesson_startToLearn_error"
 	},
 	tactics_lesson_cancel = {
-		tip = "取消训练将返还部分经验并<color=#92fc63>消耗课本</color>，是否确认？",
+		tip = "取消训练将返还部分经验并<color=#92fc63>消耗教材</color>，是否确认？",
 		key = "tactics_lesson_cancel"
 	},
 	tactics_lesson_system_introduce = {
@@ -1871,7 +1871,7 @@ pg.gametip = {
 		key = "tactics_skill_level_up"
 	},
 	tactics_no_lesson = {
-		tip = "没有可以使用的课本",
+		tip = "没有可以使用的教材",
 		key = "tactics_no_lesson"
 	},
 	tactics_lesson_full = {
@@ -9092,11 +9092,11 @@ $3]],
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "无畏、布莱默顿等角色限时建造！",
+		tip = "{namecode:81}、{namecode:161}等角色出现概率UP！",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
-		tip = "华盛顿、北卡罗来纳、明尼阿波利斯等角色建造追加！",
+		tip = "{namecode:169} 建造追加",
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
@@ -9104,7 +9104,7 @@ $3]],
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "埃塞克斯 建造追加！",
+		tip = "{namecode:170}、小齐柏林 建造追加",
 		key = "buildship_special_tip"
 	},
 	open_skill_pos = {
@@ -12843,9 +12843,41 @@ TIPS：
 		tip = "取 消",
 		key = "shop_word_cancel"
 	},
+	title_item_ways = {
+		tip = "指挥官可通过以下途径获取<color=#92fc63>$1</color>",
+		key = "title_item_ways"
+	},
+	item_lack_title = {
+		tip = "<color=#92fc63>$1</color>不足， 可通过以下方式获取<color=#92fc63>$1</color>",
+		key = "item_lack_title"
+	},
+	oil_buy_tip_2 = {
+		tip = [[
+石油不足，是否<size=30>花费 </size><icon name=diamond w=0.7 h=0.7/><size=30><color=#92fc63>$1</color></size> 购买 <size=30><color=#92fc63>$2</color></size><size=30> 石油</size><size=28>
+当前还需要<size=28><color=#ff5c5c>$4</color></size>石油
+
+</size><size=28><color=#a2a2a2>( 今日已经购买 <size=28><color=#ff5c5c>$3</color></size> 次 )</color></size>]],
+		key = "oil_buy_tip_2"
+	},
+	target_chapter_is_lock = {
+		tip = "目标章节当前未解锁",
+		key = "target_chapter_is_lock"
+	},
+	ship_book = {
+		tip = "<color=#92fc63>教材</color>",
+		key = "ship_book"
+	},
 	month_sign_resign = {
 		tip = "由于4月4日全港区停服，为指挥官补发一日签到奖励",
 		key = "month_sign_resign"
+	},
+	collect_tip = {
+		tip = "队伍中有角色正在出征，无法加入委托阵容",
+		key = "collect_tip"
+	},
+	collect_tip2 = {
+		tip = "队伍中有角色正处于编队，无法加入委托阵容",
+		key = "collect_tip2"
 	}
 }
 

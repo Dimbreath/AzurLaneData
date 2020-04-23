@@ -54,7 +54,7 @@ return {
 			actorName = "{namecode:132}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "才…才没有呢！人家才没有想告诉你{namecode:95}老师其实被她们封锁在圣域中心的那座大房子里呢！",
+			say = "才...才没有呢！人家才没有想告诉你{namecode:95}其实被她们封锁在圣域中心的那座大房子里呢！",
 			shake = {
 				speed = 1,
 				number = 3
