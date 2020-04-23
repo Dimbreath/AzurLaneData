@@ -2488,6 +2488,78 @@ pg.skill_data_display = {
 		id = 13150,
 		name = "Blue Hunter "
 	},
+	[13160] = {
+		id = 13160,
+		name = "Accomplish Any Feat! "
+	},
+	[13161] = {
+		id = 13161,
+		name = "Accomplish Any Feat! "
+	},
+	[13162] = {
+		id = 13162,
+		name = "Accomplish Any Feat! "
+	},
+	[13163] = {
+		id = 13163,
+		name = "Accomplish Any Feat! "
+	},
+	[13166] = {
+		id = 13166,
+		name = "Accomplish Any Feat! "
+	},
+	[13167] = {
+		id = 13167,
+		name = "Accomplish Any Feat! "
+	},
+	[13168] = {
+		id = 13168,
+		name = "Accomplish Any Feat! "
+	},
+	[13170] = {
+		id = 13170,
+		name = "Crush Any Contender! "
+	},
+	[13171] = {
+		id = 13171,
+		name = "Crush Any Contender! "
+	},
+	[13180] = {
+		id = 13180,
+		name = "Legacy of Lunga Point "
+	},
+	[13190] = {
+		id = 13190,
+		name = "I'm Not Afraid Anymore! "
+	},
+	[13191] = {
+		id = 13191,
+		name = "I'm Not Afraid Anymore! "
+	},
+	[13200] = {
+		id = 13200,
+		name = "Knight's Shooting Training "
+	},
+	[13201] = {
+		id = 13201,
+		name = "Knight's Shooting Training "
+	},
+	[13202] = {
+		id = 13202,
+		name = "Knight's Shooting Training "
+	},
+	[13203] = {
+		id = 13203,
+		name = "Knight's Shooting Training "
+	},
+	[13210] = {
+		id = 13210,
+		name = "Knight's Formation Drill "
+	},
+	[13220] = {
+		id = 13220,
+		name = "Crush Any Contender! "
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+ "
@@ -3315,6 +3387,38 @@ pg.skill_data_display = {
 	[24012] = {
 		id = 24012,
 		name = "All Out Assault Ⅱ"
+	},
+	[24021] = {
+		id = 24021,
+		name = "Special Barrage - Qinglong Ⅰ"
+	},
+	[24022] = {
+		id = 24022,
+		name = "Special Barrage - Qinglong Ⅱ"
+	},
+	[24031] = {
+		id = 24031,
+		name = "Special Barrage - Zhuque Ⅰ"
+	},
+	[24032] = {
+		id = 24032,
+		name = "Special Barrage - Zhuque Ⅱ"
+	},
+	[24041] = {
+		id = 24041,
+		name = "Special Barrage - Baihu I"
+	},
+	[24042] = {
+		id = 24042,
+		name = "Special Barrage - Baihu II"
+	},
+	[24051] = {
+		id = 24051,
+		name = "Special Barrage - Xuanwu I"
+	},
+	[24052] = {
+		id = 24052,
+		name = "Special Barrage - Xuanwu II"
 	},
 	[24111] = {
 		id = 24111,
@@ -4687,6 +4791,24 @@ pg.skill_data_display = {
 		13140,
 		13142,
 		13150,
+		13160,
+		13161,
+		13162,
+		13163,
+		13166,
+		13167,
+		13168,
+		13170,
+		13171,
+		13180,
+		13190,
+		13191,
+		13200,
+		13201,
+		13202,
+		13203,
+		13210,
+		13220,
 		18010,
 		18040,
 		18041,
@@ -4894,6 +5016,14 @@ pg.skill_data_display = {
 		23512,
 		24011,
 		24012,
+		24021,
+		24022,
+		24031,
+		24032,
+		24041,
+		24042,
+		24051,
+		24052,
 		24111,
 		24112,
 		24121,

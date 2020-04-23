@@ -33,19 +33,23 @@ return {
 					10
 				},
 				{
-					" ",
+					"Is that you, my Creator?",
 					12
 				},
 				{
-					"Is that you, my Creator?",
-					13
+					"if I may so ask?",
+					14
+				},
+				{
+					"O, my Creator?",
+					17
 				}
 			}
 		},
 		{
 			sequence = {
 				{
-					"——Visitors Dyed in Red",
+					"Visitors Dyed in Red",
 					2
 				}
 			}
@@ -130,7 +134,7 @@ return {
 			blackBg = true,
 			actor = 900011,
 			nameColor = "#a9f548",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +170,7 @@ return {
 			blackBg = true,
 			actor = 900011,
 			nameColor = "#a9f548",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +188,7 @@ return {
 			blackBg = true,
 			actor = 900011,
 			nameColor = "#a9f548",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +295,7 @@ return {
 			blackBg = true,
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "......",
 			flashout = {
 				dur = 1.5,
 				alpha = {
@@ -391,7 +395,7 @@ return {
 			blackBg = true,
 			actor = 307060,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

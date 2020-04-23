@@ -94,7 +94,7 @@ return {
 		{
 			withoutPainting = true,
 			side = 0,
-			actorName = "system",
+			actorName = "SYSTEM",
 			dir = 0,
 			soundeffect = "event:/ui/alarm",
 			actor = 900011,
@@ -115,7 +115,7 @@ return {
 			nameColor = "#ff0000",
 			dir = 0,
 			actor = 900011,
-			actorName = "system",
+			actorName = "SYSTEM",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.02,
@@ -132,7 +132,7 @@ return {
 			nameColor = "#ff0000",
 			dir = 0,
 			actor = 900011,
-			actorName = "system",
+			actorName = "SYSTEM",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.02,
@@ -150,6 +150,22 @@ return {
 			dir = 1,
 			nameColor = "#ff0000",
 			say = "My sister, everything in this world has its cause and effect. We must always look for another possibility through this infinite cycle of death and rebirth...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 307020,
+			actorName = "{namecode:92}",
+			side = 2,
+			dir = 1,
+			nameColor = "#ff0000",
+			say = "That is why we conduct experiments in this Sanctuary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +208,7 @@ return {
 			}
 		},
 		{
-			actorName = "Tester (???)",
+			actorName = "Tester",
 			side = 2,
 			blackBg = true,
 			actor = 900011,
@@ -226,9 +242,25 @@ return {
 			actor = 900012,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "Observer (???)",
+			actorName = "Observer",
 			blackBg = true,
 			say = "Hm? Let me see... Test Site Gamma...? Oh, that insignificant zoo of a test site...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900012,
+			nameColor = "#ff0000",
+			side = 2,
+			actorName = "Observer",
+			blackBg = true,
+			say = "Well, this is interesting. The copy created in the Sculpture Room experienced what looks like an Awakening.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +274,7 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "Tester (???)",
+			actorName = "Tester",
 			blackBg = true,
 			say = "Yes, that one. Hmm, \"resists attempts at control and unleashes latent power to save her friends\"... This is beyond our expectations.",
 			typewriter = {
@@ -258,9 +290,25 @@ return {
 			actor = 900012,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "Observer (???)",
+			actorName = "Observer",
 			blackBg = true,
 			say = "Interesting... By deviating from their predetermined destiny, they've managed to break free from the shackles of fate... I thought we were in control of everything, but perhaps that was all a lie...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900012,
+			nameColor = "#ff0000",
+			side = 2,
+			actorName = "Observer",
+			blackBg = true,
+			say = "In either case, the question is if this is a true Awakening. It doesn't meet the right conditions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +322,23 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "Tester (???)",
+			actorName = "Tester",
+			blackBg = true,
+			say = "Who knows. Ultimately, these intangible \"emotions\" are nothing more than electric signals in their processing centers.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 900011,
+			nameColor = "#ff0000",
+			side = 2,
+			actorName = "Tester",
 			blackBg = true,
 			say = "Nevertheless, this is superb data. It seems the Creator has taken a liking to these girls.",
 			typewriter = {
@@ -290,7 +354,7 @@ return {
 			actor = 900012,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "Observer (???)",
+			actorName = "Observer",
 			blackBg = true,
 			say = "Hmph! It's no more than the Creator's way of playing a joke on us.",
 			typewriter = {
@@ -306,7 +370,7 @@ return {
 			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "Tester (???)",
+			actorName = "Tester",
 			blackBg = true,
 			say = "The data shows... they need more experience. At the very least... we can't let them face each other yet.",
 			typewriter = {
@@ -322,7 +386,7 @@ return {
 			actor = 900012,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "Observer (???)",
+			actorName = "Observer",
 			blackBg = true,
 			say = "Resetting all Pawns. Clearing all data. Increasing all parameters by 5%... Releasing the key... And so, the next round of testing begins...",
 			typewriter = {

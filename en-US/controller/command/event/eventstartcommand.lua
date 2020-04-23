@@ -9,7 +9,9 @@ class("EventStartCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end
 
 	if getProxy(PlayerProxy).getData(slot8).oil < slot6:getOilConsume() then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_oil"))
+		if not ItemTipPanel.ShowOilBuyTip(slot6:getOilConsume()) then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_oil"))
+		end
 
 		return
 	end

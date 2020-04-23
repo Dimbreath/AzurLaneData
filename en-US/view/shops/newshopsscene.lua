@@ -171,7 +171,7 @@ function slot0.ActiveDefaultShop(slot0)
 		"fragment",
 		"guild"
 	}
-	slot2 = slot0.contextData.warp or slot0.TYPE_ACTIVITY
+	slot2 = slot0.contextData.warp or slot0.contextData.activeShop or slot0.TYPE_ACTIVITY
 
 	if type(slot2) == "string" then
 		if table.indexof(slot1, slot2) then
@@ -266,6 +266,7 @@ function slot0.UpdateEntrance(slot0, slot1, slot2)
 			slot1:ExecuteAction("SetUp", slot0, slot0.player, slot0.items)
 
 			slot0.page = slot1
+			slot0.contextData.activeShop = slot1
 
 			return true
 		else

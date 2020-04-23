@@ -100,8 +100,6 @@ end
 slot4 = 64
 
 function slot0.GetPrefab(slot0, slot1, slot2, slot3, slot4, slot5)
-	slot6 = slot4
-
 	slot0:FromPlural(slot1, slot2, slot3, slot5 or slot0, function (slot0)
 		slot0 = nil
 
@@ -123,13 +121,11 @@ function slot0.ReturnPrefab(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.GetSpineChar(slot0, slot1, slot2, slot3)
-	slot5 = slot3
-
-	function slot6()
+	function slot5()
 		slot0 = nil
 	end
 
-	function slot8()
+	function slot7()
 		slot0.pools_plural[slot1].index = slot0.pluralIndex
 		slot0.pluralIndex = slot0.pluralIndex + 1
 		slot2 = nil
@@ -155,10 +151,10 @@ function slot0.GetSpineChar(slot0, slot1, slot2, slot3)
 			slot5()
 		end)
 	else
-		slot8()
+		slot7()
 	end
 
-	return slot6
+	return slot5
 end
 
 function slot0.ReturnSpineChar(slot0, slot1, slot2)
@@ -217,8 +213,6 @@ function slot0.IsSpineSkelCached(slot0, slot1)
 end
 
 function slot0.GetPainting(slot0, slot1, slot2, slot3)
-	slot5 = slot3
-
 	slot0:FromPlural("painting/" .. slot1, slot1, slot2, 1, function (slot0)
 		nil.SetActive(slot0, true)
 
@@ -297,8 +291,6 @@ function slot0.ExcessPainting(slot0)
 end
 
 function slot0.GetSprite(slot0, slot1, slot2, slot3, slot4)
-	slot5 = slot4
-
 	slot0:FromPack(slot1, slot2, slot3, typeof(Sprite), function (slot0)
 		slot0 = nil
 

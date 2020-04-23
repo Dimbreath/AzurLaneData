@@ -9638,6 +9638,55 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[40966] = {
+		display = "Upon purchase, receive 1 random character outfit, 2020 Gems, 50 Cognitive Chips, 20 Wisdom Cubes, 10 Drills, and 100 Furniture Coins ",
+		rarity = 4,
+		type = 17,
+		drop_oil_max = 0,
+		name = "Crimson Echoes' Lucky Bag",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 40966,
+		icon = "Props/fudai61",
+		replace_item = 0,
+		display_icon = {
+			{
+				2,
+				69961,
+				1
+			},
+			{
+				1,
+				4,
+				2020
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		price = {},
+		index = {}
+	},
 	[41201] = {
 		display = "A Valentine Gift from UniversalBulin",
 		rarity = 8,
@@ -85652,6 +85701,60 @@ May combine <color=#ffde38>5</color> to craft <color=#ffde38>1</color> <color=#9
 		price = {},
 		index = {}
 	},
+	[59157] = {
+		display = "Used in the \"Crimson Echoes\" Event Exchange. Will disappear after the exchange period ends. ",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "Pt",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59157,
+		icon = "Props/tiancheng_fk",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59158] = {
+		display = "Used in the \"Little Royal Knight\" event. (Removed after the event ends) ",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "Trust ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59158,
+		icon = "Props/xiaoshengwang_pt",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59159] = {
+		display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time.",
+		rarity = 4,
+		type = 98,
+		drop_oil_max = 0,
+		name = "Rental Outfit Voucher",
+		shop_id = 1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59159,
+		icon = "Props/skinTicket",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		display = "One of Mikasa's scale models. This one is of the destroyer Kawakaze.",
 		rarity = 2,
@@ -89179,6 +89282,33 @@ Skins and their drop rates:
 		price = {},
 		index = {}
 	},
+	[69961] = {
+		display = [[
+This lucky bag contains a random Ship skin listed below. (If you’ve received a ship skin that you already own, you will instead be given the corresponding skin's value in Gems) 
+Skins and their drop rates:
+（<color=#92fc63>15.0%</color>）Tosa - Hometown Zest；
+（<color=#92fc63>14.0%</color>）Ashigara - Kaleidoscopic Summer；
+（<color=#92fc63>15.0%</color>）Hiei - Beauty of the White Sands；
+（<color=#92fc63>14.0%</color>）Naka - Foxy Summer Surfer；
+（<color=#92fc63>14.0%</color>）Hanazuki - Morning Moon, Beachside Flower；
+（<color=#92fc63>14.0%</color>）Makinami - Time for School! 14%；
+（<color=#92fc63>14.0%</color>）Naganami - Long Waves of Happiness；]],
+		rarity = 4,
+		type = 98,
+		drop_oil_max = 0,
+		name = "Random Character Outfit ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 69961,
+		icon = "Props/clothIcon",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[70000] = {
 		display = "Use to unlock \"Port Memories\" No. 1",
 		rarity = 4,
@@ -90430,6 +90560,7 @@ Skins and their drop rates:
 		40963,
 		40964,
 		40965,
+		40966,
 		41201,
 		41202,
 		41203,
@@ -92021,6 +92152,9 @@ Skins and their drop rates:
 		59154,
 		59155,
 		59156,
+		59157,
+		59158,
+		59159,
 		59601,
 		59602,
 		59603,
@@ -92202,6 +92336,7 @@ Skins and their drop rates:
 		69958,
 		69959,
 		69960,
+		69961,
 		70000,
 		70001,
 		70002,

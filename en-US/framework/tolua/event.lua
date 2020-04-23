@@ -17,16 +17,17 @@ slot9 = {
 			end
 		else
 			slot1 = {
+				len = select("#", ...),
 				...
 			}
 
 			if slot0.obj == nil then
 				return slot0(function ()
-					slot0.func(unpack(unpack))
+					slot0.func(unpack(unpack, 1, slot1.len))
 				end, slot1)
 			else
 				return slot0(function ()
-					slot0.func(slot0.obj, unpack(slot0.obj))
+					slot0.func(slot0.obj, unpack(slot0.obj, 1, slot1.len))
 				end, slot1)
 			end
 		end

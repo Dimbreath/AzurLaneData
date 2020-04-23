@@ -27,6 +27,25 @@ return {
 			}
 		},
 		{
+			actor = 307060,
+			actorName = "{namecode:96}",
+			side = 0,
+			nameColor = "#a9f548",
+			say = "Seems sobody's safe from being turned into a Pawn...",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
 			actor = 305030,
 			actorName = "{namecode:76}",
 			side = 1,
