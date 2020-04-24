@@ -269,7 +269,8 @@ function slot17(slot0, slot1)
 					slot13 = slot0
 					slot14 = slot1.args
 					slot15 = 1
-					slot16 = slot1.len
+					slot16 = slot1.args
+					slot16 = slot16.len
 
 					slot10(slot11(slot12, slot13(slot14, slot15, slot16)))
 				else
@@ -278,7 +279,8 @@ function slot17(slot0, slot1)
 					slot12 = slot0
 					slot13 = slot1.args
 					slot14 = 1
-					slot15 = slot1.len
+					slot15 = slot1.args
+					slot15 = slot15.len
 
 					slot10(slot11, slot12(slot13, slot14, slot15))
 				end

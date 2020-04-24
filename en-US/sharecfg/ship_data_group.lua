@@ -9977,12 +9977,12 @@ pg.ship_data_group = {
 			"C"
 		},
 		trans_radar_chart = {
+			"C",
+			"C",
 			"E",
-			"E",
-			"E",
-			"E",
-			"E",
-			"E"
+			"B",
+			"S",
+			"B"
 		},
 		trans_skill = {
 			13190
