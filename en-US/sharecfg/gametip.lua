@@ -2221,11 +2221,11 @@ Current expansions: <color=#92fc63>$3</color>
 		key = "mail_count"
 	},
 	mail_takeAttachment_error_magazine_full = {
-		tip = "<color=#92fc63>Failed to collect.</color>\n\nYour <color=#92fc63>gear storage is full</color>.",
+		tip = "<color=#92fc63>Failed to collect.</color>Your <color=#92fc63>gear storage is full</color>.",
 		key = "mail_takeAttachment_error_magazine_full"
 	},
 	mail_takeAttachment_error_dockYrad_full = {
-		tip = "<color=#92fc63>Failed to collect.</color>\n\nYour <color=#92fc63>dock is full</color>.",
+		tip = "<color=#92fc63>Failed to collect.</color>Because your <color=#92fc63>dock is full</color>.",
 		key = "mail_takeAttachment_error_dockYrad_full"
 	},
 	mail_confirm_set_important_flag = {
