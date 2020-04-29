@@ -25424,6 +25424,7 @@ pg.shop_template = {
 		tag = 2,
 		time_second = 0,
 		order = 1,
+		time = "stop",
 		group = 0,
 		num = 1,
 		discount = 0,
@@ -25434,32 +25435,6 @@ pg.shop_template = {
 		limit_args = {},
 		effect_args = {
 			305081
-		},
-		time = {
-			{
-				{
-					2020,
-					4,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[70343] = {
