@@ -30,8 +30,8 @@ class("EventFinishCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	}, 13006, function (slot0)
 		if slot0.result == 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("event_finish_success"))
+			getProxy(EventProxy).findInfoById(slot1, slot0):SavePrevFormation()
 
-			slot1 = getProxy(EventProxy)
 			slot2 = {}
 			slot3 = {}
 

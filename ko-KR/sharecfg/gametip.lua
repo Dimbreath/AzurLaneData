@@ -8878,11 +8878,11 @@ B평가:<color=#92fc63>70</color>점
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "르 말랭, 장 바르 등 캐릭터 한정 건조 추가! ",
+		tip = "토사, 아마기 등 캐릭터 건조 확률 UP! ",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
-		tip = "듀크 오브 요크 건조 추가! ",
+		tip = "꼬마 히에이 건조 추가 ",
 		key = "buildship_heavy_tip"
 	},
 	buildship_light_tip = {
@@ -8890,7 +8890,7 @@ B평가:<color=#92fc63>70</color>점
 		key = "buildship_light_tip"
 	},
 	buildship_special_tip = {
-		tip = "빅토리어스, 체이서 건조 추가! ",
+		tip = "꼬마 아카기, 꼬마 그라프 체펠린 건조 추가 ",
 		key = "buildship_special_tip"
 	},
 	open_skill_pos = {
@@ -12628,6 +12628,38 @@ TIPS:
 	shop_word_cancel = {
 		tip = "취소",
 		key = "shop_word_cancel"
+	},
+	title_item_ways = {
+		tip = "다음의 경로를 통해 <color=#92fc63>$1</color>를 획득할 수 있습니다.",
+		key = "title_item_ways"
+	},
+	item_lack_title = {
+		tip = "<color=#92fc63>$1</color>가 부족합니다. 다음의 방법으로 <color=#92fc63>$1</color>를 획득할 수 있습니다.",
+		key = "item_lack_title"
+	},
+	oil_buy_tip_2 = {
+		tip = [[
+연료 부족. <icon name=diamond w=0.7 h=0.7/> <size=30><color=#92fc63>$1</color></size>개를 <size=30>소비</size>하여 <size=30><color=#92fc63>$2</color></size><size=30>연료</size><size=28>를 구매하시겠습니까?
+현재 <size=28><color=#ff5c5c>$4</color></size> 연료 필요.
+
+</size><size=28><color=#a2a2a2>(오늘 <size=28><color=#ff5c5c>$3</color></size>회 구매함)</color></size>]],
+		key = "oil_buy_tip_2"
+	},
+	target_chapter_is_lock = {
+		tip = "해당 챕터는 아직 개방되지 않았습니다.",
+		key = "target_chapter_is_lock"
+	},
+	ship_book = {
+		tip = "<color=#92fc63>교과서</color>",
+		key = "ship_book"
+	},
+	collect_tip = {
+		tip = "출격 중인 함선이 있습니다. 의뢰에 포함시킬 수 없습니다.",
+		key = "collect_tip"
+	},
+	collect_tip2 = {
+		tip = "편성 중인 함선이 있습니다. 의뢰에 포함시킬 수 없습니다.",
+		key = "collect_tip2"
 	}
 }
 

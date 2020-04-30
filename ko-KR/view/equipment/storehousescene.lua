@@ -901,7 +901,9 @@ function slot0.initItem(slot0, slot1)
 			return
 		end
 
-		if slot0.itemVO:getTempCfgTable().open_ui[1] > 0 then
+		print(slot0.itemVO.id)
+
+		if print.itemVO:getTempCfgTable().open_ui[1] > 0 then
 			slot1:emit(EquipmentMediator.ITEM_GO_SCENE, SCENE.ITEM_ORIGIN_PAGE, {
 				itemVO = slot0.itemVO,
 				open_ui = slot0.itemVO:getTempCfgTable().open_ui[1]

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"彼岸花之恋？\n\n<size=45>六 黑暗之中的告白</size>",
+					"피안화의 사랑?\n\n<size=30>6. 어둠 속의 고백</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			bgm = "story-2",
 			actor = 307010,
 			nameColor = "#92fc63",
-			say = "指挥官只要好好听{namecode:91}的话就行了……别让{namecode:91}伤心……",
+			say = "지휘관님은 {namecode:91}말을 잘 따르기만 하면 돼요...... {namecode:91}를 맘 아프게 하지 마세요......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "{namecode:91}要是伤心了……就……",
+			say = "{namecode:91}의 마음을 아프게 한다면...... 바로......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:91}一边说着一边将身体靠了过来，接着——",
+			say = "{namecode:91}는 말하면서 천천히 다가왔다. 그리고——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "……（舔）……",
+			say = "......(쮸읍)......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			blackBg = true,
 			actor = 0,
 			nameColor = "#92fc63",
-			say = "…………！？",
+			say = "................!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "{namecode:91}用嘴含住了被刀切到的手指。",
+			say = "{namecode:91}는 칼에 베인 손가락을 입에 머금었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			nameColor = "#92fc63",
-			say = "{namecode:91}绝不会……伤害指挥官。就算指挥官成为了我的敌人——  ",
+			say = "{namecode:91}는 절대...... 지휘관님을 다치게 하지 않아요. 지휘관님이 저의 적이라고 하더라도——",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -146,7 +146,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "可是，如果指挥官受了伤，能为指挥官疗伤的只有{namecode:91}。",
+			say = "하지만, 지휘관님이 다치셨다면, 지휘관님을 치료해줄 수 있는 것은 {namecode:91} 뿐이에요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "其他任何人都不能，{namecode:92}也不能，只有{namecode:91}可以……指挥官你要记住……",
+			say = "어떤 누구도 안돼요. {namecode:92}도 안돼요. 오직 {namecode:91}만 가능해요...... 기억해 두세요......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "指尖传来一丝凉意。",
+			say = "손끝에서 서늘한 기운이 전해졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "指挥官什么也不用想，什么也不用做。{namecode:91}会为你做好一切。",
+			say = "지휘관님은 아무 것도 생각하실 필요 없어요, 아무 것도 할 필요 없어요. {namecode:91}가 지휘관님을 위해 모든 것을 할테니.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "所以…指挥官，闭上眼睛…把一切都交给{namecode:91}就好。",
+			say = "그러니까... 지휘관님, 눈을 감고... 모든 것은 {namecode:91}에게 맡겨주시면 돼요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,18 +221,18 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "已经听过无数遍的话，却充满了{namecode:91}的心意。",
+			say = "이미 무수히 들었었던 말이지만, {namecode:91}의 마음이 가득 느껴졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "闭上眼睛",
+					content = "눈을 감는다.",
 					flag = 1
 				},
 				{
-					content = "告诉{namecode:91}希望她能依靠我",
+					content = "{namecode:91}가 날 의지하길 바란다고 말한다.",
 					flag = 2
 				}
 			}
@@ -245,7 +245,7 @@ return {
 			optionFlag = 1,
 			actor = 0,
 			nameColor = "#92fc63",
-			say = "……",
+			say = ".......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			optionFlag = 2,
 			actor = 307010,
 			nameColor = "#92fc63",
-			say = "——指挥官不只是想依靠{namecode:91}，“也想被{namecode:91}依靠”……",
+			say = "——지휘관님은 {namecode:91}에게 의지하는 것 뿐만 아니라, “{namecode:91}에게 의지를 받는 것”도 원하시는군요......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "这是说…指挥官也想对{namecode:91}好…的意思吗？",
+			say = "그렇다면... 지휘관님도 {namecode:91}에게 잘해주고싶다...는 뜻인가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "（点头）",
+			say = "(끄덕)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "……指挥官……",
+			say = ".......지휘관님......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "被{namecode:91}紧紧抱住。",
+			say = "{namecode:91}에게 꽉 끌어 안겨졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

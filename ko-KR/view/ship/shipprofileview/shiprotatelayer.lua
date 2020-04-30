@@ -34,7 +34,7 @@ function slot0.findUI(slot0)
 	slot0.painting = slot0:findTF("paint")
 	slot0.paintingFitter = findTF(slot0.painting, "fitter")
 	slot0.paintingInitPos = slot0.painting.transform.localPosition
-	slot0.paintingView = ShipProfilePaintingView.New(slot0._tf, slot0.painting)
+	slot0.paintingView = ShipProfilePaintingView.New(slot0._tf, slot0.painting, true)
 end
 
 function slot0.SetPainting(slot0, slot1, slot2)

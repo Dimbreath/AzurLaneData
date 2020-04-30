@@ -236,7 +236,7 @@ function slot0.findNextAutoActivity(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #1 15-166, warpins: 0 ---
+	--- BLOCK #1 15-204, warpins: 0 ---
 	for slot7, slot8 in ipairs(slot0:getPanelActivities()) do
 
 		-- Decompilation error in this vicinity:
@@ -351,11 +351,13 @@ function slot0.findNextAutoActivity(slot0)
 					if slot9 == ActivityConst.ACTIVITY_TYPE_MONTHSIGN then
 
 						-- Decompilation error in this vicinity:
-						--- BLOCK #0 94-106, warpins: 1 ---
+						--- BLOCK #0 94-111, warpins: 1 ---
+						slot8:setSpecialData("reMonthSignDay", nil)
+
 						if pg.TimeMgr.GetInstance():STimeDescS(slot3, "*t").year ~= slot8.data1 or slot10.month ~= slot8.data2 then
 
 							-- Decompilation error in this vicinity:
-							--- BLOCK #0 111-118, warpins: 2 ---
+							--- BLOCK #0 116-123, warpins: 2 ---
 							slot8.data1 = slot10.year
 							slot8.data2 = slot10.month
 							slot8.data1_list = {}
@@ -368,7 +370,7 @@ function slot0.findNextAutoActivity(slot0)
 
 
 							-- Decompilation error in this vicinity:
-							--- BLOCK #1 119-119, warpins: 2 ---
+							--- BLOCK #1 124-124, warpins: 2 ---
 							break
 							--- END OF BLOCK #1 ---
 
@@ -377,7 +379,7 @@ function slot0.findNextAutoActivity(slot0)
 
 
 							-- Decompilation error in this vicinity:
-							--- BLOCK #2 119-119, warpins: 0 ---
+							--- BLOCK #2 124-124, warpins: 0 ---
 							--- END OF BLOCK #2 ---
 
 
@@ -385,11 +387,11 @@ function slot0.findNextAutoActivity(slot0)
 						else
 
 							-- Decompilation error in this vicinity:
-							--- BLOCK #0 120-126, warpins: 1 ---
+							--- BLOCK #0 125-131, warpins: 1 ---
 							if not table.contains(slot8.data1_list, slot10.day) then
 
 								-- Decompilation error in this vicinity:
-								--- BLOCK #0 127-128, warpins: 1 ---
+								--- BLOCK #0 132-133, warpins: 1 ---
 								slot1 = slot8
 
 								--- END OF BLOCK #0 ---
@@ -399,7 +401,7 @@ function slot0.findNextAutoActivity(slot0)
 
 
 								-- Decompilation error in this vicinity:
-								--- BLOCK #1 129-129, warpins: 1 ---
+								--- BLOCK #1 134-134, warpins: 1 ---
 								break
 								--- END OF BLOCK #1 ---
 
@@ -408,8 +410,80 @@ function slot0.findNextAutoActivity(slot0)
 
 
 								-- Decompilation error in this vicinity:
-								--- BLOCK #2 129-129, warpins: 0 ---
+								--- BLOCK #2 134-134, warpins: 0 ---
 								--- END OF BLOCK #2 ---
+
+
+
+							else
+
+								-- Decompilation error in this vicinity:
+								--- BLOCK #0 135-139, warpins: 1 ---
+								if slot10.day > #slot8.data1_list and slot8.data3 < pg.activity_month_sign[slot8.data2].resign_count then
+
+									-- Decompilation error in this vicinity:
+									--- BLOCK #0 148-151, warpins: 1 ---
+									--- END OF BLOCK #0 ---
+
+									FLOW; TARGET BLOCK #1
+
+
+
+									-- Decompilation error in this vicinity:
+									--- BLOCK #1 152-165, warpins: 0 ---
+									for slot15 = slot10.day, 1, -1 do
+
+										-- Decompilation error in this vicinity:
+										--- BLOCK #0 152-158, warpins: 2 ---
+										if not table.contains(slot8.data1_list, slot15) then
+
+											-- Decompilation error in this vicinity:
+											--- BLOCK #0 159-164, warpins: 1 ---
+											slot8:setSpecialData("reMonthSignDay", slot15)
+
+											--- END OF BLOCK #0 ---
+
+											FLOW; TARGET BLOCK #1
+
+
+
+											-- Decompilation error in this vicinity:
+											--- BLOCK #1 165-165, warpins: 1 ---
+											break
+											--- END OF BLOCK #1 ---
+
+
+
+										end
+										--- END OF BLOCK #0 ---
+
+										FLOW; TARGET BLOCK #1
+
+
+
+										-- Decompilation error in this vicinity:
+										--- BLOCK #1 165-165, warpins: 1 ---
+										--- END OF BLOCK #1 ---
+
+
+
+									end
+
+									--- END OF BLOCK #1 ---
+
+									FLOW; TARGET BLOCK #2
+
+
+
+									-- Decompilation error in this vicinity:
+									--- BLOCK #2 166-167, warpins: 2 ---
+									slot1 = slot8
+									--- END OF BLOCK #2 ---
+
+
+
+								end
+								--- END OF BLOCK #0 ---
 
 
 
@@ -426,11 +500,11 @@ function slot0.findNextAutoActivity(slot0)
 					else
 
 						-- Decompilation error in this vicinity:
-						--- BLOCK #0 130-134, warpins: 1 ---
+						--- BLOCK #0 168-172, warpins: 1 ---
 						if slot8.id == ActivityConst.SHADOW_PLAY_ID and slot8.clientData1 == 0 and (getProxy(TaskProxy):getTaskById(slot8:getConfig("config_data")[1]) or slot11:getFinishTaskById(slot10)) and not slot12:isReceive() then
 
 							-- Decompilation error in this vicinity:
-							--- BLOCK #0 163-164, warpins: 1 ---
+							--- BLOCK #0 201-202, warpins: 1 ---
 							slot1 = slot8
 
 							--- END OF BLOCK #0 ---
@@ -440,7 +514,7 @@ function slot0.findNextAutoActivity(slot0)
 
 
 							-- Decompilation error in this vicinity:
-							--- BLOCK #1 165-165, warpins: 1 ---
+							--- BLOCK #1 203-203, warpins: 1 ---
 							break
 							--- END OF BLOCK #1 ---
 
@@ -474,7 +548,7 @@ function slot0.findNextAutoActivity(slot0)
 
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #1 165-166, warpins: 17 ---
+		--- BLOCK #1 203-204, warpins: 19 ---
 		--- END OF BLOCK #1 ---
 
 
@@ -488,7 +562,7 @@ function slot0.findNextAutoActivity(slot0)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #2 167-167, warpins: 6 ---
+	--- BLOCK #2 205-205, warpins: 6 ---
 	return slot1
 	--- END OF BLOCK #2 ---
 

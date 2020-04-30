@@ -645,6 +645,20 @@ function slot0.getMapAura(slot0)
 	return slot1
 end
 
+function slot0.getMapAid(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0.ships) do
+		for slot11, slot12 in ipairs(slot7) do
+			table.insert(slot1[slot6] or {}, slot12)
+
+			slot1[slot6] = slot1[slot6] or 
+		end
+	end
+
+	return slot1
+end
+
 function slot0.updateCommanderSkills(slot0)
 	for slot5, slot6 in pairs(slot1) do
 		_.each(slot6:getSkills(), function (slot0)

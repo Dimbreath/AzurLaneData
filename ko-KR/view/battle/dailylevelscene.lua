@@ -156,6 +156,16 @@ function slot0.tryOpenDesc(slot0, slot1)
 	end
 end
 
+function slot0.CanOpenDailyLevel(slot0)
+	slot2 = false
+
+	if table.contains(pg.expedition_daily_template[slot0].weekday, tonumber(slot0.getWeek())) then
+		slot2 = true
+	end
+
+	return slot2, slot1.tips
+end
+
 function slot0.getNextCardId(slot0, slot1)
 	slot2 = table.indexof(slot0.dailyList, slot0.centerCardId)
 

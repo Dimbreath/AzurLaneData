@@ -29,7 +29,7 @@ return {
 			actor = 307060,
 			side = 2,
 			nameColor = "#92fc63",
-			say = "응? 전방 해역에 구난 신호...? 혹시 쇼카쿠 언니!?",
+			say = "응? 전방 해역에 구조 신호...? 혹시 쇼카쿠 언니!?",
 			shake = {
 				speed = 1,
 				number = 3

@@ -36,6 +36,74 @@ end
 
 slot1.MakeBullet = slot2
 
+function slot2(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot7 = slot2
+	slot6 = slot2.SetOutRangeCallback
+	slot8 = slot0.OutRangeFunc
+
+	slot6(slot7, slot8)
+
+	slot7 = slot0
+	slot6 = slot0.MakeBullet
+	slot6 = slot6(slot7)
+	slot8 = slot6
+	slot7 = slot6.SetFactory
+	slot9 = slot0
+
+	slot7(slot8, slot9)
+
+	slot8 = slot6
+	slot7 = slot6.SetBulletData
+	slot9 = slot2
+
+	slot7(slot8, slot9)
+
+	slot8 = slot0
+	slot7 = slot0.MakeModel
+	slot9 = slot6
+	slot10 = slot3
+	slot11 = slot4
+	slot12 = slot5
+
+	slot7(slot8, slot9, slot10, slot11, slot12)
+
+	if slot4 and slot4 ~= "" then
+		slot8 = slot0
+		slot7 = slot0.PlayFireFX
+		slot9 = slot1
+		slot10 = slot2
+		slot11 = slot3
+		slot12 = slot4
+		slot13 = slot5
+		slot14 = nil
+
+		slot7(slot8, slot9, slot10, slot11, slot12, slot13, slot14)
+	end
+
+	slot8 = slot2
+	slot7 = slot2.GetTemplate
+	slot7 = slot7(slot8)
+	slot8 = slot7.extra_param
+	slot8 = slot8.shrapnel
+	slot10 = slot2
+	slot9 = slot2.GetTemplate
+	slot9 = slot9(slot10)
+	slot9 = slot9.extra_param
+	slot9 = slot9.initialSplit
+
+	if slot9 then
+		slot10 = slot0
+		slot10 = slot10.bulletSplit
+		slot11 = slot6
+
+		slot10(slot11)
+	end
+
+	return slot6
+end
+
+slot1.CreateBullet = slot2
+
 function slot2(slot0, slot1, slot2)
 	slot4 = slot0
 	slot3 = slot0.GetBulletData
@@ -77,149 +145,173 @@ function slot2(slot0, slot1, slot2)
 	slot7 = slot3
 	slot6 = slot3.GetTemplate
 	slot6 = slot6(slot7)
-	slot7 = slot6.extra_param
-	slot7 = slot7.shrapnel
 
 	if slot1 ~= nil and slot2 ~= nil then
-		slot8 = nil
-		slot9 = slot0
-		slot9 = slot9.Battle
-		slot9 = slot9.BattleConst
-		slot9 = slot9.UnitType
-		slot9 = slot9.AIRCRAFT_UNIT
+		slot7 = nil
+		slot8 = slot0
+		slot8 = slot8.Battle
+		slot8 = slot8.BattleConst
+		slot8 = slot8.UnitType
+		slot8 = slot8.AIRCRAFT_UNIT
 
-		if slot2 == slot9 then
-			slot9 = slot1
-			slot9 = slot9.GetSceneMediator
-			slot9 = slot9()
-			slot10 = slot9
-			slot9 = slot9.GetAircraft
-			slot11 = slot1
-			slot9 = slot9(slot10, slot11)
-			slot8 = slot9
+		if slot2 == slot8 then
+			slot8 = slot1
+			slot8 = slot8.GetSceneMediator
+			slot8 = slot8()
+			slot9 = slot8
+			slot8 = slot8.GetAircraft
+			slot10 = slot1
+			slot8 = slot8(slot9, slot10)
+			slot7 = slot8
 		else
-			slot9 = slot0
-			slot9 = slot9.Battle
-			slot9 = slot9.BattleConst
-			slot9 = slot9.UnitType
-			slot9 = slot9.PLAYER_UNIT
+			slot8 = slot0
+			slot8 = slot8.Battle
+			slot8 = slot8.BattleConst
+			slot8 = slot8.UnitType
+			slot8 = slot8.PLAYER_UNIT
 
-			if slot2 == slot9 then
-				slot9 = slot1
-				slot9 = slot9.GetSceneMediator
-				slot9 = slot9()
-				slot10 = slot9
-				slot9 = slot9.GetCharacter
-				slot11 = slot1
-				slot9 = slot9(slot10, slot11)
-				slot8 = slot9
+			if slot2 == slot8 then
+				slot8 = slot1
+				slot8 = slot8.GetSceneMediator
+				slot8 = slot8()
+				slot9 = slot8
+				slot8 = slot8.GetCharacter
+				slot10 = slot1
+				slot8 = slot8(slot9, slot10)
+				slot7 = slot8
 			else
-				slot9 = slot0
-				slot9 = slot9.Battle
-				slot9 = slot9.BattleConst
-				slot9 = slot9.UnitType
-				slot9 = slot9.ENEMY_UNIT
+				slot8 = slot0
+				slot8 = slot8.Battle
+				slot8 = slot8.BattleConst
+				slot8 = slot8.UnitType
+				slot8 = slot8.ENEMY_UNIT
 
-				if slot2 == slot9 then
-					slot9 = slot1
-					slot9 = slot9.GetSceneMediator
-					slot9 = slot9()
-					slot10 = slot9
-					slot9 = slot9.GetCharacter
-					slot11 = slot1
-					slot9 = slot9(slot10, slot11)
-					slot8 = slot9
+				if slot2 == slot8 then
+					slot8 = slot1
+					slot8 = slot8.GetSceneMediator
+					slot8 = slot8()
+					slot9 = slot8
+					slot8 = slot8.GetCharacter
+					slot10 = slot1
+					slot8 = slot8(slot9, slot10)
+					slot7 = slot8
 				end
 			end
 		end
 
-		slot10 = slot8
-		slot9 = slot8.GetUnitData
-		slot9 = slot9(slot10)
+		slot9 = slot7
+		slot8 = slot7.GetUnitData
+		slot8 = slot8(slot9)
+		slot10 = slot7
+		slot9 = slot7.AddFX
+		slot12 = slot0
+		slot11 = slot0.GetFXID
+		slot9 = slot9(slot10, slot11(slot12))
 		slot11 = slot8
-		slot10 = slot8.AddFX
-		slot13 = slot0
-		slot12 = slot0.GetFXID
-		slot10 = slot10(slot11, slot12(slot13))
-		slot12 = slot9
-		slot11 = slot9.GetIFF
+		slot10 = slot8.GetIFF
+		slot10 = slot10(slot11)
+		slot12 = slot5
+		slot11 = slot5.GetFoeCode
 		slot11 = slot11(slot12)
-		slot13 = slot5
-		slot12 = slot5.GetFoeCode
-		slot12 = slot12(slot13)
 
-		if slot11 == slot12 then
-			slot11 = slot10.transform
-			slot12 = slot11.localRotation
-			slot13 = Vector3
-			slot14 = slot12.x
-			slot15 = 180
-			slot16 = slot12.z
-			slot13 = slot13(slot14, slot15, slot16)
-			slot11.localRotation = slot13
+		if slot10 == slot11 then
+			slot10 = slot9.transform
+			slot11 = slot10.localRotation
+			slot12 = Vector3
+			slot13 = slot11.x
+			slot14 = 180
+			slot15 = slot11.z
+			slot12 = slot12(slot13, slot14, slot15)
+			slot10.localRotation = slot12
 		end
 	end
 
+	slot7 = slot0
+	slot7 = slot7.Battle
+	slot7 = slot7.PlayBattleSFX
+	slot8 = slot6.hit_sfx
+
+	slot7(slot8)
+
+	slot7 = slot1
+	slot7 = slot7.bulletSplit
 	slot8 = slot0
-	slot8 = slot8.Battle
-	slot8 = slot8.PlayBattleSFX
-	slot9 = slot6.hit_sfx
+	slot9 = true
 
-	slot8(slot9)
+	slot7(slot8, slot9)
+end
 
-	slot9 = slot3
-	slot8 = slot3.GetSrcHost
-	slot8 = slot8(slot9)
-	slot10 = slot3
-	slot9 = slot3.GetWeapon
-	slot9 = slot9(slot10)
-	slot10 = slot6.extra_param
-	slot10 = slot10.FXID
+slot1.onBulletHitFunc = slot2
 
-	if slot10 ~= nil then
-		slot10 = slot1
-		slot10 = slot10.GetFXPool
+function slot2(slot0, slot1)
+	slot3 = slot0
+	slot2 = slot0.GetBulletData
+	slot2 = slot2(slot3)
+	slot3 = slot0
+	slot3 = slot3.GetDataProxy
+	slot3 = slot3()
+	slot5 = slot2
+	slot4 = slot2.GetTemplate
+	slot4 = slot4(slot5)
+	slot5 = slot4.extra_param
+	slot5 = slot5.shrapnel
+	slot7 = slot2
+	slot6 = slot2.GetSrcHost
+	slot6 = slot6(slot7)
+	slot8 = slot2
+	slot7 = slot2.GetWeapon
+	slot7 = slot7(slot8)
+	slot8 = slot4.extra_param
+	slot8 = slot8.FXID
+
+	if slot8 ~= nil then
+		slot8 = slot0
+		slot8 = slot8.GetFXPool
+		slot8 = slot8()
+		slot9 = slot8
+		slot8 = slot8.GetFX
+		slot10 = slot4.extra_param
+		slot10 = slot10.FXID
+		slot8, slot9 = slot8(slot9, slot10)
+		slot10 = pg
+		slot10 = slot10.EffectMgr
+		slot10 = slot10.GetInstance
 		slot10 = slot10()
 		slot11 = slot10
-		slot10 = slot10.GetFX
-		slot12 = slot6.extra_param
-		slot12 = slot12.FXID
-		slot10, slot11 = slot10(slot11, slot12)
-		slot12 = pg
-		slot12 = slot12.EffectMgr
-		slot12 = slot12.GetInstance
-		slot12 = slot12()
-		slot13 = slot12
-		slot12 = slot12.PlayBattleEffect
-		slot14 = slot10
-		slot16 = slot11
-		slot15 = slot11.Add
-		slot18 = slot0
-		slot17 = slot0.GetPosition
-		slot15 = slot15(slot16, slot17(slot18))
-		slot16 = true
+		slot10 = slot10.PlayBattleEffect
+		slot12 = slot8
+		slot14 = slot9
+		slot13 = slot9.Add
+		slot16 = slot0
+		slot15 = slot0.GetPosition
+		slot13 = slot13(slot14, slot15(slot16))
+		slot14 = true
 
-		slot12(slot13, slot14, slot15, slot16)
+		slot10(slot11, slot12, slot13, slot14)
 	end
 
-	slot10 = nil
-	slot10 = (slot3:GetSpeed().x > 0 and 0) or 180
-	slot11 = 0
-	slot12, slot13, slot14 = ipairs(slot7)
+	slot8 = nil
+	slot8 = (slot2:GetSpeed().x > 0 and 0) or 180
+	slot9 = 0
+	slot10, slot11, slot12 = ipairs(slot5)
 
-	for slot15, slot16 in slot12, slot13, slot14 do
-		slot17 = slot16.barrage_ID
-		slot18 = slot16.bullet_ID
-		slot19 = slot16.emitterType
+	for slot13, slot14 in slot10, slot11, slot12 do
+		slot15 = slot14.barrage_ID
+		slot16 = slot14.bullet_ID
+		slot17 = slot14.emitterType
 
-		if not slot19 then
-			slot19 = slot0
-			slot19 = slot19.Battle
-			slot19 = slot19.BattleWeaponUnit
-			slot19 = slot19.EMITTER_SHOTGUN
+		if not slot17 then
+			slot17 = slot1
+			slot17 = slot17.Battle
+			slot17 = slot17.BattleWeaponUnit
+			slot17 = slot17.EMITTER_SHOTGUN
 		end
 
-		function slot20(slot0, slot1, slot2, slot3)
+		slot18 = slot14.inheritAngle
+
+		function slot19(slot0, slot1, slot2, slot3)
+
+			-- Decompilation error in this vicinity:
 			slot4 = slot0
 			slot5 = slot4
 			slot4 = slot4.CreateBulletUnit
@@ -249,39 +341,15 @@ function slot2(slot0, slot1, slot2)
 
 			slot5(slot6, slot7, slot8)
 
-			slot6 = slot4
-			slot5 = slot4.SetRotateInfo
-			slot7 = nil
-			slot8 = slot5
-			slot9 = slot2
+			slot5 = slot5
 
-			slot5(slot6, slot7, slot8, slot9)
-
-			slot5 = slot6
-			slot5 = slot5.GetFactoryList
-			slot5 = slot5()
-			slot7 = slot4
-			slot6 = slot4.GetTemplate
-			slot6 = slot6(slot7)
-			slot6 = slot6.type
-			slot5 = slot5[slot6]
-			slot7 = slot5
-			slot6 = slot5.CreateBullet
-			slot8 = slot7
-			slot9 = slot8
-			slot8 = slot8.GetTf
-			slot8 = slot8(slot9)
-			slot9 = slot4
-			slot10 = slot7
-			slot11 = slot10
-			slot10 = slot10.GetPosition
-
-			slot6(slot7, slot8, slot9, slot10(slot11))
+			slot4:SetRotateInfo(nil, slot5, slot2)
+			slot8.GetFactoryList()[slot4:GetTemplate().type]:CreateBullet(slot5:GetTf(), slot4, slot9:GetPosition())
 		end
 
-		slot21 = nil
+		slot20 = nil
 
-		function slot22()
+		function slot21()
 			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.Destroy
@@ -291,55 +359,59 @@ function slot2(slot0, slot1, slot2)
 			slot0 = slot1
 			slot0 = slot0 + 1
 			slot1 = slot0
-			slot0 = slot1
-			slot1 = slot2
-			slot1 = #slot1
+			slot0 = slot2
 
-			if slot0 == slot1 then
-				slot0 = slot3
-				slot1 = slot0
-				slot0 = slot0.RemoveBulletUnit
-				slot2 = slot4
-				slot3 = slot2
-				slot2 = slot2.GetUniqueID
+			if slot0 then
+				slot0 = slot1
+				slot1 = slot3
+				slot1 = #slot1
 
-				slot0(slot1, slot2(slot3))
+				if slot0 == slot1 then
+					slot0 = slot4
+					slot1 = slot0
+					slot0 = slot0.RemoveBulletUnit
+					slot2 = slot5
+					slot3 = slot2
+					slot2 = slot2.GetUniqueID
+
+					slot0(slot1, slot2(slot3))
+				end
 			end
 		end
 
-		slot23 = slot0
-		slot23 = slot23.Battle
-		slot23 = slot23[slot19]
-		slot23 = slot23.New
-		slot24 = slot20
-		slot25 = slot22
-		slot26 = slot17
-		slot23 = slot23(slot24, slot25, slot26)
-		slot21 = slot23
+		slot22 = slot1
+		slot22 = slot22.Battle
+		slot22 = slot22[slot17]
+		slot22 = slot22.New
+		slot23 = slot19
 		slot24 = slot21
-		slot23 = slot21.Ready
+		slot25 = slot15
+		slot22 = slot22(slot23, slot24, slot25)
+		slot20 = slot22
+		slot23 = slot20
+		slot22 = slot20.Ready
 
-		slot23(slot24)
+		slot22(slot23)
 
-		slot24 = slot21
-		slot23 = slot21.Fire
-		slot25 = nil
-		slot27 = slot9
-		slot26 = slot9.GetDirection
+		slot23 = slot20
+		slot22 = slot20.Fire
+		slot24 = nil
+		slot26 = slot7
+		slot25 = slot7.GetDirection
+		slot25 = slot25(slot26)
+		slot26 = slot1
+		slot26 = slot26.Battle
+		slot26 = slot26.BattleDataFunction
+		slot26 = slot26.GetBarrageTmpDataFromID
+		slot27 = slot15
 		slot26 = slot26(slot27)
-		slot27 = slot0
-		slot27 = slot27.Battle
-		slot27 = slot27.BattleDataFunction
-		slot27 = slot27.GetBarrageTmpDataFromID
-		slot28 = slot17
-		slot27 = slot27(slot28)
-		slot27 = slot27.angle
+		slot26 = slot26.angle
 
-		slot23(slot24, slot25, slot26, slot27)
+		slot22(slot23, slot24, slot25, slot26)
 	end
 end
 
-slot1.onBulletHitFunc = slot2
+slot1.bulletSplit = slot2
 
 function slot2(slot0)
 	return
