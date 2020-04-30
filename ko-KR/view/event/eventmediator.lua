@@ -13,14 +13,16 @@ function slot0.register(slot0)
 			flags = slot0.contextData.flags or {},
 			callback = function (slot0)
 				for slot4, slot5 in ipairs(slot0) do
-					slot7, slot8 = Ship.ShipStateConflict("inEvent", slot6)
+					if slot0[slot5] then
+						slot7, slot8 = Ship.ShipStateConflict("inEvent", slot6)
 
-					if slot7 == Ship.STATE_CHANGE_FAIL then
-						slot1 = true
-					elseif slot7 == Ship.STATE_CHANGE_CHECK then
-						slot2 = true
-					else
-						table.insert(slot3, slot5)
+						if slot7 == Ship.STATE_CHANGE_FAIL then
+							slot1 = true
+						elseif slot7 == Ship.STATE_CHANGE_CHECK then
+							slot2 = true
+						else
+							table.insert(slot3, slot5)
+						end
 					end
 				end
 
