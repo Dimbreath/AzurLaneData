@@ -654,12 +654,6 @@ function slot0.showDestoryMsgbox(slot0, slot1)
 			return
 		end
 
-		if wordVer(slot0) > 0 then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("playerinfo_mask_word"))
-
-			return
-		end
-
 		if slot0 ~= slot1.config.name then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("destory_important_equipment_input_erro"))
 

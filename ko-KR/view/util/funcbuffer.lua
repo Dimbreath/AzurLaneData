@@ -22,7 +22,8 @@ function slot0.Push(slot0, slot1, ...)
 		funcName = slot1,
 		params = {
 			...
-		}
+		},
+		paramLength = select("#", ...)
 	})
 	slot0:ExcuteAll()
 end
@@ -30,7 +31,9 @@ end
 function slot0.ExcuteAll(slot0)
 	if slot0.notifier then
 		while not slot0:IsEmpty() do
-			slot0.notifier[slot0:Pop().funcName](slot0.notifier, unpack(slot0.Pop().params))
+			slot1 = slot0:Pop()
+
+			slot0.notifier[slot1.funcName](slot0.notifier, unpack(slot1.params, 1, slot1.paramLength))
 		end
 	end
 end

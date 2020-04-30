@@ -137,7 +137,18 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 			table.insert(slot3.data1_list, slot1.arg1)
 		end
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_MONTHSIGN then
-		table.insert(slot3.data1_list, pg.TimeMgr.GetInstance():STimeDescS(slot8, "*t").day)
+		slot9 = pg.TimeMgr.GetInstance():STimeDescS(slot8, "*t")
+		slot10 = nil
+
+		if slot3:getSpecialData("reMonthSignDay") ~= nil then
+			slot10 = slot3:getSpecialData("reMonthSignDay")
+			slot3.data3 = (slot3.data3 and slot3.data3 + 1) or 1
+		else
+			slot10 = slot9.day
+		end
+
+		getProxy(ActivityProxy):updateActivity(slot3)
+		table.insert(slot3.data1_list, slot10)
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_CHARGEAWARD then
 		slot3.data2 = 1
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_2 then

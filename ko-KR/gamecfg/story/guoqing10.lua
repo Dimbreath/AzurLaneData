@@ -9,9 +9,9 @@ return {
 	scripts = {
 		{
 			actor = 305029,
-			nameColor = "#ff0000",
+			actorName = "{namecode:132}",
 			side = 2,
-			actorName = "야마시로·改",
+			nameColor = "#ff0000",
 			say = "야마시로, 져버렸어요... 신에게 받은 힘을 가지고서도 져버렸어요... 우우......",
 			shake = {
 				speed = 1,
@@ -27,10 +27,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
-			nameColor = "#92fc63",
 			side = 0,
 			say = "...봐줬지?",
+			actorName = "{namecode:96}",
+			actor = 307060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -50,10 +51,10 @@ return {
 		},
 		{
 			actor = 305029,
-			nameColor = "#ff0000",
+			actorName = "{namecode:132}",
 			side = 1,
-			actorName = "야마시로·改",
-			say = "그, 그렇지 않아요! 쇼카쿠 씨가 성역의 최심부에 갇혀있다고는 절대 알려드릴 수 없어요!",
+			nameColor = "#ff0000",
+			say = "그…그렇지 않아요! 쇼카쿠 씨가 성역의 중심에 있는 그 큰 집에 갇혀있다고 절대 알려드릴 수 없어요!",
 			shake = {
 				speed = 1,
 				number = 3
@@ -69,8 +70,9 @@ return {
 		},
 		{
 			actor = 307060,
+			actorName = "{namecode:96}",
 			side = 0,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "...고마워. 다녀올게.",
 			shake = {
 				speed = 1,
@@ -87,9 +89,9 @@ return {
 		},
 		{
 			actor = 305029,
-			nameColor = "#ff0000",
+			actorName = "{namecode:132}",
 			side = 1,
-			actorName = "야마시로·改",
+			nameColor = "#ff0000",
 			say = "기다려주세요!",
 			shake = {
 				speed = 1,
@@ -106,8 +108,9 @@ return {
 		},
 		{
 			actor = 307060,
+			actorName = "{namecode:96}",
 			side = 0,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "이제 와서 뭔데?",
 			shake = {
 				speed = 1,
@@ -124,9 +127,9 @@ return {
 		},
 		{
 			actor = 305029,
-			nameColor = "#ff0000",
+			actorName = "{namecode:132}",
 			side = 1,
-			actorName = "야마시로·改",
+			nameColor = "#ff0000",
 			say = "우리의 미래를... 구해주세요... 그 애들은 나쁜 애들이 아니에요......",
 			shake = {
 				speed = 1,
@@ -143,9 +146,10 @@ return {
 		},
 		{
 			actor = 307060,
+			actorName = "{namecode:96}",
 			side = 0,
-			nameColor = "#92fc63",
-			say = "......",
+			nameColor = "#a9f548",
+			say = "...",
 			shake = {
 				speed = 1,
 				number = 3
@@ -161,8 +165,9 @@ return {
 		},
 		{
 			actor = 307060,
+			actorName = "{namecode:96}",
 			side = 0,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "응. 알았어!",
 			shake = {
 				speed = 1,

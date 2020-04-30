@@ -6400,6 +6400,31 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[30201] = {
+		display = [[
+包含一件本次活动的<color=#ffde38>限定装备</color>：
+极低几率获得<color=#ffde38>超稀有装备</color>
+较低几率获得<color=#d797ff>精锐装备</color>
+较高几率获得<color=#3dc6ff>稀有装备</color>]],
+		rarity = 3,
+		type = 5,
+		drop_oil_max = 0,
+		name = "event专属科技箱",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 30201,
+		icon = "Props/30103",
+		replace_item = 0,
+		display_icon = {},
+		price = {
+			1,
+			100
+		},
+		index = {}
+	},
 	[30202] = {
 		display = "사용 시 아래 지정 <color=#ffde38>SSR 장비</color> 중 1가지 임의 선택 획득 ",
 		rarity = 4,
@@ -8602,7 +8627,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[40012] = {
-		display = "购买礼包可获得大量材料奖励",
+		display = "패키지 구매 시 대량의 아이템 보상 획득",
 		rarity = 4,
 		type = 17,
 		drop_oil_max = 0,
@@ -8661,7 +8686,7 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[40013] = {
-		display = "购买礼包可获得大量材料奖励",
+		display = "패키지 구매 시 대량의 아이템 보상 획득",
 		rarity = 4,
 		type = 17,
 		drop_oil_max = 0,
@@ -87582,6 +87607,60 @@ pg.item_data_statistics = {
 		price = {},
 		index = {}
 	},
+	[59157] = {
+		display = "「청홍의 메아리」 이벤트 교환에 사용되며, 이벤트 종료 후 자동으로 사라집니다. ",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "Pt-사쿠라 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59157,
+		icon = "Props/tiancheng_fk",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59158] = {
+		display = "『꼬마 기사의 훈련일 』 이벤트에서 캐릭터 호감도 상승에 사용되며, 이벤트 종료 후 사라집니다. ",
+		rarity = 2,
+		type = 98,
+		drop_oil_max = 0,
+		name = "호감도-꼬마 리나운 ",
+		shop_id = -1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59158,
+		icon = "Props/xiaoshengwang_pt",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
+	[59159] = {
+		display = "用于『限时体验商店』兑换角色限时换装",
+		rarity = 4,
+		type = 98,
+		drop_oil_max = 0,
+		name = "换装体验券",
+		shop_id = 1,
+		shiptrans_id = 0,
+		drop_gold_max = 0,
+		virtual_type = 0,
+		link_id = 0,
+		id = 59159,
+		icon = "Props/skinTicket",
+		replace_item = 0,
+		display_icon = {},
+		price = {},
+		index = {}
+	},
 	[59601] = {
 		display = "미카사 콜렉션 - 구축함 프라모델-카와카제",
 		rarity = 2,
@@ -92545,11 +92624,11 @@ pg.item_data_statistics = {
 		index = {}
 	},
 	[99952] = {
-		display = "오픈 시 SP 해역에서 정상적으로 드랍되지 않은 보상을 획득할 수 있습니다.（S 평가 승리 기준, 1회 한정） ",
+		display = "打开可获得活动关卡中未正常获得的奖励1次（以S胜奖励进行补偿） ",
 		rarity = 1,
 		type = 5,
 		drop_oil_max = 0,
-		name = "SP 해역 드랍 관련 우편 ",
+		name = "韩服法系复刻掉落未开补偿箱子",
 		shop_id = -1,
 		shiptrans_id = 0,
 		drop_gold_max = 0,
@@ -92904,6 +92983,7 @@ pg.item_data_statistics = {
 		30112,
 		30113,
 		30121,
+		30201,
 		30202,
 		30301,
 		30302,
@@ -94582,6 +94662,9 @@ pg.item_data_statistics = {
 		59154,
 		59155,
 		59156,
+		59157,
+		59158,
+		59159,
 		59601,
 		59602,
 		59603,

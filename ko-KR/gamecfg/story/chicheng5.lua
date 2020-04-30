@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"彼岸花之恋？\n\n<size=45>五 细小的伤痕</size>",
+					"피안화의 사랑?\n\n<size=30>5. 사소한 상처</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·食堂厨房",
+			say = "항구·식당 주방",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "今天负责做饭的家伙居然感冒了…真是…竟然要指挥官亲自动手，回头要好好惩罚一下…",
+			say = "오늘 식사 준비를 담당한 녀석이 감기에 걸리다니... 참... 지휘관님이 직접 손을 쓰게 하다니, 나중에 벌을 줘야겠어요...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "不过仔细想想，能和指挥官一起做饭，倒是该表达感谢了～呵呵呵…换做是{namecode:92}的话什么事都会自己解决，所以能享受这种体验的只有我了……",
+			say = "하지만 곰곰히 생각해보면, 지휘관님과 함께 요리를 할 수 있게 되었으니, 감사를 표해야 하나요~ 후후훗... {namecode:92}였다면 무슨 일이든 자신이 해결했을테니, 이런 경험을 누릴 수 있는 것은 오직 저 뿐일거에요......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "啊…指挥官做饭的样子好帅…{namecode:91}光是看着就快烧起来了……",
+			say = "아... 지휘관님의 요리하는 모습 너무 멋지십니다... {namecode:91}는 쳐다보고만 있어도 불타오를 것 같아요......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "身旁投来炽热的目光。……结果分了神，稍微切到了手。",
+			say = "옆에서 뜨거운 시선이 느껴진다...... 결국 집중이 흐트러져 손끝을 살짝 베였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,24 +95,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "指挥官！？你的手怎么了……！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#92fc63",
-			side = 2,
-			bgName = "bg_story_outdoor",
-			dir = 1,
-			actor = 307010,
-			actorName = "{namecode:91}",
-			say = "怎么会这样…难道这把刀里藏了什么机关！？还是这里面有什么打扰指挥官注意力的家伙……",
+			say = "지휘관님!? 손이......!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +112,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "是我失策了。光是在指挥室做了不让任何人进来的预防措施，忽视了指挥官不常来的厨房…",
+			say = "어떻게 이런 일이... 설마 이 칼에 어떤 장치가 있는 건가요!? 아니면 이 곳에 지휘관님의 집중을 방해하는 어떤 녀석이......!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +129,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "既然{namecode:91}不能时刻陪在指挥官身边，只好找那孩子帮忙了…啊不过她要是以此为借口要和指挥官住到一间房里去的话…！",
+			say = "저의 실책이군요. 지휘실에만 어떤 누구도 들어오지 못하게 예방 조치를 취하고, 지휘관님이 자주 드나들지 않는 주방은 간과했습니다...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +146,24 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "对了！干脆把指挥官锁起来就不会离开{namecode:91}身边了……去找{namecode:98}那小丫头……不，{namecode:91}自己来做吧！",
+			say = "{namecode:91}가 시시각각 지휘관님의 곁을 지킬 수 없다면, 그 아이에게 도움을 구할 수 밖에요... 앗 하지만 그녀가 이를 구실로 지휘관님과 한 방에서 생활한다면...!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			nameColor = "#92fc63",
+			side = 2,
+			bgName = "bg_story_outdoor",
+			dir = 1,
+			actor = 307010,
+			actorName = "{namecode:91}",
+			say = "그래요! 아예 지휘관님을 가둬버리면 {namecode:91} 곁에서 벗어나지 못하시겠죠......? {namecode:98}를 찾아가서...... 아니, {namecode:91} 제가 직접하죠!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,11 +174,11 @@ return {
 			},
 			options = {
 				{
-					content = "先自己贴个创可贴",
+					content = "우선 직접 반창고를 붙인다.",
 					flag = 1
 				},
 				{
-					content = "先向{namecode:91}解释自己没事",
+					content = "우선 {namecode:91}에게 괜찮다고 설명한다.",
 					flag = 2
 				}
 			}
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "指挥官，你在说什么呢？还是说不需要{namecode:91}担心你？该不会明明有{namecode:91}在你还想去找别人帮忙吧…？",
+			say = "지휘관님, 무슨 말씀이세요? {namecode:91}의 걱정이 필요없다는 말씀이신가요? {namecode:91}가 있는데 다른 사람의 도움을 바라고 계신 것은 아니겠죠...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			actor = 307010,
 			actorName = "{namecode:91}",
-			say = "……对付这种不听{namecode:91}的话，还一直逞强的指挥官……",
+			say = "...... 이렇게 {namecode:91}의 말도 듣지 않고, 떼 쓰는 지휘관님에게는......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "眼前一黑。",
+			say = "눈앞이 컴컴해졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "动一下身体，感觉到周围毛茸茸的……",
+			say = "몸을 움직이자, 주변에서 부들부들한 털이 느껴졌다......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "看来已经完全被尾巴挡住了去路。",
+			say = "이미 꼬리에 막혀 완전히 발을 뗄 수 없었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			blackBg = true,
 			actor = 307010,
 			nameColor = "#92fc63",
-			say = "别以为能逃掉哦。别看我这样，{namecode:91}对指挥官可是比谁都……呵呵",
+			say = "달아날 수 있다고 생각하지 말아요. 저를 그렇게 보지 마세요. {namecode:91}는 지휘관님에 대해 그 누구보다도...... 후훗",
 			action = {
 				{
 					y = 15,
@@ -278,7 +278,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "被巨大的尾巴笼罩着，关在了和{namecode:91}独处的这个空间里。",
+			say = "거대한 꼬리로 둘러싼 이 독립된 공간에 {namecode:91}와 갇혔습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

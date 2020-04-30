@@ -51,13 +51,7 @@ function slot0.didEnter(slot0)
 		slot0:emit(slot1.ON_CLOSE)
 	end, SOUND_BACK)
 	onButton(slot0, slot0.searchBtn, function ()
-		if wordVer(slot0) > 0 then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("playerinfo_mask_word"))
-
-			return
-		end
-
-		slot0:emit(JoinGuildMediator.SEARCH, slot0)
+		slot0:emit(JoinGuildMediator.SEARCH, slot0.searchBar.text)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.sortBtn, function ()
 		if go(slot0.sortPanel).activeSelf then

@@ -268,15 +268,21 @@ function slot17(slot0, slot1)
 					slot12 = slot1.event_name
 					slot13 = slot0
 					slot14 = slot1.args
+					slot15 = 1
+					slot16 = slot1.args
+					slot16 = slot16.len
 
-					slot10(slot11(slot12, slot13(slot14)))
+					slot10(slot11(slot12, slot13(slot14, slot15, slot16)))
 				else
 					slot10 = slot9
 					slot11 = slot1.event_name
 					slot12 = slot0
 					slot13 = slot1.args
+					slot14 = 1
+					slot15 = slot1.args
+					slot15 = slot15.len
 
-					slot10(slot11, slot12(slot13))
+					slot10(slot11, slot12(slot13, slot14, slot15))
 				end
 			end
 		end
@@ -434,9 +440,12 @@ function slot18(slot0, slot1, ...)
 		event_name = slot1,
 		nodes = slot2
 	}
-	slot7 = {
-		...
-	}
+	slot7 = {}
+	slot8 = select
+	slot9 = "#"
+	slot8 = slot8(slot9, ...)
+	slot7.len = slot8
+	slot7[MULTRES] = ...
 	slot6.args = slot7
 
 	slot4(slot5, slot6)
@@ -464,9 +473,12 @@ function slot18(slot0, slot1, slot2, ...)
 		nodes = slot3,
 		accumulator = slot2
 	}
-	slot8 = {
-		...
-	}
+	slot8 = {}
+	slot9 = select
+	slot10 = "#"
+	slot9 = slot9(slot10, ...)
+	slot8.len = slot9
+	slot8[MULTRES] = ...
 	slot7.args = slot8
 
 	slot5(slot6, slot7)

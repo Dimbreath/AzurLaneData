@@ -9,9 +9,10 @@ return {
 	scripts = {
 		{
 			actor = 307010,
+			actorName = "{namecode:91}",
 			side = 0,
 			nameColor = "#ff0000",
-			say = "\"로그\"는 전부 신에게. 나머진 \"그분\"의 강림을 기다릴 뿐이야.",
+			say = "아카기: 모든 로그는 신에게 전달했어. 이제 남은 것은 더 큰 힘을 얻는 것뿐이야. 후후후.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -27,9 +28,10 @@ return {
 		},
 		{
 			actor = 307020,
+			actorName = "{namecode:92}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "...그 아이가 추격해 온 모양이군. 어떻게 하죠?",
+			say = "5항전이 쫓아온 모양입니다. 어떻게 하죠?",
 			shake = {
 				speed = 1,
 				number = 3
@@ -45,9 +47,10 @@ return {
 		},
 		{
 			actor = 307010,
+			actorName = "{namecode:91}",
 			side = 0,
 			nameColor = "#ff0000",
-			say = "\"그분\"께서 지시한 임무는 완수했어. 조금 놀아줘도 벌 받진 않을 거라구?",
+			say = "신이 내린 임무도 끝냈으니 조금 놀아줘도 괜찮겠지.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -63,6 +66,7 @@ return {
 		},
 		{
 			actor = 307020,
+			actorName = "{namecode:92}",
 			side = 1,
 			nameColor = "#ff0000",
 			say = "언니는 여전하시군요.",

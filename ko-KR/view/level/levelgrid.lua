@@ -257,39 +257,16 @@ end
 slot0.getEdgePool = slot5
 
 function slot5(slot0)
-	slot1 = slot0.contextData
-	slot1 = slot1.chapterVO
-	slot2 = slot0.cellAttachments
+	slot1 = slot0.contextData.chapterVO
+	slot0.cellAttachments = slot0.cellAttachments or {}
 
-	if not slot2 then
-		slot2 = {}
-		slot0.cellAttachments = slot2
-	end
-
-	slot3 = slot0
-	slot2 = slot0.initPlane
-
-	slot2(slot3)
-
-	slot3 = slot0
-	slot2 = slot0.initDrag
-
-	slot2(slot3)
-
-	slot3 = slot0
-	slot2 = slot0.initTargetArrow
-
-	slot2(slot3)
-
-	slot3 = slot0
-	slot2 = slot0.InitDestinationMark
-
-	slot2(slot3)
+	slot0:initPlane()
+	slot0:initDrag()
+	slot0:initTargetArrow()
+	slot0:InitDestinationMark()
 
 	slot2 = 0
-	slot3 = ChapterConst
-	slot3 = slot3.MaxRow
-	slot3 = slot3 - 1
+	slot3 = ChapterConst.MaxRow - 1
 	slot4 = 1
 
 	for slot5 = slot2, slot3, slot4 do

@@ -9,6 +9,7 @@ return {
 	scripts = {
 		{
 			actor = 301200,
+			actorName = "{namecode:24}",
 			side = 2,
 			nameColor = "#ff0000",
 			say = "아우... 행운함이네 뭐네... 역시 다 미신이야...",
@@ -26,10 +27,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
-			nameColor = "#92fc63",
 			side = 0,
 			say = "그렇지 않아. 상대가 나빴을 뿐이야.",
+			actorName = "{namecode:96}",
+			actor = 307060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -49,8 +51,9 @@ return {
 		},
 		{
 			actor = 307060,
+			actorName = "{namecode:96}",
 			side = 0,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "...가 아니지, 알고 있는 거 전부 알려줘.",
 			shake = {
 				speed = 1,
@@ -70,7 +73,7 @@ return {
 			actorName = "{namecode:24}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "...나도 어쩌다 \"성역\"에 흘러들어왔는데... 그랬더니 \"그 사람들\"하고 만났어...",
+			say = "윽… 나도 어쩌다 ‘성역'에 흘러 들어왔어. 그리고… 여기서 한참 전에 실종된 아카기 님과 카가 님을 만났지.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -86,9 +89,10 @@ return {
 		},
 		{
 			actor = 301200,
+			actorName = "{namecode:24}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "\"그 사람들\"은 신께서 하사한 기술을 연구해서 전황을 만회하고 싶대...",
+			say = "아카기 님은 전황을 되돌리기 위해 여기서 계속 신이 내려준 기술을 연구하고 있었다고 해…",
 			shake = {
 				speed = 1,
 				number = 3
@@ -104,9 +108,10 @@ return {
 		},
 		{
 			actor = 307060,
+			actorName = "{namecode:96}",
 			side = 0,
-			nameColor = "#92fc63",
-			say = "정보하고 똑같네. 아무래도 그 이야기... 거짓이 아니야.",
+			nameColor = "#a9f548",
+			say = "데려와진 건가… ‘성역’의 정보와 같네. 거짓말을 하고 있는 건 아닌 것 같아.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -122,8 +127,9 @@ return {
 		},
 		{
 			actor = 307060,
+			actorName = "{namecode:96}",
 			side = 0,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "노와키. 나와 같이 쇼카쿠 언니를 구하러 가자? 아군은 많으면 많을수록 좋아.",
 			shake = {
 				speed = 1,
@@ -140,9 +146,10 @@ return {
 		},
 		{
 			actor = 301200,
+			actorName = "{namecode:24}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "난, \"그 사람들\"한테서 거스를 수 없어......",
+			say = "나는 아카기 님의 명을 거스를 수 없어…",
 			shake = {
 				speed = 1,
 				number = 3
@@ -158,9 +165,10 @@ return {
 		},
 		{
 			actor = 307060,
+			actorName = "{namecode:96}",
 			side = 0,
-			nameColor = "#92fc63",
-			say = "그 신이라는 녀석은 허황이라고 해도?",
+			nameColor = "#a9f548",
+			say = "그 신이라는 게 모두 거짓이라고 해도?",
 			shake = {
 				speed = 1,
 				number = 3
@@ -176,9 +184,10 @@ return {
 		},
 		{
 			actor = 301200,
+			actorName = "{namecode:24}",
 			side = 1,
 			nameColor = "#ff0000",
-			say = "\"그 사람들\"은 희망을 줬어... 이 길이 틀렸다고 해도, 난...",
+			say = "아카기 님은 우리에게 희망을 주셨어. 이 길이 잘못됐다고 해도, 나는…",
 			shake = {
 				speed = 1,
 				number = 3
@@ -194,8 +203,9 @@ return {
 		},
 		{
 			actor = 307060,
+			actorName = "{namecode:96}",
 			side = 0,
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			say = "그렇구나... 행운을 빌게.",
 			shake = {
 				speed = 1,

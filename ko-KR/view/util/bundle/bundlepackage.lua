@@ -27,6 +27,10 @@ function slot0.Add(slot0, slot1, slot2, slot3, slot4)
 					if not slot0.stopped then
 						slot0.items[] = slot0
 
+						if slot0.requests[].has_loaded_sync then
+							slot2:ClearBundleRef(slot3, true, false)
+						end
+
 						for slot4, slot5 in ipairs(slot0.requests[ipairs]) do
 							slot5(slot0)
 						end
@@ -43,6 +47,12 @@ function slot0.Add(slot0, slot1, slot2, slot3, slot4)
 			table.insert(slot0.requests[slot1], slot4)
 		else
 			slot0.items[slot1] = slot0:getAssetSync(slot0.path, slot1, slot3, false, false)
+
+			if slot0.requests[slot1] then
+				errorMsg("Already Loading Async", slot0.path)
+
+				slot0.requests[slot1].has_loaded_sync = true
+			end
 
 			slot4(slot0.items[slot1])
 		end

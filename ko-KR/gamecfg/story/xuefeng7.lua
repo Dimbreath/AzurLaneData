@@ -99,7 +99,7 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
