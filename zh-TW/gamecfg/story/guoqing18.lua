@@ -94,7 +94,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "这样轻信歪门邪道出卖自己同胞所获得的力量，是无法战胜她，战胜那个幽灵的",
+			say = "這樣輕信歪門邪道出賣自己同胞所獲得的力量，是無法戰勝她，戰勝那個幽靈的",
 			shake = {
 				speed = 1,
 				number = 3

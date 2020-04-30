@@ -17,7 +17,7 @@ return {
 			}
 		},
 		{
-			say = "现在·港区",
+			say = "現在·港區",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			actorName = "{namecode:98}",
-			say = "当贝尔法斯特被光线直射的时候，一时还慌了神喵…",
+			say = "當貝爾法斯特被光線直射的時候，一時還慌了神喵…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			actorName = "{namecode:98}",
-			say = "不过出现异状的却是另一边喵…",
+			say = "不過出現異狀的卻是另一邊喵…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			}
 		},
 		{
-			say = "另一边？",
+			say = "另一邊？",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -113,7 +113,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			actorName = "{namecode:98}",
-			say = "原本固定在那里的心智魔方不见了喵！",
+			say = "原本固定在那裡的心智魔方不見了喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			actorName = "{namecode:98}",
-			say = "然后出现的就是这孩子了喵…",
+			say = "然後出現的就是這孩子了喵…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			actor = 202180,
 			nameColor = "#a9f548",
-			say = "啊，贝尔法斯特姐姐大人也来了",
+			say = "啊，貝爾法斯特姐姐大人也來了",
 			action = {
 				{
 					y = 30,
@@ -165,7 +165,7 @@ return {
 			}
 		},
 		{
-			say = "原来你们在这里，贵安，殿下、厌战",
+			say = "原來你們在這裡，貴安，殿下、厭戰",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			actor = 202110,
 			nameColor = "#a9f548",
-			say = "我也来啦～小贝法原来在这里呀～来来快让姐姐抱抱～",
+			say = "我也來啦～小貝法原來在這裡呀～來來快讓姐姐抱抱～",
 			action = {
 				{
 					y = 30,
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			actor = 202180,
 			nameColor = "#a9f548",
-			say = "爱、爱丁堡姐姐…这样好难受的啦——",
+			say = "愛、愛丁堡姐姐…這樣好難受的啦——",
 			action = {
 				{
 					y = 0,
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			actor = 202110,
 			nameColor = "#a9f548",
-			say = "呀啊～～小贝法真是太可爱啦～～～",
+			say = "呀啊～～小貝法真是太可愛啦～～～",
 			action = {
 				{
 					y = 30,
@@ -265,7 +265,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……凡事适可而止啊，姐姐",
+			say = "……凡事適可而止啊，姐姐",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，贝法也想要来个抱抱吗～？",
+			say = "哼哼，貝法也想要來個抱抱嗎～？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这、这样看还真是三姐妹呢…",
+			say = "這、這樣看還真是三姐妹呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			}
 		},
 		{
-			say = "所以，这孩子算是贝尔法斯特的妹妹？",
+			say = "所以，這孩子算是貝爾法斯特的妹妹？",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -334,7 +334,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			actorName = "{namecode:98}",
-			say = "这孩子开始介绍自己的时候也是用“贝尔法斯特”喵",
+			say = "這孩子開始介紹自己的時候也是用“貝爾法斯特”喵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			actorName = "{namecode:98}",
-			say = "为了防止混乱，于是就叫她“小贝法”了喵…",
+			say = "為了防止混亂，於是就叫她“小貝法”了喵…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们自诞生便是现在的模样，真要说起来，并没有幼时的体验…",
+			say = "我們自誕生便是現在的模樣，真要說起來，並沒有幼時的體驗…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过身为皇家女仆队的队长，自然要担负起培养新人的责任",
+			say = "不過身為皇家女僕隊的隊長，自然要擔負起培養新人的責任",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我会努力跟上姐姐们的脚步的！",
+			say = "我會努力跟上姐姐們的腳步的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "身为姐姐的我也会好好疼爱你的～",
+			say = "身為姐姐的我也會好好疼愛你的～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			blackBg = true,
 			actor = 202180,
 			nameColor = "#a9f548",
-			say = "爱丁堡姐姐……",
+			say = "愛丁堡姐姐……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

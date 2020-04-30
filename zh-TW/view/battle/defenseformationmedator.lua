@@ -160,49 +160,36 @@ function slot0.configDockYardFunc(slot0, slot1, slot2, slot3, slot4, slot5)
 			end
 		end
 
+		function slot4(slot0)
+			if slot0 == TeamType.Main then
+				slot1.mainShips = (slot0 and slot2) or slot3
+				slot1.vanguardShips = slot4
+			elseif slot0 == TeamType.Vanguard then
+				slot1.mainShips = slot3
+				slot1.vanguardShips = (slot0 and slot2) or slot4
+			end
+
+			if slot5 then
+				slot5(slot5, slot6)
+			end
+		end
+
+		if slot1 == TeamType.Main then
+			slot3(slot2)
+		elseif slot1 == TeamType.Vanguard then
+			slot3(slot3)
+		end
+
 		if #slot0 > 0 then
-			if slot1 == TeamType.Main then
-				slot3(slot2)
-
-				slot2.mainShips = slot0
-				slot2.vanguardShips = slot3
-			elseif slot1 == TeamType.Vanguard then
-				slot3(slot3)
-
-				slot2.mainShips = slot2
-				slot2.vanguardShips = slot0
-			end
-
-			if slot4 then
-				slot4(slot2, slot1)
-			end
+			slot4(true)
 		else
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("exercise_clear_fleet_tip"),
 				onYes = function ()
-					if slot0 == TeamType.Main then
-						slot1(slot2)
-
-						slot3.mainShips = slot4
-						slot3.vanguardShips = slot5
-					elseif slot0 == TeamType.Vanguard then
-						slot1(slot5)
-
-						slot3.mainShips = slot2
-						slot3.vanguardShips = slot4
-					end
-
-					if slot6 then
-						slot6(slot3, slot7)
-					end
+					slot0(true)
 				end,
 				onNo = function ()
-					slot0.mainShips = slot1
-					slot0.vanguardShips = slot2
-
-					if slot3 then
-						slot3(slot3, slot4)
-					end
+					slot0(false)
 				end
 			})
 		end

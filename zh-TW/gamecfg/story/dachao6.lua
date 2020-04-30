@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"来自{namecode:146}的温柔\n\n<size=45>六　兽耳娘们的茶会</size>",
+					"來自{namecode:146}的溫柔\n\n<size=45>六　獸耳娘們的茶會</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·重樱生活区",
+			say = "港區·重櫻生活區",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "休息日，被{namecode:146}邀请参加第八驱逐队举办的茶道会。",
+			say = "休息日，被{namecode:146}邀請參加第八驅逐隊舉辦的茶道會。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "午饭之后，来到了重樱的生活区，在一颗巨大的樱花树下，四位少女的身影坐在野餐垫上。",
+			say = "午飯之後，來到了重櫻的生活區，在一顆巨大的櫻花樹下，四位少女的身影坐在野餐墊上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "大家，指挥官来了哟！",
+			say = "大家，指揮官來了喲！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，这边这边！请坐在这边。",
+			say = "指揮官，這邊這邊！請坐在這邊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			actor = 301660,
 			actorName = "{namecode:148}",
-			say = "指挥官，欢迎来我们第八驱逐队的茶道会~",
+			say = "指揮官，歡迎來我們第八驅逐隊的茶道會~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			say = "点心请随意吃哦，茶不够了的话请跟我说。",
+			say = "點心請隨意吃哦，茶不夠了的話請跟我說。",
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -150,7 +150,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啦啦啦~托指挥官的福，天气都变好了的说。",
+			say = "啦啦啦~託指揮官的福，天氣都變好了的說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔……指挥官能来，{namecode:145}有点高兴。",
+			say = "唔……指揮官能來，{namecode:145}有點高興。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，那么大家快点喝茶吧~",
+			say = "嘿嘿，那麼大家快點喝茶吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "将小茶杯中的茶一饮而尽，然后观察起驱逐舰们的样子。",
+			say = "將小茶杯中的茶一飲而盡，然後觀察起驅逐艦們的樣子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "{namecode:145}坐在一旁，双手拿着一个小熊形状的饼干，安静的吃着。",
+			say = "{namecode:145}坐在一旁，雙手拿著一個小熊形狀的餅乾，安靜的吃著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			}
 		},
 		{
-			say = "嗯嗯，吃东西时的{namecode:145}也是非常的可爱呢！摸摸~",
+			say = "嗯嗯，吃東西時的{namecode:145}也是非常的可愛呢！摸摸~",
 			side = 0,
 			bgName = "star_level_bg_103",
 			dir = 1,
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "{namecode:146}摸起了旁边{namecode:145}的耳朵。",
+			say = "{namecode:146}摸起了旁邊{namecode:145}的耳朵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			actor = 301630,
 			nameColor = "#a9f548",
-			say = "{namecode:146}……很痒啦……",
+			say = "{namecode:146}……很癢啦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啦……树叶，落到了茶碗里。",
+			say = "啊啦……樹葉，落到了茶碗裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			actor = 301660,
 			actorName = "{namecode:148}",
-			say = "{namecode:145}酱真是……嗯？指挥官您似乎不太习惯坐姿呢，请用这个坐垫吧。",
+			say = "{namecode:145}醬真是……嗯？指揮官您似乎不太習慣坐姿呢，請用這個坐墊吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			actor = 301640,
 			nameColor = "#a9f548",
-			say = "指挥官对今天的茶会还满意吗？",
+			say = "指揮官對今天的茶會還滿意嗎？",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -357,7 +357,7 @@ return {
 			dir = 1,
 			actor = 301660,
 			actorName = "{namecode:148}",
-			say = "再帮您倒一杯茶，指挥官。啊，也给{namecode:145}酱倒一杯~",
+			say = "再幫您倒一杯茶，指揮官。啊，也給{namecode:145}醬倒一杯~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这种时候，突然很想唱歌的说~樱花啊~美丽的樱花~",
+			say = "這種時候，突然很想唱歌的說~櫻花啊~美麗的櫻花~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "在这样的空间里，时间的流速似乎都变得缓慢。",
+			say = "在這樣的空間裡，時間的流速似乎都變得緩慢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
-			say = "就这样安静地享受了一个美妙而治愈的下午",
+			say = "就這樣安靜地享受了一個美妙而治癒的下午",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

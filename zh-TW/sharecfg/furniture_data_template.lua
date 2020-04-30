@@ -1008,6 +1008,139 @@ pg.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[122] = {
+		advice = 0,
+		describe = "盔甲人偶來保護你！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "盔甲人偶",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 0,
+		icon = "renouwoicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		spine_extra = "",
+		can_rotate = 0,
+		id = 122,
+		picture = "chuanmo/renouwo",
+		comfortable = 4,
+		tag = 6,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-12.5,
+					10
+				},
+				{
+					-1,
+					1,
+					1
+				},
+				"chuanmo/renou_using",
+				[6] = {
+					{
+						0,
+						50
+					},
+					{
+						175,
+						200
+					}
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[123] = {
+		advice = 0,
+		describe = "超巨大的鯉魚旗！",
+		count = 1,
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		name = "巨大鯉魚旗",
+		is_get_time_note = 0,
+		rarity = 4,
+		gain_by = "",
+		themeId = 0,
+		icon = "liyuqiwoicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 123,
+		picture = "chuanmo/liyuqiwo",
+		comfortable = 4,
+		tag = 6,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[124] = {
+		advice = 0,
+		describe = "授予在《墨染的鋼鐵之花》的行動中獲得傑出成就者的勳章，願你的內心永遠堅強",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		name = "鋼鐵之花勳章",
+		is_get_time_note = 1,
+		rarity = 5,
+		gain_by = "墨染的鋼鐵之花",
+		themeId = 0,
+		icon = "cmlaxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		can_rotate = 0,
+		spine_extra = "",
+		id = 124,
+		picture = "chuanmo/cmlaxunzhang",
+		comfortable = 0,
+		tag = 6,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
 	[149] = {
 		advice = 0,
 		describe = "一起來欣賞古老的皮影戲技藝吧~",
@@ -33894,6 +34027,9 @@ pg.furniture_data_template = {
 		112,
 		117,
 		119,
+		122,
+		123,
+		124,
 		149,
 		152,
 		154,

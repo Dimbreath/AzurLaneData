@@ -10,7 +10,7 @@ return {
 			soundeffect = "event:/battle/boom1",
 			side = 2,
 			bgName = "bg_story_nagato3",
-			say = "轰——",
+			say = "轟——",
 			dir = 1,
 			bgm = "nagato-map",
 			flash = {
@@ -30,7 +30,7 @@ return {
 			}
 		},
 		{
-			say = "轰——",
+			say = "轟——",
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 1,
-			say = "笨蛋！别让炮弹打中御神木！！",
+			say = "笨蛋！別讓砲彈打中御神木！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 1,
-			say = "我也没办法控制对方炮弹的飞行方向啊——啊又来了！",
+			say = "我也沒辦法控制對方砲彈的飛行方向啊——啊又來了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			}
 		},
 		{
-			say = "轰——",
+			say = "轟——",
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 1,
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 1,
-			say = "在激烈的战斗中，无数的炮弹击中了御神木，空气中似乎能够感受到一股狂乱的气流正不安的扰动着...",
+			say = "在激烈的戰鬥中，無數的砲彈擊中了御神木，空氣中似乎能夠感受到一股狂亂的氣流正不安的擾動著...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 1,
-			say = "哇...人家只是开个玩笑而已啦，不要这么认真嘛...消消气消消气",
+			say = "哇...人家只是開個玩笑而已啦，不要這麼認真嘛...消消氣消消氣",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 1,
-			say = "此时{namecode:74}的表情开始变得痛苦起来...",
+			say = "此時{namecode:74}的表情開始變得痛苦起來...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			}
 		},
 		{
-			say = "轰——",
+			say = "轟——",
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 1,
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 1,
-			say = "突然...御神木上的枝叶，化为了一面巨大的盾墙，挡在了御神木和众人面前...",
+			say = "突然...御神木上的枝葉，化為了一面巨大的盾牆，擋在了御神木和眾人面前...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			actor = 0,
 			stopbgm = true,
-			say = "究竟是谁...在打扰灵魂的安宁？",
+			say = "究竟是誰...在打擾靈魂的安寧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 1,
-			say = "空气一瞬间宁静了下来，原本飘浮在半空中的花瓣也化为了朵朵光玉悬于空中",
+			say = "空氣一瞬間寧靜了下來，原本飄浮在半空中的花瓣也化為了朵朵光玉懸於空中",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 1,
-			say = "——时间仿佛被静止了一般",
+			say = "——時間彷彿被靜止了一般",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			actor = 0,
 			actorName = "？？？",
-			say = "这帮不速之客，这里不欢迎你们！",
+			say = "這幫不速之客，這裡不歡迎你們！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			}
 		},
 		{
-			say = "原本宁静的空气突然一阵骚动，无数的光玉快速的朝塞壬舰队的方向飞去",
+			say = "原本寧靜的空氣突然一陣騷動，無數的光玉快速的朝塞壬艦隊的方向飛去",
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 1,
@@ -249,7 +249,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 1,
-			say = "不一会儿，海面上就只剩下了一堆破铜烂铁...",
+			say = "不一會兒，海面上就只剩下了一堆破銅爛鐵...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 1,
-			say = "同时，一名稍显幼小，但却不失威严感的少女，伫立在光玉的中心",
+			say = "同時，一名稍顯幼小，但卻不失威嚴感的少女，佇立在光玉的中心",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 1,
-			say = "诶..诶？！",
+			say = "欸..欸？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 1,
-			say = "吾乃{namecode:74}，重樱的守护者——{namecode:74}！",
+			say = "吾乃{namecode:74}，重櫻的守護者——{namecode:74}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

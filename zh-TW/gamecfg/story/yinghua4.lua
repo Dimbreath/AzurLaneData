@@ -16,7 +16,7 @@ return {
 				}
 			},
 			signDate = {
-				"——2年前，海域坐标：27.328699，-159.870474",
+				"——2年前，海域座標：27.328699，-159.870474",
 				0.2,
 				{
 					600,
@@ -29,7 +29,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "真的…无可挽回了吗？",
+			say = "真的…無可挽回了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "这一切，都是为了重樱的未来，现在，您只需要一声令下，剩下的就交给我们吧",
+			say = "這一切，都是為了重櫻的未來，現在，您只需要一聲令下，剩下的就交給我們吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "可是..战争是会伴随着巨大的牺牲的…不论是他们，还是…",
+			say = "可是..戰爭是會伴隨著巨大的犧牲的…不論是他們，還是…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "所谓的牺牲，不过是灵魂的循环，正是这无数的消逝与新生，推动着世界与历史的前进，相信您也明白这一点",
+			say = "所謂的犧牲，不過是靈魂的循環，正是這無數的消逝與新生，推動著世界與歷史的前進，相信您也明白這一點",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "放心吧，敌人不可能预想到我们有如此精锐的航空部队，胜利必将属于重樱",
+			say = "放心吧，敵人不可能預想到我們有如此精銳的航空部隊，勝利必將屬於重櫻",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "下命令吧，{namecode:74}大人，我等一航战，随时准备出击",
+			say = "下命令吧，{namecode:74}大人，我等一航戰，隨時準備出擊",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 		},
 		{
 			blackBg = true,
-			say = "少女在迄今为止的人生中，见过许多充满期待的眼神，或是希望从所谓神明的恩泽中获取些什么，或是对于未来生活的期待和向往",
+			say = "少女在迄今為止的人生中，見過許多充滿期待的眼神，或是希望從所謂神明的恩澤中獲取些什麼，或是對於未來生活的期待和嚮往",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 		},
 		{
 			blackBg = true,
-			say = "但是，这次她所面对的，是更加令人难以忽视的眼神——眼前这批平时她最信任的重樱的精锐空母们，正用炽热的眼神看着她，期待着她从嘴里说出的那几个字…",
+			say = "但是，這次她所面對的，是更加令人難以忽視的眼神——眼前這批平時她最信任的重櫻的精銳航母們，正用熾熱的眼神看著她，期待著她從嘴裡說出的那幾個字…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 		},
 		{
 			blackBg = true,
-			say = "她犹豫，但是没有后退的余地，这一切，都是上层的大人物们早已安排好的剧本…",
+			say = "她猶豫，但是沒有後退的餘地，這一切，都是上層的大人物們早已安排好的劇本…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 		},
 		{
 			blackBg = true,
-			say = "她握紧了自己的拳头，深吸一口气，以她最擅长的，充满威严感的语气说道",
+			say = "她握緊了自己的拳頭，深吸一口氣，以她最擅長的，充滿威嚴感的語氣說道",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "吾乃{namecode:74}，重樱的守护者、联合舰队旗舰——{namecode:74}",
+			say = "吾乃{namecode:74}，重櫻的守護者、聯合艦隊旗艦——{namecode:74}",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "在此，吾以联合舰队旗舰身份向全员下令",
+			say = "在此，吾以聯合艦隊旗艦身份向全員下令",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

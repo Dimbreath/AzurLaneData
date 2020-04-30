@@ -31,7 +31,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "......不只是晓，連你們兩位的冒牌貨都準備好了麼",
+			say = "......不只是曉，連你們兩位的冒牌貨都準備好了嗎",
 			shake = {
 				speed = 1,
 				number = 3

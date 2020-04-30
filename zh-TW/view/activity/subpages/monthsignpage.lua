@@ -113,6 +113,10 @@ function slot0.OnDestroy(slot0)
 	removeAllChildren(slot0.items)
 
 	slot0.monthSignPageTool = nil
+
+	slot0.monthSignReSignUI:Destroy()
+
+	slot0.monthSignReSignUI = nil
 end
 
 return slot0

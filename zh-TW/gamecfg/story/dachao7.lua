@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"来自{namecode:146}的温柔\n\n<size=45>七　今后也请多多关照！</size>",
+					"來自{namecode:146}的溫柔\n\n<size=45>七　今後也請多多關照！</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "治愈心灵的茶会也快到结束的时间了。",
+			say = "治癒心靈的茶會也快到結束的時間了。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "突然有种“自己的存在是不是有些多余？”的感觉",
+			say = "突然有種“自己的存在是不是有些多餘？ ”的感覺",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "…似乎打扰了第八驱逐队四人的美妙时光？",
+			say = "…似乎打擾了第八驅逐隊四人的美妙時光？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "您在想什么吗？指挥官？",
+			say = "您在想什麼嗎？指揮官？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官是在担心打扰了我和姐妹们相处的时间吗？",
+			say = "指揮官是在擔心打擾了我和姐妹們相處的時間嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "您想的太复杂了哦！指挥官您，我，还有姐妹们，早就是伙伴……不不，早就是一家人了呀！",
+			say = "您想的太複雜了哦！指揮官您，我，還有姐妹們，早就是夥伴……不不，早就是一家人了呀！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你看，大家也是这样想的哦~",
+			say = "你看，大家也是這樣想的哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,23 +143,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "大家纷纷走了过来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 301630,
-			side = 2,
-			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "{namecode:145}也觉得，指挥官不需要担心。",
+			say = "大家紛紛走了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +159,23 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今后……指挥官一定会经常跟{namecode:145}一起玩吧？",
+			say = "{namecode:145}也覺得，指揮官不需要擔心。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 301630,
+			side = 2,
+			bgName = "star_level_bg_103",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "今後……指揮官一定會經常跟{namecode:145}一起玩吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			actor = 301660,
 			actorName = "{namecode:148}",
-			say = "我会和{namecode:146}一起为指挥官准备更多好吃的点心！",
+			say = "我會和{namecode:146}一起為指揮官準備更多好吃的點心！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			actor = 301660,
 			actorName = "{namecode:148}",
-			say = "所以，请一定经常来我们的茶会哟~",
+			say = "所以，請一定經常來我們的茶會喲~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "{namecode:147}向这边行了一个礼。",
+			say = "{namecode:147}向這邊行了一個禮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官如果喜欢花和歌声的话，就请来找{namecode:147}吧~",
+			say = "指揮官如果喜歡花和歌聲的話，就請來找{namecode:147}吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，怎么样，跟{namecode:146}说的一样吧~",
+			say = "嘿嘿，怎麼樣，跟{namecode:146}說的一樣吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "看着大家的笑脸，心中的疑虑完全消失了。",
+			say = "看著大家的笑臉，心中的疑慮完全消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,8 +288,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			actor = 301630,
-			actorName = "{namecode:145}级四人",
-			say = "以后也请多多指教！指挥官~",
+			actorName = "{namecode:145}級四人",
+			say = "以後也請多多指教！指揮官~",
 			subActors = {
 				{
 					actor = 301640,

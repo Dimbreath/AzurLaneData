@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"明日的淑女\n\n<size=45>一 幼小的访客</size>",
+					"明日的淑女\n\n<size=45>一 幼小的訪客</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "某日·港区",
+			say = "某日·港區",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 202180,
 			actorName = "？？？",
-			say = "嗯…这里就是“港区”吗？",
+			say = "嗯…這裡就是“港區”嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			dir = 1,
 			actor = 202180,
 			actorName = "？？？",
-			say = "比想象中的还要大好多——",
+			say = "比想像中的還要大好多——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			actor = 202180,
 			actorName = "？？？",
-			say = "好！去找{namecode:98}姐姐说的“指挥官”报到吧～",
+			say = "好！去找{namecode:98}姐姐說的“指揮官”報到吧～",
 			action = {
 				{
 					y = 30,
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			actor = 205020,
 			nameColor = "#a9f548",
-			say = "殿下，这些是准备交给指挥官的资料，没有缺吧？",
+			say = "殿下，這些是準備交給指揮官的資料，沒有缺吧？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -120,7 +120,7 @@ return {
 			}
 		},
 		{
-			say = "那是当然啦！本王做事怎么会有差池～",
+			say = "那是當然啦！本王做事怎麼會有差池～",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…身为仆人竟然要本王亲自给他送资料过来，实在是…嗯？",
+			say = "不過…身為僕人竟然要本王親自給他送資料過來，實在是…嗯？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,14 +173,14 @@ return {
 			}
 		},
 		{
-			actorName = "厌战&伊丽莎白女王",
+			actorName = "厭戰&伊莉莎白女王",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			hideOther = true,
 			dir = 1,
 			actor = 205020,
 			nameColor = "#a9f548",
-			say = "贝尔法斯特？",
+			say = "貝爾法斯特？",
 			subActors = {
 				{
 					actor = 205010,
@@ -204,8 +204,8 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 202180,
-			actorName = "贝尔法斯特？",
-			say = "贵安，两位姐姐，我是贝法。请问你们知道“指挥官”在哪里吗？",
+			actorName = "貝爾法斯特？",
+			say = "貴安，兩位姐姐，我是貝法。請問你們知道“指揮官”在哪裡嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			}
 		},
 		{
-			say = "贝、贝贝贝贝尔法斯特缩水了啊啊啊啊啊啊！",
+			say = "貝、貝貝貝貝爾法斯特縮水了啊啊啊啊啊啊！",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这、这是怎么回事…？",
+			say = "這、這是怎麼回事…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？贝法就是贝法哟？两位姐姐难道认识贝法吗？",
+			say = "嗯？貝法就是貝法喲？兩位姐姐難道認識貝法嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			actorName = "{namecode:98}",
-			say = "喵！原来在这里喵！真是的，都说了不可以乱跑了喵！",
+			say = "喵！原來在這裡喵！真是的，都說了不可以亂跑了喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "明、{namecode:98}？！这、这是什么情况？！",
+			say = "明、{namecode:98}？！這、這是什麼情況？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			blackBg = true,
 			actor = 312010,
 			actorName = "{namecode:98}",
-			say = "事、事情是这样的喵——",
+			say = "事、事情是這樣的喵——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

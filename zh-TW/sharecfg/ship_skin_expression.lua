@@ -14445,6 +14445,37 @@ pg.ship_skin_expression = {
 		battle = "3",
 		login = "3",
 		detail = "1"
+	},
+	tuzuo_2 = {
+		default = "",
+		feeling3 = "",
+		main_1 = "",
+		touch = "4",
+		expedition = "2",
+		win_mvp = "",
+		home = "",
+		unlock = "",
+		touch2 = "2",
+		mail = "4",
+		painting = "tuzuo_2",
+		mission = "4",
+		main_2 = "3",
+		lose = "2",
+		main_3 = "",
+		feeling1 = "4",
+		profile = "",
+		feeling4 = "1",
+		feeling5 = "",
+		propose = "",
+		hp_warning = "2",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "3",
+		skill = "",
+		battle = "3",
+		login = "1",
+		detail = ""
 	}
 }
 

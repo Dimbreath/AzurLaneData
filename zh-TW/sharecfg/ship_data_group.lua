@@ -4974,6 +4974,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[335] = {
+		type = 2,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 2,
+		hide = 0,
+		index_id = 150,
+		group_type = 20218,
+		code = 335,
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：啾啾總動員",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[371] = {
 		type = 2,
 		trans_skin = 0,
@@ -6645,6 +6676,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[277] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 197,
+		group_type = 30138,
+		code = 277,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：墨染的鋼鐵之花",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[280] = {
 		type = 1,
 		trans_skin = 0,
@@ -7062,6 +7124,99 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[288] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 216,
+		group_type = 30149,
+		code = 288,
+		property_hexagon = {
+			"C",
+			"S",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：墨染的鋼鐵之花",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[331] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 217,
+		group_type = 30163,
+		code = 331,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：墨染的鋼鐵之花",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[332] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 218,
+		group_type = 30164,
+		code = 332,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：墨染的鋼鐵之花",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[167] = {
 		type = 1,
 		trans_skin = 0,
@@ -7223,6 +7378,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[316] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 227,
+		group_type = 30159,
+		code = 316,
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"月度簽到",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[318] = {
 		type = 1,
 		trans_skin = 301619,
@@ -7323,6 +7509,68 @@ pg.ship_data_group = {
 					{
 						chapterid = 904
 					}
+				},
+				0
+			}
+		}
+	},
+	[296] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 236,
+		group_type = 30157,
+		code = 296,
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"A",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：墨染的鋼鐵之花",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[297] = {
+		type = 1,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 237,
+		group_type = 30158,
+		code = 297,
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"A",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：墨染的鋼鐵之花",
+				{
+					""
 				},
 				0
 			}
@@ -8004,6 +8252,37 @@ pg.ship_data_group = {
 			}
 		}
 	},
+	[204] = {
+		type = 4,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 263,
+		group_type = 30401,
+		code = 204,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：墨染的鋼鐵之花",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[205] = {
 		type = 4,
 		trans_skin = 0,
@@ -8028,6 +8307,37 @@ pg.ship_data_group = {
 		description = {
 			{
 				"限時活動：歸來與新生",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[206] = {
+		type = 4,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 265,
+		group_type = 30403,
+		code = 206,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：墨染的鋼鐵之花",
 				{
 					""
 				},
@@ -8154,7 +8464,7 @@ pg.ship_data_group = {
 	},
 	[210] = {
 		type = 5,
-		trans_skin = 0,
+		trans_skin = 305039,
 		trans_type = 10,
 		handbook_type = 0,
 		redirect_id = 101,
@@ -8171,8 +8481,17 @@ pg.ship_data_group = {
 			"D",
 			"B"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"B",
+			"E",
+			"C",
+			"D",
+			"A",
+			"B"
+		},
+		trans_skill = {
+			11610
+		},
 		description = {
 			{
 				"限時活動：紅染的參訪者",
@@ -8185,7 +8504,7 @@ pg.ship_data_group = {
 	},
 	[211] = {
 		type = 5,
-		trans_skin = 0,
+		trans_skin = 305049,
 		trans_type = 10,
 		handbook_type = 0,
 		redirect_id = 101,
@@ -8202,11 +8521,82 @@ pg.ship_data_group = {
 			"D",
 			"B"
 		},
+		trans_radar_chart = {
+			"B",
+			"E",
+			"C",
+			"D",
+			"A",
+			"B"
+		},
+		trans_skill = {
+			11600
+		},
+		description = {
+			{
+				"限時活動：紅染的參訪者",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[212] = {
+		type = 5,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 274,
+		group_type = 30505,
+		code = 212,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"B"
+		},
 		trans_radar_chart = {},
 		trans_skill = {},
 		description = {
 			{
-				"限時活動：紅染的參訪者",
+				"限時活動：墨染的鋼鐵之花",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[213] = {
+		type = 5,
+		trans_skin = 0,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		nationality = 3,
+		hide = 0,
+		index_id = 275,
+		group_type = 30506,
+		code = 213,
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：墨染的鋼鐵之花",
 				{
 					""
 				},
@@ -9787,6 +10177,7 @@ pg.ship_data_group = {
 		111,
 		114,
 		115,
+		335,
 		371,
 		327,
 		328,
@@ -9824,6 +10215,7 @@ pg.ship_data_group = {
 		272,
 		274,
 		276,
+		277,
 		280,
 		151,
 		155,
@@ -9836,14 +10228,20 @@ pg.ship_data_group = {
 		163,
 		165,
 		164,
+		288,
+		331,
+		332,
 		167,
 		168,
 		177,
 		178,
 		166,
+		316,
 		318,
 		170,
 		295,
+		296,
+		297,
 		182,
 		183,
 		187,
@@ -9862,12 +10260,16 @@ pg.ship_data_group = {
 		200,
 		201,
 		202,
+		204,
 		205,
+		206,
 		320,
 		208,
 		209,
 		210,
 		211,
+		212,
+		213,
 		220,
 		222,
 		224,

@@ -1117,7 +1117,7 @@ pg.activity_month_sign = {
 			{
 				1,
 				2,
-				250
+				350
 			}
 		},
 		day10 = {
@@ -1199,8 +1199,8 @@ pg.activity_month_sign = {
 		},
 		day21 = {
 			{
-				1,
-				1,
+				4,
+				301591,
 				1
 			}
 		},
@@ -1627,7 +1627,7 @@ pg.activity_month_sign = {
 			{
 				1,
 				2,
-				250
+				350
 			}
 		},
 		day10 = {
@@ -2137,7 +2137,7 @@ pg.activity_month_sign = {
 			{
 				1,
 				2,
-				250
+				350
 			}
 		},
 		day10 = {
@@ -2392,7 +2392,7 @@ pg.activity_month_sign = {
 			{
 				1,
 				2,
-				250
+				350
 			}
 		},
 		day10 = {
@@ -2647,7 +2647,7 @@ pg.activity_month_sign = {
 			{
 				1,
 				2,
-				250
+				350
 			}
 		},
 		day10 = {
@@ -2902,7 +2902,7 @@ pg.activity_month_sign = {
 			{
 				1,
 				2,
-				250
+				350
 			}
 		},
 		day10 = {
