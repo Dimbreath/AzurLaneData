@@ -5927,46 +5927,7 @@ end
 function checkExist(slot0, ...)
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-8, warpins: 1 ---
-	function slot1(slot0, slot1, slot2, ...)
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-2, warpins: 1 ---
-		if slot2 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 3-6, warpins: 1 ---
-			return slot0[slot1](...)
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 7-10, warpins: 1 ---
-			return slot0[slot1](slot0, ...)
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 11-11, warpins: 2 ---
-		return
-		--- END OF BLOCK #1 ---
-
-
-
-	end
-
+	--- BLOCK #0 1-7, warpins: 1 ---
 	--- END OF BLOCK #0 ---
 
 	FLOW; TARGET BLOCK #1
@@ -5974,15 +5935,15 @@ function checkExist(slot0, ...)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #1 9-36, warpins: 0 ---
-	for slot6, slot7 in ipairs(slot2) do
+	--- BLOCK #1 8-33, warpins: 0 ---
+	for slot5, slot6 in ipairs(slot1) do
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #0 9-10, warpins: 1 ---
+		--- BLOCK #0 8-9, warpins: 1 ---
 		if not slot0 then
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 11-13, warpins: 1 ---
+			--- BLOCK #0 10-11, warpins: 1 ---
 			return false
 			--- END OF BLOCK #0 ---
 
@@ -5997,22 +5958,20 @@ function checkExist(slot0, ...)
 
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #1 14-19, warpins: 2 ---
-		if type(slot0[slot7[1]]) == "function" then
+		--- BLOCK #1 12-17, warpins: 2 ---
+		if type(slot0[slot6[1]]) == "function" then
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 20-27, warpins: 1 ---
-			slot8 = slot1
-			slot9 = slot0
-			slot10 = slot7[1]
-			slot11 = slot7[3]
-			slot12 = unpack
+			--- BLOCK #0 18-24, warpins: 1 ---
+			slot7 = slot0[slot6[1]]
+			slot8 = slot0
+			slot9 = unpack
 
-			if not slot7[2] then
+			if not slot6[2] then
 
 				-- Decompilation error in this vicinity:
-				--- BLOCK #0 28-28, warpins: 1 ---
-				slot13 = {}
+				--- BLOCK #0 25-25, warpins: 1 ---
+				slot10 = {}
 				--- END OF BLOCK #0 ---
 
 
@@ -6026,8 +5985,8 @@ function checkExist(slot0, ...)
 
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #1 29-32, warpins: 2 ---
-			slot0 = slot8(slot9, slot10, slot11, slot12(slot13))
+			--- BLOCK #1 26-29, warpins: 2 ---
+			slot0 = slot7(slot8, slot9(slot10))
 			--- END OF BLOCK #1 ---
 
 
@@ -6035,8 +5994,8 @@ function checkExist(slot0, ...)
 		else
 
 			-- Decompilation error in this vicinity:
-			--- BLOCK #0 33-34, warpins: 1 ---
-			slot0 = slot0[slot7[1]]
+			--- BLOCK #0 30-31, warpins: 1 ---
+			slot0 = slot0[slot6[1]]
 			--- END OF BLOCK #0 ---
 
 
@@ -6049,7 +6008,7 @@ function checkExist(slot0, ...)
 
 
 		-- Decompilation error in this vicinity:
-		--- BLOCK #2 35-36, warpins: 3 ---
+		--- BLOCK #2 32-33, warpins: 3 ---
 		--- END OF BLOCK #2 ---
 
 
@@ -6063,7 +6022,7 @@ function checkExist(slot0, ...)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #2 37-38, warpins: 1 ---
+	--- BLOCK #2 34-34, warpins: 1 ---
 	return slot0
 	--- END OF BLOCK #2 ---
 

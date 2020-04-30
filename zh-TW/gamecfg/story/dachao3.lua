@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"来自{namecode:146}的温柔\n\n<size=45>三　奇妙的缘分</size>",
+					"來自{namecode:146}的溫柔\n\n<size=45>三　奇妙的緣分</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "午餐时间，结束了一上午的工作，伸了伸懒腰。",
+			say = "午餐時間，結束了一上午的工作，伸了伸懶腰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，请品尝一下吧！是我自己做的小点心哦！",
+			say = "指揮官，請品嚐一下吧！是我自己做的小點心哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过为了照顾指挥官的健康，没有放很多糖，嘿嘿。",
+			say = "不過為了照顧指揮官的健康，沒有放很多糖，嘿嘿。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "打开点心盒，里面放着各种形状的饼干和小蛋糕，看起来十分诱人。",
+			say = "打開點心盒，裡面放著各種形狀的餅乾和小蛋糕，看起來十分誘人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，这里的点心只有一半是给指挥官的，请不要全部吃掉了哦。",
+			say = "不過，這裡的點心只有一半是給指揮官的，請不要全部吃掉了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？剩下的一半要送给谁？这个嘛……您跟我来就知道啦！",
+			say = "嗯？剩下的一半要送給誰？這個嘛……您跟我來就知道啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "好奇的跟着拿起点心盒的{namecode:146}，向指挥室外走去。",
+			say = "好奇的跟著拿起點心盒的{namecode:146}，向指揮室外走去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			actor = 301640,
 			nameColor = "#a9f548",
-			say = "我们到了哟指挥官。",
+			say = "我們到了唷指揮官。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -188,7 +188,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:17}酱，我们进来了哦，我是{namecode:146}～",
+			say = "{namecode:17}醬，我們進來了哦，我是{namecode:146}～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "跟着{namecode:146}来到的地方，是重樱生活区的某个房间",
+			say = "跟著{namecode:146}來到的地方，是重櫻生活區的某個房間",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？{namecode:146}亲你来啦！看看我刚完成的美甲~诶？怎么指挥官也过来了？",
+			say = "嗯？{namecode:146}親你來啦！看看我剛完成的美甲~欸？怎麼指揮官也過來了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			}
 		},
 		{
-			say = "哈哈，指挥官想知道小点心是要送给谁的，解释起来比较麻烦，所以就直接带指挥官过来了。",
+			say = "哈哈，指揮官想知道小點心是要送給誰的，解釋起來比較麻煩，所以就直接帶指揮官過來了。",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦，原来如此。不过话说回来……{namecode:16}还在呼呼大睡呢。",
+			say = "哦，原來如此。不過話說回來……{namecode:16}還在呼呼大睡呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "果然是这样，那么请看{namecode:146}的独门叫醒秘术！",
+			say = "果然是這樣，那麼請看{namecode:146}的獨門叫醒秘術！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "{namecode:146}走到睡眠中的{namecode:16}旁，用盒中的饼干在{namecode:16}的鼻子下擦了一下。",
+			say = "{namecode:146}走到睡眠中的{namecode:16}旁，用盒中的餅乾在{namecode:16}的鼻子下擦了一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			dir = -1,
 			actor = 301140,
 			nameColor = "#a9f548",
-			say = "闻…闻……！是饼干的香味！在哪里？！",
+			say = "聞…聞……！是餅乾的香味！在哪裡？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:16}酱起床了哦！我带来了点心给你。",
+			say = "{namecode:16}醬起床了哦！我帶來了點心給你。",
 			side = 0,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -338,7 +338,7 @@ return {
 			dir = -1,
 			actor = 301140,
 			nameColor = "#a9f548",
-			say = "这……这是！！",
+			say = "這……這是！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "是{namecode:146}亲的手作点心！呀吼！{namecode:16}现在完全复活了！全力开吃！",
+			say = "是{namecode:146}親的手作點心！呀吼！{namecode:16}現在完全復活了！全力開吃！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "说完，激动地{namecode:16}狼吞虎咽的吃起了点心。",
+			say = "說完，激動地{namecode:16}狼吞虎咽的吃起了點心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈，慢点吃慢点吃，这里还有很多呢！",
+			say = "哈哈，慢點吃慢點吃，這裡還有很多呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			}
 		},
 		{
-			say = "指挥官不要见怪哦，她们之间的关系可是奇妙的很呢。",
+			say = "指揮官不要見怪哦，她們之間的關係可是奇妙的很呢。",
 			side = 1,
 			bgName = "bg_story_room",
 			dir = 1,
@@ -427,7 +427,7 @@ return {
 			blackBg = true,
 			actor = 301640,
 			nameColor = "#a9f548",
-			say = "真是的，请不要说这种会让指挥官误会的话啦！",
+			say = "真是的，請不要說這種會讓指揮官誤會的話啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

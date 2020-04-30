@@ -1,10 +1,14 @@
 function slot1(slot0)
 	function slot2(slot0)
 		for slot4, slot5 in ipairs(slot0.tasklist) do
-			for slot9, slot10 in ipairs(slot5) do
-				if slot10 == slot0 then
-					return slot4
+			if type(slot5) == "table" then
+				for slot9, slot10 in ipairs(slot5) do
+					if slot10 == slot0 then
+						return slot4
+					end
 				end
+			elseif slot0 == slot5 then
+				return slot4
 			end
 		end
 	end

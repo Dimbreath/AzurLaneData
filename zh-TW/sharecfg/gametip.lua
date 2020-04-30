@@ -8056,7 +8056,7 @@ $3]],
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "翔鶴、雪風、野分、最上、伊勢、日向出現機率UP!",
+		tip = "長門、江風、春月、宵月、文月、朝潮出現機率UP!",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {
@@ -9499,7 +9499,7 @@ Bofors 四聯40mm對空機炮？</color></size>]],
 		key = "limit_skin_time_overtime"
 	},
 	award_window_pt_title = {
-		tip = "当前PT：",
+		tip = "當前啾啾：",
 		key = "award_window_pt_title"
 	},
 	return_have_participated_in_act = {
@@ -11143,7 +11143,7 @@ TIPS：
 		key = "month_sign_resign"
 	},
 	collect_tip = {
-		tip = "队伍中有角色正在出征，无法加入委托阵容",
+		tip = "隊伍中有角色正在出征，無法加入委託陣容",
 		key = "collect_tip"
 	},
 	collect_tip2 = {

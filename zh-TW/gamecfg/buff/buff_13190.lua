@@ -24,7 +24,7 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onAttach"
+				"onStartGame"
 			},
 			arg_list = {
 				maxWeaponNumber = 0,
@@ -40,7 +40,7 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onAttach"
+				"onStartGame"
 			},
 			arg_list = {
 				skill_id = 13191,

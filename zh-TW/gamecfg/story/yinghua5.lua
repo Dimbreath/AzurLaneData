@@ -11,15 +11,15 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"记住，不要轻易去接触那些凡人，这样会有失你的神格",
+					"記住，不要輕易去接觸那些凡人，這樣會有失你的神格",
 					0
 				},
 				{
-					"    记住，不要轻易的露出笑容，要保持你在民众中的威严",
+					"    記住，不要輕易的露出笑容，要保持你在民眾中的威嚴",
 					3
 				},
 				{
-					"        记住，这个世界上可以相信的，只有我们，你的创造者",
+					"        記住，這個世界上可以相信的，只有我們，你的創造者",
 					6
 				}
 			}
@@ -35,7 +35,7 @@ return {
 		{
 			actor = 305050,
 			side = 2,
-			say = "{namecode:75}，快帮我看看，等会用这样的站姿如何？",
+			say = "{namecode:75}，快幫我看看，等會用這樣的站姿如何？",
 			dir = 1,
 			blackBg = true,
 			bgm = "story-2",
@@ -51,7 +51,7 @@ return {
 		{
 			actor = 305060,
 			side = 0,
-			say = "恩…有点死板呢，不如试试把两手伸直来看看？",
+			say = "嗯…有點死板呢，不如試試把兩手伸直來看看？",
 			dir = 1,
 			blackBg = true,
 			paintingFadeOut = {
@@ -72,7 +72,7 @@ return {
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "诶？…是..是这样吗？",
+			say = "欸？…是..是這樣嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "哈哈哈，姐姐这样就像个人偶似的",
+			say = "哈哈哈，姐姐這樣就像個人偶似的",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			side = 0,
 			dir = 1,
 			blackBg = true,
-			say = "啊~对不起，不是这个意思啦..嘻嘻，姐姐来笑一个~像这样——叽",
+			say = "啊~對不起，不是這個意思啦..嘻嘻，姐姐來笑一個~像這樣——嘰",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 		},
 		{
 			blackBg = true,
-			say = "少女露出了一个天真无邪的笑容",
+			say = "少女露出了一個天真無邪的笑容",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "对不起…我…",
+			say = "對不起…我…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "我可能已经忘了怎么笑了…",
+			say = "我可能已經忘了怎麼笑了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			stopbgm = true,
 			dir = 1,
-			say = "原来当时真的只要上去说不定就能把她拍醒么，真是踏破铁鞋无觅处...",
+			say = "原來當時真的只要上去說不定就能把她拍醒嗎，真是踏破鐵鞋無覓處...",
 			bgm = "nagato-boss",
 			typewriter = {
 				speed = 0.05,
@@ -25,7 +25,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "说完这句话，{namecode:96}感受到了两对充满杀气的视线...",
+			say = "說完這句話，{namecode:96}感受到了兩對充滿殺氣的視線...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			actor = 305050,
 			side = 2,
 			dir = 1,
-			say = "五航战的双鹤姐妹啊，汝等此次前来是所为何事？",
+			say = "五航戰的雙鶴姐妹啊，汝等此次前來是所為何事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			actor = 307060,
 			side = 2,
 			dir = 1,
-			say = "跟我们走吧！",
+			say = "跟我們走吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			actor = 305050,
 			side = 2,
 			dir = 1,
-			say = "我拒绝",
+			say = "我拒絕",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			actor = 307060,
 			side = 2,
 			dir = 1,
-			say = "哇，这么干脆的吗？",
+			say = "哇，這麼乾脆的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actor = 305050,
 			side = 2,
 			dir = 1,
-			say = "那位大人吩咐过，余此生都将作为重樱的守护者，直到灵魂消亡...",
+			say = "那位大人吩咐過，余此生都將作為重櫻的守護者，直到靈魂消亡...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			actor = 307060,
 			side = 2,
 			dir = 1,
-			say = "这是你自己的选择吗？",
+			say = "這是你自己的選擇嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 305050,
 			side = 2,
 			dir = 1,
-			say = "我......余自己的选择...并不重要",
+			say = "我......余自己的選擇...並不重要",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			actor = 305110,
 			side = 2,
 			dir = 1,
-			say = "在这样风云变幻的时代，作为先进的战列舰，却只能在这里慢慢的等待消亡，简直是暴餮天物！",
+			say = "在這樣風雲變幻的時代，作為先進的戰列艦，卻只能在這裡慢慢的等待消亡，簡直是暴餮天物！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			actor = 305050,
 			side = 2,
 			dir = 1,
-			say = "{namecode:82}...{namecode:82}前辈？！",
+			say = "{namecode:82}...{namecode:82}前輩？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			actor = 305110,
 			side = 2,
 			dir = 1,
-			say = "看看，这四座挺拔而又充满魄力的41CM双联装主炮，还有这高耸的舰桥和充满厚重感的装甲...哈啊...",
+			say = "看看，這四座挺拔而又充滿魄力的41CM雙聯裝主砲，還有這高聳的艦橋和充滿厚重感的裝甲...哈啊...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "{namecode:82}一边打量着{namecode:74}的舰装，一边以充满羡慕之情的口吻自言自语道",
+			say = "{namecode:82}一邊打量著{namecode:74}的艦裝，一邊以充滿羨慕之情的口吻自言自語道",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "{namecode:74}原本勉强撑出的严肃表情瞬间被满脸红晕所填满，开始害羞的扭捏起来...",
+			say = "{namecode:74}原本勉強撐出的嚴肅表情瞬間被滿臉紅暈所填滿，開始害羞的扭捏起來...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			actor = 305050,
 			side = 2,
 			dir = 1,
-			say = "{namecode:82}前辈...怎么会..出现在这里？",
+			say = "{namecode:82}前輩...怎麼會..出現在這裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			actor = 307060,
 			side = 2,
 			dir = 1,
-			say = "这个就说来话长了~哎呀，要不你还是跟我们走吧，我可以慢慢说给你听~",
+			say = "這個就說來話長了~哎呀，要不你還是跟我們走吧，我可以慢慢說給你聽~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "{namecode:74}无视了{namecode:96}，两眼依然死盯着{namecode:82}前辈",
+			say = "{namecode:74}無視了{namecode:96}，兩眼依然死盯著{namecode:82}前輩",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			actor = 305050,
 			side = 2,
 			dir = 1,
-			say = "{namecode:82}...{namecode:82}前辈，自从当年吾被选上联合舰队旗舰的职位后，就一直在钻研您的故事...",
+			say = "{namecode:82}...{namecode:82}前輩，自從當年吾被選上聯合艦隊旗艦的職位後，就一直在鑽研您的故事...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			actor = 305050,
 			side = 2,
 			dir = 1,
-			say = "吾曾经也一直希望能成为像你一样伟大的旗舰...但是...但是",
+			say = "吾曾經也一直希望能成為像你一樣偉大的旗艦...但是...但是",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			actor = 305110,
 			side = 2,
 			dir = 1,
-			say = "别说了，来打一场吧",
+			say = "別說了，來打一場吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			actor = 305050,
 			side = 2,
 			dir = 1,
-			say = "诶？...",
+			say = "欸？...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			actor = 305110,
 			side = 2,
 			dir = 1,
-			say = "看到你的炮管时我就知道，这十几年里，你从来没有开过一次主炮",
+			say = "看到你的砲管時我就知道，這十幾年裡，你從來沒有開過一次主砲",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "仿佛说中了少女的心事一般，{namecode:74}的眼角泛起了淡淡的泪光",
+			say = "彷彿說中了少女的心事一般，{namecode:74}的眼角泛起了淡淡的淚光",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,21 +419,7 @@ return {
 			actor = 305110,
 			side = 2,
 			dir = 1,
-			say = "身为战舰，就应该享受驰骋大洋的荣耀感，我可不希望我的接班人以这么令人心疼的模样度过一生...",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 305110,
-			side = 2,
-			dir = 1,
-			say = "有的时候，来一场爽快的对决，比说什么都有用",
+			say = "身為戰艦，就應該享受馳騁大洋的榮耀感，我可不希望我的接班人以這麼令人心疼的模樣度過一生...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +433,21 @@ return {
 			actor = 305110,
 			side = 2,
 			dir = 1,
-			say = "怎么样，还有那边的孩子，一起来吧！",
+			say = "有的時候，來一場爽快的對決，比說什麼都有用",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 305110,
+			side = 2,
+			dir = 1,
+			say = "怎麼樣，還有那邊的孩子，一起來吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			actor = 305060,
 			side = 2,
 			dir = 1,
-			say = "哈哈～这一天我可是等了好久了！",
+			say = "哈哈～這一天我可是等了好久了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,15 +490,15 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"记住，不要轻易去接触那些凡人，这样会有失你的神格",
+					"記住，不要輕易去接觸那些凡人，這樣會有失你的神格",
 					0
 				},
 				{
-					"    记住，不要轻易的露出笑容，要保持你在民众中的威严",
+					"    記住，不要輕易的露出笑容，要保持你在民眾中的威嚴",
 					3
 				},
 				{
-					"        记住，这个世界上可以相信的，只有我们，你的创造者",
+					"        記住，這個世界上可以相信的，只有我們，你的創造者",
 					6
 				}
 			}
@@ -508,7 +508,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "对不起，我从来就和那些所谓的凡人一样，也想有属于自己的朋友",
+			say = "對不起，我從來就和那些所謂的凡人一樣，也想有屬於自己的朋友",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "对不起，我曾经忘记了如何微笑，甚至忘记了身为一艘战列舰真正的威严",
+			say = "對不起，我曾經忘記了如何微笑，甚至忘記了身為一艘戰列艦真正的威嚴",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "对不起，我的创造者们，这一次，你的孩子想要找到真正值得相信的东西",
+			say = "對不起，我的創造者們，這一次，你的孩子想要找到真正值得相信的東西",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			bgName = "bg_story_nagato4",
 			bgm = "nagato-boss",
 			actor = 305050,
-			say = "来吧！就算没有实战经验，这一次我也会全力以赴！",
+			say = "來吧！就算沒有實戰經驗，這一次我也會全力以赴！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -588,7 +588,7 @@ return {
 			bgName = "bg_story_nagato4",
 			withoutPainting = true,
 			dir = 1,
-			say = "来自东方的BIG7——{namecode:74}级战列舰，参上！",
+			say = "來自東方的BIG7——{namecode:74}級戰列艦，參上！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

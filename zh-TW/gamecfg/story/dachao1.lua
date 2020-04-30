@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"来自{namecode:146}的温柔\n\n<size=45>一　秘书舰{namecode:146}</size>",
+					"來自{namecode:146}的溫柔\n\n<size=45>一　秘書艦{namecode:146}</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			bgName = "star_level_bg_103",
 			side = 2,
 			dir = 1,
-			say = "微微的海风，初升的朝阳，清晨的港区一片寂静。",
+			say = "微微的海風，初升的朝陽，清晨的港區一片寂靜。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "少女的身影行走在被露水浸湿的街道，向着指挥官指挥室的方向而去——",
+			say = "少女的身影行走在被露水浸濕的街道，向著指揮官指揮室的方向而去——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "推开指挥室的门以后——",
+			say = "推開指揮室的門以後——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "昨天晚上还有些杂乱的指挥室里，已经整洁如新，甚至比新的还新。",
+			say = "昨天晚上還有些雜亂的指揮室裡，已經整潔如新，甚至比新的還新。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "所有的物品整齐地摆放着，清洁的地面反着阳光，就连空气都似乎清新了许多。",
+			say = "所有的物品整齊地擺放著，清潔的地面反著陽光，就連空氣都似乎清新了許多。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "而在办公桌的旁边，一位少女站在那里。",
+			say = "而在辦公桌的旁邊，一位少女站在那裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，早上好！我是今天到任的秘书舰{namecode:146}~",
+			say = "指揮官，早上好！我是今天到任的秘書艦{namecode:146}~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			actor = 301640,
 			nameColor = "#a9f548",
-			say = "{namecode:146}将拿在手上的扫帚放在了一旁的柜子里，向这边打着招呼。",
+			say = "{namecode:146}將拿在手上的掃帚放在了一旁的櫃子裡，向這邊打著招呼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "赞扬这完美的打扫工作。",
+					content = "讚揚這完美的打掃工作。",
 					flag = 2
 				}
 			}
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，自作主张的做了下扫除，能给您带来好心情的话就好了。",
+			say = "嘿嘿，自作主張的做了下掃除，能給您帶來好心情的話就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "来，指挥官请坐这边。",
+			say = "來，指揮官請坐這邊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "坐在办公椅上，看着{namecode:146}跑到一旁，准备起了咖啡和小点心。",
+			say = "坐在辦公椅上，看著{namecode:146}跑到一旁，準備起了咖啡和小點心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不给指挥官的咖啡放太多糖了，健康是最重要的！",
+			say = "不給指揮官的咖啡放太多糖了，健康是最重要的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "您的早餐要吃什么呢？是培根还是鸡蛋？干脆各来一点吧。",
+			say = "您的早餐要吃什麼呢？是培根還是雞蛋？乾脆各來一點吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "在如此细致入微的照顾之下，之后的工作也会变成享受吧。",
+			say = "在如此細緻入微的照顧之下，之後的工作也會變成享受吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			blackBg = true,
 			actor = 301640,
 			nameColor = "#a9f548",
-			say = "那么，从今天起，就要有好~多时间要在一起了哦！请多指教，指挥官~",
+			say = "那麼，從今天起，就要有好~多時間要在一起了哦！請多指教，指揮官~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

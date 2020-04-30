@@ -389,7 +389,7 @@ return {
 			actorName = "{namecode:96}",
 			side = 0,
 			nameColor = "#a9f548",
-			say = "{namecode:95}姐…对不起，这么久了，我一直没有成长，总是这么鲁莽的只顾看着眼前…",
+			say = "{namecode:95}姐…對不起，這麼久了，我一直沒有成長，總是這麼魯莽的只顧著眼前…",
 			shake = {
 				speed = 1,
 				number = 3

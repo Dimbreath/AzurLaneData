@@ -248,7 +248,7 @@ function slot0.IsChapterInRemaster(slot0, slot1)
 			return false
 		end
 
-		return _.detect(slot1.config_data, function (slot0)
+		return _.any(slot1.config_data, function (slot0)
 			return slot0 == slot0
 		end)
 	end)
@@ -675,6 +675,42 @@ function slot0.getUnlockActMapBytype(slot0, slot1, slot2, slot3)
 	end)
 
 	return slot4[1]
+end
+
+function slot0.getBindActMapBytype(slot0, slot1, slot2, slot3)
+	slot4 = {}
+
+	for slot9, slot10 in pairs(slot5) do
+		if slot10:getConfig("type") == slot2 and slot10:getConfig("on_activity") == slot3 then
+			table.insert(slot4, slot10)
+		end
+	end
+
+	for slot9, slot10 in ipairs(slot4) do
+		if slot10:getActiveChapter() then
+			return slot10
+		end
+	end
+
+	if (slot1 and slot1:getBindMap()) ~= 0 then
+		slot8 = slot5[slot5[slot6].id - 1]
+
+		if slot5[slot6] and slot7:isUnlock() and (not slot8 or slot8:isClearForActivity()) then
+			return slot7
+		end
+	end
+
+	table.sort(slot4, function (slot0, slot1)
+		return slot1.id < slot0.id
+	end)
+
+	for slot10, slot11 in ipairs(slot4) do
+		if (not slot5[slot11.id - 1] or slot12:isClearForActivity()) and slot11:isUnlock() then
+			return slot11
+		end
+	end
+
+	return slot4[#slot4]
 end
 
 function slot0.getLastMapForActivity(slot0)

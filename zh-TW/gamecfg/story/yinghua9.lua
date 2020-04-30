@@ -11,15 +11,15 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"记住，不要轻易去接触那些凡人，这样会有失你的神格",
+					"記住，不要輕易去接觸那些凡人，這樣會有失你的神格",
 					0
 				},
 				{
-					"    记住，不要轻易的露出笑容，要保持你在民众中的威严",
+					"    記住，不要輕易的露出笑容，要保持你在民眾中的威嚴",
 					3
 				},
 				{
-					"        记住，这个世界上可以相信的，只有我们，你的创造者",
+					"        記住，這個世界上可以相信的，只有我們，你的創造者",
 					6
 				}
 			}
@@ -36,7 +36,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "可是...吾也想和大家一样去战斗，只有吾们像这样待在后方，对大家来说不是太不公平了吗？...",
+			say = "可是...吾也想和大家一樣去戰鬥，只有吾們像這樣待在後方，對大家來說不是太不公平了嗎？...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "我...吾和{namecode:75}一直都是世界上最强大的战列舰不是吗？吾们...保证不会拖大家后腿的！",
+			say = "我...吾和{namecode:75}一直都是世界上最強大的戰列艦不是嗎？吾們...保證不會拖大家後腿的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "‘重樱的守护者’、‘世界第一的超级战舰’要是在前线出了三长两短，该怎么向民众解释！？",
+			say = "‘重櫻的守護者’、‘世界第一的超級戰艦’要是在前線出了三長兩短，該怎麼向民眾解釋！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "过度的自我意识只会导致你的毁灭！",
+			say = "過度的自我意識只會導致你的毀滅！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "记住！你只要一切都服从我们的安排，这就是对重樱做出的最大贡献了！明白吗？",
+			say = "記住！你只要一切都服從我們的安排，這就是對重櫻做出的最大貢獻了！明白嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "对，只需要和以往一样......",
+			say = "對，只需要和以往一樣......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "诶？",
+			say = "欸？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "你说，桌上的这些人偶会不会也有自己的心智和灵魂呢？...",
+			say = "你說，桌上的這些人偶會不會也有自己的心智和靈魂呢？...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "姐姐这是怎么啦~怎么会突然问出这么奇怪的问题",
+			say = "姐姐這是怎麼啦~怎麼會突然問出這麼奇怪的問題",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "我一直在想...从我们被建造出来至今这二十年里，世界发生了翻天覆地的改变...",
+			say = "我一直在想...從我們被建造出來至今這二十年裡，世界發生了翻天覆地的改變...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "你知道吗，在遥远的大洋彼岸，也有跟我们一样被冠与了BIG7头衔的5个孩子...",
+			say = "你知道嗎，在遙遠的大洋彼岸，也有跟我們一樣被冠與了BIG7頭銜的5個孩子...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "啊——好想有机会能认识她们...如果能成为朋友就好了......",
+			say = "啊——好想有機會能認識她們...如果能成為朋友就好了......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "对了对了，说起来，最想做的事果然还是希望能跟她们较量一下呢...嘻嘻...",
+			say = "對了對了，說起來，最想做的事果然還是希望能跟她們較量一下呢...嘻嘻...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "啊，没有没有！我就是随便说说",
+			say = "啊，沒有沒有！我就是隨便說說",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "还记得我们上次一起出海做的亲善访问吗？未来一定会有机会的！",
+			say = "還記得我們上次一起出海做的親善訪問嗎？未來一定會有機會的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "嗯！未来我们也一直要在一起哦，我的妹妹~",
+			say = "嗯！未來我們也一直要在一起哦，我的妹妹~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

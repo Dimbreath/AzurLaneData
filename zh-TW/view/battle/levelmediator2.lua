@@ -22,6 +22,7 @@ slot0.ON_ELITE_CLEAR = "LevelMediator2:ON_ELITE_CLEAR"
 slot0.ON_ELITE_RECOMMEND = "LevelMediator2:ON_ELITE_RECOMMEND"
 slot0.ON_ACTIVITY_MAP = "LevelMediator2:ON_ACTIVITY_MAP"
 slot0.ON_SWITCH_ACT_MAP = "LevelMediator2:ON_SWITCH_ACT_MAP"
+slot0.ON_SWITCH_BIND_ACT_MAP = "LevelMediator2 ON_SWITCH_BIND_ACT_MAP"
 slot0.GO_ACT_SHOP = "LevelMediator2:GO_ACT_SHOP"
 slot0.ON_SWITCH_NORMAL_MAP = "LevelMediator2:ON_SWITCH_NORMAL_MAP"
 slot0.NOTICE_AUTOBOT_ENABLED = "LevelMediator2:NOTICE_AUTOBOT_ENABLED"
@@ -356,6 +357,11 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(slot0.ON_SWITCH_ACT_MAP, function (slot0, slot1, slot2)
 		if getProxy(ChapterProxy):getUnlockActMapBytype(slot2, slot1) then
+			slot0.viewComponent:setMap(slot3.id)
+		end
+	end)
+	slot0:bind(slot0.ON_SWITCH_BIND_ACT_MAP, function (slot0, slot1, slot2)
+		if getProxy(ChapterProxy):getBindActMapBytype(slot0.contextData.map, slot2, slot1) then
 			slot0.viewComponent:setMap(slot3.id)
 		end
 	end)

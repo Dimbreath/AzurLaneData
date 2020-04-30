@@ -2361,6 +2361,129 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		property_rate = {}
 	},
+	[600] = {
+		name = "一式穿甲彈",
+		type = 10,
+		id = 600,
+		tech = 0,
+		speciality = "無",
+		range = 0,
+		scatter = "無",
+		angle = 0,
+		value_2 = 6,
+		icon = "600",
+		value_1 = "22",
+		attribute_2 = "hit",
+		rarity = 5,
+		is_siren = 0,
+		nationality = 3,
+		ammo = "無",
+		descrip = "『九一式穿甲彈』的改良型『一式穿甲彈』。比起九一式在性能上有所提升",
+		value_3 = 0,
+		attribute_1 = "cannon",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {},
+		skill_id = {
+			6200
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	},
+	[601] = {
+		id = 601,
+		base = 600,
+		is_siren = 0,
+		value_1 = "25",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[602] = {
+		is_siren = 0,
+		id = 602,
+		base = 600,
+		value_2 = 7,
+		value_1 = "28",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[603] = {
+		is_siren = 0,
+		id = 603,
+		base = 600,
+		value_2 = 8,
+		value_1 = "32",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[604] = {
+		is_siren = 0,
+		id = 604,
+		base = 600,
+		value_2 = 9,
+		value_1 = "35",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[605] = {
+		is_siren = 0,
+		id = 605,
+		base = 600,
+		value_2 = 10,
+		value_1 = "38",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[606] = {
+		is_siren = 0,
+		id = 606,
+		base = 600,
+		value_2 = 11,
+		value_1 = "42",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[607] = {
+		is_siren = 0,
+		id = 607,
+		base = 600,
+		value_2 = 12,
+		value_1 = "45",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[608] = {
+		is_siren = 0,
+		id = 608,
+		base = 600,
+		value_2 = 13,
+		value_1 = "48",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[609] = {
+		is_siren = 0,
+		id = 609,
+		base = 600,
+		value_2 = 14,
+		value_1 = "51",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
+	[610] = {
+		is_siren = 0,
+		id = 610,
+		base = 600,
+		value_2 = 15,
+		value_1 = "55",
+		torpedo_ammo = 0,
+		property_rate = {}
+	},
 	[640] = {
 		name = "Z旗",
 		speciality = "無",
@@ -25863,6 +25986,154 @@ pg.equip_data_statistics = {
 		torpedo_ammo = 0,
 		weapon_id = {
 			28050
+		},
+		property_rate = {}
+	},
+	[28060] = {
+		name = "劍魚(818中隊)",
+		type = 8,
+		id = 28060,
+		tech = 0,
+		speciality = "雷擊",
+		range = 90,
+		scatter = "無",
+		angle = 90,
+		value_2 = 45,
+		icon = "28060",
+		value_1 = "99 x 3",
+		attribute_2 = "air",
+		rarity = 5,
+		is_siren = 0,
+		nationality = 2,
+		ammo = "通常",
+		descrip = "由服役於皇家方舟號的818中隊所駕駛的劍魚式魚雷轟炸機，曾經在圍捕俾斯麥的戰鬥中完成了對俾斯麥的關鍵雷擊",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			28060
+		},
+		skill_id = {
+			6220
+		},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"HMS",
+			"CV",
+			"TB"
+		}
+	},
+	[28061] = {
+		value_1 = "115 x 3",
+		id = 28061,
+		base = 28060,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			28061
+		},
+		property_rate = {}
+	},
+	[28062] = {
+		value_1 = "131 x 3",
+		id = 28062,
+		base = 28060,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			28062
+		},
+		property_rate = {}
+	},
+	[28063] = {
+		value_1 = "148 x 3",
+		id = 28063,
+		base = 28060,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			28063
+		},
+		property_rate = {}
+	},
+	[28064] = {
+		value_1 = "164 x 3",
+		id = 28064,
+		base = 28060,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			28064
+		},
+		property_rate = {}
+	},
+	[28065] = {
+		value_1 = "180 x 3",
+		id = 28065,
+		base = 28060,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			28065
+		},
+		property_rate = {}
+	},
+	[28066] = {
+		value_1 = "197 x 3",
+		id = 28066,
+		base = 28060,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			28066
+		},
+		property_rate = {}
+	},
+	[28067] = {
+		value_1 = "213 x 3",
+		id = 28067,
+		base = 28060,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			28067
+		},
+		property_rate = {}
+	},
+	[28068] = {
+		value_1 = "229 x 3",
+		id = 28068,
+		base = 28060,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			28068
+		},
+		property_rate = {}
+	},
+	[28069] = {
+		value_1 = "246 x 3",
+		id = 28069,
+		base = 28060,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			28069
+		},
+		property_rate = {}
+	},
+	[28070] = {
+		value_1 = "264 x 3",
+		id = 28070,
+		base = 28060,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			28070
 		},
 		property_rate = {}
 	},
@@ -52938,6 +53209,17 @@ pg.equip_data_statistics = {
 		588,
 		589,
 		590,
+		600,
+		601,
+		602,
+		603,
+		604,
+		605,
+		606,
+		607,
+		608,
+		609,
+		610,
 		640,
 		641,
 		642,
@@ -54594,6 +54876,17 @@ pg.equip_data_statistics = {
 		28048,
 		28049,
 		28050,
+		28060,
+		28061,
+		28062,
+		28063,
+		28064,
+		28065,
+		28066,
+		28067,
+		28068,
+		28069,
+		28070,
 		28100,
 		28101,
 		28102,

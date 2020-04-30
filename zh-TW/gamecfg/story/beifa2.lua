@@ -17,7 +17,7 @@ return {
 			}
 		},
 		{
-			say = "几日前·港区",
+			say = "幾日前·港區",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -34,7 +34,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			actorName = "{namecode:98}",
-			say = "准备好了喵？",
+			say = "準備好了喵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			say = "嗯，随时可以开始",
+			say = "嗯，隨時可以開始",
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			actorName = "{namecode:98}",
-			say = "那就开始喵！《第256次心智魔方构成解析实验》喵！",
+			say = "那就開始喵！《第256次心智魔方構成解析實驗》喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			actor = 302010,
 			actorName = "{namecode:37}",
-			say = "心智魔方对于我们来说，就好比舰船的龙骨",
+			say = "心智魔方對於我們來說，就好比艦船的龍骨",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			actorName = "{namecode:98}",
-			say = "要是龙骨出问题了，那就糟糕了喵",
+			say = "要是龍骨出問題了，那就糟糕了喵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			actor = 302010,
 			actorName = "{namecode:37}",
-			say = "然而虽然大家都知道，我们诞生自心智魔方，却至今没有人成功解析心智魔方的内部构成…",
+			say = "然而雖然大家都知道，我們誕生自心智魔方，卻至今沒有人成功解析心智魔方的內部構成…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			actorName = "{namecode:98}",
-			say = "心智魔方的获取只能依靠采集喵…正所谓黑箱喵…",
+			say = "心智魔方的獲取只能依靠採集喵…正所謂黑箱喵…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			dir = 1,
 			actor = 302010,
 			actorName = "{namecode:37}",
-			say = "然而这次不一样！我们弄到了这个！",
+			say = "然而這次不一樣！我們弄到了這個！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			actorName = "{namecode:98}",
-			say = "在与塞壬作战的海域偶然捡到的“兵器”喵",
+			say = "在與塞壬作戰的海域偶然撿到的“兵器”喵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			dir = 1,
 			actor = 302010,
 			actorName = "{namecode:37}",
-			say = "姑且就叫它“集束光线发射装置”吧",
+			say = "姑且就叫它“集束光線發射裝置”吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			actorName = "{namecode:98}",
-			say = "虽然还不清楚原理，不过在输入大量电力后会从前端发射出带有高穿透力的热线喵",
+			say = "雖然還不清楚原理，不過在輸入大量電力後會從前端發射出帶有高穿透力的熱線喵",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			actorName = "{namecode:98}",
-			say = "上次真是太危险了喵…{namecode:37}说着总之试着给它充电一下喵，结果直接导致港区大停电，而且脑袋差点就要穿个洞了喵…",
+			say = "上次真是太危險了喵…{namecode:37}說著總之試著給它充電一下喵，結果直接導致港區大停電，而且腦袋差點就要穿個洞了喵…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			actor = 302010,
 			actorName = "{namecode:37}",
-			say = "科学的发现总是伴随着危险和牺牲…",
+			say = "科學的發現總是伴隨著危險和犧牲…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			dir = 1,
 			actor = 302010,
 			actorName = "{namecode:37}",
-			say = "这次特意准备了大型蓄电池附带断电保险装置",
+			say = "這次特意準備了大型蓄電池附帶斷電保險裝置",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			actor = 302010,
 			actorName = "{namecode:37}",
-			say = "上次那种状况应该不会出现了…",
+			say = "上次那種狀況應該不會出現了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			actorName = "{namecode:98}",
-			say = "再确认一次实验内容喵！",
+			say = "再確認一次實驗內容喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			actor = 302010,
 			actorName = "{namecode:37}",
-			say = "以高能热线照射心智魔方，试着将其分解或切割，以便观测和分析其内部构成——",
+			say = "以高能熱線照射心智魔方，試著將其分解或切割，以便觀測和分析其內部構成——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			actorName = "{namecode:98}",
-			say = "心智魔方和发射装置就位喵！虽然不知道会怎么样喵……",
+			say = "心智魔方和發射裝置就位喵！雖然不知道會怎麼樣喵……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			actor = 302010,
 			actorName = "{namecode:37}",
-			say = "我要打开开关了，发射倒计时，3、2——",
+			say = "我要打開開關了，發射倒計時，3、2——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:98}，我来取之前预订的材料了——",
+			say = "{namecode:98}，我來取之前預訂的材料了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			dir = 1,
 			actor = 312010,
 			actorName = "{namecode:98}",
-			say = "贝、贝尔法斯特喵！？{namecode:37}等一下喵！",
+			say = "貝、貝爾法斯特喵！？{namecode:37}等一下喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			}
 		},
 		{
-			say = "、1，集束光线发射！",
+			say = "、1，集束光線發射！",
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",

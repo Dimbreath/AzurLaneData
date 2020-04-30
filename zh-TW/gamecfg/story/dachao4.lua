@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"来自{namecode:146}的温柔\n\n<size=45>四　信赖的取材班</size>",
+					"來自{namecode:146}的溫柔\n\n<size=45>四　信賴的取材班</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "港区·港口",
+			say = "港區·港口",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "早晨，和秘书舰{namecode:146}来到街上进行巡视。",
+			say = "早晨，和秘書艦{namecode:146}來到街上進行巡視。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "唉，最近能报道的事件越来越少…记者的工作都要干不下去了",
+			say = "唉，最近能報導的事件越來越少…記者的工作都要幹不下去了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哪里都找不到新闻的感觉真的是糟透了……",
+			say = "哪裡都找不到新聞的感覺真的是糟透了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "{namecode:55}痛苦的摇了摇头。",
+			say = "{namecode:55}痛苦的搖了搖頭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			dir = -1,
 			actor = 303030,
 			nameColor = "#a9f548",
-			say = "实在不行，只能靠我自己去搞个大新闻了！",
+			say = "實在不行，只能靠我自己去搞個大新聞了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？那不是{namecode:55}酱嘛？她好像有些烦恼呢，指挥官请等我一下，我跟她说点事情。",
+			say = "嗯？那不是{namecode:55}醬嘛？她好像有些煩惱呢，指揮官請等我一下，我跟她說點事情。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:55}酱~看起来你又缺乏灵感了呀？",
+			say = "{namecode:55}醬~看起來你又缺乏靈感了呀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			}
 		},
 		{
-			say = "是{namecode:146}啊，你有好点子？难不成是连我都不知道的超级爆料吗？",
+			say = "是{namecode:146}啊，你有好點子？難不成是連我都不知道的超級爆料嗎？",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			dir = -1,
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			actor = 301640,
 			nameColor = "#a9f548",
-			say = "嘿嘿嘿，其实嘛~如此如此……这般这般",
+			say = "嘿嘿嘿，其實嘛~如此如此……這般這般",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "{namecode:146}跟{namecode:55}说起了悄悄话",
+			say = "{namecode:146}跟{namecode:55}說起了悄悄話",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			dir = -1,
 			actor = 303030,
 			nameColor = "#a9f548",
-			say = "哦哦哦哦哦！原来还可以这样，{namecode:146}你真是个天才！",
+			say = "哦哦哦哦哦！原來還可以這樣，{namecode:146}你真是個天才！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			}
 		},
 		{
-			say = "{namecode:55}酱，嘘！要保密哦！",
+			say = "{namecode:55}醬，噓！要保密哦！",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哦哦哦，原来指挥官在偷听呀！了解了解！那么，之后等指挥官不在的时候求详细！哈哈哈。",
+			say = "哦哦哦，原來指揮官在偷聽呀！了解了解！那麼，之後等指揮官不在的時候求詳細！哈哈哈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			actor = 303030,
-			say = "说完，{namecode:55}便飞快的跑开了。",
+			say = "說完，{namecode:55}便飛快的跑開了。",
 			action = {
 				{
 					y = 0,
@@ -321,7 +321,7 @@ return {
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "究竟发生了什么事？",
+			say = "究竟發生了什麼事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			blackBg = true,
 			actor = 301640,
 			nameColor = "#a9f548",
-			say = "嗯？我和{namecode:55}酱说了什么？是可爱的女孩子之间的小秘密，不能告诉指挥官哦！哈哈~",
+			say = "嗯？我和{namecode:55}醬說了什麼？是可愛的女孩子之間的小秘密，不能告訴指揮官哦！哈哈~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
