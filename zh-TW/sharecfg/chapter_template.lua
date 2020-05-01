@@ -3092,7 +3092,7 @@ pg.chapter_template = {
 			{
 				5,
 				6,
-				6,
+				true,
 				6
 			},
 			{
@@ -94068,7 +94068,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -94077,7 +94077,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"zhaochao"
@@ -94668,7 +94668,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -94677,7 +94677,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"chunyue",
@@ -95233,7 +95233,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -95242,7 +95242,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"jingang",
@@ -95893,7 +95893,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -95902,7 +95902,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"jiangfeng"
@@ -96554,7 +96554,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -96563,7 +96563,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"changmen",
@@ -97266,7 +97266,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -97275,7 +97275,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"unknown3"
@@ -98076,7 +98076,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -98085,7 +98085,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"zhaochao"
@@ -98719,7 +98719,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -98728,7 +98728,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"chunyue",
@@ -99326,7 +99326,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -99335,7 +99335,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"jingang",
@@ -100028,7 +100028,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -100037,7 +100037,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"jiangfeng"
@@ -100733,7 +100733,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -100742,7 +100742,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"changmen",
@@ -101489,7 +101489,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -101498,7 +101498,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"unknown3"
@@ -102221,7 +102221,7 @@ pg.chapter_template = {
 			}
 		},
 		win_condition_display = {
-			"击破敌方旗舰"
+			"擊破敵方旗艦"
 		},
 		lose_condition = {
 			{
@@ -102230,7 +102230,7 @@ pg.chapter_template = {
 			}
 		},
 		lose_condition_display = {
-			"我方舰队全灭"
+			"我方艦隊全滅"
 		},
 		icon = {
 			"changmen",
