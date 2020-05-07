@@ -248,7 +248,7 @@ function slot0.IsChapterInRemaster(slot0, slot1)
 			return false
 		end
 
-		return _.detect(slot1.config_data, function (slot0)
+		return _.any(slot1.config_data, function (slot0)
 			return slot0 == slot0
 		end)
 	end)

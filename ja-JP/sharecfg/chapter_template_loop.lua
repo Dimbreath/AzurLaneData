@@ -15,6 +15,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 15,
+		wall_prefab = "",
 		avoid_ratio = 8,
 		time = 43200,
 		slg_effect = "",
@@ -637,6 +638,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 18,
+		wall_prefab = "",
 		avoid_ratio = 9,
 		time = 43200,
 		slg_effect = "",
@@ -1268,6 +1270,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 21,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -1894,6 +1897,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 3,
 		time = 99999999,
 		slg_effect = "",
@@ -2055,6 +2059,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 3,
 		time = 43200,
 		slg_effect = "",
@@ -2321,6 +2326,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 3,
 		time = 43200,
 		slg_effect = "",
@@ -2623,6 +2629,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 4,
 		time = 43200,
 		slg_effect = "",
@@ -3007,6 +3014,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 4,
 		time = 43200,
 		slg_effect = "",
@@ -3485,6 +3493,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 4,
 		time = 43200,
 		slg_effect = "",
@@ -4016,6 +4025,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 5,
 		time = 43200,
 		slg_effect = "",
@@ -4524,6 +4534,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 5,
 		time = 43200,
 		slg_effect = "",
@@ -5002,6 +5013,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 6,
 		time = 43200,
 		slg_effect = "",
@@ -5500,6 +5512,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 6,
 		time = 43200,
 		slg_effect = "",
@@ -6022,6 +6035,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 7,
 		time = 43200,
 		slg_effect = "",
@@ -6539,6 +6553,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 7,
 		time = 43200,
 		slg_effect = "",
@@ -7042,6 +7057,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 8,
 		time = 43200,
 		slg_effect = "",
@@ -7468,6 +7484,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 8,
 		time = 43200,
 		slg_effect = "",
@@ -7887,6 +7904,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 9,
 		time = 43200,
 		slg_effect = "",
@@ -8251,6 +8269,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 9,
 		time = 43200,
 		slg_effect = "",
@@ -8754,6 +8773,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -9256,6 +9276,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -9696,6 +9717,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 11,
 		time = 43200,
 		slg_effect = "",
@@ -10106,6 +10128,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 11,
 		time = 43200,
 		slg_effect = "",
@@ -10541,6 +10564,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 12,
 		time = 43200,
 		slg_effect = "",
@@ -11014,6 +11038,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 12,
 		time = 43200,
 		slg_effect = "",
@@ -11543,6 +11568,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 13,
 		time = 43200,
 		slg_effect = "",
@@ -11996,6 +12022,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 13,
 		time = 43200,
 		slg_effect = "",
@@ -12493,6 +12520,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 14,
 		time = 43200,
 		slg_effect = "",
@@ -12813,6 +12841,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 14,
 		time = 43200,
 		slg_effect = "",
@@ -13236,6 +13265,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 15,
 		time = 43200,
 		slg_effect = "",
@@ -13729,6 +13759,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 15,
 		time = 43200,
 		slg_effect = "",
@@ -14207,6 +14238,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 16,
 		time = 43200,
 		slg_effect = "",
@@ -14549,6 +14581,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 17,
 		time = 43200,
 		slg_effect = "",
@@ -14977,6 +15010,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 17,
 		time = 43200,
 		slg_effect = "",
@@ -15468,6 +15502,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 18,
 		time = 43200,
 		slg_effect = "",
@@ -16022,6 +16057,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 17,
 		time = 43200,
 		slg_effect = "",
@@ -16458,6 +16494,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 18,
 		time = 43200,
 		slg_effect = "",
@@ -16932,6 +16969,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 18,
 		time = 43200,
 		slg_effect = "",
@@ -17430,6 +17468,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 19,
 		time = 43200,
 		slg_effect = "",
@@ -17950,6 +17989,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 18,
 		time = 43200,
 		slg_effect = "",
@@ -18404,6 +18444,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 19,
 		time = 43200,
 		slg_effect = "",
@@ -18915,6 +18956,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 19,
 		time = 43200,
 		slg_effect = "",
@@ -19443,6 +19485,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 20,
 		time = 43200,
 		slg_effect = "",
@@ -19985,6 +20028,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 19,
 		time = 43200,
 		slg_effect = "",
@@ -20488,6 +20532,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 20,
 		time = 43200,
 		slg_effect = "",
@@ -21107,6 +21152,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 20,
 		time = 43200,
 		slg_effect = "",
@@ -21695,6 +21741,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 21,
 		time = 43200,
 		slg_effect = "",
@@ -22393,6 +22440,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 20,
 		time = 43200,
 		slg_effect = "",
@@ -22875,6 +22923,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 21,
 		time = 43200,
 		slg_effect = "",
@@ -23469,6 +23518,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 21,
 		time = 43200,
 		slg_effect = "",
@@ -24099,6 +24149,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 22,
 		time = 43200,
 		slg_effect = "",
@@ -24845,6 +24896,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 3,
 		time = 99999999,
 		slg_effect = "",
@@ -25018,6 +25070,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 3,
 		time = 43200,
 		slg_effect = "",
@@ -25265,6 +25318,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 3,
 		time = 43200,
 		slg_effect = "",
@@ -25533,6 +25587,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 4,
 		time = 43200,
 		slg_effect = "",
@@ -25818,6 +25873,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 4,
 		time = 43200,
 		slg_effect = "",
@@ -26153,6 +26209,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 4,
 		time = 43200,
 		slg_effect = "",
@@ -26540,6 +26597,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 5,
 		time = 43200,
 		slg_effect = "",
@@ -26904,6 +26962,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 5,
 		time = 43200,
 		slg_effect = "",
@@ -27238,6 +27297,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 6,
 		time = 43200,
 		slg_effect = "",
@@ -27592,6 +27652,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 6,
 		time = 43200,
 		slg_effect = "",
@@ -27970,6 +28031,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 7,
 		time = 43200,
 		slg_effect = "",
@@ -28343,6 +28405,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 7,
 		time = 43200,
 		slg_effect = "",
@@ -28702,6 +28765,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 8,
 		time = 43200,
 		slg_effect = "",
@@ -29098,6 +29162,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 8,
 		time = 43200,
 		slg_effect = "",
@@ -29487,6 +29552,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 9,
 		time = 43200,
 		slg_effect = "",
@@ -29821,6 +29887,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 9,
 		time = 43200,
 		slg_effect = "",
@@ -30291,6 +30358,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -30766,6 +30834,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -31179,6 +31248,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 11,
 		time = 43200,
 		slg_effect = "",
@@ -31562,6 +31632,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 11,
 		time = 43200,
 		slg_effect = "",
@@ -31970,6 +32041,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 12,
 		time = 43200,
 		slg_effect = "",
@@ -32417,6 +32489,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 12,
 		time = 43200,
 		slg_effect = "",
@@ -32920,6 +32993,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 13,
 		time = 43200,
 		slg_effect = "",
@@ -33347,6 +33421,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 13,
 		time = 43200,
 		slg_effect = "",
@@ -33818,6 +33893,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 14,
 		time = 43200,
 		slg_effect = "",
@@ -34127,6 +34203,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 14,
 		time = 43200,
 		slg_effect = "",
@@ -34539,6 +34616,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 15,
 		time = 43200,
 		slg_effect = "",
@@ -35021,6 +35099,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 15,
 		time = 43200,
 		slg_effect = "",
@@ -35488,6 +35567,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 16,
 		time = 43200,
 		slg_effect = "",
@@ -35819,6 +35899,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 17,
 		time = 43200,
 		slg_effect = "",
@@ -36236,6 +36317,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 17,
 		time = 43200,
 		slg_effect = "",
@@ -36716,6 +36798,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 18,
 		time = 43200,
 		slg_effect = "",
@@ -37259,6 +37342,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 17,
 		time = 43200,
 		slg_effect = "",
@@ -37682,6 +37766,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 18,
 		time = 43200,
 		slg_effect = "",
@@ -38143,6 +38228,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 18,
 		time = 43200,
 		slg_effect = "",
@@ -38628,6 +38714,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 19,
 		time = 43200,
 		slg_effect = "",
@@ -39135,6 +39222,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 18,
 		time = 43200,
 		slg_effect = "",
@@ -39576,6 +39664,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 19,
 		time = 43200,
 		slg_effect = "",
@@ -40074,6 +40163,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 19,
 		time = 43200,
 		slg_effect = "",
@@ -40589,6 +40679,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 20,
 		time = 43200,
 		slg_effect = "",
@@ -41118,6 +41209,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 19,
 		time = 43200,
 		slg_effect = "",
@@ -41609,6 +41701,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 20,
 		time = 43200,
 		slg_effect = "",
@@ -42215,6 +42308,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 20,
 		time = 43200,
 		slg_effect = "",
@@ -42790,6 +42884,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 21,
 		time = 43200,
 		slg_effect = "",
@@ -43475,6 +43570,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 8,
 		time = 43200,
 		slg_effect = "",
@@ -43926,6 +44022,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 9,
 		time = 43200,
 		slg_effect = "",
@@ -44483,6 +44580,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -45152,6 +45250,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -45615,6 +45714,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 11,
 		time = 43200,
 		slg_effect = "",
@@ -46184,6 +46284,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 12,
 		time = 43200,
 		slg_effect = "",
@@ -46882,6 +46983,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 12,
 		time = 43200,
 		slg_effect = "",
@@ -47374,6 +47476,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 13,
 		time = 43200,
 		slg_effect = "",
@@ -47972,6 +48075,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 14,
 		time = 43200,
 		slg_effect = "",
@@ -48682,6 +48786,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 14,
 		time = 43200,
 		slg_effect = "",
@@ -49188,6 +49293,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 15,
 		time = 43200,
 		slg_effect = "",
@@ -49800,6 +49906,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 16,
 		time = 43200,
 		slg_effect = "",
@@ -50534,6 +50641,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 7,
 		time = 43200,
 		slg_effect = "",
@@ -50988,6 +51096,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 8,
 		time = 43200,
 		slg_effect = "",
@@ -51637,6 +51746,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 9,
 		time = 43200,
 		slg_effect = "",
@@ -52306,6 +52416,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -53009,6 +53120,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 8,
 		time = 43200,
 		slg_effect = "",
@@ -53476,6 +53588,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 9,
 		time = 43200,
 		slg_effect = "",
@@ -53950,6 +54063,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -54509,6 +54623,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -55073,6 +55188,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 11,
 		time = 43200,
 		slg_effect = "",
@@ -55680,6 +55796,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 12,
 		time = 43200,
 		slg_effect = "",
@@ -56253,6 +56370,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 12,
 		time = 43200,
 		slg_effect = "",
@@ -56762,6 +56880,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 13,
 		time = 43200,
 		slg_effect = "",
@@ -57278,6 +57397,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 14,
 		time = 43200,
 		slg_effect = "",
@@ -57879,6 +57999,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 14,
 		time = 43200,
 		slg_effect = "",
@@ -58485,6 +58606,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 15,
 		time = 43200,
 		slg_effect = "",
@@ -59136,6 +59258,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 16,
 		time = 43200,
 		slg_effect = "",
@@ -59753,6 +59876,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 8,
 		time = 43200,
 		slg_effect = "",
@@ -60200,6 +60324,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 9,
 		time = 43200,
 		slg_effect = "",
@@ -60753,6 +60878,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -61418,6 +61544,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -61877,6 +62004,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 11,
 		time = 43200,
 		slg_effect = "",
@@ -62442,6 +62570,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 12,
 		time = 43200,
 		slg_effect = "",
@@ -63129,6 +63258,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 12,
 		time = 43200,
 		slg_effect = "",
@@ -63617,6 +63747,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 13,
 		time = 43200,
 		slg_effect = "",
@@ -64211,6 +64342,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 14,
 		time = 43200,
 		slg_effect = "",
@@ -64917,6 +65049,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 14,
 		time = 43200,
 		slg_effect = "",
@@ -65419,6 +65552,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 15,
 		time = 43200,
 		slg_effect = "",
@@ -66027,6 +66161,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 16,
 		time = 43200,
 		slg_effect = "",
@@ -66757,6 +66892,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 10,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 8,
 		time = 43200,
 		slg_effect = "",
@@ -67237,6 +67373,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 10,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 9,
 		time = 43200,
 		slg_effect = "",
@@ -67766,6 +67903,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 10,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -68392,6 +68530,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -68915,6 +69054,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 11,
 		time = 43200,
 		slg_effect = "",
@@ -69481,6 +69621,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 12,
 		time = 43200,
 		slg_effect = "",
@@ -70013,6 +70154,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 10,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 12,
 		time = 43200,
 		slg_effect = "",
@@ -70535,6 +70677,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 10,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 13,
 		time = 43200,
 		slg_effect = "",
@@ -71106,6 +71249,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 10,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 14,
 		time = 43200,
 		slg_effect = "",
@@ -71769,6 +71913,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 14,
 		time = 43200,
 		slg_effect = "",
@@ -72334,6 +72479,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 15,
 		time = 43200,
 		slg_effect = "",
@@ -72944,6 +73090,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 16,
 		time = 43200,
 		slg_effect = "",
@@ -73520,6 +73667,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 8,
 		time = 43200,
 		slg_effect = "",
@@ -73994,6 +74142,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 10,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 9,
 		time = 43200,
 		slg_effect = "",
@@ -74488,6 +74637,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 10,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -75072,6 +75222,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -75580,6 +75731,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 11,
 		time = 43200,
 		slg_effect = "",
@@ -76130,6 +76282,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 12,
 		time = 43200,
 		slg_effect = "",
@@ -76639,6 +76792,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 12,
 		time = 43200,
 		slg_effect = "",
@@ -77155,6 +77309,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 10,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 13,
 		time = 43200,
 		slg_effect = "",
@@ -77689,6 +77844,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 10,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 14,
 		time = 43200,
 		slg_effect = "",
@@ -78314,6 +78470,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 14,
 		time = 43200,
 		slg_effect = "",
@@ -78863,6 +79020,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 15,
 		time = 43200,
 		slg_effect = "",
@@ -79457,6 +79615,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 16,
 		time = 43200,
 		slg_effect = "",
@@ -80009,6 +80168,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 8,
 		time = 43200,
 		slg_effect = "",
@@ -80481,6 +80641,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 9,
 		time = 43200,
 		slg_effect = "",
@@ -81058,6 +81219,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -81594,6 +81756,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 4,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -82079,6 +82242,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 4,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -82656,6 +82820,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 5,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -83234,6 +83399,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 5,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -83813,6 +83979,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 6,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -84387,6 +84554,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 4,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -84886,6 +85054,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 4,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -85484,6 +85653,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 5,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -86077,6 +86247,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 5,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -86676,6 +86847,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 6,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -87219,6 +87391,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 6,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -87821,6 +87994,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 3,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -88295,6 +88469,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 4,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -88782,6 +88957,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 4,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -89292,6 +89468,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 4,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -89815,6 +89992,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 5,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -90387,6 +90565,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 5,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -90918,6 +91097,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 4,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -91434,6 +91614,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 4,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -91964,6 +92145,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 5,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -92517,6 +92699,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 5,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -93082,6 +93265,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 6,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -93698,6 +93882,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 6,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -94273,6 +94458,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 3,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -94758,6 +94944,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 4,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -95230,6 +95417,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 4,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -95740,6 +95928,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 4,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -96270,6 +96459,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 5,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -96745,6 +96935,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 5,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -97275,6 +97466,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 4,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -97803,6 +97995,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 4,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -98318,6 +98511,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 5,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -98870,6 +99064,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 5,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -99442,6 +99637,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 6,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -99961,6 +100157,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 6,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -100535,6 +100732,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 12,
 		time = 43200,
 		slg_effect = "",
@@ -100965,6 +101163,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 14,
 		time = 43200,
 		slg_effect = "",
@@ -101456,6 +101655,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 16,
 		time = 43200,
 		slg_effect = "",
@@ -101986,6 +102186,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 3,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -102431,6 +102632,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 4,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -102905,6 +103107,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 4,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -103399,6 +103602,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 4,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -103930,6 +104134,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 5,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -104449,6 +104654,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 5,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -105036,6 +105242,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 4,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -105523,6 +105730,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 4,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -106039,6 +106247,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 5,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -106576,6 +106785,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 5,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -107149,6 +107359,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 6,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -107712,6 +107923,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 6,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -108343,6 +108555,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 3,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -108844,6 +109057,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 4,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -109316,6 +109530,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 4,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -109880,6 +110095,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 4,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -110450,6 +110666,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 5,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -111063,6 +111280,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 5,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -111642,6 +111860,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 4,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -112185,6 +112404,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 4,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -112699,6 +112919,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 5,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -113305,6 +113526,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 5,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -113917,6 +114139,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 6,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -114574,6 +114797,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 6,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -115182,6 +115406,1662 @@ pg.chapter_template_loop = {
 		land_based = {},
 		chapter_buff = {}
 	},
+	[1350001] = {
+		submarine_num = 1,
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 4,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		limit_move = 0,
+		air_dominance = 120,
+		best_air_dominance = 156,
+		id = 1350001,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 2,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		avoid_ratio = 12,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1380001,
+				15,
+				0
+			},
+			{
+				1380002,
+				20,
+				0
+			},
+			{
+				1380003,
+				30,
+				1
+			},
+			{
+				1380004,
+				15,
+				0
+			},
+			{
+				1380005,
+				20,
+				0
+			},
+			{
+				1380006,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1380004
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1380013
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				1
+			},
+			{
+				5,
+				3,
+				true,
+				1
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				16
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				16
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				4
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				4
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				8
+			},
+			{
+				0,
+				3,
+				true,
+				8
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				7,
+				"faxisp_1x1_1",
+				-4,
+				0
+			},
+			{
+				6,
+				1,
+				"faxisp_2x1_2",
+				-59,
+				0
+			},
+			{
+				4,
+				6,
+				"faxisp_1x1_3",
+				0,
+				20
+			},
+			{
+				4,
+				2,
+				"faxisp_1x1_2",
+				0,
+				10
+			},
+			{
+				0,
+				5,
+				"faxisp_3x1_1",
+				115,
+				32
+			},
+			{
+				0,
+				1,
+				"faxisp_2x2_1",
+				56,
+				-25
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_faxisp",
+			45,
+			20,
+			-138,
+			-112,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			3,
+			21,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[1350002] = {
+		submarine_num = 1,
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 4,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		limit_move = 0,
+		air_dominance = 240,
+		best_air_dominance = 312,
+		id = 1350002,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 2,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		avoid_ratio = 14,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.49,
+			0.35,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1380101,
+				15,
+				0
+			},
+			{
+				1380102,
+				20,
+				0
+			},
+			{
+				1380103,
+				30,
+				1
+			},
+			{
+				1380104,
+				15,
+				0
+			},
+			{
+				1380105,
+				20,
+				0
+			},
+			{
+				1380106,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1380105
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1380113
+		},
+		enemy_refresh = {
+			2,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				5,
+				10,
+				true,
+				6
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				1
+			},
+			{
+				5,
+				0,
+				true,
+				1
+			},
+			{
+				4,
+				10,
+				true,
+				6
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				4
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				1
+			},
+			{
+				3,
+				10,
+				false,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				4
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				8
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				8
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				8
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				6
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				6
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				4
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				6
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				4
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				2,
+				"faxisp_3x1_1",
+				106,
+				16
+			},
+			{
+				3,
+				10,
+				"faxisp_1x1_2",
+				0,
+				8
+			},
+			{
+				3,
+				7,
+				"faxisp_2x2_1",
+				74,
+				-46
+			},
+			{
+				3,
+				0,
+				"faxisp_1x1_1",
+				1,
+				15
+			},
+			{
+				0,
+				7,
+				"faxisp_2x1_1",
+				49,
+				0
+			},
+			{
+				0,
+				2,
+				"faxisp_2x2_2",
+				36,
+				-17
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_faxisp",
+			45,
+			20,
+			-134,
+			-218,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[1350003] = {
+		submarine_num = 1,
+		pop_pic = "",
+		enter_story = "",
+		boss_refresh = 5,
+		story_refresh_boss = "",
+		friendly_id = 0,
+		limit_move = 0,
+		air_dominance = 560,
+		best_air_dominance = 728,
+		id = 1350003,
+		group_num = 2,
+		enter_story_limit = "",
+		model = 2,
+		investigation_ratio = 0,
+		wall_prefab = "",
+		avoid_ratio = 16,
+		time = 43200,
+		slg_effect = "",
+		chapter_fx = "",
+		mine_id = 2001,
+		uifx = "",
+		scale = {
+			0.61,
+			0.41,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1380201,
+				15,
+				0
+			},
+			{
+				1380202,
+				20,
+				0
+			},
+			{
+				1380203,
+				30,
+				1
+			},
+			{
+				1380204,
+				15,
+				0
+			},
+			{
+				1380205,
+				20,
+				0
+			},
+			{
+				1380206,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1380206
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1380213
+		},
+		enemy_refresh = {
+			2,
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		grids = {
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				6
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				6
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				4
+			},
+			{
+				7,
+				1,
+				true,
+				6
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				4
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				1
+			},
+			{
+				4,
+				2,
+				true,
+				1
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				16
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				4
+			},
+			{
+				2,
+				2,
+				true,
+				4
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				8
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				true,
+				8
+			},
+			{
+				0,
+				6,
+				true,
+				8
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				6
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				5,
+				"faxisp_1x1_2",
+				0,
+				13
+			},
+			{
+				6,
+				0,
+				"faxisp_2x2_1",
+				55,
+				-38
+			},
+			{
+				4,
+				5,
+				"faxisp_1x2_1",
+				22,
+				-33
+			},
+			{
+				3,
+				2,
+				"faxisp_2x1_1",
+				53,
+				6
+			},
+			{
+				2,
+				7,
+				"faxisp_1x1_3",
+				7,
+				7
+			},
+			{
+				0,
+				5,
+				"faxisp_1x1_1",
+				0,
+				4
+			},
+			{
+				0,
+				1,
+				"faxisp_3x1_1",
+				-6,
+				29
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_faxisp",
+			45,
+			20,
+			-152,
+			-16,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		activity_random_box = {},
+		land_based = {},
+		chapter_buff = {}
+	},
 	[2100001] = {
 		submarine_num = 0,
 		pop_pic = "",
@@ -115197,6 +117077,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -115639,6 +117520,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 11,
 		time = 43200,
 		slg_effect = "",
@@ -116137,6 +118019,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 12,
 		time = 43200,
 		slg_effect = "",
@@ -116703,6 +118586,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 12,
 		time = 43200,
 		slg_effect = "",
@@ -117219,6 +119103,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 13,
 		time = 43200,
 		slg_effect = "",
@@ -117837,6 +119722,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 14,
 		time = 43200,
 		slg_effect = "",
@@ -118449,6 +120335,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 14,
 		time = 43200,
 		slg_effect = "",
@@ -118932,6 +120819,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 15,
 		time = 43200,
 		slg_effect = "",
@@ -119471,6 +121359,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 16,
 		time = 43200,
 		slg_effect = "",
@@ -120079,6 +121968,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 15,
 		time = 43200,
 		slg_effect = "",
@@ -120637,6 +122527,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 16,
 		time = 43200,
 		slg_effect = "",
@@ -121297,6 +123188,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 17,
 		time = 43200,
 		slg_effect = "",
@@ -121950,6 +123842,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 8,
 		time = 43200,
 		slg_effect = "",
@@ -122348,6 +124241,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 9,
 		time = 43200,
 		slg_effect = "",
@@ -122808,6 +124702,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -123358,6 +125253,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 11,
 		time = 43200,
 		slg_effect = "",
@@ -123931,6 +125827,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 12,
 		time = 43200,
 		slg_effect = "",
@@ -124522,6 +126419,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 13,
 		time = 43200,
 		slg_effect = "",
@@ -125288,6 +127186,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -125727,6 +127626,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 11,
 		time = 43200,
 		slg_effect = "",
@@ -126228,6 +128128,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 12,
 		time = 43200,
 		slg_effect = "",
@@ -126819,6 +128720,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 13,
 		time = 43200,
 		slg_effect = "",
@@ -127433,6 +129335,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 14,
 		time = 43200,
 		slg_effect = "",
@@ -128065,6 +129968,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 15,
 		time = 43200,
 		slg_effect = "",
@@ -128872,6 +130776,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 12,
 		time = 43200,
 		land_based = "",
@@ -129331,6 +131236,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 13,
 		time = 43200,
 		land_based = "",
@@ -129930,6 +131836,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 13,
 		time = 43200,
 		land_based = "",
@@ -130496,6 +132403,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 14,
 		time = 43200,
 		land_based = "",
@@ -131180,6 +133088,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 14,
 		time = 43200,
 		land_based = "",
@@ -131659,6 +133568,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 15,
 		time = 43200,
 		land_based = "",
@@ -132146,6 +134056,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 15,
 		time = 43200,
 		land_based = "",
@@ -132688,6 +134599,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 16,
 		time = 43200,
 		land_based = "",
@@ -133386,6 +135298,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 14,
 		time = 43200,
 		land_based = "",
@@ -133886,6 +135799,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 15,
 		time = 43200,
 		land_based = "",
@@ -134528,6 +136442,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 16,
 		time = 43200,
 		land_based = "",
@@ -135135,6 +137050,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 17,
 		time = 43200,
 		land_based = "",
@@ -135860,6 +137776,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 16,
 		time = 43200,
 		land_based = "",
@@ -136380,6 +138297,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 17,
 		time = 43200,
 		land_based = "",
@@ -136908,6 +138826,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 17,
 		time = 43200,
 		land_based = "",
@@ -137491,6 +139410,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 18,
 		time = 43200,
 		land_based = "",
@@ -138230,6 +140150,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 12,
+		wall_prefab = "",
 		avoid_ratio = 8,
 		time = 43200,
 		land_based = "",
@@ -138717,6 +140638,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 12,
+		wall_prefab = "",
 		avoid_ratio = 9,
 		time = 43200,
 		land_based = "",
@@ -139265,6 +141187,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 13,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		land_based = "",
@@ -139903,6 +141826,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 14,
+		wall_prefab = "",
 		avoid_ratio = 11,
 		time = 43200,
 		land_based = "",
@@ -140480,6 +142404,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 14,
+		wall_prefab = "",
 		avoid_ratio = 12,
 		time = 43200,
 		land_based = "",
@@ -141198,6 +143123,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 15,
+		wall_prefab = "",
 		avoid_ratio = 13,
 		time = 43200,
 		land_based = "",
@@ -142088,6 +144014,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 14,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		land_based = "",
@@ -142616,6 +144543,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 15,
+		wall_prefab = "",
 		avoid_ratio = 11,
 		time = 43200,
 		land_based = "",
@@ -143205,6 +145133,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 16,
+		wall_prefab = "",
 		avoid_ratio = 12,
 		time = 43200,
 		land_based = "",
@@ -143884,6 +145813,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 17,
+		wall_prefab = "",
 		avoid_ratio = 13,
 		time = 43200,
 		land_based = "",
@@ -144502,6 +146432,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 18,
+		wall_prefab = "",
 		avoid_ratio = 14,
 		time = 43200,
 		land_based = "",
@@ -145261,6 +147192,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 2,
 		investigation_ratio = 19,
+		wall_prefab = "",
 		avoid_ratio = 15,
 		time = 43200,
 		land_based = "",
@@ -146192,6 +148124,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 8,
 		time = 43200,
 		slg_effect = "",
@@ -146494,6 +148427,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 9,
 		time = 43200,
 		slg_effect = "",
@@ -146879,6 +148813,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		slg_effect = "",
@@ -147294,6 +149229,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 8,
 		time = 43200,
 		land_based = "",
@@ -147783,6 +149719,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 9,
 		time = 43200,
 		land_based = "",
@@ -148371,6 +150308,7 @@ pg.chapter_template_loop = {
 		enter_story_limit = "",
 		model = 1,
 		investigation_ratio = 0,
+		wall_prefab = "",
 		avoid_ratio = 10,
 		time = 43200,
 		land_based = "",
@@ -149227,6 +151165,9 @@ pg.chapter_template_loop = {
 		1340014,
 		1340015,
 		1340016,
+		1350001,
+		1350002,
+		1350003,
 		2100001,
 		2100002,
 		2100003,

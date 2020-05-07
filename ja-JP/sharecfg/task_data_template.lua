@@ -88957,6 +88957,364 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[15565] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93006,
+		type = 6,
+		name = "『法系SP』通关SP1",
+		count_inherit = 0,
+		desc = "SP1をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15566",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1350001,
+		id = 15565,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1350001",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[15566] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93007,
+		type = 6,
+		name = "『法系SP』通关SP2",
+		count_inherit = 0,
+		desc = "SP2をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15567",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1350002,
+		id = 15566,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1350002",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[15567] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93008,
+		type = 6,
+		name = "『法系SP』通关SP3",
+		count_inherit = 0,
+		desc = "SP3をクリア",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1350003,
+		id = 15567,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1350003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18003,
+				1
+			}
+		}
+	},
+	[15568] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93009,
+		type = 6,
+		name = "『法系SP』SP1的三星",
+		count_inherit = 0,
+		desc = "SP1の☆3を達成",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15569",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1350001,
+		id = 15568,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1350001",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[15569] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93010,
+		type = 6,
+		name = "『法系SP』SP2的三星",
+		count_inherit = 0,
+		desc = "SP2の☆3を達成",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15570",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1350002,
+		id = 15569,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1350002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[15570] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93011,
+		type = 6,
+		name = "『法系SP』SP3的三星",
+		count_inherit = 0,
+		desc = "SP3の☆3を達成",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1350003,
+		id = 15570,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1350003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
+	[15571] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93012,
+		type = 6,
+		name = "『法系SP』SP3累计通关10次",
+		count_inherit = 0,
+		desc = "SP3を10回クリアする",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1350003,
+		id = 15571,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "1350003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15572] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93013,
+		type = 6,
+		name = "『法系SP』SP3累计通关20次",
+		count_inherit = 0,
+		desc = "SP3を20回クリアする",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1350003,
+		id = 15572,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "1350003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15573] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93014,
+		type = 6,
+		name = "『法系SP』SP3累计通关40次",
+		count_inherit = 0,
+		desc = "SP3を40回クリアする",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1350003,
+		id = 15573,
+		target_num = 40,
+		fix_task = 0,
+		target_id = "1350003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15574] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93015,
+		type = 6,
+		name = "『法系SP』SP3累计通关60次",
+		count_inherit = 0,
+		desc = "SP3を60回クリアする",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1350003,
+		id = 15574,
+		target_num = 60,
+		fix_task = 0,
+		target_id = "1350003",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				901021,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
 	[30201] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -99050,6 +99408,16 @@ pg.task_data_template = {
 		15562,
 		15563,
 		15564,
+		15565,
+		15566,
+		15567,
+		15568,
+		15569,
+		15570,
+		15571,
+		15572,
+		15573,
+		15574,
 		30201,
 		30202,
 		31001,

@@ -22,6 +22,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.157291667",
 		num_1 = 1,
@@ -278,6 +279,7 @@ pg.chapter_template = {
 		pre_chapter = 101,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.347916667",
 		num_1 = 1,
@@ -643,6 +645,7 @@ pg.chapter_template = {
 		pre_chapter = 102,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.080208333",
 		num_1 = 1,
@@ -1042,6 +1045,7 @@ pg.chapter_template = {
 		pre_chapter = 103,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.446875",
 		num_1 = 1,
@@ -1528,6 +1532,7 @@ pg.chapter_template = {
 		pre_chapter = 104,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.15625",
 		num_1 = 1,
@@ -2109,6 +2114,7 @@ pg.chapter_template = {
 		pre_chapter = 201,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.436458333",
 		num_1 = 1,
@@ -2749,7 +2755,6 @@ pg.chapter_template = {
 		model = 1,
 		investigation_ratio = 11,
 		num_2 = 12,
-		land_based = "",
 		unlocklevel = 10,
 		chapter_fx = "",
 		uifx = "",
@@ -3276,7 +3281,8 @@ pg.chapter_template = {
 			100,
 			100,
 			4,
-			4
+			4,
+			""
 		},
 		box_list = {
 			{
@@ -3330,7 +3336,9 @@ pg.chapter_template = {
 				0
 			}
 		},
-		chapter_buff = {}
+		land_based = {},
+		chapter_buff = {},
+		wall_prefab = {}
 	},
 	[204] = {
 		mine_id = 2001,
@@ -3354,6 +3362,7 @@ pg.chapter_template = {
 		pre_chapter = 203,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.0625",
 		num_1 = 1,
@@ -3935,6 +3944,7 @@ pg.chapter_template = {
 		pre_chapter = 204,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.403125",
 		num_1 = 1,
@@ -4537,6 +4547,7 @@ pg.chapter_template = {
 		pre_chapter = 301,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1125",
 		num_1 = 1,
@@ -5163,6 +5174,7 @@ pg.chapter_template = {
 		pre_chapter = 302,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.491666667",
 		num_1 = 1,
@@ -5784,6 +5796,7 @@ pg.chapter_template = {
 		pre_chapter = 303,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
 		num_1 = 1,
@@ -6391,6 +6404,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.091666667",
 		num_1 = 0,
@@ -7063,6 +7077,7 @@ pg.chapter_template = {
 		pre_chapter = 304,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.313541667",
 		num_1 = 1,
@@ -7586,6 +7601,7 @@ pg.chapter_template = {
 		pre_chapter = 401,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.140625",
 		num_1 = 1,
@@ -8102,6 +8118,7 @@ pg.chapter_template = {
 		pre_chapter = 402,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.061458333",
 		num_1 = 1,
@@ -8563,6 +8580,7 @@ pg.chapter_template = {
 		pre_chapter = 403,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.328125",
 		num_1 = 1,
@@ -9163,6 +9181,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.458333333",
 		num_1 = 0,
@@ -9808,6 +9827,7 @@ pg.chapter_template = {
 		pre_chapter = 404,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.25",
 		num_1 = 1,
@@ -10407,6 +10427,7 @@ pg.chapter_template = {
 		pre_chapter = 501,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.071875",
 		num_1 = 1,
@@ -10944,6 +10965,7 @@ pg.chapter_template = {
 		pre_chapter = 502,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.25",
 		num_1 = 1,
@@ -11451,6 +11473,7 @@ pg.chapter_template = {
 		pre_chapter = 503,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.408333333",
 		num_1 = 1,
@@ -11983,6 +12006,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.071875",
 		num_1 = 0,
@@ -12566,6 +12590,7 @@ pg.chapter_template = {
 		pre_chapter = 504,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.113541667",
 		num_1 = 1,
@@ -13136,6 +13161,7 @@ pg.chapter_template = {
 		pre_chapter = 601,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.273958333",
 		num_1 = 1,
@@ -13762,6 +13788,7 @@ pg.chapter_template = {
 		pre_chapter = 602,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.40625",
 		num_1 = 1,
@@ -14312,6 +14339,7 @@ pg.chapter_template = {
 		pre_chapter = 603,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.186458333",
 		num_1 = 1,
@@ -14906,6 +14934,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.470833333",
 		num_1 = 0,
@@ -15499,6 +15528,7 @@ pg.chapter_template = {
 		pre_chapter = 604,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.130208333",
 		num_1 = 1,
@@ -15916,6 +15946,7 @@ pg.chapter_template = {
 		pre_chapter = 701,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.442708333",
 		num_1 = 1,
@@ -16436,6 +16467,7 @@ pg.chapter_template = {
 		pre_chapter = 702,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.335416667",
 		num_1 = 1,
@@ -17027,6 +17059,7 @@ pg.chapter_template = {
 		pre_chapter = 703,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.163541667",
 		num_1 = 1,
@@ -17602,6 +17635,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.291666667",
 		num_1 = 0,
@@ -18180,6 +18214,7 @@ pg.chapter_template = {
 		pre_chapter = 704,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.436458333",
 		num_1 = 1,
@@ -18619,6 +18654,7 @@ pg.chapter_template = {
 		pre_chapter = 801,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.258333333",
 		num_1 = 1,
@@ -19144,6 +19180,7 @@ pg.chapter_template = {
 		pre_chapter = 802,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.041666667",
 		num_1 = 1,
@@ -19732,6 +19769,7 @@ pg.chapter_template = {
 		pre_chapter = 803,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.153125",
 		num_1 = 1,
@@ -20383,6 +20421,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.338541667",
 		num_1 = 0,
@@ -21023,6 +21062,7 @@ pg.chapter_template = {
 		pre_chapter = 804,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		num_1 = 1,
@@ -21556,6 +21596,7 @@ pg.chapter_template = {
 		pre_chapter = 901,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.122916667",
 		num_1 = 1,
@@ -22127,6 +22168,7 @@ pg.chapter_template = {
 		pre_chapter = 902,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.35625",
 		num_1 = 1,
@@ -22722,6 +22764,7 @@ pg.chapter_template = {
 		pre_chapter = 903,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09375",
 		num_1 = 1,
@@ -23339,6 +23382,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.238541667",
 		num_1 = 0,
@@ -23966,6 +24010,7 @@ pg.chapter_template = {
 		pre_chapter = 904,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.380208333",
 		num_1 = 1,
@@ -24518,6 +24563,7 @@ pg.chapter_template = {
 		pre_chapter = 1001,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.234375",
 		num_1 = 1,
@@ -25126,6 +25172,7 @@ pg.chapter_template = {
 		pre_chapter = 1002,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.070833333",
 		num_1 = 1,
@@ -25751,6 +25798,7 @@ pg.chapter_template = {
 		pre_chapter = 1003,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.378125",
 		num_1 = 1,
@@ -26390,6 +26438,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.196875",
 		num_1 = 0,
@@ -27018,6 +27067,7 @@ pg.chapter_template = {
 		pre_chapter = 1004,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.388541667",
 		num_1 = 1,
@@ -27619,6 +27669,7 @@ pg.chapter_template = {
 		pre_chapter = 1101,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.091666667",
 		num_1 = 1,
@@ -28335,6 +28386,7 @@ pg.chapter_template = {
 		pre_chapter = 1102,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.453125",
 		num_1 = 1,
@@ -29021,6 +29073,7 @@ pg.chapter_template = {
 		pre_chapter = 1103,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.167708333",
 		num_1 = 1,
@@ -29816,6 +29869,7 @@ pg.chapter_template = {
 		pre_chapter = 1104,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.380208333",
 		num_1 = 1,
@@ -30395,6 +30449,7 @@ pg.chapter_template = {
 		pre_chapter = 1201,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.122916667",
 		num_1 = 1,
@@ -31087,6 +31142,7 @@ pg.chapter_template = {
 		pre_chapter = 1202,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.35625",
 		num_1 = 1,
@@ -31815,6 +31871,7 @@ pg.chapter_template = {
 		pre_chapter = 1203,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09375",
 		num_1 = 1,
@@ -32659,6 +32716,7 @@ pg.chapter_template = {
 		pre_chapter = 1204,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.380208333",
 		num_1 = 1,
@@ -33246,6 +33304,7 @@ pg.chapter_template = {
 		pre_chapter = 1301,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.122916667",
 		num_1 = 1,
@@ -33938,6 +33997,7 @@ pg.chapter_template = {
 		pre_chapter = 1302,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.35625",
 		num_1 = 1,
@@ -34674,6 +34734,7 @@ pg.chapter_template = {
 		pre_chapter = 1303,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09375",
 		num_1 = 1,
@@ -35519,6 +35580,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.43125",
 		num_1 = 1,
@@ -35920,6 +35982,7 @@ pg.chapter_template = {
 		pre_chapter = 10000,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.294791667",
 		num_1 = 1,
@@ -36385,6 +36448,7 @@ pg.chapter_template = {
 		pre_chapter = 10001,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.080208333",
 		num_1 = 1,
@@ -36880,6 +36944,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.157291667",
 		num_1 = 1,
@@ -37172,6 +37237,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.347916667",
 		num_1 = 1,
@@ -37571,6 +37637,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.080208333",
 		num_1 = 1,
@@ -38006,6 +38073,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.446875",
 		num_1 = 1,
@@ -38524,6 +38592,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.15625",
 		num_1 = 1,
@@ -39142,6 +39211,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.436458333",
 		num_1 = 1,
@@ -39813,6 +39883,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.35",
 		num_1 = 1,
@@ -40461,6 +40532,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.0625",
 		num_1 = 1,
@@ -41079,6 +41151,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.403125",
 		num_1 = 1,
@@ -41718,6 +41791,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1125",
 		num_1 = 1,
@@ -42381,6 +42455,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.491666667",
 		num_1 = 1,
@@ -43039,6 +43114,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
 		num_1 = 1,
@@ -43683,6 +43759,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.313541667",
 		num_1 = 1,
@@ -44244,6 +44321,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.140625",
 		num_1 = 1,
@@ -44798,6 +44876,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.061458333",
 		num_1 = 1,
@@ -45297,6 +45376,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.328125",
 		num_1 = 1,
@@ -45933,6 +46013,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.25",
 		num_1 = 1,
@@ -46574,6 +46655,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.071875",
 		num_1 = 1,
@@ -47153,6 +47235,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.25",
 		num_1 = 1,
@@ -47702,6 +47785,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.408333333",
 		num_1 = 1,
@@ -48276,6 +48360,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.113541667",
 		num_1 = 1,
@@ -48889,6 +48974,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.273958333",
 		num_1 = 1,
@@ -49558,6 +49644,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.40625",
 		num_1 = 1,
@@ -50151,6 +50238,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.186458333",
 		num_1 = 1,
@@ -50788,6 +50876,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.130208333",
 		num_1 = 1,
@@ -51250,6 +51339,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.442708333",
 		num_1 = 1,
@@ -51815,6 +51905,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.335416667",
 		num_1 = 1,
@@ -52451,6 +52542,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.163541667",
 		num_1 = 1,
@@ -53071,6 +53163,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.436458333",
 		num_1 = 1,
@@ -53555,6 +53648,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.258333333",
 		num_1 = 1,
@@ -54125,6 +54219,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.041666667",
 		num_1 = 1,
@@ -54758,6 +54853,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.153125",
 		num_1 = 1,
@@ -55454,6 +55550,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		num_1 = 1,
@@ -56032,6 +56129,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.122916667",
 		num_1 = 1,
@@ -56648,6 +56746,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.35625",
 		num_1 = 1,
@@ -57288,6 +57387,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09375",
 		num_1 = 1,
@@ -57950,6 +58050,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.380208333",
 		num_1 = 1,
@@ -58547,6 +58648,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.234375",
 		num_1 = 1,
@@ -59200,6 +59302,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.070833333",
 		num_1 = 1,
@@ -59870,6 +59973,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.378125",
 		num_1 = 1,
@@ -60554,6 +60658,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.388541667",
 		num_1 = 1,
@@ -61200,6 +61305,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.091666667",
 		num_1 = 1,
@@ -61961,6 +62067,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.453125",
 		num_1 = 1,
@@ -62692,6 +62799,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.167708333",
 		num_1 = 1,
@@ -63532,6 +63640,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.258333333",
 		num_1 = 0,
@@ -64010,6 +64119,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.041666667",
 		num_1 = 0,
@@ -64540,6 +64650,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.153125",
 		num_1 = 0,
@@ -65162,6 +65273,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.258333333",
 		num_1 = 0,
@@ -65634,6 +65746,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.041666667",
 		num_1 = 0,
@@ -66151,6 +66264,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.153125",
 		num_1 = 0,
@@ -66760,6 +66874,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.258333333",
 		num_1 = 0,
@@ -67231,6 +67346,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.041666667",
 		num_1 = 0,
@@ -67753,6 +67869,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.153125",
 		num_1 = 0,
@@ -68312,6 +68429,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
 		num_1 = 1,
@@ -68768,6 +68886,7 @@ pg.chapter_template = {
 		pre_chapter = 1000001,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.123958333",
 		num_1 = 1,
@@ -69286,6 +69405,7 @@ pg.chapter_template = {
 		pre_chapter = 1000002,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
 		num_1 = 1,
@@ -69874,6 +69994,7 @@ pg.chapter_template = {
 		pre_chapter = 1000003,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.10625",
 		num_1 = 1,
@@ -70513,6 +70634,7 @@ pg.chapter_template = {
 		pre_chapter = 1000004,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
 		num_1 = 1,
@@ -70987,6 +71109,7 @@ pg.chapter_template = {
 		pre_chapter = 1000005,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.430208333",
 		num_1 = 1,
@@ -71458,6 +71581,7 @@ pg.chapter_template = {
 		pre_chapter = 1000006,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
 		num_1 = 1,
@@ -72115,6 +72239,7 @@ pg.chapter_template = {
 		pre_chapter = 1000007,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
 		num_1 = 1,
@@ -72970,6 +73095,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
 		num_1 = 1,
@@ -73467,6 +73593,7 @@ pg.chapter_template = {
 		pre_chapter = 1000011,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.123958333",
 		num_1 = 1,
@@ -74026,6 +74153,7 @@ pg.chapter_template = {
 		pre_chapter = 1000012,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
 		num_1 = 1,
@@ -74655,6 +74783,7 @@ pg.chapter_template = {
 		pre_chapter = 1000013,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.10625",
 		num_1 = 1,
@@ -75335,6 +75464,7 @@ pg.chapter_template = {
 		pre_chapter = 1000014,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
 		num_1 = 1,
@@ -75850,6 +75980,7 @@ pg.chapter_template = {
 		pre_chapter = 1000015,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.430208333",
 		num_1 = 1,
@@ -76362,6 +76493,7 @@ pg.chapter_template = {
 		pre_chapter = 1000016,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
 		num_1 = 1,
@@ -77060,6 +77192,7 @@ pg.chapter_template = {
 		pre_chapter = 1000017,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
 		num_1 = 1,
@@ -77956,6 +78089,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.34375",
 		num_1 = 1,
@@ -78537,6 +78671,7 @@ pg.chapter_template = {
 		pre_chapter = 1050011,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.070833333",
 		num_1 = 1,
@@ -79120,6 +79255,7 @@ pg.chapter_template = {
 		pre_chapter = 1050012,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.221875",
 		num_1 = 1,
@@ -79826,6 +79962,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.313541667",
 		num_1 = 1,
@@ -80391,6 +80528,7 @@ pg.chapter_template = {
 		pre_chapter = 1070101,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.079166667",
 		num_1 = 1,
@@ -81055,6 +81193,7 @@ pg.chapter_template = {
 		pre_chapter = 1070102,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.373958333",
 		num_1 = 1,
@@ -81777,6 +81916,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.313541667",
 		num_1 = 1,
@@ -82358,6 +82498,7 @@ pg.chapter_template = {
 		pre_chapter = 1070201,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.079166667",
 		num_1 = 1,
@@ -83038,6 +83179,7 @@ pg.chapter_template = {
 		pre_chapter = 1070202,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.373958333",
 		num_1 = 1,
@@ -83776,6 +83918,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.394725",
 		num_1 = 1,
@@ -84290,6 +84433,7 @@ pg.chapter_template = {
 		pre_chapter = 1080001,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.43335",
 		num_1 = 1,
@@ -84909,6 +85053,7 @@ pg.chapter_template = {
 		pre_chapter = 1080002,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.03125",
 		num_1 = 1,
@@ -85521,6 +85666,7 @@ pg.chapter_template = {
 		pre_chapter = 1080003,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.11565",
 		num_1 = 1,
@@ -86246,6 +86392,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1635417",
 		num_1 = 1,
@@ -87018,6 +87165,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.361458333",
 		num_1 = 1,
@@ -87509,6 +87657,7 @@ pg.chapter_template = {
 		pre_chapter = 1090001,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.111458333",
 		num_1 = 1,
@@ -88032,6 +88181,7 @@ pg.chapter_template = {
 		pre_chapter = 1090002,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3446875",
 		num_1 = 1,
@@ -88613,6 +88763,7 @@ pg.chapter_template = {
 		pre_chapter = 1090003,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.15",
 		num_1 = 1,
@@ -89205,6 +89356,7 @@ pg.chapter_template = {
 		pre_chapter = 1090004,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.073958",
 		num_1 = 1,
@@ -89875,6 +90027,7 @@ pg.chapter_template = {
 		pre_chapter = 1090005,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.347395833",
 		num_1 = 1,
@@ -90720,6 +90873,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.361458333",
 		num_1 = 1,
@@ -91266,6 +91420,7 @@ pg.chapter_template = {
 		pre_chapter = 1090011,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.111458333",
 		num_1 = 1,
@@ -91844,6 +91999,7 @@ pg.chapter_template = {
 		pre_chapter = 1090012,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3446875",
 		num_1 = 1,
@@ -92480,6 +92636,7 @@ pg.chapter_template = {
 		pre_chapter = 1090013,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.15",
 		num_1 = 1,
@@ -93127,6 +93284,7 @@ pg.chapter_template = {
 		pre_chapter = 1090014,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.073958",
 		num_1 = 1,
@@ -93852,6 +94010,7 @@ pg.chapter_template = {
 		pre_chapter = 1090015,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.347395833",
 		num_1 = 1,
@@ -94752,6 +94911,7 @@ pg.chapter_template = {
 		pre_chapter = 1090016,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.196875",
 		num_1 = 1,
@@ -95612,6 +95772,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.444791667",
 		num_1 = 1,
@@ -96153,6 +96314,7 @@ pg.chapter_template = {
 		pre_chapter = 1100001,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.088541667",
 		num_1 = 1,
@@ -96750,6 +96912,7 @@ pg.chapter_template = {
 		pre_chapter = 1100002,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.367708333",
 		num_1 = 1,
@@ -97416,6 +97579,7 @@ pg.chapter_template = {
 		pre_chapter = 1100003,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.090625",
 		num_1 = 1,
@@ -98033,6 +98197,7 @@ pg.chapter_template = {
 		pre_chapter = 1100004,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1125",
 		num_1 = 1,
@@ -98749,6 +98914,7 @@ pg.chapter_template = {
 		pre_chapter = 1100005,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.4",
 		num_1 = 1,
@@ -99462,6 +99628,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.444791667",
 		num_1 = 1,
@@ -100046,6 +100213,7 @@ pg.chapter_template = {
 		pre_chapter = 1100011,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.088541667",
 		num_1 = 1,
@@ -100685,6 +100853,7 @@ pg.chapter_template = {
 		pre_chapter = 1100012,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.367708333",
 		num_1 = 1,
@@ -101394,6 +101563,7 @@ pg.chapter_template = {
 		pre_chapter = 1100013,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.090625",
 		num_1 = 1,
@@ -102053,6 +102223,7 @@ pg.chapter_template = {
 		pre_chapter = 1100014,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1125",
 		num_1 = 1,
@@ -102811,6 +102982,7 @@ pg.chapter_template = {
 		pre_chapter = 1100015,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.4",
 		num_1 = 1,
@@ -103565,6 +103737,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.277083333",
 		num_1 = 1,
@@ -104312,6 +104485,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.375",
 		num_1 = 1,
@@ -104906,6 +105080,7 @@ pg.chapter_template = {
 		pre_chapter = 1110001,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.151041667",
 		num_1 = 1,
@@ -105423,6 +105598,7 @@ pg.chapter_template = {
 		pre_chapter = 1110002,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09583",
 		num_1 = 1,
@@ -105990,6 +106166,7 @@ pg.chapter_template = {
 		pre_chapter = 1110003,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.334375",
 		num_1 = 1,
@@ -106645,6 +106822,7 @@ pg.chapter_template = {
 		pre_chapter = 1110004,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.175",
 		num_1 = 1,
@@ -107351,6 +107529,7 @@ pg.chapter_template = {
 		pre_chapter = 1110005,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.255208333",
 		num_1 = 1,
@@ -108008,6 +108187,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.375",
 		num_1 = 1,
@@ -108644,6 +108824,7 @@ pg.chapter_template = {
 		pre_chapter = 1110011,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.151041667",
 		num_1 = 1,
@@ -109203,6 +109384,7 @@ pg.chapter_template = {
 		pre_chapter = 1110012,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.09583",
 		num_1 = 1,
@@ -109854,6 +110036,7 @@ pg.chapter_template = {
 		pre_chapter = 1110013,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.334375",
 		num_1 = 1,
@@ -110551,6 +110734,7 @@ pg.chapter_template = {
 		pre_chapter = 1110014,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.175",
 		num_1 = 1,
@@ -111301,6 +111485,7 @@ pg.chapter_template = {
 		pre_chapter = 1110015,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.255208333",
 		num_1 = 1,
@@ -112002,6 +112187,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.277083333",
 		num_1 = 1,
@@ -112409,6 +112595,7 @@ pg.chapter_template = {
 		pre_chapter = 201,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
 		num_1 = 1,
@@ -112959,6 +113146,7 @@ pg.chapter_template = {
 		pre_chapter = 1120001,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.123958333",
 		num_1 = 1,
@@ -113651,6 +113839,7 @@ pg.chapter_template = {
 		pre_chapter = 1120002,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
 		num_1 = 1,
@@ -114308,6 +114497,7 @@ pg.chapter_template = {
 		pre_chapter = 1120003,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.10625",
 		num_1 = 1,
@@ -115085,6 +115275,7 @@ pg.chapter_template = {
 		pre_chapter = 1120004,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
 		num_1 = 1,
@@ -115655,6 +115846,7 @@ pg.chapter_template = {
 		pre_chapter = 1120005,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.430208333",
 		num_1 = 1,
@@ -116235,6 +116427,7 @@ pg.chapter_template = {
 		pre_chapter = 1120006,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
 		num_1 = 1,
@@ -116868,6 +117061,7 @@ pg.chapter_template = {
 		pre_chapter = 1120007,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
 		num_1 = 1,
@@ -117659,6 +117853,7 @@ pg.chapter_template = {
 		pre_chapter = 201,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
 		num_1 = 1,
@@ -118250,6 +118445,7 @@ pg.chapter_template = {
 		pre_chapter = 1120011,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.123958333",
 		num_1 = 1,
@@ -118985,6 +119181,7 @@ pg.chapter_template = {
 		pre_chapter = 1120012,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
 		num_1 = 1,
@@ -119683,6 +119880,7 @@ pg.chapter_template = {
 		pre_chapter = 1120013,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.10625",
 		num_1 = 1,
@@ -120501,6 +120699,7 @@ pg.chapter_template = {
 		pre_chapter = 1120014,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
 		num_1 = 1,
@@ -121112,6 +121311,7 @@ pg.chapter_template = {
 		pre_chapter = 1120015,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.430208333",
 		num_1 = 1,
@@ -121733,6 +121933,7 @@ pg.chapter_template = {
 		pre_chapter = 1120016,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
 		num_1 = 1,
@@ -122407,6 +122608,7 @@ pg.chapter_template = {
 		pre_chapter = 1120017,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
 		num_1 = 1,
@@ -123239,6 +123441,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.2979",
 		num_1 = 1,
@@ -123663,6 +123866,7 @@ pg.chapter_template = {
 		pre_chapter = 201,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.34375",
 		num_1 = 1,
@@ -124154,6 +124358,7 @@ pg.chapter_template = {
 		pre_chapter = 1130001,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.070833333",
 		num_1 = 1,
@@ -124706,6 +124911,7 @@ pg.chapter_template = {
 		pre_chapter = 1130002,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.221875",
 		num_1 = 1,
@@ -125296,6 +125502,7 @@ pg.chapter_template = {
 		pre_chapter = 201,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.34375",
 		num_1 = 1,
@@ -125787,6 +125994,7 @@ pg.chapter_template = {
 		pre_chapter = 1130101,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.070833333",
 		num_1 = 1,
@@ -126339,6 +126547,7 @@ pg.chapter_template = {
 		pre_chapter = 1130102,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.221875",
 		num_1 = 1,
@@ -126929,6 +127138,7 @@ pg.chapter_template = {
 		pre_chapter = 201,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
 		num_1 = 1,
@@ -127472,6 +127682,7 @@ pg.chapter_template = {
 		pre_chapter = 1140001,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
 		num_1 = 1,
@@ -128121,6 +128332,7 @@ pg.chapter_template = {
 		pre_chapter = 1140003,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1739",
 		num_1 = 1,
@@ -128882,6 +129094,7 @@ pg.chapter_template = {
 		pre_chapter = 1140004,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
 		num_1 = 1,
@@ -129438,6 +129651,7 @@ pg.chapter_template = {
 		pre_chapter = 1140005,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
 		num_1 = 1,
@@ -130099,6 +130313,7 @@ pg.chapter_template = {
 		pre_chapter = 1140007,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
 		num_1 = 1,
@@ -130893,6 +131108,7 @@ pg.chapter_template = {
 		pre_chapter = 201,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
 		num_1 = 1,
@@ -131477,6 +131693,7 @@ pg.chapter_template = {
 		pre_chapter = 1140011,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
 		num_1 = 1,
@@ -132167,6 +132384,7 @@ pg.chapter_template = {
 		pre_chapter = 1140013,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1739",
 		num_1 = 1,
@@ -132969,6 +133187,7 @@ pg.chapter_template = {
 		pre_chapter = 1140014,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
 		num_1 = 1,
@@ -133568,6 +133787,7 @@ pg.chapter_template = {
 		pre_chapter = 1140015,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
 		num_1 = 1,
@@ -134272,6 +134492,7 @@ pg.chapter_template = {
 		pre_chapter = 1140017,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
 		num_1 = 1,
@@ -135102,6 +135323,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.2979",
 		num_1 = 1,
@@ -135485,6 +135707,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		num_1 = 1,
@@ -136064,6 +136287,7 @@ pg.chapter_template = {
 		pre_chapter = 1150001,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		num_1 = 1,
@@ -136704,6 +136928,7 @@ pg.chapter_template = {
 		pre_chapter = 1150002,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		num_1 = 1,
@@ -137435,6 +137660,7 @@ pg.chapter_template = {
 		pre_chapter = 1150003,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		num_1 = 1,
@@ -138104,6 +138330,7 @@ pg.chapter_template = {
 		pre_chapter = 1150004,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		num_1 = 1,
@@ -138914,6 +139141,7 @@ pg.chapter_template = {
 		pre_chapter = 1150005,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		num_1 = 1,
@@ -139903,6 +140131,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		num_1 = 1,
@@ -140523,6 +140752,7 @@ pg.chapter_template = {
 		pre_chapter = 1150011,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		num_1 = 1,
@@ -141204,6 +141434,7 @@ pg.chapter_template = {
 		pre_chapter = 1150012,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		num_1 = 1,
@@ -141976,6 +142207,7 @@ pg.chapter_template = {
 		pre_chapter = 1150013,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		num_1 = 1,
@@ -142686,6 +142918,7 @@ pg.chapter_template = {
 		pre_chapter = 1150014,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		num_1 = 1,
@@ -143537,6 +143770,7 @@ pg.chapter_template = {
 		pre_chapter = 1150015,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		num_1 = 1,
@@ -144567,6 +144801,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.2979",
 		num_1 = 1,
@@ -145079,6 +145314,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.404444444",
 		num_1 = 1,
@@ -145598,6 +145834,7 @@ pg.chapter_template = {
 		pre_chapter = 1160001,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.393611111",
 		num_1 = 1,
@@ -146234,6 +146471,7 @@ pg.chapter_template = {
 		pre_chapter = 1160002,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.003666667",
 		num_1 = 1,
@@ -146782,6 +147020,7 @@ pg.chapter_template = {
 		pre_chapter = 1160003,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.25",
 		num_1 = 1,
@@ -147586,6 +147825,7 @@ pg.chapter_template = {
 		pre_chapter = 1160004,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1635417",
 		num_1 = 1,
@@ -148145,6 +148385,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.34375",
 		num_1 = 1,
@@ -148674,6 +148915,7 @@ pg.chapter_template = {
 		pre_chapter = 1170001,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.070833333",
 		num_1 = 1,
@@ -149261,6 +149503,7 @@ pg.chapter_template = {
 		pre_chapter = 1170002,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.221875",
 		num_1 = 1,
@@ -149887,6 +150130,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		num_1 = 1,
@@ -150481,6 +150725,7 @@ pg.chapter_template = {
 		pre_chapter = 1180001,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		num_1 = 1,
@@ -151046,6 +151291,7 @@ pg.chapter_template = {
 		pre_chapter = 1180002,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		num_1 = 1,
@@ -151707,6 +151953,7 @@ pg.chapter_template = {
 		pre_chapter = 1180003,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		num_1 = 1,
@@ -152369,6 +152616,7 @@ pg.chapter_template = {
 		pre_chapter = 1180004,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		num_1 = 1,
@@ -153074,6 +153322,7 @@ pg.chapter_template = {
 		pre_chapter = 1180005,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		num_1 = 1,
@@ -153753,6 +154002,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		num_1 = 1,
@@ -154389,6 +154639,7 @@ pg.chapter_template = {
 		pre_chapter = 1180011,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		num_1 = 1,
@@ -154996,6 +155247,7 @@ pg.chapter_template = {
 		pre_chapter = 1180012,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		num_1 = 1,
@@ -155699,6 +155951,7 @@ pg.chapter_template = {
 		pre_chapter = 1180013,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		num_1 = 1,
@@ -156403,6 +156656,7 @@ pg.chapter_template = {
 		pre_chapter = 1180014,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		num_1 = 1,
@@ -157152,6 +157406,7 @@ pg.chapter_template = {
 		pre_chapter = 1180015,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		num_1 = 1,
@@ -157875,6 +158130,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.2979",
 		num_1 = 1,
@@ -158281,6 +158537,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		num_1 = 1,
@@ -158864,6 +159121,7 @@ pg.chapter_template = {
 		pre_chapter = 1310001,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		num_1 = 1,
@@ -159432,6 +159690,7 @@ pg.chapter_template = {
 		pre_chapter = 1310002,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		num_1 = 1,
@@ -160045,6 +160304,7 @@ pg.chapter_template = {
 		pre_chapter = 1310003,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		num_1 = 1,
@@ -160671,6 +160931,7 @@ pg.chapter_template = {
 		pre_chapter = 1310004,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		num_1 = 1,
@@ -161245,6 +161506,7 @@ pg.chapter_template = {
 		pre_chapter = 1310005,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		num_1 = 1,
@@ -161882,6 +162144,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		num_1 = 1,
@@ -162508,6 +162771,7 @@ pg.chapter_template = {
 		pre_chapter = 1310021,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		num_1 = 1,
@@ -163119,6 +163383,7 @@ pg.chapter_template = {
 		pre_chapter = 1310022,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		num_1 = 1,
@@ -163774,6 +164039,7 @@ pg.chapter_template = {
 		pre_chapter = 1310023,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.380208333",
 		num_1 = 1,
@@ -164442,6 +164708,7 @@ pg.chapter_template = {
 		pre_chapter = 1310024,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.122916667",
 		num_1 = 1,
@@ -165060,6 +165327,7 @@ pg.chapter_template = {
 		pre_chapter = 1310025,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.35625",
 		num_1 = 1,
@@ -165741,6 +166009,7 @@ pg.chapter_template = {
 		pre_chapter = 1310026,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		num_1 = 0,
@@ -166415,6 +166684,7 @@ pg.chapter_template = {
 		pre_chapter = 1310026,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		num_1 = 0,
@@ -166840,6 +167110,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.34375",
 		num_1 = 1,
@@ -167369,6 +167640,7 @@ pg.chapter_template = {
 		pre_chapter = 1320001,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.070833333",
 		num_1 = 1,
@@ -167956,6 +168228,7 @@ pg.chapter_template = {
 		pre_chapter = 1320002,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.221875",
 		num_1 = 1,
@@ -168582,6 +168855,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "SeaFogPermeates",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		num_1 = 1,
@@ -169128,6 +169402,7 @@ pg.chapter_template = {
 		pre_chapter = 1330001,
 		chapter_tag = 0,
 		pop_pic = "SeaFogPermeates",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		num_1 = 1,
@@ -169702,6 +169977,7 @@ pg.chapter_template = {
 		pre_chapter = 1330002,
 		chapter_tag = 0,
 		pop_pic = "SeaFogPermeates",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		num_1 = 1,
@@ -170296,6 +170572,7 @@ pg.chapter_template = {
 		pre_chapter = 1330003,
 		chapter_tag = 0,
 		pop_pic = "SeaFogPermeates",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		num_1 = 1,
@@ -170927,6 +171204,7 @@ pg.chapter_template = {
 		pre_chapter = 1330004,
 		chapter_tag = 0,
 		pop_pic = "SeaFogPermeates",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		num_1 = 1,
@@ -171548,6 +171826,7 @@ pg.chapter_template = {
 		pre_chapter = 1330005,
 		chapter_tag = 0,
 		pop_pic = "SeaFogPermeates",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		num_1 = 1,
@@ -172241,6 +172520,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "SeaFogPermeates",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		num_1 = 1,
@@ -172829,6 +173109,7 @@ pg.chapter_template = {
 		pre_chapter = 1330021,
 		chapter_tag = 0,
 		pop_pic = "SeaFogPermeates",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		num_1 = 1,
@@ -173445,6 +173726,7 @@ pg.chapter_template = {
 		pre_chapter = 1330022,
 		chapter_tag = 0,
 		pop_pic = "SeaFogPermeates",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		num_1 = 1,
@@ -174082,6 +174364,7 @@ pg.chapter_template = {
 		pre_chapter = 1330023,
 		chapter_tag = 0,
 		pop_pic = "SeaFogPermeates",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.380208333",
 		num_1 = 1,
@@ -174755,6 +175038,7 @@ pg.chapter_template = {
 		pre_chapter = 1330024,
 		chapter_tag = 0,
 		pop_pic = "SeaFogPermeates",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.122916667",
 		num_1 = 1,
@@ -175420,6 +175704,7 @@ pg.chapter_template = {
 		pre_chapter = 1330025,
 		chapter_tag = 0,
 		pop_pic = "SeaFogPermeates",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.35625",
 		num_1 = 1,
@@ -176157,6 +176442,7 @@ pg.chapter_template = {
 		pre_chapter = 1330026,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		num_1 = 0,
@@ -176755,6 +177041,7 @@ pg.chapter_template = {
 		pre_chapter = 1330026,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 0,
 		pos_y = "0.2979",
 		num_1 = 0,
@@ -177188,6 +177475,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		num_1 = 1,
@@ -177781,6 +178069,7 @@ pg.chapter_template = {
 		pre_chapter = 1340001,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		num_1 = 1,
@@ -178345,6 +178634,7 @@ pg.chapter_template = {
 		pre_chapter = 1340002,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		num_1 = 1,
@@ -179005,6 +179295,7 @@ pg.chapter_template = {
 		pre_chapter = 1340003,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		num_1 = 1,
@@ -179667,6 +179958,7 @@ pg.chapter_template = {
 		pre_chapter = 1340004,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		num_1 = 1,
@@ -180372,6 +180664,7 @@ pg.chapter_template = {
 		pre_chapter = 1340005,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		num_1 = 1,
@@ -181051,6 +181344,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		num_1 = 1,
@@ -181686,6 +181980,7 @@ pg.chapter_template = {
 		pre_chapter = 1340011,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		num_1 = 1,
@@ -182292,6 +182587,7 @@ pg.chapter_template = {
 		pre_chapter = 1340012,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		num_1 = 1,
@@ -182994,6 +183290,7 @@ pg.chapter_template = {
 		pre_chapter = 1340013,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		num_1 = 1,
@@ -183698,6 +183995,7 @@ pg.chapter_template = {
 		pre_chapter = 1340014,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		num_1 = 1,
@@ -184447,6 +184745,7 @@ pg.chapter_template = {
 		pre_chapter = 1340015,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		num_1 = 1,
@@ -185170,6 +185469,7 @@ pg.chapter_template = {
 		pre_chapter = 1340016,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.2979",
 		num_1 = 1,
@@ -185554,6 +185854,1950 @@ pg.chapter_template = {
 		risk_levels = {},
 		chapter_buff = {}
 	},
+	[1350001] = {
+		mine_id = 2001,
+		pos_x = "0.20234375",
+		num_3 = 1,
+		progress_boss = 34,
+		oil = 10,
+		group_num = 2,
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 150,
+		best_air_dominance = 195,
+		count = 0,
+		id = 1350001,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		pre_chapter = 0,
+		chapter_tag = 0,
+		pop_pic = "",
+		wall_prefab = "",
+		star_require_1 = 1,
+		pos_y = "0.34375",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 20,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "陰りの帰路",
+		chapter_name = "SP1",
+		type = 1,
+		act_id = 571,
+		enter_story = "YESEXIADEGUITU1",
+		boss_refresh = 4,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		map = 1350001,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "メルセルケビールにて傷ついたダンケルク。小さな騎士たちにエスコートされ、故郷への帰路を辿る",
+		difficulty = 6,
+		avoid_ratio = 12,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 0,
+		submarine_num = 1,
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1380001,
+				15,
+				0
+			},
+			{
+				1380002,
+				20,
+				0
+			},
+			{
+				1380003,
+				30,
+				1
+			},
+			{
+				1380004,
+				15,
+				0
+			},
+			{
+				1380005,
+				20,
+				0
+			},
+			{
+				1380006,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1380004
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1380013
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"敵中枢艦隊撃破"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"味方艦隊全滅"
+		},
+		icon = {
+			"qiaozhiwushidanchuan"
+		},
+		awards = {
+			{
+				2,
+				57895
+			},
+			{
+				2,
+				57889
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				1
+			},
+			{
+				5,
+				3,
+				true,
+				1
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				16
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				16
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				4
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				4
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				8
+			},
+			{
+				0,
+				3,
+				true,
+				8
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				7,
+				"faxisp_1x1_1",
+				-4,
+				0
+			},
+			{
+				6,
+				1,
+				"faxisp_2x1_2",
+				-59,
+				0
+			},
+			{
+				4,
+				6,
+				"faxisp_1x1_3",
+				0,
+				20
+			},
+			{
+				4,
+				2,
+				"faxisp_1x1_2",
+				0,
+				10
+			},
+			{
+				0,
+				5,
+				"faxisp_3x1_1",
+				115,
+				32
+			},
+			{
+				0,
+				1,
+				"faxisp_2x2_1",
+				56,
+				-25
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_faxisp",
+			45,
+			20,
+			-138,
+			-112,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			3,
+			21,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"YESEXIADEGUITU3"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[1350002] = {
+		mine_id = 2001,
+		pos_x = "0.42203125",
+		num_3 = 1,
+		progress_boss = 25,
+		oil = 10,
+		group_num = 2,
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 300,
+		best_air_dominance = 390,
+		count = 0,
+		id = 1350002,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		pre_chapter = 1350001,
+		chapter_tag = 0,
+		pop_pic = "",
+		wall_prefab = "",
+		star_require_1 = 1,
+		pos_y = "0.09083333",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 25,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "地中海の冬",
+		chapter_name = "SP2",
+		type = 1,
+		act_id = 571,
+		enter_story = "YESEXIADEGUITU4",
+		boss_refresh = 4,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 5,
+		ammo_total = 5,
+		map = 1350001,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "記録的な寒さを感じさせる地中海の冬。敵を警戒しつつ慎重に前進せよ！",
+		difficulty = 7,
+		avoid_ratio = 14,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 0,
+		submarine_num = 1,
+		scale = {
+			0.49,
+			0.35,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1380101,
+				15,
+				0
+			},
+			{
+				1380102,
+				20,
+				0
+			},
+			{
+				1380103,
+				30,
+				1
+			},
+			{
+				1380104,
+				15,
+				0
+			},
+			{
+				1380105,
+				20,
+				0
+			},
+			{
+				1380106,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1380105
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1380113
+		},
+		enemy_refresh = {
+			2,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"敵中枢艦隊撃破"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"味方艦隊全滅"
+		},
+		icon = {
+			"aruituosha"
+		},
+		awards = {
+			{
+				2,
+				57896
+			},
+			{
+				2,
+				57890
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				5,
+				10,
+				true,
+				6
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				1
+			},
+			{
+				5,
+				0,
+				true,
+				1
+			},
+			{
+				4,
+				10,
+				true,
+				6
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				4
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				1
+			},
+			{
+				3,
+				10,
+				false,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				4
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				8
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				8
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				8
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				6
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				6
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				4
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				6
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				4
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				2,
+				"faxisp_3x1_1",
+				106,
+				16
+			},
+			{
+				3,
+				10,
+				"faxisp_1x1_2",
+				0,
+				8
+			},
+			{
+				3,
+				7,
+				"faxisp_2x2_1",
+				74,
+				-46
+			},
+			{
+				3,
+				0,
+				"faxisp_1x1_1",
+				1,
+				15
+			},
+			{
+				0,
+				7,
+				"faxisp_2x1_1",
+				49,
+				0
+			},
+			{
+				0,
+				2,
+				"faxisp_2x2_2",
+				36,
+				-17
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_faxisp",
+			45,
+			20,
+			-134,
+			-218,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"YESEXIADEGUITU6"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {}
+	},
+	[1350003] = {
+		mine_id = 2001,
+		pos_x = "0.665625",
+		num_3 = 1,
+		progress_boss = 20,
+		oil = 10,
+		group_num = 2,
+		activate_time = 0,
+		story_refresh_boss = "",
+		ammo_submarine = 0,
+		ammo_cost = 1,
+		collection_team = 0,
+		air_dominance = 700,
+		best_air_dominance = 910,
+		count = 0,
+		id = 1350003,
+		icon_outline = 0,
+		bg = "",
+		bgm = "",
+		pre_chapter = 1350002,
+		chapter_tag = 0,
+		pop_pic = "",
+		wall_prefab = "",
+		star_require_1 = 1,
+		pos_y = "0.344791667",
+		num_1 = 1,
+		model = 2,
+		investigation_ratio = 0,
+		num_2 = 35,
+		unlocklevel = 0,
+		chapter_fx = "",
+		uifx = "",
+		name = "強行突破",
+		chapter_name = "SP3",
+		type = 1,
+		act_id = 571,
+		enter_story = "YESEXIADEGUITU7",
+		boss_refresh = 5,
+		event_skip = 0,
+		friendly_id = 0,
+		mitigation_rate = 2,
+		mitigation_level = 8,
+		ammo_total = 5,
+		map = 1350001,
+		enter_story_limit = "",
+		star_require_3 = 3,
+		profiles = "帰路を阻むはロイヤルのビッグセブンの一人――仲間たちの力を借りて作戦を完遂せよ！",
+		difficulty = 8,
+		avoid_ratio = 16,
+		star_require_2 = 2,
+		time = 43200,
+		limit_move = 0,
+		submarine_num = 1,
+		scale = {
+			0.61,
+			0.41,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1380201,
+				15,
+				0
+			},
+			{
+				1380202,
+				20,
+				0
+			},
+			{
+				1380203,
+				30,
+				1
+			},
+			{
+				1380204,
+				15,
+				0
+			},
+			{
+				1380205,
+				20,
+				0
+			},
+			{
+				1380206,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1380206
+		},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1380213
+		},
+		enemy_refresh = {
+			2,
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		win_condition_display = {
+			"敵中枢艦隊撃破"
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		lose_condition_display = {
+			"味方艦隊全滅"
+		},
+		icon = {
+			"naerxun"
+		},
+		awards = {
+			{
+				2,
+				57897
+			},
+			{
+				2,
+				57891
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				6
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				6
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				4
+			},
+			{
+				7,
+				1,
+				true,
+				6
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				4
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				1
+			},
+			{
+				4,
+				2,
+				true,
+				1
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				16
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				4
+			},
+			{
+				2,
+				2,
+				true,
+				4
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				8
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				true,
+				8
+			},
+			{
+				0,
+				6,
+				true,
+				8
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				6
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				5,
+				"faxisp_1x1_2",
+				0,
+				13
+			},
+			{
+				6,
+				0,
+				"faxisp_2x2_1",
+				55,
+				-38
+			},
+			{
+				4,
+				5,
+				"faxisp_1x2_1",
+				22,
+				-33
+			},
+			{
+				3,
+				2,
+				"faxisp_2x1_1",
+				53,
+				6
+			},
+			{
+				2,
+				7,
+				"faxisp_1x1_3",
+				7,
+				7
+			},
+			{
+				0,
+				5,
+				"faxisp_1x1_1",
+				0,
+				4
+			},
+			{
+				0,
+				1,
+				"faxisp_3x1_1",
+				-6,
+				29
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_faxisp",
+			45,
+			20,
+			-152,
+			-16,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"YESEXIADEGUITU9"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		activity_random_box = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_buff = {}
+	},
 	[2100001] = {
 		mine_id = 2001,
 		pos_x = "0.33125",
@@ -185576,6 +187820,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.444791667",
 		num_1 = 1,
@@ -186115,6 +188360,7 @@ pg.chapter_template = {
 		pre_chapter = 2100001,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.088541667",
 		num_1 = 1,
@@ -186711,6 +188957,7 @@ pg.chapter_template = {
 		pre_chapter = 2100002,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.367708333",
 		num_1 = 1,
@@ -187374,6 +189621,7 @@ pg.chapter_template = {
 		pre_chapter = 2100003,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.090625",
 		num_1 = 1,
@@ -187987,6 +190235,7 @@ pg.chapter_template = {
 		pre_chapter = 2100004,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1125",
 		num_1 = 1,
@@ -188702,6 +190951,7 @@ pg.chapter_template = {
 		pre_chapter = 2100005,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.4",
 		num_1 = 1,
@@ -189412,6 +191662,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.444791667",
 		num_1 = 1,
@@ -189992,6 +192243,7 @@ pg.chapter_template = {
 		pre_chapter = 2100011,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.088541667",
 		num_1 = 1,
@@ -190629,6 +192881,7 @@ pg.chapter_template = {
 		pre_chapter = 2100012,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.367708333",
 		num_1 = 1,
@@ -191334,6 +193587,7 @@ pg.chapter_template = {
 		pre_chapter = 2100013,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.090625",
 		num_1 = 1,
@@ -191989,6 +194243,7 @@ pg.chapter_template = {
 		pre_chapter = 2100014,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.1125",
 		num_1 = 1,
@@ -192746,6 +195001,7 @@ pg.chapter_template = {
 		pre_chapter = 2100015,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.4",
 		num_1 = 1,
@@ -193497,6 +195753,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.361458333",
 		num_1 = 1,
@@ -193987,6 +196244,7 @@ pg.chapter_template = {
 		pre_chapter = 2100021,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.111458333",
 		num_1 = 1,
@@ -194539,6 +196797,7 @@ pg.chapter_template = {
 		pre_chapter = 2100022,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3446875",
 		num_1 = 1,
@@ -195181,6 +197440,7 @@ pg.chapter_template = {
 		pre_chapter = 2100023,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.15",
 		num_1 = 1,
@@ -195846,6 +198106,7 @@ pg.chapter_template = {
 		pre_chapter = 2100024,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.073958",
 		num_1 = 1,
@@ -196529,6 +198790,7 @@ pg.chapter_template = {
 		pre_chapter = 2100025,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.347395833",
 		num_1 = 1,
@@ -197387,6 +199649,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.361458333",
 		num_1 = 1,
@@ -197918,6 +200181,7 @@ pg.chapter_template = {
 		pre_chapter = 2100031,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.111458333",
 		num_1 = 1,
@@ -198511,6 +200775,7 @@ pg.chapter_template = {
 		pre_chapter = 2100032,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3446875",
 		num_1 = 1,
@@ -199194,6 +201459,7 @@ pg.chapter_template = {
 		pre_chapter = 2100033,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.15",
 		num_1 = 1,
@@ -199900,6 +202166,7 @@ pg.chapter_template = {
 		pre_chapter = 2100034,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.073958",
 		num_1 = 1,
@@ -200624,6 +202891,7 @@ pg.chapter_template = {
 		pre_chapter = 2100035,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.347395833",
 		num_1 = 1,
@@ -201523,6 +203791,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
 		num_1 = 1,
@@ -202074,6 +204343,7 @@ pg.chapter_template = {
 		pre_chapter = 2100041,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.123958333",
 		num_1 = 1,
@@ -202765,6 +205035,7 @@ pg.chapter_template = {
 		pre_chapter = 2100042,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
 		num_1 = 1,
@@ -203423,6 +205694,7 @@ pg.chapter_template = {
 		pre_chapter = 2100043,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.10625",
 		num_1 = 1,
@@ -204199,6 +206471,7 @@ pg.chapter_template = {
 		pre_chapter = 2100044,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
 		num_1 = 1,
@@ -204770,6 +207043,7 @@ pg.chapter_template = {
 		pre_chapter = 2100045,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.430208333",
 		num_1 = 1,
@@ -205349,6 +207623,7 @@ pg.chapter_template = {
 		pre_chapter = 2100046,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
 		num_1 = 1,
@@ -205983,6 +208258,7 @@ pg.chapter_template = {
 		pre_chapter = 2100047,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
 		num_1 = 1,
@@ -206773,6 +209049,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.402083333",
 		num_1 = 1,
@@ -207365,6 +209642,7 @@ pg.chapter_template = {
 		pre_chapter = 2100051,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.123958333",
 		num_1 = 1,
@@ -208099,6 +210377,7 @@ pg.chapter_template = {
 		pre_chapter = 2100052,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.379166667",
 		num_1 = 1,
@@ -208798,6 +211077,7 @@ pg.chapter_template = {
 		pre_chapter = 2100053,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.10625",
 		num_1 = 1,
@@ -209615,6 +211895,7 @@ pg.chapter_template = {
 		pre_chapter = 2100054,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.3875",
 		num_1 = 1,
@@ -210227,6 +212508,7 @@ pg.chapter_template = {
 		pre_chapter = 2100055,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.430208333",
 		num_1 = 1,
@@ -210847,6 +213129,7 @@ pg.chapter_template = {
 		pre_chapter = 2100056,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.076041667",
 		num_1 = 1,
@@ -211522,6 +213805,7 @@ pg.chapter_template = {
 		pre_chapter = 2100057,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.254166667",
 		num_1 = 1,
@@ -212353,6 +214637,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		num_1 = 1,
@@ -212935,6 +215220,7 @@ pg.chapter_template = {
 		pre_chapter = 2100061,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		num_1 = 1,
@@ -213575,6 +215861,7 @@ pg.chapter_template = {
 		pre_chapter = 2100062,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		num_1 = 1,
@@ -214306,6 +216593,7 @@ pg.chapter_template = {
 		pre_chapter = 2100063,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		num_1 = 1,
@@ -214975,6 +217263,7 @@ pg.chapter_template = {
 		pre_chapter = 2100064,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		num_1 = 1,
@@ -215785,6 +218074,7 @@ pg.chapter_template = {
 		pre_chapter = 2100065,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		num_1 = 1,
@@ -216774,6 +219064,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.392708333",
 		num_1 = 1,
@@ -217397,6 +219688,7 @@ pg.chapter_template = {
 		pre_chapter = 2100071,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		num_1 = 1,
@@ -218078,6 +220370,7 @@ pg.chapter_template = {
 		pre_chapter = 2100072,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.344791667",
 		num_1 = 1,
@@ -218850,6 +221143,7 @@ pg.chapter_template = {
 		pre_chapter = 2100073,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.227083333",
 		num_1 = 1,
@@ -219560,6 +221854,7 @@ pg.chapter_template = {
 		pre_chapter = 2100074,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.052083333",
 		num_1 = 1,
@@ -220411,6 +222706,7 @@ pg.chapter_template = {
 		pre_chapter = 2100075,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.383333333",
 		num_1 = 1,
@@ -221441,6 +223737,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.43125",
 		num_1 = 1,
@@ -221848,6 +224145,7 @@ pg.chapter_template = {
 		pre_chapter = 2200001,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.294791667",
 		num_1 = 1,
@@ -222330,6 +224628,7 @@ pg.chapter_template = {
 		pre_chapter = 2200002,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.080208333",
 		num_1 = 1,
@@ -222842,6 +225141,7 @@ pg.chapter_template = {
 		pre_chapter = 0,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.313541667",
 		num_1 = 1,
@@ -223423,6 +225723,7 @@ pg.chapter_template = {
 		pre_chapter = 2200011,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.079166667",
 		num_1 = 1,
@@ -224103,6 +226404,7 @@ pg.chapter_template = {
 		pre_chapter = 2200012,
 		chapter_tag = 0,
 		pop_pic = "",
+		wall_prefab = "",
 		star_require_1 = 1,
 		pos_y = "0.373958333",
 		num_1 = 1,
@@ -225119,6 +227421,9 @@ pg.chapter_template = {
 		1340015,
 		1340016,
 		1340021,
+		1350001,
+		1350002,
+		1350003,
 		2100001,
 		2100002,
 		2100003,
