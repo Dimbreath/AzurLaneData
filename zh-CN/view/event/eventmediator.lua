@@ -13,14 +13,16 @@ function slot0.register(slot0)
 			flags = slot0.contextData.flags or {},
 			callback = function (slot0)
 				for slot4, slot5 in ipairs(slot0) do
-					slot7, slot8 = Ship.ShipStateConflict("inEvent", slot6)
+					if slot0[slot5] then
+						slot7, slot8 = Ship.ShipStateConflict("inEvent", slot6)
 
-					if slot7 == Ship.STATE_CHANGE_FAIL then
-						slot1 = true
-					elseif slot7 == Ship.STATE_CHANGE_CHECK then
-						slot2 = true
-					else
-						table.insert(slot3, slot5)
+						if slot7 == Ship.STATE_CHANGE_FAIL then
+							slot1 = true
+						elseif slot7 == Ship.STATE_CHANGE_CHECK then
+							slot2 = true
+						else
+							table.insert(slot3, slot5)
+						end
 					end
 				end
 
@@ -83,31 +85,8 @@ function slot0.register(slot0)
 			blackBlockShipIds = slot2:GetBlackBlockShipIDsForEvent()
 		})
 	end)
-	slot0:bind(EventConst.EVENT_FLUSH, function (slot0)
-		if EventConst.MaxFlushTimes <= getProxy(EventProxy).flushTimes then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("event_flush_not_enough"))
-		else
-			slot2 = false
-
-			for slot6, slot7 in ipairs(slot1.eventList) do
-				if slot7.state ~= EventInfo.StateNone then
-					slot2 = true
-
-					break
-				end
-			end
-
-			if slot2 then
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("event_confirm_flush"),
-					onYes = function ()
-						slot0:sendNotification(GAME.EVENT_FLUSH)
-					end
-				})
-			else
-				slot0:sendNotification(GAME.EVENT_FLUSH)
-			end
-		end
+	slot0:bind(EventConst.EVENT_FLUSH_NIGHT, function (slot0)
+		slot0:sendNotification(GAME.EVENT_FLUSH_NIGHT)
 	end)
 	slot0:bind(EventConst.EVENT_START, function (slot0, slot1)
 		slot2 = getProxy(EventProxy)
@@ -173,8 +152,7 @@ end
 function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.EVENT_LIST_UPDATE,
-		GAME.EVENT_SHOW_AWARDS,
-		EventProxy.EVENT_FLUSHTIMES_UPDATED
+		GAME.EVENT_SHOW_AWARDS
 	}
 end
 
@@ -183,34 +161,24 @@ function slot0.handleNotification(slot0, slot1)
 
 	if slot1:getName() == GAME.EVENT_LIST_UPDATE then
 		slot0:updateEventList(true)
-	else
-		if slot2 == GAME.EVENT_SHOW_AWARDS then
-			slot4 = nil
+	elseif slot2 == GAME.EVENT_SHOW_AWARDS then
+		slot4 = nil
 
 
-			-- Decompilation error in this vicinity:
-			coroutine.wrap(function ()
-				if #slot0.oldShips > 0 then
-					slot1.viewComponent:emit(BaseUI.ON_SHIP_EXP, {
-						title = pg.collection_template[slot0.eventId].title,
-						oldShips = slot0.oldShips,
-						newShips = slot0.newShips,
-						isCri = slot0.isCri
-					}, )
-					coroutine.yield()
-				end
+		-- Decompilation error in this vicinity:
+		coroutine.wrap(function ()
+			if #slot0.oldShips > 0 then
+				slot1.viewComponent:emit(BaseUI.ON_SHIP_EXP, {
+					title = pg.collection_template[slot0.eventId].title,
+					oldShips = slot0.oldShips,
+					newShips = slot0.newShips,
+					isCri = slot0.isCri
+				}, )
+				coroutine.yield()
+			end
 
-				slot1.viewComponent:emit(BaseUI.ON_ACHIEVE, slot0.awards)
-			end)()
-
-			return
-		end
-
-		if EventProxy.EVENT_FLUSHTIMES_UPDATED == slot2 then
-			slot4 = getProxy(EventProxy)
-
-			slot0.viewComponent:updateFlushTimes(getProxy(EventProxy))
-		end
+			slot1.viewComponent:emit(BaseUI.ON_ACHIEVE, slot0.awards)
+		end)()
 	end
 end
 

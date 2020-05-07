@@ -196,7 +196,7 @@ class("PrepControllerCommand", pm.SimpleCommand).execute = function (slot0, slot
 	slot0.facade:registerCommand(GAME.COLLECT_GET_AWARD, CollectionGetAwardCommand)
 	slot0.facade:registerCommand(GAME.TROPHY_CLAIM, TrophyClaimCommand)
 	slot0.facade:registerCommand(GAME.EVENT_FINISH, EventFinishCommand)
-	slot0.facade:registerCommand(GAME.EVENT_FLUSH, EventFlushCommand)
+	slot0.facade:registerCommand(GAME.EVENT_FLUSH_NIGHT, EventFlushCommand)
 	slot0.facade:registerCommand(GAME.EVENT_START, EventStartCommand)
 	slot0.facade:registerCommand(GAME.EVENT_GIVEUP, EventGiveUpCommand)
 	slot0.facade:registerCommand(GAME.ACTIVITY_OPERATION, ActivityOperationCommand)

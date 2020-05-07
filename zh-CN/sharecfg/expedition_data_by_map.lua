@@ -6534,6 +6534,47 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[1350001] = {
+		map = 1350001,
+		name = "夜色下的归途|| ||CHAPTER SP||S.P.",
+		bgm = "story-french1",
+		type = 3,
+		on_activity = 571,
+		title = "SP",
+		drop_by_map_display = "",
+		enter_story = "",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "",
+		bg = "Map_1310001",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『红染的参访者』-前篇|| ||CHAPTER EX||E.X.",
@@ -7391,6 +7432,7 @@ pg.expedition_data_by_map = {
 		1340011,
 		1340012,
 		1340021,
+		1350001,
 		2100000,
 		2100001,
 		2100010,

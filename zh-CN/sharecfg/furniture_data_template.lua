@@ -4673,7 +4673,7 @@ pg.furniture_data_template = {
 		advice = 0,
 		describe = "准备好收下这份激动人心的礼物了吗~？ ",
 		count = 1,
-		type = 7,
+		type = 13,
 		dir = 0,
 		dorm_id = 0,
 		name = "「惊喜」礼物 ",
@@ -4706,18 +4706,47 @@ pg.furniture_data_template = {
 		spine = {
 			{
 				"yurenheB",
-				"normal",
-				{
-					"action1",
-					false,
-					{
-						"action2",
-						"action3"
-					}
-				}
+				"normal"
 			},
 			{
 				"yurenheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"action1",
+						"yurenheCharControl",
+						"sit"
+					},
+					{
+						"action2",
+						"yurenheCharControl2",
+						"sit"
+					},
+					{
+						"action3",
+						"yurenheCharControl",
+						"sit"
+					}
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		animator = {
+			{
+				"yurenheCharControl",
+				"yurenheCharControl2"
 			}
 		},
 		interAction_group = {}

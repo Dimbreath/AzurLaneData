@@ -618,7 +618,7 @@ function slot0.register(slot0)
 
 	if slot0.contextData.targetChapter and slot0.contextData.targetMap then
 		slot0.contextData.openChapterId = slot0.contextData.targetChapter
-		slot18 = slot0.contextData.targetMap
+		slot18 = slot0.contextData.targetMap.id
 		slot0.contextData.targetChapter = nil
 		slot0.contextData.targetMap = nil
 	elseif slot0.contextData.eliteDefault then

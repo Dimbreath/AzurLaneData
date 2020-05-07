@@ -1,8 +1,7 @@
 class("EventStartCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot4 = slot1:getBody().shipIds
-	slot7 = pg.TimeMgr.GetInstance():GetServerTime()
 
-	if getProxy(EventProxy).findInfoById(slot5, slot3).overTime > 0 and slot6.overTime < slot7 then
+	if getProxy(EventProxy).findInfoById(slot5, slot3):GetCountDownTime() and slot7 < 0 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("event_over_time_expired"))
 
 		return
