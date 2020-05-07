@@ -169,6 +169,7 @@ pg.month_shop_template = {
 		core_shop_goods = {
 			10032,
 			10033,
+			10036,
 			10041,
 			10042,
 			10030,
