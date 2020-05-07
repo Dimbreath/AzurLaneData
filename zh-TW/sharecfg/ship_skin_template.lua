@@ -31348,6 +31348,115 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[301240] = {
+		name = "{namecode:129}",
+		ship_group = 30124,
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "{namecode:30}級驅逐艦四番艦—{namecode:129}",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "chushuang",
+		no_showing = "0",
+		air_bullet_skin = "",
+		bg_sp = "",
+		shop_type_id = 0,
+		hand_id = 14,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		bg = "",
+		skin_type = -1,
+		id = 301240,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "chushuang",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.02,
+					0.7,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.04,
+					0.72,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.25,
+					0.11,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.1,
+					0.72,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.52,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301260] = {
 		name = "{namecode:32}",
 		ship_group = 30126,
@@ -60599,6 +60708,9 @@ pg.ship_skin_template = {
 			301261,
 			301262
 		},
+		[30124] = {
+			301240
+		},
 		[30123] = {
 			301230
 		},
@@ -61468,6 +61580,7 @@ pg.ship_skin_template = {
 		301200,
 		301210,
 		301230,
+		301240,
 		301260,
 		301261,
 		301262,
