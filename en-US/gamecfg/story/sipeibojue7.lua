@@ -11,18 +11,17 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港湾\n\n<size=45>七　温暖</size>",
+					"One Little Incident\n\n<size=45>Chapter 7: Warmth</size>",
 					1
 				}
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "早晨·指挥室",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +50,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼哼，看到了吗，仆人，我的妹妹是如此可爱！",
+			say = "Hahahaha! Gaze upon my sister's cuteness!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +66,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐、姐姐……",
+			say = "D-Deutschland...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +82,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然我觉得胜负已定，不过，姑且换上仆人给你准备的衣服试试吧！",
+			say = "Hah, I think it's already been settled, but if you want to be put to further shame, we can show her what you chose!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +114,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可、可恶……区区仆人，没想到品味还不错。",
+			say = "W-well... This is quite a good find, for a lowly animal...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +130,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "哼，但、但是，我觉得还是没有我选的那件好！",
+			say = "No matter, though! M-my selection will win out in the end!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +156,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，选择权在你手上，妹妹！",
+			say = "Now, Spee! Make your choice!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +172,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "选吧！究竟你更喜欢哪一件！",
+			say = "Decide which one is better!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +186,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "说实话……我根本不知道该说些什么，从刚才起，就是姐姐在推着我换衣服。",
+			say = "Truthfully, I'm so confused by this that I can't even see how I look in the mirror very clearly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +200,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "我的脑海中一片混沌，失去重量的手连怎么放都不清楚。",
+			say = "But even if I could, there's no way I could make a sound call on which one looks better.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +214,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "指挥官这时，走到了我身边。",
+			say = "What am I supposed to do here...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +244,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官准备的衣服……其实是阿贾克斯做的参谋……吗",
+			say = "\"Don't overthink it, just answer honestly\"...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +258,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "指挥官只说了这一句话，就回到了德意志身边。",
+			say = "The Commander walked over and whispered that into my ear, then went back to Deutschland.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +274,7 @@ return {
 			dir = 1,
 			actor = 403040,
 			nameColor = "#a9f548",
-			say = "喂，仆人，你和妹妹说了什么！你可别想作弊！",
+			say = "Hey, you lowly animal! What are you whispering to her for?! You're not allowed to influence her decision!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +300,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "妹妹，我可是相信你的，你一定要做出公正的决断！",
+			say = "Spee, just pick the one you like! I believe in you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +316,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………",
+			say = "...Heh... hehehehe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +332,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，欸，喂，你怎么突然哭了！",
+			say = "S-Spee? What's the matter?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +348,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "仆人，你刚才到底和我妹妹说了什么，竟然弄哭了她，我要把你轰出港口喂鲨鱼！",
+			say = "I swear, slave! If you whispered something to her that made her cry, I'm going to feed you to the sharks!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +364,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不、不是的，姐姐……",
+			say = "That's not it, Deutschland. I just realized the Commander didn't choose these clothes, because they're the same ones Ajax talked about the other day..",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +378,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "原来如此，我想要的……原来只是这么简单的东西。",
+			say = "That's right. There wasn't an ounce of unease inside me to begin with.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +392,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "我的不安，我的疑虑，我的恐惧，其实只要轻轻一戳，就能破掉。",
+			say = "Who would've thought my minor concern could be solved this easily?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +406,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "只要有人告诉我，我是被关心着的，有人愿意和我交朋友……",
+			say = "Just with the help of my allies, friends, and people who are precious to me. This port and this fleet are where I belong.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +422,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐，指挥官，我可以两件都要吗？我都喜欢。",
+			say = "Is it okay to say that I like both equally?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +438,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊？没想到你这孩子还挺贪心。",
+			say = "*sigh*... I predicted you might say that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +454,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过本来也都是要给你的就是了，只是要和这个蠢仆人比出高下而已。",
+			say = "That's fine. This all boils down to a silly ego battle with this lowly animal anyway. If that's what you say, then it's fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +470,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，这次看在妹妹的眼泪份上就算平手了，仆人，我们下次再来比过！",
+			say = "However! I'm only allowing this in deference to Spee! One day, I will prove that the great Deutschland's fashion sense is better than yours, slave!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +484,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "指挥官，有些坏心眼的阿贾克斯，德意志姐姐，还有铁血的、舰队的大家——",
+			say = "The Commander. The bully, Ajax. My sisters in the Deutschland class. My friends in the Iron Blood, and in the fleet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +498,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "为了守护这些重要的人事物而战，并不代表自己除了战斗一无所有",
+			say = "Even if I fight to protect them, that doesn't mean fighting is all there is to it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +513,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "没错，我的愿望，只是“想像这样，和大家一直在一起”而已——",
+			say = "Because my dream, my desire, is to always be here, with everyone I hold dear...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

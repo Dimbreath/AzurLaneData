@@ -32031,6 +32031,109 @@ pg.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[13230] = {
+		desc_get = "",
+		name = "Arbiter of Z",
+		desc = "At the start of the battle, if there is an Iris Libre or Vichya Dominion CL or CA in your fleet: increases this ship's FP and EVA by $1 and increases FP and AA by $2 for all your Iris Libre and Vichya Dominion CLs and CAs.",
+		type = 3,
+		max_level = 10,
+		id = 13230,
+		system_transform = {},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shells 194/160+",
@@ -36471,6 +36574,28 @@ pg.skill_data_template = {
 		type = 1,
 		max_level = 1,
 		id = 28022,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[28031] = {
+		desc_get = "",
+		name = "All Out Assault Ⅰ",
+		desc = "Activates All Out Assault Ⅰ: Vauquelin-class once every 15 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 28031,
+		system_transform = {},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[28032] = {
+		desc_get = "",
+		name = "All Out Assault Ⅱ",
+		desc = "Activates All Out Assault Ⅱ: Vauquelin-class once every 10 times the Main Guns are fired.",
+		type = 1,
+		max_level = 1,
+		id = 28032,
 		system_transform = {},
 		desc_get_add = {},
 		desc_add = {}
@@ -41193,6 +41318,7 @@ pg.skill_data_template = {
 		13200,
 		13210,
 		13220,
+		13230,
 		18010,
 		18040,
 		18050,
@@ -41403,6 +41529,8 @@ pg.skill_data_template = {
 		28012,
 		28021,
 		28022,
+		28031,
+		28032,
 		28111,
 		28112,
 		29011,

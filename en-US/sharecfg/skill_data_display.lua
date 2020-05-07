@@ -2560,6 +2560,10 @@ pg.skill_data_display = {
 		id = 13220,
 		name = "Crush Any Contender! "
 	},
+	[13230] = {
+		id = 13230,
+		name = "Arbiter of Z "
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+ "
@@ -3498,6 +3502,14 @@ pg.skill_data_display = {
 	},
 	[28022] = {
 		id = 28022,
+		name = "All Out Assault Ⅱ"
+	},
+	[28031] = {
+		id = 28031,
+		name = "All Out Assault Ⅰ"
+	},
+	[28032] = {
+		id = 28032,
 		name = "All Out Assault Ⅱ"
 	},
 	[28111] = {
@@ -4809,6 +4821,7 @@ pg.skill_data_display = {
 		13203,
 		13210,
 		13220,
+		13230,
 		18010,
 		18040,
 		18041,
@@ -5044,6 +5057,8 @@ pg.skill_data_display = {
 		28012,
 		28021,
 		28022,
+		28031,
+		28032,
 		28111,
 		28112,
 		29011,

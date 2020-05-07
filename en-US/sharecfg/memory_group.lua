@@ -1396,6 +1396,23 @@ pg.memory_group = {
 			1190
 		}
 	},
+	[185] = {
+		title = "The Way Home in the Dark ",
+		type = 2,
+		id = 185,
+		icon = "title_event",
+		memories = {
+			1211,
+			1212,
+			1213,
+			1214,
+			1215,
+			1216,
+			1217,
+			1218,
+			1219
+		}
+	},
 	[501] = {
 		title = "{namecode:98}'s Commission",
 		type = 3,
@@ -1979,6 +1996,21 @@ pg.memory_group = {
 			676
 		}
 	},
+	[542] = {
+		title = "One Little Incident ",
+		type = 3,
+		id = 542,
+		icon = "title_chara_sipei",
+		memories = {
+			768,
+			769,
+			770,
+			771,
+			772,
+			773,
+			774
+		}
+	},
 	[543] = {
 		title = "Another Leader?",
 		type = 3,
@@ -2149,6 +2181,7 @@ pg.memory_group = {
 		182,
 		183,
 		184,
+		185,
 		501,
 		502,
 		503,
@@ -2187,6 +2220,7 @@ pg.memory_group = {
 		537,
 		538,
 		539,
+		542,
 		543,
 		544,
 		545,

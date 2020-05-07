@@ -120,10 +120,6 @@ slot1 = {
 		className = "XixueguiSkinPage",
 		uiName = "xixueguiskinpage"
 	},
-	[ActivityConst.FIRSTANNIVERSARY_ID] = {
-		className = "AnniversaryPage",
-		uiName = "anniversarypage"
-	},
 	[ActivityConst.WUDAOLOGIN_ID] = {
 		className = "WudaoLoginPage",
 		uiName = "wudaologinpage"
@@ -499,6 +495,14 @@ slot1 = {
 	[ActivityConst.LITTLE_RENOWN_PAGE] = {
 		className = "LittleRenownPage",
 		uiName = "LittleRenownPage"
+	},
+	[ActivityConst.TWXIAOBEIFA_ID] = {
+		className = "XiaobeiFaPage",
+		uiName = "XiaobeiFaPage"
+	},
+	[ActivityConst.FRANCE_SP] = {
+		className = "FranceSpPage",
+		uiName = "FranceSpPage"
 	}
 }
 slot2 = {
