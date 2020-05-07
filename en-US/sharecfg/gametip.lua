@@ -7585,7 +7585,7 @@ There are no Lectures on Sundays, but you will earn double the amount of Profici
 		key = "level_risk_level_desc"
 	},
 	level_risk_level_mitigation_rate = {
-		tip = "<size=24>Threat Level Evaluation:<color=#92fc63>【$1】</color>\nDamage reduction received when sortieing: <color=#92fc63>$2%</color></size> ",
+		tip = "<size=28>Threat Level Evaluation:<color=#92fc63>【$1】</color>\nDamage reduction received when sortieing: <color=#92fc63>$2%</color></size> ",
 		key = "level_risk_level_mitigation_rate"
 	},
 	level_diffcult_chapter_state_safety = {
@@ -8110,12 +8110,6 @@ Updating the Research Project list
 					atlas = "helpbg/technologytree2"
 				}
 			},
-			{
-				icon = {
-					path = "",
-					atlas = "helpbg/blueprint_dev"
-				}
-			},
 			disableScroll = true,
 			pageMode = true,
 			defaultpage = 2,
@@ -8128,7 +8122,7 @@ Updating the Research Project list
 				y = -70
 			},
 			helpSize = {
-				x = 1255,
+				x = 1176,
 				y = 1024
 			}
 		}
@@ -8866,7 +8860,7 @@ Combat Details:
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "Tosa, Amagi, Hanazuki, Naganami are now available in limited construction! ",
+		tip = "Tartu Rate UP! ",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {

@@ -100,7 +100,7 @@ pg.ship_data_create_material = {
 	},
 	{
 		use_gold = 1500,
-		name = "Limited Build – Light",
+		name = "Wishing Well - Special",
 		build_anim = "building",
 		type = 2,
 		ship_icon = "1",
@@ -112,13 +112,13 @@ pg.ship_data_create_material = {
 		rate_tip = {
 			"<color=#ffde38>Super Rare</color>：7%",
 			"<color=#d797ff>Elite</color>：12%",
-			"<color=#3dc6ff>Rare</color>：26%",
-			"Common：55%"
+			"<color=#3dc6ff>Rare</color>：51%",
+			"Common：30%"
 		}
 	},
 	{
 		use_gold = 600,
-		name = "Wishing Well - Special",
+		name = "Wishing Well – Light",
 		build_anim = "building",
 		type = 2,
 		ship_icon = "2",
@@ -130,13 +130,13 @@ pg.ship_data_create_material = {
 		rate_tip = {
 			"<color=#ffde38>Super Rare</color>：7%",
 			"<color=#d797ff>Elite</color>：12%",
-			"<color=#3dc6ff>Rare</color>：51%",
-			"Common：30%"
+			"<color=#3dc6ff>Rare</color>：26%",
+			"Common：55%"
 		}
 	},
 	{
 		use_gold = 1500,
-		name = "Wishing Well – Light",
+		name = "Wishing Well - Heavy",
 		build_anim = "building",
 		type = 2,
 		ship_icon = "3",
@@ -148,13 +148,13 @@ pg.ship_data_create_material = {
 		rate_tip = {
 			"<color=#ffde38>Super Rare</color>：7%",
 			"<color=#d797ff>Elite</color>：12%",
-			"<color=#3dc6ff>Rare</color>：26%",
-			"Common：55%"
+			"<color=#3dc6ff>Rare</color>：51%",
+			"Common：30%"
 		}
 	},
 	{
 		use_gold = 600,
-		name = "Wishing Well - Heavy",
+		name = "Limited Build – Light",
 		build_anim = "building",
 		type = 2,
 		ship_icon = "2",
@@ -166,8 +166,9 @@ pg.ship_data_create_material = {
 		rate_tip = {
 			"<color=#ffde38>Super Rare</color>：7%",
 			"<color=#d797ff>Elite</color>：12%",
-			"<color=#3dc6ff>Rare</color>：51%",
-			"Common：30%"
+			"<color=#3dc6ff>Rare</color>：26%",
+			"Common：55%",
+			"<color=#d797ff>Tartu</color>：1.4%(<color=#92fc63>up!</color>)"
 		}
 	},
 	all = {

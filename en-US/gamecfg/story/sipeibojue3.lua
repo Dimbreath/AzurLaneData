@@ -11,19 +11,19 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>“有人与你一同出航，有人与你并肩战斗”</size>",
+					"<size=51>\"If you had allies who'd sortie with you and watch your back...\"</size>",
 					1.5
 				},
 				{
-					"<size=51>“有人在胜利之后一起庆祝——”</size>",
+					"<size=51>\"If they'd make merry together with you at celebratory banquets after a victory...\"</size>",
 					3
 				},
 				{
-					"<size=51>“即便是失败，只要有能彼此安慰的伙伴”</size>",
+					"<size=51>\"If they'd comfort you at review meetings after a loss...\"</size>",
 					4.5
 				},
 				{
-					"<size=51>“你就不会感到那么孤独了吧”</size>",
+					"<size=51>\"Then I'm certain that you'd feel lonely much less often.\"</size>",
 					6
 				}
 			}
@@ -33,7 +33,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港湾\n\n<size=45>三　战友</size>",
+					"One Little Incident\n\n<size=45>Chapter 3: Comrades in Arms</size>",
 					1
 				}
 			}
@@ -44,7 +44,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
-			say = "港区·演习海域",
+			say = "Port - Exercise Area",
 			effects = {
 				{
 					active = false,
@@ -79,7 +79,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天就到这里吧。",
+			say = "Let's end here for today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊？这就结束了？我的主炮还没热起来呢！",
+			say = "Say again? We're done already? But my main guns are only just starting to heat up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有干劲是件好事，但是申请的演习海域使用时间已经到了，还是说你要妨碍指挥官的安排吗？",
+			say = "It's great that you're this motivated, but it's past the time we're allowed to use the exercise area... Surely you're not planning on having your way while messing up the Commander's plans, are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "斯佩身为秘书舰，应该是清楚的吧。",
+			say = "I believe that the secretary, Spee, is aware of this as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯。虽然还想和两位继续训练，不过今天就到此为止吧。",
+			say = "Yep. To be honest, I wanted to battle a little more too, but let's wrap it up here for today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "早知道今天干劲这么足就多申请点时间了……",
+			say = "What a waste, I'm in top condition today... We should've booked a longer pass.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "与沙恩姐妹一同训练已经成为了每周的必修课",
+			say = "By the way, I do joint exercises with the Scharnhorst sisters every week.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "不只是训练，实战也——",
+			say = "Not only that, but we cover each other during real battles as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "……",
+			say = "...Alright.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "不知道她们两位有没有什么“愿望”？",
+			say = "Maybe my battle buddies would know what the Commander really meant by \"what you want to do.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "对了，借这个机会，正好问一下她们的想法，作为一个参考——",
+			say = "Scharnhorst or Gneisenau, who would be better to ask...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,11 +240,11 @@ return {
 			},
 			options = {
 				{
-					content = "问沙恩霍斯特",
+					content = "Ask Scharnhorst",
 					flag = 1
 				},
 				{
-					content = "问格奈森瑙",
+					content = "Ask Gneisenau",
 					flag = 2
 				}
 			}
@@ -256,7 +256,7 @@ return {
 			optionFlag = 1,
 			actor = 404010,
 			nameColor = "#a9f548",
-			say = "我的“愿望”？",
+			say = "What I want to do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			optionFlag = 1,
 			actor = 404010,
 			nameColor = "#a9f548",
-			say = "当然是变得更强，击败更多的敌人！",
+			say = "Would you be surprised if I told you I wanna get stronger and defeat even fiercer enemies?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			optionFlag = 1,
 			actor = 404010,
 			nameColor = "#a9f548",
-			say = "不管遇到什么样的敌人，我都不会后退！",
+			say = "Never step down, no matter who you're dealing with – that's my style.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			optionFlag = 1,
-			say = "得到了很有沙恩霍斯特小姐风格的回答。",
+			say = "Yep. That's definitely something you'd say.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			optionFlag = 2,
 			actor = 404020,
 			nameColor = "#a9f548",
-			say = "我的“愿望”吗……真是个不错的问题呢。",
+			say = "\"What I want to do\"... That's a good question.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			optionFlag = 2,
 			actor = 404020,
 			nameColor = "#a9f548",
-			say = "目前的话应该就是更好地辅佐指挥官，以及在关键的时候能够阻止暴走的姐姐吧。",
+			say = "At present, my goals are to be of assistance to the Commander, and to keep my reckless sister in check.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			optionFlag = 2,
-			say = "确实像是格奈森瑙小姐会有的想法。",
+			say = "That's definitely an answer I'd expect from you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那斯佩你呢？你的“愿望”又是什么呢？",
+			say = "Since you asked, Spee, what do you want to do? Do you have any dreams?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,6 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +401,7 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我…没有什么特别想做的事情，只要待在这里我就很满足了。",
+			say = "I... There's nothing in particular that I want to do. As long as I'm allowed to stay here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +415,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "是啊，只要在这里，和大家在一起，不再像那个时候孤身一人，我就……",
+			say = "Yeah... As long as I'm surrounded by people I know and not all alone, like back then, I'll be fine...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +429,7 @@ return {
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +444,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,
-			say = "为什么，我会想起“那个时候”呢？",
+			say = "Why did I end up remembering that time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

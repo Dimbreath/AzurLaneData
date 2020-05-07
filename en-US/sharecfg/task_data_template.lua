@@ -16810,6 +16810,262 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[5441] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5324,
+		type = 5,
+		name = "Her Wish",
+		count_inherit = 0,
+		desc = "Acquire 3 \"Torpedo Tempura\" (will be automatically consumed.)",
+		target_id_2 = "",
+		sub_type = 1000,
+		added_tip = 1,
+		story_icon = "sipeibojue",
+		award_choice = "",
+		level = 1,
+		next_task = "5442",
+		visibility = 1,
+		story_id = "SIPEIBOJUE1",
+		target_id_for_client = 50003,
+		id = 5441,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "50003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	},
+	[5442] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5325,
+		type = 5,
+		name = "A Chance Encounter",
+		count_inherit = 0,
+		desc = "Enhance any character 10 times.",
+		target_id_2 = "",
+		sub_type = 34,
+		added_tip = 1,
+		story_icon = "sipeibojue",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5443",
+		visibility = 1,
+		story_id = "SIPEIBOJUE2",
+		target_id_for_client = 0,
+		id = 5442,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "0",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5443] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5326,
+		type = 5,
+		name = "Comrades in Arms",
+		count_inherit = 0,
+		desc = "Sortie and obtain 20 victories with Admiral Graf Spee in the fleet.",
+		target_id_2 = "",
+		sub_type = 18,
+		added_tip = 1,
+		story_icon = "sipeibojue",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5444",
+		visibility = 1,
+		story_id = "SIPEIBOJUE3",
+		target_id_for_client = 40305,
+		id = 5443,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "40305",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5444] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5327,
+		type = 5,
+		name = "Allies",
+		count_inherit = 0,
+		desc = "Complete 3 Daily Challenges with Admiral Graf Spee in the fleet.",
+		target_id_2 = "",
+		sub_type = 19,
+		added_tip = 1,
+		story_icon = "sipeibojue",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5445",
+		visibility = 1,
+		story_id = "SIPEIBOJUE4",
+		target_id_for_client = 40305,
+		id = 5444,
+		target_num = 3,
+		fix_task = 0,
+		target_id = "40305",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	},
+	[5445] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5328,
+		type = 5,
+		name = "Loneliness",
+		count_inherit = 0,
+		desc = "Reach 100 Affinity with Admiral Graf Spee.",
+		target_id_2 = "",
+		sub_type = 1012,
+		added_tip = 1,
+		story_icon = "sipeibojue",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5446",
+		visibility = 1,
+		story_id = "SIPEIBOJUE5",
+		target_id_for_client = 40305,
+		id = 5445,
+		target_num = 10000,
+		fix_task = 0,
+		target_id = "40305",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	},
+	[5446] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5329,
+		type = 5,
+		name = "Weight",
+		count_inherit = 0,
+		desc = "Fully Limit Break Admiral Graf Spee.",
+		target_id_2 = "",
+		sub_type = 35,
+		added_tip = 1,
+		story_icon = "sipeibojue",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "5447",
+		visibility = 1,
+		story_id = "SIPEIBOJUE6",
+		target_id_for_client = 403054,
+		id = 5446,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "403054",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	},
+	[5447] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 5330,
+		type = 5,
+		name = "Warmth",
+		count_inherit = 0,
+		desc = "Get Admiral Graf Spee to Level 100.",
+		target_id_2 = "",
+		sub_type = 1013,
+		added_tip = 1,
+		story_icon = "sipeibojue",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "SIPEIBOJUE7",
+		target_id_for_client = 40305,
+		id = 5447,
+		target_num = 100,
+		fix_task = 0,
+		target_id = "40305",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		}
+	},
 	[5451] = {
 		is_head = 0,
 		guild_coin_award = 0,
@@ -74820,6 +75076,364 @@ pg.task_data_template = {
 			}
 		}
 	},
+	[15565] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93006,
+		type = 6,
+		name = "『法系SP』通关SP1",
+		count_inherit = 0,
+		desc = "Clear SP1.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15566",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1350001,
+		id = 15565,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1350001",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[15566] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93007,
+		type = 6,
+		name = "『法系SP』通关SP2",
+		count_inherit = 0,
+		desc = "Clear SP2.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15567",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1350002,
+		id = 15566,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1350002",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	},
+	[15567] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93008,
+		type = 6,
+		name = "『法系SP』通关SP3",
+		count_inherit = 0,
+		desc = "Clear SP3.",
+		target_id_2 = "",
+		sub_type = 1020,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1350003,
+		id = 15567,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1350003",
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18003,
+				1
+			}
+		}
+	},
+	[15568] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93009,
+		type = 6,
+		name = "『法系SP』SP1的三星",
+		count_inherit = 0,
+		desc = "Complete SP1 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15569",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1350001,
+		id = 15568,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1350001",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[15569] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93010,
+		type = 6,
+		name = "『法系SP』SP2的三星",
+		count_inherit = 0,
+		desc = "Complete SP2 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "15570",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1350002,
+		id = 15569,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1350002",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		}
+	},
+	[15570] = {
+		is_head = 0,
+		guild_coin_award = 0,
+		award = 93011,
+		type = 6,
+		name = "『法系SP』SP3的三星",
+		count_inherit = 0,
+		desc = "Complete SP3 with 3 stars.",
+		target_id_2 = "",
+		sub_type = 1021,
+		added_tip = 0,
+		story_icon = "",
+		scene = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 1,
+		story_id = "",
+		target_id_for_client = 1350003,
+		id = 15570,
+		target_num = 1,
+		fix_task = 0,
+		target_id = "1350003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		}
+	},
+	[15571] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93012,
+		type = 6,
+		name = "『法系SP』SP3累计通关10次",
+		count_inherit = 0,
+		desc = "Clear SP3 10 times.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1350003,
+		id = 15571,
+		target_num = 10,
+		fix_task = 0,
+		target_id = "1350003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15572] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93013,
+		type = 6,
+		name = "『法系SP』SP3累计通关20次",
+		count_inherit = 0,
+		desc = "Clear SP3 20 times.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1350003,
+		id = 15572,
+		target_num = 20,
+		fix_task = 0,
+		target_id = "1350003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18002,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15573] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93014,
+		type = 6,
+		name = "『法系SP』SP3累计通关40次",
+		count_inherit = 0,
+		desc = "Clear SP3 40 times.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1350003,
+		id = 15573,
+		target_num = 40,
+		fix_task = 0,
+		target_id = "1350003",
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
+	[15574] = {
+		is_head = 1,
+		guild_coin_award = 0,
+		award = 93015,
+		type = 6,
+		name = "『法系SP』SP3累计通关60次",
+		count_inherit = 0,
+		desc = "Clear SP3 60 times.",
+		target_id_2 = "",
+		sub_type = 21,
+		added_tip = 0,
+		story_icon = "",
+		award_choice = "",
+		level = 1,
+		next_task = "0",
+		visibility = 0,
+		story_id = "",
+		target_id_for_client = 1350003,
+		id = 15574,
+		target_num = 60,
+		fix_task = 0,
+		target_id = "1350003",
+		open_need = {},
+		award_display = {
+			{
+				4,
+				901021,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP"
+		}
+	},
 	[31013] = {
 		is_head = 1,
 		guild_coin_award = 0,
@@ -83655,6 +84269,13 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		5415,
 		5416,
 		5417,
+		5441,
+		5442,
+		5443,
+		5444,
+		5445,
+		5446,
+		5447,
 		5451,
 		5452,
 		5453,
@@ -85242,6 +85863,16 @@ The first draft of the design is complete.<color=#797979>In order to verify to w
 		15562,
 		15563,
 		15564,
+		15565,
+		15566,
+		15567,
+		15568,
+		15569,
+		15570,
+		15571,
+		15572,
+		15573,
+		15574,
 		31013,
 		31014,
 		31015,

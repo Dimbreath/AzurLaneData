@@ -63161,6 +63161,47 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[78031] = {
+		name = "全弹发射-沃克兰级I",
+		type = 1,
+		nationality = 0,
+		speciality = "无",
+		range = 0,
+		angle = 0,
+		tech = 1,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "",
+		is_siren = 0,
+		rarity = 1,
+		descrip = "技能弹幕",
+		scatter = "0",
+		ammo = "无",
+		value_3 = 0,
+		id = 78031,
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		weapon_id = {
+			78031
+		},
+		skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	},
+	[78032] = {
+		id = 78032,
+		name = "全弹发射-沃克兰级II",
+		base = 78031,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			78032
+		},
+		property_rate = {}
+	},
 	[78111] = {
 		name = "全弹发射-埃米尔·贝尔汀I",
 		type = 1,
@@ -70443,6 +70484,82 @@ pg.equip_data_statistics = {
 		},
 		property_rate = {}
 	},
+	[90700] = {
+		name = "Single 138.6mm Main Gun (Mle 1927)",
+		type = 1,
+		id = 90700,
+		tech = 1,
+		speciality = "Lock",
+		range = 60,
+		scatter = "15°",
+		angle = 360,
+		value_2 = 5,
+		icon = "50700",
+		value_1 = "4 x 4",
+		attribute_2 = "cannon",
+		rarity = 2,
+		is_siren = 0,
+		nationality = 8,
+		ammo = "Normal",
+		descrip = "No description",
+		value_3 = 0,
+		attribute_1 = "damage",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {
+			1
+		},
+		weapon_id = {
+			90700
+		},
+		skill_id = {},
+		part_main = {
+			1
+		},
+		part_sub = {
+			4,
+			5
+		},
+		equip_parameters = {},
+		label = {
+			"FFNF",
+			"DD",
+			"MG"
+		}
+	},
+	[90701] = {
+		value_1 = "4 x 4",
+		id = 90701,
+		base = 90700,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90701
+		},
+		property_rate = {}
+	},
+	[90702] = {
+		value_1 = "5 x 4",
+		id = 90702,
+		base = 90700,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90702
+		},
+		property_rate = {}
+	},
+	[90703] = {
+		value_1 = "6 x 4",
+		id = 90703,
+		base = 90700,
+		is_siren = 0,
+		torpedo_ammo = 0,
+		weapon_id = {
+			90703
+		},
+		property_rate = {}
+	},
 	[95000] = {
 		name = "Triple 381mm Main Gun (M1934)",
 		type = 4,
@@ -77502,6 +77619,8 @@ pg.equip_data_statistics = {
 		78012,
 		78021,
 		78022,
+		78031,
+		78032,
 		78111,
 		78112,
 		79011,
@@ -77974,6 +78093,10 @@ pg.equip_data_statistics = {
 		90608,
 		90609,
 		90610,
+		90700,
+		90701,
+		90702,
+		90703,
 		95000,
 		95001,
 		95002,
