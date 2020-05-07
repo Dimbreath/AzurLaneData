@@ -6,6 +6,34 @@ slot2 = nil
 
 -- Decompilation error in this vicinity:
 function ()
+	slot0.A = {
+		U = {
+			R = {
+				O = {
+					R = {
+						A = {
+							this = true
+						}
+					}
+				}
+			}
+		},
+		u = {
+			r = {
+				o = {
+					r = {
+						a = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
 	slot0.T = {
 		o = {
 			r = {
@@ -15,6 +43,23 @@ function ()
 							o = {
 								this = true
 							}
+						}
+					}
+				}
+			}
+		}
+	}
+end()
+
+-- Decompilation error in this vicinity:
+function ()
+	slot0.a = {
+		u = {
+			r = {
+				o = {
+					r = {
+						a = {
+							this = true
 						}
 					}
 				}
