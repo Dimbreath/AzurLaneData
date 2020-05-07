@@ -8291,22 +8291,18 @@ $3]],
 			},
 			disableScroll = true,
 			pageMode = true,
-			defaultpage = 1,
+			defaultpage = 2,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 836,
-				y = 740
+				x = 1263,
+				y = 873
 			},
 			windowPos = {
-				y = 15
+				y = -70
 			},
 			helpSize = {
-				x = 836,
-				y = 660
+				x = 1176,
+				y = 1024
 			}
 		}
 	},
@@ -9092,7 +9088,7 @@ $3]],
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "{namecode:81}、{namecode:161}等角色出现概率UP！",
+		tip = "塔尔图 出现概率UP！",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {

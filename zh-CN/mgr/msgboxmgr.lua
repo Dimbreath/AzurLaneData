@@ -53,6 +53,8 @@ slot2 = 9
 MSGBOX_TYPE_OBTAIN = slot2
 slot2 = 10
 MSGBOX_TYPE_ITEMTIP = slot2
+slot2 = 11
+MSGBOX_TYPE_JUST_FOR_SHOW = slot2
 slot2 = false
 slot1.enable = slot2
 slot2 = require
@@ -1477,121 +1479,123 @@ function slot8(slot0, slot1)
 					else
 						slot11 = slot1.drop
 						slot11 = slot11.type
-						slot12 = DROP_TYPE_EQUIP
+						slot12 = DROP_TYPE_NPC_SHIP
 
 						if slot11 == slot12 then
+							slot12, slot13, slot14 = ShipWordHelper.GetWordAndCV(slot11, ShipWordHelper.WORD_TYPE_DROP, nil, PLATFORM_CODE ~= PLATFORM_US)
+							slot15 = setText
+							slot16 = slot2
+
+							if not slot14 then
+								slot17 = i18n
+								slot18 = "ship_drop_desc_default"
+								slot17 = slot17(slot18)
+							end
+
+							slot15(slot16, slot17)
 						else
 							slot11 = slot1.drop
 							slot11 = slot11.type
-							slot12 = DROP_TYPE_STRATEGY
+							slot12 = DROP_TYPE_EQUIP
 
 							if slot11 == slot12 then
-								slot11 = setText
-								slot12 = slot2
-								slot13 = slot1.drop
-								slot13 = slot13.cfg
-								slot13 = slot13.desc
-
-								slot11(slot12, slot13)
-
-								slot11 = slot1.extendDesc
-
-								if slot11 then
-									slot3 = slot3 + 1
-									slot11 = slot0.singleItemIntros
-									slot12 = slot0.singleItemIntros
-									slot12 = slot12[slot3]
-
-									if not slot12 then
-										slot12 = cloneTplTo
-										slot13 = slot0.singleItemIntro
-										slot14 = slot0.singleItemIntro
-										slot14 = slot14.parent
-										slot12 = slot12(slot13, slot14)
-									end
-
-									slot11[slot3] = slot12
-									slot11 = setText
-									slot12 = slot0.singleItemIntros
-									slot12 = slot12[slot3]
-									slot13 = slot1.extendDesc
-
-									slot11(slot12, slot13)
-								end
 							else
 								slot11 = slot1.drop
 								slot11 = slot11.type
-								slot12 = DROP_TYPE_SKIN
+								slot12 = DROP_TYPE_STRATEGY
 
 								if slot11 == slot12 then
 									slot11 = setText
 									slot12 = slot2
-									slot13 = HXSet
-									slot13 = slot13.hxLan
-									slot14 = slot1.drop
-									slot14 = slot14.cfg
-									slot14 = slot14.desc
+									slot13 = slot1.drop
+									slot13 = slot13.cfg
+									slot13 = slot13.desc
 
-									slot11(slot12, slot13(slot14))
+									slot11(slot12, slot13)
+
+									slot11 = slot1.extendDesc
+
+									if slot11 then
+										slot3 = slot3 + 1
+										slot11 = slot0.singleItemIntros
+										slot12 = slot0.singleItemIntros
+										slot12 = slot12[slot3]
+
+										if not slot12 then
+											slot12 = cloneTplTo
+											slot13 = slot0.singleItemIntro
+											slot14 = slot0.singleItemIntro
+											slot14 = slot14.parent
+											slot12 = slot12(slot13, slot14)
+										end
+
+										slot11[slot3] = slot12
+										slot11 = setText
+										slot12 = slot0.singleItemIntros
+										slot12 = slot12[slot3]
+										slot13 = slot1.extendDesc
+
+										slot11(slot12, slot13)
+									end
 								else
 									slot11 = slot1.drop
 									slot11 = slot11.type
-									slot12 = DROP_TYPE_EQUIPMENT_SKIN
+									slot12 = DROP_TYPE_SKIN
 
 									if slot11 == slot12 then
-										slot11 = slot1.drop
-										slot11 = slot11.cfg
-										slot11 = slot11.desc
-										slot12 = _
-										slot12 = slot12.map
-										slot13 = slot1.drop
-										slot13 = slot13.cfg
-										slot13 = slot13.equip_type
+										slot11 = setText
+										slot12 = slot2
+										slot13 = HXSet
+										slot13 = slot13.hxLan
+										slot14 = slot1.drop
+										slot14 = slot14.cfg
+										slot14 = slot14.desc
 
-										function slot14(slot0)
-											slot1 = EquipType
-											slot1 = slot1.Type2Name2
-											slot2 = slot0
-
-											return slot1(slot2)
-										end
-
-										slot12 = slot12(slot13, slot14)
-										slot13 = setText
-										slot14 = slot2
-										slot15 = slot11
-										slot16 = "\n\n"
-										slot17 = i18n
-										slot18 = "word_fit"
-										slot17 = slot17(slot18)
-										slot18 = ": "
-										slot19 = table
-										slot19 = slot19.concat
-										slot20 = slot12
-										slot21 = ","
-										slot19 = slot19(slot20, slot21)
-										slot15 = slot15 .. slot16 .. slot17 .. slot18 .. slot19
-
-										slot13(slot14, slot15)
+										slot11(slot12, slot13(slot14))
 									else
 										slot11 = slot1.drop
 										slot11 = slot11.type
-										slot12 = DROP_TYPE_VITEM
+										slot12 = DROP_TYPE_EQUIPMENT_SKIN
 
 										if slot11 == slot12 then
-											slot11 = setText
-											slot12 = slot2
-											slot13 = HXSet
-											slot13 = slot13.hxLan
-											slot14 = slot1.drop
-											slot14 = slot14.cfg
-											slot14 = slot14.display
+											slot11 = slot1.drop
+											slot11 = slot11.cfg
+											slot11 = slot11.desc
+											slot12 = _
+											slot12 = slot12.map
+											slot13 = slot1.drop
+											slot13 = slot13.cfg
+											slot13 = slot13.equip_type
 
-											slot11(slot12, slot13(slot14))
+											function slot14(slot0)
+												slot1 = EquipType
+												slot1 = slot1.Type2Name2
+												slot2 = slot0
+
+												return slot1(slot2)
+											end
+
+											slot12 = slot12(slot13, slot14)
+											slot13 = setText
+											slot14 = slot2
+											slot15 = slot11
+											slot16 = "\n\n"
+											slot17 = i18n
+											slot18 = "word_fit"
+											slot17 = slot17(slot18)
+											slot18 = ": "
+											slot19 = table
+											slot19 = slot19.concat
+											slot20 = slot12
+											slot21 = ","
+											slot19 = slot19(slot20, slot21)
+											slot15 = slot15 .. slot16 .. slot17 .. slot18 .. slot19
+
+											slot13(slot14, slot15)
 										else
 											slot11 = slot1.drop
 											slot11 = slot11.type
-											slot12 = DROP_TYPE_WORLD_ITEM
+											slot12 = DROP_TYPE_VITEM
 
 											if slot11 == slot12 then
 												slot11 = setText
@@ -1606,20 +1610,22 @@ function slot8(slot0, slot1)
 											else
 												slot11 = slot1.drop
 												slot11 = slot11.type
-												slot12 = DROP_TYPE_ICON_FRAME
+												slot12 = DROP_TYPE_WORLD_ITEM
 
 												if slot11 == slot12 then
 													slot11 = setText
 													slot12 = slot2
-													slot13 = slot1.drop
-													slot13 = slot13.cfg
-													slot13 = slot13.desc
+													slot13 = HXSet
+													slot13 = slot13.hxLan
+													slot14 = slot1.drop
+													slot14 = slot14.cfg
+													slot14 = slot14.display
 
-													slot11(slot12, slot13)
+													slot11(slot12, slot13(slot14))
 												else
 													slot11 = slot1.drop
 													slot11 = slot11.type
-													slot12 = DROP_TYPE_CHAT_FRAME
+													slot12 = DROP_TYPE_ICON_FRAME
 
 													if slot11 == slot12 then
 														slot11 = setText
@@ -1632,16 +1638,30 @@ function slot8(slot0, slot1)
 													else
 														slot11 = slot1.drop
 														slot11 = slot11.type
-														slot12 = DROP_TYPE_EMOJI
+														slot12 = DROP_TYPE_CHAT_FRAME
 
 														if slot11 == slot12 then
 															slot11 = setText
 															slot12 = slot2
 															slot13 = slot1.drop
 															slot13 = slot13.cfg
-															slot13 = slot13.item_desc
+															slot13 = slot13.desc
 
 															slot11(slot12, slot13)
+														else
+															slot11 = slot1.drop
+															slot11 = slot11.type
+															slot12 = DROP_TYPE_EMOJI
+
+															if slot11 == slot12 then
+																slot11 = setText
+																slot12 = slot2
+																slot13 = slot1.drop
+																slot13 = slot13.cfg
+																slot13 = slot13.item_desc
+
+																slot11(slot12, slot13)
+															end
 														end
 													end
 												end
@@ -6150,7 +6170,7 @@ function slot12(slot0, slot1)
 										if slot2 == slot3 then
 
 											-- Decompilation error in this vicinity:
-											--- BLOCK #0 91-99, warpins: 1 ---
+											--- BLOCK #0 91-100, warpins: 1 ---
 											slot4 = slot0
 											slot3 = slot0.GetPanel
 											slot5 = ItemTipPanel
@@ -6161,6 +6181,35 @@ function slot12(slot0, slot1)
 											slot6 = slot1
 
 											slot4(slot5, slot6)
+											--- END OF BLOCK #0 ---
+
+
+
+										else
+
+											-- Decompilation error in this vicinity:
+											--- BLOCK #0 101-103, warpins: 1 ---
+											slot3 = MSGBOX_TYPE_JUST_FOR_SHOW
+
+											if slot2 == slot3 then
+
+												-- Decompilation error in this vicinity:
+												--- BLOCK #0 104-112, warpins: 1 ---
+												slot4 = slot0
+												slot3 = slot0.GetPanel
+												slot5 = ItemShowPanel
+												slot3 = slot3(slot4, slot5)
+												slot4 = slot3.buffer
+												slot5 = slot4
+												slot4 = slot4.UpdateView
+												slot6 = slot1
+
+												slot4(slot5, slot6)
+												--- END OF BLOCK #0 ---
+
+
+
+											end
 											--- END OF BLOCK #0 ---
 
 
@@ -6219,7 +6268,7 @@ function slot12(slot0, slot1)
 
 
 	-- Decompilation error in this vicinity:
-	--- BLOCK #2 100-101, warpins: 11 ---
+	--- BLOCK #2 113-114, warpins: 12 ---
 	return
 	--- END OF BLOCK #2 ---
 

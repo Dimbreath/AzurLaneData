@@ -308,10 +308,9 @@ function slot2(slot0, slot1)
 		end
 
 		slot18 = slot14.inheritAngle
+		slot19 = slot14.reaim
 
-		function slot19(slot0, slot1, slot2, slot3)
-
-			-- Decompilation error in this vicinity:
+		function slot20(slot0, slot1, slot2, slot3)
 			slot4 = slot0
 			slot5 = slot4
 			slot4 = slot4.CreateBulletUnit
@@ -343,13 +342,74 @@ function slot2(slot0, slot1)
 
 			slot5 = slot5
 
-			slot4:SetRotateInfo(nil, slot5, slot2)
-			slot8.GetFactoryList()[slot4:GetTemplate().type]:CreateBullet(slot5:GetTf(), slot4, slot9:GetPosition())
+			if slot5 then
+				slot5 = slot6:GetYAngle() or slot7
+				slot6 = slot8
+
+				if slot6 then
+					slot6 = slot9
+					slot6 = slot6.Battle
+					slot6 = slot6.BattleTargetChoise
+					slot6 = slot6.TargetHarmNearest
+					slot7 = slot6
+					slot6 = slot6(slot7)
+					slot6 = slot6[1]
+
+					if slot6 == nil then
+						slot8 = slot4
+						slot7 = slot4.SetRotateInfo
+						slot9 = nil
+						slot10 = slot5
+						slot11 = slot2
+
+						slot7(slot8, slot9, slot10, slot11)
+					else
+						slot8 = slot4
+						slot7 = slot4.SetRotateInfo
+						slot10 = slot6
+						slot9 = slot6.GetCLDZCenterPosition
+						slot9 = slot9(slot10)
+						slot10 = slot5
+						slot11 = slot2
+
+						slot7(slot8, slot9, slot10, slot11)
+					end
+				else
+					slot7 = slot4
+					slot6 = slot4.SetRotateInfo
+					slot8 = nil
+					slot9 = slot5
+					slot10 = slot2
+
+					slot6(slot7, slot8, slot9, slot10)
+				end
+			end
+
+			slot6 = slot10
+			slot6 = slot6.GetFactoryList
+			slot6 = slot6()
+			slot8 = slot4
+			slot7 = slot4.GetTemplate
+			slot7 = slot7(slot8)
+			slot7 = slot7.type
+			slot6 = slot6[slot7]
+			slot8 = slot6
+			slot7 = slot6.CreateBullet
+			slot9 = slot11
+			slot10 = slot9
+			slot9 = slot9.GetTf
+			slot9 = slot9(slot10)
+			slot10 = slot4
+			slot11 = slot11
+			slot12 = slot11
+			slot11 = slot11.GetPosition
+
+			slot7(slot8, slot9, slot10, slot11(slot12))
 		end
 
-		slot20 = nil
+		slot21 = nil
 
-		function slot21()
+		function slot22()
 			slot0 = slot0
 			slot1 = slot0
 			slot0 = slot0.Destroy
@@ -379,35 +439,35 @@ function slot2(slot0, slot1)
 			end
 		end
 
-		slot22 = slot1
-		slot22 = slot22.Battle
-		slot22 = slot22[slot17]
-		slot22 = slot22.New
-		slot23 = slot19
+		slot23 = slot1
+		slot23 = slot23.Battle
+		slot23 = slot23[slot17]
+		slot23 = slot23.New
+		slot24 = slot20
+		slot25 = slot22
+		slot26 = slot15
+		slot23 = slot23(slot24, slot25, slot26)
+		slot21 = slot23
 		slot24 = slot21
-		slot25 = slot15
-		slot22 = slot22(slot23, slot24, slot25)
-		slot20 = slot22
-		slot23 = slot20
-		slot22 = slot20.Ready
+		slot23 = slot21.Ready
 
-		slot22(slot23)
+		slot23(slot24)
 
-		slot23 = slot20
-		slot22 = slot20.Fire
-		slot24 = nil
-		slot26 = slot7
-		slot25 = slot7.GetDirection
-		slot25 = slot25(slot26)
-		slot26 = slot1
-		slot26 = slot26.Battle
-		slot26 = slot26.BattleDataFunction
-		slot26 = slot26.GetBarrageTmpDataFromID
-		slot27 = slot15
+		slot24 = slot21
+		slot23 = slot21.Fire
+		slot25 = nil
+		slot27 = slot7
+		slot26 = slot7.GetDirection
 		slot26 = slot26(slot27)
-		slot26 = slot26.angle
+		slot27 = slot1
+		slot27 = slot27.Battle
+		slot27 = slot27.BattleDataFunction
+		slot27 = slot27.GetBarrageTmpDataFromID
+		slot28 = slot15
+		slot27 = slot27(slot28)
+		slot27 = slot27.angle
 
-		slot22(slot23, slot24, slot25, slot26)
+		slot23(slot24, slot25, slot26, slot27)
 	end
 end
 

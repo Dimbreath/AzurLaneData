@@ -845,6 +845,25 @@ function slot0.onChapterTimeUp(slot0)
 	end
 end
 
+function slot0.tryShowItemIconChnageNotice(slot0)
+	if PlayerPrefs.GetInt("ItemIconChange_" .. slot1, 0) == 0 then
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			modal = true,
+			hideNo = true,
+			hideClose = true,
+			type = MSGBOX_TYPE_JUST_FOR_SHOW,
+			title = pg.MsgboxMgr.TITLE_INFORMATION,
+			weight = LayerWeightConst.TOP_LAYER,
+			onClose = function ()
+				PlayerPrefs.SetInt("ItemIconChange_" .. slot0, 1)
+			end,
+			onYes = function ()
+				PlayerPrefs.SetInt("ItemIconChange_" .. slot0, 1)
+			end
+		})
+	end
+end
+
 function slot0.handleEnterMainUI(slot0)
 	slot0:updateSeverNotices()
 
@@ -909,6 +928,7 @@ function slot0.handleEnterMainUI(slot0)
 			slot0:handlingActivityBtn()
 			slot0:handleOverdueAttire()
 			slot0:updateExSkinOverDue()
+			slot0:tryShowItemIconChnageNotice()
 		end))
 	end
 end
