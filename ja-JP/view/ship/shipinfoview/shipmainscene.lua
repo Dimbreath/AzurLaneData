@@ -323,6 +323,7 @@ function slot0.initEvents(slot0)
 	slot0:bind(ShipViewConst.SET_CLICK_ENABLE, function (slot0, slot1)
 		slot0.mainCanvasGroup.blocksRaycasts = slot1
 		slot0.commonCanvasGroup.blocksRaycasts = slot1
+		GetComponent(slot0.detailContainer, "CanvasGroup").blocksRaycasts = slot1
 	end)
 	slot0:bind(ShipViewConst.SHOW_CUSTOM_MSG, function (slot0, slot1)
 		slot0.shipCustomMsgBox:Load()

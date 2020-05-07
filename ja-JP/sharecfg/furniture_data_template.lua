@@ -1170,7 +1170,7 @@ pg.furniture_data_template = {
 	},
 	[115] = {
 		advice = 0,
-		describe = "ゴルディオンウォッシュレット！発動承認！40万フォロワーまで、レディー…ゴー！",
+		describe = "ゴルディオン脱出機構！発動承認！40万フォロワーまで、レディー…ゴー！",
 		count = 1,
 		type = 7,
 		dir = 0,

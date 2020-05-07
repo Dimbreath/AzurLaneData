@@ -53,10 +53,10 @@ function slot0.UpdateTime(slot0)
 		slot0.labelTime.gameObject:SetActive(false)
 	end
 
-	if slot0.event.state == EventInfo.StateNone and slot0.event.overTime > 0 and slot1 <= slot0.event.overTime then
+	if slot0.event:GetCountDownTime() and slot2 >= 0 then
 		slot0.timeLimit:SetActive(true)
 
-		slot0.labelLimitTime.text = pg.TimeMgr.GetInstance():DescCDTime(slot0.event.overTime - slot1)
+		slot0.labelLimitTime.text = pg.TimeMgr.GetInstance():DescCDTime(slot2)
 	else
 		slot0.timeLimit:SetActive(false)
 	end

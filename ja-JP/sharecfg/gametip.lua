@@ -8065,10 +8065,6 @@ No.7 駆逐艦「鞍山」
 			defaultpage = 2,
 			ImageMode = true,
 			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
 				x = 1263,
 				y = 873
 			},
@@ -8928,7 +8924,7 @@ No.7 駆逐艦「鞍山」
 		key = "commander_skill_point_noengough"
 	},
 	buildship_new_tip = {
-		tip = "イベント期間、「土佐」、「天城」、「花月」、「長波」 などの出現率UP！",
+		tip = "「タルテュ」 の出現率UP！",
 		key = "buildship_new_tip"
 	},
 	buildship_heavy_tip = {

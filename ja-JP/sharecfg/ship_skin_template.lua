@@ -87863,6 +87863,224 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[901020] = {
+		ship_group = 90102,
+		name = "タルテュ",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "ヴォークラン級駆逐艦タルテュ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "taertu",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 901020,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "taertu",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.18,
+					1.16,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.12,
+					1.06,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.2,
+					0.09,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.17,
+					0.93,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[901021] = {
+		ship_group = 90102,
+		name = "考え込む夏",
+		bg_sp = "",
+		group_index = 1,
+		illustrator2 = -1,
+		desc = "指揮官は海に入らないのですか？…あ、タルテュのことはいいです。実は昔、海で流されたことがあって、そのときはヴォークランにすごく笑われました…ですから、タルテュはこのままでいいですよ",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "taertu_2",
+		air_bullet_skin = "",
+		shop_type_id = 6,
+		hand_id = 13,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "106",
+		skin_type = 0,
+		id = 901021,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "taertu_2",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 70349,
+		voice_actor = -1,
+		air_bomb_skin = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.18,
+					1.16,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.12,
+					1.06,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.012,
+					0.004,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.17,
+					1.155,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[901110] = {
 		ship_group = 90111,
 		name = "ル・マラン",
@@ -100543,6 +100761,120 @@ pg.ship_skin_template = {
 			}
 		}
 	},
+	[900236] = {
+		ship_group = 900236,
+		name = "ヴォークラン",
+		bg_sp = "",
+		group_index = 0,
+		illustrator2 = -1,
+		desc = "ヴォークラン",
+		bullet_skin_secondary = "",
+		bullet_skin_main = "",
+		painting = "wokelan",
+		air_bullet_skin = "",
+		shop_type_id = 0,
+		hand_id = 5,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		skin_type = -1,
+		id = 900236,
+		voice_actor_2 = -1,
+		air_torpedo_skin = "",
+		prefab = "wokelan",
+		l2d_se = "",
+		aircraft_skin = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 72,
+		air_bomb_skin = "",
+		illustrator = 1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.35,
+					0.67,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.13,
+					0.25,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.35,
+					0.67,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.09,
+							0.59,
+							-0.15
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.83,
+							2.24,
+							-0.59
+						}
+					}
+				}
+			}
+		}
+	},
 	[10100010] = {
 		ship_group = 1010001,
 		name = "ネプテューヌ",
@@ -108014,6 +108346,9 @@ pg.ship_skin_template = {
 		[1010001] = {
 			10100010
 		},
+		[900236] = {
+			900236
+		},
 		[900235] = {
 			900235
 		},
@@ -108347,6 +108682,10 @@ pg.ship_skin_template = {
 		[90111] = {
 			901110,
 			901111
+		},
+		[90102] = {
+			901020,
+			901021
 		},
 		[90101] = {
 			901010,
@@ -110686,6 +111025,8 @@ pg.ship_skin_template = {
 		901011,
 		901012,
 		901019,
+		901020,
+		901021,
 		901110,
 		901111,
 		904010,
@@ -110802,6 +111143,7 @@ pg.ship_skin_template = {
 		900233,
 		900234,
 		900235,
+		900236,
 		10100010,
 		10100020,
 		10100030,
