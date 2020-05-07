@@ -13526,6 +13526,7 @@ pg.activity_template = {
 	[20417] = {
 		mark = 20200326,
 		title_res_tag = "huiliu",
+		time = "stop",
 		type = 56,
 		login_pop = 0,
 		config_id = 1,
@@ -13533,34 +13534,7 @@ pg.activity_template = {
 		config_client = "",
 		bg = "",
 		id = 20417,
-		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					3,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[20418] = {
 		mark = 20200326,
@@ -13976,6 +13950,7 @@ pg.activity_template = {
 	[20436] = {
 		mark = 20200416,
 		title_res_tag = "",
+		time = "stop",
 		type = 36,
 		login_pop = 0,
 		config_id = 0,
@@ -13990,38 +13965,12 @@ pg.activity_template = {
 			0.36,
 			0.6,
 			10
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[20437] = {
 		mark = 20200416,
 		title_res_tag = "",
+		time = "stop",
 		type = 16,
 		login_pop = 0,
 		config_id = 130,
@@ -14029,34 +13978,7 @@ pg.activity_template = {
 		config_data = "100",
 		config_client = "",
 		bg = "",
-		id = 20437,
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 20437
 	},
 	[20438] = {
 		mark = 20200416,
@@ -14107,39 +14029,13 @@ pg.activity_template = {
 	[20440] = {
 		mark = 20200416,
 		title_res_tag = "france_re_pt",
+		time = "stop",
 		type = 54,
 		login_pop = 0,
 		config_id = 20440,
 		is_show = 70,
 		id = 20440,
 		config_data = {},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		bg = {
 			"clutter/activity_bg_france_re_pt"
 		},
@@ -14150,6 +14046,7 @@ pg.activity_template = {
 	[20441] = {
 		mark = 20200416,
 		title_res_tag = "",
+		time = "stop",
 		type = 14,
 		login_pop = 0,
 		config_id = 0,
@@ -14179,33 +14076,6 @@ pg.activity_template = {
 			869,
 			870,
 			871
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			"commonbg/bg_pt_faxi",
@@ -14714,6 +14584,7 @@ pg.activity_template = {
 	[20453] = {
 		mark = 20200423,
 		title_res_tag = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -14723,33 +14594,6 @@ pg.activity_template = {
 		id = 20453,
 		config_data = {
 			15564
-		},
-		time = {
-			timer,
-			{
-				{
-					2020,
-					4,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					5,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[25000] = {

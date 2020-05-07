@@ -6408,6 +6408,128 @@ pg.expedition_data_by_map = {
 			}
 		}
 	},
+	[2100040] = {
+		map = 2100040,
+		name = "거울에 비친 이색 - 전편|| ||EX CHAPTER||E.X.",
+		bgm = "level02",
+		type = 4,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "UIACT20000",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "purple",
+		bg = "map_1000000",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 2100050,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100041] = {
+		map = 2100041,
+		name = "거울에 비친 이색 - 후편|| ||EX CHAPTER||E.X.",
+		bgm = "level02",
+		type = 4,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "UIACT20001",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Tornado",
+		cloud_suffix = "",
+		bg = "map_1000000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100051,
+		clouds_pos = {}
+	},
+	[2100050] = {
+		map = 2100050,
+		name = "거울에 비친 이색 - 전편|| ||EX CHAPTER||E.X.",
+		bgm = "level02",
+		type = 5,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "UIACT20000",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "",
+		cloud_suffix = "purple",
+		bg = "map_1000000",
+		destory_icon_suffix = "blue",
+		animtor = 0,
+		bind_map = 2100040,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100051] = {
+		map = 2100051,
+		name = "거울에 비친 이색 - 후편|| ||EX CHAPTER||E.X.",
+		bgm = "level02",
+		type = 5,
+		on_activity = 0,
+		title = "EX",
+		drop_by_map_display = "",
+		enter_story = "UIACT20001",
+		level_limit = 1,
+		uifx = "",
+		guide_id = "",
+		ani_name = "Tornado",
+		cloud_suffix = "",
+		bg = "map_1000000",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100041,
+		clouds_pos = {}
+	},
 	[2200000] = {
 		map = 2200000,
 		name = "노력, 희망과 계획 || ||SP. CHAPTER||SP.",
@@ -6789,6 +6911,10 @@ pg.expedition_data_by_map = {
 		2100021,
 		2100030,
 		2100031,
+		2100040,
+		2100041,
+		2100050,
+		2100051,
 		2200000,
 		2200010,
 		9920001,
