@@ -813,7 +813,7 @@ pg.gameset = {
 	night_collection_begin = {
 		description = "",
 		key = "night_collection_begin",
-		key_value = 21
+		key_value = 19
 	},
 	night_collection_end = {
 		description = "",

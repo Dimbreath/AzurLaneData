@@ -121,7 +121,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "After making theme wait this long as well, our enemies are probably pretty checked out as well~",
+			say = "After making them wait this long as well, our enemies are probably pretty checked out as well~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
