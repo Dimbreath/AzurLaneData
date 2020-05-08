@@ -46803,7 +46803,7 @@ pg.enemy_data_statistics = {
 	},
 	[440] = {
 		cannon = 0,
-		name = "纳尔逊",
+		name = "Nelson",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
