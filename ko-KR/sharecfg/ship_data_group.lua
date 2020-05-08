@@ -251,17 +251,6 @@ pg.ship_data_group = {
 					}
 				},
 				0
-			},
-			{
-				"소형함 건조",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
 			}
 		}
 	},
@@ -1468,17 +1457,6 @@ pg.ship_data_group = {
 					"LEVEL",
 					{
 						chapterid = 302
-					}
-				},
-				0
-			},
-			{
-				"소형함 건조",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
 					}
 				},
 				0
@@ -5534,17 +5512,6 @@ pg.ship_data_group = {
 					}
 				},
 				0
-			},
-			{
-				"소형함 건조",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
 			}
 		}
 	},
@@ -5576,6 +5543,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"메인 스테이지 해역3-2",
+				{
+					"LEVEL",
+					{
+						chapterid = 302
+					}
+				},
+				0
 			}
 		}
 	},
@@ -5605,6 +5582,16 @@ pg.ship_data_group = {
 				"이벤트 : 피오르드의 별",
 				{
 					""
+				},
+				0
+			},
+			{
+				"메인 스테이지 해역3-2",
+				{
+					"LEVEL",
+					{
+						chapterid = 302
+					}
 				},
 				0
 			}
@@ -5796,6 +5783,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -5825,6 +5823,16 @@ pg.ship_data_group = {
 				"이벤트 : 싸늘한 겨울의 왕관",
 				{
 					""
+				},
+				0
+			},
+			{
+				"코어 교환 획득",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
 				},
 				0
 			}
@@ -5867,6 +5875,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -5905,6 +5924,17 @@ pg.ship_data_group = {
 				"한정 이벤트 :시끌벅적 설날 축제",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -6143,17 +6173,6 @@ pg.ship_data_group = {
 					}
 				},
 				0
-			},
-			{
-				"소형함 건조",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
 			}
 		}
 	},
@@ -6195,17 +6214,6 @@ pg.ship_data_group = {
 					"LEVEL",
 					{
 						chapterid = 302
-					}
-				},
-				0
-			},
-			{
-				"소형함 건조",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
 					}
 				},
 				0
@@ -6355,6 +6363,17 @@ pg.ship_data_group = {
 				"이벤트 : 싸늘한 겨울의 왕관",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -6621,6 +6640,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -6687,6 +6717,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"코어 교환 획득",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -6716,6 +6756,17 @@ pg.ship_data_group = {
 				"이벤트 : 싸늘한 겨울의 왕관",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -7745,6 +7796,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"중형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -7893,6 +7955,28 @@ pg.ship_data_group = {
 				"한정 이벤트 :시끌벅적 설날 축제",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
+			},
+			{
+				"특형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -8059,6 +8143,17 @@ pg.ship_data_group = {
 				"이벤트 : 싸늘한 겨울의 왕관",
 				{
 					""
+				},
+				0
+			},
+			{
+				"특형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -12400,17 +12495,6 @@ pg.ship_data_group = {
 					}
 				},
 				0
-			},
-			{
-				"소형함 건조",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
 			}
 		}
 	},
@@ -12473,6 +12557,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -12502,6 +12597,17 @@ pg.ship_data_group = {
 				"이벤트 : 거울에 비친 이색",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -12640,6 +12746,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -12669,6 +12786,17 @@ pg.ship_data_group = {
 				"이벤트 : 거울에 비친 이색",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -12731,6 +12859,17 @@ pg.ship_data_group = {
 				"이벤트 : 거울에 비친 이색",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -13063,6 +13202,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"중형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -13170,6 +13320,16 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"코어 교환 획득",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -13263,6 +13423,17 @@ pg.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"중형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -13292,6 +13463,17 @@ pg.ship_data_group = {
 				"이벤트 : 거울에 비친 이색",
 				{
 					""
+				},
+				0
+			},
+			{
+				"특형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -13365,6 +13547,17 @@ pg.ship_data_group = {
 				"이벤트 : 거울에 비친 이색",
 				{
 					""
+				},
+				0
+			},
+			{
+				"특형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -13586,6 +13779,17 @@ pg.ship_data_group = {
 				"이벤트 : 거울에 비친 이색",
 				{
 					""
+				},
+				0
+			},
+			{
+				"특형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
