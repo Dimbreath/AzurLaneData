@@ -21,7 +21,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.maskTip = i18n("buy_countLimit")
 
 	onButton(slot0, slot0.mask, function ()
-		pg.TipsMgr.GetInstance():ShowTips(slot0.maskTip)
+		pg.TipsMgr.GetInstance():ShowTips(uv0.maskTip)
 	end, SFX_PANEL)
 end
 
@@ -96,25 +96,29 @@ function slot0.update(slot0, slot1)
 
 		slot6 = pg.item_data_statistics[Goods.COMMANDER_BAG_SIZE_ITEM].name or "??"
 	else
-		updateDrop(slot0.itemTF, {
+		slot7 = {
 			type = slot1:getConfig("type"),
 			id = slot5[1],
 			count = slot1:getConfig("num")
-		})
-		setText(slot0.nameTxt, shortenString(()["cfg"].name or "??", 6))
+		}
 
-		slot7 = ""
-		slot8 = slot1:getConfig("resource_num")
+		updateDrop(slot0.itemTF, slot7)
+
+		slot6 = slot7.cfg.name or "??"
 	end
+
+	setText(slot0.nameTxt, shortenString(slot6, 6))
+
+	slot7 = ""
 
 	if slot1:getConfig("genre") == ShopArgs.ShoppingStreetLimit then
 		slot7 = 100 - slot1.discount .. "%OFF"
-		slot8 = slot8 * slot1.discount / 100
+		slot8 = slot1:getConfig("resource_num") * slot1.discount / 100
 	end
 
 	setActive(slot0.discountTF, false)
 
-	slot0.discountTF = (slot1.activityDiscount and findTF(slot0.tr, "item/discount_activity")) or findTF(slot0.tr, "item/discount")
+	slot0.discountTF = slot1.activityDiscount and findTF(slot0.tr, "item/discount_activity") or findTF(slot0.tr, "item/discount")
 	slot0.discountTextTF = findTF(slot0.discountTF, "Text"):GetComponent(typeof(Text))
 
 	setActive(slot0.discountTF, slot1:hasDiscount())

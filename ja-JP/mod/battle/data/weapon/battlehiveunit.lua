@@ -1,25 +1,31 @@
 ys = ys or {}
-slot1 = ys.Battle.BattleConst
-ys.Battle.BattleHiveUnit = class("BattleHiveUnit", ys.Battle.BattleWeaponUnit)
-ys.Battle.BattleHiveUnit.__name = "BattleHiveUnit"
+slot0 = ys
+slot1 = slot0.Battle.BattleConst
+slot0.Battle.BattleHiveUnit = class("BattleHiveUnit", slot0.Battle.BattleWeaponUnit)
+slot0.Battle.BattleHiveUnit.__name = "BattleHiveUnit"
+slot2 = slot0.Battle.BattleHiveUnit
 
-function ys.Battle.BattleHiveUnit.Ctor(slot0)
-	slot0.super.Ctor(slot0)
+function slot2.Ctor(slot0)
+	uv0.super.Ctor(slot0)
 end
 
-function ys.Battle.BattleHiveUnit.Update(slot0)
+function slot2.Update(slot0)
 	slot0:UpdateReload()
 	slot0:updateMovementInfo()
 
 	if slot0._currentState == slot0.STATE_READY then
-		if slot0._host:GetUnitType() ~= slot0.UnitType.PLAYER_UNIT then
+		if slot0._host:GetUnitType() ~= uv0.UnitType.PLAYER_UNIT then
 			if slot0._preCastInfo.time == nil then
 				slot0._currentState = slot0.STATE_PRECAST_FINISH
 			else
 				slot0:PreCast()
 			end
-		elseif #((not slot0._antiSub or nil.Battle.BattleTargetChoise.TargetDetectedUnit(nil, nil, nil.Battle.BattleTargetChoise.TargetDiveState(nil, nil, nil.Battle.BattleTargetChoise.TargetAllFoe(slot0._host)))) and nil.Battle.BattleTargetChoise.TargetAircraftHarm(slot0._host)) > 0 then
-			slot0._currentState = slot0.STATE_PRECAST_FINISH
+		else
+			slot1 = nil
+
+			if #((not slot0._antiSub or uv1.Battle.BattleTargetChoise.TargetDetectedUnit(nil, , uv1.Battle.BattleTargetChoise.TargetDiveState(nil, , uv1.Battle.BattleTargetChoise.TargetAllFoe(slot0._host)))) and uv1.Battle.BattleTargetChoise.TargetAircraftHarm(slot0._host)) > 0 then
+				slot0._currentState = slot0.STATE_PRECAST_FINISH
+			end
 		end
 	end
 
@@ -29,13 +35,13 @@ function ys.Battle.BattleHiveUnit.Update(slot0)
 	end
 end
 
-function ys.Battle.BattleHiveUnit.SetTemplateData(slot0, slot1)
-	slot0.super.SetTemplateData(slot0, slot1)
+function slot2.SetTemplateData(slot0, slot1)
+	uv0.super.SetTemplateData(slot0, slot1)
 
-	slot0._antiSub = table.contains(slot1.search_condition, slot1.OXY_STATE.DIVE)
+	slot0._antiSub = table.contains(slot1.search_condition, uv1.OXY_STATE.DIVE)
 end
 
-function ys.Battle.BattleHiveUnit.Fire(slot0)
+function slot2.Fire(slot0)
 	slot0:DispatchGCD()
 
 	slot0._currentState = slot0.STATE_ATTACK
@@ -49,40 +55,37 @@ function ys.Battle.BattleHiveUnit.Fire(slot0)
 	return true
 end
 
-function ys.Battle.BattleHiveUnit.createMajorEmitter(slot0, slot1, slot2, slot3, slot4, slot5)
-	slot0.super.createMajorEmitter(slot0, slot1, slot2, nil, function (slot0, slot1, slot2, slot3, slot4)
-		slot0._dataProxy:CreateAircraft(slot0._host, slot0._tmpData.id, slot0:GetPotential(), slot0._skinID):AddCreateTimer(Vector3(math.cos(slot7), 0, math.sin(slot7)), 1.5)
+function slot2.createMajorEmitter(slot0, slot1, slot2, slot3, slot4, slot5)
+	uv0.super.createMajorEmitter(slot0, slot1, slot2, nil, function (slot0, slot1, slot2, slot3, slot4)
+		slot7 = math.deg2Rad * (uv0:GetBaseAngle() + slot2)
+
+		uv0._dataProxy:CreateAircraft(uv0._host, uv0._tmpData.id, uv0:GetPotential(), uv0._skinID):AddCreateTimer(Vector3(math.cos(slot7), 0, math.sin(slot7)), 1.5)
 	end, nil)
 end
 
-function ys.Battle.BattleHiveUnit.SingleFire(slot0, slot1, slot2)
+function slot2.SingleFire(slot0, slot1, slot2)
 	slot0._tempEmitterList = {}
 
-	function slot3(slot0, slot1, slot2, slot3, slot4)
-		slot5 = slot0._dataProxy:CreateAircraft(slot0._host, slot0._tmpData.id, slot0:GetPotential(), slot0._skinID)
-
-		slot1.Battle.BattleVariable.AddExempt(slot5:GetSpeedExemptKey(), slot5:GetIFF(), slot1.Battle.BattleConfig.SPEED_FACTOR_FOCUS_CHARACTER)
-		slot5:AddCreateTimer(Vector3(math.cos(slot7), 0, math.sin(slot7)), 1)
-	end
-
-	function slot4()
-		for slot3, slot4 in ipairs(slot0._tempEmitterList) do
-			if slot4:GetState() ~= slot4.STATE_STOP then
-				return
-			end
-		end
-
-		for slot3, slot4 in ipairs(slot0._tempEmitterList) do
-			slot4:Destroy()
-		end
-
-		slot0._tempEmitterList = nil
-	end
-
-	slot2 = slot2 or slot1.EMITTER_SHOTGUN
-
 	for slot8, slot9 in ipairs(slot0._tmpData.barrage_ID) do
-		slot0._tempEmitterList[#slot0._tempEmitterList + 1] = slot0.Battle[slot2].New(slot3, slot4, slot9)
+		slot0._tempEmitterList[#slot0._tempEmitterList + 1] = uv0.Battle[slot2 or uv1.EMITTER_SHOTGUN].New(function (slot0, slot1, slot2, slot3, slot4)
+			slot5 = uv0._dataProxy:CreateAircraft(uv0._host, uv0._tmpData.id, uv0:GetPotential(), uv0._skinID)
+			slot7 = math.deg2Rad * (uv0:GetBaseAngle() + slot2)
+
+			uv1.Battle.BattleVariable.AddExempt(slot5:GetSpeedExemptKey(), slot5:GetIFF(), uv1.Battle.BattleConfig.SPEED_FACTOR_FOCUS_CHARACTER)
+			slot5:AddCreateTimer(Vector3(math.cos(slot7), 0, math.sin(slot7)), 1)
+		end, function ()
+			for slot3, slot4 in ipairs(uv0._tempEmitterList) do
+				if slot4:GetState() ~= slot4.STATE_STOP then
+					return
+				end
+			end
+
+			for slot3, slot4 in ipairs(uv0._tempEmitterList) do
+				slot4:Destroy()
+			end
+
+			uv0._tempEmitterList = nil
+		end, slot9)
 	end
 
 	for slot8, slot9 in ipairs(slot0._tempEmitterList) do
@@ -91,5 +94,3 @@ function ys.Battle.BattleHiveUnit.SingleFire(slot0, slot1, slot2)
 		slot9:SetTimeScale(false)
 	end
 end
-
-return

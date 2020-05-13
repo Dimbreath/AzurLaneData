@@ -107,5 +107,3 @@ pg.shake_template = {
 		303
 	}
 }
-
-return

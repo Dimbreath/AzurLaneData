@@ -17,15 +17,17 @@ function slot0.GetLevel(slot0)
 end
 
 function slot0.IsMaxLevel(slot0)
-	return slot0._LV == slot0:bindConfigTable().all[#slot0.bindConfigTable().all]
+	slot1 = slot0:bindConfigTable()
+
+	return slot0._LV == slot1.all[#slot1.all]
 end
 
 function slot0.GetKeyWord(slot0)
-	if slot0._type == slot0.TYPE_GOLD then
+	if slot0._type == uv0.TYPE_GOLD then
 		return "shop"
-	elseif slot0._type == slot0.TYPE_OIL then
+	elseif slot0._type == uv0.TYPE_OIL then
 		return "canteen"
-	elseif slot0._type == slot0.TYPE_CLASS then
+	elseif slot0._type == uv0.TYPE_CLASS then
 		return "class"
 	end
 end
@@ -39,11 +41,11 @@ function slot0.CanUpgrade(slot0, slot1, slot2)
 end
 
 function slot0.GetUpgradeType(slot0)
-	if slot0._type == slot0.TYPE_GOLD then
+	if slot0._type == uv0.TYPE_GOLD then
 		return 7
-	elseif slot0._type == slot0.TYPE_OIL then
+	elseif slot0._type == uv0.TYPE_OIL then
 		return 8
-	elseif slot0._type == slot0.TYPE_CLASS then
+	elseif slot0._type == uv0.TYPE_CLASS then
 		return 20
 	end
 end
@@ -65,15 +67,15 @@ function slot0.GetDuration(slot0)
 end
 
 function slot0.bindConfigTable(slot0)
-	if slot0._type == slot0.TYPE_OIL then
+	if slot0._type == uv0.TYPE_OIL then
 		return pg.oilfield_template
-	elseif slot0._type == slot0.TYPE_GOLD then
+	elseif slot0._type == uv0.TYPE_GOLD then
 		return pg.tradingport_template
-	elseif slot0._type == slot0.TYPE_CLASS then
+	elseif slot0._type == uv0.TYPE_CLASS then
 		return pg.class_upgrade_template
-	elseif slot0._type == slot0.TYPE_GUILD_OIL then
+	elseif slot0._type == uv0.TYPE_GUILD_OIL then
 		return pg.guild_oilfield_template
-	elseif slot0._type == slot0.TYPE_GUILD_GOLD then
+	elseif slot0._type == uv0.TYPE_GUILD_GOLD then
 		return pg.guild_tradingport_template
 	end
 end

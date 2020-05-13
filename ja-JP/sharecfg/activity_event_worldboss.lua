@@ -309,5 +309,3 @@ pg.activity_event_worldboss = {
 		3
 	}
 }
-
-return

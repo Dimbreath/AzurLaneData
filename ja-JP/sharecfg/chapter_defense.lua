@@ -491,5 +491,3 @@ pg.chapter_defense = {
 		1260023
 	}
 }
-
-return

@@ -15,21 +15,21 @@ slot0.GET_BLACK_LIST = "FriendMediator:GET_BLACK_LIST"
 function slot0.register(slot0)
 	slot1 = getProxy(FriendProxy)
 
-	slot0.viewComponent:setFriendVOs(slot2)
-	slot0.viewComponent:setPlayer(slot4)
-	slot0.viewComponent:setRequests(slot6)
-	slot0.viewComponent:setBlackList(slot7)
-	slot0:bind(slot0.GET_BLACK_LIST, function (slot0)
-		slot0:sendNotification(GAME.GET_BLACK_LIST)
+	slot0.viewComponent:setFriendVOs(slot1:getAllFriends())
+	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
+	slot0.viewComponent:setRequests(getProxy(NotificationProxy):getRequests())
+	slot0.viewComponent:setBlackList(slot1:getBlackList())
+	slot0:bind(uv0.GET_BLACK_LIST, function (slot0)
+		uv0:sendNotification(GAME.GET_BLACK_LIST)
 	end)
-	slot0:bind(slot0.SEARCH_FRIEND, function (slot0, slot1, slot2)
-		slot0:sendNotification(GAME.FRIEND_SEARCH, {
+	slot0:bind(uv0.SEARCH_FRIEND, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.FRIEND_SEARCH, {
 			type = slot1,
 			keyword = slot2
 		})
 	end)
-	slot0:bind(slot0.OPEN_CHATROOM, function (slot0, slot1)
-		slot0:addSubLayers(Context.New({
+	slot0:bind(uv0.OPEN_CHATROOM, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
 			mediator = ChatRoomMediator,
 			viewComponent = ChatRoomLayer,
 			data = {
@@ -37,48 +37,48 @@ function slot0.register(slot0)
 			}
 		}))
 	end)
-	slot0:bind(slot0.ADD_FRIEND, function (slot0, slot1, slot2)
-		slot0:sendNotification(GAME.FRIEND_SEND_REQUEST, {
+	slot0:bind(uv0.ADD_FRIEND, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.FRIEND_SEND_REQUEST, {
 			id = slot1,
 			msg = slot2
 		})
 	end)
-	slot0:bind(slot0.ACCEPT_REQUEST, function (slot0, slot1)
-		slot0:sendNotification(GAME.FRIEND_ACCEPT_REQUEST, slot1)
+	slot0:bind(uv0.ACCEPT_REQUEST, function (slot0, slot1)
+		uv0:sendNotification(GAME.FRIEND_ACCEPT_REQUEST, slot1)
 	end)
-	slot0:bind(slot0.REFUSE_ALL_REQUEST, function (slot0)
-		slot0:sendNotification(GAME.FRIEND_REJECT_REQUEST, 0)
+	slot0:bind(uv0.REFUSE_ALL_REQUEST, function (slot0)
+		uv0:sendNotification(GAME.FRIEND_REJECT_REQUEST, 0)
 	end)
-	slot0:bind(slot0.REFUSE_REQUEST, function (slot0, slot1, slot2)
-		slot0:sendNotification(GAME.FRIEND_REJECT_REQUEST, slot1.id)
+	slot0:bind(uv0.REFUSE_REQUEST, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.FRIEND_REJECT_REQUEST, slot1.id)
 
 		if slot2 then
-			slot0:sendNotification(GAME.FRIEND_ADD_BLACKLIST, slot1)
+			uv0:sendNotification(GAME.FRIEND_ADD_BLACKLIST, slot1)
 		end
 	end)
-	slot0:bind(slot0.DELETE_FRIEND, function (slot0, slot1)
-		slot0:sendNotification(GAME.FRIEND_DELETE, slot1)
+	slot0:bind(uv0.DELETE_FRIEND, function (slot0, slot1)
+		uv0:sendNotification(GAME.FRIEND_DELETE, slot1)
 	end)
-	slot0:bind(slot0.OPEN_RESUME, function (slot0, slot1)
-		slot0:sendNotification(GAME.FRIEND_SEARCH, {
+	slot0:bind(uv0.OPEN_RESUME, function (slot0, slot1)
+		uv0:sendNotification(GAME.FRIEND_SEARCH, {
 			type = SearchFriendCommand.SEARCH_TYPE_RESUME,
 			keyword = slot1
 		})
 	end)
-	slot0:bind(slot0.OPEN_RESUME_BY_VO, function (slot0, slot1)
-		slot0:openResume(slot1)
+	slot0:bind(uv0.OPEN_RESUME_BY_VO, function (slot0, slot1)
+		uv0:openResume(slot1)
 	end)
-	slot0:bind(slot0.VISIT_BACKYARD, function (slot0, slot1)
-		slot0:sendNotification(GAME.VISIT_BACKYARD, slot1)
+	slot0:bind(uv0.VISIT_BACKYARD, function (slot0, slot1)
+		uv0:sendNotification(GAME.VISIT_BACKYARD, slot1)
 	end)
-	slot0:bind(slot0.RELIEVE_BLACKLIST, function (slot0, slot1)
-		slot0:sendNotification(GAME.FRIEND_RELIEVE_BLACKLIST, slot1)
+	slot0:bind(uv0.RELIEVE_BLACKLIST, function (slot0, slot1)
+		uv0:sendNotification(GAME.FRIEND_RELIEVE_BLACKLIST, slot1)
 	end)
 	slot0:updateChatNotification()
 end
 
 function slot0.updateChatNotification(slot0)
-	slot0.viewComponent:updateChatNotification(getProxy(FriendProxy).getNewMsgCount(slot1))
+	slot0.viewComponent:updateChatNotification(getProxy(FriendProxy):getNewMsgCount())
 end
 
 function slot0.openResume(slot0, slot1)
@@ -126,18 +126,18 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:removeSearchResult(slot3)
 		slot0.viewComponent:updatePage(FriendScene.SEARCH_PAGE)
 	elseif slot2 == NotificationProxy.FRIEND_REQUEST_REMOVED or slot2 == NotificationProxy.FRIEND_REQUEST_ADDED then
-		slot0.viewComponent:setRequests(slot5)
+		slot0.viewComponent:setRequests(getProxy(NotificationProxy):getRequests())
 		slot0.viewComponent:updatePage(FriendScene.REQUEST_PAGE)
 		slot0.viewComponent:updateRequestTip()
 	elseif slot2 == FriendProxy.FRIEND_REMOVED or slot2 == FriendProxy.FRIEND_ADDED or slot2 == FriendProxy.FRIEND_UPDATED then
-		slot0.viewComponent:setFriendVOs(slot5)
+		slot0.viewComponent:setFriendVOs(getProxy(FriendProxy):getAllFriends())
 		slot0.viewComponent:updatePage(FriendScene.FRIEND_PAGE)
 
 		if slot2 == FriendProxy.FRIEND_UPDATED then
 			slot0:updateChatNotification()
 		end
 	elseif slot2 == FriendProxy.RELIEVE_BLACKLIST or slot2 == FriendProxy.BLACK_LIST_UPDATED or slot2 == FriendProxy.ADD_INTO_BLACKLIST then
-		slot0.viewComponent:setBlackList(slot5)
+		slot0.viewComponent:setBlackList(getProxy(FriendProxy):getBlackList())
 		slot0.viewComponent:updatePage(FriendScene.BLACKLIST_PAGE)
 	elseif slot2 == GAME.VISIT_BACKYARD_DONE then
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.BACKYARD, {

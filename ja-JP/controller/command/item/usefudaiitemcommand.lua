@@ -1,4 +1,6 @@
-class("UseFudaiItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("UseFudaiItemCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.id
 	slot5 = slot2.callback
@@ -7,7 +9,7 @@ class("UseFudaiItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		return
 	end
 
-	slot7 = getProxy(BagProxy).getItemById(slot6, slot3)
+	slot7 = getProxy(BagProxy):getItemById(slot3)
 	slot8 = slot7:getTempCfgTable()
 
 	if slot7.count < slot4 then
@@ -21,20 +23,22 @@ class("UseFudaiItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		count = slot4
 	}, 15003, function (slot0)
 		if slot0.result == 0 then
-			slot0:removeItemById({}, slot0.removeItemById)
+			slot1 = {}
 
-			if slot3.usage == ItemUsage.DROP then
-				for slot5, slot6 in pairs(slot1) do
-					slot4:sendNotification(GAME.ADD_ITEM, slot6)
+			uv0:removeItemById(uv1, uv2)
+
+			if uv3.usage == ItemUsage.DROP then
+				for slot5, slot6 in pairs(PlayerConst.tranOwnShipSkin(slot0.drop_list)) do
+					uv4:sendNotification(GAME.ADD_ITEM, slot6)
 				end
 			end
 
-			if slot5 then
-				slot5(slot1)
+			if uv5 then
+				uv5(slot1)
 			end
 		else
-			if slot5 then
-				slot5({})
+			if uv5 then
+				uv5({})
 			end
 
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
@@ -42,4 +46,4 @@ class("UseFudaiItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end)
 end
 
-return class("UseFudaiItemCommand", pm.SimpleCommand)
+return slot0

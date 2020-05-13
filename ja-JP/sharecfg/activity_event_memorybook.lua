@@ -195,5 +195,3 @@ pg.activity_event_memorybook = {
 		24
 	}
 }
-
-return

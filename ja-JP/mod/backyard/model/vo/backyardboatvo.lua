@@ -163,13 +163,14 @@ end
 
 function slot0.getSurroundGrid(slot0)
 	slot1 = slot0:getPosition()
+	slot2 = {}
 
 	table.insert(slot2, Vector2(slot1.x, slot1.y + 1))
 	table.insert(slot2, Vector2(slot1.x, slot1.y - 1))
 	table.insert(slot2, Vector2(slot1.x - 1, slot1.y))
-	table.insert({}, Vector2(slot1.x + 1, slot1.y))
+	table.insert(slot2, Vector2(slot1.x + 1, slot1.y))
 
-	return 
+	return slot2
 end
 
 return slot0

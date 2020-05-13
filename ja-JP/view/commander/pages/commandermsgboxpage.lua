@@ -11,31 +11,31 @@ function slot0.OnInit(slot0)
 	slot0.closeBtn = slot0._tf:Find("frame/close_btn")
 
 	onButton(slot0, slot0._tf, function ()
-		slot0:Hide()
+		uv0:Hide()
 	end, SFX_PANEL)
 end
 
 function slot0.OnUpdate(slot0, slot1)
 	setText(slot0.text, slot1.content)
 	onButton(slot0, slot0.cancelBtn, function ()
-		slot0:Hide()
+		uv0:Hide()
 
-		if slot1.onNo then
-			slot1.onNo()
+		if uv1.onNo then
+			uv1.onNo()
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.confirmBtn, function ()
-		if slot0.onYes then
-			slot0.onYes()
+		if uv0.onYes then
+			uv0.onYes()
 		end
 
-		slot1:Hide()
+		uv1:Hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.closeBtn, function ()
-		slot0:Hide()
+		uv0:Hide()
 
-		if slot1.onClose then
-			slot1.onClose()
+		if uv1.onClose then
+			uv1.onClose()
 		end
 	end, SFX_PANEL)
 	slot0._tf:SetAsLastSibling()

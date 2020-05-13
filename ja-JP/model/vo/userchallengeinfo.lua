@@ -16,7 +16,7 @@ function slot0.UpdateChallengeInfo(slot0, slot1)
 		table.insert(slot0._dungeonIDList, slot6)
 	end
 
-	slot0._activityIndex = getProxy(ActivityProxy).getActivityByType(slot2, ActivityConst.ACTIVITY_TYPE_CHALLENGE).getConfig(slot3, "config_id")
+	slot0._activityIndex = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE):getConfig("config_id")
 
 	if slot0._mode == ChallengeProxy.MODE_INFINITE then
 		slot0:setInfiniteDungeonIDListByLevel()
@@ -56,6 +56,7 @@ end
 
 function slot0.updateShipHP(slot0, slot1, slot2)
 	if not (slot0._fleet:updateShipsHP(slot1, slot2) or slot0._submarineFleet:updateShipsHP(slot1, slot2)) then
+		-- Nothing
 	end
 end
 
@@ -68,13 +69,11 @@ function slot0.getSubmarineFleet(slot0)
 end
 
 function slot0.getShipUIDList(slot0)
-	slot1 = {}
-
-	for slot6, slot7 in ipairs(slot2) do
-		table.insert(slot1, slot7.id)
+	for slot6, slot7 in ipairs(slot0._fleet:getShips(false)) do
+		table.insert({}, slot7.id)
 	end
 
-	for slot6, slot7 in ipairs(slot2) do
+	for slot6, slot7 in ipairs(slot0._submarineFleet:getShips(false)) do
 		table.insert(slot1, slot7.id)
 	end
 

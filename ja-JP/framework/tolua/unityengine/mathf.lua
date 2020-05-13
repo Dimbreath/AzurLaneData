@@ -193,7 +193,9 @@ function slot3.MultiRandom(slot0, slot1)
 		table.insert({}, slot7)
 	end
 
-	while uv0.min(#slot0, slot1) > 0 do
+	slot1 = uv0.min(#slot0, slot1)
+
+	while slot1 > 0 do
 		table.insert(slot2, slot0[table.remove(slot3, uv0.random(#slot3))])
 
 		slot1 = slot1 - 1

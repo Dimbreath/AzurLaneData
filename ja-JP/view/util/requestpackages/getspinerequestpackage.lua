@@ -6,14 +6,14 @@ function slot0.__call(slot0)
 	end
 
 	pg.PoolMgr.GetInstance():GetSpineChar(slot0.name, true, function (slot0)
-		if slot0.stopped then
-			pg.PoolMgr.GetInstance():ReturnSpineChar(pg.PoolMgr.GetInstance().ReturnSpineChar, slot0)
+		if uv0.stopped then
+			pg.PoolMgr.GetInstance():ReturnSpineChar(uv1, slot0)
 
 			return
 		end
 
-		if slot0.onLoaded then
-			slot0:onLoaded()
+		if uv0.onLoaded then
+			uv0.onLoaded(slot0)
 		end
 	end)
 

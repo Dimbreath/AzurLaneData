@@ -3,7 +3,7 @@ slot0.INVITER = 1
 slot0.RETURNER = 2
 
 function slot0.SetUIName(slot0, slot1)
-	slot0.PAGES = {
+	uv0.PAGES = {
 		{
 			ui = "ReturnAwardPage",
 			class = InviterPage
@@ -13,14 +13,17 @@ function slot0.SetUIName(slot0, slot1)
 			class = ReturnerPage
 		}
 	}
-	slot0._uiName = slot0.PAGES[math.max(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_RETURN_AWARD).data1, 1)].ui
+	slot0._uiName = uv0.PAGES[math.max(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_RETURN_AWARD).data1, 1)].ui
 end
 
 function slot0.OnFirstFlush(slot0)
-	print(slot0.PAGES[slot0.activity.data1].class)
-	print(slot0.activity.data1)
+	slot1 = slot0.activity
+	slot2 = uv0.PAGES[slot1.data1]
 
-	slot0.page = slot0.PAGES[slot0.activity.data1].class.New(slot0._tf, slot0._event)
+	print(slot2.class)
+	print(slot1.data1)
+
+	slot0.page = slot2.class.New(slot0._tf, slot0._event)
 
 	onButton(slot0, slot0.page.help, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({

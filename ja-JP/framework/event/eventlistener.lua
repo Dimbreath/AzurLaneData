@@ -1,12 +1,13 @@
 ys = ys or {}
-ys.EventListener = class("EventListener")
-ys.EventListener.__name = "EventListener"
+slot0 = ys
+slot0.EventListener = class("EventListener")
+slot0.EventListener.__name = "EventListener"
 
-function ys.EventListener.AttachEventListener(slot0)
-	slot0.EventListener.New(slot0)
+function slot0.EventListener.AttachEventListener(slot0)
+	uv0.EventListener.New(slot0)
 end
 
-function ys.EventListener.DetachEventListener(slot0)
+function slot0.EventListener.DetachEventListener(slot0)
 	if slot0._eventListener_ == nil then
 		return
 	end
@@ -16,18 +17,18 @@ function ys.EventListener.DetachEventListener(slot0)
 	slot0._eventListener_ = nil
 end
 
-function ys.EventListener.Ctor(slot0, slot1)
+function slot0.EventListener.Ctor(slot0, slot1)
 	slot0._target_ = slot1
 	slot0._target_._eventListener_ = slot0
 	slot0._routeMap_ = {}
 end
 
-function ys.EventListener._Destory_(slot0)
+function slot0.EventListener._Destory_(slot0)
 	slot0._routeMap_ = nil
 	slot0._target_ = nil
 end
 
-function ys.EventListener._AddRoute_(slot0, slot1, slot2, slot3)
+function slot0.EventListener._AddRoute_(slot0, slot1, slot2, slot3)
 	if slot0._routeMap_[slot1] == nil then
 		slot0._routeMap_[slot1] = {}
 	end
@@ -35,12 +36,10 @@ function ys.EventListener._AddRoute_(slot0, slot1, slot2, slot3)
 	slot0._routeMap_[slot1][slot2] = slot3
 end
 
-function ys.EventListener._RemoveRoute_(slot0, slot1, slot2)
+function slot0.EventListener._RemoveRoute_(slot0, slot1, slot2)
 	slot0._routeMap_[slot1][slot2] = nil
 end
 
-function ys.EventListener._Handle_(slot0, slot1)
+function slot0.EventListener._Handle_(slot0, slot1)
 	slot0._routeMap_[slot1.ID][slot1.Dispatcher](slot0._target_, slot1)
 end
-
-return

@@ -17,28 +17,31 @@ function slot1.Ctor(slot0, slot1)
 	slot0.materialList = {}
 	slot2 = pg.map_data[slot1]
 
-	for slot6, slot7 in ipairs(slot0.LAYERS) do
+	for slot6, slot7 in ipairs(uv0.LAYERS) do
+		slot8 = GameObject.New(slot7 .. "Layer")
+
 		setParent(slot8, slot0._go, false)
 
-		GetOrAddComponent(slot8, "MapLayerCtrl").leftBorder = slot2.range_left
-		GetOrAddComponent(slot8, "MapLayerCtrl").rightBorder = slot2.range_right
+		slot9 = GetOrAddComponent(slot8, "MapLayerCtrl")
+		slot9.leftBorder = slot2.range_left
+		slot9.rightBorder = slot2.range_right
 		slot9.speedToLeft = slot2[slot7 .. "_speed"] or 0
 		slot9.speedScaler = 1
-		slot11 = string.split(slot2[slot7 .. "_pos"], ";")
-		slot12 = string.split(slot2[slot7 .. "_scale"], ";")
 
-		for slot16, slot17 in ipairs(slot10) do
-			slot18 = slot1.Battle.BattleResourceManager.GetInstance():InstMap(slot17)
+		for slot16, slot17 in ipairs(slot0.GetMapResNames(slot1, slot7)) do
+			slot18 = uv1.Battle.BattleResourceManager.GetInstance():InstMap(slot17)
 
 			setParent(slot18, slot8, false)
 
-			tf(slot18).localPosition = string2vector3(slot11[slot16])
-			tf(slot18).localScale = string2vector3(slot12[slot16])
+			tf(slot18).localPosition = string2vector3(string.split(slot2[slot7 .. "_pos"], ";")[slot16])
+			tf(slot18).localScale = string2vector3(string.split(slot2[slot7 .. "_scale"], ";")[slot16])
 
 			if slot18:GetComponent(typeof(MeshRenderer)) then
+				slot20 = slot19.sharedMaterial
+
 				table.insert(slot0.materialList, {
-					material = slot19.sharedMaterial,
-					offset = slot19.sharedMaterial.GetTextureOffset(slot20, "_SeaTex")
+					material = slot20,
+					offset = slot20:GetTextureOffset("_SeaTex")
 				})
 			end
 		end
@@ -77,26 +80,26 @@ function slot1.ShiftSurface(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	slot0._shiftTimer = pg.TimeMgr.GetInstance():AddBattleTimer("", -1, slot3, function ()
-		if (slot0 - slot1) * slot2 > 0 then
-			slot3.Battle.BattleVariable.AppendMapFactor("seaSurfaceShift", )
-			slot4:UpdateMapOffset()
-			slot4:UpdateSpeedScaler()
+		if (uv0 - uv1) * uv2 > 0 then
+			uv3.Battle.BattleVariable.AppendMapFactor("seaSurfaceShift", uv1)
+			uv4:UpdateMapOffset()
+			uv4:UpdateSpeedScaler()
 
-			slot1 = slot4 + slot2
+			uv1 = uv1 + uv2
 		else
-			pg.TimeMgr.GetInstance():RemoveBattleTimer(slot4._shiftTimer)
+			pg.TimeMgr.GetInstance():RemoveBattleTimer(uv4._shiftTimer)
 
-			slot4._shiftTimer = nil
+			uv4._shiftTimer = nil
 
-			if slot5 then
-				slot5()
+			if uv5 then
+				uv5()
 			end
 		end
 	end, true)
 end
 
 function slot1.UpdateSpeedScaler(slot0)
-	slot0:setSpeedScaler(slot0.Battle.BattleVariable.MapSpeedRatio)
+	slot0:setSpeedScaler(uv0.Battle.BattleVariable.MapSpeedRatio)
 end
 
 function slot1.UpdateBufferAlpha(slot0, slot1)
@@ -110,12 +113,11 @@ function slot1.setSpeedScaler(slot0, slot1)
 end
 
 function slot1.UpdateMapOffset(slot0)
-	slot2 = -0.0005 * slot0.Battle.BattleVariable.MapSpeedRatio
-
 	for slot6, slot7 in ipairs(slot0.materialList) do
-		slot7.offset.x = slot7.offset.x + slot2
+		slot8 = slot7.offset
+		slot8.x = slot8.x + -0.0005 * uv0.Battle.BattleVariable.MapSpeedRatio
 
-		slot7.material:SetTextureOffset("_SeaTex", slot7.offset)
+		slot7.material:SetTextureOffset("_SeaTex", slot8)
 	end
 end
 
@@ -140,5 +142,3 @@ end
 function slot1.setActive(slot0, slot1)
 	SetActive(slot0._go, slot1)
 end
-
-return

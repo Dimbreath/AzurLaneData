@@ -133,5 +133,3 @@ pg.tradingport_template = {
 		10
 	}
 }
-
-return

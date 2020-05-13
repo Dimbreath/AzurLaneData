@@ -1,4 +1,6 @@
-class("ActivityPuzzlePicecOPCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("ActivityPuzzlePicecOPCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	slot3 = slot1:getBody().id or 0
 	slot4 = slot2.cmd
 	slot6 = slot2.callback
@@ -50,22 +52,22 @@ class("ActivityPuzzlePicecOPCommand", pm.SimpleCommand).execute = function (slot
 		arg1 = slot3
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
-			slot0 = getProxy(ActivityProxy):getActivityById(getProxy(ActivityProxy).getActivityById)
+			uv0 = getProxy(ActivityProxy):getActivityById(uv1)
 
-			if getProxy(ActivityProxy) == 1 then
-				slot0.data1 = 1
-			elseif slot2 == 2 then
-				table.insert(slot0.data2_list, slot3)
-			elseif slot2 == 3 then
-				table.insert(slot0.data3_list, slot3)
+			if uv2 == 1 then
+				uv0.data1 = 1
+			elseif uv2 == 2 then
+				table.insert(uv0.data2_list, uv3)
+			elseif uv2 == 3 then
+				table.insert(uv0.data3_list, uv3)
 
-				slot0.data2 = pg.TimeMgr.GetInstance():GetServerTime() + slot4.cd
+				uv0.data2 = pg.TimeMgr.GetInstance():GetServerTime() + uv4.cd
 			end
 
-			slot5:updateActivity(slot0)
+			uv5:updateActivity(uv0)
 
-			if slot6 then
-				slot6()
+			if uv6 then
+				uv6()
 			end
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
@@ -73,4 +75,4 @@ class("ActivityPuzzlePicecOPCommand", pm.SimpleCommand).execute = function (slot
 	end)
 end
 
-return class("ActivityPuzzlePicecOPCommand", pm.SimpleCommand)
+return slot0

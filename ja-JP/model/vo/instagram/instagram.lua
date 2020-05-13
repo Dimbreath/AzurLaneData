@@ -62,38 +62,37 @@ function slot0.InitByServer(slot0, slot1)
 end
 
 function slot0.InitByConfig(slot0, slot1)
-	slot0.text = slot0[slot0:getConfig("message_persist")].value
+	slot0.text = uv0[slot0:getConfig("message_persist")].value
 	slot0.picture = slot0:getConfig("picture_persist")
-	slot0.time = pg.TimeMgr:GetInstance():parseTimeFromConfig(slot0:getConfig("time_persist"))
+	slot7 = "time_persist"
+	slot0.time = pg.TimeMgr:GetInstance():parseTimeFromConfig(slot0:getConfig(slot7))
 	slot0.optionDiscuss = {}
 	slot0.discussList = {}
 	slot0.allReply = {}
 
-	function slot3(slot0)
-		slot1 = slot0.npc_reply_persist
+	for slot7, slot8 in ipairs(uv1.all) do
+		slot0.allReply[slot8] = function (slot0)
+			slot1 = slot0.npc_reply_persist
 
-		if type(slot0.npc_reply_persist) == "string" then
-			slot1 = {}
-		end
+			if type(slot0.npc_reply_persist) == "string" then
+				slot1 = {}
+			end
 
-		slot2 = ""
-		slot3 = pg.TimeMgr.GetInstance():GetServerTime()
+			slot2 = ""
+			slot3 = pg.TimeMgr.GetInstance():GetServerTime()
 
-		if slot0[slot0.message_persist] then
-			slot2 = slot0[slot0.message_persist].value
-			slot3 = pg.TimeMgr:GetInstance():parseTimeFromConfig(slot0.time_persist)
-		end
+			if uv0[slot0.message_persist] then
+				slot2 = uv0[slot0.message_persist].value
+				slot3 = pg.TimeMgr:GetInstance():parseTimeFromConfig(slot0.time_persist)
+			end
 
-		return {
-			id = slot0.id,
-			time = slot3,
-			text = slot2,
-			npc_reply = slot1
-		}
-	end
-
-	for slot7, slot8 in ipairs(slot1.all) do
-		slot0.allReply[slot8] = slot3(slot1[slot8])
+			return {
+				id = slot0.id,
+				time = slot3,
+				text = slot2,
+				npc_reply = slot1
+			}
+		end(uv1[slot8])
 	end
 
 	for slot7, slot8 in ipairs(slot1.player_discuss) do
@@ -112,7 +111,7 @@ function slot0.InitByConfig(slot0, slot1)
 
 	if type(slot0:getConfig("npc_discuss_persist")) == "table" then
 		for slot8, slot9 in ipairs(slot4) do
-			table.insert(slot0.discussList, InstagramNpcComment.New(slot3(slot1[slot9]), slot0, 1))
+			table.insert(slot0.discussList, InstagramNpcComment.New(slot3(uv1[slot9]), slot0, 1))
 		end
 	end
 end
@@ -187,13 +186,12 @@ end
 
 function slot0.GetCanDisplayComments(slot0)
 	slot1 = {}
-	slot2 = 0
 
 	for slot6, slot7 in ipairs(slot0.discussList) do
 		if not slot7:ShouldWaitForShow() then
 			table.insert(slot1, slot7)
 
-			slot2 = slot2 + 1
+			slot2 = 0 + 1
 		end
 	end
 

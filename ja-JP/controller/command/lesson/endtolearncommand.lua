@@ -1,4 +1,6 @@
-class("EndToLearnCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("EndToLearnCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 
 	pg.ConnectionMgr.GetInstance():Send(22004, {
@@ -8,32 +10,38 @@ class("EndToLearnCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			slot1 = getProxy(NavalAcademyProxy)
 			slot2 = getProxy(BayProxy)
 			slot3 = slot1:getCourse()
-			slot3.proficiency = math.max(slot3.proficiency - slot0.proficiency, 0)
+			slot5 = slot3.proficiency
+			slot6 = math.max(slot5 - slot0.proficiency, 0)
+			slot3.proficiency = slot6
 			slot7 = {}
 			slot8 = {}
 
 			_.each(slot0.awards, function (slot0)
-				slot0[slot0.ship_id] = slot0.exp
-				slot0[slot0.ship_id] = slot0.energy
+				uv0[slot0.ship_id] = slot0.exp
+				uv1[slot0.ship_id] = slot0.energy
 			end)
+
+			slot9 = _.map(slot3.students, function (slot0)
+				return uv0:getShipById(slot0)
+			end)
+			slot10 = Clone(slot9)
+
 			_.each(slot10, function (slot0)
-				slot0:addExp(slot0[slot0.id] or 0)
-				slot0:addExp(slot0.addExp[slot0.id] or 0)
-				slot0:updateShip(slot0)
+				slot0:addExp(uv0[slot0.id] or 0)
+				slot0:cosumeEnergy(uv1[slot0.id] or 0)
+				uv2:updateShip(slot0)
 			end)
 
 			slot3.students = {}
 			slot3.timestamp = 0
 
 			slot1:setCourse(slot3)
-			slot0:sendNotification(GAME.CLASS_STOP_COURSE_DONE, {
+			uv0:sendNotification(GAME.CLASS_STOP_COURSE_DONE, {
 				title = slot3:getConfig("name_show"),
-				oldProficiency = slot3.proficiency,
-				newProficiency = math.max(slot3.proficiency - slot0.proficiency, 0),
-				oldStudents = _.map(slot3.students, function (slot0)
-					return slot0:getShipById(slot0)
-				end),
-				newStudents = Clone(slot9)
+				oldProficiency = slot5,
+				newProficiency = slot6,
+				oldStudents = slot9,
+				newStudents = slot10
 			})
 
 			return
@@ -43,4 +51,4 @@ class("EndToLearnCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end)
 end
 
-return class("EndToLearnCommand", pm.SimpleCommand)
+return slot0

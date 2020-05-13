@@ -1215,5 +1215,3 @@ BackYardShipsView = import("Mod.BackYard.view.BackYardShipsView")
 BackYardTool = import("Mod.BackYard.view.BackYardTool")
 BackYardView = import("Mod.BackYard.view.BackYardView")
 FurnitureDescWindow = import("Mod.BackYard.view.FurnitureDescWindow")
-
-return

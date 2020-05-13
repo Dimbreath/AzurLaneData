@@ -1,4 +1,6 @@
-class("AddBlackListCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("AddBlackListCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	if slot1:getBody():isFriend() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("friend_player_is_friend_tip"))
 
@@ -9,10 +11,8 @@ class("AddBlackListCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		id = slot2.id
 	}, 50110, function (slot0)
 		if slot0.result == 0 then
-			slot1 = getProxy(FriendProxy)
-
-			slot1:addIntoBlackList(slot0)
-			slot1:sendNotification(GAME.FRIEND_ADD_BLACKLIST_DONE)
+			getProxy(FriendProxy):addIntoBlackList(uv0)
+			uv1:sendNotification(GAME.FRIEND_ADD_BLACKLIST_DONE)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("friend_addblacklist_success"))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("friend_addblacklist", slot0.result))
@@ -20,4 +20,4 @@ class("AddBlackListCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end)
 end
 
-return class("AddBlackListCommand", pm.SimpleCommand)
+return slot0

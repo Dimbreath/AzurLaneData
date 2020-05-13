@@ -1,4 +1,6 @@
-class("ZanShipEvaCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("ZanShipEvaCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 
 	pg.ConnectionMgr.GetInstance():Send(17105, {
@@ -8,17 +10,17 @@ class("ZanShipEvaCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	}, 17106, function (slot0)
 		slot3 = nil
 
-		if getProxy(CollectionProxy).getShipGroup(slot1, slot0) and slot2.evaluation then
+		if getProxy(CollectionProxy):getShipGroup(uv0) and slot2.evaluation then
 			slot3 = _.detect(slot4.evas, function (slot0)
-				return slot0.id == slot0
+				return slot0.id == uv0
 			end)
 		end
 
 		if slot0.result == 0 then
 			if slot3 then
-				if slot2 == 0 then
+				if uv2 == 0 then
 					slot3.good_count = slot3.good_count + 1
-				elseif slot2 == 1 then
+				elseif uv2 == 1 then
 					slot3.bad_count = slot3.bad_count + 1
 				end
 
@@ -26,7 +28,7 @@ class("ZanShipEvaCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 				slot2.evaluation:sortEvas()
 				slot1:updateShipGroup(slot2)
-				slot3:sendNotification(CollectionProxy.GROUP_EVALUATION_UPDATE, slot0)
+				uv3:sendNotification(CollectionProxy.GROUP_EVALUATION_UPDATE, uv0)
 			end
 
 			pg.TipsMgr.GetInstance():ShowTips(i18n("zan_ship_eva_success"))
@@ -35,7 +37,7 @@ class("ZanShipEvaCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				slot3.izan = true
 
 				slot1:updateShipGroup(slot2)
-				slot3:sendNotification(CollectionProxy.GROUP_EVALUATION_UPDATE, slot0)
+				uv3:sendNotification(CollectionProxy.GROUP_EVALUATION_UPDATE, uv0)
 			end
 
 			pg.TipsMgr.GetInstance():ShowTips(i18n("zan_ship_eva_error_7"))
@@ -45,4 +47,4 @@ class("ZanShipEvaCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end)
 end
 
-return class("ZanShipEvaCommand", pm.SimpleCommand)
+return slot0

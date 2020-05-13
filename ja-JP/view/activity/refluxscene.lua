@@ -13,10 +13,11 @@ function slot0.init(slot0)
 		slot0:findTF("left/left_bar/tabs/task"),
 		slot0:findTF("left/left_bar/tabs/pt")
 	}
+	slot4 = "panel_pt"
 	slot0.tabPanels = {
 		slot0:findTF("panel_sign"),
 		slot0:findTF("panel_task"),
-		slot0:findTF("panel_pt")
+		slot0:findTF(slot4)
 	}
 	slot0.panelLetter = slot0:findTF("panel_letter")
 	slot0.btnLetter = slot0:findTF("left/left_bar/letter")
@@ -26,7 +27,7 @@ function slot0.init(slot0)
 	for slot4, slot5 in ipairs(slot0.tabs) do
 		onToggle(slot0, slot5, function (slot0)
 			if slot0 then
-				slot0:SetTab(slot0.SetTab)
+				uv0:SetTab(uv1)
 			end
 		end, SFX_PANEL)
 	end
@@ -36,20 +37,20 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.btnBack, function ()
-		slot0:emit(BaseUI.ON_BACK)
+		uv0:emit(BaseUI.ON_BACK)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.panelLetter:Find("btn_share"), function ()
 		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeReflux)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.btnLetter, function ()
-		slot0:DisplayLetter()
+		uv0:DisplayLetter()
 	end, SFX_PANEL)
 end
 
 function slot0.willExit(slot0)
 	slot0.contextData.tab = slot0:GetTab()
 
-	LeanTween.cancel(go(slot0.tabPanels[slot0.TabPt]))
+	LeanTween.cancel(go(slot0.tabPanels[uv0.TabPt]))
 
 	if slot0.ptAchieveTwId then
 		LeanTween.cancel(slot0.ptAchieveTwId)
@@ -87,7 +88,10 @@ function slot0.SetActivity(slot0, slot1)
 	print("lastSignTime: " .. tostring(slot0.lastSignTime))
 	print("reduceSignDays: " .. tostring(slot0.reduceSignDays))
 	print("activateLevel: " .. tostring(slot0.activateLevel))
-	print("activateShipCount: " .. tostring(slot0.activateShipCount))
+
+	slot5 = slot0.activateShipCount
+
+	print("activateShipCount: " .. tostring(slot5))
 	print("pt account: ")
 
 	for slot5, slot6 in pairs(slot0.ptAccount) do
@@ -117,6 +121,14 @@ end
 
 function slot0.SortTasks(slot0, slot1)
 	function slot2(slot0, slot1, slot2)
+		function slot3(slot0)
+			for slot4, slot5 in ipairs(uv0) do
+				if slot0 == slot5 then
+					return slot4
+				end
+			end
+		end
+
 		return slot3(slot0) < slot3(slot1)
 	end
 
@@ -124,7 +136,7 @@ function slot0.SortTasks(slot0, slot1)
 		if slot0:getTaskStatus() == slot1:getTaskStatus() then
 			return slot0.id < slot1.id
 		else
-			return slot0(slot0:getTaskStatus(), slot1:getTaskStatus(), {
+			return uv0(slot0:getTaskStatus(), slot1:getTaskStatus(), {
 				1,
 				0,
 				2
@@ -150,11 +162,11 @@ function slot0.SetTab(slot0, slot1)
 end
 
 function slot0.UpdateTab(slot0)
-	if slot0.tab == slot0.TabSign then
+	if slot0.tab == uv0.TabSign then
 		slot0:UpdateSign()
-	elseif slot0.tab == slot0.TabTask then
+	elseif slot0.tab == uv0.TabTask then
 		slot0:UpdateTask()
-	elseif slot0.tab == slot0.TabPt then
+	elseif slot0.tab == uv0.TabPt then
 		slot0:UpdatePt()
 	end
 end
@@ -170,7 +182,7 @@ function slot0.DisplayLetter(slot0, slot1)
 	setText(slot0.panelLetter:Find("billboard/days"), slot2:DiffDay(slot0.offlineTime, slot0.activateTime))
 	setText(slot0.panelLetter:Find("billboard/count"), slot0.activateShipCount)
 	onButton(slot0, slot0.panelLetter:Find("billboard"), function ()
-		slot0:HideLetter()
+		uv0:HideLetter()
 	end, SFX_PANEL)
 	setActive(slot0.panelLetter, true)
 end
@@ -186,15 +198,18 @@ function slot0.HideLetter(slot0)
 end
 
 function slot0.UpdateSign(slot0)
-	setText(slot0.tabPanels[slot0.TabSign].Find(slot1, "reduce/text"), slot0.reduceSignDays)
+	slot1 = slot0.tabPanels[uv0.TabSign]
+	slot6 = "reduce/text"
 
-	for slot6 = 0, slot0.tabPanels[slot0.TabSign].Find(slot1, "days").childCount - 1, 1 do
+	setText(slot1:Find(slot6), slot0.reduceSignDays)
+
+	for slot6 = 0, slot1:Find("days").childCount - 1 do
 		slot7 = slot2:GetChild(slot6)
 		slot9 = slot7:Find("checked")
-		slot10 = slot7:Find("item").GetComponentsInChildren(slot8, typeof(Image))
-		slot11 = (slot6 + 1 <= slot0.reduceSignDays and Color.gray) or Color.white
+		slot10 = slot7:Find("item"):GetComponentsInChildren(typeof(Image))
+		slot11 = slot6 + 1 <= slot0.reduceSignDays and Color.gray or Color.white
 
-		for slot15 = 0, slot10.Length - 1, 1 do
+		for slot15 = 0, slot10.Length - 1 do
 			slot10[slot15].color = slot11
 		end
 
@@ -206,18 +221,19 @@ end
 function slot0.UpdateTask(slot0)
 	slot0:SortTasks(slot0.tasks)
 
-	slot2 = UIItemList.New(slot0.tabPanels[slot0.TabTask].Find(slot1, "scrollview/viewport/list"), slot0.tabPanels[slot0.TabTask].Find(slot1, "scrollview/viewport/list/task"))
+	slot1 = slot0.tabPanels[uv0.TabTask]
+	slot2 = UIItemList.New(slot1:Find("scrollview/viewport/list"), slot1:Find("scrollview/viewport/list/task"))
 
 	slot2:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = slot0.tasks[slot1 + 1]
+			slot3 = uv0.tasks[slot1 + 1]
 			slot4 = slot2:Find("goto")
 			slot5 = slot2:Find("finish")
 			slot6 = slot2:Find("achieved")
 			slot8 = slot2:Find("name")
-			slot10 = slot2:Find("drops").Find(slot9, "item")
+			slot10 = slot2:Find("drops"):Find("item")
 
-			for slot14 = 0, slot2:Find("cat").childCount - 1, 1 do
+			for slot14 = 0, slot2:Find("cat").childCount - 1 do
 				setActive(slot7:GetChild(slot14), slot14 == slot1 % 3)
 			end
 
@@ -227,10 +243,12 @@ function slot0.UpdateTask(slot0)
 
 			slot12:make(function (slot0, slot1, slot2)
 				if slot0 == UIItemList.EventUpdate then
+					slot3 = uv0[slot1 + 1]
+
 					updateDrop(slot2, {
-						type = slot0[slot1 + 1][1],
-						id = slot0[slot1 + 1][2],
-						count = slot0[slot1 + 1][3]
+						type = slot3[1],
+						id = slot3[2],
+						count = slot3[3]
 					})
 				end
 			end)
@@ -250,11 +268,11 @@ function slot0.UpdateTask(slot0)
 				setText(slot5:Find("progress/text"), slot14 .. "/" .. slot15)
 			end
 
-			onButton(slot0, slot4:Find("button"), function ()
-				slot0:emit(RefluxMediator.OnTaskGo, slot0)
+			onButton(uv0, slot4:Find("button"), function ()
+				uv0:emit(RefluxMediator.OnTaskGo, uv1)
 			end, SFX_PANEL)
-			onButton(slot0, slot5:Find("button"), function ()
-				slot0:emit(RefluxMediator.OnTaskSubmit, slot1.id)
+			onButton(uv0, slot5:Find("button"), function ()
+				uv0:emit(RefluxMediator.OnTaskSubmit, uv1.id)
 			end, SFX_PANEL)
 		end
 	end)
@@ -262,13 +280,13 @@ function slot0.UpdateTask(slot0)
 end
 
 function slot0.UpdatePt(slot0)
-	for slot7 = slot0.tabPanels[slot0.TabPt].Find(slot2, "scrollview/viewport/list").childCount, #pg.return_pt_template.all - 1, 1 do
+	for slot7 = slot0.tabPanels[uv0.TabPt]:Find("scrollview/viewport/list").childCount, #pg.return_pt_template.all - 1 do
 		cloneTplTo(slot3:GetChild(slot7 % 10), slot3)
 	end
 
 	slot4 = 0
 
-	for slot8 = 0, slot3.childCount - 1, 1 do
+	for slot8 = 0, slot3.childCount - 1 do
 		slot10 = nil
 
 		for slot14, slot15 in ipairs(slot1[slot1.all[slot8 + 1]].level) do
@@ -292,23 +310,24 @@ function slot0.UpdatePt(slot0)
 		})
 		setActive(slot11:Find("checked"), slot8 + 1 <= slot0.battlePhase)
 
-		slot15 = (slot8 + 1 <= slot0.battlePhase and Color.gray) or Color.white
+		slot15 = slot8 + 1 <= slot0.battlePhase and Color.gray or Color.white
 
-		for slot20 = 0, slot12:GetComponentsInChildren(typeof(Image)).Length - 1, 1 do
+		for slot20 = 0, slot12:GetComponentsInChildren(typeof(Image)).Length - 1 do
 			slot16[slot20].color = slot15
 		end
 
 		setImageColor(slot12, slot15)
 
-		slot14.sizeDelta = Vector2((slot8 == 0 and 86) or 125, 20)
+		slot14.sizeDelta = Vector2(slot8 == 0 and 86 or 125, 20)
 
 		setSlider(slot14, 0, slot9.pt_require - slot4, slot0.bonusPoint - slot4)
 		setActive(slot14:Find("Fill Area"), slot4 < slot0.bonusPoint)
 		setText(slot14:Find("text"), slot9.pt_require .. "PT")
 
 		slot4 = slot9.pt_require
+		slot17 = slot8 == slot0.battlePhase and slot9.pt_require <= slot0.bonusPoint
 
-		setActive(slot11:Find("achieve"), slot8 == slot0.battlePhase and slot9.pt_require <= slot0.bonusPoint)
+		setActive(slot11:Find("achieve"), slot17)
 
 		if slot17 then
 			if slot0.ptAchieveTwId then
@@ -320,7 +339,7 @@ function slot0.UpdatePt(slot0)
 			slot0.ptAchieveTwId = LeanTween.moveLocalY(go(slot18), 70, 1.5):setEase(LeanTweenType.easeInOutSine):setFrom(90):setLoopPingPong().uniqueId
 
 			onButton(slot0, slot11, function ()
-				slot0:emit(RefluxMediator.OnBattlePhaseForward, slot0.battlePhase + 1)
+				uv0:emit(RefluxMediator.OnBattlePhaseForward, uv0.battlePhase + 1)
 			end, SFX_PANEL)
 		else
 			removeOnButton(slot11)
@@ -330,10 +349,10 @@ function slot0.UpdatePt(slot0)
 	slot0:ScrollPt(slot0.battlePhase - 1, true)
 	setText(slot2:Find("reduce/text"), slot0.bonusPoint)
 	onButton(slot0, slot2:Find("bg/help"), function ()
-		for slot4 = 1, #Clone(i18n("reflux_help_tip")), 1 do
+		for slot4 = 1, #Clone(i18n("reflux_help_tip")) do
 			if slot0[slot4] and slot0[slot4].info then
 				slot0[slot4].info = string.gsub(slot0[slot4].info, "%[task=(%d+)%]", function (slot0)
-					return slot0.ptAccount[tonumber(slot0)] or 0
+					return uv0.ptAccount[tonumber(slot0)] or 0
 				end)
 			end
 		end
@@ -346,41 +365,33 @@ function slot0.UpdatePt(slot0)
 end
 
 function slot0.ScrollPt(slot0, slot1, slot2, slot3)
-	slot5 = slot0.tabPanels[slot0.TabPt].Find(slot4, "scrollview")
+	slot4 = slot0.tabPanels[uv0.TabPt]
+	slot5 = slot4:Find("scrollview")
 	slot6 = slot5:Find("viewport")
 	slot7 = slot6:Find("list")
+	slot8 = slot7:GetComponent(typeof(HorizontalLayoutGroup))
 	slot9 = slot7:GetChild(0):GetComponent(typeof(LayoutElement))
-	slot12 = math.clamp(math.max(slot1 * (slot9.preferredWidth + slot7:GetComponent(typeof(HorizontalLayoutGroup)).spacing) - slot6.rect.width * 0.5 + slot9.preferredWidth, 0) / ((slot7.childCount * slot9.preferredWidth + (slot7.childCount - 1) * slot7.GetComponent(typeof(HorizontalLayoutGroup)).spacing) - slot6.rect.width), 0, 1)
-	slot13 = slot5:GetComponent(typeof(ScrollRect))
 
-	LeanTween.cancel(go(slot0.tabPanels[slot0.TabPt]))
+	LeanTween.cancel(go(slot4))
 
 	if slot2 then
-		slot13.horizontalNormalizedPosition = slot12
+		slot5:GetComponent(typeof(ScrollRect)).horizontalNormalizedPosition = math.clamp(math.max(slot1 * (slot9.preferredWidth + slot8.spacing) - slot6.rect.width * 0.5 + slot9.preferredWidth, 0) / (slot7.childCount * slot9.preferredWidth + (slot7.childCount - 1) * slot8.spacing - slot6.rect.width), 0, 1)
 	else
 		LeanTween.value(go(slot4), slot13.horizontalNormalizedPosition, slot12, math.abs(slot13.horizontalNormalizedPosition - slot12) * 1):setOnUpdate(System.Action_float(function (slot0)
-			slot0.horizontalNormalizedPosition = slot0
+			uv0.horizontalNormalizedPosition = slot0
 		end)):setOnComplete(System.Action(function ()
-			if slot0 then
-				slot0()
+			if uv0 then
+				uv0()
 			end
 		end)):setEase(LeanTweenType.easeInOutSine)
 	end
 end
 
 function slot0.UpdateTime(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-27, warpins: 1 ---
 	slot1 = pg.TimeMgr.GetInstance()
+	slot2 = slot0.activity:getConfig("config_data")[4]
 
-	setText(slot0.txTime, slot0.activity:getConfig("config_data")[4] - math.clamp(slot1:DiffDay(slot0.activateTime, slot1:GetServerTime()), 0, slot0.activity.getConfig("config_data")[4] - 1))
-
-	return
-	--- END OF BLOCK #0 ---
-
-
-
+	setText(slot0.txTime, slot2 - math.clamp(slot1:DiffDay(slot0.activateTime, slot1:GetServerTime()), 0, slot2 - 1))
 end
 
 return slot0

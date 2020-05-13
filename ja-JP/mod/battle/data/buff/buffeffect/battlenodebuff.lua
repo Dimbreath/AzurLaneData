@@ -4,7 +4,7 @@ ys.Battle.BattleNodeBuff = slot0
 slot0.__name = "BattleNodeBuff"
 
 function slot0.Ctor(slot0, slot1)
-	slot0.super.Ctor(slot0, slot1)
+	uv0.super.Ctor(slot0, slot1)
 end
 
 function slot0.SetArgs(slot0, slot1, slot2)
@@ -16,19 +16,17 @@ function slot0.onFire(slot0, slot1, slot2)
 		return
 	end
 
-	slot4 = slot0._tempData.arg_list.node
-	slot5 = slot0._tempData.arg_list.weapon
-	slot6 = ys.Battle.BattleDataProxy.GetInstance():GetSeqCenter()
+	slot3 = slot0._tempData.arg_list
 
 	for slot10, slot11 in ipairs(slot1:GetAutoWeapons()) do
-		if slot11:GetWeaponId() == slot5 then
+		if slot11:GetWeaponId() == slot3.weapon then
+			slot12 = ys.Battle.BattleDataProxy.GetInstance():GetSeqCenter():NewSeq("buff" .. slot0._id)
+
 			pg.NodeMgr.GetInstance():GenNode(ys.Battle.NodeData.New(slot1, {
 				weapon = slot11
-			}, slot12), pg.BattleNodesCfg[slot4], slot6:NewSeq("buff" .. slot0._id))
+			}, slot12), pg.BattleNodesCfg[slot3.node], slot12)
 
 			break
 		end
 	end
 end
-
-return

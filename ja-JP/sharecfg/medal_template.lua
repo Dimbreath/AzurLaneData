@@ -2315,5 +2315,3 @@ pg.medal_template = {
 		100935
 	}
 }
-
-return

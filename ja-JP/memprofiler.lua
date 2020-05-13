@@ -3,20 +3,18 @@ slot1 = 0
 slot2 = true
 
 function slot3(slot0, slot1)
-	if collectgarbage("count") - slot0 <= 1e-06 then
-		slot0 = collectgarbage("count")
+	if collectgarbage("count") - uv0 <= 1e-06 then
+		uv0 = collectgarbage("count")
 
 		return
 	end
 
-	slot3 = debug.getinfo(2, "S").source
-
-	if slot1 then
-		slot3 = string.format("%s__%d", slot3, slot1 - 1)
+	if uv1 then
+		slot3 = string.format("%s__%d", debug.getinfo(2, "S").source, slot1 - 1)
 	end
 
-	if not slot2[slot3] then
-		slot2[slot3] = {
+	if not uv2[slot3] then
+		uv2[slot3] = {
 			slot3,
 			1,
 			slot2
@@ -26,7 +24,7 @@ function slot3(slot0, slot1)
 		slot4[3] = slot4[3] + slot2
 	end
 
-	slot0 = collectgarbage("count")
+	uv0 = collectgarbage("count")
 end
 
 return {
@@ -37,21 +35,22 @@ return {
 			return
 		end
 
-		slot1 = collectgarbage("count")
-		slot2 = not {}
+		uv0 = {}
+		uv1 = collectgarbage("count")
+		uv2 = not slot0
 
-		debug.sethook(slot3, "l")
+		debug.sethook(uv3, "l")
 	end,
 	StopRecordAllocAndDumpStat = function (slot0)
 		debug.sethook()
 
-		if not slot0 then
+		if not uv0 then
 			return
 		end
 
 		slot1 = {}
 
-		for slot5, slot6 in pairs(slot0) do
+		for slot5, slot6 in pairs(uv0) do
 			table.insert(slot1, slot6)
 		end
 
@@ -73,6 +72,6 @@ return {
 
 		slot2:close()
 
-		slot0 = nil
+		uv0 = nil
 	end
 }

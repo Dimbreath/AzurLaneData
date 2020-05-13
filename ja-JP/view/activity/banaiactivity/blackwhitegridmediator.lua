@@ -3,24 +3,24 @@ slot0.ON_FINISH = "VirtualSpaceMediator:ON_FINISH"
 slot0.ON_UPDATE_SCORE = "VirtualSpaceMediator:ON_UPDATE_SCORE"
 
 function slot0.register(slot0)
-	slot0.viewComponent:setActivity(slot2)
-	slot0:bind(slot0.ON_FINISH, function (slot0, slot1, slot2)
-		slot0:sendNotification(GAME.BLACK_WHITE_GRID_OP, {
+	slot0.viewComponent:setActivity(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BLACKWHITE))
+	slot0:bind(uv0.ON_FINISH, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.BLACK_WHITE_GRID_OP, {
 			cmd = 1,
-			activityId = slot1.id,
+			activityId = uv1.id,
 			id = slot1,
 			score = slot2
 		})
 	end)
-	slot0:bind(slot0.ON_UPDATE_SCORE, function (slot0, slot1, slot2)
-		slot0:sendNotification(GAME.BLACK_WHITE_GRID_OP, {
+	slot0:bind(uv0.ON_UPDATE_SCORE, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.BLACK_WHITE_GRID_OP, {
 			cmd = 2,
-			activityId = slot1.id,
+			activityId = uv1.id,
 			id = slot1,
 			score = slot2
 		})
 	end)
-	slot0.viewComponent:setPlayer(slot3)
+	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getRawData())
 	slot0.viewComponent:setMaps(getProxy(ChapterProxy):getMaps())
 end
 
@@ -37,17 +37,17 @@ function slot0.handleNotification(slot0, slot1)
 	if slot1:getName() == GAME.BLACK_WHITE_GRID_OP_DONE then
 		seriesAsync({
 			function (slot0)
-				slot0.viewComponent:playStory(slot0)
+				uv0.viewComponent:playStory(slot0)
 			end,
 			function (slot0)
-				if #slot0.awards > 0 then
-					slot1.viewComponent:emit(BaseUI.ON_ACHIEVE, slot1, slot0)
+				if #uv0.awards > 0 then
+					uv1.viewComponent:emit(BaseUI.ON_ACHIEVE, slot1, slot0)
 				else
 					slot0()
 				end
 			end,
 			function (slot0)
-				slot0.viewComponent:updateBtnsState()
+				uv0.viewComponent:updateBtnsState()
 				slot0()
 			end
 		})

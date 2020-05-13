@@ -13,7 +13,7 @@ function slot0.Update(slot0, slot1)
 end
 
 function slot0.canRename(slot0)
-	if slot0.RENAME_CODE_TIME - (pg.TimeMgr.GetInstance():GetServerTime() - slot0.renameTime) <= 0 then
+	if uv0.RENAME_CODE_TIME - (pg.TimeMgr.GetInstance():GetServerTime() - slot0.renameTime) <= 0 then
 		return true
 	end
 
@@ -78,11 +78,19 @@ function slot0.isEmpty(slot0)
 end
 
 function slot0.isSame(slot0, slot1)
-	return ((slot0.commanders[1] == nil and slot1[1] == nil) or (slot2 and slot1[1] and slot2.id == slot1[1].id)) and ((slot0.commanders[2] == nil and slot1[2] == nil) or (slot0.commanders[2] and slot1[2] and slot0.commanders[2].id == slot1[2].id))
+	slot3 = slot1[1]
+	slot4 = slot0.commanders[2]
+	slot5 = slot1[2]
+
+	return (slot0.commanders[1] == nil and slot3 == nil or slot2 and slot3 and slot2.id == slot3.id) and (slot4 == nil and slot5 == nil or slot4 and slot5 and slot4.id == slot5.id)
 end
 
 function slot0.isSameId(slot0, slot1)
-	return ((slot0.commanders[1] == nil and slot1[1] == nil) or (slot2 and slot1[1] and slot2.id == slot1[1])) and ((slot0.commanders[2] == nil and slot1[2] == nil) or (slot0.commanders[2] and slot1[2] and slot0.commanders[2].id == slot1[2]))
+	slot3 = slot1[1]
+	slot4 = slot0.commanders[2]
+	slot5 = slot1[2]
+
+	return (slot0.commanders[1] == nil and slot3 == nil or slot2 and slot3 and slot2.id == slot3) and (slot4 == nil and slot5 == nil or slot4 and slot5 and slot4.id == slot5)
 end
 
 return slot0

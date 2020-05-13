@@ -273,5 +273,3 @@ pg.commander_level = {
 		30
 	}
 }
-
-return

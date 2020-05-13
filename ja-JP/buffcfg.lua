@@ -2360,5 +2360,3 @@ pg.buffCfg = {
 }
 
 ys.Battle.BattleDataFunction.ConvertBuffTemplate()
-
-return

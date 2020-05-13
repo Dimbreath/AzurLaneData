@@ -123,5 +123,3 @@ pg.chapter_pop_template = {
 		1280005
 	}
 }
-
-return

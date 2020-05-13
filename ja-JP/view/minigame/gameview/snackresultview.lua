@@ -36,22 +36,18 @@ function slot0.initUI(slot0)
 	slot0.continueBtn = slot0:findTF("Buttons/ContinueBtn", slot1)
 
 	onButton(slot0, slot0.submitBtn, function ()
-		slot0 = slot0:calculateLevel()
-
-		slot0.contextData.onSubmit(slot0)
-		slot0:Destroy()
+		uv0.contextData.onSubmit(uv0:calculateLevel())
+		uv0:Destroy()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.continueBtn, function ()
-		slot0.contextData.onContinue()
-		slot0.contextData.onContinue:Destroy()
+		uv0.contextData.onContinue()
+		uv0:Destroy()
 	end)
 end
 
 function slot0.updateView(slot0)
-	slot1 = slot0:calculateEXValue()
-
 	if slot0.contextData.countTime > 0 then
-		setText(slot0.timeText, slot0.contextData.countTime .. "s   + " .. setColorStr(slot1 .. "s", "#3068E6FF"))
+		setText(slot0.timeText, slot0.contextData.countTime .. "s   + " .. setColorStr(slot0:calculateEXValue() .. "s", "#3068E6FF"))
 	else
 		setText(slot0.timeText, slot0.contextData.countTime .. "s")
 	end
@@ -59,15 +55,17 @@ function slot0.updateView(slot0)
 	setText(slot0.scoreText, slot0.contextData.score .. "   + " .. setColorStr(slot1, "#3068E6FF"))
 	slot0.orderList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setImageSprite(slot0:findTF("SnackImg", slot2), GetSpriteFromAtlas("ui/snackui_atlas", "snack_" .. slot3, true))
+			setImageSprite(uv0:findTF("SnackImg", slot2), GetSpriteFromAtlas("ui/snackui_atlas", "snack_" .. uv0.contextData.orderIDList[slot1 + 1], true))
 		end
 	end)
 	slot0.orderList:align(#slot0.contextData.orderIDList)
 	slot0.selectedList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setImageSprite(slot4, GetSpriteFromAtlas("ui/snackui_atlas", "snack_" .. slot3, true))
-			setActive(slot0:findTF("CorrectImg", slot2), slot0.contextData.selectedIDList[slot1 + 1] == slot0.contextData.orderIDList[slot1 + 1])
-			setActive(slot0:findTF("ErrorImg", slot2), slot3 ~= slot5)
+			slot3 = uv0.contextData.selectedIDList[slot1 + 1]
+
+			setImageSprite(uv0:findTF("SnackImg", slot2), GetSpriteFromAtlas("ui/snackui_atlas", "snack_" .. slot3, true))
+			setActive(uv0:findTF("CorrectImg", slot2), slot3 == uv0.contextData.orderIDList[slot1 + 1])
+			setActive(uv0:findTF("ErrorImg", slot2), slot3 ~= slot5)
 		end
 	end)
 	slot0.selectedList:align(#slot0.contextData.selectedIDList)
@@ -81,11 +79,9 @@ function slot0.updateView(slot0)
 end
 
 function slot0.calculateEXValue(slot0)
-	slot1 = 0
-
 	for slot5, slot6 in ipairs(slot0.contextData.selectedIDList) do
 		if slot0.contextData.orderIDList[slot5] == slot6 then
-			slot1 = slot1 + 1
+			slot1 = 0 + 1
 		end
 	end
 

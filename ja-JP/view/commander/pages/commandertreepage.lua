@@ -12,10 +12,10 @@ function slot0.OnInit(slot0)
 
 	setActive(slot0.treePanel, false)
 	onButton(slot0, slot0.treePanel, function ()
-		slot0:closeTreePanel()
+		uv0:closeTreePanel()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.treePanelCloseBtn, function ()
-		slot0:closeTreePanel()
+		uv0:closeTreePanel()
 	end, SFX_PANEL)
 end
 
@@ -24,25 +24,25 @@ function slot0.openTreePanel(slot0, slot1)
 	slot0.treePanel:SetAsLastSibling()
 
 	function slot2(slot0)
-		slot0.treeTalentDesTxt.text = slot0:getConfig("desc")
+		uv0.treeTalentDesTxt.text = slot0:getConfig("desc")
 	end
 
 	slot0.treeList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = CommanderTalent.New({
 				origin = false,
-				id = slot0[slot1 + 1]
+				id = uv0[slot1 + 1]
 			})
 
-			onToggle(slot1, slot2, function (slot0)
+			onToggle(uv1, slot2, function (slot0)
 				if slot0 then
-					slot0(slot0)
+					uv0(uv1)
 				end
 			end, SFX_PANEL)
 			setText(slot2:Find("name"), slot3:getConfig("name"))
-			triggerToggle(slot2, slot3.id == slot3.id)
-			setActive(slot2:Find("curr"), slot3.id == slot3.id)
-			setActive(slot2:Find("arr"), slot1 ~= #slot0 - 1)
+			triggerToggle(slot2, uv3.id == slot3.id)
+			setActive(slot2:Find("curr"), uv3.id == slot3.id)
+			setActive(slot2:Find("arr"), slot1 ~= #uv0 - 1)
 			GetImageSpriteFromAtlasAsync("CommanderTalentIcon/" .. slot3:getConfig("icon"), "", slot2)
 		end
 	end)
@@ -54,7 +54,6 @@ function slot0.closeTreePanel(slot0)
 end
 
 function slot0.OnDestroy(slot0)
-	return
 end
 
 return slot0

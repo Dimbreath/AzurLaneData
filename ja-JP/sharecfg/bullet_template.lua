@@ -126807,5 +126807,3 @@ pg.bullet_template = {
 		990361
 	}
 }
-
-return

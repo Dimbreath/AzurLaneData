@@ -29,49 +29,49 @@ function slot0.InitUI(slot0)
 	slot0.descTF = slot0:findTF("item/bottom/desc_con/desc")
 
 	onButton(slot0, slot0._tf, function ()
-		slot0:Destroy()
+		uv0:Destroy()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.rightArr, function ()
-		if not slot0.itemVO then
+		if not uv0.itemVO then
 			return
 		end
 
-		slot0.count = math.min(slot0.count + 1, slot0.itemVO.count)
+		uv0.count = math.min(uv0.count + 1, uv0.itemVO.count)
 
-		slot0:updateValue()
+		uv0:updateValue()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.leftArr, function ()
-		if not slot0.itemVO then
+		if not uv0.itemVO then
 			return
 		end
 
-		slot0.count = math.max(slot0.count - 1, 1)
+		uv0.count = math.max(uv0.count - 1, 1)
 
-		slot0:updateValue()
+		uv0:updateValue()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.maxBtn, function ()
-		if not slot0.itemVO then
+		if not uv0.itemVO then
 			return
 		end
 
-		slot0.count = slot0.itemVO.count
+		uv0.count = uv0.itemVO.count
 
-		slot0:updateValue()
+		uv0:updateValue()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.confirmBtn, function ()
-		if not slot0.selectedVO or not slot0.itemVO or slot0.count <= 0 then
+		if not uv0.selectedVO or not uv0.itemVO or uv0.count <= 0 then
 			return
 		end
 
-		slot0:emit(EquipmentMediator.ON_USE_ITEM, slot0.itemVO.id, slot0.count, slot0.selectedVO)
-		slot0.emit:Destroy()
+		uv0:emit(EquipmentMediator.ON_USE_ITEM, uv0.itemVO.id, uv0.count, uv0.selectedVO)
+		uv0:Destroy()
 	end, SFX_PANEL)
 end
 
 function slot0.updateValue(slot0)
 	setText(slot0.valueText, slot0.count)
 	slot0.ulist:each(function (slot0, slot1)
-		setText(slot1:Find("item/bg/icon_bg/count"), slot0.count)
+		setText(slot1:Find("item/bg/icon_bg/count"), uv0.count)
 	end)
 end
 
@@ -101,28 +101,31 @@ function slot0.update(slot0, slot1)
 
 	slot0.ulist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
+			slot3 = uv0[slot1 + 1]
+			slot4 = {
+				type = slot3[1],
+				id = slot3[2],
+				count = slot3[3]
+			}
+
 			updateDrop(slot2:Find("item/bg"), slot4)
 
 			slot5 = slot2:Find("item/bg/icon_bg/count")
 
-			onToggle(slot1, slot2, function (slot0)
+			onToggle(uv1, slot2, function (slot0)
 				if slot0 then
-					slot0.selectedVO = slot1:getTempCfgTable().usage_arg[slot2 + 1]
+					uv0.selectedVO = uv1:getTempCfgTable().usage_arg[uv2 + 1]
 
-					setText(slot2 + 1, slot0.count * slot4[3])
+					setText(uv3, uv0.count * uv4[3])
 
-					slot0.selectedItem = slot5
+					uv0.selectedItem = uv5
 				end
 			end, SFX_PANEL)
 
 			slot6 = ScrollTxt.New(slot2:Find("name_bg"), slot2:Find("name_bg/Text"))
 
-			slot6:setText(({
-				type = slot0[slot1 + 1][1],
-				id = slot0[slot1 + 1][2],
-				count = slot0[slot1 + 1][3]
-			})["cfg"].name)
-			table.insert(slot1.scrollTxts, slot6)
+			slot6:setText(slot4.cfg.name)
+			table.insert(uv1.scrollTxts, slot6)
 		end
 	end)
 	slot0.ulist:align(#slot1:getConfig("display_icon"))

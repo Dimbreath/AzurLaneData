@@ -71,12 +71,12 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.btnBack, function ()
-		if slot0.exited then
+		if uv0.exited then
 			return
 		end
 
-		slot0:uiExitAnimating()
-		slot0.uiExitAnimating:emit(slot1.ON_BACK, nil, 0.3)
+		uv0:uiExitAnimating()
+		uv0:emit(uv1.ON_BACK, nil, 0.3)
 	end, SOUND_BACK)
 	onButton(slot0, slot0.btnHelp, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -88,11 +88,11 @@ function slot0.didEnter(slot0)
 		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeColoring)
 	end, SFX_PANEL)
 	onNextTick(function ()
-		if slot0.exited then
+		if uv0.exited then
 			return
 		end
 
-		slot0:uiStartAnimating()
+		uv0:uiStartAnimating()
 	end)
 	slot0:initColoring()
 	slot0:updatePage()
@@ -113,22 +113,25 @@ function slot0.initColoring(slot0)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("coloring_erase_all_warning"),
 			onYes = function ()
-				if slot0.colorGroups[slot0.selectedIndex]:canBeCustomised() then
-					slot0:emit(ColoringMediator.EVENT_COLORING_CLEAR, {
-						activityId = slot0.activity.id,
+				if uv0.colorGroups[uv0.selectedIndex]:canBeCustomised() then
+					uv0:emit(ColoringMediator.EVENT_COLORING_CLEAR, {
+						activityId = uv0.activity.id,
 						id = slot0.id
 					})
 				end
 			end
 		})
 	end, SFX_PANEL)
+
+	slot5 = SFX_PANEL
+
 	onButton(slot0, slot0.arrowDown, function ()
-		slot0.scrollColor:GetComponent(typeof(ScrollRect)).verticalNormalizedPosition = 0
-	end, SFX_PANEL)
+		uv0.scrollColor:GetComponent(typeof(ScrollRect)).verticalNormalizedPosition = 0
+	end, slot5)
 
 	slot1 = 1
 
-	for slot5 = 1, #slot0.colorGroups, 1 do
+	for slot5 = 1, #slot0.colorGroups do
 		if slot0.colorGroups[slot5]:getState() == ColorGroup.StateColoring then
 			slot1 = slot5
 
@@ -152,54 +155,54 @@ function slot0.initInteractive(slot0)
 		slot7 = slot0.colorGroups[slot4]
 
 		onButton(slot0, slot5, function ()
-			slot0 = slot0:getState()
-
-			if slot0.selectedIndex ~= slot2 and slot0 ~= ColorGroup.StateLock then
-				if slot1.paintsgroup[slot1.selectedIndex] then
-					slot1:SetParent(slot1.colorgroupbehind)
+			if uv1.selectedIndex ~= uv2 and uv0:getState() ~= ColorGroup.StateLock then
+				if uv1.paintsgroup[uv1.selectedIndex] then
+					slot1:SetParent(uv1.colorgroupbehind)
 				end
 
-				slot1.selectedIndex = slot1
+				uv1.selectedIndex = uv2
 
-				slot1:SetParent(slot1.colorgroupfront)
-				slot1:updateSelectedColoring()
+				uv3:SetParent(uv1.colorgroupfront)
+				uv1:updateSelectedColoring()
 			elseif slot0 == ColorGroup.StateLock then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("coloring_lock"))
 			end
 
-			slot1:updatePage()
+			uv1:updatePage()
 		end, SFX_PANEL)
 	end
 
-	for slot4 = 0, slot0.groupColor.childCount - 1, 1 do
+	for slot4 = 0, slot0.groupColor.childCount - 1 do
 		onToggle(slot0, slot0.groupColor:GetChild(slot4), function (slot0)
-			slot1 = slot0:findTF("icon", slot0.findTF)
+			slot1 = uv0:findTF("icon", uv1)
 
 			if slot0 then
-				if slot0.selectedColorIndex ~= slot2 + 1 then
-					slot1.sizeDelta.x = slot3
-					slot1.sizeDelta = slot1.sizeDelta
-					slot0.selectedColorIndex = slot2 + 1
+				if uv0.selectedColorIndex ~= uv2 + 1 then
+					slot2 = slot1.sizeDelta
+					slot2.x = uv3
+					slot1.sizeDelta = slot2
+					uv0.selectedColorIndex = uv2 + 1
 				end
 			else
-				slot1.sizeDelta.x = slot4
-				slot1.sizeDelta = slot1.sizeDelta
+				slot2 = slot1.sizeDelta
+				slot2.x = uv4
+				slot1.sizeDelta = slot2
 			end
 		end, SFX_PANEL)
 	end
 
 	onToggle(slot0, slot0.toggleEraser, function ()
-		if slot0.selectedColorIndex > 0 and slot0.selectedColorIndex <= slot0.groupColor.childCount then
-			triggerToggle(slot0.groupColor:GetChild(slot0.selectedColorIndex - 1), false)
+		if uv0.selectedColorIndex > 0 and uv0.selectedColorIndex <= uv0.groupColor.childCount then
+			triggerToggle(uv0.groupColor:GetChild(uv0.selectedColorIndex - 1), false)
 		end
 
-		slot0.selectedColorIndex = 0
+		uv0.selectedColorIndex = 0
 	end, SFX_PANEL)
 end
 
 function slot0.updatePage(slot0)
 	for slot4, slot5 in pairs(slot0.paintsgroup) do
-		setActive(slot5:Find("lock"), slot0.colorGroups[slot4].getState(slot7) == ColorGroup.StateLock)
+		setActive(slot5:Find("lock"), slot0.colorGroups[slot4]:getState() == ColorGroup.StateLock)
 		setActive(slot5:Find("get"), slot8 == ColorGroup.StateAchieved)
 	end
 
@@ -217,19 +220,22 @@ function slot0.updatePage(slot0)
 end
 
 function slot0.updateSelectedColoring(slot0)
-	slot2 = slot0.colorGroups[slot0.selectedIndex].getConfig(slot1, "color_id_list")
-	slot3 = slot0.colorGroups[slot0.selectedIndex].colors
+	slot1 = slot0.colorGroups[slot0.selectedIndex]
+	slot3 = slot1.colors
 
-	for slot7 = 0, slot0.groupColor.childCount - 1, 1 do
-		setText(slot0.groupColor:GetChild(slot7).Find(slot8, "icon/x/nums"), slot0.colorItems[slot2[slot7 + 1]] or 0)
+	for slot7 = 0, slot0.groupColor.childCount - 1 do
+		setText(slot0.groupColor:GetChild(slot7):Find("icon/x/nums"), slot0.colorItems[slot1:getConfig("color_id_list")[slot7 + 1]] or 0)
 	end
 
-	setText(slot0.title, slot1:getConfig("name"))
-	setActive(slot0.title.parent, slot1:getConfig("name") ~= nil)
+	slot4 = slot1:getConfig("name")
+
+	setText(slot0.title, slot4)
+	setActive(slot0.title.parent, slot4 ~= nil)
 	setActive(slot0.barExtra, slot1:canBeCustomised())
 
-	slot0.scrollColor.sizeDelta.y = (slot1:canBeCustomised() and slot0) or slot1
-	slot0.scrollColor.sizeDelta = slot0.scrollColor.sizeDelta
+	slot5 = slot0.scrollColor.sizeDelta
+	slot5.y = slot1:canBeCustomised() and uv0 or uv1
+	slot0.scrollColor.sizeDelta = slot5
 	slot0.scrollColor:GetComponent(typeof(ScrollRect)).verticalNormalizedPosition = 1
 
 	setActive(slot0.scrollColor, false)
@@ -242,10 +248,10 @@ function slot0.updateSelectedColoring(slot0)
 end
 
 function slot0.updateCells(slot0)
-	slot5, slot3 = unpack(slot0.colorGroups[slot0.selectedIndex].getConfig(slot1, "theme"))
+	slot2, slot3 = unpack(slot0.colorGroups[slot0.selectedIndex]:getConfig("theme"))
 
-	for slot7 = 0, slot2, 1 do
-		for slot11 = 0, slot3, 1 do
+	for slot7 = 0, slot2 do
+		for slot11 = 0, slot3 do
 			slot0:updateCell(slot7, slot11)
 		end
 	end
@@ -260,39 +266,39 @@ function slot0.updateCells(slot0)
 	slot5 = false
 
 	slot4:AddPointClickFunc(function (slot0, slot1)
-		if slot0 then
+		if uv0 then
 			return
 		end
 
-		slot2 = LuaHelper.ScreenToLocal(slot1.bg, slot1.position, GameObject.Find("UICamera"):GetComponent(typeof(Camera)))
-		slot5 = slot2:getCell(slot3, math.floor(slot2.x / slot1.cellSize.x))
+		slot2 = LuaHelper.ScreenToLocal(uv1.bg, slot1.position, GameObject.Find("UICamera"):GetComponent(typeof(Camera)))
+		slot5 = uv2:getCell(math.floor(-slot2.y / uv1.cellSize.y), math.floor(slot2.x / uv1.cellSize.x))
 
-		if slot2:getState() == ColorGroup.StateColoring then
+		if uv2:getState() == ColorGroup.StateColoring then
 			function slot6()
-				slot0:emit(ColoringMediator.EVENT_COLORING_CELL, {
-					activityId = slot0.activity.id,
-					id = slot1.id,
-					cells = slot0:searchColoringCells(slot0, ColoringMediator.EVENT_COLORING_CELL, , slot0.selectedColorIndex)
+				uv0:emit(ColoringMediator.EVENT_COLORING_CELL, {
+					activityId = uv0.activity.id,
+					id = uv1.id,
+					cells = uv0:searchColoringCells(uv1, uv2, uv3, uv0.selectedColorIndex)
 				})
 			end
 
-			if not slot2:canBeCustomised() then
-				if slot1.selectedColorIndex == 0 or not slot5 or slot2:hasFill(slot3, slot4) then
+			if not uv2:canBeCustomised() then
+				if uv1.selectedColorIndex == 0 or not slot5 or uv2:hasFill(slot3, slot4) then
 					return
 				end
 
-				if slot5.type ~= slot1.selectedColorIndex then
+				if slot5.type ~= uv1.selectedColorIndex then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("coloring_color_missmatch"))
 
 					return
 				end
 
-				if (slot1.colorItems[slot2:getConfig("color_id_list")[slot1.selectedColorIndex]] or 0) <= 0 then
+				if (uv1.colorItems[uv2:getConfig("color_id_list")[uv1.selectedColorIndex]] or 0) <= 0 then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("coloring_color_not_enough"))
 
 					return
 				end
-			elseif slot1.selectedColorIndex == 0 and not slot2:hasFill(slot3, slot4) then
+			elseif uv1.selectedColorIndex == 0 and not uv2:hasFill(slot3, slot4) then
 				return
 			end
 
@@ -300,51 +306,51 @@ function slot0.updateCells(slot0)
 		end
 	end)
 	slot4:AddBeginDragFunc(function ()
-		slot0 = false
+		uv0 = false
 	end)
 
 	slot6 = Vector2.New(slot0.bg.rect.width / UnityEngine.Screen.width, slot0.bg.rect.height / UnityEngine.Screen.height)
 
 	slot4:AddDragFunc(function (slot0, slot1)
-		slot0 = true
+		uv0 = true
 
 		if not Application.isEditor then
-			slot1.zoom.enabled = Input.touchCount == 2
+			uv1.zoom.enabled = Input.touchCount == 2
 		end
 
-		if Application.isEditor or not slot1.zoom.enabled then
-			slot1.bg.anchoredPosition.x = slot1.bg.anchoredPosition.x + slot1.delta.x * slot2.x
-			slot1.bg.anchoredPosition.x = math.clamp(slot1.bg.anchoredPosition.x, -slot1.bg.rect.width * (slot1.bg.localScale.x - 1), 0)
-			slot1.bg.anchoredPosition.y = slot1.bg.anchoredPosition.y + slot1.delta.y * slot2.y
-			slot1.bg.anchoredPosition.y = math.clamp(slot1.bg.anchoredPosition.y, 0, slot1.bg.rect.height * (slot1.bg.localScale.y - 1))
-			slot1.bg.anchoredPosition = slot1.bg.anchoredPosition
+		if Application.isEditor or not uv1.zoom.enabled then
+			slot2 = uv1.bg.anchoredPosition
+			slot2.x = slot2.x + slot1.delta.x * uv2.x
+			slot2.x = math.clamp(slot2.x, -uv1.bg.rect.width * (uv1.bg.localScale.x - 1), 0)
+			slot2.y = slot2.y + slot1.delta.y * uv2.y
+			slot2.y = math.clamp(slot2.y, 0, uv1.bg.rect.height * (uv1.bg.localScale.y - 1))
+			uv1.bg.anchoredPosition = slot2
 		end
 	end)
 	slot4:AddDragEndFunc(function ()
-		slot0 = false
+		uv0 = false
 	end)
 end
 
 function slot0.updateCell(slot0, slot1, slot2)
-	slot4 = slot0.colorGroups[slot0.selectedIndex].getCell(slot3, slot1, slot2)
-	slot5 = slot0.colorGroups[slot0.selectedIndex].getFill(slot3, slot1, slot2)
+	slot3 = slot0.colorGroups[slot0.selectedIndex]
+	slot4 = slot3:getCell(slot1, slot2)
+	slot5 = slot3:getFill(slot1, slot2)
 
-	if slot0.colorGroups[slot0.selectedIndex].getState(slot3) == ColorGroup.StateFinish or slot6 == ColorGroup.StateAchieved then
+	if slot3:getState() == ColorGroup.StateFinish or slot6 == ColorGroup.StateAchieved then
 		slot5 = slot4
 	end
 
-	slot8 = slot0.cells:Find(slot1 .. "_" .. slot2)
-
 	if slot4 or slot5 then
-		slot8 or cloneTplTo(slot0.cell, slot0.cells, slot7).sizeDelta = slot0.cellSize
-		slot8 or cloneTplTo(slot0.cell, slot0.cells, slot7).anchoredPosition = Vector2(slot5 or slot4.column * slot0.cellSize.x, -(slot5 or slot4.row * slot0.cellSize.y))
-		slot9 = slot8 or cloneTplTo(slot0.cell, slot0.cells, slot7):Find("image")
+		slot8 = slot0.cells:Find(slot1 .. "_" .. slot2) or cloneTplTo(slot0.cell, slot0.cells, slot7)
+		slot8.sizeDelta = slot0.cellSize
+		slot8.anchoredPosition = Vector2((slot5 or slot4).column * slot0.cellSize.x, -((slot5 or slot4).row * slot0.cellSize.y))
 		slot10 = slot8:Find("text")
 
 		if slot5 then
-			setImageColor(slot9, slot3.colors[slot5.type])
+			setImageColor(slot8:Find("image"), slot3.colors[slot5.type])
 		else
-			setText(slot10, slot0.Letters[slot4.type])
+			setText(slot10, uv0.Letters[slot4.type])
 		end
 
 		setActive(slot9, slot5)
@@ -356,38 +362,38 @@ function slot0.updateCell(slot0, slot1, slot2)
 end
 
 function slot0.calcCellSize(slot0)
-	slot2, slot3 = unpack(slot0.colorGroups[slot0.selectedIndex].getConfig(slot1, "theme"))
+	slot2, slot3 = unpack(slot0.colorGroups[slot0.selectedIndex]:getConfig("theme"))
+	slot4 = slot0.bg.rect
 
-	return Vector2.New(slot0.bg.rect.width / slot3, slot0.bg.rect.height / slot2)
+	return Vector2.New(slot4.width / slot3, slot4.height / slot2)
 end
 
 function slot0.updateLines(slot0)
-	slot2, slot3 = unpack(slot0.colorGroups[slot0.selectedIndex].getConfig(slot1, "theme"))
+	slot2, slot3 = unpack(slot0.colorGroups[slot0.selectedIndex]:getConfig("theme"))
 
-	for slot7 = 1, slot3 - 1, 1 do
-		slot0.lines:Find("column_" .. slot7) or cloneTplTo(slot0.line, slot0.lines, slot8).sizeDelta = Vector2.New(1, slot0.lines.rect.height)
-		slot0.lines.Find("column_" .. slot7) or cloneTplTo(slot0.line, slot0.lines, slot8).anchoredPosition = Vector2.New(slot7 * slot0.cellSize.x - 0.5, 0)
+	for slot7 = 1, slot3 - 1 do
+		slot9 = slot0.lines:Find("column_" .. slot7) or cloneTplTo(slot0.line, slot0.lines, slot8)
+		slot9.sizeDelta = Vector2.New(1, slot0.lines.rect.height)
+		slot9.anchoredPosition = Vector2.New(slot7 * slot0.cellSize.x - 0.5, 0)
 	end
 
-	for slot7 = 1, slot2 - 1, 1 do
-		slot0.lines:Find("row_" .. slot7) or cloneTplTo(slot0.line, slot0.lines, slot8).sizeDelta = Vector2.New(slot0.lines.rect.width, 1)
-		slot0.lines.Find("row_" .. slot7) or cloneTplTo(slot0.line, slot0.lines, slot8).anchoredPosition = Vector2.New(0, -(slot7 * slot0.cellSize.y - 0.5))
+	for slot7 = 1, slot2 - 1 do
+		slot9 = slot0.lines:Find("row_" .. slot7) or cloneTplTo(slot0.line, slot0.lines, slot8)
+		slot9.sizeDelta = Vector2.New(slot0.lines.rect.width, 1)
+		slot9.anchoredPosition = Vector2.New(0, -(slot7 * slot0.cellSize.y - 0.5))
 	end
 end
 
 function slot0.searchColoringCells(slot0, slot1, slot2, slot3, slot4)
-	slot5 = {
-		row = slot2,
-		column = slot3,
-		color = slot4
-	}
-
 	if slot1:canBeCustomised() then
 		return {
-			slot5
+			{
+				row = slot2,
+				column = slot3,
+				color = slot4
+			}
 		}
 	else
-		slot7 = slot0.colorItems[slot1:getConfig("color_id_list")[slot4]]
 		slot8 = {}
 		slot9 = {}
 		slot10 = {
@@ -428,19 +434,21 @@ function slot0.searchColoringCells(slot0, slot1, slot2, slot3, slot4)
 			}
 		}
 
-		while #slot10 > 0 and slot7 > 0 do
-			if not slot1:hasFill(table.remove(slot10, 1).row, table.remove(slot10, 1).column) and slot12.color == slot4 then
+		while #slot10 > 0 and slot0.colorItems[slot1:getConfig("color_id_list")[slot4]] > 0 do
+			slot12 = table.remove(slot10, 1)
+
+			if not slot1:hasFill(slot12.row, slot12.column) and slot12.color == slot4 then
 				table.insert(slot8, slot12)
 
 				slot7 = slot7 - 1
 
 				_.each(slot11, function (slot0)
-					if slot0:getCell(slot0.row + slot1.row, slot0.column + slot1.column) and not (_.any(_.any, function (slot0)
-						return slot0.row == slot0.row and slot0.column == slot0.column
-					end) or _.any(slot3, function (slot0)
-						return slot0.row == slot0.row and slot0.column == slot0.column
+					if uv0:getCell(slot0.row + uv1.row, slot0.column + uv1.column) and not (_.any(uv2, function (slot0)
+						return slot0.row == uv0.row and slot0.column == uv0.column
+					end) or _.any(uv3, function (slot0)
+						return slot0.row == uv0.row and slot0.column == uv0.column
 					end)) then
-						table.insert(slot2, {
+						table.insert(uv2, {
 							row = slot1.row,
 							column = slot1.column,
 							color = slot1.type
@@ -460,7 +468,7 @@ function slot0.TryPlayStory(slot0)
 	slot2 = slot0.selectedIndex
 
 	table.eachAsync({}, function (slot0, slot1, slot2)
-		if slot0 <= slot0 and slot1 then
+		if slot0 <= uv0 and slot1 then
 			pg.StoryMgr.GetInstance():Play(slot1, slot2)
 		else
 			slot2()

@@ -1203,5 +1203,3 @@ sc_19021 = slot0.Message(SC_19021)
 sc_19023 = slot0.Message(SC_19023)
 sc_19102 = slot0.Message(SC_19102)
 ship_in_drom = slot0.Message(SHIP_IN_DROM)
-
-return

@@ -2,9 +2,9 @@ slot0 = class("AwardInfoMediator", import("..base.ContextMediator"))
 slot0.ON_DROP = "AwardInfoMediator:ON_DROP"
 
 function slot0.register(slot0)
-	slot0:bind(slot0.ON_DROP, function (slot0, slot1, slot2)
+	slot0:bind(uv0.ON_DROP, function (slot0, slot1, slot2)
 		if slot1.type == DROP_TYPE_EQUIP then
-			slot0:addSubLayers(Context.New({
+			uv0:addSubLayers(Context.New({
 				mediator = EquipmentInfoMediator,
 				viewComponent = EquipmentInfoLayer,
 				data = {

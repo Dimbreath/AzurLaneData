@@ -18,18 +18,18 @@ function slot0.InitUI(slot0)
 	setText(slot0:findTF("frame/title_text/Text"), i18n("equipment_select_device_destroy_bonus_tip"))
 	setText(slot0.destroyNoGotTip, i18n("equipment_select_device_destroy_nobonus_tip"))
 	onButton(slot0, slot0:findTF("frame/actions/cancel_btn"), function ()
-		slot0:Destroy()
+		uv0:Destroy()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0._tf, function ()
-		slot0:Destroy()
+		uv0:Destroy()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0:findTF("frame/top/btnBack"), function ()
-		slot0:Destroy()
+		uv0:Destroy()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0:findTF("frame/actions/confirm_btn"), function ()
-		slot0:emit(EquipmentMediator.ON_DESTROY, slot0.selectedIds)
-		slot0.emit.confirmBtnCB()
-		slot0.emit.confirmBtnCB:Destroy()
+		uv0:emit(EquipmentMediator.ON_DESTROY, uv0.selectedIds)
+		uv0.confirmBtnCB()
+		uv0:Destroy()
 	end, SFX_UI_EQUIPMENT_RESOLVE)
 end
 
@@ -47,14 +47,12 @@ end
 function slot0.DisplayDestroyBonus(slot0, slot1)
 	slot0.selectedIds = slot1
 	slot2 = {}
-	slot3 = 0
 
 	for slot7, slot8 in ipairs(slot0.selectedIds) do
 		if pg.equip_data_template[slot8[1]] then
-			slot10 = slot9.destory_item or {}
-			slot3 = slot3 + (slot9.destory_gold or 0) * slot8[2]
+			slot3 = 0 + (slot9.destory_gold or 0) * slot8[2]
 
-			for slot15, slot16 in ipairs(slot10) do
+			for slot15, slot16 in ipairs(slot9.destory_item or {}) do
 				slot17 = false
 
 				for slot21, slot22 in ipairs(slot2) do
@@ -93,8 +91,8 @@ function slot0.DisplayDestroyBonus(slot0, slot1)
 
 	slot0.destroyList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			if slot0[slot1 + 1].type == DROP_TYPE_SHIP then
-				slot1.hasShip = true
+			if uv0[slot1 + 1].type == DROP_TYPE_SHIP then
+				uv1.hasShip = true
 			end
 
 			updateDrop(slot2:Find("bg"), slot3)
@@ -106,12 +104,12 @@ function slot0.DisplayDestroyBonus(slot0, slot1)
 			end
 
 			setText(slot2:Find("bg/name"), slot5)
-			onButton(slot1, slot2, function ()
-				if slot0.type == DROP_TYPE_RESOURCE or slot0.type == DROP_TYPE_ITEM then
-					slot1:emit(BaseUI.ON_ITEM, slot0.cfg.id)
-				elseif slot0.type == DROP_TYPE_EQUIP then
-					slot1:emit(BaseUI.ON_EQUIPMENT, {
-						equipmentId = slot0.cfg.id,
+			onButton(uv1, slot2, function ()
+				if uv0.type == DROP_TYPE_RESOURCE or uv0.type == DROP_TYPE_ITEM then
+					uv1:emit(BaseUI.ON_ITEM, uv0.cfg.id)
+				elseif uv0.type == DROP_TYPE_EQUIP then
+					uv1:emit(BaseUI.ON_EQUIPMENT, {
+						equipmentId = uv0.cfg.id,
 						type = EquipmentInfoMediator.TYPE_DISPLAY
 					})
 				end

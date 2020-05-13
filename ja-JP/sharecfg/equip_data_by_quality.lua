@@ -45,5 +45,3 @@ pg.equip_data_by_quality = {
 		6
 	}
 }
-
-return

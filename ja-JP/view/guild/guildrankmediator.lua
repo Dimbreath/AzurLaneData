@@ -4,10 +4,10 @@ slot0.GET_RANK = "GuildRankMediator:GET_RANK"
 function slot0.register(slot0)
 	slot1 = getProxy(GuildProxy)
 
-	slot0.viewComponent:setGuildEvet(slot2)
-	slot0.viewComponent:setSelfGuild(slot3)
-	slot0:bind(slot0.GET_RANK, function ()
-		slot0:sendNotification(GAME.GET_GUILD_RANK)
+	slot0.viewComponent:setGuildEvet(slot1:getGuildEvent())
+	slot0.viewComponent:setSelfGuild(slot1:getData())
+	slot0:bind(uv0.GET_RANK, function ()
+		uv0:sendNotification(GAME.GET_GUILD_RANK)
 	end)
 end
 

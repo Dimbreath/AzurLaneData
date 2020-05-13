@@ -1,7 +1,10 @@
-class("UpgradeStarCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	slot4 = slot1:getBody().shipIds
+slot0 = class("UpgradeStarCommand", pm.SimpleCommand)
 
-	if pg.ship_data_breakout[getProxy(BayProxy).getShipById(slot5, slot3).configId].breakout_id == 0 then
+function slot0.execute(slot0, slot1)
+	slot2 = slot1:getBody()
+	slot4 = slot2.shipIds
+
+	if pg.ship_data_breakout[getProxy(BayProxy):getShipById(slot2.shipId).configId].breakout_id == 0 then
 		return
 	end
 
@@ -12,9 +15,9 @@ class("UpgradeStarCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("ship_upgrade_unequip_tip", slot9:getConfig("name"), "#fad545"),
 				onYes = function ()
-					slot0:sendNotification(GAME.UNEQUIP_FROM_SHIP, {
-						shipId = slot1.id,
-						pos = GAME.UNEQUIP_FROM_SHIP
+					uv0:sendNotification(GAME.UNEQUIP_FROM_SHIP, {
+						shipId = uv1.id,
+						pos = uv2
 					})
 				end
 			})
@@ -36,7 +39,7 @@ class("UpgradeStarCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		table.insert(slot11, slot17)
 	end
 
-	slot13 = getProxy(CollectionProxy).getShipGroup(slot12, slot10.groupId)
+	slot13 = getProxy(CollectionProxy):getShipGroup(slot10.groupId)
 
 	pg.ConnectionMgr.GetInstance():Send(12027, {
 		ship_id = slot3,
@@ -45,7 +48,7 @@ class("UpgradeStarCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		if slot0.result == 0 then
 			slot1 = getProxy(EquipmentProxy)
 
-			for slot5, slot6 in ipairs(slot0) do
+			for slot5, slot6 in ipairs(uv0) do
 				for slot10, slot11 in ipairs(slot6.equipments) do
 					if slot11 then
 						if slot11:hasSkin() then
@@ -60,15 +63,15 @@ class("UpgradeStarCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 					end
 				end
 
-				slot1:removeShip(slot6)
+				uv1:removeShip(slot6)
 			end
 
-			if pg.ship_data_breakout[slot2.configId].breakout_id ~= 0 then
-				slot2.configId = slot2.breakout_id
+			if pg.ship_data_breakout[uv2.configId].breakout_id ~= 0 then
+				uv2.configId = slot2.breakout_id
 
-				for slot7, slot8 in ipairs(pg.ship_data_template[slot2.configId].buff_list) do
-					if not slot2.skills[slot8] then
-						slot2.skills[slot8] = {
+				for slot7, slot8 in ipairs(pg.ship_data_template[uv2.configId].buff_list) do
+					if not uv2.skills[slot8] then
+						uv2.skills[slot8] = {
 							exp = 0,
 							level = 1,
 							id = slot8
@@ -76,21 +79,19 @@ class("UpgradeStarCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 					end
 				end
 
-				slot2:updateMaxLevel(slot3.max_level)
+				uv2:updateMaxLevel(slot3.max_level)
 
-				for slot8, slot9 in ipairs(slot4) do
+				for slot8, slot9 in ipairs(pg.ship_data_template[uv3.configId].buff_list) do
 					if not table.contains(slot3.buff_list, slot9) then
-						slot2.skills[slot9] = nil
+						uv2.skills[slot9] = nil
 					end
 				end
 
-				slot1:updateShip(slot2)
+				uv1:updateShip(uv2)
 			end
 
-			slot3 = getProxy(BagProxy)
-
 			for slot7, slot8 in ipairs(slot2.use_item) do
-				slot3:removeItemById(slot8[1], slot8[2])
+				getProxy(BagProxy):removeItemById(slot8[1], slot8[2])
 			end
 
 			slot4 = getProxy(PlayerProxy)
@@ -100,9 +101,9 @@ class("UpgradeStarCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				gold = slot2.use_gold
 			})
 			slot4:updatePlayer(slot5)
-			slot4:sendNotification(GAME.UPGRADE_STAR_DONE, {
-				newShip = slot2,
-				oldShip = slot3
+			uv4:sendNotification(GAME.UPGRADE_STAR_DONE, {
+				newShip = uv2,
+				oldShip = uv3
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_upgradeStar_error", slot0.result))
@@ -110,4 +111,4 @@ class("UpgradeStarCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end)
 end
 
-return class("UpgradeStarCommand", pm.SimpleCommand)
+return slot0

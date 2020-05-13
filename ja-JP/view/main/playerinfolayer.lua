@@ -7,9 +7,7 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.GetBGM(slot0)
-	slot2 = getProxy(SettingsProxy):IsBGMEnable()
-
-	if slot0.flagShip:IsBgmSkin() and slot2 then
+	if slot0.flagShip:IsBgmSkin() and getProxy(SettingsProxy):IsBGMEnable() then
 		return slot1:GetSkinBgm()
 	else
 		return "main"
@@ -55,11 +53,11 @@ function slot0.setTrophyList(slot0, slot1)
 end
 
 function slot0.OffsetSource(slot0, slot1, slot2)
-	slot5 = GetComponent(GetComponent(slot3, "Image").canvas, "RectTransform").rect.width
-	slot6 = GetComponent(GetComponent(slot3, "Image").canvas, "RectTransform").rect.height
+	slot4 = GetComponent(GetComponent(GetComponent(slot0:findTF("Image", slot0.rightPanel), "RectTransform"), "Image").canvas, "RectTransform")
+	slot5 = slot4.rect.width
 	slot8 = 0
 
-	if GetComponent(slot0.rightPanel.parent, "AspectRatioFitter") and slot5 > slot7.aspectRatio * slot6 then
+	if GetComponent(slot0.rightPanel.parent, "AspectRatioFitter") and slot5 > slot7.aspectRatio * slot4.rect.height then
 		slot8 = (slot5 - slot10) / slot9
 	end
 
@@ -103,34 +101,34 @@ end
 function slot0.didEnter(slot0)
 	slot0:uiStartAnimating()
 	onButton(slot0, slot0.backBtn, function ()
-		if slot0._currentDragDelegate then
-			slot0._forceDropCharacter = true
+		if uv0._currentDragDelegate then
+			uv0._forceDropCharacter = true
 
-			LuaHelper.triggerEndDrag(slot0._currentDragDelegate)
+			LuaHelper.triggerEndDrag(uv0._currentDragDelegate)
 		end
 
-		if isActive(slot0.characters) then
-			slot0:hideCharacters()
+		if isActive(uv0.characters) then
+			uv0:hideCharacters()
 		else
-			slot0:uiExitAnimating()
-			slot0.uiExitAnimating:emit(slot1.ON_BACK, nil, 0.5)
+			uv0:uiExitAnimating()
+			uv0:emit(uv1.ON_BACK, nil, 0.5)
 		end
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.attireBtn, function ()
-		slot0:emit(PlayerInfoMediator.ON_ATTIRE)
+		uv0:emit(PlayerInfoMediator.ON_ATTIRE)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.replaceBtn, function ()
-		if isActive(slot0.characters) then
-			slot0:hideCharacters()
+		if isActive(uv0.characters) then
+			uv0:hideCharacters()
 		else
-			slot0:showCharacters()
+			uv0:showCharacters()
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.swichSkinBtn, function ()
-		slot0:emit(PlayerInfoMediator.CHANGE_SKIN, slot0.flagShip)
+		uv0:emit(PlayerInfoMediator.CHANGE_SKIN, uv0.flagShip)
 	end)
 	onButton(slot0, slot0.writeBtn, function ()
-		activateInputField(slot0.inputField)
+		activateInputField(uv0.inputField)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.shareBtn, function ()
 		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeAdmira)
@@ -138,18 +136,18 @@ function slot0.didEnter(slot0)
 	onInputEndEdit(slot0, slot0.inputField, function (slot0)
 		if wordVer(slot0) > 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("playerinfo_mask_word"))
-			activateInputField(slot0.inputField)
+			activateInputField(uv0.inputField)
 
 			return
 		end
 
-		if not slot0 or slot0.manifesto == slot0 then
+		if not slot0 or uv0.manifesto == slot0 then
 			return
 		end
 
-		slot0.manifesto = slot0
+		uv0.manifesto = slot0
 
-		slot0:emit(PlayerInfoMediator.CHANGE_MANIFESTO, slot0)
+		uv0:emit(PlayerInfoMediator.CHANGE_MANIFESTO, slot0)
 	end)
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -158,7 +156,7 @@ function slot0.didEnter(slot0)
 		})
 	end)
 	onButton(slot0, slot0.modifyNameBtn, function ()
-		slot0, slot1 = slot0.player:canModifyName()
+		slot0, slot1 = uv0.player:canModifyName()
 
 		if not slot0 then
 			pg.TipsMgr.GetInstance():ShowTips(slot1)
@@ -166,7 +164,7 @@ function slot0.didEnter(slot0)
 			return
 		end
 
-		slot0:openChangePlayerNamePanel()
+		uv0:openChangePlayerNamePanel()
 	end, SFX_PANEL)
 
 	slot0.medalList = slot0:findTF("medalList/container", slot0.rightPanel)
@@ -181,19 +179,18 @@ end
 
 function slot0.updateSecretaryMax(slot0)
 	slot0.secretary_max = 1
-	slot1 = getProxy(ChapterProxy)
 
 	for slot5, slot6 in pairs(pg.gameset.secretary_group_unlock.description) do
 		if pg.chapter_template[slot6[1]] then
-			slot0.SECRETARY_MAX = slot6[2]
+			uv0.SECRETARY_MAX = slot6[2]
 
-			if slot1:isClear(slot6[1]) then
+			if getProxy(ChapterProxy):isClear(slot6[1]) then
 				slot0.secretary_max = slot6[2]
 			end
 		end
 	end
 
-	slot0.secretary_max = math.min(slot0.secretary_max, slot0.SECRETARY_MAX)
+	slot0.secretary_max = math.min(slot0.secretary_max, uv0.SECRETARY_MAX)
 end
 
 function slot0.showCharacters(slot0)
@@ -208,22 +205,26 @@ function slot0.showCharacters(slot0)
 	setActive(slot0.swichSkinBtn, false)
 	setActive(slot0.paintContain, false)
 	onToggle(slot0, slot0.hzszBtn, function (slot0)
-		setActive(slot0:findTF("setting_on", slot0.hzszBtn), slot0)
-		setActive(slot0:findTF("setting_off", slot0.hzszBtn), not slot0)
+		setActive(uv0:findTF("setting_on", uv0.hzszBtn), slot0)
 
-		for slot4, slot5 in ipairs(slot0.cards) do
+		slot4 = "setting_off"
+		slot5 = uv0.hzszBtn
+
+		setActive(uv0:findTF(slot4, slot5), not slot0)
+
+		for slot4, slot5 in ipairs(uv0.cards) do
 			if slot5.state == STATE_INFO then
 				setActive(slot5.tr:Find("mask"), slot0)
 			end
 		end
 
 		if slot0 then
-			for slot4 = 1, 5, 1 do
-				slot0:detachOnCardButton(slot0.cards[slot4])
+			for slot4 = 1, 5 do
+				uv0:detachOnCardButton(uv0.cards[slot4])
 			end
 		else
-			for slot4 = 1, slot0.secretary_max, 1 do
-				slot0:attachOnCardButton(slot0.cards[slot4])
+			for slot4 = 1, uv0.secretary_max do
+				uv0:attachOnCardButton(uv0.cards[slot4])
 			end
 		end
 	end)
@@ -246,66 +247,62 @@ end
 function slot0.initChangePlayerNamePanel(slot0, slot1)
 	PoolMgr.GetInstance():GetUI("AdmiralUIChangeNamePanel", true, function (slot0)
 		slot0.name = "changeName_panel"
-		slot0.changeNamePanel = rtf(slot0)
+		uv0.changeNamePanel = rtf(slot0)
 
-		setParent(slot0.changeNamePanel, slot0._tf)
-		setActive(slot0.changeNamePanel, false)
+		setParent(uv0.changeNamePanel, uv0._tf)
+		setActive(uv0.changeNamePanel, false)
 
-		slot0.changeNameTip = slot0:findTF("frame/border/tip", slot0.changeNamePanel):GetComponent(typeof(Text))
-		slot0.changeNameConfirmBtn = slot0:findTF("frame/queren", slot0.changeNamePanel)
-		slot0.changeNameCancelBtn = slot0:findTF("frame/cancel", slot0.changeNamePanel)
-		slot0.changeNameInputField = slot0:findTF("frame/name_field", slot0.changeNamePanel)
+		uv0.changeNameTip = uv0:findTF("frame/border/tip", uv0.changeNamePanel):GetComponent(typeof(Text))
+		uv0.changeNameConfirmBtn = uv0:findTF("frame/queren", uv0.changeNamePanel)
+		uv0.changeNameCancelBtn = uv0:findTF("frame/cancel", uv0.changeNamePanel)
+		uv0.changeNameInputField = uv0:findTF("frame/name_field", uv0.changeNamePanel)
 
-		SetActive(slot0.changeNamePanel, false)
-		onButton(slot0, slot0.changeNameConfirmBtn, function ()
-			slot0 = getInputText(slot0.changeNameInputField)
-
-			slot0:emit(PlayerInfoMediator.ON_CHANGE_PLAYER_NAME, slot0)
-			setInputText(slot0.changeNameInputField, "")
+		SetActive(uv0.changeNamePanel, false)
+		onButton(uv0, uv0.changeNameConfirmBtn, function ()
+			uv0:emit(PlayerInfoMediator.ON_CHANGE_PLAYER_NAME, getInputText(uv0.changeNameInputField))
+			setInputText(uv0.changeNameInputField, "")
 		end, SFX_PANEL)
-		onButton(slot0, slot0.changeNameCancelBtn, function ()
-			slot0:closeChangePlayerNamePanel()
+		onButton(uv0, uv0.changeNameCancelBtn, function ()
+			uv0:closeChangePlayerNamePanel()
 		end, SFX_PANEL)
-		onButton(slot0, slot0.changeNamePanel, function ()
-			slot0:closeChangePlayerNamePanel()
+		onButton(uv0, uv0.changeNamePanel, function ()
+			uv0:closeChangePlayerNamePanel()
 		end, SFX_PANEL)
 
-		slot0.isInitChangeNamePanel = true
+		uv0.isInitChangeNamePanel = true
 
-		slot0()
+		uv1()
 	end)
 end
 
 function slot0.openChangePlayerNamePanel(slot0)
-	function slot1()
-		slot0.isOpenChangeNamePanel = true
-
-		SetActive(slot0.changeNamePanel, true)
-
-		slot1 = nil
-		slot2 = 0
-
-		if SetActive.player:getModifyNameComsume()[1] == DROP_TYPE_RESOURCE then
-			slot1 = Item.New({
-				id = id2ItemId(slot0[2]),
-				type = DROP_TYPE_ITEM,
-				count = slot0[3]
-			})
-			slot2 = slot0.player:getResById(slot0[2])
-		elseif slot0[1] == DROP_TYPE_ITEM then
-			slot1 = Item.New({
-				id = slot0[2],
-				type = DROP_TYPE_ITEM,
-				count = slot0[3]
-			})
-			slot2 = getProxy(BagProxy):getItemCountById(slot0[2])
-		end
-
-		slot0.changeNameTip.text = i18n("player_name_change_windows_tip", slot1:getConfig("name"), slot2 .. "/" .. slot0[3])
-	end
-
 	if not slot0.changeNamePanel then
-		slot0:initChangePlayerNamePanel(slot1)
+		slot0:initChangePlayerNamePanel(function ()
+			uv0.isOpenChangeNamePanel = true
+
+			SetActive(uv0.changeNamePanel, true)
+
+			slot1 = nil
+			slot2 = 0
+
+			if uv0.player:getModifyNameComsume()[1] == DROP_TYPE_RESOURCE then
+				slot1 = Item.New({
+					id = id2ItemId(slot0[2]),
+					type = DROP_TYPE_ITEM,
+					count = slot0[3]
+				})
+				slot2 = uv0.player:getResById(slot0[2])
+			elseif slot0[1] == DROP_TYPE_ITEM then
+				slot1 = Item.New({
+					id = slot0[2],
+					type = DROP_TYPE_ITEM,
+					count = slot0[3]
+				})
+				slot2 = getProxy(BagProxy):getItemCountById(slot0[2])
+			end
+
+			uv0.changeNameTip.text = i18n("player_name_change_windows_tip", slot1:getConfig("name"), slot2 .. "/" .. slot0[3])
+		end)
 	else
 		slot1()
 	end
@@ -347,8 +344,14 @@ function slot0.uiStartAnimating(slot0)
 		y = -248
 	})
 	shiftPanel(slot0.topPanel, nil, 0, nil, 0.3, true, true)
-	shiftPanel(slot0.leftPanel, 0, nil, nil, 0.3, true, true)
+	shiftPanel(slot0.leftPanel, 0, nil, , 0.3, true, true)
 	shiftPanel(slot0.bottomPanel, nil, 0, nil, 0.3, true, true)
+
+	slot1 = slot0:findTF("basic", slot0.rightPanel)
+	slot2 = slot0:findTF("info_panel", slot0.rightPanel)
+	slot3 = slot0:findTF("statistics", slot0.rightPanel)
+	slot4 = slot0:findTF("greet", slot0.rightPanel)
+
 	setAnchoredPosition(slot1, {
 		x = 1000
 	})
@@ -361,10 +364,10 @@ function slot0.uiStartAnimating(slot0)
 	setAnchoredPosition(slot4, {
 		x = 1000
 	})
-	shiftPanel(slot2, 0, nil, nil, 0.2, true, true)
-	shiftPanel(slot1, 0, nil, nil, 0.25, true, true)
-	shiftPanel(slot3, 0, nil, nil, 0.3, true, true)
-	shiftPanel(slot0:findTF("greet", slot0.rightPanel), 0, nil, nil, 0.35, true, true)
+	shiftPanel(slot2, 0, nil, , 0.2, true, true)
+	shiftPanel(slot1, 0, nil, , 0.25, true, true)
+	shiftPanel(slot3, 0, nil, , 0.3, true, true)
+	shiftPanel(slot4, 0, nil, , 0.35, true, true)
 end
 
 function slot0.uiExitAnimating(slot0)
@@ -389,16 +392,20 @@ function slot0.updateFashion(slot0)
 end
 
 function slot0.updateBGMState(slot0)
-	slot1(slot3)
+	function (slot0)
+		setActive(uv0.bgmBtn:Find("toggle/on"), slot0)
+		setActive(uv0.bgmBtn:Find("toggle/off"), not slot0)
+		playBGM(uv0:GetBGM())
+	end(getProxy(SettingsProxy):IsBGMEnable())
 
 	if slot0.flagShip:IsBgmSkin() then
 		setActive(slot0.bgmBtn, true)
 		removeOnButton(slot0.bgmBtn)
 		onButton(slot0, slot0.bgmBtn, function ()
-			slot0 = not slot0
+			uv0 = not uv0
 
-			slot1:SetBgmFlag(slot1.SetBgmFlag)
-			slot1.SetBgmFlag(slot1.SetBgmFlag)
+			uv1:SetBgmFlag(uv0)
+			uv2(uv0)
 		end, SFX_PANEL)
 	else
 		removeOnButton(slot0.bgmBtn)
@@ -408,7 +415,7 @@ end
 
 function slot0.updateLive2DState(slot0)
 	slot1 = "live2d/" .. string.lower(slot0.flagShip:getPainting())
-	slot3 = getProxy(SettingsProxy).getCharacterSetting(slot2, slot0.flagShip.id, "l2d")
+	slot3 = getProxy(SettingsProxy):getCharacterSetting(slot0.flagShip.id, "l2d")
 
 	if Live2DUpdateMgr.Inst.state == DownloadState.None or slot5 == DownloadState.CheckFailure then
 		slot4:CheckD()
@@ -421,7 +428,7 @@ function slot0.updateLive2DState(slot0)
 		setActive(slot0.live2dToggle:Find("on"), false)
 		setActive(slot0.live2dToggle:Find("off"), true)
 		onButton(slot0, slot0.live2dBtn, function ()
-			slot0:UpdateF(slot0, true)
+			uv0:UpdateF(uv1, true)
 		end, SFX_PANEL)
 	elseif slot6 == DownloadState.Updating then
 		setActive(slot0.live2dBtn, true)
@@ -429,16 +436,21 @@ function slot0.updateLive2DState(slot0)
 		setActive(slot0.live2dState, true)
 		removeOnButton(slot0.live2dBtn)
 	else
-		setActive(slot0.live2dBtn, PathMgr.FileExists(PathMgr.getAssetBundle(slot1)))
+		slot7 = PathMgr.FileExists(PathMgr.getAssetBundle(slot1))
 
-		if PathMgr.FileExists(PathMgr.getAssetBundle(slot1)) then
+		setActive(slot0.live2dBtn, slot7)
+
+		if slot7 then
 			setActive(slot0.live2dState, false)
 			setActive(slot0.live2dToggle, true)
+
+			slot8 = slot3
+
 			setActive(slot0.live2dToggle:Find("on"), slot8)
-			setActive(slot0.live2dToggle:Find("off"), not slot3)
+			setActive(slot0.live2dToggle:Find("off"), not slot8)
 			onButton(slot0, slot0.live2dBtn, function ()
-				slot0:setCharacterSetting(slot1.flagShip.id, "l2d", not slot2)
-				slot0:updateLive2DState()
+				uv0:setCharacterSetting(uv1.flagShip.id, "l2d", not uv2)
+				uv1:updateLive2DState()
 			end, SFX_PANEL)
 		end
 	end
@@ -451,7 +463,7 @@ function slot0.updateLive2DState(slot0)
 
 	if slot6 == DownloadState.CheckToUpdate or slot6 == DownloadState.UpdateFailure or slot6 == DownloadState.Updating then
 		slot0.live2dTimer = Timer.New(function ()
-			slot0:updateLive2DState()
+			uv0:updateLive2DState()
 		end, 0.5, 1)
 
 		slot0.live2dTimer:Start()
@@ -479,7 +491,7 @@ function slot0.getGroupSkinList(slot0, slot1)
 end
 
 function slot0.updateBGState(slot0)
-	slot2 = getProxy(SettingsProxy).getCharacterSetting(slot1, slot0.flagShip.id, "bg")
+	slot2 = getProxy(SettingsProxy):getCharacterSetting(slot0.flagShip.id, "bg")
 
 	if slot0.flagShip:getShipBgPrint() ~= slot0.flagShip:rarity2bgPrintForGet() then
 		setActive(slot0.showBgBtn, true)
@@ -487,11 +499,11 @@ function slot0.updateBGState(slot0)
 		setActive(slot0.showBgToggle:Find("off"), not slot2)
 		removeOnButton(slot0.showBgBtn)
 		onButton(slot0, slot0.showBgBtn, function ()
-			slot0 = not slot0
+			uv0 = not uv0
 
-			slot1:setCharacterSetting(slot2.flagShip.id, "bg", slot1.setCharacterSetting)
-			setActive(slot2.showBgToggle:Find("on"), setActive)
-			setActive(slot2.showBgToggle:Find("off"), not slot0)
+			uv1:setCharacterSetting(uv2.flagShip.id, "bg", uv0)
+			setActive(uv2.showBgToggle:Find("on"), uv0)
+			setActive(uv2.showBgToggle:Find("off"), not uv0)
 		end, SFX_PANEL)
 	else
 		setActive(slot0.showBgBtn, false)
@@ -521,16 +533,23 @@ function slot0.initPlayerInfo(slot0)
 	setText(findTF(slot7, "title/name_bg/Text"), slot1.name)
 	setText(findTF(slot7, "title/name_bg/uid"), slot1.id)
 	setText(findTF(slot7, "title/lv_bg/Text"), "LV." .. slot1.level)
-	setText(findTF(slot7, "title/exp"), slot0.player.exp .. "/" .. slot9)
 
-	slot10 = slot0:findTF("basic/info_list", slot0.rightPanel)
+	slot14 = getConfigFromLevel1(pg.user_level, slot1.level).exp
 
-	for slot14, slot15 in ipairs(slot5) do
-		setText(findTF(slot10:GetChild(slot14 - 1), "value"), slot15 or 0)
+	setText(findTF(slot7, "title/exp"), slot0.player.exp .. "/" .. slot14)
+
+	for slot14, slot15 in ipairs({
+		i18n("friend_resume_title_metal") .. pg.arena_data_rank[slot2].name,
+		slot0.fleetGS,
+		slot0.collectionRate * 100 .. "%"
+	}) do
+		setText(findTF(slot0:findTF("basic/info_list", slot0.rightPanel):GetChild(slot14 - 1), "value"), slot15 or 0)
 	end
 
-	LoadImageSpriteAsync("emblem/" .. slot13, slot11, true)
-	LoadImageSpriteAsync("emblem/n_" .. slot13, slot12, true)
+	slot13 = SeasonInfo.getEmblem(slot0.seasonInfo.score, slot0.seasonInfo.rank)
+
+	LoadImageSpriteAsync("emblem/" .. slot13, slot0:findTF("basic/medal", slot0.rightPanel), true)
+	LoadImageSpriteAsync("emblem/n_" .. slot13, slot0:findTF("basic/medal/Text", slot0.rightPanel), true)
 
 	if SeasonInfo.getMilitaryRank(slot0.seasonInfo.score, slot0.seasonInfo.rank) then
 		slot15 = slot0:findTF("basic/medal/Text", slot0.rightPanel)
@@ -549,7 +568,7 @@ function slot0.updateMedalDisplay(slot0, slot1)
 
 	removeAllChildren(slot0.medalList)
 
-	for slot6 = 1, math.min(#slot0.selectedMedalList, slot0.MAX_MEDAL_DISPLAY), 1 do
+	for slot6 = 1, math.min(#slot0.selectedMedalList, uv0.MAX_MEDAL_DISPLAY) do
 		LoadImageSpriteAsync("medal/s_" .. pg.medal_template[slot0.selectedMedalList[slot6]].icon, slot0:findTF("icon", cloneTplTo(slot0.medalTpl, slot0.medalList)), true)
 	end
 
@@ -559,7 +578,7 @@ end
 function slot0.updatePlayerName(slot0)
 	slot0.selectedMedalList = Clone(slot0.player.displayTrophyList)
 
-	setText(findTF(slot1, "title/name_bg/Text"), slot0.player.name)
+	setText(findTF(slot0:findTF("info_panel", slot0.rightPanel), "title/name_bg/Text"), slot0.player.name)
 end
 
 function slot0.setLanguages(slot0)
@@ -589,11 +608,11 @@ function slot0.updateLive2DBtn(slot0, slot1, slot2)
 		setActive(slot2:Find("on"), false)
 		setActive(slot2:Find("off"), true)
 		onToggle(slot0, slot2, function (slot0)
-			setActive(slot0:Find("on"), slot0)
-			setActive(slot0:Find("off"), not slot0)
+			setActive(uv0:Find("on"), slot0)
+			setActive(uv0:Find("off"), not slot0)
 
 			if slot0 then
-				slot1:UpdateF(slot1, true)
+				uv1:UpdateF(uv2, true)
 			end
 		end, SFX_PANEL)
 		triggerToggle(slot2, false)
@@ -605,14 +624,16 @@ function slot0.updateLive2DBtn(slot0, slot1, slot2)
 
 		slot2:GetComponent(typeof(Toggle)).interactable = true
 	else
-		setActive(slot2, PathMgr.FileExists(PathMgr.getAssetBundle(slot4)))
+		slot8 = PathMgr.FileExists(PathMgr.getAssetBundle(slot4))
 
-		if PathMgr.FileExists(PathMgr.getAssetBundle(slot4)) then
+		setActive(slot2, slot8)
+
+		if slot8 then
 			setActive(slot3, false)
 			onToggle(slot0, slot2, function (slot0)
-				setActive(slot0:Find("on"), slot0)
-				setActive(slot0:Find("off"), not slot0)
-				getProxy(SettingsProxy):setCharacterSetting(slot1.id, "l2d", slot0)
+				setActive(uv0:Find("on"), slot0)
+				setActive(uv0:Find("off"), not slot0)
+				getProxy(SettingsProxy):setCharacterSetting(uv1.id, "l2d", slot0)
 			end, SFX_PANEL)
 			triggerToggle(slot2, getProxy(SettingsProxy):getCharacterSetting(slot1.id, "l2d"))
 		end
@@ -626,7 +647,7 @@ function slot0.updateLive2DBtn(slot0, slot1, slot2)
 
 	if slot7 == DownloadState.CheckToUpdate or slot7 == DownloadState.UpdateFailure or slot7 == DownloadState.Updating then
 		slot0.live2dTimer = Timer.New(function ()
-			slot0:updateLive2DBtn(slot0, )
+			uv0:updateLive2DBtn(uv1, uv2)
 		end, 0.5, 1)
 
 		slot0.live2dTimer:Start()
@@ -635,7 +656,7 @@ end
 
 function slot0.updateCardByShip(slot0, slot1)
 	if isActive(slot0.characters) then
-		for slot5 = 1, 5, 1 do
+		for slot5 = 1, 5 do
 			if slot1.id == slot0.player.characters[slot5] then
 				slot0:updateCard(slot5)
 			end
@@ -646,9 +667,9 @@ end
 function slot0.updateCard(slot0, slot1)
 	slot2 = slot0.player.characters[slot1]
 
-	if slot0.secretary_max < slot1 and slot1 <= slot0.SECRETARY_MAX then
+	if slot0.secretary_max < slot1 and slot1 <= uv0.SECRETARY_MAX then
 		setText(slot0.cards[slot1].tr:Find("lock/Text"), i18n("secretary_unlock" .. slot1))
-	elseif slot0.SECRETARY_MAX < slot1 then
+	elseif uv0.SECRETARY_MAX < slot1 then
 		setText(slot0.cards[slot1].tr:Find("lock/Text"), i18n("secretary_closed"))
 	end
 
@@ -659,14 +680,17 @@ function slot0.updateCard(slot0, slot1)
 
 		slot0.cards[slot1]:update(slot3, false)
 		slot0.cards[slot1]:updateProps(slot0:getCardAttrProps(slot3))
-		slot0:updateLive2DBtn(slot3, slot5)
 
-		slot6 = slot0.cards[slot1].tr:Find("mask/settings/bg")
+		slot4 = slot0.cards[slot1]
+
+		slot0:updateLive2DBtn(slot3, slot4.tr:Find("mask/settings/l2d"))
+
+		slot6 = slot4.tr:Find("mask/settings/bg")
 
 		onToggle(slot0, slot6, function (slot0)
-			setActive(slot0:Find("on"), slot0)
-			setActive(slot0:Find("off"), not slot0)
-			getProxy(SettingsProxy):setCharacterSetting(getProxy(SettingsProxy).setCharacterSetting, "bg", slot0)
+			setActive(uv0:Find("on"), slot0)
+			setActive(uv0:Find("off"), not slot0)
+			getProxy(SettingsProxy):setCharacterSetting(uv1, "bg", slot0)
 		end)
 		triggerToggle(slot6, getProxy(SettingsProxy):getCharacterSetting(slot2, "bg"))
 		setActive(slot6, slot3:getShipBgPrint() ~= slot3:rarity2bgPrintForGet())
@@ -674,16 +698,19 @@ function slot0.updateCard(slot0, slot1)
 		slot7 = slot4.tr:Find("mask/settings/bgm")
 
 		onToggle(slot0, slot7, function (slot0)
-			setActive(slot0:Find("on"), slot0)
-			setActive(slot0:Find("off"), not slot0)
-			getProxy(SettingsProxy):setCharacterSetting(getProxy(SettingsProxy).setCharacterSetting, "bgm", slot0)
+			setActive(uv0:Find("on"), slot0)
+			setActive(uv0:Find("off"), not slot0)
+			getProxy(SettingsProxy):setCharacterSetting(uv1, "bgm", slot0)
 		end)
 		triggerToggle(slot7, getProxy(SettingsProxy):getCharacterSetting(slot2, "bgm"))
 		setActive(slot7, false)
-		onButton(slot0, slot6, function ()
-			slot0:emit(PlayerInfoMediator.CHANGE_SKIN, slot0)
+
+		slot8 = slot4.tr:Find("mask/skin")
+
+		onButton(slot0, slot8, function ()
+			uv0:emit(PlayerInfoMediator.CHANGE_SKIN, uv1)
 		end)
-		setActive(slot4.tr:Find("mask/skin"), slot0:isCurrentShipExistSkin(slot3))
+		setActive(slot8, slot0:isCurrentShipExistSkin(slot3))
 	else
 		slot0.cards[slot1]:update(nil, false)
 	end
@@ -699,18 +726,18 @@ function slot0.initCharacters(slot0)
 	if not slot0.cards then
 		slot0.cards = {}
 
-		for slot4 = 1, 5, 1 do
+		for slot4 = 1, 5 do
 			table.insert(slot0.cards, FormationDetailCard.New(slot0.characters:GetChild(slot4 - 1).gameObject))
 		end
 	end
 
-	for slot4 = 1, 5, 1 do
+	for slot4 = 1, 5 do
 		slot0:updateCard(slot4)
 	end
 end
 
 function slot0.getCardAttrProps(slot0, slot1)
-	slot3, slot4, slot7[2] = slot1:getIntimacyDetail()
+	slot3, slot4, slot5 = slot1:getIntimacyDetail()
 
 	return {
 		{
@@ -723,7 +750,7 @@ function slot0.getCardAttrProps(slot0, slot1)
 		},
 		{
 			i18n("word_synthesize_power"),
-			"<color=#ffff00>" .. math.floor(slot2) .. "</color>"
+			"<color=#ffff00>" .. math.floor(slot1:getShipCombatPower()) .. "</color>"
 		}
 	}
 end
@@ -755,8 +782,8 @@ function slot0.attachOnCardButton(slot0, slot1)
 	slot0.eventTriggers[slot2] = true
 
 	slot2:AddPointClickFunc(function (slot0, slot1)
-		if not slot0.carddrag and slot0 == slot1.go then
-			slot0:emit(PlayerInfoMediator.CHANGE_PAINT, slot1.shipVO)
+		if not uv0.carddrag and slot0 == uv1.go then
+			uv0:emit(PlayerInfoMediator.CHANGE_PAINT, uv1.shipVO)
 			playSoundEffect(SFX_PANEL)
 		end
 	end)
@@ -770,105 +797,117 @@ function slot0.attachOnCardButton(slot0, slot1)
 		slot8 = {}
 
 		function slot10()
-			for slot3 = 1, #slot0, 1 do
-				slot0[slot3].tr.anchoredPosition = slot1[slot3]
+			for slot3 = 1, #uv0 do
+				uv0[slot3].tr.anchoredPosition = uv1[slot3]
 			end
 		end
 
-		slot11 = Timer.New(slot9, 0.03333333333333333, -1)
+		slot11 = Timer.New(function ()
+			for slot3 = 1, #uv0 do
+				if uv0[slot3] and uv0[slot3] ~= uv1 then
+					uv0[slot3].tr.anchoredPosition = uv0[slot3].tr.anchoredPosition * 0.5 + Vector2(uv2[slot3].x, uv2[slot3].y) * 0.5
+				end
+			end
+
+			if uv3 and uv4 <= Time.realtimeSinceStartup then
+				uv5:OnDrag(uv3)
+
+				uv3 = nil
+			end
+		end, 0.03333333333333333, -1)
 
 		slot2:AddBeginDragFunc(function ()
-			if slot0.carddrag then
+			if uv0.carddrag then
 				return
 			end
 
-			slot0._currentDragDelegate = slot1
-			slot0.carddrag = slot2
-			slot3.enabled = false
+			uv0._currentDragDelegate = uv1
+			uv0.carddrag = uv2
+			uv3.enabled = false
 
-			slot2.tr:SetSiblingIndex(#slot4 - 1)
+			uv2.tr:SetSiblingIndex(#uv4 - 1)
 
-			for slot3 = 1, #slot4, 1 do
-				if slot4[slot3] == slot2 then
-					slot0._shiftIndex = slot3
+			for slot3 = 1, #uv4 do
+				if uv4[slot3] == uv2 then
+					uv0._shiftIndex = slot3
 				end
 
-				slot5[slot3] = slot4[slot3].tr.anchoredPosition
+				uv5[slot3] = uv4[slot3].tr.anchoredPosition
 			end
 
-			slot6:Start()
-			LeanTween.scale(slot2.paintingTr, Vector3(1.1, 1.1, 0), 0.3)
+			uv6:Start()
+			LeanTween.scale(uv2.paintingTr, Vector3(1.1, 1.1, 0), 0.3)
 		end)
 		slot2:AddDragFunc(function (slot0, slot1)
-			if slot0.carddrag ~= slot1 then
+			if uv0.carddrag ~= uv1 then
 				return
 			end
 
-			slot1.tr.localPosition.x = slot0:change2ScrPos(slot1.tr.parent, slot1.position).x
-			slot1.tr.localPosition = slot1.tr.localPosition
+			slot2 = uv1.tr.localPosition
+			slot2.x = uv0:change2ScrPos(uv1.tr.parent, slot1.position).x
+			uv1.tr.localPosition = slot2
 
-			if Time.realtimeSinceStartup < slot1.tr.localPosition then
-				slot3 = slot1
+			if Time.realtimeSinceStartup < uv2 then
+				uv3 = slot1
 
 				return
 			end
 
 			slot3 = 1
 
-			for slot7 = 1, #slot4, 1 do
-				if slot4[slot7] ~= slot1 and slot4[slot7].shipVO and slot1.tr.localPosition.x > slot4[slot7].tr.localPosition.x + ((slot3 < slot0._shiftIndex and 1.1) or -1.1) * slot5 then
+			for slot7 = 1, #uv4 do
+				if uv4[slot7] ~= uv1 and uv4[slot7].shipVO and uv1.tr.localPosition.x > uv4[slot7].tr.localPosition.x + (slot3 < uv0._shiftIndex and 1.1 or -1.1) * uv5 then
 					slot3 = slot3 + 1
 				end
 			end
 
-			if slot0._shiftIndex ~= slot3 then
-				slot0:shift(slot0._shiftIndex, slot3)
+			if uv0._shiftIndex ~= slot3 then
+				uv0:shift(uv0._shiftIndex, slot3)
 
-				slot2 = Time.realtimeSinceStartup + 0.15
+				uv2 = Time.realtimeSinceStartup + 0.15
 			end
 		end)
 		slot2:AddDragEndFunc(function (slot0, slot1)
-			if slot0.carddrag ~= slot1 then
+			if uv0.carddrag ~= uv1 then
 				return
 			end
 
 			function resetCard()
-				slot0()
+				uv0()
 
-				slot1.enabled = true
-				slot2._shiftIndex = nil
+				uv1.enabled = true
+				uv2._shiftIndex = nil
 
-				slot3:Stop()
+				uv3:Stop()
 
-				slot0 = {}
-
-				for slot4 = 1, #slot2.cards, 1 do
-					slot2.cards[slot4].tr:SetSiblingIndex(slot4 - 1)
-
-					slot0[slot4] = slot4[slot4].shipVO and slot4[slot4].shipVO.id
+				for slot4 = 1, #uv2.cards do
+					uv2.cards[slot4].tr:SetSiblingIndex(slot4 - 1)
 				end
 
-				slot2:emit(PlayerInfoMediator.CHANGE_PAINTS, slot0)
+				uv2:emit(PlayerInfoMediator.CHANGE_PAINTS, {
+					[slot4] = uv4[slot4].shipVO and uv4[slot4].shipVO.id
+				})
 
-				slot5.enabled = true
-				true.carddrag = nil
+				uv5.enabled = true
+				uv2.carddrag = nil
 			end
 
-			slot0._forceDropCharacter = nil
-			slot0._currentDragDelegate = nil
-			slot6.enabled = false
+			uv0._forceDropCharacter = nil
+			uv0._currentDragDelegate = nil
+			uv6.enabled = false
 
-			if slot0._forceDropCharacter then
+			if uv0._forceDropCharacter then
 				resetCard()
 
-				slot1.paintingTr.localScale = Vector3(1, 1, 0)
+				uv1.paintingTr.localScale = Vector3(1, 1, 0)
 			else
-				LeanTween.value(slot1.go, slot1.tr.anchoredPosition.x, slot0._shiftIndex[slot0._shiftIndex].x, math.min(math.abs(slot1.tr.anchoredPosition.x - slot7[slot0._shiftIndex].x) / 200, 1) * 0.3):setEase(LeanTweenType.easeOutCubic):setOnUpdate(System.Action_float(function (slot0)
-					slot0.tr.anchoredPosition.x = slot0
-					slot0.tr.anchoredPosition = slot0.tr.anchoredPosition
+				LeanTween.value(uv1.go, uv1.tr.anchoredPosition.x, uv7[uv0._shiftIndex].x, math.min(math.abs(uv1.tr.anchoredPosition.x - uv7[uv0._shiftIndex].x) / 200, 1) * 0.3):setEase(LeanTweenType.easeOutCubic):setOnUpdate(System.Action_float(function (slot0)
+					slot1 = uv0.tr.anchoredPosition
+					slot1.x = slot0
+					uv0.tr.anchoredPosition = slot1
 				end)):setOnComplete(System.Action(function ()
 					resetCard()
-					LeanTween.scale(slot0.paintingTr, Vector3(1, 1, 0), 0.3)
+					LeanTween.scale(uv0.paintingTr, Vector3(1, 1, 0), 0.3)
 				end))
 			end
 		end)
@@ -876,108 +915,23 @@ function slot0.attachOnCardButton(slot0, slot1)
 end
 
 function slot0.willExit(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-3, warpins: 1 ---
 	if slot0.tweens then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 4-6, warpins: 1 ---
 		cancelTweens(slot0.tweens)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 7-9, warpins: 2 ---
 	if slot0.live2dTimer then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 10-15, warpins: 1 ---
 		slot0.live2dTimer:Stop()
 
 		slot0.live2dTimer = nil
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 16-18, warpins: 2 ---
 	if slot0.eventTriggers then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 19-22, warpins: 1 ---
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 23-27, warpins: 0 ---
 		for slot4, slot5 in pairs(slot0.eventTriggers) do
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 23-25, warpins: 1 ---
 			ClearEventTrigger(slot4)
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 26-27, warpins: 2 ---
-			--- END OF BLOCK #1 ---
-
-
-
 		end
 
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 28-29, warpins: 1 ---
 		slot0.eventTriggers = nil
-		--- END OF BLOCK #2 ---
-
-
-
 	end
-
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 30-30, warpins: 2 ---
-	return
-	--- END OF BLOCK #3 ---
-
-
-
 end
 
 return slot0

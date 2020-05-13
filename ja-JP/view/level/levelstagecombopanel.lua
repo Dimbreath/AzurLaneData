@@ -52,11 +52,11 @@ function slot0.SetTextAnim(slot0, slot1, slot2, slot3, slot4)
 	slot5 = false
 	slot7 = slot1.localPosition + Vector3(0, 30, 0)
 	slot0.anims[slot4] = LeanTween.value(go(slot1), 0, 1, 0.3):setLoopPingPong(1):setOnUpdate(System.Action_float(function (slot0)
-		slot0.localPosition = Vector3.Lerp(slot0, Vector3.Lerp, slot0)
+		uv0.localPosition = Vector3.Lerp(uv1, uv2, slot0)
 
-		if slot0 >= 1 and not slot3 then
-			slot4.text = slot5
-			slot3 = true
+		if slot0 >= 1 and not uv3 then
+			uv4.text = uv5
+			uv3 = true
 		end
 	end)).id
 end

@@ -617,5 +617,3 @@ pg.player_resource = {
 		2005
 	}
 }
-
-return

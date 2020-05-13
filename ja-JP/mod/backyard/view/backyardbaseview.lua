@@ -3,7 +3,7 @@ slot1 = require("Framework.notify.event")
 slot2 = require("Mod/BackYard/view/BackYardTool")
 
 function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
-	slot0.event = slot0.New()
+	slot0.event = uv0.New()
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
 	slot0.mode = slot2
@@ -51,11 +51,11 @@ function slot0.IsVisitMode(slot0)
 end
 
 function slot0.change2ScrPos(slot0, slot1, slot2)
-	return slot0.change2ScrPos(slot1, slot2)
+	return uv0.change2ScrPos(slot1, slot2)
 end
 
 function slot0.getMapPos(slot0, slot1)
-	return slot0.getMapPos(slot1)
+	return uv0.getMapPos(slot1)
 end
 
 function slot0.EnableMultiTouch(slot0, slot1)
@@ -63,15 +63,12 @@ function slot0.EnableMultiTouch(slot0, slot1)
 end
 
 function slot0.OnInit(slot0)
-	return
 end
 
 function slot0.OnDidEnter(slot0)
-	return
 end
 
 function slot0.OnWillExit(slot0)
-	return
 end
 
 return slot0

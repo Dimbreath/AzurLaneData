@@ -4,7 +4,6 @@ slot0.STATE_IN_CLASS = "STATE_IN_CLASS"
 slot0.STATE_CLASS_OVER = "STATE_CLASS_OVER"
 
 function slot0.Ctor(slot0)
-	return
 end
 
 function slot0.SetSlotData(slot0, slot1)

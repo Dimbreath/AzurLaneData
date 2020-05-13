@@ -2,16 +2,15 @@ slot0 = class("CombatLoadMediator", import("..base.ContextMediator"))
 slot0.FINISH = "CombatLoadMediator:FINISH"
 
 function slot0.register(slot0)
-	slot0:bind(slot0.FINISH, function (slot0, slot1)
-		slot0.contextData.loadObs = slot1
-		slot0.contextData.prePause = slot0._prePauseBattle
+	slot0:bind(uv0.FINISH, function (slot0, slot1)
+		uv0.contextData.loadObs = slot1
+		uv0.contextData.prePause = uv0._prePauseBattle
 
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.BATTLE, slot0.contextData)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.BATTLE, uv0.contextData)
 	end)
 end
 
 function slot0.remove(slot0)
-	return
 end
 
 function slot0.listNotificationInterests(slot0)

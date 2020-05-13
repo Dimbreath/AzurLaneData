@@ -125,7 +125,7 @@ slot0.ChildItem = "item"
 slot0.ChildAttachment = "attachment"
 
 function slot0.NeedSelectTarget(slot0)
-	return pg.strategy_data_template[slot0].arg[1] == slot0.StgDtAirStrike or slot1.arg[1] == slot0.StgDtCannon
+	return pg.strategy_data_template[slot0].arg[1] == uv0.StgDtAirStrike or slot1.arg[1] == uv0.StgDtCannon
 end
 
 slot0.TraitNone = 0
@@ -133,37 +133,39 @@ slot0.TraitLurk = 1
 slot0.TraitVirgin = 2
 
 function slot0.NeedMarkAsLurk(slot0)
-	if slot0.attachment == slot0.AttachBox then
-		return slot0.flag == 0 and (pg.box_data_template[slot0.attachmentId].type == slot0.BoxDrop or pg.box_data_template[slot0.attachmentId].type == slot0.BoxStrategy or pg.box_data_template[slot0.attachmentId].type == slot0.BoxSupply or pg.box_data_template[slot0.attachmentId].type == slot0.BoxEnemy)
+	if slot0.attachment == uv0.AttachBox then
+		slot1 = pg.box_data_template[slot0.attachmentId]
+
+		return slot0.flag == 0 and (slot1.type == uv0.BoxDrop or slot1.type == uv0.BoxStrategy or slot1.type == uv0.BoxSupply or slot1.type == uv0.BoxEnemy)
 	else
-		return slot0.flag == 0 and (slot0.attachment == slot0.AttachEnemy or slot0.attachment == slot0.AttachElite or slot0.attachment == slot0.AttachBoss or slot0.attachment == slot0.AttachStory or slot0.attachment == slot0.AttachRival or slot0.attachment == slot0.AttachBomb_Enemy)
+		return slot0.flag == 0 and (slot0.attachment == uv0.AttachEnemy or slot0.attachment == uv0.AttachElite or slot0.attachment == uv0.AttachBoss or slot0.attachment == uv0.AttachStory or slot0.attachment == uv0.AttachRival or slot0.attachment == uv0.AttachBomb_Enemy)
 	end
 end
 
 function slot0.NeedEasePathCell(slot0)
-	if slot0.attachment == slot0.AttachNone then
+	if slot0.attachment == uv0.AttachNone then
 		return true
-	elseif slot0.attachment == slot0.AttachAmbush then
+	elseif slot0.attachment == uv0.AttachAmbush then
 		if slot0.flag ~= 0 then
 			return true
 		end
-	elseif slot0.attachment == slot0.AttachRival or slot0.attachment == slot0.AttachEnemy or slot0.attachment == slot0.AttachElite then
+	elseif slot0.attachment == uv0.AttachRival or slot0.attachment == uv0.AttachEnemy or slot0.attachment == uv0.AttachElite then
 		if slot0.flag == 1 then
 			return true
 		end
-	elseif slot0.attachment == slot0.AttachSupply and slot0.attachmentId <= 0 then
+	elseif slot0.attachment == uv0.AttachSupply and slot0.attachmentId <= 0 then
 		return true
-	elseif slot0.attachment == slot0.AttachBox then
-		if pg.box_data_template[slot0.attachmentId].type == slot0.BoxAirStrike or slot1.type == slot0.BoxTorpedo then
+	elseif slot0.attachment == uv0.AttachBox then
+		if pg.box_data_template[slot0.attachmentId].type == uv0.BoxAirStrike or slot1.type == uv0.BoxTorpedo then
 			return true
-		elseif (slot1.type == slot0.BoxDrop or slot1.type == slot0.BoxStrategy or slot1.type == slot0.BoxEnemy or slot1.type == slot0.BoxSupply) and slot0.flag == 1 then
-			return true
-		end
-	elseif slot0.attachment == slot0.AttachStory then
-		if slot0.flag ~= 0 and (slot0.flag ~= 3 or slot0.data ~= slot0.StoryObstacle) then
+		elseif (slot1.type == uv0.BoxDrop or slot1.type == uv0.BoxStrategy or slot1.type == uv0.BoxEnemy or slot1.type == uv0.BoxSupply) and slot0.flag == 1 then
 			return true
 		end
-	elseif slot0.attachment == slot0.AttachBarrier then
+	elseif slot0.attachment == uv0.AttachStory then
+		if slot0.flag ~= 0 and (slot0.flag ~= 3 or slot0.data ~= uv0.StoryObstacle) then
+			return true
+		end
+	elseif slot0.attachment == uv0.AttachBarrier then
 		return true
 	end
 
@@ -171,11 +173,11 @@ function slot0.NeedEasePathCell(slot0)
 end
 
 function slot0.NeedClearStep(slot0)
-	if slot0.attachment == slot0.AttachAmbush and slot0.flag == 2 then
+	if slot0.attachment == uv0.AttachAmbush and slot0.flag == 2 then
 		return true
 	end
 
-	if slot0.attachment == slot0.AttachBox and pg.box_data_template[slot0.attachmentId].type == slot0.BoxAirStrike then
+	if slot0.attachment == uv0.AttachBox and pg.box_data_template[slot0.attachmentId].type == uv0.BoxAirStrike then
 		return true
 	end
 
@@ -192,29 +194,25 @@ slot0.AchieveType6 = 6
 function slot0.IsAchieved(slot0)
 	slot1 = false
 
-	if slot0.type == slot0.AchieveType4 or slot0.type == slot0.AchieveType5 then
-		slot1 = slot0.count >= 1
-	else
-		return slot0.config <= slot0.count
-	end
+	return (slot0.type == uv0.AchieveType4 or slot0.type == uv0.AchieveType5) and slot0.count >= 1 or slot0.config <= slot0.count
 end
 
 function slot0.GetAchieveDesc(slot0, slot1)
 	slot2 = false
 
 	if _.detect(slot1.achieves, function (slot0)
-		return slot0.type == slot0
-	end).type == slot0.AchieveType1 then
+		return slot0.type == uv0
+	end).type == uv0.AchieveType1 then
 		return "敵中枢艦隊撃破"
-	elseif slot3.type == slot0.AchieveType2 then
+	elseif slot3.type == uv0.AchieveType2 then
 		return string.format("護衛艦隊撃破（%d/%d）", math.min(slot3.count, slot3.config), slot3.config)
-	elseif slot3.type == slot0.AchieveType3 then
+	elseif slot3.type == uv0.AchieveType3 then
 		return "全敵艦を撃破"
-	elseif slot3.type == slot0.AchieveType4 then
+	elseif slot3.type == uv0.AchieveType4 then
 		return string.format("出撃人数<=%d", slot3.config)
-	elseif slot3.type == slot0.AchieveType5 then
+	elseif slot3.type == uv0.AchieveType5 then
 		return string.format("出击舰娘不包含XX", ShipType.Type2Name(slot3.config))
-	elseif slot3.type == slot0.AchieveType6 then
+	elseif slot3.type == uv0.AchieveType6 then
 		return "FULLCOMBO達成"
 	end
 

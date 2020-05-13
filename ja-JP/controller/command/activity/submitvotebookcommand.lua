@@ -1,37 +1,42 @@
-class("SubmitVoteBookCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	slot4 = slot1:getBody().callback
-	slot6 = getProxy(VoteProxy).GetOrderBook(slot5)
+slot0 = class("SubmitVoteBookCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
+	slot2 = slot1:getBody()
+	slot4 = slot2.callback
+	slot6 = getProxy(VoteProxy):GetOrderBook()
 
 	pg.ConnectionMgr.GetInstance():Send(11202, {
 		cmd = 3,
 		arg3 = 0,
 		arg2 = 0,
 		activity_id = slot6.activityId,
-		arg1 = slot6:GetIntByBit(slot3)
+		arg1 = slot6:GetIntByBit(slot2.result)
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
 			slot1 = {}
 
 			for slot5, slot6 in ipairs(slot0.award_list) do
-				slot0:sendNotification(GAME.ADD_ITEM, Item.New({
+				slot7 = {
 					type = slot6.type,
 					id = slot6.id,
 					count = slot6.number
-				}))
-				table.insert(slot1, )
+				}
+
+				uv0:sendNotification(GAME.ADD_ITEM, Item.New(slot7))
+				table.insert(slot1, slot7)
 			end
 
-			slot0:sendNotification(GAME.SUBMIT_VOTE_BOOK_DONE, {
+			uv0:sendNotification(GAME.SUBMIT_VOTE_BOOK_DONE, {
 				awards = slot1,
 				callback = function ()
-					slot0:RemoveOrderBook()
-					slot0()
+					uv0:RemoveOrderBook()
+					uv1()
 				end
 			})
-		elseif slot2 then
-			slot2()
+		elseif uv2 then
+			uv2()
 		end
 	end)
 end
 
-return class("SubmitVoteBookCommand", pm.SimpleCommand)
+return slot0

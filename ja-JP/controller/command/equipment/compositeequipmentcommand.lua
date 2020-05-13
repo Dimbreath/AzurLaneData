@@ -1,8 +1,11 @@
-class("CompositeEquipmentCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	slot6 = getProxy(BagProxy).getData(slot5)
-	slot10 = pg.equip_data_statistics[pg.compose_data_template[slot1:getBody().id].equip_id]
+slot0 = class("CompositeEquipmentCommand", pm.SimpleCommand)
 
-	if getProxy(PlayerProxy).getData(slot7).equip_bag_max < getProxy(EquipmentProxy).getCapacity(slot11) + slot1.getBody().count then
+function slot0.execute(slot0, slot1)
+	slot2 = slot1:getBody()
+	slot6 = getProxy(BagProxy):getData()
+	slot10 = pg.equip_data_statistics[pg.compose_data_template[slot2.id].equip_id]
+
+	if getProxy(PlayerProxy):getData().equip_bag_max < getProxy(EquipmentProxy):getCapacity() + slot2.count then
 		NoPosMsgBox(i18n("switch_to_shop_tip_noPos"), openDestroyEquip, gotoChargeScene)
 
 		return
@@ -37,18 +40,18 @@ class("CompositeEquipmentCommand", pm.SimpleCommand).execute = function (slot0, 
 		num = slot3
 	}, 14007, function (slot0)
 		if slot0.result == 0 then
-			slot0:addEquipmentById(slot1.equip_id, slot0)
-			slot3:consume({
-				gold = slot1.gold_num * slot3
+			uv0:addEquipmentById(uv1.equip_id, uv2)
+			uv3:consume({
+				gold = uv1.gold_num * uv2
 			})
-			slot4:updatePlayer()
-			slot5:removeItemById(slot1.material_id, slot1.material_num * slot5)
-			slot6:sendNotification(GAME.COMPOSITE_EQUIPMENT_DONE, {
+			uv4:updatePlayer(uv3)
+			uv5:removeItemById(uv1.material_id, uv1.material_num * uv2)
+			uv6:sendNotification(GAME.COMPOSITE_EQUIPMENT_DONE, {
 				equipment = Equipment.New({
-					id = slot1.equip_id
+					id = uv1.equip_id
 				}),
-				count = slot2,
-				composeId = slot1.equip_id
+				count = uv2,
+				composeId = uv7
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("equipment_compositeEquipment", slot0.result))
@@ -56,4 +59,4 @@ class("CompositeEquipmentCommand", pm.SimpleCommand).execute = function (slot0, 
 	end)
 end
 
-return class("CompositeEquipmentCommand", pm.SimpleCommand)
+return slot0
