@@ -1,11 +1,12 @@
-class("TrackingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("TrackingCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
-	slot3 = slot2.chapterId
 	slot4 = slot2.fleetIds
 	slot5 = slot2.operationItem or 0
 	slot6 = slot2.loopFlag or 0
 
-	if getProxy(ChapterProxy).getChapterById(slot7, slot3).active then
+	if getProxy(ChapterProxy):getChapterById(slot2.chapterId).active then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_strategying"))
 
 		return
@@ -17,9 +18,9 @@ class("TrackingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		return
 	end
 
-	slot10 = getProxy(BayProxy).getRawData(slot9)
+	slot10 = getProxy(BayProxy):getRawData()
 
-	if not getProxy(PlayerProxy).getData(slot12):isEnough({
+	if not getProxy(PlayerProxy):getData():isEnough({
 		oil = slot8:getConfig("oil")
 	}) then
 		if not ItemTipPanel.ShowOilBuyTip(slot11) then
@@ -29,9 +30,7 @@ class("TrackingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		return
 	end
 
-	slot14 = getProxy(DailyLevelProxy)
-
-	if slot8:isEliteChapter() and not slot14:IsEliteEnabled() then
+	if slot8:isEliteChapter() and not getProxy(DailyLevelProxy):IsEliteEnabled() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_elite_no_quota"))
 
 		return
@@ -41,7 +40,7 @@ class("TrackingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot17 = slot8:getEliteFleetCommanders()
 	slot18 = {}
 
-	for slot22, slot23 in ipairs(slot16) do
+	for slot22, slot23 in ipairs(slot8:getEliteFleetList()) do
 		if slot8:singleEliteFleetVertify(slot22) then
 			slot24 = {}
 			slot25 = {}
@@ -53,7 +52,7 @@ class("TrackingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				slot25[#slot25 + 1] = slot33
 			end
 
-			for slot33, slot34 in pairs(slot29) do
+			for slot33, slot34 in pairs(slot17[slot22]) do
 				table.insert(slot28, {
 					pos = slot33,
 					id = slot34
@@ -81,36 +80,39 @@ class("TrackingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		loop_flag = slot6
 	}, 13102, function (slot0)
 		if slot0.result == 0 then
-			slot0:consume({
-				oil = slot0.consume
-			})
-			slot0:updatePlayer(slot0)
-			slot3:update(slot0.current_chapter)
+			slot4 = uv1
 
-			for slot4, slot5 in pairs(slot3.cells) do
+			uv0:consume({
+				oil = slot4
+			})
+			uv2:updatePlayer(uv0)
+			uv3:update(slot0.current_chapter)
+
+			for slot4, slot5 in pairs(uv3.cells) do
 				if ChapterConst.NeedMarkAsLurk(slot5) then
 					slot5.trait = ChapterConst.TraitLurk
 				end
 			end
 
-			for slot4, slot5 in ipairs(slot3.champions) do
+			for slot4, slot5 in ipairs(uv3.champions) do
 				slot5.trait = ChapterConst.TraitLurk
 			end
 
-			slot4:updateChapter(slot3)
+			uv4:updateChapter(uv3)
 
-			if slot3:getMapType() == Map.ESCORT then
-				getProxy(ChapterProxy).escortChallengeTimes = getProxy(ChapterProxy).escortChallengeTimes + 1
+			if uv3:getMapType() == Map.ESCORT then
+				slot1 = getProxy(ChapterProxy)
+				slot1.escortChallengeTimes = slot1.escortChallengeTimes + 1
 			end
 
-			slot5:sendNotification(GAME.TRACKING_DONE, )
+			uv5:sendNotification(GAME.TRACKING_DONE, uv3)
 
 			getProxy(ChapterProxy).extraFlagUpdate = true
 
-			slot5:sendNotification(ChapterProxy.CHAPTER_EXTAR_FLAG_UPDATED, slot3.extraFlagList)
+			uv5:sendNotification(ChapterProxy.CHAPTER_EXTAR_FLAG_UPDATED, uv3.extraFlagList)
 		elseif slot0.result == 1 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_tracking_error_retry"))
-			slot5:sendNotification(GAME.CHAPTER_OP, {
+			uv5:sendNotification(GAME.CHAPTER_OP, {
 				type = ChapterConst.OpRetreat
 			})
 		elseif slot0.result == 3010 then
@@ -121,4 +123,4 @@ class("TrackingCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end)
 end
 
-return class("TrackingCommand", pm.SimpleCommand)
+return slot0

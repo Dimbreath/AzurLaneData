@@ -5,7 +5,6 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.GetPaintingCommodityUpdateVoice(slot0)
-	return
 end
 
 function slot0.CanOpen(slot0, slot1, slot2)
@@ -25,21 +24,21 @@ function slot0.OnInit(slot0)
 	slot1 = pg.arena_data_shop[1]
 
 	onButton(slot0, slot0.refreshBtn, function ()
-		if slot0.shop.refreshCount - 1 >= #slot1.refresh_price then
+		if uv0.shop.refreshCount - 1 >= #uv1.refresh_price then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("shopStreet_refresh_max_count"))
 
 			return
 		end
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n("refresh_shopStreet_question", i18n("word_gem_icon"), slot1.refresh_price[slot0.shop.refreshCount] or slot1.refresh_price[#slot1.refresh_price], slot1.refresh_price[slot0.shop.refreshCount] or slot1.refresh_price[#slot1.refresh_price].shop.refreshCount - 1),
+			content = i18n("refresh_shopStreet_question", i18n("word_gem_icon"), uv1.refresh_price[uv0.shop.refreshCount] or uv1.refresh_price[#uv1.refresh_price], uv0.shop.refreshCount - 1),
 			onYes = function ()
-				if slot0.player:getTotalGem() < slot0.player then
+				if uv0.player:getTotalGem() < uv1 then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 					return
 				else
-					slot0:emit(NewShopsMediator.REFRESH_MILITARY_SHOP, true)
+					uv0:emit(NewShopsMediator.REFRESH_MILITARY_SHOP, true)
 				end
 			end
 		})
@@ -76,13 +75,13 @@ function slot0.InitCommodities(slot0)
 				type = slot0:getConfig("type")
 			},
 			onYes = function ()
-				if not slot0:canPurchase() then
+				if not uv0:canPurchase() then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
 
 					return
 				end
 
-				slot1:emit(NewShopsMediator.ON_SHOPPING, slot0.id, 1)
+				uv1:emit(NewShopsMediator.ON_SHOPPING, uv0.id, 1)
 			end
 		})
 	end
@@ -91,14 +90,15 @@ function slot0.InitCommodities(slot0)
 
 	slot0.uilist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
+			slot3 = uv0[slot1 + 1]
 			slot4 = GoodsCard.New(slot2)
 
 			slot4:update(slot3)
 
-			slot1.cards[slot0[slot1 + 1].id] = slot4
+			uv1.cards[slot3.id] = slot4
 
-			onButton(slot1, slot4.itemTF, function ()
-				slot0(slot1.goodsVO)
+			onButton(uv1, slot4.itemTF, function ()
+				uv0(uv1.goodsVO)
 			end, SFX_PANEL)
 		end
 	end)
@@ -108,11 +108,11 @@ end
 function slot0.AddTimer(slot0)
 	slot1 = slot0.shop.nextTime + 1
 	slot0.timer = Timer.New(function ()
-		if slot0 - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
-			slot1:RemoveTimer()
-			slot1.RemoveTimer:emit(NewShopsMediator.REFRESH_MILITARY_SHOP)
+		if uv0 - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
+			uv1:RemoveTimer()
+			uv1:emit(NewShopsMediator.REFRESH_MILITARY_SHOP)
 		else
-			slot1.timerTF.text = pg.TimeMgr.GetInstance():DescCDTime(slot0)
+			uv1.timerTF.text = pg.TimeMgr.GetInstance():DescCDTime(slot0)
 		end
 	end, 1, -1)
 

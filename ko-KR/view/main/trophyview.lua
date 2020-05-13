@@ -15,13 +15,15 @@ function slot0.Ctor(slot0, slot1)
 end
 
 function slot0.UpdateTrophyGroup(slot0, slot1)
-	slot0:updateInfoView(slot2)
+	slot0:updateInfoView(slot1:getDisplayTrophy())
 	slot0:updateProgressView(slot1:getProgressTrophy())
 end
 
 function slot0.ProgressingForm(slot0, slot1)
+	slot2 = slot1:getProgressTrophy()
+
 	slot0:updateInfoView(slot2)
-	slot0:updateProgressView(slot1:getProgressTrophy())
+	slot0:updateProgressView(slot2)
 end
 
 function slot0.ClaimForm(slot0, slot1)
@@ -54,7 +56,7 @@ function slot0.setGray(slot0, slot1, slot2)
 	setGray(slot1, slot2, true)
 
 	if slot2 then
-		slot1:GetComponent(typeof(Image)).color = slot0.GRAY_COLOR
+		slot1:GetComponent(typeof(Image)).color = uv0.GRAY_COLOR
 	else
 		slot1:GetComponent(typeof(Image)).color = Color.white
 	end
@@ -87,9 +89,9 @@ function slot0.PlayClaimAnima(slot0, slot1, slot2, slot3)
 	slot4 = slot0._tf:GetComponent(typeof(Animator))
 	slot4.enabled = true
 
-	slot0._tf:GetComponent(typeof(DftAniEvent)).SetEndEvent(slot5, function (slot0)
-		slot0()
-		slot1(slot1._reminder, slot1._progressTrophy:canClaimed() and not slot1._progressTrophy:isClaimed())
+	slot0._tf:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
+		uv0()
+		setActive(uv1._reminder, uv1._progressTrophy:canClaimed() and not uv1._progressTrophy:isClaimed())
 	end)
 	slot4:Play("trophy_upper", -1, 0)
 	setActive(slot2, true)
@@ -101,9 +103,9 @@ function slot0.PlayClaimAnima(slot0, slot1, slot2, slot3)
 	slot6.localScale = Vector3(1, 1, 0)
 
 	LuaHelper.SetParticleEndEvent(slot2, function ()
-		slot0._isPlaying = false
+		uv0._isPlaying = false
 
-		Object.Destroy(false)
+		Object.Destroy(uv1)
 	end)
 end
 

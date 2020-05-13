@@ -1,7 +1,7 @@
 slot0 = class("SNPTPage", import(".TemplatePage.PtTemplatePage"))
 
 function slot0.OnFirstFlush(slot0)
-	slot0.super.OnFirstFlush(slot0)
+	uv0.super.OnFirstFlush(slot0)
 
 	slot0.gameBtn = slot0:findTF("game_btn", slot0.bg)
 
@@ -24,7 +24,7 @@ function slot0.OnFirstFlush(slot0)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.battleBtn, function ()
-		slot0:emit(ActivityMediator.GO_SHOPS_LAYER, {
+		uv0:emit(ActivityMediator.GO_SHOPS_LAYER, {
 			warp = NewShopsScene.TYPE_ACTIVITY,
 			actId = _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
 				return slot0:getConfig("config_client").pt_id == pg.gameset.activity_res_id.key_value
@@ -32,7 +32,7 @@ function slot0.OnFirstFlush(slot0)
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.gotBtn, function ()
-		slot0:emit(ActivityMediator.GO_SHOPS_LAYER, {
+		uv0:emit(ActivityMediator.GO_SHOPS_LAYER, {
 			warp = NewShopsScene.TYPE_ACTIVITY,
 			actId = _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
 				return slot0:getConfig("config_client").pt_id == pg.gameset.activity_res_id.key_value
@@ -42,11 +42,11 @@ function slot0.OnFirstFlush(slot0)
 end
 
 function slot0.OnUpdateFlush(slot0)
-	slot0.super.OnUpdateFlush(slot0)
+	uv0.super.OnUpdateFlush(slot0)
 
 	slot1, slot2, slot3 = slot0.ptData:GetResProgress()
 
-	setText(slot0.progress, ((slot3 >= 1 and setColorStr(slot1, "#0A79FFFF")) or slot1) .. "/" .. slot2)
+	setText(slot0.progress, (slot3 >= 1 and setColorStr(slot1, "#0A79FFFF") or slot1) .. "/" .. slot2)
 end
 
 return slot0

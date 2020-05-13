@@ -1,10 +1,13 @@
-class("AddShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("AddShipCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
+	slot3 = slot2.id
 	slot4 = slot2.type
 	slot5 = slot2.callBack
-	slot8 = getProxy(BayProxy).getShipById(slot7, slot3)
+	slot8 = getProxy(BayProxy):getShipById(slot3)
 
-	if table.contains(getProxy(DormProxy).getData(slot6).shipIds, slot2.id) then
+	if table.contains(getProxy(DormProxy):getData().shipIds, slot3) then
 		if slot5 then
 			slot5()
 		end
@@ -19,34 +22,34 @@ class("AddShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		if slot0.result == 0 then
 			slot1 = getProxy(BayProxy)
 
-			if slot0 == BackYardShipInfoLayer.SHIP_TRAIN_TYPE then
-				slot1.state_info_1 = pg.TimeMgr.GetInstance():GetServerTime()
-				slot1.state_info_2 = slot1:getTotalExp()
+			if uv0 == BackYardShipInfoLayer.SHIP_TRAIN_TYPE then
+				uv1.state_info_1 = pg.TimeMgr.GetInstance():GetServerTime()
+				uv1.state_info_2 = uv1:getTotalExp()
 
-				slot1:updateState(Ship.STATE_TRAIN)
+				uv1:updateState(Ship.STATE_TRAIN)
 
-				if slot1.updateState.next_timestamp == 0 then
-					slot2:restNextTime()
-					slot2:updateDrom(slot2.updateDrom)
+				if uv2.next_timestamp == 0 then
+					uv2:restNextTime()
+					uv3:updateDrom(uv2)
 				end
-			elseif slot0 == BackYardShipInfoLayer.SHIP_REST_TYPE then
-				slot1:updateState(Ship.STATE_REST)
+			elseif uv0 == BackYardShipInfoLayer.SHIP_REST_TYPE then
+				uv1:updateState(Ship.STATE_REST)
 			end
 
-			slot1:updateShip(slot1)
-			slot1:addShip(slot1.id)
-			slot4:sendNotification(GAME.ADD_SHIP_DONE, {
-				id = slot5,
-				type = slot0
+			slot1:updateShip(uv1)
+			uv3:addShip(uv1.id)
+			uv4:sendNotification(GAME.ADD_SHIP_DONE, {
+				id = uv5,
+				type = uv0
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("backyard_addShip", slot0.result))
 		end
 
-		if slot6 then
-			slot6()
+		if uv6 then
+			uv6()
 		end
 	end)
 end
 
-return class("AddShipCommand", pm.SimpleCommand)
+return slot0

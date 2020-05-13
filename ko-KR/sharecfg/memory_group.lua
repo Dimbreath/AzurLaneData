@@ -2243,5 +2243,3 @@ pg.memory_group = {
 		548
 	}
 }
-
-return

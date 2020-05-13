@@ -17,37 +17,48 @@ function slot0.OnFirstFlush(slot0)
 	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 	setActive(slot0.award, false)
 
-	for slot4 = 1, #slot0.config.front_drops, 1 do
+	for slot4 = 1, #slot0.config.front_drops do
+		slot5 = slot0.config.front_drops[slot4]
 		slot7 = cloneTplTo(slot0.award, slot0.content, "award" .. tostring(slot4))
 		slot9 = slot0:findTF("btnAchieve", slot7)
-		slot10 = slot0:findTF("items", slot7)
 
-		setActive(slot11, false)
-		GetImageSpriteFromAtlasAsync("ui/activityuipage/level_award_atlas", tostring(slot6) .. ".png", slot8, true)
+		setActive(slot0:findTF("item", slot7), false)
 
-		for slot15 = 2, #slot0.config.front_drops[slot4], 1 do
-			updateDrop(slot16, slot18)
-			onButton(slot0, cloneTplTo(slot11, slot10), function ()
-				slot0:emit(BaseUI.ON_DROP, slot0)
+		slot15 = slot0:findTF("limit_label/labelLevel", slot7)
+
+		GetImageSpriteFromAtlasAsync("ui/activityuipage/level_award_atlas", tostring(slot5[1]) .. ".png", slot15, true)
+
+		for slot15 = 2, #slot5 do
+			slot16 = cloneTplTo(slot11, slot0:findTF("items", slot7))
+			slot17 = slot5[slot15]
+
+			updateDrop(slot16, {
+				type = slot17[1],
+				id = slot17[2],
+				count = slot17[3]
+			})
+			onButton(slot0, slot16, function ()
+				uv0:emit(BaseUI.ON_DROP, uv1)
 			end, SFX_PANEL)
 		end
 
 		onButton(slot0, slot9, function ()
-			slot0:emit(ActivityMediator.EVENT_OPERATION, {
+			uv0:emit(ActivityMediator.EVENT_OPERATION, {
 				cmd = 1,
-				activity_id = slot0.activity.id,
-				arg1 = slot0
+				activity_id = uv0.activity.id,
+				arg1 = uv1
 			})
 		end, SFX_PANEL)
 		onScroll(slot0, slot0.scrollTF, function (slot0)
-			setActive(slot0.pageSignDownTF, slot0.y > 0.01)
-			setActive(slot0.pageSignUpTF, slot0.y < 0.99)
+			setActive(uv0.pageSignDownTF, slot0.y > 0.01)
+			setActive(uv0.pageSignUpTF, slot0.y < 0.99)
 		end)
 	end
 end
 
 function slot0.OnUpdateFlush(slot0)
-	for slot4 = 1, #slot0.config.front_drops, 1 do
+	for slot4 = 1, #slot0.config.front_drops do
+		slot6 = slot0:findTF("award" .. tostring(slot4), slot0.content)
 		slot7 = slot0:findTF("btnAchieve", slot6)
 		slot8 = slot0:findTF("achieve_sign", slot6)
 
@@ -63,7 +74,6 @@ function slot0.OnUpdateFlush(slot0)
 end
 
 function slot0.OnDestroy(slot0)
-	return
 end
 
 return slot0

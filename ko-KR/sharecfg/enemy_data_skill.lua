@@ -64,5 +64,3 @@ pg.enemy_data_skill = {
 		8
 	}
 }
-
-return

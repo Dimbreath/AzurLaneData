@@ -14,19 +14,19 @@ function slot0.applyEffect(slot0, slot1)
 	end
 
 	PoolMgr.GetInstance():GetPrefab("ui/" .. slot1, slot1, true, function (slot0)
-		if not slot0.effects or slot0.effects[] then
-			PoolMgr.GetInstance():ReturnPrefab("ui/" .. slot1, PoolMgr.GetInstance().ReturnPrefab, slot0)
+		if not uv0.effects or uv0.effects[uv1] then
+			PoolMgr.GetInstance():ReturnPrefab("ui/" .. uv1, uv1, slot0)
 
 			return
 		end
 
-		slot0.name = slot1
+		slot0.name = uv1
 
-		setParent(slot0, slot0.effectContains)
+		setParent(slot0, uv0.effectContains)
 		setActive(slot0, true)
 
-		slot0.effects[] = slot0
-		slot1[slot0.counts] = (slot0.counts[slot0.counts] or 0) + 1
+		uv0.effects[uv1] = slot0
+		uv0.counts[uv1] = (uv0.counts[uv1] or 0) + 1
 	end)
 end
 

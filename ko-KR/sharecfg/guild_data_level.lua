@@ -73,5 +73,3 @@ pg.guild_data_level = {
 		10
 	}
 }
-
-return

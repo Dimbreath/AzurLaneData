@@ -118,5 +118,3 @@ GraphicRaycaster = UnityEngine.UI.GraphicRaycaster
 SocketError = System.Net.Sockets.SocketError
 GCHandle = System.Runtime.InteropServices.GCHandle
 GCHandleType = System.Runtime.InteropServices.GCHandleType
-
-return

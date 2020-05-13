@@ -12,12 +12,11 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnDataSetting(slot0)
-	slot1 = getProxy(TaskProxy)
 	slot0.taskList = slot0.taskList or slot0.activity:getConfig("config_data")
 
 	for slot5, slot6 in ipairs(slot0.taskList) do
 		slot0.taskIndex = slot5
-		slot0.taskVO = slot1:getTaskVO(slot6)
+		slot0.taskVO = getProxy(TaskProxy):getTaskVO(slot6)
 
 		if not slot0.taskVO:isReceive() then
 			break
@@ -28,37 +27,45 @@ end
 function slot0.OnFirstFlush(slot0)
 	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 	onButton(slot0, slot0.displayBtn, function ()
-		slot0:emit(ActivityMediator.SHOW_AWARD_WINDOW, GloryAwardWindow, {
-			taskList = slot0.taskList,
-			taskVO = slot0.taskVO
+		uv0:emit(ActivityMediator.SHOW_AWARD_WINDOW, GloryAwardWindow, {
+			taskList = uv0.taskList,
+			taskVO = uv0.taskVO
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.battleBtn, function ()
-		slot0:emit(ActivityMediator.BATTLE_OPERA)
+		uv0:emit(ActivityMediator.BATTLE_OPERA)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.getBtn, function ()
-		slot0:emit(ActivityMediator.ON_TASK_SUBMIT, slot0.taskVO)
+		uv0:emit(ActivityMediator.ON_TASK_SUBMIT, uv0.taskVO)
 	end, SFX_PANEL)
 end
 
 function slot0.OnUpdateFlush(slot0)
-	updateDrop(slot0.awardTF, slot2)
+	slot1 = slot0.taskVO:getConfig("award_display")[1]
+
+	updateDrop(slot0.awardTF, {
+		type = slot1[1],
+		id = slot1[2],
+		count = slot1[3]
+	})
 	onButton(slot0, slot0.awardTF, function ()
-		slot0:emit(BaseUI.ON_DROP, slot0)
+		uv0:emit(BaseUI.ON_DROP, uv1)
 	end, SFX_PANEL)
 
 	if slot0.step then
 		setText(slot0.step, slot0.taskIndex .. "/" .. #slot0.taskList)
 	end
 
+	slot3 = slot0.taskVO:getProgress()
+	slot4 = slot0.taskVO:getConfig("target_num")
+
 	setText(slot0.progress, slot3 .. "/" .. slot4)
-	setSlider(slot0.slider, 0, slot0.taskVO:getConfig("target_num"), slot0.taskVO:getProgress())
+	setSlider(slot0.slider, 0, slot4, slot3)
 	setActive(slot0.battleBtn, slot0.taskVO:getTaskStatus() == 0)
 	setActive(slot0.getBtn, slot5 == 1)
 end
 
 function slot0.OnDestroy(slot0)
-	return
 end
 
 return slot0

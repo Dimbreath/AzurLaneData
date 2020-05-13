@@ -3,7 +3,7 @@ slot0 = class("FinishStageCommand", pm.SimpleCommand)
 function slot0.execute(slot0, slot1)
 	slot3 = slot1:getBody().system
 
-	if slot0.CheaterVertify() then
+	if uv0.CheaterVertify() then
 		return
 	end
 
@@ -25,38 +25,43 @@ function slot0.CheaterVertify()
 end
 
 function slot0.GeneralPackage(slot0, slot1)
-	slot2 = 0
 	slot3 = {}
 	slot5 = nil
-	slot7 = slot0.system + ((slot0.system ~= SYSTEM_DUEL or slot0.rivalId) and slot0.stageId) + slot0.statistics._battleScore
 
 	for slot11, slot12 in ipairs(slot1) do
 		if slot0.statistics[slot12.id] then
+			slot14 = slot13.id
+			slot15 = math.floor(slot13.bp)
+			slot16 = math.floor(slot13.output)
+			slot18 = math.floor(slot13.maxDamageOnce)
+
 			table.insert(slot3, {
-				ship_id = slot13.id,
-				hp_rest = math.floor(slot13.bp),
-				damage_cause = math.floor(slot13.output),
+				ship_id = slot14,
+				hp_rest = slot15,
+				damage_cause = slot16,
 				damage_caused = math.floor(slot13.damage),
-				max_damage_once = math.floor(slot13.maxDamageOnce),
+				max_damage_once = slot18,
 				ship_gear_score = math.floor(slot13.gearScore)
 			})
 
-			slot7 = slot7 + slot13.id + math.floor(slot13.bp) + math.floor(slot13.output) + math.floor(slot13.maxDamageOnce)
-			slot2 = slot2 + slot12:getShipCombatPower()
+			slot7 = slot0.system + ((slot0.system ~= SYSTEM_DUEL or slot0.rivalId) and slot0.stageId) + slot0.statistics._battleScore + slot14 + slot15 + slot16 + slot18
+			slot2 = 0 + slot12:getShipCombatPower()
 		end
 	end
+
+	slot7 = math.floor(slot7 % 49993 * (slot0.token % 49993) % 49993 + slot0.statistics._totalTime)
 
 	return {
 		system = slot4,
 		data = slot5,
 		score = slot6,
-		key = math.floor((slot7 % 49993 * slot0.token % 49993) % 49993 + slot0.statistics._totalTime),
+		key = slot7,
 		statistics = slot3,
 		kill_id_list = slot0.statistics.kill_id_list,
 		total_time = slot0.statistics._totalTime,
 		bot_percentage = slot0.statistics._botPercentage,
 		extra_param = slot2,
-		file_check = tostring(math.floor((GetBattleCheck() % 88824 * slot0.token % 88824) % (88824 + math.floor((slot7 % 49993 * slot0.token % 49993) % 49993 + slot0.statistics._totalTime)))),
+		file_check = tostring(math.floor(GetBattleCheck() % 88824 * (slot0.token % 88824) % (88824 + slot7))),
 		enemy_info = {},
 		data2 = {}
 	}
@@ -65,9 +70,9 @@ end
 function slot0.SendRequest(slot0, slot1, slot2)
 	pg.ConnectionMgr.GetInstance():Send(40003, slot1, 40004, function (slot0)
 		if slot0.result == 0 or slot0.result == 1030 then
-			slot0(slot0)
+			uv0(slot0)
 		else
-			slot1:RequestFailStandardProcess(slot0)
+			uv1:RequestFailStandardProcess(slot0)
 		end
 	end)
 end
@@ -89,12 +94,10 @@ function slot0.addShipsExp(slot0, slot1, slot2)
 	slot5 = {}
 
 	for slot9, slot10 in ipairs(slot0) do
-		slot11 = slot10.ship_id
-		slot12 = slot10.exp or 0
 		slot13 = slot10.intimacy
 
-		if slot1[slot11] then
-			slot3:getShipById(slot11):addExp(slot12, slot2)
+		if slot1[slot10.ship_id] then
+			slot3:getShipById(slot11):addExp(slot10.exp or 0, slot2)
 
 			if slot13 then
 				slot14:addLikability(slot13 - 10000)
@@ -106,21 +109,20 @@ function slot0.addShipsExp(slot0, slot1, slot2)
 end
 
 function slot0.DeadShipEnergyCosume(slot0, slot1)
-	slot2 = pg.gameset.battle_dead_energy.key_value
 	slot3 = getProxy(BayProxy)
 
 	for slot7, slot8 in ipairs(slot1) do
 		if slot0.statistics[slot8.id] and slot9.bp == 0 then
 			slot10 = slot3:getShipById(slot8.id)
 
-			slot10:cosumeEnergy(slot2)
+			slot10:cosumeEnergy(pg.gameset.battle_dead_energy.key_value)
 			slot3:updateShip(slot10)
 		end
 	end
 end
 
 function slot0.GeneralPlayerCosume(slot0, slot1, slot2, slot3, slot4)
-	getProxy(PlayerProxy).getData(slot5).addExp(slot6, slot3)
+	getProxy(PlayerProxy):getData():addExp(slot3)
 
 	if pg.battle_cost_template[slot0].oil_cost > 0 and slot1 then
 		slot6:consume({
@@ -149,13 +151,14 @@ function slot0.GeneralPlayerCosume(slot0, slot1, slot2, slot3, slot4)
 end
 
 function slot0.GeneralLoot(slot0, slot1)
-	slot2 = {}
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot1.drop_info) do
-		table.insert(slot2, Item.New(slot8))
+		slot9 = Item.New(slot8)
 
-		if Item.New(slot8).type == DROP_TYPE_SHIP then
+		table.insert({}, slot9)
+
+		if slot9.type == DROP_TYPE_SHIP then
 			slot9.virgin = getProxy(CollectionProxy) and slot11.shipGroups[pg.ship_data_template[slot9.id].group_type] == nil
 		end
 
@@ -163,8 +166,10 @@ function slot0.GeneralLoot(slot0, slot1)
 	end
 
 	for slot7, slot8 in ipairs(slot1.extra_drop_info) do
+		slot9 = Item.New(slot8)
+
 		table.insert(slot3, slot9)
-		slot0:sendNotification(GAME.ADD_ITEM, Item.New(slot8))
+		slot0:sendNotification(GAME.ADD_ITEM, slot9)
 	end
 
 	return slot2, slot3
@@ -173,20 +178,18 @@ end
 function slot0.GenerateCommanderExp(slot0, slot1)
 	slot3 = getProxy(CommanderProxy)
 	slot4 = slot1:getCommanders()
-	slot5 = {}
 
-	for slot9, slot10 in ipairs(slot2) do
-		slot13 = slot3:getCommanderById(slot11)
-		slot14 = slot13.exp
+	for slot9, slot10 in ipairs(slot0.commander_exp) do
+		slot13 = slot3:getCommanderById(slot10.commander_id)
 
-		slot13:addExp(slot12)
+		slot13:addExp(slot10.exp)
 		slot3:updateCommander(slot13)
 
 		if slot13:isMaxLevel() then
-			table.insert(slot5, {
+			table.insert({}, {
 				exp = 0,
 				commander_id = slot11,
-				curExp = slot14
+				curExp = slot13.exp
 			})
 		else
 			table.insert(slot5, {
@@ -199,10 +202,9 @@ function slot0.GenerateCommanderExp(slot0, slot1)
 
 	slot6 = {}
 	slot7 = {}
-	slot8 = {}
 
 	for slot12, slot13 in pairs(slot4) do
-		table.insert(slot8, slot13.id)
+		table.insert({}, slot13.id)
 	end
 
 	for slot12, slot13 in ipairs(slot5) do

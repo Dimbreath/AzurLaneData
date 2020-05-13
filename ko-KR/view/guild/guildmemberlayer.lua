@@ -96,8 +96,8 @@ end
 function slot0.didEnter(slot0)
 	slot0:initMembers()
 	onButton(slot0, slot0.appiontPanel, function ()
-		slot0:closeButtons()
-		slot0.closeButtons:closeAppointPanel()
+		uv0:closeButtons()
+		uv0:closeAppointPanel()
 	end, SFX_PANEL)
 end
 
@@ -128,16 +128,16 @@ function slot0.initMembers(slot0)
 	slot0.rectRect = slot0.rectView:GetComponent("LScrollRect")
 
 	function slot0.rectRect.onInitItem(slot0)
-		slot0:onInitItem(slot0)
+		uv0:onInitItem(slot0)
 	end
 
 	function slot0.rectRect.onUpdateItem(slot0, slot1)
-		slot0:onUpdateItem(slot0, slot1)
+		uv0:onUpdateItem(slot0, slot1)
 	end
 
 	function slot0.rectRect.onStart()
 		pg.UIMgr.GetInstance():LoadingOff()
-		pg.UIMgr.GetInstance().LoadingOff:reloadPainting()
+		uv0:reloadPainting()
 	end
 
 	slot0.items = {}
@@ -156,128 +156,145 @@ function slot0.reloadPainting(slot0)
 end
 
 function slot0.createMemberCard(slot0, slot1)
-	function slot3(slot0, slot1)
-		if slot0.Timer[slot0] then
-			slot0.Timer[slot0]:Stop()
+	slot2 = {
+		go = slot1,
+		tf = tf(slot1)
+	}
+	slot2.iconTF = slot2.tf:Find("shipicon/icon"):GetComponent(typeof(Image))
+	slot2.starsTF = slot2.tf:Find("shipicon/stars")
+	slot2.starTF = slot2.tf:Find("shipicon/stars/star")
+	slot2.levelTF = slot2.tf:Find("level/Text"):GetComponent(typeof(Text))
+	slot2.nameTF = slot2.tf:Find("name_bg/Text"):GetComponent(typeof(Text))
+	slot2.dutyTF = slot2.tf:Find("duty"):GetComponent(typeof(Image))
+	slot2.livenessTF = slot2.tf:Find("liveness/Text"):GetComponent(typeof(Text))
+	slot2.onLine = slot2.tf:Find("online_tag")
+	slot2.offLine = slot2.tf:Find("last_time")
+	slot2.onLineLabel = slot2.tf:Find("online")
+	slot2.offLineLabel = slot2.tf:Find("offline")
+	slot2.offLineText = slot2.tf:Find("last_time/Text"):GetComponent(typeof(Text))
+	slot2.maskTF = slot2.tf:Find("mask")
+	slot2.timerTF = slot2.tf:Find("mask/Text"):GetComponent(typeof(Text))
+	slot2.borderTF = slot2.tf:Find("selected")
+	slot2.bg = slot2.tf:Find("bg")
+	slot2.circle = slot2.tf:Find("shipicon/frame")
 
-			slot0.Timer[slot0] = nil
+	function slot3(slot0, slot1)
+		if uv0.Timer[slot0] then
+			uv0.Timer[slot0]:Stop()
+
+			uv0.Timer[slot0] = nil
 		end
 
-		slot0.Timer[slot0] = Timer.New(slot1, 1, -1)
+		uv0.Timer[slot0] = Timer.New(slot1, 1, -1)
 
-		slot0.Timer[slot0]:Start()
-		slot0.Timer[slot0].func()
+		uv0.Timer[slot0]:Start()
+		uv0.Timer[slot0].func()
 	end
 
-	return {
-		go = slot1,
-		tf = tf(slot1),
-		iconTF = ()["tf"]:Find("shipicon/icon"):GetComponent(typeof(Image)),
-		starsTF = ()["tf"]:Find("shipicon/stars"),
-		starTF = ()["tf"]:Find("shipicon/stars/star"),
-		levelTF = ()["tf"]:Find("level/Text"):GetComponent(typeof(Text)),
-		nameTF = ()["tf"]:Find("name_bg/Text"):GetComponent(typeof(Text)),
-		dutyTF = ()["tf"]:Find("duty"):GetComponent(typeof(Image)),
-		livenessTF = ()["tf"]:Find("liveness/Text"):GetComponent(typeof(Text)),
-		onLine = ()["tf"]:Find("online_tag"),
-		offLine = ()["tf"]:Find("last_time"),
-		onLineLabel = ()["tf"]:Find("online"),
-		offLineLabel = ()["tf"]:Find("offline"),
-		offLineText = ()["tf"]:Find("last_time/Text"):GetComponent(typeof(Text)),
-		maskTF = ()["tf"]:Find("mask"),
-		timerTF = ()["tf"]:Find("mask/Text"):GetComponent(typeof(Text)),
-		borderTF = ()["tf"]:Find("selected"),
-		bg = ()["tf"]:Find("bg"),
-		circle = ()["tf"]:Find("shipicon/frame"),
-		clear = function (slot0)
-			if slot0.circle.childCount > 0 then
-				PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot2, slot0.circle:GetChild(0).gameObject.name, slot0.circle.GetChild(0).gameObject)
+	function slot2.clear(slot0)
+		if slot0.circle.childCount > 0 then
+			slot1 = slot0.circle:GetChild(0)
+			slot2 = slot1.gameObject.name
+
+			PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot2, slot2, slot1.gameObject)
+		end
+	end
+
+	function slot2.dispose(slot0)
+		slot0:clear()
+	end
+
+	function slot2.update(slot0, slot1, slot2, slot3)
+		slot0:clear()
+		setActive(uv0.borderTF, slot3)
+		setActive(uv0.bg, not slot3)
+
+		slot0.memberVO = slot1
+
+		LoadSpriteAsync("qicon/" .. Ship.New({
+			configId = slot1.icon,
+			skin_id = slot1.skinId,
+			propose = slot1.proposeTime
+		}):getPainting(), function (slot0)
+			if not IsNil(uv0.iconTF) then
+				uv0.iconTF.sprite = slot0
 			end
-		end,
-		dispose = function (slot0)
-			slot0:clear()
-		end,
-		update = function (slot0, slot1, slot2, slot3)
-			slot0:clear()
-			setActive(slot0.borderTF, slot3)
-			setActive(slot0.bg, not slot3)
+		end)
 
-			slot0.memberVO = slot1
+		slot6 = AttireFrame.attireFrameRes(slot1, false, AttireConst.TYPE_ICON_FRAME, slot1.propose)
 
-			LoadSpriteAsync("qicon/" .. Ship.New({
-				configId = slot1.icon,
-				skin_id = slot1.skinId,
-				propose = slot1.proposeTime
-			}).getPainting(slot5), function (slot0)
-				if not IsNil(slot0.iconTF) then
-					slot0.iconTF.sprite = slot0
-				end
-			end)
-			PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot6, slot6, true, function (slot0)
-				if slot0.circle then
-					slot0.name = slot1
-					findTF(slot0.transform, "icon").GetComponent(slot1, typeof(Image)).raycastTarget = false
+		function slot12(slot0)
+			if uv0.circle then
+				slot0.name = uv1
+				findTF(slot0.transform, "icon"):GetComponent(typeof(Image)).raycastTarget = false
 
-					setParent(slot0, slot0.circle, false)
-				else
-					PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot1, PoolMgr.GetInstance().ReturnPrefab, slot0)
-				end
-			end)
-
-			slot0.dutyTF.sprite = GetSpriteFromAtlas("dutyicon", slot1.duty)
-
-			for slot12 = slot0.starsTF.childCount, pg.ship_data_statistics[slot1.icon].star - 1, 1 do
-				cloneTplTo(slot0.starTF, slot0.starsTF)
-			end
-
-			for slot12 = 1, slot8, 1 do
-				setActive(slot0.starsTF:GetChild(slot12 - 1), slot12 <= slot4.star)
-			end
-
-			slot0.levelTF.text = slot1.level
-			slot0.nameTF.text = slot1.name
-			slot0.livenessTF.text = slot1.liveness
-
-			setActive(slot0.onLine, slot1:isOnline())
-			setActive(slot0.offLine, not slot1:isOnline())
-			setActive(slot0.onLineLabel, slot1:isOnline())
-			setActive(slot0.offLineLabel, not slot1:isOnline())
-
-			if not slot1:isOnline() then
-				slot0.offLineText.text = getOfflineTimeStamp(slot1.preOnLineTime)
-			end
-
-			setActive(slot0.maskTF, slot1.duty == GuildMember.DUTY_COMMANDER and slot2:inKickTime())
-
-			if slot1.duty == GuildMember.DUTY_COMMANDER and slot2.inKickTime() then
-				slot1(slot1.id, function ()
-					if slot0:getKickLeftTime() > 0 then
-						slot1.timerTF.text = pg.TimeMgr.GetInstance():DescCDTime(slot0)
-					else
-						slot1.timerTF.text = ""
-
-						setActive(slot1.maskTF, false)
-					end
-				end)
+				setParent(slot0, uv0.circle, false)
+			else
+				PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. uv1, uv1, slot0)
 			end
 		end
-	}
+
+		PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot6, slot6, true, slot12)
+
+		uv0.dutyTF.sprite = GetSpriteFromAtlas("dutyicon", slot1.duty)
+
+		for slot12 = slot0.starsTF.childCount, pg.ship_data_statistics[slot1.icon].star - 1 do
+			cloneTplTo(slot0.starTF, slot0.starsTF)
+		end
+
+		for slot12 = 1, slot8 do
+			setActive(slot0.starsTF:GetChild(slot12 - 1), slot12 <= slot4.star)
+		end
+
+		slot0.levelTF.text = slot1.level
+		slot0.nameTF.text = slot1.name
+		slot0.livenessTF.text = slot1.liveness
+
+		setActive(slot0.onLine, slot1:isOnline())
+		setActive(slot0.offLine, not slot1:isOnline())
+		setActive(slot0.onLineLabel, slot1:isOnline())
+		setActive(slot0.offLineLabel, not slot1:isOnline())
+
+		if not slot1:isOnline() then
+			uv0.offLineText.text = getOfflineTimeStamp(slot1.preOnLineTime)
+		end
+
+		slot9 = slot1.duty == GuildMember.DUTY_COMMANDER and slot2:inKickTime()
+
+		setActive(uv0.maskTF, slot9)
+
+		if slot9 then
+			uv1(slot1.id, function ()
+				if uv0:getKickLeftTime() > 0 then
+					uv1.timerTF.text = pg.TimeMgr.GetInstance():DescCDTime(slot0)
+				else
+					uv1.timerTF.text = ""
+
+					setActive(uv1.maskTF, false)
+				end
+			end)
+		end
+	end
+
+	return slot2
 end
 
 function slot0.onInitItem(slot0, slot1)
-	onButton(slot0, slot0:createMemberCard(slot1).tf, function ()
-		setActive(slot0.borderTF, true)
+	slot2 = slot0:createMemberCard(slot1)
 
-		if slot1.curItemId and slot1.curItemId ~= slot0.memberVO.id and slot1:getItemById(slot1.curItemId) then
+	onButton(slot0, slot2.tf, function ()
+		setActive(uv0.borderTF, true)
+
+		if uv1.curItemId and uv1.curItemId ~= uv0.memberVO.id and uv1:getItemById(uv1.curItemId) then
 			setActive(slot0.borderTF, false)
 		end
 
-		slot1:loadPainting(slot0.memberVO)
+		uv1:loadPainting(uv0.memberVO)
 
-		slot1.curItemId = slot0.memberVO.id
+		uv1.curItemId = uv0.memberVO.id
 	end, SFX_PANEL)
 
-	slot0.items[slot1] = slot0.createMemberCard(slot1)
+	slot0.items[slot1] = slot2
 end
 
 function slot0.getItemById(slot0, slot1)
@@ -305,40 +322,46 @@ function slot0.loadPainting(slot0, slot1)
 	setPaintingPrefabAsync(slot0.paintingTF, Ship.New({
 		configId = slot1.icon,
 		skin_id = slot1.skinId
-	}).getPainting(slot4), "chuanwu", function ()
+	}):getPainting(), "chuanwu", function ()
 		pg.UIMgr.GetInstance():LoadingOff()
 	end)
 	onToggle(slot0, slot0.infoBtn, function (slot0)
 		if slot0 then
-			slot0.contextData.memberVO = slot0.contextData
+			uv0.contextData.memberVO = uv1
 
-			slot0:emit(GuildMemberMediator.OPEN_DESC_INFO, slot0.emit)
+			uv0:emit(GuildMemberMediator.OPEN_DESC_INFO, uv1)
 		end
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.dutyBtn, function (slot0)
 		if slot0 then
-			if slot0.id == slot1.playerVO.id then
+			if uv0.id == uv1.playerVO.id then
 				return
 			end
 
-			slot1:showAppointPanel(slot0)
+			uv1:showAppointPanel(uv0)
 		end
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.fireBtn, function (slot0)
 		if slot0 then
-			slot0:showFirePanel(slot0.showFirePanel)
+			uv0:showFirePanel(uv1)
 		end
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.impeachBtn, function (slot0)
 		if slot0 then
-			slot0:showImpeachPanel(slot0.showImpeachPanel)
+			uv0:showImpeachPanel(uv1)
 		end
 	end, SFX_PANEL)
 	setActive(slot0.impeachBtn, slot3 == GuildMember.DUTY_DEPUTY_COMMANDER and slot2 == GuildMember.DUTY_COMMANDER and slot1:isLongOffLine())
-	setToggleEnabled(slot0.dutyBtn, (slot3 == GuildMember.DUTY_DEPUTY_COMMANDER or slot3 == GuildMember.DUTY_COMMANDER) and slot3 < slot2)
-	setGray(slot0.dutyBtn, not ((slot3 == GuildMember.DUTY_DEPUTY_COMMANDER or slot3 == GuildMember.DUTY_COMMANDER) and slot3 < slot2), true)
-	setToggleEnabled(slot0.fireBtn, (slot3 == GuildMember.DUTY_DEPUTY_COMMANDER or slot3 == GuildMember.DUTY_COMMANDER) and slot3 < slot2)
-	setGray(slot0.fireBtn, not ((slot3 == GuildMember.DUTY_DEPUTY_COMMANDER or slot3 == GuildMember.DUTY_COMMANDER) and slot3 < slot2), true)
+
+	slot5 = (slot3 == GuildMember.DUTY_DEPUTY_COMMANDER or slot3 == GuildMember.DUTY_COMMANDER) and slot3 < slot2
+
+	setToggleEnabled(slot0.dutyBtn, slot5)
+	setGray(slot0.dutyBtn, not slot5, true)
+
+	slot6 = (slot3 == GuildMember.DUTY_DEPUTY_COMMANDER or slot3 == GuildMember.DUTY_COMMANDER) and slot3 < slot2
+
+	setToggleEnabled(slot0.fireBtn, slot6)
+	setGray(slot0.fireBtn, not slot6, true)
 end
 
 slot2 = {
@@ -360,14 +383,12 @@ function slot0.showAppointPanel(slot0, slot1)
 		setActive(slot0.selectedToggle:Find("Image3"), false)
 	end
 
-	slot3 = slot0.guildVO:getEnableDuty(slot2, slot1.duty)
+	slot3 = slot0.guildVO:getEnableDuty(slot0.guildVO:getDutyByMemberId(slot0.playerVO.id), slot1.duty)
 	slot4 = nil
 
-	for slot8, slot9 in ipairs(slot0) do
-		slot11 = slot0.dutyContainer:Find(slot9).Find(slot10, "Text")
-
+	for slot8, slot9 in ipairs(uv0) do
 		if slot1.duty == slot8 then
-			setText(slot11, i18n("guild_duty_tip_1"))
+			setText(slot0.dutyContainer:Find(slot9):Find("Text"), i18n("guild_duty_tip_1"))
 		elseif not table.contains(slot3, slot8) then
 			setText(slot11, i18n("guild_duty_tip_2"))
 		end
@@ -376,8 +397,8 @@ function slot0.showAppointPanel(slot0, slot1)
 		setToggleEnabled(slot10, table.contains(slot3, slot8))
 		onToggle(slot0, slot10, function (slot0)
 			if slot0 then
-				slot0 = slot1
-				slot2.selectedToggle = slot3
+				uv0 = uv1
+				uv2.selectedToggle = uv3
 			end
 		end, SFX_PANEL)
 	end
@@ -389,42 +410,43 @@ function slot0.showAppointPanel(slot0, slot1)
 	end
 
 	slot0.nameTF.text = slot1.name
+	slot6 = AttireFrame.attireFrameRes(slot1, isSelf, AttireConst.TYPE_ICON_FRAME, slot1.propose)
 
 	PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot6, slot6, true, function (slot0)
-		if IsNil(slot0._tf) then
+		if IsNil(uv0._tf) then
 			return
 		end
 
-		if slot0.appiontCircle then
-			slot0.name = slot1
-			findTF(slot0.transform, "icon").GetComponent(slot1, typeof(Image)).raycastTarget = false
+		if uv0.appiontCircle then
+			slot0.name = uv1
+			findTF(slot0.transform, "icon"):GetComponent(typeof(Image)).raycastTarget = false
 
-			setParent(slot0, slot0.appiontCircle, false)
+			setParent(slot0, uv0.appiontCircle, false)
 		else
-			PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot1, PoolMgr.GetInstance().ReturnPrefab, slot0)
+			PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. uv1, uv1, slot0)
 		end
 	end)
 	LoadSpriteAsync("qicon/" .. Ship.New({
 		configId = slot1.icon,
 		skin_id = slot1.skinId
-	}).getPainting(slot8), function (slot0)
-		if not IsNil(slot0.iconTF) then
-			slot0.iconTF.sprite = slot0
+	}):getPainting(), function (slot0)
+		if not IsNil(uv0.iconTF) then
+			uv0.iconTF.sprite = slot0
 		end
 	end)
 
-	for slot13 = slot0.starsTF.childCount, pg.ship_data_statistics[slot1.icon].star - 1, 1 do
+	for slot13 = slot0.starsTF.childCount, pg.ship_data_statistics[slot1.icon].star - 1 do
 		cloneTplTo(slot0.starTF, slot0.starsTF)
 	end
 
-	for slot13 = 1, slot9, 1 do
+	for slot13 = 1, slot9 do
 		setActive(slot0.starsTF:GetChild(slot13 - 1), slot13 <= slot7.star)
 	end
 
 	slot0.levelTF.text = "Lv." .. slot1.level
 
 	onButton(slot0, slot0.confirmBtn, function ()
-		slot0:setDuty(slot1.id, )
+		uv0:setDuty(uv1.id, uv2)
 	end, SFX_CONFIRM)
 end
 
@@ -437,63 +459,64 @@ function slot0.showFirePanel(slot0, slot1)
 	setActive(slot0.firePanel, true)
 
 	slot0.firenameTF.text = slot1.name
+	slot2 = AttireFrame.attireFrameRes(slot1, isSelf, AttireConst.TYPE_ICON_FRAME, slot1.propose)
 
 	PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot2, slot2, true, function (slot0)
-		if IsNil(slot0._tf) then
+		if IsNil(uv0._tf) then
 			return
 		end
 
-		if slot0.fireframeCircle then
-			slot0.name = slot1
-			findTF(slot0.transform, "icon").GetComponent(slot1, typeof(Image)).raycastTarget = false
+		if uv0.fireframeCircle then
+			slot0.name = uv1
+			findTF(slot0.transform, "icon"):GetComponent(typeof(Image)).raycastTarget = false
 
-			setParent(slot0, slot0.fireframeCircle, false)
+			setParent(slot0, uv0.fireframeCircle, false)
 		else
-			PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot1, PoolMgr.GetInstance().ReturnPrefab, slot0)
+			PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. uv1, uv1, slot0)
 		end
 	end)
 	LoadSpriteAsync("qicon/" .. Ship.New({
 		configId = slot1.icon,
 		skin_id = slot1.skinId
-	}).getPainting(slot4), function (slot0)
-		if not IsNil(slot0.fireiconTF) then
-			slot0.fireiconTF.sprite = slot0
+	}):getPainting(), function (slot0)
+		if not IsNil(uv0.fireiconTF) then
+			uv0.fireiconTF.sprite = slot0
 		end
 	end)
 
 	slot0.fireduty.sprite = GetSpriteFromAtlas("dutyicon", "icon_" .. slot1.duty)
 
-	for slot10 = slot0.firestarsTF.childCount, pg.ship_data_statistics[slot1.icon].star - 1, 1 do
+	for slot10 = slot0.firestarsTF.childCount, pg.ship_data_statistics[slot1.icon].star - 1 do
 		cloneTplTo(slot0.firestarTF, slot0.firestarsTF)
 	end
 
-	for slot10 = 1, slot6, 1 do
+	for slot10 = 1, slot6 do
 		setActive(slot0.firestarsTF:GetChild(slot10 - 1), slot10 <= slot3.star)
 	end
 
 	slot0.firelevelTF.text = "Lv." .. slot1.level
 
 	onButton(slot0, slot0.fireconfirmBtn, function ()
-		if slot0.id == slot1.playerVO.id then
+		if uv0.id == uv1.playerVO.id then
 			return
 		end
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("guild_fire_tip"),
 			onYes = function ()
-				slot0:emit(GuildMemberMediator.FIRE, slot1.id)
-				slot0.emit:closeButtons()
-				slot0.emit.closeButtons:closeFirePanel()
+				uv0:emit(GuildMemberMediator.FIRE, uv1.id)
+				uv0:closeButtons()
+				uv0:closeFirePanel()
 			end
 		})
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.firecancelBtn, function ()
-		slot0:closeButtons()
-		slot0.closeButtons:closeFirePanel()
+		uv0:closeButtons()
+		uv0:closeFirePanel()
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.firePanel, function ()
-		slot0:closeButtons()
-		slot0.closeButtons:closeFirePanel()
+		uv0:closeButtons()
+		uv0:closeFirePanel()
 	end, SFX_CONFIRM)
 end
 
@@ -506,63 +529,64 @@ function slot0.showImpeachPanel(slot0, slot1)
 	setActive(slot0.impeachPanel, true)
 
 	slot0.impeachnameTF.text = slot1.name
+	slot2 = AttireFrame.attireFrameRes(slot1, isSelf, AttireConst.TYPE_ICON_FRAME, slot1.propose)
 
 	PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot2, slot2, true, function (slot0)
-		if IsNil(slot0._tf) then
+		if IsNil(uv0._tf) then
 			return
 		end
 
-		if slot0.impeachCirCle then
-			slot0.name = slot1
-			findTF(slot0.transform, "icon").GetComponent(slot1, typeof(Image)).raycastTarget = false
+		if uv0.impeachCirCle then
+			slot0.name = uv1
+			findTF(slot0.transform, "icon"):GetComponent(typeof(Image)).raycastTarget = false
 
-			setParent(slot0, slot0.impeachCirCle, false)
+			setParent(slot0, uv0.impeachCirCle, false)
 		else
-			PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot1, PoolMgr.GetInstance().ReturnPrefab, slot0)
+			PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. uv1, uv1, slot0)
 		end
 	end)
 	LoadSpriteAsync("qicon/" .. Ship.New({
 		configId = slot1.icon,
 		skin_id = slot1.skinId
-	}).getPainting(slot4), function (slot0)
-		if not IsNil(slot0.impeachiconTF) then
-			slot0.impeachiconTF.sprite = slot0
+	}):getPainting(), function (slot0)
+		if not IsNil(uv0.impeachiconTF) then
+			uv0.impeachiconTF.sprite = slot0
 		end
 	end)
 
 	slot0.impeachduty.sprite = GetSpriteFromAtlas("dutyicon", "icon_" .. slot1.duty)
 
-	for slot10 = slot0.impeachstarTF.childCount, pg.ship_data_statistics[slot1.icon].star - 1, 1 do
+	for slot10 = slot0.impeachstarTF.childCount, pg.ship_data_statistics[slot1.icon].star - 1 do
 		cloneTplTo(slot0.impeachstarTF, slot0.impeachstarsTF)
 	end
 
-	for slot10 = 1, slot6, 1 do
+	for slot10 = 1, slot6 do
 		setActive(slot0.impeachstarsTF:GetChild(slot10 - 1), slot10 <= slot3.star)
 	end
 
 	slot0.impeachlevelTF.text = "Lv." .. slot1.level
 
 	onButton(slot0, slot0.impeachconfirmBtn, function ()
-		if slot0.id == slot1.playerVO.id then
+		if uv0.id == uv1.playerVO.id then
 			return
 		end
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("guild_impeach_tip"),
 			onYes = function ()
-				slot0:emit(GuildMemberMediator.IMPEACH, slot1.id)
-				slot0.emit:closeButtons()
-				slot0.emit.closeButtons:closeimpeachPanel()
+				uv0:emit(GuildMemberMediator.IMPEACH, uv1.id)
+				uv0:closeButtons()
+				uv0:closeimpeachPanel()
 			end
 		})
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.impeachcancelBtn, function ()
-		slot0:closeButtons()
-		slot0.closeButtons:closeimpeachPanel()
+		uv0:closeButtons()
+		uv0:closeimpeachPanel()
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.impeachPanel, function ()
-		slot0:closeButtons()
-		slot0.closeButtons:closeimpeachPanel()
+		uv0:closeButtons()
+		uv0:closeimpeachPanel()
 	end, SFX_CONFIRM)
 end
 
@@ -615,57 +639,57 @@ slot3 = {
 function slot0.showInfoPanel(slot0, slot1)
 	slot0:openButtons(slot0.infoPanel)
 
+	slot2 = slot0.contextData.memberVO
 	slot0.isShowinfo = true
 
 	pg.UIMgr.GetInstance():BlurPanel(slot0.infoPanel)
 	setActive(slot0.infoPanel, true)
 
-	slot0.infonameTF.text = slot0.contextData.memberVO.name
+	slot0.infonameTF.text = slot2.name
+	slot3 = AttireFrame.attireFrameRes(slot2, isSelf, AttireConst.TYPE_ICON_FRAME, slot2.propose)
 
 	PoolMgr.GetInstance():GetPrefab("IconFrame/" .. slot3, slot3, true, function (slot0)
-		if IsNil(slot0._tf) then
+		if IsNil(uv0._tf) then
 			return
 		end
 
-		if slot0.infoCircle then
-			slot0.name = slot1
-			findTF(slot0.transform, "icon").GetComponent(slot1, typeof(Image)).raycastTarget = false
+		if uv0.infoCircle then
+			slot0.name = uv1
+			findTF(slot0.transform, "icon"):GetComponent(typeof(Image)).raycastTarget = false
 
-			setParent(slot0, slot0.infoCircle, false)
+			setParent(slot0, uv0.infoCircle, false)
 		else
-			PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot1, PoolMgr.GetInstance().ReturnPrefab, slot0)
+			PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. uv1, uv1, slot0)
 		end
 	end)
 	LoadSpriteAsync("qicon/" .. Ship.New({
-		configId = slot0.contextData.memberVO.icon,
-		skin_id = slot0.contextData.memberVO.skinId
-	}).getPainting(slot5), function (slot0)
-		if not IsNil(slot0.infoiconTF) then
-			slot0.infoiconTF.sprite = slot0
+		configId = slot2.icon,
+		skin_id = slot2.skinId
+	}):getPainting(), function (slot0)
+		if not IsNil(uv0.infoiconTF) then
+			uv0.infoiconTF.sprite = slot0
 		end
 	end)
 
-	slot0.infoduty.sprite = GetSpriteFromAtlas("dutyicon", "icon_" .. slot0.contextData.memberVO.duty)
+	slot0.infoduty.sprite = GetSpriteFromAtlas("dutyicon", "icon_" .. slot2.duty)
 
-	for slot11 = slot0.infostarsTF.childCount, pg.ship_data_statistics[slot0.contextData.memberVO.icon].star - 1, 1 do
+	for slot11 = slot0.infostarsTF.childCount, pg.ship_data_statistics[slot2.icon].star - 1 do
 		cloneTplTo(slot0.infostarTF, slot0.infostarsTF)
 	end
 
-	for slot11 = 1, slot7, 1 do
+	for slot11 = 1, slot7 do
 		setActive(slot0.infostarsTF:GetChild(slot11 - 1), slot11 <= slot4.star)
 	end
 
 	slot0.infolevelTF.text = "Lv." .. slot2.level
 
-	for slot11, slot12 in ipairs(slot0) do
+	for slot11, slot12 in ipairs(uv0) do
 		slot13 = slot0.resumeInfo:GetChild(slot11 - 1)
 
 		setText(slot13:Find("tag"), slot12.tag)
 
-		slot14 = slot13:Find("tag (1)")
-
 		if slot12.type == 1 then
-			setText(slot14, slot1[slot12.value])
+			setText(slot13:Find("tag (1)"), slot1[slot12.value])
 		elseif slot12.type == 2 then
 			setText(slot14, string.format("%0.2f", math.max(slot1[slot12.value[2]], 0) / math.max(slot1[slot12.value[1]], 1) * 100) .. "%")
 		elseif slot12.type == 3 then
@@ -674,8 +698,8 @@ function slot0.showInfoPanel(slot0, slot1)
 	end
 
 	onButton(slot0, slot0.infoPanel, function ()
-		slot0:closeButtons()
-		slot0.closeButtons:closeInfoPanel()
+		uv0:closeButtons()
+		uv0:closeInfoPanel()
 	end, SFX_CONFIRM)
 end
 
@@ -686,7 +710,9 @@ function slot0.closeInfoPanel(slot0)
 	setActive(slot0.infoPanel, false)
 
 	if slot0.infoCircle.childCount > 0 then
-		PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot0.infoCircle:GetChild(0).gameObject.name, slot0.infoCircle.GetChild(0).gameObject.name, slot0.infoCircle.GetChild(0).gameObject)
+		slot1 = slot0.infoCircle:GetChild(0).gameObject
+
+		PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot1.name, slot1.name, slot1)
 	end
 end
 
@@ -697,7 +723,9 @@ function slot0.closeimpeachPanel(slot0)
 	setActive(slot0.impeachPanel, false)
 
 	if slot0.impeachCirCle.childCount > 0 then
-		PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot0.impeachCirCle:GetChild(0).gameObject.name, slot0.impeachCirCle.GetChild(0).gameObject.name, slot0.impeachCirCle.GetChild(0).gameObject)
+		slot1 = slot0.impeachCirCle:GetChild(0).gameObject
+
+		PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot1.name, slot1.name, slot1)
 	end
 end
 
@@ -708,7 +736,9 @@ function slot0.closeFirePanel(slot0)
 	setActive(slot0.firePanel, false)
 
 	if slot0.fireframeCircle.childCount > 0 then
-		PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot0.fireframeCircle:GetChild(0).gameObject.name, slot0.fireframeCircle.GetChild(0).gameObject.name, slot0.fireframeCircle.GetChild(0).gameObject)
+		slot1 = slot0.fireframeCircle:GetChild(0).gameObject
+
+		PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot1.name, slot1.name, slot1)
 	end
 end
 
@@ -720,7 +750,9 @@ function slot0.closeAppointPanel(slot0)
 	slot0:closeButtons()
 
 	if slot0.appiontCircle.childCount > 0 then
-		PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot0.appiontCircle:GetChild(0).gameObject.name, slot0.appiontCircle.GetChild(0).gameObject.name, slot0.appiontCircle.GetChild(0).gameObject)
+		slot1 = slot0.appiontCircle:GetChild(0).gameObject
+
+		PoolMgr.GetInstance():ReturnPrefab("IconFrame/" .. slot1.name, slot1.name, slot1)
 	end
 end
 
@@ -747,12 +779,14 @@ function slot0.onUpdateItem(slot0, slot1, slot2)
 		slot3 = slot0.items[slot2]
 	end
 
-	slot3:update(slot0.memberVOs[slot1 + 1], slot0.guildVO, slot0.memberVOs[slot1 + 1].id == slot0.curItemId)
+	slot4 = slot0.memberVOs[slot1 + 1]
+
+	slot3:update(slot4, slot0.guildVO, slot4.id == slot0.curItemId)
 end
 
 function slot0.sortMembers(slot0)
 	if not slot0.sortIndex then
-		slot0.sortIndex = slot0[3]
+		slot0.sortIndex = uv0[3]
 	end
 
 	slot1 = slot0.sortIndex[1]
@@ -760,22 +794,22 @@ function slot0.sortMembers(slot0)
 
 	if slot0.selectAsc then
 		table.sort(slot0.memberVOs, function (slot0, slot1)
-			if slot0[slot0[1]] == slot1[slot0[1]] then
+			if slot0[uv0[1]] == slot1[uv0[1]] then
 				return slot1.duty < slot0.duty
-			elseif slot0[1] == "duty" then
-				return slot1[slot0[1]] < slot0[slot0[1]]
+			elseif uv0[1] == "duty" then
+				return slot1[uv0[1]] < slot0[uv0[1]]
 			else
-				return slot0[slot0[1]] < slot1[slot0[1]]
+				return slot0[uv0[1]] < slot1[uv0[1]]
 			end
 		end)
 	else
 		table.sort(slot0.memberVOs, function (slot0, slot1)
-			if slot0[slot0[1]] == slot1[slot0[1]] then
+			if slot0[uv0[1]] == slot1[uv0[1]] then
 				return slot0.duty < slot1.duty
-			elseif slot0[1] == "duty" then
-				return slot0[slot0[1]] < slot1[slot0[1]]
+			elseif uv0[1] == "duty" then
+				return slot0[uv0[1]] < slot1[uv0[1]]
 			else
-				return slot1[slot0[1]] < slot0[slot0[1]]
+				return slot1[uv0[1]] < slot0[uv0[1]]
 			end
 		end)
 	end
@@ -802,7 +836,7 @@ end
 function slot0.onBackPressed(slot0)
 	if not slot0:closePrevPanel() then
 		playSoundEffect(SFX_CANCEL)
-		slot0:emit(slot0.ON_BACK)
+		slot0:emit(uv0.ON_BACK)
 	end
 end
 
@@ -823,7 +857,9 @@ function slot0.closePrevPanel(slot0)
 end
 
 function slot0.willExit(slot0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.rightPanel, slot0._tf)
+	slot4 = slot0._tf
+
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.rightPanel, slot4)
 	slot0:closeAppointPanel()
 	slot0:closeFirePanel()
 	slot0:closeimpeachPanel()

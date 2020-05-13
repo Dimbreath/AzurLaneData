@@ -5717,5 +5717,3 @@ pg.activity_event_pt = {
 		20451
 	}
 }
-
-return

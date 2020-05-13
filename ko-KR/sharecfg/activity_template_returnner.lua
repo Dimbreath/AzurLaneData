@@ -228,5 +228,3 @@ pg.activity_template_returnner = {
 		20417
 	}
 }
-
-return

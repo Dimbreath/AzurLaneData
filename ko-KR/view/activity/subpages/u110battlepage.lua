@@ -14,7 +14,7 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnDataSetting(slot0)
-	slot0.taskIDList = _.flatten(slot1)
+	slot0.taskIDList = _.flatten(slot0.activity:getConfig("config_data"))
 	slot0.taskProxy = getProxy(TaskProxy)
 end
 
@@ -26,10 +26,10 @@ function slot0.OnFirstFlush(slot0)
 			return
 		end
 
-		slot0:emit(ActivityMediator.SPECIAL_BATTLE_OPERA)
+		uv0:emit(ActivityMediator.SPECIAL_BATTLE_OPERA)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.getBtn, function ()
-		slot0:emit(ActivityMediator.ON_TASK_SUBMIT, slot0.curTaskVO)
+		uv0:emit(ActivityMediator.ON_TASK_SUBMIT, uv0.curTaskVO)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.buildBtn, function ()
 		if not getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_U110_BUILD) or slot0:isEnd() then
@@ -38,39 +38,47 @@ function slot0.OnFirstFlush(slot0)
 			return
 		end
 
-		slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.GETBOAT, {
+		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.GETBOAT, {
 			projectName = BuildShipScene.PROJECTS.SPECIAL
 		})
 	end)
 end
 
 function slot0.OnUpdateFlush(slot0)
+	slot1 = slot0:findCurTaskIndex()
+
 	setText(slot0.step, slot1 .. "/" .. #slot0.taskIDList)
 
-	slot3 = slot0.taskProxy:getTaskVO(slot2)
+	slot3 = slot0.taskProxy:getTaskVO(slot0.taskIDList[slot1])
 	slot0.curTaskVO = slot3
 
-	setText(slot0.progress, ((slot3:getConfig("target_num") <= slot3:getProgress() and setColorStr(slot4, COLOR_GREEN)) or slot4) .. "/" .. slot5)
+	setText(slot0.progress, (slot3:getConfig("target_num") <= slot3:getProgress() and setColorStr(slot4, COLOR_GREEN) or slot4) .. "/" .. slot5)
 	setSlider(slot0.slider, 0, slot5, slot4)
-	updateDrop(slot0.awardTF, slot0.progress)
+
+	slot6 = slot3:getConfig("award_display")[1]
+
+	updateDrop(slot0.awardTF, {
+		type = slot6[1],
+		id = slot6[2],
+		count = slot6[3]
+	})
 	onButton(slot0, slot0.awardTF, function ()
-		slot0:emit(BaseUI.ON_DROP, slot0)
+		uv0:emit(BaseUI.ON_DROP, uv1)
 	end, SFX_PANEL)
-	setText(slot0.desc, (slot3.getConfig("target_num") <= slot3.getProgress() and setColorStr(slot4, COLOR_GREEN)) or slot4)
+	setText(slot0.desc, pg.task_data_template[slot2].desc)
 	setActive(slot0.battleBtn, slot3:getTaskStatus() == 0)
 	setActive(slot0.getBtn, slot9 == 1)
 	setActive(slot0.gotBtn, slot9 == 2)
 end
 
 function slot0.OnDestroy(slot0)
-	return
 end
 
 function slot0.findCurTaskIndex(slot0)
 	slot1 = nil
 
 	for slot5, slot6 in ipairs(slot0.taskIDList) do
-		if slot0.taskProxy:getTaskVO(slot6).getTaskStatus(slot7) <= 1 then
+		if slot0.taskProxy:getTaskVO(slot6):getTaskStatus() <= 1 then
 			slot1 = slot5
 
 			break

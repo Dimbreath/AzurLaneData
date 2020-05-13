@@ -6,8 +6,8 @@ slot0.Gold = 4
 slot0.SSR = 5
 
 function slot0.Rarity2Print(slot0)
-	if not slot0.prints then
-		slot0.prints = {
+	if not uv0.prints then
+		uv0.prints = {
 			"1",
 			"2",
 			"3",
@@ -20,12 +20,12 @@ function slot0.Rarity2Print(slot0)
 		}
 	end
 
-	return slot0.prints[slot0]
+	return uv0.prints[slot0]
 end
 
 function slot0.Rarity2HexColor(slot0)
-	if not slot0.colors then
-		slot0.colors = {
+	if not uv0.colors then
+		uv0.colors = {
 			"FFFFFFFF",
 			"41D7FFFF",
 			"CC7BFFFF",
@@ -34,7 +34,7 @@ function slot0.Rarity2HexColor(slot0)
 		}
 	end
 
-	return slot0.colors[slot0]
+	return uv0.colors[slot0]
 end
 
 return slot0

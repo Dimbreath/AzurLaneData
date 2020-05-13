@@ -27,9 +27,9 @@ function slot0.init(slot0)
 	slot0.healTF.transform.localPosition = Vector3(-360, 50, 40)
 
 	setActive(slot0.healTF, false)
-	slot0.healTF:GetComponent("DftAniEvent").SetEndEvent(slot1, function ()
-		setActive(slot0.healTF, false)
-		setText(slot0.healTF:Find("text"), "")
+	slot0.healTF:GetComponent("DftAniEvent"):SetEndEvent(function ()
+		setActive(uv0.healTF, false)
+		setText(uv0.healTF:Find("text"), "")
 	end)
 
 	slot0.seaLoading = slot0:findTF("bg/loading", slot0.leftPanel)
@@ -39,12 +39,12 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.seaLoading, function ()
-		if not slot0.previewer then
-			slot0:showBarrage()
+		if not uv0.previewer then
+			uv0:showBarrage()
 		end
 	end)
 	onButton(slot0, slot0._tf, function ()
-		slot0:emit(slot1.ON_CLOSE)
+		uv0:emit(uv1.ON_CLOSE)
 	end)
 end
 
@@ -60,7 +60,7 @@ function slot0.showBarrage(slot0)
 	slot0.previewer:configUI(slot0.healTF)
 	slot0.previewer:setDisplayWeapon(slot0.weaponIds, slot0.equipSkinId, true)
 	slot0.previewer:load(40000, slot0.shipVO, slot0.weaponIds, function ()
-		slot0:stopLoadingAni()
+		uv0:stopLoadingAni()
 	end)
 end
 

@@ -755,5 +755,3 @@ pg.drop_data_restore = {
 		998
 	}
 }
-
-return

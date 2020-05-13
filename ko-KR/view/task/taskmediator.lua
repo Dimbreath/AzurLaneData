@@ -5,60 +5,65 @@ slot0.TASK_FILTER = "TaskMediator:TASK_FILTER"
 slot0.CLICK_GET_ALL = "TaskMediator:CLICK_GET_ALL"
 
 function slot0.register(slot0)
-	slot0:bind(slot0.ON_TASK_SUBMIT, function (slot0, slot1)
-		if getProxy(ActivityProxy):getActivityById(ActivityConst.JYHZ_ACTIVITY_ID) and slot1.id == _.flatten(slot4)[#_.flatten(slot4)] then
-			pg.StoryMgr.GetInstance():Play("YIXIAN8", function ()
-				slot0:sendNotification(GAME.SUBMIT_TASK, slot1.id)
-			end)
+	slot0:bind(uv0.ON_TASK_SUBMIT, function (slot0, slot1)
+		if getProxy(ActivityProxy):getActivityById(ActivityConst.JYHZ_ACTIVITY_ID) then
+			slot5 = _.flatten(slot3:getConfig("config_data"))
 
-			return
+			if slot1.id == slot5[#slot5] then
+				pg.StoryMgr.GetInstance():Play("YIXIAN8", function ()
+					uv0:sendNotification(GAME.SUBMIT_TASK, uv1.id)
+				end)
+
+				return
+			end
 		end
 
 		if slot1.index then
-			slot0:sendNotification(GAME.SUBMIT_TASK, {
+			uv0:sendNotification(GAME.SUBMIT_TASK, {
 				taskId = slot1.id,
 				index = slot1.index
 			})
 		else
-			slot0:sendNotification(GAME.SUBMIT_TASK, slot1.id)
+			uv0:sendNotification(GAME.SUBMIT_TASK, slot1.id)
 		end
 	end)
-	slot0:bind(slot0.ON_TASK_GO, function (slot0, slot1)
-		slot0:sendNotification(GAME.TASK_GO, {
+	slot0:bind(uv0.ON_TASK_GO, function (slot0, slot1)
+		uv0:sendNotification(GAME.TASK_GO, {
 			taskVO = slot1
 		})
 	end)
-	slot0:bind(slot0.CLICK_GET_ALL, function (slot0, slot1, slot2)
+	slot0:bind(uv0.CLICK_GET_ALL, function (slot0, slot1, slot2)
 		slot3 = {}
 
 		function slot4(slot0, slot1)
 			slot3 = nil
 
-			if slot0[slot0]:isSelectable() then
+			if uv0[slot0]:isSelectable() then
+				slot4 = slot2:getConfig("award_choice")[slot2.index]
 				slot3 = {
-					type = slot2:getConfig("award_choice")[slot2.index][1],
-					id = slot2.getConfig("award_choice")[slot2.index][2],
-					number = slot2.getConfig("award_choice")[slot2.index][3]
+					type = slot4[1],
+					id = slot4[2],
+					number = slot4[3]
 				}
 			end
 
-			slot1[#slot1 + 1] = {
+			uv1[#uv1 + 1] = {
 				id = slot2.id,
 				award_choice = slot3
 			}
 
-			if slot0 <= #slot0 then
+			if slot0 <= #uv0 then
 				slot1()
 			end
 		end
 
 		function slot5(slot0, slot1, slot2)
 			function slot1.overFlow.onYes()
-				slot0(slot1, slot2)
+				uv0(uv1, uv2)
 			end
 
 			function slot1.overFlow.onNo()
-				slot0()
+				uv0()
 			end
 
 			pg.MsgboxMgr.GetInstance():ShowMsgBox(slot1.overFlow)
@@ -68,20 +73,20 @@ function slot0.register(slot0)
 			function slot1.choice.onYes()
 				if not taskVO.index then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("no_item_selected_tip"))
-					pg.TipsMgr.GetInstance().ShowTips()
+					uv0()
 
 					return
 				end
 
-				if slot1.overFlow then
-					slot2()
+				if uv1.overFlow then
+					uv2()
 				else
-					slot3(slot4, slot3)
+					uv3(uv4, uv0)
 				end
 			end
 
 			function slot1.choice.onNo()
-				slot0()
+				uv0()
 			end
 
 			pg.MsgboxMgr.GetInstance():ShowMsgBox(slot1.choice)
@@ -89,52 +94,52 @@ function slot0.register(slot0)
 
 		function slot7(slot0, slot1, slot2)
 			function slot1.sub.onYes()
-				if slot0.choice then
-					slot1()
-				elseif slot0.overFlow then
-					slot2()
+				if uv0.choice then
+					uv1()
+				elseif uv0.overFlow then
+					uv2()
 				else
-					slot3(slot4, slot5)
+					uv3(uv4, uv5)
 				end
 			end
 
 			function slot1.sub.onNo()
-				slot0()
+				uv0()
 			end
 
 			pg.MsgboxMgr.GetInstance():ShowMsgBox(slot1.sub)
 		end
 
-		slot8 = {}
-
-		for slot12, slot13 in ipairs(slot1) do
-			slot8[slot12] = function ()
-				if slot0.sub then
-					slot1(slot2, slot1, slot3[slot2 + 1])
-				elseif slot0.choice then
-					slot4(slot2, slot4, slot3[slot2 + 1])
-				elseif slot0.overFlow then
-					slot5(slot2, slot5, slot3[slot2 + 1])
+		slot8 = {
+			[slot12] = function ()
+				if uv0.sub then
+					uv1(uv2, uv0, uv3[uv2 + 1])
+				elseif uv0.choice then
+					uv4(uv2, uv0, uv3[uv2 + 1])
+				elseif uv0.overFlow then
+					uv5(uv2, uv0, uv3[uv2 + 1])
 				else
-					slot6(slot2, slot3[slot2 + 1])
+					uv6(uv2, uv3[uv2 + 1])
 				end
 			end
+		}
+
+		for slot12, slot13 in ipairs(slot1) do
+			-- Nothing
 		end
 
 		slot8[#slot8 + 1] = function ()
-			if #slot0 > 0 then
-				slot1:sendNotification(GAME.SUBMIT_TASK_ONESTEP, slot1.sendNotification)
+			if #uv0 > 0 then
+				uv1:sendNotification(GAME.SUBMIT_TASK_ONESTEP, uv0)
 			end
 		end
 
 		slot8[1]()
 	end)
 
-	slot3 = getProxy(BagProxy)
-
-	for slot7, slot8 in pairs(slot2) do
+	for slot7, slot8 in pairs(getProxy(TaskProxy):getData()) do
 		if slot8:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_ITEM then
-			slot8.progress = slot3:getItemCountById(tonumber(slot8:getConfig("target_id_for_client")))
+			slot8.progress = getProxy(BagProxy):getItemCountById(tonumber(slot8:getConfig("target_id_for_client")))
 		elseif slot8:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_VIRTUAL_ITEM then
 			slot8.progress = getProxy(ActivityProxy):getVirtualItemNumber(slot8:getConfig("target_id_for_client"))
 		end
@@ -145,22 +150,20 @@ end
 
 function slot0.enterLevel(slot0, slot1)
 	if getProxy(ChapterProxy):getChapterById(slot1) then
-		slot4 = {
-			mapIdx = slot3:getConfig("map")
-		}
-
 		if slot3.active then
-			slot4.chapterId = slot3.id
+			-- Nothing
 		else
 			slot4.openChapterId = slot1
 		end
 
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, slot4)
+		slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
+			mapIdx = slot3:getConfig("map"),
+			chapterId = slot3.id
+		})
 	end
 end
 
 function slot0.remove(slot0)
-	return
 end
 
 function slot0.listNotificationInterests(slot0)
@@ -169,7 +172,7 @@ function slot0.listNotificationInterests(slot0)
 		TaskProxy.TASK_UPDATED,
 		TaskProxy.TASK_REMOVED,
 		GAME.SUBMIT_TASK_DONE,
-		slot0.TASK_FILTER,
+		uv0.TASK_FILTER,
 		GAME.BEGIN_STAGE_DONE,
 		GAME.CHAPTER_OP_DONE
 	}
@@ -202,7 +205,7 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:updateTask(slot3)
 	elseif slot2 == TaskProxy.TASK_REMOVED then
 		slot0.viewComponent:removeTask(slot3)
-	elseif slot2 == slot0.TASK_FILTER then
+	elseif slot2 == uv0.TASK_FILTER then
 		slot0.viewComponent:GoToFilter(slot3)
 	else
 		if slot2 == GAME.SUBMIT_TASK_DONE then
@@ -211,16 +214,16 @@ function slot0.handleNotification(slot0, slot1)
 			slot0.viewComponent.onShowAwards = true
 
 			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3, function ()
-				slot0.viewComponent.onShowAwards = nil
+				uv0.viewComponent.onShowAwards = nil
 
-				slot0.viewComponent:accepetActivityTask()
-				slot0.viewComponent.accepetActivityTask.viewComponent:updateOneStepBtn()
+				uv0:accepetActivityTask()
+				uv0.viewComponent:updateOneStepBtn()
 
 				slot0 = {}
 
-				for slot4, slot5 in ipairs(ipairs) do
+				for slot4, slot5 in ipairs(uv1) do
 					table.insert(slot0, function (slot0)
-						slot0:PlayStoryForTaskAct(slot0.PlayStoryForTaskAct, slot0)
+						uv0:PlayStoryForTaskAct(uv1, slot0)
 					end)
 				end
 
@@ -245,12 +248,12 @@ end
 function slot0.PlayStoryForTaskAct(slot0, slot1, slot2)
 	slot4 = nil
 
-	for slot8, slot9 in ipairs(slot3) do
+	for slot8, slot9 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST)) do
 		if slot9 and not slot9:isEnd() then
 			slot11 = 0
 			slot12 = 0
 
-			for slot16, slot17 in ipairs(slot10) do
+			for slot16, slot17 in ipairs(slot9:getConfig("config_data")) do
 				for slot21, slot22 in ipairs(slot17) do
 					if slot22 == slot1 then
 						slot11 = slot16
@@ -259,7 +262,7 @@ function slot0.PlayStoryForTaskAct(slot0, slot1, slot2)
 				end
 			end
 
-			if slot9:getConfig("config_client").story or {}[slot11] and slot13[slot11][slot12] and not pg.StoryMgr.GetInstance():IsPlayed(slot14) then
+			if (slot9:getConfig("config_client").story or {})[slot11] and slot13[slot11][slot12] and not pg.StoryMgr.GetInstance():IsPlayed(slot14) then
 				slot4 = slot14
 			end
 		end

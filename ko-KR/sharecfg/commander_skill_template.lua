@@ -2189,5 +2189,3 @@ pg.commander_skill_template = {
 		42023
 	}
 }
-
-return

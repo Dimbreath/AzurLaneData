@@ -3,6 +3,7 @@ if jit then
 	jit.flush()
 
 	if jit.opt then
+		-- Nothing
 	end
 
 	print("ver" .. jit.version_num .. " jit: ", jit.status())
@@ -120,5 +121,3 @@ GraphicRaycaster = UnityEngine.UI.GraphicRaycaster
 SocketError = System.Net.Sockets.SocketError
 GCHandle = System.Runtime.InteropServices.GCHandle
 GCHandleType = System.Runtime.InteropServices.GCHandleType
-
-return

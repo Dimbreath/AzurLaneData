@@ -49,7 +49,7 @@ function slot0.initResDownloadPanel(slot0, slot1)
 	setActive(slot0.live2DDownloadLoading, false)
 
 	slot0.live2DDownloadTimer = Timer.New(function ()
-		slot0:updateLive2DDownloadState()
+		uv0:updateLive2DDownloadState()
 	end, 0.5, -1)
 
 	slot0.live2DDownloadTimer:Start()
@@ -60,10 +60,10 @@ function slot0.initResDownloadPanel(slot0, slot1)
 	end
 
 	onButton(slot0, slot0.live2DDownloadBtn, function ()
-		if slot0.state == DownloadState.CheckFailure then
-			slot0:CheckD()
+		if uv0.state == DownloadState.CheckFailure then
+			uv0:CheckD()
 		elseif slot0 == DownloadState.CheckToUpdate or slot0 == DownloadState.UpdateFailure then
-			slot0:UpdateD(true)
+			uv0:UpdateD(true)
 		end
 	end, SFX_PANEL)
 
@@ -79,19 +79,19 @@ function slot0.initResDownloadPanel(slot0, slot1)
 	setSlider(slot0.soundDownloadProgress, 0, 1, 0)
 	setActive(slot0.soundDownloadDot, false)
 	setActive(slot0.soundDownloadLoading, false)
-	CVUpdateMgr.Inst.CheckD(slot4)
+	CVUpdateMgr.Inst:CheckD()
 
 	slot0.soundDownloadTimer = Timer.New(function ()
-		slot0:updateSoundDownloadState()
+		uv0:updateSoundDownloadState()
 	end, 0.5, -1)
 
 	slot0.soundDownloadTimer:Start()
 	slot0:updateSoundDownloadState()
 	onButton(slot0, slot0.soundDownloadBtn, function ()
-		if slot0.state == DownloadState.CheckFailure then
-			slot0:CheckD()
-		elseif slot0.state == DownloadState.CheckToUpdate or slot0.state == DownloadState.UpdateFailure then
-			slot0:UpdateD(true)
+		if uv0.state == DownloadState.CheckFailure then
+			uv0:CheckD()
+		elseif uv0.state == DownloadState.CheckToUpdate or uv0.state == DownloadState.UpdateFailure then
+			uv0:UpdateD(true)
 		end
 	end, SFX_PANEL)
 
@@ -103,12 +103,12 @@ function slot0.initResDownloadPanel(slot0, slot1)
 			showRepairMsgbox()
 		end, SFX_PANEL)
 	else
-		setActive(slot0.repairBtn, PathMgr.FileExists(slot5))
+		setActive(slot0.repairBtn, PathMgr.FileExists(Application.persistentDataPath .. "/hashes.csv"))
 		onButton(slot0, slot0.repairBtn, function ()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("resource_verify_warn"),
 				onYes = function ()
-					resourceVerify(slot0.repairMask, slot0.repairProgress)
+					resourceVerify(uv0.repairMask, uv0.repairProgress)
 				end
 			})
 		end, SFX_PANEL)
@@ -146,9 +146,9 @@ function slot0.initSoundPanel(slot0, slot1)
 				pg.CriMgr.GetInstance():setBGMVolume(DEFAULT_BGMVOLUME)
 				pg.CriMgr.GetInstance():setSEVolume(DEFAULT_SEVOLUME)
 				pg.CriMgr.GetInstance():setCVVolume(DEFAULT_CVVOLUME)
-				setSlider(slot0.bgmSlider, 0, 1, DEFAULT_BGMVOLUME)
-				setSlider(slot0.effectSlider, 0, 1, DEFAULT_SEVOLUME)
-				setSlider(slot0.mainSlider, 0, 1, DEFAULT_CVVOLUME)
+				setSlider(uv0.bgmSlider, 0, 1, DEFAULT_BGMVOLUME)
+				setSlider(uv0.effectSlider, 0, 1, DEFAULT_SEVOLUME)
+				setSlider(uv0.mainSlider, 0, 1, DEFAULT_CVVOLUME)
 			end
 		})
 	end, SFX_UI_CLICK)
@@ -164,10 +164,10 @@ function slot0.initSoundSlider(slot0, slot1, slot2)
 	slot4 = (slot3.maxValue - slot3.minValue) * 0.1
 
 	onButton(slot0, slot1:Find("up"), function ()
-		slot0.value = math.clamp(slot0.value + slot1, slot0.minValue, slot0.maxValue)
+		uv0.value = math.clamp(uv0.value + uv1, uv0.minValue, uv0.maxValue)
 	end, SFX_PANEL)
 	onButton(slot0, slot1:Find("down"), function ()
-		slot0.value = math.clamp(slot0.value - slot1, slot0.minValue, slot0.maxValue)
+		uv0.value = math.clamp(uv0.value - uv1, uv0.minValue, uv0.maxValue)
 	end, SFX_PANEL)
 end
 
@@ -210,6 +210,7 @@ slot2 = {
 
 function slot0.initOptionsPanel(slot0, slot1)
 	slot2 = slot1:Find("scroll_view/Viewport/content/fps_setting")
+	slot3 = slot2:Find("options/30fps")
 
 	onToggle(slot0, slot3, function (slot0)
 		if slot0 then
@@ -227,39 +228,41 @@ function slot0.initOptionsPanel(slot0, slot1)
 			Application.targetFrameRate = 60
 		end
 	end, SFX_UI_TAG, SFX_UI_TAG)
-	triggerToggle(slot2:Find("options/30fps"), PlayerPrefs.GetInt("fps_limit", 30) == 30)
+	triggerToggle(slot3, PlayerPrefs.GetInt("fps_limit", 30) == 30)
 	triggerToggle(slot4, slot5 == 60)
 
 	slot7 = slot0:findTF("scroll_view/Viewport/content/other_settings/options", slot1)
-	slot8 = slot0:findTF("scroll_view/Viewport/content/notifications/options", slot1).Find(triggerToggle, "notify_tpl")
 
-	for slot13, slot14 in ipairs(slot9) do
-		slot15 = cloneTplTo(slot8, slot6)
+	for slot13, slot14 in ipairs(pg.push_data_template) do
+		slot15 = cloneTplTo(slot0:findTF("scroll_view/Viewport/content/notifications/options", slot1):Find("notify_tpl"), slot6)
 
 		setText(slot0:findTF("Text", slot15), slot14.title)
 		onButton(slot0, slot0:findTF("Text", slot15), function ()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				hideNo = true,
 				hideYes = true,
-				content = slot0.desc
+				content = uv0.desc
 			})
 		end)
 		onToggle(slot0, slot15:Find("on"), function (slot0)
-			pg.PushNotificationMgr.GetInstance():setSwitch(slot0.id, slot0)
+			pg.PushNotificationMgr.GetInstance():setSwitch(uv0.id, slot0)
 		end, SFX_UI_TAG, SFX_UI_CANCEL)
+
+		slot16 = pg.PushNotificationMgr.GetInstance():isEnabled(slot14.id)
+
 		triggerToggle(slot15:Find("on"), slot16)
-		triggerToggle(slot15:Find("off"), not pg.PushNotificationMgr.GetInstance():isEnabled(slot14.id))
+		triggerToggle(slot15:Find("off"), not slot16)
 	end
 
-	slot8 = slot7:Find("notify_tpl")
+	for slot13, slot14 in pairs(uv0) do
+		slot15 = cloneTplTo(slot7:Find("notify_tpl"), slot7)
 
-	for slot13, slot14 in pairs(slot0) do
 		setText(slot0:findTF("Text", slot15), slot14.title)
-		onButton(slot0, slot0:findTF("Text", cloneTplTo(slot8, slot7)), function ()
+		onButton(slot0, slot0:findTF("Text", slot15), function ()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				hideNo = true,
 				hideYes = true,
-				content = slot0.desc
+				content = uv0.desc
 			})
 		end)
 
@@ -273,14 +276,14 @@ function slot0.initOptionsPanel(slot0, slot1)
 			slot0[slot14.name] = PlayerPrefs.GetInt(slot14.name, slot14.default or 0) > 0
 
 			onToggle(slot0, slot15:Find("on"), function (slot0)
-				if slot0[slot1.name] ~= slot0 then
-					slot1(slot1.name, (slot0 and 1) or 0)
+				if uv0[uv1.name] ~= slot0 then
+					PlayerPrefs.SetInt(uv1.name, slot0 and 1 or 0)
 					PlayerPrefs.Save()
 
-					slot0[slot1.name] = slot0
+					uv0[uv1.name] = slot0
 				end
 
-				if slot1.name == SHOW_TOUCH_EFFECT and pg.UIMgr.GetInstance().OverlayEffect then
+				if uv1.name == SHOW_TOUCH_EFFECT and pg.UIMgr.GetInstance().OverlayEffect then
 					setActive(slot1, slot0)
 				end
 			end, SFX_UI_TAG, SFX_UI_CANCEL)
@@ -294,6 +297,7 @@ function slot0.initInterfacePreference(slot0, slot1)
 	setActive(slot1, false)
 
 	slot0.editPanel = slot1:Find("editor")
+	slot2 = slot0:findTF("main/battle_ui/editor/buttons")
 	slot0.normalBtns = findTF(slot2, "normal")
 	slot0.editBtns = findTF(slot2, "editing")
 	slot0.saveBtn = findTF(slot0.editBtns, "save")
@@ -302,38 +306,38 @@ function slot0.initInterfacePreference(slot0, slot1)
 	slot0.revertBtn = findTF(slot0.normalBtns, "reset")
 
 	onButton(slot0, slot0.editBtn, function ()
-		slot0:editModeEnabled(true)
+		uv0:editModeEnabled(true)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.revertBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			hideNo = false,
 			content = i18n("setting_interface_revert_check"),
 			onYes = function ()
-				slot0:revertInterfaceSetting(true)
+				uv0:revertInterfaceSetting(true)
 			end
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.cancelBtn, function ()
-		if slot0._currentDrag then
-			LuaHelper.triggerEndDrag(slot0._currentDrag)
+		if uv0._currentDrag then
+			LuaHelper.triggerEndDrag(uv0._currentDrag)
 		end
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			hideNo = false,
 			content = i18n("setting_interface_cancel_check"),
 			onYes = function ()
-				slot0:editModeEnabled(false)
-				slot0.editModeEnabled:revertInterfaceSetting(false)
+				uv0:editModeEnabled(false)
+				uv0:revertInterfaceSetting(false)
 			end
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.saveBtn, function ()
-		if slot0._currentDrag then
-			LuaHelper.triggerEndDrag(slot0._currentDrag)
+		if uv0._currentDrag then
+			LuaHelper.triggerEndDrag(uv0._currentDrag)
 		end
 
-		slot0:editModeEnabled(false)
-		slot0.editModeEnabled:saveInterfaceSetting()
+		uv0:editModeEnabled(false)
+		uv0:saveInterfaceSetting()
 		pg.TipsMgr:GetInstance():ShowTips(i18n("setting_interface_save_success"))
 	end, SFX_PANEL)
 
@@ -342,14 +346,13 @@ function slot0.initInterfacePreference(slot0, slot1)
 	if rtf(slot0.interface).rect.width / rtf(slot0.interface).rect.height > rtf(slot0._tf).rect.width / rtf(slot0._tf).rect.height then
 		slot8 = rtf(slot0.interface).sizeDelta.y
 		slot0.scale = slot4 / slot6
-		slot7 = rtf(slot0.interface).sizeDelta.x - (slot3 - (slot4 * slot5) / slot6)
+		slot7 = rtf(slot0.interface).sizeDelta.x - (slot3 - slot4 * slot5 / slot6)
 	else
 		slot7 = rtf(slot1).sizeDelta.x
 		slot0.scale = slot3 / slot5
-		slot8 = rtf(slot1).sizeDelta.y - (slot4 - (slot3 * slot6) / slot5)
+		slot8 = rtf(slot1).sizeDelta.y - (slot4 - slot3 * slot6 / slot5)
 	end
 
-	slot7 = Vector3.New(slot0.scale, slot0.scale, 1)
 	slot0.stick = findTF(slot0.interface, "Stick")
 	slot0.skillBtn1 = findTF(slot0.interface, "Skill_1")
 	slot0.skillBtn2 = findTF(slot0.interface, "Skill_2")
@@ -357,11 +360,17 @@ function slot0.initInterfacePreference(slot0, slot1)
 	slot0.skillBtn4 = findTF(slot0.interface, "Skill_4")
 	slot0.mask = findTF(slot0.interface, "mask")
 
-	slot0:initInterfaceComponent(slot0.stick, "joystick_anchorX", "joystick_anchorY", slot8)
-	slot0:initInterfaceComponent(slot0.skillBtn1, "skill_1_anchorX", "skill_1_anchorY", ys.Battle.BattleConfig.SKILL_BUTTON_DEFAULT_PREFERENCE[1])
-	slot0:initInterfaceComponent(slot0.skillBtn2, "skill_2_anchorX", "skill_2_anchorY", ys.Battle.BattleConfig.SKILL_BUTTON_DEFAULT_PREFERENCE[2])
-	slot0:initInterfaceComponent(slot0.skillBtn3, "skill_3_anchorX", "skill_3_anchorY", ys.Battle.BattleConfig.SKILL_BUTTON_DEFAULT_PREFERENCE[3])
-	slot0:initInterfaceComponent(slot0.skillBtn4, "skill_4_anchorX", "skill_4_anchorY", ys.Battle.BattleConfig.SKILL_BUTTON_DEFAULT_PREFERENCE[4])
+	slot0:initInterfaceComponent(slot0.stick, "joystick_anchorX", "joystick_anchorY", ys.Battle.BattleConfig.JOY_STICK_DEFAULT_PREFERENCE)
+
+	slot9 = ys.Battle.BattleConfig.SKILL_BUTTON_DEFAULT_PREFERENCE
+
+	slot0:initInterfaceComponent(slot0.skillBtn1, "skill_1_anchorX", "skill_1_anchorY", slot9[1])
+	slot0:initInterfaceComponent(slot0.skillBtn2, "skill_2_anchorX", "skill_2_anchorY", slot9[2])
+	slot0:initInterfaceComponent(slot0.skillBtn3, "skill_3_anchorX", "skill_3_anchorY", slot9[3])
+
+	slot14 = "skill_4_anchorY"
+
+	slot0:initInterfaceComponent(slot0.skillBtn4, "skill_4_anchorX", slot14, slot9[4])
 
 	slot0.components = {
 		findTF(slot0.interface, "top"),
@@ -372,8 +381,8 @@ function slot0.initInterfacePreference(slot0, slot1)
 		slot0.skillBtn4
 	}
 
-	for slot14 = 2, #slot0.components, 1 do
-		setLocalScale(slot0.components[slot14], slot7)
+	for slot14 = 2, #slot0.components do
+		setLocalScale(slot0.components[slot14], Vector3.New(slot0.scale, slot0.scale, 1))
 	end
 
 	slot0:editModeEnabled(false)
@@ -387,36 +396,36 @@ function slot0.initInterfaceComponent(slot0, slot1, slot2, slot3, slot4)
 	slot10, slot11, slot12, slot13 = nil
 
 	slot9:AddBeginDragFunc(function (slot0, slot1)
-		slot0._currentDrag = slot1
-		slot2 = slot1 / UnityEngine.Screen.width
-		slot4 = slot5 / UnityEngine.Screen.height
+		uv0._currentDrag = uv1
+		uv2 = uv3 / UnityEngine.Screen.width
+		uv4 = uv5 / UnityEngine.Screen.height
 
-		for slot5 = 2, #slot0.components, 1 do
-			if slot0.components[slot5] ~=  then
+		for slot5 = 2, #uv0.components do
+			if uv0.components[slot5] ~= uv6 then
 				GetOrAddComponent(slot6, "EventTriggerListener").enabled = false
 			end
 		end
 
-		slot7 = slot6.localPosition.x
-		slot8 = slot6.localPosition.y
+		uv7 = uv6.localPosition.x
+		uv8 = uv6.localPosition.y
 	end)
 	slot9:AddDragFunc(function (slot0, slot1)
-		slot0.localPosition = Vector3(slot1.position.x * slot1 - slot2, slot1.position.y * slot3 - slot4, 0)
+		uv0.localPosition = Vector3(slot1.position.x * uv1 - uv2, slot1.position.y * uv3 - uv4, 0)
 
-		slot5:checkInterfaceIntersect()
+		uv5:checkInterfaceIntersect()
 	end)
 	slot9:AddDragEndFunc(function (slot0, slot1)
-		slot0._currentDrag = nil
+		uv0._currentDrag = nil
 
-		if slot0:checkInterfaceIntersect() then
-			slot1.localPosition = Vector3(slot2, slot1, 0)
+		if uv0:checkInterfaceIntersect() then
+			uv1.localPosition = Vector3(uv2, uv3, 0)
 		end
 
-		for slot6 = 2, #slot0.components, 1 do
-			GetOrAddComponent(slot0.components[slot6], "EventTriggerListener").enabled = true
+		for slot6 = 2, #uv0.components do
+			GetOrAddComponent(uv0.components[slot6], "EventTriggerListener").enabled = true
 		end
 
-		slot0:checkInterfaceIntersect()
+		uv0:checkInterfaceIntersect()
 	end)
 	slot0:setInterfaceAnchor(slot1, slot2, slot3, slot4)
 end
@@ -458,18 +467,24 @@ end
 
 function slot3(slot0)
 	slot1 = rtf(slot0)
+	slot2 = slot1.rect
+	slot3 = slot2.width * slot1.lossyScale.x
+	slot4 = slot2.height * slot1.lossyScale.y
+	slot5 = slot1.position
 
-	return UnityEngine.Rect.New(slot1.position.x - (slot1.rect.width * slot1.lossyScale.x) / 2, slot1.position.y - (slot1.rect.height * slot1.lossyScale.y) / 2, slot1.rect.width * slot1.lossyScale.x, slot1.rect.height * slot1.lossyScale.y)
+	return UnityEngine.Rect.New(slot5.x - slot3 / 2, slot5.y - slot4 / 2, slot3, slot4)
 end
 
 function slot0.checkInterfaceIntersect(slot0)
 	slot1 = {}
 	slot2 = false
-	slot3 = {}
-	slot4 = slot0(slot0.interface)
+	slot3 = {
+		[slot9] = uv0(slot9:Find("rect"))
+	}
+	slot4 = uv0(slot0.interface)
 
 	for slot8, slot9 in ipairs(slot0.components) do
-		slot3[slot9] = slot0(slot9:Find("rect"))
+		-- Nothing
 	end
 
 	for slot8, slot9 in ipairs(slot0.components) do
@@ -480,22 +495,18 @@ function slot0.checkInterfaceIntersect(slot0)
 		end
 
 		if slot8 > 1 then
-			slot11 = Vector2.New(slot3[slot9].xMax, slot3[slot9].yMax)
-
-			if not slot4:Contains(Vector2.New(slot3[slot9].xMin, slot3[slot9].yMin)) or not slot4:Contains(slot11) then
+			if not slot4:Contains(Vector2.New(slot3[slot9].xMin, slot3[slot9].yMin)) or not slot4:Contains(Vector2.New(slot3[slot9].xMax, slot3[slot9].yMax)) then
 				slot1[slot9] = true
 			end
 		end
 	end
 
 	for slot8, slot9 in ipairs(slot0.components) do
-		slot10 = findTF(slot9, "rect"):GetComponent(typeof(Image))
-
 		if slot1[slot9] then
-			slot10.color = slot1.CLD_RED
+			findTF(slot9, "rect"):GetComponent(typeof(Image)).color = uv1.CLD_RED
 			slot2 = true
 		else
-			slot10.color = slot1.DEFAULT_GREY
+			slot10.color = uv1.DEFAULT_GREY
 		end
 	end
 
@@ -503,11 +514,13 @@ function slot0.checkInterfaceIntersect(slot0)
 end
 
 function slot0.revertInterfaceSetting(slot0, slot1)
-	slot0:setInterfaceAnchor(slot0.stick, "joystick_anchorX", "joystick_anchorY", slot2, slot1)
-	slot0:setInterfaceAnchor(slot0.skillBtn1, "skill_1_anchorX", "skill_1_anchorY", ys.Battle.BattleConfig.SKILL_BUTTON_DEFAULT_PREFERENCE[1], slot1)
-	slot0:setInterfaceAnchor(slot0.skillBtn2, "skill_2_anchorX", "skill_2_anchorY", ys.Battle.BattleConfig.SKILL_BUTTON_DEFAULT_PREFERENCE[2], slot1)
-	slot0:setInterfaceAnchor(slot0.skillBtn3, "skill_3_anchorX", "skill_3_anchorY", ys.Battle.BattleConfig.SKILL_BUTTON_DEFAULT_PREFERENCE[3], slot1)
-	slot0:setInterfaceAnchor(slot0.skillBtn4, "skill_4_anchorX", "skill_4_anchorY", ys.Battle.BattleConfig.SKILL_BUTTON_DEFAULT_PREFERENCE[4], slot1)
+	slot3 = ys.Battle.BattleConfig.SKILL_BUTTON_DEFAULT_PREFERENCE
+
+	slot0:setInterfaceAnchor(slot0.stick, "joystick_anchorX", "joystick_anchorY", ys.Battle.BattleConfig.JOY_STICK_DEFAULT_PREFERENCE, slot1)
+	slot0:setInterfaceAnchor(slot0.skillBtn1, "skill_1_anchorX", "skill_1_anchorY", slot3[1], slot1)
+	slot0:setInterfaceAnchor(slot0.skillBtn2, "skill_2_anchorX", "skill_2_anchorY", slot3[2], slot1)
+	slot0:setInterfaceAnchor(slot0.skillBtn3, "skill_3_anchorX", "skill_3_anchorY", slot3[3], slot1)
+	slot0:setInterfaceAnchor(slot0.skillBtn4, "skill_4_anchorX", "skill_4_anchorY", slot3[4], slot1)
 	slot0:saveInterfaceSetting()
 end
 
@@ -520,8 +533,11 @@ function slot0.saveInterfaceSetting(slot0)
 end
 
 function slot0.overrideInterfaceSetting(slot0, slot1, slot2, slot3)
-	PlayerPrefs.SetFloat(slot2, slot6)
-	PlayerPrefs.SetFloat(slot3, (slot1.localPosition.y + rtf(slot0.interface).rect.height * 0.5) / rtf(slot0.interface).rect.height)
+	slot4 = rtf(slot0.interface).rect.width
+	slot5 = rtf(slot0.interface).rect.height
+
+	PlayerPrefs.SetFloat(slot2, (slot1.localPosition.x + slot4 * 0.5) / slot4)
+	PlayerPrefs.SetFloat(slot3, (slot1.localPosition.y + slot5 * 0.5) / slot5)
 end
 
 function slot0.updateSoundDownloadState(slot0)
@@ -586,7 +602,7 @@ function slot0.updateSoundDownloadState(slot0)
 	setText(slot0.soundDownloadInfo1, slot4)
 	setText(slot0.soundDownloadInfo2, slot5)
 	setAnchoredPosition(slot0.soundDownloadInfo2, {
-		x = (slot2 == DownloadState.CheckToUpdate and 82.5) or 91.5
+		x = slot2 == DownloadState.CheckToUpdate and 82.5 or 91.5
 	})
 	setSlider(slot0.soundDownloadProgress, 0, 1, slot6)
 	setActive(slot0.soundDownloadProgressHandle, slot6 ~= 0 and slot6 ~= 1)
@@ -665,7 +681,7 @@ function slot0.updateLive2DDownloadState(slot0)
 	setText(slot0.live2DDownloadInfo1, slot4)
 	setText(slot0.live2DDownloadInfo2, slot5)
 	setAnchoredPosition(slot0.live2DDownloadInfo2, {
-		x = (slot2 == DownloadState.CheckToUpdate and 82.5) or 91.5
+		x = slot2 == DownloadState.CheckToUpdate and 82.5 or 91.5
 	})
 	setSlider(slot0.live2DDownloadProgress, 0, 1, slot6)
 	setActive(slot0.live2DDownloadProgressHandle, slot6 ~= 0 and slot6 ~= 1)
@@ -677,7 +693,8 @@ end
 slot4 = nil
 
 function slot5()
-	return pg.SecondaryPWDMgr.GetInstance() or {
+	slot0 = pg.SecondaryPWDMgr.GetInstance()
+	uv0 = uv0 or {
 		[slot0.UNLOCK_SHIP] = {
 			title = i18n("words_settings_unlock_ship")
 		},
@@ -691,6 +708,8 @@ function slot5()
 			title = i18n("words_settings_create_inherit")
 		}
 	}
+
+	return uv0
 end
 
 function slot0.initOtherPanel(slot0)
@@ -743,12 +762,12 @@ function slot0.initOtherPanel(slot0)
 
 		onButton(slot0, slot0.achieveBtn, function ()
 			pg.m02:sendNotification(GAME.EXCHANGECODE_USE, {
-				key = slot0.codeInput:GetComponent(typeof(InputField)).text
+				key = uv0.codeInput:GetComponent(typeof(InputField)).text
 			})
 		end, SFX_CONFIRM)
 		setGray(slot0.achieveBtn, getInputText(slot0.codeInput) == "")
 		onInputChanged(slot0, slot0.codeInput, function ()
-			slot0(slot0.achieveBtn, getInputText(slot0.codeInput) == "")
+			setGray(uv0.achieveBtn, getInputText(uv0.codeInput) == "")
 		end)
 	else
 		setActive(slot0.redeem, false)
@@ -763,7 +782,7 @@ function slot0.initOtherPanel(slot0)
 
 		setSlider(slot0.notchSlider, ADAPT_MIN, slot2, getProxy(SettingsProxy):GetScreenRatio())
 		slot0:initSoundSlider(slot0.notchSlider, function (slot0)
-			slot0:SetScreenRatio(slot0)
+			uv0:SetScreenRatio(slot0)
 
 			NotchAdapt.CheckNotchRatio = slot0
 
@@ -773,7 +792,7 @@ function slot0.initOtherPanel(slot0)
 		setActive(slot0.notchPanel, false)
 	end
 
-	onButton(slot0, slot3, function ()
+	onButton(slot0, slot0:findTF("secondpwd/btnhelp", slot0.otherContent), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = i18n("secondary_password_help")
@@ -781,21 +800,20 @@ function slot0.initOtherPanel(slot0)
 	end)
 
 	slot4 = slot0:findTF("secondpwd", slot0.otherContent)
-	slot7 = pg.SecondaryPWDMgr.GetInstance()
-	slot9 = getProxy(SecondaryPWDProxy).getRawData(slot8)
+	slot9 = getProxy(SecondaryPWDProxy):getRawData()
 
-	onButton(slot0, slot5, function ()
-		if slot0.state > 0 then
-			slot1:ChangeSetting({}, function ()
-				slot0:updateOtherPanel()
+	onButton(slot0, slot4:Find("options/close"), function ()
+		if uv0.state > 0 then
+			uv1:ChangeSetting({}, function ()
+				uv0:updateOtherPanel()
 			end)
 		end
 	end, SFX_UI_TAG)
-	onButton(slot0, slot6, function ()
-		if slot0.state <= 0 then
+	onButton(slot0, slot4:Find("options/open"), function ()
+		if uv0.state <= 0 then
 			function slot0()
-				slot0:SetPassword(function ()
-					slot0:updateOtherPanel()
+				uv0:SetPassword(function ()
+					uv0:updateOtherPanel()
 				end)
 			end
 
@@ -814,35 +832,34 @@ function slot0.initOtherPanel(slot0)
 		end
 	end, SFX_UI_TAG)
 
-	slot10 = slot0:findTF("limited_operations/options", slot0.otherContent)
-	slot11 = slot0:findTF("notify_tpl")
 	slot0.secPwdOpts = {}
 
-	for slot15, slot16 in ipairs(slot0()) do
-		if table.contains(slot7.LIMITED_OPERATION, slot15) then
-			slot17 = cloneTplTo(slot11, slot10)
+	for slot15, slot16 in ipairs(uv0()) do
+		if table.contains(pg.SecondaryPWDMgr.GetInstance().LIMITED_OPERATION, slot15) then
+			slot17 = cloneTplTo(slot0:findTF("notify_tpl"), slot0:findTF("limited_operations/options", slot0.otherContent))
 			slot0.secPwdOpts[slot15] = slot17
 
 			setText(slot0:findTF("Text", slot17), slot16.title)
 			onButton(slot0, slot17, function ()
 				slot1 = nil
 
-				if not table.contains(slot0.system_list, ) then
-					Clone(slot0.system_list)[#Clone(slot0.system_list) + 1] = slot1
+				if not table.contains(uv0.system_list, uv1) then
+					slot1 = Clone(uv0.system_list)
+					slot1[#slot1 + 1] = uv1
 
-					table.sort(Clone(slot0.system_list), function (slot0, slot1)
+					table.sort(slot1, function (slot0, slot1)
 						return slot0 < slot1
 					end)
 				elseif slot0 then
-					for slot5 = #Clone(slot0.system_list), 1, -1 do
-						if slot1[slot5] == slot1 then
+					for slot5 = #Clone(uv0.system_list), 1, -1 do
+						if slot1[slot5] == uv1 then
 							table.remove(slot1, slot5)
 						end
 					end
 				end
 
-				slot2:ChangeSetting(slot1, function ()
-					slot0:updateOtherPanel()
+				uv2:ChangeSetting(slot1, function ()
+					uv0:updateOtherPanel()
 				end)
 			end, SFX_UI_TAG)
 		end
@@ -856,11 +873,12 @@ function slot0.updateOtherPanel(slot0)
 	slot2 = slot1:Find("options/close")
 	slot3 = slot1:Find("options/open")
 	slot4 = pg.SecondaryPWDMgr.GetInstance()
+	slot7 = getProxy(SecondaryPWDProxy):getRawData().state > 0
 
-	setActive(slot2:Find("on"), not (getProxy(SecondaryPWDProxy).getRawData(slot5).state > 0))
-	setActive(slot2:Find("off"), getProxy(SecondaryPWDProxy).getRawData(slot5).state > 0)
-	setActive(slot3:Find("on"), getProxy(SecondaryPWDProxy).getRawData(slot5).state > 0)
-	setActive(slot3:Find("off"), not (getProxy(SecondaryPWDProxy).getRawData(slot5).state > 0))
+	setActive(slot2:Find("on"), not slot7)
+	setActive(slot2:Find("off"), slot7)
+	setActive(slot3:Find("on"), slot7)
+	setActive(slot3:Find("off"), not slot7)
 
 	for slot11, slot12 in pairs(slot0.secPwdOpts) do
 		slot13 = table.contains(slot6.system_list, slot11)
@@ -880,19 +898,21 @@ end
 slot6 = true
 
 function slot0.onAddToggleEvent(slot0, slot1, slot2, slot3, slot4, slot5)
-	pg.DelegateInfo.Add(slot1, slot7)
-	GetComponent(slot2, typeof(Toggle)).onValueChanged.AddListener(slot7, function (slot0)
-		if slot0 then
-			if slot0 and slot1 and slot2.isOn == slot0 then
-				slot1 = SFX_UI_TAG
+	slot7 = GetComponent(slot2, typeof(Toggle)).onValueChanged
 
-				playSoundEffect(playSoundEffect)
-			elseif not slot0 and slot3 then
-				playSoundEffect(slot3)
+	pg.DelegateInfo.Add(slot1, slot7)
+	slot7:AddListener(function (slot0)
+		if uv0 then
+			if slot0 and uv1 and uv2.isOn == slot0 then
+				uv1 = SFX_UI_TAG
+
+				playSoundEffect(uv1)
+			elseif not slot0 and uv3 then
+				playSoundEffect(uv3)
 			end
 		end
 
-		slot4(slot0)
+		uv4(slot0)
 	end)
 
 	if not IsNil(GetComponent(slot2, typeof(UIToggleEvent))) then
@@ -902,13 +922,13 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0.backButton, function ()
-		slot0:emit(slot1.ON_BACK)
+		uv0:emit(uv1.ON_BACK)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.logoutButton, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("main_settingsScene_quest_exist"),
 			onYes = function ()
-				slot0:emit(SettingsMediator.ON_LOGOUT)
+				uv0:emit(SettingsMediator.ON_LOGOUT)
 			end
 		})
 	end, SFX_PANEL)
@@ -921,13 +941,13 @@ function slot0.didEnter(slot0)
 	end)
 	slot0:onAddToggleEvent(slot0, slot0.otherToggle, function (slot0)
 		if slot0 and PlayerPrefs.GetFloat("firstIntoOtherPanel") == 0 then
-			setActive(slot1, false)
+			setActive(uv0.otherToggle:Find("tip"), false)
 
-			slot2 = slot0:findTF("main/other/scroll_view/Viewport/content")
+			slot2 = uv0:findTF("main/other/scroll_view/Viewport/content")
 
 			setAnchoredPosition(slot2, {
 				x = slot2.anchoredPosition.x,
-				y = -slot0:findTF("secondpwd", slot2).anchoredPosition.y
+				y = -uv0:findTF("secondpwd", slot2).anchoredPosition.y
 			})
 			PlayerPrefs.SetFloat("firstIntoOtherPanel", 1)
 			PlayerPrefs.Save()
@@ -1075,73 +1095,69 @@ function slot0.didEnter(slot0)
 		}
 
 		onButton(slot0, slot0._cvTest, function ()
-			setActive(slot0._cvPanel, true)
+			setActive(uv0._cvPanel, true)
 
-			setActive._cvList = {}
-			setActive._cvIndex = 1
+			uv0._cvList = {}
+			uv0._cvIndex = 1
 		end)
 
 		function slot1()
-			if slot0._currentVoice then
-				slot0._currentVoice:Stop(true)
+			if uv0._currentVoice then
+				uv0._currentVoice:Stop(true)
 			end
 
-			slot0 = tonumber(slot0._cvID:GetComponent(typeof(InputField)).text)
-			slot0._cvLabel:GetComponent(typeof(Text)).text = slot0._cvNameList[slot0._cvIndex][1]
+			slot1 = uv0._cvNameList[uv0._cvIndex]
+			uv0._cvLabel:GetComponent(typeof(Text)).text = slot1[1]
 
-			if slot0._cvNameList[slot0._cvIndex][1] == "skill" then
-				slot2, slot7, slot4 = ShipWordHelper.GetWordAndCV(slot0, slot1[1])
-				slot0._cvChat:GetComponent(typeof(Text)).text = ""
-				slot0._currentVoice = playSoundEffect(slot3)
+			if slot1[1] == "skill" then
+				slot2, slot3, slot4 = ShipWordHelper.GetWordAndCV(tonumber(uv0._cvID:GetComponent(typeof(InputField)).text), slot1[1])
+				uv0._cvChat:GetComponent(typeof(Text)).text = ""
+				uv0._currentVoice = playSoundEffect(slot3)
 			else
-				slot2, slot7, slot0._cvChat:GetComponent(typeof(Text)).text = ShipWordHelper.GetWordAndCV(slot0, slot1[2], slot1[3])
-				slot0._currentVoice = playSoundEffect(slot3)
+				slot2, slot3, uv0._cvChat:GetComponent(typeof(Text)).text = ShipWordHelper.GetWordAndCV(slot0, slot1[2], slot1[3])
+				uv0._currentVoice = playSoundEffect(slot3)
 			end
 		end
 
 		onButton(slot0, slot0._cvPlay, function ()
 			function slot2()
-				pg.CriMgr:LoadBattleCV(pg.CriMgr.LoadBattleCV, function ()
-					slot0._cvList[slot1] = 
-					-- Decompilation error in this vicinity:
-					true
+				pg.CriMgr:LoadBattleCV(uv1, function ()
+					uv0._cvList[uv1] = true
 
-
-					-- Decompilation error in this vicinity:
-					true()
+					uv2()
 				end)
 			end
 
-			if slot0._cvList[ShipWordHelper.RawGetCVKey(slot0)] then
-				slot1()
+			if uv0._cvList[ShipWordHelper.RawGetCVKey(tonumber(uv0._cvID:GetComponent(typeof(InputField)).text))] then
+				uv1()
 			else
 				pg.CriMgr:LoadCV(slot1, slot2)
 			end
 		end)
 		onButton(slot0, slot0._cvPanelBack, function ()
-			setActive(slot0._cvPanel, false)
-			setActive:clearCV()
+			setActive(uv0._cvPanel, false)
+			uv0:clearCV()
 		end)
 		onButton(slot0, slot0._cvPre, function ()
-			slot0._cvIndex = slot0._cvIndex - 1
+			uv0._cvIndex = uv0._cvIndex - 1
 
-			if slot0._cvIndex <= 0 then
-				slot0._cvIndex = #slot0._cvNameList
+			if uv0._cvIndex <= 0 then
+				uv0._cvIndex = #uv0._cvNameList
 			end
 
-			slot1()
+			uv1()
 		end)
 		onButton(slot0, slot0._cvPost, function ()
-			slot0._cvIndex = slot0._cvIndex + 1
+			uv0._cvIndex = uv0._cvIndex + 1
 
-			if slot0._cvIndex > #slot0._cvNameList then
-				slot0._cvIndex = 1
+			if uv0._cvIndex > #uv0._cvNameList then
+				uv0._cvIndex = 1
 			end
 
-			slot1()
+			uv1()
 		end)
 		onButton(slot0, slot0:findTF("CVTestPanel/play"), function ()
-			pg.StoryMgr.GetInstance():Play(slot0:findTF("CVTestPanel/playid"):GetComponent(typeof(InputField)).text, nil, true)
+			pg.StoryMgr.GetInstance():Play(uv0:findTF("CVTestPanel/playid"):GetComponent(typeof(InputField)).text, nil, true)
 		end)
 		setActive(slot0._hpBtn, true)
 
@@ -1151,14 +1167,14 @@ function slot0.didEnter(slot0)
 		slot0._dungeonHP = slot0:findTF("dungeonHPPanel/DMG")
 
 		onButton(slot0, slot0._hpBtn, function ()
-			setActive(slot0._dungeonHPPanel, true)
+			setActive(uv0._dungeonHPPanel, true)
 		end)
 		onButton(slot0, slot0:findTF("dungeonHPPanel/calcBtn"), function ()
-			slot1 = tonumber(slot0._dungeonLV:GetComponent(typeof(InputField)).text)
+			slot1 = tonumber(uv0._dungeonLV:GetComponent(typeof(InputField)).text)
 			slot2 = 0
 			slot3 = {}
 
-			for slot8, slot9 in ipairs(ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(slot0).stages) do
+			for slot8, slot9 in ipairs(ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(tonumber(uv0._dungeonID:GetComponent(typeof(InputField)).text)).stages) do
 				for slot13, slot14 in ipairs(slot9.waves) do
 					if slot14.triggerType == ys.Battle.BattleConst.WaveTriggerType.NORMAL then
 						for slot18, slot19 in ipairs(slot14.spawn) do
@@ -1175,10 +1191,11 @@ function slot0.didEnter(slot0)
 			end
 
 			for slot8, slot9 in ipairs(slot3) do
-				slot2 = slot2 + ys.Battle.BattleDataFunction.GetMonsterTmpDataFromID(slot9).durability + ys.Battle.BattleDataFunction.GetMonsterTmpDataFromID(slot9).durability_growth * (slot1 - 1) / 1000
+				slot10 = ys.Battle.BattleDataFunction.GetMonsterTmpDataFromID(slot9)
+				slot2 = slot2 + slot10.durability + slot10.durability_growth * (slot1 - 1) / 1000
 			end
 
-			setText(slot0._dungeonHP, slot2)
+			setText(uv0._dungeonHP, slot2)
 		end)
 
 		return
@@ -1201,7 +1218,7 @@ function slot0.onBackPressed(slot0)
 		return
 	end
 
-	slot0:emit(slot0.ON_BACK)
+	slot0:emit(uv0.ON_BACK)
 
 	if BUTTON_SOUND_EFFECT then
 		playSoundEffect(SFX_CANCEL)
@@ -1259,8 +1276,10 @@ function slot0.initJPAccountPanel(slot0, slot1)
 	slot0.codeDesc = slot0:findTF("title_desc", slot0.transcodeUI)
 
 	onButton(slot0, slot0.getCodeBtn, function ()
-		if slot0.transcode == "" then
-			pg.SecondaryPWDMgr:LimitedOperation(pg.SecondaryPWDMgr.CREATE_INHERIT, nil, function ()
+		if uv0.transcode == "" then
+			slot1 = pg.SecondaryPWDMgr
+
+			slot1:LimitedOperation(slot1.CREATE_INHERIT, nil, function ()
 				pg.SdkMgr:GetInstance():TranscodeRequest()
 			end)
 		end
@@ -1272,8 +1291,8 @@ function slot0.initJPAccountPanel(slot0, slot1)
 		pg.SdkMgr:GetInstance():UnlinkTwitter()
 	end)
 	onButton(slot0, slot0.goTranscodeUIBtn, function ()
-		setActive(slot0.accountTwitterUI, false)
-		setActive(slot0.transcodeUI, true)
+		setActive(uv0.accountTwitterUI, false)
+		setActive(uv0.transcodeUI, true)
 	end)
 	slot0:checkTranscodeView()
 	slot0:checkAccountTwitterView()
@@ -1347,32 +1366,32 @@ function slot0.initUSAccountPanel(slot0, slot1)
 		pg.SdkMgr:GetInstance():UnlinkSocial(AIRI_PLATFORM_FACEBOOK)
 	end)
 	onButton(slot0, slot0.btnBindYostar, function ()
-		pg.UIMgr.GetInstance():BlurPanel(slot0.yostarAlert, false)
-		setActive(slot0.yostarAlert, true)
+		pg.UIMgr.GetInstance():BlurPanel(uv0.yostarAlert, false)
+		setActive(uv0.yostarAlert, true)
 	end)
 	onButton(slot0, slot0.yostarAlert, function ()
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.yostarAlert, slot0.accountUS)
-		setActive(slot0.yostarAlert, false)
+		pg.UIMgr.GetInstance():UnblurPanel(uv0.yostarAlert, uv0.accountUS)
+		setActive(uv0.yostarAlert, false)
 	end)
 	onButton(slot0, slot0.yostarGenCodeBtn, function ()
-		if getInputText(slot0.yostarEmailTxt) ~= "" then
+		if getInputText(uv0.yostarEmailTxt) ~= "" then
 			pg.SdkMgr:GetInstance():VerificationCodeReq(slot0)
-			slot0:checkAiriGenCodeCounter_US()
+			uv0:checkAiriGenCodeCounter_US()
 		else
 			pg.TipsMgr:GetInstance():ShowTips(i18n("verification_code_req_tip1"))
 		end
 	end)
 	onButton(slot0, slot0.yostarSureBtn, function ()
-		slot1 = getInputText(slot0.yostarCodeTxt)
+		slot1 = getInputText(uv0.yostarCodeTxt)
 
-		if getInputText(slot0.yostarEmailTxt) ~= "" and slot1 ~= "" then
+		if getInputText(uv0.yostarEmailTxt) ~= "" and slot1 ~= "" then
 			pg.UIMgr.GetInstance():LoadingOn()
 			pg.SdkMgr:GetInstance():LinkSocial(AIRI_PLATFORM_YOSTAR, slot0, slot1)
 		else
 			pg.TipsMgr:GetInstance():ShowTips(i18n("verification_code_req_tip3"))
 		end
 
-		triggerButton(slot0.yostarAlert)
+		triggerButton(uv0.yostarAlert)
 	end)
 	slot0:checkAccountTwitterView_US()
 	slot0:checkAccountFacebookView_US()
@@ -1425,161 +1444,57 @@ function slot0.checkAiriGenCodeCounter_US(slot0)
 
 		slot0.genCodeTimer = Timer.New(function ()
 			if GetAiriGenCodeTimeRemain() > 0 then
-				setText(slot0.yostarGenTxt, "(" .. slot0 .. ")")
+				setText(uv0.yostarGenTxt, "(" .. slot0 .. ")")
 			else
-				setText(slot0.yostarGenTxt, "Generate")
-				slot0:clearAiriGenCodeTimer_US()
+				setText(uv0.yostarGenTxt, "Generate")
+				uv0:clearAiriGenCodeTimer_US()
 			end
 		end, 1, -1):Start()
 	end
 end
 
 function slot0.clearAiriGenCodeTimer_US(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-7, warpins: 1 ---
 	setButtonEnabled(slot0.yostarGenCodeBtn, true)
 
 	if slot0.genCodeTimer then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 8-13, warpins: 1 ---
 		slot0.genCodeTimer:Stop()
 
 		slot0.genCodeTimer = nil
-		--- END OF BLOCK #0 ---
-
-
-
 	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 14-14, warpins: 2 ---
-	return
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function slot0.UpdateTwAccountPanel(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-4, warpins: 1 ---
 	if PLATFORM == PLATFORM_ANDROID then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 5-21, warpins: 1 ---
 		setActive(slot0.accountTw:Find("page1/bind_google"), true)
 		setActive(slot0.accountTw:Find("page1/bind_gamecenter"), false)
-		--- END OF BLOCK #0 ---
-
-
-
 	else
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 22-37, warpins: 1 ---
 		setActive(slot0.accountTw:Find("page1/bind_google"), true)
 		setActive(slot0.accountTw:Find("page1/bind_gamecenter"), false)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 38-87, warpins: 2 ---
 	slot2 = pg.SdkMgr.GetInstance()
-	slot7 = {
-		slot2:IsBindFaceBook(),
-		slot2:IsBindGoogle(),
-		slot2:IsBindPhone(),
-		slot2:IsBindGameCenter()
-	}
 
-	--- END OF BLOCK #1 ---
+	for slot11, slot12 in ipairs({
+		slot0.accountTw:Find("page1/bind_facebook"),
+		slot0.accountTw:Find("page1/bind_google"),
+		slot0.accountTw:Find("page1/bind_phone"),
+		slot0.accountTw:Find("page1/bind_gamecenter")
+	}) do
+		slot13 = ({
+			slot2:IsBindFaceBook(),
+			slot2:IsBindGoogle(),
+			slot2:IsBindPhone(),
+			slot2:IsBindGameCenter()
+		})[slot11]
 
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 88-112, warpins: 0 ---
-	for slot11, slot12 in ipairs(slot1) do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 88-110, warpins: 1 ---
-		setActive(slot12:Find("unbind"), not slot7[slot11])
+		setActive(slot12:Find("unbind"), not slot13)
 		setActive(slot12:Find("bind"), slot13)
 		onButton(slot0, slot12, function ()
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 1-3, warpins: 1 ---
-			if not slot0 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 4-8, warpins: 1 ---
-				slot1:BindSocial(slot2)
-				--- END OF BLOCK #0 ---
-
-
-
+			if not uv0 then
+				uv1:BindSocial(uv2)
 			end
-
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 9-9, warpins: 2 ---
-			return
-			--- END OF BLOCK #1 ---
-
-
-
 		end, SFX_PANEL)
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 111-112, warpins: 2 ---
-		--- END OF BLOCK #1 ---
-
-
-
 	end
-
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 113-114, warpins: 1 ---
-	return
-	--- END OF BLOCK #3 ---
-
-
-
 end
 
 return slot0

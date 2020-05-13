@@ -27,10 +27,10 @@ end
 
 function slot0.OnInit(slot0)
 	onButton(slot0, slot0.cancelBtn, function ()
-		slot0:Close()
+		uv0:Close()
 	end, SFX_PANEL)
 	onButton(slot0, slot0._tf, function ()
-		slot0:Close()
+		uv0:Close()
 	end, SFX_PANEL)
 end
 
@@ -49,17 +49,21 @@ function slot0.InitWindow(slot0, slot1, slot2)
 		count = slot1:getConfig("num")
 	}
 	slot4, slot5 = getPlayerOwn(slot1:getConfig("resource_category"), slot1:getConfig("resource_type"))
-	slot6 = math.max(math.floor(slot5 / slot1:getConfig("resource_num")), 1)
 
 	if slot1:getConfig("num_limit") ~= 0 then
-		slot6 = math.min(slot6, slot1:getConfig("num_limit") - slot1.buyCount)
+		slot6 = math.min(math.max(math.floor(slot5 / slot1:getConfig("resource_num")), 1), slot1:getConfig("num_limit") - slot1.buyCount)
 	end
 
-	slot7(1)
+	function (slot0)
+		slot0 = math.min(math.max(slot0, 1), uv0)
+		uv1.countTF.text = slot0
+		uv1.curCount = slot0
+		uv1.itemCountTF.text = slot0 * uv2:getConfig("num")
+	end(1)
 	updateDrop(slot0.topItem, slot3)
 	updateDrop(slot0.bottomItem, slot3)
 
-	slot12, slot12 = GetOwnedpropCount(slot3)
+	slot8, slot9 = GetOwnedpropCount(slot3)
 
 	setActive(slot0.ownerTF.parent, slot9)
 	setText(slot0.ownerTF, slot8)
@@ -69,20 +73,20 @@ function slot0.InitWindow(slot0, slot1, slot2)
 	slot0.descTF.text = slot3.desc
 
 	onButton(slot0, slot0.confirmBtn, function ()
-		if slot0 then
-			slot0(slot1, slot2.curCount, slot3.cfg.name)
+		if uv0 then
+			uv0(uv1, uv2.curCount, uv3.cfg.name)
 		end
 
-		slot2:Close()
+		uv2:Close()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.leftBtn, function ()
-		slot0(slot1.curCount - 1)
+		uv0(uv1.curCount - 1)
 	end)
 	onButton(slot0, slot0.rightBtn, function ()
-		slot0(slot1.curCount + 1)
+		uv0(uv1.curCount + 1)
 	end)
 	onButton(slot0, slot0.maxBtn, function ()
-		slot0(slot1)
+		uv0(uv1)
 	end)
 end
 

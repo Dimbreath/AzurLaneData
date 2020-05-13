@@ -45,7 +45,7 @@ end
 function slot0.OnFirstFlush(slot0)
 	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 	onButton(slot0, slot0.btnShop, function ()
-		slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SKINSHOP)
+		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SKINSHOP)
 	end, SFX_PANEL)
 	slot0:initBtn(slot0.btnList1)
 	slot0:initBtn(slot0.btnList2)
@@ -53,21 +53,21 @@ end
 
 function slot0.initBtn(slot0, slot1)
 	onButton(slot0, slot1[1], function ()
-		slot0:emit(ActivityMediator.GO_PRAY_POOL)
+		uv0:emit(ActivityMediator.GO_PRAY_POOL)
 	end, SFX_PANEL)
 	onButton(slot0, slot1[2], function ()
-		slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SUMMARY)
+		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SUMMARY)
 	end, SFX_PANEL)
 	onButton(slot0, slot1[3], function ()
-		slot0:emit(ActivityMediator.SELECT_ACTIVITY, ActivityConst.ACTIVITY_TYPE_RETURN_AWARD_ID)
+		uv0:emit(ActivityMediator.SELECT_ACTIVITY, ActivityConst.ACTIVITY_TYPE_RETURN_AWARD_ID)
 	end, SFX_PANEL)
 	onButton(slot0, slot1[5], function ()
-		slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.CHARGE, {
+		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.CHARGE, {
 			wrap = ChargeScene.TYPE_DIAMOND
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot1[8], function ()
-		slot0:emit(ActivityMediator.SELECT_ACTIVITY, ActivityConst.SKIN_U73)
+		uv0:emit(ActivityMediator.SELECT_ACTIVITY, ActivityConst.SKIN_U73)
 	end, SFX_PANEL)
 end
 

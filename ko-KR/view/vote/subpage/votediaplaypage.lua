@@ -45,15 +45,15 @@ function slot0.Open(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 
 	onInputEndEdit(slot0, go(slot0.valueInput), function ()
-		if tonumber(slot0) < 1 then
-			slot0.value = 1
-		elseif slot0.maxValue < slot1 then
-			slot0.value = math.max(1, slot0.maxValue)
+		if tonumber(getInputText(go(uv0.valueInput))) < 1 then
+			uv0.value = 1
+		elseif uv0.maxValue < slot1 then
+			uv0.value = math.max(1, uv0.maxValue)
 		else
-			slot0.value = slot1
+			uv0.value = slot1
 		end
 
-		slot0:UpdateCnt()
+		uv0:UpdateCnt()
 	end)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
@@ -73,38 +73,38 @@ function slot0.Update(slot0, slot1)
 
 	slot0:UpdateCnt()
 	onButton(slot0, slot0._tf, function ()
-		slot0:Close()
+		uv0:Close()
 	end)
 	onButton(slot0, slot0.addBtn, function ()
-		if slot0.maxValue <= slot0.value then
+		if uv0.maxValue <= uv0.value then
 			return
 		end
 
-		slot0.value = slot0.value + 1
+		uv0.value = uv0.value + 1
 
-		slot0:UpdateCnt()
+		uv0:UpdateCnt()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.miunsBtn, function ()
-		if slot0.value == 1 then
+		if uv0.value == 1 then
 			return
 		end
 
-		slot0.value = slot0.value - 1
+		uv0.value = uv0.value - 1
 
-		slot0:UpdateCnt()
+		uv0:UpdateCnt()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.maxBtn, function ()
-		if slot0.maxValue == 0 then
+		if uv0.maxValue == 0 then
 			return
 		end
 
-		slot0.value = slot0.maxValue
+		uv0.value = uv0.maxValue
 
-		slot0:UpdateCnt()
+		uv0:UpdateCnt()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.submitBtn, function ()
-		slot0.callback(slot0.value)
-		slot0.callback:Close()
+		uv0.callback(uv0.value)
+		uv0:Close()
 	end, SFX_PANEL)
 
 	slot0.paintingName = slot1:getPainting()

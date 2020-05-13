@@ -33,19 +33,23 @@ function slot0.init(slot0)
 end
 
 function slot0.didEnter(slot0)
-	onButton(slot0, slot0.backBtn, function ()
-		slot0:emit(slot1.ON_BACK)
-	end, SOUND_BACK)
+	function slot4()
+		uv0:emit(uv1.ON_BACK)
+	end
+
+	slot5 = SOUND_BACK
+
+	onButton(slot0, slot0.backBtn, slot4, slot5)
 
 	for slot4, slot5 in ipairs(slot0.toggles) do
 		onToggle(slot0, slot5, function (slot0)
 			if slot0 then
-				slot0:switchPage(slot0.switchPage)
+				uv0:switchPage(uv1)
 			end
 		end, SFX_PANEL)
 	end
 
-	triggerToggle(slot0.toggles[slot0.contextData.index or slot0.PAGE_ICONFRAME], true)
+	triggerToggle(slot0.toggles[slot0.contextData.index or uv0.PAGE_ICONFRAME], true)
 end
 
 function slot0.switchPage(slot0, slot1)
@@ -58,22 +62,20 @@ function slot0.switchPage(slot0, slot1)
 	slot0.page = slot1
 
 	slot0:updateCurrPage(function ()
-		slot0:ActionInvoke("Show")
+		uv0:ActionInvoke("Show")
 	end)
 end
 
 function slot0.updateCurrPage(slot0, slot1)
-	function slot3()
-		slot0:ActionInvoke("Update", slot1.rawAttireVOs, slot1.playerVO)
-
-		if "Update" then
-			slot2()
-		end
-	end
-
 	if not slot0.panels[slot0.page]:GetLoaded() then
 		slot2:Load()
-		slot2:AddLoadedCallback(slot3)
+		slot2:AddLoadedCallback(function ()
+			uv0:ActionInvoke("Update", uv1.rawAttireVOs, uv1.playerVO)
+
+			if uv2 then
+				uv2()
+			end
+		end)
 	else
 		slot3()
 	end

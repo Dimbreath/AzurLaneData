@@ -11,7 +11,7 @@ function slot0.Update(slot0, slot1)
 		return
 	end
 
-	slot0(slot0.OnUpdate(), nil, slot0, slot1)
+	uv0(slot0.OnUpdate(), nil, slot0, slot1)
 
 	if slot0.childs then
 		for slot5, slot6 in pairs(slot0.childs) do
@@ -41,7 +41,6 @@ function slot0.SetActive(slot0, slot1)
 end
 
 function slot0.OnUpdate(slot0, slot1)
-	return
 end
 
 return slot0

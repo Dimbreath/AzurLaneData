@@ -5,8 +5,8 @@ slot0.PAPER_TYPE_FLOOR = 2
 slot0.PAPER_TYPE_BASEWALL = 3
 
 function slot0.getFloorScale(slot0)
-	if not slot0.sizes then
-		slot0.sizes = {
+	if not uv0.sizes then
+		uv0.sizes = {
 			0.5,
 			0.67,
 			0.83,
@@ -14,7 +14,7 @@ function slot0.getFloorScale(slot0)
 		}
 	end
 
-	return slot0.sizes[slot0]
+	return uv0.sizes[slot0]
 end
 
 function slot0.Ctor(slot0, slot1, slot2)
@@ -35,19 +35,19 @@ function slot0.update(slot0, slot1, slot2)
 		slot0.isSpine = slot1:isSpine()
 
 		if slot0.isSpine then
-			slot7, slot8 = slot0.furniture:getSpineName()
+			slot3, slot4 = slot0.furniture:getSpineName()
 
 			slot0:loadSpine(slot3, slot4)
-		elseif slot0.type == slot0.PAPER_TYPE_BASEWALL then
+		elseif slot0.type == uv0.PAPER_TYPE_BASEWALL then
 			slot0:loadImage("base/wall_")
 		else
 			slot0:loadImage(slot1:getConfig("picture"))
 		end
-	elseif slot0.type == slot0.PAPER_TYPE_WALL then
+	elseif slot0.type == uv0.PAPER_TYPE_WALL then
 		slot0:loadImage("base/wall_")
-	elseif slot0.type == slot0.PAPER_TYPE_FLOOR then
+	elseif slot0.type == uv0.PAPER_TYPE_FLOOR then
 		slot0:loadImage("base/floor_4")
-	elseif slot0.type == slot0.PAPER_TYPE_BASEWALL then
+	elseif slot0.type == uv0.PAPER_TYPE_BASEWALL then
 		setActive(slot0._tf, false)
 	end
 end
@@ -57,7 +57,7 @@ function slot0.loadSpine(slot0, slot1, slot2)
 
 	slot3 = nil
 
-	if slot0.type == slot0.PAPER_TYPE_WALL then
+	if slot0.type == uv0.PAPER_TYPE_WALL then
 		slot1 = slot1 .. slot0.level
 
 		function slot3(slot0)
@@ -65,9 +65,9 @@ function slot0.loadSpine(slot0, slot1, slot2)
 
 			tf(slot0):SetSiblingIndex(2)
 		end
-	elseif slot0.type == slot0.PAPER_TYPE_FLOOR then
+	elseif slot0.type == uv0.PAPER_TYPE_FLOOR then
 		function slot3(slot0)
-			slot1 = slot0.getFloorScale(slot1.level)
+			slot1 = uv0.getFloorScale(uv1.level)
 			rtf(slot0).localScale = Vector3(slot1, slot1, slot1)
 			rtf(slot0).anchoredPosition3D = Vector3(0, -280, 0)
 
@@ -77,18 +77,16 @@ function slot0.loadSpine(slot0, slot1, slot2)
 
 	pg.UIMgr.GetInstance():LoadingOn()
 	LoadAndInstantiateAsync("sfurniture", slot1, function (slot0)
-		slot0.spineModel = slot0
+		uv0.spineModel = slot0
 		rtf(slot0).anchorMin = Vector2(0.5, 1)
 		rtf(slot0).anchorMax = Vector2(0.5, 1)
 		rtf(slot0).pivot = Vector2(0.5, 1)
 
-		SetParent(slot0, slot0.parent)
-		SetParent(slot0)
+		SetParent(slot0, uv0.parent)
+		uv1(slot0)
 
-		if slot0 then
-			slot2 = GetOrAddComponent(slot1, typeof(SpineAnimUI))
-
-			slot2:SetAction(slot2, 0)
+		if uv2 then
+			GetOrAddComponent(tf(uv0.spineModel):GetChild(0), typeof(SpineAnimUI)):SetAction(uv2, 0)
 		end
 
 		pg.UIMgr.GetInstance():LoadingOff()
@@ -96,13 +94,13 @@ function slot0.loadSpine(slot0, slot1, slot2)
 end
 
 function slot0.loadImage(slot0, slot1)
-	if slot0.type == slot0.PAPER_TYPE_FLOOR then
+	if slot0.type == uv0.PAPER_TYPE_FLOOR then
 		slot0.img.sprite = GetSpriteFromAtlas("furniture/" .. slot1, "")
 		rtf(go(slot0.img)).sizeDelta = Vector2(1877, 934)
-		slot2 = slot0.getFloorScale(slot0.level)
+		slot2 = uv0.getFloorScale(slot0.level)
 		slot0._tf.localScale = Vector3(slot2, slot2, slot2)
-	elseif slot0.type == slot0.PAPER_TYPE_WALL or slot0.type == slot0.PAPER_TYPE_BASEWALL then
-		slot0.img.sprite = GetSpriteFromAtlas("furniture/" .. slot1, "")
+	elseif slot0.type == uv0.PAPER_TYPE_WALL or slot0.type == uv0.PAPER_TYPE_BASEWALL then
+		slot0.img.sprite = GetSpriteFromAtlas("furniture/" .. (slot1 .. slot0.level), "")
 
 		slot0.img:SetNativeSize()
 	end

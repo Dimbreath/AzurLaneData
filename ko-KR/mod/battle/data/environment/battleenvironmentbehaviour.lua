@@ -1,7 +1,9 @@
 ys = ys or {}
-slot2 = ys.Battle.BattleConfig
+slot0 = ys
+slot1 = slot0.Battle.BattleConst
+slot2 = slot0.Battle.BattleConfig
 slot3 = class("BattleEnvironmentBehaviour")
-ys.Battle.BattleEnvironmentBehaviour = slot3
+slot0.Battle.BattleEnvironmentBehaviour = slot3
 slot3.__name = "BattleEnvironmentBehaviour"
 slot3.STATE_READY = "STATE_READY"
 slot3.STATE_OVERHEAT = "STATE_OVERHEAT"
@@ -16,7 +18,7 @@ end
 
 function slot3.SetTemplate(slot0, slot1)
 	slot0._tmpData = slot1
-	slot0._state = slot0.STATE_READY
+	slot0._state = uv0.STATE_READY
 end
 
 function slot3.UpdateCollideUnitList(slot0, slot1)
@@ -26,7 +28,7 @@ end
 function slot3.OnUpdate(slot0)
 	slot0:UpdateReload()
 
-	if slot0._state == slot0.STATE_READY then
+	if slot0._state == uv0.STATE_READY then
 		slot0:doBehaviour()
 	end
 end
@@ -38,7 +40,6 @@ function slot3.Dispose(slot0)
 end
 
 function slot3.OnCollide(slot0, slot1)
-	return
 end
 
 function slot3.GetCurrentState(slot0)
@@ -60,28 +61,26 @@ function slot3.getReloadFinishTimeStamp(slot0)
 end
 
 function slot3.handleCoolDown(slot0)
-	slot0._state = slot0.STATE_READY
+	slot0._state = uv0.STATE_READY
 end
 
 function slot3.doBehaviour(slot0)
 	if slot0._tmpData.reload_time then
 		slot0._CDstartTime = pg.TimeMgr.GetInstance():GetCombatTime()
-		slot0._state = slot0.STATE_OVERHEAT
+		slot0._state = uv0.STATE_OVERHEAT
 	end
 end
 
 slot3.BehaviourClassEnum = {
-	[ys.Battle.BattleConst.EnviroumentBehaviour.PLAY_FX] = "BattleEnvironmentBehaviourPlayFX",
-	[ys.Battle.BattleConst.EnviroumentBehaviour.DAMAGE] = "BattleEnvironmentBehaviourDamage",
-	[ys.Battle.BattleConst.EnviroumentBehaviour.BUFF] = "BattleEnvironmentBehaviourBuff",
-	[ys.Battle.BattleConst.EnviroumentBehaviour.MOVEMENT] = "BattleEnvironmentBehaviourMovement",
-	[ys.Battle.BattleConst.EnviroumentBehaviour.FORCE] = "BattleEnvironmentBehaviourForce",
-	[ys.Battle.BattleConst.EnviroumentBehaviour.SPAWN] = "BattleEnvironmentBehaviourSpawn",
-	[ys.Battle.BattleConst.EnviroumentBehaviour.PLAY_SFX] = "BattleEnvironmentBehaviourPlaySFX"
+	[slot1.EnviroumentBehaviour.PLAY_FX] = "BattleEnvironmentBehaviourPlayFX",
+	[slot1.EnviroumentBehaviour.DAMAGE] = "BattleEnvironmentBehaviourDamage",
+	[slot1.EnviroumentBehaviour.BUFF] = "BattleEnvironmentBehaviourBuff",
+	[slot1.EnviroumentBehaviour.MOVEMENT] = "BattleEnvironmentBehaviourMovement",
+	[slot1.EnviroumentBehaviour.FORCE] = "BattleEnvironmentBehaviourForce",
+	[slot1.EnviroumentBehaviour.SPAWN] = "BattleEnvironmentBehaviourSpawn",
+	[slot1.EnviroumentBehaviour.PLAY_SFX] = "BattleEnvironmentBehaviourPlaySFX"
 }
 
 function slot3.CreateBehaviour(slot0)
-	return slot0.Battle[slot1.BehaviourClassEnum[slot0.type]].New()
+	return uv0.Battle[uv1.BehaviourClassEnum[slot0.type]].New()
 end
-
-return

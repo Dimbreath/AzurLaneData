@@ -12,33 +12,30 @@ end
 function slot0.OnFirstFlush(slot0)
 	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 
-	slot2 = {}
-	slot3 = ipairs
-	slot4 = slot0.activity:getData1List() or {}
-
-	for slot6, slot7 in slot3(slot4) do
-		table.insert(slot2, slot7 - 59800)
+	for slot6, slot7 in ipairs(slot0.activity:getData1List() or {}) do
+		table.insert({}, slot7 - 59800)
 	end
 
 	slot3 = {}
 
 	if slot0.activity:left4Day() then
-		for slot7 = 1, slot0.total, 1 do
+		for slot7 = 1, slot0.total do
 			table.insert(slot3, pg.gametip["activity_puzzle_get" .. slot7].tip)
 		end
 	end
 
 	onButton(slot0, slot0.GOBtn, function ()
-		if not slot0:getTasks():getActivityById(ActivityConst.TEATIME_TW) or slot1:isEnd() then
+		slot0 = uv0:getTasks()
+
+		if not uv1:getActivityById(ActivityConst.TEATIME_TW) or slot1:isEnd() then
 			return
 		end
 
-		slot2 = slot1:getConfig("config_data")
 		slot3 = false
 
 		for slot7, slot8 in pairs(slot0) do
-			if _.any(_.flatten(slot2), function (slot0)
-				return slot0 == slot0.id
+			if _.any(_.flatten(slot1:getConfig("config_data")), function (slot0)
+				return slot0 == uv0.id
 			end) then
 				slot3 = true
 
@@ -47,17 +44,18 @@ function slot0.OnFirstFlush(slot0)
 		end
 
 		if slot3 then
-			slot2:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.TASK, {
+			uv2:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.TASK, {
 				page = "activity"
 			})
 		else
-			slot2:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.NAVALACADEMYSCENE)
+			uv2:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.NAVALACADEMYSCENE)
 		end
 	end, SFX_PANEL)
 
-	slot6 = getProxy(TaskProxy).getTasks(slot4)
+	slot6 = getProxy(TaskProxy):getTasks()
+	slot8 = getProxy(ActivityProxy):getActivityById(ActivityConst.TEATIME_TW):isEnd()
 
-	setActive(slot0.GOBtn, not getProxy(ActivityProxy).getActivityById(slot5, ActivityConst.TEATIME_TW).isEnd(slot7))
+	setActive(slot0.GOBtn, not slot8)
 	setActive(slot0.got, slot8)
 
 	slot0.Text.text = "<color=#A9F548FF>" .. #slot2 .. "</color>/" .. slot0.total
@@ -70,10 +68,10 @@ function slot0.OnFirstFlush(slot0)
 	}, nil)
 
 	function slot0.puzzlaView.onFinish()
-		if slot0.activity.data1 ~= 1 then
-			slot0:emit(ActivityMediator.EVENT_OPERATION, {
+		if uv0.activity.data1 ~= 1 then
+			uv0:emit(ActivityMediator.EVENT_OPERATION, {
 				cmd = 1,
-				activity_id = slot0.activity.id
+				activity_id = uv0.activity.id
 			})
 		end
 	end

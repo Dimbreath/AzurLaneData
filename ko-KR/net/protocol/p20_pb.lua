@@ -1,4 +1,5 @@
 slot0 = require("protobuf")
+slot1 = require("common_pb")
 
 module("p20_pb")
 
@@ -209,7 +210,7 @@ slot13.index = 1
 slot13.label = 3
 slot13.has_default_value = false
 slot13.default_value = {}
-slot13.message_type = require("common_pb").DROPINFO
+slot13.message_type = slot1.DROPINFO
 slot13.type = 11
 slot13.cpp_type = 10
 CS_20005.name = "cs_20005"
@@ -238,7 +239,7 @@ slot15.index = 1
 slot15.label = 3
 slot15.has_default_value = false
 slot15.default_value = {}
-slot15.message_type = require("common_pb").DROPINFO
+slot15.message_type = slot1.DROPINFO
 slot15.type = 11
 slot15.cpp_type = 10
 SC_20006.name = "sc_20006"
@@ -435,5 +436,3 @@ task_add = slot0.Message(TASK_ADD)
 task_info = slot0.Message(TASK_INFO)
 task_progress = slot0.Message(TASK_PROGRESS)
 task_update = slot0.Message(TASK_UPDATE)
-
-return

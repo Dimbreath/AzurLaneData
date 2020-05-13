@@ -9,7 +9,7 @@ function slot0.OnInit(slot0)
 	slot0.animEvent = slot0._go:GetComponent(typeof(DftAniEvent))
 
 	slot0.animEvent:SetEndEvent(function ()
-		slot0:Hide()
+		uv0:Hide()
 	end)
 end
 

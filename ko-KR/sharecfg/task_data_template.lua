@@ -94959,5 +94959,3 @@ pg.task_data_template = {
 		1000030
 	}
 }
-
-return

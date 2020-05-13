@@ -7,16 +7,16 @@ end
 function slot0.Load(slot0)
 	print("调用Load")
 
-	if slot0._state ~= slot0.STATES.NONE then
+	if slot0._state ~= uv0.STATES.NONE then
 		return
 	end
 
-	slot0._state = slot0.STATES.LOADING
+	slot0._state = uv0.STATES.LOADING
 
 	pg.UIMgr.GetInstance():LoadingOn()
 	PoolMgr.GetInstance():GetUI(slot0:GetUIName(), false, function (slot0)
-		slot0:Loaded(slot0)
-		slot0:Init()
+		uv0:Loaded(slot0)
+		uv0:Init()
 	end)
 end
 

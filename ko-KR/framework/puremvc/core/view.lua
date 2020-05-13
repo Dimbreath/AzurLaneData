@@ -2,12 +2,12 @@ slot0 = import("..patterns.observer.Observer")
 slot1 = class("View")
 
 function slot1.Ctor(slot0, slot1)
-	if slot0.instanceMap[slot1] ~= nil then
-		error(slot0.MULTITON_MSG)
+	if uv0.instanceMap[slot1] ~= nil then
+		error(uv0.MULTITON_MSG)
 	end
 
 	slot0.multitonKey = slot1
-	slot0.instanceMap[slot0.multitonKey] = slot0
+	uv0.instanceMap[slot0.multitonKey] = slot0
 	slot0.mediatorMap = {}
 	slot0.observerMap = {}
 
@@ -15,7 +15,6 @@ function slot1.Ctor(slot0, slot1)
 end
 
 function slot1.initializeView(slot0)
-	return
 end
 
 function slot1.getInstance(slot0)
@@ -23,10 +22,10 @@ function slot1.getInstance(slot0)
 		return nil
 	end
 
-	if slot0.instanceMap[slot0] == nil then
-		return slot0:New()
+	if uv0.instanceMap[slot0] == nil then
+		return uv0.New(slot0)
 	else
-		return slot0.instanceMap[slot0]
+		return uv0.instanceMap[slot0]
 	end
 end
 
@@ -49,7 +48,7 @@ function slot1.notifyObservers(slot0, slot1)
 end
 
 function slot1.removeObserver(slot0, slot1, slot2)
-	for slot7, slot8 in pairs(slot3) do
+	for slot7, slot8 in pairs(slot0.observerMap[slot1]) do
 		if slot8:compareNotifyContext(slot2) then
 			table.remove(slot3, slot7)
 
@@ -72,10 +71,8 @@ function slot1.registerMediator(slot0, slot1)
 	slot0.mediatorMap[slot1:getMediatorName()] = slot1
 
 	if #slot1:listNotificationInterests() > 0 then
-		slot3 = slot0.New(slot1.handleNotification, slot1)
-
 		for slot7, slot8 in pairs(slot2) do
-			slot0:registerObserver(slot8, slot3)
+			slot0:registerObserver(slot8, uv0.New(slot1.handleNotification, slot1))
 		end
 	end
 
@@ -88,7 +85,7 @@ end
 
 function slot1.removeMediator(slot0, slot1)
 	if slot0.mediatorMap[slot1] ~= nil then
-		for slot7, slot8 in pairs(slot3) do
+		for slot7, slot8 in pairs(slot2:listNotificationInterests()) do
 			slot0:removeObserver(slot8, slot2)
 		end
 
@@ -105,7 +102,7 @@ function slot1.hasMediator(slot0, slot1)
 end
 
 function slot1.removeView(slot0)
-	slot0.instanceMap[slot0] = nil
+	uv0.instanceMap[slot0] = nil
 end
 
 slot1.instanceMap = {}

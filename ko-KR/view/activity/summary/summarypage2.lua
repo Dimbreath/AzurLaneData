@@ -1,11 +1,11 @@
 slot0 = class("SummaryPage2", import(".SummaryAnimationPage"))
 
 function slot0.OnInit(slot0)
-	setText(slot1, slot0.summaryInfoVO.firstProposeName)
+	setText(findTF(slot0._go, "name/Text"), slot0.summaryInfoVO.firstProposeName)
 
 	slot0.textTFs = {}
 
-	for slot6 = 1, findTF(slot0._go, "texts").childCount, 1 do
+	for slot6 = 1, findTF(slot0._go, "texts").childCount do
 		if go(slot2:GetChild(slot6 - 1)).name ~= "label" then
 			setText(slot7:Find("Text"), slot0.summaryInfoVO[slot8])
 		end
@@ -13,13 +13,14 @@ function slot0.OnInit(slot0)
 		table.insert(slot0.textTFs, slot7)
 	end
 
-	setText(slot3, slot0.summaryInfoVO.firstLadyTime)
-	setPaintingPrefabAsync(slot5, slot6, "chuanwu")
+	setText(findTF(slot0._go, "name/date"), slot0.summaryInfoVO.firstLadyTime)
+	setPaintingPrefabAsync(findTF(slot0._go, "painting"):Find("mask/painting"), Ship.New({
+		configId = slot0.summaryInfoVO.firstLadyId
+	}):getPainting(), "chuanwu")
 	setActive(slot0._go, false)
 end
 
 function slot0.Clear(slot0)
-	return
 end
 
 return slot0

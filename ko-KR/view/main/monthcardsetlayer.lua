@@ -10,7 +10,7 @@ function slot0.setPlayer(slot0, slot1)
 end
 
 function slot0.setRatio(slot0, slot1)
-	slot0.ratio = math.clamp(slot1, 0, slot0.PIECES)
+	slot0.ratio = math.clamp(slot1, 0, uv0.PIECES)
 end
 
 function slot0.init(slot0)
@@ -26,17 +26,17 @@ end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0._tf, function ()
-		slot0:emit(slot1.ON_CLOSE)
+		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.cancel, function ()
-		slot0:emit(slot1.ON_CLOSE)
+		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.confirm, function ()
-		slot0:emit(MonthCardSetMediator.ON_SET_RATIO, slot0.ratio)
+		uv0:emit(MonthCardSetMediator.ON_SET_RATIO, uv0.ratio)
 	end, SFX_CANCEL)
 	onSlider(slot0, slot0.slider, function (slot0)
-		slot0:setRatio(slot0)
-		slot0:updateRatioView()
+		uv0:setRatio(slot0)
+		uv0:updateRatioView()
 	end)
 	slot0:updateView()
 	slot0:updateRatioView()
@@ -44,14 +44,14 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.updateView(slot0)
-	setText(slot0.name, string.format("贸易许可证（剩余%s天）", math.floor((slot0.player:getCardById(VipCard.MONTH).getLeftDate(slot1) - pg.TimeMgr.GetInstance():GetServerTime()) / 86400)))
+	setText(slot0.name, string.format("贸易许可证（剩余%s天）", math.floor((slot0.player:getCardById(VipCard.MONTH):getLeftDate() - pg.TimeMgr.GetInstance():GetServerTime()) / 86400)))
 	setText(slot0.rate, "1 : 5")
 end
 
 function slot0.updateRatioView(slot0)
-	setSlider(slot0.slider, 0, slot0.PIECES, slot0.ratio)
-	setText(slot0.oil, (400 * slot0.ratio) / slot0.PIECES)
-	setText(slot0.gold, (2000 * (slot0.PIECES - slot0.ratio)) / slot0.PIECES)
+	setSlider(slot0.slider, 0, uv0.PIECES, slot0.ratio)
+	setText(slot0.oil, 400 * slot0.ratio / uv0.PIECES)
+	setText(slot0.gold, 2000 * (uv0.PIECES - slot0.ratio) / uv0.PIECES)
 end
 
 function slot0.willExit(slot0)

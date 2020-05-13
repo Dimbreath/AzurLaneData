@@ -10,17 +10,17 @@ function slot0.register(slot0)
 	slot0.contextData.type = slot0.contextData.type or BackYardShipInfoLayer.SHIP_TRAIN_TYPE
 	slot0.dormProxy = getProxy(DormProxy)
 
-	slot0:bind(slot0.EXTEND, function (slot0, slot1, slot2)
-		slot0:sendNotification(GAME.SHOPPING, {
+	slot0:bind(uv0.EXTEND, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.SHOPPING, {
 			id = slot1,
 			count = slot2
 		})
 	end)
-	slot0:bind(slot0.OPEN_CHUANWU, function (slot0, slot1, slot2, slot3)
-		slot0:onSelecte(slot1, slot2, slot3)
+	slot0:bind(uv0.OPEN_CHUANWU, function (slot0, slot1, slot2, slot3)
+		uv0:onSelecte(slot1, slot2, slot3)
 	end)
-	slot0:bind(slot0.OPEN_NOFOOD, function (slot0)
-		slot0:sendNotification(BackYardMediator.OPEN_NOFOOD)
+	slot0:bind(uv0.OPEN_NOFOOD, function (slot0)
+		uv0:sendNotification(BackYardMediator.OPEN_NOFOOD)
 	end)
 
 	slot0.playerProxy = getProxy(PlayerProxy)
@@ -33,10 +33,13 @@ function slot0.register(slot0)
 	slot1 = getProxy(BayProxy)
 	slot2 = getProxy(NavalAcademyProxy)
 
-	slot0.viewComponent:setResClassVO(slot3)
-	_.each(slot2:getCourse().students, function (slot0)
-		if slot0:getShipById(slot0) then
-			slot1[slot1.id] = slot1
+	slot0.viewComponent:setResClassVO(slot2:GetClassVO())
+
+	slot4 = slot2:getCourse()
+
+	_.each(slot4.students, function (slot0)
+		if uv0:getShipById(slot0) then
+			uv1[slot1.id] = slot1
 		end
 	end)
 	slot0.viewComponent:setCourseVO(slot4)
@@ -47,7 +50,7 @@ function slot0.onSelecte(slot0, slot1, slot2, slot3)
 	slot4 = 0
 
 	if slot1 == BackYardShipInfoLayer.SHIP_TRAIN_TYPE or slot1 == BackYardShipInfoLayer.SHIP_REST_TYPE then
-		slot4 = getBackYardProxy(BackYardHouseProxy).getData(slot5):getEmptyGridCount()
+		slot4 = getBackYardProxy(BackYardHouseProxy):getData():getEmptyGridCount()
 	end
 
 	slot5 = false
@@ -58,16 +61,13 @@ function slot0.onSelecte(slot0, slot1, slot2, slot3)
 		slot6 = slot3.id
 	end
 
-	slot8 = slot0.dormProxy:getTrainShipIds()
-	slot9 = slot0.dormProxy:getRestShipIds()
-	slot11 = getProxy(NavalAcademyProxy).getCourse(slot10).students
-	slot12 = getProxy(BayProxy)
+	slot11 = getProxy(NavalAcademyProxy):getCourse().students
 	slot13, slot14, slot15, slot16 = nil
 
 	if slot1 == BackYardShipInfoLayer.SHIP_TRAIN_TYPE then
-		slot14 = slot8
-		slot15 = slot9
-		slot13 = slot12:GetBlackBlockShipIDsForBackYard()
+		slot14 = slot0.dormProxy:getTrainShipIds()
+		slot15 = slot0.dormProxy:getRestShipIds()
+		slot13 = getProxy(BayProxy):GetBlackBlockShipIDsForBackYard()
 	elseif slot1 == BackYardShipInfoLayer.SHIP_REST_TYPE then
 		slot14 = slot9
 		slot15 = slot8
@@ -77,174 +77,26 @@ function slot0.onSelecte(slot0, slot1, slot2, slot3)
 		slot5 = false
 		slot7 = 0
 		slot14 = slot11
-		slot19 = slot10:getCourse().getConfig(slot18, "type")
-		slot16 = _.filter(_.values(slot17), function (slot0)
-			return slot0.level < pg.gameset.level_get_proficency.key_value and table.contains(slot0, slot0:getShipType())
+		slot19 = slot10:getCourse():getConfig("type")
+		slot16 = _.filter(_.values(slot12:getData()), function (slot0)
+			return slot0.level < pg.gameset.level_get_proficency.key_value and table.contains(uv0, slot0:getShipType())
 		end)
 		slot13 = slot12:GetBlackBlockShipIDsForClass()
 	end
 
-	slot17 = {}
-
 	for slot21, slot22 in pairs(slot14) do
 		if slot22 ~= slot6 then
-			table.insert(slot17, slot22)
+			table.insert({}, slot22)
 		end
 	end
 
-	slot18 = {}
-
-	for slot23, slot24 in pairs(slot19) do
+	for slot23, slot24 in pairs(slot12:getRawData()) do
 		if slot24:isActivityNpc() then
-			table.insert(slot18, slot24.id)
+			table.insert({}, slot24.id)
 		end
 	end
-
-	slot20 = {
-		callbackQuit = true,
-		activeShipId = slot6,
-		selectedMin = slot7,
-		selectedMax = slot2,
-		quitTeam = slot5,
-		shipVOs = slot16,
-		blackBlockShipIds = slot13,
-		ignoredIds = slot18,
-		selectedIds = slot17,
-		preView = slot0.viewComponent.__cname,
-		flags = {
-			inExercise = true,
-			inChapter = false,
-			inPvp = false,
-			inFleet = false,
-			inClass = true,
-			inTactics = false,
-			inBackyard = true,
-			inSham = false,
-			inEvent = false,
-			inAdmiral = true
-		},
-		onShip = function (slot0, slot1, slot2)
-			slot3 = "inBackyard"
-			slot4 = nil
-
-			if slot0 == BackYardShipInfoLayer.SHIP_TRAIN_TYPE or slot0 == BackYardShipInfoLayer.SHIP_REST_TYPE then
-				if slot1 < #slot2 + 1 then
-					return false, i18n("backyard_no_pos_for_ship")
-				end
-
-				if table.contains(slot2, slot0.id) then
-					return false, i18n("backyard_backyardShipInfoMediator_shipState_rest")
-				end
-			elseif slot0 == BackYardShipInfoLayer.SHIP_CLASS_TYPE then
-				if slot0:getEnergy() <= AcademyCourse.MinEnergy then
-					return false, i18n("course_energy_not_enough", slot0:getName())
-				end
-
-				if slot0.inBackyard then
-					function slot4(slot0)
-						pg.MsgboxMgr.GetInstance():ShowMsgBox({
-							hideNo = true,
-							content = i18n("exit_backyard_exp_display", slot0:getName(), slot0)
-						})
-
-						slot1 = nil
-					end
-				end
-
-				slot3 = "inClass"
-			end
-
-			slot5, slot6 = Ship.ShipStateConflict(slot3, slot0)
-
-			if slot5 == Ship.STATE_CHANGE_FAIL then
-				return false, i18n(slot6)
-			elseif slot5 == Ship.STATE_CHANGE_CHECK then
-				return Ship.ChangeStateCheckBox(slot6, slot0, function (slot0)
-					if slot0 then
-						slot0(slot0)
-					end
-
-					slot1()
-				end)
-			end
-
-			return true
-		end,
-		onSelected = function (slot0, slot1)
-			if slot0 == BackYardShipInfoLayer.SHIP_CLASS_TYPE then
-				slot1:getCourse().students = slot0
-
-				slot1:setCourse(slot1.getCourse())
-				slot1()
-
-				return
-			end
-
-			pg.UIMgr.GetInstance():LoadingOn()
-
-			if slot0 == nil or #slot0 == 0 then
-				slot2:sendNotification(GAME.EXIT_SHIP, {
-					shipId = slot2,
-					callback = slot1
-				})
-				pg.UIMgr.GetInstance():LoadingOff()
-
-				return
-			end
-
-			slot2 = {}
-
-			for slot6, slot7 in ipairs(slot4) do
-				if not table.contains(slot0, slot7) then
-					table.insert(slot2, function (slot0)
-						slot0:sendNotification(GAME.EXIT_SHIP, {
-							shipId = slot0.sendNotification,
-							callback = slot0
-						})
-					end)
-				end
-			end
-
-			slot2.contextData.shipIdToAdd = {}
-
-			for slot6, slot7 in ipairs(slot0) do
-				if not table.contains(slot5, slot7) and slot3 ~= slot7 then
-					table.insert(slot2.contextData.shipIdToAdd, {
-						slot7,
-						slot0
-					})
-				end
-			end
-
-			if slot2.contextData.shipIdToAdd and table.getCount(slot2.contextData.shipIdToAdd) > 0 then
-				for slot6, slot7 in ipairs(slot2.contextData.shipIdToAdd) do
-					table.insert(slot2, function (slot0)
-						slot0:sendNotification(GAME.ADD_SHIP, {
-							id = slot1[1],
-							type = slot1[2],
-							callBack = slot0
-						})
-					end)
-				end
-			end
-
-			if #slot2 > 0 then
-				seriesAsync(slot2, function ()
-					slot0.contextData.shipIdToAdd = nil
-
-					slot1()
-					pg.UIMgr.GetInstance():LoadingOff()
-				end)
-			else
-				pg.UIMgr.GetInstance():LoadingOff()
-				slot1()
-			end
-		end
-	}
 
 	if slot1 == BackYardShipInfoLayer.SHIP_TRAIN_TYPE or slot1 == BackYardShipInfoLayer.SHIP_REST_TYPE then
-		slot20.priorEquipUpShipIDList = {}
-
 		for slot24, slot25 in pairs(slot0.viewComponent.trainShipVOs) do
 			table.insert(slot20.priorEquipUpShipIDList, slot24)
 		end
@@ -253,12 +105,151 @@ function slot0.onSelecte(slot0, slot1, slot2, slot3)
 			table.insert(slot20.priorEquipUpShipIDList, slot24)
 		end
 
-		slot20.isLayer = true
-
 		slot0:addSubLayers(Context.New({
 			viewComponent = DockyardScene,
 			mediator = DockyardMediator,
-			data = slot20
+			data = {
+				callbackQuit = true,
+				activeShipId = slot6,
+				selectedMin = slot7,
+				selectedMax = slot2,
+				quitTeam = slot5,
+				shipVOs = slot16,
+				blackBlockShipIds = slot13,
+				ignoredIds = slot18,
+				selectedIds = slot17,
+				preView = slot0.viewComponent.__cname,
+				flags = {
+					inExercise = true,
+					inChapter = false,
+					inPvp = false,
+					inFleet = false,
+					inClass = true,
+					inTactics = false,
+					inBackyard = true,
+					inSham = false,
+					inEvent = false,
+					inAdmiral = true
+				},
+				onShip = function (slot0, slot1, slot2)
+					slot3 = "inBackyard"
+					slot4 = nil
+
+					if uv0 == BackYardShipInfoLayer.SHIP_TRAIN_TYPE or uv0 == BackYardShipInfoLayer.SHIP_REST_TYPE then
+						if uv1 < #slot2 + 1 then
+							return false, i18n("backyard_no_pos_for_ship")
+						end
+
+						if table.contains(uv2, slot0.id) then
+							return false, i18n("backyard_backyardShipInfoMediator_shipState_rest")
+						end
+					elseif uv0 == BackYardShipInfoLayer.SHIP_CLASS_TYPE then
+						if slot0:getEnergy() <= AcademyCourse.MinEnergy then
+							return false, i18n("course_energy_not_enough", slot0:getName())
+						end
+
+						if slot0.inBackyard then
+							function slot4(slot0)
+								pg.MsgboxMgr.GetInstance():ShowMsgBox({
+									hideNo = true,
+									content = i18n("exit_backyard_exp_display", uv0:getName(), slot0)
+								})
+
+								uv1 = nil
+							end
+						end
+
+						slot3 = "inClass"
+					end
+
+					slot5, slot6 = Ship.ShipStateConflict(slot3, slot0)
+
+					if slot5 == Ship.STATE_CHANGE_FAIL then
+						return false, i18n(slot6)
+					elseif slot5 == Ship.STATE_CHANGE_CHECK then
+						return Ship.ChangeStateCheckBox(slot6, slot0, function (slot0)
+							if uv0 then
+								uv0(slot0)
+							end
+
+							uv1()
+						end)
+					end
+
+					return true
+				end,
+				onSelected = function (slot0, slot1)
+					if uv0 == BackYardShipInfoLayer.SHIP_CLASS_TYPE then
+						slot2 = uv1:getCourse()
+						slot2.students = slot0
+
+						uv1:setCourse(slot2)
+						slot1()
+
+						return
+					end
+
+					pg.UIMgr.GetInstance():LoadingOn()
+
+					if slot0 == nil or #slot0 == 0 then
+						uv2:sendNotification(GAME.EXIT_SHIP, {
+							shipId = uv3,
+							callback = slot1
+						})
+						pg.UIMgr.GetInstance():LoadingOff()
+
+						return
+					end
+
+					for slot6, slot7 in ipairs(uv4) do
+						if not table.contains(slot0, slot7) then
+							table.insert({}, function (slot0)
+								uv0:sendNotification(GAME.EXIT_SHIP, {
+									shipId = uv1,
+									callback = slot0
+								})
+							end)
+						end
+					end
+
+					uv2.contextData.shipIdToAdd = {}
+
+					for slot6, slot7 in ipairs(slot0) do
+						if not table.contains(uv5, slot7) and uv3 ~= slot7 then
+							table.insert(uv2.contextData.shipIdToAdd, {
+								slot7,
+								uv0
+							})
+						end
+					end
+
+					if uv2.contextData.shipIdToAdd and table.getCount(uv2.contextData.shipIdToAdd) > 0 then
+						for slot6, slot7 in ipairs(uv2.contextData.shipIdToAdd) do
+							table.insert(slot2, function (slot0)
+								uv0:sendNotification(GAME.ADD_SHIP, {
+									id = uv1[1],
+									type = uv1[2],
+									callBack = slot0
+								})
+							end)
+						end
+					end
+
+					if #slot2 > 0 then
+						seriesAsync(slot2, function ()
+							uv0.contextData.shipIdToAdd = nil
+
+							uv1()
+							pg.UIMgr.GetInstance():LoadingOff()
+						end)
+					else
+						pg.UIMgr.GetInstance():LoadingOff()
+						slot1()
+					end
+				end,
+				priorEquipUpShipIDList = {},
+				isLayer = true
+			}
 		}))
 		slot0.viewComponent:EnableUI(false)
 	else

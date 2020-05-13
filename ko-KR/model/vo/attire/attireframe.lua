@@ -4,12 +4,10 @@ slot0.STATE_UNLOCKABLE = 2
 slot0.STATE_UNLOCK = 3
 
 function slot0.attireFrameRes(slot0, slot1, slot2, slot3)
-	slot4 = slot0.attireInfo[slot2]
-
-	if slot2 == AttireConst.TYPE_ICON_FRAME and slot4 == 0 and slot3 then
+	if slot2 == AttireConst.TYPE_ICON_FRAME and slot0.attireInfo[slot2] == 0 and slot3 then
 		return "propose"
 	elseif slot2 == AttireConst.TYPE_CHAT_FRAME then
-		return (slot1 and slot4 .. "_self") or slot4 .. "_other"
+		return slot1 and slot4 .. "_self" or slot4 .. "_other"
 	else
 		return slot4
 	end
@@ -36,12 +34,12 @@ function slot0.updateData(slot0, slot1)
 end
 
 function slot0.getState(slot0)
-	slot1 = slot0.STATE_LOCK
+	slot1 = uv0.STATE_LOCK
 
 	if slot0:isOwned() then
-		slot1 = slot0.STATE_UNLOCK
+		slot1 = uv0.STATE_UNLOCK
 	elseif not slot2 and slot0:canUnlock() then
-		slot1 = slot0.STATE_UNLOCKABLE
+		slot1 = uv0.STATE_UNLOCKABLE
 	end
 
 	return slot1
@@ -74,19 +72,16 @@ function slot0.expiredType(slot0)
 end
 
 function slot0.getTimerKey(slot0)
-	return slot1 .. "_" .. slot0.id
+	return slot0:getType() .. "_" .. slot0.id
 end
 
 function slot0.getType(slot0)
-	return
 end
 
 function slot0.bindConfigTable(slot0)
-	return
 end
 
 function slot0.getDropType(slot0)
-	return
 end
 
 return slot0

@@ -93,5 +93,3 @@ pg.voice_bgm = {
 		bgm = "backyard"
 	}
 }
-
-return

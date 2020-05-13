@@ -2296,5 +2296,3 @@ sc_13502 = slot0.Message(SC_13502)
 sc_13504 = slot0.Message(SC_13504)
 shipinchapter = slot0.Message(SHIPINCHAPTER)
 strategyinfo = slot0.Message(STRATEGYINFO)
-
-return

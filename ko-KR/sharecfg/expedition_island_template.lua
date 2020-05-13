@@ -155,5 +155,3 @@ pg.expedition_island_template = {
 		19
 	}
 }
-
-return

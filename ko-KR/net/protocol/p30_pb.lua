@@ -553,5 +553,3 @@ sc_30007 = slot0.Message(SC_30007)
 sc_30009 = slot0.Message(SC_30009)
 sc_30011 = slot0.Message(SC_30011)
 sc_30102 = slot0.Message(SC_30102)
-
-return

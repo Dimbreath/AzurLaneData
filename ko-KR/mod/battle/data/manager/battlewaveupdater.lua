@@ -1,13 +1,14 @@
 ys = ys or {}
-slot1 = ys.Battle.BattleConst.WaveTriggerType
+slot0 = ys
+slot1 = slot0.Battle.BattleConst.WaveTriggerType
 slot2 = class("BattleWaveUpdater")
-ys.Battle.BattleWaveUpdater = slot2
+slot0.Battle.BattleWaveUpdater = slot2
 slot2.__name = "BattleWaveUpdater"
 slot2.PREWAVES_CONDITION_AND = 0
 slot2.PREWAVES_CONDITION_OR = 1
 
 function slot2.Ctor(slot0, slot1, slot2, slot3, slot4)
-	slot0.EventListener.AttachEventListener(slot0)
+	uv0.EventListener.AttachEventListener(slot0)
 
 	slot0._spawnFunc = slot1
 	slot0._airFighterFunc = slot2
@@ -34,32 +35,32 @@ function slot2.SetWavesData(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1.waves) do
 		slot8 = nil
 
-		if slot6.triggerType == slot0.NORMAL then
-			slot1.Battle.BattleSpawnWave.New():SetCallback(slot0._spawnFunc, slot0._airFighterFunc)
-		elseif slot7 == slot0.TIMER then
-			slot8 = slot1.Battle.BattleDelayWave.New()
-		elseif slot7 == slot0.RANGE then
-			slot1.Battle.BattleRangeWave.New():SetCallback(slot0._spawnAreaFunc)
-		elseif slot7 == slot0.STORY then
-			slot8 = slot1.Battle.BattleStoryWave.New()
-		elseif slot7 == slot0.AID then
-			slot8 = slot1.Battle.BattleAidWave.New()
-		elseif slot7 == slot0.BGM then
-			slot8 = slot1.Battle.BattleSwitchBGMWave.New()
-		elseif slot7 == slot0.GUIDE then
-			slot8 = slot1.Battle.BattleGuideWave.New()
-		elseif slot7 == slot0.CAMERA then
-			slot8 = slot1.Battle.BattleCameraWave.New()
-		elseif slot7 == slot0.CLEAR then
-			slot8 = slot1.Battle.BattleClearWave.New()
-		elseif slot7 == slot0.JAMMING then
-			slot8 = slot1.Battle.BattleJammingWave.New()
-		elseif slot7 == slot0.ENVIRONMENT then
-			slot8 = slot1.Battle.BattleEnvironmentWave.New()
+		if slot6.triggerType == uv0.NORMAL then
+			uv1.Battle.BattleSpawnWave.New():SetCallback(slot0._spawnFunc, slot0._airFighterFunc)
+		elseif slot7 == uv0.TIMER then
+			slot8 = uv1.Battle.BattleDelayWave.New()
+		elseif slot7 == uv0.RANGE then
+			uv1.Battle.BattleRangeWave.New():SetCallback(slot0._spawnAreaFunc)
+		elseif slot7 == uv0.STORY then
+			slot8 = uv1.Battle.BattleStoryWave.New()
+		elseif slot7 == uv0.AID then
+			slot8 = uv1.Battle.BattleAidWave.New()
+		elseif slot7 == uv0.BGM then
+			slot8 = uv1.Battle.BattleSwitchBGMWave.New()
+		elseif slot7 == uv0.GUIDE then
+			slot8 = uv1.Battle.BattleGuideWave.New()
+		elseif slot7 == uv0.CAMERA then
+			slot8 = uv1.Battle.BattleCameraWave.New()
+		elseif slot7 == uv0.CLEAR then
+			slot8 = uv1.Battle.BattleClearWave.New()
+		elseif slot7 == uv0.JAMMING then
+			slot8 = uv1.Battle.BattleJammingWave.New()
+		elseif slot7 == uv0.ENVIRONMENT then
+			slot8 = uv1.Battle.BattleEnvironmentWave.New()
 		end
 
 		slot8:SetWaveData(slot6)
-		slot8:RegisterEventListener(slot0, slot1.Battle.BattleEvent.WAVE_FINISH, slot0.onWaveFinish)
+		slot8:RegisterEventListener(slot0, uv1.Battle.BattleEvent.WAVE_FINISH, slot0.onWaveFinish)
 
 		slot0._waveInfoList[slot8:GetIndex()] = slot8
 
@@ -117,7 +118,7 @@ function slot2.onWaveFinish(slot0, slot1)
 		slot0._clearFunc()
 	end
 
-	for slot7, slot8 in ipairs(slot3) do
+	for slot7, slot8 in ipairs(slot1.Dispatcher:GetPostWaves()) do
 		if slot8:IsReady() and slot8:GetState() == slot8.STATE_DEACTIVE then
 			slot8:DoBranch()
 		end
@@ -140,7 +141,7 @@ function slot2.Clear(slot0)
 	end
 
 	for slot4, slot5 in pairs(slot0._waveInfoList) do
-		slot5:UnregisterEventListener(slot0, slot0.Battle.BattleEvent.WAVE_FINISH)
+		slot5:UnregisterEventListener(slot0, uv0.Battle.BattleEvent.WAVE_FINISH)
 		slot5:Dispose()
 	end
 
@@ -148,19 +149,15 @@ function slot2.Clear(slot0)
 	slot0._keyList = nil
 
 	slot0:Init()
-	slot0.EventListener.DetachEventListener(slot0)
+	uv0.EventListener.DetachEventListener(slot0)
 end
 
 function slot2.GetUnfinishedWaveCount(slot0)
-	slot1 = 0
-
 	for slot5, slot6 in pairs(slot0._waveInfoList) do
 		if not slot6:IsFinish() then
-			slot1 = slot1 + 1
+			slot1 = 0 + 1
 		end
 	end
 
 	return slot1
 end
-
-return

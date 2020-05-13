@@ -48,33 +48,33 @@ end
 
 function slot0.didEnter(slot0)
 	slot0.toggles = {
-		[slot0.PAGE_SHIP] = slot0.bottomTF:Find("ship_btn"),
-		[slot0.PAGE_ITEM] = slot0.bottomTF:Find("item_btn")
+		[uv0.PAGE_SHIP] = slot0.bottomTF:Find("ship_btn"),
+		[uv0.PAGE_ITEM] = slot0.bottomTF:Find("item_btn")
 	}
 
-	onToggle(slot0, slot0.toggles[slot0.PAGE_SHIP], function (slot0)
+	onToggle(slot0, slot0.toggles[uv0.PAGE_SHIP], function (slot0)
 		if slot0 then
-			slot0:switchPage(slot1.PAGE_SHIP)
+			uv0:switchPage(uv1.PAGE_SHIP)
 		end
 
-		slot0.toggles[slot1.PAGE_SHIP]:GetComponent(typeof(Image)).color = Color(1, 1, 1, (slot0 and 0) or 1)
+		uv0.toggles[uv1.PAGE_SHIP]:GetComponent(typeof(Image)).color = Color(1, 1, 1, slot0 and 0 or 1)
 	end, SFX_PANEL)
-	onToggle(slot0, slot0.toggles[slot0.PAGE_ITEM], function (slot0)
+	onToggle(slot0, slot0.toggles[uv0.PAGE_ITEM], function (slot0)
 		if slot0 then
-			slot0:switchPage(slot1.PAGE_ITEM)
+			uv0:switchPage(uv1.PAGE_ITEM)
 		end
 
-		slot0.toggles[slot1.PAGE_ITEM]:GetComponent(typeof(Image)).color = Color(1, 1, 1, (slot0 and 0) or 1)
+		uv0.toggles[uv1.PAGE_ITEM]:GetComponent(typeof(Image)).color = Color(1, 1, 1, slot0 and 0 or 1)
 	end, SFX_PANEL)
-	triggerToggle(slot0.toggles[slot0.contextData.page or slot0.PAGE_SHIP], true)
+	triggerToggle(slot0.toggles[slot0.contextData.page or uv0.PAGE_SHIP], true)
 end
 
 function slot0.onBackPressed(slot0)
-	slot0:emit(slot0.ON_BACK_PRESSED, true)
+	slot0:emit(uv0.ON_BACK_PRESSED, true)
 end
 
 function slot0.switchPage(slot0, slot1)
-	if slot1 == slot0.PAGE_SHIP then
+	if slot1 == uv0.PAGE_SHIP then
 		if slot0.exchangeList and not slot0.isInitExchangeShip then
 			slot0.isInitExchangeShip = true
 
@@ -82,7 +82,7 @@ function slot0.switchPage(slot0, slot1)
 		elseif not slot0.exchangeList then
 			slot0:emit(ExchangeShipMediator.GET_EXCHANGE_SHIPS, 0)
 		end
-	elseif slot1 == slot0.PAGE_ITEM then
+	elseif slot1 == uv0.PAGE_ITEM then
 		if slot0.exchangeItemList and not slot0.isInitExchangeItem then
 			slot0.isInitExchangeItem = true
 
@@ -114,14 +114,14 @@ function slot0.addItemTimer(slot0, slot1)
 	end
 
 	slot0.itemRefreshTimer = Timer.New(function ()
-		if (slot0 + 1) - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
-			slot1.text = ""
+		if uv0 + 1 - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
+			uv1.text = ""
 
-			slot2.itemRefreshTimer:Stop()
+			uv2.itemRefreshTimer:Stop()
 
-			slot2.itemRefreshTimer.itemRefreshTimer = nil
+			uv2.itemRefreshTimer = nil
 		else
-			pg.TimeMgr.GetInstance():DescCDTime(slot0).text = pg.TimeMgr.GetInstance().DescCDTime(slot0)
+			uv1.text = pg.TimeMgr.GetInstance():DescCDTime(slot0)
 		end
 	end, 1, -1)
 
@@ -130,10 +130,12 @@ function slot0.addItemTimer(slot0, slot1)
 end
 
 function slot0.updateItem(slot0, slot1, slot2)
-	updateDrop(slot0.itemContainer:GetChild(slot1 - 1).Find(slot4, "icon"), {
+	slot3 = slot0.itemExchangeCfg[slot2.id]
+
+	updateDrop(slot0.itemContainer:GetChild(slot1 - 1):Find("icon"), {
 		type = DROP_TYPE_ITEM,
-		id = slot0.itemExchangeCfg[slot2.id].itemid,
-		count = slot0.itemExchangeCfg[slot2.id].itemquantity
+		id = slot3.itemid,
+		count = slot3.itemquantity
 	})
 
 	if not slot0.itemScrolltxt[slot1] then
@@ -144,7 +146,7 @@ function slot0.updateItem(slot0, slot1, slot2)
 	setText(slot0:findTF("price_bg/Text", slot4), slot3.price)
 	slot0:activeItem(slot1, slot2.isFetched)
 	onButton(slot0, slot4, function ()
-		if slot0.isFetched then
+		if uv0.isFetched then
 			return
 		end
 
@@ -154,26 +156,29 @@ function slot0.updateItem(slot0, slot1, slot2)
 			type = MSGBOX_TYPE_SINGLE_ITEM,
 			drop = {
 				type = DROP_TYPE_ITEM,
-				id = slot1.itemid,
-				count = slot1.itemquantity
+				id = uv1.itemid,
+				count = uv1.itemquantity
 			},
 			yesText = i18n1("text_exchange"),
 			show_medal = {
-				desc = slot1.price
+				desc = uv1.price
 			},
 			onYes = function ()
-				slot0:emit(ExchangeShipMediator.ITEM_EXCHANGE, slot0)
+				uv0:emit(ExchangeShipMediator.ITEM_EXCHANGE, uv1)
 			end
 		})
 	end, SFX_PANEL)
 end
 
 function slot0.activeItem(slot0, slot1, slot2)
-	setActive(slot0.itemContainer:GetChild(slot1 - 1).Find(slot3, "mask"), slot2)
+	setActive(slot0.itemContainer:GetChild(slot1 - 1):Find("mask"), slot2)
 end
 
 function slot0.updateExchangeShips(slot0, slot1, slot2, slot3)
-	slot0:setExchangeList(slot1, slot2, slot3)
+	slot7 = slot2
+	slot8 = slot3
+
+	slot0:setExchangeList(slot1, slot7, slot8)
 
 	for slot7, slot8 in ipairs(slot1) do
 		if slot7 == 1 then
@@ -186,12 +191,12 @@ function slot0.updateExchangeShips(slot0, slot1, slot2, slot3)
 	end
 
 	function slot4()
-		slot0.exchangeTiemr:Stop()
+		uv0.exchangeTiemr:Stop()
 
-		slot0.exchangeTiemr.Stop.exchangeTiemr = nil
+		uv0.exchangeTiemr = nil
 
-		setText(slot0.leftTimeTF, "")
-		setText:emit(ExchangeShipMediator.GET_EXCHANGE_SHIPS, setText)
+		setText(uv0.leftTimeTF, "")
+		uv0:emit(ExchangeShipMediator.GET_EXCHANGE_SHIPS, uv1)
 	end
 
 	if slot0.exchangeTiemr then
@@ -201,10 +206,10 @@ function slot0.updateExchangeShips(slot0, slot1, slot2, slot3)
 	end
 
 	slot0.exchangeTiemr = Timer.New(function ()
-		if slot0 - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
-			setText(slot1.leftTimeTF, pg.TimeMgr.GetInstance():DescCDTime(slot1))
+		if uv0 - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
+			setText(uv1.leftTimeTF, pg.TimeMgr.GetInstance():DescCDTime(slot1))
 		else
-			slot2()
+			uv2()
 		end
 	end, 1, -1)
 
@@ -225,23 +230,24 @@ function slot0.updateFlagShipChangeTime(slot0)
 
 	if slot2 < 86400 then
 		slot0.downCountTimer = Timer.New(function ()
-			slot1 = pg.TimeMgr.GetInstance():DescCDTime(slot0.flagShipTime - pg.TimeMgr.GetInstance():GetServerTime())
+			slot0 = uv0.flagShipTime - pg.TimeMgr.GetInstance():GetServerTime()
+			uv1 = pg.TimeMgr.GetInstance():DescCDTime(slot0)
 
-			if slot0.flagShipTime - pg.TimeMgr.GetInstance().GetServerTime() > 0 then
-				slot0.flagShipchangeTimeTF.text = slot0.flagShipchangeTimeTF
+			if slot0 > 0 then
+				uv0.flagShipchangeTimeTF.text = uv1
 			else
-				slot0.downCountTimer:Stop()
+				uv0.downCountTimer:Stop()
 
-				slot0.downCountTimer = nil
-				slot0.flagShipchangeTimeTF.text = ""
+				uv0.downCountTimer = nil
+				uv0.flagShipchangeTimeTF.text = ""
 
-				slot0:emit(ExchangeShipMediator.GET_EXCHANGE_SHIPS, slot0.flashTime)
+				uv0:emit(ExchangeShipMediator.GET_EXCHANGE_SHIPS, uv0.flashTime)
 			end
 		end, 1, -1)
 
 		slot0.downCountTimer:Start()
 	else
-		slot0.flagShipchangeTimeTF.text = slot4 .. i18n("word_date")
+		slot0.flagShipchangeTimeTF.text = pg.TimeMgr.GetInstance():parseTimeFrom(slot2) .. i18n("word_date")
 	end
 end
 
@@ -256,7 +262,7 @@ function slot0.updateMainShip(slot0, slot1, slot2)
 	slot4 = slot3:getExchangePrice()
 
 	onButton(slot0, slot0.exchangeBtn, function ()
-		if slot0.isFetched then
+		if uv0.isFetched then
 			return
 		end
 
@@ -266,13 +272,13 @@ function slot0.updateMainShip(slot0, slot1, slot2)
 			type = MSGBOX_TYPE_SINGLE_ITEM,
 			drop = {
 				type = DROP_TYPE_SHIP,
-				id = slot1.configId
+				id = uv1.configId
 			},
 			show_medal = {
-				desc = "X" .. 
+				desc = "X" .. uv2
 			},
 			onYes = function ()
-				slot0:emit(ExchangeShipMediator.SHIP_EXCHANGE, slot0)
+				uv0:emit(ExchangeShipMediator.SHIP_EXCHANGE, uv1)
 			end
 		})
 	end, SFX_PANEL)
@@ -290,20 +296,21 @@ function slot0.updateShips(slot0, slot1, slot2)
 	slot3 = Ship.New({
 		configId = slot2.id
 	})
+	slot4 = slot1 - 2
 
-	updateDrop(slot0.shipsContainer:GetChild(slot4).Find(slot5, "icon"), {
+	updateDrop(slot0.shipsContainer:GetChild(slot4):Find("icon"), {
 		type = DROP_TYPE_SHIP,
 		id = slot2.id
 	}, {
 		initStar = true
 	})
 
-	if not slot0.shipsScrolltxt[slot1 - 2 + 1] then
+	if not slot0.shipsScrolltxt[slot4 + 1] then
 		slot0.shipsScrolltxt[slot4 + 1] = ScrollTxt:changeToScroll(slot5:Find("icon/name"))
 	end
 
 	slot0.shipsScrolltxt[slot4 + 1]:setText(getText(slot5:Find("icon/name")))
-	setText(slot0:findTF("price_bg/Text", slot5), slot6)
+	setText(slot0:findTF("price_bg/Text", slot5), slot3:getExchangePrice())
 
 	slot7 = slot0:findTF("icon/icon_bg/shiptype", slot5):GetComponent(typeof(Image))
 
@@ -314,7 +321,7 @@ function slot0.updateShips(slot0, slot1, slot2)
 	slot7.sprite = slot8
 
 	onButton(slot0, slot5, function ()
-		if slot0.exchangeList[slot1].isFetched then
+		if uv0.exchangeList[uv1].isFetched then
 			return
 		end
 
@@ -324,13 +331,13 @@ function slot0.updateShips(slot0, slot1, slot2)
 			type = MSGBOX_TYPE_SINGLE_ITEM,
 			drop = {
 				type = DROP_TYPE_SHIP,
-				id = slot2.configId
+				id = uv2.configId
 			},
 			show_medal = {
-				desc = "X" .. 
+				desc = "X" .. uv3
 			},
 			onYes = function ()
-				slot0:emit(ExchangeShipMediator.SHIP_EXCHANGE, slot0)
+				uv0:emit(ExchangeShipMediator.SHIP_EXCHANGE, uv1)
 			end
 		})
 	end, SFX_PANEL)
@@ -347,7 +354,7 @@ function slot0.activeExchangeShip(slot0, slot1, slot2)
 		setButtonEnabled(slot0.exchangeBtn, not slot2)
 		setGray(slot0.exchangeBtn, slot2)
 	else
-		setActive(slot0.shipsContainer:GetChild(slot1 - 2).Find(slot3, "mask"), slot2)
+		setActive(slot0.shipsContainer:GetChild(slot1 - 2):Find("mask"), slot2)
 	end
 
 	slot0.exchangeList[slot1].isFetched = slot2

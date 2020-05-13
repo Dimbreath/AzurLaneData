@@ -1,7 +1,6 @@
 slot0 = class("ActivityShareData")
 
 function slot0.Ctor(slot0)
-	return
 end
 
 function slot0.SetPlayer(slot0, slot1)

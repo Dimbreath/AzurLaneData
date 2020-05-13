@@ -99,5 +99,3 @@ pg.class_upgrade_group = {
 		7
 	}
 }
-
-return

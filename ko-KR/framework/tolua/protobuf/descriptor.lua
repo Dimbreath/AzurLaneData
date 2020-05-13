@@ -36,5 +36,3 @@ FieldDescriptor = {
 	CPPTYPE_FLOAT = 6,
 	CPPTYPE_UINT64 = 4
 }
-
-return

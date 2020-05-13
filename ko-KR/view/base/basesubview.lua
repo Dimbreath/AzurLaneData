@@ -8,46 +8,46 @@ slot0.STATES = {
 }
 
 function slot0.Ctor(slot0, slot1, slot2, slot3)
-	slot0.super.Ctor(slot0, slot2)
+	uv0.super.Ctor(slot0, slot2)
 
 	slot0.contextData = slot3
 	slot0._parentTf = slot1
 	slot0._event = slot2
 	slot0._go = nil
 	slot0._tf = nil
-	slot0._state = slot0.STATES.NONE
+	slot0._state = uv0.STATES.NONE
 	slot0._funcQueue = {}
 	slot0._loadedQueue = {}
 end
 
 function slot0.Load(slot0)
-	if slot0._state ~= slot0.STATES.NONE then
+	if slot0._state ~= uv0.STATES.NONE then
 		return
 	end
 
-	slot0._state = slot0.STATES.LOADING
+	slot0._state = uv0.STATES.LOADING
 
 	pg.UIMgr.GetInstance():LoadingOn()
 	PoolMgr.GetInstance():GetUI(slot0:getUIName(), true, function (slot0)
-		slot0:Loaded(slot0)
-		slot0:Init()
+		uv0:Loaded(slot0)
+		uv0:Init()
 	end)
 end
 
 function slot0.Loaded(slot0, slot1)
 	pg.UIMgr.GetInstance():LoadingOff()
 
-	if slot0._state == slot0.STATES.DESTROY then
+	if slot0._state == uv0.STATES.DESTROY then
 		slot0:DisposeGO(slot0:getUIName(), slot1)
 
 		return
 	end
 
-	if slot0._state ~= slot0.STATES.LOADING then
+	if slot0._state ~= uv0.STATES.LOADING then
 		return
 	end
 
-	slot0._state = slot0.STATES.LOADED
+	slot0._state = uv0.STATES.LOADED
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
 
@@ -58,11 +58,11 @@ function slot0.Loaded(slot0, slot1)
 end
 
 function slot0.Init(slot0)
-	if slot0._state ~= slot0.STATES.LOADED then
+	if slot0._state ~= uv0.STATES.LOADED then
 		return
 	end
 
-	slot0._state = slot0.STATES.INITED
+	slot0._state = uv0.STATES.INITED
 
 	slot0:OnInit()
 	slot0:HandleFuncQueue()
@@ -70,25 +70,29 @@ function slot0.Init(slot0)
 end
 
 function slot0.HandleFuncQueue(slot0)
-	if slot0._state == slot0.STATES.INITED then
+	if slot0._state == uv0.STATES.INITED then
 		while #slot0._funcQueue > 0 do
-			slot0[slot0._funcQueue[1].funcName](slot0, unpack(slot0._funcQueue[1].params, 1, slot0._funcQueue[1].params.len))
+			slot1 = slot0._funcQueue[1]
+
+			slot0[slot1.funcName](slot0, unpack(slot1.params, 1, slot1.params.len))
 			table.remove(slot0._funcQueue, 1)
 		end
 	end
 end
 
 function slot0.HandleLoadedQueue(slot0)
-	if slot0._state == slot0.STATES.INITED then
+	if slot0._state == uv0.STATES.INITED then
 		while #slot0._loadedQueue > 0 do
-			slot0._loadedQueue[1].funcBody(unpack(slot0._loadedQueue[1].params, 1, slot0._loadedQueue[1].params.len))
+			slot1 = slot0._loadedQueue[1]
+
+			slot1.funcBody(unpack(slot1.params, 1, slot1.params.len))
 			table.remove(slot0._loadedQueue, 1)
 		end
 	end
 end
 
 function slot0.Reset(slot0)
-	slot0._state = slot0.STATES.NONE
+	slot0._state = uv0.STATES.NONE
 end
 
 function slot0.ActionInvoke(slot0, slot1, ...)
@@ -109,12 +113,10 @@ function slot0.ExecuteAction(slot0, slot1, ...)
 		...
 	}
 
-	function slot3()
-		slot0:ActionInvoke(slot0, unpack(slot0, 1, slot2.len))
-	end
-
 	if slot0:GetLoaded() then
-		slot3()
+		function ()
+			uv0:ActionInvoke(uv1, unpack(uv2, 1, uv2.len))
+		end()
 	else
 		slot0:Load()
 		slot0:AddLoadedCallback(slot3)
@@ -122,7 +124,7 @@ function slot0.ExecuteAction(slot0, slot1, ...)
 end
 
 function slot0.GetLoaded(slot0)
-	return slot0.STATES.LOADED <= slot0._state
+	return uv0.STATES.LOADED <= slot0._state
 end
 
 function slot0.CheckState(slot0, slot1)
@@ -154,12 +156,12 @@ function slot0.isShowing(slot0)
 end
 
 function slot0.Destroy(slot0)
-	if slot0._state == slot0.STATES.DESTROY then
+	if slot0._state == uv0.STATES.DESTROY then
 		return
 	end
 
 	if not slot0:GetLoaded() then
-		slot0._state = slot0.STATES.DESTROY
+		slot0._state = uv0.STATES.DESTROY
 
 		return
 	end
@@ -174,7 +176,7 @@ function slot0.Destroy(slot0)
 	slot0:disposeEvent()
 	slot0:cleanManagedTween()
 
-	slot0._state = slot0.STATES.DESTROY
+	slot0._state = uv0.STATES.DESTROY
 end
 
 function slot0.DisposeGO(slot0, slot1, slot2)
@@ -203,15 +205,12 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.OnLoaded(slot0)
-	return
 end
 
 function slot0.OnInit(slot0)
-	return
 end
 
 function slot0.OnDestroy(slot0)
-	return
 end
 
 return slot0

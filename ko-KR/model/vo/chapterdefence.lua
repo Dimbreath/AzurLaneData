@@ -5,7 +5,7 @@ function slot0.bindConfigTable(slot0)
 end
 
 function slot0.GetConfigByID(slot0, slot1)
-	return slot0.bindConfigTable()[slot0]
+	return uv0.bindConfigTable()[slot0]
 end
 
 function slot0.Ctor(slot0, slot1)
@@ -18,7 +18,7 @@ function slot0.__index(slot0, slot1)
 		return slot0.fleets[slot0.findex]
 	end
 
-	return rawget(slot0, slot1) or slot0[slot1] or slot0.super[slot1]
+	return rawget(slot0, slot1) or uv0[slot1] or uv0.super[slot1]
 end
 
 return slot0

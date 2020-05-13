@@ -55,9 +55,11 @@ function slot0.update(slot0, slot1, slot2)
 end
 
 function slot0.updateSkin(slot0)
-	setActive(slot0.equiped, slot0.equipmentVO.shipId)
+	slot1 = slot0.equipmentVO
 
-	if slot0.equipmentVO.shipId then
+	setActive(slot0.equiped, slot1.shipId)
+
+	if slot1.shipId then
 		setImageSprite(findTF(slot0.equiped, "Image"), LoadSprite("qicon/" .. getProxy(BayProxy):getShipById(slot1.shipId):getPainting()))
 	end
 
@@ -71,7 +73,6 @@ function slot0.updateSkin(slot0)
 end
 
 function slot0.dispose(slot0)
-	return
 end
 
 function slot0.updateSelected(slot0, slot1, slot2)
@@ -83,7 +84,7 @@ function slot0.updateSelected(slot0, slot1, slot2)
 
 	if slot0.selected then
 		if not slot0.selectedTwId then
-			slot0.selectedTwId = LeanTween.alpha(slot0.selectedGo.transform, 1, slot0):setFrom(0):setEase(LeanTweenType.easeInOutSine):setLoopPingPong().uniqueId
+			slot0.selectedTwId = LeanTween.alpha(slot0.selectedGo.transform, 1, uv0):setFrom(0):setEase(LeanTweenType.easeInOutSine):setLoopPingPong().uniqueId
 		end
 	elseif slot0.selectedTwId then
 		LeanTween.cancel(slot0.selectedTwId)

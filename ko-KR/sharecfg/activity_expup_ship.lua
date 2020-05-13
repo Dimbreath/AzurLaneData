@@ -91,5 +91,3 @@ pg.activity_expup_ship = {
 		4
 	}
 }
-
-return

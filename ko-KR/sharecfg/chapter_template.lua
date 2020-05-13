@@ -233395,5 +233395,3 @@ pg.chapter_template = {
 		9920021
 	}
 }
-
-return

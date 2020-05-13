@@ -14,69 +14,68 @@ function slot0.register(slot0)
 	slot0.dailyEvaCount = 0
 
 	slot0:on(17001, function (slot0)
-		slot0.shipGroups = {}
+		uv0.shipGroups = {}
 
 		for slot4, slot5 in ipairs(slot0.ship_info_list) do
 			if slot5.id < 99999 or slot5.id > 999999 then
-				slot0.shipGroups[slot5.id] = ShipGroup.New(slot5)
+				uv0.shipGroups[slot5.id] = ShipGroup.New(slot5)
 			end
 		end
 
 		for slot4, slot5 in ipairs(slot0.transform_list) do
-			if slot0.shipGroups[slot5] then
-				slot0.shipGroups[slot5].trans = true
+			if uv0.shipGroups[slot5] then
+				uv0.shipGroups[slot5].trans = true
 			end
 		end
 
-		slot0.awards = {}
+		uv0.awards = {}
 
 		for slot4, slot5 in ipairs(slot0.ship_award_list) do
 			table.sort(slot5.award_index)
 
-			slot0.awards[slot5.id] = slot5.award_index[#slot5.award_index]
+			uv0.awards[slot5.id] = slot5.award_index[#slot5.award_index]
 		end
 
 		for slot4, slot5 in ipairs(slot0.progress_list) do
-			slot0.trophy[slot5.id] = Trophy.New(slot5)
+			uv0.trophy[slot5.id] = Trophy.New(slot5)
 		end
 
-		slot0:bindTrophyGroup()
-		slot0:bindComplexTrophy()
-		slot0:hiddenTrophyAutoClaim()
-		slot0:updateTrophy()
+		uv0:bindTrophyGroup()
+		uv0:bindComplexTrophy()
+		uv0:hiddenTrophyAutoClaim()
+		uv0:updateTrophy()
 	end)
 	slot0:on(17002, function (slot0)
 		for slot4, slot5 in ipairs(slot0.progress_list) do
 			slot6 = false
 
-			if slot0.trophy[slot5.id] then
-				slot9 = slot0.trophy[slot7].canClaimed(slot8)
+			if uv0.trophy[slot5.id] then
+				slot8 = uv0.trophy[slot7]
 
-				slot0.trophy[slot7].update(slot8, slot5)
+				slot8:update(slot5)
 
-				slot10 = slot0.trophy[slot7].canClaimed(slot8)
-
-				if not slot0.trophy[slot7]:isHide() and slot9 ~= slot10 then
+				if not slot8:isHide() and slot8:canClaimed() ~= slot8:canClaimed() then
 					slot6 = true
 				end
 			else
-				slot0.trophy[slot7] = Trophy.New(slot5)
+				uv0.trophy[slot7] = Trophy.New(slot5)
 
-				if slot0.trophy[slot7]:canClaimed() then
+				if uv0.trophy[slot7]:canClaimed() then
 					slot6 = true
 				end
 			end
 
 			if slot6 then
-				slot0:dispatchClaimRemind(slot7)
+				uv0:dispatchClaimRemind(slot7)
 			end
 		end
 
-		slot0:hiddenTrophyAutoClaim()
-		slot0:updateTrophy()
+		uv0:hiddenTrophyAutoClaim()
+		uv0:updateTrophy()
 	end)
 	slot0:on(17004, function (slot0)
-		slot0.shipGroups[slot0.ship_info.id] = ShipGroup.New(slot0.ship_info)
+		slot1 = slot0.ship_info
+		uv0.shipGroups[slot1.id] = ShipGroup.New(slot1)
 	end)
 end
 
@@ -95,7 +94,7 @@ end
 function slot0.updateAward(slot0, slot1, slot2)
 	slot0.awards[slot1] = slot2
 
-	slot0:sendNotification(slot0.AWARDS_UPDATE, Clone(slot0.awards))
+	slot0:sendNotification(uv0.AWARDS_UPDATE, Clone(slot0.awards))
 end
 
 function slot0.getShipGroup(slot0, slot1)
@@ -127,24 +126,27 @@ function slot0.hasFinish(slot0)
 end
 
 function slot0.getCollectionRate(slot0)
-	return string.format("%0.3f", slot0:getCollectionCount() / slot0:getCollectionTotal()), slot0.getCollectionCount(), slot0.getCollectionTotal()
+	slot1 = slot0:getCollectionCount()
+	slot2 = slot0:getCollectionTotal()
+
+	return string.format("%0.3f", slot1 / slot2), slot1, slot2
 end
 
 function slot0.getCollectionCount(slot0)
 	return _.reduce(_.values(slot0.shipGroups), 0, function (slot0, slot1)
-		return slot0 + ((Nation.IsLinkType(slot1:getNation()) and 0) or (slot1.trans and 2) or 1)
+		return slot0 + (Nation.IsLinkType(slot1:getNation()) and 0 or slot1.trans and 2 or 1)
 	end)
 end
 
 function slot0.getCollectionTotal(slot0)
 	return _.reduce(pg.ship_data_group.all, 0, function (slot0, slot1)
-		return slot0 + ((Nation.IsLinkType(ShipGroup.getDefaultShipConfig(slot2).nationality) and 0) or 1)
+		return slot0 + (Nation.IsLinkType(ShipGroup.getDefaultShipConfig(pg.ship_data_group[slot1].group_type).nationality) and 0 or 1)
 	end) + #pg.ship_data_trans.all
 end
 
 function slot0.getLinkCollectionCount(slot0)
 	return _.reduce(_.values(slot0.shipGroups), 0, function (slot0, slot1)
-		return slot0 + ((Nation.IsLinkType(slot1:getNation()) and 1) or 0)
+		return slot0 + (Nation.IsLinkType(slot1:getNation()) and 1 or 0)
 	end)
 end
 
@@ -158,7 +160,7 @@ function slot0.flushCollection(slot0, slot1)
 			lv_max = 1,
 			id = slot1.groupId,
 			star = slot1:getStar(),
-			marry_flag = (slot1.propose and 1) or 0,
+			marry_flag = slot1.propose and 1 or 0,
 			intimacy_max = slot1.intimacy
 		})
 
@@ -189,7 +191,7 @@ function slot0.flushCollection(slot0, slot1)
 
 		slot2.star = math.max(slot2.star, slot1:getStar())
 		slot2.maxIntimacy = math.max(slot2.maxIntimacy, slot1.intimacy)
-		slot2.married = math.max(slot2.married, (slot1.propose and 1) or 0)
+		slot2.married = math.max(slot2.married, slot1.propose and 1 or 0)
 		slot2.maxLV = math.max(slot2.maxLV, slot1.level)
 	end
 
@@ -239,11 +241,9 @@ function slot0.hiddenTrophyAutoClaim(slot0)
 end
 
 function slot0.unclaimTrophyCount(slot0)
-	slot1 = 0
-
 	for slot5, slot6 in pairs(slot0.trophy) do
 		if slot6:getHideType() == Trophy.ALWAYS_SHOW and slot6:canClaimed() and not slot6:isClaimed() then
-			slot1 = slot1 + 1
+			slot1 = 0 + 1
 		end
 	end
 
@@ -251,7 +251,7 @@ function slot0.unclaimTrophyCount(slot0)
 end
 
 function slot0.updateTrophy(slot0)
-	slot0:sendNotification(slot0.TROPHY_UPDATE, Clone(slot0.trophy))
+	slot0:sendNotification(uv0.TROPHY_UPDATE, Clone(slot0.trophy))
 end
 
 function slot0.dispatchClaimRemind(slot0, slot1)
@@ -262,7 +262,7 @@ end
 
 function slot0.bindComplexTrophy(slot0)
 	for slot4, slot5 in pairs(slot0.trophyGroup) do
-		for slot10, slot11 in pairs(slot6) do
+		for slot10, slot11 in pairs(slot5:getTrophyList()) do
 			if slot11:isComplexTrophy() then
 				for slot15, slot16 in ipairs(slot11:getTargetID()) do
 					slot11:bindTrophys(slot0.trophy[slot16] or Trophy.generateDummyTrophy(slot16))
@@ -279,10 +279,8 @@ function slot0.bindTrophyGroup(slot0)
 				slot0.trophyGroup[slot8] = TrophyGroup.New(slot8)
 			end
 
-			slot9 = slot0.trophyGroup[slot8]
-
 			if slot0.trophy[slot6] then
-				slot9:addTrophy(slot0.trophy[slot6])
+				slot0.trophyGroup[slot8]:addTrophy(slot0.trophy[slot6])
 			else
 				slot9:addDummyTrophy(slot6)
 			end

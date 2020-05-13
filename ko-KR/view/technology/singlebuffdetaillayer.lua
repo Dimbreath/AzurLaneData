@@ -76,24 +76,24 @@ end
 
 function slot0.addListener(slot0)
 	onButton(slot0, slot0.backBtn, function ()
-		slot0:emit(slot1.ON_CLOSE)
+		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
 end
 
 function slot0.updateDetail(slot0)
 	LoadSpriteAsync("shipmodels/" .. slot0.shipPaintName, function (slot0)
 		if slot0 then
-			setImageSprite(slot0.modelImg, slot0, true)
+			setImageSprite(uv0.modelImg, slot0, true)
 
-			rtf(slot0.modelImg).pivot = getSpritePivot(slot0)
+			rtf(uv0.modelImg).pivot = getSpritePivot(slot0)
 		end
 	end)
 	setImageSprite(slot0.baseImg, GetSpriteFromAtlas("shipraritybaseicon", "base_" .. slot0.rarity))
 	setImageSprite(slot0.typeTextImg, GetSpriteFromAtlas("ShipType", "ch_title_" .. slot0.shipType), true)
 	setImageSprite(slot0.levelImg, GetSpriteFromAtlas("TecClassLevelIcon", "T" .. slot0.classLevel), true)
 	setText(slot0.nameText, ShipGroup.getDefaultShipNameByGroupID(slot0.groupID))
-	setText(slot0.pointNumGetText, "+" .. slot1)
-	setText(slot0.pointNumCompleteText, "+" .. slot2)
+	setText(slot0.pointNumGetText, "+" .. pg.fleet_tech_ship_template[slot0.groupID].pt_get)
+	setText(slot0.pointNumCompleteText, "+" .. pg.fleet_tech_ship_template[slot0.groupID].pt_level)
 	setText(slot0.allStarPointText, "+" .. pg.fleet_tech_ship_template[slot0.groupID].pt_upgrage)
 
 	if pg.fleet_tech_ship_template[slot0.groupID].max_star <= slot0.star then
@@ -110,12 +110,16 @@ function slot0.updateDetail(slot0)
 
 	slot6:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setTextColor(slot3, slot9)
-			setTextColor(slot4, slot9)
+			slot5 = uv0:findTF("TypeText", slot2)
+			slot8 = uv1[slot1 + 1]
+			slot9 = uv0.typeToColor[slot8]
+
+			setTextColor(uv0:findTF("Symbol/Left", slot2), slot9)
+			setTextColor(uv0:findTF("Symbol/Right", slot2), slot9)
 			setText(slot5, ShipType.Type2Name(slot8))
 			setTextColor(slot5, slot9)
-			setText(slot6, AttributeType.Type2Name(pg.attribute_info_by_type[slot2].name))
-			setText(slot7, "+" .. slot0:findTF("Symbol/Left", slot2))
+			setText(uv0:findTF("AttrText", slot2), AttributeType.Type2Name(pg.attribute_info_by_type[uv2].name))
+			setText(uv0:findTF("ValueText", slot2), "+" .. uv3)
 			setActive(slot2, true)
 		end
 	end)
@@ -127,20 +131,20 @@ function slot0.updateDetail(slot0)
 
 	slot10:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = slot0:findTF("Symbol/Left", slot2)
-			slot4 = slot0:findTF("Symbol/Right", slot2)
-			slot5 = slot0:findTF("TypeText", slot2)
-			slot6 = slot0:findTF("AttrText", slot2)
-			slot7 = slot0:findTF("ValueText", slot2)
-			slot8 = slot0:findTF("BG", slot2)
-			slot9 = slot1[slot1 + 1]
+			slot3 = uv0:findTF("Symbol/Left", slot2)
+			slot4 = uv0:findTF("Symbol/Right", slot2)
+			slot5 = uv0:findTF("TypeText", slot2)
+			slot6 = uv0:findTF("AttrText", slot2)
+			slot7 = uv0:findTF("ValueText", slot2)
 			slot10 = nil
 
-			if slot0.maxLV == 120 then
-				slot10 = slot0.typeToColor[slot9]
+			if uv0.maxLV == 120 then
+				slot10 = uv0.typeToColor[uv1[slot1 + 1]]
 
-				setGray(slot8, false)
+				setGray(uv0:findTF("BG", slot2), false)
 			else
+				slot10 = Color.New(0.6392156862745098, 0.6392156862745098, 0.6392156862745098, 1)
+
 				setTextColor(slot7, slot10)
 				setTextColor(slot6, slot10)
 				setGray(slot8, true)
@@ -150,8 +154,8 @@ function slot0.updateDetail(slot0)
 			setTextColor(slot4, slot10)
 			setText(slot5, ShipType.Type2Name(slot9))
 			setTextColor(slot5, slot10)
-			setText(slot6, AttributeType.Type2Name(pg.attribute_info_by_type[slot2].name))
-			setText(slot7, "+" .. slot3)
+			setText(slot6, AttributeType.Type2Name(pg.attribute_info_by_type[uv2].name))
+			setText(slot7, "+" .. uv3)
 			setActive(slot2, true)
 		end
 	end)

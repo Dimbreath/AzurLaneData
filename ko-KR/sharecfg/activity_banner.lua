@@ -181,5 +181,3 @@ pg.activity_banner = {
 		5
 	}
 }
-
-return

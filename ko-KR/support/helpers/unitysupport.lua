@@ -73,10 +73,11 @@ function setBestFitTextEN(slot0, slot1, slot2)
 		return
 	end
 
+	slot3 = slot0:GetComponent(typeof(RectTransform))
 	slot4 = slot0:GetComponent(typeof(Text))
 	slot5 = slot2 or 20
-	slot6 = slot0:GetComponent(typeof(RectTransform)).rect.width
-	slot7 = slot0.GetComponent(typeof(RectTransform)).rect.height
+	slot6 = slot3.rect.width
+	slot7 = slot3.rect.height
 
 	while slot5 > 0 do
 		slot4.fontSize = slot5
@@ -115,9 +116,11 @@ function getInputText(slot0)
 end
 
 function onInputEndEdit(slot0, slot1, slot2)
+	slot3 = slot1:GetComponent(typeof(InputField)).onEndEdit
+
 	pg.DelegateInfo.Add(slot0, slot3)
-	slot1:GetComponent(typeof(InputField)).onEndEdit.RemoveAllListeners(slot3)
-	slot1.GetComponent(typeof(InputField)).onEndEdit:AddListener(slot2)
+	slot3:RemoveAllListeners()
+	slot3:AddListener(slot2)
 end
 
 function activateInputField(slot0)
@@ -140,20 +143,22 @@ slot0 = true
 slot1 = -1
 
 function onButton(slot0, slot1, slot2, slot3, slot4)
+	slot6 = GetOrAddComponent(slot1, typeof(Button)).onClick
+
 	pg.DelegateInfo.Add(slot0, slot6)
-	GetOrAddComponent(slot1, typeof(Button)).onClick.RemoveAllListeners(slot6)
-	GetOrAddComponent(slot1, typeof(Button)).onClick:AddListener(function ()
-		if slot0 == Time.frameCount and Input.touchCount > 1 then
+	slot6:RemoveAllListeners()
+	slot6:AddListener(function ()
+		if uv0 == Time.frameCount and Input.touchCount > 1 then
 			return
 		end
 
-		slot0 = Time.frameCount
+		uv0 = Time.frameCount
 
-		if slot1 and slot2 then
-			playSoundEffect(slot1)
+		if uv1 and uv2 then
+			playSoundEffect(uv1)
 		end
 
-		slot3()
+		uv3()
 	end)
 end
 
@@ -172,31 +177,33 @@ function setToggleEnabled(slot0, slot1)
 end
 
 function triggerButton(slot0)
-	slot1 = GetComponent(slot0, typeof(Button))
-	slot0 = false
+	uv0 = false
+	uv1 = -1
 
-	-1.onClick:Invoke()
+	GetComponent(slot0, typeof(Button)).onClick:Invoke()
 
-	slot0 = true
+	uv0 = true
 end
 
 slot2 = true
 
 function onToggle(slot0, slot1, slot2, slot3, slot4)
-	GetComponent(slot1, typeof(Toggle)).onValueChanged.RemoveAllListeners(slot6)
-	pg.DelegateInfo.Add(slot0, slot6)
-	GetComponent(slot1, typeof(Toggle)).onValueChanged.AddListener(slot6, function (slot0)
-		if slot0 then
-			if slot0 and slot1 and slot2.isOn == slot0 then
-				slot1 = SFX_UI_TAG
+	slot6 = GetComponent(slot1, typeof(Toggle)).onValueChanged
 
-				playSoundEffect(playSoundEffect)
-			elseif not slot0 and slot3 then
-				playSoundEffect(slot3)
+	slot6:RemoveAllListeners()
+	pg.DelegateInfo.Add(slot0, slot6)
+	slot6:AddListener(function (slot0)
+		if uv0 then
+			if slot0 and uv1 and uv2.isOn == slot0 then
+				uv1 = SFX_UI_TAG
+
+				playSoundEffect(uv1)
+			elseif not slot0 and uv3 then
+				playSoundEffect(uv3)
 			end
 		end
 
-		slot4(slot0)
+		uv4(slot0)
 	end)
 
 	if not IsNil(GetComponent(slot1, typeof(UIToggleEvent))) then
@@ -205,7 +212,7 @@ function onToggle(slot0, slot1, slot2, slot3, slot4)
 end
 
 function triggerToggle(slot0, slot1)
-	slot0 = false
+	uv0 = false
 
 	if GetComponent(slot0, typeof(Toggle)).isOn ~= slot1 then
 		slot2.isOn = slot1
@@ -213,13 +220,15 @@ function triggerToggle(slot0, slot1)
 		slot2.onValueChanged:Invoke(slot1)
 	end
 
-	slot0 = true
+	uv0 = true
 end
 
 function onSlider(slot0, slot1, slot2)
-	GetComponent(slot1, typeof(Slider)).onValueChanged.RemoveAllListeners(slot3)
+	slot3 = GetComponent(slot1, typeof(Slider)).onValueChanged
+
+	slot3:RemoveAllListeners()
 	pg.DelegateInfo.Add(slot0, slot3)
-	GetComponent(slot1, typeof(Slider)).onValueChanged:AddListener(slot2)
+	slot3:AddListener(slot2)
 end
 
 function setSlider(slot0, slot1, slot2, slot3)
@@ -245,9 +254,11 @@ end
 function scrollTo(slot0, slot1, slot2)
 	Canvas.ForceUpdateCanvases()
 
-	GetComponent(slot0, typeof(ScrollRect)).normalizedPosition = Vector2(slot1, slot2)
+	slot3 = GetComponent(slot0, typeof(ScrollRect))
+	slot4 = Vector2(slot1, slot2)
+	slot3.normalizedPosition = slot4
 
-	GetComponent(slot0, typeof(ScrollRect)).onValueChanged:Invoke(Vector2(slot1, slot2))
+	slot3.onValueChanged:Invoke(slot4)
 end
 
 function scrollToBottom(slot0)
@@ -255,9 +266,11 @@ function scrollToBottom(slot0)
 end
 
 function onScroll(slot0, slot1, slot2)
-	GetComponent(slot1, typeof(ScrollRect)).onValueChanged.RemoveAllListeners(slot3)
+	slot3 = GetComponent(slot1, typeof(ScrollRect)).onValueChanged
+
+	slot3:RemoveAllListeners()
 	pg.DelegateInfo.Add(slot0, slot3)
-	GetComponent(slot1, typeof(ScrollRect)).onValueChanged:AddListener(slot2)
+	slot3:AddListener(slot2)
 end
 
 function ClearEventTrigger(slot0)
@@ -302,9 +315,7 @@ function RemoveComponent(slot0, slot1)
 end
 
 function GetInChildren(slot0, slot1)
-	return 
-	-- Decompilation error in this vicinity:
-	function (slot0, slot1)
+	return function (slot0, slot1)
 		if not slot0 then
 			return nil
 		end
@@ -313,12 +324,12 @@ function GetInChildren(slot0, slot1)
 			return slot0
 		end
 
-		for slot5 = 0, slot0.childCount - 1, 1 do
+		for slot5 = 0, slot0.childCount - 1 do
 			if slot1 == slot0:GetChild(slot5).name then
 				return slot6
 			end
 
-			if slot0(slot6, slot1) then
+			if uv0(slot6, slot1) then
 				return slot7
 			end
 		end
@@ -340,13 +351,13 @@ function seriesAsync(slot0, slot1)
 	slot3 = #slot0
 	slot4 = nil
 
-
-	-- Decompilation error in this vicinity:
 	function (...)
-		if slot0 + 1 <= slot1 then
-			slot2[](slot3, ...)
-		elseif slot4 then
-			slot4()
+		uv0 = uv0 + 1
+
+		if uv0 <= uv1 then
+			uv2[uv0](uv3, ...)
+		elseif uv4 then
+			uv4()
 		end
 	end()
 end
@@ -358,14 +369,14 @@ function parallelAsync(slot0, slot1)
 		return
 	end
 
-	function slot3()
-		if slot0 - 1 == 0 then
-			slot1()
-		end
-	end
-
 	for slot7, slot8 in ipairs(slot0) do
-		slot8(slot3)
+		slot8(function ()
+			uv0 = uv0 - 1
+
+			if uv0 == 0 then
+				uv1()
+			end
+		end)
 	end
 end
 
@@ -376,16 +387,18 @@ function limitedParallelAsync(slot0, slot1, slot2)
 		return
 	end
 
-	function slot6()
-		if slot0 - 1 == 0 then
-			slot1()
-		elseif slot2 + 1 <= slot3 then
-			slot4[slot2](slot5)
-		end
-	end
+	for slot10 = 1, math.min(slot1, slot3) do
+		slot0[slot10](function ()
+			uv0 = uv0 - 1
 
-	for slot10 = 1, math.min(slot1, slot3), 1 do
-		slot0[slot10](slot6)
+			if uv0 == 0 then
+				uv1()
+			elseif uv2 + 1 <= uv3 then
+				uv2 = uv2 + 1
+
+				uv4[uv2](uv5)
+			end
+		end)
 	end
 end
 
@@ -432,15 +445,17 @@ function getToggleState(slot0)
 end
 
 function setLocalPosition(slot0, slot1)
-	slot1.x = slot1.x or tf(slot0).localPosition.x
-	slot1.y = slot1.y or tf(slot0).localPosition.y
-	slot1.z = slot1.z or tf(slot0).localPosition.z
+	slot2 = tf(slot0).localPosition
+	slot1.x = slot1.x or slot2.x
+	slot1.y = slot1.y or slot2.y
+	slot1.z = slot1.z or slot2.z
 	tf(slot0).localPosition = slot1
 end
 
 function setAnchoredPosition(slot0, slot1)
-	slot1.x = slot1.x or rtf(slot0).anchoredPosition.x
-	slot1.y = slot1.y or rtf(slot0).anchoredPosition.y
+	slot3 = rtf(slot0).anchoredPosition
+	slot1.x = slot1.x or slot3.x
+	slot1.y = slot1.y or slot3.y
 	slot2.anchoredPosition = slot1
 end
 
@@ -449,16 +464,18 @@ function getAnchoredPosition(slot0)
 end
 
 function setLocalScale(slot0, slot1)
-	slot1.x = slot1.x or tf(slot0).localScale.x
-	slot1.y = slot1.y or tf(slot0).localScale.y
-	slot1.z = slot1.z or tf(slot0).localScale.z
+	slot2 = tf(slot0).localScale
+	slot1.x = slot1.x or slot2.x
+	slot1.y = slot1.y or slot2.y
+	slot1.z = slot1.z or slot2.z
 	tf(slot0).localScale = slot1
 end
 
 function setLocalRotation(slot0, slot1)
-	slot1.x = slot1.x or tf(slot0).localRotation.x
-	slot1.y = slot1.y or tf(slot0).localRotation.y
-	slot1.z = slot1.z or tf(slot0).localRotation.z
+	slot2 = tf(slot0).localRotation
+	slot1.x = slot1.x or slot2.x
+	slot1.y = slot1.y or slot2.y
+	slot1.z = slot1.z or slot2.z
 	tf(slot0).localRotation = slot1
 end
 
@@ -467,9 +484,11 @@ function ActivateInputField(slot0)
 end
 
 function onInputChanged(slot0, slot1, slot2)
-	GetComponent(slot1, typeof(InputField)).onValueChanged.RemoveAllListeners(slot3)
+	slot3 = GetComponent(slot1, typeof(InputField)).onValueChanged
+
+	slot3:RemoveAllListeners()
 	pg.DelegateInfo.Add(slot0, slot3)
-	GetComponent(slot1, typeof(InputField)).onValueChanged:AddListener(slot2)
+	slot3:AddListener(slot2)
 end
 
 function getImageColor(slot0)
@@ -485,8 +504,10 @@ function getImageAlpha(slot0)
 end
 
 function setImageAlpha(slot0, slot1)
-	GetComponent(slot0, typeof(Image)).color.a = slot1
-	GetComponent(slot0, typeof(Image)).color = GetComponent(slot0, typeof(Image)).color
+	slot2 = GetComponent(slot0, typeof(Image))
+	slot3 = slot2.color
+	slot3.a = slot1
+	slot2.color = slot3
 end
 
 function getImageAlpha(slot0)
@@ -506,8 +527,10 @@ function getTextAlpha(slot0)
 end
 
 function setTextAlpha(slot0, slot1)
-	GetComponent(slot0, typeof(Text)).color.a = slot1
-	GetComponent(slot0, typeof(Text)).color = GetComponent(slot0, typeof(Text)).color
+	slot2 = GetComponent(slot0, typeof(Text))
+	slot3 = slot2.color
+	slot3.a = slot1
+	slot2.color = slot3
 end
 
 function getOutlineColor(slot0)
@@ -524,359 +547,118 @@ function pressPersistTrigger(slot0, slot1, slot2, slot3, slot4, slot5, slot6, sl
 	slot9 = nil
 
 	function slot10()
-		if slot0 then
-			slot0:Stop()
+		if uv0 then
+			uv0:Stop()
 
-			slot0 = nil
+			uv0 = nil
 		end
 	end
 
 	slot8:AddPointDownFunc(function ()
-		slot0()
-		Timer.New(function ()
-			if slot0 then
-				slot1.duration - slot2 / 10.duration = math.max(slot1.duration - slot2 / 10, slot3)
+		uv0()
+
+		uv1 = Timer.New(function ()
+			if uv0 then
+				uv1.duration = math.max(uv1.duration - uv2 / 10, uv3)
 			end
 
-			if slot4 then
-				slot4(slot5)
+			if uv4 then
+				uv4(uv5)
 			end
-		end, slot3, -1):Start()
+		end, uv3, -1)
 
-		if slot6 then
+		uv1:Start()
 
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 17-19, warpins: 1 ---
-			slot1.func()
-			--- END OF BLOCK #0 ---
-
-
-
+		if uv6 then
+			uv1.func()
 		end
 
-		if slot7 and slot8 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 26-28, warpins: 1 ---
-			playSoundEffect(slot7)
-			--- END OF BLOCK #0 ---
-
-
-
+		if uv7 and uv8 then
+			playSoundEffect(uv7)
 		end
 	end)
 	slot8:AddPointUpFunc(function ()
+		uv0()
 
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-5, warpins: 1 ---
-		slot0()
-
-		if slot1 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 6-7, warpins: 1 ---
-			slot1()
-			--- END OF BLOCK #0 ---
-
-
-
+		if uv1 then
+			uv1()
 		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 8-8, warpins: 2 ---
-		return
-		--- END OF BLOCK #1 ---
-
-
-
 	end)
 	slot8:AddPointExitFunc(function ()
+		uv0()
 
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-5, warpins: 1 ---
-		slot0()
-
-		if slot1 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 6-7, warpins: 1 ---
-			slot1()
-			--- END OF BLOCK #0 ---
-
-
-
+		if uv1 then
+			uv1()
 		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 8-8, warpins: 2 ---
-		return
-		--- END OF BLOCK #1 ---
-
-
-
 	end)
 
 	return slot8
 end
 
 function getSpritePivot(slot0)
+	slot1 = slot0.bounds
 
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-21, warpins: 1 ---
-	return Vector2(-slot0.bounds.center.x / slot0.bounds.extents.x / 2 + 0.5, -slot0.bounds.center.y / slot0.bounds.extents.y / 2 + 0.5)
-	--- END OF BLOCK #0 ---
-
-
-
+	return Vector2(-slot1.center.x / slot1.extents.x / 2 + 0.5, -slot1.center.y / slot1.extents.y / 2 + 0.5)
 end
 
 function resetAspectRatio(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-13, warpins: 1 ---
-	GetComponent(slot0, "AspectRatioFitter").aspectRatio = GetComponent(slot0, "Image").preferredWidth / GetComponent(slot0, "Image").preferredHeight
-
-	return
-	--- END OF BLOCK #0 ---
-
-
-
+	slot1 = GetComponent(slot0, "Image")
+	GetComponent(slot0, "AspectRatioFitter").aspectRatio = slot1.preferredWidth / slot1.preferredHeight
 end
 
 function cloneTplTo(slot0, slot1, slot2)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-18, warpins: 1 ---
 	slot3 = tf(Instantiate(slot0))
 
 	slot3:SetParent(tf(slot1), false)
 	SetActive(slot3, true)
 
 	if slot2 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 19-19, warpins: 1 ---
 		slot3.name = slot2
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 20-20, warpins: 2 ---
 	return slot3
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function setGray(slot0, slot1, slot2)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-6, warpins: 1 ---
-	GetOrAddComponent(slot0, "UIGrayScale").recursive = (slot2 ~= nil and slot2) or true
-	GetOrAddComponent(slot0, "UIGrayScale").enabled = slot1
-
-	return
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 10-12, warpins: 2 ---
-	--- END OF BLOCK #1 ---
-
-
-
+	slot3 = GetOrAddComponent(slot0, "UIGrayScale")
+	slot3.recursive = slot2 ~= nil and slot2 or true
+	slot3.enabled = slot1
 end
 
 function long2int(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-5, warpins: 1 ---
 	slot1, slot2 = int64.tonum2(slot0)
 
 	return slot1
-	--- END OF BLOCK #0 ---
-
-
-
 end
 
 function addSlip(slot0, slot1, slot2, slot3)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-21, warpins: 1 ---
 	slot4 = GetOrAddComponent(slot1, "EventTriggerListener")
 	slot5 = nil
 	slot6 = 0
 	slot7 = 50
 
 	slot4:AddBeginDragFunc(function ()
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-3, warpins: 1 ---
-		slot0 = 0
-		slot1 = nil
-
-		return
-		--- END OF BLOCK #0 ---
-
-
-
+		uv0 = 0
+		uv1 = nil
 	end)
 	slot4:AddDragFunc(function (slot0, slot1)
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-4, warpins: 1 ---
-		slot2 = slot1.position
-
-		if not slot0 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 5-5, warpins: 1 ---
-			slot0 = slot2
-			--- END OF BLOCK #0 ---
-
-
-
+		if not uv0 then
+			uv0 = slot1.position
 		end
 
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 6-9, warpins: 2 ---
-		if slot1 == SLIP_TYPE_HRZ then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 10-15, warpins: 1 ---
-			slot2 = slot2.x - slot0.x
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 16-19, warpins: 1 ---
-			if slot1 == SLIP_TYPE_VERT then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 20-24, warpins: 1 ---
-				slot2 = slot2.y - slot0.y
-				--- END OF BLOCK #0 ---
-
-
-
-			end
-			--- END OF BLOCK #0 ---
-
-
-
+		if uv1 == SLIP_TYPE_HRZ then
+			uv2 = slot2.x - uv0.x
+		elseif uv1 == SLIP_TYPE_VERT then
+			uv2 = slot2.y - uv0.y
 		end
-
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 25-25, warpins: 3 ---
-		return
-		--- END OF BLOCK #2 ---
-
-
-
 	end)
 	slot4:AddDragEndFunc(function (slot0, slot1)
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-5, warpins: 1 ---
-		if slot0 < -slot1 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 6-8, warpins: 1 ---
-			if slot2 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 9-11, warpins: 1 ---
-				slot2()
-				--- END OF BLOCK #0 ---
-
-
-
+		if uv0 < -uv1 then
+			if uv2 then
+				uv2()
 			end
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 12-15, warpins: 1 ---
-			if slot1 < slot0 and slot3 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 19-20, warpins: 1 ---
-				slot3()
-				--- END OF BLOCK #0 ---
-
-
-
-			end
-			--- END OF BLOCK #0 ---
-
-
-
+		elseif uv1 < uv0 and uv3 then
+			uv3()
 		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 21-21, warpins: 5 ---
-		return
-		--- END OF BLOCK #1 ---
-
-
-
 	end)
-
-	return
-	--- END OF BLOCK #0 ---
-
-
-
 end
-
-return

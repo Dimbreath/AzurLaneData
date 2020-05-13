@@ -32,5 +32,3 @@ pg.questionnaire_template = {
 		2
 	}
 }
-
-return

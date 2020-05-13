@@ -10,16 +10,16 @@ slot0.ON_RENAME = "CommanderInfoMediator:ON_RENAME"
 
 function slot0.register(slot0)
 	slot0:bind(CommandRoomMediator.OPEN_RENAME_PANEL, function (slot0, slot1)
-		slot0.viewComponent:opeRenamePanel(slot1)
+		uv0.viewComponent:opeRenamePanel(slot1)
 	end)
 	slot0:bind(CommandRoomMediator.SHOW_MSGBOX, function (slot0, slot1)
-		slot0.viewComponent:openMsgBox(slot1)
+		uv0.viewComponent:openMsgBox(slot1)
 	end)
 	slot0:bind(CommandRoomMediator.ON_TREE_MSGBOX, function (slot0, slot1)
-		slot0.viewComponent:openTreePanel(slot1)
+		uv0.viewComponent:openTreePanel(slot1)
 	end)
 	slot0:bind(CommandRoomMediator.ON_CMD_SKILL, function (slot0, slot1)
-		slot0:addSubLayers(Context.New({
+		uv0:addSubLayers(Context.New({
 			mediator = CommanderSkillMediator,
 			viewComponent = CommanderSkillLayer,
 			data = {
@@ -27,124 +27,124 @@ function slot0.register(slot0)
 			}
 		}))
 	end)
-	slot0:bind(slot0.ON_RENAME, function (slot0, slot1, slot2)
-		slot0:sendNotification(GAME.COMMANDER_RENAME, {
+	slot0:bind(uv0.ON_RENAME, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.COMMANDER_RENAME, {
 			commanderId = slot1,
 			name = slot2
 		})
 	end)
-	slot0:bind(slot0.ON_NEXT, function (slot0)
-		slot0.contextData.materialIds = {}
+	slot0:bind(uv0.ON_NEXT, function (slot0)
+		uv0.contextData.materialIds = {}
+		slot1 = uv0.contextData.displayIds or {}
 
-		if table.indexof(slot0.contextData.displayIds or {}, slot2) + 1 <= #(slot0.contextData.displayIds or ) then
-			slot0.contextData.commanderId = slot1[slot3 + 1]
+		if table.indexof(slot1, uv0.contextData.commanderId) + 1 <= #slot1 then
+			slot4 = slot1[slot3 + 1]
+			uv0.contextData.commanderId = slot4
 
-			slot0:setCommander()
+			uv0:setCommander()
 
-			CommandRoomScene.commanderId = slot1[slot3 + 1]
+			CommandRoomScene.commanderId = slot4
 		end
 	end)
-	slot0:bind(slot0.ON_PREV, function (slot0)
-		slot0.contextData.materialIds = {}
+	slot0:bind(uv0.ON_PREV, function (slot0)
+		uv0.contextData.materialIds = {}
 
-		if table.indexof(slot0.contextData.displayIds or {}, slot2) - 1 > 0 then
-			slot0.contextData.commanderId = slot1[slot3 - 1]
+		if table.indexof(uv0.contextData.displayIds or {}, uv0.contextData.commanderId) - 1 > 0 then
+			slot4 = slot1[slot3 - 1]
+			uv0.contextData.commanderId = slot4
 
-			slot0:setCommander()
+			uv0:setCommander()
 
-			CommandRoomScene.commanderId = slot1[slot3 - 1]
+			CommandRoomScene.commanderId = slot4
 		end
 	end)
 	slot0:bind(CommandRoomMediator.ON_LOCK, function (slot0, slot1, slot2)
-		slot0:sendNotification(GAME.COMMANDER_LOCK, {
+		uv0:sendNotification(GAME.COMMANDER_LOCK, {
 			commanderId = slot1,
 			flag = slot2
 		})
 	end)
-	slot0:bind(slot0.FETCH_NOT_LEARNED_TALENT, function (slot0, slot1)
-		slot0:sendNotification(GAME.COMMANDER_FETCH_NOT_LEARNED_TALENT, {
+	slot0:bind(uv0.FETCH_NOT_LEARNED_TALENT, function (slot0, slot1)
+		uv0:sendNotification(GAME.COMMANDER_FETCH_NOT_LEARNED_TALENT, {
 			id = slot1
 		})
 	end)
-	slot0:bind(slot0.RESET_TALENTS, function (slot0, slot1)
-		slot0:sendNotification(GAME.COMMANDER_RESET_TALENTS, {
+	slot0:bind(uv0.RESET_TALENTS, function (slot0, slot1)
+		uv0:sendNotification(GAME.COMMANDER_RESET_TALENTS, {
 			id = slot1
 		})
 	end)
-	slot0:bind(slot0.ON_LEARN_TALENT, function (slot0, slot1, slot2, slot3)
-		slot0:sendNotification(GAME.COMMANDER_LEARN_TALENTS, {
+	slot0:bind(uv0.ON_LEARN_TALENT, function (slot0, slot1, slot2, slot3)
+		uv0:sendNotification(GAME.COMMANDER_LEARN_TALENTS, {
 			id = slot1,
 			talentId = slot2,
 			replaceid = slot3
 		})
 	end)
-	slot0:bind(slot0.ON_SELECT, function (slot0)
-		slot0.contextData.page = CommanderInfoScene.PAGE_PLAY
-		slot1 = getProxy(CommanderProxy):getCommanderById(slot0.contextData.commanderId)
-		slot3 = {}
+	slot0:bind(uv0.ON_SELECT, function (slot0)
+		uv0.contextData.page = CommanderInfoScene.PAGE_PLAY
+		slot1 = getProxy(CommanderProxy):getCommanderById(uv0.contextData.commanderId)
 
-		for slot7, slot8 in pairs(slot2) do
+		for slot7, slot8 in pairs(getProxy(CommanderProxy):getData()) do
 			if slot8:isLocked() then
-				table.insert(slot3, slot8.id)
+				table.insert({}, slot8.id)
 			end
 		end
 
 		if getProxy(ChapterProxy):getActiveChapter() then
 			_.each(slot4.fleets, function (slot0)
-				for slot5, slot6 in pairs(slot1) do
-					table.insert(slot0, slot6.id)
+				for slot5, slot6 in pairs(slot0:getCommanders()) do
+					table.insert(uv0, slot6.id)
 				end
 			end)
 		end
 
-		table.insert(slot3, slot0.contextData.commanderId)
+		table.insert(slot3, uv0.contextData.commanderId)
 
-		slot6 = getProxy(FleetProxy).getCommanders(slot5)
+		slot6 = getProxy(FleetProxy):getCommanders()
 
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.COMMANDROOM, {
 			maxCount = 10,
 			mode = CommandRoomScene.MODE_SELECT,
 			activeCommander = slot1,
 			activeGroupId = slot1.groupId,
-			selectedIds = slot0.contextData.materialIds,
+			selectedIds = uv0.contextData.materialIds,
 			ignoredIds = slot3,
 			onCommander = function (slot0, slot1, slot2, slot3)
 				slot4 = nil
 
-				return 
-				-- Decompilation error in this vicinity:
-				function ()
-					if slot0:isMaxLevel() and not slot0:isSameGroup(slot1.groupId) then
+				return function ()
+					if uv0:isMaxLevel() and not uv0:isSameGroup(uv1.groupId) then
 						return false, i18n("commander_select_matiral_erro")
 					end
 
-					if _.detect(slot2, function (slot0)
-						return slot0.id == slot0.commanderId
+					if _.detect(uv2, function (slot0)
+						return uv0.id == slot0.commanderId
 					end) then
-						slot3:openMsgBox({
+						uv3:openMsgBox({
 							content = i18n("commander_material_is_in_fleet_tip"),
 							onYes = function ()
-								slot0:sendNotification(GAME.COOMMANDER_EQUIP_TO_FLEET, {
+								uv0:sendNotification(GAME.COOMMANDER_EQUIP_TO_FLEET, {
 									commanderId = 0,
-									fleetId = slot1.fleetId,
-									pos = slot1.pos,
+									fleetId = uv1.fleetId,
+									pos = uv1.pos,
 									callback = function ()
-										slot0 = slot1:getCommanders()
+										uv0 = uv1:getCommanders()
 
-										if slot2 then
-											slot2()
+										if uv2 then
+											uv2()
 										end
 									end
 								})
 							end,
 							onNo = function ()
-								if slot0 then
-									slot0()
+								if uv0 then
+									uv0()
 								end
 							end,
 							onClose = function ()
-								if slot0 then
-									slot0()
+								if uv0 then
+									uv0()
 								end
 							end
 						})
@@ -154,31 +154,33 @@ function slot0.register(slot0)
 				end()
 			end,
 			onSelected = function (slot0, slot1)
-				slot0.contextData.materialIds = slot0
+				uv0.contextData.materialIds = slot0
 
 				slot1()
 			end
 		})
 	end)
-	slot0:bind(slot0.ON_UPGRADE, function (slot0, slot1, slot2, slot3)
-		slot0:sendNotification(GAME.COMMANDER_UPGRADE, {
+	slot0:bind(uv0.ON_UPGRADE, function (slot0, slot1, slot2, slot3)
+		uv0:sendNotification(GAME.COMMANDER_UPGRADE, {
 			id = slot1,
 			materialIds = slot2,
 			skillId = slot3
 		})
 	end)
 	slot0:setCommander()
-	slot0.viewComponent:setPlayer(getProxy(PlayerProxy).getData(slot1))
+	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 	slot0.viewComponent:setPools(getProxy(CommanderProxy):getPools())
 end
 
 function slot0.setCommander(slot0)
+	slot2 = getProxy(CommanderProxy):getCommanderById(slot0.contextData.commanderId)
+
 	slot0:markFleet(slot2)
-	slot0.viewComponent:setCommander(getProxy(CommanderProxy).getCommanderById(slot1, slot0.contextData.commanderId))
+	slot0.viewComponent:setCommander(slot2)
 end
 
 function slot0.markFleet(slot0, slot1)
-	for slot7, slot8 in pairs(slot3) do
+	for slot7, slot8 in pairs(getProxy(FleetProxy):getData()) do
 		for slot12, slot13 in pairs(slot8:getCommanders()) do
 			if slot13.id == slot1.id then
 				slot14 = slot8.id
@@ -197,10 +199,10 @@ function slot0.markFleet(slot0, slot1)
 
 	if getProxy(ChapterProxy):getActiveChapter() then
 		_.each(slot4.fleets, function (slot0)
-			if _.any(_.values(slot1), function (slot0)
-				return slot0.id == slot0.id
+			if _.any(_.values(slot0:getCommanders()), function (slot0)
+				return slot0.id == uv0.id
 			end) then
-				slot0.inBattle = true
+				uv0.inBattle = true
 			end
 		end)
 	end
@@ -219,25 +221,27 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
-	slot3 = slot1:getBody()
-
 	if GAME.COMMANDER_FETCH_NOT_LEARNED_TALENT_DONE == slot1:getName() then
-		slot0.viewComponent.panels[CommanderInfoScene.PAGE_TALENT].update(slot4, slot3.commander)
-		slot0.viewComponent.panels[CommanderInfoScene.PAGE_TALENT]:openUseagePanel()
+		slot4 = slot0.viewComponent.panels[CommanderInfoScene.PAGE_TALENT]
+
+		slot4:update(slot1:getBody().commander)
+		slot4:openUseagePanel()
 	elseif slot2 == CommanderProxy.COMMANDER_UPDATED then
 		if slot0.viewComponent.commanderVO.id == slot3.id then
 			slot0:markFleet(slot3)
 			slot0.viewComponent:setCommander(slot3)
 		end
 	elseif slot2 == GAME.COMMANDER_LEARN_TALENTS_DONE then
-		slot0.viewComponent.panels[CommanderInfoScene.PAGE_TALENT].update(slot4, slot3.commander)
-		slot0.viewComponent.panels[CommanderInfoScene.PAGE_TALENT]:closeUsagePanel()
+		slot4 = slot0.viewComponent.panels[CommanderInfoScene.PAGE_TALENT]
+
+		slot4:update(slot3.commander)
+		slot4:closeUsagePanel()
 	elseif slot2 == GAME.COMMANDER_UPGRADE_DONE then
 		for slot7 = #slot0.contextData.displayIds, 1, -1 do
 			slot8 = slot0.contextData.displayIds[slot7]
 
 			if _.any(slot0.contextData.materialIds, function (slot0)
-				return slot0 == slot0
+				return uv0 == slot0
 			end) then
 				table.remove(slot0.contextData.displayIds, slot7)
 			end

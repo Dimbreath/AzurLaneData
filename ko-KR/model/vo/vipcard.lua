@@ -9,13 +9,13 @@ function slot0.Ctor(slot0, slot1)
 end
 
 function slot0.getLeftDate(slot0)
-	if slot0.type == slot0.MONTH then
+	if slot0.type == uv0.MONTH then
 		return slot0.leftDate + 86400
 	end
 end
 
 function slot0.isExpire(slot0)
-	if slot0.type == slot0.MONTH then
+	if slot0.type == uv0.MONTH then
 		return slot0:getLeftDate() <= pg.TimeMgr.GetInstance():GetServerTime()
 	end
 end

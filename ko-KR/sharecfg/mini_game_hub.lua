@@ -126,5 +126,3 @@ pg.mini_game_hub = {
 		8
 	}
 }
-
-return

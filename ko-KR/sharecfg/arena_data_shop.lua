@@ -106,5 +106,3 @@ pg.arena_data_shop = {
 		1
 	}
 }
-
-return

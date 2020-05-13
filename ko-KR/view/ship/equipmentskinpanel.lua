@@ -55,8 +55,8 @@ function slot0.doAnim(slot0, slot1, slot2)
 	slot5 = slot1:GetComponent(typeof(CanvasGroup))
 	slot6 = slot2:GetComponent(typeof(CanvasGroup))
 
-	LeanTween.moveLocal(go(slot1), slot3, slot0)
-	LeanTween.moveLocal(go(slot2), slot4, slot0)
+	LeanTween.moveLocal(go(slot1), slot2.localPosition, uv0)
+	LeanTween.moveLocal(go(slot2), slot1.localPosition, uv0)
 
 	slot7 = 0.8
 	slot8 = 1
@@ -66,15 +66,15 @@ function slot0.doAnim(slot0, slot1, slot2)
 		slot7 = 1
 	end
 
-	LeanTween.alphaCanvas(slot5, slot8, slot0):setFrom(slot7)
-	LeanTween.value(go(slot2), slot8, slot7, slot0):setOnUpdate(System.Action_float(function (slot0)
-		slot0.alpha = slot0
+	LeanTween.alphaCanvas(slot5, slot8, uv0):setFrom(slot7)
+	LeanTween.value(go(slot2), slot8, slot7, uv0):setOnUpdate(System.Action_float(function (slot0)
+		uv0.alpha = slot0
 	end))
 
 	slot6.blocksRaycasts = not slot0.inSkinPage
 	slot5.blocksRaycasts = slot0.inSkinPage
 
-	(not slot0.inSkinPage and slot2) or slot1:SetAsLastSibling()
+	(not slot0.inSkinPage and slot2 or slot1):SetAsLastSibling()
 end
 
 function slot0.updateAll(slot0, slot1)
@@ -101,16 +101,18 @@ function slot0.updateEquipmentTF(slot0, slot1, slot2)
 	slot0.shipVO = slot1
 
 	if slot1 then
+		slot3 = slot0.equipmentTFs[slot2]
+
 		removeOnButton(slot3)
 
 		slot4 = slot1:getEquip(slot2)
 
-		if IsNil(slot0.equipmentTFs[slot2].Find(slot3, "info")) then
+		if IsNil(slot3:Find("info")) then
 			slot5 = cloneTplTo(slot0.infoPanel, slot3, "info")
 		end
 
 		slot6 = slot0:findTF("panel_title/type", slot3)
-		slot6:GetComponent(typeof(Image)).sprite = slot0:findTF(slot7, slot0.resource):GetComponent(typeof(Image)).sprite
+		slot6:GetComponent(typeof(Image)).sprite = slot0:findTF(EquipType.Types2Title(slot2, slot0.shipVO.configId), slot0.resource):GetComponent(typeof(Image)).sprite
 
 		slot6:GetComponent(typeof(Image)):SetNativeSize()
 		setActive(slot5, slot4)
@@ -131,27 +133,28 @@ end
 
 function slot0.updateEquipmentPanel(slot0, slot1, slot2)
 	slot3 = slot0.shipVO:getEquip(slot2)
-	slot4 = slot3.skinId
 	slot5 = slot3:hasSkin()
 
-	setActive(slot7, slot5)
+	setActive(slot1:Find("info"), slot5)
 	setActive(slot1:Find("add"), not slot5)
 
 	if slot5 then
-		slot0:updateSkinInfo(slot7, slot4)
+		slot0:updateSkinInfo(slot7, slot3.skinId)
 		onButton(slot0, slot0.equipmentTFs[slot2], function ()
-			slot0:emit(ShipMainMediator.ON_SELECT_EQUIPMENT_SKIN, slot0)
+			uv0:emit(ShipMainMediator.ON_SELECT_EQUIPMENT_SKIN, uv1)
 		end, SFX_PANEL)
 	else
 		onButton(slot0, slot6:Find("icon"), function ()
-			slot0:emit(ShipMainMediator.ON_SELECT_EQUIPMENT_SKIN, slot0)
+			uv0:emit(ShipMainMediator.ON_SELECT_EQUIPMENT_SKIN, uv1)
 		end, SFX_PANEL)
 	end
 end
 
 function slot0.updateSkinInfo(slot0, slot1, slot2)
-	setText(slot1:Find("desc"), pg.equip_skin_template[slot2].desc)
-	setText(slot1:Find("cont/name_mask/name"), pg.equip_skin_template[slot2].name)
+	slot3 = pg.equip_skin_template[slot2]
+
+	setText(slot1:Find("desc"), slot3.desc)
+	setText(slot1:Find("cont/name_mask/name"), slot3.name)
 	updateDrop(slot1:Find("IconTpl"), {
 		type = DROP_TYPE_EQUIPMENT_SKIN,
 		id = slot2

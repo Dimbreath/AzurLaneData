@@ -30,7 +30,7 @@ function slot0.getConsumeDesc(slot0)
 
 	return i18n("commander_build_pool_tip", Item.New({
 		id = slot0:getConfig("use_item")
-	}).getConfig(slot4, "name"), slot0:getConfig("number_1"))
+	}):getConfig("name"), slot0:getConfig("number_1"))
 end
 
 function slot0.getPrint(slot0)
