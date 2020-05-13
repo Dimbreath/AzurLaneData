@@ -79,5 +79,3 @@ pg.land_based_template = {
 		12
 	}
 }
-
-return

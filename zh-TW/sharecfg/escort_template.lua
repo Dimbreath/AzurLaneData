@@ -352,5 +352,3 @@ pg.escort_template = {
 		20011
 	}
 }
-
-return

@@ -45,11 +45,10 @@ function slot0.getTacticSkill(slot0)
 end
 
 function slot0.getDesc(slot0)
-	slot1 = ""
 	slot2 = slot0:getLevel()
 
-	for slot7, slot8 in ipairs(slot3) do
-		slot1 = slot1 .. ((slot2 < slot8[1] and "<color=#a3a2a2>Lv.") or "Lv.") .. slot8[1] .. "：" .. slot8[2] .. ((slot2 < slot8[1] and "</color>") or "") .. "\n"
+	for slot7, slot8 in ipairs(slot0:getConfig("desc")) do
+		slot1 = "" .. (slot2 < slot8[1] and "<color=#a3a2a2>Lv." or "Lv.") .. slot8[1] .. "：" .. slot8[2] .. (slot2 < slot8[1] and "</color>" or "") .. "\n"
 	end
 
 	return slot1

@@ -2,10 +2,12 @@ slot0 = class("ActivityShop", import(".BaseShop"))
 
 function slot0.Ctor(slot0, slot1)
 	slot0.activityId = slot1.id
-	slot2 = {}
+	slot2 = {
+		[slot7] = slot1.data2_list[slot6]
+	}
 
 	for slot6, slot7 in ipairs(slot1.data1_list) do
-		slot2[slot7] = slot1.data2_list[slot6]
+		-- Nothing
 	end
 
 	slot0.goods = {}
@@ -43,7 +45,7 @@ function slot0.getSortGoods(slot0)
 	end
 
 	table.sort(slot1, function (slot0, slot1)
-		if ((slot0:canPurchase() and 1) or 0) == ((slot1:canPurchase() and 1) or 0) then
+		if (slot0:canPurchase() and 1 or 0) == (slot1:canPurchase() and 1 or 0) then
 			if slot0:getConfig("order") == slot1:getConfig("order") then
 				return slot0.id < slot1.id
 			else
@@ -70,7 +72,11 @@ function slot0.isEnd(slot0)
 end
 
 function slot0.getOpenTime(slot0)
-	return string.format("%d.%d.%d~%d.%d.%d", pg.activity_template[slot0.activityId].time[2][1][1], pg.activity_template[slot0.activityId].time[2][1][2], pg.activity_template[slot0.activityId].time[2][1][3], pg.activity_template[slot0.activityId].time[3][1][1], pg.activity_template[slot0.activityId].time[3][1][2], pg.activity_template[slot0.activityId].time[3][1][3])
+	slot2 = pg.activity_template[slot0.activityId].time
+	slot3 = slot2[2][1]
+	slot4 = slot2[3][1]
+
+	return string.format("%d.%d.%d~%d.%d.%d", slot3[1], slot3[2], slot3[3], slot4[1], slot4[2], slot4[3])
 end
 
 function slot0.getStartTime(slot0)
@@ -82,17 +88,20 @@ function slot0.getStartTime(slot0)
 end
 
 function slot0.getBgPath(slot0)
-	return slot1.config_client[1], Color.New(pg.activity_template[slot0.activityId].config_client[2] or {
+	slot2 = pg.activity_template[slot0.activityId].config_client[2] or {
 		255,
 		255,
 		255,
 		255
-	}[1], pg.activity_template[slot0.activityId].config_client[2] or [2], pg.activity_template[slot0.activityId].config_client[2] or [3], pg.activity_template[slot0.activityId].config_client[2] or [4]), Color.New(slot1.config_client.outline or {
+	}
+	slot3 = slot1.config_client.outline or {
 		0,
 		0,
 		0,
 		1
-	}[1], slot1.config_client.outline or [2], slot1.config_client.outline or [3], slot1.config_client.outline or [4])
+	}
+
+	return slot1.config_client[1], Color.New(slot2[1], slot2[2], slot2[3], slot2[4]), Color.New(slot3[1], slot3[2], slot3[3], slot3[4])
 end
 
 function slot0.getToggleImage(slot0)

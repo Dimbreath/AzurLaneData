@@ -1,40 +1,39 @@
 slot0 = Layer
 slot1 = rawget
-UnityEngine.LayerMask = {
+slot3 = {
 	__index = function (slot0, slot1)
-		return slot0(slot1, slot1)
+		return uv0(uv1, slot1)
 	end,
 	__call = function (slot0, slot1)
-		return slot0({
+		return uv0({
 			value = value or 0
-		}, slot1)
+		}, uv1)
 	end,
 	New = function (slot0)
-		return slot0({
+		return uv0({
 			value = slot0 or 0
-		}, slot0)
+		}, uv1)
 	end,
 	Get = function (slot0)
 		return slot0.value
 	end,
 	NameToLayer = function (slot0)
-		return slot0[slot0]
+		return uv0[slot0]
 	end,
 	GetMask = function (...)
-		slot1 = 0
-
 		for slot5 = 1, #{
 			...
-		}, 1 do
-			if slot0.NameToLayer(slot0[slot5]) ~= nil then
-				slot1 = slot1 + 2^slot6
+		} do
+			if uv0.NameToLayer(slot0[slot5]) ~= nil then
+				slot1 = 0 + 2^slot6
 			end
 		end
 
 		return slot1
 	end
 }
+UnityEngine.LayerMask = slot3
 
-setmetatable(, )
+setmetatable(slot3, slot3)
 
-return 
+return slot3

@@ -3,7 +3,7 @@ slot0.ONLINE = 1
 slot0.OFFLINE = 0
 
 function slot0.Ctor(slot0, slot1)
-	slot0.super.Ctor(slot0, slot1)
+	uv0.super.Ctor(slot0, slot1)
 
 	slot0.shipCount = slot1.ship_count or 0
 	slot0.collectionCount = slot1.collection_count or 0
@@ -23,7 +23,7 @@ function slot0.resetUnreadCount(slot0)
 end
 
 function slot0.isOnline(slot0)
-	return slot0.online == slot0.ONLINE
+	return slot0.online == uv0.ONLINE
 end
 
 function slot0.hasUnreadMsg(slot0)

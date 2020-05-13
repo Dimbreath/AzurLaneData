@@ -131,5 +131,3 @@ pg.equip_data_by_type = {
 		17
 	}
 }
-
-return

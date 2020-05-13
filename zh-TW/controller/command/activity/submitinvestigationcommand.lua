@@ -1,4 +1,6 @@
-class("SubmitInvestigationCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("SubmitInvestigationCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.activityId
 	slot4 = slot2.id
@@ -29,15 +31,18 @@ class("SubmitInvestigationCommand", pm.SimpleCommand).execute = function (slot0,
 			slot1 = {}
 
 			for slot5, slot6 in ipairs(slot0.drop_list) do
+				slot7 = Item.New(slot6)
+
 				table.insert(slot1, slot7)
-				slot0:sendNotification(GAME.ADD_ITEM, Item.New(slot6))
+				uv0:sendNotification(GAME.ADD_ITEM, slot7)
 			end
 
 			slot2 = getProxy(ActivityProxy)
-			slot2:getActivityById(slot1).data1 = pg.TimeMgr.GetInstance():GetServerTime()
+			slot3 = slot2:getActivityById(uv1)
+			slot3.data1 = pg.TimeMgr.GetInstance():GetServerTime()
 
 			slot2:updateActivity(slot3)
-			slot0:sendNotification(GAME.SUBMIT_INVESTIGATION_DONE, {
+			uv0:sendNotification(GAME.SUBMIT_INVESTIGATION_DONE, {
 				items = slot1
 			})
 		else
@@ -46,4 +51,4 @@ class("SubmitInvestigationCommand", pm.SimpleCommand).execute = function (slot0,
 	end)
 end
 
-return class("SubmitInvestigationCommand", pm.SimpleCommand)
+return slot0

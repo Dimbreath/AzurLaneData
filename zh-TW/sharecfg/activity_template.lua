@@ -5412,5 +5412,3 @@ pg.activity_template = {
 		45000
 	}
 }
-
-return

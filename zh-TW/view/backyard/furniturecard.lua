@@ -32,24 +32,32 @@ function slot0.update(slot0, slot1, slot2)
 			slot0:destoryTimer()
 		end
 
+		slot6 = slot1:canPurchaseByDormMoeny()
+
 		setActive(slot0.dormMoneytxt.parent, slot6)
 		setActive(slot0.gemtxt.parent, slot1:canPurchaseByGem())
-		setActive(slot0.lineTF, slot1:canPurchaseByDormMoeny() and slot7)
+		setActive(slot0.lineTF, slot6 and slot7)
 		setText(slot0.dormMoneytxt, slot1:getPrice(6))
 		setText(slot0.gemtxt, slot1:getPrice(4))
 		setText(slot0.descTF, i18n("word_comfort_level") .. "+" .. slot1:getConfig("comfortable"))
 		setText(slot0.nameTF, slot1:getConfig("name"))
 		setImageSprite(slot0.iconTF, GetSpriteFromAtlas("furnitureicon/" .. slot1:getConfig("icon"), ""))
-		setActive(slot0.maskTF, (slot1:inTheme() and slot2.level < pg.backyard_theme_template[slot1:getConfig("themeId")].deblocking) or not slot1:canPurchase())
-		setActive(slot0.maskLockTF, slot1.inTheme() and slot2.level < pg.backyard_theme_template[slot1.getConfig("themeId")].deblocking)
-		setActive(slot0.maskBought, not (slot1.inTheme() and slot2.level < pg.backyard_theme_template[slot1.getConfig("themeId")].deblocking) and not slot1:canPurchase())
+
+		slot9 = slot1:inTheme() and slot2.level < pg.backyard_theme_template[slot1:getConfig("themeId")].deblocking
+
+		setActive(slot0.maskTF, slot9 or not slot1:canPurchase())
+		setActive(slot0.maskLockTF, slot9)
+		setActive(slot0.maskBought, not slot9 and not slot1:canPurchase())
 
 		if not IsNil(slot0.tags) then
 			setActive(slot0.tags, true)
 			setActive(slot0.tags:Find("tag_new"), slot1:getConfig("new") == 1)
-			setActive(slot0.tags:Find("tag_discount"), slot1:isDisCount())
 
-			if slot1.isDisCount() then
+			slot10 = slot1:isDisCount()
+
+			setActive(slot0.tags:Find("tag_discount"), slot10)
+
+			if slot10 then
 				setText(findTF(slot11, "Text"), slot1:getConfig("discount") .. "%off")
 			end
 		end
@@ -65,28 +73,28 @@ end
 function slot0.updateCountdown(slot0, slot1)
 	slot0:destoryTimer()
 
-	slot3 = pg.TimeMgr.GetInstance().Table2ServerTime(slot2, slot1)
+	slot3 = pg.TimeMgr.GetInstance():Table2ServerTime(slot1)
 	slot0.updateTimer = Timer.New(function ()
-		if slot0 < slot0:GetServerTime() then
-			slot2.countDownTm.text = ""
+		if uv1 < uv0:GetServerTime() then
+			uv2.countDownTm.text = ""
 
-			"":destoryTimer()
+			uv2:destoryTimer()
 
 			return
 		end
 
-		if slot1 - slot0 < 0 then
+		if uv1 - slot0 < 0 then
 			slot1 = 0
 		end
 
 		if math.floor(slot1 / 86400) > 0 then
-			slot2.countDownTm.text = i18n("time_remaining_tip") .. slot2 .. i18n("word_date")
+			uv2.countDownTm.text = i18n("time_remaining_tip") .. slot2 .. i18n("word_date")
 		elseif math.floor(slot1 / 3600) > 0 then
-			slot2.countDownTm.text = i18n("time_remaining_tip") .. slot3 .. i18n("word_hour")
+			uv2.countDownTm.text = i18n("time_remaining_tip") .. slot3 .. i18n("word_hour")
 		elseif math.floor(slot1 / 60) > 0 then
-			slot2.countDownTm.text = i18n("time_remaining_tip") .. slot4 .. i18n("word_minute")
+			uv2.countDownTm.text = i18n("time_remaining_tip") .. slot4 .. i18n("word_minute")
 		else
-			slot2.countDownTm.text = i18n("time_remaining_tip") .. slot1 .. i18n("word_second")
+			uv2.countDownTm.text = i18n("time_remaining_tip") .. slot1 .. i18n("word_second")
 		end
 	end, 1, -1)
 

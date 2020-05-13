@@ -14,7 +14,6 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.setAwards(slot0, slot1)
-	return
 end
 
 function slot0.init(slot0)
@@ -26,17 +25,16 @@ function slot0.init(slot0)
 		return not (slot0.type == DROP_TYPE_ICON_FRAME or slot0.type == DROP_TYPE_CHAT_FRAME)
 	end)
 	slot0.onYes = slot0.contextData.awards.onYes
-	slot0.title = slot0.contextData.title or slot0.TITLE.ITEM
+	slot0.title = slot0.contextData.title or uv0.TITLE.ITEM
 	slot0._itemsWindow = slot0._tf:Find("items")
 	slot0.spriteMask = slot0._itemsWindow:Find("SpriteMask")
-	slot1 = {
-		items = slot0._itemsWindow:Find("items"),
-		items_scroll = slot0._itemsWindow:Find("items_scroll/viewport/content"),
-		ships = slot0._itemsWindow:Find("ships")
-	}
 
-	if slot0.title == slot0.TITLE.SHIP then
-		slot0.container = slot1.ships
+	if slot0.title == uv0.TITLE.SHIP then
+		slot0.container = ({
+			items = slot0._itemsWindow:Find("items"),
+			items_scroll = slot0._itemsWindow:Find("items_scroll/viewport/content"),
+			ships = slot0._itemsWindow:Find("ships")
+		}).ships
 	elseif #slot0.awards <= 10 then
 		slot0.container = slot1.items
 	else
@@ -59,14 +57,12 @@ function slot0.init(slot0)
 	slot0.shipTpl = slot0._itemsWindow:Find("ship_tpl")
 	slot0.continueBtn = slot0:findTF("items/close")
 
-	setActive(slot0.titleItem, slot0.title == slot0.TITLE.ITEM)
-	setActive(slot0.titleShip, slot0.title == slot0.TITLE.SHIP)
-	setActive(slot0.titleEscort, slot0.title == slot0.TITLE.ESCORT)
+	setActive(slot0.titleItem, slot0.title == uv0.TITLE.ITEM)
+	setActive(slot0.titleShip, slot0.title == uv0.TITLE.SHIP)
+	setActive(slot0.titleEscort, slot0.title == uv0.TITLE.ESCORT)
 
-	slot2 = slot0._tf:Find("decorations")
-
-	if slot0.title == slot0.TITLE.SHIP then
-		setLocalScale(slot2, Vector3.New(1.25, 1.25, 1))
+	if slot0.title == uv0.TITLE.SHIP then
+		setLocalScale(slot0._tf:Find("decorations"), Vector3.New(1.25, 1.25, 1))
 	else
 		setLocalScale(slot2, Vector3.one)
 	end
@@ -80,41 +76,43 @@ end
 
 function slot0.doAnim(slot0, slot1)
 	LeanTween.scale(rtf(slot0._itemsWindow), Vector3(1, 1, 1), 0.15):setEase(LeanTweenType.linear):setOnComplete(System.Action(function ()
-		if slot0 then
-			slot0()
+		if uv0 then
+			uv0()
 		end
 
-		if slot1.exited then
+		if uv1.exited then
 			return
 		end
 
-		setLocalScale(slot1.spriteMask, Vector3(slot1.spriteMask.rect.width / slot2 * , slot1.spriteMask.rect.height /  * slot3, 1))
+		setLocalScale(uv1.spriteMask, Vector3(uv1.spriteMask.rect.width / uv2 * uv3, uv1.spriteMask.rect.height / uv4 * uv3, 1))
 	end))
 end
 
 function slot0.didEnter(slot0)
 	onButton(slot0, slot0._tf, function ()
-		if not slot0.inited then
+		if not uv0.inited then
 			return
 		end
 
-		if slot0.inAniming then
-			for slot3, slot4 in ipairs(slot0.tweenItems) do
+		if uv0.inAniming then
+			for slot3, slot4 in ipairs(uv0.tweenItems) do
 				LeanTween.cancel(slot4)
 			end
 
-			for slot3 = 1, #slot0.awards, 1 do
-				setActive(slot0.container:GetChild(slot3 - 1), true)
+			for slot3 = 1, #uv0.awards do
+				setActive(uv0.container:GetChild(slot3 - 1), true)
 			end
 
-			slot0.inAniming = false
+			uv0.inAniming = false
 		end
 
-		if slot0.onYes then
-			slot0.onYes()
+		slot0 = uv0.contextData.onClose
+
+		if uv0.onYes then
+			uv0.onYes()
 		end
 
-		slot0:emit(slot1.ON_CLOSE)
+		uv0:emit(uv1.ON_CLOSE)
 
 		if slot0 then
 			slot0()
@@ -123,7 +121,7 @@ function slot0.didEnter(slot0)
 		noShip = not slot0.hasShip
 	})
 	onButton(slot0, slot0.continueBtn, function ()
-		triggerButton(slot0._tf)
+		triggerButton(uv0._tf)
 	end)
 	playSoundEffect(SFX_UI_GETITEM)
 end
@@ -135,9 +133,9 @@ function slot0.onUIAnimEnd(slot0, slot1)
 
 		setActive(slot0.container, false)
 		slot0:doAnim(function ()
-			setActive(slot0.container, true)
-			setActive:displayAwards()
-			setActive.displayAwards:playAnim(setActive.displayAwards)
+			setActive(uv0.container, true)
+			uv0:displayAwards()
+			uv0:playAnim(uv1)
 		end)
 	else
 		slot0:displayAwards()
@@ -161,7 +159,7 @@ function slot5(slot0, slot1)
 	})
 	slot3.virgin = slot1.virgin
 
-	ScrollTxt.New(findTF(slot0, "content/info/name_mask"), findTF(slot0, "content/info/name_mask/name")).setText(slot4, slot3:getName())
+	ScrollTxt.New(findTF(slot0, "content/info/name_mask"), findTF(slot0, "content/info/name_mask/name")):setText(slot3:getName())
 	flushShipCard(slot0, slot3)
 	setActive(findTF(slot0, "content/front/new"), slot1.virgin)
 end
@@ -169,20 +167,20 @@ end
 function slot0.displayAwards(slot0)
 	slot0.inited = false
 
-	for slot4 = #slot0.awards, slot0.container.childCount - 1, 1 do
+	for slot4 = #slot0.awards, slot0.container.childCount - 1 do
 		Destroy(slot0.container:GetChild(slot4))
 	end
 
-	for slot4 = slot0.container.childCount, #slot0.awards - 1, 1 do
-		if slot0.title ~= slot0.TITLE.SHIP then
+	for slot4 = slot0.container.childCount, #slot0.awards - 1 do
+		if slot0.title ~= uv0.TITLE.SHIP then
 			cloneTplTo(slot0.itemTpl, slot0.container)
 		else
 			cloneTplTo(slot0.shipCardTpl, cloneTplTo(slot0.shipTpl, slot0.container), "ship_tpl")
 		end
 	end
 
-	if slot0.title ~= slot0.TITLE.SHIP then
-		for slot4 = 1, #slot0.awards, 1 do
+	if slot0.title ~= uv0.TITLE.SHIP then
+		for slot4 = 1, #slot0.awards do
 			slot5 = slot0.container:GetChild(slot4 - 1):Find("bg")
 
 			if slot0.awards[slot4].type == DROP_TYPE_SHIP then
@@ -193,20 +191,20 @@ function slot0.displayAwards(slot0)
 				fromAwardLayer = true
 			})
 			setActive(findTF(slot5, "bonus"), slot6.riraty)
-			setActive(slot7, false)
+			setActive(findTF(slot5, "name"), false)
 			setActive(findTF(slot5, "name_mask"), true)
 			findTF(slot5, "name_mask/name"):GetComponent("ScrollText"):SetText(slot6.name or getText(slot7))
 			onButton(slot0, slot5, function ()
-				if slot0.inAniming then
+				if uv0.inAniming then
 					return
 				end
 
-				slot0:emit(AwardInfoMediator.ON_DROP, slot0)
+				uv0:emit(AwardInfoMediator.ON_DROP, uv1)
 			end, SFX_PANEL)
 		end
 	else
-		for slot4 = 1, #slot0.awards, 1 do
-			slot1(slot5, slot0.awards[slot4])
+		for slot4 = 1, #slot0.awards do
+			uv1(slot0.container:GetChild(slot4 - 1):Find("ship_tpl"), slot0.awards[slot4])
 
 			if #slot0.awards > 5 then
 				if slot4 <= 5 then
@@ -224,44 +222,42 @@ end
 function slot0.playAnim(slot0, slot1)
 	slot2 = {}
 
-	for slot6 = 1, #slot0.awards, 1 do
-		setActive(slot7, false)
+	for slot6 = 1, #slot0.awards do
+		setActive(slot0.container:GetChild(slot6 - 1), false)
 		table.insert(slot2, function (slot0)
-			function slot1()
-				slot0()
-				setLocalScale(slot1.spriteMask, Vector3(slot1.spriteMask.rect.width / slot2 * , slot1.spriteMask.rect.height /  * slot3, 1))
-			end
-
-			if not slot0.tweenItems then
-				slot1()
+			if not uv0.tweenItems then
+				function ()
+					uv0()
+					setLocalScale(uv1.spriteMask, Vector3(uv1.spriteMask.rect.width / uv2 * uv3, uv1.spriteMask.rect.height / uv4 * uv3, 1))
+				end()
 
 				return
 			end
 
-			setActive(slot4, true)
+			setActive(uv4, true)
 
-			if slot0.title ~= slot5.TITLE.SHIP and #slot0.awards > 10 then
-				scrollTo(slot0._itemsWindow:Find("items_scroll"), 0, 0)
+			if uv0.title ~= uv5.TITLE.SHIP and #uv0.awards > 10 then
+				scrollTo(uv0._itemsWindow:Find("items_scroll"), 0, 0)
 			end
 
-			table.insert(slot0.tweenItems, LeanTween.delayedCall(slot6, System.Action(slot1)).id)
+			table.insert(uv0.tweenItems, LeanTween.delayedCall(uv6, System.Action(slot1)).id)
 		end)
 	end
 
 	slot0.containerCG.alpha = 1
 
 	seriesAsync(slot2, function ()
-		slot0.inAniming = false
+		uv0.inAniming = false
 
-		if false then
-			slot1()
+		if uv1 then
+			uv1()
 		end
 	end)
 end
 
 function slot0.willExit(slot0)
-	if slot0.title ~= slot0.TITLE.SHIP then
-		for slot4 = 0, slot0.container.childCount - 1, 1 do
+	if slot0.title ~= uv0.TITLE.SHIP then
+		for slot4 = 0, slot0.container.childCount - 1 do
 			clearDrop(slot0.container:GetChild(slot4):Find("bg"))
 		end
 	end

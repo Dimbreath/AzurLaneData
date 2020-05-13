@@ -2,8 +2,8 @@ slot0 = class("CardPairsMediator", import("..base.ContextMediator"))
 slot0.EVENT_OPERATION = "event operation"
 
 function slot0.register(slot0)
-	slot0:bind(slot0.EVENT_OPERATION, function (slot0, slot1)
-		slot0:sendNotification(GAME.ACTIVITY_OPERATION, slot1)
+	slot0:bind(uv0.EVENT_OPERATION, function (slot0, slot1)
+		uv0:sendNotification(GAME.ACTIVITY_OPERATION, slot1)
 	end)
 	slot0:setActivityData()
 	slot0:setPlayerData()
@@ -19,10 +19,8 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
-	slot3 = slot1:getBody()
-
 	if slot1:getName() == ActivityProxy.ACTIVITY_UPDATED then
-		slot0.viewComponent:setActivityData(slot3)
+		slot0.viewComponent:setActivityData(slot1:getBody())
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:setPlayerData(slot3)
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOW_AWARDS then
@@ -33,11 +31,11 @@ function slot0.handleNotification(slot0, slot1)
 end
 
 function slot0.setPlayerData(slot0)
-	slot0.viewComponent:setPlayerData(getProxy(PlayerProxy).getData(slot1))
+	slot0.viewComponent:setPlayerData(getProxy(PlayerProxy):getData())
 end
 
 function slot0.setActivityData(slot0)
-	slot0.viewComponent:setActivityData(getProxy(ActivityProxy).getActivityByType(slot1, ActivityConst.ACTIVITY_TYPE_CARD_PAIRS))
+	slot0.viewComponent:setActivityData(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CARD_PAIRS))
 end
 
 return slot0

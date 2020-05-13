@@ -1267,5 +1267,3 @@ pg.chapter_boom = {
 		1190016
 	}
 }
-
-return

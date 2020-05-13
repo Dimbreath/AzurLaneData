@@ -43840,5 +43840,3 @@ pg.ship_data_template = {
 		899014
 	}
 }
-
-return

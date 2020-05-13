@@ -1350,5 +1350,3 @@ pg.skillCfg = {
 }
 
 ys.Battle.BattleDataFunction.ConvertSkillTemplate()
-
-return

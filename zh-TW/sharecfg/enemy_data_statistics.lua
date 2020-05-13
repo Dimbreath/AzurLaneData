@@ -235189,5 +235189,3 @@ pg.enemy_data_statistics = {
 		999412
 	}
 }
-
-return

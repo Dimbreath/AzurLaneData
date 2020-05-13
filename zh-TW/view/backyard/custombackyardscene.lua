@@ -11,20 +11,20 @@ end
 
 function slot0.preload(slot0, slot1)
 	PoolMgr.GetInstance():GetUI("BackYardUI", true, function (slot0)
-		slot0.backyardui = slot0.transform
+		uv0.backyardui = slot0.transform
 
-		slot0.backyardui:SetParent(pg.UIMgr.GetInstance().UIMain.transform, false)
-		setActive(slot0.backyardui, false)
+		uv0.backyardui:SetParent(pg.UIMgr.GetInstance().UIMain.transform, false)
+		setActive(uv0.backyardui, false)
 
-		slot0.loading = slot0.backyardui:Find("loading")
-		slot0.loadingHelp = slot0.backyardui:Find("loading/help")
-		slot0.loadingHelpTx = slot0.backyardui:Find("loading/loading/tipsText")
-		slot0.loadingProgress = slot0.backyardui:Find("loading/loading/loading_bar/progress")
-		slot0.loadingProgressTx = slot0.backyardui:Find("loading/loading/loading_label/percent")
-		slot0.loadingCount = 0
+		uv0.loading = uv0.backyardui:Find("loading")
+		uv0.loadingHelp = uv0.backyardui:Find("loading/help")
+		uv0.loadingHelpTx = uv0.backyardui:Find("loading/loading/tipsText")
+		uv0.loadingProgress = uv0.backyardui:Find("loading/loading/loading_bar/progress")
+		uv0.loadingProgressTx = uv0.backyardui:Find("loading/loading/loading_label/percent")
+		uv0.loadingCount = 0
 
-		slot0:initLoading()
-		slot0.initLoading()
+		uv0:initLoading()
+		uv1()
 	end)
 end
 
@@ -80,7 +80,7 @@ function slot0.getProgress(slot0)
 	if not slot0.loadingCount or not slot0.loadingTotal then
 		return 0
 	else
-		return (slot0.loadingCount == slot0.loadingTotal and 1) or slot0.loadingCount / slot0.loadingTotal
+		return slot0.loadingCount == slot0.loadingTotal and 1 or slot0.loadingCount / slot0.loadingTotal
 	end
 end
 
@@ -89,7 +89,8 @@ function slot0.initLoading(slot0)
 	setParent(slot0.loading, GameObject.Find("OverlayCamera/Overlay/UIOverlay"), false)
 	setSlider(slot0.loadingProgress, 0, 1, 0)
 	setText(slot0.loadingProgressTx, "0.00%")
-	LoadImageSpriteAsync("helpbg/" .. ({
+
+	slot1 = {
 		"battle_maincanon",
 		"battle_plane",
 		"break",
@@ -98,19 +99,24 @@ function slot0.initLoading(slot0)
 		"equip",
 		"strength",
 		"tactics"
-	})[math.clamp(math.random(#) + 1, 1, #)], slot0.loadingHelp)
+	}
+
+	LoadImageSpriteAsync("helpbg/" .. slot1[math.clamp(math.random(#slot1) + 1, 1, #slot1)], slot0.loadingHelp)
 	setText(slot0.loadingHelpTx, pg.server_language[math.random(#pg.server_language)].content)
 
 	slot2 = 0
 	slot0.loadingTimer = Timer.New(function ()
-		slot0 = slot0:getProgress()
+		slot0 = uv0:getProgress()
+		slot1 = math.lerp(uv1, slot0, 0.5)
 
-		setSlider(slot0.loadingProgress, 0, 1, slot1)
-		setText(slot0.loadingProgressTx, string.format("%.2f", math.lerp(math.lerp, slot0, 0.5) * 100) .. "%")
+		setSlider(uv0.loadingProgress, 0, 1, slot1)
+		setText(uv0.loadingProgressTx, string.format("%.2f", slot1 * 100) .. "%")
 
-		if slot0 >= 1 then
+		uv1 = slot0
+
+		if uv1 >= 1 then
 			onNextTick(function ()
-				slot0:hideLoading()
+				uv0:hideLoading()
 			end)
 		end
 	end, 0.0334, -1)
@@ -163,14 +169,14 @@ function slot0.createMap(slot0, slot1, slot2, slot3)
 
 		for slot5, slot6 in ipairs(slot0) do
 			if not slot6.ob.isBoat then
-				slot0.furnitureModals[slot6.ob.id]:SetSiblingIndex(slot1)
+				uv0.furnitureModals[slot6.ob.id]:SetSiblingIndex(slot1)
 			end
 
 			slot1 = slot1 + 1
 		end
 
-		if slot1 then
-			slot0:sortBoat()
+		if uv1 then
+			uv0:sortBoat()
 		end
 	end)
 
@@ -190,7 +196,7 @@ function slot0.getMap(slot0, slot1)
 	if slot1.parent ~= 0 and slot0.maps[slot1.parent] then
 		return slot0.maps[slot1.parent]
 	elseif slot1.parent ~= 0 and not slot0.maps[slot1.parent] then
-		slot8, slot9 = slot0.furnitureVOs[slot1.parent]:getMapSize()
+		slot2, slot3 = slot0.furnitureVOs[slot1.parent]:getMapSize()
 		slot0.maps[slot1.parent] = slot0:createMap(slot2, slot3)
 
 		return slot0.maps[slot1.parent]
@@ -205,14 +211,15 @@ function slot0.createItem(slot0, slot1, slot2, slot3)
 	end
 
 	slot4 = slot0:getMap(slot1)
-	slot9, slot10 = slot1:getSize()
-
-	slot4:PlaceItem(slot2 + 1, slot3 + 1, slot4:CreateItem(slot5, slot6, {
+	slot5, slot6 = slot1:getSize()
+	slot7 = slot4:CreateItem(slot5, slot6, {
 		isBoat = false,
 		id = slot1.id
-	}))
+	})
 
-	slot0.furnItem[slot1.id] = slot4.CreateItem(slot5, slot6, )
+	slot4:PlaceItem(slot2 + 1, slot3 + 1, slot7)
+
+	slot0.furnItem[slot1.id] = slot7
 end
 
 function slot0.removeItem(slot0, slot1)
@@ -244,13 +251,11 @@ function slot0.initFurnitures(slot0)
 		return slot0.parent < slot1.parent
 	end)
 
-	slot2 = {}
-
 	for slot6, slot7 in ipairs(slot1) do
-		table.insert(slot2, function (slot0)
-			slot0.loadingCount = slot0.loadingCount + 1
+		table.insert({}, function (slot0)
+			uv0.loadingCount = uv0.loadingCount + 1
 
-			slot0:loadFurnitureModel(slot0.loadFurnitureModel, slot0)
+			uv0:loadFurnitureModel(uv1, slot0)
 		end)
 	end
 
@@ -259,9 +264,9 @@ function slot0.initFurnitures(slot0)
 	for slot7, slot8 in pairs(slot0.boatVOs) do
 		table.insert(slot3, function (slot0)
 			onNextTick(function ()
-				slot0.loadingCount = slot0.loadingCount + 1
+				uv0.loadingCount = uv0.loadingCount + 1
 
-				slot0:loadboatModal(slot0, )
+				uv0:loadboatModal(uv1, uv2)
 			end)
 		end)
 	end
@@ -269,10 +274,10 @@ function slot0.initFurnitures(slot0)
 	slot0.loadingTotal = #slot2 + #slot3
 
 	limitedParallelAsync(slot2, 4, function ()
-		seriesAsync(seriesAsync, function ()
-			slot0.loadingCount = slot0.loadingTotal
+		seriesAsync(uv0, function ()
+			uv0.loadingCount = uv0.loadingTotal
 		end)
-		seriesAsync:sortWallFurns()
+		uv1:sortWallFurns()
 	end)
 end
 
@@ -315,97 +320,111 @@ function slot0.loadFurnitureModel(slot0, slot1, slot2)
 	SetParent(slot4, slot0.furContain)
 
 	slot4.gameObject.name = slot1.id
+	slot5 = slot4:Find("drag")
 
 	setActive(slot5, false)
-	SetActive(slot0:findTF("rotation", slot4:Find("drag")), slot3)
+	SetActive(slot0:findTF("rotation", slot5), slot1:isFloor())
 
 	slot0.furnitureModals[slot1.id] = slot4
 	slot6 = slot1:getPosition()
 
 	function slot7(slot0)
-		slot0.sizeDelta = Vector2(slot0.rect.width, slot0.rect.height)
+		uv0.sizeDelta = Vector2(slot0.rect.width, slot0.rect.height)
 
-		SetParent(slot1, slot0)
+		SetParent(uv0:Find("icon"), uv0)
 
-		slot2 = slot2(slot2.dir == 2)
-		slot0.localScale = Vector3(slot2, 1, 1)
+		uv0.localScale = Vector3(uv1.getSign(uv2.dir == 2), 1, 1)
 
-		slot0:setWallModalDir(slot2, slot0)
-		slot0.setWallModalDir:updateFurnitruePos(slot2, true)
+		uv3:setWallModalDir(uv2, uv4)
+		uv3:updateFurnitruePos(uv2, true)
 
-		slot2.anchoredPosition3D = Vector3(0, 0, 0)
+		uv5.anchoredPosition3D = Vector3(0, 0, 0)
 
-		if 0 then
-			slot6()
+		if uv6 then
+			uv6()
 		end
 	end
 
 	if not slot1:isSpine() then
 		GetSpriteFromAtlasAsync("furniture/" .. slot1:getConfig("picture"), "", function (slot0)
-			if not IsNil(slot0._tf) then
-				slot1.pivot = getSpritePivot(slot0)
-				slot1 = slot2.createImage("icon", true, slot2.createImage, 1)
+			if not IsNil(uv0._tf) then
+				uv1.pivot = getSpritePivot(slot0)
+				slot1 = uv2.createImage("icon", true, uv1, 1)
 
 				slot1:AddComponent(typeof(AlphaCheck))
 				setImageSprite(slot1, slot0, true)
 
-				if slot1:hasInterActionMask() then
-					ResourceMgr.Inst:getAssetAsync("furniture/" .. slot2, "", typeof(Sprite), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+				if uv3:hasInterActionMask() then
+					ResourceMgr.Inst:getAssetAsync("furniture/" .. uv3:getIntetActionMaskName(), "", typeof(Sprite), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+						slot1 = uv0.createImage("icon_front", false, uv1, 2, true)
+
 						setActive(slot1, false)
 						setImageSprite(slot1, slot0, true)
-						setImageSprite(slot1)
+						uv2(uv3)
 					end), true, true)
 				else
-					slot4(slot0)
+					uv4(slot0)
 				end
-			elseif slot5 then
-				slot5()
+			elseif uv5 then
+				uv5()
 			end
 		end)
 	else
-		slot12, slot9 = slot1:getSpineName()
+		slot8, slot9 = slot1:getSpineName()
 
 		LoadAndInstantiateAsync("sfurniture", slot8, function (slot0)
-			if not IsNil(slot0._tf) then
+			if not IsNil(uv0._tf) then
 				slot1 = rtf(slot0)
-				slot1.pivot = slot1.pivot
+				uv1.pivot = slot1.pivot
 
-				slot3(slot1, "icon", 1, slot1.pivot)
+				function (slot0, slot1, slot2, slot3)
+					slot0.gameObject.name = slot1
+					slot0.anchorMax = Vector2(uv0.x, uv0.y)
+					slot0.anchorMin = Vector2(uv0.x, uv0.y)
 
-				if slot3:hasSpineMask() then
-					slot8, slot5 = slot3:getSpineMaskName()
+					SetParent(slot0.gameObject, uv1)
+
+					slot0.localPosition = Vector3(0, 0, 0)
+
+					slot0:SetSiblingIndex(slot2)
+
+					if slot3 then
+						GetOrAddComponent(slot0:GetChild(0), "SpineAnimUI"):SetAction(slot3, 0)
+					end
+				end(slot1, "icon", 1, uv2)
+
+				if uv3:hasSpineMask() then
+					slot4, slot5 = uv3:getSpineMaskName()
 
 					LoadAndInstantiateAsync("sfurniture", slot4, function (slot0)
 						setActive(slot0, false)
-						slot0(rtf(slot0), "icon_front", 2)
-						slot0(rtf(slot0))
+						uv0(rtf(slot0), "icon_front", 2)
+						uv1(uv2)
 					end, true, true)
 				else
-					slot4(slot1)
+					uv4(slot1)
 				end
 
 				return
 			end
 
-			if slot5 then
-				slot5()
+			if uv5 then
+				uv5()
 			end
 		end, true, true)
 	end
 end
 
 function slot0.createbottomGrid(slot0, slot1, slot2)
-	slot4 = slot0.furnitureModals[slot1.id].Find(slot3, "grids")
-	slot5 = {}
+	slot4 = slot0.furnitureModals[slot1.id]:Find("grids")
 	slot6 = slot1:isFloor()
 
-	for slot11, slot12 in ipairs(slot7) do
+	for slot11, slot12 in ipairs(slot1:getOccupyGrid(slot2)) do
 		slot13 = slot0:getGridTpl(slot6)
 
 		SetParent(slot13, slot0.furContain)
 
-		slot5[slot11] = slot13
-		slot13.localPosition = slot0.getLocalPos(slot12)
+		slot13.localPosition = uv0.getLocalPos(slot12)
 
 		if not slot6 and BackyardFurnitureVO.isRightWall(slot2) then
 			slot13.localScale = Vector3(1, 1, 1)
@@ -414,24 +433,29 @@ function slot0.createbottomGrid(slot0, slot1, slot2)
 		slot13:SetParent(slot4, true)
 	end
 
-	slot0.furnBottomGrids[slot1.id] = slot5
+	slot0.furnBottomGrids[slot1.id] = {
+		[slot11] = slot13
+	}
 end
 
 function slot0.updateFurnitruePos(slot0, slot1, slot2)
 	slot0:setFurnitureParent(slot1)
 
-	slot0.furnitureModals[slot1.id].localPosition = slot0.getLocalPos(slot1:getPosition())
+	slot0.furnitureModals[slot1.id].localPosition = uv0.getLocalPos(slot1:getPosition())
 
 	if slot2 then
 		slot0:createbottomGrid(slot1, slot3)
 	end
 
 	if slot1.parent ~= 0 then
-		slot4.localPosition = Vector2(slot4.localPosition.x + slot0.furnitureVOs[slot1.parent].getConfig(slot6, "offset")[1], slot4.localPosition.y + slot0.furnitureVOs[slot1.parent].getConfig(slot6, "offset")[2])
+		slot5 = slot1.parent
+		slot7 = slot4.localPosition
+		slot8 = slot0.furnitureVOs[slot5]:getConfig("offset")
+		slot4.localPosition = Vector2(slot7.x + slot8[1], slot7.y + slot8[2])
 
-		slot4:SetParent(slot0.furnitureModals[slot1.parent]:Find("childs"), true)
+		slot4:SetParent(slot0.furnitureModals[slot5]:Find("childs"), true)
 
-		if slot0.maps[slot1.parent] then
+		if slot0.maps[slot5] then
 			slot0.maps[slot5].afterSortFunc(slot0.maps[slot5].sortedItems)
 		end
 	end
@@ -443,7 +467,7 @@ function slot0.removeFurn(slot0, slot1)
 	slot2 = slot0.furnitureModals[slot1.id]
 
 	if slot1:hasInterActionShipId() then
-		for slot7, slot8 in ipairs(slot3) do
+		for slot7, slot8 in ipairs(slot1:getInterActionShipIds()) do
 			if not IsNil(slot2:Find("char_" .. slot8)) then
 				SetParent(slot9, slot0.floorContain)
 			end
@@ -452,12 +476,8 @@ function slot0.removeFurn(slot0, slot1)
 		end
 	end
 
-	slot4 = (slot1:isFloor() and slot0.backyardPoolMgr.POOL_NAME.GRID) or slot0.backyardPoolMgr.POOL_NAME.WALL
-	slot5 = pairs
-	slot6 = slot0.furnBottomGrids[slot1.id] or {}
-
-	for slot8, slot9 in slot5(slot6) do
-		slot0.backyardPoolMgr:Enqueue(slot4, slot9)
+	for slot8, slot9 in pairs(slot0.furnBottomGrids[slot1.id] or {}) do
+		slot0.backyardPoolMgr:Enqueue(slot1:isFloor() and slot0.backyardPoolMgr.POOL_NAME.GRID or slot0.backyardPoolMgr.POOL_NAME.WALL, slot9)
 	end
 
 	slot0.furnBottomGrids[slot1.id] = nil
@@ -474,7 +494,7 @@ function slot0.removeFurn(slot0, slot1)
 end
 
 function slot0.sortWallFurns(slot0)
-	slot1, slot4 = slot0.houseVO:sortWallFurns()
+	slot1, slot2 = slot0.houseVO:sortWallFurns()
 
 	for slot6, slot7 in ipairs(slot2) do
 		if not IsNil(slot0.furnitureModals[slot7.id]) then
@@ -495,7 +515,7 @@ function slot0.setWallModalDir(slot0, slot1, slot2)
 	end
 
 	slot3 = slot0.furnitureModals[slot1.id]
-	slot4 = slot0.getSign(BackyardFurnitureVO.isRightWall(slot2))
+	slot4 = uv0.getSign(BackyardFurnitureVO.isRightWall(slot2))
 
 	if not IsNil(slot0.preFurnSelected) then
 		slot0:setPreSelectedParent(slot0.furContain)
@@ -511,674 +531,155 @@ function slot0.setWallModalDir(slot0, slot1, slot2)
 end
 
 function slot0.setFurnitureParent(slot0, slot1)
-	slot0.furnitureModals[slot1.id]:SetParent((slot1:isFloor() and ((slot1:isMat() and slot0.carpetContain) or slot0.floorContain)) or slot0.wallContain, true)
+	slot0.furnitureModals[slot1.id]:SetParent(slot1:isFloor() and (slot1:isMat() and slot0.carpetContain or slot0.floorContain) or slot0.wallContain, true)
 end
 
 function slot0.getGridTpl(slot0, slot1)
+	slot3 = slot0.backyardPoolMgr:Dequeue(slot1 and slot0.backyardPoolMgr.POOL_NAME.GRID or slot0.backyardPoolMgr.POOL_NAME.WALL)
 
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-2, warpins: 1 ---
-	slot2 = (slot1 and slot0.backyardPoolMgr.POOL_NAME.GRID) or slot0.backyardPoolMgr.POOL_NAME.WALL
+	SetParent(slot3, slot0.furContain)
 
-	SetParent(slot0.backyardPoolMgr:Dequeue((slot1 and slot0.backyardPoolMgr.POOL_NAME.GRID) or slot0.backyardPoolMgr.POOL_NAME.WALL), slot0.furContain)
-
-	return slot0.backyardPoolMgr.Dequeue((slot1 and slot0.backyardPoolMgr.POOL_NAME.GRID) or slot0.backyardPoolMgr.POOL_NAME.WALL)
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 3-7, warpins: 1 ---
-	if not slot0.backyardPoolMgr.POOL_NAME.GRID then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 8-10, warpins: 2 ---
-		slot2 = slot0.backyardPoolMgr.POOL_NAME.WALL
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 11-20, warpins: 2 ---
-	--- END OF BLOCK #2 ---
-
-
-
+	return slot3
 end
 
 function slot0.loadboatModal(slot0, slot1, slot2)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-13, warpins: 1 ---
 	PoolMgr.GetInstance():GetSpineChar(slot1:getPrefab(), true, function (slot0)
+		if not IsNil(uv0._tf) then
+			slot0.name = "char_" .. uv1.id
+			slot1 = BackYardShipModel.New(slot0, uv1)
+			uv0.shipModels[uv1.id] = slot1
 
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-6, warpins: 1 ---
-		if not IsNil(slot0._tf) then
+			slot1:onLoadSlotModel(uv0)
 
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 7-31, warpins: 1 ---
-			slot0.name = "char_" .. slot1.id
-			slot1 = BackYardShipModel.New(slot0, BackYardShipModel.New)
-			slot0.shipModels[slot1.id] = slot1
-
-			slot1:onLoadSlotModel(slot0)
-
-			if not slot1:hasInterActionFurnitrue() then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 32-39, warpins: 1 ---
-				slot0:emit(BackyardMainMediator.ADD_BOAT_MOVE, slot1.id)
-				--- END OF BLOCK #0 ---
-
-
-
+			if not uv1:hasInterActionFurnitrue() then
+				uv0:emit(BackyardMainMediator.ADD_BOAT_MOVE, uv1.id)
 			end
-			--- END OF BLOCK #0 ---
-
-
-
 		end
 
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 40-42, warpins: 3 ---
-		if slot2 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 43-44, warpins: 1 ---
-			slot2()
-			--- END OF BLOCK #0 ---
-
-
-
+		if uv2 then
+			uv2()
 		end
-
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 45-45, warpins: 2 ---
-		return
-		--- END OF BLOCK #2 ---
-
-
-
 	end)
-
-	return
-	--- END OF BLOCK #0 ---
-
-
-
 end
 
 function slot0.setInterAction(slot0, slot1, slot2, slot3, slot4)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-4, warpins: 1 ---
 	if slot0.shipModels[slot2] then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 5-10, warpins: 1 ---
-		slot6 = slot0.furnitureModals[slot3]
-		slot7 = slot0.furnitureVOs[slot3]
-
 		if slot1 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 11-16, warpins: 1 ---
-			slot5:updateSpineInterAction(slot7, slot6)
-			--- END OF BLOCK #0 ---
-
-
-
+			slot5:updateSpineInterAction(slot0.furnitureVOs[slot3], slot0.furnitureModals[slot3])
 		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 17-26, warpins: 1 ---
 			slot5:updateInterActionPos(slot7, slot6, slot4)
 			slot5:InterActionSortSibling(slot3)
-			--- END OF BLOCK #0 ---
-
-
-
 		end
-		--- END OF BLOCK #0 ---
-
-
-
 	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 27-27, warpins: 3 ---
-	return
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function slot0.boatMove(slot0, slot1, slot2, slot3)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-8, warpins: 1 ---
 	slot0.shipModels[slot1]:move(slot2, slot3)
-
-	return
-	--- END OF BLOCK #0 ---
-
-
-
 end
 
 function slot0.cancelShipMove(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-6, warpins: 1 ---
 	slot0.shipModels[slot1]:cancelMove()
-
-	return
-	--- END OF BLOCK #0 ---
-
-
-
 end
 
 function slot0.updateShipPos(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-15, warpins: 1 ---
 	slot0.boatVOs[slot1.id]:setPosition(slot1:getPosition())
 
 	if slot0.shipModels[slot1.id] then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 16-29, warpins: 1 ---
 		slot3:updateBoatVO(slot0.boatVOs[slot1.id])
-		slot3:updatePosition(slot0.getLocalPos(slot2))
-		--- END OF BLOCK #0 ---
-
-
-
+		slot3:updatePosition(uv0.getLocalPos(slot2))
 	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 30-30, warpins: 2 ---
-	return
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function slot0.acquireEffect(slot0, slot1, slot2, slot3)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-4, warpins: 1 ---
 	if slot0.shipModels[slot1] then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 5-9, warpins: 1 ---
 		slot4:acquireEffect(slot2, slot3)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 10-10, warpins: 2 ---
-	return
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function slot0.addBoatInimacyAndMoney(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-5, warpins: 1 ---
 	if slot0.shipModels[slot1.id] then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 6-18, warpins: 1 ---
 		slot2:updateInimacy(slot1:hasInimacy())
 		slot2:updateMoney(slot1:hasMoney())
-		--- END OF BLOCK #0 ---
-
-
-
 	else
+		slot3 = slot0.boatVOs[slot1.id]
 
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 19-29, warpins: 1 ---
-		slot0.boatVOs[slot1.id].setInimacy(slot3, slot1.inimacy)
-		slot0.boatVOs[slot1.id]:setMoney(slot1.money)
-		--- END OF BLOCK #0 ---
-
-
-
+		slot3:setInimacy(slot1.inimacy)
+		slot3:setMoney(slot1.money)
 	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 30-30, warpins: 2 ---
-	return
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function slot0.exitBoat(slot0, slot1)
+	slot2 = slot0.shipModels[slot1.id]
 
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-26, warpins: 1 ---
-	slot0.shipModels[slot1.id].dispose(slot2)
-	PoolMgr.GetInstance():ReturnSpineChar(slot3, slot0.shipModels[slot1.id].go)
+	slot2:dispose()
+	PoolMgr.GetInstance():ReturnSpineChar(slot1:getPrefab(), slot2.go)
 
 	slot0.shipModels[slot1.id] = nil
 	slot0.boatVOs[slot1.id] = nil
-
-	return
-	--- END OF BLOCK #0 ---
-
-
-
 end
 
 function slot0.clearUI(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-4, warpins: 1 ---
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 5-22, warpins: 0 ---
 	for slot4, slot5 in pairs(slot0.shipModels) do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 5-20, warpins: 1 ---
 		slot5:dispose()
 		PoolMgr.GetInstance():ReturnSpineChar(slot0.boatVOs[slot4]:getPrefab(), slot5.go)
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 21-22, warpins: 2 ---
-		--- END OF BLOCK #1 ---
-
-
-
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 23-26, warpins: 1 ---
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 27-60, warpins: 0 ---
 	for slot4, slot5 in pairs(slot0.furnBottomGrids) do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 27-30, warpins: 1 ---
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 31-58, warpins: 0 ---
 		for slot9, slot10 in pairs(slot5) do
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 31-35, warpins: 1 ---
 			if not IsNil(slot10) then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 36-42, warpins: 1 ---
-				if not slot0.furnitureVOs[slot4]:isFloor() or not slot0.backyardPoolMgr.POOL_NAME.GRID then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 48-50, warpins: 2 ---
-					slot11 = slot0.backyardPoolMgr.POOL_NAME.WALL
-					--- END OF BLOCK #0 ---
-
-
-
-				end
-
-				--- END OF BLOCK #0 ---
-
-				FLOW; TARGET BLOCK #1
-
-
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #1 51-56, warpins: 2 ---
-				slot0.backyardPoolMgr:Enqueue(slot11, slot10)
-				--- END OF BLOCK #1 ---
-
-
-
+				slot0.backyardPoolMgr:Enqueue(slot0.furnitureVOs[slot4]:isFloor() and slot0.backyardPoolMgr.POOL_NAME.GRID or slot0.backyardPoolMgr.POOL_NAME.WALL, slot10)
 			end
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 57-58, warpins: 3 ---
-			--- END OF BLOCK #1 ---
-
-
-
 		end
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 59-60, warpins: 2 ---
-		--- END OF BLOCK #2 ---
-
-
-
 	end
 
-	--- END OF BLOCK #3 ---
-
-	FLOW; TARGET BLOCK #4
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #4 61-64, warpins: 1 ---
-	--- END OF BLOCK #4 ---
-
-	FLOW; TARGET BLOCK #5
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #5 65-79, warpins: 0 ---
 	for slot4, slot5 in pairs(slot0.furnitureModals) do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 65-69, warpins: 1 ---
 		if not IsNil(slot5) then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 70-77, warpins: 1 ---
 			slot0.backyardPoolMgr:Enqueue(slot0.backyardPoolMgr.POOL_NAME.FURNITURE, slot5)
-			--- END OF BLOCK #0 ---
-
-
-
 		end
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 78-79, warpins: 3 ---
-		--- END OF BLOCK #1 ---
-
-
-
 	end
 
-	--- END OF BLOCK #5 ---
-
-	FLOW; TARGET BLOCK #6
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #6 80-84, warpins: 1 ---
 	if not IsNil(slot0.furContain) then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 85-99, warpins: 1 ---
 		removeAllChildren(slot0.furContain:Find("shadow"))
 		setActive(slot0.furContain:Find("ship_grid"), false)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #6 ---
-
-	FLOW; TARGET BLOCK #7
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #7 100-104, warpins: 2 ---
 	if not IsNil(slot0.carpetContain) then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 105-107, warpins: 1 ---
 		removeAllChildren(slot0.carpetContain)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #7 ---
-
-	FLOW; TARGET BLOCK #8
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #8 108-112, warpins: 2 ---
 	if not IsNil(slot0.wallContain) then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 113-115, warpins: 1 ---
 		removeAllChildren(slot0.wallContain)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #8 ---
-
-	FLOW; TARGET BLOCK #9
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #9 116-120, warpins: 2 ---
 	if not IsNil(slot0.floorContain) then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 121-123, warpins: 1 ---
 		removeAllChildren(slot0.floorContain)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #9 ---
-
-	FLOW; TARGET BLOCK #10
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #10 124-128, warpins: 2 ---
 	if not IsNil(slot0.baseBG) then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 129-131, warpins: 1 ---
 		Destroy(slot0.baseBG)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #10 ---
-
-	FLOW; TARGET BLOCK #11
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #11 132-136, warpins: 2 ---
 	if not IsNil(slot0.wallBG) then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 137-146, warpins: 1 ---
 		UIUtil.ClearImageSprite(go(slot0.wallBG))
 		setActive(slot0.wallBG, false)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #11 ---
-
-	FLOW; TARGET BLOCK #12
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #12 147-151, warpins: 2 ---
 	if not IsNil(slot0.floorBG) then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 152-161, warpins: 1 ---
 		UIUtil.ClearImageSprite(go(slot0.floorBG))
 		setActive(slot0.floorBG, false)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #12 ---
-
-	FLOW; TARGET BLOCK #13
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #13 162-166, warpins: 2 ---
 	if not IsNil(slot0.floorGrid) then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 167-170, warpins: 1 ---
 		setActive(slot0.floorGrid, false)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
-
-	--- END OF BLOCK #13 ---
-
-	FLOW; TARGET BLOCK #14
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #14 171-171, warpins: 2 ---
-	return
-	--- END OF BLOCK #14 ---
-
-
-
 end
 
 function slot0.willExit(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-19, warpins: 1 ---
 	slot0:clearUI()
 	PoolMgr.GetInstance():ReturnUI("BackYardUI", slot0.backyardui.gameObject)
 	slot0.backyardPoolMgr:clear()
 
 	slot0.backyardPoolMgr = nil
-
-	return
-	--- END OF BLOCK #0 ---
-
-
-
 end
 
 return slot0

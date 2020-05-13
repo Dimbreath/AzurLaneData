@@ -5,11 +5,10 @@ function slot0.register(slot0)
 	slot5 = {}
 	slot6, slot7 = nil
 
-	for slot11, slot12 in pairs(slot4) do
+	for slot11, slot12 in pairs(require("GameCfg.backyardTheme.theme_" .. 9)["furnitures_" .. 4]) do
 		slot13 = Furniture.New(slot12)
-		slot14 = slot13:getConfig("type")
 
-		if slot13.position and slot14 == Furniture.TYPE_WALLPAPER then
+		if slot13.position and slot13:getConfig("type") == Furniture.TYPE_WALLPAPER then
 			slot6 = BackyardFurnitureVO.New(slot13)
 		elseif slot13.position and slot14 == Furniture.TYPE_FLOORPAPER then
 			slot7 = BackyardFurnitureVO.New(slot13)
@@ -29,42 +28,42 @@ function slot0.register(slot0)
 
 	slot9:registerProxy(BackYardHouseProxy.New(slot0.contextData.house))
 	slot9:registerCommand(BACKYARD.COMMAND_BACKYARD_BOAT, BYBoatCommand)
-	slot0.viewComponent:setHouse(slot9:retrieveProxy(BackYardHouseProxy.__cname).getData(slot10))
+	slot0.viewComponent:setHouse(slot9:retrieveProxy(BackYardHouseProxy.__cname):getData())
 	slot0:bind(BackyardMainMediator.END_DRAG_SHIP, function (slot0, slot1, slot2)
-		slot0:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
+		uv0:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
 			name = BACKYARD.END_DRAG_BOAT,
 			id = slot1,
 			pos = slot2
 		})
 	end)
 	slot0:bind(BackyardMainMediator.ADD_BOAT_MOVE, function (slot0, slot1)
-		slot0:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
+		uv0:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
 			name = BACKYARD.ADD_BOAT_MOVE,
 			id = slot1
 		})
 	end)
 	slot0:bind(BackyardMainMediator.CANCEL_SHIP_MOVE, function (slot0, slot1)
-		slot0:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
+		uv0:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
 			name = BACKYARD.CANCEL_BOAT_MOVE,
 			id = slot1
 		})
 	end)
 	slot0:bind(BackyardMainMediator.INTERACTION, function (slot0, slot1, slot2)
-		slot0:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
+		uv0:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
 			name = BACKYARD.INTERACTION,
 			shipId = slot1,
 			furnitureId = slot2
 		})
 	end)
 	slot0:bind(BackyardMainMediator.INTERACTION_SPINE, function (slot0, slot1, slot2)
-		slot0:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
+		uv0:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
 			name = BACKYARD.INTERACTION_SPINE,
 			shipId = slot1,
 			furnitureId = slot2
 		})
 	end)
 	slot0:bind(BackyardMainMediator.CLEAR_SPINE, function (slot0, slot1)
-		slot0:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
+		uv0:sendNotification(BACKYARD.COMMAND_BACKYARD_BOAT, {
 			name = BACKYARD.CLEAR_SPINE,
 			shipId = slot1
 		})

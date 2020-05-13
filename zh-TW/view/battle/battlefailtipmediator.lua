@@ -16,47 +16,46 @@ function slot0.initData(slot0)
 end
 
 function slot0.bindEvent(slot0)
-	slot0:bind(slot0.CHAPTER_RETREAT, function (slot0, slot1)
+	slot0:bind(uv0.CHAPTER_RETREAT, function (slot0, slot1)
 		slot4 = nil
-		slot4 = (not getProxy(ChapterProxy).getActiveChapter(slot2) or slot3:getShips()) and slot0.mainShips
 		slot5 = {}
 
-		for slot9, slot10 in ipairs(slot4) do
+		for slot9, slot10 in ipairs((not getProxy(ChapterProxy):getActiveChapter() or slot3:getShips()) and uv0.mainShips) do
 			slot5[#slot5 + 1] = slot10.id
 		end
 
-		slot0.tempShipIDList = slot5
+		uv0.tempShipIDList = slot5
 
-		slot0:sendNotification(GAME.CHAPTER_OP, {
+		uv0:sendNotification(GAME.CHAPTER_OP, {
 			type = ChapterConst.OpRetreat
 		})
 	end)
-	slot0:bind(slot0.GO_HIGEST_CHAPTER, function (slot0)
-		slot0:removeContextBeforeGO()
+	slot0:bind(uv0.GO_HIGEST_CHAPTER, function (slot0)
+		uv0:removeContextBeforeGO()
 
-		slot8.targetChapter, slot8.targetMap = getProxy(ChapterProxy).getHigestClearChapterAndMap(slot1)
+		slot2, slot3 = getProxy(ChapterProxy):getHigestClearChapterAndMap()
 
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
 			targetChapter = slot2,
 			targetMap = slot3
 		})
 	end)
-	slot0:bind(slot0.GO_DOCKYARD_EQUIP, function (slot0)
-		slot0:removeContextBeforeGO()
+	slot0:bind(uv0.GO_DOCKYARD_EQUIP, function (slot0)
+		uv0:removeContextBeforeGO()
 
-		if not slot0.tempShipIDList then
+		if not uv0.tempShipIDList then
 			slot1 = {}
 
-			for slot5, slot6 in ipairs(slot0.mainShips) do
+			for slot5, slot6 in ipairs(uv0.mainShips) do
 				slot1[#slot1 + 1] = slot6.id
 			end
 
-			slot0.tempShipIDList = slot1
+			uv0.tempShipIDList = slot1
 		end
 
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			prevFlag = false,
-			priorEquipUpShipIDList = slot0.tempShipIDList,
+			priorEquipUpShipIDList = uv0.tempShipIDList,
 			priorMode = DockyardScene.PRIOR_MODE_EQUIP_UP,
 			mode = DockyardScene.MODE_OVERVIEW,
 			onClick = function (slot0, slot1)
@@ -69,22 +68,22 @@ function slot0.bindEvent(slot0)
 			end
 		})
 	end)
-	slot0:bind(slot0.GO_DOCKYARD_SHIP, function (slot0)
-		slot0:removeContextBeforeGO()
+	slot0:bind(uv0.GO_DOCKYARD_SHIP, function (slot0)
+		uv0:removeContextBeforeGO()
 
-		if not slot0.tempShipIDList then
+		if not uv0.tempShipIDList then
 			slot1 = {}
 
-			for slot5, slot6 in ipairs(slot0.mainShips) do
+			for slot5, slot6 in ipairs(uv0.mainShips) do
 				slot1[#slot1 + 1] = slot6.id
 			end
 
-			slot0.tempShipIDList = slot1
+			uv0.tempShipIDList = slot1
 		end
 
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			prevFlag = false,
-			priorEquipUpShipIDList = slot0.tempShipIDList,
+			priorEquipUpShipIDList = uv0.tempShipIDList,
 			priorMode = DockyardScene.PRIOR_MODE_SHIP_UP,
 			mode = DockyardScene.MODE_OVERVIEW,
 			onClick = function (slot0, slot1)
@@ -96,9 +95,9 @@ function slot0.bindEvent(slot0)
 			end
 		})
 	end)
-	slot0:bind(slot0.GO_NAVALTACTICS, function (slot0)
-		slot0:removeContextBeforeGO()
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.NAVALTACTICS)
+	slot0:bind(uv0.GO_NAVALTACTICS, function (slot0)
+		uv0:removeContextBeforeGO()
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.NAVALTACTICS)
 	end)
 end
 
@@ -123,7 +122,7 @@ function slot0.handleNotification(slot0, slot1)
 				end
 			end
 
-			slot12.targetChapter, slot12.targetMap = getProxy(ChapterProxy).getHigestClearChapterAndMap(slot6)
+			slot7, slot8 = getProxy(ChapterProxy):getHigestClearChapterAndMap()
 
 			slot0:sendNotification(GAME.GO_BACK, {
 				targetChapter = slot7,
@@ -197,10 +196,8 @@ function slot0.handleNotification(slot0, slot1)
 end
 
 function slot0.removeContextBeforeGO(slot0)
-	slot1 = getProxy(ContextProxy)
-
 	if slot0.battleSystem == SYSTEM_SCENARIO then
-		if slot1:getContextByMediator(LevelMediator2) then
+		if getProxy(ContextProxy):getContextByMediator(LevelMediator2) then
 			if slot3:getContextByMediator(ChapterPreCombatMediator) then
 				slot3:removeChild(slot4)
 			end

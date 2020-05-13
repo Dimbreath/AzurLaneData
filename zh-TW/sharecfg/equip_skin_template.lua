@@ -2514,5 +2514,3 @@ pg.equip_skin_template = {
 		157
 	}
 }
-
-return

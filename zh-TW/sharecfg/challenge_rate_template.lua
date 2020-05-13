@@ -66,5 +66,3 @@ pg.challenge_rate_template = {
 		9
 	}
 }
-
-return

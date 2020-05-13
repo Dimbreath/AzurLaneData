@@ -12001,5 +12001,3 @@ pg.shop_template = {
 		100006
 	}
 }
-
-return

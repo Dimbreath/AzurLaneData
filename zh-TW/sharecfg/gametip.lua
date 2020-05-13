@@ -11010,7 +11010,7 @@ TIPS：
 		tip = "檢舉將在指揮官等級達到20級後開放",
 		key = "inform_level_limit"
 	},
-	3match_tip = {
+	["3match_tip"] = {
 		key = "3match_tip",
 		tip = {
 			{
@@ -11151,5 +11151,3 @@ TIPS：
 		key = "collect_tip2"
 	}
 }
-
-return

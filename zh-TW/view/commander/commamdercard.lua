@@ -43,7 +43,7 @@ end
 function slot0.selectedAnim(slot0)
 	if slot0.anim then
 		slot0.aniEvent:SetEndEvent(function (slot0)
-			slot0.anim.enabled = false
+			uv0.anim.enabled = false
 		end)
 
 		slot0.anim.enabled = true
@@ -66,14 +66,14 @@ function slot0.update(slot0, slot1)
 end
 
 function slot0.updateCommander(slot0)
-	slot0.nameTF.text = slot0.commanderVO.getName(slot1)
-	slot0.levelTF.text = slot0.commanderVO.level
+	slot1 = slot0.commanderVO
+	slot0.nameTF.text = slot1:getName()
+	slot0.levelTF.text = slot1.level
 
-	GetImageSpriteFromAtlasAsync("commandericon/" .. slot0.commanderVO.getPainting(slot1), "", slot0.iconTF)
+	GetImageSpriteFromAtlasAsync("commandericon/" .. slot1:getPainting(), "", slot0.iconTF)
 end
 
 function slot0.clear(slot0)
-	return
 end
 
 return slot0

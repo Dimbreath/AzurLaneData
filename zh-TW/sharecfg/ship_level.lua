@@ -1928,5 +1928,3 @@ pg.ship_level = {
 		110
 	}
 }
-
-return

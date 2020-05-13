@@ -9903,5 +9903,3 @@ pg.item_data_template = {
 		70051
 	}
 }
-
-return

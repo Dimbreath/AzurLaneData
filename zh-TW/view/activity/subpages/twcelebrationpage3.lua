@@ -15,49 +15,48 @@ function slot0.OnFirstFlush(slot0)
 end
 
 function slot0.OnUpdateFlush(slot0)
-	slot4 = getProxy(TaskProxy):getTaskById(slot0.activity:getConfig("config_data")[1]) or slot2:getFinishTaskById(slot1) or Task.New({
+	slot3 = getProxy(TaskProxy):getTaskById(slot0.activity:getConfig("config_data")[1]) or slot2:getFinishTaskById(slot1) or Task.New({
 		id = slot1
-	}):isFinish()
-	slot5 = getProxy(TaskProxy).getTaskById(slot0.activity.getConfig("config_data")[1]) or slot2.getFinishTaskById(slot1) or Task.New():isReceive()
+	})
+	slot4 = slot3:isFinish()
+	slot5 = slot3:isReceive()
 
-	setActive(slot0.getBtn, (getProxy(TaskProxy).getTaskById(slot0.activity.getConfig("config_data")[1]) or slot2.getFinishTaskById(slot1) or Task.New()) and slot4 and not slot5)
+	setActive(slot0.getBtn, slot3 and slot4 and not slot5)
 	setActive(slot0.gotBtn, false)
-	setActive(slot0.mask, (getProxy(TaskProxy).getTaskById(slot0.activity.getConfig("config_data")[1]) or slot2.getFinishTaskById(slot1) or Task.New()) and slot5)
-	setActive(slot0.shareBtn, (getProxy(TaskProxy).getTaskById(slot0.activity.getConfig("config_data")[1]) or slot2.getFinishTaskById(slot1) or Task.New()) and (not slot4 or slot5))
-	setActive(slot0.finished, (getProxy(TaskProxy).getTaskById(slot0.activity.getConfig("config_data")[1]) or slot2.getFinishTaskById(slot1) or Task.New()) and slot4)
-	setActive(slot0.unfinished, (getProxy(TaskProxy).getTaskById(slot0.activity.getConfig("config_data")[1]) or slot2.getFinishTaskById(slot1) or Task.New()) and not slot4)
+	setActive(slot0.mask, slot3 and slot5)
+	setActive(slot0.shareBtn, slot3 and (not slot4 or slot5))
+	setActive(slot0.finished, slot3 and slot4)
+	setActive(slot0.unfinished, slot3 and not slot4)
 	onButton(slot0, slot0.shareBtn, function ()
-		slot0:share(slot0)
+		uv0:share(uv1)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.getBtn, function ()
-		if slot0 and slot1 and not slot2 then
-			slot3:emit(ActivityMediator.ON_TASK_SUBMIT, slot3.emit)
+		if uv0 and uv1 and not uv2 then
+			uv3:emit(ActivityMediator.ON_TASK_SUBMIT, uv0)
 		end
 	end, SFX_PANEL)
 end
 
 function slot0.share(slot0, slot1)
 	PoolMgr.GetInstance():GetUI("TWCelebrationShare", false, function (slot0)
-		SetParent(slot0, slot2, false)
+		SetParent(slot0, GameObject.Find("UICamera"):GetComponent(typeof(Camera)).transform:GetChild(0), false)
 
-		slot0.shareGo = slot0
-		slot10 = getProxy(PlayerProxy).getData(slot9)
+		uv0.shareGo = slot0
+		slot10 = getProxy(PlayerProxy):getData()
 
-		setText(slot5, slot10.shipCount)
-		setText(slot4, slot10.attackCount)
+		setText(uv0:findTF("info/got", slot0), slot10.shipCount)
+		setText(uv0:findTF("info/defeated", slot0), slot10.attackCount)
 
-		slot12 = getProxy(BayProxy).getShipById(slot11, slot10.character)
+		slot12 = getProxy(BayProxy):getShipById(slot10.character)
 
-		setText(slot3, slot12:getName())
-		setText(slot6, "指揮官" .. slot10.name .. "和\n秘書艦" .. slot12:getName() .. "在大海中奮戰")
-		setActive(slot0:findTF("ssr", slot0), slot12:getRarity() == 5)
-		setPaintingPrefabAsync(slot0:findTF("paint", slot0), slot12:getPainting(), "kanban", function ()
+		setText(uv0:findTF("name", slot0), slot12:getName())
+		setText(uv0:findTF("desc", slot0), "指揮官" .. slot10.name .. "和\n秘書艦" .. slot12:getName() .. "在大海中奮戰")
+		setActive(uv0:findTF("ssr", slot0), slot12:getRarity() == 5)
+		setPaintingPrefabAsync(uv0:findTF("paint", slot0), slot12:getPainting(), "kanban", function ()
 			pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeTWCelebrationShare)
 
-			slot0 = pg.ShareMgr.GetInstance().Share.activity:getConfig("config_data")[1]
-
-			if not pg.ShareMgr.GetInstance().Share.activity then
-				slot0:emit(ActivityMediator.SHARE_TASK_DONE, slot0)
+			if not uv1 then
+				uv0:emit(ActivityMediator.SHARE_TASK_DONE, uv0.activity:getConfig("config_data")[1])
 			end
 		end)
 	end)

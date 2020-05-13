@@ -91,7 +91,7 @@ slot0.typeInfo = {
 }
 
 function slot0.Ctor(slot0, slot1, slot2)
-	slot0.super.Ctor(slot0, slot1)
+	uv0.super.Ctor(slot0, slot1)
 
 	slot0.id = slot1.user_id or slot1.id
 	slot0.lv = slot1.lv or slot1.level
@@ -103,7 +103,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 end
 
 function slot0.getPainting(slot0)
-	return (pg.ship_skin_template[slot0.skinId] and slot1.painting) or "unknown"
+	return pg.ship_skin_template[slot0.skinId] and slot1.painting or "unknown"
 end
 
 function slot0.setRank(slot0, slot1)
@@ -115,11 +115,11 @@ function slot0.setArenaRank(slot0, slot1)
 end
 
 function slot0.getPowerTxt(slot0)
-	if slot0.type == slot0.TYPE_POWER then
+	if slot0.type == uv0.TYPE_POWER then
 		return math.floor(slot0.power^0.667)
-	elseif slot0.type == slot0.TYPE_COLLECTION then
+	elseif slot0.type == uv0.TYPE_COLLECTION then
 		return string.format("%0.01f", slot0.power / getProxy(CollectionProxy):getCollectionTotal() * 100) .. "%"
-	elseif slot0.type == slot0.TYPE_MILITARY_RANK then
+	elseif slot0.type == uv0.TYPE_MILITARY_RANK then
 		return slot0.power + SeasonInfo.INIT_POINT
 	else
 		return slot0.power
@@ -127,13 +127,11 @@ function slot0.getPowerTxt(slot0)
 end
 
 function slot0.getTitleWord(slot0, slot1, slot2)
-	slot3 = {}
-
-	for slot7 = 1, 4, 1 do
-		table.insert(slot3, i18n("ranking_word_" .. slot0.typeInfo[slot1].title_word[slot7]))
+	for slot7 = 1, 4 do
+		table.insert({}, i18n("ranking_word_" .. uv0.typeInfo[slot1].title_word[slot7]))
 	end
 
-	if slot1 == slot0.TYPE_PT then
+	if slot1 == uv0.TYPE_PT then
 		slot3[4] = pg.item_data_statistics[id2ItemId(getProxy(ActivityProxy):getActivityById(slot2):getConfig("config_id"))].name
 	end
 
@@ -141,16 +139,16 @@ function slot0.getTitleWord(slot0, slot1, slot2)
 end
 
 function slot0.getScoreIcon(slot0, slot1)
-	return slot0.typeInfo[slot1].score_icon
+	return uv0.typeInfo[slot1].score_icon
 end
 
 function slot0.getActivityByRankType(slot0, slot1)
-	if not slot0.typeInfo[slot1].act_type then
+	if not uv0.typeInfo[slot1].act_type then
 		return nil
 	end
 
-	return _.detect(getProxy(ActivityProxy):getActivitiesByType(slot0.typeInfo[slot1].act_type), function (slot0)
-		return not slot0:isEnd() and (slot0 ~= slot1.TYPE_PT or tonumber(slot0:getConfig("config_data")) > 0)
+	return _.detect(getProxy(ActivityProxy):getActivitiesByType(uv0.typeInfo[slot1].act_type), function (slot0)
+		return not slot0:isEnd() and (uv0 ~= uv1.TYPE_PT or tonumber(slot0:getConfig("config_data")) > 0)
 	end)
 end
 

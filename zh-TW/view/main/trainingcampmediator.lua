@@ -6,35 +6,35 @@ slot0.ON_SELECTABLE_GET = "TrainingCampMediator:ON_SELECTABLE_GET"
 slot0.ON_UPDATE = "TrainingCampMediator:ON_UPDATE"
 
 function slot0.register(slot0)
-	slot0:bind(slot0.ON_UPDATE, function (slot0, slot1)
-		slot0:sendNotification(GAME.UPDATE_TASK_PROGRESS, {
+	slot0:bind(uv0.ON_UPDATE, function (slot0, slot1)
+		uv0:sendNotification(GAME.UPDATE_TASK_PROGRESS, {
 			taskId = slot1.id
 		})
 	end)
-	slot0:bind(slot0.ON_SELECTABLE_GET, function (slot0, slot1, slot2)
-		slot0:sendNotification(GAME.SUBMIT_TASK, {
+	slot0:bind(uv0.ON_SELECTABLE_GET, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.SUBMIT_TASK, {
 			taskId = slot1.id,
 			index = slot2
 		})
 	end)
-	slot0:bind(slot0.ON_GET, function (slot0, slot1)
-		slot0:sendNotification(GAME.SUBMIT_TASK, slot1.id)
+	slot0:bind(uv0.ON_GET, function (slot0, slot1)
+		uv0:sendNotification(GAME.SUBMIT_TASK, slot1.id)
 	end)
-	slot0:bind(slot0.ON_GO, function (slot0, slot1)
+	slot0:bind(uv0.ON_GO, function (slot0, slot1)
 		if slot1:getConfig("scene") and #slot2 > 0 then
 			if slot2[1] == "LEVEL" and slot2[2] and slot2[2].chapterid then
-				slot0:goToLevel(slot2[2].chapterid)
+				uv0:goToLevel(slot2[2].chapterid)
 			elseif SCENE[slot2[1]] then
-				slot0:sendNotification(GAME.GO_SCENE, SCENE[slot2[1]], slot2[2])
+				uv0:sendNotification(GAME.GO_SCENE, SCENE[slot2[1]], slot2[2])
 			end
 		else
-			slot0:sendNotification(GAME.TASK_GO, {
+			uv0:sendNotification(GAME.TASK_GO, {
 				taskVO = slot1
 			})
 		end
 	end)
-	slot0:bind(slot0.ON_TRIGGER, function (slot0, slot1)
-		slot0:sendNotification(GAME.ACTIVITY_OPERATION, slot1)
+	slot0:bind(uv0.ON_TRIGGER, function (slot0, slot1)
+		uv0:sendNotification(GAME.ACTIVITY_OPERATION, slot1)
 	end)
 	slot0.viewComponent:setActivity(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_GUIDE_TASKS))
 end

@@ -503,5 +503,3 @@ pg.medal_template = {
 		10105
 	}
 }
-
-return

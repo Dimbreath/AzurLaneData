@@ -6,12 +6,12 @@ function slot0.OnInit(slot0)
 	slot0.maskImg = slot0:findTF("Mask", slot0.awardImg)
 
 	addSlip(SLIP_TYPE_HRZ, slot0.awardImg, function ()
-		if slot0.curShowDay > 1 then
-			triggerButton(slot0.arrowLeft)
+		if uv0.curShowDay > 1 then
+			triggerButton(uv0.arrowLeft)
 		end
 	end, function ()
-		if slot0.curShowDay < slot0.allDaycount then
-			triggerButton(slot0.arrowRight)
+		if uv0.curShowDay < uv0.allDaycount then
+			triggerButton(uv0.arrowRight)
 		end
 	end)
 
@@ -19,14 +19,14 @@ function slot0.OnInit(slot0)
 	slot0.arrowRight = slot0:findTF("ArrowRight")
 
 	onButton(slot0, slot0.arrowLeft, function ()
-		slot0.curShowDay = slot0.curShowDay - 1
+		uv0.curShowDay = uv0.curShowDay - 1
 
-		slot0:updateAwardInfo(slot0.curShowDay)
+		uv0:updateAwardInfo(uv0.curShowDay)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.arrowRight, function ()
-		slot0.curShowDay = slot0.curShowDay + 1
+		uv0.curShowDay = uv0.curShowDay + 1
 
-		slot0:updateAwardInfo(slot0.curShowDay)
+		uv0:updateAwardInfo(uv0.curShowDay)
 	end, SFX_PANEL)
 
 	slot0.pointTpl = slot0:findTF("Point")
@@ -35,15 +35,15 @@ function slot0.OnInit(slot0)
 
 	slot0.pointUIItemList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = slot0:findTF("Selected", slot2)
+			slot3 = uv0:findTF("Selected", slot2)
 
-			if slot1 + 1 <= slot0.nday then
+			if slot1 + 1 <= uv0.nday then
 				setImageAlpha(slot2, 1)
 			else
 				setImageAlpha(slot2, 0.3)
 			end
 
-			setActive(slot3, slot1 == slot0.curShowDay)
+			setActive(slot3, slot1 == uv0.curShowDay)
 		end
 	end)
 
@@ -58,7 +58,6 @@ function slot0.OnDataSetting(slot0)
 end
 
 function slot0.OnFirstFlush(slot0)
-	return
 end
 
 function slot0.OnUpdateFlush(slot0)
@@ -73,11 +72,13 @@ function slot0.OnDestroy(slot0)
 end
 
 function slot0.updateAwardInfo(slot0, slot1)
+	slot1 = math.max(slot1, 1)
+
 	slot0.loader:GetOffSpriteRequest(slot0.dayProgressImg)
 	slot0.loader:GetOffSpriteRequest(slot0.awardImg)
 	slot0.loader:GetSprite("ui/activityuipage/animelogin_atlas", "tianshu_" .. slot1, slot0.dayProgressImg, true)
 	slot0.loader:GetSprite("ui/activityuipage/animemidtermloginpage_atlas", "icon_" .. slot1, slot0.awardImg, true)
-	setActive(slot0.maskImg, math.max(slot1, 1) <= slot0.nday)
+	setActive(slot0.maskImg, slot1 <= slot0.nday)
 	setActive(slot0.arrowLeft, slot1 ~= 1)
 	setActive(slot0.arrowRight, slot1 ~= slot0.allDaycount)
 	slot0.pointUIItemList:align(slot0.allDaycount)

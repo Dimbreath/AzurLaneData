@@ -8,16 +8,20 @@ end
 function slot0.update(slot0, slot1, slot2)
 	slot0.id = slot1
 	slot0.configId = slot0.id
-	slot3 = {}
+	slot3 = {
+		[slot8.shop_id] = slot8.count
+	}
 
 	for slot7, slot8 in ipairs(slot2) do
-		slot3[slot8.shop_id] = slot8.count
+		-- Nothing
 	end
 
 	slot0.goods = {}
 
 	if slot0.id and slot0.id > 0 then
-		for slot7, slot8 in ipairs(slot0:getConfig("goods")) do
+		slot7 = "goods"
+
+		for slot7, slot8 in ipairs(slot0:getConfig(slot7)) do
 			slot0.goods[slot8] = Goods.New({
 				shop_id = slot8,
 				buy_count = slot3[slot8] or 0
@@ -29,16 +33,18 @@ end
 function slot0.isOpen(slot0)
 	slot1 = false
 
-	if slot0:bindConfigTable()[slot0.id] and TimeMgr:STimeDescS(pg.TimeMgr.GetInstance().GetServerTime(slot3), "*t").month == slot0.id then
-		return slot2.time[1] <= slot4.day and slot4.day <= slot2.time[2]
+	if slot0:bindConfigTable()[slot0.id] and TimeMgr:STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t").month == slot0.id then
+		slot1 = slot2.time[1] <= slot4.day and slot4.day <= slot2.time[2]
 	end
+
+	return slot1
 end
 
 function slot0.getRestDays(slot0)
 	slot1 = 0
 
 	if slot0:bindConfigTable()[slot0.id] then
-		slot1 = slot2.time[2] - pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance().GetServerTime(slot3), "*t").day + 1
+		slot1 = slot2.time[2] - pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t").day + 1
 	end
 
 	return math.max(slot1, 1)
@@ -52,7 +58,7 @@ function slot0.getSortGoods(slot0)
 	end
 
 	table.sort(slot1, function (slot0, slot1)
-		if ((slot0:canPurchase() and 1) or 0) == ((slot1:canPurchase() and 1) or 0) then
+		if (slot0:canPurchase() and 1 or 0) == (slot1:canPurchase() and 1 or 0) then
 			if slot0:getConfig("order") == slot1:getConfig("order") then
 				return slot0.id < slot1.id
 			else

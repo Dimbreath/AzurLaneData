@@ -3997,5 +3997,3 @@ pg.expedition_data_by_map = {
 		5100013
 	}
 }
-
-return

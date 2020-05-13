@@ -33,12 +33,12 @@ function slot0.getFleetType(slot0)
 	if slot0.attachment == ChapterConst.AttachOni then
 		return FleetType.Normal
 	else
-		return (slot0:getConfig("type") == 13 and FleetType.Submarine) or FleetType.Normal
+		return slot0:getConfig("type") == 13 and FleetType.Submarine or FleetType.Normal
 	end
 end
 
 function slot0.getPoolType(slot0)
-	return (slot0.attachment == ChapterConst.AttachOni and "oni") or "common"
+	return slot0.attachment == ChapterConst.AttachOni and "oni" or "common"
 end
 
 function slot0.getScale(slot0)
@@ -51,7 +51,7 @@ end
 
 function slot0.inAlertRange(slot0, slot1, slot2)
 	return _.any(slot0:getConfig("alert_range"), function (slot0)
-		return slot0[1] + slot0.row ==  and slot0[2] + slot0.column == slot0.column
+		return slot0[1] + uv0.row == uv1 and slot0[2] + uv0.column == uv2
 	end)
 end
 

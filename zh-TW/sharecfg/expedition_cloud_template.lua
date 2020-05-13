@@ -179,5 +179,3 @@ pg.expedition_cloud_template = {
 		16
 	}
 }
-
-return

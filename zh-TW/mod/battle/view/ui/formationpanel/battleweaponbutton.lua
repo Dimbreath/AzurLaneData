@@ -4,7 +4,7 @@ ys.Battle.BattleWeaponButton = slot1
 slot1.__name = "BattleWeaponButton"
 
 function slot1.Ctor(slot0)
-	slot0.EventListener.AttachEventListener(slot0)
+	uv0.EventListener.AttachEventListener(slot0)
 
 	slot0.eventTriggers = {}
 end
@@ -39,9 +39,12 @@ function slot1.ConfigSkin(slot0, slot1)
 	slot0._block:SetActive(false)
 	slot0._progress.gameObject:SetActive(true)
 	slot0._text.gameObject:SetActive(false)
-	slot0._filledEffect.gameObject.SetActive(slot2, false)
-	slot0._filledEffect.gameObject.GetComponent(slot2, "DftAniEvent"):SetEndEvent(function (slot0)
-		SetActive(slot0._filledEffect, false)
+
+	slot2 = slot0._filledEffect.gameObject
+
+	slot2:SetActive(false)
+	slot2:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
+		SetActive(uv0._filledEffect, false)
 	end)
 end
 
@@ -50,10 +53,12 @@ function slot1.GetSkin(slot0)
 end
 
 function slot1.Enabled(slot0, slot1)
-	slot0.eventTriggers[GetComponent(slot0._btn, "EventTriggerListener")] = true
-	slot0.eventTriggers[GetComponent(slot0._block, "EventTriggerListener")] = true
-	GetComponent(slot0._btn, "EventTriggerListener").enabled = slot1
-	GetComponent(slot0._block, "EventTriggerListener").enabled = slot1
+	slot2 = GetComponent(slot0._btn, "EventTriggerListener")
+	slot3 = GetComponent(slot0._block, "EventTriggerListener")
+	slot0.eventTriggers[slot2] = true
+	slot0.eventTriggers[slot3] = true
+	slot2.enabled = slot1
+	slot3.enabled = slot1
 end
 
 function slot1.Disable(slot0)
@@ -114,10 +119,10 @@ end
 function slot1.SetProgressInfo(slot0, slot1)
 	slot0._progressInfo = slot1
 
-	slot0._progressInfo:RegisterEventListener(slot0, slot0.Battle.BattleEvent.WEAPON_TOTAL_CHANGE, slot0.OnTotalChange)
-	slot0._progressInfo:RegisterEventListener(slot0, slot0.Battle.BattleEvent.WEAPON_COUNT_PLUS, slot0.OnfilledEffect)
-	slot0._progressInfo:RegisterEventListener(slot0, slot0.Battle.BattleEvent.OVER_LOAD_CHANGE, slot0.OnOverLoadChange)
-	slot0._progressInfo:RegisterEventListener(slot0, slot0.Battle.BattleEvent.COUNT_CHANGE, slot0.OnCountChange)
+	slot0._progressInfo:RegisterEventListener(slot0, uv0.Battle.BattleEvent.WEAPON_TOTAL_CHANGE, slot0.OnTotalChange)
+	slot0._progressInfo:RegisterEventListener(slot0, uv0.Battle.BattleEvent.WEAPON_COUNT_PLUS, slot0.OnfilledEffect)
+	slot0._progressInfo:RegisterEventListener(slot0, uv0.Battle.BattleEvent.OVER_LOAD_CHANGE, slot0.OnOverLoadChange)
+	slot0._progressInfo:RegisterEventListener(slot0, uv0.Battle.BattleEvent.COUNT_CHANGE, slot0.OnCountChange)
 	slot0:OnOverLoadChange()
 	slot0:OnTotalChange()
 end
@@ -160,31 +165,31 @@ function slot1.SetControllerActive(slot0, slot1)
 
 		if slot0._downFunc ~= nil then
 			slot2:AddPointDownFunc(function ()
-				slot0 = true
+				uv0 = true
 
-				slot1._downFunc()
-				slot1:OnSelected()
+				uv1._downFunc()
+				uv1:OnSelected()
 			end)
 		end
 
 		if slot0._upFunc ~= nil then
 			slot2:AddPointUpFunc(function ()
-				if slot0 then
-					slot0 = false
+				if uv0 then
+					uv0 = false
 
-					slot1._upFunc()
-					slot1:OnUnSelect()
+					uv1._upFunc()
+					uv1:OnUnSelect()
 				end
 			end)
 		end
 
 		if slot0._cancelFunc ~= nil then
 			slot2:AddPointExitFunc(function ()
-				if slot0 then
-					slot0 = false
+				if uv0 then
+					uv0 = false
 
-					slot1._cancelFunc()
-					slot1:OnUnSelect()
+					uv1._cancelFunc()
+					uv1:OnUnSelect()
 				end
 			end)
 		end
@@ -201,10 +206,7 @@ function slot1.SetControllerActive(slot0, slot1)
 end
 
 function slot1.Update(slot0)
-	slot1 = slot0._progressInfo:GetCurrent()
-	slot2 = slot0._progressInfo:GetMax()
-
-	if slot0._progressInfo:GetTotal() > 0 and slot1 < slot2 then
+	if slot0._progressInfo:GetTotal() > 0 and slot0._progressInfo:GetCurrent() < slot0._progressInfo:GetMax() then
 		slot0:updateProgressBar()
 	end
 end
@@ -225,11 +227,9 @@ function slot1.Dispose(slot0)
 	slot0._progress = nil
 	slot0._progressBar = nil
 
-	slot0._progressInfo:UnregisterEventListener(slot0, slot0.Battle.BattleEvent.OVER_LOAD_CHANGE)
-	slot0._progressInfo:UnregisterEventListener(slot0, slot0.Battle.BattleEvent.WEAPON_TOTAL_CHANGE)
-	slot0._progressInfo:UnregisterEventListener(slot0, slot0.Battle.BattleEvent.WEAPON_COUNT_PLUS)
-	slot0._progressInfo:UnregisterEventListener(slot0, slot0.Battle.BattleEvent.COUNT_CHANGE)
-	slot0.EventListener.DetachEventListener(slot0)
+	slot0._progressInfo:UnregisterEventListener(slot0, uv0.Battle.BattleEvent.OVER_LOAD_CHANGE)
+	slot0._progressInfo:UnregisterEventListener(slot0, uv0.Battle.BattleEvent.WEAPON_TOTAL_CHANGE)
+	slot0._progressInfo:UnregisterEventListener(slot0, uv0.Battle.BattleEvent.WEAPON_COUNT_PLUS)
+	slot0._progressInfo:UnregisterEventListener(slot0, uv0.Battle.BattleEvent.COUNT_CHANGE)
+	uv0.EventListener.DetachEventListener(slot0)
 end
-
-return

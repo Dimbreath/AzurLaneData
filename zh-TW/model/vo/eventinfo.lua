@@ -10,14 +10,14 @@ function slot0.Ctor(slot0, slot1)
 	slot0.overTime = slot1.over_time
 	slot0.shipIds = slot1.ship_id_list or {}
 	slot0.ships = {}
-	slot0.state = slot0.StateNone
+	slot0.state = uv0.StateNone
 
 	if slot0.finishTime == 0 then
-		slot0.state = slot0.StateNone
+		slot0.state = uv0.StateNone
 	elseif pg.TimeMgr.GetInstance():GetServerTime() <= slot0.finishTime then
-		slot0.state = slot0.StateActive
+		slot0.state = uv0.StateActive
 	else
-		slot0.state = slot0.StateFinish
+		slot0.state = uv0.StateFinish
 	end
 end
 
@@ -27,7 +27,7 @@ end
 
 function slot0.reachLevel(slot0)
 	return #slot0.ships > 0 and _.any(slot0.ships, function (slot0)
-		return slot0.template.ship_lv <= slot0.level
+		return uv0.template.ship_lv <= slot0.level
 	end)
 end
 
@@ -56,8 +56,8 @@ end
 function slot0.updateTime(slot0)
 	slot1 = false
 
-	if slot0.state == slot0.StateActive and slot0.finishTime < pg.TimeMgr.GetInstance():GetServerTime() then
-		slot0.state = slot0.StateFinish
+	if slot0.state == uv0.StateActive and slot0.finishTime < pg.TimeMgr.GetInstance():GetServerTime() then
+		slot0.state = uv0.StateFinish
 		slot1 = true
 	end
 
@@ -82,10 +82,8 @@ function slot0.getTypesStr(slot0)
 	if slot3 then
 		return i18n("event_type_unlimit")
 	else
-		slot4 = ""
-
 		for slot8, slot9 in ipairs(slot2) do
-			slot4 = slot4 .. slot1[slot9].type_name .. ((slot8 == #slot0.template.ship_type and "") or "、")
+			slot4 = "" .. slot1[slot9].type_name .. (slot8 == #slot0.template.ship_type and "" or "、")
 		end
 
 		return i18n("event_condition_ship_type", slot4)
@@ -95,11 +93,11 @@ end
 slot1 = "EVENTINFO_FORMATION_KEY_"
 
 function slot0.ExistPrevFormation(slot0)
-	return PlayerPrefs.HasKey(slot0 .. getProxy(PlayerProxy):getRawData().id)
+	return PlayerPrefs.HasKey(uv0 .. getProxy(PlayerProxy):getRawData().id)
 end
 
 function slot0.GetPrevFormation(slot0)
-	return _.map(string.split(slot2, "#"), function (slot0)
+	return _.map(string.split(PlayerPrefs.GetString(uv0 .. getProxy(PlayerProxy):getRawData().id), "#"), function (slot0)
 		return tonumber(slot0)
 	end)
 end
@@ -115,7 +113,7 @@ function slot0.SavePrevFormation(slot0)
 		slot1 = slot0.shipIds
 	end
 
-	PlayerPrefs.SetString(slot0 .. slot3, table.concat(slot1, "#"))
+	PlayerPrefs.SetString(uv0 .. getProxy(PlayerProxy):getRawData().id, table.concat(slot1, "#"))
 	PlayerPrefs.Save()
 end
 

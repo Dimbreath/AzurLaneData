@@ -60044,5 +60044,3 @@ pg.item_data_statistics = {
 		70051
 	}
 }
-
-return

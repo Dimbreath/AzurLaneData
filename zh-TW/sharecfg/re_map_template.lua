@@ -92,5 +92,3 @@ pg.re_map_template = {
 		2
 	}
 }
-
-return

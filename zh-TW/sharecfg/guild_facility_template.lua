@@ -83,5 +83,3 @@ pg.guild_facility_template = {
 		3
 	}
 }
-
-return

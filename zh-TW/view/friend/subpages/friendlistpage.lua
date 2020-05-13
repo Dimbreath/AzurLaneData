@@ -20,16 +20,16 @@ function slot0.OnInit(slot0)
 	slot0.sortdata = {}
 
 	onButton(slot0, slot0.friendSortBtn, function ()
-		slot0.dec = not slot0.dec
-		slot0.contextData.sortData = {
-			data = slot0.sortdata,
-			dec = slot0.dec
+		uv0.dec = not uv0.dec
+		uv0.contextData.sortData = {
+			data = uv0.sortdata,
+			dec = uv0.dec
 		}
 
-		slot0.contextData:sortFriends()
+		uv0:sortFriends()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.friendIndexBtn, function ()
-		slot0:openFriendsSortPanel()
+		uv0:openFriendsSortPanel()
 	end, SFX_PANEL)
 end
 
@@ -57,11 +57,11 @@ function slot0.initFriendsPage(slot0)
 	slot0.friendRect = slot0.friendPanel:Find("mask/view"):GetComponent("LScrollRect")
 
 	function slot0.friendRect.onInitItem(slot0)
-		slot0:onInitItem(slot0)
+		uv0:onInitItem(slot0)
 	end
 
 	function slot0.friendRect.onUpdateItem(slot0, slot1)
-		slot0:onUpdateItem(slot0, slot1)
+		uv0:onUpdateItem(slot0, slot1)
 	end
 end
 
@@ -69,21 +69,21 @@ function slot0.onInitItem(slot0, slot1)
 	slot2 = FriendListCard.New(slot1)
 
 	onButton(slot0, slot2.occuptBtn, function ()
-		slot0:emit(FriendMediator.OPEN_CHATROOM, slot1.friendVO)
+		uv0:emit(FriendMediator.OPEN_CHATROOM, uv1.friendVO)
 	end, SFX_PANEL)
 	onButton(slot0, slot2.deleteBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("remove_friend_tip"),
 			onYes = function ()
-				slot0:emit(FriendMediator.DELETE_FRIEND, slot1.friendVO.id)
+				uv0:emit(FriendMediator.DELETE_FRIEND, uv1.friendVO.id)
 			end
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot2.resumeBtn, function ()
-		slot0:emit(FriendMediator.OPEN_RESUME, slot1.friendVO.id)
+		uv0:emit(FriendMediator.OPEN_RESUME, uv1.friendVO.id)
 	end, SFX_PANEL)
 	onButton(slot0, slot2.backYardBtn, function ()
-		slot0:emit(FriendMediator.VISIT_BACKYARD, slot1.friendVO.id)
+		uv0:emit(FriendMediator.VISIT_BACKYARD, uv1.friendVO.id)
 	end, SFX_PANEL)
 
 	slot0.friendItems[slot1] = slot2
@@ -115,24 +115,23 @@ function slot0.updateFriendCount(slot0)
 end
 
 function slot0.initFriendsSortPanel(slot0)
-	slot2 = slot0:getTpl("tpl", slot1)
 	slot0.friendSortCfg = require("view.friend.FriendSortCfg")
 
 	for slot6, slot7 in ipairs(slot0.friendSortCfg.SORT_TAG) do
-		slot8 = cloneTplTo(slot2, slot1)
+		slot8 = cloneTplTo(slot0:getTpl("tpl", slot0:findTF("mask/content", slot0.sortPanel)), slot1)
 		slot9 = slot8:Find("arr")
 
 		setImageSprite(slot8:Find("Image"), GetSpriteFromAtlas("ui/friendsui_atlas", slot7.spr), true)
 		onToggle(slot0, slot8, function (slot0)
 			if slot0 then
-				slot0.sortdata = slot0
-				slot0.contextData.sortData = {
-					data = slot0.sortdata,
-					dec = slot0.dec
+				uv0.sortdata = uv1
+				uv0.contextData.sortData = {
+					data = uv0.sortdata,
+					dec = uv0.dec
 				}
 
-				slot0:sortFriends()
-				triggerButton(slot0.sortPanel)
+				uv0:sortFriends()
+				triggerButton(uv0.sortPanel)
 			end
 		end, SFX_PANEL)
 
@@ -142,7 +141,7 @@ function slot0.initFriendsSortPanel(slot0)
 	end
 
 	onButton(slot0, slot0.sortPanel, function ()
-		slot0:closeFriendsSortPanel()
+		uv0:closeFriendsSortPanel()
 	end, SFX_PANEL)
 end
 
@@ -159,10 +158,7 @@ function slot0.closeFriendsSortPanel(slot0)
 end
 
 function slot0.OnDestroy(slot0)
-	slot1 = pairs
-	slot2 = slot0.friendItems or {}
-
-	for slot4, slot5 in slot1(slot2) do
+	for slot4, slot5 in pairs(slot0.friendItems or {}) do
 		slot5:dispose()
 	end
 end

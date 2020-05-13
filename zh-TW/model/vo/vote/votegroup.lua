@@ -46,9 +46,9 @@ function slot0.updateRankMap(slot0)
 	slot1 = slot0:GetStage()
 
 	table.sort(slot0.list, function (slot0, slot1)
-		if slot0 == slot1.DISPLAY_STAGE then
+		if uv0 == uv1.DISPLAY_STAGE then
 			return slot1.totalVotes < slot0.totalVotes
-		elseif slot2.onWeb then
+		elseif uv2.onWeb then
 			return slot1.netVotes < slot0.netVotes
 		else
 			return slot1.votes < slot0.votes
@@ -71,23 +71,23 @@ function slot0.GetStage(slot0)
 	slot3 = slot0:getConfig("time_show")
 
 	if pg.TimeMgr.GetInstance():inTime(slot0:getConfig("time_vote")) then
-		return slot0.VOTE_STAGE
+		return uv0.VOTE_STAGE
 	elseif pg.TimeMgr.GetInstance():inTime(slot2) then
-		return slot0.STTLEMENT_STAGE
+		return uv0.STTLEMENT_STAGE
 	elseif pg.TimeMgr.GetInstance():inTime(slot3) then
-		return slot0.DISPLAY_STAGE
+		return uv0.DISPLAY_STAGE
 	end
 end
 
 function slot0.getTimeDesc(slot0)
-	return table.concat(slot0:getConfig("time_vote")[1][1], ".") .. ((slot0:getConfig("type") == 1 and i18n("word_maintain")) or "(" .. string.format("%02u:%02u", slot1[1][2][1], slot1[1][2][2]) .. ")") .. " ~ " .. table.concat(slot1[2][1], ".") .. "(" .. string.format("%02u:%02u", slot1[2][2][1], slot1[2][2][2]) .. ")"
+	return table.concat(slot0:getConfig("time_vote")[1][1], ".") .. (slot0:getConfig("type") == 1 and i18n("word_maintain") or "(" .. string.format("%02u:%02u", slot1[1][2][1], slot1[1][2][2]) .. ")") .. " ~ " .. table.concat(slot1[2][1], ".") .. "(" .. string.format("%02u:%02u", slot1[2][2][1], slot1[2][2][2]) .. ")"
 end
 
 function slot0.GetVotes(slot0, slot1)
-	if slot0:GetStage() == slot0.DISPLAY_STAGE then
+	if slot0:GetStage() == uv0.DISPLAY_STAGE then
 		return slot1:getTotalVotes()
 	else
-		return (slot0:isWeb() and slot1:getNetVotes()) or slot1:GetGameVotes()
+		return slot0:isWeb() and slot1:getNetVotes() or slot1:GetGameVotes()
 	end
 end
 

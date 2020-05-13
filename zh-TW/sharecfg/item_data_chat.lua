@@ -21,5 +21,3 @@ pg.item_data_chat = {
 		1001
 	}
 }
-
-return

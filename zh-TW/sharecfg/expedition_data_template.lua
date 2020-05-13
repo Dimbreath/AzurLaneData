@@ -164299,5 +164299,3 @@ pg.expedition_data_template = {
 		3001201
 	}
 }
-
-return

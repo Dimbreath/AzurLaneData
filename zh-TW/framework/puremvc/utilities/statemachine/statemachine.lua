@@ -1,11 +1,11 @@
-slot1 = class("StateMachine", slot0)
+slot1 = class("StateMachine", import("...patterns.mediator.Mediator"))
 slot1.NAME = "StateMachine"
 slot1.ACTION = slot1.NAME .. "/notes/action"
 slot1.CHANGED = slot1.NAME .. "/notes/changed"
 slot1.CANCEL = slot1.NAME .. "/notes/cancel"
 
 function slot1.Ctor(slot0)
-	slot0.super.Ctor(slot0, slot0.NAME, null)
+	uv0.super.Ctor(slot0, uv0.NAME, null)
 
 	slot0.states = {}
 end
@@ -73,18 +73,18 @@ function slot1.transitionTo(slot0, slot1, slot2)
 		slot0:sendNotification(slot1.changed, slot2)
 	end
 
-	slot0:sendNotification(slot0.CHANGED, slot2, slot1.name)
+	slot0:sendNotification(uv0.CHANGED, slot2, slot1.name)
 end
 
 function slot1.listNotificationInterests(slot0)
 	return {
-		slot0.ACTION,
-		slot0.CANCEL
+		uv0.ACTION,
+		uv0.CANCEL
 	}
 end
 
 function slot1.handleNotification(slot0, slot1)
-	if slot1:getName() == slot0.ACTION then
+	if slot1:getName() == uv0.ACTION then
 		if slot0:getCurrentState():getTarget(slot1:getType()) ~= nil then
 			if slot0.states[slot4] ~= nil then
 				slot0:transitionTo(slot5, slot1:getBody())
@@ -94,7 +94,7 @@ function slot1.handleNotification(slot0, slot1)
 		else
 			print("target not found, action: " .. slot3)
 		end
-	elseif slot2 == slot0.CANCEL then
+	elseif slot2 == uv0.CANCEL then
 		slot0.canceled = true
 	end
 end

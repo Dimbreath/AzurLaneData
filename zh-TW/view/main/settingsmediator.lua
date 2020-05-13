@@ -3,8 +3,8 @@ slot0.ON_LOGOUT = "SettingsMediaotr:ON_LOGOUT"
 slot0.ON_VOTE = "SettingsMediator:ON_VOTE"
 
 function slot0.register(slot0)
-	slot0:bind(slot0.ON_LOGOUT, function (slot0)
-		slot0:sendNotification(GAME.LOGOUT, {
+	slot0:bind(uv0.ON_LOGOUT, function (slot0)
+		uv0:sendNotification(GAME.LOGOUT, {
 			code = 0
 		})
 	end)

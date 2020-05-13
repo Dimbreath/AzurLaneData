@@ -1,81 +1,65 @@
 ys = ys or {}
-ys.Battle.VictoryState = class("VictoryState", ys.Battle.IUnitState)
-ys.Battle.VictoryState.__name = "VictoryState"
+slot0 = ys
+slot0.Battle.VictoryState = class("VictoryState", slot0.Battle.IUnitState)
+slot0.Battle.VictoryState.__name = "VictoryState"
+slot1 = slot0.Battle.VictoryState
 
-function ys.Battle.VictoryState.Ctor(slot0)
-	slot0.super.Ctor()
+function slot1.Ctor(slot0)
+	uv0.super.Ctor()
 end
 
-function ys.Battle.VictoryState.AddIdleState(slot0, slot1, slot2)
-	return
+function slot1.AddIdleState(slot0, slot1, slot2)
 end
 
-function ys.Battle.VictoryState.AddMoveState(slot0, slot1, slot2)
-	return
+function slot1.AddMoveState(slot0, slot1, slot2)
 end
 
-function ys.Battle.VictoryState.AddMoveLeftState(slot0, slot1, slot2)
-	return
+function slot1.AddMoveLeftState(slot0, slot1, slot2)
 end
 
-function ys.Battle.VictoryState.AddAttackState(slot0, slot1, slot2)
-	return
+function slot1.AddAttackState(slot0, slot1, slot2)
 end
 
-function ys.Battle.VictoryState.AddDeadState(slot0, slot1, slot2)
-	return
+function slot1.AddDeadState(slot0, slot1, slot2)
 end
 
-function ys.Battle.VictoryState.AddSkillState(slot0, slot1, slot2)
-	return
+function slot1.AddSkillState(slot0, slot1, slot2)
 end
 
-function ys.Battle.VictoryState.AddSpellState(slot0, slot1, slot2)
-	return
+function slot1.AddSpellState(slot0, slot1, slot2)
 end
 
-function ys.Battle.VictoryState.AddVictoryState(slot0, slot1, slot2)
-	return
+function slot1.AddVictoryState(slot0, slot1, slot2)
 end
 
-function ys.Battle.VictoryState.AddVictorySwimState(slot0, slot1, slot2)
-	return
+function slot1.AddVictorySwimState(slot0, slot1, slot2)
 end
 
-function ys.Battle.VictoryState.AddStandState(slot0, slot1, slot2)
-	return
+function slot1.AddStandState(slot0, slot1, slot2)
 end
 
-function ys.Battle.VictoryState.AddDiveState(slot0, slot1, slot2)
-	return
+function slot1.AddDiveState(slot0, slot1, slot2)
 end
 
-function ys.Battle.VictoryState.AddDiveLeftState(slot0, slot1, slot2)
-	return
+function slot1.AddDiveLeftState(slot0, slot1, slot2)
 end
 
-function ys.Battle.VictoryState.AddInterruptState(slot0, slot1, slot2)
-	return
+function slot1.AddInterruptState(slot0, slot1, slot2)
 end
 
-function ys.Battle.VictoryState.AddDivingState(slot0, slot1, slot2)
-	return
+function slot1.AddDivingState(slot0, slot1, slot2)
 end
 
-function ys.Battle.VictoryState.OnTrigger(slot0, slot1)
-	return
+function slot1.OnTrigger(slot0, slot1)
 end
 
-function ys.Battle.VictoryState.OnStart(slot0, slot1)
-	return
+function slot1.OnStart(slot0, slot1)
 end
 
-function ys.Battle.VictoryState.OnEnd(slot0, slot1)
+function slot1.OnEnd(slot0, slot1)
 	slot1:OnStandState()
 end
 
-function ys.Battle.VictoryState.CacheWeapon(slot0)
+function slot1.CacheWeapon(slot0)
 	return true
 end
-
-return

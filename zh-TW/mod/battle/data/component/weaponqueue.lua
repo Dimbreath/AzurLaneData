@@ -1,26 +1,28 @@
 ys = ys or {}
-slot1 = ys.Battle.BattleConst
-ys.Battle.WeaponQueue = class("WeaponQueue")
-ys.Battle.WeaponQueue.__name = "WeaponQueue"
+slot0 = ys
+slot1 = slot0.Battle.BattleConst
+slot0.Battle.WeaponQueue = class("WeaponQueue")
+slot0.Battle.WeaponQueue.__name = "WeaponQueue"
+slot2 = slot0.Battle.WeaponQueue
 
-function ys.Battle.WeaponQueue.Ctor(slot0)
+function slot2.Ctor(slot0)
 	slot0._totalWeapon = {}
 	slot0._queueList = {}
 	slot0._GCDTimerList = {}
 end
 
-function ys.Battle.WeaponQueue.ConfigParallel(slot0, slot1, slot2)
-	slot0._torpedoQueue = slot0.Battle.ManualWeaponQueue.New(slot2)
-	slot0._chargeQueue = slot0.Battle.ManualWeaponQueue.New(slot1)
+function slot2.ConfigParallel(slot0, slot1, slot2)
+	slot0._torpedoQueue = uv0.Battle.ManualWeaponQueue.New(slot2)
+	slot0._chargeQueue = uv0.Battle.ManualWeaponQueue.New(slot1)
 end
 
-function ys.Battle.WeaponQueue.ClearAllWeapon(slot0)
+function slot2.ClearAllWeapon(slot0)
 	for slot4, slot5 in ipairs(slot0._totalWeapon) do
 		slot5:Clear()
 	end
 end
 
-function ys.Battle.WeaponQueue.Dispose(slot0)
+function slot2.Dispose(slot0)
 	slot0._torpedoQueue:Clear()
 	slot0._chargeQueue:Clear()
 
@@ -32,16 +34,16 @@ function ys.Battle.WeaponQueue.Dispose(slot0)
 	slot0._chargeQueue = nil
 end
 
-function ys.Battle.WeaponQueue.AppendWeapon(slot0, slot1)
-	slot0:GetQueueByIndex(slot2)[#slot0.GetQueueByIndex(slot2) + 1] = slot1
+function slot2.AppendWeapon(slot0, slot1)
+	slot3 = slot0:GetQueueByIndex(slot1:GetTemplateData().queue)
+	slot3[#slot3 + 1] = slot1
 	slot0._totalWeapon[#slot0._totalWeapon + 1] = slot1
 end
 
-function ys.Battle.WeaponQueue.RemoveWeapon(slot0, slot1)
+function slot2.RemoveWeapon(slot0, slot1)
 	slot4 = 1
-	slot5 = #slot0:GetQueueByIndex(slot2)
 
-	while slot4 <= slot5 do
+	while slot4 <= #slot0:GetQueueByIndex(slot1:GetTemplateData().queue) do
 		if slot3[slot4] == slot1 then
 			table.remove(slot3, slot4)
 
@@ -52,9 +54,8 @@ function ys.Battle.WeaponQueue.RemoveWeapon(slot0, slot1)
 	end
 
 	slot4 = 1
-	slot5 = #slot0._totalWeapon
 
-	while slot4 <= slot5 do
+	while slot4 <= #slot0._totalWeapon do
 		if slot0._totalWeapon[slot4] == slot1 then
 			table.remove(slot0._totalWeapon, slot4)
 
@@ -65,25 +66,25 @@ function ys.Battle.WeaponQueue.RemoveWeapon(slot0, slot1)
 	end
 end
 
-function ys.Battle.WeaponQueue.AppendManualTorpedo(slot0, slot1)
+function slot2.AppendManualTorpedo(slot0, slot1)
 	slot0:AppendWeapon(slot1)
 	slot0._torpedoQueue:AppendWeapon(slot1)
 end
 
-function ys.Battle.WeaponQueue.AppendChargeWeapon(slot0, slot1)
+function slot2.AppendChargeWeapon(slot0, slot1)
 	slot0:AppendWeapon(slot1)
 	slot0._chargeQueue:AppendWeapon(slot1)
 end
 
-function ys.Battle.WeaponQueue.QueueEnterGCD(slot0, slot1, slot2)
+function slot2.QueueEnterGCD(slot0, slot1, slot2)
 	slot0:addGCDTimer(slot2, slot1)
 end
 
-function ys.Battle.WeaponQueue.GetTotalWeaponUnit(slot0)
+function slot2.GetTotalWeaponUnit(slot0)
 	return slot0._totalWeapon
 end
 
-function ys.Battle.WeaponQueue.GetQueueByIndex(slot0, slot1)
+function slot2.GetQueueByIndex(slot0, slot1)
 	if slot0._queueList[slot1] == nil then
 		slot0._queueList[slot1] = {}
 	end
@@ -91,15 +92,15 @@ function ys.Battle.WeaponQueue.GetQueueByIndex(slot0, slot1)
 	return slot0._queueList[slot1]
 end
 
-function ys.Battle.WeaponQueue.GetManualTorpedoQueue(slot0)
+function slot2.GetManualTorpedoQueue(slot0)
 	return slot0._torpedoQueue
 end
 
-function ys.Battle.WeaponQueue.GetChargeWeaponQueue(slot0)
+function slot2.GetChargeWeaponQueue(slot0)
 	return slot0._chargeQueue
 end
 
-function ys.Battle.WeaponQueue.Update(slot0, slot1)
+function slot2.Update(slot0, slot1)
 	for slot5, slot6 in pairs(slot0._queueList) do
 		if slot0:isNotAttacking(slot5) then
 			slot0:updateWeapon(slot5, slot1)
@@ -107,7 +108,7 @@ function ys.Battle.WeaponQueue.Update(slot0, slot1)
 	end
 end
 
-function ys.Battle.WeaponQueue.CheckWeaponInitalCD(slot0)
+function slot2.CheckWeaponInitalCD(slot0)
 	for slot4, slot5 in ipairs(slot0._totalWeapon) do
 		if not slot0._torpedoQueue:Containers(slot5) and not slot0._chargeQueue:Containers(slot5) then
 			slot5:InitialCD()
@@ -118,7 +119,7 @@ function ys.Battle.WeaponQueue.CheckWeaponInitalCD(slot0)
 	slot0._chargeQueue:CheckWeaponInitalCD()
 end
 
-function ys.Battle.WeaponQueue.FlushWeaponReloadRequire(slot0)
+function slot2.FlushWeaponReloadRequire(slot0)
 	for slot4, slot5 in ipairs(slot0._totalWeapon) do
 		if not slot0._torpedoQueue:Containers(slot5) and not slot0._chargeQueue:Containers(slot5) then
 			slot5:FlushReloadRequire()
@@ -129,7 +130,7 @@ function ys.Battle.WeaponQueue.FlushWeaponReloadRequire(slot0)
 	slot0._chargeQueue:FlushWeaponReloadRequire()
 end
 
-function ys.Battle.WeaponQueue.isNotAttacking(slot0, slot1)
+function slot2.isNotAttacking(slot0, slot1)
 	if slot0._GCDTimerList[slot1] ~= nil then
 		return false
 	end
@@ -143,9 +144,9 @@ function ys.Battle.WeaponQueue.isNotAttacking(slot0, slot1)
 	return true
 end
 
-function ys.Battle.WeaponQueue.updateWeapon(slot0, slot1, slot2)
-	for slot7, slot8 in ipairs(slot3) do
-		if slot8:GetType() == slot0.EquipmentType.BEAM and slot8:GetCurrentState() == slot8.STATE_ATTACK then
+function slot2.updateWeapon(slot0, slot1, slot2)
+	for slot7, slot8 in ipairs(slot0._queueList[slot1]) do
+		if slot8:GetType() == uv0.EquipmentType.BEAM and slot8:GetCurrentState() == slot8.STATE_ATTACK then
 			slot8:Update()
 
 			return
@@ -156,7 +157,7 @@ function ys.Battle.WeaponQueue.updateWeapon(slot0, slot1, slot2)
 		slot9 = false
 		slot10 = false
 
-		if slot8:GetCurrentState() == slot8.STATE_PRECAST or slot11 == slot8.STATE_READY or (slot11 == slot8.STATE_OVER_HEAT and slot8:CheckReloadTimeStamp()) then
+		if slot8:GetCurrentState() == slot8.STATE_PRECAST or slot11 == slot8.STATE_READY or slot11 == slot8.STATE_OVER_HEAT and slot8:CheckReloadTimeStamp() then
 			slot9 = true
 		end
 
@@ -166,26 +167,24 @@ function ys.Battle.WeaponQueue.updateWeapon(slot0, slot1, slot2)
 			slot10 = true
 		end
 
-		if slot1 ~= slot0.NON_QUEUE_WEAPON and ((slot9 and not slot10) or slot8:IsAttacking()) then
+		if slot1 ~= uv0.NON_QUEUE_WEAPON and (slot9 and not slot10 or slot8:IsAttacking()) then
 			break
 		end
 	end
 end
 
-function ys.Battle.WeaponQueue.addGCDTimer(slot0, slot1, slot2)
+function slot2.addGCDTimer(slot0, slot1, slot2)
 	if slot0._GCDTimerList[slot2] ~= nil then
 		return
 	end
 
 	slot0._GCDTimerList[slot2] = pg.TimeMgr.GetInstance():AddBattleTimer("weaponGCD", -1, slot1, function ()
-		slot0:removeGCDTimer(slot0)
+		uv0:removeGCDTimer(uv1)
 	end, true)
 end
 
-function ys.Battle.WeaponQueue.removeGCDTimer(slot0, slot1)
+function slot2.removeGCDTimer(slot0, slot1)
 	pg.TimeMgr.GetInstance():RemoveBattleTimer(slot0._GCDTimerList[slot1])
 
 	slot0._GCDTimerList[slot1] = nil
 end
-
-return

@@ -10,9 +10,9 @@ slot0.STATES = {
 }
 
 function slot0.Ctor(slot0, slot1)
-	slot0._state = slot0.STATES.NONE
-	slot0.buffer = slot1.New()
-	slot0.loader = slot1.New().New()
+	slot0._state = uv0.STATES.NONE
+	slot0.buffer = uv1.New()
+	slot0.loader = uv2.New()
 
 	if slot1 then
 		slot0.buffer:Attach(slot1)
@@ -36,7 +36,7 @@ function slot0.Attach(slot0, slot1)
 end
 
 function slot0.Detach(slot0)
-	if slot0._state == slot0.STATES.DESTROY then
+	if slot0._state == uv0.STATES.DESTROY then
 		return
 	end
 
@@ -50,33 +50,33 @@ function slot0.Detach(slot0)
 end
 
 function slot0.Load(slot0)
-	if slot0._state ~= slot0.STATES.NONE then
+	if slot0._state ~= uv0.STATES.NONE then
 		return
 	end
 
-	slot0._state = slot0.STATES.LOADING
+	slot0._state = uv0.STATES.LOADING
 
 	pg.UIMgr.GetInstance():LoadingOn()
 	PoolMgr.GetInstance():GetUI(slot0:GetUIName(), true, function (slot0)
-		slot0:Loaded(slot0)
-		slot0:Init()
+		uv0:Loaded(slot0)
+		uv0:Init()
 	end)
 end
 
 function slot0.Loaded(slot0, slot1)
 	pg.UIMgr.GetInstance():LoadingOff()
 
-	if slot0._state == slot0.STATES.DESTROY then
+	if slot0._state == uv0.STATES.DESTROY then
 		slot0:DisposeGO(slot0:GetUIName(), slot1)
 
 		return
 	end
 
-	if slot0._state ~= slot0.STATES.LOADING then
+	if slot0._state ~= uv0.STATES.LOADING then
 		return
 	end
 
-	slot0._state = slot0.STATES.LOADED
+	slot0._state = uv0.STATES.LOADED
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
 
@@ -86,11 +86,11 @@ function slot0.Loaded(slot0, slot1)
 end
 
 function slot0.Init(slot0)
-	if slot0._state ~= slot0.STATES.LOADED then
+	if slot0._state ~= uv0.STATES.LOADED then
 		return
 	end
 
-	slot0._state = slot0.STATES.INITED
+	slot0._state = uv0.STATES.INITED
 
 	slot0:OnInit()
 	slot0.buffer:SetNotifier(slot0)
@@ -104,7 +104,7 @@ function slot0.InvokeParent(slot0, slot1, ...)
 end
 
 function slot0.GetLoaded(slot0)
-	return slot0.STATES.LOADED <= slot0._state
+	return uv0.STATES.LOADED <= slot0._state
 end
 
 function slot0.CheckState(slot0, slot1)
@@ -134,12 +134,12 @@ function slot0.IsShowing(slot0)
 end
 
 function slot0.Destroy(slot0)
-	if slot0._state == slot0.STATES.DESTROY then
+	if slot0._state == uv0.STATES.DESTROY then
 		return
 	end
 
 	if not slot0:GetLoaded() then
-		slot0._state = slot0.STATES.DESTROY
+		slot0._state = uv0.STATES.DESTROY
 
 		return
 	end
@@ -154,14 +154,12 @@ function slot0.Destroy(slot0)
 
 	slot0._go = nil
 	slot0._tf = nil
-	slot0._state = slot0.STATES.DESTROY
+	slot0._state = uv0.STATES.DESTROY
 end
 
 function slot0.DisposeGO(slot0, slot1, slot2)
-	slot3 = PoolMgr.GetInstance()
-
 	if not IsNil(slot2) then
-		slot3:ReturnUI(slot1, slot2)
+		PoolMgr.GetInstance():ReturnUI(slot1, slot2)
 	end
 end
 
@@ -187,23 +185,18 @@ function slot0.GetUIName(slot0)
 end
 
 function slot0.OnLoaded(slot0)
-	return
 end
 
 function slot0.OnInit(slot0)
-	return
 end
 
 function slot0.OnShow(slot0)
-	return
 end
 
 function slot0.OnHide(slot0)
-	return
 end
 
 function slot0.OnDestroy(slot0)
-	return
 end
 
 return slot0

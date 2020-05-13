@@ -27,10 +27,10 @@ end
 function slot0.OnFirstFlush(slot0)
 	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 	onButton(slot0, slot0.btnGo, function ()
-		if slot0.taskVO and not slot0.taskVO:isReceive() then
-			slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.TASK)
+		if uv0.taskVO and not uv0.taskVO:isReceive() then
+			uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.TASK)
 		else
-			slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.NAVALACADEMYSCENE)
+			uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.NAVALACADEMYSCENE)
 		end
 	end, SFX_PANEL)
 end
@@ -42,7 +42,6 @@ function slot0.OnUpdateFlush(slot0)
 end
 
 function slot0.OnDestroy(slot0)
-	return
 end
 
 return slot0

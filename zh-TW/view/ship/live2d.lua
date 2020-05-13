@@ -4,7 +4,7 @@ slot0.STATE_INITED = 1
 slot0.STATE_DISPOSE = 2
 
 function slot0.live2dData(slot0)
-	{
+	slot1 = {
 		SetData = function (slot0, slot1)
 			slot0.ship = slot1.ship
 			slot0.parent = slot1.parent
@@ -26,18 +26,21 @@ function slot0.live2dData(slot0)
 			slot0.scale = nil
 			slot0.position = nil
 		end
-	}:SetData(slot0)
+	}
 
-	return 
+	slot1:SetData(slot0)
+
+	return slot1
 end
 
 slot1 = nil
 
 function slot2(slot0)
 	if CSharpVersion > 18 then
-		slot3 = slot0.live2dData:GetShipSkinConfig().lip_smoothing
+		slot1 = slot0.live2dData:GetShipSkinConfig()
+		slot3 = slot1.lip_smoothing
 
-		if slot0.live2dData.GetShipSkinConfig().lip_sync_gain and slot2 ~= 0 then
+		if slot1.lip_sync_gain and slot2 ~= 0 then
 			slot0._go:GetComponent("CubismCriSrcMouthInput").Gain = slot2
 		end
 
@@ -57,9 +60,11 @@ end
 
 function slot4(slot0, slot1, slot2)
 	if not slot0.live2dAction or slot2 then
-		slot0.liveCom:SetAction(slot0.action2Id[slot1])
+		slot3 = uv0.action2Id[slot1]
 
-		if slot0.action2Id[slot1] then
+		slot0.liveCom:SetAction(slot3)
+
+		if slot3 then
 			slot0.live2dAction = true
 		end
 	end
@@ -82,50 +87,50 @@ function slot6(slot0, slot1)
 	slot0._tf.localPosition = slot0.live2dData.position
 	slot0.liveCom = slot1:GetComponent(typeof(Live2dChar))
 
-	slot0.liveCom:SetReactMotions(slot0.idleActions)
-	slot0.liveCom:SetAction(slot2)
+	slot0.liveCom:SetReactMotions(uv0.idleActions)
+	slot0.liveCom:SetAction(uv0.action2Id.idle)
 
 	function slot0.liveCom.FinishAction(slot0)
-		slot0.live2dAction = nil
+		uv0.live2dAction = nil
 
-		if slot0.finishActionCB then
-			slot0.finishActionCB()
+		if uv0.finishActionCB then
+			uv0.finishActionCB()
 
-			slot0.finishActionCB = nil
+			uv0.finishActionCB = nil
 		end
 
-		slot0.liveCom:SetAction(slot1.idleActions[math.ceil(math.random(#slot1.idleActions))])
+		uv0.liveCom:SetAction(uv1.idleActions[math.ceil(math.random(#uv1.idleActions))])
 	end
 
-	slot0.liveCom:SetTouchParts(slot0.assistantTouchParts)
+	slot0.liveCom:SetTouchParts(uv0.assistantTouchParts)
 
 	slot0.liveCom.name = slot0.live2dData:GetShipName()
 
 	setActive(slot0.live2dData.parent, true)
-	slot1(slot0)
-	slot2(slot0)
-	slot2(slot0)
+	uv1(slot0)
+	uv2(slot0)
+	uv3(slot0)
 
-	slot0.state = slot4.STATE_INITED
+	slot0.state = uv4.STATE_INITED
 end
 
 function slot0.Ctor(slot0, slot1, slot2)
-	slot0.state = slot0.STATE_LOADING
+	slot0.state = uv0.STATE_LOADING
 	slot0.live2dData = slot1
-	slot1 = pg.AssistantInfo
+	uv1 = pg.AssistantInfo
 
 	pg.Live2DMgr.GetInstance():GetLive2DModelAsync(slot0.live2dData:GetShipName(), function (slot0)
-		if slot0.state == slot1.STATE_DISPOSE then
+		if uv0.state == uv1.STATE_DISPOSE then
 			Destroy(slot0)
-			pg.Live2DMgr.GetInstance():TryReleaseLive2dRes(pg.Live2DMgr.GetInstance())
+			pg.Live2DMgr.GetInstance():TryReleaseLive2dRes(uv2)
 
 			return
 		end
 
-		slot3(slot0, slot0)
+		uv3(uv0, slot0)
 
-		if slot4 then
-			slot4()
+		if uv4 then
+			uv4()
 		end
 	end)
 end
@@ -141,17 +146,17 @@ function slot0.TriggerAction(slot0, slot1, slot2, slot3)
 		slot0.finishActionCB = nil
 	end
 
-	slot0(slot0, slot1, slot3)
+	uv0(slot0, slot1, slot3)
 end
 
 function slot0.Dispose(slot0)
-	if slot0.state == slot0.STATE_INITED then
+	if slot0.state == uv0.STATE_INITED then
 		Destroy(slot0._go)
 
 		slot0.liveCom.FinishAction = nil
 	end
 
-	slot0.state = slot0.STATE_DISPOSE
+	slot0.state = uv0.STATE_DISPOSE
 
 	pg.Live2DMgr.GetInstance():TryReleaseLive2dRes(slot0.live2dData:GetShipName())
 

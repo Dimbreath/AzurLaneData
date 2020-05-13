@@ -16,9 +16,7 @@ function slot0.isActivate(slot0)
 
 	if getProxy(ActivityProxy):getActivityById(slot0.activityId) and not slot3:isEnd() then
 		if slot0:getConfig("benefit_condition")[1] == "lv" then
-			slot1 = 
-			-- Decompilation error in this vicinity:
-			loadstring("return " .. getProxy(PlayerProxy).getRawData(slot5).level .. slot4[2] .. slot4[3])()
+			slot1 = loadstring("return " .. getProxy(PlayerProxy):getRawData().level .. slot4[2] .. slot4[3])()
 		end
 
 		if slot4 == "" then

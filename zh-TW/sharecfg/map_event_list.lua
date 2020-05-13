@@ -76,5 +76,3 @@ pg.map_event_list = {
 		1160004
 	}
 }
-
-return

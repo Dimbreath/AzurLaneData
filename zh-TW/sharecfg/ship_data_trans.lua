@@ -2923,5 +2923,3 @@ pg.ship_data_trans = {
 		50203
 	}
 }
-
-return

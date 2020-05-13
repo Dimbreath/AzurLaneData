@@ -22,7 +22,7 @@ slot0.BLUEPRINT_ATTRS = {
 }
 
 function slot0.id2Name(slot0)
-	return AttributeType.Type2Name(slot0.ID_TO_ATTR[slot0])
+	return AttributeType.Type2Name(uv0.ID_TO_ATTR[slot0])
 end
 
 return slot0

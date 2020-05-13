@@ -3,29 +3,30 @@ slot0.NEW_MSG = "ChatProxy public msg"
 
 function slot0.InjectPublic(slot0, slot1, slot2)
 	if slot1.id == 0 then
-		slot0.text = (slot1.args[1] and slot1.args[1].string) or ""
+		slot0.text = slot1.args[1] and slot1.args[1].string or ""
 
 		return
 	end
 
 	slot3 = i18n("ad_" .. slot1.id)
 
-	for slot7 = 1, #slot1.args, 1 do
+	for slot7 = 1, #slot1.args do
 		slot9 = nil
 
 		if slot1.args[slot7].type == PublicArg.TypePlayerName then
 			slot9 = slot8.string
 		elseif slot8.type == PublicArg.TypeShipId then
-			slot0:AddSprite(slot11, slot12)
+			slot10 = pg.ship_data_statistics[slot8.int]
 
-			slot3 = string.gsub(slot3, "shipcolor" .. slot7, ShipRarity.Rarity2HexColor(pg.ship_data_statistics[slot8.int].rarity))
-			slot9 = pg.ship_data_statistics[slot8.int].name
+			slot0:AddSprite("shiptype" .. slot7, GetSpriteFromAtlas("shiptype", shipType2print(slot10.type)))
+
+			slot3 = string.gsub(slot3, "shipcolor" .. slot7, ShipRarity.Rarity2HexColor(slot10.rarity))
 
 			if slot2 then
 				slot14 = false
 
 				if PLATFORM_CODE == PLATFORM_JP then
-					slot14, slot9 = contentWrap(slot9, 18, 1.65)
+					slot14, slot9 = contentWrap(slot10.name, 18, 1.65)
 				end
 
 				if slot14 then
@@ -37,8 +38,10 @@ function slot0.InjectPublic(slot0, slot1, slot2)
 				slot9 = ShipRarity.SSRGradient(slot9)
 			end
 		else
-			slot3 = string.gsub(slot3, "$" .. slot7, (slot8.type ~= PublicArg.TypeEquipId or pg.equip_data_statistics[slot8.int].name) and (slot8.type ~= PublicArg.TypeItemId or pg.item_data_statistics[slot8.int].name) and (slot8.type ~= PublicArg.TypeNums or slot8.int) and slot8.string)
+			slot9 = (slot8.type ~= PublicArg.TypeEquipId or pg.equip_data_statistics[slot8.int].name) and (slot8.type ~= PublicArg.TypeItemId or pg.item_data_statistics[slot8.int].name) and (slot8.type ~= PublicArg.TypeNums or slot8.int) and slot8.string
 		end
+
+		slot3 = string.gsub(slot3, "$" .. slot7, slot9)
 	end
 
 	slot0.text = slot3
@@ -49,24 +52,26 @@ function slot0.register(slot0)
 		if slot0.type == ChatConst.CODE_BANED then
 			pg.TipsMgr.GetInstance():ShowTips(slot0.content)
 		elseif slot0.type == ChatConst.CODE_GUILDBOSS_OPEN then
-			slot0:sendNotification(GAME.BOSS_EVENT_START)
+			uv0:sendNotification(GAME.BOSS_EVENT_START)
 		elseif slot0.type == ChatConst.CODE_ACTOBSS_MSG_WORD then
-			slot0:sendNotification(GAME.ACTIVITY_BOSS_MSG_ADDED, {
+			slot1 = {
 				name = slot0.player.name,
 				score = slot0.content
-			})
-			table.insert(slot0.actBossMsg, )
+			}
 
-			if #slot0.actBossMsg > 6 then
-				table.remove(slot0.actBossMsg, 1)
+			uv0:sendNotification(GAME.ACTIVITY_BOSS_MSG_ADDED, slot1)
+			table.insert(uv0.actBossMsg, slot1)
+
+			if #uv0.actBossMsg > 6 then
+				table.remove(uv0.actBossMsg, 1)
 			end
 		else
-			slot1, slot5 = wordVer(slot0.content, {
+			slot1, slot2 = wordVer(slot0.content, {
 				isReplace = true
 			})
 
 			string.gsub(slot2, ChatConst.EmojiCodeMatch, function (slot0)
-				slot0 = tonumber(slot0)
+				uv0 = tonumber(slot0)
 			end)
 
 			if nil then
@@ -77,7 +82,7 @@ function slot0.register(slot0)
 				end
 			end
 
-			slot0:addNewMsg(ChatMsg.New(ChatConst.ChannelWorld, {
+			uv0:addNewMsg(ChatMsg.New(ChatConst.ChannelWorld, {
 				player = Player.New(slot0.player),
 				content = slot2,
 				emojiId = slot3,
@@ -92,7 +97,7 @@ function slot0.register(slot0)
 			table.insert(slot1, PublicArg.New(slot6))
 		end
 
-		slot0:addNewMsg(ChatMsg.New(ChatConst.ChannelPublic, {
+		uv0:addNewMsg(ChatMsg.New(ChatConst.ChannelPublic, {
 			id = slot0.ad_id,
 			args = slot1,
 			timestamp = pg.TimeMgr.GetInstance():GetServerTime()
@@ -120,7 +125,7 @@ function slot0.addNewMsg(slot0, slot1)
 		end
 	end
 
-	slot0:sendNotification(slot0.NEW_MSG, slot1)
+	slot0:sendNotification(uv0.NEW_MSG, slot1)
 end
 
 function slot0.clearMsg(slot0)
@@ -133,7 +138,7 @@ function slot0.loadUsedEmoji(slot0)
 	if #string.split(PlayerPrefs.GetString(ChatConst.EMOJI_SAVE_TAG .. getProxy(PlayerProxy):getRawData().id) or "", ":") > 0 then
 		_.each(slot2, function (slot0)
 			if #string.split(slot0, "|") == 2 then
-				slot0.usedEmoji[tonumber(slot1[1])] = tonumber(slot1[2])
+				uv0.usedEmoji[tonumber(slot1[1])] = tonumber(slot1[2])
 			end
 		end)
 	end
@@ -146,7 +151,7 @@ function slot0.saveUsedEmoji(slot0)
 		table.insert(slot1, slot5 .. "|" .. slot6)
 	end
 
-	PlayerPrefs.SetString(ChatConst.EMOJI_SAVE_TAG .. slot2, table.concat(slot1, ":"))
+	PlayerPrefs.SetString(ChatConst.EMOJI_SAVE_TAG .. getProxy(PlayerProxy):getRawData().id, table.concat(slot1, ":"))
 end
 
 function slot0.getUsedEmoji(slot0)
@@ -166,7 +171,7 @@ end
 function slot0.loadUsedEmojiIcon(slot0)
 	slot0.usedEmojiIcon = {}
 
-	for slot4 = 1, 6, 1 do
+	for slot4 = 1, 6 do
 		slot0.usedEmojiIcon[slot4] = pg.emoji_small_template.all[slot4]
 	end
 
@@ -184,7 +189,7 @@ function slot0.saveUsedEmojiIcon(slot0)
 		table.insert(slot1, slot6)
 	end
 
-	PlayerPrefs.SetString(ChatConst.EMOJI_ICON_SAVE_TAG .. slot2, table.concat(slot1, ":"))
+	PlayerPrefs.SetString(ChatConst.EMOJI_ICON_SAVE_TAG .. getProxy(PlayerProxy):getRawData().id, table.concat(slot1, ":"))
 end
 
 function slot0.getUsedEmojiIcon(slot0)

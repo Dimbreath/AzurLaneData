@@ -42,7 +42,7 @@ function slot0.getProgress(slot0)
 	if slot0:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_ITEM then
 		slot1 = getProxy(BagProxy):getItemCountById(tonumber(slot0:getConfig("target_id_for_client")))
 	elseif slot0:getConfig("sub_type") == TASK_SUB_TYPE_PT then
-		slot1 = (getProxy(ActivityProxy):getActivityById(tonumber(slot0:getConfig("target_id_2"))) and slot2.data1) or 0
+		slot1 = getProxy(ActivityProxy):getActivityById(tonumber(slot0:getConfig("target_id_2"))) and slot2.data1 or 0
 	elseif slot0:getConfig("sub_type") == TASK_SUB_TYPE_PLAYER_RES then
 		slot1 = getProxy(PlayerProxy):getData():getResById(slot0:getConfig("target_id_for_client"))
 	elseif slot0:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_VIRTUAL_ITEM then
@@ -52,10 +52,12 @@ function slot0.getProgress(slot0)
 	elseif slot0:getConfig("sub_type") == TASK_SUB_STROY then
 		slot2 = getProxy(PlayerProxy):getRawData()
 
-		_.each(_.map(slot3, function (slot0)
-			return slot0:getStoryByIndexID(slot0)
+		_.each(_.map(slot0:getConfig("target_id"), function (slot0)
+			return uv0:getStoryByIndexID(slot0)
 		end), function (slot0)
-			slot1 = slot0:IsPlayed(slot0) and slot1 + 1
+			if uv0:IsPlayed(slot0) then
+				uv1 = uv1 + 1
+			end
 		end)
 
 		slot1 = 0
@@ -83,39 +85,37 @@ function slot0.getTaskStatus(slot0)
 end
 
 function slot0.onAdded(slot0)
-	function slot1()
-		if slot0:getConfig("sub_type") == 29 then
-			if _.any(getProxy(SkirmishProxy):getRawData(), function (slot0)
-				return slot0:getConfig("task_id") == slot0.id
-			end) then
-				return
-			end
-
-			pg.m02:sendNotification(GAME.TASK_GO, {
-				taskVO = slot0
-			})
-		elseif slot0:getConfig("added_tip") > 0 then
-			slot0 = nil
-
-			if getProxy(ContextProxy).getCurrentContext(slot1).mediator.__cname ~= TaskMediator.__cname then
-				function slot0()
-					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.TASK, {
-						page = slot0[slot1:getConfig("type")]
-					})
-				end
-			end
-
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				noText = "text_iknow",
-				yesText = "text_forward",
-				content = i18n("tip_add_task", HXSet.hxLan(slot0:getConfig("name"))),
-				onYes = slot0
-			})
-		end
-	end
-
 	if slot0:getConfig("story_id") and slot2 ~= "" then
-		pg.StoryMgr.GetInstance():PlayOnTaskAdded(slot2, slot1, true, true)
+		pg.StoryMgr.GetInstance():PlayOnTaskAdded(slot2, function ()
+			if uv0:getConfig("sub_type") == 29 then
+				if _.any(getProxy(SkirmishProxy):getRawData(), function (slot0)
+					return slot0:getConfig("task_id") == uv0.id
+				end) then
+					return
+				end
+
+				pg.m02:sendNotification(GAME.TASK_GO, {
+					taskVO = uv0
+				})
+			elseif uv0:getConfig("added_tip") > 0 then
+				slot0 = nil
+
+				if getProxy(ContextProxy):getCurrentContext().mediator.__cname ~= TaskMediator.__cname then
+					function slot0()
+						pg.m02:sendNotification(GAME.GO_SCENE, SCENE.TASK, {
+							page = uv0[uv1:getConfig("type")]
+						})
+					end
+				end
+
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					noText = "text_iknow",
+					yesText = "text_forward",
+					content = i18n("tip_add_task", HXSet.hxLan(uv0:getConfig("name"))),
+					onYes = slot0
+				})
+			end
+		end, true, true)
 	else
 		slot1()
 	end
@@ -133,23 +133,22 @@ function slot0.confirmForSubmit(slot0)
 	slot0.confirmSetting = {}
 	slot1 = getProxy(PlayerProxy):getData()
 	slot2 = {}
-	slot3 = 0
 
-	for slot8, slot9 in ipairs(slot4) do
+	for slot8, slot9 in ipairs(slot0:getConfig("award_display")) do
 		if slot9[1] == DROP_TYPE_ITEM and slot9[2] == ITEM_ID_REACT_CHAPTER_TICKET then
-			slot3 = slot3 + slot9[3]
+			slot3 = 0 + slot9[3]
 		end
 
 		if slot9[1] == DROP_TYPE_RESOURCE then
 			if slot9[2] == PlayerConst.ResGold then
-				if (slot1.gold + slot9[3]) - pg.gameset.max_gold.key_value > 0 then
+				if slot1.gold + slot9[3] - pg.gameset.max_gold.key_value > 0 then
 					table.insert(slot2, {
 						type = DROP_TYPE_RESOURCE,
 						id = PlayerConst.ResGold,
 						count = slot10
 					})
 				end
-			elseif slot9[2] == PlayerConst.ResOil and (slot1.oil + slot9[3]) - pg.gameset.max_oil.key_value > 0 then
+			elseif slot9[2] == PlayerConst.ResOil and slot1.oil + slot9[3] - pg.gameset.max_oil.key_value > 0 then
 				table.insert(slot2, {
 					type = DROP_TYPE_RESOURCE,
 					id = PlayerConst.ResOil,
@@ -196,7 +195,7 @@ function slot0.confirmForSubmit(slot0)
 	if slot0:isSelectable() then
 		slot8 = {}
 
-		for slot12, slot13 in ipairs(slot7) do
+		for slot12, slot13 in ipairs(taskVO:getConfig("award_choice")) do
 			slot8[#slot8 + 1] = {
 				type = DROP_TYPE_ITEM,
 				id = slot13[2],
@@ -212,10 +211,10 @@ function slot0.confirmForSubmit(slot0)
 			itemFunc = function (slot0)
 				print("选中的序号为" .. slot0.index, "选中的id为" .. slot0.id)
 
-				slot0.index = slot0.index
+				uv0.index = slot0.index
 			end,
 			onNo = function ()
-				slot0.index = nil
+				uv0.index = nil
 			end
 		}
 	end

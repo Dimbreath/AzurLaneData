@@ -37,15 +37,16 @@ end
 function GetLocalTimeZone()
 	if PLATFORM_CODE == PLATFORM_US then
 		slot0 = os.time()
-		slot2 = os.difftime(slot0, os.time(os.date("!*t", slot0)))
 
 		if os.date("*t", slot0).isdst then
-			return slot2 + 3600
+			return os.difftime(slot0, os.time(os.date("!*t", slot0))) + 3600
 		else
 			return slot2
 		end
 	else
-		return os.difftime(os.time(), os.time(os.date("!*t", os.time())))
+		slot0 = os.time()
+
+		return os.difftime(slot0, os.time(os.date("!*t", slot0)))
 	end
 end
 
@@ -351,5 +352,3 @@ ADAPT_MIN = 1.8
 ADAPT_TARGET = 2
 ADAPT_NOTICE = 1.8
 LOCK_FRAGMENT_SHOP = true
-
-return

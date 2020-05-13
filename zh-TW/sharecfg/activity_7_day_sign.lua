@@ -204,5 +204,3 @@ pg.activity_7_day_sign = {
 		18
 	}
 }
-
-return

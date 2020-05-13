@@ -64,26 +64,26 @@ function slot0.Tracking(slot0, slot1, slot2, slot3)
 
 	if pg.SdkMgr.GetInstance():GetChannelUID() == "0" then
 		if slot1 == TRACKING_PURCHASE_CLICK then
-			slot0:YS_S2S(slot0.DEV_TOKEN, "DE31AE06D3CE21EE3A9E1A1BCEB506E1", "Azur Lane (Android) S2S_purchase_click", "", tostring(slot6), pg.SdkMgr.GetInstance():GetDeviceId(), tostring(pg.TimeMgr.GetInstance():GetServerTime()))
+			slot0:YS_S2S(uv0.DEV_TOKEN, "DE31AE06D3CE21EE3A9E1A1BCEB506E1", "Azur Lane (Android) S2S_purchase_click", "", tostring(slot0:transMoney(pg.pay_data_display[slot3].money)), pg.SdkMgr.GetInstance():GetDeviceId(), tostring(pg.TimeMgr.GetInstance():GetServerTime()))
 		elseif slot1 == TRACKING_PURCHASE_CLICK_MONTHLYCARD then
-			slot0:YS_S2S(slot0.DEV_TOKEN, "DE31AE06D3CE21EE3A9E1A1BCEB506E1", "Azur Lane (Android) S2S_purchase_click_monthlycard", "", tostring(slot6), pg.SdkMgr.GetInstance():GetDeviceId(), tostring(pg.TimeMgr.GetInstance():GetServerTime()))
+			slot0:YS_S2S(uv0.DEV_TOKEN, "DE31AE06D3CE21EE3A9E1A1BCEB506E1", "Azur Lane (Android) S2S_purchase_click_monthlycard", "", tostring(slot0:transMoney(pg.pay_data_display[slot3].money)), pg.SdkMgr.GetInstance():GetDeviceId(), tostring(pg.TimeMgr.GetInstance():GetServerTime()))
 		elseif slot1 == TRACKING_PURCHASE_CLICK_DIAMOND then
-			slot0:YS_S2S(slot0.DEV_TOKEN, "DE31AE06D3CE21EE3A9E1A1BCEB506E1", "Azur Lane (Android) S2S_purchase_click_diamond", "", tostring(slot6), pg.SdkMgr.GetInstance():GetDeviceId(), tostring(pg.TimeMgr.GetInstance():GetServerTime()))
+			slot0:YS_S2S(uv0.DEV_TOKEN, "DE31AE06D3CE21EE3A9E1A1BCEB506E1", "Azur Lane (Android) S2S_purchase_click_diamond", "", tostring(slot0:transMoney(pg.pay_data_display[slot3].money)), pg.SdkMgr.GetInstance():GetDeviceId(), tostring(pg.TimeMgr.GetInstance():GetServerTime()))
 		elseif slot1 == TRACKING_PURCHASE_CLICK_GIFTBAG then
-			slot0:YS_S2S(slot0.DEV_TOKEN, "DE31AE06D3CE21EE3A9E1A1BCEB506E1", "Azur Lane (Android) S2S_purchase_click_giftbag", "", tostring(slot6), pg.SdkMgr.GetInstance():GetDeviceId(), tostring(pg.TimeMgr.GetInstance():GetServerTime()))
+			slot0:YS_S2S(uv0.DEV_TOKEN, "DE31AE06D3CE21EE3A9E1A1BCEB506E1", "Azur Lane (Android) S2S_purchase_click_giftbag", "", tostring(slot0:transMoney(pg.pay_data_display[slot3].money)), pg.SdkMgr.GetInstance():GetDeviceId(), tostring(pg.TimeMgr.GetInstance():GetServerTime()))
 		elseif slot1 == TRACKING_PURCHASE then
-			slot0:YS_S2S(slot0.DEV_TOKEN, "DE31AE06D3CE21EE3A9E1A1BCEB506E1", "Azur Lane (Android) S2S_purchase", "", tostring(slot6), pg.SdkMgr.GetInstance():GetDeviceId(), tostring(pg.TimeMgr.GetInstance():GetServerTime()))
+			slot0:YS_S2S(uv0.DEV_TOKEN, "DE31AE06D3CE21EE3A9E1A1BCEB506E1", "Azur Lane (Android) S2S_purchase", "", tostring(slot0:transMoney(pg.pay_data_display[slot3].money)), pg.SdkMgr.GetInstance():GetDeviceId(), tostring(pg.TimeMgr.GetInstance():GetServerTime()))
 		end
 	elseif slot1 == TRACKING_PURCHASE_CLICK then
-		YS2S.S2S(slot0.DEV_TOKEN, "F7FE029D3F957A107D358D2BB93CA7E2", "Azur Lane (iOS) S2S_purchase_click", "", tostring(slot6), pg.SdkMgr.GetInstance():GetDeviceId(), tostring(pg.TimeMgr.GetInstance():GetServerTime()))
+		YS2S.S2S(uv0.DEV_TOKEN, "F7FE029D3F957A107D358D2BB93CA7E2", "Azur Lane (iOS) S2S_purchase_click", "", tostring(slot0:transMoney(pg.pay_data_display[slot3].money)), pg.SdkMgr.GetInstance():GetDeviceId(), tostring(pg.TimeMgr.GetInstance():GetServerTime()))
 	elseif slot1 == TRACKING_PURCHASE_CLICK_MONTHLYCARD then
-		YS2S.S2S(slot0.DEV_TOKEN, "F7FE029D3F957A107D358D2BB93CA7E2", "Azur Lane (iOS) S2S_purchase_click_monthlycard", "", tostring(slot6), pg.SdkMgr.GetInstance():GetDeviceId(), tostring(pg.TimeMgr.GetInstance():GetServerTime()))
+		YS2S.S2S(uv0.DEV_TOKEN, "F7FE029D3F957A107D358D2BB93CA7E2", "Azur Lane (iOS) S2S_purchase_click_monthlycard", "", tostring(slot0:transMoney(pg.pay_data_display[slot3].money)), pg.SdkMgr.GetInstance():GetDeviceId(), tostring(pg.TimeMgr.GetInstance():GetServerTime()))
 	elseif slot1 == TRACKING_PURCHASE_CLICK_DIAMOND then
-		YS2S.S2S(slot0.DEV_TOKEN, "F7FE029D3F957A107D358D2BB93CA7E2", "Azur Lane (iOS) S2S_purchase_click_diamond", "", tostring(slot6), pg.SdkMgr.GetInstance():GetDeviceId(), tostring(pg.TimeMgr.GetInstance():GetServerTime()))
+		YS2S.S2S(uv0.DEV_TOKEN, "F7FE029D3F957A107D358D2BB93CA7E2", "Azur Lane (iOS) S2S_purchase_click_diamond", "", tostring(slot0:transMoney(pg.pay_data_display[slot3].money)), pg.SdkMgr.GetInstance():GetDeviceId(), tostring(pg.TimeMgr.GetInstance():GetServerTime()))
 	elseif slot1 == TRACKING_PURCHASE_CLICK_GIFTBAG then
-		YS2S.S2S(slot0.DEV_TOKEN, "F7FE029D3F957A107D358D2BB93CA7E2", "Azur Lane (iOS) S2S_purchase_click_giftbag", "", tostring(slot6), pg.SdkMgr.GetInstance():GetDeviceId(), tostring(pg.TimeMgr.GetInstance():GetServerTime()))
+		YS2S.S2S(uv0.DEV_TOKEN, "F7FE029D3F957A107D358D2BB93CA7E2", "Azur Lane (iOS) S2S_purchase_click_giftbag", "", tostring(slot0:transMoney(pg.pay_data_display[slot3].money)), pg.SdkMgr.GetInstance():GetDeviceId(), tostring(pg.TimeMgr.GetInstance():GetServerTime()))
 	elseif slot1 == TRACKING_PURCHASE then
-		YS2S.S2S(slot0.DEV_TOKEN, "F7FE029D3F957A107D358D2BB93CA7E2", "Azur Lane (iOS) S2S_purchase", "", tostring(slot6), pg.SdkMgr.GetInstance():GetDeviceId(), tostring(pg.TimeMgr.GetInstance():GetServerTime()))
+		YS2S.S2S(uv0.DEV_TOKEN, "F7FE029D3F957A107D358D2BB93CA7E2", "Azur Lane (iOS) S2S_purchase", "", tostring(slot0:transMoney(pg.pay_data_display[slot3].money)), pg.SdkMgr.GetInstance():GetDeviceId(), tostring(pg.TimeMgr.GetInstance():GetServerTime()))
 	end
 
 	print("track done.")
@@ -92,18 +92,10 @@ end
 function slot0.YS_S2S(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	slot8 = pg.SdkMgr.GetInstance():GetChannelUID() == "0"
 	slot9 = "https://www.googleadservices.com/pagead/conversion/app/1.0?"
-	slot10 = {
-		dev_token = slot1,
-		link_id = slot2,
-		app_event_type = "custom",
-		app_event_name = slot3
-	}
 
 	if slot4 then
-		slot10.app_event_data = slot4
+		-- Nothing
 	end
-
-	slot10.rdid = slot6
 
 	if slot8 then
 		slot10.id_type = "advertisingid"
@@ -111,15 +103,21 @@ function slot0.YS_S2S(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 		slot10.id_type = "idfa"
 	end
 
-	slot10.lat = "0"
-	slot10.app_version = Application.version
-	slot10.os_version = SystemInfo.operatingSystem
-	slot10.sdk_version = "1.9.5r6"
-	slot10.timestamp = slot7 .. ".000001"
-	slot10.value = slot5
-	slot10.currency_code = "USD"
-
-	for slot14, slot15 in pairs(slot10) do
+	for slot14, slot15 in pairs({
+		dev_token = slot1,
+		link_id = slot2,
+		app_event_type = "custom",
+		app_event_name = slot3,
+		app_event_data = slot4,
+		rdid = slot6,
+		lat = "0",
+		app_version = Application.version,
+		os_version = SystemInfo.operatingSystem,
+		sdk_version = "1.9.5r6",
+		timestamp = slot7 .. ".000001",
+		value = slot5,
+		currency_code = "USD"
+	}) do
 		slot9 = slot9 .. slot14 .. "=" .. slot15 .. "&"
 	end
 

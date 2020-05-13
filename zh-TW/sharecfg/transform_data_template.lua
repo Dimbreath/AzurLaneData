@@ -18944,5 +18944,3 @@ pg.transform_data_template = {
 		31811
 	}
 }
-
-return

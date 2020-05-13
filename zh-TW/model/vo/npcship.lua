@@ -1,15 +1,13 @@
 slot0 = class("NpcShip", import(".Ship"))
 
 function slot0.Ctor(slot0, slot1)
-	slot0.super.Ctor(slot0, slot1)
+	uv0.super.Ctor(slot0, slot1)
 
-	slot2 = pg.ship_data_template[slot0.configId]
-
-	for slot6 = 1, 3, 1 do
+	for slot6 = 1, 3 do
 		if not slot0.equipments[slot6] then
-			slot0.equipments[slot6] = (slot2["equip_id_" .. slot6] > 0 and Equipment.New({
+			slot0.equipments[slot6] = pg.ship_data_template[slot0.configId]["equip_id_" .. slot6] > 0 and Equipment.New({
 				id = slot7
-			})) or false
+			}) or false
 		end
 	end
 
@@ -21,7 +19,6 @@ function slot0.getExp(slot0)
 end
 
 function slot0.addExp(slot0, slot1, slot2)
-	return
 end
 
 function slot0.getIntimacy(slot0)
@@ -33,7 +30,6 @@ function slot0.getIntimacyLevel(slot0)
 end
 
 function slot0.setIntimacy(slot0, slot1)
-	return
 end
 
 function slot0.getEnergy(slot0)
@@ -41,7 +37,6 @@ function slot0.getEnergy(slot0)
 end
 
 function slot0.setEnergy(slot0, slot1)
-	return
 end
 
 return slot0

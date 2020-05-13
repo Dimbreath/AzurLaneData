@@ -1,6 +1,8 @@
-class("ChangeMedalDisplayCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("ChangeMedalDisplayCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	slot3 = slot1:getBody().medalList
-	slot6 = getProxy(PlayerProxy).getData(slot4).displayTrophyList
+	slot6 = getProxy(PlayerProxy):getData().displayTrophyList
 	slot7 = 0
 
 	while slot7 < PlayerInfoLayer.MAX_MEDAL_DISPLAY do
@@ -26,11 +28,11 @@ class("ChangeMedalDisplayCommand", pm.SimpleCommand).execute = function (slot0, 
 		medal_id = slot8
 	}, 17402, function (slot0)
 		if slot0.result == 0 then
-			slot0:updatePlayerMedalDisplay(slot0.updatePlayerMedalDisplay)
+			uv0:updatePlayerMedalDisplay(uv1)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("change_display_medal_success"))
-			pg.TipsMgr.GetInstance():sendNotification(GAME.CHANGE_PLAYER_MEDAL_DISPLAY_DONE)
+			uv2:sendNotification(GAME.CHANGE_PLAYER_MEDAL_DISPLAY_DONE)
 		end
 	end)
 end
 
-return class("ChangeMedalDisplayCommand", pm.SimpleCommand)
+return slot0

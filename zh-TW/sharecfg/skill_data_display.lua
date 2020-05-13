@@ -5298,5 +5298,3 @@ pg.skill_data_display = {
 		104080
 	}
 }
-
-return

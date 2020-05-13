@@ -1049,5 +1049,3 @@ ship_discuss_info = slot0.Message(SHIP_DISCUSS_INFO)
 ship_statistics_award = slot0.Message(SHIP_STATISTICS_AWARD)
 ship_statistics_info = slot0.Message(SHIP_STATISTICS_INFO)
 voteinfo = slot0.Message(VOTEINFO)
-
-return

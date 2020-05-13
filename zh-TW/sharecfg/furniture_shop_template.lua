@@ -17258,5 +17258,3 @@ pg.furniture_shop_template = {
 		51118
 	}
 }
-
-return

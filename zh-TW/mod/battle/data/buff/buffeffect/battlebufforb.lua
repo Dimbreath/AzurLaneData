@@ -1,15 +1,17 @@
 ys = ys or {}
-slot1 = class("BattleBuffOrb", ys.Battle.BattleBuffEffect)
-ys.Battle.BattleBuffOrb = slot1
+slot0 = ys
+slot1 = class("BattleBuffOrb", slot0.Battle.BattleBuffEffect)
+slot0.Battle.BattleBuffOrb = slot1
 slot1.__name = "BattleBuffOrb"
 
 function slot1.Ctor(slot0, slot1)
-	slot0.super.Ctor(slot0, slot1)
+	uv0.super.Ctor(slot0, slot1)
 end
 
 function slot1.SetArgs(slot0, slot1, slot2)
-	slot0._buffID = slot0._tempData.arg_list.buff_id
-	slot0._rant = slot0._tempData.arg_list.rant or 10000
+	slot3 = slot0._tempData.arg_list
+	slot0._buffID = slot3.buff_id
+	slot0._rant = slot3.rant or 10000
 	slot0._level = slot3.level or 1
 	slot0._type = slot3.type
 end
@@ -22,7 +24,7 @@ function slot1.onTrigger(slot0, slot1, slot2, slot3)
 	end
 
 	slot0:attachOrb(slot4)
-	slot0.super.onTrigger(slot0, slot1, slot2, slot3)
+	uv0.super.onTrigger(slot0, slot1, slot2, slot3)
 end
 
 function slot1.attachOrb(slot0, slot1)
@@ -32,5 +34,3 @@ function slot1.attachOrb(slot0, slot1)
 		level = slot0._level
 	})
 end
-
-return

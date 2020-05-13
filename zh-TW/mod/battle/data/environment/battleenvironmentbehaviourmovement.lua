@@ -1,8 +1,9 @@
 ys = ys or {}
-slot1 = ys.Battle.BattleConst
-slot2 = ys.Battle.BattleConfig
-slot3 = class("BattleEnvironmentBehaviourMovement", ys.Battle.BattleEnvironmentBehaviour)
-ys.Battle.BattleEnvironmentBehaviourMovement = slot3
+slot0 = ys
+slot1 = slot0.Battle.BattleConst
+slot2 = slot0.Battle.BattleConfig
+slot3 = class("BattleEnvironmentBehaviourMovement", slot0.Battle.BattleEnvironmentBehaviour)
+slot0.Battle.BattleEnvironmentBehaviourMovement = slot3
 slot3.__name = "BattleEnvironmentBehaviourMovement"
 
 function slot3.Ctor(slot0)
@@ -12,11 +13,11 @@ function slot3.Ctor(slot0)
 	slot0._destPosition = nil
 	slot0._targetIndex = 1
 
-	slot0.super.Ctor(slot0)
+	uv0.super.Ctor(slot0)
 end
 
 function slot3.SetTemplate(slot0, slot1)
-	slot0.super.SetTemplate(slot0, slot1)
+	uv0.super.SetTemplate(slot0, slot1)
 
 	slot0._route = slot1.route or {}
 	slot0._random_duration = slot1.random_duration or {
@@ -32,13 +33,14 @@ function slot3.SetTemplate(slot0, slot1)
 		slot3, slot4 = unpack(slot2.cld_data)
 	end
 
-	slot0._bounds = {
-		()[1] - slot4,
-		[3] = ()[3] + slot3,
-		[4] = ()[4] - slot3,
-		[2] = ()[2] + slot4,
-		slot1.Battle.BattleDataProxy.GetInstance():GetFleetBoundByIFF(slot2.FRIENDLY_CODE)
+	slot5 = {
+		uv1.Battle.BattleDataProxy.GetInstance():GetFleetBoundByIFF(uv2.FRIENDLY_CODE)
 	}
+	slot5[3] = slot5[3] + slot3
+	slot5[4] = slot5[4] - slot3
+	slot5[2] = slot5[2] + slot4
+	slot5[1] = slot5[1] - slot4
+	slot0._bounds = slot5
 	slot0._lastPosition = Vector3(unpack(slot2.coordinate))
 
 	if slot1.random_range then
@@ -59,7 +61,7 @@ function slot3.doBehaviour(slot0)
 			slot0._moveEndTime = slot1 + slot2[4]
 			slot0._targetIndex = slot0._targetIndex + 1
 		else
-			if slot0:GenerateRandomPlayerAreaPoint() - slot0._lastPosition:Magnitude() < math.random(unpack(slot0._random_duration)) * slot0._random_speed then
+			if (slot0:GenerateRandomPlayerAreaPoint() - slot0._lastPosition):Magnitude() < math.random(unpack(slot0._random_duration)) * slot0._random_speed then
 				slot4 = slot6 / slot0._random_speed
 			else
 				slot3 = Vector3.Lerp(slot0._lastPosition, slot3, slot5 / slot6)
@@ -79,12 +81,13 @@ function slot3.doBehaviour(slot0)
 		slot0._moveEndTime = nil
 	end
 
-	slot0.super.doBehaviour(slot0)
+	uv0.super.doBehaviour(slot0)
 end
 
 function slot3.GenerateRandomPlayerAreaPoint(slot0)
-	slot2 = math.random(slot0._bounds[3], slot0._bounds[4])
-	slot3 = math.random(slot0._bounds[2], slot0._bounds[1])
+	slot1 = slot0._bounds
+	slot2 = math.random(slot1[3], slot1[4])
+	slot3 = math.random(slot1[2], slot1[1])
 
 	if slot0._resetRandomRange then
 		slot0:resetRandomBound(slot2, slot3)
@@ -102,8 +105,6 @@ function slot3.resetRandomBound(slot0, slot1, slot2)
 end
 
 function slot3.Dispose(slot0)
-	slot0.super.Dispose(slot0)
+	uv0.super.Dispose(slot0)
 	table.clear(slot0)
 end
-
-return

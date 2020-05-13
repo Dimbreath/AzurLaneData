@@ -16,7 +16,7 @@ end
 
 function slot0.getEscort(slot0, slot1)
 	return _.detect(slot0.chapters, function (slot0)
-		return slot0.chapter.id == slot0
+		return slot0.chapter.id == uv0
 	end) and slot2.escortId
 end
 

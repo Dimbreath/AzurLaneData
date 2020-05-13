@@ -635,5 +635,3 @@ pg.drop_data_restore = {
 		142
 	}
 }
-
-return

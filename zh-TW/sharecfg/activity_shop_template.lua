@@ -2824,5 +2824,3 @@ pg.activity_shop_template = {
 		5137
 	}
 }
-
-return

@@ -10,19 +10,17 @@ slot0.GO_MALL = "NewShopsMediator:GO_MALL"
 slot0.ON_SKIN_SHOP = "NewShopsMediator:ON_SKIN_SHOP"
 
 function slot0.register(slot0)
-	slot0:bind(slot0.ON_SKIN_SHOP, function (slot0, slot1)
-		getProxy(ContextProxy).getCurrentContext(slot2).ignoreBack = true
+	slot0:bind(uv0.ON_SKIN_SHOP, function (slot0, slot1)
+		getProxy(ContextProxy):getCurrentContext().ignoreBack = true
 
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP)
 	end)
-	slot0:bind(slot0.GO_MALL, function (slot0, slot1)
-		slot2 = getProxy(ContextProxy)
-
-		if slot0.contextData.fromCharge then
-			slot2:getContextByMediator(ChargeMediator).extendData(slot3, {
+	slot0:bind(uv0.GO_MALL, function (slot0, slot1)
+		if uv0.contextData.fromCharge then
+			getProxy(ContextProxy):getContextByMediator(ChargeMediator):extendData({
 				wrap = slot1
 			})
-			slot0.viewComponent:closeView()
+			uv0.viewComponent:closeView()
 		else
 			slot2:getCurrentContext().ignoreBack = true
 
@@ -31,47 +29,47 @@ function slot0.register(slot0)
 			})
 		end
 	end)
-	slot0:bind(slot0.SELL_BLUEPRINT, function (slot0, slot1)
-		slot0:sendNotification(GAME.FRAG_SELL, slot1)
+	slot0:bind(uv0.SELL_BLUEPRINT, function (slot0, slot1)
+		uv0:sendNotification(GAME.FRAG_SELL, slot1)
 	end)
-	slot0:bind(slot0.ON_ACT_SHOPPING, function (slot0, slot1, slot2, slot3, slot4)
-		slot0:sendNotification(GAME.ACTIVITY_OPERATION, {
+	slot0:bind(uv0.ON_ACT_SHOPPING, function (slot0, slot1, slot2, slot3, slot4)
+		uv0:sendNotification(GAME.ACTIVITY_OPERATION, {
 			activity_id = slot1,
 			cmd = slot2,
 			arg1 = slot3,
 			arg2 = slot4
 		})
 	end)
-	slot0:bind(slot0.ON_FRAGMENT_SHOPPING, function (slot0, slot1, slot2)
-		slot0:sendNotification(GAME.FRAG_SHOPPING, {
+	slot0:bind(uv0.ON_FRAGMENT_SHOPPING, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.FRAG_SHOPPING, {
 			id = slot1,
 			count = slot2
 		})
 	end)
-	slot0:bind(slot0.ON_SHAM_SHOPPING, function (slot0, slot1, slot2)
-		slot0:sendNotification(GAME.SHAM_SHOPPING, {
+	slot0:bind(uv0.ON_SHAM_SHOPPING, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.SHAM_SHOPPING, {
 			id = slot1,
 			count = slot2
 		})
 	end)
-	slot0:bind(slot0.ON_SHOPPING, function (slot0, slot1, slot2)
-		slot0:sendNotification(GAME.SHOPPING, {
+	slot0:bind(uv0.ON_SHOPPING, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.SHOPPING, {
 			id = slot1,
 			count = slot2
 		})
 	end)
-	slot0:bind(slot0.REFRESH_MILITARY_SHOP, function (slot0, slot1)
+	slot0:bind(uv0.REFRESH_MILITARY_SHOP, function (slot0, slot1)
 		if not slot1 then
-			slot0:sendNotification(GAME.GET_MILITARY_SHOP)
+			uv0:sendNotification(GAME.GET_MILITARY_SHOP)
 		else
-			slot0:sendNotification(GAME.REFRESH_MILITARY_SHOP)
+			uv0:sendNotification(GAME.REFRESH_MILITARY_SHOP)
 		end
 	end)
-	slot0:bind(slot0.REFRESH_STREET_SHOP, function (slot0, slot1)
+	slot0:bind(uv0.REFRESH_STREET_SHOP, function (slot0, slot1)
 		if not slot1 then
-			slot0:sendNotification(GAME.GET_SHOPSTREET)
+			uv0:sendNotification(GAME.GET_SHOPSTREET)
 		else
-			slot0:sendNotification(GAME.SHOPPING, {
+			uv0:sendNotification(GAME.SHOPPING, {
 				count = 1,
 				id = slot1
 			})
@@ -102,10 +100,8 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
-	slot3 = slot1:getBody()
-
 	if slot1:getName() == PlayerProxy.UPDATED then
-		slot0.viewComponent:SetPlayer(slot3)
+		slot0.viewComponent:SetPlayer(slot1:getBody())
 	elseif slot2 == ShopsProxy.SHOPPINGSTREET_UPDATE then
 		slot0.viewComponent:UpdateShop(NewShopsScene.TYPE_SHOP_STREET, slot3.shopStreet)
 	elseif slot2 == GAME.SHOPPING_DONE then
@@ -117,9 +113,10 @@ function slot0.handleNotification(slot0, slot1)
 
 			slot0.viewComponent:UpdateCommodity(NewShopsScene.TYPE_SHOP_STREET, slot5, slot3.id)
 		elseif slot3.shopType == ShopArgs.MilitaryShop then
-			slot4 = getProxy(ShopsProxy):getMeritorousShop().goods[slot3.id]
+			slot5 = getProxy(ShopsProxy):getMeritorousShop()
+			slot4 = slot5.goods[slot3.id]
 
-			slot0.viewComponent:UpdateCommodity(NewShopsScene.TYPE_MILITARY_SHOP, getProxy(ShopsProxy).getMeritorousShop(), slot3.id)
+			slot0.viewComponent:UpdateCommodity(NewShopsScene.TYPE_MILITARY_SHOP, slot5, slot3.id)
 		end
 
 		if slot3.awards and #slot3.awards > 0 then
@@ -135,12 +132,12 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == ShopsProxy.SHAM_SHOP_UPDATED then
 		slot0.viewComponent:UpdateShop(NewShopsScene.TYPE_SHAM_SHOP, slot3)
 	elseif slot2 == GAME.SHAM_SHOPPING_DONE then
-		slot0.viewComponent:UpdateCommodity(NewShopsScene.TYPE_SHAM_SHOP, slot4, slot3.id)
+		slot0.viewComponent:UpdateCommodity(NewShopsScene.TYPE_SHAM_SHOP, getProxy(ShopsProxy):getShamShop(), slot3.id)
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 	elseif slot2 == BagProxy.ITEM_UPDATED or slot2 == BagProxy.ITEM_ADDED then
 		slot0.viewComponent:UpdateItems(getProxy(BagProxy):getRawData())
 	elseif slot2 == GAME.FRAG_SHOPPING_DONE then
-		slot0.viewComponent:UpdateCommodity(NewShopsScene.TYPE_FRAGMENT, slot4, slot3.id)
+		slot0.viewComponent:UpdateCommodity(NewShopsScene.TYPE_FRAGMENT, getProxy(ShopsProxy):getFragmentShop(), slot3.id)
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 	elseif slot2 == ShopsProxy.FRAGMENT_SHOP_UPDATED then
 		slot0.viewComponent:UpdateShop(NewShopsScene.TYPE_FRAGMENT, slot3)
@@ -171,7 +168,7 @@ function slot0.ShowGetShip(slot0, slot1)
 			mediator = NewShipMediator,
 			viewComponent = NewShipLayer,
 			data = {
-				ship = getProxy(BayProxy).getNewShip(slot2, true)[1]
+				ship = getProxy(BayProxy):getNewShip(true)[1]
 			}
 		}))
 	end

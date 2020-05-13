@@ -4,10 +4,10 @@ function slot0.register(slot0)
 	slot0.scores = {}
 
 	slot0:on(26011, function (slot0)
-		slot0.scores = {}
+		uv0.scores = {}
 
 		_.each(slot0.subject, function (slot0)
-			slot0.scores[slot0.id] = slot0.score
+			uv0.scores[slot0.id] = slot0.score
 		end)
 	end)
 end
@@ -17,16 +17,13 @@ function slot0.getScore(slot0, slot1)
 end
 
 function slot0.setScore(slot0, slot1, slot2)
-	slot0.scores[slot1] = (slot2 and math.clamp(slot2, 0, 100)) or nil
+	slot0.scores[slot1] = slot2 and math.clamp(slot2, 0, 100) or nil
 end
 
 function slot0.getAverage(slot0)
-	slot1 = 0
-	slot2 = 0
-
 	for slot6, slot7 in pairs(slot0.scores) do
-		slot1 = slot1 + 1
-		slot2 = slot2 + slot7
+		slot1 = 0 + 1
+		slot2 = 0 + slot7
 	end
 
 	return slot1 > 0 and slot2 / slot1

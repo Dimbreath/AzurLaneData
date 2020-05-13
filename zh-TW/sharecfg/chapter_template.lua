@@ -111400,5 +111400,3 @@ pg.chapter_template = {
 		5100020
 	}
 }
-
-return

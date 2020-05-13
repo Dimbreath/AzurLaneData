@@ -8,20 +8,19 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnDataSetting(slot0)
-	return
 end
 
 function slot0.OnFirstFlush(slot0)
 	LoadImageSpriteAsync(slot0:GetBgImg(), slot0.bg)
 	onButton(slot0, slot0.charge, function ()
-		slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.CHARGE, {
+		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.CHARGE, {
 			wrap = ChargeScene.TYPE_DIAMOND
 		})
 	end)
 	onButton(slot0, slot0.take, function ()
-		slot0:emit(ActivityMediator.EVENT_OPERATION, {
+		uv0:emit(ActivityMediator.EVENT_OPERATION, {
 			cmd = 1,
-			activity_id = slot0.activity.id
+			activity_id = uv0.activity.id
 		})
 	end)
 end

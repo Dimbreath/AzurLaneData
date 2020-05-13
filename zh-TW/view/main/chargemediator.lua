@@ -8,13 +8,13 @@ slot0.OPEN_ACTIVITY = "ChargeMediator:OPEN_ACTIVITY"
 slot0.ON_SKIN_SHOP = "ChargeMediator:ON_SKIN_SHOP"
 
 function slot0.register(slot0)
-	slot0:bind(slot0.ON_SKIN_SHOP, function ()
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP)
+	slot0:bind(uv0.ON_SKIN_SHOP, function ()
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP)
 	end)
-	slot0:bind(slot0.GET_CHARGE_LIST, function (slot0)
-		slot0:sendNotification(GAME.GET_CHARGE_LIST)
+	slot0:bind(uv0.GET_CHARGE_LIST, function (slot0)
+		uv0:sendNotification(GAME.GET_CHARGE_LIST)
 	end)
-	slot0.viewComponent:setPlayer(slot2)
+	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 
 	slot3 = getProxy(ShopsProxy)
 	slot5 = slot3:getChargedList()
@@ -41,27 +41,27 @@ function slot0.register(slot0)
 		slot0:sendNotification(GAME.GET_CHARGE_LIST)
 	end
 
-	slot0:bind(slot0.SWITCH_TO_SHOP, function (slot0, slot1)
+	slot0:bind(uv0.SWITCH_TO_SHOP, function (slot0, slot1)
 		slot1.fromCharge = true
 
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, slot1)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, slot1)
 	end)
-	slot0:bind(slot0.CHARGE, function (slot0, slot1)
-		slot0:sendNotification(GAME.CHARGE_OPERATION, {
+	slot0:bind(uv0.CHARGE, function (slot0, slot1)
+		uv0:sendNotification(GAME.CHARGE_OPERATION, {
 			shopId = slot1
 		})
 	end)
-	slot0:bind(slot0.BUY_ITEM, function (slot0, slot1, slot2)
-		slot0:sendNotification(GAME.SHOPPING, {
+	slot0:bind(uv0.BUY_ITEM, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.SHOPPING, {
 			id = slot1,
 			count = slot2
 		})
 	end)
-	slot0:bind(slot0.CLICK_MING_SHI, function (slot0)
-		slot0:sendNotification(GAME.CLICK_MING_SHI)
+	slot0:bind(uv0.CLICK_MING_SHI, function (slot0)
+		uv0:sendNotification(GAME.CLICK_MING_SHI)
 	end)
-	slot0:bind(slot0.OPEN_ACTIVITY, function (slot0, slot1)
-		slot0:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
+	slot0:bind(uv0.OPEN_ACTIVITY, function (slot0, slot1)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
 			id = slot1
 		})
 	end)
@@ -84,10 +84,8 @@ function slot0.listNotificationInterests(slot0)
 end
 
 function slot0.handleNotification(slot0, slot1)
-	slot3 = slot1:getBody()
-
 	if slot1:getName() == PlayerProxy.UPDATED then
-		slot0.viewComponent:setPlayer(slot3)
+		slot0.viewComponent:setPlayer(slot1:getBody())
 		slot0.viewComponent:updateNoRes()
 	elseif slot2 == ShopsProxy.FIRST_CHARGE_IDS_UPDATED then
 		slot0.viewComponent:setFirstChargeIds(slot3)
@@ -158,10 +156,12 @@ function slot0.handleNotification(slot0, slot1)
 		slot4 = ChargeScene.TYPE_DIAMOND
 
 		if slot3 then
-			slot0.viewComponent:triggerPageToggle(slot3.type or ChargeScene.TYPE_DIAMOND)
-			slot0.viewComponent:updateNoRes((slot3 and slot3.noRes) or nil)
-			slot0.viewComponent:closeItemDetail()
+			slot4 = slot3.type or ChargeScene.TYPE_DIAMOND
 		end
+
+		slot0.viewComponent:triggerPageToggle(slot4)
+		slot0.viewComponent:updateNoRes(slot3 and slot3.noRes or nil)
+		slot0.viewComponent:closeItemDetail()
 	elseif slot2 == GAME.CHARGE_SUCCESS then
 		slot0.viewComponent:checkBuyDone("damonds")
 	end
