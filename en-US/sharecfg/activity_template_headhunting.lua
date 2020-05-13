@@ -609,5 +609,3 @@ pg.activity_template_headhunting = {
 		30210
 	}
 }
-
-return

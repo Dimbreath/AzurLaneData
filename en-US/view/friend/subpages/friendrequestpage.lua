@@ -14,7 +14,7 @@ function slot0.OnInit(slot0)
 	slot0.refuseMsgBox = FriendRefusePage.New(slot0._tf, slot0.event)
 
 	onButton(slot0, slot0.refuseAllBtn, function ()
-		slot0:emit(FriendMediator.REFUSE_ALL_REQUEST)
+		uv0:emit(FriendMediator.REFUSE_ALL_REQUEST)
 	end, SFX_PANEL)
 end
 
@@ -39,11 +39,11 @@ function slot0.isInitRequestPage(slot0)
 	slot0.requestRect = slot0.requestPanel:Find("mask/view"):GetComponent("LScrollRect")
 
 	function slot0.requestRect.onInitItem(slot0)
-		slot0:onInitItem(slot0)
+		uv0:onInitItem(slot0)
 	end
 
 	function slot0.requestRect.onUpdateItem(slot0, slot1)
-		slot0:onUpdateItem(slot0, slot1)
+		uv0:onUpdateItem(slot0, slot1)
 	end
 
 	slot0:sortRequest()
@@ -57,19 +57,19 @@ function slot0.onInitItem(slot0, slot1)
 	slot2 = FriendRequestCard.New(slot1)
 
 	onButton(slot0, slot2.acceptBtn, function ()
-		if slot0.friendVO then
-			slot1:emit(FriendMediator.ACCEPT_REQUEST, slot0.friendVO.id)
+		if uv0.friendVO then
+			uv1:emit(FriendMediator.ACCEPT_REQUEST, uv0.friendVO.id)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot2.refuseBtn, function ()
-		if slot0.friendVO then
-			slot1.refuseMsgBox:ExecuteAction("Show", i18n("refuse_friend"), i18n("refuse_and_add_into_bl"), function (slot0)
-				slot0:emit(FriendMediator.REFUSE_REQUEST, slot1.friendVO, slot0)
+		if uv0.friendVO then
+			uv1.refuseMsgBox:ExecuteAction("Show", i18n("refuse_friend"), i18n("refuse_and_add_into_bl"), function (slot0)
+				uv0:emit(FriendMediator.REFUSE_REQUEST, uv1.friendVO, slot0)
 			end)
 		end
 	end)
 	onButton(slot0, slot2.resumeBtn, function ()
-		slot0:emit(FriendMediator.OPEN_RESUME, slot1.friendVO.id)
+		uv0:emit(FriendMediator.OPEN_RESUME, uv1.friendVO.id)
 	end, SFX_PANEL)
 
 	slot0.requestItems[slot1] = slot2
@@ -82,14 +82,13 @@ function slot0.onUpdateItem(slot0, slot1, slot2)
 		slot3 = slot0.requestItems[slot2]
 	end
 
-	slot3:update(slot0.requestVOs[slot1 + 1].player, slot0.requestVOs[slot1 + 1].timestamp, slot0.requestVOs[slot1 + 1].content)
+	slot4 = slot0.requestVOs[slot1 + 1]
+
+	slot3:update(slot4.player, slot4.timestamp, slot4.content)
 end
 
 function slot0.OnDestroy(slot0)
-	slot1 = pairs
-	slot2 = slot0.requestItems or {}
-
-	for slot4, slot5 in slot1(slot2) do
+	for slot4, slot5 in pairs(slot0.requestItems or {}) do
 		slot5:dispose()
 	end
 

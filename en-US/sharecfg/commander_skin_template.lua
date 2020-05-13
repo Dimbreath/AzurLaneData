@@ -39,5 +39,3 @@ pg.commander_skin_template = {
 		70001
 	}
 }
-
-return

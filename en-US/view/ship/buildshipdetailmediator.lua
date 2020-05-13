@@ -4,7 +4,7 @@ slot0.LAUNCH_ALL = "BuildShipDetailMediator:LAUNCH_ALL"
 slot0.ON_LAUNCHED = "BuildShipDetailMediator:ON_LAUNCHED"
 
 function slot0.register(slot0)
-	slot0.viewComponent:updatePlayer(getProxy(PlayerProxy).getData(slot1))
+	slot0.viewComponent:updatePlayer(getProxy(PlayerProxy):getData())
 
 	slot0.bagProxy = getProxy(BagProxy)
 
@@ -14,40 +14,40 @@ function slot0.register(slot0)
 
 	slot0.viewComponent:setProjectList(slot2:getData())
 	slot0.viewComponent:setWorkCount(slot2:getMaxWorkCount())
-	slot0:bind(slot0.ON_QUICK, function (slot0, slot1, slot2)
-		slot0:sendNotification(GAME.BUILD_SHIP_IMMEDIATELY, {
+	slot0:bind(uv0.ON_QUICK, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.BUILD_SHIP_IMMEDIATELY, {
 			pos = slot1,
 			anim = function (slot0, slot1)
-				slot0.viewComponent:playGetShipAnimate(slot0, slot1)
+				uv0.viewComponent:playGetShipAnimate(slot0, slot1)
 			end
 		})
 
 		if slot2 then
-			slot1:setStopBuildSpeedupRemind()
-			slot0.viewComponent:setBuildSpeedUpRemind(true)
+			uv1:setStopBuildSpeedupRemind()
+			uv0.viewComponent:setBuildSpeedUpRemind(true)
 		end
 	end)
-	slot0:bind(slot0.ON_LAUNCHED, function (slot0, slot1)
-		slot0:sendNotification(GAME.GET_SHIP, {
+	slot0:bind(uv0.ON_LAUNCHED, function (slot0, slot1)
+		uv0:sendNotification(GAME.GET_SHIP, {
 			pos = slot1,
 			anim = function (slot0, slot1)
-				slot0.viewComponent:playGetShipAnimate(slot0, slot1)
+				uv0.viewComponent:playGetShipAnimate(slot0, slot1)
 			end
 		})
 	end)
-	slot0:bind(slot0.LAUNCH_ALL, function (slot0, slot1)
-		slot0:sendNotification(GAME.GET_BATCH_SHIP, {
+	slot0:bind(uv0.LAUNCH_ALL, function (slot0, slot1)
+		uv0:sendNotification(GAME.GET_BATCH_SHIP, {
 			anim = function (slot0, slot1)
-				slot0.viewComponent:playGetShipAnimate(slot0, slot1)
+				uv0.viewComponent:playGetShipAnimate(slot0, slot1)
 			end
 		})
 
 		if slot1 then
-			slot1:setStopBuildSpeedupRemind()
-			slot0.viewComponent:setBuildSpeedUpRemind(true)
+			uv1:setStopBuildSpeedupRemind()
+			uv0.viewComponent:setBuildSpeedUpRemind(true)
 		end
 	end)
-	slot0.viewComponent:setBuildSpeedUpRemind(getProxy(SettingsProxy).getStopBuildSpeedupRemind(slot3))
+	slot0.viewComponent:setBuildSpeedUpRemind(getProxy(SettingsProxy):getStopBuildSpeedupRemind())
 end
 
 function slot0.listNotificationInterests(slot0)

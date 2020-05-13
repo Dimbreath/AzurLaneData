@@ -1,7 +1,7 @@
 slot0 = class("ShamFleetConfirmPanel", import("..base.BasePanel"))
 
 function slot0.init(slot0)
-	slot0.super.init(slot0)
+	uv0.super.init(slot0)
 
 	slot0.item = slot0:findTF("panel/item")
 	slot0.mainShips = slot0:findTF("panel/main/ships")
@@ -9,7 +9,7 @@ function slot0.init(slot0)
 
 	slot0.mainList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot0:updateShip(slot2, slot0.mains[slot1 + 1], TeamType.Main)
+			uv0:updateShip(slot2, uv0.mains[slot1 + 1], TeamType.Main)
 		end
 	end)
 
@@ -18,7 +18,7 @@ function slot0.init(slot0)
 
 	slot0.vanList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot0:updateShip(slot2, slot0.vans[slot1 + 1], TeamType.Vanguard)
+			uv0:updateShip(slot2, uv0.vans[slot1 + 1], TeamType.Vanguard)
 		end
 	end)
 
@@ -42,21 +42,21 @@ function slot0.set(slot0, slot1)
 
 	_.each(slot1, function (slot0)
 		if slot0:getTeamType() == TeamType.Vanguard then
-			table.insert(slot0.vans, slot0)
+			table.insert(uv0.vans, slot0)
 		elseif slot1 == TeamType.Main then
-			table.insert(slot0.mains, slot0)
+			table.insert(uv0.mains, slot0)
 		end
 	end)
 
 	if #slot1 < ChapterConst.ShamShipLimit then
 		if #slot0.vans < 8 then
-			for slot5 = #slot0.vans + 1, 8, 1 do
+			for slot5 = #slot0.vans + 1, 8 do
 				table.insert(slot0.vans, false)
 			end
 		end
 
 		if #slot0.mains < 8 then
-			for slot5 = #slot0.mains + 1, 8, 1 do
+			for slot5 = #slot0.mains + 1, 8 do
 				table.insert(slot0.mains, false)
 			end
 		end
@@ -65,18 +65,18 @@ function slot0.set(slot0, slot1)
 	slot0.mainList:align(#slot0.mains)
 	slot0.vanList:align(#slot0.vans)
 	onButton(slot0, slot0._tf, function ()
-		if slot0.onCancel then
-			slot0.onCancel()
+		if uv0.onCancel then
+			uv0.onCancel()
 		end
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.btnClose, function ()
-		if slot0.onCancel then
-			slot0.onCancel()
+		if uv0.onCancel then
+			uv0.onCancel()
 		end
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.btnStart, function ()
-		if slot0.onConfirm then
-			slot0.onConfirm()
+		if uv0.onConfirm then
+			uv0.onConfirm()
 		end
 	end, SFX_CONFIRM)
 end
@@ -95,24 +95,25 @@ function slot0.updateShip(slot0, slot1, slot2, slot3)
 
 		slot8 = slot2.hpRant
 
-		setActive(slot9, false)
+		setActive(findTF(slot4, "blood"), false)
 		onButton(slot0, slot6, function ()
-			slot0.onClickShip(slot1)
+			uv0.onClickShip(uv1)
 		end, SFX_UI_CLICK)
 
-		GetOrAddComponent(slot6, "UILongPressTrigger").longPressThreshold = 1
+		slot10 = GetOrAddComponent(slot6, "UILongPressTrigger")
+		slot10.longPressThreshold = 1
 
-		GetOrAddComponent(slot6, "UILongPressTrigger").onLongPressed:RemoveAllListeners()
+		slot10.onLongPressed:RemoveAllListeners()
 
 		if onLongPressed then
 			pg.DelegateInfo.Add(slot0, slot10.onLongPressed)
 			slot10.onLongPressed:AddListener(function ()
-				slot0.onLongPressed(slot1)
+				uv0.onLongPressed(uv1)
 			end)
 		end
 	else
 		onButton(slot0, slot7, function ()
-			slot0.onClickShip(slot1)
+			uv0.onClickShip(uv1)
 		end, SFX_UI_CLICK)
 	end
 end

@@ -1,4 +1,6 @@
-class("AddItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("AddItemCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	if slot1:getBody().dropType == DROP_TYPE_RESOURCE then
 		slot4 = getProxy(PlayerProxy)
 		slot5 = slot4:getData()
@@ -28,11 +30,12 @@ class("AddItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				slot6 = getProxy(VoteProxy)
 
 				if slot5 == 2 then
-					getProxy(ActivityProxy).GetVoteActivity(slot7).data1 = getProxy(ActivityProxy).GetVoteActivity(slot7).data1 + slot4.count
+					slot8 = getProxy(ActivityProxy):GetVoteActivity()
+					slot8.data1 = slot8.data1 + slot4.count
 					slot6.votes = slot6.votes + slot4.count
 				end
 			elseif slot5 == 4 then
-				slot7[slot4.id] = (getProxy(ColoringProxy).getColorItems(slot6)[slot4.id] or 0) + slot4.count
+				slot7[slot4.id] = (getProxy(ColoringProxy):getColorItems()[slot4.id] or 0) + slot4.count
 			elseif slot5 == 6 then
 				if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_REFLUX) then
 					slot7.data3 = slot7.data3 + slot2.count
@@ -40,14 +43,13 @@ class("AddItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 					slot6:updateActivity(slot7)
 				end
 			elseif slot5 == 7 then
-				getProxy(ChapterProxy).remasterTickets = math.min(getProxy(ChapterProxy).remasterTickets + slot2.count, pg.gameset.reactivity_ticket_max.key_value)
+				slot6 = getProxy(ChapterProxy)
+				slot6.remasterTickets = math.min(slot6.remasterTickets + slot2.count, pg.gameset.reactivity_ticket_max.key_value)
 			elseif slot5 == 9 then
-				slot6 = getProxy(ActivityProxy)
-
 				if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MONOPOLY) then
 					slot7.data1_list[1] = slot7.data1_list[1] + slot2.count
 
-					slot6:updateActivity(slot7)
+					getProxy(ActivityProxy):updateActivity(slot7)
 				end
 			elseif slot5 == 10 then
 				if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_INSTAGRAM) and not slot7:isEnd() then
@@ -67,7 +69,9 @@ class("AddItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	elseif slot2.dropType == DROP_TYPE_EQUIP then
 		getProxy(EquipmentProxy):addEquipmentById(slot2.id, slot2.count)
 	elseif slot2.dropType == DROP_TYPE_SHIP then
+		-- Nothing
 	elseif slot2.dropType == DROP_TYPE_SIREN_EQUIP then
+		-- Nothing
 	elseif slot2.dropType == DROP_TYPE_FURNITURE then
 		slot3 = getProxy(DormProxy)
 
@@ -92,9 +96,9 @@ class("AddItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			getProxy(CollectionProxy):flushCollection(slot4)
 		end
 	elseif slot2.dropType == DROP_TYPE_WORLD_ITEM then
-		slot4 = getProxy(WorldProxy).GetWorld(slot3)
+		slot4 = getProxy(WorldProxy):GetWorld()
 
-		slot4:getInventoryProxy().AddItem(slot5, slot2.id, slot2.count)
+		slot4:getInventoryProxy():AddItem(slot2.id, slot2.count)
 		slot4:AddLog(WorldLog.TypeDrop, {
 			item = slot2.id,
 			itemnum = slot2.count
@@ -108,7 +112,7 @@ class("AddItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			isNew = true,
 			end_time = pg.TimeMgr.GetInstance():GetServerTime() + slot5:getConfig("time_second")
 		})
-		getProxy(AttireProxy).addAttireFrame(slot3, slot5)
+		getProxy(AttireProxy):addAttireFrame(slot5)
 		pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_ATTIRE, slot5)
 	elseif slot2.dropType == DROP_TYPE_CHAT_FRAME then
 		slot5 = ChatFrame.New({
@@ -119,7 +123,7 @@ class("AddItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			isNew = true,
 			end_time = pg.TimeMgr.GetInstance():GetServerTime() + slot5:getConfig("time_second")
 		})
-		getProxy(AttireProxy).addAttireFrame(slot3, slot5)
+		getProxy(AttireProxy):addAttireFrame(slot5)
 		pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_ATTIRE, slot5)
 	elseif slot2.dropType == DROP_TYPE_EMOJI then
 		getProxy(EmojiProxy):addNewEmojiID(slot2.id)
@@ -128,4 +132,4 @@ class("AddItemCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end
 end
 
-return class("AddItemCommand", pm.SimpleCommand)
+return slot0

@@ -1,7 +1,10 @@
-class("FetchNpcShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	slot4 = slot1:getBody().callback
+slot0 = class("FetchNpcShipCommand", pm.SimpleCommand)
 
-	if not getProxy(TaskProxy):getTaskById(slot1.getBody().taskId) then
+function slot0.execute(slot0, slot1)
+	slot2 = slot1:getBody()
+	slot4 = slot2.callback
+
+	if not getProxy(TaskProxy):getTaskById(slot2.taskId) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("task_is_not_existence", slot3))
 
 		return
@@ -28,12 +31,12 @@ class("FetchNpcShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 				}))
 			end
 
-			slot0.submitTime = 1
+			uv0.submitTime = 1
 
-			slot1:updateTask(slot0)
-			slot1.updateTask:sendNotification(GAME.FETCH_NPC_SHIP_DONE, {
+			uv1:updateTask(uv0)
+			uv2:sendNotification(GAME.FETCH_NPC_SHIP_DONE, {
 				items = slot1,
-				callback = slot1.updateTask
+				callback = uv3
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("task_submitTask", slot0.result))
@@ -41,4 +44,4 @@ class("FetchNpcShipCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end)
 end
 
-return class("FetchNpcShipCommand", pm.SimpleCommand)
+return slot0

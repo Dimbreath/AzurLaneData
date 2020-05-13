@@ -93042,5 +93042,3 @@ Skins and their drop rates:
 		70047
 	}
 }
-
-return

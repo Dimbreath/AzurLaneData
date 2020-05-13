@@ -66,5 +66,3 @@ pg.push_data_template = {
 		9
 	}
 }
-
-return

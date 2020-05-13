@@ -33,14 +33,16 @@ function slot0.init(slot0)
 end
 
 function slot0.didEnter(slot0)
-	onButton(slot0, slot0.backBtn, function ()
-		slot0:emit(slot1.ON_BACK)
-	end, SOUND_BACK)
+	slot5 = SOUND_BACK
 
-	for slot5 = 1, slot0.selectPanel.childCount, 1 do
+	onButton(slot0, slot0.backBtn, function ()
+		uv0:emit(uv1.ON_BACK)
+	end, slot5)
+
+	for slot5 = 1, slot0.selectPanel.childCount do
 		onButton(slot0, slot0.selectPanel:GetChild(slot5 - 1), function (slot0)
-			if not LeanTween.isTweening(go(slot0.print)) then
-				slot0:setSelectTarget(slot0.setSelectTarget)
+			if not LeanTween.isTweening(go(uv0.print)) then
+				uv0:setSelectTarget(uv1)
 			end
 		end, SFX_PANEL)
 		SetActive(slot0:findTF("selected", slot0.selectPanel:GetChild(slot5 - 1)), false)
@@ -48,9 +50,9 @@ function slot0.didEnter(slot0)
 
 	onButton(slot0, slot0.confirmBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n("five_choose_one", pg.ship_data_statistics[slot0.selectedShipNumber].name),
+			content = i18n("five_choose_one", pg.ship_data_statistics[uv0.selectedShipNumber].name),
 			onYes = function ()
-				slot0:emit(AssignedShipMediator.ON_USE_ITEM, slot0.itemVO.id, slot0.count, slot0.selectedVO)
+				uv0:emit(AssignedShipMediator.ON_USE_ITEM, uv0.itemVO.id, uv0.count, uv0.selectedVO)
 			end
 		})
 	end, SFX_PANEL)
@@ -61,8 +63,8 @@ function slot0.setSelectTarget(slot0, slot1)
 	if slot0.selectTarget then
 		SetActive(slot0:findTF("selected", slot0.selectPanel:GetChild(slot0.selectTarget - 1)), false)
 		LeanTween.alpha(rtf(slot0.print), 0, 0.3):setOnComplete(System.Action(function ()
-			GetImageSpriteFromAtlasAsync("ui/assign_ship_atlas_2", slot0.list[slot1] .. "P", slot0.print)
-			LeanTween.alpha(rtf(slot0.print), 1, 0.3)
+			GetImageSpriteFromAtlasAsync("ui/assign_ship_atlas_2", uv0.list[uv1] .. "P", uv0.print)
+			LeanTween.alpha(rtf(uv0.print), 1, 0.3)
 		end))
 		SetActive(slot0:findTF("selected", slot0.selectPanel:GetChild(slot1 - 1)), true)
 	else
@@ -72,7 +74,7 @@ function slot0.setSelectTarget(slot0, slot1)
 
 	slot0.selectTarget = slot1
 	slot0.selectedVO = slot0.itemVO:getTempCfgTable().usage_arg[slot1]
-	slot0.selectedShipNumber = slot0.shiplist[slot1]
+	slot0.selectedShipNumber = uv0.shiplist[slot1]
 end
 
 function slot0.setItemVO(slot0, slot1)

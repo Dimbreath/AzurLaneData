@@ -1,4 +1,6 @@
-class("GuildDissolveCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("GuildDissolveCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 
 	if not getProxy(GuildProxy):getData() then
@@ -11,8 +13,8 @@ class("GuildDissolveCommand", pm.SimpleCommand).execute = function (slot0, slot1
 		id = slot2
 	}, 60011, function (slot0)
 		if slot0.result == 0 then
-			slot0:exitGuild()
-			slot0.exitGuild:sendNotification(GAME.GUILD_DISSOLVE_DONE)
+			uv0:exitGuild()
+			uv1:sendNotification(GAME.GUILD_DISSOLVE_DONE)
 
 			slot1 = getProxy(PlayerProxy)
 			slot2 = slot1:getData()
@@ -26,4 +28,4 @@ class("GuildDissolveCommand", pm.SimpleCommand).execute = function (slot0, slot1
 	end)
 end
 
-return class("GuildDissolveCommand", pm.SimpleCommand)
+return slot0

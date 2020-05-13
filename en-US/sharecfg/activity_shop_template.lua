@@ -5112,5 +5112,3 @@ pg.activity_shop_template = {
 		50020
 	}
 }
-
-return

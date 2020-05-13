@@ -5,11 +5,12 @@ function string.split(slot0, slot1)
 		return false
 	end
 
-	slot2 = 0
 	slot3 = {}
 
-	for slot7, slot8 in nil do
-		table.insert(slot3, string.sub(slot0, slot2, slot7 - 1))
+	for slot7, slot8 in function ()
+		return string.find(uv0, uv1, uv2, true)
+	end, nil,  do
+		table.insert(slot3, string.sub(slot0, 0, slot7 - 1))
 
 		slot2 = slot8 + 1
 	end
@@ -26,10 +27,8 @@ function import(slot0, slot1)
 
 	while true do
 		if string.byte(slot0, slot4) ~= 46 then
-			slot3 = string.sub(slot0, slot4)
-
 			if slot2 and #slot2 > 0 then
-				slot3 = table.concat(slot2, ".") .. "." .. slot3
+				slot3 = table.concat(slot2, ".") .. "." .. string.sub(slot0, slot4)
 			end
 
 			break
@@ -50,5 +49,3 @@ function import(slot0, slot1)
 
 	return require(slot3)
 end
-
-return

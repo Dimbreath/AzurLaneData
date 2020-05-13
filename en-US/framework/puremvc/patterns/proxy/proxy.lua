@@ -5,7 +5,7 @@ function slot1.Ctor(slot0, slot1, slot2)
 		slot0:setData(slot1)
 	end
 
-	slot0.proxyName = slot2 or slot0.__cname or slot0.NAME
+	slot0.proxyName = slot2 or slot0.__cname or uv0.NAME
 end
 
 slot1.NAME = "Proxy"
@@ -23,11 +23,9 @@ function slot1.getData(slot0)
 end
 
 function slot1.onRegister(slot0)
-	return
 end
 
 function slot1.onRemove(slot0)
-	return
 end
 
 return slot1

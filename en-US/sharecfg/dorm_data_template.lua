@@ -203,5 +203,3 @@ pg.dorm_data_template = {
 		4
 	}
 }
-
-return

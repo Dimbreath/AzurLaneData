@@ -278,5 +278,3 @@ pg.questionnaire_problems_template = {
 		208
 	}
 }
-
-return

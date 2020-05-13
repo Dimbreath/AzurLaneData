@@ -8,24 +8,24 @@ function slot0.Ctor(slot0, slot1)
 	slot0.configId = slot0.id
 	slot0.poolId = slot1.pool_id
 	slot0.time = slot1.time
-	slot0.state = (slot0.time > 0 and slot0.STATE_STARTING) or slot0.STATE_IDLE
+	slot0.state = slot0.time > 0 and uv0.STATE_STARTING or uv0.STATE_IDLE
 
 	if slot0.time > 0 and slot0:canFinish() then
-		slot0.state = slot0.STATE_FINISHED
+		slot0.state = uv0.STATE_FINISHED
 	end
 end
 
 function slot0.isStart(slot0)
-	return slot0.state == slot0.STATE_STARTING or slot0.state == slot0.STATE_FINISHED
+	return slot0.state == uv0.STATE_STARTING or slot0.state == uv0.STATE_FINISHED
 end
 
 function slot0.isStarting(slot0)
-	return slot0.STATE_STARTING == slot0.state
+	return uv0.STATE_STARTING == slot0.state
 end
 
 function slot0.start(slot0)
 	slot0.time = pg.TimeMgr.GetInstance():GetServerTime() + slot0:getConfig("time")
-	slot0.state = slot0.STATE_STARTING
+	slot0.state = uv0.STATE_STARTING
 end
 
 function slot0.getFinishTime(slot0)
@@ -37,10 +37,8 @@ function slot0.isFinished(slot0)
 		return false
 	end
 
-	slot1 = pg.TimeMgr.GetInstance():GetServerTime()
-
 	if not slot0:hasCondition() then
-		return slot0.time <= slot1
+		return slot0.time <= pg.TimeMgr.GetInstance():GetServerTime()
 	else
 		slot3 = getProxy(TaskProxy):getTaskById(slot0:getTaskId())
 
@@ -81,15 +79,14 @@ function slot0.canFinish(slot0)
 end
 
 function slot0.finish(slot0)
-	slot0.state = slot0.STATE_FINISHED
+	slot0.state = uv0.STATE_FINISHED
 end
 
 function slot0.hasResToStart(slot0)
-	slot2 = getProxy(PlayerProxy):getData()
 	slot3 = getProxy(BagProxy)
 
-	for slot7, slot8 in ipairs(slot1) do
-		if slot8[1] == DROP_TYPE_RESOURCE and slot2:getResById(slot8[2]) < slot8[3] then
+	for slot7, slot8 in ipairs(slot0:getConfig("consume")) do
+		if slot8[1] == DROP_TYPE_RESOURCE and getProxy(PlayerProxy):getData():getResById(slot8[2]) < slot8[3] then
 			return false, i18n("common_no_resource")
 		elseif slot8[1] == DROP_TYPE_ITEM and slot3:getItemCountById(slot8[2]) < slot8[3] then
 			return false, i18n("common_no_item_1")
@@ -101,7 +98,7 @@ end
 
 function slot0.reset(slot0)
 	slot0.time = 0
-	slot0.state = slot0.STATE_IDLE
+	slot0.state = uv0.STATE_IDLE
 end
 
 return slot0

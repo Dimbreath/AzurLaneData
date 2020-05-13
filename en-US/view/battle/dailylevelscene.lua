@@ -63,17 +63,17 @@ function slot0.didEnter(slot0)
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.backBtn, function ()
-		if slot0.descMode then
-			slot0:enableDescMode(false)
+		if uv0.descMode then
+			uv0:enableDescMode(false)
 		else
-			slot0:emit(slot1.ON_BACK)
+			uv0:emit(uv1.ON_BACK)
 		end
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.leftBtn, function ()
-		slot0:flipToSpecificCard(slot0:getNextCardId(true))
+		uv0:flipToSpecificCard(uv0:getNextCardId(true))
 	end)
 	onButton(slot0, slot0.rightBtn, function ()
-		slot0:flipToSpecificCard(slot0:getNextCardId(false))
+		uv0:flipToSpecificCard(uv0:getNextCardId(false))
 	end)
 	slot0:displayDailyLevels()
 
@@ -100,8 +100,10 @@ function slot0.initItems(slot0)
 	end
 
 	if slot0.contextData.dailyLevelId then
+		slot2 = slot0.contextData.dailyLevelId
+
 		table.removebyvalue(slot0.dailyList, slot2)
-		table.insert(slot0.dailyList, math.ceil(#slot1.all / 2), slot0.contextData.dailyLevelId)
+		table.insert(slot0.dailyList, math.ceil(#slot1.all / 2), slot2)
 	end
 
 	for slot5, slot6 in pairs(slot0.dailyList) do
@@ -115,28 +117,26 @@ function slot0.displayDailyLevels(slot0)
 	end
 
 	slot0.content:GetComponent(typeof(EnhancelScrollView)).onCenterClick = function (slot0)
-		slot0:tryOpenDesc(tonumber(slot0.name))
+		uv0:tryOpenDesc(tonumber(slot0.name))
 	end
 
 	slot0.centerAniItem = nil
 	slot0.centerCardId = nil
 	slot0.checkAniTimer = Timer.New(function ()
-		for slot3, slot4 in pairs(slot0.dailyLevelTFs) do
-			slot6 = slot4.localScale.x >= 0.98
-
-			if slot0.centerAniItem == slot4 and slot6 then
+		for slot3, slot4 in pairs(uv0.dailyLevelTFs) do
+			if uv0.centerAniItem == slot4 and slot4.localScale.x >= 0.98 then
 				return
 			else
 				if slot6 then
-					slot0.centerAniItem = slot4
-					slot0.centerCardId = slot3
+					uv0.centerAniItem = slot4
+					uv0.centerCardId = slot3
 				end
 
-				if slot0:findTF("icon/card", slot4) then
-					setActive(slot0:findTF("effect", slot7), slot6)
+				if uv0:findTF("icon/card", slot4) then
+					setActive(uv0:findTF("effect", slot7), slot6)
 
-					if slot0:findTF("mask/char", slot7):GetComponent(typeof(Animator)) then
-						slot8.speed = (slot6 and 1) or 0
+					if uv0:findTF("mask/char", slot7):GetComponent(typeof(Animator)) then
+						slot8.speed = slot6 and 1 or 0
 					end
 				end
 			end
@@ -159,7 +159,7 @@ end
 function slot0.CanOpenDailyLevel(slot0)
 	slot2 = false
 
-	if table.contains(pg.expedition_daily_template[slot0].weekday, tonumber(slot0.getWeek())) then
+	if table.contains(pg.expedition_daily_template[slot0].weekday, tonumber(uv0.getWeek())) then
 		slot2 = true
 	end
 
@@ -167,10 +167,8 @@ function slot0.CanOpenDailyLevel(slot0)
 end
 
 function slot0.getNextCardId(slot0, slot1)
-	slot2 = table.indexof(slot0.dailyList, slot0.centerCardId)
-
 	if slot1 then
-		if slot2 - 1 <= 0 then
+		if table.indexof(slot0.dailyList, slot0.centerCardId) - 1 <= 0 then
 			slot2 = #slot0.dailyList or slot2
 		end
 	elseif slot2 + 1 > #slot0.dailyList then
@@ -194,18 +192,19 @@ function slot0.initDailyLevel(slot0, slot1)
 	slot5 = findTF(slot3, "icon")
 
 	PoolMgr.GetInstance():GetPrefab("dailyui/" .. slot2.pic, "", true, function (slot0)
-		tf(slot0):SetParent(tf(slot0), false)
+		slot0 = tf(slot0)
 
-		tf(slot0).localPosition = Vector3.zero
-		tf(slot0).name = "card"
+		slot0:SetParent(uv0, false)
+
+		slot0.localPosition = Vector3.zero
+		slot0.name = "card"
 	end)
 	setText(findTF(slot3, "Text"), "")
 
-	slot6 = findTF(slot3, "count")
 	slot7 = slot0.dailyCounts[slot1] or 0
 
 	if slot2.limit_time == 0 then
-		setText(slot6, "N/A")
+		setText(findTF(slot3, "count"), "N/A")
 	else
 		setText(slot6, string.format("%d/%d", slot2.limit_time - slot7, slot2.limit_time))
 	end
@@ -223,10 +222,9 @@ end
 function slot0.displayStageList(slot0, slot1)
 	slot0.dailyLevelId = slot1
 	slot0.contextData.dailyLevelId = slot0.dailyLevelId
-	slot2 = pg.expedition_daily_template[slot1]
 	slot3 = slot0.dailyCounts[slot1] or 0
 
-	if slot2.limit_time == 0 then
+	if pg.expedition_daily_template[slot1].limit_time == 0 then
 		setText(slot0.descChallengeText, i18n("challenge_count_unlimit"))
 	else
 		setText(slot0.descChallengeText, string.format("%d/%d", slot2.limit_time - slot3, slot2.limit_time))
@@ -238,15 +236,32 @@ function slot0.displayStageList(slot0, slot1)
 
 	slot0.stageTFs = {}
 
-	for slot8, slot9 in ipairs(slot4) do
-		slot0.stageTFs[slot9[1]] = cloneTplTo(slot0.stageTpl, slot0.stageContain)
-		slot12 = {
-			id = slot9[1],
-			level = slot9[2]
-		}
+	for slot8, slot9 in ipairs(_.sort(slot2.expedition_and_lv_limit_list, function (slot0, slot1)
+		slot2 = slot0[2] <= uv0.player.level and 1 or 0
+		slot3 = slot1[2] <= uv0.player.level and 1 or 0
+
+		if slot0[2] == slot1[2] then
+			return slot0[1] < slot1[1]
+		end
+
+		if slot2 == slot3 then
+			if slot2 == 1 then
+				return slot1[2] < slot0[2]
+			else
+				return slot0[2] < slot1[2]
+			end
+		else
+			return slot3 < slot2
+		end
+	end)) do
+		slot10 = slot9[1]
+		slot0.stageTFs[slot10] = cloneTplTo(slot0.stageTpl, slot0.stageContain)
 
 		if slot1 == CHALLENGE_CARD_ID then
-			slot0:updateChallenge(slot12)
+			slot0:updateChallenge({
+				id = slot10,
+				level = slot9[2]
+			})
 		else
 			slot0:updateStage(slot12)
 		end
@@ -254,6 +269,8 @@ function slot0.displayStageList(slot0, slot1)
 end
 
 function slot0.updateStage(slot0, slot1)
+	slot3 = slot0.stageTFs[slot1.id]
+
 	setText(findTF(slot3, "left_panel/name"), pg.expedition_data_template[slot1.id].name)
 	setText(findTF(slot3, "left_panel/lv/Text"), "Lv." .. slot1.level)
 	setActive(slot0:findTF("mask", slot3), slot0.player.level < slot1.level)
@@ -262,10 +279,8 @@ function slot0.updateStage(slot0, slot1)
 		setText(slot0:findTF("msg/msg_contain/Text", slot4), "Lv." .. slot1.level .. " ")
 	end
 
-	slot5 = slot0:findTF("scrollView/right_panel", slot3)
-
 	for slot9, slot10 in ipairs(slot2.award_display) do
-		updateDrop(cloneTplTo(slot0.itemTpl, slot5), {
+		updateDrop(cloneTplTo(slot0.itemTpl, slot0:findTF("scrollView/right_panel", slot3)), {
 			type = slot10[1],
 			id = slot10[2],
 			count = slot10[3]
@@ -275,13 +290,13 @@ function slot0.updateStage(slot0, slot1)
 	setImageSprite(slot3, getImageSprite(findTF(slot0.resource, "normal_bg")))
 	setActive(findTF(slot3, "score"), false)
 	onButton(slot0, slot3, function ()
-		if slot0.limit_time <= (slot0.dailyCounts[slot0.dailyLevelId] or 0) then
+		if pg.expedition_daily_template[uv0.dailyLevelId].limit_time <= (uv0.dailyCounts[uv0.dailyLevelId] or 0) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("dailyLevel_restCount_notEnough"))
 
 			return
 		end
 
-		slot0:emit(DailyLevelMediator.ON_STAGE, slot0.emit)
+		uv0:emit(DailyLevelMediator.ON_STAGE, uv1)
 	end, SFX_PANEL)
 	onButton(slot0, slot4, function ()
 		pg.TipsMgr.GetInstance():ShowTips(i18n("dailyLevel_unopened"))
@@ -293,54 +308,48 @@ function slot0.enableDescMode(slot0, slot1, slot2)
 
 	setActive(slot0:findTF("help_btn"), not slot1)
 
-	function slot3(slot0, slot1, slot2)
-		if LeanTween.isTweening(go(slot0)) then
-			LeanTween.cancel(go(slot0))
-		end
-
-		LeanTween.moveX(rtf(slot0), slot1, 0.3):setEase(LeanTweenType.linear):setOnComplete(System.Action(function ()
-			if slot0 then
-				slot0()
-			end
-		end))
-	end
-
-	function slot4()
-		for slot3, slot4 in pairs(slot0.dailyLevelTFs) do
-			setButtonEnabled(slot4, not slot1)
-
-			if slot3 ~= slot0.curId then
-				if LeanTween.isTweening(go(slot4)) then
-					LeanTween.cancel(go(slot4))
-				end
-
-				slot5 = GetComponent(slot4, typeof(CanvasGroup))
-
-				if slot1 then
-					LeanTween.value(go(slot4), 1, 0, 0.3):setOnUpdate(System.Action_float(function (slot0)
-						slot0.alpha = slot0
-					end))
-				else
-					LeanTween.value(go(slot4), 0, 1, 0.3):setOnUpdate(System.Action_float(function (slot0)
-						slot0.alpha = slot0
-					end))
-				end
-			end
-		end
-	end
-
-	function slot5()
-		setActive(slot0.listPanel, true)
-		setActive(slot0.content, true)
-		setActive(slot0.descPanel, )
-		setActive(slot0.arrows, not slot1)
-	end
-
 	if slot1 then
-		slot5()
-		slot4()
-		slot3(slot0.listPanel, -622, function ()
-			slot0(slot1.descMain, 0, )
+		function ()
+			setActive(uv0.listPanel, true)
+			setActive(uv0.content, true)
+			setActive(uv0.descPanel, uv1)
+			setActive(uv0.arrows, not uv1)
+		end()
+		function ()
+			for slot3, slot4 in pairs(uv0.dailyLevelTFs) do
+				setButtonEnabled(slot4, not uv1)
+
+				if slot3 ~= uv0.curId then
+					if LeanTween.isTweening(go(slot4)) then
+						LeanTween.cancel(go(slot4))
+					end
+
+					slot5 = GetComponent(slot4, typeof(CanvasGroup))
+
+					if uv1 then
+						LeanTween.value(go(slot4), 1, 0, 0.3):setOnUpdate(System.Action_float(function (slot0)
+							uv0.alpha = slot0
+						end))
+					else
+						LeanTween.value(go(slot4), 0, 1, 0.3):setOnUpdate(System.Action_float(function (slot0)
+							uv0.alpha = slot0
+						end))
+					end
+				end
+			end
+		end()
+		function (slot0, slot1, slot2)
+			if LeanTween.isTweening(go(slot0)) then
+				LeanTween.cancel(go(slot0))
+			end
+
+			LeanTween.moveX(rtf(slot0), slot1, 0.3):setEase(LeanTweenType.linear):setOnComplete(System.Action(function ()
+				if uv0 then
+					uv0()
+				end
+			end))
+		end(slot0.listPanel, -622, function ()
+			uv0(uv1.descMain, 0, uv2)
 		end)
 	else
 		slot5()
@@ -351,18 +360,16 @@ function slot0.enableDescMode(slot0, slot1, slot2)
 end
 
 function slot0.flipToSpecificCard(slot0, slot1)
-	slot2 = slot0.content:GetComponent(typeof(EnhancelScrollView))
-
 	for slot6, slot7 in pairs(slot0.dailyLevelTFs) do
 		if slot1 == slot6 then
-			slot2:SetHorizontalTargetItemIndex(slot7:GetComponent(typeof(EnhanceItem)).scrollViewItemIndex)
+			slot0.content:GetComponent(typeof(EnhancelScrollView)):SetHorizontalTargetItemIndex(slot7:GetComponent(typeof(EnhanceItem)).scrollViewItemIndex)
 		end
 	end
 end
 
 function slot0.tryPlayGuide(slot0)
 	pg.SystemGuideMgr.GetInstance():PlayDailyLevel(function ()
-		triggerButton(slot0:findTF("help_btn"))
+		triggerButton(uv0:findTF("help_btn"))
 	end)
 end
 

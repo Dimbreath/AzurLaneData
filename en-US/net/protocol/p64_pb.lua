@@ -174,5 +174,3 @@ fleettech = slot0.Message(FLEETTECH)
 sc_64000 = slot0.Message(SC_64000)
 sc_64002 = slot0.Message(SC_64002)
 sc_64004 = slot0.Message(SC_64004)
-
-return

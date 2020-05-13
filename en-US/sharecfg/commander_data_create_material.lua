@@ -48,5 +48,3 @@ pg.commander_data_create_material = {
 		3
 	}
 }
-
-return

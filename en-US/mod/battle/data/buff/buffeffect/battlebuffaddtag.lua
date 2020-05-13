@@ -1,10 +1,11 @@
 ys = ys or {}
-slot1 = class("BattleBuffAddTag", ys.Battle.BattleBuffEffect)
-ys.Battle.BattleBuffAddTag = slot1
+slot0 = ys
+slot1 = class("BattleBuffAddTag", slot0.Battle.BattleBuffEffect)
+slot0.Battle.BattleBuffAddTag = slot1
 slot1.__name = "BattleBuffAddTag"
 
 function slot1.Ctor(slot0, slot1)
-	slot0.super.Ctor(slot0, slot1)
+	uv0.super.Ctor(slot0, slot1)
 end
 
 function slot1.SetArgs(slot0, slot1, slot2)
@@ -18,5 +19,3 @@ end
 function slot1.onRemove(slot0, slot1, slot2)
 	slot1:RemoveLabelTag(slot0._labelTag)
 end
-
-return

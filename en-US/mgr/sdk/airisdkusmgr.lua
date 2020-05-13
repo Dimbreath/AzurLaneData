@@ -14,7 +14,7 @@ end
 function AiriInitResult(slot0)
 	pg.UIMgr.GetInstance():LoadingOff()
 
-	if slot0.AiriResultCodeHandler(slot0.R_CODE) then
+	if uv0.AiriResultCodeHandler(slot0.R_CODE) then
 		AIRI_SDK_INITED = true
 
 		OnAppPauseForSDK(false)
@@ -32,16 +32,14 @@ end
 function AiriLogin(slot0)
 	pg.UIMgr.GetInstance():LoadingOff()
 
-	if slot0.AiriResultCodeHandler(slot0.R_CODE) then
-
-		-- Decompilation error in this vicinity:
+	if uv0.AiriResultCodeHandler(slot0.R_CODE) then
 		function ()
 			pg.m02:sendNotification(GAME.PLATFORM_LOGIN_DONE, {
 				user = User.New({
 					type = 1,
 					arg1 = PLATFORM_AIRIUS,
-					arg2 = slot0.UID,
-					arg3 = slot0.ACCESS_TOKEN
+					arg2 = uv0.UID,
+					arg3 = uv0.ACCESS_TOKEN
 				})
 			})
 		end()
@@ -54,7 +52,7 @@ end
 function AiriTranscodeResult(slot0)
 	pg.UIMgr.GetInstance():LoadingOff()
 
-	if slot0.AiriResultCodeHandler(slot0.R_CODE) then
+	if uv0.AiriResultCodeHandler(slot0.R_CODE) then
 		pg.m02:sendNotification(GAME.ON_GET_TRANSCODE, {
 			transcode = slot0.MIGRATIONCODE
 		})
@@ -62,11 +60,11 @@ function AiriTranscodeResult(slot0)
 end
 
 function AiriBuyResult(slot0)
-	slot0.OnAiriBuying = -1
+	uv0.OnAiriBuying = -1
 
 	pg.UIMgr.GetInstance():LoadingOff()
 
-	if slot0.AiriResultCodeHandler(slot0.R_CODE) then
+	if uv0.AiriResultCodeHandler(slot0.R_CODE) then
 		getProxy(ShopsProxy):removeWaitTimer()
 		pg.m02:sendNotification(GAME.CHARGE_CONFIRM, {
 			payId = slot0.EXTRADATA,
@@ -83,23 +81,23 @@ end
 function SetBirthResult(slot0)
 	pg.UIMgr.GetInstance():LoadingOff()
 
-	if slot0.AiriResultCodeHandler(slot0.R_CODE) then
+	if uv0.AiriResultCodeHandler(slot0.R_CODE) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("set_birth_success"))
 	end
 end
 
 function LinkSocialResult(slot0)
-	slot0.EndAiriTimeout()
+	uv0.EndAiriTimeout()
 
-	if slot0.AiriResultCodeHandler(slot0.R_CODE) then
+	if uv0.AiriResultCodeHandler(slot0.R_CODE) then
 		pg.m02:sendNotification(GAME.ON_SOCIAL_LINKED)
 	end
 end
 
 function UnlinkSocialResult(slot0)
-	slot0.EndAiriTimeout()
+	uv0.EndAiriTimeout()
 
-	if slot0.AiriResultCodeHandler(slot0.R_CODE) then
+	if uv0.AiriResultCodeHandler(slot0.R_CODE) then
 		pg.m02:sendNotification(GAME.ON_SOCIAL_UNLINKED)
 	end
 end
@@ -107,7 +105,7 @@ end
 function VerificationCodeResult(slot0)
 	pg.UIMgr.GetInstance():LoadingOff()
 
-	if slot0.AiriResultCodeHandler(slot0.R_CODE) then
+	if uv0.AiriResultCodeHandler(slot0.R_CODE) then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			hideNo = true,
 			content = i18n("verification_code_req_tip2")
@@ -121,9 +119,9 @@ function OnAppPauseForSDK(slot0)
 	end
 
 	if slot0 then
-		slot0:OnPause()
+		uv0:OnPause()
 	else
-		slot0:OnResume()
+		uv0:OnResume()
 	end
 end
 
@@ -140,173 +138,176 @@ return {
 		return false
 	end,
 	GoSDkLoginScene = function ()
-		slot0:GoLoginScene()
-		slot1.AiriInit()
+		uv0:GoLoginScene()
+		uv1.AiriInit()
 	end,
 	AiriInit = function (slot0)
 		pg.UIMgr.GetInstance():LoadingOn()
-		slot0:InitSdk()
+		uv0:InitSdk()
 		print("CSharpVersion:" .. tostring(CSharpVersion))
 	end,
 	AiriLogin = function ()
 		pg.UIMgr.GetInstance():LoadingOn()
-		pg.UIMgr.GetInstance().LoadingOn:Login()
+		uv0:Login()
 	end,
 	LoginWithSocial = function (slot0, slot1, slot2)
 		pg.UIMgr.GetInstance():LoadingOn()
 
 		if slot0 == AIRI_PLATFORM_FACEBOOK then
-			slot0:LoginWithFB()
+			uv0:LoginWithFB()
 		elseif slot0 == AIRI_PLATFORM_TWITTER then
-			slot0:LoginWithTW()
+			uv0:LoginWithTW()
 		elseif slot0 == AIRI_PLATFORM_YOSTAR then
-			slot0:LoginWithSDKAccount(slot1, slot2)
+			uv0:LoginWithSDKAccount(slot1, slot2)
 		elseif slot0 == AIRI_PLATFORM_APPLE then
-			slot0:LoginWithApple()
+			uv0:LoginWithApple()
 		end
 	end,
 	LoginWithTranscode = function (slot0, slot1)
 		pg.UIMgr.GetInstance():LoadingOn()
-		slot0:LoginWithTranscode(slot0, slot1)
+		uv0:LoginWithTranscode(slot0, slot1)
 	end,
 	TranscodeRequest = function ()
 		pg.UIMgr.GetInstance():LoadingOn()
-		pg.UIMgr.GetInstance().LoadingOn:TranscodeRequest()
+		uv0:TranscodeRequest()
 	end,
 	AiriBuy = function (slot0, slot1, slot2)
-		slot0.OnAiriBuying = Time.realtimeSinceStartup
+		uv0.OnAiriBuying = Time.realtimeSinceStartup
 
 		if slot1 == "audit" then
-			slot1:NewBuy(slot0, Airisdk.BuyServerTag.audit, slot2)
+			uv1:NewBuy(slot0, Airisdk.BuyServerTag.audit, slot2)
 		elseif slot1 == "preAudit" then
-			slot1:NewBuy(slot0, Airisdk.BuyServerTag.preAudit, slot2)
+			uv1:NewBuy(slot0, Airisdk.BuyServerTag.preAudit, slot2)
 		elseif slot1 == "production" then
-			slot1:NewBuy(slot0, Airisdk.BuyServerTag.production, slot2)
+			uv1:NewBuy(slot0, Airisdk.BuyServerTag.production, slot2)
 		end
 	end,
 	LinkSocial = function (slot0, slot1, slot2)
-		slot0.SetAiriTimeout()
+		uv0.SetAiriTimeout()
 
 		if slot0 == AIRI_PLATFORM_FACEBOOK then
-			slot1:LinkSocial(Airisdk.LoginPlatform.FACEBOOK)
+			uv1:LinkSocial(Airisdk.LoginPlatform.FACEBOOK)
 		elseif slot0 == AIRI_PLATFORM_TWITTER then
-			slot1:LinkSocial(Airisdk.LoginPlatform.TWITTER)
+			uv1:LinkSocial(Airisdk.LoginPlatform.TWITTER)
 		elseif slot0 == AIRI_PLATFORM_YOSTAR then
-			slot1:LinkSocial(Airisdk.LoginPlatform.YOSTAR, slot1, slot2)
+			uv1:LinkSocial(Airisdk.LoginPlatform.YOSTAR, slot1, slot2)
 		elseif slot0 == AIRI_PLATFORM_APPLE then
-			slot1:LinkSocial(Airisdk.LoginPlatform.APPLE)
+			uv1:LinkSocial(Airisdk.LoginPlatform.APPLE)
 		end
 	end,
 	UnlinkSocial = function (slot0)
-		slot0.SetAiriTimeout()
+		uv0.SetAiriTimeout()
 
 		if slot0 == AIRI_PLATFORM_FACEBOOK then
-			slot1:UnlinkSocial(Airisdk.LoginPlatform.FACEBOOK)
+			uv1:UnlinkSocial(Airisdk.LoginPlatform.FACEBOOK)
 		elseif slot0 == AIRI_PLATFORM_TWITTER then
-			slot1:UnlinkSocial(Airisdk.LoginPlatform.TWITTER)
+			uv1:UnlinkSocial(Airisdk.LoginPlatform.TWITTER)
 		elseif slot0 == AIRI_PLATFORM_APPLE then
-			slot1:UnlinkSocial(Airisdk.LoginPlatform.APPLE)
+			uv1:UnlinkSocial(Airisdk.LoginPlatform.APPLE)
 		end
 	end,
 	IsSocialLink = function (slot0)
-		if not slot0.GetIsPlatform() then
+		if not uv0.GetIsPlatform() then
 			return false
 		end
 
 		if slot0 == AIRI_PLATFORM_FACEBOOK then
-			return slot1:CheckPlatformLink(Airisdk.LoginPlatform.FACEBOOK)
+			return uv1:CheckPlatformLink(Airisdk.LoginPlatform.FACEBOOK)
 		elseif slot0 == AIRI_PLATFORM_TWITTER then
-			return slot1:CheckPlatformLink(Airisdk.LoginPlatform.TWITTER)
+			return uv1:CheckPlatformLink(Airisdk.LoginPlatform.TWITTER)
 		elseif slot0 == AIRI_PLATFORM_YOSTAR then
-			return slot1:CheckPlatformLink(Airisdk.LoginPlatform.YOSTAR)
+			return uv1:CheckPlatformLink(Airisdk.LoginPlatform.YOSTAR)
 		elseif slot0 == AIRI_PLATFORM_APPLE and CSharpVersion > 36 then
-			return slot1:CheckPlatformLink(Airisdk.LoginPlatform.APPLE)
+			return uv1:CheckPlatformLink(Airisdk.LoginPlatform.APPLE)
 		end
 
 		return false
 	end,
 	GetSocialName = function (slot0)
 		if slot0 == AIRI_PLATFORM_FACEBOOK then
-			return slot0.loginRet.FACEBOOK_NAME
+			return uv0.loginRet.FACEBOOK_NAME
 		elseif slot0 == AIRI_PLATFORM_TWITTER then
-			return slot0.loginRet.TWITTER_NAME
+			return uv0.loginRet.TWITTER_NAME
 		elseif slot0 == AIRI_PLATFORM_YOSTAR then
-			return slot0.loginRet.SDK_NAME
+			return uv0.loginRet.SDK_NAME
 		elseif slot0 == AIRI_PLATFORM_APPLE then
-			return slot0.loginRet.APPLE_ID
+			return uv0.loginRet.APPLE_ID
 		end
 
 		return ""
 	end,
 	SetBirth = function (slot0)
 		pg.UIMgr.GetInstance():LoadingOn()
-		slot0:SetBirth(slot0)
+		uv0:SetBirth(slot0)
 	end,
 	GetIsBirthSet = function ()
-		return slot0:IsBirthSet()
+		return uv0:IsBirthSet()
 	end,
 	ClearAccountCache = function ()
-		slot0:ClearAccountCache()
+		uv0:ClearAccountCache()
 	end,
 	GameShare = function (slot0, slot1)
-		slot0:SystemShare(slot0, slot1)
+		uv0:SystemShare(slot0, slot1)
 	end,
 	VerificationCodeReq = function (slot0)
-		slot0:VerificationCodeReq(slot0)
+		uv0:VerificationCodeReq(slot0)
 
 		AIRI_LAST_GEN_TIME = Time.realtimeSinceStartup
 	end,
 	OpenYostarHelp = function ()
-		slot0 = getProxy(PlayerProxy)
-		slot1 = slot0:getData()
-		slot5 = getProxy(ServerProxy).getLastServer(slot4, getProxy(UserProxy).getData(slot2).uid)
+		slot1 = getProxy(PlayerProxy):getData()
+		slot5 = getProxy(ServerProxy):getLastServer(getProxy(UserProxy):getData().uid)
+		slot6 = pg.TimeMgr.GetInstance():STimeDescS(slot1.registerTime, "%Y-%m-%d %H:%M:%S")
+		slot7 = math.modf(slot1.rmb / 100)
 
-		print("uid:" .. slot1.id .. ",name:" .. slot1.name .. ",level" .. slot1.level .. ",serverId:" .. slot5.id .. " - " .. slot5.name .. ",rmb:" .. math.modf(slot1.rmb / 100) .. ",createTime:" .. pg.TimeMgr.GetInstance():STimeDescS(slot1.registerTime, "%Y-%m-%d %H:%M:%S"))
-		slot0:OpenHelp(tostring(slot1.id), slot1.name, tostring(slot1.level), tostring(slot5.id .. " - " .. slot5.name), tostring(slot7), pg.TimeMgr.GetInstance().STimeDescS(slot1.registerTime, "%Y-%m-%d %H:%M:%S"))
+		print("uid:" .. slot1.id .. ",name:" .. slot1.name .. ",level" .. slot1.level .. ",serverId:" .. slot5.id .. " - " .. slot5.name .. ",rmb:" .. slot7 .. ",createTime:" .. slot6)
+		uv0:OpenHelp(tostring(slot1.id), slot1.name, tostring(slot1.level), tostring(slot5.id .. " - " .. slot5.name), tostring(slot7), slot6)
 	end,
 	GetYostarUid = function ()
-		return slot0.loginRet.UID
+		return uv0.loginRet.UID
 	end,
 	GetDeviceId = function ()
-		return slot0:GetDeviceID()
+		return uv0:GetDeviceID()
 	end,
 	GetLoginType = function ()
-		return slot0.loginType
+		return uv0.loginType
 	end,
 	GetIsPlatform = function ()
-		return slot0.isPlatform
+		return uv0.isPlatform
 	end,
 	GetChannelUID = function ()
-		print("channelUID : " .. slot0.channelUID)
+		slot0 = uv0.channelUID
 
-		return slot0.channelUID
+		print("channelUID : " .. slot0)
+
+		return slot0
 	end,
 	UserEventUpload = function (slot0)
-		if slot0.GetIsPlatform() then
-			slot1:UserEventUpload(slot0)
+		if uv0.GetIsPlatform() then
+			uv1:UserEventUpload(slot0)
 		end
 	end,
 	OnAndoridBackPress = function ()
 		PressBack()
 	end,
 	BindCPU = function ()
-		return
 	end,
 	CheckAiriCanBuy = function ()
-		if slot0.OnAiriBuying == -1 or slot0.BuyingLimit < Time.realtimeSinceStartup - slot0.OnAiriBuying then
+		if uv0.OnAiriBuying == -1 or uv0.BuyingLimit < Time.realtimeSinceStartup - uv0.OnAiriBuying then
 			return true
 		else
 			return false
 		end
 	end,
 	AiriResultCodeHandler = function (slot0)
-		slot2 = ":" .. slot0:ToInt()
+		slot1 = slot0:ToInt()
+		slot2 = ":" .. slot1
 
-		if slot0.ToInt() == 0 then
+		if slot1 == 0 then
 			return true
 		else
 			if slot1 == 100110 then
-				slot0.ClearAccountCache()
+				uv0.ClearAccountCache()
 			end
 
 			print("SDK Error Code:" .. slot1)
@@ -324,18 +325,18 @@ return {
 	SetAiriTimeout = function ()
 		pg.UIMgr.GetInstance():LoadingOn()
 
-		pg.UIMgr.GetInstance().LoadingOn.ON_AIRI_LOADING = true
+		uv0.ON_AIRI_LOADING = true
 
 		onDelayTick(function ()
-			if slot0.ON_AIRI_LOADING then
+			if uv0.ON_AIRI_LOADING then
 				pg.UIMgr.GetInstance():LoadingOff()
 
-				pg.UIMgr.GetInstance().LoadingOff.ON_AIRI_LOADING = false
+				uv0.ON_AIRI_LOADING = false
 			end
 		end, 15)
 	end,
 	EndAiriTimeout = function ()
-		slot0.ON_AIRI_LOADING = false
+		uv0.ON_AIRI_LOADING = false
 
 		pg.UIMgr.GetInstance():LoadingOff()
 	end

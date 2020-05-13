@@ -20,7 +20,6 @@ function slot0.didEnter(slot0)
 end
 
 function slot0.willExit(slot0)
-	return
 end
 
 function slot0.initData(slot0)
@@ -29,11 +28,11 @@ function slot0.initData(slot0)
 	slot0.allIDList = slot0.activityData:getConfig("config_data")
 	slot0.pageIDList = {}
 
-	for slot4 = 1, slot0.PAGE_NUM, 1 do
+	for slot4 = 1, uv0.PAGE_NUM do
 		slot0.pageIDList[slot4] = {}
 
-		for slot8 = 1, slot0.MEDAL_NUM_PER_PAGE, 1 do
-			slot0.pageIDList[slot4][slot8] = slot0.allIDList[(slot4 - 1) * slot0.MEDAL_NUM_PER_PAGE + slot8]
+		for slot8 = 1, uv0.MEDAL_NUM_PER_PAGE do
+			slot0.pageIDList[slot4][slot8] = slot0.allIDList[(slot4 - 1) * uv0.MEDAL_NUM_PER_PAGE + slot8]
 		end
 	end
 
@@ -52,48 +51,53 @@ function slot0.findUI(slot0)
 	slot2 = slot0:findTF("MedalContainer")
 	slot0.medalItemList = {
 		slot0:findTF("Medal1", slot2),
-		slot0:findTF("Medal2", slot2),
-		slot0:findTF("Medal3", slot2)
+		slot0:findTF("Medal2", slot2)
 	}
-	slot3 = slot0:findTF("SwitchBtnList", slot1)
+	slot7 = slot2
+	slot0.medalItemList[3] = slot0:findTF("Medal3", slot7)
 	slot0.switchBtnList = {}
 
-	for slot7 = 1, 5, 1 do
-		slot0.switchBtnList[slot7] = slot0:findTF("Button" .. slot7, slot3)
+	for slot7 = 1, 5 do
+		slot0.switchBtnList[slot7] = slot0:findTF("Button" .. slot7, slot0:findTF("SwitchBtnList", slot1))
 	end
 end
 
 function slot0.addListener(slot0)
 	onButton(slot0, slot0.backBtn, function ()
-		slot0:closeView()
+		uv0:closeView()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0.helpBtn, function ()
+
+	function slot4()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.music_collection.tip
 		})
-	end, SFX_PANEL)
+	end
+
+	slot5 = SFX_PANEL
+
+	onButton(slot0, slot0.helpBtn, slot4, slot5)
 
 	for slot4, slot5 in ipairs(slot0.switchBtnList) do
 		onToggle(slot0, slot5, function (slot0)
 			if slot0 == true then
-				slot0.curPage = slot0
+				uv0.curPage = uv1
 
-				slot0:updateSwitchBtnTF()
-				slot0:updateMedalContainerView(slot0.updateMedalContainerView)
+				uv0:updateSwitchBtnTF()
+				uv0:updateMedalContainerView(uv1)
 			end
 		end, SFX_PANEL)
 	end
 
 	addSlip(SLIP_TYPE_HRZ, slot0.bg, function ()
-		if slot0.curPage > 1 then
-			triggerToggle(slot0.switchBtnList[slot0.curPage - 1], true)
+		if uv0.curPage > 1 then
+			triggerToggle(uv0.switchBtnList[uv0.curPage - 1], true)
 		else
 			return
 		end
 	end, function ()
-		if slot0.curPage < slot1.PAGE_NUM then
-			triggerToggle(slot0.switchBtnList[slot0.curPage + 1], true)
+		if uv0.curPage < uv1.PAGE_NUM then
+			triggerToggle(uv0.switchBtnList[uv0.curPage + 1], true)
 		else
 			return
 		end
@@ -101,27 +105,29 @@ function slot0.addListener(slot0)
 end
 
 function slot0.updateMedalContainerView(slot0, slot1)
-	for slot6, slot7 in ipairs(slot2) do
+	for slot6, slot7 in ipairs(slot0.pageIDList[slot1]) do
 		slot0:updateMedalView(slot2, slot7)
 	end
 end
 
 function slot0.updateMedalView(slot0, slot1, slot2)
-	slot3 = table.indexof(slot1, slot2, 1)
 	slot4 = table.contains(slot0.activeIDList, slot2)
+	slot5 = table.contains(slot0.activatableIDList, slot2) and not slot4
+	slot7 = slot0.medalItemList[table.indexof(slot1, slot2, 1)]
+	slot8 = slot0:findTF("Active", slot7)
 
 	setActive(slot8, slot4)
-	setActive(slot9, table.contains(slot0.activatableIDList, slot2) and not slot4)
-	setActive(slot0:findTF("DisActive", slot7), not slot4 and not (table.contains(slot0.activatableIDList, slot2) and not slot4))
+	setActive(slot0:findTF("Activable", slot7), slot5)
+	setActive(slot0:findTF("DisActive", slot7), not slot4 and not slot5)
 
-	if slot0:findTF("Active", slot7) then
+	if slot8 then
 		setImageSprite(slot8, GetSpriteFromAtlas("ui/musicfestivalmedalcollectionui_atlas", tostring(slot2)))
 	end
 
 	if slot5 then
 		onButton(slot0, slot9, function ()
 			pg.m02:sendNotification(GAME.MEMORYBOOK_UNLOCK, {
-				id = slot0,
+				id = uv0,
 				actId = ActivityConst.IDOL_MEDAL_COLLECTION
 			})
 		end, SFX_PANEL)
@@ -134,7 +140,7 @@ end
 
 function slot0.updateSwitchBtnTF(slot0)
 	for slot4, slot5 in ipairs(slot0.switchBtnList) do
-		slot7 = slot0:findTF("Text", slot6)
+		slot7 = slot0:findTF("Text", slot0:findTF("Tip", slot5))
 
 		if slot0:caculateActivatable(slot4) == 0 or slot4 == slot0.curPage then
 			setActive(slot6, false)
@@ -164,13 +170,8 @@ function slot0.isHaveActivableMedal()
 		return
 	end
 
-	slot1 = slot0.data1_list
-	slot2 = slot0.data2_list
-
-	for slot7, slot8 in ipairs(slot3) do
-		slot10 = table.contains(slot1, slot8)
-
-		if not table.contains(slot2, slot8) and slot10 then
+	for slot7, slot8 in ipairs(slot0:getConfig("config_data")) do
+		if not table.contains(slot0.data2_list, slot8) and table.contains(slot0.data1_list, slot8) then
 			return true
 		end
 	end
@@ -179,13 +180,9 @@ function slot0.isHaveActivableMedal()
 end
 
 function slot0.caculateActivatable(slot0, slot1)
-	slot3 = 0
-
-	for slot7, slot8 in ipairs(slot2) do
-		slot10 = table.contains(slot0.activatableIDList, slot8)
-
-		if not table.contains(slot0.activeIDList, slot8) and slot10 then
-			slot3 = slot3 + 1
+	for slot7, slot8 in ipairs(slot0.pageIDList[slot1]) do
+		if not table.contains(slot0.activeIDList, slot8) and table.contains(slot0.activatableIDList, slot8) then
+			slot3 = 0 + 1
 		end
 	end
 

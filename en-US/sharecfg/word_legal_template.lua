@@ -1,12 +1,11 @@
 pg = pg or {}
-pg.word_legal_template = {}
-slot1 = pg.word_legal_template
+slot0 = pg
+slot0.word_legal_template = {}
+slot1 = slot0.word_legal_template
 slot2 = nil
 
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.E = {
+	uv0.E = {
 		S = {
 			S = {
 				E = {
@@ -27,11 +26,9 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.K = {
-		ö = {
+	uv0.K = {
+		["ö"] = {
 			l = {
 				n = {
 					this = true
@@ -40,10 +37,8 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.M = {
+	uv0.M = {
 		A = {
 			S = {
 				S = {
@@ -96,10 +91,8 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.T = {
+	uv0.T = {
 		o = {
 			r = {
 				p = {
@@ -115,10 +108,8 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.e = {
+	uv0.e = {
 		s = {
 			s = {
 				e = {
@@ -130,10 +121,8 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.m = {
+	uv0.m = {
 		a = {
 			s = {
 				s = {
@@ -161,14 +150,12 @@ function ()
 		}
 	}
 end()
-
--- Decompilation error in this vicinity:
 function ()
-	slot0.サ = {
-		セ = {
-			ッ = {
-				ク = {
-					ス = {
+	uv0["サ"] = {
+		["セ"] = {
+			["ッ"] = {
+				["ク"] = {
+					["ス"] = {
 						this = true
 					}
 				}
@@ -176,5 +163,3 @@ function ()
 		}
 	}
 end()
-
-return

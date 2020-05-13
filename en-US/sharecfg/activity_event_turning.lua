@@ -71,5 +71,3 @@ pg.activity_event_turning = {
 		1
 	}
 }
-
-return

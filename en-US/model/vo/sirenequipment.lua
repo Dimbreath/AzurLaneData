@@ -8,7 +8,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.slotAttrs = {}
 
 	_.each(slot1.attrs, function (slot0)
-		table.insert(slot0.slotAttrs, {
+		table.insert(uv0.slotAttrs, {
 			name = slot0.name,
 			value = slot0.value
 		})

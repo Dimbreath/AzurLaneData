@@ -1,11 +1,13 @@
 slot0 = class("Returner", import(".PlayerAttire"))
 
 function slot0.Ctor(slot0, slot1)
-	slot0.super.Ctor(slot0, slot1.user or {})
+	slot2 = slot1.user or {}
+
+	uv0.super.Ctor(slot0, slot2)
 
 	slot0.pt = slot1.pt or 0
-	slot0.id = slot1.user or .id or 0
-	slot0.name = slot1.user or .name
+	slot0.id = slot2.id or 0
+	slot0.name = slot2.name
 end
 
 function slot0.getName(slot0)

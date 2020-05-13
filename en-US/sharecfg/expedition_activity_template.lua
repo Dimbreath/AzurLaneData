@@ -4006,5 +4006,3 @@ pg.expedition_activity_template = {
 		4001201
 	}
 }
-
-return

@@ -1,10 +1,11 @@
 ys = ys or {}
-slot1 = class("BattleSubmarineFuncButton", ys.Battle.BattleWeaponButton)
-ys.Battle.BattleSubmarineFuncButton = slot1
+slot0 = ys
+slot1 = class("BattleSubmarineFuncButton", slot0.Battle.BattleWeaponButton)
+slot0.Battle.BattleSubmarineFuncButton = slot1
 slot1.__name = "BattleSubmarineFuncButton"
 
 function slot1.Ctor(slot0)
-	slot0.EventListener.AttachEventListener(slot0)
+	uv0.EventListener.AttachEventListener(slot0)
 
 	slot0.eventTriggers = {}
 end
@@ -27,17 +28,22 @@ function slot1.ConfigSkin(slot0, slot1)
 	slot0._block:SetActive(false)
 	slot0._progress.gameObject:SetActive(true)
 	slot0._text.gameObject:SetActive(false)
-	slot0._filledEffect.gameObject.SetActive(slot2, false)
-	slot0._filledEffect.gameObject.GetComponent(slot2, "DftAniEvent"):SetEndEvent(function (slot0)
-		SetActive(slot0._filledEffect, false)
+
+	slot2 = slot0._filledEffect.gameObject
+
+	slot2:SetActive(false)
+	slot2:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
+		SetActive(uv0._filledEffect, false)
 	end)
 end
 
 function slot1.Enabled(slot0, slot1)
-	slot0.eventTriggers[GetComponent(slot0._btn, "EventTriggerListener")] = true
-	slot0.eventTriggers[GetComponent(slot0._block, "EventTriggerListener")] = true
-	GetComponent(slot0._btn, "EventTriggerListener").enabled = slot1
-	GetComponent(slot0._block, "EventTriggerListener").enabled = slot1
+	slot2 = GetComponent(slot0._btn, "EventTriggerListener")
+	slot3 = GetComponent(slot0._block, "EventTriggerListener")
+	slot0.eventTriggers[slot2] = true
+	slot0.eventTriggers[slot3] = true
+	slot2.enabled = slot1
+	slot3.enabled = slot1
 end
 
 function slot1.Disable(slot0)
@@ -98,8 +104,8 @@ end
 function slot1.SetProgressInfo(slot0, slot1)
 	slot0._progressInfo = slot1
 
-	slot0._progressInfo:RegisterEventListener(slot0, slot0.Battle.BattleEvent.WEAPON_COUNT_PLUS, slot0.OnfilledEffect)
-	slot0._progressInfo:RegisterEventListener(slot0, slot0.Battle.BattleEvent.OVER_LOAD_CHANGE, slot0.OnOverLoadChange)
+	slot0._progressInfo:RegisterEventListener(slot0, uv0.Battle.BattleEvent.WEAPON_COUNT_PLUS, slot0.OnfilledEffect)
+	slot0._progressInfo:RegisterEventListener(slot0, uv0.Battle.BattleEvent.OVER_LOAD_CHANGE, slot0.OnOverLoadChange)
 	slot0:OnOverLoadChange()
 	slot0:SetControllerActive(true)
 end
@@ -122,9 +128,7 @@ function slot1.Dispose(slot0)
 	slot0._progress = nil
 	slot0._progressBar = nil
 
-	slot0._progressInfo:UnregisterEventListener(slot0, slot0.Battle.BattleEvent.OVER_LOAD_CHANGE)
-	slot0._progressInfo:UnregisterEventListener(slot0, slot0.Battle.BattleEvent.WEAPON_COUNT_PLUS)
-	slot0.EventListener.DetachEventListener(slot0)
+	slot0._progressInfo:UnregisterEventListener(slot0, uv0.Battle.BattleEvent.OVER_LOAD_CHANGE)
+	slot0._progressInfo:UnregisterEventListener(slot0, uv0.Battle.BattleEvent.WEAPON_COUNT_PLUS)
+	uv0.EventListener.DetachEventListener(slot0)
 end
-
-return

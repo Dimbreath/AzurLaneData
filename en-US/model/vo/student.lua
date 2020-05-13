@@ -14,7 +14,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.startTime = slot1.start_time
 	slot0.time = slot1.time
 	slot0.exp = slot1.exp
-	slot0.state = slot1.state or slot0.ATTEND
+	slot0.state = slot1.state or uv0.ATTEND
 end
 
 function slot0.updateSkillId(slot0, slot1)

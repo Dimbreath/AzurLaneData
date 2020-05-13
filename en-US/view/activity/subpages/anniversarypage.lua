@@ -10,27 +10,26 @@ end
 
 function slot0.OnFirstFlush(slot0)
 	onButton(slot0, slot0.btnShop, function ()
-		slot0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SKINSHOP)
+		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SKINSHOP)
 	end, SFX_PANEL)
 end
 
 function slot0.scrollAnim(slot0)
 	slot0._tf:GetComponent(typeof(DftAniEvent)):SetTriggerEvent(function (slot0)
-		slot0.charListTF:GetChild(0):SetAsLastSibling()
+		uv0.charListTF:GetChild(0):SetAsLastSibling()
 
 		slot1 = 0
 
-		eachChild(slot0.charListTF, function (slot0)
-			slot1(slot0.charListTF:GetChild(setActive), setActive ~= 6)
+		eachChild(uv0.charListTF, function (slot0)
+			setActive(uv0.charListTF:GetChild(uv1), uv1 ~= 6)
 
-			slot1 = slot1 + 1
+			uv1 = uv1 + 1
 		end)
-		slot0.charTF:SetSiblingIndex(6)
+		uv0.charTF:SetSiblingIndex(6)
 	end)
 end
 
 function slot0.OnDestroy(slot0)
-	return
 end
 
 return slot0

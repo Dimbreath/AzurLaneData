@@ -133,5 +133,3 @@ pg.oilfield_template = {
 		10
 	}
 }
-
-return

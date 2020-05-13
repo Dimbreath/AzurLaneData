@@ -1,25 +1,23 @@
 slot0 = 0
 
 function HUT_Var1()
-	slot0 = slot0 + 2
+	uv0 = uv0 + 2
 
-	print("x = ", print)
+	print("x = ", uv0)
 end
 
 function HUT_Var3()
-	slot0 = slot0 + 10
+	uv0 = uv0 + 10
 
-	print("x = ", print)
+	print("x = ", uv0)
 end
 
 slot1 = HUT_Var1
 
 function HUT_Func()
-	slot0()
+	uv0()
 end
 
 function HUT_FUNC2()
 	print("y = 4")
 end
-
-return

@@ -17,7 +17,7 @@ function slot0.UpdateChallengeInfo(slot0, slot1)
 	end
 
 	slot0._buffList = slot1.buff_list
-	slot0._activityIndex = getProxy(ActivityProxy).getActivityByType(slot2, ActivityConst.ACTIVITY_TYPE_CHALLENGE):getConfig("config_id")
+	slot0._activityIndex = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE):getConfig("config_id")
 end
 
 function slot0.checkRecord(slot0, slot1)
@@ -28,8 +28,9 @@ function slot0.checkRecord(slot0, slot1)
 		slot0._seasonMaxScore = math.max(slot3, slot0._seasonMaxScore)
 	end
 
+	slot4 = slot1:getLevel() - 1
 	slot0._activityMaxLevel = math.max(slot4, slot0._activityMaxLevel)
-	slot0._seasonMaxLevel = math.max(slot1:getLevel() - 1, slot0._seasonMaxLevel)
+	slot0._seasonMaxLevel = math.max(slot4, slot0._seasonMaxLevel)
 end
 
 function slot0.getGradeList(slot0)

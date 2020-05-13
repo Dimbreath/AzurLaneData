@@ -8,10 +8,13 @@ end
 
 function slot0.OnFirstFlush(slot0)
 	onButton(slot0, slot0.go, function ()
-		slot0:emit(ActivityMediator.SPECIAL_BATTLE_OPERA)
+		uv0:emit(ActivityMediator.SPECIAL_BATTLE_OPERA)
 	end, SFX_PANEL)
-	setActive(slot0.go, not getProxy(ChapterProxy).isClear(slot1, 304))
-	setActive(slot0.get, getProxy(ChapterProxy).isClear(slot1, 304))
+
+	slot2 = getProxy(ChapterProxy):isClear(304)
+
+	setActive(slot0.go, not slot2)
+	setActive(slot0.get, slot2)
 end
 
 return slot0

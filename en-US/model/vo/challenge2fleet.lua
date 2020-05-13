@@ -6,10 +6,8 @@ function slot0.Ctor(slot0, slot1)
 	slot0:updateShips(slot1.ships)
 
 	slot0.commanderList = {}
-	slot2 = ipairs
-	slot3 = slot1.commanders or {}
 
-	for slot5, slot6 in slot2(slot3) do
+	for slot5, slot6 in ipairs(slot1.commanders or {}) do
 		slot0.commanderList[slot6.pos] = Commander.New(slot6.commanderinfo)
 	end
 
@@ -53,14 +51,14 @@ function slot0.getShips(slot0, slot1)
 
 	if slot0:getFleetType() == FleetType.Normal then
 		_.each(slot0:getShipsByTeam(TeamType.Main, slot1), function (slot0)
-			table.insert(slot0, slot0)
+			table.insert(uv0, slot0)
 		end)
 		_.each(slot0:getShipsByTeam(TeamType.Vanguard, slot1), function (slot0)
-			table.insert(slot0, slot0)
+			table.insert(uv0, slot0)
 		end)
 	elseif slot3 == FleetType.Submarine then
 		_.each(slot0:getShipsByTeam(TeamType.Submarine, slot1), function (slot0)
-			table.insert(slot0, slot0)
+			table.insert(uv0, slot0)
 		end)
 	end
 
@@ -76,9 +74,9 @@ function slot0.updateShips(slot0, slot1)
 	_.each(slot1 or {}, function (slot0)
 		slot1 = Ship.New(slot0.ship_info)
 		slot1.hpRant = slot0.hp_rant
-		slot0.ships[slot1.id] = slot1
+		uv0.ships[slot1.id] = slot1
 
-		table.insert(slot0[slot1:getTeamType()], slot1)
+		table.insert(uv0[slot1:getTeamType()], slot1)
 	end)
 end
 
@@ -136,8 +134,8 @@ function slot0.buildBattleBuffList(slot0)
 		end
 	end
 
-	for slot8, slot9 in pairs(slot4) do
-		for slot14, slot15 in ipairs(slot10) do
+	for slot8, slot9 in pairs(slot0:getCommanders()) do
+		for slot14, slot15 in ipairs(slot9:getTalents()) do
 			if #slot15:getBuffsAddition() > 0 then
 				slot17 = nil
 

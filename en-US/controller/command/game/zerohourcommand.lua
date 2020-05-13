@@ -1,5 +1,7 @@
-class("ZeroHourCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	slot3 = getProxy(PlayerProxy).getData(slot2)
+slot0 = class("ZeroHourCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
+	slot3 = getProxy(PlayerProxy):getData()
 
 	slot3:resetBuyOilCount()
 
@@ -16,14 +18,14 @@ class("ZeroHourCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		slot4:setShopStreet(slot5)
 	end
 
-	getProxy(CollectionProxy).resetEvaCount(slot6)
+	getProxy(CollectionProxy):resetEvaCount()
 
 	slot7 = getProxy(MilitaryExerciseProxy)
 	slot8 = slot7:getSeasonInfo()
 
 	slot8:resetFlashCount()
 	slot7:updateSeasonInfo(slot8)
-	getProxy(DailyLevelProxy).resetDailyCount(slot9)
+	getProxy(DailyLevelProxy):resetDailyCount()
 
 	slot10 = getProxy(ChapterProxy)
 
@@ -31,7 +33,7 @@ class("ZeroHourCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot10:resetShamChapter()
 	slot10:resetEscortChallengeTimes()
 
-	for slot15, slot16 in pairs(slot11) do
+	for slot15, slot16 in pairs(slot10:getData()) do
 		if slot16.todayDefeatCount > 0 then
 			slot16.todayDefeatCount = 0
 
@@ -42,9 +44,10 @@ class("ZeroHourCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	getProxy(DailyLevelProxy):clearChaptersDefeatCount()
 
 	if pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t").day == 1 and not ChapterConst.ActivateMirror then
-		slot10:getShamChapter().simId = slot12.month
+		slot14 = slot10:getShamChapter()
+		slot14.simId = slot12.month
 
-		slot10:updateShamChapter(slot10.getShamChapter())
+		slot10:updateShamChapter(slot14)
 	end
 
 	if slot12.day == 1 then
@@ -54,8 +57,27 @@ class("ZeroHourCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		slot4:AddFragmentShop(slot4.fragmentShop)
 	end
 
-	for slot17, slot18 in ipairs(getProxy(ActivityProxy).getPanelActivities(slot13)) do
-		if slot19() then
+	for slot17, slot18 in ipairs(getProxy(ActivityProxy):getPanelActivities()) do
+		if function ()
+			slot0 = {
+				ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN,
+				ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN,
+				ActivityConst.ACTIVITY_TYPE_MONTHSIGN,
+				ActivityConst.ACTIVITY_TYPE_REFLUX,
+				ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN,
+				ActivityConst.ACTIVITY_TYPE_BB,
+				ActivityConst.ACTIVITY_TYPE_LOTTERY_AWARD
+			}
+			uv0.autoActionForbidden = false
+
+			if uv0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BB then
+				uv0.data2 = 0
+			elseif uv0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_LOTTERY_AWARD then
+				uv0.data2 = 0
+			end
+
+			return table.contains(slot0, uv0:getConfig("type"))
+		end() then
 			slot13:updateActivity(slot18)
 		end
 	end
@@ -75,8 +97,8 @@ class("ZeroHourCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 
 		slot20 = getProxy(TaskProxy)
 
-		for slot24, slot25 in ipairs(slot19) do
-			if slot20:getTaskById(slot25) or slot20:getFinishTaskById(slot25):getTaskStatus() ~= 2 then
+		for slot24, slot25 in ipairs(slot17.task_table[slot15.data4]) do
+			if (slot20:getTaskById(slot25) or slot20:getFinishTaskById(slot25)):getTaskStatus() ~= 2 then
 				return
 			end
 		end
@@ -99,25 +121,23 @@ class("ZeroHourCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end
 
 	slot0:sendNotification(GAME.CLASS_FORCE_UPDATE)
-	getProxy(TechnologyProxy).updateRefreshFlag(slot20, 0)
+	getProxy(TechnologyProxy):updateRefreshFlag(0)
 	PlayerPrefs.SetInt("stop_remind_operation", 0)
 	PlayerPrefs.Save()
 
 	slot21 = getProxy(TaskProxy)
 	slot22 = getProxy(ActivityProxy)
 
-	_.each(slot23, function (slot0)
+	_.each(slot22:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST), function (slot0)
 		if slot0 and not slot0:isEnd() and slot0:getConfig("config_id") == 3 then
 			slot1 = slot0:getConfig("config_data")
 
 			if slot0.data1 < pg.TimeMgr.GetInstance():GetServerTime() then
-				slot3 = math.clamp(slot2:DiffDay(slot0.data1, slot2:GetServerTime()) + 1, 1, #slot1)
-
-				if slot0.data3 == 0 or (slot4 < slot3 and _.all(_.flatten({
+				if slot0.data3 == 0 or slot4 < math.clamp(slot2:DiffDay(slot0.data1, slot2:GetServerTime()) + 1, 1, #slot1) and _.all(_.flatten({
 					slot1[slot4]
 				}), function (slot0)
-					return slot0:getFinishTaskById(slot0) ~= nil
-				end)) then
+					return uv0:getFinishTaskById(slot0) ~= nil
+				end) then
 					pg.m02:sendNotification(GAME.ACTIVITY_OPERATION, {
 						cmd = 1,
 						activity_id = slot0.id
@@ -150,10 +170,7 @@ class("ZeroHourCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		slot28 = slot27.data1KeyValueList[1]
 
 		if pg.activity_event_worldboss[slot27:getConfig("config_id")] then
-			slot30 = ipairs
-			slot31 = slot29.normal_expedition_drop_num or {}
-
-			for slot33, slot34 in slot30(slot31) do
+			for slot33, slot34 in ipairs(slot29.normal_expedition_drop_num or {}) do
 				for slot38, slot39 in ipairs(slot34[1]) do
 					slot28[slot39] = slot34[2] or 0
 				end
@@ -164,4 +181,4 @@ class("ZeroHourCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	end
 end
 
-return class("ZeroHourCommand", pm.SimpleCommand)
+return slot0

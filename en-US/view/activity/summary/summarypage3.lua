@@ -5,7 +5,6 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.Clear(slot0)
-	return
 end
 
 return slot0

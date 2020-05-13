@@ -4,24 +4,24 @@ slot0.ON_UNLOCK = "AttireMediator:ON_UNLOCK"
 slot0.ON_CHANGE_MEDAL_DISPLAY = "AttireMediator:ON_CHANGE_MEDAL_DISPLAY"
 
 function slot0.register(slot0)
-	slot0:bind(slot0.ON_APPLY, function (slot0, slot1, slot2)
-		slot0:sendNotification(GAME.ATTIRE_APPLY, {
+	slot0:bind(uv0.ON_APPLY, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.ATTIRE_APPLY, {
 			id = slot2,
 			type = slot1
 		})
 	end)
-	slot0:bind(slot0.ON_UNLOCK, function (slot0, slot1, slot2)
-		slot0:sendNotification(GAME.GET_ATTIRE, {
+	slot0:bind(uv0.ON_UNLOCK, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.GET_ATTIRE, {
 			id = slot2,
 			type = slot1
 		})
 	end)
-	slot0:bind(slot0.ON_CHANGE_MEDAL_DISPLAY, function (slot0, slot1)
-		slot0:sendNotification(GAME.CHANGE_PLAYER_MEDAL_DISPLAY, {
+	slot0:bind(uv0.ON_CHANGE_MEDAL_DISPLAY, function (slot0, slot1)
+		uv0:sendNotification(GAME.CHANGE_PLAYER_MEDAL_DISPLAY, {
 			medalList = slot1
 		})
 	end)
-	slot0.viewComponent:setAttires(getProxy(AttireProxy).getDataAndTrophys(slot1, true))
+	slot0.viewComponent:setAttires(getProxy(AttireProxy):getDataAndTrophys(true))
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 end
 

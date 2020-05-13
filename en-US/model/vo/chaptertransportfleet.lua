@@ -29,7 +29,24 @@ function slot0.getPrefab(slot0)
 		"merchant_d"
 	})[1]
 
-	for slot7, slot8 in ipairs(slot1) do
+	for slot7, slot8 in ipairs({
+		{
+			20,
+			16
+		},
+		{
+			15,
+			11
+		},
+		{
+			10,
+			1
+		},
+		{
+			0,
+			0
+		}
+	}) do
 		if slot8[2] <= slot0:getRestHp() and slot0:getRestHp() <= slot8[1] then
 			slot3 = slot2[slot7]
 

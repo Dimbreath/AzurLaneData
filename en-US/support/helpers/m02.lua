@@ -15,44 +15,47 @@ function throttle(slot0, slot1, slot2)
 	slot6 = 0
 
 	function slot7()
-		slot0 = (slot1 and Time.unscaledTime) or 0
-		slot0 = slot0
-		slot2 = nil
-		slot3 = slot4(unpack(slot5, 1, slot5.len))
+		uv0 = uv1 and Time.unscaledTime or 0
+		uv2 = nil
+		uv3 = uv4(unpack(uv5, 1, uv5.len))
 
-		if not slot5 then
-			slot5 = nil
+		if not uv2 then
+			uv5 = nil
 		end
 	end
 
 	return function (...)
-		if not Time.unscaledTime and not slot1 then
-			slot0 = slot0
+		slot0 = Time.unscaledTime
+
+		if not uv0 and not uv1 then
+			uv0 = slot0
 		end
 
-		slot3 = {
+		uv3 = {
 			len = select("#", ...),
 			...
 		}
 
-		if slot2 - (slot0 - slot0) <= 0 or slot2 < slot1 then
-			if slot4 then
-				slot4:Stop()
+		if uv2 - (slot0 - uv0) <= 0 or uv2 < slot1 then
+			if uv4 then
+				uv4:Stop()
 
-				slot4 = nil
+				uv4 = nil
 			end
 
-			slot0 = slot0
-			slot5 = slot6(unpack(unpack, 1, slot3.len))
+			uv0 = slot0
+			uv5 = uv6(unpack(uv3, 1, uv3.len))
 
-			if not unpack then
-				slot3 = nil
+			if not uv4 then
+				uv3 = nil
 			end
-		elseif not slot4 and slot1 then
-			slot4:Start()
+		elseif not uv4 and uv1 then
+			uv4 = Timer.New(uv7, slot1, 1)
+
+			uv4:Start()
 		end
 
-		return slot5
+		return uv5
 	end
 end
 
@@ -60,54 +63,57 @@ function debounce(slot0, slot1, slot2)
 	slot3, slot4, slot5, slot6, slot7 = nil
 
 	function slot7()
-		if Time.unscaledTime -  < Time.unscaledTime and slot0 > 0 then
-			Timer.New(slot3, slot1 - slot0, 1):Start()
+		if Time.unscaledTime - uv0 < uv1 and slot0 > 0 then
+			uv2 = Timer.New(uv3, uv1 - slot0, 1)
+
+			uv2:Start()
 		else
-			slot2 = nil
+			uv2 = nil
 
-			if not slot4 then
-				slot5 = slot6(unpack(slot7, 1, slot7.len))
+			if not uv4 then
+				uv5 = uv6(unpack(uv7, 1, uv7.len))
 
-				if not unpack then
-					slot7 = nil
+				if not uv2 then
+					uv7 = nil
 				end
 			else
-				slot4 = false
+				uv4 = false
 			end
 		end
 	end
 
 	return function (...)
-		slot0 = {
+		uv0 = {
 			len = select("#", ...),
 			...
 		}
-		slot1 = Time.unscaledTime
-		slot0 = "#" and not slot3
+		uv1 = Time.unscaledTime
+		slot0 = uv2 and not uv3
 
-		if not slot3 then
-			slot3:Start()
+		if not uv3 then
+			uv3 = Timer.New(uv4, uv5, 1)
+
+			uv3:Start()
 		end
 
 		if slot0 then
-			slot6 = slot7(unpack(slot0, 1, slot0.len))
-			slot0 = nil
+			uv6 = uv7(unpack(uv0, 1, uv0.len))
+			uv0 = nil
 		end
 
-		return slot6
+		return uv6
 	end
 end
 
 function createLog(slot0, slot1)
 	if LOG and slot1 then
 		return function (...)
-			print(slot0 .. ": ", ...)
+			print(uv0 .. ": ", ...)
 		end
 	else
 		print(slot0 .. ": log disabled")
 
 		return function ()
-			return
 		end
 	end
 end
@@ -121,8 +127,8 @@ function getBackYardProxy(slot0)
 end
 
 function LoadAndInstantiateAsync(slot0, slot1, slot2, slot3, slot4)
-	ResourceMgr.Inst:getAssetAsync(slot0 .. "/" .. slot1, slot1, slot0.Events.UnityAction_UnityEngine_Object(function (slot0)
-		slot0(Instantiate(slot0))
+	ResourceMgr.Inst:getAssetAsync(slot0 .. "/" .. slot1, slot1, uv0.Events.UnityAction_UnityEngine_Object(function (slot0)
+		uv0(Instantiate(slot0))
 	end), defaultValue(slot3, true), defaultValue(slot4, true))
 end
 
@@ -137,8 +143,8 @@ function LoadSprite(slot0, slot1)
 end
 
 function LoadSpriteAtlasAsync(slot0, slot1, slot2)
-	ResourceMgr.Inst:getAssetAsync(slot0, slot1 or "", typeof(Sprite), slot0.Events.UnityAction_UnityEngine_Object(function (slot0)
-		slot0(slot0)
+	ResourceMgr.Inst:getAssetAsync(slot0, slot1 or "", typeof(Sprite), uv0.Events.UnityAction_UnityEngine_Object(function (slot0)
+		uv0(slot0)
 	end), true, false)
 end
 
@@ -155,17 +161,18 @@ function LoadAnyAsync(slot0, slot1, slot2, slot3)
 end
 
 function LoadImageSpriteAtlasAsync(slot0, slot1, slot2, slot3)
-	slot2:GetComponent(typeof(Image)).enabled = false
-	slot0[slot2.GetComponent(typeof(Image))] = slot0
+	slot4 = slot2:GetComponent(typeof(Image))
+	slot4.enabled = false
+	uv0[slot4] = slot0
 
 	LoadSpriteAtlasAsync(slot0, slot1, function (slot0)
-		if not IsNil(slot0) and slot1[slot0] == slot0 then
-			slot1[slot0] = nil
-			slot0.enabled = true
-			slot0.sprite = slot0
+		if not IsNil(uv0) and uv1[uv0] == uv2 then
+			uv1[uv0] = nil
+			uv0.enabled = true
+			uv0.sprite = slot0
 
-			if nil then
-				slot0:SetNativeSize()
+			if uv3 then
+				uv0:SetNativeSize()
 			end
 		end
 	end)
@@ -177,7 +184,7 @@ end
 
 function GetSpriteFromAtlas(slot0, slot1)
 	PoolMgr.GetInstance():GetSprite(slot0, slot1, false, function (slot0)
-		slot0 = slot0
+		uv0 = slot0
 	end)
 
 	return nil
@@ -185,22 +192,23 @@ end
 
 function GetSpriteFromAtlasAsync(slot0, slot1, slot2)
 	PoolMgr.GetInstance():GetSprite(slot0, slot1, true, function (slot0)
-		slot0(slot0)
+		uv0(slot0)
 	end)
 end
 
 function GetImageSpriteFromAtlasAsync(slot0, slot1, slot2, slot3)
-	slot2:GetComponent(typeof(Image)).enabled = false
-	slot0[slot2.GetComponent(typeof(Image))] = slot0 .. slot1
+	slot4 = slot2:GetComponent(typeof(Image))
+	slot4.enabled = false
+	uv0[slot4] = slot0 .. slot1
 
 	GetSpriteFromAtlasAsync(slot0, slot1, function (slot0)
-		if not IsNil(slot0) and slot1[slot0] == slot0 .. slot3 then
-			slot1[slot0] = nil
-			slot0.enabled = true
-			slot0.sprite = slot0
+		if not IsNil(uv0) and uv1[uv0] == uv2 .. uv3 then
+			uv1[uv0] = nil
+			uv0.enabled = true
+			uv0.sprite = slot0
 
-			if slot4 then
-				slot0:SetNativeSize()
+			if uv4 then
+				uv0:SetNativeSize()
 			end
 		end
 	end)
@@ -212,23 +220,26 @@ end
 
 function emojiText(slot0, slot1)
 	slot2 = ResourceMgr.Inst:loadAssetBundleSync("emojis")
+	slot4 = GetComponent(slot0, "MeshRenderer")
 	slot5 = Shader.Find("Unlit/Transparent")
 	slot8 = {}
 	slot9 = 0
 	GetComponent(slot0, "TextMesh").text = string.gsub(slot1, "#(%d+)#", function (slot0)
-		if not slot0[slot0] then
-			Material.New(Material.New).mainTexture = ResourceMgr.Inst:LoadAssetSync(ResourceMgr.Inst.LoadAssetSync, "emoji" .. slot0, false, false)
+		if not uv0[slot0] then
+			uv1 = uv1 + 1
+			slot2 = Material.New(uv2)
+			slot2.mainTexture = ResourceMgr.Inst:LoadAssetSync(uv3, "emoji" .. slot0, false, false)
 
-			table.insert(table.insert, Material.New(Material.New))
+			table.insert(uv4, slot2)
 
-			slot0[slot0] = slot1 + 1
-			slot1 = slot1 + 1
+			uv0[slot0] = uv1
+			slot1 = uv1
 		end
 
-		return "<quad material=" .. slot1 .. " />"
+		return "<quad material=" .. uv1 .. " />"
 	end)
-	GetComponent(slot0, "MeshRenderer").materials = {
-		GetComponent(slot0, "MeshRenderer").materials[0]
+	slot4.materials = {
+		slot4.materials[0]
 	}
 
 	ResourceMgr.Inst:ClearBundleRef("emojis", false, false)
@@ -240,10 +251,13 @@ function setPaintingImg(slot0, slot1)
 end
 
 function setPaintingPrefab(slot0, slot1, slot2, slot3)
+	slot4 = findTF(slot0, "fitter")
+
 	removeAllChildren(slot4)
 
-	GetOrAddComponent(findTF(slot0, "fitter"), "PaintingScaler").FrameName = slot2 or ""
-	GetOrAddComponent(findTF(slot0, "fitter"), "PaintingScaler").Tween = 1
+	slot5 = GetOrAddComponent(slot4, "PaintingScaler")
+	slot5.FrameName = slot2 or ""
+	slot5.Tween = 1
 	slot6 = slot1
 
 	if not slot3 and PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot1 .. "_n")) and PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot1, 0) ~= 0 then
@@ -255,23 +269,26 @@ function setPaintingPrefab(slot0, slot1, slot2, slot3)
 	end
 
 	PoolMgr.GetInstance():GetPainting(slot1, false, function (slot0)
-		setParent(slot0, slot0, false)
+		setParent(slot0, uv0, false)
 
 		if not IsNil(findTF(slot0, "Touch")) then
 			setActive(slot1, false)
 		end
 
-		Ship.SetExpression(slot0:GetChild(0), slot1)
+		Ship.SetExpression(uv0:GetChild(0), uv1)
 	end)
 end
 
 slot2 = {}
 
 function setPaintingPrefabAsync(slot0, slot1, slot2, slot3, slot4)
+	slot5 = findTF(slot0, "fitter")
+
 	removeAllChildren(slot5)
 
-	GetOrAddComponent(findTF(slot0, "fitter"), "PaintingScaler").FrameName = slot2 or ""
-	GetOrAddComponent(findTF(slot0, "fitter"), "PaintingScaler").Tween = 1
+	slot6 = GetOrAddComponent(slot5, "PaintingScaler")
+	slot6.FrameName = slot2 or ""
+	slot6.Tween = 1
 	slot7 = slot1
 
 	if PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot1 .. "_n")) and PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot1, 0) ~= 0 then
@@ -282,25 +299,25 @@ function setPaintingPrefabAsync(slot0, slot1, slot2, slot3, slot4)
 		slot1 = slot1 .. "_n"
 	end
 
-	slot0[slot0] = slot1
+	uv0[slot0] = slot1
 
 	PoolMgr.GetInstance():GetPainting(slot1, true, function (slot0)
-		if IsNil(slot0) or slot1[slot0] ~= slot0 then
-			PoolMgr.GetInstance():ReturnPainting(PoolMgr.GetInstance(), slot0)
+		if IsNil(uv0) or uv1[uv0] ~= uv2 then
+			PoolMgr.GetInstance():ReturnPainting(uv2, slot0)
 		else
-			setParent(slot0, slot3, false)
+			setParent(slot0, uv3, false)
 
-			setParent[slot0] = nil
+			uv1[uv0] = nil
 
-			Ship.SetExpression(slot0, false)
+			Ship.SetExpression(slot0, uv4)
 		end
 
 		if not IsNil(findTF(slot0, "Touch")) then
 			setActive(slot1, false)
 		end
 
-		if slot5 then
-			slot5()
+		if uv5 then
+			uv5()
 		end
 	end)
 end
@@ -319,7 +336,7 @@ function retPaintingPrefab(slot0, slot1)
 			PoolMgr.GetInstance():ReturnPainting(string.gsub(slot3.name, "%(Clone%)", ""), slot3.gameObject)
 		end
 
-		slot0[slot0] = nil
+		uv0[slot0] = nil
 	end
 end
 
@@ -331,13 +348,9 @@ function numberFormat(slot0, slot1)
 		slot1 = ","
 	end
 
-	slot1 = tostring(slot1)
-
-	for slot8 = 1, slot4, 1 do
-		slot2 = string.char(string.byte(slot3, (slot4 + 1) - slot8)) .. slot2
-
+	for slot8 = 1, slot4 do
 		if slot8 % 3 == 0 and slot4 - slot8 ~= 0 then
-			slot2 = slot1 .. slot2
+			slot2 = tostring(slot1) .. (string.char(string.byte(slot3, slot4 + 1 - slot8)) .. slot2)
 		end
 	end
 
@@ -345,13 +358,9 @@ function numberFormat(slot0, slot1)
 end
 
 function usMoneyFormat(slot0, slot1)
-	slot3 = math.floor(slot0 / 100)
-
 	if slot0 % 100 > 0 then
-		slot2 = (slot2 > 10 and slot2) or "0" .. slot2
-
-		if slot3 < 1 then
-			return "0." .. slot2
+		if math.floor(slot0 / 100) < 1 then
+			return "0." .. (slot2 > 10 and slot2 or "0" .. slot2)
 		else
 			return numberFormat(slot3, slot1) .. "." .. slot2
 		end
@@ -361,7 +370,7 @@ function usMoneyFormat(slot0, slot1)
 end
 
 function setColorCount(slot0, slot1, slot2)
-	setText(slot0, string.format((slot1 < slot2 and "<color=" .. COLOR_RED .. ">%d</color>/%d") or "%d/%d", slot1, slot2))
+	setText(slot0, string.format(slot1 < slot2 and "<color=" .. COLOR_RED .. ">%d</color>/%d" or "%d/%d", slot1, slot2))
 end
 
 function setColorStr(slot0, slot1)
@@ -384,8 +393,8 @@ function playSoundEffect(slot0)
 	end
 
 	string.gsub(slot0, "event:/cv/(.+)/(.+)", function (slot0, slot1)
-		slot0 = "cv-" .. slot0 .. ((tobool(ShipWordHelper.CVBattleKey[string.gsub(slot1, "_%w+", "")]) and "-battle") or "")
-		slot1 = slot1
+		uv0 = "cv-" .. slot0 .. (tobool(ShipWordHelper.CVBattleKey[string.gsub(slot1, "_%w+", "")]) and "-battle" or "")
+		uv1 = slot1
 	end)
 
 	if nil and slot2 then
@@ -404,11 +413,9 @@ function playStory(slot0, slot1)
 end
 
 function playStorySound(slot0)
-	return
 end
 
 function stopStorySound()
-	return
 end
 
 function errorMessage(slot0)
@@ -421,10 +428,9 @@ end
 
 function errorTip(slot0, slot1, ...)
 	slot3 = nil
-	slot3 = (not pg.gametip[slot0 .. "_error"] or slot2.tip) and pg.gametip.common_error.tip
 
 	if pg.gametip[slot0 .. "_error_" .. slot1] then
-		return slot3 .. i18n(slot4, ...)
+		return ((not pg.gametip[slot0 .. "_error"] or slot2.tip) and pg.gametip.common_error.tip) .. i18n(slot4, ...)
 	elseif pg.gametip["common_error_" .. slot1] then
 		return slot3 .. i18n(slot4, ...)
 	else
@@ -433,31 +439,30 @@ function errorTip(slot0, slot1, ...)
 end
 
 function colorNumber(slot0, slot1)
-	slot2 = "@COLOR_SCOPE"
-	slot0 = string.gsub(string.gsub(slot0, "<color=#%x+>", function (slot0)
-		table.insert(slot0, slot0)
-
-		return table.insert
-	end), "%d+%.?%d*%%*", function (slot0)
-		return "<color=" .. slot0 .. ">" .. slot0 .. "</color>"
-	end)
-
 	if #{} > 0 then
 		slot4 = 0
 
-		return string.gsub(slot0, slot2, function (slot0)
-			return slot0 + 1[]
-		end)
-		return
-	end
+		return string.gsub(string.gsub(string.gsub(slot0, "<color=#%x+>", function (slot0)
+			table.insert(uv0, slot0)
 
-	return slot0
+			return uv1
+		end), "%d+%.?%d*%%*", function (slot0)
+			return "<color=" .. uv0 .. ">" .. slot0 .. "</color>"
+		end), "@COLOR_SCOPE", function (slot0)
+			uv0 = uv0 + 1
+
+			return uv1[uv0]
+		end)
+	else
+		return slot0
+	end
 end
 
 function getBounds(slot0)
-	slot2 = Bounds.New(LuaHelper.GetWorldCorners(rtf(slot0))[0], Vector3.zero)
+	slot1 = LuaHelper.GetWorldCorners(rtf(slot0))
+	slot2 = Bounds.New(slot1[0], Vector3.zero)
 
-	slot2:Encapsulate(LuaHelper.GetWorldCorners(rtf(slot0))[2])
+	slot2:Encapsulate(slot1[2])
 
 	return slot2
 end
@@ -520,9 +525,12 @@ function setFrame(slot0, slot1, slot2)
 	setImageSprite(slot0, GetSpriteFromAtlas("weaponframes", "frame"))
 
 	if slot2 or string.sub(slot1, 1, 1) == "0" or tonumber(slot1) > 5 then
-		slot0(findTF(slot0, "specialFrame") or cloneTplTo(slot0, slot0, "specialFrame"), slot1[slot2 or "frame" .. slot1] or slot1.other)
-		setImageSprite(findTF(slot0, "specialFrame") or cloneTplTo(slot0, slot0, "specialFrame"), GetSpriteFromAtlas("weaponframes", slot2 or "frame" .. slot1))
-		setActive(findTF(slot0, "specialFrame") or cloneTplTo(slot0, slot0, "specialFrame"), true)
+		slot3 = findTF(slot0, "specialFrame") or cloneTplTo(slot0, slot0, "specialFrame")
+		slot2 = slot2 or "frame" .. slot1
+
+		uv0(slot3, uv1[slot2] or uv1.other)
+		setImageSprite(slot3, GetSpriteFromAtlas("weaponframes", slot2))
+		setActive(slot3, true)
 	else
 		setImageColor(slot0, shipRarity2FrameColor(slot1 + 1))
 
@@ -534,20 +542,20 @@ end
 
 function slot5(slot0, slot1, slot2, slot3)
 	function slot4(slot0, slot1)
-		if findTF(slot0, "icon_bg/" .. slot0 .. "(Clone)") then
+		if findTF(uv0, "icon_bg/" .. slot0 .. "(Clone)") then
 			setActive(slot2, slot1)
 		elseif slot1 then
 			LoadAndInstantiateAsync("ui", string.lower(slot0), function (slot0)
-				if IsNil(slot0) or findTF(slot0, "icon_bg/" .. findTF .. "(Clone)") then
+				if IsNil(uv0) or findTF(uv0, "icon_bg/" .. uv1 .. "(Clone)") then
 					Object.Destroy(slot0)
 				else
-					setParent(slot0, slot0:Find("icon_bg"))
+					setParent(slot0, uv0:Find("icon_bg"))
 
-					if slot0:Find("icon_bg/stars") then
+					if uv0:Find("icon_bg/stars") then
 						slot1:SetAsLastSibling()
 					end
 
-					setActive(slot0, setActive)
+					setActive(slot0, uv2)
 				end
 			end)
 		end
@@ -588,8 +596,10 @@ function slot6(slot0, slot1, slot2)
 		return
 	end
 
-	for slot8 = 1, math.max(slot2, slot4.childCount), 1 do
-		setActive((slot4.childCount < slot8 and cloneTplTo(slot3, slot4)) or slot4:GetChild(slot8 - 1), slot8 <= slot2)
+	slot8 = slot4.childCount
+
+	for slot8 = 1, math.max(slot2, slot8) do
+		setActive(slot4.childCount < slot8 and cloneTplTo(slot3, slot4) or slot4:GetChild(slot8 - 1), slot8 <= slot2)
 	end
 
 	setActive(slot4, true)
@@ -614,11 +624,12 @@ end
 
 function slot9(slot0, slot1)
 	if not IsNil(findTF(slot0, "icon_bg/count")) then
-		setText(slot2, (slot1 and (type(slot1) ~= "number" or slot1 > 0) and slot1) or "")
+		setText(slot2, slot1 and (type(slot1) ~= "number" or slot1 > 0) and slot1 or "")
 	end
 end
 
 function updateEquipment(slot0, slot1, slot2)
+	slot2 = slot2 or {}
 	slot3 = EquipmentRarity.Rarity2Print(slot1.config.rarity)
 
 	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. slot3))
@@ -626,61 +637,53 @@ function updateEquipment(slot0, slot1, slot2)
 
 	slot4 = findTF(slot0, "icon_bg/icon")
 
-	slot0(slot4, {
+	uv0(slot4, {
 		16,
 		16,
 		16,
 		16
 	})
 	GetImageSpriteFromAtlasAsync("equips/" .. slot1.config.icon, "", slot4)
-	slot1(slot0, true, slot1.config.rarity)
-
-	-- Decompilation error in this vicinity:
-	slot2 or {}(slot0, slot1.config.level - 1, slot1.config.expired_date)
-	slot3(slot0, slot1.config.name, 
-	-- Decompilation error in this vicinity:
-	slot2 or )
-	slot4(slot0, slot1.count)
-	slot4(slot0, slot1.config.rarity, 
-	-- Decompilation error in this vicinity:
-	slot2 or )
+	uv1(slot0, true, slot1.config.rarity)
+	uv2(slot0, slot1.config.level - 1, slot1.config.expired_date)
+	uv3(slot0, slot1.config.name, slot2)
+	uv4(slot0, slot1.count)
+	uv5(slot0, slot1.config.rarity, slot2)
 end
 
 function updateItem(slot0, slot1, slot2)
 	slot2 = slot2 or {}
+	slot3 = pg.item_data_statistics[slot1.id]
 
-	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. ItemRarity.Rarity2Print(pg.item_data_statistics[slot1.id].rarity)))
+	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. ItemRarity.Rarity2Print(slot3.rarity)))
 
 	slot5 = nil
 
-	if pg.item_data_statistics[slot1.id].type == 9 then
+	if slot3.type == 9 then
 		slot5 = "frame6"
 	end
 
 	setFrame(findTF(slot0, "icon_bg/frame"), slot4, slot5)
 	GetImageSpriteFromAtlasAsync(slot1.icon or slot3.icon, "", findTF(slot0, "icon_bg/icon"))
-	slot0(slot0, false)
-	slot1(slot0, 0, checkExist(pg.item_data_template[slot1.id], {
+	uv0(slot0, false)
+	uv1(slot0, 0, checkExist(pg.item_data_template[slot1.id], {
 		"expired_date"
 	}))
-	slot2(slot0, HXSet.hxLan(slot3.name), slot2)
-	slot3(slot0, slot3.rarity + 1, slot2)
+	uv2(slot0, HXSet.hxLan(slot3.name), slot2)
+	uv3(slot0, slot3.rarity + 1, slot2)
 end
 
 function updateWorldItem(slot0, slot1, slot2)
-	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. ItemRarity.Rarity2Print(pg.world_item_data_template[slot1.id].rarity)))
+	slot2 = slot2 or {}
+	slot4 = ItemRarity.Rarity2Print(pg.world_item_data_template[slot1.id].rarity)
+
+	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. slot4))
 	setFrame(findTF(slot0, "icon_bg/frame"), slot4)
 	GetImageSpriteFromAtlasAsync(slot1.icon or slot3.icon, "", findTF(slot0, "icon_bg/icon"))
-	slot0(slot0, false)
-	slot1(slot0, 0, slot3.expired_date)
-
-	-- Decompilation error in this vicinity:
-	slot2 or {}(slot0, HXSet.hxLan(slot3.name), 
-	-- Decompilation error in this vicinity:
-	slot2 or )
-	slot3(slot0, slot3.rarity + 1, 
-	-- Decompilation error in this vicinity:
-	slot2 or )
+	uv0(slot0, false)
+	uv1(slot0, 0, slot3.expired_date)
+	uv2(slot0, HXSet.hxLan(slot3.name), slot2)
+	uv3(slot0, slot3.rarity + 1, slot2)
 end
 
 function updateShip(slot0, slot1, slot2)
@@ -688,7 +691,7 @@ function updateShip(slot0, slot1, slot2)
 	slot4 = slot1:getPainting()
 	slot5 = getProxy(ShipSkinProxy)
 
-	if slot2 or {}.anonymous then
+	if (slot2 or {}).anonymous then
 		slot3 = "1"
 		slot4 = "unknown"
 	end
@@ -701,7 +704,7 @@ function updateShip(slot0, slot1, slot2)
 		end
 	end
 
-	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. ((slot2.isSkin and "-skin") or slot3)))
+	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. (slot2.isSkin and "-skin" or slot3)))
 
 	slot8 = findTF(slot0, "icon_bg/frame")
 	slot9 = nil
@@ -720,7 +723,7 @@ function updateShip(slot0, slot1, slot2)
 		setGray(slot7, true, true)
 	end
 
-	GetImageSpriteFromAtlasAsync((slot2.Q and "QIcon/") or "SquareIcon/" .. slot4, "", findTF(slot0, "icon_bg/icon"))
+	GetImageSpriteFromAtlasAsync(slot2.Q and "QIcon/" or "SquareIcon/" .. slot4, "", findTF(slot0, "icon_bg/icon"))
 
 	if findTF(slot0, "icon_bg/lv") then
 		setActive(slot11, not slot1.isNpc)
@@ -743,28 +746,28 @@ function updateShip(slot0, slot1, slot2)
 		end
 	end
 
-	slot0(slot0, slot2.initStar, slot1:getStar())
-	slot1(slot0, slot1:getName(), slot2)
-	slot2(slot0, (slot2.isSkin and 5) or slot1:getRarity(), slot2)
+	uv0(slot0, slot2.initStar, slot1:getStar())
+	uv1(slot0, slot1:getName(), slot2)
+	uv2(slot0, slot2.isSkin and 5 or slot1:getRarity(), slot2)
 end
 
 function updateCommander(slot0, slot1, slot2)
-	slot4 = ShipRarity.Rarity2Print(slot3)
+	slot4 = ShipRarity.Rarity2Print(slot1:getRarity())
 	slot5 = slot1:getPainting()
 
-	if slot2 or {}.anonymous then
+	if (slot2 or {}).anonymous then
 		slot4 = 1
 		slot5 = "unknown"
 	end
 
-	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. ((slot2.isSkin and "-skin") or slot4)))
+	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. (slot2.isSkin and "-skin" or slot4)))
 	setFrame(findTF(slot0, "icon_bg/frame"), slot4)
 
 	if slot2.gray then
 		setGray(slot6, true, true)
 	end
 
-	GetImageSpriteFromAtlasAsync((slot2.Q and "QIcon/") or "SquareIcon/" .. slot5, "", findTF(slot0, "icon_bg/icon"))
+	GetImageSpriteFromAtlasAsync(slot2.Q and "QIcon/" or "SquareIcon/" .. slot5, "", findTF(slot0, "icon_bg/icon"))
 
 	if findTF(slot0, "icon_bg/lv") then
 		setActive(slot9, true)
@@ -774,38 +777,33 @@ function updateCommander(slot0, slot1, slot2)
 		end
 	end
 
-	slot0(slot0, slot2.initStar, slot1:getStar())
-	slot1(slot0, slot1:getName(), slot2)
+	uv0(slot0, slot2.initStar, slot1:getStar())
+	uv1(slot0, slot1:getName(), slot2)
 end
 
 function updateStrategy(slot0, slot1, slot2)
-	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. ItemRarity.Rarity2Print(ItemRarity.Gray)))
-	setFrame(findTF(slot0, "icon_bg/frame"), slot4)
-	GetImageSpriteFromAtlasAsync("strategyicon/" .. pg.strategy_data_template[slot1.id].icon, "", slot5)
-	slot0(slot0, false)
-	slot1(slot0, HXSet.hxLan(pg.strategy_data_template[slot1.id].name), 
-	-- Decompilation error in this vicinity:
-	slot2 or {})
+	slot2 = slot2 or {}
+	slot3 = pg.strategy_data_template[slot1.id]
+	slot4 = ItemRarity.Rarity2Print(ItemRarity.Gray)
 
-	-- Decompilation error in this vicinity:
-	slot2 or (slot0, 1, 
-	-- Decompilation error in this vicinity:
-	slot2 or )
+	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. slot4))
+	setFrame(findTF(slot0, "icon_bg/frame"), slot4)
+	GetImageSpriteFromAtlasAsync("strategyicon/" .. slot3.icon, "", findTF(slot0, "icon_bg/icon"))
+	uv0(slot0, false)
+	uv1(slot0, HXSet.hxLan(slot3.name), slot2)
+	uv2(slot0, 1, slot2)
 end
 
 function updateFurniture(slot0, slot1, slot2)
-	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. (ItemRarity.Rarity2Print(pg.furniture_data_template[slot1].rarity) or ItemRarity.Gray)))
-	setFrame(findTF(slot0, "icon_bg/frame"), ItemRarity.Rarity2Print(pg.furniture_data_template[slot1].rarity) or ItemRarity.Gray)
-	GetImageSpriteFromAtlasAsync("furnitureicon/" .. slot3.icon, "", slot5)
-	slot0(slot0, false)
-	slot1(slot0, HXSet.hxLan(slot3.name), 
-	-- Decompilation error in this vicinity:
-	slot2 or {})
+	slot2 = slot2 or {}
+	slot4 = ItemRarity.Rarity2Print(pg.furniture_data_template[slot1].rarity) or ItemRarity.Gray
 
-	-- Decompilation error in this vicinity:
-	slot2 or (slot0, slot3.rarity + 1, 
-	-- Decompilation error in this vicinity:
-	slot2 or )
+	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. slot4))
+	setFrame(findTF(slot0, "icon_bg/frame"), slot4)
+	GetImageSpriteFromAtlasAsync("furnitureicon/" .. slot3.icon, "", findTF(slot0, "icon_bg/icon"))
+	uv0(slot0, false)
+	uv1(slot0, HXSet.hxLan(slot3.name), slot2)
+	uv2(slot0, slot3.rarity + 1, slot2)
 end
 
 slot10 = nil
@@ -815,19 +813,19 @@ function findCullAndClipWorldRect(slot0)
 		return false
 	end
 
-	slot1 = slot0[1].canvasRect
-
-	for slot5 = 1, #slot0, 1 do
-		slot1 = rectIntersect(slot1, slot0[slot5].canvasRect)
+	for slot5 = 1, #slot0 do
+		slot1 = rectIntersect(slot0[1].canvasRect, slot0[slot5].canvasRect)
 	end
 
 	if slot1.width <= 0 or slot1.height <= 0 then
 		return false
 	end
 
-	slot2 = slot0 or GameObject.Find("UICamera/Canvas").transform
+	uv0 = uv0 or GameObject.Find("UICamera/Canvas").transform
+	slot2 = uv0:TransformPoint(Vector3(slot1.x, slot1.y, 0))
+	slot3 = uv0:TransformPoint(Vector3(slot1.x + slot1.width, slot1.y + slot1.height, 0))
 
-	return true, Vector4(slot0:TransformPoint(Vector3(slot1.x, slot1.y, 0)).x, slot0.TransformPoint(Vector3(slot1.x, slot1.y, 0)).y, slot0:TransformPoint(Vector3(slot1.x + slot1.width, slot1.y + slot1.height, 0)).x, slot0.TransformPoint(Vector3(slot1.x + slot1.width, slot1.y + slot1.height, 0)).y)
+	return true, Vector4(slot2.x, slot2.y, slot3.x, slot3.y)
 end
 
 function rectIntersect(slot0, slot1)
@@ -835,41 +833,38 @@ function rectIntersect(slot0, slot1)
 	slot5 = math.min(slot0.y + slot0.height, slot1.y + slot1.height)
 
 	if math.max(slot0.x, slot1.x) <= math.min(slot0.x + slot0.width, slot1.x + slot1.width) and slot4 <= slot5 then
-		return slot0.Rect.New(slot2, slot4, slot3 - slot2, slot5 - slot4)
+		return uv0.Rect.New(slot2, slot4, slot3 - slot2, slot5 - slot4)
 	end
 
-	return slot0.Rect.New(0, 0, 0, 0)
+	return uv0.Rect.New(0, 0, 0, 0)
 end
 
 function getDropInfo(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0) do
-		slot7 = slot6[1]
-		slot8 = slot6[2]
-		slot9 = slot6[3] or 1
-
-		if slot7 == DROP_TYPE_SHIP then
+		if slot6[1] == DROP_TYPE_SHIP then
 			table.insert(slot1, Ship.New({
-				configId = slot8
-			}).getConfig(slot10, "name") .. "x" .. slot9)
+				configId = slot6[2]
+			}):getConfig("name") .. "x" .. (slot6[3] or 1))
 		elseif slot7 == DROP_TYPE_EQUIP then
 			table.insert(slot1, Equipment.New({
 				id = slot8
-			}).getConfig(slot10, "name") .. "x" .. counts)
+			}):getConfig("name") .. "x" .. counts)
 		elseif slot7 == DROP_TYPE_SIREN_EQUIP then
+			-- Nothing
 		elseif slot7 == DROP_TYPE_RESOURCE then
 			table.insert(slot1, Item.New({
 				id = id2ItemId(slot8)
-			}).getConfig(slot10, "name") .. "x" .. slot9)
+			}):getConfig("name") .. "x" .. slot9)
 		elseif slot7 == DROP_TYPE_ITEM then
 			table.insert(slot1, Item.New({
 				id = slot8
-			}).getConfig(slot10, "name") .. "x" .. slot9)
+			}):getConfig("name") .. "x" .. slot9)
 		elseif slot7 == DROP_TYPE_FURNITURE then
 			table.insert(slot1, Furniture.New({
 				id = slot8
-			}).getConfig(slot10, "name") .. "x" .. slot9)
+			}):getConfig("name") .. "x" .. slot9)
 		elseif slot7 == DROP_TYPE_STRATEGY then
 			table.insert(slot1, strategy_data_template[slot8].name .. "x" .. slot9)
 		elseif slot7 == DROP_TYPE_SKIN then
@@ -890,7 +885,32 @@ function updateDrop(slot0, slot1, slot2)
 	slot6 = ""
 	slot8 = nil
 
-	for slot12, slot13 in ipairs(slot7) do
+	for slot12, slot13 in ipairs({
+		{
+			"icon_bg/slv"
+		},
+		{
+			"icon_bg/IconColorful(Clone)"
+		},
+		{
+			"icon_bg/Item_duang5(Clone)"
+		},
+		{
+			"icon_bg/frame/specialFrame"
+		},
+		{
+			"ship_type",
+			DROP_TYPE_SHIP
+		},
+		{
+			"icon_bg/new",
+			DROP_TYPE_SHIP
+		},
+		{
+			"icon_bg/npc",
+			DROP_TYPE_SHIP
+		}
+	}) do
 		slot8 = slot0:Find(slot13[1])
 
 		if slot4 ~= slot13[2] and not IsNil(slot8) then
@@ -900,8 +920,8 @@ function updateDrop(slot0, slot1, slot2)
 
 	slot0:Find("icon_bg/frame"):GetComponent(typeof(Image)).enabled = true
 
-	slot0(slot0, getDropRarity(slot1), slot2, true)
-	slot1(findTF(slot0, "icon_bg/icon"), {
+	uv0(slot0, getDropRarity(slot1), slot2, true)
+	uv1(findTF(slot0, "icon_bg/icon"), {
 		2,
 		2,
 		2,
@@ -909,10 +929,11 @@ function updateDrop(slot0, slot1, slot2)
 	})
 
 	if slot4 == DROP_TYPE_RESOURCE then
-		slot6 = pg.item_data_statistics[id2ItemId(slot1.id)].display
+		slot9 = id2ItemId(slot1.id)
+		slot6 = pg.item_data_statistics[slot9].display
 
 		updateItem(slot0, Item.New({
-			id = id2ItemId(slot1.id)
+			id = slot9
 		}), slot2)
 	elseif slot4 == DROP_TYPE_ITEM then
 		slot6 = pg.item_data_statistics[slot1.id].display
@@ -927,9 +948,10 @@ function updateDrop(slot0, slot1, slot2)
 			id = slot1.id
 		}), slot2)
 	elseif slot4 == DROP_TYPE_SIREN_EQUIP then
-		slot6 = pg.equip_data_statistics[getProxy(EquipmentProxy).getEquipmentById(slot9, slot1.id).configId].descrip
+		slot10 = getProxy(EquipmentProxy):getEquipmentById(slot1.id)
+		slot6 = pg.equip_data_statistics[slot10.configId].descrip
 
-		updateEquipment(slot0, getProxy(EquipmentProxy).getEquipmentById(slot9, slot1.id), slot2)
+		updateEquipment(slot0, slot10, slot2)
 	elseif slot4 == DROP_TYPE_SHIP then
 		slot9, slot10, slot11 = ShipWordHelper.GetWordAndCV(pg.ship_data_statistics[slot1.id].skin_id, ShipWordHelper.WORD_TYPE_DROP)
 		slot6 = slot11 or i18n("ship_drop_desc_default")
@@ -966,10 +988,12 @@ function updateDrop(slot0, slot1, slot2)
 			skin_id = slot1.id
 		}), slot2)
 	elseif slot4 == DROP_TYPE_EQUIPMENT_SKIN then
+		slot5 = pg.equip_skin_template[slot1.id]
+
 		updateEquipmentSkin(slot0, {
-			rarity = pg.equip_skin_template[slot1.id].rarity,
-			icon = pg.equip_skin_template[slot1.id].icon,
-			name = pg.equip_skin_template[slot1.id].name,
+			rarity = slot5.rarity,
+			icon = slot5.icon,
+			name = slot5.name,
 			count = slot1.count
 		}, slot2)
 	elseif slot4 == DROP_TYPE_VITEM then
@@ -989,30 +1013,30 @@ function updateDrop(slot0, slot1, slot2)
 	elseif slot4 == DROP_TYPE_ICON_FRAME then
 		updateAttire(slot0, AttireConst.TYPE_ICON_FRAME, pg.item_data_frame[slot1.id], slot2)
 	elseif slot4 == DROP_TYPE_EMOJI then
-		slot6 = pg.emoji_template[slot1.id].item_desc
+		slot5 = pg.emoji_template[slot1.id]
+		slot6 = slot5.item_desc
 
-		updateEmoji(slot0, pg.emoji_template[slot1.id])
+		updateEmoji(slot0, slot5)
 	end
 
 	slot1.cfg = slot5
 	slot1.desc = HXSet.hxLan(slot6)
 
-	slot2(slot0, slot1.count)
+	uv2(slot0, slot1.count)
 end
 
 function updateDropCfg(slot0)
 	slot1 = ""
 	slot2 = ""
-	slot3 = slot0.type or slot0.dropType
 
-	if slot3 == DROP_TYPE_RESOURCE then
+	if (slot0.type or slot0.dropType) == DROP_TYPE_RESOURCE then
 		slot2 = pg.item_data_statistics[id2ItemId(slot0.id)].display
 	elseif slot3 == DROP_TYPE_ITEM then
 		slot2 = pg.item_data_statistics[slot0.id].display
 	elseif slot3 == DROP_TYPE_EQUIP then
 		slot2 = pg.equip_data_statistics[slot0.id].descrip
 	elseif slot3 == DROP_TYPE_SIREN_EQUIP then
-		slot2 = pg.equip_data_statistics[getProxy(EquipmentProxy).getEquipmentById(slot4, slot0.id).configId].descrip
+		slot2 = pg.equip_data_statistics[getProxy(EquipmentProxy):getEquipmentById(slot0.id).configId].descrip
 	elseif slot3 == DROP_TYPE_SHIP then
 		slot4, slot5, slot6 = ShipWordHelper.GetWordAndCV(pg.ship_data_statistics[slot0.id].skin_id, ShipWordHelper.WORD_TYPE_DROP)
 		slot2 = slot6 or i18n("ship_drop_desc_default")
@@ -1046,8 +1070,9 @@ end
 
 function updateAttire(slot0, slot1, slot2, slot3)
 	slot4 = slot2
+	slot5 = 4
 
-	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. 4))
+	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. slot5))
 	setFrame(findTF(slot0, "icon_bg/frame"), slot5)
 
 	slot6 = findTF(slot0, "icon_bg/icon")
@@ -1060,14 +1085,17 @@ function updateAttire(slot0, slot1, slot2, slot3)
 	end
 
 	GetImageSpriteFromAtlasAsync("Props/" .. slot7, "", slot6)
-	slot0(slot0, HXSet.hxLan(slot4.name), slot3)
+	uv0(slot0, HXSet.hxLan(slot4.name), slot3)
 end
 
 function updateEmoji(slot0, slot1, slot2)
-	GetImageSpriteFromAtlasAsync("Props/" .. slot4, "", slot3)
-	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. 4))
+	GetImageSpriteFromAtlasAsync("Props/" .. "icon_emoji", "", findTF(slot0, "icon_bg/icon"))
+
+	slot5 = 4
+
+	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. slot5))
 	setFrame(findTF(slot0, "icon_bg/frame"), slot5)
-	slot0(slot0, HXSet.hxLan(slot1.name), slot2)
+	uv0(slot0, HXSet.hxLan(slot1.name), slot2)
 end
 
 function GetOwnedpropCount(slot0)
@@ -1084,39 +1112,36 @@ function GetOwnedpropCount(slot0)
 		slot1 = getProxy(BagProxy):getItemCountById(slot0.id)
 		slot2 = true
 	elseif slot3 == DROP_TYPE_EQUIP then
-		slot1 = (getProxy(EquipmentProxy):getEquipmentById(slot0.id) and slot4.count) or 0
+		slot1 = getProxy(EquipmentProxy):getEquipmentById(slot0.id) and slot4.count or 0
 	elseif slot3 == DROP_TYPE_SHIP then
 		slot1 = getProxy(BayProxy):getConfigShipCount(slot0.id)
 	elseif slot3 == DROP_TYPE_FURNITURE then
 		slot1 = getProxy(DormProxy):getFurnitrueCount(slot0.id)
 	elseif slot3 == DROP_TYPE_STRATEGY then
+		-- Nothing
 	elseif slot3 == DROP_TYPE_SKIN then
 		slot1 = getProxy(ShipSkinProxy):getSkinCountById(slot0.id)
 	elseif slot3 == DROP_TYPE_VITEM then
+		-- Nothing
 	elseif slot3 == DROP_TYPE_EQUIPMENT_SKIN then
-		return (getProxy(EquipmentProxy):getEquipmnentSkinById(slot0.id) and slot4.count) or 0, slot2
+		slot1 = getProxy(EquipmentProxy):getEquipmnentSkinById(slot0.id) and slot4.count or 0
 	end
+
+	return slot1, slot2
 end
 
 function updateEquipmentSkin(slot0, slot1, slot2)
+	slot2 = slot2 or {}
 	slot3 = EquipmentRarity.Rarity2Print(slot1.rarity)
 
 	setImageSprite(findTF(slot0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. slot3))
 	setFrame(findTF(slot0, "icon_bg/frame"), slot3, "frame7")
-	GetImageSpriteFromAtlasAsync("equips/" .. slot1.icon, "", slot4)
-	slot0(slot0, false)
-	slot1(slot0, 0, slot1.expired_date)
-
-	-- Decompilation error in this vicinity:
-	slot2 or {}(slot0, slot1.name, 
-	-- Decompilation error in this vicinity:
-	slot2 or )
-	slot3(slot0, slot1.count)
-
-	-- Decompilation error in this vicinity:
-	findTF(slot0, "icon_bg/icon")(slot0, slot1.rarity, 
-	-- Decompilation error in this vicinity:
-	slot2 or )
+	GetImageSpriteFromAtlasAsync("equips/" .. slot1.icon, "", findTF(slot0, "icon_bg/icon"))
+	uv0(slot0, false)
+	uv1(slot0, 0, slot1.expired_date)
+	uv2(slot0, slot1.name, slot2)
+	uv3(slot0, slot1.count)
+	uv4(slot0, slot1.rarity, slot2)
 end
 
 function getDropRarity(slot0)
@@ -1143,10 +1168,9 @@ end
 
 function NoPosMsgBox(slot0, slot1, slot2, slot3)
 	slot4 = nil
-	slot5 = {}
 
 	if slot1 then
-		table.insert(slot5, {
+		table.insert({}, {
 			text = "text_noPos_clear",
 			atuoClose = true,
 			onCallback = slot1
@@ -1180,7 +1204,7 @@ end
 
 function openDestroyEquip()
 	if pg.m02:hasMediator(EquipmentMediator.__cname) then
-		if getProxy(ContextProxy).getCurrentContext(slot0):getContextByMediator(EquipmentMediator) and slot2.data.shipId then
+		if getProxy(ContextProxy):getCurrentContext():getContextByMediator(EquipmentMediator) and slot2.data.shipId then
 			pg.m02:sendNotification(GAME.REMOVE_LAYERS, {
 				context = slot2
 			})
@@ -1200,7 +1224,7 @@ end
 function openDockyardClear()
 	slot0 = {}
 
-	for slot5, slot6 in pairs(slot1) do
+	for slot5, slot6 in pairs(getProxy(BayProxy):getData()) do
 		if slot6:isActivityNpc() and not table.contains(slot0, slot6.id) then
 			table.insert(slot0, slot6.id)
 		end
@@ -1234,13 +1258,9 @@ end
 
 function GoShoppingMsgBox(slot0, slot1, slot2)
 	if slot2 then
-		slot3 = ""
-
 		for slot7, slot8 in ipairs(slot2) do
-			slot3 = slot3 .. i18n((slot8[1] == 59001 and "text_noRes_info_tip") or "text_noRes_info_tip2", pg.item_data_statistics[slot8[1]].name, slot8[2])
-
 			if slot7 < #slot2 then
-				slot3 = slot3 .. i18n("text_noRes_info_tip_link")
+				slot3 = "" .. i18n(slot8[1] == 59001 and "text_noRes_info_tip" or "text_noRes_info_tip2", pg.item_data_statistics[slot8[1]].name, slot8[2]) .. i18n("text_noRes_info_tip_link")
 			end
 		end
 
@@ -1253,21 +1273,22 @@ function GoShoppingMsgBox(slot0, slot1, slot2)
 		content = slot0,
 		weight = LayerWeightConst.SECOND_LAYER,
 		onYes = function ()
-			gotoChargeScene(gotoChargeScene, )
+			gotoChargeScene(uv0, uv1)
 		end
 	})
 end
 
 function shoppingBatch(slot0, slot1, slot2, slot3, slot4)
-	if math.floor(getProxy(PlayerProxy).getData(slot6)[id2res(pg.shop_template[slot0].resource_type)] / (slot1.price or slot5.resource_num)) <= 0 then
+	if math.floor(getProxy(PlayerProxy):getData()[id2res(pg.shop_template[slot0].resource_type)] / (slot1.price or slot5.resource_num)) <= 0 then
 		slot10 = 1
 	end
 
 	if slot2 ~= nil and slot2 < slot10 then
 		slot10 = slot2 or slot10
-		slot11 = true
-		slot12 = 1
 	end
+
+	slot11 = true
+	slot12 = 1
 
 	if slot5 ~= nil and slot1.id then
 		print(slot10 * slot5.num, "--", slot10)
@@ -1287,24 +1308,26 @@ function shoppingBatch(slot0, slot1, slot2, slot3, slot4)
 			maxNum = slot10 * slot5.num,
 			defaultNum = slot5.num,
 			numUpdate = function (slot0, slot1)
-				if slot0 < slot0 *  then
-					setText(slot0, i18n(slot4, slot2, slot1, COLOR_RED, i18n))
+				uv0 = math.floor(slot1 / uv1.num)
 
-					slot6 = false
+				if uv3 < uv0 * uv2 then
+					setText(slot0, i18n(uv4, slot2, slot1, COLOR_RED, uv5))
+
+					uv6 = false
 				else
-					setText(slot0, i18n(slot4, slot2, slot1, COLOR_GREEN, i18n))
+					setText(slot0, i18n(uv4, slot2, slot1, COLOR_GREEN, uv5))
 
-					slot6 = true
+					uv6 = true
 				end
 			end,
 			onYes = function ()
-				if slot0 then
+				if uv0 then
 					pg.m02:sendNotification(GAME.SHOPPING, {
-						id = slot1,
-						count = GAME.SHOPPING
+						id = uv1,
+						count = uv2
 					})
-				elseif slot3 then
-					pg.TipsMgr.GetInstance():ShowTips(i18n(slot3))
+				elseif uv3 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n(uv3))
 				else
 					pg.TipsMgr.GetInstance():ShowTips(i18n("main_playerInfoLayer_error_changeNameNoGem"))
 				end
@@ -1321,8 +1344,8 @@ function gotoChargeScene(slot0, slot1)
 end
 
 function clearDrop(slot0)
-	clearImageSprite(slot1)
-	clearImageSprite(slot2)
+	clearImageSprite(findTF(slot0, "icon_bg"))
+	clearImageSprite(findTF(slot0, "icon_bg/frame"))
 	clearImageSprite(findTF(slot0, "icon_bg/icon"))
 
 	if findTF(slot0, "icon_bg/icon/icon") then
@@ -1338,17 +1361,15 @@ slot11 = {
 
 function updateSkill(slot0, slot1, slot2, slot3)
 	slot4 = findTF(slot0, "skill")
-	slot5 = findTF(slot0, "lock")
-	slot6 = findTF(slot0, "unknown")
 
 	if slot1 then
 		setActive(slot4, true)
-		setActive(slot6, false)
-		setActive(slot5, not slot2)
+		setActive(findTF(slot0, "unknown"), false)
+		setActive(findTF(slot0, "lock"), not slot2)
 		LoadImageSpriteAsync("skillicon/" .. slot1.icon, findTF(slot4, "icon"))
 		setText(findTF(slot4, "name"), shortenString(getSkillName(slot1.id), slot3 or 8))
-		setText(findTF(slot4, "level"), "LEVEL: " .. ((slot2 and slot2.level) or "??"))
-		setTextColor(setText, slot0[slot1.color or "blue"])
+		setText(findTF(slot4, "level"), "LEVEL: " .. (slot2 and slot2.level or "??"))
+		setTextColor(slot8, uv0[slot1.color or "blue"])
 	else
 		setActive(slot4, false)
 		setActive(slot6, true)
@@ -1362,28 +1383,33 @@ function onBackButton(slot0, slot1, slot2, slot3)
 	slot4 = GetOrAddComponent(slot1, "UILongPressTrigger")
 	slot4.longPressThreshold = defaultValue(slot3, 1)
 
-	pg.DelegateInfo.Add(slot0, slot6)
-	slot4.onReleased.RemoveAllListeners(slot6)
-	slot4.onReleased.AddListener(slot6, slot5(function (slot0)
-		slot0:emit(BaseUI.ON_BACK)
-	end))
-	pg.DelegateInfo.Add(slot0, slot7)
-	slot4.onLongPressed.RemoveAllListeners(slot7)
-	slot4.onLongPressed:AddListener(
-	-- Decompilation error in this vicinity:
-	function (slot0)
+	function slot5(slot0)
 		return function ()
-			if slot0 then
+			if uv0 then
 				playSoundEffect(SOUND_BACK)
 			end
 
-			slot0, slot1 = slot1()
+			slot0, slot1 = uv1()
 
 			if slot0 then
-				slot2(slot1)
+				uv2(slot1)
 			end
 		end
-	end(function (slot0)
+	end
+
+	slot6 = slot4.onReleased
+
+	pg.DelegateInfo.Add(slot0, slot6)
+	slot6:RemoveAllListeners()
+	slot6:AddListener(slot5(function (slot0)
+		slot0:emit(BaseUI.ON_BACK)
+	end))
+
+	slot7 = slot4.onLongPressed
+
+	pg.DelegateInfo.Add(slot0, slot7)
+	slot7:RemoveAllListeners()
+	slot7:AddListener(slot5(function (slot0)
 		slot0:emit(BaseUI.ON_HOME)
 	end))
 end
@@ -1397,7 +1423,7 @@ function GetHalfHour()
 end
 
 function GetNextHour(slot0)
-	slot2, slot3 = pg.TimeMgr.GetInstance():parseTimeFrom(slot1)
+	slot2, slot3 = pg.TimeMgr.GetInstance():parseTimeFrom(pg.TimeMgr.GetInstance():GetServerTime())
 
 	return slot2 * 86400 + (slot3 + slot0) * 3600
 end
@@ -1483,12 +1509,12 @@ function filterSpecChars(slot0)
 	slot3 = 0
 	slot4 = 0
 
-	for slot8 = 1, #slot0, 1 do
+	for slot8 = 1, #slot0 do
 		if not string.byte(slot0, slot8) then
 			break
 		end
 
-		if (slot9 >= 48 and slot9 <= 57) or (slot9 >= 65 and slot9 <= 90) or (slot9 >= 97 and slot9 <= 122) then
+		if slot9 >= 48 and slot9 <= 57 or slot9 >= 65 and slot9 <= 90 or slot9 >= 97 and slot9 <= 122 then
 			table.insert(slot1, string.char(slot9))
 		elseif slot9 >= 228 and slot9 <= 233 then
 			slot11 = string.byte(slot0, slot8 + 2)
@@ -1551,947 +1577,157 @@ function filterEgyUnicode(slot0)
 end
 
 function shiftPanel(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-2, warpins: 1 ---
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 4-5, warpins: 2 ---
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 12-16, warpins: 2 ---
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 19-20, warpins: 2 ---
-	if not slot3 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 3-3, warpins: 1 ---
-		slot3 = 0.2
-		--- END OF BLOCK #0 ---
-
-
-
-	end
+	slot3 = slot3 or 0.2
 
 	if slot5 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 6-11, warpins: 1 ---
 		LeanTween.cancel(go(slot0))
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
 	slot9 = rtf(slot0)
 
-	if not slot1 then
+	LeanTween.move(slot9, Vector3(slot1 or slot9.anchoredPosition.x, slot2 or slot9.anchoredPosition.y, 0), slot3):setEase(slot7 or LeanTweenType.easeInOutSine)
 
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 17-18, warpins: 1 ---
-		slot1 = slot9.anchoredPosition.x
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	slot2 = slot2 or slot9.anchoredPosition.y
-
-	LeanTween.move(slot9, Vector3(slot1, slot2 or slot9.anchoredPosition.y, 0), slot3):setEase(slot7 or LeanTweenType.easeInOutSine)
-
-	--- END OF BLOCK #3 ---
-
-	FLOW; TARGET BLOCK #5
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #4 21-22, warpins: 1 ---
-	slot2 = slot9.anchoredPosition.y
-	--- END OF BLOCK #4 ---
-
-	FLOW; TARGET BLOCK #5
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #5 23-34, warpins: 2 ---
-	--- END OF BLOCK #5 ---
-
-	FLOW; TARGET BLOCK #7
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #6 35-36, warpins: 1 ---
-	slot7 = LeanTweenType.easeInOutSine
-
-	--- END OF BLOCK #6 ---
-
-	FLOW; TARGET BLOCK #7
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #7 37-42, warpins: 2 ---
 	if slot4 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 43-46, warpins: 1 ---
 		slot10:setDelay(slot4)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #7 ---
-
-	FLOW; TARGET BLOCK #8
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #8 47-48, warpins: 2 ---
 	if slot6 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 49-54, warpins: 1 ---
 		GetOrAddComponent(slot0, "CanvasGroup").blocksRaycasts = false
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #8 ---
-
-	FLOW; TARGET BLOCK #9
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #9 55-63, warpins: 2 ---
 	slot10:setOnComplete(System.Action(function ()
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-3, warpins: 1 ---
-		if slot0 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 4-5, warpins: 1 ---
-			slot0()
-			--- END OF BLOCK #0 ---
-
-
-
+		if uv0 then
+			uv0()
 		end
 
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 6-8, warpins: 2 ---
-		if slot1 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 9-14, warpins: 1 ---
-			GetOrAddComponent(slot2, "CanvasGroup").blocksRaycasts = true
-			--- END OF BLOCK #0 ---
-
-
-
+		if uv1 then
+			GetOrAddComponent(uv2, "CanvasGroup").blocksRaycasts = true
 		end
-
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 15-15, warpins: 2 ---
-		return
-		--- END OF BLOCK #2 ---
-
-
-
 	end))
 
 	return slot10
-	--- END OF BLOCK #9 ---
-
-
-
 end
 
 function TweenValue(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-27, warpins: 1 ---
-	slot9 = LeanTween.value(go(slot0), slot1, slot2, slot3):setOnUpdate(System.Action_float(function (slot0)
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-3, warpins: 1 ---
-		if slot0 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 4-6, warpins: 1 ---
-			slot0(slot0)
-			--- END OF BLOCK #0 ---
-
-
-
+	slot8 = LeanTween.value(go(slot0), slot1, slot2, slot3):setOnUpdate(System.Action_float(function (slot0)
+		if uv0 then
+			uv0(slot0)
 		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 7-7, warpins: 2 ---
-		return
-		--- END OF BLOCK #1 ---
-
-
-
 	end)):setOnComplete(System.Action(function ()
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-3, warpins: 1 ---
-		if slot0 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 4-5, warpins: 1 ---
-			slot0()
-			--- END OF BLOCK #0 ---
-
-
-
+		if uv0 then
+			uv0()
 		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 6-6, warpins: 2 ---
-		return
-		--- END OF BLOCK #1 ---
-
-
-
-	end))
-	slot8 = LeanTween.value(go(slot0), slot1, slot2, slot3).setOnUpdate(System.Action_float(function (slot0)
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-3, warpins: 1 ---
-		if slot0 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 4-6, warpins: 1 ---
-			slot0(slot0)
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 7-7, warpins: 2 ---
-		return
-		--- END OF BLOCK #1 ---
-
-
-
-	end)).setOnComplete(System.Action(function ()
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-3, warpins: 1 ---
-		if slot0 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 4-5, warpins: 1 ---
-			slot0()
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 6-6, warpins: 2 ---
-		return
-		--- END OF BLOCK #1 ---
-
-
-
-	end)).setDelay
-
-	if not slot4 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 28-28, warpins: 1 ---
-		slot10 = 0
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 29-31, warpins: 2 ---
-	slot8 = slot8(slot9, slot10)
+	end)):setDelay(slot4 or 0)
 
 	if slot7 and slot7 > 0 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 35-38, warpins: 1 ---
 		slot8:setRepeat(slot7)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 39-40, warpins: 3 ---
 	return slot8
-	--- END OF BLOCK #2 ---
-
-
-
 end
 
 function rotateAni(slot0, slot1, slot2)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-11, warpins: 1 ---
 	return LeanTween.rotate(rtf(slot0), 360 * slot1, slot2):setLoopClamp()
-	--- END OF BLOCK #0 ---
-
-
-
 end
 
 function blinkAni(slot0, slot1, slot2, slot3)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-7, warpins: 1 ---
-	slot4 = LeanTween.alpha
-	slot5 = rtf(slot0)
-
-	if not slot3 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 8-8, warpins: 1 ---
-		slot6 = 0
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 9-19, warpins: 2 ---
-	slot5 = slot4(slot5, slot6, slot1):setEase(LeanTweenType.easeInOutSine)
-	slot4 = slot4(slot5, slot6, slot1).setEase(LeanTweenType.easeInOutSine).setLoopPingPong
-
-	if not slot2 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 20-20, warpins: 1 ---
-		slot6 = 0
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 21-21, warpins: 2 ---
-	return slot4(slot5, slot6)
-	--- END OF BLOCK #2 ---
-
-
-
+	return LeanTween.alpha(rtf(slot0), slot3 or 0, slot1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong(slot2 or 0)
 end
 
 function scaleAni(slot0, slot1, slot2, slot3)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-7, warpins: 1 ---
-	slot4 = LeanTween.scale
-	slot5 = rtf(slot0)
-
-	if not slot3 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 8-8, warpins: 1 ---
-		slot6 = 0
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 9-14, warpins: 2 ---
-	slot5 = slot4(slot5, slot6, slot1)
-	slot4 = slot4(slot5, slot6, slot1).setLoopPingPong
-
-	if not slot2 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 15-15, warpins: 1 ---
-		slot6 = 0
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 16-16, warpins: 2 ---
-	return slot4(slot5, slot6)
-	--- END OF BLOCK #2 ---
-
-
-
+	return LeanTween.scale(rtf(slot0), slot3 or 0, slot1):setLoopPingPong(slot2 or 0)
 end
 
 function floatAni(slot0, slot1, slot2, slot3)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-15, warpins: 1 ---
-	slot6 = LeanTween.moveY(rtf(slot0), slot0.localPosition.y + slot1, slot2)
-	slot5 = LeanTween.moveY(rtf(slot0), slot0.localPosition.y + slot1, slot2).setLoopPingPong
-
-	if not slot3 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 16-16, warpins: 1 ---
-		slot7 = 0
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 17-17, warpins: 2 ---
-	return slot5(slot6, slot7)
-	--- END OF BLOCK #1 ---
-
-
-
+	return LeanTween.moveY(rtf(slot0), slot0.localPosition.y + slot1, slot2):setLoopPingPong(slot3 or 0)
 end
 
 slot13 = tostring
 
 function tostring(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-2, warpins: 1 ---
 	if slot0 == nil then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 3-4, warpins: 1 ---
 		return "nil"
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 5-9, warpins: 2 ---
-	if slot0(slot0) == nil then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 10-14, warpins: 1 ---
+	if uv0(slot0) == nil then
 		if type(slot0) == "table" then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 15-16, warpins: 1 ---
 			return "{}"
-			--- END OF BLOCK #0 ---
-
-
-
 		end
 
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 17-18, warpins: 2 ---
 		return " ~nil"
-		--- END OF BLOCK #1 ---
-
-
-
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 19-19, warpins: 2 ---
 	return slot1
-	--- END OF BLOCK #2 ---
-
-
-
 end
 
 function wordVer(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-2, warpins: 1 ---
-	if not slot1 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 3-3, warpins: 1 ---
-		slot1 = {}
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 4-10, warpins: 2 ---
 	if #filterEgyUnicode(slot0) ~= #slot0 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 11-13, warpins: 1 ---
-		if slot1.isReplace then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 14-15, warpins: 1 ---
+		if (slot1 or {}).isReplace then
 			slot0 = slot2
-			--- END OF BLOCK #0 ---
-
-
-
 		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 16-17, warpins: 1 ---
 			return 1
-			--- END OF BLOCK #0 ---
-
-
-
 		end
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 18-27, warpins: 3 ---
-	slot3 = wordSplit(slot0)
 	slot4 = pg.word_template
 	slot5 = pg.word_legal_template
-
-	if not slot1.isReplace then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 28-28, warpins: 1 ---
-		slot6 = false
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 29-32, warpins: 2 ---
-	slot1.isReplace = slot6
-
-	if not slot1.replaceWord then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 33-33, warpins: 1 ---
-		slot6 = "*"
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #3 ---
-
-	FLOW; TARGET BLOCK #4
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #4 34-38, warpins: 2 ---
-	slot1.replaceWord = slot6
-	slot6 = #slot3
+	slot1.isReplace = slot1.isReplace or false
+	slot1.replaceWord = slot1.replaceWord or "*"
 	slot7 = 1
 	slot8 = ""
 	slot9 = 0
 
-	--- END OF BLOCK #4 ---
-
-	FLOW; TARGET BLOCK #5
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #5 39-40, warpins: 5 ---
-	--- END OF BLOCK #5 ---
-
-	FLOW; TARGET BLOCK #6
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #6 41-83, warpins: 0 ---
-	while slot7 <= slot6 do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 41-41, warpins: 1 ---
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 42-48, warpins: 1 ---
-		slot10, slot11, slot12 = wordLegalMatch(slot3, slot5, slot7)
+	while slot7 <= #wordSplit(slot0) do
+		slot10, slot7, slot12 = wordLegalMatch(slot3, slot5, slot7)
 
 		if slot10 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 49-53, warpins: 1 ---
-			slot7 = slot11
 			slot8 = slot8 .. slot12
+		else
+			slot13, slot7, slot15 = wordVerMatch(slot3, slot4, slot1, slot7, "", false, slot7, "")
 
-			if slot8 .. slot12 then
+			if slot13 then
+				slot9 = slot9 + 1
 
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 54-65, warpins: 1 ---
-				slot13, slot14, slot15 = wordVerMatch(slot3, slot4, slot1, slot7, "", false, slot7, "")
-
-				if slot13 then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 66-70, warpins: 1 ---
-					slot7 = slot14
-					slot9 = slot9 + 1
-
-					if slot1.isReplace then
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 71-74, warpins: 1 ---
-						if slot8 .. slot15 or slot1.isReplace then
-
-							-- Decompilation error in this vicinity:
-							--- BLOCK #0 78-80, warpins: 1 ---
-							slot8 = slot8 .. slot3[slot7]
-							--- END OF BLOCK #0 ---
-
-
-
-						end
-
-						--- END OF BLOCK #0 ---
-
-						FLOW; TARGET BLOCK #1
-
-
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #1 81-82, warpins: 2 ---
-						slot7 = slot7 + 1
-						--- END OF BLOCK #1 ---
-
-
-
-					end
-					--- END OF BLOCK #0 ---
-
-
-
+				if slot1.isReplace then
+					slot8 = slot8 .. slot15
 				end
-				--- END OF BLOCK #0 ---
+			else
+				if slot1.isReplace then
+					slot8 = slot8 .. slot3[slot7]
+				end
 
-
-
+				slot7 = slot7 + 1
 			end
-			--- END OF BLOCK #0 ---
-
-
-
 		end
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 83-83, warpins: 2 ---
-		--- END OF BLOCK #2 ---
-
-
-
 	end
 
-	--- END OF BLOCK #6 ---
-
-	FLOW; TARGET BLOCK #7
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #7 83-85, warpins: 1 ---
 	if slot1.isReplace then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 86-89, warpins: 1 ---
 		return slot9, slot8
-		--- END OF BLOCK #0 ---
-
-
-
 	else
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 90-90, warpins: 1 ---
 		return slot9
-		--- END OF BLOCK #0 ---
-
-
-
 	end
-
-	--- END OF BLOCK #7 ---
-
-	FLOW; TARGET BLOCK #8
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #8 91-91, warpins: 2 ---
-	return
-	--- END OF BLOCK #8 ---
-
-
-
 end
 
 function wordLegalMatch(slot0, slot1, slot2, slot3, slot4)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-3, warpins: 1 ---
 	if slot2 > #slot0 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 4-7, warpins: 1 ---
 		return slot3, slot2, slot4
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 8-11, warpins: 2 ---
 	slot6 = slot1[slot0[slot2]]
 
 	if slot4 == nil then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 12-13, warpins: 1 ---
 		slot4 = ""
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 14-15, warpins: 2 ---
 	if slot6 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 16-18, warpins: 1 ---
 		if slot6.this then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 19-28, warpins: 1 ---
 			return wordLegalMatch(slot0, slot6, slot2 + 1, true, slot4 .. slot5)
-			--- END OF BLOCK #0 ---
-
-
-
 		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 29-38, warpins: 1 ---
 			return wordLegalMatch(slot0, slot6, slot2 + 1, false, slot4 .. slot5)
-			--- END OF BLOCK #0 ---
-
-
-
 		end
-		--- END OF BLOCK #0 ---
-
-
-
 	else
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 39-42, warpins: 1 ---
 		return slot3, slot2, slot4
-		--- END OF BLOCK #0 ---
-
-
-
 	end
-
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 43-43, warpins: 3 ---
-	return
-	--- END OF BLOCK #3 ---
-
-
-
 end
 
 slot14 = string.byte("a")
@@ -2500,1647 +1736,346 @@ slot16 = string.byte("A")
 slot17 = string.byte("Z")
 
 function slot18(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-2, warpins: 1 ---
 	if not slot0 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 3-3, warpins: 1 ---
 		return slot0
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 4-10, warpins: 2 ---
 	if string.byte(slot0) > 128 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 11-11, warpins: 1 ---
 		return
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 12-14, warpins: 2 ---
-	if slot0 <= slot1 and slot1 <= slot1 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 18-22, warpins: 1 ---
+	if uv0 <= slot1 and slot1 <= uv1 then
 		return string.char(slot1 - 32)
-		--- END OF BLOCK #0 ---
-
-
-
+	elseif uv2 <= slot1 and slot1 <= uv3 then
+		return string.char(slot1 + 32)
 	else
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 23-25, warpins: 2 ---
-		if slot2 <= slot1 and slot1 <= slot3 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 29-33, warpins: 1 ---
-			return string.char(slot1 + 32)
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 34-34, warpins: 2 ---
-			return slot0
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-		--- END OF BLOCK #0 ---
-
-
-
+		return slot0
 	end
-
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 35-35, warpins: 3 ---
-	return
-	--- END OF BLOCK #3 ---
-
-
-
 end
 
 function wordVerMatch(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-3, warpins: 1 ---
 	if slot3 > #slot0 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 4-7, warpins: 1 ---
 		return slot5, slot6, slot7
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 8-11, warpins: 2 ---
 	if slot1[slot0[slot3]] then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 12-19, warpins: 1 ---
-		slot10 = wordVerMatch
-		slot11 = slot0
-		slot12 = slot9
-		slot13 = slot2
-		slot14 = slot3 + 1
-
-		if not slot2.isReplace or not (slot4 .. slot2.replaceWord) then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 25-25, warpins: 2 ---
-			slot15 = slot4
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 26-28, warpins: 2 ---
-		if not slot9.this then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 29-29, warpins: 1 ---
-			slot16 = slot5
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 30-32, warpins: 2 ---
-		if not slot9.this or not (slot3 + 1) then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 36-36, warpins: 2 ---
-			slot17 = slot6
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #2 ---
-
-		FLOW; TARGET BLOCK #3
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #3 37-39, warpins: 2 ---
-		if not slot9.this or ((not slot2.isReplace or not (slot4 .. slot2.replaceWord)) and not slot4) then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 50-50, warpins: 2 ---
-			slot18 = slot7
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #3 ---
-
-		FLOW; TARGET BLOCK #4
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #4 51-53, warpins: 3 ---
-		slot10, slot11, slot12 = slot10(slot11, slot12, slot13, slot14, slot15, slot16, slot17, slot18)
+		slot10, slot11, slot12 = wordVerMatch(slot0, slot9, slot2, slot3 + 1, slot2.isReplace and slot4 .. slot2.replaceWord or slot4, slot9.this or slot5, slot9.this and slot3 + 1 or slot6, slot9.this and (slot2.isReplace and slot4 .. slot2.replaceWord or slot4) or slot7)
 
 		if slot10 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 54-57, warpins: 1 ---
 			return slot10, slot11, slot12
-			--- END OF BLOCK #0 ---
-
-
-
 		end
-		--- END OF BLOCK #4 ---
-
-
-
 	end
 
-	--- END OF BLOCK #1 ---
+	slot10 = uv0(slot8)
+	slot9 = slot1[slot10]
 
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 58-63, warpins: 3 ---
-	slot9 = slot1[slot0(slot8)]
-
-	if slot0(slot8) ~= slot8 and slot9 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 66-73, warpins: 1 ---
-		slot11 = wordVerMatch
-		slot12 = slot0
-		slot13 = slot9
-		slot14 = slot2
-		slot15 = slot3 + 1
-
-		if not slot2.isReplace or not (slot4 .. slot2.replaceWord) then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 79-79, warpins: 2 ---
-			slot16 = slot4
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 80-82, warpins: 2 ---
-		if not slot9.this then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 83-83, warpins: 1 ---
-			slot17 = slot5
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 84-86, warpins: 2 ---
-		if not slot9.this or not (slot3 + 1) then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 90-90, warpins: 2 ---
-			slot18 = slot6
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #2 ---
-
-		FLOW; TARGET BLOCK #3
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #3 91-93, warpins: 2 ---
-		if not slot9.this or ((not slot2.isReplace or not (slot4 .. slot2.replaceWord)) and not slot4) then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 104-104, warpins: 2 ---
-			slot19 = slot7
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #3 ---
-
-		FLOW; TARGET BLOCK #4
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #4 105-107, warpins: 3 ---
-		slot11, slot12, slot13 = slot11(slot12, slot13, slot14, slot15, slot16, slot17, slot18, slot19)
+	if slot10 ~= slot8 and slot9 then
+		slot11, slot12, slot13 = wordVerMatch(slot0, slot9, slot2, slot3 + 1, slot2.isReplace and slot4 .. slot2.replaceWord or slot4, slot9.this or slot5, slot9.this and slot3 + 1 or slot6, slot9.this and (slot2.isReplace and slot4 .. slot2.replaceWord or slot4) or slot7)
 
 		if slot11 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 108-111, warpins: 1 ---
 			return slot11, slot12, slot13
-			--- END OF BLOCK #0 ---
-
-
-
 		end
-		--- END OF BLOCK #4 ---
-
-
-
 	end
 
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 112-115, warpins: 4 ---
 	return slot5, slot6, slot7
-	--- END OF BLOCK #3 ---
-
-
-
 end
 
 function wordSplit(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-6, warpins: 1 ---
 	slot1 = {}
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 7-11, warpins: 0 ---
 	for slot5 in slot0:gmatch("[-\\xc2-\\xf4][\\x80-\\xbf]*") do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 7-9, warpins: 1 ---
 		slot1[#slot1 + 1] = slot5
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 10-11, warpins: 2 ---
-		--- END OF BLOCK #1 ---
-
-
-
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 12-12, warpins: 1 ---
 	return slot1
-	--- END OF BLOCK #2 ---
-
-
-
 end
 
 function contentWrap(slot0, slot1, slot2)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-10, warpins: 1 ---
-	if #LuaHelper.WrapContent(slot0, slot1, slot2) == #slot0 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 11-12, warpins: 1 ---
-		slot4 = false
-		--- END OF BLOCK #0 ---
-
-
-
-	else
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 13-13, warpins: 1 ---
-		slot4 = true
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 14-15, warpins: 2 ---
-	return slot4, slot3
-	--- END OF BLOCK #1 ---
-
-
-
+	return #LuaHelper.WrapContent(slot0, slot1, slot2) ~= #slot0, slot3
 end
 
 function cancelRich(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-5, warpins: 1 ---
 	slot1 = nil
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 6-18, warpins: 0 ---
-	for slot5 = 1, 20, 1 do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 6-16, warpins: 2 ---
-		slot0, slot1 = string.gsub(slot0, "<([^>]*)>", "%1")
+	for slot5 = 1, 20 do
+		slot0, slot7 = string.gsub(slot0, "<([^>]*)>", "%1")
 
 		if slot7 <= 0 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 17-17, warpins: 1 ---
 			break
-			--- END OF BLOCK #0 ---
-
-
-
 		end
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 18-18, warpins: 1 ---
-		--- END OF BLOCK #1 ---
-
-
-
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 19-19, warpins: 2 ---
 	return slot0
-	--- END OF BLOCK #2 ---
-
-
-
 end
 
 function filterCharForiOS(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-1, warpins: 1 ---
-	return
-	--- END OF BLOCK #0 ---
-
-
-
 end
 
 function getSkillConfig(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-7, warpins: 1 ---
 	if not require("GameCfg.buff.buff_" .. slot0) then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 8-13, warpins: 1 ---
 		warn("找不到技能配置: " .. slot0)
 
 		return
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 14-37, warpins: 1 ---
 	slot2 = Clone(slot1)
 	slot2.name = getSkillName(slot0)
 	slot2.desc = HXSet.hxLan(slot2.desc)
 	slot2.desc_get = HXSet.hxLan(slot2.desc_get)
 
 	_.each(slot2, function (slot0)
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-6, warpins: 1 ---
 		slot0.desc = HXSet.hxLan(slot0.desc)
-
-		return
-		--- END OF BLOCK #0 ---
-
-
-
 	end)
 
 	return slot2
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 38-38, warpins: 2 ---
-	--- END OF BLOCK #2 ---
-
-
-
 end
 
 function getSkillName(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-5, warpins: 1 ---
 	if not pg.skill_data_template[slot0] and not pg.skill_data_display[slot0] then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 11-12, warpins: 1 ---
 		return ""
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 13-16, warpins: 3 ---
 	return HXSet.hxLan(slot1.name)
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function getSkillDescGet(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-5, warpins: 1 ---
 	if not pg.skill_data_template[slot0] then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 6-7, warpins: 1 ---
 		return ""
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
+	slot2 = slot1.desc_get ~= "" and slot1.desc_get or slot1.desc
 
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 8-10, warpins: 2 ---
-	if slot1.desc_get == "" or not slot1.desc_get then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 14-14, warpins: 2 ---
-		slot2 = slot1.desc
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 15-18, warpins: 2 ---
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 19-47, warpins: 0 ---
 	for slot6, slot7 in pairs(slot1.desc_get_add) do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 19-25, warpins: 1 ---
-		slot8 = setColorStr(slot7[1], COLOR_GREEN)
-
 		if slot7[2] then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 26-37, warpins: 1 ---
-			slot8 = slot8 .. specialGSub(i18n("word_skill_desc_get"), "$1", setColorStr(slot7[2], COLOR_GREEN))
-			--- END OF BLOCK #0 ---
-
-
-
+			slot8 = setColorStr(slot7[1], COLOR_GREEN) .. specialGSub(i18n("word_skill_desc_get"), "$1", setColorStr(slot7[2], COLOR_GREEN))
 		end
 
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 38-45, warpins: 2 ---
 		slot2 = specialGSub(slot2, "$" .. slot6, slot8)
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 46-47, warpins: 2 ---
-		--- END OF BLOCK #2 ---
-
-
-
 	end
 
-	--- END OF BLOCK #3 ---
-
-	FLOW; TARGET BLOCK #4
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #4 48-51, warpins: 1 ---
 	return HXSet.hxLan(slot2)
-	--- END OF BLOCK #4 ---
-
-
-
 end
 
 function getSkillDescLearn(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-5, warpins: 1 ---
 	if not pg.skill_data_template[slot0] then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 6-7, warpins: 1 ---
 		return ""
-		--- END OF BLOCK #0 ---
-
-
-
 	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 8-11, warpins: 2 ---
-	slot3 = slot2.desc
 
 	if not slot2.desc_add then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 12-15, warpins: 1 ---
-		return HXSet.hxLan(slot3)
-		--- END OF BLOCK #0 ---
-
-
-
+		return HXSet.hxLan(slot2.desc)
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 16-19, warpins: 2 ---
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 20-48, warpins: 0 ---
 	for slot7, slot8 in pairs(slot2.desc_add) do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 20-25, warpins: 1 ---
-		slot9 = slot8[slot1][1]
-
 		if slot8[slot1][2] then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 26-35, warpins: 1 ---
-			slot9 = slot9 .. specialGSub(i18n("word_skill_desc_learn"), "$1", slot8[slot1][2])
-			--- END OF BLOCK #0 ---
-
-
-
+			slot9 = slot8[slot1][1] .. specialGSub(i18n("word_skill_desc_learn"), "$1", slot8[slot1][2])
 		end
 
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 36-46, warpins: 2 ---
 		slot3 = specialGSub(slot3, "$" .. slot7, setColorStr(slot9, COLOR_YELLOW))
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 47-48, warpins: 2 ---
-		--- END OF BLOCK #2 ---
-
-
-
 	end
 
-	--- END OF BLOCK #3 ---
-
-	FLOW; TARGET BLOCK #4
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #4 49-52, warpins: 1 ---
 	return HXSet.hxLan(slot3)
-	--- END OF BLOCK #4 ---
-
-
-
 end
 
 function getSkillDesc(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-5, warpins: 1 ---
 	if not pg.skill_data_template[slot0] then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 6-7, warpins: 1 ---
 		return ""
-		--- END OF BLOCK #0 ---
-
-
-
 	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 8-11, warpins: 2 ---
-	slot3 = slot2.desc
 
 	if not slot2.desc_add then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 12-15, warpins: 1 ---
-		return HXSet.hxLan(slot3)
-		--- END OF BLOCK #0 ---
-
-
-
+		return HXSet.hxLan(slot2.desc)
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 16-19, warpins: 2 ---
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 20-34, warpins: 0 ---
 	for slot7, slot8 in pairs(slot2.desc_add) do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 20-32, warpins: 1 ---
 		slot3 = specialGSub(slot3, "$" .. slot7, setColorStr(slot8[slot1][1], COLOR_GREEN))
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 33-34, warpins: 2 ---
-		--- END OF BLOCK #1 ---
-
-
-
 	end
 
-	--- END OF BLOCK #3 ---
-
-	FLOW; TARGET BLOCK #4
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #4 35-38, warpins: 1 ---
 	return HXSet.hxLan(slot3)
-	--- END OF BLOCK #4 ---
-
-
-
 end
 
 function specialGSub(slot0, slot1, slot2)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-36, warpins: 1 ---
-	return string.gsub(string.gsub(string.gsub(string.gsub(slot0, "<color=#", "<color=NNN"), "#", ""), slot1, slot2), "<color=NNN", "<color=#")
-	--- END OF BLOCK #0 ---
-
-
-
+	return string.gsub(string.gsub(string.gsub(string.gsub(slot0, "<color=#", "<color=NNN"), "#", ""), slot1, string.gsub(slot2, "%%", "%%%%")), "<color=NNN", "<color=#")
 end
 
 function topAnimation(slot0, slot1, slot2, slot3, slot4, slot5)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-3, warpins: 1 ---
 	slot6 = {}
-
-	if not slot4 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 4-4, warpins: 1 ---
-		slot4 = 0.27
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 5-7, warpins: 2 ---
 	slot7 = 0.05
 
 	if slot0 then
+		slot8 = slot0.transform.localPosition.x
 
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 8-29, warpins: 1 ---
 		setAnchoredPosition(slot0, {
-			x = slot0.transform.localPosition.x - 500
+			x = slot8 - 500
 		})
-		shiftPanel(slot0, slot8, nil, 0.05, slot4, true, true)
+		shiftPanel(slot0, slot8, nil, 0.05, slot4 or 0.27, true, true)
 		setActive(slot0, true)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 30-45, warpins: 2 ---
 	setActive(slot1, false)
 	setActive(slot2, false)
 	setActive(slot3, false)
 
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 46-76, warpins: 0 ---
-	for slot11 = 1, 3, 1 do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 46-76, warpins: 2 ---
+	for slot11 = 1, 3 do
 		table.insert(slot6, LeanTween.delayedCall(slot4 + 0.13 + slot7 * slot11, System.Action(function ()
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 1-3, warpins: 1 ---
-			if slot0 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 4-10, warpins: 1 ---
-				setActive(setActive, not slot0.gameObject.activeSelf)
-				--- END OF BLOCK #0 ---
-
-
-
+			if uv0 then
+				setActive(uv0, not uv0.gameObject.activeSelf)
 			end
-
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 11-11, warpins: 2 ---
-			return
-			--- END OF BLOCK #1 ---
-
-
-
 		end)).uniqueId)
 		table.insert(slot6, LeanTween.delayedCall(slot4 + 0.02 + slot7 * slot11, System.Action(function ()
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 1-3, warpins: 1 ---
-			if slot0 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 4-11, warpins: 1 ---
-				setActive(setActive, not go(setActive).activeSelf)
-				--- END OF BLOCK #0 ---
-
-
-
+			if uv0 then
+				setActive(uv0, not go(uv0).activeSelf)
 			end
 
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 12-14, warpins: 2 ---
-			if slot0 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 15-22, warpins: 1 ---
-				setActive(slot1, not go(slot1).activeSelf)
-				--- END OF BLOCK #0 ---
-
-
-
+			if uv0 then
+				setActive(uv1, not go(uv1).activeSelf)
 			end
-
-			--- END OF BLOCK #1 ---
-
-			FLOW; TARGET BLOCK #2
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #2 23-23, warpins: 2 ---
-			return
-			--- END OF BLOCK #2 ---
-
-
-
 		end)).uniqueId)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #3 ---
-
-	FLOW; TARGET BLOCK #4
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #4 77-78, warpins: 1 ---
 	if slot5 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 79-94, warpins: 1 ---
 		table.insert(slot6, LeanTween.delayedCall(slot4 + 0.13 + slot7 * 3 + 0.1, System.Action(function ()
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 1-3, warpins: 1 ---
-			slot0()
-
-			return
-			--- END OF BLOCK #0 ---
-
-
-
+			uv0()
 		end)).uniqueId)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #4 ---
-
-	FLOW; TARGET BLOCK #5
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #5 95-96, warpins: 2 ---
 	return slot6
-	--- END OF BLOCK #5 ---
-
-
-
 end
 
 function cancelTweens(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-2, warpins: 1 ---
 	if not slot0 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 3-7, warpins: 1 ---
 		LeanTween:cancelAll()
 
 		return
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 8-11, warpins: 2 ---
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 12-19, warpins: 0 ---
 	for slot4, slot5 in ipairs(slot0) do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 12-13, warpins: 1 ---
 		if slot5 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 14-17, warpins: 1 ---
 			LeanTween.cancel(slot5)
-			--- END OF BLOCK #0 ---
-
-
-
 		end
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 18-19, warpins: 3 ---
-		--- END OF BLOCK #1 ---
-
-
-
 	end
-
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 20-20, warpins: 1 ---
-	return
-	--- END OF BLOCK #3 ---
-
-
-
 end
 
 function calcRelativeRectPos(slot0, slot1, slot2, slot3)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-32, warpins: 1 ---
 	slot4 = slot2.x + slot1.width / 2
-	slot5 = (slot2.x + slot2.width) - slot1.width / 2
+	slot5 = slot2.x + slot2.width - slot1.width / 2
 	slot6 = slot2.y + slot1.height / 2
-	slot7 = (slot2.y + slot2.height) - slot1.height / 2
+	slot7 = slot2.y + slot2.height - slot1.height / 2
+	slot9 = 10
 
-	function slot8(slot0)
+	for slot14 = 360 / slot9, 1, -1 do
+		pos = slot0.center + Quaternion.Euler(0, 0, slot9) * slot3
 
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-4, warpins: 1 ---
-		if slot0 > slot0.x or slot0.x >  or slot2 > slot0.y or slot0.y > slot3 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 17-18, warpins: 4 ---
-			slot1 = false
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 19-19, warpins: 1 ---
-			slot1 = true
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 20-20, warpins: 2 ---
-		return slot1
-		--- END OF BLOCK #1 ---
-
-
-
-	end
-
-	slot10 = Quaternion.Euler(0, 0, slot9)
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 33-45, warpins: 0 ---
-	for slot14 = 360 / 10, 1, -1 do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 33-41, warpins: 2 ---
-		pos = slot0.center + slot10 * slot3
-
-		if slot8(pos) then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 42-44, warpins: 1 ---
+		if function (slot0)
+			return uv0 <= slot0.x and slot0.x <= uv1 and uv2 <= slot0.y and slot0.y <= uv3
+		end(pos) then
 			return pos
-			--- END OF BLOCK #0 ---
-
-
-
 		end
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 45-45, warpins: 2 ---
-		--- END OF BLOCK #1 ---
-
-
-
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 46-71, warpins: 1 ---
 	return _.min({
 		Vector2(slot4, slot6),
 		Vector2(slot4, slot7),
 		Vector2(slot5, slot7),
 		Vector2(slot5, slot6)
 	}, function (slot0)
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-6, warpins: 1 ---
-		return Vector2.Distance(slot0, slot0.center)
-		--- END OF BLOCK #0 ---
-
-
-
+		return Vector2.Distance(slot0, uv0.center)
 	end)
-	--- END OF BLOCK #2 ---
-
-
-
 end
 
 function getOfflineTimeStamp(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-12, warpins: 1 ---
 	slot3 = ""
 
-	if pg.TimeMgr.GetInstance():GetServerTime() - slot0 <= 59 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 13-17, warpins: 1 ---
-		slot3 = i18n("just_now")
-		--- END OF BLOCK #0 ---
-
-
-
-	else
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 18-20, warpins: 1 ---
-		if slot2 <= 3599 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 21-29, warpins: 1 ---
-			slot3 = i18n("several_minutes_before", math.floor(slot2 / 60))
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 30-32, warpins: 1 ---
-			if slot2 <= 86399 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 33-41, warpins: 1 ---
-				slot3 = i18n("several_hours_before", math.floor(slot2 / 3600))
-				--- END OF BLOCK #0 ---
-
-
-
-			else
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 42-49, warpins: 1 ---
-				slot3 = i18n("several_days_before", math.floor(slot2 / 86400))
-				--- END OF BLOCK #0 ---
-
-
-
-			end
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 50-50, warpins: 4 ---
-	return slot3
-	--- END OF BLOCK #1 ---
-
-
-
+	return (pg.TimeMgr.GetInstance():GetServerTime() - slot0 > 59 or i18n("just_now")) and (slot2 > 3599 or i18n("several_minutes_before", math.floor(slot2 / 60))) and (slot2 > 86399 or i18n("several_hours_before", math.floor(slot2 / 3600))) and i18n("several_days_before", math.floor(slot2 / 86400))
 end
 
 function playMovie(slot0, slot1, slot2)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-9, warpins: 1 ---
 	if not IsNil(GameObject.Find("OverlayCamera/Overlay/UITop/MoviePanel")) then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 10-24, warpins: 1 ---
 		pg.UIMgr.GetInstance():LoadingOn()
 		WWWLoader.Inst:LoadStreamingAsset(slot0, function (slot0)
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 1-61, warpins: 1 ---
 			pg.UIMgr.GetInstance():LoadingOff()
 
 			slot1 = GCHandle.Alloc(slot0, GCHandleType.Pinned)
 
-			setActive(slot0, true)
+			setActive(uv0, true)
 
-			slot2 = slot0:AddComponent(typeof(CriManaMovieControllerForUI))
+			slot2 = uv0:AddComponent(typeof(CriManaMovieControllerForUI))
 
 			slot2.player:SetData(slot0, slot0.Length)
 
-			slot2.target = slot0:GetComponent(typeof(Image))
+			slot2.target = uv0:GetComponent(typeof(Image))
 			slot2.loop = false
 			slot2.additiveMode = false
 			slot2.playOnStart = true
 			slot3 = nil
 
 			Timer.New(function ()
+				if uv0.player.status == CriMana.Player.Status.PlayEnd or uv0.player.status == CriMana.Player.Status.Stop or uv0.player.status == CriMana.Player.Status.Error then
+					uv1:Stop()
+					Object.Destroy(uv0)
+					GCHandle.Free(uv2)
+					setActive(uv3, false)
 
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 1-9, warpins: 1 ---
-				if slot0.player.status == CriMana.Player.Status.PlayEnd or slot0.player.status == CriMana.Player.Status.Stop or slot0.player.status == CriMana.Player.Status.Error then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 28-46, warpins: 3 ---
-					slot1:Stop()
-					Object.Destroy(Object.Destroy)
-					GCHandle.Free(slot2)
-					setActive(slot3, false)
-
-					if slot4 then
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 47-48, warpins: 1 ---
-						slot4()
-						--- END OF BLOCK #0 ---
-
-
-
+					if uv4 then
+						uv4()
 					end
-					--- END OF BLOCK #0 ---
-
-
-
 				end
+			end, 0.2, -1):Start()
+			removeOnButton(uv0)
 
-				--- END OF BLOCK #0 ---
-
-				FLOW; TARGET BLOCK #1
-
-
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #1 49-49, warpins: 3 ---
-				return
-				--- END OF BLOCK #1 ---
-
-
-
-			end, 0.2, -1).Start(slot3)
-			removeOnButton(slot0)
-
-			if slot2 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 62-67, warpins: 1 ---
-				onButton(nil, slot0, function ()
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 1-10, warpins: 1 ---
-					slot0:Stop()
-					slot1.onClick:RemoveAllListeners()
-
-					return
-					--- END OF BLOCK #0 ---
-
-
-
+			if uv2 then
+				onButton(nil, uv0, function ()
+					uv0:Stop()
+					uv1.onClick:RemoveAllListeners()
 				end, SFX_CANCEL)
-				--- END OF BLOCK #0 ---
-
-
-
 			end
-
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 68-69, warpins: 2 ---
-			return
-			--- END OF BLOCK #1 ---
-
-
-
 		end)
-		--- END OF BLOCK #0 ---
-
-
-
-	else
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 25-26, warpins: 1 ---
-		if slot1 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 27-28, warpins: 1 ---
-			slot1()
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-		--- END OF BLOCK #0 ---
-
-
-
+	elseif slot1 then
+		slot1()
 	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 29-30, warpins: 3 ---
-	return
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 PaintCameraAdjustOn = false
 
 function cameraPaintViewAdjust(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-3, warpins: 1 ---
 	if PaintCameraAdjustOn ~= slot0 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 4-15, warpins: 1 ---
 		slot1 = GameObject.Find("UICamera/Canvas"):GetComponent(typeof(CanvasScaler))
 
 		if slot0 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 16-28, warpins: 1 ---
 			CameraUtil.AutoAdapt = false
 
 			CameraUtil.Revert()
 
 			slot1.screenMatchMode = CanvasScaler.ScreenMatchMode.MatchWidthOrHeight
 			slot1.matchWidthOrHeight = 1
-			--- END OF BLOCK #0 ---
-
-
-
 		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 29-44, warpins: 1 ---
 			CameraUtil.AutoAdapt = true
 			CameraUtil.CurrentWidth = 1
 			CameraUtil.CurrentHeight = 1
 			CameraUtil.AspectRatio = 1.7777777777777777
 			slot1.screenMatchMode = CanvasScaler.ScreenMatchMode.Expand
-			--- END OF BLOCK #0 ---
-
-
-
 		end
 
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 45-45, warpins: 2 ---
 		PaintCameraAdjustOn = slot0
-		--- END OF BLOCK #1 ---
-
-
-
 	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 46-46, warpins: 2 ---
-	return
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function ManhattonDist(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-14, warpins: 1 ---
 	return math.abs(slot0.row - slot1.row) + math.abs(slot0.column - slot1.column)
-	--- END OF BLOCK #0 ---
-
-
-
 end
 
 function checkFirstHelpShow(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-9, warpins: 1 ---
 	if not getProxy(SettingsProxy):checkReadHelp(slot0) then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 10-28, warpins: 1 ---
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip[slot0].tip
 		})
 		slot1:recordReadHelp(slot0)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 29-29, warpins: 2 ---
-	return
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 preOrientation = nil
 preNotchFitterEnabled = false
 
 function openPortrait(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-25, warpins: 1 ---
 	enableNotch(slot0, true)
 
 	preOrientation = Input.deviceOrientation:ToString()
@@ -4151,18 +2086,9 @@ function openPortrait(slot0)
 	Screen.autorotateToPortraitUpsideDown = true
 
 	cameraPaintViewAdjust(true)
-
-	return
-	--- END OF BLOCK #0 ---
-
-
-
 end
 
 function closePortrait(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-32, warpins: 1 ---
 	enableNotch(slot0, false)
 
 	Screen.autorotateToPortrait = false
@@ -4172,270 +2098,68 @@ function closePortrait(slot0)
 
 	Screen.orientation = ScreenOrientation.LandscapeLeft
 	slot1 = Timer.New(function ()
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-5, warpins: 1 ---
 		Screen.orientation = ScreenOrientation.AutoRotation
-
-		return
-		--- END OF BLOCK #0 ---
-
-
-
 	end, 0.2, 1):Start()
 
 	cameraPaintViewAdjust(false)
-
-	return
-	--- END OF BLOCK #0 ---
-
-
-
 end
 
 function enableNotch(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-2, warpins: 1 ---
 	if slot0 == nil then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 3-3, warpins: 1 ---
 		return
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 4-14, warpins: 2 ---
 	slot0:GetComponent("NotchAdapt").enabled = slot1
 
 	if slot0:GetComponent("AspectRatioFitter") then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 15-16, warpins: 1 ---
 		if slot1 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 17-19, warpins: 1 ---
 			slot3.enabled = preNotchFitterEnabled
-			--- END OF BLOCK #0 ---
-
-
-
 		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 20-23, warpins: 1 ---
 			preNotchFitterEnabled = slot3.enabled
 			slot3.enabled = false
-			--- END OF BLOCK #0 ---
-
-
-
 		end
-		--- END OF BLOCK #0 ---
-
-
-
 	end
-
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 24-24, warpins: 3 ---
-	return
-	--- END OF BLOCK #2 ---
-
-
-
 end
 
 function comma_value(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-2, warpins: 1 ---
-	slot1 = slot0
 	slot2 = 0
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 3-3, warpins: 3 ---
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 4-16, warpins: 0 ---
 	while true do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 4-13, warpins: 1 ---
-		slot1, slot2 = string.gsub(slot1, "^(-?%d+)(%d%d%d)", "%1,%2")
+		slot1, slot4 = string.gsub(slot0, "^(-?%d+)(%d%d%d)", "%1,%2")
 
 		if slot4 == 0 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 14-14, warpins: 1 ---
 			break
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 15-15, warpins: 0 ---
-			--- END OF BLOCK #1 ---
-
-
-
 		end
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 16-16, warpins: 0 ---
-		--- END OF BLOCK #1 ---
-
-
-
 	end
 
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 16-16, warpins: 1 ---
 	return slot1
-	--- END OF BLOCK #3 ---
-
-
-
 end
 
 function SwitchPanel(slot0, slot1, slot2, slot3, slot4, slot5)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-7, warpins: 1 ---
 	slot3 = defaultValue(slot3, SWITCH_PANEL_TIME)
 
 	if slot5 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 8-13, warpins: 1 ---
 		LeanTween.cancel(go(slot0))
-		--- END OF BLOCK #0 ---
-
-
-
 	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 14-33, warpins: 2 ---
-	slot6 = Vector3.New(tf(slot0).localPosition.x, tf(slot0).localPosition.y, tf(slot0).localPosition.z)
 
 	if slot1 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 34-34, warpins: 1 ---
-		slot6.x = slot1
-		--- END OF BLOCK #0 ---
-
-
-
+		Vector3.New(tf(slot0).localPosition.x, tf(slot0).localPosition.y, tf(slot0).localPosition.z).x = slot1
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 35-36, warpins: 2 ---
 	if slot2 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 37-37, warpins: 1 ---
 		slot6.y = slot2
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 38-52, warpins: 2 ---
 	slot7 = LeanTween.move(rtf(slot0), slot6, slot3):setEase(LeanTweenType.easeInOutSine)
 
 	if slot4 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 53-56, warpins: 1 ---
 		slot7:setDelay(slot4)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #3 ---
-
-	FLOW; TARGET BLOCK #4
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #4 57-57, warpins: 2 ---
 	return slot7
-	--- END OF BLOCK #4 ---
-
-
-
 end
 
 function getSpecialItemPage(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-21, warpins: 1 ---
 	return ({
 		{
 			mediator = AssignedShipMediator,
@@ -4450,27 +2174,14 @@ function getSpecialItemPage(slot0)
 			viewComponent = AssignedShipScene3
 		}
 	})[slot0]
-	--- END OF BLOCK #0 ---
-
-
-
 end
 
 function updateActivityTaskStatus(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-10, warpins: 1 ---
 	slot1 = slot0:getConfig("config_id")
 	slot2, slot3 = getActivityTask(slot0, true)
 
 	if not slot3 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 11-12, warpins: 1 ---
 		if slot1 == 0 or slot1 == 1 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 15-28, warpins: 2 ---
 			pg.m02:sendNotification(GAME.ACTIVITY_OPERATION, {
 				cmd = 1,
 				activity_id = slot0.id,
@@ -4478,1603 +2189,278 @@ function updateActivityTaskStatus(slot0)
 			})
 
 			return true
-			--- END OF BLOCK #0 ---
+		elseif slot1 == 2 or slot1 == 3 then
+			pg.m02:sendNotification(GAME.ACTIVITY_OPERATION, {
+				cmd = 1,
+				activity_id = slot0.id
+			})
 
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 29-30, warpins: 1 ---
-			if slot1 == 2 or slot1 == 3 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 33-44, warpins: 2 ---
-				pg.m02:sendNotification(GAME.ACTIVITY_OPERATION, {
-					cmd = 1,
-					activity_id = slot0.id
-				})
-
-				return true
-				--- END OF BLOCK #0 ---
-
-
-
-			end
-			--- END OF BLOCK #0 ---
-
-
-
+			return true
 		end
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 45-46, warpins: 4 ---
 	return false
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function setShipCardFrame(slot0, slot1, slot2)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-15, warpins: 1 ---
 	slot0.localScale = Vector3.one
 	slot0.anchorMin = Vector2.zero
 	slot0.anchorMax = Vector2.one
-	slot3 = setImageSprite
-	slot4 = slot0
-	slot5 = GetSpriteFromAtlas
-	slot6 = "shipframe"
 
-	if not slot2 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 16-16, warpins: 1 ---
-		slot7 = slot1
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 17-19, warpins: 2 ---
-	slot3(slot4, slot5(slot6, slot7))
-
-	return
-	--- END OF BLOCK #1 ---
-
-
-
+	setImageSprite(slot0, GetSpriteFromAtlas("shipframe", slot2 or slot1))
 end
 
 function setRectShipCardFrame(slot0, slot1, slot2)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-16, warpins: 1 ---
 	slot0.localScale = Vector3.one
 	slot0.anchorMin = Vector2.zero
 	slot0.anchorMax = Vector2.one
-	slot3 = setImageSprite
-	slot4 = slot0
-	slot5 = GetSpriteFromAtlas
-	slot6 = "shipframe"
-	slot7 = "b"
 
-	if not slot2 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 17-17, warpins: 1 ---
-		slot8 = slot1
-		--- END OF BLOCK #0 ---
-
-
-
-	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 18-21, warpins: 2 ---
-	slot3(slot4, slot5(slot6, slot7 .. slot8))
-
-	return
-	--- END OF BLOCK #1 ---
-
-
-
+	setImageSprite(slot0, GetSpriteFromAtlas("shipframe", "b" .. (slot2 or slot1)))
 end
 
 function flushShipCard(slot0, slot1, slot2)
+	slot3 = slot1:rarity2bgPrint()
 
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-73, warpins: 1 ---
-	setImageSprite(slot4, GetSpriteFromAtlas("bg/star_level_card_" .. slot3, ""))
+	setImageSprite(findTF(slot0, "content/bg"), GetSpriteFromAtlas("bg/star_level_card_" .. slot3, ""))
 
 	findTF(slot0, "content/ship_icon"):GetComponent("Image").sprite = GetSpriteFromAtlas("shipYardIcon/unknown", "")
 
 	LoadSpriteAsync("shipYardIcon/" .. slot1:getPainting(), function (slot0)
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-3, warpins: 1 ---
-		if slot0 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 4-6, warpins: 1 ---
-			if slot1 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 7-12, warpins: 1 ---
-				slot1(slot0, slot0.configId)
-				--- END OF BLOCK #0 ---
-
-
-
+		if uv0 then
+			if uv1 then
+				uv1(slot0, uv0.configId)
 			else
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 13-14, warpins: 1 ---
-				slot2.sprite = slot0
-				--- END OF BLOCK #0 ---
-
-
-
+				uv2.sprite = slot0
 			end
-			--- END OF BLOCK #0 ---
-
-
-
 		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 15-15, warpins: 3 ---
-		return
-		--- END OF BLOCK #1 ---
-
-
-
 	end)
-	setImageSprite(slot7, GetSpriteFromAtlas("shiptype", shipType2print(slot1:getShipType())))
+	setImageSprite(findTF(slot0, "content/info/top/type"), GetSpriteFromAtlas("shiptype", shipType2print(slot1:getShipType())))
 	setText(findTF(slot0, "content/dockyard/lv/Text"), defaultValue(slot1.level, 1))
-
-	slot9 = setShipCardFrame
-	slot10 = findTF(slot0, "content/front/frame")
-	slot11 = slot1:rarity2bgPrint()
-
-	if slot1.propose then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 74-79, warpins: 1 ---
-		slot12 = "prop"
-
-		if not slot1:isBluePrintShip() or not slot3 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 82-82, warpins: 2 ---
-			slot13 = ""
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 83-85, warpins: 2 ---
-		if not (slot12 .. slot13) then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 86-86, warpins: 2 ---
-			slot12 = nil
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-		--- END OF BLOCK #1 ---
-
-
-
-	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 87-110, warpins: 2 ---
-	slot9(slot10, slot11, slot12)
+	setShipCardFrame(findTF(slot0, "content/front/frame"), slot3, slot1.propose and "prop" .. (slot1:isBluePrintShip() and slot3 or "") or nil)
 
 	slot9 = findTF(slot0, "content/front/stars")
 
 	setActive(slot9, true)
 
-	slot10 = findTF(slot9, "star_tpl")
 	slot12 = slot1:getStar()
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 111-115, warpins: 0 ---
-	for slot17 = slot9.childCount, slot1:getMaxStar() - 1, 1 do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 111-115, warpins: 2 ---
-		cloneTplTo(slot10, slot9)
-		--- END OF BLOCK #0 ---
-
-
-
+	for slot17 = slot9.childCount, slot1:getMaxStar() - 1 do
+		cloneTplTo(findTF(slot9, "star_tpl"), slot9)
 	end
 
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 116-120, warpins: 1 ---
-	--- END OF BLOCK #3 ---
-
-	FLOW; TARGET BLOCK #4
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #4 121-156, warpins: 0 ---
-	for slot17 = 0, slot9.childCount - 1, 1 do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 121-129, warpins: 2 ---
-		slot20 = slot9:GetChild(slot17).gameObject
-		slot19 = slot9.GetChild(slot17).gameObject.SetActive
-
-		if slot17 >= slot13 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 130-131, warpins: 1 ---
-			slot21 = false
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 132-132, warpins: 1 ---
-			slot21 = true
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 133-140, warpins: 2 ---
-		slot19(slot20, slot21)
-
-		slot19 = SetActive
-		slot20 = slot18:Find("star_tpl")
-
-		if slot17 >= slot12 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 141-142, warpins: 1 ---
-			slot21 = false
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 143-143, warpins: 1 ---
-			slot21 = true
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 144-151, warpins: 2 ---
-		slot19(slot20, slot21)
-
-		slot19 = SetActive
-		slot20 = slot18:Find("star_empty_tpl")
-
-		if slot12 > slot17 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 152-153, warpins: 1 ---
-			slot21 = false
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 154-154, warpins: 1 ---
-			slot21 = true
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #2 ---
-
-		FLOW; TARGET BLOCK #3
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #3 155-156, warpins: 2 ---
-		slot19(slot20, slot21)
-		--- END OF BLOCK #3 ---
-
-
-
+	for slot17 = 0, slot9.childCount - 1 do
+		slot9:GetChild(slot17).gameObject:SetActive(slot17 < slot13)
+		SetActive(slot18:Find("star_tpl"), slot17 < slot12)
+		SetActive(slot18:Find("star_empty_tpl"), slot12 <= slot17)
 	end
 
-	--- END OF BLOCK #4 ---
-
-	FLOW; TARGET BLOCK #5
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #5 157-165, warpins: 1 ---
 	slot14 = findTF(slot0, "content/front/bg_other")
 	slot15 = nil
 	slot16 = false
 
 	if slot1.propose then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 166-171, warpins: 1 ---
-		slot17 = "duang_6_jiehun"
-
-		if slot1:isBluePrintShip() then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 172-173, warpins: 1 ---
-			slot18 = "_tuzhi"
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 174-174, warpins: 1 ---
-			slot18 = ""
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 175-176, warpins: 2 ---
-		slot15 = slot17 .. slot18
-		--- END OF BLOCK #1 ---
-
-
-
-	else
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 177-181, warpins: 1 ---
-		if slot1:getRarity() == 6 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 182-182, warpins: 1 ---
-			slot15 = "duang_6"
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-		--- END OF BLOCK #0 ---
-
-
-
+		slot15 = "duang_6_jiehun" .. (slot1:isBluePrintShip() and "_tuzhi" or "")
+	elseif slot1:getRarity() == 6 then
+		slot15 = "duang_6"
 	end
 
-	--- END OF BLOCK #5 ---
-
-	FLOW; TARGET BLOCK #6
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #6 183-184, warpins: 3 ---
 	if slot15 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 185-193, warpins: 1 ---
 		slot17 = slot15 .. "(Clone)"
 
 		eachChild(slot14, function (slot0)
+			setActive(slot0, slot0.name == uv0)
 
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 1-6, warpins: 1 ---
-			slot1 = setActive
-			slot2 = slot0
-
-			if slot0.name ~= slot0 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 7-8, warpins: 1 ---
-				slot3 = false
-				--- END OF BLOCK #0 ---
-
-
-
-			else
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 9-9, warpins: 1 ---
-				slot3 = true
-				--- END OF BLOCK #0 ---
-
-
-
-			end
-
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 10-13, warpins: 2 ---
-			slot1(slot2, slot3)
-
-			if not slot1 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 14-17, warpins: 1 ---
-				if slot0.name ~= slot0 then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 18-19, warpins: 1 ---
-					slot1 = false
-					--- END OF BLOCK #0 ---
-
-
-
-				else
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 20-20, warpins: 1 ---
-					slot1 = true
-					--- END OF BLOCK #0 ---
-
-
-
-				end
-				--- END OF BLOCK #0 ---
-
-
-
-			end
-
-			--- END OF BLOCK #1 ---
-
-			FLOW; TARGET BLOCK #2
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #2 21-22, warpins: 3 ---
-			slot1 = slot1
-
-			return
-			--- END OF BLOCK #2 ---
-
-
-
+			uv1 = uv1 or slot0.name == uv0
 		end)
 
 		if not slot16 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 194-205, warpins: 1 ---
 			PoolMgr.GetInstance():GetPrefab("effect/" .. slot15, "", true, function (slot0)
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 1-5, warpins: 1 ---
-				setParent(slot0, slot0)
-
-				return
-				--- END OF BLOCK #0 ---
-
-
-
+				setParent(slot0, uv0)
 			end)
-			--- END OF BLOCK #0 ---
-
-
-
 		end
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 206-206, warpins: 2 ---
-		--- END OF BLOCK #1 ---
-
-
-
 	end
 
-	--- END OF BLOCK #6 ---
-
-	FLOW; TARGET BLOCK #7
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #7 207-212, warpins: 2 ---
 	setActive(slot14, slot15)
-
-	return
-	--- END OF BLOCK #7 ---
-
-
-
 end
 
 function TweenItemAlphaAndWhite(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-28, warpins: 1 ---
 	LeanTween.cancel(go(slot0))
 
-	GetOrAddComponent(slot0, "CanvasGroup").alpha = 0
+	slot1 = GetOrAddComponent(slot0, "CanvasGroup")
+	slot1.alpha = 0
 
 	LeanTween.alphaCanvas(slot1, 1, 0.2):setUseEstimatedTime(true)
 
 	if findTF(slot0.transform, "white_mask") then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 29-32, warpins: 1 ---
 		setActive(slot2, false)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 33-33, warpins: 2 ---
-	return
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function getGroupOwnSkins(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-16, warpins: 1 ---
 	slot1 = {}
-	slot3 = getProxy(ShipSkinProxy).getSkinList(slot2)
+	slot3 = getProxy(ShipSkinProxy):getSkinList()
 
 	if getProxy(CollectionProxy):getShipGroup(slot0) then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 17-24, warpins: 1 ---
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 25-57, warpins: 0 ---
-		for slot9, slot10 in ipairs(slot5) do
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 25-29, warpins: 1 ---
-			if slot10.skin_type == ShipSkin.SKIN_TYPE_DEFAULT or table.contains(slot3, slot10.id) or (slot10.skin_type == ShipSkin.SKIN_TYPE_REMAKE and slot4.trans) or (slot10.skin_type == ShipSkin.SKIN_TYPE_PROPOSE and slot4.married == 1) then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 53-55, warpins: 4 ---
+		for slot9, slot10 in ipairs(ShipGroup.getSkinList(slot0)) do
+			if slot10.skin_type == ShipSkin.SKIN_TYPE_DEFAULT or table.contains(slot3, slot10.id) or slot10.skin_type == ShipSkin.SKIN_TYPE_REMAKE and slot4.trans or slot10.skin_type == ShipSkin.SKIN_TYPE_PROPOSE and slot4.married == 1 then
 				slot1[slot10.id] = true
-				--- END OF BLOCK #0 ---
-
-
-
 			end
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 56-57, warpins: 4 ---
-			--- END OF BLOCK #1 ---
-
-
-
 		end
-		--- END OF BLOCK #1 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 58-58, warpins: 2 ---
 	return slot1
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function split(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-3, warpins: 1 ---
 	slot2 = {}
 
 	if not slot0 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 4-5, warpins: 1 ---
 		return nil
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 6-7, warpins: 2 ---
 	slot3 = #slot0
 	slot4 = 1
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 8-9, warpins: 2 ---
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 10-50, warpins: 0 ---
 	while slot3 >= slot4 do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 10-10, warpins: 1 ---
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 11-18, warpins: 1 ---
 		if string.find(slot0, slot1, slot4) == nil then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 19-29, warpins: 1 ---
 			table.insert(slot2, string.sub(slot0, slot4, slot3))
 
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 30-30, warpins: 1 ---
 			break
-			--- END OF BLOCK #1 ---
-
-
-
 		end
 
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 30-41, warpins: 1 ---
 		table.insert(slot2, string.sub(slot0, slot4, slot5 - 1))
 
 		if slot5 == slot3 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 42-47, warpins: 1 ---
 			table.insert(slot2, "")
 
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 48-48, warpins: 1 ---
 			break
-			--- END OF BLOCK #1 ---
-
-
-
 		end
 
-		--- END OF BLOCK #2 ---
-
-		FLOW; TARGET BLOCK #3
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #3 48-49, warpins: 1 ---
 		slot4 = slot5 + 1
-		--- END OF BLOCK #3 ---
-
-		FLOW; TARGET BLOCK #4
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #4 50-50, warpins: 1 ---
-		--- END OF BLOCK #4 ---
-
-
-
 	end
 
-	--- END OF BLOCK #3 ---
-
-	FLOW; TARGET BLOCK #4
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #4 50-50, warpins: 3 ---
 	return slot2
-	--- END OF BLOCK #4 ---
-
-
-
 end
 
 function NumberToChinese(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-6, warpins: 1 ---
 	slot2 = ""
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 7-70, warpins: 0 ---
-	for slot7 = 1, #slot0, 1 do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 7-14, warpins: 2 ---
-		if string.sub(slot0, slot7, slot7) ~= "0" or (slot8 == "0" and not slot1) then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 19-20, warpins: 2 ---
-			if slot1 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 21-23, warpins: 1 ---
-				if slot3 >= 2 then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 24-25, warpins: 1 ---
-					if slot7 == 1 then
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 26-27, warpins: 1 ---
-						if slot8 == "1" then
-
-							-- Decompilation error in this vicinity:
-							--- BLOCK #0 28-34, warpins: 1 ---
-							slot2 = i18n("number_" .. 10)
-							--- END OF BLOCK #0 ---
-
-
-
-						else
-
-							-- Decompilation error in this vicinity:
-							--- BLOCK #0 35-46, warpins: 1 ---
-							slot2 = i18n("number_" .. slot8) .. i18n("number_" .. 10)
-							--- END OF BLOCK #0 ---
-
-
-
-						end
-						--- END OF BLOCK #0 ---
-
-
-
-					else
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 47-54, warpins: 1 ---
-						slot2 = slot2 .. i18n("number_" .. slot8)
-						--- END OF BLOCK #0 ---
-
-
-
-					end
-					--- END OF BLOCK #0 ---
-
-
-
-				else
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 55-62, warpins: 1 ---
-					slot2 = slot2 .. i18n("number_" .. slot8)
-					--- END OF BLOCK #0 ---
-
-
-
-				end
-				--- END OF BLOCK #0 ---
-
-
-
-			else
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 63-69, warpins: 1 ---
-				slot2 = slot2 .. i18n("number_" .. slot8)
-				--- END OF BLOCK #0 ---
-
-
-
-			end
-			--- END OF BLOCK #0 ---
-
-
-
+	for slot7 = 1, #slot0 do
+		if string.sub(slot0, slot7, slot7) ~= "0" or slot8 == "0" and not slot1 then
+			slot2 = slot1 and (slot3 >= 2 and (slot7 == 1 and (slot8 == "1" and i18n("number_" .. 10) or i18n("number_" .. slot8) .. i18n("number_" .. 10)) or i18n("number_" .. slot8) .. i18n("number_" .. 10) .. i18n("number_" .. slot8)) or i18n("number_" .. slot8) .. i18n("number_" .. 10) .. i18n("number_" .. slot8) .. i18n("number_" .. slot8)) or i18n("number_" .. slot8) .. i18n("number_" .. 10) .. i18n("number_" .. slot8) .. i18n("number_" .. slot8) .. i18n("number_" .. slot8)
 		end
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 70-70, warpins: 7 ---
-		--- END OF BLOCK #1 ---
-
-
-
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 71-71, warpins: 1 ---
 	return slot2
-	--- END OF BLOCK #2 ---
-
-
-
 end
 
 function getActivityTask(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-32, warpins: 1 ---
 	slot2 = getProxy(TaskProxy)
 	slot4 = pg.TimeMgr.GetInstance()
 	slot6, slot7, slot8 = nil
+	slot12 = #slot0:getConfig("config_data")
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 33-82, warpins: 0 ---
-	for slot12 = math.max(slot0.data3, 1), math.min(slot5, #slot0:getConfig("config_data")), 1 do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 33-42, warpins: 2 ---
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 43-81, warpins: 0 ---
-		for slot17, slot18 in ipairs(slot13) do
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 43-49, warpins: 1 ---
+	for slot12 = math.max(slot0.data3, 1), math.min(slot4:DiffDay(slot0.data1, slot4:GetServerTime()) + 1, slot12) do
+		for slot17, slot18 in ipairs(_.flatten({
+			slot3[slot12]
+		})) do
 			if slot2:getTaskById(slot18) then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 50-52, warpins: 1 ---
 				return slot6.id, slot6
-				--- END OF BLOCK #0 ---
-
-
-
 			end
 
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 53-54, warpins: 2 ---
 			if slot7 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 55-61, warpins: 1 ---
 				if slot2:getFinishTaskById(slot18) then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 62-63, warpins: 1 ---
 					slot7 = slot8
-					--- END OF BLOCK #0 ---
-
-
-
+				elseif slot1 then
+					return slot18
 				else
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 64-65, warpins: 1 ---
-					if slot1 then
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 66-67, warpins: 1 ---
-						return slot18
-						--- END OF BLOCK #0 ---
-
-
-
-					else
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 68-71, warpins: 1 ---
-						return slot7.id, slot7
-						--- END OF BLOCK #0 ---
-
-
-
-					end
-					--- END OF BLOCK #0 ---
-
-
-
+					return slot7.id, slot7
 				end
-				--- END OF BLOCK #0 ---
-
-
-
 			else
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 72-78, warpins: 1 ---
 				slot7 = slot2:getFinishTaskById(slot18)
-
-				if not slot8 then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 79-79, warpins: 1 ---
-					slot8 = slot18
-					--- END OF BLOCK #0 ---
-
-
-
-				end
-				--- END OF BLOCK #0 ---
-
-
-
+				slot8 = slot8 or slot18
 			end
-			--- END OF BLOCK #1 ---
-
-			FLOW; TARGET BLOCK #2
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #2 80-81, warpins: 6 ---
-			--- END OF BLOCK #2 ---
-
-
-
 		end
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 82-82, warpins: 1 ---
-		--- END OF BLOCK #2 ---
-
-
-
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 83-84, warpins: 1 ---
 	if slot7 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 85-88, warpins: 1 ---
 		return slot7.id, slot7
-		--- END OF BLOCK #0 ---
-
-
-
 	else
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 89-89, warpins: 1 ---
 		return slot8
-		--- END OF BLOCK #0 ---
-
-
-
 	end
-
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 90-90, warpins: 2 ---
-	return
-	--- END OF BLOCK #3 ---
-
-
-
 end
 
 function setImageFromImage(slot0, slot1, slot2)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-12, warpins: 1 ---
 	GetComponent(slot0, "Image").sprite = GetComponent(slot1, "Image").sprite
 
 	if slot2 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 13-15, warpins: 1 ---
 		slot3:SetNativeSize()
-		--- END OF BLOCK #0 ---
-
-
-
 	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 16-16, warpins: 2 ---
-	return
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function skinTimeStamp(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-11, warpins: 1 ---
 	slot1, slot2, slot3, slot4 = pg.TimeMgr.GetInstance():parseTimeFrom(slot0)
 
 	if slot1 >= 1 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 12-16, warpins: 1 ---
 		return i18n("limit_skin_time_day", slot1)
-		--- END OF BLOCK #0 ---
-
-
-
-	else
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 17-19, warpins: 1 ---
-		if slot1 <= 0 and slot2 > 0 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 23-28, warpins: 1 ---
-			return i18n("limit_skin_time_day_min", slot2, slot3)
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 29-31, warpins: 2 ---
-			if slot1 <= 0 and slot2 <= 0 and (slot3 > 0 or slot4 > 0) then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 41-49, warpins: 2 ---
-				return i18n("limit_skin_time_min", math.max(slot3, 1))
-				--- END OF BLOCK #0 ---
-
-
-
-			else
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 50-52, warpins: 3 ---
-				if slot1 <= 0 and slot2 <= 0 and slot3 <= 0 and slot4 <= 0 then
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 62-64, warpins: 1 ---
-					return i18n("limit_skin_time_overtime")
-					--- END OF BLOCK #0 ---
-
-
-
-				end
-				--- END OF BLOCK #0 ---
-
-
-
-			end
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-		--- END OF BLOCK #0 ---
-
-
-
+	elseif slot1 <= 0 and slot2 > 0 then
+		return i18n("limit_skin_time_day_min", slot2, slot3)
+	elseif slot1 <= 0 and slot2 <= 0 and (slot3 > 0 or slot4 > 0) then
+		return i18n("limit_skin_time_min", math.max(slot3, 1))
+	elseif slot1 <= 0 and slot2 <= 0 and slot3 <= 0 and slot4 <= 0 then
+		return i18n("limit_skin_time_overtime")
 	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 65-65, warpins: 8 ---
-	return
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function InstagramTimeStamp(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-12, warpins: 1 ---
 	if (pg.TimeMgr.GetInstance():GetServerTime() - slot0) / 86400 > 1 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 13-20, warpins: 1 ---
 		return i18n("ins_word_day", math.floor(slot3))
-		--- END OF BLOCK #0 ---
-
-
-
+	elseif slot2 / 3600 > 1 then
+		return i18n("ins_word_hour", math.floor(slot4))
+	elseif slot2 / 60 > 1 then
+		return i18n("ins_word_minu", math.floor(slot5))
 	else
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 21-24, warpins: 1 ---
-		if slot2 / 3600 > 1 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 25-32, warpins: 1 ---
-			return i18n("ins_word_hour", math.floor(slot4))
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 33-36, warpins: 1 ---
-			if slot2 / 60 > 1 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 37-44, warpins: 1 ---
-				return i18n("ins_word_minu", math.floor(slot5))
-				--- END OF BLOCK #0 ---
-
-
-
-			else
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 45-48, warpins: 1 ---
-				return i18n("ins_word_minu", 1)
-				--- END OF BLOCK #0 ---
-
-
-
-			end
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-		--- END OF BLOCK #0 ---
-
-
-
+		return i18n("ins_word_minu", 1)
 	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 49-49, warpins: 4 ---
-	return
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function InstagramReplyTimeStamp(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-12, warpins: 1 ---
 	if (pg.TimeMgr.GetInstance():GetServerTime() - slot0) / 86400 > 1 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 13-21, warpins: 1 ---
 		return i18n1(math.floor(slot3) .. "d")
-		--- END OF BLOCK #0 ---
-
-
-
+	elseif slot2 / 3600 > 1 then
+		return i18n1(math.floor(slot4) .. "h")
+	elseif slot2 / 60 > 1 then
+		return i18n1(math.floor(slot5) .. "min")
 	else
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 22-25, warpins: 1 ---
-		if slot2 / 3600 > 1 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 26-34, warpins: 1 ---
-			return i18n1(math.floor(slot4) .. "h")
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 35-38, warpins: 1 ---
-			if slot2 / 60 > 1 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 39-47, warpins: 1 ---
-				return i18n1(math.floor(slot5) .. "min")
-				--- END OF BLOCK #0 ---
-
-
-
-			else
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 48-50, warpins: 1 ---
-				return i18n1("1min")
-				--- END OF BLOCK #0 ---
-
-
-
-			end
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-		--- END OF BLOCK #0 ---
-
-
-
+		return i18n1("1min")
 	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 51-51, warpins: 4 ---
-	return
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function attireTimeStamp(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-11, warpins: 1 ---
 	slot1, slot2, slot3, slot4 = pg.TimeMgr.GetInstance():parseTimeFrom(slot0)
 
 	if slot1 <= 0 and slot2 <= 0 and slot3 <= 0 and slot4 <= 0 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 21-24, warpins: 1 ---
 		return i18n("limit_skin_time_overtime")
-		--- END OF BLOCK #0 ---
-
-
-
 	else
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 25-30, warpins: 4 ---
 		return i18n("attire_time_stamp", slot1, slot2, slot3)
-		--- END OF BLOCK #0 ---
-
-
-
 	end
-
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 31-31, warpins: 2 ---
-	return
-	--- END OF BLOCK #1 ---
-
-
-
 end
 
 function checkExist(slot0, ...)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-7, warpins: 1 ---
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 8-33, warpins: 0 ---
-	for slot5, slot6 in ipairs(slot1) do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 8-9, warpins: 1 ---
+	for slot5, slot6 in ipairs({
+		...
+	}) do
 		if not slot0 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 10-11, warpins: 1 ---
 			return false
-			--- END OF BLOCK #0 ---
-
-
-
 		end
 
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 12-17, warpins: 2 ---
-		if type(slot0[slot6[1]]) == "function" then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 18-24, warpins: 1 ---
-			slot7 = slot0[slot6[1]]
-			slot8 = slot0
-			slot9 = unpack
-
-			if not slot6[2] then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 25-25, warpins: 1 ---
-				slot10 = {}
-				--- END OF BLOCK #0 ---
-
-
-
-			end
-
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 26-29, warpins: 2 ---
-			slot0 = slot7(slot8, slot9(slot10))
-			--- END OF BLOCK #1 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 30-31, warpins: 1 ---
-			slot0 = slot0[slot6[1]]
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 32-33, warpins: 3 ---
-		--- END OF BLOCK #2 ---
-
-
-
+		slot0 = (type(slot0[slot6[1]]) ~= "function" or slot0[slot6[1]](slot0, unpack(slot6[2] or {}))) and slot0[slot6[1]](slot0, unpack(slot6[2] or ))[slot6[1]]
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 34-34, warpins: 1 ---
 	return slot0
-	--- END OF BLOCK #2 ---
-
-
-
 end
 
 function showRepairMsgbox()
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-31, warpins: 1 ---
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		hideYes = true,
 		content = i18n("resource_verify_warn"),
@@ -6082,627 +2468,150 @@ function showRepairMsgbox()
 			{
 				text = i18n("msgbox_repair_l2d"),
 				onCallback = function ()
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 1-9, warpins: 1 ---
 					if PathMgr.FileExists(Application.persistentDataPath .. "/hashes-live2d.csv") then
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 10-15, warpins: 1 ---
 						Live2DUpdateMgr.Inst:StartVerify()
-						--- END OF BLOCK #0 ---
-
-
-
 					else
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 16-25, warpins: 1 ---
 						pg.TipsMgr.GetInstance():ShowTips(i18n("word_no_cache"))
-						--- END OF BLOCK #0 ---
-
-
-
 					end
-
-					--- END OF BLOCK #0 ---
-
-					FLOW; TARGET BLOCK #1
-
-
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #1 26-26, warpins: 2 ---
-					return
-					--- END OF BLOCK #1 ---
-
-
-
 				end
 			},
 			{
 				text = i18n("msgbox_repair"),
 				onCallback = function ()
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 1-9, warpins: 1 ---
 					if PathMgr.FileExists(Application.persistentDataPath .. "/hashes.csv") then
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 10-15, warpins: 1 ---
 						UpdateMgr.Inst:StartVerify()
-						--- END OF BLOCK #0 ---
-
-
-
 					else
-
-						-- Decompilation error in this vicinity:
-						--- BLOCK #0 16-25, warpins: 1 ---
 						pg.TipsMgr.GetInstance():ShowTips(i18n("word_no_cache"))
-						--- END OF BLOCK #0 ---
-
-
-
 					end
-
-					--- END OF BLOCK #0 ---
-
-					FLOW; TARGET BLOCK #1
-
-
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #1 26-26, warpins: 2 ---
-					return
-					--- END OF BLOCK #1 ---
-
-
-
 				end
 			}
 		}
 	})
-
-	return
-	--- END OF BLOCK #0 ---
-
-
-
 end
 
 function resourceVerify(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-4, warpins: 1 ---
 	if CSharpVersion > 35 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 5-10, warpins: 1 ---
 		UpdateMgr.Inst:StartVerify()
 
 		return
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 11-22, warpins: 1 ---
 	slot3 = nil
-	slot4 = PathMgr.ReadAllLines(slot2)
+	slot4 = PathMgr.ReadAllLines(Application.persistentDataPath .. "/hashes.csv")
 	slot5 = {}
 
 	if slot0 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 23-27, warpins: 1 ---
 		setActive(slot0, true)
-		--- END OF BLOCK #0 ---
-
-
-
 	else
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 28-34, warpins: 1 ---
 		pg.UIMgr.GetInstance():LoadingOn()
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 35-43, warpins: 2 ---
 	function slot6()
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-3, warpins: 1 ---
-		if slot0 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 4-8, warpins: 1 ---
-			setActive(setActive, false)
-			--- END OF BLOCK #0 ---
-
-
-
+		if uv0 then
+			setActive(uv0, false)
 		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 9-15, warpins: 1 ---
 			pg.UIMgr.GetInstance():LoadingOff()
-			--- END OF BLOCK #0 ---
-
-
-
 		end
 
-		--- END OF BLOCK #0 ---
+		print(uv1)
 
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 16-21, warpins: 2 ---
-		print(slot1)
-
-		if slot1 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 22-37, warpins: 1 ---
+		if uv1 then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("resource_verify_fail", ""),
 				onYes = function ()
-
-					-- Decompilation error in this vicinity:
-					--- BLOCK #0 1-9, warpins: 1 ---
 					VersionMgr.Inst:DeleteCacheFiles()
 					Application.Quit()
-
-					return
-					--- END OF BLOCK #0 ---
-
-
-
 				end
 			})
-			--- END OF BLOCK #0 ---
-
-
-
 		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 38-49, warpins: 1 ---
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("resource_verify_success")
 			})
-			--- END OF BLOCK #0 ---
-
-
-
 		end
-
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 50-50, warpins: 2 ---
-		return
-		--- END OF BLOCK #2 ---
-
-
-
 	end
 
 	slot8 = nil
 
-
-	-- Decompilation error in this vicinity:
 	function (slot0)
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-3, warpins: 1 ---
 		if slot0 < 0 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 4-6, warpins: 1 ---
-			slot0()
+			uv0()
 
 			return
-			--- END OF BLOCK #0 ---
-
-
-
 		end
 
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 7-9, warpins: 1 ---
-		if slot1 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 10-16, warpins: 1 ---
-			setSlider(setSlider, 0, , slot2 - slot0)
-			--- END OF BLOCK #0 ---
-
-
-
+		if uv1 then
+			setSlider(uv1, 0, uv2, uv2 - slot0)
 		end
 
-		--- END OF BLOCK #1 ---
+		slot1 = string.split(uv3[slot0], ",")
 
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 17-34, warpins: 2 ---
-		slot3 = string.split(slot3[slot0], ",")[3]
-
-		if PathMgr.FileExists(PathMgr.getAssetBundle(slot2)) and slot3 == HashUtil.CalcMD5(PathMgr.ReadAllBytes(PathMgr.getAssetBundle(slot2))) then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 48-52, warpins: 1 ---
+		if PathMgr.FileExists(PathMgr.getAssetBundle(slot1[1])) and slot1[3] == HashUtil.CalcMD5(PathMgr.ReadAllBytes(PathMgr.getAssetBundle(slot2))) then
 			onNextTick(function ()
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 1-5, warpins: 1 ---
-				slot0(slot1 - 1)
-
-				return
-				--- END OF BLOCK #0 ---
-
-
-
+				uv0(uv1 - 1)
 			end)
 
 			return
-			--- END OF BLOCK #0 ---
-
-
-
 		end
 
-		--- END OF BLOCK #2 ---
+		uv5 = slot2
 
-		FLOW; TARGET BLOCK #3
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #3 53-57, warpins: 3 ---
-		slot5 = slot2
-
-		slot0()
-
-		return
-		--- END OF BLOCK #3 ---
-
-		FLOW; TARGET BLOCK #4
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #4 58-58, warpins: 2 ---
-		--- END OF BLOCK #4 ---
-
-
-
+		uv0()
 	end(slot4.Length - 1)
-
-	return
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 44-44, warpins: 2 ---
-	--- END OF BLOCK #3 ---
-
-
-
 end
 
 function splitByWordEN(slot0, slot1)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-25, warpins: 1 ---
 	slot3 = ""
 	slot4 = ""
-	slot6 = slot1:GetComponent(typeof(Text))
-	slot7 = slot1:GetComponent(typeof(RectTransform)).rect.width
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 26-63, warpins: 0 ---
-	for slot11, slot12 in ipairs(slot2) do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 26-28, warpins: 1 ---
+	for slot11, slot12 in ipairs(string.split(slot0, " ")) do
 		slot13 = slot4
 
-		if slot4 ~= "" or not slot12 then
+		setText(slot1, slot4 == "" and slot12 or slot4 .. " " .. slot12)
 
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 31-34, warpins: 2 ---
-			slot4 = slot4 .. " " .. slot12
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 35-41, warpins: 2 ---
-		setText(slot1, slot4)
-
-		if slot7 < slot6.preferredWidth then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 42-43, warpins: 1 ---
-			if slot3 ~= "" or not slot13 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 46-49, warpins: 2 ---
-				slot3 = slot3 .. "\n" .. slot13
-				--- END OF BLOCK #0 ---
-
-
-
-			end
-
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 50-50, warpins: 2 ---
+		if slot1:GetComponent(typeof(RectTransform)).rect.width < slot1:GetComponent(typeof(Text)).preferredWidth then
+			slot3 = slot3 == "" and slot13 or slot3 .. "\n" .. slot13
 			slot4 = slot12
-			--- END OF BLOCK #1 ---
-
-
-
 		end
 
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 51-53, warpins: 2 ---
-		if slot11 >= #slot2 and (slot3 ~= "" or not slot4) then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 58-61, warpins: 2 ---
-			slot3 = slot3 .. "\n" .. slot4
-			--- END OF BLOCK #0 ---
-
-
-
+		if slot11 >= #slot2 then
+			slot3 = slot3 == "" and slot4 or slot3 .. "\n" .. slot4
 		end
-		--- END OF BLOCK #2 ---
-
-		FLOW; TARGET BLOCK #3
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #3 62-63, warpins: 4 ---
-		--- END OF BLOCK #3 ---
-
-
-
 	end
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 64-64, warpins: 1 ---
 	return slot3
-	--- END OF BLOCK #2 ---
-
-
-
 end
 
 function checkBirthFormat(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-3, warpins: 1 ---
 	if #slot0 ~= 8 then
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 4-5, warpins: 1 ---
 		return false
-		--- END OF BLOCK #0 ---
-
-
-
 	end
 
-	--- END OF BLOCK #0 ---
-
-	FLOW; TARGET BLOCK #1
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #1 6-7, warpins: 2 ---
 	slot1 = 0
-	slot2 = #slot0
 
-	--- END OF BLOCK #1 ---
-
-	FLOW; TARGET BLOCK #2
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #2 8-9, warpins: 2 ---
-	--- END OF BLOCK #2 ---
-
-	FLOW; TARGET BLOCK #3
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #3 10-26, warpins: 0 ---
-	while slot1 < slot2 do
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 10-10, warpins: 1 ---
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 11-18, warpins: 1 ---
+	while slot1 < #slot0 do
 		if string.byte(slot0, slot1 + 1) < 48 or slot3 > 57 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 22-23, warpins: 2 ---
 			return false
-			--- END OF BLOCK #0 ---
-
-
-
 		end
 
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 24-25, warpins: 2 ---
 		slot1 = slot1 + 1
-		--- END OF BLOCK #2 ---
-
-		FLOW; TARGET BLOCK #3
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #3 26-26, warpins: 2 ---
-		--- END OF BLOCK #3 ---
-
-
-
 	end
 
-	--- END OF BLOCK #3 ---
-
-	FLOW; TARGET BLOCK #4
-
-
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #4 26-27, warpins: 1 ---
 	return true
-	--- END OF BLOCK #4 ---
-
-
-
 end
 
 slot19 = xpcall
 
 function TryCall(slot0, slot1, ...)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-7, warpins: 1 ---
-	slot0(slot0, function (slot0)
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-7, warpins: 1 ---
+	uv0(slot0, function (slot0)
 		errorMsg("Error Handler", slot0)
 
-		if slot0 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 8-10, warpins: 1 ---
-			slot0(slot0)
-			--- END OF BLOCK #0 ---
-
-
-
+		if uv0 then
+			uv0(slot0)
 		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 11-11, warpins: 2 ---
-		return
-		--- END OF BLOCK #1 ---
-
-
-
 	end, ...)
-
-	return
-	--- END OF BLOCK #0 ---
-
-
-
 end
 
 function isHalfBodyLive2D(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-7, warpins: 1 ---
 	return _.any({
 		"biaoqiang",
 		"z23",
@@ -6711,190 +2620,34 @@ function isHalfBodyLive2D(slot0)
 		"mingshi",
 		"xuefeng"
 	}, function (slot0)
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-3, warpins: 1 ---
-		if slot0 ~= slot0 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 4-5, warpins: 1 ---
-			slot1 = false
-			--- END OF BLOCK #0 ---
-
-
-
-		else
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 6-6, warpins: 1 ---
-			slot1 = true
-			--- END OF BLOCK #0 ---
-
-
-
-		end
-
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 7-7, warpins: 2 ---
-		return slot1
-		--- END OF BLOCK #1 ---
-
-
-
+		return slot0 == uv0
 	end)
-	--- END OF BLOCK #0 ---
-
-
-
 end
 
 function GetServerState(slot0)
-
-	-- Decompilation error in this vicinity:
-	--- BLOCK #0 1-15, warpins: 1 ---
 	slot1 = -1
 	slot2 = 0
 	slot3 = 1
 	slot4 = 2
 
 	VersionMgr.Inst:WebRequest(NetConst.GetServerStateUrl(), function (slot0, slot1)
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #0 1-8, warpins: 1 ---
 		slot2 = true
 		slot3 = false
 
-		--- END OF BLOCK #0 ---
-
-		FLOW; TARGET BLOCK #1
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #1 9-14, warpins: 0 ---
 		for slot7 in string.gmatch(slot1, "\"state\":%d") do
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 9-10, warpins: 1 ---
 			if slot7 ~= "\"state\":1" then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 11-11, warpins: 1 ---
 				slot2 = false
-				--- END OF BLOCK #0 ---
-
-
-
 			end
 
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 12-12, warpins: 2 ---
 			slot3 = true
-			--- END OF BLOCK #1 ---
-
-			FLOW; TARGET BLOCK #2
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #2 13-14, warpins: 2 ---
-			--- END OF BLOCK #2 ---
-
-
-
 		end
 
-		--- END OF BLOCK #1 ---
-
-		FLOW; TARGET BLOCK #2
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #2 15-16, warpins: 1 ---
 		if not slot3 then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 17-17, warpins: 1 ---
 			slot2 = false
-			--- END OF BLOCK #0 ---
-
-
-
 		end
 
-		--- END OF BLOCK #2 ---
-
-		FLOW; TARGET BLOCK #3
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #3 18-20, warpins: 2 ---
-		if slot0 ~= nil then
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #0 21-23, warpins: 1 ---
-			slot4 = slot0
-
-			if not slot2 or not slot1 then
-
-				-- Decompilation error in this vicinity:
-				--- BLOCK #0 27-27, warpins: 2 ---
-				slot5 = slot2
-				--- END OF BLOCK #0 ---
-
-
-
-			end
-
-			--- END OF BLOCK #0 ---
-
-			FLOW; TARGET BLOCK #1
-
-
-
-			-- Decompilation error in this vicinity:
-			--- BLOCK #1 28-28, warpins: 2 ---
-			slot4(slot5)
-			--- END OF BLOCK #1 ---
-
-
-
+		if uv0 ~= nil then
+			uv0(slot2 and uv1 or uv2)
 		end
-
-		--- END OF BLOCK #3 ---
-
-		FLOW; TARGET BLOCK #4
-
-
-
-		-- Decompilation error in this vicinity:
-		--- BLOCK #4 29-29, warpins: 2 ---
-		return
-		--- END OF BLOCK #4 ---
-
-
-
 	end)
-
-	return
-	--- END OF BLOCK #0 ---
-
-
-
 end
-
-return

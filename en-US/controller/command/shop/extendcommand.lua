@@ -1,9 +1,10 @@
-class("ExtendCommand", pm.SimpleCommand).execute = function (slot0, slot1)
-	slot4 = slot1:getBody().count
-	slot6 = getProxy(PlayerProxy).getData(slot5)
+slot0 = class("ExtendCommand", pm.SimpleCommand)
 
-	if pg.shop_template[slot1.getBody().id].effect_args == ShopArgs.EffecetEquipBagSize then
-		slot6:addEquipmentBagCount(slot7.num * slot4)
+function slot0.execute(slot0, slot1)
+	slot2 = slot1:getBody()
+
+	if pg.shop_template[slot2.id].effect_args == ShopArgs.EffecetEquipBagSize then
+		getProxy(PlayerProxy):getData():addEquipmentBagCount(slot7.num * slot2.count)
 	elseif slot7.effect_args == ShopArgs.EffecetShipBagSize then
 		slot6:addShipBagCount(slot7.num * slot4)
 	elseif slot7.effect_args == ShopArgs.EffectDromExpPos then
@@ -26,10 +27,9 @@ class("ExtendCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("refresh_shopStreet_ok"))
 	elseif slot7.effect_args == ShopArgs.EffectTradingPortLevel or slot7.effect_args == ShopArgs.EffectOilFieldLevel or slot7.effect_args == ShopArgs.EffectClassLevel then
 		slot8 = nil
-		slot9 = getProxy(NavalAcademyProxy)
 
 		if slot7.effect_args == ShopArgs.EffectTradingPortLevel then
-			slot8 = slot9._goldVO
+			slot8 = getProxy(NavalAcademyProxy)._goldVO
 		elseif slot7.effect_args == ShopArgs.EffectOilFieldLevel then
 			slot8 = slot9._oilVO
 		elseif slot7.effect_args == ShopArgs.EffectClassLevel then
@@ -54,7 +54,7 @@ class("ExtendCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 		slot8:updateDrom(slot9)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_success"))
 	elseif slot7.effect_args == ShopArgs.EffectSkillPos then
-		getProxy(NavalAcademyProxy).inCreaseKillClassNum(slot8)
+		getProxy(NavalAcademyProxy):inCreaseKillClassNum()
 		pg.TipsMgr.GetInstance():ShowTips(i18n("open_skill_class_success"))
 	elseif slot7.effect_args == ShopArgs.EffectCommanderBagSize then
 		slot6:updateCommanderBagMax(slot7.num)
@@ -63,4 +63,4 @@ class("ExtendCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 	slot5:updatePlayer(slot6)
 end
 
-return class("ExtendCommand", pm.SimpleCommand)
+return slot0

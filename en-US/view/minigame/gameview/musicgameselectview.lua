@@ -17,11 +17,9 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnDestroy(slot0)
-	return
 end
 
 function slot0.initData(slot0)
-	return
 end
 
 function slot0.initUI(slot0)
@@ -42,24 +40,24 @@ function slot0.initUI(slot0)
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.btn_back, function ()
-		slot0.contextData.Onbtn_back()
+		uv0.contextData.Onbtn_back()
 	end)
 	onButton(slot0, slot0.btn_home, function ()
-		slot0:emit(BaseUI.ON_HOME)
+		uv0:emit(BaseUI.ON_HOME)
 	end)
 	onButton(slot0, slot0.start_btn, function ()
-		slot0.contextData.setGameView(slot0.configList)
-		slot0.contextData.setGameView.contextData.goGameView()
+		uv0.contextData.setGameView(uv0.configList)
+		uv0.contextData.goGameView()
 	end, SFX_UI_CONFIRM)
 	onButton(slot0, slot0.dgreelist:Find("easy"), function ()
-		slot0.configList.dgree = 1
+		uv0.configList.dgree = 1
 	end, SFX_UI_CLICK)
 	onButton(slot0, slot0.dgreelist:Find("hard"), function ()
-		slot0.configList.dgree = 2
+		uv0.configList.dgree = 2
 	end, SFX_UI_CLICK)
 	onButton(slot0, slot0.speed_list, function ()
-		slot0.speed = (slot0.configList.speed + 1 > 4 and 1) or slot0.configList.speed + 1
-		slot0.localEulerAngles = Vector3(0, 0, (slot0.configList.speed == 1 and 0) or slot0.speed_list.localEulerAngles.z - 22.5)
+		uv0.configList.speed = uv0.configList.speed + 1 > 4 and 1 or uv0.configList.speed + 1
+		uv0.speed_list.localEulerAngles = Vector3(0, 0, uv0.configList.speed == 1 and 0 or uv0.speed_list.localEulerAngles.z - 22.5)
 	end, SFX_UI_CLICK)
 	slot0:initSongUI()
 end
@@ -71,20 +69,22 @@ function slot0.initSongUI(slot0)
 
 	slot0.song_btns = {}
 
-	for slot4 = 1, slot0.music_amount, 1 do
+	for slot4 = 1, slot0.music_amount do
 		slot0.song_btns[slot4] = cloneTplTo(slot0.song_btn, slot0.musiclist, "music" .. slot4)
 
 		setActive(slot0.song_btns[slot4], true)
 
-		slot7 = math.abs(slot4 - slot0.music_amount_middle)
-		slot0.song_btns[slot4].localPosition = Vector3(slot0.song_btn.localPosition.x + ((slot4 - slot0.music_amount_middle > 0 and 1) or -1) * slot7 * 300, slot5.y, slot5.z)
-		slot0.song_btns[slot4].localScale = Vector3(slot0.song_btn.localScale.x - slot7 * 0.2, slot0.song_btn.localScale.y - slot7 * 0.2, slot0.song_btn.localScale.z - slot7 * 0.2)
+		slot6 = slot0.music_amount_middle
+		slot7 = math.abs(slot4 - slot6)
+		slot0.song_btns[slot4].localPosition = Vector3(slot0.song_btn.localPosition.x + (slot4 - slot6 > 0 and 1 or -1) * slot7 * 300, slot5.y, slot5.z)
+		slot5 = slot0.song_btn.localScale
+		slot0.song_btns[slot4].localScale = Vector3(slot5.x - slot7 * 0.2, slot5.y - slot7 * 0.2, slot5.z - slot7 * 0.2)
 		slot0.song_btns[slot4]:GetComponent(typeof(Image)).sprite = slot0.musiclist:Find("img/" .. slot4):GetComponent(typeof(Image)).sprite
 
 		onButton(slot0, slot0.song_btns[slot4], function ()
-			slot0.configList.music = slot1
+			uv0.configList.music = uv1
 
-			slot0.configList:changeLocalpos(slot0.configList)
+			uv0:changeLocalpos(uv1)
 		end, SFX_UI_CLICK)
 	end
 end
@@ -92,11 +92,11 @@ end
 function slot0.changeLocalpos(slot0, slot1)
 	slot3 = slot0.music_amount_middle - slot1
 
-	for slot7 = 1, slot0.music_amount, 1 do
+	for slot7 = 1, slot0.music_amount do
 		slot8 = slot7 + slot3
 
 		if slot0.music_amount < slot7 + slot3 then
-			slot8 = (slot7 + slot3) - slot0.music_amount
+			slot8 = slot7 + slot3 - slot0.music_amount
 		end
 
 		if slot7 + slot3 < 1 then
@@ -104,7 +104,7 @@ function slot0.changeLocalpos(slot0, slot1)
 		end
 
 		slot10 = math.abs(slot8 - slot2)
-		slot0.song_btns[slot7].localPosition = Vector3(slot0.song_btn.localPosition.x + ((slot8 - slot2 > 0 and 1) or -1) * slot10 * 300, slot9.y, slot9.z)
+		slot0.song_btns[slot7].localPosition = Vector3(slot0.song_btn.localPosition.x + (slot8 - slot2 > 0 and 1 or -1) * slot10 * 300, slot9.y, slot9.z)
 		slot9 = slot0.song_btn.localScale
 		slot0.song_btns[slot7].localScale = Vector3(1.4 - slot10 * 0.2, 1.4 - slot10 * 0.2, 1.4 - slot10 * 0.2)
 	end

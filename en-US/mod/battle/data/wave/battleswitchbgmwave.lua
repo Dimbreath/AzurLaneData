@@ -1,21 +1,21 @@
 ys = ys or {}
-ys.Battle.BattleSwitchBGMWave = class("BattleSwitchBGMWave", ys.Battle.BattleWaveInfo)
-ys.Battle.BattleSwitchBGMWave.__name = "BattleSwitchBGMWave"
+slot0 = ys
+slot0.Battle.BattleSwitchBGMWave = class("BattleSwitchBGMWave", slot0.Battle.BattleWaveInfo)
+slot0.Battle.BattleSwitchBGMWave.__name = "BattleSwitchBGMWave"
+slot1 = slot0.Battle.BattleSwitchBGMWave
 
-function ys.Battle.BattleSwitchBGMWave.Ctor(slot0)
-	slot0.super.Ctor(slot0)
+function slot1.Ctor(slot0)
+	uv0.super.Ctor(slot0)
 end
 
-function ys.Battle.BattleSwitchBGMWave.SetWaveData(slot0, slot1)
-	slot0.super.SetWaveData(slot0, slot1)
+function slot1.SetWaveData(slot0, slot1)
+	uv0.super.SetWaveData(slot0, slot1)
 
 	slot0._bgmName = slot0._param.bgm
 end
 
-function ys.Battle.BattleSwitchBGMWave.DoWave(slot0)
-	slot0.super.DoWave(slot0)
+function slot1.DoWave(slot0)
+	uv0.super.DoWave(slot0)
 	playBGM(slot0._bgmName)
 	slot0:doPass()
 end
-
-return

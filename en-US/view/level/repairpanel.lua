@@ -1,7 +1,7 @@
 slot0 = class("RepairPanel", import("..base.BasePanel"))
 
 function slot0.init(slot0)
-	slot0.super.init(slot0)
+	uv0.super.init(slot0)
 
 	slot0.desc = slot0:findTF("window/desc")
 	slot0.descFree = slot0:findTF("window/text_free")
@@ -22,31 +22,35 @@ function slot0.set(slot0, slot1, slot2, slot3, slot4)
 	slot0.freeTimes = slot2
 	slot0.chargeTimes = slot3
 	slot0.chargeDiamond = slot4
+	slot5 = slot0.freeTimes - math.min(slot0.repairTimes, slot0.freeTimes)
 
 	setText(slot0.free, slot5 .. "/" .. slot0.freeTimes)
-	setText(slot0.charge, slot6 .. "/" .. slot0.chargeTimes)
+	setText(slot0.charge, slot0.chargeTimes - (slot0.repairTimes - (slot0.freeTimes - slot5)) .. "/" .. slot0.chargeTimes)
 	setText(slot0.cost, slot0.chargeDiamond)
-	setActive(slot0.descFree, slot0.freeTimes - math.min(slot0.repairTimes, slot0.freeTimes) > 0)
+	setActive(slot0.descFree, slot5 > 0)
 	setActive(slot0.descCharge, slot5 <= 0)
 	setText(slot0.desc, i18n("battle_repair_special_tip"))
 	setText(slot0.descFree, i18n("battle_repair_normal_name"))
 	setText(slot0.descCharge, i18n("battle_repair_special_name"))
-	setActive(slot0.diamond, slot0.repairTimes < slot0.freeTimes + slot0.chargeTimes and slot0.freeTimes <= slot0.repairTimes)
-	setButtonEnabled(slot0.confirm, slot0.repairTimes < slot0.freeTimes + slot0.chargeTimes)
-	setGray(slot0.confirm, not (slot0.repairTimes < slot0.freeTimes + slot0.chargeTimes), true)
+
+	slot7 = slot0.repairTimes < slot0.freeTimes + slot0.chargeTimes
+
+	setActive(slot0.diamond, slot7 and slot0.freeTimes <= slot0.repairTimes)
+	setButtonEnabled(slot0.confirm, slot7)
+	setGray(slot0.confirm, not slot7, true)
 	onButton(slot0, slot0.back, function ()
-		if slot0.onCancel then
-			slot0.onCancel()
+		if uv0.onCancel then
+			uv0.onCancel()
 		end
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.cancel, function ()
-		if slot0.onCancel then
-			slot0.onCancel()
+		if uv0.onCancel then
+			uv0.onCancel()
 		end
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.confirm, function ()
-		if slot0.onConfirm then
-			slot0.onConfirm()
+		if uv0.onConfirm then
+			uv0.onConfirm()
 		end
 	end, SFX_CONFIRM)
 end

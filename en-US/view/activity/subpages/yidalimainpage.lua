@@ -1,7 +1,7 @@
 slot0 = class("YidaliMainPage", import(".TemplatePage.PreviewTemplatePage"))
 
 function slot0.OnInit(slot0)
-	slot0.super.OnInit(slot0)
+	uv0.super.OnInit(slot0)
 	slot0:initUI()
 
 	slot0.YDLtaskIDList = {
@@ -15,12 +15,12 @@ function slot0.OnInit(slot0)
 end
 
 function slot0.OnFirstFlush(slot0)
-	slot0.super.OnFirstFlush(slot0)
+	uv0.super.OnFirstFlush(slot0)
 
 	slot0.fight = slot0:findTF("fight", slot0.btnList)
 
 	onButton(slot0, slot0.fight, function ()
-		slot0:emit(ActivityMediator.BATTLE_OPERA)
+		uv0:emit(ActivityMediator.BATTLE_OPERA)
 	end, SFX_PANEL)
 	slot0:initData()
 	slot0:submitFinishedTask()
@@ -51,10 +51,12 @@ function slot0.initUI(slot0)
 end
 
 function slot0.updateAwardBtn(slot0)
-	print("final taskid:" .. slot0.finalTaskID)
-	print("task status:" .. slot0:getFinalTaskStatus())
+	slot1 = slot0:getFinalTaskStatus()
 
-	if slot0.getFinalTaskStatus() == 0 then
+	print("final taskid:" .. slot0.finalTaskID)
+	print("task status:" .. slot1)
+
+	if slot1 == 0 then
 		setActive(slot0.activeTF, true)
 		setActive(slot0.finishedTF, false)
 		setActive(slot0.achievedTF, false)
@@ -63,14 +65,13 @@ function slot0.updateAwardBtn(slot0)
 		setActive(slot0.finishedTF, true)
 		setActive(slot0.achievedTF, false)
 		onButton(slot0, slot0.awardTF, function ()
-			slot0:emit(ActivityMediator.ON_TASK_SUBMIT, slot0.taskProxy:getTaskVO(slot0.finalTaskID))
+			uv0:emit(ActivityMediator.ON_TASK_SUBMIT, uv0.taskProxy:getTaskVO(uv0.finalTaskID))
 		end, SFX_PANEL)
 	elseif slot1 == 2 then
 		setActive(slot0.activeTF, false)
 		setActive(slot0.finishedTF, false)
 		setActive(slot0.achievedTF, true)
 		onButton(slot0, slot0.awardTF, function ()
-			return
 		end, SFX_PANEL)
 	end
 end

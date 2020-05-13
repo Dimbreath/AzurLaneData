@@ -1,27 +1,28 @@
 ys = ys or {}
-ys.Battle.BattleTorpedoUnit = class("BattleTorpedoUnit", ys.Battle.BattleWeaponUnit)
-ys.Battle.BattleTorpedoUnit.__name = "BattleTorpedoUnit"
+slot0 = ys
+slot0.Battle.BattleTorpedoUnit = class("BattleTorpedoUnit", slot0.Battle.BattleWeaponUnit)
+slot0.Battle.BattleTorpedoUnit.__name = "BattleTorpedoUnit"
 
-function ys.Battle.BattleTorpedoUnit.Ctor(slot0)
-	slot0.Battle.BattleTorpedoUnit.super.Ctor(slot0)
+function slot0.Battle.BattleTorpedoUnit.Ctor(slot0)
+	uv0.Battle.BattleTorpedoUnit.super.Ctor(slot0)
 end
 
-function ys.Battle.BattleTorpedoUnit.DoAttack(slot0, slot1)
-	slot0.Battle.BattleTorpedoUnit.super.DoAttack(slot0, slot1)
+function slot0.Battle.BattleTorpedoUnit.DoAttack(slot0, slot1)
+	uv0.Battle.BattleTorpedoUnit.super.DoAttack(slot0, slot1)
 end
 
-function ys.Battle.BattleTorpedoUnit.TriggerBuffOnFire(slot0)
-	slot0._host:TriggerBuff(slot0.Battle.BattleConst.BuffEffectType.ON_TORPEDO_FIRE, {
+function slot0.Battle.BattleTorpedoUnit.TriggerBuffOnFire(slot0)
+	slot0._host:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_TORPEDO_FIRE, {
 		equipIndex = slot0._equipmentIndex
 	})
 end
 
-function ys.Battle.BattleTorpedoUnit.TriggerBuffWhenSpawn(slot0, slot1)
-	slot0._host:TriggerBuff(slot0.Battle.BattleConst.BuffEffectType.ON_BULLET_CREATE, slot2)
-	slot0._host:TriggerBuff(slot0.Battle.BattleConst.BuffEffectType.ON_TORPEDO_BULLET_CREATE, {
+function slot0.Battle.BattleTorpedoUnit.TriggerBuffWhenSpawn(slot0, slot1)
+	slot2 = {
 		_bullet = slot1,
 		equipIndex = slot0._equipmentIndex
-	})
-end
+	}
 
-return
+	slot0._host:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_BULLET_CREATE, slot2)
+	slot0._host:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_TORPEDO_BULLET_CREATE, slot2)
+end

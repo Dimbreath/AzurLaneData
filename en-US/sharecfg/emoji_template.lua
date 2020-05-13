@@ -1669,5 +1669,3 @@ pg.emoji_template = {
 		375
 	}
 }
-
-return

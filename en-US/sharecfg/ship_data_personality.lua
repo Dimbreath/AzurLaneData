@@ -111,5 +111,3 @@ pg.ship_data_personality = {
 		12
 	}
 }
-
-return

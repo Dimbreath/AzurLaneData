@@ -75,16 +75,12 @@ function slot0.setShip(slot0, slot1)
 	end
 
 	if slot2 then
-		if slot0.page == uv0.PAGE.INTENSIFY and slot0.intensifyToggle.gameObject.activeSelf then
-			if slot0.shipVO:isTestShip() then
-				triggerToggle(slot0.detailToggle, true)
-			end
+		if slot0.page == uv0.PAGE.INTENSIFY and slot0.intensifyToggle.gameObject.activeSelf and slot0.shipVO:isTestShip() then
+			triggerToggle(slot0.detailToggle, true)
 		end
 
-		if slot0.page == uv0.PAGE.UPGRADE and slot0.upgradeToggle.gameObject.activeSelf then
-			if slot0.shipVO:isTestShip() then
-				triggerToggle(slot0.detailToggle, true)
-			end
+		if slot0.page == uv0.PAGE.UPGRADE and slot0.upgradeToggle.gameObject.activeSelf and slot0.shipVO:isTestShip() then
+			triggerToggle(slot0.detailToggle, true)
 		end
 
 		if slot0.page == uv0.PAGE.FASHION and not slot0.fashionToggle.gameObject.activeSelf then
@@ -100,40 +96,9 @@ end
 function slot0.setToggleEnable(slot0)
 	SetActive(slot0.detailToggle, true)
 	SetActive(slot0.equipmentToggle, true)
-
-	slot1 = SetActive
-	slot2 = slot0.upgradeToggle
-
-	if not slot0.shipVO:isTestShip() then
-		slot3 = not slot0.shipVO:isBluePrintShip()
-	else
-		slot3 = false
-
-		if false then
-			slot3 = true
-		end
-	end
-
-	slot1(slot2, slot3)
-
-	slot1 = SetActive
-	slot2 = slot0.intensifyToggle
-
-	if not slot0.shipVO:isTestShip() then
-		slot3 = not slot0.shipVO:isBluePrintShip()
-	else
-		slot3 = false
-
-		if false then
-			slot3 = true
-		end
-	end
-
-	slot1(slot2, slot3)
-
-	slot3 = slot0.shipVO
-
-	SetActive(slot0.remouldToggle, not slot0.shipVO:isBluePrintShip() and pg.ship_data_trans[slot0.shipVO.groupId])
+	SetActive(slot0.upgradeToggle, not slot0.shipVO:isTestShip() and not slot0.shipVO:isBluePrintShip())
+	SetActive(slot0.intensifyToggle, not slot0.shipVO:isTestShip() and not slot0.shipVO:isBluePrintShip())
+	SetActive(slot0.remouldToggle, not slot0.shipVO:isTestShip() and not slot0.shipVO:isBluePrintShip() and pg.ship_data_trans[slot0.shipVO.groupId])
 	SetActive(slot0.technologyToggle, slot0.shipVO:isBluePrintShip())
 end
 
@@ -239,10 +204,9 @@ function slot0.showCustomMsgBox(slot0, slot1)
 	slot0.isShowCustomMsgBox = true
 
 	setActive(slot0.customMsgbox, true)
-
-	slot5.groupName = LayerWeightConst.GROUP_SHIPINFOUI
-
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.customMsgbox, {})
+	pg.UIMgr.GetInstance():OverlayPanel(slot0.customMsgbox, {
+		groupName = LayerWeightConst.GROUP_SHIPINFOUI
+	})
 
 	slot2 = slot1.items and #slot1.items > 0
 
@@ -250,11 +214,11 @@ function slot0.showCustomMsgBox(slot0, slot1)
 	setActive(slot0.msgBoxContent, not slot2)
 
 	if slot2 then
-		for slot8 = slot0.msgboxItemContains.childCount + 1, #slot1.items, 1 do
+		for slot8 = slot0.msgboxItemContains.childCount + 1, #slot1.items do
 			cloneTplTo(slot0.msgBoxItemTpl, slot0.msgboxItemContains)
 		end
 
-		for slot8 = 1, slot0.msgboxItemContains.childCount, 1 do
+		for slot8 = 1, slot0.msgboxItemContains.childCount do
 			SetActive(slot0.msgboxItemContains:GetChild(slot8 - 1), slot8 <= #slot3)
 
 			if slot8 <= #slot3 then
@@ -361,9 +325,10 @@ function slot0.initShip(slot0)
 	slot0.chatText = slot0:findTF("main/character/chat/Text")
 	rtf(slot0.chat).localScale = Vector3.New(0, 0, 1)
 	slot0.initChatBgH = slot0.chatBg.sizeDelta.y
-	slot4.groupName = LayerWeightConst.GROUP_SHIPINFOUI
 
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.chat, {})
+	pg.UIMgr.GetInstance():OverlayPanel(slot0.chat, {
+		groupName = LayerWeightConst.GROUP_SHIPINFOUI
+	})
 end
 
 function slot0.initPages(slot0)
@@ -419,20 +384,22 @@ function slot0.initDetail(slot0)
 	slot0._tagBtn = slot0.detailPanel:Find("preference_btn")
 	slot0._untagBtn = slot0.detailPanel:Find("unpreference_btn")
 	slot0.showRecordBtn = slot0.equipments:Find("unload_all")
-	slot1 = slot0.detailPanel
-	slot0.recordPanel = slot1:Find("record_panel")
-	slot1[1] = slot0.recordPanel:Find("frame/container/record_1/record_btn")
-	slot1[2] = slot0.recordPanel:Find("frame/container/record_2/record_btn")
-	slot1[MULTRES] = slot0.recordPanel:Find("frame/container/record_3/record_btn")
-	slot0.recordBtns = {}
-	slot1[1] = slot0.recordPanel:Find("frame/container/record_1/equipments")
-	slot1[2] = slot0.recordPanel:Find("frame/container/record_2/equipments")
-	slot1[MULTRES] = slot0.recordPanel:Find("frame/container/record_3/equipments")
-	slot0.recordEquipmentsTFs = {}
-	slot1[1] = slot0.recordPanel:Find("frame/container/record_1/equip_btn")
-	slot1[2] = slot0.recordPanel:Find("frame/container/record_2/equip_btn")
-	slot1[MULTRES] = slot0.recordPanel:Find("frame/container/record_3/equip_btn")
-	slot0.equipRecordBtns = {}
+	slot0.recordPanel = slot0.detailPanel:Find("record_panel")
+	slot0.recordBtns = {
+		slot0.recordPanel:Find("frame/container/record_1/record_btn"),
+		slot0.recordPanel:Find("frame/container/record_2/record_btn"),
+		slot0.recordPanel:Find("frame/container/record_3/record_btn")
+	}
+	slot0.recordEquipmentsTFs = {
+		slot0.recordPanel:Find("frame/container/record_1/equipments"),
+		slot0.recordPanel:Find("frame/container/record_2/equipments"),
+		slot0.recordPanel:Find("frame/container/record_3/equipments")
+	}
+	slot0.equipRecordBtns = {
+		slot0.recordPanel:Find("frame/container/record_1/equip_btn"),
+		slot0.recordPanel:Find("frame/container/record_2/equip_btn"),
+		slot0.recordPanel:Find("frame/container/record_3/equip_btn")
+	}
 
 	setActive(slot0.recordPanel, false)
 	setActive(slot0.detailEqupimentTpl, false)
@@ -455,13 +422,12 @@ function slot0.initDetail(slot0)
 		if not slot0 then
 			pg.TipsMgr:GetInstance():ShowTips(slot1)
 		else
-			slot4.content = i18n("ship_unequip_all_tip")
-
-			function slot4.onYes()
-				uv0:emit(ShipInfoMediator.UNEQUIP_FROM_SHIP_ALL, uv0.shipVO.id)
-			end
-
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("ship_unequip_all_tip"),
+				onYes = function ()
+					uv0:emit(ShipInfoMediator.UNEQUIP_FROM_SHIP_ALL, uv0.shipVO.id)
+				end
+			})
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.shipName, function ()
@@ -492,9 +458,7 @@ function slot0.initDetail(slot0)
 		uv0:emit(ShipInfoMediator.RENAME_SHIP, uv0.shipVO.id, getInputText(findTF(uv0._renamePanel, "frame/name_field")))
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0._renameRevert, function ()
-		slot0 = uv0.shipVO
-
-		setInputText(findTF(uv0._renamePanel, "frame/name_field"), HXSet.hxLan(pg.ship_skin_template[uv0.shipVO:getRemouldSkinId()].name) or pg.ship_data_statistics[uv0.shipVO.configId].name)
+		setInputText(findTF(uv0._renamePanel, "frame/name_field"), uv0.shipVO:isRemoulded() and HXSet.hxLan(pg.ship_skin_template[uv0.shipVO:getRemouldSkinId()].name) or pg.ship_data_statistics[uv0.shipVO.configId].name)
 	end, SFX_PANEL)
 	onButton(slot0, slot0._renameCloseBtn, function ()
 		uv0:DisplayRenamePanel(false)
@@ -536,14 +500,14 @@ function slot0.initEquipment(slot0)
 	setActive(slot0.equipmentL, true)
 
 	slot0.infoTplR = slot0.equipmentR1:Find("info")
-	slot1 = slot0.equipmentL1
-	slot0.infoTplL = slot1:Find("info")
-	slot1[1] = slot0.equipmentR1
-	slot1[2] = slot0.equipmentR2
-	slot1[3] = slot0.equipmentR3
-	slot1[4] = slot0.equipmentL1
-	slot1[5] = slot0.equipmentL2
-	slot0.equipmentPanels = {}
+	slot0.infoTplL = slot0.equipmentL1:Find("info")
+	slot0.equipmentPanels = {
+		slot0.equipmentR1,
+		slot0.equipmentR2,
+		slot0.equipmentR3,
+		slot0.equipmentL1,
+		slot0.equipmentL2
+	}
 	slot0.equipmentNames = {}
 
 	for slot4, slot5 in ipairs(slot0.equipmentPanels) do
@@ -589,7 +553,7 @@ function slot0.updatePreference(slot0, slot1)
 	setImageSprite(slot0.energyTF, slot4, true)
 	setActive(slot0.energyTF, true)
 
-	slot10, slot6, slot7 = slot1:getIntimacyDetail()
+	slot5, slot6, slot7 = slot1:getIntimacyDetail()
 
 	setImageSprite(slot0.intimacyTF, GetSpriteFromAtlas("energy", slot5), true)
 	setActive(slot0.intimacyTF, true)
@@ -610,11 +574,11 @@ function slot0.updatePreference(slot0, slot1)
 
 	slot11 = slot1:getStar()
 
-	for slot16 = 1, slot1:getMaxStar(), 1 do
+	for slot16 = 1, slot1:getMaxStar() do
 		cloneTplTo(slot0.shipInfoStarTpl, slot10, "star_" .. slot16)
 	end
 
-	for slot17 = 1, slot12 - slot11, 1 do
+	for slot17 = 1, slot12 - slot11 do
 		slot18 = slot10:GetChild(slot17 - 1)
 
 		setActive(slot18:Find("star_tpl"), false)
@@ -635,10 +599,7 @@ end
 
 function slot0.updateDetail(slot0, slot1)
 	slot0.shipDetailPanel:flush(slot1)
-
-	slot2 = slot0.shipDetailPanel.attrs
-
-	removeOnButton(slot2:Find("icons/hunting_range/bg"))
+	removeOnButton(slot0.shipDetailPanel.attrs:Find("icons/hunting_range/bg"))
 
 	if table.contains(TeamType.SubShipType, slot1:getShipType()) then
 		onButton(slot0, slot2, function ()
@@ -656,18 +617,16 @@ function slot0.displayHuntingRange(slot0, slot1)
 		uv0:hideHuntingRange()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.huntingRange:Find("frame/help"), function ()
-		slot2.type = MSGBOX_TYPE_HELP
-		slot2.helps = pg.gametip.help_shipinfo_hunting.tip
-
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.help_shipinfo_hunting.tip
+		})
 	end, SFX_PANEL)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.huntingRange)
 end
 
 function slot0.updateHuntingRange(slot0, slot1, slot2)
-	slot3 = slot0.huntingRange
-
-	for slot7 = 0, slot3:Find("frame/range").childCount - 1, 1 do
+	for slot7 = 0, slot0.huntingRange:Find("frame/range").childCount - 1 do
 		setActive(slot0:findTF("activate", slot3:GetChild(slot7)), false)
 	end
 
@@ -677,10 +636,9 @@ function slot0.updateHuntingRange(slot0, slot1, slot2)
 		end
 	end)
 
-	slot5 = slot0.huntingRange
 	slot6 = slot0.huntingRange:Find("frame/next")
 
-	setActive(slot5:Find("frame/last"), slot2 > 1)
+	setActive(slot0.huntingRange:Find("frame/last"), slot2 > 1)
 	setActive(slot6, slot2 < #slot1:getConfig("hunting_range"))
 	setText(slot0.huntingRange:Find("frame/level/Text"), "Lv." .. slot2)
 	onButton(slot0, slot5, function ()
@@ -728,11 +686,11 @@ function slot0.updateEquipments(slot0, slot1)
 
 			updateEquipment(slot0:findTF("IconTpl", slot9), slot7)
 			onButton(slot0, slot9, function ()
-				slot3.type = EquipmentInfoMediator.TYPE_SHIP
-				slot3.shipId = uv0.shipVO.id
-				slot3.pos = uv2
-
-				uv0:emit(uv1.ON_EQUIPMENT, {})
+				uv0:emit(uv1.ON_EQUIPMENT, {
+					type = EquipmentInfoMediator.TYPE_SHIP,
+					shipId = uv0.shipVO.id,
+					pos = uv2
+				})
 			end, SFX_UI_DOCKYARD_EQUIPADD)
 		else
 			onButton(slot0, cloneTplTo(slot0.emptyGridTpl, slot0.equipmentsGrid), function ()
@@ -775,8 +733,7 @@ function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3)
 
 		if slot2.config.type ~= EquipType.Equipment then
 			slot13 = pg.ship_data_statistics[slot0.shipVO.configId]
-			slot14 = slot0.shipVO
-			slot15 = slot14:getEquipProficiencyByPos(slot1) and slot14 * 100 or 0
+			slot15 = slot0.shipVO:getEquipProficiencyByPos(slot1) and slot14 * 100 or 0
 
 			if slot8 then
 				if slot8.type and not table.contains(slot8.type, slot2.config.type) then
@@ -827,7 +784,7 @@ function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3)
 		slot17 = slot2:GetProperties()
 		slot18 = false
 
-		for slot22 = 1, 4, 1 do
+		for slot22 = 1, 4 do
 			if findTF(slot5, "attrs/attr_" .. slot22) then
 				slot24 = findTF(slot23, "panel")
 				slot25 = findTF(slot23, "lock")
@@ -867,11 +824,11 @@ function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3)
 		end
 
 		onButton(slot0, slot4, function ()
-			slot3.type = EquipmentInfoMediator.TYPE_SHIP
-			slot3.shipId = uv0.shipVO.id
-			slot3.pos = uv2
-
-			uv0:emit(uv1.ON_EQUIPMENT, {})
+			uv0:emit(uv1.ON_EQUIPMENT, {
+				type = EquipmentInfoMediator.TYPE_SHIP,
+				shipId = uv0.shipVO.id,
+				pos = uv2
+			})
 		end, SFX_UI_DOCKYARD_EQUIPADD)
 	else
 		onButton(slot0, slot4, function ()
@@ -893,19 +850,21 @@ end
 function slot0.getGroupSkinList(slot0, slot1)
 	slot2 = ShipGroup.getSkinList(slot1)
 
-	if pg.ship_data_trans[slot1] then
-		if not slot0.shipVO:isRemoulded() then
-			for slot7 = #slot2, 1, -1 do
-				if slot2[slot7].id == ShipGroup.GetGroupConfig(slot1).trans_skin then
-					table.remove(slot2, slot7)
+	if pg.ship_data_trans[slot1] and not slot0.shipVO:isRemoulded() then
+		for slot7 = #slot2, 1, -1 do
+			if slot2[slot7].id == ShipGroup.GetGroupConfig(slot1).trans_skin then
+				table.remove(slot2, slot7)
 
-					break
-				end
+				break
 			end
 		end
 	end
 
 	for slot6 = #slot2, 1, -1 do
+		if slot2[slot6].show_time and (type(slot7.show_time) == "string" and slot7.show_time == "stop" or type(slot7.show_time) == "table" and not pg.TimeMgr:GetInstance():inTime(slot7.show_time)) then
+			table.remove(slot2, slot6)
+		end
+
 		if slot7.no_showing == "1" then
 			table.remove(slot2, slot6)
 		end
@@ -933,34 +892,23 @@ function slot0.updateFashion(slot0)
 		slot0.fashionGroup = slot1
 		slot0.fashionSkins = slot2
 
-		for slot6 = slot0.styleContainer.childCount, #slot0.fashionSkins - 1, 1 do
+		for slot6 = slot0.styleContainer.childCount, #slot0.fashionSkins - 1 do
 			cloneTplTo(slot0.styleCard, slot0.styleContainer)
 		end
 
-		for slot6 = #slot0.fashionSkins, slot0.styleContainer.childCount - 1, 1 do
+		for slot6 = #slot0.fashionSkins, slot0.styleContainer.childCount - 1 do
 			setActive(slot0.styleContainer:GetChild(slot6), false)
 		end
 
 		for slot6, slot7 in ipairs(slot0.fashionSkins) do
 			slot8 = slot0.fashionSkins[slot6]
-			slot9 = slot0.styleContainer
 
-			if not slot0.fashionCellMap[slot9:GetChild(slot6 - 1)] then
+			if not slot0.fashionCellMap[slot0.styleContainer:GetChild(slot6 - 1)] then
 				slot0.fashionCellMap[slot9] = ShipSkinCard.New(slot9.gameObject)
 			end
 
-			if slot0.shipVO:getRemouldSkinId() == slot8.id then
-				slot11 = slot0.shipVO:isRemoulded()
-			else
-				slot11 = false
-
-				if false then
-					slot11 = true
-				end
-			end
-
-			slot10:updateData(slot0.shipVO, slot8, slot0.shipVO:proposeSkinOwned(slot8) or table.contains(slot0.skinList, slot8.id) or slot11 or slot8.skin_type == 3)
-			slot10.updateUsing(slot10, slot0.shipVO.skinId == slot8.id)
+			slot10:updateData(slot0.shipVO, slot8, slot0.shipVO:proposeSkinOwned(slot8) or table.contains(slot0.skinList, slot8.id) or slot0.shipVO:getRemouldSkinId() == slot8.id and slot0.shipVO:isRemoulded() or slot8.skin_type == 3)
+			slot10:updateUsing(slot0.shipVO.skinId == slot8.id)
 			onButton(slot0, slot9, function ()
 				if uv0.page ~= uv1.PAGE.FASHION then
 					return
@@ -970,13 +918,18 @@ function slot0.updateFashion(slot0)
 
 				uv0:updateFashionDetail(uv2)
 				uv0:loadPainting(uv2.painting)
-				uv0:loadSkinBg(uv0.shipVO:rarity2bgPrintForGet(), uv0.shipVO:isBluePrintShip())
+
+				slot3 = uv0.shipVO
+				slot4 = slot3
+				slot3 = slot3.isBluePrintShip
+
+				uv0:loadSkinBg(uv0.shipVO:rarity2bgPrintForGet(), slot3(slot4))
 
 				for slot3, slot4 in ipairs(uv0.fashionSkins) do
 					slot6 = uv0.fashionCellMap[uv0.styleContainer:GetChild(slot3 - 1)]
 
-					slot6.updateSelected(slot6, slot4.id == uv0.fashionSkinId)
-					slot6.updateUsing(slot6, uv0.shipVO.skinId == slot4.id)
+					slot6:updateSelected(slot4.id == uv0.fashionSkinId)
+					slot6:updateUsing(uv0.shipVO.skinId == slot4.id)
 				end
 			end)
 			setActive(slot9, true)
@@ -1011,33 +964,29 @@ function slot0.updateFashionDetail(slot0, slot1)
 			descTxt = findTF(slot0.stylePanel, "style_desc/desc_frame/desc/Text"),
 			character = findTF(slot0.stylePanel, "style_desc/character"),
 			confirm = findTF(slot0.stylePanel, "confirm_button"),
-			cancel = findTF(slot0.stylePanel, "cancel_button"),
-			diamond = findTF(slot2.confirm, "diamond"),
-			using = findTF(slot2.confirm, "using"),
-			change = findTF(slot2.confirm, "change"),
-			buy = findTF(slot2.confirm, "buy"),
-			activity = findTF(slot2.confirm, "activity"),
-			cantbuy = findTF(slot2.confirm, "cantbuy"),
-			prefab = "unknown"
+			cancel = findTF(slot0.stylePanel, "cancel_button")
 		}
+		slot2.diamond = findTF(slot2.confirm, "diamond")
+		slot2.using = findTF(slot2.confirm, "using")
+		slot2.change = findTF(slot2.confirm, "change")
+		slot2.buy = findTF(slot2.confirm, "buy")
+		slot2.activity = findTF(slot2.confirm, "activity")
+		slot2.cantbuy = findTF(slot2.confirm, "cantbuy")
+		slot2.prefab = "unknown"
 		slot0.fashionDetailWrapper = slot2
 	end
 
 	setText(slot2.name, HXSet.hxLan(slot1.name))
 	setText(slot2.descTxt, HXSet.hxLan(slot1.desc))
 
-	slot3 = slot2.descTxt
-
-	if #slot3:GetComponent(typeof(Text)).text > 50 then
+	if #slot2.descTxt:GetComponent(typeof(Text)).text > 50 then
 		slot3.alignment = TextAnchor.MiddleLeft
 	else
 		slot3.alignment = TextAnchor.MiddleCenter
 	end
 
 	if slot2.prefab ~= slot1.prefab then
-		slot4 = slot2.character
-
-		if not IsNil(slot4:Find(slot2.prefab)) then
+		if not IsNil(slot2.character:Find(slot2.prefab)) then
 			PoolMgr.GetInstance():ReturnSpineChar(slot2.prefab, slot4.gameObject)
 		end
 
@@ -1052,31 +1001,14 @@ function slot0.updateFashionDetail(slot0, slot1)
 				slot0.transform.localScale = Vector3(0.5, 0.5, 1)
 
 				slot0.transform:SetParent(uv0.character, false)
-
-				slot1 = slot0:GetComponent(typeof(SpineAnimUI))
-
-				slot1.SetAction(slot1, uv2.show_skin or "stand", true)
+				slot0:GetComponent(typeof(SpineAnimUI)):SetAction(uv2.show_skin or "stand", true)
 			end
 		end)
 	end
 
-	if slot0.shipVO:getRemouldSkinId() == slot1.id then
-		slot4 = slot0.shipVO:isRemoulded()
-	else
-		slot4 = false
-
-		if false then
-			slot4 = true
-		end
-	end
-
-	slot5 = (slot0.shipVO:proposeSkinOwned(slot1) or table.contains(slot0.skinList, slot1.id) or slot4) and 1 or 0
-
-	if slot1.shop_id > 0 and pg.shop_template[slot1.shop_id] or nil then
-		slot7 = not pg.TimeMgr.GetInstance():inTime(slot6.time)
-	end
-
-	slot9 = slot1.id == slot0.shipVO:getConfig("skin_id") or slot5 >= 1 or slot1.skin_type == 3
+	slot6 = slot1.shop_id > 0 and pg.shop_template[slot1.shop_id] or nil
+	slot7 = slot6 and not pg.TimeMgr.GetInstance():inTime(slot6.time)
+	slot9 = slot1.id == slot0.shipVO:getConfig("skin_id") or ((slot0.shipVO:proposeSkinOwned(slot1) or table.contains(slot0.skinList, slot1.id) or slot0.shipVO:getRemouldSkinId() == slot1.id and slot0.shipVO:isRemoulded()) and 1 or 0) >= 1 or slot1.skin_type == 3
 
 	setGray(slot2.confirm, false)
 	setActive(slot2.using, false)
@@ -1099,27 +1031,25 @@ function slot0.updateFashionDetail(slot0, slot1)
 		if uv0 then
 			-- Nothing
 		elseif uv1 then
-			slot0 = uv2
-
-			slot0.emit(slot0, ShipInfoMediator.CHANGE_SKIN, uv2.shipVO.id, uv3.id == uv2.shipVO:getConfig("skin_id") and 0 or uv3.id)
+			uv2:emit(ShipInfoMediator.CHANGE_SKIN, uv2.shipVO.id, uv3.id == uv2.shipVO:getConfig("skin_id") and 0 or uv3.id)
 		elseif uv4 then
 			if uv5 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_skin_out_of_stock"))
 			else
-				slot1.shop_id = uv4.id
-				slot0 = Goods.New({}, Goods.TYPE_SKIN)
+				slot0 = Goods.New({
+					shop_id = uv4.id
+				}, Goods.TYPE_SKIN)
 
 				if slot0:isDisCount() then
 					slot1 = slot0:getConfig("resource_num") * (100 - slot0:getConfig("discount")) / 100
 				end
 
-				slot5.content = i18n("text_buy_fashion_tip", slot1, HXSet.hxLan(uv3.name))
-
-				function slot5.onYes()
-					uv0:emit(ShipInfoMediator.BUY_ITEM, uv1.id, 1)
-				end
-
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("text_buy_fashion_tip", slot1, HXSet.hxLan(uv3.name)),
+					onYes = function ()
+						uv0:emit(ShipInfoMediator.BUY_ITEM, uv1.id, 1)
+					end
+				})
 			end
 		end
 	end)
@@ -1131,9 +1061,8 @@ end
 function slot0.clearFashion(slot0)
 	if slot0.fashionDetailWrapper then
 		slot1 = slot0.fashionDetailWrapper
-		slot2 = slot1.character
 
-		if not IsNil(slot2:Find(slot1.prefab)) then
+		if not IsNil(slot1.character:Find(slot1.prefab)) then
 			PoolMgr.GetInstance():ReturnSpineChar(slot1.prefab, slot2.gameObject)
 		end
 	end
@@ -1162,8 +1091,10 @@ function slot0.addRingDragListenter(slot0)
 	end)
 	slot1:AddDragFunc(function (slot0, slot1)
 		if not uv0.inPaintingView then
+			slot2 = slot1.position
+
 			if not uv1 then
-				uv1 = slot1.position
+				uv1 = slot2
 			end
 
 			uv2 = slot2.x - uv1.x
@@ -1192,49 +1123,48 @@ function slot0.didEnter(slot0)
 		end))
 	end, SFX_CANCEL)
 	onButton(slot0, slot0:findTF("main/detail_panel/attrs/attrs/property/icons"), function ()
-		slot2.type = MSGBOX_TYPE_HELP
-		slot2.helps = pg.gametip.help_shipinfo_attr.tip
-
-		function slot2.onClose()
-		end
-
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.help_shipinfo_attr.tip,
+			onClose = function ()
+			end
+		})
 	end)
 	onButton(slot0, slot0.npcFlagTF, function ()
-		slot2.type = MSGBOX_TYPE_HELP
-		slot2.helps = pg.gametip.help_shipinfo_actnpc.tip
-
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.help_shipinfo_actnpc.tip
+		})
 	end, SFX_PANEL)
 
 	slot0.helpBtn = slot0:findTF("help_btn", slot0.common)
 
 	onButton(slot0, slot0.helpBtn, function ()
 		if uv0.page == uv1.PAGE.EQUIPMENT then
-			slot2.type = MSGBOX_TYPE_HELP
-			slot2.helps = pg.gametip.help_shipinfo_equip.tip
-
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_HELP,
+				helps = pg.gametip.help_shipinfo_equip.tip
+			})
 		elseif uv0.page == uv1.PAGE.DETAIL then
-			slot2.type = MSGBOX_TYPE_HELP
-			slot2.helps = pg.gametip.help_shipinfo_detail.tip
-
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_HELP,
+				helps = pg.gametip.help_shipinfo_detail.tip
+			})
 		elseif uv0.page == uv1.PAGE.INTENSIFY then
-			slot2.type = MSGBOX_TYPE_HELP
-			slot2.helps = pg.gametip.help_shipinfo_intensify.tip
-
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_HELP,
+				helps = pg.gametip.help_shipinfo_intensify.tip
+			})
 		elseif uv0.page == uv1.PAGE.UPGRADE then
-			slot2.type = MSGBOX_TYPE_HELP
-			slot2.helps = pg.gametip.help_shipinfo_upgrate.tip
-
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_HELP,
+				helps = pg.gametip.help_shipinfo_upgrate.tip
+			})
 		elseif uv0.page == uv1.PAGE.FASHION then
-			slot2.type = MSGBOX_TYPE_HELP
-			slot2.helps = pg.gametip.help_shipinfo_fashion.tip
-
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({})
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_HELP,
+				helps = pg.gametip.help_shipinfo_fashion.tip
+			})
 		end
 	end, SFX_PANEL)
 
@@ -1269,13 +1199,14 @@ function slot0.didEnter(slot0)
 		triggerButton(slot0.equipSkinBtn)
 	end
 
-	slot1[1] = slot0.detailToggle
-	slot1[2] = slot0.equipmentToggle
-	slot1[3] = slot0.intensifyToggle
-	slot1[4] = slot0.upgradeToggle
-	slot1[5] = slot0.fashionToggle
-	slot1[6] = slot0.remouldToggle
-	slot0.togglesList = {}
+	slot0.togglesList = {
+		slot0.detailToggle,
+		slot0.equipmentToggle,
+		slot0.intensifyToggle,
+		slot0.upgradeToggle,
+		slot0.fashionToggle,
+		slot0.remouldToggle
+	}
 	slot1 = {
 		uv0.PAGE.DETAIL,
 		uv0.PAGE.EQUIPMENT,
@@ -1318,14 +1249,14 @@ function slot0.didEnter(slot0)
 	end)
 	slot0:updatePreferenceTag()
 	onButton(slot0, slot0.lockBtn, function ()
-		slot3[1] = uv0.shipVO.id
-
-		uv0:emit(ShipInfoMediator.ON_LOCK, {}, uv0.shipVO.LOCK_STATE_LOCK)
+		uv0:emit(ShipInfoMediator.ON_LOCK, {
+			uv0.shipVO.id
+		}, uv0.shipVO.LOCK_STATE_LOCK)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.unlockBtn, function ()
-		slot3[1] = uv0.shipVO.id
-
-		uv0:emit(ShipInfoMediator.ON_LOCK, {}, uv0.shipVO.LOCK_STATE_UNLOCK)
+		uv0:emit(ShipInfoMediator.ON_LOCK, {
+			uv0.shipVO.id
+		}, uv0.shipVO.LOCK_STATE_UNLOCK)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.viewBtn, function ()
 		Input.multiTouchEnabled = true
@@ -1388,10 +1319,9 @@ function slot0.didEnter(slot0)
 		uv0:emit(ShipInfoMediator.PROPOSE, uv0.shipVO.id, function ()
 		end)
 	end)
-
-	slot5.groupName = LayerWeightConst.GROUP_SHIPINFOUI
-
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {})
+	pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
+		groupName = LayerWeightConst.GROUP_SHIPINFOUI
+	})
 
 	if not slot0.togglesList[defaultValue(slot0.contextData.page, uv0.PAGE.DETAIL)].gameObject.activeSelf then
 		slot2 = uv0.PAGE.DETAIL
@@ -1457,7 +1387,7 @@ function slot0.showEnergyDesc(slot0)
 
 	setActive(slot0.intimacyDescTF, false)
 
-	slot1, slot6 = slot0.shipVO:getEnergyPrint()
+	slot1, slot2 = slot0.shipVO:getEnergyPrint()
 
 	setText(slot0.energyText, i18n(slot2))
 
@@ -1486,7 +1416,7 @@ function slot0.showIntimacyDesc(slot0)
 
 	setActive(slot0.energyDescTF, false)
 
-	slot1, slot6 = slot0.shipVO:getInitmacyInfo()
+	slot1, slot2 = slot0.shipVO:getInitmacyInfo()
 
 	setText(slot0.intimacyText, i18n(slot2, slot0.shipVO:getConfigTable().name))
 
@@ -1521,7 +1451,7 @@ function slot0.displayShipWord(slot0, slot1, slot2)
 			Ship.SetExpression(findTF(slot0.painting, "fitter"):GetChild(0), slot0.paintingCode, slot1)
 		end
 
-		slot7, slot4 = Ship.getWords(slot0.shipVO.skinId, slot1)
+		slot3, slot4 = Ship.getWords(slot0.shipVO.skinId, slot1)
 
 		setTextEN(slot0.chatText, slot3)
 
@@ -1553,7 +1483,7 @@ function slot0.displayShipWord(slot0, slot1, slot2)
 					end
 
 					slot0 = nil
-					uv0._currentVoice, slot0 = playSoundEffect(uv1)
+					uv0._currentVoice, slot3 = playSoundEffect(uv1)
 
 					if slot3 then
 						uv2 = long2int(slot0.length) * 0.001
@@ -1601,13 +1531,14 @@ end
 function slot0.blurPage(slot0, slot1, slot2)
 	if slot1 == uv0.PAGE.DETAIL then
 		if slot2 then
-			slot8[1] = slot0.detailPanel:Find("attrs")
-			slot8[MULTRES] = slot0.detailPanel:Find("equipments")
-			slot7.pbList = {}
-			slot7.groupName = LayerWeightConst.GROUP_SHIPINFOUI
-			slot7.overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
-
-			pg.UIMgr.GetInstance():OverlayPanelPB(slot0.detailPanel, {})
+			pg.UIMgr.GetInstance():OverlayPanelPB(slot0.detailPanel, {
+				pbList = {
+					slot0.detailPanel:Find("attrs"),
+					slot0.detailPanel:Find("equipments")
+				},
+				groupName = LayerWeightConst.GROUP_SHIPINFOUI,
+				overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
+			})
 		else
 			pg.UIMgr.GetInstance():UnOverlayPanel(slot0.detailPanel, slot0.mainPanel)
 		end
@@ -1628,31 +1559,30 @@ function slot0.blurPage(slot0, slot1, slot2)
 			slot6(slot0.equipmentL:Find("skin"), slot4)
 			slot6(slot0.equipmentL:Find("equipment"), slot4)
 			table.insert(slot4, slot0.equipmentL:Find("equipment/equipment_l1"))
-
-			slot10.pbList = slot5
-			slot10.groupName = LayerWeightConst.GROUP_SHIPINFOUI
-			slot10.overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
-
-			slot3:OverlayPanelPB(slot0.equipmentR, {})
-
-			slot10.pbList = slot4
-			slot10.groupName = LayerWeightConst.GROUP_SHIPINFOUI
-			slot10.overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
-
-			slot3:OverlayPanelPB(slot0.equipmentL, {})
+			slot3:OverlayPanelPB(slot0.equipmentR, {
+				pbList = slot5,
+				groupName = LayerWeightConst.GROUP_SHIPINFOUI,
+				overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
+			})
+			slot3:OverlayPanelPB(slot0.equipmentL, {
+				pbList = slot4,
+				groupName = LayerWeightConst.GROUP_SHIPINFOUI,
+				overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
+			})
 		else
 			slot3:UnOverlayPanel(slot0.equipmentR, slot0.mainPanel)
 			slot3:UnOverlayPanel(slot0.equipmentL, slot0.mainPanel)
 		end
 	elseif slot1 == uv0.PAGE.FASHION then
 		if slot2 then
-			slot8[1] = slot0.stylePanel:Find("style_desc")
-			slot8[MULTRES] = slot0.stylePanel:Find("frame")
-			slot7.pbList = {}
-			slot7.groupName = LayerWeightConst.GROUP_SHIPINFOUI
-			slot7.overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
-
-			slot3:OverlayPanelPB(slot0.stylePanel, {})
+			slot3:OverlayPanelPB(slot0.stylePanel, {
+				pbList = {
+					slot0.stylePanel:Find("style_desc"),
+					slot0.stylePanel:Find("frame")
+				},
+				groupName = LayerWeightConst.GROUP_SHIPINFOUI,
+				overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
+			})
 		else
 			slot3:UnOverlayPanel(slot0.stylePanel, slot0.mainPanel)
 		end
@@ -1669,66 +1599,41 @@ function slot0.switchToPage(slot0, slot1, slot2)
 	if slot1 == slot0.page and slot2 then
 		function (slot0, slot1)
 			if slot0 == uv0.PAGE.DETAIL then
-				if slot1 then
-					slot2[1] = uv1.detailPanel.rect.width + 200
-
-					if not {
-						nil,
-						0
-					} then
-						slot2 = {
-							0,
-							uv1.detailPanel.rect.width + 200
-						}
-					end
-				end
+				slot2 = slot1 and {
+					uv1.detailPanel.rect.width + 200,
+					0
+				} or {
+					0,
+					uv1.detailPanel.rect.width + 200
+				}
 
 				shiftPanel(uv1.detailPanel, slot2[2], 0, uv2, 0):setFrom(slot2[1])
 			elseif slot0 == uv0.PAGE.EQUIPMENT then
-				if slot1 then
-					slot2[1] = -(uv1.equipmentL.rect.width + 190)
-
-					if not {
-						nil,
-						190
-					} then
-						slot2 = {
-							190,
-							-(uv1.equipmentL.rect.width + 190)
-						}
-					end
-				end
-
-				if slot1 then
-					slot3[1] = uv1.equipmentR.rect.width
-
-					if not {
-						nil,
-						10
-					} then
-						slot3 = {
-							10,
-							uv1.equipmentR.rect.width
-						}
-					end
-				end
+				slot2 = slot1 and {
+					-(uv1.equipmentL.rect.width + 190),
+					190
+				} or {
+					190,
+					-(uv1.equipmentL.rect.width + 190)
+				}
+				slot3 = slot1 and {
+					uv1.equipmentR.rect.width,
+					10
+				} or {
+					10,
+					uv1.equipmentR.rect.width
+				}
 
 				shiftPanel(uv1.equipmentL, slot2[2], 0, uv2, 0):setFrom(slot2[1])
 				shiftPanel(uv1.equipmentR, slot3[2], 0, uv2, 0):setFrom(slot3[1])
 			elseif slot0 == uv0.PAGE.FASHION then
-				if slot1 then
-					slot2[1] = uv1.stylePanel.rect.width + 150
-
-					if not {
-						nil,
-						0
-					} then
-						slot2 = {
-							0,
-							uv1.stylePanel.rect.width + 150
-						}
-					end
-				end
+				slot2 = slot1 and {
+					uv1.stylePanel.rect.width + 150,
+					0
+				} or {
+					0,
+					uv1.stylePanel.rect.width + 150
+				}
 
 				shiftPanel(uv1.stylePanel, slot2[2], 0, uv2, 0):setFrom(slot2[1])
 				uv1:updateFashion()
@@ -1805,11 +1710,9 @@ function slot0.switchPainting(slot0)
 end
 
 function slot0.checkMaxLevelHelp(slot0)
-	if not slot0.maxLevelHelpFlag and slot0.shipVO then
-		if slot0.shipVO:isReachNextMaxLevel() then
-			triggerButton(slot0.helpBtn, true)
-			slot0:emit(ShipInfoMediator.MARK_MAXLEVELHELP_FLAG)
-		end
+	if not slot0.maxLevelHelpFlag and slot0.shipVO and slot0.shipVO:isReachNextMaxLevel() then
+		triggerButton(slot0.helpBtn, true)
+		slot0:emit(ShipInfoMediator.MARK_MAXLEVELHELP_FLAG)
 	end
 end
 
@@ -1873,7 +1776,7 @@ function slot0.getPaintingFromTable(slot0, slot1)
 		return
 	end
 
-	for slot5 = 1, #slot0.tablePainting, 1 do
+	for slot5 = 1, #slot0.tablePainting do
 		if findTF(slot0.tablePainting[slot5], "fitter").childCount == 0 then
 			if slot1 == true and slot0.tablePainting[slot5] then
 				return slot0.tablePainting[slot5]
@@ -1894,12 +1797,10 @@ function slot0.loadSkinBg(slot0, slot1, slot2)
 		slot0.isDesign = slot2
 
 		if slot0.isDesign then
-			if slot0.designBg then
-				if slot0.designName ~= "raritydesign" .. slot0.shipVO:getRarity() then
-					PoolMgr.GetInstance():ReturnUI(slot0.designName, slot0.designBg)
+			if slot0.designBg and slot0.designName ~= "raritydesign" .. slot0.shipVO:getRarity() then
+				PoolMgr.GetInstance():ReturnUI(slot0.designName, slot0.designBg)
 
-					slot0.designBg = nil
-				end
+				slot0.designBg = nil
 			end
 
 			if not slot0.designBg then
@@ -1923,7 +1824,7 @@ function slot0.loadSkinBg(slot0, slot1, slot2)
 				setActive(slot0.designBg, false)
 			end
 
-			for slot6 = 1, 5, 1 do
+			for slot6 = 1, 5 do
 				if slot0.bgEffect[slot6] then
 					setActive(slot0.bgEffect[slot6], slot6 == slot0.shipVO:getRarity() and slot0.page ~= uv0.PAGE.REMOULD)
 				elseif slot7 > 2 and slot7 == slot6 then
@@ -1958,11 +1859,10 @@ function slot0.paintView(slot0)
 	slot0.character:GetComponent("Image").enabled = false
 	slot0.inPaintingView = true
 	slot1 = {}
+	slot3 = 0
 
-	while slot0._tf.childCount > 0 do
-		slot4 = slot0._tf
-
-		if slot4:GetChild(slot3).gameObject.activeSelf and slot4 ~= slot0.main and slot4 ~= slot0.background then
+	while slot0._tf.childCount > slot3 do
+		if slot0._tf:GetChild(slot3).gameObject.activeSelf and slot4 ~= slot0.main and slot4 ~= slot0.background then
 			slot1[#slot1 + 1] = slot4
 
 			setActive(slot4, false)
@@ -1971,10 +1871,10 @@ function slot0.paintView(slot0)
 		slot3 = slot3 + 1
 	end
 
-	while slot0.main.childCount > 0 do
-		slot4 = slot0.main
+	slot3 = 0
 
-		if slot4:GetChild(slot3).gameObject.activeSelf and slot4 ~= slot0.shipInfo then
+	while slot0.main.childCount > slot3 do
+		if slot0.main:GetChild(slot3).gameObject.activeSelf and slot4 ~= slot0.shipInfo then
 			slot1[#slot1 + 1] = slot4
 
 			setActive(slot4, false)
@@ -1983,7 +1883,7 @@ function slot0.paintView(slot0)
 		slot3 = slot3 + 1
 	end
 
-	for slot8 = 1, tf(pg.UIMgr:GetInstance().OverlayMain).childCount, 1 do
+	for slot8 = 1, tf(pg.UIMgr:GetInstance().OverlayMain).childCount do
 		if slot4:GetChild(slot8 - 1).gameObject.activeSelf then
 			slot1[#slot1 + 1] = slot9
 
@@ -2053,7 +1953,11 @@ function slot0.paintView(slot0)
 		Input.multiTouchEnabled = false
 
 		setActive(slot0.common, true)
-		SwitchPanel(slot0.shipInfo, -460, nil, uv1 * 2)
+
+		slot5 = nil
+		slot6 = uv1 * 2
+
+		SwitchPanel(slot0.shipInfo, -460, slot5, slot6)
 
 		uv2.enabled = false
 		uv3.enabled = false
@@ -2065,10 +1969,11 @@ function slot0.paintView(slot0)
 		closePortrait()
 
 		slot0:getPaintingFromTable(false).localScale = Vector3(1, 1, 1)
-		slot4.x = uv5
-		slot4.y = uv6
 
-		setAnchoredPosition(slot0:getPaintingFromTable(false), {})
+		setAnchoredPosition(slot0:getPaintingFromTable(false), {
+			x = uv5,
+			y = uv6
+		})
 
 		slot0.background:GetComponent("Button").enabled = false
 		slot0:getPaintingFromTable(false):GetComponent("CanvasGroup").blocksRaycasts = true
@@ -2126,8 +2031,8 @@ function slot0.closeRecordPanel(slot0)
 end
 
 function slot0.updateRecordEquipments(slot0, slot1)
-	for slot8 = 1, 5, 1 do
-		slot10 = tonumber(slot0.shipVO:getEquipmentRecord(slot0.player.id)[slot1] or {}[slot8]) and slot9 ~= -1
+	for slot8 = 1, 5 do
+		slot10 = tonumber((slot0.shipVO:getEquipmentRecord(slot0.player.id)[slot1] or {})[slot8]) and slot9 ~= -1
 		slot11 = slot0.recordEquipmentsTFs[slot1]:Find("equipment_" .. slot8)
 
 		setActive(slot11:Find("info"), slot10)
@@ -2138,10 +2043,9 @@ function slot0.updateRecordEquipments(slot0, slot1)
 			slot17 = not (slot0.shipVO.equipments[slot8] and slot15.id == slot9 or false) and (not slot14 or slot14.count <= 0)
 
 			setActive(slot13:Find("tip"), slot17)
-
-			slot21.id = slot9
-
-			updateEquipment(slot0:findTF("IconTpl", slot13), Equipment.New({}))
+			updateEquipment(slot0:findTF("IconTpl", slot13), Equipment.New({
+				id = slot9
+			}))
 
 			if slot17 then
 				onButton(slot0, slot13, function ()
@@ -2185,7 +2089,7 @@ function slot0.willExit(slot0)
 	LeanTween.cancel(slot0.chat.gameObject)
 
 	if slot0.paintingCode then
-		for slot4 = 1, #slot0.tablePainting, 1 do
+		for slot4 = 1, #slot0.tablePainting do
 			if LeanTween.isTweening(go(slot0.tablePainting[slot4])) then
 				LeanTween.cancel(go(slot5))
 			end

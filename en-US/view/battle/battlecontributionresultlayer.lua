@@ -19,7 +19,7 @@ function slot0.setActId(slot0, slot1)
 end
 
 function slot0.didEnter(slot0)
-	slot0.super.didEnter(slot0)
+	uv0.super.didEnter(slot0)
 	slot0:setPoint()
 end
 
@@ -34,7 +34,7 @@ function slot0.setPoint(slot0)
 end
 
 function slot0.setGradeLabel(slot0)
-	setActive(slot1, false)
+	setActive(slot0:findTF("grade/Xyz/bg13"), false)
 	LoadImageSpriteAsync("battlescore/grade_label_clear", slot0:findTF("grade/Xyz/bg14"), false)
 end
 
@@ -44,12 +44,12 @@ function slot0.rankAnimaFinish(slot0)
 	slot0:setCondition(i18n("battle_result_total_damage"), slot0.contextData.statistics.specificDamage, COLOR_BLUE)
 	slot0:setCondition(i18n("battle_result_contribution"), slot0._contributionPoint, COLOR_YELLOW)
 	table.insert(slot0._delayLeanList, LeanTween.delayedCall(1, System.Action(function ()
-		slot0._stateFlag = slot1.STATE_REPORTED
+		uv0._stateFlag = uv1.STATE_REPORTED
 
-		SetActive(slot0:findTF("jieuan01/tips", slot0._bg), true)
+		SetActive(uv0:findTF("jieuan01/tips", uv0._bg), true)
 	end)).id)
 
-	slot0._stateFlag = slot0.STATE_REPORT
+	slot0._stateFlag = uv0.STATE_REPORT
 end
 
 function slot0.setCondition(slot0, slot1, slot2, slot3)
@@ -62,8 +62,8 @@ function slot0.setCondition(slot0, slot1, slot2, slot3)
 	slot4:Find("value"):GetComponent(typeof(Text)).text = setColorStr(slot2, slot3)
 
 	if slot0._conditionContainer.childCount - 1 > 0 then
-		table.insert(slot0._delayLeanList, LeanTween.delayedCall(slot0.CONDITIONS_FREQUENCE * slot8, System.Action(function ()
-			setActive(setActive, true)
+		table.insert(slot0._delayLeanList, LeanTween.delayedCall(uv0.CONDITIONS_FREQUENCE * slot8, System.Action(function ()
+			setActive(uv0, true)
 		end)).id)
 	else
 		setActive(slot4, true)

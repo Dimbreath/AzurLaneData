@@ -5,7 +5,6 @@ function slot0.getUIName(slot0)
 end
 
 function slot0.GetPaintingCommodityUpdateVoice(slot0)
-	return
 end
 
 function slot0.CanOpen(slot0, slot1, slot2)
@@ -52,13 +51,16 @@ function slot0.InitCommodities(slot0)
 
 	slot0.uilist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			onButton(slot1, slot1:AddCard(slot3, slot2).tr, function ()
-				slot0:OnClickCommodity(slot1.goodsVO, function (slot0, slot1)
-					slot0:OnPurchase(slot0, slot1)
+			slot3 = uv0[slot1 + 1]
+			slot4 = uv1:AddCard(slot3, slot2)
+
+			onButton(uv1, slot4.tr, function ()
+				uv0:OnClickCommodity(uv1.goodsVO, function (slot0, slot1)
+					uv0:OnPurchase(slot0, slot1)
 				end)
 			end, SFX_PANEL)
 
-			slot1.cards[slot0[slot1 + 1].id] = slot1.AddCard(slot3, slot2)
+			uv1.cards[slot3.id] = slot4
 		end
 	end)
 	slot0.uilist:align(#slot0.shop:GetCommodities())
@@ -77,7 +79,6 @@ function slot0.OnPurchase(slot0, slot1, slot2)
 end
 
 function slot0.OnDestroy(slot0)
-	return
 end
 
 return slot0

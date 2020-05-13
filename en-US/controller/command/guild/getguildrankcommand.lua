@@ -1,4 +1,6 @@
-class("GetGuildRankCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("GetGuildRankCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 
 	if not getProxy(GuildProxy):getGuildEvent() or slot4:isEnd() then
@@ -18,11 +20,11 @@ class("GetGuildRankCommand", pm.SimpleCommand).execute = function (slot0, slot1)
 			}))
 		end
 
-		slot0:setRankList(slot1)
-		slot0:setRank(slot0.rank)
-		slot1:updateGuildEvent(slot0)
-		slot1.updateGuildEvent:sendNotification(GAME.GET_GUILD_RANK_DONE)
+		uv0:setRankList(slot1)
+		uv0:setRank(slot0.rank)
+		uv1:updateGuildEvent(uv0)
+		uv2:sendNotification(GAME.GET_GUILD_RANK_DONE)
 	end)
 end
 
-return class("GetGuildRankCommand", pm.SimpleCommand)
+return slot0

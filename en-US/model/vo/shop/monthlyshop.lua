@@ -27,9 +27,10 @@ function slot0.isOpen(slot0)
 
 	if slot0:bindConfigTable()[slot0.id] then
 		slot3 = pg.TimeMgr.GetInstance()
-
-		return slot3:STimeDescS(slot3:GetServerTime(), "*t").month == slot0.id
+		slot1 = slot3:STimeDescS(slot3:GetServerTime(), "*t").month == slot0.id
 	end
+
+	return slot1
 end
 
 function slot0.getRestDays(slot0)
@@ -38,9 +39,10 @@ function slot0.getRestDays(slot0)
 	end
 
 	slot1 = pg.TimeMgr.GetInstance()
-	Clone(slot2).month = slot0.id
+	slot3 = Clone(slot1:STimeDescS(slot1:GetServerTime(), "*t"))
+	slot3.month = slot0.id
 
-	if Clone(slot2).month >= 12 then
+	if slot3.month >= 12 then
 		slot3.month = 0
 		slot3.year = slot3.year + 1
 	end
@@ -57,9 +59,10 @@ function slot0.GetRestTime(slot0)
 	end
 
 	slot1 = pg.TimeMgr.GetInstance()
-	Clone(slot2).month = slot0.id
+	slot3 = Clone(slot1:STimeDescS(slot1:GetServerTime(), "*t"))
+	slot3.month = slot0.id
 
-	if Clone(slot2).month >= 12 then
+	if slot3.month >= 12 then
 		slot3.month = 0
 		slot3.year = slot3.year + 1
 	end
@@ -82,7 +85,7 @@ function slot0.getSortGoods(slot0)
 	end
 
 	table.sort(slot1, function (slot0, slot1)
-		if ((slot0:canPurchase() and 1) or 0) == ((slot1:canPurchase() and 1) or 0) then
+		if (slot0:canPurchase() and 1 or 0) == (slot1:canPurchase() and 1 or 0) then
 			if slot0:getConfig("order") == slot1:getConfig("order") then
 				return slot0.id < slot1.id
 			else

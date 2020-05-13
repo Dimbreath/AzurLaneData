@@ -525,5 +525,3 @@ pg.activity_ins_ship_group_template = {
 		10705
 	}
 }
-
-return

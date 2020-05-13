@@ -84,11 +84,9 @@ end
 
 function slot0.getProgress(slot0)
 	if slot0:isComplexTrophy() then
-		slot1 = 0
-
 		for slot5, slot6 in pairs(slot0.subTrophyList) do
 			if slot6:isClaimed() then
-				slot1 = slot1 + 1
+				slot1 = 0 + 1
 			end
 		end
 
@@ -103,9 +101,9 @@ function slot0.getHideType(slot0)
 end
 
 function slot0.isHide(slot0)
-	if slot0:getConfig("hide") == slot0.ALWAYS_HIDE then
+	if slot0:getConfig("hide") == uv0.ALWAYS_HIDE then
 		return true
-	elseif slot1 == slot0.HIDE_BEFORE_UNLOCK and slot0.timestamp <= 0 then
+	elseif slot1 == uv0.HIDE_BEFORE_UNLOCK and slot0.timestamp <= 0 then
 		return true
 	else
 		return false

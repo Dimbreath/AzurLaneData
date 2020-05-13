@@ -1,9 +1,11 @@
-class("WorldTriggerTaskCommand", pm.SimpleCommand).execute = function (slot0, slot1)
+slot0 = class("WorldTriggerTaskCommand", pm.SimpleCommand)
+
+function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.fleetId
 	slot5 = slot2.callback
 
-	if getProxy(WorldProxy).GetWorld(slot6).getTaskProxy(slot7):getTaskById(slot2.taskId) then
+	if getProxy(WorldProxy):GetWorld():getTaskProxy():getTaskById(slot2.taskId) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n1("该任务已存在" .. slot4))
 
 		return
@@ -27,18 +29,18 @@ class("WorldTriggerTaskCommand", pm.SimpleCommand).execute = function (slot0, sl
 			slot1 = WorldTask.New(slot0.task)
 			slot1.new = 1
 
-			slot0:addTask(slot1)
+			uv0:addTask(slot1)
 			pg.TipsMgr.GetInstance():ShowTips("接取任务：" .. slot1.id)
 
 			if #slot1.config.task_op > 0 then
 				pg.StoryMgr.GetInstance():Play(slot1.config.task_op)
 			end
 
-			if slot1 then
-				slot1()
+			if uv1 then
+				uv1()
 			end
 
-			slot2:AddLog(WorldLog.TypeTask, {
+			uv2:AddLog(WorldLog.TypeTask, {
 				task = slot1.id
 			})
 		else
@@ -47,4 +49,4 @@ class("WorldTriggerTaskCommand", pm.SimpleCommand).execute = function (slot0, sl
 	end)
 end
 
-return class("WorldTriggerTaskCommand", pm.SimpleCommand)
+return slot0

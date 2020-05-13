@@ -6,13 +6,13 @@ end
 
 function slot0.OnInit(slot0)
 	onButton(slot0, slot0._tf:Find("frame/close_btn"), function ()
-		slot0:Hide()
+		uv0:Hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0._tf, function ()
-		slot0:Hide()
+		uv0:Hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0._tf:Find("frame/cancel_btn"), function ()
-		slot0:Hide()
+		uv0:Hide()
 	end, SFX_PANEL)
 
 	slot0.input = findTF(slot0._tf, "frame/bg/content/input")
@@ -26,15 +26,15 @@ function slot0.Show(slot0, slot1, slot2)
 	slot0._tf:SetAsLastSibling()
 	setInputText(slot0.input, "")
 	onButton(slot0, slot0.confirmBtn, function ()
-		if not getInputText(slot0.input) or slot0 == "" then
+		if not getInputText(uv0.input) or slot0 == "" then
 			return
 		end
 
-		if slot1 then
-			slot1(slot0)
+		if uv1 then
+			uv1(slot0)
 		end
 
-		slot0:Hide()
+		uv0:Hide()
 	end, SFX_PANEL)
 end
 

@@ -18149,5 +18149,3 @@ pg.item_data_template = {
 		69959
 	}
 }
-
-return

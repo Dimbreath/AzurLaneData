@@ -12220,7 +12220,7 @@ Event Rules:
 		tip = "Reporting is available after reaching Commander Lv. 20 ",
 		key = "inform_level_limit"
 	},
-	3match_tip = {
+	["3match_tip"] = {
 		key = "3match_tip",
 		tip = {
 			{
@@ -12356,5 +12356,3 @@ By tapping the “Quick Retire” button to the bottom left of the Retire interf
 		key = "collect_tip2"
 	}
 }
-
-return
